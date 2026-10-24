@@ -1,0 +1,14 @@
+<!-- Joel's reader (chatgpt), 2026-10-23, his paste in experiments/t104-answers/JOEL-20261023-2321.md, word for word. -->
+2026-10-23 22:48 UTC
+This paragraph has several AI tells, mostly from stacked safety disclaimers, unnatural phrasing, and repetitive qualifications. None proves AI authorship, but together they give it an AI-polished feel.
+1. “Milder reactions afterward count as caution signs too” — Awkward, abstract phrasing. “Count as caution signs” sounds like an attempt to formally classify something rather than explain it naturally. “Afterward” also lacks a clear reference without the surrounding context.
+2. “like getting confused or spaced out (dissociating) again and again” — An odd mixture of conversational and clinical language. The parenthetical feels inserted to satisfy an educational requirement. “Again and again” is also slightly redundant with the later “keeps going or comes back.”
+3. “if any of this is severe or risky” — Generic safety language. “Risky” is particularly vague. What makes confusion risky? AI often uses broad qualifiers where a human editor might specify the actual danger.
+4. “and especially if it keeps going or comes back while you’re sober” — Qualification stacking. The sentence starts with immediate professional help, then adds severity, risk, persistence, recurrence, and sobriety. These are potentially important distinctions, but they're compressed into one increasingly cumbersome instruction.
+5. “Don’t suddenly quit a prescribed medicine, or anything your body is dependent on” — The second clause feels mechanically appended to cover every possible scenario. The comma before “or” adds to the awkwardness.
+6. “just because it might be part of the problem; have a doctor help you stop safely” — Another classic AI safety pattern: prohibition → justification → professional-supervision instruction. The content is sensible, but “have a doctor help you stop safely” sounds formulaic.
+Strongest overall tell
+The paragraph seems to have been assembled by adding successive safeguards to an underlying message without reorganizing the prose.
+It tries to accomplish three things simultaneously: identify warning signs, explain when to seek help, and warn against abrupt withdrawal. Each precaution is defensible, but the accumulation makes the paragraph read more like a safety-compliance checklist than a person speaking directly to a reader.
+My assessment: Moderately AI-sounding (about 7/10 stylistically). The biggest issue isn't vocabulary or excessive polish. It's the way qualifications and safety instructions are bolted together. A human medical editor could write this too, so I wouldn't treat it as reliable evidence of AI authorship.
+For humanization, I'd prioritize splitting the ideas into natural sentences, replacing vague expressions with concrete ones, and preserving the medically important warnings without repeating them.

@@ -1431,6 +1431,10 @@ Give a new interest enough tries to get past the humiliation of being a beginner
 
 As the Guide, you choose what your little one learns and what it gets to experience, and you hold standards, the way a good parent would. Your parent's harsh tone doesn't come with the job, though. You ask hard things of it so it can grow, at its own pace. That's what I was just asking of you, with that new interest. You also widen its world with art and music, and you point out beautiful things when you see them. Nature is part of that, and so is the wider world past the end of the street you grew up on.
 
+<!-- Turn 104 (his answers of 2026-10-23 23:21 UTC, experiments/t104-answers/JOEL-20261023-2321.md): 100.1 A: the naming aside, moved here from the end of P10 (GPT's move, his "agree with gpt" and "100.1a"; check t103c_ig_opening_aside, 100% Human with P1). -->
+
+By the way, this job doesn't have to be called the Guide. The Wise One works, or your Inner Teacher, and "Guru" does for some people.
+
 ## Between Spoiling and Clamping Down
 
 <!-- Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 99 A: a new heading, no word changes (experiments/t102-readers-edit/THE-INNER-GUIDE.md). -->
@@ -1439,7 +1443,9 @@ As the Guide, you choose what your little one learns and what it gets to experie
 
 <!-- Turn 87 (his answers of 2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)): 78.1, ST-CA candidate 11 (comfort at set times, never canceled as a punishment; section 17.1.4, PDF pp. 500 and 513), two sentences at the end of P2. Lint REVIEW at most; not yet checked in Pangram. Drafts: experiments/t87-drafts/. -->
 
-Maybe you've let a small child win at Go Fish and never found a good time to start playing for real. Who wants to be the grown-up who finally wins? Without the Guide, you can slide from looking after your little one into spoiling it the same way. Sweets and screens can pass for loving yourself, and so can getting it out of anything hard. Comfort does better at set times, where it can't get out of hand. It shouldn't get canceled as a punishment after a bad day, either (ST-CA, section 17.1.4).
+<!-- Turn 104 (his answers of 2026-10-23 23:21 UTC, experiments/t104-answers/JOEL-20261023-2321.md): 100.2 A: "Comfort does better at set times, where it can't get out of hand. It shouldn't get canceled ..." became "Treats and pampering do better at set times, where they can't get out of hand. They shouldn't get canceled ...", since "comfort" could read as rationing affection (GPT, 99) and the book meant treats and pampering (ST-CA, section 17.1.4; experiments/t84-books/CANDIDATES-stca.md, candidate 11). -->
+
+Maybe you've let a small child win at Go Fish and never found a good time to start playing for real. Who wants to be the grown-up who finally wins? Without the Guide, you can slide from looking after your little one into spoiling it the same way. Sweets and screens can pass for loving yourself, and so can getting it out of anything hard. Treats and pampering do better at set times, where they can't get out of hand. They shouldn't get canceled as a punishment after a bad day, either (ST-CA, section 17.1.4).
 
 <!-- Turn 77: Joel's own text from his 2026-10-19 upload (the version he gave GPT), word for word apart from obvious typos; not yet checked in Pangram here. -->
 
@@ -1477,7 +1483,9 @@ Forced adulthood can get into your head too, where it wants everything as spotle
 
 I think this is closer to Buddhist practice too. The point is not an impossible performance in which nothing unskillful ever appears. In one discourse (sutta), AN 6.63, the Buddha defines karma in terms of intention (so if you didn't mean to cause harm, your mind is not poisoned). In DN 2, he explains that in the training to purify the mind, one first recognizes a fault, makes amends, and then restrains themself to prevent that kind of thing in future. So it's not like, "you're either pure, or you're not," which is where a lot of folks stay stuck. If you're ashamed about something you chose to do, that might be a signal to give some attention to that. If it's shame just because of an intrusive thought, then it's probably not adaptive and can be simply let go of.
 
-## A Belonging Deeper Than Any Group
+## You Belong Everywhere and Nowhere
+
+<!-- Turn 104 (his answers of 2026-10-23 23:21 UTC, experiments/t104-answers/JOEL-20261023-2321.md): 100.1 A: his heading, in place of "A Belonging Deeper Than Any Group" (99 A), which P9's first sentence said again (checks t103d and t103f, 27% and 25% AI on the heading and that sentence). -->
 
 <!-- Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 99 A: a new heading, no word changes (experiments/t102-readers-edit/THE-INNER-GUIDE.md). -->
 
@@ -1485,13 +1493,17 @@ I think this is closer to Buddhist practice too. The point is not an impossible 
 
 <!-- Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 98.9 A (his "98. agree cut all"): cut "(that part is optional)". The original is in experiments/t102-safety/SAFETY-CUTS.md. -->
 
-The Guide also points beyond itself, toward a belonging deeper than any group, one that doesn't ask you to give up being yourself. That might be nature, or existence itself. It might be whatever your tradition sees as ultimate. Love can come from any of these places, and you also belong there, which is a little different. Maybe you've felt that outside somewhere, like you didn't need anybody's okay to be there. The way in is time in nature and contemplative practice, like meditation.
+<!-- Turn 104 (his answers of 2026-10-23 23:21 UTC, experiments/t104-answers/JOEL-20261023-2321.md): 100.1 A: his P9, word for word; its first sentence is draft s06's, so it no longer says the heading's words again. -->
+
+The Guide also points beyond itself, toward somewhere you belong that doesn’t ask you to give up being yourself. That might be nature, or existence itself. It might be whatever your tradition sees as ultimate. Love can come from any of these places, and you also belong there, which is a little different. Maybe you’ve felt that outside somewhere, like you didn’t need anybody’s okay to be there. The way in is time in nature and contemplative practice, like meditation.
 
 <!-- Turn 62 (E180), my own draft, groups 8 and 9, in place of turn 61's p9-e: that ground can make belonging with people less desperate, not all at once, as the Guide keeps reminding your little one that a group's approval isn't the deepest belonging (turn 61 grounding [4]); then the other names as an aside, a permission ("this job", [5]; "Guru" one of them, [6]). The part that read AI at the end of every P8 reads Human here. Alone Human Written (0.27, low), https://www.pangram.com/history/9555d54e-2af5-4d05-835a-5db91d906a8c; with P8 Human (0.39, high), https://www.pangram.com/history/c8b52677-c73b-4696-bb5e-39772c8aecec. The h1: Human Written (0.087, high, 994 words), https://www.pangram.com/history/f0544afa-e8eb-41fa-9ff2-38620b972a5d. Group 10 (an external guru who demands surrender) comes next. -->
 
 <!-- Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 97.12 A (his "97. i agree cut all"): cut ", though for cult survivors it can be a trigger word, which is understandable". The original is in experiments/t102-safety/SAFETY-CUTS.md. -->
 
-With that under you, belonging with people can get a lot less desperate. Not all at once, but the Guide keeps watching for the moment your little one starts thinking, "If they stop liking me, I won't belong anywhere," and keeps reminding it that a group's approval isn't the deepest belonging there is. By the way, this job doesn't have to be called the Guide. The Wise One works, or your Inner Teacher, and "Guru" does for some people.
+<!-- Turn 104 (his answers of 2026-10-23 23:21 UTC, experiments/t104-answers/JOEL-20261023-2321.md): 100.1 A: his P10, word for word ("i fixed it, this passes"); the naming aside that ended it is now its own paragraph after P1 (GPT's move). -->
+
+With that under you, belonging with people can get a lot less desperate. Not all at once, though. Your little one might still think, “If they stop liking me, I won’t belong anywhere,” and the Guide can remind it there’s more to belong to than them.
 
 ## Timing Is Individual
 

@@ -1,0 +1,50 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "I'd count the milder stuff too, like coming back from trip after trip confused or spaced out.",
+  "If it's bad, or it's putting you in danger, I'd see a doctor or a therapist right away.",
+  "That goes double if it keeps happening when you're sober.",
+  "And if you think a prescribed medicine is part of the problem, I wouldn't just stop taking it.",
+  "Ask a doctor first, since coming off some things too fast is dangerous, alcohol too once your body depends on it."
+ ],
+ "flagged": {
+  "1": [],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "sonnet"
+  ],
+  "4": [
+   "codex",
+   "sonnet"
+  ],
+  "5": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "human_clean": [
+  "the milder stuff",
+  "trip after trip",
+  "alcohol too once your body depends on it.",
+  "coming back from trip after trip confused or spaced out",
+  "I wouldn't just stop taking it",
+  "trip after trip",
+  "spaced out",
+  "I'd count the milder stuff too"
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Sometimes a session goes great, and a few days later you're skipping lunch and saying yes to everything again.",
+  "Your first guess might be that you didn't go deep enough.",
+  "I'd guess the session was fine, and you just haven't brought any of it out with you yet.",
+  "One small real thing can teach your little one more than ten more good meditations.",
+  "So whatever you did for it in there, I'd try a tiny bit of it out here, like texting a friend that you're having a rough day instead of saying you're fine."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "human_clean": [
+  "skipping lunch and saying yes to everything again",
+  "you just haven't brought any of it out with you yet",
+  "and you just haven't brought any of it out with you yet.",
+  "skipping lunch and saying yes to everything again.",
+  "skipping lunch and saying yes to everything again",
+  "brought any of it out with you"
+ ]
+}

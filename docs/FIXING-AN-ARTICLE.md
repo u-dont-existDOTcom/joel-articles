@@ -64,6 +64,7 @@ The spending rule is `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`. In practice:
 4. **Pay for a check only for one paragraph** (on pangram.com, or through the API, open again since 2026-10-21; the API gives windows, not the GUI's sentence shading), after a segment points at it and with a named cause: up to six tries per paragraph lineage, each with its own diagnosis, and stop when there's no credible one.
 5. **The humanizing rules** are the gate, `docs/HUMANIZATION-GATE.md`: screen first, plain words, the tell list, the lean process.
 6. **Don't use a community humanizer skill** (such as humanize-kit) on his articles; the gate is the method (E206).
+7. **Fresh readers name the tells, not the writer** (`tools/humanization/tell_panel.py`). Before you say a paragraph has no tells left, name a human tell, or ask Joel's help, give the paragraph alone to three fresh readers, Codex from his laptop and a Sonnet and a Haiku agent, with one open question and no list of tells. Fix every sentence two of them flag, run the panel on the draft before its check, and link the panel's PANEL.md in any help request. Joel, 2026-10-23, after the three readers he asked found at once the tells of a paragraph I had said had none left: "so why don't you fix your process before asking for help" (E253, Inner Child lane).
 
 ## 7. Saving and handing over
 

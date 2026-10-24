@@ -1,0 +1,62 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "After the day, look at what actually happened.",
+  "If you did the Protector action(s), not feeling better right away is information to learn from.",
+  "Healing is nonlinear, and sometimes standing up for yourself might make you feel worse at first.",
+  "Not doing it is harder to figure out.",
+  "Fear is the first guess, but maybe you didn't know how or why.",
+  "Being worn out can stop you too, and sometimes whoever said they'd help couldn't make it.",
+  "Hey, we've all been there.",
+  "🤗"
+ ],
+ "flagged": {
+  "1": [],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [],
+  "5": [],
+  "6": [
+   "haiku",
+   "sonnet"
+  ],
+  "7": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "8": [
+   "codex",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3,
+  6,
+  7,
+  8
+ ],
+ "human_clean": [
+  "Not doing it is harder to figure out.",
+  "whoever said they'd help couldn't make it",
+  "Not doing it is harder to figure out.",
+  "After the day",
+  "maybe you didn't know how or why",
+  "Not doing it is harder to figure out.",
+  "Fear is the first guess",
+  "whoever said they'd help couldn't make it"
+ ]
+}
