@@ -684,7 +684,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
-          "sha256": "55605ff38bd031be8a991a994d1a7eb9bbf451f67d0a68b6adfd693cd06991c3",
+          "sha256": "bd1dc9ec3ff425f532718e7e45750d9e00a7e80f457e986e5cf16a03b4be5ede",
           "role": "active_humanization_review_assembly"
         },
         {
@@ -2634,7 +2634,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-EDITS.json",
-          "sha256": "2290dda1ee50e05b9a8ebde00b535ffe2aa852c101a3192a0bc03c6d34b5f5c0",
+          "sha256": "101c1d2cca5c39f932077d6de861eb05972335252305c12cd676ea3dc5183d24",
           "role": "owner_edits_ledger"
         },
         {
@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "fda24b97da98794331e735e277e7433319f9903ef8986f651ec6c7da4b7bd301",
+          "sha256": "1f9c05a14a22779f7b81c003b91e810ed6fb4a8c329c847f9187cfda2ad9ca82",
           "role": "owner_questions_page"
         },
         {
@@ -22854,7 +22854,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HANDOFF-UPDATE.json",
-          "sha256": "41100966c2c1c27479be31e1cc7a30d52767007c9ba928c8906a074035610f3b",
+          "sha256": "907786bcdf101f9c6500ead48dec11c67513f9573efc9e198c41ee160d69320b",
           "role": "humanization_working_record"
         },
         {
@@ -22939,7 +22939,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/pangram-ledger.jsonl",
-          "sha256": "ffc2b840b4e29272cc0337643442d2a8a7678d7a647ec8ba71630bb4c5fe78b9",
+          "sha256": "3af2d800d971cd5fa205a2cc8e0f2544ebd66a8eead4f4d26cd3a2657716aab7",
           "role": "humanization_working_record"
         },
         {
@@ -23924,7 +23924,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/SCORECARD.md",
-          "sha256": "02fb6cd18ee1eecae9fdad511bc2c8b375c77fc68291f5cb195686744740f051",
+          "sha256": "bd43576b49c21451f806eddfb6e5331a9c1ed9fc1ea47af3518958c2c1885978",
           "role": "humanization_working_record"
         },
         {
@@ -25499,12 +25499,12 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/97_8-current/PANEL.json",
-          "sha256": "64e02853c41ed58567ada01984695a50239a70ab30f281f5ef8678618626ab61",
+          "sha256": "2aa3ad812d0c1a8bfe3feac42cd3582eda139259de7233b042462eb2efc65404",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/97_8-current/PANEL.md",
-          "sha256": "f9974519d210494a227300dafabff8c33827b559db1d68e273d26a2724d2b73a",
+          "sha256": "acdbf1a3123ca88f3e8ebe0064b32bc1b3e7db66b070806962c6f46057e8ec9b",
           "role": "humanization_working_record"
         },
         {
@@ -25529,12 +25529,12 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/97_8-d1/PANEL.json",
-          "sha256": "d7b0c775b828aa984dd09e09baf2edbfb9923a30a2088c8f18e2a989867623f2",
+          "sha256": "b823835c79408357e979f28092a1f0e6f330caba8d0dcc4bec7be4d2677ccf26",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/97_8-d1/PANEL.md",
-          "sha256": "56925c76ba8b6d8f36cb162ff29cb6041026a851e6df49a4ad3dddd192c43a5e",
+          "sha256": "5064812686c536c57592855d9af81b78caad97c3204c0feed1e37ba74d4ef8b5",
           "role": "humanization_working_record"
         },
         {
@@ -25564,12 +25564,12 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/97_8-d2/PANEL.json",
-          "sha256": "49df98af764692f387d1188235fc167747b3fc7d43953d0cf42265e9b6cc415b",
+          "sha256": "76aaa41b12ca5854f8831af9ee4f1d30fd82374e04c3cb7c7d4db9c8fd2f04d4",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/97_8-d2/PANEL.md",
-          "sha256": "dc00265fd09c6f6fe1ccb258bf345cf5e1a988b7660cd7f1061ad8c31ad83995",
+          "sha256": "b9a0f93521194361c93a058b23f1f96d6007df60bfe67917a68d9dc05ab2813a",
           "role": "humanization_working_record"
         },
         {
@@ -25599,12 +25599,12 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/97_8-d3/PANEL.json",
-          "sha256": "35f9928ac734f38ab673298b212554c1c36e9ae48f071a65594ee1c76998acf3",
+          "sha256": "173ca04543c3e2093f56138733df8d45a5110da1d3184f31b9a8a9f7fe5d4790",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/97_8-d3/PANEL.md",
-          "sha256": "2b2b6c318b5f4f920a66ba3127791402932d9097c7d4eaf7ca45211c7a2313c5",
+          "sha256": "36b6909b3f8756740a500b37623dd35f8fb997c593b922648b32e9f16dd12bac",
           "role": "humanization_working_record"
         },
         {
@@ -25634,12 +25634,12 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/97_8-d4/PANEL.json",
-          "sha256": "d4f811117cf0217d564785ad237784d44eebe19af595e83e9215d7eca2a12c69",
+          "sha256": "b3d9def62ff985cb53ddde6da42addb4ea09714733ece512726a668dd4c52aba",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/97_8-d4/PANEL.md",
-          "sha256": "044de29da9516630dad4ea90d0404bf05db769319757d73c162640deccea5b7a",
+          "sha256": "a9647f578158655650f93bd7fbd38198283e42bf85c03ba089a9eb54c6070bc7",
           "role": "humanization_working_record"
         },
         {
@@ -25669,12 +25669,12 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/98_2-c1/PANEL.json",
-          "sha256": "e26dbb861ac11b18769db69f4a0953688e12a5564b255310a5738ae037c80dc5",
+          "sha256": "c15d604826d1e757dabd4a0cb58d215e6152d71af2cb4fa7f62f02c29eab2d55",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/98_2-c1/PANEL.md",
-          "sha256": "4c5d090e1aa2d3fee551d107230dda1a9d2c8276951e8ee93a45db9d13195b5b",
+          "sha256": "5cf0af3c1b0d1164ca8bb2e839647545a00520cd9e877b1b5b1ae8f67303dd2c",
           "role": "humanization_working_record"
         },
         {
@@ -25704,12 +25704,12 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/98_2-current/PANEL.json",
-          "sha256": "14427339fc61843511fc4907664d13cb7825781877df260014a359fd3c084e0e",
+          "sha256": "f0269da3a0b0438c68e62caa03c3530bc67153144041f6c102770ddbd76805d2",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/98_2-current/PANEL.md",
-          "sha256": "464c1714118eaf749a2901cdf14870082cd8adb626fe634717b3bce299ef1d6b",
+          "sha256": "566c14f13b0f460386062d7f296d5011a70a0ff74b8329da4eac36f95e92c87c",
           "role": "humanization_working_record"
         },
         {
@@ -25739,12 +25739,12 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/98_7-current/PANEL.json",
-          "sha256": "f2e9444567d6efa482533e34d49622e8aaf7387e0a87e36e9a6d689ae69594bd",
+          "sha256": "5fb59d4b8da92a72ec1fca0c785a10382e83fd88322fea235a50b7a2b5a4908f",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/98_7-current/PANEL.md",
-          "sha256": "824ff4c2832345d3c8a92c26984f355cc575ede82ee1166ab0bd224df8f93f58",
+          "sha256": "a22b150d2e65a1ff439079f25011218de559616f5e72361efd51c4cc2cbf5943",
           "role": "humanization_working_record"
         },
         {
@@ -25774,12 +25774,12 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/98_7-d1/PANEL.json",
-          "sha256": "97c36d9e06dc4a88b2c1c2f2d91e4d10f016db195e9952c465a6e4213222dc11",
+          "sha256": "eca353a7c2820e34c10a6690be9a6dcc132336e8ca7e64073875be1ba8d83e66",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/98_7-d1/PANEL.md",
-          "sha256": "ad9810f43eb429c315ad07ce1ca92a7071e42630494308e46275db1843ad277a",
+          "sha256": "2cabec2181cd047571e67c1c12a895d73046ccf6007b8cd3e37f10e44392cd9a",
           "role": "humanization_working_record"
         },
         {
@@ -25809,12 +25809,12 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/98_7-d2/PANEL.json",
-          "sha256": "96657ce94fc43f3c91c1e143be7a70a920facf882ccd1d24c0b0387ff8fc85d3",
+          "sha256": "e75336e2a01ae159fa658121d4d15f56026c3febf00794f4b26a54bdebb8f042",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/98_7-d2/PANEL.md",
-          "sha256": "5228af55064a8aacbe75fb0f703bc65c26aec7082faca255b51a3368fe5ffbcb",
+          "sha256": "f345ed4fe72013ca083311f375012cbaa94493393c25427fa8226dbd43ce56f2",
           "role": "humanization_working_record"
         },
         {
@@ -25844,12 +25844,12 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/98_7-d3/PANEL.json",
-          "sha256": "1f9f5d422efa5fe35c75524a06e7400f054f1032f5f0d43b80baa23896c4a823",
+          "sha256": "37e97275f9cde8230b427e5de50ff2e75bbb38be2030b65e538d9640a74588a5",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/98_7-d3/PANEL.md",
-          "sha256": "fb90f194f2cf44e79c2dd82678d08f1eca3a5f9376aae090dab24c177c057477",
+          "sha256": "0faedcd2306b9ed8e112babf4b62c2146d02db13a8825fc35d591b12ebfbe7c5",
           "role": "humanization_working_record"
         },
         {
@@ -25879,12 +25879,12 @@
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/98_7-d5/PANEL.json",
-          "sha256": "28c58203e045485e770b330030552b7f35ccc1972d2178e49294c7240d29d64c",
+          "sha256": "6561cc66d569b30c5429d6683c21a8a297dee27777d85768baeac850ca2c1ea0",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-child-therapy/experiments/t104-panel/98_7-d5/PANEL.md",
-          "sha256": "f9d192a3ed13ae9dcd97575b3932eccaa68a52d42e9aeaa9488ba5d00cd98997",
+          "sha256": "a7d0011cea2da65ce3ff162c085a570658f4f7a82e76429f131ea8a78922a907",
           "role": "humanization_working_record"
         },
         {
@@ -25985,6 +25985,771 @@
         {
           "path": "articles/inner-child-therapy/experiments/t105-answers/READERS-20261024.txt",
           "sha256": "d4f93e54af5babde239339705a9c8802c6ba2073ef93465fd0d85a05e52bec91",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-api/API-CHECKS.md",
+          "sha256": "4e06fe15f38e4375421de935d13f8e4dcefcb8c62c30145bdfe908ff971414bd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-api/API-RESULTS-1.jsonl",
+          "sha256": "37d4bb8a0d95a84f9f0a9872aa2e460d0390f66872614c2a9b0444e06971ec68",
+          "role": "detector_experiment_result"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-api/API-RESULTS-2.jsonl",
+          "sha256": "514b7f71839ec152a6cd518678b33f79e1bc0928a0f5d93d4e63a2a82fad0c09",
+          "role": "detector_experiment_result"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-api/API-RESULTS-3.jsonl",
+          "sha256": "5125693394b79f07e6fb7c4cbc3bfab75b7f1dd9d2079aeb7eb687480bd3f9ad",
+          "role": "detector_experiment_result"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-api/NAMES.json",
+          "sha256": "e1c5edbf4f53e1a3c2112d96d866a6add196c714895fdf880029aba5464ea414",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-api/TEXTS-1.json",
+          "sha256": "42bde581e18c26d0a718e0036133ba9844f06fea61e7b8b81295c5001b8266ec",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-api/TEXTS-2.json",
+          "sha256": "72868077d3db528b43d7716e5b822027e67f4b9e69f3c97378a8c5af29236776",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-api/TEXTS-3.json",
+          "sha256": "d2e1f7bf7937e3b4c721e58d528892640af0d4f08523a5d84c97318e5f3ded9d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-api/make_texts.py",
+          "sha256": "6da79b3170a239a88da157b20bf063ed4876bd89d3a6f507e219b15989eb0d9d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-api/record.py",
+          "sha256": "887279d6af8eebf53a6145d4240928ae8e6f40b414ec783c35e6d29ea695aa56",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-api/results_page.py",
+          "sha256": "f2793530115f07c7f528f9c09f34c9ca1a3465eb4b4e4fe8bd42a6b6790491ae",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-api/texts/t105_97_8_gpt_stretch.txt",
+          "sha256": "a8ecb18ea1013e1f6555420d7b9343b222164e201ff87a2164367991406563cc",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-api/texts/t105_98_2_d3.txt",
+          "sha256": "67afd95e41994b6dd9dda00d74ec659a02b1c77822cf1af22acb0acd5a4f6f20",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-api/texts/t105_98_7_codex1.txt",
+          "sha256": "8ac52f3280c97d3d8134f769b1c69f60dfaf26a9f9aa23076577bf86c26d57c2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-api/texts/t105_98_7_d8.txt",
+          "sha256": "9c9d330dae35225a60a5a4133853c21c02b62736ce6eae63bf04e3df1453b4a6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-api/texts/t105_98_7_d8_stretch.txt",
+          "sha256": "6032ec3c16b3bee13e399b297369ebec06e11e98d77d261b69647e6b5163b4d3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-api/texts/t105_hero_h2_d3.txt",
+          "sha256": "8585f1938aa7953d6a130411e733ee3a1ca7ba64e1399b141fa60e2d9e3c18fb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-installs/apply_t105.py",
+          "sha256": "9fd1db4300244662168690fab140dae9108d5adbe2acb0d42db927665930c1c2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-installs/questions_t105.py",
+          "sha256": "4e41d2b54596a6a2a58d81d1a64b17629937272b4fe89879c672352113d395b3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/97_8-d4-joel/PANEL.json",
+          "sha256": "8cf8413bda40750ad839a3328f96960a4ab434ee8b89c3af5d841bdec0c4c389",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/97_8-d4-joel/PANEL.md",
+          "sha256": "86e582022cfe09eddb5adb4f2db9967198eb0d0be185f536dd90841b9651086d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/97_8-d4-joel/TEXT.txt",
+          "sha256": "7bf3ed3c71e7f01899253105551ec32eabdcf178dc3ccfb6bd7f90d4e5ffcca2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/97_8-d4-joel/joel-chatgpt.md",
+          "sha256": "18d5e5fa8a6ebb811db966739a82c35811524383c2cc597d57e40f94d4c5089c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/97_8-d4-joel/joel-codex.md",
+          "sha256": "a43e5662d37488c3ba1b3a785bc97992906efd9b33cfe50e5f034820dcf05bde",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/97_8-d4-joel/joel-haiku.md",
+          "sha256": "9f447f5d52a2d15154054291fdac5fd5e59f73ec3c1b88a7492130d130196ad6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_2-codex1/PANEL.json",
+          "sha256": "7bdea541c5172e8f4830131e4c77d71479c1255a1a7fa195cc45c977eafb89c0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_2-codex1/PANEL.md",
+          "sha256": "b9128d13182ce505dc7e81d598f7d590f6a150a40210d4fd0581f89803d0d171",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_2-codex1/PROMPT.txt",
+          "sha256": "1607c0bb1b4af59f1b81f6ba3710c796e547192bc5dbdbdfd8f49e58c313d2d5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_2-codex1/TEXT.txt",
+          "sha256": "5fe1cf6a15e324ea306349277701fa35e50598b306bfcf4bf16fb983efa90343",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_2-codex1/codex.md",
+          "sha256": "9c0cfe135d8bcef07bb589e90f8491de64ffb7ab3e125713e0e5ffb76f9fde50",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_2-codex1/haiku.md",
+          "sha256": "075d32f044eadb9d207e2340baf1c2f513595707aaa0d944c7b53ffee99e9689",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_2-codex1/sonnet.md",
+          "sha256": "499decd92b4e40af72c5aaf5277a84065b4e70d5bb3c0e459a0907d9ec2d59f3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_2-codex2/PANEL.json",
+          "sha256": "483fb61b9c48a0a32348d73ff6761e444294038dbe4830a2aa4a1fd5764629da",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_2-codex2/PANEL.md",
+          "sha256": "6bf80f24a5d62b33cf38336732a6a6e8fe13c04d4d3be1579bf67860e7043285",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_2-codex2/PROMPT.txt",
+          "sha256": "3d90cb82261876dadc0d8ad10bd4976a7610703c09b8e28e0509960157e70e08",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_2-codex2/TEXT.txt",
+          "sha256": "94fd076643620e657f85bd03d23450ae71efcd3ff715c44ac47582f443099646",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_2-codex2/codex.md",
+          "sha256": "c23279eda951ccd197022e71bce6a119bfa18bccd20a847dcd97f24e9bcd2485",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_2-d2/PANEL.json",
+          "sha256": "d5cbf1995eaa1ca45a7d755a291b62291afc690389594b6593e1c489e5668dc4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_2-d2/PANEL.md",
+          "sha256": "f0902cb9ef1665052c8d03157e9f055fced73ef40e2ba533f4a7d822c6e69b87",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_2-d2/PROMPT.txt",
+          "sha256": "fa9540d99120b2418fac2ef43d00c16a20afd16873d0547b13ed927b586d4a4f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_2-d2/TEXT.txt",
+          "sha256": "4b690c5fd87c221ec6f56880865306a78ce03ae95fa184177bdcee6c5a7bd845",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_2-d2/codex.md",
+          "sha256": "c36c99662c0340da2f37dd5f0d0d438d3bb9974afcff7663dfe8b9705724677c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-codex1/PANEL.json",
+          "sha256": "8a7973998823469487d7d1ba0df9c77458f226626aad68a6d1da5aa6b8257b64",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-codex1/PANEL.md",
+          "sha256": "916182f314ab7b7b88fc59e614f543d660ae315b1786cb30b66fc7f0e9fb4416",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-codex1/PROMPT.txt",
+          "sha256": "c1c3923cd40949c457b29d28963b5e128063bfdfa9bcf21ca6bf0cc8d9b76991",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-codex1/TEXT.txt",
+          "sha256": "7838c0b02646f221339680d184c90d1cbdf02581ed53989f4f7735223e5faf11",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-codex1/codex.md",
+          "sha256": "234543a5ea8c9e037ec230a96f0a4515f21275c971e8c5e30cef42ee99de5515",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-codex1/haiku.md",
+          "sha256": "95f30a65ccd22e11e7419ac4d2dbb627b83ab561d420f8a4791ffe461e74d675",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-codex1/sonnet.md",
+          "sha256": "20fb2d0752067992e7d0f8865c9f734282d4ba2f6f5fe555085d679820474514",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-codex2/PANEL.json",
+          "sha256": "23cb0a2939cb54d45c1e932b6960bf7b28f54b260b53c5095ab12aa4f58ced70",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-codex2/PANEL.md",
+          "sha256": "dbc69a466312c307c3e719c06b8ab03caaa826ac7543c6b46a08f2b3dd922ec5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-codex2/PROMPT.txt",
+          "sha256": "199b3707c92c105d608ac37832a6f6897622e68c4df28ab3b6942586d62a89df",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-codex2/TEXT.txt",
+          "sha256": "3a27a316e3778b246100030bd3515e8b3cc80de12c7621ad5569844b3c9ecb39",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-codex2/codex.md",
+          "sha256": "f0c3369068563c929502b2df97fa125e0d8a1934438d49cf47fccebd8867667c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-d6/PANEL.json",
+          "sha256": "26d4918797fce2e9b839e8ae3fa20b0f0d1b9f712f37bc29a8e42474437b19fd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-d6/PANEL.md",
+          "sha256": "95e14ff1c16c0a9b35bdd1c652babd7097ece5d014d43e58912bd0ea1cae2588",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-d6/PROMPT.txt",
+          "sha256": "cc5ef13376b027c1f2dc9d697bfce1055b6a849011f8db770d9a309fdc9a80cf",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-d6/TEXT.txt",
+          "sha256": "76fa0e4ad42beeaa05cac8710db3f6b36b36d0c532710d918a9aa41e606aea55",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-d6/codex.md",
+          "sha256": "ddf9a5ae40ef32974e4fc4a3b75aa5c3e5fcfe52cc64bfe22e7164efa84fabf5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-d6/haiku.md",
+          "sha256": "33432f63ecac905ebd6d281adbcfa4ba5b6899e4e489b62ae1c2a74e9d98b919",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-d6/sonnet.md",
+          "sha256": "2628ab5e7e4adceec8ff5ff56fd2fed04f53115dfab186637941b80077815fa9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-d7/PANEL.json",
+          "sha256": "c45b2d77b05910d829bbb739b589fab59544e340b8a536950df5355cefeccb10",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-d7/PANEL.md",
+          "sha256": "9928166d6f7fb75c0b44d926aacdfec687d11d861efbf05bf6cd6b27739fdc1b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-d7/PROMPT.txt",
+          "sha256": "32a1db832f6de15103c1d189af81f416654ecb3d7745e8df57657ea5b5ffca20",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-d7/TEXT.txt",
+          "sha256": "92758873c08ebc927f8c1083369c3066a695b70e0bde0da915c9972659616407",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-panel/98_7-d7/codex.md",
+          "sha256": "03bd3d484fb9a8678d790f90070ab169a45875039b13f7816ff1553eb2db18e0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/ARTICLE-READER.md",
+          "sha256": "7b349306261d429b541f121492da306dd8a38a12498e4c76fdac09595244d4c4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/ENGAGING.md",
+          "sha256": "f83f7408deba6460d8878749b7ffb0be5a28931db698b24cd5718ba99a7390fe",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/IDEAS.md",
+          "sha256": "605df399b1a5b22c9834610129cb99f531a746c16a1542e0c9ed7253e527b2e5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/apply_picks.py",
+          "sha256": "6321f7dabc4788387ee7b2e3e8d60598fe80d49bc6153fccbc492cc9618a0fa7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/caveat-picks.json",
+          "sha256": "74ae8274ec90ca7f5e5ba073cdf05dc984e3590656095f96a46db8af644d9ab9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/caveats/ARTICLE.txt",
+          "sha256": "fff8d7980d39817e2df330bc5ec549b85f3c60b46b6f84181af3f09b3393a3ee",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/caveats/BRIEF-1.txt",
+          "sha256": "9e705127ce9a9661631782acd4bf4e006ab32d542ff1882bfe9e1186867df942",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/caveats/BRIEF-2.txt",
+          "sha256": "6388dc1b530f54e6f14a0fb16782742e0cf02d9f20a3b0c45154ad23cefe63d9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/caveats/BRIEF-3.txt",
+          "sha256": "dfcb6592cff805a33995162d8e3dbafbbef50db17fe6e7502bd971f96c012b3a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/caveats/BRIEF-4.txt",
+          "sha256": "ce605f21f913d96305ef3ca24525e740ad42496fe5309fb0385dbb609bbf8a13",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/caveats/BRIEF-5.txt",
+          "sha256": "aa4f6334fbb53c6a1d67f034b8b37a289404f06a03412eb2a4a5cd92b12cef21",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/caveats/BRIEF-6.txt",
+          "sha256": "2605081442b4c3d756d7369eb43d94e1280ca82eee6ce0ad653803bc514a4207",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/caveats/ITEMS.json",
+          "sha256": "32b37d9e2a9a2493fd821e68b29d265db255970f396a2ade34bb98f46b7ff661",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/caveats/KIND",
+          "sha256": "462506063d7f3c29bb8890e0ffe6b653b48bea2cce638a0c7eb97ca4b0c907dd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/caveats/PART-1.txt",
+          "sha256": "2a2c9c1d2f622c6e3850e7cd42a5210ee0f960ab04336195fce943557632d6ed",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/caveats/PART-2.txt",
+          "sha256": "297fa77a6fe77e86e726b350c53c5ad6fa0fc592292b8b9620e34bdd23510c81",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/caveats/PART-3.txt",
+          "sha256": "039416758d87b7726361a3b5e301d60fe64d6265d5329b8ce3c93f819bc01847",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/caveats/PART-4.txt",
+          "sha256": "5120799d2b6ab774830541a6d022aa1f5b742779019d3102d4495d508c727e77",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/caveats/PART-5.txt",
+          "sha256": "d0983d218abe945a40de3a7c4581fa9dea33d54b594ea2df1635c032faf980cb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/caveats/PART-6.txt",
+          "sha256": "402a6d5508a064fdc436f795dd54462f8405301262ca0c2509dc65f339f7f501",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/caveats/READER-1.md",
+          "sha256": "826efffa75c7f90b0ac43e8e7ff5f76e88782ce48a765d785fb54937d930fe3a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/caveats/READER-2.md",
+          "sha256": "dc3e48a098fa97bf88dd67f4b99be568f25728f896b9e3315542bb5790177eec",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/ARTICLE.txt",
+          "sha256": "fff8d7980d39817e2df330bc5ec549b85f3c60b46b6f84181af3f09b3393a3ee",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/BRIEF-1.txt",
+          "sha256": "bb29aa0d88204205f4c846aec96b58e706aa9882a61b700044ec1d5b6ba8b3c2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/BRIEF-10.txt",
+          "sha256": "2ee6c7102e9c0d88c18353eac8b23a5127c924be3b49823f31b29576a2ef98c6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/BRIEF-11.txt",
+          "sha256": "3657ad91f9e901d3cbb12a4e4641709b98f64fbfa707d3b8e9b8799289a4dad0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/BRIEF-2.txt",
+          "sha256": "5652b1d54db95392c7ce8e90c3cb1823341e88c93a3c2dc754e6ee296283966f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/BRIEF-3.txt",
+          "sha256": "da48a114fb3a4248fa2b12e99d91267a2d9f3994e88a03906b292ab19abbf08f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/BRIEF-4.txt",
+          "sha256": "c783a3c9f9695944df24279b67dec6ce1dd80df8bbb8e1ba6fbd5966e94e099f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/BRIEF-5.txt",
+          "sha256": "05fb52ff755269c210de6b5266ede2c5c4058668b6d5432977e6f5a2d27e9a95",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/BRIEF-6.txt",
+          "sha256": "243317b51b31bdbc73435820429e260851f8fdd15f876844c8e83ce1517cbf1f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/BRIEF-7.txt",
+          "sha256": "bcb50b568573854ad55057e05501cf3d61920f5a412829cc318f4a1454c6fdab",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/BRIEF-8.txt",
+          "sha256": "675c21f6a6a9a97edba8b85fd0d61b1a2a3a1c446321e685a616dbfe0bcd71ba",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/BRIEF-9.txt",
+          "sha256": "5f8f5eb2d1333f6875db868557e68a7ea924ad9c78808d417d0894cd203adb79",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/ITEMS.json",
+          "sha256": "e468b57fa091c8f088a959547c69b2279281658c9d34ec7e2d6a258406cbf90f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/KIND",
+          "sha256": "b348ed8c3dfbb87f42fcdc93633cc3915a3b70ce523d7f033272557775f5cdf9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/PART-1.txt",
+          "sha256": "cc29e0321032346b108229f4efd2353f60747c7690136a0ffb27e9fd4c160620",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/PART-10.txt",
+          "sha256": "ac1d5a5b99e0052882f8eb038b0368b398fe01bb59e7e1a51c3748a30c468368",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/PART-11.txt",
+          "sha256": "f4997cccd37633dfd6203be0abe4ecfee0d3a2735d4a95243573ebf9503a3d72",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/PART-2.txt",
+          "sha256": "432b40b3cc3042d4c0a5c987148dec4005aa1b2b742c5f80eb95fae0b027d577",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/PART-3.txt",
+          "sha256": "bb83fae9fef0326e5f2c86680c1a7b9474b6bda11d819711d9eb769c8863c15b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/PART-4.txt",
+          "sha256": "0d859dd8fce46516b3919bb8a5ecced55e498d2c3f11e8f6bb24fe32bc10124f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/PART-5.txt",
+          "sha256": "bae15138cdd28c6aea15ce0c35f334e44768e651e72fc5a1ff8b9fa890536546",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/PART-6.txt",
+          "sha256": "da113c3efa4bd6329eaec18e9d6c85af7597c8878b7a7f3488cdff0079889c08",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/PART-7.txt",
+          "sha256": "33f5f99f5a95f66937c721028de1d5c3dbebf9d95760ae7fe8fbe5d919a6814f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/PART-8.txt",
+          "sha256": "f41c3df019768b0d967d2f6ebb32b6f23832e723f6898cbe95309cbec9844d26",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/PART-9.txt",
+          "sha256": "bb865af567d8a9988a03717c778c1357ae1f0fbf1d3ca8e4a08199b7dff62ebb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/READER-1.md",
+          "sha256": "ff70c71e8eb47ab22ea92d206b9ac0f6402241590d0dfdd556353e05578e1267",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/READER-10.md",
+          "sha256": "94e9e6c337acd3bb78dc3753db1a28b17cd39ef79924bc9fb5e499caafaf2dc9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/READER-11.md",
+          "sha256": "0a8fd701b91c7002ea7df910e4d6f5113eb18eee790268121eac07312e387138",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/READER-2.md",
+          "sha256": "f45e5b2998258f658e5af192031815f4c847836aad18c94cd0f4cacd9683f7f3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/READER-3.md",
+          "sha256": "79a6bfecb647d5b8432e25ab5cb09dddc09cb0b52c7773ca5197bea8042144ef",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/READER-4.md",
+          "sha256": "8b9537b4878924229a73d761238093785830663cd11af453960e3181a609224b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/READER-5.md",
+          "sha256": "8cd12f8b050cd7a43516bdbb438c5cb9cb97beca74dd3872b4f9f175ca0e5a6f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/READER-6.md",
+          "sha256": "87067779a86f60a997dfd9ca9d0dd2d34662c2a022bbe7d1cf1ac85316750e24",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/READER-7.md",
+          "sha256": "6a915d69bda8803b50244e10847fa8a15ec8043de41b0358084437ed31e57356",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/READER-8.md",
+          "sha256": "40bb6f8d755ab68c9f482e3b324f4cb5d701e2a7c99461ddecbfc3ef8977d43b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit/READER-9.md",
+          "sha256": "d46b9eb54573b0cfbe8aad8117571e0a103180442d2d5651ed2c8a4afa9d3818",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/edit-picks.json",
+          "sha256": "55020e1e4bd20c8ee8157b73e20c84f24c89c657724d636cdd7a301ec1e47411",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/ideas_page.py",
+          "sha256": "e53cac9bbd504f46fd3b0e1876d5b85cdec492e6b10361866cce06b8c7798528",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-readers-edit/whose.py",
+          "sha256": "fa203e74e3ee9fb5b4ec4c4f8d559d866fec34d92b8585a6f573bf1260910aa4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-review/MAP.json",
+          "sha256": "f641fa7dd5f31526dd6423a762ae9e5e6ac9a8a97a0877ec9c6fb6aa6b895590",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-review/ROWS.json",
+          "sha256": "cab807d67ba74eb798e976b5eff2552a46188c21534c61e02cfcf94887ec3c48",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-review/make_rows.py",
+          "sha256": "a8e8bddb6ae3eeaf146666ed6296c483bdf5cae81f9760a126805503b254f671",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/REVIEWS.md",
+          "sha256": "6b510a124290b9f3ad68a34e57e42fe9896864878378445c3aad904eb9610708",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/briefs/98_2-REWRITE-PROMPT-2.txt",
+          "sha256": "722efe7b571107c39117ae4e2e8b301961ac1d1041cd34c426ea2217cfddc7b5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/briefs/98_2-REWRITE-PROMPT.txt",
+          "sha256": "beb937269a9c895f85ef2f0b11bcd8f33a277b1a67a8e490cf430a23831469c9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/briefs/98_2-after.txt",
+          "sha256": "38aa612ec292890126c6d20f7889a536650049eda7e1686e6538dee0a427faa7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/briefs/98_2-before.txt",
+          "sha256": "28d01a1ed7d1b39db173d08384b83cf06a1b759f51f52b6a487fd255b345ced0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/briefs/98_2-points-2.txt",
+          "sha256": "5cb87e0baafc8ad2b2cedf50f5f1db2508ef86c79b9430d5edc948ef9ca18c81",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/briefs/98_2-points.txt",
+          "sha256": "ebef38fa6ad1ebefa31a4ce41dfe172824117195b7e8a840e6ac0ec63eb459e4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/briefs/98_7-REWRITE-PROMPT-2.txt",
+          "sha256": "835c709c69c9afa97dd5b387318dfe9c491a2116948bb78d6f14fe8e3bb73699",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/briefs/98_7-REWRITE-PROMPT.txt",
+          "sha256": "4d8c82a84ca0c7c5a895bfe37961fa016718a9fbf5d00ecfd26dfd37551c6382",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/briefs/98_7-after.txt",
+          "sha256": "8ceffb352d630d3ceeb36af21b6a54f163c9e07712a2dd4180467a02256669a5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/briefs/98_7-before.txt",
+          "sha256": "df116ccf23b941a318997f034213e5a07dc8dfe6b61b0bcf013b2f7ab8ba337d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/briefs/98_7-points-2.txt",
+          "sha256": "28bc61076ea708d4bcac7a4043fbf0817fa3bea24cffd987ab4f09abf68e2164",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/briefs/98_7-points.txt",
+          "sha256": "15b79c3d3cfb067f7950c768e6f4dc8d02c122848351b95b2a39f9d04af4ff33",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/briefs/VOICE.txt",
+          "sha256": "2416fc8ea32521e1c4a6aacd153603f7c6c5f9476aca0607490dc56715336798",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/drafts/98_2-codex1.txt",
+          "sha256": "29e77527b791ed4c2338d045ca1b2cf1b941ee75ce63a8b85dae0d57ec3ead90",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/drafts/98_2-codex2.txt",
+          "sha256": "94fd076643620e657f85bd03d23450ae71efcd3ff715c44ac47582f443099646",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/drafts/98_2-d2.txt",
+          "sha256": "4b690c5fd87c221ec6f56880865306a78ce03ae95fa184177bdcee6c5a7bd845",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/drafts/98_2-d3.txt",
+          "sha256": "60493e17469c655af1a8cbe214befad4015b86771caf0414fde6819d0ef73d75",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/drafts/98_7-codex1.txt",
+          "sha256": "6186fe701340412d1baaf971c4ee28ca8746dac66dd95a2610b890e6f0acbd6c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/drafts/98_7-codex2.txt",
+          "sha256": "3a27a316e3778b246100030bd3515e8b3cc80de12c7621ad5569844b3c9ecb39",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/drafts/98_7-d6.txt",
+          "sha256": "76fa0e4ad42beeaa05cac8710db3f6b36b36d0c532710d918a9aa41e606aea55",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/drafts/98_7-d7.txt",
+          "sha256": "92758873c08ebc927f8c1083369c3066a695b70e0bde0da915c9972659616407",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t105-tries/drafts/98_7-d8.txt",
+          "sha256": "7dc7c2c0d7af821c2f6a82172847e7ac638a3ac53c2f223486ef2ba3398d2983",
           "role": "humanization_working_record"
         }
       ]
