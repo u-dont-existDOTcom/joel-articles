@@ -1216,7 +1216,31 @@ folder's `gpt/`.
   same words keep his order: the batch class had written four of his `<a><em>` links as `<em><a>` (the same on the page,
   but not his HTML); both now keep the order the tags opened in, with a test, and the working copy was rebuilt.
 
-(The next lesson in either lane is E260.)
+(The next lesson in either lane was E260 here; see the end of the next section.)
+
+## What Joel's message of 2026-10-24 23:40 UTC taught (the community article's repeats; N7)
+
+The record: `articles/intentional-communities/candidate/joel-20261024/joel-20261024-2340-message.txt` (the same file in
+the Nibbāna and guide lanes' `fix-20261024/`).
+
+- **E260. A preview of a later telling goes; a definition or thesis a reader needs where they are stays.** His 65 took all
+  15 of my cuts and five of my 16 keeps. The five: "So when I talk later on about evolving past the use of internal money,
+  I’m not proposing something nobody has ever lived."; "On top of that they’ve worked out ways of teaching outsiders, all
+  while coordinating beyond a single village."; "All of the warnings in this article apply to me, too."; the paragraph
+  "These are less exciting topics to discuss spiritually. ..."; and "Kids can benefit from high-quality group care ...",
+  which his "My own bias" says again a section later. I had kept each as a set-up for the later, full telling, or for a
+  reader who stops early. He kept the manual's definition of pl/ork and the essay's thesis up front, which I had kept for
+  readers who jump in or stop early. So in a repeats read (part 4 of `docs/CLARITY-READ.md`), a line that announces or
+  previews what a later section tells is cut, even when it sets that section up; a definition or a thesis is kept where a
+  reader who jumps in or stops there needs it.
+- **A new image goes in as Substack's own block.** His 65.21 note asked for his file `kibbutz harms.png` after a paragraph.
+  The block for an image can only come from Substack (`docs/SUBSTACK-HELPER-DELIVERY-GATE.md`), so the file went into the
+  temporary draft as a pasted file (`articles/intentional-communities/candidate/tools/paste_image_lane.js`, which checks
+  its SHA-256), Substack uploaded it and wrote the block, and the block was read back from the editor with its SHA-256
+  checked. Two attributes change, as on the article's other images: the alt text, and the image's link back to its post
+  (Substack's upload names the temporary draft). Keep that draft until the image is in his post.
+
+(The next lesson in either lane is E261.)
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 

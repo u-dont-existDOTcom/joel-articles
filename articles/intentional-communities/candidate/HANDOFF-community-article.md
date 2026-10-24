@@ -1,6 +1,6 @@
 # Handoff: Community article humanization
 
-The intentional-communities Substack article, humanized section by section so every paragraph and every section reads Human in Pangram's web app with the meaning kept. Updated 2026-10-24, after Joel's message of 19:52 UTC (his answers to 64, the caveat cuts, with notes; 65, the repeats, still open). His published post (pasted 2026-10-20) is unchanged. The newest version is `candidate/joel-20261024/WORKING.html`: his editor HTML of 2026-10-20 with 57 to 63 and his 64 cuts in.
+The intentional-communities Substack article, humanized section by section so every paragraph and every section reads Human in Pangram's web app with the meaning kept. Updated 2026-10-24, after Joel's message of 23:40 UTC (his answers to 65, with his kibbutz image; no open questions). His published post (pasted 2026-10-20) is unchanged. The newest version is `candidate/joel-20261024/answer65/WORKING.html`, and its first whole-article recheck is in a temporary draft, waiting on his Pangram link.
 
 **Resume line (paste into any Claude account; the repository is public):**
 > Continue my community article work: read https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/HANDOFF-community-article.md and carry on from its next step.
@@ -10,6 +10,41 @@ If that branch is gone (merged), the same file is on main: https://github.com/u-
 From an account with Desktop Commander connected to the laptop, the laptop copy works too: "Continue my community article work: on my laptop, read ~/claude-acceptance-transfer/handoffs/community-article.md and carry on from its next step." If Joel adds "My answer to your last message: ..." or "Here is my response to last turn there: ...", it answers the open items in "Waiting on Joel" below.
 
 ## START HERE
+
+**His message of 2026-10-24 23:40 UTC** (`joel-20261024/joel-20261024-2340-message.txt`, word for word; it also answered
+the Nibbāna lane's N7): "65 1a 2 b 3 b ... 21 a but after the "preferences and social change" i want to add this image:
+/home/joel/Documents/community article/kibbutz harms.png ... 31 a". Done this turn (branch `claude/community-joel-1018`;
+the pull request is in "Waiting on Joel"):
+- **His 65 cuts are in:** `joel-20261024/answer65/apply_65.py` reads `joel-20261024/WORKING.html` (the 64 version) and writes
+  `answer65/WORKING.html` (the working copy now), `RECORD-65.json`, `ARTICLE.txt` and `READING-COPY.md`: 20 cut (three whole
+  paragraphs), 11 kept. Checks as for 64: the words that left are exactly the cut words, tags kept in order.
+- **His image:** `answer65/kibbutz-harms.png` (his file, copied from his laptop through the inbox, SHA-256 3972208c...),
+  right after the paragraph that now ends "... parents’ preferences and social change.". Substack's own image block, not
+  mine: the file was pasted into the temporary draft (`tools/paste_image_lane.js`, which checks its SHA-256), Substack
+  uploaded it (https://substack-post-media.s3.amazonaws.com/public/images/ed986b48-c19a-4fdf-905d-9ca7e2699a39_616x225.png),
+  and the block was read back from the draft's editor (`answer65/KIBBUTZ-ISLAND.html`, its SHA-256 checked against the
+  page's). `apply_65.py` sets its alt text (his 63 a) and its link back to the post (internalRedirect: post 198340475, as
+  the other 20 images; the upload had named the draft). The canonical generator reads it as image object 26.
+- **The first whole-article recheck** (`joel-20261024/recheck/`): `make_recheck_ic.py` (the canonical generator, one part,
+  no native videos, 89,953 characters, under the check's 99,999), `make_changed_ic.py` (CHANGED.json: 53 parts, every
+  paragraph not in his published post and 5 new seams, with chances), `FORECAST.json` (part_forecast.py: 130 parts with
+  neighbours at 0.01, rest 0.15; a 7% chance of no red), the ledger's first community prediction **IC-whole#1** (AI at
+  0.07; `candidate/pangram-ledger.jsonl`, new), then the draft: **221977934**, "TEMP recheck (community article) - do not
+  publish", made in the built-in browser, the payload pasted with `tools/paste_payload_lane.js` (the lane's copy, its title
+  only) at commit 48f22182, and the rendered check on its secret link equal to DRAFT-TEXT.txt (e2ad3e21...) on the first
+  paste (`RECHECK-POST.json`). Keep this draft until his post has the image.
+- **Lesson E260** (his 65 against my picks): a preview of a later telling goes; a definition or thesis a reader needs where
+  they are stays.
+- **Next:** his Pangram result link. Then, as Nibbāna's rechecks: `tools/humanization/pangram_feed_read.js` in compact mode
+  on the result page (`window.__feedMode='compact'`), `window.__compact` read in pieces with its SHA-256 checked, WINDOWS.txt,
+  META.json, RESULT.json from DRAFT-TEXT.txt and the windows, `part_forecast.py score FORECAST.json RESULT.json --out
+  SCORE.md --link`, and `pangram_ledger.py result` for IC-whole#1 (an explain for a miss). On red: Emulate on the red
+  paragraphs (the laptop's run_emulate.py, as the Nibbāna lane's n6 and n7), only the red sentences spliced in, a fresh
+  meaning check, and the draft re-pasted for a second check. When it reads Human: `make_master.py`, the receipt and
+  `promote.py` (see "45 a is done" below), and the copy helper for his post, built as Nibbāna's
+  (`articles/nibbana/humanize/fix-20261024/helper/make_helper.py`).
+
+**Earlier (kept for the record):**
 
 **His message of 2026-10-24 19:52 UTC** (`joel-20261024/joel-20261024-1952-message.txt`, word for word; the same message
 answered the Nibbāna lane's N6 and saved his GPT edit there): "64.1a 2b 3b it doesn't take back a rule, it explains the
@@ -148,13 +183,14 @@ State at the end of the turn of Joel's message of 2026-10-16 23:38 UTC:
 - Every turn, give Joel the article so far: since 2026-10-23, the new version's reading copy (`joel-20261023/restructure/READING-COPY.md`, as its GitHub link); before that, `candidate/community-article-so-far.html` and the side-by-side page of any section that changed, as files (the latest scripts: section 13 `s13/make_page_v37b.py`, section 14 `s14/make_page_v8.py`, section 15 `s15/make_page_v17.py`, section 16 `s16/make_page_v30.py`, section 8 `fix-20261017d/make_pages_s8.py`). Check each with `python3 tools/humanization/html_links.py PAGE.html` before sending.
 
 ## Waiting on Joel
-1. Question 65 (repeats) on `OWNER-QUESTIONS.md`.
-2. Pull request 236 (https://github.com/u-dont-existDOTcom/joel-articles/pull/236), this turn's work for all three
-   lanes, on the hypnosis lane's branch `claude/community-joel-1018`; his to merge. (Pull request 232 was merged on
-   2026-10-24.)
+1. His Pangram result for the community recheck draft (secret link:
+   https://ibogaqueen.substack.com/p/80ab6300-2b34-4a4f-92f1-9f32a4b6fb91?postPreview=paid&updated=community-r1&audience=only_paid&free_preview=false&freemail=),
+   opened in his Brave, where the Pangram extension is. No open questions.
+2. Pull request PRNUM (https://github.com/u-dont-existDOTcom/joel-articles/pull/PRNUM), this turn's work for both lanes, on
+   the hypnosis lane's branch `claude/community-joel-1018`; his to merge. (Pull request 236 was merged on 2026-10-24.)
 
 ## Next step
-1. When he answers 65: the picked cuts and the whole-article Pangram check (see START HERE, "Next").
+1. When his Pangram link comes: read it, score the forecast, and act on any red (see START HERE, "Next").
 2. Before every push: `python3 scripts/register_article_artifacts.py --article intentional-communities --write`, then the
    repository's checks (`python -m unittest discover -s tests`, `python scripts/validate_content_repository.py --root .`).
 

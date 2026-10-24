@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-24, after your message of 19:52 UTC (your 64). **Open questions: 1**, just below: what the article says more than once (65). Your 64 cuts are in the new version: [read it here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/READING-COPY.md).
+Last updated 2026-10-24, after your message of 23:40 UTC (your 65, and the kibbutz image). **Open questions: 0.** Your 65 cuts and the image are in the new version: [read it here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/answer65/READING-COPY.md). **One thing for you to do**: run Pangram on the whole new version (below).
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -8,23 +8,22 @@ The master copy of this page is a file in Git, so a session in either of your ac
 
 ## Open questions
 
-> [!IMPORTANT]
-> One list on its own page, with my pick on every item. Answer "65: your picks", or with the numbers you want changed ("65.3 B"). The cuts you pick go into the new version, which then goes to Pangram whole, once, before anything goes into your post.
-
-**🟣 65. What the article says more than once (your "as much as possible we should be deduplicating because i feel the article is really too redundant").**
-Fresh readers each read the whole new version and owned one part of it: for each point made in their part, every other place that says it again, which place keeps it, and what to cut. I checked each cut against the article. [The list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/REPEATS.md) has 31 cuts, each struck through in its paragraph, with where the point is kept and the paragraph after the cut (now with your 64 cuts in those paragraphs, and each "After" as it will read). It includes two trims of the federation paragraphs for your W08 ("i agree with condesning this but we should mention the FEC"); the FEC, its rebuilding and PEACH stay. My pick is cut on 15 and keep on 16, where both places carry something the reader needs there (the manual now repeats a few essay points on purpose, for readers who go straight to it).
-- a) (my pick) My picks as they are.
-- b) My picks with your changes, by number ("65.3 B").
+None right now.
 
 ## For you to do
 
-- 🟠 Merge [pull request 236](https://github.com/u-dont-existDOTcom/joel-articles/pull/236) when you've looked. It has this turn's work for all three articles; nothing in your posts changes until you paste.
+- 🟠 **Run Pangram on [the community recheck draft](https://ibogaqueen.substack.com/p/80ab6300-2b34-4a4f-92f1-9f32a4b6fb91?postPreview=paid&updated=community-r1&audience=only_paid&free_preview=false&freemail=) in Brave and send me the link.** It's the whole new version in a temporary draft (your post is untouched): the essay and the How-To Manual with 57 to 65 in and your kibbutz image. Its text in the page is exactly the text I forecast from. I give it a 7% chance of no red at all: 38 paragraphs your cuts changed and Emulate's two passages are each a new place for red, and this is the first time the article is checked as one text in its new order ([the forecast](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/recheck/FORECAST.json)).
+- 🟠 Merge [pull request PRNUM](https://github.com/u-dont-existDOTcom/joel-articles/pull/PRNUM) when you've looked. It has this turn's work for both lanes; nothing in your posts changes until you paste.
 
 ## Decided
 
 > [!TIP]
 > Answered, with what I did.
 
+- 🟢 2026-10-24 23:40 UTC, 65, what the article says more than once ([your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/joel-20261024-2340-message.txt)). Your cuts are in ([read it here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/answer65/READING-COPY.md), [each cut](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/answer65/RECORD-65.json)), with every link and bold where it was; the words that left the article are exactly the ones you cut.
+  - Cut (A): 1, 4, 7, 8, 9, 10, 11, 15, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30 and 31 (three of them whole paragraphs). Kept (B): 2, 3, 5, 6, 12, 13, 14, 16, 17, 18 and 26.
+  - You cut five I'd have kept: 1, 7, 11, 15 and 21. Each was a preview or a restatement of something the article tells in full elsewhere ("So when I talk later on about evolving past the use of internal money ...", "All of the warnings in this article apply to me, too."), and I had kept them as set-ups for that later telling. You kept the definitions and the thesis I'd kept for readers who jump in or stop early. That's the rule for my picks now: a preview of a later telling goes; a definition or thesis a reader needs where they are stays (lesson E260).
+  - Your image is in, right after "... parents’ preferences and social change." (21's paragraph ends there now), with alt text like the other images: "A summary card, “What happens to adults raised with different caregiving practices?”: in a 1994 study of 48 infants on Israeli kibbutzim, 48% were securely attached with communal sleeping and 80% with sleeping at home, a 32-point difference in favor of family sleeping; the families weren’t randomly assigned, and the sample was small." I uploaded it into the temporary draft, so Substack made its own image block for it; that block is what goes into your post.
 - 🟢 2026-10-24 19:52 UTC, 64, the safety lines and caveats ([your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/joel-20261024-1952-message.txt)). Your cuts are in the new version ([read it here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/READING-COPY.md), [each cut](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/RECORD-64.json)), with every link and bold where it was.
   - Cut (A): 1, 4, 5, 6, 9, 10, 12, 13, 14, 15, 16, 17, 19, 21, 22, 23, 24, 25, 27, 29, 30 and 31. Kept (B): 2, 3, 7, 8, 11, 18, 20, 26 and 28.
   - You kept four I'd have cut, with your reasons: 3 ("it doesn't take back a rule, it explains the limits of relying on it"), 8 ("it's not just softening, it's actually hardening at the same time showing that their wisdom is always changing as well"), 20 ("it's kind of key to understanding it in context, otherwise they can be too easily demonized ...") and 28 ("it's important to give a full picture"); and 29 goes, which you said makes sense with 28 kept. These are examples for the next caveat readers now: a line that tells the reader something (a limit, a counterweight, context) stays (lesson E257).
@@ -214,6 +213,6 @@ Fresh readers each read the whole new version and owned one part of it: for each
 > [!NOTE]
 > Work that's next. Nothing here needs an answer.
 
-- 🔵 After 65: the cuts you pick go into the new version, and the whole of it goes to Pangram once, in a temporary Substack draft, before I make the copy helper for your paste.
+- 🔵 When your Pangram link comes: I read its windows and score the forecast. Anything red goes to Emulate (only the red sentences go in, with a fresh meaning check), then the copy helper for your post.
 - 🔵 The prediction scorecard: better guesses of what Pangram will say, and how fast and how often my fixes pass.
 - 🔵 Image 7: the article still links the old image address. When your post with the rebuilt diagram is up, I'll swap in the new one.
