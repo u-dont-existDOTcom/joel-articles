@@ -20,7 +20,7 @@ The paragraph (75 words), as the readers saw it:
   - codex: - "If it gets bad, or it keeps happening when you're sober" — The balanced conditions and vague wording have the generalized, carefully qualified feel sometimes associated with AI polishing.
   - haiku: 3. "I wouldn't wait to see a psychiatrist about it" - The soft, first-person escalation advice is standard safety boilerplate for pointing someone toward professional help.
   - haiku: 4. "If it gets bad, or it keeps happening when you're sober" - Two parallel conditions with no defined threshold are a weak signal, the kind of tidy, non-specific scaffolding generated safety guidance tends to use.
-  - sonnet: 3. "If it gets bad, or it keeps happening when you're sober, I wouldn't wait to see a psychiatrist about it" — A symmetrical if-or escalation rule with a vague threshold that ends in a referral to a professional is a standard assistant-style triage template, and it is followed almost at once by anot
+  - sonnet: 3. "If it gets bad, or it keeps happening when you're sober, I wouldn't wait to see a psychiatrist about it" — A symmetrical if-or escalation rule with a vague threshold that ends in a referral to a professional is a standard assistant-style triage template, and it is followed almost at once by another professional hand-off.
 - **S3** "And if you think a medicine you're on is part of the problem, ask your doctor before you stop."
   - codex: - "And if you think a medicine you're on is part of the problem, ask your doctor before you stop." — The neatly packaged conditional followed by a precaution resembles a standard AI safety add-on, though this is a weak signal.
   - haiku: 2. "ask your doctor before you stop" - This is the stock referral line of generated health advice, and it gives no specifics, though a person could write it too.
@@ -34,7 +34,13 @@ The paragraph (75 words), as the readers saw it:
 
 - S5, sonnet: 4. "Alcohol too, once your body depends on it" — A tacked-on second example with a precise qualifying clause is the cover-every-base completeness move models make after giving a caveat.
 
-## Human, by a reader, and flagged as AI by none
+## About the whole paragraph (its rhythm, voice and build; a point two readers share gets a fix too)
+
+None.
+
+## Words readers called human, and no reader flagged as AI
+
+These are the readers' calls, not human tells: a human tell is Joel's words, a fact he gave, or a rough edge (E251, E256 (Inner Child)).
 
 - codex: "trip after trip"
 - codex: "confused or spaced out"

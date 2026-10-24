@@ -2523,6 +2523,38 @@
     }
    ],
    "reason": "The guide's own safety points have this content; whether the wording runs as a stock chain or as one person telling another is a reading, and O45 already flags the referral words for a reader to judge."
+  },
+  {
+   "id": "J66",
+   "tell": "a cautious first-person aside around an instruction (\"I'd count the milder stuff too\", \"I wouldn't wait to see a psychiatrist about it\")",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "articles/inner-child-therapy/experiments/t105-answers/READERS-20261024.txt",
+     "quote": "it's that same habit of being overly careful, and adding cautionary asides"
+    },
+    {
+     "file": "articles/inner-child-therapy/experiments/t105-answers/READERS-20261024.txt",
+     "quote": "followed by firm instructions is a common pattern in safety-tuned writing."
+    }
+   ],
+   "reason": "Joel's own \"I'd\" lines carry an opinion (\"I'd take that!\"), and the same words can carry a caution; which one a line is needs a reader, so no pattern on \"I'd\" or \"I wouldn't\" can decide it (his \"I'd be careful with other drugs\" is his)."
+  },
+  {
+   "id": "J67",
+   "tell": "an even run of short, self-contained sentences of similar length, each a condition and an instruction",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "articles/inner-child-therapy/experiments/t105-answers/READERS-20261024.txt",
+     "quote": "Most sentences are short, self-contained, and similar in length."
+    },
+    {
+     "file": "articles/inner-child-therapy/experiments/t105-answers/READERS-20261024.txt",
+     "quote": "high efficiency syntax and idk how to expalin but the rhythm is annoying AF"
+    }
+   ],
+   "reason": "Sentence lengths can be counted, but whether a run reads as a checklist depends on what each sentence does; ChatGPT called the same paragraph's lengths varied. The tell panel's WHOLE: line is its check."
   }
  ]
 }

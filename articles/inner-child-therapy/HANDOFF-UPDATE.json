@@ -1,43 +1,48 @@
 {
- "turn": "104",
+ "turn": "105",
  "replace": [
   [
-   "TURN\\ 103\\ \\(2026\\-10\\-23,\\ his\\ answers\\ of\\ 21:52\\ UTC;\\ by\\ https://claude\\.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq\\),\\ the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.\\ Branch\\ handoff/claude\\-dangerous\\-adult\\-20260924\\-1631;\\ pull\\ request\\ \\#229\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/229\\)\\ for\\ him\\ to\\ merge\\.",
-   "TURN 103 (2026-10-23, his answers of 21:52 UTC; by https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), FINISHED. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #229 (https://github.com/u-dont-existDOTcom/joel-articles/pull/229) merged.",
+   "TURN\\ 104\\ \\(2026\\-10\\-24,\\ his\\ answers\\ of\\ 2026\\-10\\-23\\ 23:21\\ UTC;\\ by\\ https://claude\\.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq\\),\\ the\\ latest;\\ its\\ next\\ step\\ wins\\ over\\ everything\\ below\\.\\ Branch\\ handoff/claude\\-dangerous\\-adult\\-20260924\\-1631;\\ pull\\ request\\ \\#233\\ \\(https://github\\.com/u\\-dont\\-existDOTcom/joel\\-articles/pull/233\\)\\ for\\ him\\ to\\ merge\\.",
+   "TURN 104 (2026-10-24, his answers of 2026-10-23 23:21 UTC; by https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), FINISHED. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #233 (https://github.com/u-dont-existDOTcom/joel-articles/pull/233), which carries turn 105 too.",
    1
   ],
   [
-   "this\\ version\\ is\\ from\\ turn\\ 103\\ \\(his\\ answers\\ of\\ 2026\\-10\\-23\\ 21:52\\ UTC;\\ pull\\ request\\ \\#229\\ for\\ him\\ to\\ merge\\)\\.",
-   "this version is from turn 104 (his answers of 2026-10-23 23:21 UTC; pull request #233 for him to merge).",
+   "this\\ version\\ is\\ from\\ turn\\ 104\\ \\(his\\ answers\\ of\\ 2026\\-10\\-23\\ 23:21\\ UTC;\\ pull\\ request\\ \\#233\\ for\\ him\\ to\\ merge\\)\\.",
+   "this version is from turn 105 (his answers of 2026-10-24 18:40 UTC; pull request #233 for him to merge).",
    1
   ],
   [
-   "turns\\ 59\\ to\\ 76\\ and\\ 100\\ to\\ 103\\ by\\ https://claude\\.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq",
-   "turns 59 to 76 and 100 to 104 by https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq",
+   "turns\\ 59\\ to\\ 76\\ and\\ 100\\ to\\ 104\\ by\\ https://claude\\.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq",
+   "turns 59 to 76 and 100 to 105 by https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq",
    1
   ],
   [
-   "\\ \\ \\-\\ experiments/t103\\-answers/,\\ t103\\-api/,\\ t103\\-installs/,\\ t103\\-tries/\\ and\\ t103\\-review/\\ \\(the\\ latest\\ turn\\),\\ t102\\-answers/\\ to\\ t102\\-readers\\-edit/\\ \\(turn\\ 102\\),\\ ",
-   "  - experiments/t104-answers/, t104-api/, t104-installs/, t104-tries/, t104-panel/ and t104-review/ (the latest turn), t103-answers/ to t103-review/ (turn 103), t102-answers/ to t102-readers-edit/ (turn 102), ",
+   "with\\ the\\ meaning\\ kept\\ and\\ nothing\\ about\\ Joel's\\ life\\ that\\ he\\ didn't\\ say\\.",
+   "with the meaning kept and nothing about Joel's life that he didn't say, and (his goal since 2026-10-24) reading as engagingly as a good public self-help book.",
    1
   ],
   [
-   "^1\\. His answers to question 100 \\(OWNER-QUESTIONS\\.md\\)\\..*$",
-   "1. His answers to question 101 (OWNER-QUESTIONS.md). Put in his picks: 101.2's d5 and 101.3's c1 are in experiments/t104-tries/drafts/. A paragraph that reads AI gets the tell panel first (tools/humanization/tell_panel.py, E253 (Inner Child)), and its drafts get the panel before their API check; each changed paragraph of 50 words or more is checked alone, predictions first, then its section. Then round 6, the whole-article check through the two temporary Substack drafts, covering turns 100 to 104; watch The Inner Guide P7's last three sentences, Related Clinical Work's first line (E231) and When to Change the Strategy's P3 and P4.",
+   "\\ \\ \\-\\ experiments/t104\\-answers/,\\ t104\\-api/,\\ t104\\-installs/,\\ t104\\-tries/,\\ t104\\-panel/\\ and\\ t104\\-review/\\ \\(the\\ latest\\ turn\\),\\ t103\\-answers/\\ to\\ t103\\-review/\\ \\(turn\\ 103\\),\\ ",
+   "  - experiments/t105-answers/, t105-api/, t105-installs/, t105-tries/, t105-panel/, t105-readers-edit/ and t105-review/ (the latest turn), t104-answers/ to t104-review/ (turn 104), t103-answers/ to t103-review/ (turn 103), ",
+   1
+  ],
+  [
+   "^1\\. His answers to question 101 \\(OWNER-QUESTIONS\\.md\\)\\..*$",
+   "1. His answers to question 102 (OWNER-QUESTIONS.md). Put in his picks: 102.1 A cuts 98.7 (When to Change the Strategy P5), B puts d5 in (experiments/t104-tries/drafts/98_7-d5.txt); 102.2 A puts d3 in for his 98.2 (experiments/t105-tries/drafts/98_2-d3.txt, an OWNER-EDITS entry with its exact text; it reads Human alone and in its h2); 102.3 as 101.4 was; 102.4 is the ideas page (experiments/t105-readers-edit/IDEAS.md), and each item he takes goes in, then its section gets a check, predictions first. A paragraph that reads AI gets the tell panel first (tools/humanization/tell_panel.py), and after two failed drafts of mine Codex writes the next (tell_panel.py rewrite-prompt; E256 (Inner Child)). Then round 6, the whole-article check through the two temporary Substack drafts, covering turns 100 to 105; watch The Inner Guide P7's last three sentences, Related Clinical Work's first line (E231) and When to Change the Strategy's P3 and P4.",
    1
   ]
  ],
  "insert_before": [
   [
-   "- TURN 103 (2026-10-23",
-   "- TURN 104 (2026-10-24, his answers of 2026-10-23 23:21 UTC; by https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #233 (https://github.com/u-dont-existDOTcom/joel-articles/pull/233) for him to merge.\n  - His answers: experiments/t104-answers/JOEL-20261023-2321.md: \"i wonder if you could use codex to check your ideas of what is a ai vs human tell, would that help since you checking yourself isn't working well? altho idk why an independent sonnet worker would have any bias that you have\"; 100.1 A with his own text (\"i fixed it, this passes\"); 100.2 A; for 100.3 the tells three readers (Codex, ChatGPT and Haiku) found in 97.8, and \"so why don't you fix your process before asking for help\". He merged #229.\n  - The process fix, E253 (Inner Child): the tell panel (tools/humanization/tell_panel.py, its prompt reviewer/tell_panel.txt). Codex from his laptop (codex exec --skip-git-repo-check --ephemeral -s read-only, run from the inbox), a Sonnet agent and a Haiku agent each read the paragraph alone with one open question; summarize marks a sentence two of them flag as AGREED, which gets a fix, and each draft gets the panel before its API check. A help request links its PANEL.md (pangram_links_check.py and questions_page.py refuse one without it). Registry J62 to J65; docs/FIXING-AN-ARTICLE.md, Pangram step 7. The panel finds tells I miss, but it doesn't predict Pangram sentence by sentence.\n  - In (experiments/t104-installs/apply_t104.py; entry joel-104-20261023; owner edits 189 of 189): the naming aside as its own paragraph after The Inner Guide's P1; his h2 \"You Belong Everywhere and Nowhere\" with P9 and P10 word for word (Human Written through the API, 0.02% AI, no AI window); P2's treats-and-pampering sentences (100% Human alone, its h2 100% Human).\n  - Tried, not in (experiments/t104-tries/REVIEWS.md; experiments/t104-api/API-CHECKS.md; ledger #205 to #212, 3 of 8 calls right): 97.8 in four drafts after his readers' tells (d4 100% AI): question 101.1. 98.7's d5 (100% Human alone, 34% AI in When to Change the Strategy; that section without 98.7, 14%): 101.2. His 98.2 with two changes (c1, 35% AI): 101.3. 100.6 carries over as 101.4.\n  - NEXT: Next step 1."
+   "- TURN 104 (2026-10-24",
+   "- TURN 105 (2026-10-24, his answers of 2026-10-24 18:40 UTC; by https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), the latest; its next step wins over everything below. Branch handoff/claude-dangerous-adult-20260924-1631; pull request #233 (https://github.com/u-dont-existDOTcom/joel-articles/pull/233) for him to merge.\n  - Objective anchor (UDA): main objective, the guide humanized, every paragraph and section reading Human with the meaning kept, and now reading engagingly, like a good public self-help book (his \"my goal is i want something that reads engagingly like i assume Lucia's book does\"); this turn's contribution, 97.8 in, the process fixed, 98.2 solved, 98.7's tries used, and ideas for the other sections for GPT; scope, no new claims, no life facts he didn't give, his words changed only with his OK.\n  - His answers: experiments/t105-answers/JOEL-20261024-1840.md and READERS-20261024.txt (his Haiku, ChatGPT and Codex on 97.8's d4, with his notes): GPT's 97.8 \"got human high conf on pangram\"; \"so maybe you can do the others then once you figure out what was going wrong ?\"; \"go thru all the other sections and figure try to make those read better as well, then we can see what gpt thinks of your ideas on that. my goal is i want something that reads engagingly like i assume Lucia's book does (does it?)\".\n  - In (experiments/t105-installs/apply_t105.py; entry joel-105-20261024): GPT's 97.8 word for word; in its stretch it reads Human, 0.0000%.\n  - What was going wrong, E256 (Inner Child): the readers flagged how the guide's instructions were worded, never the content; my drafts kept my shape (a careful \"I'd ...\" aside around each instruction, cases in parallel, a closing line); I took readers' human picks on my phrases as human tells; the panel's summary dropped what readers said about the whole paragraph. Fixes: the panel's WHOLE: line, tell_panel.py rewrite-prompt with reviewer/rewrite_with_tells.txt (Codex writes after two failed drafts of mine), J66 and J67, and a judgment keeps its real doubt (98.7's d8 read 100% AI where d5 read Human).\n  - Tried (experiments/t105-tries/REVIEWS.md; experiments/t105-api/API-CHECKS.md; ledger #213 to #218): his 98.2 as d3 reads Human alone and in its h2 (question 102.2); 98.7 used its six tries, Codex's read 70% AI and d8 100% (102.1). Lucia Capacchione's book answer: experiments/t105-readers-edit/ENGAGING.md.\n  - NEXT: Next step 1."
   ],
   [
-   "- When he shows a change and I agree",
-   "- Before naming a tell or asking his help, the tell panel reads the paragraph (E253, Inner Child; his 2026-10-23 \"so why don't you fix your process before asking for help\"): fresh readers judge my sentences, never only me, and a help request links its PANEL.md."
+   "- Before naming a tell or asking his help",
+   "- A flag on one of the guide's instructions is about its wording, never its content (E256, Inner Child; his 2026-10-24 \"idk how you can say that you can't find ai tells\"): say the instruction plainly, keep a judgment's real doubt, and after two failed drafts of mine, Codex writes the next from the readers' notes."
   ]
  ],
  "sections": {
-  "## Waiting on Joel": "1. His answers to question 101 (101.1 97.8, 101.2 98.7, 101.3 his 98.2, 101.4 the four sections with Low windows), on OWNER-QUESTIONS.md.\n2. His merge of pull request #233 (turn 104).\n3. The two temporary Substack drafts (A and B) stay for round 6; his delete comes after its results.\n4. Never in the article: amounts (the 1g, the 7g) and any recipe for what to take instead, including his \"ultimate psychedelic recipe\" line and its link."
+  "## Waiting on Joel": "1. His answers to question 102 (102.1 98.7, 102.2 his 98.2 as d3, 102.3 the four sections with Low windows, 102.4 the ideas page for GPT), on OWNER-QUESTIONS.md.\n2. His merge of pull request #233 (turns 104 and 105).\n3. The two temporary Substack drafts (A and B) stay for round 6; his delete comes after its results.\n4. Never in the article: amounts (the 1g, the 7g) and any recipe for what to take instead, including his \"ultimate psychedelic recipe\" line and its link."
  }
 }

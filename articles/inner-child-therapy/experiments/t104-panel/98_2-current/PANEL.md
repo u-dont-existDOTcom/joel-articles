@@ -15,7 +15,7 @@ The paragraph (83 words), as the readers saw it:
 | S5 | Fear is the first guess, but maybe you didn't know how or why. | - |
 | S6 AGREED | Being worn out can stop you too, and sometimes whoever said they'd help couldn't make it. | haiku, sonnet |
 | S7 AGREED | Hey, we've all been there. | codex, haiku, sonnet |
-| S8 AGREED | 🤗 | codex, sonnet |
+| S8 AGREED | 🤗 | codex, haiku, sonnet |
 
 ## Agreed: two or more readers (each gets a fix in the next draft)
 
@@ -37,13 +37,20 @@ The paragraph (83 words), as the readers saw it:
   - sonnet: 1. "Hey, we've all been there. 🤗" - A generic, fits-anyone reassurance capped with a hugging emoji is the stock comfort sign-off of a chat assistant, not a line tied to anything specific in the paragraph.
 - **S8** "🤗"
   - codex: - "Hey, we've all been there. 🤗" — The generic reassurance and hug emoji can read like prefabricated warmth added by an AI editor.
+  - haiku: 1. "🤗" — A hug emoji tacked onto the last line of an otherwise unadorned advice paragraph is the kind of chat-style sign-off that language models add by default.
   - sonnet: 1. "Hey, we've all been there. 🤗" - A generic, fits-anyone reassurance capped with a hugging emoji is the stock comfort sign-off of a chat assistant, not a line tied to anything specific in the paragraph.
 
 ## Named by one reader (weigh them)
 
 None.
 
-## Human, by a reader, and flagged as AI by none
+## About the whole paragraph (its rhythm, voice and build; a point two readers share gets a fix too)
+
+None.
+
+## Words readers called human, and no reader flagged as AI
+
+These are the readers' calls, not human tells: a human tell is Joel's words, a fact he gave, or a rough edge (E251, E256 (Inner Child)).
 
 - codex: "Not doing it is harder to figure out."
 - haiku: "whoever said they'd help couldn't make it"

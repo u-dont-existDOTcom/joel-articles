@@ -39,6 +39,7 @@
   ],
   "8": [
    "codex",
+   "haiku",
    "sonnet"
   ]
  },
@@ -49,6 +50,11 @@
   7,
   8
  ],
+ "whole": {
+  "codex": [],
+  "haiku": [],
+  "sonnet": []
+ },
  "human_clean": [
   "Not doing it is harder to figure out.",
   "whoever said they'd help couldn't make it",

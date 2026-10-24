@@ -36,7 +36,13 @@ The paragraph (84 words), as the readers saw it:
 
 None.
 
-## Human, by a reader, and flagged as AI by none
+## About the whole paragraph (its rhythm, voice and build; a point two readers share gets a fix too)
+
+None.
+
+## Words readers called human, and no reader flagged as AI
+
+These are the readers' calls, not human tells: a human tell is Joel's words, a fact he gave, or a rough edge (E251, E256 (Inner Child)).
 
 - codex: "the milder stuff"
 - codex: "trip after trip"

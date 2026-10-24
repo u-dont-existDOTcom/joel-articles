@@ -1,0 +1,69 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Sometimes you have a really good session where you feel how much you care about your little one and say what they needed to hear.",
+  "A few days later you're skipping lunch and saying yes to everything again.",
+  "For a lot of people, the first thought is that they didn't go deep enough.",
+  "I doubt that's the problem, and the session doesn't sound like a failure to me.",
+  "Try a tiny bit of what you did for your little one as you go about your day, because one small thing like that can teach them more than ten more good meditations.",
+  "Text a friend that you're having a rough day instead of saying you're fine, for instance.",
+  "Sending that text can be harder than the meditation was."
+ ],
+ "flagged": {
+  "1": [
+   "haiku"
+  ],
+  "2": [],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "codex",
+   "sonnet"
+  ],
+  "5": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "6": [],
+  "7": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  3,
+  4,
+  5,
+  7
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph moves smoothly through setback, reassurance, suggested action, example, and closing insight; that orderly construction could suggest AI polishing. Its wording provides no reliable way to establish authorship."
+  ],
+  "haiku": [
+   "The arc is what reads generated: a scenario, a common misreading, reassurance, advice with its reason, an example and a reversed closer, each sentence landing cleanly with no stumble or digression. The concrete details and first-person doubt pull the other way, so it reads more like a polished human voice than raw model output."
+  ],
+  "sonnet": [
+   "The paragraph follows a very clean arc (relatable scene, relapse, common misconception, reframe, instruction, example, callback kicker) in which every sentence has a job and nothing wanders, ending on a short punchy line, and that tidiness is the main machine-made trace. The plain vocabulary and uneven phrasing keep it from reading strongly generated, so the overall signal is mild."
+  ]
+ },
+ "human_clean": [
+  "A few days later you're skipping lunch and saying yes to everything again.",
+  "again",
+  "A few days later you're skipping lunch and saying yes to everything again.",
+  "Text a friend that you're having a rough day instead of saying you're fine",
+  "skipping lunch and saying yes to everything again",
+  "again",
+  "a tiny bit of what you did for your little one as you go about your day",
+  "Text a friend that you're having a rough day instead of saying you're fine, for instance.",
+  "for instance"
+ ]
+}

@@ -1680,7 +1680,7 @@
    ],
    "span": {
     "from": "And any predisposition toward mania or psychosis",
-    "to": "Milder reactions afterward count",
+    "to": "Say you keep coming back from trips",
     "must_contain": [
      "precautions of every kind",
      "trusted advisors"
@@ -1689,7 +1689,10 @@
      "get checked",
      "go gentler"
     ]
-   }
+   },
+   "history": [
+    "2026-10-24 (turn 105): the span ends at \"Say you keep coming back from trips\", the paragraph his 101.1 answer put in place of \"Milder reactions afterward count ...\" (entry joel-105-20261024)."
+   ]
   },
   {
    "id": "thh-story-harm-reduction-20261011b",
@@ -1882,12 +1885,15 @@
   },
   {
    "id": "milder-caution-signs-20261011c",
-   "status": "applied",
+   "status": "superseded",
    "what": "P10 opens \"Milder reactions afterward count as caution signs too\" (was \"count too\"): with his trusted-advisors paragraph now between it and the caution signs, a cold read lost what the reactions count as. \"caution signs\" is his term (21:10, answer 4b). In since turn 45, after the gate and Pangram.",
    "joel": "2026-10-11 21:10 UTC: \"there are just caution signs. you take more pecautions of every kind when there are caution signs.\"",
    "where": "When the Urge to Escape Arrives",
    "must_contain": [
     "Milder reactions afterward count as caution signs too"
+   ],
+   "history": [
+    "2026-10-24 (turn 105): superseded by entry joel-105-20261024, his 101.1 answer (GPT's rewrite of this paragraph, which he passed). \"caution signs\", his term, stays in the paragraph before (\"There are just caution signs, and when you see them, you take more precautions of every kind.\")."
    ]
   },
   {
@@ -3225,6 +3231,19 @@
     "## A Belonging Deeper Than Any Group",
     "Comfort does better at set times",
     "a group's approval isn't the deepest belonging there is"
+   ]
+  },
+  {
+   "id": "joel-105-20261024",
+   "status": "applied",
+   "what": "Joel's answer of 2026-10-24 18:40 UTC to 101.1: GPT's rewrite of 97.8's paragraph (When Escape Leaves Reality Behind), word for word as he pasted it. Installed by experiments/t105-installs/apply_t105.py.",
+   "joel": "2026-10-24 18:40 UTC (experiments/t105-answers/JOEL-20261024-1840.md): \"GPT was able to fix that paragraph on its first try, it got human high conf on pangram: ...\"",
+   "where": "When Escape Leaves Reality Behind",
+   "must_contain_exact": [
+    "Say you keep coming back from trips confused or spaced out. Maybe nothing worse happens, but after several trips like that I'd be concerned. If you're having episodes when you're sober, or any of them are severe, see a psychiatrist. And don't suddenly stop a medication just because you suspect it's involved. Talk to the doctor who prescribed it. Benzos can be dangerous to quit cold turkey. Alcohol withdrawal can be dangerous if you're physically dependent."
+   ],
+   "must_not_contain": [
+    "Milder reactions afterward count as caution signs too"
    ]
   }
  ]

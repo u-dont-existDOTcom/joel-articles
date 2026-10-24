@@ -34,7 +34,13 @@ The paragraph (88 words), as the readers saw it:
 
 - S1, sonnet: 4. "Sometimes a session goes great." A flat, detail-free opener that sets up a generic scenario for the advice to answer, with no particular session or moment in it, is a stock way for a model to start a point.
 
-## Human, by a reader, and flagged as AI by none
+## About the whole paragraph (its rhythm, voice and build; a point two readers share gets a fix too)
+
+None.
+
+## Words readers called human, and no reader flagged as AI
+
+These are the readers' calls, not human tells: a human tell is Joel's words, a fact he gave, or a rough edge (E251, E256 (Inner Child)).
 
 - codex: "skipping lunch and saying yes to everything again"
 - haiku: "And a few days later you're skipping lunch and saying yes to everything again"

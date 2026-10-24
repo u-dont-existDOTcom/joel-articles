@@ -18,11 +18,11 @@ The paragraph (81 words), as the readers saw it:
 
 - **S2** "Going deeper next time probably won't change that."
   - haiku: 3. "Going deeper next time probably won't change that." The hedge in the middle and the vague pronoun make a smooth, generic pivot line of the kind generated text favors.
-  - sonnet: 3. "Going deeper next time probably won't change that." and "learns more out here than it would from another good meditation" - The structure more than the phrasing is the tell: a knock-down of the obvious fix followed by a balanced more-here-than-there reframe reads as an engineered two-step rather
+  - sonnet: 3. "Going deeper next time probably won't change that." and "learns more out here than it would from another good meditation" - The structure more than the phrasing is the tell: a knock-down of the obvious fix followed by a balanced more-here-than-there reframe reads as an engineered two-step rather than spoken thought.
 - **S3** "Your little one learns more out here than it would from another good meditation."
   - codex: 2. "Your little one learns more out here than it would from another good meditation." — The smoothly packaged comparison turns a broad claim into an aphorism, which can read as machine-polished.
   - haiku: 2. "Your little one learns more out here than it would from another good meditation." The balanced more-than contrast settles the paragraph's tension in one confident generalization, and the stock phrase about another good meditation reads generic.
-  - sonnet: 3. "Going deeper next time probably won't change that." and "learns more out here than it would from another good meditation" - The structure more than the phrasing is the tell: a knock-down of the obvious fix followed by a balanced more-here-than-there reframe reads as an engineered two-step rather
+  - sonnet: 3. "Going deeper next time probably won't change that." and "learns more out here than it would from another good meditation" - The structure more than the phrasing is the tell: a knock-down of the obvious fix followed by a balanced more-here-than-there reframe reads as an engineered two-step rather than spoken thought.
   - sonnet: 4. "Your little one" and "a tiny bit" - Paired diminutives create the soft, cushioned wellness-coach voice that models default to, though this is the weakest tell here since human coaches write this way too.
 - **S5** "That can be harder than the meditation was."
   - codex: 1. "That can be harder than the meditation was." — The neat closing reversal gives the paragraph a polished takeaway, a familiar AI editing pattern but weak evidence of authorship.
@@ -35,7 +35,13 @@ The paragraph (81 words), as the readers saw it:
 - S4, sonnet: 1. "texting a friend that you're having a rough day instead of saying you're fine" - A frictionless, generic example (any friend, any rough day) wrapped in a tidy do-this-instead-of-that contrast, the stock micro-illustration models reach for in self-help prose.
 - S4, sonnet: 4. "Your little one" and "a tiny bit" - Paired diminutives create the soft, cushioned wellness-coach voice that models default to, though this is the weakest tell here since human coaches write this way too.
 
-## Human, by a reader, and flagged as AI by none
+## About the whole paragraph (its rhythm, voice and build; a point two readers share gets a fix too)
+
+None.
+
+## Words readers called human, and no reader flagged as AI
+
+These are the readers' calls, not human tells: a human tell is Joel's words, a fact he gave, or a rough edge (E251, E256 (Inner Child)).
 
 - haiku: "whatever you did for it in there"
 - haiku: "I'd try"

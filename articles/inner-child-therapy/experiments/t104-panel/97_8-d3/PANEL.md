@@ -26,15 +26,21 @@ The paragraph (78 words), as the readers saw it:
   - sonnet: 4. "And if you think a prescribed medicine is part of the problem" — A second if-then opener in a row, plus the stock phrase 'part of the problem', gives the paragraph a scaffolded checklist cadence that covers each standard safety base in turn.
 - **S4** "Coming off some medicines too fast is dangerous, and so is quitting alcohol on your own once your body depends on it."
   - codex: - "Coming off some medicines too fast is dangerous, and so is quitting alcohol on your own once your body depends on it." — The neatly balanced warnings give the ending a polished, formulaic completeness.
-  - haiku: 1. "Coming off some medicines too fast is dangerous, and so is quitting alcohol on your own once your body depends on it." — The mirrored structure of one warning answered by a matching second warning, closed with a tidy explanatory tail, sets the two side by side in perfectly symmetrical form and r
+  - haiku: 1. "Coming off some medicines too fast is dangerous, and so is quitting alcohol on your own once your body depends on it." — The mirrored structure of one warning answered by a matching second warning, closed with a tidy explanatory tail, sets the two side by side in perfectly symmetrical form and reads as polished generated prose.
   - haiku: 4. "some medicines" and "a prescribed medicine is part of the problem" — Both keep the drugs abstract with no named example, and part of the problem is a stock phrase, so the wording reads as hedged and generic rather than as a writer's specific experience.
-  - sonnet: 1. "Coming off some medicines too fast is dangerous, and so is quitting alcohol on your own once your body depends on it." — A tidily balanced paired-hazard closer, with the vague 'some medicines' and a plain-language gloss for dependence, reads like the safety-disclaimer wrap-up that models habitua
+  - sonnet: 1. "Coming off some medicines too fast is dangerous, and so is quitting alcohol on your own once your body depends on it." — A tidily balanced paired-hazard closer, with the vague 'some medicines' and a plain-language gloss for dependence, reads like the safety-disclaimer wrap-up that models habitually tack on.
 
 ## Named by one reader (weigh them)
 
 None.
 
-## Human, by a reader, and flagged as AI by none
+## About the whole paragraph (its rhythm, voice and build; a point two readers share gets a fix too)
+
+None.
+
+## Words readers called human, and no reader flagged as AI
+
+These are the readers' calls, not human tells: a human tell is Joel's words, a fact he gave, or a rough edge (E251, E256 (Inner Child)).
 
 - codex: "I'd count the milder stuff too"
 - codex: "stuff,"

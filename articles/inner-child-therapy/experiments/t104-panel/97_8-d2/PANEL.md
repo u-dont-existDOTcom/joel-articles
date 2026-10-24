@@ -27,11 +27,11 @@ The paragraph (80 words), as the readers saw it:
 - **S4** "And don't just stop a prescribed medicine because you think it's part of the problem."
   - codex: 1. "And don't just stop a prescribed medicine because you think it's part of the problem. Ask a doctor first." — The paired caution and referral can read like a stock safety passage added during AI polishing.
   - haiku: - "Don't wait" and "don't just stop a prescribed medicine" each open with the same stock "Don't" directive, and the run of short imperatives gives the advice an evenly paced checklist cadence.
-  - sonnet: 2. "don't just stop a prescribed medicine because you think it's part of the problem. Ask a doctor first.": It heads off a likely reader mistake and then sends the reader to a doctor for the second time in a six-sentence paragraph, the stacked-disclaimer habit of chatbot health advice, closed by a t
+  - sonnet: 2. "don't just stop a prescribed medicine because you think it's part of the problem. Ask a doctor first.": It heads off a likely reader mistake and then sends the reader to a doctor for the second time in a six-sentence paragraph, the stacked-disclaimer habit of chatbot health advice, closed by a terse four-word imperative.
 - **S5** "Ask a doctor first."
   - codex: 1. "And don't just stop a prescribed medicine because you think it's part of the problem. Ask a doctor first." — The paired caution and referral can read like a stock safety passage added during AI polishing.
   - haiku: - "Ask a doctor first." This bare line repeats the doctor referral already made earlier in the paragraph and adds little beyond it, the kind of redundant disclaimer tag that generated safety text tends to append.
-  - sonnet: 2. "don't just stop a prescribed medicine because you think it's part of the problem. Ask a doctor first.": It heads off a likely reader mistake and then sends the reader to a doctor for the second time in a six-sentence paragraph, the stacked-disclaimer habit of chatbot health advice, closed by a t
+  - sonnet: 2. "don't just stop a prescribed medicine because you think it's part of the problem. Ask a doctor first.": It heads off a likely reader mistake and then sends the reader to a doctor for the second time in a six-sentence paragraph, the stacked-disclaimer habit of chatbot health advice, closed by a terse four-word imperative.
 - **S6** "Coming off some things too fast can be dangerous, alcohol too, once your body depends on it."
   - haiku: - "some things too fast can be dangerous, alcohol too, once your body depends on it." The vague 'some things' names no substance where a specialist would name one, and the closing clause tidily generalizes the point into a neat conditional.
   - sonnet: 3. "Coming off some things too fast can be dangerous" and "once your body depends on it": The unnamed substances and the hedged modal make a generic caveat that avoids any specific claim, and the tidy plain-language mechanism clause wraps it up like a textbook safety note.
@@ -40,7 +40,13 @@ The paragraph (80 words), as the readers saw it:
 
 - S1, sonnet: 4. "confused or spaced out" and "When it's bad, or it's putting you in danger": Both are balanced two-part constructions of the same X-or-Y shape, a habitual cadence of machine prose that is only weak evidence here.
 
-## Human, by a reader, and flagged as AI by none
+## About the whole paragraph (its rhythm, voice and build; a point two readers share gets a fix too)
+
+None.
+
+## Words readers called human, and no reader flagged as AI
+
+These are the readers' calls, not human tells: a human tell is Joel's words, a fact he gave, or a rough edge (E251, E256 (Inner Child)).
 
 - haiku: "the milder stuff too"
 - sonnet: "trip after trip"

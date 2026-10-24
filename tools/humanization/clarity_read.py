@@ -166,6 +166,9 @@ def reading_text(raw, kind):
             _html_lines(c, out)
         lines = out
     elif kind == 'md':
+        # notes in HTML comments are the editor's, never the reader's (2026-10-24: the Inner Child guide's Markdown keeps
+        # its turn notes and Pangram records in comments, and the first reader's-edit run would have shown them all)
+        raw = re.sub(r'<!--.*?-->', '', raw, flags=re.S)
         lines = []
         for l in raw.split('\n'):
             l = re.sub(r'!\[[^\]]*\]\([^)]*\)', '', l)

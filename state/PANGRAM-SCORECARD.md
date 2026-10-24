@@ -142,22 +142,22 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 109 | 79 (72%) | 41% | 59% | 75% | 0.206 (base 0.242, 109) |
-| **all lanes** | 109 | 79 (72%) | 41% | 59% | 75% | 0.206 (base 0.242, 109) |
+| inner child guide | 115 | 84 (73%) | 42% | 58% | 75% | 0.207 (base 0.243, 115) |
+| **all lanes** | 115 | 84 (73%) | 42% | 58% | 75% | 0.207 (base 0.243, 115) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 100 | 70 (70%) | 37% | 63% | 81% | 0.215 (base 0.233, 100) |
+| inner child guide | 100 | 71 (71%) | 36% | 64% | 83% | 0.215 (base 0.230, 100) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 54 | 39 (72%) | 41% | 59% | 76% | 0.202 (base 0.241, 54) |
-| section | 37 | 25 (68%) | 46% | 54% | 76% | 0.222 (base 0.248, 37) |
-| stretch | 18 | 15 (83%) | 33% | 67% | 72% | 0.189 (base 0.222, 18) |
+| paragraph | 57 | 41 (72%) | 42% | 58% | 75% | 0.206 (base 0.244, 57) |
+| section | 38 | 26 (68%) | 45% | 55% | 76% | 0.221 (base 0.247, 38) |
+| stretch | 20 | 17 (85%) | 35% | 65% | 70% | 0.182 (base 0.227, 20) |
 
 ## What the misses say (since the ledger)
 
@@ -194,6 +194,7 @@ The boundary mix over all lanes:
 | the half varies | 1 | inner child guide |
 | Low windows with no AI window | 1 | inner child guide |
 | a Human result above 0.0000 | 1 | inner child guide |
+| a cut took out what read human | 1 | inner child guide |
 | a Low window read Human | 1 | nibbana article |
 | underrated a plain split | 1 | nibbana article |
 | a neutral signpost reads AI where his casual frame read Human | 1 | nibbana article |

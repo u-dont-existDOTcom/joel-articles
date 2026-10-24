@@ -1,0 +1,38 @@
+{
+ "readers": [
+  "codex"
+ ],
+ "sentences": [
+  "After the day, look at what actually happened.",
+  "Say you told someone what you'd planned to say and felt worse afterward.",
+  "Standing up for yourself might do that at first.",
+  "See what you can learn from how it went, even if you don't feel better right away.",
+  "🤗 Not doing it is harder to figure out.",
+  "Fear is the first guess, though maybe you didn't know how or why.",
+  "You could have been worn out, or been counting on someone who said they'd help and then couldn't make it."
+ ],
+ "flagged": {
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [
+   "codex"
+  ],
+  "5": [
+   "codex"
+  ],
+  "6": [
+   "codex"
+  ],
+  "7": [
+   "codex"
+  ]
+ },
+ "agreed": [],
+ "whole": {
+  "codex": [
+   "The paragraph follows a tidy coaching sequence: imagined outcome, reassurance, learning prompt, then alternative explanations. That structure and its repeated softening can suggest AI polishing, but these are weak stylistic clues, not reliable evidence of authorship."
+  ]
+ },
+ "human_clean": []
+}

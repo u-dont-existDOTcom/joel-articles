@@ -23,7 +23,7 @@ The paragraph (72 words), as the readers saw it:
 - **S2** "Get professional help right away if any of this is severe or risky, and especially if it keeps going or comes back while you're sober."
   - joel-chatgpt: 2. “like getting confused or spaced out (dissociating) again and again” — An odd mixture of conversational and clinical language. The parenthetical feels inserted to satisfy an educational requirement. “Again and again” is also slightly redundant with the later “keeps going or comes back.”
   - joel-chatgpt: 3. “if any of this is severe or risky” — Generic safety language. “Risky” is particularly vague. What makes confusion risky? AI often uses broad qualifiers where a human editor might specify the actual danger.
-  - joel-chatgpt: 4. “and especially if it keeps going or comes back while you’re sober” — Qualification stacking. The sentence starts with immediate professional help, then adds severity, risk, persistence, recurrence, and sobriety. These are potentially important distinctions, but they're compressed into one increa
+  - joel-chatgpt: 4. “and especially if it keeps going or comes back while you’re sober” — Qualification stacking. The sentence starts with immediate professional help, then adds severity, risk, persistence, recurrence, and sobriety. These are potentially important distinctions, but they're compressed into one increasingly cumbersome instruction.
   - joel-codex: * “if any of this is severe or risky, and especially if it keeps going or comes back while you’re sober” — several conditions accumulate around one instruction, giving it the rhythm of a checklist.
   - joel-haiku: * Vague referents: "any of this," "anything your body is dependent on." The passage never names the medicine, the symptoms, or the substance, so it could be pasted under almost any context.
   - joel-haiku: * Stacked hedges: "might be part of the problem," "severe or risky," "especially if it keeps going or comes back." Several qualifiers in a row soften each other.
@@ -41,7 +41,13 @@ The paragraph (72 words), as the readers saw it:
 
 None.
 
-## Human, by a reader, and flagged as AI by none
+## About the whole paragraph (its rhythm, voice and build; a point two readers share gets a fix too)
+
+None.
+
+## Words readers called human, and no reader flagged as AI
+
+These are the readers' calls, not human tells: a human tell is Joel's words, a fact he gave, or a rough edge (E251, E256 (Inner Child)).
 
 None.
 

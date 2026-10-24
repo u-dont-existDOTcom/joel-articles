@@ -29,6 +29,12 @@ PLAIN: something plainer
 
 
 class ClarityReadTests(unittest.TestCase):
+    def test_markdown_reading_text_leaves_out_the_editors_notes(self):
+        # 2026-10-24: the Inner Child guide's Markdown keeps its turn notes in HTML comments, some of them many lines long
+        md = '# One\n\n<!-- Turn 9: a note\nthat runs on -->\n\nThe paragraph.\n<!-- another -->\n'
+        t = C.reading_text(md, 'md')
+        self.assertEqual(t.split('\n'), ['## One', 'The paragraph.'])
+
     def test_reading_text_keeps_headings_and_paragraphs_and_skips_images_and_cards(self):
         t = C.reading_text(ARTICLE_HTML, 'html')
         lines = t.split('\n')

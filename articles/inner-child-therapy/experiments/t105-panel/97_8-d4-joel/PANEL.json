@@ -1,0 +1,53 @@
+{
+ "readers": [
+  "joel-chatgpt",
+  "joel-codex",
+  "joel-haiku"
+ ],
+ "sentences": [
+  "I'd count the milder stuff too, like coming back from trip after trip confused or spaced out.",
+  "If it gets bad, or it keeps happening when you're sober, I wouldn't wait to see a psychiatrist about it.",
+  "And if you think a medicine you're on is part of the problem, ask your doctor before you stop.",
+  "Some, like benzos, can be dangerous to quit all at once.",
+  "Alcohol too, once your body depends on it."
+ ],
+ "flagged": {
+  "1": [
+   "joel-codex",
+   "joel-haiku"
+  ],
+  "2": [
+   "joel-haiku"
+  ],
+  "3": [
+   "joel-chatgpt",
+   "joel-codex",
+   "joel-haiku"
+  ],
+  "4": [
+   "joel-chatgpt",
+   "joel-haiku"
+  ],
+  "5": [
+   "joel-chatgpt",
+   "joel-codex",
+   "joel-haiku"
+  ]
+ },
+ "agreed": [
+  1,
+  3,
+  4,
+  5
+ ],
+ "whole": {
+  "joel-chatgpt": [],
+  "joel-codex": [],
+  "joel-haiku": [
+   "- **Even, tidy rhythm.** Most sentences are short, self-contained, and similar in length. Human advice usually runs more unevenly."
+  ]
+ },
+ "human_clean": [
+  "stuff"
+ ]
+}

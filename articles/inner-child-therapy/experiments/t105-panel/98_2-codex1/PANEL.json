@@ -1,0 +1,70 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "After the day, look at what actually happened.",
+  "If you did the Protector actions and don't feel better right away, you can learn from that.",
+  "You don't heal at a steady pace, and standing up for yourself might make you feel worse at first.",
+  "Not doing it is harder to figure out.",
+  "We've all had days like that.",
+  "🤗 Fear is the first guess, but maybe you didn't know how or why.",
+  "You might have been too worn out to do it, or whoever said they'd help couldn't make it."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [],
+  "5": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "7": [
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  5,
+  6
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph follows a recognizable supportive-response sequence: reflection, reassurance about setbacks, an expression of empathy, then alternative explanations. That construction can read as AI-polished, although wording alone cannot establish authorship."
+  ],
+  "haiku": [
+   "The run of tidy, self-contained sentences and the warm, generic coaching voice that moves from reassurance to a neat reframe give the paragraph a smooth, template-like build, though its two concrete examples at the end break that pattern a little."
+  ],
+  "sonnet": [
+   "The rhythm is a run of short, even, plain declaratives, each cushioned by a hedge or a comfort (\"might\", \"maybe\", \"right away\", \"at first\"), which gives a flat, staccato, reassurance-by-formula cadence. It is built like a template (instruction, then consolation, then a menu of kind possible reasons) in a generic, non-blaming therapist-chatbot voice with no concrete moment, example or personal stake, and the casual touches (contractions, the emoji) feel applied on top of a smooth surface rather than growing out of it."
+  ]
+ },
+ "human_clean": [
+  "whoever said they'd help couldn't make it",
+  "the Protector actions",
+  "whoever said they'd help couldn't make it",
+  "Not doing it is harder to figure out.",
+  "or whoever said they'd help couldn't make it"
+ ]
+}

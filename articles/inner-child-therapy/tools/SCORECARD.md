@@ -9,7 +9,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/inner-child
 | Pangram 4.0 (before the ledger) | 3085 | 1395 (45%) | 57% | 43% | 96% | - |
 | Pangram 4.1 GUI (dashboard) | 28 | 27 (96%) | 4% | 96% | 100% | 0.104 (base 0.034, 28) |
 | pangram-4.1-substack | 66 | 41 (62%) | 53% | 47% | 48% | 0.203 (base 0.249, 66) |
-| pangram-4.1-api | 109 | 79 (72%) | 41% | 59% | 75% | 0.206 (base 0.242, 109) |
+| pangram-4.1-api | 115 | 84 (73%) | 42% | 58% | 75% | 0.207 (base 0.243, 115) |
 
 106 of the older calls are scored here differently from the lane's own marks (98 marked right there, 8 marked wrong): this page uses one rule for every lane, where only a 100% Human result is a pass and a "Mixed" or "Human with an AI window" call counts as not Human.
 
@@ -79,27 +79,27 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 33 (66%) | 42% | 58% | 88% | 0.227 (base 0.244, 50) |
-| the latest 100 | 100 | 70 (70%) | 37% | 63% | 81% | 0.215 (base 0.233, 100) |
-| all | 109 | 79 (72%) | 41% | 59% | 75% | 0.206 (base 0.242, 109) |
+| the latest 50 | 50 | 34 (68%) | 44% | 56% | 84% | 0.226 (base 0.246, 50) |
+| the latest 100 | 100 | 71 (71%) | 36% | 64% | 83% | 0.215 (base 0.230, 100) |
+| all | 115 | 84 (73%) | 42% | 58% | 75% | 0.207 (base 0.243, 115) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 54 | 39 (72%) | 41% | 59% | 76% | 0.202 (base 0.241, 54) |
-| section | 37 | 25 (68%) | 46% | 54% | 76% | 0.222 (base 0.248, 37) |
-| stretch | 18 | 15 (83%) | 33% | 67% | 72% | 0.189 (base 0.222, 18) |
+| paragraph | 57 | 41 (72%) | 42% | 58% | 75% | 0.206 (base 0.244, 57) |
+| section | 38 | 26 (68%) | 45% | 55% | 76% | 0.221 (base 0.247, 38) |
+| stretch | 20 | 17 (85%) | 35% | 65% | 70% | 0.182 (base 0.227, 20) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.2 to 0.4 | 10 | 0.31 | 10% |
-| 0.4 to 0.6 | 84 | 0.54 | 61% |
-| 0.6 to 0.8 | 49 | 0.62 | 80% |
+| 0.2 to 0.4 | 12 | 0.32 | 8% |
+| 0.4 to 0.6 | 86 | 0.54 | 62% |
+| 0.6 to 0.8 | 51 | 0.62 | 78% |
 
-## Misses since the ledger (56)
+## Misses since the ledger (57)
 
 | cause | misses |
 |---|---|
@@ -120,12 +120,12 @@ Calibration:
 | the half varies | 1 |
 | Low windows with no AI window | 1 |
 | a Human result above 0.0000 | 1 |
+| a cut took out what read human | 1 |
 
 The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [t103b_98_2_old](https://www.pangram.com/history/8e13e541-1157-4912-b56d-e68dfbf338d6) | cut-98.2, 2 | Human | AI or mixed | his paragraph reads AI alone under 4.1 |
 | [t103b_monologue_h2](https://www.pangram.com/history/a63d4654-6fa7-4c36-9a11-f2f308f6ac59) | sec-monologue-h2, 1 | Human | AI or mixed | a Low window came back |
 | [t103b_kill_stretch](https://www.pangram.com/history/fd1dd840-4dd2-4a96-860a-fad85f0e9a86) | sec-kill-stretch, 1 | Human | AI or mixed | a Low window came back |
 | [t103b_firstsocial_h2](https://www.pangram.com/history/590addf4-f9aa-4eaf-a209-b6ec0f4df87e) | sec-firstsocial-h2, 1 | Human | AI or mixed | a Low window came back |
@@ -140,6 +140,7 @@ The latest:
 | [t104_98_7_d5](https://www.pangram.com/history/64778cfd-d4f4-482f-94ee-0735b6110c68) | cut-98.7, 4 | AI | Human | too pessimistic about a rewrite |
 | [t104_change_h3_d5](https://www.pangram.com/history/1e3f795f-5715-4bfb-a98d-9bd0396aa0ae) | sec-change-strategy-d5, 1 | Human | AI or mixed | the section read differently from the paragraph alone |
 | [t104_change_h3_cut](https://www.pangram.com/history/523ede49-eea8-48e9-a9bb-69f5ff7785e8) | sec-change-strategy-cut, 1 | Human | AI or mixed | a Low window came back |
+| [t105_98_7_d8](https://www.pangram.com/history/33d1a7d3-ca17-4331-b566-85743cc55238) | cut-98.7, 6 | Human | AI or mixed | a cut took out what read human |
 
 ## Lineages still open (tries used of the cap)
 
@@ -198,11 +199,12 @@ The latest:
 | untangle-slow | paragraph | 3 of 6 | AI |
 | cut-97.8 | paragraph | 4 of 6 | AI |
 | cut-97.12 | paragraph | 3 of 6 | Mixed |
-| cut-98.2 | paragraph | 3 of 6 | Mixed |
+| cut-98.7 | paragraph | 6 of 6 | AI |
 | sec-monologue-h2 | section | 2 of 2 | Mixed |
 | sec-firstsocial-h2 | section | 2 of 2 | Mixed |
 | sec-ig-belonging | section | 2 of 2 | Mixed |
 | sec-ig-belonging-joel | section | 1 of 2 | Mixed |
 | sec-change-strategy-d5 | section | 1 of 2 | Mixed |
 | sec-change-strategy-cut | section | 1 of 2 | Mixed |
+| stretch-change-strategy-987 | stretch | 1 of 2 | Mixed |
 

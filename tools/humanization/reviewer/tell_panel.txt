@@ -1,6 +1,9 @@
-<!-- The tell panel's one question (turn 104, E253 (Inner Child)). tools/humanization/tell_panel.py fills {text}. Every
-reader gets these same words: no list of known tells, nothing about what the writer expects or what Pangram said, so each
-reader's own judgment shows (Joel's three readers on 2026-10-23 got a bare question and each found tells I had missed). -->
+<!-- The tell panel's one question (turn 104, E253 (Inner Child); the WHOLE: line since turn 105, E256 (Inner Child)).
+tools/humanization/tell_panel.py fills {text}. Every reader gets these same words: no list of known tells, nothing about what
+the writer expects or what Pangram said, so each reader's own judgment shows (Joel's three readers on 2026-10-23 got a bare
+question and each found tells I had missed). The WHOLE: line asks for what doesn't sit in one quote: on 2026-10-24 Haiku's
+"Even, tidy rhythm" and "Hedge-then-directive voice" were the tells that mattered, and a summary that only matched quotes
+dropped them. -->
 Here is a paragraph from an article.
 
 ---
@@ -9,8 +12,10 @@ Here is a paragraph from an article.
 
 Which features of its wording suggest it was written or polished by an AI model? Start with a line that says AI:, then
 list them, strongest first. For each one, quote the exact words from the paragraph in double quotes, then say in one
-sentence what makes them read machine-made. Then write a line that says HUMAN:, and list anything in the paragraph that
-reads clearly human-written, quoted the same way. If a list has nothing in it, write "none" under its line.
+sentence what makes them read machine-made. Then write a line that says WHOLE:, and say in one or two sentences what, if
+anything, reads machine-made about the paragraph as a whole: its rhythm, its voice or how it's built. Then write a line
+that says HUMAN:, and list anything in the paragraph that reads clearly human-written, quoted the same way. If a list has
+nothing in it, write "none" under its line.
 
 Answer from the paragraph alone. Don't open files, run commands or search, don't rewrite the paragraph, and don't judge
 whether its advice is right.

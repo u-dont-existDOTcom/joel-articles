@@ -22,11 +22,11 @@ The paragraph (95 words), as the readers saw it:
 - **S2** "Your first guess might be that you didn't go deep enough."
   - codex: - "Your first guess might be that you didn't go deep enough. I'd guess the session was fine" — Anticipating the reader’s explanation and immediately supplying a reassuring alternative resembles a common AI advice pattern.
   - haiku: 3. "Your first guess might be that you didn't go deep enough." and "I'd guess the session was fine." Naming a likely wrong answer and then tidily overturning it with a hedged alternative is a stock reframing move that models reach for constantly.
-  - sonnet: 1. "Your first guess might be that you didn't go deep enough. I'd guess the session was fine" - Naming the reader's likely wrong conclusion only to overturn it with a reassuring reframe follows the formulaic first-instinct-then-correction pattern that models favor, and the same A-versus-B contrast t
+  - sonnet: 1. "Your first guess might be that you didn't go deep enough. I'd guess the session was fine" - Naming the reader's likely wrong conclusion only to overturn it with a reassuring reframe follows the formulaic first-instinct-then-correction pattern that models favor, and the same A-versus-B contrast then recurs in every later sentence.
 - **S3** "I'd guess the session was fine, and you just haven't brought any of it out with you yet."
   - codex: - "Your first guess might be that you didn't go deep enough. I'd guess the session was fine" — Anticipating the reader’s explanation and immediately supplying a reassuring alternative resembles a common AI advice pattern.
   - haiku: 3. "Your first guess might be that you didn't go deep enough." and "I'd guess the session was fine." Naming a likely wrong answer and then tidily overturning it with a hedged alternative is a stock reframing move that models reach for constantly.
-  - sonnet: 1. "Your first guess might be that you didn't go deep enough. I'd guess the session was fine" - Naming the reader's likely wrong conclusion only to overturn it with a reassuring reframe follows the formulaic first-instinct-then-correction pattern that models favor, and the same A-versus-B contrast t
+  - sonnet: 1. "Your first guess might be that you didn't go deep enough. I'd guess the session was fine" - Naming the reader's likely wrong conclusion only to overturn it with a reassuring reframe follows the formulaic first-instinct-then-correction pattern that models favor, and the same A-versus-B contrast then recurs in every later sentence.
 - **S4** "One small real thing can teach your little one more than ten more good meditations."
   - codex: - "One small real thing can teach your little one more than ten more good meditations." — The tidy numerical contrast packages the point into a polished, slogan-like takeaway.
   - haiku: 1. "One small real thing can teach your little one more than ten more good meditations." It is a balanced more-than contrast built to be quoted, the kind of composed line that reads written rather than spoken.
@@ -44,7 +44,13 @@ The paragraph (95 words), as the readers saw it:
 
 None.
 
-## Human, by a reader, and flagged as AI by none
+## About the whole paragraph (its rhythm, voice and build; a point two readers share gets a fix too)
+
+None.
+
+## Words readers called human, and no reader flagged as AI
+
+These are the readers' calls, not human tells: a human tell is Joel's words, a fact he gave, or a rough edge (E251, E256 (Inner Child)).
 
 - codex: "skipping lunch and saying yes to everything again"
 - codex: "you just haven't brought any of it out with you yet"
