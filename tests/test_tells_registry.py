@@ -68,10 +68,11 @@ class RegistryShape(unittest.TestCase):
         # (a generic "you" or "imagine" scenario) from his community edits for Pangram 4.1, message of 2026-10-20 22:01; W94
         # (O44, "one honest action"), J59 (a saying in a form people don't say) and J60 (a vague stock phrase) from his hypnosis
         # message of 2026-10-21 17:56; W95 (O45, a blanket or repeated safety line) and J61 (a tidy metaphor counted as a human
-        # tell) from his inner child messages of 2026-10-23 17:53 and 21:52
-        self.assertEqual(len(ids), 156)
+        # tell) from his inner child messages of 2026-10-23 17:53 and 21:52; W96 (O43, "isn't proof of / doesn't prove") from
+        # his community answers of 2026-10-24 19:52
+        self.assertEqual(len(ids), 157)
         self.assertEqual(len(set(ids)), len(ids))
-        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 95)
+        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 96)
         for t in TELLS:
             with self.subTest(id=t['id']):
                 self.assertIn(t['kind'], ('mechanical', 'judgment'))

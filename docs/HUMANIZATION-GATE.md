@@ -1170,7 +1170,53 @@ The records: `articles/nibbana/humanize/fix-20261023/joel-20261023-2229-message.
   spent their whole output thinking, three times each; halves of those parts finished in about six minutes
   (`docs/CLARITY-READ.md`, part 4).
 
-(The next lesson in either lane is E256.)
+(The next lesson in either lane was E256 here; see the end of the next section.)
+
+## What Joel's message of 2026-10-24 19:52 UTC taught (Nibbāna's eighth recheck and his GPT edit; the community caveats)
+
+The records: `articles/nibbana/humanize/fix-20261024/joel-20261024-1952-message.txt` (the same file in the guide's
+`fix-20261024/` and the community article's `candidate/joel-20261024/`), with his three attachments in the Nibbāna
+folder's `gpt/`.
+
+- **E256. A recheck waits for the answers that would change the text.** His words, sending the eighth recheck's link:
+  "altho i don't think it was worth doing that recheck since now we are making lots of edits to it". I had asked for it
+  with N6 open, 23 cuts that could change 23 paragraphs, and his answers then changed 40 (his cuts and his GPT edit). It
+  read 100% Human, but no window of it tells us how the text he'll publish reads. So I ask for a whole-article recheck
+  only when no open question of his would change the text; when one is open, the question goes first and the recheck
+  follows his answer, once. (His own check of GPT's text, 100% Human, is the check of what goes in his post.)
+- **E257. A qualifier that carries a point stays; one that only comments on the text goes.** His N6 and 64 answers, set
+  against my picks: he kept five lines I'd have cut, each with his reason, and cut three of his own I'd have kept.
+  - Kept: a line that says where a rule stops working ("it doesn't take back a rule, it explains the limits of relying on
+    it"); a line that softens and adds a point at once ("it's not just softening, it's actually hardening at the same
+    time"); context that keeps a group from being demonized ("it's kind of key to understanding it in context"); the
+    other side of something he praises ("it's important to give a full picture"); and an objection a reader would raise
+    right there ("an immediate question any reader would ask").
+  - Cut: a lead-in that warns the text is abstract, a "jokingly" that explains his joke, and "That's my own CYA showing."
+    I had kept these because they were his words or his joke, which is not a reason when the line only comments on the
+    text or on his own caution.
+  - Both kinds are examples in `tools/humanization/caveat_examples.json` now, which every caveat reader gets. The test a
+    reader applies to a takeback or reassurance: does it tell the reader something they'd otherwise lack (a limit, a
+    counterweight, context)? Then it is content, not a caveat.
+- **E258. "After" shows the change made.** His note on 64.14: "you should make sure in future that instead of telling
+  me "the sentence then starts with.." you actually make that change in the "after" version." The page cut the words
+  and left the rest: "it’s obvious ..." without its capital, and the Nibbāna 5's "the suttas –." with its dash, while
+  "My check" described the fix in words. `clarity_read.cut_text` now makes the After as it will read (a dash or comma
+  left hanging goes, the next word gets its capital), with a test. A fix that needs a word changed (64.14's "it" became
+  "Community", 64.15's "But" went) goes in the After itself, not in a note; the community cuts went in with both
+  (`candidate/joel-20261024/apply_64.py`).
+- **E259. "isn't proof of" and "doesn't prove" are AI tells.** His note on 64.23 ("Presence of one of these alone isn't
+  proof of abuse, but"): "i think this is another high freq AI pattern to be aware of: "isn't proof of/doesn't prove"".
+  The linter's O43 failed "not proof that" (his 2026-10-18 tell), but the contracted form only reached REVIEW and
+  "doesn't prove" nothing. The rule changed: "isn't proof of" now fails like "not proof that", and "doesn't prove"
+  fails too (registry W96).
+- **An edit made elsewhere goes in by a word diff.** His GPT edit came back as plain text; it went into his editor HTML
+  word by word, so every link and italics stayed on its words, and one moved with its condition
+  (`articles/nibbana/humanize/fix-20261024/n8/gpt_2024.py`, and my read of each change in `gpt/REVIEW.md`).
+  The method is a shared tool now, `tools/humanization/html_text_edit.py`, which the community cuts used. Tags on the
+  same words keep his order: the batch class had written four of his `<a><em>` links as `<em><a>` (the same on the page,
+  but not his HTML); both now keep the order the tags opened in, with a test, and the working copy was rebuilt.
+
+(The next lesson in either lane is E260.)
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 

@@ -1,7 +1,8 @@
 # Nibbāna article: what I need from Joel
 
-Last updated 2026-10-23, after your message of 23:28 UTC. **Open questions: N6** (the safety lines and caveats, just
-below). **One thing for you to do**: run Pangram on the eighth recheck draft and send me its link (below N6).
+Last updated 2026-10-24, after your message of 19:52 UTC. **Open question: N7** (one word in the rebirth paragraph,
+just below). **One thing for you to do**: put the new version in your post with the clipboard helper, and decide N5 as
+you go (below N7).
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/OWNER-QUESTIONS.md),
@@ -10,27 +11,73 @@ working copy, and you put them in your post when you want them.
 
 ## Open question
 
-- 🟣 **N6. Safety lines and caveats: which of 23 cuts go in?** You asked whether we'd looked for too much safety language
-  in this article. We hadn't, as its own check, so it's now part 3 of the clarity check for every article. Six fresh
-  readers listed every warning, reassurance, takeback, hedge and disclaimer a reader doesn't need where it is, with your
-  inner child cuts as their examples, and I checked each against the whole article
-  ([the list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/caveats/CAVEATS.md)). This article has little real safety language: the practice's one caution (start
-  lying down, not while driving) changes what a reader does, so it isn't offered. Most of what they found are caveats on
-  claims. My pick is cut on 11, and keep on 12 where the line is your joke, your point or your real position.
-  - **Answer** "N6: your picks", or the numbers you want changed ("N6.3 A").
+- 🟣 **N7. "The later Buddhist philosopher Milindapañha"**: the Milindapañha is a book, King Milinda's questions to the
+  monk Nāgasena, and the lamp simile is Nāgasena's; your link goes to the book. GPT fixed "being used to lighting" in the
+  same sentence, but not this.
+  - **A (my pick):** "The later Buddhist text *Milindapañha* compared rebirth to one lamp being used to light another."
+    One word changes, and your link and italics stay on *Milindapañha*.
+  - **B:** "In the later *Milindapañha*, the monk Nāgasena compared rebirth to one lamp being used to light another."
+  - **C:** keep it as it is.
+  - **Answer** "N7 A", "N7 B" or "N7 C". The helper has it as it is, so if you paste first, change the word in your post.
 
 ## For you to do
 
-- 🟠 **Run Pangram on [the Nibbāna recheck draft](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck8-n8&audience=only_paid&free_preview=false&freemail=) in Brave and send me the link.** It's the same temporary
-  draft, now with batch n7 in (below). Its text in the page is exactly the text I forecast from. The two new sentences
-  have a 30% chance of red, each neighbour 5%, and each light green window of the last check 1 to 2%. Together that's a
-  24% chance of no red at all
-  ([the forecast](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/recheck8/FORECAST.json)).
-- 🟢 Done: [the seventh recheck](https://www.pangram.com/feed/31fd6bda-482c-4991-a5ef-d586de30aecb) (your result of 23:28
-  UTC): Human Written, 0.4% AI, 2 of 114 windows red (below). All four of batch n6's sentences read Human, and so did
-  your kept "I used to attribute ..." and "So enlightenment isn’t a simple bliss switch." My part forecast called 64 of
-  its 65 parts right
-  ([scored](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/recheck7/SCORE.md)).
+- 🟠 **Put the new version in your post with the clipboard helper**
+  ([COPY-TO-SUBSTACK.html](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/exports/COPY-TO-SUBSTACK.html), also sent in chat). It's your post's editor HTML of
+  2026-10-22 with every change since then, your GPT edit last. If you've changed the post on Substack since 2026-10-22,
+  tell me first, because pasting would undo those changes.
+  1. Open the helper in Opera and your post in Substack's editor. The helper splits the article at your three uploaded
+     videos, which a paste can't carry, so the videos stay where they are in your post.
+  2. Press Copy Part 1. In the editor, click at the end of the line just above the first video, press ctrl+shift+Home to
+     select everything above it, and paste (ctrl+v).
+  3. Copy Part 2, select everything between the first and second videos, and paste. Do the same with Part 3 between the
+     second and third videos.
+  4. Copy Part 4, click at the start of the line just after the third video, press ctrl+shift+End, and paste.
+  5. The helper's video steps say to copy each video from your original editor. Your videos never left the post, so skip
+     those steps.
+  6. Two things change on paste. The photo gallery near the end ("Real NASA space photos!") comes in as separate pictures
+     with its caption as a line of text under them; keep the line or delete it. Your three embedded notes come in as links,
+     and Substack turns them back into notes by itself.
+  - **N5, the nuggets-and-sauces meme:** it's where it was, with Frank (my pick A). If you'd rather have it with the
+    monk's paragraph (B), drag it there after pasting.
+  - What I checked: the helper came from the lane's own generator and passed its checks and the copy-button test, and all
+    40 paragraphs of your GPT edit are in it, in their new form
+    ([the receipt](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/exports/HELPER-RECEIPT-20261024.json)). The same generator's parts of the article pasted into the
+    temporary draft and read back exactly at the eighth recheck. I haven't tested the Copy buttons in Opera on your
+    computer.
+- 🟢 Done: [the eighth recheck](https://www.pangram.com/feed/355a29d0-0ea5-4070-a7d2-731806c645f0) (your result of 19:52
+  UTC): Human Written, 0 of 110 windows red. My part forecast called all 55 of its parts right
+  ([scored](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/recheck8/SCORE.md)).
+
+## Your message of 2026-10-24 19:52 UTC, and what I did
+
+Your message, word for word as I have it: [joel-20261024-1952-message.txt](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261024/joel-20261024-1952-message.txt).
+Your three attachments are beside it in [gpt/](https://github.com/u-dont-existDOTcom/joel-articles/tree/claude/community-joel-1018/articles/nibbana/humanize/fix-20261024/gpt).
+
+- 🟢 **Your GPT edit is saved.** It's the working copy now (batch n8), with every link, picture, heading and italics on
+  the same words ([the record](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261024/n8/EDITS-n8.json)). It changed 40 paragraphs: your 13 cuts from
+  N6, GPT's own edits in 23 paragraphs, and its ten style edits. I read each change against your text
+  ([change by change](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261024/gpt/REVIEW.md)), and each keeps your meaning. Your ten keeps are all
+  there; GPT reworded three of them (your 18, 19 and 22). One set of italics moved: in "When nibbāna is the experiential
+  fruition ...", GPT put "When" at the front, and your italics start at "When" again, since they covered the whole
+  condition.
+- 🟢 **Four of your links had their italics nested the other way round** (the Kornfield book, the Vinaya, the Eightfold
+  Path and the Diamond Sutra): my editing tool had written `<em><a>` where you have `<a><em>`. Both look the same, but
+  the helper now has them as you wrote them, and the tool keeps the order.
+- 🟢 **N6 decided**, your picks: cut 2, 3, 4, 6, 7, 11, 12, 13, 14, 15, 16, 20 and 23 (13 cuts); keep 1, 5, 8, 9, 10, 17,
+  18, 19, 21 and 22. You went against my pick on four:
+  - On 5 you kept "though the suttas can also be read with bias": "i'd say it is an immediate question any reader would
+    ask, like wtf u care about the "suttas" how u know they are perfect?" You said you answered more somewhere; the fullest answer I
+    found is in "How the Experiential Key Can Fade": "The funny part is that the words may have survived surprisingly well. They were
+    transmitted communally for many centuries. Several early collections, preserved separately, agree to a large degree
+    ..."
+  - You cut three of your own lines I'd kept as your lead-in or your joke: 13 ("As you can see this is going to be a
+    little abstract, but"), 14 ("jokingly") and 23 ("That's my own CYA showing."). All four are examples for the next
+    caveat readers now, and the lesson is that a line stays when it tells the reader something (here, an objection a
+    reader would raise), and goes when it only comments on the text, even when it's your joke (lesson E257).
+- 🟢 **You're right that the eighth recheck wasn't worth it** with N6 open: your answers changed 40 paragraphs after it.
+  From now on I ask for a recheck only when no answer of yours is pending that would change the text (lesson E256).
+  Your own Pangram check of GPT's text, 100% Human, is the check of what goes in your post.
 
 ## Your message of 2026-10-23 23:28 UTC, and what I did
 
@@ -406,7 +453,6 @@ slip for "being used to light". I left both as you wrote them; your call.
 
 ## Next
 
-- 🔵 When the seventh recheck's link comes, I'll read its windows, score the forecast, and take on whatever is still red.
-  When you answer N6, your cuts go in and are read in place in the next recheck.
-- 🔵 When the article reads Human, I'll give you the clipboard helper to put the working copy in your post, and you
-  decide N5 then.
+- 🔵 When you've pasted, tell me, and I'll read your post's text against the working copy (and N7's word, if you've
+  answered).
+- 🔵 Your hypnosis guide's clarity check, with the caveat and repeats reads, comes next in this lane.

@@ -229,6 +229,15 @@ def main():
         spec7.loader.exec_module(J7)
         work, rec7 = J7.apply(work)
         rec5e = rec5e + rec7
+    # Batch n8 (2026-10-24, his message of 19:52 UTC): his GPT edit (his N6 picks, 13 cuts, with GPT's own edits and ten
+    # style edits), paragraph by paragraph (../../fix-20261024/n8/gpt_2024.py, its EDITS-n8.json)
+    n8 = N.parents[1] / 'fix-20261024' / 'n8' / 'gpt_2024.py'
+    if n8.exists():
+        spec8 = importlib.util.spec_from_file_location('gpt_2024', n8)
+        J8 = importlib.util.module_from_spec(spec8)
+        spec8.loader.exec_module(J8)
+        work, rec8 = J8.apply(work)
+        rec5e = rec5e + rec8
     (H / 'HUMANIZED-SO-FAR.html').write_text(work, encoding='utf-8')
     (N / 'EDITS-n1.json').write_text(json.dumps(rec, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     print('HUMANIZED-SO-FAR.html: %d edits in (n1, n2 and his fixes), %d of batch n3, %d of batch n4, %d of his N4 answers '

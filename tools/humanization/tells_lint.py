@@ -1043,9 +1043,16 @@ def main():
                 flag('FAIL', 'O43 "it meant something" (Joel 2026-10-18: "high freq AI phrasing which is like a subtle hedging (ai doesn\'t know '
                      'what it meant, but it meant... something)"): say what it meant, as his "I really appreciate that my parents took it seriously '
                      'without catastrophizing."', s)
-            if re.search(r"\bnot proof (?:that|of)\b", n, re.I):
+            # Joel, 2026-10-24 19:52 UTC, cutting "Presence of one of these alone isn't proof of abuse, but" from the community
+            # article (64.23): "i think this is another high freq AI pattern to be aware of: "isn't proof of/doesn't prove"". The
+            # contracted "isn't proof of" had only reached REVIEW, and "doesn't prove" nothing (E259).
+            if (re.search(r"\bnot proof (?:that|of)\b", n, re.I)
+                    or re.search(r"\b(?:isn't|aren't|wasn't|weren't)\s+(?:\w+\s+)?proof (?:that|of)\b", n, re.I)):
                 flag('FAIL', 'O43 "not proof that" (Joel 2026-10-18: "This is limited X, not over-scoped Y.... and especially "not proof that" is '
-                     'another high freq ai tell"): say what the thing is', s)
+                     'another high freq ai tell"; 2026-10-24: "isn\'t proof of/doesn\'t prove"): say what the thing is', s)
+            elif re.search(r"\b(?:doesn't|does not|don't|do not|didn't|did not)\s+(?:\w+\s+)?prove\b", n, re.I):
+                flag('FAIL', 'O43 "doesn\'t prove" (Joel 2026-10-24: "another high freq AI pattern to be aware of: "isn\'t proof of/doesn\'t '
+                     'prove""): say what it does show, or cut it', s)
             elif re.search(r"\b(?:isn't|aren't|is not|are not)\s+proof\b", n, re.I):
                 flag('REVIEW', 'O43 "isn\'t proof" (Joel 2026-10-18 named "not proof that" a high-frequency AI tell): say what it is instead', s)
             # O44 (Joel, 2026-10-21 17:56, on the hypnosis guide's return steps, where "one honest action" among what you go back to

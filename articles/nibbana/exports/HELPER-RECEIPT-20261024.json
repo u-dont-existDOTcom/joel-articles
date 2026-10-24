@@ -1,0 +1,55 @@
+{
+ "format": "substack-helper-delivery-receipt-v1",
+ "protocol": "docs/SUBSTACK-HELPER-DELIVERY-GATE.md",
+ "article": "nibbana",
+ "why": "Joel, 2026-10-24 19:52 UTC: his GPT edit saved (batch n8, \"so save the result\"); the eighth recheck read 100% Human (feed 355a29d0); N5 he decides at this helper (\"i'll look at it later when youu give me the clipboard helper\", 2026-10-23 22:29 UTC)",
+ "archival_source": {
+  "path": "articles/nibbana/humanize/HUMANIZED-SO-FAR.html",
+  "sha256": "f31a62f110da97c0a2bdb8205ad005d9aadb96f5e4ede8ba50f33bf282c9e35b",
+  "from": "his editor HTML of 2026-10-22 (humanize/source/substack-editor-20261022.html) with every batch's text, n1 to n8 (fix-20261023/n1/install_n1.py)"
+ },
+ "editor_body": {
+  "sha256": "235924b5c4060209b3da4b5357ccafc31e692765d5969f8cbb1474179eb9ef5f",
+  "boundary_mode": "substack-editor-root"
+ },
+ "canonical_generator": {
+  "path": "project-sources/substack_transfer_helper.py.txt",
+  "sha256": "322e4738243806570fd01de4389150144f13f959de30d78579b69fb57c9352f4"
+ },
+ "native_object_parser": {
+  "path": "project-sources/html_islands.py.txt",
+  "sha256": "96c800c9a7c0b1dae642de1139d53651e87b145cb1ae2aefa4075a9affa0b10d"
+ },
+ "compatibility_profile": {
+  "path": "project-sources/CONFIRMED-SUBSTACK-HELPER.json",
+  "sha256": "c58bf6928274eb9734194c280a8a5f3b53be50d0e913e7cfb24c23593af05734",
+  "manifest_sha256": "c58bf6928274eb9734194c280a8a5f3b53be50d0e913e7cfb24c23593af05734"
+ },
+ "helper": {
+  "path": "articles/nibbana/exports/COPY-TO-SUBSTACK.html",
+  "sha256": "df57b0be83216a0fcb28432be1a08bcb876934d2b19a180b54d87e040958d738",
+  "manifest_format": "joel-substack-transfer-helper-v4",
+  "payload_mode": "ordered_segmented_rich_html_with_manual_native_video_insertion",
+  "segment_count": 4,
+  "manual_native_video_steps": 3,
+  "plan": "articles/nibbana/exports/TRANSFER-PLAN-20261024.json",
+  "build_report": "articles/nibbana/exports/TRANSFER-REPORT-20261024.md"
+ },
+ "regression_baseline": {
+  "path": "articles/nibbana/humanize/fix-20261023/recheck8/COPY-TO-SUBSTACK-NIBBANA-RECHECK.html",
+  "sha256": "ad1a5d790793953c143c1cb40bad1ae9e25e1f0639a7e2f8a66f2340bdb567cc",
+  "why": "the eighth recheck's helper from the same generator: its four parts were pasted into the temporary draft, rendered to the expected text, and read 100% Human"
+ },
+ "verify": "Verified 4 ordered segment record(s) and 3 native-video manual step(s).\nScope: static source/conversion compatibility only; destination result remains pending.",
+ "gpt_edit_in_helper": {
+  "paragraphs": 40,
+  "new_text_found": 40,
+  "old_text_found": 0,
+  "from": "fix-20261024/n8/EDITS-n8.json"
+ },
+ "interaction_test": {
+  "path": "articles/nibbana/exports/HELPER-INTERACTION-20261024.json",
+  "status": "pass"
+ },
+ "destination_test": "pending, in his post. What has been tested: the four parts of the eighth recheck's helper (the same generator on the same editor HTML) were pasted into the temporary draft with the lane's paste script, and the preview read back to the expected text (fix-20261023/recheck8/RECHECK-POST.json). Not tested by me: the Copy buttons in Opera, and the three video steps, which he does by hand."
+}

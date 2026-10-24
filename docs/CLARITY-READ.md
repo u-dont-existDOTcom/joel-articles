@@ -169,13 +169,18 @@ ones made for public audiences"). This part makes it standard.
   a hedge that weakens a claim for no reader benefit; a disclaimer that protects the writer.
 - **What stays:** a caution that changes what the reader does at that step; a section whose subject is safety or crisis;
   a marker of whose claim it is when an article reports texts or science; a hedge that is the claim itself (he really
-  isn't sure, or he allows an exception); his jokes and stories.
+  isn't sure, or he allows an exception); his jokes and stories; and a qualifier that tells the reader something they'd
+  otherwise lack: where a rule stops working, a softening that adds a point, context that keeps a group from being
+  demonized, the other side of something he praises, an objection a reader would raise right there (his N6 and 64
+  answers, 2026-10-24; E257). A line that only comments on the text or on his own caution goes even when it's his joke
+  or his lead-in ("As you can see this is going to be a little abstract, but", "jokingly", "That's my own CYA showing.").
 - **How:** `tools/humanization/clarity_read.py make ARTICLE DIR --kind caveats --parts N` (examples:
   `tools/humanization/caveat_examples.json`, from the Inner Child lane's cuts), a fresh reader per part, `collect`, then
   every item checked against the whole article and his earlier answers: "my_pick", "note", "whose" (his published words,
   his rewrite of a given message, or a batch's), and "status": "drop" for a line that changes what a reader does or whose
-  cut breaks the text. `page` shows each cut struck through in its paragraph, the paragraph after it, why, and what a
-  reader loses. Every cut that goes in is checked in Pangram in place (a cut once made a paragraph read AI: E248 (Inner
+  cut breaks the text. `page` shows each cut struck through in its paragraph, the paragraph after it as it will read
+  (`cut_text`: the capital back, no dash or comma left hanging; a word the cut makes necessary goes in the After itself,
+  never in a note, E258), why, and what a reader loses. Every cut that goes in is checked in Pangram in place (a cut once made a paragraph read AI: E248 (Inner
   Child)).
 - **When:** with parts 1 and 2. First run: Nibbāna (`articles/nibbana/humanize/fix-20261023/caveats/`) and the community
   article (`articles/intentional-communities/candidate/joel-20261023/caveats/`), 2026-10-23.

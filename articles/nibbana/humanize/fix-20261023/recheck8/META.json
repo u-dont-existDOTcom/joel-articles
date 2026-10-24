@@ -1,0 +1,49 @@
+{
+ "feed_uuid": "355a29d0-0ea5-4070-a7d2-731806c645f0",
+ "link": "https://www.pangram.com/feed/355a29d0-0ea5-4070-a7d2-731806c645f0",
+ "created_at": "2026-10-23T20:07:40.195311-04:00",
+ "domain": "substack",
+ "content_type": "long_post",
+ "prediction_short": "Human",
+ "headline": "Human Written",
+ "version": "4.1",
+ "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+ "readout_policy_id": null,
+ "fraction_ai": 5.558068005484529e-05,
+ "fraction_human": 0.9999444484710693,
+ "fraction_breakdown": {
+  "ai": {
+   "low-confidence": 5.558068005484529e-05,
+   "high-confidence": 0,
+   "medium-confidence": 0
+  },
+  "human": {
+   "low-confidence": 0,
+   "high-confidence": 0.9999444484710693,
+   "medium-confidence": 0
+  },
+  "ai-assisted": {
+   "lightly": 3.65362931966165e-13,
+   "moderately": 0
+  }
+ },
+ "document_confidence": {
+  "level": "High",
+  "boundary": null
+ },
+ "ai_distribution": null,
+ "num_ai_segments": 0,
+ "num_human_segments": 108,
+ "word_count": 15774,
+ "task_id": "89c9ff62-b47a-459b-aad1-9c2b60f57730",
+ "text_sha256": "6a0f5ae080318c5f95d021b01d0ee95bf27eb3dbff6ed5d46011bdcea4b3d475",
+ "text_chars_js": 90707,
+ "compact_sha256": "a5e11c2c71a371b82395b690a44972e60811fbc60812cb317e88d335e9d3a4bc",
+ "compact_chars": 6959,
+ "windows_word_sum": 15680,
+ "windows_ai": 0,
+ "windows_human": 110,
+ "labels": [
+  "Human"
+ ]
+}

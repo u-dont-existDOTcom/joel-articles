@@ -1,6 +1,6 @@
 # Handoff: Community article humanization
 
-The intentional-communities Substack article, humanized section by section so every paragraph and every section reads Human in Pangram's web app with the meaning kept. Updated 2026-10-23, after Joel's message of 22:29 UTC (his answers 57 to 63, GPT's reply to my review, and his question about too much safety language). His published post (pasted 2026-10-20) is unchanged. A new version with his answers, the essay and then a How-To Manual on the same post, waits on his answers to 64 (safety lines and caveats) and 65 (repeats), then one whole-article Pangram check, then his paste.
+The intentional-communities Substack article, humanized section by section so every paragraph and every section reads Human in Pangram's web app with the meaning kept. Updated 2026-10-24, after Joel's message of 19:52 UTC (his answers to 64, the caveat cuts, with notes; 65, the repeats, still open). His published post (pasted 2026-10-20) is unchanged. The newest version is `candidate/joel-20261024/WORKING.html`: his editor HTML of 2026-10-20 with 57 to 63 and his 64 cuts in.
 
 **Resume line (paste into any Claude account; the repository is public):**
 > Continue my community article work: read https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/HANDOFF-community-article.md and carry on from its next step.
@@ -10,6 +10,37 @@ If that branch is gone (merged), the same file is on main: https://github.com/u-
 From an account with Desktop Commander connected to the laptop, the laptop copy works too: "Continue my community article work: on my laptop, read ~/claude-acceptance-transfer/handoffs/community-article.md and carry on from its next step." If Joel adds "My answer to your last message: ..." or "Here is my response to last turn there: ...", it answers the open items in "Waiting on Joel" below.
 
 ## START HERE
+
+**His message of 2026-10-24 19:52 UTC** (`joel-20261024/joel-20261024-1952-message.txt`, word for word; the same message
+answered the Nibbāna lane's N6 and saved his GPT edit there): "64.1a 2b 3b it doesn't take back a rule, it explains the
+limits of relying on it. ... 8b it's not just softening, it's actually hardening ... 14a you should make sure in future
+that instead of telling me "the sentence then starts with.." you actually make that change in the "after" version. ... 20b
+it's kind of key to understanding it in context ... 23a (and i think this is another high freq AI pattern to be aware of:
+"isn't proof of/doesn't prove") ... 28b it's important to give a full picture 29a cutting makes sense especially if we
+don't cut the last part in 28. 30a 31a". 65 was not answered. Done this turn (branch `claude/community-joel-1018`; the
+pull request is in "Waiting on Joel"):
+- **His 64 cuts are in:** `joel-20261024/apply_64.py` reads `joel-20261023/restructure/WORKING.html` and writes
+  `joel-20261024/WORKING.html` (the working copy now), `RECORD-64.json` (each cut, with his reasons for 3, 8, 20, 28 and
+  29), `ARTICLE.txt` and `READING-COPY.md`. 22 cut, 9 kept. The words that left the article are exactly the cut words
+  (checked), every tag is still there in its order, and the two follow-on changes my checks had only described went in
+  with them (14: "Community can make a difference ..."; 15: "They are an example ...").
+- **His notes, as lessons** (`docs/HUMANIZATION-GATE.md` E256 to E259): the page's "After" now shows the change made
+  (`clarity_read.cut_text`, with a test); "isn't proof of" and "doesn't prove" fail in the linter (O43, registry W96); his
+  keeps and the Nibbāna cuts he took are examples in `tools/humanization/caveat_examples.json` for the next caveat readers.
+  The HTML editing method is a shared tool, `tools/humanization/html_text_edit.py` (with a test).
+- **Question 65's page again:** `joel-20261024/REPEATS.md`, the same 31 items, numbers and picks, made on the text with
+  his 64 cuts in (one paragraph differs: 64.17's cut). The old page stays in `joel-20261023/repeats/`.
+- **Next:** his answer to 65. Then, in a new script beside `apply_64.py` (reading `joel-20261024/WORKING.html`, cutting
+  the same way with `clarity_read.cut_text` and `html_text_edit.set_text`), the picked cuts go in, and the whole new
+  version goes to Pangram once, after a ledger prediction: a new temporary draft in the built-in browser titled exactly
+  "TEMP recheck (community article) - do not publish" (add the title to LANE_TITLES in a copy of
+  `articles/inner-signal/humanize/fix-20261022/screen/paste_payload_lane.js`), the payload pasted with the helper, then
+  the rendered check (`tools/humanization/substack_rendered_check.js`) against DRAFT-TEXT. On red: Emulate on the red
+  paragraphs, only the red sentences spliced in, a fresh meaning check. Then `make_master.py`, the receipt and
+  `promote.py` (see "45 a is done" below), and the copy helper from the final HTML for his paste (built the way Nibbāna's
+  was this turn: `articles/nibbana/humanize/fix-20261024/helper/make_helper.py`).
+
+**Earlier (kept for the record):**
 
 **His message of 2026-10-23 22:29 UTC** (`joel-20261023/joel-20261023-2229-message.txt`; GPT's reply to my review beside
 it, `gpt-reply-to-review-20261023.md`): 57 a, 58 a, 59 a with "most of the second half of that part could be compressed
@@ -117,12 +148,13 @@ State at the end of the turn of Joel's message of 2026-10-16 23:38 UTC:
 - Every turn, give Joel the article so far: since 2026-10-23, the new version's reading copy (`joel-20261023/restructure/READING-COPY.md`, as its GitHub link); before that, `candidate/community-article-so-far.html` and the side-by-side page of any section that changed, as files (the latest scripts: section 13 `s13/make_page_v37b.py`, section 14 `s14/make_page_v8.py`, section 15 `s15/make_page_v17.py`, section 16 `s16/make_page_v30.py`, section 8 `fix-20261017d/make_pages_s8.py`). Check each with `python3 tools/humanization/html_links.py PAGE.html` before sending.
 
 ## Waiting on Joel
-1. Questions 64 (safety lines and caveats) and 65 (repeats) on `OWNER-QUESTIONS.md`.
-2. Pull request 232 (https://github.com/u-dont-existDOTcom/joel-articles/pull/232), this turn's work for all three lanes, on the hypnosis lane's branch
-   `claude/community-joel-1018`; his to merge.
+1. Question 65 (repeats) on `OWNER-QUESTIONS.md`.
+2. Pull request PRNUM (https://github.com/u-dont-existDOTcom/joel-articles/pull/PRNUM), this turn's work for all three
+   lanes, on the hypnosis lane's branch `claude/community-joel-1018`; his to merge. (Pull request 232 was merged on
+   2026-10-24.)
 
 ## Next step
-1. When he answers 64 and 65: the picked cuts and the whole-article Pangram check (see START HERE, "Next").
+1. When he answers 65: the picked cuts and the whole-article Pangram check (see START HERE, "Next").
 2. Before every push: `python3 scripts/register_article_artifacts.py --article intentional-communities --write`, then the
    repository's checks (`python -m unittest discover -s tests`, `python scripts/validate_content_repository.py --root .`).
 
