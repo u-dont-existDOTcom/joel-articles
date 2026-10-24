@@ -1,0 +1,65 @@
+{
+ "about": "Examples for the caveat read (part 3 of docs/CLARITY-READ.md, tools/humanization/clarity_read.py make --kind caveats). Joel, 2026-10-23 17:53 UTC, on the Inner Child guide (its answer 95.6 B): \"that's what we need to pluck out of the whole guide, all the extra extra ridiculous safety language which gets repeated everywhere. want to look at the books we have as examples, especially ones made for public audiences\". That lane's safety-language pass (turn 102, articles/inner-child-therapy/experiments/t102-safety/ on its branch) proposed 26 cuts; his message of 2026-10-23 22:29 UTC: \"just cut out a ton of obnoxious safety language and caveats from inner child article\", and the same question for the Nibbāna, community and hypnosis articles. The examples below are cuts from that pass, and the kinds it kept. Add his answers here as he gives them, with his choice.",
+ "books": "How public books place safety (that lane's BOOKS.md, from Lucia Capacchione's Recovery of Your Inner Child and Tara Bennett-Goleman's Emotional Alchemy): one front note, one note on pace and stopping, one section on choosing helpers; inside the exercises, a caution only where it changes what you do, said once; \"safe\" as a setting (\"find a quiet, safe place\"), not as a warning.",
+ "examples": [
+  {
+   "kind": "BLANKET",
+   "cut": "If nobody is in danger, take a breath",
+   "context": "When you catch it, ... \"That's awesome I could notice it!\" [If nobody is in danger,] take a breath or three before you finish whatever you were doing.",
+   "why": "Nobody stops for three breaths while someone is in danger."
+  },
+  {
+   "kind": "NOBODY-SUGGESTED",
+   "cut": "Getting in touch is a separate decision, for a much calmer day.",
+   "context": "Whoever hurt you might come to mind, too. I'd leave out forgiving them and picturing their childhood.",
+   "why": "The exercise is wishing people well in your own head; nothing in it says to contact anyone."
+  },
+  {
+   "kind": "SAID-AGAIN",
+   "cut": "(if you're in danger, get safe first)",
+   "context": "anything big or hard to undo can wait until you're calm and you've checked it against what you actually know",
+   "why": "Said in five other places that need it."
+  },
+  {
+   "kind": "REASSURANCE",
+   "cut": "It doesn't mean failure.",
+   "context": "after a sentence that calls a setback information to learn from",
+   "why": "\"information to learn from\" already says it isn't failure."
+  },
+  {
+   "kind": "TAKEBACK",
+   "cut": "It doesn't have to happen after every session.",
+   "context": "the last line of a paragraph that suggests one small real-life step after a session",
+   "why": "It takes back part of the small step the paragraph just suggested."
+  },
+  {
+   "kind": "TAKEBACK",
+   "cut": "And nobody's off the hook (you included, if you were the one who did the harm): whatever repair is owed is still owed.",
+   "context": "an exercise of saying \"and so that's the way it happened\"",
+   "why": "It answers an objection instead of guiding the exercise, and another section says it."
+  },
+  {
+   "kind": "HEDGE",
+   "cut": "That might not be how it goes for everyone, and it doesn't mean unhappy people can't help.",
+   "context": "after his own experience of getting better at helping others once he cultivated his own happiness",
+   "why": "The paragraph is his own experience; it disclaims something it doesn't say."
+  },
+  {
+   "kind": "HEDGE",
+   "cut": "(that part is optional)",
+   "context": "after a sentence that says it \"might be\"",
+   "why": "\"It might be\" already makes it optional."
+  },
+  {
+   "kind": "DISCLAIMER",
+   "cut": "(I'm only borrowing the word ...)",
+   "context": "after he uses the Tibetan word \"bardo\"",
+   "why": "Borrowing a word asks nobody to believe anything."
+  }
+ ],
+ "kept": [
+  "a caution that changes what you do at that step (don't use a photo to confirm a memory; move away from the open window and get outside support)",
+  "a section whose subject is safety or crisis (If You Want to Kill Yourself; When the Present-Day Adult Is Dangerous)",
+  "his own stop rule told as his story (the crying song: \"turn the song off for tonight\")"
+ ]
+}

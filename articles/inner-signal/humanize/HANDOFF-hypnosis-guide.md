@@ -111,10 +111,13 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-Nothing for the guide: no open questions (1 to 14 are answered), and recheck B is read.
+Nothing for the guide: no open questions (1 to 14 are answered).
 
-Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): the sixth recheck's result link (the same draft, re-pasted and
-verified, [its secret link](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck6-n6&audience=only_paid&free_preview=false&freemail=)), and question N5 (a picture beside his 14 move).
+Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): the eighth recheck's result link (the same draft, re-pasted and
+verified, [its secret link](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck8-n8&audience=only_paid&free_preview=false&freemail=)), and question N6 (23 safety-line and caveat cuts). N5 (the meme) he
+decides when he gets the clipboard helper for his post.
+
+Pull request 232 (https://github.com/u-dont-existDOTcom/joel-articles/pull/232), this turn's work for all three lanes, on `claude/community-joel-1018`; his to merge.
 
 ## Where it stands
 
@@ -178,7 +181,76 @@ From `fix-20261018/` unless a command says `humanize/`:
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
-## Next step (2026-10-23, after Joel's message of 20:35 UTC: Nibbāna's sixth recheck waits on his Brave; N5 on him)
+## Next step (2026-10-23, after Joel's message of 23:28 UTC: Nibbāna's eighth recheck waits on his Brave; N6 on him)
+
+His message, word for word: `fix-20261023/joel-20261023-2328-message.txt` (also in Nibbāna's `fix-20261023/`): "recheck
+nibbana" with recheck 7's link. Done:
+- **Nibbāna's seventh recheck read** (`articles/nibbana/humanize/fix-20261023/recheck7/`: WINDOWS.txt 776ddb0c..., META.json,
+  RESULT.json from DRAFT-TEXT.txt a56e5aaf..., SCORE.md): Human Written, 0.39% AI, 2 of 114 windows AI (67 Low, 68
+  Medium): the first two sentences of his unchanged "Part of the problem is that the Buddha ..." paragraph, light green
+  in recheck 6. All four of batch n6's splices and his kept "I used to attribute ..." and "So enlightenment ..." read
+  Human. NB-whole#29 right (Mixed); forecast 64 of 65, the miss that light green window at 0.02.
+- **Emulate round 5** (laptop `emu-hg-cd` to `emu-hg-cf`, `n7/BUNDLE5.json`; about 52,970 words left) and **batch n7**
+  (`n7/emulate_n7.py`, called by `n1/install_n1.py` after n6; record `EDITS-n7.json`): the two red sentences from sample
+  cf, with four fixes of mine in "mine"; a fresh Sonnet reader (`REVIEW.md`) found "pull either away and the other falls"
+  lost and "I think" a new hedge, both fixed (`TRIAGE.json`; E255).
+- **Nibbāna recheck 8** (`recheck8/`): built (payload f060657e..., DRAFT-TEXT 6a0f5ae0..., 15,875 words), CHANGED.json (1
+  part), FORECAST.json (55 parts, 24% no red), NB-whole#30 (AI at 0.24), pasted into draft 221726541 at commit 02d2a8cc
+  (caption deleted), rendered text = DRAFT-TEXT.txt with `tools/humanization/substack_rendered_check.js` (new: the walk
+  every recheck used, now a file).
+- Delegation: one Sonnet splice reader (triaged by me).
+
+Next:
+1. **When Joel sends Nibbāna's eighth recheck link**: as for recheck 7 (`pangram_feed_read.js` compact, WINDOWS.txt,
+   META.json, RESULT.json from DRAFT-TEXT.txt 6a0f5ae0..., the ledger result for NB-whole-n8, `part_forecast.py score`).
+   If the new sentences read red again, Emulate's other samples (cd, ce) are there; or ask him (his words, or keep the
+   red). If it reads with no red: the clipboard helper for his post (item 4 of the step below), with N6's picks in first.
+2. **N6** and 3. **the guide's clarity check, all four parts**: as in the step below.
+
+## Earlier next step (2026-10-23, after Joel's message of 22:29 UTC: Nibbāna's seventh recheck waits on his Brave; N6 on him)
+
+His message, word for word: `fix-20261023/joel-20261023-2229-message.txt` (also in Nibbāna's `fix-20261023/` and the
+community article's `candidate/joel-20261023/`, with GPT's reply to my community review beside it): N5 ("i'll look at it
+later when youu give me the clipboard helper"), "did we already look at whether there's too much safety language in this
+article? ... same question for community and hypnosis articles", Nibbāna's sixth recheck link, and his community answers.
+Done:
+- **Nibbāna's sixth recheck read** (`articles/nibbana/humanize/fix-20261023/recheck6/`: WINDOWS.txt 3571d0fb..., META.json,
+  RESULT.json, SCORE.md): Mostly Human Written, 1.1% AI, 6 of 121 windows AI, all Low, next to his N4 15 and 16 moves, and
+  one unchanged sentence. NB-whole#28 right; forecast 87 of 92, the misses the moves' neighbours at 0.05 (E249 worked as
+  designed: they had their own parts) and one light green window.
+- **Emulate round 4** (laptop `emu-hg-ca` to `emu-hg-cc`, `n6/BUNDLE4.json`; about 54,150 words left) and **batch n6**
+  (`n6/emulate_n6.py`, called by `n1/install_n1.py` after n5; record `EDITS-n6.json`; inline markup kept by position, so
+  links and italics outside a spliced sentence stay where they were): the awareness sentence (ca), the MN 75 sentence (ca),
+  the next question (cb), the lucid-dream sentences (cc, with the reader's two fixes); his "I used to attribute ..." and
+  "So enlightenment isn’t a simple bliss switch." kept. Reviewed by a fresh Sonnet reader (`REVIEW.md`), triaged
+  (`TRIAGE.json`).
+- **Nibbāna recheck 7** (`recheck7/`): built, CHANGED.json (6 parts), FORECAST.json (65 parts, 4% no red), NB-whole#29 (AI
+  at 0.04), pasted into draft 221726541 (caption deleted), rendered text = DRAFT-TEXT.txt (a56e5aaf...).
+- **The caveat read, part 3 of `docs/CLARITY-READ.md`** (E252): `clarity_read.py make --kind caveats`, examples
+  `tools/humanization/caveat_examples.json` (from the Inner Child lane's turn-102 pass on its branch
+  `handoff/claude-dangerous-adult-20260924-1631`, `experiments/t102-safety/`), a test. Run on Nibbāna
+  (`fix-20261023/caveats/`: six Sonnet readers, 25 lines, my picks in ITEMS.json, `CAVEATS.md` is question N6) and the
+  community article (that lane's handoff).
+- **The repeats read, part 4** (E253): `clarity_read.py make --kind repeats` (each reader reads the whole article and owns
+  one part's points), a test; first run on the community article.
+- **E254** (GPT's reply to my community review). The next lesson is E255.
+- Delegation: twelve Sonnet caveat readers and one Sonnet splice reader (all checked by me against the whole article).
+
+Next:
+1. **When Joel sends Nibbāna's seventh recheck link**: as for recheck 6 (`pangram_feed_read.js` compact, WINDOWS.txt,
+   META.json, RESULT.json from DRAFT-TEXT.txt a56e5aaf..., the ledger result for NB-whole-n7, `part_forecast.py score`).
+   If his "I used to attribute ..." reads red again, it goes to him (his own rewrite, or keep the red).
+2. **N6**: put in his picks from `fix-20261023/caveats/ITEMS.json` (each cut exactly the struck words; the page's
+   "After" is the paragraph after the cut), as a batch module called by `install_n1.py`, then the next recheck.
+3. **The guide's clarity check, all four parts** (reread list, reader's edit, caveats, repeats): about 29,500 words. It
+   reviews his inner-child writing, so the InnerSignal server's instructions apply: load the therapy protocol in the main
+   thread first (`load_therapy_protocol`) and follow it; loading it from a subagent was refused once, so don't route it
+   through one. Then the parts (`clarity_read.py make HUMANIZED-SO-FAR.md DIR --kind ... --parts 8`), fresh readers,
+   `collect`, every item checked against the whole guide, `page`, his questions.
+4. **When Nibbāna reads Human:** the clipboard helper for his post (`project-sources/substack_transfer_helper.py.txt`
+   from the working copy), with N5 for him to decide there.
+
+## Earlier next step (2026-10-23, after Joel's message of 20:35 UTC: Nibbāna's sixth recheck waits on his Brave; N5 on him)
 
 His message, word for word: `fix-20261023/joel-20261023-2035-message.txt` (also in Nibbāna's `fix-20261023/` and the
 community article's `candidate/joel-20261023/`): Nibbāna's fifth recheck link ("nibbana check 5"), part B's recheck link

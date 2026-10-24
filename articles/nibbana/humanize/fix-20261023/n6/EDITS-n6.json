@@ -1,0 +1,97 @@
+[
+ {
+  "key": "n6-aware",
+  "old": "The texts distinguish that from ordinary sense-consciousness (viññāṇaṃ) established when one thing perceives another.",
+  "new": "It is in contrast to the usual type of viññāṇaṃ (“sense consciousness”) that is established when one thing perceives another.",
+  "windows": "35 (Low) in recheck 6, alone; Human, Low, in recheck 5",
+  "source": "Emulate sample ca (NB-aware)",
+  "mine": [
+   {
+    "replace": "viññånaü (“sense consciousness”)",
+    "with": "viññāṇaṃ (“sense consciousness”)",
+    "why": "Emulate garbled the diacritics; the article's own spelling (E246)"
+   }
+  ],
+  "markup_dropped": [],
+  "check": null,
+  "try": null,
+  "result": "read in place in the next recheck (recheck 7)",
+  "review": "fix-20261023/n6/REVIEW.md",
+  "triage": "fix-20261023/n6/TRIAGE.json"
+ },
+ {
+  "key": "n6-mn75",
+  "old": "In MN 75, the Buddha says that what ordinary people perceive as sensual pleasure, he felt as pain.",
+  "new": "Also, there’s this quote from the Buddha in MN 75 where he says that what normal people perceive as sensual pleasure, he feels as pain.",
+  "windows": "81 (Low) in recheck 6, after his N4 15 nested the note",
+  "source": "Emulate sample ca (NB-mn89note)",
+  "mine": [
+   {
+    "replace": "Also remember this quote from the Buddha in MN 75 where he says",
+    "with": "Also, there’s this quote from the Buddha in MN 75 where he says",
+    "why": "the quote comes here for the first time (MN 75 came earlier, with the leper), so there is nothing to remember"
+   }
+  ],
+  "markup_dropped": [],
+  "check": null,
+  "try": null,
+  "result": "read in place in the next recheck (recheck 7)",
+  "review": "fix-20261023/n6/REVIEW.md",
+  "triage": "fix-20261023/n6/TRIAGE.json"
+ },
+ {
+  "key": "n6-question",
+  "old": "Does the Dhamma now feel intuitively coherent rather than merely conceptual?",
+  "new": "Does the Dhamma make intuitive sense to you now - does it come across as a coherent picture - as opposed to merely conceptual?",
+  "windows": "82 (Low) in recheck 6, with \"So enlightenment isn’t a simple bliss switch.\", which stays (no sample has it)",
+  "source": "Emulate sample cb (NB-mn89note)",
+  "mine": [
+   {
+    "replace": "the dhamma",
+    "with": "the Dhamma",
+    "why": "the article’s own spelling (E246)"
+   },
+   {
+    "replace": "to yuo now",
+    "with": "to you now",
+    "why": "a typo"
+   }
+  ],
+  "markup_dropped": [],
+  "check": null,
+  "try": null,
+  "result": "read in place in the next recheck (recheck 7)",
+  "review": "fix-20261023/n6/REVIEW.md",
+  "triage": "fix-20261023/n6/TRIAGE.json"
+ },
+ {
+  "key": "n6-lucid",
+  "old": "The lucid-dream comparison from earlier also shapes how I understand the seven-life limit said to be had by the stream-enterer. Once the dream is known as a dream, it becomes naturally difficult to remain stuck in it, similar to how hard it is to be absorbed in a movie when the lights go on and you remember you’re in a theater.",
+  "new": "To follow up on the lucid dreaming analogy I made earlier, there's the idea that the stream-enterer has only seven more lives at most, and that analogy shapes how I understand it: once you know you're in a dream, it's hard to stay stuck in the dream. It's like how hard it is to stay absorbed in a movie once the lights come on and you remember you're in a theater.",
+  "windows": "91 and 92 (Low) in recheck 6, the paragraph before his N4 16 move; \"If you’ve ever had a lucid dream, you know what I’m talking about.\" stays his",
+  "source": "Emulate sample cc (NB-lucid)",
+  "mine": [
+   {
+    "replace": "the fact that the Stream Entered individual has",
+    "with": "the idea that the stream-enterer has",
+    "why": "his \"said to be\": the seven-life limit is the suttas' claim, not a fact he asserts; and the article's own term (E246)"
+   },
+   {
+    "replace": "and it relates in that once you know",
+    "with": "and that analogy shapes how I understand it: once you know",
+    "why": "the reader (REVIEW.md, item 4): his own reading (\"shapes how I understand\") was lost, and \"it relates\" was vague"
+   },
+   {
+    "replace": "stay in a movie",
+    "with": "stay absorbed in a movie",
+    "why": "the reader (item 4): \"absorbed\" was lost, and \"stay in a movie\" could read as staying in the seat"
+   }
+  ],
+  "markup_dropped": [],
+  "check": null,
+  "try": null,
+  "result": "read in place in the next recheck (recheck 7)",
+  "review": "fix-20261023/n6/REVIEW.md",
+  "triage": "fix-20261023/n6/TRIAGE.json"
+ }
+]
