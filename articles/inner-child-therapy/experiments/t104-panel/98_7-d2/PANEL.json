@@ -1,0 +1,52 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Sometimes a session goes great, and a few days later you're skipping lunch and saying yes to everything again.",
+  "Going deeper next time probably won't change that.",
+  "Your little one learns more out here than it would from another good meditation.",
+  "So whatever you did for it in there, I'd try a tiny bit of it out here, like texting a friend that you're having a rough day instead of saying you're fine.",
+  "That can be harder than the meditation was."
+ ],
+ "flagged": {
+  "1": [
+   "haiku"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "sonnet"
+  ],
+  "5": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3,
+  5
+ ],
+ "whole": {
+  "codex": [],
+  "haiku": [],
+  "sonnet": []
+ },
+ "human_clean": [
+  "whatever you did for it in there",
+  "I'd try",
+  "So whatever you did for it in there",
+  "of it out here"
+ ]
+}

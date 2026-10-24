@@ -1,0 +1,294 @@
+{
+ "title": "Inner Child Therapy, turn 106: what changed",
+ "meta": "2026-10-24, his answers of 2026-10-24 22:55 UTC; the article at branch handoff/claude-dangerous-adult-20260924-1631",
+ "intro": [
+  "Each paragraph my installs of your picks changed, beside what it was: your cuts, your merged sentence, d3 and the paragraph break you said I could try. Your own five sections are in word for word and aren't repeated here, and the 25 new headings change no paragraph. Every check is on experiments/t106-api/API-CHECKS.md."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "# Inner Child Therapy — humanized article so far"
+   ],
+   "rows": [
+    {
+     "label": "Your nutshell without its last sentence (h2)",
+     "article": "Reparenting means consciously evolving and molding an Inner ",
+     "source": [],
+     "notes": [],
+     "beside": {
+      "label": "Before",
+      "text": "Reparenting means consciously evolving and molding an Inner Adult inside you, comprising a loving Nurturer, a safe Adult Protector (hereafter just the Protector) and a wise Guide. This chosen Inner Adult super hero gets into a real, loving relationship with the little one you still carry. That grown-up notices the old patterns and practices better ways of responding. At first, it’s deliberate, even awkward. With time, the roles become second nature, so you spend less of your life managing yourself and more of it living with purpose, loving, relaxing, and playing. You can always slow down and look closer when it helps."
+     }
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# My Journey"
+   ],
+   "rows": [
+    {
+     "label": "My Journey without \"It doesn't mean you're stupid or crazy.\" (h3; question 103)",
+     "article": "I think most people who chase spiritual freedom are also try",
+     "source": [],
+     "notes": [],
+     "beside": {
+      "label": "Before",
+      "text": "I think most people who chase spiritual freedom are also trying to get away from something painful in themselves, and a lot of it goes back to childhood. That's [spiritual bypassing](https://goenka.u-dont-exist.com/). Plenty of seekers and gurus do it too; I've written about the [Dalai Lama as one example](https://substack.com/@udontexist/note/c-245314772?r=5vdc6m). I did it too. It doesn't mean you're stupid or crazy."
+     }
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# Before You Try to Go Deep",
+    "## You Don’t Need an Inner Monologue"
+   ],
+   "rows": [
+    {
+     "label": "Your Inner Monologue P2, split before \"Then again\" (e5): both versions read Human",
+     "article": "Then again, maybe what’s actually requiring your attention n",
+     "source": [],
+     "notes": [
+      "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E5, a paragraph break before \"Then again\" (\"if it would read better with diff para break you can try\"). Through the API his section read Human as he wrote it and with the break (both 0.0000% AI, experiments/t106-api/API-CHECKS.md)."
+     ],
+     "beside": {
+      "label": "Before",
+      "text": "You might barely have spontaneous words in your mind and yet still be able to think a sentence on purpose. Try it and see. If words are there, speak or write them. You might feel more comfortable that way than just staying in imagination land.  And if that starts feeling like homework you're doing for a child who isn't answering, drop it. Maybe what's actually requiring your attention now is a knot in your stomach. Or perhaps you're in a place you want to leave. Sometimes nothing “answers” and you just know what would be nice to do for yourself. And if you don't know, it's fine to guess. Maybe it's closeness, or maybe it's more say in your own life. A lot of us got plenty of one thing growing up and almost none of another."
+     }
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# Borrow the Adult Before You Can Be the Adult",
+    "## Borrow One Competency at a Time",
+    "### If the Love Isn't Coming Yet"
+   ],
+   "rows": [
+    {
+     "label": "If the Love Isn't Coming Yet: \"It's scaffolding.\" (h7)",
+     "article": "Maybe just imagining a caring grown-up makes you feel more t",
+     "source": [],
+     "notes": [
+      "Turn 65, round z3, a fresh writer on the middle paragraph alone (job lm1p2): if even an imagined caring grown-up makes you feel more threatened or lonelier, go smaller still, to the least cruel response a decent adult could offer; scaffolding, not a test of whether you were loved enough. Alone Human Written (0.17, low), https://www.pangram.com/history/2736e072-e9a6-45fc-b465-b89760db860d; the opening with it Human Written (0.25, high), https://www.pangram.com/history/4b86c5ce-675f-45a4-b50a-23130bddce39."
+     ],
+     "beside": {
+      "label": "Before",
+      "text": "Maybe just imagining a caring grown-up makes you feel more threatened, or lonelier. Lonelier is a strange one, with somebody right there. Then go smaller still, to the least cruel response a decent adult could offer your little one. It's scaffolding, and it isn't a test of whether you were loved enough."
+     }
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# Building Trust With Your Little One",
+    "## Not Every Hero Wears A Cape",
+    "### Make It Intentional"
+   ],
+   "rows": [
+    {
+     "label": "Under the new heading Make It Intentional, without \"Some of them are only one step anyway.\" (e9, h12)",
+     "article": "Intentional, meaning you pick one of those acts and decide w",
+     "source": [],
+     "notes": [
+      "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E9 from the ideas page, the heading only (his \"e9 a\")"
+     ],
+     "beside": {
+      "label": "Before",
+      "text": "Intentional, meaning you pick one of those acts and decide when you'll do it, and what the smallest first step is (like with the envelope). Some of them are only one step anyway. If it needs money or somebody's help, sort that out before the day, and if you'll have to tell someone something they won't like, say it out loud to yourself ahead of time. Then put yourself in their shoes to see how it sounds, and go back & forth like that a couple times until both sides feel good about it, or good enough, as long as what you needed to say is still in there."
+     }
+    },
+    {
+     "label": "d3 in place of your paragraph (your \"98.2a\")",
+     "article": "After the day, look at what actually happened.",
+     "source": [],
+     "notes": [
+      "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): 102.2 A, d3 for his 98.2 (Human alone and in its h2, experiments/t105-api/API-CHECKS.md)"
+     ],
+     "beside": {
+      "label": "Before",
+      "text": "After the day, look at what actually happened. If you did the Protector action(s), not feeling better right away is information to learn from. Healing is nonlinear, and sometimes standing up for yourself might make you feel worse at first. Not doing it is harder to figure out. Fear is the first guess, but maybe you didn't know how or why. Being worn out can stop you too, and sometimes whoever said they'd help couldn't make it. Hey, we've all been there. 🤗"
+     }
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# Building Trust With Your Little One",
+    "## Love Doesn't Have to Wait for Trust ❤️",
+    "### Instead of Blame"
+   ],
+   "rows": [
+    {
+     "label": "Instead of Blame without \"Hindsight being 20/20 doesn't change that.\" (e10)",
+     "article": "Whichever age it picks on, saving everybody was never your j",
+     "source": [],
+     "notes": [
+      "Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 98.3 A (his \"98. agree cut all\"): cut \"You still did what you did, though, and if it hurt people or damaged a life, that may need repair.\". The original is in experiments/t102-safety/SAFETY-CUTS.md."
+     ],
+     "beside": {
+      "label": "Before",
+      "text": "Whichever age it picks on, saving everybody was never your job. At fifteen you probably didn't even have your own money, or anywhere else to go. And actually, not to beat a dead horse here, but every age of you was stuck with whatever it had then, even the adult you were last year. Hindsight being 20/20 doesn't change that."
+     }
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# Simple Practices",
+    "## Catch the Hook Before the Story Takes Over"
+   ],
+   "rows": [
+    {
+     "label": "Catch the Hook without \"You can figure that out later.\" (h14)",
+     "article": "Pema Chödrön calls the tightening and urge you get before th",
+     "source": [],
+     "notes": [
+      "2026-09-27: \"the hook\" is now introduced before it's used (Joel 04:19); Pema's sentence moved to the front with her own gloss. Joel's items 7 and 8 are in P3. Pangram 4.0: P1 alone 100% Human (96 words); the section 100% Human (255 words). Record: experiments/OWNER-PUNCHLIST-20260927.md."
+     ],
+     "beside": {
+      "label": "Before",
+      "text": "Pema Chödrön calls the tightening and urge you get before the story has finished forming \"shenpa,\" and she says \"[hooked](https://www.lionsroar.com/how-we-get-hooked-shenpa-and-how-we-get-unhooked/)\" is a more descriptive translation than the usual \"attachment.\" You might notice the hook before you have any clue what part of you is doing the hooking. Or you might notice it embarrassingly late. The jaw and stomach are already tight, and/or half the text is written, and then suddenly it dawns on you: you're supposed to be observing yourself. 😀 Maybe forget the parts detective work for a minute. You can figure that out later."
+     }
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# Simple Practices",
+    "## One Intention in the Morning, One Review at Night"
+   ],
+   "rows": [
+    {
+     "label": "Your One Intention without the repeat of the repair (e13)",
+     "article": "Count recognition as progress, regardless whether it came up",
+     "source": [],
+     "notes": [],
+     "beside": {
+      "label": "Before",
+      "text": "Count recognition as progress, regardless whether it came up a bit late, as the goal is to bring the awareness closer and closer to the present. All or nothing from the get go would be cool, but we normally have to learn step by step. If/when you interrupted the pattern, pat yourself on the back, or even kiss yourself on the shoulder. If you made a mistake, you can see how to repair that. You can renew your intention for tomorrow, getting better & better, every day, in every way. And enjoy your well-earned rest tonight."
+     }
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# Simple Practices",
+    "## Use Childhood Photographs Gently"
+   ],
+   "rows": [
+    {
+     "label": "Your photos paragraph without \", which is also completely OK\" (h17)",
+     "article": "While you look, notice what your body does and what feelings",
+     "source": [],
+     "notes": [],
+     "beside": {
+      "label": "Before",
+      "text": "While you look, notice what your body does and what feelings or urges show up. Is there something that younger you seems to want you to understand? Some of it you'll remember yourself, and some of it you might even glean from talking to family/friends from then (\"You hated that coat\"). It might just be an inference you're guessing from the picture, or perhaps it triggers an image or a dream. Or just nothing comes up, which is also completely OK. Ask what your little one needs from you now, and do a bit of it."
+     }
+    },
+    {
+     "label": "Your photos paragraph without \", so we gotta be careful about that\" (h18)",
+     "article": "We don't need to ask it leading questions, like \"Who abused ",
+     "source": [],
+     "notes": [],
+     "beside": {
+      "label": "Before",
+      "text": "We don't need to ask it leading questions, like \"Who abused me & how?\" or \"What memory is my body hiding?\" Grilling one photo until a story shows up is a good way to get a story, but stories aren't necessarily the truth, and even if they are accurate, the feelings beneath them are still more important. Memory is an amorphous thing, easily influenced by guided imagery and suggestions, so we gotta be careful about that. [Look at this study, for example](https://link.springer.com/article/10.3758/BF03196318), where people were shown a doctored photo of a childhood hot-air balloon ride they never took. Half of them actually started sorta remembering it. I'm sure you can relate."
+     }
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# Altered States Can Deepen the Therapy",
+    "## When Escape Leaves Reality Behind"
+   ],
+   "rows": [
+    {
+     "label": "When Escape Leaves Reality Behind: the disclaimer out, \"These are just\" (h22)",
+     "article": "Any of those reactions, from mania to paranoia, can also poi",
+     "source": [],
+     "notes": [
+      "Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 97.7 A (his \"97. i agree cut all\"): cut \", though I don't mean every drug's dangerous for you\". The original is in experiments/t102-safety/SAFETY-CUTS.md."
+     ],
+     "beside": {
+      "label": "Before",
+      "text": "Any of those reactions, from mania to paranoia, can also point to a vulnerability in you, so I'd be careful with other drugs that mess with what's real too. And any predisposition toward mania or psychosis is a warning sign too, whether it's family history, a bad environment or a bad mindset. I can't tell you exactly what to do about it, and nobody can tell you for sure what's best for you. There are just caution signs, and when you see them, you take more precautions of every kind. You have to figure out what they mean for you, and if you can't, get help from trusted advisors."
+     }
+    },
+    {
+     "label": "Your merged acacia sentence (h23; question 103)",
+     "article": "Be careful what you mix, too, and not just prescribed medici",
+     "source": [],
+     "notes": [],
+     "beside": {
+      "label": "Before",
+      "text": "Be careful what you mix, too, and not just prescribed medicines. Even some basic things like cinnamon can be dangerous (and helpful) with ayahuasca, and doctors don't know about a lot of this. I also learned that mixing acacia confusa with mimosa hostilis is very dangerous. I'd never recommend anyone risk it, since it's highly destabilizing and challenging. I have a [list of things to be cautious about with ayahuasca](http://ayasafety.u-dont-exist.com/) in particular."
+     }
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# The Inner Guide",
+    "## You Belong Everywhere and Nowhere"
+   ],
+   "rows": [
+    {
+     "label": "You Belong Everywhere and Nowhere without \"Not all at once, though.\" (h31)",
+     "article": "With that under you, belonging with people can get a lot les",
+     "source": [],
+     "notes": [
+      "Turn 104 (his answers of 2026-10-23 23:21 UTC, experiments/t104-answers/JOEL-20261023-2321.md): 100.1 A: his P10, word for word (\"i fixed it, this passes\"); the naming aside that ended it is now its own paragraph after P1 (GPT's move)."
+     ],
+     "beside": {
+      "label": "Before",
+      "text": "With that under you, belonging with people can get a lot less desperate. Not all at once, though. Your little one might still think, “If they stop liking me, I won’t belong anywhere,” and the Guide can remind it there’s more to belong to than them."
+     }
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# The Inner Guide",
+    "## Timing Is Individual"
+   ],
+   "rows": [
+    {
+     "label": "Timing Is Individual without \"Timing is different for everyone, but\" (h32)",
+     "article": "Most of us need enough Nurturer and Protector first. Otherwi",
+     "source": [],
+     "notes": [
+      "Turn 67: Joel's P14, word for word (2026-10-17 14:01 UTC, his answer to question 35: \"added a marching order break that sounds a bit human, now it passes\"; experiments/t67-answers/JOEL-20261017-1401.md). His check counts for it alone. With it under the heading, the h2 read Human Written (0.27, medium, 140 words), https://www.pangram.com/history/16516cc7-5343-427c-928b-6a72439b2543, and the h1 Human Written (0.10, high, 1448 words), https://www.pangram.com/history/cb9aec61-0957-43eb-b28f-4c0f30633cae (round t67a)."
+     ],
+     "beside": {
+      "label": "Before",
+      "text": "Timing is different for everyone, but most of us need enough Nurturer and Protector first. Otherwise the Guide just overrules your little one in the name of something higher (spiritual bypassing, dressed up as direction). Like a shepherd who's beating sheep to make them move. So warmth and safety come first for a while, and the direction can grow once there's a clear little one in there to guide."
+     }
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# Appendix",
+    "## How This Relates to Schema Therapy"
+   ],
+   "rows": [
+    {
+     "label": "How This Relates to Schema Therapy: the Jeffrey Young parenthetical, \"(no belief in God required)\" and the last line out (h38, h39)",
+     "article": "Where it really differs is spirituality. Schema therapy does",
+     "source": [],
+     "notes": [
+      "Turn 92 (GPT's review of two books Joel checked, experiments/t92-answers/GPT-TWO-BOOKS-REVIEW-20261022-1819.txt; checked against the books, experiments/t92-books/BOOK-CHECK.md, all 13 claims confirmed): schema-based work that blends in Buddhist practice exists. Tara Bennett-Goleman's Emotional Alchemy (2001; his copy is the 2010 Rider edition) adapts loving-kindness to the schema in the exercise after chapter 15, \"If You Want to Blend Your Spiritual Practice with Emotional Work\". So two sentences of mine name it, and \"isn't part of the standard method\" is now \"isn't in her book or in the standard method\" (neither book has a way of receiving love from God, and \"gratitude\" appears in neither). His \"in my opinion\" sentence is unchanged. Lint CLEAR. Not yet checked in Pangram. Turn 93 (Joel, 2026-10-22 19:03 UTC: \"i'm also not theistic, i just used \\\"loan from God\\\" because it sounded good, but i'm not trying to get people to believe in God\"): the difference is now gratitude, his door to the bigger love in Your Loan is PRE-APPROVED! (its P7: thanks \"to the universe, to life, to God, whatever you may believe in\"), with \"no belief in God required\"; \"Her book barely mentions gratitude\" rests on the book check (gratitude 0, grateful 1). Lint CLEAR."
+     ],
+     "beside": {
+      "label": "Before",
+      "text": "Where it really differs is spirituality. Schema therapy doesn't build it in, though the preface to its main textbook calls blending it with meditation or religious practice an important development. That's not so surprising, since it grew out of cognitive therapy ([Jeffrey Young](https://en.wikipedia.org/wiki/Jeffrey_Young_(psychologist)), who developed it, did his postdoctoral work with Aaron Beck). Some people do blend them, though. Tara Bennett-Goleman's book *Emotional Alchemy*, for one, fits a Buddhist loving-kindness wish to each schema. Her book barely mentions gratitude, and for me that's the door to the bigger love back in Your Loan is PRE-APPROVED! (no belief in God required). IFS goes overboard the other way, in my opinion (more on that in the next section). Past that, a lot depends on who you're seeing."
+     }
+    }
+   ]
+  }
+ ]
+}

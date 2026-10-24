@@ -142,41 +142,41 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 101 | 76 (75%) | 40% | 60% | 75% | 0.203 (base 0.239, 101) |
-| **all lanes** | 101 | 76 (75%) | 40% | 60% | 75% | 0.203 (base 0.239, 101) |
+| inner child guide | 158 | 120 (76%) | 36% | 64% | 80% | 0.199 (base 0.231, 158) |
+| **all lanes** | 158 | 120 (76%) | 36% | 64% | 80% | 0.199 (base 0.231, 158) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 100 | 75 (75%) | 39% | 61% | 76% | 0.203 (base 0.238, 100) |
+| inner child guide | 100 | 75 (75%) | 33% | 67% | 90% | 0.204 (base 0.221, 100) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 50 | 37 (74%) | 40% | 60% | 78% | 0.202 (base 0.240, 50) |
-| section | 33 | 24 (73%) | 42% | 58% | 73% | 0.212 (base 0.244, 33) |
-| stretch | 18 | 15 (83%) | 33% | 67% | 72% | 0.189 (base 0.222, 18) |
+| paragraph | 75 | 57 (76%) | 37% | 63% | 79% | 0.192 (base 0.234, 75) |
+| section | 63 | 46 (73%) | 35% | 65% | 86% | 0.212 (base 0.227, 63) |
+| stretch | 20 | 17 (85%) | 35% | 65% | 70% | 0.182 (base 0.227, 20) |
 
 ## What the misses say (since the ledger)
 
 | cause | misses | lanes |
 |---|---|---|
 | too pessimistic about a cut | 12 | inner child guide |
-| a tell I did not name | 9 | inner child guide |
-| a Low window came back | 7 | inner child guide |
+| a tell I did not name | 11 | inner child guide |
+| not explained yet | 9 | inner child guide |
+| a Low window came back | 8 | inner child guide |
 | a paragraph alone is harsher than the article | 7 | nibbana article |
 | balanced closer kept | 3 | hypnosis guide |
-| not explained yet | 3 | inner child guide |
 | an added move read AI | 3 | inner child guide |
+| the section read differently from the paragraph alone | 3 | inner child guide |
+| too pessimistic about a rewrite | 3 | inner child guide |
 | parallel list kept | 2 | hypnosis guide |
 | context: red in the whole guide, Human in the pair | 2 | hypnosis guide |
 | six versions, same reading: the method is spent | 2 | hypnosis guide |
 | a window moved onto his line | 2 | inner child guide |
 | a second cut of the same kind | 2 | inner child guide |
-| the section read differently from the paragraph alone | 2 | inner child guide |
-| too pessimistic about a rewrite | 2 | inner child guide |
 | a repeat made adjacent by a move | 2 | inner child guide |
 | his paragraph reads AI alone under 4.1 | 2 | inner child guide |
 | parallel list kept; light green turned red | 1 | hypnosis guide |
@@ -193,6 +193,8 @@ The boundary mix over all lanes:
 | the list was not the only tell | 1 | inner child guide |
 | the half varies | 1 | inner child guide |
 | Low windows with no AI window | 1 | inner child guide |
+| a Human result above 0.0000 | 1 | inner child guide |
+| a cut took out what read human | 1 | inner child guide |
 | a Low window read Human | 1 | nibbana article |
 | underrated a plain split | 1 | nibbana article |
 | a neutral signpost reads AI where his casual frame read Human | 1 | nibbana article |

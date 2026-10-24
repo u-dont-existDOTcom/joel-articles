@@ -1,0 +1,45 @@
+<!-- The second writer's brief (turn 105, E256 (Inner Child)). tools/humanization/tell_panel.py rewrite-prompt fills it.
+It goes to a writer from another model family (Codex, from Joel's laptop) when two of my drafts of a paragraph have failed
+after the tell panel: on 2026-10-24 GPT fixed 97.8 on its first try, after four drafts of mine had kept the same shape.
+Its rules come from that fix and from Joel's notes on my fourth draft ("that same habit of being overly careful, and adding
+cautionary asides"; "high efficiency syntax ... the rhythm is annoying AF"), plus the lane's standing ones.
+The build rule and "(can go)" came the same day, when Codex's first rewrites of 98.7 and 98.2 kept the readers' template
+(scene, common mistake, reassurance, advice, closing moral) and only reworded it: 98.7's read 70% AI, and the panel flagged
+the same five lines of 98.2's again. -->
+Here is a paragraph from a self-help article by Joel, with the paragraphs around it. Fresh readers found that it reads as
+written by an AI model; their notes are below. Rewrite this one paragraph so it reads like Joel talking to a reader, and
+keeps every point listed.
+
+The paragraph before it (for context only):
+{before}
+
+THE PARAGRAPH:
+{text}
+
+The paragraph after it (for context only):
+{after}
+
+What it has to say (keep every point, at the strength it has, and add none):
+{points}
+
+What the readers flagged:
+{tells}
+
+Lines of Joel's own from the same article, for how he sounds:
+{voice}
+
+Rules:
+- Add no new claims: no facts about Joel or anyone in his life, no stories, no statistics, no new warnings or reassurances.
+  An everyday example of a point that is already there is fine.
+- Say an instruction plainly, as an instruction, and a fact as a fact. No cautious first-person asides around them ("I'd
+  count ...", "I wouldn't wait to ..."), no hedge in front of a directive, no "that doesn't mean ..." reassurance.
+- If a judgment of his is in the points, say it the way a person would, with whatever doubt it really has.
+- If the readers say the whole paragraph is built like a template (a scene, a common mistake, a reassurance, the advice,
+  a closing moral), change how it's built, not only its words: start from one concrete case the way a person tells it,
+  say a minor point in passing, and end on an example or a plain fact. A point marked "(can go)" can be left out.
+- Let the sentences run unevenly, the way a person talks. Don't line the cases up in parallel, and don't end on a quotable
+  line or a fragment that sums up.
+- No list of three unless its last item is a casual catch-all, and no "X, not Y" or "not X but Y" contrast.
+- About the same length as the paragraph, or shorter.
+
+Reply with the rewritten paragraph only.

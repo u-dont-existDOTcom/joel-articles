@@ -166,6 +166,9 @@ def reading_text(raw, kind):
             _html_lines(c, out)
         lines = out
     elif kind == 'md':
+        # notes in HTML comments are the editor's, never the reader's (2026-10-24: the Inner Child guide's Markdown keeps
+        # its turn notes and Pangram records in comments, and the first reader's-edit run would have shown them all)
+        raw = re.sub(r'<!--.*?-->', '', raw, flags=re.S)
         lines = []
         for l in raw.split('\n'):
             l = re.sub(r'!\[[^\]]*\]\([^)]*\)', '', l)
@@ -223,7 +226,7 @@ EDIT_BRIEF = '''You are a cold first-time reader of part {k} of {n} of {about}. 
 
 Ask of each section:
 1. How many decisions does one passage ask of the reader? A main path with its alternatives and troubleshooting mixed in makes a simple invitation feel like something to troubleshoot before starting. The main invitation can come first, with the alternative for one difficulty in a short labelled part beside it.
-2. Does a second subject start inside the section without a heading of its own? A subheading gives it its own space, and nothing has to be cut.
+2. Does a second subject start inside the section without a heading of its own? A subheading gives it its own space, and nothing has to be cut. A heading you propose names everything under it (on 2026-10-24 he turned down "One Grown-Up, Three Jobs" for a section that also covers a song and forced adulthood).
 3. What is each warning's job: does it change what the reader should do here, or does it explain why the instruction has qualifications? A safeguard that changes what the reader does stays next to its step; its reasons can move to a note. A compassionate permission ("you don't have to feel warmth today") belongs to the invitation and stays.
 4. Is a paragraph performing, with a joke, a metaphor or a memorable last line that only makes it sound casual, where it could be ordinary? His own humor and stories stay.
 5. What would an attentive reader still genuinely need here? A last reassurance or qualification that adds nothing new after the reader has understood can go; a repeat that deepens a scene stays.
@@ -274,7 +277,7 @@ Read the file {part} (one Read call; it is part {k} of {n}, headings marked "## 
 SECTION: the heading it's under, exactly as in the file
 QUOTE: the exact words to cut, copied exactly character for character from the file: a whole sentence, a clause or a parenthesis, no more than the cut
 KIND: one of SAID-AGAIN, BLANKET, NOBODY-SUGGESTED, REASSURANCE, TAKEBACK, HEDGE, DISCLAIMER
-WHY: in one line, why a reader doesn't need it here (for SAID-AGAIN, where it's said)
+WHY: in one line, why a reader doesn't need it here (for SAID-AGAIN, where it's said; for a TAKEBACK or a HEDGE, what the line tells the reader first, and why that adds nothing)
 LOSES: what a reader loses if it's cut ("nothing" when that's so)
 
 If nothing in your part counts, write only "NOTHING". Then reply with only the number of items. Use no tools other than that one Read and that one Write, and don't use the web.

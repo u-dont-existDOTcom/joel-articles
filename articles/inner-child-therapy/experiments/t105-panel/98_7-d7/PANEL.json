@@ -1,0 +1,33 @@
+{
+ "readers": [
+  "codex"
+ ],
+ "sentences": [
+  "Sometimes a session goes great, and a few days later you're skipping lunch and saying yes to everything again.",
+  "Going deeper next time won't fix that.",
+  "Take a tiny bit of what you did for your little one in there and do it out here.",
+  "It can be harder than the meditation was, but one small thing like that can teach them more than ten more good meditations.",
+  "Text a friend that you're having a rough day, say, instead of telling them you're fine."
+ ],
+ "flagged": {
+  "1": [],
+  "2": [],
+  "3": [
+   "codex"
+  ],
+  "4": [
+   "codex"
+  ],
+  "5": []
+ },
+ "agreed": [],
+ "whole": {
+  "codex": [
+   "The paragraph follows a tidy coaching sequence: recognizable setback, blunt correction, small action, reassuring comparison, concrete example. That construction can feel model-polished, although these are weak stylistic clues, not reliable evidence of authorship."
+  ]
+ },
+ "human_clean": [
+  "Text a friend that you're having a rough day, say, instead of telling them you're fine.",
+  "skipping lunch and saying yes to everything again"
+ ]
+}

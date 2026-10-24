@@ -1,0 +1,137 @@
+{
+ "title": "Inner Child Therapy, turn 104: what changed",
+ "meta": "2026-10-24, his answers of 2026-10-23 23:21 UTC; the article at branch handoff/claude-dangerous-adult-20260924-1631",
+ "intro": [
+  "Your 100.1 A and 100.2 A, in, each beside what it was before. Then the three paragraphs of question 101 as they are, each beside the draft the tell panel and Pangram read, which is not in. Every check is on experiments/t104-api/API-CHECKS.md, and each panel's record is in experiments/t104-panel/."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "# Building Trust With Your Little One",
+    "## Not Every Hero Wears A Cape"
+   ],
+   "rows": [
+    {
+     "label": "101.3: your 98.2 as it is, beside candidate c1 (35% AI; not in)",
+     "article": "After the day, look at what actually happened. If you did th",
+     "source": [],
+     "notes": [
+      "Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 98.2 A (his \"98. agree cut all\"): cut \"It doesn't mean failure.\". The original is in experiments/t102-safety/SAFETY-CUTS.md."
+     ],
+     "beside": {
+      "label": "Draft c1",
+      "text": "After the day, look at what actually happened. If you did the Protector action(s), not feeling better right away is information to learn from. Healing is nonlinear, and sometimes standing up for yourself might make you feel worse at first. Not doing it is harder to figure out. Fear is the first guess, but maybe you didn't know how or why. Or you were just worn out, or whoever said they'd help couldn't make it. 🤗"
+     }
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# When the Adult Voice Feels Fake",
+    "## Start With Whatever Showed Up",
+    "### When to Change the Strategy"
+   ],
+   "rows": [
+    {
+     "label": "101.2: 98.7 as it is, beside draft d5 (100% Human alone, 34% AI in its section; not in)",
+     "article": "Sometimes the session itself goes really well. You feel real",
+     "source": [],
+     "notes": [
+      "Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 98.7 A (his \"98. agree cut all\"): cut \"It doesn't have to happen after every session.\". The original is in experiments/t102-safety/SAFETY-CUTS.md."
+     ],
+     "beside": {
+      "label": "Draft d5",
+      "text": "Sometimes a session goes great, and a few days later you're skipping lunch and saying yes to everything again. I wouldn't try going deeper next time. I'd guess you just haven't brought any of it out with you yet. Whatever you did for your little one in there, try a tiny bit of it out here, like texting a friend that you're having a rough day instead of saying you're fine."
+     }
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# Altered States Can Deepen the Therapy",
+    "## When Escape Leaves Reality Behind"
+   ],
+   "rows": [
+    {
+     "label": "101.1: 97.8 as it is, beside draft d4 (100% AI; not in)",
+     "article": "Milder reactions afterward count as caution signs too, like ",
+     "source": [],
+     "notes": [
+      "Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 97.8 A (his \"97. i agree cut all\"): cut \"If you can't tell whether you're safe, I'd treat that as risky.\". The original is in experiments/t102-safety/SAFETY-CUTS.md."
+     ],
+     "beside": {
+      "label": "Draft d4",
+      "text": "I'd count the milder stuff too, like coming back from trip after trip confused or spaced out. If it gets bad, or it keeps happening when you're sober, I wouldn't wait to see a psychiatrist about it. And if you think a medicine you're on is part of the problem, ask your doctor before you stop. Some, like benzos, can be dangerous to quit all at once. Alcohol too, once your body depends on it."
+     }
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# The Inner Guide"
+   ],
+   "rows": [
+    {
+     "label": "100.1 A: the naming aside, moved here from the end of P10 (GPT's move)",
+     "article": "By the way, this job doesn't have to be called the Guide. Th",
+     "source": [],
+     "notes": [
+      "Turn 104 (his answers of 2026-10-23 23:21 UTC, experiments/t104-answers/JOEL-20261023-2321.md): 100.1 A: the naming aside, moved here from the end of P10 (GPT's move, his \"agree with gpt\" and \"100.1a\"; check t103c_ig_opening_aside, 100% Human with P1)."
+     ],
+     "beside": {
+      "label": "Before: P10 ended with it",
+      "text": "With that under you, belonging with people can get a lot less desperate. Not all at once, but the Guide keeps watching for the moment your little one starts thinking, \"If they stop liking me, I won't belong anywhere,\" and keeps reminding it that a group's approval isn't the deepest belonging there is. By the way, this job doesn't have to be called the Guide. The Wise One works, or your Inner Teacher, and \"Guru\" does for some people."
+     }
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# The Inner Guide",
+    "## Between Spoiling and Clamping Down"
+   ],
+   "rows": [
+    {
+     "label": "100.2 A: treats and pampering at set times",
+     "article": "Maybe you've let a small child win at Go Fish and never foun",
+     "source": [],
+     "notes": [
+      "Turn 104 (his answers of 2026-10-23 23:21 UTC, experiments/t104-answers/JOEL-20261023-2321.md): 100.2 A: \"Comfort does better at set times, where it can't get out of hand. It shouldn't get canceled ...\" became \"Treats and pampering do better at set times, where they can't get out of hand. They shouldn't get canceled ...\", since \"comfort\" could read as rationing affection (GPT, 99) and the book meant treats and pampering (ST-CA, section 17.1.4; experiments/t84-books/CANDIDATES-stca.md, candidate 11)."
+     ],
+     "beside": {
+      "label": "Before",
+      "text": "Maybe you've let a small child win at Go Fish and never found a good time to start playing for real. Who wants to be the grown-up who finally wins? Without the Guide, you can slide from looking after your little one into spoiling it the same way. Sweets and screens can pass for loving yourself, and so can getting it out of anything hard. Comfort does better at set times, where it can't get out of hand. It shouldn't get canceled as a punishment after a bad day, either (ST-CA, section 17.1.4)."
+     }
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# The Inner Guide",
+    "## You Belong Everywhere and Nowhere"
+   ],
+   "rows": [
+    {
+     "label": "100.1 A: your heading and P9, word for word",
+     "article": "The Guide also points beyond itself, toward",
+     "source": [],
+     "notes": [
+      "Turn 104 (his answers of 2026-10-23 23:21 UTC, experiments/t104-answers/JOEL-20261023-2321.md): 100.1 A: his P9, word for word; its first sentence is draft s06's, so it no longer says the heading's words again."
+     ],
+     "beside": {
+      "label": "Before (under \"A Belonging Deeper Than Any Group\")",
+      "text": "The Guide also points beyond itself, toward a belonging deeper than any group, one that doesn't ask you to give up being yourself. That might be nature, or existence itself. It might be whatever your tradition sees as ultimate. Love can come from any of these places, and you also belong there, which is a little different. Maybe you've felt that outside somewhere, like you didn't need anybody's okay to be there. The way in is time in nature and contemplative practice, like meditation."
+     }
+    },
+    {
+     "label": "100.1 A: your P10, word for word",
+     "article": "With that under you, belonging with people can get a lot les",
+     "source": [],
+     "notes": [
+      "Turn 104 (his answers of 2026-10-23 23:21 UTC, experiments/t104-answers/JOEL-20261023-2321.md): 100.1 A: his P10, word for word (\"i fixed it, this passes\"); the naming aside that ended it is now its own paragraph after P1 (GPT's move)."
+     ]
+    }
+   ]
+  }
+ ]
+}

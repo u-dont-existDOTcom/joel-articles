@@ -1,14 +1,137 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-23 (turns 82 to 103). **Open questions: 100.** For you to do: merge pull request #229. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-24 (turns 82 to 106). **Open questions: 103.** For you to do: merge pull request #233. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
-The published page, a view of this file rebuilt after every change (`tools/questions_page.py`), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA `patterns/owner-questions-page.md`, `patterns/cross-account-continuity.md`). Only the account that published the page can republish it, so after a turn by your other account (turns 100 to 103), this file is newer than the page until the next republish.
+The published page, a view of this file rebuilt after every change (`tools/questions_page.py`), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA `patterns/owner-questions-page.md`, `patterns/cross-account-continuity.md`). Only the account that published the page can republish it, so after a turn by your other account (turns 100 to 106), this file is newer than the page until the next republish.
 
 ## Open questions
 
-### 🟣 100. What the cuts and GPT's two points left for you (turn 103)
+### 🟣 103. What the checks of your picks found (turn 106)
+
+Every check is on [this turn's API page](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t106-api/API-CHECKS.md). Your picks and your five sections are in, and these four are what's left.
+
+- **103.1 My Journey's paragraph on spiritual bypassing** ("I think most people who chase spiritual freedom ..."). It reads AI on its own [before your cut](https://www.pangram.com/history/ad0fb776-b643-4ecb-9754-b0a947fdfc9b) and [after it](https://www.pangram.com/history/23800590-b449-4804-9dac-4b17d8926d18), so the cut of "It doesn't mean you're stupid or crazy." isn't what does it. In its section it read [Human before the cut](https://www.pangram.com/history/9048981d-8ee6-47a5-a7b0-59a115f929bf) and [0.26% AI after it](https://www.pangram.com/history/b6e45715-fbfe-4847-9993-7253918dc5d9), with no AI window.
+  - **A (my pick):** keep your cut. The section shows no AI window, and round 6 reads it in the whole article.
+  - **B:** put the line back.
+- **103.2 Not Every Hero Wears A Cape, now that "Make It Intentional" heads its last two paragraphs.** Its first three paragraphs read [2.65% AI with no AI window](https://www.pangram.com/history/5105656f-4f96-45af-b7b5-5bab9fd6d771), and Make It Intentional reads [Human](https://www.pangram.com/history/4df175bf-a64a-4b86-86df-dc14061f7474). The whole section read [Human](https://www.pangram.com/history/f034ed48-3ce7-4059-a6ec-9d857ccb28e6) without the heading.
+  - **A (my pick):** keep the heading, since there's no AI window; round 6 reads it in context.
+  - **B:** take the heading out.
+- **103.3 Your acacia sentence.** It's in, and its paragraph reads [Human](https://www.pangram.com/history/23b42f15-b667-4516-8ae7-881b8b98b635): "I also learned that mixing acacia confusa with mimosa hostilis is very destabilizing and challenging, but excellent if you want to know how it feels to be painfully autistic + schizo!" One thing to weigh: "schizo" is a slur to many people with schizophrenia, and autistic readers may hear "painfully autistic" as the joke being on them.
+  - **A:** keep it as you wrote it.
+  - **B (my pick):** your words for the punchline.
+- **103.4 A typo in your When to Change the Strategy.** "But do notice if it progress is stagnating." I left it as you wrote it.
+  - **A (my pick):** "But do notice if progress is stagnating."
+  - **B:** leave it.
+
+## For you to do (no decision needed)
+
+> [!WARNING]
+> Comes back every turn. My merges are refused by the safety check, so it stays yours.
+
+### 🟠 Merge pull request #233 (turns 104 to 106)
+
+Turns 104 to 106: https://github.com/u-dont-existDOTcom/joel-articles/pull/233. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged". (You merged #229.)
+
+### 🔵 Round 6, the next whole-article check (turn 101)
+
+Your picks from the ideas page are in, so it comes next: one whole-article check through the two temporary Substack drafts, covering everything since round 5.
+
+### 🔵 The two temporary Substack drafts: keep them for round 6 (turn 100)
+
+"Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)" hold round 5's text. Round 6 will reuse them, so they stay until its results are in. Then a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
+
+## Decided
+
+> [!TIP]
+> Your answers in your words, and what I did with them.
+
+### 🟢 102, 2026-10-24 22:55 UTC
+
+Your message (turn 106; `experiments/t106-answers/JOEL-20261024-2255.md`).
+
+- **The questions page:** fixed for good. The page tool now refuses an open question or a to-do item that points to an earlier question by its number alone, like "your 100.6", so each one says what it's about (E257, Inner Child; `tools/questions_page.py`, with a test). Question 103 is written that way.
+- **102.1:** your When to Change the Strategy is in, word for word. 98.7's own paragraph is gone, and its point is your P3's texting example. What your five rewrites teach, and how my picks did against your answers, is in [LESSONS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t106-answers/LESSONS.md): 28 of 33 and 32 of 39 matched, and 8 of my 12 misses were lines of yours I kept only because they were yours (E258, Inner Child).
+- **102.2 A:** d3 is in.
+- **102.3:** your You Don't Need an Inner Monologue is in, word for word, and so are your crisis stretch, First Social Connections, Done Right, and Speak Toward What You Are Building, without its last paragraph. One change to your characters: your Forbes link had a space between "]" and "(", which would have shown the brackets and the address, so it's a link now.
+- **102.4:** your picks are in, and The Chicken-and-Egg Problem keeps its heading (e1 b). Your rewrites changed four of them: 98.7's move (e17) went with 98.7, the pain paragraph (e22) has nothing to move since your h26 cuts it, and h6 and h35 are in your new paragraphs as you wrote them. "Ask What Kind of Company They Want" (e30) now heads one paragraph, since you took out the last one. The paragraph break you said I could try (e5) is in: your section read Human through the API [as you wrote it](https://www.pangram.com/history/6cf7d182-2fb4-42d4-80da-3da81329a123) and [with the break](https://www.pangram.com/history/35250e68-04b0-4eb5-8aee-70764bd81362). The h22 cut has your "These are just", and h23 has your merged sentence. Of 34 checks, 29 read Human. Of the other five, three are in 103, You Belong Everywhere and Nowhere reads [0.0137% AI with no AI window](https://www.pangram.com/history/4ee5effc-70d2-473c-9d01-3b00d7b42840), which Pangram calls Human Written, and one is fixed:
+  - Timing Is Individual's second paragraph (mine) read [48% AI with your line](https://www.pangram.com/history/c9ded038-bbf2-4b44-b8aa-5b49a31442f4) and [51% without it](https://www.pangram.com/history/7c606adb-0eb5-4440-9de2-82634becc011), so your cut wasn't the cause. After the tell panel, my two drafts read Human in the section and AI alone, and the second writer's (Codex's) reads [Human alone](https://www.pangram.com/history/49c729e5-d393-4d2c-94f3-f3c0eaafc1b7) and [in the section](https://www.pangram.com/history/bf9b0e54-369e-49ad-b049-1f08aea91a62). It's in ([try by try](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t106-tries/REVIEWS.md)).
+- **"saving all our trials and errors":** yes. Every Pangram check is in the ledger with my prediction before it and the result after, each turn's drafts, panels and checks are in its own folder, your messages are saved word for word, and the lessons are in the gate. [LESSONS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t106-answers/LESSONS.md) adds how my picks did against your answers, so my misses are on record too.
+- **ENGAGING.md:** it's with this turn's files.
+
+<details><summary>102 as it was asked</summary>
+
+#### 102. 98.7, your 98.2, four sections, and ideas for the rest (turn 105)
+
+How I fix a paragraph now is under 101 in Decided ([try by try](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t105-tries/REVIEWS.md); [every check](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t105-api/API-CHECKS.md)).
+
+- **102.1 98.7, When to Change the Strategy P5 (mine).** All six tries are used. Codex's rewrite from the readers' notes read [70% AI](https://www.pangram.com/history/48f0fd74-ff73-47e1-ac6c-8d222700dccc). d5, the draft that read [100% Human alone](https://www.pangram.com/history/64778cfd-d4f4-482f-94ee-0735b6110c68), read [100% AI](https://www.pangram.com/history/33d1a7d3-ca17-4331-b566-85743cc55238) once its "I wouldn't try going deeper next time" and "I'd guess" were said flat. So without the asides it reads as an AI coach to Pangram, and with them it has the careful voice you called AI in 97.8 ([the readers' notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t104-panel/98_7-current/PANEL.md)). In the same check your own lines in P4 read High Human ([P3 to P5](https://www.pangram.com/history/62b492c4-0820-45bf-bf09-9138d56edbfa)).
+  - **A (my pick):** cut it. The Chicken-and-Egg Problem's ending carries the point about doing it in your life ("The cushion was practice for it."), and P2 here already says more of the same isn't the fix.
+  - **B:** d5 in, and round 6 reads it in the whole article.
+  - **C:** your words, or GPT's, the way 97.8 went.
+- **102.2 98.2, your Not Every Hero Wears A Cape P5.** My d3 reads [Human alone](https://www.pangram.com/history/80cf31a3-87e1-4620-83c1-154549c287c0), and the whole section reads [Human](https://www.pangram.com/history/f034ed48-3ce7-4059-a6ec-9d857ccb28e6) with it: "After the day, look at what actually happened. Say you did the Protector action(s) and you don't feel any better, or you feel worse. Standing up for yourself can do that at first. Not doing it is harder to figure out. Fear is the first guess. But did you know how to do it, and why? Were you worn out? Maybe whoever said they'd help couldn't make it. 🤗" The causes are questions now, and "information to learn from", "Healing is nonlinear" and "Hey, we've all been there." are out, since all three readers called them stock lines ([record](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t104-panel/98_2-current/PANEL.md)). Your emoji stays.
+  - **A (my pick):** d3 in.
+  - **B:** keep yours as it is.
+- **102.3 Four sections with Low windows (your 100.6, still open).** You Don't Need an Inner Monologue reads [28% AI](https://www.pangram.com/history/a63d4654-6fa7-4c36-9a11-f2f308f6ac59), and it was [5.6% before 98.1](https://www.pangram.com/history/0cd47263-6d43-4b31-810d-10d0003250f4). The crisis stretch reads [29%](https://www.pangram.com/history/fd1dd840-4dd2-4a96-860a-fad85f0e9a86), and it was [100% Human before 97.10 and 97.11](https://www.pangram.com/history/1a39657d-429f-459f-a790-0f156bc573ad). First Social Connections reads [36%](https://www.pangram.com/history/590addf4-f9aa-4eaf-a209-b6ec0f4df87e), and it was [16% before 97.14](https://www.pangram.com/history/2bda009a-216a-4750-aadc-e7ce1ea0dd47). Speak Toward What You Are Building reads [21%](https://www.pangram.com/history/eb92af2e-b417-48b4-a978-be19e4f68b67), and it was [100% Human before 98.10](https://www.pangram.com/history/1c90e5c7-25c8-4d09-9071-c42e846aea96). Each section's two API tries are used.
+  - **A (my pick):** leave the cuts in and let round 6 read these in context. I bring you any window that's still there, with its link.
+  - **B:** put back the lines in the two that read Human before: "(and if you're at the edge right now, the first step above comes before any of this)", ", and they can wait until you're calmer and have some help" and "(And don't guess it from their gender or some other stereotype.)".
+- **102.4 Ideas for the other sections, for GPT.** [The ideas page](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t105-readers-edit/IDEAS.md) has fresh readers' two passes over the whole article, with the way Lucia Capacchione's book reads in mind ([the comparison](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t105-readers-edit/ENGAGING.md)): a reader's edit (35 headings, moves and cuts, so a reader has less to work through at once) and a hedge read (41 hedges, reassurances and takebacks the readers say a reader doesn't need, which is where her book differs most; 32 of them are your own wording, and I'd keep most of those). I checked each one against the article and your earlier answers, and each has my pick. Nothing is in yet or checked in Pangram.
+  - **A (my pick):** send the page to GPT, then reply "102.4: your picks", or with the numbers you'd change. Each change gets its checks before it goes in.
+  - **B:** leave the other sections for round 6.
+
+</details>
+
+### 🟢 101, 2026-10-24 18:40 UTC
+
+Your message (turn 105; `experiments/t105-answers/JOEL-20261024-1840.md`, with your readers' notes beside it as `READERS-20261024.txt`).
+
+- **101.1:** GPT's paragraph is in, word for word, and in its stretch it reads [Human, 0.0000% AI](https://www.pangram.com/history/a1020230-e26e-4b94-b483-5497dc674885). You were right: your Haiku had listed the tells I said I couldn't find, and so had my own panel. What was going wrong:
+  - I stopped at the guide's own instructions, as if a flag on one meant the instruction had to go. The readers were flagging how they were worded, so the content stays and the wording changes.
+  - My drafts kept my shape, with a careful "I'd ..." aside around each instruction and the cases lined up in parallel. GPT starts from one case ("Say you keep coming back from trips ...") and then says each instruction plainly.
+  - I took readers' "human" picks on my own phrases as human tells, like "I'd count the milder stuff too", which you hear as AI.
+  - My panel's summary matched quotes only, so Haiku's "Even, tidy rhythm" never reached a draft.
+
+  The fixes are E256 (Inner Child) in the gate. The panel now asks about each paragraph as a whole, and after two failed drafts of mine, Codex writes the next one from the readers' notes. It didn't crack 98.7, though (102.1).
+- **"do the others":** 102.1 and 102.2.
+- **Lucia's book:** mostly yes, in a plain, warm way ([how it reads beside this article](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t105-readers-edit/ENGAGING.md)). Her own story comes first, and you're doing an exercise within a page or two, with other people's drawings and letters as the examples. Her sentences are plain and sure of themselves: one in twenty-five has a hedge like may, might or sometimes, against one in five here. It isn't witty, and it comes back to the same method in every chapter.
+- **"go thru all the other sections":** 102.4.
+
+<details><summary>101 as it was asked</summary>
+
+#### 101. What the tell panel and Pangram showed (turn 104)
+
+Before I name a tell or ask your help now, three fresh readers list a paragraph's AI tells: Codex from your laptop, a Sonnet reader and a Haiku reader, each with the paragraph alone and the same open question. Two of them agreeing on a sentence is what gets fixed before a check ([every check](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t104-api/API-CHECKS.md); [try by try](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t104-tries/REVIEWS.md)).
+
+- **101.1 97.8, When Escape Leaves Reality Behind (mine).** Your three readers agreed on all three sentences ([their record](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t104-panel/97_8-current/PANEL.md)). Four drafts took their tells out one by one: the clinical gloss, the stacked conditions, the catch-all and the doctor named twice. The panel read each draft, and what it still agrees on in the last one is the guide's own instructions, the referral and the warning about stopping ([d4's record](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t104-panel/97_8-d4/PANEL.md)). Pangram reads d4 [100% AI](https://www.pangram.com/history/3abf93cf-b9fb-4d01-844f-ccabb1cd786e), on every sentence, including "I'd count the milder stuff too, ...", which all three readers called human. The paragraph read Human only with the line you cut ("If you can't tell whether you're safe, I'd treat that as risky."). I can't find any more AI tells here that I can fix without dropping a safety point, and I see some human tells, like "trip after trip" and "I'd count the milder stuff too"... can you help show me the tells I'm missing?
+  - **A (my pick):** your words for it. The points: the milder stuff counts too, like coming back from trips confused or spaced out; if it gets bad, or keeps happening when you're sober, get help soon; and quitting a medicine you're on, or alcohol your body depends on, all at once can be dangerous, so a doctor helps you come off it.
+  - **B:** put the cut line back, since the paragraph read Human with it.
+- **101.2 98.7, When to Change the Strategy P5 (mine).** The readers agreed on most of it ([record](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t104-panel/98_7-current/PANEL.md)): the opener, the misconception knocked down by a double denial, my metaphor and the one-versus-ten closing moral. Draft d5 keeps the pieces they called human, and it reads [100% Human alone](https://www.pangram.com/history/64778cfd-d4f4-482f-94ee-0735b6110c68): "Sometimes a session goes great, and a few days later you're skipping lunch and saying yes to everything again. I wouldn't try going deeper next time. I'd guess you just haven't brought any of it out with you yet. Whatever you did for your little one in there, try a tiny bit of it out here, like texting a friend that you're having a rough day instead of saying you're fine." In its section, though, it reads [34% AI](https://www.pangram.com/history/1e3f795f-5715-4bfb-a98d-9bd0396aa0ae), with windows on all of it. The section without 98.7 reads [14% AI](https://www.pangram.com/history/523ede49-eea8-48e9-a9bb-69f5ff7785e8), with Low windows on my P3's last sentence and P4's opening, which are older.
+  - **A (my pick):** cut 98.7. The Chicken-and-Egg Problem's ending carries the point about doing it in your life ("The cushion was practice for it."), and P2 here already says more of the same isn't the fix. What goes is "going deeper isn't the answer" as its own line.
+  - **B:** d5 in, and round 6 reads it in the whole article.
+  - **C:** your words.
+- **101.3 98.2, your Not Every Hero Wears A Cape P5.** The readers agree on four things in it ([record](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t104-panel/98_2-current/PANEL.md)): "Healing is nonlinear", "information to learn from", the run of causes, and "Hey, we've all been there. 🤗" as a stock sign-off. All three call "Not doing it is harder to figure out." and "whoever said they'd help couldn't make it" human. The smallest change I could make, your causes as "Or you were just worn out, or ..." with "Hey, we've all been there." out and your emoji kept, read [35% AI](https://www.pangram.com/history/720395eb-fecc-41b4-ade7-9c9ba1b41dac), and then the window reached "Not doing it is harder to figure out." too.
+  - **A (my pick):** your own fix, with the record's list, since it's your paragraph.
+  - **B:** leave it for round 6 to read in context.
+- **101.4 Four sections with Low windows (your 100.6, still open).** You Don't Need an Inner Monologue reads [28% AI](https://www.pangram.com/history/a63d4654-6fa7-4c36-9a11-f2f308f6ac59), and it was [5.6% before 98.1](https://www.pangram.com/history/0cd47263-6d43-4b31-810d-10d0003250f4). The crisis stretch reads [29%](https://www.pangram.com/history/fd1dd840-4dd2-4a96-860a-fad85f0e9a86), and it was [100% Human before 97.10 and 97.11](https://www.pangram.com/history/1a39657d-429f-459f-a790-0f156bc573ad). First Social Connections reads [36%](https://www.pangram.com/history/590addf4-f9aa-4eaf-a209-b6ec0f4df87e), and it was [16% before 97.14](https://www.pangram.com/history/2bda009a-216a-4750-aadc-e7ce1ea0dd47). Speak Toward What You Are Building reads [21%](https://www.pangram.com/history/eb92af2e-b417-48b4-a978-be19e4f68b67), and it was [100% Human before 98.10](https://www.pangram.com/history/1c90e5c7-25c8-4d09-9071-c42e846aea96). Each section's two API tries are used.
+  - **A (my pick):** leave the cuts in and let round 6 read these in context. I bring you any window that's still there, with its link.
+  - **B:** put back the lines in the two that read Human before: "(and if you're at the edge right now, the first step above comes before any of this)", ", and they can wait until you're calmer and have some help" and "(And don't guess it from their gender or some other stereotype.)".
+
+</details>
+
+### 🟢 100, 2026-10-23 23:21 UTC
+
+Your message (turn 104; `experiments/t104-answers/JOEL-20261023-2321.md`, with the three readers' replies you pasted).
+
+- **Codex as a check:** yes, it's in. Codex from your laptop now reads any paragraph I'm stuck on, with a Sonnet reader and a Haiku reader, before I name a tell or ask you (E253, Inner Child). You're right that a fresh Sonnet doesn't share my bias, since the bias comes from grading sentences I wrote, and Haiku found the same tells as Codex and ChatGPT. What was missing is that no fresh reader was ever asked that question. The panel finds tells, but it doesn't predict Pangram sentence by sentence: this turn a draft it faulted on three of four sentences read 100% Human, and sentences all three readers called human sat in Pangram's AI windows.
+- **100.1 A:** your text is in word for word, with the naming aside as its own paragraph after P1. Through the API your h2 reads Human Written, [0.02% AI with no AI window](https://www.pangram.com/history/1c31ecda-53ab-4a7d-b95c-5eab66ff5565).
+- **100.2 A:** in. P2 reads [100% Human alone](https://www.pangram.com/history/6641d4a7-8024-4e13-954b-c9b45b3a9661), and Between Spoiling and Clamping Down reads [100% Human](https://www.pangram.com/history/b0643512-1340-401e-98e7-1205d5e2874d).
+- **100.3:** your readers' tells made the tell panel, and 97.8 got four more drafts: question 101.1.
+- **100.4 to 100.6:** redone with the panel first: 101.3, 101.2 and 101.4.
+
+<details><summary>100 as it was asked</summary>
+
+#### 100. What the cuts and GPT's two points left for you (turn 103)
 
 All 26 cuts are in, and most read 100% Human, alone and in their sections ([every check](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t103-api/API-CHECKS.md); [what happened, try by try](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t103-tries/REVIEWS.md)). In eight places the result isn't 100% Human. In four, the cut did it, since the text read Human before it; in the other four, it wasn't 100% Human before the cut either. Each is below with its checks, along with GPT's two points from 99 (100.1 and 100.2).
 
@@ -33,27 +156,7 @@ All 26 cuts are in, and most read 100% Human, alone and in their sections ([ever
   - **A (my pick):** leave the cuts in and let round 6 read these in context. I bring you any window that's still there, with its link.
   - **B:** put back the lines in the two that read Human before: "(and if you're at the edge right now, the first step above comes before any of this)", ", and they can wait until you're calmer and have some help" and "(And don't guess it from their gender or some other stereotype.)".
 
-## For you to do (no decision needed)
-
-> [!WARNING]
-> Comes back every turn. My merges are refused by the safety check, so it stays yours.
-
-### 🟠 Merge pull request #229 (turns 102 and 103)
-
-Turns 102 and 103, with main merged in, so the conflicts are gone: https://github.com/u-dont-existDOTcom/joel-articles/pull/229. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged".
-
-### 🔵 Round 6, the next whole-article check (turn 101)
-
-It waits for your answers to 100, so one check covers turns 100 to 103 and whatever those answers change.
-
-### 🔵 The two temporary Substack drafts: keep them for round 6 (turn 100)
-
-"Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)" hold round 5's text. Round 6 will reuse them, so they stay until its results are in. Then a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
-
-## Decided
-
-> [!TIP]
-> Your answers in your words, and what I did with them.
+</details>
 
 ### 🟢 96 to 99, 2026-10-23 21:52 UTC
 

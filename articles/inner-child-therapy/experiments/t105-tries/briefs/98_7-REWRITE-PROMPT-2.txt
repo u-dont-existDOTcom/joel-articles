@@ -1,0 +1,67 @@
+Here is a paragraph from a self-help article by Joel, with the paragraphs around it. Fresh readers found that it reads as
+written by an AI model; their notes are below. Rewrite this one paragraph so it reads like Joel talking to a reader, and
+keeps every point listed.
+
+The paragraph before it (for context only):
+How many tries is enough? I really don't know, and I'd be suspicious of anyone who promises you a number, including you, since some things shift in a day and some take about as long as learning guitar. If it's making things worse, or you just can't do it right now, I'd change course sooner (stopping counts). Not wanting to do it anymore is a reason too, but if that "nope" sounds like a part of you that's trying to protect you, I'd hear it out first. If it still says no, that's your answer. And if you keep following the reparenting steps correctly without getting the expected results, consider if you have a unique case these steps don't match yet. Maybe you'll find something that works better for you, or you can ask me what I'd do for this case, or ask a therapist you work with. Either way, I'd like to hear about it!
+
+THE PARAGRAPH:
+Sometimes the session itself goes really well. You feel real care for your little one and say exactly what they needed to hear. And a few days later you're skipping lunch and saying yes to everything again. A lot of people's first guess is that they didn't go deep enough. I don't think that's it, though, and I don't think this one failed either. Maybe the grown-up just hasn't come out of the exercise with you yet. Whatever you did for your little one in there, I'd try a tiny bit of it out here, like texting a friend that you're having a rough day instead of saying you're fine. That can honestly be harder than the meditation was. One small thing like that can teach your little one more than ten more good meditations.
+
+The paragraph after it (for context only):
+Sometimes the urge to get away from what’s coming up emotionally gets a lot bigger. All of a sudden you need a drink, or that ex doesn’t seem so bad after all. Some people start a whole new business. If that’s you, it might mean you got close to something that really hurts, and that can be progress, honestly! I’d thank whatever part of you came up with the escape plan, and slow down. If it’s more than you can hold right now, I’d get someone steady with you.
+
+What it has to say (keep every point, at the strength it has, and add none):
+- A session can go really well, and a few days later you're skipping lunch and saying yes to everything again.
+- Going deeper next time isn't the fix.
+- Try a tiny bit of what you did for your little one out in your day, like texting a friend that you're having a rough day instead of saying you're fine.
+- That can be harder than the meditation was.
+- One small thing like that can teach your little one more than ten more good meditations.
+- (can go) The session didn't fail. A lot of people's first guess is that they didn't go deep enough.
+- An earlier rewrite that kept the paragraph's order and only reworded it read as AI again, on the "first guess" and "I doubt that" sentences most of all, so change how it's built.
+
+What the readers flagged:
+codex:
+AI:
+- "One small thing like that can teach your little one more than ten more good meditations." — The one-versus-ten contrast packages the ending into a polished, quotable self-help takeaway.
+- "A lot of people's first guess is that they didn't go deep enough. I don't think that's it, though, and I don't think this one failed either." — The sequence of naming a presumed misconception, rejecting it, and offering reassurance resembles a familiar AI coaching template.
+- "Maybe the grown-up just hasn't come out of the exercise with you yet." — The tidy metaphor supplies an emotionally resonant explanation with the smoothness often associated with AI-polished therapeutic prose.
+
+haiku:
+AI:
+1. "One small thing like that can teach your little one more than ten more good meditations." A tidy, quotable wrap-up with a numeric contrast and a callback to "meditation," the kind of neat closing punchline generated prose tends to end on.
+2. "I don't think that's it, though, and I don't think this one failed either." The paired "I don't think" clauses form a balanced, parallel rebuttal, a standard scaffold in generated text.
+3. "Whatever you did for your little one in there, I'd try a tiny bit of it out here" The "in there" and "out here" mirror ties the metaphor into a clean symmetry that resolves the point neatly, as polished generated prose often does.
+4. "You feel real care for your little one and say exactly what they needed to hear." The phrases "real care" and "exactly what they needed to hear" are stock supportive language that could describe almost any good session, so they name the feeling without specifics.
+5. "Sometimes the session itself goes really well." and "That can honestly be harder than the meditation was." The sincerity words "really," "real," "honestly" and "exactly" are intensifiers that generated text leans on to sound conversational, though human writers use them too, which makes this the weakest signal.
+
+sonnet:
+AI:
+1. "One small thing like that can teach your little one more than ten more good meditations." - It closes on a tidy, quotable moral built on a one-versus-ten contrast, the neat aphoristic kicker that AI models habitually end a paragraph with.
+2. "A lot of people's first guess is that they didn't go deep enough." and "I don't think that's it, though, and I don't think this one failed either." - An unattributed 'a lot of people think X' setup is knocked down with a mirrored double negation, the stock reassure-then-reframe move of AI advice writing.
+3. "That can honestly be harder than the meditation was." - 'Honestly' is a sincerity marker stacked on a softening 'can', in a short standalone beat that validates the reader's difficulty, which is how AI text signals candor and empathy.
+4. "Sometimes the session itself goes really well." and "You feel real care for your little one and say exactly what they needed to hear." - The scene is abstract and idealized, held together by intensifiers and stock phrasing, with no concrete detail of what was actually said or felt.
+5. "Maybe the grown-up just hasn't come out of the exercise with you yet." - A gentle, hedged reframe that packs the insight into one tidy personified metaphor is the comforting-insight move AI therapy-style writing leans on.
+
+Lines of Joel's own from the same article, for how he sounds:
+Differentiation is slow, and it goes on your whole life. Sometimes you need to take a break from a family, group or relationship, even if they aren't doing anything to you. Simply being around them may pull you into that programmed space where listening to what you really want becomes harder. Some people come back later on different terms, and sometimes the break has to be long-term because the pattern of losing yourself with them is deeply entrenched. As you differentiate, you learn to tell which of those apply.
+
+By trusted, I mean someone you know is trustworthy from a long relationship with them, not someone people on Reddit said was super magical and healing. That's called a crapshoot. It might turn out well, it might not. It might seem like it did, and then later you realize you were duped, as happened to me with Sidney the iboga shaman. A new therapist is not as trusted as an old one. As they say, "new friends are silver, but old friends are gold."
+
+Say you keep coming back from trips confused or spaced out. Maybe nothing worse happens, but after several trips like that I'd be concerned. If you're having episodes when you're sober, or any of them are severe, see a psychiatrist. (This one is GPT's rewrite of another paragraph, which Joel passed; it reads Human.)
+
+Rules:
+- Add no new claims: no facts about Joel or anyone in his life, no stories, no statistics, no new warnings or reassurances.
+  An everyday example of a point that is already there is fine.
+- Say an instruction plainly, as an instruction, and a fact as a fact. No cautious first-person asides around them ("I'd
+  count ...", "I wouldn't wait to ..."), no hedge in front of a directive, no "that doesn't mean ..." reassurance.
+- If a judgment of his is in the points, say it the way a person would, with whatever doubt it really has.
+- If the readers say the whole paragraph is built like a template (a scene, a common mistake, a reassurance, the advice,
+  a closing moral), change how it's built, not only its words: start from one concrete case the way a person tells it,
+  say a minor point in passing, and end on an example or a plain fact. A point marked "(can go)" can be left out.
+- Let the sentences run unevenly, the way a person talks. Don't line the cases up in parallel, and don't end on a quotable
+  line or a fragment that sums up.
+- No list of three unless its last item is a casual catch-all, and no "X, not Y" or "not X but Y" contrast.
+- About the same length as the paragraph, or shorter.
+
+Reply with the rewritten paragraph only.

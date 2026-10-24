@@ -92,6 +92,65 @@ def unlinked_ai_asks(md):
             if b.startswith('### ') and AI_READING.search(b) and not CHECK_LINK.search(b)]
 
 
+def unpaneled_help_asks(md):
+    """The open questions' items that ask Joel's help with tells but link no tell panel record (E253 (Inner Child))."""
+    sys.path.insert(0, str(HERE.parents[2] / 'tools' / 'humanization'))
+    from pangram_links_check import unpaneled_help
+    md = re.sub(r'<!--.*?-->', '', md, flags=re.S)
+    m = re.search(r'^## Open questions\n(.*?)(?=^## |\Z)', md, flags=re.S | re.M)
+    return [u[:120] for u in unpaneled_help(m.group(1))] if m else []
+
+
+# E257 (Inner Child; Joel, 2026-10-24 22:55 UTC: "can you durably fix the owner questions page so that you don't say things
+# like "your 100.6, still open" bc i hope you know i have no idea at this point what my 100.6 was."): an open question or a
+# to-do item says what an earlier question was, never just its number. A decided question's number is any number at the
+# start of a question heading on the page ("### 🟢 96 to 99, ...", "### 🟢 78.2, 84 and 85, ...", "#### 101. ..."); the
+# open ones ("### 🟣 102. ...") may name their own items. Quotes, link addresses and code are left out of the search.
+HEAD_NUMS = re.compile(r'^#{3,4}\s+(?:\S+\s+)?(?:Questions?\s+)?(\d{1,3}(?:\.\d+)?(?:(?:,\s*|\s+and\s+|\s+to\s+)\d{1,3}(?:\.\d+)?)*)(?=[.,\s])', re.M)
+DOTTED_REF = re.compile(r'(?<![\w.#/-])(\d{2,3})\.\d{1,2}(?![\d.%\w])')
+WORD_REF = re.compile(r'\b(?:questions?|your|my|item)\s+(\d{2,3})(?:\.\d{1,2})?\b(?![%\d])', re.I)
+
+
+def question_numbers(md):
+    """(every question number a heading on the page starts with, the open questions' numbers)."""
+    seen, opened = set(), set()
+    for m in HEAD_NUMS.finditer(md):
+        nums = [int(float(x.split('.')[0])) for x in re.findall(r'\d{1,3}(?:\.\d+)?', m.group(1))]
+        if ' to ' in m.group(1) and len(nums) >= 2:
+            nums += list(range(nums[0], nums[-1] + 1))
+        seen.update(nums)
+        if '🟣' in m.group(0):
+            opened.update(nums)
+    return seen, opened
+
+
+def old_number_refs(md):
+    """Places in the open questions and the to-do list that point to a decided question by its number alone (E257)."""
+    md = re.sub(r'<!--.*?-->', '', md, flags=re.S)
+    seen, opened = question_numbers(md)
+    # every number from the page's first question to the newest open one, other than the open ones (a gap, like an item
+    # that was answered inside a combined heading, is old too)
+    old = set(range(min(seen), max(opened | seen) + 1)) - opened if seen else set()
+    bad = []
+    for name in ('Open questions', 'For you to do'):
+        m = re.search(r'^## %s[^\n]*\n(.*?)(?=^## |\Z)' % re.escape(name), md, flags=re.S | re.M)
+        if not m:
+            continue
+        body = re.sub(r'<details>.*?</details>', ' ', m.group(1), flags=re.S)
+        body = re.sub(r'\]\([^)\s]*(?:\([^)\s]*\)[^)\s]*)*\)', ']', body)              # link addresses
+        body = re.sub(r'`[^`]*`', ' ', body)                                            # code
+        body = re.sub(r'"[^"\n]*"|“[^”\n]*”', ' ', body)                              # quotes
+        for line in body.split('\n'):
+            if re.match(r'^#{3,4}\s', line):
+                line = re.sub(r'^#{3,4}\s+\S+\s+\d{1,3}\.', '', line)                 # a heading's own number
+            for rx in (DOTTED_REF, WORD_REF):
+                for r in rx.finditer(line):
+                    if int(r.group(1)) in old:
+                        bad.append(line.strip()[:140])
+                        break
+    return sorted(set(bad), key=bad.index)
+
+
 def render(md):
     import mistune  # only the page needs it; the E214 check runs without it
     md = re.sub(r'<!--.*?-->', '', md, flags=re.S)
@@ -139,6 +198,16 @@ def main(argv):
     if bad:
         print('refused (E214): these open questions say a stretch reads AI but link no check:\n  ' + '\n  '.join(bad),
               file=sys.stderr)
+        return 1
+    bad = unpaneled_help_asks(md)
+    if bad:
+        print('refused (E253): these open questions ask your help with tells but link no tell panel record '
+              '(tools/humanization/tell_panel.py):\n  ' + '\n  '.join(bad), file=sys.stderr)
+        return 1
+    bad = old_number_refs(md)
+    if bad:
+        print('refused (E257, Inner Child): these lines point to a decided question by its number alone; say what it was:\n  '
+              + '\n  '.join(bad), file=sys.stderr)
         return 1
     out.write_text(render(md), encoding='utf-8')
     print('wrote', out)

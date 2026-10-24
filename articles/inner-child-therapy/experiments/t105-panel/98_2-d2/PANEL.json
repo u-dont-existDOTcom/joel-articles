@@ -1,0 +1,41 @@
+{
+ "readers": [
+  "codex"
+ ],
+ "sentences": [
+  "After the day, look at what actually happened.",
+  "Say you did the Protector action(s) and you don't feel any better, or you feel worse.",
+  "Standing up for yourself can do that at first.",
+  "Not doing it is harder to figure out.",
+  "Fear is the first guess, but maybe you didn't know how or why.",
+  "Being worn out can stop you too, and sometimes whoever said they'd help couldn't make it.",
+  "🤗"
+ ],
+ "flagged": {
+  "1": [
+   "codex"
+  ],
+  "2": [
+   "codex"
+  ],
+  "3": [],
+  "4": [],
+  "5": [
+   "codex"
+  ],
+  "6": [],
+  "7": [
+   "codex"
+  ]
+ },
+ "agreed": [],
+ "whole": {
+  "codex": [
+   "The paragraph’s orderly progression through outcomes, reassurance and possible obstacles feels somewhat assembled, while its plainspoken voice occasionally clashes with technical notation and conspicuous warmth. These are weak stylistic clues, not reliable evidence of authorship."
+  ]
+ },
+ "human_clean": [
+  "Say you did",
+  "whoever said they'd help couldn't make it"
+ ]
+}

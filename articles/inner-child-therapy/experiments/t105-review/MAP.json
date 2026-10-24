@@ -1,0 +1,70 @@
+{
+ "title": "Inner Child Therapy, turn 105: what changed",
+ "meta": "2026-10-24, his answers of 2026-10-24 18:40 UTC; the article at branch handoff/claude-dangerous-adult-20260924-1631",
+ "intro": [
+  "Your 101.1, in, beside what it was before. Then the two paragraphs of question 102.1 and 102.2 as they are, each beside the draft that goes with its options, which is not in. Every check is on experiments/t105-api/API-CHECKS.md, and the panels' records are in experiments/t105-panel/."
+ ],
+ "blocks": [
+  {
+   "headings": [
+    "# Building Trust With Your Little One",
+    "## Not Every Hero Wears A Cape"
+   ],
+   "rows": [
+    {
+     "label": "102.2: your 98.2 as it is, beside d3 (my pick, A: Human alone and in its h2; not in)",
+     "article": "After the day, look at what actually happened. If you did th",
+     "source": [],
+     "notes": [
+      "Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 98.2 A (his \"98. agree cut all\"): cut \"It doesn't mean failure.\". The original is in experiments/t102-safety/SAFETY-CUTS.md."
+     ],
+     "beside": {
+      "label": "Draft d3",
+      "text": "After the day, look at what actually happened. Say you did the Protector action(s) and you don't feel any better, or you feel worse. Standing up for yourself can do that at first. Not doing it is harder to figure out. Fear is the first guess. But did you know how to do it, and why? Were you worn out? Maybe whoever said they'd help couldn't make it. 🤗"
+     }
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# When the Adult Voice Feels Fake",
+    "## Start With Whatever Showed Up",
+    "### When to Change the Strategy"
+   ],
+   "rows": [
+    {
+     "label": "102.1: 98.7 as it is (my pick, A, cuts it), beside d5 (option B: 100% Human alone, 34% AI in its section)",
+     "article": "Sometimes the session itself goes really well. You feel real",
+     "source": [],
+     "notes": [
+      "Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 98.7 A (his \"98. agree cut all\"): cut \"It doesn't have to happen after every session.\". The original is in experiments/t102-safety/SAFETY-CUTS.md."
+     ],
+     "beside": {
+      "label": "Draft d5",
+      "text": "Sometimes a session goes great, and a few days later you're skipping lunch and saying yes to everything again. I wouldn't try going deeper next time. I'd guess you just haven't brought any of it out with you yet. Whatever you did for your little one in there, try a tiny bit of it out here, like texting a friend that you're having a rough day instead of saying you're fine."
+     }
+    }
+   ]
+  },
+  {
+   "headings": [
+    "# Altered States Can Deepen the Therapy",
+    "## When Escape Leaves Reality Behind"
+   ],
+   "rows": [
+    {
+     "label": "101.1: GPT's 97.8, in, word for word (Human, 0.0000% AI in its stretch)",
+     "article": "Say you keep coming back from trips confused or spaced out. ",
+     "source": [],
+     "notes": [
+      "Turn 105 (his answer of 2026-10-24 18:40 UTC, experiments/t105-answers/JOEL-20261024-1840.md): 101.1, GPT's rewrite of my paragraph, word for word as he pasted it (\"GPT was able to fix that paragraph on its first try, it got human high conf on pangram\"). It carries the guide's line 505 points the paragraph had: repeated milder confusion or spacing out, help when it's severe or happens sober, and no sudden stop of a medication or a substance the body depends on. What my four drafts got wrong is gate E256."
+     ],
+     "beside": {
+      "label": "Before",
+      "text": "Milder reactions afterward count as caution signs too, like getting confused or spaced out (dissociating) again and again. Get professional help right away if any of this is severe or risky, and especially if it keeps going or comes back while you're sober. Don't suddenly quit a prescribed medicine, or anything your body is dependent on, just because it might be part of the problem; have a doctor help you stop safely."
+     }
+    }
+   ]
+  }
+ ]
+}
