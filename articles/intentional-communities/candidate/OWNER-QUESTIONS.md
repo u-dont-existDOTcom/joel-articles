@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-23, after your message of 20:35 UTC (GPT's suggestions and your answers to them). **Open questions: 7**, just below: what I'd take from GPT's list, and the approvals I'd take back. My review of all 90 suggestions is [this page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/REVIEW-GPT-SUGGESTIONS.md).
+Last updated 2026-10-23, after your message of 22:29 UTC (57 to 63, and GPT's reply to my review). **Open questions: 2**, just below: the safety lines and caveats a reader doesn't need (64), and what the article says more than once (65). Your answers to 57 to 63 are in a new version: [read it here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/restructure/READING-COPY.md).
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -9,50 +9,35 @@ The master copy of this page is a file in Git, so a session in either of your ac
 ## Open questions
 
 > [!IMPORTANT]
-> Seven questions from my review of GPT's suggestions ([the review](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/REVIEW-GPT-SUGGESTIONS.md)). Answer each with its number and letter, or "57 to 63: your picks".
+> Two lists, each on its own page, with my pick on every item. Answer "64: your picks" and "65: your picks", or with the numbers you want changed ("64.3 B"). The cuts you pick go into the new version, which then goes to Pangram whole, once, before anything goes into your post.
 
-**🟣 57. Say in "3. Medicine pl/ork" that taking medicine is optional for each person (GPT's Q07).**
-The model says its four parts "have to pl/ork together", and part 3 doesn't say that nobody has to take medicine; the article says so much later ("nobody has to take medicine to have equal respect in the community"), so a reader can come away thinking your model requires psychedelics. Your Q07 answer has the fix: "just because it's optional participating in the ceremonies doesn't mean they don't have to work with the other parts".
-- a) (my pick) One sentence after "I'll go more in detail on this in “The Medicine Part” section below.", in your words, for example: "Taking it is optional for each person, but where a community uses it, it has to pl/ork with the other three parts." It gets a Pangram check alone and in its section before it goes in.
-- b) Leave it as it is.
+**🟣 64. The safety lines and caveats a reader doesn't need (your "did we already look at whether there's too much safety language ... same question for community").**
+We hadn't looked, as its own check; now it's part of the clarity check for every article. Six fresh readers, a sixth of the article each, listed every warning, reassurance, takeback, hedge and disclaimer a reader doesn't need where it is, with your inner child cuts as their examples, and I checked each against the whole article. [The list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/caveats/CAVEATS.md) has 31 cuts, each struck through in its paragraph with the paragraph as it reads after the cut. My pick is cut on 26 and keep on 5, where the line is your argument or carries something a reader uses. Three safety lines I kept without offering them (they're at the end of the list): the iboga screening, the medicine line about equal respect, and the rule about children and secrets.
+- a) (my pick) My picks as they are.
+- b) My picks with your changes, by number ("64.3 B").
 
-**🟣 58. Split the heading "The Math of Absorption, and Who This Isn't For" in two (GPT's S31).**
-The section runs 18 blocks: why people avoid the hard topics, free resource and need, your own story, the catch-22 of small groups, your worry about capacity becoming a polite way to exclude people, and then the self-check that starts "But before you submit your application to the community, submit it to yourself."
-- a) (my pick) "The Math of Absorption" stays where the heading is, and "Who This Isn't For" goes before "But before you submit your application to the community, submit it to yourself." No other words change, and Pangram doesn't read headings.
-- b) Leave it as one section.
-
-**🟣 59. One cut in the freeloader paragraph's second half (your W02 note: "perhaps what i said could have been shoprtened esp 2nd half").**
-The paragraph: "Communal ownership entails folks taking on visible and named stewardship duties. It requires knowing what to do if someone is leeching off the group and how to deal with it. It requires developing healthier forms of relationships. No, taking away the idea of a boss does not make everyone less passive, selfish, thieving, nor suddenly unlearning learned helplessness."
-- a) (my pick) Cut "It requires developing healthier forms of relationships.": it's the vaguest of the three, the rest of the article is about exactly that, and the cut breaks a list of three. Checked with its section before it goes in.
-- b) Leave it as it is.
-
-**🟣 60. The nine typos I found while reading (the list is at the end of [the review](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/REVIEW-GPT-SUGGESTIONS.md)).**
-- a) (my pick) Fix all nine: spelling and punctuation only, so no Pangram check (your rule of 2026-10-06).
-- b) Fix only some: say which numbers.
-
-**🟣 61. A pointer for readers who want to start right away (what GPT's M01 was after, without moving the section).**
-- a) (my pick) One sentence in your words at the end of "4. The container", for example: "If you'd rather start practicing right away, skip ahead to “Practicing Community Can Start Now”." Checked before it goes in.
-- b) Do M01's move anyway: the section's references to the medicine part and its lead-in need your new words, and every new seam gets a Pangram check.
-- c) Neither.
-
-**🟣 62. The approvals I'd take back: M02's split into an essay and a manual, M07's new order, and W09's dissolution paragraph.**
-The reasons are in the review: the practical foundation is what you say the article is mostly about; the article points ahead and back by name in at least five places, and its transitions only work in this order; and W09 drops most of your dissolution list and spends your breakfast punchline early.
-- a) (my pick) Take all three back: the article keeps its length, its order and your dissolution paragraph.
-- b) Keep some of them: say which, and I'll do them as moves only (no GPT prose), with each seam checked.
-
-**🟣 63. Alt text for the images (GPT's L02, which you approved).**
-- a) (my pick) I write alt text (a short, plain description) for each image, as a list in Git, for you to paste into each image's settings in Substack. No words of the article change.
-- b) Skip it.
+**🟣 65. What the article says more than once (your "as much as possible we should be deduplicating because i feel the article is really too redundant").**
+Fresh readers each read the whole new version and owned one part of it: for each point made in their part, every other place that says it again, which place keeps it, and what to cut. I checked each cut against the article. [The list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/repeats/REPEATS.md) has 31 cuts, each struck through in its paragraph, with where the point is kept and the paragraph after the cut. It includes two trims of the federation paragraphs for your W08 ("i agree with condesning this but we should mention the FEC"); the FEC, its rebuilding and PEACH stay. My pick is cut on 15 and keep on 16, where both places carry something the reader needs there (the manual now repeats a few essay points on purpose, for readers who go straight to it).
+- a) (my pick) My picks as they are.
+- b) My picks with your changes, by number ("65.3 B").
 
 ## For you to do
 
-- 🟢 Nothing besides the questions above. The article as you published it on 2026-10-20 stays as it is until you pick.
+- 🟠 Merge [pull request 232](https://github.com/u-dont-existDOTcom/joel-articles/pull/232) when you've looked. It has this turn's work for all three articles; nothing in your posts changes until you paste.
 
 ## Decided
 
 > [!TIP]
 > Answered, with what I did.
 
+- 🟢 2026-10-23 22:29 UTC, 57 to 63, and GPT's reply to my review. Your answers are in a new version of the article: [read it here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/restructure/READING-COPY.md) ([each change](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/restructure/RECORD.json); the HTML for Substack is beside them). Your published post hasn't changed, and the new version hasn't been to Pangram yet: that's one whole-article check after 64 and 65.
+  - 57 a: in "3. Medicine pl/ork", after "I'll go more in detail on this in “The Medicine Part” section below.", your words from your Q07 answer: "Just because it's optional participating in the ceremonies doesn't mean they don't have to work with the other parts."
+  - 58 a: "The Math of Absorption" and "Who This Isn't For" are two headings.
+  - 59 a, with your note ("most of the second half of that part could be compressed down into a sentence"): the second half is now "Any attempt at communal ownership needs to take this into account by having folks take on visible and named stewardship duties, and by having a plan to deal with leeches. The How-To Manual after this essay deals with these issues.", then your last line. Emulate wrote it from my draft. A fresh reader caught that its "assigning stewardship duties by name" sounded like a boss handing out jobs, so your "folks taking on visible and named stewardship duties" is back.
+  - 60 a: the nine typos are fixed.
+  - 61 b and 62: the essay is your seven sections in your order, then a "How-To Manual" heading with the nine sections you named under it, in their order and one heading level down, then the appendix. Practicing Community points down to the manual in a new paragraph after its first (Emulate's wording of my draft): "The How-To Manual which follows this essay covers the whole model: inner, relational, and medicine pl/ork, the container that holds them, tech, jealousy, kids, money, land, founder power, how the communities spread, leaving, etc." "Pl/ork" is now first met there, so your own gloss goes with it: "(play + work)". Every "below" in the essay still points down to its section. I won't argue you out of it: your reason, that the readers who want to start right away won't read your whole story first, is one my review didn't weigh, and the move broke less than I'd expected.
+  - 63 a: alt text for 15 images (12 had none; 3 had a file name or a copied caption), [listed here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/restructure/ALT-TEXT.md). It's in the new version's HTML, so it comes along when you paste.
+  - GPT's reply: it's right that I'd overstated the case against the split, right that cutting repeats needs a list of real examples (question 65 is that list), and right about W08: you'd asked for the federation paragraphs shorter with the FEC named, and I'd said keep them. Two cuts there are in question 65; the FEC, its rebuilding and PEACH stay.
 - 🟢 2026-10-23 20:35 UTC, GPT's 90 suggestions and your 25 answers to them (`joel-20261023/`): [my review of every one](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/REVIEW-GPT-SUGGESTIONS.md), against the article itself. In short: I agree with your rejections; I'd take back three of your approvals (question 62) and do the cheaper version of a fourth (61); and from the rest I'd take five small things (57 to 59, 61, 63), plus nine typos (60). Nothing in the article has changed.
 - 🟢 2026-10-18 01:29 and 01:54 UTC, 55 and 56, the merge:
   - 56 a, your first paragraph for section 2 ("i checked the section, it passes as human when first part is this"): in, as you wrote it, with the published link on "the U.S. Surgeon General" and your bold on "public-health". It reads Human alone ([check](https://www.pangram.com/history/1e9a546e-89ff-4914-9999-2ade14eda913)) and with the heading ([check](https://www.pangram.com/history/1b709a25-aab7-4d7c-93f2-b5482118141a)).
@@ -229,6 +214,6 @@ The reasons are in the review: the practical foundation is what you say the arti
 > [!NOTE]
 > Work that's next. Nothing here needs an answer.
 
-- 🔵 The next article in your queue, the hypnosis guide, from Emulate's work, section by section, the same way.
+- 🔵 After 64 and 65: the cuts you pick go into the new version, and the whole of it goes to Pangram once, in a temporary Substack draft, before I make the copy helper for your paste.
 - 🔵 The prediction scorecard: better guesses of what Pangram will say, and how fast and how often my fixes pass.
 - 🔵 Image 7: the article still links the old image address. When your post with the rebuilt diagram is up, I'll swap in the new one.

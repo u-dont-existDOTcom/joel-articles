@@ -144,3 +144,59 @@ The Inner Child guide, question 91 of its questions page (his message of 2026-10
 GPT's review of the test (13:55 UTC, `articles/inner-child-therapy/experiments/t101-answers/GPT-REVIEW-20261023-1355.md`):
 nothing was cut in the first test, and that was right for a test but isn't the rule; the next step is "small, justified
 reductions in commentary", with his approval for changes to protected wording (question 94 there, open).
+
+Nibbāna's reader's edit (question N4 of its questions page, his answer of 2026-10-23 20:35 UTC): A on 17 of 18 proposals,
+including four where my pick had been B (gate E250); `tools/humanization/readers_edit_examples.json` has those four and his
+one B.
+
+## Part 3: safety lines and caveats a reader doesn't need
+
+**ACTIVE, part of the same standard (Joel, 2026-10-23 22:29 UTC):** "did we already look at whether there's too much
+safety language in this article? just cut out a ton of obnoxious safety language and caveats from inner child article.
+same question for community and hypnosis articles. noticing more and more how bad my articles read."
+
+We hadn't, as its own check: part 2's third question asks what each warning's job is, but it proposes moves, not cuts, and
+part 1 looks at understanding. The Inner Child lane did the first pass on its own (its turn 102, his 95.6 B: "all the extra
+extra ridiculous safety language which gets repeated everywhere. want to look at the books we have as examples, especially
+ones made for public audiences"). This part makes it standard.
+
+- **The test** (GPT's, which he uses): does the line change what the reader should do right here, or does it only explain
+  why an instruction has qualifications, reassure, or protect the writer? Public books put general safety in one place
+  (a note on pace and stopping, a section on getting help) and keep, inside an exercise, only the cautions that change
+  what you do there, once.
+- **What counts:** a warning said again; a blanket add-on that changes nothing where it's tacked on; a warning against a
+  step nobody suggested; a reassurance after the point is made; a takeback, or an answer to an objection nobody raised;
+  a hedge that weakens a claim for no reader benefit; a disclaimer that protects the writer.
+- **What stays:** a caution that changes what the reader does at that step; a section whose subject is safety or crisis;
+  a marker of whose claim it is when an article reports texts or science; a hedge that is the claim itself (he really
+  isn't sure, or he allows an exception); his jokes and stories.
+- **How:** `tools/humanization/clarity_read.py make ARTICLE DIR --kind caveats --parts N` (examples:
+  `tools/humanization/caveat_examples.json`, from the Inner Child lane's cuts), a fresh reader per part, `collect`, then
+  every item checked against the whole article and his earlier answers: "my_pick", "note", "whose" (his published words,
+  his rewrite of a given message, or a batch's), and "status": "drop" for a line that changes what a reader does or whose
+  cut breaks the text. `page` shows each cut struck through in its paragraph, the paragraph after it, why, and what a
+  reader loses. Every cut that goes in is checked in Pangram in place (a cut once made a paragraph read AI: E248 (Inner
+  Child)).
+- **When:** with parts 1 and 2. First run: Nibbāna (`articles/nibbana/humanize/fix-20261023/caveats/`) and the community
+  article (`articles/intentional-communities/candidate/joel-20261023/caveats/`), 2026-10-23.
+
+## Part 4: what the article says more than once
+
+**ACTIVE (Joel, 2026-10-23 22:29 UTC):** "as much as possible we should be deduplicating because i feel the article is
+really too redundant"; "everyone says my articles are too long (and hard to read because of the excessive redundancy and
+details which are from the AI writing)."
+
+A repeat can be pages apart, so each reader reads the whole article and owns one part's points: for each point made in its
+part, it finds every other place that makes it again, says which place keeps it, and which words to cut elsewhere. Short
+callbacks that build on an earlier point and pointers to other sections stay.
+
+- **How:** `tools/humanization/clarity_read.py make ARTICLE DIR --kind repeats --parts N`, a fresh reader per part (each
+  gets the whole article and its part), `collect`, every cut checked (the kept place really says it; the paragraph still
+  reads), `page` (each cut struck through, with where the point is kept). Cuts go to Pangram in place.
+- **First run:** the community article after its move into essay and manual
+  (`articles/intentional-communities/candidate/joel-20261023/repeats/`), 2026-10-23. Of four Sonnet readers, each with
+  the whole article (about 97,000 characters) and a quarter of it, one finished in 14 minutes; the other three spent their
+  whole output thinking, three times in a row each, and wrote nothing (the same happened to a whole-section repeats check
+  on 2026-10-17). They were stopped, their parts split in two (`resplit.py`: six readers, at most 6 items each), and the
+  brief's "Work quickly" line now says not to compare every paragraph with every other. For a long article, give each
+  reader about an eighth of it.

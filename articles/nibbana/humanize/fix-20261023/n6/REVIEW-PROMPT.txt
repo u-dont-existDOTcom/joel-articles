@@ -1,0 +1,90 @@
+You check 4 rewritten passages in Joel's long article on nibbāna (Buddhist enlightenment), written for a general Substack audience, in his casual first-person voice with jokes and emoji. Each NOW is a detector-passing rewrite of only the sentence(s) marked WAS in its paragraph; WAS is his text, the meaning to keep.
+
+Work quickly: this is a short reading task, so don't deliberate at length.
+
+For each item, say in a few words each:
+1. MEANING: does NOW keep every point, claim, condition and image of WAS, with the same strength (nothing made more or less certain, nothing turned into a different claim, no cause turned into a coincidence)? KEPT, or what CHANGED or was LOST, and anything ADDED that a reader would take as a claim.
+2. SENSE: would a reader understand the paragraph with NOW in it, between BEFORE and AFTER? OK, or the words that stop them and why.
+End each item with one line, `VERDICT: OK` or `VERDICT: CHANGED`. Judge meaning and sense only, not style or grammar (the casual grammar is on purpose), and suggest the smallest possible rewrite only for a problem you report.
+
+Write your report with a single Write call to `/home/claude/ja-community/articles/nibbana/humanize/fix-20261023/n6/REVIEW.md`, one "## Item N" part per item, then reply with only the verdicts, one line per item. Don't read any other file, don't run commands, and don't use the web.
+
+## Item 1 (a dense paragraph on two kinds of awareness in the suttas)
+
+BEFORE:
+SN 12.44 gives the canonical sequence: eye and forms condition eye-consciousness; their meeting is contact. Contact begets feeling, then craving and clinging; clinging to experiences becomes clinging to life, leading to becoming and birth. There is “the whole mass of suffering,” which the sutta calls “the origination of the world” – sutta-speak for saṃsāra.
+
+PARAGRAPH WITH WAS:
+I use awareness to mean bare, non-reflective appearance: blue is just blue. Consciousness is awareness reflecting back on itself: “I’m blue!” Pāli doesn’t give me separate nouns for this distinction, but DN 11 and MN 49 describe viññāṇaṃ anidassanaṃ anantaṃ sabbato pabhaṃ – non-manifesting awareness, without end and luminous all around – where the elements and mind-and-body (nāmarūpa, often mistranslated as name-and-form) find no footing. The texts distinguish that from ordinary sense-consciousness (viññāṇaṃ) established when one thing perceives another.
+
+WAS:
+The texts distinguish that from ordinary sense-consciousness (viññāṇaṃ) established when one thing perceives another.
+
+NOW:
+This is distinguished from ordinary sense-consciousness (also viññāṇaṃ) which is established based on perception of something.
+
+PARAGRAPH WITH NOW:
+I use awareness to mean bare, non-reflective appearance: blue is just blue. Consciousness is awareness reflecting back on itself: “I’m blue!” Pāli doesn’t give me separate nouns for this distinction, but DN 11 and MN 49 describe viññāṇaṃ anidassanaṃ anantaṃ sabbato pabhaṃ – non-manifesting awareness, without end and luminous all around – where the elements and mind-and-body (nāmarūpa, often mistranslated as name-and-form) find no footing. This is distinguished from ordinary sense-consciousness (also viññāṇaṃ) which is established based on perception of something.
+
+AFTER:
+I think this non-manifesting awareness should have been “nonmanifesting awarenesses,” strange as that sounds. That missing plural matters. Ṭhānissaro Bhikkhu opens correctly in The Mind Like Fire Unbound and The Wings to Awakening, saying the mind fabricates the experienced cosmos, including time and the present. But then he still leaves in one copy-pasted line in the singular, “consciousness without feature, without end, luminous all around,” which makes it sound like one single consciousness. He can’t imagine parallel flows as nibbāna, because the suttas say nibbāna lacks “differentiation.”
+
+## Item 2 (a note under a self-check question for stream entry ("Are you more joyful and enjoyable to be around without becoming a people-pleaser, as in MN 89?"))
+
+BEFORE:
+Are you more joyful and enjoyable to be around without becoming a people-pleaser, as in MN 89?
+
+PARAGRAPH WITH WAS:
+The standard isn’t the non-stop, 24/7 bliss that Soh claimed, which is false. In AN 11.12, a noble disciple can reach ease through recollection, so ease is something a disciple reaches through practice, not a permanent state they’re stuck in. In MN 75, the Buddha says that what ordinary people perceive as sensual pleasure, he felt as pain. So enlightenment isn’t a simple bliss switch.
+
+WAS:
+In MN 75, the Buddha says that what ordinary people perceive as sensual pleasure, he felt as pain.
+
+NOW:
+Also, there’s this quote from the Buddha in MN 75 where he says that what normal people perceive as sensual pleasure, he feels as pain.
+
+PARAGRAPH WITH NOW:
+The standard isn’t the non-stop, 24/7 bliss that Soh claimed, which is false. In AN 11.12, a noble disciple can reach ease through recollection, so ease is something a disciple reaches through practice, not a permanent state they’re stuck in. Also, there’s this quote from the Buddha in MN 75 where he says that what normal people perceive as sensual pleasure, he feels as pain. So enlightenment isn’t a simple bliss switch.
+
+AFTER:
+Does the Dhamma make intuitive sense to you now - does it come across as a coherent picture - as opposed to merely conceptual?
+
+## Item 3 (the next self-check question in the same list)
+
+BEFORE:
+The standard isn’t the non-stop, 24/7 bliss that Soh claimed, which is false. In AN 11.12, a noble disciple can reach ease through recollection, so ease is something a disciple reaches through practice, not a permanent state they’re stuck in. Also, there’s this quote from the Buddha in MN 75 where he says that what normal people perceive as sensual pleasure, he feels as pain. So enlightenment isn’t a simple bliss switch.
+
+PARAGRAPH WITH WAS:
+Does the Dhamma now feel intuitively coherent rather than merely conceptual?
+
+WAS:
+Does the Dhamma now feel intuitively coherent rather than merely conceptual?
+
+NOW:
+Does the Dhamma make intuitive sense to you now - does it come across as a coherent picture - as opposed to merely conceptual?
+
+PARAGRAPH WITH NOW:
+Does the Dhamma make intuitive sense to you now - does it come across as a coherent picture - as opposed to merely conceptual?
+
+AFTER:
+Do you know rebirth is on the way out with the same certainty that everyone knows they will die?
+
+## Item 4 (the first paragraph of the section "Why nibbāna is “awakening”"; the section before it ends on stream entry's "release date" (at most seven more lives))
+
+BEFORE:
+Stream entry’s greatest prize is a “release date”: AN 3.88 allows at most seven more lives before final awakening. There is actually quite a lot of modern academic evidence for rebirth. But who’s going around getting reborn if no permanent self exists? Buddhists don’t imagine any permanent self-essence/soul moving between bodies. Rather, rebirth is seen as a causal process: there is a continuity (often called a “mind-stream”), but there is not a “thing” that’s moving from one life to the next. Craving and clinging lead to becoming, and becoming leads to birth. More like a driverless car. The later Buddhist philosopher Milindapañha compared rebirth to one lamp being used to lighting another.
+
+PARAGRAPH WITH WAS:
+The lucid-dream comparison from earlier also shapes how I understand the seven-life limit said to be had by the stream-enterer. Once the dream is known as a dream, it becomes naturally difficult to remain stuck in it, similar to how hard it is to be absorbed in a movie when the lights go on and you remember you’re in a theater. If you’ve ever had a lucid dream, you know what I’m talking about.
+
+WAS:
+The lucid-dream comparison from earlier also shapes how I understand the seven-life limit said to be had by the stream-enterer. Once the dream is known as a dream, it becomes naturally difficult to remain stuck in it, similar to how hard it is to be absorbed in a movie when the lights go on and you remember you’re in a theater.
+
+NOW:
+To follow up on the lucid dreaming analogy I made earlier, there's the idea that the stream-enterer has only seven more lives at most, and it relates in that once you know you're in a dream, it's hard to stay stuck in the dream. It's like how hard it is to stay in a movie once the lights come on and you remember you're in a theater.
+
+PARAGRAPH WITH NOW:
+To follow up on the lucid dreaming analogy I made earlier, there's the idea that the stream-enterer has only seven more lives at most, and it relates in that once you know you're in a dream, it's hard to stay stuck in the dream. It's like how hard it is to stay in a movie once the lights come on and you remember you're in a theater. If you’ve ever had a lucid dream, you know what I’m talking about.
+
+AFTER:
+For me, nibbāna was really like waking up from a dream, except that nobody woke up. Reasoning can make the dream doubtful. The event made doubt about the dream impossible to reverse.

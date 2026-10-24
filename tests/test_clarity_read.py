@@ -123,6 +123,64 @@ KEEPS: every sentence
             self.assertIn('**A (my pick):** put it in.', md)
             self.assertIn('**My check:** checked against the whole article', md)
 
+    def test_the_caveat_read_brief_cuts_and_page(self):
+        """Part 3 (Joel, 2026-10-23 22:29 UTC: "obnoxious safety language and caveats"): the brief carries his examples
+        and what to keep; the page strikes each cut through in its paragraph and shows the paragraph after it."""
+        art = ('<div class="body markup"><h1>One</h1><p>Do the practice lying down. If nobody is in danger, take a breath '
+               'or three. That might not be how it goes for everyone.</p><h2>Two</h2><p>' + 'Text. ' * 40 + '</p></div>')
+        with tempfile.TemporaryDirectory() as d:
+            src = pathlib.Path(d) / 'a.html'
+            src.write_text(art, encoding='utf-8')
+            out = pathlib.Path(d) / 'cav'
+            C.make(src, out, parts=1, read='caveats')
+            brief = (out / 'BRIEF-1.txt').read_text(encoding='utf-8')
+            self.assertIn('extra extra ridiculous safety language', brief)
+            self.assertIn('NOBODY-SUGGESTED', brief)
+            self.assertIn('Getting in touch is a separate decision', brief)  # an example from his guide
+            self.assertIn('a caution that changes what you do at that step', brief)  # what to keep
+            self.assertIn('one front note', brief)  # how public books place safety
+            self.assertEqual((out / 'KIND').read_text().strip(), 'caveats')
+            (out / 'READER-1.md').write_text(
+                '## 1\nSECTION: One\nQUOTE: If nobody is in danger, take a breath or three.\nKIND: BLANKET\n'
+                'WHY: nobody stops to breathe while someone is in danger\nLOSES: nothing\n\n'
+                '## 2\nSECTION: One\nQUOTE: That might not be how it goes for everyone.\nKIND: hedge\n'
+                'WHY: his own experience\nLOSES: nothing\n', encoding='utf-8')
+            items = C.collect(out)
+            self.assertEqual([x['kind'] for x in items], ['BLANKET', 'HEDGE'])
+            self.assertTrue(all(x['found'] for x in items))
+            md, n = C.page(out)
+            self.assertEqual(n, 2)
+            self.assertIn('~~If nobody is in danger, take a breath or three.~~', md)
+            self.assertIn('> Do the practice lying down. That might not be how it goes for everyone.', md)
+            self.assertIn('> Do the practice lying down. If nobody is in danger, take a breath or three.', md)
+            self.assertIn('**A (my pick):** cut it.', md)
+
+    def test_the_repeats_read_gives_the_whole_article_and_lists_cuts_with_the_kept_place(self):
+        """Part 4 (Joel, 2026-10-23 22:29 UTC: "as much as possible we should be deduplicating"): each reader reads the whole
+        article and owns one part's points; each cut shows where the point is kept."""
+        art = ('<div class="body markup"><h1>One</h1><p>Founders hold too much power. That is the core problem.</p>'
+               '<h1>Two</h1><p>' + 'Text. ' * 40 + 'As I said, founders hold too much power.</p></div>')
+        with tempfile.TemporaryDirectory() as d:
+            src = pathlib.Path(d) / 'a.html'
+            src.write_text(art, encoding='utf-8')
+            out = pathlib.Path(d) / 'rep'
+            C.make(src, out, parts=2, read='repeats')
+            brief = (out / 'BRIEF-1.txt').read_text(encoding='utf-8')
+            self.assertIn(str((out / 'ARTICLE.txt').resolve()), brief)  # the whole article
+            self.assertIn('You own part 1 of 2', brief)
+            self.assertIn('too redundant', brief)
+            (out / 'READER-2.md').write_text(
+                '## 1\nSECTION: Two\nQUOTE: As I said, founders hold too much power.\n'
+                'KEPT: Founders hold too much power. [One]\nWHY: the same point\nLOSES: nothing\n', encoding='utf-8')
+            items = C.collect(out)
+            self.assertEqual(items[0]['kind'], 'REPEAT')
+            self.assertEqual(items[0]['said_already'], 'Founders hold too much power. [One]')
+            md, n = C.page(out)
+            self.assertEqual(n, 1)
+            self.assertIn('What the article says more than once', md)
+            self.assertIn('~~As I said, founders hold too much power.~~', md)
+            self.assertIn('**Said already:** Founders hold too much power. [One]', md)
+
     def test_a_clarity_read_dir_without_kind_is_a_clarity_read(self):
         with tempfile.TemporaryDirectory() as d:
             self.assertEqual(C.read_kind(d), 'clarity')

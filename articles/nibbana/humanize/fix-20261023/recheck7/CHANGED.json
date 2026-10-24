@@ -1,0 +1,38 @@
+[
+ {
+  "name": "n6-aware (batch n6)",
+  "text": "It is in contrast to the usual type of viññāṇaṃ (“sense consciousness”) that is established when one thing perceives another.",
+  "chance_red": 0.25,
+  "why": "Emulate's sample ca, his duality words kept; his sentence read AI, Low, alone in recheck 6"
+ },
+ {
+  "name": "n6-mn75 (batch n6)",
+  "text": "Also, there’s this quote from the Buddha in MN 75 where he says that what normal people perceive as sensual pleasure, he feels as pain.",
+  "chance_red": 0.2,
+  "why": "Emulate's sample ca with 'remember' out; the reader found the meaning kept"
+ },
+ {
+  "name": "n6-question (batch n6)",
+  "text": "Does the Dhamma make intuitive sense to you now - does it come across as a coherent picture - as opposed to merely conceptual?",
+  "chance_red": 0.2,
+  "why": "Emulate's sample cb with a typo and the spelling fixed; the reader found the meaning kept"
+ },
+ {
+  "name": "n6-lucid (batch n6)",
+  "text": "To follow up on the lucid dreaming analogy I made earlier, there’s the idea that the stream-enterer has only seven more lives at most, and that analogy shapes how I understand it: once you know you’re in a dream, it’s hard to stay stuck in the dream. It’s like how hard it is to stay absorbed in a movie once the lights come on and you remember you’re in a theater.",
+  "chance_red": 0.3,
+  "why": "Emulate's sample cc with three of my fixes from the reader's check, more of my words than usual"
+ },
+ {
+  "name": "kept red: his \"So enlightenment isn’t a simple bliss switch.\"",
+  "text": "So enlightenment isn’t a simple bliss switch.",
+  "chance_red": 0.2,
+  "why": "in window 82 (AI, Low) of recheck 6 with the old question; no sample has it, and its neighbours are new"
+ },
+ {
+  "name": "kept red: his \"I used to attribute ...\" and \"The early Pāli texts do give us ...\"",
+  "text": "I used to attribute “life is like a dream” directly to the historical Buddha",
+  "chance_red": 0.35,
+  "why": "window 96 (AI, Low) of recheck 6, his 12:30 rewrite, next to his N4 16 move; no sample kept its meaning"
+ }
+]

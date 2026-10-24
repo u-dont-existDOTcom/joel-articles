@@ -1,5 +1,33 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-23, after Joel's message of 23:28 UTC (Nibbāna's seventh recheck read; batch n7; the eighth recheck pasted)
+
+**Nibbāna's seventh recheck** ([his link](https://www.pangram.com/feed/31fd6bda-482c-4991-a5ef-d586de30aecb)): Human
+Written, 0.39% AI, 2 of 114 windows AI, the first two sentences of an unchanged paragraph of his that read light green
+before; all four of batch n6's splices read Human. Emulate's round 5 went in for those two sentences only (batch n7,
+reviewed and triaged: E255, Emulate's "I think" is a hedge), and the eighth recheck is pasted and verified. The rendered
+check is a tool now (`tools/humanization/substack_rendered_check.js`).
+
+Predictions: NB-whole#29 right (recheck 7, Mixed); the part forecast 64 of 65. NB-whole#30 (recheck 8, AI at 0.24) waits
+on his result.
+Delegations (model, piece, check, outcome): Sonnet, the meaning check of batch n7's splice (`n7/REVIEW.md`): CHANGED,
+triaged into two fixes.
+
+## 2026-10-23, after Joel's message of 22:29 UTC (Nibbāna's sixth recheck read; batch n6; the caveat and repeats reads added)
+
+**Nibbāna's sixth recheck** ([his link](https://www.pangram.com/feed/6d05010a-d5c8-4554-bbb7-ff2736b3974e)): Mostly Human
+Written, 1.1% AI, 6 windows, all Low, beside his N4 moves; batch n5's four sentences read Human. Emulate's round 4 went in
+sentence by sentence (batch n6, reviewed and triaged), and the seventh recheck is pasted and verified. His question about
+too much safety language made it a standard check (part 3 of the clarity read, with a tool and a test), and his wish to
+deduplicate made a fourth part (repeats across the whole article). Nibbāna's caveat list is question N6; the guide's
+clarity check, all four parts, is next for this guide. Lessons E252 to E254.
+
+Predictions: NB-whole#28 right (recheck 6, Mixed); the part forecast 87 of 92. NB-whole#29 (recheck 7) waits on his result.
+Delegations (model, piece, check, outcome): Sonnet ×6, Nibbāna's caveat readers (a sixth each), every line checked by me
+against the whole article: 25 lines, 23 offered (11 cut, 12 keep), 2 kept; Sonnet, the meaning check of batch n6's four
+splices (`n6/REVIEW.md`): 2 CHANGED, triaged (another sample for one, the reader's fixes for the other). The community
+lane's readers are in its own status.
+
 ## 2026-10-23, after Joel's message of 20:35 UTC (part B and Nibbāna's fifth recheck read; his N4 answers in; batch n5; Nibbāna's sixth recheck pasted)
 
 **Part B's recheck** ([his link](https://www.pangram.com/feed/d63c3c9f-b71f-4435-9b20-59027a31225b)): Mostly Human
