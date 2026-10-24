@@ -40,6 +40,7 @@ Record:
 - **Intellectual or lived route:** What did he know first? What bothered him? What did he try, notice, remember, read, reject, or change his mind about? Where does he stop?
 - **Actor → action → object:** Who does what to whom or what, and for what purpose?
 - **Causal or chronological chain:** What has to precede what? Which relationship is causal, evidentiary, contrasting, or merely adjacent?
+- **Problem → explanations → action for advice:** Before generating a paragraph of advice, identify the actual problem, how plausible explanations or blockers differ, and what the reader would do differently depending on which one is true. If the distinction changes no decision, don't manufacture an instructional list. If the author's explanation is unresolved, preserve that uncertainty instead of treating a guess as fact. Use this as private causal reasoning before composing, **not** a sentence-by-sentence outline or recurring published prose formula.
 - **Evidence roles:** Which source, example, memory, quotation, opponent, or experience does which work? Sources need not receive equal space.
 - **Strongest complication:** What contradiction, mixed motive, unresolved alternative, or cost must remain active?
 - **Governing movement:** Inquiry, lived sequence, causal pressure, contradiction, practical threshold, evidence encounter, comparison, instruction, or another movement native to the material.
