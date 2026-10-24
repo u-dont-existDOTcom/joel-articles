@@ -35,7 +35,7 @@ How I fix a paragraph now is under 101 in Decided ([try by try]({G}/t105-tries/R
 - **102.3 Four sections with Low windows (your 100.6, still open).** {sections}
   - **A (my pick):** {a4}
   - **B:** {b4}
-- **102.4 Ideas for the other sections, for GPT.** [The ideas page]({G}/t105-readers-edit/IDEAS.md) has two fresh readers' passes over the whole article, with the way Lucia Capacchione's book reads in mind ([the comparison]({G}/t105-readers-edit/ENGAGING.md)): a reader's edit (headings, moves and cuts, so a reader has less to work through at once) and a hedge read (the may, might and maybe lines a reader doesn't need, her biggest difference from this article). I checked each one against the article and your earlier answers, and each has my pick. Nothing is in yet or checked in Pangram.
+- **102.4 Ideas for the other sections, for GPT.** [The ideas page]({G}/t105-readers-edit/IDEAS.md) has fresh readers' two passes over the whole article, with the way Lucia Capacchione's book reads in mind ([the comparison]({G}/t105-readers-edit/ENGAGING.md)): a reader's edit (35 headings, moves and cuts, so a reader has less to work through at once) and a hedge read (41 hedges, reassurances and takebacks the readers say a reader doesn't need, which is where her book differs most; 32 of them are your own wording, and I'd keep most of those). I checked each one against the article and your earlier answers, and each has my pick. Nothing is in yet or checked in Pangram.
   - **A (my pick):** send the page to GPT, then reply "102.4: your picks", or with the numbers you'd change. Each change gets its checks before it goes in.
   - **B:** leave the other sections for round 6.
 
@@ -55,7 +55,7 @@ Your message (turn 105; `experiments/t105-answers/JOEL-20261024-1840.md`, with y
 
 - **101.1:** GPT's paragraph is in, word for word, and in its stretch it reads [Human, 0.0000% AI](https://www.pangram.com/history/a1020230-e26e-4b94-b483-5497dc674885). You were right: your Haiku had listed the tells I said I couldn't find, and so had my own panel. What was going wrong:
   - I stopped at the guide's own instructions, as if a flag on one meant the instruction had to go. The readers were flagging how they were worded, so the content stays and the wording changes.
-  - My drafts kept my shape: a careful "I'd ..." aside around each instruction, the cases lined up in parallel, and a closing line. GPT says each instruction plainly, starts from one case ("Say you keep coming back from trips ..."), and ends on a plain fact.
+  - My drafts kept my shape, with a careful "I'd ..." aside around each instruction and the cases lined up in parallel. GPT starts from one case ("Say you keep coming back from trips ...") and then says each instruction plainly.
   - I took readers' "human" picks on my own phrases as human tells, like "I'd count the milder stuff too", which you hear as AI.
   - My panel's summary matched quotes only, so Haiku's "Even, tidy rhythm" never reached a draft.
 

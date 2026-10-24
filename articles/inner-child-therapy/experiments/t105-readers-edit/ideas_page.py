@@ -5,6 +5,7 @@ Joel, 2026-10-24 18:40 UTC: "go thru all the other sections and figure try to ma
 what gpt thinks of your ideas on that". Each read's own page comes from tools/humanization/clarity_read.py (its ITEMS.json,
 with my checks); this puts the two together, numbered E1... and H1... so one reply can name any item.
 """
+import json
 import pathlib
 import re
 import sys
@@ -42,7 +43,17 @@ def numbered(page, prefix):
 
 def main():
     edit, ne = C.page(HERE / 'edit', title="The reader's edit: what a reader has to work through")
-    hedge, nh = C.page(HERE / 'caveats', title="The hedge read: what a reader doesn't need where it is")
+    items = json.loads((HERE / 'caveats' / 'ITEMS.json').read_text(encoding='utf-8'))
+    live = [x for x in items if x.get('status', 'keep') == 'keep']
+    his = sum(1 for x in live if 'yours' in (x.get('whose') or ''))
+    mine = sum(1 for x in live if 'mine' in (x.get('whose') or ''))
+    cut = sum(1 for x in live if (x.get('my_pick') or '').upper() == 'A')
+    hedge_intro = ('Most of what the hedge readers flagged is your own wording: %d of the %d lines, against %d of mine (the '
+                   'rest I couldn\'t place). My picks keep most of yours, since they\'re your voice and a lot of them are in '
+                   'text you checked yourself, and cut %d in all. So if you want the article closer to her plain, sure '
+                   'sentences, the B items below are where that would come from.' % (his, len(live), mine, cut))
+    hedge, nh = C.page(HERE / 'caveats', title="The hedge read: what a reader doesn't need where it is", intro=hedge_intro)
+    hedge = hedge.replace('## Looked at and kept', '## Taken up elsewhere (102.1, 102.2 or the reader\'s edit)')
     out = INTRO.replace('{ne}', str(ne)).replace('{nh}', str(nh)) + '\n' + numbered(edit, 'E') + '\n' + numbered(hedge, 'H')
     (HERE / 'IDEAS.md').write_text(out.rstrip() + '\n', encoding='utf-8')
     print('IDEAS.md:', ne, 'edit items,', nh, 'hedge items')

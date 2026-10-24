@@ -9,8 +9,8 @@ The book is Lucia Capacchione's *Recovery of Your Inner Child* (1991), the EPUB 
 Mostly yes, in a plain, warm way. What carries it:
 
 - **Her own story comes first.** The introduction is her life: a look back at fifty, then a decade of crises (her marriage and business ending, a serious illness), and the journal she kept while sick, which led her to therapy and to writing and drawing with both hands. Every method after that is something that happened to her first.
-- **You're doing something within a page or two.** A chapter explains its idea briefly, often with a moment from her own therapy, and then turns into an exercise: a materials line (crayons, paper, felt pens) and numbered steps.
-- **Other people's work is the evidence.** After an exercise come workshop and retreat participants' drawings, letters and written dialogues, as they wrote them.
+- **You're doing something within a page or two.** A chapter explains its idea briefly, often with a moment from her own therapy, and then turns into an exercise: a materials line (crayons, felt pens, paper and so on) and numbered steps.
+- **Other people's work is the evidence.** After an exercise come workshop and retreat participants' drawings, letters, written dialogues and so on, as they wrote them.
 - **The sentences are plain and sure of themselves.** She states things and rarely hedges, sometimes claiming more than a careful writer would.
 - **Safety is in one place**, so the exercises don't carry it (`../t102-safety/BOOKS.md`).
 
@@ -30,6 +30,6 @@ The OCR runs some of her words together, which makes her counts a little low, bu
 
 ## What that means for this article
 
-- **The hedges are the biggest difference.** One sentence in five here carries a may, a might or a sometimes, against one in twenty-five in hers. Many are his own and do work (he really isn't sure, or he allows an exception), and those stay; the rest are what his 97.8 notes called "that same habit of being overly careful". The hedge read (`caveats/`) looks for those.
+- **The hedges are the biggest difference.** One sentence in five here carries a may, a might or a sometimes, against one in twenty-five in hers. Many are his own and do work (he really isn't sure, or he allows an exception), and those stay; the rest are what his 97.8 notes called "that same habit of being overly careful". The hedge read (`caveats/`) looked for those, and most of what its readers flagged turned out to be his own wording (32 of 41 lines; `IDEAS.md`).
 - **The order she uses is story, then doing, then other people's examples.** This article has his story (My Journey) and many small scenes, but its practices often come after long explanations and qualifications. The reader's edit (`edit/`) looks for where the doing can come sooner, or where a second subject needs its own heading.
 - **What not to copy:** her waiver, her overclaiming, and anything that would put a scene or example of mine where his own would be (gate E194, E251).

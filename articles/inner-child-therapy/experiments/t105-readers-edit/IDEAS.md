@@ -7,7 +7,7 @@ How Lucia Capacchione's *Recovery of Your Inner Child* reads beside this article
 Two kinds of fresh reader went through the whole article in parts, each told nothing about earlier drafts:
 
 - **The reader's edit (E1 to E35):** where a reader has more to work through at once than they need, and the smallest structural change that fixes it: a heading, a move, or the cut of a repeat or of a last line that adds nothing. No rewording. Eleven readers, a part of the article each (`edit/`).
-- **The hedge read (H1 to H12):** lines a reader doesn't need where they are: a hedge, a reassurance, a takeback, a caution said again. Six readers, a part each (`caveats/`).
+- **The hedge read (H1 to H41):** lines a reader doesn't need where they are: a hedge, a reassurance, a takeback, a caution said again. Six readers, a part each (`caveats/`).
 
 The reader's edit asked five questions of each section, and its "question 1" to "question 5" are these: (1) how many decisions does one passage ask of the reader at once; (2) does a second subject start inside the section without a heading of its own; (3) does each warning change what the reader does there, or only explain why the instruction has qualifications; (4) is a paragraph performing, with a joke, a metaphor or a last line that only makes it sound casual; (5) what would an attentive reader still need here. Joel's choices on the first sections that had this edit: he put in all four headings proposed, one of them over a single paragraph ("Why the Tangle Is Heavy"), and declined the one label, since the paragraph's first line already said what it was for. He kept two passages of his own (a study's three sentences that make a warning land, and a stock phrase that starts the article's dream thread), and he cut a parenthetical of his that used a term two sections before it was explained.
 
@@ -546,6 +546,8 @@ To answer: "102.4: your picks" takes every pick below; or name the ones you'd ch
 
 ## The hedge read: what a reader doesn't need where it is
 
+Most of what the hedge readers flagged is your own wording: 32 of the 41 lines, against 7 of mine (the rest I couldn't place). My picks keep most of yours, since they're your voice and a lot of them are in text you checked yourself, and cut 7 in all. So if you want the article closer to her plain, sure sentences, the B items below are where that would come from.
+
 ### H1. Inner Child Therapy: a takeback
 
 *Whose words:* yours
@@ -772,7 +774,561 @@ To answer: "102.4: your picks" takes every pick below; or name the ones you'd ch
 - **A:** cut it.
 - **B (my pick):** keep it.
 
-## Looked at and kept
+### H13. When Healing Turns Into Checking: a takeback
+
+*Whose words:* probably yours
+
+> Don't be afraid to ask your therapist/yourself "What is this practice supposed to help, and how would I know if it's helping?" This sovereign, gently curious stance should apply to everything in life. Feeling calmer or having deeper insights or explanations for the trauma response are some possible signs of initial progress, but if that's the endgame, it's just a cope. Real healing is ultimately measured by reduced need for the therapy. It's like real parenting: you might start out reading parenting books and thinking hard about what to say or do, but after a while you get into the groove and a lot of it becomes natural. Inner parenting can be like that too. You don't need to keep checking this guide or planning every conversation with your little one; the nurturing, protecting and guiding become more automatic. ~~You might still turn to therapy when you need it, and life will keep offering chances to grow wiser and more compassionate.~~ And if the therapy is actually working, it should improve your daily life, and especially the health of the inner child-inner adult relationship. Going at it harder isn't as useful as going at it with more wisdom and compassion. Take the parts that work, and innovate on the rest.
+
+**Why:** It softens "Real healing is ultimately measured by reduced need for the therapy" against an objection nobody raised, and "more wisdom and compassion" comes back two sentences later.
+
+**What a reader loses:** a gentle closing thought; the reader still gets "reduced need" and "going at it with more wisdom and compassion".
+
+**My check:** It came in with your answers of turn 55, and it keeps "reduced need for the therapy" from reading as a finish line.
+
+**After:**
+
+> Don't be afraid to ask your therapist/yourself "What is this practice supposed to help, and how would I know if it's helping?" This sovereign, gently curious stance should apply to everything in life. Feeling calmer or having deeper insights or explanations for the trauma response are some possible signs of initial progress, but if that's the endgame, it's just a cope. Real healing is ultimately measured by reduced need for the therapy. It's like real parenting: you might start out reading parenting books and thinking hard about what to say or do, but after a while you get into the groove and a lot of it becomes natural. Inner parenting can be like that too. You don't need to keep checking this guide or planning every conversation with your little one; the nurturing, protecting and guiding become more automatic. And if the therapy is actually working, it should improve your daily life, and especially the health of the inner child-inner adult relationship. Going at it harder isn't as useful as going at it with more wisdom and compassion. Take the parts that work, and innovate on the rest.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H14. Catch the Hook Before the Story Takes Over: a reassurance
+
+*Whose words:* yours (published)
+
+> Pema Chödrön calls the tightening and urge you get before the story has finished forming "shenpa," and she says "hooked" is a more descriptive translation than the usual "attachment." You might notice the hook before you have any clue what part of you is doing the hooking. Or you might notice it embarrassingly late. The jaw and stomach are already tight, and/or half the text is written, and then suddenly it dawns on you: you're supposed to be observing yourself. 😀 Maybe forget the parts detective work for a minute. ~~You can figure that out later.~~
+
+**Why:** "for a minute" in the sentence before already says the parts detective work is only paused.
+
+**What a reader loses:** nothing.
+
+**My check:** From your published guide; it tells the reader the detective work can wait, which is what the step needs.
+
+**After:**
+
+> Pema Chödrön calls the tightening and urge you get before the story has finished forming "shenpa," and she says "hooked" is a more descriptive translation than the usual "attachment." You might notice the hook before you have any clue what part of you is doing the hooking. Or you might notice it embarrassingly late. The jaw and stomach are already tight, and/or half the text is written, and then suddenly it dawns on you: you're supposed to be observing yourself. 😀 Maybe forget the parts detective work for a minute.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H15. Catch the Hook Before the Story Takes Over: a takeback
+
+*Whose words:* yours
+
+> Here's where I want to clearly depart from the new-age wizdumb that all your problems are self-created: Somebody may really have crossed a boundary. That's not just because they are your karmic partner mirroring what God wants to show you in yourself~~, even if that also applies sometimes~~. Your reaction is what you can control the most, though. If what they did hit something old in you, notice how that feels in your body. And notice how your feelings can also amplify or distort your perceptions of others. Just because your stomach tightened up doesn't mean their boundary crossing indicates “They're evil.” You can defer that judgement for when you're in your happy place.
+
+**Why:** "not just because" already leaves room for the mirror idea, and this takes back part of the departure from the new-age view he has just announced.
+
+**What a reader loses:** his nod that the karmic-mirror idea can apply some of the time.
+
+**My check:** Your paragraph, word for word (turn 34), and the nuance is your view of the karmic-mirror idea.
+
+**After:**
+
+> Here's where I want to clearly depart from the new-age wizdumb that all your problems are self-created: Somebody may really have crossed a boundary. That's not just because they are your karmic partner mirroring what God wants to show you in yourself. Your reaction is what you can control the most, though. If what they did hit something old in you, notice how that feels in your body. And notice how your feelings can also amplify or distort your perceptions of others. Just because your stomach tightened up doesn't mean their boundary crossing indicates “They're evil.” You can defer that judgement for when you're in your happy place.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H16. Catch the Hook Before the Story Takes Over: a blanket add-on
+
+*Whose words:* yours
+
+> Feelings about yourself work the same way. "I feel attracted" or "I feel ashamed" is real as a feeling, but it doesn't settle who you are, or who you love. Making too much out of something momentary is one side of the human psyche's pendulum. Give yourself time to see what patterns form more durably, and what feels authentically yours vs something planted or manipulated into being there from society, influencers, family, friends, religion, etc., etc. You may find an exceptional freedom in exactly that in-between place where you don't have to decide what your pronouns are, or whether you believe in this or that. If you stay in flux forever, though, it can seem like there's nothing solid about you. ~~In that case, sometimes it helps to meditate or talk with a good unbiased therapist who can help you see the pattern.~~
+
+**Why:** A generic see-a-therapist tag on the flux point; it is not a step in this practice and changes nothing the reader does here.
+
+**What a reader loses:** the only pointer for someone stuck in flux; the pendulum point stays.
+
+**My check:** Your paragraph, and it's the only pointer for someone stuck in the flux.
+
+**After:**
+
+> Feelings about yourself work the same way. "I feel attracted" or "I feel ashamed" is real as a feeling, but it doesn't settle who you are, or who you love. Making too much out of something momentary is one side of the human psyche's pendulum. Give yourself time to see what patterns form more durably, and what feels authentically yours vs something planted or manipulated into being there from society, influencers, family, friends, religion, etc., etc. You may find an exceptional freedom in exactly that in-between place where you don't have to decide what your pronouns are, or whether you believe in this or that. If you stay in flux forever, though, it can seem like there's nothing solid about you.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H17. Use Childhood Photographs Gently: a reassurance
+
+*Whose words:* yours
+
+> While you look, notice what your body does and what feelings or urges show up. Is there something that younger you seems to want you to understand? Some of it you'll remember yourself, and some of it you might even glean from talking to family/friends from then ("You hated that coat"). It might just be an inference you're guessing from the picture, or perhaps it triggers an image or a dream. Or just nothing comes up~~, which is also completely OK~~. Ask what your little one needs from you now, and do a bit of it.
+
+**Why:** "Or just nothing comes up" already lists it as an ordinary outcome; the reassurance comes after the point is made.
+
+**What a reader loses:** nothing.
+
+**My check:** The same kind of line as "That's ok, too.", which you cut from your own text in 98.1; "Or just nothing comes up" already makes it an ordinary outcome.
+
+**After:**
+
+> While you look, notice what your body does and what feelings or urges show up. Is there something that younger you seems to want you to understand? Some of it you'll remember yourself, and some of it you might even glean from talking to family/friends from then ("You hated that coat"). It might just be an inference you're guessing from the picture, or perhaps it triggers an image or a dream. Or just nothing comes up. Ask what your little one needs from you now, and do a bit of it.
+
+- **A (my pick):** cut it.
+- **B:** keep it.
+
+### H18. Use Childhood Photographs Gently: a blanket add-on
+
+*Whose words:* yours
+
+> We don't need to ask it leading questions, like "Who abused me & how?" or "What memory is my body hiding?" Grilling one photo until a story shows up is a good way to get a story, but stories aren't necessarily the truth, and even if they are accurate, the feelings beneath them are still more important. Memory is an amorphous thing, easily influenced by guided imagery and suggestions~~, so we gotta be careful about that~~. Look at this study, for example, where people were shown a doctored photo of a childhood hot-air balloon ride they never took. Half of them actually started sorta remembering it. I'm sure you can relate.
+
+**Why:** A general "be careful" tacked onto the memory claim, right after the specific warning against leading questions and before the balloon-photo study that makes the point.
+
+**What a reader loses:** nothing.
+
+**My check:** It leads into the study you kept in 91.4 as the case that makes the warning land.
+
+**After:**
+
+> We don't need to ask it leading questions, like "Who abused me & how?" or "What memory is my body hiding?" Grilling one photo until a story shows up is a good way to get a story, but stories aren't necessarily the truth, and even if they are accurate, the feelings beneath them are still more important. Memory is an amorphous thing, easily influenced by guided imagery and suggestions. Look at this study, for example, where people were shown a doctored photo of a childhood hot-air balloon ride they never took. Half of them actually started sorta remembering it. I'm sure you can relate.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H19. When the Adult Voice Feels Fake: said already
+
+*Whose words:* yours (your fix of turn 24)
+
+> For some people it only stops feeling fake in an altered state, like on MDMA or deep in meditation. All of a sudden your little one is right there! Oh my gosh! And the love or grief that sounded like therapy talk is just obvious. Old memories might come up too. ~~They can feel totally real, but that alone doesn't prove they happened.~~ I'd still hang on to what you felt, even once it's gone, and try to bring a little of it into your normal life. You've felt that your little one is real now, so talking to them afterward isn't just pretending.
+
+**Why:** Said in Use Childhood Photographs Gently ("Memory is an amorphous thing, easily influenced by guided imagery and suggestions", plus the doctored balloon-ride photo study).
+
+**What a reader loses:** the memory reminder in the altered-state setting; "Old memories might come up too." can stay or go with it.
+
+**My check:** A safeguard at its step: in an altered state the reader needs it there, whatever the photo section says.
+
+**After:**
+
+> For some people it only stops feeling fake in an altered state, like on MDMA or deep in meditation. All of a sudden your little one is right there! Oh my gosh! And the love or grief that sounded like therapy talk is just obvious. Old memories might come up too. I'd still hang on to what you felt, even once it's gone, and try to bring a little of it into your normal life. You've felt that your little one is real now, so talking to them afterward isn't just pretending.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H20. Altered States Can Deepen the Therapy: said already
+
+*Whose words:* yours (your guide)
+
+> ~~Remember those guards from The Urge to Escape, above? Same deal here, so get enough Nurturer and Protector in the room before you go deep.~~ Borrowed is fine, as long as it’s from someone steady who won’t try to run your trip for you. But feeling attacked by a demon on a psychedelic is not necessarily paranoia. It can be real, and it’s also not bad unless you’re unprepared. It can be supremely empowering when you can send love and see how it fixes the situation.
+
+**Why:** Said in the section just above, When the Urge to Escape Arrives: "so I’d hold off until there’s enough Nurturer and Protector around."
+
+**What a reader loses:** the pointer back to the guards section; "Borrowed is fine" would then need a few words of lead-in
+
+**My check:** It's from your guide, and it changes what you do before going deep in an altered state.
+
+**After:**
+
+> Borrowed is fine, as long as it’s from someone steady who won’t try to run your trip for you. But feeling attacked by a demon on a psychedelic is not necessarily paranoia. It can be real, and it’s also not bad unless you’re unprepared. It can be supremely empowering when you can send love and see how it fixes the situation.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H21. Altered States Can Deepen the Therapy: a takeback
+
+*Whose words:* yours
+
+> And if your little one still can’t take the love in? Hold off on going for bigger, crazier breakthroughs, however tempting it is, ~~or at least know that they are a double-edged sword~~. Something’s in the way, and getting to know it is your next job. Often it’s a protective part that’s seen love come with strings before. Hear it out first, the way you did in Hear the Guard First.
+
+**Why:** It takes back "Hold off on going for bigger, crazier breakthroughs" in the same sentence, and "know" gives the reader nothing to do.
+
+**What a reader loses:** nothing that changes what a reader does
+
+**My check:** Your words (turn 77), and it gives the reader who won't hold off something to keep in mind.
+
+**After:**
+
+> And if your little one still can’t take the love in? Hold off on going for bigger, crazier breakthroughs, however tempting it is,. Something’s in the way, and getting to know it is your next job. Often it’s a protective part that’s seen love come with strings before. Hear it out first, the way you did in Hear the Guard First.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H22. When Escape Leaves Reality Behind: a disclaimer
+
+*Whose words:* yours (turn 44)
+
+> Any of those reactions, from mania to paranoia, can also point to a vulnerability in you, so I'd be careful with other drugs that mess with what's real too. And any predisposition toward mania or psychosis is a warning sign too, whether it's family history, a bad environment or a bad mindset. ~~I can't tell you exactly what to do about it, and nobody can tell you for sure what's best for you.~~ There are just caution signs, and when you see them, you take more precautions of every kind. You have to figure out what they mean for you, and if you can't, get help from trusted advisors.
+
+**Why:** A not-advice notice; the next sentences give the guidance anyway (more precautions, then "get help from trusted advisors").
+
+**What a reader loses:** nothing
+
+**My check:** A not-advice notice, and the guidance comes right after it anyway; you cut one like it in 98 ("I'm only borrowing the word ...").
+
+**After:**
+
+> Any of those reactions, from mania to paranoia, can also point to a vulnerability in you, so I'd be careful with other drugs that mess with what's real too. And any predisposition toward mania or psychosis is a warning sign too, whether it's family history, a bad environment or a bad mindset. There are just caution signs, and when you see them, you take more precautions of every kind. You have to figure out what they mean for you, and if you can't, get help from trusted advisors.
+
+- **A (my pick):** cut it.
+- **B:** keep it.
+
+### H23. When Escape Leaves Reality Behind: said already
+
+*Whose words:* yours
+
+> Be careful what you mix, too, and not just prescribed medicines. Even some basic things like cinnamon can be dangerous (and helpful) with ayahuasca, and doctors don't know about a lot of this. I also learned that mixing acacia confusa with mimosa hostilis is very dangerous. ~~I'd never recommend anyone risk it, since it's highly destabilizing and challenging.~~ I have a list of things to be cautious about with ayahuasca in particular.
+
+**Why:** The sentence before it already says the mix "is very dangerous."
+
+**What a reader loses:** the stated reason (highly destabilizing and challenging)
+
+**My check:** Your answer of turn 45, and it gives the reason the sentence before doesn't.
+
+**After:**
+
+> Be careful what you mix, too, and not just prescribed medicines. Even some basic things like cinnamon can be dangerous (and helpful) with ayahuasca, and doctors don't know about a lot of this. I also learned that mixing acacia confusa with mimosa hostilis is very dangerous. I have a list of things to be cautious about with ayahuasca in particular.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H24. Altered States Can Require Reparenting: a takeback
+
+*Whose words:* yours
+
+> Those ghosts knew my weakness: dares. So they would dare me to jump out the window. I wasn’t suicidal, but I hated to seem like a “wussy.” Luckily, I trusted my parents with this information, and instead of taking me to a psychiatrist and pumping me full of anti-psychotic drugs, they put bars on the windows. Many kids are not so lucky in modern societies. They may get pumped full of anti-psychotic drugs for the rest of their life once diagnosed. ~~That said, it'd make sense to get a professional to weigh in for some situations.~~ I still played around with half-hanging out the windows, but I wasn’t quite dumb enough to jump out, and I really appreciate that my parents took it seriously without catastrophizing.
+
+**Why:** Takes back the sentence before it, and "some situations" names none; the article says when ("see a psychiatrist" in When Escape Leaves Reality Behind) and ends this section with "get some outside support."
+
+**What a reader loses:** a balancing note on his remark about anti-psychotic prescribing; nothing a reader acts on
+
+**My check:** Your own fix of my double hedge (E193).
+
+**After:**
+
+> Those ghosts knew my weakness: dares. So they would dare me to jump out the window. I wasn’t suicidal, but I hated to seem like a “wussy.” Luckily, I trusted my parents with this information, and instead of taking me to a psychiatrist and pumping me full of anti-psychotic drugs, they put bars on the windows. Many kids are not so lucky in modern societies. They may get pumped full of anti-psychotic drugs for the rest of their life once diagnosed. I still played around with half-hanging out the windows, but I wasn’t quite dumb enough to jump out, and I really appreciate that my parents took it seriously without catastrophizing.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H25. Altered States Can Require Reparenting: a reassurance
+
+*Whose words:* yours (your guide)
+
+> Borrowing support like that is basically borrowed adulthood. At first you may need to feel protected or loved by something bigger than you, before that love starts to feel like yours, and then bit by bit it starts to become your own. Send some of it down to your frightened little one, and when that's possible, toward whatever you're afraid of. ~~Continuing to relate to benevolent spiritual powers/beings is still perfectly fine, but they would surely be happy if they rubbed off on you!~~
+
+**Why:** The point (borrowed support becomes your own) is already made, and nothing in the text says to drop a spiritual practice, so this soothes a worry nobody raised.
+
+**What a reader loses:** the closing joke about the beings being happy if it rubbed off on you
+
+**My check:** Your guide's last line, joke and all.
+
+**After:**
+
+> Borrowing support like that is basically borrowed adulthood. At first you may need to feel protected or loved by something bigger than you, before that love starts to feel like yours, and then bit by bit it starts to become your own. Send some of it down to your frightened little one, and when that's possible, toward whatever you're afraid of.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H26. Listen To Your Body, Or Else!: said already
+
+*Whose words:* yours
+
+> Being ready to do anything to end the pain isn’t a suicide plan, so I wouldn’t present it as one to get relief. ~~But if you’re scared you’ll actually hurt yourself, or can’t tell whether you’re safe, get someone with you right away.~~
+
+**Why:** The very next section, If You Want to Kill Yourself, opens with it: "get another human being involved" and "Can't tell if that's you? Treat it like it is."
+
+**What a reader loses:** nothing
+
+**My check:** The step for someone in pain who fears hurting themselves; with E22 it sits with the pain it's about.
+
+**After:**
+
+> Being ready to do anything to end the pain isn’t a suicide plan, so I wouldn’t present it as one to get relief.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H27. Untangling the Belonging Bargains: a reassurance
+
+*Whose words:* probably yours
+
+> Even with good parents, you could have learned unhealthy self-valuation when people repeatedly praised what you did rather than your inherent worth. ~~That wasn't your flaw.~~ In the process of self-differentiation, we learn to notice when we're making the trade, and we begin keeping our ground more when feasible.
+
+**Why:** Comfort added after the point is made; the sentence before already puts the cause in how people praised you, and nothing the reader does depends on it.
+
+**What a reader loses:** a line of comfort; the paragraph's point stands without it.
+
+**My check:** It came in with your answers of turn 55, and it says the trade wasn't the reader's fault, which the sentence before only implies.
+
+**After:**
+
+> Even with good parents, you could have learned unhealthy self-valuation when people repeatedly praised what you did rather than your inherent worth. In the process of self-differentiation, we learn to notice when we're making the trade, and we begin keeping our ground more when feasible.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H28. Untangling the Belonging Bargains: a hedge
+
+*Whose words:* yours
+
+> Even with good parents, you could have learned unhealthy self-valuation when people repeatedly praised what you did rather than your inherent worth. That wasn't your flaw. In the process of self-differentiation, we learn to notice when we're making the trade, and we begin keeping our ground more ~~when feasible~~.
+
+**Why:** Anyone keeps their ground only when they can, so the condition adds nothing and changes nothing the reader does.
+
+**What a reader loses:** nothing.
+
+**My check:** Your words for this closer (84.6), and it keeps the definition honest: you keep your ground more, not always.
+
+**After:**
+
+> Even with good parents, you could have learned unhealthy self-valuation when people repeatedly praised what you did rather than your inherent worth. That wasn't your flaw. In the process of self-differentiation, we learn to notice when we're making the trade, and we begin keeping our ground more.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H29. Four Pairs That Commonly Hook the Child: warns against a step nobody suggested
+
+*Whose words:* unknown
+
+> ~~You don't have to stop enjoying pleasure, praise, gain or belonging.~~ The question is whether losing one of them would feel like losing yourself.
+
+**Why:** Nothing in the section says to stop enjoying anything; the next sentence ("The question is whether losing one of them would feel like losing yourself.") is the actual point.
+
+**What a reader loses:** nothing; "one of them" then leans on the praise, romance, money, status, belonging list a few lines up.
+
+**My check:** A permission that keeps the four pairs from reading as giving them up, which is the misreading the next sentence's question heads off.
+
+**After:**
+
+> The question is whether losing one of them would feel like losing yourself.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H30. Between Spoiling and Clamping Down: a blanket add-on
+
+*Whose words:* yours
+
+> After all, sometimes “I want it NOW!” is just that: a rung on the desire treadmill. No hidden guard or old trauma required, because all creatures have endless desires naturally anyway, especially when immature. You can hear that want without shame about it. Hearing it doesn’t require giving into it~~, especially if getting your way would hurt you or somebody else~~.
+
+**Why:** A harm condition tacked onto "Hearing it doesn’t require giving into it", which already says not to act on every want; it changes nothing the reader does.
+
+**What a reader loses:** nothing.
+
+**My check:** It changes what you do with the want (turn 102 kept it for that reason), and it's your P3.
+
+**After:**
+
+> After all, sometimes “I want it NOW!” is just that: a rung on the desire treadmill. No hidden guard or old trauma required, because all creatures have endless desires naturally anyway, especially when immature. You can hear that want without shame about it. Hearing it doesn’t require giving into it.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H31. You Belong Everywhere and Nowhere: a takeback
+
+*Whose words:* yours
+
+> With that under you, belonging with people can get a lot less desperate. ~~Not all at once, though.~~ Your little one might still think, “If they stop liking me, I won’t belong anywhere,” and the Guide can remind it there’s more to belong to than them.
+
+**Why:** Takes back "can get a lot less desperate" right after saying it, and the next sentence ("Your little one might still think...") already carries the not-yet.
+
+**What a reader loses:** nothing.
+
+**My check:** Your P10 as you fixed it (100.1 A, "i fixed it, this passes").
+
+**After:**
+
+> With that under you, belonging with people can get a lot less desperate. Your little one might still think, “If they stop liking me, I won’t belong anywhere,” and the Guide can remind it there’s more to belong to than them.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H32. Timing Is Individual: said already
+
+*Whose words:* yours
+
+> ~~Timing is different for everyone, but~~ most of us need enough Nurturer and Protector first. Otherwise the Guide just overrules your little one in the name of something higher (spiritual bypassing, dressed up as direction). Like a shepherd who's beating sheep to make them move. So warmth and safety come first for a while, and the direction can grow once there's a clear little one in there to guide.
+
+**Why:** The heading just above already says "Timing Is Individual"; the "but" then takes it back before the claim ("most of us need enough Nurturer and Protector first").
+
+**What a reader loses:** nothing; "Most of us need enough Nurturer and Protector first." keeps its own "most".
+
+**My check:** You added it to break the march ("added a marching order break that sounds a bit human, now it passes").
+
+**After:**
+
+> most of us need enough Nurturer and Protector first. Otherwise the Guide just overrules your little one in the name of something higher (spiritual bypassing, dressed up as direction). Like a shepherd who's beating sheep to make them move. So warmth and safety come first for a while, and the direction can grow once there's a clear little one in there to guide.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H33. How Much Happiness Do You Know Is Possible?: warns against a step nobody suggested
+
+*Whose words:* yours
+
+> If you’re curious about this bigger happiness, follow that curiosity. ~~You don’t have to pretend to believe anything, but~~ you might read a few people from different traditions (try a Sufi poet or a Zen teacher). If you know anyone who seems consistently happy in this bigger way, check out how they deal with people when things are going badly. And if they still pass that test, consider, "I don’t know if I believe their explanation. But what if the experience is possible for me?”
+
+**Why:** Nobody asked the reader to believe or pretend anything, and the paragraph's last line ("I don’t know if I believe their explanation. But what if the experience is possible for me?") already gives that permission.
+
+**What a reader loses:** nothing.
+
+**My check:** Your rewrite of the h1, word for word (88.1).
+
+**After:**
+
+> If you’re curious about this bigger happiness, follow that curiosity. you might read a few people from different traditions (try a Sufi poet or a Zen teacher). If you know anyone who seems consistently happy in this bigger way, check out how they deal with people when things are going badly. And if they still pass that test, consider, "I don’t know if I believe their explanation. But what if the experience is possible for me?”
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H34. Write It. Don't Send It Yet.: a takeback
+
+*Whose words:* yours (published)
+
+> It doesn't mean you need to hide your upset, or apply for a permit to protest, but choose your battles and execute them wisely, so you don't end up regretting how you communicated later. As Lao Tsu might have said (if I could ever have read that whole boring Art of War book), a war with no casualties is the best possible war. When high IQ & EQ communication hits a writer's block, sometimes the best thing is to simply say, "I need some time to think about my response." ~~And if the conflict really requires a response right now, then obviously just do your best rather than wait for the perfect timing.~~
+
+**Why:** Takes back the "wait" the section just taught, for a case nobody raised; a reply that can't wait gets sent anyway.
+
+**What a reader loses:** The permission to answer at once when a reply truly can't wait, which readers would assume.
+
+**My check:** From your published guide; it tells the reader what to do when waiting isn't possible.
+
+**After:**
+
+> It doesn't mean you need to hide your upset, or apply for a permit to protest, but choose your battles and execute them wisely, so you don't end up regretting how you communicated later. As Lao Tsu might have said (if I could ever have read that whole boring Art of War book), a war with no casualties is the best possible war. When high IQ & EQ communication hits a writer's block, sometimes the best thing is to simply say, "I need some time to think about my response."
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H35. Speak Toward What You Are Building: a takeback
+
+*Whose words:* mine
+
+> Before giving anyone advice, your little one included, it can help to find out what kind of company they want: "Do you want me to mostly listen, help you untangle this, give you ideas, or some mix?" ~~Not that you have to make a ritual of asking every time.~~ If it's obvious what they want, go with that. If it isn't, that one sentence can keep you from advising somebody who's thinking, "I just need you to hear this." Or from just listening while they're asking for help thinking.
+
+**Why:** Takes back the question it just recommended; the next sentence already says "If it's obvious what they want, go with that."
+
+**What a reader loses:** Nothing.
+
+**My check:** The next sentence ("If it's obvious what they want, go with that.") already says it. This is one of 102.3's sections (21% AI), so its check comes after.
+
+**After:**
+
+> Before giving anyone advice, your little one included, it can help to find out what kind of company they want: "Do you want me to mostly listen, help you untangle this, give you ideas, or some mix?" If it's obvious what they want, go with that. If it isn't, that one sentence can keep you from advising somebody who's thinking, "I just need you to hear this." Or from just listening while they're asking for help thinking.
+
+- **A (my pick):** cut it.
+- **B:** keep it.
+
+### H36. How to Forgive Without Forgetting: said already
+
+*Whose words:* unknown
+
+> Forgiving yourself works the same way. Own what you did (only what was yours), and let yourself feel the remorse. Repair what you can, by apologizing or making amends. Changing the behavior counts too. Then you're allowed to stop holding yourself hostage~~, and the responsibility stays~~. If you're thinking "not me, not after what I did," forgiving other people tends to be harder too. Every so often, come back to how whoever did it got to be someone who could do that, until you understand it well enough that it changes how you feel.
+
+**Why:** Said just above ("Own what you did", "Repair what you can") and in the paragraph before ("They still have to answer for what they did, and it still hurt."); "works the same way" already carries it.
+
+**What a reader loses:** Nothing.
+
+**My check:** Without it, forgiving yourself could read as letting yourself off, the point your sixth question makes in Instead of Blame.
+
+**After:**
+
+> Forgiving yourself works the same way. Own what you did (only what was yours), and let yourself feel the remorse. Repair what you can, by apologizing or making amends. Changing the behavior counts too. Then you're allowed to stop holding yourself hostage. If you're thinking "not me, not after what I did," forgiving other people tends to be harder too. Every so often, come back to how whoever did it got to be someone who could do that, until you understand it well enough that it changes how you feel.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H37. Finding a Therapist to Borrow Adulthood: a takeback
+
+*Whose words:* yours
+
+> Regarding AI therapy, I've tried all the top AI therapy apps, and they're all pretty bad. I'm trying to make my own based on this guide, but I'm becoming more convinced that unsupervised AI therapy is just a toss up. ~~That doesn't mean you can't get a lot of great insights sometimes when talking to AI, though, but just expect it to go sideways sometimes.~~
+
+**Why:** Takes back part of "they're all pretty bad"; "unsupervised AI therapy is just a toss up" already says it goes both ways.
+
+**What a reader loses:** The note that AI chat can still give good insights, which "toss up" already implies.
+
+**My check:** Your Finding a Therapist paragraph (turn 74), and it's your own view of AI chat.
+
+**After:**
+
+> Regarding AI therapy, I've tried all the top AI therapy apps, and they're all pretty bad. I'm trying to make my own based on this guide, but I'm becoming more convinced that unsupervised AI therapy is just a toss up.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H38. How This Relates to Schema Therapy: said already
+
+*Whose words:* mine
+
+> Where it really differs is spirituality. Schema therapy doesn't build it in, though the preface to its main textbook calls blending it with meditation or religious practice an important development. That's not so surprising, since it grew out of cognitive therapy (Jeffrey Young), who developed it, did his postdoctoral work with Aaron Beck). Some people do blend them, though. Tara Bennett-Goleman's book *Emotional Alchemy*, for one, fits a Buddhist loving-kindness wish to each schema. Her book barely mentions gratitude, and for me that's the door to the bigger love back in Your Loan is PRE-APPROVED! ~~(no belief in God required)~~. IFS goes overboard the other way, in my opinion (more on that in the next section). Past that, a lot depends on who you're seeing.
+
+**Why:** Said under "You Are Worthy of Love. Always.": "whether you'd say it comes from God or the universe itself or whatever"; it also changes nothing in a therapy comparison.
+
+**What a reader loses:** Nothing.
+
+**My check:** Said already ("whether you'd say it comes from God or the universe itself or whatever"), and a comparison of therapies doesn't need it.
+
+**After:**
+
+> Where it really differs is spirituality. Schema therapy doesn't build it in, though the preface to its main textbook calls blending it with meditation or religious practice an important development. That's not so surprising, since it grew out of cognitive therapy (Jeffrey Young), who developed it, did his postdoctoral work with Aaron Beck). Some people do blend them, though. Tara Bennett-Goleman's book *Emotional Alchemy*, for one, fits a Buddhist loving-kindness wish to each schema. Her book barely mentions gratitude, and for me that's the door to the bigger love back in Your Loan is PRE-APPROVED!. IFS goes overboard the other way, in my opinion (more on that in the next section). Past that, a lot depends on who you're seeing.
+
+- **A (my pick):** cut it.
+- **B:** keep it.
+
+### H39. How This Relates to Schema Therapy: said already
+
+*Whose words:* mine
+
+> Where it really differs is spirituality. Schema therapy doesn't build it in, though the preface to its main textbook calls blending it with meditation or religious practice an important development. That's not so surprising, since it grew out of cognitive therapy (Jeffrey Young), who developed it, did his postdoctoral work with Aaron Beck). Some people do blend them, though. Tara Bennett-Goleman's book *Emotional Alchemy*, for one, fits a Buddhist loving-kindness wish to each schema. Her book barely mentions gratitude, and for me that's the door to the bigger love back in Your Loan is PRE-APPROVED! (no belief in God required). IFS goes overboard the other way, in my opinion (more on that in the next section). ~~Past that, a lot depends on who you're seeing.~~
+
+**Why:** A general "it depends" tacked onto a comparison it doesn't change; said under "Finding a Therapist to Borrow Adulthood": "Before choosing a therapist, get to know the strengths and pitfalls of their approach".
+
+**What a reader loses:** Nothing.
+
+**My check:** A general "it depends" on a comparison it doesn't change; choosing a therapist has its own section.
+
+**After:**
+
+> Where it really differs is spirituality. Schema therapy doesn't build it in, though the preface to its main textbook calls blending it with meditation or religious practice an important development. That's not so surprising, since it grew out of cognitive therapy (Jeffrey Young), who developed it, did his postdoctoral work with Aaron Beck). Some people do blend them, though. Tara Bennett-Goleman's book *Emotional Alchemy*, for one, fits a Buddhist loving-kindness wish to each schema. Her book barely mentions gratitude, and for me that's the door to the bigger love back in Your Loan is PRE-APPROVED! (no belief in God required). IFS goes overboard the other way, in my opinion (more on that in the next section).
+
+- **A (my pick):** cut it.
+- **B:** keep it.
+
+### H40. How This Relates to IFS: a disclaimer
+
+*Whose words:* probably mine, from your notes
+
+> So inner child therapy draws on those higher vantage points more concretely. The inner Guide is the closest thing here to a Higher Self, and it has to work with the Nurturer and Protector and come after them. It can't act like some transcendent authority that waves everything away. Most reparenting doesn't do enough with the Guide, which is the opposite extreme from IFS, so I'm trying to bring together the best of both. IFS isn't exactly one system~~, so I may be simplifying it here~~. It has its own branches and disputes, and that's one more problem I'm trying to remedy by laying all this out systematically in this guide.
+
+**Why:** A not-a-claim notice that protects the writer; "IFS isn't exactly one system" stays, and the next sentence already says it has branches and disputes.
+
+**What a reader loses:** An admission that his summary is rough; the fact about IFS stays.
+
+**My check:** A marker of whose summary it is, in a comparison of a whole school, which the brief keeps.
+
+**After:**
+
+> So inner child therapy draws on those higher vantage points more concretely. The inner Guide is the closest thing here to a Higher Self, and it has to work with the Nurturer and Protector and come after them. It can't act like some transcendent authority that waves everything away. Most reparenting doesn't do enough with the Guide, which is the opposite extreme from IFS, so I'm trying to bring together the best of both. IFS isn't exactly one system. It has its own branches and disputes, and that's one more problem I'm trying to remedy by laying all this out systematically in this guide.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+### H41. Related Clinical Work: a disclaimer
+
+*Whose words:* mine, for your line
+
+> This framework developed through the teachers and collaborators credited below and my own practice. Later revisions also compare notes with schema therapy, compassion-focused therapy, attachment repair, motivational interviewing, mentalizing, metacognitive therapy, behavioral activation, radically open DBT, emotion-focused therapy and spiritually integrated psychotherapy. I borrow particular ideas and practices from each of them, but the mix is mine~~, so please don't blame them for it~~.
+
+**Why:** A not-a-claim notice; "but the mix is mine" already marks the blend as his, and nobody was going to blame the schools.
+
+**What a reader loses:** A joke beat; the attribution stays.
+
+**My check:** Your 89 A, and it reads Human in its section; it's a light line more than a disclaimer.
+
+**After:**
+
+> This framework developed through the teachers and collaborators credited below and my own practice. Later revisions also compare notes with schema therapy, compassion-focused therapy, attachment repair, motivational interviewing, mentalizing, metacognitive therapy, behavioral activation, radically open DBT, emotion-focused therapy and spiritually integrated psychotherapy. I borrow particular ideas and practices from each of them, but the mix is mine.
+
+- **A:** cut it.
+- **B (my pick):** keep it.
+
+## Taken up elsewhere (102.1, 102.2 or the reader's edit)
 
 - **Not Every Hero Wears A Cape:** "Healing is nonlinear, and sometimes standing up for yourself might make you feel worse at first." (In 102.2 instead: d3 takes it out.)
 - **Not Every Hero Wears A Cape:** "Hey, we've all been there. 🤗" (In 102.2 instead: d3 takes the words out and keeps your emoji.)
+- **One Intention in the Morning, One Review at Night:** "If you made a mistake, you can see how to repair that." (The same line as E13 in the reader's edit: your One Intention.)
+- **When to Change the Strategy:** "and I don't think this one failed either" (In 102.1 instead, with the rest of 98.7.)
+- **Borrowed Adulthood in Relationship:** "You'll find the balance is dynamic between inner & outer reliance, and going too far in either extreme isn't generally the healthiest." (The same line as E26 in the reader's edit: your P2, word for word.)
