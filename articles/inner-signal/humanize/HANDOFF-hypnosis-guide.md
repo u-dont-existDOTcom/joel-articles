@@ -116,7 +116,7 @@ Nothing for the guide: no open questions (1 to 14 are answered).
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): question N7 (the Milindapañha), and his paste with the clipboard
 helper (sent in chat on 2026-10-24; N5, the meme, he decides as he pastes).
 
-Pull request PRNUM (https://github.com/u-dont-existDOTcom/joel-articles/pull/PRNUM), this turn's work for all three lanes,
+Pull request 236 (https://github.com/u-dont-existDOTcom/joel-articles/pull/236), this turn's work for all three lanes,
 on `claude/community-joel-1018`; his to merge. Pull request 232 was merged on 2026-10-24.
 
 ## Where it stands
@@ -188,7 +188,7 @@ community article's `candidate/joel-20261024/`): the eighth recheck's link ("alt
 recheck since now we are making lots of edits to it"), his N6 picks with a note on 5, his GPT edit of Nibbāna ("i had GPT
 apply all the nibbana cuts for you to save your credits, and it also fixed some other ai tells it saw, i checked the output
 and it's 100% human on pangram. so save the result", three attachments in Nibbāna's `fix-20261024/gpt/`), and the
-community article's 64. Done (in pull request PRNUM):
+community article's 64. Done (in pull request 236):
 - **Recheck 8 read** (`articles/nibbana/humanize/fix-20261023/recheck8/`: WINDOWS.txt a5e11c2c..., META.json, RESULT.json,
   SCORE.md): Human Written, 0 of 110 windows AI; forecast 55 of 55 (Brier 0.003); NB-whole#30 a miss (I called AI at 0.24,
   explained as pessimism).

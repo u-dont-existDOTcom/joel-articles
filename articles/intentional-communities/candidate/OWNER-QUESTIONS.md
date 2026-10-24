@@ -18,7 +18,7 @@ Fresh readers each read the whole new version and owned one part of it: for each
 
 ## For you to do
 
-- 🟠 Merge [pull request PRNUM](https://github.com/u-dont-existDOTcom/joel-articles/pull/PRNUM) when you've looked. It has this turn's work for all three articles; nothing in your posts changes until you paste.
+- 🟠 Merge [pull request 236](https://github.com/u-dont-existDOTcom/joel-articles/pull/236) when you've looked. It has this turn's work for all three articles; nothing in your posts changes until you paste.
 
 ## Decided
 

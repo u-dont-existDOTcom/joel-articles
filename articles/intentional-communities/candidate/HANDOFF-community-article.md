@@ -149,7 +149,7 @@ State at the end of the turn of Joel's message of 2026-10-16 23:38 UTC:
 
 ## Waiting on Joel
 1. Question 65 (repeats) on `OWNER-QUESTIONS.md`.
-2. Pull request PRNUM (https://github.com/u-dont-existDOTcom/joel-articles/pull/PRNUM), this turn's work for all three
+2. Pull request 236 (https://github.com/u-dont-existDOTcom/joel-articles/pull/236), this turn's work for all three
    lanes, on the hypnosis lane's branch `claude/community-joel-1018`; his to merge. (Pull request 232 was merged on
    2026-10-24.)
 
