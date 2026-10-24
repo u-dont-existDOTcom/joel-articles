@@ -3172,8 +3172,7 @@
    "must_contain_exact": [
     "Differentiation is slow, and it goes on your whole life. Sometimes you need to take a break from a family, group or relationship, even if they aren't doing anything to you. Simply being around them may pull you into that programmed space where listening to what you really want becomes harder. Some people come back later on different terms, and sometimes the break has to be long-term because the pattern of losing yourself with them is deeply entrenched. As you differentiate, you learn to tell which of those apply.",
     "## Between Spoiling and Clamping Down",
-    "## A Healthy Mind Is Not a Perfect Mind",
-    "## A Belonging Deeper Than Any Group"
+    "## A Healthy Mind Is Not a Perfect Mind"
    ],
    "must_not_contain": [
     "Bring the challenge back gradually, and only when you want to and you're recovering well. Some people try to toughen themselves up in a cauldron, but what you're looking for is the edge where you can actually learn.",
@@ -3204,6 +3203,28 @@
     "(I'm only borrowing the word, so what it teaches about death and rebirth is up to you)",
     "we saw this already with ai",
     "doesn't replace it"
+   ],
+   "history": [
+    "2026-10-23 (turn 104): \"## A Belonging Deeper Than Any Group\" out of must_contain_exact, since his 100.1 A heading replaced it (entry joel-104-20261023)."
+   ]
+  },
+  {
+   "id": "joel-104-20261023",
+   "status": "applied",
+   "what": "Joel's answers of 2026-10-23 23:21 UTC. 100.1 A with his own text: The Inner Guide's naming aside as its own paragraph after P1 (GPT's move), and the last h2 his: the heading \"You Belong Everywhere and Nowhere\", then P9 and P10 word for word. 100.2 A: P2's \"Treats and pampering do better at set times ...\". Installed by experiments/t104-installs/apply_t104.py.",
+   "joel": "2026-10-23 23:21 UTC (experiments/t104-answers/JOEL-20261023-2321.md): \"100.1a i fixed it, this passes: ... 100.2 a\"",
+   "where": "The Inner Guide (P1 and the aside, P2, the last h2)",
+   "must_contain_exact": [
+    "## You Belong Everywhere and Nowhere",
+    "The Guide also points beyond itself, toward somewhere you belong that doesn’t ask you to give up being yourself. That might be nature, or existence itself. It might be whatever your tradition sees as ultimate. Love can come from any of these places, and you also belong there, which is a little different. Maybe you’ve felt that outside somewhere, like you didn’t need anybody’s okay to be there. The way in is time in nature and contemplative practice, like meditation.",
+    "With that under you, belonging with people can get a lot less desperate. Not all at once, though. Your little one might still think, “If they stop liking me, I won’t belong anywhere,” and the Guide can remind it there’s more to belong to than them.",
+    "Treats and pampering do better at set times, where they can't get out of hand. They shouldn't get canceled as a punishment after a bad day, either (ST-CA, section 17.1.4).",
+    "By the way, this job doesn't have to be called the Guide. The Wise One works, or your Inner Teacher, and \"Guru\" does for some people."
+   ],
+   "must_not_contain": [
+    "## A Belonging Deeper Than Any Group",
+    "Comfort does better at set times",
+    "a group's approval isn't the deepest belonging there is"
    ]
   }
  ]

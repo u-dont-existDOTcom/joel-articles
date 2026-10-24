@@ -92,6 +92,15 @@ def unlinked_ai_asks(md):
             if b.startswith('### ') and AI_READING.search(b) and not CHECK_LINK.search(b)]
 
 
+def unpaneled_help_asks(md):
+    """The open questions' items that ask Joel's help with tells but link no tell panel record (E253 (Inner Child))."""
+    sys.path.insert(0, str(HERE.parents[2] / 'tools' / 'humanization'))
+    from pangram_links_check import unpaneled_help
+    md = re.sub(r'<!--.*?-->', '', md, flags=re.S)
+    m = re.search(r'^## Open questions\n(.*?)(?=^## |\Z)', md, flags=re.S | re.M)
+    return [u[:120] for u in unpaneled_help(m.group(1))] if m else []
+
+
 def render(md):
     import mistune  # only the page needs it; the E214 check runs without it
     md = re.sub(r'<!--.*?-->', '', md, flags=re.S)
@@ -139,6 +148,11 @@ def main(argv):
     if bad:
         print('refused (E214): these open questions say a stretch reads AI but link no check:\n  ' + '\n  '.join(bad),
               file=sys.stderr)
+        return 1
+    bad = unpaneled_help_asks(md)
+    if bad:
+        print('refused (E253): these open questions ask your help with tells but link no tell panel record '
+              '(tools/humanization/tell_panel.py):\n  ' + '\n  '.join(bad), file=sys.stderr)
         return 1
     out.write_text(render(md), encoding='utf-8')
     print('wrote', out)

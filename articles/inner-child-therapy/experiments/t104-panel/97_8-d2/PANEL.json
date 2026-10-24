@@ -1,0 +1,53 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Watch for the milder stuff too, like coming back from trip after trip confused or spaced out.",
+  "When it's bad, or it's putting you in danger, see a doctor or a therapist right away.",
+  "Don't wait if it keeps happening when you're sober, either.",
+  "And don't just stop a prescribed medicine because you think it's part of the problem.",
+  "Ask a doctor first.",
+  "Coming off some things too fast can be dangerous, alcohol too, once your body depends on it."
+ ],
+ "flagged": {
+  "1": [
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku"
+  ],
+  "4": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "human_clean": [
+  "the milder stuff too",
+  "trip after trip"
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "readers": [
+  "joel-chatgpt",
+  "joel-codex",
+  "joel-haiku"
+ ],
+ "sentences": [
+  "Milder reactions afterward count as caution signs too, like getting confused or spaced out (dissociating) again and again.",
+  "Get professional help right away if any of this is severe or risky, and especially if it keeps going or comes back while you're sober.",
+  "Don't suddenly quit a prescribed medicine, or anything your body is dependent on, just because it might be part of the problem; have a doctor help you stop safely."
+ ],
+ "flagged": {
+  "1": [
+   "joel-chatgpt",
+   "joel-codex",
+   "joel-haiku"
+  ],
+  "2": [
+   "joel-chatgpt",
+   "joel-codex",
+   "joel-haiku"
+  ],
+  "3": [
+   "joel-chatgpt",
+   "joel-codex",
+   "joel-haiku"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "human_clean": []
+}

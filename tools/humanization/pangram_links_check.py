@@ -15,6 +15,10 @@ Substack post) in the same paragraph or item. Prints each one that
 doesn't have one, and exits 1 if there are any. Passing results can point to the turn's results file, which lists
 each check's link.
 
+A help request (asking Joel to show me the tells I'm missing) needs a link to the tell panel's record, a PANEL.md made by
+tell_panel.py, in the same paragraph or item. Joel, 2026-10-23 23:21 UTC, after I asked his help on a paragraph whose tells
+three fresh readers found at once: "so why don't you fix your process before asking for help" (E253 (Inner Child)).
+
 With --chat (a message for the chat, not a page), every address must also be one Joel can click: written as
 [text](url). Joel, 2026-10-16 21:05 UTC: "(your links are not clickable btw)"; my final message had given each check as a
 bare address, which his app shows as text. Addresses inside `code` are a command's text and are left alone.
@@ -36,6 +40,16 @@ CHECK_CONTEXT = re.compile(r'\bPangram\b|\b\d{3}g\b|\d+%', re.I)
 # An API check (Joel's key, E218) has no Pangram page, so its link is its heading on the batch's API-CHECKS.md page in the
 # repository (E214; 2026-10-23: the hypnosis guide's b472 and Nibbāna's n1).
 LINKS = ('pangram.com/history/', 'pangram.com/feed/', '/API-CHECKS.md#')
+
+
+# A help request, and the tell panel record it has to link (E253 (Inner Child)).
+HELP = re.compile(r"tells? I'?m missing|help (?:me )?(?:show|find|see)[^.?!]{0,40}\btells?\b|can you help[^.?!]{0,80}\btells?\b", re.I)
+PANEL_LINK = re.compile(r'PANEL\.md|t\d+-panel/', re.I)
+
+
+def unpaneled_help(text):
+    """Paragraphs and list items that ask Joel's help with tells and link no tell panel record."""
+    return [u for u in units(text) if HELP.search(u) and not PANEL_LINK.search(u)]
 
 
 def units(text):
@@ -67,6 +81,9 @@ def main(argv):
         for u in missing(text):
             bad += 1
             print('%s: an AI result with no Pangram check link: %s' % (p, u[:200]))
+        for u in unpaneled_help(text):
+            bad += 1
+            print('%s: a help request with no tell panel record (tell_panel.py, E253): %s' % (p, u[:200]))
         if chat:
             for url in bare_urls(text):
                 bad += 1

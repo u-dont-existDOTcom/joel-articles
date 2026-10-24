@@ -1,0 +1,39 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Sometimes a session goes great, and a few days later you're skipping lunch and saying yes to everything again.",
+  "I wouldn't try going deeper next time.",
+  "I'd guess you just haven't brought any of it out with you yet.",
+  "Whatever you did for your little one in there, try a tiny bit of it out here, like texting a friend that you're having a rough day instead of saying you're fine."
+ ],
+ "flagged": {
+  "1": [],
+  "2": [
+   "codex",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku"
+  ],
+  "4": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3,
+  4
+ ],
+ "human_clean": [
+  "skipping lunch and saying yes to everything again",
+  "skipping lunch and saying yes to everything again",
+  "a few days later you're skipping lunch and saying yes to everything again"
+ ]
+}

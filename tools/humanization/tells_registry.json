@@ -2459,6 +2459,70 @@
     }
    ],
    "reason": "Whether an image is the writer's own or a neat, self-contained insight that closes the sentence needs a reader: an unusual word doesn't make it human. GPT read this one as AI-polished (a neatly constructed metaphor, generic therapeutic wisdom, a polished ending), and no pattern separates the two."
+  },
+  {
+   "id": "J62",
+   "tell": "conditions stacked onto one instruction until it reads like a checklist (\"Get professional help right away if any of this is severe or risky, and especially if it keeps going or comes back while you're sober\")",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "articles/inner-child-therapy/experiments/t104-answers/JOEL-20261023-2321.md",
+     "quote": "several conditions accumulate around one instruction, giving it the rhythm of a checklist."
+    },
+    {
+     "file": "articles/inner-child-therapy/experiments/t104-answers/JOEL-20261023-2321.md",
+     "quote": "Qualification stacking."
+    }
+   ],
+   "reason": "Whether a sentence carries the conditions a reader needs or piles them onto one instruction is a reading of the whole sentence: a count of \"if\" or \"or\" flags plain sentences too. The tell panel (tell_panel.py, E253 (Inner Child)) is its check."
+  },
+  {
+   "id": "J63",
+   "tell": "a plain phrase glossed with a clinical label in parentheses (\"spaced out (dissociating)\")",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "articles/inner-child-therapy/experiments/t104-answers/JOEL-20261023-2321.md",
+     "quote": "casual wording switches to a clinical label and back."
+    },
+    {
+     "file": "articles/inner-child-therapy/experiments/t104-answers/JOEL-20261023-2321.md",
+     "quote": "The parenthetical feels inserted to satisfy an educational requirement."
+    }
+   ],
+   "reason": "A gloss can be the plain word a reader needs (E176 puts the guide's therapy words into plain ones) or a label laid over plain speech; telling them apart needs a reader. All three of Joel's readers named this one, which I had called the paragraph's human tell."
+  },
+  {
+   "id": "J64",
+   "tell": "a specific category widened into a catch-all partway through a sentence (\"a prescribed medicine, or anything your body is dependent on\")",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "articles/inner-child-therapy/experiments/t104-answers/JOEL-20261023-2321.md",
+     "quote": "a specific category expands into a broad catch-all midway through the sentence."
+    },
+    {
+     "file": "articles/inner-child-therapy/experiments/t104-answers/JOEL-20261023-2321.md",
+     "quote": "The second clause feels mechanically appended to cover every possible scenario."
+    }
+   ],
+   "reason": "An \"or anything\" can be a real second case or a hedge to cover every case; which one it is depends on what the sentence needs, so a reader decides. A named example in its own sentence was the fix tried for it."
+  },
+  {
+   "id": "J65",
+   "tell": "the safety chain: a prohibition, its reason, then a professional's supervision, ending on a tidy imperative (\"Don't suddenly quit ... just because it might be part of the problem; have a doctor help you stop safely\")",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "articles/inner-child-therapy/experiments/t104-answers/JOEL-20261023-2321.md",
+     "quote": "Another classic AI safety pattern: prohibition → justification → professional-supervision instruction."
+    },
+    {
+     "file": "articles/inner-child-therapy/experiments/t104-answers/JOEL-20261023-2321.md",
+     "quote": "\"have a doctor help you stop safely\" is a neat, reassuring imperative that wraps up with a generic recommendation."
+    }
+   ],
+   "reason": "The guide's own safety points have this content; whether the wording runs as a stock chain or as one person telling another is a reading, and O45 already flags the referral words for a reader to judge."
   }
  ]
 }
