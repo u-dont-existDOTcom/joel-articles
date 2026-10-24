@@ -2,16 +2,22 @@
 // block (2026-10-24, Joel's answer 65.21: "after the "preferences and social change" i want to add this image:
 // /home/joel/Documents/community article/kibbutz harms.png"). The block is then read back from the editor, because only
 // Substack's own HTML may stand for a native object (docs/SUBSTACK-HELPER-DELIVERY-GATE.md).
-// Set window.__img = {b64: <the file's bytes in base64, or window.__imgParts.join('')>, sha256: <the file's SHA-256>,
-// name: <file name>, type: 'image/png', title: <the draft's exact title>} and run this in the draft's editor tab. It checks
-// the bytes, the title and an empty body, pastes the file and never clicks anything.
+// Set window.__img = {url: <the file's raw.githubusercontent.com address at a commit> (or b64: its bytes in base64),
+// sha256: <the file's SHA-256>, name: <file name>, type: 'image/png', title: <the draft's exact title>} and run this in the
+// draft's editor tab. It checks the bytes, the title and an empty body, pastes the file and never clicks anything.
 (async () => {
   const LANE_TITLES = ['TEMP recheck (community article) - do not publish'];
   const want = window.__img || {};
-  if (!want.b64 || !want.sha256 || !want.name || !want.type || !want.title) return 'set window.__img = {b64, sha256, name, type, title} first';
-  const bin = atob(want.b64);
-  const bytes = new Uint8Array(bin.length);
-  for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  if (!(want.url || want.b64) || !want.sha256 || !want.name || !want.type || !want.title)
+    return 'set window.__img = {url or b64, sha256, name, type, title} first';
+  let bytes;
+  if (want.url) {
+    bytes = new Uint8Array(await fetch(want.url, {cache: 'no-store'}).then(r => r.ok ? r.arrayBuffer() : Promise.reject('HTTP ' + r.status)));
+  } else {
+    const bin = atob(want.b64);
+    bytes = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  }
   const got = Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256', bytes))).map(b => b.toString(16).padStart(2, '0')).join('');
   if (got !== want.sha256) return 'refused: the file\'s SHA-256 is ' + got + ', not ' + want.sha256;
   const title = (document.querySelector('textarea[placeholder="Title"], input[placeholder="Title"]') || {}).value || '';

@@ -560,6 +560,8 @@ One of the biggest reasons I think community matters for kids is Jean Liedloff�
 
 Experiments where kids sleep and live apart from their parents deserve special caution. [Research on Israeli kibbutzim](https://pubmed.ncbi.nlm.nih.gov/12395568/) found that the practice of kids sleeping communally eventually ended due to developmental findings, parents’ preferences and social change.
 
+![A summary card, “What happens to adults raised with different caregiving practices?”: in a 1994 study of 48 infants on Israeli kibbutzim, 48% were securely attached with communal sleeping and 80% with sleeping at home, a 32-point difference in favor of family sleeping; the families weren’t randomly assigned, and the sample was small.](https://substackcdn.com/image/fetch/$s_!drBw!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fed986b48-c19a-4fdf-905d-9ca7e2699a39_616x225.png)
+
 Tamera’s Children’s Place has semi-repeated some of this old Kibbutz philosophy, taking children away from biological parents, because their founders’ ideology said that children are traumatized by the nuclear family and its unstable romantic underpinnings. On the other hand, their actual practice did allow parents (including fathers) to sometimes stay with their children in Children’s Place, so they weren’t as dogmatic as I originally thought.
 
 ---

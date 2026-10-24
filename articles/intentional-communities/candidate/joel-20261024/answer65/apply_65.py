@@ -134,7 +134,10 @@ def main():
         island, was, attrs = island_with_alt(ISLAND.read_text(encoding='utf-8'))
         assert 'captioned-image-container' in island and attrs['src'].startswith('https://substack-post-media.s3.amazonaws.com/')
         doc = doc[:ends[0][1]] + island + doc[ends[0][1]:]
-        image.update(done='in', src=attrs['src'], alt=ALT, was=was, island='KIBBUTZ-ISLAND.html')
+        image.update(done='in', src=attrs['src'], alt=ALT, was=was, island='KIBBUTZ-ISLAND.html',
+                     island_sha256=__import__('hashlib').sha256(ISLAND.read_bytes()).hexdigest(),
+                     uploaded='into the temporary community draft (221977934) by a paste of the file, '
+                              '../../tools/paste_image_lane.js, which checked its SHA-256; read back from the editor')
     else:
         image['done'] = 'pending: KIBBUTZ-ISLAND.html is not here yet'
         print('the image is pending: no KIBBUTZ-ISLAND.html')
