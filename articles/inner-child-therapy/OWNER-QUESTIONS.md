@@ -1,33 +1,35 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-25 (turns 82 to 110). **Open questions: 107.** For you to do: merge pull request #246. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-25 (turns 82 to 111). **Open questions: 108.** For you to do: merge the turn-111 pull request. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
-The published page, a view of this file rebuilt after every change ([questions_page.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/tools/questions_page.py)), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA [owner-questions-page.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/owner-questions-page.md), [cross-account-continuity.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/cross-account-continuity.md)). Only the account that published the page can republish it, so after a turn by your other account (turns 100 to 110), this file is newer than the page until the next republish.
+The published page, a view of this file rebuilt after every change ([questions_page.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/tools/questions_page.py)), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA [owner-questions-page.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/owner-questions-page.md), [cross-account-continuity.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/cross-account-continuity.md)). Only the account that published the page can republish it, so after a turn by your other account (turns 100 to 111), this file is newer than the page until the next republish.
 
 ## Open questions
 
-### 🟣 107. The review sheet: only the changes GPT's review and mine both recommend (turn 110)
+### 🟣 108. One cut that turned its paragraph AI, and Just Like Me's second paragraph (turn 111)
 
-Everything to decide is on [the review sheet](https://claude.ai/artifact/LTEDB18wTYzuUkgobzbUrn), now the whole guide with each change in place: Approve, Reject or Revise on each, and a box for each question. When you're done, press "Save / send", then "Copy my answers", and paste them into the chat from either account. The sheet's file is [REVIEW.html](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t110-review/REVIEW.html) (download it and open it in a browser if the link doesn't open from your other account). Nothing in the article changes until you approve.
+Everything else from your answers on the review sheet is in, and 12 of the 14 paragraphs it changed read Human alone ([the checks](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t111-api/API-CHECKS.md)).
 
-- **Two sections in a new order.** Hear the Guard First keeps your question, what the part might say and your reply "Tell me what you remember, I'm listening." together, in your own order from before turn 109. Before You Tell the Hardest Stuff puts your two danger lines back after the dream line they limit. Both read Human in Pangram as they'd read ([the checks](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t110-api/API-CHECKS.md)).
-- **Ten cuts and three small wording changes**, among them your line about your son (your answer of 2026-10-02) and GPT's wording for "I'd keep whatever you feel around them".
-- **Three questions:** what "most often", "A lot of people find" and "Some people find" are based on. A few words each, no story needed.
-
-GPT's review and mine, card by card: [AGREED.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t110-review/AGREED.md). Everything else on the turn-109 sheet, both of us would leave as it is.
+- **108.1, Borrow Love's third paragraph.** After the cut you approved of "The quest for self-knowledge is a life's journey, but you don't have to wait for your life to finish to figure out your best next move.", the paragraph read [100% AI alone](https://www.pangram.com/history/c18bb0c3-9232-470f-ab12-cf0850dbb3df). With the line it read [Human](https://www.pangram.com/history/087edb87-384b-4f29-85ea-97e4d6ca6a7c). GPT had said the line makes a point of its own: you can act before you fully know yourself.
+  - **A (my pick):** put the line back. It carries the paragraph and its point.
+  - **B:** keep the cut, and I find another fix after the next whole-article check shows how the paragraph reads in its section.
+  - **C:** your own version of the line.
+- **108.2, Just Like Me's second paragraph** is now your sentence alone, with the tonglen link it had. So "normal breathing is fine" and "Whoever hurt you might come to mind, too." went out along with the forgiving line. Where that line came from: [TRACES.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t111-answers/TRACES.md).
+  - **A (my pick):** keep it as you wrote it.
+  - **B:** you meant to replace only the first sentence, so the other two come back.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #246 (turns 109 and 110)
+### 🟠 Merge the pull request for turn 111
 
-Turns 109 and 110: https://github.com/u-dont-existDOTcom/joel-articles/pull/246. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged". (You merged #241, turn 108.)
+Turn 111: the lane's [open pull request](https://github.com/u-dont-existDOTcom/joel-articles/pulls?q=is%3Apr+is%3Aopen+head%3Ahandoff%2Fclaude-dangerous-adult-20260924-1631). Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged". (You merged #246, turns 109 and 110.)
 
-### 🔵 The two temporary Substack drafts: keep them for the next whole-article check (turn 110)
+### 🔵 The two temporary Substack drafts: keep them for the next whole-article check (turn 111)
 
 Round 5's two drafts were no longer in your drafts list, so round 6 is in two new ones with the same titles, "Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)". Round 6 is read, and the next whole-article check will reuse them once your decisions on the review sheet are in, so they stay until its results are in. Then a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
 
@@ -35,6 +37,17 @@ Round 5's two drafts were no longer in your drafts list, so round 6 is in two ne
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 107, 2026-10-25 20:08 UTC
+
+Your answers from the review sheet ([ANSWERS-20261025-2008.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t111-answers/ANSWERS-20261025-2008.json)), and your question of 20:14 UTC about the reshape ([JOEL-20261025-2014.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t111-answers/JOEL-20261025-2014.md)). You merged pull request #246.
+
+- **Hear the Guard First (S1):** in, in the agreed order.
+- **Before You Tell the Hardest Stuff (S3):** in your version, "So I'd ask this person".
+- **The cuts:** nine in. The tenth, the blessing line, stays with your sentence after it ("If it's more distributed ..."), and your cut of "Say they're the one who always remembers your appointments." is in.
+- **The wording changes:** your son line and the "keep what you feel around them in mind" wording are in. Just Like Me's second paragraph is your sentence, and your cut of "Some of them make it worse ... 😅" is in. How both of those lines got in: [TRACES.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t111-answers/TRACES.md).
+- **The questions:** "Once a truce is made, we can begin to let down our defenses." is in, for "What people most often say helped". "A lot of people find" stays, since its basis is people you know. "Some people find" stays, since it's what people in Re-evaluation Counseling say especially, and common therapy advice.
+- **Your question, "you gave up on reshaping everything ... was that because gpt disagreed?":** no. GPT agreed with the shape ("The improvement is real") and objected only where the reshape had pulled a line away from what it belongs to. Those two fixes are what you approved. The next five sections come to you as proposals first, since GPT hadn't seen them ([AGREED.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t110-review/AGREED.md)).
 
 ### 🟢 106, 2026-10-25 17:26 UTC
 
