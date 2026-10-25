@@ -116,7 +116,7 @@ Nothing for the guide: no open questions (1 to 14 are answered).
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
 
-Pull request PRNUM (https://github.com/u-dont-existDOTcom/joel-articles/pull/PRNUM), this turn's work for both lanes, on
+Pull request 237 (https://github.com/u-dont-existDOTcom/joel-articles/pull/237), this turn's work for both lanes, on
 `claude/community-joel-1018`; his to merge. Pull request 236 was merged on 2026-10-24.
 
 ## Where it stands
@@ -184,7 +184,7 @@ From `fix-20261018/` unless a command says `humanize/`:
 ## Next step (2026-10-24, after Joel's message of 23:40 UTC: N7 in; Nibbāna's helper is with him)
 
 His message, word for word: `fix-20261024/joel-20261024-2340-message.txt` (also in Nibbāna's `fix-20261024/` and the
-community article's `candidate/joel-20261024/`): "n7a", and the community article's 65. Done (in pull request PRNUM):
+community article's `candidate/joel-20261024/`): "n7a", and the community article's 65. Done (in pull request 237):
 - **N7 A as batch n9** (`articles/nibbana/humanize/fix-20261024/n9/answers_2340.py`, called by `n1/install_n1.py` after n8;
   record `EDITS-n9.json`): "The later Buddhist text *Milindapañha* ...", the one word changed, the link and italics kept.
 - **The helper rebuilt** (`fix-20261024/helper/make_helper.py`, which now checks the n8 paragraphs as later answers left

@@ -13,7 +13,7 @@ None right now.
 ## For you to do
 
 - 🟠 **Run Pangram on [the community recheck draft](https://ibogaqueen.substack.com/p/80ab6300-2b34-4a4f-92f1-9f32a4b6fb91?postPreview=paid&updated=community-r1&audience=only_paid&free_preview=false&freemail=) in Brave and send me the link.** It's the whole new version in a temporary draft (your post is untouched): the essay and the How-To Manual with 57 to 65 in and your kibbutz image. Its text in the page is exactly the text I forecast from. I give it a 7% chance of no red at all: 38 paragraphs your cuts changed and Emulate's two passages are each a new place for red, and this is the first time the article is checked as one text in its new order ([the forecast](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/recheck/FORECAST.json)).
-- 🟠 Merge [pull request PRNUM](https://github.com/u-dont-existDOTcom/joel-articles/pull/PRNUM) when you've looked. It has this turn's work for both lanes; nothing in your posts changes until you paste.
+- 🟠 Merge [pull request 237](https://github.com/u-dont-existDOTcom/joel-articles/pull/237) when you've looked. It has this turn's work for both lanes; nothing in your posts changes until you paste.
 
 ## Decided
 

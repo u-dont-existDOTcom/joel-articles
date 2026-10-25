@@ -186,7 +186,7 @@ State at the end of the turn of Joel's message of 2026-10-16 23:38 UTC:
 1. His Pangram result for the community recheck draft (secret link:
    https://ibogaqueen.substack.com/p/80ab6300-2b34-4a4f-92f1-9f32a4b6fb91?postPreview=paid&updated=community-r1&audience=only_paid&free_preview=false&freemail=),
    opened in his Brave, where the Pangram extension is. No open questions.
-2. Pull request PRNUM (https://github.com/u-dont-existDOTcom/joel-articles/pull/PRNUM), this turn's work for both lanes, on
+2. Pull request 237 (https://github.com/u-dont-existDOTcom/joel-articles/pull/237), this turn's work for both lanes, on
    the hypnosis lane's branch `claude/community-joel-1018`; his to merge. (Pull request 236 was merged on 2026-10-24.)
 
 ## Next step
