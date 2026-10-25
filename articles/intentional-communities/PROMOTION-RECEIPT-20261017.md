@@ -41,4 +41,4 @@ new hash. Open at promotion: the article's image 7 address, and his upload of th
 
 ## Changes since
 
-(none yet)
+- 2026-10-25 (after his message of 00:27 UTC): `master.md` is now `candidate/joel-20261024/answer65/WORKING.html` as Markdown (`candidate/joel-20261025/promote_20261025.py`; 116595 UTF-8 bytes, SHA-256 4fadd3fe645b4c33f20e0b094d4bf15d081d8a9661c011099f69d8f32709b50b; it was ef98c1cd90f2284a3487a9346dfec7698438e4223e82d68a95b3b81434945438). That file is his editor HTML of 2026-10-20, his final paste, with his own edits in the post since this receipt, and his answers 57 to 63 (2026-10-23 22:29 UTC), 64 (2026-10-24 19:52 UTC), and 65 and his kibbutz image (23:40 UTC), each recorded beside its script. The whole article read Human Written in one Pangram check, 0 of 72 windows AI (https://www.pangram.com/feed/954042b6-e624-4c7f-87d7-db15c547d5c8). The working copy is that HTML now; `candidate/HUMANIZED-SO-FAR.md` is history.

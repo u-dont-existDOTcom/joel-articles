@@ -160,7 +160,9 @@ def main():
     (HERE / 'RECORD-64.json').write_text(json.dumps(rec, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     try:
         from markdownify import markdownify
-        md = re.sub(r'\n{3,}', '\n\n', markdownify(doc, heading_style='ATX', bullets='-', strip=['span'])).strip()
+        # markdownify drops a space alone inside bold or italics ("ideology<strong> </strong>which" came out
+        # "ideologywhich", 2026-10-25), so such a tag becomes its plain space first
+        md = re.sub(r'\n{3,}', '\n\n', markdownify(re.sub(r'<(strong|em|b|i|u|s|a)\b[^>]*>(\s+)</\1>', r'\2', doc), heading_style='ATX', bullets='-', strip=['span'])).strip()
         (HERE / 'READING-COPY.md').write_text(
             '> A reading copy of the new version (WORKING.html beside this file, which is what gets pasted into Substack), '
             'made by apply_64.py: your answers of 2026-10-23 22:29 UTC and your 64 (2026-10-24 19:52 UTC) are in '

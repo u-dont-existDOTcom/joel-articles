@@ -116,8 +116,8 @@ Nothing for the guide: no open questions (1 to 14 are answered).
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
 
-Pull request 237 (https://github.com/u-dont-existDOTcom/joel-articles/pull/237), this turn's work for both lanes, on
-`claude/community-joel-1018`; his to merge. Pull request 236 was merged on 2026-10-24.
+Pull requests 236 and 237 were merged on 2026-10-24 and 25; this lane has nothing waiting to merge. The community lane's
+newest pull request is in its own handoff.
 
 ## Where it stands
 
