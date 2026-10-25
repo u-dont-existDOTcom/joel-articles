@@ -1,0 +1,29 @@
+{
+ "made": "after Joel's message of 2026-10-24 23:40 UTC, in this turn; the time is not read mid-turn",
+ "draft": "https://ibogaqueen.substack.com/publish/post/221977934",
+ "title": "TEMP recheck (community article) - do not publish",
+ "how": "a new post from Substack's own new-post page in the app's built-in browser, its title typed in the title field with real keystrokes; first his kibbutz image pasted into the empty body as a file (../../tools/paste_image_lane.js, which checked the file's SHA-256 against his file's), so Substack uploaded it and wrote its own image block, read back as ../answer65/KIBBUTZ-ISLAND.html; then the body cleared with real keystrokes (a click in the empty paragraph under the image, ctrl+a, Delete) and the payload pasted with the lane's paste helper (../../tools/paste_payload_lane.js); Publish and Continue were never clicked; his post was not opened",
+ "image_upload": {
+  "file": "../answer65/kibbutz-harms.png",
+  "sha256": "3972208c228f363e886d86744aae2a1aff499eec47f686ede3a2266b64ec0481",
+  "src": "https://substack-post-media.s3.amazonaws.com/public/images/ed986b48-c19a-4fdf-905d-9ca7e2699a39_616x225.png",
+  "keep": "the uploaded file is what his post will show: keep this draft until his post has the image"
+ },
+ "secret_link": "https://ibogaqueen.substack.com/p/80ab6300-2b34-4a4f-92f1-9f32a4b6fb91?postPreview=paid&updated=community-r1&audience=only_paid&free_preview=false&freemail=",
+ "payload": "PAYLOAD.html",
+ "payload_sha256": "4aa421618e28508f6f0ce22268ad9d75c0694d3372e489c992ee505648375b31",
+ "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/48f22182ffbef0ac084d0537946d034f49e49d87/articles/intentional-communities/candidate/joel-20261024/recheck/PAYLOAD.html",
+ "paste": {
+  "editor_words": 15582,
+  "words_expected": 15532,
+  "words_match": false,
+  "why_not": "the payload's word count is from its HTML, where the three Substack video-post embeds are only links; the editor rebuilds them with their titles; the rendered check below is the one that decides"
+ },
+ "saved": "the draft's own API gave it back saved at 2026-10-24T23:55:14.829Z, unpublished, with this title",
+ "rendered_check": "the secret link opened in the app's browser (the page's post title is the draft's) and read with tools/humanization/substack_rendered_check.js: 272 lines that hash to DRAFT-TEXT.txt (e2ad3e21...) exactly, on the first paste (no gallery caption to delete); the kibbutz image is on the page with its alt text",
+ "text": "DRAFT-TEXT.txt",
+ "text_sha256": "e2ad3e21738d3a471c3a291f89880108e25c059440fceb97d49933a28c7cc49e",
+ "text_chars": 89953,
+ "predictions": "the community ledger's IC-whole#1 (AI at 0.07) and the part forecast FORECAST.json, both written before the paste",
+ "link_note": "the \"updated\" value in the secret link is only a cache key, not a time"
+}

@@ -51,8 +51,8 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
   sentence rather than reword it; name the person and the moment.
 - **Branch** `claude/community-joel-1018`. Pull request 191 (the community article's merge and this lane up to the first
   4.1 check) was merged on 2026-10-20 at 23:29 UTC; pull requests 206 and 209 (the 4.1 work to 2026-10-21 22:43 UTC)
-  were merged; pull request 219 (to 2026-10-22 22:05 UTC) was merged at 22:16 UTC, and 222 after it; pull requests 224, 228
-  and 232 were merged (228 by Joel at 2026-10-23 18:09 UTC, 232 on 2026-10-24); the work since is in the pull request the newest "Next step" names. Main moves often (the Inner
+  were merged; pull request 219 (to 2026-10-22 22:05 UTC) was merged at 22:16 UTC, and 222 after it; pull requests 224, 228,
+  232 and 236 were merged (228 by Joel at 2026-10-23 18:09 UTC, 232 and 236 on 2026-10-24); the work since is in the pull request the newest "Next step" names. Main moves often (the Inner
   Child lane merges too): `lane_push.py` says after each push whether the pull request can merge. Everything for this lane is in `articles/inner-signal/humanize/` (paths below are relative to it).
 - **The text.** `source/substack-editor-20260928.html` is his Substack editor HTML of 2026-09-28 (the newest paste the
   repository has; it is newer than `../master.html`, r03 of 2026-09-11). `source/published-20260928.md` is the same as
@@ -113,11 +113,11 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 Nothing for the guide: no open questions (1 to 14 are answered).
 
-Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): question N7 (the Milindapañha), and his paste with the clipboard
-helper (sent in chat on 2026-10-24; N5, the meme, he decides as he pastes).
+Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
+23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
 
-Pull request 236 (https://github.com/u-dont-existDOTcom/joel-articles/pull/236), this turn's work for all three lanes,
-on `claude/community-joel-1018`; his to merge. Pull request 232 was merged on 2026-10-24.
+Pull request 237 (https://github.com/u-dont-existDOTcom/joel-articles/pull/237), this turn's work for both lanes, on
+`claude/community-joel-1018`; his to merge. Pull request 236 was merged on 2026-10-24.
 
 ## Where it stands
 
@@ -181,7 +181,22 @@ From `fix-20261018/` unless a command says `humanize/`:
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
-## Next step (2026-10-24, after Joel's message of 19:52 UTC: Nibbāna's helper is with him; N7 on him)
+## Next step (2026-10-24, after Joel's message of 23:40 UTC: N7 in; Nibbāna's helper is with him)
+
+His message, word for word: `fix-20261024/joel-20261024-2340-message.txt` (also in Nibbāna's `fix-20261024/` and the
+community article's `candidate/joel-20261024/`): "n7a", and the community article's 65. Done (in pull request 237):
+- **N7 A as batch n9** (`articles/nibbana/humanize/fix-20261024/n9/answers_2340.py`, called by `n1/install_n1.py` after n8;
+  record `EDITS-n9.json`): "The later Buddhist text *Milindapañha* ...", the one word changed, the link and italics kept.
+- **The helper rebuilt** (`fix-20261024/helper/make_helper.py`, which now checks the n8 paragraphs as later answers left
+  them): `exports/COPY-TO-SUBSTACK.html` 5444c935..., verify and the interaction test pass; sent in chat as
+  `Nibbana-COPY-TO-SUBSTACK-20261024b.html`, replacing the 19:52 turn's file. If he pasted the earlier one, he changes the
+  one word in his post.
+- Delegations: none.
+
+Next: as in the step below (when he says he has pasted, read his post against the working copy; then the guide's clarity
+check, all four parts, with the InnerSignal protocol loaded in the main thread first).
+
+## Earlier next step (2026-10-24, after Joel's message of 19:52 UTC: Nibbāna's helper is with him; N7 on him)
 
 His message, word for word: `fix-20261024/joel-20261024-1952-message.txt` (also in Nibbāna's `fix-20261024/` and the
 community article's `candidate/joel-20261024/`): the eighth recheck's link ("altho i don't think it was worth doing that

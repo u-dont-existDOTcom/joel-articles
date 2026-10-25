@@ -1,8 +1,7 @@
 # Nibbāna article: what I need from Joel
 
-Last updated 2026-10-24, after your message of 19:52 UTC. **Open question: N7** (one word in the rebirth paragraph,
-just below). **One thing for you to do**: put the new version in your post with the clipboard helper, and decide N5 as
-you go (below N7).
+Last updated 2026-10-24, after your message of 23:40 UTC. **Open questions: none.** **One thing for you to do**: put
+the new version in your post with the clipboard helper, and decide N5 as you go (below).
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/OWNER-QUESTIONS.md),
@@ -11,20 +10,15 @@ working copy, and you put them in your post when you want them.
 
 ## Open question
 
-- 🟣 **N7. "The later Buddhist philosopher Milindapañha"**: the Milindapañha is a book, King Milinda's questions to the
-  monk Nāgasena, and the lamp simile is Nāgasena's; your link goes to the book. GPT fixed "being used to lighting" in the
-  same sentence, but not this.
-  - **A (my pick):** "The later Buddhist text *Milindapañha* compared rebirth to one lamp being used to light another."
-    One word changes, and your link and italics stay on *Milindapañha*.
-  - **B:** "In the later *Milindapañha*, the monk Nāgasena compared rebirth to one lamp being used to light another."
-  - **C:** keep it as it is.
-  - **Answer** "N7 A", "N7 B" or "N7 C". The helper has it as it is, so if you paste first, change the word in your post.
+None right now.
 
 ## For you to do
 
 - 🟠 **Put the new version in your post with the clipboard helper**
-  ([COPY-TO-SUBSTACK.html](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/exports/COPY-TO-SUBSTACK.html), also sent in chat). It's your post's editor HTML of
-  2026-10-22 with every change since then, your GPT edit last. If you've changed the post on Substack since 2026-10-22,
+  ([COPY-TO-SUBSTACK.html](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/exports/COPY-TO-SUBSTACK.html), sent in chat as Nibbana-COPY-TO-SUBSTACK-20261024b.html;
+  it replaces the one I sent after your 19:52 message). It's your post's editor HTML of 2026-10-22 with every change since then,
+  your GPT edit and your N7 last. If you pasted the earlier file already, change "philosopher" to "text" in the rebirth
+  paragraph and you're done. If you've changed the post on Substack since 2026-10-22,
   tell me first, because pasting would undo those changes.
   1. Open the helper in Opera and your post in Substack's editor. The helper splits the article at your three uploaded
      videos, which a paste can't carry, so the videos stay where they are in your post.
@@ -48,6 +42,24 @@ working copy, and you put them in your post when you want them.
 - 🟢 Done: [the eighth recheck](https://www.pangram.com/feed/355a29d0-0ea5-4070-a7d2-731806c645f0) (your result of 19:52
   UTC): Human Written, 0 of 110 windows red. My part forecast called all 55 of its parts right
   ([scored](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261023/recheck8/SCORE.md)).
+
+## Your message of 2026-10-24 23:40 UTC, and what I did
+
+Your message, word for word as I have it: [joel-20261024-2340-message.txt](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261024/joel-20261024-2340-message.txt).
+
+- 🟢 **N7 A is in** ([the record](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/fix-20261024/n9/EDITS-n9.json)): "The later Buddhist text *Milindapañha*
+  compared rebirth to one lamp being used to light another." Your link and italics stay on *Milindapañha*; nothing else
+  changed. The helper is rebuilt with it and passed the same checks.
+
+<details><summary>N7 as it was asked</summary>
+
+- **N7. "The later Buddhist philosopher Milindapañha"**: the Milindapañha is a book, King Milinda's questions to the
+  monk Nāgasena, and the lamp simile is Nāgasena's; your link goes to the book.
+  - **A (my pick):** "The later Buddhist text *Milindapañha* compared rebirth to one lamp being used to light another."
+  - **B:** "In the later *Milindapañha*, the monk Nāgasena compared rebirth to one lamp being used to light another."
+  - **C:** keep it as it is.
+
+</details>
 
 ## Your message of 2026-10-24 19:52 UTC, and what I did
 
