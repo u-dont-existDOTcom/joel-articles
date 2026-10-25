@@ -1,0 +1,73 @@
+{
+ "feed_uuid": "954042b6-e624-4c7f-87d7-db15c547d5c8",
+ "link": "https://www.pangram.com/feed/954042b6-e624-4c7f-87d7-db15c547d5c8",
+ "created_at": "2026-10-24T20:25:53.706131-04:00",
+ "domain": "substack",
+ "content_type": "long_post",
+ "prediction_short": "Human",
+ "headline": "Human Written",
+ "version": "4.1",
+ "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+ "readout_policy_id": null,
+ "fraction_ai": 1.6335400587763615e-08,
+ "fraction_human": 1,
+ "fraction_breakdown": {
+  "ai": {
+   "low-confidence": 1.6335400587763615e-08,
+   "high-confidence": 0,
+   "medium-confidence": 0
+  },
+  "human": {
+   "low-confidence": 0,
+   "high-confidence": 1,
+   "medium-confidence": 0
+  },
+  "ai-assisted": {
+   "lightly": 1.507391667432626e-21,
+   "moderately": 0
+  }
+ },
+ "document_confidence": {
+  "level": "High",
+  "boundary": null
+ },
+ "verdict_support": {
+  "ai": 0,
+  "human": 1,
+  "mixed": 0,
+  "source": "sentence_dp",
+  "ai_coverage": {
+   "p10": 0,
+   "p50": 0,
+   "p90": 0,
+   "std": 4.271490979590453e-06,
+   "mean": 1.823643991372137e-08,
+   "show_range": false
+  },
+  "ai_threshold": 0.800000011920929,
+  "human_coverage": {
+   "p10": 0.9995219707489014,
+   "p50": 0.9995219707489014,
+   "p90": 0.9995219707489014,
+   "std": 4.271490979590453e-06,
+   "mean": 0.9995219707489014
+  },
+  "human_threshold": 0.8999999761581421,
+  "coverage_resolution": 0.0010005225194618106
+ },
+ "ai_distribution": null,
+ "num_ai_segments": 0,
+ "num_human_segments": 67,
+ "word_count": 15536,
+ "task_id": "5b61aeae-b42b-4c7d-b174-5d6f51b80d9d",
+ "text_sha256": "e2ad3e21738d3a471c3a291f89880108e25c059440fceb97d49933a28c7cc49e",
+ "text_chars_js": 89974,
+ "compact_sha256": "9283c61a6a4a1d65a9fc497ccf6db3bbbcdfceadb33bd84efddd29106feea311",
+ "compact_chars": 4594,
+ "windows_word_sum": 15189,
+ "windows_ai": 0,
+ "windows_human": 72,
+ "labels": [
+  "Human"
+ ]
+}

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "article_id": "intentional-communities",
   "status": "passed",
-  "note": "Editorial status of the humanized article. Joel accepted all of it on 2026-10-17 21:37 UTC (\"45a\"), so master.md, the article without its version notes, is the registered master (PROMOTION-RECEIPT-20261017.md). The gate in docs/HUMANIZATION-GATE.md ran on every section; its records are in candidate/. Sections 13 and 14 were accepted first, on 2026-10-17 02:07 UTC.",
+  "note": "Editorial status of the humanized article. Joel accepted all of it on 2026-10-17 21:37 UTC (\"45a\"), so master.md, the article without its version notes, is the registered master (PROMOTION-RECEIPT-20261017.md). The gate in docs/HUMANIZATION-GATE.md ran on every section; its records are in candidate/. Sections 13 and 14 were accepted first, on 2026-10-17 02:07 UTC. 2026-10-25: his answers 57 to 65 made a new version, the essay then a How-To Manual; master.md is that version (PROMOTION-RECEIPT-20261017.md, \"Changes since\").",
   "checks": [],
   "accepted": [
     {
@@ -125,6 +125,13 @@
       "when": "2026-10-17 21:37 UTC",
       "words": "45a (\"Accept it all (sections 1 to 16 and the appendix) once 46 to 51 are settled\")",
       "record": "joel-20261017/joel-20261017-2137-message.txt"
+    },
+    {
+      "section": "the new version (57 to 65)",
+      "by": "Joel",
+      "when": "2026-10-23 22:29 UTC to 2026-10-24 23:40 UTC",
+      "words": "57 a, 58 a, 59 a, 60 a, 61 b, 62 (the essay, then a How-To Manual), 63 a; 64 (22 cuts, 9 kept); 65 (20 cuts, 11 kept) and \"after the \"preferences and social change\" i want to add this image\"",
+      "record": "joel-20261023/joel-20261023-2229-message.txt, joel-20261024/joel-20261024-1952-message.txt, joel-20261024/joel-20261024-2340-message.txt"
     }
   ]
 }

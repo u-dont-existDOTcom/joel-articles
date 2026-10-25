@@ -1,6 +1,6 @@
 # Handoff: Community article humanization
 
-The intentional-communities Substack article, humanized section by section so every paragraph and every section reads Human in Pangram's web app with the meaning kept. Updated 2026-10-24, after Joel's message of 23:40 UTC (his answers to 65, with his kibbutz image; no open questions). His published post (pasted 2026-10-20) is unchanged. The newest version is `candidate/joel-20261024/answer65/WORKING.html`, and its first whole-article recheck is in a temporary draft, waiting on his Pangram link.
+The intentional-communities Substack article, humanized section by section so every paragraph and every section reads Human in Pangram's web app with the meaning kept. Updated 2026-10-25, after Joel's message of 00:27 UTC (the new version's first whole-article check: Human Written, 0 of 72 windows AI). His published post (pasted 2026-10-20) is unchanged until he pastes the new copy helper. The newest version is `candidate/joel-20261024/answer65/WORKING.html`, and `master.md` is that version.
 
 **Resume line (paste into any Claude account; the repository is public):**
 > Continue my community article work: read https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/HANDOFF-community-article.md and carry on from its next step.
@@ -10,6 +10,29 @@ If that branch is gone (merged), the same file is on main: https://github.com/u-
 From an account with Desktop Commander connected to the laptop, the laptop copy works too: "Continue my community article work: on my laptop, read ~/claude-acceptance-transfer/handoffs/community-article.md and carry on from its next step." If Joel adds "My answer to your last message: ..." or "Here is my response to last turn there: ...", it answers the open items in "Waiting on Joel" below.
 
 ## START HERE
+
+**His message of 2026-10-25 00:27 UTC** (`joel-20261025/joel-20261025-0027-message.txt`): the result link of the
+community recheck draft, https://www.pangram.com/feed/954042b6-e624-4c7f-87d7-db15c547d5c8. Done this turn (branch
+`claude/community-joel-1018`; the pull request is in "Waiting on Joel"):
+- **The result read** (`joel-20261025/recheck-r1/`: WINDOWS.txt 9283c61a..., META.json, RESULT.json from the recheck's
+  DRAFT-TEXT.txt e2ad3e21..., whose SHA-256 the page gives): Human Written, AI fraction 0.0000016%, document confidence
+  High, 0 of 72 windows AI (37 High, 32 Medium, 3 Low). The part forecast scored 130 of 130, Brier 0.001 (SCORE.md); the
+  ledger's IC-whole#1 (AI at 0.07) is a miss, explained as pessimism.
+- **The copy helper for his post** (`joel-20261025/helper/make_helper.py`, the canonical generator against the recheck's
+  helper): `exports/COPY-TO-SUBSTACK.html` 47574911..., one part, no video steps, verify and the interaction test pass;
+  its text equals the text Pangram read and its payload the one pasted into the draft; receipt
+  `exports/HELPER-RECEIPT-20261025.json`. Sent in chat as `Community-COPY-TO-SUBSTACK-20261025.html`; his steps are on the
+  questions page (clear the body with ctrl+a and Delete, then paste).
+- **The master promoted** (`joel-20261025/promote_20261025.py`): `master.md` is the new version as Markdown (it was the
+  2026-10-18 text), with a line in `PROMOTION-RECEIPT-20261017.md`, the owner locks' source note, the editorial status,
+  the detector evidence (this check), `CURRENT-STATE.md` ("Now (2026-10-25)") and the registry. `ARCHITECTURE.md` is
+  redrawn for the essay and How-To Manual. markdownify had joined "ideology" and "which" where the HTML has
+  `<strong> </strong>` between them; the master and the 64 and 65 reading copies now turn such a tag into its space first.
+- **Next:** when he says he has pasted, read his post (its published page, with `tools/humanization/substack_rendered_check.js`)
+  against the recheck's DRAFT-TEXT.txt, check the kibbutz image is there, then delete the temporary draft 221977934
+  (his rule of 2026-10-21: delete the drafts when done). Then image 7 (see "Coming up" on the questions page).
+
+**Earlier (kept for the record):**
 
 **His message of 2026-10-24 23:40 UTC** (`joel-20261024/joel-20261024-2340-message.txt`, word for word; it also answered
 the Nibbāna lane's N7): "65 1a 2 b 3 b ... 21 a but after the "preferences and social change" i want to add this image:
@@ -183,14 +206,12 @@ State at the end of the turn of Joel's message of 2026-10-16 23:38 UTC:
 - Every turn, give Joel the article so far: since 2026-10-23, the new version's reading copy (`joel-20261023/restructure/READING-COPY.md`, as its GitHub link); before that, `candidate/community-article-so-far.html` and the side-by-side page of any section that changed, as files (the latest scripts: section 13 `s13/make_page_v37b.py`, section 14 `s14/make_page_v8.py`, section 15 `s15/make_page_v17.py`, section 16 `s16/make_page_v30.py`, section 8 `fix-20261017d/make_pages_s8.py`). Check each with `python3 tools/humanization/html_links.py PAGE.html` before sending.
 
 ## Waiting on Joel
-1. His Pangram result for the community recheck draft (secret link:
-   https://ibogaqueen.substack.com/p/80ab6300-2b34-4a4f-92f1-9f32a4b6fb91?postPreview=paid&updated=community-r1&audience=only_paid&free_preview=false&freemail=),
-   opened in his Brave, where the Pangram extension is. No open questions.
-2. Pull request 237 (https://github.com/u-dont-existDOTcom/joel-articles/pull/237), this turn's work for both lanes, on
-   the hypnosis lane's branch `claude/community-joel-1018`; his to merge. (Pull request 236 was merged on 2026-10-24.)
+1. His paste of the new version with the clipboard helper (sent 2026-10-25). No open questions.
+2. Pull request 238 (https://github.com/u-dont-existDOTcom/joel-articles/pull/238), this turn's work, on the hypnosis
+   lane's branch `claude/community-joel-1018`; his to merge. (Pull request 237 was merged on 2026-10-25.)
 
 ## Next step
-1. When his Pangram link comes: read it, score the forecast, and act on any red (see START HERE, "Next").
+1. When he has pasted: read his post against the checked text, then delete the temporary draft (see START HERE, "Next").
 2. Before every push: `python3 scripts/register_article_artifacts.py --article intentional-communities --write`, then the
    repository's checks (`python -m unittest discover -s tests`, `python scripts/validate_content_repository.py --root .`).
 

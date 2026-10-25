@@ -37,14 +37,16 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
+| community article | 1 | 0 (0%) | 0% | 100% | 0% | 0.865 (base 0.000, 1) |
 | hypnosis guide | 20 | 16 (80%) | 80% | 20% | 10% | 0.155 (base 0.160, 20) |
 | nibbana article | 8 | 7 (88%) | 88% | 12% | 0% | 0.086 (base 0.109, 8) |
-| **all lanes** | 28 | 23 (82%) | 82% | 18% | 7% | 0.135 (base 0.147, 28) |
+| **all lanes** | 29 | 23 (79%) | 79% | 21% | 7% | 0.160 (base 0.164, 29) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
+| community article | 1 | 0 (0%) | 0% | 100% | 0% | 0.865 (base 0.000, 1) |
 | hypnosis guide | 20 | 16 (80%) | 80% | 20% | 10% | 0.155 (base 0.160, 20) |
 | nibbana article | 8 | 7 (88%) | 88% | 12% | 0% | 0.086 (base 0.109, 8) |
 
@@ -52,7 +54,7 @@ The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| article | 16 | 13 (81%) | 88% | 12% | 6% | 0.120 (base 0.109, 16) |
+| article | 17 | 13 (76%) | 82% | 18% | 6% | 0.163 (base 0.145, 17) |
 | stretch | 12 | 10 (83%) | 75% | 25% | 8% | 0.155 (base 0.188, 12) |
 
 ## pangram 4.1, web app
@@ -172,6 +174,7 @@ The boundary mix over all lanes:
 | an added move read AI | 3 | inner child guide |
 | the section read differently from the paragraph alone | 3 | inner child guide |
 | too pessimistic about a rewrite | 3 | inner child guide |
+| pessimism | 2 | community article, nibbana article |
 | parallel list kept | 2 | hypnosis guide |
 | context: red in the whole guide, Human in the pair | 2 | hypnosis guide |
 | six versions, same reading: the method is spent | 2 | hypnosis guide |
@@ -199,7 +202,6 @@ The boundary mix over all lanes:
 | underrated a plain split | 1 | nibbana article |
 | a neutral signpost reads AI where his casual frame read Human | 1 | nibbana article |
 | a misread page: the caution never read Human | 1 | nibbana article |
-| pessimism | 1 | nibbana article |
 
 A cause that repeats becomes a check that runs before Pangram (a linter rule, a gate step or a predictor feature); a miss nobody can explain goes to Joel with the passage.
 
