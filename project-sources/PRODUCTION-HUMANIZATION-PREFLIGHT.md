@@ -71,6 +71,8 @@ Ask:
 
 ### Actual POV required — owner-relevance flag
 
+**First run the omission test.** Read the immediately preceding and following accepted prose with the suspect line removed. If no independent claim, qualification, author position, reader action, or important emotional function disappears—and the line merely restates or moralizes what a concrete passage already established—label it `OVERCLOSURE / CUT CANDIDATE` instead of `ACTUAL POV REQUIRED`. Recommend the **exact deletion with its placement**, subject to Joel's owner authority. Do not invent a new point of view or ask Joel to supply one to replace a line that should simply end. If deletion would lose an important independent function, preserve that function and only then consider the `ACTUAL POV REQUIRED` options below. A direct owner-approved cut supersedes every prior replacement option.
+
 If a paragraph sounds like interchangeable model advice (a safety/permission ladder, generic first-person preference, polished reassurance, or tidy summary) **because its authorial reason for saying it is missing**, label the **specific span** `ACTUAL POV REQUIRED` in the **editorial review**, not the published prose. This is a source/voice gap, not proof of AI authorship. The existing T01 (fake personal stake) and T22 (coach register) catalog checks are relevant; do not add another phrase blacklist. Legitimate neutral exposition, conditional advice, and warranted caution do not need invented personal opinion.
 
 Along with the flag, report briefly:
