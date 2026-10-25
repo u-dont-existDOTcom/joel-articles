@@ -1,0 +1,155 @@
+[
+  {
+    "block": 128,
+    "where": "What Community Looks Like From Sénégal, P7",
+    "kind": "lost",
+    "new": "",
+    "his": "Basic conversation is one thing. Knowing why twelve people are suddenly crying with laughter is graduate school.",
+    "why": "The joke about why twelve people are suddenly crying with laughter being graduate school is gone.",
+    "severity": "small"
+  },
+  {
+    "block": 132,
+    "where": "All is not well in paradise, P2",
+    "kind": "lost",
+    "new": "",
+    "his": "Anyway, I'm not going to praise communal belonging and ignore the people who have to hide who they are to survive it, or leave.",
+    "why": "Joel's closing line that he won't praise communal belonging while ignoring people who have to hide who they are, or leave, is dropped.",
+    "severity": "matters"
+  },
+  {
+    "block": 133,
+    "where": "All is not well in paradise, P3",
+    "kind": "lost",
+    "new": "",
+    "his": "A society can be spiritually alive, generous, funny, and intensely communal while still becoming cruel toward people who violate its accepted categories.",
+    "why": "The claim that a warm, communal society can still be cruel to people who break its categories is dropped.",
+    "severity": "matters"
+  },
+  {
+    "block": 134,
+    "where": "All is not well in paradise, P4",
+    "kind": "added",
+    "new": "🙉",
+    "his": "",
+    "why": "An emoji that none of Joel's text has is added at the end.",
+    "severity": "small"
+  },
+  {
+    "block": 137,
+    "where": "All is not well in paradise, P7",
+    "kind": "added",
+    "new": "(some of the men even make the dangerous journey by sea to Europe)",
+    "his": "Men take dangerous sea routes toward Europe.",
+    "why": "A plain statement that men take dangerous sea routes becomes a parenthetical about 'some of the men', which is weaker.",
+    "severity": "small"
+  },
+  {
+    "block": 139,
+    "where": "Lessons from the Black Tax, P1",
+    "kind": "added",
+    "new": "if you’ve got any money at all, you’re expected to share it",
+    "his": "when one person begins earning money, they’re expected to support",
+    "why": "The trigger changes from someone starting to earn money to having any money at all, which is a broader claim.",
+    "severity": "small"
+  },
+  {
+    "block": 140,
+    "where": "Lessons from the Black Tax, P2",
+    "kind": "lost",
+    "new": "",
+    "his": "The ancestral ethic is still alive inside an individualistic cash economy, where it can keep people alive while quietly consuming both sides.",
+    "why": "The closing point that the old ethic still keeps people alive while quietly consuming both sides is dropped.",
+    "severity": "small"
+  },
+  {
+    "block": 142,
+    "where": "A Hope For Humanity, P1",
+    "kind": "lost",
+    "new": "",
+    "his": "founded a research organization, and carried me through communal experiments",
+    "why": "Two facts about his father are dropped: he founded a research organization and carried Joel through communal experiments.",
+    "severity": "small"
+  },
+  {
+    "block": 143,
+    "where": "A Hope For Humanity, P2",
+    "kind": "lost",
+    "new": "",
+    "his": "If you build something real, maybe we’ll hear about each other. If you teach other people to build, hearing about it matters less.",
+    "why": "The second source paragraph is dropped: the hope of hearing from people who build, and that hearing matters less if they teach others to build.",
+    "severity": "matters"
+  },
+  {
+    "block": 144,
+    "where": "A Hope For Humanity, P3",
+    "kind": "lost",
+    "new": "",
+    "his": "Every warning in this article applies to me too.",
+    "why": "Joel's line that every warning in the article applies to him too is dropped.",
+    "severity": "small"
+  },
+  {
+    "block": 148,
+    "where": "The Four Parts That Have to Pl/ork Together, P2",
+    "kind": "lost",
+    "new": "since I have guides separately on the other parts",
+    "his": "I’ve published detailed guides for the first three—free, with no funnel and no retreat to buy.",
+    "why": "The published line says the guides are free with no funnel and no retreat to buy; NEW only says he has guides separately.",
+    "severity": "small"
+  },
+  {
+    "block": 159,
+    "where": "3. Medicine pl/ork, P1",
+    "kind": "added",
+    "new": "Just because it’s optional participating in the ceremonies doesn’t mean they don’t have to work with the other parts.",
+    "his": "",
+    "why": "A new claim that the ceremonies are optional but people still have to work with the other parts has no source in Joel's text.",
+    "severity": "matters"
+  },
+  {
+    "block": 159,
+    "where": "3. Medicine pl/ork, P1",
+    "kind": "error",
+    "new": "Just because it’s optional participating in the ceremonies",
+    "his": "",
+    "why": "The clause is garbled: it needs 'to participate' or a comma after 'optional', and 'they' has no clear antecedent.",
+    "severity": "small"
+  },
+  {
+    "block": 165,
+    "where": "The Medicine Part - Yes, I’m Naming It, P2",
+    "kind": "lost",
+    "new": "",
+    "his": "If this article is going to be honest, it has to talk about both the value and the risk.",
+    "why": "The line that an honest article has to cover both the value and the risk is dropped.",
+    "severity": "small"
+  },
+  {
+    "block": 175,
+    "where": "Community Is What Makes Psychedelics Pl/ork Best!, P3",
+    "kind": "added",
+    "new": "To me it seems way too much of a gamble if I have a better alternative.",
+    "his": "",
+    "why": "A new first-person judgment that paid support is too much of a gamble is added, and it is stronger than Joel's 'sometimes they're great'.",
+    "severity": "matters"
+  },
+  {
+    "block": 175,
+    "where": "Community Is What Makes Psychedelics Pl/ork Best!, P3",
+    "kind": "lost",
+    "new": "",
+    "his": "Sometimes they're great, but sometimes the person with the feather has only known you for 4 hours and already has a cosmology to explain everything you say.",
+    "why": "The concession that paid helpers are sometimes great, and the feather joke, are dropped, so the paragraph turns one-sided.",
+    "severity": "matters"
+  },
+  {
+    "block": 182,
+    "where": "The Case Against Psychedelics, P1",
+    "kind": "lost",
+    "new": "",
+    "his": "There’s a serious case against having medicine as part of a community.",
+    "why": "The opening line that the case against having medicine in a community is serious is dropped.",
+    "severity": "small"
+  }
+]

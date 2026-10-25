@@ -1,0 +1,22 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "a46ad81f207d207a6e35d56a46f0d4bf0828e39e3582b079ec31ff9cd62ce21d",
+  "context_sha256": "994a9880871c82d86edf2099c33294c892296e0370430eabb92ae655e68ce4bc",
+  "source_sha256": "0545330fe24e23707ded2a3f442edf9eef04a689bfd8d761879dbe3d1f4a6e42",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+    "context_id": "emulate-gate-cold_read_2-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Draft judged: 'Ethical Double Bind Questions give you two choices that are both genuinely safe.' Read the whole CONTEXT: it follows 'Manipulative Double Bind Questions are set up so that whatever you answer, you end up doing what the speaker wants.' and leads into the example question, so the definition arrives exactly where the section needs it. Against his line ('An ethical one offers two genuinely safe routes'): same meaning ('choices that are both genuinely safe' for 'two genuinely safe routes'); no claim added. T12: the manipulative/ethical pair is a matched A/B, so I call it PRESENT, but justified: the section is titled 'Ethical double binds', the manipulative sentence is already in the text, his own line makes the same pair, and the ethical half cannot be defined without its foil. Other rows checked (T02, T03, T10, T17, T22, T29): ABSENT. Linter: D9 accepted (one sentence). E36/E41 accepted: questions addressed to the listener are the pattern's subject (the example itself is 'Would you prefer...'), and the whole guide addresses 'you'. Packaging note, not a fault in the words: CONTEXT reads '...genuinely safe. They might be:' while SOURCE says the replaced sentence was 'Ethical Double Bind Questions might be:'. 'They might be:' is not in DRAFT.txt, so the hashed candidate does not cover the words that turned that sentence into 'They might be:'. 'They' resolves to the questions (the example that follows is a question), though 'two choices' is the nearer plural. The writer should put 'They might be:' inside the candidate or confirm it is retained text.",
+  "resolved_tell_ids": [
+    "T12"
+  ],
+  "resolved_lint_labels": [
+    "D9 follows the source order",
+    "E36/E41 heavy second person"
+  ]
+}

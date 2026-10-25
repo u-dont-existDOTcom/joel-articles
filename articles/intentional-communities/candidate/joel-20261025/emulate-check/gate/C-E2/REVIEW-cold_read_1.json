@@ -1,0 +1,19 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "08761baf980693d5daa5497c80b05cb901c9c34972c8fd85755176fe9991a83e",
+  "context_sha256": "5565e68e03fa09e9ed5d32163937b021d3f204ed73bafbbaa3c5768a4c4257bc",
+  "source_sha256": "61b1b91f85979ea3e0824d90bb7a725f5890a3de608c1d4bce4025f7c2392a0c",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "emulate-gate-cold_read_1-subagent-r2c",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session), round 2"
+  },
+  "evidence": "Judged: 'It’s already a real piece of community, and it can still make a difference when people are going through a divorce, an illness or grief.' Read cold in its section ('Practicing Community Can Start Now') after 'A group that practices together weekly for two years may never own land. So what?': it answers the 'So what?' with his point and runs into 'Parenting too, and plain old loneliness.' without a snag. Against SOURCE: the replaced sentence ('It can still make a difference when ...') had dropped his claim; the draft puts it back as 'already a real piece of community', keeping his 'already' and 'real piece of community', and carries the rest of the replaced sentence unchanged, so it adds no new fact. One shift: his 'already contains a real piece of community' is now 'is already a real piece of community'; I read it as the same claim (the group already has real community, land or not) and it is what the_change declares. Referents (C02): 'It' is the group named two sentences back ('land' cannot be a piece of community), the second 'it' is the same group, and the replaced sentence had the same antecedent. No tell row is PRESENT. Considered and dismissed: T17 (a claim about one specific kind of group, not a detached aphorism), T18/T24 ('So what?' sits outside the draft, was already answered before the change, and the answer gives a reason instead of just flipping), T21 (claim plus consequence, not a packed list), T26/T27 (no repeated distinctive word, no tic words), C03 (no first person). The paragraph around it has a joke (conflict PLUS goats), a retort and an afterthought, so T13 and T09 are absent. Typography matches the context (curly apostrophe, no double space, ends with a period). Linter 'D9 follows the source order': accepted. It is a 1/1 paragraph count for a one-clause insertion (agreement trivially 1.00), the paragraph's point order is in fact the reverse of his line (land, then community), and the check it asks for (does each part notice something) is answered by the goats joke, 'So what?' and 'Parenting too'.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order"
+  ]
+}

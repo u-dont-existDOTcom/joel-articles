@@ -1,0 +1,614 @@
+[
+ {
+  "block": 450,
+  "where": "Try it in the Inner Signal app, P1",
+  "kind": "added",
+  "new": "Have fun.",
+  "his": "",
+  "why": "An aside that Joel's paragraph does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 450,
+  "where": "Try it in the Inner Signal app, P1",
+  "kind": "added",
+  "new": "Self hypnosis is a great tool",
+  "his": "Self-hypnosis doesn’t require an app",
+  "why": "Adds the praise 'a great tool', which Joel's line does not make.",
+  "severity": "small"
+ },
+ {
+  "block": 450,
+  "where": "Try it in the Inner Signal app, P1",
+  "kind": "lost",
+  "new": "for voice hypnosis, information, to learn the language,",
+  "his": "get voice hypnosis sessions, learn the method, develop your own language,",
+  "why": "'Learn the method' and 'develop your own language' became 'information' and 'to learn the language'.",
+  "severity": "small"
+ },
+ {
+  "block": 450,
+  "where": "Try it in the Inner Signal app, P1",
+  "kind": "error",
+  "new": "Self hypnosis",
+  "his": "Self-hypnosis",
+  "why": "The hyphen in 'Self-hypnosis' is missing.",
+  "severity": "small"
+ },
+ {
+  "block": 451,
+  "where": "Try it in the Inner Signal app, P2",
+  "kind": "added",
+  "new": "Always enter this app via this page",
+  "his": "Enter through this page",
+  "why": "'Always' turns the advice into an absolute rule; Joel's line has no 'always'.",
+  "severity": "small"
+ },
+ {
+  "block": 452,
+  "where": "Try it in the Inner Signal app, P3",
+  "kind": "added",
+  "new": "It will probably tell you that it can’t see or hear the file if you’ve made this mistake.",
+  "his": "it should say when it cannot open an image or hear audio.",
+  "why": "'Should say' (what the app is meant to do) became 'will probably tell you', and 'if you've made this mistake' is new.",
+  "severity": "small"
+ },
+ {
+  "block": 452,
+  "where": "Try it in the Inner Signal app, P3",
+  "kind": "lost",
+  "new": "you get to decide for yourself whether the app has interpreted it correctly",
+  "his": "You can correct the interpretation",
+  "why": "Joel says you can correct the app's interpretation; NEW only says you decide whether it got it right.",
+  "severity": "small"
+ },
+ {
+  "block": 456,
+  "where": "Survey and consultation, P2",
+  "kind": "added",
+  "new": "please contact me here to discuss arranging a consultation",
+  "his": "you can contact me directly for a consultation",
+  "why": "'Directly' became 'here', and the contact is now only to discuss arranging a consultation.",
+  "severity": "small"
+ },
+ {
+  "block": 458,
+  "where": "Appendices, P1",
+  "kind": "lost",
+  "new": "You can skip this section and just use the main path.",
+  "his": "The main path is enough for daily practice.",
+  "why": "'Enough for daily practice' is gone; NEW only says you can skip this section.",
+  "severity": "small"
+ },
+ {
+  "block": 460,
+  "where": "Appendix A: How to ask the subconscious a useful question, P1",
+  "kind": "lost",
+  "new": "However, there is a bit of overlap in the way you can ask questions to both.",
+  "his": "prompt engineering offers one useful lesson: the shape of a question changes what kind of answer can appear.",
+  "why": "The one lesson (the shape of a question changes what answer can appear) is replaced by a vague 'bit of overlap'.",
+  "severity": "small"
+ },
+ {
+  "block": 460,
+  "where": "Appendix A: How to ask the subconscious a useful question, P1",
+  "kind": "lost",
+  "new": "be more present, honest, loving etc.",
+  "his": "more present, honest, loving, and able to hear the next signal",
+  "why": "'Able to hear the next signal' is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 460,
+  "where": "Appendix A: How to ask the subconscious a useful question, P1",
+  "kind": "added",
+  "new": "if you know how to do prompt engineering for AI",
+  "his": "",
+  "why": "A new condition: the advice now depends on already knowing prompt engineering.",
+  "severity": "small"
+ },
+ {
+  "block": 460,
+  "where": "Appendix A: How to ask the subconscious a useful question, P1",
+  "kind": "error",
+  "new": "this can be very useful to use it to help you",
+  "his": "",
+  "why": "Broken grammar: 'useful to use it to help you'.",
+  "severity": "small"
+ },
+ {
+  "block": 460,
+  "where": "Appendix A: How to ask the subconscious a useful question, P1",
+  "kind": "error",
+  "new": "a large language model of AI",
+  "his": "an AI model",
+  "why": "Garbled phrase: 'large language model of AI'.",
+  "severity": "small"
+ },
+ {
+  "block": 461,
+  "where": "Appendix A: How to ask the subconscious a useful question, P2",
+  "kind": "added",
+  "new": "you need to include the following in your prompt",
+  "his": "",
+  "why": "No source line; says all of the listed items are needed for the most precision.",
+  "severity": "small"
+ },
+ {
+  "block": 465,
+  "where": "Appendix A: How to ask the subconscious a useful question, P6",
+  "kind": "added",
+  "new": "Constraint: What do you need to do to make sure your asking is safe, true, kind etc.",
+  "his": "",
+  "why": "A prompt element with no matching line in Joel's text.",
+  "severity": "small"
+ },
+ {
+  "block": 469,
+  "where": "Appendix A: How to ask the subconscious a useful question, P10",
+  "kind": "error",
+  "new": "“safe” otherwise,",
+  "his": "a safe fallback",
+  "why": "Quote marks around 'safe', and no comma or full stop before 'otherwise'.",
+  "severity": "small"
+ },
+ {
+  "block": 469,
+  "where": "Appendix A: How to ask the subconscious a useful question, P10",
+  "kind": "error",
+  "new": "“make up”",
+  "his": "manufacture",
+  "why": "Quote marks around 'make up'.",
+  "severity": "small"
+ },
+ {
+  "block": 469,
+  "where": "Appendix A: How to ask the subconscious a useful question, P10",
+  "kind": "lost",
+  "new": "you always need to make your prompt “safe”",
+  "his": "Always include a safe fallback so the analytical mind doesn’t treat silence as failure",
+  "why": "The safe fallback and its reason (silence treated as failure) are gone; NEW only says to make the prompt 'safe'.",
+  "severity": "small"
+ },
+ {
+  "block": 469,
+  "where": "Appendix A: How to ask the subconscious a useful question, P10",
+  "kind": "added",
+  "new": "I usually add the following to my prompt:",
+  "his": "",
+  "why": "A first-person claim about Joel's own habit that his line does not make.",
+  "severity": "small"
+ },
+ {
+  "block": 470,
+  "where": "Appendix A: How to ask the subconscious a useful question, P11",
+  "kind": "lost",
+  "new": "A peaceful silence would be a successful answer to my question.",
+  "his": "A peaceful silence is a fully successful answer.",
+  "why": "'Fully successful' is weakened to 'a successful answer'.",
+  "severity": "small"
+ },
+ {
+  "block": 470,
+  "where": "Appendix A: How to ask the subconscious a useful question, P11",
+  "kind": "added",
+  "new": "then I ask you to make my body go into a deeper state of comfortable rest",
+  "his": "let my body settle into deeper comfortable rest instead",
+  "why": "'Let my body settle' became 'make my body go', which is more forceful.",
+  "severity": "small"
+ },
+ {
+  "block": 470,
+  "where": "Appendix A: How to ask the subconscious a useful question, P11",
+  "kind": "added",
+  "new": "the best and safest answer is silence",
+  "his": "silence is the safest answer today",
+  "why": "Adds 'best' and drops 'today'.",
+  "severity": "small"
+ },
+ {
+  "block": 473,
+  "where": "Core prompts, P1",
+  "kind": "lost",
+  "new": "for instance as a symbol, a signal in my body, a next step I can take",
+  "his": "pass it to my conscious mind only as a gentle symbol, a body signal, or a single next step",
+  "why": "'Only' and 'gentle' are gone, so a limit on how the hard material may arrive became a list of examples.",
+  "severity": "matters"
+ },
+ {
+  "block": 473,
+  "where": "Core prompts, P1",
+  "kind": "lost",
+  "new": "too intense for me to integrate,",
+  "his": "too intense for my body to integrate today,",
+  "why": "'My body' and 'today' are dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 474,
+  "where": "Core prompts, P2",
+  "kind": "added",
+  "new": "How can you trust me 1% more?",
+  "his": "what would help you trust me 1% more?",
+  "why": "Joel asks what would help the part trust you; NEW asks how the part can trust you, which puts the work on the part.",
+  "severity": "matters"
+ },
+ {
+  "block": 475,
+  "where": "Core prompts, P3",
+  "kind": "lost",
+  "new": "What do you want me to know?",
+  "his": "Little one, what do you need me to understand,",
+  "why": "The address 'Little one' is gone, and 'need me to understand' became 'want me to know'.",
+  "severity": "small"
+ },
+ {
+  "block": 477,
+  "where": "Core prompts, P5",
+  "kind": "added",
+  "new": "is the most in alignment with truth, love, life and all beings",
+  "his": "serves truth, love, life, and the benefit of all beings",
+  "why": "'Serves ... the benefit of' became a superlative, 'the most in alignment with', and 'benefit' is gone.",
+  "severity": "small"
+ },
+ {
+  "block": 478,
+  "where": "Core prompts, P6",
+  "kind": "error",
+  "new": "my body to give me feedback as to whether my deciphering is correct and reality to give me feedback as to whether my deciphering is correct",
+  "his": "let the body give feedback, and let reality test the interpretation",
+  "why": "The same clause is repeated for the body and for reality.",
+  "severity": "small"
+ },
+ {
+  "block": 479,
+  "where": "Core prompts, P7",
+  "kind": "lost",
+  "new": "If it’s coming from my programming,",
+  "his": "If part of this signal belongs to family programming",
+  "why": "Joel allows that only part of the signal may be conditioning; NEW makes it all or nothing.",
+  "severity": "small"
+ },
+ {
+  "block": 479,
+  "where": "Core prompts, P7",
+  "kind": "lost",
+  "new": "",
+  "his": "let that part become visible as conditioning",
+  "why": "The request that the part become visible as conditioning is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 479,
+  "where": "Core prompts, P7",
+  "kind": "added",
+  "new": "my religion,",
+  "his": "religious fear,",
+  "why": "'Religious fear' became 'my religion', which names religion itself as programming.",
+  "severity": "small"
+ },
+ {
+  "block": 479,
+  "where": "Core prompts, P7",
+  "kind": "added",
+  "new": "in the most simple ways possible",
+  "his": "a better ordinary life",
+  "why": "'A better ordinary life' became 'in the most simple ways possible'.",
+  "severity": "small"
+ },
+ {
+  "block": 481,
+  "where": "Core prompts, P9",
+  "kind": "lost",
+  "new": "The prompt will tell your subconscious what you want.",
+  "his": "The prompt defines the search.",
+  "why": "'Defines the search' became telling your subconscious what you want, which sounds like instructing it.",
+  "severity": "small"
+ },
+ {
+  "block": 481,
+  "where": "Core prompts, P9",
+  "kind": "lost",
+  "new": "can help you get it in a safer way",
+  "his": "affects how gently the question enters",
+  "why": "How gently the question enters became getting what you want more safely.",
+  "severity": "small"
+ },
+ {
+  "block": 484,
+  "where": "Appendix B: NLP without turning yourself into a sales seminar, P2",
+  "kind": "added",
+  "new": "Using the techniques can be an easy way to fall into the trap of thinking that NLP is a bag of tricks",
+  "his": "it becomes a bag of tricks when technique replaces love, truth, contact, or consent",
+  "why": "Joel says NLP becomes a bag of tricks when technique replaces love, truth, contact or consent; NEW makes the trap a belief you fall into by using the techniques.",
+  "severity": "matters"
+ },
+ {
+  "block": 484,
+  "where": "Appendix B: NLP without turning yourself into a sales seminar, P2",
+  "kind": "added",
+  "new": "freshen up on your skills",
+  "his": "you want more precision",
+  "why": "Assumes the reader already has NLP skills; Joel says the appendix is for wanting more precision.",
+  "severity": "small"
+ },
+ {
+  "block": 489,
+  "where": "The four NLP layers, P4",
+  "kind": "lost",
+  "new": "Strategy level of NLP: practising a better response.",
+  "his": "Strategy NLP rehearses a better response: when this cue appears, the adult does this.",
+  "why": "The cue-and-response example (when this cue appears, the adult does this) is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 490,
+  "where": "The four NLP layers, P5",
+  "kind": "added",
+  "new": "opening up people’s awareness",
+  "his": "open awareness",
+  "why": "Awareness is now other people's awareness, not the speaker's own.",
+  "severity": "small"
+ },
+ {
+  "block": 490,
+  "where": "The four NLP layers, P5",
+  "kind": "lost",
+  "new": "presuming you can do something safe",
+  "his": "presume only safe capacity",
+  "why": "'Only' is gone: Joel says to presume only a safe capacity.",
+  "severity": "small"
+ },
+ {
+  "block": 490,
+  "where": "The four NLP layers, P5",
+  "kind": "lost",
+  "new": "linking cause and effect;",
+  "his": "link cause and effect carefully",
+  "why": "'Carefully' is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 490,
+  "where": "The four NLP layers, P5",
+  "kind": "added",
+  "new": "asking de-hypnotic questions to break the effects of",
+  "his": "use de-hypnotic questions when language becomes",
+  "why": "Joel uses these questions when language turns vague or absolute; NEW claims they break its effects.",
+  "severity": "small"
+ },
+ {
+  "block": 490,
+  "where": "The four NLP layers, P5",
+  "kind": "error",
+  "new": "vague, absolutes, manipulative or grandiose language",
+  "his": "vague, absolute, manipulative, or grandiose",
+  "why": "'Absolutes' is a noun in a list of adjectives.",
+  "severity": "small"
+ },
+ {
+  "block": 492,
+  "where": "The Milton Model, minus the covert sales seminar, P1",
+  "kind": "lost",
+  "new": "it doesn’t work, does it?",
+  "his": "often make a part brace",
+  "why": "Joel says such commands often make a part brace; NEW says they don't work, which is stronger and drops the mechanism.",
+  "severity": "matters"
+ },
+ {
+  "block": 492,
+  "where": "The Milton Model, minus the covert sales seminar, P1",
+  "kind": "added",
+  "new": "‘be better’",
+  "his": "",
+  "why": "An extra example command that Joel's list does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 493,
+  "where": "The Milton Model, minus the covert sales seminar, P2",
+  "kind": "added",
+  "new": "What we need to do is use indirect language",
+  "his": "Part of the point of indirect language is",
+  "why": "'Part of the point' became 'what we need to do', so one purpose became the required move.",
+  "severity": "small"
+ },
+ {
+  "block": 493,
+  "where": "The Milton Model, minus the covert sales seminar, P2",
+  "kind": "lost",
+  "new": "",
+  "his": "without having to overpower it. The destination can still be deliberate even when the route is subtle.",
+  "why": "The 'without overpowering' limit and the point that the aim stays deliberate even when the route is subtle are gone.",
+  "severity": "small"
+ },
+ {
+  "block": 494,
+  "where": "The Milton Model, minus the covert sales seminar, P3",
+  "kind": "lost",
+  "new": "presume that we can only do a tiny bit",
+  "his": "presume only a small safe capacity",
+  "why": "'Safe' is dropped, and presuming a small safe capacity became presuming a limit.",
+  "severity": "small"
+ },
+ {
+  "block": 495,
+  "where": "The Milton Model, minus the covert sales seminar, P4",
+  "kind": "added",
+  "new": "it may be possible for it to begin to realize that it is not alone in carrying the burden of the day",
+  "his": "it may become a little easier to stop holding the whole day alone",
+  "why": "The example now suggests the body realizes it is not alone, instead of it becoming easier to stop holding the day alone.",
+  "severity": "small"
+ },
+ {
+  "block": 498,
+  "where": "Pattern 1: Pacing and leading — truth before suggestion, P1",
+  "kind": "added",
+  "new": "in a way that works with anxiety",
+  "his": "",
+  "why": "Narrows the example to anxiety; Joel's template is for any sensation or emotion.",
+  "severity": "small"
+ },
+ {
+  "block": 499,
+  "where": "Pattern 1: Pacing and leading — truth before suggestion, P2",
+  "kind": "lost",
+  "new": "by wanting to do or think ________",
+  "his": "by [current protective behavior or thought]",
+  "why": "'Protective' is gone, so the behaviour is no longer framed as the system protecting you.",
+  "severity": "small"
+ },
+ {
+  "block": 500,
+  "where": "Pattern 1: Pacing and leading — truth before suggestion, P3",
+  "kind": "added",
+  "new": "Truth, Invite, Truth, Invite etc. is all you need to do.",
+  "his": "The simplest form is a Truth + Invite loop:",
+  "why": "Joel calls this the simplest form; NEW says it is all you need to do.",
+  "severity": "small"
+ },
+ {
+  "block": 502,
+  "where": "Pattern 2: Awareness verbs, P1",
+  "kind": "error",
+  "new": "‘awareness’ verbs",
+  "his": "Awareness verbs",
+  "why": "Quote marks around 'awareness'.",
+  "severity": "small"
+ },
+ {
+  "block": 502,
+  "where": "Pattern 2: Awareness verbs, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "point attention without yelling at it",
+  "why": "Joel's line about pointing attention without yelling at it is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 503,
+  "where": "Pattern 2: Awareness verbs, P2",
+  "kind": "lost",
+  "new": "Notice how you find out the answer.",
+  "his": "Notice whether the answer comes as an image, a word, a pressure, a warmth, a silence, or a next action.",
+  "why": "The open options (including silence) are gone, and 'how you find out the answer' assumes an answer will arrive.",
+  "severity": "small"
+ },
+ {
+  "block": 505,
+  "where": "Pattern 3: Presuppositions, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "Don’t smuggle in obedience.",
+  "why": "Joel's warning not to smuggle in obedience is dropped.",
+  "severity": "matters"
+ },
+ {
+  "block": 505,
+  "where": "Pattern 3: Presuppositions, P1",
+  "kind": "lost",
+  "new": "Presumption is a powerful thing,",
+  "his": "A presupposition hides an assumption inside a sentence.",
+  "why": "The definition of a presupposition is gone.",
+  "severity": "small"
+ },
+ {
+  "block": 507,
+  "where": "Pattern 4: Gentle cause-effect bridges, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "Use them carefully.",
+  "why": "The instruction to use bridge words carefully is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 510,
+  "where": "Pattern 5: Embedded invitations, P2",
+  "kind": "lost",
+  "new": "I may begin to allow myself to become aware...",
+  "his": "I may allow one small truth to become clear.",
+  "why": "'One small truth' is gone, and 'become clear' became 'become aware'.",
+  "severity": "small"
+ },
+ {
+  "block": 512,
+  "where": "Pattern 5: Embedded invitations, P4",
+  "kind": "added",
+  "new": "People will know that you've just come out of some weekend certification course and they won't feel so safe with you.",
+  "his": "Ten embedded invitations in a row feel like somebody took a weekend certification.",
+  "why": "Adds that people will know and will feel less safe; Joel only says it feels like a weekend certification.",
+  "severity": "small"
+ },
+ {
+  "block": 512,
+  "where": "Pattern 5: Embedded invitations, P4",
+  "kind": "lost",
+  "new": "You can use this, of course,",
+  "his": "Use one when it helps.",
+  "why": "'Use one when it helps' became 'you can use this', so the limit is now only 'not ten in a row'.",
+  "severity": "small"
+ },
+ {
+  "block": 515,
+  "where": "Pattern 6: Ethical double binds, P2",
+  "kind": "lost",
+  "new": "Ethical Double Bind Questions might be:",
+  "his": "An ethical one offers two genuinely safe routes.",
+  "why": "What makes a double bind ethical (two genuinely safe routes) is no longer stated.",
+  "severity": "matters"
+ },
+ {
+  "block": 516,
+  "where": "Pattern 6: Ethical double binds, P3",
+  "kind": "lost",
+  "new": "or would you prefer a feeling of space?",
+  "his": "Would this part prefer warmth first, or space first?",
+  "why": "Joel's question is about which comes first and is put to the part; NEW is an either/or put to 'you'.",
+  "severity": "small"
+ },
+ {
+  "block": 519,
+  "where": "Pattern 7: Conversational postulates, P2",
+  "kind": "added",
+  "new": "Can I allow the system to show me",
+  "his": "Can the system show me",
+  "why": "Adds an 'I allow' step, so the question is about permitting it rather than whether the system can.",
+  "severity": "small"
+ },
+ {
+  "block": 521,
+  "where": "Pattern 8: Tag questions, P1",
+  "kind": "error",
+  "new": "'tag'",
+  "his": "Tag questions",
+  "why": "Quote marks around 'tag'.",
+  "severity": "small"
+ },
+ {
+  "block": 521,
+  "where": "Pattern 8: Tag questions, P1",
+  "kind": "error",
+  "new": "'oily'",
+  "his": "oily",
+  "why": "Quote marks around 'oily'.",
+  "severity": "small"
+ },
+ {
+  "block": 521,
+  "where": "Pattern 8: Tag questions, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "can soften a sentence",
+  "why": "The purpose of tag questions (they soften a sentence) is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 521,
+  "where": "Pattern 8: Tag questions, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "They become oily very quickly, don’t they?",
+  "why": "Joel's joke, a tag question used to make the point, is gone.",
+  "severity": "small"
+ }
+]

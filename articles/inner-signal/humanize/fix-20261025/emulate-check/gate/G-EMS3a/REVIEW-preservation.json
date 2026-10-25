@@ -1,0 +1,23 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "43c07338112aa8211028bfd8ddbc2f9f5d1fa9ff41fa74414b19718eb0a8c41e",
+  "context_sha256": "38da57d5683e46be826764def1b324919d0134bfe410e9654e1894450abe4502",
+  "source_sha256": "d76d975b3044b2f4da3b747487cb081dd31fa27ca47d8b63312cc59978345f36",
+  "verdict": "FAIL",
+  "unresolved": [
+    "“what really happened” is not his “historical verification”: it swaps a verification standard for a claim about the actual events (and “really” is stronger), and the ledger’s “in his words” is wrong for that phrase."
+  ],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation)",
+    "context_id": "emulate-gate-preservation-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Judged “Chapter 7 of Trauma and Memory, by Peter Levine, 2015, is useful on the difference between a compelling experience and what really happened.” against his line (“Levine’s Trauma and Memory (2015), chapter 7, is useful on the difference between compelling experience and historical verification.”) and the sentence it replaces (“...contains useful information on this.”). The citation (chapter, title, author, year) is kept from the replaced sentence and matches his, and “is useful on the difference between a compelling experience and ...” is his. The last term is not: “historical verification” becomes “what really happened”. His point is the gap between how compelling an experience is and whether it has been verified; “what really happened” turns it into a gap between feeling and the facts, a different and stronger thing for the chapter to be useful on. SOURCE.txt gives no support for the new phrase, and the admission ledger (T12, C04) says the topic is “in his words”, which holds for the frame but not for this term. Lint: B2 contrast accepted as to its form (the contrast is the chapter’s topic, from his line; the problem is the second term, not the contrast); B4/E15 accepted (a citation sentence whose chapter, title, author and year are the reference, one job); D9 accepted. No tell row PRESENT. Fix: use his term, e.g. “the difference between a compelling experience and historical verification”.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "B2 contrast",
+    "B4/E15 list or packed sentence",
+    "D9 follows the source order"
+  ]
+}

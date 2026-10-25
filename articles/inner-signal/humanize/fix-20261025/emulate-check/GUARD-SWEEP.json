@@ -1,0 +1,257 @@
+{
+ "comment": "make sure we are not using \"protector\" to mean \"guard\", i saw that in finish without forcing, p2",
+ "before_sha256": "578ff3dca077fcd382f1a0beb4e8c88dbea8d7da147cb32ead464df95eb57ef0",
+ "after_sha256": "c38ca36f298d91edc9d38b8d216ef024b0bdf7634fdfccc093d63927d7bbfcfd",
+ "changed": [
+  {
+   "where": "Introduction, P5",
+   "block": 13,
+   "old": "inner child mind, protector part minds, adult mind",
+   "new": "inner child mind, guard minds, adult mind",
+   "why": "the minds of the guards: P3 two paragraphs up names them \"guard mind (childhood protector parts ...)\""
+  },
+  {
+   "where": "Do you usually think in words?, P3",
+   "block": 25,
+   "old": "When it says \"ask\" the child or protector,",
+   "new": "When it says \"ask\" the child or guard,",
+   "why": "the part that answers inside, not the grown-up job"
+  },
+  {
+   "where": "A useful map of the mind, P5",
+   "block": 80,
+   "old": "(child parts, protectors, critic,",
+   "new": "(child parts, guards, critic,",
+   "why": "parts of the subconscious \"ecology\""
+  },
+  {
+   "where": "Sometimes start with the whole, P5",
+   "block": 89,
+   "old": "Or is this a protector?",
+   "new": "Or is this a guard?",
+   "why": "telling the parts apart"
+  },
+  {
+   "where": "the heading \"Working with childhood protector parts\"",
+   "block": 136,
+   "old": "Working with childhood protector parts",
+   "new": "Working with your guards",
+   "why": "the section is about the guards (\"a very charming guard\"); his published heading was \"Working with protectors\""
+  },
+  {
+   "where": "Working with childhood protector parts, P3",
+   "block": 139,
+   "old": "a very charming guard, a childhood protector part. It",
+   "new": "a very charming guard. It",
+   "why": "the appositive only repeated \"guard\" in the word for the adult job; the next sentence says what a guard is"
+  },
+  {
+   "where": "Working with childhood protector parts, P4",
+   "block": 140,
+   "old": "(To the guard, the childhood protector part, in the same",
+   "new": "(To the guard, in the same",
+   "why": "the same appositive"
+  },
+  {
+   "where": "Working with childhood protector parts, P6",
+   "block": 142,
+   "old": "(Now talk to the protector part.",
+   "new": "(Now talk to the guard.",
+   "why": "the guard of the exercise"
+  },
+  {
+   "where": "Working with childhood protector parts, P7",
+   "block": 143,
+   "old": "Most of the time the protector part wants you",
+   "new": "Most of the time the guard wants you",
+   "why": "the guard of the exercise"
+  },
+  {
+   "where": "Inner child reparenting, P1",
+   "block": 156,
+   "old": "just work with a protector or whatever you find.",
+   "new": "just work with a guard or whatever you find.",
+   "why": "a part that comes in hypnosis instead of the child"
+  },
+  {
+   "where": "Don’t rush the repair, P4",
+   "block": 161,
+   "old": "Find a younger you/protector/feeling/signal",
+   "new": "Find a younger you/guard/feeling/signal",
+   "why": "a part that comes up"
+  },
+  {
+   "where": "Non-dominant hand dialogue, P1",
+   "block": 174,
+   "old": "Tell your child/ protector part to write",
+   "new": "Tell your child/ guard to write",
+   "why": "a part that writes with the other hand"
+  },
+  {
+   "where": "The actual inner meeting, P3",
+   "block": 320,
+   "old": "inner adult(s), protector(s) and all",
+   "new": "inner adult(s), guard(s) and all",
+   "why": "the inner adult is named just before it; these are the parts"
+  },
+  {
+   "where": "The actual inner meeting, P7",
+   "block": 324,
+   "old": "be contacted by a child or protector,",
+   "new": "be contacted by a child or guard,",
+   "why": "a part that makes contact"
+  },
+  {
+   "where": "Let the response change the invitation, P3",
+   "block": 339,
+   "old": "Neither is automatically a protector,",
+   "new": "Neither is automatically a guard,",
+   "why": "a response that isn't automatically a guard"
+  },
+  {
+   "where": "Finish without forcing a revelation, P2",
+   "block": 358,
+   "old": "anything that a protector wanted you to know",
+   "new": "anything that a guard wanted you to know",
+   "why": "the one he saw"
+  },
+  {
+   "where": "Using synchronicity as your own wake-up bell, P4",
+   "block": 543,
+   "old": "or from a childhood protector part,",
+   "new": "or from a childhood guard part,",
+   "why": "his own words for it in EM-Q1: \"a childhood guard part\""
+  },
+  {
+   "where": "Appendix D: Anxiety — body first, P2",
+   "block": 616,
+   "old": "comes from a childhood protector part of you.",
+   "new": "comes from a childhood guard part of you.",
+   "why": "the same; the \"parental Protector\" in the next sentence is the grown-up job and stays"
+  },
+  {
+   "where": "Appendix F: Self-trust, outside guidance, and oracle-like states, P2",
+   "block": 646,
+   "old": "a line of communication with protectors, etc.",
+   "new": "a line of communication with guards, etc.",
+   "why": "what doing it yourself gives you: direct contact with your own parts"
+  }
+ ],
+ "kept": [
+  {
+   "where": "Introduction, P3",
+   "text": "ning: child mind, guard mind (childhood protector parts, the protecti",
+   "kept": "gloss"
+  },
+  {
+   "where": "The inner child, the guards, and the inner adult’s three jobs, P2",
+   "text": ": your loving Nurturer, your safe Adult Protector (hereafter just the",
+   "kept": "the grown-up job"
+  },
+  {
+   "where": "The inner child, the guards, and the inner adult’s three jobs, P2",
+   "text": "afe Adult Protector (hereafter just the Protector) and your wise Guid",
+   "kept": "the grown-up job"
+  },
+  {
+   "where": "the heading \"The Protector\"",
+   "text": "The Protector",
+   "kept": "the grown-up job"
+  },
+  {
+   "where": "The Protector, P1",
+   "text": "As the Protector, work with setting ",
+   "kept": "the grown-up job"
+  },
+  {
+   "where": "The Guide, P4",
+   "text": "but most of us need enough Nurturer and Protector first, before the G",
+   "kept": "the grown-up job"
+  },
+  {
+   "where": "Working with your guards, P3",
+   "text": "hen your consciously installed parental Protector isn't functioning, ",
+   "kept": "the grown-up job"
+  },
+  {
+   "where": "Your inherited parent script, P1",
+   "text": "the same as your inner adult (Nurturer, Protector, Guide) that you bu",
+   "kept": "the grown-up job"
+  },
+  {
+   "where": "Protection that knows when to stop scanning, P1",
+   "text": "Do you want to embody your Protector? Then you could pra",
+   "kept": "the grown-up job"
+  },
+  {
+   "where": "Protection that knows when to stop scanning, P7",
+   "text": "This seems to me like a mature Protector. One that is not af",
+   "kept": "the grown-up job"
+  },
+  {
+   "where": "Inner child reparenting, P1",
+   "text": " living in, and get enough Nurturer and Protector in the room before ",
+   "kept": "the grown-up job"
+  },
+  {
+   "where": "Deepening, if useful, P2",
+   "text": "e, sitting in front of a fire with your Protector, down by a clear la",
+   "kept": "the grown-up job"
+  },
+  {
+   "where": "Offer the care that is actually wanted, P1",
+   "text": " you can identify any guards (childhood protector parts), talk to the",
+   "kept": "gloss"
+  },
+  {
+   "where": "Offer the care that is actually wanted, P2",
+   "text": "ld be useful to bring in your Nurturer, Protector or Guide to help yo",
+   "kept": "the grown-up job"
+  },
+  {
+   "where": "You get anxious, P3",
+   "text": "r little one and your guards (childhood protector parts) that you’re ",
+   "kept": "gloss"
+  },
+  {
+   "where": "What not to do, P7",
+   "text": "Inner Child to run your adult life, the Protector to shut out all lov",
+   "kept": "the grown-up job"
+  },
+  {
+   "where": "Core prompts, P4",
+   "text": "When you want to bring in your Protector: “What would a mini",
+   "kept": "the grown-up job"
+  },
+  {
+   "where": "Installing the synchronicity cue, P6",
+   "text": "turer think about this?\", \"What does my Protector think about this?\",",
+   "kept": "the grown-up job"
+  },
+  {
+   "where": "Reframing — changing the meaning without lying, P1",
+   "text": " Nurturer reframe this? or How might my Protector reframe this? or Ho",
+   "kept": "the grown-up job"
+  },
+  {
+   "where": "Running the whole NLP sequence, P7",
+   "text": "s in with the person (Nurturer to warm, Protector to make it safe, an",
+   "kept": "the grown-up job"
+  },
+  {
+   "where": "Appendix D: Anxiety — body first, P2",
+   "text": "hen your consciously installed parental Protector isn’t functioning, ",
+   "kept": "the grown-up job"
+  },
+  {
+   "where": "The council — internal first, then outward, P4",
+   "text": "g. You lend each other the Nurturer and Protector for a while, but yo",
+   "kept": "the grown-up job"
+  },
+  {
+   "where": "Appendix G: Altered states, P1",
+   "text": "k sober first, with enough Nurturer and Protector in the room before ",
+   "kept": "the grown-up job"
+  }
+ ]
+}

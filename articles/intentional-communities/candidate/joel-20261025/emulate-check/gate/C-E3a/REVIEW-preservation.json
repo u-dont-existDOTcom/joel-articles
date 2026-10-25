@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "03945c96e55b43ed3a1f09fa0e65bd33436b25af0ca61154c6bed78052ecac7e",
+  "context_sha256": "91d9c48d57a36e06058d3e9ecc2b4915ec4743960190072f2b98bf488c133a5e",
+  "source_sha256": "3e1e2421653a3b0b2faea48e1330b07e6e5a76f2963cfa77c95c074b19ee9c35",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+    "context_id": "emulate-gate-preservation-subagent-r2e",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session), round 2"
+  },
+  "evidence": "Draft: “Who has to step aside because they’re too close to it?” It is one new question inserted into the list in the second paragraph of “When Somebody Has to Go” (SOURCE: nothing in the paragraph is replaced); CONTEXT holds it once. His line: “…who preserves evidence, who is recused, who decides temporary restrictions…”. Word by word, “who is recused” becomes “who has to step aside because they’re too close to it”. Recusal means withdrawing from deciding a matter because of involvement or a conflict, so “step aside” is the plain form of “recused” and “too close to it” is its ordinary reason. I find no added person, number, step, claim or condition, no change in who does what, and no change in strength (“has to” is the rule the list asks the community to set, like his “Decide the process before the name”). Nothing the change says it puts back is missing: with this question all six items of his line are in the list, and it sits just before the temporary-restrictions question, which keeps his recused-then-restrictions adjacency. It reads right between the protective-action and temporary-restrictions questions; “it” has no noun of its own but is the removal case, via “This power to remove people” and “before it’s about anyone in particular” (C02 absent). Tells: none PRESENT. I looked hardest at T02/T09/T26: the paragraph is a run of eight questions (three “Who” in a row), and the writer’s T02 note (“not part of a run of compressed commands”) is not accurate, but the run is his own list shape (his line is a colon-list of these same decisions), each question names a separate decision and none hands off to the next, and this change only restores one of his items, so it adds nothing to the tell. T15: “step aside” and “too close” are plain common wording for a legal term, not a less-likely swap. T03: a list item prepared by “work out the process”. T14: an insertion, no reordering. T01, T04-T08, T10-T13, T16-T25, T27-T29, C01, C03 and C04 do not occur in a single question with no first person, scene, image, colon, closer or claim about a study or person. Linter: CLEAR with no findings, so nothing to accept or reject.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "28c77cc1349f7d33fe7d9aeaf592eab32f94f103338c4c21d52579529a468986",
+  "context_sha256": "5d9c0af933a6ab7a3a7cd0690d949dcaa72fd65d1b73337e06da9405c196f11e",
+  "source_sha256": "eee1b42c1b0b3553c12cac43fb9fe5b6e21f02042899a85ec24b6b9ac5940f70",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation)",
+    "context_id": "emulate-gate-preservation-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Judged “Nominalizations are words that turn a process into a noun, like 'healing', 'safety', 'trust', 'integration', 'communion', 'clarity', 'rest', etc.” against his line (“Nominalizations turn processes into nouns: healing, safety, trust, integration, communion, clarity, rest.”) and the sentence it replaces (the same sentence without the definition). The definition “words that turn a process into a noun” is his “turn processes into nouns” in the singular; the seven examples are his, in his order; “like” and “etc.” come from the replaced sentence. Nothing is added to or lost from his line, and the next sentence (“These are a bit vague, and sometimes that can be useful...”) now follows from a stated definition. Tells all ABSENT (T21: it defines and illustrates, one job; T06: the words are named as examples of a term, not used as vague therapy language). Lint: B4/E15 (list or packed sentence) accepted: the list is his own seven words and was already in the sentence, and the clause the change adds is the definition of the term the list illustrates, not a second argumentative job. D9 accepted (one sentence, his order by design).",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "B4/E15 list or packed sentence",
+    "D9 follows the source order"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "deae184a2e738b99fb529d6f6cda5d7b726b2bb73511cccbcd7f64ae520bc1d8",
+  "context_sha256": "efc673902898383421b5e20a0ba3c213ca976c7796a5d3bc36aa9cc11be52932",
+  "source_sha256": "2f6ec1d1fe3276463b2eed4b604468a8560d1a43e60e554672550e104ccecd4d",
+  "verdict": "FAIL",
+  "unresolved": [
+    "'instead of getting them looked at' is not in his line (SOURCE: 'suppress medical symptoms'); it is Emulate's narrowing to skipping medical care ('skip medical attention') in new words, so the rule is still narrower than his and the_change's purpose (undo that narrowing) is not met",
+    "B2 contrast flag not answered: the writer's reason says the contrast is 'from his line', but his line has no 'instead of' contrast, so the context does not answer the flag"
+  ],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+    "context_id": "emulate-gate-cold_read_2-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Draft judged: 'DO NOT: Attempt to force memories, to use trance to prove something happened to you, or to force down medical symptoms with hypnosis instead of getting them looked at.' Taking off Emulate's quote marks is right (his line has none) and the sentence sits naturally in the 'What not to do' list. Against his line ('Do not force memory recovery, use trance to prove what happened, or suppress medical symptoms'): the first two items are faithful. The third is not. His rule is unconditional: do not suppress medical symptoms. The draft ends 'instead of getting them looked at', which his line does not contain. That clause is Emulate's 'skip medical attention for symptoms' restated, and the_change says this edit exists to undo exactly that narrowing. As written the rule bans only suppression that replaces care, so it would not forbid forcing a symptom down with hypnosis while also seeing a doctor, which his wording does forbid. 'with hypnosis' is also added but fits the guide's subject, so I do not count it. Linter: B2 contrast NOT accepted, because the stated reason ('from his line') is wrong; the contrast is the writer's. D9 accepted (one sentence). Tell rows: T16 and T18 ABSENT (an 'instead of' clause, not a not-X-it's-Y reveal); no row is PRESENT. Suggested fix: end the item at 'with hypnosis' (or at 'force down medical symptoms'), or ask him whether he wants the care condition.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order"
+  ]
+}

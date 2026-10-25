@@ -1,0 +1,23 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "21c0377f2a66ab9082bce24a2723b66cd58d34fef05d77be88cbdf86472df61c",
+  "context_sha256": "2707cfe9275617de46542c35f740bde1c46990af61159e5b7ef6e519cc7ed91e",
+  "source_sha256": "3e1e2421653a3b0b2faea48e1330b07e6e5a76f2963cfa77c95c074b19ee9c35",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+    "context_id": "emulate-gate-cold_read_2-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Draft judged: 'What review or appeal can you safely give them?' Read the whole CONTEXT: it follows 'How will the person be able to reply to the concerns?' and precedes 'What protections will there be for the person's interests ...', so the order (reply, then review or appeal, then protections) is natural, and 'them' is the person, as 'eject them' is earlier. Against his line ('what review or appeal is possible without endangering others'): 'safely' compresses 'without endangering others'. It is less explicit about whose safety, but in a section about someone who may be 'a serious or generalized danger to others' the reading is plain, so I accept it; nothing is added. It is the only question in the list with 'you' while its neighbours are impersonal, a slight shift of voice, but the section's imperative ('So work out the process') already addresses the reader and the essay uses generic 'you' elsewhere ('now you have the conflict PLUS goats'). T02: PRESENT at paragraph scale as for C-E3a (a run of single-job questions), justified by the checklist genre and his own list; T10, T22 and T24 are ABSENT. Linter: B7 accepted, because the question is not at the paragraph end; in CONTEXT it is the sixth of eight questions, followed by two more. E36/E41 accepted: 11.1 per 100 words is one 'you' in a nine-word question, an artifact of length, and the essay uses generic 'you' elsewhere. D9 accepted (one sentence). No other row is PRESENT.",
+  "resolved_tell_ids": [
+    "T02"
+  ],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order",
+    "E36/E41 heavy second person"
+  ]
+}

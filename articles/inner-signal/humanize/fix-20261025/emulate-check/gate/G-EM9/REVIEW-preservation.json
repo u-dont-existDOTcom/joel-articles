@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "2369aa33c51bc8e3d16ac93735dfcdffbd306eca7f1677e31c804e307ed9e35b",
+  "context_sha256": "03303dbab39c39c4feda0cf16400188c4ab076a1120a10211fd17bc0735d9007",
+  "source_sha256": "e94fa972beb40fa51652aceb95426f664e39a1e03d196918496e1a9b18924227",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation)",
+    "context_id": "emulate-gate-preservation-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Judged (the changed part of a longer sentence) “to help me know what I need to know, only in a form and at a time that will be useful” against his line (“please help me understand what I need to know, only in the form and timing that is useful, kind, stabilizing, and real”) and the words it replaces (“in a form and at a level that will be useful”). The change adds exactly his “only” and swaps Emulate’s “level” for “time”, which is his “timing”; “only” keeps his strength (it limits the form and the timing, as in his line). “kind, stabilizing and real for me” follows unchanged in CONTEXT, so the whole invocation carries his four qualities. Nothing else is added or removed: “help me know” is the article’s own phrase (his answer says “understand”, but the change does not claim that word), and “a form” for “the form” and “at a time” for “timing” keep the sense. It is a quoted invocation, so C03 (invented first-person fact) does not apply. Tell rows all ABSENT. Lint: D9 accepted (his line put back, one fragment). O27 accepted: the draft is the middle of a sentence, and in CONTEXT the sentence goes on (“, kind, stabilizing and real for me.”) and ends with its own full stop inside the closing quote mark.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order",
+    "O27 a rough edge in my text: the paragraph ends with no period (JOEL-FIXES-CATALOGUE: \"Rough edges he leaves: typos, double spaces, missing periods. ... They aren't something for me to imitate.\")"
+  ]
+}

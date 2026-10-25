@@ -1,0 +1,722 @@
+[
+ {
+  "block": 370,
+  "where": "Capacity before content, P1",
+  "kind": "added",
+  "new": "then first focus on stabilizing and then look for what your subconscious needs you to know!",
+  "his": "First stabilize.",
+  "why": "NEW adds a step of then looking for what the subconscious needs you to know; HIS only says to stabilize first.",
+  "severity": "small"
+ },
+ {
+  "block": 370,
+  "where": "Capacity before content, P1",
+  "kind": "added",
+  "new": "it is not meant for you to know directly at this time!",
+  "his": "is not ready to be known directly.",
+  "why": "'Not ready to be known' becomes 'not meant for you to know', a claim about fate rather than readiness.",
+  "severity": "small"
+ },
+ {
+  "block": 370,
+  "where": "Capacity before content, P1",
+  "kind": "error",
+  "new": "psychosis like symptoms",
+  "his": "psychosis-like",
+  "why": "Missing hyphen in 'psychosis-like'.",
+  "severity": "small"
+ },
+ {
+  "block": 371,
+  "where": "Capacity before content, P2",
+  "kind": "lost",
+  "new": "family issues, betrayal, shame, vocation, a relationship, illness fears, spirituality, addiction, identity, moral issues etc.",
+  "his": "family truth, betrayal, shame, vocation, relationship reality, illness fears, spiritual calling, addiction, identity, or moral conflict.",
+  "why": "Several list items are softened ('family truth', 'relationship reality', 'spiritual calling', 'moral conflict') and 'etc.' leaves the list open-ended.",
+  "severity": "small"
+ },
+ {
+  "block": 373,
+  "where": "Capacity before content, P4",
+  "kind": "added",
+  "new": "What is it you won’t tell me?",
+  "his": "",
+  "why": "An extra demand to the subconscious that is not among Joel's examples.",
+  "severity": "small"
+ },
+ {
+  "block": 374,
+  "where": "Capacity before content, P5",
+  "kind": "lost",
+  "new": "it is much harder to access your adult capacities so focus on being able to regulate and getting support!",
+  "his": "Flooding can make the adult capacities needed for pausing, comparing options, reality-testing, planning, and choosing much harder to reach. In that state, regulation and support come before deeper dialogue.",
+  "why": "The named capacities (pausing, comparing options, reality-testing, planning, choosing) and 'before deeper dialogue' are dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 374,
+  "where": "Capacity before content, P5",
+  "kind": "lost",
+  "new": "",
+  "his": "Silence may be protection when the adult lacks enough regulation, support, humility, or practical capacity to receive the material.",
+  "why": "The point that silence may be protection when the adult lacks capacity is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 374,
+  "where": "Capacity before content, P5",
+  "kind": "lost",
+  "new": "can make your day SUCK!",
+  "his": "a generally worse Tuesday",
+  "why": "The joke about 'a generally worse Tuesday' is replaced by a flat 'SUCK'.",
+  "severity": "small"
+ },
+ {
+  "block": 374,
+  "where": "Capacity before content, P5",
+  "kind": "added",
+  "new": "Just ask for what you need to know in a way that you CAN tolerate:",
+  "his": "",
+  "why": "Adds an instruction to ask for what you need to know in a tolerable way; no HIS line says it.",
+  "severity": "small"
+ },
+ {
+  "block": 375,
+  "where": "Capacity before content, P6",
+  "kind": "added",
+  "new": "“What can you tell me, that will make my conscious self 5% better at knowing the thing you want to tell me?”",
+  "his": "",
+  "why": "An extra example prompt with an invented figure (5%); no HIS line has it.",
+  "severity": "small"
+ },
+ {
+  "block": 375,
+  "where": "Capacity before content, P6",
+  "kind": "added",
+  "new": "“Can you tell me in symbolic form so I am not completely overwhelmed by the revelation?”",
+  "his": "",
+  "why": "An extra example prompt that no HIS line has.",
+  "severity": "small"
+ },
+ {
+  "block": 375,
+  "where": "Capacity before content, P6",
+  "kind": "added",
+  "new": "“Can you tell me what I need to do to be safe, without actually telling me what it is”?",
+  "his": "",
+  "why": "An extra example prompt that no HIS line has.",
+  "severity": "small"
+ },
+ {
+  "block": 375,
+  "where": "Capacity before content, P6",
+  "kind": "error",
+  "new": "what it is”?",
+  "his": "",
+  "why": "The question mark sits after the closing quote mark.",
+  "severity": "small"
+ },
+ {
+  "block": 375,
+  "where": "Capacity before content, P6",
+  "kind": "added",
+  "new": "get some support to have the capacity to know what it is, and who would be a good person to help me?",
+  "his": "build capacity first?",
+  "why": "Adds getting support and finding a helper; HIS only asks whether to build capacity first, and 'now' is gone.",
+  "severity": "small"
+ },
+ {
+  "block": 378,
+  "where": "Capacity before content, P9",
+  "kind": "lost",
+  "new": "Not everything in hypnotic imagery is literal",
+  "his": "Hypnotic imagery can be meaningful without being literal.",
+  "why": "Drops that the imagery can still be meaningful.",
+  "severity": "small"
+ },
+ {
+  "block": 378,
+  "where": "Capacity before content, P9",
+  "kind": "lost",
+  "new": "get some help outside of yourself!",
+  "his": "involve outside support when needed.",
+  "why": "The condition 'when needed' is dropped, so outside help reads as always required.",
+  "severity": "small"
+ },
+ {
+  "block": 382,
+  "where": "Nothing happens, P2",
+  "kind": "added",
+  "new": "Show yourself one body sensation, one word, ask yourself if you want to listen today or if you need to rest.",
+  "his": "“Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.”",
+  "why": "HIS asks the inner part to show a sensation, a word, and whether today is for listening or resting; NEW has you show and ask yourself.",
+  "severity": "matters"
+ },
+ {
+  "block": 382,
+  "where": "Nothing happens, P2",
+  "kind": "error",
+  "new": "one body sensation, one word, ask yourself if",
+  "his": "",
+  "why": "Run-on: a comma joins two instructions with no 'and'.",
+  "severity": "small"
+ },
+ {
+  "block": 384,
+  "where": "It feels fake, P1",
+  "kind": "error",
+  "new": "'grown up'",
+  "his": "adult capacity",
+  "why": "Quote marks around 'grown up', where HIS has no quoted phrase.",
+  "severity": "small"
+ },
+ {
+  "block": 384,
+  "where": "It feels fake, P1",
+  "kind": "lost",
+  "new": "If it feels like you are being asked to do something you don't want to do then correct this. It could be that there is a part that is protecting you, so talk to it.",
+  "his": "Correct an explicitly unwanted invitation. If you recognize a protective part, you can talk to it:",
+  "why": "'Explicitly unwanted' and the condition 'If you recognize a protective part' are loosened into any felt request and a flat instruction.",
+  "severity": "small"
+ },
+ {
+  "block": 385,
+  "where": "It feels fake, P2",
+  "kind": "added",
+  "new": "If it says yes, that one can sting, because there could be something to it.",
+  "his": "",
+  "why": "Adds a remark that a yes can sting and may be true; no HIS line says it.",
+  "severity": "small"
+ },
+ {
+  "block": 385,
+  "where": "It feels fake, P2",
+  "kind": "added",
+  "new": "Are you afraid this will just be a performance?",
+  "his": "Are you afraid this is performance?",
+  "why": "The quoted question is reworded ('will just be a performance' for 'is performance').",
+  "severity": "small"
+ },
+ {
+  "block": 386,
+  "where": "It feels fake, P3",
+  "kind": "added",
+  "new": "your inherited parent script that you are picking up",
+  "his": "the inherited parent",
+  "why": "Adds 'script' and 'that you are picking up'; HIS says the voice may be the inherited parent.",
+  "severity": "small"
+ },
+ {
+  "block": 387,
+  "where": "It feels fake, P4",
+  "kind": "error",
+  "new": "'grown up' ability",
+  "his": "adult capacity",
+  "why": "Quote marks around 'grown up', where HIS has no quoted phrase.",
+  "severity": "small"
+ },
+ {
+  "block": 387,
+  "where": "It feels fake, P4",
+  "kind": "error",
+  "new": "'good enough'",
+  "his": "",
+  "why": "Quote marks around 'good enough', a phrase HIS does not use.",
+  "severity": "small"
+ },
+ {
+  "block": 387,
+  "where": "It feels fake, P4",
+  "kind": "added",
+  "new": "don't try and convince yourself by using an inner voice",
+  "his": "Stop demanding a convincing voice.",
+  "why": "HIS says stop demanding a convincing voice; NEW tells you not to use an inner voice to convince yourself.",
+  "severity": "small"
+ },
+ {
+  "block": 387,
+  "where": "It feels fake, P4",
+  "kind": "added",
+  "new": "This could be a family member, friend, famous person etc.",
+  "his": "A real or imagined caring figure can help.",
+  "why": "Adds a list of examples and drops 'real or imagined' and 'caring'.",
+  "severity": "small"
+ },
+ {
+  "block": 387,
+  "where": "It feels fake, P4",
+  "kind": "lost",
+  "new": "Try out something which rings true to you, whether it is a sentence, an action etc, and see how you get on.",
+  "his": "Try one believable sentence or action and see how it is received.",
+  "why": "Drops 'one' and turns 'how it is received' into 'how you get on'.",
+  "severity": "small"
+ },
+ {
+  "block": 389,
+  "where": "The subconscious will not answer, P1",
+  "kind": "lost",
+  "new": "There may not be an answer that will help you.",
+  "his": "the question may not help",
+  "why": "HIS says the question may not help; NEW says there may be no helpful answer.",
+  "severity": "small"
+ },
+ {
+  "block": 389,
+  "where": "The subconscious will not answer, P1",
+  "kind": "added",
+  "new": "Some examples of answers might be “I need to know you will set boundaries” “I need to know you will do what you said you will do” “I need to know you won’t keep leaving” “I need to know you won’t think that knowing something means that you don’t need to do anything about it”",
+  "his": "",
+  "why": "Four example answers from the subconscious that no HIS line gives.",
+  "severity": "small"
+ },
+ {
+  "block": 391,
+  "where": "The inner child will not appear, P1",
+  "kind": "added",
+  "new": "“You don’t have to let me in, just tell me what I need to do to make it safe”",
+  "his": "",
+  "why": "An example line to say to the guard; the HIS paragraph here is about a fake feeling and does not give it.",
+  "severity": "small"
+ },
+ {
+  "block": 391,
+  "where": "The inner child will not appear, P1",
+  "kind": "added",
+  "new": "Even if there isn’t a child part that you can talk to, you can work with whatever you are aware of. You can work on your preferences or something that you’re curious about or something that you’re willing to try as a beginner etc. and see how it goes.",
+  "his": "",
+  "why": "Instructions for when there is no child part; no HIS line says them.",
+  "severity": "small"
+ },
+ {
+  "block": 391,
+  "where": "The inner child will not appear, P1",
+  "kind": "added",
+  "new": "Work on developing a sense of who you are and reparent yourself as best you can.",
+  "his": "",
+  "why": "An instruction that no HIS line gives.",
+  "severity": "small"
+ },
+ {
+  "block": 393,
+  "where": "You get anxious, P1",
+  "kind": "lost",
+  "new": "bad enough that you want to decrease contact with it",
+  "his": "whether you need less contact",
+  "why": "HIS says you may need less contact; NEW makes it a matter of what you want.",
+  "severity": "small"
+ },
+ {
+  "block": 395,
+  "where": "You get anxious, P3",
+  "kind": "added",
+  "new": "(childhood protector parts)",
+  "his": "",
+  "why": "Adds a gloss on 'guards' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 395,
+  "where": "You get anxious, P3",
+  "kind": "added",
+  "new": "show you one step at a time that you can do",
+  "his": "show me one step",
+  "why": "HIS asks for one step; NEW asks for steps one at a time.",
+  "severity": "small"
+ },
+ {
+  "block": 396,
+  "where": "You get anxious, P4",
+  "kind": "added",
+  "new": "wanting to hurt yourself or somebody else, etc.",
+  "his": "or urges to harm yourself or someone else.",
+  "why": "Adds 'etc.' to the closed list of reasons to get professional help, leaving it open-ended.",
+  "severity": "small"
+ },
+ {
+  "block": 398,
+  "where": "You dissociate or feel unreal, P1",
+  "kind": "lost",
+  "new": "end your work for the day",
+  "his": "End the deeper practice for the day.",
+  "why": "HIS ends the deeper practice; NEW says 'your work', which could mean any work.",
+  "severity": "small"
+ },
+ {
+  "block": 401,
+  "where": "You become grandiose, P2",
+  "kind": "lost",
+  "new": "If it’s really there",
+  "his": "If this insight is real",
+  "why": "'This insight' is lost, so 'it' has no clear referent.",
+  "severity": "small"
+ },
+ {
+  "block": 401,
+  "where": "You become grandiose, P2",
+  "kind": "added",
+  "new": "some time, etc, and some subsequent humility, feedback, etc, etc.",
+  "his": "time, humility, and feedback",
+  "why": "Inserts 'etc' three times and 'subsequent' into the line to say to yourself.",
+  "severity": "small"
+ },
+ {
+  "block": 403,
+  "where": "You become too analytical, P1",
+  "kind": "error",
+  "new": "your other on your solar plexus",
+  "his": "one on the solar plexus",
+  "why": "'Your other' is missing the word 'hand'.",
+  "severity": "small"
+ },
+ {
+  "block": 403,
+  "where": "You become too analytical, P1",
+  "kind": "added",
+  "new": "“What can you do to make this a communion, not a performance?”",
+  "his": "",
+  "why": "An extra question that no HIS line has.",
+  "severity": "small"
+ },
+ {
+  "block": 403,
+  "where": "You become too analytical, P1",
+  "kind": "added",
+  "new": "Maybe it’s silence, resting, or doing something. Whatever it is, just do it.",
+  "his": "",
+  "why": "An extra instruction that no HIS line has.",
+  "severity": "small"
+ },
+ {
+  "block": 405,
+  "where": "You become too blissful or diffuse, P1",
+  "kind": "added",
+  "new": "Bring it down to a more specific level. “What’s the smallest, most specific thing you can do to demonstrate the love you’re feeling?”",
+  "his": "",
+  "why": "No HIS paragraph backs this instruction and question.",
+  "severity": "small"
+ },
+ {
+  "block": 410,
+  "where": "You keep daydreaming, P1",
+  "kind": "added",
+  "new": "“What are you avoiding doing in the real world by doing this?”",
+  "his": "",
+  "why": "An extra question, assuming avoidance, that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 413,
+  "where": "You get stuck in spiritual bypass, P2",
+  "kind": "lost",
+  "new": "Maybe you felt betrayed by a spiritual teacher. It may be worth exploring these",
+  "his": "or a teacher’s betrayal can damage something sacred. Ask what was lost and what needs questioning",
+  "why": "Drops that a teacher's betrayal can damage something sacred and the questions to ask (what was lost, what needs questioning).",
+  "severity": "small"
+ },
+ {
+  "block": 413,
+  "where": "You get stuck in spiritual bypass, P2",
+  "kind": "lost",
+  "new": "a profound opening",
+  "his": "A genuine opening",
+  "why": "'Genuine' is changed to 'profound'.",
+  "severity": "small"
+ },
+ {
+  "block": 414,
+  "where": "You get stuck in spiritual bypass, P3",
+  "kind": "added",
+  "new": "Sometimes it’s best to get some practical help",
+  "his": "Sometimes practical care helps",
+  "why": "Strengthens the claim from 'helps' to 'it's best'.",
+  "severity": "small"
+ },
+ {
+  "block": 414,
+  "where": "You get stuck in spiritual bypass, P3",
+  "kind": "lost",
+  "new": "let yourself be curious about finding more happiness, without necessarily believing the explanation of how it’s going to work",
+  "his": "Curiosity about deeper happiness is worth following without pretending to believe an explanation.",
+  "why": "'Deeper' happiness becomes 'more' happiness, and 'without pretending to believe' becomes 'without necessarily believing'.",
+  "severity": "small"
+ },
+ {
+  "block": 416,
+  "where": "You get stuck in endless processing, P1",
+  "kind": "added",
+  "new": "a real wound that needs to be dealt with",
+  "his": "A real wound",
+  "why": "Adds that the wound needs to be dealt with.",
+  "severity": "small"
+ },
+ {
+  "block": 416,
+  "where": "You get stuck in endless processing, P1",
+  "kind": "added",
+  "new": "it’s okay to cover the same ground again and again",
+  "his": "Grief and practice can revisit familiar ground; novelty isn’t required every time.",
+  "why": "'Again and again' is stronger than 'can revisit familiar ground' and sits against the checking-loop warning.",
+  "severity": "small"
+ },
+ {
+  "block": 417,
+  "where": "You get stuck in endless processing, P2",
+  "kind": "added",
+  "new": "The best thing to do, though,",
+  "his": "When it is a checking loop,",
+  "why": "Makes it 'the best thing to do'; HIS only says what to do when it is a checking loop.",
+  "severity": "small"
+ },
+ {
+  "block": 417,
+  "where": "You get stuck in endless processing, P2",
+  "kind": "lost",
+  "new": "allow the thought to be there without engaging with it and get on with what you have chosen to do",
+  "his": "let the thought remain without arguing with it or chasing it away, and return to a chosen activity or relationship",
+  "why": "Drops 'chasing it away' and 'or relationship'.",
+  "severity": "small"
+ },
+ {
+  "block": 417,
+  "where": "You get stuck in endless processing, P2",
+  "kind": "lost",
+  "new": "You don’t have to do any certain thing before you start your life.",
+  "his": "complete a ritual before you’re allowed to live",
+  "why": "'A ritual' becomes the vague 'any certain thing'.",
+  "severity": "small"
+ },
+ {
+  "block": 418,
+  "where": "You get stuck in endless processing, P3",
+  "kind": "added",
+  "new": "What would the Guide choose to do now?",
+  "his": "What direction would the Leader choose now?",
+  "why": "The role is named 'Guide' instead of 'Leader', and 'direction' is gone.",
+  "severity": "small"
+ },
+ {
+  "block": 423,
+  "where": "What not to do, P2",
+  "kind": "error",
+  "new": "“downloads”",
+  "his": "grand downloads",
+  "why": "Quote marks around downloads, which HIS does not put in quotes.",
+  "severity": "small"
+ },
+ {
+  "block": 425,
+  "where": "What not to do, P4",
+  "kind": "error",
+  "new": "Attempt to “force” memories, to use trance to “prove” something happened to you",
+  "his": "Do not force memory recovery, use trance to prove what happened",
+  "why": "Quote marks around 'force' and 'prove', which HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 425,
+  "where": "What not to do, P4",
+  "kind": "added",
+  "new": "to skip medical attention for symptoms just because you can “force” them down using hypnosis",
+  "his": "suppress medical symptoms",
+  "why": "HIS says do not suppress medical symptoms; NEW only warns against skipping medical attention because symptoms were forced down.",
+  "severity": "matters"
+ },
+ {
+  "block": 426,
+  "where": "What not to do, P5",
+  "kind": "added",
+  "new": "“Force” yourself to ignore your body’s needs, such as eating when hungry, resting when tired, responding to pain, etc., or your emotions, such as letting yourself grieve when someone dies, feeling anger when it is appropriate, acknowledging your fears, etc., until you know more about what the signals are telling you.",
+  "his": "",
+  "why": "No HIS paragraph backs this rule, its examples or its 'until you know more' condition.",
+  "severity": "small"
+ },
+ {
+  "block": 428,
+  "where": "What not to do, P7",
+  "kind": "added",
+  "new": "the “Guide” to ignore the needs of the “Child”",
+  "his": "the Leader cannot bypass the child",
+  "why": "'Leader' becomes 'Guide', and 'bypass' becomes 'ignore the needs of'.",
+  "severity": "small"
+ },
+ {
+  "block": 428,
+  "where": "What not to do, P7",
+  "kind": "error",
+  "new": "(e.g., allow the “Inner Child” to run your adult life, the “Protector” to shut out all love, the “Nurturer” to disregard consequences",
+  "his": "the child does not lead adult life; the Protector cannot exclude all love; the Nurturer cannot erase consequences",
+  "why": "Quote marks around the role names, which HIS has without them.",
+  "severity": "small"
+ },
+ {
+  "block": 429,
+  "where": "What not to do, P8",
+  "kind": "error",
+  "new": "to “force” down “protectors,” to give yourself certainty you do not have, to manipulate others, or to “heal” yourself",
+  "his": "override protectors, manufacture certainty, manipulate anyone, or perform healing",
+  "why": "Quote marks around 'force', 'protectors' and 'heal', which HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 430,
+  "where": "What not to do, P9",
+  "kind": "added",
+  "new": "Don’t consider negative indicators (doubt, distraction, resistance, lack of response, saying “No”) as good signs that the induction is working.",
+  "his": "do not prove that an induction is working",
+  "why": "HIS says these do not prove the induction is working; NEW says they are not even good signs, a stronger claim.",
+  "severity": "small"
+ },
+ {
+  "block": 431,
+  "where": "What not to do, P10",
+  "kind": "error",
+  "new": "the “safety” of “your unconscious mind”",
+  "his": "“The unconscious will keep me safe”",
+  "why": "Scare quotes around 'safety' and 'your unconscious mind'.",
+  "severity": "small"
+ },
+ {
+  "block": 431,
+  "where": "What not to do, P10",
+  "kind": "error",
+  "new": "“get out”",
+  "his": "",
+  "why": "Quote marks around 'get out', which HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 432,
+  "where": "What not to do, P11",
+  "kind": "error",
+  "new": "“attachments,” “transformations,” or information from your “subconscious mind.”",
+  "his": "attachment, transformation, or subconscious truth",
+  "why": "Scare quotes around 'attachments', 'transformations' and 'subconscious mind', which HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 432,
+  "where": "What not to do, P11",
+  "kind": "added",
+  "new": "are indications of hidden trauma",
+  "his": "do not prove hidden trauma",
+  "why": "HIS says ordinary sensations do not prove these things; NEW says they are not indications of them, a stronger claim.",
+  "severity": "small"
+ },
+ {
+  "block": 433,
+  "where": "What not to do, P12",
+  "kind": "added",
+  "new": "Don’t believe that anything is “healed” in your body (neurologically, cellularly, etc.) simply because it is “healed” in your imagination.",
+  "his": "",
+  "why": "No HIS paragraph backs this claim about healing in the body versus the imagination.",
+  "severity": "small"
+ },
+ {
+  "block": 434,
+  "where": "What not to do, P13",
+  "kind": "added",
+  "new": "Nor should you allow anyone to activate these “commands” in you without your knowledge, or use them to make you do something you don’t want to do, to make you into someone you don’t want to be, to give you amnesia, etc.",
+  "his": "",
+  "why": "No HIS paragraph backs this warning about others activating hidden commands or causing amnesia.",
+  "severity": "small"
+ },
+ {
+  "block": 436,
+  "where": "When this needs more support than a guide can provide, P1",
+  "kind": "lost",
+  "new": "or if dissociative symptoms are impacting your ability to function.",
+  "his": "need prompt professional assessment, not a four-to-twelve-week practice schedule.",
+  "why": "Drops that these signs call for professional assessment instead of continuing the four-to-twelve-week practice schedule.",
+  "severity": "matters"
+ },
+ {
+  "block": 437,
+  "where": "When this needs more support than a guide can provide, P2",
+  "kind": "lost",
+  "new": "recurring panic attacks",
+  "his": "recurring panic",
+  "why": "Narrows recurring panic to panic attacks.",
+  "severity": "small"
+ },
+ {
+  "block": 437,
+  "where": "When this needs more support than a guide can provide, P2",
+  "kind": "error",
+  "new": "if: You are experiencing",
+  "his": "",
+  "why": "A colon after 'if' with a capital letter after it breaks the sentence.",
+  "severity": "small"
+ },
+ {
+  "block": 438,
+  "where": "When this needs more support than a guide can provide, P3",
+  "kind": "added",
+  "new": "You probably don't need any more support than this if you keep the practice shorter, make it warm, pick a small and tractable subject, make sure you come back out, and then see how it affects a specific target (anxiety, daydreaming, helping a relationship, facing a task you've been avoiding, helping you sleep, being less reactive emotionally, improving your intuitive accuracy, etc) for a week or two.",
+  "his": "",
+  "why": "No HIS paragraph backs this reassurance that no more support is needed, its list of targets, or the week-or-two period.",
+  "severity": "matters"
+ },
+ {
+  "block": 440,
+  "where": "Methods to explore with a trained person present, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "Either can have different uses, including resourcing.",
+  "why": "Drops the point that bridging and regression can have other uses, including resourcing.",
+  "severity": "small"
+ },
+ {
+  "block": 440,
+  "where": "Methods to explore with a trained person present, P1",
+  "kind": "added",
+  "new": "hypnosis is not a way of knowing what did or did not happen to you",
+  "his": "Hypnosis cannot prove a historical event, even with a clinician present.",
+  "why": "'Cannot prove a historical event' becomes the broader 'not a way of knowing what did or did not happen to you'.",
+  "severity": "small"
+ },
+ {
+  "block": 441,
+  "where": "Methods to explore with a trained person present, P2",
+  "kind": "error",
+  "new": "difficult feelings, are not necessarily signs",
+  "his": "",
+  "why": "Stray comma between the subject and 'are'.",
+  "severity": "small"
+ },
+ {
+  "block": 442,
+  "where": "Methods to explore with a trained person present, P3",
+  "kind": "added",
+  "new": "The main clinical practice guidelines for the treatment of major trauma recommend one or more of trauma-specific variants of cognitive behavioral therapy",
+  "his": "Major trauma guidelines emphasize treatments such as trauma-focused CBT variants",
+  "why": "HIS says major trauma guidelines emphasize treatments such as these; NEW says the main clinical guidelines for treating major trauma recommend one or more of them, a stronger and differently scoped claim.",
+  "severity": "small"
+ },
+ {
+  "block": 446,
+  "where": "Closing, P1",
+  "kind": "lost",
+  "new": "Most of them are actually trying to help you.",
+  "his": "Most of them have been trying to help without ever being properly introduced.",
+  "why": "The joke 'without ever being properly introduced' is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 446,
+  "where": "Closing, P1",
+  "kind": "lost",
+  "new": "the guy who's tensed up and ready for the other shoe to drop for a long time",
+  "his": "the protector that has been braced for years",
+  "why": "'The protector' becomes 'the guy', so the named part is lost.",
+  "severity": "small"
+ },
+ {
+  "block": 447,
+  "where": "Closing, P2",
+  "kind": "error",
+  "new": "\"get hypnotized\"",
+  "his": "",
+  "why": "Quote marks around 'get hypnotized', which HIS does not have.",
+  "severity": "small"
+ }
+]

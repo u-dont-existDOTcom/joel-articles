@@ -1,0 +1,236 @@
+[
+ {
+  "block": 90,
+  "where": "From Visitor to Member—Slowly, P5",
+  "kind": "added",
+  "new": "You can find out by checking whether you’ve seen them do this thing before, and asking for references if appropriate.",
+  "his": "",
+  "why": "A way to vet people (check their track record, ask for references) with no source here.",
+  "severity": "small"
+ },
+ {
+  "block": 90,
+  "where": "From Visitor to Member—Slowly, P5",
+  "kind": "added",
+  "new": "Give people access to these things in stages",
+  "his": "",
+  "why": "A staged-access instruction with no source here.",
+  "severity": "small"
+ },
+ {
+  "block": 90,
+  "where": "From Visitor to Member—Slowly, P5",
+  "kind": "added",
+  "new": "ensure there’s always some way to appeal decisions about these roles to a separate authority if needed",
+  "his": "",
+  "why": "A rule that role decisions can be appealed to a separate authority, with no source here.",
+  "severity": "matters"
+ },
+ {
+  "block": 91,
+  "where": "From Visitor to Member—Slowly, P6",
+  "kind": "added",
+  "new": "Write down your answers:",
+  "his": "",
+  "why": "An instruction to write the answers down that HIS does not give.",
+  "severity": "small"
+ },
+ {
+  "block": 91,
+  "where": "From Visitor to Member—Slowly, P6",
+  "kind": "added",
+  "new": "How long is a provisional membership, and what are a provisional member’s rights and responsibilities? How is it reviewed, and how does someone leave it?",
+  "his": "",
+  "why": "Questions about provisional membership that the source line (full membership only) does not contain.",
+  "severity": "matters"
+ },
+ {
+  "block": 91,
+  "where": "From Visitor to Member—Slowly, P6",
+  "kind": "added",
+  "new": "Who decides on full membership? (Hint: not the person who recruited them! 😜)",
+  "his": "",
+  "why": "A new question plus an invented rule and joke about who must not decide on full membership.",
+  "severity": "matters"
+ },
+ {
+  "block": 92,
+  "where": "From Visitor to Member—Slowly, P7",
+  "kind": "error",
+  "new": "fully “in” the commune politically",
+  "his": "full political membership",
+  "why": "Quote marks around the word in, which HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 92,
+  "where": "From Visitor to Member—Slowly, P7",
+  "kind": "added",
+  "new": "(yes, even interns)",
+  "his": "",
+  "why": "An aside that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 92,
+  "where": "From Visitor to Member—Slowly, P7",
+  "kind": "added",
+  "new": "are entitled to some rights when decisions really affect their pay or access to common resources",
+  "his": "do not need full political membership to have rights",
+  "why": "HIS says they have rights without full membership; NEW says 'some rights' and 'really affect' where HIS says 'materially affects'.",
+  "severity": "small"
+ },
+ {
+  "block": 92,
+  "where": "From Visitor to Member—Slowly, P7",
+  "kind": "lost",
+  "new": "All of them should have clear terms",
+  "his": "If a decision materially affects their compensation or access to shared resources, schedule, safety, housing, records, or discipline, they need clear terms, a way to be heard, and review.",
+  "why": "In HIS clear terms are owed only when a decision materially affects them; NEW says it of all of them.",
+  "severity": "small"
+ },
+ {
+  "block": 92,
+  "where": "From Visitor to Member—Slowly, P7",
+  "kind": "added",
+  "new": "a servant class that moves from commune to commune",
+  "his": "a servant class between communes",
+  "why": "NEW says the servant class moves from commune to commune; HIS says it sits between communes.",
+  "severity": "small"
+ },
+ {
+  "block": 94,
+  "where": "From Visitor to Member—Slowly, P9",
+  "kind": "added",
+  "new": "If it gets to the point of being impossible to live with, they will be kicked out. But nearly always, people who don’t fit in leave way before that.",
+  "his": "",
+  "why": "These two sentences are not in this block's source paragraph; Joel says something close in the next block's source.",
+  "severity": "small"
+ },
+ {
+  "block": 95,
+  "where": "From Visitor to Member—Slowly, P10",
+  "kind": "lost",
+  "new": "",
+  "his": "it depends on so many factors, i can't decide anything, it's up to the people involved.",
+  "why": "Joel's limit that exceptions depend on many factors and are up to the people involved is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 103,
+  "where": "Zap spirituality enigma, P1",
+  "kind": "added",
+  "new": "I felt a deep spirituality from the Zapatistas.",
+  "his": "",
+  "why": "A first-person claim about his experience with no source here.",
+  "severity": "small"
+ },
+ {
+  "block": 107,
+  "where": "Democratic anarcho-communalism actualized, P3",
+  "kind": "added",
+  "new": "Good Government Juntas (Boards)",
+  "his": "Good Government Boards",
+  "why": "Adds the word Juntas and a bracketed gloss that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 114,
+  "where": "Exporting Zapatismo via the Escuelita, P2",
+  "kind": "lost",
+  "new": "",
+  "his": "The useful thing isn't their diagram. It's how they learn: they build things and ask questions, and when they find out where the practice isn't working, they change the structure.",
+  "why": "The takeaway that the useful part is how they learn is dropped, and 'the diagram' in NEW now has nothing to refer to.",
+  "severity": "matters"
+ },
+ {
+  "block": 114,
+  "where": "Exporting Zapatismo via the Escuelita, P2",
+  "kind": "lost",
+  "new": "",
+  "his": "Zapatista autonomy grew out of Indigenous communities with long histories. They share language and family ties. They've fought land struggles together, and defended themselves together for decades.",
+  "why": "The reasons behind 'the trust underneath it' (shared history, language, family ties, struggles) are dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 117,
+  "where": "Money is still a problem, P2",
+  "kind": "lost",
+  "new": "",
+  "his": "It is to teach enough of the social and material system that some can build elsewhere.",
+  "why": "The positive purpose of the escuelita (teach enough that some can build elsewhere) is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 119,
+  "where": "Are Zapatistas just unicorns?, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "I’m borrowing a pedagogy and a replication ambition, not claiming the Zapatistas already proved my whole model.",
+  "why": "Joel's limit on his claim (he is not saying the Zapatistas proved his model) is dropped.",
+  "severity": "matters"
+ },
+ {
+  "block": 120,
+  "where": "Are Zapatistas just unicorns?, P2",
+  "kind": "lost",
+  "new": "But it means that people building institutions of this sort",
+  "his": "The resemblance doesn’t prove a universal formula.",
+  "why": "The caveat that the resemblance proves no universal formula is dropped, and 'But it means' now has nothing to contrast with.",
+  "severity": "matters"
+ },
+ {
+  "block": 122,
+  "where": "What Community Looks Like From Sénégal, P1",
+  "kind": "added",
+  "new": "People here are like, “Don’t human beings already do that?”",
+  "his": "for something people assume human beings already do",
+  "why": "HIS says people assume human beings already do this; NEW turns it into an invented line of speech in quote marks.",
+  "severity": "small"
+ },
+ {
+  "block": 123,
+  "where": "What Community Looks Like From Sénégal, P2",
+  "kind": "added",
+  "new": "Kind of the opposite problem.",
+  "his": "",
+  "why": "An aside that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 124,
+  "where": "What Community Looks Like From Sénégal, P3",
+  "kind": "added",
+  "new": "Would you like people coming to your house to stare at you and your family?",
+  "his": "",
+  "why": "A rhetorical comparison with no source here.",
+  "severity": "small"
+ },
+ {
+  "block": 125,
+  "where": "What Community Looks Like From Sénégal, P4",
+  "kind": "added",
+  "new": "Whether it’s land, childcare, housing, food, obligations, etc, etc.",
+  "his": "land, childcare, housing, food, and obligation",
+  "why": "HIS has a closed list; NEW makes it open-ended with 'etc, etc'.",
+  "severity": "small"
+ },
+ {
+  "block": 125,
+  "where": "What Community Looks Like From Sénégal, P4",
+  "kind": "lost",
+  "new": "",
+  "his": "An aunt has already assigned three people a task.",
+  "why": "The aunt joke that makes the point concrete is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 127,
+  "where": "What Community Looks Like From Sénégal, P6",
+  "kind": "error",
+  "new": "designated “spiritual” places",
+  "his": "designated spiritual spaces",
+  "why": "Quote marks around spiritual that HIS does not have.",
+  "severity": "small"
+ }
+]

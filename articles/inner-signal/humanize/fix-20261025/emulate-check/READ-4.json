@@ -1,0 +1,623 @@
+[
+ {
+  "block": 229,
+  "where": "Soft language can still take away choice, P12",
+  "kind": "error",
+  "new": "de hypno",
+  "his": "de-hypnosis",
+  "why": "The term is cut short and its hyphen dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 229,
+  "where": "Soft language can still take away choice, P12",
+  "kind": "lost",
+  "new": "longer version of the de hypno",
+  "his": "longer de-hypnosis checklist",
+  "why": "A checklist becomes just a 'version'.",
+  "severity": "small"
+ },
+ {
+  "block": 231,
+  "where": "Induction: gathering attention without disappearing, P1",
+  "kind": "lost",
+  "new": "or otherwise not very trancey",
+  "his": "analytical, or guarded",
+  "why": "'Guarded' is gone from the states where an induction helps.",
+  "severity": "small"
+ },
+ {
+  "block": 231,
+  "where": "Induction: gathering attention without disappearing, P1",
+  "kind": "added",
+  "new": "nice to do an actual induction",
+  "his": "an actual induction may help",
+  "why": "'May help' becomes 'nice to do', a different, softer claim.",
+  "severity": "small"
+ },
+ {
+  "block": 231,
+  "where": "Induction: gathering attention without disappearing, P1",
+  "kind": "added",
+  "new": "not about surrendering or playing asleep or obeying someone",
+  "his": "surrender, play asleep, or obey anyone",
+  "why": "A permission ('you don't have to') becomes a flat claim about what inductions are.",
+  "severity": "small"
+ },
+ {
+  "block": 234,
+  "where": "What an induction is actually doing, P1",
+  "kind": "added",
+  "new": "going to be counting",
+  "his": "Counting is one way in.",
+  "why": "Adds a first-person 'I' who counts; HIS only says counting is one way in.",
+  "severity": "small"
+ },
+ {
+  "block": 234,
+  "where": "What an induction is actually doing, P1",
+  "kind": "lost",
+  "new": "or make sounds, or be curious",
+  "his": "repeated sound, and curiosity can also organize attention",
+  "why": "No longer says these ways can themselves organize attention; 'repeated' is also dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 234,
+  "where": "What an induction is actually doing, P1",
+  "kind": "added",
+  "new": "The only thing is, say that",
+  "his": "Say so when you use them",
+  "why": "Announcing it becomes 'the only thing', a stronger rule than HIS.",
+  "severity": "small"
+ },
+ {
+  "block": 235,
+  "where": "What an induction is actually doing, P2",
+  "kind": "lost",
+  "new": "Test: Are you getting the response you want out of this already?",
+  "his": "For a simple, chosen target, you can test the suggestion before deepening.",
+  "why": "The condition 'for a simple, chosen target' is gone, so skipping deepening now looks general.",
+  "severity": "matters"
+ },
+ {
+  "block": 235,
+  "where": "What an induction is actually doing, P2",
+  "kind": "lost",
+  "new": "If so, you might not need to deepen.",
+  "his": "If the useful response is already happening, build from it.",
+  "why": "'Build from it' is replaced by 'you might not need to deepen'.",
+  "severity": "small"
+ },
+ {
+  "block": 235,
+  "where": "What an induction is actually doing, P2",
+  "kind": "lost",
+  "new": "",
+  "his": "An induction helps you find a receptive way of listening",
+  "why": "The point that an induction is a receptive way of listening, not a ceremony to finish before responding, is gone.",
+  "severity": "small"
+ },
+ {
+  "block": 237,
+  "where": "Please don’t put six metaphors in one trance, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "Floating, stairs, gardens, inner rooms, colored light, and child dialogue do not all need to report for duty at once.",
+  "why": "The list of example metaphors and the joke about them are gone.",
+  "severity": "small"
+ },
+ {
+  "block": 237,
+  "where": "Please don’t put six metaphors in one trance, P1",
+  "kind": "lost",
+  "new": "if you switch metaphors, do it in a way that",
+  "his": "Switch consciously when the metaphor stops helping.",
+  "why": "The reason to switch (the metaphor stops helping) is gone.",
+  "severity": "small"
+ },
+ {
+  "block": 238,
+  "where": "Please don’t put six metaphors in one trance, P2",
+  "kind": "added",
+  "new": "You can use whatever form of signal makes sense to you",
+  "his": "A signal may arrive through sensation, rhythm, movement, words, spatial sense, simple knowing, or no response at all.",
+  "why": "A signal that arrives in some form becomes a form you pick.",
+  "severity": "small"
+ },
+ {
+  "block": 238,
+  "where": "Please don’t put six metaphors in one trance, P2",
+  "kind": "lost",
+  "new": "You can borrow qualities",
+  "his": "Borrow qualities such as warmth or steadiness",
+  "why": "The examples (warmth, steadiness) are dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 239,
+  "where": "Please don’t put six metaphors in one trance, P3",
+  "kind": "lost",
+  "new": "what the short refrains are",
+  "his": "Pick one central verb, one sensory quality, one short refrain, and one transition phrase",
+  "why": "'Pick one' of each becomes 'think about' them, and the refrain becomes plural.",
+  "severity": "matters"
+ },
+ {
+  "block": 239,
+  "where": "Please don’t put six metaphors in one trance, P3",
+  "kind": "added",
+  "new": "Read it out loud as",
+  "his": "then read the script aloud",
+  "why": "Reading aloud moves from after writing to while writing.",
+  "severity": "small"
+ },
+ {
+  "block": 241,
+  "where": "Before you begin, P1",
+  "kind": "lost",
+  "new": "when you're awake",
+  "his": "while fully awake",
+  "why": "'Fully awake' is weakened to 'awake'.",
+  "severity": "small"
+ },
+ {
+  "block": 242,
+  "where": "Before you begin, P2",
+  "kind": "error",
+  "new": "What do you want not to do today.",
+  "his": "leaving alone today",
+  "why": "A question ends with a full stop instead of a question mark.",
+  "severity": "small"
+ },
+ {
+  "block": 242,
+  "where": "Before you begin, P2",
+  "kind": "lost",
+  "new": "leaving some time at the end to come back",
+  "his": "Leave several minutes for returning and reflecting.",
+  "why": "'Several minutes' becomes 'some time'.",
+  "severity": "small"
+ },
+ {
+  "block": 243,
+  "where": "Before you begin, P3",
+  "kind": "lost",
+  "new": "If you are overwhelmed by chemicals",
+  "his": "When intoxicated",
+  "why": "Any intoxication is narrowed to being overwhelmed by chemicals, which weakens the safety line.",
+  "severity": "matters"
+ },
+ {
+  "block": 243,
+  "where": "Before you begin, P3",
+  "kind": "added",
+  "new": "otherwise need to be attending to yourself or other people",
+  "his": "anyone needing your supervision",
+  "why": "Adds 'yourself'; HIS only rules out others who need your supervision.",
+  "severity": "small"
+ },
+ {
+  "block": 244,
+  "where": "Before you begin, P4",
+  "kind": "lost",
+  "new": "Something else?",
+  "his": "a firmer invitation to stay with a feeling",
+  "why": "The third option, a firmer invitation to stay with a feeling, is gone.",
+  "severity": "small"
+ },
+ {
+  "block": 244,
+  "where": "Before you begin, P4",
+  "kind": "added",
+  "new": "How will you coax yourself to do this?",
+  "his": "Decide what kind of encouragement is welcome",
+  "why": "Coaxing yourself to do it replaces choosing which encouragement is welcome.",
+  "severity": "small"
+ },
+ {
+  "block": 244,
+  "where": "Before you begin, P4",
+  "kind": "lost",
+  "new": "read the script if you can",
+  "his": "read the script beforehand when possible",
+  "why": "'Beforehand' is dropped, so the timing of reading it is unclear.",
+  "severity": "small"
+ },
+ {
+  "block": 244,
+  "where": "Before you begin, P4",
+  "kind": "added",
+  "new": "at any time and the induction will end",
+  "his": "ends the exercise",
+  "why": "'At any time' is added, making 'stop' work absolutely.",
+  "severity": "small"
+ },
+ {
+  "block": 244,
+  "where": "Before you begin, P4",
+  "kind": "added",
+  "new": "and then come all the way back anyway",
+  "his": "You can simply open your eyes and finish.",
+  "why": "New instruction: still do the full return after opening your eyes.",
+  "severity": "small"
+ },
+ {
+  "block": 244,
+  "where": "Before you begin, P4",
+  "kind": "added",
+  "new": "even if a part tells you that you do",
+  "his": "No inner part has to approve your decision to stop.",
+  "why": "New aside about a part claiming you need permission.",
+  "severity": "small"
+ },
+ {
+  "block": 245,
+  "where": "Before you begin, P5",
+  "kind": "added",
+  "new": "or haven't done it for a while",
+  "his": "When entry and return are unfamiliar",
+  "why": "Widens the condition to people who have not practiced lately.",
+  "severity": "small"
+ },
+ {
+  "block": 245,
+  "where": "Before you begin, P5",
+  "kind": "added",
+  "new": "make sure you can change state",
+  "his": "Once you know how to change direction",
+  "why": "'Change direction' becomes 'change state'.",
+  "severity": "small"
+ },
+ {
+  "block": 246,
+  "where": "Before you begin, P6",
+  "kind": "lost",
+  "new": "Use what you have to go to the next place, whatever it is.",
+  "his": "a thought, sound, movement, or objection may change where the practice goes",
+  "why": "The examples, including an objection changing where the practice goes, are gone.",
+  "severity": "small"
+ },
+ {
+  "block": 246,
+  "where": "Before you begin, P6",
+  "kind": "added",
+  "new": "or keep reading below for information on using the tools after induction",
+  "his": "Appendix B teaches the richer language tools, and Let the next response guide you shows how to use them after the induction.",
+  "why": "'And' (both sources) becomes 'or' (pick one).",
+  "severity": "small"
+ },
+ {
+  "block": 248,
+  "where": "Sober induction: 3–5 minutes, P1",
+  "kind": "added",
+  "new": "read this slowly to yourself on your recorder",
+  "his": "Read this slowly into a recorder",
+  "why": "Reading into a recorder (to record it) becomes reading to yourself on your recorder.",
+  "severity": "small"
+ },
+ {
+  "block": 248,
+  "where": "Sober induction: 3–5 minutes, P1",
+  "kind": "lost",
+  "new": "you can read it out loud or say it to yourself if you are good at that",
+  "his": "learn its movement and use silent words if that comes easily",
+  "why": "'Learn its movement' is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 248,
+  "where": "Sober induction: 3–5 minutes, P1",
+  "kind": "lost",
+  "new": "read the directions, just pause between paragraphs",
+  "his": "read the delivery directions aloud",
+  "why": "'Delivery' and 'aloud' are dropped, so it can read as 'ignore the directions'.",
+  "severity": "small"
+ },
+ {
+  "block": 250,
+  "where": "Sober induction: 3–5 minutes, P3",
+  "kind": "lost",
+  "new": "come into view",
+  "his": "notice the difference between looking for something and letting what is already there come into view",
+  "why": "The contrast between looking for something and letting it come into view is gone.",
+  "severity": "small"
+ },
+ {
+  "block": 251,
+  "where": "Sober induction: 3–5 minutes, P4",
+  "kind": "lost",
+  "new": "Or maybe there is a sound, or something else to notice.",
+  "his": "a sound may reach you, or a breath may draw your attention, without needing you to arrange either one",
+  "why": "The breath and 'without needing you to arrange either one' are gone.",
+  "severity": "small"
+ },
+ {
+  "block": 253,
+  "where": "Sober induction: 3–5 minutes, P6",
+  "kind": "lost",
+  "new": "You might notice yourself thinking",
+  "his": "A thought about the day may still be here",
+  "why": "The two example thoughts (the day; whether you are doing it properly) are gone.",
+  "severity": "small"
+ },
+ {
+  "block": 254,
+  "where": "Sober induction: 3–5 minutes, P7",
+  "kind": "lost",
+  "new": "",
+  "his": "and let attention stay with it long enough to become curious",
+  "why": "The step of staying with the detail until you get curious is gone.",
+  "severity": "matters"
+ },
+ {
+  "block": 254,
+  "where": "Sober induction: 3–5 minutes, P7",
+  "kind": "added",
+  "new": "something that you are doing that holds your interest",
+  "his": "one detail that holds your interest",
+  "why": "A detail you find becomes something you are doing.",
+  "severity": "small"
+ },
+ {
+  "block": 255,
+  "where": "Sober induction: 3–5 minutes, P8",
+  "kind": "added",
+  "new": "what she wants to say",
+  "his": "finishing their sentence for them",
+  "why": "Adds a gendered 'she'; HIS keeps the person unspecified.",
+  "severity": "small"
+ },
+ {
+  "block": 255,
+  "where": "Sober induction: 3–5 minutes, P8",
+  "kind": "lost",
+  "new": "so you are going to stick around till she gets it all out",
+  "his": "You can remain nearby, listening, without finishing their sentence for them.",
+  "why": "'Without finishing their sentence for them' is gone, and an option becomes a firm commitment.",
+  "severity": "small"
+ },
+ {
+  "block": 256,
+  "where": "Sober induction: 3–5 minutes, P9",
+  "kind": "added",
+  "new": "Repeat the phrase that you chose, if you want to.",
+  "his": "Let your chosen phrase come to mind now.",
+  "why": "The phrase is repeated by choice instead of being allowed to come to mind.",
+  "severity": "small"
+ },
+ {
+  "block": 258,
+  "where": "Sober induction: 3–5 minutes, P11",
+  "kind": "lost",
+  "new": "taking your time if you like",
+  "his": "Count slowly from five to one. Give each number its own moment.",
+  "why": "Slow counting becomes optional and 'its own moment' is gone.",
+  "severity": "small"
+ },
+ {
+  "block": 259,
+  "where": "Sober induction: 3–5 minutes, P12",
+  "kind": "lost",
+  "new": "",
+  "his": "Five.",
+  "why": "The first number of the countdown is missing (4, 3, 2, 1 are marked, 5 is not).",
+  "severity": "small"
+ },
+ {
+  "block": 261,
+  "where": "Sober induction: 3–5 minutes, P14",
+  "kind": "added",
+  "new": "What do you notice now?",
+  "his": "What am I noticing now?",
+  "why": "A first-person question turned second-person.",
+  "severity": "small"
+ },
+ {
+  "block": 265,
+  "where": "Already open? Contain before you deepen, P1",
+  "kind": "added",
+  "new": "seeing something you love, etc",
+  "his": "intense beauty",
+  "why": "'Intense beauty' becomes 'seeing something you love', and 'etc' opens the closed list.",
+  "severity": "small"
+ },
+ {
+  "block": 265,
+  "where": "Already open? Contain before you deepen, P1",
+  "kind": "lost",
+  "new": "and want to aim and stabilize it",
+  "his": "Stabilize before making it stronger.",
+  "why": "'Before making it stronger' (do not intensify) is gone here.",
+  "severity": "small"
+ },
+ {
+  "block": 266,
+  "where": "Already open? Contain before you deepen, P2",
+  "kind": "lost",
+  "new": "you just need to aim and stabilize it",
+  "his": "I do not need to intensify it.",
+  "why": "The explicit 'I do not need to intensify it' is gone.",
+  "severity": "small"
+ },
+ {
+  "block": 266,
+  "where": "Already open? Contain before you deepen, P2",
+  "kind": "added",
+  "new": "Know that you're already open",
+  "his": "The state is already open.",
+  "why": "A first-person self-statement becomes a second-person instruction.",
+  "severity": "small"
+ },
+ {
+  "block": 267,
+  "where": "Already open? Contain before you deepen, P3",
+  "kind": "error",
+  "new": "Where are you.",
+  "his": "Name where you are.",
+  "why": "Questions end with full stops instead of question marks.",
+  "severity": "small"
+ },
+ {
+  "block": 270,
+  "where": "Already open? Contain before you deepen, P6",
+  "kind": "lost",
+  "new": "that I can integrate",
+  "his": "only in the amount I can live well with",
+  "why": "The limit on the amount is gone.",
+  "severity": "small"
+ },
+ {
+  "block": 273,
+  "where": "Stay awake when your mind likes to escape, P2",
+  "kind": "added",
+  "new": "Ask yourself why you're daydreaming.",
+  "his": "",
+  "why": "A new step (ask why you are daydreaming, with three options) that no HIS line here says.",
+  "severity": "small"
+ },
+ {
+  "block": 274,
+  "where": "Stay awake when your mind likes to escape, P3",
+  "kind": "added",
+  "new": "If I'm meant to be getting guidance",
+  "his": "If it is guidance",
+  "why": "'Meant to be getting' adds the idea that the guidance is intended for you.",
+  "severity": "small"
+ },
+ {
+  "block": 274,
+  "where": "Stay awake when your mind likes to escape, P3",
+  "kind": "lost",
+  "new": "please bring me back to now",
+  "his": "bring me gently into the present",
+  "why": "'Gently' is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 276,
+  "where": "Make the hypnosis more active, P1",
+  "kind": "lost",
+  "new": "As you move one of your hands, you're going to move deliberately",
+  "his": "pair a small repeated hand movement with increasing clarity",
+  "why": "The small repeated movement paired with increasing clarity becomes just moving deliberately.",
+  "severity": "small"
+ },
+ {
+  "block": 277,
+  "where": "Make the hypnosis more active, P2",
+  "kind": "error",
+  "new": "fore finger",
+  "his": "forefinger",
+  "why": "'Forefinger' is split into two words.",
+  "severity": "small"
+ },
+ {
+  "block": 277,
+  "where": "Make the hypnosis more active, P2",
+  "kind": "error",
+  "new": "press your finger together gently",
+  "his": "Press thumb and forefinger together gently.",
+  "why": "'Finger' is singular where it should be 'fingers'.",
+  "severity": "small"
+ },
+ {
+  "block": 277,
+  "where": "Make the hypnosis more active, P2",
+  "kind": "lost",
+  "new": "work at this level",
+  "his": "work from exactly that level of alertness",
+  "why": "'Level of alertness' is gone, so 'this level' has nothing to point to.",
+  "severity": "small"
+ },
+ {
+  "block": 277,
+  "where": "Make the hypnosis more active, P2",
+  "kind": "error",
+  "new": "Just notice, keep yourself up straight and work at this level.",
+  "his": "work from exactly that level of alertness.”",
+  "why": "The opening quotation mark is never closed.",
+  "severity": "small"
+ },
+ {
+  "block": 281,
+  "where": "The two-hand induction, P3",
+  "kind": "error",
+  "new": "Start to breath gently",
+  "his": "Breathe gently.",
+  "why": "'Breath' (noun) used for 'breathe' (verb).",
+  "severity": "small"
+ },
+ {
+  "block": 285,
+  "where": "Sleep induction, P1",
+  "kind": "lost",
+  "new": "Sleep induction is different than inner work",
+  "his": "Revelation can wait; the task is rest.",
+  "why": "'The task is rest' (the aim of a sleep induction) is gone.",
+  "severity": "small"
+ },
+ {
+  "block": 289,
+  "where": "Optional fractionation: practice coming back, P1",
+  "kind": "added",
+  "new": "you must say you are doing it before doing it",
+  "his": "",
+  "why": "A new 'must' rule (announce it before doing it) with no HIS paragraph behind it.",
+  "severity": "small"
+ },
+ {
+  "block": 290,
+  "where": "Optional fractionation: practice coming back, P2",
+  "kind": "added",
+  "new": "that is ok too, either way is ok",
+  "his": "You may stop at either point.",
+  "why": "Adds a reassurance aside that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 292,
+  "where": "Deepening, if useful, P1",
+  "kind": "added",
+  "new": "you can remain as awake as you need to be",
+  "his": "I remain exactly as awake as I need to be.",
+  "why": "A first-person statement becomes a second-person permission, and 'exactly' is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 293,
+  "where": "Deepening, if useful, P2",
+  "kind": "added",
+  "new": "down by a clear lake where you can see the bottom",
+  "his": "a clear lake",
+  "why": "Adds a detail about seeing the bottom of the lake.",
+  "severity": "small"
+ },
+ {
+  "block": 296,
+  "where": "Optional trance depth check, P1",
+  "kind": "added",
+  "new": "As you wait and release the responsibility of making it happen",
+  "his": "As I wait, I give up the responsibility of making anything happen.",
+  "why": "First person becomes second person, and 'anything' becomes 'it'.",
+  "severity": "small"
+ },
+ {
+  "block": 297,
+  "where": "Optional trance depth check, P2",
+  "kind": "lost",
+  "new": "tingle in a noticeable way",
+  "his": "become subtly noticeable",
+  "why": "'Subtly' is dropped; the signal is now plainly noticeable.",
+  "severity": "small"
+ },
+ {
+  "block": 297,
+  "where": "Optional trance depth check, P2",
+  "kind": "error",
+  "new": "ready for you to go in to",
+  "his": "when the inner meeting space is ready",
+  "why": "'Go in to' ends on a dangling 'to'.",
+  "severity": "small"
+ }
+]

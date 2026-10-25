@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "03945c96e55b43ed3a1f09fa0e65bd33436b25af0ca61154c6bed78052ecac7e",
+  "context_sha256": "91d9c48d57a36e06058d3e9ecc2b4915ec4743960190072f2b98bf488c133a5e",
+  "source_sha256": "3e1e2421653a3b0b2faea48e1330b07e6e5a76f2963cfa77c95c074b19ee9c35",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "emulate-gate-cold_read_1-subagent-r2c",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session), round 2"
+  },
+  "evidence": "Judged: 'Who has to step aside because they’re too close to it?' Read cold as the second item in the removal-process checklist, after 'What counts as cause for immediate protective action?' and before 'Who decides to put temporary restrictions on someone?'. It matches its neighbours' question form; asking who is out before who decides is logical, and the spot keeps the adjacency of recusal and temporary restrictions in his line. Against SOURCE: his 'who is recused' comes back as a plain-language question. 'Because they’re too close to it' is the ordinary sense of recusal (conflict, closeness), not a new rule or fact, and the point appears nowhere else in the section ('not reviewing its own conduct' in the outside-authority paragraph is about external review, a different point), so nothing is duplicated. Referents (C02): 'they' is whoever 'Who' picks out; 'it' is the removal matter, the same loose 'it' the paragraph already sets up in 'work out the process before it’s about anyone in particular' right after 'This power to remove people', so it is anchored; 'step aside' reads as stepping out of handling the case because of closeness (not leaving the community), since the reason clause follows it directly. No tell row is PRESENT. T02 examined because the paragraph is a run of eight short questions: that run is the paragraph's existing form and his own (his line is the same list), a list or question alone is not the tell, and the draft restores one of his items in its neighbours' shape rather than adding a new beat; folding it into another question would make a packed sentence (T21). T03: the paragraph's lead-in ('so easily abused... work out the process') sets up every item. T26: the 'Who' openers are the list's parallel form. T15: a plain gloss of 'recused', not a swapped rarer word. No first person (T01, C03), no tic words (T27), no named-entity claim (C04). Typography matches the context (curly apostrophe, no space before the question mark). Linter: CLEAR, no findings to resolve.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

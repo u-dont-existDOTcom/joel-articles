@@ -1,0 +1,232 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "08e5817fd1af4778b714f4462b80a60103168ed1812828e40df95dad955d0290",
+  "context_sha256": "7101239079f59453b5948fbb606d0e9276ac00022e818283b92648642e3404e7",
+  "source_sha256": "cc102cfdb9364a4a69fc8615645800b9bc26cab3079e77594548be7329c6d603",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "writer": {
+    "name": "Claude Opus 5.5, the hypnosis guide and community lanes' writer",
+    "context_id": "session_01Mxpoi6tFT3FgKmBvtGjRtS"
+  },
+  "lint": {
+    "verdict_at_init": "REVIEW",
+    "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+    "stdout_sha256": "cbdf5404db61ecac7fac0a98198837c41e6789da410e8363c1ee76bee933d9cc",
+    "findings": [
+      {
+        "label": "D9 follows the source order",
+        "examples": [
+          "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "It is his own line (SOURCE.txt) put back in place of Emulate's wording, so it follows his order by design; the paragraph around it keeps its own order and asides."
+      }
+    ]
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "no first-person stake in \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\" beyond the source's own",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "\"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\" is one step in its paragraph, not part of a run of compressed commands",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "the sentence before it in the context sets it up; nothing new arrives unprepared in \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "no scene in \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "no concrete prop in \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "no vague healing or process language in \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\"; its terms are the article's own",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "no filler or staged hesitation in \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "no image followed by an explanation of it in \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "one change in one passage; \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\" gets the weight its point needs, the rest of the passage is unchanged",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "no \"you don't have to X before Y\" packaging in \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "\"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\" carries a claim or step, not a bridge between document parts",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "no matched pair or closed list made for symmetry in \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "the passage around \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\" keeps its reasons, asides and callbacks; the change adds none of its own and removes none",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "no material moved to dodge a detector: \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\" puts back the author's own point that Emulate dropped",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "\"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\" puts back the author's words or meaning, not less likely words for their own sake",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "no \"not X, it's Y\" in \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "ABSENT",
+      "evidence": "no compressed thesis or aphorism in \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "no premise flipped by a short sentence in \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "\"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\" does not announce what comes next",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "\"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\" is not a polished paragraph-ending line",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "ABSENT",
+      "evidence": "\"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\" does one job, not several coordinated argumentative jobs",
+      "resolution": ""
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "\"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\" carries a step, a rule or a reason from his line, not reassurance alone",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "no generic scenery in \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "no faux-insight setup or self-answered question in \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "no colon reveal in \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "ABSENT",
+      "evidence": "no distinctive word or phrase in \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\" repeated within three paragraphs without a job",
+      "resolution": ""
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "none of the tic words (\"doing some work\", \"load-bearing\", \"digest\", \"clean\", vague \"work\") in \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "\"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\" is not the end of its section, and adds no lesson or uplift",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "\"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\" is not a closing restatement of its paragraph",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "the inner child is not named in \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\", and \"the kid\" appears nowhere in it",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "\"it\" is \"a community\", named in the same sentence",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "no first-person fact about Joel's life in \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\" that he didn't give",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "no claim about a study, person or product in \"And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or...\"",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "REVIEW-preservation.json",
+    "cold_read_1": "REVIEW-cold_read_1.json",
+    "cold_read_2": "REVIEW-cold_read_2.json"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "deae184a2e738b99fb529d6f6cda5d7b726b2bb73511cccbcd7f64ae520bc1d8",
+  "context_sha256": "efc673902898383421b5e20a0ba3c213ca976c7796a5d3bc36aa9cc11be52932",
+  "source_sha256": "2f6ec1d1fe3276463b2eed4b604468a8560d1a43e60e554672550e104ccecd4d",
+  "verdict": "FAIL",
+  "unresolved": [
+    "Adds a condition his rule lacks: “instead of getting them looked at” limits the ban to suppressing symptoms in place of medical attention, but his line is an unconditional “suppress medical symptoms”; this keeps the narrowing the change says it removes.",
+    "Lint “B2 contrast” not accepted: the contrast it flags is that “instead of” clause, which is not in his line."
+  ],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation)",
+    "context_id": "emulate-gate-preservation-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Judged “DO NOT: Attempt to force memories, to use trance to prove something happened to you, or to force down medical symptoms with hypnosis instead of getting them looked at.” against his line (“Do not force memory recovery, use trance to prove what happened, or suppress medical symptoms.”) and the sentence it replaces. The quote marks are gone, as the_change says. The first two items are Emulate’s wording minus the quote marks (“force memories” for his “force memory recovery”, “prove something happened to you” for “prove what happened”: same meaning, and not what this change is about). The third item is the problem. His rule is a flat ban on suppressing medical symptoms. The draft bans forcing them down “with hypnosis instead of getting them looked at”, which leaves forcing symptoms down alongside a check-up untouched. That is the same narrowing to medical attention that the_change says it takes out, moved into a new clause, and SOURCE.txt shows no source for the clause (the admission ledger’s “from his line” for this contrast is not right for it). Lint: B2 contrast not accepted, because the contrast is that clause; D9 accepted (one sentence, his order). No tell row is PRESENT. Fix: end the item at “medical symptoms” (or “with hypnosis”) without “instead of getting them looked at”.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order"
+  ]
+}

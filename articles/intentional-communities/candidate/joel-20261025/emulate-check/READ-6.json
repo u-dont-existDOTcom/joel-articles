@@ -1,0 +1,146 @@
+[
+ {
+  "block": 232,
+  "where": "Communal Parenting Adds On, P2",
+  "kind": "lost",
+  "new": "",
+  "his": "Kids can benefit from high-quality group care and multiple loving adults in their lives, but replacing a secure attachment to their parents is a different matter.",
+  "why": "The closing distinction (group care and many loving adults help, but replacing a secure parental attachment is another matter) is gone, so the caution about separate sleeping reads as absolute.",
+  "severity": "matters"
+ },
+ {
+  "block": 237,
+  "where": "Children Need Freedom Inside Real Protection, P3",
+  "kind": "lost",
+  "new": "Older kids can’t be allowed to boss the younger ones around there.",
+  "his": "Older kids can't be allowed to quietly boss the younger ones around there.",
+  "why": "The word quietly is dropped, so the rule now bans all bossing rather than the covert domination Joel names.",
+  "severity": "small"
+ },
+ {
+  "block": 237,
+  "where": "Children Need Freedom Inside Real Protection, P3",
+  "kind": "lost",
+  "new": "",
+  "his": "This could be badly misunderstood, so the safeguards need to be explicit.",
+  "why": "The warning that a children's territory can be badly misunderstood, and so needs explicit safeguards, is not in this paragraph.",
+  "severity": "small"
+ },
+ {
+  "block": 241,
+  "where": "Children Need Freedom Inside Real Protection, P7",
+  "kind": "added",
+  "new": "(A surprise has an end date. But secrets meant to isolate a kid aren’t allowed.)",
+  "his": "A surprise isn't a secret, because at the end of a certain date it has to be told. But secrets meant to isolate a kid aren't allowed.",
+  "why": "Both sentences, including the rule against secrets meant to isolate a kid, are now in parentheses as an aside, and the point that a surprise isn't a secret is reduced to an end date.",
+  "severity": "small"
+ },
+ {
+  "block": 242,
+  "where": "Children Need Freedom Inside Real Protection, P8",
+  "kind": "error",
+  "new": "like “Santa is real!” etc",
+  "his": "like Santa is real etc",
+  "why": "Quote marks and an exclamation mark are added around Santa is real, which HIS has without them.",
+  "severity": "small"
+ },
+ {
+  "block": 244,
+  "where": "Children Need Freedom Inside Real Protection, P10",
+  "kind": "lost",
+  "new": "",
+  "his": "Make sure there's at least one trusted adult, advocate or reporting route they can reach without going through the community's leadership.",
+  "why": "The safeguard that at least one trusted adult or reporting route be reachable without going through the community's leadership is dropped.",
+  "severity": "matters"
+ },
+ {
+  "block": 244,
+  "where": "Children Need Freedom Inside Real Protection, P10",
+  "kind": "added",
+  "new": "A judge turned down the state’s blanket request to hold them, because it couldn’t name any specific case, and the kids went home that same day.",
+  "his": "a court rejected the state's blanket request and returned them",
+  "why": "Adds a reason for the ruling (no specific case named) and a timing (the same day), neither of which HIS gives, and turns a court into a judge.",
+  "severity": "matters"
+ },
+ {
+  "block": 244,
+  "where": "Children Need Freedom Inside Real Protection, P10",
+  "kind": "added",
+  "new": "raided a religious community in Island Pond and took 112 kids into custody over suspected abuse",
+  "his": "seized 112 kids in the Island Pond raid",
+  "why": "Adds that it was a religious community and that the kids were taken over suspected abuse, which HIS does not say.",
+  "severity": "small"
+ },
+ {
+  "block": 246,
+  "where": "Born to Be Wild, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "It's possible that records are private, or that cases were referred elsewhere. Whatever the reason,",
+  "why": "The qualification that the missing case may be down to private records or cases sent elsewhere is dropped, so the failed search reads as stronger evidence.",
+  "severity": "matters"
+ },
+ {
+  "block": 251,
+  "where": "Every childhood narrows the future, P1",
+  "kind": "lost",
+  "new": "A poor or money-free community may have even less cash to offer.",
+  "his": "and basic survival may rightly come first",
+  "why": "The clause that basic survival may rightly come first for such a community is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 253,
+  "where": "Every childhood narrows the future, P3",
+  "kind": "lost",
+  "new": "",
+  "his": "The realistic standard is not unlimited freedom. It is that leaving should not be made artificially impossible.",
+  "why": "The stated standard (not unlimited freedom, but leaving never made artificially impossible) is not in NEW.",
+  "severity": "small"
+ },
+ {
+  "block": 253,
+  "where": "Every childhood narrows the future, P3",
+  "kind": "lost",
+  "new": "",
+  "his": "If children grow up without using money, they especially need enough knowledge of the outside money world not to be helpless in it: jobs, rent, contracts, banking, scams, identification, transportation, and how to ask for help.",
+  "why": "The practical list of outside-money-world knowledge that kids raised without money need is gone.",
+  "severity": "small"
+ },
+ {
+  "block": 253,
+  "where": "Every childhood narrows the future, P3",
+  "kind": "lost",
+  "new": "",
+  "his": "and at least one plausible next path—school, apprenticeship, work, family, or another community",
+  "why": "The requirement that a young person leave with at least one plausible next path is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 253,
+  "where": "Every childhood narrows the future, P3",
+  "kind": "lost",
+  "new": "",
+  "his": "No upbringing offers perfect freedom. The point is not to erase path dependence; it is not to turn belonging into a trap.",
+  "why": "The closing point (no upbringing is perfectly free; the aim is that belonging not become a trap) is gone.",
+  "severity": "small"
+ },
+ {
+  "block": 261,
+  "where": "Moving Beyond Money, P5",
+  "kind": "lost",
+  "new": "",
+  "his": "What do members owe one another? What happens when someone wants to leave?",
+  "why": "Two of the three closing questions (what members owe one another, what happens when someone wants to leave) are dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 266,
+  "where": "Founderism: The Four Questions, P4",
+  "kind": "lost",
+  "new": "",
+  "his": "When the method gets a prediction wrong, can the community say so and change course?",
+  "why": "One of the outcome tests, whether the community can admit a wrong prediction and change course, is missing from the list.",
+  "severity": "small"
+ }
+]

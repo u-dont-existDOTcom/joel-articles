@@ -1,0 +1,812 @@
+[
+ {
+  "block": 4,
+  "where": "How to use this very large guide, P1",
+  "kind": "added",
+  "new": "To make it easier, you can begin with the Quick start section",
+  "his": "Begin with Quick start",
+  "why": "Adds a reason, 'to make it easier', that his text does not give.",
+  "severity": "small"
+ },
+ {
+  "block": 4,
+  "where": "How to use this very large guide, P1",
+  "kind": "added",
+  "new": "There are lots of appendices with extra tools, covering lots of topics",
+  "his": "The appendices hold extra tools",
+  "why": "Adds 'lots of appendices' and 'lots of topics', amounts he does not state.",
+  "severity": "small"
+ },
+ {
+  "block": 4,
+  "where": "How to use this very large guide, P1",
+  "kind": "added",
+  "new": "what to do if you experience the sensation of a hostile presence",
+  "his": "hostile-presence experiences",
+  "why": "His text only names hostile-presence experiences as a topic; this promises advice on what to do.",
+  "severity": "small"
+ },
+ {
+  "block": 10,
+  "where": "Introduction, P2",
+  "kind": "added",
+  "new": "an incredible brain/mind that has many layers of consciousness",
+  "his": "a mind that can dream, protect, analyze, imitate, love, remember, hide, reveal, and heal",
+  "why": "Adds 'incredible', 'brain' and 'layers of consciousness'; in his text the mind simply can do these things.",
+  "severity": "small"
+ },
+ {
+  "block": 10,
+  "where": "Introduction, P2",
+  "kind": "added",
+  "new": "hide, show, heal, etc, etc?",
+  "his": "hide, reveal, and heal.",
+  "why": "His closed list becomes an open one with 'etc, etc'.",
+  "severity": "small"
+ },
+ {
+  "block": 11,
+  "where": "Introduction, P3",
+  "kind": "added",
+  "new": "you were taught (or you figured out)",
+  "his": "most of us learned",
+  "why": "'Most of us learned' becomes 'you were taught (or you figured out)': a different person and an added alternative.",
+  "severity": "small"
+ },
+ {
+  "block": 11,
+  "where": "Introduction, P3",
+  "kind": "error",
+  "new": "‘grow up’ and be an ‘adult’",
+  "his": "and call that adulthood",
+  "why": "Quote marks around 'grow up' and 'adult' that his text does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 11,
+  "where": "Introduction, P3",
+  "kind": "lost",
+  "new": "push through, repress, suppress, pretend you’re confident",
+  "his": "push through, suppress emotion, perform confidence",
+  "why": "'Suppress emotion' loses its object, and 'repress' is added.",
+  "severity": "small"
+ },
+ {
+  "block": 11,
+  "where": "Introduction, P3",
+  "kind": "added",
+  "new": "(childhood protector parts, the protective reactions learned as a child)",
+  "his": "the guard expecting danger",
+  "why": "Adds a definition of the guard mind that his text does not give.",
+  "severity": "small"
+ },
+ {
+  "block": 11,
+  "where": "Introduction, P3",
+  "kind": "lost",
+  "new": "child mind, guard mind (childhood protector parts, the protective reactions learned as a child), body mind, intuitive mind, fantasy mind (trying to become guidance mind)",
+  "his": "the child wanting safety, the guard expecting danger, the body remembering what the intellect had explained away, the intuition speaking before language, and the fantasy trying to become guidance",
+  "why": "Drops what each part does: wanting safety, expecting danger, remembering what the intellect explained away, speaking before language.",
+  "severity": "small"
+ },
+ {
+  "block": 11,
+  "where": "Introduction, P3",
+  "kind": "added",
+  "new": "go against authority, etc etc etc, and mind you",
+  "his": "obey or rebel against authority, and call that adulthood",
+  "why": "His closed list becomes an open one with 'etc etc etc'.",
+  "severity": "small"
+ },
+ {
+  "block": 11,
+  "where": "Introduction, P3",
+  "kind": "added",
+  "new": "(trying to become guidance mind), etc etc",
+  "his": "and the fantasy trying to become guidance.",
+  "why": "His closed list of programs becomes an open one with 'etc etc'.",
+  "severity": "small"
+ },
+ {
+  "block": 12,
+  "where": "Introduction, P4",
+  "kind": "error",
+  "new": "the ‘subconscious mind’ like it’s one giant machine",
+  "his": "the subconscious like a machine waiting for commands",
+  "why": "Quote marks around 'subconscious mind' that his text does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 12,
+  "where": "Introduction, P4",
+  "kind": "lost",
+  "new": "sit and listen to the different parts of myself until they can all be heard",
+  "his": "the scared kid, the guard, the body, the intuition, and the part trying to run Tuesday can all be heard without one of them seizing the microphone",
+  "why": "Drops the named parts, the joke about the part trying to run Tuesday, and the condition that no part seizes the microphone.",
+  "severity": "small"
+ },
+ {
+  "block": 12,
+  "where": "Introduction, P4",
+  "kind": "added",
+  "new": "the most useful thing to do is sit and listen",
+  "his": "I get more from sitting down and listening",
+  "why": "His personal 'I get more from' becomes the stronger 'the most useful thing to do'.",
+  "severity": "small"
+ },
+ {
+  "block": 13,
+  "where": "Introduction, P5",
+  "kind": "added",
+  "new": "gather all of your attention",
+  "his": "self-hypnosis gathers attention",
+  "why": "Adds 'all of your attention'; his text only says attention is gathered.",
+  "severity": "small"
+ },
+ {
+  "block": 13,
+  "where": "Introduction, P5",
+  "kind": "lost",
+  "new": "be able to all hear and talk to each other",
+  "his": "can participate in one honest inner meeting",
+  "why": "Drops the 'one honest inner meeting' image.",
+  "severity": "small"
+ },
+ {
+  "block": 14,
+  "where": "Introduction, P6",
+  "kind": "added",
+  "new": "you’ll find that you don’t even need to have a dramatic ‘trance experience’ to demonstrate the results of all parts of your mind talking to each other and trusting each other more",
+  "his": "",
+  "why": "Adds a promise of results (no dramatic trance needed, parts trusting each other more) that none of his lines make.",
+  "severity": "matters"
+ },
+ {
+  "block": 14,
+  "where": "Introduction, P6",
+  "kind": "added",
+  "new": "When you warm up to what’s there",
+  "his": "listen, warm, protect, clarify, reality-test, and act",
+  "why": "'Warm' (respond with warmth) becomes 'warm up to' (come to like), a different meaning.",
+  "severity": "small"
+ },
+ {
+  "block": 15,
+  "where": "Introduction, P7",
+  "kind": "error",
+  "new": "like a ‘communion’ between",
+  "his": "Communion is the closest word I have for that.",
+  "why": "Quote marks around 'communion' that his text does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 15,
+  "where": "Introduction, P7",
+  "kind": "error",
+  "new": "shout from the roof top",
+  "his": "shouting from the roof",
+  "why": "'Roof top' is written as two words where his text has 'roof'.",
+  "severity": "small"
+ },
+ {
+  "block": 15,
+  "where": "Introduction, P7",
+  "kind": "error",
+  "new": "day dreams",
+  "his": "daydreams",
+  "why": "'Daydreams' is split into two words.",
+  "severity": "small"
+ },
+ {
+  "block": 15,
+  "where": "Introduction, P7",
+  "kind": "lost",
+  "new": "doesn’t have to manifest symptoms, dreams, cravings, day dreams and weird body signals in order to communicate",
+  "his": "no longer has to communicate only through symptoms, dreams, cravings, daydreams, and peculiar little body signals",
+  "why": "Drops 'only': his point is that these are no longer its only way to communicate.",
+  "severity": "small"
+ },
+ {
+  "block": 16,
+  "where": "Introduction, P8",
+  "kind": "error",
+  "new": "as if it were a ecology",
+  "his": "as a living ecology",
+  "why": "'A ecology' should be 'an ecology'.",
+  "severity": "small"
+ },
+ {
+  "block": 16,
+  "where": "Introduction, P8",
+  "kind": "lost",
+  "new": "as if it were a ecology",
+  "his": "a living ecology of parts, memories, impulses, images, protections, and wisdom",
+  "why": "Drops 'living' and what the ecology contains.",
+  "severity": "small"
+ },
+ {
+  "block": 16,
+  "where": "Introduction, P8",
+  "kind": "lost",
+  "new": "often begin hypnosis working with the Higher Self (universal heart) and only separate into parts when needed",
+  "his": "I begin with Higher Self or the universal heart when the system needs coherence, and separate into parts only when that helps",
+  "why": "Drops the condition 'when the system needs coherence' for starting with Higher Self, and adds 'often'.",
+  "severity": "small"
+ },
+ {
+  "block": 16,
+  "where": "Introduction, P8",
+  "kind": "lost",
+  "new": "and also aspects of prompt engineering",
+  "his": "because the shape of a question changes the kind of answer we can hear",
+  "why": "Drops his reason for borrowing from prompt engineering.",
+  "severity": "small"
+ },
+ {
+  "block": 16,
+  "where": "Introduction, P8",
+  "kind": "lost",
+  "new": "as well as helping people to be literate in the domain of what’s hypnotizing them",
+  "his": "because hypnosis is hardly the only thing hypnotizing us",
+  "why": "Drops his reason for including influence literacy.",
+  "severity": "small"
+ },
+ {
+  "block": 18,
+  "where": "Quick start: do this first, P1",
+  "kind": "added",
+  "new": "(love, curiosity, play, confidence, etc.)",
+  "his": "develop love, curiosity, play, or confidence",
+  "why": "His closed list becomes an open one with 'etc.'.",
+  "severity": "small"
+ },
+ {
+  "block": 18,
+  "where": "Quick start: do this first, P1",
+  "kind": "added",
+  "new": "Not much needs to happen in each session!",
+  "his": "Nothing dramatic has to happen.",
+  "why": "'Nothing dramatic' becomes 'Not much', a different claim, and 'in each session' is added.",
+  "severity": "small"
+ },
+ {
+  "block": 19,
+  "where": "Quick start: do this first, P2",
+  "kind": "lost",
+  "new": "",
+  "his": "Choose one purpose and what you are leaving alone today.",
+  "why": "The step of choosing one purpose and what to leave alone today is gone.",
+  "severity": "matters"
+ },
+ {
+  "block": 19,
+  "where": "Quick start: do this first, P2",
+  "kind": "lost",
+  "new": "Put this screen on the shelf and conduct the practice.",
+  "his": "the practice is something you learn to conduct, not a checklist to keep reading",
+  "why": "Drops the point that the practice is learned, not a checklist to keep reading.",
+  "severity": "small"
+ },
+ {
+  "block": 19,
+  "where": "Quick start: do this first, P2",
+  "kind": "added",
+  "new": "so you’re more familiar with them",
+  "his": "",
+  "why": "Adds a reason for reading the induction first that his text does not give.",
+  "severity": "small"
+ },
+ {
+  "block": 20,
+  "where": "Quick start: do this first, P3",
+  "kind": "added",
+  "new": "You'll follow whatever you notice",
+  "his": "Let the next invitation follow that response.",
+  "why": "His 'let the next invitation follow that response' becomes 'you'll follow whatever you notice', changing who follows what.",
+  "severity": "small"
+ },
+ {
+  "block": 20,
+  "where": "Quick start: do this first, P3",
+  "kind": "added",
+  "new": "to give direction or more time, etc.",
+  "his": "Use warmth, a boundary, direction, or more time as needed.",
+  "why": "His closed list becomes an open one with 'etc.'.",
+  "severity": "small"
+ },
+ {
+  "block": 21,
+  "where": "Quick start: do this first, P4",
+  "kind": "lost",
+  "new": "",
+  "his": "Return to the room. Write one phrase, one body signal, and one action.",
+  "why": "His draft line about writing one phrase, one body signal and one action after returning is gone.",
+  "severity": "small"
+ },
+ {
+  "block": 24,
+  "where": "Do you usually think in words?, P2",
+  "kind": "lost",
+  "new": "just a way of finding what's useful",
+  "his": "this is a way to choose workable instructions, not a diagnosis",
+  "why": "Drops that the check is for choosing workable instructions.",
+  "severity": "small"
+ },
+ {
+  "block": 25,
+  "where": "Do you usually think in words?, P3",
+  "kind": "added",
+  "new": "If you don't normally think in words, you may want to say things aloud",
+  "his": "not a requirement for an inner narrator",
+  "why": "Limits the advice to people who don't normally think in words; his text treats say, ask and listen as invitations for everyone.",
+  "severity": "small"
+ },
+ {
+  "block": 30,
+  "where": "Protecting Yourself from Hypnotists, P1",
+  "kind": "added",
+  "new": "but it can also happen through music",
+  "his": "It also happens through music",
+  "why": "'Also happens' becomes the weaker 'can also happen'.",
+  "severity": "small"
+ },
+ {
+  "block": 30,
+  "where": "Protecting Yourself from Hypnotists, P1",
+  "kind": "added",
+  "new": "love, trauma, beauty, etc.",
+  "his": "love, trauma, and beauty.",
+  "why": "His closed list becomes an open one with 'etc.'.",
+  "severity": "small"
+ },
+ {
+  "block": 31,
+  "where": "Protecting Yourself from Hypnotists, P2",
+  "kind": "error",
+  "new": "report on “dark patterns,” they describe designs",
+  "his": "report on dark patterns describes designs",
+  "why": "Quote marks around 'dark patterns' that his text does not have, and 'they' for a single report.",
+  "severity": "small"
+ },
+ {
+  "block": 32,
+  "where": "Protecting Yourself from Hypnotists, P3",
+  "kind": "lost",
+  "new": "Can people have their minds influenced without conscious agreement of their adult self?",
+  "his": "A mind can be influenced without the adult self having clearly chosen the influence.",
+  "why": "His statement becomes an open question, so the claim is no longer made.",
+  "severity": "small"
+ },
+ {
+  "block": 32,
+  "where": "Protecting Yourself from Hypnotists, P3",
+  "kind": "lost",
+  "new": "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent.",
+  "his": "Conscious agreement is one thing. Unconscious receptivity is another. Emotional compliance is another. Legal and ethical consent is another.",
+  "why": "Drops his point that these four are separate things.",
+  "severity": "small"
+ },
+ {
+  "block": 33,
+  "where": "Protecting Yourself from Hypnotists, P4",
+  "kind": "error",
+  "new": "the Silva “Mind Control” method",
+  "his": "the Silva Mind Control tradition",
+  "why": "Quote marks around 'Mind Control' that his text does not have, and 'tradition' became 'method'.",
+  "severity": "small"
+ },
+ {
+  "block": 35,
+  "where": "Protecting Yourself from Hypnotists, P6",
+  "kind": "lost",
+  "new": "",
+  "his": "Advertising, fear, craving, screens, tribe, resentment, authority, loneliness, and repetition are already training the mind.",
+  "why": "Drops his claim that these influences are already training the mind, which the 'from the inside' idea rests on.",
+  "severity": "small"
+ },
+ {
+  "block": 35,
+  "where": "Protecting Yourself from Hypnotists, P6",
+  "kind": "added",
+  "new": "you can do much of the same thing from the inside",
+  "his": "Self-hypnosis lets you practice from inside it",
+  "why": "'Practice from inside it' becomes 'do much of the same thing', a comparison his text does not make.",
+  "severity": "small"
+ },
+ {
+  "block": 35,
+  "where": "Protecting Yourself from Hypnotists, P6",
+  "kind": "added",
+  "new": "This opens up a whole new area of choice for you as an adult in the world.",
+  "his": "making adult choice more available",
+  "why": "'More available' becomes the stronger 'a whole new area of choice'.",
+  "severity": "small"
+ },
+ {
+  "block": 48,
+  "where": "Reversing Accidental Affirmations, P1",
+  "kind": "added",
+  "new": "without redirecting the thought stream with your conscious, higher intention",
+  "his": "without the rupture in your thought stream",
+  "why": "Changes why the correction works: a rupture in the thought stream becomes redirecting it with a 'conscious, higher intention'.",
+  "severity": "small"
+ },
+ {
+  "block": 51,
+  "where": "Hypnosis Evidence, P1",
+  "kind": "error",
+  "new": "49 meta analyses",
+  "his": "49 meta-analyses",
+  "why": "'Meta-analyses' loses its hyphen.",
+  "severity": "small"
+ },
+ {
+  "block": 52,
+  "where": "Hypnosis Evidence, P2",
+  "kind": "error",
+  "new": "child birth",
+  "his": "childbirth",
+  "why": "'Childbirth' is split into two words.",
+  "severity": "small"
+ },
+ {
+  "block": 52,
+  "where": "Hypnosis Evidence, P2",
+  "kind": "added",
+  "new": "pediatric, stress, anxiety etc.",
+  "his": "pediatric applications, stress, and anxiety",
+  "why": "Adds 'etc', suggesting the review reported benefits in more areas than his list.",
+  "severity": "small"
+ },
+ {
+  "block": 55,
+  "where": "What to Use Self-Hypnosis For, and What Not To, P1",
+  "kind": "error",
+  "new": "may invoke strong emotions",
+  "his": "can trigger strong emotional reactions",
+  "why": "'Invoke' looks like a wrong word where his text says 'trigger strong emotional reactions'.",
+  "severity": "small"
+ },
+ {
+  "block": 57,
+  "where": "What to Use Self-Hypnosis For, and What Not To, P3",
+  "kind": "error",
+  "new": "force yourself to “prove” trauma through memories",
+  "his": "prove what happened",
+  "why": "Quote marks around 'prove' that his text does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 57,
+  "where": "What to Use Self-Hypnosis For, and What Not To, P3",
+  "kind": "lost",
+  "new": "or NOT seek correct treatment",
+  "his": "or replace appropriate clinical care",
+  "why": "'Replace appropriate clinical care' becomes 'not seek correct treatment', losing 'clinical' and the idea of replacing care.",
+  "severity": "small"
+ },
+ {
+  "block": 59,
+  "where": "Forget the left-brain/right-brain cartoon, P1",
+  "kind": "error",
+  "new": "resting state fmri scans",
+  "his": "resting-state fMRI study",
+  "why": "'fMRI' is written 'fmri' and 'resting-state' loses its hyphen.",
+  "severity": "small"
+ },
+ {
+  "block": 59,
+  "where": "Forget the left-brain/right-brain cartoon, P1",
+  "kind": "lost",
+  "new": "I use the expression ‘syncing the hemispheres’ but don’t want to over interpret",
+  "his": "can be a useful description of how the state feels, but I wouldn’t turn it into literal neuroscience",
+  "why": "Drops that the phrase is a useful description of how the state feels.",
+  "severity": "small"
+ },
+ {
+  "block": 59,
+  "where": "Forget the left-brain/right-brain cartoon, P1",
+  "kind": "added",
+  "new": "A huge study",
+  "his": "A large resting-state fMRI study",
+  "why": "'Large' becomes 'huge'.",
+  "severity": "small"
+ },
+ {
+  "block": 62,
+  "where": "Forget the left-brain/right-brain cartoon, P4",
+  "kind": "error",
+  "new": "these ‘modes’ can correct each other",
+  "his": "Let the modes correct each other.",
+  "why": "Quote marks around 'modes' that his text does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 65,
+  "where": "Why doing it myself worked better for me, P1",
+  "kind": "added",
+  "new": "the very little I managed to do with a professional hypnotist",
+  "his": "The session with the hypnotist did very little.",
+  "why": "'The session did very little' becomes 'the very little I managed to do', changing who did what.",
+  "severity": "small"
+ },
+ {
+  "block": 65,
+  "where": "Why doing it myself worked better for me, P1",
+  "kind": "lost",
+  "new": "I was sober at the session and didn't feel especially suggestible, but I suspect that's not even the main reason",
+  "his": "Maybe part of that was state-dependent: I was sober and didn’t feel especially suggestible.",
+  "why": "Drops 'state-dependent' and turns 'maybe part of that' into a firmer 'not even the main reason'.",
+  "severity": "small"
+ },
+ {
+  "block": 66,
+  "where": "Why doing it myself worked better for me, P2",
+  "kind": "lost",
+  "new": "before my conscious mind talks me into a yes",
+  "his": "before the conscious mind writes a persuasive little essay called yes",
+  "why": "Drops the joke about the persuasive little essay called yes.",
+  "severity": "small"
+ },
+ {
+  "block": 66,
+  "where": "Why doing it myself worked better for me, P2",
+  "kind": "added",
+  "new": "talk to my subconscious to find out what it thinks is wrong with the wording",
+  "his": "I can stop, ask what the subconscious meant",
+  "why": "His 'ask what the subconscious meant' becomes asking what it thinks is wrong with the wording.",
+  "severity": "small"
+ },
+ {
+  "block": 67,
+  "where": "Why doing it myself worked better for me, P3",
+  "kind": "lost",
+  "new": "",
+  "his": "Self-hypnosis simply has one advantage nobody outside can duplicate: immediate dialogue with the system itself.",
+  "why": "Drops his closing point that immediate dialogue is an advantage nobody outside can duplicate.",
+  "severity": "small"
+ },
+ {
+  "block": 73,
+  "where": "Why doing it myself worked better for me, P9",
+  "kind": "added",
+  "new": "if I needed to I could have continued for an arbitrary amount of time",
+  "his": "it felt as though the state might have continued indefinitely if ordinary life hadn’t required communication and interruption",
+  "why": "'The state might have continued' becomes 'I could have continued' if he needed to, a stronger claim about his own control.",
+  "severity": "small"
+ },
+ {
+  "block": 73,
+  "where": "Why doing it myself worked better for me, P9",
+  "kind": "added",
+  "new": "Phenomenologically, this is very important.",
+  "his": "I find that phenomenologically important.",
+  "why": "His personal 'I find that... important' becomes the flat 'this is very important'.",
+  "severity": "small"
+ },
+ {
+  "block": 73,
+  "where": "Why doing it myself worked better for me, P9",
+  "kind": "error",
+  "new": "Although I'm not recommending that anyone prolong an altered state forever",
+  "his": "I’m not recommending that anyone prolong an altered state forever",
+  "why": "'Although' leaves a sentence fragment with no main clause.",
+  "severity": "small"
+ },
+ {
+  "block": 73,
+  "where": "Why doing it myself worked better for me, P9",
+  "kind": "lost",
+  "new": "because it's better to integrate, etc.",
+  "his": "integration is healthier than trying to live inside the extension",
+  "why": "'Healthier than trying to live inside the extension' becomes 'better to integrate, etc.'.",
+  "severity": "small"
+ },
+ {
+  "block": 76,
+  "where": "A useful map of the mind, P1",
+  "kind": "error",
+  "new": "whenever I refer to the ‘subconscious’ I’m referring to",
+  "his": "In this guide, subconscious means",
+  "why": "Quote marks around 'subconscious' that his text does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 76,
+  "where": "A useful map of the mind, P1",
+  "kind": "error",
+  "new": "all one ‘mind’, or you can work with it as a set of parts, an ‘ecology’ if you like",
+  "his": "address all of that as one mind; sometimes an ecology of parts gives more precision",
+  "why": "Quote marks around 'mind' and 'ecology' that his text does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 76,
+  "where": "A useful map of the mind, P1",
+  "kind": "added",
+  "new": "There isn’t a ‘right’ or ‘wrong’ way to approach it.",
+  "his": "Both are maps.",
+  "why": "Adds a claim that there is no right or wrong way, with quote marks; his text only says both are maps.",
+  "severity": "small"
+ },
+ {
+  "block": 77,
+  "where": "A useful map of the mind, P2",
+  "kind": "added",
+  "new": "Doing both: Communion.",
+  "his": "Communion is the movement between them.",
+  "why": "'The movement between them' becomes 'doing both', which can read as working with both at once.",
+  "severity": "small"
+ },
+ {
+  "block": 78,
+  "where": "A useful map of the mind, P3",
+  "kind": "error",
+  "new": "work with the ‘whole’, the subconscious as one",
+  "his": "speak to the deeper mind as a whole",
+  "why": "Quote marks around 'whole' that his text does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 79,
+  "where": "A useful map of the mind, P4",
+  "kind": "added",
+  "new": "‘Invoke’ the subconscious in some way.",
+  "his": "",
+  "why": "Adds an instruction to 'invoke' the subconscious, in quote marks; his line is only the words to say.",
+  "severity": "small"
+ },
+ {
+  "block": 80,
+  "where": "A useful map of the mind, P5",
+  "kind": "error",
+  "new": "the ‘ecology’ in the subconscious (child parts, protectors, ‘critic’,",
+  "his": "the critic wanting standards",
+  "why": "Quote marks around 'ecology' and 'critic' that his text does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 80,
+  "where": "A useful map of the mind, P5",
+  "kind": "error",
+  "new": "‘wiser’ part etc etc then:",
+  "his": "the wiser part wanting what is true",
+  "why": "Quote marks around 'wiser' that his text does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 80,
+  "where": "A useful map of the mind, P5",
+  "kind": "error",
+  "new": "spiritual part (God/source/best benefit of all beings part) ‘wiser’ part etc etc then:",
+  "his": "the spiritual self wanting God or source or the benefit of all beings",
+  "why": "The bracket opened before 'child parts' is never closed.",
+  "severity": "small"
+ },
+ {
+  "block": 80,
+  "where": "A useful map of the mind, P5",
+  "kind": "lost",
+  "new": "child parts, protectors, ‘critic’, fantasy making parts, body memories, social part, spiritual part",
+  "his": "the child wanting love, the protector wanting safety, the critic wanting standards, the fantasy-maker wanting possibility, the body memory wanting recognition, the social self wanting belonging",
+  "why": "Drops what each part wants and the instruction to notice them; only the names remain.",
+  "severity": "small"
+ },
+ {
+  "block": 81,
+  "where": "A useful map of the mind, P6",
+  "kind": "added",
+  "new": "It’s usually a good idea to start with unity.",
+  "his": "",
+  "why": "Adds a general recommendation to start with unity that his line does not make.",
+  "severity": "small"
+ },
+ {
+  "block": 82,
+  "where": "A useful map of the mind, P7",
+  "kind": "added",
+  "new": "Which part wants to protect you?",
+  "his": "Which part is protecting?",
+  "why": "His question 'Which part is protecting?' becomes 'Which part wants to protect you?', adding a 'you'.",
+  "severity": "small"
+ },
+ {
+  "block": 83,
+  "where": "A useful map of the mind, P8",
+  "kind": "added",
+  "new": "as the adult in charge of this life you can lead with love",
+  "his": "Let the adult self lead with love.",
+  "why": "His invitation to let the adult self lead becomes a statement that you are the adult in charge and can lead.",
+  "severity": "small"
+ },
+ {
+  "block": 85,
+  "where": "Sometimes start with the whole, P1",
+  "kind": "added",
+  "new": "make themselves too fragmented by starting to work with parts",
+  "his": "feel more fragmented when they begin by naming twelve parts",
+  "why": "'Feel more fragmented when they begin by naming twelve parts' becomes making themselves too fragmented by working with parts at all.",
+  "severity": "small"
+ },
+ {
+  "block": 85,
+  "where": "Sometimes start with the whole, P1",
+  "kind": "lost",
+  "new": "So it’s better to start from the Sacred.",
+  "his": "Start with the sacred whole when that happens.",
+  "why": "Drops the condition 'when that happens', so the advice reads as general.",
+  "severity": "small"
+ },
+ {
+  "block": 86,
+  "where": "Sometimes start with the whole, P2",
+  "kind": "added",
+  "new": "the part of me that knows it belongs to life, not any wound, or role, or family, or group, or identity, or ideology, or story",
+  "his": "the part of me that belongs to life before it belongs to any wound, role, family, group, identity, ideology, or story",
+  "why": "'Belongs to life before it belongs to' these things becomes 'not any' of them, an exclusive claim instead of an order of priority.",
+  "severity": "matters"
+ },
+ {
+  "block": 86,
+  "where": "Sometimes start with the whole, P2",
+  "kind": "added",
+  "new": "So can you please tell me what’s going to be true and kind and timely and stabilizing and useful here?",
+  "his": "Please help me understand what is true, kind, timely, stabilizing, and useful.",
+  "why": "'Help me understand what is true' becomes 'tell me what's going to be true', a request for an answer about the future.",
+  "severity": "small"
+ },
+ {
+  "block": 87,
+  "where": "Sometimes start with the whole, P3",
+  "kind": "added",
+  "new": "the fact that you’re in a younger state etc",
+  "his": "Notice the room, the body, and the younger state.",
+  "why": "His closed list of what to notice becomes an open one with 'etc'.",
+  "severity": "small"
+ },
+ {
+  "block": 87,
+  "where": "Sometimes start with the whole, P3",
+  "kind": "added",
+  "new": "(Btw, if it doesn’t work for you don’t use it!",
+  "his": "feels unavailable or borrowed from somebody else",
+  "why": "Adds an instruction to drop any approach that doesn't work for you.",
+  "severity": "small"
+ },
+ {
+  "block": 89,
+  "where": "Sometimes start with the whole, P5",
+  "kind": "added",
+  "new": "Is this my social part?",
+  "his": "Is this social conditioning?",
+  "why": "'Social conditioning' becomes 'my social part', a different thing to ask about.",
+  "severity": "small"
+ },
+ {
+  "block": 89,
+  "where": "Sometimes start with the whole, P5",
+  "kind": "lost",
+  "new": "Differentiate only as you need to.",
+  "his": "Start from the heart. Differentiate only as needed. Return to the heart.",
+  "why": "Drops 'Start from the heart' and 'Return to the heart' around 'differentiate only as needed'.",
+  "severity": "small"
+ },
+ {
+  "block": 89,
+  "where": "Sometimes start with the whole, P5",
+  "kind": "lost",
+  "new": "",
+  "his": "The borrowed figure stays beside your judgment rather than replacing it. The fuller sequence is in my Inner Child Self-Love Reparenting Guide.",
+  "why": "His line that a borrowed figure stays beside your judgment, and the pointer to his Reparenting Guide, are not in this paragraph.",
+  "severity": "small"
+ },
+ {
+  "block": 93,
+  "where": "The inner child, the guards, and the inner adult’s three jobs, P3",
+  "kind": "lost",
+  "new": "",
+  "his": "Worth was never the missing skill.",
+  "why": "Drops his line that worth was never the missing skill.",
+  "severity": "small"
+ }
+]
