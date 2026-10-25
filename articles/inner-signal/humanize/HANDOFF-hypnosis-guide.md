@@ -117,8 +117,8 @@ the caveats and the repeats, each a page with my pick on every item. Nothing in 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
 
-Pull requests 236 to 238 were merged on 2026-10-24 and 25; this turn's pull request is named in the next step. The
-community lane's own is in its handoff.
+Pull request 240 (this turn's: the four lists and my check) waits for his merge; 236 to 238 were merged on 2026-10-24
+and 25. The community lane's own state is in its handoff.
 
 ## Where it stands
 
@@ -206,7 +206,7 @@ first: version 0.2.1, protocol_sha256 1da3ddf06a27aa8409fe953f21e8d9053d943bf383
 files read: protective compatibility, phenomenology, reparenting and protocol-state provenance, role and belief, focus,
 guide referrals; nothing reviewed is his inner child journal, so no case tools were used).
 
-Done (in this turn's pull request, PRNUM):
+Done (in pull request 240, https://github.com/u-dont-existDOTcom/joel-articles/pull/240):
 - **The four reads** in `fix-20261025/` (`clarity/`, `edit/`, `caveats/`, `repeats/`), made from `HUMANIZED-SO-FAR.md`
   (acbbb759) with `tools/humanization/clarity_read.py`: 6, 11, 8 and 10 parts, each to a fresh Sonnet reader. Part 1's
   reread reader ran out of output; its halves went to two more (`BRIEF-7.txt`, `BRIEF-8.txt`; lesson E262).

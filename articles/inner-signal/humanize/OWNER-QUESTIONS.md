@@ -1,7 +1,8 @@
 # Hypnosis guide: what I need from Joel
 
 Last updated 2026-10-25, after your message of 01:01 UTC ("finish the guide first"). **Open questions: 4** (15 to 18,
-the guide's clarity check, just below). **Nothing else for you to do here.**
+the guide's clarity check, just below). **One thing for you to do**: merge [pull request 240](https://github.com/u-dont-existDOTcom/joel-articles/pull/240)
+when you've looked (it changes nothing in your guide's text).
 The questions are at the top, with their options and my default; under them is what you decided and what I did with it.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -485,7 +486,9 @@ Your message, word for word: [joel-20261023-1230-message.txt](https://github.com
 
 ## For you to do
 
-- Nothing besides questions 15 to 18. 🟢 Done: recheck B (your result of 20:35 UTC on 23 October), recheck A4, both
+- 🟠 Merge [pull request 240](https://github.com/u-dont-existDOTcom/joel-articles/pull/240) when you've looked: the four
+  lists, my check of them, and the rules and tool changes that came with them. Your guide's text doesn't change in it.
+- 🟢 Done: recheck B (your result of 20:35 UTC on 23 October), recheck A4, both
   screening posts, and your Nibbāna article's rechecks (on its page).
 - 🟢 Your temporary drafts: recheck A and B are "TEMP recheck A (hypnosis guide) - do not publish" and "TEMP recheck B
   (hypnosis guide appendices) - do not publish", and the screening post is the third. I reuse them for each recheck, so
