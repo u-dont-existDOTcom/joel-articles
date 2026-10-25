@@ -52,8 +52,16 @@ def main():
     flat = lambda t: ' '.join(t.translate(STRAIGHT).split())
     text = flat(' '.join(C.checked_text(base64.b64decode(s['html_b64']).decode('utf-8')) for s in man['segments']))
     n8 = json.loads((H / 'fix-20261024' / 'n8' / 'EDITS-n8.json').read_text(encoding='utf-8'))
-    found = sum(flat(e['new']) in text for e in n8)
-    stale = [e['old'][:60] for e in n8 if flat(e['old']) in text]
+    # his later answers change words inside n8's paragraphs (batch n9: N7 A, 2026-10-24 23:40 UTC), so each n8 paragraph is
+    # checked as it should read now, and each later answer's old words must be gone
+    n9f = H / 'fix-20261024' / 'n9' / 'EDITS-n9.json'
+    later = json.loads(n9f.read_text(encoding='utf-8')) if n9f.exists() else []
+    def now(t):
+        for e in later:
+            t = t.replace(e['old'], e['new'])
+        return t
+    found = sum(flat(now(e['new'])) in text for e in n8)
+    stale = [e['old'][:60] for e in n8 if flat(e['old']) in text] + [e['old'] for e in later if flat(e['old']) in text]
     assert found == len(n8) and not stale, ('the GPT edit is not all in the helper', found, len(n8), stale)
     it = json.loads(inter.read_text(encoding='utf-8'))
     assert it.get('status') == 'pass' and it.get('helper_sha256') == sha(helper), 'the interaction test'
@@ -63,10 +71,10 @@ def main():
         'article': 'nibbana',
         'why': 'Joel, 2026-10-24 19:52 UTC: his GPT edit saved (batch n8, "so save the result"); the eighth recheck read '
                '100% Human (feed 355a29d0); N5 he decides at this helper ("i\'ll look at it later when youu give me the '
-               'clipboard helper", 2026-10-23 22:29 UTC)',
+               'clipboard helper", 2026-10-23 22:29 UTC); rebuilt after his 23:40 UTC answer to N7 ("n7a", batch n9)',
         'archival_source': {'path': str(work.relative_to(REPO)), 'sha256': sha(work),
                             'from': "his editor HTML of 2026-10-22 (humanize/source/substack-editor-20261022.html) with "
-                                    "every batch's text, n1 to n8 (fix-20261023/n1/install_n1.py)"},
+                                    "every batch's text, n1 to n9 (fix-20261023/n1/install_n1.py)"},
         'editor_body': {'sha256': man['editor_body_sha256'], 'boundary_mode': man['editor_body_boundary']['mode']},
         'canonical_generator': {'path': str(GEN.relative_to(REPO)), 'sha256': sha(GEN)},
         'native_object_parser': {'path': 'project-sources/html_islands.py.txt', 'sha256': sha(REPO / 'project-sources' / 'html_islands.py.txt')},
@@ -81,7 +89,7 @@ def main():
                                        'temporary draft, rendered to the expected text, and read 100% Human'},
         'verify': verify.strip()[-2000:],
         'gpt_edit_in_helper': {'paragraphs': len(n8), 'new_text_found': found, 'old_text_found': len(stale),
-                               'from': 'fix-20261024/n8/EDITS-n8.json'},
+                               'from': 'fix-20261024/n8/EDITS-n8.json', 'later_answers': [e['answer'] for e in later]},
         'interaction_test': {'path': str(inter.relative_to(REPO)), 'status': it.get('status')},
         'destination_test': 'pending, in his post. What has been tested: the four parts of the eighth recheck\'s helper (the same '
                             'generator on the same editor HTML) were pasted into the temporary draft with the lane\'s paste '

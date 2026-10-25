@@ -197,7 +197,9 @@ callbacks that build on an earlier point and pointers to other sections stay.
 
 - **How:** `tools/humanization/clarity_read.py make ARTICLE DIR --kind repeats --parts N`, a fresh reader per part (each
   gets the whole article and its part), `collect`, every cut checked (the kept place really says it; the paragraph still
-  reads), `page` (each cut struck through, with where the point is kept). Cuts go to Pangram in place.
+  reads), `page` (each cut struck through, with where the point is kept). Cuts go to Pangram in place. My pick on each
+  (his 65, 2026-10-24; E260): a line that previews or announces what a later section tells is cut, even when it sets
+  that section up; a definition or a thesis is kept where a reader who jumps in or stops there needs it.
 - **First run:** the community article after its move into essay and manual
   (`articles/intentional-communities/candidate/joel-20261023/repeats/`), 2026-10-23. Of four Sonnet readers, each with
   the whole article (about 97,000 characters) and a quarter of it, one finished in 14 minutes; the other three spent their

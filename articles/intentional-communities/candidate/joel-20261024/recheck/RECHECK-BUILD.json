@@ -1,0 +1,17 @@
+{
+ "segments": 1,
+ "native_videos": 0,
+ "verify": "Verified 1 ordered segment record(s) and 0 native-video manual step(s).\nScope: static source/conversion compatibility only; destination result remains pending.",
+ "payload_sha256": "4aa421618e28508f6f0ce22268ad9d75c0694d3372e489c992ee505648375b31",
+ "payload_chars": 192936,
+ "text_sha256": "ca9cfa7767bb199e25695e92d16a8b9c2fcc6856310832c5aefd571b006175f4",
+ "text_chars": 89954,
+ "expected_sha256": "ca9cfa7767bb199e25695e92d16a8b9c2fcc6856310832c5aefd571b006175f4",
+ "expected_chars": 89954,
+ "draft_text_sha256": "e2ad3e21738d3a471c3a291f89880108e25c059440fceb97d49933a28c7cc49e",
+ "draft_text_chars": 89953,
+ "words": 15532,
+ "words_sha256": "04b3a7759f951fd7f40727edee984f931dd270e77f26876761a006e29522c0db",
+ "gallery_captions": [],
+ "working_copy_sha256": "9616e69f7baac23a8cc07b0102aed48363f513980e08342e01de2c8eaa057628"
+}
