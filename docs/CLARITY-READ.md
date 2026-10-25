@@ -50,6 +50,22 @@ A short piece, a typo fix or a one-paragraph change doesn't need it.
 5. `clarity_read.py page DIR --out CLARITY.md` writes the list for him, numbered, hardest first, with the small snags and
    what wasn't counted at the end. Send it to him as a link he can click, with the number of passages and what kind they
    are, and ask him to rewrite or pass each one (his answers are numbered the same way).
+
+For all four parts (2026-10-25, the hypnosis guide, 29,500 words, 36 readers' reports):
+- **A reader that runs out of output gets its part in two halves**, with a brief for each (`BRIEF-k.txt` for the next
+  free k, saying "part 1 (its first half) of 6"), never a second try at the same size (gate E262).
+- **The same cut flagged twice is listed once.** Readers overlap, the repeats readers most (each reads the whole article):
+  48 of the guide's 295 items were the same words twice or on two of the four lists. Give the second one `"status":
+  "dup"` and a note saying where it is offered ("On the caveats page as 17.8."); `clarity_read.numbers(items)` gives each
+  offered item its number on its page. A pure repeat goes on the repeats list; a heading, move or label on the reader's
+  edit; a warning or qualifier on the caveats list. The guide's record of my check is a script with every item's status,
+  pick and note (`articles/inner-signal/humanize/fix-20261025/my_checks.py`), so the pages can be made again.
+- **Inner child and hypnosis writing is checked against the InnerSignal protocol**, loaded in the main thread: a line
+  that states one of its rules in his words (a stop rule, consent, an image isn't a memory, the first thing noticed isn't
+  truer, spirituality is optional, care in altered states) stays, with the reason in the note (gate, the 2026-10-25
+  section).
+- **A cut made to pass Pangram leaves words that point at it.** Look for "the first example", "above", "below" and the
+  like whose target an approved cut took out (gate E263).
 6. Put his answers in word for word (his rewrites, and the plain versions he passes), with every link, italic and bold back
    on the same words, and each changed passage read in place in the next whole-article Pangram check with a part forecast
    (`tools/humanization/part_forecast.py`; gate E238).

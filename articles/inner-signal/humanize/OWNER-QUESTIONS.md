@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-23, after your message of 23:28 UTC. **Open questions: none here** (N6 is on your Nibbāna
-article's page, 64 and 65 on your community article's page). **Nothing for you to do here** (your Nibbāna article's eighth recheck is ready for Pangram).
+Last updated 2026-10-25, after your message of 01:01 UTC ("finish the guide first"). **Open questions: 4** (15 to 18,
+the guide's clarity check, just below). **Nothing else for you to do here.**
 The questions are at the top, with their options and my default; under them is what you decided and what I did with it.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -10,7 +10,69 @@ read and update it. Every file it points to is a link.
 
 ## Open questions
 
-None right now.
+> [!IMPORTANT]
+> The guide's clarity check, in four lists, each on its own page with my pick on every item. Answer "15 a, 16 your picks,
+> 17 your picks, 18 your picks", or with the numbers you want changed ("17.12 B"). Nothing in the guide changes until
+> you answer. Then what you picked goes in, each change checked in Pangram where it sits, and the whole guide gets one
+> recheck before the copy helper for your post.
+
+**🟣 15. What a reader has to stop and reread.** [The list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/clarity/CLARITY.md)
+has 64 passages that read Human but would make a smart general reader stop: 7 that most readers wouldn't get on a first
+read, then 57 they would have to reread, then 15 small snags. Seven fresh readers found them, with your Nibbāna rewrites
+as their examples, and I checked each against the whole guide and your published guide of 28 September. Each has a
+plainer version that keeps every claim; 17 of those are mine, mostly from your own published words (the quote marks
+around "stop", "less" and "quiet", for one). Five are marked "Check" because they guess at your reasoning: your joke
+"That is why you are reading a self hypnosis guide!", how V. knows the trigger word, why the extended trip is
+"phenomenologically important", and two glosses.
+- a) (my pick) I put in the plainer versions except the five marked "Check", which you word or leave. Each goes in only
+  if it still reads Human where it sits; one that reads AI comes back to you with its result, as in your Nibbāna N3.
+- b) You rewrite the ones you want; the page has a plainer version of each to start from.
+- c) Only the 7 hardest.
+- d) None; they stay as they are.
+
+**🟣 16. The reader's edit: which of 33 changes go in?** [The list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/edit/READERS-EDIT.md):
+18 headings for a second subject inside a section, 9 moves (one is only a paragraph break), a label, and 5 cuts of a
+line that repeats the line next to it. None rewords your sentences; the only new words are the headings' and the label's.
+My pick is A (put it in) on 30 and B on 3. Two are bigger than the rest: 16.28 moves "Inner child love" after the body
+practices in Appendix D, so the appendix follows its own "first your body, then your inner child"; and 16.24 cuts the
+two sentences in Pattern 4 that point to "the first example" and "the second example", which your 3 a of 21 October
+left out because every wording with them read AI.
+- a) (my pick) My picks as they are.
+- b) My picks with your changes, by number ("16.3 B").
+
+**🟣 17. The safety lines and caveats a reader doesn't need** (your "same question for community and hypnosis articles",
+23 October). [The list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/caveats/CAVEATS.md)
+has 68, each struck through in its paragraph with the paragraph as it reads after the cut. My pick is cut on 32 and keep
+on 36. I kept a line wherever it gives a limit, a counterweight or context, as you did in your community 64, and wherever
+it changes what a reader does: the stop rules, consent ("No will stay no"), the caution that an image isn't a memory,
+care in altered states, and the massage cautions.
+- a) (my pick) My picks as they are.
+- b) My picks with your changes, by number ("17.12 B").
+
+**🟣 18. What the guide says more than once.** [The list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/repeats/REPEATS.md)
+has 64 cuts, each with where the point is kept. My pick is cut on 18 and keep on 46. I cut previews and recaps (your
+rule from 65), and kept the instruction a reader needs where they are, because people jump into this guide: the
+troubleshooting, the prompt list, the appendices and the induction library each have to work on their own.
+- a) (my pick) My picks as they are.
+- b) My picks with your changes, by number ("18.3 A").
+
+## Your messages of 2026-10-25 00:49 and 01:01 UTC, and what I did
+
+Your messages, word for word: [00:49](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/joel-20261025-0049-message.txt)
+("ok, what's next in the queue to hum,anize now?") and [01:01](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/joel-20261025-0101-message.txt)
+("finish the guide first").
+
+- 🔵 **"finish the guide first"**: the guide's clarity check, all four parts, is questions 15 to 18 above. Neuro
+  de-armoring, next in your queue, starts after it.
+- 🟢 **How it ran**: 36 fresh readers' reports, each on a part of the guide (the repeats readers had the whole guide too),
+  and I checked every one of their 295 items against the whole guide, your answers so far and the InnerSignal rules for
+  inner child and hypnosis writing. Nothing in the guide has changed yet.
+- 🟢 **A slip of mine the readers caught**: your 3 a of 21 October took the Pattern 4 version without its two examples,
+  but its sentences about "the first example" and "the second example" stayed in, pointing at nothing. 16.24 fixes it.
+  When a cut is taken to pass Pangram, the words that point to what was cut now go with it (lesson E263).
+- 🟢 **The reader of the guide's first part ran out of output** thinking, as three community readers had on 23 October.
+  Its part went to two readers in halves, which finished in about six and seven minutes, and the reread brief now has the
+  same "work quickly" line as the others (lesson E262).
 
 ## Your message of 2026-10-23 22:29 UTC, and what I did
 
@@ -423,22 +485,15 @@ Your message, word for word: [joel-20261023-1230-message.txt](https://github.com
 
 ## For you to do
 
-- 🟠 **Run Pangram on recheck B in your Brave**: [TEMP recheck B (hypnosis guide appendices)](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-477&audience=only_paid&free_preview=false&freemail=), and send me the link.
-  It's the guide's appendices with batches 476 and 477 in; its text in the page is exactly the text I forecast from: the
-  audit questions you kept at 90%, the new inner child line at 25%, each spelling fix at 2%, each changed line's neighbours
-  at 5%, each light green window of the last check at 1 to 2%, anywhere else 25%; together a 9% chance of no red outside
-  the audit ([the forecast](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/recheck-b2/FORECAST.json)).
-- 🟠 **And your Nibbāna article's fifth recheck**: [TEMP recheck (Nibbana article)](https://ibogaqueen.substack.com/p/1a9ebec2-bb8f-4975-8709-c1559e9e4e73?postPreview=paid&updated=recheck5-n5&audience=only_paid&free_preview=false&freemail=), with batch n4 in
-  ([its page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/OWNER-QUESTIONS.md)).
-- 🟢 Done: recheck A4 of 18:08 UTC (above) and the Nibbāna article's fourth recheck (on its page), recheck A3, recheck B
-  (your result of 12:30), both screening posts.
+- Nothing besides questions 15 to 18. 🟢 Done: recheck B (your result of 20:35 UTC on 23 October), recheck A4, both
+  screening posts, and your Nibbāna article's rechecks (on its page).
 - 🟢 Your temporary drafts: recheck A and B are "TEMP recheck A (hypnosis guide) - do not publish" and "TEMP recheck B
   (hypnosis guide appendices) - do not publish", and the screening post is the third. I reuse them for each recheck, so
   nothing new piles up. Deleting them is yours, once the guide is done.
 
 ## Where it stands
 
-🟢 All 40 of the guide's sections are humanized, and your answers 1 to 14 are in. 🔵 The first part is down to three red
-stretches, each with Emulate's version in, waiting for recheck A. 🔵 The appendices read Mostly Human Written, 1.4% AI,
-with one Low line left besides the audit's questions, which stay. [The lane's status page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/STATUS.md) has every
+🟢 All 40 of the guide's sections are humanized, and your answers 1 to 14 are in. 🟢 The guide reads Human outside the one
+audit window you kept (recheck B, 23 October). 🔵 The clarity check, questions 15 to 18, is its last step before the copy
+helper for your post. [The lane's status page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/STATUS.md) has every
 check's link.

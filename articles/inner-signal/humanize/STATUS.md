@@ -1,5 +1,18 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-25, after Joel's message of 01:01 UTC ("finish the guide first": the four-part clarity check)
+
+**The guide's clarity check, all four parts**, is questions 15 to 18 (`OWNER-QUESTIONS.md`), each with its page in
+`fix-20261025/`: what a reader has to reread (`clarity/CLARITY.md`: 64 passages, 7 hard, 57 to reread, 15 small snags),
+the reader's edit (`edit/READERS-EDIT.md`: 33, my pick A on 30), the caveats (`caveats/CAVEATS.md`: 68, cut 32 and keep
+36) and the repeats (`repeats/REPEATS.md`: 64, cut 18 and keep 46). My check of every item is `fix-20261025/my_checks.py`,
+done with the InnerSignal protocol loaded in the main thread (0.2.1, 1da3ddf0...). Found on the way: Pattern 4's
+references to two examples the 3 a version had left out (E263). Nothing in the guide has changed yet.
+
+Predictions: none (no Pangram check this turn). Delegations (model, piece, check, outcome): 37 Sonnet readers, one per
+brief (6 reread, 11 reader's edit, 8 caveats, 10 repeats, then 2 for part 1's halves); my reading of all 295 items against
+the whole guide, each found word for word; 36 reported, part 1's first reader ran out of output (E262).
+
 ## 2026-10-24, after Joel's message of 23:40 UTC (Nibbāna: N7 A in, the helper rebuilt)
 
 **N7 A** ("n7a") as batch n9: "The later Buddhist text *Milindapañha* ...", one word, link and italics kept

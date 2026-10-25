@@ -187,6 +187,44 @@ KEEPS: every sentence
             self.assertIn('~~As I said, founders hold too much power.~~', md)
             self.assertIn('**Said already:** Founders hold too much power. [One]', md)
 
+    def test_every_brief_says_to_work_quickly(self):
+        """E262: the reader of the hypnosis guide's first part ran out of output deliberating; every kind of brief now says
+        to work quickly, as the edit and repeats briefs did."""
+        with tempfile.TemporaryDirectory() as d:
+            src = pathlib.Path(d) / 'a.html'
+            src.write_text(ARTICLE_HTML, encoding='utf-8')
+            for kind in ('clarity', 'edit', 'caveats', 'repeats'):
+                out = pathlib.Path(d) / kind
+                C.make(src, out, parts=1, read=kind)
+                self.assertIn('Work quickly', (out / 'BRIEF-1.txt').read_text(encoding='utf-8'), kind)
+
+    def test_a_cut_flagged_twice_is_listed_once_and_numbers_follow_the_page(self):
+        """2026-10-25: 48 of the hypnosis guide's 295 items were the same words twice, or on two lists. "status": "dup" lists
+        one at the end with where it is offered, and numbers() gives each offered item its number on the page."""
+        art = ('<div class="body markup"><h1>One</h1><p>Founders hold too much power. That is the core problem.</p>'
+               '<h1>Two</h1><p>' + 'Text. ' * 40 + 'As I said, founders hold too much power.</p></div>')
+        with tempfile.TemporaryDirectory() as d:
+            src = pathlib.Path(d) / 'a.html'
+            src.write_text(art, encoding='utf-8')
+            out = pathlib.Path(d) / 'rep'
+            C.make(src, out, parts=2, read='repeats')
+            report = ('## 1\nSECTION: Two\nQUOTE: As I said, founders hold too much power.\n'
+                      'KEPT: Founders hold too much power. [One]\nWHY: the same point\nLOSES: nothing\n\n'
+                      '## 2\nSECTION: One\nQUOTE: That is the core problem.\n'
+                      'KEPT: Founders hold too much power. [One]\nWHY: says it again\nLOSES: nothing\n')
+            (out / 'READER-1.md').write_text(report, encoding='utf-8')
+            (out / 'READER-2.md').write_text(report.split('\n\n')[0] + '\n', encoding='utf-8')
+            items = C.collect(out)
+            self.assertEqual([x['key'] for x in items], ['1.1', '1.2', '2.1'])
+            items[2]['status'], items[2]['note'] = 'dup', 'Same cut as 18.2.'
+            (out / 'ITEMS.json').write_text(json.dumps(items), encoding='utf-8')
+            self.assertEqual(C.numbers(items), {'1.2': 1, '1.1': 2})  # in the article's order
+            md, n = C.page(out)
+            self.assertEqual(n, 2)
+            self.assertIn('## Flagged twice, or offered on another list', md)
+            self.assertIn('(Same cut as 18.2.)', md)
+            self.assertEqual(md.count('~~As I said, founders hold too much power.~~'), 1)
+
     def test_the_after_shows_the_cut_made(self):
         """Joel, 2026-10-24 19:52 UTC (64.14): "instead of telling me "the sentence then starts with.." you actually make
         that change in the "after" version". A cut that takes a sentence's first words leaves its capital; a dash or comma
