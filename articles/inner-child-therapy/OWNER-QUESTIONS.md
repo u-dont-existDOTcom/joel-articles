@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-25 (turns 82 to 111). **Open questions: 108.** For you to do: merge the turn-111 pull request. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-25 (turns 82 to 111). **Open questions: 108.** For you to do: merge pull request #249. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -25,9 +25,9 @@ Everything else from your answers on the review sheet is in, and 12 of the 14 pa
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge the pull request for turn 111
+### 🟠 Merge pull request #249 (turn 111)
 
-Turn 111: the lane's [open pull request](https://github.com/u-dont-existDOTcom/joel-articles/pulls?q=is%3Apr+is%3Aopen+head%3Ahandoff%2Fclaude-dangerous-adult-20260924-1631). Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged". (You merged #246, turns 109 and 110.)
+Turn 111: https://github.com/u-dont-existDOTcom/joel-articles/pull/249. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged". (You merged #246, turns 109 and 110.)
 
 ### 🔵 The two temporary Substack drafts: keep them for the next whole-article check (turn 111)
 

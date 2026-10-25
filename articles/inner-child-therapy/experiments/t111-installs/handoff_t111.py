@@ -12,7 +12,7 @@ ROOT = HERE.parents[3]
 OUT = HERE.parents[1] / 'HANDOFF-UPDATE.json'
 S = 'https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq'
 BR = 'handoff/claude-dangerous-adult-20260924-1631'
-PRS = 'the lane\'s open pull request (https://github.com/u-dont-existDOTcom/joel-articles/pulls?q=is%3Apr+is%3Aopen+head%3Ahandoff%2Fclaude-dangerous-adult-20260924-1631)'
+PRS = 'pull request #249 (https://github.com/u-dont-existDOTcom/joel-articles/pull/249)'
 OLDPR = 'pull request #246 (https://github.com/u-dont-existDOTcom/joel-articles/pull/246)'
 e = re.escape
 
@@ -41,7 +41,7 @@ upd = {
         [e('TURN 110 (2026-10-25, his message of 2026-10-25 17:26 UTC; by %s), the latest; its next step wins over everything below. Branch %s; %s for him to merge, which turn 110 pushed to as well.' % (S, BR, OLDPR)),
          'TURN 110 (2026-10-25, his message of 2026-10-25 17:26 UTC; by %s), FINISHED. Branch %s; %s, merged.' % (S, BR, OLDPR), 1],
         [e('this version is from turn 110 (his message of 2026-10-25 17:26 UTC; pull request #246 for him to merge).'),
-         'this version is from turn 111 (his answers of 2026-10-25 20:08 UTC; the turn-111 pull request for him to merge).', 1],
+         'this version is from turn 111 (his answers of 2026-10-25 20:08 UTC; pull request #249 for him to merge).', 1],
         [e('turns 59 to 76 and 100 to 110 by %s' % S), 'turns 59 to 76 and 100 to 111 by %s' % S, 1],
         [e('  - experiments/t110-answers/ (his message and GPT\'s review), t110-review/ (the agreement, the cold read and his review sheet), t110-installs/ and t110-api/ (the latest turn), '),
          '  - experiments/t111-answers/ (his message, his answers and the traces), t111-installs/ and t111-api/ (the latest turn), t110-answers/ (his message and GPT\'s review), t110-review/ (the agreement, the cold read and his review sheet), t110-gate/ (the owner-delivery gate), t110-installs/ and t110-api/ (turn 110), ', 1],
@@ -57,7 +57,7 @@ upd = {
     'sections': {
         '## Waiting on Joel': '\n'.join([
             '1. His answers to question 108 on OWNER-QUESTIONS.md: Borrow Love\'s line (my pick: put it back) and Just Like Me\'s second paragraph (my pick: his sentence alone).',
-            '2. His merge of the turn-111 pull request.',
+            '2. His merge of pull request #249 (turn 111).',
             '3. The two temporary Substack drafts, "Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)", stay for round 7; his delete comes after its results.',
             '4. Never in the article: amounts (the 1g, the 7g) and any recipe for what to take instead, including his "ultimate psychedelic recipe" line and its link.',
         ]),
