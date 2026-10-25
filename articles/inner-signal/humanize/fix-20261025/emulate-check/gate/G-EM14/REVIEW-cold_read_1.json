@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "28c77cc1349f7d33fe7d9aeaf592eab32f94f103338c4c21d52579529a468986",
+  "context_sha256": "5d9c0af933a6ab7a3a7cd0690d949dcaa72fd65d1b73337e06da9405c196f11e",
+  "source_sha256": "eee1b42c1b0b3553c12cac43fb9fe5b6e21f02042899a85ec24b6b9ac5940f70",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "emulate-gate-cold_read_1-subagent-r2b",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session), round 2"
+  },
+  "evidence": "Read cold under the heading 'Pattern 9: Nominalizations', the first sentence now says what a nominalization is (words that turn a process into a noun) and then gives the examples; the next sentence ('These are a bit vague, and sometimes that can be useful...') follows from that, and 'These' still points at the nominalizations just defined, so no referent problem. The draft itself has no pronoun. Against SOURCE.txt: his line is 'Nominalizations turn processes into nouns: healing, safety, trust, integration, communion, clarity, rest.' The draft adds exactly one clause, 'that turn a process into a noun', which is his definition (singular instead of plural, same meaning), and keeps his seven examples in his order. It does what the_change says (puts the dropped definition in front of the examples) and nothing more. Two things in the sentence are not in his line, the single quote marks round the examples and the closing 'etc.', but both are carried over unchanged from the sentence it replaces, so this change does not introduce them, and 'etc.' only repeats what 'like' already says; it adds no claim or fact. Tell rows: I went through T01 to T29 and C01 to C04 on the literal draft in its context and found none PRESENT. Closest calls: T21 (definition plus examples in one sentence) is one job, a definition with its examples, not coordinated argumentative jobs; T06 does not apply because 'healing', 'safety' and the rest are mentioned as examples of vague words and the next sentence says they are vague, rather than used as vague prose; T02, T09 and T13 would be about the surrounding Pattern format, and the draft adds no new teaching job or beat to it; T25 does not apply (his colon became 'like', and the heading colon is a label); T27 no tic words; C02 clean; C03 and C04 nothing beyond his definition. Linter: 'B4/E15 list or packed sentence' flags the seven-word list; the list is his (SOURCE.txt), was already in the replaced sentence, and the only addition is one short clause, so the context answers it and I accept it. 'D9 follows the source order' is a trivial 1/1 agreement for a one-sentence restoration of his own line; I checked T13 and T09 as it asks and neither is present, so I accept it.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "B4/E15 list or packed sentence",
+    "D9 follows the source order"
+  ]
+}

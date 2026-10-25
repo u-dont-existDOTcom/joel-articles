@@ -1,0 +1,240 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "a46ad81f207d207a6e35d56a46f0d4bf0828e39e3582b079ec31ff9cd62ce21d",
+  "context_sha256": "994a9880871c82d86edf2099c33294c892296e0370430eabb92ae655e68ce4bc",
+  "source_sha256": "0545330fe24e23707ded2a3f442edf9eef04a689bfd8d761879dbe3d1f4a6e42",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "writer": {
+    "name": "Claude Opus 5.5, the hypnosis guide and community lanes' writer",
+    "context_id": "session_01Mxpoi6tFT3FgKmBvtGjRtS"
+  },
+  "lint": {
+    "verdict_at_init": "REVIEW",
+    "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+    "stdout_sha256": "9df5b45d426458773f52a96aa18c1864da278c28c94384a544a844b3e15de8f9",
+    "findings": [
+      {
+        "label": "D9 follows the source order",
+        "examples": [
+          "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "It is his own line (SOURCE.txt) put back in place of Emulate's wording, so it follows his order by design; the paragraph around it keeps its own order and asides."
+      },
+      {
+        "label": "E36/E41 heavy second person",
+        "examples": [
+          "7.7 \"you\" per 100 of my words"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "The guide speaks to the reader as \"you\" throughout; this sentence uses it to give one step, inside a paragraph that is not a run of coaching lines."
+      }
+    ]
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "no first-person stake in \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\" beyond the source's own",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "\"Ethical Double Bind Questions give you two choices that are both genuinely safe.\" is one step in its paragraph, not part of a run of compressed commands",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "the paragraph before says what a manipulative double bind does; this says what makes the ethical one different, then the examples follow",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "no scene in \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "no concrete prop in \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "no vague healing or process language in \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\"; its terms are the article's own",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "no filler or staged hesitation in \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "no image followed by an explanation of it in \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "one change in one passage; \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\" gets the weight its point needs, the rest of the passage is unchanged",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "no \"you don't have to X before Y\" packaging in \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "\"Ethical Double Bind Questions give you two choices that are both genuinely safe.\" carries a claim or step, not a bridge between document parts",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "no matched pair or closed list made for symmetry in \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "the passage around \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\" keeps its reasons, asides and callbacks; the change adds none of its own and removes none",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "no material moved to dodge a detector: \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\" puts back the author's own point that Emulate dropped",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "\"Ethical Double Bind Questions give you two choices that are both genuinely safe.\" puts back the author's words or meaning, not less likely words for their own sake",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "no \"not X, it's Y\" in \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "ABSENT",
+      "evidence": "no compressed thesis or aphorism in \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "no premise flipped by a short sentence in \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "\"Ethical Double Bind Questions give you two choices that are both genuinely safe.\" does not announce what comes next",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "\"Ethical Double Bind Questions give you two choices that are both genuinely safe.\" is not a polished paragraph-ending line",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "ABSENT",
+      "evidence": "\"Ethical Double Bind Questions give you two choices that are both genuinely safe.\" does one job, not several coordinated argumentative jobs",
+      "resolution": ""
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "\"Ethical Double Bind Questions give you two choices that are both genuinely safe.\" carries a step, a rule or a reason from his line, not reassurance alone",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "no generic scenery in \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "no faux-insight setup or self-answered question in \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "no colon reveal in \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "ABSENT",
+      "evidence": "no distinctive word or phrase in \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\" repeated within three paragraphs without a job",
+      "resolution": ""
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "none of the tic words (\"doing some work\", \"load-bearing\", \"digest\", \"clean\", vague \"work\") in \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "\"Ethical Double Bind Questions give you two choices that are both genuinely safe.\" is not the end of its section, and adds no lesson or uplift",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "\"Ethical Double Bind Questions give you two choices that are both genuinely safe.\" is not a closing restatement of its paragraph",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "the inner child is not named in \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\", and \"the kid\" appears nowhere in it",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "every pronoun in \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\" points at something named just before it",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "no first-person fact about Joel's life in \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\" that he didn't give",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "no claim about a study, person or product in \"Ethical Double Bind Questions give you two choices that are both genuinely safe.\"",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "REVIEW-preservation.json",
+    "cold_read_1": "REVIEW-cold_read_1.json",
+    "cold_read_2": "REVIEW-cold_read_2.json"
+  }
+}

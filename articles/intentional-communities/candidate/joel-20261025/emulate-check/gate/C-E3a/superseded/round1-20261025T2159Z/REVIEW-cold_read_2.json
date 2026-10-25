@@ -1,0 +1,19 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "03945c96e55b43ed3a1f09fa0e65bd33436b25af0ca61154c6bed78052ecac7e",
+  "context_sha256": "2707cfe9275617de46542c35f740bde1c46990af61159e5b7ef6e519cc7ed91e",
+  "source_sha256": "3e1e2421653a3b0b2faea48e1330b07e6e5a76f2963cfa77c95c074b19ee9c35",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+    "context_id": "emulate-gate-cold_read_2-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Draft judged: 'Who has to step aside because they're too close to it?' Read the whole CONTEXT (shared with C-E3b, so it shows both new questions in place): it is the second question in the list, after 'What counts as cause for immediate protective action?' and before 'Who decides to put temporary restrictions on someone?'. That is the right place, since recusal comes before restrictions are decided, and the wording matches its neighbours (short, plain, 'Who ...?'). Against his line ('who is recused'): 'step aside because they're too close to it' is a plain-words gloss of recusal; nothing is added. 'it' means the case the list is about, a little loose but not confusing here. T02: the paragraph is a run of consecutive short questions, each doing one job, so the cadence is present at paragraph scale and the draft lengthens it by one; I call it PRESENT but justified, because it is a protocol checklist, his own line is the same list in the same form, and a list or a question alone is not the tell. T13 (the paragraph opens with a reason, 'So work out the process before it's about anyone in particular', and carries a parenthetical), T03, T10, T22 are ABSENT. Linter: CLEAR, no findings to judge. No other row is PRESENT.",
+  "resolved_tell_ids": [
+    "T02"
+  ],
+  "resolved_lint_labels": []
+}

@@ -1,0 +1,223 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "03945c96e55b43ed3a1f09fa0e65bd33436b25af0ca61154c6bed78052ecac7e",
+  "context_sha256": "91d9c48d57a36e06058d3e9ecc2b4915ec4743960190072f2b98bf488c133a5e",
+  "source_sha256": "3e1e2421653a3b0b2faea48e1330b07e6e5a76f2963cfa77c95c074b19ee9c35",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "writer": {
+    "name": "Claude Opus 5.5, the hypnosis guide and community lanes' writer",
+    "context_id": "session_01Mxpoi6tFT3FgKmBvtGjRtS"
+  },
+  "lint": {
+    "verdict_at_init": "CLEAR",
+    "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+    "stdout_sha256": "bd84116b06355bbbf9eeec916e22a391727c59ab705288752f1e6a27b5a09cec",
+    "findings": []
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "no first-person stake in \"Who has to step aside because they’re too close to it?\" beyond the source's own",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "\"Who has to step aside because they’re too close to it?\" is one step in its paragraph, not part of a run of compressed commands",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "the sentence before it in the context sets it up; nothing new arrives unprepared in \"Who has to step aside because they’re too close to it?\"",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "no scene in \"Who has to step aside because they’re too close to it?\"",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "no concrete prop in \"Who has to step aside because they’re too close to it?\"",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "no vague healing or process language in \"Who has to step aside because they’re too close to it?\"; its terms are the article's own",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "no filler or staged hesitation in \"Who has to step aside because they’re too close to it?\"",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "no image followed by an explanation of it in \"Who has to step aside because they’re too close to it?\"",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "one change in one passage; \"Who has to step aside because they’re too close to it?\" gets the weight its point needs, the rest of the passage is unchanged",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "no \"you don't have to X before Y\" packaging in \"Who has to step aside because they’re too close to it?\"",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "\"Who has to step aside because they’re too close to it?\" carries a claim or step, not a bridge between document parts",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "no matched pair or closed list made for symmetry in \"Who has to step aside because they’re too close to it?\"",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "the passage around \"Who has to step aside because they’re too close to it?\" keeps its reasons, asides and callbacks; the change adds none of its own and removes none",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "no material moved to dodge a detector: \"Who has to step aside because they’re too close to it?\" puts back the author's own point that Emulate dropped",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "\"Who has to step aside because they’re too close to it?\" puts back the author's words or meaning, not less likely words for their own sake",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "no \"not X, it's Y\" in \"Who has to step aside because they’re too close to it?\"",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "ABSENT",
+      "evidence": "no compressed thesis or aphorism in \"Who has to step aside because they’re too close to it?\"",
+      "resolution": ""
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "no premise flipped by a short sentence in \"Who has to step aside because they’re too close to it?\"",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "\"Who has to step aside because they’re too close to it?\" does not announce what comes next",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "\"Who has to step aside because they’re too close to it?\" is not a polished paragraph-ending line",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "ABSENT",
+      "evidence": "\"Who has to step aside because they’re too close to it?\" does one job, not several coordinated argumentative jobs",
+      "resolution": ""
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "\"Who has to step aside because they’re too close to it?\" carries a step, a rule or a reason from his line, not reassurance alone",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "no generic scenery in \"Who has to step aside because they’re too close to it?\"",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "no faux-insight setup or self-answered question in \"Who has to step aside because they’re too close to it?\"",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "no colon reveal in \"Who has to step aside because they’re too close to it?\"",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "ABSENT",
+      "evidence": "no distinctive word or phrase in \"Who has to step aside because they’re too close to it?\" repeated within three paragraphs without a job",
+      "resolution": ""
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "none of the tic words (\"doing some work\", \"load-bearing\", \"digest\", \"clean\", vague \"work\") in \"Who has to step aside because they’re too close to it?\"",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "\"Who has to step aside because they’re too close to it?\" is not the end of its section, and adds no lesson or uplift",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "\"Who has to step aside because they’re too close to it?\" is not a closing restatement of its paragraph",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "the inner child is not named in \"Who has to step aside because they’re too close to it?\", and \"the kid\" appears nowhere in it",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "\"they\" is whoever would decide; \"it\" is the removal case the list is about (\"This power to remove people\")",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "no first-person fact about Joel's life in \"Who has to step aside because they’re too close to it?\" that he didn't give",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "no claim about a study, person or product in \"Who has to step aside because they’re too close to it?\"",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "REVIEW-preservation.json",
+    "cold_read_1": "REVIEW-cold_read_1.json",
+    "cold_read_2": "REVIEW-cold_read_2.json"
+  }
+}

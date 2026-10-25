@@ -1,0 +1,19 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "08e5817fd1af4778b714f4462b80a60103168ed1812828e40df95dad955d0290",
+  "context_sha256": "7101239079f59453b5948fbb606d0e9276ac00022e818283b92648642e3404e7",
+  "source_sha256": "cc102cfdb9364a4a69fc8615645800b9bc26cab3079e77594548be7329c6d603",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation)",
+    "context_id": "emulate-gate-preservation-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Judged “And a community’s autonomy doesn’t let it take away rights a person can’t sign away, or make the law outside disappear.” (new words, nothing replaced) against his line (“But autonomy is not permission to erase non-waivable individual rights, and it does not make outside jurisdiction disappear.”). Both halves of his limit are there, at the end of the paragraph about what “outside” means, where they apply. The renderings are plain-language equivalents of the same claim at the same strength: “is not permission to” as “doesn’t let it”, “erase” as “take away”, “non-waivable individual rights” as “rights a person can’t sign away”, and “outside jurisdiction” as “the law outside” (the outside authority’s reach over the community). Two small shifts I checked and do not count as changes of meaning: “But” became “And” (the limit now reads as a further point about the outside rather than a counterweight, but its force is carried by “doesn’t let it”), and “a community’s autonomy” names whose autonomy it is (the essay’s subject, and “it” is that community). Nothing added: no person, number or new rule. Tells: T17 and T20 considered and ABSENT (a plain statement of his limit that adds a new consideration; with the last sentence removed the paragraph ends on “it’s not the same people”, so T29 does not apply). All other rows ABSENT. Lint: D9 accepted (his line put back, one sentence).",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order"
+  ]
+}

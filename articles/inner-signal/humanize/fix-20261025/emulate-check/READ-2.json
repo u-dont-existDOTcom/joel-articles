@@ -1,0 +1,803 @@
+[
+ {
+  "block": 95,
+  "where": "When the adult role is not available yet, P1",
+  "kind": "error",
+  "new": "The problem is, that some people",
+  "his": "Some people can summon one of those adult functions.",
+  "why": "Stray comma after 'is' breaks the sentence.",
+  "severity": "small"
+ },
+ {
+  "block": 95,
+  "where": "When the adult role is not available yet, P1",
+  "kind": "added",
+  "new": "(what I call forced adulthood)",
+  "his": "",
+  "why": "Adds a named term, 'forced adulthood', that HIS never uses or claims as his own.",
+  "severity": "matters"
+ },
+ {
+  "block": 95,
+  "where": "When the adult role is not available yet, P1",
+  "kind": "added",
+  "new": "is like telling a baby bird to just fly",
+  "his": "",
+  "why": "Adds an invented baby-bird comparison.",
+  "severity": "small"
+ },
+ {
+  "block": 95,
+  "where": "When the adult role is not available yet, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "assumes the capacity they are trying to build",
+  "why": "The reason the instruction fails (it presupposes the very capacity being built) is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 95,
+  "where": "When the adult role is not available yet, P1",
+  "kind": "lost",
+  "new": "access an inherited inner critic",
+  "his": "hear only the inherited critic",
+  "why": "'Hear only' (the critic is all they get) becomes 'access', and 'only' is gone.",
+  "severity": "small"
+ },
+ {
+  "block": 95,
+  "where": "When the adult role is not available yet, P1",
+  "kind": "added",
+  "new": "they may go blank",
+  "his": "Others go blank",
+  "why": "Adds a hedge ('may') to what HIS states flatly.",
+  "severity": "small"
+ },
+ {
+  "block": 96,
+  "where": "When the adult role is not available yet, P2",
+  "kind": "error",
+  "new": "I call “borrowed adulthood.”",
+  "his": "I call borrowed adulthood.",
+  "why": "Scare quotes around the name; HIS has none.",
+  "severity": "small"
+ },
+ {
+  "block": 96,
+  "where": "When the adult role is not available yet, P2",
+  "kind": "lost",
+  "new": "",
+  "his": "It combines familiar practices—witnessing, modeling, supported action, and gradual transfer of responsibility",
+  "why": "The list of familiar practices the bridge is built from is gone.",
+  "severity": "matters"
+ },
+ {
+  "block": 96,
+  "where": "When the adult role is not available yet, P2",
+  "kind": "added",
+  "new": "I’m not suggesting that all of the steps in this process have been formally tested and proven",
+  "his": "without claiming that the complete sequence has been validated as one treatment",
+  "why": "Now says some individual steps are untested; HIS says only the whole sequence is unvalidated as one treatment.",
+  "severity": "matters"
+ },
+ {
+  "block": 97,
+  "where": "When the adult role is not available yet, P3",
+  "kind": "added",
+  "new": "move immediately to accessing the adult position you want to borrow",
+  "his": "move to the adult function you need",
+  "why": "'Immediately' makes the instruction more urgent than HIS.",
+  "severity": "small"
+ },
+ {
+  "block": 97,
+  "where": "When the adult role is not available yet, P3",
+  "kind": "added",
+  "new": "If you already know how to access different internal positions",
+  "his": "If you already distinguish the internal positions",
+  "why": "Knowing how to access positions is not the same as telling them apart.",
+  "severity": "small"
+ },
+ {
+  "block": 98,
+  "where": "When the adult role is not available yet, P4",
+  "kind": "lost",
+  "new": "just borrow what you need right now, warmth or a boundary or direction",
+  "his": "Borrow one function.",
+  "why": "The limit of borrowing just one function (and only what is needed now) is gone.",
+  "severity": "matters"
+ },
+ {
+  "block": 98,
+  "where": "When the adult role is not available yet, P4",
+  "kind": "added",
+  "new": "just like you would borrow a cup of sugar from a neighbor",
+  "his": "",
+  "why": "Adds an invented comparison.",
+  "severity": "small"
+ },
+ {
+  "block": 98,
+  "where": "When the adult role is not available yet, P4",
+  "kind": "added",
+  "new": "If you have a safe adult in your life you can borrow from them, if not borrow from",
+  "his": "Choose a safe adult, mentor, older sibling, future self, spiritual figure, value, or written plan.",
+  "why": "Turns an open list of options into an order: safe adult first, the rest only if you have none.",
+  "severity": "small"
+ },
+ {
+  "block": 98,
+  "where": "When the adult role is not available yet, P4",
+  "kind": "error",
+  "new": "if not borrow from a mentor, older brother/sister, imagine your future self",
+  "his": "Choose a safe adult, mentor, older sibling, future self",
+  "why": "The list switches verb midway ('borrow from ... imagine ...'), so the grammar breaks.",
+  "severity": "small"
+ },
+ {
+  "block": 99,
+  "where": "When the adult role is not available yet, P5",
+  "kind": "added",
+  "new": "put on your adult hat",
+  "his": "Become the adult apprentice.",
+  "why": "Adds an 'adult hat' image that HIS doesn't have.",
+  "severity": "small"
+ },
+ {
+  "block": 99,
+  "where": "When the adult role is not available yet, P5",
+  "kind": "lost",
+  "new": "You should do at least part of what you think you should do or say.",
+  "his": "carry at least one small part",
+  "why": "The low bar (one small part) becomes 'at least part' of what you think you should do.",
+  "severity": "small"
+ },
+ {
+  "block": 100,
+  "where": "When the adult role is not available yet, P6",
+  "kind": "added",
+  "new": "Return the adult hat, noticing what you borrowed and what you were able to do on your own",
+  "his": "",
+  "why": "A new closing step with no source in his text.",
+  "severity": "matters"
+ },
+ {
+  "block": 100,
+  "where": "When the adult role is not available yet, P6",
+  "kind": "added",
+  "new": "(even if it’s only 5%)",
+  "his": "",
+  "why": "Adds a percentage figure with no source.",
+  "severity": "small"
+ },
+ {
+  "block": 102,
+  "where": "When the adult role is not available yet, P8",
+  "kind": "added",
+  "new": "You don’t have to have trustworthy people in your history.",
+  "his": "You don’t need a history full of trustworthy people to borrow care.",
+  "why": "Says no trustworthy people are needed at all; HIS only says the history needn't be full of them.",
+  "severity": "small"
+ },
+ {
+  "block": 102,
+  "where": "When the adult role is not available yet, P8",
+  "kind": "lost",
+  "new": "with your history, limitations, options, etc.",
+  "his": "with my actual history, limitations, and options",
+  "why": "'Actual' is dropped and 'etc.' opens the list.",
+  "severity": "small"
+ },
+ {
+  "block": 102,
+  "where": "When the adult role is not available yet, P8",
+  "kind": "lost",
+  "new": "Once you’ve found something good, try it, don’t keep doing the exercise.",
+  "his": "Once you find one usable sentence or action, try it rather than repeating the exercise in different words.",
+  "why": "The bar becomes 'good' instead of 'one usable sentence or action', and what to stop doing is vaguer.",
+  "severity": "small"
+ },
+ {
+  "block": 103,
+  "where": "When the adult role is not available yet, P9",
+  "kind": "added",
+  "new": "every response you can think of is retaliating, defending your goodness, collapsing or leaving",
+  "his": "how would a decent adult hear distrust without retaliating, defending their goodness, collapsing, or leaving?",
+  "why": "HIS asks how to hear distrust without those four reactions; NEW says all your responses are those reactions.",
+  "severity": "small"
+ },
+ {
+  "block": 103,
+  "where": "When the adult role is not available yet, P9",
+  "kind": "added",
+  "new": "it’s okay",
+  "his": "",
+  "why": "Adds a reassurance HIS doesn't have.",
+  "severity": "small"
+ },
+ {
+  "block": 105,
+  "where": "Let the child speak without handing over the steering wheel, P1",
+  "kind": "added",
+  "new": "you can access all of the positive aspects of what it can be like to feel younger",
+  "his": "Wonder, play, vivid sensation, vulnerability, honest need, or the wish to carry fewer decisions can all come forward while the internal adult remains present.",
+  "why": "Claims 'all' the positive aspects, and the condition that the internal adult stays present is only implied.",
+  "severity": "small"
+ },
+ {
+  "block": 105,
+  "where": "Let the child speak without handing over the steering wheel, P1",
+  "kind": "added",
+  "new": "to let someone take care of you",
+  "his": "",
+  "why": "Adds being taken care of by someone, which sits oddly beside not handing judgment to an outside caretaker.",
+  "severity": "small"
+ },
+ {
+  "block": 106,
+  "where": "Let the child speak without handing over the steering wheel, P2",
+  "kind": "added",
+  "new": "is always going to be here, listening, evaluating, protecting me and stopping me if needed",
+  "his": "remains here to listen, evaluate, protect, and stop",
+  "why": "Adds 'always' and 'if needed', which HIS doesn't have.",
+  "severity": "small"
+ },
+ {
+  "block": 106,
+  "where": "Let the child speak without handing over the steering wheel, P2",
+  "kind": "lost",
+  "new": "any child state, guide, recording or person",
+  "his": "No child-state, guide, recording, or outside person replaces adult judgment.",
+  "why": "'Outside' is dropped from 'outside person'.",
+  "severity": "small"
+ },
+ {
+  "block": 107,
+  "where": "Let the child speak without handing over the steering wheel, P3",
+  "kind": "added",
+  "new": "without any of the negatives of being a child",
+  "his": "without pairing those gifts with obedience, helplessness, scolding, or weakened judgment",
+  "why": "Claims none of the negatives of childhood come along; HIS names four specific ones.",
+  "severity": "small"
+ },
+ {
+  "block": 107,
+  "where": "Let the child speak without handing over the steering wheel, P3",
+  "kind": "error",
+  "new": "the benefits of being young; curiosity",
+  "his": "recover curiosity",
+  "why": "A semicolon introduces the list where a colon belongs.",
+  "severity": "small"
+ },
+ {
+  "block": 109,
+  "where": "Love doesn’t have to wait for trust, P1",
+  "kind": "added",
+  "new": "remember when you failed to protect them",
+  "his": "remember failures of protection",
+  "why": "Makes it you who failed; HIS says only 'failures of protection'.",
+  "severity": "small"
+ },
+ {
+  "block": 109,
+  "where": "Love doesn’t have to wait for trust, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "When love is available, the younger state doesn’t have to believe in it before you can offer it.",
+  "why": "The condition 'when love is available' is gone.",
+  "severity": "small"
+ },
+ {
+  "block": 111,
+  "where": "Love doesn’t have to wait for trust, P3",
+  "kind": "added",
+  "new": "Then respond to the complaints that are sure to come.",
+  "his": "",
+  "why": "Claims the complaints are certain; no source for this step.",
+  "severity": "small"
+ },
+ {
+  "block": 111,
+  "where": "Love doesn’t have to wait for trust, P3",
+  "kind": "added",
+  "new": "Owning what was not okay. Working on changing yourself so that you are less likely to turn on them.",
+  "his": "",
+  "why": "Instructions with no source in his text.",
+  "severity": "small"
+ },
+ {
+  "block": 111,
+  "where": "Love doesn’t have to wait for trust, P3",
+  "kind": "added",
+  "new": "Finding other ways to make up to them for what you did.",
+  "his": "",
+  "why": "No source; assumes the reader did something to the child.",
+  "severity": "small"
+ },
+ {
+  "block": 113,
+  "where": "Instead of blame, P1",
+  "kind": "added",
+  "new": "Be aware of what you are teaching your other positions.",
+  "his": "Notice what each position teaches the others.",
+  "why": "Makes it what you teach your positions; HIS has the positions teaching each other.",
+  "severity": "small"
+ },
+ {
+  "block": 117,
+  "where": "The two-hand practice, P1",
+  "kind": "added",
+  "new": "There is a simple and easy body technique to connect with your inner child.",
+  "his": "",
+  "why": "Adds a claim that the technique is simple and easy.",
+  "severity": "small"
+ },
+ {
+  "block": 117,
+  "where": "The two-hand practice, P1",
+  "kind": "added",
+  "new": "where your child can be",
+  "his": "where you can relate to the vulnerable child",
+  "why": "Puts the child at the solar plexus; HIS says only that you relate to the child from there.",
+  "severity": "small"
+ },
+ {
+  "block": 118,
+  "where": "The two-hand practice, P2",
+  "kind": "added",
+  "new": "Begin to send love from your heart down to your child",
+  "his": "Send warmth from the heart toward the child.",
+  "why": "Asks for love where HIS asks only for warmth.",
+  "severity": "small"
+ },
+ {
+  "block": 118,
+  "where": "The two-hand practice, P2",
+  "kind": "lost",
+  "new": "This is a conversation with your child from your heart.",
+  "his": "Let it become a conversation rather than a performance.",
+  "why": "'Rather than a performance' is gone, and a hope ('let it become') turns into a statement.",
+  "severity": "small"
+ },
+ {
+  "block": 120,
+  "where": "The Nurturer, P1",
+  "kind": "added",
+  "new": "Some of the work you can do as the Nurturer is to enjoy your inner child. You don't have to move their feelings, just sit back and enjoy them.",
+  "his": "",
+  "why": "No HIS line here says this; the paired HIS is a different passage.",
+  "severity": "small"
+ },
+ {
+  "block": 120,
+  "where": "The Nurturer, P1",
+  "kind": "added",
+  "new": "Children need to be enjoyed!",
+  "his": "",
+  "why": "A general claim with no source.",
+  "severity": "small"
+ },
+ {
+  "block": 128,
+  "where": "The Protector, P1",
+  "kind": "added",
+  "new": "destabilizes me",
+  "his": "destabilizes us",
+  "why": "Changes 'us' to 'me'.",
+  "severity": "small"
+ },
+ {
+  "block": 128,
+  "where": "The Protector, P1",
+  "kind": "added",
+  "new": "I'm not going to leave you to do adult things by yourself",
+  "his": "I will not leave the child alone with adult consequences.",
+  "why": "Changes 'alone with adult consequences' to 'do adult things by yourself', and switches from the child to 'you'.",
+  "severity": "small"
+ },
+ {
+  "block": 128,
+  "where": "The Protector, P1",
+  "kind": "lost",
+  "new": "I'm going to keep the promise to myself",
+  "his": "I will keep a small promise.",
+  "why": "'A small promise' becomes 'the promise to myself'.",
+  "severity": "small"
+ },
+ {
+  "block": 129,
+  "where": "The Protector, P2",
+  "kind": "added",
+  "new": "A lot of times, inner child work doesn't work because people are doing all the fluffy stuff",
+  "his": "",
+  "why": "A claim about why inner child work fails, with no source.",
+  "severity": "matters"
+ },
+ {
+  "block": 130,
+  "where": "The Protector, P3",
+  "kind": "added",
+  "new": "figure out what's getting in the way of you doing them. Are you scared? Tired? Do you not know how to?",
+  "his": "",
+  "why": "A troubleshooting step with no source.",
+  "severity": "small"
+ },
+ {
+  "block": 130,
+  "where": "The Protector, P3",
+  "kind": "added",
+  "new": "Don't make it so that doing it successfully means you have to feel good about it, or be able to check it off a list.",
+  "his": "",
+  "why": "An instruction with no source.",
+  "severity": "small"
+ },
+ {
+  "block": 132,
+  "where": "The Guide, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "The label matters much less than the ability to orient the whole system toward a life.",
+  "why": "Drops what the Guide function is for and that the label matters less than that.",
+  "severity": "small"
+ },
+ {
+  "block": 133,
+  "where": "The Guide, P2",
+  "kind": "lost",
+  "new": "finding ways to get your need for closeness met without punishing someone for their need for space",
+  "his": "Wanting closeness is legitimate; punishing someone for needing space is a different strategy. Find a way to meet the need without erasing either person.",
+  "why": "Drops 'wanting closeness is legitimate' and 'without erasing either person'.",
+  "severity": "small"
+ },
+ {
+  "block": 134,
+  "where": "The Guide, P3",
+  "kind": "added",
+  "new": "We’re not just here to feel good.",
+  "his": "We are not only here to feel better.",
+  "why": "'Feel better' becomes 'feel good'.",
+  "severity": "small"
+ },
+ {
+  "block": 135,
+  "where": "The Guide, P4",
+  "kind": "error",
+  "new": "(i.e. not depriving them of things they need, like play or support, etc.)",
+  "his": "Direction should help the child grow without erasing care, play, or support.",
+  "why": "'i.e.' is the wrong abbreviation for examples ('like ... etc.').",
+  "severity": "small"
+ },
+ {
+  "block": 135,
+  "where": "The Guide, P4",
+  "kind": "lost",
+  "new": "like play or support",
+  "his": "without erasing care, play, or support",
+  "why": "'Care' drops out of the list.",
+  "severity": "small"
+ },
+ {
+  "block": 137,
+  "where": "Working with childhood protector parts, P1",
+  "kind": "lost",
+  "new": "Feel free to use parts language here, too, if it’s helpful.",
+  "his": "Use this parts language when you actually recognize a protective pattern or find it useful to explore.",
+  "why": "Drops the condition: when you actually recognize a protective pattern.",
+  "severity": "small"
+ },
+ {
+  "block": 137,
+  "where": "Working with childhood protector parts, P1",
+  "kind": "added",
+  "new": "Often, we see a sensation or a distraction or an objection as something that needs to be explored",
+  "his": "A sensation, distraction, or objection doesn’t establish its cause.",
+  "why": "Adds a claim about what people often do.",
+  "severity": "small"
+ },
+ {
+  "block": 138,
+  "where": "Working with childhood protector parts, P2",
+  "kind": "added",
+  "new": "If you're not careful, you might find yourself expecting",
+  "his": "People assume inner-child work begins with the child.",
+  "why": "Turns a plain statement about what people assume into a warning to the reader.",
+  "severity": "small"
+ },
+ {
+  "block": 139,
+  "where": "Working with childhood protector parts, P3",
+  "kind": "added",
+  "new": "sexually aroused",
+  "his": "",
+  "why": "A specific example with no source.",
+  "severity": "small"
+ },
+ {
+  "block": 139,
+  "where": "Working with childhood protector parts, P3",
+  "kind": "added",
+  "new": "It's what protects you when your consciously installed parental Protector isn't functioning, the same as when you were a child.",
+  "his": "",
+  "why": "An explanation with no source.",
+  "severity": "small"
+ },
+ {
+  "block": 141,
+  "where": "Working with childhood protector parts, P5",
+  "kind": "added",
+  "new": "Perhaps they are afraid that you will lie to yourself again or pretend again",
+  "his": "",
+  "why": "A list of specific fears with no source.",
+  "severity": "small"
+ },
+ {
+  "block": 142,
+  "where": "Working with childhood protector parts, P6",
+  "kind": "added",
+  "new": "1% more",
+  "his": "",
+  "why": "A percentage figure with no source.",
+  "severity": "small"
+ },
+ {
+  "block": 142,
+  "where": "Working with childhood protector parts, P6",
+  "kind": "added",
+  "new": "Tell them that it makes sense that they want to protect you and that they don’t have to stop protecting you",
+  "his": "",
+  "why": "A reassurance to the protector part with no source.",
+  "severity": "small"
+ },
+ {
+  "block": 143,
+  "where": "Working with childhood protector parts, P7",
+  "kind": "added",
+  "new": "Most of the time the protector part wants you to do certain things",
+  "his": "",
+  "why": "A general claim about what protector parts want, with no source.",
+  "severity": "small"
+ },
+ {
+  "block": 143,
+  "where": "Working with childhood protector parts, P7",
+  "kind": "added",
+  "new": "admit that you owe someone money",
+  "his": "",
+  "why": "A specific example with no source.",
+  "severity": "small"
+ },
+ {
+  "block": 145,
+  "where": "Your inherited parent script, P1",
+  "kind": "added",
+  "new": "and it doesn’t always sound like a voice",
+  "his": "One important voice is the inherited parent",
+  "why": "Says the script isn't always a voice; HIS calls it a voice.",
+  "severity": "matters"
+ },
+ {
+  "block": 145,
+  "where": "Your inherited parent script, P1",
+  "kind": "error",
+  "new": "not to be “needy”",
+  "his": "don’t be needy",
+  "why": "Scare quotes around 'needy'; HIS has none.",
+  "severity": "small"
+ },
+ {
+  "block": 145,
+  "where": "Your inherited parent script, P1",
+  "kind": "error",
+  "new": "is “fake”",
+  "his": "feel fake",
+  "why": "Scare quotes around 'fake'; HIS has none.",
+  "severity": "small"
+ },
+ {
+  "block": 145,
+  "where": "Your inherited parent script, P1",
+  "kind": "added",
+  "new": "not to embarrass them",
+  "his": "don’t embarrass us",
+  "why": "Changes 'us' to 'them'.",
+  "severity": "small"
+ },
+ {
+  "block": 145,
+  "where": "Your inherited parent script, P1",
+  "kind": "added",
+  "new": "Often this script acts as a critic or warden",
+  "his": "The inherited parent may sound like a critic or warden",
+  "why": "Stronger: 'often acts as' instead of 'may sound like'.",
+  "severity": "small"
+ },
+ {
+  "block": 145,
+  "where": "Your inherited parent script, P1",
+  "kind": "lost",
+  "new": "the script may jump in to say that what you’re doing is",
+  "his": "can make a new loving voice feel fake before you’ve even begun",
+  "why": "'Before you've even begun' is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 147,
+  "where": "Protection that knows when to stop scanning, P1",
+  "kind": "error",
+  "new": "Do you want to “embody” your Protector?",
+  "his": "You can practice it as a bodily sequence:",
+  "why": "Scare quotes around 'embody', a word HIS doesn't use.",
+  "severity": "small"
+ },
+ {
+  "block": 147,
+  "where": "Protection that knows when to stop scanning, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "The Protector is more than an inner voice saying no.",
+  "why": "Drops that the Protector is more than an inner voice saying no.",
+  "severity": "small"
+ },
+ {
+  "block": 148,
+  "where": "Protection that knows when to stop scanning, list item",
+  "kind": "added",
+  "new": "feel the support around you",
+  "his": "feel the support beneath you",
+  "why": "Changes 'beneath' to 'around'.",
+  "severity": "small"
+ },
+ {
+  "block": 151,
+  "where": "Protection that knows when to stop scanning, P4",
+  "kind": "error",
+  "new": "make it relative to the danger",
+  "his": "Set one proportionate boundary",
+  "why": "'Relative to' is not the same as 'proportionate'.",
+  "severity": "small"
+ },
+ {
+  "block": 152,
+  "where": "Protection that knows when to stop scanning, P5",
+  "kind": "lost",
+  "new": "verify if it is safe enough",
+  "his": "not perfect certainty, just enough reality-based evidence for the next step",
+  "why": "Drops 'not perfect certainty' and the 'reality-based evidence' standard.",
+  "severity": "small"
+ },
+ {
+  "block": 154,
+  "where": "Protection that knows when to stop scanning, P7",
+  "kind": "error",
+  "new": "“mature” Protector",
+  "his": "A mature Protector",
+  "why": "Scare quotes around 'mature'.",
+  "severity": "small"
+ },
+ {
+  "block": 154,
+  "where": "Protection that knows when to stop scanning, P7",
+  "kind": "error",
+  "new": "“do” discernment",
+  "his": "discernment that acts when needed",
+  "why": "Scare quotes around 'do'.",
+  "severity": "small"
+ },
+ {
+  "block": 154,
+  "where": "Protection that knows when to stop scanning, P7",
+  "kind": "error",
+  "new": "he doesn’t know",
+  "his": "It can ask another human, delay interpretation, or choose a no-trance practice.",
+  "why": "Calls the Protector 'he'; HIS says 'it'.",
+  "severity": "small"
+ },
+ {
+  "block": 154,
+  "where": "Protection that knows when to stop scanning, P7",
+  "kind": "added",
+  "new": "This seems to me like a",
+  "his": "A mature Protector can say, “I don’t know.”",
+  "why": "Adds a hedge ('seems to me'); HIS states it flatly.",
+  "severity": "small"
+ },
+ {
+  "block": 156,
+  "where": "Inner child reparenting, P1",
+  "kind": "lost",
+  "new": "I see a lot of connection between reparenting therapy and self hypnosis.",
+  "his": "I connect my reparenting therapy to self-hypnosis because I find they are a perfect match.",
+  "why": "'My', 'I find' and 'perfect match' are gone.",
+  "severity": "small"
+ },
+ {
+  "block": 156,
+  "where": "Inner child reparenting, P1",
+  "kind": "error",
+  "new": "It doesn’t even have to be a “child”",
+  "his": "Sometimes no child appears.",
+  "why": "Scare quotes around 'child'.",
+  "severity": "small"
+ },
+ {
+  "block": 156,
+  "where": "Inner child reparenting, P1",
+  "kind": "lost",
+  "new": "just work with a protector or whatever you find",
+  "his": "Stay with a recognizable protector, or with the sensation, feeling, or preference that is actually present.",
+  "why": "'Stay with' becomes 'work with', and 'recognizable' and 'actually present' are gone.",
+  "severity": "small"
+ },
+ {
+  "block": 156,
+  "where": "Inner child reparenting, P1",
+  "kind": "added",
+  "new": "You might see that child in any form.",
+  "his": "The child may arrive as an age, image, posture, voice, memory, emotion, or plain vulnerability.",
+  "why": "'Any form' is broader than HIS's list.",
+  "severity": "small"
+ },
+ {
+  "block": 158,
+  "where": "Don’t rush the repair, P1",
+  "kind": "added",
+  "new": "Just be with the child.",
+  "his": "For the inner child:",
+  "why": "No HIS line says this.",
+  "severity": "small"
+ },
+ {
+  "block": 159,
+  "where": "Don’t rush the repair, P2",
+  "kind": "added",
+  "new": "they don’t have to explain themselves, or be “healed” or impress you",
+  "his": "",
+  "why": "Reassurances with no source.",
+  "severity": "small"
+ },
+ {
+  "block": 159,
+  "where": "Don’t rush the repair, P2",
+  "kind": "added",
+  "new": "Just tell you what they need to not be alone anymore.",
+  "his": "",
+  "why": "An instruction with no source.",
+  "severity": "small"
+ },
+ {
+  "block": 160,
+  "where": "Don’t rush the repair, P3",
+  "kind": "added",
+  "new": "to stop fantasizing, to stop working their butt off, that you keep a promise to them for one day",
+  "his": "",
+  "why": "Specific examples with no source.",
+  "severity": "small"
+ },
+ {
+  "block": 161,
+  "where": "Don’t rush the repair, P4",
+  "kind": "lost",
+  "new": "Find a younger you/protector/feeling/signal that comes up in your body, and",
+  "his": "When a younger state, protector, feeling, or bodily signal needs care, move patiently:",
+  "why": "Drops 'move patiently' and the condition that it needs care.",
+  "severity": "small"
+ },
+ {
+  "block": 164,
+  "where": "Don’t rush the repair, P7",
+  "kind": "added",
+  "new": "If you feel like you already know what they need, ask if they'd prefer warmth, space, verbal reassurance, silence, distance, whatever.",
+  "his": "Ask permission: “May I come closer, or would you prefer warmth, space, words, silence, or no contact?”",
+  "why": "Makes the choice question conditional on already knowing what they need; HIS always asks.",
+  "severity": "small"
+ },
+ {
+  "block": 165,
+  "where": "Don’t rush the repair, P8",
+  "kind": "added",
+  "new": "D. Give them what you can- don't feel like you have to fix it all.",
+  "his": "",
+  "why": "Nothing in the paired HIS line says this.",
+  "severity": "small"
+ }
+]

@@ -1,0 +1,713 @@
+[
+ {
+  "block": 166,
+  "where": "Don’t rush the repair, P9",
+  "kind": "lost",
+  "new": "",
+  "his": "Some changes need quiet, sleep, or ordinary time.",
+  "why": "NEW drops 'quiet' and 'ordinary time' as things that help the response settle.",
+  "severity": "small"
+ },
+ {
+  "block": 166,
+  "where": "Don’t rush the repair, P9",
+  "kind": "error",
+  "new": "it may take you to go to sleep",
+  "his": "",
+  "why": "Broken grammar in NEW.",
+  "severity": "small"
+ },
+ {
+  "block": 166,
+  "where": "Don’t rush the repair, P9",
+  "kind": "added",
+  "new": "let what you did sink in",
+  "his": "let the response settle",
+  "why": "What needs to settle changes from the part's response to what the reader did.",
+  "severity": "small"
+ },
+ {
+  "block": 167,
+  "where": "Don’t rush the repair, P10",
+  "kind": "added",
+  "new": "forgive you",
+  "his": "forgive",
+  "why": "NEW adds 'you' as the one to be forgiven; HIS leaves it open.",
+  "severity": "small"
+ },
+ {
+  "block": 168,
+  "where": "Don’t rush the repair, P11",
+  "kind": "added",
+  "new": "Rest, and",
+  "his": "",
+  "why": "NEW adds a 'Rest' instruction that HIS does not have in this step.",
+  "severity": "small"
+ },
+ {
+  "block": 168,
+  "where": "Don’t rush the repair, P11",
+  "kind": "lost",
+  "new": "to see what was helpful",
+  "his": "ask what actually helped",
+  "why": "HIS has the reader ask what actually helped; NEW only sees what was helpful.",
+  "severity": "small"
+ },
+ {
+  "block": 169,
+  "where": "Don’t rush the repair, P12",
+  "kind": "lost",
+  "new": "",
+  "his": "as though history should disappear",
+  "why": "NEW drops the reason 'good as new' is rejected.",
+  "severity": "small"
+ },
+ {
+  "block": 169,
+  "where": "Don’t rush the repair, P12",
+  "kind": "lost",
+  "new": "more supported and connected to yourself",
+  "his": "more supported and connected while still recognizably yourself",
+  "why": "NEW drops 'while still recognizably yourself'.",
+  "severity": "small"
+ },
+ {
+  "block": 169,
+  "where": "Don’t rush the repair, P12",
+  "kind": "added",
+  "new": "If you don't like the idea of part work or it makes you feel more divided",
+  "his": "If parts language makes you feel more divided",
+  "why": "NEW adds a second condition (not liking part work).",
+  "severity": "small"
+ },
+ {
+  "block": 169,
+  "where": "Don’t rush the repair, P12",
+  "kind": "added",
+  "new": "an imaginary younger you that you feel embodies the issue you're having",
+  "his": "younger states",
+  "why": "NEW calls the younger state imaginary and adds that it embodies the issue.",
+  "severity": "small"
+ },
+ {
+  "block": 169,
+  "where": "Don’t rush the repair, P12",
+  "kind": "lost",
+  "new": "",
+  "his": "or another metaphor that helps",
+  "why": "NEW drops the open permission to use any other helpful metaphor.",
+  "severity": "small"
+ },
+ {
+  "block": 169,
+  "where": "Don’t rush the repair, P12",
+  "kind": "error",
+  "new": "substitute whatever part you're working with for a signal or a feeling",
+  "his": "",
+  "why": "'Substitute X for Y' is the wrong way round: the signal or feeling should replace the part.",
+  "severity": "small"
+ },
+ {
+  "block": 171,
+  "where": "Play and rest still need an adult present, P1",
+  "kind": "error",
+  "new": "Whether that means touching things of different textures, drawing, exercising, roleplaying with a plushie in a different voice, etc.",
+  "his": "",
+  "why": "Sentence fragment: 'Whether that means ...' has no main clause.",
+  "severity": "small"
+ },
+ {
+  "block": 172,
+  "where": "Play and rest still need an adult present, P2",
+  "kind": "lost",
+  "new": "",
+  "his": "You remain able to move, stop, and return.",
+  "why": "NEW drops the line that you stay able to move, stop and return.",
+  "severity": "matters"
+ },
+ {
+  "block": 172,
+  "where": "Play and rest still need an adult present, P2",
+  "kind": "lost",
+  "new": "",
+  "his": "Rest also doesn’t require helplessness.",
+  "why": "NEW drops the point that rest does not require helplessness.",
+  "severity": "small"
+ },
+ {
+  "block": 172,
+  "where": "Play and rest still need an adult present, P2",
+  "kind": "added",
+  "new": "Now, before you get to resting,",
+  "his": "",
+  "why": "NEW frames these as steps before rest; HIS presents them as part of resting.",
+  "severity": "small"
+ },
+ {
+  "block": 172,
+  "where": "Play and rest still need an adult present, P2",
+  "kind": "added",
+  "new": "let your inner adult keep watch for a while",
+  "his": "let the internal adult keep watch",
+  "why": "NEW adds a time limit that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 174,
+  "where": "Non-dominant hand dialogue, P1",
+  "kind": "added",
+  "new": "If talking out loud or visualizing conversations feels fake, try writing it out.",
+  "his": "",
+  "why": "No HIS line gives this condition or the instruction to write it out.",
+  "severity": "small"
+ },
+ {
+  "block": 174,
+  "where": "Non-dominant hand dialogue, P1",
+  "kind": "added",
+  "new": "It might be a little hard to write with your nondominant hand but you can kind of do it.",
+  "his": "",
+  "why": "Added aside/softener that no HIS line has.",
+  "severity": "small"
+ },
+ {
+  "block": 174,
+  "where": "Non-dominant hand dialogue, P1",
+  "kind": "added",
+  "new": "I want to know how I've fucked up.",
+  "his": "Tell me where I’ve let you down.",
+  "why": "Profanity and a different framing in place of 'where I've let you down'.",
+  "severity": "small"
+ },
+ {
+  "block": 174,
+  "where": "Non-dominant hand dialogue, P1",
+  "kind": "lost",
+  "new": "give you a promise I can keep today",
+  "his": "keep one small promise today",
+  "why": "NEW drops 'one small' for the promise.",
+  "severity": "small"
+ },
+ {
+  "block": 174,
+  "where": "Non-dominant hand dialogue, P1",
+  "kind": "added",
+  "new": "I'm going to make sure I eat today/ clear off my desk/ not text so-and-so",
+  "his": "",
+  "why": "Invented example promises and an invented follow-up exchange.",
+  "severity": "small"
+ },
+ {
+  "block": 176,
+  "where": "When “your voice” is everybody else’s voice, P1",
+  "kind": "added",
+  "new": "This happens often",
+  "his": "Sometimes the inner-child question lands nowhere",
+  "why": "HIS says 'sometimes'; NEW says it happens often.",
+  "severity": "small"
+ },
+ {
+  "block": 176,
+  "where": "When “your voice” is everybody else’s voice, P1",
+  "kind": "added",
+  "new": "if your inner child didn’t have the opportunity to develop",
+  "his": "because a private self had very little room to develop",
+  "why": "NEW says the inner child did not get to develop (stronger) rather than a private self having very little room.",
+  "severity": "small"
+ },
+ {
+  "block": 176,
+  "where": "When “your voice” is everybody else’s voice, P1",
+  "kind": "lost",
+  "new": "your family, religion, or community",
+  "his": "In controlling families, rigid religions, enmeshed communities, or high-pressure achievement systems",
+  "why": "NEW drops controlling, rigid, enmeshed and high-pressure, so any family, religion or community seems to cause this.",
+  "severity": "matters"
+ },
+ {
+  "block": 176,
+  "where": "When “your voice” is everybody else’s voice, P1",
+  "kind": "error",
+  "new": "‘takes over’",
+  "his": "",
+  "why": "Quote marks around 'takes over' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 176,
+  "where": "When “your voice” is everybody else’s voice, P1",
+  "kind": "lost",
+  "new": "For others, it is very easy to work with the inner child, they can feel it easily.",
+  "his": "For others, creating enough safety for preference, curiosity, and experimentation is part of how that self becomes easier to hear.",
+  "why": "NEW makes 'others' the easy group and drops the group who need safety, curiosity and experiment to hear the child-self.",
+  "severity": "matters"
+ },
+ {
+  "block": 176,
+  "where": "When “your voice” is everybody else’s voice, P1",
+  "kind": "error",
+  "new": "it is very easy to work with the inner child, they can feel it easily",
+  "his": "",
+  "why": "Comma splice in NEW.",
+  "severity": "small"
+ },
+ {
+  "block": 179,
+  "where": "When “your voice” is everybody else’s voice, P4",
+  "kind": "added",
+  "new": "Your opinion is very different when you are with different people",
+  "his": "",
+  "why": "Claim with no HIS source line in this block.",
+  "severity": "small"
+ },
+ {
+  "block": 180,
+  "where": "When “your voice” is everybody else’s voice, P5",
+  "kind": "error",
+  "new": "at the moment",
+  "his": "in the moment",
+  "why": "'At the moment' means 'right now'; HIS has 'in the moment'.",
+  "severity": "small"
+ },
+ {
+  "block": 180,
+  "where": "When “your voice” is everybody else’s voice, P5",
+  "kind": "added",
+  "new": "when you are by yourself",
+  "his": "later",
+  "why": "NEW adds a condition (being alone) in place of 'later'.",
+  "severity": "small"
+ },
+ {
+  "block": 181,
+  "where": "When “your voice” is everybody else’s voice, P6",
+  "kind": "added",
+  "new": "You take responsibility for the emotions of others, at the expense of yourself",
+  "his": "",
+  "why": "Claim with no HIS source line in this block.",
+  "severity": "small"
+ },
+ {
+  "block": 184,
+  "where": "When “your voice” is everybody else’s voice, P9",
+  "kind": "lost",
+  "new": "you can’t choose",
+  "his": "you cannot yet choose",
+  "why": "NEW drops 'yet', making the claim permanent.",
+  "severity": "matters"
+ },
+ {
+  "block": 185,
+  "where": "When “your voice” is everybody else’s voice, P10",
+  "kind": "lost",
+  "new": "",
+  "his": "This is a practical model, not a claim about one specific brain system.",
+  "why": "NEW drops the line saying this is a practical model, not a claim about a brain system.",
+  "severity": "matters"
+ },
+ {
+  "block": 185,
+  "where": "When “your voice” is everybody else’s voice, P10",
+  "kind": "added",
+  "new": "in your childhood you didn’t spend enough attention",
+  "his": "when childhood is organized around avoiding pain and preserving attachment",
+  "why": "NEW states this as fact about the reader's childhood; HIS only says what can happen when childhood is organized that way.",
+  "severity": "matters"
+ },
+ {
+  "block": 185,
+  "where": "When “your voice” is everybody else’s voice, P10",
+  "kind": "error",
+  "new": "You were too occupied in not being in pain, reading out what was dangerous",
+  "his": "",
+  "why": "Wrong prepositions/word ('occupied in', 'reading out') garble the sentence.",
+  "severity": "small"
+ },
+ {
+  "block": 186,
+  "where": "When “your voice” is everybody else’s voice, P11",
+  "kind": "lost",
+  "new": "",
+  "his": "Use that distance only long enough to tell your own signal from the social echo; prolonged isolation would undermine the purpose.",
+  "why": "NEW drops the limit on how long to stay away and the warning that prolonged isolation defeats the purpose.",
+  "severity": "matters"
+ },
+ {
+  "block": 187,
+  "where": "When “your voice” is everybody else’s voice, P12",
+  "kind": "lost",
+  "new": "",
+  "his": "or becoming indispensable to everybody else",
+  "why": "NEW drops 'becoming indispensable to everybody else' from the ways of earning worth.",
+  "severity": "small"
+ },
+ {
+  "block": 187,
+  "where": "When “your voice” is everybody else’s voice, P12",
+  "kind": "error",
+  "new": "\"human doing\"",
+  "his": "",
+  "why": "Quote marks around 'human doing' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 187,
+  "where": "When “your voice” is everybody else’s voice, P12",
+  "kind": "added",
+  "new": "losing what it means to have your own inherent value",
+  "his": "losing yourself",
+  "why": "NEW changes what is lost from 'yourself' to 'inherent value'.",
+  "severity": "small"
+ },
+ {
+  "block": 190,
+  "where": "When “your voice” is everybody else’s voice, P15",
+  "kind": "lost",
+  "new": "when I don’t check with other people",
+  "his": "before I check whether others approve",
+  "why": "NEW drops approval ('whether others approve') from the question.",
+  "severity": "small"
+ },
+ {
+  "block": 196,
+  "where": "When “your voice” is everybody else’s voice, P21",
+  "kind": "added",
+  "new": "The more consciously sculpted adult in you",
+  "his": "The adult",
+  "why": "Invented phrase 'consciously sculpted adult'.",
+  "severity": "small"
+ },
+ {
+  "block": 196,
+  "where": "When “your voice” is everybody else’s voice, P21",
+  "kind": "added",
+  "new": "Because often your inherited parent script tells your inner child that it is supposed to be good at something as soon as it starts doing it, which is humiliating.",
+  "his": "The inherited parent may demand immediate talent.",
+  "why": "HIS says the inherited parent 'may' demand talent; NEW says it often does, adds 'script' and calls it humiliating.",
+  "severity": "small"
+ },
+ {
+  "block": 196,
+  "where": "When “your voice” is everybody else’s voice, P21",
+  "kind": "error",
+  "new": "So try things out long enough until the humiliation is gone.",
+  "his": "",
+  "why": "Awkward 'long enough until'; it also promises the humiliation will be gone where HIS says get past it.",
+  "severity": "small"
+ },
+ {
+  "block": 196,
+  "where": "When “your voice” is everybody else’s voice, P21",
+  "kind": "lost",
+  "new": "",
+  "his": "the humiliation of being a beginner",
+  "why": "NEW drops that the humiliation is that of being a beginner.",
+  "severity": "small"
+ },
+ {
+  "block": 198,
+  "where": "Belonging without betraying yourself, P1",
+  "kind": "added",
+  "new": "A large part of your subconscious mind is made out of other people.",
+  "his": "The subconscious contains a crowd of borrowed voices",
+  "why": "NEW turns the borrowed-voices image into a literal claim about a large part of the mind.",
+  "severity": "small"
+ },
+ {
+  "block": 198,
+  "where": "Belonging without betraying yourself, P1",
+  "kind": "added",
+  "new": "That is why you are reading a self hypnosis guide!",
+  "his": "which is why this belongs in a self-hypnosis guide",
+  "why": "NEW says why the reader is reading the guide; HIS says why this topic belongs in it.",
+  "severity": "small"
+ },
+ {
+  "block": 198,
+  "where": "Belonging without betraying yourself, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "can reach astonishingly far into identity",
+  "why": "NEW drops that these groups can reach astonishingly far into identity.",
+  "severity": "small"
+ },
+ {
+  "block": 202,
+  "where": "Belonging without betraying yourself, P5",
+  "kind": "error",
+  "new": "doing things out of love, but I am actually doing it out of fear of not belonging",
+  "his": "",
+  "why": "Number slip: 'things' then 'it'.",
+  "severity": "small"
+ },
+ {
+  "block": 206,
+  "where": "Belonging without betraying yourself, P9",
+  "kind": "added",
+  "new": "It is not always correct, but it is a good place to start.",
+  "his": "",
+  "why": "Claim about how reliable the body's message is; no HIS line says it.",
+  "severity": "small"
+ },
+ {
+  "block": 208,
+  "where": "De-hypnosis: wake up inside the influence, P1",
+  "kind": "added",
+  "new": "There are actually multiple patents on using screens to send subliminal messages, but even without that kind of potentially illegal tech",
+  "his": "",
+  "why": "Invented factual claim about patents and potentially illegal technology.",
+  "severity": "matters"
+ },
+ {
+  "block": 208,
+  "where": "De-hypnosis: wake up inside the influence, P1",
+  "kind": "added",
+  "new": "the screen is one connection to the omnipotent Algorithm. Which shows us ads and guides our preferences.",
+  "his": "",
+  "why": "Invented claim that an all-powerful Algorithm guides preferences.",
+  "severity": "matters"
+ },
+ {
+  "block": 208,
+  "where": "De-hypnosis: wake up inside the influence, P1",
+  "kind": "added",
+  "new": "Then we wonder why we vote for this or that politician.",
+  "his": "",
+  "why": "Invented claim linking screens to how people vote.",
+  "severity": "matters"
+ },
+ {
+  "block": 208,
+  "where": "De-hypnosis: wake up inside the influence, P1",
+  "kind": "added",
+  "new": "(as if breast implants are actually sexy)",
+  "his": "",
+  "why": "Invented aside/example.",
+  "severity": "small"
+ },
+ {
+  "block": 208,
+  "where": "De-hypnosis: wake up inside the influence, P1",
+  "kind": "added",
+  "new": "religious fear, which tags along with shame",
+  "his": "",
+  "why": "New claim that religious fear comes along with shame.",
+  "severity": "small"
+ },
+ {
+  "block": 208,
+  "where": "De-hypnosis: wake up inside the influence, P1",
+  "kind": "added",
+  "new": "And all of that drilled repeatedly into us, because one exposure won't do the trick.",
+  "his": "repetition",
+  "why": "HIS only lists repetition; NEW adds a claim about why it is drilled in.",
+  "severity": "small"
+ },
+ {
+  "block": 208,
+  "where": "De-hypnosis: wake up inside the influence, P1",
+  "kind": "error",
+  "new": "\"waking up\"",
+  "his": "",
+  "why": "Quote marks around 'waking up' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 208,
+  "where": "De-hypnosis: wake up inside the influence, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "urgency",
+  "why": "NEW drops urgency from the list of influences.",
+  "severity": "small"
+ },
+ {
+  "block": 208,
+  "where": "De-hypnosis: wake up inside the influence, P1",
+  "kind": "lost",
+  "new": "all the ways your attention is being shaped",
+  "his": "noticing when somebody else is already shaping your attention",
+  "why": "NEW drops that someone else is shaping your attention.",
+  "severity": "small"
+ },
+ {
+  "block": 209,
+  "where": "De-hypnosis: wake up inside the influence, P2",
+  "kind": "error",
+  "new": "FOMO (fear of missing out), not be included, sexual charge",
+  "his": "threatened exclusion",
+  "why": "Broken grammar ('not be included'); also drops 'threatened'.",
+  "severity": "small"
+ },
+ {
+  "block": 211,
+  "where": "If you sense you are being influenced, P1",
+  "kind": "added",
+  "new": "if you sense you are being hypnotically influenced, stop.",
+  "his": "Pause there.",
+  "why": "'Stop' is stronger than 'Pause there'.",
+  "severity": "small"
+ },
+ {
+  "block": 212,
+  "where": "If you sense you are being influenced, P2",
+  "kind": "lost",
+  "new": "where you are given only one choice",
+  "his": "makes one choice seem inevitable",
+  "why": "HIS says a choice is made to seem inevitable; NEW says you are given only one choice.",
+  "severity": "small"
+ },
+ {
+  "block": 213,
+  "where": "If you sense you are being influenced, P3",
+  "kind": "lost",
+  "new": "You will soon realize that I am right ….",
+  "his": "As you realize I’m right…",
+  "why": "The example phrase changes from a presupposition ('As you realize') to a prediction.",
+  "severity": "small"
+ },
+ {
+  "block": 215,
+  "where": "If you sense you are being influenced, P5",
+  "kind": "error",
+  "new": "‘awake’",
+  "his": "",
+  "why": "Quote marks around 'awake' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 215,
+  "where": "If you sense you are being influenced, P5",
+  "kind": "error",
+  "new": "laughed at, not be included",
+  "his": "mocked, abandoned",
+  "why": "Broken grammar ('not be included').",
+  "severity": "small"
+ },
+ {
+  "block": 215,
+  "where": "If you sense you are being influenced, P5",
+  "kind": "lost",
+  "new": "What choice am I being given?",
+  "his": "What choice is being framed as inevitable?",
+  "why": "NEW drops that the choice is framed as inevitable.",
+  "severity": "small"
+ },
+ {
+  "block": 216,
+  "where": "If you sense you are being influenced, P6",
+  "kind": "error",
+  "new": "‘adult’",
+  "his": "",
+  "why": "Quote marks around 'adult' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 216,
+  "where": "If you sense you are being influenced, P6",
+  "kind": "error",
+  "new": "‘state’",
+  "his": "",
+  "why": "Quote marks around 'state' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 216,
+  "where": "If you sense you are being influenced, P6",
+  "kind": "lost",
+  "new": "",
+  "his": "A bad guide replaces it. A good guide can tolerate your no.",
+  "why": "NEW drops the test for judging a guide: a bad guide replaces your adult self and cannot tolerate your no.",
+  "severity": "matters"
+ },
+ {
+  "block": 216,
+  "where": "If you sense you are being influenced, P6",
+  "kind": "added",
+  "new": "This is a good guide to help engage your ‘adult’ in the conversation.",
+  "his": "A useful guide leaves the adult self more present.",
+  "why": "'Guide' now means these questions; HIS says a useful guide leaves the adult self more present.",
+  "severity": "small"
+ },
+ {
+  "block": 216,
+  "where": "If you sense you are being influenced, P6",
+  "kind": "lost",
+  "new": "the more you will need to make use of these",
+  "his": "Powerful states need stronger boundaries.",
+  "why": "NEW drops 'stronger boundaries'.",
+  "severity": "small"
+ },
+ {
+  "block": 218,
+  "where": "Soft language can still take away choice, P1",
+  "kind": "added",
+  "new": "Be aware of;",
+  "his": "I watch for the following:",
+  "why": "Person changed from Joel's 'I watch for' to an instruction to the reader.",
+  "severity": "small"
+ },
+ {
+  "block": 218,
+  "where": "Soft language can still take away choice, P1",
+  "kind": "error",
+  "new": "‘permissive’",
+  "his": "",
+  "why": "Quote marks around 'permissive' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 219,
+  "where": "Soft language can still take away choice, P2",
+  "kind": "error",
+  "new": "‘skeptical guard’",
+  "his": "",
+  "why": "Quote marks around 'skeptical guard' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 219,
+  "where": "Soft language can still take away choice, P2",
+  "kind": "lost",
+  "new": "They do this by not directly telling the subject what to do.",
+  "his": "because the conscious mind may never receive one clean proposition to accept or reject",
+  "why": "NEW gives a different mechanism and drops that the conscious mind gets no clean proposition to accept or reject.",
+  "severity": "small"
+ },
+ {
+  "block": 220,
+  "where": "Soft language can still take away choice, P3",
+  "kind": "lost",
+  "new": "",
+  "his": "attention is being narrowed while the speaker pretends only to inform",
+  "why": "NEW drops that attention is narrowed while the speaker pretends only to inform.",
+  "severity": "small"
+ },
+ {
+  "block": 222,
+  "where": "Soft language can still take away choice, P5",
+  "kind": "lost",
+  "new": "",
+  "his": "uncertainty is converted into invisible success that cannot be checked",
+  "why": "NEW drops why this phrase binds: uncertainty becomes unverifiable success.",
+  "severity": "small"
+ },
+ {
+  "block": 223,
+  "where": "Soft language can still take away choice, P6",
+  "kind": "added",
+  "new": "Including any concepts that may make a subject think they must obey, or take on a role, or that it is good/safe to please the guide or belong to someone",
+  "his": "",
+  "why": "Item with no HIS source line in this block.",
+  "severity": "small"
+ },
+ {
+  "block": 224,
+  "where": "Soft language can still take away choice, P7",
+  "kind": "added",
+  "new": "a few times",
+  "his": "repeated re-entry is part of the method",
+  "why": "NEW adds a number ('a few times') that HIS does not have.",
+  "severity": "small"
+ }
+]

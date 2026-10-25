@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "2369aa33c51bc8e3d16ac93735dfcdffbd306eca7f1677e31c804e307ed9e35b",
+  "context_sha256": "03303dbab39c39c4feda0cf16400188c4ab076a1120a10211fd17bc0735d9007",
+  "source_sha256": "e94fa972beb40fa51652aceb95426f664e39a1e03d196918496e1a9b18924227",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+    "context_id": "emulate-gate-cold_read_2-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Draft judged: 'to help me know what I need to know, only in a form and at a time that will be useful'. It is a mid-sentence fragment. CONTEXT shows it inside the invocation and running straight into ', kind, stabilizing and real for me.', so the full sentence reads 'to help me know what I need to know, only in a form and at a time that will be useful, kind, stabilizing and real for me.' Grammar is right and there is no seam. Against his line ('only in the form and timing that is useful, kind, stabilizing, and real'): 'only' and the timing ('at a time') are back, and Emulate's 'level' is gone. 'know' stays Emulate's where his line has 'understand', but the_change does not claim that, and the invocation's later line says 'Tell me what I need to know', so it fits. No claim added. Tell rows checked: T12 and T21 (the form-and-time pair and the four qualities are his own invocation wording, not a made-up symmetry or function list), T10, T22; all ABSENT. Linter: D9 accepted (one sentence). O27 accepted: the draft ends without a period only because it is a fragment of a longer sentence, and in CONTEXT that sentence ends with a period inside the closing quote mark, so no paragraph ends unpunctuated. No row is PRESENT.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order",
+    "O27 a rough edge in my text: the paragraph ends with no period (JOEL-FIXES-CATALOGUE: \"Rough edges he leaves: typos, double spaces, missing periods. ... They aren't something for me to imitate.\")"
+  ]
+}

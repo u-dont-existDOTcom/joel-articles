@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-25, after your message of 00:27 UTC (the whole new version read 100% Human). **Open questions: 0.** **One thing for you to do**: put the new version in your post with the clipboard helper (below). [Read the new version here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/answer65/READING-COPY.md).
+Last updated 2026-10-25, after your message of 19:42 UTC in the hypnosis guide lane ("that means we should also check the community article i guess?"). **Open questions: 1** (66, the Emulate check page). **For you to do**: the clipboard helper below, if you haven't pasted yet (or after 66: I'll make a new one with your answers).
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -8,17 +8,27 @@ The master copy of this page is a file in Git, so a session in either of your ac
 
 ## Open questions
 
-None right now.
+**🟣 66. The Emulate check page.** [Your article with every change Emulate made that isn't yours marked where it is](https://claude.ai/artifact/YJZDafwDzxWnuynW1PLPp1):
+6 cards, each with your own version beside it: quote marks on three words ("in", "spiritual", "even"); your "don't freeze
+into doctrine", lost when your version of that paragraph went in; a practice group already being a real piece of
+community; who steps aside, and the appeal, in the removal process; autonomy not erasing a person's rights; and one
+sentence you kept on 2026-10-24 that doesn't parse ("Just because it's optional participating in the ceremonies").
+Changes you made yourself (your Substack edits, your answers 57 to 65, your caveat cuts) aren't on it. Approve, Reject or
+Revise each. If your post is already up, I'll give you the few words to change in Substack, or a new copy. From your
+other account, the page opens once you share it from its Share menu; the
+[list of cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/emulate-check/REVIEW-EMULATE.json) is in Git either way.
+- a) (my default) You go through the page; nothing changes until you've decided.
+- b) "Take your advice on all six."
 
 ## For you to do
 
-- 🟠 **Put the new version in your post with the clipboard helper** ([COPY-TO-SUBSTACK.html](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/exports/COPY-TO-SUBSTACK.html), sent in chat as Community-COPY-TO-SUBSTACK-20261025.html). It's your post's editor HTML of 2026-10-20 with 57 to 65 and your kibbutz image. If you've changed the post on Substack since 2026-10-20, tell me first, because pasting would undo those changes.
+- 🟠 **Put the new version in your post with the clipboard helper** ([COPY-TO-SUBSTACK.html](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/exports/COPY-TO-SUBSTACK.html), sent in chat as "Community-COPY-TO-SUBSTACK-20261025.html"). It's your post's editor HTML of 2026-10-20 with 57 to 65 and your kibbutz image. If you've changed the post on Substack since 2026-10-20, tell me first, because pasting would undo those changes.
   1. Open the helper in Opera and your post in Substack's editor.
   2. Press Copy Article. In the editor, click anywhere in the body, press ctrl+a, then Delete, and paste (ctrl+v).
   3. It's one part: no videos to put back by hand. Your three video-post embeds come in as links, and Substack turns them back into embeds by itself.
   - What I checked: its text is exactly the text Pangram read as 100% Human, and its HTML is exactly what I pasted into the temporary draft, which came out right ([the receipt](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/exports/HELPER-RECEIPT-20261025.json)). I haven't tested the Copy button in Opera on your computer.
 - 🟢 Done: [the whole-article check](https://www.pangram.com/feed/954042b6-e624-4c7f-87d7-db15c547d5c8) (your result of 00:27 UTC): Human Written, 0 of 72 windows AI, document confidence High. My part forecast called all 130 of its parts right; my call for the whole was too gloomy, a 7% chance of no red ([scored](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/recheck-r1/SCORE.md)).
-- 🟠 Merge [pull request 238](https://github.com/u-dont-existDOTcom/joel-articles/pull/238) when you've looked.
+- 🟠 Merge [pull request PR_NUMBER](PR_URL) when you've looked: this turn's work, the Emulate check of this article and of the hypnosis guide (238, the last one, is merged).
 
 ## Decided
 
@@ -43,12 +53,12 @@ None right now.
   - 61 b and 62: the essay is your seven sections in your order, then a "How-To Manual" heading with the nine sections you named under it, in their order and one heading level down, then the appendix. Practicing Community points down to the manual in a new paragraph after its first (Emulate's wording of my draft): "The How-To Manual which follows this essay covers the whole model: inner, relational, and medicine pl/ork, the container that holds them, tech, jealousy, kids, money, land, founder power, how the communities spread, leaving, etc." "Pl/ork" is now first met there, so your own gloss goes with it: "(play + work)". Every "below" in the essay still points down to its section. I won't argue you out of it: your reason, that the readers who want to start right away won't read your whole story first, is one my review didn't weigh, and the move broke less than I'd expected.
   - 63 a: alt text for 15 images (12 had none; 3 had a file name or a copied caption), [listed here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/restructure/ALT-TEXT.md). It's in the new version's HTML, so it comes along when you paste.
   - GPT's reply: it's right that I'd overstated the case against the split, right that cutting repeats needs a list of real examples (question 65 is that list), and right about W08: you'd asked for the federation paragraphs shorter with the FEC named, and I'd said keep them. Two cuts there are in question 65; the FEC, its rebuilding and PEACH stay.
-- 🟢 2026-10-23 20:35 UTC, GPT's 90 suggestions and your 25 answers to them (`joel-20261023/`): [my review of every one](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/REVIEW-GPT-SUGGESTIONS.md), against the article itself. In short: I agree with your rejections; I'd take back three of your approvals (question 62) and do the cheaper version of a fourth (61); and from the rest I'd take five small things (57 to 59, 61, 63), plus nine typos (60). Nothing in the article has changed.
+- 🟢 2026-10-23 20:35 UTC, GPT's 90 suggestions and your 25 answers to them: [my review of every one](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261023/REVIEW-GPT-SUGGESTIONS.md), against the article itself. In short: I agree with your rejections; I'd take back three of your approvals (question 62) and do the cheaper version of a fourth (61); and from the rest I'd take five small things (57 to 59, 61, 63), plus nine typos (60). Nothing in the article has changed.
 - 🟢 2026-10-18 01:29 and 01:54 UTC, 55 and 56, the merge:
   - 56 a, your first paragraph for section 2 ("i checked the section, it passes as human when first part is this"): in, as you wrote it, with the published link on "the U.S. Surgeon General" and your bold on "public-health". It reads Human alone ([check](https://www.pangram.com/history/1e9a546e-89ff-4914-9999-2ade14eda913)) and with the heading ([check](https://www.pangram.com/history/1b709a25-aab7-4d7c-93f2-b5482118141a)).
   - 55 b: in, "(the UN's rules for prisoners literally ban more than 15 days of it)". Your second paragraph reads Human alone ([check](https://www.pangram.com/history/1c827474-c602-4c83-bf82-13b91d7bdecd)) and with the next ([check](https://www.pangram.com/history/7e3cc8d7-f0aa-4207-9bcd-ada254831605)).
   - 46 a, the anomie paragraph: in, after your second paragraph; section 2 reads 100% Human with it ([check](https://www.pangram.com/history/602283c2-9f41-4559-b510-e5a7aa9d2359)). With your screenshot there as well, one window read AI, 63 words in the Instagram paragraphs ([check](https://www.pangram.com/history/f91e4398-4e22-4bf2-881b-a95244ae3079)), so the screenshot stays in section 12, where you upload it.
-  - 45 a: done. The humanized article is the registered master (`master.md`, with a promotion receipt); your published text stays as the published source.
+  - 45 a: done. The humanized article is the registered master ([master.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/master.md), with a promotion receipt); your published text stays as the published source.
   - The merge: the master is in your Substack HTML of 01:29, with every image, embed, video and button as it was in your paste, the published lists and bold leads kept where the paragraphs line up, and every link (103). The copy helper is the repository's own (its generator built and checked it; its Copy button passed a test in a browser). Making it showed that Substack's editor now wraps the article differently, so the part that finds the article in your paste got a fix, or the helper would have copied the editor's wrapper too.
   - Pangram: after your 01:29 message the browser was signed out and the API key had no credits; you signed in to another account at 01:54, and the checks above ran there.
 - 🟢 2026-10-17 23:10 UTC, 52 to 54 and the scorecard:

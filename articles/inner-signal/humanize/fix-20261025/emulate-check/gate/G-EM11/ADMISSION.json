@@ -1,0 +1,240 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "deae184a2e738b99fb529d6f6cda5d7b726b2bb73511cccbcd7f64ae520bc1d8",
+  "context_sha256": "efc673902898383421b5e20a0ba3c213ca976c7796a5d3bc36aa9cc11be52932",
+  "source_sha256": "2f6ec1d1fe3276463b2eed4b604468a8560d1a43e60e554672550e104ccecd4d",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "writer": {
+    "name": "Claude Opus 5.5, the hypnosis guide and community lanes' writer",
+    "context_id": "session_01Mxpoi6tFT3FgKmBvtGjRtS"
+  },
+  "lint": {
+    "verdict_at_init": "REVIEW",
+    "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+    "stdout_sha256": "a0fe98c4490aaabc1c1bf235c799ca4228b40447014549f8f33e1100826432d1",
+    "findings": [
+      {
+        "label": "B2 contrast",
+        "examples": [
+          "DO NOT: Attempt to force memories, to use trance to prove something happened to you, or to force down medical symptoms with hypnosis instead of getting them loo"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "The contrast is the content, from his line: what the rule forbids against what it replaces (G-EM11), or the chapter's topic, a compelling experience against what really happened (G-EMS3a)."
+      },
+      {
+        "label": "D9 follows the source order",
+        "examples": [
+          "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "It is his own line (SOURCE.txt) put back in place of Emulate's wording, so it follows his order by design; the paragraph around it keeps its own order and asides."
+      }
+    ]
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "no first-person stake in \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\" beyond the source's own",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "\"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\" is one step in its paragraph, not part of a run of compressed commands",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "the sentence before it in the context sets it up; nothing new arrives unprepared in \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "no scene in \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "no concrete prop in \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "no vague healing or process language in \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\"; its terms are the article's own",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "no filler or staged hesitation in \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "no image followed by an explanation of it in \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "one change in one passage; \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\" gets the weight its point needs, the rest of the passage is unchanged",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "no \"you don't have to X before Y\" packaging in \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "\"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\" carries a claim or step, not a bridge between document parts",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "no matched pair or closed list made for symmetry in \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "the passage around \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\" keeps its reasons, asides and callbacks; the change adds none of its own and removes none",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "no material moved to dodge a detector: \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\" puts back the author's own point that Emulate dropped",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "\"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\" puts back the author's words or meaning, not less likely words for their own sake",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "\"instead of getting them looked at\" says what the suppression replaces; it is not a \"not X, it's Y\" reveal",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "ABSENT",
+      "evidence": "no compressed thesis or aphorism in \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "no premise flipped by a short sentence in \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "\"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\" does not announce what comes next",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "\"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\" is not a polished paragraph-ending line",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "ABSENT",
+      "evidence": "\"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\" does one job, not several coordinated argumentative jobs",
+      "resolution": ""
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "\"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\" carries a step, a rule or a reason from his line, not reassurance alone",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "no generic scenery in \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "no faux-insight setup or self-answered question in \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "no colon reveal in \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "ABSENT",
+      "evidence": "no distinctive word or phrase in \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\" repeated within three paragraphs without a job",
+      "resolution": ""
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "none of the tic words (\"doing some work\", \"load-bearing\", \"digest\", \"clean\", vague \"work\") in \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "\"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\" is not the end of its section, and adds no lesson or uplift",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "\"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\" is not a closing restatement of its paragraph",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "the inner child is not named in \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\", and \"the kid\" appears nowhere in it",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "\"them\" is \"medical symptoms\", named just before",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "no first-person fact about Joel's life in \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\" that he didn't give",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "no claim about a study, person or product in \"DO NOT: Attempt to force memories, to use trance to prove something happened to you, or...\"",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "REVIEW-preservation.json",
+    "cold_read_1": "REVIEW-cold_read_1.json",
+    "cold_read_2": "REVIEW-cold_read_2.json"
+  }
+}

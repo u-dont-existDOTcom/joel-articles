@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "8c19a9fab14761351605e137496f945a50a77ff5cc88f82f2ab50cd5f169f1f1",
+  "context_sha256": "4221c6e19a02434d45de85515291e2b46c691ecbd83113386a45e9ee85eb6357",
+  "source_sha256": "bbba99306b8d694249a7563fc04567f1c8fc25db83b0e009959b44992ef52a99",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "emulate-gate-cold_read_1-subagent-r2a",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session), round 2"
+  },
+  "evidence": "Read cold in 'When “your voice” is everybody else’s voice', the paragraph 'One way of explaining this is that in your childhood you didn’t spend enough attention in finding out what you like ... You were too busy avoiding pain, reading what was dangerous and what you had to do to stay in a good bond, etc.' The draft is the reason the previous sentence invites, so it follows; 'You' is the reader as a child, matching 'in your childhood' and 'you didn’t spend'. 'a good bond' does not say with whom, but it is the article’s own wording and his 'keeping the bond', and the section’s earlier 'family, religion, or community' supplies it (C02 absent). Against the_change: 'not being in pain' is now his 'avoiding pain'; 'reading out what was dangerous' is mended to 'reading what was dangerous'. The_change names his 'reading danger'; the draft does not use those two words but keeps 'reading what was dangerous' so it stays parallel with 'and what you had to do'. Same meaning as his 'reading danger', so I accept it as the intended mend (worth a mention to the author, not a defect). 'too occupied in' to 'too busy' fixes an odd collocation with no change of meaning (not T15: it moves to the common word and nothing else is rephrased). Against SOURCE: his 'meeting expectations, and keeping the bond' maps to the retained 'what you had to do to stay in a good bond'; nothing is added, no new claim, no first-person fact (C03, C04 not engaged). Tell rows, none PRESENT. Closest calls: T06 ('avoiding pain', 'a good bond' are general terms), but this is an explanation in his own terms, not abstraction posing as a concrete scene; T21 is one list inside one clause doing one job; T22 explains rather than only reassures; T23 no scenery; T20/T29 the paragraph ends on a trailing 'etc.', not a polished closer, and the sentence supplies the reason rather than recapping; T26 no repeated phrase; T27 no tic words; T19/T11 no announcing. Linter D9 'follows the source order': accepted. It is one sentence in the order of his line and of the sentence it replaces, with nothing to reorder, and it answers the previous sentence (T13) rather than filling a slot; T09 does not apply to one sentence. Linter E36/E41 'heavy second person': accepted. The whole section is addressed to 'you' (the 'You are in the first camp if:' list, the questions to ask yourself), and the draft has exactly the two 'you' the replaced sentence had, so it adds no density; it is explanation, not reassurance or invented scenery.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order",
+    "E36/E41 heavy second person"
+  ]
+}

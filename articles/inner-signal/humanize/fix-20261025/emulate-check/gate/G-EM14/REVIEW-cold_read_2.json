@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "28c77cc1349f7d33fe7d9aeaf592eab32f94f103338c4c21d52579529a468986",
+  "context_sha256": "5d9c0af933a6ab7a3a7cd0690d949dcaa72fd65d1b73337e06da9405c196f11e",
+  "source_sha256": "eee1b42c1b0b3553c12cac43fb9fe5b6e21f02042899a85ec24b6b9ac5940f70",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+    "context_id": "emulate-gate-cold_read_2-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Draft judged: 'Nominalizations are words that turn a process into a noun, like 'healing', 'safety', 'trust', 'integration', 'communion', 'clarity', 'rest', etc.' Read the whole CONTEXT: the definition now comes before the seven examples, the next sentence ('These are a bit vague...') gets its referent, and the quoted example follows. It reads as a plain definition in the guide's casual voice; no seam. Against his line ('Nominalizations turn processes into nouns: healing, safety, trust, integration, communion, clarity, rest'): the definition is his in plain words, the seven examples are identical, and the 'etc.' is the one already in the replaced sentence. No claim added. Tell rows checked: T06 (the vague words are the subject being discussed, not the draft's own filler), T21 and T25 (a definition plus examples, not a function list or a colon reveal), T12, T17; all ABSENT. Linter: B4/E15 accepted, since the list of seven is his own and is the content of the sentence, and the definition adds a clause, not a second job. D9 accepted (one sentence). No row is PRESENT.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "B4/E15 list or packed sentence",
+    "D9 follows the source order"
+  ]
+}

@@ -1,0 +1,758 @@
+[
+ {
+  "block": 298,
+  "where": "Optional trance depth check, P3",
+  "kind": "added",
+  "new": "You don’t have to make it happen, or pretend that it is happening",
+  "his": "I will not force it. I will not fake it.",
+  "why": "HIS is Joel's first-person self-statement; NEW turns it into second-person permission.",
+  "severity": "small"
+ },
+ {
+  "block": 299,
+  "where": "Optional trance depth check, P4",
+  "kind": "added",
+  "new": "sometimes an entire hand will heat up",
+  "his": "a hand may warm",
+  "why": "Says more than HIS: 'entire hand' and 'will heat up' where HIS has 'a hand may warm'.",
+  "severity": "small"
+ },
+ {
+  "block": 299,
+  "where": "Optional trance depth check, P4",
+  "kind": "error",
+  "new": "it is “True”",
+  "his": "None proves truth",
+  "why": "Quote marks and a capital around 'True' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 302,
+  "where": "A shortcut back into hypnosis, P2",
+  "kind": "added",
+  "new": "Don't do this when you are in a very emotional state, child state, or thinking about something that could be considered trauma.",
+  "his": "",
+  "why": "A warning with no source line here; check that it is Joel's.",
+  "severity": "small"
+ },
+ {
+  "block": 303,
+  "where": "A shortcut back into hypnosis, P3",
+  "kind": "error",
+  "new": "an \"Ok\" sign",
+  "his": "the OK sign",
+  "why": "Quote marks and different capitalisation around 'OK' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 304,
+  "where": "A shortcut back into hypnosis, P4",
+  "kind": "added",
+  "new": "When you pick the time and place",
+  "his": "When I’ve set aside time, settled somewhere appropriate",
+  "why": "HIS speaks as 'I' (a self-suggestion); NEW switches to 'you'.",
+  "severity": "small"
+ },
+ {
+  "block": 305,
+  "where": "A shortcut back into hypnosis, P5",
+  "kind": "lost",
+  "new": "Over time, you can shorten the length of the longer induction",
+  "his": "gradually shorten the longer induction when the shortcut helps",
+  "why": "The condition 'when the shortcut helps' is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 305,
+  "where": "A shortcut back into hypnosis, P5",
+  "kind": "lost",
+  "new": "go to a certain depth",
+  "his": "instant depth",
+  "why": "'Instant' is dropped, so it now says no depth is needed rather than no instant depth.",
+  "severity": "small"
+ },
+ {
+  "block": 307,
+  "where": "A shortcut back into hypnosis, P7",
+  "kind": "added",
+  "new": "It's just not safe to be going into a trance where you are actively paying attention to what's going on inside of you when you need to be paying attention to what's going on outside of you.",
+  "his": "",
+  "why": "A reason for the rule that no HIS line gives.",
+  "severity": "small"
+ },
+ {
+  "block": 307,
+  "where": "A shortcut back into hypnosis, P7",
+  "kind": "added",
+  "new": "\"if it would be useful for you to do so\"",
+  "his": "conditional wording",
+  "why": "NEW invents a quoted example phrase where HIS only says 'conditional wording'.",
+  "severity": "small"
+ },
+ {
+  "block": 307,
+  "where": "A shortcut back into hypnosis, P7",
+  "kind": "error",
+  "new": "type language it's just not safe",
+  "his": "",
+  "why": "Run-on: no comma or full stop before 'it's just not safe'.",
+  "severity": "small"
+ },
+ {
+  "block": 311,
+  "where": "Come all the way back, P1",
+  "kind": "lost",
+  "new": "If you have done anything to alter your state when coming out of a trance, make sure to reverse those things.",
+  "his": "Reverse whatever you used to enter.",
+  "why": "HIS reverses what you used to go in; NEW says things done 'when coming out', which changes what gets reversed.",
+  "severity": "matters"
+ },
+ {
+  "block": 311,
+  "where": "Come all the way back, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "Keep only the qualities you deliberately chose.",
+  "why": "The instruction to keep only deliberately chosen qualities is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 311,
+  "where": "Come all the way back, P1",
+  "kind": "error",
+  "new": "it is under control of your adult mind",
+  "his": "adult judgment",
+  "why": "Missing 'the' ('under the control of'); also 'adult judgment' became 'control of your adult mind'.",
+  "severity": "small"
+ },
+ {
+  "block": 312,
+  "where": "Come all the way back, P2",
+  "kind": "lost",
+  "new": "Anything else I will bring with me at a later date, when I am better able to integrate it.",
+  "his": "The rest can remain safely held until there is more capacity.",
+  "why": "'Safely held' is gone and it becomes a promise to bring the rest later.",
+  "severity": "small"
+ },
+ {
+  "block": 312,
+  "where": "Come all the way back, P2",
+  "kind": "lost",
+  "new": "I will be coming back to the room I am in now, and to the day in which I am participating in this session now.",
+  "his": "I return to the room, the body, the day, and one honest action.",
+  "why": "'One honest action' is dropped from what you return to.",
+  "severity": "small"
+ },
+ {
+  "block": 312,
+  "where": "Come all the way back, P2",
+  "kind": "lost",
+  "new": "with my adult judgment.",
+  "his": "adult judgment fully available",
+  "why": "'Fully available' is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 314,
+  "where": "Come all the way back, P4",
+  "kind": "added",
+  "new": "(counting does this, but not always)",
+  "his": "repeating the count is not proof of a complete return",
+  "why": "HIS says the count is not proof of a full return; NEW says counting does orient you, but not always.",
+  "severity": "small"
+ },
+ {
+  "block": 315,
+  "where": "Come all the way back, P5",
+  "kind": "lost",
+  "new": "",
+  "his": "Don’t wait for the missing narrator to release you.",
+  "why": "The explicit line not to wait for the narrator to release you is dropped; only 'on your own' remains.",
+  "severity": "small"
+ },
+ {
+  "block": 318,
+  "where": "The actual inner meeting, P1",
+  "kind": "error",
+  "new": "day dream",
+  "his": "daydream",
+  "why": "'daydream' split into two words.",
+  "severity": "small"
+ },
+ {
+  "block": 320,
+  "where": "The actual inner meeting, P3",
+  "kind": "lost",
+  "new": "in a form and at a level that will be useful",
+  "his": "only in the form and timing that is useful",
+  "why": "'only' and 'timing' are dropped, so the request no longer limits when the answer comes.",
+  "severity": "matters"
+ },
+ {
+  "block": 321,
+  "where": "The actual inner meeting, P4",
+  "kind": "lost",
+  "new": "",
+  "his": "without forcing an answer",
+  "why": "The qualification that the conscious mind listens without forcing an answer is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 324,
+  "where": "The actual inner meeting, P7",
+  "kind": "lost",
+  "new": "",
+  "his": "or the realization that today’s practice is over",
+  "why": "The possibility that the response is the realization that today's practice is over is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 327,
+  "where": "Let the next response guide you, P1",
+  "kind": "lost",
+  "new": "Read through these sections, and then try doing the inner meeting without looking at the screen.",
+  "his": "From here, learn to answer what happens instead of reciting a speech that has already decided what every part will say.",
+  "why": "The point of the section (answer what happens, don't recite a fixed speech) is gone.",
+  "severity": "matters"
+ },
+ {
+  "block": 328,
+  "where": "Let the next response guide you, P2",
+  "kind": "added",
+  "new": "Respond to each thing that comes up",
+  "his": "Notice one thing accurately.",
+  "why": "HIS says to notice one thing; NEW says to respond to each thing.",
+  "severity": "small"
+ },
+ {
+  "block": 328,
+  "where": "Let the next response guide you, P2",
+  "kind": "error",
+  "new": "The 'thing' might be",
+  "his": "It might be a sensation",
+  "why": "Quote marks around 'thing' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 328,
+  "where": "Let the next response guide you, P2",
+  "kind": "error",
+  "new": "(or act or taking more time etc)",
+  "his": "an act of care, or more time",
+  "why": "Broken grammar ('or act or taking'), and 'of care' is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 328,
+  "where": "Let the next response guide you, P2",
+  "kind": "lost",
+  "new": "",
+  "his": "Acknowledge only what actually happens, then wait.",
+  "why": "'Acknowledge only what actually happens, then wait' is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 328,
+  "where": "Let the next response guide you, P2",
+  "kind": "added",
+  "new": "The notice and invitation don't need to take all those forms",
+  "his": "you don’t need to fill every category",
+  "why": "HIS says the response needn't fill every category (sensation, image, gesture...); NEW says the notice and invitation needn't take all these forms.",
+  "severity": "small"
+ },
+ {
+  "block": 331,
+  "where": "Finding your own words, P2",
+  "kind": "lost",
+  "new": "",
+  "his": "That is enough language for one invitation.",
+  "why": "The limit that one plain invitation is enough is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 332,
+  "where": "Finding your own words, P3",
+  "kind": "lost",
+  "new": "",
+  "his": "Directness can focus attention without deciding the answer.",
+  "why": "The point that directness focuses attention without deciding the answer is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 332,
+  "where": "Finding your own words, P3",
+  "kind": "lost",
+  "new": "",
+  "his": "A difficult feeling needn’t become pleasant before you can stay with it.",
+  "why": "The claim that a difficult feeling needn't become pleasant first is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 332,
+  "where": "Finding your own words, P3",
+  "kind": "added",
+  "new": "a sad feeling or tension or whatever doesn't mean it's not ok",
+  "his": "sadness or tension alone doesn’t require an exit",
+  "why": "NEW says any such feeling is fine ('or whatever'); HIS only says it alone doesn't require stopping.",
+  "severity": "small"
+ },
+ {
+  "block": 334,
+  "where": "Notice, meaning, and your thoughts on the meaning, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "These can overlap; you don’t need to prove which came first.",
+  "why": "The permission not to prove which came first is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 334,
+  "where": "Notice, meaning, and your thoughts on the meaning, P1",
+  "kind": "added",
+  "new": "It's worth trying to separate",
+  "his": "Keep apart",
+  "why": "HIS is a plain instruction to keep the three apart; NEW softens it to 'worth trying'.",
+  "severity": "small"
+ },
+ {
+  "block": 335,
+  "where": "Notice, meaning, and your thoughts on the meaning, P2",
+  "kind": "added",
+  "new": "\"He's a complete bastard\"",
+  "his": "“That person is evil”",
+  "why": "Different example: a named man and an insult in place of 'That person is evil'; the follow-up then says 'what he did'.",
+  "severity": "small"
+ },
+ {
+  "block": 337,
+  "where": "Let the response change the invitation, P1",
+  "kind": "added",
+  "new": "Your shoulders tightening, or 'hmm, that feels kind of wrong', is a signal to investigate further",
+  "his": "“My shoulders tightened” and “that wording feels wrong” are different observations.",
+  "why": "HIS says tightening and a wrong-feeling wording are different observations; NEW makes both signals to investigate.",
+  "severity": "small"
+ },
+ {
+  "block": 337,
+  "where": "Let the response change the invitation, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "Don’t repeat an unwelcome suggestion more persuasively.",
+  "why": "The line against pushing an unwelcome suggestion harder is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 339,
+  "where": "Let the response change the invitation, P3",
+  "kind": "added",
+  "new": "Neither is automatically a protector",
+  "his": "Skepticism is not automatically a protector",
+  "why": "HIS says skepticism is not automatically a protector; NEW says neither of the two cases is.",
+  "severity": "small"
+ },
+ {
+  "block": 339,
+  "where": "Let the response change the invitation, P3",
+  "kind": "lost",
+  "new": "",
+  "his": "You don’t have to decide which before making space to find out.",
+  "why": "The permission not to decide which case it is before making space is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 342,
+  "where": "Look at the situation too, P2",
+  "kind": "added",
+  "new": "you may find that you have acted inappropriately and you feel guilty",
+  "his": "Notice your side too.",
+  "why": "NEW adds the claim that you may have acted inappropriately, which HIS does not say.",
+  "severity": "small"
+ },
+ {
+  "block": 342,
+  "where": "Look at the situation too, P2",
+  "kind": "added",
+  "new": "Do you need to end the interaction prematurely?",
+  "his": "ending the exchange",
+  "why": "'Prematurely' is added and makes ending the exchange sound like stopping too early.",
+  "severity": "small"
+ },
+ {
+  "block": 344,
+  "where": "Change the amount of contact, P1",
+  "kind": "lost",
+  "new": "This is called pendulation and titration.",
+  "his": "Moving between difficult and more manageable experience is often called pendulation; approaching in smaller amounts is titration.",
+  "why": "Two different terms are fused into one name; the distinction between them is lost.",
+  "severity": "small"
+ },
+ {
+  "block": 344,
+  "where": "Change the amount of contact, P1",
+  "kind": "added",
+  "new": "Keep moving back and forth between the difficult thing and the easier thing.",
+  "his": "Let that support become noticeable alongside the difficulty.",
+  "why": "NEW makes it a standing instruction to keep switching; HIS lets the support sit alongside and says not to count compulsory cycles.",
+  "severity": "small"
+ },
+ {
+  "block": 346,
+  "where": "Change the amount of contact, P3",
+  "kind": "error",
+  "new": "“coming back”",
+  "his": "the full return",
+  "why": "Quote marks around 'coming back' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 346,
+  "where": "Change the amount of contact, P3",
+  "kind": "error",
+  "new": "a stronger “induction”",
+  "his": "a stronger induction",
+  "why": "Quote marks around 'induction' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 348,
+  "where": "If you feel an urge to move, P1",
+  "kind": "error",
+  "new": "“act out”",
+  "his": "enact an impulse",
+  "why": "Quote marks around 'act out' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 348,
+  "where": "If you feel an urge to move, P1",
+  "kind": "lost",
+  "new": "actually do something that will not cause your body pain or discomfort",
+  "his": "a small, voluntary, physically comfortable movement",
+  "why": "'Small' and 'voluntary' are dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 350,
+  "where": "Offer the care that is actually wanted, P1",
+  "kind": "error",
+  "new": "If any “younger” parts come up",
+  "his": "",
+  "why": "Quote marks around 'younger' where HIS elsewhere uses 'younger state' plainly.",
+  "severity": "small"
+ },
+ {
+  "block": 350,
+  "where": "Offer the care that is actually wanted, P1",
+  "kind": "error",
+  "new": "welcome to the “meeting”",
+  "his": "",
+  "why": "Quote marks around 'meeting' (Joel's term is the inner meeting, plain).",
+  "severity": "small"
+ },
+ {
+  "block": 351,
+  "where": "Offer the care that is actually wanted, P2",
+  "kind": "added",
+  "new": "“Guide”",
+  "his": "the Leader",
+  "why": "HIS names the role 'Leader'; NEW says 'Guide'.",
+  "severity": "small"
+ },
+ {
+  "block": 351,
+  "where": "Offer the care that is actually wanted, P2",
+  "kind": "error",
+  "new": "your “Nurturer”, “Protector”",
+  "his": "The Nurturer can change the tone; the Protector",
+  "why": "Quote marks around the role names that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 351,
+  "where": "Offer the care that is actually wanted, P2",
+  "kind": "error",
+  "new": "change the “tone” of the interaction",
+  "his": "The Nurturer can change the tone",
+  "why": "Quote marks around 'tone' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 351,
+  "where": "Offer the care that is actually wanted, P2",
+  "kind": "error",
+  "new": "use the “Witness” if you need",
+  "his": "Use the Witness only if you need it to begin",
+  "why": "Quote marks around 'Witness' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 352,
+  "where": "Offer the care that is actually wanted, P3",
+  "kind": "error",
+  "new": "‘inner part’",
+  "his": "",
+  "why": "Quote marks around 'inner part' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 352,
+  "where": "Offer the care that is actually wanted, P3",
+  "kind": "error",
+  "new": "‘should’",
+  "his": "",
+  "why": "Quote marks around 'should' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 352,
+  "where": "Offer the care that is actually wanted, P3",
+  "kind": "lost",
+  "new": "",
+  "his": "a welcome hand placement",
+  "why": "The hand-placement (touch) idea is dropped from the list of things to try.",
+  "severity": "small"
+ },
+ {
+  "block": 353,
+  "where": "Offer the care that is actually wanted, P4",
+  "kind": "lost",
+  "new": "",
+  "his": "more tears don’t prove more healing",
+  "why": "The caution that more tears don't prove more healing is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 353,
+  "where": "Offer the care that is actually wanted, P4",
+  "kind": "lost",
+  "new": "",
+  "his": "That needn’t mean the love failed.",
+  "why": "The reassurance that grief doesn't mean the love failed is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 353,
+  "where": "Offer the care that is actually wanted, P4",
+  "kind": "error",
+  "new": "‘stay there’",
+  "his": "",
+  "why": "Quote marks around 'stay there' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 353,
+  "where": "Offer the care that is actually wanted, P4",
+  "kind": "error",
+  "new": "‘take’",
+  "his": "",
+  "why": "Quote marks around 'take' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 354,
+  "where": "Offer the care that is actually wanted, P5",
+  "kind": "lost",
+  "new": "Remember that whatever you find out, is likely to be metaphorical. It may be a good hypothesis for what you need to do but it is not a proven fact.",
+  "his": "The result is symbolic information or a hypothesis, never proof of history.",
+  "why": "'Never proof of history' becomes 'not a proven fact' and 'is' becomes 'likely to be', so the caution that an image is not evidence of what happened is weakened.",
+  "severity": "matters"
+ },
+ {
+  "block": 354,
+  "where": "Offer the care that is actually wanted, P5",
+  "kind": "lost",
+  "new": "then try ‘doing that’ for as far as it takes to be of use to you",
+  "his": "Try only the missing resource, boundary, distance, or action that seems useful.",
+  "why": "'Try only' is dropped and replaced by an open-ended 'as far as it takes'.",
+  "severity": "small"
+ },
+ {
+  "block": 354,
+  "where": "Offer the care that is actually wanted, P5",
+  "kind": "added",
+  "new": "‘what would need to happen to make things right?’",
+  "his": "what wants to happen next?",
+  "why": "HIS asks an open question (what wants to happen next); NEW asks what would put things right.",
+  "severity": "small"
+ },
+ {
+  "block": 354,
+  "where": "Offer the care that is actually wanted, P5",
+  "kind": "error",
+  "new": "‘do something’",
+  "his": "",
+  "why": "Quote marks around 'do something' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 354,
+  "where": "Offer the care that is actually wanted, P5",
+  "kind": "error",
+  "new": "‘doing that’",
+  "his": "",
+  "why": "Quote marks around 'doing that' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 355,
+  "where": "Offer the care that is actually wanted, P6",
+  "kind": "lost",
+  "new": "",
+  "his": "Let a pleasant experience have time to grow.",
+  "why": "The instruction to let a pleasant experience grow is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 355,
+  "where": "Offer the care that is actually wanted, P6",
+  "kind": "lost",
+  "new": "",
+  "his": "Hypnosis can invite something new as well as listen to what is already present.",
+  "why": "The statement that hypnosis can invite something new as well as listen is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 357,
+  "where": "Finish without forcing a revelation, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "When you’ve received enough, stop opening new questions.",
+  "why": "The instruction to stop opening new questions is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 357,
+  "where": "Finish without forcing a revelation, P1",
+  "kind": "lost",
+  "new": "making sure that you do something ‘in real life’",
+  "his": "There needn’t be an action when none is called for.",
+  "why": "HIS says no action is needed when none is called for; NEW says to make sure you do something.",
+  "severity": "small"
+ },
+ {
+  "block": 357,
+  "where": "Finish without forcing a revelation, P1",
+  "kind": "error",
+  "new": "‘great revelation’",
+  "his": "",
+  "why": "Quote marks around 'great revelation' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 358,
+  "where": "Finish without forcing a revelation, P2",
+  "kind": "error",
+  "new": "the ‘ Come all the way back ‘ procedure",
+  "his": "Use Come all the way back",
+  "why": "Odd quote marks with spaces inside around the procedure name.",
+  "severity": "small"
+ },
+ {
+  "block": 358,
+  "where": "Finish without forcing a revelation, P2",
+  "kind": "error",
+  "new": "a ‘protector’ wanted",
+  "his": "protector’s concern",
+  "why": "Quote marks around 'protector' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 358,
+  "where": "Finish without forcing a revelation, P2",
+  "kind": "error",
+  "new": "any ‘repairs’ that you did",
+  "his": "repair",
+  "why": "Quote marks around 'repairs' that HIS does not have.",
+  "severity": "small"
+ },
+ {
+  "block": 360,
+  "where": "Throughout the exercise, P1",
+  "kind": "error",
+  "new": "Note : throughout",
+  "his": "",
+  "why": "Space before the colon.",
+  "severity": "small"
+ },
+ {
+  "block": 360,
+  "where": "Throughout the exercise, P1",
+  "kind": "error",
+  "new": "your ‘analytical’ part",
+  "his": "",
+  "why": "Quote marks around 'analytical' with no source for them.",
+  "severity": "small"
+ },
+ {
+  "block": 363,
+  "where": "The 15-minute daily practice, P2",
+  "kind": "added",
+  "new": "(In fact, it might be counter-productive!)",
+  "his": "",
+  "why": "A claim that trying several inductions might backfire; no source line here, check that it is Joel's.",
+  "severity": "small"
+ },
+ {
+  "block": 364,
+  "where": "The 15-minute daily practice, P3",
+  "kind": "lost",
+  "new": "",
+  "his": "independence means being able to guide yourself, not having to refuse help",
+  "why": "The point that independence doesn't mean refusing help is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 364,
+  "where": "The 15-minute daily practice, P3",
+  "kind": "added",
+  "new": "this will also shorten your induction if you already know what to do",
+  "his": "The optional re-entry cue can shorten an already familiar induction.",
+  "why": "'Can shorten' becomes 'will also shorten'.",
+  "severity": "small"
+ },
+ {
+  "block": 365,
+  "where": "The 15-minute daily practice, P4",
+  "kind": "added",
+  "new": "The more specific you can be, the more likely you are to change",
+  "his": "",
+  "why": "A claim that more specific plans make change more likely, which HIS does not make.",
+  "severity": "small"
+ },
+ {
+  "block": 365,
+  "where": "The 15-minute daily practice, P4",
+  "kind": "error",
+  "new": "not only how impressive the session felt",
+  "his": "not only how impressive the session felt.",
+  "why": "The paragraph ends without a full stop.",
+  "severity": "small"
+ },
+ {
+  "block": 367,
+  "where": "The weekly deeper practice, P1",
+  "kind": "added",
+  "new": "start from Higher Self or at least a neutral witnessing place",
+  "his": "Start from Higher Self or neutral witnessing",
+  "why": "'At least' ranks Higher Self above neutral witnessing; HIS treats them as equal options.",
+  "severity": "small"
+ },
+ {
+  "block": 367,
+  "where": "The weekly deeper practice, P1",
+  "kind": "lost",
+  "new": "bring in some adult function to make sure nothing is being bypassed",
+  "his": "borrow an adult function when needed, and ask whether anything important is being bypassed",
+  "why": "'When needed' is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 368,
+  "where": "The weekly deeper practice, P2",
+  "kind": "lost",
+  "new": "Otherwise, the dishes won’t get done.",
+  "his": "instead of staging another beautiful internal meeting and then leaving the dishes exactly where they were",
+  "why": "The jab at staging another beautiful internal meeting is dropped.",
+  "severity": "small"
+ }
+]

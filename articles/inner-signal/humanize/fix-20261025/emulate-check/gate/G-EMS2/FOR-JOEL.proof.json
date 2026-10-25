@@ -1,0 +1,64 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_ADMITTED_V1",
+  "candidate_sha256": "2e49de65d1507c60400957fff41c0fedbebf741cec06c3f68da1d86ac4d88c2a",
+  "context_sha256": "1c2b81d76522747c4b20bc2a7f591f3b64e3b1d2dcc0779c5da646486bb4b636",
+  "source_sha256": "0e5c73035c1634a299bf8e3ee1106b092efb24517b67b1e56797c9d14be2a698",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "lint_verdict": "REVIEW",
+  "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+  "lint_stdout_sha256": "874c621100e6e31ee37a013125c24829303cd505707de137567606c17e4a01e2",
+  "lint_findings": [
+    {
+      "label": "D9 follows the source order",
+      "examples": [
+        "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    },
+    {
+      "label": "O27 a rough edge in my text: the paragraph ends with no period (JOEL-FIXES-CATALOGUE: \"Rough edges he leaves: typos, double spaces, missing periods. ... They aren't something for me to imitate.\")",
+      "examples": [
+        "Also, Adam Eason and Benjamin Parris's article about self hypnosis for the International Society of Hypnosis should be a useful thing to read"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    }
+  ],
+  "tell_ledger_counts": {
+    "ABSENT": 33,
+    "PRESENT_JUSTIFIED": 0,
+    "UNCERTAIN": 0,
+    "total": 33
+  },
+  "justified_tells": [],
+  "reviews": {
+    "preservation": {
+      "path": "REVIEW-preservation.json",
+      "sha256": "50c207aed87b7929bcb3f57223f4c373d0fc4056a5ee3f2a6e9e0364fc3f4810",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (preservation)",
+        "context_id": "emulate-gate-preservation-subagent",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    },
+    "cold_read_1": {
+      "path": "REVIEW-cold_read_1.json",
+      "sha256": "2f6e86f76d04785d57f3e9be7f77e0e0fc73427d49776f86850caffb6a231f2e",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+        "context_id": "emulate-gate-cold_read_1-subagent-r2b",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session), round 2"
+      }
+    },
+    "cold_read_2": {
+      "path": "REVIEW-cold_read_2.json",
+      "sha256": "726765db09412fdc2ab6a8f0e85c77e050a161a7fc6ab5bed9a00b6a59496884",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+        "context_id": "emulate-gate-cold_read_2-subagent",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    }
+  },
+  "manifest_sha256": "242e0946e775f519df56c9d806d35c6c42b99ed725f23d2f33737029c416f443",
+  "verified_at_utc": "2026-10-25T22:09:22.160580+00:00"
+}

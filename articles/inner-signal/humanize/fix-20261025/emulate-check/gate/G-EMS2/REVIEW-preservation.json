@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "2e49de65d1507c60400957fff41c0fedbebf741cec06c3f68da1d86ac4d88c2a",
+  "context_sha256": "1c2b81d76522747c4b20bc2a7f591f3b64e3b1d2dcc0779c5da646486bb4b636",
+  "source_sha256": "0e5c73035c1634a299bf8e3ee1106b092efb24517b67b1e56797c9d14be2a698",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation)",
+    "context_id": "emulate-gate-preservation-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Judged (the front of a longer sentence) “Also, Adam Eason and Benjamin Parris's article about self hypnosis for the International Society of Hypnosis should be a useful thing to read” against his line (“Adam Eason and Benjamin Parris’s ISH article on self-hypnosis discusses self-directed learning and its relationship to another hypnotist and recordings.”) and the sentence it replaces (“Also, Adam Eason's work with Benjamin Parris in the International Society of Hypnosis, specifically his article about self hypnosis, should be a useful thing to read”). The change does what it says: the article is now Eason and Parris’s jointly (the joint possessive), and “work with ... in the International Society of Hypnosis”, which made the two work in the society, is gone. “ISH” is spelled out as the International Society of Hypnosis, with “for” as the reading of “ISH article”. What the article covers (his “self-directed learning ... another hypnotist and recordings”) is carried by the unchanged parenthetical in CONTEXT (“how to learn to learn when you’re directing it yourself ... whether you need another person ... using recordings”). Nothing is added; “should be a useful thing to read” is the replaced sentence’s own. Tell rows all ABSENT (the old vague “work with” is gone; no T27 word). Lint: D9 accepted. O27 accepted: the draft is the first part of one sentence that continues into the bracket in CONTEXT; the paragraph’s end (“etc.)”) is unchanged text outside the draft.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order",
+    "O27 a rough edge in my text: the paragraph ends with no period (JOEL-FIXES-CATALOGUE: \"Rough edges he leaves: typos, double spaces, missing periods. ... They aren't something for me to imitate.\")"
+  ]
+}

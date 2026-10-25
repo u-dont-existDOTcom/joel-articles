@@ -1,0 +1,677 @@
+[
+ {
+  "block": 522,
+  "where": "Pattern 8: Tag questions, P2",
+  "kind": "added",
+  "new": "Your body knows how to relax",
+  "his": "The body already knows something about resting",
+  "why": "Claim is stronger and made personal: 'knows how to relax' for 'already knows something about resting'.",
+  "severity": "small"
+ },
+ {
+  "block": 524,
+  "where": "Pattern 9: Nominalizations, P1",
+  "kind": "lost",
+  "new": "Nominalizations are words like,",
+  "his": "Nominalizations turn processes into nouns",
+  "why": "The definition (they turn processes into nouns) is dropped; only examples remain.",
+  "severity": "matters"
+ },
+ {
+  "block": 524,
+  "where": "Pattern 9: Nominalizations, P1",
+  "kind": "error",
+  "new": "words like, 'healing', 'safety', 'trust', 'integration', 'communion', 'clarity', 'rest', etc.",
+  "his": "healing, safety, trust, integration, communion, clarity, rest",
+  "why": "Each example is in quote marks, there is a stray comma after 'like', and 'etc.' is added.",
+  "severity": "small"
+ },
+ {
+  "block": 525,
+  "where": "Pattern 9: Nominalizations, P2",
+  "kind": "added",
+  "new": "I can allow myself some safety, in whatever way my body knows how.",
+  "his": "A little more safety can arrive in whatever way the body understands.",
+  "why": "Safety 'arriving' becomes the speaker allowing it, and 'a little more' becomes 'some'.",
+  "severity": "small"
+ },
+ {
+  "block": 527,
+  "where": "Pattern 10: Meta Model questions — the de-hypnosis tool, P1",
+  "kind": "error",
+  "new": "What do yo mean by that?",
+  "his": "asks exactly what somebody means",
+  "why": "Typo: 'yo' for 'you'.",
+  "severity": "small"
+ },
+ {
+  "block": 527,
+  "where": "Pattern 10: Meta Model questions — the de-hypnosis tool, P1",
+  "kind": "error",
+  "new": "To 'Milton Model' is to open things up. To 'Meta Model' is to say",
+  "his": "The Milton Model opens possibility. The Meta Model asks exactly what somebody means.",
+  "why": "The model names are put in quote marks and turned into verbs; HIS has them plain.",
+  "severity": "small"
+ },
+ {
+  "block": 527,
+  "where": "Pattern 10: Meta Model questions — the de-hypnosis tool, P1",
+  "kind": "added",
+  "new": "In order to be ethical with people, you need to do both.",
+  "his": "Ethical practice needs both.",
+  "why": "Narrows ethical practice to being 'ethical with people' and addresses the reader as 'you'.",
+  "severity": "small"
+ },
+ {
+  "block": 528,
+  "where": "Pattern 10: Meta Model questions — the de-hypnosis tool, P2",
+  "kind": "error",
+  "new": "According to who?",
+  "his": "According to whom?",
+  "why": "'who' for 'whom'.",
+  "severity": "small"
+ },
+ {
+  "block": 528,
+  "where": "Pattern 10: Meta Model questions — the de-hypnosis tool, P2",
+  "kind": "added",
+  "new": "What specifically would happen if you did?",
+  "his": "What exactly would happen?",
+  "why": "Adds a condition ('if you did') and second person that HIS doesn't have.",
+  "severity": "small"
+ },
+ {
+  "block": 528,
+  "where": "Pattern 10: Meta Model questions — the de-hypnosis tool, P2",
+  "kind": "added",
+  "new": "What evidence could you have that would change your mind?",
+  "his": "What evidence would change my mind?",
+  "why": "Reworded to second person with an awkward 'could you have'; HIS asks the question of oneself.",
+  "severity": "small"
+ },
+ {
+  "block": 529,
+  "where": "Pattern 10: Meta Model questions — the de-hypnosis tool, P3",
+  "kind": "added",
+  "new": "When people are starting to get stiff in their bodies, 'Milton' it.",
+  "his": "Use Milton Model to soften into the body.",
+  "why": "A tool for softening into your own body becomes a response to other people getting stiff, with a new trigger ('starting to get stiff').",
+  "severity": "matters"
+ },
+ {
+  "block": 529,
+  "where": "Pattern 10: Meta Model questions — the de-hypnosis tool, P3",
+  "kind": "added",
+  "new": "When you feel like you're losing touch with the truth of what's going on, 'Meta' it.",
+  "his": "Use Meta Model to return to truth.",
+  "why": "Adds a trigger condition ('when you feel like you're losing touch') instead of saying what the tool is for.",
+  "severity": "small"
+ },
+ {
+  "block": 529,
+  "where": "Pattern 10: Meta Model questions — the de-hypnosis tool, P3",
+  "kind": "error",
+  "new": "'Milton' it",
+  "his": "Use Milton Model",
+  "why": "Verbs made from the model names with quote marks (also 'Meta' it); HIS has no quote marks.",
+  "severity": "small"
+ },
+ {
+  "block": 532,
+  "where": "Submodalities — editing the form, not denying the truth, P1",
+  "kind": "added",
+  "new": "If someone's fear, craving, fantasy, belief, memory, whatever, has sensory properties in your experience",
+  "his": "Fear, craving, fantasy, belief, and memory may have sensory qualities",
+  "why": "Mixes 'someone's' with 'your experience', so it is unclear whose fear this is.",
+  "severity": "small"
+ },
+ {
+  "block": 533,
+  "where": "Submodalities — editing the form, not denying the truth, P2",
+  "kind": "lost",
+  "new": "Can you allow yourself to move that image back a couple of feet?",
+  "his": "What changes when the image moves two feet back, the voice gets quieter, or the edge becomes less sharp?",
+  "why": "The question of what changes after each adjustment is gone; NEW only asks the person to make the changes.",
+  "severity": "small"
+ },
+ {
+  "block": 534,
+  "where": "Submodalities — editing the form, not denying the truth, P3",
+  "kind": "lost",
+  "new": "so that I am able to be present enough to hear what it is",
+  "his": "so I can listen without being overwhelmed",
+  "why": "The reason for turning the volume down (so I am not overwhelmed) is gone.",
+  "severity": "small"
+ },
+ {
+  "block": 534,
+  "where": "Submodalities — editing the form, not denying the truth, P3",
+  "kind": "added",
+  "new": "And I can allow myself to know that I am not deleting the message",
+  "his": "I am not deleting the signal",
+  "why": "Adds a softening 'allow myself to know that' and swaps 'signal' for 'message'.",
+  "severity": "small"
+ },
+ {
+  "block": 535,
+  "where": "Submodalities — editing the form, not denying the truth, P4",
+  "kind": "lost",
+  "new": "And, always ask the guard if it's ok to do this.",
+  "his": "Before moving one imaginary pixel, ask the guard whether that change is acceptable.",
+  "why": "The timing (ask before moving anything) is lost, and 'always' makes it stronger.",
+  "severity": "small"
+ },
+ {
+  "block": 536,
+  "where": "Submodalities — editing the form, not denying the truth, P5",
+  "kind": "lost",
+  "new": "so that I can be present enough to hear what you need me to hear",
+  "his": "purely so my adult self can stay present enough to hear what you need to tell me",
+  "why": "Drops 'purely' and 'my adult self', the named part doing the asking.",
+  "severity": "small"
+ },
+ {
+  "block": 536,
+  "where": "Submodalities — editing the form, not denying the truth, P5",
+  "kind": "added",
+  "new": "move that image back a couple of feet and turn the volume down a bit",
+  "his": "moved this image back just a little, or lowered the volume slightly",
+  "why": "'Just a little, or ... slightly' becomes 'a couple of feet and ... a bit': a bigger change, and both rather than either.",
+  "severity": "small"
+ },
+ {
+  "block": 538,
+  "where": "Anchoring — giving the body a doorway back, P1",
+  "kind": "lost",
+  "new": "There are many ways to do this.",
+  "his": "An anchor is a cue connected to a state",
+  "why": "The definition of an anchor (a cue connected to a state) is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 538,
+  "where": "Anchoring — giving the body a doorway back, P1",
+  "kind": "error",
+  "new": "dont go for a peak state",
+  "his": "rather than peak emotional intensity",
+  "why": "'dont' is missing its apostrophe.",
+  "severity": "small"
+ },
+ {
+  "block": 538,
+  "where": "Anchoring — giving the body a doorway back, P1",
+  "kind": "lost",
+  "new": "peak state but for a good hypnotic state",
+  "his": "choose a usable receptive state rather than peak emotional intensity",
+  "why": "'Peak emotional intensity' becomes just 'peak state' and 'usable receptive state' becomes 'good hypnotic state'.",
+  "severity": "small"
+ },
+ {
+  "block": 538,
+  "where": "Anchoring — giving the body a doorway back, P1",
+  "kind": "lost",
+  "new": "See the main induction for a quick way to get back into hypnosis.",
+  "his": "follow “A shortcut back into hypnosis” in the main induction section",
+  "why": "The title of the section to follow ('A shortcut back into hypnosis') is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 538,
+  "where": "Anchoring — giving the body a doorway back, P1",
+  "kind": "added",
+  "new": "your alert and calm cue",
+  "his": "Keep alert calming and the synchronicity wake-up cue separate.",
+  "why": "'Alert calming' becomes 'alert and calm cue', which reads as two qualities rather than one named cue.",
+  "severity": "small"
+ },
+ {
+  "block": 540,
+  "where": "Using synchronicity as your own wake-up bell, P1",
+  "kind": "lost",
+  "new": "Using synchronicity (The synchronicity wake up cue)",
+  "his": "Using synchronicity as your own wake-up bell",
+  "why": "'as your own wake-up bell' is replaced by 'The synchronicity wake up cue'; the bell image is lost.",
+  "severity": "small"
+ },
+ {
+  "block": 541,
+  "where": "Using synchronicity as your own wake-up bell, P2",
+  "kind": "lost",
+  "new": "",
+  "his": "The coincidence doesn’t have to contain a message. It has already captured attention, which is enough.",
+  "why": "The point that the coincidence needn't carry any message, and that having caught attention is enough, is dropped.",
+  "severity": "matters"
+ },
+ {
+  "block": 541,
+  "where": "Using synchronicity as your own wake-up bell, P2",
+  "kind": "added",
+  "new": "Sometimes they get a great insight from it",
+  "his": "Sometimes that opens insight",
+  "why": "'A great insight' is stronger than HIS 'opens insight'.",
+  "severity": "small"
+ },
+ {
+  "block": 541,
+  "where": "Using synchronicity as your own wake-up bell, P2",
+  "kind": "added",
+  "new": "I am using the noticing of the synchronicity to WAKE UP.",
+  "his": "I prefer using the moment of noticing as a wake-up bell.",
+  "why": "A stated preference becomes a statement of what he is doing, with added capitals.",
+  "severity": "small"
+ },
+ {
+  "block": 543,
+  "where": "Using synchronicity as your own wake-up bell, P4",
+  "kind": "added",
+  "new": "I go into the highest state I can get into, where I can see what is going on in that situation as objectively and clearly as I can, from the highest perspective I can get to",
+  "his": "",
+  "why": "A 'highest state' and 'highest perspective' step that no HIS line mentions.",
+  "severity": "matters"
+ },
+ {
+  "block": 543,
+  "where": "Using synchronicity as your own wake-up bell, P4",
+  "kind": "added",
+  "new": "(What is really going on, what is just my interpretation? What needs to be warmed? What needs to be protected? What action needs to be taken?)",
+  "his": "",
+  "why": "A set of questions that none of the HIS lines for this block contain.",
+  "severity": "small"
+ },
+ {
+  "block": 543,
+  "where": "Using synchronicity as your own wake-up bell, P4",
+  "kind": "added",
+  "new": "I choose at least one thing to do that is from a loving place.",
+  "his": "",
+  "why": "An action step ('at least one thing', 'from a loving place') that none of the HIS lines for this block contain.",
+  "severity": "small"
+ },
+ {
+  "block": 543,
+  "where": "Using synchronicity as your own wake-up bell, P4",
+  "kind": "lost",
+  "new": "I allow myself to be in whatever state is real for me, which may include objectivity, clarity, ease, peace, freedom, joy, gratitude, etc.",
+  "his": "I do not have to manufacture any of them.",
+  "why": "The line that these states needn't be manufactured is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 548,
+  "where": "Installing the synchronicity cue, P3",
+  "kind": "added",
+  "new": "Feel the \"whoa\" of stimulation that you just got from noticing it.",
+  "his": "Feel the moment when attention says, “Whoa.”",
+  "why": "'The moment when attention says Whoa' becomes a 'whoa of stimulation', a notion HIS doesn't have.",
+  "severity": "small"
+ },
+ {
+  "block": 550,
+  "where": "Installing the synchronicity cue, P5",
+  "kind": "added",
+  "new": "it is just a bell that rings to wake you up",
+  "his": "The noticing is my wake-up bell",
+  "why": "In HIS the noticing itself is the wake-up bell; NEW makes the synchronicity the bell that rings.",
+  "severity": "small"
+ },
+ {
+  "block": 551,
+  "where": "Installing the synchronicity cue, P6",
+  "kind": "added",
+  "new": "What does my Guide think about this?",
+  "his": "Ask the Nurturer, Protector, and Leader what each sees.",
+  "why": "The third part is called 'Leader' in HIS but 'Guide' in NEW.",
+  "severity": "matters"
+ },
+ {
+  "block": 551,
+  "where": "Installing the synchronicity cue, P6",
+  "kind": "added",
+  "new": "Ask yourself:",
+  "his": "Ask the Nurturer, Protector, and Leader what each sees.",
+  "why": "HIS asks each part what it sees; NEW has you ask yourself what each part thinks.",
+  "severity": "small"
+ },
+ {
+  "block": 553,
+  "where": "Installing the synchronicity cue, P8",
+  "kind": "added",
+  "new": "Rehearse yourself taking at least one action.",
+  "his": "End with one small action and the complete waking exit.",
+  "why": "'One small action' becomes 'at least one action', and the 'End with' ordering is lost.",
+  "severity": "small"
+ },
+ {
+  "block": 554,
+  "where": "Installing the synchronicity cue, P9",
+  "kind": "lost",
+  "new": "These cues do not authorize you to make a decision.",
+  "his": "The cue remains self-authored, visible, reversible, and limited to orientation.",
+  "why": "The conditions that the cue is self-authored, visible, reversible and limited to orientation are gone.",
+  "severity": "matters"
+ },
+ {
+  "block": 554,
+  "where": "Installing the synchronicity cue, P9",
+  "kind": "lost",
+  "new": "",
+  "his": "or let another person control the response",
+  "why": "Drops the safety line that the cue can't let another person control the response.",
+  "severity": "matters"
+ },
+ {
+  "block": 554,
+  "where": "Installing the synchronicity cue, P9",
+  "kind": "lost",
+  "new": "",
+  "his": "prove an intuition",
+  "why": "Drops that the cue can't prove an intuition.",
+  "severity": "small"
+ },
+ {
+  "block": 555,
+  "where": "Installing the synchronicity cue, P10",
+  "kind": "added",
+  "new": "Gollwitzer’s paper explains how and why they work",
+  "his": "Gollwitzer’s foundational paper supports the general mechanism",
+  "why": "Overstates the source: the paper supports the general mechanism, it is not said to explain how and why they work.",
+  "severity": "matters"
+ },
+ {
+  "block": 555,
+  "where": "Installing the synchronicity cue, P10",
+  "kind": "added",
+  "new": "I'm not aware of research into implementation intention for this specific thing",
+  "his": "This particular use of synchronicity hasn’t been studied directly.",
+  "why": "A flat statement that it hasn't been studied becomes 'I'm not aware of research', and the subject shifts to implementation intention.",
+  "severity": "small"
+ },
+ {
+  "block": 555,
+  "where": "Installing the synchronicity cue, P10",
+  "kind": "lost",
+  "new": "This is very similar to implementation intention.",
+  "his": "an advance “if X, then Y” plan that links a recognizable cue with a chosen response",
+  "why": "What an implementation intention is (an advance if-then plan linking a cue to a response) is dropped, and 'resembles' becomes 'very similar'.",
+  "severity": "small"
+ },
+ {
+  "block": 557,
+  "where": "False positives, and turning the cue off, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "rehearsing synchronicity as a cue may make you scan for it",
+  "why": "The risk that rehearsing the cue makes you scan for synchronicities is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 557,
+  "where": "False positives, and turning the cue off, P1",
+  "kind": "added",
+  "new": "Research has shown that people that score high on apophenia tests also score high for detecting patterns that were not really there",
+  "his": "Research links stronger apophenic pattern detection with false-positive judgments",
+  "why": "'Research has shown' is stronger than 'links', and 'apophenia tests' is not in HIS.",
+  "severity": "small"
+ },
+ {
+  "block": 557,
+  "where": "False positives, and turning the cue off, P1",
+  "kind": "added",
+  "new": "(this is not saying that noticing patterns is bad; in fact, it's not a pathology)",
+  "his": "although ordinary pattern noticing is not itself pathological",
+  "why": "'Ordinary' is dropped, so all pattern noticing is said to be non-pathological.",
+  "severity": "small"
+ },
+ {
+  "block": 558,
+  "where": "False positives, and turning the cue off, P2",
+  "kind": "added",
+  "new": "you can't sleep, you feel anxious, you are sure that random things happen in your life in order to tell you something",
+  "his": "",
+  "why": "Specific warning signs (can't sleep, anxious, sure events are messages) with no source here.",
+  "severity": "small"
+ },
+ {
+  "block": 559,
+  "where": "False positives, and turning the cue off, P3",
+  "kind": "lost",
+  "new": "",
+  "his": "Remove it from the written cue list",
+  "why": "Drops the step of removing the cue from the written cue list.",
+  "severity": "matters"
+ },
+ {
+  "block": 559,
+  "where": "False positives, and turning the cue off, P3",
+  "kind": "added",
+  "new": "coincidences can go back to being just coincidences",
+  "his": "return coincidence to ordinary uncertainty",
+  "why": "'Ordinary uncertainty' becomes 'just coincidences', a firmer claim.",
+  "severity": "small"
+ },
+ {
+  "block": 561,
+  "where": "Reframing — changing the meaning without lying, P1",
+  "kind": "added",
+  "new": "How might my Guide reframe this?",
+  "his": "What would the Nurturer, the Protector, and the Leader each say about this?",
+  "why": "The third part is called 'Leader' in HIS but 'Guide' in NEW.",
+  "severity": "matters"
+ },
+ {
+  "block": 561,
+  "where": "Reframing — changing the meaning without lying, P1",
+  "kind": "added",
+  "new": "How might my Nurturer reframe this? or How might my Protector reframe this?",
+  "his": "What would the Nurturer, the Protector, and the Leader each say about this?",
+  "why": "HIS asks what each part would say about it; NEW asks how each would reframe it.",
+  "severity": "small"
+ },
+ {
+  "block": 561,
+  "where": "Reframing — changing the meaning without lying, P1",
+  "kind": "lost",
+  "new": "Instead ask yourself:",
+  "his": "I prefer questions that widen meaning without lying:",
+  "why": "The aim (widen meaning without lying) is dropped, and the author's preference becomes an instruction.",
+  "severity": "small"
+ },
+ {
+  "block": 564,
+  "where": "Perceptual positions — self, other, witness, universal heart, P2",
+  "kind": "added",
+  "new": "I do this to see the situation with more accuracy.",
+  "his": "",
+  "why": "A stated purpose ('more accuracy') that no HIS line gives.",
+  "severity": "small"
+ },
+ {
+  "block": 564,
+  "where": "Perceptual positions — self, other, witness, universal heart, P2",
+  "kind": "error",
+  "new": "Perceptual Positions :",
+  "his": "Perceptual positions",
+  "why": "Space before the colon.",
+  "severity": "small"
+ },
+ {
+  "block": 565,
+  "where": "Perceptual positions — self, other, witness, universal heart, P3",
+  "kind": "added",
+  "new": "I will not use this to rationalize bad behavior, but only to break out of a prison of perception.",
+  "his": "Don’t use perceptual positions to excuse harm. Use them to escape the prison of one angle.",
+  "why": "'Excuse harm' becomes 'rationalize bad behavior', 'one angle' becomes 'perception', and an instruction to the reader becomes the author's pledge.",
+  "severity": "small"
+ },
+ {
+  "block": 567,
+  "where": "Future pacing — let the future test the insight, P1",
+  "kind": "error",
+  "new": "Future Pacing :",
+  "his": "Future pacing",
+  "why": "Space before the colon.",
+  "severity": "small"
+ },
+ {
+  "block": 570,
+  "where": "The Swish, softened, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "Done mechanically, it can feel like an inner eviction.",
+  "why": "Drops the warning that the classic Swish can feel like an inner eviction, which is the reason for the softened version.",
+  "severity": "small"
+ },
+ {
+  "block": 570,
+  "where": "The Swish, softened, P1",
+  "kind": "error",
+  "new": "\"Swish Pattern\"",
+  "his": "the Swish",
+  "why": "Quote marks around the technique's name; HIS has none.",
+  "severity": "small"
+ },
+ {
+  "block": 570,
+  "where": "The Swish, softened, P1",
+  "kind": "lost",
+  "new": "compare the differences between the future scenarios of my old and new patterns",
+  "his": "comparing what each future would actually require",
+  "why": "What each future would actually require (the basis of the comparison) is lost.",
+  "severity": "small"
+ },
+ {
+  "block": 570,
+  "where": "The Swish, softened, P1",
+  "kind": "error",
+  "new": "Swish Variation :",
+  "his": "Classic NLP uses the Swish",
+  "why": "Space before the colon.",
+  "severity": "small"
+ },
+ {
+  "block": 572,
+  "where": "Parts integration, without pretending the conflict is solved, P1",
+  "kind": "error",
+  "new": "both parts needs",
+  "his": "honors both without letting either run the whole life",
+  "why": "Missing apostrophe: 'parts needs' for 'parts' needs'.",
+  "severity": "small"
+ },
+ {
+  "block": 572,
+  "where": "Parts integration, without pretending the conflict is solved, P1",
+  "kind": "error",
+  "new": "Parts Integration :",
+  "his": "",
+  "why": "Space before the colon.",
+  "severity": "small"
+ },
+ {
+  "block": 574,
+  "where": "What I will not use NLP for, P1",
+  "kind": "error",
+  "new": "to myself or to others :",
+  "his": "",
+  "why": "Space before the colon.",
+  "severity": "small"
+ },
+ {
+  "block": 575,
+  "where": "What I will not use NLP for, P2",
+  "kind": "added",
+  "new": "I do not deny people's legitimate signals.",
+  "his": "",
+  "why": "No HIS line for this block says it; the matching item ('talk myself out of a real signal') is about my own self-talk, not other people's signals.",
+  "severity": "small"
+ },
+ {
+  "block": 576,
+  "where": "What I will not use NLP for, P3",
+  "kind": "lost",
+  "new": "I do not tell people to override their fear.",
+  "his": "To override fear before asking what the fear protects.",
+  "why": "Drops the condition 'before asking what the fear protects', turning a conditional rule into a flat one about telling people.",
+  "severity": "matters"
+ },
+ {
+  "block": 577,
+  "where": "What I will not use NLP for, P4",
+  "kind": "added",
+  "new": "I do not use NLP for memory retrieval.",
+  "his": "",
+  "why": "'Memory retrieval' is not in any HIS line here.",
+  "severity": "small"
+ },
+ {
+  "block": 578,
+  "where": "What I will not use NLP for, P5",
+  "kind": "added",
+  "new": "manipulate other people or convince myself of my intuition",
+  "his": "To convince myself an intuition is true.",
+  "why": "Adds a separate item (manipulating other people) and rewords the intuition item.",
+  "severity": "small"
+ },
+ {
+  "block": 580,
+  "where": "What I will not use NLP for, P7",
+  "kind": "error",
+  "new": "\"psychosis-like state\"",
+  "his": "psychosis-like",
+  "why": "Quote marks around 'psychosis-like state'; HIS has none.",
+  "severity": "small"
+ },
+ {
+  "block": 580,
+  "where": "What I will not use NLP for, P7",
+  "kind": "lost",
+  "new": "too high/dissociated to reality test",
+  "his": "chemically overwhelmed, or too dissociated to reality-test",
+  "why": "'Chemically overwhelmed' is narrowed to 'too high'.",
+  "severity": "small"
+ },
+ {
+  "block": 581,
+  "where": "What I will not use NLP for, P8",
+  "kind": "added",
+  "new": "spiritually inferior to me if they disagree with me",
+  "his": "spiritually inferior for disagreeing",
+  "why": "Narrowed to feeling inferior 'to me' and disagreeing 'with me'.",
+  "severity": "small"
+ },
+ {
+  "block": 583,
+  "where": "What I will not use NLP for, P10",
+  "kind": "added",
+  "new": "I do not use NLP with people when there isn't enough time.",
+  "his": "To create urgency where time is needed.",
+  "why": "HIS rules out creating urgency; NEW rules out using NLP when time is short, which is a different rule.",
+  "severity": "small"
+ },
+ {
+  "block": 584,
+  "where": "What I will not use NLP for, P11",
+  "kind": "added",
+  "new": "your subconscious will let me know if you want me to do this",
+  "his": "To bypass consent by calling something “subconscious agreement.”",
+  "why": "An invented example sentence that HIS doesn't have.",
+  "severity": "small"
+ },
+ {
+  "block": 587,
+  "where": "Running the whole NLP sequence, P1",
+  "kind": "error",
+  "new": "Here is a rough outline of the entire NLP process :",
+  "his": "",
+  "why": "Space before the colon.",
+  "severity": "small"
+ },
+ {
+  "block": 589,
+  "where": "Running the whole NLP sequence, P3",
+  "kind": "lost",
+  "new": "Ask for their permission.",
+  "his": "Is it useful to work with this image, feeling, or pattern today?",
+  "why": "The sample permission question is dropped.",
+  "severity": "small"
+ }
+]

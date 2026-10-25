@@ -1,0 +1,19 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "03945c96e55b43ed3a1f09fa0e65bd33436b25af0ca61154c6bed78052ecac7e",
+  "context_sha256": "2707cfe9275617de46542c35f740bde1c46990af61159e5b7ef6e519cc7ed91e",
+  "source_sha256": "3e1e2421653a3b0b2faea48e1330b07e6e5a76f2963cfa77c95c074b19ee9c35",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation)",
+    "context_id": "emulate-gate-preservation-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Judged “Who has to step aside because they’re too close to it?” (new words, nothing replaced) against his line (“...who preserves evidence, who is recused, who decides temporary restrictions...”). The question puts back “who is recused” in plain words: stepping aside because of closeness to the case is what recusal is, and “because they’re too close to it” only names the ground; it adds no person, number or rule. It sits in the list right before the temporary-restrictions question, as in his order (“who is recused, who decides temporary restrictions”). “It” is the removal case the paragraph is about (“This power to remove people”) and “they” is whoever would be deciding. T02 (cumulative question run) is PRESENT in the paragraph: the baseline already strings six one-job questions together and the two new items make eight; justified, because the form is the paragraph’s own, this is one of his six named decisions, and the text around it notices things (“This power to remove people is so easily abused, though” before the run; “My research initially leaned too far that way” and “Why bother?” in the paragraphs after it), so T13 and T09 do not fire on top of it. All other rows ABSENT. Lint: CLEAR, nothing to resolve.",
+  "resolved_tell_ids": [
+    "T02"
+  ],
+  "resolved_lint_labels": []
+}

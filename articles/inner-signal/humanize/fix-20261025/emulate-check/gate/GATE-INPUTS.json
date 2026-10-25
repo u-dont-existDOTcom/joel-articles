@@ -1,0 +1,179 @@
+{
+ "G-EM2": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261025/emulate-check/gate/G-EM2",
+  "the_change": "Emulate's sentence said \"not all of the steps ... have been tested\"; this puts back his two points: the steps are familiar practices, and only the whole sequence is untested as one treatment.",
+  "candidate_sha256": "77d858c408cb7b944f8238c165792769525bf99067fc3326b62910cb577fcc5f",
+  "context_sha256": "33f66a3742202d325c4a17fbf3adb65a86ba2c7673be076c6c144ff4c3639476",
+  "source_sha256": "b3db99770e053e7dc9a29dc773f8bcc1266b25fce7344b8a08f3909b09026622",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ },
+ "G-EM5": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261025/emulate-check/gate/G-EM5",
+  "the_change": "Mends Emulate's \"too occupied in not being in pain, reading out what was dangerous\" with his \"avoiding pain\" and \"reading danger\".",
+  "candidate_sha256": "8c19a9fab14761351605e137496f945a50a77ff5cc88f82f2ab50cd5f169f1f1",
+  "context_sha256": "4221c6e19a02434d45de85515291e2b46c691ecbd83113386a45e9ee85eb6357",
+  "source_sha256": "bbba99306b8d694249a7563fc04567f1c8fc25db83b0e009959b44992ef52a99",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "8.7 \"you\" per 100 of my words"
+    ]
+   }
+  ]
+ },
+ "G-EM9": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261025/emulate-check/gate/G-EM9",
+  "the_change": "Puts back his \"only\" and his timing in the invocation: \"only in a form and at a time that will be useful\".",
+  "candidate_sha256": "2369aa33c51bc8e3d16ac93735dfcdffbd306eca7f1677e31c804e307ed9e35b",
+  "context_sha256": "03303dbab39c39c4feda0cf16400188c4ab076a1120a10211fd17bc0735d9007",
+  "source_sha256": "e94fa972beb40fa51652aceb95426f664e39a1e03d196918496e1a9b18924227",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "O27 a rough edge in my text: the paragraph ends with no period (JOEL-FIXES-CATALOGUE: \"Rough edges he leaves: typos, double spaces, missing periods. ... They aren't something for me to imitate.\")",
+    "examples": [
+     "to help me know what I need to know, only in a form and at a time that will be useful"
+    ]
+   }
+  ]
+ },
+ "G-EM14": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261025/emulate-check/gate/G-EM14",
+  "the_change": "Adds his definition of a nominalization, which Emulate dropped, in front of the examples.",
+  "candidate_sha256": "28c77cc1349f7d33fe7d9aeaf592eab32f94f103338c4c21d52579529a468986",
+  "context_sha256": "5d9c0af933a6ab7a3a7cd0690d949dcaa72fd65d1b73337e06da9405c196f11e",
+  "source_sha256": "eee1b42c1b0b3553c12cac43fb9fe5b6e21f02042899a85ec24b6b9ac5940f70",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "B4/E15 list or packed sentence",
+    "examples": [
+     "Nominalizations are words that turn a process into a noun, like 'healing', 'safety', 'trust', 'integration', 'communion', 'clarity', 'rest', etc."
+    ]
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ },
+ "G-EM15": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261025/emulate-check/gate/G-EM15",
+  "the_change": "Puts back his condition: he won't override fear before asking what it protects.",
+  "candidate_sha256": "1ddfa3e24996ac65bf10e76236a70478d6bdcc729dc3cb4f3888f847fcebb182",
+  "context_sha256": "7e90b522ca9d25462e5403b1faa50ed0c0123c72a3e14e8dad1c5d7e392e42d0",
+  "source_sha256": "0bab558a4d01ebd6fa8e656d8fb13e55784e933a201cf4f2f5ea310eaea832a7",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ },
+ "G-EMS2": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261025/emulate-check/gate/G-EMS2",
+  "the_change": "Gives the article back to both its authors; Emulate gave it to Eason alone and made the two \"work in\" the society.",
+  "candidate_sha256": "2e49de65d1507c60400957fff41c0fedbebf741cec06c3f68da1d86ac4d88c2a",
+  "context_sha256": "1c2b81d76522747c4b20bc2a7f591f3b64e3b1d2dcc0779c5da646486bb4b636",
+  "source_sha256": "0e5c73035c1634a299bf8e3ee1106b092efb24517b67b1e56797c9d14be2a698",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "O27 a rough edge in my text: the paragraph ends with no period (JOEL-FIXES-CATALOGUE: \"Rough edges he leaves: typos, double spaces, missing periods. ... They aren't something for me to imitate.\")",
+    "examples": [
+     "Also, Adam Eason and Benjamin Parris's article about self hypnosis for the International Society of Hypnosis should be a useful thing to read"
+    ]
+   }
+  ]
+ },
+ "C-E2": {
+  "folder": "/home/claude/ja-community/articles/intentional-communities/candidate/joel-20261025/emulate-check/gate/C-E2",
+  "the_change": "Puts back his point that a practice group already is community, which Emulate dropped.",
+  "candidate_sha256": "08761baf980693d5daa5497c80b05cb901c9c34972c8fd85755176fe9991a83e",
+  "context_sha256": "5565e68e03fa09e9ed5d32163937b021d3f204ed73bafbbaa3c5768a4c4257bc",
+  "source_sha256": "61b1b91f85979ea3e0824d90bb7a725f5890a3de608c1d4bce4025f7c2392a0c",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ },
+ "C-E3a": {
+  "folder": "/home/claude/ja-community/articles/intentional-communities/candidate/joel-20261025/emulate-check/gate/C-E3a",
+  "the_change": "Puts back his \"who is recused\" as a question in the list.",
+  "candidate_sha256": "03945c96e55b43ed3a1f09fa0e65bd33436b25af0ca61154c6bed78052ecac7e",
+  "context_sha256": "91d9c48d57a36e06058d3e9ecc2b4915ec4743960190072f2b98bf488c133a5e",
+  "source_sha256": "3e1e2421653a3b0b2faea48e1330b07e6e5a76f2963cfa77c95c074b19ee9c35",
+  "lint_verdict": "CLEAR",
+  "lint_findings": []
+ },
+ "C-E4": {
+  "folder": "/home/claude/ja-community/articles/intentional-communities/candidate/joel-20261025/emulate-check/gate/C-E4",
+  "the_change": "Puts back his limit on autonomy, which Emulate dropped.",
+  "candidate_sha256": "08e5817fd1af4778b714f4462b80a60103168ed1812828e40df95dad955d0290",
+  "context_sha256": "7101239079f59453b5948fbb606d0e9276ac00022e818283b92648642e3404e7",
+  "source_sha256": "cc102cfdb9364a4a69fc8615645800b9bc26cab3079e77594548be7329c6d603",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ },
+ "C-T1": {
+  "folder": "/home/claude/ja-community/articles/intentional-communities/candidate/joel-20261025/emulate-check/gate/C-T1",
+  "the_change": "Grammar only: the sentence didn't parse (\"it's optional participating\").",
+  "candidate_sha256": "7a7b4d24c96c941c9447246d783e14ad4f968988411e09b1d0ecff9958594e10",
+  "context_sha256": "4fdfc6a44fef22eea695ee20ec32d14295664ee3eabcc1e8736675233fcf3f3e",
+  "source_sha256": "42060e50f5837683dfb6ef3d8f561f77ffa2a0db71a674681a4eb9f5eead9fec",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ }
+}

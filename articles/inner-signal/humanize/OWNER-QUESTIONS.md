@@ -1,8 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-25, after your message of 14:40 UTC (the reread's 15.1, the inner child guide, and "give me the full
-HTML guide with highlighting"). **Open questions: 1** (19, the review page, just below). **One thing for you to do**:
-merge [pull request 247](https://github.com/u-dont-existDOTcom/joel-articles/pull/247) when you've looked (it changes nothing in your guide's text).
+Last updated 2026-10-25, after your message of 19:42 UTC (your answers on the review page). **Open questions: 1** (20, the
+Emulate check page, just below). **One thing for you to do**: merge [pull request PR_NUMBER](PR_URL) when you've looked.
 The questions are at the top, with their options and my default; under them is what you decided and what I did with it.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -11,19 +10,48 @@ read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 19. The review page.** [Your whole guide with every suggestion marked where it applies](https://claude.ai/artifact/HAPtqUNY4cYvk48TA4eYHp): 178 suggestions,
-each highlighted on the words it changes, in one colour per kind (a reader would stop 50, headings and order 30, caveats
-32, said already 18, your inner child guide 42, typos 6), with the paragraph as it would read, why, what stays and my
-advice under it. Click Approve, Reject or Revise on each (Revise opens your own version, starting from mine), with a
-comment if you want; nothing counts as approved until you click. Your answers save as you click, and I read them from the
-page when you tell me you're done. It replaces questions 15 to 18, the same checks in four lists, which I've taken down.
-Your fix for 15.1 is already on it, marked as yours (RR-1.1). Another 118 suggestions a reader made that I'd leave as they
-are are on it too, hidden unless you tick "The ones a reader flagged and I'd leave" under Filters.
-- a) (my default) You go through the page; nothing in the guide changes until you've decided.
-- b) You decide the ones you want to, then say "take your advice on the rest": I put in the ones I advise and leave the
-  others.
-From your other account, the page opens once you share it with that account from the page's Share menu; the
-[list of suggestions](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/review/REVIEW.json) is in Git either way.
+**🟣 20. The Emulate check page.** [Your guide with every change Emulate made that isn't yours marked where it is](https://claude.ai/artifact/FUoU6T1mGt1WiQBP1UjaWW):
+20 cards, each with your own version beside it: the quote marks Emulate put around 85 words and phrases (one card, like
+the spaces on your last page), 16 places where Emulate changed or dropped a point of yours (a condition, a limit, a
+definition, who does what), and 3 references (who wrote the ISH article, "several" trials, what Levine's chapter 7 is
+about). The plain errors are fixed already (below). Approve, Reject or Revise each card, with a comment if you want.
+- a) (my default) You go through the page; nothing changes until you've decided.
+- b) You decide the ones you want to, and say "take your advice on the rest", as last time.
+From your other account, the page opens once you share it from its Share menu; the
+[list of cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/emulate-check/REVIEW-EMULATE.json) is in Git either way.
+
+## Your message of 2026-10-25 19:42 UTC, and what I did
+
+Your message, [word for word](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/joel-20261025-1942-message.txt),
+and [your answers file](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/review/ANSWERS-20261025-1940.json).
+
+- 🟢 **19, the review page: your answers are in the guide** ([what happened to each card](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/review/APPLIED.json)):
+  the 139 you approved, your own versions of RR-2.1, RR-7.3, RR-8.3 and CV-8.9 word for word, and the 35 of the 153 you
+  left unmarked that I'd advised; the other 118 stay out. Where two cards changed one paragraph, both went in, as their
+  notes said (IC-A9 replaces RR-2.3's paragraph; ST-8.2 moves RR-8.8's line with its commas). Four small fixes their
+  combination needed: Installing the synchronicity cue P9 began "They" once the sentences before it went, so it says
+  "These cues"; "try doing it" says "the inner meeting"; "etc)!" lost its "!"; and IC-A17 and IC-B19 added the same lines,
+  so the full words stay in "Inner child reparenting" and Appendix G points to them, as IC-A17's note said.
+- 🟢 **"check all "the kid" instances and auto-fix"**: done, in Closing and in "You keep using hypnosis" ("show my little
+  one I'm for real"; that one was Emulate's, in none of your texts). "Actual kids" (real children) stays.
+- 🟢 **"why was inner child in quotes? ... remove quotes if you find it elsewhere"**: none left (Finish without forcing a
+  revelation, Pattern 5, and "Love doesn't have to wait for trust", where IC-T1 makes them "your little one").
+- 🟢 **"i didn' tmake these typos, did you?"**: no, they're not yours. None of your texts has a space before a full stop
+  or comma. Emulate put them after link texts and labels, and they stayed when the links went back on their words; my
+  checks compared Emulate's sentences with the draft they replaced, and read the meaning, not the marks. So I missed them.
+- 🟢 **"make those emulate checks more strict"**: the strict check now runs on every article with Emulate's sentences in
+  it, before it goes to you and after every Emulate run: it compares the article with your own texts mark by mark
+  (spaces, typos, quote marks, references, numbers, links) and fresh readers read every changed paragraph beside yours;
+  the plain errors get fixed and the rest comes to you on a page like this one. It's in the repository's rules and its
+  Emulate guide, with lessons E268 and E269. On your guide it fixed 31 spaces (22 on your last page, 9 more, the colons in
+  Appendix B among them), 53 typos and slips, and the references (the book titles in italics again, "(1995) pp",
+  "randomized controlled trials"); the rest is question 20.
+- 🟢 **"make sure all the citations and stuff are not messed up"**: Appendix K was Emulate's: the titles had lost their
+  italics and the punctuation was off (fixed), and three things changed what your sources say (question 20, Sources).
+- 🟢 **"that means we should also check the community article"**: done: far less there (no spaces, no typos of this kind,
+  the references as you have them); six cards are on its own page, question 66 on [the community questions page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/OWNER-QUESTIONS.md).
+- 🟢 **"save that so it's how we work in future editing work"**: saved, and in the repository's rules ([AGENTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/AGENTS.md)):
+  editing suggestions go to you on a marking page like this, in any article.
 
 ## Your message of 2026-10-25 14:40 UTC, and what I did
 

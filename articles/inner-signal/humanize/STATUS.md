@@ -1,5 +1,40 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-25, after Joel's message of 19:42 UTC (his answers in; the strict Emulate check; the community check)
+
+**His answers are in the guide** (`fix-20261025/review/apply_answers.py`, `APPLIED.json`; his message and answers file are
+saved word for word): 139 he approved, his own versions of 4 (RR-2.1, RR-7.3, RR-8.3, CV-8.9), 35 he left to my advice
+that I advised, and 118 left out; 138 paragraphs changed, 18 blocks added and 8 moved. His comments are passes over the
+whole guide: "the kid" (and "my kid") is "your little one", no quote marks around inner child, and IC-T1's they/them on
+the words the other cards added. Where two cards changed one paragraph both went in, change by change; the follow-on fixes
+are named in `APPLIED.json` ("These cues", "the inner meeting", "etc).", and Appendix G pointing to IC-A17's lines).
+
+**The strict Emulate check** (`fix-20261025/emulate-check/`, `tools/humanization/emulate_artifacts.py`, lesson E268):
+the guide against his published post, his drafts, his inner child texts, his messages and today's approved sentences.
+Fixed outright: 9 more spaces before punctuation (31 with his TY-6), 53 typos and slips (`fix_typos.py`), the
+references' italics, "(1995) pp" and "randomized controlled trials" (`fix_citations.py`). Ten Sonnet readers read every
+changed paragraph beside his (808 findings, `READS-ALL.json`; my fate for each that matters in `TRIAGE.md`). The rest is
+**question 20, the Emulate check page** (REVIEW-EMULATE: 20 cards: 85 quote marks as one card, 16 changes of meaning, 3
+sources; https://claude.ai/artifact/FUoU6T1mGt1WiQBP1UjaWW), its new sentences of mine through main's owner-delivery gate
+(`emulate-check/gate/`, GATE.md from `run_gate.py`): 10 drafts delivered after three PASSes each; 6 withdrawn on round 1's
+fails, their cards using his own words; the rest are his words or a word of his (EM-8 now his "enter": "when entering the
+trance"). Browser test 74 of 74 on the final page. **The community article** got the same check (its STATUS).
+Also: `repo_links.py fix` linked to the Inner Child lane's branch by default; it now links to the branch it runs on (test).
+
+**The standard**: `AGENTS.md` now says editing suggestions go on the marking page, and that every Emulate-infused article
+gets the strict check; `docs/EMULATE-FALLBACK.md` (step 5.0) and `docs/FIXING-AN-ARTICLE.md` (6.9) say how; lessons E268
+and E269. E270: the owner-delivery gate's reviewers get two or three drafts each (its doc says so now).
+
+Predictions: none (no Pangram check this turn: the guide is checked once, after his answers on the Emulate page).
+Delegations (model, piece, check, outcome): 12 Sonnet readers of the guide's paragraph pairs (parts 1 to 9, and part 10
+in two halves after its reader ran out of output; every quote searched in the guide, every "matters" finding checked by
+me against his texts and records: 20 cards); 8 Sonnet readers of the community's pairs (60 findings checked: 6 cards);
+the owner-delivery gate's reviewers (GATE.md): round 1, 3 Sonnet agents, one per role over 16 drafts; the preservation
+reviewer and cold reader 2 wrote all 16 (6 drafts failed: withdrawn), and cold reader 1 read all 16 before writing any and
+was stopped after 46 minutes with none written; round 2, 4 Sonnet cold readers over the 10 left, 2 or 3 each and one at a
+time, with a fresh preservation reviewer and cold reader 2 for C-E3a (its context changed): all PASS, in about 9 minutes.
+InnerSignal protocol loaded in the main thread: 0.2.1, 6d30a6b4...1e120f.
+
 ## 2026-10-25, after Joel's message of 14:40 UTC (the reader fixed, the inner child alignment, the review page)
 
 **The review page** is question 19 (`OWNER-QUESTIONS.md`): his whole guide with 178 suggestions marked where they apply,

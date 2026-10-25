@@ -1,0 +1,227 @@
+[
+ {
+  "block": 40,
+  "where": "Spiritual dogma models attempting inner freedom, P2",
+  "kind": "added",
+  "new": "the community’s spirituality and social life followed the founder, Stephen Gaskin",
+  "his": "Its early spiritual and social life was also deeply shaped by Stephen Gaskin",
+  "why": "'Deeply shaped by' became 'followed the founder', and 'the founder' is a new detail.",
+  "severity": "small"
+ },
+ {
+  "block": 40,
+  "where": "Spiritual dogma models attempting inner freedom, P2",
+  "kind": "added",
+  "new": "ran deep into members’ intimate decisions",
+  "his": "reaching into intimate decisions",
+  "why": "'Reaching into' became 'ran deep into', a stronger claim.",
+  "severity": "small"
+ },
+ {
+  "block": 40,
+  "where": "Spiritual dogma models attempting inner freedom, P2",
+  "kind": "added",
+  "new": "This is how it often goes: folks talk about oneness with the universe",
+  "his": "A group can talk about universal consciousness",
+  "why": "A possibility ('can') became a claim that this is how it often goes.",
+  "severity": "matters"
+ },
+ {
+  "block": 40,
+  "where": "Spiritual dogma models attempting inner freedom, P2",
+  "kind": "lost",
+  "new": "while one man defines what the universe is",
+  "his": "one man’s opinions become unusually difficult to escape",
+  "why": "The point that his opinions are hard to escape is gone, replaced by a stronger claim that one man defines the universe.",
+  "severity": "small"
+ },
+ {
+  "block": 43,
+  "where": "We Want Freedom Inside & Out!, P2",
+  "kind": "added",
+  "new": "people who’ve done the healing first can join",
+  "his": "",
+  "why": "NEW makes prior healing a condition for joining; HIS only says people shouldn't be pretended to arrive emotionally finished.",
+  "severity": "matters"
+ },
+ {
+  "block": 43,
+  "where": "We Want Freedom Inside & Out!, P2",
+  "kind": "lost",
+  "new": "and that also has peer practice",
+  "his": "That requires practice between peers",
+  "why": "'Requires' (a dependency) became 'also has'.",
+  "severity": "small"
+ },
+ {
+  "block": 44,
+  "where": "We Want Freedom Inside & Out!, P3",
+  "kind": "lost",
+  "new": "Whatever answers we find stay fluid and organic.",
+  "his": "instead of freezing into doctrine",
+  "why": "The contrast with answers freezing into doctrine is gone, and the next paragraph's 'frozen' relies on it.",
+  "severity": "matters"
+ },
+ {
+  "block": 47,
+  "where": "We Want Freedom Inside & Out!, P6",
+  "kind": "lost",
+  "new": "",
+  "his": "I consider the Abhidhamma a scholastic wrong turn.",
+  "why": "Joel's stated view of the Abhidhamma is dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 49,
+  "where": "Practicing Community Can Start Now, P1",
+  "kind": "added",
+  "new": "(play + work)",
+  "his": "",
+  "why": "A bracketed gloss for 'pl/ork' that HIS doesn't give.",
+  "severity": "small"
+ },
+ {
+  "block": 50,
+  "where": "Practicing Community Can Start Now, P2",
+  "kind": "added",
+  "new": "covers the whole model: inner, relational, and medicine pl/ork, the container that holds them, tech, jealousy, kids, money, land, founder power, how the communities spread, leaving, etc.",
+  "his": "",
+  "why": "A contents list for the How-To Manual with no source here; check it matches the Manual.",
+  "severity": "small"
+ },
+ {
+  "block": 51,
+  "where": "Practicing Community Can Start Now, P3",
+  "kind": "lost",
+  "new": "A group that practices together weekly for two years may never own land.",
+  "his": "A weekly group that has practiced together for two years already contains a real piece of community.",
+  "why": "The claim that such a group already is a real piece of community is gone.",
+  "severity": "matters"
+ },
+ {
+  "block": 53,
+  "where": "Choose Values Before Falling in Love With the View, P1",
+  "kind": "added",
+  "new": "people often choose their community in the same way they would choose a vacation rental",
+  "his": "",
+  "why": "A general claim about how people pick communities, with no source here.",
+  "severity": "small"
+ },
+ {
+  "block": 53,
+  "where": "Choose Values Before Falling in Love With the View, P1",
+  "kind": "added",
+  "new": "a vaccination policy?? And you need paperwork for it",
+  "his": "",
+  "why": "A specific invented example (a vaccination policy that needs paperwork) with no source here.",
+  "severity": "small"
+ },
+ {
+  "block": 54,
+  "where": "Choose Values Before Falling in Love With the View, P2",
+  "kind": "added",
+  "new": "It’s a long list, I know.",
+  "his": "",
+  "why": "An added aside.",
+  "severity": "small"
+ },
+ {
+  "block": 55,
+  "where": "Choose Values Before Falling in Love With the View, P3",
+  "kind": "added",
+  "new": "Yep. Both of them.",
+  "his": "",
+  "why": "An added aside.",
+  "severity": "small"
+ },
+ {
+  "block": 56,
+  "where": "Choose Values Before Falling in Love With the View, P4",
+  "kind": "added",
+  "new": "the people you live next to might think",
+  "his": "the person beside you may believe",
+  "why": "One person beside you became the people you live next to (plural, and neighbours).",
+  "severity": "small"
+ },
+ {
+  "block": 56,
+  "where": "Choose Values Before Falling in Love With the View, P4",
+  "kind": "lost",
+  "new": "Put it on your list",
+  "his": "It has to be declared",
+  "why": "'It has to be declared' (stated openly) became just adding it to your own list.",
+  "severity": "small"
+ },
+ {
+  "block": 59,
+  "where": "Practice group of whom?, P2",
+  "kind": "lost",
+  "new": "Lots of ecovillages are open to visitors too.",
+  "his": "Twin Oaks, East Wind, Acorn, other intentional communities, and many ecovillages receive visitors.",
+  "why": "The named communities (Twin Oaks, East Wind, Acorn) and the point that other intentional communities take visitors are gone; only ecovillages remain.",
+  "severity": "matters"
+ },
+ {
+  "block": 63,
+  "where": "Practice Before Committing, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "Find two or three people.",
+  "why": "The first step, with its number, is not in this paragraph or elsewhere in this file.",
+  "severity": "small"
+ },
+ {
+  "block": 63,
+  "where": "Practice Before Committing, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "Meet regularly. Learn to listen, switch roles,",
+  "why": "Meeting regularly and learning to listen and switch roles are dropped.",
+  "severity": "small"
+ },
+ {
+  "block": 82,
+  "where": "Who This Isn’t For, P2",
+  "kind": "lost",
+  "new": "",
+  "his": "This doesn’t mean you’re bad or doomed, it’s about timing",
+  "why": "The reassurance that needing support first says nothing bad about the reader, only about timing, is gone.",
+  "severity": "matters"
+ },
+ {
+  "block": 86,
+  "where": "From Visitor to Member—Slowly, P1",
+  "kind": "added",
+  "new": "A membership process is there to protect both the people who are already there and the newcomers.",
+  "his": "",
+  "why": "A new claim about what a membership process is for, including protecting newcomers.",
+  "severity": "small"
+ },
+ {
+  "block": 87,
+  "where": "From Visitor to Member—Slowly, P2",
+  "kind": "added",
+  "new": "(Not everyone does.)",
+  "his": "",
+  "why": "An added aside.",
+  "severity": "small"
+ },
+ {
+  "block": 89,
+  "where": "From Visitor to Member—Slowly, P4",
+  "kind": "added",
+  "new": "(Hopefully not all at once!)",
+  "his": "",
+  "why": "An added aside.",
+  "severity": "small"
+ },
+ {
+  "block": 89,
+  "where": "From Visitor to Member—Slowly, P4",
+  "kind": "lost",
+  "new": "",
+  "his": "time gives you more evidence, not certainty",
+  "why": "The limit that a longer visit gives more evidence but not certainty is gone.",
+  "severity": "small"
+ }
+]
