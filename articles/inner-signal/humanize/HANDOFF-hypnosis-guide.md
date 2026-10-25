@@ -119,7 +119,7 @@ or from the JSON he sends. The community article's question 66 is the same kind 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
 
-Pull request PR_NUMBER (this turn's: his answers in, the strict Emulate check of both articles, the two pages) waits for his
+Pull request 251 (this turn's: his answers in, the strict Emulate check of both articles, the two pages) waits for his
 merge; 247 was merged on 2026-10-25. The community lane's own state is in its handoff.
 
 ## Where it stands
@@ -210,7 +210,7 @@ the message file's note and in lesson E268). InnerSignal protocol loaded in the 
 6d30a6b4b623527d2ab06d02220d20107eca2542eaade436818a6b0a9e1e120f (its new RESPONSE-FIDELITY reference: consolidate by
 function, no automatic practice warnings, no duplication; the reason the Emulate page restores no repeated safety line).
 
-Done (pull request PR_NUMBER, PR_URL):
+Done (pull request 251, https://github.com/u-dont-existDOTcom/joel-articles/pull/251):
 - **His answers in** (`fix-20261025/review/apply_answers.py`, `APPLIED.json`): approved 139, his versions of RR-2.1, RR-7.3,
   RR-8.3 and CV-8.9 word for word, his "accept all the answers i didn't mark" as the 35 unmarked cards I advised (118
   unmarked "leave" stay out). Merged paragraphs change by change from one original; SUPERSEDES (IC-A9 over RR-2.3; his

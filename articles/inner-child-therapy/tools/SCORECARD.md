@@ -9,7 +9,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/inner-child
 | Pangram 4.0 (before the ledger) | 3085 | 1395 (45%) | 57% | 43% | 96% | - |
 | Pangram 4.1 GUI (dashboard) | 28 | 27 (96%) | 4% | 96% | 100% | 0.104 (base 0.034, 28) |
 | pangram-4.1-substack | 85 | 59 (69%) | 45% | 55% | 58% | 0.187 (base 0.247, 85) |
-| pangram-4.1-api | 187 | 144 (77%) | 33% | 67% | 83% | 0.196 (base 0.222, 187) |
+| pangram-4.1-api | 203 | 158 (78%) | 32% | 68% | 84% | 0.193 (base 0.218, 203) |
 
 106 of the older calls are scored here differently from the lane's own marks (98 marked right there, 8 marked wrong): this page uses one rule for every lane, where only a 100% Human result is a pass and a "Mixed" or "Human with an AI window" call counts as not Human.
 
@@ -79,15 +79,15 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 41 (82%) | 22% | 78% | 96% | 0.191 (base 0.172, 50) |
-| the latest 100 | 100 | 75 (75%) | 31% | 69% | 92% | 0.198 (base 0.214, 100) |
-| all | 187 | 144 (77%) | 33% | 67% | 83% | 0.196 (base 0.222, 187) |
+| the latest 50 | 50 | 43 (86%) | 18% | 82% | 96% | 0.176 (base 0.148, 50) |
+| the latest 100 | 100 | 81 (81%) | 24% | 76% | 93% | 0.181 (base 0.182, 100) |
+| all | 203 | 158 (78%) | 32% | 68% | 84% | 0.193 (base 0.218, 203) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 97 | 74 (76%) | 34% | 66% | 84% | 0.191 (base 0.224, 97) |
+| paragraph | 113 | 88 (78%) | 32% | 68% | 85% | 0.186 (base 0.217, 113) |
 | section | 70 | 53 (76%) | 31% | 69% | 87% | 0.207 (base 0.216, 70) |
 | stretch | 20 | 17 (85%) | 35% | 65% | 70% | 0.182 (base 0.227, 20) |
 
@@ -95,16 +95,16 @@ Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.2 to 0.4 | 12 | 0.32 | 8% |
-| 0.4 to 0.6 | 133 | 0.55 | 66% |
-| 0.6 to 0.8 | 107 | 0.63 | 80% |
-| 0.8 to 1.0 | 3 | 0.80 | 100% |
+| 0.2 to 0.4 | 13 | 0.32 | 8% |
+| 0.4 to 0.6 | 134 | 0.55 | 66% |
+| 0.6 to 0.8 | 120 | 0.64 | 82% |
+| 0.8 to 1.0 | 4 | 0.80 | 75% |
 
-## Misses since the ledger (70)
+## Misses since the ledger (72)
 
 | cause | misses |
 |---|---|
-| not explained yet | 15 |
+| not explained yet | 17 |
 | too pessimistic about a cut | 12 |
 | a tell I did not name | 11 |
 | a Low window came back | 8 |
@@ -127,8 +127,6 @@ The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [t104_change_h3_cut](https://www.pangram.com/history/523ede49-eea8-48e9-a9bb-69f5ff7785e8) | sec-change-strategy-cut, 1 | Human | AI or mixed | a Low window came back |
-| [t105_98_7_d8](https://www.pangram.com/history/33d1a7d3-ca17-4331-b566-85743cc55238) | cut-98.7, 6 | Human | AI or mixed | a cut took out what read human |
 | [t106_h3_journey](https://www.pangram.com/history/23800590-b449-4804-9dac-4b17d8926d18) | t106-h3-journey, 1 | Human | AI or mixed | **not explained yet** |
 | [t106_sec_journey](https://www.pangram.com/history/b6e45715-fbfe-4847-9993-7253918dc5d9) | t106-sec-journey, 1 | Human | AI or mixed | **not explained yet** |
 | [t106_sec_hero](https://www.pangram.com/history/5105656f-4f96-45af-b7b5-5bab9fd6d771) | t106-sec-hero, 1 | Human | AI or mixed | **not explained yet** |
@@ -142,6 +140,8 @@ The latest:
 | [t109_guard_p1b](https://www.pangram.com/history/2b5501c8-bc19-42b2-8817-680658cf6311) | t109-guard-plain, 2 | Human | AI or mixed | **not explained yet** |
 | [t109_guard_p3c](https://www.pangram.com/history/dbe0cc6a-0985-4089-964b-f4bbc40d406e) | t109-guard-performance, 3 | Human | AI or mixed | **not explained yet** |
 | [t109_guard_p1d](https://www.pangram.com/history/bc6afa93-645e-40e9-b608-3bb4aa1bcfd3) | t109-guard-plain, 4 | Human | AI or mixed | **not explained yet** |
+| [t111_c4_borrowlove](https://www.pangram.com/history/c18bb0c3-9232-470f-ab12-cf0850dbb3df) | t111-borrowlove, 1 | Human | AI or mixed | **not explained yet** |
+| [t111_c8_belonging](https://www.pangram.com/history/1be9c136-ff8f-4a2e-8ee6-d009ca5d0dfa) | t111-belonging, 1 | Human | AI or mixed | **not explained yet** |
 
 ## Lineages still open (tries used of the cap)
 
@@ -217,4 +217,5 @@ The latest:
 | t107s-B | stretch | 1 of unlimited (Substack) | Mixed |
 | t109-guard-plain | paragraph | 4 of 6 | Mixed |
 | t109-start-plain | paragraph | 1 of 6 | Mixed |
+| t111-belonging | paragraph | 2 of 6 | AI |
 

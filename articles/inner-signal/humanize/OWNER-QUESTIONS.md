@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
 Last updated 2026-10-25, after your message of 19:42 UTC (your answers on the review page). **Open questions: 1** (20, the
-Emulate check page, just below). **One thing for you to do**: merge [pull request PR_NUMBER](PR_URL) when you've looked.
+Emulate check page, just below). **One thing for you to do**: merge [pull request 251](https://github.com/u-dont-existDOTcom/joel-articles/pull/251) when you've looked.
 The questions are at the top, with their options and my default; under them is what you decided and what I did with it.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
