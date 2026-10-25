@@ -5,7 +5,7 @@ exported from the page at 23:04:36Z): IC-E1, IC-E2, IC-E3 and IC-T1 approved; IC
 
 The input is ../../joel-20261024/answer65/WORKING.html, the version his post has had since he pasted it on 2026-10-25
 (his post at https://ibogaqueen.substack.com/p/building-healing-community-escuelitas, "Updated: Oct 25 2026", read in the
-browser at 23:13 UTC: it has the How-To Manual, his kibbutz image and the four sentences as they were). Each approved
+browser in the 23:05 turn: it has the How-To Manual, his kibbutz image and the four sentences as they were). Each approved
 card's changes (../emulate-check/build_emulate_review.py, CARDS) go into the matching paragraph of WORKING.html as
 plain-text edits with links and bold kept on their words (tools/humanization/html_text_edit.set_text). The words that
 change are exactly the cards' words: the script checks that the article's text before and after differs only there.

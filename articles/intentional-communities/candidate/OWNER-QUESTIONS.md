@@ -19,7 +19,7 @@ None right now.
   4. Who steps aside, and the appeal. Old: "How will the person be able to reply to the concerns?" New: "How will the person be able to reply to the concerns? What review or appeal is possible without endangering others?"
   5. A sentence that doesn't parse. Old: "Just because it’s optional participating in the ceremonies doesn’t mean they don’t have to work with the other parts." New: "Just because taking part in the ceremonies is optional doesn’t mean people don’t have to work with the other parts."
 
-- 🟢 Done: **you put the new version in your post** with the clipboard helper (read at 23:13 UTC: "Updated: Oct 25 2026", with the How-To Manual and your kibbutz image).
+- 🟢 Done: **you put the new version in your post** with the clipboard helper (read in this turn: "Updated: Oct 25 2026", with the How-To Manual and your kibbutz image).
 - 🟢 Done: [the whole-article check](https://www.pangram.com/feed/954042b6-e624-4c7f-87d7-db15c547d5c8) (your result of 00:27 UTC): Human Written, 0 of 72 windows AI, document confidence High. My part forecast called all 130 of its parts right; my call for the whole was too gloomy, a 7% chance of no red ([scored](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/recheck-r1/SCORE.md)).
 - 🟠 Merge [pull request 251](https://github.com/u-dont-existDOTcom/joel-articles/pull/251) when you've looked: the Emulate check of this article and of the hypnosis guide, and your answers to 66 (238, the last one, is merged).
 
