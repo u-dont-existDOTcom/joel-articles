@@ -210,6 +210,8 @@ What counts, from his own fixes:
 Other things that count: several claims packed into one sentence; a chain of abstract nouns ("the functional coordination through which ..."); a foreign or technical term the reader needs but that isn't explained there or earlier in your part; a "this", "that" or "it" whose referent isn't clear; a step missing from the reasoning, so the conclusion doesn't follow for the reader; a term used before it's explained; a sentence whose point you can't state after reading it twice.
 What doesn't count: his jokes, emoji, slang, exclamations and casual grammar (that's his voice); a style you'd do differently; a term explained nearby; a long passage that is clear; a claim you disagree with (don't fact-check).
 
+Work quickly: read the part once, noting candidates as you go, then pick the clearest and write them down. Don't rewrite every passage in your head or weigh each one at length: a short report naming the passages that stop a reader most is the job. (2026-10-25: the reader of the first sixth of a 29,000-word guide spent its whole output deliberating and wrote nothing.)
+
 Read the file {part} (one Read call; it is part {k} of {n}, headings marked "## "). Then write your report with one Write call to {report}, in this shape, the hardest first, at most {max_items} items:
 
 ## 1
@@ -486,7 +488,26 @@ def edit_page(items, title=None, intro=None):
         out += ['## Proposed but not offered', '']
         out += ['- **%s:** "%s" (%s)' % (x.get('heading') or '', x['quote'][:140], x.get('note') or '') for x in dropped]
         out.append('')
+    out += dup_section(items)
     return '\n'.join(out), n
+
+
+def dup_section(items):
+    """Items with "status": "dup": the same passage flagged by a second reader, or one offered on another list of the
+    same check. They are listed once at the end with the note saying where they are offered, so he never answers the same
+    cut twice (2026-10-25: 48 of the 295 items from the hypnosis guide's 36 readers were the same words twice, or on two lists)."""
+    dups = [x for x in items if x.get('status') == 'dup']
+    if not dups:
+        return []
+    out = ['## Flagged twice, or offered on another list', '']
+    out += ['- **%s:** "%s" (%s)' % (x.get('heading') or '', x['quote'][:140], x.get('note') or '') for x in dups]
+    return out + ['']
+
+
+def numbers(items):
+    """{key: its number on the page}: the offered items, in the article's order, as every page numbers them."""
+    live = sorted((x for x in items if x.get('status', 'keep') == 'keep'), key=lambda x: (x.get('line') or 0))
+    return {x['key']: i for i, x in enumerate(live, 1)}
 
 
 KINDS = {'REPEAT': 'a repeat', 'SAID-AGAIN': 'said already', 'BLANKET': 'a blanket add-on', 'NOBODY-SUGGESTED': 'warns against a step nobody '
@@ -572,6 +593,7 @@ def caveat_page(items, text, title=None, intro=None):
         out += ['## Looked at and kept', '']
         out += ['- **%s:** "%s" (%s)' % (x.get('heading') or '', x['quote'][:140], x.get('note') or '') for x in dropped]
         out.append('')
+    out += dup_section(items)
     return '\n'.join(out), n
 
 
@@ -612,6 +634,7 @@ def page(outdir, title=None, intro=None):
         out += ['## Flagged but not counted', '']
         out += ['- **%s:** "%s" (%s)' % (x.get('heading') or '', x['quote'][:140], x.get('note') or '') for x in dropped]
         out.append('')
+    out += dup_section(items)
     return '\n'.join(out), n
 
 

@@ -1,0 +1,20 @@
+You are a cold first-time reader of Joel's long self-hypnosis guide, The Inner Signal: hypnosis as listening to the different parts of yourself, inner child reparenting, inductions, the return sequence, daily and weekly practice, troubleshooting and many appendices, for a general Substack audience (curious people trying it on themselves, not clinicians). Joel says his articles are too long and too redundant ("as much as possible we should be deduplicating because i feel the article is really too redundant"; "everyone says my articles are too long (and hard to read because of the excessive redundancy and details which are from the AI writing)"). Your job is to find what the article says more than once, so the repeats can be cut.
+
+You own part 9 of 10: the points made in that part. For each point made in your part, look through the whole article for every other place that makes the same point again (an explanation, an argument, a definition, a story, a warning or a list that a reader already has). Then say which place keeps the point (usually the fullest one, or the one where the reader needs it), and which words to cut elsewhere.
+
+What counts: the same explanation or argument given again in other words; a definition repeated; a story or example told twice; a summing-up that restates what the paragraph just said; a preview that the section it previews then says again in full. What doesn't count: a short callback that names an earlier point to build on it ("as I said about the founders, ..."), a pointer to another section, a point applied to a new case where the new case is the content, his jokes and stories told once.
+
+Cut whole sentences or clauses only, so the paragraph still reads after the cut; no rewording. If a cut would leave a paragraph that no longer makes sense, say so in LOSES.
+
+Work quickly: read the whole article once, noting repeats of your part's points as you go, then pick the clearest and write them down. Don't compare every paragraph with every other or weigh each cut at length: a short report naming the biggest repeats is the job. (2026-10-23: three of the four readers of the community article spent their whole output thinking, again and again, and wrote nothing.)
+
+Read the whole article in /home/claude/ja-community/articles/inner-signal/humanize/fix-20261025/repeats/ARTICLE.txt (one Read call; headings marked "## "), and your part, the same text as part 9 of 10, in /home/claude/ja-community/articles/inner-signal/humanize/fix-20261025/repeats/PART-9.txt (one Read call). Then write your report with one Write call to /home/claude/ja-community/articles/inner-signal/humanize/fix-20261025/repeats/READER-9.md, in this shape, in the article's order of the cuts, at most 12 items:
+
+## 1
+SECTION: the heading the cut is under, exactly as in the file
+QUOTE: the exact words to cut, copied exactly character for character from the file: whole sentences or clauses, no more than the cut
+KEPT: the words, copied exactly from the file, of the place that keeps the point, and its heading in brackets
+WHY: in one line, what the cut says again
+LOSES: what a reader loses if it's cut ("nothing" when that's so)
+
+If you find no repeats of your part's points, write only "NOTHING". Then reply with only the number of items. Use no tools other than those two Reads and that one Write, and don't use the web.
