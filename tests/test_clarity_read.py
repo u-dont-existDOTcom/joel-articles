@@ -203,7 +203,9 @@ KEEPS: every sentence
                          'You can figure that out later.', 'it\'s an objection that so many people have raised to me',
                          # E267 (Inner Child): a point of view needs no story, "I'd" stays, and a frequency claim gets a basis question
                          "it doesn't need a story", 'never offer to make his "I\'d" a command', "what it's based on",
-                         'about this very point', 'it is a CUT only when the same point is said nearby'):
+                         'about this very point', 'it is a CUT only when the same point is said nearby',
+                         # E269 (Inner Child): read across the paragraph break, and a line of what someone is worth is his
+                         'across a paragraph break too', 'i\'m trying to instill gratitude'):
                 self.assertIn(want, brief)
             self.assertEqual((out / 'KIND').read_text().strip(), 'pov')
             (out / 'READER-1.md').write_text(

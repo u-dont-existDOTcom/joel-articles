@@ -646,11 +646,14 @@
    "must_contain": [
     "\"I can't imagine it was easy… growing up with you as a father.\"",
     "his oldest son never told people about his dad, and his youngest \"genuinely tested\" him. Eventually he and his youngest found their way, and now he's very proud of both his sons.",
-    "\"But you are right, Lloyd. It couldn't have been easy on them. Thank you. Thank you for that perspective.\"",
-    "Like the two truths at bedtime, a true complaint and real love don't cancel each other out"
+    "\"But you are right, Lloyd. It couldn't have been easy on them. Thank you. Thank you for that perspective.\""
    ],
    "must_not_contain": [
-    "talks honestly about both of his sons"
+    "talks honestly about both of his sons",
+    "Like the two truths at bedtime, a true complaint and real love"
+   ],
+   "history": [
+    "Turn 111 (his answers of 2026-10-25 20:08 UTC, experiments/t111-answers/ANSWERS-20261025-2008.json): C5 approved: the proposal's last sentence (\"Like the two truths at bedtime ...\") is cut; the scene ends on \"Thank you for that perspective.\""
    ]
   },
   {
@@ -878,12 +881,15 @@
    "must_contain": [
     "### Remind Yourself",
     "The vow can live somewhere you'll see it, too, like on a stuffed animal from when you were little, a photo of yourself as a child, or just a sticky note on the bathroom mirror. Whatever helps you feel connected to the Nurturer and Protector you've been practicing. The Teddy bear note may remind you to think, \"When I see you, I remember to stop attacking myself and go to bed on time.\"",
-    "A real-life child of yours, or a calm pet, can also act as a companion that brings out the relationship with your own inner child. But those are also their own beings with their own needs as well. Let them come and go without making them responsible for the session."
+    "A real-life child of yours, or a calm pet, can also act as a companion that brings out the relationship with your own inner child. My son did that for me, and I think that's very common for parents. But those are also their own beings with their own needs as well. Let them come and go without making them responsible for the session."
    ],
    "must_not_contain": [
     "And then don't start asking it what to do!",
     "It only knows what you decided that day.",
     "### Give the Vow a Physical Reminder"
+   ],
+   "history": [
+    "Turn 111 (his answers of 2026-10-25 20:08 UTC, experiments/t111-answers/ANSWERS-20261025-2008.json): P5 approved: his 2026-10-02 answer as an article sentence after the first (\"My son did that for me, and I think that's very common for parents.\")."
    ]
   },
   {
@@ -1164,24 +1170,24 @@
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
     "### Hear the Guard First",
-    "Whichever protective part showed up, try talking to it in the same Nurturer voice you meant for your little one. At some point you can ask that part, \"What are you afraid would happen if you stepped back?\" Usually your little one only comes forward after that part feels heard. Peek-a-boo!",
-    "A harder voice can seem more fitting for something that's been in your way. I'd still keep it the same. If that voice isn't there in you yet, borrow it from someone who's been safe for you.",
-    "That part might say this will just be one more performance, and you'll fool yourself again. That one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part remembers. \"Tell me what you remember, I'm listening.\" works well here. It puts you into the role of the Nurturer, which alleviates the instinct to argue back. If you push past it, you might get exactly the performance it was afraid of. Even if you didn't win an Emmy last year, that can look convincing, with the right words and maybe even tears, while nothing underneath feels any safer.",
-    "That part doesn't have to move out. It's been living there way longer than the grown-up you. It can keep watch while you take one small step toward your little one, and I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it off if things got to be too much. It doesn't have to be all or nothing, either. Maybe it would settle for a lighter cover for now, like blinds tilted open a crack, and let you peek out for a minute (ST-CA, section 9.3.4). If it says no, I'd listen. When it lets you, keep an eye on that part too, for any change at all.",
-    "If it's been calling all this stupid, it might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, \"You don't have to hope yet, I'll keep coming back even when I mess up.\" Sometimes it doesn't say anything back for a while.",
+    "Whichever protective part showed up, try talking to it in the same Nurturer voice you meant for your little one. At some point you can ask that part, \"What are you afraid would happen if you stepped back?\"",
+    "It might say this will just be one more performance, and you'll fool yourself again. That one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part remembers. \"Tell me what you remember, I'm listening.\" works well here. It puts you into the role of the Nurturer, which alleviates the instinct to argue back. Usually your little one only comes forward after that part feels heard. Peek-a-boo! If you push past it, you might get exactly the performance it was afraid of. Even if you didn't win an Emmy last year, that can look convincing, with the right words and maybe even tears, while nothing underneath feels any safer.",
+    "A harder voice can seem more fitting for something that's been in your way. I'd still keep the Nurturer voice. If that voice isn't there in you yet, borrow it from someone who's been safe for you.",
     "A new roommate doesn't win you over with a speech on move-in day (hopefully, right?). The rent just has to keep showing up. Your Protector earns that guard's trust about the same way, mostly out in ordinary life. The things you do can be small, like keeping a promise to yourself nobody else knew about. Or saying no to someone, and not texting an hour later to take it back. That second one can be really hard.",
-    "Blaming yourself can be doing a job like that, too. \"It's all my fault\" might be your parent's line, word for word. Then again, if it's your fault, maybe you can fix it before they leave. I'd stop the cruelty either way. And I'd get curious about what makes it so hard to give up."
+    "That part doesn't have to move out. It's been living there way longer than the grown-up you. It can keep watch while you take one small step toward your little one. I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it all off if things got to be too much. It doesn't have to be all or nothing, either. Maybe it would settle for a lighter cover for now, like blinds tilted open a crack, and let you peek out for a minute (ST-CA, section 9.3.4). If it says no, I'd listen. When it lets you, keep an eye on that part too, for any change at all.",
+    "If it's been calling all this stupid, it might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, \"You don't have to hope yet, I'll keep coming back even when I mess up.\" Sometimes it doesn't say anything back for a while.",
+    "Blaming yourself can be doing a protective job, too. \"It's all my fault\" might be your parent's line, word for word. Then again, if it's your fault, maybe you can fix it before they leave. I'd stop the cruelty either way. And I'd get curious about what makes it so hard to give up."
    ],
    "order": [
     "Two Common Guarding Patterns",
     "Hear the Guard First",
     "Whichever protective part showed up",
+    "It might say this will just be one more performance",
     "A harder voice can seem more fitting",
-    "That part might say this will just be one more performance",
+    "A new roommate doesn't win you over",
     "That part doesn't have to move out.",
     "If it's been calling all this stupid",
-    "A new roommate doesn't win you over",
-    "Blaming yourself can be doing a job like that, too."
+    "Blaming yourself can be doing a protective job, too."
    ],
    "updated": "2026-10-22 turn 87: changed by his answers 77.1 A and 76.2 A (experiments/t87-answers/JOEL-20261022-1533.md)",
    "history": [
@@ -1189,7 +1195,8 @@
     "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): reshape_t109b.py, the second try after P3 read 99.8% AI alone: his reply \"Tell me what you remember, I'm listening.\" and its reason are back after \"and that part remembers\", which they answer, and P1 is the plain path without them.",
     "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): reshape_t109c.py, the third try after P1 without the reason read 28% AI: \"It puts you into the role of the Nurturer, which alleviates the instinct to argue back.\" follows the question in P1, and his reply line stays in P3.",
     "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): reshape_t109d.py, the fourth try: each of P1 and P3 had read Human alone only with his reason line in it, so P1 takes back the harder-voice case, as his own P1 had it, and P2 is the performance paragraph that read Human alone in the second try.",
-    "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): reshape_t109e.py, back to the second try's arrangement after four tries, my pick on the review page: his reply and its reason together in P3, the plain path short in P1."
+    "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): reshape_t109e.py, back to the second try's arrangement after four tries, my pick on the review page: his reply and its reason together in P3, the plain path short in P1.",
+    "Turn 111 (his answers of 2026-10-25 20:08 UTC, experiments/t111-answers/ANSWERS-20261025-2008.json): S1 approved: the agreed order (experiments/t110-review/AGREED.md, reshape_t110.py), seven paragraphs."
    ]
   },
   {
@@ -1199,10 +1206,13 @@
    "joel": "2026-10-04 03:58 UTC: \"i liked the proposal at the end yeah\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
-    "and I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it off if things got to be too much."
+    "It can keep watch while you take one small step toward your little one. I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it all off if things got to be too much."
    ],
    "must_not_contain": [
     "and I think that's what it wants to see anyway, whether there's a grown-up here now who could stop if things got to be too much."
+   ],
+   "history": [
+    "Turn 111 (his answers of 2026-10-25 20:08 UTC, experiments/t111-answers/ANSWERS-20261025-2008.json): S1 approved: the sentence is two (\"toward your little one. I think watching\"), with \"call it all off\" (the cold read), both admitted by the owner-delivery gate."
    ]
   },
   {
@@ -2450,7 +2460,13 @@
    "joel": "2026-10-17 14:01 UTC: \"this version passes\" (experiments/t67-answers/JOEL-20261017-1401.md).",
    "where": "Borrowed Adulthood in Relationship",
    "must_contain_exact": [
-    "Say they're the one who always remembers your appointments. Over time, reparenting can help you take in some of what they've been doing for you, and start doing it yourself, even that calendar bit. What you're after is care your little one can count on from more than one place, while the inner relationship stays precious and important. Other jobs can go to friends or community, outsource to the tools or pros, whatever works. You'll find the balance is dynamic between inner & outer reliance, and going too far in either extreme isn't generally the healthiest."
+    "Over time, reparenting can help you take in some of what they've been doing for you, and start doing it yourself, even that calendar bit. What you're after is care your little one can count on from more than one place, while the inner relationship stays precious and important. Other jobs can go to friends or community, outsource to the tools or pros, whatever works. You'll find the balance is dynamic between inner & outer reliance, and going too far in either extreme isn't generally the healthiest."
+   ],
+   "must_not_contain": [
+    "Say they're the one who always remembers your appointments."
+   ],
+   "history": [
+    "Turn 111 (his answers of 2026-10-25 20:08 UTC, experiments/t111-answers/ANSWERS-20261025-2008.json): his cut, with C10: \"i'm surprised you didn't notice the next sentence after this is redundant. cut \"Say they're the one who always remembers your appointments.\"\""
    ]
   },
   {
@@ -2740,8 +2756,13 @@
    "must_contain": [
     "## Close the Session and Return to Life",
     "That \"Present Time\" ending is worth stealing for every session",
-    "\"That's enough for today. We're going back to the life we're building.\"",
+    "\"That's enough for today. We're going back to the life we're building.\""
+   ],
+   "must_not_contain": [
     "Going back to your life is part of the healing, too."
+   ],
+   "history": [
+    "Turn 111 (his answers of 2026-10-25 20:08 UTC, experiments/t111-answers/ANSWERS-20261025-2008.json): C7 approved: \"Going back to your life is part of the healing, too.\" is cut; the section ends on \"whatever you're still feeling can come along.\""
    ]
   },
   {
@@ -3523,8 +3544,10 @@
     "I wouldn't trust a model more just because",
     "expalined",
     "Yes, yes, it might feel a bit strange",
-    "notice what your body does and what feelings or urges show up",
-    "It might say this will just be one more performance"
+    "notice what your body does and what feelings or urges show up"
+   ],
+   "history": [
+    "Turn 111 (his answers of 2026-10-25 20:08 UTC, experiments/t111-answers/ANSWERS-20261025-2008.json): S1 approved: \"It might say\", his word from before turn 109, is back, since the sentence follows his question again."
    ]
   },
   {
@@ -3535,6 +3558,37 @@
    "where": "How This Relates to IFS",
    "must_contain": [
     "as my friend Pink, who has been healing her Dissociative Identity Disorder, explained"
+   ]
+  },
+  {
+   "id": "joel-111-20261025",
+   "status": "applied",
+   "what": "His answers from the turn-110 review sheet: S1 approved; S3 in his version (\"this person\"); cuts C3 to C9, C11, C12 approved; C10 rejected with his added sentence and his cut of the next paragraph's first sentence; P2 and P5 approved; P6 in his version (his sentence for Just Like Me P2, the tonglen link kept) with his cut in P1; Q1 his sentence; Q2 and Q3 answered with their basis (\"people i know\"; \"People in Re-evaluation Counseling say this especially. it's also sort of common therapy advice\"), no text change. Installed by experiments/t111-installs/apply_t111.py.",
+   "joel": "2026-10-25 20:08 UTC (the sheet's export) and 20:14 UTC (experiments/t111-answers/JOEL-20261025-2014.md)",
+   "where": "Hear the Guard First; Before You Tell the Hardest Stuff; Ill Will and Loving-Kindness; Borrow Love; Love Doesn't Have to Wait; Catch the Hook; Close the Session; Untangling the Belonging Bargains; Let the Child Be Bad at Things; Borrowed Adulthood in Relationship; How to Forgive Without Forgetting; Missing Someone; Don't Give the Inner Adult Away; Remind Yourself; Just Like Me; If the Love Isn't Coming Yet",
+   "must_contain": [
+    "So I’d ask this person, before handing over any tricky specifics",
+    "Having someone like that while you're struggling can be an enormous blessing. If it's more distributed, with various people you can count on for small parts, that can be more sustainable, even if it doesn't feel as monumental.",
+    "This is sort of a gentler version of Tibetan Buddhism's [tonglen](https://www.lionsroar.com/how-to-practice-tonglen-meditation/) practice (which I learned from Pema Chödrön), where we imagine taking in the suffering of others, transmuting it in our heart, and sending out love and peace to them.",
+    "Once a truce is made, we can begin to let down our defenses.",
+    "I'd keep what you feel around them in mind, and look at their track record too.",
+    "My son did that for me, and I think that's very common for parents.",
+    "I'd still keep the Nurturer voice.",
+    "Blaming yourself can be doing a protective job, too."
+   ],
+   "must_not_contain": [
+    "So I’d ask them, before handing over",
+    "So it's worth noticing what it's doing to you.",
+    "The quest for self-knowledge is a life's journey",
+    "Sometimes human beings need to be being, not always doing.",
+    "Either way, that's pl/ork in its most literal form",
+    ", which is ordinary",
+    "(nobody gets a gold star for forgiving fastest)",
+    "(nobody's checking their inbox)",
+    "Some of them make it worse trying to get away from it.",
+    "I'd leave out forgiving them",
+    "What people most often say helped",
+    "I'd keep whatever you feel around them"
    ]
   }
  ]
