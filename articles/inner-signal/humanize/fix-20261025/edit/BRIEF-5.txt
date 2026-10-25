@@ -1,0 +1,44 @@
+You are a cold first-time reader of part 5 of 11 of Joel's long self-hypnosis guide, The Inner Signal: hypnosis as listening to the different parts of yourself, inner child reparenting, inductions, the return sequence, daily and weekly practice, troubleshooting and many appendices, for a general Substack audience (curious people trying it on themselves, not clinicians). Every sentence may be clear. Your job is the reader's edit: find where the article makes a reader work through more than they need at that moment, and propose the smallest structural change that fixes it.
+
+Ask of each section:
+1. How many decisions does one passage ask of the reader? A main path with its alternatives and troubleshooting mixed in makes a simple invitation feel like something to troubleshoot before starting. The main invitation can come first, with the alternative for one difficulty in a short labelled part beside it.
+2. Does a second subject start inside the section without a heading of its own? A subheading gives it its own space, and nothing has to be cut. A heading you propose names everything under it (on 2026-10-24 he turned down "One Grown-Up, Three Jobs" for a section that also covers a song and forced adulthood).
+3. What is each warning's job: does it change what the reader should do here, or does it explain why the instruction has qualifications? A safeguard that changes what the reader does stays next to its step; its reasons can move to a note. A compassionate permission ("you don't have to feel warmth today") belongs to the invitation and stays.
+4. Is a paragraph performing, with a joke, a metaphor or a memorable last line that only makes it sound casual, where it could be ordinary? His own humor and stories stay.
+5. What would an attentive reader still genuinely need here? A last reassurance or qualification that adds nothing new after the reader has understood can go; a repeat that deepens a scene stays.
+
+What he has decided so far:
+1. Borrow One Competency at a Time (91.1 B): the section offered one way to borrow, then a run of what to do if it doesn't work (absent warmth, imagined care that feels threatening, the guard, not judging, the thank-you that might not come), then the other two borrowings. Proposed: the opening and one borrowing for each job first (warmth, protecting, the Guide), then the troubleshooting under its own heading, "If the Love Isn't Coming Yet", in the order it had; the only new words were the heading and "For warmth,"
+   He chose: put it in, and also cut the near-repeat ("Most of us wouldn't open up to somebody who'd only just stopped being mean, or let them take care of us." said again what the paragraph before it ended on)
+2. Love Doesn't Have to Wait for Trust (91.2 A): the first half is about loving your little one before they trust you; the second is about blaming an earlier age of yourself. Proposed: a heading, "Instead of Blame", before "Your little one might not be the only one getting accused."
+   He chose: put the heading in
+3. Journal With Each Hand (91.3 A): a label, "When journaling makes things more tangled", for the fallback paragraph
+   He chose: no label: the fallback is one paragraph, and its first line already says what it's for ("And what if all that writing leaves you more confused than when you started?")
+4. Use Childhood Photographs Gently (91.4 A): move the study of false photos to a source note, since it gives the reason for the warning
+   He chose: leave it: it's three short sentences in his words, and the concrete case that makes the warning land
+5. A Peak State Can Be Useless Or Worse (Nibbāna) (N4.2 B): cut the two-sentence paragraph "As they say, “life is stranger than fiction.” It really does seem like a dream, to me anyway." as a stock phrase and a shrug between three strange examples and the section's point
+   He chose: leave it (its "It really does seem like a dream" starts the article's dream thread)
+6. Your fingers are already enlightened, but your hand is deluded. (Nibbāna) (N4.5 A): a heading, "Body-Limited and Body-Uncontained Nibbāna" (his own two terms), over the section's last two paragraphs, where the finger story ends and the definitions begin
+   He chose: put it in (my pick had been to leave it, because each paragraph's first line says what it's for, as in 91.3; a heading in a long article read by its table of contents isn't that label)
+7. Ignorance is the root (Nibbāna) (N4.8 A): a heading, "Why the Tangle Is Heavy", over one dense paragraph (SN 22.22, the aggregates as a burden) at the tail of a nine-paragraph section
+   He chose: put it in, though it heads a single paragraph
+8. Ignorance is the root (Nibbāna) (N4.9 A): cut his own parenthetical "(even an arahant feels the first dart)", which uses "the first dart" two sections before SN 36.6's two darts are explained; the point is made in both other places
+   He chose: cut it (my pick had been to keep it because it was his own words)
+9. Why nibbāna is “awakening” (Nibbāna) (N4.16 A): move the section's last paragraph, its answer ("For me, nibbāna was really like waking up from a dream, except that nobody woke up. ..."), up after the first paragraph, so the verse closes the section instead
+   He chose: move it (my pick had been to keep his line as the section's ending)
+
+What you may propose: moving paragraphs (in the order they had, unless the order is the problem), a heading or a label, cutting a repeat (quote both places), moving a warning's reasons (not the safeguard) to a note, cutting a last line that adds nothing (say what the reader already has). What you may not: new jokes, examples, metaphors or teaching; rewording his sentences, beyond a heading, a label or the few words a move needs; cutting a safeguard that changes what the reader does; a style you'd do differently.
+
+Work quickly: read the part once, noting candidates as you go, then pick the strongest and write them down. Don't rewrite the article in your head or weigh every paragraph; a short report that names the few changes that matter most is the job. (2026-10-23: three readers given a third of an article each spent their whole output deliberating and wrote nothing.)
+
+Read the file /home/claude/ja-community/articles/inner-signal/humanize/fix-20261025/edit/PART-5.txt (one Read call; it is part 5 of 11, headings marked "## "). Then write your report with one Write call to /home/claude/ja-community/articles/inner-signal/humanize/fix-20261025/edit/READER-5.md, in this shape, in the article's order, at most 4 proposals:
+
+## 1
+SECTION: the heading it's under, exactly as in the file
+QUOTE: the first sentence of the passage the change is about, copied exactly character for character from the file
+MOVE: one of MOVE, HEADING, LABEL, CUT-REPEAT, TO-NOTE, CUT-LAST-LINE
+CHANGE: exactly what changes: which paragraphs go where, the heading's or label's words, or the words cut
+WHY: in one line, what the reader has to work through now, and which question above it answers
+KEEPS: what stays as it is, and anything the change must not lose
+
+If nothing in your part needs it, write only "NOTHING". Then reply with only the number of proposals. Use no tools other than that one Read and that one Write, and don't use the web.

@@ -1269,9 +1269,40 @@ the Nibbāna and guide lanes' `fix-20261024/`).
 
 (The next lesson in either lane was E262 here; see the end of the next section.)
 
+## What the hypnosis guide's clarity check showed (2026-10-25)
+
+His message of 01:01 UTC, "finish the guide first", started the guide's four-part clarity check
+(`articles/inner-signal/humanize/fix-20261025/`: the four reads, `my_checks.py` with my check of every item, and the four
+pages; his questions 15 to 18).
+
+- **E262. Every reader's brief says to work quickly, and a dense part goes to two readers.** The reader of the guide's
+  first part (27,453 characters: the introduction, the quick start, the evidence, the map of the mind) ran out of its
+  64,000 output tokens deliberating and wrote nothing, as three community repeats readers had on 2026-10-23. The other
+  five parts, as long, finished. The reread brief had no "work quickly" line; it has one now, as the other three do, and
+  the part went to two readers in halves (`BRIEF-7.txt`, `BRIEF-8.txt`), which finished in about six and seven minutes. A
+  reader that fails this way gets its part split in two, not a second try at the same size.
+- **E263. When a cut is taken to pass Pangram, the words that point to what was cut go with it.** His 3 a of 2026-10-21
+  installed the NLP section's Human version, which had left out Pattern 4's two examples ("Too strong: ... Better: ...")
+  because every wording with them read AI. Its sentences "the problem with the first example is that it's too strong"
+  and "The second example is a lot better" stayed in, pointing at nothing, through two whole-guide rechecks; two readers
+  of this check flagged them. Before a version that drops something goes in, search it for the words that refer to the
+  dropped part (an example, "above", "below", a list's items, a term it defined) and offer them with the cut.
+- **The readers overlap.** Of the 295 items, 48 were the same words flagged twice (the repeats readers each read
+  the whole guide, so a repeat between two parts is found from both ends) or a cut already on another list. The page
+  tool now takes `"status": "dup"`: the item is listed once at the end with where it is offered, so he never answers the
+  same cut twice, and `numbers()` gives each offered item its page number for the cross-references.
+- **The guide's protocol lines are the InnerSignal rules.** Several lines the caveat readers would cut are the protocol's
+  own rules in his words: "This isn't a diagnosis" on the inner-speech question, "You don't have to decide that feelings
+  always come first", the stop rule's "that's another choice, made freely & while staying present" (distress isn't the
+  same as losing presence), "if it doesn't work for you don't use it" for the Higher Self frame, and "images ... can be
+  meaningful without being actual memories". For inner child or hypnosis writing, the caveat check reads each flag
+  against the protocol, loaded in the main thread, before picking.
+
+(The next lesson in either lane is E264.)
+
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 
-(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". E247 and E248, after them, are this lane's turn-102 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E247 to E249 above (their message of 2026-10-23 18:13 UTC); both sets keep their numbers, so cite these two as "E247 (Inner Child)" and "E248 (Inner Child)". E250 to E252, the last ones here, are this lane's turn-103 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E250 and E251 above (their message of 2026-10-23 20:35 UTC); both sets keep their numbers, so cite these three as "E250 (Inner Child)" to "E252 (Inner Child)". The hypnosis guide, Nibbāna and community lanes' own E252 to E255 above came after them (their messages of 2026-10-23 22:29 and 23:28 UTC). This lane's turn-104 lesson, written at the same time, is E253 (Inner Child), with the help-request rules near the top, and its turn-105 lesson, E256 (Inner Child), is beside it, with the turn-106 lessons E257 and E258 (Inner Child) after it and the turn-107 lesson E261 (Inner Child) after those. The Nibbāna and community lanes' E256 to E259 above came at the same time as E257 and E258 (their message of 2026-10-24 19:52 UTC), the community lane's E260 after them (23:40 UTC), and its E261 at the same time as this lane's (its message of 2026-10-25 00:27 UTC); both sets keep their numbers, so cite this lane's as "E261 (Inner Child)". The next lesson in either lane is E262.)
+(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". E247 and E248, after them, are this lane's turn-102 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E247 to E249 above (their message of 2026-10-23 18:13 UTC); both sets keep their numbers, so cite these two as "E247 (Inner Child)" and "E248 (Inner Child)". E250 to E252, the last ones here, are this lane's turn-103 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E250 and E251 above (their message of 2026-10-23 20:35 UTC); both sets keep their numbers, so cite these three as "E250 (Inner Child)" to "E252 (Inner Child)". The hypnosis guide, Nibbāna and community lanes' own E252 to E255 above came after them (their messages of 2026-10-23 22:29 and 23:28 UTC). This lane's turn-104 lesson, written at the same time, is E253 (Inner Child), with the help-request rules near the top, and its turn-105 lesson, E256 (Inner Child), is beside it, with the turn-106 lessons E257 and E258 (Inner Child) after it and the turn-107 lesson E261 (Inner Child) after those. The Nibbāna and community lanes' E256 to E259 above came at the same time as E257 and E258 (their message of 2026-10-24 19:52 UTC), the community lane's E260 after them (23:40 UTC), and its E261 at the same time as this lane's (its message of 2026-10-25 00:27 UTC); both sets keep their numbers, so cite this lane's as "E261 (Inner Child)". The hypnosis guide lane's E262 and E263 above came after them (its message of 2026-10-25 01:01 UTC). The next lesson in either lane is E264.)
 
 The checks: `articles/inner-child-therapy/experiments/t99-api/API-RESULTS-1.jsonl` (turn 99's nine) and `articles/inner-child-therapy/experiments/t100-api/API-CHECKS.md` (this turn's eight, each with its public Pangram page). Four rewrites read 100% Human alone and in their stretch; five of my eight calls were right, and two of the misses were pessimism about a rewrite.
 

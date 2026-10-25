@@ -111,13 +111,14 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-Nothing for the guide: no open questions (1 to 14 are answered).
+The guide: questions 15 to 18, its four-part clarity check (`OWNER-QUESTIONS.md`): the reread list, the reader's edit,
+the caveats and the repeats, each a page with my pick on every item. Nothing in the guide has changed for them yet.
 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
 
-Pull requests 236 and 237 were merged on 2026-10-24 and 25; this lane has nothing waiting to merge. The community lane's
-newest pull request is in its own handoff.
+Pull request 240 (this turn's: the four lists and my check) waits for his merge; 236 to 238 were merged on 2026-10-24
+and 25. The community lane's own state is in its handoff.
 
 ## Where it stands
 
@@ -181,7 +182,60 @@ From `fix-20261018/` unless a command says `humanize/`:
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
-## Next step (2026-10-24, after Joel's message of 23:40 UTC: N7 in; Nibbāna's helper is with him)
+## His queue (2026-10-25, his question of 00:49 UTC: "ok, what's next in the queue to hum,anize now?")
+
+The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulate-20260929/ARTICLES.md`), as it stands:
+1. The community article: reads 100% Human as one text (2026-10-25); the copy helper is with him.
+2. This guide: reads Human outside the one audit he kept; the four-part clarity read is its last step before his paste.
+3. **Next new article: neuro de-armoring**, "Bottom-up Healing for Trauma & Addiction: Neurological De-Armoring +
+   Brainstem Relaxation v5.1 (Sept 10, 2026)", https://ibogaqueen.substack.com/p/trauma-and-addiction-why-neurological
+   (5,827 words; 37,121 characters as the check reads it, so one free whole-article check). The queue's rule: every
+   compound, dose, unit, timing and warning comes out exactly as it went in. On 2026-10-25 the live post's text was the
+   same as the 2026-09-28 copy (`inputs/articles/raw/neuro-de-armoring.html`, his editor HTML; the rendered walk of the
+   post hashed to that copy's checked text, 7fdfe227..., 172 lines), so that copy can start the work. Not registered
+   in `articles/INDEX.json` yet.
+4. Hearthwork: optional, and he says it needs updating first.
+Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
+"finish the guide first"); neuro de-armoring starts after it.
+
+## Next step (2026-10-25, after Joel's message of 01:01 UTC: the clarity check's questions 15 to 18 are on him)
+
+His message, word for word: `fix-20261025/joel-20261025-0101-message.txt`: "finish the guide first" (his 00:49 question,
+"ok, what's next in the queue to hum,anize now?", is beside it). The InnerSignal protocol was loaded in the main thread
+first: version 0.2.1, protocol_sha256 1da3ddf06a27aa8409fe953f21e8d9053d943bf383c04d5c561e2e93bb067a27 (its reference
+files read: protective compatibility, phenomenology, reparenting and protocol-state provenance, role and belief, focus,
+guide referrals; nothing reviewed is his inner child journal, so no case tools were used).
+
+Done (in pull request 240, https://github.com/u-dont-existDOTcom/joel-articles/pull/240):
+- **The four reads** in `fix-20261025/` (`clarity/`, `edit/`, `caveats/`, `repeats/`), made from `HUMANIZED-SO-FAR.md`
+  (acbbb759) with `tools/humanization/clarity_read.py`: 6, 11, 8 and 10 parts, each to a fresh Sonnet reader. Part 1's
+  reread reader ran out of output; its halves went to two more (`BRIEF-7.txt`, `BRIEF-8.txt`; lesson E262).
+- **My check of all 295 items**: `fix-20261025/my_checks.py` holds every item's status, pick and note, and writes them into
+  each `ITEMS.json` with the cross-page numbers resolved. Checked against the whole guide, his published guide of
+  2026-09-28 (`source/published-20260928.md`), his answers (3 a of 2026-10-21; community 64 and 65; E257, E260) and the
+  protocol's rules. 48 items were duplicates (`"status": "dup"`, a new status in the page tool).
+- **The pages**: `clarity/CLARITY.md` (64 passages: 7 hard, 57 to reread; 15 small snags; 17 plainer versions mine, 5
+  marked Check), `edit/READERS-EDIT.md` (33: A on 30, B on 3), `caveats/CAVEATS.md` (68: cut 32, keep 36),
+  `repeats/REPEATS.md` (64: cut 18, keep 46). Questions 15 to 18 link them.
+- **Found on the way**: Pattern 4's "the first example" and "the second example" point at examples his 3 a of 2026-10-21
+  left out (16.24 cuts the two sentences; lesson E263).
+- **Tool and docs**: the reread brief says to work quickly; `dup_section()` and `numbers()` in the page tool, with two
+  tests; `docs/CLARITY-READ.md` (the four parts' shared rules) and the gate (E262, E263, the overlap, the protocol lines).
+- Delegations (model, piece, check, outcome): 37 Sonnet readers, one per brief; checked by my reading of every item
+  against the whole guide (all 295 found word for word in the reading text); 36 reported, one ran out of output and its
+  part was split.
+
+Next:
+1. When he answers 15 to 18: apply his picks to a working copy of `HUMANIZED-SO-FAR.md` with a script (each cut and
+   move recorded, the After as the page shows it; a heading at the level of its section's subheads), check every changed
+   paragraph in Pangram where it sits (the API on the laptop, or a Substack draft), and send any that read AI back to him
+   with its result. Then one whole-guide recheck (the two TEMP drafts), the copy helper (`docs/SUBSTACK-HELPER-DELIVERY-GATE.md`)
+   and his paste.
+2. For 15 a: a fresh reader checks each plainer version's meaning before it goes in; the five "Check" items wait for his
+   words.
+3. Then neuro de-armoring (queue #3, above).
+
+## Earlier next step (2026-10-24, after Joel's message of 23:40 UTC: N7 in; Nibbāna's helper is with him)
 
 His message, word for word: `fix-20261024/joel-20261024-2340-message.txt` (also in Nibbāna's `fix-20261024/` and the
 community article's `candidate/joel-20261024/`): "n7a", and the community article's 65. Done (in pull request 237):

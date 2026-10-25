@@ -207,8 +207,9 @@ State at the end of the turn of Joel's message of 2026-10-16 23:38 UTC:
 
 ## Waiting on Joel
 1. His paste of the new version with the clipboard helper (sent 2026-10-25). No open questions.
-2. Pull request 238 (https://github.com/u-dont-existDOTcom/joel-articles/pull/238), this turn's work, on the hypnosis
-   lane's branch `claude/community-joel-1018`; his to merge. (Pull request 237 was merged on 2026-10-25.)
+2. Nothing of this lane's to merge: pull request 238, the 00:27 turn's work, was merged on 2026-10-25. His messages of
+   00:49 and 01:01 UTC were about his queue (the hypnosis guide's clarity check goes first); no community work came from
+   them, and this lane's state is unchanged (that turn's pull request, 240, is the hypnosis guide's, and carries this note).
 
 ## Next step
 1. When he has pasted: read his post against the checked text, then delete the temporary draft (see START HERE, "Next").
