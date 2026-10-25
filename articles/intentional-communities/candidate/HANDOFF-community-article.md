@@ -207,7 +207,7 @@ State at the end of the turn of Joel's message of 2026-10-16 23:38 UTC:
 
 ## Waiting on Joel
 1. His paste of the new version with the clipboard helper (sent 2026-10-25). No open questions.
-2. Pull request PRNUM (https://github.com/u-dont-existDOTcom/joel-articles/pull/PRNUM), this turn's work, on the hypnosis
+2. Pull request 238 (https://github.com/u-dont-existDOTcom/joel-articles/pull/238), this turn's work, on the hypnosis
    lane's branch `claude/community-joel-1018`; his to merge. (Pull request 237 was merged on 2026-10-25.)
 
 ## Next step

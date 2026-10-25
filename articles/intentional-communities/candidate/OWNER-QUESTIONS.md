@@ -18,7 +18,7 @@ None right now.
   3. It's one part: no videos to put back by hand. Your three video-post embeds come in as links, and Substack turns them back into embeds by itself.
   - What I checked: its text is exactly the text Pangram read as 100% Human, and its HTML is exactly what I pasted into the temporary draft, which came out right ([the receipt](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/exports/HELPER-RECEIPT-20261025.json)). I haven't tested the Copy button in Opera on your computer.
 - 🟢 Done: [the whole-article check](https://www.pangram.com/feed/954042b6-e624-4c7f-87d7-db15c547d5c8) (your result of 00:27 UTC): Human Written, 0 of 72 windows AI, document confidence High. My part forecast called all 130 of its parts right; my call for the whole was too gloomy, a 7% chance of no red ([scored](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/recheck-r1/SCORE.md)).
-- 🟠 Merge [pull request PRNUM](https://github.com/u-dont-existDOTcom/joel-articles/pull/PRNUM) when you've looked.
+- 🟠 Merge [pull request 238](https://github.com/u-dont-existDOTcom/joel-articles/pull/238) when you've looked.
 
 ## Decided
 
