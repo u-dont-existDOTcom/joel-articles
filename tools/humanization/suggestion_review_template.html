@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>__TITLE__</title>
+<style>
+:root{
+  --bg:#f6f4ef;--paper:#fffdfa;--ink:#1e2227;--muted:#5d646d;--line:#dcd5c8;--soft:#efebe3;--head:#fffdfaee;
+  --link:#0b5cad;--focus:#2458a6;
+  --t-reread:#1d4ed8;--t-reread-bg:#dbe7fe;
+  --t-structure:#6d28d9;--t-structure-bg:#ece6fd;
+  --t-caveat:#c2410c;--t-caveat-bg:#ffe8d5;
+  --t-repeat:#a16207;--t-repeat-bg:#fdf0c4;
+  --t-innerchild:#15803d;--t-innerchild-bg:#d9f5e2;
+  --t-typo:#be123c;--t-typo-bg:#ffe1e7;
+  --ok:#15803d;--ok-bg:#dcf5e3;--no:#475569;--no-bg:#e3e8ef;--rev:#6d28d9;--rev-bg:#ece6fd;--pend:#b42318;--pend-bg:#fde4e1;
+  --del-bg:#fbd9d5;--del-ink:#7a1d12;--ins-bg:#d4f2dc;--ins-ink:#0f4d24;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141619;--paper:#1c1f23;--ink:#e7e4de;--muted:#a2a8b1;--line:#363a42;--soft:#24282d;--head:#1c1f23ee;
+  --link:#7fb2ff;--focus:#8ab4ff;
+  --t-reread:#7aa7ff;--t-reread-bg:#1e3157;
+  --t-structure:#b79cff;--t-structure-bg:#33295a;
+  --t-caveat:#ffa66b;--t-caveat-bg:#4d2c17;
+  --t-repeat:#f0c45a;--t-repeat-bg:#45391a;
+  --t-innerchild:#6fdc95;--t-innerchild-bg:#173d27;
+  --t-typo:#ff8aa3;--t-typo-bg:#4f1d2a;
+  --ok:#6fdc95;--ok-bg:#173d27;--no:#b6c0cf;--no-bg:#2c333d;--rev:#b79cff;--rev-bg:#33295a;--pend:#ff8f84;--pend-bg:#4a1f1c;
+  --del-bg:#4f2421;--del-ink:#ffc9c2;--ins-bg:#173d27;--ins-ink:#c4f5d3;
+}}
+:root[data-theme="dark"]{
+  --bg:#141619;--paper:#1c1f23;--ink:#e7e4de;--muted:#a2a8b1;--line:#363a42;--soft:#24282d;--head:#1c1f23ee;
+  --link:#7fb2ff;--focus:#8ab4ff;
+  --t-reread:#7aa7ff;--t-reread-bg:#1e3157;
+  --t-structure:#b79cff;--t-structure-bg:#33295a;
+  --t-caveat:#ffa66b;--t-caveat-bg:#4d2c17;
+  --t-repeat:#f0c45a;--t-repeat-bg:#45391a;
+  --t-innerchild:#6fdc95;--t-innerchild-bg:#173d27;
+  --t-typo:#ff8aa3;--t-typo-bg:#4f1d2a;
+  --ok:#6fdc95;--ok-bg:#173d27;--no:#b6c0cf;--no-bg:#2c333d;--rev:#b79cff;--rev-bg:#33295a;--pend:#ff8f84;--pend-bg:#4a1f1c;
+  --del-bg:#4f2421;--del-ink:#ffc9c2;--ins-bg:#173d27;--ins-ink:#c4f5d3;
+}
+*{box-sizing:border-box}
+html{scroll-padding-top:120px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+button{font:inherit;color:inherit;cursor:pointer}
+.t-reread{--c:var(--t-reread);--cb:var(--t-reread-bg)}
+.t-structure{--c:var(--t-structure);--cb:var(--t-structure-bg)}
+.t-caveat{--c:var(--t-caveat);--cb:var(--t-caveat-bg)}
+.t-repeat{--c:var(--t-repeat);--cb:var(--t-repeat-bg)}
+.t-innerchild{--c:var(--t-innerchild);--cb:var(--t-innerchild-bg)}
+.t-typo{--c:var(--t-typo);--cb:var(--t-typo-bg)}
+.gut{padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}
+header.top{position:sticky;top:0;z-index:20;background:var(--head);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{max-width:78rem;margin:0 auto;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;padding-top:8px;padding-bottom:8px}
+.bar .name{font-weight:750;font-size:.98rem;margin-right:auto}
+.prog{font-size:.84rem;color:var(--muted)}
+.prog b{color:var(--ink)}
+.meter{height:4px;background:var(--soft);border-radius:4px;overflow:hidden;flex-basis:100%}
+.meter i{display:block;height:100%;width:0;background:var(--ok);transition:width .2s}
+.btn{border:1px solid var(--line);background:var(--paper);border-radius:8px;padding:6px 11px;min-height:36px;font-size:.88rem}
+.btn:hover{border-color:var(--muted)}
+.btn.main{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.tools{max-width:78rem;margin:0 auto;padding-top:4px;padding-bottom:10px;display:grid;gap:10px}
+.tools[hidden]{display:none}
+.tools .grp{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.tools .grp>.lab{font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-right:4px}
+.chip{border:1px solid var(--c,var(--line));background:var(--cb,var(--paper));color:var(--ink);border-radius:999px;padding:3px 10px;font-size:.8rem;min-height:30px}
+.chip[aria-pressed="false"]{background:transparent;opacity:.55;text-decoration:line-through}
+.chip .n{font-weight:700}
+.tools select,.tools input[type=search]{border:1px solid var(--line);border-radius:8px;padding:6px 8px;min-height:36px;max-width:100%}
+.tools input[type=search]{width:16rem}
+.check{display:flex;gap:6px;align-items:center;font-size:.88rem}
+.panel{max-width:78rem;margin:0 auto;padding-top:10px;padding-bottom:14px;border-top:1px dashed var(--line)}
+.panel[hidden]{display:none}
+.panel .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0}
+.panel textarea{width:100%;min-height:7rem;border:1px solid var(--line);border-radius:8px;padding:8px;font:13px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace}
+.status{font-size:.86rem;color:var(--muted);min-height:1.2em}
+.intro{max-width:46rem;margin:18px auto 6px;font-size:.95rem}
+.intro .box{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:12px 16px}
+.intro p{margin:.5em 0}
+.intro .src{font-size:.82rem;color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 2px}
+.store-note{font-size:.82rem;color:var(--muted)}
+main.article{max-width:46rem;margin:0 auto 40vh;font:1.06rem/1.7 Georgia,"Iowan Old Style","Palatino Linotype",serif}
+main.article h2,main.article h3,main.article h4,main.article h5,main.article h6{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.25;margin:2.1em 0 .5em}
+main.article h2{font-size:1.45rem}main.article h3{font-size:1.2rem}main.article h4{font-size:1.06rem}main.article h5{font-size:.98rem}main.article h6{font-size:.92rem}
+main.article p,main.article blockquote,.blk.li{margin:.85em 0}
+main.article blockquote{border-left:3px solid var(--line);padding-left:1rem;color:var(--muted)}
+.blk.li{display:flex;gap:.55em;padding-left:.4em}
+.blk.li .mk{flex:0 0 auto;font-weight:700}
+.pn{font:600 .66em system-ui,sans-serif;color:var(--muted);margin-right:.45em;vertical-align:.12em}
+.blk.li .pn{order:-1}
+.native-blk{font:600 .85rem system-ui,sans-serif;color:var(--muted);background:var(--soft);border:1px dashed var(--line);border-radius:8px;padding:8px 12px;margin:1em 0}
+mark.hl{background:var(--cb);color:inherit;border-bottom:2px solid var(--c);border-radius:2px;padding:0 .04em;cursor:pointer;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+mark.hl.multi{background-image:repeating-linear-gradient(135deg,transparent 0 6px,rgba(127,127,127,.18) 6px 8px)}
+mark.hl.leave{background:transparent;border-bottom:2px dotted var(--muted)}
+mark.hl.done{background:transparent;border-bottom-style:solid;opacity:.8}
+body:not(.show-leave) mark.hl.leave{border-bottom:none;cursor:text}
+.moving{border-left:4px solid var(--c);padding-left:10px;margin:.6em 0}
+.moving.leave{border-left-color:var(--line)}
+.moving-k{font:700 .72rem system-ui,sans-serif;color:var(--c);text-transform:uppercase;letter-spacing:.05em}
+.marker{font:600 .9rem system-ui,sans-serif;border:2px dashed var(--c);background:var(--cb);border-radius:8px;padding:6px 10px;margin:1.1em 0 .4em}
+.marker.leave{border-color:var(--line);background:transparent;color:var(--muted)}
+.marker .mk-k{font-size:.74rem;text-transform:uppercase;letter-spacing:.04em;color:var(--c)}
+.marker .mk-h{font-size:1rem}
+body:not(.show-leave) .marker.leave,body:not(.show-leave) .card.leave{display:none}
+body:not(.show-leave) .moving.leave{border-left:none;padding-left:0}
+body:not(.show-leave) .moving.leave .moving-k{display:none}
+.card{font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:10px;padding:10px 12px;margin:.5em 0 1.5em}
+.card.leave{border-left-color:var(--line);background:var(--soft)}
+.card[hidden]{display:none}
+.card.flash{animation:flash 1.4s ease}
+@keyframes flash{0%,100%{box-shadow:none}25%{box-shadow:0 0 0 4px var(--c)}}
+.card-top{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center}
+.cid{font:600 .78rem ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--muted)}
+.ctitle{font-weight:700;margin-right:auto}
+.pill{font-size:.78rem;font-weight:700;border-radius:999px;padding:2px 9px;background:var(--pend-bg);color:var(--pend);border:1px solid var(--pend)}
+.card[data-status="approved"] .pill{background:var(--ok-bg);color:var(--ok);border-color:var(--ok)}
+.card[data-status="rejected"] .pill{background:var(--no-bg);color:var(--no);border-color:var(--no)}
+.card[data-status="revise"] .pill{background:var(--rev-bg);color:var(--rev);border-color:var(--rev)}
+.card.leave[data-status="pending"] .pill{background:transparent;color:var(--muted);border-color:var(--line)}
+.card[data-status="approved"]{border-color:var(--ok);border-left-color:var(--c)}
+.card[data-status="revise"]{border-color:var(--rev);border-left-color:var(--c)}
+.link-btn{border:none;background:none;color:var(--link);padding:2px 4px;font-size:.84rem;text-decoration:underline;min-height:28px}
+.changes{margin:8px 0 6px}
+.chg{margin:6px 0}
+.chg-k{font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:4px 0 2px}
+.dif,.mv-src{font:1rem/1.62 Georgia,"Iowan Old Style","Palatino Linotype",serif;background:var(--soft);border-radius:8px;padding:8px 11px;white-space:pre-wrap;overflow-wrap:anywhere}
+.ctx{font:.95rem/1.5 Georgia,serif;color:var(--muted);padding:2px 11px}
+.mv-arrow{font-weight:700;color:var(--c);padding:0 11px}
+.ins-h{font:700 1.05rem system-ui,sans-serif;margin:4px 0;padding:6px 11px;background:var(--soft);border-radius:8px}
+del{background:var(--del-bg);color:var(--del-ink);text-decoration:line-through;text-decoration-thickness:1.5px}
+ins{background:var(--ins-bg);color:var(--ins-ink);text-decoration:none;border-bottom:1px solid currentColor}
+ins.br{font:700 .78rem system-ui,sans-serif;padding:0 4px;border-radius:4px}
+.also .link-btn{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.8rem}
+.info .row{margin:3px 0}
+.info .lab,.yours-wrap .lab,.note-wrap .lab{font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-right:4px}
+.info .warn span:last-child{color:var(--pend)}
+.decide{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 6px}
+.dec{border:1.5px solid var(--line);background:var(--paper);border-radius:8px;padding:6px 11px;min-height:38px;font-size:.88rem;font-weight:600}
+.dec.approve{border-color:var(--ok);color:var(--ok)}
+.dec.reject{border-color:var(--no);color:var(--no)}
+.dec.revise{border-color:var(--rev);color:var(--rev)}
+.dec.undo{border-color:var(--pend);color:var(--pend)}
+.card[data-status="approved"] .dec.approve{background:var(--ok);color:var(--paper)}
+.card[data-status="rejected"] .dec.reject{background:var(--no);color:var(--paper)}
+.card[data-status="revise"] .dec.revise{background:var(--rev);color:var(--paper)}
+.card[data-status="pending"] .dec.undo{background:var(--pend-bg)}
+.yours-wrap,.note-wrap{display:block;margin:6px 0}
+.yours-wrap[hidden]{display:none}
+.card textarea{display:block;width:100%;border:1px solid var(--line);border-radius:8px;padding:7px 9px;font:15px/1.45 system-ui,sans-serif;resize:vertical;margin-top:3px}
+.card textarea.yours{font:1rem/1.55 Georgia,serif;min-height:6.5rem}
+.saved-line{font-size:.78rem;color:var(--muted);min-height:1.1em}
+body.reading .card{display:none}
+.endnote{max-width:46rem;margin:0 auto;font-size:.9rem;color:var(--muted)}
+@media (max-width:640px){
+  .bar .name{display:none}
+  .bar{gap:5px 6px;padding-top:6px;padding-bottom:6px}
+  .prog{flex-basis:100%;font-size:.8rem}
+  .bar .btn{padding:4px 9px;min-height:34px;font-size:.82rem}
+  .tools input[type=search]{width:100%}
+  main.article{font-size:1.02rem}
+  .card{padding:9px 10px}
+  .dec{flex:1 1 auto}
+}
+@media print{header.top,.card .decide,.card textarea{display:none}}
+/*__FORM_CSS__*/
+</style>
+</head>
+<body class="">
+<header class="top">
+  <div class="bar gut">
+    <span class="name">__TITLE__</span>
+    <span class="prog" id="prog" aria-live="polite"></span>
+    <button type="button" class="btn" id="prevBtn" title="The undecided suggestion before this point">↑ Previous</button>
+    <button type="button" class="btn main" id="nextBtn" title="The next suggestion you haven't decided">Next undecided ↓</button>
+    <button type="button" class="btn" id="toolsBtn" aria-expanded="false" aria-controls="tools">Filters</button>
+    <button type="button" class="btn" id="saveBtn" aria-expanded="false" aria-controls="savePanel">Save / send</button>
+    <div class="meter" aria-hidden="true"><i id="meter"></i></div>
+  </div>
+  <div class="tools gut" id="tools" hidden>
+    <div class="grp"><span class="lab">Show</span>__LEGEND__</div>
+    <div class="grp"><span class="lab">Status</span>
+      <select id="statusFilter" aria-label="Show suggestions by status">
+        <option value="all">All</option><option value="pending">Not decided yet</option><option value="approved">Approved</option>
+        <option value="rejected">Rejected</option><option value="revise">Revise</option><option value="noted">With a comment</option>
+      </select>
+      <label class="check"><input type="checkbox" id="showLeave"> The ones a reader flagged and I'd leave (<span id="leaveCount"></span>)</label>
+    </div>
+    <div class="grp"><span class="lab">Find</span><input type="search" id="search" placeholder="Words in a suggestion or its paragraph" aria-label="Search">
+      <select id="sectionJump" aria-label="Go to a section"><option value="">Go to a section…</option></select>
+      <label class="check"><input type="checkbox" id="readingMode"> Read the guide without the cards</label>
+    </div>
+  </div>
+  <div class="panel gut" id="savePanel" hidden>
+    <div class="store-note" id="storeNote">Your answers save in this browser as you click.</div>
+    <div class="row"><button type="button" class="btn main" id="copyJson">Copy my answers (JSON)</button><button type="button" class="btn" id="saveJson">Save them as a file</button></div>
+    <div class="row"><label class="btn" for="importFile">Load answers from a file</label><input type="file" id="importFile" accept=".json,application/json" hidden>
+      <button type="button" class="btn" id="pasteToggle">Paste answers instead</button></div>
+    <div id="pasteBox" hidden><textarea id="pasteArea" placeholder="Paste a JSON answers file here"></textarea><div class="row"><button type="button" class="btn" id="pasteLoad">Load the pasted answers</button></div></div>
+    <textarea id="copyArea" hidden readonly aria-label="Your answers as JSON"></textarea>
+    <div class="status" id="saveStatus" aria-live="polite"></div>
+  </div>
+</header>
+<div class="intro gut"><div class="box">
+__INTRO__
+<div class="legend" aria-hidden="true">__LEGEND__</div>
+<p class="src">__SRC__</p>
+</div></div>
+<main class="article gut" id="article">
+__MAIN__
+</main>
+<p class="endnote gut">The end of the guide. When you're done, tell me in the chat; your answers are already saved here, and "Save / send" gives you a copy to paste or keep.</p>
+<script id="review-data" type="application/json">__DATA__</script>
+<script>
+(() => {
+  'use strict';
+  const DATA = JSON.parse(document.getElementById('review-data').textContent);
+  const SUG = {};
+  DATA.suggestions.forEach(s => { SUG[s.id] = s; });
+  const ORDER = DATA.suggestions.map(s => s.id);
+  const STATUSES = ['pending', 'approved', 'rejected', 'revise'];
+  const STORE_KEY = 'joel-suggestion-review-v1:' + DATA.review_id + ':' + DATA.article.sha256.slice(0, 12);
+  const $ = (q, r) => (r || document).querySelector(q);
+  const $$ = (q, r) => Array.from((r || document).querySelectorAll(q));
+  const now = () => new Date().toISOString();
+  const cards = {};
+  $$('.card[data-id]').forEach(c => { cards[c.dataset.id] = c; });
+  const marksById = {};
+  $$('mark.hl[data-s]').forEach(m => m.dataset.s.split(' ').forEach(id => { (marksById[id] = marksById[id] || []).push(m); }));
+
+  // ---------------------------------------------------------------- state
+  let state = {};
+  function blank() { return { status: 'pending', comment: '', text: '', history: [], updated: '' }; }
+  function clean(x) {
+    const st = blank();
+    if (!x || typeof x !== 'object') return st;
+    st.status = STATUSES.includes(x.status) ? x.status : 'pending';
+    st.comment = typeof x.comment === 'string' ? x.comment : '';
+    st.text = typeof x.text === 'string' ? x.text : '';
+    st.history = Array.isArray(x.history) ? x.history.filter(h => h && typeof h === 'object').slice(-50) : [];
+    st.updated = typeof x.updated === 'string' ? x.updated : '';
+    return st;
+  }
+  function initial(id) {
+    const st = blank();
+    const d = SUG[id] && SUG[id].decided;
+    if (d) {
+      st.status = STATUSES.includes(d.status) ? d.status : 'pending';
+      st.text = d.text || '';
+      st.comment = d.comment || '';
+      st.history = [{ from: 'pending', to: st.status, at: d.at || '', by: d.by || '' }];
+    }
+    return st;
+  }
+  function get(id) { if (!state[id]) state[id] = initial(id); return state[id]; }
+  try {
+    const raw = localStorage.getItem(STORE_KEY);
+    if (raw) {
+      const o = JSON.parse(raw);
+      if (o && o.items) Object.keys(o.items).forEach(id => { if (SUG[id]) state[id] = clean(o.items[id]); });
+    }
+  } catch (e) { /* storage blocked: the page still works, answers live in memory */ }
+  let localOk = true;
+  function persistLocal() {
+    try { localStorage.setItem(STORE_KEY, JSON.stringify({ saved: now(), items: state })); localOk = true; }
+    catch (e) { localOk = false; }
+  }
+
+  // ---------------------------------------------------------------- the store (db), when this view has one
+  let db = null, storeState = 'none';
+  const dirty = {}, busy = {}, timers = {}, retried = {};
+  function setStoreNote() {
+    const el = $('#storeNote');
+    if (storeState === 'db') el.textContent = 'Your answers save as you click, to this page (on every device you open it from with this account) and in this browser. Tell me in the chat when you\'re done and I\'ll read them from here; "Copy my answers" gives you a copy to paste anywhere.';
+    else el.textContent = localOk ? 'Your answers save in this browser as you click. To move them to another browser or account, or to send them to me, use "Copy my answers" or "Save them as a file".' : 'This browser won\'t keep answers for this page, so copy or save them before you close it.';
+  }
+  function queueWrite(id, delay) {
+    if (!db) return;
+    dirty[id] = true;
+    clearTimeout(timers[id]);
+    timers[id] = setTimeout(() => flush(id), delay || 0);
+  }
+  async function flush(id) {
+    if (!db || busy[id] || !dirty[id]) return;
+    busy[id] = true;
+    try {
+      while (dirty[id] && db) {
+        dirty[id] = false;
+        const body = JSON.parse(JSON.stringify(get(id)));
+        await db.doc('decisions/' + id).set(body);
+      }
+      savedLine(id, 'Saved');
+    } catch (e) {
+      const code = e && e.code;
+      if (code === 'unavailable' && !retried[id]) {
+        retried[id] = true; dirty[id] = true;
+        setTimeout(() => { busy[id] = false; flush(id); }, 1200 + Math.random() * 1500);
+        return;
+      }
+      if (code === 'resource_exhausted') { dirty[id] = true; setTimeout(() => { busy[id] = false; flush(id); }, 4000); return; }
+      db = null; storeState = 'none'; setStoreNote();
+      savedLine(id, 'Saved in this browser only');
+    } finally { if (busy[id] === true) busy[id] = false; }
+  }
+  function mergeRemote(id, raw) {
+    const remote = clean(raw);
+    const local = get(id);
+    if ((remote.updated || '') > (local.updated || '')) {
+      state[id] = remote; persistLocal(); renderCard(id, true);
+    } else if ((local.updated || '') > (remote.updated || '')) {
+      queueWrite(id, 0);
+    }
+  }
+  async function initDb() {
+    let api = null;
+    try { if (window.claude && typeof window.claude.use === 'function') api = await window.claude.use('db'); } catch (e) { api = null; }
+    if (!api) { setStoreNote(); return; }
+    db = api; storeState = 'db'; setStoreNote();
+    let first = true;
+    try {
+      db.collection('decisions').onSnapshot(snap => {
+        const seen = new Set();
+        snap.docs.forEach(d => { seen.add(d.id); if (SUG[d.id]) mergeRemote(d.id, d.data()); });
+        if (first) {
+          first = false;
+          Object.keys(state).forEach(id => { if (!seen.has(id) && state[id].updated) queueWrite(id, 0); });
+        }
+        progress();
+      }, () => { db = null; storeState = 'none'; setStoreNote(); });
+    } catch (e) { db = null; storeState = 'none'; setStoreNote(); }
+  }
+
+  // ---------------------------------------------------------------- downloads, when this view has them
+  let dl = null;
+  (async () => { try { if (window.claude && typeof window.claude.use === 'function') dl = await window.claude.use('downloads'); } catch (e) { dl = null; } })();
+
+  // ---------------------------------------------------------------- rendering
+  const PILL = { pending: 'Not approved yet', approved: 'Approved', rejected: 'Rejected: keep as is', revise: 'Revise' };
+  function savedLine(id, msg) { const c = cards[id]; if (c) { const el = $('.saved-line', c); if (el) el.textContent = msg; } }
+  function renderCard(id, fromRemote) {
+    const c = cards[id]; if (!c) return;
+    const st = get(id);
+    c.dataset.status = st.status;
+    $('.pill', c).textContent = (c.dataset.advice === 'leave' && st.status === 'pending') ? 'I\'d leave it' : PILL[st.status];
+    $$('.dec', c).forEach(b => b.setAttribute('aria-pressed', String(b.dataset.dec === st.status)));
+    const yw = $('.yours-wrap', c), yt = $('.yours', c), nt = $('.note', c);
+    yw.hidden = !(st.status === 'revise' || st.text);
+    if (!(fromRemote && document.activeElement === yt)) yt.value = st.text || '';
+    if (!(fromRemote && document.activeElement === nt)) nt.value = st.comment || '';
+    const done = st.status !== 'pending';
+    (marksById[id] || []).forEach(m => {
+      const all = m.dataset.s.split(' ').every(x => get(x).status !== 'pending');
+      m.classList.toggle('done', all);
+    });
+    c.classList.toggle('decided', done);
+  }
+  function renderAll() { ORDER.forEach(id => renderCard(id)); progress(); }
+  function progress() {
+    let n = 0, dec = 0, ap = 0, rj = 0, rv = 0, quiet = 0, quietSeen = 0;
+    ORDER.forEach(id => {
+      const st = get(id);
+      if (SUG[id].advice === 'leave') { quiet++; if (st.status !== 'pending' || st.comment) quietSeen++; return; }
+      n++;
+      if (st.status !== 'pending') dec++;
+      if (st.status === 'approved') ap++; else if (st.status === 'rejected') rj++; else if (st.status === 'revise') rv++;
+    });
+    $('#prog').innerHTML = '<b>' + dec + '</b> of ' + n + ' decided · ' + ap + ' approved · ' + rj + ' rejected · ' + rv + ' to revise';
+    $('#meter').style.width = (n ? Math.round(100 * dec / n) : 0) + '%';
+    $('#leaveCount').textContent = quiet + (quietSeen ? ', ' + quietSeen + ' looked at' : '');
+    const counts = {};
+    ORDER.forEach(id => { const s = SUG[id]; if (s.advice === 'leave') return; counts[s.type] = (counts[s.type] || 0) + 1; });
+    $$('[data-count-type]').forEach(el => { el.textContent = counts[el.dataset.countType] || 0; });
+  }
+
+  // ---------------------------------------------------------------- decisions and notes
+  function decide(id, to) {
+    const st = get(id);
+    const from = st.status;
+    if (from === to) return;
+    st.history.push({ from: from, to: to, at: now() });
+    st.status = to; st.updated = now();
+    if (to === 'revise' && !st.text) st.text = SUG[id].proposed || '';
+    persistLocal(); renderCard(id); progress(); queueWrite(id, 0);
+    savedLine(id, db ? 'Saving…' : (localOk ? 'Saved in this browser' : 'Not saved: copy your answers before closing'));
+    if (to === 'revise') { const yt = $('.yours', cards[id]); if (yt) { yt.focus(); } }
+  }
+  ORDER.forEach(id => {
+    const c = cards[id]; if (!c) return;
+    $$('.dec', c).forEach(b => b.addEventListener('click', () => decide(id, b.dataset.dec)));
+    const typed = (field, el) => {
+      const st = get(id);
+      st[field] = el.value; st.updated = now();
+      persistLocal(); queueWrite(id, 900);
+      savedLine(id, db ? 'Saving…' : (localOk ? 'Saved in this browser' : 'Not saved: copy your answers before closing'));
+      progress();
+    };
+    const yt = $('.yours', c), nt = $('.note', c);
+    yt.addEventListener('input', () => typed('text', yt));
+    nt.addEventListener('input', () => typed('comment', nt));
+    [yt, nt].forEach(el => el.addEventListener('blur', () => { if (dirty[id]) { clearTimeout(timers[id]); flush(id); } }));
+    const fold = $('.fold', c), body = $('.card-body', c);
+    fold.addEventListener('click', () => {
+      body.hidden = !body.hidden;
+      fold.textContent = body.hidden ? 'Open' : 'Fold';
+      fold.setAttribute('aria-expanded', String(!body.hidden));
+    });
+  });
+
+  // ---------------------------------------------------------------- moving around
+  function visibleCards() { return ORDER.map(id => cards[id]).filter(c => c && !c.hidden && c.offsetParent !== null); }
+  function openCard(c) { const body = $('.card-body', c); if (body.hidden) { body.hidden = false; const f = $('.fold', c); f.textContent = 'Fold'; f.setAttribute('aria-expanded', 'true'); } }
+  function flash(c) { c.classList.remove('flash'); void c.offsetWidth; c.classList.add('flash'); }
+  function goTo(c) { openCard(c); c.scrollIntoView({ behavior: 'smooth', block: 'start' }); flash(c); }
+  function undecided(c) { return get(c.dataset.id).status === 'pending'; }
+  function step(dir) {
+    if (document.body.classList.contains('reading')) { document.body.classList.remove('reading'); $('#readingMode').checked = false; }
+    const list = visibleCards().filter(undecided);
+    if (!list.length) { $('#prog').insertAdjacentText('beforeend', ' · nothing undecided in view'); return; }
+    const topLine = 130;
+    if (dir > 0) {
+      const next = list.find(c => c.getBoundingClientRect().top > topLine + 4) || list[0];
+      goTo(next);
+    } else {
+      const prev = list.slice().reverse().find(c => c.getBoundingClientRect().top < topLine - 4) || list[list.length - 1];
+      goTo(prev);
+    }
+  }
+  $('#nextBtn').addEventListener('click', () => step(1));
+  $('#prevBtn').addEventListener('click', () => step(-1));
+  document.addEventListener('click', e => {
+    const m = e.target.closest('mark.hl[data-s]');
+    if (m && !e.target.closest('a')) {
+      const id = m.dataset.s.split(' ')[0];
+      const c = cards[id];
+      if (c && SUG[id].advice === 'leave' && !document.body.classList.contains('show-leave')) return;
+      if (c) {
+        if (document.body.classList.contains('reading')) { document.body.classList.remove('reading'); $('#readingMode').checked = false; }
+        if (c.hidden) { c.hidden = false; }
+        goTo(c);
+      }
+      return;
+    }
+    const g = e.target.closest('[data-go]');
+    if (g) {
+      const t = document.getElementById(g.dataset.go);
+      if (t) { if (t.classList.contains('card')) goTo(t); else { t.scrollIntoView({ behavior: 'smooth', block: 'center' }); flash(t); } }
+    }
+  });
+
+  // ---------------------------------------------------------------- filters
+  const hiddenTypes = new Set();
+  function applyFilters() {
+    const status = $('#statusFilter').value;
+    const q = $('#search').value.trim().toLowerCase();
+    ORDER.forEach(id => {
+      const c = cards[id]; if (!c) return;
+      const st = get(id);
+      let show = !hiddenTypes.has(SUG[id].type);
+      if (show && status !== 'all') show = status === 'noted' ? !!(st.comment || st.text) : st.status === status;
+      if (show && q) {
+        const b = document.getElementById('b' + c.dataset.block);
+        const hay = (c.textContent + ' ' + (b ? b.textContent : '') + ' ' + st.comment + ' ' + st.text).toLowerCase();
+        show = hay.includes(q);
+      }
+      c.hidden = !show;
+    });
+    Object.keys(DATA.types).forEach(t => document.body.classList.toggle('hide-t-' + t, hiddenTypes.has(t)));
+  }
+  $$('[data-filter-type]').forEach(b => b.addEventListener('click', e => {
+    const t = b.dataset.filterType;
+    if (b.closest('.card')) { e.stopPropagation(); }
+    if (hiddenTypes.has(t)) hiddenTypes.delete(t); else hiddenTypes.add(t);
+    $$('.tools [data-filter-type="' + t + '"]').forEach(x => x.setAttribute('aria-pressed', String(!hiddenTypes.has(t))));
+    applyFilters();
+  }));
+  $('#statusFilter').addEventListener('change', applyFilters);
+  let searchTimer = null;
+  $('#search').addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(applyFilters, 200); });
+  $('#showLeave').addEventListener('change', e => { document.body.classList.toggle('show-leave', e.target.checked); });
+  $('#readingMode').addEventListener('change', e => { document.body.classList.toggle('reading', e.target.checked); });
+  const sel = $('#sectionJump');
+  DATA.sections.forEach(s => {
+    const o = document.createElement('option');
+    o.value = 'b' + s.b; o.textContent = (s.level >= 3 ? '   ' : '') + s.text;
+    sel.appendChild(o);
+  });
+  sel.addEventListener('change', () => { const t = document.getElementById(sel.value); if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' }); sel.value = ''; });
+  function togglePanel(btn, panel) {
+    const open = panel.hidden;
+    panel.hidden = !open; btn.setAttribute('aria-expanded', String(open));
+  }
+  $('#toolsBtn').addEventListener('click', () => togglePanel($('#toolsBtn'), $('#tools')));
+  $('#saveBtn').addEventListener('click', () => togglePanel($('#saveBtn'), $('#savePanel')));
+
+  // ---------------------------------------------------------------- export and import
+  function answers() {
+    const counts = { approved: 0, rejected: 0, revise: 0, pending: 0 };
+    const items = ORDER.map(id => {
+      const s = SUG[id], st = get(id);
+      counts[st.status]++;
+      return { id: id, type: s.type, title: s.title, where: s.where, advice: s.advice, status: st.status,
+        your_version: st.text, comment: st.comment, my_version: s.proposed, before: s.before,
+        history: st.history, updated: st.updated };
+    });
+    return { format: 'joel-suggestion-review-answers-v1', review_id: DATA.review_id, title: DATA.title, git_file: DATA.git_file,
+      article: DATA.article, built: DATA.built, generator: DATA.generator, exported_at: now(), counts: counts, items: items };
+  }
+  function status(msg) { $('#saveStatus').textContent = msg; }
+  function showCopyArea(text) {
+    const ta = $('#copyArea'); ta.hidden = false; ta.value = text; ta.focus(); ta.select();
+  }
+  $('#copyJson').addEventListener('click', () => {
+    const text = JSON.stringify(answers(), null, 1);
+    let done = false;
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => { done = true; status('Copied. Paste it into the chat, or into this page on another account with "Paste answers instead".'); $('#copyArea').hidden = true; },
+          () => { showCopyArea(text); status('This view blocked copying: the answers are selected below, so copy them with your keyboard or the menu.'); });
+        return;
+      }
+    } catch (e) { /* fall through */ }
+    if (!done) { showCopyArea(text); status('The answers are selected below: copy them with your keyboard or the menu.'); }
+  });
+  $('#saveJson').addEventListener('click', async () => {
+    const text = JSON.stringify(answers(), null, 1);
+    const name = 'hypnosis-guide-review-answers-' + now().slice(0, 16).replace(/[:T]/g, '-') + '.json';
+    if (dl) {
+      try { const r = await dl.save({ filename: name, data: text }); status(r && r.status === 'delivered' ? 'Sent.' : 'Saved as ' + name + '.'); return; }
+      catch (e) {
+        if (e && e.code === 'declined') { status('Not saved.'); return; }
+        if (e && e.code === 'rate_limited') { status('A save is already waiting for you to confirm.'); return; }
+      }
+    }
+    try {
+      const url = URL.createObjectURL(new Blob([text], { type: 'application/json' }));
+      const a = document.createElement('a'); a.href = url; a.download = name; a.style.display = 'none';
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 60000);
+      status('Saving ' + name + '. If nothing downloads, use "Copy my answers" instead.');
+    } catch (e) { showCopyArea(text); status('Saving files is blocked here: the answers are selected below to copy.'); }
+  });
+  function load(text) {
+    let o;
+    try { o = JSON.parse(text); } catch (e) { status('That isn\'t a JSON answers file.'); return; }
+    if (!o || o.format !== 'joel-suggestion-review-answers-v1' || !Array.isArray(o.items)) { status('That isn\'t an answers file from this page.'); return; }
+    if (o.review_id !== DATA.review_id) { status('Those answers are for a different review (' + o.review_id + '), so nothing was loaded.'); return; }
+    if (!o.article || o.article.sha256 !== DATA.article.sha256) { status('Those answers are for a different version of the guide, so nothing was loaded: send them to me and I\'ll carry them over.'); return; }
+    let n = 0; const unknown = [];
+    o.items.forEach(it => {
+      if (!it || !SUG[it.id]) { if (it && it.id) unknown.push(it.id); return; }
+      const st = get(it.id);
+      const to = STATUSES.includes(it.status) ? it.status : 'pending';
+      if (to === 'pending' && !it.comment && !it.your_version && st.status === 'pending' && !st.comment && !st.text) return;
+      if (to !== st.status) st.history.push({ from: st.status, to: to, at: now(), by: 'loaded from a file' });
+      st.status = to; st.comment = typeof it.comment === 'string' ? it.comment : '';
+      st.text = typeof it.your_version === 'string' ? it.your_version : '';
+      st.updated = now(); n++;
+      queueWrite(it.id, 0);
+    });
+    persistLocal(); renderAll(); applyFilters();
+    status('Loaded ' + n + ' answer' + (n === 1 ? '' : 's') + (unknown.length ? '; ' + unknown.length + ' not on this page (' + unknown.slice(0, 5).join(', ') + ')' : '') + '.');
+  }
+  $('#importFile').addEventListener('change', e => {
+    const f = e.target.files && e.target.files[0]; if (!f) return;
+    const r = new FileReader(); r.onload = () => { load(String(r.result)); e.target.value = ''; }; r.readAsText(f);
+  });
+  $('#pasteToggle').addEventListener('click', () => { const b = $('#pasteBox'); b.hidden = !b.hidden; if (!b.hidden) $('#pasteArea').focus(); });
+  $('#pasteLoad').addEventListener('click', () => load($('#pasteArea').value));
+
+  window.__review = { answers: answers, load: load, state: () => state };
+  renderAll(); applyFilters(); setStoreNote(); initDb();
+})();
+</script>
+</body>
+</html>

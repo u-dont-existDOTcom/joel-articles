@@ -47,9 +47,17 @@ A short piece, a typo fix or a one-paragraph change doesn't need it.
    things another part explained. For a term a reader says is never defined, search the whole article for its first
    mention: the definition belongs there, and a later one becomes a reference (gate E243, "saṃsāra"); and check each plain
    version for a definition it adds.
-5. `clarity_read.py page DIR --out CLARITY.md` writes the list for him, numbered, hardest first, with the small snags and
-   what wasn't counted at the end. Send it to him as a link he can click, with the number of passages and what kind they
-   are, and ask him to rewrite or pass each one (his answers are numbered the same way).
+5. **He decides on one review page, not on lists** (Joel, 2026-10-25 14:40 UTC, after four lists: "you're giving me half
+   suggestion that are out of context. why don't you give me the full HTML guide with highlighting ... and then my comment
+   box on your suggestion with approve reject reivse buttons"; gate E265). A lane script gathers every checked item of the
+   check's parts into `REVIEW.json`, each with its exact change as (old words, new words) in its paragraph, and
+   `tools/humanization/suggestion_review.py page REVIEW.json REVIEW.html` makes the page: the whole article, each
+   suggestion highlighted in its type's colour, its card under the paragraph (the paragraph as it would read, why, what
+   stays, my advice, Approve / Reject / Revise and a comment box). The ones I'd leave are on it too, hidden until he asks.
+   Run `tools/humanization/suggestion_review_browser_test.py REVIEW.html`, publish the page as an artifact with
+   `{"db": {}, "downloads": true}`, and read his answers from its store (`ArtifactData`, collection `decisions`) or from
+   the JSON he sends. The hypnosis guide's is `articles/inner-signal/humanize/fix-20261025/review/build_review.py`.
+   (`clarity_read.py page` still writes a list, for a record or a short check.)
 
 For all four parts (2026-10-25, the hypnosis guide, 29,500 words, 36 readers' reports):
 - **A reader that runs out of output gets its part in two halves**, with a brief for each (`BRIEF-k.txt` for the next
@@ -69,6 +77,14 @@ For all four parts (2026-10-25, the hypnosis guide, 29,500 words, 36 readers' re
 6. Put his answers in word for word (his rewrites, and the plain versions he passes), with every link, italic and bold back
    on the same words, and each changed passage read in place in the next whole-article Pangram check with a part forecast
    (`tools/humanization/part_forecast.py`; gate E238).
+
+**What doesn't count, and how a plain version is written** (gate E264; Joel, 14:40: ""do that" is clearly referring to
+"remove anything from the laws of nature" directly before it ... and it's actually harder to read now with these 2
+parentheticals"). A "this", "that", "it" or "do that" whose meaning is in the words right before it is not a stop; the
+reader reads the sentence before a passage before flagging it. A plain version replaces the words that stop a reader, as
+his own fixes do, and adds a bracket only for a term a reader can't know, at most one per passage. Both are in the brief,
+and his fix is its last example. My check holds every item to the same: on the hypnosis guide's second reread I'd leave
+32 of 80, and most of the 47 I offer are a smaller change than the reader's.
 
 ### What the plain versions are for
 

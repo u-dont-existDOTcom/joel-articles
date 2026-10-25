@@ -1299,11 +1299,43 @@ pages; his questions 15 to 18).
   meaningful without being actual memories". For inner child or hypnosis writing, the caveat check reads each flag
   against the protocol, loaded in the main thread, before picking.
 
-(The next lesson in either lane is E265; the Inner Child lane's E264 (Inner Child) is near the top.)
+(The next lesson in either lane was E264 here; see the end of the next section.)
+
+## What his answer to the four lists showed (2026-10-25 14:40 UTC)
+
+His message (`articles/inner-signal/humanize/fix-20261025/joel-20261025-1440-message.txt`), on the reread's first item
+and on the four lists of questions 15 to 18: ""do that" is clearly referring to "remove anything from the laws of nature"
+directly before it. ... and it's actually harder to read now with these 2 parentheticals. can you fix the reader?" and "i'm
+sorry this current approach is way too dificult, you're giving me half suggestion that are out of context. why don't you
+give me the full HTML guide with highlighting ... and then my comment box on your suggestion with approve reject reivse
+buttons".
+
+- **E264. A reader doesn't flag a word whose meaning is right before it, and a plainer version changes his words rather
+  than adding to them.** The reread flagged "but it does sort of do that" right after "remove anything from laws of
+  nature", and its plainer version explained two phrases in brackets. The brief's "What doesn't count" now names a "this",
+  "that", "it" or "do that" whose meaning is in the words right before it, with his sentence as the example, and asks the
+  reader to read the sentence before a passage before flagging it; a new paragraph, "How to write PLAIN", says to replace
+  the words that stop a reader, the way his fix did, with a bracket only for a term the reader can't know, at most one per
+  passage. His fix is the brief's last example (`tools/humanization/clarity_examples.json`). Run again on the guide, ten
+  fresh readers flagged 80 passages; with his rule I'd leave 32 of them as they are, and of the 47 I offer, most are a
+  smaller change than the reader's (a word, a comma, a name for "it"). Of the first reread's 64, three more still hold and
+  are offered; the rest were glosses, his own words, or are elsewhere on the page.
+- **E265. Many suggestions go on one review page, in the whole article, the same turn.** UDA's
+  `patterns/owner-questions-page.md` (multi-item decision pages, 2026-10-23) already said so, and the 01:01 turn sent four
+  Markdown lists with item numbers to answer instead; he couldn't use them ("half suggestion that are out of context").
+  `tools/humanization/suggestion_review.py` now makes the page: the article from its Markdown with his P-numbers, each
+  suggestion highlighted on the words it changes in its type's colour, and its card under the paragraph with the paragraph
+  as it would read, why, what stays, my advice, Approve / Reject / Revise / Not approved yet and a comment box; the ones a
+  reader flagged that I'd leave are hidden until he asks for them. Answers save as he clicks (the artifact's store, and the
+  browser's) and export as JSON that the page can load again. `suggestion_review_browser_test.py` tests it in a real
+  browser (74 checks, with a negative fixture for the 2026-10-23 white-on-white boxes). A check with more than a handful of
+  suggestions for him ends with this page, not with lists.
+
+(The next lesson in either lane is E266.)
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 
-(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". E247 and E248, after them, are this lane's turn-102 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E247 to E249 above (their message of 2026-10-23 18:13 UTC); both sets keep their numbers, so cite these two as "E247 (Inner Child)" and "E248 (Inner Child)". E250 to E252, the last ones here, are this lane's turn-103 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E250 and E251 above (their message of 2026-10-23 20:35 UTC); both sets keep their numbers, so cite these three as "E250 (Inner Child)" to "E252 (Inner Child)". The hypnosis guide, Nibbāna and community lanes' own E252 to E255 above came after them (their messages of 2026-10-23 22:29 and 23:28 UTC). This lane's turn-104 lesson, written at the same time, is E253 (Inner Child), with the help-request rules near the top, and its turn-105 lesson, E256 (Inner Child), is beside it, with the turn-106 lessons E257 and E258 (Inner Child) after it and the turn-107 lesson E261 (Inner Child) after those. The Nibbāna and community lanes' E256 to E259 above came at the same time as E257 and E258 (their message of 2026-10-24 19:52 UTC), the community lane's E260 after them (23:40 UTC), and its E261 at the same time as this lane's (its message of 2026-10-25 00:27 UTC); both sets keep their numbers, so cite this lane's as "E261 (Inner Child)". The hypnosis guide lane's E262 and E263 above came after them (its message of 2026-10-25 01:01 UTC). This lane's turn-109 lesson, E264 (Inner Child), is with the others near the top. The next lesson in either lane is E265.)
+(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". E247 and E248, after them, are this lane's turn-102 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E247 to E249 above (their message of 2026-10-23 18:13 UTC); both sets keep their numbers, so cite these two as "E247 (Inner Child)" and "E248 (Inner Child)". E250 to E252, the last ones here, are this lane's turn-103 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E250 and E251 above (their message of 2026-10-23 20:35 UTC); both sets keep their numbers, so cite these three as "E250 (Inner Child)" to "E252 (Inner Child)". The hypnosis guide, Nibbāna and community lanes' own E252 to E255 above came after them (their messages of 2026-10-23 22:29 and 23:28 UTC). This lane's turn-104 lesson, written at the same time, is E253 (Inner Child), with the help-request rules near the top, and its turn-105 lesson, E256 (Inner Child), is beside it, with the turn-106 lessons E257 and E258 (Inner Child) after it and the turn-107 lesson E261 (Inner Child) after those. The Nibbāna and community lanes' E256 to E259 above came at the same time as E257 and E258 (their message of 2026-10-24 19:52 UTC), the community lane's E260 after them (23:40 UTC), and its E261 at the same time as this lane's (its message of 2026-10-25 00:27 UTC); both sets keep their numbers, so cite this lane's as "E261 (Inner Child)". The hypnosis guide lane's E262 and E263 above came after them (its message of 2026-10-25 01:01 UTC), and its E264 and E265 after those (14:40 UTC). This lane's turn-109 lesson, written at the same time as those two, keeps its number too: cite it as "E264 (Inner Child)"; it is with the others near the top. The next lesson in either lane is E266.)
 
 The checks: `articles/inner-child-therapy/experiments/t99-api/API-RESULTS-1.jsonl` (turn 99's nine) and `articles/inner-child-therapy/experiments/t100-api/API-CHECKS.md` (this turn's eight, each with its public Pangram page). Four rewrites read 100% Human alone and in their stretch; five of my eight calls were right, and two of the misses were pessimism about a rewrite.
 
