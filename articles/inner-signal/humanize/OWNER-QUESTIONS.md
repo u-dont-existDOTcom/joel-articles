@@ -1,8 +1,8 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-25, after your message of 01:01 UTC ("finish the guide first"). **Open questions: 4** (15 to 18,
-the guide's clarity check, just below). **One thing for you to do**: merge [pull request 240](https://github.com/u-dont-existDOTcom/joel-articles/pull/240)
-when you've looked (it changes nothing in your guide's text).
+Last updated 2026-10-25, after your message of 14:40 UTC (the reread's 15.1, the inner child guide, and "give me the full
+HTML guide with highlighting"). **Open questions: 1** (19, the review page, just below). **One thing for you to do**:
+merge this turn's pull request when you've looked (it changes nothing in your guide's text).
 The questions are at the top, with their options and my default; under them is what you decided and what I did with it.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -11,51 +11,48 @@ read and update it. Every file it points to is a link.
 
 ## Open questions
 
-> [!IMPORTANT]
-> The guide's clarity check, in four lists, each on its own page with my pick on every item. Answer "15 a, 16 your picks,
-> 17 your picks, 18 your picks", or with the numbers you want changed ("17.12 B"). Nothing in the guide changes until
-> you answer. Then what you picked goes in, each change checked in Pangram where it sits, and the whole guide gets one
-> recheck before the copy helper for your post.
+**🟣 19. The review page.** [Your whole guide with every suggestion marked where it applies](https://claude.ai/artifact/HAPtqUNY4cYvk48TA4eYHp): 178 suggestions,
+each highlighted on the words it changes, in one colour per kind (a reader would stop 50, headings and order 30, caveats
+32, said already 18, your inner child guide 42, typos 6), with the paragraph as it would read, why, what stays and my
+advice under it. Click Approve, Reject or Revise on each (Revise opens your own version, starting from mine), with a
+comment if you want; nothing counts as approved until you click. Your answers save as you click, and I read them from the
+page when you tell me you're done. It replaces questions 15 to 18, the same checks in four lists, which I've taken down.
+Your fix for 15.1 is already on it, marked as yours (RR-1.1). Another 118 suggestions a reader made that I'd leave as they
+are are on it too, hidden unless you tick "The ones a reader flagged and I'd leave" under Filters.
+- a) (my default) You go through the page; nothing in the guide changes until you've decided.
+- b) You decide the ones you want to, then say "take your advice on the rest": I put in the ones I advise and leave the
+  others.
+From your other account, the page opens once you share it with that account from the page's Share menu; the
+[list of suggestions](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/review/REVIEW.json) is in Git either way.
 
-**🟣 15. What a reader has to stop and reread.** [The list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/clarity/CLARITY.md)
-has 64 passages that read Human but would make a smart general reader stop: 7 that most readers wouldn't get on a first
-read, then 57 they would have to reread, then 15 small snags. Seven fresh readers found them, with your Nibbāna rewrites
-as their examples, and I checked each against the whole guide and your published guide of 28 September. Each has a
-plainer version that keeps every claim; 17 of those are mine, mostly from your own published words (the quote marks
-around "stop", "less" and "quiet", for one). Five are marked "Check" because they guess at your reasoning: your joke
-"That is why you are reading a self hypnosis guide!", how V. knows the trigger word, why the extended trip is
-"phenomenologically important", and two glosses.
-- a) (my pick) I put in the plainer versions except the five marked "Check", which you word or leave. Each goes in only
-  if it still reads Human where it sits; one that reads AI comes back to you with its result, as in your Nibbāna N3.
-- b) You rewrite the ones you want; the page has a plainer version of each to start from.
-- c) Only the 7 hardest.
-- d) None; they stay as they are.
+## Your message of 2026-10-25 14:40 UTC, and what I did
 
-**🟣 16. The reader's edit: which of 33 changes go in?** [The list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/edit/READERS-EDIT.md):
-18 headings for a second subject inside a section, 9 moves (one is only a paragraph break), a label, and 5 cuts of a
-line that repeats the line next to it. None rewords your sentences; the only new words are the headings' and the label's.
-My pick is A (put it in) on 30 and B on 3. Two are bigger than the rest: 16.28 moves "Inner child love" after the body
-practices in Appendix D, so the appendix follows its own "first your body, then your inner child"; and 16.24 cuts the
-two sentences in Pattern 4 that point to "the first example" and "the second example", which your 3 a of 21 October
-left out because every wording with them read AI.
-- a) (my pick) My picks as they are.
-- b) My picks with your changes, by number ("16.3 B").
+Your message, [word for word](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/joel-20261025-1440-message.txt).
 
-**🟣 17. The safety lines and caveats a reader doesn't need** (your "same question for community and hypnosis articles",
-23 October). [The list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/caveats/CAVEATS.md)
-has 68, each struck through in its paragraph with the paragraph as it reads after the cut. My pick is cut on 32 and keep
-on 36. I kept a line wherever it gives a limit, a counterweight or context, as you did in your community 64, and wherever
-it changes what a reader does: the stop rules, consent ("No will stay no"), the caution that an image isn't a memory,
-care in altered states, and the massage cautions.
-- a) (my pick) My picks as they are.
-- b) My picks with your changes, by number ("17.12 B").
-
-**🟣 18. What the guide says more than once.** [The list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/repeats/REPEATS.md)
-has 64 cuts, each with where the point is kept. My pick is cut on 18 and keep on 46. I cut previews and recaps (your
-rule from 65), and kept the instruction a reader needs where they are, because people jump into this guide: the
-troubleshooting, the prompt list, the appendices and the induction library each have to work on their own.
-- a) (my pick) My picks as they are.
-- b) My picks with your changes, by number ("18.3 A").
+- 🟢 **15.1, your wording**: "because without redirecting the thought stream with your conscious, higher intention," is
+  in the review page as decided by you (RR-1.1), and "do that" stays as it is. The "led astray but" in the same paragraph
+  is a typo of its own (TY-1).
+- 🟢 **"can you fix the reader?"**: the reread's brief now says a "this", "that", "it" or "do that" whose meaning is in the
+  words right before it doesn't count, with your sentence as its example, and that a plainer version changes the words
+  that stop a reader instead of adding brackets (one at most, for a term a reader can't know); your fix is its newest
+  example. Ten fresh readers then read the guide again with it: 80 passages. I offer 47 (most as a smaller change than the
+  reader's: a word, a comma, a name for "it"), would leave 32 as they are, and one is the Pattern 4 cut already on the
+  page. Three of the first reread's still hold and are on the page too; the rest of its 64 were brackets added to your
+  words, or are elsewhere on the page (lesson E264).
+- 🟢 **"line up all the inner child work with the latest inner child guide"**: two readers compared every inner child
+  passage of the guide with your latest inner child guide, the version you decided passage by passage, and I checked each
+  difference against both guides and the InnerSignal rules. 43 differences, each lined up with your decided words: steps,
+  safety points (a no to going deeper is listened to, the grown-up check before going deep, the heart-to-child loop's "no
+  faking required"), advice you've changed since (not hitting back is enough to start being the adult, a break from a
+  family can be long-term, the six questions instead of blame) and names ("your little one", they/them, the guards). I
+  offer 42 of them, and would leave one that would say the same caution twice. Two need your eye most: IC-A1 (your inner
+  child guide now says the Higher Self has no specific wisdom, and this guide's prompts ask your universal heart for
+  guidance) and IC-A17 (learn the inner child work in your ordinary state before bringing it into hypnosis).
+- 🟢 **"give me the full HTML guide with highlighting ... approve reject reivse"**: the review page, question 19. It's
+  made by a tool every article's checks can use now, and tested in a real browser (74 checks, in light and dark, on a
+  phone-width screen too): decisions, comments, filters, Next undecided, saving and loading your answers. A long list of
+  suggestions now always ends with a page like this (lesson E265); the four lists of 01:01 broke a rule that already
+  said so.
 
 ## Your messages of 2026-10-25 00:49 and 01:01 UTC, and what I did
 
@@ -63,13 +60,14 @@ Your messages, word for word: [00:49](https://github.com/u-dont-existDOTcom/joel
 ("ok, what's next in the queue to hum,anize now?") and [01:01](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/joel-20261025-0101-message.txt)
 ("finish the guide first").
 
-- 🔵 **"finish the guide first"**: the guide's clarity check, all four parts, is questions 15 to 18 above. Neuro
-  de-armoring, next in your queue, starts after it.
+- 🟢 **"finish the guide first"**: the guide's clarity check, all four parts, was questions 15 to 18, four lists; at
+  14:40 you asked for one page instead, so they're all on the review page, question 19. Neuro de-armoring, next in your
+  queue, starts after it.
 - 🟢 **How it ran**: 36 fresh readers' reports, each on a part of the guide (the repeats readers had the whole guide too),
   and I checked every one of their 295 items against the whole guide, your answers so far and the InnerSignal rules for
   inner child and hypnosis writing. Nothing in the guide has changed yet.
 - 🟢 **A slip of mine the readers caught**: your 3 a of 21 October took the Pattern 4 version without its two examples,
-  but its sentences about "the first example" and "the second example" stayed in, pointing at nothing. 16.24 fixes it.
+  but its sentences about "the first example" and "the second example" stayed in, pointing at nothing. ST-8.1 on the review page fixes it.
   When a cut is taken to pass Pangram, the words that point to what was cut now go with it (lesson E263).
 - 🟢 **The reader of the guide's first part ran out of output** thinking, as three community readers had on 23 October.
   Its part went to two readers in halves, which finished in about six and seven minutes, and the reread brief now has the
@@ -486,8 +484,8 @@ Your message, word for word: [joel-20261023-1230-message.txt](https://github.com
 
 ## For you to do
 
-- 🟠 Merge [pull request 240](https://github.com/u-dont-existDOTcom/joel-articles/pull/240) when you've looked: the four
-  lists, my check of them, and the rules and tool changes that came with them. Your guide's text doesn't change in it.
+- 🟠 Merge this turn's pull request when you've looked: the review page, its tool and tests, the reread's fixed brief,
+  and the records. Your guide's text doesn't change in it.
 - 🟢 Done: recheck B (your result of 20:35 UTC on 23 October), recheck A4, both
   screening posts, and your Nibbāna article's rechecks (on its page).
 - 🟢 Your temporary drafts: recheck A and B are "TEMP recheck A (hypnosis guide) - do not publish" and "TEMP recheck B
@@ -497,6 +495,7 @@ Your message, word for word: [joel-20261023-1230-message.txt](https://github.com
 ## Where it stands
 
 🟢 All 40 of the guide's sections are humanized, and your answers 1 to 14 are in. 🟢 The guide reads Human outside the one
-audit window you kept (recheck B, 23 October). 🔵 The clarity check, questions 15 to 18, is its last step before the copy
-helper for your post. [The lane's status page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/STATUS.md) has every
+audit window you kept (recheck B, 23 October). 🔵 The clarity check and the inner child alignment are on the review page,
+question 19, its last step before the copy helper for your post: what you approve goes in, each change checked in Pangram
+where it sits, then one recheck of the whole guide. [The lane's status page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/STATUS.md) has every
 check's link.

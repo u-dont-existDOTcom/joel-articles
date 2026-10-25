@@ -1,0 +1,33 @@
+You are helping Joel, who writes self-help guides on Substack. He asked, word for word: "make sure we line up all the inner child work with the latest inner child guide."
+
+Two files:
+- /home/claude/ja-community/articles/inner-signal/humanize/fix-20261025/ic-align/IC-GUIDE.txt: his inner child guide, the latest version (humanized and decided with him passage by passage). It is the authority on inner child work: reparenting, the inner adult and its three jobs (Nurturer, Protector, Guide), borrowing adulthood, the guards (childhood protector parts), the inherited parent, the practices, safety.
+- /home/claude/ja-community/articles/inner-signal/humanize/fix-20261025/ic-align/HYPNOSIS-GUIDE.txt: his self-hypnosis guide, The Inner Signal. Parts of it teach the same inner child work, in older wording, inside a self-hypnosis practice.
+
+Your sections of the hypnosis guide (headings marked "## "): "Offer the care that is actually wanted", "Finish without forcing a revelation", the troubleshooting sections from "It feels fake" to "You keep using hypnosis but not changing life", "Closing", "Core prompts", "Appendix D: Anxiety — body first" with "Inner child love" and "Anxiety script", "The council — internal first, then outward", "Forgiveness without bypass", "Appendix G: Altered states" with "Stabilize before you interpret", "7. Care workshop" and "8. Resource embodiment".
+
+For each passage in your sections that teaches inner child work, find where the inner child guide treats the same thing, and report where the hypnosis guide says something different in substance:
+- a step missing, added, or in another order;
+- a name or term the inner child guide now uses differently (for one of the three jobs, for borrowing, for the guards, for the child or "little one", for the inherited parent);
+- a safety point the inner child guide gives at that step that the hypnosis passage lacks, or a caution it has since dropped or changed;
+- a claim or a piece of advice the inner child guide has since changed, softened, sharpened or reversed;
+- a practice (the two hands, the non-dominant hand, the heart-to-child loop, the vow, play, forgiveness) whose instructions differ.
+
+Don't report: differences in wording that say the same thing; anything about hypnosis itself (inductions, trance, the return), which the inner child guide doesn't cover; material the inner child guide has that the hypnosis guide doesn't need at that point.
+
+For each difference, write PROPOSED: the hypnosis passage as it would read once lined up, with the smallest change that does it, using the inner child guide's own words wherever they fit (his decided wording), and keeping the hypnosis guide's context (the practice, the inner meeting). Add no teaching, example, joke or claim of your own. Where the honest fix is to shorten the hypnosis passage and send the reader to the inner child guide (the hypnosis guide already links it as his "Inner Child Self-Love Reparenting Guide"), propose that, with the short version.
+
+Work quickly: read both files once, noting differences as you go, then write down the ones that matter most. A short report with the clearest differences is the job; don't weigh each candidate at length.
+
+Read /home/claude/ja-community/articles/inner-signal/humanize/fix-20261025/ic-align/IC-GUIDE.txt and /home/claude/ja-community/articles/inner-signal/humanize/fix-20261025/ic-align/HYPNOSIS-GUIDE.txt (one Read call each; read the whole of each, in parts if the tool asks). Then write your report with one Write call to /home/claude/ja-community/articles/inner-signal/humanize/fix-20261025/ic-align/READER-B.md, in this shape, in the hypnosis guide's order, at most 25 items:
+
+## 1
+SECTION: the hypnosis guide's heading it's under, exactly as in the file
+QUOTE: the exact words of the hypnosis passage to change, copied character for character from /home/claude/ja-community/articles/inner-signal/humanize/fix-20261025/ic-align/HYPNOSIS-GUIDE.txt (a sentence to a paragraph)
+IC: the inner child guide's heading, then the exact words there that say it now, copied character for character from /home/claude/ja-community/articles/inner-signal/humanize/fix-20261025/ic-align/IC-GUIDE.txt
+DIFFERS: in one line, what is different in substance
+PROPOSED: the full replacement for QUOTE, as it would read
+KEEPS: what stays, and anything of the hypnosis passage that must not be lost
+PRIORITY: high (a step, a safety point or advice that changed) or low (a name or term)
+
+If you find nothing, write only "NOTHING". Then reply with only the number of items. Use no tools other than those Reads and that one Write, and don't use the web.
