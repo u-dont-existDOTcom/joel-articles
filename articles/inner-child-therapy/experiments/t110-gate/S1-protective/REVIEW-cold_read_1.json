@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "b2513352bc91a8de3a78eb85da81566b6b6f7267f493d83190d319810f91eeaf",
+  "context_sha256": "2610d1c9f4b9b5c0646773e96a6b243ced100967a19011539297bf7f966174ae",
+  "source_sha256": "6551d27bdb2d8c095f1e6fa2c20f0c5f82aef4742be57ad7197680c751c4fc2b",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "t110-gate-cold_read_1-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01NbUfhcTaRT8sbjyYV1wEFq (the writer's session)"
+  },
+  "evidence": "Read as a first-time reader. CONTEXT.txt is shared by the three S1 drafts; I judged only this one. Draft: 'Blaming yourself can be doing a protective job, too.' replaces 'Blaming yourself can be doing a job like that, too.' It opens the paragraph that follows the one about the part that calls everything stupid because it is scared of getting its hopes up. (1) It does what the_change says: 'a job like that' becomes 'a protective job'; subject, verb and 'too' are unchanged. (2) Meaning is kept: the source's 'a job like that' pointed back at the preceding part's job of shielding against hope and disappointment, and 'protective' names that same kind of job in words the section already uses ('Whichever protective part showed up', 'Hear the Guard First', 'Your Protector'). The specific protective logic of self-blame is carried by the sentences after it ('It's all my fault' as the parent's line, 'if it's your fault, maybe you can fix it before they leave'), so dropping 'like that' loses nothing, and 'too' still reads as 'another protective job besides the hope-guarding'. No fact or claim is added. The closing 'what makes it so hard to give up' also lands better once self-blame has been called protective. (3) It reads naturally as the opening claim of a paragraph for someone seeing it for the first time; 'job' is Joel's own word from the source. Linter 'B7 short landing at paragraph end' flags this sentence as if it ended a paragraph, but in context it is the first sentence of its paragraph, and the paragraph ends on the unchanged, longer 'And I'd get curious about what makes it so hard to give up.'; accepted. Linter 'D9 follows the source order' is the single-sentence artifact (1/1 paragraphs, agreement 1.00); the paragraph notices things along the way (the line may be the parent's word for word; 'Then again... fix it before they leave'); accepted. The writer marked no row PRESENT and I agree. Considered and not present: T17 (an 'X can be Y' opener, but it is a topic claim that the next sentences illustrate and complicate, and the source had the same form), T06 ('protective job' is the guide's own vocabulary and the specifics follow at once), T27 ('job' is the source's word and names a part's function exactly, not vague 'work'), T26 ('protective' recurs from the section frame and ties the sentence back), T19, T11, T08, T18, C02 (the referent is now explicit, not lost), C03, C04.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order"
+  ]
+}

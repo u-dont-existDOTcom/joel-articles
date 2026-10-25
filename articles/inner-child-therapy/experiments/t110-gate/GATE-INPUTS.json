@@ -1,0 +1,106 @@
+{
+ "S1-nurturer": {
+  "candidate_sha256": "4faf6c61ff0febb35989f49dfa97d424e274788a47fbf81cc56e4cc7549234c4",
+  "context_sha256": "2610d1c9f4b9b5c0646773e96a6b243ced100967a19011539297bf7f966174ae",
+  "source_sha256": "0bc3523f02ef34bdb72ca58f9a84004e89d6078a9c5c7dd3831b0c0f3c6a2fbb",
+  "lint_findings": [
+   {
+    "label": "B7 short landing at paragraph end",
+    "examples": [
+     "I'd still keep the Nurturer voice."
+    ]
+   }
+  ],
+  "writer_marked_present": [
+   "T18"
+  ],
+  "the_change": "In Hear the Guard First, \"I'd still keep it the same.\" becomes \"I'd still keep the Nurturer voice.\" (both reviews asked to name the voice: right after \"a harder voice\", \"the same\" and \"that voice\" could point at the harder one)."
+ },
+ "S1-watch": {
+  "candidate_sha256": "cc8b632e6c482e6dadd5d8a500636c067ffe57c48cf54502c0748d3316a1bf57",
+  "context_sha256": "2610d1c9f4b9b5c0646773e96a6b243ced100967a19011539297bf7f966174ae",
+  "source_sha256": "950b11f82460d30a95efd2c4d7e90860c8febd592f7ea7934bc62761ab41fcf7",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ],
+  "writer_marked_present": [],
+  "the_change": "In Hear the Guard First, one long sentence is split in two (\", and I think\" becomes \". I think\") and \"call it off\" becomes \"call it all off\" (a first-time reader took \"it\" for the guard)."
+ },
+ "S1-protective": {
+  "candidate_sha256": "b2513352bc91a8de3a78eb85da81566b6b6f7267f493d83190d319810f91eeaf",
+  "context_sha256": "2610d1c9f4b9b5c0646773e96a6b243ced100967a19011539297bf7f966174ae",
+  "source_sha256": "6551d27bdb2d8c095f1e6fa2c20f0c5f82aef4742be57ad7197680c751c4fc2b",
+  "lint_findings": [
+   {
+    "label": "B7 short landing at paragraph end",
+    "examples": [
+     "Blaming yourself can be doing a protective job, too."
+    ]
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ],
+  "writer_marked_present": [],
+  "the_change": "In Hear the Guard First, \"Blaming yourself can be doing a job like that, too.\" becomes \"Blaming yourself can be doing a protective job, too.\" (a first-time reader could not tell which job; a reviewer asked to tie self-blame to a part's protective job explicitly)."
+ },
+ "P2": {
+  "candidate_sha256": "a27e62e5b48c0ded287b76188159a81ec95b6ce2fca9939b5275d350cc50ed73",
+  "context_sha256": "22a2cd69f4c1997b1747d911356e5b2e53b20b93360e178f231fc90fe519af07",
+  "source_sha256": "c84684ac2a3731b598a90663c83a5a83ef9bcb89e2f5b4a13e79cbd1ebf14dfa",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "6.2 \"you\" per 100 of my words"
+    ]
+   }
+  ],
+  "writer_marked_present": [],
+  "the_change": "In Don't Give the Inner Adult Away, \"I'd keep whatever you feel around them, and look at their track record.\" becomes \"I'd keep what you feel around them in mind, and look at their track record too.\" (a reviewer found \"keep whatever you feel\" ambiguous: keep feeling it, remember it, or trust it?)."
+ },
+ "P5": {
+  "candidate_sha256": "76684ed00562c39cc544d060e206372a56ae686ccb73a06e4772a3242da47f6c",
+  "context_sha256": "ef88a4fb55e50cb9d512a525fda80dba52a05f3909377976f35cc2e75c740ec3",
+  "source_sha256": "b513580db11f92d74b451207502331d248dd036b5edebdc794b770c13c245771",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ],
+  "writer_marked_present": [],
+  "the_change": "In Remind Yourself, a sentence is added after the paragraph's first: \"My son did that for me, and I think that's very common for parents.\" It is the author's own answer of 2026-10-02, given in SOURCE.txt, as an article sentence."
+ },
+ "P6": {
+  "candidate_sha256": "4ccf193d565cefef2bf9b9652717a1e3bb1f235954b01504b0a35417f3996bcc",
+  "context_sha256": "41e8990ff646c71e7485e739de8fef1c0ea1a951eede1dc78a2ad1a15a2c95f6",
+  "source_sha256": "a6040f598030660439119ca9b7c6b52f85c82e13374ee4bf7044467e4a0d4971",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ],
+  "writer_marked_present": [],
+  "the_change": "In Just Like Me, \"here\" is added at the end of \"I'd leave out forgiving them and picturing their childhood.\" so it limits this exercise only."
+ }
+}

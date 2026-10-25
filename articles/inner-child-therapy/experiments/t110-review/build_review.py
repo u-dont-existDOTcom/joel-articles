@@ -171,12 +171,12 @@ def wording(sid, quote, new, title, what, why, stays, note, found, near=None):
 
 
 wording('P2', "I'd keep whatever you feel around them, and look at their track record.",
-        'Keep what you feel around them in mind, and look at their track record too.',
+        "I'd keep what you feel around them in mind, and look at their track record too.",
         'Don\'t Give the Inner Adult Away: what "keep whatever you feel" means',
-        'GPT\'s wording, so it says what to do with the feeling.',
+        'GPT\'s wording, with your "I\'d" kept, so it says what to do with the feeling.',
         '"Keep whatever you feel" can mean keep feeling it, remember it or trust it. GPT: "Removing \'I\'d\' leaves that ambiguity intact."',
         'The questions after it: whether they respect a no, what happens when you disagree, and what backs them up.',
-        'The line is mine (turn 72), from the guide\'s.', 'the point-of-view read, 1.4; GPT\'s review: revise for meaning')
+        'The line is mine (turn 72), from the guide\'s. GPT\'s own wording dropped the "I\'d"; I kept it, as GPT advised for the other "I\'d" lines.', 'the point-of-view read, 1.4; GPT\'s review: revise for meaning')
 wording('P5', 'A real-life child of yours, or a calm pet, can also act as a companion that brings out the relationship with your own inner child.',
         'A real-life child of yours, or a calm pet, can also act as a companion that brings out the relationship with your own inner child. '
         'My son did that for me, and I think that\'s very common for parents.',
@@ -240,6 +240,16 @@ review = {
 }
 probs = sr.check(review, BL)
 assert not probs, probs
+# The owner-delivery gate (docs/HUMANIZATION-OWNER-DELIVERY-GATE.md): every new model-written sentence on the page is the
+# exact text the gate delivered (experiments/t110-gate/<name>/FOR-JOEL.txt), so the page shows nothing it didn't admit.
+GATE = HERE.parent / 't110-gate'
+SHOWN = {x['id']: '\n\n'.join(r['text'] for r in x['reads']) if x.get('reads') else x['edits'][0]['after'] for x in S if x.get('edits')}
+for name, sid in (('S1-nurturer', 'S1'), ('S1-watch', 'S1'), ('S1-protective', 'S1'), ('P2', 'P2'), ('P5', 'P5'), ('P6', 'P6')):
+    out = GATE / name / 'FOR-JOEL.txt'
+    if '--draft' in sys.argv:
+        continue
+    assert out.exists(), 'not admitted by the gate yet: ' + name
+    assert SHOWN[sid].count(out.read_text(encoding='utf-8')) == 1, name
 (HERE / 'REVIEW.json').write_text(json.dumps(review, indent=1, ensure_ascii=False) + '\n', encoding='utf-8')
 html = sr.page(review, MD, BL)
 (HERE / 'REVIEW.html').write_text(html, encoding='utf-8')

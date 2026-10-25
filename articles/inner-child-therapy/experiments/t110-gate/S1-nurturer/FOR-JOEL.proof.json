@@ -1,0 +1,59 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_ADMITTED_V1",
+  "candidate_sha256": "4faf6c61ff0febb35989f49dfa97d424e274788a47fbf81cc56e4cc7549234c4",
+  "context_sha256": "2610d1c9f4b9b5c0646773e96a6b243ced100967a19011539297bf7f966174ae",
+  "source_sha256": "0bc3523f02ef34bdb72ca58f9a84004e89d6078a9c5c7dd3831b0c0f3c6a2fbb",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "lint_verdict": "REVIEW",
+  "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+  "lint_stdout_sha256": "9929805ae5a5e2638b7aa6d1593af6500fb82ea313ca4b0b905dace508a786cf",
+  "lint_findings": [
+    {
+      "label": "B7 short landing at paragraph end",
+      "examples": [
+        "I'd still keep the Nurturer voice."
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    }
+  ],
+  "tell_ledger_counts": {
+    "ABSENT": 32,
+    "PRESENT_JUSTIFIED": 1,
+    "UNCERTAIN": 0,
+    "total": 33
+  },
+  "justified_tells": [
+    "T18"
+  ],
+  "reviews": {
+    "preservation": {
+      "path": "REVIEW-preservation.json",
+      "sha256": "58a0c50caf1defc06cc65834ebbf8aeda32d6a566eae10996afbc3783e0f3e58",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+        "context_id": "t110-gate-preservation-subagent",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01NbUfhcTaRT8sbjyYV1wEFq (the writer's session)"
+      }
+    },
+    "cold_read_1": {
+      "path": "REVIEW-cold_read_1.json",
+      "sha256": "87fe138c5b40c013a35e7d9410958c433f8eee51f35f8044e403c9161cbcb640",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+        "context_id": "t110-gate-cold_read_1-subagent",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01NbUfhcTaRT8sbjyYV1wEFq (the writer's session)"
+      }
+    },
+    "cold_read_2": {
+      "path": "REVIEW-cold_read_2.json",
+      "sha256": "ff2e8572644ab6906f59a40f4c9feedb6699cdeec77e3d29249cd04383ac1239",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+        "context_id": "t110-gate-cold_read_2b-subagent",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01NbUfhcTaRT8sbjyYV1wEFq (the writer's session)"
+      }
+    }
+  },
+  "manifest_sha256": "dd60ca367ceb55c275843a5d6ac3dd1588932506d66719fc4faafc7bbf6ad704",
+  "verified_at_utc": "2026-10-25T19:07:41.477932+00:00"
+}

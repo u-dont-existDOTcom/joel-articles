@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "4faf6c61ff0febb35989f49dfa97d424e274788a47fbf81cc56e4cc7549234c4",
+  "context_sha256": "2610d1c9f4b9b5c0646773e96a6b243ced100967a19011539297bf7f966174ae",
+  "source_sha256": "0bc3523f02ef34bdb72ca58f9a84004e89d6078a9c5c7dd3831b0c0f3c6a2fbb",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+    "context_id": "t110-gate-cold_read_2b-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01NbUfhcTaRT8sbjyYV1wEFq (the writer's session)"
+  },
+  "evidence": "Judged 'I'd still keep the Nurturer voice.' against its source 'I'd still keep it the same.' and the section (the shared S1 context also carries the other two S1 edits, which I judge separately). It does what the_change says: right after 'A harder voice can seem more fitting for something that's been in your way', 'it the same' could point at the harder voice, and the draft names the thing kept. Meaning is unchanged and no claim is added: 'Nurturer voice' is already in the section ('the same Nurturer voice you meant for your little one' in its first paragraph, 'the role of the Nurturer' in the next), so no new term or fact (C04, C03 absent; C01 fine). The next sentence's 'that voice' / 'borrow it' now clearly mean the Nurturer voice, so C02 improves; the repeated 'voice' is the whole point of the edit, so T26 is absent. Same length as the source (6 words) and a plain name for a referent, not a rarer-word swap (T15 absent). 'I'd' is the source's own recommendation, not an announced stake (T01 absent). Went through T01-T29 and C01-C04: only T18 is really happening. The writer's PRESENT on T18 is real in form (concession 'A harder voice can seem more fitting', then a short flip), and I agree it is justified: it is the author's own structure carried over from the source, the flip is the actual advice rather than a reflex twist, it answers a pull a reader really has toward being harsh with a part that is in the way, and a new consideration follows ('If that voice isn't there in you yet, borrow it from someone who's been safe for you'). Linter B7 'short landing at paragraph end': the draft file is one lone sentence, so the linter treated it as the paragraph's end; in context it is the second of three sentences and a longer conditional sentence follows, so it does not land the paragraph. Accepted as answered by the context.",
+  "resolved_tell_ids": ["T18"],
+  "resolved_lint_labels": ["B7 short landing at paragraph end"]
+}

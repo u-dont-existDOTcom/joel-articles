@@ -12,7 +12,7 @@
   "file": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
   "sha256": "0aac146cddbef680aebf7f7eef030abbc6a6ca80c89f1350679ecc057efa3749"
  },
- "built": "2026-10-25 18:06 UTC",
+ "built": "2026-10-25 19:08 UTC",
  "links": {
   "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
   "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t110-review/REVIEW.json"
@@ -557,16 +557,16 @@
     {
      "block": 39,
      "before": "How do you check that? I'd keep whatever you feel around them, and look at their track record. Do they respect a no, or keep pushing on it, and what happens when you disagree? If something outside of them backs up what they're telling you, and it all adds up, that's a good sign.",
-     "after": "How do you check that? Keep what you feel around them in mind, and look at their track record too. Do they respect a no, or keep pushing on it, and what happens when you disagree? If something outside of them backs up what they're telling you, and it all adds up, that's a good sign."
+     "after": "How do you check that? I'd keep what you feel around them in mind, and look at their track record too. Do they respect a no, or keep pushing on it, and what happens when you disagree? If something outside of them backs up what they're telling you, and it all adds up, that's a good sign."
     }
    ],
    "inserts": [],
    "moves": [],
-   "what": "GPT's wording, so it says what to do with the feeling.",
+   "what": "GPT's wording, with your \"I'd\" kept, so it says what to do with the feeling.",
    "why": "\"Keep whatever you feel\" can mean keep feeling it, remember it or trust it. GPT: \"Removing 'I'd' leaves that ambiguity intact.\"",
    "stays": "The questions after it: whether they respect a no, what happens when you disagree, and what backs them up.",
    "deciding": "Approve puts it in. Reject keeps it as it is.",
-   "advice_note": "The line is mine (turn 72), from the guide's.",
+   "advice_note": "The line is mine (turn 72), from the guide's. GPT's own wording dropped the \"I'd\"; I kept it, as GPT advised for the other \"I'd\" lines.",
    "found_by": "the point-of-view read, 1.4; GPT's review: revise for meaning",
    "approve_label": "use this wording"
   },

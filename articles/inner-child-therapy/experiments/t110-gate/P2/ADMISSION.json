@@ -1,0 +1,240 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "a27e62e5b48c0ded287b76188159a81ec95b6ce2fca9939b5275d350cc50ed73",
+  "context_sha256": "22a2cd69f4c1997b1747d911356e5b2e53b20b93360e178f231fc90fe519af07",
+  "source_sha256": "c84684ac2a3731b598a90663c83a5a83ef9bcb89e2f5b4a13e79cbd1ebf14dfa",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "writer": {
+    "name": "GPT, in Joel's review of the turn-109 sheet (experiments/t110-answers/GPT-REVIEW-20261025.md), adopted with \"I'd\" kept by Claude Opus 5.5",
+    "context_id": "chatgpt-review-20261025 (GPT-REVIEW-20261025.md sha256 2ecd1b53576b9a0349641c3755072001c45f13c418aafbd12f079dc58aeac687)"
+  },
+  "lint": {
+    "verdict_at_init": "REVIEW",
+    "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+    "stdout_sha256": "1b0fc999d95f5225284f0b1a2a31db518e82ca5a2a68ed690dd1ea3f0b3a51c2",
+    "findings": [
+      {
+        "label": "D9 follows the source order",
+        "examples": [
+          "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "It is the source sentence with its meaning made plain, so it follows the source's order by design."
+      },
+      {
+        "label": "E36/E41 heavy second person",
+        "examples": [
+          "6.2 \"you\" per 100 of my words"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "One \"you\" in a 16-word sentence that answers \"How do you check that?\"; the second person is the reader running the check, and the paragraph has no run of coaching lines."
+      }
+    ]
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "\"I'd\" is the source's (\"I'd keep whatever you feel around them\"); it is the step that answers \"How do you check that?\"",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "one step between the question \"How do you check that?\" and the concrete questions \"Do they respect a no, or keep pushing on it\"",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "the sentence before it in the context sets it up; nothing new arrives unprepared in \"I'd keep what you feel around them in mind, and look at their track record too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "no scene in \"I'd keep what you feel around them in mind, and look at their track record too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "no concrete prop in \"I'd keep what you feel around them in mind, and look at their track record too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "no vague healing or process language in \"I'd keep what you feel around them in mind, and look at their track record too.\"; its terms are the article's own",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "no filler or staged hesitation in \"I'd keep what you feel around them in mind, and look at their track record too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "no image followed by an explanation of it in \"I'd keep what you feel around them in mind, and look at their track record too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "one change in one passage; \"I'd keep what you feel around them in mind, and look at their track record too.\" gets the weight its point needs, the rest of the passage is unchanged",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "no \"you don't have to X before Y\" packaging in \"I'd keep what you feel around them in mind, and look at their track record too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "\"I'd keep what you feel around them in mind, and look at their track record too.\" carries a claim or step, not a bridge between document parts",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "no matched pair or closed list in \"I'd keep what you feel around them in mind, and look at their track record too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "the passage around \"I'd keep what you feel around them in mind, and look at their track record too.\" keeps its reasons, asides and callbacks; the change adds none of its own and removes none",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "no material moved to dodge a detector: the change in \"I'd keep what you feel around them in mind, and look at their track record too.\" is a referent or readability fix both reviews asked for",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "\"keep whatever you feel\" became \"keep what you feel ... in mind\": it says what to do with the feeling, which GPT found ambiguous (\"Keep feeling it? Remember it? Trust it?\")",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "no \"not X, it's Y\" in \"I'd keep what you feel around them in mind, and look at their track record too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "ABSENT",
+      "evidence": "no compressed thesis or aphorism in \"I'd keep what you feel around them in mind, and look at their track record too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "no premise flipped by a short sentence in \"I'd keep what you feel around them in mind, and look at their track record too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "\"I'd keep what you feel around them in mind, and look at their track record too.\" does not announce what comes next",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "\"I'd keep what you feel around them in mind, and look at their track record too.\" is not a polished paragraph-ending line",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "ABSENT",
+      "evidence": "\"I'd keep what you feel around them in mind, and look at their track record too.\" does one job, not several coordinated argumentative jobs",
+      "resolution": ""
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "it pairs the reader's felt sense with a check of behavior, and the questions after it make the check concrete",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "no generic scenery in \"I'd keep what you feel around them in mind, and look at their track record too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "no faux-insight setup or self-answered question in \"I'd keep what you feel around them in mind, and look at their track record too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "no colon reveal in \"I'd keep what you feel around them in mind, and look at their track record too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "ABSENT",
+      "evidence": "no distinctive word or phrase in \"I'd keep what you feel around them in mind, and look at their track record too.\" repeated within three paragraphs without a job",
+      "resolution": ""
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "none of the tic words (\"doing some work\", \"load-bearing\", \"digest\", \"clean\", vague \"work\") in \"I'd keep what you feel around them in mind, and look at their track record too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "\"I'd keep what you feel around them in mind, and look at their track record too.\" is not the end of its section",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "\"I'd keep what you feel around them in mind, and look at their track record too.\" is not a closing restatement of its paragraph",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "the inner child is not named in \"I'd keep what you feel around them in mind, and look at their track record too.\", and \"the kid\" appears nowhere in it",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "every pronoun in \"I'd keep what you feel around them in mind, and look at their track record too.\" points at something named just before it",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "no first-person fact about Joel's life in \"I'd keep what you feel around them in mind, and look at their track record too.\" that he didn't give",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "no claim about a study, person or product in \"I'd keep what you feel around them in mind, and look at their track record too.\"",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "REVIEW-preservation.json",
+    "cold_read_1": "REVIEW-cold_read_1.json",
+    "cold_read_2": "REVIEW-cold_read_2.json"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "cc8b632e6c482e6dadd5d8a500636c067ffe57c48cf54502c0748d3316a1bf57",
+  "context_sha256": "2610d1c9f4b9b5c0646773e96a6b243ced100967a19011539297bf7f966174ae",
+  "source_sha256": "950b11f82460d30a95efd2c4d7e90860c8febd592f7ea7934bc62761ab41fcf7",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+    "context_id": "t110-gate-preservation-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01NbUfhcTaRT8sbjyYV1wEFq (the writer's session)"
+  },
+  "evidence": "Source: \"It can keep watch while you take one small step toward your little one, and I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it off if things got to be too much.\" Draft: the same sentence split in two, \"...toward your little one. I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it all off if things got to be too much.\" Word-by-word diff: exactly two edits, \", and I think\" to \". I think\" and \"call it off\" to \"call it all off\"; every other word is identical (the part keeps watch, the one small step, \"watching is what it wants anyway\", the grown-up, \"if things got to be too much\"). The voice marker \"I think\" and its hedge survive. The dropped \"and\" only joined the clauses; \"anyway\" still carries the link, so no claim, step or qualification is lost or added. \"call it all off\": \"call off\" is also what one does to a dog, so \"it\" right after \"a grown-up... who could\" reads as the guard; \"it all\" cannot be the guard and reads as the whole thing, which is what the_change says. The scope is slightly wider (everything stops), and in context (\"if things got to be too much\") that is the intended reading. The next sentence, \"It doesn't have to be all or nothing, either.\", then reads as a deliberate contrast, so the two \"all\"s are not an unearned repetition (T26 absent). Linter D9 follows the source order: expected for a two-edit change of the source's own sentence; the paragraph does notice things as it goes (\"It's been living there way longer than the grown-up you\", the blinds \"tilted open a crack\", \"If it says no, I'd listen\", keeping an eye on that part), so T13 and T09 are absent; accepted as resolved. The split produces no cadence (T02 absent), no bridge or announcement (T11, T19), no thought-completion (T29: the tail adds what the part wants to find out). The first person is the source's \"I think\", so T01 and C03 are absent; C02 is improved, not worsened. No writer-marked rows; I found none PRESENT. Also read the combined S1 context, which holds all three S1 edits: no clash.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": ["D9 follows the source order"]
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "76684ed00562c39cc544d060e206372a56ae686ccb73a06e4772a3242da47f6c",
+  "context_sha256": "ef88a4fb55e50cb9d512a525fda80dba52a05f3909377976f35cc2e75c740ec3",
+  "source_sha256": "b513580db11f92d74b451207502331d248dd036b5edebdc794b770c13c245771",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "t110-gate-cold_read_1-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01NbUfhcTaRT8sbjyYV1wEFq (the writer's session)"
+  },
+  "evidence": "Read as a first-time reader. Draft: 'My son did that for me, and I think that's very common for parents.' It is inserted between 'A real-life child of yours, or a calm pet, can also act as a companion that brings out the relationship with your own inner child.' and 'But those are also their own beings with their own needs as well.' SOURCE.txt gives the author's answer: 'I actually used my son (i shouldn't say used) to reconnect with my inner child, and I think that's very common for parents.' (1) It does what the_change says: one sentence added after the paragraph's first, built from his answer. (2) Meaning and C03: every fact in it is his (he has a son, the son helped him reconnect with his own inner child, he thinks that is common for parents). 'That' in 'did that for me' is the companion function in the sentence before, which is his 'reconnect with my inner child'. 'Actually' is dropped, and 'used' is replaced by the son as the doer, which respects his own note that he should not say 'used' and fits the sentences after it ('their own beings with their own needs', 'without making them responsible'). 'Did that for me' makes the son the giver rather than a thing used; I see no added fact or intent. 'Very common for parents' is his own hedged ('I think') claim, kept as given and not fact-checked, per the editing-pass rule. (3) Pronouns: the first 'that' points to the companion function in the previous sentence and the second ('that's very common') to a child doing that for a parent; they resolve differently but each reads clearly. After the insertion 'parents' is the nearest plural noun before 'But those are also their own beings'; I checked it and 'those' still resolves to the child or pet, because 'parents are also their own beings' makes no sense after that 'But' and 'Let them come and go' follows. The 'But' now also tempers the 'very common' line. (4) It reads as natural Joel voice and follows from the general claim as an example. Linter 'D9 follows the source order' is the single-sentence artifact (1/1 paragraphs, agreement 1.00); the added sentence is a personal example plus his own observation, not a slot-filler; accepted. The writer marked no row PRESENT and I agree. Considered and not present: T01 (first person is source-earned, supplied by Joel, with a reader reason: an example and a note that it is normal), T22 ('that's very common' reassures, but it is his own claim from experience, not a generic coach line), T08 (the second clause is a generalisation he made, not an explanation of an image), T29, T17, T07, T23, T05 (a real son, not a convenient prop), C01, C02, C04.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order"
+  ]
+}

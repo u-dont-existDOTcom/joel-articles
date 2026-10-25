@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "b2513352bc91a8de3a78eb85da81566b6b6f7267f493d83190d319810f91eeaf",
+  "context_sha256": "2610d1c9f4b9b5c0646773e96a6b243ced100967a19011539297bf7f966174ae",
+  "source_sha256": "6551d27bdb2d8c095f1e6fa2c20f0c5f82aef4742be57ad7197680c751c4fc2b",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+    "context_id": "t110-gate-cold_read_2b-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01NbUfhcTaRT8sbjyYV1wEFq (the writer's session)"
+  },
+  "evidence": "Judged 'Blaming yourself can be doing a protective job, too.' against its source 'Blaming yourself can be doing a job like that, too.' and the section (the shared S1 context also carries the other two S1 edits, judged separately). The only change is 'a job like that' becoming 'a protective job'. In the source, 'like that' points back to the guard in the paragraph before, which is scared of getting its hopes up and so calls everything stupid, i.e. a protecting job; 'protective' names that job, so the meaning is kept and the first-time-reader gap is closed. No claim is added: the section is about protective parts ('Whichever protective part showed up', 'Your Protector', heading 'Hear the Guard First'), and the paragraph's own next sentences carry the protective logic ('if it's your fault, maybe you can fix it before they leave'), so self-blame doing a protective job is the source's claim, not a new one. 'too' still ties it to the guard's job. 'protective' is not a rarer-word swap (T15 absent); its reuse from paragraph one is the point of the edit, so T26 is absent. 'job' is the source's own word and 'protective' makes it specific, so it is not the vague 'does its work' of T27 or the generic abstraction of T06, since the sentences after it make it concrete. Went through T01-T29 and C01-C04: T17 considered (a thesis-shaped opener) but it opens an argument that the next sentences unpack, it does not close a thought, and it is the source's structure; nothing else is happening. Linter B7 'short landing at paragraph end': the draft file is a lone sentence, but in context it is the first of five sentences in its paragraph, an opener, not a landing, and one word shorter than the source; answered by the context. Linter D9 'follows the source order': a one-phrase edit trivially keeps the source's order and preservation requires it; T13 and T09 are not at issue in a paragraph that notices things ('word for word', 'fix it before they leave'); answered by the context.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": ["B7 short landing at paragraph end", "D9 follows the source order"]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "a27e62e5b48c0ded287b76188159a81ec95b6ce2fca9939b5275d350cc50ed73",
+  "context_sha256": "22a2cd69f4c1997b1747d911356e5b2e53b20b93360e178f231fc90fe519af07",
+  "source_sha256": "c84684ac2a3731b598a90663c83a5a83ef9bcb89e2f5b4a13e79cbd1ebf14dfa",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+    "context_id": "t110-gate-preservation-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01NbUfhcTaRT8sbjyYV1wEFq (the writer's session)"
+  },
+  "evidence": "Source: \"I'd keep whatever you feel around them, and look at their track record.\" Draft: \"I'd keep what you feel around them in mind, and look at their track record too.\" Word-by-word diff: \"whatever\" becomes \"what\", \"in mind\" is added after \"around them\", \"too\" is added at the end; nothing else changes. This matches the_change exactly. The voice marker \"I'd\" survives and both of the source's actions survive (hold on to what you feel around them; look at their track record). The edit commits to one reading of the ambiguous \"keep\" (keep it in mind), the least committal of the three the reviewer listed (keep feeling it, remember it, trust it); it fits the paragraph, which treats the feeling as one input beside concrete tests (\"Do they respect a no, or keep pushing on it, and what happens when you disagree?\"), so it adds no claim. Two small losses I looked at and accept: \"whatever\" (any feeling, justified or not) becomes \"what you feel\", which still covers whatever the reader feels; and \"too\" makes the track record an addition to the feeling instead of its parallel, which is harmless. Linter E36/E41 heavy second person (6.2 \"you\" per 100 words): this is an artifact of a short sentence, one \"you\" in 16 words is 6.25 per 100; the source had the same single \"you\" in 12 words (8.3 per 100), so the edit adds no second person and lowers the density. In context the second person is plain advice with an \"I'd\" stance and concrete checks, not reassurance-only (T22 absent) and not generic-specific scenery (T23 absent); accepted as resolved. Linter D9 follows the source order: expected for a three-word edit; the paragraph notices things as it goes (a no being respected or pushed on, disagreement, outside backing that adds up), so T13 and T09 are absent; accepted as resolved. T02 considered because the paragraph runs question, check, questions, condition; that cadence is the source's and the edit adds no beat. T21: the sentence has two coordinated jobs, but that is the source's structure and unchanged. No writer-marked rows; I found none PRESENT. Not part of this change and not judged: the unchanged line before it, \"The test is whether the relationship makes me more grounded, truthful, and free.\", switches to first person inside a second-person passage; the author may want to look at it.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": ["D9 follows the source order", "E36/E41 heavy second person"]
+}
