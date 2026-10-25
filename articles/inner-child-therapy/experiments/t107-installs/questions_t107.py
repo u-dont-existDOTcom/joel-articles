@@ -3,6 +3,7 @@
 Pull request #233 is merged (2026-10-24 23:45 UTC), so the to-do item names the turn-107 pull request once it's open:
   questions_t107.py            the update (the pull request named generally)
   questions_t107.py --pr N     names pull request #N in the to-do item and the head line
+  questions_t107.py --round6    round 6's to-do item once its two drafts are pasted
 Every file the page points to is a link (tools/humanization/repo_links.py; questions_page.py refuses a path)."""
 import pathlib
 import re
@@ -15,6 +16,33 @@ T = 'https://github.com/u-dont-existDOTcom/joel-articles/tree/handoff/claude-dan
 E = B + 'articles/inner-child-therapy/experiments/'
 UDA = 'https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/'
 s = P.read_text(encoding='utf-8')
+
+if '--round6' in sys.argv:
+    # after the two drafts are pasted (experiments/t107-substack/PASTED.json)
+    ED = 'https://ibogaqueen.substack.com/publish/post/'
+    old = ('### 🔵 Round 6, the next whole-article check (turn 107)\n\nYour two sections and your answers on the acacia line and the typo are '
+           'in, so it comes next: one whole-article check through the two temporary Substack drafts, covering everything since round 5 '
+           '(turns 100 to 107).')
+    assert old in s
+    s = s.replace(old, '### 🟠 Round 6: send me the two result links (turn 107)\n\nThe whole article is in two temporary Substack drafts, '
+                  'covering everything since round 5 (turns 100 to 107), and both are open in your Brave, in Claude\'s tab group, each on its '
+                  'paid preview. In each one, click the green "Human" label next to the author\'s name, then "View Full Analysis", and send '
+                  'me the result page\'s link ("Copy shareable link to result"), as you did for round 5. If the tabs are closed, open '
+                  '[draft A](%s221982879) or [draft B](%s221983135), then Preview, and "Paid subscriber view" at the top. The label\'s word '
+                  'isn\'t the result; the result page\'s windows are what I read. That takes about two minutes.' % (ED, ED))
+    old = ('### 🔵 The two temporary Substack drafts: keep them for round 6 (turn 100)\n\n"Inner Child, draft A (temp, delete after)" and '
+           '"Inner Child, draft B (temp, delete after)" hold round 5\'s text. Round 6 will reuse them, so they stay until its results are in.')
+    assert old in s
+    s = s.replace(old, '### 🔵 The two temporary Substack drafts: keep them until round 6 is read (turn 107)\n\nRound 5\'s two drafts were no '
+                  'longer in your drafts list, so round 6 is in two new ones with the same titles, "Inner Child, draft A (temp, delete after)" '
+                  'and "Inner Child, draft B (temp, delete after)". They stay until its results are read.')
+    old = 'For you to do: merge pull request #239.'
+    assert old in s
+    s = s.replace(old, 'For you to do: merge pull request #239, and send round 6\'s two result links.')
+    s = s.replace('None right now. Round 6, below, comes next.', 'None right now. Round 6, below, needs two links from you.')
+    P.write_text(s, encoding='utf-8')
+    print('round 6 to-do in')
+    sys.exit(0)
 
 if '--pr' in sys.argv:
     n = sys.argv[sys.argv.index('--pr') + 1]

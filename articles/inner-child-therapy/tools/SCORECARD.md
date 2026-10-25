@@ -212,4 +212,23 @@ The latest:
 | t106-sec-hero | section | 1 of 2 | Mixed |
 | t106-sec-belong | section | 1 of 2 | Mixed |
 | t106-sec-timing | section | 2 of 2 | Mixed |
+| t107i-journey | section | 1 of 2 | pending |
+| t107i-hero | section | 1 of 2 | pending |
+| t107i-intentional | section | 1 of 2 | pending |
+| t107i-monologue | section | 1 of 2 | pending |
+| t107i-checking2 | paragraph | 1 of 6 | pending |
+| t107i-narrate3 | paragraph | 1 of 6 | pending |
+| t107i-change | section | 1 of 2 | pending |
+| t107i-guide5 | paragraph | 1 of 6 | pending |
+| t107i-ended | section | 1 of 2 | pending |
+| t107i-ifs | section | 1 of 2 | pending |
+| t107i-related1 | paragraph | 1 of 6 | pending |
+| t107i-timing | section | 1 of 2 | pending |
+| t107i-crisis | section | 1 of 2 | pending |
+| t107i-social | section | 1 of 2 | pending |
+| t107i-speak | section | 1 of 2 | pending |
+| t107i-company | section | 1 of 2 | pending |
+| t107i-belong | section | 1 of 2 | pending |
+| t107s-A | stretch | 1 of unlimited (Substack) | pending |
+| t107s-B | stretch | 1 of unlimited (Substack) | pending |
 

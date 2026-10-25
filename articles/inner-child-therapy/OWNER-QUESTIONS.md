@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-25 (turns 82 to 107). **Open questions: none.** For you to do: merge the turn-107 pull request. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-25 (turns 82 to 107). **Open questions: none.** For you to do: merge pull request #239, and send round 6's two result links. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,24 +8,24 @@ The published page, a view of this file rebuilt after every change ([questions_p
 
 ## Open questions
 
-None right now. Round 6, below, comes next.
+None right now. Round 6, below, needs two links from you.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge the pull request for turn 107
+### 🟠 Merge pull request #239 (turn 107)
 
-Turn 107: the lane's [open pull request](https://github.com/u-dont-existDOTcom/joel-articles/pulls?q=is%3Apr+is%3Aopen+head%3Ahandoff%2Fclaude-dangerous-adult-20260924-1631). Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged". (You merged #233, turns 104 to 106.)
+Turn 107: https://github.com/u-dont-existDOTcom/joel-articles/pull/239. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged". (You merged #233, turns 104 to 106.)
 
-### 🔵 Round 6, the next whole-article check (turn 107)
+### 🟠 Round 6: send me the two result links (turn 107)
 
-Your two sections and your answers on the acacia line and the typo are in, so it comes next: one whole-article check through the two temporary Substack drafts, covering everything since round 5 (turns 100 to 107).
+The whole article is in two temporary Substack drafts, covering everything since round 5 (turns 100 to 107), and both are open in your Brave, in Claude's tab group, each on its paid preview. In each one, click the green "Human" label next to the author's name, then "View Full Analysis", and send me the result page's link ("Copy shareable link to result"), as you did for round 5. If the tabs are closed, open [draft A](https://ibogaqueen.substack.com/publish/post/221982879) or [draft B](https://ibogaqueen.substack.com/publish/post/221983135), then Preview, and "Paid subscriber view" at the top. The label's word isn't the result; the result page's windows are what I read. That takes about two minutes.
 
-### 🔵 The two temporary Substack drafts: keep them for round 6 (turn 100)
+### 🔵 The two temporary Substack drafts: keep them until round 6 is read (turn 107)
 
-"Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)" hold round 5's text. Round 6 will reuse them, so they stay until its results are in. Then a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
+Round 5's two drafts were no longer in your drafts list, so round 6 is in two new ones with the same titles, "Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)". They stay until its results are read. Then a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
 
 ## Decided
 
