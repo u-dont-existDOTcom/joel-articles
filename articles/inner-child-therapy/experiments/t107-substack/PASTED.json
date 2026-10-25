@@ -1,0 +1,25 @@
+{
+ "turn": 107,
+ "commit": "dac96f36e640eaf714cb53d29e136c264a701838",
+ "how": "experiments/t88-substack/paste_payload_lane.js in his Brave (Claude in Chrome): two new drafts, since round 5's two were no longer in his drafts list; the title typed, the empty body focused, the payload fetched from raw.githubusercontent.com at the commit and its SHA-256 checked, then pasted. Never published. Each preview is in the paid subscriber view, so no paywall cuts the text.",
+ "A": {
+  "title": "Inner Child, draft A (temp, delete after)",
+  "editor": "https://ibogaqueen.substack.com/publish/post/221982879",
+  "payload_sha256": "3f464f5ed72d26acd581018ed0a4f3e2bfeb74cdaca8462a78eebafdc16b8f4d",
+  "editor_words": 15026,
+  "words_match": true,
+  "reloaded_words": 15026,
+  "pangram_badge": "Human"
+ },
+ "B": {
+  "title": "Inner Child, draft B (temp, delete after)",
+  "editor": "https://ibogaqueen.substack.com/publish/post/221983135",
+  "payload_sha256": "d1c064aa7aae8cbf66e554d670cae4143b87099e87747bb5ba5600a7f5df7645",
+  "editor_words": 12604,
+  "words_match": false,
+  "why": "the only difference from TEXT-B.txt's 12,504 words: the bare note link (one word) became the note's embed (101 words, his own note), as in rounds 3 to 5; the 8,670 words before it and the 3,833 after it match",
+  "pangram_badge": "Human"
+ },
+ "secret_links": "not recorded: anyone with one can read the draft",
+ "next": "Joel clicks each preview's Pangram label, then View Full Analysis, and sends the two result links (pangram.com/feed/...). The label's own word is not the result; the feed page's windows are. The extension's panel opens beside the page, where Claude in Chrome can't click."
+}

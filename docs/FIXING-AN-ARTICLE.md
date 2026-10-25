@@ -13,7 +13,7 @@ This page is for any worker Joel asks to fix an article: GPT, Codex or Claude. I
 
 ## 2. His words and his life
 
-- His text goes in word for word, with his apostrophes, emoji and capitals as he typed them. Fix only obvious typos, and say which.
+- His text goes in word for word, with his apostrophes, emoji and capitals as he typed them: a section or a line he writes for the article. Fix only obvious typos, and say which. An answer that explains something to you is his content, not the line (gate E261 (Inner Child)): write the article sentence from it, keeping his facts and the phrases of his that read as article prose, and show it beside his words. Joel, 2026-10-25, on three answers of his I had put in as typed: "you put in some of my things too verbatim".
 - Never add a fact about his life that he didn't state. If a paragraph needs one, ask.
 - No drug amounts or recipes, even inside a warning.
 - Plain words for the guide's therapy words. Never call the inner child "the kid".

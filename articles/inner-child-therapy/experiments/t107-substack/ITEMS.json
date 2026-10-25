@@ -1,0 +1,152 @@
+{
+ "t107i_journey": {
+  "half": "A",
+  "scope": "section",
+  "words": 715,
+  "first": "My Journey\n\nI used to preach Buddhist enlightenment too much, because that's wha",
+  "decides": "whether his My Journey (turn 107) holds inside the half",
+  "prediction": "t107i-journey#262: try 1 of 2 for t107i-journey (section), predicted Human at 0.75"
+ },
+ "t107i_hero": {
+  "half": "A",
+  "scope": "section",
+  "words": 307,
+  "first": "Not Every Hero Wears A Cape\n\nSet one boundary. “What’s a ‘boundary’?”, I might b",
+  "decides": "whether his first three paragraphs (turn 107) hold inside the half",
+  "prediction": "t107i-hero#263: try 1 of 2 for t107i-hero (section), predicted Human at 0.75"
+ },
+ "t107i_intentional": {
+  "half": "A",
+  "scope": "section",
+  "words": 173,
+  "first": "Make It Intentional\n\nIntentional, meaning you pick one of those acts and decide ",
+  "decides": "whether the new heading's section holds in context",
+  "prediction": "t107i-intentional#264: try 1 of 2 for t107i-intentional (section), predicted Human at 0.70"
+ },
+ "t107i_monologue": {
+  "half": "A",
+  "scope": "section",
+  "words": 296,
+  "first": "You Don’t Need an Inner Monologue\n\nIf you don’t hear a little kid talking in you",
+  "decides": "whether his rewrite holds where round 5 read Low 19 (P2)",
+  "prediction": "t107i-monologue#265: try 1 of 2 for t107i-monologue (section), predicted Human at 0.75"
+ },
+ "t107i_checking2": {
+  "half": "A",
+  "scope": "paragraph",
+  "words": 50,
+  "first": "Going back can still matter, even when nothing new turns up. But returning to th",
+  "decides": "whether round 5's Low 29 here was the check varying",
+  "prediction": "t107i-checking2#266: try 1 of 6 for t107i-checking2 (paragraph), predicted Human at 0.55"
+ },
+ "t107i_narrate3": {
+  "half": "A",
+  "scope": "paragraph",
+  "words": 75,
+  "first": "Do keep an ear on who's narrating, though. If the voice starts sneering, like it",
+  "decides": "whether round 5's Low 33 here (mine) was the check varying",
+  "prediction": "t107i-narrate3#267: try 1 of 6 for t107i-narrate3 (paragraph), predicted Human at 0.50"
+ },
+ "t107i_change": {
+  "half": "A",
+  "scope": "section",
+  "words": 430,
+  "first": "When to Change the Strategy\n\nWeeks in and nothing much is changing? I’d want to ",
+  "decides": "whether his rewrite holds where round 5 read four windows (P3, P4)",
+  "prediction": "t107i-change#268: try 1 of 2 for t107i-change (section), predicted Human at 0.75"
+ },
+ "t107i_guide5": {
+  "half": "B",
+  "scope": "paragraph",
+  "words": 90,
+  "first": "Once a need does show, after all that hiding, it's okay to want a lot of closene",
+  "decides": "whether my turn-100 rewrite of The Inner Guide P5 holds inside the half",
+  "prediction": "t107i-guide5#269: try 1 of 6 for t107i-guide5 (paragraph), predicted Human at 0.60"
+ },
+ "t107i_ended": {
+  "half": "B",
+  "scope": "section",
+  "words": 254,
+  "first": "When One Life Has Ended and the Next Hasn’t Begun\n\nYour little one can get reall",
+  "decides": "whether my turn-100 rewrite of its P1 holds inside the half",
+  "prediction": "t107i-ended#270: try 1 of 2 for t107i-ended (section), predicted Human at 0.60"
+ },
+ "t107i_ifs": {
+  "half": "B",
+  "scope": "section",
+  "words": 603,
+  "first": "How This Relates to IFS\n\nRichard Schwartz, who developed Internal Family Systems",
+  "decides": "whether its rewritten P7 and the E34 break hold inside the half",
+  "prediction": "t107i-ifs#271: try 1 of 2 for t107i-ifs (section), predicted Human at 0.60"
+ },
+ "t107i_related1": {
+  "half": "B",
+  "scope": "paragraph",
+  "words": 64,
+  "first": "This framework developed through the teachers and collaborators credited below a",
+  "decides": "whether round 5's Low 14 on its first line was the check varying",
+  "prediction": "t107i-related1#272: try 1 of 6 for t107i-related1 (paragraph), predicted Human at 0.55"
+ },
+ "t107i_timing": {
+  "half": "B",
+  "scope": "section",
+  "words": 148,
+  "first": "Timing Is Individual\n\nMost of us need enough Nurturer and Protector first. Other",
+  "decides": "whether the second writer's P2 holds inside the half",
+  "prediction": "t107i-timing#273: try 1 of 2 for t107i-timing (section), predicted Human at 0.60"
+ },
+ "t107i_crisis": {
+  "half": "B",
+  "scope": "section",
+  "words": 205,
+  "first": "If You Want to Kill Yourself\n\nMaybe you're reading this about to act, or with th",
+  "decides": "whether his crisis stretch holds inside the half",
+  "prediction": "t107i-crisis#274: try 1 of 2 for t107i-crisis (section), predicted Human at 0.70"
+ },
+ "t107i_social": {
+  "half": "B",
+  "scope": "section",
+  "words": 231,
+  "first": "First Social Connections, Done Right\n\nThen there are people you’re just getting ",
+  "decides": "whether his rewrite holds inside the half",
+  "prediction": "t107i-social#275: try 1 of 2 for t107i-social (section), predicted Human at 0.75"
+ },
+ "t107i_speak": {
+  "half": "B",
+  "scope": "section",
+  "words": 239,
+  "first": "Speak Toward What You Are Building\n\nIt’s not so hard to understand that words ha",
+  "decides": "whether his rewrite holds above the new heading",
+  "prediction": "t107i-speak#276: try 1 of 2 for t107i-speak (section), predicted Human at 0.70"
+ },
+ "t107i_company": {
+  "half": "B",
+  "scope": "section",
+  "words": 71,
+  "first": "Ask What Kind of Company They Want\n\nBefore giving anyone advice, your little one",
+  "decides": "whether the one-paragraph section holds under its new heading",
+  "prediction": "t107i-company#277: try 1 of 2 for t107i-company (section), predicted Human at 0.65"
+ },
+ "t107i_belong": {
+  "half": "B",
+  "scope": "section",
+  "words": 126,
+  "first": "You Belong Everywhere and Nowhere\n\nThe Guide also points beyond itself, toward s",
+  "decides": "whether its 0.0137% through the API was the check varying",
+  "prediction": "t107i-belong#278: try 1 of 2 for t107i-belong (section), predicted Human at 0.60"
+ },
+ "t107s_A": {
+  "half": "A",
+  "scope": "stretch",
+  "words": 15026,
+  "decides": "which of the rewrites since round 5 hold inside half A, and whether the half can read 100% Human",
+  "prediction": "t107s-A#279: try 1 of unlimited (Substack) for t107s-A (stretch), predicted AI at 0.25"
+ },
+ "t107s_B": {
+  "half": "B",
+  "scope": "stretch",
+  "words": 12504,
+  "decides": "which of the rewrites since round 5 hold inside half B",
+  "prediction": "t107s-B#280: try 1 of unlimited (Substack) for t107s-B (stretch), predicted AI at 0.25"
+ }
+}
