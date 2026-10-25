@@ -4,7 +4,8 @@
 
 Each paragraph of ALLOWED.txt is one sentence: the new sentences (under 80% of their words in one sentence before) of every suggestion that went into the guide on
 2026-10-25 (his answers, ../review/APPLIED.json: approved, his own versions, and those he left to my advice), with the
-follow-on fixes listed there. The inner child guide (../ic-align/IC-GUIDE.txt, his own published guide) is passed to the
+follow-on fixes listed there; and since his answers to question 20 (APPLIED-20.json), the new sentences of the
+cards he approved there and of his own versions. The inner child guide (../ic-align/IC-GUIDE.txt, his own published guide) is passed to the
 check as a second allowed file.
 """
 import difflib
@@ -52,6 +53,12 @@ for s in review['suggestions']:
         out += sents(ins['text'])
 for p in applied['paragraphs']:
     if p['after']:
+        out += new_ones(p['after'], p['before'])
+# his answers to question 20, the Emulate check page (2026-10-25 23:05 UTC; APPLIED-20.json, apply_answers_20.py): the
+# new sentences of the cards he approved and of his own versions
+a20 = HERE / 'APPLIED-20.json'
+if a20.exists():
+    for p in json.loads(a20.read_text(encoding='utf-8'))['paragraphs']:
         out += new_ones(p['after'], p['before'])
 seen, lines = set(), []
 for x in out:
