@@ -218,4 +218,25 @@ The latest:
 | t109-guard-plain | paragraph | 4 of 6 | Mixed |
 | t109-start-plain | paragraph | 1 of 6 | Mixed |
 | t111-belonging | paragraph | 2 of 6 | AI |
+| t112i-dontgive | section | 1 of 2 | pending |
+| t112i-illwill | section | 1 of 2 | pending |
+| t112i-lovenotyet | section | 1 of 2 | pending |
+| t112i-borrowlove | section | 1 of 2 | pending |
+| t112i-lovewait | section | 1 of 2 | pending |
+| t112i-remind | section | 1 of 2 | pending |
+| t112i-hook | section | 1 of 2 | pending |
+| t112i-justlikeme | section | 1 of 2 | pending |
+| t112i-photos | section | 1 of 2 | pending |
+| t112i-close | section | 1 of 2 | pending |
+| t112i-whatever | section | 1 of 2 | pending |
+| t112i-guard | section | 1 of 2 | pending |
+| t112i-belonging | section | 1 of 2 | pending |
+| t112i-bad | section | 1 of 2 | pending |
+| t112i-borrowed | section | 1 of 2 | pending |
+| t112i-hardest | section | 1 of 2 | pending |
+| t112i-forgive | section | 1 of 2 | pending |
+| t112i-missing | section | 1 of 2 | pending |
+| t112i-ifs | section | 1 of 2 | pending |
+| t112s-A | stretch | 1 of unlimited (Substack) | pending |
+| t112s-B | stretch | 1 of unlimited (Substack) | pending |
 

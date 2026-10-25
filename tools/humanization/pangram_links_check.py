@@ -26,7 +26,19 @@ file it points to is a link he can click, never a path in the repository (repo_l
 have no idea where the 3 files are that i'm supposed to read"). A link in it goes to a page he can read, never to a
 folder (Joel, 2026-10-25 12:39 UTC, on two folder links in my message: "edit wasn't even a page, it was a directory so i
 wasn't sure what that was for").
+
+With --chat, a lane turn's final message (one that ends with a handoff's resume line, "Continue my ... work: on my laptop,
+read ~/claude-acceptance-transfer/handoffs/....md") also needs the whole article sent with it: pass each file sent with the
+message as --sent FILE, and one of them must be a page from render_article_so_far.py whose article is unchanged since the
+page was made (its two <meta> tags name the Markdown and its SHA-256). OWNER-FACING-TURN-CONTRACT.md has asked for that page
+every turn since 2026-09-17, the Inner Child handoff note and the renderer said so too, and still the page dropped out of
+the turns after a context summary left it out of the routine: Joel, 2026-10-25 21:40 UTC, "idk why you stopped giving me
+the full humanized article on each turn" (E271 (Inner Child)). A turn with nothing for him to review, which the contract
+lets go without the page, says why with --nothing-to-review "REASON".
+
+  python3 tools/humanization/pangram_links_check.py --chat FINAL.md --sent ARTICLE-PAGE.html [--sent MORE ...]
 """
+import hashlib
 import pathlib
 import re
 import sys
@@ -61,6 +73,37 @@ def unpaneled_help(text):
     return [u for u in units(text) if HELP.search(u) and not PANEL_LINK.search(u)]
 
 
+# A lane turn's final message ends with the handoff's resume line (UDA cross-account-continuity.md).
+RESUME = re.compile(r'Continue my .{1,80}? work: on my laptop, read ~/claude-acceptance-transfer/handoffs/[\w.-]+\.md')
+META = re.compile(r'<meta name="article-(source|sha256)" content="([^"]*)">')
+
+
+def whole_article_gaps(text, sent, root='.'):
+    """What's wrong with the whole-article page a lane turn's final message needs (E271 (Inner Child)); [] when it's fine
+    or the message doesn't end a lane turn."""
+    if not RESUME.search(text):
+        return []
+    pages, gaps = 0, []
+    for f in sent:
+        try:
+            page = pathlib.Path(f).read_text(encoding='utf-8')
+        except (OSError, UnicodeDecodeError):
+            continue
+        meta = dict(META.findall(page))
+        if not {'source', 'sha256'} <= set(meta):
+            continue
+        pages += 1
+        src = pathlib.Path(root) / meta['source']
+        if not src.is_file():
+            gaps.append('the whole-article page %s was made from %s, which isn\'t here' % (f, meta['source']))
+        elif hashlib.sha256(src.read_bytes()).hexdigest() != meta['sha256']:
+            gaps.append('the whole-article page %s is older than %s: render it again (render_article_so_far.py)' % (f, meta['source']))
+    if not pages:
+        gaps.append('a lane turn\'s final message with no whole-article page sent: render it (render_article_so_far.py), '
+                    'send it, and pass it as --sent PAGE (OWNER-FACING-TURN-CONTRACT.md, E271)')
+    return gaps
+
+
 def units(text):
     """Paragraphs and list items: a blank line or a new list item starts the next one."""
     out, cur = [], []
@@ -83,7 +126,18 @@ def missing(text):
 
 def main(argv):
     chat = '--chat' in argv
-    paths = [a for a in argv if a != '--chat']
+    sent, paths, waive, i = [], [], None, 0
+    while i < len(argv):
+        if argv[i] == '--sent' and i + 1 < len(argv):
+            sent.append(argv[i + 1])
+            i += 2
+        elif argv[i] == '--nothing-to-review' and i + 1 < len(argv):
+            waive = argv[i + 1]
+            i += 2
+        else:
+            if argv[i] != '--chat':
+                paths.append(argv[i])
+            i += 1
     bad = 0
     for p in paths:
         text = pathlib.Path(p).read_text(encoding='utf-8')
@@ -104,6 +158,13 @@ def main(argv):
                 bad += 1
                 print('%s: a link to a folder, not a page (link the page he needs, or say what the folder holds): %s'
                       % (p, m.group(1)))
+            gaps = whole_article_gaps(text, sent)
+            if gaps and waive and waive.strip():
+                print('%s: no whole-article page, since there is nothing to review: %s' % (p, waive.strip()))
+            else:
+                for g in gaps:
+                    bad += 1
+                    print('%s: %s' % (p, g))
     print('verdict: %s' % ('FAIL' if bad else 'PASS'))
     return 1 if bad else 0
 

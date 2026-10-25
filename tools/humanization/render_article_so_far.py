@@ -20,6 +20,10 @@ with the full humanized article so far. Run this at the end of every turn and se
 file. A comment that starts with "<!-- CANDIDATE:" becomes a visible note, so a candidate
 section is never shown as accepted prose. All other comments stay invisible.
 
+The page names the Markdown it was made from and that file's SHA-256 (two <meta> tags), so the chat check can tell that the
+page sent with a lane turn's final message is the article as it stands (pangram_links_check.py --chat --sent PAGE; E271
+(Inner Child): Joel, 2026-10-25 21:40 UTC, "idk why you stopped giving me the full humanized article on each turn").
+
 Every paragraph carries its number under its heading (P1, P2, ...), from para_numbers.py, the same
 numbers the review page uses (Joel, 2026-10-11 03:47 UTC: "Why are there no numbers on many of these
 paragraphs? how do i identify them?").
@@ -30,7 +34,7 @@ and don't write it?"). An edit or claim a record says is in the article but isn'
 red box at the top, and the script exits 1. Owner edits still waiting are listed in a short
 box under it, so nothing he asked for sits unseen in a draft file.
 """
-import argparse, html, json, pathlib, re, sys
+import argparse, hashlib, html, json, pathlib, re, sys
 import markdown
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import article_images
@@ -50,6 +54,12 @@ OUT = pathlib.Path(a.out or '/mnt/user-data/outputs/%s-humanized-so-far.html' % 
 TITLE = a.title or '%s, humanized so far' % FOLDER.replace('-', ' ').title()
 
 md = SRC.read_text(encoding='utf-8')
+REPO = pathlib.Path(__file__).resolve().parents[2]
+try:
+    SOURCE = SRC.resolve().relative_to(REPO).as_posix()
+except ValueError:
+    SOURCE = str(SRC)
+SOURCE_SHA = hashlib.sha256(SRC.read_bytes()).hexdigest()
 
 
 def numbered(md):
@@ -89,6 +99,8 @@ page = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(TITLE)}</title>
+<meta name="article-source" content="{html.escape(SOURCE)}">
+<meta name="article-sha256" content="{SOURCE_SHA}">
 <style>
 body {{ max-width: 42rem; margin: 2rem auto; padding: 0 1rem; font: 17px/1.6 Georgia, serif; color: #222; background: #fff; }}
 h1, h2, h3 {{ font-family: system-ui, sans-serif; line-height: 1.25; }}
@@ -104,7 +116,7 @@ a {{ color: #0b5cad; }}
 </body></html>
 """
 OUT.write_text(page, encoding='utf-8')
-print(OUT, len(page), 'bytes')
+print(OUT, len(page), 'bytes, from', SOURCE, SOURCE_SHA[:12])
 if chk is None:
     print('owner edits: not checked (no --ledger)')
     sys.exit(0)

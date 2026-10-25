@@ -42,5 +42,52 @@ class HelpRequests(unittest.TestCase):
         self.assertEqual(P.unpaneled_help('The linter flags tells in my sentences, and a list of three reads AI.'), [])
 
 
+class WholeArticle(unittest.TestCase):
+    # E271 (Inner Child): a lane turn's final message goes with the whole article as it stands (Joel, 2026-10-25 21:40 UTC:
+    # "idk why you stopped giving me the full humanized article on each turn")
+    END = ('Done.\n\n> Continue my inner child article work: on my laptop, read '
+           '~/claude-acceptance-transfer/handoffs/inner-child-article.md and carry on from its next step.\n')
+
+    def setUp(self):
+        import hashlib
+        import tempfile
+        self.dir = tempfile.TemporaryDirectory()
+        root = pathlib.Path(self.dir.name)
+        (root / 'a').mkdir()
+        self.article = root / 'a' / 'ARTICLE.md'
+        self.article.write_text('# Title\n\nOne paragraph.\n', encoding='utf-8')
+        sha = hashlib.sha256(self.article.read_bytes()).hexdigest()
+        self.page = root / 'page.html'
+        self.page.write_text('<meta name="article-source" content="a/ARTICLE.md">\n'
+                             '<meta name="article-sha256" content="%s">\n' % sha, encoding='utf-8')
+        self.other = root / 'review.html'
+        self.other.write_text('<p>a review page</p>', encoding='utf-8')
+        self.root = str(root)
+
+    def tearDown(self):
+        self.dir.cleanup()
+
+    def test_lane_message_without_the_page_fails(self):
+        self.assertEqual(len(P.whole_article_gaps(self.END, [], self.root)), 1)
+        self.assertEqual(len(P.whole_article_gaps(self.END, [str(self.other)], self.root)), 1)
+
+    def test_current_page_passes(self):
+        self.assertEqual(P.whole_article_gaps(self.END, [str(self.other), str(self.page)], self.root), [])
+
+    def test_page_older_than_the_article_fails(self):
+        self.article.write_text('# Title\n\nOne paragraph, changed.\n', encoding='utf-8')
+        gaps = P.whole_article_gaps(self.END, [str(self.page)], self.root)
+        self.assertEqual(len(gaps), 1)
+        self.assertIn('older', gaps[0])
+
+    def test_message_that_ends_no_lane_turn_needs_no_page(self):
+        self.assertEqual(P.whole_article_gaps('A quick answer about a link.', [], self.root), [])
+
+    def test_the_renderer_writes_both_tags(self):
+        import re
+        src = (pathlib.Path(P.__file__).resolve().parent / 'render_article_so_far.py').read_text(encoding='utf-8')
+        self.assertTrue(re.search(r'<meta name="article-source"', src) and re.search(r'<meta name="article-sha256"', src))
+
+
 if __name__ == '__main__':
     unittest.main()

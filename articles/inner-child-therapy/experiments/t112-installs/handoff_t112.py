@@ -1,0 +1,76 @@
+#!/usr/bin/env python3
+"""Turn 112: articles/inner-child-therapy/HANDOFF-UPDATE.json, the update tools/humanization/handoff_note.py applies to
+~/claude-acceptance-transfer/handoffs/inner-child-article.md on Joel's laptop.
+  handoff_t112.py [--pr N] [--test NOTE]   writes the update; with --test, applies it to a copy of NOTE"""
+import json
+import pathlib
+import re
+import sys
+
+HERE = pathlib.Path(__file__).resolve().parent
+ROOT = HERE.parents[3]
+OUT = HERE.parents[1] / 'HANDOFF-UPDATE.json'
+S = 'https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq'
+BR = 'handoff/claude-dangerous-adult-20260924-1631'
+N = sys.argv[sys.argv.index('--pr') + 1] if '--pr' in sys.argv else None
+PRS = ('pull request #%s (https://github.com/u-dont-existDOTcom/joel-articles/pull/%s)' % (N, N)) if N else 'the turn-112 pull request'
+OLDPR = 'pull request #249 (https://github.com/u-dont-existDOTcom/joel-articles/pull/249)'
+e = re.escape
+
+turn112 = '\n'.join([
+    '- TURN 112 (2026-10-25, his message of 2026-10-25 21:40 UTC; by %s), the latest; its next step wins over everything below. Branch %s; %s for him to merge.' % (S, BR, PRS),
+    '  - Objective anchor (UDA): main objective, the guide humanized, every paragraph and section reading Human with the meaning kept and reading engagingly, like a good public self-help book; this turn\'s contribution, his version of Borrow Love\'s third paragraph put in word for word, the whole article sent again with a check so it can\'t drop out, round 7 pasted, and my answer on paragraph headings; scope, no new claims, no life facts he didn\'t give, his words changed only with his OK.',
+    '  - His message: experiments/t112-answers/JOEL-20261025-2140.md. 108.1 his own version ("this version passes", his check; don\'t re-check it), in by experiments/t112-installs/apply_t112.py with the two links his earlier version had ("psychological trick", PMID 21728454; "Solomon’s paradox", PMID 24916084; both opened); OWNER-EDITS joel-112-20261025, 187 of 187 pass. 108.2 A, no change.',
+    '  - Question 109 (Solomon\'s paradox): his sentence gives the name to the trick, where the study names the gap the trick gets around; my pick A, the name on the gap with the rest of his sentence, worded through tools/humanization/owner_delivery_gate.py and checked alone before he sees it; B keep his; C his wording.',
+    '  - "idk why you stopped giving me the full humanized article on each turn": the page (render_article_so_far.py) is sent again, and E271 (Inner Child) makes it a check: the renderer writes the Markdown\'s path and SHA-256 into the page, and pangram_links_check.py --chat fails a lane turn\'s final message without --sent PAGE of the current article (tests/test_pangram_links_check.py WholeArticle; OWNER-FACING-TURN-CONTRACT.md).',
+    '  - His headings idea ("give each paragraph a little heading ... they can just skip the parts that don\'t apply"; "the long game" wasn\'t clear): my answer, yes where each paragraph is its own case, no where a section tells a story or builds an argument; a pilot on Hear the Guard First comes next as proposals (the questions page, Coming up). From a first look at the sections of four or more paragraphs, the case-by-case ones are about ten: Hear the Guard First, When to Change the Strategy, Signs of Manipulation, Start With Whatever Showed Up, When Escape Leaves Reality Behind, Before You Try to Go Deep, When the Adult Voice Feels Fake, Other Folks Also Have Hooks (partly), Finding a Therapist to Borrow Adulthood (topics).',
+    '  - Round 7: experiments/t112-substack/ (make_payloads.py, PAYLOAD-A/B.html, TEXT-A/B.txt, PAYLOADS.json; make_items.py, ITEMS.json and items/, the 19 sections changed since round 6\'s paste at dac96f36, predictions #326 to #346 in batch t112-substack; PASTED.json, how it was pasted). Pasted in the built-in browser, where his Substack is signed in; he checks each preview in his Brave (the Pangram label) and sends the two pangram.com/feed links.',
+    '  - Lessons: E271 (Inner Child), a standing delivery is a check, not a memory. The next lesson in either lane is E272.',
+    '  - NEXT: Next step 1.',
+])
+next1 = ('1. Round 7\'s two result links when he sends them: read each feed page\'s windows as experiments/t108-results/record_round6.py does '
+         '(items in experiments/t112-substack/ITEMS.json), record them, and fix what a window shows. His answer to 109 (Solomon\'s paradox; my '
+         'pick A: the name on the gap, through tools/humanization/owner_delivery_gate.py and an API check alone, then to him). Then the headings '
+         'pilot on Hear the Guard First, as proposals in place in the whole article on a suggestion_review.py page: a short heading over each '
+         'case, worded the way a reader would name their own situation; a paragraph\'s first sentence changes only where it repeats its heading; '
+         'the new words through owner_delivery_gate.py one at a time; each changed paragraph of 50 words or more checked alone. If he likes it, '
+         'the other case-by-case sections together with the reshape batch (How to Forgive Without Forgetting, How Much Happiness Do You Know Is '
+         'Possible?, Borrow One Competency at a Time, Differentiation; The Parent You Inherited only with his OK), and Untangling the Belonging '
+         'Bargains P1\'s own fix. Every turn ends with the whole article sent and passed to the chat check as --sent (E271 (Inner Child)); an '
+         'open question names what it\'s about (E257), and every file named in what he reads is a link to a page, never a folder (repo_links.py).')
+upd = {
+    'turn': '112',
+    'replace': [
+        [e('TURN 111 (2026-10-25, his answers of 2026-10-25 20:08 UTC and his question of 20:14 UTC; by %s), the latest; its next step wins over everything below. Branch %s; %s for him to merge.' % (S, BR, OLDPR)),
+         'TURN 111 (2026-10-25, his answers of 2026-10-25 20:08 UTC and his question of 20:14 UTC; by %s), FINISHED. Branch %s; %s, merged.' % (S, BR, OLDPR), 1],
+        [e('this version is from turn 111 (his answers of 2026-10-25 20:08 UTC; pull request #249 for him to merge).'),
+         'this version is from turn 112 (his message of 2026-10-25 21:40 UTC; %s for him to merge).' % (('pull request #%s' % N) if N else 'the turn-112 pull request'), 1],
+        [e('turns 59 to 76 and 100 to 111 by %s' % S), 'turns 59 to 76 and 100 to 112 by %s' % S, 1],
+        [e('  - experiments/t111-answers/ (his message, his answers and the traces), t111-installs/ and t111-api/ (the latest turn), '),
+         '  - experiments/t112-answers/ (his message), t112-installs/ and t112-substack/ (round 7) (the latest turn), t111-answers/ (his message, his answers and the traces), t111-installs/ and t111-api/ (turn 111), ', 1],
+        [r"^1\. His answers to question 108 on OWNER-QUESTIONS\.md \(108\.1, Borrow Love's life's-journey line.*$", next1, 1],
+    ],
+    'insert_before': [
+        ['- TURN 111 (2026-10-25', turn112],
+        ['- A link goes to a page he can read, never to a folder',
+         '- Every turn ends with the whole article: render it (tools/humanization/render_article_so_far.py), send it, and pass it to the chat check as --sent PAGE, which fails a lane turn\'s final message without a page of the current article (E271 (Inner Child), turn 112; his 2026-10-25 "idk why you stopped giving me the full humanized article on each turn").'],
+    ],
+    'sections': {
+        '## Waiting on Joel': '\n'.join([
+            '1. Round 7: his two result links from the two temporary drafts (the questions page has the steps).',
+            '2. His answer to question 109 on OWNER-QUESTIONS.md: Solomon\'s paradox in his Borrow Love sentence (my pick: the name on the gap).',
+            '3. His merge of %s (turn 112).' % (('pull request #%s' % N) if N else 'the turn-112 pull request'),
+            '4. The two temporary Substack drafts, "Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)", hold round 7; his delete comes after its results.',
+            '5. Never in the article: amounts (the 1g, the 7g) and any recipe for what to take instead, including his "ultimate psychedelic recipe" line and its link.',
+        ]),
+    },
+}
+OUT.write_text(json.dumps(upd, indent=1, ensure_ascii=False) + '\n', encoding='utf-8')
+print('wrote', OUT)
+if '--test' in sys.argv:
+    sys.path.insert(0, str(ROOT / 'tools' / 'humanization'))
+    from handoff_note import apply
+    note = pathlib.Path(sys.argv[sys.argv.index('--test') + 1]).read_text(encoding='utf-8')
+    new, done = apply(note, upd)
+    print('\n'.join(done))
+    print(len(note), '->', len(new), 'characters')
