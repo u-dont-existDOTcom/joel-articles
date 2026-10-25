@@ -36,6 +36,7 @@ Record:
 
 - **Real pressure or question:** What problem, contradiction, danger, desire, or uncertainty makes the section necessary?
 - **Reader stake:** Why does this reader need it here, in this article?
+- **First-person relevance (owner test):** Before “I’d want,” “I’d say,” “I wouldn’t,” or similar personal-sounding advice, ask: *who cares what I want?* Does the writer’s actual choice, stake, or judgment help the reader here, or is this a model habit of presenting generic guidance as private preference? Keep it when it genuinely matters (for example, what the author would look for at a retreat); otherwise state the decision-relevant reason directly. Examine repeated usage across the passage; do not blacklist the phrase.
 - **Controlling claim:** What is Joel actually saying, at what certainty?
 - **Intellectual or lived route:** What did he know first? What bothered him? What did he try, notice, remember, read, reject, or change his mind about? Where does he stop?
 - **Actor → action → object:** Who does what to whom or what, and for what purpose?
