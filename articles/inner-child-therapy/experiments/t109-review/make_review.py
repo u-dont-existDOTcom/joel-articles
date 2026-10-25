@@ -109,10 +109,10 @@ def shape_items():
         'fields': [
             {'label': 'What happened', 'text': 'In the shape you approved, the performance paragraph read 99.8% AI alone. Four arrangements of the same sentences showed why: one line of yours, "It puts you into the role of the Nurturer, which alleviates the instinct to argue back.", carried whichever paragraph held it to Human, and the other one read AI. The plain path stripped to instructions read AI each time it had no line like that.'},
             {'label': 'The four tries', 'list': rows},
-            {'label': 'My pick', 'text': 'Keep the second try, installed now: your reply line and its reason stay together, the way you wrote them, and the plain path is short before them. Its P1 read 28% AI alone, with only Low-confidence Human windows, so a line of your own in P1 (a moment from your practice, say) would settle it; put it in the note if you have one. The section check waits for this and for the point-of-view item on "I\'d still keep it the same."'}],
+            {'label': 'My pick', 'text': 'Keep the second try, installed now: your reply line and its reason stay together, the way you wrote them, and the plain path is short before them. Its first paragraph read 28% AI alone, with only Low-confidence Human windows, so the section check decides; it comes once your decision on "I\'d still keep it the same." (the point-of-view card for this section) is in. If that paragraph still reads AI in its section, fresh readers name its tells before I ask you for anything.'}],
         'links': [{'text': 'the checks, with their windows', 'url': B + 'experiments/t109-api/API-CHECKS.md'}] +
                  [{'text': '%s, %s' % (lab.split(' (')[0].lower(), w), 'url': check_line(n)[1]} for lab, a, b in tries for n, w in ((a, 'P1'), (b, 'P3')) if n],
-        'approve': 'keep the second try (and your line in the note goes into P1).',
+        'approve': 'keep the second try.',
         'reject': 'put the section back the way it was before this turn (it read Human).'})
     # Start With Whatever Showed Up: the second try
     old = section_paras(md_old, '## Start With Whatever Showed Up')
