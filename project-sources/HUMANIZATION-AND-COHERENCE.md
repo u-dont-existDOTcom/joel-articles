@@ -36,16 +36,20 @@ Record:
 
 - **Real pressure or question:** What problem, contradiction, danger, desire, or uncertainty makes the section necessary?
 - **Reader stake:** Why does this reader need it here, in this article?
+- **First-person relevance (owner test):** Before “I’d want,” “I’d say,” “I wouldn’t,” or similar personal-sounding advice, ask: *who cares what I want?* Does the writer’s actual choice, stake, or judgment help the reader here, or is this a model habit of presenting generic guidance as private preference? Keep it when it genuinely matters (for example, what the author would look for at a retreat); otherwise state the decision-relevant reason directly. Examine repeated usage across the passage; do not blacklist the phrase.
 - **Controlling claim:** What is Joel actually saying, at what certainty?
 - **Intellectual or lived route:** What did he know first? What bothered him? What did he try, notice, remember, read, reject, or change his mind about? Where does he stop?
 - **Actor → action → object:** Who does what to whom or what, and for what purpose?
 - **Causal or chronological chain:** What has to precede what? Which relationship is causal, evidentiary, contrasting, or merely adjacent?
+- **Problem → explanations → action for advice:** Before generating a paragraph of advice, identify the actual problem, how plausible explanations or blockers differ, and what the reader would do differently depending on which one is true. If the distinction changes no decision, don't manufacture an instructional list. If the author's explanation is unresolved, preserve that uncertainty instead of treating a guess as fact. Use this as private causal reasoning before composing, **not** a sentence-by-sentence outline or recurring published prose formula.
 - **Evidence roles:** Which source, example, memory, quotation, opponent, or experience does which work? Sources need not receive equal space.
 - **Strongest complication:** What contradiction, mixed motive, unresolved alternative, or cost must remain active?
 - **Governing movement:** Inquiry, lived sequence, causal pressure, contradiction, practical threshold, evidence encounter, comparison, instruction, or another movement native to the material.
 - **Paragraph jobs:** What changes for the reader in each paragraph?
 - **Stopping point:** Where has the thought arrived? What would become recap, moral, or explanatory aftercare if added?
 - **Exact language to retain:** Which spans are exact, and why?
+
+For advice/explanation that could come from any generic article, ask whether the actual author's motive, causal account, benefit, or valued outcome is recoverable. If it is missing, do **not** fill the gap with a polished “I'd want...” preference or a model-supplied safety rationale. After drafting, use the `ACTUAL POV REQUIRED` editorial flag and evidence-ranked source/hinted/owner-choice options in `PRODUCTION-HUMANIZATION-PREFLIGHT.md`. Leave Joel's position unresolved rather than inventing it. This is not permission to replace grounded but plain analysis with gratuitous subjective opinion.
 
 Do not let an inherited assistant heading, prior outline, question sequence, source order, or detector shading decide this architecture. Preserve them only when they remain correct after the semantic reset.
 

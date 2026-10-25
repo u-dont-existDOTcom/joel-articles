@@ -69,6 +69,20 @@ Ask:
 - Does the passage stop when the thought stops?
 - Does this sound like an author thinking/speaking from the actual stakes rather than a model producing the responsible account of the topic?
 
+### Actual POV required — owner-relevance flag
+
+If a paragraph sounds like interchangeable model advice (a safety/permission ladder, generic first-person preference, polished reassurance, or tidy summary) **because its authorial reason for saying it is missing**, label the **specific span** `ACTUAL POV REQUIRED` in the **editorial review**, not the published prose. This is a source/voice gap, not proof of AI authorship. The existing T01 (fake personal stake) and T22 (coach register) catalog checks are relevant; do not add another phrase blacklist. Legitimate neutral exposition, conditional advice, and warranted caution do not need invented personal opinion.
+
+Along with the flag, report briefly:
+1. **Exact span + missing decision:** What is the reader supposed to understand or do, and what real authorial stake/cause/benefit is absent? Apply Joel's test, *"Who cares what I want?"*, to first-person advice.
+2. **Up to three possible POVs**, each tied to the actual local source/neighbor evidence and labeled:
+   - `SOURCE-SUPPORTED`: author explicitly says this (quote the source span). May be written without adding facts.
+   - `ARTICLE-HINTED`: a defensible reading of existing passages (identify the hint). An inference for Joel's review, **not** his asserted view yet.
+   - `NEW OWNER CHOICE`: a potentially useful idea not established by the supplied article. Show it as a question/option for Joel, never as prose spoken in his voice.
+3. **Recommendation:** Prefer the strongest source-supported explanation, or flag the smallest missing author decision. If no supported POV can be recovered, do not guess one for a Pangram pass. Ask **one concrete authorial question** only if it changes the eventual text; leave the unsupported line out of the ready-to-publish draft until answered.
+
+This is a *post-draft diagnostic and author-choice packet*, not a required prewriting template. Once an owner supplies a new actual POV, record it as `OWNER_REAUTHORING` when it changes the thought; don't mislabel it a same-meaning stylistic transformation. Resolve the flag before spending Pangram credits on the relevant passage; a measured Human score cannot substitute for the missing point of view.
+
 If you can still name a substantive AI-shape problem you genuinely believe, revise again **without spending Pangram**. Re-run preservation/architecture checks as required after substantive edits.
 
 Do not let preservation success clear a style/shape objection. A required claim/function may force the cognition to remain while leaving its current realization fully editable. Likewise, do not clear several `mixed` findings one-by-one without checking whether they aggregate into one definite paragraph/section pattern.
