@@ -1,0 +1,415 @@
+{
+ "page": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261025/review/REVIEW.html",
+ "passed": 74,
+ "failed": 0,
+ "results": [
+  {
+   "test": "light: one card per suggestion",
+   "pass": true,
+   "detail": "296 cards, 296 suggestions"
+  },
+  {
+   "test": "light: RR-1.1 starts with your decision",
+   "pass": true,
+   "detail": "approved"
+  },
+  {
+   "test": "light: every other card starts not approved",
+   "pass": true,
+   "detail": 1
+  },
+  {
+   "test": "light: typed comment kept",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "light: comment text legible (contrast 14.7)",
+   "pass": true,
+   "detail": {
+    "ratio": 14.67911847763172,
+    "fg": "rgb(31, 41, 55)",
+    "fill": "rgb(31, 41, 55)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "light: Approve is one click, no dialog",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: pill says Approved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: Reject",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: rejected looks different from not approved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: Revise opens your version",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: your version starts from mine",
+   "pass": true,
+   "detail": "Prior to your first session, read through the induction and the full return in w"
+  },
+  {
+   "test": "light: your-version text legible (contrast 14.7)",
+   "pass": true,
+   "detail": {
+    "ratio": 14.67911847763172,
+    "fg": "rgb(31, 41, 55)",
+    "fill": "rgb(31, 41, 55)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "light: progress counts the decisions",
+   "pass": true,
+   "detail": "4 of 178 decided · 2 approved · 1 rejected · 1 to revise"
+  },
+  {
+   "test": "light: back to not approved in one click",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: approval count is explicit approvals only",
+   "pass": true,
+   "detail": "3 of 178 decided · 1 approved · 1 rejected · 1 to revise"
+  },
+  {
+   "test": "light: type filter hides that type",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: and shows it again",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: status filter shows only approved",
+   "pass": true,
+   "detail": [
+    "approved",
+    "approved"
+   ]
+  },
+  {
+   "test": "light: search narrows the cards",
+   "pass": true,
+   "detail": 5
+  },
+  {
+   "test": "light: the ones I'd leave are hidden at first",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: and show when ticked",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: Next undecided brings one to the top",
+   "pass": true,
+   "detail": 1
+  },
+  {
+   "test": "light: Copy gives parseable JSON",
+   "pass": true,
+   "detail": "{\n \"format\": \"joel-suggestion-review-answers-v1\",\n \"review_id\": \"inner-signal-hy"
+  },
+  {
+   "test": "light: export names the review and the guide version",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: export has every suggestion",
+   "pass": true,
+   "detail": 296
+  },
+  {
+   "test": "light: comment exported word for word",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "light: statuses exported",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: Save downloads the answers",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: a reload keeps the decisions",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: a reload keeps the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: cleared storage starts fresh",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: loading the saved file restores decisions",
+   "pass": true,
+   "detail": "Loaded 4 answers."
+  },
+  {
+   "test": "light: and the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: answers for another review are refused",
+   "pass": true,
+   "detail": "Those answers are for a different review (another-review), so nothing was loaded."
+  },
+  {
+   "test": "light: bad pasted text is refused",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: no console or page errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "dark: one card per suggestion",
+   "pass": true,
+   "detail": "296 cards, 296 suggestions"
+  },
+  {
+   "test": "dark: RR-1.1 starts with your decision",
+   "pass": true,
+   "detail": "approved"
+  },
+  {
+   "test": "dark: every other card starts not approved",
+   "pass": true,
+   "detail": 1
+  },
+  {
+   "test": "dark: typed comment kept",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "dark: comment text legible (contrast 14.7)",
+   "pass": true,
+   "detail": {
+    "ratio": 14.67911847763172,
+    "fg": "rgb(31, 41, 55)",
+    "fill": "rgb(31, 41, 55)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "dark: Approve is one click, no dialog",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: pill says Approved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: Reject",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: rejected looks different from not approved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: Revise opens your version",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: your version starts from mine",
+   "pass": true,
+   "detail": "Prior to your first session, read through the induction and the full return in w"
+  },
+  {
+   "test": "dark: your-version text legible (contrast 14.7)",
+   "pass": true,
+   "detail": {
+    "ratio": 14.67911847763172,
+    "fg": "rgb(31, 41, 55)",
+    "fill": "rgb(31, 41, 55)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "dark: progress counts the decisions",
+   "pass": true,
+   "detail": "4 of 178 decided · 2 approved · 1 rejected · 1 to revise"
+  },
+  {
+   "test": "dark: back to not approved in one click",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: approval count is explicit approvals only",
+   "pass": true,
+   "detail": "3 of 178 decided · 1 approved · 1 rejected · 1 to revise"
+  },
+  {
+   "test": "dark: type filter hides that type",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: and shows it again",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: status filter shows only approved",
+   "pass": true,
+   "detail": [
+    "approved",
+    "approved"
+   ]
+  },
+  {
+   "test": "dark: search narrows the cards",
+   "pass": true,
+   "detail": 5
+  },
+  {
+   "test": "dark: the ones I'd leave are hidden at first",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: and show when ticked",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: Next undecided brings one to the top",
+   "pass": true,
+   "detail": 1
+  },
+  {
+   "test": "dark: Copy gives parseable JSON",
+   "pass": true,
+   "detail": "{\n \"format\": \"joel-suggestion-review-answers-v1\",\n \"review_id\": \"inner-signal-hy"
+  },
+  {
+   "test": "dark: export names the review and the guide version",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: export has every suggestion",
+   "pass": true,
+   "detail": 296
+  },
+  {
+   "test": "dark: comment exported word for word",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "dark: statuses exported",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: Save downloads the answers",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: a reload keeps the decisions",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: a reload keeps the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: cleared storage starts fresh",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: loading the saved file restores decisions",
+   "pass": true,
+   "detail": "Loaded 4 answers."
+  },
+  {
+   "test": "dark: and the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: answers for another review are refused",
+   "pass": true,
+   "detail": "Those answers are for a different review (another-review), so nothing was loaded."
+  },
+  {
+   "test": "dark: bad pasted text is refused",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: no console or page errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "negative fixture: the old white-box defect fails the check (contrast 1.0)",
+   "pass": true,
+   "detail": {
+    "ratio": 1,
+    "fg": "rgb(255, 255, 255)",
+    "fill": "rgb(255, 255, 255)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "phone width: no sideways scroll",
+   "pass": true,
+   "detail": [
+    390,
+    390
+   ]
+  }
+ ],
+ "not_tested": [
+  "the artifact store (db) and the downloads capability, which only exist inside claude.ai; the page falls back to this browser's storage and an ordinary download, tested here",
+  "a real phone browser (tested at phone width in Chromium)"
+ ]
+}

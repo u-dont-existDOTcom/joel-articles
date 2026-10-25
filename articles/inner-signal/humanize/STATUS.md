@@ -1,5 +1,24 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-25, after Joel's message of 14:40 UTC (the reader fixed, the inner child alignment, the review page)
+
+**The review page** is question 19 (`OWNER-QUESTIONS.md`): his whole guide with 178 suggestions marked where they apply,
+colour-coded by kind, each with Approve / Reject / Revise / Not approved yet and a comment box
+(https://claude.ai/artifact/HAPtqUNY4cYvk48TA4eYHp; Git: `fix-20261025/review/REVIEW.json` and `REVIEW.html`, made by
+`review/build_review.py` with `tools/humanization/suggestion_review.py`). It replaces questions 15 to 18. On it: the
+reread run again on the fixed brief (`clarity2/`: 80 passages, 47 offered, 32 I'd leave; three of the first reread's),
+the reader's edit (30 offered, 3 I'd leave), the caveats (32 and 36), the repeats (18 and 46), the inner child alignment
+(`ic-align/`: 43 differences with his latest inner child guide, 42 offered and his they/them for one section), and 6
+typos. His 15.1 wording is in, decided by him (RR-1.1). Tested in Chromium: 74 checks passed (`review/BROWSER-TEST.json`).
+The reread's brief is fixed (E264), and a long list of suggestions now ends with this page (E265). Nothing in the guide
+has changed yet.
+
+Predictions: none (no Pangram check this turn). Delegations (model, piece, check, outcome): 10 Sonnet readers on the
+fixed reread brief (all reported; each item checked by me against the whole guide and his referent rule: 47 offered, 32
+left, 1 folded); 2 Opus readers comparing the guide with the inner child guide (both reported, one after running out of
+output once; each quote checked word for word in both guides and each item against the InnerSignal protocol 0.2.1: 42
+offered, 1 left, 1 widened). InnerSignal protocol loaded in the main thread: 0.2.1, 1da3ddf0...7a27.
+
 ## 2026-10-25, after Joel's message of 01:01 UTC ("finish the guide first": the four-part clarity check)
 
 **The guide's clarity check, all four parts**, is questions 15 to 18 (`OWNER-QUESTIONS.md`), each with its page in

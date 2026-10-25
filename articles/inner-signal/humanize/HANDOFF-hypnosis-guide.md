@@ -111,14 +111,17 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: questions 15 to 18, its four-part clarity check (`OWNER-QUESTIONS.md`): the reread list, the reader's edit,
-the caveats and the repeats, each a page with my pick on every item. Nothing in the guide has changed for them yet.
+The guide: question 19, the review page (`OWNER-QUESTIONS.md`): his whole guide with 178 suggestions marked in place
+(https://claude.ai/artifact/HAPtqUNY4cYvk48TA4eYHp, his main account; Git: `fix-20261025/review/`). It replaces
+questions 15 to 18. His answers save in the page's store as he clicks: read them with ArtifactData (collection
+`decisions`, one document per suggestion id) when he says he's done, or from the JSON he sends. Nothing in the guide
+has changed for them yet.
 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
 
-Pull request 240 (this turn's: the four lists and my check) waits for his merge; 236 to 238 were merged on 2026-10-24
-and 25. The community lane's own state is in its handoff.
+Pull request 247 (this turn's: the review page, its tool and tests, the fixed reread brief) waits for his merge; 240 and 241
+were merged on 2026-10-25. The community lane's own state is in its handoff.
 
 ## Where it stands
 
@@ -186,7 +189,8 @@ From `fix-20261018/` unless a command says `humanize/`:
 
 The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulate-20260929/ARTICLES.md`), as it stands:
 1. The community article: reads 100% Human as one text (2026-10-25); the copy helper is with him.
-2. This guide: reads Human outside the one audit he kept; the four-part clarity read is its last step before his paste.
+2. This guide: reads Human outside the one audit he kept; the review page (the four-part clarity read and the inner
+   child alignment) is its last step before his paste.
 3. **Next new article: neuro de-armoring**, "Bottom-up Healing for Trauma & Addiction: Neurological De-Armoring +
    Brainstem Relaxation v5.1 (Sept 10, 2026)", https://ibogaqueen.substack.com/p/trauma-and-addiction-why-neurological
    (5,827 words; 37,121 characters as the check reads it, so one free whole-article check). The queue's rule: every
@@ -198,7 +202,56 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-10-25, after Joel's message of 01:01 UTC: the clarity check's questions 15 to 18 are on him)
+## Next step (2026-10-25, after Joel's message of 14:40 UTC: the review page, question 19, is on him)
+
+His message, word for word: `fix-20261025/joel-20261025-1440-message.txt`: the reread's 15.1 ("your reader is not a good
+reader ... can you fix the reader?", with his wording for the second issue), "make sure we line up all the inner child
+work with the latest inner child guide", and "give me the full HTML guide with highlighting ... and then my comment box on
+your suggestion with approve reject reivse buttons". The InnerSignal protocol was loaded in the main thread before the
+inner child review: version 0.2.1, protocol_sha256 1da3ddf06a27aa8409fe953f21e8d9053d943bf383c04d5c561e2e93bb067a27
+(read: protective compatibility, the therapy map, phenomenology, role and belief).
+
+Done (in pull request 247, https://github.com/u-dont-existDOTcom/joel-articles/pull/247):
+- **The reader fixed** (`tools/humanization/clarity_read.py` BRIEF, `clarity_examples.json` example 6, two tests; lesson
+  E264): a "this", "that", "it" or "do that" whose meaning is right before it doesn't count; a plain version changes the
+  words that stop a reader, with one bracket at most.
+- **The reread again** on the fixed brief (`fix-20261025/clarity2/`, 10 parts of the guide, `ITEMS.json`): 80 passages,
+  all found word for word. My check is the `RR` table in `fix-20261025/review/build_review.py`: offer 47 (most as a
+  smaller change of mine), leave 32, one folded into ST-8.1. Three of the first reread's still hold (`RO`).
+- **The inner child alignment** (`fix-20261025/ic-align/`: `IC-GUIDE.txt` is the inner child guide's
+  `HUMANIZED-ARTICLE-SO-FAR.md` at e5deaba2 without its comments; `READER-A.md`, `READER-B.md`): 43 differences with the
+  inner child guide's decided words. My check is `IC_CHECK` in `build_review.py`: offer 42 (B5 without "the Critic's
+  department", which this guide has no word for), leave B11 (A13 says it in "The Guide"), A4 widened into IC-T1 (they/them
+  and "your little one" through "Love doesn't have to wait for trust").
+- **The review page**: `tools/humanization/suggestion_review.py` (with `suggestion_review_template.html`) and
+  `fix-20261025/review/build_review.py` make `REVIEW.json` and `REVIEW.html`: 296 suggestions, 178 offered (reread 50,
+  structure 30, caveats 32, repeats 18, inner child 42, typos 6), 118 I'd leave (hidden until he ticks them). Every
+  edit is (old words, new words) in its paragraph, so the page shows exactly the change; `suggestion_review.py check`
+  confirms each before-text is the guide's. RR-1.1 is his 14:40 wording, pre-decided. Published as an artifact with
+  `{"db": {}, "downloads": true}` (version 1); the store was empty after publishing.
+- **Tested**: `tools/humanization/suggestion_review_browser_test.py` in Chromium, 74 checks passed
+  (`fix-20261025/review/BROWSER-TEST.json`: light and dark, typed text contrast 14.7 with a negative fixture that fails,
+  decisions, filters, Next undecided, copy and save, reload, load, a wrong review refused, phone width). Not tested: the
+  artifact store and downloads inside claude.ai (the page falls back to the browser's storage and a plain download).
+  `tests/test_suggestion_review.py`: 8 tests.
+- **Records**: `OWNER-QUESTIONS.md` (19 replaces 15 to 18), `STATUS.md`, `docs/CLARITY-READ.md`, the gate's E264 and E265.
+- Delegations (model, piece, check, outcome): 10 Sonnet readers on the fixed reread brief (all reported; my check of all
+  80 against the whole guide and his 14:40 rule); 2 Opus readers for the inner child alignment (both reported, A after
+  running out of output once; every quote checked word for word against both guides, every item against the protocol).
+
+Next:
+1. When he says he's done (or sends the JSON): read the `decisions` collection (`ArtifactData list`), write his answers to
+   `fix-20261025/review/ANSWERS.json` word for word (comments too), and apply the approved and revised ones to a working
+   copy of `HUMANIZED-SO-FAR.md` with a script: each edit by its old and new words, links and italics kept on the same
+   words, overlapping approvals on one paragraph applied in turn (the page lists them under "Also on this paragraph"),
+   IC-T1's they/them applied to the added inner child words too, a heading at the level the suggestion gives. Where he
+   approved both of two that contradict (CV-2.1 and IC-A2, IC-A17 and IC-B19, RR-2.3 and IC-A9), ask.
+2. Check every changed paragraph in Pangram where it sits (the API on the laptop, or a TEMP Substack draft), and send any
+   that read AI back to him with its result; then one whole-guide recheck, the copy helper and his paste.
+3. If he says "take your advice on the rest": the undecided ones with advice "approve" go in as approved, the rest stay.
+4. Then neuro de-armoring (queue #3, above).
+
+## Earlier next step (2026-10-25, after Joel's message of 01:01 UTC: the clarity check's questions 15 to 18 are on him)
 
 His message, word for word: `fix-20261025/joel-20261025-0101-message.txt`: "finish the guide first" (his 00:49 question,
 "ok, what's next in the queue to hum,anize now?", is beside it). The InnerSignal protocol was loaded in the main thread

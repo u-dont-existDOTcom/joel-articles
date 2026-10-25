@@ -208,7 +208,9 @@ BRIEF = '''You are a cold first-time reader of part {k} of {n} of {about}. {ques
 What counts, from his own fixes:
 {examples}
 Other things that count: several claims packed into one sentence; a chain of abstract nouns ("the functional coordination through which ..."); a foreign or technical term the reader needs but that isn't explained there or earlier in your part; a "this", "that" or "it" whose referent isn't clear; a step missing from the reasoning, so the conclusion doesn't follow for the reader; a term used before it's explained; a sentence whose point you can't state after reading it twice.
-What doesn't count: his jokes, emoji, slang, exclamations and casual grammar (that's his voice); a style you'd do differently; a term explained nearby; a long passage that is clear; a claim you disagree with (don't fact-check).
+What doesn't count: his jokes, emoji, slang, exclamations and casual grammar (that's his voice); a style you'd do differently; a term explained nearby; a long passage that is clear; a claim you disagree with (don't fact-check); a "this", "that", "it" or "do that" whose meaning is in the words right before it (he, on "but it does sort of do that" right after "remove anything from laws of nature": "do that" is clearly referring to "remove anything from the laws of nature" directly before it). Before you flag a passage, read the sentence before it and ask whether a reader really stops; flag only what you're sure of.
+
+How to write PLAIN: change the words that stop the reader, the way he did in the last example above, rather than adding words around them. A parenthetical is only for a term the reader can't know, at most one per passage; never explain a phrase whose meaning is already there, and never pile glosses into one sentence (a version of his with two parentheticals added was, he said, "actually harder to read now"). Keep his order, his images and his voice.
 
 Work quickly: read the part once, noting candidates as you go, then pick the clearest and write them down. Don't rewrite every passage in your head or weigh each one at length: a short report naming the passages that stop a reader most is the job. (2026-10-25: the reader of the first sixth of a 29,000-word guide spent its whole output deliberating and wrote nothing.)
 
@@ -218,7 +220,7 @@ Read the file {part} (one Read call; it is part {k} of {n}, headings marked "## 
 QUOTE: the passage, copied exactly character for character from the file (a sentence or two; enough to find it)
 HARD: in one line, what a reader stumbles on (which words, and why)
 SCORE: 3 (most readers would not get it), 2 (most would have to reread) or 1 (a small snag)
-PLAIN: the smallest change to his own words that a reader would get on first read: keep his words, his order, his images and his voice; change only what stops a reader, and add only the missing step or gloss (in parentheses where it fits); no summing-up line ("Put together, ...", "That's why ...", "In other words, ..."); keep every claim, name, number and citation, and add no new claim or fact
+PLAIN: the whole passage as it would read, with the smallest change to his own words that a reader would get on first read: replace the words that stop a reader with clearer ones (see "How to write PLAIN" above), keep everything else as it is; no summing-up line ("Put together, ...", "That's why ...", "In other words, ..."); keep every claim, name, number and citation, and add no new claim or fact
 
 If you find nothing that counts, write only "NOTHING". Then reply with only the number of items. Use no tools other than that one Read and that one Write, and don't use the web.
 '''
