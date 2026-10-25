@@ -20,6 +20,12 @@ rules found by comparing the rebuild with the page's text, chunk by chunk, until
 So only the windows are read from the page (a compact line each), and the rebuilt text is checked against the page's own
 SHA-256 of its text (pangram_feed_read.js prints it with the windows when asked).
 
+Two exceptions seen since (2026-10-25, the Inner Child guide's round 6, both halves matched only with them): in that paste a
+straight double quote after "(" or "—" came out as a closing one, four times ("(”Once upon a time…”", "pas—”we do"), where
+the rule above makes it an opening one; and an embedded note's line was curled ("it’s"). So when a rebuild misses the
+page's SHA-256, compare the two in chunks (a SHA-256 of each 5,000 characters on both sides finds the place fast) before
+trusting either rule; articles/inner-child-therapy/experiments/t108-results/record_round6.py shows the change it needed.
+
   python3 tools/humanization/substack_check_text.py text PAYLOAD.html [--limit 99999]
           the rebuilt text's length and SHA-256
   python3 tools/humanization/substack_check_text.py result PAYLOAD.html WINDOWS.txt META.json --out RESULT.json

@@ -1,0 +1,179 @@
+{
+ "round": 6,
+ "turn": 108,
+ "how": "Each feed page was read in his Brave through Claude in Chrome: the result's fields and the SHA-256 of its checked text, and its windows as compact lines (WINDOWS-A.txt, WINDOWS-B.txt, each checked against the page's own SHA-256 of that line). The checked text is rebuilt from the pasted payload (tools/humanization/substack_check_text.py) with two changes that this paste needed to reach the page's SHA-256:   - Substack showed a straight double quote after \"(\" or \"—\" as a closing quote (four places: Céline's song, the porch     story's \"Once upon a time\", the photos' \"You hated that coat\", and \"I hate cooking\"), where the tool's rule makes it     an opening one;   - half B's embedded note reads as one line, its body with curly apostrophes, given here as NOTE_LINE. Then every item of round 6 (experiments/t107-substack/ITEMS.json) is found in its half's checked text, its words in AI windows are counted, and each prediction (ledger #262 to #280) gets its result. Writes RESULT-A.json, RESULT-B.json, TEXT-A.txt, TEXT-B.txt (the checked texts) and ROUND6-RESULTS.json; --ledger also records the results.",
+ "A": {
+  "link": "https://www.pangram.com/feed/41dfb451-494d-4a13-a76c-335d372dbd4a",
+  "created_at": "2026-10-24T21:02:10.258793-04:00",
+  "version": "4.1",
+  "headline": "Human Written",
+  "fraction_ai": 0.0019581743981689215,
+  "num_ai_segments": 1,
+  "n_windows": 102,
+  "word_count": 15393,
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "ai_windows": [
+   {
+    "i": 88,
+    "confidence": "Low",
+    "words": 33,
+    "start": 60412,
+    "end": 60569,
+    "text": "If picturing your little one feels fake, like you’re just making it up, a real photo of you as a child can help, since there’s no face or posture to invent."
+   }
+  ],
+  "items": {
+   "t107i_journey": {
+    "ai_words": 0,
+    "words": 713,
+    "windows": [],
+    "prediction": "t107i-journey#262"
+   },
+   "t107i_hero": {
+    "ai_words": 0,
+    "words": 301,
+    "windows": [],
+    "prediction": "t107i-hero#263"
+   },
+   "t107i_intentional": {
+    "ai_words": 0,
+    "words": 170,
+    "windows": [],
+    "prediction": "t107i-intentional#264"
+   },
+   "t107i_monologue": {
+    "ai_words": 0,
+    "words": 290,
+    "windows": [],
+    "prediction": "t107i-monologue#265"
+   },
+   "t107i_checking2": {
+    "ai_words": 0,
+    "words": 50,
+    "windows": [],
+    "prediction": "t107i-checking2#266"
+   },
+   "t107i_narrate3": {
+    "ai_words": 0,
+    "words": 75,
+    "windows": [],
+    "prediction": "t107i-narrate3#267"
+   },
+   "t107i_change": {
+    "ai_words": 0,
+    "words": 425,
+    "windows": [],
+    "prediction": "t107i-change#268"
+   }
+  }
+ },
+ "B": {
+  "link": "https://www.pangram.com/feed/64c71597-3987-48a7-8431-c8bdc70fddcc",
+  "created_at": "2026-10-24T21:05:30.200060-04:00",
+  "version": "4.1",
+  "headline": "Human Written",
+  "fraction_ai": 0.0038868840783834457,
+  "num_ai_segments": 3,
+  "n_windows": 106,
+  "word_count": 12866,
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "ai_windows": [
+   {
+    "i": 99,
+    "confidence": "Low",
+    "words": 14,
+    "start": 67621,
+    "end": 67701,
+    "text": "Some practitioners are gentle about it and walk you through the maze just fine."
+   },
+   {
+    "i": 100,
+    "confidence": "Low",
+    "words": 12,
+    "start": 67701,
+    "end": 67767,
+    "text": "Others seem to leave people more split up than when they started."
+   },
+   {
+    "i": 101,
+    "confidence": "Medium",
+    "words": 19,
+    "start": 67767,
+    "end": 67870,
+    "text": "I wouldn’t trust a model more just because there’s a big institute behind it handing out certificates."
+   }
+  ],
+  "items": {
+   "t107i_guide5": {
+    "ai_words": 0,
+    "words": 90,
+    "windows": [],
+    "prediction": "t107i-guide5#269"
+   },
+   "t107i_ended": {
+    "ai_words": 0,
+    "words": 244,
+    "windows": [],
+    "prediction": "t107i-ended#270"
+   },
+   "t107i_ifs": {
+    "ai_words": 45,
+    "words": 598,
+    "windows": [
+     99,
+     100,
+     101
+    ],
+    "prediction": "t107i-ifs#271"
+   },
+   "t107i_related1": {
+    "ai_words": 0,
+    "words": 64,
+    "windows": [],
+    "prediction": "t107i-related1#272"
+   },
+   "t107i_timing": {
+    "ai_words": 0,
+    "words": 145,
+    "windows": [],
+    "prediction": "t107i-timing#273"
+   },
+   "t107i_crisis": {
+    "ai_words": 0,
+    "words": 199,
+    "windows": [],
+    "prediction": "t107i-crisis#274"
+   },
+   "t107i_social": {
+    "ai_words": 0,
+    "words": 226,
+    "windows": [],
+    "prediction": "t107i-social#275"
+   },
+   "t107i_speak": {
+    "ai_words": 0,
+    "words": 233,
+    "windows": [],
+    "prediction": "t107i-speak#276"
+   },
+   "t107i_company": {
+    "ai_words": 0,
+    "words": 64,
+    "windows": [],
+    "prediction": "t107i-company#277"
+   },
+   "t107i_belong": {
+    "ai_words": 0,
+    "words": 121,
+    "windows": [],
+    "prediction": "t107i-belong#278"
+   }
+  }
+ }
+}

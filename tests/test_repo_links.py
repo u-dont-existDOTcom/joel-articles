@@ -68,6 +68,22 @@ class ChatAndQuestionsPage(unittest.TestCase):
         self.assertEqual(code, 1)
         self.assertIn("a path Joel can't open", out.getvalue())
 
+    def test_chat_check_refuses_a_folder_link(self):
+        # Joel, 2026-10-25 12:39 UTC: "edit wasn't even a page, it was a directory so i wasn't sure what that was for"
+        import io
+        import contextlib
+        import tempfile
+        url = ('https://github.com/u-dont-existDOTcom/joel-articles/tree/handoff/claude-dangerous-adult-20260924-1631/'
+               'articles/inner-child-therapy/experiments/t105-readers-edit/edit')
+        with tempfile.NamedTemporaryFile('w', suffix='.md', delete=False, encoding='utf-8') as f:
+            f.write('The reads\' notes are in [edit/](%s).\n' % url)
+        out = io.StringIO()
+        with contextlib.redirect_stdout(out):
+            code = P.main(['--chat', f.name])
+        pathlib.Path(f.name).unlink()
+        self.assertEqual(code, 1)
+        self.assertIn('a link to a folder', out.getvalue())
+
     def test_questions_page_finds_paths_in_open_questions_only(self):
         sys.path.insert(0, str(ROOT / 'articles' / 'inner-child-therapy' / 'tools'))
         import questions_page as Q

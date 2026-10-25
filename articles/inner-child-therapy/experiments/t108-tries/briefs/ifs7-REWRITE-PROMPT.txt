@@ -1,0 +1,70 @@
+Here is a paragraph from a self-help article by Joel, with the paragraphs around it. Fresh readers found that it reads as
+written by an AI model; their notes are below. Rewrite this one paragraph so it reads like Joel talking to a reader, and
+keeps every point listed.
+
+The paragraph before it (for context only):
+IFS calls these wounded young parts “exiles.” I find that pathologizing. I prefer to speak of a child who needs parenting and integration, rather than naming them by their wounded or excluded condition.
+
+THE PARAGRAPH:
+And the parts just keep coming: managers, firefighters, exiles, polarized parts, legacy burdens, Self-energy, guides, new subparts... At some point it's a maze, with a little one somewhere in the middle of it. Some practitioners are gentle about it and walk you through the maze just fine. Others seem to leave people more split up than when they started. I wouldn't trust a model more just because there's a big institute behind it handing out certificates.
+
+The paragraph after it (for context only):
+(Next section, Related Clinical Work) This framework developed through the teachers and collaborators credited below and my own practice. Later revisions also compare notes with schema therapy, compassion-focused therapy, attachment repair, motivational interviewing, mentalizing, metacognitive therapy, behavioral activation, radically open DBT, emotion-focused therapy and spiritually integrated psychotherapy. I borrow particular ideas and practices from each of them, but the mix is mine, so please don't blame them for it.
+
+What it has to say (keep every point, at the strength it has, and add none):
+- The IFS map keeps adding parts and terms (managers, firefighters, exiles, polarized parts, legacy burdens, Self-energy, guides, new subparts), and at some point it can become a maze. Some of those names are fine to keep; the reader doesn't need all eight.
+- Some practitioners use the model gently and do fine by people; others seem to leave people more split up than when they started.
+- A big institute handing out certificates doesn't make a model any truer or safer.
+- (can go) "with a little one somewhere in the middle of it".
+- The last three sentences have read as AI inside the whole article in two versions (2026-10-23 and 2026-10-25), though both read Human alone: the balanced "Some ... Others ..." pair and the closing verdict. Change how it's built, not only the words: no some/others pair, no wrap-up verdict as the last line, and sentence lengths that vary.
+
+What the readers flagged:
+codex:
+AI:
+
+- "Some practitioners are gentle about it and walk you through the maze just fine. Others seem to leave people more split up than when they started." — The neatly balanced “Some … Others …” contrast can suggest AI polishing toward a carefully qualified position.
+- "managers, firefighters, exiles, polarized parts, legacy burdens, Self-energy, guides, new subparts..." — The extended catalogue and trailing ellipsis resemble an AI habit of piling up related terms to dramatize complexity.
+
+WHOLE:
+
+The progression from jargon pileup to maze metaphor, balanced qualification and closing verdict feels neatly assembled beneath the conversational voice. These are weak stylistic clues; the paragraph alone cannot reliably establish AI involvement.
+
+haiku:
+AI:
+1. "Some practitioners are gentle about it" and "Others seem to leave people": the balanced Some-then-Others pair with a hedged verdict is one of the most common contrast shapes in generated prose.
+2. "managers, firefighters, exiles, polarized parts, legacy burdens, Self-energy, guides, new subparts...": an eight-item inventory that ends on an ellipsis is a stock device for implying endless variety, and it reads assembled rather than observed.
+3. "At some point it's a maze, with a little one somewhere in the middle of it.": this line folds the whole list into one tidy summarizing picture, the kind of resolved metaphor generated text reaches for so a point feels finished.
+
+WHOLE: The build is machine-tidy, with a list, a metaphor, a balanced contrast and then a punchline, and sentence lengths held in a narrow band of 12 to 17 words. The voice cuts against that, since the sardonic first-person verdict at the end reads like a real opinion rather than a generator's default.
+
+sonnet:
+AI:
+1. "Some practitioners are gentle about it" and "Others seem to leave people": the mirrored Some/Others pair, hedged with "seem to" and built on generic plurals, reads like a balanced both-sides template rather than anyone's actual experience.
+2. "At some point it's a maze" and "walk you through the maze": a stock metaphor is introduced and then echoed in the very next sentence, the tidy through-line image that AI prose likes to coin and call back to.
+3. "managers, firefighters, exiles, polarized parts, legacy burdens, Self-energy, guides, new subparts...": a long colon-led pile of terms ending in a trailing ellipsis is a staged never-ending-list device, enumeration used to dramatize overload.
+4. "I wouldn't trust a model more just because": the paragraph closes on a self-contained verdict built on a not-X-just-because-Y frame, the quotable wrap-up line an AI tends to append.
+
+WHOLE:
+No single phrase is a hard tell; what reads machine-made is the build, a tidy miniature essay (overload, one metaphor, a balanced good-versus-bad split, a verdict) delivered in five sentences of nearly the same length (about 12 to 17 words each), with no fragment or short punch sentence to break the pattern. The voice is casual on the surface (contractions, and "just" three times) but the content stays generic ("practitioners", "people") with no named practitioner, institute or case to anchor it, so it sounds like a summary of experience rather than a particular one.
+
+Lines of Joel's own from the same article, for how he sounds:
+Lines Joel wrote himself in this section and nearby (for his voice, not to copy):
+- "IFS calls these wounded young parts “exiles.” I find that pathologizing."
+- "I don't think the Higher Self has any specific wisdom."
+- "and that bizarre contradiction is itself cited as "crazy wisdom" by apologists."
+
+Rules:
+- Add no new claims: no facts about Joel or anyone in his life, no stories, no statistics, no new warnings or reassurances.
+  An everyday example of a point that is already there is fine.
+- Say an instruction plainly, as an instruction, and a fact as a fact. No cautious first-person asides around them ("I'd
+  count ...", "I wouldn't wait to ..."), no hedge in front of a directive, no "that doesn't mean ..." reassurance.
+- If a judgment of his is in the points, say it the way a person would, with whatever doubt it really has.
+- If the readers say the whole paragraph is built like a template (a scene, a common mistake, a reassurance, the advice,
+  a closing moral), change how it's built, not only its words: start from one concrete case the way a person tells it,
+  say a minor point in passing, and end on an example or a plain fact. A point marked "(can go)" can be left out.
+- Let the sentences run unevenly, the way a person talks. Don't line the cases up in parallel, and don't end on a quotable
+  line or a fragment that sums up.
+- No list of three unless its last item is a casual catch-all, and no "X, not Y" or "not X but Y" contrast.
+- About the same length as the paragraph, or shorter.
+
+Reply with the rewritten paragraph only.

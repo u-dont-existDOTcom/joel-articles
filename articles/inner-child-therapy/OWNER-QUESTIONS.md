@@ -1,36 +1,61 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-25 (turns 82 to 107). **Open questions: none.** For you to do: merge pull request #239, and send round 6's two result links. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-25 (turns 82 to 108). **Open questions: 104, 105.** For you to do: merge the turn-108 pull request. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
-The published page, a view of this file rebuilt after every change ([questions_page.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/tools/questions_page.py)), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA [owner-questions-page.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/owner-questions-page.md), [cross-account-continuity.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/cross-account-continuity.md)). Only the account that published the page can republish it, so after a turn by your other account (turns 100 to 107), this file is newer than the page until the next republish.
+The published page, a view of this file rebuilt after every change ([questions_page.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/tools/questions_page.py)), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA [owner-questions-page.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/owner-questions-page.md), [cross-account-continuity.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/cross-account-continuity.md)). Only the account that published the page can republish it, so after a turn by your other account (turns 100 to 108), this file is newer than the page until the next republish.
 
 ## Open questions
 
-None right now. Round 6, below, needs two links from you.
+### 🟣 104. A simpler shape for the guide, keeping its cases (turn 108)
+
+You wrote that if you had written the guide yourself it would be "much simpler", and asked how it could read as engagingly as your own writing without losing the important complexities. [The density page](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t108-shape/DENSITY.md) counts the turns (but, if, or, maybe and the like): about 3.5 a paragraph here against about one in Lucia Capacchione's book, with four or more in 42% of the paragraphs here and in 4% of hers. Some of the densest sections are ones you rewrote yourself, like When to Change the Strategy, so it comes from the content, advice for many different cases, more than from the wording.
+
+So my suggestion keeps every case and changes where it sits: the plain path first, as if nothing goes wrong, and then one situation a paragraph, the way your When to Change the Strategy gives each situation its own paragraph. A reader who's fine takes the first paragraph and moves on, and a reader who's stuck finds their case. [The worked example](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t108-shape/DEMO.md) does it to Hear the Guard First with every sentence kept word for word; only their order and the paragraph breaks change.
+
+- **104.1 A (my pick):** do it section by section, the densest first. Each one comes to you beside what it was, checked alone and in its section, and where a section has nothing of yours in it (a story of yours, say, or your own verdict), I'll mark the place, since only you can add one.
+- **104.1 B:** only the sections you pick from the density page.
+- **104.1 C:** keep the shape as it is, and keep going line by line.
+
+### 🟣 105. Round 6's two windows (turn 108)
+
+Both halves read Human Written, [half A at 0.20% AI](https://www.pangram.com/feed/41dfb451-494d-4a13-a76c-335d372dbd4a) and [half B at 0.39% AI](https://www.pangram.com/feed/64c71597-3987-48a7-8431-c8bdc70fddcc), each with High confidence, and 18 of my 19 calls were right ([the round 6 page](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t108-results/ROUND6.md)). Your My Journey and your Not Every Hero paragraphs read Human inside the half, and so did every section you rewrote. Two windows are left, both on sentences of mine.
+
+- **105.1 How This Relates to IFS, the end of its last paragraph.** "Some practitioners are gentle about it and walk you through the maze just fine. Others seem to leave people more split up than when they started. I wouldn't trust a model more just because there's a big institute behind it handing out certificates." read [Low, Low and Medium inside half B](https://www.pangram.com/feed/64c71597-3987-48a7-8431-c8bdc70fddcc), where round 5 had flagged the version before it. These are your guide's points from its IFS paragraph, in my words. Three fresh readers flagged nearly every sentence ([their notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t108-panel/ifs-p7/PANEL.md)), and the second writer's new version got the same notes ([its panel](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t108-panel/ifs-p7-codex1/PANEL.md)), so I didn't spend a check on it. What all of them miss is somebody's actual case: as written it's a summary, and the reason behind it is yours. Have you seen IFS done well, or seen someone come out of it more split up?
+  - **A (my pick):** your words, a line or two of what you saw or why you say it. I fit them in and check the paragraph alone, in its section and in the next whole-article check.
+  - **B:** end the paragraph at the maze, without the practitioner and institute lines.
+  - **C:** leave it; half B reads Human Written as it is.
+- **105.2 Use Childhood Photographs Gently, its first sentence.** The opener you picked in turn 95, "If picturing your little one feels fake, like you're just making it up, a real photo of you as a child can help, since there's no face or posture to invent.", read [Low inside half A](https://www.pangram.com/feed/41dfb451-494d-4a13-a76c-335d372dbd4a), right after the last line of One Intention in the Morning, One Review at Night. It's the first time, and the section read [Human through the API](https://www.pangram.com/history/4634e2ff-63e7-4e15-863d-90fcea18266c) in turn 106.
+  - **A (my pick):** watch it in the next whole-article check before changing anything (gate E231).
+  - **B:** your words for it.
+  - **C:** I try a new version now.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #239 (turn 107)
+### 🟠 Merge the pull request for turn 108
 
-Turn 107: https://github.com/u-dont-existDOTcom/joel-articles/pull/239. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged". (You merged #233, turns 104 to 106.)
+Turn 108: the lane's [open pull request](https://github.com/u-dont-existDOTcom/joel-articles/pulls?q=is%3Apr+is%3Aopen+head%3Ahandoff%2Fclaude-dangerous-adult-20260924-1631). Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged". (You merged #239, turn 107.)
 
-### 🟠 Round 6: send me the two result links (turn 107)
+### 🔵 The two temporary Substack drafts: keep them for the next whole-article check (turn 108)
 
-The whole article is in two temporary Substack drafts, covering everything since round 5 (turns 100 to 107), and both are open in your Brave, in Claude's tab group, each on its paid preview. In each one, click the green "Human" label next to the author's name, then "View Full Analysis", and send me the result page's link ("Copy shareable link to result"), as you did for round 5. If the tabs are closed, open [draft A](https://ibogaqueen.substack.com/publish/post/221982879) or [draft B](https://ibogaqueen.substack.com/publish/post/221983135), then Preview, and "Paid subscriber view" at the top. The label's word isn't the result; the result page's windows are what I read. That takes about two minutes.
-
-### 🔵 The two temporary Substack drafts: keep them until round 6 is read (turn 107)
-
-Round 5's two drafts were no longer in your drafts list, so round 6 is in two new ones with the same titles, "Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)". They stay until its results are read. Then a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
+Round 5's two drafts were no longer in your drafts list, so round 6 is in two new ones with the same titles, "Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)". Round 6 is read, and the next whole-article check will reuse them, after your answers to 104 and 105, so they stay until its results are in. Then a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 Round 6, and your message of 2026-10-25 12:39 UTC
+
+Your message (turn 108; [JOEL-20261025-1239.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t108-answers/JOEL-20261025-1239.md)). You merged pull request #239.
+
+- **Round 6:** your two links are read and recorded ([the round 6 page](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t108-results/ROUND6.md)): [half A](https://www.pangram.com/feed/41dfb451-494d-4a13-a76c-335d372dbd4a) and [half B](https://www.pangram.com/feed/64c71597-3987-48a7-8431-c8bdc70fddcc) both Human Written. What the two windows left are is question 105.
+- **"those were just repeats of the questions you already asked me? well, edit wasn't even a page, it was a directory":** yes. The two folders held the readers' raw notes, and the ideas page was what you'd already answered, so I shouldn't have linked them at all. My final message's check now refuses a link to a folder.
+- **Your comparison with Lucia's book, and Emotional Alchemy:** my answer, with a worked example, is question 104.
 
 ### 🟢 103, 2026-10-25 00:24 UTC
 

@@ -1,0 +1,64 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "You can do fine with a practitioner who uses IFS gently.",
+  "A big institute handing out certificates doesn't make the model any truer or safer, though; there are practitioners who seem to leave people more split up than when they started.",
+  "The map keeps growing.",
+  "It can become a maze: you get used to managers and firefighters, and then there are subparts too."
+ ],
+ "flagged": {
+  "1": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "whole": {
+  "codex": [
+   "The progression from reassurance to criticism to a compact metaphor feels conspicuously tidy, with short sentences supplying emphasis after the long middle sentence. These are weak stylistic clues, not reliable evidence of authorship."
+  ],
+  "haiku": [
+   "The arc is tidy, moving from a fair concession to a skeptical pivot to a short metaphor that closes the thought, which is the balance polished prose tends to reach for. The varied sentence lengths and insider IFS shorthand give it a real voice, so only the structure reads machine-made, and even that evidence is thin."
+  ],
+  "sonnet": [
+   "Little about the whole reads machine-made: the voice is casual, opinionated and insider, and it trails off on a deflating detail instead of a neat moral. The one AI-leaning shape is the compact arc of soft claim, balanced caveat, four-word beat and metaphor payoff, with each sentence doing one tidy rhetorical job."
+  ]
+ },
+ "human_clean": [
+  "A big institute handing out certificates",
+  "and then there are subparts too",
+  "and then there are subparts too",
+  "you get used to managers and firefighters",
+  "A big institute handing out certificates",
+  "more split up than when they started",
+  "and then there are subparts too",
+  "more split up than when they started",
+  "A big institute handing out certificates",
+  "managers and firefighters"
+ ]
+}
