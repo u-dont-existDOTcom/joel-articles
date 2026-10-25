@@ -1,0 +1,55 @@
+{
+ "format": "substack-helper-delivery-receipt-v1",
+ "protocol": "docs/SUBSTACK-HELPER-DELIVERY-GATE.md",
+ "article": "intentional-communities",
+ "why": "Joel, 2026-10-25 00:27 UTC: the new version's first whole-article check (feed 954042b6) read Human Written, 0 of 72 windows AI; the copy helper for his post was the next step",
+ "archival_source": {
+  "path": "articles/intentional-communities/candidate/joel-20261024/answer65/WORKING.html",
+  "sha256": "9616e69f7baac23a8cc07b0102aed48363f513980e08342e01de2c8eaa057628",
+  "from": "his editor HTML of 2026-10-20 (candidate/joel-20261020/community-final-substack-20261020.html) with 57 to 63 (restructure/make_working.py), 64 (apply_64.py), 65 and his kibbutz image (answer65/apply_65.py)"
+ },
+ "editor_body": {
+  "sha256": "67d23ac7ea27ca7acc9f387f72257e6b348e3eeff6ea9fdb24c5ab675bfa909b",
+  "boundary_mode": "substack-editor-root"
+ },
+ "canonical_generator": {
+  "path": "project-sources/substack_transfer_helper.py.txt",
+  "sha256": "322e4738243806570fd01de4389150144f13f959de30d78579b69fb57c9352f4"
+ },
+ "native_object_parser": {
+  "path": "project-sources/html_islands.py.txt",
+  "sha256": "96c800c9a7c0b1dae642de1139d53651e87b145cb1ae2aefa4075a9affa0b10d"
+ },
+ "compatibility_profile": {
+  "path": "project-sources/CONFIRMED-SUBSTACK-HELPER.json",
+  "sha256": "c58bf6928274eb9734194c280a8a5f3b53be50d0e913e7cfb24c23593af05734",
+  "manifest_sha256": "c58bf6928274eb9734194c280a8a5f3b53be50d0e913e7cfb24c23593af05734"
+ },
+ "helper": {
+  "path": "articles/intentional-communities/exports/COPY-TO-SUBSTACK.html",
+  "sha256": "47574911ea64304a0e2be0b07f066fad237d68ae420948f88d207e2e9d80c43f",
+  "manifest_format": "joel-substack-transfer-helper-v4",
+  "payload_mode": "single_rich_html",
+  "segment_count": 1,
+  "manual_native_video_steps": 0,
+  "plan": "articles/intentional-communities/exports/TRANSFER-PLAN-20261025.json",
+  "build_report": "articles/intentional-communities/exports/TRANSFER-REPORT-20261025.md"
+ },
+ "regression_baseline": {
+  "path": "articles/intentional-communities/candidate/joel-20261024/recheck/COPY-TO-SUBSTACK-COMMUNITY-RECHECK.html",
+  "sha256": "47574911ea64304a0e2be0b07f066fad237d68ae420948f88d207e2e9d80c43f",
+  "why": "the recheck's helper from the same generator and file: its payload was pasted into the temporary draft and rendered to the checked text exactly"
+ },
+ "verify": "Verified 1 ordered segment record(s) and 0 native-video manual step(s).\nScope: static source/conversion compatibility only; destination result remains pending.",
+ "checked_text": {
+  "equals": "articles/intentional-communities/candidate/joel-20261024/recheck/DRAFT-TEXT.txt",
+  "sha256": "e2ad3e21738d3a471c3a291f89880108e25c059440fceb97d49933a28c7cc49e",
+  "pangram": "https://www.pangram.com/feed/954042b6-e624-4c7f-87d7-db15c547d5c8",
+  "payload_same_as_the_pasted_one": true
+ },
+ "interaction_test": {
+  "path": "articles/intentional-communities/exports/HELPER-INTERACTION-20261025.json",
+  "status": "pass"
+ },
+ "destination_test": "its payload, pasted into the temporary draft (221977934) with the lane's paste script, rendered to the checked text exactly (../../joel-20261024/recheck/RECHECK-POST.json). Not tested by me: the Copy button in Opera, and his post."
+}

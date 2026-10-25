@@ -1249,7 +1249,24 @@ the Nibbāna and guide lanes' `fix-20261024/`).
   checked. Two attributes change, as on the article's other images: the alt text, and the image's link back to its post
   (Substack's upload names the temporary draft). Keep that draft until the image is in his post.
 
-(The next lesson in either lane is E261.)
+(The next lesson in either lane was E261 here; see the end of the next section.)
+
+## What Joel's message of 2026-10-25 00:27 UTC showed (the community article's first whole-article check)
+
+- **E261. A whole-article chance is not the product of its parts' chances.** Two whole checks in a row read 100% Human
+  where I had called AI: Nibbāna's NB-whole#30 (0.24 chance of no red, after one splice) and the community article's
+  IC-whole#1 (0.07, after 57 to 65: 38 paragraphs cut, Emulate's two passages, a new order). Both part forecasts scored
+  every part right (55 of 55, 130 of 130); the miss was in multiplying 50 to 130 small chances as if each part could turn
+  red on its own, and in giving his own published words, minus a hedge or a repeat, the chance of new writing. Until the
+  ledger has enough whole checks to measure, the whole-article chance is the chance of the riskiest few parts (new
+  wording, Emulate's splices, a paragraph next to them), not the product of every neighbour and every cut; a cut that
+  only removes words from his published text counts at the neighbour rate.
+- **Markdown copies lose a space that sits alone inside bold or italics.** markdownify wrote "ideologywhich" for his
+  "ideology<strong> </strong>which" in the community article's reading copies; the master's word check (every word Pangram
+  reads must be in the master, in order) caught it. The community scripts now turn such a tag into its plain space before
+  converting; any script that makes Markdown from his editor HTML does the same.
+
+(The next lesson in either lane is E262.)
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 

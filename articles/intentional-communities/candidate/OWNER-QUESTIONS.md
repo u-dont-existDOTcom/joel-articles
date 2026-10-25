@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-24, after your message of 23:40 UTC (your 65, and the kibbutz image). **Open questions: 0.** Your 65 cuts and the image are in the new version: [read it here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/answer65/READING-COPY.md). **One thing for you to do**: run Pangram on the whole new version (below).
+Last updated 2026-10-25, after your message of 00:27 UTC (the whole new version read 100% Human). **Open questions: 0.** **One thing for you to do**: put the new version in your post with the clipboard helper (below). [Read the new version here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/answer65/READING-COPY.md).
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -12,14 +12,20 @@ None right now.
 
 ## For you to do
 
-- 🟠 **Run Pangram on [the community recheck draft](https://ibogaqueen.substack.com/p/80ab6300-2b34-4a4f-92f1-9f32a4b6fb91?postPreview=paid&updated=community-r1&audience=only_paid&free_preview=false&freemail=) in Brave and send me the link.** It's the whole new version in a temporary draft (your post is untouched): the essay and the How-To Manual with 57 to 65 in and your kibbutz image. Its text in the page is exactly the text I forecast from. I give it a 7% chance of no red at all: 38 paragraphs your cuts changed and Emulate's two passages are each a new place for red, and this is the first time the article is checked as one text in its new order ([the forecast](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/recheck/FORECAST.json)).
-- 🟠 Merge [pull request 237](https://github.com/u-dont-existDOTcom/joel-articles/pull/237) when you've looked. It has this turn's work for both lanes; nothing in your posts changes until you paste.
+- 🟠 **Put the new version in your post with the clipboard helper** ([COPY-TO-SUBSTACK.html](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/exports/COPY-TO-SUBSTACK.html), sent in chat as Community-COPY-TO-SUBSTACK-20261025.html). It's your post's editor HTML of 2026-10-20 with 57 to 65 and your kibbutz image. If you've changed the post on Substack since 2026-10-20, tell me first, because pasting would undo those changes.
+  1. Open the helper in Opera and your post in Substack's editor.
+  2. Press Copy Article. In the editor, click anywhere in the body, press ctrl+a, then Delete, and paste (ctrl+v).
+  3. It's one part: no videos to put back by hand. Your three video-post embeds come in as links, and Substack turns them back into embeds by itself.
+  - What I checked: its text is exactly the text Pangram read as 100% Human, and its HTML is exactly what I pasted into the temporary draft, which came out right ([the receipt](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/exports/HELPER-RECEIPT-20261025.json)). I haven't tested the Copy button in Opera on your computer.
+- 🟢 Done: [the whole-article check](https://www.pangram.com/feed/954042b6-e624-4c7f-87d7-db15c547d5c8) (your result of 00:27 UTC): Human Written, 0 of 72 windows AI, document confidence High. My part forecast called all 130 of its parts right; my call for the whole was too gloomy, a 7% chance of no red ([scored](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/recheck-r1/SCORE.md)).
+- 🟠 Merge [pull request PRNUM](https://github.com/u-dont-existDOTcom/joel-articles/pull/PRNUM) when you've looked.
 
 ## Decided
 
 > [!TIP]
 > Answered, with what I did.
 
+- 🟢 2026-10-25 00:27 UTC, the whole-article check ([your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/joel-20261025-0027-message.txt)). It read Human Written, 0 of 72 windows AI, so nothing goes to Emulate. The new version is the registered master now ([the receipt](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/PROMOTION-RECEIPT-20261017.md)), and the article's map shows the essay and the manual. Two things I found and fixed on the way: the Markdown reading copies had run "ideology" and "which" together where your HTML has a bold space between them (your post and the helper were always right), and the map still showed the section order from before your 2026-10-20 edits.
 - 🟢 2026-10-24 23:40 UTC, 65, what the article says more than once ([your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/joel-20261024-2340-message.txt)). Your cuts are in ([read it here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/answer65/READING-COPY.md), [each cut](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/answer65/RECORD-65.json)), with every link and bold where it was; the words that left the article are exactly the ones you cut.
   - Cut (A): 1, 4, 7, 8, 9, 10, 11, 15, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30 and 31 (three of them whole paragraphs). Kept (B): 2, 3, 5, 6, 12, 13, 14, 16, 17, 18 and 26.
   - You cut five I'd have kept: 1, 7, 11, 15 and 21. Each was a preview or a restatement of something the article tells in full elsewhere ("So when I talk later on about evolving past the use of internal money ...", "All of the warnings in this article apply to me, too."), and I had kept them as set-ups for that later telling. You kept the definitions and the thesis I'd kept for readers who jump in or stop early. That's the rule for my picks now: a preview of a later telling goes; a definition or thesis a reader needs where they are stays (lesson E260).
@@ -213,6 +219,6 @@ None right now.
 > [!NOTE]
 > Work that's next. Nothing here needs an answer.
 
-- 🔵 When your Pangram link comes: I read its windows and score the forecast. Anything red goes to Emulate (only the red sentences go in, with a fresh meaning check), then the copy helper for your post.
+- 🔵 When you've pasted, tell me, and I'll read your post against the new version, then delete the temporary draft (it holds the image's upload until your post has it).
 - 🔵 The prediction scorecard: better guesses of what Pangram will say, and how fast and how often my fixes pass.
 - 🔵 Image 7: the article still links the old image address. When your post with the rebuilt diagram is up, I'll swap in the new one.

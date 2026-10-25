@@ -759,7 +759,7 @@ Institutions and relationships don’t die at the same time, and some of what pe
 
 ### What Helps Communities Last—and Whether Longevity Is Enough
 
-- [***Communities That Abide***](https://philebersole.wordpress.com/2014/06/23/dmitry-orlov-on-communities-that-abide/) by Dmitry Orlov makes an uncomfortable argument: the communities that last a long time often rely on a religious ideologywhich makes members feel alienated from the wider society. Basically, the more cultish, the more durable, since cults are designed to capture people.
+- [***Communities That Abide***](https://philebersole.wordpress.com/2014/06/23/dmitry-orlov-on-communities-that-abide/) by Dmitry Orlov makes an uncomfortable argument: the communities that last a long time often rely on a religious ideology which makes members feel alienated from the wider society. Basically, the more cultish, the more durable, since cults are designed to capture people.
 
   It makes one wonder, is longevity alone a meaningful measure, when a community may keep going without its members flourishing? That’s the question in [“Measuring Success in Intentional Communities”](https://www.researchgate.net/publication/334857266_Measuring_Success_in_Intentional_Communities_A_Critical_Evaluation_of_Commitment_and_Longevity_Theories), a paper by Rubin, Willis and Ludwig.
 - [***Commitment and Community***](https://www.amazon.com/Commitment-Community-Communes-Sociological-Perspective/dp/0674145763) by Rosabeth Moss Kanter is a classic. It compares a bunch of nineteenth-century communes, and the practices that built commitment in them.

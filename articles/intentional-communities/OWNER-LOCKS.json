@@ -9,7 +9,7 @@
   "protected_functions": [
     {
       "id": "working-master-source-identity",
-      "description": "The registered master is master.md, the humanized article Joel accepted on 2026-10-17 21:37 UTC (\"45a\"; PROMOTION-RECEIPT-20261017.md), built from candidate/HUMANIZED-SO-FAR.md by candidate/fix-20261017d/make_master.py (the same text without its version notes). The published Substack text stays as original.md (97920 UTF-8 bytes, SHA-256 5d2892335ba53e93147caf5588a11e660d3ff2180d1ab1b23ff9fc5b2eb99aa6), the published source every section was humanized from; it is never edited."
+      "description": "The registered master is master.md: since 2026-10-25, candidate/joel-20261024/answer65/WORKING.html (his editor HTML of 2026-10-20 with his answers 57 to 65 and his kibbutz image, each accepted by him, 2026-10-23 22:29 UTC to 2026-10-24 23:40 UTC) as Markdown, made by candidate/joel-20261025/promote_20261025.py; PROMOTION-RECEIPT-20261017.md lists each promotion. The published Substack text first imported stays as original.md (97920 UTF-8 bytes, SHA-256 5d2892335ba53e93147caf5588a11e660d3ff2180d1ab1b23ff9fc5b2eb99aa6); it is never edited."
     },
     {
       "id": "owner-edits-checked",
