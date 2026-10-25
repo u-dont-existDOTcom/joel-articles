@@ -49,6 +49,8 @@ Record:
 - **Stopping point:** Where has the thought arrived? What would become recap, moral, or explanatory aftercare if added?
 - **Exact language to retain:** Which spans are exact, and why?
 
+For advice/explanation that could come from any generic article, ask whether the actual author's motive, causal account, benefit, or valued outcome is recoverable. If it is missing, do **not** fill the gap with a polished “I'd want...” preference or a model-supplied safety rationale. After drafting, use the `ACTUAL POV REQUIRED` editorial flag and evidence-ranked source/hinted/owner-choice options in `PRODUCTION-HUMANIZATION-PREFLIGHT.md`. Leave Joel's position unresolved rather than inventing it. This is not permission to replace grounded but plain analysis with gratuitous subjective opinion.
+
 Do not let an inherited assistant heading, prior outline, question sequence, source order, or detector shading decide this architecture. Preserve them only when they remain correct after the semantic reset.
 
 ## 3. One governing movement can carry several functions
