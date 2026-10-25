@@ -123,22 +123,22 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 66 | 41 (62%) | 53% | 47% | 48% | 0.203 (base 0.249, 66) |
-| **all lanes** | 66 | 41 (62%) | 53% | 47% | 48% | 0.203 (base 0.249, 66) |
+| inner child guide | 85 | 59 (69%) | 45% | 55% | 58% | 0.187 (base 0.247, 85) |
+| **all lanes** | 85 | 59 (69%) | 45% | 55% | 58% | 0.187 (base 0.247, 85) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 66 | 41 (62%) | 53% | 47% | 48% | 0.203 (base 0.249, 66) |
+| inner child guide | 85 | 59 (69%) | 45% | 55% | 58% | 0.187 (base 0.247, 85) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 47 | 25 (53%) | 47% | 53% | 49% | 0.246 (base 0.249, 47) |
-| stretch | 12 | 10 (83%) | 100% | 0% | 17% | 0.079 (base 0.000, 12) |
-| section | 7 | 6 (86%) | 14% | 86% | 100% | 0.128 (base 0.122, 7) |
+| paragraph | 51 | 29 (57%) | 43% | 57% | 53% | 0.242 (base 0.245, 51) |
+| section | 20 | 18 (90%) | 10% | 90% | 100% | 0.122 (base 0.090, 20) |
+| stretch | 14 | 12 (86%) | 100% | 0% | 14% | 0.076 (base 0.000, 14) |
 
 ## pangram-4.1-api
 
@@ -167,7 +167,7 @@ The boundary mix over all lanes:
 |---|---|---|
 | too pessimistic about a cut | 12 | inner child guide |
 | a tell I did not name | 11 | inner child guide |
-| not explained yet | 9 | inner child guide |
+| not explained yet | 10 | inner child guide |
 | a Low window came back | 8 | inner child guide |
 | a paragraph alone is harsher than the article | 7 | nibbana article |
 | balanced closer kept | 3 | hypnosis guide |

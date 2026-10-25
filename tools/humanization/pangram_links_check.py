@@ -23,7 +23,9 @@ With --chat (a message for the chat, not a page), every address must also be one
 [text](url). Joel, 2026-10-16 21:05 UTC: "(your links are not clickable btw)"; my final message had given each check as a
 bare address, which his app shows as text. Addresses inside `code` are a command's text and are left alone. And every
 file it points to is a link he can click, never a path in the repository (repo_links.py; Joel, 2026-10-25 00:24 UTC: "i
-have no idea where the 3 files are that i'm supposed to read").
+have no idea where the 3 files are that i'm supposed to read"). A link in it goes to a page he can read, never to a
+folder (Joel, 2026-10-25 12:39 UTC, on two folder links in my message: "edit wasn't even a page, it was a directory so i
+wasn't sure what that was for").
 """
 import pathlib
 import re
@@ -43,6 +45,10 @@ CHECK_CONTEXT = re.compile(r'\bPangram\b|\b\d{3}g\b|\d+%', re.I)
 # An API check (Joel's key, E218) has no Pangram page, so its link is its heading on the batch's API-CHECKS.md page in the
 # repository (E214; 2026-10-23: the hypnosis guide's b472 and Nibbāna's n1).
 LINKS = ('pangram.com/history/', 'pangram.com/feed/', '/API-CHECKS.md#')
+
+
+# A link to a folder on GitHub (its tree view), which shows a list of files, not something to read.
+FOLDER_LINK = re.compile(r'\]\((https://github\.com/[^)\s]+/tree/[^)\s]+)\)')
 
 
 # A help request, and the tell panel record it has to link (E253 (Inner Child)).
@@ -94,6 +100,10 @@ def main(argv):
             for _, _, _, written in repo_paths(text):
                 bad += 1
                 print('%s: a path Joel can\'t open (give a link): %s' % (p, written))
+            for m in FOLDER_LINK.finditer(text):
+                bad += 1
+                print('%s: a link to a folder, not a page (link the page he needs, or say what the folder holds): %s'
+                      % (p, m.group(1)))
     print('verdict: %s' % ('FAIL' if bad else 'PASS'))
     return 1 if bad else 0
 

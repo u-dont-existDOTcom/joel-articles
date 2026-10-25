@@ -1,0 +1,64 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "And the parts just keep coming: managers, firefighters, exiles, polarized parts, legacy burdens, Self-energy, guides, new subparts...",
+  "At some point it's a maze, with a little one somewhere in the middle of it.",
+  "Some practitioners are gentle about it and walk you through the maze just fine.",
+  "Others seem to leave people more split up than when they started.",
+  "I wouldn't trust a model more just because there's a big institute behind it handing out certificates."
+ ],
+ "flagged": {
+  "1": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "whole": {
+  "codex": [
+   "The progression from jargon pileup to maze metaphor, balanced qualification and closing verdict feels neatly assembled beneath the conversational voice. These are weak stylistic clues; the paragraph alone cannot reliably establish AI involvement."
+  ],
+  "haiku": [
+   "The build is machine-tidy, with a list, a metaphor, a balanced contrast and then a punchline, and sentence lengths held in a narrow band of 12 to 17 words. The voice cuts against that, since the sardonic first-person verdict at the end reads like a real opinion rather than a generator's default."
+  ],
+  "sonnet": [
+   "No single phrase is a hard tell; what reads machine-made is the build, a tidy miniature essay (overload, one metaphor, a balanced good-versus-bad split, a verdict) delivered in five sentences of nearly the same length (about 12 to 17 words each), with no fragment or short punch sentence to break the pattern. The voice is casual on the surface (contractions, and \"just\" three times) but the content stays generic (\"practitioners\", \"people\") with no named practitioner, institute or case to anchor it, so it sounds like a summary of experience rather than a particular one."
+  ]
+ },
+ "human_clean": [
+  "And the parts just keep coming",
+  "a big institute behind it handing out certificates",
+  "And the parts just keep coming",
+  "handing out certificates",
+  "a big institute behind it handing out certificates",
+  "handing out"
+ ]
+}

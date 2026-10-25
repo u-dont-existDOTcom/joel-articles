@@ -1,0 +1,71 @@
+#!/usr/bin/env python3
+"""Turn 108: articles/inner-child-therapy/HANDOFF-UPDATE.json, the update tools/humanization/handoff_note.py applies to
+~/claude-acceptance-transfer/handoffs/inner-child-article.md on Joel's laptop.
+  handoff_t108.py PR [--test NOTE]   writes the update for pull request PR; with --test, applies it to a copy of NOTE"""
+import json
+import pathlib
+import re
+import sys
+
+HERE = pathlib.Path(__file__).resolve().parent
+ROOT = HERE.parents[3]
+OUT = HERE.parents[1] / 'HANDOFF-UPDATE.json'
+S = 'https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq'
+BR = 'handoff/claude-dangerous-adult-20260924-1631'
+pr = sys.argv[1]
+assert pr.isdigit()
+PR = 'pull request #%s (https://github.com/u-dont-existDOTcom/joel-articles/pull/%s)' % (pr, pr)
+e = re.escape
+
+turn108 = '\n'.join([
+    '- TURN 108 (2026-10-25, his message of 2026-10-25 12:39 UTC; by %s), the latest; its next step wins over everything below. Branch %s; %s for him to merge.' % (S, BR, PR),
+    '  - Objective anchor (UDA): main objective, the guide humanized, every paragraph and section reading Human with the meaning kept and reading engagingly, like a good public self-help book; this turn\'s contribution, round 6 read and recorded, the IFS paragraph through the panel and the second writer, and his question about the guide\'s style answered with numbers and a worked example; scope, no new claims, no life facts he didn\'t give, his words changed only with his OK.',
+    '  - His message: experiments/t108-answers/JOEL-20261025-1239.md: round 6\'s two links; "those were just repeats of the questions you already asked me? well, edit wasn\'t even a page, it was a directory"; "so i\'m more like a witty college course and she\'s like a summer camp ... idk you tell me"; "if i had written this whole guide myself ... it would be much simpler, but i\'m having a hard time thinking of how it could be as engaging as my natural writing without losing the important complexities".',
+    '  - Round 6 (experiments/t108-results/: ROUND6.md, ROUND6-RESULTS.json, RESULT-A.json and -B.json, WINDOWS-A.txt and -B.txt, record_round6.py): half A Human Written, 0.20% AI (https://www.pangram.com/feed/41dfb451-494d-4a13-a76c-335d372dbd4a), half B 0.39% (https://www.pangram.com/feed/64c71597-3987-48a7-8431-c8bdc70fddcc), both High; ledger #262 to #280 recorded, 18 of 19 right. Windows: half B\'s three on How This Relates to IFS P7\'s last three sentences (mine, flagged in the half for the second round running; E231 sub-bullet), half A\'s one on Use Childhood Photographs Gently\'s opener (mine, his turn-95 pick; first time). The feed pages were read in his Brave through Claude in Chrome (React props), and the checked text rebuilt from the payload matched the page\'s SHA-256 only with two changes, noted in tools/humanization/substack_check_text.py.',
+    '  - IFS P7: the tell panel (experiments/t108-panel/ifs-p7/) and the second writer\'s version (experiments/t108-tries/, panel ifs-p7-codex1/) got the same notes, so no check was spent; it waits on his reason for the guide\'s critique (question 105.1, ACTUAL POV REQUIRED, project-sources/PRODUCTION-HUMANIZATION-PREFLIGHT.md).',
+    '  - His style question: experiments/t108-shape/DENSITY.md (turns per paragraph: 3.5 here against 0.9 in Lucia Capacchione\'s book; four or more in 42% of paragraphs here, 4% in hers; some of the densest sections are his own rewrites) and DEMO.md (Hear the Guard First, the plain path first, then one situation a paragraph, every sentence kept word for word); question 104.',
+    '  - Process: pangram_links_check.py --chat refuses a link to a GitHub folder (his "edit wasn\'t even a page, it was a directory"; AGENTS.md\'s links rule).',
+    '  - NEXT: Next step 1.',
+])
+next1 = ('1. His answers to question 104 (OWNER-QUESTIONS.md; my pick: the plain path first and one situation a paragraph, section by '
+         'section, the densest first, each shown beside what it was and checked alone and in its section) and question 105 (the '
+         'IFS paragraph: his words for its reason, my pick; the photos opener: watch it). Then round 7, the next whole-article check, '
+         'in the two temporary drafts (paste with experiments/t88-substack/paste_payload_lane.js; he sends the result links; read '
+         'them as experiments/t108-results/record_round6.py does). A list of more than a few items goes to him as an interactive '
+         'review page (UDA patterns/owner-questions-page.md), an open question names what it\'s about, never an old question\'s '
+         'number (E257), and every file named in what he reads is a link to a page, never a folder (repo_links.py).')
+upd = {
+    'turn': '108',
+    'replace': [
+        [e('TURN 107 (2026-10-25, his answers of 2026-10-25 00:24 UTC; by %s), the latest; its next step wins over everything below. Branch %s; pull request #239 (https://github.com/u-dont-existDOTcom/joel-articles/pull/239) for him to merge.' % (S, BR)),
+         'TURN 107 (2026-10-25, his answers of 2026-10-25 00:24 UTC; by %s), FINISHED. Branch %s; pull request #239 (https://github.com/u-dont-existDOTcom/joel-articles/pull/239), merged 2026-10-25 01:13 UTC.' % (S, BR), 1],
+        [e('this version is from turn 107 (his answers of 2026-10-25 00:24 UTC; pull request #239 for him to merge).'),
+         'this version is from turn 108 (his message of 2026-10-25 12:39 UTC; pull request #%s for him to merge).' % pr, 1],
+        [e('turns 59 to 76 and 100 to 107 by %s' % S), 'turns 59 to 76 and 100 to 108 by %s' % S, 1],
+        [e('  - experiments/t107-answers/ (with LESSONS.md and chat_runs.py), t107-installs/, t107-review/ and t107-substack/ (the round 6 drafts; the latest turn), '),
+         '  - experiments/t108-answers/, t108-results/ (round 6), t108-shape/ (the density page and the worked example), t108-panel/, t108-tries/ and t108-installs/ (the latest turn), t107-answers/ (with LESSONS.md and chat_runs.py), t107-installs/, t107-review/ and t107-substack/ (turn 107), ', 1],
+        [r"^1\. Round 6's results \(OWNER-QUESTIONS\.md asks him for the two result links\):.*$", next1, 1],
+    ],
+    'insert_before': [
+        ['- TURN 107 (2026-10-25', turn108],
+        ['- A flag on one of the guide\'s instructions is about its wording',
+         '- A link goes to a page he can read, never to a folder (his 2026-10-25 "edit wasn\'t even a page, it was a directory"); the chat check refuses one.'],
+    ],
+    'sections': {
+        '## Waiting on Joel': '\n'.join([
+            '1. His answers to question 104 (a simpler shape for the guide, keeping its cases) and question 105 (round 6\'s two windows), on OWNER-QUESTIONS.md.',
+            '2. His merge of pull request #%s (turn 108).' % pr,
+            '3. The two temporary Substack drafts, "Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)", stay for round 7; his delete comes after its results.',
+            '4. Never in the article: amounts (the 1g, the 7g) and any recipe for what to take instead, including his "ultimate psychedelic recipe" line and its link.',
+        ]),
+    },
+}
+OUT.write_text(json.dumps(upd, indent=1, ensure_ascii=False) + '\n', encoding='utf-8')
+print('wrote', OUT)
+if '--test' in sys.argv:
+    sys.path.insert(0, str(ROOT / 'tools' / 'humanization'))
+    from handoff_note import apply
+    note = pathlib.Path(sys.argv[sys.argv.index('--test') + 1]).read_text(encoding='utf-8')
+    new, done = apply(note, upd)
+    print('\n'.join(done))
+    print(len(note), '->', len(new), 'characters')
