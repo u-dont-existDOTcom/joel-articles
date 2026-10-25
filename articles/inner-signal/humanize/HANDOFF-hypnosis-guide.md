@@ -181,6 +181,22 @@ From `fix-20261018/` unless a command says `humanize/`:
    verify files), its triage (`KEY.triage.json`, the brief's rules), `tools/triage_apply.py`.
 4. One batch: the fixed text whole with every paragraph its fixes changed (`make_b460.py`), then install as in step 5.
 
+## His queue (2026-10-25, his question of 00:49 UTC: "ok, what's next in the queue to hum,anize now?")
+
+The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulate-20260929/ARTICLES.md`), as it stands:
+1. The community article: reads 100% Human as one text (2026-10-25); the copy helper is with him.
+2. This guide: reads Human outside the one audit he kept; the four-part clarity read is its last step before his paste.
+3. **Next new article: neuro de-armoring**, "Bottom-up Healing for Trauma & Addiction: Neurological De-Armoring +
+   Brainstem Relaxation v5.1 (Sept 10, 2026)", https://ibogaqueen.substack.com/p/trauma-and-addiction-why-neurological
+   (5,827 words; 37,121 characters as the check reads it, so one free whole-article check). The queue's rule: every
+   compound, dose, unit, timing and warning comes out exactly as it went in. On 2026-10-25 the live post's text was the
+   same as the 2026-09-28 copy (`inputs/articles/raw/neuro-de-armoring.html`, his editor HTML; the rendered walk of the
+   post hashed to that copy's checked text, 7fdfe227..., 172 lines), so that copy can start the work. Not registered
+   in `articles/INDEX.json` yet.
+4. Hearthwork: optional, and he says it needs updating first.
+Nibbāna, added on 2026-10-22, reads Human; its helper is with him. His answer decides whether the guide's clarity read or
+neuro de-armoring goes first.
+
 ## Next step (2026-10-24, after Joel's message of 23:40 UTC: N7 in; Nibbāna's helper is with him)
 
 His message, word for word: `fix-20261024/joel-20261024-2340-message.txt` (also in Nibbāna's `fix-20261024/` and the
