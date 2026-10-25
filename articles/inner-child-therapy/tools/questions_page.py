@@ -151,6 +151,22 @@ def old_number_refs(md):
     return sorted(set(bad), key=bad.index)
 
 
+# A path in the repository (`experiments/.../X.md`, `caveats/`) is text in his app, so an open question or a to-do item
+# links each file it points to (Joel, 2026-10-25 00:24 UTC: "i have no idea where the 3 files are that i'm supposed to
+# read..."; tools/humanization/repo_links.py).
+def unlinked_paths(md):
+    """The repository paths in the open questions and the to-do list."""
+    sys.path.insert(0, str(HERE.parents[2] / 'tools' / 'humanization'))
+    from repo_links import paths
+    md = re.sub(r'<!--.*?-->', '', md, flags=re.S)
+    bad = []
+    for name in ('Open questions', 'For you to do'):
+        m = re.search(r'^## %s[^\n]*\n(.*?)(?=^## |\Z)' % re.escape(name), md, flags=re.S | re.M)
+        if m:
+            bad += [written for _, _, _, written in paths(m.group(1))]
+    return bad
+
+
 def render(md):
     import mistune  # only the page needs it; the E214 check runs without it
     md = re.sub(r'<!--.*?-->', '', md, flags=re.S)
@@ -208,6 +224,11 @@ def main(argv):
     if bad:
         print('refused (E257, Inner Child): these lines point to a decided question by its number alone; say what it was:\n  '
               + '\n  '.join(bad), file=sys.stderr)
+        return 1
+    bad = unlinked_paths(md)
+    if bad:
+        print('refused: these open questions or to-do items name a file by its path in the repository; give a link '
+              '(tools/humanization/repo_links.py fix):\n  ' + '\n  '.join(bad), file=sys.stderr)
         return 1
     out.write_text(render(md), encoding='utf-8')
     print('wrote', out)

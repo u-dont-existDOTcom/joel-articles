@@ -1,14 +1,51 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-24 (turns 82 to 106). **Open questions: 103.** For you to do: merge pull request #233. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-25 (turns 82 to 107). **Open questions: none.** For you to do: merge pull request #239, and send round 6's two result links. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
-The published page, a view of this file rebuilt after every change (`tools/questions_page.py`), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA `patterns/owner-questions-page.md`, `patterns/cross-account-continuity.md`). Only the account that published the page can republish it, so after a turn by your other account (turns 100 to 106), this file is newer than the page until the next republish.
+The published page, a view of this file rebuilt after every change ([questions_page.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/tools/questions_page.py)), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA [owner-questions-page.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/owner-questions-page.md), [cross-account-continuity.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/cross-account-continuity.md)). Only the account that published the page can republish it, so after a turn by your other account (turns 100 to 107), this file is newer than the page until the next republish.
 
 ## Open questions
 
-### 🟣 103. What the checks of your picks found (turn 106)
+None right now. Round 6, below, needs two links from you.
+
+## For you to do (no decision needed)
+
+> [!WARNING]
+> Comes back every turn. My merges are refused by the safety check, so it stays yours.
+
+### 🟠 Merge pull request #239 (turn 107)
+
+Turn 107: https://github.com/u-dont-existDOTcom/joel-articles/pull/239. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged". (You merged #233, turns 104 to 106.)
+
+### 🟠 Round 6: send me the two result links (turn 107)
+
+The whole article is in two temporary Substack drafts, covering everything since round 5 (turns 100 to 107), and both are open in your Brave, in Claude's tab group, each on its paid preview. In each one, click the green "Human" label next to the author's name, then "View Full Analysis", and send me the result page's link ("Copy shareable link to result"), as you did for round 5. If the tabs are closed, open [draft A](https://ibogaqueen.substack.com/publish/post/221982879) or [draft B](https://ibogaqueen.substack.com/publish/post/221983135), then Preview, and "Paid subscriber view" at the top. The label's word isn't the result; the result page's windows are what I read. That takes about two minutes.
+
+### 🔵 The two temporary Substack drafts: keep them until round 6 is read (turn 107)
+
+Round 5's two drafts were no longer in your drafts list, so round 6 is in two new ones with the same titles, "Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)". They stay until its results are read. Then a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
+
+## Decided
+
+> [!TIP]
+> Your answers in your words, and what I did with them.
+
+### 🟢 103, 2026-10-25 00:24 UTC
+
+Your message (turn 107; [JOEL-20261025-0024.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t107-answers/JOEL-20261025-0024.md)).
+
+- **103.1:** your My Journey is in, word for word, with its bypassing paragraph second. Your paste was plain text, so each link and the two italic words (*Understandable* and *Unforgivable*) are back on the same words, and each of your lines is its own paragraph, as the article had them.
+- **"you put in some of my things too verbatim":** three of the lines you rewrote were answers you had typed to me, which I had put in close to as you typed them: your clarification for the My Journey tension ("stop in the sense of ... like I might still kind of allow the exercise to play out somehow"), how you found Daja, and "in general and map it out completely". The rule against that was already in the gate, and it didn't fire because you had picked "your words to tie them together", which I took as you giving me the line. Now, when an answer of yours explains something, I write the article sentence from it and show it beside your words (E261, Inner Child). What else your two rewrites do is in [LESSONS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t107-answers/LESSONS.md), with a search of your saved messages for other answers that went in as typed.
+- **103.2:** your first three paragraphs of Not Every Hero Wears A Cape are in, word for word. Make It Intentional and its two paragraphs stay.
+- **103.3 A:** your acacia sentence stays as you wrote it.
+- **103.4 A:** "But do notice if progress is stagnating."
+- **"i have no idea where the 3 files are":** [ENGAGING.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t105-readers-edit/ENGAGING.md) named them by their places in the repository, which your app shows as text. They are [BOOKS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t102-safety/BOOKS.md), on how three books, hers among them, keep safety in one place, and the folders of the two reads' notes, [caveats/](https://github.com/u-dont-existDOTcom/joel-articles/tree/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t105-readers-edit/caveats) and [edit/](https://github.com/u-dont-existDOTcom/joel-articles/tree/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t105-readers-edit/edit). You don't need to read the folders: what their readers proposed is all on the ideas page, [IDEAS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t105-readers-edit/IDEAS.md), which you answered on 2026-10-24. It links them now, and so does turn 106's lessons file. A new check, [repo_links.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/tools/humanization/repo_links.py), finds a file named that way in anything I send you, and this page refuses one.
+
+<details><summary>103 as it was asked</summary>
+
+#### 103. What the checks of your picks found (turn 106)
 
 Every check is on [this turn's API page](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t106-api/API-CHECKS.md). Your picks and your five sections are in, and these four are what's left.
 
@@ -25,40 +62,20 @@ Every check is on [this turn's API page](https://github.com/u-dont-existDOTcom/j
   - **A (my pick):** "But do notice if progress is stagnating."
   - **B:** leave it.
 
-## For you to do (no decision needed)
-
-> [!WARNING]
-> Comes back every turn. My merges are refused by the safety check, so it stays yours.
-
-### 🟠 Merge pull request #233 (turns 104 to 106)
-
-Turns 104 to 106: https://github.com/u-dont-existDOTcom/joel-articles/pull/233. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged". (You merged #229.)
-
-### 🔵 Round 6, the next whole-article check (turn 101)
-
-Your picks from the ideas page are in, so it comes next: one whole-article check through the two temporary Substack drafts, covering everything since round 5.
-
-### 🔵 The two temporary Substack drafts: keep them for round 6 (turn 100)
-
-"Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)" hold round 5's text. Round 6 will reuse them, so they stay until its results are in. Then a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
-
-## Decided
-
-> [!TIP]
-> Your answers in your words, and what I did with them.
+</details>
 
 ### 🟢 102, 2026-10-24 22:55 UTC
 
-Your message (turn 106; `experiments/t106-answers/JOEL-20261024-2255.md`).
+Your message (turn 106; [experiments/t106-answers/JOEL-20261024-2255.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t106-answers/JOEL-20261024-2255.md)).
 
-- **The questions page:** fixed for good. The page tool now refuses an open question or a to-do item that points to an earlier question by its number alone, like "your 100.6", so each one says what it's about (E257, Inner Child; `tools/questions_page.py`, with a test). Question 103 is written that way.
+- **The questions page:** fixed for good. The page tool now refuses an open question or a to-do item that points to an earlier question by its number alone, like "your 100.6", so each one says what it's about (E257, Inner Child; [tools/questions_page.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/tools/questions_page.py), with a test). Question 103 is written that way.
 - **102.1:** your When to Change the Strategy is in, word for word. 98.7's own paragraph is gone, and its point is your P3's texting example. What your five rewrites teach, and how my picks did against your answers, is in [LESSONS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t106-answers/LESSONS.md): 28 of 33 and 32 of 39 matched, and 8 of my 12 misses were lines of yours I kept only because they were yours (E258, Inner Child).
 - **102.2 A:** d3 is in.
 - **102.3:** your You Don't Need an Inner Monologue is in, word for word, and so are your crisis stretch, First Social Connections, Done Right, and Speak Toward What You Are Building, without its last paragraph. One change to your characters: your Forbes link had a space between "]" and "(", which would have shown the brackets and the address, so it's a link now.
 - **102.4:** your picks are in, and The Chicken-and-Egg Problem keeps its heading (e1 b). Your rewrites changed four of them: 98.7's move (e17) went with 98.7, the pain paragraph (e22) has nothing to move since your h26 cuts it, and h6 and h35 are in your new paragraphs as you wrote them. "Ask What Kind of Company They Want" (e30) now heads one paragraph, since you took out the last one. The paragraph break you said I could try (e5) is in: your section read Human through the API [as you wrote it](https://www.pangram.com/history/6cf7d182-2fb4-42d4-80da-3da81329a123) and [with the break](https://www.pangram.com/history/35250e68-04b0-4eb5-8aee-70764bd81362). The h22 cut has your "These are just", and h23 has your merged sentence. Of 34 checks, 29 read Human. Of the other five, three are in 103, You Belong Everywhere and Nowhere reads [0.0137% AI with no AI window](https://www.pangram.com/history/4ee5effc-70d2-473c-9d01-3b00d7b42840), which Pangram calls Human Written, and one is fixed:
   - Timing Is Individual's second paragraph (mine) read [48% AI with your line](https://www.pangram.com/history/c9ded038-bbf2-4b44-b8aa-5b49a31442f4) and [51% without it](https://www.pangram.com/history/7c606adb-0eb5-4440-9de2-82634becc011), so your cut wasn't the cause. After the tell panel, my two drafts read Human in the section and AI alone, and the second writer's (Codex's) reads [Human alone](https://www.pangram.com/history/49c729e5-d393-4d2c-94f3-f3c0eaafc1b7) and [in the section](https://www.pangram.com/history/bf9b0e54-369e-49ad-b049-1f08aea91a62). It's in ([try by try](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t106-tries/REVIEWS.md)).
 - **"saving all our trials and errors":** yes. Every Pangram check is in the ledger with my prediction before it and the result after, each turn's drafts, panels and checks are in its own folder, your messages are saved word for word, and the lessons are in the gate. [LESSONS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t106-answers/LESSONS.md) adds how my picks did against your answers, so my misses are on record too.
-- **ENGAGING.md:** it's with this turn's files.
+- **[ENGAGING.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t105-readers-edit/ENGAGING.md):** it's with this turn's files.
 
 <details><summary>102 as it was asked</summary>
 
@@ -84,7 +101,7 @@ How I fix a paragraph now is under 101 in Decided ([try by try](https://github.c
 
 ### 🟢 101, 2026-10-24 18:40 UTC
 
-Your message (turn 105; `experiments/t105-answers/JOEL-20261024-1840.md`, with your readers' notes beside it as `READERS-20261024.txt`).
+Your message (turn 105; [experiments/t105-answers/JOEL-20261024-1840.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t105-answers/JOEL-20261024-1840.md), with your readers' notes beside it as [READERS-20261024.txt](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t105-answers/READERS-20261024.txt)).
 
 - **101.1:** GPT's paragraph is in, word for word, and in its stretch it reads [Human, 0.0000% AI](https://www.pangram.com/history/a1020230-e26e-4b94-b483-5497dc674885). You were right: your Haiku had listed the tells I said I couldn't find, and so had my own panel. What was going wrong:
   - I stopped at the guide's own instructions, as if a flag on one meant the instruction had to go. The readers were flagging how they were worded, so the content stays and the wording changes.
@@ -121,7 +138,7 @@ Before I name a tell or ask your help now, three fresh readers list a paragraph'
 
 ### 🟢 100, 2026-10-23 23:21 UTC
 
-Your message (turn 104; `experiments/t104-answers/JOEL-20261023-2321.md`, with the three readers' replies you pasted).
+Your message (turn 104; [experiments/t104-answers/JOEL-20261023-2321.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t104-answers/JOEL-20261023-2321.md), with the three readers' replies you pasted).
 
 - **Codex as a check:** yes, it's in. Codex from your laptop now reads any paragraph I'm stuck on, with a Sonnet reader and a Haiku reader, before I name a tell or ask you (E253, Inner Child). You're right that a fresh Sonnet doesn't share my bias, since the bias comes from grading sentences I wrote, and Haiku found the same tells as Codex and ChatGPT. What was missing is that no fresh reader was ever asked that question. The panel finds tells, but it doesn't predict Pangram sentence by sentence: this turn a draft it faulted on three of four sentences read 100% Human, and sentences all three readers called human sat in Pangram's AI windows.
 - **100.1 A:** your text is in word for word, with the naming aside as its own paragraph after P1. Through the API your h2 reads Human Written, [0.02% AI with no AI window](https://www.pangram.com/history/1c31ecda-53ab-4a7d-b95c-5eab66ff5565).
@@ -139,7 +156,7 @@ All 26 cuts are in, and most read 100% Human, alone and in their sections ([ever
   - **A (my pick):** the aside after P1 and P10's rewrite, plus your words for P9's first sentence or for the heading, so the idea is said once.
   - **B:** put the cult-survivor clause back. P10 read Human with it, and GPT thinks the caution does a job for people hurt by a guru.
   - **C:** the aside after P1 and P10's rewrite, and leave the heading and P9 for round 6.
-- **100.2 P2's "Comfort does better at set times, where it can't get out of hand." (GPT).** It can be read as rationing affection. The book behind it (ST-CA, the children's schema therapy book, candidate 11 in `experiments/t84-books/CANDIDATES-stca.md`) meant treats and pampering: a fixed slot for the part afraid comfort will make you soft, and never canceled as a punishment.
+- **100.2 P2's "Comfort does better at set times, where it can't get out of hand." (GPT).** It can be read as rationing affection. The book behind it (ST-CA, the children's schema therapy book, candidate 11 in [experiments/t84-books/CANDIDATES-stca.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t84-books/CANDIDATES-stca.md)) meant treats and pampering: a fixed slot for the part afraid comfort will make you soft, and never canceled as a punishment.
   - **A (my pick):** "Treats and pampering do better at set times, where they can't get out of hand. They shouldn't get canceled as a punishment after a bad day, either (ST-CA, section 17.1.4)." I check it.
   - **B:** keep it as it is.
   - **C:** your words.
@@ -160,7 +177,7 @@ All 26 cuts are in, and most read 100% Human, alone and in their sections ([ever
 
 ### 🟢 96 to 99, 2026-10-23 21:52 UTC
 
-Your message (turn 103; `experiments/t103-answers/JOEL-20261023-2152.md`, with GPT's review of 99 beside it). Pull request #229's conflicts are fixed: main is merged in.
+Your message (turn 103; [experiments/t103-answers/JOEL-20261023-2152.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t103-answers/JOEL-20261023-2152.md), with GPT's review of 99 beside it). Pull request #229's conflicts are fixed: main is merged in.
 
 - **96.1 B:** your paragraph is in, word for word, and in its stretch it reads [100% Human](https://www.pangram.com/history/8193344a-5dd8-440f-b26d-66fad9fb8651). You asked why I called "the old programming is still playing in your ear" a human tell. I judged it by its surface. It's an unusual image, so to me it read as unlike the stock phrase. But a tidy image that wraps up a sentence's point is what I write when I try to sound human, so I don't see it as a pattern in my own text. GPT read it fresh. From now on, the human tells I name are your words, a fact you gave, or a rough edge, and an image of mine goes on the list of tells to check (E251, Inner Child).
 - **96.2 A:** out.
@@ -227,7 +244,7 @@ You asked for more sections done the way Borrow One Competency at a Time was. Th
 
 ### 🟢 94 and 95, 2026-10-23 17:53 UTC
 
-Your message (turn 102; `experiments/t102-answers/JOEL-20261023-1753.md`). You merged pull request #227. The checks: `experiments/t102-api/API-CHECKS.md`; what happened, try by try: `experiments/t102-tries/REVIEWS.md`.
+Your message (turn 102; [experiments/t102-answers/JOEL-20261023-1753.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t102-answers/JOEL-20261023-1753.md)). You merged pull request #227. The checks: [experiments/t102-api/API-CHECKS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t102-api/API-CHECKS.md); what happened, try by try: [experiments/t102-tries/REVIEWS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t102-tries/REVIEWS.md).
 
 - **94.1 A:** "That takes warmth, and if there isn't any yet, borrow some." stays whole.
 - **94.2 A:** with GPT's sentence in place of your two, the paragraph [read 100% AI](https://www.pangram.com/history/bf6562e2-577e-4fce-a12e-af98c12c7688); with yours it [reads 100% Human](https://www.pangram.com/history/889500ce-16d6-4f28-bf5c-fb4044ededdb), so yours stay. Your "Helpful advice is great, we all need advice." was the one line there that isn't an instruction.
@@ -238,7 +255,7 @@ Your message (turn 102; `experiments/t102-answers/JOEL-20261023-1753.md`). You m
 - **95.7 A:** in: "..., and they may be able to treat it while it's happening." 100% Human [alone](https://www.pangram.com/history/6f6a0142-c329-4046-bfa8-58bf1142d607) and [in Physical Pain Makes It Harder](https://www.pangram.com/history/e3f2e7b1-fd32-49eb-85f3-00176ef66dc9).
 - **95.8:** your point is in, after your "Although personally I wouldn't even bother with that": "..., because whatever they tell you today, the law can change tomorrow. I'd assume that what you tell won't be completely confidential, especially if it sounds like something dangerous." 100% Human [alone](https://www.pangram.com/history/7235759d-d2ef-4631-9fe3-f675d8f1818e) and [in its h3](https://www.pangram.com/history/9478bb7b-b9ce-4cb4-a84b-153d7920b3be). Your "we saw this already with ai" is question 96.2.
 - **95.10 A:** PGQ-035 and PGQ-036 are recorded as left out by your choice; PGQ-034 stays open for your words.
-- What it taught: E247 (Inner Child: a blanket or repeated safety line comes out; general guidance lives in one place) and E248 (Inner Child: a cut of commentary can take out the line that read human), in `docs/HUMANIZATION-GATE.md`, with a note on E242: say whose words a passage is only from the records.
+- What it taught: E247 (Inner Child: a blanket or repeated safety line comes out; general guidance lives in one place) and E248 (Inner Child: a cut of commentary can take out the line that read human), in [docs/HUMANIZATION-GATE.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/docs/HUMANIZATION-GATE.md), with a note on E242: say whose words a passage is only from the records.
 
 <details><summary>94 and 95 as they were asked</summary>
 
@@ -295,7 +312,7 @@ From GPT's queue:
 
 ### 🟢 91 to 93, 2026-10-23 14:05 UTC
 
-Your message (turn 101; `experiments/t101-answers/JOEL-20261023-1405.md`), with GPT's review of the test. You merged pull request #226.
+Your message (turn 101; [experiments/t101-answers/JOEL-20261023-1405.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t101-answers/JOEL-20261023-1405.md)), with GPT's review of the test. You merged pull request #226.
 
 - **91.1 B:** in. Borrow One Competency at a Time opens with your paragraph and the three borrowings, then "If the Love Isn't Coming Yet" has the troubleshooting. "Most of us wouldn't open up ..." is cut, and "That takes warmth, and if there isn't any yet, borrow some." now ends old P5, since its "That" points at P5's last words. The new h3 read AI once ([check](https://www.pangram.com/history/0646d274-08fa-4d24-ba75-c444710868ef)), because the move put old P5's thank-you line right before my P9, which opened on the thank-you again; with my P9 starting "Your little one might not take it well at first." it reads 100% Human ([check](https://www.pangram.com/history/daced127-f97b-4ecc-a7bb-47c6c8c220b5)). Lesson E241.
 - **91.2 A:** "Instead of Blame" is in, and the paragraphs on both sides of it read Human with it ([check](https://www.pangram.com/history/f10b22b1-9b69-47be-bddc-a0bdb8d0cbdc)).
@@ -304,7 +321,7 @@ Your message (turn 101; `experiments/t101-answers/JOEL-20261023-1405.md`), with 
 - **93.1:** your words are in: "Of course, that’s not to say you should not try to suffer less, or get away from abusers." ([check](https://www.pangram.com/history/3f2f7707-7f0f-4878-9017-b40cda89b308)).
 - **93.2:** your two sentences are back, at the end of the prosperity paragraph ([check](https://www.pangram.com/history/8c605c65-c08f-4b0f-a0db-d32efccd033a)), and the stretch from there to the Of course paragraph reads Human ([check](https://www.pangram.com/history/b4743c65-68c2-4f82-a312-8532ab2c9ef4)).
 - **93.3 A:** kept as it is.
-- The records: `experiments/t101-tries/REVIEWS.md`, `experiments/t101-api/API-CHECKS.md`.
+- The records: [experiments/t101-tries/REVIEWS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t101-tries/REVIEWS.md), [experiments/t101-api/API-CHECKS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t101-api/API-CHECKS.md).
 
 <details><summary>91 to 93 as they were asked</summary>
 
@@ -331,14 +348,14 @@ GPT's proposal ([its reply of 11:41 UTC](https://github.com/u-dont-existDOTcom/j
 
 #### 92. Is anything from the guide missing? (your 2026-10-19 question)
 
-Your words: "lmk if there's anything else missing, bc at top it mentions ... Source sections that have not yet been humanized, or whose latest model candidate failed audit, are not silently represented as finished here." That header is September's, from when only part of the guide was in, and I can't answer for sure from the records: the last coverage check was turn 71's (`experiments/t71-guide/COVERAGE-r4-A.md` and `COVERAGE-r4-B.md`), which found 46 points missing or partly carried; turn 71 traced each one through the records (`TRACE-r4-A.md` and `TRACE-r4-B.md` beside them), and I haven't checked since which of them are still open. Since then new teaching has come in through GPT's queue, as PGQ-046 did today.
+Your words: "lmk if there's anything else missing, bc at top it mentions ... Source sections that have not yet been humanized, or whose latest model candidate failed audit, are not silently represented as finished here." That header is September's, from when only part of the guide was in, and I can't answer for sure from the records: the last coverage check was turn 71's ([experiments/t71-guide/COVERAGE-r4-A.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t71-guide/COVERAGE-r4-A.md) and [COVERAGE-r4-B.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t71-guide/COVERAGE-r4-B.md)), which found 46 points missing or partly carried; turn 71 traced each one through the records ([TRACE-r4-A.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t71-guide/TRACE-r4-A.md) and [TRACE-r4-B.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t71-guide/TRACE-r4-B.md) beside them), and I haven't checked since which of them are still open. Since then new teaching has come in through GPT's queue, as PGQ-046 did today.
 
 - **A (my pick):** I run one fresh coverage check of the guide and the queue against the article, read each gap against your recorded cuts, and bring you only the real gaps in one question; then the header says what's true.
 - **B:** no need; just fix the header.
 
 #### 93. Your two updated paragraphs in Your Loan is PRE-APPROVED! (turn 100)
 
-Your message of 13:10 UTC (`experiments/t100-answers/JOEL-20261023-1310.md`). Both are in word for word, with your link, and they read 100% Human: [the first alone](https://www.pangram.com/history/b7e2fdf3-2621-4447-a546-05fe5ea1f075), [the second alone](https://www.pangram.com/history/219296a9-fba2-46dd-b0f1-f436e4b57963), and [both with the three paragraphs around them](https://www.pangram.com/history/dc0894fe-a7b6-4d43-9159-36fb4126dbb7). Three things they changed that I'd like your word on:
+Your message of 13:10 UTC ([experiments/t100-answers/JOEL-20261023-1310.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t100-answers/JOEL-20261023-1310.md)). Both are in word for word, with your link, and they read 100% Human: [the first alone](https://www.pangram.com/history/b7e2fdf3-2621-4447-a546-05fe5ea1f075), [the second alone](https://www.pangram.com/history/219296a9-fba2-46dd-b0f1-f436e4b57963), and [both with the three paragraphs around them](https://www.pangram.com/history/dc0894fe-a7b6-4d43-9159-36fb4126dbb7). Three things they changed that I'd like your word on:
 
 - **93.1** Your second paragraph leaves out "nor does gratitude for difficulties justify staying with an abuser." GPT's queue (PGQ-031) has that point: nobody has to thank an abuser or excuse harm.
   - **A (my pick):** put the clause back where it was, in your words. Your paragraph just before it now says you're grateful even for suffering, and someone living with an abuser could take that as a reason to stay.
@@ -357,44 +374,44 @@ Your message of 13:10 UTC (`experiments/t100-answers/JOEL-20261023-1310.md`). Bo
 
 ### 🟢 Round 5, PGQ-046 and the four paragraphs that came back, 2026-10-23 10:23 and 12:28 UTC
 
-Your messages (turn 99, `experiments/t99-answers/JOEL-20261023-1023.md`; turn 100, `experiments/t100-answers/JOEL-20261023-1228.md`). You merged pull request #225 at 10:21 UTC.
+Your messages (turn 99, [experiments/t99-answers/JOEL-20261023-1023.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t99-answers/JOEL-20261023-1023.md); turn 100, [experiments/t100-answers/JOEL-20261023-1228.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t100-answers/JOEL-20261023-1228.md)). You merged pull request #225 at 10:21 UTC.
 
-- **Round 5's two links** are recorded: half A 1.2% AI, half B 1.4% (`experiments/t99-results/ROUND5-RESULTS.json`).
+- **Round 5's two links** are recorded: half A 1.2% AI, half B 1.4% ([experiments/t99-results/ROUND5-RESULTS.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t99-results/ROUND5-RESULTS.json)).
 - **"there's an update sent to your lane by gpt from me"**: it's PGQ-046, your amendment on being happy while others suffer. It's in, as two paragraphs after your memoir paragraph in Untangling the Belonging Bargains. The first reads 100% Human alone ([check](https://www.pangram.com/history/72df4253-a0b1-4895-921b-6fb88a762bbd)), the second too ([check](https://www.pangram.com/history/5a276026-12c9-4528-8df4-93ddbf904692)), and both with your paragraph and the lines around it ([check](https://www.pangram.com/history/2b561f5f-5956-4cef-b521-6b11efb84767)).
 - **The four that came back in round 5:** The Inner Guide P5, When One Life Has Ended P1 and How This Relates to IFS P7 (mine) are rewritten and in, each 100% Human alone and with its neighbors: P5 [alone](https://www.pangram.com/history/5ee698a9-da9c-4ca9-80ee-9866cfab16ef) and [P3 to P7](https://www.pangram.com/history/c101212c-912c-4223-a994-77b40547ae84) (its only windows are P7's last three sentences, at the end of that check, Human in both halves); When One Life Has Ended P1 [alone](https://www.pangram.com/history/50f027e5-f84e-47d9-bbc0-43ee045bea9c) and [in its h1](https://www.pangram.com/history/2e42b03b-65f0-4caf-955c-4c6863925169); IFS P7 [alone](https://www.pangram.com/history/b7311406-1ae8-4279-8791-fa3e66734bb2) and [P3 to P7](https://www.pangram.com/history/c4e53e05-a8e2-4090-861c-abbf245babc5). Related Clinical Work's first line (yours) stays as it is: its round-5 window ran on from IFS P7's, so round 6 shows whether it clears.
 - **Your 2026-10-19 question** about the header ("lmk if there's anything else missing") is question 92.
 - **Your two updated paragraphs of 13:10 UTC** are in word for word, each 100% Human alone and with its neighbors; question 93 has three things they changed.
-- The records: `experiments/t100-tries/REVIEWS.md`; lessons E228 to E231 in `docs/HUMANIZATION-GATE.md`.
+- The records: [experiments/t100-tries/REVIEWS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t100-tries/REVIEWS.md); lessons E228 to E231 in [docs/HUMANIZATION-GATE.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/docs/HUMANIZATION-GATE.md).
 
 ### 🟢 88 to 90, and public links, 2026-10-23 02:29 UTC
 
-Your message (turn 98; `experiments/t98-answers/JOEL-20261023-0229.md`). You merged pull request #223 at 01:12 UTC.
+Your message (turn 98; [experiments/t98-answers/JOEL-20261023-0229.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t98-answers/JOEL-20261023-0229.md)). You merged pull request #223 at 01:12 UTC.
 
-- **88.1 to 88.3:** your rewrites of How Much Happiness Do You Know Is Possible?, When the Practice Feels Real but Stays Shallow, and The Parent You Inherited are in word for word, except "hanlde" and "pont" (entry `joel-98-20261023`). The ST-CA reference is out, as you cut it. What they taught: E223 to E226 in `docs/HUMANIZATION-GATE.md`, starting with your "too much polish on this section, like a weird mix of overly efficient prose with actual lack of meaning."
+- **88.1 to 88.3:** your rewrites of How Much Happiness Do You Know Is Possible?, When the Practice Feels Real but Stays Shallow, and The Parent You Inherited are in word for word, except "hanlde" and "pont" (entry `joel-98-20261023`). The ST-CA reference is out, as you cut it. What they taught: E223 to E226 in [docs/HUMANIZATION-GATE.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/docs/HUMANIZATION-GATE.md), starting with your "too much polish on this section, like a weird mix of overly efficient prose with actual lack of meaning."
 - **89: A:** my wording of your Related Clinical Work line is in.
 - **90: A:** your rewrite of The Parent You Inherited covers it, so there was nothing left for me to try.
 - **"public pangram links are ok":** API checks now get a public Pangram page each (E227).
 
 ### 🟢 86 and 87, 2026-10-22 23:54 UTC
 
-Your message (turn 97; `experiments/t97-answers/JOEL-20261022-2354.md`). You merged pull request #221 at 23:02 UTC.
+Your message (turn 97; [experiments/t97-answers/JOEL-20261022-2354.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t97-answers/JOEL-20261022-2354.md)). You merged pull request #221 at 23:02 UTC.
 
 - **86: A, with your terms:** "you can check paras or sections with API, not more than like 5-6 paras at a time in general (not half an  article)", and "I have unlimited substack checks on pangram. if you hit the limit on one account i can switch to another." The API answers with Pangram 4.1. This turn's two rounds were 2,011 words, about $1 at $0.05 per 100 words.
-- **87: your two rewrites** are in word for word (entry `joel-97-20261022`): Before You Try to Go Deep, and Your Body P3 to P5. Your Body reads 100% Human as a section through the API. What they taught: E216 and E217 in `docs/HUMANIZATION-GATE.md`.
+- **87: your two rewrites** are in word for word (entry `joel-97-20261022`): Before You Try to Go Deep, and Your Body P3 to P5. Your Body reads 100% Human as a section through the API. What they taught: E216 and E217 in [docs/HUMANIZATION-GATE.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/docs/HUMANIZATION-GATE.md).
 - **The links:** "can you please always give me the links to the checks you want me to copy and fix? i thought that was a rule already." It's E214 now, and this page won't build if an open question says a stretch reads AI without its check's link.
 - **Borrowed Adulthood in Relationship:** you're right that it passes; your check of it alone reads 100% Human. What I was looking at was part 5 of 9 of the draft B check, where "Often it's mostly one person carrying a lot of it, maybe the one who drives you to your appointments and says it'll be okay." read AI inside the half (E215). I should have given you that link and the part number.
 
 ### 🟢 The fourth check and the API key, 2026-10-22 22:08 UTC
 
-Your message (turn 96; `experiments/t96-answers/JOEL-20261022-2208.md`) has the fourth check's two links, and: "you can see my current pangram api key here btw ... it says i have $200 credit." You merged pull request #220 at 21:56 UTC.
+Your message (turn 96; [experiments/t96-answers/JOEL-20261022-2208.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t96-answers/JOEL-20261022-2208.md)) has the fourth check's two links, and: "you can see my current pangram api key here btw ... it says i have $200 credit." You merged pull request #220 at 21:56 UTC.
 
-- **Results:** `experiments/t96-results/ROUND4-RESULTS.json`. Half A reads 2.2% AI, half B 3.0%.
+- **Results:** [experiments/t96-results/ROUND4-RESULTS.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t96-results/ROUND4-RESULTS.json). Half A reads 2.2% AI, half B 3.0%.
 - **My predictions:** 6 of the 12 paragraph predictions were right; the scorecard has them.
 - **The key:** it's accepted, and I haven't spent anything. How to use it is question 86.
 
 ### 🟢 78.2, 84 and 85, 2026-10-22 21:35 UTC
 
-Your answers (turn 95; `experiments/t95-answers/JOEL-20261022-2135.md`), and what I did:
+Your answers (turn 95; [experiments/t95-answers/JOEL-20261022-2135.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t95-answers/JOEL-20261022-2135.md)), and what I did:
 
 - **78.2 A:** the couples book's candidates for the romance guide stay as notes. The safety plan comes first whenever you open the romance guide again.
 - **84.1 B:** "Borrow adulthood. Do not surrender it." stays. Your words: "it does look AI, but i guess it's ok if it passes". That's lesson E211.
@@ -403,7 +420,7 @@ Your answers (turn 95; `experiments/t95-answers/JOEL-20261022-2135.md`), and wha
 - **84.5 B:** stays. It's your point, not an aside: don't go to the other extreme once you notice every group asks for some conformity. That's lesson E209.
 - **84.6:** your new last sentence, word for word: "In the process of self-differentiation, we learn to notice when we're making the trade, and we begin keeping our ground more when feasible." Cutting the second half would have falsified it, which is lesson E210.
 - **85:** your Two Common Guarding Patterns Blocking Reparenting is in, word for word, with its heading.
-  - What it changed is lesson E207 in `docs/HUMANIZATION-GATE.md`, ten kinds in all:
+  - What it changed is lesson E207 in [docs/HUMANIZATION-GATE.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/docs/HUMANIZATION-GATE.md), ten kinds in all:
     - named referents;
     - known names for things ("a self-fulfilling prophecy", "people pleasers", "sour grapes");
     - your reasons as opinions;
@@ -418,24 +435,24 @@ Your answers (turn 95; `experiments/t95-answers/JOEL-20261022-2135.md`), and wha
     - "a break" for "one";
     - "Somatic work" for "This kind of work";
     - the reason said with your mom or dad in it.
-- **Start With Whatever Showed Up P8:** cut, as you did ("it looked like fluff"). Its text is in `experiments/t95-installs/CUT-start-with-p8.md`. Research that doesn't change what the reader does is fluff, which is lesson E212.
+- **Start With Whatever Showed Up P8:** cut, as you did ("it looked like fluff"). Its text is in [experiments/t95-installs/CUT-start-with-p8.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t95-installs/CUT-start-with-p8.md). Research that doesn't change what the reader does is fluff, which is lesson E212.
 - **The merge link:** you had to find pull request #218 yourself. From now on every merge I leave to you comes with its link, in my reply and under For you to do. That's lesson E213.
 
 ### 🟢 The questions page and the scorecard, 2026-10-22 19:50 UTC
 
-Your two messages (turn 94; `experiments/t94-answers/JOEL-20261022-1950.md`): "you didn't give me an answers page. isn't that a standing rule to always give answers page ..?" and "and where is the scorecard isn't that something you are keeping track of so we can help you get better at your predictions etc?" Both were misses on my part.
+Your two messages (turn 94; [experiments/t94-answers/JOEL-20261022-1950.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t94-answers/JOEL-20261022-1950.md)): "you didn't give me an answers page. isn't that a standing rule to always give answers page ..?" and "and where is the scorecard isn't that something you are keeping track of so we can help you get better at your predictions etc?" Both were misses on my part.
 
-- **This page:** under the rule (UDA `patterns/owner-questions-page.md`), every reply points to it, and it's also published as a page you can open on any device. This project only had the file. The page is published now, and every reply links it.
-- **The scorecard:** `tools/SCORECARD.md`, built after every recorded result by `tools/build_scorecard.py`, which also rebuilds the shared one, `state/PANGRAM-SCORECARD.md`. This project's own page had never been built, and the shared one hadn't been rebuilt since 2026-10-21.
+- **This page:** under the rule (UDA [patterns/owner-questions-page.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/owner-questions-page.md)), every reply points to it, and it's also published as a page you can open on any device. This project only had the file. The page is published now, and every reply links it.
+- **The scorecard:** [tools/SCORECARD.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/tools/SCORECARD.md), built after every recorded result by [tools/build_scorecard.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/tools/build_scorecard.py), which also rebuilds the shared one, [state/PANGRAM-SCORECARD.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/state/PANGRAM-SCORECARD.md). This project's own page had never been built, and the shared one hadn't been rebuilt since 2026-10-21.
   - Building it showed a bug: my AI calls had recorded how sure I was of the AI call (0.9) where the ledger wants the chance of a Human result (0.1). That made my calibration look worse than guessing.
   - The 30 records are fixed, each with its old number kept (`chance_fixed`), and the ledger now refuses the mistake (with a test).
 - **This round's predictions:** one per changed paragraph, made before I read the results. 17 of 30 were right, the same as always guessing Human. 11 of the 13 misses were me being too pessimistic about a cut, so a cut of a named tell now starts near 0.6.
 
 ### 🟢 83, 2026-10-22 19:01 UTC
 
-The question was what still reads AI, and how to get it to Human. Your answer (turn 93; `experiments/t93-answers/JOEL-20261022-1901.md`): "i don't mind helping but as usual i like you to try yourself IF you know what looks like AI tells, then i can help you if you can't find the AI tells. so far your human tells have not been very good most times." You also declined my opening pangram.com's dashboard, so there are no paid checks. The next check is the free Substack one.
+The question was what still reads AI, and how to get it to Human. Your answer (turn 93; [experiments/t93-answers/JOEL-20261022-1901.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t93-answers/JOEL-20261022-1901.md)): "i don't mind helping but as usual i like you to try yourself IF you know what looks like AI tells, then i can help you if you can't find the AI tells. so far your human tells have not been very good most times." You also declined my opening pangram.com's dashboard, so there are no paid checks. The next check is the free Substack one.
 
-So I read round 2's windows again and named the tell in each (`experiments/t93-tells/TELLS-ROUND2.md`). In my 29 paragraphs I took the tells out and added nothing:
+So I read round 2's windows again and named the tell in each ([experiments/t93-tells/TELLS-ROUND2.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t93-tells/TELLS-ROUND2.md)). In my 29 paragraphs I took the tells out and added nothing:
 - quips;
 - follow-ups that reassure or restate;
 - balanced closers;
@@ -455,7 +472,7 @@ Your words are question 84. Nothing is checked in Pangram yet.
 
 ### 🟢 The two books on schema therapy and spirituality, 2026-10-22 18:35 UTC
 
-You checked the two books GPT found and sent its views (turn 92; `experiments/t92-answers/`). An agent checked GPT's 13 claims against the books (`experiments/t92-books/BOOK-CHECK.md`), and all 13 hold.
+You checked the two books GPT found and sent its views (turn 92; [experiments/t92-answers/](https://github.com/u-dont-existDOTcom/joel-articles/tree/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t92-answers)). An agent checked GPT's 13 claims against the books ([experiments/t92-books/BOOK-CHECK.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t92-books/BOOK-CHECK.md)), and all 13 hold.
 
 - *Emotional Alchemy* (Tara Bennett-Goleman) blends Buddhist practice with schema work and adapts loving-kindness to each schema. It's not theistic.
 - *Mindfulness and Schema Therapy* is a secular training.
@@ -465,11 +482,11 @@ So the Schema Therapy appendix's P2 now names *Emotional Alchemy*. Since you're 
 
 ### 🟢 82, 2026-10-22 18:35 UTC
 
-Your answer (turn 92; `experiments/t92-answers/JOEL-20261022-1835.md`): "82a and add therapist reply also". Your paragraph is in right after the loyalty bargain in Untangling the Belonging Bargains, as drafted from your message and your nibbana article, plus "I told this to a therapist in college and she actually agreed it was a good reason to be depressed!" Not yet checked in Pangram.
+Your answer (turn 92; [experiments/t92-answers/JOEL-20261022-1835.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t92-answers/JOEL-20261022-1835.md)): "82a and add therapist reply also". Your paragraph is in right after the loyalty bargain in Untangling the Belonging Bargains, as drafted from your message and your nibbana article, plus "I told this to a therapist in college and she actually agreed it was a good reason to be depressed!" Not yet checked in Pangram.
 
 ### 🟢 The Schema Hacks material, 2026-10-22 18:03 UTC
 
-Your message (turn 90; `experiments/t90-answers/`, with Gemini's findings and GPT's advice): "we have some more things to add from schema hacks on youtube". I agreed with GPT's read, and put in its five, each a sentence or two in your voice where the guide didn't already say it, with its corrections:
+Your message (turn 90; [experiments/t90-answers/](https://github.com/u-dont-existDOTcom/joel-articles/tree/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t90-answers), with Gemini's findings and GPT's advice): "we have some more things to add from schema hacks on youtube". I agreed with GPT's read, and put in its five, each a sentence or two in your voice where the guide didn't already say it, with its corrections:
 
 1. **Self-blame can be doing a protective job:** a new last paragraph in Hear the Guard First, as a possibility to check. The cruelty stops either way.
 2. **The pile-up:** sad, then "pathetic", then ashamed. It's the new last paragraph of The Parent You Inherited, since your P3 has to follow P2 there.
@@ -487,15 +504,15 @@ None of the five is checked in Pangram yet.
 
 ### 🟢 81, and the hypnosis lane, 2026-10-22 16:35 UTC
 
-Your message (turn 89; `experiments/t89-answers/JOEL-20261022-1635.md`): "ok go ahead", "81a", and send our fixes to the hypnosis lane.
+Your message (turn 89; [experiments/t89-answers/JOEL-20261022-1635.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t89-answers/JOEL-20261022-1635.md)): "ok go ahead", "81a", and send our fixes to the hypnosis lane.
 
 - **81 A:** your nutshell now says "comprising a loving Nurturer, a safe Adult Protector (hereafter just the Protector) and a wise Guide", your own three words from P2.
-- **The hypnosis lane:** a note on its branch, at the top of its handoff's START HERE (`articles/inner-signal/humanize/NOTE-FROM-INNER-CHILD-LANE-20261022.md`). It covers the draft titles, the paste helper and where the Pangram result opens, plus five of your inner child decisions to put to you there as questions: the Protector and guards, first-read explanations, the third job's name, forced adulthood and the core names.
-- **The check:** both labels read Human. The result opens in Brave's side panel, which Claude in Chrome can't see (your screenshot), so you copy the links. Half B: Mostly Human Written, 3.5% AI, 20 of 181 windows (`experiments/t89-results/`).
+- **The hypnosis lane:** a note on its branch, at the top of its handoff's START HERE ([articles/inner-signal/humanize/NOTE-FROM-INNER-CHILD-LANE-20261022.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-signal/humanize/NOTE-FROM-INNER-CHILD-LANE-20261022.md)). It covers the draft titles, the paste helper and where the Pangram result opens, plus five of your inner child decisions to put to you there as questions: the Protector and guards, first-read explanations, the third job's name, forced adulthood and the core names.
+- **The check:** both labels read Human. The result opens in Brave's side panel, which Claude in Chrome can't see (your screenshot), so you copy the links. Half B: Mostly Human Written, 3.5% AI, 20 of 181 windows ([experiments/t89-results/](https://github.com/u-dont-existDOTcom/joel-articles/tree/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t89-results)).
 
 ### 🟢 80, 79 (your nutshell), 77.5 and 77.8, 2026-10-22 16:12 UTC
 
-Your message (sent during turn 87; `experiments/t88-answers/JOEL-20261022-1612.md`):
+Your message (sent during turn 87; [experiments/t88-answers/JOEL-20261022-1612.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t88-answers/JOEL-20261022-1612.md)):
 
 - **Your nutshell** ("here's my human version that passes") replaces my draft, word for word, as the article's first text, above the songs ("79. yes above songs"). You checked it, so it gets no Pangram check of mine. Your second line says "in a nutshell", so I dropped the heading "Reparenting in a nutshell". Say if you want it back.
 - **80.1 A** ("1. agree"): stage 1 now ends its first sentence "...that require more maturity, even if it looks like you’ve got it all together."
@@ -506,7 +523,7 @@ Your message (sent during turn 87; `experiments/t88-answers/JOEL-20261022-1612.m
 
 ### 🟢 76, 77, 78.1 and 79.3, 2026-10-22 15:33 UTC
 
-Your answers (turn 87; `experiments/t87-answers/JOEL-20261022-1533.md`), and what goes in this round:
+Your answers (turn 87; [experiments/t87-answers/JOEL-20261022-1533.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t87-answers/JOEL-20261022-1533.md)), and what goes in this round:
 
 - **76.1 A, 76.2 A, 76.4 A.** With 77.1 A, 76.1 becomes "No hidden guard or old trauma required", since that answer renames the reactions guards. Say if you want "protective part" there instead.
 - **76.3 B** ("stuck in forced adulthood"), plus your new stage 1 and your new Chicken-and-Egg P2, both word for word. The obvious typo "into to" becomes "into". They name forced adulthood at the start; you were right that it was missing from the stages.
@@ -519,7 +536,7 @@ Your answers (turn 87; `experiments/t87-answers/JOEL-20261022-1533.md`), and wha
 
 ### 🟢 The core names (79.1 and 79.2), and 77.1, 2026-10-22 14:26 UTC
 
-Your answer (turn 86; `experiments/t86-answers/JOEL-20261022-1426.md`): "ok i like gpt's response", about GPT's reply on the names (`experiments/t86-answers/GPT-REPLY-ON-CORE-NAMES-20261022-1349.md`). So the set is GPT's refinement of mine:
+Your answer (turn 86; [experiments/t86-answers/JOEL-20261022-1426.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t86-answers/JOEL-20261022-1426.md)): "ok i like gpt's response", about GPT's reply on the names ([experiments/t86-answers/GPT-REPLY-ON-CORE-NAMES-20261022-1349.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t86-answers/GPT-REPLY-ON-CORE-NAMES-20261022-1349.md)). So the set is GPT's refinement of mine:
 
 - **The little one (Inner Child):** younger experience: vulnerability, needs, wanting, play and wonder. Feelings aren't only the little one's, though. The Nurturer's warmth is a feeling too.
 - **The Inner Adult:** one person with three jobs, Nurturer, Protector and Guide. It's plain "Protector": the Inner Adult's protective job, kept distinct from guards. I've taken that as your answer to 77.1, A, since GPT's reply says it.
@@ -533,13 +550,13 @@ Your answer (turn 86; `experiments/t86-answers/JOEL-20261022-1426.md`): "ok i li
 
 ### 🟢 The turn-79 Substack results and the books, 2026-10-22
 
-- **Results** (your two links, 11:56 UTC): both halves read Mostly Human Written. The first is 4.3% AI, with 26 of 231 segments AI (https://www.pangram.com/feed/8a00b6b8-ef47-4f75-b473-10e56ff8f5b3). The second is 2.7% AI, with 10 of 140 segments AI (https://www.pangram.com/feed/d8a345d5-7038-4344-a461-e33fae115884). My predictions said all Human, so both are misses. Every AI segment is listed by section and paragraph in `experiments/t82-results/AI-WINDOWS.md`. I'll rework them together with your 76 and 77 answers, so nothing is reworked twice.
+- **Results** (your two links, 11:56 UTC): both halves read Mostly Human Written. The first is 4.3% AI, with 26 of 231 segments AI (https://www.pangram.com/feed/8a00b6b8-ef47-4f75-b473-10e56ff8f5b3). The second is 2.7% AI, with 10 of 140 segments AI (https://www.pangram.com/feed/d8a345d5-7038-4344-a461-e33fae115884). My predictions said all Human, so both are misses. Every AI segment is listed by section and paragraph in [experiments/t82-results/AI-WINDOWS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t82-results/AI-WINDOWS.md). I'll rework them together with your 76 and 77 answers, so nothing is reworked twice.
 - **Why I couldn't see the analysis:** clicking the label in your Brave changes nothing in the page, opens no side panel and opens no tab that Claude in Chrome can see. The analysis most likely opens in a tab or window outside the tab group Claude in Chrome works in. Next time, I'll tell you when I'm about to click, so you can watch where it opens.
 - **The books** (12:06 and 12:15 UTC): van Genderen, Heath/Startup, Capacchione and Young match the files GPT used. Your Young file is labelled 2007, but it's the same 2003 book (the copyright page says 2003). The review checks GPT's citations against them. I'm reading the two new ones, the children's book and the couples book, for possible additions, the couples one for the romance guide too. Both readers are done: 12 candidates per book (question 78).
 
 ### 🟢 75 and the mixed-up-figures check, 2026-10-21 22:42 UTC
 
-Your answer (turn 81; `experiments/t81-answers/JOEL-20261021-2242.md`):
+Your answer (turn 81; [experiments/t81-answers/JOEL-20261021-2242.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t81-answers/JOEL-20261021-2242.md)):
 
 - **75, A:** with Claude in Chrome on in your Brave, I opened both drafts there. The Pangram labels read Human for both halves. The full analysis is the to-do above.
 - **The API:** the key in your key file got "Insufficient credits" (HTTP 402), so nothing was checked or charged. If the $200 is on a different key, that's the key the file needs. Pangram's Pangram 4 migration guide describes what the API returns: windows, each with a label, confidence, AI-assistance and humanizer scores, and nothing at the sentence level, so the GUI's sentence shading stays the place to look when one sentence decides a repair.
@@ -552,7 +569,7 @@ Your answer (turn 81; `experiments/t81-answers/JOEL-20261021-2242.md`):
 
 ### 🟢 72 to 74, 2026-10-21 16:01 UTC
 
-Your answers, in the article (turn 79; `experiments/t79-answers/JOEL-20261021-1601.md`):
+Your answers, in the article (turn 79; [experiments/t79-answers/JOEL-20261021-1601.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t79-answers/JOEL-20261021-1601.md)):
 
 - **72a, B:** both "toxic positivity" lines stay. They aren't close: one is in Borrow Love, the other in Speak Toward What You Are Building, about 18,000 words later.
 - **72b, A:** your question "What is this practice supposed to help, and how would I know if it's helping?" is now only in When Healing Turns Into Checking.
@@ -562,7 +579,7 @@ Your answers, in the article (turn 79; `experiments/t79-answers/JOEL-20261021-16
 - **73, A:** your two 10-19 lines stay in the Loan P2.
 - **74, A:** If You Want to Kill Yourself starts with the get-help steps, then your "I try not to proselytize..." paragraph; no words changed.
 - **Your labeling note:** from now on a question's sub-items get numbers (72.1, 72.2) and its options letters (gate E203).
-- **The Substack checks:** mine to run from now on, drafts deleted once the results are recorded (gate E204, `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`). Nothing was blocking me: the shared rule still said you make the post, because the hypnosis lane's change was only in its own handoff. The hypnosis lane's recheck stopped at the same step as mine, the Pangram label, which needs your Chrome.
+- **The Substack checks:** mine to run from now on, drafts deleted once the results are recorded (gate E204, [docs/PANGRAM-PRODUCTION-BUDGET-20261020.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/docs/PANGRAM-PRODUCTION-BUDGET-20261020.md)). Nothing was blocking me: the shared rule still said you make the post, because the hypnosis lane's change was only in its own handoff. The hypnosis lane's recheck stopped at the same step as mine, the Pangram label, which needs your Chrome.
 
 ### 🟢 70 and 71, 2026-10-21 00:49 UTC
 
@@ -695,7 +712,7 @@ Your answers to 45 and 47 to 54, word for word, are in [experiments/t72-answers/
 - "why do you say it was a mistake to have 16-20 writer agents at once?": the limit that ran out was the Claude account's usage window, not Pangram's credits. Each writer used about 150,000 tokens, so a wave of 16 was about 2.4 million tokens every 15 to 20 minutes, back to back; when the window ran out, everything stopped (me included) for more than two hours. And they weren't paying off: rounds z14 to z20 were 112 checks for two passes, both my joins. This turn had no writer agents.
 - "for each thing you need help with, you always need to tell me "I can't find any more AI tells here, and I see some human tells, like these... can you help show me the tells I'm missing?"": lesson E186. Every help request opens with your sentence and names the human tells I see, and goes to you only after every linter flag and each tell you named (a list of three, marching order, overcompletion, vagueness, redundancy, an unclear referent, "X can ... without Y", formulaic expression) has had its own try. Question 41 is the first.
 - "we got that list of 3 going on again. how is that not detected?": it was detected, as a REVIEW, and a REVIEW didn't stop anything, so I sent it. Now a list of three in my sentence is a FAIL unless it ends on a catch-all like your "whatever works", and "can ... without ...ing" is a FAIL too (in the screens of 14 to 17 October, a paragraph with one list read Human 17% of the time, without one 29%). Your moves (the spoken marker that does a job, the simile, the question in place of a stated limit, the pointer to another section by name, the untidy last sentence) are in the writers' prompt.
-- 32, A: your step is in, word for word, and If You Want to Kill Yourself is in with it (the h1 [Human Written 0.24, high](https://www.pangram.com/history/71cbf2e1-e6dd-4d34-a1b7-96cd6b4a192f)). It needed one more thing first: its Buddhist-view paragraph had never read Human alone. PARKED.md had said it did, but that result was another file's, whose name differed by one hyphen (lesson E187); every other claim there checks out. Three plain versions close to the guide read Human alone, and a new first sentence for the momentum paragraph took the last AI window out of the h1. The two lines I'd asked about ("This isn't me answering...", "the accumulating scientific evidence") are the guide's own ("That isn't my answer", "accumulating scientific evidence"), so they stay as the guide says them.
+- 32, A: your step is in, word for word, and If You Want to Kill Yourself is in with it (the h1 [Human Written 0.24, high](https://www.pangram.com/history/71cbf2e1-e6dd-4d34-a1b7-96cd6b4a192f)). It needed one more thing first: its Buddhist-view paragraph had never read Human alone. [PARKED.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t65-guide/PARKED.md) had said it did, but that result was another file's, whose name differed by one hyphen (lesson E187); every other claim there checks out. Three plain versions close to the guide read Human alone, and a new first sentence for the momentum paragraph took the last AI window out of the h1. The two lines I'd asked about ("This isn't me answering...", "the accumulating scientific evidence") are the guide's own ("That isn't my answer", "accumulating scientific evidence"), so they stay as the guide says them.
 - 33, A: your P2 is in, word for word, after P1 (the h1 [Human Written 0.19, high](https://www.pangram.com/history/6add1dc0-16c2-41ee-81eb-be2b88d43947)). One of the two P1s read AI with your P2, so it's the other one. Your "inner relationship" settles which relationship stays precious. The guide had meant the bond with the person who's been helping, and your last sentence keeps that side ("the balance is dynamic between inner & outer reliance"), so I've left it as you wrote it.
 - 34, A: your P4 is in, word for word. With it, the h2 read AI over my P1 to P3, so they're new. P1 no longer echoes the heading, and P3 has the guide's fruits test against certainty back. The h2 reads [Human Written 0.38, high](https://www.pangram.com/history/c0f1db60-a061-432a-a565-689a841c09e2) and When Love Still Feels Missing [Human Written 0.25, high](https://www.pangram.com/history/955c23e0-561f-4652-90ef-69e7610f7663).
 - 35, A: your P14 is in, word for word, first under Timing Is Individual (the h2 [Human 0.27](https://www.pangram.com/history/16516cc7-5343-427c-928b-6a72439b2543), the h1 [Human Written 0.10, high](https://www.pangram.com/history/cb9aec61-0957-43eb-b28f-4c0f30633cae)).
@@ -736,7 +753,7 @@ Your answers to 45 and 47 to 54, word for word, are in [experiments/t72-answers/
 
 ### 🟢 2026-10-15 20:56 UTC
 
-- "4 hours for 2 paragraphs is a pretty bad result again ... i'm at 92% utliization so you need to be updating everything on gh as you go": the lean process (E177): I write the drafts myself in plain words, screen them in Pangram, and send each section to one round of reviews on cheaper models; every step is pushed as it finishes, and `CURRENT-STATE.md` says the next step, so another account can pick up mid-section.
+- "4 hours for 2 paragraphs is a pretty bad result again ... i'm at 92% utliization so you need to be updating everything on gh as you go": the lean process (E177): I write the drafts myself in plain words, screen them in Pangram, and send each section to one round of reviews on cheaper models; every step is pushed as it finishes, and [CURRENT-STATE.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/CURRENT-STATE.md) says the next step, so another account can pick up mid-section.
 
 ### 🟢 2026-10-15 16:39 UTC
 
@@ -838,7 +855,7 @@ Your answers to 45 and 47 to 54, word for word, are in [experiments/t72-answers/
 
 ### 🟢 2026-10-11 03:47 UTC
 
-- "My Journey, you confabulated this: "That's why I started looking for a way to have an adult there before I could reliably be that adult myself." debug that, stoop confabulating my life story. i didn't say that. it was general advice as per the guide.": the line is out. How it got in and what changed so it can't again: `experiments/t43-life-claims/DEBUG.md` (rule E160).
+- "My Journey, you confabulated this: "That's why I started looking for a way to have an adult there before I could reliably be that adult myself." debug that, stoop confabulating my life story. i didn't say that. it was general advice as per the guide.": the line is out. How it got in and what changed so it can't again: [experiments/t43-life-claims/DEBUG.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t43-life-claims/DEBUG.md) (rule E160).
 - "Why are there no numbers on many of these paragraphs? how do i identify them?": both pages now number every paragraph under its heading, P1, P2, ...
 - Cut "(not as normal for weed, though)"; move your 5-MeO paragraph before "Your own drug history counts too" and drop the voices sentence: done, and the "But" that answered it went too.
 - Question 1, "1a yes they shoudl get someone qualified to help if they aren't able to clearly understand themself. … b. absolutely, every kind of predisposition towards mania or psychosis … should be considered a warning sign. c. … not just prescribed medicines. even some basic things like cinnamon can be dangerous (and helpful) with ayahuasca. I have a list …": all three are in, in your words, with your ayahuasca list linked.
