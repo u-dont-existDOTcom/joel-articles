@@ -25,7 +25,7 @@ python3 tools/humanization/owner_delivery_gate.py init \
 - `UNCERTAIN` is always blocking.
 - `PRESENT` can be `JUSTIFIED_KEEP` only when an independent reviewer explicitly confirms the source-grounded rationale; a legitimate em dash or meaningful contrast is not blanket-banned.
 - An actual mechanical `FAIL` can **never** be waived for model prose.
-- A mechanical `REVIEW` needs a specific `JUSTIFIED_KEEP` rationale for each exact lint finding.
+- A mechanical `REVIEW` needs a specific `JUSTIFIED_KEEP` rationale for each exact lint finding. Each separately saved reviewer report must list every accepted exact lint label in `resolved_lint_labels`.
 - Three separately saved source-bound reports are required: `preservation`, `cold_read_1`, `cold_read_2`. Paths in `review_files` are relative to the manifest.
 
 Review artifacts have the following shape (replace every placeholder with actual evidence):
@@ -45,7 +45,8 @@ Review artifacts have the following shape (replace every placeholder with actual
     "origin": "run provenance / external evidence source"
   },
   "evidence": "Specific critical evaluation of the literal source, context and candidate.",
-  "resolved_tell_ids": []
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
 }
 ```
 

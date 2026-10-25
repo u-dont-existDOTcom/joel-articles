@@ -6,6 +6,7 @@ import json
 import pathlib
 import subprocess
 import sys
+from unittest import mock
 import tempfile
 import unittest
 
@@ -90,6 +91,9 @@ class OwnerDeliveryGateTests(unittest.TestCase):
                     "the ferry-arrival relation and timing remain unchanged."
                 ),
                 "resolved_tell_ids": ["T12"],
+                "resolved_lint_labels": [
+                    finding["label"] for finding in manifest["lint"]["findings"]
+                ],
             }
             fn = self.folder / f"{role}.review.json"
             fn.write_text(json.dumps(review), encoding="utf-8")
@@ -271,6 +275,120 @@ class OwnerDeliveryGateTests(unittest.TestCase):
         result = self.call("check")
         self.assertEqual(result.returncode, 2)
         self.assertIn("linter changed since init", result.stderr)
+
+
+    def test_lint_review_needs_independent_confirmation(self):
+        manifest = self.ready()
+        self.assertTrue(manifest["lint"]["findings"])
+        p = self.folder / "cold_read_2.review.json"
+        review = json.loads(p.read_text())
+        review["resolved_lint_labels"] = []
+        p.write_text(json.dumps(review))
+        r = self.call("deliver")
+        self.assertEqual(r.returncode, 2)
+        self.assertIn("did not explicitly review lint findings", r.stderr)
+        self.assertFalse(self.output.exists())
+
+    def test_linter_unparseable_review_fails_closed(self):
+        fake_run = subprocess.CompletedProcess(
+            args=["tells_lint"], returncode=1, stdout="verdict: REVIEW\n",
+            stderr=""
+        )
+        with mock.patch.object(gate.subprocess, "run", return_value=fake_run):
+            with self.assertRaisesRegex(gate.GateError, "REVIEW without parseable"):
+                gate.lint(POSITIVE.encode(), POSITIVE.encode())
+
+    def test_inventory_future_identifier_is_not_silently_dropped(self):
+        example = b"**T01 \xe2\x80\x94 First.**\n**T100 \xe2\x80\x94 New.**\n**C04 \xe2\x80\x94 End.**\n"
+        self.assertEqual(gate.inventory_ids(example), ["T01", "T100", "C04"])
+        broken = example.replace(b"T100 \xe2\x80\x94", b"T100 :")
+        with self.assertRaisesRegex(gate.GateError, "unrecognized"):
+            gate.inventory_ids(broken)
+
+    def test_unhashable_manifest_id_fails_closed_not_crashes(self):
+        m = self.ready()
+        m["tell_ledger"][0]["id"] = ["T01"]
+        self.save_manifest(m)
+        r = self.call("deliver")
+        self.assertEqual(r.returncode, 2)
+        self.assertIn("tell ID must be a string", r.stderr)
+        self.assertFalse(self.output.exists())
+
+    def test_malformed_reviewer_confirmation_is_blocked(self):
+        self.ready()
+        p = self.folder / "cold_read_1.review.json"
+        x = json.loads(p.read_text())
+        x["resolved_lint_labels"] = 42
+        p.write_text(json.dumps(x))
+        r = self.call("deliver")
+        self.assertEqual(r.returncode, 2)
+        self.assertIn("resolved_lint_labels must contain string IDs", r.stderr)
+
+    def test_unwritable_proof_path_creates_no_owner_draft(self):
+        self.ready()
+        not_directory = self.folder / "existing-file"
+        not_directory.write_text("not a directory")
+        fake_proof = not_directory / "proof.json"
+        cmd = [
+            sys.executable, str(SCRIPT), "deliver",
+            "--draft", str(self.draft),
+            "--context", str(self.context),
+            "--source", str(self.source),
+            "--manifest", str(self.manifest),
+            "--out", str(self.output),
+            "--proof", str(fake_proof),
+        ]
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+        self.assertEqual(r.returncode, 2)
+        self.assertFalse(self.output.exists())
+        self.assertFalse(fake_proof.exists())
+
+    def test_second_install_failure_removes_new_proof(self):
+        self.ready()
+        orig_link = gate.os.link
+
+        def one_link_then_failure(src, dst):
+            if pathlib.Path(dst) == self.output:
+                raise OSError("simulated exclusive owner export link failure")
+            return orig_link(src, dst)
+
+        with mock.patch.object(gate.os, "link", side_effect=one_link_then_failure):
+            code = gate.main([
+                "deliver", "--draft", str(self.draft),
+                "--context", str(self.context),
+                "--source", str(self.source),
+                "--manifest", str(self.manifest),
+                "--out", str(self.output),
+                "--proof", str(self.proof),
+            ])
+        self.assertEqual(code, 2)
+        self.assertFalse(self.output.exists())
+        self.assertFalse(self.proof.exists())
+
+    def test_export_uses_validated_snapshot_when_draft_changes_after_audit(self):
+        self.ready()
+        original = self.draft.read_bytes()
+        original_validate = gate.validate
+
+        def mutate_after_validating(args):
+            proof, snapshot = original_validate(args)
+            self.draft.write_text("MUTATED AFTER VALIDATION")
+            return proof, snapshot
+
+        with mock.patch.object(gate, "validate", side_effect=mutate_after_validating):
+            code = gate.main([
+                "deliver", "--draft", str(self.draft),
+                "--context", str(self.context),
+                "--source", str(self.source),
+                "--manifest", str(self.manifest),
+                "--out", str(self.output),
+                "--proof", str(self.proof),
+            ])
+        self.assertEqual(code, 0)
+        self.assertEqual(self.output.read_bytes(), original)
+        receipt = json.loads(self.proof.read_text())
+        self.assertEqual(gate.sha(original), receipt["candidate_sha256"])
+        self.assertNotEqual(self.output.read_bytes(), self.draft.read_bytes())
 
 
 if __name__ == "__main__":

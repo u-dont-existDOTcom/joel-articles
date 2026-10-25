@@ -24,6 +24,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import pathlib
 import re
 import subprocess
@@ -37,7 +38,9 @@ LINTER = pathlib.Path(__file__).with_name("tells_lint.py")
 SCHEMA = "JOEL_OWNER_DELIVERY_GATE_V1"
 REVIEW_SCHEMA = "JOEL_COLD_REVIEW_V1"
 ROLES = ("preservation", "cold_read_1", "cold_read_2")
-TELL_ID = re.compile(r"^\*\*((?:T|C)\d{2})\s+—", re.M)
+TELL_ID = re.compile(r"^\*\*((?:T|C)\d+)\s+[—–-]", re.M)
+POTENTIAL_TELL_ID = re.compile(r"^\*\*((?:T|C)\d+)\b", re.M)
+HASH_FIELDS = ("candidate_sha256", "context_sha256", "source_sha256", "inventory_sha256")
 VERDICT = re.compile(r"^verdict:\s*(CLEAR|REVIEW|FAIL)\s*$", re.M)
 FLAG = re.compile(r"^-- (.+) \((\d+)\)$")
 
@@ -62,9 +65,11 @@ def json_file(path: pathlib.Path) -> dict:
 
 
 def inventory_ids(data: bytes) -> list[str]:
-    ids = TELL_ID.findall(data.decode("utf-8"))
-    if len(ids) != len(set(ids)) or not ids:
-        raise GateError("tell inventory must have unique T/C identifiers")
+    text = data.decode("utf-8")
+    ids = TELL_ID.findall(text)
+    potential = POTENTIAL_TELL_ID.findall(text)
+    if not ids or len(ids) != len(set(ids)) or ids != potential:
+        raise GateError("tell inventory has missing, duplicate or unrecognized T/C headings")
     return ids
 
 
@@ -81,16 +86,28 @@ def flags(output: str) -> list[dict]:
     return found
 
 
-def lint(draft: pathlib.Path, source: pathlib.Path) -> dict:
-    run = subprocess.run(
-        [sys.executable, str(LINTER), str(draft), '--source', str(source)],
-        text=True,
-        capture_output=True,
-        timeout=90,
-        check=False,
-        env=None,
-    )
-    match = VERDICT.search(run.stdout)
+def lint(draft_bytes: bytes, source_bytes: bytes) -> dict:
+    # Freeze both bytes before the linter sees them. File-backed lint is
+    # intentional (the existing linter accepts paths), but the paths must
+    # contain the exact candidate/source snapshots already SHA-bound.
+    with tempfile.TemporaryDirectory(prefix="joel-owner-gate-") as td:
+        base = pathlib.Path(td)
+        draft = base / "draft.txt"
+        source = base / "source.txt"
+        draft.write_bytes(draft_bytes)
+        source.write_bytes(source_bytes)
+        run = subprocess.run(
+            [sys.executable, str(LINTER), str(draft), "--source", str(source)],
+            text=True,
+            capture_output=True,
+            timeout=90,
+            check=False,
+        )
+        # Different temporary directory names are not substantive evidence.
+        stdout = run.stdout.replace(str(draft), "<DRAFT>").replace(
+            str(source), "<SOURCE>"
+        )
+    match = VERDICT.search(stdout)
     if match is None or run.returncode not in (0, 1, 2):
         raise GateError(
             f"tells_lint.py did not produce a trustworthy verdict; exit={run.returncode}; "
@@ -99,12 +116,15 @@ def lint(draft: pathlib.Path, source: pathlib.Path) -> dict:
     status = match.group(1)
     if run.returncode != {"CLEAR": 0, "REVIEW": 1, "FAIL": 2}[status]:
         raise GateError(f"tells_lint.py exit code contradicts verdict {status}")
+    found = flags(stdout)
+    if status == "REVIEW" and not found:
+        raise GateError("linter REVIEW without parseable findings is blocking")
     return {
         "verdict": status,
-        "stdout_sha256": sha(run.stdout.encode("utf-8")),
+        "stdout_sha256": sha(stdout.encode("utf-8")),
         "linter_sha256": sha(load(LINTER)),
-        "findings": flags(run.stdout),
-        "output": run.stdout,
+        "findings": found,
+        "output": stdout,
     }
 
 
@@ -124,16 +144,18 @@ def source_values(args: argparse.Namespace) -> dict:
         "source_sha256": sha(source),
         "inventory_sha256": sha(inv),
         "inventory_ids": inventory_ids(inv),
+        "_draft_bytes": draft,
+        "_source_bytes": source,
     }
 
 
 def template(args: argparse.Namespace) -> dict:
     values = source_values(args)
-    result = lint(args.draft, args.source)
+    result = lint(values["_draft_bytes"], values["_source_bytes"])
     return {
         "schema": SCHEMA,
         "status": "PENDING",
-        **{k: v for k, v in values.items() if k != "inventory_ids"},
+        **{k: values[k] for k in HASH_FIELDS},
         "writer": {
             "name": "",
             "context_id": "",
@@ -177,6 +199,10 @@ def check_review(
             errors.append(f"missing reviewer.{k}")
     if rv.get("context_id") == writer.get("context_id"):
         errors.append("writer and reviewer contexts are identical")
+    for key in ("resolved_tell_ids", "resolved_lint_labels"):
+        value = review.get(key, [])
+        if not isinstance(value, list) or any(not isinstance(x, str) for x in value):
+            errors.append(f"{key} must contain string IDs")
     note = review.get("evidence")
     if not isinstance(note, str) or len(note.strip()) < 30:
         errors.append("review needs substantive, source-specific evidence")
@@ -204,7 +230,7 @@ def validate(args: argparse.Namespace) -> dict:
             errors.append(f"writer.{k} is missing")
     # Lint runs afresh at admission time. A recorded linter answer alone
     # cannot clear a candidate; FAIL is always blocking for model prose.
-    current = lint(args.draft, args.source)
+    current = lint(values["_draft_bytes"], values["_source_bytes"])
     old_lint = manifest.get("lint")
     if not isinstance(old_lint, dict):
         old_lint = {}
@@ -248,6 +274,9 @@ def validate(args: argparse.Namespace) -> dict:
             errors.append("non-object tell entry")
             continue
         ident = row.get("id")
+        if not isinstance(ident, str):
+            errors.append("tell ID must be a string")
+            continue
         if ident in found:
             errors.append(f"duplicate tell entry {ident}")
         found[ident] = row
@@ -302,7 +331,14 @@ def validate(args: argparse.Namespace) -> dict:
                 errors.append(
                     f"{role} did not explicitly review justified tells {justified}"
                 )
-        except (GateError, ValueError, OSError) as exc:
+            required_lint = set(actual_flags)
+            if required_lint and not required_lint.issubset(
+                set(review.get("resolved_lint_labels", []))
+            ):
+                errors.append(
+                    f"{role} did not explicitly review lint findings {sorted(required_lint)}"
+                )
+        except (GateError, ValueError, OSError, TypeError) as exc:
             errors.append(str(exc))
     if len(contexts) != len(set(contexts)):
         errors.append("reviewers shared a context; separate cold reads not verified")
@@ -312,7 +348,7 @@ def validate(args: argparse.Namespace) -> dict:
         raise GateError("\n- " + "\n- ".join(errors[:14]) +
                         (f"\n- ... and {len(errors) - 14} additional unresolved gate items"
                          if len(errors) > 14 else ""))
-    return {
+    report = {
         "schema": "JOEL_OWNER_DELIVERY_ADMITTED_V1",
         "candidate_sha256": values["candidate_sha256"],
         "context_sha256": values["context_sha256"],
@@ -337,6 +373,9 @@ def validate(args: argparse.Namespace) -> dict:
         "manifest_sha256": sha(load(args.manifest)),
         "verified_at_utc": datetime.now(timezone.utc).isoformat(),
     }
+    # Return the very same source-bound candidate bytes used for lint and
+    # every hash; never reopen args.draft during the export step.
+    return report, values["_draft_bytes"]
 
 
 def save_file(path: pathlib.Path, data: bytes) -> None:
@@ -349,6 +388,44 @@ def save_file(path: pathlib.Path, data: bytes) -> None:
         temp = pathlib.Path(f.name)
     temp.replace(path)
 
+
+
+def deliver_pair(out: pathlib.Path, payload: bytes,
+                 proof: pathlib.Path, receipt: bytes) -> None:
+    """Stage both outputs first; rollback newly exported files on failure.
+
+    Hard links are created exclusively (no overwrite between path check and
+    install). The temp files reside in each destination's directory so hard
+    links work without cross-filesystem renames.
+    """
+    prepared = []
+    created = []
+    targets = ((proof, receipt), (out, payload))  # Proof FIRST.
+    try:
+        for dest, data in targets:
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            if dest.exists():
+                if not dest.is_file() or dest.read_bytes() != data:
+                    raise GateError(f"refusing to replace existing artifact: {dest}")
+                continue
+            with tempfile.NamedTemporaryFile(
+                dir=dest.parent, prefix=".gate-stage-", delete=False
+            ) as fd:
+                fd.write(data)
+                fd.flush()
+                os.fsync(fd.fileno())
+                temp = pathlib.Path(fd.name)
+            prepared.append((temp, dest))
+        for temp, dest in prepared:
+            os.link(temp, dest)  # Fails rather than replacing concurrent edits.
+            created.append(dest)
+    except (OSError, GateError):
+        for dest in reversed(created):
+            dest.unlink(missing_ok=True)
+        raise
+    finally:
+        for temp, _ in prepared:
+            temp.unlink(missing_ok=True)
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -375,14 +452,13 @@ def main(argv: list[str] | None = None) -> int:
                 f"tell_rows={len(data['tell_ledger'])} lint={data['lint']['verdict_at_init']}"
             )
             return 0
-        report = validate(args)
+        report, payload = validate(args)
         if args.action == "check":
             print(
                 f"ADMITTED candidate={report['candidate_sha256']} "
                 f"reviews={','.join(report['reviews'])}"
             )
             return 0
-        payload = load(args.draft)
         receipt = (json.dumps(report, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
         sources = {args.draft.resolve(), args.context.resolve(), args.source.resolve(),
                    args.manifest.resolve(), INVENTORY.resolve(), LINTER.resolve()}
@@ -390,15 +466,10 @@ def main(argv: list[str] | None = None) -> int:
             raise GateError("delivery cannot overwrite draft/source/context/manifest")
         if args.out.resolve() == args.proof.resolve():
             raise GateError("delivered text and proof paths must differ")
-        # Preflight both destinations BEFORE writing either.
-        for path, data in ((args.out, payload), (args.proof, receipt)):
-            if path.exists() and path.read_bytes() != data:
-                raise GateError(f"refusing to replace existing artifact: {path}")
-        save_file(args.out, payload)
-        save_file(args.proof, receipt)
+        deliver_pair(args.out, payload, args.proof, receipt)
         print(f"DELIVERED {args.out} proof={args.proof} sha256={report['candidate_sha256']}")
         return 0
-    except (GateError, ValueError, OSError, subprocess.TimeoutExpired) as exc:
+    except (GateError, ValueError, OSError, TypeError, subprocess.TimeoutExpired) as exc:
         print(f"BLOCKED: {exc}", file=sys.stderr)
         return 2
 
