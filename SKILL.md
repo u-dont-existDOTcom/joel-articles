@@ -223,6 +223,8 @@ When Joel explicitly asks for the tell ledger or tell fixes, show both the liter
 
 ## Humanization owner-delivery admission
 
+**Executable owner-delivery gate (2026-10-25, issue #245).** Before presenting *model-written* Joel-byline prose as a proposed article revision, freeze the literal candidate, source and natural context, then use `python3 tools/humanization/owner_delivery_gate.py init/check/deliver` (details and review evidence format: `docs/HUMANIZATION-OWNER-DELIVERY-GATE.md`). The `deliver` action refuses to export text without a new mechanical linter run, complete T/C tell ledger, and three exact-hash-bound review artifacts. An earlier preservation PASS, model-predicted Human score or chat assertion that the checks were done is not an admission receipt. This operational gate applies to generated candidates, not owner-authored prose or historical source quotes. **The ChatGPT renderer is not mechanically intercepted**; the assistant must run the gate and use its exact admitted output before putting candidate prose into chat. A failed or missing gate means the draft stays internal, not a request that Joel find existing tells himself.
+
 For Joel humanization work, the owner is not an intermediate QA surface. Do not show a generated candidate as proposed article prose until all applicable internal gates pass and the exact eligible boundary has passed the required Pangram check.
 
 Blocking order:
