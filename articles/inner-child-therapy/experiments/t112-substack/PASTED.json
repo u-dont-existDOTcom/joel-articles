@@ -1,0 +1,25 @@
+{
+ "turn": 112,
+ "commit": "6a6f6b2a378a08b2fd9e990e6d8d17141ec9d794",
+ "how": "experiments/t88-substack/paste_payload_lane.js in the desktop app's built-in browser, where his Substack is signed in: each draft's title checked, the body cleared with real keystrokes (ctrl+a, Delete) and checked empty, the script and the payload fetched from raw.githubusercontent.com at the commit and their SHA-256 checked, then pasted; Substack's 'Saved' seen, and the editor reloaded and its words counted again. Never published.",
+ "A": {
+  "title": "Inner Child, draft A (temp, delete after)",
+  "editor": "https://ibogaqueen.substack.com/publish/post/221982879",
+  "payload_sha256": "87ac62c163fecf07923f14696799817ca780287a7431f5b8c6d1e7a25052ec5f",
+  "editor_words": 14941,
+  "words_match": true,
+  "reloaded_words": 14941,
+  "reloaded_words_match": true
+ },
+ "B": {
+  "title": "Inner Child, draft B (temp, delete after)",
+  "editor": "https://ibogaqueen.substack.com/publish/post/221983135",
+  "payload_sha256": "24968d11d2b1ee7cd55add9a7ff6178e10b40b9a68bef777d85fa97323726c90",
+  "editor_words": 12606,
+  "words_match": false,
+  "why": "the only difference from TEXT-B.txt's 12,506 words: the bare note link (one word) became the note's embed (101 words, his own note), as in rounds 3 to 6; the 8,669 words before it and the 3,836 after it match",
+  "reloaded_words": 12606
+ },
+ "secret_links": "not recorded: anyone with one can read the draft",
+ "next": "Joel opens each draft in his Brave, clicks Preview and 'Paid subscriber view', then the Pangram label next to the author's name and 'View Full Analysis', and sends the two result links (pangram.com/feed/...). The label's own word is not the result; the feed page's windows are."
+}

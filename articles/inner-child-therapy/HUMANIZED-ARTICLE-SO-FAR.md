@@ -442,7 +442,9 @@ Watch how it lands, though. "I care about you" can be patient, or it can be "I c
 
 <!-- Turn 111 (his answers of 2026-10-25 20:08 UTC from the turn-110 review sheet, experiments/t111-answers/ANSWERS-20261025-2008.json): C4 approved: the cut the sheet showed (Takes out "The quest for self-knowledge is a life's journey, but you don't have to wait for your life to finish to figure out your best next move".) -->
 
-Or put somebody you care about into your exact life, your family, your bank account and all, and then step outside it and ask what you'd tell them. It's a [cheap trick for becoming the outsider to your own mess](https://pubmed.ncbi.nlm.nih.gov/21728454/). And the gap it gets around even has a name, [Solomon's paradox](https://pubmed.ncbi.nlm.nih.gov/24916084/), after the king everybody brought their disputes to, who then wrecked his own life.
+<!-- Turn 112 (his message of 2026-10-25 21:40 UTC, experiments/t112-answers/JOEL-20261025-2140.md): 108.1, his own version of this paragraph, word for word ("this version passes", his check), with the two links his earlier version had: "psychological trick" goes to the self-distancing study the old "cheap trick" link went to, and "Solomon’s paradox" to the Solomon's paradox study. Question 109 asks whether the name should go on the gap, as the study has it. -->
+
+Or put somebody you care about into your exact life, your family, all the conditions you face, and then step outside it and ask what you’d tell them as a friend. This [psychological trick](https://pubmed.ncbi.nlm.nih.gov/21728454/) has a rich history around it, and even has a name, [Solomon’s paradox](https://pubmed.ncbi.nlm.nih.gov/24916084/), after the biblical king everybody brought their disputes to, who then wrecked his own life.
 
 Then take a small piece of whatever you'd tell them and hand it to yourself. If the advice was "get more sleep," then for now just try brushing your teeth before midnight instead of at two. That's how you learn as a kid, and it works now, too. The technical term for this is "[scaffolding](https://en.wikipedia.org/wiki/Instructional_scaffolding)."
 

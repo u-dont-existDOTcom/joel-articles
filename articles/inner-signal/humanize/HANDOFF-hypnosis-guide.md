@@ -236,7 +236,7 @@ Done (pull request 251, https://github.com/u-dont-existDOTcom/joel-articles/pull
   DRAFTS entry, `make_gate_files.py`, `fill_ledgers.py`, a brief per role, `run_gate.py`.
 - **The community article's check**: its handoff and question 66.
 - **Standards**: `AGENTS.md` (the marking page for editing suggestions; the strict check for Emulate-infused articles),
-  `docs/EMULATE-FALLBACK.md` step 5.0, `docs/FIXING-AN-ARTICLE.md` 6.9, lessons E268 to E270 (next is E271; E270 is the gate reviewers' batch size). His
+  `docs/EMULATE-FALLBACK.md` step 5.0, `docs/FIXING-AN-ARTICLE.md` 6.9, lessons E268 to E270 (E270 is the gate reviewers' batch size; the next is E272, since main's Inner Child lane took E271). His
   preference is in the project's memory too.
 
 Next:
