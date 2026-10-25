@@ -1,0 +1,24 @@
+{
+ "made": "after Joel's message of 2026-10-25 23:05 UTC, in this turn; the time is not read mid-turn",
+ "draft": "https://ibogaqueen.substack.com/publish/post/222109105",
+ "title": "TEMP recheck A (hypnosis guide) - do not publish",
+ "why_new": "the draft of 2026-10-23 (221411215) was gone (\"Post not found\"; not in the drafts list), so a new draft was made at /publish/post with the exact title, in the app's built-in browser",
+ "secret_link": "https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-25&audience=only_paid&free_preview=false&freemail=",
+ "secret_link_from": "the draft's uuid (GET /api/v1/drafts/222109105: unpublished, audience only_paid), in the form of the earlier secret links",
+ "payload": "PAYLOAD-A.html",
+ "payload_sha256": "cc518a0a7ec51a35f851bc5b33929b068a719ee9a0c2c02f412b805cc82188e4",
+ "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/884971478b8c43a29c126afe904bdbda26a60334/articles/inner-signal/humanize/fix-20261025/recheck/PAYLOAD-A.html",
+ "paste": {
+  "helper": "../../fix-20261022/screen/paste_payload_lane.js",
+  "editor_words": 29682,
+  "words_expected": 29648,
+  "words_match": false,
+  "why_not": "the editor shows 34 more words than WORDS-A.json counts, as at every paste of part A; the rendered check below decides"
+ },
+ "saved": "the editor said Saved, and the draft API returned its body, before the page was left",
+ "rendered_check": "the secret link opened in the app's browser (unpublished): 581 lines, 158,036 characters; their first 99,999 hash to TEXT-A.txt (33ab0402...) exactly (tools/humanization/substack_rendered_check.js's walk)",
+ "text_sha256": "33ab0402b9a4210a130a5ccc6af8d857aba710c8b47edf6c5289f2b635c99dc3",
+ "text_chars": 99999,
+ "predictions": "pangram-ledger.jsonl HG-whole#60 (AI at 0.01), and the part forecast FORECAST-A.json (CHANGED-A.json, part_forecast.py make), both written before the paste",
+ "link_note": "the \"updated\" value in the secret link is only a cache key, not a time"
+}

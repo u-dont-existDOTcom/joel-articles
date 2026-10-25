@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-25, after your message of 19:42 UTC in the hypnosis guide lane ("that means we should also check the community article i guess?"). **Open questions: 1** (66, the Emulate check page). **For you to do**: the clipboard helper below, if you haven't pasted yet (or after 66: I'll make a new one with your answers).
+Last updated 2026-10-25, after your message of 23:05 UTC ("66a"). **Open questions: 0.** **For you to do**: five changes in your post in Substack (just below), and merge pull request 251 when you've looked.
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -8,32 +8,27 @@ The master copy of this page is a file in Git, so a session in either of your ac
 
 ## Open questions
 
-**🟣 66. The Emulate check page.** [Your article with every change Emulate made that isn't yours marked where it is](https://claude.ai/artifact/YJZDafwDzxWnuynW1PLPp1):
-6 cards, each with your own version beside it: quote marks on three words ("in", "spiritual", "even"); your "don't freeze
-into doctrine", lost when your version of that paragraph went in; a practice group already being a real piece of
-community; who steps aside, and the appeal, in the removal process; autonomy not erasing a person's rights; and one
-sentence you kept on 2026-10-24 that doesn't parse ("Just because it's optional participating in the ceremonies").
-Changes you made yourself (your Substack edits, your answers 57 to 65, your caveat cuts) aren't on it. Approve, Reject or
-Revise each. If your post is already up, I'll give you the few words to change in Substack, or a new copy. From your
-other account, the page opens once you share it from its Share menu; the
-[list of cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/emulate-check/REVIEW-EMULATE.json) is in Git either way.
-- a) (my default) You go through the page; nothing changes until you've decided.
-- b) "Take your advice on all six."
+None right now.
 
 ## For you to do
 
-- 🟠 **Put the new version in your post with the clipboard helper** ([COPY-TO-SUBSTACK.html](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/exports/COPY-TO-SUBSTACK.html), sent in chat as "Community-COPY-TO-SUBSTACK-20261025.html"). It's your post's editor HTML of 2026-10-20 with 57 to 65 and your kibbutz image. If you've changed the post on Substack since 2026-10-20, tell me first, because pasting would undo those changes.
-  1. Open the helper in Opera and your post in Substack's editor.
-  2. Press Copy Article. In the editor, click anywhere in the body, press ctrl+a, then Delete, and paste (ctrl+v).
-  3. It's one part: no videos to put back by hand. Your three video-post embeds come in as links, and Substack turns them back into embeds by itself.
-  - What I checked: its text is exactly the text Pangram read as 100% Human, and its HTML is exactly what I pasted into the temporary draft, which came out right ([the receipt](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/exports/HELPER-RECEIPT-20261025.json)). I haven't tested the Copy button in Opera on your computer.
+- 🟠 **Five changes in your post, from your answers to 66.** Your post is up with the version of 2026-10-25, so here are your answers to 66 as five changes to make in Substack's editor, in the order they come in the post. For each, find the old words (ctrl+f in the editor), select them, and type or paste the new ones; no link or bold is touched. Each changed paragraph reads Human in Pangram where it sits ([the checks](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/answer66/b478/PREDICTIONS.md)).
+  1. Your "don't freeze into doctrine". Old: "Whatever answers we find stay fluid and organic." New: "Whatever answers we find stay fluid and organic, and don’t freeze into doctrine."
+  2. A practice group already is community. Old: "So what? It can still make a difference" New: "So what? It’s already a real piece of community, and it can still make a difference"
+  3. Who steps aside, and the appeal. Old: "What counts as cause for immediate protective action?" New: "What counts as cause for immediate protective action? Who has to step aside because they’re too close to it?"
+  4. Who steps aside, and the appeal. Old: "How will the person be able to reply to the concerns?" New: "How will the person be able to reply to the concerns? What review or appeal is possible without endangering others?"
+  5. A sentence that doesn't parse. Old: "Just because it’s optional participating in the ceremonies doesn’t mean they don’t have to work with the other parts." New: "Just because taking part in the ceremonies is optional doesn’t mean people don’t have to work with the other parts."
+
+- 🟢 Done: **you put the new version in your post** with the clipboard helper (read at 23:13 UTC: "Updated: Oct 25 2026", with the How-To Manual and your kibbutz image).
 - 🟢 Done: [the whole-article check](https://www.pangram.com/feed/954042b6-e624-4c7f-87d7-db15c547d5c8) (your result of 00:27 UTC): Human Written, 0 of 72 windows AI, document confidence High. My part forecast called all 130 of its parts right; my call for the whole was too gloomy, a 7% chance of no red ([scored](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/recheck-r1/SCORE.md)).
-- 🟠 Merge [pull request 251](https://github.com/u-dont-existDOTcom/joel-articles/pull/251) when you've looked: this turn's work, the Emulate check of this article and of the hypnosis guide (238, the last one, is merged).
+- 🟠 Merge [pull request 251](https://github.com/u-dont-existDOTcom/joel-articles/pull/251) when you've looked: the Emulate check of this article and of the hypnosis guide, and your answers to 66 (238, the last one, is merged).
 
 ## Decided
 
 > [!TIP]
 > Answered, with what I did.
+
+- 🟢 2026-10-25 23:05 UTC, 66, the Emulate check page ([your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/joel-20261025-2305-message.txt), [your answers](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/emulate-check/ANSWERS-20261025-2304.json)): IC-E1, IC-E2, IC-E3 and IC-T1 are in the working copy ([read it here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/answer66/READING-COPY.md), [what happened to each](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/answer66/RECORD-66.json)), and go to your post as the five changes above. IC-Q1 stays as it is: your quote marks on "in", "spiritual" and "even" keep their tone, and the next Emulate checks take that as your example (quote marks that carry a tone in an essay stay; lesson E273). IC-E4 stays as it is too.
 
 - 🟢 2026-10-25 00:27 UTC, the whole-article check ([your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/joel-20261025-0027-message.txt)). It read Human Written, 0 of 72 windows AI, so nothing goes to Emulate. The new version is the registered master now ([the receipt](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/PROMOTION-RECEIPT-20261017.md)), and the article's map shows the essay and the manual. Two things I found and fixed on the way: the Markdown reading copies had run "ideology" and "which" together where your HTML has a bold space between them (your post and the helper were always right), and the map still showed the section order from before your 2026-10-20 edits.
 - 🟢 2026-10-24 23:40 UTC, 65, what the article says more than once ([your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/joel-20261024-2340-message.txt)). Your cuts are in ([read it here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/answer65/READING-COPY.md), [each cut](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261024/answer65/RECORD-65.json)), with every link and bold where it was; the words that left the article are exactly the ones you cut.

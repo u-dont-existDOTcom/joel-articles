@@ -1337,7 +1337,7 @@ buttons".
   browser (74 checks, with a negative fixture for the 2026-10-23 white-on-white boxes). A check with more than a handful of
   suggestions for him ends with this page, not with lists.
 
-(The next lesson in either lane was E266 here. The Inner Child lane's turn-110 lessons took E266 and E267, written while this section stood as it is: cite them as "E266 (Inner Child)" and "E267 (Inner Child)". The Inner Child lane's turn-111 lessons are E268 to E270 (Inner Child), near the top too, and its turn-112 lesson is E271 (Inner Child), after them; the hypnosis guide lane's E268 to E270, in the next section, were written at the same time as the turn-111 ones, and both sets keep their numbers. The next lesson in either lane is E272.)
+(The next lesson in either lane was E266 here. The Inner Child lane's turn-110 lessons took E266 and E267, written while this section stood as it is: cite them as "E266 (Inner Child)" and "E267 (Inner Child)". The Inner Child lane's turn-111 lessons are E268 to E270 (Inner Child), near the top too, and its turn-112 lesson is E271 (Inner Child), after them; the hypnosis guide lane's E268 to E270, in the next section, were written at the same time as the turn-111 ones, and both sets keep their numbers. The hypnosis guide lane's E272 to E274 follow them there. The next lesson in either lane is E275.)
 
 ## What his answers on the marking page showed (2026-10-25 19:42 UTC)
 
@@ -1386,11 +1386,42 @@ in the emulate-infused articles".
   stalls gets a smaller part, not a second try at the same size. And when a withdrawn draft's card changes the paragraph
   another draft sits in, that draft's context changes too, so it gets all three roles again (C-E3a after C-E3b).
 
-(The next lesson in either lane is E272; E271 (Inner Child) is the Inner Child lane's turn-112 lesson, near the top.)
+
+## What his answers to the Emulate check pages showed (2026-10-25 23:05 UTC)
+
+His message (`articles/inner-signal/humanize/fix-20261025/joel-20261025-2305-message.txt`): "251 has conflicts" and "66a",
+with his answers files from both pages: the guide's 17 approved, 2 revised, 1 rejected; the community article's 4
+approved, 2 rejected.
+
+- **E272. "His line" is checked for what it says, not only for being his.** EM-11 put back his published rule "suppress
+  medical symptoms" in place of Emulate's "skip medical attention for symptoms just because you can force them down using
+  hypnosis"; two gate reviewers had refused my first wording for adding the condition his line lacked. He rejected the
+  card: "actually emulate's version is better, hypnosis is for pain btw, surprised you didn't know that." Hypnosis is a
+  common way to manage pain, so a blanket rule against suppressing symptoms is wrong, and Emulate's condition was the
+  point. The strict check (E268) compares Emulate's text with his; when it finds a difference, the question is which is
+  truer to the practice, not only which is his. And the gate's reviewers check fidelity to the source they're given, so a
+  source that is wrong passes them. `docs/FIXING-AN-ARTICLE.md` 6.10.
+- **E273. Quote marks Emulate added are a card, never an automatic fix, because his register decides.** In the guide he
+  took Emulate's quote marks off in his own version of the card (84 of its 85 places; he kept the ones around "coming back", the name of the return procedure); in
+  the community essay he rejected taking them off "in", "spiritual" and "even" ("fully "in" the commune", "designated
+  "spiritual" places", "(yes, "even" interns)"), where they mark irony and stress in an essay's voice. The check finds them;
+  he decides. His choices are the examples for the next pages: scare quotes on plain terms in instructions go, quote marks
+  that carry a tone in an essay stay.
+- **E274. His terms follow his newest guide.** His comment on the guide's quote-mark card: "make sure we are not using
+  "protector" to mean "guard", i saw that in finish without forcing, p2". In his reparenting guide the Protector is one of
+  the inner adult's three jobs and a childhood protective part is a guard; the hypnosis guide still used "protector" for a
+  guard in 19 places, among them "protector part", "the child or protector" and a heading, "Working with childhood
+  protector parts" (now "Working with your guards"). The inner child alignment of 14:40 UTC had lined up names ("your
+  little one", they/them) passage by passage and not this one, because no passage it compared said "protector" where his
+  guide says "guard". So a terminology pass reads every use of his terms in the article, not only the passages that
+  differ from his guide (`articles/inner-signal/humanize/fix-20261025/emulate-check/guard_sweep.py`; `docs/FIXING-AN-ARTICLE.md`
+  6.11).
+
+(The next lesson in either lane is E275; E271 (Inner Child) is the Inner Child lane's turn-112 lesson, near the top.)
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 
-(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". E247 and E248, after them, are this lane's turn-102 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E247 to E249 above (their message of 2026-10-23 18:13 UTC); both sets keep their numbers, so cite these two as "E247 (Inner Child)" and "E248 (Inner Child)". E250 to E252, the last ones here, are this lane's turn-103 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E250 and E251 above (their message of 2026-10-23 20:35 UTC); both sets keep their numbers, so cite these three as "E250 (Inner Child)" to "E252 (Inner Child)". The hypnosis guide, Nibbāna and community lanes' own E252 to E255 above came after them (their messages of 2026-10-23 22:29 and 23:28 UTC). This lane's turn-104 lesson, written at the same time, is E253 (Inner Child), with the help-request rules near the top, and its turn-105 lesson, E256 (Inner Child), is beside it, with the turn-106 lessons E257 and E258 (Inner Child) after it and the turn-107 lesson E261 (Inner Child) after those. The Nibbāna and community lanes' E256 to E259 above came at the same time as E257 and E258 (their message of 2026-10-24 19:52 UTC), the community lane's E260 after them (23:40 UTC), and its E261 at the same time as this lane's (its message of 2026-10-25 00:27 UTC); both sets keep their numbers, so cite this lane's as "E261 (Inner Child)". The hypnosis guide lane's E262 and E263 above came after them (its message of 2026-10-25 01:01 UTC), and its E264 and E265 after those (14:40 UTC). This lane's turn-109 lesson, written at the same time as those two, keeps its number too: cite it as "E264 (Inner Child)"; it is with the others near the top, and so are its turn-110 to turn-112 lessons, E266 to E271 (Inner Child). The hypnosis guide lane's E268 to E270 came at the same time as the turn-111 ones (its message of 2026-10-25 19:42 UTC); both sets keep their numbers, so cite this lane's as "E268 (Inner Child)" to "E271 (Inner Child)". The next lesson in either lane is E272.)
+(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". E247 and E248, after them, are this lane's turn-102 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E247 to E249 above (their message of 2026-10-23 18:13 UTC); both sets keep their numbers, so cite these two as "E247 (Inner Child)" and "E248 (Inner Child)". E250 to E252, the last ones here, are this lane's turn-103 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E250 and E251 above (their message of 2026-10-23 20:35 UTC); both sets keep their numbers, so cite these three as "E250 (Inner Child)" to "E252 (Inner Child)". The hypnosis guide, Nibbāna and community lanes' own E252 to E255 above came after them (their messages of 2026-10-23 22:29 and 23:28 UTC). This lane's turn-104 lesson, written at the same time, is E253 (Inner Child), with the help-request rules near the top, and its turn-105 lesson, E256 (Inner Child), is beside it, with the turn-106 lessons E257 and E258 (Inner Child) after it and the turn-107 lesson E261 (Inner Child) after those. The Nibbāna and community lanes' E256 to E259 above came at the same time as E257 and E258 (their message of 2026-10-24 19:52 UTC), the community lane's E260 after them (23:40 UTC), and its E261 at the same time as this lane's (its message of 2026-10-25 00:27 UTC); both sets keep their numbers, so cite this lane's as "E261 (Inner Child)". The hypnosis guide lane's E262 and E263 above came after them (its message of 2026-10-25 01:01 UTC), and its E264 and E265 after those (14:40 UTC). This lane's turn-109 lesson, written at the same time as those two, keeps its number too: cite it as "E264 (Inner Child)"; it is with the others near the top, and so are its turn-110 to turn-112 lessons, E266 to E271 (Inner Child). The hypnosis guide lane's E268 to E270 came at the same time as the turn-111 ones (its message of 2026-10-25 19:42 UTC); both sets keep their numbers, so cite this lane's as "E268 (Inner Child)" to "E271 (Inner Child)". The hypnosis guide lane's E272 to E274 came after them (its message of 23:05 UTC). The next lesson in either lane is E275.)
 
 The checks: `articles/inner-child-therapy/experiments/t99-api/API-RESULTS-1.jsonl` (turn 99's nine) and `articles/inner-child-therapy/experiments/t100-api/API-CHECKS.md` (this turn's eight, each with its public Pangram page). Four rewrites read 100% Human alone and in their stretch; five of my eight calls were right, and two of the misses were pessimism about a rewrite.
 

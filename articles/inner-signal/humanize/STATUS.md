@@ -1,5 +1,36 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-25, after Joel's message of 23:05 UTC ("251 has conflicts", "66a", and his answers to question 20)
+
+**Pull request 251**: main had merged the Inner Child lane's turns 111 and 112 after my pushes, and both lanes' lesson
+numbers met in `docs/HUMANIZATION-GATE.md`. Merged twice, both lanes' lessons kept; 251 can merge.
+
+**His answers to 20 are in** (`fix-20261025/emulate-check/apply_answers_20.py`, `APPLIED-20.json`; his message and his
+answers file `ANSWERS-20261025-2300.json` saved word for word): 17 approved; his own versions of EM-Q1 (Emulate's quote
+marks off in 84 of 85 places, "coming back" keeping them; "Just because an idea should be a resource ..." cut; two
+"protector"s made "guard") and EM-16 ("if it's a guard"); EM-11 rejected ("actually emulate's version is better, hypnosis
+is for pain btw, surprised you didn't know that"): Emulate's sentence stays, its quote marks with it. 69 paragraphs
+changed, the ISH link kept on "article about self hypnosis".
+
+**The guard sweep** (his comment on EM-Q1; `guard_sweep.py`, `GUARD-SWEEP.json`): 19 places where "protector" meant a
+guard say guard now (the heading is "Working with your guards"); the 20 uses of the adult Protector and the 3 bracketed
+glosses right after "guards" stay. **The strict check again** (`emulate-check/after-20/`, with his question 20 sentences
+in ALLOWED.txt): nothing new; what's left is what he left or what was triaged before.
+
+**The whole guide's recheck** (`fix-20261025/recheck/`): `make_recheck.py` (part B now starts at Closing, a section
+before part A's 99,999-character cut, since the main guide grew past it and its last 1,349 characters were in neither
+part), `make_changed.py` (136 and 88 changed paragraphs), FORECAST-A/B.json (0.1% and 0.3% chance of no red; neighbours
+at 0.02, since most changes are marks and single words), predictions HG-whole#60 and HG-rest-B#61, then pasted: part A
+into a new draft (222109105; the old one was gone), part B into its draft (221412532); both rendered texts hash to
+TEXT-A/B.txt (RECHECK-POST-A/B.json). Waiting on his Brave for the two results.
+
+**Lessons** E272 (his line is checked for what it says), E273 (Emulate's quote marks are a card, his register decides),
+E274 (his terms follow his newest guide); `docs/FIXING-AN-ARTICLE.md` 6.10 and 6.11.
+
+Predictions: HG-whole#60 and HG-rest-B#61, AI at 0.01 each, open.
+Delegations (model, piece, check, outcome): none; each piece needed this turn's context or was a check run here.
+InnerSignal protocol loaded in the main thread: 0.2.1, 6d30a6b4...1e120f.
+
 ## 2026-10-25, after Joel's message of 19:42 UTC (his answers in; the strict Emulate check; the community check)
 
 **His answers are in the guide** (`fix-20261025/review/apply_answers.py`, `APPLIED.json`; his message and answers file are

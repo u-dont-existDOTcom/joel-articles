@@ -1,6 +1,6 @@
 # Handoff: Community article humanization
 
-The intentional-communities Substack article, humanized section by section so every paragraph and every section reads Human in Pangram's web app with the meaning kept. Updated 2026-10-25, after Joel's message of 19:42 UTC in the hypnosis guide lane, which asked for the strict Emulate check on this article too (START HERE). Before that, his message of 00:27 UTC (the new version's first whole-article check: Human Written, 0 of 72 windows AI). His published post (pasted 2026-10-20) is unchanged until he pastes the new copy helper. The newest version is `candidate/joel-20261024/answer65/WORKING.html`, and `master.md` is that version.
+The intentional-communities Substack article, humanized section by section so every paragraph and every section reads Human in Pangram's web app with the meaning kept. Updated 2026-10-25, after Joel's message of 23:05 UTC ("66a": his answers to question 66 are in a new working copy, and his post gets them as five changes in Substack; START HERE). Before that, his message of 19:42 UTC in the hypnosis guide lane asked for the strict Emulate check on this article too. Before that, his message of 00:27 UTC (the new version's first whole-article check: Human Written, 0 of 72 windows AI). His published post (pasted 2026-10-20) is unchanged until he pastes the new copy helper. The newest version is `candidate/joel-20261024/answer65/WORKING.html`, and `master.md` is that version.
 
 **Resume line (paste into any Claude account; the repository is public):**
 > Continue my community article work: read https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/HANDOFF-community-article.md and carry on from its next step.
@@ -10,6 +10,21 @@ If that branch is gone (merged), the same file is on main: https://github.com/u-
 From an account with Desktop Commander connected to the laptop, the laptop copy works too: "Continue my community article work: on my laptop, read ~/claude-acceptance-transfer/handoffs/community-article.md and carry on from its next step." If Joel adds "My answer to your last message: ..." or "Here is my response to last turn there: ...", it answers the open items in "Waiting on Joel" below.
 
 ## START HERE
+
+**His message of 2026-10-25 23:05 UTC** (`joel-20261025/joel-20261025-2305-message.txt`): "66a", with his answers file
+(`joel-20261025/emulate-check/ANSWERS-20261025-2304.json`): IC-E1, IC-E2, IC-E3 and IC-T1 approved; IC-Q1 and IC-E4
+rejected. Done (pull request 251, https://github.com/u-dont-existDOTcom/joel-articles/pull/251):
+- `joel-20261025/answer66/apply_66.py`: WORKING.html (from `joel-20261024/answer65/WORKING.html`), ARTICLE.txt,
+  READING-COPY.md, RECORD-66.json; five changes, nothing else (checked word by word in the script).
+- His post was already up with the 2026-10-25 version (read in the browser at 23:13 UTC), so the changes went to him as
+  five old/new pairs to change in Substack's editor (`answer66/SUBSTACK-EDITS.md`).
+- Batch 478g (`answer66/b478/`, API on the laptop; the web app in the app's browser was signed out, and signing in is
+  his): every changed paragraph Human; IC-E1 with the paragraph before it Mixed, the window in the unchanged paragraph,
+  which reads Human (High) alone.
+- **Next:** when he says the five changes are in, read his post (https://community.u-dont-exist.com, which redirects to
+  it) against `answer66/ARTICLE.txt`, then make `answer66/WORKING.html` the master (`joel-20261025/promote_20261025.py` is
+  the last promotion: copy it for this version) and register.
+
 
 **His message of 2026-10-25 19:42 UTC, in the hypnosis guide lane** (`articles/inner-signal/humanize/fix-20261025/joel-20261025-1942-message.txt`):
 on the guide's review page he asked "it looks like you must have forgotten to fix all kinds of errors you got from
@@ -225,25 +240,23 @@ State at the end of the turn of Joel's message of 2026-10-16 23:38 UTC:
 ## The pages Joel uses
 - Community Emulate Check (question 66): https://claude.ai/artifact/YJZDafwDzxWnuynW1PLPp1, a view of `candidate/joel-20261025/emulate-check/REVIEW-EMULATE.html`
   (built by `build_emulate_review.py` there; republish from the session that published it, or give Joel the page's file).
-- Community Article Questions: https://claude.ai/artifact/1EA9KBhMGXHXiiTUGScx1J, published by the account of session 01Mxpoi6…; only that account can republish it. Its master is `candidate/OWNER-QUESTIONS.md` (render: `python3 tools/render_questions.py OWNER-QUESTIONS.md community-questions.html` from `candidate/`; the cloud workspace has Python's markdown module, the laptop doesn't). From the other account, update the file, push, and give Joel the file's GitHub link as [text](url): https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/OWNER-QUESTIONS.md (on main after this branch's pull request merges). Run `pangram_links_check.py` on it and `tools/humanization/html_links.py` on the rendered page. Version 23 published 2026-10-25 after Joel's message of 19:42 UTC (question 66, the Emulate check page, and pull request 251); version 18 on 2026-10-23 after his message of 23:28 UTC (questions 64 and 65); version 15 on 2026-10-17 (questions 52 to 54).
+- Community Article Questions: https://claude.ai/artifact/1EA9KBhMGXHXiiTUGScx1J, published by the account of session 01Mxpoi6…; only that account can republish it. Its master is `candidate/OWNER-QUESTIONS.md` (render: `python3 tools/render_questions.py OWNER-QUESTIONS.md community-questions.html` from `candidate/`; the cloud workspace has Python's markdown module, the laptop doesn't). From the other account, update the file, push, and give Joel the file's GitHub link as [text](url): https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/OWNER-QUESTIONS.md (on main after this branch's pull request merges). Run `pangram_links_check.py` on it and `tools/humanization/html_links.py` on the rendered page. Version 24 published 2026-10-25 after Joel's message of 23:05 UTC (66 answered; the five changes for Substack); version 23 after his message of 19:42 UTC (question 66); version 18 on 2026-10-23 after his message of 23:28 UTC (questions 64 and 65); version 15 on 2026-10-17 (questions 52 to 54).
 - Rule Scoring Sheet https://claude.ai/artifact/NeH9dPAYfd1vGDSMTy1fGN and the old Prediction Scorecard https://claude.ai/artifact/Sjpy4EiZGUa21iiMstDLPv (frozen since 2026-10-20; the scorecard is now `candidate/SCORECARD.md` in Git): same account as the questions page (`candidate/scoring/`, `candidate/prediction-review/`). Rebuild the scorecard's data after any turn with Pangram checks (from `candidate/`: `python3 prediction-review/fix_preds.py && python3 prediction-review/scorecard.py prediction-review/prediction-calls.json`; predictions go in a fix folder's or a section batch folder's (`sN/bNNN/`) `PREDICTIONS.md` under "## Batch NNNg", with a Pangram column or a "Results of NNNg" line), then the publishing account uploads the JSON and republishes (`prediction-review/dashboard/README.md`).
 - Every turn, give Joel the article so far: since 2026-10-23, the new version's reading copy (`joel-20261023/restructure/READING-COPY.md`, as its GitHub link); before that, `candidate/community-article-so-far.html` and the side-by-side page of any section that changed, as files (the latest scripts: section 13 `s13/make_page_v37b.py`, section 14 `s14/make_page_v8.py`, section 15 `s15/make_page_v17.py`, section 16 `s16/make_page_v30.py`, section 8 `fix-20261017d/make_pages_s8.py`). Check each with `python3 tools/humanization/html_links.py PAGE.html` before sending.
 
 ## Waiting on Joel
-1. **Question 66**, the Emulate check page (https://claude.ai/artifact/YJZDafwDzxWnuynW1PLPp1): six cards, Approve / Reject / Revise. His answers come back as
-   the page's JSON (format joel-suggestion-review-v1).
-2. His paste of the new version with the clipboard helper (sent 2026-10-25). If he pastes before answering 66, the
-   approved cards become a few words to change in Substack; if after, a new helper.
-3. Pull request 251 (https://github.com/u-dont-existDOTcom/joel-articles/pull/251), the 19:42 turn's work for both lanes, to merge. Pull request 238 (the 00:27 turn) was
-   merged on 2026-10-25.
-
+1. **Five changes in Substack** (his 66 answers): `joel-20261025/answer66/SUBSTACK-EDITS.md`, given to him word for word in
+   the 23:05 turn's answer. No open questions.
+2. Pull request 251 (https://github.com/u-dont-existDOTcom/joel-articles/pull/251), the 19:42 and 23:05 turns' work for
+   both lanes, to merge. Pull request 238 (the 00:27 turn) was merged on 2026-10-25.
 ## Next step
-1. When he answers 66: apply his answers to `candidate/joel-20261024/answer65/WORKING.html` (START HERE, the 19:42
-   entry's "Next"), then a new helper or the words to change in Substack.
-2. When he has pasted: read his post against the checked text, then delete the temporary draft (see START HERE, "Next").
-3. After any new Emulate run on this article: the strict Emulate check again (`joel-20261025/emulate-check/run_audit.sh`;
+1. When he says the changes are in: read his post against `joel-20261025/answer66/ARTICLE.txt` (the walk of
+   `tools/humanization/substack_rendered_check.js`, or the post's text against the file), then promote
+   `answer66/WORKING.html` to the master with a receipt (as `joel-20261025/promote_20261025.py` did for 65), register, and
+   delete the temporary community draft ("TEMP recheck (community article) - do not publish") if no check needs it.
+2. After any new Emulate run on this article: the strict Emulate check again (`joel-20261025/emulate-check/run_audit.sh`;
    `docs/EMULATE-FALLBACK.md` section 4).
-2. Before every push: `python3 scripts/register_article_artifacts.py --article intentional-communities --write`, then the
+3. Before every push: `python3 scripts/register_article_artifacts.py --article intentional-communities --write`, then the
    repository's checks (`python -m unittest discover -s tests`, `python scripts/validate_content_repository.py --root .`).
 
 ## Where everything is

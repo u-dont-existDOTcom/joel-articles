@@ -111,16 +111,17 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: question 20, the Emulate check page (`OWNER-QUESTIONS.md`): 20 cards on his guide with his answers of 19:42 in
-(https://claude.ai/artifact/FUoU6T1mGt1WiQBP1UjaWW, his main account; Git: `fix-20261025/emulate-check/REVIEW-EMULATE.json`). His answers save in the page's
-store as he clicks: read them with ArtifactData (collection `decisions`, one document per card id) when he says he's done,
-or from the JSON he sends. The community article's question 66 is the same kind of page (its handoff).
+The guide: **the whole guide's recheck**, two secret draft links for his Brave (the Pangram extension; he copies each
+result's link with "Copy shareable link to result"):
+- part A, the main guide to its first 99,999 characters: https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-25&audience=only_paid&free_preview=false&freemail=
+- part B, from Closing to the end of the appendices: https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-25&audience=only_paid&free_preview=false&freemail=
+No open questions (20 is answered).
 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
 
-Pull request 251 (this turn's: his answers in, the strict Emulate check of both articles, the two pages) waits for his
-merge; 247 was merged on 2026-10-25. The community lane's own state is in its handoff.
+Pull request 251 (the 19:42 and 23:05 turns: his answers, the strict Emulate check of both articles, the guard sweep, the
+recheck payloads) waits for his merge; 247 was merged on 2026-10-25. The community lane's own state is in its handoff.
 
 ## Where it stands
 
@@ -201,7 +202,36 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-10-25, after Joel's message of 19:42 UTC: his answers are in; question 20, the Emulate check page, is on him)
+## Next step (2026-10-25, after Joel's message of 23:05 UTC: his answers to 20 are in; the whole guide's recheck waits on his Brave)
+
+His message, word for word: `fix-20261025/joel-20261025-2305-message.txt` ("251 has conflicts" and "66a", with both
+pages' answers files). Done (pull request 251, https://github.com/u-dont-existDOTcom/joel-articles/pull/251):
+- **251's conflicts**: main merged the Inner Child lane's turns 111 and 112 after my pushes; the lesson numbering in
+  `docs/HUMANIZATION-GATE.md` met twice; both lanes' lessons kept, the next lesson in either lane is E275.
+- **His answers to 20** (`fix-20261025/emulate-check/apply_answers_20.py`, `APPLIED-20.json`, `ANSWERS-20261025-2300.json`):
+  17 approved; his versions of EM-Q1 and EM-16 word for word; EM-11 rejected, Emulate's sentence stays ("hypnosis is for
+  pain btw"; lesson E272). The ISH link stays on "article about self hypnosis" (LINK_ON).
+- **The guard sweep** (`guard_sweep.py`, `GUARD-SWEEP.json`; lesson E274): 19 "protector"s that meant a guard are
+  "guard"; the adult Protector (20) and the 3 bracketed glosses after "guards" stay.
+- **The strict check again** (`emulate-check/after-20/`; `make_allowed.py` now adds APPLIED-20's new sentences): only what
+  he left or what was triaged before.
+- **The recheck** (`fix-20261025/recheck/`): `make_recheck.py` (part B from Closing, a section before part A's cut),
+  `make_changed.py`, FORECAST-A/B.json, HG-whole#60 and HG-rest-B#61 (AI at 0.01), pasted (RECHECK-POST-A/B.json: part A
+  in the new draft 222109105, "TEMP recheck A (hypnosis guide) - do not publish", the old one being gone; part B in
+  221412532), rendered texts equal to TEXT-A/B.txt.
+
+Next:
+1. When he sends the two result links: read each with `tools/humanization/pangram_feed_read.js` in compact mode
+   (`window.__feedMode = 'compact'`), save `recheck/WINDOWS-A.txt` and `WINDOWS-B.txt` (SHA-256 checked against the
+   page's), META-A/B.json, rebuild with `substack_check_text.py result recheck/PAYLOAD-A.html WINDOWS-A.txt META-A.json
+   --out RESULT-A.json` (and B), record HG-whole#60 and HG-rest-B#61 (`pangram_ledger.py result`, `explain` for a miss),
+   score both forecasts (`part_forecast.py score FORECAST-A.json RESULT-A.json --out SCORE-A.md`, and B).
+2. Each red window: what's in it (his words, his approved words, Emulate's), then Emulate's re-run first (E235, E237),
+   the reader and the gate for any wording of mine, or back to him with his own version beside it; a paragraph check
+   through the API on the laptop. Then the copy helper (`docs/SUBSTACK-HELPER-DELIVERY-GATE.md`) and his paste.
+3. When everything is checked: delete both TEMP drafts (E204).
+
+## Earlier next step (2026-10-25, after Joel's message of 19:42 UTC: his answers are in; question 20, the Emulate check page, is on him)
 
 His message and answers file, word for word: `fix-20261025/joel-20261025-1942-message.txt` and
 `fix-20261025/review/ANSWERS-20261025-1940.json` ("ok i accept all the answers i didn't mark, and here is what i marked ."

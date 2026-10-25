@@ -1,0 +1,24 @@
+{
+ "made": "after Joel's message of 2026-10-25 23:05 UTC, in this turn; the time is not read mid-turn",
+ "draft": "https://ibogaqueen.substack.com/publish/post/221412532",
+ "title": "TEMP recheck B (hypnosis guide appendices) - do not publish",
+ "how": "the same temporary draft as on 2026-10-23, in the app's built-in browser: its title checked, the body (60,447 characters, recheck B2) cleared with real keystrokes (a click in a text paragraph after a screenshot, ctrl+a, Delete; 0 left), the payload pasted with the lane's paste helper; Publish was never clicked",
+ "part": "from the heading \"Closing\" to the end: since 2026-10-25 the main guide runs past part A's 99,999 characters, so part B starts a section before A's cut (make_recheck.py)",
+ "secret_link": "https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-25&audience=only_paid&free_preview=false&freemail=",
+ "payload": "PAYLOAD-B.html",
+ "payload_sha256": "f99074090387c5e4c67c76d51f4a1c12ac6f3ec99a6c64f5a25b16e22218f751",
+ "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/884971478b8c43a29c126afe904bdbda26a60334/articles/inner-signal/humanize/fix-20261025/recheck/PAYLOAD-B.html",
+ "paste": {
+  "helper": "../../fix-20261022/screen/paste_payload_lane.js",
+  "editor_words": 11181,
+  "words_expected": 11156,
+  "words_match": false,
+  "why_not": "25 more in the editor, as at the last two pastes of this draft: text the editor renders around images and embeds that WORDS-B.json leaves out; the rendered check decides"
+ },
+ "saved": "the editor said Saved before the page was left",
+ "rendered_check": "the secret link opened in the app's browser: 230 lines; with the card's line \"Quick Triage Web-App Version HERE\" left out, as the rebuild leaves it out, its 229 lines (59,201 characters) hash to TEXT-B.txt (ec732db7...) exactly",
+ "text_sha256": "ec732db7c939d637c0307ef397306691585ab5a2570644689e8bde22b7ac04f2",
+ "text_chars": 59201,
+ "predictions": "pangram-ledger.jsonl HG-rest-B#61 (AI at 0.01), and FORECAST-B.json, both written before the paste",
+ "link_note": "the \"updated\" value in the secret link is only a cache key, not a time"
+}

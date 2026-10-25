@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-25, after your message of 19:42 UTC (your answers on the review page). **Open questions: 1** (20, the
-Emulate check page, just below). **One thing for you to do**: merge [pull request 251](https://github.com/u-dont-existDOTcom/joel-articles/pull/251) when you've looked.
+Last updated 2026-10-25, after your message of 23:05 UTC (your answers to 20). **Open questions: 0.** **For you to do**:
+the whole guide's recheck in Brave (just below), and merge [pull request 251](https://github.com/u-dont-existDOTcom/joel-articles/pull/251) when you've looked.
 The questions are at the top, with their options and my default; under them is what you decided and what I did with it.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -10,15 +10,40 @@ read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 20. The Emulate check page.** [Your guide with every change Emulate made that isn't yours marked where it is](https://claude.ai/artifact/FUoU6T1mGt1WiQBP1UjaWW):
-20 cards, each with your own version beside it: the quote marks Emulate put around 85 words and phrases (one card, like
-the spaces on your last page), 16 places where Emulate changed or dropped a point of yours (a condition, a limit, a
-definition, who does what), and 3 references (who wrote the ISH article, "several" trials, what Levine's chapter 7 is
-about). The plain errors are fixed already (below). Approve, Reject or Revise each card, with a comment if you want.
-- a) (my default) You go through the page; nothing changes until you've decided.
-- b) You decide the ones you want to, and say "take your advice on the rest", as last time.
-From your other account, the page opens once you share it from its Share menu; the
-[list of cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/emulate-check/REVIEW-EMULATE.json) is in Git either way.
+None right now.
+
+## For you to do
+
+- 🟠 **The whole guide's recheck, in Brave.** Everything that changed today is in two temporary drafts (never published):
+  open each link in Brave, run Pangram's check from its side panel, and send me each result's link ("Copy shareable link
+  to result").
+  - [Part A, the main guide](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-25&audience=only_paid&free_preview=false&freemail=)
+    (the check reads its first 99,999 characters, which end just inside "Try it in the Inner Signal app"; part B starts at Closing, the section before it, so the end of the guide is read in full).
+  - [Part B, from Closing to the end of the appendices](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-25&audience=only_paid&free_preview=false&freemail=).
+  My forecast is some red in each: 136 and 88 paragraphs changed since the last checks, most of them only a mark or a word.
+  Whatever reads red goes to Emulate's re-run first, or back to you with your own version beside it, before the copy helper.
+
+## Your message of 2026-10-25 23:05 UTC, and what I did
+
+Your message, [word for word](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/joel-20261025-2305-message.txt),
+and [your answers file](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/emulate-check/ANSWERS-20261025-2300.json).
+
+- 🟢 **"251 has conflicts"**: fixed, twice. Main took the Inner Child lane's turns 111 and 112 after my pushes, and both
+  lanes had added lessons with the same numbers to one shared file; both lanes' lessons are kept. 251 can merge.
+- 🟢 **20, the Emulate check page: your answers are in the guide** ([what happened to each card](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/emulate-check/APPLIED-20.json)):
+  the 17 you approved, and your versions of the quote-mark card and EM-16 word for word ("coming back" keeps its quote
+  marks; "Just because an idea should be a resource ..." is out).
+- 🟢 **EM-11, "actually emulate's version is better, hypnosis is for pain btw"**: you're right, and I should have known:
+  hypnosis is widely used for pain, so a flat rule against suppressing symptoms says the wrong thing, and Emulate's "skip
+  medical attention for symptoms just because you can force them down" was the point. Emulate's sentence stays as it was.
+  The lesson (E272): when I offer your older words over Emulate's, I check which says the truer thing, not only which is
+  yours.
+- 🟢 **"make sure we are not using "protector" to mean "guard""**: 19 places used it that way and say guard now, the one
+  you saw in "Finish without forcing a revelation" P2 among them, and the heading "Working with childhood protector parts"
+  (now "Working with your guards"). Your Protector, the grown-up job, stays in its 20 places, and so do the three
+  brackets that explain "guards" as "(childhood protector parts)", as your own version of the card kept them
+  ([each one](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/emulate-check/GUARD-SWEEP.json)).
+- 🟢 **The strict Emulate check, run again**: nothing new; what's left is what you left or what was looked at before.
 
 ## Your message of 2026-10-25 19:42 UTC, and what I did
 
