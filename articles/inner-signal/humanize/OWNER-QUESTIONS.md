@@ -2,7 +2,7 @@
 
 Last updated 2026-10-25, after your message of 14:40 UTC (the reread's 15.1, the inner child guide, and "give me the full
 HTML guide with highlighting"). **Open questions: 1** (19, the review page, just below). **One thing for you to do**:
-merge this turn's pull request when you've looked (it changes nothing in your guide's text).
+merge [pull request 247](https://github.com/u-dont-existDOTcom/joel-articles/pull/247) when you've looked (it changes nothing in your guide's text).
 The questions are at the top, with their options and my default; under them is what you decided and what I did with it.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -484,7 +484,7 @@ Your message, word for word: [joel-20261023-1230-message.txt](https://github.com
 
 ## For you to do
 
-- 🟠 Merge this turn's pull request when you've looked: the review page, its tool and tests, the reread's fixed brief,
+- 🟠 Merge [pull request 247](https://github.com/u-dont-existDOTcom/joel-articles/pull/247) when you've looked: the review page, its tool and tests, the reread's fixed brief,
   and the records. Your guide's text doesn't change in it.
 - 🟢 Done: recheck B (your result of 20:35 UTC on 23 October), recheck A4, both
   screening posts, and your Nibbāna article's rechecks (on its page).

@@ -120,7 +120,7 @@ has changed for them yet.
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
 
-This turn's pull request (the review page, its tool and tests, the fixed reread brief) waits for his merge; 240 and 241
+Pull request 247 (this turn's: the review page, its tool and tests, the fixed reread brief) waits for his merge; 240 and 241
 were merged on 2026-10-25. The community lane's own state is in its handoff.
 
 ## Where it stands
@@ -211,7 +211,7 @@ your suggestion with approve reject reivse buttons". The InnerSignal protocol wa
 inner child review: version 0.2.1, protocol_sha256 1da3ddf06a27aa8409fe953f21e8d9053d943bf383c04d5c561e2e93bb067a27
 (read: protective compatibility, the therapy map, phenomenology, role and belief).
 
-Done (this turn's pull request):
+Done (in pull request 247, https://github.com/u-dont-existDOTcom/joel-articles/pull/247):
 - **The reader fixed** (`tools/humanization/clarity_read.py` BRIEF, `clarity_examples.json` example 6, two tests; lesson
   E264): a "this", "that", "it" or "do that" whose meaning is right before it doesn't count; a plain version changes the
   words that stop a reader, with one bracket at most.
