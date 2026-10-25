@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "76684ed00562c39cc544d060e206372a56ae686ccb73a06e4772a3242da47f6c",
+  "context_sha256": "ef88a4fb55e50cb9d512a525fda80dba52a05f3909377976f35cc2e75c740ec3",
+  "source_sha256": "b513580db11f92d74b451207502331d248dd036b5edebdc794b770c13c245771",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+    "context_id": "t110-gate-preservation-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01NbUfhcTaRT8sbjyYV1wEFq (the writer's session)"
+  },
+  "evidence": "Draft: \"My son did that for me, and I think that's very common for parents.\" Source: the paragraph's first sentence (kept verbatim in the context) plus the author's 2026-10-02 answer, \"I actually used my son (i shouldn't say \"used\") to reconnect with my inner child, and I think that's very common for parents.\" Traceability, unit by unit: (1) it was his son: kept. (2) The purpose, reconnecting with his inner child: carried by \"did that\", whose antecedent is the untouched sentence right before it (\"a companion that brings out the relationship with your own inner child\"), so the pronoun is anchored for a reader who never saw the chat. (3) The retraction (i shouldn't say \"used\") is an editor-facing wrapper; the draft honors it by not saying \"used\" and by making the son the subject, which also fits the next sentences (\"their own beings with their own needs\", \"without making them responsible for the session\"). (4) \"I think that's very common for parents\": kept whole, with the \"I think\" marker and its hedge. (5) \"actually\" is dropped; it is a voice flourish, not a claim, and the_change allows turning the answer into an article sentence; accepted. Added: only \"for me\", which restates whom the son did it for; no new fact. C03 absent because the first-person fact is the author's own, supplied; C04 absent. Placement is after the paragraph's first sentence, as the_change says. Watched: \"But those are also their own beings\" now follows a sentence that mentions \"parents\", but \"those\" still resolves to the child and the pet (it is plural, and \"their own needs\" and \"Let them come and go\" fit only them), so C02 is absent; low risk. T01 absent: the personal detail is source-earned and supports the advice. T08 absent: the second clause adds a claim (it is common), it does not translate an image. T17 absent: a hedged observation, not a principle. Linter D9 follows the source order: one added sentence in a paragraph whose other sentences are untouched; the paragraph notices something (the counter-caution that a child or pet has needs of its own), so T13 and T09 are absent; accepted as resolved. No writer-marked rows; I found none PRESENT.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": ["D9 follows the source order"]
+}

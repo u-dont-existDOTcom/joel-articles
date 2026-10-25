@@ -1,0 +1,240 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "b2513352bc91a8de3a78eb85da81566b6b6f7267f493d83190d319810f91eeaf",
+  "context_sha256": "2610d1c9f4b9b5c0646773e96a6b243ced100967a19011539297bf7f966174ae",
+  "source_sha256": "6551d27bdb2d8c095f1e6fa2c20f0c5f82aef4742be57ad7197680c751c4fc2b",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "writer": {
+    "name": "Claude Opus 5.5, the Inner Child lane writer",
+    "context_id": "session_01NbUfhcTaRT8sbjyYV1wEFq"
+  },
+  "lint": {
+    "verdict_at_init": "REVIEW",
+    "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+    "stdout_sha256": "16bd6fdf2cc12d94db1aa023271cd89831ec69480554bd94436798e6864d3c67",
+    "findings": [
+      {
+        "label": "B7 short landing at paragraph end",
+        "examples": [
+          "Blaming yourself can be doing a protective job, too."
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "The linter sees it alone. In the article it opens its paragraph, and four sentences follow it, so it ends nothing."
+      },
+      {
+        "label": "D9 follows the source order",
+        "examples": [
+          "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "It is the source sentence with one phrase replaced, so it follows the source by design; the paragraph keeps its own turns (\"Then again\", \"either way\")."
+      }
+    ]
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "no first-person stake in \"Blaming yourself can be doing a protective job, too.\" beyond the source's own",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "\"Blaming yourself can be doing a protective job, too.\" is one step in its paragraph, not part of a run of compressed commands",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "the paragraph before it shows a part doing a protective job (calling all this stupid because it is \"scared of getting its hopes up\"), and \"too\" ties the self-blame case to it",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "no scene in \"Blaming yourself can be doing a protective job, too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "no concrete prop in \"Blaming yourself can be doing a protective job, too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "\"a protective job\" is the article's own term for what its protective parts do (the section opens \"Whichever protective part showed up\"), and the next sentences say what it protects against",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "no filler or staged hesitation in \"Blaming yourself can be doing a protective job, too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "no image followed by an explanation of it in \"Blaming yourself can be doing a protective job, too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "one change in one passage; \"Blaming yourself can be doing a protective job, too.\" gets the weight its point needs, the rest of the passage is unchanged",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "no \"you don't have to X before Y\" packaging in \"Blaming yourself can be doing a protective job, too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "it states a claim the paragraph then tests (\"might be your parent's line\", \"Then again, if it's your fault, maybe you can fix it before they leave\")",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "no matched pair or closed list in \"Blaming yourself can be doing a protective job, too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "the passage around \"Blaming yourself can be doing a protective job, too.\" keeps its reasons, asides and callbacks; the change adds none of its own and removes none",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "no material moved to dodge a detector: the change in \"Blaming yourself can be doing a protective job, too.\" is a referent or readability fix both reviews asked for",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "\"a job like that\" became \"a protective job\": the cold read couldn't tell which job, and GPT asked to tie self-blame to a part's protective job explicitly",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "no \"not X, it's Y\" in \"Blaming yourself can be doing a protective job, too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "ABSENT",
+      "evidence": "it opens a possibility the paragraph examines with \"might\" and \"Then again\", not a finished principle",
+      "resolution": ""
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "no premise flipped by a short sentence in \"Blaming yourself can be doing a protective job, too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "\"Blaming yourself can be doing a protective job, too.\" does not announce what comes next",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "\"Blaming yourself can be doing a protective job, too.\" is not a polished paragraph-ending line",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "ABSENT",
+      "evidence": "\"Blaming yourself can be doing a protective job, too.\" does one job, not several coordinated argumentative jobs",
+      "resolution": ""
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "\"Blaming yourself can be doing a protective job, too.\" carries a stance or a reason from its passage, not reassurance alone",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "no generic scenery in \"Blaming yourself can be doing a protective job, too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "no faux-insight setup or self-answered question in \"Blaming yourself can be doing a protective job, too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "no colon reveal in \"Blaming yourself can be doing a protective job, too.\"",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "ABSENT",
+      "evidence": "\"protective\" calls back to the section's first sentence six paragraphs up; the callback is what ties self-blame to the guards",
+      "resolution": ""
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "\"doing a protective job\" names the job, and the paragraph says what it does; not the vague \"doing some work\" tic",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "\"Blaming yourself can be doing a protective job, too.\" is not the end of its section",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "\"Blaming yourself can be doing a protective job, too.\" is not a closing restatement of its paragraph",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "the inner child is not named in \"Blaming yourself can be doing a protective job, too.\", and \"the kid\" appears nowhere in it",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "\"a protective job\" needs no antecedent, which is the fix; \"they\" later points at \"your parent\"",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "no first-person fact about Joel's life in \"Blaming yourself can be doing a protective job, too.\" that he didn't give",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "no claim about a study, person or product in \"Blaming yourself can be doing a protective job, too.\"",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "REVIEW-preservation.json",
+    "cold_read_1": "REVIEW-cold_read_1.json",
+    "cold_read_2": "REVIEW-cold_read_2.json"
+  }
+}

@@ -1,0 +1,686 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "inner-child-t110-agreed",
+ "title": "Inner Child Review Sheet",
+ "intro": [
+  "Only the changes GPT's review and mine both recommend, each in place in the whole guide: two sections in a new order, ten cuts, three small wording changes and three questions. The agreement card by card, with GPT's advice, is <a href=\"https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t110-review/AGREED.md\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>. Everything else on the turn-109 sheet, both of us would leave as it is.",
+  "Approve, Reject or Revise each change, and answer the questions in their boxes. Your answers save in this browser as you click. When you're done, press \"Save / send\", then \"Copy my answers\", and paste them into the chat from either account.",
+  "Nothing in the guide changes until you approve. The two sections read Human in Pangram as they'd read, and the cuts and wording changes get their checks once you approve them."
+ ],
+ "git_file": "articles/inner-child-therapy/experiments/t110-review/REVIEW.html",
+ "article": {
+  "file": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "sha256": "0aac146cddbef680aebf7f7eef030abbc6a6ca80c89f1350679ecc057efa3749"
+ },
+ "built": "2026-10-25 19:08 UTC",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t110-review/REVIEW.json"
+ },
+ "types": {
+  "structure": {
+   "label": "Order",
+   "about": "A section in a new order, every sentence kept but a few words, named on its card."
+  },
+  "cut": {
+   "label": "Cuts",
+   "about": "A line the text around it already says."
+  },
+  "reread": {
+   "label": "Wording",
+   "about": "A few words changed, or a line of yours added."
+  },
+  "ask": {
+   "label": "Questions",
+   "about": "What a line is based on: a few words from you, no story needed."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "S1",
+   "type": "structure",
+   "title": "Hear the Guard First: your exchange in one piece",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 247,
+     "start": 0,
+     "end": 289
+    },
+    {
+     "block": 248,
+     "start": 0,
+     "end": 189
+    },
+    {
+     "block": 249,
+     "start": 0,
+     "end": 592
+    },
+    {
+     "block": 250,
+     "start": 0,
+     "end": 591
+    },
+    {
+     "block": 251,
+     "start": 0,
+     "end": 285
+    },
+    {
+     "block": 252,
+     "start": 0,
+     "end": 411
+    },
+    {
+     "block": 253,
+     "start": 0,
+     "end": 280
+    }
+   ],
+   "card_after": 253,
+   "edits": [
+    {
+     "block": 247,
+     "before": "Whichever protective part showed up, try talking to it in the same Nurturer voice you meant for your little one. At some point you can ask that part, \"What are you afraid would happen if you stepped back?\" Usually your little one only comes forward after that part feels heard. Peek-a-boo!",
+     "after": "Whichever protective part showed up, try talking to it in the same Nurturer voice you meant for your little one. At some point you can ask that part, \"What are you afraid would happen if you stepped back?\""
+    },
+    {
+     "block": 248,
+     "before": "A harder voice can seem more fitting for something that's been in your way. I'd still keep it the same. If that voice isn't there in you yet, borrow it from someone who's been safe for you.",
+     "after": "It might say this will just be one more performance, and you'll fool yourself again. That one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part remembers. \"Tell me what you remember, I'm listening.\" works well here. It puts you into the role of the Nurturer, which alleviates the instinct to argue back. Usually your little one only comes forward after that part feels heard. Peek-a-boo! If you push past it, you might get exactly the performance it was afraid of. Even if you didn't win an Emmy last year, that can look convincing, with the right words and maybe even tears, while nothing underneath feels any safer."
+    },
+    {
+     "block": 249,
+     "before": "That part might say this will just be one more performance, and you'll fool yourself again. That one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part remembers. \"Tell me what you remember, I'm listening.\" works well here. It puts you into the role of the Nurturer, which alleviates the instinct to argue back. If you push past it, you might get exactly the performance it was afraid of. Even if you didn't win an Emmy last year, that can look convincing, with the right words and maybe even tears, while nothing underneath feels any safer.",
+     "after": "A harder voice can seem more fitting for something that's been in your way. I'd still keep the Nurturer voice. If that voice isn't there in you yet, borrow it from someone who's been safe for you."
+    },
+    {
+     "block": 250,
+     "before": "That part doesn't have to move out. It's been living there way longer than the grown-up you. It can keep watch while you take one small step toward your little one, and I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it off if things got to be too much. It doesn't have to be all or nothing, either. Maybe it would settle for a lighter cover for now, like blinds tilted open a crack, and let you peek out for a minute (ST-CA, section 9.3.4). If it says no, I'd listen. When it lets you, keep an eye on that part too, for any change at all.",
+     "after": "A new roommate doesn't win you over with a speech on move-in day (hopefully, right?). The rent just has to keep showing up. Your Protector earns that guard's trust about the same way, mostly out in ordinary life. The things you do can be small, like keeping a promise to yourself nobody else knew about. Or saying no to someone, and not texting an hour later to take it back. That second one can be really hard."
+    },
+    {
+     "block": 251,
+     "before": "If it's been calling all this stupid, it might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, \"You don't have to hope yet, I'll keep coming back even when I mess up.\" Sometimes it doesn't say anything back for a while.",
+     "after": "That part doesn't have to move out. It's been living there way longer than the grown-up you. It can keep watch while you take one small step toward your little one. I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it all off if things got to be too much. It doesn't have to be all or nothing, either. Maybe it would settle for a lighter cover for now, like blinds tilted open a crack, and let you peek out for a minute (ST-CA, section 9.3.4). If it says no, I'd listen. When it lets you, keep an eye on that part too, for any change at all."
+    },
+    {
+     "block": 252,
+     "before": "A new roommate doesn't win you over with a speech on move-in day (hopefully, right?). The rent just has to keep showing up. Your Protector earns that guard's trust about the same way, mostly out in ordinary life. The things you do can be small, like keeping a promise to yourself nobody else knew about. Or saying no to someone, and not texting an hour later to take it back. That second one can be really hard.",
+     "after": "If it's been calling all this stupid, it might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, \"You don't have to hope yet, I'll keep coming back even when I mess up.\" Sometimes it doesn't say anything back for a while."
+    },
+    {
+     "block": 253,
+     "before": "Blaming yourself can be doing a job like that, too. \"It's all my fault\" might be your parent's line, word for word. Then again, if it's your fault, maybe you can fix it before they leave. I'd stop the cruelty either way. And I'd get curious about what makes it so hard to give up.",
+     "after": "Blaming yourself can be doing a protective job, too. \"It's all my fault\" might be your parent's line, word for word. Then again, if it's your fault, maybe you can fix it before they leave. I'd stop the cruelty either way. And I'd get curious about what makes it so hard to give up."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "reads": [
+    {
+     "text": "Whichever protective part showed up, try talking to it in the same Nurturer voice you meant for your little one. At some point you can ask that part, \"What are you afraid would happen if you stepped back?\"",
+     "note": "Your first two sentences."
+    },
+    {
+     "text": "It might say this will just be one more performance, and you'll fool yourself again. That one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part remembers. \"Tell me what you remember, I'm listening.\" works well here. It puts you into the role of the Nurturer, which alleviates the instinct to argue back. Usually your little one only comes forward after that part feels heard. Peek-a-boo! If you push past it, you might get exactly the performance it was afraid of. Even if you didn't win an Emmy last year, that can look convincing, with the right words and maybe even tears, while nothing underneath feels any safer.",
+     "note": "Your own order from before turn 109, with \"It might say\" as you wrote it.",
+     "new": [
+      "It might say"
+     ]
+    },
+    {
+     "text": "A harder voice can seem more fitting for something that's been in your way. I'd still keep the Nurturer voice. If that voice isn't there in you yet, borrow it from someone who's been safe for you.",
+     "note": "\"The Nurturer voice\" for \"it the same\" (P8): right after \"a harder voice\", \"the same\" and \"that voice\" could point at the harder one.",
+     "new": [
+      "the Nurturer voice"
+     ]
+    },
+    {
+     "text": "A new roommate doesn't win you over with a speech on move-in day (hopefully, right?). The rent just has to keep showing up. Your Protector earns that guard's trust about the same way, mostly out in ordinary life. The things you do can be small, like keeping a promise to yourself nobody else knew about. Or saying no to someone, and not texting an hour later to take it back. That second one can be really hard.",
+     "note": "The roommate, as it is."
+    },
+    {
+     "text": "That part doesn't have to move out. It's been living there way longer than the grown-up you. It can keep watch while you take one small step toward your little one. I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it all off if things got to be too much. It doesn't have to be all or nothing, either. Maybe it would settle for a lighter cover for now, like blinds tilted open a crack, and let you peek out for a minute (ST-CA, section 9.3.4). If it says no, I'd listen. When it lets you, keep an eye on that part too, for any change at all.",
+     "note": "Its long sentence in two, and \"call it all off\": a fresh reader took \"it\" for the guard.",
+     "new": [
+      [
+       "call it ",
+       "all"
+      ]
+     ]
+    },
+    {
+     "text": "If it's been calling all this stupid, it might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, \"You don't have to hope yet, I'll keep coming back even when I mess up.\" Sometimes it doesn't say anything back for a while.",
+     "note": "As it is."
+    },
+    {
+     "text": "Blaming yourself can be doing a protective job, too. \"It's all my fault\" might be your parent's line, word for word. Then again, if it's your fault, maybe you can fix it before they leave. I'd stop the cruelty either way. And I'd get curious about what makes it so hard to give up.",
+     "note": "\"A protective job\" for \"a job like that\": a fresh reader couldn't tell which job, and GPT asked to make it plain.",
+     "new": [
+      "protective"
+     ]
+    }
+   ],
+   "reads_label": "How Hear the Guard First would read",
+   "what": "Your question, then what the part might say, your reply \"Tell me what you remember, I'm listening.\" and your reason for it, all in one paragraph as you had them. Then the harder voice, the roommate, moving out, hopes and self-blame, one a paragraph.",
+   "why": "In turn 109's order your reply sat two paragraphs below the question it answers. GPT: \"the opening now jumps from asking to the outcome of listening, while the actual listening is deferred.\"",
+   "stays": "Every sentence, and the order of the last four paragraphs but one: the harder voice comes up from second to third place. Why the roommate isn't straight after the exchange is in the agreement, linked above.",
+   "deciding": "Approve puts this order in, word for word. Reject keeps the section as it is now, above.",
+   "advice_note": "Both reviews recommend it, and it read Human in Pangram as a section: https://www.pangram.com/history/8d811715-68ec-4c68-8641-79c098f8fb5b",
+   "found_by": "GPT's review of the turn-109 sheet, and mine",
+   "approve_label": "use this order"
+  },
+  {
+   "id": "S3",
+   "type": "structure",
+   "title": "Before You Tell the Hardest Stuff: the danger lines back with the dream line",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 396,
+     "start": 0,
+     "end": 553
+    },
+    {
+     "block": 397,
+     "start": 0,
+     "end": 263
+    },
+    {
+     "block": 398,
+     "start": 0,
+     "end": 333
+    },
+    {
+     "block": 399,
+     "start": 0,
+     "end": 261
+    },
+    {
+     "block": 400,
+     "start": 0,
+     "end": 201
+    }
+   ],
+   "card_after": 400,
+   "edits": [
+    {
+     "block": 396,
+     "before": "Then there’s the stuff that’s hardest to tell anyone, and of course that's exactly what you need help with. Maybe it’s an urge that scares you, or something you did that could get you in legal trouble. I'd assume that what you tell won't be completely confidential, especially if it sounds like something dangerous. Just don’t hold back a danger that’s happening now from people who can help, and get anyone in danger safe before worrying about the rest. Sometimes telling on yourself is the thing that keeps someone safe, whatever it costs you legally.",
+     "after": "Then there’s the stuff that’s hardest to tell anyone, and of course that's exactly what you need help with. Maybe it’s an urge that scares you, or something you did that could get you in legal trouble. I'd assume that what you tell won't be completely confidential, especially if it sounds like something dangerous."
+    },
+    {
+     "block": 400,
+     "before": "You can always rephrase things as a dream narrative to get the emotional content across without triggering alarm bells (although I actually got in trouble with TalkSpace therapy bot even for a dream!).",
+     "after": "You can always rephrase things as a dream narrative to get the emotional content across without triggering alarm bells (although I actually got in trouble with TalkSpace therapy bot even for a dream!). Just don’t hold back a danger that’s happening now from people who can help, and get anyone in danger safe before worrying about the rest. Sometimes telling on yourself is the thing that keeps someone safe, whatever it costs you legally."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "reads": [
+    {
+     "text": "Then there’s the stuff that’s hardest to tell anyone, and of course that's exactly what you need help with. Maybe it’s an urge that scares you, or something you did that could get you in legal trouble. I'd assume that what you tell won't be completely confidential, especially if it sounds like something dangerous.",
+     "note": "Your topic and your \"I'd assume\", without the danger lines."
+    },
+    {
+     "text": "You know that DM you deleted? It can still be sitting on their phone as a screenshot 🙈, and whatever’s on a company’s server can get handed over if a court asks. Just because Mr. Boopaloopa was your name on WhatsApp doesn't guarantee you're anonymous, by the way.",
+     "note": "As it is."
+    },
+    {
+     "text": "And some of the people you’d tell, like therapists, teachers, and doctors, can be required to report certain things (a few laws cover everybody, too). Which things depends on where you live, and it’s nowhere near every crime you might mention. The cops are hopefully the obvious ones to be careful with, even if they pretend to care.",
+     "note": "As it is."
+    },
+    {
+     "text": "So I’d ask them, before handing over any tricky specifics: “What does the law require you to report?” That's a normal and expected question. Although personally I wouldn't even bother with that, because whatever they tell you today, the law can change tomorrow.",
+     "note": "As it is."
+    },
+    {
+     "text": "You can always rephrase things as a dream narrative to get the emotional content across without triggering alarm bells (although I actually got in trouble with TalkSpace therapy bot even for a dream!). Just don’t hold back a danger that’s happening now from people who can help, and get anyone in danger safe before worrying about the rest. Sometimes telling on yourself is the thing that keeps someone safe, whatever it costs you legally.",
+     "note": "Your dream line with your two danger lines after it, where you had them on 2026-10-19."
+    }
+   ],
+   "reads_label": "How Before You Tell the Hardest Stuff would read",
+   "what": "Your two lines \"Just don't hold back a danger that's happening now…\" and \"Sometimes telling on yourself…\" go back after the dream line they limit, so the section ends on the danger.",
+   "why": "They limit the dream advice. Turn 109 moved them up front, so the section ended on the dream line by itself. GPT: \"preserving words does not preserve their working relationship.\"",
+   "stays": "Every sentence, word for word. The topic still opens the section, and the DM, reporting and your question to ask stay in their own paragraphs.",
+   "deciding": "Approve puts this order in, word for word. Reject keeps the section as it is now, above.",
+   "advice_note": "Both reviews recommend it, and it read Human in Pangram as a section: https://www.pangram.com/history/65b8f598-3077-440a-a12f-349143dc2f5a",
+   "found_by": "GPT's review of the turn-109 sheet, and mine",
+   "approve_label": "use this order",
+   "warning": "A fresh reader read \"them\" in \"So I'd ask them\" as the cops, the last people named before it. That's the same in your original, so it stays as it is unless you name them in your words (Revise)."
+  },
+  {
+   "id": "C3",
+   "type": "cut",
+   "title": "Ill Will and Loving-Kindness: the line before the question",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 72,
+     "start": 371,
+     "end": 417
+    }
+   ],
+   "edits": [
+    {
+     "block": 72,
+     "before": "In one of the Buddha's own accounts of how he woke up, ill will shows up in his mind and he sees it's hurting him. If he had to figure that out by watching, it's not obvious. Ill will can make you feel powerful. Being on fire would too, and people would definitely get out of your way, but unless you're the Human Torch from the Fantastic Four, you'd be the one burning. So it's worth noticing what it's doing to you. Has it ever left anybody at ease, with nothing to regret afterward?",
+     "after": "In one of the Buddha's own accounts of how he woke up, ill will shows up in his mind and he sees it's hurting him. If he had to figure that out by watching, it's not obvious. Ill will can make you feel powerful. Being on fire would too, and people would definitely get out of your way, but unless you're the Human Torch from the Fantastic Four, you'd be the one burning. Has it ever left anybody at ease, with nothing to regret afterward?"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "Takes out \"So it's worth noticing what it's doing to you\".",
+   "why": "The question right after it (\"Has it ever left anybody at ease, with nothing to regret afterward?\") already asks the reader to look.",
+   "stays": "The Buddha's account, the Human Torch and the question.",
+   "deciding": "Approve cuts it. Reject keeps it.",
+   "advice_note": "",
+   "found_by": "the point-of-view read, 2.3; GPT's review: approve the cut",
+   "approve_label": "cut it"
+  },
+  {
+   "id": "C4",
+   "type": "cut",
+   "title": "Borrow Love: the life's-journey line",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 103,
+     "start": 211,
+     "end": 346
+    }
+   ],
+   "edits": [
+    {
+     "block": 103,
+     "before": "Or put somebody you care about into your exact life, your family, your bank account and all, and then step outside it and ask what you'd tell them. It's a cheap trick for becoming the outsider to your own mess. The quest for self-knowledge is a life's journey, but you don't have to wait for your life to finish to figure out your best next move. And the gap it gets around even has a name, Solomon's paradox, after the king everybody brought their disputes to, who then wrecked his own life.",
+     "after": "Or put somebody you care about into your exact life, your family, your bank account and all, and then step outside it and ask what you'd tell them. It's a cheap trick for becoming the outsider to your own mess. And the gap it gets around even has a name, Solomon's paradox, after the king everybody brought their disputes to, who then wrecked his own life."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "Takes out \"The quest for self-knowledge is a life's journey, but you don't have to wait for your life to finish to figure out your best next move\".",
+   "why": "It does make a point of its own (you can act before you know yourself fully), but here it interrupts the exercise before Solomon's paradox, and the exercise already gives you your next move.",
+   "stays": "The exercise, \"a cheap trick for becoming the outsider to your own mess\", and Solomon's paradox.",
+   "deciding": "Approve cuts it. Reject keeps it.",
+   "advice_note": "",
+   "found_by": "the point-of-view read, 2.7; GPT's review: approve the cut",
+   "approve_label": "cut it"
+  },
+  {
+   "id": "C5",
+   "type": "cut",
+   "title": "Love Doesn't Have to Wait for Trust: the moral after Mr. Rogers",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 145,
+     "start": 629,
+     "end": 801
+    }
+   ],
+   "edits": [
+    {
+     "block": 145,
+     "before": "You can see the same move in a dramatized scene from the movie A Beautiful Day in the Neighborhood. Lloyd, a reporter, tells Mr. Rogers, \"I can't imagine it was easy… growing up with you as a father.\" He doesn't collapse under that or fight it, but he does answer what's worth answering in it. He tells Lloyd that until recently his oldest son never told people about his dad, and his youngest \"genuinely tested\" him. Eventually he and his youngest found their way, and now he's very proud of both his sons. Then he says, \"But you are right, Lloyd. It couldn't have been easy on them. Thank you. Thank you for that perspective.\" Like the two truths at bedtime, a true complaint and real love don't cancel each other out, so you can take the true part without giving up your love or defending yourself.",
+     "after": "You can see the same move in a dramatized scene from the movie A Beautiful Day in the Neighborhood. Lloyd, a reporter, tells Mr. Rogers, \"I can't imagine it was easy… growing up with you as a father.\" He doesn't collapse under that or fight it, but he does answer what's worth answering in it. He tells Lloyd that until recently his oldest son never told people about his dad, and his youngest \"genuinely tested\" him. Eventually he and his youngest found their way, and now he's very proud of both his sons. Then he says, \"But you are right, Lloyd. It couldn't have been easy on them. Thank you. Thank you for that perspective.\""
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "Takes out \"Like the two truths at bedtime, a true complaint and real love don't cancel each other out, so you can take the true part without giving up your love or defending yourself\".",
+   "why": "The scene already shows it, and \"You can see the same move\" ties it back to your bedtime story; his \"Thank you for that perspective.\" is the stronger last line.",
+   "stays": "The whole Mr. Rogers scene.",
+   "deciding": "Approve cuts it. Reject keeps it.",
+   "advice_note": "",
+   "found_by": "the point-of-view read, 3.1; GPT's review: approve the cut",
+   "approve_label": "cut it"
+  },
+  {
+   "id": "C6",
+   "type": "cut",
+   "title": "Catch the Hook: the being, not doing line",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 176,
+     "start": 206,
+     "end": 266
+    }
+   ],
+   "edits": [
+    {
+     "block": 176,
+     "before": "When you catch it, look around and just take a moment to enjoy some free honesty: \"Oh! I'm hooked again! That's awesome I could notice it!\" Take a breath or three before you finish whatever you were doing. Sometimes human beings need to be being, not always doing. 🙃 Maybe then you'll find there's enough adult around to be nice to your little boo for a second. Or enough Protector to stop something you'd regret later.",
+     "after": "When you catch it, look around and just take a moment to enjoy some free honesty: \"Oh! I'm hooked again! That's awesome I could notice it!\" Take a breath or three before you finish whatever you were doing. Maybe then you'll find there's enough adult around to be nice to your little boo for a second. Or enough Protector to stop something you'd regret later."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "Takes out \"Sometimes human beings need to be being, not always doing. 🙃\".",
+   "why": "Your \"Take a breath or three\" already says to pause, and \"Maybe then you'll find…\" follows from the breath.",
+   "stays": "The breath and what it makes room for.",
+   "deciding": "Approve cuts it. Reject keeps it.",
+   "advice_note": "The emoji goes with it. If it's your own joke, reject and it stays.",
+   "found_by": "the point-of-view read, 3.8; GPT's review: approve the cut",
+   "approve_label": "cut it"
+  },
+  {
+   "id": "C7",
+   "type": "cut",
+   "title": "Close the Session: the last line",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 212,
+     "start": 269,
+     "end": 321
+    }
+   ],
+   "edits": [
+    {
+     "block": 212,
+     "before": "And what's next for you two? Maybe it's making food, or just going to bed. Whatever it is, tell your little one, \"That's enough for today. We're going back to the life we're building.\" Nothing has to be resolved first, and whatever you're still feeling can come along. Going back to your life is part of the healing, too.",
+     "after": "And what's next for you two? Maybe it's making food, or just going to bed. Whatever it is, tell your little one, \"That's enough for today. We're going back to the life we're building.\" Nothing has to be resolved first, and whatever you're still feeling can come along."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "Takes out \"Going back to your life is part of the healing, too\".",
+   "why": "The heading and your line to the little one (\"We're going back to the life we're building.\") already say it.",
+   "stays": "The section ends on \"whatever you're still feeling can come along.\"",
+   "deciding": "Approve cuts it. Reject keeps it.",
+   "advice_note": "",
+   "found_by": "the point-of-view read, 4.4; GPT's review: approve the cut",
+   "approve_label": "cut it"
+  },
+  {
+   "id": "C8",
+   "type": "cut",
+   "title": "Untangling the Belonging Bargains: \", which is ordinary\"",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 333,
+     "start": 343,
+     "end": 362
+    }
+   ],
+   "edits": [
+    {
+     "block": 333,
+     "before": "Part of building who you are is untangling yourself from whatever pulls you away from your own knowing in return for belonging. A political tribe might expect consistent positions and predictable reactions, while a family or religion that's kind to you might have expectations that just feel like being good. Most groups expect some conformity, which is ordinary. Your family might want a particular kind of son or daughter, and your friends might have rules about what you can joke about or get upset about. But if going along means betraying yourself, that's the bargain. It can help to write down the rules your family ran on, including unspoken ones like \"Boys don't cry.\" Then write down the role you got handed, like the stand-in parent, or the one who got blamed for everything (ST-CA has lists of both, in sections 15.2.3 and 15.2.4).",
+     "after": "Part of building who you are is untangling yourself from whatever pulls you away from your own knowing in return for belonging. A political tribe might expect consistent positions and predictable reactions, while a family or religion that's kind to you might have expectations that just feel like being good. Most groups expect some conformity. Your family might want a particular kind of son or daughter, and your friends might have rules about what you can joke about or get upset about. But if going along means betraying yourself, that's the bargain. It can help to write down the rules your family ran on, including unspoken ones like \"Boys don't cry.\" Then write down the role you got handed, like the stand-in parent, or the one who got blamed for everything (ST-CA has lists of both, in sections 15.2.3 and 15.2.4)."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "Takes out \", which is ordinary\".",
+   "why": "\"Most groups\" already makes it normal, and the next sentence says when it turns into the bargain.",
+   "stays": "\"Most groups expect some conformity.\"",
+   "deciding": "Approve cuts it. Reject keeps it.",
+   "advice_note": "",
+   "found_by": "the point-of-view read, 6.3; GPT's review: approve the cut",
+   "approve_label": "cut it"
+  },
+  {
+   "id": "C9",
+   "type": "cut",
+   "title": "Let the Child Be Bad at Things: the closing summary",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 356,
+     "start": 279,
+     "end": 374
+    }
+   ],
+   "edits": [
+    {
+     "block": 356,
+     "before": "Give a new interest enough tries to get past the humiliation of being a beginner, when you keep telling people, \"Sorry, I'm new.\" Maybe after that you still genuinely dislike it, and then you may quit. You may also discover a part of yourself that never had permission to exist. Either way, that's pl/ork in its most literal form: play becomes part of forming your identity.",
+     "after": "Give a new interest enough tries to get past the humiliation of being a beginner, when you keep telling people, \"Sorry, I'm new.\" Maybe after that you still genuinely dislike it, and then you may quit. You may also discover a part of yourself that never had permission to exist."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "Takes out \"Either way, that's pl/ork in its most literal form: play becomes part of forming your identity\".",
+   "why": "The two outcomes are already there (you may quit, or find a part of you that never had permission to exist), and the section says earlier that trying things on is how people grow into who they are.",
+   "stays": "Your permission to quit, and the paragraph ends on that part of you.",
+   "deciding": "Approve cuts it. Reject keeps it.",
+   "advice_note": "",
+   "found_by": "the point-of-view read, 6.7; GPT's review: approve the cut",
+   "approve_label": "cut it"
+  },
+  {
+   "id": "C10",
+   "type": "cut",
+   "title": "Borrowed Adulthood in Relationship: the blessing line",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 385,
+     "start": 342,
+     "end": 419
+    }
+   ],
+   "edits": [
+    {
+     "block": 385,
+     "before": "Reparenting is usually talked about as something you do alone, or with a therapist. But your little one got hurt by people, so some of the healing has to happen with people too. Often it's mostly one person carrying a lot of it, maybe the one who drives you to your appointments and says it'll be okay. Maybe you're picturing them right now. Having someone like that while you're struggling can be an enormous blessing.",
+     "after": "Reparenting is usually talked about as something you do alone, or with a therapist. But your little one got hurt by people, so some of the healing has to happen with people too. Often it's mostly one person carrying a lot of it, maybe the one who drives you to your appointments and says it'll be okay. Maybe you're picturing them right now."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "Takes out \"Having someone like that while you're struggling can be an enormous blessing\".",
+   "why": "\"Maybe you're picturing them right now\" already brings that person to mind, and the next paragraph says what they've been doing for you. GPT calls this one a preference.",
+   "stays": "The person who drives you to your appointments, and the paragraph ends on \"Maybe you're picturing them right now.\"",
+   "deciding": "Approve cuts it. Reject keeps it.",
+   "advice_note": "",
+   "found_by": "the point-of-view read, 7.5; GPT's review: approve the cut",
+   "approve_label": "cut it"
+  },
+  {
+   "id": "C11",
+   "type": "cut",
+   "title": "How to Forgive Without Forgetting: the gold-star aside",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 430,
+     "start": 159,
+     "end": 206
+    }
+   ],
+   "edits": [
+    {
+     "block": 430,
+     "before": "For many people, healing does get around to some forgiveness eventually, or at least to not being run by the resentment anymore. It can't be put on a schedule (nobody gets a gold star for forgiving fastest). And you don't have to forgive first to get safe, set boundaries, hold someone accountable, get justice or get better. Then again, active resentment narrows what you see, and your little one stays organized around the injury. And if someone pressures you into forgiving early, what you get is an enlightened-looking act, with the wound gone underground.",
+     "after": "For many people, healing does get around to some forgiveness eventually, or at least to not being run by the resentment anymore. It can't be put on a schedule. And you don't have to forgive first to get safe, set boundaries, hold someone accountable, get justice or get better. Then again, active resentment narrows what you see, and your little one stays organized around the injury. And if someone pressures you into forgiving early, what you get is an enlightened-looking act, with the wound gone underground."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "Takes out \"(nobody gets a gold star for forgiving fastest)\".",
+   "why": "\"It can't be put on a schedule\" says it, and it's the same kind of aside as \"(nobody's taking attendance)\", which you cut.",
+   "stays": "Every permission: you don't have to forgive first to get safe, set boundaries, hold someone accountable, get justice or get better.",
+   "deciding": "Approve cuts it. Reject keeps it.",
+   "advice_note": "",
+   "found_by": "the point-of-view read, 8.2; GPT's review: approve the cut",
+   "approve_label": "cut it"
+  },
+  {
+   "id": "C12",
+   "type": "cut",
+   "title": "Missing Someone: the inbox aside",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 441,
+     "start": 76,
+     "end": 107
+    }
+   ],
+   "edits": [
+    {
+     "block": 441,
+     "before": "All of this happens in you, so it doesn't matter whether they get any of it (nobody's checking their inbox). And if it starts making you more compulsive, or a bit unreal, so you can't get back to your life, make it simpler: \"I miss you, and I care.\" Some of that same care can go to the part of you that's still here.",
+     "after": "All of this happens in you, so it doesn't matter whether they get any of it. And if it starts making you more compulsive, or a bit unreal, so you can't get back to your life, make it simpler: \"I miss you, and I care.\" Some of that same care can go to the part of you that's still here."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "Takes out \"(nobody's checking their inbox)\".",
+   "why": "\"It doesn't matter whether they get any of it\" says it, and it's the same kind of aside.",
+   "stays": "What to do if it gets compulsive, and \"I miss you, and I care.\"",
+   "deciding": "Approve cuts it. Reject keeps it.",
+   "advice_note": "",
+   "found_by": "the point-of-view read, 8.4; GPT's review: approve the cut",
+   "approve_label": "cut it"
+  },
+  {
+   "id": "P2",
+   "type": "reread",
+   "title": "Don't Give the Inner Adult Away: what \"keep whatever you feel\" means",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 39,
+     "start": 23,
+     "end": 94
+    }
+   ],
+   "edits": [
+    {
+     "block": 39,
+     "before": "How do you check that? I'd keep whatever you feel around them, and look at their track record. Do they respect a no, or keep pushing on it, and what happens when you disagree? If something outside of them backs up what they're telling you, and it all adds up, that's a good sign.",
+     "after": "How do you check that? I'd keep what you feel around them in mind, and look at their track record too. Do they respect a no, or keep pushing on it, and what happens when you disagree? If something outside of them backs up what they're telling you, and it all adds up, that's a good sign."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "GPT's wording, with your \"I'd\" kept, so it says what to do with the feeling.",
+   "why": "\"Keep whatever you feel\" can mean keep feeling it, remember it or trust it. GPT: \"Removing 'I'd' leaves that ambiguity intact.\"",
+   "stays": "The questions after it: whether they respect a no, what happens when you disagree, and what backs them up.",
+   "deciding": "Approve puts it in. Reject keeps it as it is.",
+   "advice_note": "The line is mine (turn 72), from the guide's. GPT's own wording dropped the \"I'd\"; I kept it, as GPT advised for the other \"I'd\" lines.",
+   "found_by": "the point-of-view read, 1.4; GPT's review: revise for meaning",
+   "approve_label": "use this wording"
+  },
+  {
+   "id": "P5",
+   "type": "reread",
+   "title": "Remind Yourself: your son",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 164,
+     "start": 0,
+     "end": 130
+    }
+   ],
+   "edits": [
+    {
+     "block": 164,
+     "before": "A real-life child of yours, or a calm pet, can also act as a companion that brings out the relationship with your own inner child. But those are also their own beings with their own needs as well. Let them come and go without making them responsible for the session.",
+     "after": "A real-life child of yours, or a calm pet, can also act as a companion that brings out the relationship with your own inner child. My son did that for me, and I think that's very common for parents. But those are also their own beings with their own needs as well. Let them come and go without making them responsible for the session."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "Adds your line about your son after the first sentence.",
+   "why": "Your answer of 2026-10-02 has it: \"I actually used my son (i shouldn't say \"used\") to reconnect with my inner child, and I think that's very common for parents.\" This is that answer as an article sentence, without \"used\".",
+   "stays": "The reminder that a child or a pet has their own needs.",
+   "deciding": "Approve puts it in. Reject keeps it as it is.",
+   "advice_note": "Unless you left it out on purpose: that day you added only \"A real-life child of yours\" to the paragraph.",
+   "found_by": "the point-of-view read, 3.3; GPT's review: approve",
+   "approve_label": "use this wording"
+  },
+  {
+   "id": "P6",
+   "type": "reread",
+   "title": "Just Like Me: \"here\"",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 189,
+     "start": 138,
+     "end": 197
+    }
+   ],
+   "edits": [
+    {
+     "block": 189,
+     "before": "If you've tried Pema Chödrön's tonglen, this is a gentler cousin, and normal breathing is fine. Whoever hurt you might come to mind, too. I'd leave out forgiving them and picturing their childhood.",
+     "after": "If you've tried Pema Chödrön's tonglen, this is a gentler cousin, and normal breathing is fine. Whoever hurt you might come to mind, too. I'd leave out forgiving them and picturing their childhood here."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "Adds \"here\" at the end.",
+   "why": "So it reads as this exercise's limit and can't be taken as advice against forgiving or understanding them at all. The pointer to the forgiveness section is dropped (GPT: optional).",
+   "stays": "Your \"I'd\", and the rest of the paragraph.",
+   "deciding": "Approve puts it in. Reject keeps it as it is.",
+   "advice_note": "",
+   "found_by": "the point-of-view read, 4.2; GPT's review: add only \"here\"",
+   "approve_label": "use this wording"
+  },
+  {
+   "id": "Q1",
+   "type": "ask",
+   "title": "If the Love Isn't Coming Yet: \"most often\"",
+   "advice": "ask",
+   "spans": [
+    {
+     "block": 88,
+     "start": 48,
+     "end": 113
+    }
+   ],
+   "question": "What is \"most often\" based on: what people have told you, something you read, what you've seen, or something else? A few words is enough.",
+   "why": "\"Most often\" compares how often people say things, so a reader may wonder whose words they are.",
+   "stays": "The line stays as it is until you answer.",
+   "advice_note": "If it's what people have told you, it stays as it is. If you're not sure, I'd make it \"What people often say helped\", which claims only what you've seen.",
+   "found_by": "the point-of-view read, 2.4; GPT's review: ask what it is based on"
+  },
+  {
+   "id": "Q2",
+   "type": "ask",
+   "title": "Gentle Meditation and Mantra: \"A lot of people find\"",
+   "advice": "ask",
+   "spans": [
+    {
+     "block": 282,
+     "start": 102,
+     "end": 171
+    }
+   ],
+   "question": "What is \"A lot of people find\" based on? If the mantra does something for you that a reader should know, one line of it is welcome too, and it's optional.",
+   "why": "It says how many people find it, and your \"I personally love…\" right after it is about the mantra you like.",
+   "stays": "The line stays as it is until you answer.",
+   "advice_note": "If it's what you've seen or been told, it stays as it is.",
+   "found_by": "the point-of-view read, 5.8; GPT's review: ask its basis, a personal line optional"
+  },
+  {
+   "id": "Q3",
+   "type": "ask",
+   "title": "Somatic Heart Opening: \"Some people find\"",
+   "advice": "ask",
+   "spans": [
+    {
+     "block": 381,
+     "start": 68,
+     "end": 149
+    }
+   ],
+   "question": "Where do \"Some people find\" and \"Some feel held, in the body\" come from: your own experience, people you've worked with, a source, or something else? An example is optional.",
+   "why": "They're the reason to stay with grief at all, so a reader may wonder whose experience they are.",
+   "stays": "The line stays as it is until you answer.",
+   "advice_note": "If it's yours or people you know, it stays as it is.",
+   "found_by": "the point-of-view read, 7.4; GPT's review: ask its basis"
+  }
+ ]
+}

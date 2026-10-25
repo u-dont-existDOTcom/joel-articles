@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "cc8b632e6c482e6dadd5d8a500636c067ffe57c48cf54502c0748d3316a1bf57",
+  "context_sha256": "2610d1c9f4b9b5c0646773e96a6b243ced100967a19011539297bf7f966174ae",
+  "source_sha256": "950b11f82460d30a95efd2c4d7e90860c8febd592f7ea7934bc62761ab41fcf7",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+    "context_id": "t110-gate-cold_read_2b-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01NbUfhcTaRT8sbjyYV1wEFq (the writer's session)"
+  },
+  "evidence": "Compared the draft with the source word by word: the only differences are ', and I think' becoming '. I think' and 'call it off' becoming 'call it all off'; everything else, including order and content, is identical. The split changes no meaning and moves nothing (T14 absent); it turns one 44-word sentence with a pivot into a 14-word permission plus a 30-word reason, and it does not create a staccato run (paragraph sentence lengths 7, 10, 14, 30, 9, 27, 6, 16), so T02 is not made worse. 'call it all off': the same sentence already uses 'it' for the guard ('what it wants'), so a first-time reader could hear 'call it off' as calling the guard off; 'it all' is the cancel-everything idiom and cannot mean the guard, so C02 is repaired, not broken. 'all' is a plain disambiguator, not a rarer word swapped in (T15 absent), and adds no claim: the grown-up stopping things if they get too much is the source's own point. 'all' echoes 'all or nothing' two sentences later; I checked this as T26 and judged it incidental (a function word that does not draw the eye). 'I think' is the source's own hedge about the part's motive, not an announced stake (T01, C03 absent). Went through T01-T29 and C01-C04 with the draft in context and found no row happening from this edit. Linter D9 'follows the source order': a sentence split plus one word cannot do otherwise and preservation requires it; the check asks whether each part notices something, and 'I think watching is what it wants anyway, to find out if there's a grown-up here now' is the author's own noticing about the guard's motive, with a reason, so T13 and T09 are absent. Accepted as answered by the context.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": ["D9 follows the source order"]
+}

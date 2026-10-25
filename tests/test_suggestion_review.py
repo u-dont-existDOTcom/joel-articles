@@ -125,6 +125,59 @@ class SuggestionReviewTests(unittest.TestCase):
         self.assertEqual([s['id'] for s in decided], ['RR-1.1'])   # his own fix of 14:40
 
 
+class PasteSafeTests(unittest.TestCase):
+    """E266 (Inner Child): each version on the page is clean text, so a page pasted into a chat still reads right (the
+    Inner Child sheet of 2026-10-25, pasted for GPT: "I'd keep Keep", "child.child", and a cut that showed no change)."""
+
+    def setUp(self):
+        self.bl = R.blocks(MD)
+
+    def test_the_two_sides_are_each_one_version(self):
+        now, new = R.sides("I'd keep whatever you feel around them.", 'Keep what you feel around them in mind.')
+        strip = lambda h: __import__('html').unescape(re.sub(r'<[^>]+>', '', h))
+        self.assertEqual(strip(now), "I'd keep whatever you feel around them.")
+        self.assertEqual(strip(new), 'Keep what you feel around them in mind.')
+        self.assertIn('<del>', now)
+        self.assertNotIn('<del>', new)
+        self.assertIn('<ins>', new)
+        self.assertNotIn('<ins>', now)
+        # a change that only takes words out still shows: the new side is shorter, the old one has them struck
+        now, new = R.sides("So I'd ask these:", 'So ask these:')
+        self.assertEqual(strip(new), 'So ask these:')
+        self.assertIn("I&#x27;d</del>", now)
+
+    def test_a_whole_passage_and_a_question_card(self):
+        para = self.bl[3]
+        last = self.bl[7]
+        whole = {'id': 'S1', 'type': 'structure', 'title': 'A new order', 'advice': 'approve',
+                 'spans': [{'block': 3, 'start': 0, 'end': len(para['text'])}, {'block': 7, 'start': 0, 'end': len(last['text'])}],
+                 'card_after': 7, 'edits': [{'block': 3, 'before': para['text'], 'after': last['text']},
+                                            {'block': 7, 'before': last['text'], 'after': para['text']}],
+                 'inserts': [], 'moves': [],
+                 'reads': [{'text': last['text'], 'note': 'Moved up.'}, {'text': para['text'], 'new': [['has a ', 'link']]}],
+                 'what': 'Swaps them.', 'why': 'Order.', 'stays': 'Every word.', 'deciding': 'Approve swaps them.'}
+        ask = {'id': 'Q1', 'type': 'caveat', 'title': 'A question', 'advice': 'ask', 'question': 'What is it based on?',
+               'why': 'See https://example.com/why.', 'spans': [{'block': 7, 'start': 0, 'end': 8}]}
+        self.assertEqual(R.check(review([whole, ask]), self.bl), [])
+        page = R.page(review([whole, ask]), MD, self.bl)
+        self.assertIn('class="reads"', page)
+        self.assertIn('has a <ins>link</ins>', page)
+        self.assertIn('Moved up.', page)
+        self.assertLess(page.index('id="b7"'), page.index('id="c-S1"'))   # the card sits after card_after's block
+        self.assertIn('data-advice="ask"', page)
+        self.assertIn('Your answer', page)
+        self.assertIn('<a href="https://example.com/why"', page)
+        data = json.loads(re.search(r'<script id="review-data" type="application/json">(.*?)</script>', page, re.S).group(1))
+        got = {x['id']: x for x in data['suggestions']}
+        self.assertEqual(got['S1']['proposed'], last['text'] + '\n\n' + para['text'])
+        self.assertEqual(got['S1']['before'], para['text'] + '\n\n' + last['text'])
+        self.assertEqual(got['Q1']['question'], 'What is it based on?')
+        bad = dict(ask, id='Q2', edits=[{'block': 7, 'before': last['text'], 'after': 'x'}])
+        self.assertTrue(any('a question changes nothing' in p for p in R.check(review([bad]), self.bl)))
+        badr = dict(whole, id='S2', reads=[{'text': 'Some words.', 'new': ['not there']}])
+        self.assertTrue(any('not in their reads paragraph' in p for p in R.check(review([badr]), self.bl)))
+
+
 class ReaderBriefTests(unittest.TestCase):
     def test_the_brief_says_a_referent_right_before_is_clear(self):
         """E264: the reader flagged "do that" right after "remove anything from laws of nature"; Joel, 14:40: ""do that" is

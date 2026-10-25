@@ -1,0 +1,19 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "cc8b632e6c482e6dadd5d8a500636c067ffe57c48cf54502c0748d3316a1bf57",
+  "context_sha256": "2610d1c9f4b9b5c0646773e96a6b243ced100967a19011539297bf7f966174ae",
+  "source_sha256": "950b11f82460d30a95efd2c4d7e90860c8febd592f7ea7934bc62761ab41fcf7",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "t110-gate-cold_read_1-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01NbUfhcTaRT8sbjyYV1wEFq (the writer's session)"
+  },
+  "evidence": "Read as a first-time reader. CONTEXT.txt is shared by the three S1 drafts; I judged only this change and checked it against the other two. Draft: 'It can keep watch while you take one small step toward your little one. I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it all off if things got to be too much.' Source: the same words as one sentence joined by ', and I think', ending 'call it off'. (1) It does what the_change says: two edits only, the split and 'call it off' to 'call it all off'; word for word nothing else differs. (2) Meaning is kept. The split drops only the 'and'; 'watching' picks up 'keep watch', so the link holds, and 'anyway' still reads right after a full stop. 'Call it all off' is the stock phrase for stopping the whole thing, so 'it all' reads as the step toward the little one and everything going on, not as the guard (a reader would not parse 'call the guard all off'); 'if things got to be too much' fits that sense, and the next sentence ('It doesn't have to be all or nothing, either.') follows on from it. 'All' is idiom emphasis and 'I think' was already Joel's hedge, so no claim is added. (3) Pronouns: 'It' is the protective part all through the paragraph ('That part', 'It's been living there', 'what it wants'); after the split, 'what it wants' cannot be 'your little one', because the one that watches is the part ('watching is what it wants'). Linter 'D9 follows the source order' is an artifact of one sentence being edited in place (1/1 paragraphs, agreement 1.00); the paragraph does notice things as it goes (the part has lived there longer than the grown-up, blinds tilted open a crack, 'If it says no, I'd listen'), and this sentence itself notices a motive (the guard watches to test whether a grown-up could stop things), so T13 and T09 are not triggered; accepted. The writer marked no row PRESENT and I agree. Checked and not present: T21 (the split reduces stacked clauses), T26 ('all' in 'call it all off' and 'all or nothing' in the next sentence is a function-word echo that links the two, not a distinctive repeat), T01 ('I think' hedges a guess about the part, no stake announced), T07, T08, T17, T18, T29, C02, C03, C04.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order"
+  ]
+}

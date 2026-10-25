@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "4ccf193d565cefef2bf9b9652717a1e3bb1f235954b01504b0a35417f3996bcc",
+  "context_sha256": "41e8990ff646c71e7485e739de8fef1c0ea1a951eede1dc78a2ad1a15a2c95f6",
+  "source_sha256": "a6040f598030660439119ca9b7c6b52f85c82e13374ee4bf7044467e4a0d4971",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+    "context_id": "t110-gate-preservation-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01NbUfhcTaRT8sbjyYV1wEFq (the writer's session)"
+  },
+  "evidence": "Source: \"I'd leave out forgiving them and picturing their childhood.\" Draft: \"I'd leave out forgiving them and picturing their childhood here.\" Word-by-word diff: the only change is the added word \"here\" at the end; \"I'd\", both exclusions (forgiving them, picturing their childhood) and their order are intact. This matches the_change. In context (\"If you've tried Pema Chödrön's tonglen, this is a gentler cousin, and normal breathing is fine. Whoever hurt you might come to mind, too. I'd leave out forgiving them and picturing their childhood here.\") \"here\" can only read as \"in this exercise\", and sitting at the end it scopes both exclusions. That is the intended narrowing. It makes explicit what the sentence meant in place, and it implies the exclusion is not a general ban; that implication is the point of the change, not a claim the edit sneaks in. Because I judged only the files given, I cannot check whether another section of the guide recommends forgiving a parent or picturing their childhood; the author should know that \"here\" now leaves room for that. Linter D9 follows the source order: expected for a one-word edit; the paragraph notices things as it goes (tonglen's gentler cousin, the person who hurt you turning up uninvited, what to leave out), so T13 and T09 are absent; accepted as resolved. Other rows: T10 absent (it is an \"I'd\" recommendation to omit something, not a reusable \"you don't have to X before Y\" formula); T20, T28 and T29 absent (a practical caveat, not an aphorism, uplift or restatement); T01 and C03 absent (the \"I'd\" is the source's, no new first-person fact); C02 absent. No writer-marked rows; I found none PRESENT.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": ["D9 follows the source order"]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "b2513352bc91a8de3a78eb85da81566b6b6f7267f493d83190d319810f91eeaf",
+  "context_sha256": "2610d1c9f4b9b5c0646773e96a6b243ced100967a19011539297bf7f966174ae",
+  "source_sha256": "6551d27bdb2d8c095f1e6fa2c20f0c5f82aef4742be57ad7197680c751c4fc2b",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+    "context_id": "t110-gate-preservation-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01NbUfhcTaRT8sbjyYV1wEFq (the writer's session)"
+  },
+  "evidence": "Source: \"Blaming yourself can be doing a job like that, too.\" Draft: \"Blaming yourself can be doing a protective job, too.\" Word-by-word diff: only \"a job like that\" becomes \"a protective job\"; \"Blaming yourself can be doing\" and \", too\" are intact. This is what the_change describes. \"Protective\" is the section's own vocabulary (\"Whichever protective part showed up\", \"Your Protector\", \"that guard\"), and the preceding paragraph's job (a part scared of getting its hopes up, calling it all stupid) is a protective job, so the edit names the category the source's \"like that\" pointed at and \"too\" still ties it to that paragraph. No claim is added: that self-blame is protective was already carried by \"a job like that\". The slight loss is that \"like that\" pointed at one specific job and \"a protective job\" is the category; the following sentences cash it out concretely (\"It's all my fault\" might be your parent's line, word for word; \"if it's your fault, maybe you can fix it before they leave\"), so a first-time reader now gets the kind of job at once and the specific one two sentences later. T06 (generic therapeutic abstraction) considered and absent for that reason. T17 considered, since the sentence is an \"X can be Y\" opener: it is a claim with a worked example right after it, not a closing aphorism, and the form is the source's own; absent. T26: \"protective\" recurs from the section's first paragraph and does the linking work; absent. Linter B7 short landing at paragraph end: false positive in context, because the flagged sentence is the first of five in its paragraph and the paragraph runs on (\"I'd stop the cruelty either way. And I'd get curious about what makes it so hard to give up.\"); accepted as resolved. Linter D9 follows the source order: expected for a one-phrase edit; the paragraph notices things (the parent's line word for word, the fault being fixable before they leave, stopping the cruelty either way), so T13 and T09 are absent; accepted as resolved. No new first-person content (C03 absent); the \"I'd\" sentences after it are untouched. No writer-marked rows; I found none PRESENT. Also read the combined S1 context, which holds all three S1 edits: no clash.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": ["B7 short landing at paragraph end", "D9 follows the source order"]
+}

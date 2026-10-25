@@ -1,0 +1,232 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "cc8b632e6c482e6dadd5d8a500636c067ffe57c48cf54502c0748d3316a1bf57",
+  "context_sha256": "2610d1c9f4b9b5c0646773e96a6b243ced100967a19011539297bf7f966174ae",
+  "source_sha256": "950b11f82460d30a95efd2c4d7e90860c8febd592f7ea7934bc62761ab41fcf7",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "writer": {
+    "name": "Claude Opus 5.5, the Inner Child lane writer",
+    "context_id": "session_01NbUfhcTaRT8sbjyYV1wEFq"
+  },
+  "lint": {
+    "verdict_at_init": "REVIEW",
+    "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+    "stdout_sha256": "6017238210fe2b85017015744983771abdf1f943bf73eb9a94c5f1e05f4bd597",
+    "findings": [
+      {
+        "label": "D9 follows the source order",
+        "examples": [
+          "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "It is the source sentence split in two with one word added, so it follows the source's order by design; the passage keeps its asides (\"way longer than the grown-up you\", the blinds) and its callback."
+      }
+    ]
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "\"I think\" is the source's (\"and I think watching is what it wants anyway\"): a reading of the part's motive the reader can test",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "\"It can keep watch while you take one small step toward your little one. I think watchin...\" is one step in its paragraph, not part of a run of compressed commands",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "the sentence before it in the context sets it up; nothing new arrives unprepared in \"It can keep watch while you take one small step toward your little one. I think watchin...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "no scene in \"It can keep watch while you take one small step toward your little one. I think watchin...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "no concrete prop in \"It can keep watch while you take one small step toward your little one. I think watchin...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "no vague healing or process language in \"It can keep watch while you take one small step toward your little one. I think watchin...\"; its terms are the article's own",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "no filler or staged hesitation in \"It can keep watch while you take one small step toward your little one. I think watchin...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "\"I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it all off\" adds the part's reason, a new consideration, not a translation of \"It can keep watch\"",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "one change in one passage; \"It can keep watch while you take one small step toward your little one. I think watchin...\" gets the weight its point needs, the rest of the passage is unchanged",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "\"It can keep watch while you take one small step\" is the part's permission inside this case (it doesn't have to move out), not a reusable counseling formula",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "\"It can keep watch while you take one small step toward your little one. I think watchin...\" carries a claim or step, not a bridge between document parts",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "no matched pair or closed list in \"It can keep watch while you take one small step toward your little one. I think watchin...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "the passage around \"It can keep watch while you take one small step toward your little one. I think watchin...\" keeps its reasons, asides and callbacks; the change adds none of its own and removes none",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "no material moved to dodge a detector: the change in \"It can keep watch while you take one small step toward your little one. I think watchin...\" is a referent or readability fix both reviews asked for",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "\"call it off\" became \"call it all off\": one word so \"it\" can't be read as the guard (the cold read), and \", and I think\" became \". I think\" (GPT's readability fix)",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "no \"not X, it's Y\" in \"It can keep watch while you take one small step toward your little one. I think watchin...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "ABSENT",
+      "evidence": "no compressed thesis or aphorism in \"It can keep watch while you take one small step toward your little one. I think watchin...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "no premise flipped by a short sentence in \"It can keep watch while you take one small step toward your little one. I think watchin...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "\"It can keep watch while you take one small step toward your little one. I think watchin...\" does not announce what comes next",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "\"It can keep watch while you take one small step toward your little one. I think watchin...\" is not a polished paragraph-ending line",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "ABSENT",
+      "evidence": "split in two, each sentence does one job: the permission (\"It can keep watch ...\") and the motive (\"I think watching is what it wants anyway ...\")",
+      "resolution": ""
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "\"It can keep watch while you take one small step toward your little one. I think watchin...\" carries a stance or a reason from its passage, not reassurance alone",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "no generic scenery in \"It can keep watch while you take one small step toward your little one. I think watchin...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "no faux-insight setup or self-answered question in \"It can keep watch while you take one small step toward your little one. I think watchin...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "no colon reveal in \"It can keep watch while you take one small step toward your little one. I think watchin...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "ABSENT",
+      "evidence": "\"keep watch\" then \"watching\" ties the permission to the motive; the repeat is the link",
+      "resolution": ""
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "none of the tic words (\"doing some work\", \"load-bearing\", \"digest\", \"clean\", vague \"work\") in \"It can keep watch while you take one small step toward your little one. I think watchin...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "\"It can keep watch while you take one small step toward your little one. I think watchin...\" is not the end of its section",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "\"It can keep watch while you take one small step toward your little one. I think watchin...\" is not a closing restatement of its paragraph",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "the inner child is not named in \"It can keep watch while you take one small step toward your little one. I think watchin...\", and \"the kid\" appears nowhere in it",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "\"It\" and \"it wants\" are the guard, named as \"That part\" two sentences before; \"call it all off\" now means the whole step, which \"call it off\" left open",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "no first-person fact about Joel's life in \"It can keep watch while you take one small step toward your little one. I think watchin...\" that he didn't give",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "no claim about a study, person or product in \"It can keep watch while you take one small step toward your little one. I think watchin...\"",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "REVIEW-preservation.json",
+    "cold_read_1": "REVIEW-cold_read_1.json",
+    "cold_read_2": "REVIEW-cold_read_2.json"
+  }
+}

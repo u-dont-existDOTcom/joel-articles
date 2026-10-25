@@ -982,10 +982,14 @@
    "must_contain": [],
    "waits_for": "(done in turn 20: his P1 passes alone on his check, Human, medium)",
    "must_contain_exact": [
-    "You might go looking for your little one and get mad instead, or realize you've been staring at the rug. I count that as pl/ork too, even if it feels like it's in the way. Before you decide where it's coming from, ask it what it's trying to stop, or what it wants. Maybe it just has something to say. It could be your little one, mad that you took so long to come back, or a part of you that's trying to protect you. Maybe it's that parent you inherited, or something from earlier today, or a bit of each."
+    "You might go looking for your little one and get mad instead, or realize you've been staring at the rug. I count that as pl/ork too, even if it feels like it's in the way. Before you decide where it's coming from, ask it what it's trying to stop, or what it wants.",
+    "Maybe it just has something to say. It could be your little one, mad that you took so long to come back, or a part of you that's trying to protect you. Maybe it's that parent you inherited, or something from earlier today, or a bit of each."
    ],
    "must_not_contain": [
     "or what it wants, or if it just has something to say"
+   ],
+   "history": [
+    "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): 104 A, reshape_t109.py: P1 is two runs now: its first three sentences open the section's plain path, and the next three open the paragraph about who it might be. Every sentence is still required word for word."
    ]
   },
   {
@@ -1069,14 +1073,16 @@
    "where": "Start With Whatever Showed Up",
    "must_contain_exact": [
     "I wouldn't spend long deciding what to call each part, though. Every part of you learns from how the others treat it, your little one included. A part of you that's trying to protect you might warn you about something, and when you hear it out, it doesn't have to get any louder.",
-    "You can tell that part something like, \"I see you. I'm not going to force my way past you. What's going on?\" Or however you'd actually say that. Then wait and listen patiently. If nothing comes, that's fine for now. No need to answer for that part just because you'd set this up as a healing session. Even without the answer, you can notice what sets the reaction off, and you can understand what the reaction is propelling you toward, and away from.",
+    "You can tell that part something like, \"I see you. I'm not going to force my way past you. What's going on?\" Or however you'd actually say that. Then wait and listen patiently.",
+    "If nothing comes, that's fine for now. No need to answer for that part just because you'd set this up as a healing session. Even without the answer, you can notice what sets the reaction off, and you can understand what the reaction is propelling you toward, and away from.",
     "Or if you do get an answer, it could come in different forms, like as a voice or just a hunch. It's often more like a feeling. Maybe grief or anger. If so just listen and be present for it if that's what it wants. If it tells you to do something, I'd only do it if it's loving and leaves you free. It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and you've checked it against what you actually know."
    ],
    "must_not_contain": [
     "That part learns it has to shout when nobody listens"
    ],
    "history": [
-    "2026-10-23 (turn 103): strings updated for his answers of 21:52 UTC (entry joel-103-20261023)."
+    "2026-10-23 (turn 103): strings updated for his answers of 21:52 UTC (entry joel-103-20261023).",
+    "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): 104 A, reshape_t109.py: his P4 is two runs now: his line to say and \"Then wait and listen patiently.\" close the plain path, and his \"If nothing comes\" lines are their own paragraph, next to his \"Or if you do get an answer\". Every sentence is still required word for word."
    ]
   },
   {
@@ -1112,7 +1118,17 @@
    "joel": "2026-10-04 01:03 UTC: \"let me fix p2 and then you see if you can fix the rest\"; \"now this one is 100% human, med conf\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
-    "That one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part remembers. \"Tell me what you remember, I'm listening.\" works well here. It puts you into the role of the Nurturer, which alleviates the instinct to argue back. Usually your little one only comes forward after that part feels heard. Peek-a-boo! If you push past it, you might get exactly the performance it was afraid of. Even if you didn't win an Emmy last year, that can look convincing, with the right words and maybe even tears, while nothing underneath feels any safer."
+    "That one can sting, because there could be something to it.",
+    "Maybe you've fooled yourself before, and that part remembers.",
+    "\"Tell me what you remember, I'm listening.\" works well here.",
+    "It puts you into the role of the Nurturer, which alleviates the instinct to argue back.",
+    "Usually your little one only comes forward after that part feels heard.",
+    "Peek-a-boo!",
+    "If you push past it, you might get exactly the performance it was afraid of.",
+    "Even if you didn't win an Emmy last year, that can look convincing, with the right words and maybe even tears, while nothing underneath feels any safer."
+   ],
+   "history": [
+    "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): 104 A moved his sentences, word for word, into the new first paragraph (sentences 3 to 6) and the performance paragraph (1, 2, 7 and 8), so each sentence is required now rather than the paragraph."
    ]
   },
   {
@@ -1148,18 +1164,33 @@
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
     "### Hear the Guard First",
-    "Whichever protective part showed up, try talking to it in the same Nurturer voice you meant for your little one. A harder voice can seem more fitting for something that's been in your way. I'd still keep it the same. If that voice isn't there in you yet, borrow it from someone who's been safe for you. At some point you can ask that part, \"What are you afraid would happen if you stepped back?\" It might say this will just be one more performance, and you'll fool yourself again.",
-    "That part doesn't have to move out. It's been living there way longer than the grown-up you. It can keep watch while you take one small step toward your little one, and I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it off if things got to be too much. It doesn't have to be all or nothing, either. Maybe it would settle for a lighter cover for now, like blinds tilted open a crack, and let you peek out for a minute (ST-CA, section 9.3.4). If it says no, I'd listen. When it lets you, keep an eye on that part too, for any change at all. If it's been calling all this stupid, it might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, \"You don't have to hope yet, I'll keep coming back even when I mess up.\" Sometimes it doesn't say anything back for a while."
+    "Whichever protective part showed up, try talking to it in the same Nurturer voice you meant for your little one. At some point you can ask that part, \"What are you afraid would happen if you stepped back?\" Usually your little one only comes forward after that part feels heard. Peek-a-boo!",
+    "A harder voice can seem more fitting for something that's been in your way. I'd still keep it the same. If that voice isn't there in you yet, borrow it from someone who's been safe for you.",
+    "That part might say this will just be one more performance, and you'll fool yourself again. That one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part remembers. \"Tell me what you remember, I'm listening.\" works well here. It puts you into the role of the Nurturer, which alleviates the instinct to argue back. If you push past it, you might get exactly the performance it was afraid of. Even if you didn't win an Emmy last year, that can look convincing, with the right words and maybe even tears, while nothing underneath feels any safer.",
+    "That part doesn't have to move out. It's been living there way longer than the grown-up you. It can keep watch while you take one small step toward your little one, and I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it off if things got to be too much. It doesn't have to be all or nothing, either. Maybe it would settle for a lighter cover for now, like blinds tilted open a crack, and let you peek out for a minute (ST-CA, section 9.3.4). If it says no, I'd listen. When it lets you, keep an eye on that part too, for any change at all.",
+    "If it's been calling all this stupid, it might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, \"You don't have to hope yet, I'll keep coming back even when I mess up.\" Sometimes it doesn't say anything back for a while.",
+    "A new roommate doesn't win you over with a speech on move-in day (hopefully, right?). The rent just has to keep showing up. Your Protector earns that guard's trust about the same way, mostly out in ordinary life. The things you do can be small, like keeping a promise to yourself nobody else knew about. Or saying no to someone, and not texting an hour later to take it back. That second one can be really hard.",
+    "Blaming yourself can be doing a job like that, too. \"It's all my fault\" might be your parent's line, word for word. Then again, if it's your fault, maybe you can fix it before they leave. I'd stop the cruelty either way. And I'd get curious about what makes it so hard to give up."
    ],
    "order": [
     "Two Common Guarding Patterns",
     "Hear the Guard First",
     "Whichever protective part showed up",
-    "That one can sting",
+    "A harder voice can seem more fitting",
+    "That part might say this will just be one more performance",
+    "That part doesn't have to move out.",
+    "If it's been calling all this stupid",
     "A new roommate doesn't win you over",
-    "That part doesn't have to move out."
+    "Blaming yourself can be doing a job like that, too."
    ],
-   "updated": "2026-10-22 turn 87: changed by his answers 77.1 A and 76.2 A (experiments/t87-answers/JOEL-20261022-1533.md)"
+   "updated": "2026-10-22 turn 87: changed by his answers 77.1 A and 76.2 A (experiments/t87-answers/JOEL-20261022-1533.md)",
+   "history": [
+    "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): 104 A: the section in its new shape, the plain path first and then one situation a paragraph (entry joel-109-20261025).",
+    "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): reshape_t109b.py, the second try after P3 read 99.8% AI alone: his reply \"Tell me what you remember, I'm listening.\" and its reason are back after \"and that part remembers\", which they answer, and P1 is the plain path without them.",
+    "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): reshape_t109c.py, the third try after P1 without the reason read 28% AI: \"It puts you into the role of the Nurturer, which alleviates the instinct to argue back.\" follows the question in P1, and his reply line stays in P3.",
+    "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): reshape_t109d.py, the fourth try: each of P1 and P3 had read Human alone only with his reason line in it, so P1 takes back the harder-voice case, as his own P1 had it, and P2 is the performance paragraph that read Human alone in the second try.",
+    "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): reshape_t109e.py, back to the second try's arrangement after four tries, my pick on the review page: his reply and its reason together in P3, the plain path short in P1."
+   ]
   },
   {
    "id": "bus-p4-proposal",
@@ -2455,8 +2486,8 @@
     "Use Childhood Photographs Gently"
    ],
    "must_contain_exact": [
-    "If picturing your little one feels fake, like you're just making it up, a real photo of you as a child can help, since there's no face or posture to invent. Yes, yes, it might feel a bit strange, seeing your own face from back then. But look at it gently and just notice what comes up.",
-    "While you look, notice what your body does and what feelings or urges show up. Is there something that younger you seems to want you to understand? Some of it you'll remember yourself, and some of it you might even glean from talking to family/friends from then (\"You hated that coat\"). It might just be an inference you're guessing from the picture, or perhaps it triggers an image or a dream. Or just nothing comes up. Ask what your little one needs from you now, and do a bit of it.",
+    "If picturing your little one feels like you’re just making them up, a real photo of you as a child can help, since there’s no face or posture to invent.",
+    "While you look, notice any new feelings or urges, and any tightness or unusual feelings in your body, including the good ones. Use Pema Chödrön's \"feather touch\" approach to gently bring some light and love to the edges of any contracted feelings. Is there something that younger you seems to want you to understand? Some of it you'll remember yourself, and some of it you might even glean from talking to family/friends from then (\"You hated that coat\"). It might just be an inference you're guessing from the picture, or perhaps it triggers an image or a dream. Or just nothing comes up. Ask what your little one needs from you now, and do a bit of it.",
     "We don't need to ask it leading questions, like \"Who abused me & how?\" or \"What memory is my body hiding?\" Grilling one photo until a story shows up is a good way to get a story, but stories aren't necessarily the truth, and even if they are accurate, the feelings beneath them are still more important. Memory is an amorphous thing, easily influenced by guided imagery and suggestions. Look at this study, for example, where people were shown a doctored photo of a childhood hot-air balloon ride they never took. Half of them actually started sorta remembering it. I'm sure you can relate.",
     "A photo is just one moment that somebody picked and framed... not necessarily representative. Flipping thru an album may give different jolts in your body.",
     "If you start to suspect someone of something serious, like abusing you, please don't confront or accuse anyone based only on what came up here. You might be looking at the photo thinking, \"That would explain so much.\" Journal what came up and how it came up, and see if you can get support from someone level-headed who won't lead you toward an answer.",
@@ -2473,7 +2504,8 @@
    ],
    "history": [
     "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his H17 A.",
-    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his H18 A."
+    "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his H18 A.",
+    "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): 105.2: his own first sentence for P1 and his two for the start of P2 (\"this is the part that reads ai and it's actually redundant also\"), with \"Pema Chödrön's\" for his \"Pema Chodron's\"."
    ]
   },
   {
@@ -3222,12 +3254,16 @@
    "where": "Physical Pain Makes It Harder; Opening up honestly to the right people at the right pace",
    "must_contain_exact": [
     "rather than waiting until you feel well enough to make an appointment, and they may be able to treat it while it's happening.",
-    "Although personally I wouldn't even bother with that, because whatever they tell you today, the law can change tomorrow. I'd assume that what you tell won't be completely confidential, especially if it sounds like something dangerous."
+    "Although personally I wouldn't even bother with that, because whatever they tell you today, the law can change tomorrow.",
+    "I'd assume that what you tell won't be completely confidential, especially if it sounds like something dangerous."
    ],
    "must_not_contain": [
     "If you have advice, let them take it in at their own pace.",
     "And who else gets to read what I tell you?",
     "reparenting doesn't replace it"
+   ],
+   "history": [
+    "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): 104 A, reshape_t109.py: his \"I'd assume\" sentence opens Before You Tell the Hardest Stuff now, with his danger lines, and \"Although personally I wouldn't even bother with that\" closes his paragraph about asking what the law requires. Every sentence is still required word for word."
    ]
   },
   {
@@ -3467,6 +3503,38 @@
    ],
    "must_not_contain": [
     "do notice if it progress is stagnating"
+   ]
+  },
+  {
+   "id": "joel-109-20261025",
+   "status": "applied",
+   "what": "105.1: his own end of How This Relates to IFS P7 (his friend Pink's account), word for word but for \"explained\" (his \"expalined\") and a doubled space. 105.2: his own start of Use Childhood Photographs Gently. 104 A: Hear the Guard First in the plain-path-first shape, every sentence kept and used once, \"That part might say\" for \"It might say\". Installed by experiments/t109-installs/apply_t109.py.",
+   "joel": "2026-10-25 14:20 UTC: \"104 a yes this makes it much more of a readable guide, good.\"; \"105.1 replace with ...\"; \"105.2 ok so this is the part that reads ai and it's actually redundant also ... change it to ...\"",
+   "where": "How This Relates to IFS; Use Childhood Photographs Gently; Hear the Guard First",
+   "must_contain_exact": [
+    "And the parts just keep coming: managers, firefighters, exiles, polarized parts, legacy burdens, Self-energy, guides, new subparts... At some point it’s a maze, and as my friend Pink, who has been healing her Dissociative Identity Disorder, explained, while it can be useful to have validation of the parts that one experiences, and ideas for how to work with them, it can also get overwhelming. People who are already overwhelmed can thus become more split up than before. I've seen many others echo this same evaluation, and it makes sense to me.",
+    "If picturing your little one feels like you’re just making them up, a real photo of you as a child can help, since there’s no face or posture to invent."
+   ],
+   "must_contain": [
+    "While you look, notice any new feelings or urges, and any tightness or unusual feelings in your body, including the good ones. Use Pema Chödrön's \"feather touch\" approach to gently bring some light and love to the edges of any contracted feelings."
+   ],
+   "must_not_contain": [
+    "Some practitioners are gentle about it",
+    "I wouldn't trust a model more just because",
+    "expalined",
+    "Yes, yes, it might feel a bit strange",
+    "notice what your body does and what feelings or urges show up",
+    "It might say this will just be one more performance"
+   ]
+  },
+  {
+   "id": "joel-110-20261025",
+   "status": "applied",
+   "what": "Y1 decided: \"Pink\" is not her real name, so How This Relates to IFS keeps his paragraph as he wrote it, \"my friend Pink\" and her account included. No text changes.",
+   "joel": "2026-10-25 17:26 UTC (experiments/t110-answers/JOEL-20261025-1726.md): \"don't worry, \"Pink\" is not her real name\"",
+   "where": "How This Relates to IFS",
+   "must_contain": [
+    "as my friend Pink, who has been healing her Dissociative Identity Disorder, explained"
    ]
   }
  ]

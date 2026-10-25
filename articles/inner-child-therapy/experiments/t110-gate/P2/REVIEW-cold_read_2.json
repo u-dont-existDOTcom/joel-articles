@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "a27e62e5b48c0ded287b76188159a81ec95b6ce2fca9939b5275d350cc50ed73",
+  "context_sha256": "22a2cd69f4c1997b1747d911356e5b2e53b20b93360e178f231fc90fe519af07",
+  "source_sha256": "c84684ac2a3731b598a90663c83a5a83ef9bcb89e2f5b4a13e79cbd1ebf14dfa",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+    "context_id": "t110-gate-cold_read_2b-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01NbUfhcTaRT8sbjyYV1wEFq (the writer's session)"
+  },
+  "evidence": "Compared 'I'd keep what you feel around them in mind, and look at their track record too.' with the source 'I'd keep whatever you feel around them, and look at their track record.' Three differences: 'whatever' becomes 'what', 'in mind' is added, 'too' is added. 'keep' alone could mean keep feeling it, remember it or trust it; 'keep ... in mind' commits to the mildest reading (take the feeling into account as one input), which is the role it plays in the test just above ('grounded, truthful, and free') and in the concrete checks after it, and it does not say to trust the feeling, so no claim is added. Dropping 'whatever' loses a little of the 'any feeling at all' emphasis, but 'what you feel around them' still covers every feeling and it removes the dismissive 'whatever' reading that fed the ambiguity; I judged it non-substantive. 'too' only marks the track record as an addition to the feelings (the source's 'and' already did that) and does not change their weight; it is a function word, not a restatement. None of the three is a rarer-word swap (T15 absent: the new words are plainer, not less likely). 'keep ... in mind' is a stock phrase, but the sentence still carries the section's stance and is followed by specific checks ('Do they respect a no, or keep pushing on it'), so T22 is absent; 'I'd' is the source's own, no stake announced (T01, C03 absent). C02: 'them'/'their' still point to the seemingly grown-up person of paragraph one. The 'keep' in 'keep pushing' is a different sense and the source's own (T26 absent). The question, advice, checks cadence of the paragraph is the source's and the edit adds no step (T02, T24 not made worse). Went through T01-T29 and C01-C04: nothing happening from this edit. Linter D9 'follows the source order': a word-level edit cannot do otherwise, and the paragraph's checks are real noticings (T13, T09 not at issue); accepted. Linter 'E36/E41 heavy second person' (6.2 per 100 words): the section is advice addressed to the reader, and the sentence has exactly one 'you' in both source and draft, so the edit adds none; the rows it stands for (T23 scenery, T22 coach register) are not in this sentence; accepted as answered by the context.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": ["D9 follows the source order", "E36/E41 heavy second person"]
+}

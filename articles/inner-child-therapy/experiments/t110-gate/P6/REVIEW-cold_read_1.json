@@ -1,0 +1,19 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "4ccf193d565cefef2bf9b9652717a1e3bb1f235954b01504b0a35417f3996bcc",
+  "context_sha256": "41e8990ff646c71e7485e739de8fef1c0ea1a951eede1dc78a2ad1a15a2c95f6",
+  "source_sha256": "a6040f598030660439119ca9b7c6b52f85c82e13374ee4bf7044467e4a0d4971",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "t110-gate-cold_read_1-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01NbUfhcTaRT8sbjyYV1wEFq (the writer's session)"
+  },
+  "evidence": "Read as a first-time reader. Draft: 'I'd leave out forgiving them and picturing their childhood here.' replaces '...their childhood.' by adding 'here' at the end. It closes the Just Like Me exercise: 'If you've tried Pema Chodron's tonglen, this is a gentler cousin, and normal breathing is fine. Whoever hurt you might come to mind, too.' (1) It does what the_change says: one word added, nothing else changed. (2) Meaning: the source already sat at the end of this exercise's paragraph and 'leave out' only makes sense relative to an exercise's steps, so its natural scope was this exercise; 'here' makes that explicit and keeps the line from reading as a standing rule about forgiving or about picturing someone's childhood. It restricts scope and states no position on those steps elsewhere, and 'I'd leave it out here' is the ordinary way to say 'skip it in this exercise', so I count no added claim. (3) Pronouns: 'them' is 'Whoever hurt you' (generic singular they), 'their' likewise; 'here' is this exercise and attaches to 'leave out', not to 'picturing' (placing a childhood in a spot would make no sense). (4) It reads as a natural, short 'I'd' line in Joel's voice and follows from 'Whoever hurt you might come to mind, too.' Linter 'D9 follows the source order' is the single-word-edit artifact (1/1 paragraphs, agreement 1.00); the paragraph has its own asides (a gentler cousin, normal breathing is fine); accepted. The writer marked no row PRESENT and I agree. Considered and not present: T29 (read without the last sentence, the paragraph has no instruction about the person who hurt you, so the sentence adds something new and is not a restatement), T20 (a plain instruction, not a quote-card closer), T10 (a local, specific omission, not a generic 'you don't have to'), T22 ('might come to mind' anticipates a feeling but is in the source), T12 (two items, not a taxonomy), T27 ('here' is not a tic word), T01, T26, C02, C03, C04.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order"
+  ]
+}

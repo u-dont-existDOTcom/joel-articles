@@ -1,0 +1,21 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "4faf6c61ff0febb35989f49dfa97d424e274788a47fbf81cc56e4cc7549234c4",
+  "context_sha256": "2610d1c9f4b9b5c0646773e96a6b243ced100967a19011539297bf7f966174ae",
+  "source_sha256": "0bc3523f02ef34bdb72ca58f9a84004e89d6078a9c5c7dd3831b0c0f3c6a2fbb",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "t110-gate-cold_read_1-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01NbUfhcTaRT8sbjyYV1wEFq (the writer's session)"
+  },
+  "evidence": "Read as a first-time reader. CONTEXT.txt is shared by the three S1 drafts and carries all three changes; I judged only this one and checked that the other two do not collide with it. The draft 'I'd still keep the Nurturer voice.' replaces 'I'd still keep it the same.' and sits in the middle of a three-sentence paragraph: 'A harder voice can seem more fitting for something that's been in your way.' / draft / 'If that voice isn't there in you yet, borrow it from someone who's been safe for you.' (1) It does what the_change says: only 'it the same' becomes 'the Nurturer voice'; 'I'd still keep' is untouched. (2) Meaning is kept and nothing is added: the source's 'the same' meant the same Nurturer voice the section opens with ('talking to it in the same Nurturer voice you meant for your little one'), and 'Nurturer' is already the section's own term (also 'the role of the Nurturer'). (3) Referents: this fixes a real hazard. In the source, 'the same' and the next sentence's 'that voice' follow straight after 'A harder voice' and could point at the harder one; now 'that voice' follows 'the Nurturer voice', and 'borrow it' follows from that. (4) It reads as a natural short 'I'd' recommendation in Joel's voice and follows from the concession before it. Linter 'B7 short landing at paragraph end' (example: the draft sentence) is answered by the context: the sentence is the middle one of three and the paragraph ends on the longer 'borrow it from someone who's been safe for you', so nothing lands on it; accepted. Writer-marked T18 (premise and knock-down): it is happening, 'A harder voice can seem more fitting...' then the short flip 'I'd still keep the Nurturer voice.' I judge it justified here: the source has the identical premise and flip and this edit only names the referent; the premise is a temptation the reader really has about a part that has been in their way, so the flip answers an objection and is Joel's actual advice (marked with 'I'd'); and the paragraph goes on to a new consideration (borrow the voice if you lack it) instead of ending on the flip. Checked and not present: T26 ('voice' three times in three sentences, but the repetition is what makes the referent clear, so it does something), T01, T17, T20, T29, T11, T22, T15, C01, C02 (improved, not broken), C03, C04. No new claim or fact.",
+  "resolved_tell_ids": [
+    "T18"
+  ],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "a27e62e5b48c0ded287b76188159a81ec95b6ce2fca9939b5275d350cc50ed73",
+  "context_sha256": "22a2cd69f4c1997b1747d911356e5b2e53b20b93360e178f231fc90fe519af07",
+  "source_sha256": "c84684ac2a3731b598a90663c83a5a83ef9bcb89e2f5b4a13e79cbd1ebf14dfa",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "t110-gate-cold_read_1-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01NbUfhcTaRT8sbjyYV1wEFq (the writer's session)"
+  },
+  "evidence": "Read as a first-time reader. Draft: 'I'd keep what you feel around them in mind, and look at their track record too.' replaces 'I'd keep whatever you feel around them, and look at their track record.' It answers 'How do you check that?' (the test being whether the relationship makes you more grounded, truthful and free) and leads into 'Do they respect a no, or keep pushing on it...'. (1) It does what the_change says: 'keep whatever you feel' becomes 'keep what you feel ... in mind' and 'too' is added; the rest is identical. (2) Meaning: the source was ambiguous (keep feeling it, remember it, or trust it); the draft settles on 'take it into account', the least committal of those readings, and it leaves out nothing the next sentences rely on (they ask about observable behaviour). One small loss: 'whatever' (any feeling at all) becomes 'what'; I judge it minor because 'what you feel around them' still covers all of it. 'Too' marks the track record as a second input beside the feelings and adds no fact. (3) Pronouns: 'them' and 'their' are the person who seems grown-up (the same antecedent as 'they' in the next sentences), 'you' is the reader, and 'that' in the question before points to the test. (4) 'Keep ... in mind' with a long object reads fine aloud. Linter 'E36/E41 heavy second person: 6.2 you per 100 of my words' is arithmetic on the one-sentence draft (one 'you' in 16 words is 6.25); the source had the same single 'you', the edit adds none, and the section speaks to the reader as 'you' throughout, so no coach-register run is introduced; accepted. Linter 'D9 follows the source order' is the single-sentence artifact (1/1 paragraphs, agreement 1.00); the paragraph's other sentences are Joel's and unchanged, and the draft makes its own point (feelings count as evidence, but a record does too); accepted. The writer marked no row PRESENT and I agree. Considered: T02 and T21 (the question, the two-part answer and the diagnostic questions make a compact how-to, but that cadence is inherited from the source, and 'in mind' and 'too' loosen the sentence rather than add a job), T22 (it carries a stance, 'I'd', and the reasons follow), T24 (the question is a real reader's question and is in the source), T15 (the edit removes a real ambiguity, it is not a swap for a rarer word), T01, T26, C02, C03, C04: not present. Outside the change and not held against the draft: the preceding paragraph's 'makes me more grounded, truthful, and free' uses 'me' inside a 'you' paragraph (possibly a deliberate first-person framing); it predates this edit.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order",
+    "E36/E41 heavy second person"
+  ]
+}

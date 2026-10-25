@@ -187,13 +187,54 @@ KEEPS: every sentence
             self.assertIn('~~As I said, founders hold too much power.~~', md)
             self.assertIn('**Said already:** Founders hold too much power. [One]', md)
 
+    def test_the_pov_read_runs_the_omission_test_first_and_lists_cuts_and_points_of_view(self):
+        """Part 5 (Joel, 2026-10-25 14:20 UTC: "marking wherever it looks like there's a lack of a real POV and just some
+        generic portable prose/advice that should be replaced or cut"): the brief has the rule's omission test and labels and
+        his examples; collect reads a reader's points of view one a line; the page strikes a cut and lists the options."""
+        art = ('<div class="body markup"><h1>One</h1><p>Take a breath. Sometimes human beings need to be being, not always doing. '
+               'Then go on.</p><h2>Two</h2><p>Some people find that grief gives way to warmth. ' + 'Text. ' * 40 + '</p></div>')
+        with tempfile.TemporaryDirectory() as d:
+            src = pathlib.Path(d) / 'a.html'
+            src.write_text(art, encoding='utf-8')
+            out = pathlib.Path(d) / 'pov'
+            C.make(src, out, parts=1, read='pov')
+            brief = (out / 'BRIEF-1.txt').read_text(encoding='utf-8')
+            for want in ('omission test', 'Who cares what I want?', 'SOURCE-SUPPORTED', 'ARTICLE-HINTED', 'NEW OWNER CHOICE',
+                         'You can figure that out later.', 'it\'s an objection that so many people have raised to me',
+                         # E267 (Inner Child): a point of view needs no story, "I'd" stays, and a frequency claim gets a basis question
+                         "it doesn't need a story", 'never offer to make his "I\'d" a command', "what it's based on",
+                         'about this very point', 'it is a CUT only when the same point is said nearby'):
+                self.assertIn(want, brief)
+            self.assertEqual((out / 'KIND').read_text().strip(), 'pov')
+            (out / 'READER-1.md').write_text(
+                '## 1\nSECTION: One\nQUOTE: Sometimes human beings need to be being, not always doing.\nLABEL: CUT\n'
+                'MISSING: "Take a breath." already says to pause\nPOVS: none\nPICK: delete\nQUESTION: none\n\n'
+                '## 2\nSECTION: Two\nQUOTE: Some people find that grief gives way to warmth.\nLABEL: ACTUAL POV REQUIRED\n'
+                "MISSING: nobody's case behind it\nPOVS:\n- ARTICLE-HINTED: the warmth line hints at a moment\n"
+                '- NEW OWNER CHOICE: has grief turned into warmth for you,\n  and when?\nPICK: his moment\n'
+                'QUESTION: Has grief turned into warmth for you?\n', encoding='utf-8')
+            items = C.collect(out)
+            self.assertEqual([x['label'] for x in items], ['CUT', 'POV'])
+            self.assertEqual(items[0]['povs'], [])
+            self.assertEqual(items[0]['question'], '')
+            self.assertEqual(len(items[1]['povs']), 2)
+            self.assertTrue(items[1]['povs'][1].startswith('NEW OWNER CHOICE') and items[1]['povs'][1].endswith('and when?'))
+            md, n = C.page(out)
+            self.assertEqual(n, 2)
+            self.assertIn('OVERCLOSURE / CUT CANDIDATE', md)
+            self.assertIn('~~Sometimes human beings need to be being, not always doing.~~', md)
+            self.assertIn('> Take a breath. Then go on.', md)
+            self.assertIn('ACTUAL POV REQUIRED', md)
+            self.assertIn('- ARTICLE-HINTED: the warmth line hints at a moment', md)
+            self.assertIn('**Question for you:** Has grief turned into warmth for you?', md)
+
     def test_every_brief_says_to_work_quickly(self):
         """E262: the reader of the hypnosis guide's first part ran out of output deliberating; every kind of brief now says
         to work quickly, as the edit and repeats briefs did."""
         with tempfile.TemporaryDirectory() as d:
             src = pathlib.Path(d) / 'a.html'
             src.write_text(ARTICLE_HTML, encoding='utf-8')
-            for kind in ('clarity', 'edit', 'caveats', 'repeats'):
+            for kind in ('clarity', 'edit', 'caveats', 'repeats', 'pov'):
                 out = pathlib.Path(d) / kind
                 C.make(src, out, parts=1, read=kind)
                 self.assertIn('Work quickly', (out / 'BRIEF-1.txt').read_text(encoding='utf-8'), kind)
