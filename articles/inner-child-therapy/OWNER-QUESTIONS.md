@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-25 (turns 82 to 112). **Open questions: 109.** For you to do: check the two drafts in Pangram and send me the two links, and merge the turn-112 pull request. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-25 (turns 82 to 112). **Open questions: 109.** For you to do: check the two drafts in Pangram and send me the two links, and merge pull request #250. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -27,9 +27,9 @@ One thing in it: your sentence gives the name to the trick ("This psychological 
 
 The whole article is in the two temporary Substack drafts again, so this one check covers every section changed since round 6 (turns 108 to 112). In your Brave, open [draft A](https://ibogaqueen.substack.com/publish/post/221982879) and [draft B](https://ibogaqueen.substack.com/publish/post/221983135), click Preview, then "Paid subscriber view" at the top. Click the green label next to the author's name, then "View Full Analysis", and send me each result page's link ("Copy shareable link to result"), as you did for round 6. The label's word isn't the result; the result page's windows are what I read. That takes about two minutes.
 
-### 🟠 Merge the pull request for turn 112
+### 🟠 Merge pull request #250 (turn 112)
 
-Turn 112: the lane's [open pull request](https://github.com/u-dont-existDOTcom/joel-articles/pulls?q=is%3Apr+is%3Aopen+head%3Ahandoff%2Fclaude-dangerous-adult-20260924-1631). Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged". (You merged #249, turn 111.)
+Turn 112: [pull request #250](https://github.com/u-dont-existDOTcom/joel-articles/pull/250). Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged". (You merged #249, turn 111.)
 
 ### 🔵 The two temporary Substack drafts: keep them until round 7 is read (turn 112)
 

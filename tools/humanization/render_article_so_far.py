@@ -40,7 +40,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import article_images
 import check_owner_edits
 import para_numbers
-from html_links import linkify, join_split_links  # Joel, 2026-10-16: "your links are not clickable"
+from html_links import autolink_markdown, linkify, join_split_links  # Joel, 2026-10-16: "your links are not clickable"
 
 ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
 ap.add_argument('out', nargs='?', help='the HTML file to write')
@@ -78,6 +78,9 @@ def numbered(md):
 
 
 md = numbered(join_split_links(md))  # the pasted post card's link, which Markdown can't parse across its heading
+# A bare address in the article's own text, like the note link Substack shows as the note itself, is a link on the page too
+# (turn 112: html_links.py found it shown as text); the notes in comments stay as they are.
+md = ''.join(p if p.startswith('<!--') else autolink_markdown(p) for p in re.split(r'(<!--.*?-->)', md, flags=re.S))
 md = article_images.figure_html(md)  # an image note shows the image where it goes (2026-10-11)
 md = re.sub(r'<!--\s*CANDIDATE:(.*?)-->',
             lambda m: '\n\n<div class="candidate">' + linkify(m.group(1).strip()) + '</div>\n\n',
