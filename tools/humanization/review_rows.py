@@ -87,7 +87,10 @@ def main(argv=None):
         r = subprocess.run(cmd, cwd=REPO, capture_output=True, text=True, timeout=600)
         if r.returncode:
             raise SystemExit('render failed:\n' + (r.stdout + r.stderr)[-3000:])
-        page = html.unescape(re.sub(r'<[^>]+>', ' ', pathlib.Path(a.render).read_text(encoding='utf-8')))
+        # struck words are the old text's (the page can't select them either), so a row whose first words changed is
+        # still found by its new words (turn 107: two of his paragraphs changed their first words)
+        raw = re.sub(r'<del>.*?</del>', ' ', pathlib.Path(a.render).read_text(encoding='utf-8'), flags=re.S)
+        page = html.unescape(re.sub(r'<[^>]+>', ' ', raw))
         page = re.sub(r'\s+', ' ', page)
         missing = [r['article'] for b in m['blocks'] for r in b['rows'] if re.sub(r'\s+', ' ', r['article']) not in page]
         if missing:

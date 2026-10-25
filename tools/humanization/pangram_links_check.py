@@ -21,7 +21,9 @@ three fresh readers found at once: "so why don't you fix your process before ask
 
 With --chat (a message for the chat, not a page), every address must also be one Joel can click: written as
 [text](url). Joel, 2026-10-16 21:05 UTC: "(your links are not clickable btw)"; my final message had given each check as a
-bare address, which his app shows as text. Addresses inside `code` are a command's text and are left alone.
+bare address, which his app shows as text. Addresses inside `code` are a command's text and are left alone. And every
+file it points to is a link he can click, never a path in the repository (repo_links.py; Joel, 2026-10-25 00:24 UTC: "i
+have no idea where the 3 files are that i'm supposed to read").
 """
 import pathlib
 import re
@@ -29,6 +31,7 @@ import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from html_links import bare_urls  # noqa: E402
+from repo_links import paths as repo_paths  # noqa: E402
 
 # A result word Pangram itself shows, or "reads AI" where the unit is about a check (a batch name, Pangram, a %).
 # "a list of three reads AI" (a rule, not a result) isn't one.
@@ -77,7 +80,7 @@ def main(argv):
     paths = [a for a in argv if a != '--chat']
     bad = 0
     for p in paths:
-        text = open(p, encoding='utf-8').read()
+        text = pathlib.Path(p).read_text(encoding='utf-8')
         for u in missing(text):
             bad += 1
             print('%s: an AI result with no Pangram check link: %s' % (p, u[:200]))
@@ -88,6 +91,9 @@ def main(argv):
             for url in bare_urls(text):
                 bad += 1
                 print('%s: a link Joel can\'t click (write it as [text](url)): %s' % (p, url))
+            for _, _, _, written in repo_paths(text):
+                bad += 1
+                print('%s: a path Joel can\'t open (give a link): %s' % (p, written))
     print('verdict: %s' % ('FAIL' if bad else 'PASS'))
     return 1 if bad else 0
 
