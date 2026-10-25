@@ -43,6 +43,15 @@ reassurances, takebacks, hedges and disclaimers a reader doesn't need where they
 tools/humanization/caveat_examples.json, from the Inner Child lane's safety-language pass), and collect and page list
 cuts: each with the cut struck through in its paragraph, the paragraph after the cut, why, what a reader loses, and the
 worker's pick and "note" (with "said_already" quotes for a repeat).
+
+The point-of-view read (part 5 of docs/CLARITY-READ.md; Joel, 2026-10-25 14:20 UTC, on the Inner Child guide: "make sure
+you use the new rule in the repo about marking wherever it looks like there's a lack of a real POV and just some generic
+portable prose/advice that should be replaced or cut"): make --kind pov writes the brief for project-sources/
+PRODUCTION-HUMANIZATION-PREFLIGHT.md's "Actual POV required" flag, its omission test first (a line whose removal loses
+nothing is an OVERCLOSURE / CUT CANDIDATE, never a request for a point of view), with his examples
+(tools/humanization/pov_examples.json). collect reads each item's label (CUT or POV), what's missing, up to three points
+of view (SOURCE-SUPPORTED, ARTICLE-HINTED or NEW OWNER CHOICE), the reader's pick and one question; the worker checks
+each against the whole article and his own words ("whose", "note", "my_pick"), and page lists them, cuts struck through.
 """
 import argparse, html, json, pathlib, re, sys
 
@@ -307,10 +316,42 @@ LOSES: what a reader loses if it's cut ("nothing" when that's so)
 If you find no repeats of your part's points, write only "NOTHING". Then reply with only the number of items. Use no tools other than those two Reads and that one Write, and don't use the web.
 '''
 
+POV_BRIEF = '''You are a cold first-time reader of part {k} of {n} of {about}. {question}Your job is the point-of-view read: find where the article has no real point of view, prose or advice so generic and portable that it could sit in anyone's self-help article, so that it can be cut, or replaced with the author's own reason. Joel, its author, asked for it in these words: "marking wherever it looks like there's a lack of a real POV and just some generic portable prose/advice that should be replaced or cut." His test for first-person advice is "Who cares what I want?": a line like "I'd keep it gentle" tells a reader nothing unless they can see why he says so.
+
+For each candidate, run the omission test first: read the sentences before and after it with the candidate taken out. If no claim, qualification, position of the author's, step for the reader or emotional beat disappears, and the candidate only restates, sums up or moralizes what the text around it already established, label it CUT and give the exact words to delete. Only when taking it out would lose something is it a POV item: the passage sounds like interchangeable advice (a ladder of safety steps or permissions, a generic first-person preference, a polished reassurance, a tidy summary) because the author's reason for saying it is missing.
+
+What doesn't count, so leave it: neutral explanation; conditional advice a reader needs ("if X, try Y"); caution that is warranted where it is; the author's own stories, verdicts, jokes, slang, emoji and asides, which are his point of view; a style you'd do differently; a claim you disagree with (don't fact-check).
+
+For a POV item, give up to three points of view it could have, each starting with its label:
+- SOURCE-SUPPORTED: the author says it outright elsewhere in your part; quote him.
+- ARTICLE-HINTED: a reading the text in your part supports without saying it; quote the words that hint at it.
+- NEW OWNER CHOICE: an idea the text doesn't establish, put as a question for Joel, never as a sentence in his voice.
+Then your pick, the smallest change that gives the passage its reason or ends it, and one concrete question for Joel only if his answer would change the text.
+
+What he has done with lines like these:
+{examples}
+
+Work quickly: read the part once, noting candidates as you go, then write down the clearest. Most paragraphs will have nothing; a short report naming the passages that most lack a point of view is the job. Don't weigh every sentence at length. (2026-10-25: the reader of the first sixth of a 29,000-word guide spent its whole output deliberating and wrote nothing.)
+
+Read the file {part} (one Read call; it is part {k} of {n}, headings marked "## "). Then write your report with one Write call to {report}, in this shape, in the article's order, at most {max_items} items:
+
+## 1
+SECTION: the heading it's under, exactly as in the file
+QUOTE: the exact span, copied exactly character for character from the file: a sentence, a clause or a few sentences, no more than the span you flag
+LABEL: CUT or POV
+MISSING: in one line, what the reader is supposed to understand or do here, and what the span lacks (for a CUT, what the text around it already says)
+POVS: for a POV item, up to three lines, each starting with its label; for a CUT, "none"
+PICK: in one line, your recommendation (for a CUT, "delete" and anything a word around the cut needs; for a POV item, which point of view and why)
+QUESTION: one concrete question for Joel if his answer changes the text, or "none"
+
+If nothing in your part counts, write only "NOTHING". Then reply with only the number of items. Use no tools other than that one Read and that one Write, and don't use the web.
+'''
+
 EDIT_FIELDS = ('SECTION', 'QUOTE', 'MOVE', 'CHANGE', 'WHY', 'KEEPS')
 REPEAT_FIELDS = ('SECTION', 'QUOTE', 'KEPT', 'WHY', 'LOSES')
 CAVEAT_FIELDS = ('SECTION', 'QUOTE', 'KIND', 'WHY', 'LOSES')
 CLARITY_FIELDS = ('QUOTE', 'HARD', 'SCORE', 'PLAIN')
+POV_FIELDS = ('SECTION', 'QUOTE', 'LABEL', 'MISSING', 'POVS', 'PICK', 'QUESTION')
 
 
 def edit_examples_text(ex):
@@ -322,6 +363,11 @@ def edit_examples_text(ex):
 
 def caveat_examples_text(ex):
     return '\n'.join('%d. %s: "%s" (%s). Why: %s' % (i, e['kind'], e['cut'], e['context'], e['why'])
+                     for i, e in enumerate(ex, 1))
+
+
+def pov_examples_text(ex):
+    return '\n'.join('%d. %s, in %s: "%s"\n   %s' % (i, e['label'], e['section'], e['before'], e['what_he_did'])
                      for i, e in enumerate(ex, 1))
 
 
@@ -342,19 +388,19 @@ def make(article, outdir, parts=3, about=None, question=None, examples=None, max
     kind = 'html' if article.suffix.lower() in ('.html', '.htm') else ('md' if article.suffix.lower() == '.md' else 'txt')
     text = reading_text(raw, kind)
     (outdir / 'ARTICLE.txt').write_text(text, encoding='utf-8')
-    edit, cav, rep = read == 'edit', read == 'caveats', read == 'repeats'
-    default = HERE / {'edit': 'readers_edit_examples.json', 'caveats': 'caveat_examples.json'}.get(read, 'clarity_examples.json')
+    edit, cav, rep, pov = read == 'edit', read == 'caveats', read == 'repeats', read == 'pov'
+    default = HERE / {'edit': 'readers_edit_examples.json', 'caveats': 'caveat_examples.json', 'pov': 'pov_examples.json'}.get(read, 'clarity_examples.json')
     exfile = {'examples': []} if rep else json.loads(pathlib.Path(examples or default).read_text(encoding='utf-8'))
     ex = exfile['examples']
     (outdir / 'KIND').write_text(read + '\n', encoding='utf-8')
     ps = split_parts(text, parts)
     for k, p in enumerate(ps, 1):
         (outdir / ('PART-%d.txt' % k)).write_text(p, encoding='utf-8')
-        brief = (REPEAT_BRIEF if rep else CAVEAT_BRIEF if cav else EDIT_BRIEF if edit else BRIEF).format(
+        brief = (POV_BRIEF if pov else REPEAT_BRIEF if rep else CAVEAT_BRIEF if cav else EDIT_BRIEF if edit else BRIEF).format(
             article=(outdir / 'ARTICLE.txt').resolve(),
             k=k, n=len(ps), about=about or "one of Joel's articles, for a general Substack audience",
             question=(question + ' ') if question else '',
-            examples=(caveat_examples_text if cav else edit_examples_text if edit else examples_text)(ex) if ex else '',
+            examples=(pov_examples_text if pov else caveat_examples_text if cav else edit_examples_text if edit else examples_text)(ex) if ex else '',
             books=exfile.get('books', ''), kept='; '.join(exfile.get('kept', [])),
             part=(outdir / ('PART-%d.txt' % k)).resolve(), report=(outdir / ('READER-%d.md' % k)).resolve(),
             max_items=max_items)
@@ -406,11 +452,25 @@ def collect(outdir):
     if (outdir / 'ITEMS.json').exists():
         old = {x['quote']: x for x in json.loads((outdir / 'ITEMS.json').read_text(encoding='utf-8'))}
     items, edit, cav, rep = [], read_kind(outdir) == 'edit', read_kind(outdir) == 'caveats', read_kind(outdir) == 'repeats'
+    pov = read_kind(outdir) == 'pov'
     for f in sorted(outdir.glob('READER-*.md'), key=lambda p: int(re.search(r'(\d+)', p.stem).group(1))):
         part = int(re.search(r'(\d+)', f.stem).group(1))
-        fields = REPEAT_FIELDS if rep else CAVEAT_FIELDS if cav else EDIT_FIELDS if edit else CLARITY_FIELDS
+        fields = POV_FIELDS if pov else REPEAT_FIELDS if rep else CAVEAT_FIELDS if cav else EDIT_FIELDS if edit else CLARITY_FIELDS
         for j, it in enumerate(parse_reader(f.read_text(encoding='utf-8'), fields), 1):
             where = locate(text, it['quote'])
+            if pov:
+                rec = {'key': '%d.%d' % (part, j), 'part': part, 'section': it['section'], 'quote': it['quote'],
+                       'label': pov_label(it['label']), 'missing': it['missing'], 'povs': pov_lines(it['povs']),
+                       'pick': it['pick'], 'question': '' if it['question'].strip().lower().rstrip('.') in ('', 'none') else it['question'],
+                       'found': where is not None, 'line': where[0] if where else None,
+                       'heading': where[1] if where else None, 'status': 'keep'}
+                prev = old.get(it['quote'])
+                if prev:
+                    for k in ('status', 'note', 'my_pick', 'whose', 'window', 'label'):
+                        if k in prev:
+                            rec[k] = prev[k]
+                items.append(rec)
+                continue
             if rep:
                 it['kind'] = 'REPEAT'
             if cav or rep:
@@ -597,10 +657,82 @@ def caveat_page(items, text, title=None, intro=None):
     return '\n'.join(out), n
 
 
+POV_LABELS = ('SOURCE-SUPPORTED', 'ARTICLE-HINTED', 'NEW OWNER CHOICE')
+
+
+def pov_label(label):
+    """CUT for an overclosure (the omission test: taking it out loses nothing), POV for ACTUAL POV REQUIRED."""
+    u = (label or '').upper()
+    return 'CUT' if ('CUT' in u or 'OVERCLOSURE' in u) else ('POV' if 'POV' in u else u.strip())
+
+
+def pov_lines(text):
+    """The reader's points of view, one a line, each starting with its label; "none" gives none."""
+    out = []
+    for l in (text or '').split('\n'):
+        l = re.sub(r'^\s*(?:[-*•]|\d+[.)])\s*', '', l).strip()
+        if not l or l.lower().rstrip('.') == 'none':
+            continue
+        if out and not any(l.upper().startswith(x) for x in POV_LABELS):
+            out[-1] += ' ' + l  # a wrapped line
+        else:
+            out.append(l)
+    return out
+
+
+def pov_page(items, text, title=None, intro=None):
+    """The point-of-view read for Joel: the cuts (each struck through in its paragraph, with the paragraph after it), then
+    the passages that need his point of view, each with what's missing, the possible points of view and my pick."""
+    live = sorted((x for x in items if x.get('status', 'keep') == 'keep'), key=lambda x: (x.get('line') or 0))
+    dropped = [x for x in items if x.get('status') == 'drop']
+    out = ['# ' + (title or 'Where the article has no point of view of its own'), '']
+    if intro:
+        out += [intro, '']
+    n = 0
+    for head, lab in (('Lines that end what was already said (OVERCLOSURE / CUT CANDIDATE)', 'CUT'),
+                      ('Passages that need your point of view (ACTUAL POV REQUIRED)', 'POV')):
+        group = [x for x in live if x.get('label') == lab]
+        if not group:
+            continue
+        out += ['## ' + head, '']
+        for x in group:
+            n += 1
+            out += ['### %d. %s' % (n, x.get('heading') or x.get('section') or '(no heading)'), '']
+            if x.get('whose'):
+                out += ['*Whose words:* ' + x['whose'], '']
+            if lab == 'CUT':
+                struck, after = cut_paragraph(text, x['quote'])
+                out += ['> ' + (struck or x['quote']), '']
+                out += ['**What the text around it already says:** ' + x['missing'], '']
+                if after == '':
+                    out += ['**After:** the whole paragraph goes.', '']
+                elif after is not None:
+                    out += ['**After:**', '', '> ' + after, '']
+            else:
+                out += ['> ' + x['quote'], '', '**What\'s missing:** ' + x['missing'], '']
+                if x.get('povs'):
+                    out += ['**Points of view it could have:**', ''] + ['- ' + p for p in x['povs']] + ['']
+            out += ['**My pick:** ' + (x.get('my_pick') or x.get('pick') or ''), '']
+            if x.get('question'):
+                out += ['**Question for you:** ' + x['question'], '']
+            if x.get('note'):
+                out += ['**My check:** ' + x['note'], '']
+            if not x.get('found'):
+                out += ['(The reader\'s quote isn\'t in the article word for word: find it by its words before using it.)', '']
+    if dropped:
+        out += ['## Flagged but not offered', '']
+        out += ['- **%s:** "%s" (%s)' % (x.get('heading') or '', x['quote'][:140], x.get('note') or '') for x in dropped]
+        out.append('')
+    out += dup_section(items)
+    return '\n'.join(out), n
+
+
 def page(outdir, title=None, intro=None):
     items = json.loads((pathlib.Path(outdir) / 'ITEMS.json').read_text(encoding='utf-8'))
     if read_kind(outdir) == 'edit':
         return edit_page(items, title, intro)
+    if read_kind(outdir) == 'pov':
+        return pov_page(items, (pathlib.Path(outdir) / 'ARTICLE.txt').read_text(encoding='utf-8'), title, intro)
     if read_kind(outdir) in ('caveats', 'repeats'):
         return caveat_page(items, (pathlib.Path(outdir) / 'ARTICLE.txt').read_text(encoding='utf-8'),
                            title or ('What the article says more than once' if read_kind(outdir) == 'repeats' else None), intro)
@@ -645,10 +777,11 @@ def main(argv=None):
     m.add_argument('article'); m.add_argument('dir'); m.add_argument('--parts', type=int, default=3)
     m.add_argument('--about'); m.add_argument('--question'); m.add_argument('--examples')
     m.add_argument('--max-items', type=int, default=12)
-    m.add_argument('--kind', choices=('clarity', 'edit', 'caveats', 'repeats'), default='clarity',
+    m.add_argument('--kind', choices=('clarity', 'edit', 'caveats', 'repeats', 'pov'), default='clarity',
                    help="clarity (part 1: what a reader has to reread), edit (part 2: the reader's edit) or caveats "
                         "(part 3: safety lines and caveats a reader doesn't need) or repeats (part 4: what the article "
-                        "says more than once; each reader reads the whole article and owns one part's points)")
+                        "says more than once; each reader reads the whole article and owns one part's points) or pov "
+                        "(part 5: where the article has no point of view of its own, the omission test first)")
     c = sub.add_parser('collect')
     c.add_argument('dir')
     p = sub.add_parser('page')
@@ -665,7 +798,7 @@ def main(argv=None):
     else:
         md, n = page(a.dir, a.title, a.intro)
         pathlib.Path(a.out).write_text(md, encoding='utf-8')
-        print('%s: %d numbered %s' % (a.out, n, {'edit': 'proposals', 'caveats': 'cuts', 'repeats': 'cuts'}.get(read_kind(a.dir), 'passages')))
+        print('%s: %d numbered %s' % (a.out, n, {'edit': 'proposals', 'caveats': 'cuts', 'repeats': 'cuts', 'pov': 'items'}.get(read_kind(a.dir), 'passages')))
     return 0
 
 

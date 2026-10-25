@@ -825,9 +825,11 @@ Count recognition as progress, regardless whether it came up a bit late, as the 
 
 <!-- Turn 95 (his answer of 2026-10-22 21:35 UTC, experiments/t95-answers/JOEL-20261022-2135.md): 84.4 A, my proposal for his opener ("Maybe you've tried ... and thought", a made-up reader scenario; round 3 read it AI, High 40). The rest of his paragraph is unchanged. -->
 
-If picturing your little one feels fake, like you're just making it up, a real photo of you as a child can help, since there's no face or posture to invent. Yes, yes, it might feel a bit strange, seeing your own face from back then. But look at it gently and just notice what comes up.
+<!-- Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): 105.2, his own first sentence ("this is the part that reads ai and it's actually redundant also"), and his two sentences for the start of P2, with "Pema Chödrön's" for his "Pema Chodron's", as the article spells her name elsewhere, and a doubled space as one -->
 
-While you look, notice what your body does and what feelings or urges show up. Is there something that younger you seems to want you to understand? Some of it you'll remember yourself, and some of it you might even glean from talking to family/friends from then ("You hated that coat"). It might just be an inference you're guessing from the picture, or perhaps it triggers an image or a dream. Or just nothing comes up. Ask what your little one needs from you now, and do a bit of it.
+If picturing your little one feels like you’re just making them up, a real photo of you as a child can help, since there’s no face or posture to invent.
+
+While you look, notice any new feelings or urges, and any tightness or unusual feelings in your body, including the good ones. Use Pema Chödrön's "feather touch" approach to gently bring some light and love to the edges of any contracted feelings. Is there something that younger you seems to want you to understand? Some of it you'll remember yourself, and some of it you might even glean from talking to family/friends from then ("You hated that coat"). It might just be an inference you're guessing from the picture, or perhaps it triggers an image or a dream. Or just nothing comes up. Ask what your little one needs from you now, and do a bit of it.
 
 We don't need to ask it leading questions, like "Who abused me & how?" or "What memory is my body hiding?" Grilling one photo until a story shows up is a good way to get a story, but stories aren't necessarily the truth, and even if they are accurate, the feelings beneath them are still more important. Memory is an amorphous thing, easily influenced by guided imagery and suggestions. [Look at this study, for example](https://link.springer.com/article/10.3758/BF03196318), where people were shown a doctored photo of a childhood hot-air balloon ride they never took. Half of them actually started sorta remembering it. I'm sure you can relate.
 
@@ -942,25 +944,15 @@ A lot of what adults tend to lose, your little one still has, like the silliness
 
 <!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E15, the section's own heading moved down to its how-to, its first two paragraphs under "Play Is Part of the Work" (his "e15 a") -->
 
-You might go looking for your little one and get mad instead, or realize you've been staring at the rug. I count that as pl/ork too, even if it feels like it's in the way. Before you decide where it's coming from, ask it what it's trying to stop, or what it wants. Maybe it just has something to say. It could be your little one, mad that you took so long to come back, or a part of you that's trying to protect you. Maybe it's that parent you inherited, or something from earlier today, or a bit of each.
-
 <!-- 2026-10-03 (turns 21–22): P2, the guide's "Sometimes it is only a thought…" (G2). Writer c of three on the v3 brief, with its reviews' fixes: "to tell you something" and the worried-question line for the groundings' checking loop (MISFIRES), "the first time it shows up" for the cold read, "and the simpler the better" for the guide's "least elaborate model", and "unless it's your little one asking" for the second grounding. Alone, 100% Human (95), P2 try 3; cold read OK. The third grounding still flagged the last line (a loop that sounds young); Joel kept it (2026-10-03 03:50 UTC: "for P2 i'd keep that line, we can't just ignore our little one, that would not be good parenting. but we can work with them so that they don't keep worrying all the time."). In the h1 with P3: 100% Human (814), turn 22, try 3 (API). OWNER-EDITS sws-p2-keep-last-line. -->
-
-How you picture all that is up to you, as long as it helps, and the simpler the better. I think a fear that keeps turning up to tell you something is worth talking to as a part of you. If it sounds like your little one, though, hear it out the first time it shows up. Let a stray thought go as just thinking, and come back to the room you're in. A worry that just keeps asking to be reassured can go the same way, unless it's your little one asking.
 
 <!-- 2026-10-03 (turn 23): P3, the guide's "Once you have a tentative sense of what is present…" (G3), is writer b's (turns 21–22) without its last line ("That part learns it has to shout when nobody listens, or when the inherited critic voice makes fun of it."), Joel's cut: Joel, 2026-10-03 04:31 UTC: "i'd remove the last line in p3, doesn't it seem redundant? and plus like you said then it's taking over p4. I fixed p3-p5 for you, it reads much better now and human high conf as a whole." Alone 100% Human (53, API). OWNER-EDITS sws-p3-p5-joel. -->
 
-I wouldn't spend long deciding what to call each part, though. Every part of you learns from how the others treat it, your little one included. A part of you that's trying to protect you might warn you about something, and when you hear it out, it doesn't have to get any louder.
-
 <!-- 2026-10-03 (turn 23): P4 is Joel's, word for word (04:31 UTC), in place of my P4 and P5a (the guide's G4–G6 and the first half of G7: the line to say, wait, don't answer for that part, and what to notice when nothing comes). Human, high on his check of P3–P5 together; alone 100% Human (83, API). -->
-
-You can tell that part something like, "I see you. I'm not going to force my way past you. What's going on?" Or however you'd actually say that. Then wait and listen patiently. If nothing comes, that's fine for now. No need to answer for that part just because you'd set this up as a healing session. Even without the answer, you can notice what sets the reaction off, and you can understand what the reaction is propelling you toward, and away from.
 
 <!-- 2026-10-03 (turn 23): P5 is Joel's, word for word (04:31 UTC), in place of my P5b (the second half of G7: what an answer can look like, a feeling heard, the advice tests). One P1-level fix: the double space after "if that's what it wants." is a single one. Alone 100% Human (97, API). When the Adult Voice Feels Fake with P2 and his P3–P5: 100% Human (974), turn 23, try 1 (API). -->
 
 <!-- Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 97.5 A (his "97. i agree cut all"): cut "(if you're in danger, get safe first)". The original is in experiments/t102-safety/SAFETY-CUTS.md. -->
-
-Or if you do get an answer, it could come in different forms, like as a voice or just a hunch. It's often more like a feeling. Maybe grief or anger. If so just listen and be present for it if that's what it wants. If it tells you to do something, I'd only do it if it's loving and leaves you free. It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and you've checked it against what you actually know.
 
 <!-- Turn 95 (his answer of 2026-10-22 21:35 UTC, experiments/t95-answers/JOEL-20261022-2135.md): the Kahneman and Klein paragraph (P8) is cut: "as for p8 start with, it looked like fluff, i cut it." Its text and notes are in experiments/t95-installs/CUT-start-with-p8.md. -->
 
@@ -970,15 +962,31 @@ Or if you do get an answer, it could come in different forms, like as a voice or
 
 <!-- Turn 94 (round 3, checks t93s_A and t93s_B, experiments/t94-results/ROUND3-RESULTS.json; turn 93 was its item a14): round 3: Low 11, Low 3 and High 36, its last three sentences. The tells left: a short piece of advice with a short follow-up ("Maybe nobody laughs."), and a conditional closer on "though". The two pieces of advice are one sentence. Lint CLEAR. Not yet checked in Pangram. -->
 
-Anxiety is often a part of you that's trying to protect you, making a guess about what's coming, like that people will laugh at you. It can be right! It's probably been wrong before too, and you know some of those times. Unless it might be real danger, or something a doctor should look at, I'd go see.
-
 <!-- Turn 93 (Joel's answer to question 83, 2026-10-22 19:01 UTC: I find the AI tells myself and take them out, adding nothing; experiments/t93-tells/TELLS-ROUND2.md, item a15): round 2 (check t90s_A, first try) read AI here: Medium 39, High 21 and Medium 23, all of it. The tells: two parallel conditionals ("If ..., that's enough to stop. And if ..., I'd stop there too.") and a tidy follow-up. They're one sentence. Lint REVIEW. Not yet checked in Pangram. -->
 
 <!-- Turn 94 (round 3, checks t93s_A and t93s_B, experiments/t94-results/ROUND3-RESULTS.json; turn 93 was its item a15): round 3: High 36 on its first sentence and Low 35 on the second. The tells left: a signposting opener ("Some of it I wouldn't test at all, even when ...") and a concession closer ("even if it can't tell you why"). One sentence that starts with the part. Lint REVIEW. Not yet checked in Pangram. -->
 
-If a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state, I'd stop there and not test it, even when it sounds like a prediction.
-
 <!-- Turn 95 (his answer of 2026-10-22 21:35 UTC, experiments/t95-answers/JOEL-20261022-2135.md): 85, his own version of the h3 after my three tries read AI: "ok this is all dark green now, learn some lessons". His heading and all four paragraphs, word for word; his check counts. The lessons are in docs/HUMANIZATION-GATE.md (E207). -->
+
+<!-- Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): 104 A: the section's own paragraphs in the plain-path-first shape (experiments/t109-installs/reshape_t109.py), every sentence word for word and used once: the path first (what showed up, ask it, his line to say, wait), then who it might be, the fears and stray thoughts, his "If nothing comes" and his "Or if you do get an answer" side by side, and the anxiety and hesitation paragraphs as they were. The notes above are the paragraphs' history from before the move. -->
+
+<!-- Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): the second try (reshape_t109b.py): the new P1 read 99.8% AI alone, an unbroken run of instructions once his "Maybe it just has something to say ... or a bit of each." had moved out of it; his P1 is whole again, then his line to say and its wait, his "If nothing comes", his "Or if you do get an answer", and the paragraphs on fears and stray thoughts, on naming parts, on anxiety and on a part's no, each as it was. Every sentence is word for word and used once. -->
+
+You might go looking for your little one and get mad instead, or realize you've been staring at the rug. I count that as pl/ork too, even if it feels like it's in the way. Before you decide where it's coming from, ask it what it's trying to stop, or what it wants. Maybe it just has something to say. It could be your little one, mad that you took so long to come back, or a part of you that's trying to protect you. Maybe it's that parent you inherited, or something from earlier today, or a bit of each.
+
+You can tell that part something like, "I see you. I'm not going to force my way past you. What's going on?" Or however you'd actually say that. Then wait and listen patiently.
+
+If nothing comes, that's fine for now. No need to answer for that part just because you'd set this up as a healing session. Even without the answer, you can notice what sets the reaction off, and you can understand what the reaction is propelling you toward, and away from.
+
+Or if you do get an answer, it could come in different forms, like as a voice or just a hunch. It's often more like a feeling. Maybe grief or anger. If so just listen and be present for it if that's what it wants. If it tells you to do something, I'd only do it if it's loving and leaves you free. It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and you've checked it against what you actually know.
+
+How you picture all that is up to you, as long as it helps, and the simpler the better. I think a fear that keeps turning up to tell you something is worth talking to as a part of you. If it sounds like your little one, though, hear it out the first time it shows up. Let a stray thought go as just thinking, and come back to the room you're in. A worry that just keeps asking to be reassured can go the same way, unless it's your little one asking.
+
+I wouldn't spend long deciding what to call each part, though. Every part of you learns from how the others treat it, your little one included. A part of you that's trying to protect you might warn you about something, and when you hear it out, it doesn't have to get any louder.
+
+Anxiety is often a part of you that's trying to protect you, making a guess about what's coming, like that people will laugh at you. It can be right! It's probably been wrong before too, and you know some of those times. Unless it might be real danger, or something a doctor should look at, I'd go see.
+
+If a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state, I'd stop there and not test it, even when it sounds like a prediction.
 
 ### Two Common Guarding Patterns Blocking Reparenting
 
@@ -1034,17 +1042,11 @@ You're actually a prophet, but you didn't know it! Have you ever heard of a self
 
 <!-- 2026-10-04 (turn 27): the guide's h3 "A Bottom-Up Sequence" (nine short paragraphs) in four, under Joel's heading (01:03 UTC: "your heading is fine."). The guide's last two paragraphs are one here, shortened where they repeat this article (Joel, 01:33 UTC: "yes i agree with your shortening sugggestions"). P1 is turn 25's writer a with the review fixes: alone 100% Human (90, 8993fb9f). As installed on turn 27: the h3 100% Human (413, c8461adf); Start With Whatever Showed Up with both h3s 100% Human (1,117, 50367f43); the h1 100% Human (1,690, c1253626). With P4's clarity fix (turn 28): the h3 100% Human (414, 8350192e); the h1 3% AI (7b468ec0), see P4's note. Record: experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md, turns 25 to 28. -->
 
-Whichever protective part showed up, try talking to it in the same Nurturer voice you meant for your little one. A harder voice can seem more fitting for something that's been in your way. I'd still keep it the same. If that voice isn't there in you yet, borrow it from someone who's been safe for you. At some point you can ask that part, "What are you afraid would happen if you stepped back?" It might say this will just be one more performance, and you'll fool yourself again.
-
 <!-- P2 is Joel's, word for word (2026-10-04 01:03 UTC, his four-step fix of writer a's P2: "now this one is 100% human, med conf"). -->
-
-That one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part remembers. "Tell me what you remember, I'm listening." works well here. It puts you into the role of the Nurturer, which alleviates the instinct to argue back. Usually your little one only comes forward after that part feels heard. Peek-a-boo! If you push past it, you might get exactly the performance it was afraid of. Even if you didn't win an Emmy last year, that can look convincing, with the right words and maybe even tears, while nothing underneath feels any safer.
 
 <!-- P3 is Joel's, word for word (2026-10-04 01:33 UTC): turn 26's round-3 P3 with his one insertion, "(hopefully, right?)" ("just one insertion that anyone could have thought of"). He hadn't said he'd checked it, so it was checked: alone 100% Human, high (81, 3af6f4e3), where the version without the insertion was 100% AI (5d85e7fe). -->
 
 <!-- Turn 87 (his answers of 2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)): 77.1 A, which he chose: "Your Protector, the grown-up you, earns that protective part's trust" is now "Your Protector earns that guard's trust". The rest is his, as before. Not yet checked in Pangram. -->
-
-A new roommate doesn't win you over with a speech on move-in day (hopefully, right?). The rent just has to keep showing up. Your Protector earns that guard's trust about the same way, mostly out in ordinary life. The things you do can be small, like keeping a promise to yourself nobody else knew about. Or saying no to someone, and not texting an hour later to take it back. That second one can be really hard.
 
 <!-- 2026-10-04 (turn 27): P4 carries the guide's "The protector does not have to disappear…" and "Then follow what changes…" with one of its three examples (a critic softening into a fear); "You don't need an age, a recovered memory, or a complete cast of parts" is cut (the grounding: "the simpler the better" covers it). Mine, fixed window by window after eight versions failed whole: the guide's condition turned into a thought about that part ("I think that's what it wants to see anyway…"), and the crafted line to say and last line replaced. Alone 100% Human (135, e938f68a). The cold read's flag on its third sentence ("that" reads first as the step) is fixed with the proposal Joel liked (03:58 UTC: "i liked the proposal at the end yeah"), less its "to see": the whole proposal passed alone (72c523f1) but was 7% AI in the h1 (284f1778) and 37% AI in the h3 (6df02032); without "to see" it is 100% Human alone (04ef6081) and in the h3 (8350192e), and the h1 is 3% AI (7b468ec0), a medium-confidence window at Two Common Protective Patterns P2's "Both kinds started out", which is open for the last pass (turn 28). -->
 
@@ -1052,9 +1054,29 @@ A new roommate doesn't win you over with a speech on move-in day (hopefully, rig
 
 <!-- Turn 87 (his answers of 2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)): 78.1, ST-CA candidate 4 (protection in degrees; section 9.3.4, PDF pp. 283 to 286), two sentences after "things got to be too much." Lint REVIEW at most; not yet checked in Pangram. Drafts: experiments/t87-drafts/. -->
 
-That part doesn't have to move out. It's been living there way longer than the grown-up you. It can keep watch while you take one small step toward your little one, and I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it off if things got to be too much. It doesn't have to be all or nothing, either. Maybe it would settle for a lighter cover for now, like blinds tilted open a crack, and let you peek out for a minute (ST-CA, section 9.3.4). If it says no, I'd listen. When it lets you, keep an eye on that part too, for any change at all. If it's been calling all this stupid, it might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, "You don't have to hope yet, I'll keep coming back even when I mess up." Sometimes it doesn't say anything back for a while.
-
 <!-- Turn 90 (the Schema Hacks additions, Joel 2026-10-22 18:03 UTC (experiments/t90-answers/), the five GPT's advice recommends with its corrections, experiments/t89-results/RESULT-A-meta.json, check t88s_A: Mostly Human Written, 7.2% AI, 41 of 254 windows): 1, self-blame doing a protective job, as a possibility to check, not an announced motive; the cruelty stops either way. Drafts: experiments/t89-drafts/. Lint REVIEW. Not yet checked in Pangram. -->
+
+<!-- Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): 104 A ("yes this makes it much more of a readable guide, good"): the section in the shape of experiments/t108-shape/DEMO.md, the plain path first and then one situation a paragraph, every sentence kept word for word and used once (apply_t109.py checks it), with "That part might say" for "It might say" now that the sentence opens a paragraph. The notes above are the paragraphs' history from before the move -->
+
+<!-- Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): the second try (reshape_t109b.py): P3 read 99.8% AI alone once his reply "Tell me what you remember, I'm listening." and its reason had moved up to P1, away from "and that part remembers", which it answers; they are back after it in his own order, and P1 is the plain path without them. Every sentence is word for word and used once. -->
+
+<!-- Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): the third try (reshape_t109c.py): P1 without his reply and its reason read 28% AI; the reason now follows the question in P1, and his reply line stays in P3 after the remembering it answers. Every sentence is word for word and used once. -->
+
+<!-- Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): the fourth try (reshape_t109d.py): P1 takes back the harder-voice case, as his own P1 had it, so the plain path is the Nurturer voice, why not a harder one, borrowing it, the question and his two lines about the little one; P2 is the performance paragraph as it read Human alone in the second try. Every sentence is word for word and used once. -->
+
+<!-- Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): back to the second try's arrangement (reshape_t109e.py), my pick after four tries: his reply and its reason together, as he wrote them, and the plain path short before them; its P1 read 28% AI alone and waits on his answer on the review page. Every sentence is word for word and used once. -->
+
+Whichever protective part showed up, try talking to it in the same Nurturer voice you meant for your little one. At some point you can ask that part, "What are you afraid would happen if you stepped back?" Usually your little one only comes forward after that part feels heard. Peek-a-boo!
+
+A harder voice can seem more fitting for something that's been in your way. I'd still keep it the same. If that voice isn't there in you yet, borrow it from someone who's been safe for you.
+
+That part might say this will just be one more performance, and you'll fool yourself again. That one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part remembers. "Tell me what you remember, I'm listening." works well here. It puts you into the role of the Nurturer, which alleviates the instinct to argue back. If you push past it, you might get exactly the performance it was afraid of. Even if you didn't win an Emmy last year, that can look convincing, with the right words and maybe even tears, while nothing underneath feels any safer.
+
+That part doesn't have to move out. It's been living there way longer than the grown-up you. It can keep watch while you take one small step toward your little one, and I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it off if things got to be too much. It doesn't have to be all or nothing, either. Maybe it would settle for a lighter cover for now, like blinds tilted open a crack, and let you peek out for a minute (ST-CA, section 9.3.4). If it says no, I'd listen. When it lets you, keep an eye on that part too, for any change at all.
+
+If it's been calling all this stupid, it might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, "You don't have to hope yet, I'll keep coming back even when I mess up." Sometimes it doesn't say anything back for a while.
+
+A new roommate doesn't win you over with a speech on move-in day (hopefully, right?). The rent just has to keep showing up. Your Protector earns that guard's trust about the same way, mostly out in ordinary life. The things you do can be small, like keeping a promise to yourself nobody else knew about. Or saying no to someone, and not texting an hour later to take it back. That second one can be really hard.
 
 Blaming yourself can be doing a job like that, too. "It's all my fault" might be your parent's line, word for word. Then again, if it's your fault, maybe you can fix it before they leave. I'd stop the cruelty either way. And I'd get curious about what makes it so hard to give up.
 
@@ -1746,15 +1768,23 @@ And reaching out doesn't mean telling strangers everything. Privacy isn't fakery
 
 <!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E28 from the ideas page, the heading only (his "e28 a") -->
 
-Then there’s the stuff that’s hardest to tell anyone, and of course that's exactly what you need help with. Maybe it’s an urge that scares you, or something you did that could get you in legal trouble. You know that DM you deleted? It can still be sitting on their phone as a screenshot 🙈, and whatever’s on a company’s server can get handed over if a court asks. Just because Mr. Boopaloopa was your name on WhatsApp doesn't guarantee you're anonymous, by the way. And some of the people you’d tell, like therapists, teachers, and doctors, can be required to report certain things (a few laws cover everybody, too). Which things depends on where you live, and it’s nowhere near every crime you might mention. The cops are hopefully the obvious ones to be careful with, even if they pretend to care.
-
 <!-- Turn 77: Joel's own text from his 2026-10-19 upload (the version he gave GPT), word for word apart from obvious typos; not yet checked in Pangram here. -->
 
 <!-- Turn 102 (his answers of 2026-10-23 17:53 UTC, experiments/t102-answers/JOEL-20261023-1753.md): 95.8 A in his words: his point that the answer is only what the law requires now, and to assume what you tell won't be completely confidential, especially if it sounds dangerous, after "I wouldn't even bother with that"; his chat words adapted to the paragraph. -->
 
-So I’d ask them, before handing over any tricky specifics: “What does the law require you to report?” That's a normal and expected question. Although personally I wouldn't even bother with that, because whatever they tell you today, the law can change tomorrow. I'd assume that what you tell won't be completely confidential, especially if it sounds like something dangerous. You can always rephrase things as a dream narrative to get the emotional content across without triggering alarm bells (although I actually got in trouble with TalkSpace therapy bot even for a dream!). Just don’t hold back a danger that’s happening now from people who can help, and get anyone in danger safe before worrying about the rest. Sometimes telling on yourself is the thing that keeps someone safe, whatever it costs you legally.
-
 <!-- Turn 77: Joel's own text from his 2026-10-19 upload (the version he gave GPT), word for word apart from obvious typos; not yet checked in Pangram here. -->
+
+<!-- Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): 104 A: his two paragraphs in the plain-path-first shape (experiments/t109-installs/reshape_t109.py), every sentence his, word for word and used once: what to do first (his "I'd assume" and his danger lines), then the reasons one a paragraph, what a phone or a server keeps, who has to report, his question and why he wouldn't bother, and his dream narrative. The notes above are the paragraphs' history from before the move. -->
+
+Then there’s the stuff that’s hardest to tell anyone, and of course that's exactly what you need help with. Maybe it’s an urge that scares you, or something you did that could get you in legal trouble. I'd assume that what you tell won't be completely confidential, especially if it sounds like something dangerous. Just don’t hold back a danger that’s happening now from people who can help, and get anyone in danger safe before worrying about the rest. Sometimes telling on yourself is the thing that keeps someone safe, whatever it costs you legally.
+
+You know that DM you deleted? It can still be sitting on their phone as a screenshot 🙈, and whatever’s on a company’s server can get handed over if a court asks. Just because Mr. Boopaloopa was your name on WhatsApp doesn't guarantee you're anonymous, by the way.
+
+And some of the people you’d tell, like therapists, teachers, and doctors, can be required to report certain things (a few laws cover everybody, too). Which things depends on where you live, and it’s nowhere near every crime you might mention. The cops are hopefully the obvious ones to be careful with, even if they pretend to care.
+
+So I’d ask them, before handing over any tricky specifics: “What does the law require you to report?” That's a normal and expected question. Although personally I wouldn't even bother with that, because whatever they tell you today, the law can change tomorrow.
+
+You can always rephrase things as a dream narrative to get the emotional content across without triggering alarm bells (although I actually got in trouble with TalkSpace therapy bot even for a dream!).
 
 ## Other Folks Also Have Hooks
 
@@ -2021,7 +2051,9 @@ IFS calls these wounded young parts “exiles.” I find that pathologizing. I p
 
 <!-- Turn 100 (Joel, 2026-10-23 12:28 UTC: "carry on from its next step"; experiments/t100-api/API-CHECKS.md): my fourth try at this paragraph, in place of turn 93's, whose last two sentences read Low 9 and Low 30 in round 5 and ran on into Related Clinical Work's first line (Low 14). The guide's point that a big institute doesn't make a model truer or safer, said once as my stance, with no pair. Alone 100% Human, https://www.pangram.com/history/b7311406-1ae8-4279-8791-fa3e66734bb2; P3 to P7 of the section 100% Human, https://www.pangram.com/history/c4e53e05-a8e2-4090-861c-abbf245babc5. -->
 
-And the parts just keep coming: managers, firefighters, exiles, polarized parts, legacy burdens, Self-energy, guides, new subparts... At some point it's a maze, with a little one somewhere in the middle of it. Some practitioners are gentle about it and walk you through the maze just fine. Others seem to leave people more split up than when they started. I wouldn't trust a model more just because there's a big institute behind it handing out certificates.
+<!-- Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): 105.1, his own end of the paragraph, word for word but for "explained" (his "expalined") and a doubled space -->
+
+And the parts just keep coming: managers, firefighters, exiles, polarized parts, legacy burdens, Self-energy, guides, new subparts... At some point it’s a maze, and as my friend Pink, who has been healing her Dissociative Identity Disorder, explained, while it can be useful to have validation of the parts that one experiences, and ideas for how to work with them, it can also get overwhelming. People who are already overwhelmed can thus become more split up than before. I've seen many others echo this same evaluation, and it makes sense to me.
 
 ## Related Clinical Work
 

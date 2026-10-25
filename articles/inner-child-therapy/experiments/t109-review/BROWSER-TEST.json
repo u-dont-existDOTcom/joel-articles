@@ -1,0 +1,142 @@
+[
+ {
+  "check": "light: one card an item",
+  "ok": true,
+  "detail": "32 cards, 32 items"
+ },
+ {
+  "check": "light: the typed note keeps its value",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "light: every field reads at 4.5:1 or more",
+  "ok": true,
+  "detail": "49 fields, lowest 6.32"
+ },
+ {
+  "check": "light: the page has its own background",
+  "ok": true,
+  "detail": "rgb(244, 246, 249)"
+ },
+ {
+  "check": "light: Approve, Revise and Reject set the status",
+  "ok": true,
+  "detail": "['approved', 'needs_revision', 'rejected']"
+ },
+ {
+  "check": "light: the status filter shows only approved items",
+  "ok": true,
+  "detail": "['S1']"
+ },
+ {
+  "check": "light: the search narrows the list",
+  "ok": true,
+  "detail": "'L1': 1 shown"
+ },
+ {
+  "check": "light: Copy JSON parses, with the identity, statuses and note",
+  "ok": true,
+  "detail": "{\"approved\": 1, \"needs_revision\": 1, \"rejected\": 1, \"pending\": 29}"
+ },
+ {
+  "check": "light: Download JSON gives the same decisions (from a file on disk)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "light: decisions survive a reload",
+  "ok": true,
+  "detail": "approved"
+ },
+ {
+  "check": "light: Clear all takes two clicks",
+  "ok": true,
+  "detail": "after one: approved"
+ },
+ {
+  "check": "light: the export imports back, notes included",
+  "ok": true,
+  "detail": "Imported 32 decisions."
+ },
+ {
+  "check": "light: an export for another review is refused",
+  "ok": true,
+  "detail": "Not imported: that export is for another review or another version of the article (its review_id or source_sha256 differs)."
+ },
+ {
+  "check": "light: no script errors",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "dark: one card an item",
+  "ok": true,
+  "detail": "32 cards, 32 items"
+ },
+ {
+  "check": "dark: the typed note keeps its value",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "dark: every field reads at 4.5:1 or more",
+  "ok": true,
+  "detail": "49 fields, lowest 6.32"
+ },
+ {
+  "check": "dark: the page has its own background",
+  "ok": true,
+  "detail": "rgb(18, 22, 29)"
+ },
+ {
+  "check": "dark: Approve, Revise and Reject set the status",
+  "ok": true,
+  "detail": "['approved', 'needs_revision', 'rejected']"
+ },
+ {
+  "check": "dark: the status filter shows only approved items",
+  "ok": true,
+  "detail": "['S1']"
+ },
+ {
+  "check": "dark: the search narrows the list",
+  "ok": true,
+  "detail": "'L1': 1 shown"
+ },
+ {
+  "check": "dark: Copy JSON parses, with the identity, statuses and note",
+  "ok": true,
+  "detail": "{\"approved\": 1, \"needs_revision\": 1, \"rejected\": 1, \"pending\": 29}"
+ },
+ {
+  "check": "dark: Download JSON gives the same decisions (from a file on disk)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "dark: decisions survive a reload",
+  "ok": true,
+  "detail": "approved"
+ },
+ {
+  "check": "dark: Clear all takes two clicks",
+  "ok": true,
+  "detail": "after one: approved"
+ },
+ {
+  "check": "dark: the export imports back, notes included",
+  "ok": true,
+  "detail": "Imported 32 decisions."
+ },
+ {
+  "check": "dark: an export for another review is refused",
+  "ok": true,
+  "detail": "Not imported: that export is for another review or another version of the article (its review_id or source_sha256 differs)."
+ },
+ {
+  "check": "dark: no script errors",
+  "ok": true,
+  "detail": ""
+ }
+]

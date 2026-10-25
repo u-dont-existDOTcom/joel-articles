@@ -223,3 +223,24 @@ callbacks that build on an earlier point and pointers to other sections stay.
   on 2026-10-17). They were stopped, their parts split in two (`resplit.py`: six readers, at most 6 items each), and the
   brief's "Work quickly" line now says not to compare every paragraph with every other. For a long article, give each
   reader about an eighth of it.
+
+## Part 5: where the article has no point of view of its own
+
+**ACTIVE (Joel, 2026-10-25 14:20 UTC, on the Inner Child guide):** "make sure you use the new rule in the repo about
+marking wherever it looks like there's a lack of a real POV and just some generic portable prose/advice that should be
+replaced or cut." The rule is `project-sources/PRODUCTION-HUMANIZATION-PREFLIGHT.md`, "Actual POV required", with its
+omission test first: a line whose removal loses no claim, step, position or feeling is an OVERCLOSURE / CUT CANDIDATE,
+never a request for his point of view.
+
+- **How:** `tools/humanization/clarity_read.py make ARTICLE DIR --kind pov --parts 8`, a fresh reader per part (its
+  examples are `tools/humanization/pov_examples.json`: his cuts, the one passage he gave his reason, and lines he kept
+  with his reasons), `collect`, then the worker's check of every flag against the whole article, the owner-edits record
+  (whose words), his published guide (`source/`) and his answers. A flag is offered when its cut passes the omission
+  test, when the missing point of view can be given from his own words, or when only he can give it; it is left, with
+  the reason, when the line is his own recent text or decision, when a cut would lose something, or when the fix would
+  break a standing rule. `page` lists all of them; the offered ones go to him on a review page
+  (`tools/humanization/decision_page.py`), never a static list.
+- **First run:** the Inner Child guide, turn 109 (`articles/inner-child-therapy/experiments/t109-pov/`): eight Sonnet
+  readers, about 3,400 words each, all of whom finished (6 to 13 minutes each); 61 flags, of which 13 were cuts, 10 had a
+  fix from his own words, 3 needed words only he has, and 35 were left: 24 of those were his own words or decisions, and
+  most of the rest would have lost a step, a callback or a reason.

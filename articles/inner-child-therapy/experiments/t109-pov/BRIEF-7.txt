@@ -1,0 +1,48 @@
+You are a cold first-time reader of part 7 of 8 of Joel's guide to inner child therapy (reparenting yourself), for a general Substack audience; he wrote much of it himself, and AI drafts he humanized wrote the rest. Your job is the point-of-view read: find where the article has no real point of view, prose or advice so generic and portable that it could sit in anyone's self-help article, so that it can be cut, or replaced with the author's own reason. Joel, its author, asked for it in these words: "marking wherever it looks like there's a lack of a real POV and just some generic portable prose/advice that should be replaced or cut." His test for first-person advice is "Who cares what I want?": a line like "I'd keep it gentle" tells a reader nothing unless they can see why he says so.
+
+For each candidate, run the omission test first: read the sentences before and after it with the candidate taken out. If no claim, qualification, position of the author's, step for the reader or emotional beat disappears, and the candidate only restates, sums up or moralizes what the text around it already established, label it CUT and give the exact words to delete. Only when taking it out would lose something is it a POV item: the passage sounds like interchangeable advice (a ladder of safety steps or permissions, a generic first-person preference, a polished reassurance, a tidy summary) because the author's reason for saying it is missing.
+
+What doesn't count, so leave it: neutral explanation; conditional advice a reader needs ("if X, try Y"); caution that is warranted where it is; the author's own stories, verdicts, jokes, slang, emoji and asides, which are his point of view; a style you'd do differently; a claim you disagree with (don't fact-check).
+
+For a POV item, give up to three points of view it could have, each starting with its label:
+- SOURCE-SUPPORTED: the author says it outright elsewhere in your part; quote him.
+- ARTICLE-HINTED: a reading the text in your part supports without saying it; quote the words that hint at it.
+- NEW OWNER CHOICE: an idea the text doesn't establish, put as a question for Joel, never as a sentence in his voice.
+Then your pick, the smallest change that gives the passage its reason or ends it, and one concrete question for Joel only if his answer would change the text.
+
+What he has done with lines like these:
+1. POV (he replaced it with his reason), in How This Relates to IFS: "Some practitioners are gentle about it and walk you through the maze just fine. Others seem to leave people more split up than when they started. I wouldn't trust a model more just because there's a big institute behind it handing out certificates."
+   A general critique with nobody's case behind it; three fresh readers called it "a summary of experience rather than a particular one". He replaced it with what a friend of his explained from her own healing, that knowing the parts can help but the growing map can overwhelm, so people already overwhelmed can come out more split up, and his own verdict: "I've seen many others echo this same evaluation, and it makes sense to me." (2026-10-25)
+2. CUT (he cut it), in Use Childhood Photographs Gently: "Yes, yes, it might feel a bit strange, seeing your own face from back then. But look at it gently and just notice what comes up."
+   Cut, with the start of the next paragraph, which said to notice what comes up again: "this is the part that reads ai and it's actually redundant also" (2026-10-25).
+3. CUT (he cut it), in the guide's opening nutshell: "You can always slow down and look closer when it helps."
+   Cut, the nutshell's last line: "oh that was from GPT, i humanized it but didn't notice how jarring that last stupid sentence was" (2026-10-24).
+4. CUT (he cut it), in Catch the Hook Before the Story Takes Over: "You can figure that out later."
+   Cut: "it doesn't tell the reader the detective work can wait, that's what the prior sentence said.." (2026-10-24).
+5. CUT (he cut it), in Use Childhood Photographs Gently: "Or just nothing comes up, which is also completely OK."
+   Cut ", which is also completely OK" (2026-10-24): "Or just nothing comes up" already makes it an ordinary outcome. His rewrites cut my tidy closers and quips the same way: "(this article included)", "I'd take that!", "If it still says no, that's your answer.", "(nobody's taking attendance)".
+6. POV (an "I'd" that was only an instruction), in When to Change the Strategy: "Before either one, I'd look for what exactly is in the way."
+   He made it a plain instruction, "Before going with either of those paths, look for what exactly is in the way", and kept the "I'd" lines that are his own judgment: "I'd want to quit too", "I'd change course sooner". (2026-10-24)
+7. POV (he put in a story only he has), in You Don't Need an Inner Monologue: "other people and things you have in your life"
+   He put his own moment in its place: "like that guy who found me in a random park crying one time, and asked me "What's wrong?"" (2026-10-24).
+8. KEEP (his point of view, though it looks like a disclaimer), in a gratitude section: "I’m not pushing “toxic positivity.” Being thankful shouldn’t be pushed on people who just need to grieve for the moment."
+   Kept: "it's an objection that so many people have raised to me" (2026-10-24). A line that answers what people actually say to him is his point of view.
+9. KEEP (his point of view, though it looks like a disclaimer), in a spiritual section: "And I’m certainly not preaching “prosperity philosophy,” even though it can seem to start at that."
+   Kept: "it's not just protecting the writer, it's naming a massive religious movement of fakery that i might get lumped into instnatly" (2026-10-24).
+10. KEEP (his point of view, though it looks like a hedge), in Differentiation: "when feasible"
+   Kept: "people often do fight too many battles that's why i say when feasible, like choose ur battles bro" (2026-10-24). And of "You don't have to pretend to believe anything, but": "it purposefully does take back because people may not just listen to my commands, they have their own ideas".
+
+Work quickly: read the part once, noting candidates as you go, then write down the clearest. Most paragraphs will have nothing; a short report naming the passages that most lack a point of view is the job. Don't weigh every sentence at length. (2026-10-25: the reader of the first sixth of a 29,000-word guide spent its whole output deliberating and wrote nothing.)
+
+Read the file /home/claude/joel-articles-ro/articles/inner-child-therapy/experiments/t109-pov/PART-7.txt (one Read call; it is part 7 of 8, headings marked "## "). Then write your report with one Write call to /home/claude/joel-articles-ro/articles/inner-child-therapy/experiments/t109-pov/READER-7.md, in this shape, in the article's order, at most 8 items:
+
+## 1
+SECTION: the heading it's under, exactly as in the file
+QUOTE: the exact span, copied exactly character for character from the file: a sentence, a clause or a few sentences, no more than the span you flag
+LABEL: CUT or POV
+MISSING: in one line, what the reader is supposed to understand or do here, and what the span lacks (for a CUT, what the text around it already says)
+POVS: for a POV item, up to three lines, each starting with its label; for a CUT, "none"
+PICK: in one line, your recommendation (for a CUT, "delete" and anything a word around the cut needs; for a POV item, which point of view and why)
+QUESTION: one concrete question for Joel if his answer changes the text, or "none"
+
+If nothing in your part counts, write only "NOTHING". Then reply with only the number of items. Use no tools other than that one Read and that one Write, and don't use the web.
