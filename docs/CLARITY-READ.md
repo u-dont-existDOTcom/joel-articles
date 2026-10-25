@@ -57,7 +57,10 @@ A short piece, a typo fix or a one-paragraph change doesn't need it.
    Run `tools/humanization/suggestion_review_browser_test.py REVIEW.html`, publish the page as an artifact with
    `{"db": {}, "downloads": true}`, and read his answers from its store (`ArtifactData`, collection `decisions`) or from
    the JSON he sends. The hypnosis guide's is `articles/inner-signal/humanize/fix-20261025/review/build_review.py`.
-   (`clarity_read.py page` still writes a list, for a record or a short check.)
+   (`clarity_read.py page` still writes a list, for a record or a short check.) Each changed paragraph shows as two
+   clean texts, now and as it would read, a section in a new order as the whole passage ("reads"), and a question as a
+   card with an answer box ("advice": "ask"), so a page he pastes to another reviewer still reads right (gate E266
+   (Inner Child); the Inner Child lane's is `articles/inner-child-therapy/experiments/t110-review/build_review.py`).
 
 For all four parts (2026-10-25, the hypnosis guide, 29,500 words, 36 readers' reports):
 - **A reader that runs out of output gets its part in two halves**, with a brief for each (`BRIEF-k.txt` for the next
@@ -255,7 +258,14 @@ never a request for his point of view.
   test, when the missing point of view can be given from his own words, or when only he can give it; it is left, with
   the reason, when the line is his own recent text or decision, when a cut would lose something, or when the fix would
   break a standing rule. `page` lists all of them; the offered ones go to him on a review page
-  (`tools/humanization/decision_page.py`), never a static list.
+  (`tools/humanization/suggestion_review.py`), never a static list.
+- **A point of view needs no story (gate E267 (Inner Child)).** GPT's review of the first run, which Joel passed on:
+  "A judgment, a distinction, an explanation or a practical suggestion can express your point of view without a personal
+  anecdote", and "changing every 'I'd' into an imperative would make it sound more like the course manual you are trying
+  to get away from". The brief now keeps an "I'd" whose reason is in the sentences around it, never offers a command as
+  the fix, gives a line that says how often people find something one question (what it's based on), takes a reason
+  only from what he says about that very point, and cuts a short reminder of a distinction or a threshold only when the
+  same point is said nearby.
 - **First run:** the Inner Child guide, turn 109 (`articles/inner-child-therapy/experiments/t109-pov/`): eight Sonnet
   readers, about 3,400 words each, all of whom finished (6 to 13 minutes each); 61 flags, of which 13 were cuts, 10 had a
   fix from his own words, 3 needed words only he has, and 35 were left: 24 of those were his own words or decisions, and

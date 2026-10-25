@@ -19,7 +19,7 @@ the db capability, and this browser's storage) and export as JSON, which the pag
 are project-sources/review-form-controls.css, inlined (the 2026-10-23 white-on-white comment boxes).
 
   python3 tools/humanization/suggestion_review.py check REVIEW.json      # every span and before-text is in the article
-  python3 tools/humanization/suggestion_review.py page REVIEW.json OUT.html
+  python3 tools/humanization/suggestion_review.py page REVIEW.json OUT.html [--artifact ART.html]
 
 REVIEW.json (the lane's build script writes it; see find_quote, block_text and cut_text for its helpers):
   {"format": "joel-suggestion-review-v1", "review_id", "title", "intro": [paragraphs], "git_file": the page's file,
@@ -36,7 +36,19 @@ REVIEW.json (the lane's build script writes it; see find_quote, block_text and c
       "what", "why", "stays", "deciding", "advice_note", "found_by", "warning" (optional), "overlaps" (other ids on
       the same paragraphs, optional),
       "approve_label" (optional: "cut it", "use this wording", ...),
-      "decided" (optional): {"status": "approved"|"rejected"|"revise", "text", "comment", "by", "at"}}]}
+      "decided" (optional): {"status": "approved"|"rejected"|"revise", "text", "comment", "by", "at"},
+      "reads" (optional): [{"text": a paragraph as it would read, "new": [its new words: a string found once, or [the
+                 words just before, the new words], found once together], "note"}]   the
+                 whole passage as it would read, for a section in a new order; the card shows it in place of the edits
+                 and moves, which stay for the check and the record ("reads_label" names it),
+      "card_after" (optional): the block the card sits after (else the first span's)},
+     {"id", "type", "title", "advice": "ask", "question", "why", "stays" (optional, what holds until he answers),
+      "advice_note", "spans"}   a question: no change, an answer box, counted apart from the decisions]}
+
+Each changed paragraph shows as two clean texts, as it is now (the words that go struck through) and as it would read
+(the new words marked), so a page pasted into a chat still reads right: on the Inner Child sheet of 2026-10-25, pasted
+for GPT, one merged diff ran struck and new words together ("I'd keep Keep", "child.child") and a change that only took a
+word out showed no change at all (lesson E266 (Inner Child)).
 """
 import argparse
 import datetime
@@ -57,7 +69,7 @@ from html_links import join_split_links  # noqa: E402  (a pasted post card's lin
 TEMPLATE = HERE / 'suggestion_review_template.html'
 FORM_CSS = ROOT / 'project-sources' / 'review-form-controls.css'
 FORMAT = 'joel-suggestion-review-v1'
-GENERATOR = 'suggestion_review.py 1.0 (2026-10-25)'
+GENERATOR = 'suggestion_review.py 1.1 (2026-10-25)'
 ID_OK = re.compile(r'^[A-Za-z0-9][A-Za-z0-9.\-]{0,80}$')
 LINK = re.compile(r'\[([^\]]+)\]\(([^)\s]+)\)')
 EMPH = re.compile(r'(?<![\w*])\*([^*\s][^*]*?)\*(?!\*)')
@@ -257,15 +269,29 @@ def check(review, bl):
         ids.add(sid)
         if s.get('type') not in review['types']:
             probs.append('%s: unknown type %r' % (sid, s.get('type')))
-        if s.get('advice') not in ('approve', 'leave'):
-            probs.append('%s: advice must be "approve" or "leave"' % sid)
-        for k in ('title', 'what', 'why', 'stays', 'deciding'):
+        ask = s.get('advice') == 'ask'
+        if s.get('advice') not in ('approve', 'leave', 'ask'):
+            probs.append('%s: advice must be "approve", "leave" or "ask"' % sid)
+        for k in (('title', 'question', 'why') if ask else ('title', 'what', 'why', 'stays', 'deciding')):
             if not (s.get(k) or '').strip():
                 probs.append('%s: no %s' % (sid, k))
         if not (s.get('spans') or s.get('inserts') or s.get('moves')):
             probs.append('%s: nothing to show in the article (no spans, inserts or moves)' % sid)
-        if not (s.get('edits') or s.get('inserts') or s.get('moves')):
+        if ask and (s.get('edits') or s.get('inserts') or s.get('moves') or s.get('reads')):
+            probs.append('%s: a question changes nothing (no edits, inserts, moves or reads)' % sid)
+        if not ask and not (s.get('edits') or s.get('inserts') or s.get('moves')):
             probs.append('%s: no change (edits, inserts or moves)' % sid)
+        for r in s.get('reads', []):
+            if not (r.get('text') or '').strip():
+                probs.append('%s: a reads paragraph with no text' % sid)
+                continue
+            for w in r.get('new', []):
+                whole = ''.join(w) if isinstance(w, list) else w
+                if not whole or r['text'].count(whole) != 1:
+                    probs.append('%s: new words %r are not in their reads paragraph exactly once' % (sid, w))
+        ca = s.get('card_after')
+        if ca is not None and not (isinstance(ca, int) and 0 <= ca < n):
+            probs.append('%s: card_after %r is not in the article' % (sid, ca))
         for sp in s.get('spans', []):
             i = sp.get('block')
             if not isinstance(i, int) or not 0 <= i < n:
@@ -301,6 +327,21 @@ def esc(s):
     return html.escape(s or '', quote=True)
 
 
+URL = re.compile(r'https?://[^\s<>"]+')
+
+
+def linked(s):
+    """S escaped, with each web address in it a link he can click (a card's why, advice or note)."""
+    out, pos = [], 0
+    for m in URL.finditer(s or ''):
+        url = m.group(0).rstrip('.,;:)')
+        out.append(esc(s[pos:m.start()]))
+        out.append('<a href="%s" target="_blank" rel="noopener noreferrer">%s</a>' % (esc(url), esc(url)))
+        pos = m.start() + len(url)
+    out.append(esc((s or '')[pos:]))
+    return ''.join(out)
+
+
 def tokens(s):
     return re.findall(r'\w+|\s+|[^\w\s]', s)
 
@@ -322,6 +363,41 @@ def diff_html(before, after):
             else:
                 out.append('<ins>%s</ins>' % esc(added))
     return ''.join(out)
+
+
+def sides(before, after):
+    """(BEFORE with the words that go struck through, AFTER with the new words marked): two clean texts, each only its own
+    words, so either one pasted elsewhere reads as itself (E266 (Inner Child)). A new paragraph break is marked with a
+    label that isn't text (CSS), and the break itself stays."""
+    a, b = tokens(before), tokens(after)
+    now, new = [], []
+    for op, i1, i2, j1, j2 in difflib.SequenceMatcher(None, a, b, autojunk=False).get_opcodes():
+        if op == 'equal':
+            now.append(esc(''.join(a[i1:i2])))
+            new.append(esc(''.join(b[j1:j2])))
+            continue
+        if i2 > i1:
+            now.append('<del>%s</del>' % esc(''.join(a[i1:i2])))
+        if j2 > j1:
+            added = ''.join(b[j1:j2])
+            if '\n\n' in added:
+                new.append('<ins class="br" aria-label="new paragraph"></ins>' + esc(added))
+            else:
+                new.append('<ins>%s</ins>' % esc(added))
+    return ''.join(now), ''.join(new)
+
+
+def reads_html(s):
+    """The passage as it would read (REVIEW "reads"), one clean paragraph each, its new words marked."""
+    rows = []
+    for r in s['reads']:
+        t = esc(r['text'])
+        for w in r.get('new', []):
+            lead, words = (w[0], w[1]) if isinstance(w, list) else ('', w)
+            t = t.replace(esc(lead + words), esc(lead) + '<ins>%s</ins>' % esc(words), 1)
+        rows.append('<p class="rd">%s</p>' % t + ('<div class="rd-note">%s</div>' % esc(r['note']) if r.get('note') else ''))
+    return ('<div class="chg"><div class="chg-k">%s</div><div class="reads">%s</div></div>'
+            % (esc(s.get('reads_label') or 'How it would read'), ''.join(rows)))
 
 
 def first_words(s, n=14):
@@ -385,6 +461,8 @@ KIND_NAMES = {'h1': 'heading', 'h2': 'heading', 'h3': 'subheading', 'h4': 'subhe
 
 def change_html(s, bl):
     """The card's view of the change: each edited block as it would read, each new heading, each move."""
+    if s.get('reads'):
+        return reads_html(s)
     out = []
     for ins in s.get('inserts', []):
         nxt = bl[ins['before']]['text'] if ins['before'] < len(bl) else ''
@@ -404,17 +482,39 @@ def change_html(s, bl):
                       esc(first_words(nxt, 16) if nxt else '(the end)'), to if to < len(bl) else to - 1))
     for e in s.get('edits', []):
         b = bl[e['block']]
-        head = 'How %s would read' % esc(where(bl, e['block']))
+        w = esc(where(bl, e['block']))
         if not e['after']:
             out.append('<div class="chg"><div class="chg-k">%s is cut</div><div class="dif"><del>%s</del></div></div>'
-                       % (esc(where(bl, e['block'])).capitalize(), esc(b['text'])))
+                       % (w[:1].upper() + w[1:], esc(b['text'])))
         else:
-            out.append('<div class="chg"><div class="chg-k">%s</div><div class="dif">%s</div></div>'
-                       % (head, diff_html(b['text'], e['after'])))
+            now, new = sides(b['text'], e['after'])
+            out.append('<div class="chg"><div class="chg-k">%s now</div><div class="dif side now">%s</div>'
+                       '<div class="chg-k">How it would read</div><div class="dif side after">%s</div></div>'
+                       % (w[:1].upper() + w[1:], now, new))
     return ''.join(out)
 
 
+def ask_html(s, types):
+    """A question card: what I'm asking and why, my advice, and his answer box (the comment box, labelled so)."""
+    t = types[s['type']]
+    sid = s['id']
+    rows = [('My question', s['question']), ('Why I ask', s['why'])] + ([('Until you answer', s['stays'])] if s.get('stays') else [])
+    info = ''.join('<div class="row"><span class="lab">%s</span> <span>%s</span></div>' % (esc(k), linked(v)) for k, v in rows)
+    if s.get('advice_note'):
+        info += '<div class="row advice"><span class="lab">My advice</span> <span>%s</span></div>' % linked(s['advice_note'])
+    return f'''<section class="card ask t-{esc(s['type'])}" id="c-{esc(sid)}" data-id="{esc(sid)}" data-type="{esc(s['type'])}" data-advice="ask" data-block="{(s.get('spans') or [{}])[0].get('block', '')}">
+<div class="card-top"><button type="button" class="chip t-{esc(s['type'])}" data-filter-type="{esc(s['type'])}" title="{esc(t['about'])}">{esc(t['label'])}</button><span class="cid">{esc(sid)}</span><span class="ctitle">{esc(s['title'])}</span><span class="pill" aria-live="polite">Not answered yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="info">{info}</div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="4"></textarea></label>
+<label class="note-wrap"><span class="lab">Your answer</span><textarea class="note" rows="3" placeholder="Your answer, in a few words"></textarea></label>
+<div class="saved-line"></div>
+</div></section>'''
+
+
 def card_html(s, bl, types):
+    if s['advice'] == 'ask':
+        return ask_html(s, types)
     t = types[s['type']]
     sid = s['id']
     leave = s['advice'] == 'leave'
@@ -423,14 +523,14 @@ def card_html(s, bl, types):
         approve += ' anyway'
     rows = [('What changes', s['what']), ('Why', s['why']), ('What stays', s['stays']),
             ('You\'re deciding', s['deciding'])]
-    info = ''.join('<div class="row"><span class="lab">%s</span> <span>%s</span></div>' % (esc(k), esc(v)) for k, v in rows)
+    info = ''.join('<div class="row"><span class="lab">%s</span> <span>%s</span></div>' % (esc(k), linked(v)) for k, v in rows)
     if s.get('warning'):
-        info += '<div class="row warn"><span class="lab">Note</span> <span>%s</span></div>' % esc(s['warning'])
+        info += '<div class="row warn"><span class="lab">Note</span> <span>%s</span></div>' % linked(s['warning'])
     if s.get('overlaps'):
         info += ('<div class="row also"><span class="lab">Also on this paragraph</span> %s</div>'
                  % ' '.join('<button type="button" class="link-btn go" data-go="c-%s">%s</button>' % (esc(o), esc(o))
                             for o in s['overlaps']))
-    advice = ('<b>Leave it as it is.</b> ' if leave else '<b>Approve.</b> ') + esc(s.get('advice_note') or '')
+    advice = ('<b>Leave it as it is.</b> ' if leave else '<b>Approve.</b> ') + linked(s.get('advice_note') or '')
     found = esc(s.get('found_by') or '')
     return f'''<section class="card t-{esc(s['type'])}{' leave' if leave else ''}" id="c-{esc(sid)}" data-id="{esc(sid)}" data-type="{esc(s['type'])}" data-advice="{esc(s['advice'])}" data-block="{(s.get('spans') or [{}])[0].get('block', '')}">
 <div class="card-top"><button type="button" class="chip t-{esc(s['type'])}" data-filter-type="{esc(s['type'])}" title="{esc(t['about'])}">{esc(t['label'])}</button><span class="cid">{esc(sid)}</span><span class="ctitle">{esc(s['title'])}</span><span class="pill" aria-live="polite">Not approved yet</span><button type="button" class="link-btn fold" aria-expanded="{'false' if leave else 'true'}">{'Open' if leave else 'Fold'}</button></div>
@@ -451,7 +551,9 @@ def page(review, md, bl):
     for s in review['suggestions']:
         for sp in s.get('spans', []):
             marks.setdefault(sp['block'], []).append((sp['start'], sp['end'], s['id'], s['type'], s['advice']))
-        if s.get('spans'):
+        if s.get('card_after') is not None:
+            at = s['card_after']
+        elif s.get('spans'):
             at = max(sp['block'] for sp in s['spans'][:1])
         elif s.get('moves'):
             at = s['moves'][0]['blocks'][-1]
@@ -488,7 +590,7 @@ def page(review, md, bl):
         'format': FORMAT, 'review_id': review['review_id'], 'title': review['title'], 'git_file': review.get('git_file', ''),
         'article': review['article'], 'built': review.get('built', ''), 'generator': GENERATOR,
         'types': types,
-        'suggestions': [{k: s.get(k) for k in ('id', 'type', 'title', 'advice', 'what', 'deciding', 'decided')}
+        'suggestions': [{k: s.get(k) for k in ('id', 'type', 'title', 'advice', 'what', 'deciding', 'decided', 'question')}
                         | {'where': where(bl, (s.get('spans') or [{'block': None}])[0]['block']) if s.get('spans') else
                            where(bl, s['moves'][0]['blocks'][0]) if s.get('moves') else
                            'above ' + where(bl, s['inserts'][0]['before']) if s['inserts'][0]['before'] < len(bl) else 'the end',
@@ -509,6 +611,18 @@ def page(review, md, bl):
               .replace('__MAIN__', '\n'.join(parts))
               .replace('__DATA__', json.dumps(data, ensure_ascii=False).replace('</', '<\\/')))
     return out
+
+
+def artifact_view(html_page):
+    """The page as an artifact publishes it: the Artifact tool wraps a file in its own doctype, head and body, so this keeps
+    the title, the side-gutter meta and the styles, then the body's content, and drops the wrapper (as decision_page.py
+    does for its artifact view)."""
+    head = html_page[html_page.index('<head>') + 6:html_page.index('</head>')]
+    title = re.search(r'<title>.*?</title>', head, re.S).group(0)
+    meta = re.search(r'<meta name="claude:viewport-fit-sides"[^>]*>', head).group(0)
+    styles = ''.join(re.findall(r'<style>.*?</style>', head, re.S))
+    m = re.search(r'<body[^>]*>(.*)</body>', html_page, re.S)
+    return title + '\n' + meta + '\n' + styles + '\n' + m.group(1).strip() + '\n'
 
 
 def source_line(review):
@@ -534,6 +648,8 @@ def marker_html(s, ins, bl, types):
 
 def proposed_text(s, bl):
     """The text his Revise box starts from: my version of every block the suggestion changes."""
+    if s.get('reads'):
+        return '\n\n'.join(r['text'] for r in s['reads'])
     parts = []
     for ins in s.get('inserts', []):
         parts.append(('#' * int(ins['kind'][1]) + ' ' if ins['kind'] != 'p' else '') + ins['text'])
@@ -546,6 +662,8 @@ def proposed_text(s, bl):
 
 
 def before_text(s, bl):
+    if s.get('reads'):   # the whole passage as it is now: every block it marks, in the article's order
+        return '\n\n'.join(bl[i]['text'] for i in sorted({sp['block'] for sp in s.get('spans', [])}))
     return '\n\n'.join(bl[e['block']]['text'] for e in s.get('edits', []))
 
 
@@ -570,6 +688,7 @@ def main(argv=None):
     p = sub.add_parser('page')
     p.add_argument('review')
     p.add_argument('out')
+    p.add_argument('--artifact', help='also write the page as an artifact publishes it (no doctype, head or body tags)')
     a = ap.parse_args(argv)
     review, md, bl = load(a.review)
     probs = check(review, bl)
@@ -584,6 +703,9 @@ def main(argv=None):
     out = page(review, md, bl)
     pathlib.Path(a.out).write_text(out, encoding='utf-8')
     print(a.out, len(out), 'bytes,', len(review['suggestions']), 'suggestions')
+    if a.artifact:
+        pathlib.Path(a.artifact).write_text(artifact_view(out), encoding='utf-8')
+        print(a.artifact, 'the artifact view')
     return 0
 
 

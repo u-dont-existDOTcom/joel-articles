@@ -15,6 +15,8 @@
   --t-repeat:#a16207;--t-repeat-bg:#fdf0c4;
   --t-innerchild:#15803d;--t-innerchild-bg:#d9f5e2;
   --t-typo:#be123c;--t-typo-bg:#ffe1e7;
+  --t-cut:#a21caf;--t-cut-bg:#fae8ff;
+  --t-ask:#0f766e;--t-ask-bg:#d5f5ef;
   --ok:#15803d;--ok-bg:#dcf5e3;--no:#475569;--no-bg:#e3e8ef;--rev:#6d28d9;--rev-bg:#ece6fd;--pend:#b42318;--pend-bg:#fde4e1;
   --del-bg:#fbd9d5;--del-ink:#7a1d12;--ins-bg:#d4f2dc;--ins-ink:#0f4d24;
 }
@@ -27,8 +29,11 @@
   --t-repeat:#f0c45a;--t-repeat-bg:#45391a;
   --t-innerchild:#6fdc95;--t-innerchild-bg:#173d27;
   --t-typo:#ff8aa3;--t-typo-bg:#4f1d2a;
+  --t-cut:#f0abfc;--t-cut-bg:#4a1d4f;
+  --t-ask:#5eead4;--t-ask-bg:#123f3b;
   --ok:#6fdc95;--ok-bg:#173d27;--no:#b6c0cf;--no-bg:#2c333d;--rev:#b79cff;--rev-bg:#33295a;--pend:#ff8f84;--pend-bg:#4a1f1c;
   --del-bg:#4f2421;--del-ink:#ffc9c2;--ins-bg:#173d27;--ins-ink:#c4f5d3;
+  color-scheme:dark;
 }}
 :root[data-theme="dark"]{
   --bg:#141619;--paper:#1c1f23;--ink:#e7e4de;--muted:#a2a8b1;--line:#363a42;--soft:#24282d;--head:#1c1f23ee;
@@ -39,8 +44,11 @@
   --t-repeat:#f0c45a;--t-repeat-bg:#45391a;
   --t-innerchild:#6fdc95;--t-innerchild-bg:#173d27;
   --t-typo:#ff8aa3;--t-typo-bg:#4f1d2a;
+  --t-cut:#f0abfc;--t-cut-bg:#4a1d4f;
+  --t-ask:#5eead4;--t-ask-bg:#123f3b;
   --ok:#6fdc95;--ok-bg:#173d27;--no:#b6c0cf;--no-bg:#2c333d;--rev:#b79cff;--rev-bg:#33295a;--pend:#ff8f84;--pend-bg:#4a1f1c;
   --del-bg:#4f2421;--del-ink:#ffc9c2;--ins-bg:#173d27;--ins-ink:#c4f5d3;
+  color-scheme:dark;
 }
 *{box-sizing:border-box}
 html{scroll-padding-top:120px}
@@ -53,8 +61,11 @@ button{font:inherit;color:inherit;cursor:pointer}
 .t-repeat{--c:var(--t-repeat);--cb:var(--t-repeat-bg)}
 .t-innerchild{--c:var(--t-innerchild);--cb:var(--t-innerchild-bg)}
 .t-typo{--c:var(--t-typo);--cb:var(--t-typo-bg)}
-.gut{padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}
-header.top{position:sticky;top:0;z-index:20;background:var(--head);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.t-cut{--c:var(--t-cut);--cb:var(--t-cut-bg)}
+.t-ask{--c:var(--t-ask);--cb:var(--t-ask-bg)}
+.gut{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--head);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .bar{max-width:78rem;margin:0 auto;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;padding-top:8px;padding-bottom:8px}
 .bar .name{font-weight:750;font-size:.98rem;margin-right:auto}
 .prog{font-size:.84rem;color:var(--muted)}
@@ -136,6 +147,11 @@ body:not(.show-leave) .moving.leave .moving-k{display:none}
 del{background:var(--del-bg);color:var(--del-ink);text-decoration:line-through;text-decoration-thickness:1.5px}
 ins{background:var(--ins-bg);color:var(--ins-ink);text-decoration:none;border-bottom:1px solid currentColor}
 ins.br{font:700 .78rem system-ui,sans-serif;padding:0 4px;border-radius:4px}
+ins.br::before{content:"¶ new paragraph"}
+.reads{font:1rem/1.62 Georgia,"Iowan Old Style","Palatino Linotype",serif;background:var(--soft);border-radius:8px;padding:2px 11px;overflow-wrap:anywhere}
+.reads .rd{margin:.6em 0}
+.reads .rd-note{font:.8rem/1.4 system-ui,sans-serif;color:var(--muted);margin:-.35em 0 .7em}
+.card[data-status="answered"] .pill{background:var(--ok-bg);color:var(--ok);border-color:var(--ok)}
 .also .link-btn{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.8rem}
 .info .row{margin:3px 0}
 .info .lab,.yours-wrap .lab,.note-wrap .lab{font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-right:4px}
@@ -342,9 +358,24 @@ __MAIN__
   // ---------------------------------------------------------------- rendering
   const PILL = { pending: 'Not approved yet', approved: 'Approved', rejected: 'Rejected: keep as is', revise: 'Revise' };
   function savedLine(id, msg) { const c = cards[id]; if (c) { const el = $('.saved-line', c); if (el) el.textContent = msg; } }
+  function isAsk(id) { return SUG[id] && SUG[id].advice === 'ask'; }
+  function askPill(id) {
+    const c = cards[id]; if (!c) return;
+    const done = !!(get(id).comment || '').trim();
+    c.dataset.status = done ? 'answered' : 'pending';
+    $('.pill', c).textContent = done ? 'Answered' : 'Not answered yet';
+    c.classList.toggle('decided', done);
+    (marksById[id] || []).forEach(m => m.classList.toggle('done', done));
+  }
   function renderCard(id, fromRemote) {
     const c = cards[id]; if (!c) return;
     const st = get(id);
+    if (isAsk(id)) {
+      const nt = $('.note', c);
+      if (!(fromRemote && document.activeElement === nt)) nt.value = st.comment || '';
+      askPill(id);
+      return;
+    }
     c.dataset.status = st.status;
     $('.pill', c).textContent = (c.dataset.advice === 'leave' && st.status === 'pending') ? 'I\'d leave it' : PILL[st.status];
     $$('.dec', c).forEach(b => b.setAttribute('aria-pressed', String(b.dataset.dec === st.status)));
@@ -361,16 +392,18 @@ __MAIN__
   }
   function renderAll() { ORDER.forEach(id => renderCard(id)); progress(); }
   function progress() {
-    let n = 0, dec = 0, ap = 0, rj = 0, rv = 0, quiet = 0, quietSeen = 0;
+    let n = 0, dec = 0, ap = 0, rj = 0, rv = 0, quiet = 0, quietSeen = 0, asks = 0, answered = 0;
     ORDER.forEach(id => {
       const st = get(id);
+      if (isAsk(id)) { asks++; if ((st.comment || '').trim()) answered++; return; }
       if (SUG[id].advice === 'leave') { quiet++; if (st.status !== 'pending' || st.comment) quietSeen++; return; }
       n++;
       if (st.status !== 'pending') dec++;
       if (st.status === 'approved') ap++; else if (st.status === 'rejected') rj++; else if (st.status === 'revise') rv++;
     });
-    $('#prog').innerHTML = '<b>' + dec + '</b> of ' + n + ' decided · ' + ap + ' approved · ' + rj + ' rejected · ' + rv + ' to revise';
-    $('#meter').style.width = (n ? Math.round(100 * dec / n) : 0) + '%';
+    $('#prog').innerHTML = '<b>' + dec + '</b> of ' + n + ' decided · ' + ap + ' approved · ' + rj + ' rejected · ' + rv + ' to revise'
+      + (asks ? ' · ' + answered + ' of ' + asks + ' questions answered' : '');
+    $('#meter').style.width = ((n + asks) ? Math.round(100 * (dec + answered) / (n + asks)) : 0) + '%';
     $('#leaveCount').textContent = quiet + (quietSeen ? ', ' + quietSeen + ' looked at' : '');
     const counts = {};
     ORDER.forEach(id => { const s = SUG[id]; if (s.advice === 'leave') return; counts[s.type] = (counts[s.type] || 0) + 1; });
@@ -397,6 +430,7 @@ __MAIN__
       st[field] = el.value; st.updated = now();
       persistLocal(); queueWrite(id, 900);
       savedLine(id, db ? 'Saving…' : (localOk ? 'Saved in this browser' : 'Not saved: copy your answers before closing'));
+      if (isAsk(id)) askPill(id);
       progress();
     };
     const yt = $('.yours', c), nt = $('.note', c);
@@ -416,7 +450,7 @@ __MAIN__
   function openCard(c) { const body = $('.card-body', c); if (body.hidden) { body.hidden = false; const f = $('.fold', c); f.textContent = 'Fold'; f.setAttribute('aria-expanded', 'true'); } }
   function flash(c) { c.classList.remove('flash'); void c.offsetWidth; c.classList.add('flash'); }
   function goTo(c) { openCard(c); c.scrollIntoView({ behavior: 'smooth', block: 'start' }); flash(c); }
-  function undecided(c) { return get(c.dataset.id).status === 'pending'; }
+  function undecided(c) { const id = c.dataset.id; return isAsk(id) ? !(get(id).comment || '').trim() : get(id).status === 'pending'; }
   function step(dir) {
     if (document.body.classList.contains('reading')) { document.body.classList.remove('reading'); $('#readingMode').checked = false; }
     const list = visibleCards().filter(undecided);
@@ -503,7 +537,8 @@ __MAIN__
     const items = ORDER.map(id => {
       const s = SUG[id], st = get(id);
       counts[st.status]++;
-      return { id: id, type: s.type, title: s.title, where: s.where, advice: s.advice, status: st.status,
+      return { id: id, type: s.type, title: s.title, where: s.where, advice: s.advice, status: isAsk(id) ? ((st.comment || '').trim() ? 'answered' : 'pending') : st.status,
+        question: s.question || undefined,
         your_version: st.text, comment: st.comment, my_version: s.proposed, before: s.before,
         history: st.history, updated: st.updated };
     });
@@ -528,7 +563,7 @@ __MAIN__
   });
   $('#saveJson').addEventListener('click', async () => {
     const text = JSON.stringify(answers(), null, 1);
-    const name = 'hypnosis-guide-review-answers-' + now().slice(0, 16).replace(/[:T]/g, '-') + '.json';
+    const name = (DATA.review_id || 'review') + '-answers-' + now().slice(0, 16).replace(/[:T]/g, '-') + '.json';
     if (dl) {
       try { const r = await dl.save({ filename: name, data: text }); status(r && r.status === 'delivered' ? 'Sent.' : 'Saved as ' + name + '.'); return; }
       catch (e) {

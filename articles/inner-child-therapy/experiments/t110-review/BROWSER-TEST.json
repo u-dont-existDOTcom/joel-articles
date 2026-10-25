@@ -1,0 +1,471 @@
+{
+ "page": "/home/claude/joel-articles-ro/articles/inner-child-therapy/experiments/t110-review/REVIEW.html",
+ "passed": 80,
+ "failed": 0,
+ "results": [
+  {
+   "test": "light: one card per suggestion",
+   "pass": true,
+   "detail": "18 cards, 18 suggestions"
+  },
+  {
+   "test": "light: every other card starts not approved",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "test": "light: typed comment kept",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "light: comment text legible (contrast 14.7)",
+   "pass": true,
+   "detail": {
+    "ratio": 14.67911847763172,
+    "fg": "rgb(31, 41, 55)",
+    "fill": "rgb(31, 41, 55)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "light: Approve is one click, no dialog",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: pill says Approved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: Reject",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: rejected looks different from not approved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: Revise opens your version",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: your version starts from mine",
+   "pass": true,
+   "detail": "In one of the Buddha's own accounts of how he woke up, ill will shows up in his "
+  },
+  {
+   "test": "light: your-version text legible (contrast 14.7)",
+   "pass": true,
+   "detail": {
+    "ratio": 14.67911847763172,
+    "fg": "rgb(31, 41, 55)",
+    "fill": "rgb(31, 41, 55)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "light: progress counts the decisions",
+   "pass": true,
+   "detail": "3 of 15 decided · 1 approved · 1 rejected · 1 to revise · 0 of 3 questions answered"
+  },
+  {
+   "test": "light: back to not approved in one click",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: approval count is explicit approvals only",
+   "pass": true,
+   "detail": "2 of 15 decided · 0 approved · 1 rejected · 1 to revise · 0 of 3 questions answered"
+  },
+  {
+   "test": "light: type filter hides that type",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: and shows it again",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: status filter shows only approved",
+   "pass": true,
+   "detail": [
+    "approved"
+   ]
+  },
+  {
+   "test": "light: search narrows the cards",
+   "pass": true,
+   "detail": 3
+  },
+  {
+   "test": "light: no cards I'd leave on this page, so nothing to hide",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: each changed paragraph shows as two clean texts (13 cards)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "light: a passage shown whole reads as my version (2 cards)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "light: a question card says Answered",
+   "pass": true,
+   "detail": "Answered"
+  },
+  {
+   "test": "light: answers count apart from decisions",
+   "pass": true,
+   "detail": "3 of 15 decided · 1 approved · 1 rejected · 1 to revise · 1 of 3 questions answered"
+  },
+  {
+   "test": "light: Next undecided brings one to the top",
+   "pass": true,
+   "detail": 1
+  },
+  {
+   "test": "light: Copy gives parseable JSON",
+   "pass": true,
+   "detail": "{\n \"format\": \"joel-suggestion-review-answers-v1\",\n \"review_id\": \"inner-child-t11"
+  },
+  {
+   "test": "light: export names the review and the guide version",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: export has every suggestion",
+   "pass": true,
+   "detail": 18
+  },
+  {
+   "test": "light: comment exported word for word",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "light: statuses exported",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: the answer is exported with its question",
+   "pass": true,
+   "detail": {
+    "id": "Q1",
+    "type": "ask",
+    "title": "If the Love Isn't Coming Yet: \"most often\"",
+    "where": "If the Love Isn't Coming Yet, P3",
+    "advice": "ask",
+    "status": "answered",
+    "question": "What is \"most often\" based on: what people have told you, something you read, what you've seen, or something else? A few words is enough.",
+    "your_version": "",
+    "comment": "From people I've talked to.",
+    "my_version": "",
+    "before": "",
+    "history": [],
+    "updated": "2026-10-25T18:06:48.386Z"
+   }
+  },
+  {
+   "test": "light: Save downloads the answers",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: a reload keeps the decisions",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: a reload keeps the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: cleared storage starts fresh",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: loading the saved file restores decisions",
+   "pass": true,
+   "detail": "Loaded 4 answers."
+  },
+  {
+   "test": "light: and the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: answers for another review are refused",
+   "pass": true,
+   "detail": "Those answers are for a different review (another-review), so nothing was loaded."
+  },
+  {
+   "test": "light: bad pasted text is refused",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: no console or page errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "dark: one card per suggestion",
+   "pass": true,
+   "detail": "18 cards, 18 suggestions"
+  },
+  {
+   "test": "dark: every other card starts not approved",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "test": "dark: typed comment kept",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "dark: comment text legible (contrast 14.7)",
+   "pass": true,
+   "detail": {
+    "ratio": 14.67911847763172,
+    "fg": "rgb(31, 41, 55)",
+    "fill": "rgb(31, 41, 55)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "dark: Approve is one click, no dialog",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: pill says Approved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: Reject",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: rejected looks different from not approved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: Revise opens your version",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: your version starts from mine",
+   "pass": true,
+   "detail": "In one of the Buddha's own accounts of how he woke up, ill will shows up in his "
+  },
+  {
+   "test": "dark: your-version text legible (contrast 14.7)",
+   "pass": true,
+   "detail": {
+    "ratio": 14.67911847763172,
+    "fg": "rgb(31, 41, 55)",
+    "fill": "rgb(31, 41, 55)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "dark: progress counts the decisions",
+   "pass": true,
+   "detail": "3 of 15 decided · 1 approved · 1 rejected · 1 to revise · 0 of 3 questions answered"
+  },
+  {
+   "test": "dark: back to not approved in one click",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: approval count is explicit approvals only",
+   "pass": true,
+   "detail": "2 of 15 decided · 0 approved · 1 rejected · 1 to revise · 0 of 3 questions answered"
+  },
+  {
+   "test": "dark: type filter hides that type",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: and shows it again",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: status filter shows only approved",
+   "pass": true,
+   "detail": [
+    "approved"
+   ]
+  },
+  {
+   "test": "dark: search narrows the cards",
+   "pass": true,
+   "detail": 3
+  },
+  {
+   "test": "dark: no cards I'd leave on this page, so nothing to hide",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: each changed paragraph shows as two clean texts (13 cards)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "dark: a passage shown whole reads as my version (2 cards)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "dark: a question card says Answered",
+   "pass": true,
+   "detail": "Answered"
+  },
+  {
+   "test": "dark: answers count apart from decisions",
+   "pass": true,
+   "detail": "3 of 15 decided · 1 approved · 1 rejected · 1 to revise · 1 of 3 questions answered"
+  },
+  {
+   "test": "dark: Next undecided brings one to the top",
+   "pass": true,
+   "detail": 1
+  },
+  {
+   "test": "dark: Copy gives parseable JSON",
+   "pass": true,
+   "detail": "{\n \"format\": \"joel-suggestion-review-answers-v1\",\n \"review_id\": \"inner-child-t11"
+  },
+  {
+   "test": "dark: export names the review and the guide version",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: export has every suggestion",
+   "pass": true,
+   "detail": 18
+  },
+  {
+   "test": "dark: comment exported word for word",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "dark: statuses exported",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: the answer is exported with its question",
+   "pass": true,
+   "detail": {
+    "id": "Q1",
+    "type": "ask",
+    "title": "If the Love Isn't Coming Yet: \"most often\"",
+    "where": "If the Love Isn't Coming Yet, P3",
+    "advice": "ask",
+    "status": "answered",
+    "question": "What is \"most often\" based on: what people have told you, something you read, what you've seen, or something else? A few words is enough.",
+    "your_version": "",
+    "comment": "From people I've talked to.",
+    "my_version": "",
+    "before": "",
+    "history": [],
+    "updated": "2026-10-25T18:06:53.568Z"
+   }
+  },
+  {
+   "test": "dark: Save downloads the answers",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: a reload keeps the decisions",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: a reload keeps the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: cleared storage starts fresh",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: loading the saved file restores decisions",
+   "pass": true,
+   "detail": "Loaded 4 answers."
+  },
+  {
+   "test": "dark: and the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: answers for another review are refused",
+   "pass": true,
+   "detail": "Those answers are for a different review (another-review), so nothing was loaded."
+  },
+  {
+   "test": "dark: bad pasted text is refused",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: no console or page errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "negative fixture: the old white-box defect fails the check (contrast 1.0)",
+   "pass": true,
+   "detail": {
+    "ratio": 1,
+    "fg": "rgb(255, 255, 255)",
+    "fill": "rgb(255, 255, 255)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "phone width: no sideways scroll",
+   "pass": true,
+   "detail": [
+    390,
+    390
+   ]
+  }
+ ],
+ "not_tested": [
+  "the artifact store (db) and the downloads capability, which only exist inside claude.ai; the page falls back to this browser's storage and an ordinary download, tested here",
+  "a real phone browser (tested at phone width in Chromium)"
+ ]
+}

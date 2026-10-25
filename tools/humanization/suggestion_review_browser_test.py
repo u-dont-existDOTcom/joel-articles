@@ -12,6 +12,9 @@ What it does, in Chromium (Playwright), on the exact file it's given, opened as 
   - Approve, Reject, Revise and "Not approved yet" are one click each, without a dialog; the progress counts explicit
     decisions; Revise opens "Your version" filled with my version;
   - the type filters, the status filter, the search and "The ones I'd leave" toggle hide and show the right cards;
+  - every changed paragraph shows as two clean texts, as it is now and as it would read, each exactly that version (so a
+    paste can't run them together, E266 (Inner Child)), and a passage shown whole reads exactly as my version;
+  - a question card takes an answer, says Answered, counts it apart from the decisions and exports it;
   - "Next undecided" brings an undecided card to the top;
   - "Copy my answers" gives parseable JSON (from the clipboard or the box it falls back to) with the review's identity,
     every suggestion, the statuses and the comment typed, word for word; "Save them as a file" downloads the same;
@@ -116,19 +119,49 @@ def run(page_path, report_path=None):
             vis = page.evaluate("""() => Array.from(document.querySelectorAll('.card[data-id]')).filter(c => !c.hidden && c.dataset.advice==='approve').map(c => c.dataset.status)""")
             ok('%s: status filter shows only approved' % scheme, vis and all(v == 'approved' for v in vis), vis[:5])
             page.select_option('#statusFilter', 'all')
-            word = 'pendulation'
+            # a word some cards have and others don't, from the cards themselves
+            hay = page.evaluate("""() => Array.from(document.querySelectorAll('.card[data-id]')).map(c => { const b = document.getElementById('b' + c.dataset.block); return (c.textContent + ' ' + (b ? b.textContent : '')).toLowerCase(); })""")
+            words = sorted({w for h in hay for w in __import__('re').findall(r'[a-z]{7,}', h)})
+            word = next((w for w in words if 0 < sum(w in h for h in hay) < len(hay) // 2 + 1), words[0] if words else 'the')
             page.fill('#search', word)
             page.wait_for_timeout(400)
             shown = page.evaluate("""() => Array.from(document.querySelectorAll('.card[data-id]')).filter(c => !c.hidden).length""")
             ok('%s: search narrows the cards' % scheme, 0 < shown < total, shown)
             page.fill('#search', '')
             page.wait_for_timeout(400)
-            leave = page.locator('.card.leave').first
-            ok('%s: the ones I\'d leave are hidden at first' % scheme, not leave.is_visible())
-            page.check('#showLeave')
-            ok('%s: and show when ticked' % scheme, leave.is_visible())
-            page.uncheck('#showLeave')
+            if page.locator('.card.leave').count():
+                leave = page.locator('.card.leave').first
+                ok('%s: the ones I\'d leave are hidden at first' % scheme, not leave.is_visible())
+                page.check('#showLeave')
+                ok('%s: and show when ticked' % scheme, leave.is_visible())
+                page.uncheck('#showLeave')
+            else:
+                ok('%s: no cards I\'d leave on this page, so nothing to hide' % scheme, True)
             page.click('#toolsBtn')
+            # each version clean (E266 (Inner Child)): one changed paragraph's two sides, a whole passage's paragraphs
+            sides = page.evaluate("""() => Array.from(document.querySelectorAll('.card[data-id]')).map(c => ({id: c.dataset.id,
+                now: Array.from(c.querySelectorAll('.side.now')).map(x => x.textContent),
+                after: Array.from(c.querySelectorAll('.side.after')).map(x => x.textContent),
+                reads: Array.from(c.querySelectorAll('.reads .rd')).map(x => x.textContent)}))""")
+            sug = {x['id']: x for x in data['suggestions']}
+            one = [x for x in sides if x['after'] and not x['reads']]
+            # each side is one whole version: in my version, or in the text as it is now, word for word
+            bad = [x['id'] for x in one if not all(t in sug[x['id']]['proposed'] for t in x['after'])
+                   or not all(t in sug[x['id']]['before'] for t in x['now'])]
+            ok('%s: each changed paragraph shows as two clean texts (%d cards)' % (scheme, len(one)), not bad, bad[:5])
+            whole = [x for x in sides if x['reads']]
+            badr = [x['id'] for x in whole if '\n\n'.join(x['reads']) != sug[x['id']]['proposed']]
+            ok('%s: a passage shown whole reads as my version (%d cards)' % (scheme, len(whole)), not badr, badr[:5])
+            asks = [x['id'] for x in data['suggestions'] if x['advice'] == 'ask']
+            if asks:
+                qa = '#c-' + asks[0].replace('.', '\\.')
+                ans = 'From people I\'ve talked to.'
+                page.locator(qa + ' textarea.note').fill(ans)
+                page.wait_for_timeout(200)
+                ok('%s: a question card says Answered' % scheme, page.locator(qa + ' .pill').text_content() == 'Answered',
+                   page.locator(qa + ' .pill').text_content())
+                ok('%s: answers count apart from decisions' % scheme, ('1 of %d questions answered' % len(asks)) in page.locator('#prog').text_content(),
+                   page.locator('#prog').text_content())
             # next undecided
             page.evaluate('window.scrollTo(0, 0)')
             page.click('#nextBtn')
@@ -158,6 +191,9 @@ def run(page_path, report_path=None):
                 ok('%s: comment exported word for word' % scheme, got[ids[0]]['comment'] == text, got[ids[0]]['comment'])
                 ok('%s: statuses exported' % scheme, got[ids[0]]['status'] == 'approved' and got[ids[1]]['status'] == 'rejected'
                    and got[ids[2]]['status'] == 'revise' and got[ids[2]]['your_version'].endswith(' Mine.'))
+                if asks:
+                    ok('%s: the answer is exported with its question' % scheme, got[asks[0]]['comment'] == ans
+                       and got[asks[0]]['status'] == 'answered' and got[asks[0]].get('question'), got[asks[0]])
             with page.expect_download() as dl:
                 page.click('#saveJson')
             path = dl.value.path()

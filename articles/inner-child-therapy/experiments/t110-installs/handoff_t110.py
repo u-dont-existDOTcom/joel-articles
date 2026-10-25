@@ -1,0 +1,76 @@
+#!/usr/bin/env python3
+"""Turn 110: articles/inner-child-therapy/HANDOFF-UPDATE.json, the update tools/humanization/handoff_note.py applies to
+~/claude-acceptance-transfer/handoffs/inner-child-article.md on Joel's laptop.
+  handoff_t110.py [--test NOTE]   writes the update; with --test, applies it to a copy of NOTE"""
+import json
+import pathlib
+import re
+import sys
+
+HERE = pathlib.Path(__file__).resolve().parent
+ROOT = HERE.parents[3]
+OUT = HERE.parents[1] / 'HANDOFF-UPDATE.json'
+S = 'https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq'
+BR = 'handoff/claude-dangerous-adult-20260924-1631'
+SHEET = 'https://claude.ai/artifact/LTEDB18wTYzuUkgobzbUrn'
+PR = 'pull request #246 (https://github.com/u-dont-existDOTcom/joel-articles/pull/246)'
+e = re.escape
+
+turn110 = '\n'.join([
+    '- TURN 110 (2026-10-25, his message of 2026-10-25 17:26 UTC; by %s), the latest; its next step wins over everything below. Branch %s; %s for him to merge, which turn 110 pushed to as well.' % (S, BR, PR),
+    '  - Objective anchor (UDA): main objective, the guide humanized, every paragraph and section reading Human with the meaning kept and reading engagingly, like a good public self-help book; this turn\'s contribution, GPT\'s review of the turn-109 sheet taken card by card, the two agreed section rearrangements drafted and checked, and his sheet cut down to what both reviews recommend; scope, no new claims, no life facts he didn\'t give, his words changed only with his OK.',
+    '  - His message: experiments/t110-answers/JOEL-20261025-1726.md: "don\'t worry, "Pink" is not her real name" (Y1 settled, the paragraph stays; OWNER-EDITS joel-110-20261025); "i\'m attaching gpt\'s review of your proposal to consider. i have not really read yours or GPT\'s yet because it\'s a lot of reading and prob no point until you can agree" (the review: experiments/t110-answers/GPT-REVIEW-20261025.md).',
+    '  - The agreement (experiments/t110-review/AGREED.md): GPT\'s advice taken on every card. Agreed changes: S1 Hear the Guard First, S3 Before You Tell the Hardest Stuff, cuts C3 to C12, wording P2 (GPT\'s "Keep what you feel around them in mind, and look at their track record too."), P5 (his son line), P6 ("here"), and questions Q1 to Q3 (what each frequency claim is based on). Kept as they are: C1, C2, C13, P1, P3, P4, P7, P9, P10, S2, S4 (the next batch goes to him as proposals first), the 35 of L1 (L1.19\'s "healthiest ones ... slow and gentle protocols" stays open for its own check).',
+    '  - The candidates (experiments/t110-installs/reshape_t110.py, NOT installed): S1 is his instruction and question, then the exchange in one paragraph in his order from before turn 109 ("It might say" as he wrote it), the harder voice with "the Nurturer voice" (P8), the roommate, move-out (its long sentence split, "call it all off"), hopes, self-blame ("a protective job"); the last two fixes came from a fresh cold read (experiments/t110-review/COLD-READ.md). S3 puts his two danger lines back after the dream line. --install NOTE puts both in once he approves; OWNER-EDITS joel-109-20261025 (its must-not-contain "It might say this will just be one more performance") and bus-h3 get updated in the same turn.',
+    '  - API checks (experiments/t110-api/API-CHECKS.md, batches t110-api-1 to -3, ledger #300 to #309, 10 checks, 10 right): every changed paragraph of 50 words or more Human alone, Hear the Guard First as a section Human twice (the second with the cold-read fixes, no Low windows), Before You Tell the Hardest Stuff Human (its lineage\'s 2 of 2), and Start With Whatever Showed Up as a section Human (the check turn 109 held).',
+    '  - His review sheet: %s, republished (the same link as turn 109, now tools/humanization/suggestion_review.py\'s whole-guide page with capabilities db and downloads; its master is experiments/t110-review/REVIEW.html, built by build_review.py from REVIEW.json; browser test 80 checks pass). 18 cards: 15 changes and 3 questions. His answers arrive as pasted JSON, or in the artifact\'s store (ArtifactData collection "decisions") when he answers on this account.' % SHEET,
+    '  - Tools and lessons: suggestion_review.py shows each change as two clean texts (now and as it would read), a section in a new order as the whole passage ("reads"), and a question as a card with an answer box ("advice": "ask"), E266 (Inner Child); the point-of-view brief takes GPT\'s corrections (a point of view needs no story, "I\'d" stays, a frequency claim gets a basis question), E267 (Inner Child). Both are in docs/HUMANIZATION-GATE.md near the top; the next lesson in either lane is E268.',
+    '  - NEXT: Next step 1.',
+])
+next1 = ('1. His answers from the review sheet (question 107 on OWNER-QUESTIONS.md; he pastes the JSON from either account, or '
+         'it is in the artifact\'s store; the sheet\'s master is experiments/t110-review/REVIEW.html, its ids S1, S3, C3 to C12, '
+         'P2, P5, P6 and Q1 to Q3). Install what he approves: S1 and S3 with experiments/t110-installs/reshape_t110.py --install '
+         'NOTE (and OWNER-EDITS joel-109-20261025 and bus-h3 the same turn), the cuts and wording changes word for word; check '
+         'each changed paragraph of 50 words or more alone and then its section; put his three answers in as article sentences '
+         'beside his words (E261 (Inner Child)). Then the next reshape batch as proposals on a review page before anything moves '
+         '(How to Forgive Without Forgetting, How Much Happiness Do You Know Is Possible?, Borrow One Competency at a Time, '
+         'Differentiation; The Parent You Inherited only with his OK), then round 7, the next whole-article check, in the two '
+         'temporary drafts (paste with experiments/t88-substack/paste_payload_lane.js; he sends the result links). Many items '
+         'go to him on a suggestion_review.py page, an open question names what it\'s about (E257), and every file named in '
+         'what he reads is a link to a page, never a folder (repo_links.py).')
+upd = {
+    'turn': '110',
+    'replace': [
+        [e('TURN 109 (2026-10-25, his answers of 2026-10-25 14:20 UTC; by %s), the latest; its next step wins over everything below. Branch %s; %s for him to merge.' % (S, BR, PR)),
+         'TURN 109 (2026-10-25, his answers of 2026-10-25 14:20 UTC; by %s), FINISHED. Branch %s; %s, still open for him to merge.' % (S, BR, PR), 1],
+        [e('this version is from turn 109 (his answers of 2026-10-25 14:20 UTC; pull request #246 for him to merge).'),
+         'this version is from turn 110 (his message of 2026-10-25 17:26 UTC; pull request #246 for him to merge).', 1],
+        [e('turns 59 to 76 and 100 to 109 by %s' % S), 'turns 59 to 76 and 100 to 110 by %s' % S, 1],
+        [e('  - experiments/t109-answers/, t109-installs/, t109-api/, t109-windows/ (round 6\'s saved windows), t109-pov/ (the point-of-view read) and t109-review/ (his review sheet) (the latest turn), '),
+         '  - experiments/t110-answers/ (his message and GPT\'s review), t110-review/ (the agreement, the cold read and his review sheet), t110-installs/ and t110-api/ (the latest turn), t109-answers/, t109-installs/, t109-api/, t109-windows/ (round 6\'s saved windows), t109-pov/ (the point-of-view read) and t109-review/ (turn 109\'s sheet) (turn 109), ', 1],
+        [r"^1\. His decisions from the review sheet \(question 106 on OWNER-QUESTIONS\.md;.*$", next1, 1],
+    ],
+    'insert_before': [
+        ['- TURN 109 (2026-10-25', turn110],
+        ['- A link goes to a page he can read, never to a folder',
+         '- A page he may pass on survives a paste: each change shows as two clean texts, and after another reviewer has gone over a sheet, the next page has only what both recommend, with the agreement card by card beside it (E266 (Inner Child), turn 110).\n'
+         '- A point of view is a judgment, a distinction, a reason or a suggestion, and needs no story: an "I\'d" with its reason nearby stays, a fix never makes it a command, a frequency claim gets one question about its basis, and a short line carrying a distinction or a threshold is a cut only when the same point is said nearby (E267 (Inner Child), turn 110).'],
+    ],
+    'sections': {
+        '## Waiting on Joel': '\n'.join([
+            '1. His answers on the review sheet (question 107 on OWNER-QUESTIONS.md): the two sections in the agreed order, ten cuts, three wording changes and three questions.',
+            '2. His merge of pull request #246 (turns 109 and 110).',
+            '3. The two temporary Substack drafts, "Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)", stay for round 7; his delete comes after its results.',
+            '4. Never in the article: amounts (the 1g, the 7g) and any recipe for what to take instead, including his "ultimate psychedelic recipe" line and its link.',
+        ]),
+    },
+}
+OUT.write_text(json.dumps(upd, indent=1, ensure_ascii=False) + '\n', encoding='utf-8')
+print('wrote', OUT)
+if '--test' in sys.argv:
+    sys.path.insert(0, str(ROOT / 'tools' / 'humanization'))
+    from handoff_note import apply
+    note = pathlib.Path(sys.argv[sys.argv.index('--test') + 1]).read_text(encoding='utf-8')
+    new, done = apply(note, upd)
+    print('\n'.join(done))
+    print(len(note), '->', len(new), 'characters')

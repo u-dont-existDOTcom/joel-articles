@@ -200,7 +200,10 @@ KEEPS: every sentence
             C.make(src, out, parts=1, read='pov')
             brief = (out / 'BRIEF-1.txt').read_text(encoding='utf-8')
             for want in ('omission test', 'Who cares what I want?', 'SOURCE-SUPPORTED', 'ARTICLE-HINTED', 'NEW OWNER CHOICE',
-                         'You can figure that out later.', 'it\'s an objection that so many people have raised to me'):
+                         'You can figure that out later.', 'it\'s an objection that so many people have raised to me',
+                         # E267 (Inner Child): a point of view needs no story, "I'd" stays, and a frequency claim gets a basis question
+                         "it doesn't need a story", 'never offer to make his "I\'d" a command', "what it's based on",
+                         'about this very point', 'it is a CUT only when the same point is said nearby'):
                 self.assertIn(want, brief)
             self.assertEqual((out / 'KIND').read_text().strip(), 'pov')
             (out / 'READER-1.md').write_text(

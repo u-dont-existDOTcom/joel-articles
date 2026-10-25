@@ -9,7 +9,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/inner-child
 | Pangram 4.0 (before the ledger) | 3085 | 1395 (45%) | 57% | 43% | 96% | - |
 | Pangram 4.1 GUI (dashboard) | 28 | 27 (96%) | 4% | 96% | 100% | 0.104 (base 0.034, 28) |
 | pangram-4.1-substack | 85 | 59 (69%) | 45% | 55% | 58% | 0.187 (base 0.247, 85) |
-| pangram-4.1-api | 177 | 134 (76%) | 35% | 65% | 82% | 0.202 (base 0.228, 177) |
+| pangram-4.1-api | 187 | 144 (77%) | 33% | 67% | 83% | 0.196 (base 0.222, 187) |
 
 106 of the older calls are scored here differently from the lane's own marks (98 marked right there, 8 marked wrong): this page uses one rule for every lane, where only a 100% Human result is a pass and a "Mixed" or "Human with an AI window" call counts as not Human.
 
@@ -79,16 +79,16 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 39 (78%) | 26% | 74% | 96% | 0.209 (base 0.192, 50) |
-| the latest 100 | 100 | 74 (74%) | 32% | 68% | 92% | 0.208 (base 0.218, 100) |
-| all | 177 | 134 (76%) | 35% | 65% | 82% | 0.202 (base 0.228, 177) |
+| the latest 50 | 50 | 41 (82%) | 22% | 78% | 96% | 0.191 (base 0.172, 50) |
+| the latest 100 | 100 | 75 (75%) | 31% | 69% | 92% | 0.198 (base 0.214, 100) |
+| all | 187 | 144 (77%) | 33% | 67% | 83% | 0.196 (base 0.222, 187) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 91 | 68 (75%) | 36% | 64% | 82% | 0.198 (base 0.231, 91) |
-| section | 66 | 49 (74%) | 33% | 67% | 86% | 0.213 (base 0.222, 66) |
+| paragraph | 97 | 74 (76%) | 34% | 66% | 84% | 0.191 (base 0.224, 97) |
+| section | 70 | 53 (76%) | 31% | 69% | 87% | 0.207 (base 0.216, 70) |
 | stretch | 20 | 17 (85%) | 35% | 65% | 70% | 0.182 (base 0.227, 20) |
 
 Calibration:
@@ -96,9 +96,9 @@ Calibration:
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.2 to 0.4 | 12 | 0.32 | 8% |
-| 0.4 to 0.6 | 130 | 0.55 | 65% |
-| 0.6 to 0.8 | 99 | 0.63 | 79% |
-| 0.8 to 1.0 | 1 | 0.80 | 100% |
+| 0.4 to 0.6 | 133 | 0.55 | 66% |
+| 0.6 to 0.8 | 107 | 0.63 | 80% |
+| 0.8 to 1.0 | 3 | 0.80 | 100% |
 
 ## Misses since the ledger (70)
 
@@ -216,6 +216,5 @@ The latest:
 | t107s-A | stretch | 1 of unlimited (Substack) | Mixed |
 | t107s-B | stretch | 1 of unlimited (Substack) | Mixed |
 | t109-guard-plain | paragraph | 4 of 6 | Mixed |
-| t109-guard-performance | paragraph | 3 of 6 | Mixed |
 | t109-start-plain | paragraph | 1 of 6 | Mixed |
 
