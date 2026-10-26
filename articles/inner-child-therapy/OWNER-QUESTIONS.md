@@ -1,44 +1,44 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-26 (turns 82 to 113). **Open questions: 110.** For you to do: give GPT the review sheet, and merge pull request #252. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-26 (turns 82 to 114). **Open questions: none.** For you to do: check the two drafts in Pangram and send me the two links, and merge pull request #252. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
-The published page, a view of this file rebuilt after every change ([questions_page.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/tools/questions_page.py)), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA [owner-questions-page.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/owner-questions-page.md), [cross-account-continuity.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/cross-account-continuity.md)). Only the account that published the page can republish it, so after a turn by your other account (turns 100 to 113), this file is newer than the page until the next republish.
+The published page, a view of this file rebuilt after every change ([questions_page.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/tools/questions_page.py)), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA [owner-questions-page.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/owner-questions-page.md), [cross-account-continuity.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/cross-account-continuity.md)). Only the account that published the page can republish it, so after a turn by your other account (turns 100 to 114), this file is newer than the page until the next republish.
 
 ## Open questions
 
-### 🟣 110. The review sheet: case headings in 8 sections, long paragraphs split, and your 109 A wording (turn 113)
-
-Everything is on [the review sheet](https://claude.ai/artifact/LTEDB18wTYzuUkgobzbUrn), the whole guide with each change in place, for you and then GPT, as you asked ("do the major edits as you suggested and then i can see what GPT thinks of all the changes"). Nothing in the guide changes until you approve. The sheet's file is [REVIEW.html](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t113-review/REVIEW.html) (download it and open it in a browser if the link doesn't open from your other account).
-
-- **36 case headings in 8 sections**, over each paragraph that is its own case, so a reader can skip to theirs. 18 are your own words from the paragraph under them; the other 18 have new words, and each passed the owner-delivery gate first ([GATE.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t113-gate/GATE.md)).
-- **Long paragraphs split** where they change subject, every sentence kept: How Would You Know It's Helping? (210 words, in four) and How to Forgive Without Forgetting's last paragraph, and inside the headed sections one each in Start With Whatever Showed Up, When to Change the Strategy and Other Folks Also Have Hooks, and two in When Escape Leaves Reality Behind. In Start With Whatever Showed Up one sentence also moves up three sentences, to stay with what it's about.
-- **Your 109 A**: "the blind spot behind it even has a name, Solomon’s paradox", the rest of your sentence as it is.
-- **One question**: your guide's test line says "makes me more grounded, truthful, and free" in a paragraph that talks to "you". My pick: "you".
-
-The sections I looked at and would leave as they are, with why, are in the sheet's opening. Four fresh readers read every section as it would read, and what I did with each of their notes is in [COLD-READ.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t113-shape/COLD-READ.md).
-
-- **A (my pick):** give GPT the sheet as you planned (on the page, select all and copy), and paste its review here. I take both, as in turn 110, and the next sheet has only what we both recommend.
-- **B:** decide the cards yourself now: Approve, Reject or Revise on each, then "Save / send" and "Copy my answers", and paste them here.
+None right now.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Merge pull request #252 (turn 113)
+### 🟠 Round 8: check the two drafts in Pangram and send me the two links (turn 114)
 
-Turn 113: the lane's [pull request #252](https://github.com/u-dont-existDOTcom/joel-articles/pull/252). Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged". (You merged #250, turn 112.)
+The two temporary Substack drafts now hold the guide as installed, with everything you approved from the review sheet, so the free check reads the new headings and splits in their real places. In your Brave, open [draft A](https://ibogaqueen.substack.com/publish/post/221982879) and [draft B](https://ibogaqueen.substack.com/publish/post/221983135), click Preview, then "Paid subscriber view" at the top. Click the green label next to the author's name, then "View Full Analysis", and send me each result page's link ("Copy shareable link to result"). The label's word isn't the result; the result page's windows are what I read. That takes about two minutes.
 
-### 🔵 The two temporary Substack drafts: keep them for the next check (turn 113)
+### 🟠 Merge pull request #252 (turns 113 and 114)
 
-"Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)" still hold round 7's text. The next check puts in what you approve from the review sheet. Once its results are in, a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
+The lane's [pull request #252](https://github.com/u-dont-existDOTcom/joel-articles/pull/252) now holds turn 113's review sheet and turn 114's install. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged". (You merged #250, turn 112.)
+
+### 🔵 The two temporary Substack drafts: keep them until round 8 is read (turn 114)
+
+"Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)" hold round 8, the guide as installed. Once its results are in, a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 110, 2026-10-26 00:52 UTC
+
+Your message ([JOEL-20261026-0053.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t114-answers/JOEL-20261026-0053.md)), "oh yeah i didn't need gpt that was easy, it's way easier to read now", with your answers from the review sheet ([ANSWERS-20261026-0052.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t114-answers/ANSWERS-20261026-0052.json)).
+
+- **All eleven cards approved:** every section is in as the sheet showed it, word for word: the 36 case headings, the splits, the one sentence moved up in Start With Whatever Showed Up, and your 109 A ([apply_t114.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t114-installs/apply_t114.py), which checks that the guide without its notes is exactly the sheet's version).
+- **Q-me, "you":** the line now reads "The test is whether the relationship makes you more grounded, truthful, and free."
+- **GPT's review:** not needed, as you said.
 
 ### 🟢 109 and round 7, 2026-10-25 22:38 UTC
 
@@ -943,9 +943,9 @@ Your answers to 45 and 47 to 54, word for word, are in [experiments/t72-answers/
 > [!NOTE]
 > Work that may need you later, and what happens if nothing changes.
 
-### 🔵 Next: GPT's review, then a sheet of what we both recommend (turn 113)
+### 🔵 Next: round 8's windows, then Untangling the Belonging Bargains (turn 114)
 
-When GPT's review is in, I take its advice card by card as in turn 110, and the next sheet has only what we both recommend. What you approve goes in word for word, and then the two drafts get it for the free check.
+When your two result links are in, I read each half's windows, and fix what a window shows, a diagnosed draft at a time. Then the first paragraph of Untangling the Belonging Bargains, which read AI alone.
 
 ### 🔵 Next
 

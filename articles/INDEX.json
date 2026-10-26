@@ -235,7 +235,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "96c2031bfde93b0f75e20e16609636c1b170cedbd521fedf671c54daddc7c9ac"
+          "sha256": "9dede4054784eef61f86113df7454d9b3de65282d097161031f3051e099c2b38"
         }
       },
       "review": {
@@ -5534,7 +5534,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "d490170bc6d924ca1dbeaa998156f8ec1250752d52e37a3ab73392a84f47d2f4",
+          "sha256": "826d0557560661697b71cf6380736951b9f8aa75930c322ca81789da5ca9a993",
           "role": "owner_questions_page"
         },
         {
@@ -22854,7 +22854,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HANDOFF-UPDATE.json",
-          "sha256": "bf7346409e96585a4a0cf01d4ff971a563e52a9fb1da230bf1402da34a97a4dc",
+          "sha256": "947654f85c07a618ddcf2f6df5d88b527cb6b6fa16487c2d849fba1469790e26",
           "role": "humanization_working_record"
         },
         {
@@ -31505,6 +31505,21 @@
         {
           "path": "articles/inner-child-therapy/experiments/t114-substack/make_payloads.py",
           "sha256": "06b76da6c02527e21ae9dcb2e0c2a3e2d6f68d0c18cb9110e817c90f2c5b14dd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t114-installs/handoff_t114.py",
+          "sha256": "0e58cbb0e5e649d50dd9b2b55bd1d37847de1c1d0f12542efec72f58df883885",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t114-installs/questions_t114.py",
+          "sha256": "7d3f17b6ec1d574b4438a50d440624511d3ba72726c83436e63bf8f68cf1bef4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t114-substack/PASTED.json",
+          "sha256": "229db62bf2b54a53a77946ec488c17ccd38877d9e13b877d90aff0fc2a3a2786",
           "role": "humanization_working_record"
         }
       ]
