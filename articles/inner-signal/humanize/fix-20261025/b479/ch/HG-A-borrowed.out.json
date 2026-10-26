@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ch/HG-A-borrowed.txt",
+  "input_words": 105,
+  "input_sha256": "5fdabce492eb93730ced1b9132d48e7d19ba3d115e1fa950b08c38a2c1d3c5d2",
+  "balance_before": 51791,
+  "started_utc": "2026-10-26T00:07:05Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T00:07:12Z",
+  "response": {
+    "id": "11724529-fb33-47c7-9054-1c3de30217c0",
+    "tool": "humanize",
+    "text": "The problem is that some people cannot access their adult at will. They go blank, or access an inherited inner critic, or worse still a child part who may be playing at being an adult (what I call forced adulthood). For such people, saying ‘just access or use or be in or be from (whatever) their adult’ is the equivalent of saying to a baby bird – ‘just fly’.\n\nSo, I came up with the idea of constructing a bridge – a temporary fix – a borrowed adulthood, if I can put it that way. It’s made up of a number of things that I know work (such as modelling and supported action), even though I don’t know if the whole sequence has been tried before.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 105
+    },
+    "elapsed": 7
+  },
+  "balance_after": 51686
+}

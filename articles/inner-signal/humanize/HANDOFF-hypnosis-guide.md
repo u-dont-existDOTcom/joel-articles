@@ -111,17 +111,17 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: **the whole guide's recheck**, two secret draft links for his Brave (the Pangram extension; he copies each
-result's link with "Copy shareable link to result"):
-- part A, the main guide to its first 99,999 characters: https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-25&audience=only_paid&free_preview=false&freemail=
-- part B, from Closing to the end of the appendices: https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-25&audience=only_paid&free_preview=false&freemail=
-No open questions (20 is answered).
+The guide: **the recheck with batch 479's candidates in**, two secret draft links for his Brave (the Pangram extension; he
+copies each result's link with "Copy shareable link to result"):
+- part A, the main guide to its first 99,999 characters: https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-26&audience=only_paid&free_preview=false&freemail=
+- part B, from Closing to the end of the appendices: https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-26&audience=only_paid&free_preview=false&freemail=
+No open questions; the candidates go on his page once this recheck says how each reads in place.
 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
 
-Pull request 251 (the 19:42 and 23:05 turns: his answers, the strict Emulate check of both articles, the guard sweep, the
-recheck payloads) waits for his merge; 247 was merged on 2026-10-25. The community lane's own state is in its handoff.
+Pull request 251 was merged at 2026-10-25 23:47 UTC; this turn's work is pull request 253
+(https://github.com/u-dont-existDOTcom/joel-articles/pull/253). The community lane's own state is in its handoff.
 
 ## Where it stands
 
@@ -202,7 +202,36 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-10-25, after Joel's message of 23:05 UTC: his answers to 20 are in; the whole guide's recheck waits on his Brave)
+## Next step (2026-10-26, after Joel's message of 2026-10-25 23:50 UTC: the recheck read; batch 479's recheck waits on his Brave)
+
+His message, word for word: `fix-20261025/joel-20261025-2350-message.txt` (the two result links). Done (pull request 253):
+- **The recheck, read** (`fix-20261025/recheck/`: WINDOWS-A/B.txt from the pages in compact mode, SHA-256 checked;
+  META-A/B.json; RESULT-A/B.json rebuilt with `substack_check_text.py result`; SCORE-A/B.md): part A Mostly Human Written,
+  0.9% AI, 7 of 161 windows; part B Mostly Human Written, 2.2% AI, 8 of 61 windows, one the audit he kept (2c).
+  HG-whole#60 and HG-rest-B#61 right (Mixed); the forecasts 244 of 248 and 156 of 162.
+- **Batch 479** (`fix-20261025/b479/README.md` has every step): each red stretch traced (S1 to S6); Emulate's three
+  samples of each (cg, ch, ci); S1 his own whole sentence; splices after two meaning reads; the four High spots Human,
+  High, alone (479g, ledger #62 to #65); `CANDIDATE-MASTER.md` (the working copy with every candidate in; the working copy
+  itself unchanged); the recheck built from it (`b479/recheck/`), predicted (HG-whole#66, HG-rest-B#67), forecast
+  (FORECAST-A/B.json), pasted into the same two drafts and checked rendered (RECHECK-POST-A/B.json).
+- Lesson E275 (an alignment card brings his whole sentence), and `docs/FIXING-AN-ARTICLE.md` 6.12.
+
+Next:
+1. When he sends the two result links: read them as in `fix-20261025/recheck/` (compact mode, WINDOWS checked against the
+   page's SHA-256, META with part B's card line in "embeds", RESULT rebuilt from `b479/recheck/PAYLOAD-A.html` and
+   `PAYLOAD-B.html`), the ledger results for HG-whole#66 and HG-rest-B#67, `part_forecast.py score` on
+   `b479/recheck/FORECAST-A.json` and `FORECAST-B.json`.
+2. Each candidate that reads Human in place goes on his page (`tools/humanization/suggestion_review.py`) beside the words
+   it replaces: S2 to S6 through the owner-delivery gate first (`docs/HUMANIZATION-OWNER-DELIVERY-GATE.md`; the folders and
+   briefs as in `fix-20261025/emulate-check/gate/`, two or three drafts a reviewer, E270); S1 is his own sentence. S4 and
+   S6 replace his own words (his inner child guide's two sentences; his published test), so their cards show his words
+   first. A spot that reads red again: Emulate's re-run of that sample (E235), or back to him with the check's link and
+   part number (E214).
+3. After his answers: a script puts them into `HUMANIZED-SO-FAR.md` (as `fix-20261025/emulate-check/apply_answers_20.py`
+   did), then the copy helper (`docs/SUBSTACK-HELPER-DELIVERY-GATE.md`) and his paste; delete both TEMP drafts when done
+   (E204: he deletes them; name them by title).
+
+## Earlier next step (2026-10-25, after Joel's message of 23:05 UTC: his answers to 20 are in; the whole guide's recheck waits on his Brave)
 
 His message, word for word: `fix-20261025/joel-20261025-2305-message.txt` ("251 has conflicts" and "66a", with both
 pages' answers files). Done (pull request 251, https://github.com/u-dont-existDOTcom/joel-articles/pull/251):

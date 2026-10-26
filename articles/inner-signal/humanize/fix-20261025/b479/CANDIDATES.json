@@ -1,0 +1,198 @@
+{
+ "guide_sha256": "c38ca36f298d91edc9d38b8d216ef024b0bdf7634fdfccc093d63927d7bbfcfd",
+ "candidate_master_sha256": "e63253a88546b23252796af84276536711ceafd5504fc9fb6e30b0cc1afb041c",
+ "spots": {
+  "S1": {
+   "part": "A",
+   "card": "IC-A2",
+   "where": "The inner child, the guards, and the inner adult’s three jobs, P2",
+   "block": 92,
+   "red": "Low, 16 words",
+   "sample": null,
+   "source": "his inner child guide, The Chicken-and-Egg Problem, word for word (the rent is his own edit, its OWNER-EDITS.json entry joel-upload-20261019)",
+   "old": "That’s one grown-up doing three jobs, and each job keeps the others in balance.",
+   "sample_words": "That’s one grown-up doing three jobs, not three more people moving in to help with the rent, and each job keeps the others in balance.",
+   "new": "That’s one grown-up doing three jobs, not three more people moving in to help with the rent, and each job keeps the others in balance.",
+   "fixes": [],
+   "published": "I organize that adult capacity into three functions: Nurturer, Protector, and Leader/Guru. They aren’t three literal beings. They’re three ways the present-day person reparents the inner child.\n(His inner child guide: \"That’s one grown-up doing three jobs, not three more people moving in to help with the rent, and each job keeps the others in balance.\")",
+   "api": false,
+   "lineage": null,
+   "left": [],
+   "note": null,
+   "paragraph_after": "Here I’m going to talk about what you develop in yourself as you reparent your inner child. I’m going to talk about it in terms of three jobs: your loving Nurturer, your safe Adult Protector (hereafter just the Protector) and your wise Guide. That’s one grown-up doing three jobs, not three more people moving in to help with the rent, and each job keeps the others in balance. It’s you that needs to develop these qualities.",
+   "paragraph_before": "Your inner child won’t trust you right away. It’s not going to be enough for you to meditate, say three nice sentences to the inner child and expect to have its trust. What’s going to help your inner child to trust you is you, the person you are right now, becoming reliable.",
+   "paragraph_next": "Also, your inner child’s worth is not dependent on these qualities… It has its own worth, and its own qualities, like playing, being tender, not taking life too seriously, being creative and wondering at the world. Those belong in your relationship with it too, not just the wounds."
+  },
+  "S2": {
+   "part": "A",
+   "card": "EM-2",
+   "where": "When the adult role is not available yet, P2",
+   "block": 96,
+   "red": "High, 46 words: the whole paragraph",
+   "sample": "ch/HG-A-borrowed",
+   "source": "Emulate sample ch/HG-A-borrowed (three samples: cg, ch, ci)",
+   "old": "For that starting point, I have developed a kind of provisional bridge that I call “borrowed adulthood.” It’s built from familiar practices like modeling and supported action, but I’m not suggesting that the whole sequence has been formally tested and proven as one treatment.",
+   "sample_words": "So, I came up with the idea of constructing a bridge – a temporary fix – a borrowed adulthood, if I can put it that way. It’s made up of a number of things that I know work (such as modelling and supported action), even though I don’t know if the whole sequence has been tried before.",
+   "new": "So, I came up with the idea of constructing a bridge – a temporary fix – a borrowed adulthood, if I can put it that way. It’s made up of a number of familiar practices (such as modeling and supported action), even though I’m not claiming the whole sequence has been proven as one treatment.",
+   "fixes": [
+    {
+     "replace": "a number of things that I know work",
+     "with": "a number of familiar practices",
+     "why": "his published \"It combines familiar practices\": the practices are familiar ones, not ones he says he knows work"
+    },
+    {
+     "replace": "modelling",
+     "with": "modeling",
+     "why": "the guide's spelling"
+    },
+    {
+     "replace": "even though I don’t know if the whole sequence has been tried before",
+     "with": "even though I’m not claiming the whole sequence has been proven as one treatment",
+     "why": "his published \"without claiming that the complete sequence has been validated as one treatment\": a claim he doesn't make, not something he doesn't know, and proven, not tried (the meaning reader, REVIEW-A1.md: \"I don't know if\" is about his knowledge, not about what he claims, and \"tested\" is a lower bar than \"validated\")"
+    }
+   ],
+   "published": "For that starting point, I use a provisional, author-developed bridge I call borrowed adulthood. It combines familiar practices—witnessing, modeling, supported action, and gradual transfer of responsibility—without claiming that the complete sequence has been validated as one treatment.",
+   "api": true,
+   "lineage": "HG-adult-unavailable-P2",
+   "left": [
+    "two of his four practices, as in EM-2, which he approved (\"a list of four reads as AI\"); both meaning readers named the other two as lost, and the section carries both as its steps: witnessing is the next paragraph (\"Access your witnessing position\"), and the gradual handing over is the apprentice adult hat and its return, \"noticing what you borrowed and what you were able to do on your own (even if it's only 5%)\"",
+    "\"a temporary fix\" for \"provisional\", and \"I came up with the idea of constructing\" for \"I use\" (the reader: minor, the same interim sense, author-developed kept)"
+   ],
+   "note": null,
+   "paragraph_after": "So, I came up with the idea of constructing a bridge – a temporary fix – a borrowed adulthood, if I can put it that way. It’s made up of a number of familiar practices (such as modeling and supported action), even though I’m not claiming the whole sequence has been proven as one treatment.",
+   "paragraph_before": "The problem is that some people do not have access to their adult functions at will. Instead, they may go blank, access an inherited inner critic, or feel like a child part who may be playing at being an adult (what I call forced adulthood). Telling them to just access their adult is like telling a baby bird to just fly.",
+   "paragraph_next": "Access your witnessing position if necessary, just noticing what’s there, without needing it to be warm or wise or certain. If you already know how to access different internal positions, move immediately to accessing the adult position you want to borrow."
+  },
+  "S3a": {
+   "part": "A",
+   "card": "RR-4.6",
+   "where": "Before you begin, P3",
+   "block": 243,
+   "red": "Low, from its second half into \"Deciding to do it.\"",
+   "sample": "ci/HG-A-stop",
+   "source": "Emulate sample ci/HG-A-stop (three samples: cg, ch, ci)",
+   "old": "(The part below called \"Already open? Contain before you deepen\" can be used to help orient you if you're already open, but don't use it to make yourself deeper if you're not stable.)",
+   "sample_words": "If you are already partally or fully opened, you can use the 'Already open? Contain yourself before deepening' section to help orient yourself, but do not attempt to deepen yourself if you are not in a safe state.",
+   "new": "If you are already partially or fully opened, you can use the later 'Already open? Contain before you deepen' section to help orient yourself, but do not attempt to deepen yourself if you are not stable.",
+   "fixes": [
+    {
+     "replace": "partally",
+     "with": "partially",
+     "why": "spelling"
+    },
+    {
+     "replace": "if you are not in a safe state",
+     "with": "if you are not stable",
+     "why": "his published \"an unstable state\", and the guide's own \"if you're not stable\" there since recheck A4 (the second meaning reader, REVIEW-A3.md: \"not in a safe state\" is a weaker trigger than \"unstable\")"
+    },
+    {
+     "replace": "the 'Already open? Contain yourself before deepening' section",
+     "with": "the later 'Already open? Contain before you deepen' section",
+     "why": "the heading's own words, so the reader can find it (RR-4.6's reason), and his published \"The later Already open? practice\""
+    }
+   ],
+   "published": "Choose a physically secure place without driving, water, machinery, or anyone needing your supervision. When intoxicated, acutely confused, or unable to keep yourself safe, deal with immediate support rather than exploratory hypnosis. The later Already open? practice is for orientation, not permission to intensify an unstable state.",
+   "api": false,
+   "lineage": null,
+   "left": [
+    "\"partially or fully\": Emulate's, and true of the section (\"Use this when ... has already opened the state\")"
+   ],
+   "note": "sample ci, not cg: the meaning reader (REVIEW-A2.md) failed cg's \"don't deepen if you can't be safe\" as narrower than his \"an unstable state\" and its \"you can use\" for losing \"is for orientation\"; ci keeps \"to help orient yourself\" and \"if you are not in a safe state\"",
+   "paragraph_after": "Put yourself in a place where you can safely do this. Don't do this if you're driving, in the water, operating machinery, or otherwise need to be attending to yourself or other people. If you are intoxicated, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. If you are already partially or fully opened, you can use the later 'Already open? Contain before you deepen' section to help orient yourself, but do not attempt to deepen yourself if you are not stable.",
+   "paragraph_before": "Get clear on what it is you want to do during the induction. What do you want not to do today? How long do you want to spend on this? (You don't have to do this on a problem. You can do it on something you want to experience more of: love, play, confidence, creativity, communion, whatever.) Make sure you're leaving some time at the end to come back, and reflect on what you experienced.",
+   "paragraph_next": "Deciding to do it. How will you coax yourself to do this? Make it spacious? Make it warm and held? Something else? Preview what you are going to do: will you close your eyes? Will you come out and go back in again? What will you do at the end? If you are going to use a recording, read the script if you can. Remind yourself that if you say 'stop' at any time, the induction will end. If you say 'less', you will be asked to do less. If you say 'quiet', the talking will stop. You can also just open your eyes and stop, and then come all the way back anyway. You don't need to ask any parts for permission to stop, even if a part tells you that you do."
+  },
+  "S3b": {
+   "part": "A",
+   "card": "RR-4.1",
+   "where": "Before you begin, P4",
+   "block": 244,
+   "red": "four Low windows marked humanized, the last four sentences (these two changed since recheck A4)",
+   "sample": "cg/HG-A-stop",
+   "source": "Emulate sample cg/HG-A-stop (three samples: cg, ch, ci)",
+   "old": "Know that you can say \"stop\" at any time and the induction will end. If you want to change something, say \"less\" if you want it to be asking for less from you, or say \"quiet\" and the talking will stop.",
+   "sample_words": "Remind yourself that if you say 'stop' at any time, the induction will end. If you say 'less', you will be asked to do less. If you say 'quiet', the talking will stop.",
+   "new": "Remind yourself that if you say 'stop' at any time, the induction will end. If you say 'less', you will be asked to do less. If you say 'quiet', the talking will stop.",
+   "fixes": [],
+   "published": "Decide what kind of encouragement is welcome: spacious listening, warm company, or a firmer invitation to stay with a feeling. Preview eye closure, any repeated exit and re-entry, and the return. For a recording, read the script beforehand when possible. “Stop” ends the exercise; “less” reduces the demand; “quiet” stops the words. You can simply open your eyes and finish. No inner part has to approve your decision to stop.",
+   "api": false,
+   "lineage": null,
+   "left": [
+    "the two sentences after these stay as they are (\"You can also just open your eyes and stop, and then come all the way back anyway.\" and \"You don't need to ask any parts for permission to stop, even if a part tells you that you do.\"): unchanged since recheck A4, where they read Human, and red in the last check only beside RR-4.1's two; both meaning readers failed sample cg's versions of them, as a promise of a full return (REVIEW-A2.md, REVIEW-A3.md) and for \"permission to do this\" (REVIEW-A2.md)"
+   ],
+   "note": "round 1 also spliced cg's last two sentences; round 2 keeps only the two that RR-4.1 changed",
+   "paragraph_after": "Deciding to do it. How will you coax yourself to do this? Make it spacious? Make it warm and held? Something else? Preview what you are going to do: will you close your eyes? Will you come out and go back in again? What will you do at the end? If you are going to use a recording, read the script if you can. Remind yourself that if you say 'stop' at any time, the induction will end. If you say 'less', you will be asked to do less. If you say 'quiet', the talking will stop. You can also just open your eyes and stop, and then come all the way back anyway. You don't need to ask any parts for permission to stop, even if a part tells you that you do.",
+   "paragraph_before": "Put yourself in a place where you can safely do this. Don't do this if you're driving, in the water, operating machinery, or otherwise need to be attending to yourself or other people. If you are intoxicated, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. If you are already partially or fully opened, you can use the later 'Already open? Contain before you deepen' section to help orient yourself, but do not attempt to deepen yourself if you are not stable.",
+   "paragraph_next": "If you are new to this or haven't done it for a while, work on the coming in and coming out part first, don't bring in the hard stuff till later. You don't have to watch yourself all the time, but for the first time, make sure you can change state. Let yourself make it easier and easier to do this and notice that it takes less and less of you to do it. A no will stay a no. The narrator can't add stuff just because you don't say anything."
+  },
+  "S4": {
+   "part": "B",
+   "card": "IC-B12",
+   "where": "Core prompts, P8",
+   "block": 480,
+   "red": "Low (5 words) and High (24 words): these two sentences",
+   "sample": "ci/HG-B-act",
+   "source": "Emulate sample ci/HG-B-act (three samples: cg, ch, ci)",
+   "old": "It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and you've checked it against what you actually know.",
+   "sample_words": "It should make sense to you and if it's something big or hard to undo, wait till you're calm and then check it out with what you know.",
+   "new": "It should make sense to you and if it's something big or hard to undo, wait till you're calm and then check it out with what you know.",
+   "fixes": [],
+   "published": "His own words in his inner child guide (Start With Whatever Showed Up): \"If it tells you to do something, I'd only do it if it's loving and leaves you free. It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and you've checked it against what you actually know.\"",
+   "api": true,
+   "lineage": "HG-core-prompts-P8",
+   "left": [],
+   "note": null,
+   "paragraph_after": "Once you get an answer, you can ask: “What can I do in my ordinary life to prove that I heard correctly?” If it tells you to do something, I'd only do it if it's loving and leaves you free. It should make sense to you and if it's something big or hard to undo, wait till you're calm and then check it out with what you know.",
+   "paragraph_before": "When you want to know if a particular intuition you have is coming from your universal heart or from your programming: “I ask my wise subconscious mind to help me see if the intuition or impulse I have about …is coming from my universal heart or from my family, my religion, marketing, erotic programming, my political tribe, my trauma response or an old deal I did as a child to belong. If it’s coming from my programming, I ask the parts responsible for it to step back and soften only as much as is safe, so that I can have true guidance from my universal heart that will help me make my life better in the most simple ways possible. Let my body give me feedback as to the difference.”",
+   "paragraph_next": "The prompt will tell your subconscious what you want. The NLP in Appendix B can help you get it in a safer way, but that doesn’t make the answer automatically true."
+  },
+  "S5": {
+   "part": "B",
+   "card": "IC-B14",
+   "where": "Inner child love, P1",
+   "block": 630,
+   "red": "High (16 words), with the quote and the line before it Low and Medium",
+   "sample": "ch/HG-B-love",
+   "source": "Emulate sample ch/HG-B-love (three samples: cg, ch, ci)",
+   "old": "No warmth today? Then rest your hands there and notice what you find, no faking required.",
+   "sample_words": "If you can’t do this in a loving way today, just put your hands there and see what you feel. You don’t have to fake it!",
+   "new": "If you can’t do this in a loving way today, just put your hands there and see what you feel. You don’t have to fake it!",
+   "fixes": [],
+   "published": "Published: \"Start with the hand-on-heart, hand-on-solar-plexus practice. “Little one, you are not alone. You do not have to solve this. I am here now. The adult is listening.” Don’t recite the words like an incantation you’re hoping the subconscious will grade. Say them the way you’d speak to a frightened child you actually love.\"\n(His inner child guide's two-hand practice, where the added line comes from: \"No warmth today? Then rest your hands there and notice what you find, no faking required.\")",
+   "api": true,
+   "lineage": "HG-inner-child-love-P1",
+   "left": [],
+   "note": null,
+   "paragraph_after": "Here is some inner child love. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix it. I’m here now, and the adult is here now to listen to you.” Make sure you are actually talking to your inner child, who is scared to death. If you can’t do this in a loving way today, just put your hands there and see what you feel. You don’t have to fake it!",
+   "paragraph_before": "(the heading \"Inner child love\")",
+   "paragraph_next": "(the heading \"Anxiety script\")"
+  },
+  "S6": {
+   "part": "B",
+   "card": "EM-16",
+   "where": "A response check, not a verdict about what it is, P4",
+   "block": 700,
+   "red": "High, 17 words: this sentence",
+   "sample": "cg/HG-B-test",
+   "source": "Emulate sample cg/HG-B-test (three samples: cg, ch, ci)",
+   "old": "The useful question is whether this way of responding helps you become clearer, steadier, and less hooked.",
+   "sample_words": "Is it helping you to be clearer and steadier and less hooked?",
+   "new": "Is this way of responding helping you to be clearer and steadier and less hooked?",
+   "fixes": [
+    {
+     "replace": "Is it helping you",
+     "with": "Is this way of responding helping you",
+     "why": "his published \"whether this way of responding helps you\": the test is of the response, and \"it\" would read as the presence"
+    }
+   ],
+   "published": "Neither response establishes its origin. A protective part needn’t reveal its fear quickly; a comforting response doesn’t prove an interpretation either. The useful question is whether this way of responding helps you become clearer, steadier, and less hooked. Love and boundaries don’t require a verdict first.",
+   "api": true,
+   "lineage": "HG-response-check-P4",
+   "left": [],
+   "note": null,
+   "paragraph_after": "You don’t have to find out if it’s a guard immediately, and you may not be able to comfort it quickly. Is this way of responding helping you to be clearer and steadier and less hooked?",
+   "paragraph_before": "If you feel vulnerable, if you feel tightness in your throat, if you feel sadness or fear or like you’re trying to protect something, call upon your Nurturer. If you don’t feel better, or if it continues being hostile towards you, stop trying to deal with it and return to your body and the room.",
+   "paragraph_next": "(the heading \"Do not fight from fear\")"
+  }
+ }
+}

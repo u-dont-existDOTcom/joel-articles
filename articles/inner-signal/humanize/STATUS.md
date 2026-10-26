@@ -1,5 +1,36 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-26, after Joel's message of 2026-10-25 23:50 UTC (the two recheck links)
+
+**The recheck, read** (`fix-20261025/recheck/`: WINDOWS-A/B.txt checked against the pages' SHA-256, META, RESULT,
+SCORE): [part A](https://www.pangram.com/feed/4c912830-87c4-4ee1-bff1-5acc606dc4f7) Mostly Human Written, 0.9% AI, 7 of 161
+windows AI in three places; [part B](https://www.pangram.com/feed/6b07dbba-8dc6-42a0-b562-b46dbe778919) Mostly Human
+Written, 2.2% AI, 8 of 61 windows AI in four places, one the audit he kept (2c). HG-whole#60 and HG-rest-B#61 right. The
+part forecasts: A 244 of 248 parts right (Brier 0.016), B 156 of 162 (0.035), no red outside the forecast's parts. Pull
+request 251 was merged before his message; this turn is pull request 253.
+
+**Where the red came from** (`fix-20261025/b479/README.md`): four of the six stretches are in paragraphs his marking pages
+changed: IC-A2 (his inner child guide's sentence with his rent joke cut out), EM-2 (my plainer words, gated, approved),
+RR-4.1 and RR-4.6 (the stop lines before an induction), IC-B12 and IC-B14 (his inner child guide's words). The sixth is his
+published test, put back by EM-16.
+
+**Batch 479** (`fix-20261025/b479/`): Emulate first, three samples of each red paragraph; his own whole sentence for IC-A2;
+splices of the red sentences only, after two meaning reads (one change to the caution's claim, one sample swapped, two of
+cg's lines left as they were); the four High spots read Human, High, alone through the API (479g, 4 of 4 predictions
+right). A recheck with every candidate in (`b479/recheck/`, from CANDIDATE-MASTER.md; the working copy is unchanged) is
+predicted (HG-whole#66, AI at 0.20; HG-rest-B#67, AI at 0.02 for the audit), forecast part by part, pasted into the same two
+drafts and checked rendered. Waiting on his Brave for the two results; then the candidates that read Human in place go on
+his page, with the owner-delivery gate for Emulate's words.
+
+**Lesson** E275 (an alignment card brings his whole sentence, not a trimmed one).
+
+Predictions: HG-whole#60 and HG-rest-B#61 right (Mixed); 479g #62 to #65 right (Human); HG-whole#66 and HG-rest-B#67 open.
+Delegations (model, piece, check, outcome): Sonnet, the meaning read of S1 and S2 (REVIEW-A1.md), checked against the
+published lines by me: S2 fixed; Sonnet, S3a and S3b (REVIEW-A2.md): S3a's sample swapped, S3b fixed; Sonnet, S4 to S6
+(REVIEW-B.md): kept; Sonnet, round 2 on S2, S3a, S3b (REVIEW-A3.md): S3a's trigger fixed, S3b's last two lines left as
+they were, S2's two practices left out with the reason. Each reader had two or three items (E270).
+InnerSignal protocol loaded in the main thread: 0.2.1, 6d30a6b4...1e120f (read whole before the inner child candidates).
+
 ## 2026-10-25, after Joel's message of 23:05 UTC ("251 has conflicts", "66a", and his answers to question 20)
 
 **Pull request 251**: main had merged the Inner Child lane's turns 111 and 112 after my pushes, and both lanes' lesson

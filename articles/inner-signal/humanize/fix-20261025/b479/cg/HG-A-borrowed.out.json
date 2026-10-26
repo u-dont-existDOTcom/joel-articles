@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cg/HG-A-borrowed.txt",
+  "input_words": 105,
+  "input_sha256": "5fdabce492eb93730ced1b9132d48e7d19ba3d115e1fa950b08c38a2c1d3c5d2",
+  "balance_before": 52488,
+  "started_utc": "2026-10-26T00:06:12Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T00:06:20Z",
+  "response": {
+    "id": "125b8c32-aeb7-4aa3-8167-c644026d5b55",
+    "tool": "humanize",
+    "text": "I have seen people who do not seem to be able to access their adult at will. They either seem to go blank, or access some inner critic they have inherited, or feel that they are a child part who may be playing at being adult (what I call forced adulthood). So saying to these people “just access their adult” is like saying to a baby bird “just fly”.\n\nThe work I describe here is my attempt to find a way to help people to access their adult. It is based on tried and tested ways of working, but I do not know if the sequence I have developed has been tried before. I use the term “borrowed adulthood” to help describe what I am trying to do, namely to provide a provisional bridge to adulthood.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 105
+    },
+    "elapsed": 7
+  },
+  "balance_after": 52383
+}

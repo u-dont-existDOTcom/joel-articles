@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ch/HG-A-jobs.txt",
+  "input_words": 117,
+  "input_sha256": "3b39ae132acec625a01b5566be240e3e9bfe5abe38da7d38c7ef2df8b22c4705",
+  "balance_before": 51908,
+  "started_utc": "2026-10-26T00:06:56Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T00:07:04Z",
+  "response": {
+    "id": "e26233ba-3658-4a79-8992-ee4e6b430cd3",
+    "tool": "humanize",
+    "text": "Your inner child will not immediately trust you. It’s not enough to simply sit in meditation for a few moments, say three nice sentences to your inner child and expect it to trust you. What will help your inner child trust you, is you – you as you are right now – being reliable.\n\nIn this article I will talk about what you will need to develop in yourself to be able to reparent your inner child. I will do this in the context of the three jobs you need to do when reparenting, namely from your loving Nurturer, your safe Adult Protector (from now on, simply called the Protector) and your wise Guide. Remember that it is one grown-up who does all three jobs and that each job serves to keep the others in balance. It is for you to develop these qualities.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 117
+    },
+    "elapsed": 7
+  },
+  "balance_after": 51791
+}
