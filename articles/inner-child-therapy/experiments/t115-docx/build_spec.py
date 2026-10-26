@@ -195,11 +195,19 @@ def window_note(wm):
     return 'Round 8: %s, %s confidence (%.3f). Round 6, same words: %s. %s' % (lab, wm['confidence'], wm['calibrated_confidence'] or 0, r6, whose)
 
 
+def you(t):
+    """The fix records speak of Joel in the third person; the docx speaks to him."""
+    for x, y in (('his guide\'s', 'your guide\'s'), ('his Solomon', 'your Solomon'), ('his paragraph', 'your paragraph'),
+                 ('his line', 'your line'), ('he approved', 'you approved'), ('his words', 'your words')):
+        t = t.replace(x, y)
+    return t
+
+
 def fix_note(f):
     v = API['fixes'].get(f['id'], {})
     head = {'cut': 'My pass: a cut, nothing added.', 'reword': 'My pass: its point said plainly.'}[f['kind']]
-    return '%s Round 8 read: %s. The tell: %s. It keeps %s; it drops %s. %s' % (
-        head, f['windows'], f['tells'], f['keeps'], f['loses'], v.get('summary', UNCHECKED.get(f['id'], 'Its block is not checked yet.')))
+    return you('%s Round 8 read: %s. The tell: %s. It keeps %s; it drops %s. %s' % (
+        head, f['windows'], f['tells'], f['keeps'], f['loses'], v.get('summary', UNCHECKED.get(f['id'], 'Its block is not checked yet.'))))
 
 
 def suggest_note(s):
