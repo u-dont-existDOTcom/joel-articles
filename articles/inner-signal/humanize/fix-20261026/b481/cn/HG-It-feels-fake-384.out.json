@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cn/HG-It-feels-fake-384.txt",
+  "input_words": 160,
+  "input_sha256": "89525cffc11ed68a12f9497f9ab694484eacae0f32badf780a280b32d5649143",
+  "balance_before": 43429,
+  "started_utc": "2026-10-26T12:59:18Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:59:27Z",
+  "response": {
+    "id": "1d4c5c96-8453-4069-a2fd-8a6c87121c3c",
+    "tool": "humanize",
+    "text": "Do you know what aspect feels fake? The words, an image, something you want from this, a role you feel you have to take etc. It may not be that you don't have an inner voice or image it may not even be that you aren't ready or trying to avoid this work. It may be that it feels as though you are being instructed to do something you don't want to do. If this is the case then work with correcting this. It may be a protection so speak to it.\n\nYou could say something along the lines of: \"What are you protecting me from?\", \"Are you worried that I will lie to myself again?\", \"Are you worried that this will be fake?\" etc. The last one might hurt a little bit but there could be something there. You may have fooled yourself before and this is a part that wants to avoid this happening again. So try saying something like: \"Tell me what you remember about this, I want to hear what you have to say\".",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 160
+    },
+    "elapsed": 9
+  },
+  "balance_after": 43157
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cm/HG-Please-don-t-put-six-metapho-238.txt",
+  "input_words": 131,
+  "input_sha256": "e7e7572e91c94e04168c6f9e41d40f7e236f3bd872c2b65e5fafb42a3630ba56",
+  "balance_before": 46497,
+  "started_utc": "2026-10-26T12:58:12Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:58:19Z",
+  "response": {
+    "id": "dfb56e7a-b2e8-4557-99db-3d26d9e7d2a3",
+    "tool": "humanize",
+    "text": "Do you need to use metaphors or imagery? Not necessarily, use whatever signal makes sense. If you do use words, it helps if you make them related to your world, and if you're going to count, make it make sense in your world. When you're done, make sure to come back the other way. It's okay to borrow qualities for this, just don't change who you are.\n\nSome other things to think about while you write: What verb are you going to use? What's the sensory quality? What's your short refrain? How will you transition? It's also nice to read it out loud as you go. Really long, elegant sentences don't read well for induction. It's all just soup.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 131
+    },
+    "elapsed": 7
+  },
+  "balance_after": 46104
+}

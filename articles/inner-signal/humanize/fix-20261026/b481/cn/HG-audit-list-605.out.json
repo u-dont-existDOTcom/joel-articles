@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cn/HG-audit-list-605.txt",
+  "input_words": 119,
+  "input_sha256": "b683d8526ea88e474ce4b91b7897121027a61eb48ab1f2bd2428f9eafa07c2fd",
+  "balance_before": 41526,
+  "started_utc": "2026-10-26T13:00:17Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T13:00:29Z",
+  "response": {
+    "id": "46429d75-05c1-4873-8f67-76a90c61250e",
+    "tool": "humanize",
+    "text": "Prior to undergoing any recording or live presentation, be certain that:\n\nWere the use of induction techniques explained to me?\n\nHave I been given the opportunity to pause, alter, or to remain fully alert, or even leave, when answering at least one of the questions?\n\nAm I being made to believe that I failed to recognize that this process was effective, and am being asked to keep this ‘effective failure’ a secret?\n\nAre techniques employed that might induce me to give up my identity, personal responsibility, or individual decision-making capability, through appeal to position, relationship, age, identity, or belongingness, thereby causing me to abandon my ability as an adult to evaluate what is being said?\n\nWere the use of fractionation, cueing, or other subsequent behavioral or memory effect techniques used in the presentation explained in advance?\n\nIs an appeal to my internal body sensations being used to support the presentation?\n\nAre the methods used to bring me out of the experience sufficient to restore me to my normal self, with complete mobility, identity, orientation, and critical ability, and is it made clear that the experience is over?\n\nIf the answer to any question is not clear, be fully alert, and either request the actual script, alter the process, or leave.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 119
+    },
+    "elapsed": 11
+  },
+  "balance_after": 41169
+}

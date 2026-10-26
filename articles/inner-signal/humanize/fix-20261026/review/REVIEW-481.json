@@ -1,0 +1,1004 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "inner-signal-hypnosis-guide-b481-20261026",
+ "title": "Hypnosis Guide Emulate Fixes",
+ "intro": [
+  "This is your hypnosis guide as it is in Git now, with everything you approved. Each card is a sentence or a few with Emulate's version in their place, and each new version passed the gate's three reviewers.",
+  "The 10 cards from before are the stretches that read AI in an earlier check; your last check (<a href=\"https://www.pangram.com/feed/0f1902cd-df2a-4837-9879-69979188e5f1\">part A</a>, <a href=\"https://www.pangram.com/feed/1a9e674f-113e-46ad-8a07-0fb6b71ad65e\">part B</a>) read all but one of them Human with High confidence, and each card now says so. The 24 new ones are for stretches that read Human there but at Medium or Low confidence, which a later Pangram version is likeliest to read AI; they are in the two temporary drafts, so your next check shows how they read in place. Each card gives the confidence it read at.",
+  "Click <b>Approve</b>, <b>Reject</b> or <b>Revise</b> on each card, and add a comment if you want. If you leave cards unmarked, tell me whether to take my advice on them as you did last time. Your answers save as you click."
+ ],
+ "git_file": "articles/inner-signal/humanize/fix-20261026/review/REVIEW-481.html",
+ "article": {
+  "file": "articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "c38ca36f298d91edc9d38b8d216ef024b0bdf7634fdfccc093d63927d7bbfcfd"
+ },
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261026/review/REVIEW-481.json"
+ },
+ "built": "2026-10-26 14:07 UTC",
+ "types": {
+  "held": {
+   "label": "Read Human (High) in place",
+   "about": "Emulate's version of a stretch that read AI in an earlier check. In your last check of the whole guide it read Human, High confidence, where it stands."
+  },
+  "notyet": {
+   "label": "Read Human, less than High",
+   "about": "Emulate's version of a stretch that read AI in an earlier check. In your last check it read Human where it stands, but at Medium or Low confidence."
+  },
+  "confidence": {
+   "label": "Was Human at less than High",
+   "about": "In your last check this read Human, but at Medium or Low confidence, which a later Pangram version is likeliest to read AI. Emulate's version is in the two temporary drafts, so your next check shows how it reads in place."
+  },
+  "confidence-his": {
+   "label": "Your words, Human at Low",
+   "about": "Your own words read Human at Low confidence in your last check. Emulate's version is in the two temporary drafts for your next check; Reject keeps your words."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "HG-S11",
+   "type": "confidence",
+   "title": "The daily and weekly sections",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 4,
+     "start": 256,
+     "end": 306
+    }
+   ],
+   "edits": [
+    {
+     "block": 4,
+     "before": "To make it easier, you can begin with the Quick start section, then learn one of the inductions and the whole return sequence. Then, you can read the Let the next response guide you section, for the part of the practice no recording can decide in advance. You can also look at the daily and weekly sections to make the practice your own. There are lots of appendices with extra tools, covering lots of topics, including asking questions, NLP patterns of language, working with anxiety, working with daydreams, altered states in general, what to do if you experience the sensation of a hostile presence, working with sleep, influence, and more inductions. All sources used are in Appendix K.",
+     "after": "To make it easier, you can begin with the Quick start section, then learn one of the inductions and the whole return sequence. Then, you can read the Let the next response guide you section, for the part of the practice no recording can decide in advance. Also read some of the stuff in the daily and weekly sections, to make the practice your own. There are lots of appendices with extra tools, covering lots of topics, including asking questions, NLP patterns of language, working with anxiety, working with daydreams, altered states in general, what to do if you experience the sensation of a hostile presence, working with sleep, influence, and more inductions. All sources used are in Appendix K."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Read Human (Medium, 0.989, just under High) in your last check (part A). Emulate's \"read some of the stuff in\" for \"look at\"; the sentence keeps its end, from your published \"The daily and weekly sections help you make the practice your own\". \"You can also\" became \"Also\": the gate's check counts \"you can\" as coaching.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "\"You can also look at the daily and weekly sections to make the practice your own.\" becomes \"Also read some of the stuff in the daily and weekly sections, to make the practice your own.\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S12",
+   "type": "confidence-his",
+   "title": "The hidden menu",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 7,
+     "start": 102,
+     "end": 162
+    }
+   ],
+   "edits": [
+    {
+     "block": 7,
+     "before": "Substack kinda hides the table of contents until you move the mouse toward the left side of the page. On a guide this long, that little hidden menu is your friend.",
+     "after": "Substack kinda hides the table of contents until you move the mouse toward the left side of the page. It'll be really helpful for this guide as it's a long one."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your own sentence read Human (Low, 0.649) in your last check (part A). Emulate's version keeps the point (the hidden table of contents helps because the guide is long), but not your \"that little hidden menu is your friend\".",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Your call: it trades your joke for a plainer line. Reject keeps your sentence.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "\"On a guide this long, that little hidden menu is your friend.\" becomes \"It'll be really helpful for this guide as it's a long one.\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S14",
+   "type": "confidence",
+   "title": "Influence without the conscious mind",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 31,
+     "start": 0,
+     "end": 227
+    }
+   ],
+   "edits": [
+    {
+     "block": 31,
+     "before": "Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers know this perfectly well. In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers. The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.",
+     "after": "There are a lot of ways to influence people without engaging their conscious mind. Marketers and interface designers know this perfectly well. The Federal Trade Commission has a report on “dark patterns” - designs that trick or manipulate consumers. The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Read Human (Medium, 0.982) with the paragraph before, 77 words, in your last check (part A). Emulate's first and third sentences go around your own second one, which stays: \"Marketers and interface designers know this perfectly well.\" The FTC sentence keeps your \"designs that trick or manipulate consumers\" (a reviewer turned down Emulate's \"their\" and \"used to trick and manipulate\"), and \"dark patterns\" keeps the quote marks it had here.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "Rewrites \"Even when not actively engaging the conscious mind, there are many ways …\", as shown below.",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S15",
+   "type": "confidence",
+   "title": "Four kinds of agreement",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 32,
+     "start": 86,
+     "end": 141
+    }
+   ],
+   "edits": [
+    {
+     "block": 32,
+     "before": "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent. Can people have their minds influenced without conscious agreement of their adult self?",
+     "after": "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent - can people have their minds influenced without the conscious agreement of their adult self?"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Its first line, the four kinds of agreement, read Human (Low, 0.848) in your last check (part A). Emulate joins it to the question with a dash, so the list leads into the question instead of standing alone.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "Rewrites \"Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent. Can people …\", as shown below.",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S16",
+   "type": "confidence",
+   "title": "Each can correct the other",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 62,
+     "start": 244,
+     "end": 272
+    }
+   ],
+   "edits": [
+    {
+     "block": 62,
+     "before": "Without the mind of love the mind of analysis can be sterile. Without the mind of analysis the mind of love can lead to fantasy. Without testing intuitive signals they can become delusions. Without intuitive signals the testing can be dead. So these modes can correct each other.",
+     "after": "Without the mind of love the mind of analysis can be sterile. Without the mind of analysis the mind of love can lead to fantasy. Without testing intuitive signals they can become delusions. Without intuitive signals the testing can be dead. So each can correct the other."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Read Human (Medium, 0.989) with the next line in your last check (part A). Emulate's \"So each can correct the other.\" for \"So these modes can correct each other.\"",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "\"So these modes can correct each other.\" becomes \"So each can correct the other.\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S17",
+   "type": "confidence",
+   "title": "It has to lead somewhere",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 63,
+     "start": 0,
+     "end": 6
+    }
+   ],
+   "edits": [
+    {
+     "block": 63,
+     "before": "And it’s got to lead somewhere!",
+     "after": "It’s got to lead somewhere!"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "The same window as the card before. All three of Emulate's versions drop the \"And\".",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "\"And it’s got to lead somewhere!\" becomes \"It’s got to lead somewhere!\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S18",
+   "type": "confidence",
+   "title": "Sober, and not suggestible",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 65,
+     "start": 120,
+     "end": 291
+    }
+   ],
+   "edits": [
+    {
+     "block": 65,
+     "before": "Doing self-hypnosis on my own seems far more useful than the very little I managed to do with a professional hypnotist. I was sober at the session and didn't feel especially suggestible, but I suspect that's not even the main reason the pro didn't work very well for me. The bigger issue was trust and precision.",
+     "after": "Doing self-hypnosis on my own seems far more useful than the very little I managed to do with a professional hypnotist. One reason might have been that I was sober when I did that, and didn't feel that susceptible to hypnosis. But I think a bigger reason is trust and precision."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "These two sentences read Human (Medium, 0.944) and Human (Low, 0.531) in your last check (part A). Emulate's version keeps your points, and your published \"trust and precision\" ends it. Two fixes to Emulate's words: \"One reason was\" became \"might have been\" (your published \"Maybe part of that\"), and \"wasn't that susceptible\" became \"didn't feel that susceptible\", since you said how you felt.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "Rewrites \"I was sober at the session and didn't feel especially suggestible, but …\", as shown below.",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S19",
+   "type": "confidence",
+   "title": "The body's no",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 66,
+     "start": 402,
+     "end": 475
+    }
+   ],
+   "edits": [
+    {
+     "block": 66,
+     "before": "When I do it on my own, I can detect when the wording I'm using for a suggestion to my subconscious is slightly off, and talk to my subconscious to find out what it thinks is wrong with the wording. When I use an image, I can tell whether it's giving me useful information, or just telling me what I'm afraid of, or what I want to avoid, or what I want to be true, or something I don't understand yet. And I can notice my body saying no before my conscious mind talks me into a yes.",
+     "after": "When I do it on my own, I can detect when the wording I'm using for a suggestion to my subconscious is slightly off, and talk to my subconscious to find out what it thinks is wrong with the wording. When I use an image, I can tell whether it's giving me useful information, or just telling me what I'm afraid of, or what I want to avoid, or what I want to be true, or something I don't understand yet. I can tell when my body is saying no, before my conscious mind can twist it around to a yes."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Read Human (Low, 0.829) in your last check (part A). Emulate's \"before my conscious mind can twist it around to a yes\" is close to your published \"before the conscious mind writes a persuasive little essay called yes\".",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "\"And I can notice my body saying no before my conscious mind talks me into a yes.\" becomes \"I can tell when my body is saying no, before my conscious mind can twist it around to a yes.\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S7",
+   "type": "held",
+   "title": "One person, three jobs",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 92,
+     "start": 243,
+     "end": 289
+    }
+   ],
+   "edits": [
+    {
+     "block": 92,
+     "before": "Here I’m going to talk about what you develop in yourself as you reparent your inner child. I’m going to talk about it in terms of three jobs: your loving Nurturer, your safe Adult Protector (hereafter just the Protector) and your wise Guide. That’s one grown-up doing three jobs, and each job keeps the others in balance. It’s you that needs to develop these qualities.",
+     "after": "Here I’m going to talk about what you develop in yourself as you reparent your inner child. I’m going to talk about it in terms of three jobs: your loving Nurturer, your safe Adult Protector (hereafter just the Protector) and your wise Guide. It’s one person doing three jobs rather than getting three more people to move in with you to help with the rent! Each job keeps the others in balance. It’s you that needs to develop these qualities."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your inner child guide's whole sentence, with the rent joke, read AI (High) two checks ago. Emulate's version, with your \"keeps\" put back, read Human checked alone and Human (High) where it stands in your last check (part A). \"Grown-up\" becomes \"person\"; the sentences around it say it's you.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve: the rent joke stays, and it reads Human (High) in place.",
+   "found_by": "Pangram's check of the whole guide (your Substack drafts), then Emulate, the meaning reads and the gate's three reviewers",
+   "what": "\"That’s one grown-up doing three jobs, and each job keeps the others in balance.\" becomes \"It’s one person doing three jobs rather than getting three more people to move in with you to help with the rent! Each job keeps the others in balance.\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S2",
+   "type": "held",
+   "title": "Borrowed adulthood, the bridge",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 96,
+     "start": 0,
+     "end": 251
+    }
+   ],
+   "edits": [
+    {
+     "block": 96,
+     "before": "For that starting point, I have developed a kind of provisional bridge that I call “borrowed adulthood.” It’s built from familiar practices like modeling and supported action, but I’m not suggesting that the whole sequence has been formally tested and proven as one treatment.",
+     "after": "So, I came up with the idea of constructing a bridge – a temporary fix – a borrowed adulthood, if I can put it that way. It’s made up of a number of familiar practices (such as modeling and supported action), even though I’m not claiming the whole sequence has been proven as one treatment."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "This whole paragraph read AI (High) three checks ago. Emulate's version read Human where it stands in your last two checks, High in the last (part A). Your two published points are back in it: the practices are familiar ones, and you don't claim the whole sequence is proven as one treatment.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Pangram's check of the whole guide (your Substack drafts), then Emulate, the meaning reads and the gate's three reviewers",
+   "what": "Rewrites \"For that starting point, I have developed a kind of provisional bridge …\", as shown below.",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S8",
+   "type": "held",
+   "title": "Ask the guard what it wants first",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 139,
+     "start": 424,
+     "end": 660
+    }
+   ],
+   "edits": [
+    {
+     "block": 139,
+     "before": "Instead, you might feel numb, cynical, angry, hungry, like you need to look at your phone, sexually aroused, like you need to make plans, sleepy, dissociated, or you might even think that what you're doing is stupid. Those are not failures. Often they are you experiencing a very charming guard. It's what protects you when your consciously installed parental Protector isn't functioning, the same as when you were a child. But before you decide where it's coming from, ask it what it's trying to stop, or what it wants. It could also be your inner child, mad that you took so long to come back, or your inherited parent script, or something from earlier today, or a bit of each.",
+     "after": "Instead, you might feel numb, cynical, angry, hungry, like you need to look at your phone, sexually aroused, like you need to make plans, sleepy, dissociated, or you might even think that what you're doing is stupid. Those are not failures. Often they are you experiencing a very charming guard. It's what protects you when your consciously installed parental Protector isn't functioning, the same as when you were a child. Before figuring out what/where it is, make sure to ask what it is trying to stop or what it wants. It may, of course, be your inner child, mad that it’s taken you so long to come back, or it may be your inherited parent script, or something from earlier in the day, or a bit of each."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "These two sentences (IC-A14, the inner child alignment card you approved) read AI (Medium and High) two checks ago, after the edits above them. Emulate's version read Human checked alone, and Human (High) where it stands in your last check (part A). It ends on your card's \"or a bit of each\". The guard prompt after it read Human again, two of its lines at Medium.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Pangram's check of the whole guide (your Substack drafts), then Emulate, the meaning reads and the gate's three reviewers",
+   "what": "Rewrites \"But before you decide where it's coming from, ask it what it's …\", as shown below.",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S9",
+   "type": "held",
+   "title": "What the parent script is",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 145,
+     "start": 106,
+     "end": 383
+    }
+   ],
+   "edits": [
+    {
+     "block": 145,
+     "before": "One important thing to become aware of when approaching your inner child is your inherited parent script. This is the set of rules and ways of treating yourself that you internalized as a child, mostly based on how your parent(s) treated you, and it doesn’t always sound like a voice. This is not the same as your inner adult (Nurturer, Protector, Guide) that you build up on purpose. Often this script acts as a critic or warden, telling your inner child not to cry, not to be “needy”, not to embarrass them, not to be too independent, etc. So when you begin talking to your child in a new, loving way, the script may jump in to say that what you’re doing is “fake”.",
+     "after": "One important thing to become aware of when approaching your inner child is your inherited parent script. Your parent script is made up of a collection of rules and ways of treating yourself that you adopted as a child (mostly based on how you were treated by your parent(s)). It doesn’t always take the form of a voice. This is not the inner adult (Nurturer, Protector, Guide) that you consciously build. Often this script acts as a critic or warden, telling your inner child not to cry, not to be “needy”, not to embarrass them, not to be too independent, etc. So when you begin talking to your child in a new, loving way, the script may jump in to say that what you’re doing is “fake”."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "These two sentences read AI (Low and Medium) two checks ago, after the edits above them, though they hadn't changed. Emulate's three sentences read Human (High) where they stand in your last check (part A), and so did the paragraph's last two sentences. One word to know: \"internalized\" becomes \"adopted\", and the brackets still say it came from how you were treated.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Pangram's check of the whole guide (your Substack drafts), then Emulate, the meaning reads and the gate's three reviewers",
+   "what": "Rewrites \"This is the set of rules and ways of treating yourself that …\", as shown below.",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S20",
+   "type": "confidence",
+   "title": "Quiet little preferences",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 186,
+     "start": 383,
+     "end": 497
+    }
+   ],
+   "edits": [
+    {
+     "block": 186,
+     "before": "Temporary Separation. Sometimes it may be wise to remove yourself, for a time, from the people or group that you normally would get answers from. Some people come back later on different terms, and sometimes the break has to be long-term because the pattern of losing yourself with them is deeply entrenched. As you differentiate, you learn to tell which of those apply. You want to let your quieter preferences bubble up to the surface so you can be sure you’re not just echoing your social group.",
+     "after": "Temporary Separation. Sometimes it may be wise to remove yourself, for a time, from the people or group that you normally would get answers from. Some people come back later on different terms, and sometimes the break has to be long-term because the pattern of losing yourself with them is deeply entrenched. As you differentiate, you learn to tell which of those apply. You want to be able to let the quiet little preferences that you have bubble up to the surface and know for sure that you’re not going by what your social group would want you to do."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "This sentence and the two before it (your inner child guide's, which stay) read Human (Low, 0.722, 64 words) in your last check (part A). This is Emulate's version of the last one, with its quote marks around \"social\" taken off. One shift: \"echoing your social group\" becomes \"going by what your social group would want you to do\".",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve if that shift is fine with you.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "Rewrites \"You want to let your quieter preferences bubble up to the surface …\", as shown below.",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S21",
+   "type": "confidence",
+   "title": "Come back the other way",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 238,
+     "start": 354,
+     "end": 375
+    }
+   ],
+   "edits": [
+    {
+     "block": 238,
+     "before": "Using metaphors and imagery is entirely optional. You can use whatever form of signal makes sense to you (feelings, rhythms, movements, words, spatial, simple knowing, lack of signal, whatever) but if you're using words, try to keep them related to whatever world you're creating. If you're going to count, do it in a way that makes sense in your world. And when you're done, come back the other way. (You can borrow qualities, but don't change who you are.)",
+     "after": "Using metaphors and imagery is entirely optional. You can use whatever form of signal makes sense to you (feelings, rhythms, movements, words, spatial, simple knowing, lack of signal, whatever) but if you're using words, try to keep them related to whatever world you're creating. If you're going to count, do it in a way that makes sense in your world. When you're done, make sure to come back the other way. (You can borrow qualities, but don't change who you are.)"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Read Human (Medium, 0.987) with the bracket after it in your last check (part A). Emulate's \"make sure to\" makes the step a little firmer.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "\"And when you're done, come back the other way.\" becomes \"When you're done, make sure to come back the other way.\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S22",
+   "type": "confidence",
+   "title": "Read it out loud",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 239,
+     "start": 175,
+     "end": 299
+    }
+   ],
+   "edits": [
+    {
+     "block": 239,
+     "before": "When you're writing this, think about what the verb you're using is, what the sensory quality is, what the short refrain is, and how you're going to transition between ideas. Read it out loud as you're writing it. Long, elegant sentences don't read well when you're being induced. It's all just soup.",
+     "after": "When you're writing this, think about what the verb you're using is, what the sensory quality is, what the short refrain is, and how you're going to transition between ideas. And then read it out loud as you write it. Long, elegant sentences are NOT going to help you when you’re trying to induce. It’s all soup to you at that point."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "These three sentences read Human (Medium, 0.974) in your last check (part A). Emulate's version keeps the three points; one shift: \"when you're being induced\" becomes \"when you're trying to induce\", and \"It's all soup to you at that point\" puts it back on the person in the induction.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "\"Read it out loud as you're writing it. Long, elegant sentences don't read well when you're being induced. It's all just soup.\" becomes \"And then read it out loud as you write it. Long, elegant sentences are NOT going to help you when you’re trying to induce. It’s all soup to you at that point.\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S23",
+   "type": "confidence",
+   "title": "What you want to do today",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 242,
+     "start": 0,
+     "end": 81
+    }
+   ],
+   "edits": [
+    {
+     "block": 242,
+     "before": "Get clear on what it is you want to do during the induction. What do you want not to do today? How long do you want to spend on this? (You don't have to do this on a problem. You can do it on something you want to experience more of: love, play, confidence, creativity, communion, whatever.) Make sure you're leaving some time at the end to come back, and reflect on what you experienced.",
+     "after": "Think about what you want to do. Are there things you don’t want to do today? How long do you want to spend on this? (You don't have to do this on a problem. You can do it on something you want to experience more of: love, play, confidence, creativity, communion, whatever.) Make sure you're leaving some time at the end to come back, and reflect on what you experienced."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "The paragraph read Human (Medium, 0.982, 58 words) up to its last sentence in your last check (part A). Emulate's first two sentences: \"Think about what you want to do.\" for \"Get clear on what it is you want to do during the induction\", and a yes-or-no question for what you don't want to do today. The rest stays.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "\"Get clear on what it is you want to do during the induction. What do you want not to do today?\" becomes \"Think about what you want to do. Are there things you don’t want to do today?\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S3a",
+   "type": "held",
+   "title": "Pointer to \"Already open?\"",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 243,
+     "start": 333,
+     "end": 516
+    }
+   ],
+   "edits": [
+    {
+     "block": 243,
+     "before": "Put yourself in a place where you can safely do this. Don't do this if you're driving, in the water, operating machinery, or otherwise need to be attending to yourself or other people. If you are intoxicated, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. (The part below called \"Already open? Contain before you deepen\" can be used to help orient you if you're already open, but don't use it to make yourself deeper if you're not stable.)",
+     "after": "Put yourself in a place where you can safely do this. Don't do this if you're driving, in the water, operating machinery, or otherwise need to be attending to yourself or other people. If you are intoxicated, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. If you are already partially or fully opened, use the later 'Already open? Contain before you deepen' section to help orient yourself, but do not attempt to deepen yourself if you are not stable."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "The end of this paragraph read AI (Low) three checks ago. Emulate's version, without \"you can\" (the gate's check counts it as coaching), read Human (High) where it stands in your last check (part A). The section's own heading is in it so a reader can find it, and your \"not stable\" stays.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Pangram's check of the whole guide (your Substack drafts), then Emulate, the meaning reads and the gate's three reviewers",
+   "what": "Rewrites \"(The part below called \"Already open? Contain before you deepen\" can be …\", as shown below.",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own.",
+   "overlaps": [
+    "HG-S24"
+   ]
+  },
+  {
+   "id": "HG-S24",
+   "type": "confidence",
+   "title": "A safe place",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 243,
+     "start": 0,
+     "end": 44
+    }
+   ],
+   "edits": [
+    {
+     "block": 243,
+     "before": "Put yourself in a place where you can safely do this. Don't do this if you're driving, in the water, operating machinery, or otherwise need to be attending to yourself or other people. If you are intoxicated, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. (The part below called \"Already open? Contain before you deepen\" can be used to help orient you if you're already open, but don't use it to make yourself deeper if you're not stable.)",
+     "after": "Make sure you're in a safe place to do this. Don't do this if you're driving, in the water, operating machinery, or otherwise need to be attending to yourself or other people. If you are intoxicated, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. (The part below called \"Already open? Contain before you deepen\" can be used to help orient you if you're already open, but don't use it to make yourself deeper if you're not stable.)"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Read Human (Medium, 0.986) in your last check (part A). Two of Emulate's three versions gave this same sentence.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "\"Put yourself in a place where you can safely do this.\" becomes \"Make sure you're in a safe place to do this.\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own.",
+   "overlaps": [
+    "HG-S3a"
+   ]
+  },
+  {
+   "id": "HG-S3b",
+   "type": "notyet",
+   "title": "The three stop words",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 244,
+     "start": 309,
+     "end": 487
+    }
+   ],
+   "edits": [
+    {
+     "block": 244,
+     "before": "Deciding to do it. How will you coax yourself to do this? Make it spacious? Make it warm and held? Something else? Preview what you are going to do: will you close your eyes? Will you come out and go back in again? What will you do at the end? If you are going to use a recording, read the script if you can. Know that you can say \"stop\" at any time and the induction will end. If you want to change something, say \"less\" if you want it to be asking for less from you, or say \"quiet\" and the talking will stop. You can also just open your eyes and stop, and then come all the way back anyway. You don't need to ask any parts for permission to stop, even if a part tells you that you do.",
+     "after": "Deciding to do it. How will you coax yourself to do this? Make it spacious? Make it warm and held? Something else? Preview what you are going to do: will you close your eyes? Will you come out and go back in again? What will you do at the end? If you are going to use a recording, read the script if you can. Remind yourself that if you say 'stop' at any time, the induction will end. If you say 'less', you will be asked to do less. If you say 'quiet', the talking will stop. You can also just open your eyes and stop, and then come all the way back anyway. You don't need to ask any parts for permission to stop, even if a part tells you that you do."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "These two sentences read AI (four Low windows) three checks ago. Emulate's three short sentences read Human where they stand in both later checks, but in your last one (part A) at Medium (0.944), Low (0.879) and Medium (0.972) confidence. Emulate's new versions only moved commas or put \"you can\" back in, so these stay for now. Each of your words keeps what it does: \"stop\" ends the induction, \"less\" asks less of you, \"quiet\" stops the talking.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve: it reads Human, and I have no better version yet.",
+   "found_by": "Pangram's check of the whole guide (your Substack drafts), then Emulate, the meaning reads and the gate's three reviewers",
+   "what": "Rewrites \"Know that you can say \"stop\" at any time and the induction …\", as shown below.",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own.",
+   "overlaps": [
+    "HG-S25"
+   ]
+  },
+  {
+   "id": "HG-S25",
+   "type": "confidence",
+   "title": "Deciding to do it",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 244,
+     "start": 0,
+     "end": 153
+    }
+   ],
+   "edits": [
+    {
+     "block": 244,
+     "before": "Deciding to do it. How will you coax yourself to do this? Make it spacious? Make it warm and held? Something else? Preview what you are going to do: will you close your eyes? Will you come out and go back in again? What will you do at the end? If you are going to use a recording, read the script if you can. Know that you can say \"stop\" at any time and the induction will end. If you want to change something, say \"less\" if you want it to be asking for less from you, or say \"quiet\" and the talking will stop. You can also just open your eyes and stop, and then come all the way back anyway. You don't need to ask any parts for permission to stop, even if a part tells you that you do.",
+     "after": "Decide to do it. How will you coax yourself to do this? Make it spacious? Make it warm and held? etc. Preview what you are going to do. Will you close your eyes? Will you come out and go back in again? What will you do at the end? If you are going to use a recording, read the script if you can. Know that you can say \"stop\" at any time and the induction will end. If you want to change something, say \"less\" if you want it to be asking for less from you, or say \"quiet\" and the talking will stop. You can also just open your eyes and stop, and then come all the way back anyway. You don't need to ask any parts for permission to stop, even if a part tells you that you do."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "The paragraph's first eight sentences read Human at Medium (0.949), Low (0.879, \"Something else?\") and Medium (0.957) in your last check (part A). Emulate's version: \"Decide to do it.\", \"etc.\" for \"Something else?\", and \"Preview what you are going to do.\" with the questions after it. The stop lines later in the paragraph are the card \"The three stop words\".",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "Rewrites \"Deciding to do it. How will you coax yourself to do this? …\", as shown below.",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own.",
+   "overlaps": [
+    "HG-S3b"
+   ]
+  },
+  {
+   "id": "HG-S26",
+   "type": "confidence",
+   "title": "One next action",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 377,
+     "start": 327,
+     "end": 351
+    }
+   ],
+   "edits": [
+    {
+     "block": 377,
+     "before": "“Dear Wise Subconscious Mind, if there is something you know that my conscious self is not ready to know, please don’t break it open violently! Do what you can to make me able to know it in a way that is safe! Prepare me BEFORE you break it open! Ground me BEFORE you show me the memory! Support me BEFORE you make it intense! Give me one next action!” etc.",
+     "after": "“Dear Wise Subconscious Mind, if there is something you know that my conscious self is not ready to know, please don’t break it open violently! Do what you can to make me able to know it in a way that is safe! Prepare me BEFORE you break it open! Ground me BEFORE you show me the memory! Support me BEFORE you make it intense! What is one next thing I can do?” etc."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "\"Give me one next action!\" read Human (Low, 0.727) in your last check (part A). Emulate asks it as a question. The three BEFORE requests before it read Medium; Emulate put \"Please\" in front of each, and three new exclamations in a row fail the gate's check, so they stay as they are.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "\"Give me one next action!\" becomes \"What is one next thing I can do?\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S27",
+   "type": "confidence",
+   "title": "Treat it as an image",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 378,
+     "start": 74,
+     "end": 287
+    }
+   ],
+   "edits": [
+    {
+     "block": 378,
+     "before": "REMEMBER: Not everything in hypnotic imagery is literal, especially if it relates to trauma and memory. The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc. So, treat it like an image and get some help outside of yourself!",
+     "after": "REMEMBER: Not everything in hypnotic imagery is literal, especially if it has to do with trauma or memories. The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc. So take it as an image and get some outside help!"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "The end of its first sentence and its last sentence read Human (Medium, 0.989 and 0.982) in your last check (part A). These are Emulate's; the middle sentence stays.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "Rewrites \"especially if it relates to trauma and memory. The mind makes it …\", as shown below.",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S28",
+   "type": "confidence",
+   "title": "Try it smaller",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 381,
+     "start": 0,
+     "end": 24
+    }
+   ],
+   "edits": [
+    {
+     "block": 381,
+     "before": "Is there a way you could try this on a smaller scale?",
+     "after": "Could you try this on a smaller scale?"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Read Human (Low, 0.618) in your last check (part A). Emulate's shorter question, with your \"this\".",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "\"Is there a way you could try this on a smaller scale?\" becomes \"Could you try this on a smaller scale?\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S29",
+   "type": "confidence-his",
+   "title": "The smaller asks",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 382,
+     "start": 0,
+     "end": 107
+    }
+   ],
+   "edits": [
+    {
+     "block": 382,
+     "before": "Ask: “Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.”",
+     "after": "Maybe ask to be shown just one body sensation, or just one word. Or even just whether today is for listening or resting."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your three published requests read Human (Low, 0.575) with the next section's first sentence in your last check (part A). Emulate's version makes them a suggestion (\"Maybe ask to be shown ...\") instead of lines to say, and ends on your own \"today is for listening or resting\" (Emulate's \"listening to something\" made it something outside you).",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Your call: it loses the ready-to-say lines. Reject keeps them.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "\"Ask: “Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.”\" becomes \"Maybe ask to be shown just one body sensation, or just one word. Or even just whether today is for listening or resting.\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S30",
+   "type": "confidence",
+   "title": "What feels fake",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 384,
+     "start": 0,
+     "end": 44
+    }
+   ],
+   "edits": [
+    {
+     "block": 384,
+     "before": "Do you have a sense of what it is that feels fake? The words, an image, what you are expecting to get from this, a role you feel you have to play etc. It doesn't matter that you don't have an inner voice/image to do this, it isn't necessarily about not having a 'grown up' or resisting doing the work. If it feels like you are being asked to do something you don't want to do then correct this. It could be that there is a part that is protecting you, so talk to it.",
+     "after": "Have you got any sense of what it is that's making it feel fake? The words, an image, what you are expecting to get from this, a role you feel you have to play etc. It doesn't matter that you don't have an inner voice/image to do this, it isn't necessarily about not having a 'grown up' or resisting doing the work. If it feels like you are being asked to do something you don't want to do then correct this. It could be that there is a part that is protecting you, so talk to it."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Read Human (Low, 0.575) with the three requests before the heading in your last check (part A). This is Emulate's question.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "\"Do you have a sense of what it is that feels fake?\" becomes \"Have you got any sense of what it is that's making it feel fake?\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S31",
+   "type": "confidence-his",
+   "title": "The part that remembers",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 385,
+     "start": 241,
+     "end": 276
+    }
+   ],
+   "edits": [
+    {
+     "block": 385,
+     "before": "You could say something like 'What are you protecting me from?' or 'Are you afraid I will lie to myself again?' or 'Are you afraid this will just be a performance?' If it says yes, that one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part remembers. \"Tell me what you remember, I'm listening.\" works well here.",
+     "after": "You could say something like 'What are you protecting me from?' or 'Are you afraid I will lie to myself again?' or 'Are you afraid this will just be a performance?' If it says yes, that one can sting, because there could be something to it. You may have fooled yourself in the past, and that part remembers. \"Tell me what you remember, I'm listening.\" works well here."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "This sentence from your inner child guide read Human (Low, 0.531) in your last check (part A). Emulate's start, \"You may have fooled yourself in the past\", ends on your own \"and that part remembers\", and your next line stays. (Emulate's whole version, \"this part knows it. Try ...\", lost your \"remembers\" and your \"works well here\", and a reviewer turned it down.)",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "A small change: approve if you like it. Reject keeps your sentence.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "\"Maybe you've fooled yourself before, and that part remembers.\" becomes \"You may have fooled yourself in the past, and that part remembers.\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S4",
+   "type": "held",
+   "title": "Big or hard-to-undo things wait",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 480,
+     "start": 205,
+     "end": 331
+    }
+   ],
+   "edits": [
+    {
+     "block": 480,
+     "before": "Once you get an answer, you can ask: “What can I do in my ordinary life to prove that I heard correctly?” If it tells you to do something, I'd only do it if it's loving and leaves you free. It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and you've checked it against what you actually know.",
+     "after": "Once you get an answer, you can ask: “What can I do in my ordinary life to prove that I heard correctly?” If it tells you to do something, I'd only do it if it's loving and leaves you free. It should make sense to you and if it's something big or hard to undo, wait till you're calm and then check it out with what you know."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "These are your own two sentences from your inner child guide, and here they read AI (Low and High) three checks ago. Emulate's one sentence read Human where it stands in both later checks, High in the last (part B). It keeps both points: it has to make sense to you, and anything big or hard to undo waits till you're calm and have checked it against what you know. One change in strength: your \"can wait\" becomes \"wait\".",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve if the firmer \"wait\" is fine with you. Reject keeps your two sentences, which read AI here.",
+   "found_by": "Pangram's check of the whole guide (your Substack drafts), then Emulate, the meaning reads and the gate's three reviewers",
+   "what": "\"It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and you've checked it against what you actually know.\" becomes \"It should make sense to you and if it's something big or hard to undo, wait till you're calm and then check it out with what you know.\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S32",
+   "type": "confidence-his",
+   "title": "The ethical double bind",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 515,
+     "start": 3,
+     "end": 47
+    }
+   ],
+   "edits": [
+    {
+     "block": 515,
+     "before": "An ethical one offers two genuinely safe routes. Ethical Double Bind Questions might be:",
+     "after": "An Ethical Double Bind Question gives someone a choice between two genuinely safe things to do. Ethical Double Bind Questions might be:"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published sentence read Human (Low, 0.640) in your last check (part B). Emulate's version names the Ethical Double Bind Question instead of \"one\", with your \"genuinely\" put back (a reviewer turned down the version without it).",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve if the spelled-out name is fine with you. Reject keeps your sentence.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "\"An ethical one offers two genuinely safe routes.\" becomes \"An Ethical Double Bind Question gives someone a choice between two genuinely safe things to do.\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S5",
+   "type": "held",
+   "title": "No warmth today",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 630,
+     "start": 337,
+     "end": 405
+    }
+   ],
+   "edits": [
+    {
+     "block": 630,
+     "before": "Here is some inner child love. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix it. I’m here now, and the adult is here now to listen to you.” Make sure you are actually talking to your inner child, who is scared to death. No warmth today? Then rest your hands there and notice what you find, no faking required.",
+     "after": "Here is some inner child love. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix it. I’m here now, and the adult is here now to listen to you.” Make sure you are actually talking to your inner child, who is scared to death. If you can’t do this in a loving way today, just put your hands there and see what you feel, no faking required."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "This line, from your inner child guide (the inner child alignment added it), read AI (High) here three checks ago. Emulate's version, ending on your own three words from that guide, \"no faking required\", read Human (High) where it stands in your last check (part B). (The gate's check counts \"you don't have to\" as coaching, and a reviewer turned down \"Don't fake it.\" because it makes your permission a rule.)",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve: Emulate's start, your ending.",
+   "found_by": "Pangram's check of the whole guide (your Substack drafts), then Emulate, the meaning reads and the gate's three reviewers",
+   "what": "\"No warmth today? Then rest your hands there and notice what you find, no faking required.\" becomes \"If you can’t do this in a loving way today, just put your hands there and see what you feel, no faking required.\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S33",
+   "type": "confidence",
+   "title": "A little script",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 632,
+     "start": 0,
+     "end": 37
+    }
+   ],
+   "edits": [
+    {
+     "block": 632,
+     "before": "A script you could use for anxiety is:",
+     "after": "Here is a little script you could use:"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Read Human (Medium, 0.984) with the script's first two questions in your last check (part B). Emulate's line drops \"for anxiety\", which the heading says.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "\"A script you could use for anxiety is:\" becomes \"Here is a little script you could use:\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S34",
+   "type": "confidence",
+   "title": "Finding my body parts",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 633,
+     "start": 0,
+     "end": 24
+    }
+   ],
+   "edits": [
+    {
+     "block": 633,
+     "before": "Where are my body parts? What are my feet doing? How is my body positioned in the chair? How is my body breathing? How is my body situated in the room?",
+     "after": "Let’s see if I can find my body parts. What are my feet doing? How is my body positioned in the chair? How is my body breathing? How is my body situated in the room?"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "The same window as the card before. Emulate's \"Let’s see if I can find my body parts.\" (its \"Lets\" typo fixed) for \"Where are my body parts?\": the script's first question becomes a gentler first step.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "\"Where are my body parts?\" becomes \"Let’s see if I can find my body parts.\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S36",
+   "type": "confidence",
+   "title": "What is theirs, what is mine",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 665,
+     "start": 144,
+     "end": 167
+    }
+   ],
+   "edits": [
+    {
+     "block": 665,
+     "before": "What actually happened? What was the impact? What boundaries need to be set? What shaped the other person(s) into someone capable of that harm? What is theirs? What is mine? What does accountability require? How can I let this go, without denying any of the above?",
+     "after": "What actually happened? What was the impact? What boundaries need to be set? What shaped the other person(s) into someone capable of that harm? What’s theirs and what’s mine? What does accountability require? How can I let this go, without denying any of the above?"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "These two questions read Human (Medium, 0.963) with your \"What does accountability require?\" in your last check (part B). Emulate makes them one: \"What’s theirs and what’s mine?\" (Its \"What boundaries do I need to set as a result?\" for the question before them dropped your published \"still\", and a reviewer turned it down, so that one stays.)",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Your last Pangram check of the whole guide, its windows at less than High confidence (window_confidence.py), then Emulate and the gate's three reviewers",
+   "what": "\"What is theirs? What is mine?\" becomes \"What’s theirs and what’s mine?\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S10",
+   "type": "held",
+   "title": "Borrowing Nurturer and Protector",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 670,
+     "start": 331,
+     "end": 423
+    }
+   ],
+   "edits": [
+    {
+     "block": 670,
+     "before": "This is NOT to say that you SHOULD use substances, but many people have used them when they first did self-hypnosis, contacted their inner child, or talked to their Higher Self. I’d learn the inner child work sober first, with enough Nurturer and Protector in the room before you go deep (see the inner child reparenting section). Borrowed is fine, as long as it’s from someone steady who won’t try to run your trip for you.",
+     "after": "This is NOT to say that you SHOULD use substances, but many people have used them when they first did self-hypnosis, contacted their inner child, or talked to their Higher Self. I’d learn the inner child work sober first, with enough Nurturer and Protector in the room before you go deep (see the inner child reparenting section). Borrow some from someone else if you need to, but make sure they're stable and not someone who will try to direct your trip."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "This sentence, from your inner child guide (the inner child alignment added it, IC-B19), read AI (Low) two checks ago. Emulate's version read Human (High) where it stands in your last check (part B). It keeps both conditions: someone stable, and not someone who will take over your trip.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve.",
+   "found_by": "Pangram's check of the whole guide (your Substack drafts), then Emulate, the meaning reads and the gate's three reviewers",
+   "what": "\"Borrowed is fine, as long as it’s from someone steady who won’t try to run your trip for you.\" becomes \"Borrow some from someone else if you need to, but make sure they're stable and not someone who will try to direct your trip.\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "HG-S6",
+   "type": "held",
+   "title": "The test for a response",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 700,
+     "start": 103,
+     "end": 209
+    }
+   ],
+   "edits": [
+    {
+     "block": 700,
+     "before": "You don’t have to find out if it’s a guard immediately, and you may not be able to comfort it quickly. The useful question is whether this way of responding helps you become clearer, steadier, and less hooked.",
+     "after": "You don’t have to find out if it’s a guard immediately, and you may not be able to comfort it quickly. Is this way of responding helping you to be clearer and steadier and less hooked?"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published test, word for word, read AI here (High, 17 words) three checks ago. Emulate's question read Human where it stands in both later checks, High in the last (part B). It asks the same test: whether this way of responding helps you get clearer, steadier and less hooked.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Approve if a question is fine there. Reject keeps your sentence, which read AI here.",
+   "found_by": "Pangram's check of the whole guide (your Substack drafts), then Emulate, the meaning reads and the gate's three reviewers",
+   "what": "\"The useful question is whether this way of responding helps you become clearer, steadier, and less hooked.\" becomes \"Is this way of responding helping you to be clearer and steadier and less hooked?\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  }
+ ]
+}

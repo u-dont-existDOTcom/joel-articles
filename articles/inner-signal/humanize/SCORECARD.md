@@ -7,7 +7,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/inner-signa
 | version | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | Pangram 4.0 (before the ledger) | 944 | 803 (85%) | 22% | 78% | 89% | 0.120 (base 0.174, 944) |
-| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 24 | 20 (83%) | 83% | 17% | 8% | 0.131 (base 0.139, 24) |
+| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 26 | 21 (81%) | 81% | 19% | 8% | 0.153 (base 0.155, 26) |
 | pangram 4.1, web app | 14 | 8 (57%) | 43% | 57% | 86% | 0.201 (base 0.245, 14) |
 | pangram 4.1, the API (Joel's key, run on his laptop; E218) | 20 | 12 (60%) | 45% | 55% | 75% | 0.216 (base 0.247, 20) |
 | pangram API (model pangram-4, expect 4.1), Joel's key, run on the laptop | 7 | 6 (86%) | 14% | 86% | 100% | 0.185 (base 0.122, 7) |
@@ -42,22 +42,22 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 24 | 20 (83%) | 83% | 17% | 8% | 0.131 (base 0.139, 24) |
-| the latest 100 | 24 | 20 (83%) | 83% | 17% | 8% | 0.131 (base 0.139, 24) |
-| all | 24 | 20 (83%) | 83% | 17% | 8% | 0.131 (base 0.139, 24) |
+| the latest 50 | 26 | 21 (81%) | 81% | 19% | 8% | 0.153 (base 0.155, 26) |
+| the latest 100 | 26 | 21 (81%) | 81% | 19% | 8% | 0.153 (base 0.155, 26) |
+| all | 26 | 21 (81%) | 81% | 19% | 8% | 0.153 (base 0.155, 26) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| article | 12 | 10 (83%) | 92% | 8% | 8% | 0.106 (base 0.076, 12) |
+| article | 14 | 11 (79%) | 86% | 14% | 7% | 0.151 (base 0.122, 14) |
 | stretch | 12 | 10 (83%) | 75% | 25% | 8% | 0.155 (base 0.188, 12) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.0 to 0.2 | 11 | 0.05 | 9% |
+| 0.0 to 0.2 | 13 | 0.05 | 15% |
 | 0.2 to 0.4 | 8 | 0.31 | 12% |
 | 0.4 to 0.6 | 5 | 0.47 | 40% |
 
@@ -132,7 +132,7 @@ Calibration:
 | 0.4 to 0.6 | 5 | 0.58 | 80% |
 | 0.6 to 0.8 | 5 | 0.63 | 80% |
 
-## Misses since the ledger (19)
+## Misses since the ledger (20)
 
 | cause | misses |
 |---|---|
@@ -150,12 +150,12 @@ Calibration:
 | a linter fix that read worse | 1 |
 | pessimism about Emulate's whole-stretch re-run | 1 |
 | context: Human in the whole guide, red alone | 1 |
+| pessimism about red moving onto unchanged text | 1 |
 
 The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [HG15-p9e2](https://www.pangram.com/history/b252243a-a20d-4f01-8643-7551ffcb5d56) | HG15-p9, 2 | Human | AI or mixed | balanced closer kept |
 | [HG35-forgive-e3](https://www.pangram.com/history/637e6fb4-3a47-4fe6-899f-b5ff0923e7f3) | HG35-p13, 2 | AI | Human | fix underrated |
 | [screen-S2](https://www.pangram.com/feed/e836ef9c-c964-4012-a5af-994ef88658eb) | HG17-emu-bd, 1 | AI | Human | tells overweighted |
 | [screen2-B0](https://www.pangram.com/feed/5af06c6a-8f56-4bd7-9c86-5e9813f7a97e) | HG31-nlp-tail, 1 | AI | Human | a red window read as its first section's |
@@ -170,13 +170,14 @@ The latest:
 | [HG-rest-41r4-b](https://www.pangram.com/feed/1db9825e-5fed-4528-aca5-9d4272b54f83) | HG-rest-B, 3 | Human | AI or mixed | parallel list kept |
 | [HG-whole-41r7b-a](https://www.pangram.com/feed/fd67dd6e-7193-4bdf-9ed8-3ed235d62d94) | HG-whole, 6 | AI | Human | pessimism about Emulate's whole-stretch re-run |
 | [b480-S9-p](https://www.pangram.com/history/0998d046-5087-4d3c-8ca0-388a19abca28) | HG-parent-script-P1, 1 | Human | AI or mixed | context: Human in the whole guide, red alone |
+| [HG-whole-26-b](https://www.pangram.com/feed/0f1902cd-df2a-4837-9879-69979188e5f1) | HG-whole, 9 | AI | Human | pessimism about red moving onto unchanged text |
 
 ## Lineages still open (tries used of the cap)
 
 | lineage | scope | tries | last read |
 |---|---|---|---|
-| HG-whole | article | 9 of unlimited (Substack) | pending |
-| HG-rest-B | article | 7 of unlimited (Substack) | pending |
+| HG-whole | article | 10 of unlimited (Substack) | pending |
+| HG-rest-B | article | 8 of unlimited (Substack) | pending |
 | HG15-p9 | paragraph | 2 of 6 | Mixed |
 | HG15 | section | 1 of 2 | Mixed |
 | HG35 | section | 1 of 2 | Mixed |

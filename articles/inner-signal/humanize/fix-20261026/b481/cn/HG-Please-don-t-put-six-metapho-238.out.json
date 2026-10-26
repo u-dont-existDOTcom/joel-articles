@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cn/HG-Please-don-t-put-six-metapho-238.txt",
+  "input_words": 131,
+  "input_sha256": "e7e7572e91c94e04168c6f9e41d40f7e236f3bd872c2b65e5fafb42a3630ba56",
+  "balance_before": 46497,
+  "started_utc": "2026-10-26T12:58:11Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:58:20Z",
+  "response": {
+    "id": "1185d76e-a69d-411c-8c73-cb910bb8f508",
+    "tool": "humanize",
+    "text": "Warning: Using metaphors is optional. When you go, feel free to use any form of signal that feels right to you. Auditory, rhythmic, somatic, visual, spatial, olfactory, “knowing”, etc. Or even a LACK of signal, for that matter. IF you use words, try to keep them as related to your world as possible. (For example, if you’re counting, count in a way that is familiar to your world.) Then, come back in reverse. (You can borrow traits, but don’t CHANGE your traits.)\n\nThink about what your verb will be, your sensory quality, your short refrain, etc., BEFORE you write. And then read it out loud as you write it. Long, elegant sentences are NOT going to help you when you’re trying to induce. It’s all soup to you at that point.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 131
+    },
+    "elapsed": 8
+  },
+  "balance_after": 46104
+}

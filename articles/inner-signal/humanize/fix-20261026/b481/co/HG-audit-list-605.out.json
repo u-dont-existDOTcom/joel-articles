@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-co/HG-audit-list-605.txt",
+  "input_words": 119,
+  "input_sha256": "b683d8526ea88e474ce4b91b7897121027a61eb48ab1f2bd2428f9eafa07c2fd",
+  "balance_before": 41526,
+  "started_utc": "2026-10-26T13:00:17Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T13:00:30Z",
+  "response": {
+    "id": "72f8b046-f522-4136-b3e1-0257b86773b5",
+    "tool": "humanize",
+    "text": "Before listening to a recording or before participating in a live induction do the following.\n\nAsk yourself, \"Did they plainly state ahead of time if induction mechanics would be used?\"\n\nAsk yourself, \"If the answer is not exactly as I'd like, do I have the ability to stop and think, to change it up, to become fully alert, or to stop it all together, if need be?\"\n\nAsk yourself, \"Are they using a back door method to make me believe something if I don't notice what's going on?\"\n\nAsk yourself, \"Are they using role playing, sense of ownership, sense of obedience, my age, sense of identity, sense of belonging, etc. to get me to drop my adult critical faculties?\"\n\nAsk yourself, \"Did they plainly state ahead of time if they were going to use fractionation, cueing, effects on later behavior, or effects on memory?\"\n\nAsk yourself, \"Are they converting body sensations into a belief?\"\n\nAsk yourself, \"Will they bring me back to my normal sense of self, normal movement, normal orientation, and normal critical faculties and plainly state when it is over?\"\n\nIf the answer is not what I'd like, become fully alert, ask for the script, change it up or get out!",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 119
+    },
+    "elapsed": 11
+  },
+  "balance_after": 41035
+}

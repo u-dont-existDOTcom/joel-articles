@@ -1,8 +1,8 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-26, after your message of 00:54 UTC (batch 479's recheck links). **Open questions: 1** (21, the
-marking page, just below). **For you to do**: the recheck with the new fixes in, in Brave (below), and merge
-[pull request 254](https://github.com/u-dont-existDOTcom/joel-articles/pull/254) when you've looked.
+Last updated 2026-10-26, after your message of 12:43 UTC (part A 100% Human, part B one AI segment).
+**Open questions: 3** (21, the marking page; 22, the short lines; 23, the audit). **For you to do**: the recheck in
+Brave (its two links are under "For you to do"), and the marking page.
 The questions are at the top, with their options and my default; under them is what you decided and what I did with it.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -11,27 +11,79 @@ read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 21. The marking page: ten Emulate fixes.** [Your guide with each fix marked where it goes](https://claude.ai/artifact/TpZbfBZcwuj8PL7KFLhmjP):
-ten cards, each a sentence or two that read AI in one of your checks, with Emulate's version in its place and your words
-as they are now beside it. Six read Human where they stand in your last check; the other four are for the stretches that
-read AI there, and each read Human checked alone. All ten passed the meaning reads and the gate's three reviewers. Two of
-them replace your own words (your inner child guide's "It should make sense, too ..." and your published test), and the
-cards say so. Approve, Reject or Revise each card, with a comment if you want.
-- a) (my default) You go through the page; nothing changes until you've decided.
+**🟣 21. The marking page: Emulate fixes.** [Your guide with each fix marked where it goes](https://claude.ai/artifact/TpZbfBZcwuj8PL7KFLhmjP),
+34 cards. The ten from before, each now saying how it read in your last check (nine at High confidence; the three stop
+words at Medium and Low). And 24 new ones: Emulate's versions of the stretches that read Human there at Medium or Low
+confidence, each card with the confidence it read at. 4 of them replace your own words, and those cards show yours
+first. Every new version passed the gate's three reviewers, and they're all in the recheck below.
+- a) (my default) You go through the page; nothing changes until you've decided. If you'd rather mark it after the
+  recheck, I'll have redone any card whose change doesn't read High in place.
 - b) You decide the ones you want to, and say "take your advice on the rest", as last time.
 From your other account, the page opens once you share it from its Share menu; the
-[list of cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261026/review/REVIEW-480.json) is in Git either way.
+[list of cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261026/review/REVIEW-481.json) is in Git either way.
+
+**🟣 22. The short lines that read Medium.** 60 windows read Human at Medium confidence because they're a few words long
+(47 in part A, 13 in part B): list letters ("B.", "C."), one-word answers ("V.", "Yes."), "etc.", and short lines of the
+scripts ("Keep your eyes open.", "Move around a bit.", "Where are you grounded?"). Pangram reads each of them as human at
+91 to 99%, but it rarely gives a line that short its top label, so no rewording of the line itself gets it to High
+([every window with its confidence](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261026/b480/recheck/read/CONFIDENCE.md)).
+- a) (my default) Leave them as they are. They're the form of your scripts and lists, and an induction's short lines are
+  there on purpose. I record their confidence at every check, and if a later Pangram version reads any of them AI, that
+  stretch gets fixed then.
+- b) Join short script lines into fuller sentences where the script allows it, so Pangram reads them in longer windows.
+  That changes the scripts' rhythm, which matters in an induction, so each one would come to you as a card.
+- c) Something else (say what).
+
+**🟣 23. The hypnosis audit, the one AI window.** Its questions read AI (High, 0.999, 120 words, lead-in to last line)
+in your last check (part B), as in every check since you kept it as a list (your 2c). Emulate's three versions keep four
+of its seven questions but change what the other three ask, so I didn't put any of them in. "Can at least one answer lead
+to pause, modification, full alertness, or stopping?" came back as "Does the answer help to modify the process so that it
+allows for me to remain fully alert, or should I stop?"; "Does the speaker treat not noticing as secret proof that the
+process worked?" as "Am I going to be expected to not be aware of something that they want to be secret proof that they
+succeeded?"; and the body sensations question lost its "hidden claim".
+- a) (my default) Keep your list as it is: part B reads Mostly Human with it, and it's the one AI stretch.
+- b) You reword those three questions (2, 3 and 6) in your own words; I put Emulate's wording in for the other four and
+  the lines around them, through the gate, and your next check reads the whole list in place.
+- c) Something else (say what).
 
 ## For you to do
 
-- 🟠 **The recheck with the four new fixes in, in Brave.** The same two temporary drafts (never published) now hold the
-  whole guide with all ten fixes from question 21 in: open each link in Brave, run Pangram's check from its side panel, and
-  send me each result's link ("Copy shareable link to result").
-  - [Part A, the main guide](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-26b&audience=only_paid&free_preview=false&freemail=)
-    (the check reads its first 99,999 characters; part B starts at Closing, so the end of the guide is read in full).
-  - [Part B, from Closing to the end of the appendices](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-26b&audience=only_paid&free_preview=false&freemail=).
-  My forecast: under a one-in-ten chance that part A reads all Human, since red has kept turning up in sentences nobody
-  changed; part B keeps the audit questions you kept as a list. You can mark the page and run the check in either order.
+- 🟠 **The recheck with the new fixes in**, in Brave, in the same two drafts, then send me both result links:
+  [part A](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-27&audience=only_paid&free_preview=false&freemail=) and [part B](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-27&audience=only_paid&free_preview=false&freemail=). You open each link and run the extension, as before.
+
+## Your message of 2026-10-26 12:43 UTC, and what I did
+
+Your message, [word for word](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261026/joel-20261026-1243-message.txt).
+
+- 🟢 **The recheck, read** ([every window with its confidence](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261026/b480/recheck/read/CONFIDENCE.md)).
+  [Part A](https://www.pangram.com/feed/0f1902cd-df2a-4837-9879-69979188e5f1): Human Written, no AI window; of its 153
+  windows 71 read Human at High confidence, 68 at Medium and 14 at Low. [Part B](https://www.pangram.com/feed/1a9e674f-113e-46ad-8a07-0fb6b71ad65e):
+  Mostly Human Written, 1.3% AI; the one AI window (High) is the audit's questions, which you kept as a list (your 2c),
+  and of its other 46 windows 25 read High, 20 Medium and 1 Low. Nine of the ten fixes on the marking page read High in
+  place; the three stop words read Medium and Low. My part forecasts were right on every part (27 of 27, 14 of 14), and my
+  call for part A was too gloomy: I'd given it a one-in-twelve chance of reading all Human.
+- 🟢 **"the questions page has no open questions"**: the hypnosis guide's questions were only in this file in Git (with 21
+  open), and the questions pages you can open (the community article's, and InnerSignal's) had none open. Now the guide has
+  its own page, "Hypnosis Guide Questions", a view of this file that I update with it every turn.
+- 🟢 **The preview link, for every lane**: now a standing rule in the repository's instructions that every lane reads,
+  with a tool that makes a draft's secret preview link (paid view) without clicking through, and a lesson (E277). What
+  you get is always the link: you open it and run the check, nothing else. It's in my memory too.
+- 🟢 **Confidence, always**: every result I read now records each window's confidence, my reports say "Human (Low)", and
+  a tool lists every window that isn't High-confidence Human with its place and whose words it is (lesson E278; in my
+  memory too).
+- 🟢 **The fixes for less than High** ([every step](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261026/b481/README.md)):
+  Emulate's samples of the 22 groups of paragraphs with a Low window or a Medium one of 10 words or more, and of the
+  audit. 24 fixes passed the gate's three reviewers and are on the page, question 21; three of them first failed a reviewer
+  (Emulate had dropped your "genuinely", your "remembers" and "works well here", and your "trick or manipulate"), so your
+  words are back in those. The short lines are question 22, and the audit question 23.
+- 🟢 **Left as they are**, because none of Emulate's versions kept what they say: your inner child guide's questions in
+  "Instead of blame" and "I'm not going to force my way past you."; "Temporary Separation." (a two-word label); the
+  human-doing paragraph (every version drops your "bargain for belonging"); the sober induction's "You don't need to tell
+  the whole story yet." (every version drops it); "My body may stay safe" (every version makes it a promise, "will be
+  safe"); "That's enough for today" and "I don't have to obey it." (kept word for word); your reframing questions and your
+  three forgiveness lines to the inner child; and two my checks turned down (three new exclamations in a row in the
+  BEFORE requests, and "remember that" in "We just remember that it can all be true at once").
+- 🔵 **The recheck with all of them in**: its two links are under "For you to do".
 
 ## Your message of 2026-10-26 00:54 UTC, and what I did
 
@@ -319,10 +371,10 @@ Your message, word for word: [joel-20261023-1230-message.txt](https://github.com
 <details><summary>Question 14 as it was asked</summary>
 
 - **14. The shortcut part's last paragraph and the return's first: will you write them in your own words?**
-  [Recheck A](https://www.pangram.com/feed/47610d4b-fb69-4966-896f-317b029fc1af), part 9, read AI, High, from "To turn this off, stop rehearsing it, take it out of any recordings
+  <a href="https://www.pangram.com/feed/47610d4b-fb69-4966-896f-317b029fc1af">Recheck A</a>, part 9, read AI, High, from "To turn this off, stop rehearsing it, take it out of any recordings
   that you have, stop having it in any apps that are active, ..." to "If you've regressed or met parts, make sure you come
   back to feeling complete in the here and now and acknowledge that your body belongs to you and is under control of the
-  adult mind." Through the API the two paragraphs read AI, High, in six versions ([the checks](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b472/API-CHECKS.md#b472_s2_base)): as
+  adult mind." Through the API the two paragraphs read AI, High, in six versions (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b472/API-CHECKS.md#b472_s2_base">the checks</a>): as
   they are, reworded, in your register, and with their tidy closing lines taken out. The shortcut paragraph read AI on its
   own too. Both come from your published guide's polished text, and no earlier draft of yours has them, so there is no
   wording of yours to go back to. It's two paragraphs:
@@ -383,7 +435,7 @@ Your message, word for word: [joel-20261023-1230-message.txt](https://github.com
   real life they’re all part of the one inner adult, so we can imagine them splitting apart if need be and coming together
   as well." ("we could also imagine" became "we can imagine", the same offer.) The invocation's "inner adult(s)" and
   Appendix K's "three-adult arrangement" stay as they are.
-- How they were checked: a reader went through both changes against your answer, their meaning and how they read in
+- 🟢 How they were checked: a reader went through both changes against your answer, their meaning and how they read in
   place (both fine); the step-or-break reader read both; and a check against your whole published guide found two places
   in these paragraphs that earlier rewrites had moved away from what you published:
   - "Telling them to just access their adult is like telling them to just be able to fly" made the adult out of reach for
@@ -458,7 +510,7 @@ Your message, word for word: [joel-20261023-1230-message.txt](https://github.com
 - 🔵 **11 b** is in as you picked it: "If you are overwhelmed by chemicals, acutely confused, or not able to keep yourself
   safe, then get some immediate support instead of doing exploratory hypnosis." Two of the four new samples of the
   induction section were made with it, and the other two get it in the meaning work.
-- How they were checked: a reader went through each change against your answer, its meaning, the names and its sense
+- 🟢 How they were checked: a reader went through each change against your answer, its meaning, the names and its sense
   between the paragraphs around it; a cold reader read the whole h1; a stance check read the changed paragraphs against
   your whole published guide; the step-or-break reader read each changed paragraph. Round 1 found five things, and four
   are fixed with the reader's own wording (the new name explained at its first read, an "it" that could be the child,

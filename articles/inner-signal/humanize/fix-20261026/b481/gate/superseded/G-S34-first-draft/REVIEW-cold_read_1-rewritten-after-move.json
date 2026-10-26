@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "18b597d5cd273f1bd12e38606cf7ecf8772a09b5957ce33582fafc3374e925e3",
+  "context_sha256": "da715839396d1c7dcb4ac9aee599e601744af07a38dc9c0953b9e70d53ffddbd",
+  "source_sha256": "9507e40dc72e751d1e0c7a4e2d953b25512ce2afd9d1be7c910b4d186e037ec1",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "b481-gate-cold_read_1-subagent-h",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Judged \"Let’s see if I can find my body parts.\" as the opening line of the script paragraph in CONTEXT, right after the lead-in \"Here is a little script you could use:\" (the separate S33 change, read only as context) and before \"What are my feet doing?\". Against SOURCE (\"Where are my body parts?\", the first question of the approved working-copy script) the change does what the_change says: the first question becomes Emulate's statement of intent, with its \"Lets\" typo fixed using the section's curly apostrophe. That apostrophe is the defect I failed on the first draft of this change (a straight \"Let's\" among the section's typographic you’re, I’m, didn’t); it is now \"Let’s\" in both the draft and the context, matching, and I checked that no other character in the line is off. Meaning kept: both ask the speaker to locate their body parts, and the four questions that follow are the unchanged search. \"see if I can\" adds a tentative stance but no fact or claim. It reads naturally as the script's first spoken line and follows from the lead-in. \"Let’s\" is the idiomatic self-address and matches the later \"we need to do\" in the third paragraph, so no pronoun is misdirected (C02 absent). Tell rows, T01-T29 and C01-C04 on the literal line in context: none is actually happening in the draft. T02: the four parallel body-scan questions after it are the unchanged approved script, and a body scan is a sequence by nature; the draft does not add to that cadence, it breaks the run (five questions become a statement and four). T19: the line is the script's own first utterance, not an authorial announcement of what comes next, and the question it replaced opened the exercise the same way, so I do not count it. T07 and T22: \"see if I can\" is the content of the self-talk, not a stage direction between beats, and it reassures nothing on its own; the quirk of \"find my body parts\" is the source's own. T11, T16-T18, T20, T21, T25, T28, T29: no bridge, contrast, thesis, closer, colon or uplift in one opening line. T26: \"body\" repeats down the questions, but that anaphora is in the unchanged source. T14 and T15: nothing is moved or lost, and it is a restructure from question to statement, not a swap of rarer words. T01, T03-T06, T08-T10, T12, T13, T23, T24, T27 and C01, C03, C04: absent (no first-person stake beyond the script's own voice, no invented fact, no claim about a study). Linter findings, judged in context: \"B7 short landing at paragraph end\" is accepted, because the linter saw the draft alone as a one-sentence paragraph; in context it opens the paragraph and is followed by four questions, so it is not a landing. \"D9 follows the source order\" is accepted: one sentence has no points to reorder, and T13 and T09 have nothing to apply to in a one-sentence opener whose paragraph is otherwise unchanged.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-co/HG-audit-prose-605.txt",
+  "input_words": 134,
+  "input_sha256": "862fe3d66f837455477b7d21e19e8ea18cb6f652347b68671fd82ea9edb13641",
+  "balance_before": 40901,
+  "started_utc": "2026-10-26T13:00:31Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T13:00:40Z",
+  "response": {
+    "id": "0b7114e2-4c49-4431-a7b1-fba08ee62df2",
+    "tool": "humanize",
+    "text": "Before you are going to work with any recording or live suggestion where induction mechanics might be involved, ask yourself a few questions. Was it plainly told to you? If you answer no to any of these questions, stop what you are doing, become fully alert. Does at least one of the answers lead you to stop? Does it claim that if you don't notice it, that makes it more true and secretly worked? Is it using role, ownership, obedience, age, etc., to take you out of your adult role and judgement? Is fractionation, cueing, or other subsequent behavior or memory effect not plainly told before hand? Is it making something out of an ordinary body experience? Does it plainly tell you how to come out, return to your normal sense of identity, movement, orientation, and critical judgement, and plainly state the session is over? If you are not sure of the answer, become fully alert, ask for the script, change your method, or leave.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 134
+    },
+    "elapsed": 9
+  },
+  "balance_after": 40767
+}

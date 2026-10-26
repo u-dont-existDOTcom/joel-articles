@@ -1,0 +1,64 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_ADMITTED_V1",
+  "candidate_sha256": "7bbe32d2ff36ba335b65dd746a146397ab00e97b87d81a213c50152b9d8adc14",
+  "context_sha256": "35a61515e4095ad2f89ea2548706a0b2b35d228861de66a8ebaf19004bcb45c1",
+  "source_sha256": "1089d07c0b4fd8da3be76037507739a5d18c33c8c6e4e4b69523657e90595b7a",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "lint_verdict": "REVIEW",
+  "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+  "lint_stdout_sha256": "1343ec22b9ed72094188d82d28f60c3963b14064a9be938461e651cbebe798ea",
+  "lint_findings": [
+    {
+      "label": "D9 follows the source order",
+      "examples": [
+        "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    },
+    {
+      "label": "E186 \"without ...ing\" (13% of the single-paragraph screens that read AI, 3% of those that read Human, 2026-10-14 to 10-17): say what happens instead, or cut it",
+      "examples": [
+        "There are a lot of ways to influence people without engaging their conscious mind."
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    }
+  ],
+  "tell_ledger_counts": {
+    "ABSENT": 33,
+    "PRESENT_JUSTIFIED": 0,
+    "UNCERTAIN": 0,
+    "total": 33
+  },
+  "justified_tells": [],
+  "reviews": {
+    "preservation": {
+      "path": "REVIEW-preservation.json",
+      "sha256": "a3712b62933cc418bf9df8d1165c960159384a3293acd265e53e6c582b167d16",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+        "context_id": "b481-gate-preservation-subagent-i",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    },
+    "cold_read_1": {
+      "path": "REVIEW-cold_read_1.json",
+      "sha256": "e218613cb699700ac8f541cc3b27657dd4fa0f05a9fcbc8d840cd4b591dffba1",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+        "context_id": "b481-gate-cold_read_1-subagent-i",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    },
+    "cold_read_2": {
+      "path": "REVIEW-cold_read_2.json",
+      "sha256": "cf6f162639eb7ef02a6d020a5850ea8f5198b3e5e9488e071f3226c94f2a5440",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+        "context_id": "b481-gate-cold_read_2-subagent-i",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    }
+  },
+  "manifest_sha256": "c146a51555673bc1d15ff90cd3e37ca250156d12aab42b6beb385ceed1c84725",
+  "verified_at_utc": "2026-10-26T13:58:18.942660+00:00"
+}

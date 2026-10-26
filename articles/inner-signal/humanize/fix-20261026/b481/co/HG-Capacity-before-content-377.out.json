@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-co/HG-Capacity-before-content-377.txt",
+  "input_words": 115,
+  "input_sha256": "f47b3d1dd321e6a55bd257a2480b11cd437dec1c0a95f1639302c07480a621d3",
+  "balance_before": 44331,
+  "started_utc": "2026-10-26T12:58:59Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:59:06Z",
+  "response": {
+    "id": "e9ef07fe-3f68-46f6-90bb-cf1aca4d381e",
+    "tool": "humanize",
+    "text": "Try using the following words: “Dear Wise Subconscious Mind, if you are going to break open something I’m not ready to know, please don’t do it violently! Instead please do something to make it possible for me to know in a safe way! Please prepare me BEFORE you break it open! Please ground me BEFORE you show me the memory! Please support me BEFORE you make it intense! What is one next thing I can do?” etc.\n\nNOTE: Keep in mind that these images may not be “literal” (especially when dealing with trauma and memories) as your mind will turn it into symbols, squish things together, distort, dramatize, take ideas from outside influences (culture) or fears, etc. So take it as an image and get some outside help!",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 115
+    },
+    "elapsed": 7
+  },
+  "balance_after": 43986
+}

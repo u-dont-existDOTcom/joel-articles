@@ -1,0 +1,602 @@
+{
+ "G-S11": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S11",
+  "spot": "S11",
+  "his": false,
+  "the_change": "Emulate's \"read some of the stuff in the daily and weekly sections\" (sample co) for \"look at the daily and weekly sections\", with the sentence's own ending kept (\"to make the practice your own\") and \"Also\" for \"You can also\" (the linter's coach register).",
+  "candidate_sha256": "ef44fe8aa1a93b54dfd1066b61581b5a9606324693358e549f2c9ca1a42c4dce",
+  "context_sha256": "d746619828de751f1a37707ef1b60d0d64be8394f2a591c71e9829c1b1294b48",
+  "source_sha256": "441a482c4822baee9aab6bbbb31437bcfede4ae0543d411110948d1c2efc1d04",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ },
+ "G-S12": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S12",
+  "spot": "S12",
+  "his": true,
+  "the_change": "Emulate's sentence (sample cm) in place of his own \"On a guide this long, that little hidden menu is your friend.\": the hidden table of contents helps because the guide is long.",
+  "candidate_sha256": "749a7ad432bd69dc74f769fdc7af01fa96c9ecd234aa3c8178787a4b7a1d5600",
+  "context_sha256": "64257db7de9bb4859c127dcebc89eee41d02d1f502b7f45dbc8992c498e2f499",
+  "source_sha256": "6f09a1c38e9ce6c52d02caf2c34cc92a076ace59f03dea8a2b81e54807421722",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ },
+ "G-S14": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S14",
+  "spot": "S14",
+  "his": false,
+  "the_change": "Emulate's first and third sentences (sample co) around his own second one, which stays: there are many ways to influence people without the conscious mind, and the FTC's report on dark patterns, with his \"designs that trick or manipulate consumers\" put back (the first draft's \"their\", \"used to\" and \"trick and manipulate\" failed preservation).",
+  "candidate_sha256": "7bbe32d2ff36ba335b65dd746a146397ab00e97b87d81a213c50152b9d8adc14",
+  "context_sha256": "35a61515e4095ad2f89ea2548706a0b2b35d228861de66a8ebaf19004bcb45c1",
+  "source_sha256": "1089d07c0b4fd8da3be76037507739a5d18c33c8c6e4e4b69523657e90595b7a",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "E186 \"without ...ing\" (13% of the single-paragraph screens that read AI, 3% of those that read Human, 2026-10-14 to 10-17): say what happens instead, or cut it",
+    "examples": [
+     "There are a lot of ways to influence people without engaging their conscious mind."
+    ]
+   }
+  ]
+ },
+ "G-S15": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S15",
+  "spot": "S15",
+  "his": false,
+  "the_change": "Emulate's version (sample co): the four kinds of agreement joined to the question with a dash.",
+  "candidate_sha256": "45e2021b0a00559dc67b603075389057dd670eb4db8debd3b9bf4d2ab2d42363",
+  "context_sha256": "35a61515e4095ad2f89ea2548706a0b2b35d228861de66a8ebaf19004bcb45c1",
+  "source_sha256": "f760666f9b72188050833bb131919cf89bad0815a0cf4e54aadd876fc11cb240",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "B4/E15 list or packed sentence",
+    "examples": [
+     "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent - can people have their minds influenced without the conscious agr"
+    ]
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ },
+ "G-S16": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S16",
+  "spot": "S16",
+  "his": false,
+  "the_change": "Emulate's \"So each can correct the other.\" (sample cm) for \"So these modes can correct each other.\"",
+  "candidate_sha256": "e835f87732c14964ddd0a9824106697e84a3d47140182dcec5f1360704db484b",
+  "context_sha256": "511204aa0b9ad08c0d9bb8ffa5145314527ffa121170a60667d60b0ee89b1f45",
+  "source_sha256": "587b5631923c8038297448f48f7153eed1d69f026f7ceba0e743b64877bee2a2",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "B7 short landing at paragraph end",
+    "examples": [
+     "So each can correct the other."
+    ]
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ },
+ "G-S17": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S17",
+  "spot": "S17",
+  "his": false,
+  "the_change": "The line without its \"And\", as all three samples gave it.",
+  "candidate_sha256": "2299d7631e19a091bddc9ad014cd41682fafd9c75a325c74793e1fc92fe3160c",
+  "context_sha256": "511204aa0b9ad08c0d9bb8ffa5145314527ffa121170a60667d60b0ee89b1f45",
+  "source_sha256": "1d0d5f1b40d908cd9c66932f8c60343bf128c895dc1308ffe03076fcd1589833",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "B7 short landing at paragraph end",
+    "examples": [
+     "It’s got to lead somewhere!"
+    ]
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ },
+ "G-S18": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S18",
+  "spot": "S18",
+  "his": false,
+  "the_change": "Emulate's two sentences (sample cm) for the two that read Medium and Low, ending on his own \"trust and precision\"; \"One reason was\" made \"One reason might have been\" (his \"Maybe part of that\").",
+  "candidate_sha256": "630974fa89cfcb6c712367fdf1381c4390a6614745b52c88b86ee0ee0e9d77c5",
+  "context_sha256": "dbac4e86f7fde7ed87568a7b03627cf051450a5ee03a770e8e6a0f08cc4f54e7",
+  "source_sha256": "3dd7f6c103ce091a6c8d53de7fe3b4f5741273da05faf18c024891f050f641a4",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ },
+ "G-S19": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S19",
+  "spot": "S19",
+  "his": false,
+  "the_change": "Emulate's sentence (sample co): the body's no noticed before the conscious mind can twist it into a yes.",
+  "candidate_sha256": "cf39e3b6778752152e6713464496c9a0599a44c574bc41062bcbf5568a76c0bb",
+  "context_sha256": "dbac4e86f7fde7ed87568a7b03627cf051450a5ee03a770e8e6a0f08cc4f54e7",
+  "source_sha256": "fad9f1270b65aa79e8651604ae1bf00feecc64c12d4b6c3c12156d12bea33d56",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ },
+ "G-S20": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S20",
+  "spot": "S20",
+  "his": false,
+  "the_change": "Emulate's sentence (sample cm) for the paragraph's last one, without its quote marks around \"social\".",
+  "candidate_sha256": "f87f3c4c69c655801a6c541c6aa9c56d34f1cb3c21e73f08a1f68770de1db352",
+  "context_sha256": "70e4e28592977969d7bd4a85dd420e26eeda42cea6ee8b064a48263b571f2776",
+  "source_sha256": "3d01279cd6f39c3a6e661867c4d2226c3d507c600a39007669721abbbd5132c4",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "13.5 \"you\" per 100 of my words"
+    ]
+   }
+  ]
+ },
+ "G-S21": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S21",
+  "spot": "S21",
+  "his": false,
+  "the_change": "Emulate's \"When you're done, make sure to come back the other way.\" (sample cm) for \"And when you're done, come back the other way.\"",
+  "candidate_sha256": "f4b1ca455b2dc83eb8abd9635e0d2344c4d41b8e9757637a02b3d63836bc74b3",
+  "context_sha256": "92e28c55fa27c6955a9321c220acab14286cf0aa33093a9b662d693484bd548a",
+  "source_sha256": "1456fb6620752eeefe3178102887bf4e6ff2b633355f2824295864195adfcc4a",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "9.1 \"you\" per 100 of my words"
+    ]
+   }
+  ]
+ },
+ "G-S22": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S22",
+  "spot": "S22",
+  "his": false,
+  "the_change": "Emulate's three sentences (sample cn): \"And then read it out loud as you write it. Long, elegant sentences are NOT going to help you when you’re trying to induce. It’s all soup to you at that point.\"",
+  "candidate_sha256": "cc77ea629dee6efd377060fbe26cea62b7fd6bb2ef3c380b98d3fe67d4148911",
+  "context_sha256": "92e28c55fa27c6955a9321c220acab14286cf0aa33093a9b662d693484bd548a",
+  "source_sha256": "fc3f26e1678d9ec014db96200d712727caabb8a3422842e2349b1bae2ad59479",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "B7 short landing at paragraph end",
+    "examples": [
+     "It’s all soup to you at that point."
+    ]
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "12.5 \"you\" per 100 of my words"
+    ]
+   }
+  ]
+ },
+ "G-S23": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S23",
+  "spot": "S23",
+  "his": false,
+  "the_change": "Emulate's first two sentences of the paragraph (sample cn): what you want to do, and what you don't want to do today.",
+  "candidate_sha256": "2ae2f2670619cf0297e9d04be33c6c5ca1aa9d2af28554730dc4189369e2baad",
+  "context_sha256": "516e0043805c7208532d3bcf960948e518ffd944c0bd5ff7f4011c448405d5f9",
+  "source_sha256": "949160c075696d03a8851dbaa1b9b1551e7c1ed57fc308ee595bc083d898c718",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "B7 short landing at paragraph end",
+    "examples": [
+     "Are there things you don’t want to do today?"
+    ]
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "12.5 \"you\" per 100 of my words"
+    ]
+   }
+  ]
+ },
+ "G-S24": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S24",
+  "spot": "S24",
+  "his": false,
+  "the_change": "Emulate's \"Make sure you're in a safe place to do this.\" (samples cm and co, word for word).",
+  "candidate_sha256": "2c73f5ab0c8706b6ee21a72b63a7fb507bba5abfedd880b9787119f3c448c8c5",
+  "context_sha256": "516e0043805c7208532d3bcf960948e518ffd944c0bd5ff7f4011c448405d5f9",
+  "source_sha256": "d19d10e1c56e71f173000092c4102c5807f646c71559f0b084382a8dd778bb13",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "10.0 \"you\" per 100 of my words"
+    ]
+   }
+  ]
+ },
+ "G-S25": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S25",
+  "spot": "S25",
+  "his": false,
+  "the_change": "Emulate's version (sample cn) of the paragraph's first eight sentences: decide to do it, how to coax yourself, preview the session; the old \"this\" kept in the second. The stop lines after them are card S3b's and stay.",
+  "candidate_sha256": "7c27ffea47e19f770f6f1ad971d36dcddd822a5e6a9ef80cd46284231536777b",
+  "context_sha256": "516e0043805c7208532d3bcf960948e518ffd944c0bd5ff7f4011c448405d5f9",
+  "source_sha256": "5dbaac6022b2b834a71eaa310c5b7502a5a6b730e9258b915297a30f68e224cd",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "B7 short landing at paragraph end",
+    "examples": [
+     "What will you do at the end?"
+    ]
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "E23 paragraph of instructions",
+    "examples": [
+     "Decide to do it. How will you coax yourself to do this? Make it spacious? Make it warm and..."
+    ]
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "12.2 \"you\" per 100 of my words"
+    ]
+   },
+   {
+    "label": "O29 a run of three or more questions (gate step 7: \"a few shared AI micro-patterns (question runs, triads, \"isn't X, it's Y\")\"; its prediction review: \"questions the text answers itself\"): keep the ones a reader would ask",
+    "examples": [
+     "3 questions: Will you close your eyes? Will you come out and go back in again? What will you do at the end?"
+    ]
+   },
+   {
+    "label": "R1 action \"it\" near a paragraph start: name the thing (Joel 2026-09-30, on \"If you did it\": \"the first it is unclear referent\")",
+    "examples": [
+     "Decide to do it."
+    ]
+   }
+  ]
+ },
+ "G-S26": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S26",
+  "spot": "S26",
+  "his": false,
+  "the_change": "Emulate's \"What is one next thing I can do?\" (sample co) for \"Give me one next action!\"",
+  "candidate_sha256": "8d7a08cc7d2c47e3cde1353eabd2501166fdb60bbc5a6c92ad82834dbac4ee8b",
+  "context_sha256": "a0eac06deaf34b4a1257c2b5d0649edee534cded23f1903609d7e86d66d2d292",
+  "source_sha256": "50171245d16b3c7635035277465123a9e1e011fc46573c30a084a8b438f99d00",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "B7 short landing at paragraph end",
+    "examples": [
+     "What is one next thing I can do?"
+    ]
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ },
+ "G-S27": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S27",
+  "spot": "S27",
+  "his": false,
+  "the_change": "Emulate's end of the first sentence (\"if it has to do with trauma or memories\", sample co of the next item) and last sentence (\"So take it as an image and get some outside help!\", sample co); the middle sentence stays.",
+  "candidate_sha256": "02da3191c3cddfaa552f3d04eafc79dd5c6a36e1328a83743624518d2e6e1ddb",
+  "context_sha256": "a0eac06deaf34b4a1257c2b5d0649edee534cded23f1903609d7e86d66d2d292",
+  "source_sha256": "b16627001aa94244458e096262d7deae3d5972b2fd68c12ee9d6bf5ef8cd7cf1",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "B4/E15 list or packed sentence",
+    "examples": [
+     "The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc."
+    ]
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "O45 a safety line (Joel 2026-10-23: \"all the extra extra ridiculous safety language which gets repeated everywhere\"; \"let's never make those mistakes again pls\"; E250 (Inner Child)): it stays only if it changes what the reader does right here, isn't a sometimes-true point said as a rule, and the article doesn't already say it",
+    "examples": [
+     "So take it as an image and get some outside help!"
+    ]
+   }
+  ]
+ },
+ "G-S28": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S28",
+  "spot": "S28",
+  "his": false,
+  "the_change": "Emulate's \"Could you try it on a smaller scale?\" (sample co), with the old sentence's \"this\" for \"it\".",
+  "candidate_sha256": "5781c25329058e77a2b15598afe42a2c1e38c7cf4b9d1b85a04137a3fe7028ff",
+  "context_sha256": "36d10ee2f6573e60fab92d220dabc2c04b34ac53587572593432c9fcb58e23de",
+  "source_sha256": "c4915e440a47d8a487a1003416906a94dbc25bd15601951a8e8ba6569e116ec2",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "B7 short landing at paragraph end",
+    "examples": [
+     "Could you try this on a smaller scale?"
+    ]
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "12.5 \"you\" per 100 of my words"
+    ]
+   }
+  ]
+ },
+ "G-S29": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S29",
+  "spot": "S29",
+  "his": true,
+  "the_change": "Emulate's words (sample co) in place of his own three requests, ending on his own \"today is for listening or resting\" (the sample's \"listening to something\" made it something outside you); the third ask is its own sentence (the linter's list of three).",
+  "candidate_sha256": "0c1c563e42460c7b4bd165766d4a76a4bbfad5a6a94c36caa71fe2959e486ded",
+  "context_sha256": "36d10ee2f6573e60fab92d220dabc2c04b34ac53587572593432c9fcb58e23de",
+  "source_sha256": "80e1b3b681f45b9fbe2eecb952c6bd63d5812940a4c4a6279544ba7bb4ba81be",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "O25 \"even\" or \"actually\", 1 in my text (TELLS-FROM-PANGRAM-DATA-20261007.md: they go with the failing paragraphs; \"They're words I add to sound casual, and they don't help\"): keep one only where it says something",
+    "examples": [
+     "Or even just whether today is for listening or resting."
+    ]
+   }
+  ]
+ },
+ "G-S30": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S30",
+  "spot": "S30",
+  "his": false,
+  "the_change": "Emulate's \"Have you got any sense of what it is that's making it feel fake?\" (sample co).",
+  "candidate_sha256": "dbb3a237e0028eeee1e815e890a412986dd909079183ec7e0eb4262cfa1673c0",
+  "context_sha256": "b49c510fb0a5d1bace0891b4b252026f9d6b5c75bbf176981847c9216a5b941b",
+  "source_sha256": "4269234f9056a62510bdc236a2bbe0777fb0a8e334d8488db9d0e4c71fc6c97c",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "7.1 \"you\" per 100 of my words"
+    ]
+   }
+  ]
+ },
+ "G-S31": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S31",
+  "spot": "S31",
+  "his": true,
+  "the_change": "Emulate's start (sample co), \"You may have fooled yourself in the past\", for his inner child guide's \"Maybe you've fooled yourself before\", ending on his own \"and that part remembers\"; his next sentence stays. (The first draft, Emulate's two sentences, failed preservation: \"this part knows it\" lost his \"remembers\", and \"Try\" lost his \"works well here\".)",
+  "candidate_sha256": "c6b79e0292b0d76e18d27430c3812fdf6e8a309a05f1fbd28fd74a6a20f8f34d",
+  "context_sha256": "b49c510fb0a5d1bace0891b4b252026f9d6b5c75bbf176981847c9216a5b941b",
+  "source_sha256": "6d86f0ecbbb20fb9cd1d271bb7ca76143c623bced770b158e6d9af8c48b1f654",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "8.3 \"you\" per 100 of my words"
+    ]
+   }
+  ]
+ },
+ "G-S32": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S32",
+  "spot": "S32",
+  "his": true,
+  "the_change": "Emulate's sentence (sample cn) in place of his own \"An ethical one offers two genuinely safe routes.\", with his \"genuinely\" put back (the first draft dropped it and failed preservation).",
+  "candidate_sha256": "56c45529f4468ff1c84a7e7b28942d43f1820f9d8c79d1fa57e8af615d7a9dda",
+  "context_sha256": "25d87d15d7c3ed6427ad9298edf0df9b5534ec724ee9d0433f519a9e97d56a1c",
+  "source_sha256": "8ba64224096312939aa6e87f81ee90c48eb8aa15316d5e518109f6aaed00720d",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ },
+ "G-S33": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S33",
+  "spot": "S33",
+  "his": false,
+  "the_change": "Emulate's \"Here is a little script you could use:\" (sample cm); the heading says it is for anxiety.",
+  "candidate_sha256": "5768b77c01d021ad346df91aad2c5bb2f8adc5786d1bedead681513908db1193",
+  "context_sha256": "da715839396d1c7dcb4ac9aee599e601744af07a38dc9c0953b9e70d53ffddbd",
+  "source_sha256": "529d7a8c78f0609dec4b068990688cc1d4468573c0f96a1a4b44a0e90a2b356f",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "B7 short landing at paragraph end",
+    "examples": [
+     "Here is a little script you could use:"
+    ]
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "12.5 \"you\" per 100 of my words"
+    ]
+   }
+  ]
+ },
+ "G-S34": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S34",
+  "spot": "S34",
+  "his": false,
+  "the_change": "Emulate's \"Let’s see if I can find my body parts.\" (sample cn, its \"Lets\" typo fixed with the section's curly apostrophe; the first draft's straight one failed all three reviewers) for the script's first question.",
+  "candidate_sha256": "18b597d5cd273f1bd12e38606cf7ecf8772a09b5957ce33582fafc3374e925e3",
+  "context_sha256": "da715839396d1c7dcb4ac9aee599e601744af07a38dc9c0953b9e70d53ffddbd",
+  "source_sha256": "9507e40dc72e751d1e0c7a4e2d953b25512ce2afd9d1be7c910b4d186e037ec1",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "B7 short landing at paragraph end",
+    "examples": [
+     "Let’s see if I can find my body parts."
+    ]
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ },
+ "G-S36": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/b481/gate/G-S36",
+  "spot": "S36",
+  "his": false,
+  "the_change": "Emulate's \"What’s theirs and what’s mine?\" (sample cm) for \"What is theirs? What is mine?\". (The first draft also had Emulate's \"What boundaries do I need to set as a result?\", which failed preservation; that question stays as the working copy has it.)",
+  "candidate_sha256": "e19c644804cad1853ea2407f10720ade4cef074382cde92fe1684231f5c567bd",
+  "context_sha256": "5d6fd01528bcc3a4f1c0763f818a93b6ab4fe1bbce80bb89d674d50a71ab9302",
+  "source_sha256": "620f82eef3e9bcb7e50b68d13b3cbe0c402996b402e28104278c95809fa1575e",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "B7 short landing at paragraph end",
+    "examples": [
+     "What’s theirs and what’s mine?"
+    ]
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ }
+}

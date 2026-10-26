@@ -1,6 +1,6 @@
 # Handoff: Community article humanization
 
-The intentional-communities Substack article, humanized section by section so every paragraph and every section reads Human in Pangram's web app with the meaning kept. Updated 2026-10-26, after Joel's message of 00:54 UTC ("and i made the changes on the community article that's done"): his post has the version with his answers to 66, read and matched in this turn, and `master.md` is that version (START HERE). Nothing is waiting on him in this lane. The newest version is `candidate/joel-20261025/answer66/WORKING.html`.
+The intentional-communities Substack article, humanized section by section so every paragraph and every section reads Human in Pangram's web app with the meaning kept. Checked again 2026-10-26, after Joel's message of 12:43 UTC (the hypnosis guide's; nothing in it for this lane, and nothing changed here). Updated 2026-10-26, after Joel's message of 00:54 UTC ("and i made the changes on the community article that's done"): his post has the version with his answers to 66, read and matched in this turn, and `master.md` is that version (START HERE). Nothing is waiting on him in this lane. The newest version is `candidate/joel-20261025/answer66/WORKING.html`.
 
 **Resume line (paste into any Claude account; the repository is public):**
 > Continue my community article work: read https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/HANDOFF-community-article.md and carry on from its next step.

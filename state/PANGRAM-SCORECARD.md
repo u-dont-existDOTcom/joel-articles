@@ -38,23 +38,23 @@ The boundary mix over all lanes:
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | community article | 1 | 0 (0%) | 0% | 100% | 0% | 0.865 (base 0.000, 1) |
-| hypnosis guide | 24 | 20 (83%) | 83% | 17% | 8% | 0.131 (base 0.139, 24) |
+| hypnosis guide | 26 | 21 (81%) | 81% | 19% | 8% | 0.153 (base 0.155, 26) |
 | nibbana article | 8 | 7 (88%) | 88% | 12% | 0% | 0.086 (base 0.109, 8) |
-| **all lanes** | 33 | 27 (82%) | 82% | 18% | 6% | 0.142 (base 0.149, 33) |
+| **all lanes** | 35 | 28 (80%) | 80% | 20% | 6% | 0.158 (base 0.160, 35) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | community article | 1 | 0 (0%) | 0% | 100% | 0% | 0.865 (base 0.000, 1) |
-| hypnosis guide | 24 | 20 (83%) | 83% | 17% | 8% | 0.131 (base 0.139, 24) |
+| hypnosis guide | 26 | 21 (81%) | 81% | 19% | 8% | 0.153 (base 0.155, 26) |
 | nibbana article | 8 | 7 (88%) | 88% | 12% | 0% | 0.086 (base 0.109, 8) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| article | 21 | 17 (81%) | 86% | 14% | 5% | 0.134 (base 0.122, 21) |
+| article | 23 | 18 (78%) | 83% | 17% | 4% | 0.159 (base 0.144, 23) |
 | stretch | 12 | 10 (83%) | 75% | 25% | 8% | 0.155 (base 0.188, 12) |
 
 ## pangram API (model pangram-4), answered 4.1
@@ -234,6 +234,7 @@ The boundary mix over all lanes:
 | a linter fix that read worse | 1 | hypnosis guide |
 | pessimism about Emulate's whole-stretch re-run | 1 | hypnosis guide |
 | context: Human in the whole guide, red alone | 1 | hypnosis guide |
+| pessimism about red moving onto unchanged text | 1 | hypnosis guide |
 | a tell I left in | 1 | inner child guide |
 | his questions are the tell | 1 | inner child guide |
 | the list was not the only tell | 1 | inner child guide |

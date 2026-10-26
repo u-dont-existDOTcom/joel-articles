@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-co/HG-Nothing-happens-378.txt",
+  "input_words": 79,
+  "input_sha256": "55d4fe9ba5920e23bfd3d44282d307b6b3fa93f09b3032998e8a0c622c541c5b",
+  "balance_before": 43986,
+  "started_utc": "2026-10-26T12:59:07Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:59:14Z",
+  "response": {
+    "id": "52855308-979f-48f0-96b0-6a67d6933dac",
+    "tool": "humanize",
+    "text": "Note: Be aware that this may not all be literal, especially if it has to do with trauma or memories. Your mind may turn it into a symbolic representation, combine things, distort it, dramatize it, use cultural influences, fears, etc. So treat it as an image and get some outside help with it!\n\nThings that may not be working so well:\n\nNothing seems to happen when I try this.\n\nCould you try it on a smaller scale? Maybe ask to\n\nbe shown just one body sensation, or just one word,\n\nor even just whether it is more for listening to something\n\nor resting today. Then see how that works.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 79
+    },
+    "elapsed": 7
+  },
+  "balance_after": 43749
+}

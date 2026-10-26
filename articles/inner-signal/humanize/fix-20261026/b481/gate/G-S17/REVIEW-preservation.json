@@ -1,0 +1,22 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "2299d7631e19a091bddc9ad014cd41682fafd9c75a325c74793e1fc92fe3160c",
+  "context_sha256": "511204aa0b9ad08c0d9bb8ffa5145314527ffa121170a60667d60b0ee89b1f45",
+  "source_sha256": "1d0d5f1b40d908cd9c66932f8c60343bf128c895dc1308ffe03076fcd1589833",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+    "context_id": "b481-gate-preservation-subagent-b",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Compared word by word with SOURCE.txt. Draft: 'It’s got to lead somewhere!' Words it replaces, and the line he approved in the working copy: 'And it’s got to lead somewhere!' The only difference is the dropped 'And' (the_change: the line without its 'And', as all three samples gave it); otherwise it is the approved line word for word, with the same curly apostrophe the section uses. Nothing is added (no claim, condition, person, number or named entity); nothing of the approved line is left out except the conjunction; the strength ('got to') and the 'it' are unchanged; and the change claims to put nothing back (the ledger's T14 and T15 lines saying it 'puts back the author's own point that Emulate dropped' do not describe this change). Against his published sentence ('A powerful state matters only if something survives it: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life.'): the words it replaces already compress that to the one line with none of the listed outcomes, so the draft neither adds nor loses anything relative to them. The 'And' only marked the line as one more thing after the paragraph before it; without it the line stands alone, a touch more clipped and less spoken, with the same claim. That is a matter of his voice for his card, not of meaning. 'It' has no noun directly before it in either version (the sentence before is 'So each can correct the other.'); the reader takes it as the co-operation of the modes the section is about, and an earlier paragraph ('the adult can choose what to do next in the real world') gives the line its setup, so dropping 'And' does not make 'it' point at anything new. Reads right in context: it closes the section as the approved line did, after S16's closing line. Tells: I went through T01 to T29 and C01 to C04 on the literal draft in its context. PRESENT: T20 (this paragraph is only a short landing, and the section's paragraphs end on short lines: 'Nobody needs to win!', 'It can be peaceful but also precise.', 'So each can correct the other.', then this; the ledger's T20 line only restates the change, so I differ from its ABSENT). Justified: it is the line he approved as the section's ending and it carries the point of his published sentence; it is plain and spoken, not an antithesis or a quotable line; and the change removes a word, adding no landing and no polish. Considered and judged absent: T28 (it adds a new consideration, that the practice has to produce something, rather than summing up or reassuring), T03 (the earlier real-world sentence sets it up), T17 and T11 (not a free-standing principle or a bridge). Linter: 'B7 short landing at paragraph end' accepted for the reasons given under T20; 'D9 follows the source order' accepted: one line replacing one line in the same place, and T13 and T09 have nothing to flag in it.",
+  "resolved_tell_ids": [
+    "T20"
+  ],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order"
+  ]
+}

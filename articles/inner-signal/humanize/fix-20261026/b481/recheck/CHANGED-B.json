@@ -1,0 +1,36 @@
+[
+ {
+  "name": "S32 (Pattern 6: Ethical double binds, P2)",
+  "text": "An Ethical Double Bind Question gives someone a choice between two genuinely safe things to do.",
+  "chance_red": 0.1,
+  "chance_high": 0.4,
+  "why": "Emulate's cn for his own Low (0.640) sentence"
+ },
+ {
+  "name": "S33 (Anxiety script, P1)",
+  "text": "Here is a little script you could use:",
+  "chance_red": 0.05,
+  "chance_high": 0.4,
+  "why": "Emulate's cm for the script's lead-in (Medium 0.984 with the first two questions)"
+ },
+ {
+  "name": "S34 (Anxiety script, P2)",
+  "text": "Let’s see if I can find my body parts.",
+  "chance_red": 0.05,
+  "chance_high": 0.4,
+  "why": "Emulate's cn for the script's first question (the same Medium window)"
+ },
+ {
+  "name": "S36 (Forgiveness without bypass, P5)",
+  "text": "What’s theirs and what’s mine?",
+  "chance_red": 0.05,
+  "chance_high": 0.35,
+  "why": "Emulate's cm, one question for his two (Medium 0.963 with his 'What does accountability require?'); still a run of short questions"
+ },
+ {
+  "name": "the hypnosis audit (kept, 2c)",
+  "text": "Before accepting a recording or live suggestion, ask:\nWas I plainly told that induction mechanics are being used?\nCan at least one answer lead to pause, modification, full alertness, or stopping?\nDoes the speaker treat not noticing as secret proof that the process worked?\nAre roles, ownership, obedience, age, identity, or belonging being used to lower adult judgment?\nAre fractionation, cues, later behavior, or memory effects disclosed before they are used?\nAre ordinary body sensations being turned into evidence for a hidden claim?\nDoes the exit restore ordinary identity, movement, orientation, and critical judgment—and plainly say that the session has ended?\nWhen an answer is unclear, stay fully alert. Ask for the exact script, change the method, or leave.",
+  "chance_red": 0.95,
+  "why": "unchanged; his answer 2c keeps it a list; read AI, High, in each check since recheck B2, lead-in to last line"
+ }
+]

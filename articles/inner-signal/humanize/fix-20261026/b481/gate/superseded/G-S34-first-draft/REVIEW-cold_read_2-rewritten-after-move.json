@@ -1,0 +1,22 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "5221a4bee10fa8a68026749ada5f56278ce66832fe632a9fd8b4cfdc3fc3e2a2",
+  "context_sha256": "4830bf5a361d3189df6cd1029ae8d24db485d9f8a94a9c26593ddee88d85fd50",
+  "source_sha256": "9507e40dc72e751d1e0c7a4e2d953b25512ce2afd9d1be7c910b4d186e037ec1",
+  "verdict": "FAIL",
+  "unresolved": [
+    "Straight apostrophe (U+0027) in Let's: every other apostrophe in the section is curly (you’re, I’m, didn’t), so the inserted word is a visible typographic seam; use ’ in DRAFT.txt"
+  ],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+    "context_id": "b481-gate-cold_read_2-subagent-h",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Read CONTEXT whole (heading 'Anxiety script', the lead-in, then the script's three paragraphs), then DRAFT 'Let's see if I can find my body parts.' against SOURCE 'Where are my body parts?' and the_change (Emulate's line, its 'Lets' typo fixed). Wording and meaning pass: the line still asks the speaker to locate their body, and the four body questions after it ('What are my feet doing?' and on) carry on from it; 'see if I can find' adds a gentle try-it tone, not a fact; 'Let's' fits a script that already says 'we need to do' and talks to a part of the speaker; the change also turns the old run of five questions in a row into one statement plus four questions. No first-person fact about Joel (C03), no claim (C04), pronouns clear (C02), no 'the kid' (C01). It reads in the script's own loose, warm voice, with no different-writer seam, tidy summary or hedge he would not write. Tell rows: T07 (colloquial 'Let's see...') and T19 (a line that says what the next questions do) were considered and judged ABSENT, because this is the script's real first move, rehearsed self-talk the reader says aloud, not stage business between beats and not a bridge; T26 'body' repeats exactly as it did in the source; all other rows ABSENT. Linter: 'B7 short landing at paragraph end' accepted, since the linter saw the draft alone and in context it opens the script's first paragraph with four questions after it, so it is not a landing; 'D9 follows the source order' accepted, since this is a one-sentence swap with no organization to notice with. One problem keeps this from PASS: the apostrophe in 'Let's' is a straight one (U+0027) while every other apostrophe in the section is curly (you’re, I’m, didn’t, I’m), and the lint examples quoted for other spots in this article (It’s in G-S17, don’t in G-S23, What’s in G-S36) are curly too. It is the one place a careful reader or a tool could see where the line was put in, it came in with the typo fix, and it takes one character to repair; with ’ in DRAFT.txt I would pass this same wording. Note that G-S33 shares this CONTEXT, so its context hash will change when this is fixed. Files read: GATE-INPUTS.json, the tell inventory, and this folder's DRAFT, CONTEXT, SOURCE and ADMISSION.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order"
+  ]
+}

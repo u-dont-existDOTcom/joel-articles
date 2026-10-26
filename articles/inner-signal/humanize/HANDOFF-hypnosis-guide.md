@@ -205,7 +205,45 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-10-26, after Joel's message of 00:54 UTC: batch 479's recheck read; question 21 and batch 480's recheck wait on him)
+## Next step (2026-10-26, after Joel's message of 12:43 UTC: batch 480's recheck read; batch 481 for the windows at less than High; questions 21 to 23 and batch 481's recheck wait on him)
+
+His message, word for word: `fix-20261026/joel-20261026-1243-message.txt` (the two result links; "the questions page has
+no open questions, so you must have forgotten to do that"; the preview link for every lane; "fix any segments that are not
+high confidence human if you can, and always we should be marking down the confidence if we have it"). Done (pull request
+256, https://github.com/u-dont-existDOTcom/joel-articles/pull/256):
+- **Batch 480's recheck, read** (`fix-20261026/b480/recheck/read/`: WINDOWS, META, RESULT, SCORE, and CONFIDENCE.md from
+  the new `tools/humanization/window_confidence.py`): part A Human Written, 0 of 153 windows AI (71 High, 68 Medium, 14
+  Low); part B Mostly Human Written, 1.3% AI, the audit (2c) the one AI window. HG-whole#71 a miss (pessimism, explained),
+  HG-rest-B#72 right; the part forecasts 27 of 27 and 14 of 14.
+- **The guide's own questions page** ("Hypnosis Guide Questions", https://claude.ai/artifact/8o79MFm9vSpyMGrAeArZYx), a
+  view of `OWNER-QUESTIONS.md` made by `articles/intentional-communities/candidate/tools/render_questions.py` into
+  `guide-questions.html`: republish it (same file path) whenever the file changes.
+- **Two standing rules** (AGENTS.md, gates E277 and E278, docs, memory): every lane gives Joel each temporary draft's
+  secret preview link (`tools/humanization/substack_secret_link.js`), and every Pangram result is recorded with each
+  window's confidence, a window at less than High being work to do where a fix keeps his meaning and form.
+- **Batch 481** (`fix-20261026/b481/README.md` has every step): Emulate's samples (cm, cn, co) of the 22 groups of
+  paragraphs with a Low window or a Medium one of 10 words or more, and of the audit; 24 splices (S11 to S36), the strict
+  Emulate check, the linter's fixes, and the owner-delivery gate (`fix-20261026/b481/gate/GATE.md`: 24 of 24 delivered after two rounds, lesson E279); the windows left are listed with why.
+- **Question 21's page** republished with 34 cards (`fix-20261026/review/build_review_481.py`, REVIEW-481.json, .html,
+  browser test): the ten of batches 479 and 480 with how they read, and batch 481's delivered drafts.
+- **Questions 22 and 23**: the 60 short Medium lines (default leave), and the audit (default keep his list).
+- **The recheck with batch 481 in** (`fix-20261026/b481/recheck/`): built, predicted (HG-whole#73, HG-rest-B#74),
+  forecast part by part with a chance of High for each spot, pasted into the same two drafts, checked rendered, and each
+  draft's secret preview link made with the new tool (cache keys recheck-a-27, recheck-b-27).
+
+Next:
+1. When he sends the two result links: read them as in `fix-20261026/b480/recheck/read/` (compact mode, WINDOWS checked
+   against the page's SHA-256, META with part B's card line in "embeds", RESULT rebuilt from
+   `fix-20261026/b481/recheck/PAYLOAD-A.html` and `PAYLOAD-B.html`, then `window_confidence.py` for CONFIDENCE.md with
+   `--article fix-20261026/b481/CANDIDATE-MASTER.md`), the ledger results, `part_forecast.py score`, and each spot's
+   confidence against its chance of High (CHANCES.json).
+2. A batch 481 card whose change reads less than High in place: Emulate's re-run of that sample or another sample (E235),
+   or the card stays with its confidence said; one that reads red goes off the page until it's redone.
+3. When his answers to question 21 come back (the page's JSON): a script puts them into `HUMANIZED-SO-FAR.md` (as
+   `fix-20261025/emulate-check/apply_answers_20.py` did), each card's fate recorded; then the copy helper
+   (`docs/SUBSTACK-HELPER-DELIVERY-GATE.md`) and his paste; he deletes both TEMP drafts when done (E204; name them by title).
+
+## Earlier next step (2026-10-26, after Joel's message of 00:54 UTC: batch 479's recheck read; question 21 and batch 480's recheck wait on him)
 
 His message, word for word: `fix-20261026/joel-20261026-0054-message.txt` (the two result links, and "i made the changes on
 the community article that's done", which is the community lane's; its handoff has it). Done (pull request 254):

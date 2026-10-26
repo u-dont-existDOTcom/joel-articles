@@ -1,0 +1,23 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "e835f87732c14964ddd0a9824106697e84a3d47140182dcec5f1360704db484b",
+  "context_sha256": "511204aa0b9ad08c0d9bb8ffa5145314527ffa121170a60667d60b0ee89b1f45",
+  "source_sha256": "587b5631923c8038297448f48f7153eed1d69f026f7ceba0e743b64877bee2a2",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "b481-gate-cold_read_1-subagent-b",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Draft judged: \"So each can correct the other.\" It replaces \"So these modes can correct each other.\" (SOURCE meaning: his published \"Let the modes correct each other.\"). It is the same sentence in the same slot, the last sentence of its paragraph, with \"these modes ... each other\" turned into \"each ... the other\". \"So\" and \"can correct\" are kept, so the mutual correction that is the guide's point is kept, and nothing is added: no claim, name, number or first-person fact. The only loosening is scope: \"modes\" (any of them) becomes \"each ... the other\" (a pair). In this paragraph that costs nothing, because the four lines before it are exactly two pairs, each shown in both directions (love and analysis; intuitive signals and testing). \"each\" lands on the pair just named (intuitive signals and the testing) and, by the same parallel, on the first pair, and \"the other\" is each one's partner; no pronoun points at anything the reader has not seen. The reader has to supply \"in each pair\", which the four lines make obvious. It reads naturally after \"Without intuitive signals the testing can be dead.\" and leaves the one-line paragraph after it (\"It’s got to lead somewhere!\") intact. The draft occurs once in CONTEXT.txt and is verbatim there. Tell rows: T29 is borderline PRESENT, where the writer's ledger says ABSENT: it is a \"So...\" sentence drawing the consequence of the four \"Without...\" lines, and the paragraph's point is mostly clear without it. I accept it as justified: it is the guide's own line kept in the slot the replaced sentence already had; the draft is shorter and plainer than that sentence (6 words against 7), not more summed-up; it names the positive relation (correcting) that the four lines only imply, since they say what each lacks and not that the other repairs it; and without it the paragraph would end on \"dead\" and drop the guide's point. T20 exists only at section scale (paragraph endings \"Nobody needs to win!\", \"It can be peaceful but also precise.\", this line and \"It’s got to lead somewhere!\" in a row). The draft is a plain consequence sentence in a slot that already ended short, not a quotable closer, so it neither creates nor sharpens the run; I count it as present at section scale and justified for that reason. T12 and T17 considered: the reciprocal \"each ... the other\" echoes the symmetry of the four lines before it, but that symmetry belongs to those lines, and the sentence is the guide's consequence line rather than a free-standing aphorism. T14 and T15: no reordering and no word-swapping beyond Emulate's own rewording of the same sentence. The other rows (T01-T11, T13, T16, T18, T19, T21-T28) and C01-C04 are absent: no first person, filler, negative reveal, announcing line, colon, tic word, uplift, \"kid\", stray referent, first-person fact or named-entity claim. Linter: \"B7 short landing at paragraph end\" accepted, because the paragraph ended on a short \"So...\" sentence before the change (7 words against 6), the sentence states the guide's consequence line, and the change adds no new landing. \"D9 follows the source order\" accepted, because a one-sentence rewrite of one sentence follows its order by construction; T13 and T09 checked, with nothing equalized or slot-filling in the change itself. Note on the writer's ledger: its T14 evidence says the change \"puts back the author's own point that Emulate dropped\" and its T15 evidence says it \"puts back the author's words or meaning\"; neither describes this change (Emulate's sentence, no put-back). Its T29 and T20 rows say ABSENT where I find T29 borderline and T20 present at section scale, as set out above. None of this changes the verdict.",
+  "resolved_tell_ids": [
+    "T20",
+    "T29"
+  ],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-co/HG-Anxiety-script-632.txt",
+  "input_words": 64,
+  "input_sha256": "cd7588a5accde3483146a7cff1e4a074a91511373600ca920aab6c5ea1362ba3",
+  "balance_before": 42582,
+  "started_utc": "2026-10-26T12:59:46Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:59:53Z",
+  "response": {
+    "id": "09638025-5fa9-4122-a04e-a04066ddd127",
+    "tool": "humanize",
+    "text": "Here’s a script you might find helpful when you feel you’re experiencing anxiety.\n\nDo a body scan “where’s my feet, where’s my hands, where is my head” etc. What are my feet doing? How is my body sitting in the chair? How is my body breathing? How is my body sitting in the room?\n\nIf there is a little one there you could say “Hi little one I know you’re there and I want you to know I’m here with you and that’s ok. Thank you guard for letting me know that you’re there. You did a great job but you didn’t need to scream to let me know. I got your message”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 64
+    },
+    "elapsed": 7
+  },
+  "balance_after": 42390
+}

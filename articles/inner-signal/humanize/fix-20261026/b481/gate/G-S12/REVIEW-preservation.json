@@ -1,0 +1,19 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "749a7ad432bd69dc74f769fdc7af01fa96c9ecd234aa3c8178787a4b7a1d5600",
+  "context_sha256": "64257db7de9bb4859c127dcebc89eee41d02d1f502b7f45dbc8992c498e2f499",
+  "source_sha256": "6f09a1c38e9ce6c52d02caf2c34cc92a076ace59f03dea8a2b81e54807421722",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+    "context_id": "b481-gate-preservation-subagent-a",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Draft: 'It'll be really helpful for this guide as it's a long one.' His own published sentence it replaces: 'On a guide this long, that little hidden menu is your friend.' The change is wholesale: Emulate's sentence stands in for his, none of his words are kept, and the_change says so (the hidden table of contents helps because the guide is long). Word by word: 'On a guide this long' becomes 'for this guide as it's a long one' (length is still the reason, same guide); 'that little hidden menu' becomes 'It' (the table of contents named in the sentence before and in the heading; 'hidden' is carried by that sentence, 'Substack kinda hides the table of contents'); 'is your friend' becomes 'It'll be really helpful' (same claim of usefulness; 'is' becomes 'will be' and 'really' is added as an intensifier). What is lost is voice, not content: his personified 'your friend', 'little', and the direct 'your' (the reader is now only the implied beneficiary of 'helpful for this guide', i.e. helpful when using this guide). No fact, condition, person or number is added, and nobody's role changes; the strength is about the same ('your friend' versus 'really helpful'). His line generalises ('on a guide this long'); the draft speaks of this guide, which is the guide in front of the reader, so nothing is narrowed in effect. The card shows his words first, so he can keep them. The draft appears once in CONTEXT.txt, after his unchanged first sentence. Reads right: 'It' could in principle be taken for 'Substack' (the previous sentence's subject), but 'really helpful for this guide as it's a long one' fits only the table of contents, which the heading ('The table of contents is hiding on the left') and the previous sentence keep in view, and 'it's a long one' is the guide; the casual register matches his 'kinda'; no typo, stray space or its/it's slip. Tells: I walked T01-T29 and C01-C04 on the draft in its context and find none actually happening. C02: the 'It' referent is recoverable and right (see above), not wrong or unseen. T15: the writer's ledger reasons for T14 and T15 ('puts back the author's own point/words') are boilerplate that does not describe this change, since nothing of his is put back here, so I did not rely on them; judged on its own, the sentence is a restructured plain paraphrase, not synonym swaps on an otherwise unchanged structure, so T15 is absent. T07 and T22: 'really helpful' and 'a long one' are ordinary casual wording, not staged filler or reassurance. T13 and T09: the paragraph still gives a reason (a long guide) and its first sentence is unchanged and specific. T29 and T20: the last sentence adds why the table of contents matters; it is not a restatement and not a polished closer. Linter finding D9 'follows the source order' is accepted: a two-sentence interface note with one sentence swapped in place, nothing moved (T14 absent); the order (what is hidden, then why bother) is the sense's own; T13 and T09 checked as above. The writer's reason ('by design') is thin, but the context answers the flag.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order"
+  ]
+}

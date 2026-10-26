@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-co/HG-Instead-of-blame-114.txt",
+  "input_words": 113,
+  "input_sha256": "4e2adb695e196122ab9d8dcc2a3ff98686d8362c1694c4c1401c9093345ccbb5",
+  "balance_before": 47523,
+  "started_utc": "2026-10-26T12:57:44Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:57:52Z",
+  "response": {
+    "id": "250e81a4-eb8d-4323-b308-bddc71942b97",
+    "tool": "humanize",
+    "text": "The next time you find yourself judging or blaming a younger version of yourself for something, instead of asking yourself what aged version of you is to blame for something, ask yourself; at that age what were you trying to get or get away from, what did you know at that age, what options could you see for yourself, which of these options could you see yourself taking, what was the upshot of taking that option, what did you not have that you needed (this could be a skill or other person(s) to help or protect you), what can you learn or put right now and what will you do differently next time you find yourself in a similar situation. Even if your actions have been detrimental to yourself or others punishing yourself now is not going to help the past version of you that didn’t have what they needed at the time.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 113
+    },
+    "elapsed": 8
+  },
+  "balance_after": 47184
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-co/HG-Already-open-Contain-before-267.txt",
+  "input_words": 89,
+  "input_sha256": "4110cf121cbe1f95a010eb18f83f5202e36219724c1bd821b9a37b5d5740551b",
+  "balance_before": 44943,
+  "started_utc": "2026-10-26T12:58:43Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:58:50Z",
+  "response": {
+    "id": "69d94e49-f277-4e2b-a6af-7bed62ef2f16",
+    "tool": "humanize",
+    "text": "Optional Grounding: Take a moment to get yourself oriented. Where are you? What date is it or what day of the week? How does your body feel? Where is grounding you? Can you feel your feet/hands/spine/etc? Take a moment to make contact with yourself, i.e., press your thumbs to the tip of your index fingers, gently but firmly enough that you can feel the friction, and focus on that.\n\nSetting an Intention: Say something along the lines of, “Only show me what I can integrate. If there’s too much, it can wait. My body will be safe. I’m here as an adult, not just my inner child.”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 89
+    },
+    "elapsed": 7
+  },
+  "balance_after": 44676
+}

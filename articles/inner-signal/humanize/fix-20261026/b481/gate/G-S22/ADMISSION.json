@@ -1,0 +1,248 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "cc77ea629dee6efd377060fbe26cea62b7fd6bb2ef3c380b98d3fe67d4148911",
+  "context_sha256": "92e28c55fa27c6955a9321c220acab14286cf0aa33093a9b662d693484bd548a",
+  "source_sha256": "fc3f26e1678d9ec014db96200d712727caabb8a3422842e2349b1bae2ad59479",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "writer": {
+    "name": "Claude Opus 5.5, the hypnosis guide lane's writer (the splices and their fixes; the words are Emulate's)",
+    "context_id": "session_01Mxpoi6tFT3FgKmBvtGjRtS"
+  },
+  "lint": {
+    "verdict_at_init": "REVIEW",
+    "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+    "stdout_sha256": "16013645ab37402d2699eae4b3640ca5fc612c6e820011d9e039779bd3602e86",
+    "findings": [
+      {
+        "label": "B7 short landing at paragraph end",
+        "examples": [
+          "It’s all soup to you at that point."
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "It ends the paragraph as the approved \"It's all just soup.\" did: his own image (published: \"long elegant sentences become soup during an induction\"), and \"at that point\" places it in the induction; it doesn't sum the paragraph up."
+      },
+      {
+        "label": "D9 follows the source order",
+        "examples": [
+          "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "It is Emulate's rewrite of the words it replaces (SOURCE.txt), so it follows their points in order by design; the turns are Emulate's own (\"And then\", \"NOT going to help you\", \"soup to you at that point\")."
+      },
+      {
+        "label": "E36/E41 heavy second person",
+        "examples": [
+          "12.5 \"you\" per 100 of my words"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "The guide speaks to the reader as \"you\" throughout; here \"you\" is the person writing the script and going into the trance, in the paragraph's two steps."
+      }
+    ]
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "no first-person stake in \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\" beyond the source's own",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "\"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\" is one step in its paragraph, not part of a run of compressed commands",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "the sentence before it in the context sets it up; nothing new arrives unprepared in \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "no scene in \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "no concrete prop in \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "no vague healing or process language in \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\"; its terms are the article's own",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "no filler or staged hesitation in \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "\"at that point\" places his image (soup) in the induction; nothing explains the image",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "one change in one passage; \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\" gets the weight its point needs, the rest of the passage is unchanged",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "no \"you don't have to X before Y\" packaging in \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "\"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\" carries a claim or step, not a bridge between document parts",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "no matched pair or closed list made for symmetry in \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "the passage around \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\" keeps its reasons, asides and callbacks; the change adds none of its own and removes none",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "no material moved to dodge a detector: \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\" takes the place of the flagged words in the same paragraph, in their order",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "\"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\" is Emulate's own wording for the flagged words, not less likely words swapped into the old sentence while its other tells stay; where Emulate shifted his sense, his words are back (the_change says where)",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "no \"not X, it's Y\" in \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "ABSENT",
+      "evidence": "no compressed thesis or aphorism in \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "no premise flipped by a short sentence in \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "\"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\" does not announce what comes next",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "it closes the paragraph as the approved \"It's all just soup.\" did",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "ABSENT",
+      "evidence": "\"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\" does one job, not several coordinated argumentative jobs",
+      "resolution": ""
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "\"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\" carries a step, a rule or a reason from his line, not reassurance alone",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "no generic scenery in \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "no faux-insight setup or self-answered question in \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "no colon reveal in \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "ABSENT",
+      "evidence": "no distinctive word or phrase in \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\" repeated within three paragraphs without a job",
+      "resolution": ""
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "none of the tic words (\"doing some work\", \"load-bearing\", \"digest\", \"clean\", vague \"work\") in \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "\"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\" is in the section's last paragraph, where the words it replaces were; it adds no lesson or uplift they didn't have",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "\"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\" is not a closing restatement of its paragraph",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "the inner child is not named in \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\", and \"the kid\" appears nowhere in it",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "\"it\" is the script you're writing, from the paragraph before; \"that point\" is the induction of the sentence before",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "no first-person fact about Joel's life in \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\" that he didn't give",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "no claim about a study, person or product in \"And then read it out loud as you write it. Long, elegant sentences are NOT going to hel...\"",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "REVIEW-preservation.json",
+    "cold_read_1": "REVIEW-cold_read_1.json",
+    "cold_read_2": "REVIEW-cold_read_2.json"
+  }
+}

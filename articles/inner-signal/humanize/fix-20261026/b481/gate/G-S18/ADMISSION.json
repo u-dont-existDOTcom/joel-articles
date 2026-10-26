@@ -1,0 +1,232 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "630974fa89cfcb6c712367fdf1381c4390a6614745b52c88b86ee0ee0e9d77c5",
+  "context_sha256": "dbac4e86f7fde7ed87568a7b03627cf051450a5ee03a770e8e6a0f08cc4f54e7",
+  "source_sha256": "3dd7f6c103ce091a6c8d53de7fe3b4f5741273da05faf18c024891f050f641a4",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "writer": {
+    "name": "Claude Opus 5.5, the hypnosis guide lane's writer (the splices and their fixes; the words are Emulate's)",
+    "context_id": "session_01Mxpoi6tFT3FgKmBvtGjRtS"
+  },
+  "lint": {
+    "verdict_at_init": "REVIEW",
+    "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+    "stdout_sha256": "a02f2e11ef3832e30f3b97306c976bf9d4215bf76ef03a6b41f7f888a461f45f",
+    "findings": [
+      {
+        "label": "D9 follows the source order",
+        "examples": [
+          "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "It is Emulate's rewrite of the words it replaces (SOURCE.txt), so it follows their points in order by design; the turns are Emulate's own (\"One reason might have been\", \"when I did that\", \"But I think a bigger reason is\")."
+      }
+    ]
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "his own first person from his published paragraph (\"I was sober and didn’t feel especially suggestible\")",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "\"One reason might have been that I was sober when I did that, and didn't feel that susce...\" is one step in its paragraph, not part of a run of compressed commands",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "the sentence before it in the context sets it up; nothing new arrives unprepared in \"One reason might have been that I was sober when I did that, and didn't feel that susce...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "no scene in \"One reason might have been that I was sober when I did that, and didn't feel that susce...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "no concrete prop in \"One reason might have been that I was sober when I did that, and didn't feel that susce...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "no vague healing or process language in \"One reason might have been that I was sober when I did that, and didn't feel that susce...\"; its terms are the article's own",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "no filler or staged hesitation in \"One reason might have been that I was sober when I did that, and didn't feel that susce...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "no image followed by an explanation of it in \"One reason might have been that I was sober when I did that, and didn't feel that susce...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "one change in one passage; \"One reason might have been that I was sober when I did that, and didn't feel that susce...\" gets the weight its point needs, the rest of the passage is unchanged",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "no \"you don't have to X before Y\" packaging in \"One reason might have been that I was sober when I did that, and didn't feel that susce...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "\"One reason might have been that I was sober when I did that, and didn't feel that susce...\" carries a claim or step, not a bridge between document parts",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "no matched pair or closed list made for symmetry in \"One reason might have been that I was sober when I did that, and didn't feel that susce...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "the passage around \"One reason might have been that I was sober when I did that, and didn't feel that susce...\" keeps its reasons, asides and callbacks; the change adds none of its own and removes none",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "no material moved to dodge a detector: \"One reason might have been that I was sober when I did that, and didn't feel that susce...\" takes the place of the flagged words in the same paragraph, in their order",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "\"One reason might have been that I was sober when I did that, and didn't feel that susce...\" is Emulate's own wording for the flagged words, not less likely words swapped into the old sentence while its other tells stay; where Emulate shifted his sense, his words are back (the_change says where)",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "no \"not X, it's Y\" in \"One reason might have been that I was sober when I did that, and didn't feel that susce...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "ABSENT",
+      "evidence": "no compressed thesis or aphorism in \"One reason might have been that I was sober when I did that, and didn't feel that susce...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "no premise flipped by a short sentence in \"One reason might have been that I was sober when I did that, and didn't feel that susce...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "\"One reason might have been that I was sober when I did that, and didn't feel that susce...\" does not announce what comes next",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "\"One reason might have been that I was sober when I did that, and didn't feel that susce...\" is not a polished paragraph-ending line",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "ABSENT",
+      "evidence": "\"One reason might have been that I was sober when I did that, and didn't feel that susce...\" does one job, not several coordinated argumentative jobs",
+      "resolution": ""
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "\"One reason might have been that I was sober when I did that, and didn't feel that susce...\" carries a step, a rule or a reason from his line, not reassurance alone",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "no generic scenery in \"One reason might have been that I was sober when I did that, and didn't feel that susce...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "no faux-insight setup or self-answered question in \"One reason might have been that I was sober when I did that, and didn't feel that susce...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "no colon reveal in \"One reason might have been that I was sober when I did that, and didn't feel that susce...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "ABSENT",
+      "evidence": "no distinctive word or phrase in \"One reason might have been that I was sober when I did that, and didn't feel that susce...\" repeated within three paragraphs without a job",
+      "resolution": ""
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "none of the tic words (\"doing some work\", \"load-bearing\", \"digest\", \"clean\", vague \"work\") in \"One reason might have been that I was sober when I did that, and didn't feel that susce...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "\"One reason might have been that I was sober when I did that, and didn't feel that susce...\" is not the end of its section, and adds no lesson or uplift",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "\"One reason might have been that I was sober when I did that, and didn't feel that susce...\" is not a closing restatement of its paragraph",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "the inner child is not named in \"One reason might have been that I was sober when I did that, and didn't feel that susce...\", and \"the kid\" appears nowhere in it",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "\"when I did that\" is \"the very little I managed to do with a professional hypnotist\", the sentence before",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "that he was sober and didn't feel suggestible at the session is his published fact; \"One reason might have been\" keeps his \"Maybe part of that\"",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "no claim about a study, person or product in \"One reason might have been that I was sober when I did that, and didn't feel that susce...\"",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "REVIEW-preservation.json",
+    "cold_read_1": "REVIEW-cold_read_1.json",
+    "cold_read_2": "REVIEW-cold_read_2.json"
+  }
+}
