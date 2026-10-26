@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "2e49de65d1507c60400957fff41c0fedbebf741cec06c3f68da1d86ac4d88c2a",
+  "context_sha256": "1c2b81d76522747c4b20bc2a7f591f3b64e3b1d2dcc0779c5da646486bb4b636",
+  "source_sha256": "0e5c73035c1634a299bf8e3ee1106b092efb24517b67b1e56797c9d14be2a698",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "emulate-gate-cold_read_1-subagent-r2b",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session), round 2"
+  },
+  "evidence": "Read cold in the reading-list paragraph under 'Learning, entering, and returning': after the clinical book and its warning about using its procedures solo, 'Also, ... should be a useful thing to read' is a natural second recommendation, and the draft supplies the noun the parenthetical needs ('the parts' that talk about learning, and 'it' in 'directing it yourself', both point back to the article and to self hypnosis, which the draft names). The draft itself contains no pronoun. Against SOURCE.txt (his line names Adam Eason and Benjamin Parris together as owners of one ISH article on self-hypnosis): the draft's 'Adam Eason and Benjamin Parris's article about self hypnosis' gives the article back to both authors in a joint possessive, keeps the topic, names the Society in full, and drops Emulate's wording that made it Eason's alone ('his article') and made the pair 'work with' each other 'in' the Society. That is what the_change says. The one place the draft says slightly more than the letter of his line is 'for the International Society of Hypnosis' for his 'ISH article'; I read 'ISH article' as the Society's own article, so 'for' is its plain expansion and not a new fact, and it makes no claim that either author works in or belongs to the Society, which was the overreach in the sentence it replaces. I therefore find C04 absent but name it as the closest call. The spelling 'self hypnosis' (no hyphen) and the straight apostrophe match the paragraph ('learning self hypnosis', 'you're'). 'should be a useful thing to read' and the parenthetical about which parts matter are the paragraph's existing text and are unchanged. Tell rows: I went through T01 to T29 and C01 to C04 on the literal draft in its context and found none PRESENT. Closest calls besides C04: T11, because 'Also,' is a plain additive for a second resource that the live thought needs, not a bridge between document functions; T21, because the sentence identifies and recommends but that is one job; T03, because the preceding caution about solo work is what makes a self-hypnosis article the natural next pointer. Linter: 'D9 follows the source order' is a trivial 1/1 agreement for a one-clause restoration of his own line, and I checked T13 and T09 as it asks and neither is present, so I accept it. The O27 flag fires because DRAFT.txt has no final period, but the draft is only the front part of a sentence that continues into his untouched parenthetical and ends 'etc.)' exactly as it did before; this change neither drops nor imitates a missing period (I do not rely on a period after the closing parenthesis, there is none in CONTEXT.txt, but that is how his paragraph already ends), so I accept it.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order",
+    "O27 a rough edge in my text: the paragraph ends with no period (JOEL-FIXES-CATALOGUE: \"Rough edges he leaves: typos, double spaces, missing periods. ... They aren't something for me to imitate.\")"
+  ]
+}

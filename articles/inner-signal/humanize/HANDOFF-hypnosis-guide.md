@@ -111,17 +111,17 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: question 19, the review page (`OWNER-QUESTIONS.md`): his whole guide with 178 suggestions marked in place
-(https://claude.ai/artifact/HAPtqUNY4cYvk48TA4eYHp, his main account; Git: `fix-20261025/review/`). It replaces
-questions 15 to 18. His answers save in the page's store as he clicks: read them with ArtifactData (collection
-`decisions`, one document per suggestion id) when he says he's done, or from the JSON he sends. Nothing in the guide
-has changed for them yet.
+The guide: **the whole guide's recheck**, two secret draft links for his Brave (the Pangram extension; he copies each
+result's link with "Copy shareable link to result"):
+- part A, the main guide to its first 99,999 characters: https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-25&audience=only_paid&free_preview=false&freemail=
+- part B, from Closing to the end of the appendices: https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-25&audience=only_paid&free_preview=false&freemail=
+No open questions (20 is answered).
 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
 
-Pull request 247 (this turn's: the review page, its tool and tests, the fixed reread brief) waits for his merge; 240 and 241
-were merged on 2026-10-25. The community lane's own state is in its handoff.
+Pull request 251 (the 19:42 and 23:05 turns: his answers, the strict Emulate check of both articles, the guard sweep, the
+recheck payloads) waits for his merge; 247 was merged on 2026-10-25. The community lane's own state is in its handoff.
 
 ## Where it stands
 
@@ -202,7 +202,85 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-10-25, after Joel's message of 14:40 UTC: the review page, question 19, is on him)
+## Next step (2026-10-25, after Joel's message of 23:05 UTC: his answers to 20 are in; the whole guide's recheck waits on his Brave)
+
+His message, word for word: `fix-20261025/joel-20261025-2305-message.txt` ("251 has conflicts" and "66a", with both
+pages' answers files). Done (pull request 251, https://github.com/u-dont-existDOTcom/joel-articles/pull/251):
+- **251's conflicts**: main merged the Inner Child lane's turns 111 and 112 after my pushes; the lesson numbering in
+  `docs/HUMANIZATION-GATE.md` met twice; both lanes' lessons kept, the next lesson in either lane is E275.
+- **His answers to 20** (`fix-20261025/emulate-check/apply_answers_20.py`, `APPLIED-20.json`, `ANSWERS-20261025-2300.json`):
+  17 approved; his versions of EM-Q1 and EM-16 word for word; EM-11 rejected, Emulate's sentence stays ("hypnosis is for
+  pain btw"; lesson E272). The ISH link stays on "article about self hypnosis" (LINK_ON).
+- **The guard sweep** (`guard_sweep.py`, `GUARD-SWEEP.json`; lesson E274): 19 "protector"s that meant a guard are
+  "guard"; the adult Protector (20) and the 3 bracketed glosses after "guards" stay.
+- **The strict check again** (`emulate-check/after-20/`; `make_allowed.py` now adds APPLIED-20's new sentences): only what
+  he left or what was triaged before.
+- **The recheck** (`fix-20261025/recheck/`): `make_recheck.py` (part B from Closing, a section before part A's cut),
+  `make_changed.py`, FORECAST-A/B.json, HG-whole#60 and HG-rest-B#61 (AI at 0.01), pasted (RECHECK-POST-A/B.json: part A
+  in the new draft 222109105, "TEMP recheck A (hypnosis guide) - do not publish", the old one being gone; part B in
+  221412532), rendered texts equal to TEXT-A/B.txt.
+
+Next:
+1. When he sends the two result links: read each with `tools/humanization/pangram_feed_read.js` in compact mode
+   (`window.__feedMode = 'compact'`), save `recheck/WINDOWS-A.txt` and `WINDOWS-B.txt` (SHA-256 checked against the
+   page's), META-A/B.json, rebuild with `substack_check_text.py result recheck/PAYLOAD-A.html WINDOWS-A.txt META-A.json
+   --out RESULT-A.json` (and B), record HG-whole#60 and HG-rest-B#61 (`pangram_ledger.py result`, `explain` for a miss),
+   score both forecasts (`part_forecast.py score FORECAST-A.json RESULT-A.json --out SCORE-A.md`, and B).
+2. Each red window: what's in it (his words, his approved words, Emulate's), then Emulate's re-run first (E235, E237),
+   the reader and the gate for any wording of mine, or back to him with his own version beside it; a paragraph check
+   through the API on the laptop. Then the copy helper (`docs/SUBSTACK-HELPER-DELIVERY-GATE.md`) and his paste.
+3. When everything is checked: delete both TEMP drafts (E204).
+
+## Earlier next step (2026-10-25, after Joel's message of 19:42 UTC: his answers are in; question 20, the Emulate check page, is on him)
+
+His message and answers file, word for word: `fix-20261025/joel-20261025-1942-message.txt` and
+`fix-20261025/review/ANSWERS-20261025-1940.json` ("ok i accept all the answers i didn't mark, and here is what i marked ."
+and "that was a good marking page save that so it's how we work in future editing work"; his card comments are quoted in
+the message file's note and in lesson E268). InnerSignal protocol loaded in the main thread: 0.2.1, protocol_sha256
+6d30a6b4b623527d2ab06d02220d20107eca2542eaade436818a6b0a9e1e120f (its new RESPONSE-FIDELITY reference: consolidate by
+function, no automatic practice warnings, no duplication; the reason the Emulate page restores no repeated safety line).
+
+Done (pull request 251, https://github.com/u-dont-existDOTcom/joel-articles/pull/251):
+- **His answers in** (`fix-20261025/review/apply_answers.py`, `APPLIED.json`): approved 139, his versions of RR-2.1, RR-7.3,
+  RR-8.3 and CV-8.9 word for word, his "accept all the answers i didn't mark" as the 35 unmarked cards I advised (118
+  unmarked "leave" stay out). Merged paragraphs change by change from one original; SUPERSEDES (IC-A9 over RR-2.3; his
+  CV-8.9 over TY-6 there), CUT_WINS (CV-6.6 over RR-8.4), FOLLOW_ON (four fixes named to him), passes for his comments
+  ("the kid" and "my kid" to "your little one"; no quote marks around inner child; IC-T1 on the added words). 138
+  paragraphs changed, 18 blocks added, 8 moved; no link lost.
+- **The strict Emulate check** (`fix-20261025/emulate-check/`; `tools/humanization/emulate_artifacts.py` with
+  `tests/test_emulate_artifacts.py`, 14 tests; run with `run_audit.sh`): sources his published post, editor HTML and three
+  drafts; allowed `ALLOWED.txt` (today's approved new sentences, `make_allowed.py`) and his inner child guide. Fixed:
+  `fix_typos.py` (53, rerunnable), `fix_citations.py` (9), the 9 spaces (`emulate_artifacts.py fix`). Readers: `BRIEF.txt`,
+  `PAIRS-1..10b.txt`, `READ-*.json` (12 Sonnet readers; part 10 ran out of output and was split); `explain_findings.py`
+  marks the findings his own words account for (`JOEL-TEXTS.txt` from `make_joel_texts.py`, his inner child guide and his
+  inner child texts of 2026-09-11 — the first readers' pass lacked them and called his own lines Emulate's); `triage.py`
+  records my fate for each of the 65 that matter (`TRIAGE.md`).
+- **The Emulate check page**, question 20 (https://claude.ai/artifact/FUoU6T1mGt1WiQBP1UjaWW; `build_emulate_review.py`, `REVIEW-EMULATE.json` and `.html`,
+  `BROWSER-TEST.json` 74 of 74): 20 cards, EM-Q1 (85 quote marks), EM-1 to EM-16, EM-S1 to EM-S3. Published with
+  `{"db": {}, "downloads": true}`. Its new sentences of mine went through main's owner-delivery gate
+  (`emulate-check/gate/`; GATE.md and GATE-OUTCOMES.json from `run_gate.py`, which re-checks a delivered draft rather
+  than delivering it twice): 10 drafts delivered (each folder's FOR-JOEL.txt and proof), with the community page's four;
+  6 withdrawn on round 1's fails, their cards using his own words (`make_gate_files.py` WITHDRAWN). Round 1's cold reader 1
+  read all sixteen before writing any and stalled; round 2 (`make_round2_briefs.py`) gave 2 or 3 drafts to each fresh
+  reader, one at a time, and finished in about 9 minutes. A new wording of mine for any card goes through the same way: a
+  DRAFTS entry, `make_gate_files.py`, `fill_ledgers.py`, a brief per role, `run_gate.py`.
+- **The community article's check**: its handoff and question 66.
+- **Standards**: `AGENTS.md` (the marking page for editing suggestions; the strict check for Emulate-infused articles),
+  `docs/EMULATE-FALLBACK.md` step 5.0, `docs/FIXING-AN-ARTICLE.md` 6.9, lessons E268 to E270 (E270 is the gate reviewers' batch size; the next is E272, since main's Inner Child lane took E271). His
+  preference is in the project's memory too.
+
+Next:
+1. When he answers question 20 (the page's `decisions` collection with ArtifactData, or the JSON he sends): save it word
+   for word in `fix-20261025/emulate-check/`, and put it in with a script like `review/apply_answers.py` (EM-Q1 is 85
+   unquotings in 51 paragraphs; set_text keeps links and italics). Then run `emulate-check/run_audit.sh` again: only what
+   he left should remain.
+2. Then the Pangram check of everything changed today, where it sits: predictions in the ledger first
+   (`docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`), the whole guide in the two TEMP recheck drafts (his Brave reads them),
+   then the copy helper, through the owner-delivery gate for any model-written sentence (`docs/HUMANIZATION-OWNER-DELIVERY-GATE.md`),
+   and his paste.
+3. Then neuro de-armoring (queue #3, above), with the strict Emulate check before it goes to him.
+
+## Earlier next step (2026-10-25, after Joel's message of 14:40 UTC: the review page, question 19, is on him)
 
 His message, word for word: `fix-20261025/joel-20261025-1440-message.txt`: the reread's 15.1 ("your reader is not a good
 reader ... can you fix the reader?", with his wording for the second issue), "make sure we line up all the inner child

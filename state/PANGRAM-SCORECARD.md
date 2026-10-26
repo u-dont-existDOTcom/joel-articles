@@ -57,6 +57,26 @@ The boundary mix over all lanes:
 | article | 17 | 13 (76%) | 82% | 18% | 6% | 0.163 (base 0.145, 17) |
 | stretch | 12 | 10 (83%) | 75% | 25% | 8% | 0.155 (base 0.188, 12) |
 
+## pangram API (model pangram-4), answered 4.1
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| community article | 5 | 3 (60%) | 20% | 80% | 80% | 0.233 (base 0.160, 5) |
+| **all lanes** | 5 | 3 (60%) | 20% | 80% | 80% | 0.233 (base 0.160, 5) |
+
+The latest 100 calls of each lane:
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| community article | 5 | 3 (60%) | 20% | 80% | 80% | 0.233 (base 0.160, 5) |
+
+The boundary mix over all lanes:
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| paragraph | 4 | 3 (75%) | 0% | 100% | 75% | 0.089 (base 0.000, 4) |
+| pair | 1 | 0 (0%) | 100% | 0% | 100% | 0.810 (base 0.000, 1) |
+
 ## pangram 4.1, web app
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
@@ -182,6 +202,8 @@ The boundary mix over all lanes:
 | a second cut of the same kind | 2 | inner child guide |
 | a repeat made adjacent by a move | 2 | inner child guide |
 | his paragraph reads AI alone under 4.1 | 2 | inner child guide |
+| the unchanged neighbour | 1 | community article |
+| a window the test made | 1 | community article |
 | parallel list kept; light green turned red | 1 | hypnosis guide |
 | fix underrated | 1 | hypnosis guide |
 | tells overweighted | 1 | hypnosis guide |

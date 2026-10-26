@@ -1,0 +1,19 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "77d858c408cb7b944f8238c165792769525bf99067fc3326b62910cb577fcc5f",
+  "context_sha256": "33f66a3742202d325c4a17fbf3adb65a86ba2c7673be076c6c144ff4c3639476",
+  "source_sha256": "b3db99770e053e7dc9a29dc773f8bcc1266b25fce7344b8a08f3909b09026622",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+    "context_id": "emulate-gate-cold_read_2-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Draft judged: 'It's built from familiar practices like modeling and supported action, but I'm not suggesting that the whole sequence has been formally tested and proven as one treatment.' Read the whole CONTEXT: it follows 'a kind of provisional bridge that I call borrowed adulthood' and reads as the next plain sentence; the replaced announcer ('It is important to note here that...', T19) is gone, which helps. Against his line ('combines familiar practices ... without claiming that the complete sequence has been validated as one treatment'): both points are back, the steps are familiar practices (two of his four named, signalled by 'like', so nothing is claimed to be the full list) and only the whole sequence is untested as one treatment. Nothing added: modeling and supported action are his words, and the disclaimer is his own hedge, not a new one. 'the whole sequence' points forward to the steps below, as the replaced 'this process' did; mild, not a defect. Tell rows checked: T01 (the first person is his own disclaimer), T10, T12, T16, T18, T21 (one concession carrying his two points, not a flip or a function list), T29; all ABSENT. Linter: D9 accepted, since it is one sentence in one paragraph with no order to follow, and T13/T09 are ABSENT because the change is a single sentence inside unchanged text. No row is PRESENT.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order"
+  ]
+}

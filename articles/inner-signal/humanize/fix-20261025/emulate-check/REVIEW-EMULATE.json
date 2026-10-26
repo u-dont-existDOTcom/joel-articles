@@ -1,0 +1,1271 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "inner-signal-hypnosis-guide-emulate-check-20261025",
+ "title": "Hypnosis Guide Emulate Check",
+ "intro": [
+  "This is your hypnosis guide as it is in Git now, with your answers from the last page in, and the strict Emulate check you asked for: every paragraph that isn't yours word for word, compared with your own texts by the check and by fresh readers. Each card has your own version beside it.",
+  "Already fixed, because they were plain errors in none of your texts: 31 spaces before a full stop, comma or colon (22 on your last page, 9 more), 53 typos and slips (split words like \"day dreams\" and \"child birth\", \"a ecology\", \"yo\", \"breath\" for \"breathe\", \"council\" for \"counsel\", missing question marks, a bracket never closed, \"does n’t\"), and the references: the book titles in italics again, \"(1995) pp\", \"randomized controlled trials\". The list is in fix_typos.py and fix_citations.py in Git.",
+  "Click <b>Approve</b>, <b>Reject</b> or <b>Revise</b> on each card, and add a comment if you want. If you leave cards unmarked, tell me whether to take my advice on them as you did last time. Your answers save as you click."
+ ],
+ "git_file": "articles/inner-signal/humanize/fix-20261025/emulate-check/REVIEW-EMULATE.html",
+ "article": {
+  "file": "articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "dca79794e35d5c1981f221fdfdf37d060e2a84cc04b16a1ddcc4631e277ae5ce"
+ },
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/emulate-check/REVIEW-EMULATE.json"
+ },
+ "built": "2026-10-25 22:13 UTC",
+ "types": {
+  "quotes": {
+   "label": "Quote marks",
+   "about": "Quote marks Emulate put around words your guide has plain."
+  },
+  "meaning": {
+   "label": "Emulate changed your meaning",
+   "about": "A condition, limit or point of yours that Emulate dropped or turned around; the suggestion puts it back in the paragraph's own words."
+  },
+  "source": {
+   "label": "Sources",
+   "about": "A reference Emulate changed: who wrote it, what it found, what it's about."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "EM-Q1",
+   "type": "quotes",
+   "title": "Quote marks Emulate put around words (85 places)",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 11,
+     "start": 115,
+     "end": 124
+    },
+    {
+     "block": 11,
+     "start": 135,
+     "end": 142
+    },
+    {
+     "block": 12,
+     "start": 56,
+     "end": 75
+    },
+    {
+     "block": 14,
+     "start": 201,
+     "end": 220
+    },
+    {
+     "block": 15,
+     "start": 29,
+     "end": 40
+    },
+    {
+     "block": 33,
+     "start": 29,
+     "end": 43
+    },
+    {
+     "block": 57,
+     "start": 91,
+     "end": 98
+    },
+    {
+     "block": 62,
+     "start": 250,
+     "end": 257
+    },
+    {
+     "block": 76,
+     "start": 30,
+     "end": 44
+    },
+    {
+     "block": 76,
+     "start": 330,
+     "end": 336
+    },
+    {
+     "block": 76,
+     "start": 384,
+     "end": 393
+    },
+    {
+     "block": 76,
+     "start": 421,
+     "end": 428
+    },
+    {
+     "block": 76,
+     "start": 432,
+     "end": 439
+    },
+    {
+     "block": 78,
+     "start": 29,
+     "end": 36
+    },
+    {
+     "block": 79,
+     "start": 3,
+     "end": 11
+    },
+    {
+     "block": 80,
+     "start": 29,
+     "end": 38
+    },
+    {
+     "block": 80,
+     "start": 85,
+     "end": 93
+    },
+    {
+     "block": 80,
+     "start": 205,
+     "end": 212
+    },
+    {
+     "block": 81,
+     "start": 52,
+     "end": 60
+    },
+    {
+     "block": 147,
+     "start": 15,
+     "end": 23
+    },
+    {
+     "block": 154,
+     "start": 24,
+     "end": 32
+    },
+    {
+     "block": 154,
+     "start": 241,
+     "end": 245
+    },
+    {
+     "block": 156,
+     "start": 539,
+     "end": 546
+    },
+    {
+     "block": 159,
+     "start": 109,
+     "end": 117
+    },
+    {
+     "block": 216,
+     "start": 41,
+     "end": 48
+    },
+    {
+     "block": 216,
+     "start": 92,
+     "end": 99
+    },
+    {
+     "block": 218,
+     "start": 30,
+     "end": 42
+    },
+    {
+     "block": 219,
+     "start": 47,
+     "end": 64
+    },
+    {
+     "block": 299,
+     "start": 216,
+     "end": 222
+    },
+    {
+     "block": 328,
+     "start": 135,
+     "end": 142
+    },
+    {
+     "block": 346,
+     "start": 315,
+     "end": 328
+    },
+    {
+     "block": 346,
+     "start": 476,
+     "end": 487
+    },
+    {
+     "block": 348,
+     "start": 270,
+     "end": 279
+    },
+    {
+     "block": 350,
+     "start": 7,
+     "end": 16
+    },
+    {
+     "block": 350,
+     "start": 236,
+     "end": 245
+    },
+    {
+     "block": 350,
+     "start": 526,
+     "end": 535
+    },
+    {
+     "block": 351,
+     "start": 53,
+     "end": 63
+    },
+    {
+     "block": 351,
+     "start": 65,
+     "end": 76
+    },
+    {
+     "block": 351,
+     "start": 80,
+     "end": 87
+    },
+    {
+     "block": 351,
+     "start": 118,
+     "end": 124
+    },
+    {
+     "block": 351,
+     "start": 357,
+     "end": 366
+    },
+    {
+     "block": 352,
+     "start": 62,
+     "end": 74
+    },
+    {
+     "block": 352,
+     "start": 345,
+     "end": 353
+    },
+    {
+     "block": 353,
+     "start": 363,
+     "end": 375
+    },
+    {
+     "block": 353,
+     "start": 541,
+     "end": 547
+    },
+    {
+     "block": 354,
+     "start": 211,
+     "end": 225
+    },
+    {
+     "block": 354,
+     "start": 366,
+     "end": 378
+    },
+    {
+     "block": 357,
+     "start": 71,
+     "end": 89
+    },
+    {
+     "block": 357,
+     "start": 369,
+     "end": 383
+    },
+    {
+     "block": 358,
+     "start": 475,
+     "end": 486
+    },
+    {
+     "block": 358,
+     "start": 549,
+     "end": 558
+    },
+    {
+     "block": 360,
+     "start": 42,
+     "end": 54
+    },
+    {
+     "block": 387,
+     "start": 59,
+     "end": 69
+    },
+    {
+     "block": 387,
+     "start": 287,
+     "end": 300
+    },
+    {
+     "block": 426,
+     "start": 8,
+     "end": 15
+    },
+    {
+     "block": 428,
+     "start": 79,
+     "end": 92
+    },
+    {
+     "block": 428,
+     "start": 121,
+     "end": 132
+    },
+    {
+     "block": 428,
+     "start": 159,
+     "end": 169
+    },
+    {
+     "block": 428,
+     "start": 201,
+     "end": 208
+    },
+    {
+     "block": 428,
+     "start": 236,
+     "end": 243
+    },
+    {
+     "block": 429,
+     "start": 34,
+     "end": 41
+    },
+    {
+     "block": 429,
+     "start": 47,
+     "end": 60
+    },
+    {
+     "block": 429,
+     "start": 133,
+     "end": 139
+    },
+    {
+     "block": 431,
+     "start": 20,
+     "end": 28
+    },
+    {
+     "block": 431,
+     "start": 32,
+     "end": 55
+    },
+    {
+     "block": 431,
+     "start": 201,
+     "end": 210
+    },
+    {
+     "block": 434,
+     "start": 10,
+     "end": 29
+    },
+    {
+     "block": 434,
+     "start": 440,
+     "end": 450
+    },
+    {
+     "block": 447,
+     "start": 23,
+     "end": 39
+    },
+    {
+     "block": 469,
+     "start": 54,
+     "end": 60
+    },
+    {
+     "block": 469,
+     "start": 110,
+     "end": 119
+    },
+    {
+     "block": 502,
+     "start": 27,
+     "end": 38
+    },
+    {
+     "block": 521,
+     "start": 23,
+     "end": 28
+    },
+    {
+     "block": 521,
+     "start": 139,
+     "end": 145
+    },
+    {
+     "block": 580,
+     "start": 75,
+     "end": 97
+    },
+    {
+     "block": 642,
+     "start": 52,
+     "end": 58
+    },
+    {
+     "block": 649,
+     "start": 103,
+     "end": 108
+    },
+    {
+     "block": 651,
+     "start": 327,
+     "end": 333
+    },
+    {
+     "block": 651,
+     "start": 623,
+     "end": 634
+    },
+    {
+     "block": 661,
+     "start": 11,
+     "end": 18
+    },
+    {
+     "block": 679,
+     "start": 511,
+     "end": 516
+    },
+    {
+     "block": 695,
+     "start": 595,
+     "end": 607
+    },
+    {
+     "block": 722,
+     "start": 161,
+     "end": 171
+    },
+    {
+     "block": 724,
+     "start": 167,
+     "end": 176
+    },
+    {
+     "block": 726,
+     "start": 464,
+     "end": 475
+    }
+   ],
+   "edits": [
+    {
+     "block": 11,
+     "before": "Yet no one taught those layers to talk to each other, instead you were taught (or you figured out) that the way to ‘grow up’ and be an ‘adult’ is to push through, repress, suppress, pretend you’re confident, follow authority, go against authority, etc etc etc, and mind you, the deeper mind is still running all of the programs it’s running: child mind, guard mind (childhood protector parts, the protective reactions learned as a child), body mind, intuitive mind, fantasy mind (trying to become guidance mind), etc etc",
+     "after": "Yet no one taught those layers to talk to each other, instead you were taught (or you figured out) that the way to grow up and be an adult is to push through, repress, suppress, pretend you’re confident, follow authority, go against authority, etc etc etc, and mind you, the deeper mind is still running all of the programs it’s running: child mind, guard mind (childhood protector parts, the protective reactions learned as a child), body mind, intuitive mind, fantasy mind (trying to become guidance mind), etc etc"
+    },
+    {
+     "block": 12,
+     "before": "While a lot of the teachings on hypnosis talk about the ‘subconscious mind’ like it’s one giant machine you just have to put the right commands into in order to get it to do what you want, for me, the most useful thing to do is sit and listen to the different parts of myself until they can all be heard.",
+     "after": "While a lot of the teachings on hypnosis talk about the subconscious mind like it’s one giant machine you just have to put the right commands into in order to get it to do what you want, for me, the most useful thing to do is sit and listen to the different parts of myself until they can all be heard."
+    },
+    {
+     "block": 14,
+     "before": "“How do I do this?” you ask. Just listen. When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic ‘trance experience’ to demonstrate the results of all parts of your mind talking to each other and trusting each other more.",
+     "after": "“How do I do this?” you ask. Just listen. When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic trance experience to demonstrate the results of all parts of your mind talking to each other and trusting each other more."
+    },
+    {
+     "block": 15,
+     "before": "I like to think of it like a ‘communion’ between all parts of our mind, where the conscious mind doesn’t have to shout from the roof top and the subconscious mind doesn’t have to manifest symptoms, dreams, cravings, daydreams and weird body signals in order to communicate.",
+     "after": "I like to think of it like a communion between all parts of our mind, where the conscious mind doesn’t have to shout from the roof top and the subconscious mind doesn’t have to manifest symptoms, dreams, cravings, daydreams and weird body signals in order to communicate."
+    },
+    {
+     "block": 33,
+     "before": "As associated with the Silva “Mind Control” method:",
+     "after": "As associated with the Silva Mind Control method:"
+    },
+    {
+     "block": 57,
+     "before": "DO NOT use Self Hypnosis to help you: force yourself to remember trauma, force yourself to “prove” trauma through memories, suppress medical symptoms, de-stabilize your self, or NOT seek correct treatment.",
+     "after": "DO NOT use Self Hypnosis to help you: force yourself to remember trauma, force yourself to prove trauma through memories, suppress medical symptoms, de-stabilize your self, or NOT seek correct treatment."
+    },
+    {
+     "block": 62,
+     "before": "Without the mind of love the mind of analysis can be sterile. Without the mind of analysis the mind of love can lead to fantasy. Without testing intuitive signals they can become delusions. Without intuitive signals the testing can be dead. So these ‘modes’ can correct each other.",
+     "after": "Without the mind of love the mind of analysis can be sterile. Without the mind of analysis the mind of love can lead to fantasy. Without testing intuitive signals they can become delusions. Without intuitive signals the testing can be dead. So these modes can correct each other."
+    },
+    {
+     "block": 76,
+     "before": "Note: whenever I refer to the ‘subconscious’ I’m referring to all of the processes under the surface of your conscious awareness: perceptions, emotions, desires, avoidance tendencies, imagery, memories, body signals, habits, intuitions, automatic behaviors and so forth. You can work with all of these together as if it’s all one ‘mind’, or you can work with it as a set of parts, an ‘ecology’ if you like. There isn’t a ‘right’ or ‘wrong’ way to approach it. They’re all maps. Don’t form a priesthood around either one!",
+     "after": "Note: whenever I refer to the subconscious I’m referring to all of the processes under the surface of your conscious awareness: perceptions, emotions, desires, avoidance tendencies, imagery, memories, body signals, habits, intuitions, automatic behaviors and so forth. You can work with all of these together as if it’s all one mind, or you can work with it as a set of parts, an ecology if you like. There isn’t a right or wrong way to approach it. They’re all maps. Don’t form a priesthood around either one!"
+    },
+    {
+     "block": 78,
+     "before": "If you need to work with the ‘whole’, the subconscious as one:",
+     "after": "If you need to work with the whole, the subconscious as one:"
+    },
+    {
+     "block": 79,
+     "before": "a) ‘Invoke’ the subconscious in some way. Something simple like ‘Hello, wise subconscious, please help me understand…’ or whatever works for you.",
+     "after": "a) Invoke the subconscious in some way. Something simple like ‘Hello, wise subconscious, please help me understand…’ or whatever works for you."
+    },
+    {
+     "block": 80,
+     "before": "If you need to work with the ‘ecology’ in the subconscious (child parts, protectors, ‘critic’, fantasy making parts, body memories, social part, spiritual part (God/source/best benefit of all beings part) ‘wiser’ part etc etc) then:",
+     "after": "If you need to work with the ecology in the subconscious (child parts, protectors, critic, fantasy making parts, body memories, social part, spiritual part (God/source/best benefit of all beings part) wiser part etc etc) then:"
+    },
+    {
+     "block": 81,
+     "before": "a) It’s usually a good idea to start with unity. So ‘invoke’ your Higher Self: Hello my Higher Self/universal heart-mind/wise subconscious, please guide me…",
+     "after": "a) It’s usually a good idea to start with unity. So invoke your Higher Self: Hello my Higher Self/universal heart-mind/wise subconscious, please guide me…"
+    },
+    {
+     "block": 147,
+     "before": "Do you want to “embody” your Protector? Then you could practice this:",
+     "after": "Do you want to embody your Protector? Then you could practice this:"
+    },
+    {
+     "block": 154,
+     "before": "This seems to me like a “mature” Protector. One that is not afraid to say that he doesn’t know, or one that can ask another human being, or one that can delay interpreting a situation or one that can use a no-trance method. I am learning to “do” discernment when I need to and stop scanning the room when it isn’t needed anymore.",
+     "after": "This seems to me like a mature Protector. One that is not afraid to say that he doesn’t know, or one that can ask another human being, or one that can delay interpreting a situation or one that can use a no-trance method. I am learning to do discernment when I need to and stop scanning the room when it isn’t needed anymore."
+    },
+    {
+     "block": 156,
+     "before": "I see a lot of connection between reparenting therapy and self hypnosis. They fit well together, though I’d learn to do inner-child therapy sober first, in your ordinary mindstate, since that’s the one you’ll be living in, and get enough Nurturer and Protector in the room before you go deep. When you go into hypnosis the child might come to you. You might see that child in any form. It can be an image, a posture, a voice, a memory, an emotion, etc. It can be any age. It can be any vulnerable part of you. It doesn’t even have to be a “child”, if there is no child there, just work with a protector or whatever you find.",
+     "after": "I see a lot of connection between reparenting therapy and self hypnosis. They fit well together, though I’d learn to do inner-child therapy sober first, in your ordinary mindstate, since that’s the one you’ll be living in, and get enough Nurturer and Protector in the room before you go deep. When you go into hypnosis the child might come to you. You might see that child in any form. It can be an image, a posture, a voice, a memory, an emotion, etc. It can be any age. It can be any vulnerable part of you. It doesn’t even have to be a child, if there is no child there, just work with a protector or whatever you find."
+    },
+    {
+     "block": 159,
+     "before": "If you can, tell the child that you are there for them and that they don’t have to explain themselves, or be “healed” or impress you. Just tell you what they need to not be alone anymore.",
+     "after": "If you can, tell the child that you are there for them and that they don’t have to explain themselves, or be healed or impress you. Just tell you what they need to not be alone anymore."
+    },
+    {
+     "block": 216,
+     "before": "This is a good guide to help engage your ‘adult’ in the conversation. The more powerful the ‘state’ the more you will need to make use of these.",
+     "after": "This is a good guide to help engage your adult in the conversation. The more powerful the state the more you will need to make use of these."
+    },
+    {
+     "block": 218,
+     "before": "Be aware that even when using ‘permissive’ language, you can still take away choice. Be aware of;",
+     "after": "Be aware that even when using permissive language, you can still take away choice. Be aware of;"
+    },
+    {
+     "block": 219,
+     "before": "Indirect suggestions can by-pass the subject’s ‘skeptical guard’. They do this by not directly telling the subject what to do. This does not mean that indirect suggestions are not specific. It simply means that they are worded in a vague, conversational, suggestive manner.",
+     "after": "Indirect suggestions can by-pass the subject’s skeptical guard. They do this by not directly telling the subject what to do. This does not mean that indirect suggestions are not specific. It simply means that they are worded in a vague, conversational, suggestive manner."
+    },
+    {
+     "block": 299,
+     "before": "Sometimes a finger will move, sometimes an entire hand will heat up, sometimes you will notice a change in your breathing, sometimes you won’t notice anything at all. Even if something happens, it doesn’t mean it is “True”, it just might mean that something is listening.",
+     "after": "Sometimes a finger will move, sometimes an entire hand will heat up, sometimes you will notice a change in your breathing, sometimes you won’t notice anything at all. Even if something happens, it doesn’t mean it is true, it just might mean that something is listening."
+    },
+    {
+     "block": 328,
+     "before": "Respond to each thing that comes up with an accurate notice and a small reasonable invitation (or action or taking more time etc). The 'thing' might be a sensation, image, gesture, feeling, words, or anything. The notice and invitation don't need to take all those forms, just notice and invite what happens.",
+     "after": "Respond to each thing that comes up with an accurate notice and a small reasonable invitation (or action or taking more time etc). The thing might be a sensation, image, gesture, feeling, words, or anything. The notice and invitation don't need to take all those forms, just notice and invite what happens."
+    },
+    {
+     "block": 346,
+     "before": "Feel free to go back and explore more if you wish to do so. If, at any point, you start to lose contact with the here and now, feel that things are becoming more and more unreal, or you feel that you are not able to switch to something else or stop, stop trying to explore inside of yourself and just do the entire “coming back” part. If you have trouble orienting yourself and it lasts for a prolonged period of time, please get some human help rather than trying a stronger “induction” back to the here and now.",
+     "after": "Feel free to go back and explore more if you wish to do so. If, at any point, you start to lose contact with the here and now, feel that things are becoming more and more unreal, or you feel that you are not able to switch to something else or stop, stop trying to explore inside of yourself and just do the entire coming back part. If you have trouble orienting yourself and it lasts for a prolonged period of time, please get some human help rather than trying a stronger induction back to the here and now."
+    },
+    {
+     "block": 348,
+     "before": "If you feel an urge to move, turn, reach, push, or change your body’s position, feel free to either actually do something that will not cause your body pain or discomfort, or just imagine doing what you feel you need to do, and see what happens next. You do not need to “act out” the urge, feel that you need to move, shake, release, etc. If you do move and you feel that you are causing yourself pain or other symptoms that you are concerned about, stop moving.",
+     "after": "If you feel an urge to move, turn, reach, push, or change your body’s position, feel free to either actually do something that will not cause your body pain or discomfort, or just imagine doing what you feel you need to do, and see what happens next. You do not need to act out the urge, feel that you need to move, shake, release, etc. If you do move and you feel that you are causing yourself pain or other symptoms that you are concerned about, stop moving."
+    },
+    {
+     "block": 350,
+     "before": "If any “younger” parts come up, offer them the opportunity to spend time with you, or some space if they would rather. If one of them says “don’t come closer”, stay at the distance they choose. You don’t have to consider them literally “younger”, nor do you have to ask them why they are there or what happened to them. If you can identify any guards (childhood protector parts), talk to them in the same Nurturer voice you meant for your little one, and find out what they are concerned about. All of them are welcome to the “meeting”. You don’t have to get rid of any of them.",
+     "after": "If any younger parts come up, offer them the opportunity to spend time with you, or some space if they would rather. If one of them says “don’t come closer”, stay at the distance they choose. You don’t have to consider them literally younger, nor do you have to ask them why they are there or what happened to them. If you can identify any guards (childhood protector parts), talk to them in the same Nurturer voice you meant for your little one, and find out what they are concerned about. All of them are welcome to the meeting. You don’t have to get rid of any of them."
+    },
+    {
+     "block": 351,
+     "before": "If you feel that it would be useful to bring in your “Nurturer”, “Protector” or “Guide” to help you either change the “tone” of the interaction, set boundaries, or find your way toward the life you want, feel free to do so. You don’t have to talk to them, just use the one whose job you need, and if you can’t do it yet, borrow it. You only need to use the “Witness” if you need help getting started with a step. If you are already able to do a certain step, you don’t have to do it again.",
+     "after": "If you feel that it would be useful to bring in your Nurturer, Protector or Guide to help you either change the tone of the interaction, set boundaries, or find your way toward the life you want, feel free to do so. You don’t have to talk to them, just use the one whose job you need, and if you can’t do it yet, borrow it. You only need to use the Witness if you need help getting started with a step. If you are already able to do a certain step, you don’t have to do it again."
+    },
+    {
+     "block": 352,
+     "before": "Try some different ideas as to what might be helpful for this ‘inner part’ to feel better (being welcomed by you, visualizing someone else, giving them the sort of words they would like to hear, you placing yourself in a different body position, you moving further away etc). Only try one idea at a time to see if it works. Just because an idea ‘should’ be a resource, that doesn’t mean that it will be.",
+     "after": "Try some different ideas as to what might be helpful for this inner part to feel better (being welcomed by you, visualizing someone else, giving them the sort of words they would like to hear, you placing yourself in a different body position, you moving further away etc). Only try one idea at a time to see if it works. Just because an idea should be a resource, that doesn’t mean that it will be."
+    },
+    {
+     "block": 353,
+     "before": "It is possible that when you try and give the part what it wants, you might feel very upset. It may be that it never got what it needed at the time and now that you are giving it what it wants, it is processing the upset of not getting what it wanted before. If this happens, allow yourself to respond for as long as you want to do so, and for as long as you can ‘stay there’ (ie remain in the process). If you feel that the voice, distance, touch, image etc is too much, then change it to something that is less. Don’t think that you can’t ‘take’ the love.",
+     "after": "It is possible that when you try and give the part what it wants, you might feel very upset. It may be that it never got what it needed at the time and now that you are giving it what it wants, it is processing the upset of not getting what it wanted before. If this happens, allow yourself to respond for as long as you want to do so, and for as long as you can stay there (ie remain in the process). If you feel that the voice, distance, touch, image etc is too much, then change it to something that is less. Don’t think that you can’t take the love."
+    },
+    {
+     "block": 354,
+     "before": "Allow yourself to see where the metaphor takes you. Ask questions like ‘if the problem had an image or story, what would it be?’ or ‘what would need to happen to make things right?’ If it feels like you need to ‘do something’ to give yourself the resource that you feel you need (or to put a boundary in place, or to move away or to take some other action) then try ‘doing that’ for as far as it takes to be of use to you. Remember that whatever you find out is likely to be metaphorical. It may be a good hypothesis for what you need to do but it is not a proven fact.",
+     "after": "Allow yourself to see where the metaphor takes you. Ask questions like ‘if the problem had an image or story, what would it be?’ or ‘what would need to happen to make things right?’ If it feels like you need to do something to give yourself the resource that you feel you need (or to put a boundary in place, or to move away or to take some other action) then try doing that for as far as it takes to be of use to you. Remember that whatever you find out is likely to be metaphorical. It may be a good hypothesis for what you need to do but it is not a proven fact."
+    },
+    {
+     "block": 357,
+     "before": "Ending the session. Don’t feel that you have to end the session with a ‘great revelation’! When you have done as much as you want to do, it is a good idea to find out if there is anything that you need to do to make sure that you can leave things where they are for the time being. This might include thanking parts for their help, or making sure that you do something ‘in real life’ (eat a good meal, put a boundary in place, get some rest, repair a relationship, keep a promise etc). Whatever it is, tell your little one, \"That’s enough for today. We’re going back to the life we’re building.\"",
+     "after": "Ending the session. Don’t feel that you have to end the session with a great revelation! When you have done as much as you want to do, it is a good idea to find out if there is anything that you need to do to make sure that you can leave things where they are for the time being. This might include thanking parts for their help, or making sure that you do something in real life (eat a good meal, put a boundary in place, get some rest, repair a relationship, keep a promise etc). Whatever it is, tell your little one, \"That’s enough for today. We’re going back to the life we’re building.\""
+    },
+    {
+     "block": 358,
+     "before": "When you have finished, even if you stopped part way through, use the ‘Come all the way back’ procedure to bring yourself back. When you are back, it is a good idea to write a few lines in a notebook about what you have done. Just jot down the essentials (what was there before you started, what you have done to change things, what you are unsure about, any phrases that were said, any body signals, any information that the inner child said that it needed, anything that a ‘protector’ wanted you to know, any boundaries that you put in place, any ‘repairs’ that you did, anything that you learnt about what it is a mistake to try and force etc). You don’t need to write down the whole cast of characters, just what you actually noticed.",
+     "after": "When you have finished, even if you stopped part way through, use the ‘Come all the way back’ procedure to bring yourself back. When you are back, it is a good idea to write a few lines in a notebook about what you have done. Just jot down the essentials (what was there before you started, what you have done to change things, what you are unsure about, any phrases that were said, any body signals, any information that the inner child said that it needed, anything that a protector wanted you to know, any boundaries that you put in place, any repairs that you did, anything that you learnt about what it is a mistake to try and force etc). You don’t need to write down the whole cast of characters, just what you actually noticed."
+    },
+    {
+     "block": 360,
+     "before": "Note: throughout the exercise, allow your ‘analytical’ part to make comments and/or tell you that it doesn’t like what you are doing. Just tell it that you will check things out when you come back and make any commitments etc when you are back. If it says no to going deeper, or tells you to stop doing the exercise, I’d stop there and not test it, even when it sounds like a prediction. You can stop whenever you want to. Remember that the images that you see can be meaningful without being actual memories of things that happened and just because you see an image, or feel a body release, that doesn’t mean that you are right about what is going on!",
+     "after": "Note: throughout the exercise, allow your analytical part to make comments and/or tell you that it doesn’t like what you are doing. Just tell it that you will check things out when you come back and make any commitments etc when you are back. If it says no to going deeper, or tells you to stop doing the exercise, I’d stop there and not test it, even when it sounds like a prediction. You can stop whenever you want to. Remember that the images that you see can be meaningful without being actual memories of things that happened and just because you see an image, or feel a body release, that doesn’t mean that you are right about what is going on!"
+    },
+    {
+     "block": 387,
+     "before": "If the fake feeling is telling you that you don't have the 'grown up' ability to do this yet, then don't try and convince yourself by using an inner voice. As long as you can still observe yourself well enough to do this, try and borrow what you need from someone who you can imagine is 'good enough' to lend it to you. This could be a family member, friend, famous person etc. What you need might be warmth, boundary, direction etc. For warmth, just make sure it's someone who liked you the way you were. Try out something which rings true to you, whether it is a sentence, an action etc, and see how you get on.",
+     "after": "If the fake feeling is telling you that you don't have the grown up ability to do this yet, then don't try and convince yourself by using an inner voice. As long as you can still observe yourself well enough to do this, try and borrow what you need from someone who you can imagine is good enough to lend it to you. This could be a family member, friend, famous person etc. What you need might be warmth, boundary, direction etc. For warmth, just make sure it's someone who liked you the way you were. Try out something which rings true to you, whether it is a sentence, an action etc, and see how you get on."
+    },
+    {
+     "block": 426,
+     "before": "DO NOT: “Force” yourself to ignore your body’s needs, such as eating when hungry, resting when tired, responding to pain, etc., or your emotions, such as letting yourself grieve when someone dies, feeling anger when it is appropriate, acknowledging your fears, etc., until you know more about what the signals are telling you.",
+     "after": "DO NOT: Force yourself to ignore your body’s needs, such as eating when hungry, resting when tired, responding to pain, etc., or your emotions, such as letting yourself grieve when someone dies, feeling anger when it is appropriate, acknowledging your fears, etc., until you know more about what the signals are telling you."
+    },
+    {
+     "block": 428,
+     "before": "DO NOT: Allow various internal roles to get out of proportion (e.g., allow the “Inner Child” to run your adult life, the “Protector” to shut out all love, the “Nurturer” to disregard consequences, the “Guide” to ignore the needs of the “Child”). You are capable of analysis, as well as tenderness.",
+     "after": "DO NOT: Allow various internal roles to get out of proportion (e.g., allow the Inner Child to run your adult life, the Protector to shut out all love, the Nurturer to disregard consequences, the Guide to ignore the needs of the Child). You are capable of analysis, as well as tenderness."
+    },
+    {
+     "block": 429,
+     "before": "DO NOT: Utilize NLP techniques to “force” down “protectors,” to give yourself certainty you do not have, to manipulate others, or to “heal” yourself when your body is telling you not to.",
+     "after": "DO NOT: Utilize NLP techniques to force down protectors, to give yourself certainty you do not have, to manipulate others, or to heal yourself when your body is telling you not to."
+    },
+    {
+     "block": 431,
+     "before": "Don’t rely upon the “safety” of “your unconscious mind” as the only safety factor in any session. Be sure you have set up clear limits, are in a safe place, and have a way to terminate the session and “get out” which has been tested and proven to work.",
+     "after": "Don’t rely upon the safety of your unconscious mind as the only safety factor in any session. Be sure you have set up clear limits, are in a safe place, and have a way to terminate the session and get out which has been tested and proven to work."
+    },
+    {
+     "block": 434,
+     "before": "Don’t put “hidden ‘commands’” in yourself, nor allow anyone to do so. Even if you are consciously placing something in yourself which you wish to utilize later, be sure that you know exactly what you are doing and why you are doing it, and be sure that you can review it and CAN “take it out” if you decide that you no longer wish to use it. It may not be as easy as simply saying, “Take out.” Nor should you allow anyone to activate these “commands” in you without your knowledge, or use them to make you do something you don’t want to do, to make you into someone you don’t want to be, to give you amnesia, etc.",
+     "after": "Don’t put hidden commands in yourself, nor allow anyone to do so. Even if you are consciously placing something in yourself which you wish to utilize later, be sure that you know exactly what you are doing and why you are doing it, and be sure that you can review it and CAN “take it out” if you decide that you no longer wish to use it. It may not be as easy as simply saying, “Take out.” Nor should you allow anyone to activate these commands in you without your knowledge, or use them to make you do something you don’t want to do, to make you into someone you don’t want to be, to give you amnesia, etc."
+    },
+    {
+     "block": 447,
+     "before": "Whether or not you can \"get hypnotized\" very deeply is less interesting to me than whether or not you can become a trustworthy adult.",
+     "after": "Whether or not you can get hypnotized very deeply is less interesting to me than whether or not you can become a trustworthy adult."
+    },
+    {
+     "block": 469,
+     "before": "Most importantly, you always need to make your prompt “safe”, otherwise the analytical part of your mind will “make up” an answer just so it fits with your prompt. I usually add the following to my prompt:",
+     "after": "Most importantly, you always need to make your prompt safe, otherwise the analytical part of your mind will make up an answer just so it fits with your prompt. I usually add the following to my prompt:"
+    },
+    {
+     "block": 502,
+     "before": "Open up awareness by using ‘awareness’ verbs e.g. notice, realize, recognize, sense, feel, wonder, imagine, picture, listen to, allow, discover, remember, consider etc.",
+     "after": "Open up awareness by using awareness verbs e.g. notice, realize, recognize, sense, feel, wonder, imagine, picture, listen to, allow, discover, remember, consider etc."
+    },
+    {
+     "block": 521,
+     "before": "Similarly, you can use 'tag' questions, like \"isn't it?\" or \"can't it?\" or \"doesn't it?\" or others, but be aware that these can get pretty 'oily' pretty quickly, so don't overdo it.",
+     "after": "Similarly, you can use tag questions, like \"isn't it?\" or \"can't it?\" or \"doesn't it?\" or others, but be aware that these can get pretty oily pretty quickly, so don't overdo it."
+    },
+    {
+     "block": 580,
+     "before": "I do not use NLP on people who are panicked, destabilized, manic, having a \"psychosis-like state\", or are too high/dissociated to reality test.",
+     "after": "I do not use NLP on people who are panicked, destabilized, manic, having a psychosis-like state, or are too high/dissociated to reality test."
+    },
+    {
+     "block": 642,
+     "before": "Then ask yourself what it is that you need to do in “real” life that you are avoiding by daydreaming.",
+     "after": "Then ask yourself what it is that you need to do in real life that you are avoiding by daydreaming."
+    },
+    {
+     "block": 649,
+     "before": "What they are trained in (what they can treat) How they use hypnosis What they will do if things don't \"fit\" (if they are treating trauma, did they have specific training on trauma and dissociation? Having hypnosis certifications matters, but doesn't mean they are trained in trauma care)",
+     "after": "What they are trained in (what they can treat) How they use hypnosis What they will do if things don't fit (if they are treating trauma, did they have specific training on trauma and dissociation? Having hypnosis certifications matters, but doesn't mean they are trained in trauma care)"
+    },
+    {
+     "block": 651,
+     "before": "Then afterwards, check in about what was actually done, regardless of what you might call the method. Ask the person why they did what they did, and whether they told you in advance. Did you agree to it? How did the person respond to you? Keep in mind that just because something made you uncomfortable, it doesn't mean it was \"bad,\" but if they saw your discomfort as meaning that you needed more of it, that might be something to look into. You might even be able to use this app or ask around to see if someone can tell you what the things the person did meant. They probably won't be able to tell you if the person was \"certified\" in them or not, though. Then you can decide if you want to try learning to do self-hypnosis, using both, or find someone else.",
+     "after": "Then afterwards, check in about what was actually done, regardless of what you might call the method. Ask the person why they did what they did, and whether they told you in advance. Did you agree to it? How did the person respond to you? Keep in mind that just because something made you uncomfortable, it doesn't mean it was bad, but if they saw your discomfort as meaning that you needed more of it, that might be something to look into. You might even be able to use this app or ask around to see if someone can tell you what the things the person did meant. They probably won't be able to tell you if the person was certified in them or not, though. Then you can decide if you want to try learning to do self-hypnosis, using both, or find someone else."
+    },
+    {
+     "block": 661,
+     "before": "We can not ‘force’ forgiveness on ourselves, it has to come from a place of understanding otherwise it can be bypassing. However, if we remain in the anger forever, we are allowing the injury to dictate how we live our lives in the present. So how do we hold all of this? We just remember that it can all be true at once. They really did hurt us and they still have to answer for it, and our boundary with them still matters, but one day we may find that we have forgiven them, or at least that we’re not being run by the resentment anymore. And we don’t have to forgive first to get safe, set boundaries, hold someone accountable, get justice or get better.",
+     "after": "We can not force forgiveness on ourselves, it has to come from a place of understanding otherwise it can be bypassing. However, if we remain in the anger forever, we are allowing the injury to dictate how we live our lives in the present. So how do we hold all of this? We just remember that it can all be true at once. They really did hurt us and they still have to answer for it, and our boundary with them still matters, but one day we may find that we have forgiven them, or at least that we’re not being run by the resentment anymore. And we don’t have to forgive first to get safe, set boundaries, hold someone accountable, get justice or get better."
+    },
+    {
+     "block": 679,
+     "before": "So what feels like a meaningful altered state of consciousness may or may not actually be meaningful - it could be your inner child, it could be a childhood protector part, it could be all of the things you're ashamed of / sad about / angry about / etc, coming out to be dealt with. Or it could be that your body is overloaded, your environment is chaotic, you haven't slept enough, etc, etc, etc. Regardless of how scary an image is, regardless of the lighting that came with the \"download\", regardless of how \"bad\" you feel, it doesn't necessarily mean what you think it does!",
+     "after": "So what feels like a meaningful altered state of consciousness may or may not actually be meaningful - it could be your inner child, it could be a childhood protector part, it could be all of the things you're ashamed of / sad about / angry about / etc, coming out to be dealt with. Or it could be that your body is overloaded, your environment is chaotic, you haven't slept enough, etc, etc, etc. Regardless of how scary an image is, regardless of the lighting that came with the \"download\", regardless of how bad you feel, it doesn't necessarily mean what you think it does!"
+    },
+    {
+     "block": 695,
+     "before": "If you feel like you’re in any danger of doing anything harmful to yourself or others, if you feel like you’re going psychotic and you’re afraid of it, if you feel like you won’t be able to sleep when the self-hypnosis session is over, if you feel overly paranoid, if you feel physical pain in your chest, if you feel like you’re going to have a seizure, if you feel like you’re too hot in a bad way, if you feel like you’ve taken too much of something, if you feel like you won’t be able to function in the world anymore – then the self-hypnosis session is over, and you should get help in the “real world”.",
+     "after": "If you feel like you’re in any danger of doing anything harmful to yourself or others, if you feel like you’re going psychotic and you’re afraid of it, if you feel like you won’t be able to sleep when the self-hypnosis session is over, if you feel overly paranoid, if you feel physical pain in your chest, if you feel like you’re going to have a seizure, if you feel like you’re too hot in a bad way, if you feel like you’ve taken too much of something, if you feel like you won’t be able to function in the world anymore – then the self-hypnosis session is over, and you should get help in the real world."
+    },
+    {
+     "block": 722,
+     "before": "Practise! Work out in advance which one you want to do and what you want to use it for (pick just one) and whether or not you want to do it at all! Any of these ‘families’ of induction can be done as light inductions, with eyes open, or instead of trance you can just do them as a contact.",
+     "after": "Practise! Work out in advance which one you want to do and what you want to use it for (pick just one) and whether or not you want to do it at all! Any of these families of induction can be done as light inductions, with eyes open, or instead of trance you can just do them as a contact."
+    },
+    {
+     "block": 724,
+     "before": "NB: if you can’t ‘see’ the images you’re trying to visualize, that’s fine, change them into words, rhythm, spatial relations, something to touch or move or just plain ‘knowing’…",
+     "after": "NB: if you can’t ‘see’ the images you’re trying to visualize, that’s fine, change them into words, rhythm, spatial relations, something to touch or move or just plain knowing…"
+    },
+    {
+     "block": 726,
+     "before": "Stretch and Release: Work out what will be supporting you, focus on the feeling of support. You can also focus on where one of your hands or feet is. Either actually, or in your imagination, stretch a little bit, either stretching that part of your body slightly or pressing gently down into the support, and then let go of the effort, just relax. See if there is any difference, even if there isn’t. Do this for no more than 3 places on your body. Think of it as ‘releasing’ as you go through the sequence. Which bit of your body, or voice, needs this? What do you need to support it? Bring your body back to normal movement and return.",
+     "after": "Stretch and Release: Work out what will be supporting you, focus on the feeling of support. You can also focus on where one of your hands or feet is. Either actually, or in your imagination, stretch a little bit, either stretching that part of your body slightly or pressing gently down into the support, and then let go of the effort, just relax. See if there is any difference, even if there isn’t. Do this for no more than 3 places on your body. Think of it as releasing as you go through the sequence. Which bit of your body, or voice, needs this? What do you need to support it? Bring your body back to normal movement and return."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published guide has these words plain. Emulate is known for odd quote marks, and you asked about the ones around inner child (\"why was inner child in quotes? ... check and remove quotes if you find it elsewhere\"). The single curly ones are its habit, not yours: your inner child guide has two.",
+   "stays": "Every quote that is speech or a prayer, a word talked about as a word (\"when this guide says \"say\"\"), a section's name, a term you use in a special sense (\"human doing\", “downloads”, ‘see’ the images, “hostile presences”), and the skeptical ones that carry a point (“attachments,” “transformations”, “healed” in your imagination).",
+   "advice_note": "One card, like the spaces on your last page. Revise if one of them should keep its quote marks.",
+   "found_by": "The strict Emulate check (quote marks his texts don't have at that spot) and its readers",
+   "what": "Takes the quote marks off 85 words and phrases in 51 paragraphs: \"bad\", \"bad,\", \"certified\", \"fit\", \"get hypnotized\", \"psychosis-like state\", 'good enough', 'grown up', 'oily', 'tag', 'thing', ‘adult’, ‘analytical’, ‘awareness’, ‘communion’, ‘critic’, ‘do something’, ‘doing that’, ‘ecology’, ‘families’, ‘force’, ‘great revelation’, ‘grow up’, ‘in real life’, ‘inner part’, ‘Invoke’, ‘invoke’, ‘knowing’, ‘mind’, ‘modes’, ‘permissive’, ‘protector’, ‘releasing’, ‘repairs’, ‘right’, ‘should’, ‘skeptical guard’, ‘state’, ‘stay there’, ‘subconscious mind’, ‘subconscious’, ‘take’, ‘trance experience’, ‘whole’, ‘wiser’, ‘wrong’, “act out”, “child”, “Child”, “coming back”, “commands”, “do”, “embody”, “Force”, “force”, “get out”, “Guide”, “healed”, “heal”, “hidden ‘commands’”, “induction”, “Inner Child”, “make up”, “mature”, “meeting”, “Mind Control”, “Nurturer”, “protectors,”, “Protector”, “prove”, “real world”, “real”, “safety”, “safe”, “tone”, “True”, “Witness”, “younger”, “your unconscious mind”.",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "EM-1",
+   "type": "meaning",
+   "title": "Belongs to life before anything else",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 86,
+     "start": 173,
+     "end": 182
+    }
+   ],
+   "edits": [
+    {
+     "block": 86,
+     "before": "Start like this: ‘I’m approaching this from the universal heart. I’m approaching this from my Higher Self. I’m approaching this from the part of me that knows it belongs to life, not any wound, or role, or family, or group, or identity, or ideology, or story. So can you please tell me what’s going to be true and kind and timely and stabilizing and useful here?’ Etc.",
+     "after": "Start like this: ‘I’m approaching this from the universal heart. I’m approaching this from my Higher Self. I’m approaching this from the part of me that knows it belongs to life before it belongs to any wound, or role, or family, or group, or identity, or ideology, or story. So can you please tell me what’s going to be true and kind and timely and stabilizing and useful here?’ Etc."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published line: \"the part of me that belongs to life before it belongs to any wound, role, family, group, identity, ideology, or story\". Emulate made it \"not any wound ...\", which denies those belong to you at all.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Puts back your \"before it belongs to\"; the rest of Emulate's sentence stays.",
+   "found_by": "The strict Emulate check: a fresh reader comparing this paragraph with your published one (items 1.82)",
+   "what": "\"the part of me that knows it belongs to life, not any wound, or role, or family, or group, or identity, or ideology, or story\" becomes \"the part of me that knows it belongs to life before it belongs to any wound, or role, or family, or group, or identity, or ideology, or story\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "EM-2",
+   "type": "meaning",
+   "title": "Borrowed adulthood: which part is untested",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 96,
+     "start": 105,
+     "end": 232
+    }
+   ],
+   "edits": [
+    {
+     "block": 96,
+     "before": "For that starting point, I have developed a kind of provisional bridge that I call “borrowed adulthood.” It is important to note here that I’m not suggesting that all of the steps in this process have been formally tested and proven.",
+     "after": "For that starting point, I have developed a kind of provisional bridge that I call “borrowed adulthood.” It’s built from familiar practices like modeling and supported action, but I’m not suggesting that the whole sequence has been formally tested and proven as one treatment."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published line: \"It combines familiar practices—witnessing, modeling, supported action, and gradual transfer of responsibility—without claiming that the complete sequence has been validated as one treatment.\" Emulate dropped the familiar practices and made it \"not all of the steps ... have been tested\", which says some steps are untested; yours says each step is familiar and only the whole sequence is untested.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Your two points in plainer words, with two of your four practices (a list of four reads as AI, and the gate refuses one I write).",
+   "found_by": "The strict Emulate check: a fresh reader comparing this paragraph with your published one (items 2.7, 2.8)",
+   "what": "Rewrites \"It is important to note here that I’m not suggesting that all …\", as shown below.",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "EM-3",
+   "type": "meaning",
+   "title": "Which families and religions",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 176,
+     "start": 218,
+     "end": 266
+    }
+   ],
+   "edits": [
+    {
+     "block": 176,
+     "before": "It can be difficult to connect with your inner child if your inner child didn’t have the opportunity to develop. This happens often when you grow up in a situation where you don’t have a private self, for example when your family, religion, or community ‘takes over’ very early in your life. Or you are pushed to achieve very early in life. The result is that you don’t know what you feel, what you want, what you believe, what you like and dislike until you have heard someone else’s opinion about it. If you are in that situation, it can be difficult to follow the advice to ‘love yourself’. You don’t even know who ‘yourself’ is! So you can do reparenting and finding yourself in parallel. For others, it is very easy to work with the inner child, they can feel it easily.",
+     "after": "It can be difficult to connect with your inner child if your inner child didn’t have the opportunity to develop. This happens often when you grow up in a situation where you don’t have a private self, for example when a controlling family, a rigid religion or an enmeshed community takes over very early in your life. Or you are pushed to achieve very early in life. The result is that you don’t know what you feel, what you want, what you believe, what you like and dislike until you have heard someone else’s opinion about it. If you are in that situation, it can be difficult to follow the advice to ‘love yourself’. You don’t even know who ‘yourself’ is! So you can do reparenting and finding yourself in parallel. For others, it is very easy to work with the inner child, they can feel it easily."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published line: \"In controlling families, rigid religions, enmeshed communities, or high-pressure achievement systems\". Without \"controlling\", \"rigid\" and \"enmeshed\" it reads as if any family, religion or community does this.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Your three words back; the quote marks Emulate put around \"takes over\" go too.",
+   "found_by": "The strict Emulate check: a fresh reader comparing this paragraph with your published one (items 3.24, 3.25)",
+   "what": "\"for example when your family, religion, or community ‘takes over’ very early in your life\" becomes \"for example when a controlling family, a rigid religion or an enmeshed community takes over very early in your life\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "EM-4",
+   "type": "meaning",
+   "title": "Not choosing yet",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 184,
+     "start": 29,
+     "end": 35
+    }
+   ],
+   "edits": [
+    {
+     "block": 184,
+     "before": "You can rebel, but you can’t choose",
+     "after": "You can rebel, but you can’t choose yet"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published line: \"You can rebel, but you cannot yet choose.\" Without \"yet\" it says you never will.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "One word.",
+   "found_by": "The strict Emulate check: a fresh reader comparing this paragraph with your published one (items 3.32)",
+   "what": "Adds, after \"You can rebel, but you can’t choose\": \"yet\"",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "EM-5",
+   "type": "meaning",
+   "title": "Garbled: \"occupied in\", \"reading out\"",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 185,
+     "start": 202,
+     "end": 244
+    }
+   ],
+   "edits": [
+    {
+     "block": 185,
+     "before": "One way of explaining this is that in your childhood you didn’t spend enough attention in finding out what you like and what you want to try out and who you are when nobody is grading you. You were too occupied in not being in pain, reading out what was dangerous and what you had to do to stay in a good bond, etc.",
+     "after": "One way of explaining this is that in your childhood you didn’t spend enough attention in finding out what you like and what you want to try out and who you are when nobody is grading you. You were too busy avoiding pain, reading what was dangerous and what you had to do to stay in a good bond, etc."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published line: \"when childhood is organized around avoiding pain and preserving attachment, attention goes into reading danger, meeting expectations, and keeping the bond\". Emulate's \"too occupied in not being in pain, reading out what was dangerous\" stops a reader twice.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Your \"avoiding pain\", and \"reading\" for \"reading out\", in the sentence Emulate made.",
+   "found_by": "The strict Emulate check: a fresh reader comparing this paragraph with your published one (items 3.35)",
+   "what": "\"You were too occupied in not being in pain, reading out what was dangerous\" becomes \"You were too busy avoiding pain, reading what was dangerous\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "EM-6",
+   "type": "meaning",
+   "title": "One refrain, as the heading says",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 239,
+     "start": 113,
+     "end": 125
+    }
+   ],
+   "edits": [
+    {
+     "block": 239,
+     "before": "When you're writing this, think about what the verb you're using is, what the sensory quality is, what the short refrains are, and how you're going to transition between ideas. Read it out loud as you're writing it. Long, elegant sentences don't read well when you're being induced. It's all just soup.",
+     "after": "When you're writing this, think about what the verb you're using is, what the sensory quality is, what the short refrain is, and how you're going to transition between ideas. Read it out loud as you're writing it. Long, elegant sentences don't read well when you're being induced. It's all just soup."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published line: \"Pick one central verb, one sensory quality, one short refrain, and one transition phrase\". The section is \"Please don't put six metaphors in one trance\"; Emulate made the refrain plural.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "One word.",
+   "found_by": "The strict Emulate check: a fresh reader comparing this paragraph with your published one (items 4.15)",
+   "what": "\"what the short refrains are\" becomes \"what the short refrain is\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "EM-7",
+   "type": "meaning",
+   "title": "Not when intoxicated",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 243,
+     "start": 196,
+     "end": 220
+    }
+   ],
+   "edits": [
+    {
+     "block": 243,
+     "before": "Put yourself in a place where you can safely do this. Don't do this if you're driving, in the water, operating machinery, or otherwise need to be attending to yourself or other people. If you are overwhelmed by chemicals, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. (The part below called \"Already open? Contain before you deepen\" can be used to help orient you if you're already open, but don't use it to make yourself deeper if you're not stable.)",
+     "after": "Put yourself in a place where you can safely do this. Don't do this if you're driving, in the water, operating machinery, or otherwise need to be attending to yourself or other people. If you are intoxicated, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. (The part below called \"Already open? Contain before you deepen\" can be used to help orient you if you're already open, but don't use it to make yourself deeper if you're not stable.)"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published line: \"When intoxicated, acutely confused, or unable to keep yourself safe, deal with immediate support rather than exploratory hypnosis.\" Emulate's \"overwhelmed by chemicals\" lets someone who is merely drunk or high go ahead.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Your word; it changes who should stop.",
+   "found_by": "The strict Emulate check: a fresh reader comparing this paragraph with your published one (items 4.20)",
+   "what": "\"If you are overwhelmed by chemicals,\" becomes \"If you are intoxicated,\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "EM-8",
+   "type": "meaning",
+   "title": "Reverse what you did going in",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 311,
+     "start": 51,
+     "end": 66
+    }
+   ],
+   "edits": [
+    {
+     "block": 311,
+     "before": "If you have done anything to alter your state when coming out of a trance, make sure to reverse those things. If you have floated, make sure to gain your weight again (whatever weight you want of course). If you have shrunk, make sure to grow back to your regular size. If you have met a younger state or are working with parts, make sure to come back to feeling complete in your body in the here and now, that your body belongs to you, and that it is under the control of your adult mind. If you have gone somewhere, make sure to go back the same way you went there. Etcetera.",
+     "after": "If you have done anything to alter your state when entering the trance, make sure to reverse those things. If you have floated, make sure to gain your weight again (whatever weight you want of course). If you have shrunk, make sure to grow back to your regular size. If you have met a younger state or are working with parts, make sure to come back to feeling complete in your body in the here and now, that your body belongs to you, and that it is under the control of your adult mind. If you have gone somewhere, make sure to go back the same way you went there. Etcetera."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published line: \"Reverse whatever you used to enter.\" Emulate wrote \"when coming out of a trance\", the opposite end; the examples after it (floating, shrinking) are all things done going in.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Your word, \"enter\".",
+   "found_by": "The strict Emulate check: a fresh reader comparing this paragraph with your published one (items 5.11)",
+   "what": "\"If you have done anything to alter your state when coming out of a trance, make sure to reverse those things.\" becomes \"If you have done anything to alter your state when entering the trance, make sure to reverse those things.\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "EM-9",
+   "type": "meaning",
+   "title": "\"Only\", and the timing",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 320,
+     "start": 208,
+     "end": 237
+    }
+   ],
+   "edits": [
+    {
+     "block": 320,
+     "before": "I invoke my Higher Self, universal heart-mind, wise subconscious mind, intelligence in my body, inner child(ren), inner adult(s), protector(s) and all that is of truth and love to help me know what I need to know in a form and at a level that will be useful, kind, stabilizing and real for me.”",
+     "after": "I invoke my Higher Self, universal heart-mind, wise subconscious mind, intelligence in my body, inner child(ren), inner adult(s), protector(s) and all that is of truth and love to help me know what I need to know, only in a form and at a time that will be useful, kind, stabilizing and real for me.”"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published line: \"please help me understand what I need to know, only in the form and timing that is useful, kind, stabilizing, and real.\" Emulate dropped \"only\" and the timing, so the request no longer limits when an answer comes.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Your \"only\" and your timing; Emulate's \"at a level\" goes, as yours had form and timing only.",
+   "found_by": "The strict Emulate check: a fresh reader comparing this paragraph with your published one (items 5.20)",
+   "what": "\"to help me know what I need to know in a form and at a level that will be useful\" becomes \"to help me know what I need to know, only in a form and at a time that will be useful\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "EM-10",
+   "type": "meaning",
+   "title": "Ask to be shown, not show yourself",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 382,
+     "start": 0,
+     "end": 108
+    }
+   ],
+   "edits": [
+    {
+     "block": 382,
+     "before": "Show yourself one body sensation, one word, ask yourself if you want to listen today or if you need to rest.",
+     "after": "Ask: “Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.”"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published lines: \"“Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.”\" When nothing happens, you ask your deeper mind to show you something small; Emulate made it \"Show yourself\", so the reader does it all.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Your three requests, word for word.",
+   "found_by": "The strict Emulate check: a fresh reader comparing this paragraph with your published one (items 6.16)",
+   "what": "\"Show yourself one body sensation, one word, ask yourself if you want to listen today or if you need to rest.\" becomes \"Ask: “Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.”\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "EM-11",
+   "type": "meaning",
+   "title": "Don't suppress medical symptoms",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 425,
+     "start": 19,
+     "end": 184
+    }
+   ],
+   "edits": [
+    {
+     "block": 425,
+     "before": "DO NOT: Attempt to “force” memories, to use trance to “prove” something happened to you, or to skip medical attention for symptoms just because you can “force” them down using hypnosis.",
+     "after": "DO NOT: Attempt to force memories, to use trance to prove something happened to you, or to suppress medical symptoms."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published line: \"Do not force memory recovery, use trance to prove what happened, or suppress medical symptoms.\" Emulate's version only forbids skipping medical attention, so pushing symptoms down with hypnosis reads as fine if you also see a doctor.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Your rule, in your words; the quote marks go too. (The owner-delivery gate's reviewers refused my first wording, \"instead of getting them looked at\", as a condition yours doesn't have.)",
+   "found_by": "The strict Emulate check: a fresh reader comparing this paragraph with your published one (items 6.57)",
+   "what": "Rewrites \"DO NOT: Attempt to “force” memories, to use trance to “prove” something …\", as shown below.",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "EM-12",
+   "type": "meaning",
+   "title": "What would help the part trust you",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 474,
+     "start": 66,
+     "end": 73
+    }
+   ],
+   "edits": [
+    {
+     "block": 474,
+     "before": "When you experience resistance: “What are you protecting me from? How can you trust me 1% more?”",
+     "after": "When you experience resistance: “What are you protecting me from? What would help you trust me 1% more?”"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published line: \"What are you protecting me from, and what would help you trust me 1% more?\" Emulate's \"How can you trust me 1% more?\" asks the part to do the work; yours asks what you can do.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Your question, word for word.",
+   "found_by": "The strict Emulate check: a fresh reader comparing this paragraph with your published one (items 7.25)",
+   "what": "\"How can you trust me 1% more?\" becomes \"What would help you trust me 1% more?\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "EM-13",
+   "type": "meaning",
+   "title": "What makes a double bind ethical",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 515,
+     "start": 0,
+     "end": 7
+    }
+   ],
+   "edits": [
+    {
+     "block": 515,
+     "before": "Ethical Double Bind Questions might be:",
+     "after": "An ethical one offers two genuinely safe routes. Ethical Double Bind Questions might be:"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published line: \"An ethical one offers two genuinely safe routes.\" The paragraph before says what a manipulative one does; Emulate dropped what makes the ethical one different.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Your sentence, word for word, before the examples; \"one\" is the double bind question of the paragraph before.",
+   "found_by": "The strict Emulate check: a fresh reader comparing this paragraph with your published one (items 7.61)",
+   "what": "\"Ethical Double Bind Questions might be:\" becomes \"An ethical one offers two genuinely safe routes. Ethical Double Bind Questions might be:\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "EM-14",
+   "type": "meaning",
+   "title": "What a nominalization is",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 524,
+     "start": 26,
+     "end": 30
+    }
+   ],
+   "edits": [
+    {
+     "block": 524,
+     "before": "Nominalizations are words like 'healing', 'safety', 'trust', 'integration', 'communion', 'clarity', 'rest', etc. These are a bit vague, and sometimes that can be useful, because it allows the subconscious to fill in the blank with something very specific for that person.",
+     "after": "Nominalizations are words that turn a process into a noun, like 'healing', 'safety', 'trust', 'integration', 'communion', 'clarity', 'rest', etc. These are a bit vague, and sometimes that can be useful, because it allows the subconscious to fill in the blank with something very specific for that person."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published line: \"Nominalizations turn processes into nouns: healing, safety, trust ...\" Emulate kept only the examples.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Your definition, in front of the examples.",
+   "found_by": "The strict Emulate check: a fresh reader comparing this paragraph with your published one (items 8.1)",
+   "what": "\"Nominalizations are words like 'healing',\" becomes \"Nominalizations are words that turn a process into a noun, like 'healing',\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "EM-15",
+   "type": "meaning",
+   "title": "Override fear before asking",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 576,
+     "start": 39,
+     "end": 43
+    }
+   ],
+   "edits": [
+    {
+     "block": 576,
+     "before": "I do not tell people to override their fear.",
+     "after": "I do not tell people to override their fear before asking what it’s protecting."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published line, in the list of what you won't use NLP for: \"To override fear before asking what the fear protects.\" Emulate made it a flat rule against overriding fear at all.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Your condition back.",
+   "found_by": "The strict Emulate check: a fresh reader comparing this paragraph with your published one (items 8.65)",
+   "what": "\"I do not tell people to override their fear.\" becomes \"I do not tell people to override their fear before asking what it’s protecting.\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "EM-S1",
+   "type": "source",
+   "title": "EFT: several trials, not a few",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 621,
+     "start": 454,
+     "end": 467
+    }
+   ],
+   "edits": [
+    {
+     "block": 621,
+     "before": "EFT tapping: One of the easiest ways to do EFT is to say something like, “Even though I have this anxiety, I am willing to be kind to the part of me that is afraid,” while you tap gently on your body and stay with what you feel. There isn’t a ton of evidence for EFT, but there are some studies on anxiety. A 2025 systematic review found 7 randomized controlled trials for anxiety disorders, and noted that EFT was more effective than no intervention in a few studies. So use the evidence with caution, and know that there are first-line therapies for anxiety.",
+     "after": "EFT tapping: One of the easiest ways to do EFT is to say something like, “Even though I have this anxiety, I am willing to be kind to the part of me that is afraid,” while you tap gently on your body and stay with what you feel. There isn’t a ton of evidence for EFT, but there are some studies on anxiety. A 2025 systematic review found 7 randomized controlled trials for anxiety disorders, and noted that EFT was more effective than no intervention in several of them. So use the evidence with caution, and know that there are first-line therapies for anxiety."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published line: \"A 2025 systematic review found seven randomized controlled trials involving EFT for anxiety disorders; EFT beat no intervention in several of them\". Emulate's \"in a few studies\" weakens what the review found. (\"Randomized control trials\" is already back to \"controlled\".)",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Your \"several of them\".",
+   "found_by": "The strict Emulate check: a fresh reader comparing this paragraph with your published one (items 9.28)",
+   "what": "\"noted that EFT was more effective than no intervention in a few studies\" becomes \"noted that EFT was more effective than no intervention in several of them\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "EM-16",
+   "type": "meaning",
+   "title": "The test for a response",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 700,
+     "start": 98,
+     "end": 174
+    }
+   ],
+   "edits": [
+    {
+     "block": 700,
+     "before": "You don’t have to find out if it’s a protector immediately, and you may not be able to comfort it quickly, but whether warmth or distance helps, that doesn’t prove what it is.",
+     "after": "You don’t have to find out if it’s a protector immediately, and you may not be able to comfort it quickly. The useful question is whether this way of responding helps you become clearer, steadier, and less hooked."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published lines: \"Neither response establishes its origin. ... The useful question is whether this way of responding helps you become clearer, steadier, and less hooked.\" Emulate's sentence breaks in the middle (\"but whether warmth or distance helps, that doesn't prove\") and drops your test.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Your test, word for word, in place of Emulate's broken sentence (its \"doesn't prove\" is the pattern you flagged on 2026-10-24); the heading still says a response isn't a verdict on what it is.",
+   "found_by": "The strict Emulate check: a fresh reader comparing this paragraph with your published one (items 10a.2, 10a.11)",
+   "what": "Rewrites \"You don’t have to find out if it’s a protector immediately, and …\", as shown below.",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "EM-S2",
+   "type": "source",
+   "title": "Who wrote the ISH article",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 746,
+     "start": 540,
+     "end": 661
+    }
+   ],
+   "edits": [
+    {
+     "block": 746,
+     "before": "Healing the Divided Self, Maggie Phillips and Claire Frederick (1995), pp 24-27, 45-50, 83-90, covers a lot of aspects of this post, such as interactive hypnosis, helping the subject learn how to learn by using other senses, learning self hypnosis, making sure the subject comes back at the end, etc. However, this is a professional clinical book, not a self help book, so be careful about trying to use the procedures used with the cases, etc in this book for solo work (the same applies to historical information it contains). Also, Adam Eason's work with Benjamin Parris in the International Society of Hypnosis, specifically his article about self hypnosis, should be a useful thing to read (especially the parts that talk about how to learn to learn when you're directing it yourself, and about whether you need another person to help you, and using recordings to help you, etc.)",
+     "after": "Healing the Divided Self, Maggie Phillips and Claire Frederick (1995), pp 24-27, 45-50, 83-90, covers a lot of aspects of this post, such as interactive hypnosis, helping the subject learn how to learn by using other senses, learning self hypnosis, making sure the subject comes back at the end, etc. However, this is a professional clinical book, not a self help book, so be careful about trying to use the procedures used with the cases, etc in this book for solo work (the same applies to historical information it contains). Also, Adam Eason and Benjamin Parris's article about self hypnosis for the International Society of Hypnosis should be a useful thing to read (especially the parts that talk about how to learn to learn when you're directing it yourself, and about whether you need another person to help you, and using recordings to help you, etc.)"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published line: \"Adam Eason and Benjamin Parris’s ISH article on self-hypnosis discusses self-directed learning and its relationship to another hypnotist and recordings.\" Emulate gave the article to Eason alone and made the two of them \"work in\" the society.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Both authors, and the link stays on \"article about self hypnosis\". (The book titles here are back in italics, and \"(1995) pp\" is fixed.)",
+   "found_by": "The strict Emulate check: a fresh reader comparing this paragraph with your published one (items 10b.1)",
+   "what": "Rewrites \"Also, Adam Eason's work with Benjamin Parris in the International Society of …\", as shown below.",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  },
+  {
+   "id": "EM-S3",
+   "type": "source",
+   "title": "What chapter 7 is about, and what the links back up",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 757,
+     "start": 55,
+     "end": 90
+    },
+    {
+     "block": 757,
+     "start": 565,
+     "end": 576
+    }
+   ],
+   "edits": [
+    {
+     "block": 757,
+     "before": "Chapter 7 of Trauma and Memory, by Peter Levine, 2015, contains useful information on this. This US Veterans Administration website contains useful general information about hypnosis, such as the fact that it can be very strong and should be carefully used, and that it may result in false memories. This ASCH website contains information about the usefulness of getting certified in hypnosis, and why it doesn't guarantee competence. Links are available for these and other useful groups in the evidence and specialist sections, but they point to their particular claims, not every use of hypnosis.",
+     "after": "Chapter 7 of Trauma and Memory, by Peter Levine, 2015, is useful on the difference between compelling experience and historical verification. This US Veterans Administration website contains useful general information about hypnosis, such as the fact that it can be very strong and should be carefully used, and that it may result in false memories. This ASCH website contains information about the usefulness of getting certified in hypnosis, and why it doesn't guarantee competence. Links are available for these and other useful groups in the evidence and specialist sections, but they point to their particular claims rather than validating every use of hypnosis."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "why": "Your published lines: \"Levine’s Trauma and Memory (2015), chapter 7, is useful on the difference between compelling experience and historical verification.\" and \"The existing links in the evidence and specialist sections point to their particular claims rather than validating every use of hypnosis.\" Emulate's \"useful information on this\" doesn't say on what, and \"they point to their particular claims, not every use of hypnosis\" lost what the links do and don't back up.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "advice_note": "Your words for the chapter's topic and for what the links do. (The commas between \"website\" and \"contains\" are already gone.)",
+   "found_by": "The strict Emulate check: a fresh reader comparing this paragraph with your published one (the check's citation list)",
+   "what": "\"contains useful information on this.\" becomes \"is useful on the difference between compelling experience and historical verification.\". \"but they point to their particular claims, not every use of hypnosis.\" becomes \"but they point to their particular claims rather than validating every use of hypnosis.\".",
+   "deciding": "Approve uses the new wording; Reject keeps yours as it is; Revise lets you write your own."
+  }
+ ]
+}

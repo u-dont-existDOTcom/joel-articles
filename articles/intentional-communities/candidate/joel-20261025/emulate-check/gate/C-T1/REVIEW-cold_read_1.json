@@ -1,0 +1,19 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "7a7b4d24c96c941c9447246d783e14ad4f968988411e09b1d0ecff9958594e10",
+  "context_sha256": "4fdfc6a44fef22eea695ee20ec32d14295664ee3eabcc1e8736675233fcf3f3e",
+  "source_sha256": "42060e50f5837683dfb6ef3d8f561f77ffa2a0db71a674681a4eb9f5eead9fec",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "emulate-gate-cold_read_1-subagent-r2d",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session), round 2"
+  },
+  "evidence": "Draft: \"Just because taking part in the ceremonies is optional doesn’t mean people don’t have to work with the other parts.\" It replaces \"Just because it’s optional participating in the ceremonies doesn’t mean they don’t have to work with the other parts.\" SOURCE.txt gives no other line (he kept the old sentence on 2026-10-24), so the old sentence is what I compared against. Does what the_change says: \"it’s optional participating in the ceremonies\" only parses as 'participating is optional', and a reader can mis-take \"Just because it’s optional,\" as a dangling aside; the draft makes it a plain subject and predicate, \"taking part in the ceremonies is optional\", and the sense is unchanged (the ceremonies are optional, the rest isn't). Two word choices go slightly past a pure reorder: \"participating\" became \"taking part\" (same sense, plain word) and \"they\" became \"people\" (needed anyway: with a noun-phrase subject, \"they\" would point at nothing, and in the old sentence it had no clear antecedent either, so this lowers a C02 weakness instead of adding one). Neither adds a claim, name, number or first-person fact. Non-blocking: whatever card shows this should name those two word choices, not only 'grammar'. In context (\"Community can reach new heights ... I’ll go more in detail on this in “The Medicine Part” section below.\") it reads as the same caution, now parseable. \"the ceremonies\", \"optional\" and \"the other parts\" are forward references that the sentence before it flags, and the heading's \"pl/ork\" carries \"work\"; they are his wording and the mend does not change them, so they are not this change's fault. Tells: I went through T01-T29 and C01-C04 and found no row PRESENT. Looked hardest at T15 (the structure changed to mend the parse and neither swap moves toward a rarer word, so not the tell), T16/T17 (\"Just because X doesn’t mean Y\" is his own construction, answers a reader's likely assumption that optional means exempt, and states a specific rule, not an aphorism), T19/T11 (the \"I’ll go more in detail\" pointer belongs to the context, not the draft), T29/T20 (the last sentence adds a new consideration rather than restating), T26 (\"work\" echoes the heading \"pl/ork\" on purpose). Linter finding \"D9 follows the source order\": vacuous for a one-sentence grammar mend (1/1 paragraph, no points reordered); I checked its pointers T13 and T09 and neither is at issue, since the mend changes no organization and no weight. Accepted.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order"
+  ]
+}

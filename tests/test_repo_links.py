@@ -48,6 +48,15 @@ class Paths(unittest.TestCase):
         self.assertIn('[docs/HUMANIZATION-GATE.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/b/docs/'
                       'HUMANIZATION-GATE.md)', fixed)
 
+    def test_fix_links_to_the_branch_it_runs_on(self):
+        # 2026-10-25: a fix in the hypnosis guide lane linked AGENTS.md to the Inner Child lane's branch, the old default
+        import subprocess
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            self.assertEqual(R.current_branch(d), R.BRANCH)          # no git: the old default
+            subprocess.run(['git', 'init', '-q', '-b', 'claude/some-lane', d], check=True)
+            self.assertEqual(R.current_branch(d), 'claude/some-lane')
+
     def test_fix_leaves_a_path_it_cant_find(self):
         text = 'His messages are in `tNNN-answers/`.'
         self.assertEqual(R.fix(text, DOC), text)

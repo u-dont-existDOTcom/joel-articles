@@ -1,0 +1,64 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_ADMITTED_V1",
+  "candidate_sha256": "2369aa33c51bc8e3d16ac93735dfcdffbd306eca7f1677e31c804e307ed9e35b",
+  "context_sha256": "03303dbab39c39c4feda0cf16400188c4ab076a1120a10211fd17bc0735d9007",
+  "source_sha256": "e94fa972beb40fa51652aceb95426f664e39a1e03d196918496e1a9b18924227",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "lint_verdict": "REVIEW",
+  "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+  "lint_stdout_sha256": "5955276b82358d076c38457fc5e249c13afe1b0949efa8a7d77f4d08a8694a58",
+  "lint_findings": [
+    {
+      "label": "D9 follows the source order",
+      "examples": [
+        "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    },
+    {
+      "label": "O27 a rough edge in my text: the paragraph ends with no period (JOEL-FIXES-CATALOGUE: \"Rough edges he leaves: typos, double spaces, missing periods. ... They aren't something for me to imitate.\")",
+      "examples": [
+        "to help me know what I need to know, only in a form and at a time that will be useful"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    }
+  ],
+  "tell_ledger_counts": {
+    "ABSENT": 33,
+    "PRESENT_JUSTIFIED": 0,
+    "UNCERTAIN": 0,
+    "total": 33
+  },
+  "justified_tells": [],
+  "reviews": {
+    "preservation": {
+      "path": "REVIEW-preservation.json",
+      "sha256": "32f5fef6d50f110537f614947d2a8fad4c164d8f392fbaf4f94dbec471e733a5",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (preservation)",
+        "context_id": "emulate-gate-preservation-subagent",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    },
+    "cold_read_1": {
+      "path": "REVIEW-cold_read_1.json",
+      "sha256": "23bf7363eb177db2a0e410963adb2f69fcf959fcfa2243997cc8c3959539d85d",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+        "context_id": "emulate-gate-cold_read_1-subagent-r2a",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session), round 2"
+      }
+    },
+    "cold_read_2": {
+      "path": "REVIEW-cold_read_2.json",
+      "sha256": "66c41c6a4d04db9e2ce6aaea40cba9d55014f5ad14c043b13353371034852ca7",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+        "context_id": "emulate-gate-cold_read_2-subagent",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    }
+  },
+  "manifest_sha256": "7e652728514238a89142c69c840af059e3ba1df8c1d706b40b3e141ac3d9ca39",
+  "verified_at_utc": "2026-10-25T22:09:15.082079+00:00"
+}

@@ -645,7 +645,8 @@ def source_line(review):
     links = review.get('links') or {}
     guide = links.get('guide')
     data = links.get('review')
-    g = '<a href="%s" target="_blank" rel="noopener noreferrer">the guide so far</a>' % esc(guide) if guide else 'the guide so far'
+    label = links.get('guide_label') or 'the guide so far'   # another article says what it is ('the article so far')
+    g = '<a href="%s" target="_blank" rel="noopener noreferrer">%s</a>' % (esc(guide), esc(label)) if guide else esc(label)
     d = '<a href="%s" target="_blank" rel="noopener noreferrer">the list of suggestions</a>' % esc(data) if data else 'the list of suggestions'
     return ('This page is a view of what\'s in Git: %s (version %s) and %s, built %s. Your answers go into Git as well, once '
             'you tell me you\'re done.' % (g, esc(review['article']['sha256'][:8]), d, esc(review.get('built', ''))))

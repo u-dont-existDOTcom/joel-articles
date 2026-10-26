@@ -50,6 +50,9 @@ Review artifacts have the following shape (replace every placeholder with actual
 }
 ```
 
+Give each reviewer two or three drafts, and have it write each report before it opens the next draft's files: a reviewer
+given sixteen read them all first and stalled at its output limit with none written (`docs/HUMANIZATION-GATE.md`, E270).
+
 Do not invent reviewer identities. A claim of fresh context or a separate file does not *create* independence. The program checks unique reviewer context IDs and identical source/draft/context bytes; **it cannot cryptographically prove reviewer provenance or competency**.
 
 ```bash

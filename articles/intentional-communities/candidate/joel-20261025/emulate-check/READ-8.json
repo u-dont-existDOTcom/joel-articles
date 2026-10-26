@@ -1,0 +1,83 @@
+[
+  {
+    "block": 317,
+    "where": "Films, P9",
+    "kind": "lost",
+    "new": "",
+    "his": "My father lived there for 17 years.",
+    "why": "Drops Joel's line that his father lived at the Bruderhof for 17 years.",
+    "severity": "matters"
+  },
+  {
+    "block": 317,
+    "where": "Films, P9",
+    "kind": "added",
+    "new": "Oh, and the Bruderhof has a pretty extensive YouTube channel too.",
+    "his": "The Bruderhof also has an extensive YouTube channel.",
+    "why": "Adds an 'Oh, and' aside and the softener 'pretty' before 'extensive'.",
+    "severity": "small"
+  },
+  {
+    "block": 321,
+    "where": "For Child-Rearing, P1",
+    "kind": "added",
+    "new": "Is it settled anthropology? No, it’s provocative observation.",
+    "his": "Read it as provocative observation rather than settled anthropology.",
+    "why": "Turns the advice to read the book as observation into a flat verdict on the book.",
+    "severity": "small"
+  },
+  {
+    "block": 329,
+    "where": "Governance Manuals, P3",
+    "kind": "added",
+    "new": "has a bunch of exercises",
+    "his": "exercises for cooperation, conflict, and group culture",
+    "why": "Adds 'a bunch of', a vague amount that HIS doesn't give.",
+    "severity": "small"
+  },
+  {
+    "block": 332,
+    "where": "What Helps Communities Last—and Whether Longevity Is Enough, P2",
+    "kind": "added",
+    "new": "a paper by Rubin, Willis and Ludwig",
+    "his": "Rubin, Willis, and Ludwig, “Measuring Success in Intentional Communities”",
+    "why": "Calls the work 'a paper'; HIS gives only the authors and title.",
+    "severity": "small"
+  },
+  {
+    "block": 333,
+    "where": "What Helps Communities Last—and Whether Longevity Is Enough, P3",
+    "kind": "added",
+    "new": "compares a bunch of nineteenth-century communes",
+    "his": "a classic comparison of nineteenth-century communes",
+    "why": "Adds 'a bunch of', a vague amount that HIS doesn't give.",
+    "severity": "small"
+  },
+  {
+    "block": 337,
+    "where": "For the Zapatistas, P1",
+    "kind": "lost",
+    "new": "is about how the Zapatista movement came about",
+    "his": "practice-before-theory, autonomous institutions, and the original Good Government Boards",
+    "why": "Keeps only how the movement began and drops the book's other topics: practice-before-theory, autonomous institutions and the original Good Government Boards.",
+    "severity": "matters"
+  },
+  {
+    "block": 340,
+    "where": "Research Behind This Article, P1",
+    "kind": "added",
+    "new": "It’s all in the public research report: the evidence base and its limits, the counterexamples, what I still couldn’t verify, etc.",
+    "his": "The public research report shows the evidence base, limits, counterexamples, and what I still could not verify.",
+    "why": "Says it is 'all' in the report and ends the list with 'etc.', implying more contents than the four things HIS lists.",
+    "severity": "small"
+  },
+  {
+    "block": 340,
+    "where": "Research Behind This Article, P1",
+    "kind": "added",
+    "new": "Can you imagine? 😂",
+    "his": "",
+    "why": "Adds a joking aside with an emoji that HIS doesn't have.",
+    "severity": "small"
+  }
+]

@@ -1,0 +1,245 @@
+[
+ {
+  "block": 279,
+  "where": "How My Own Model Could Become a Cult, P3",
+  "kind": "added",
+  "new": "But some practices go too far against the communal spirit. If someone starts worshipping Satan, say, they get booted.",
+  "his": "",
+  "why": "Adds a claim that some practices go too far, plus an invented example of expelling someone for worshipping Satan.",
+  "severity": "matters"
+ },
+ {
+  "block": 279,
+  "where": "How My Own Model Could Become a Cult, P3",
+  "kind": "lost",
+  "new": "",
+  "his": "A group begins by inviting honesty and ends by treating privacy as resistance.",
+  "why": "Drops the sentence that a group starting by inviting honesty ends up treating privacy as resistance.",
+  "severity": "matters"
+ },
+ {
+  "block": 281,
+  "where": "How My Own Model Could Become a Cult, P5",
+  "kind": "lost",
+  "new": "",
+  "his": "No single person or permanent group of people should handle grievances and have the power to decide who gets into or stays in the community.",
+  "why": "Drops the rule that no single person or permanent group should handle grievances and decide who stays.",
+  "severity": "matters"
+ },
+ {
+  "block": 281,
+  "where": "How My Own Model Could Become a Cult, P5",
+  "kind": "lost",
+  "new": "",
+  "his": "Each person should have a usable avenue for exit.",
+  "why": "Drops the line that every person needs a usable way to leave.",
+  "severity": "small"
+ },
+ {
+  "block": 281,
+  "where": "How My Own Model Could Become a Cult, P5",
+  "kind": "lost",
+  "new": "",
+  "his": "That doesn't mean everything everyone says is equally valid, though.",
+  "why": "Drops the qualification that not everything said in dissent is equally valid.",
+  "severity": "small"
+ },
+ {
+  "block": 282,
+  "where": "How My Own Model Could Become a Cult, P6",
+  "kind": "lost",
+  "new": "",
+  "his": "There is also a floor the majority cannot vote away: bodily safety, enough food and sleep, independent medical care, private thought, contact with people outside the community, a way to report harm without asking the accused person’s friends for permission, and a usable way to leave. A majority vote does not make deprivation consensual.",
+  "why": "Drops his published list of protected rights (food, sleep, medical care, private thought, reporting harm, leaving) and the majority-vote line.",
+  "severity": "matters"
+ },
+ {
+  "block": 283,
+  "where": "How My Own Model Could Become a Cult, P7",
+  "kind": "added",
+  "new": "Let’s say a grandmother is demonizing the commune. Cutting off contact with her could make things way worse.",
+  "his": "",
+  "why": "Invented grandmother example, with a claim that cutting off contact would make things worse.",
+  "severity": "matters"
+ },
+ {
+  "block": 283,
+  "where": "How My Own Model Could Become a Cult, P7",
+  "kind": "added",
+  "new": "When it’s tricky and dangerous for everyone like that, I think the commune needs to step in and help people decide how to communicate with outsiders.",
+  "his": "",
+  "why": "Adds an instruction, with no source here, that the commune steps in on how members communicate with outsiders.",
+  "severity": "matters"
+ },
+ {
+  "block": 285,
+  "where": "From One Community to a Movement, P1",
+  "kind": "added",
+  "new": "It should be solved in a way that allows help between communities and the movement of people and knowledge, and also keeps the differences alive, so communities can keep learning from one another.",
+  "his": "",
+  "why": "States design requirements for how communities connect that have no source here.",
+  "severity": "small"
+ },
+ {
+  "block": 286,
+  "where": "From One Community to a Movement, P2",
+  "kind": "lost",
+  "new": "",
+  "his": "Where the surrounding legal or economic system requires money, the federation also needs an external cash budget.",
+  "why": "Drops the condition that where money is required, a federation needs an external cash budget.",
+  "severity": "matters"
+ },
+ {
+  "block": 286,
+  "where": "From One Community to a Movement, P2",
+  "kind": "lost",
+  "new": "",
+  "his": "Bilateral friendships, local clusters, and function-specific institutions can coexist with a general federation.",
+  "why": "Drops bilateral friendships and the point that these arrangements can coexist with a general federation.",
+  "severity": "small"
+ },
+ {
+  "block": 287,
+  "where": "From One Community to a Movement, P3",
+  "kind": "lost",
+  "new": "",
+  "his": "People need a similarly practical freedom between communities. If someone can theoretically move but housing, status, health coverage, records, labor accounting, travel costs, taxes, and transition disputes fall into cracks, the freedom is decorative.",
+  "why": "Drops the point that freedom to move between communities is empty if housing, health coverage, records, taxes and the like fall into cracks.",
+  "severity": "matters"
+ },
+ {
+  "block": 287,
+  "where": "From One Community to a Movement, P3",
+  "kind": "added",
+  "new": "Fortunately, the interface between communities can often be thin",
+  "his": "Often the answer is not harmonizing every internal system; it’s a thin interface",
+  "why": "Adds a relieved aside and turns 'often the answer is a thin interface' into 'the interface can often be thin'.",
+  "severity": "small"
+ },
+ {
+  "block": 288,
+  "where": "From One Community to a Movement, P4",
+  "kind": "lost",
+  "new": "",
+  "his": "A gift of food, pooled medicine, a loan of a vehicle or tool, reciprocal labor, emergency housing, a shared building project, and a visit meant mainly for training or relationship-building are different events.",
+  "why": "Drops his concrete examples of the different kinds of exchange.",
+  "severity": "small"
+ },
+ {
+  "block": 288,
+  "where": "From One Community to a Movement, P4",
+  "kind": "lost",
+  "new": "",
+  "his": "If cash is used at the outside interface, grants, loans, guarantees, and shared-enterprise commitments need the same separation.",
+  "why": "Drops the condition that when cash is used outside, grants, loans, guarantees and shared-enterprise commitments must also be kept separate.",
+  "severity": "matters"
+ },
+ {
+  "block": 288,
+  "where": "From One Community to a Movement, P4",
+  "kind": "error",
+  "new": "“even”",
+  "his": "parity",
+  "why": "Odd quote marks around 'even'; his word has none.",
+  "severity": "small"
+ },
+ {
+  "block": 289,
+  "where": "From One Community to a Movement, P5",
+  "kind": "added",
+  "new": "(with private details protected)",
+  "his": "",
+  "why": "Adds a privacy safeguard that his text does not state.",
+  "severity": "small"
+ },
+ {
+  "block": 289,
+  "where": "From One Community to a Movement, P5",
+  "kind": "lost",
+  "new": "",
+  "his": "the exact rule version",
+  "why": "Drops the exact rule version from the list of what to keep with each case.",
+  "severity": "small"
+ },
+ {
+  "block": 291,
+  "where": "Experiment Before You Split Off, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "Full fission should be one step on a gradient, not the admission price for experimentation.",
+  "why": "Drops the closing point that full fission is one step on a gradient, not the price of entry for experimenting.",
+  "severity": "small"
+ },
+ {
+  "block": 295,
+  "where": "Leaving Voluntarily, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "A money-free community still has scarce things and bottlenecks. Members should be able to know what the community owns or holds in common, what is reserved, what obligations exist outside the community, who can allocate major resources, and where conflicts of interest lie. Large transfers of land, equipment, stores, or outside cash should not depend on one person’s memory or permission.",
+  "why": "Drops the transparency requirements: members knowing what is owned, reserved and owed outside, who allocates, and that large transfers do not rest on one person.",
+  "severity": "matters"
+ },
+ {
+  "block": 295,
+  "where": "Leaving Voluntarily, P1",
+  "kind": "lost",
+  "new": "",
+  "his": "If leaving means forfeiting everything contributed, staying becomes coercive.",
+  "why": "Drops the claim that forfeiting everything on leaving makes staying coercive.",
+  "severity": "small"
+ },
+ {
+  "block": 295,
+  "where": "Leaving Voluntarily, P1",
+  "kind": "error",
+  "new": "“right”",
+  "his": "paper right",
+  "why": "Odd quote marks around 'right'; his has none.",
+  "severity": "small"
+ },
+ {
+  "block": 295,
+  "where": "Leaving Voluntarily, P1",
+  "kind": "error",
+  "new": "reasons -- dying parent",
+  "his": "reasons: a dying parent",
+  "why": "A spaced double hyphen replaces his colon (the same dash is used twice more in this paragraph).",
+  "severity": "small"
+ },
+ {
+  "block": 298,
+  "where": "When Somebody Has to Go, P2",
+  "kind": "lost",
+  "new": "",
+  "his": "who is recused",
+  "why": "Drops the step of deciding who must step aside because of a conflict of interest.",
+  "severity": "matters"
+ },
+ {
+  "block": 298,
+  "where": "When Somebody Has to Go, P2",
+  "kind": "lost",
+  "new": "",
+  "his": "what review or appeal is possible without endangering others",
+  "why": "Drops the question of what review or appeal the person gets.",
+  "severity": "matters"
+ },
+ {
+  "block": 299,
+  "where": "When Somebody Has to Go, P3",
+  "kind": "lost",
+  "new": "",
+  "his": "The Zapatistas are an important correction here: autonomous institutions can review local power without becoming the state.",
+  "why": "Drops the Zapatistas example showing autonomous institutions can review local power without becoming the state.",
+  "severity": "matters"
+ },
+ {
+  "block": 299,
+  "where": "When Somebody Has to Go, P3",
+  "kind": "lost",
+  "new": "",
+  "his": "But autonomy is not permission to erase non-waivable individual rights, and it does not make outside jurisdiction disappear.",
+  "why": "Drops the limit that autonomy does not erase non-waivable individual rights or outside jurisdiction.",
+  "severity": "matters"
+ }
+]

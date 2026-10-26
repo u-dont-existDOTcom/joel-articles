@@ -1,0 +1,19 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "1ddfa3e24996ac65bf10e76236a70478d6bdcc729dc3cb4f3888f847fcebb182",
+  "context_sha256": "7e90b522ca9d25462e5403b1faa50ed0c0123c72a3e14e8dad1c5d7e392e42d0",
+  "source_sha256": "0bab558a4d01ebd6fa8e656d8fb13e55784e933a201cf4f2f5ea310eaea832a7",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+    "context_id": "emulate-gate-cold_read_2-subagent",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-25 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Draft judged: 'I do not tell people to override their fear before asking what it's protecting.' Read the whole CONTEXT: it is the second item in the article's own list ('Here is a list of things I do not do with NLP'), in the same register as its neighbours, so no seam. Against his line ('To override fear before asking what the fear protects'): the condition is back, and the item no longer bans overriding fear outright. 'tell people to' is carried over from the replaced sentence, not added here; it makes this item about advising others although the list header says 'to myself or to others', which the writer may want to know, but it does not change what this edit restores. The first-person commitment is the list's own and his (C03 ABSENT). Tell rows checked: T01, T02 (a formatted list he introduced as a list; a list alone is not the tell), T10, T17, T22; all ABSENT. Minor typography, not a blocker: the draft uses a curly apostrophe ('it's') while neighbouring items use straight ones ('people's', 'isn't'). Linter: D9 accepted (one sentence). No row is PRESENT.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order"
+  ]
+}

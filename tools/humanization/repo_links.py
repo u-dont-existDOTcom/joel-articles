@@ -14,11 +14,14 @@ slash), or a bare word that ends in one of those extensions. Paths inside a link
 code block, an HTML comment, a quote, or a `code` span with spaces (a command) are left alone, and so are web addresses.
 
 check prints each path and exits 1 if there are any. fix turns each path it can find into a link to the file on GitHub
-(the lane branch unless --branch names another), resolved against the document's folder, then the repository root, then
-the article folder the document is in (articles/<id>/); a path it can't find stays, and check still reports it.
+(the branch checked out where it runs, unless --branch names another; BRANCH below only when none is, as in a detached
+checkout), resolved against the document's folder, then the repository root, then the article folder the document is in
+(articles/<id>/); a path it can't find stays, and check still reports it. The default was BRANCH, the Inner Child lane's,
+until 2026-10-25, when a fix in the hypnosis guide lane linked AGENTS.md to that lane's branch instead of its own.
 """
 import pathlib
 import re
+import subprocess
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
@@ -88,11 +91,20 @@ def fix(text, doc, branch=BRANCH):
     return ''.join(out) + text[last:]
 
 
+def current_branch(where=ROOT):
+    """The branch checked out at `where`, or BRANCH when there is none (a detached checkout, or no git)."""
+    try:
+        out = subprocess.run(['git', '-C', str(where), 'branch', '--show-current'], capture_output=True, text=True, timeout=20)
+    except (OSError, subprocess.SubprocessError):
+        return BRANCH
+    return out.stdout.strip() or BRANCH
+
+
 def main(argv):
     if len(argv) < 2 or argv[0] not in ('check', 'fix'):
         print(__doc__)
         return 2
-    branch = BRANCH
+    branch = current_branch()
     if '--branch' in argv:
         k = argv.index('--branch')
         branch = argv[k + 1]

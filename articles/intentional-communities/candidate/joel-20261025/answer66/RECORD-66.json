@@ -1,0 +1,82 @@
+[
+ {
+  "card": "IC-Q1",
+  "title": "Quote marks Emulate put around three words",
+  "answer": "rejected",
+  "comment": "",
+  "done": "stays as it is (rejected)"
+ },
+ {
+  "card": "IC-E1",
+  "title": "Your \"don't freeze into doctrine\"",
+  "answer": "approved",
+  "comment": "",
+  "done": "in",
+  "changes": [
+   {
+    "old": "Whatever answers we find stay fluid and organic.",
+    "new": "Whatever answers we find stay fluid and organic, and don’t freeze into doctrine.",
+    "paragraph_after": "The motto would be: “Nothing suppressed, everything processed.” Each of us guides our own compatible practice, and our practices weave the community into the quilt that keeps us all warm and safe. Whatever answers we find stay fluid and organic, and don’t freeze into doctrine.",
+    "markup_moved": []
+   }
+  ]
+ },
+ {
+  "card": "IC-E2",
+  "title": "A practice group already is community",
+  "answer": "approved",
+  "comment": "",
+  "done": "in",
+  "changes": [
+   {
+    "old": "So what? It can still make a difference",
+    "new": "So what? It’s already a real piece of community, and it can still make a difference",
+    "paragraph_after": "People sometimes buy forty acres and then bring all their unprocessed stuff with them to a more scenic location. It’s a more beautiful view for sure, but now you have the conflict PLUS goats. A group that practices together weekly for two years may never own land. So what? It’s already a real piece of community, and it can still make a difference when people are going through a divorce, an illness or grief. Parenting too, and plain old loneliness.",
+    "markup_moved": []
+   }
+  ]
+ },
+ {
+  "card": "IC-E3",
+  "title": "Who steps aside, and the appeal",
+  "answer": "approved",
+  "comment": "",
+  "done": "in",
+  "changes": [
+   {
+    "old": "What counts as cause for immediate protective action?",
+    "new": "What counts as cause for immediate protective action? Who has to step aside because they’re too close to it?",
+    "paragraph_after": "This power to remove people is so easily abused, though. So work out the process before it’s about anyone in particular. What counts as cause for immediate protective action? Who has to step aside because they’re too close to it? Who decides to put temporary restrictions on someone? Who will make sure all the evidence is preserved? How will the person be able to reply to the concerns? What protections will there be for the person’s interests (housing, records, family contact, access to common resources, outside funds if any) during the separation? When is it time to bring in outside help?",
+    "markup_moved": []
+   },
+   {
+    "old": "How will the person be able to reply to the concerns?",
+    "new": "How will the person be able to reply to the concerns? What review or appeal is possible without endangering others?",
+    "paragraph_after": "This power to remove people is so easily abused, though. So work out the process before it’s about anyone in particular. What counts as cause for immediate protective action? Who has to step aside because they’re too close to it? Who decides to put temporary restrictions on someone? Who will make sure all the evidence is preserved? How will the person be able to reply to the concerns? What review or appeal is possible without endangering others? What protections will there be for the person’s interests (housing, records, family contact, access to common resources, outside funds if any) during the separation? When is it time to bring in outside help?",
+    "markup_moved": []
+   }
+  ]
+ },
+ {
+  "card": "IC-E4",
+  "title": "Autonomy doesn't erase rights",
+  "answer": "rejected",
+  "comment": "",
+  "done": "stays as it is (rejected)"
+ },
+ {
+  "card": "IC-T1",
+  "title": "A sentence that doesn't parse",
+  "answer": "approved",
+  "comment": "",
+  "done": "in",
+  "changes": [
+   {
+    "old": "Just because it’s optional participating in the ceremonies doesn’t mean they don’t have to work with the other parts.",
+    "new": "Just because taking part in the ceremonies is optional doesn’t mean people don’t have to work with the other parts.",
+    "paragraph_after": "Community can reach new heights by carefully incorporating serious plant medicines with peer guidance rather than exalting any one person as a special shaman. I’ll go more in detail on this in “The Medicine Part” section below. Just because taking part in the ceremonies is optional doesn’t mean people don’t have to work with the other parts.",
+    "markup_moved": []
+   }
+  ]
+ }
+]
