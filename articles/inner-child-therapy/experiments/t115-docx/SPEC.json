@@ -211,7 +211,20 @@
    "type": "p",
    "runs": [
     {
-     "t": "Reparenting isn’t an exercise you finish, after all. Say your boss asks you to stay late again. You tell them no and go home feeling okay about it, and "
+     "t": "Reparenting isn’t an exercise you finish, after al"
+    },
+    {
+     "t": "l. Say your boss asks you to stay late agai",
+     "shade": "BDD7EE",
+     "cstart": [
+      3
+     ],
+     "cend": [
+      3
+     ]
+    },
+    {
+     "t": "n. You tell them no and go home feeling okay about it, and "
     },
     {
      "t": "nobody had to cry on a meditation cushion for that to "
@@ -424,10 +437,10 @@
      "t": "Your Protector has to catch the moment compassion starts explaining away what you’ve already seen.",
      "shade": "E2ECF7",
      "cstart": [
-      3
+      4
      ],
      "cend": [
-      3
+      4
      ]
     },
     {
@@ -458,10 +471,10 @@
      "t": "Borrow adulthood. Do not surrender it.",
      "shade": "BDD7EE",
      "cstart": [
-      4
+      5
      ],
      "cend": [
-      4
+      5
      ]
     }
    ]
@@ -649,10 +662,10 @@
      "t": "A real parent doesn’t get to do that, which is one reason nobody manages to be a perfect one.",
      "shade": "E2ECF7",
      "cstart": [
-      5
+      6
      ],
      "cend": [
-      5
+      6
      ]
     }
    ]
@@ -776,10 +789,10 @@
      "t": "How would they sit beside your little one?",
      "shade": "BDD7EE",
      "cstart": [
-      6
+      7
      ],
      "cend": [
-      6
+      7
      ]
     },
     {
@@ -803,10 +816,10 @@
      "t": "Ask what a minimally competent adult would do here.",
      "shade": "E2ECF7",
      "cstart": [
-      7
+      8
      ],
      "cend": [
-      7
+      8
      ]
     },
     {
@@ -853,10 +866,10 @@
      "t": "doesn’t close the door, though, it ",
      "del": true,
      "cstart": [
-      8
+      9
      ],
      "cend": [
-      8
+      9
      ]
     },
     {
@@ -946,13 +959,20 @@
    "type": "p",
    "runs": [
     {
-     "t": "My father often suggested folks remember a similar-level (or even harder) challenge that they were able to handle. Maybe you survived a car crash and surgery a few years ago, but now you’re having trouble with emotional eating. You can draw strength from the past. As my sister, a historian, likes to say, “The past didn’t go anywhere.” Your own challenge doesn’t need to be as dramatic as a car crash, as long as it really happened. So who or what helped you get through it? Is one piece of that still within reach? If you catch yourself thinking “I survived a car crash, so why can’t I stop eating when I’m upset?”, that’s the past turned into a stick to hit yourself with. Maybe you’re more worn out now, or missing whatever helped back then. "
+     "t": "My father often suggested folks remember a similar-level (or even harder) challenge that they were able to handle. Maybe you survived a car crash and surgery a few years ago, but now you’re having trouble with emotional eating. You can draw strength from the past. As my sister, a historian, likes to say, “The past didn’t go anywhere.” Your own challenge doesn’t need to be as dramatic as a car crash, as long as it really happened. So who or what helped you get through it? Is one piece of that still within reach? If you catch yourself thinking “I survived a car crash, so why can’t I stop eating when I’m upset?”, that’s the past turned into a stick to hit yourself with. Maybe you’re more worn out now, or missing whatever helped back then."
+    },
+    {
+     "t": " ",
+     "shade": "BDD7EE",
+     "cstart": [
+      11
+     ]
     },
     {
      "t": "(No example? ",
      "del": true,
      "cstart": [
-      9
+      10
      ]
     },
     {
@@ -962,8 +982,10 @@
     {
      "t": "(If no example comes to mind, try another doorway.)",
      "ins": true,
+     "shade": "BDD7EE",
      "cend": [
-      9
+      11,
+      10
      ]
     }
    ]
@@ -987,7 +1009,7 @@
      "t": "If that’s what you find, it deserves an honest hearing. ",
      "del": true,
      "cstart": [
-      10
+      12
      ]
     },
     {
@@ -998,7 +1020,7 @@
      "t": "If that’s what you find, just ",
      "ins": true,
      "cend": [
-      10
+      12
      ]
     },
     {
@@ -1013,7 +1035,17 @@
    "type": "p",
    "runs": [
     {
-     "t": "What was it? It might have been hope, or desperation. Maybe you were curious, or scared. Some people come here out of duty. Or it was more like, “I’m not going to keep suffering like this.” "
+     "t": "What was it?",
+     "shade": "E4E4E4",
+     "cstart": [
+      14
+     ],
+     "cend": [
+      14
+     ]
+    },
+    {
+     "t": " It might have been hope, or desperation. Maybe you were curious, or scared. Some people come here out of duty. Or it was more like, “I’m not going to keep suffering like this.” "
     },
     {
      "t": "And maybe it was love. "
@@ -1022,10 +1054,10 @@
      "t": "You don’t need to decide which. ",
      "del": true,
      "cstart": [
-      11
+      13
      ],
      "cend": [
-      11
+      13
      ]
     },
     {
@@ -1066,10 +1098,10 @@
      "t": "And if nothing moves at all, don’t push it. ",
      "del": true,
      "cstart": [
-      12
+      15
      ],
      "cend": [
-      12
+      15
      ]
     },
     {
@@ -1098,7 +1130,7 @@
      "t": "hand ",
      "del": true,
      "cstart": [
-      13
+      16
      ]
     },
     {
@@ -1144,7 +1176,7 @@
      "t": "That’s how you learn as a kid, and it works now, too. ",
      "del": true,
      "cend": [
-      13
+      16
      ]
     },
     {
@@ -1174,10 +1206,10 @@
      "t": "Or picture the two of you washing the dishes together, nobody asking anybody how they feel.",
      "shade": "E2ECF7",
      "cstart": [
-      14
+      17
      ],
      "cend": [
-      14
+      17
      ]
     }
    ]
@@ -1341,10 +1373,10 @@
      "t": "Kids quit piano over one bad teacher, and this is way worse.",
      "shade": "E2ECF7",
      "cstart": [
-      15
+      18
      ],
      "cend": [
-      15
+      18
      ]
     },
     {
@@ -1506,10 +1538,10 @@
      "t": "Does the love stay afterward and take whatever’s true in the anger seriously?",
      "shade": "BDD7EE",
      "cstart": [
-      16
+      19
      ],
      "cend": [
-      16
+      19
      ]
     }
    ]
@@ -1524,10 +1556,10 @@
      "t": "Tell me what feels unsafe.”",
      "shade": "E2ECF7",
      "cstart": [
-      17
+      20
      ],
      "cend": [
-      17
+      20
      ]
     }
    ]
@@ -1536,30 +1568,52 @@
    "type": "p",
    "runs": [
     {
-     "t": "Your little one might say it’s you. You don’t have to accept every conclusion they reach about you, but do listen for the concrete complaint "
+     "t": "Your little one might say it’s you."
     },
     {
-     "t": "without fighting the yelling and swearing around it. "
+     "t": " ",
+     "shade": "BDD7EE",
+     "cstart": [
+      22
+     ]
+    },
+    {
+     "t": "You don’t have to accept every conclusion they reach about you, but do listen ",
+     "del": true,
+     "cstart": [
+      21
+     ]
+    },
+    {
+     "t": "Listen ",
+     "ins": true,
+     "shade": "BDD7EE"
+    },
+    {
+     "t": "for the concrete complaint without fighting the yelling and swearing around it. ",
+     "shade": "BDD7EE"
     },
     {
      "t": "If it’s something serious, answer it seriously. ",
-     "del": true,
-     "cstart": [
-      18
-     ]
+     "del": true
     },
     {
      "t": "The complaint might only be one sentence, once the swearing runs out. ",
      "del": true,
      "cend": [
-      18
+      21
      ]
     },
     {
-     "t": "Like the anger"
+     "t": "Like the anger",
+     "shade": "BDD7EE"
     },
     {
-     "t": " at bedtime, the swearing is there to get them heard, so once you’re listening instead of fighting, they don’t need it anymore."
+     "t": " at bedtime, the swearing is there to get them heard, so once you’re listening instead of fighting, they don’t need it anymore.",
+     "shade": "BDD7EE",
+     "cend": [
+      22
+     ]
     }
    ]
   },
@@ -1582,7 +1636,17 @@
    "type": "p",
    "runs": [
     {
-     "t": "Also notice what else in you answers your little one, besides what you choose to say. When they say “I don’t believe you,” something in you might fire back an accusation, and then they can learn your love is only there as long as they take it the right way. The resentment can be purely visceral: being doubted after you’ve tried feels unfair, but there’s nothing unfair in them going over your track record. The part that resents not being believed might be the same one that said “I love you” in the first place, or a different one, or a bit of both. Both talk in your grown-up voice, so to your little one they’re the same. Be careful not to take the accusation as proof your love really is conditional, when it could just be another part talking."
+     "t": "Also notice what else in you answers your little one, besides what you choose to say. When they say “I don’t believe you,” something in you might fire back an accusation, and then they can learn your love is only there as long as they take it the right way. The resentment can be purely visceral: being doubted after you’ve tried feels unfair, but there’s nothing unfair in them going over your track record. The part that resents not being believed might be the same one that said “I love you” in the first place, or a different one, or a bit of both. Both talk in your grown-up voice, so to your little one they’re the same. "
+    },
+    {
+     "t": "Be careful not to take the accusation as proof your love really is conditional, when it could just be another part talking.",
+     "shade": "F4A6A6",
+     "cstart": [
+      23
+     ],
+     "cend": [
+      23
+     ]
     }
    ]
   },
@@ -1784,10 +1848,10 @@
      "t": "Going back can still matter, even when nothing new turns up.",
      "shade": "BDD7EE",
      "cstart": [
-      19
+      24
      ],
      "cend": [
-      19
+      24
      ]
     },
     {
@@ -1802,10 +1866,10 @@
      "t": "And the checking doesn’t always stay in your head.",
      "shade": "BDD7EE",
      "cstart": [
-      20
+      25
      ],
      "cend": [
-      20
+      25
      ]
     },
     {
@@ -1993,10 +2057,10 @@
      "t": "And what if all that writing leaves you more confused than when you started?",
      "shade": "E2ECF7",
      "cstart": [
-      21
+      26
      ],
      "cend": [
-      21
+      26
      ]
     },
     {
@@ -2006,10 +2070,10 @@
      "t": "A memory aid doesn’t have to explain your life.",
      "shade": "E2ECF7",
      "cstart": [
-      22
+      27
      ],
      "cend": [
-      22
+      27
      ]
     },
     {
@@ -2066,10 +2130,10 @@
      "t": "Does saying it make the memory fiction?",
      "shade": "E2ECF7",
      "cstart": [
-      23
+      28
      ],
      "cend": [
-      23
+      28
      ]
     },
     {
@@ -2084,10 +2148,10 @@
      "t": "Do keep an ear on who’s narrating, though.",
      "shade": "BDD7EE",
      "cstart": [
-      24
+      29
      ],
      "cend": [
-      24
+      29
      ]
     },
     {
@@ -2097,10 +2161,10 @@
      "t": "What do they need from you now?",
      "shade": "E2ECF7",
      "cstart": [
-      25
+      30
      ],
      "cend": [
-      25
+      30
      ]
     }
    ]
@@ -2148,10 +2212,10 @@
      "t": "Doom scrolling TikTok nonsense?",
      "shade": "E2ECF7",
      "cstart": [
-      26
+      31
      ],
      "cend": [
-      26
+      31
      ]
     },
     {
@@ -2568,10 +2632,10 @@
      "t": "It can be right!",
      "shade": "E2ECF7",
      "cstart": [
-      27
+      32
      ],
      "cend": [
-      27
+      32
      ]
     },
     {
@@ -2673,10 +2737,10 @@
      "t": "That one can sting, because there could be something to it. Maybe you’ve fooled yourself before, and that part remembers.",
      "shade": "E2ECF7",
      "cstart": [
-      28
+      33
      ],
      "cend": [
-      28
+      33
      ]
     },
     {
@@ -2686,10 +2750,10 @@
      "t": "Peek-a-boo! If you push past it, you might get exactly the performance it was afraid of.",
      "shade": "E2ECF7",
      "cstart": [
-      29
+      34
      ],
      "cend": [
-      29
+      34
      ]
     },
     {
@@ -2704,10 +2768,10 @@
      "t": "A harder voice can seem more fitting for something that’s been in your way. I’d still keep the Nurturer voice.",
      "shade": "E2ECF7",
      "cstart": [
-      30
+      35
      ],
      "cend": [
-      30
+      35
      ]
     },
     {
@@ -2734,10 +2798,10 @@
      "t": "The rent just has to keep showing up. Your Protector earns that guard’s trust about the same way, mostly out in ordinary life. The things you do can be small, like keeping a promise to yourself nobody else knew about. Or saying no to someone, and not texting an hour later to take it back.",
      "shade": "BDD7EE",
      "cstart": [
-      31
+      36
      ],
      "cend": [
-      31
+      36
      ]
     },
     {
@@ -3410,7 +3474,7 @@
      "t": "or ",
      "del": true,
      "cstart": [
-      32
+      37
      ]
     },
     {
@@ -3425,8 +3489,16 @@
      "del": true
     },
     {
-     "t": "intoxicated, or can’t tell whether any of this is you. ",
+     "t": "intoxicated, or can’t tell whether any of this is you.",
      "ins": true
+    },
+    {
+     "t": " ",
+     "ins": true,
+     "shade": "BDD7EE",
+     "cstart": [
+      38
+     ]
     },
     {
      "t": "Can’t tell if that’s you? ",
@@ -3446,20 +3518,27 @@
     },
     {
      "t": "Getting safe first ",
-     "ins": true
+     "ins": true,
+     "shade": "BDD7EE"
     },
     {
-     "t": "keeps the question "
+     "t": "keeps the question ",
+     "shade": "BDD7EE"
     },
     {
      "t": "of whether life is worth living ",
      "ins": true,
+     "shade": "BDD7EE",
      "cend": [
-      32
+      37
      ]
     },
     {
-     "t": "open long enough to look at."
+     "t": "open long enough to look at.",
+     "shade": "BDD7EE",
+     "cend": [
+      38
+     ]
     }
    ]
   },
@@ -3473,10 +3552,10 @@
      "t": "Any part of you that can help keep your body safe, or would rather wait on a decision you can’t undo, is welcome. And if none of them shows up yet? No problem, the questions can wait.",
      "shade": "FFD966",
      "cstart": [
-      33
+      39
      ],
      "cend": [
-      33
+      39
      ]
     }
    ]
@@ -3547,10 +3626,10 @@
      "t": "Leaving a relationship? Quitting a job?",
      "shade": "E2ECF7",
      "cstart": [
-      34
+      40
      ],
      "cend": [
-      34
+      40
      ]
     },
     {
@@ -3651,10 +3730,10 @@
      "t": "You might catch yourself explaining who everybody is anyway.",
      "shade": "BDD7EE",
      "cstart": [
-      35
+      41
      ],
      "cend": [
-      35
+      41
      ]
     },
     {
@@ -3681,10 +3760,10 @@
      "t": "Most groups expect some conformity.",
      "shade": "BDD7EE",
      "cstart": [
-      36
+      42
      ],
      "cend": [
-      36
+      42
      ]
     },
     {
@@ -3694,10 +3773,10 @@
      "t": "But if going along means betraying yourself, that’s the bargain.",
      "shade": "E2ECF7",
      "cstart": [
-      37
+      43
      ],
      "cend": [
-      37
+      43
      ]
     },
     {
@@ -3832,10 +3911,10 @@
      "t": "The question is whether losing one of them would feel like losing yourself.",
      "shade": "BDD7EE",
      "cstart": [
-      38
+      44
      ],
      "cend": [
-      38
+      44
      ]
     }
    ]
@@ -3859,10 +3938,10 @@
      "t": "You’d still belong, just selectively.",
      "shade": "BDD7EE",
      "cstart": [
-      39
+      45
      ],
      "cend": [
-      39
+      45
      ]
     },
     {
@@ -3944,10 +4023,10 @@
      "t": "Notice what holds your attention when nobody is impressed.",
      "shade": "E2ECF7",
      "cstart": [
-      40
+      46
      ],
      "cend": [
-      40
+      46
      ]
     }
    ]
@@ -4036,10 +4115,10 @@
      "t": "Wanting them close is fine!",
      "shade": "E2ECF7",
      "cstart": [
-      41
+      47
      ],
      "cend": [
-      41
+      47
      ]
     },
     {
@@ -4074,10 +4153,10 @@
      "t": "The Guide isn’t there to police every thought.",
      "shade": "E2ECF7",
      "cstart": [
-      42
+      48
      ],
      "cend": [
-      42
+      48
      ]
     },
     {
@@ -4292,10 +4371,10 @@
      "t": "The same goes for doctors.",
      "shade": "BDD7EE",
      "cstart": [
-      43
+      49
      ],
      "cend": [
-      43
+      49
      ]
     },
     {
@@ -4319,23 +4398,23 @@
      "t": "And reaching out doesn’t mean ",
      "shade": "BDD7EE",
      "cstart": [
-      44
+      50
      ]
     },
     {
      "t": "telling strangers everything. Privacy isn’t fakery.",
      "shade": "BDD7EE",
      "cend": [
-      44
+      50
      ],
      "cstart": [
-      46
+      52
      ]
     },
     {
      "t": " People can earn",
      "cend": [
-      46
+      52
      ]
     },
     {
@@ -4345,10 +4424,10 @@
      "t": "(If telling could put you in real danger, like violence, or being outed where that isn’t safe, protect yourself first.) And when someone finally accepts you, it can feel amazing.",
      "shade": "BDD7EE",
      "cstart": [
-      45
+      51
      ],
      "cend": [
-      45
+      51
      ]
     },
     {
@@ -4375,10 +4454,10 @@
      "t": "Maybe it’s an urge that scares you, or something you did that could get you in legal trouble.",
      "shade": "BDD7EE",
      "cstart": [
-      47
+      53
      ],
      "cend": [
-      47
+      53
      ]
     },
     {
@@ -4393,10 +4472,10 @@
      "t": "You know that DM you deleted?",
      "shade": "E2ECF7",
      "cstart": [
-      48
+      54
      ],
      "cend": [
-      48
+      54
      ]
     },
     {
@@ -4552,10 +4631,10 @@
      "t": "Then notice what happens next.",
      "shade": "BDD7EE",
      "cstart": [
-      49
+      55
      ],
      "cend": [
-      49
+      55
      ]
     },
     {
@@ -4651,14 +4730,14 @@
      "t": "What felt scared when I wrote it can read like a threat from over there.",
      "del": true,
      "cstart": [
-      50
+      56
      ]
     },
     {
      "t": "Stuff I wrote while I was scared can sound like a threat to them.",
      "ins": true,
      "cend": [
-      50
+      56
      ]
     }
    ]
@@ -4724,10 +4803,10 @@
      "t": "You speak. I listen. Then we switch.",
      "shade": "BDD7EE",
      "cstart": [
-      51
+      57
      ],
      "cend": [
-      51
+      57
      ]
     },
     {
@@ -4750,10 +4829,10 @@
      "t": "The peer doesn’t become your permanent parent, though.",
      "shade": "BDD7EE",
      "cstart": [
-      52
+      58
      ],
      "cend": [
-      52
+      58
      ]
     },
     {
@@ -4820,10 +4899,10 @@
      "t": "Hurt people often pass on pain they never worked through.",
      "shade": "E2ECF7",
      "cstart": [
-      53
+      59
      ],
      "cend": [
-      53
+      59
      ]
     },
     {
@@ -4841,7 +4920,7 @@
      "t": "hurt. ",
      "del": true,
      "cstart": [
-      54
+      60
      ]
     },
     {
@@ -4852,14 +4931,27 @@
      "t": "Seeing how they got there doesn’t make it okay. ",
      "del": true,
      "cend": [
-      54
+      60
      ]
     },
     {
      "t": "It’s just that"
     },
     {
-     "t": " punishing them now can’t reach back and give them what they were missing then, the sense to see it or the help. Or the skills. What’s left is fixing what can be fixed, and making it easier for something different to happen now."
+     "t": " punishing them now can’t reach back and give them what they were missing then, the sense to see it or the help."
+    },
+    {
+     "t": " Or the skills.",
+     "shade": "E4E4E4",
+     "cstart": [
+      61
+     ],
+     "cend": [
+      61
+     ]
+    },
+    {
+     "t": " What’s left is fixing what can be fixed, and making it easier for something different to happen now."
     }
    ]
   },
@@ -4870,10 +4962,10 @@
      "t": "So a boundary can still be right.",
      "shade": "BDD7EE",
      "cstart": [
-      55
+      62
      ],
      "cend": [
-      55
+      62
      ]
     },
     {
@@ -4900,10 +4992,10 @@
      "t": "Changing the behavior counts too.",
      "shade": "E2ECF7",
      "cstart": [
-      56
+      63
      ],
      "cend": [
-      56
+      63
      ]
     },
     {
@@ -5082,30 +5174,43 @@
    "type": "p",
    "runs": [
     {
-     "t": "Be patient with yourself, and gentle, including with the part of you that thinks you should be over it by now. "
+     "t": "Be patient with yourself, and gentle, including with the part of you that thinks you should be over it by now."
     },
     {
-     "t": "You are more than your pain and your past. "
+     "t": " ",
+     "shade": "BDD7EE",
+     "cstart": [
+      65
+     ]
+    },
+    {
+     "t": "You are more than your pain and your past. ",
+     "shade": "BDD7EE"
     },
     {
      "t": "That’s easy to lose sight of when you’ve spent so long looking at them. ",
      "del": true,
      "cstart": [
-      57
+      64
      ]
     },
     {
      "t": "And you aren’t alone. ",
      "del": true,
      "cend": [
-      57
+      64
      ]
     },
     {
-     "t": "There’s help"
+     "t": "There’s help",
+     "shade": "BDD7EE"
     },
     {
-     "t": ", and lots of other people are out there learning to look after their own little ones."
+     "t": ", and lots of other people are out there learning to look after their own little ones.",
+     "shade": "BDD7EE",
+     "cend": [
+      65
+     ]
     }
    ]
   },
@@ -5137,10 +5242,10 @@
      "t": "It sets limits, too.",
      "shade": "E2ECF7",
      "cstart": [
-      58
+      66
      ],
      "cend": [
-      58
+      66
      ]
     },
     {
@@ -5162,10 +5267,10 @@
      "t": "Where it really differs is spirituality.",
      "shade": "E2ECF7",
      "cstart": [
-      59
+      67
      ],
      "cend": [
-      59
+      67
      ]
     },
     {
@@ -5303,103 +5408,103 @@
   },
   {
    "id": 2,
-   "text": "My pass: a cut, nothing added. Round 8 read: r8w005 Human, Medium (0.950) \"The cushion was practice for it.\"; r8w004 Human, Medium (0.982) \"Say your boss asks you to stay late again.\" stays. The tell: an aphoristic closer that sums up. It keeps that reparenting goes on in ordinary life, and the boss example; it drops the cushion's credit as practice for that moment. Its block is not checked yet."
+   "text": "My pass: a cut, nothing added. Round 8 read: r8w005 Human, Medium (0.950) \"The cushion was practice for it.\"; r8w004 Human, Medium (0.982) \"Say your boss asks you to stay late again.\" stays. The tell: an aphoristic closer that sums up. It keeps that reparenting goes on in ordinary life, and the boss example; it drops the cushion's credit as practice for that moment. Checked with its block after the change (https://www.pangram.com/history/8ebeb962-bf21-4080-b20b-2dec350e0561): Human Written, 0.00% AI. In this paragraph: Human, Medium (9 words) on \"Say your boss asks you to stay late again.\"."
   },
   {
    "id": 3,
-   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: Human, Medium. Mine. I left it: nearly High (0.985 or more)."
+   "text": "After my change, the check of this block alone (without the rest of the guide) read this Human, Medium confidence."
   },
   {
    "id": 4,
-   "text": "Round 8: Human, Medium confidence (0.975). Round 6, same words: Human, Medium. Your published guide's line: left for you."
-  },
-  {
-   "id": 5,
-   "text": "Round 8: Human, Medium confidence (0.986). Round 6, same words: Human, High. Mine. I left it: nearly High (0.985 or more)."
-  },
-  {
-   "id": 6,
-   "text": "Round 8: Human, Medium confidence (0.976). Round 6, same words: Human, Low. Mine. I found no tell I could take out here without losing something; I left it."
-  },
-  {
-   "id": 7,
-   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: these words weren't there in round 6. Mine. I left it: nearly High (0.985 or more)."
-  },
-  {
-   "id": 8,
-   "text": "My pass: a cut, nothing added. Round 8 read: r8w013 Human, Medium (0.986) \"That doesn't close the door, though, it just means you start smaller.\". The tell: \"not X, it just Y\" (it doesn't close the door, it just means). It keeps feeling none of the warmth means starting smaller, a way in that stays open; it drops the words \"doesn't close the door\", which \"you start\" still says. Its block is not checked yet."
-  },
-  {
-   "id": 9,
-   "text": "My pass: its point said plainly. Round 8 read: r8w015 Human, Medium (0.981) \"Maybe you're more worn out now, or missing whatever helped back then. (No example? Try another doorway.)\". The tell: a question answered with a short knock-down, in parentheses. It keeps the pointer to the other doorways for a reader with no example; \"Maybe you're more worn out now ...\" stays, the grounding's point that past strength doesn't cancel today's limits; it drops nothing. Its block is not checked yet."
-  },
-  {
-   "id": 10,
-   "text": "My pass: a cut, nothing added. Round 8 read: r8w016 Human, Medium (0.943) \"I hate myself.\" If that's what you find, it deserves an honest hearing. Just listen to it, without arguing back.\". The tell: a stock phrase (\"deserves an honest hearing\") and a follow-up that restates it. It keeps listening to the \"I hate myself\" part without arguing back, which is what an honest hearing is; it drops nothing. Its block is not checked yet."
-  },
-  {
-   "id": 11,
-   "text": "My pass: a cut, nothing added. Round 8 read: r8w019 Human, Medium (0.974) \"You don't need to decide which.\". The tell: a reassuring permission (\"You don't need to ...\") between the list and the step. It keeps the list of what brought you here, and asking that part what it hoped for, which needs no decision first; it drops the explicit permission. Its block is not checked yet."
-  },
-  {
-   "id": 12,
-   "text": "My pass: a cut, nothing added. Round 8 read: r8w021 Human, Low (0.829) \"And if nothing moves at all, don't push it.\"; r8w020 Human, Medium (0.980) \"Watch how it lands, though.\" stays. The tell: a short tidy instruction between the image and the reassurance, the shape image, advice, comfort. It keeps the aunt and the uncle (the one who just sits there is the one the child climbs on: no pushing), and \"Knowing that love is in you somewhere counts for a lot\", which is what counts when nothing moves; it drops the words \"don't push it\", which the aunt and the uncle already show. Its block is not checked yet."
-  },
-  {
-   "id": 13,
-   "text": "My pass: its point said plainly. Round 8 read: r8w022 AI, Low (0.668), its first two sentences; r8w023 Human, Medium (0.933), \"That's how you learn as a kid, and it works now, too.\". The tell: an instruction wrapped in an image (\"hand it to yourself\"), filler (\"then for now just try\"), the example packaged as \"If the advice was ...\" and a reassuring follow-up (\"and it works now, too\"). It keeps the step (one small piece of the advice you'd give them, done yourself), the sleep example with its numbers, and scaffolding with its link; it drops \"That's how you learn as a kid, and it works now, too.\" The scaffolding link says what it said: small steps are how people learn.. Its block is not checked yet."
-  },
-  {
-   "id": 14,
-   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: Human, High. Mine. I left it: nearly High (0.985 or more)."
-  },
-  {
-   "id": 15,
-   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: Human, Low. Mine. I left it: nearly High (0.985 or more)."
-  },
-  {
-   "id": 16,
-   "text": "Round 8: Human, Medium confidence (0.983). Round 6, same words: Human, Medium. Mine. I found no tell I could take out here without losing something; I left it."
-  },
-  {
-   "id": 17,
-   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: Human, High. Partly your words (your quoted \"Tell me what feels unsafe.\"); the rest is mine, nearly High: I left it."
-  },
-  {
-   "id": 18,
-   "text": "My pass: a cut, nothing added. Round 8 read: r8w030 Human, Low (0.503), its second and third sentences; r8w031 Human, Low (0.848) \"The complaint might only be one sentence, once the swearing runs out.\". The tell: a short balanced instruction (\"If it's something serious, answer it seriously.\") and a tidy prediction that the next sentence explains anyway. It keeps listening for the concrete complaint without fighting the swearing, and why the swearing stops; answering what's serious is said by P5 (\"take whatever's true in the anger seriously\") and shown by Mr. Rogers in the next paragraph (\"he does answer what's worth answering in it\"); it drops the hedged prediction that the complaint might only be one sentence, which nothing relies on (the three reviewers' note: the record first said nothing was lost). Its block is not checked yet."
-  },
-  {
-   "id": 19,
-   "text": "Round 8: Human, Medium confidence (0.971). Round 6, same words: Human, Medium. Your words: left for you."
-  },
-  {
-   "id": 20,
-   "text": "Round 8: Human, Medium confidence (0.909). Round 6, same words: Human, Low. Your words: left for you. The tell I see, if any: a topic sentence that announces the paragraph."
-  },
-  {
-   "id": 21,
-   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: Human, High. Mine. I left it: nearly High (0.985 or more)."
-  },
-  {
-   "id": 22,
-   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: Human, High. Mine. I left it: nearly High (0.985 or more)."
-  },
-  {
-   "id": 23,
-   "text": "Round 8: Human, Medium confidence (0.986). Round 6, same words: Human, Medium. Mine. I left it: nearly High (0.985 or more)."
-  },
-  {
-   "id": 24,
-   "text": "Round 8: Human, Medium confidence (0.983). Round 6, same words: Human, Medium. Mine. I found no tell I could take out here without losing something; I left it."
-  },
-  {
-   "id": 25,
    "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: Human, Medium. Mine. I left it: nearly High (0.985 or more)."
   },
   {
+   "id": 5,
+   "text": "Round 8: Human, Medium confidence (0.975). Round 6, same words: Human, Medium. Your published guide's line: left for you."
+  },
+  {
+   "id": 6,
+   "text": "Round 8: Human, Medium confidence (0.986). Round 6, same words: Human, High. Mine. I left it: nearly High (0.985 or more)."
+  },
+  {
+   "id": 7,
+   "text": "Round 8: Human, Medium confidence (0.976). Round 6, same words: Human, Low. Mine. I found no tell I could take out here without losing something; I left it."
+  },
+  {
+   "id": 8,
+   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: these words weren't there in round 6. Mine. I left it: nearly High (0.985 or more)."
+  },
+  {
+   "id": 9,
+   "text": "My pass: a cut, nothing added. Round 8 read: r8w013 Human, Medium (0.986) \"That doesn't close the door, though, it just means you start smaller.\". The tell: \"not X, it just Y\" (it doesn't close the door, it just means). It keeps feeling none of the warmth means starting smaller, a way in that stays open; it drops the words \"doesn't close the door\", which \"you start\" still says. Its block's check ended without an answer: the request timed out, so it may or may not have reached Pangram, and it isn't sent again until the account's History shows which (the next whole-guide check reads it in any case)."
+  },
+  {
+   "id": 10,
+   "text": "My pass: its point said plainly. Round 8 read: r8w015 Human, Medium (0.981) \"Maybe you're more worn out now, or missing whatever helped back then. (No example? Try another doorway.)\". The tell: a question answered with a short knock-down, in parentheses. It keeps the pointer to the other doorways for a reader with no example; \"Maybe you're more worn out now ...\" stays, the grounding's point that past strength doesn't cancel today's limits; it drops nothing. Checked with its block after the change (https://www.pangram.com/history/33231c23-2cb5-4f24-93bc-8023153ce108): Human Written, 0.00% AI. In this paragraph: Human, Medium (9 words) on \"(If no example comes to mind, try another doorway.)\"."
+  },
+  {
+   "id": 11,
+   "text": "After my change, the check of this block alone (without the rest of the guide) read this Human, Medium confidence."
+  },
+  {
+   "id": 12,
+   "text": "My pass: a cut, nothing added. Round 8 read: r8w016 Human, Medium (0.943) \"I hate myself.\" If that's what you find, it deserves an honest hearing. Just listen to it, without arguing back.\". The tell: a stock phrase (\"deserves an honest hearing\") and a follow-up that restates it. It keeps listening to the \"I hate myself\" part without arguing back, which is what an honest hearing is; it drops nothing. Checked with its block after the change (https://www.pangram.com/history/cfd5e3ca-91b3-4382-88be-85c6fb594c52): Human Written, 0.00% AI. In this paragraph: every window over it Human, High."
+  },
+  {
+   "id": 13,
+   "text": "My pass: a cut, nothing added. Round 8 read: r8w019 Human, Medium (0.974) \"You don't need to decide which.\". The tell: a reassuring permission (\"You don't need to ...\") between the list and the step. It keeps the list of what brought you here, and asking that part what it hoped for, which needs no decision first; it drops the explicit permission. Checked with its block after the change (https://www.pangram.com/history/cfd5e3ca-91b3-4382-88be-85c6fb594c52): Human Written, 0.00% AI. In this paragraph: Human, Medium (3 words) on \"What was it?\"."
+  },
+  {
+   "id": 14,
+   "text": "After my change, the check of this block alone (without the rest of the guide) read this Human, Medium confidence."
+  },
+  {
+   "id": 15,
+   "text": "My pass: a cut, nothing added. Round 8 read: r8w021 Human, Low (0.829) \"And if nothing moves at all, don't push it.\"; r8w020 Human, Medium (0.980) \"Watch how it lands, though.\" stays. The tell: a short tidy instruction between the image and the reassurance, the shape image, advice, comfort. It keeps the aunt and the uncle (the one who just sits there is the one the child climbs on: no pushing), and \"Knowing that love is in you somewhere counts for a lot\", which is what counts when nothing moves; it drops the words \"don't push it\", which the aunt and the uncle already show. Checked with its block after the change (https://www.pangram.com/history/51d04a39-9289-47e5-a581-7853cffc332d): Human Written, 0.00% AI. In this paragraph: every window over it Human, High."
+  },
+  {
+   "id": 16,
+   "text": "My pass: its point said plainly. Round 8 read: r8w022 AI, Low (0.668), its first two sentences; r8w023 Human, Medium (0.933), \"That's how you learn as a kid, and it works now, too.\". The tell: an instruction wrapped in an image (\"hand it to yourself\"), filler (\"then for now just try\"), the example packaged as \"If the advice was ...\" and a reassuring follow-up (\"and it works now, too\"). It keeps the step (one small piece of the advice you'd give them, done yourself), the sleep example with its numbers, and scaffolding with its link; it drops \"That's how you learn as a kid, and it works now, too.\" The scaffolding link says what it said: small steps are how people learn.. Checked with its block after the change (https://www.pangram.com/history/51d04a39-9289-47e5-a581-7853cffc332d): Human Written, 0.00% AI. In this paragraph: every window over it Human, High."
+  },
+  {
+   "id": 17,
+   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: Human, High. Mine. I left it: nearly High (0.985 or more)."
+  },
+  {
+   "id": 18,
+   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: Human, Low. Mine. I left it: nearly High (0.985 or more)."
+  },
+  {
+   "id": 19,
+   "text": "Round 8: Human, Medium confidence (0.983). Round 6, same words: Human, Medium. Mine. I found no tell I could take out here without losing something; I left it."
+  },
+  {
+   "id": 20,
+   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: Human, High. Partly your words (your quoted \"Tell me what feels unsafe.\"); the rest is mine, nearly High: I left it."
+  },
+  {
+   "id": 21,
+   "text": "My pass: a cut, nothing added. Round 8 read: r8w030 Human, Low (0.503), its second and third sentences; r8w031 Human, Low (0.848) \"The complaint might only be one sentence, once the swearing runs out.\". The tell: a short balanced instruction (\"If it's something serious, answer it seriously.\"), a tidy prediction that the next sentence explains anyway, and (try 2, after try 1's check read it Low) the permission packaging \"You don't have to accept every conclusion they reach about you, but do ...\". It keeps listening for the concrete complaint without fighting the swearing, and why the swearing stops; answering what's serious is said by P5 (\"take whatever's true in the anger seriously\") and shown by Mr. Rogers in the next paragraph (\"he does answer what's worth answering in it\"), and not accepting every conclusion is shown there too (\"He doesn't collapse under that or fight it\"); it drops the hedged prediction that the complaint might only be one sentence, which nothing relies on, and the explicit permission not to accept every conclusion, which the Mr. Rogers paragraph shows. Checked with its block after the change (https://www.pangram.com/history/b695880a-a675-4047-8b89-5f0b92d39fee): Mostly Human Written, 2.44% AI. In this paragraph: Human, Medium (40 words) on \"Listen for the concrete complaint without fighting the yelling and swearing around it. Lik\"."
+  },
+  {
+   "id": 22,
+   "text": "After my change, the check of this block alone (without the rest of the guide) read this Human, Medium confidence."
+  },
+  {
+   "id": 23,
+   "text": "Not in round 8's list: the whole guide read this sentence Human, High. But the check of its block after my change to the paragraph with \"Your little one might say it's you\" read it AI, Low (https://www.pangram.com/history/b695880a-a675-4047-8b89-5f0b92d39fee), and Human, Low before that change (https://www.pangram.com/history/1635c866-8fde-4e37-8572-b757f49bc675). Mine. The tell I see: a cautionary closer (\"Be careful not to ..., when it could just be ...\"). I left it for the next whole-guide check, which reads it in place."
+  },
+  {
+   "id": 24,
+   "text": "Round 8: Human, Medium confidence (0.971). Round 6, same words: Human, Medium. Your words: left for you."
+  },
+  {
+   "id": 25,
+   "text": "Round 8: Human, Medium confidence (0.909). Round 6, same words: Human, Low. Your words: left for you. The tell I see, if any: a topic sentence that announces the paragraph."
+  },
+  {
    "id": 26,
-   "text": "Round 8: Human, Medium confidence (0.987). Round 6, same words: Human, High. Your words: left for you."
+   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: Human, High. Mine. I left it: nearly High (0.985 or more)."
   },
   {
    "id": 27,
@@ -5407,130 +5512,162 @@
   },
   {
    "id": 28,
-   "text": "Round 8: Human, Medium confidence (0.988). Round 6, same words: Human, Medium. Your words: left for you."
+   "text": "Round 8: Human, Medium confidence (0.986). Round 6, same words: Human, Medium. Mine. I left it: nearly High (0.985 or more)."
   },
   {
    "id": 29,
-   "text": "Round 8: Human, Medium confidence (0.987). Round 6, same words: Human, Medium (the lowest of 2 windows over these words). Your words: left for you."
-  },
-  {
-   "id": 30,
-   "text": "Round 8: Human, Medium confidence (0.988). Round 6, same words: these words weren't there in round 6. Partly your words (the Nurturer voice is yours): left for you."
-  },
-  {
-   "id": 31,
-   "text": "Round 8: Human, Medium confidence (0.977). Round 6, same words: Human, Medium (the lowest of 3 windows over these words). Your words: left for you."
-  },
-  {
-   "id": 32,
-   "text": "My pass: its point said plainly. Round 8 read: r8w048 Human, Low (0.503) \"Can't tell if that's you?\"; r8w049 to r8w051 AI, Low (0.503 to 0.595), its last three sentences. The tell: a question answered with a short knock-down (\"Can't tell if that's you? Treat it like it is.\"), and a disclaimer followed by a reframe (\"None of that is me answering ... It just keeps ...\"), the not-X, it-just-Y shape. It keeps every safety instruction and its order; the grounding's MUSTs (a crisis line counts; if you can't tell whether it's you, do the same, as if it is); his guide's two points, that this isn't an answer to whether life is worth living and that it keeps the question open long enough to look at; it drops nothing; \"That isn't my answer\" is now said by \"keeps the question ... open\". Its block is not checked yet."
-  },
-  {
-   "id": 33,
-   "text": "Round 8: Human, Low confidence (0.805). Round 6, same words: Human, Low (the lowest of 2 windows over these words). Your words: left for you. The tell I see: a question answered right away (\"And if none of them shows up yet? No problem, ...\"), the shape round 8 read AI in the paragraph before it; said as one plain sentence in your words, it may read High."
-  },
-  {
-   "id": 34,
-   "text": "Round 8: Human, Medium confidence (0.988). Round 6, same words: Human, Medium. Your words: left for you."
-  },
-  {
-   "id": 35,
-   "text": "Round 8: Human, Medium confidence (0.951). Round 6, same words: Human, Medium. Mine. I found no tell I could take out here without losing something; I left it."
-  },
-  {
-   "id": 36,
-   "text": "Round 8: Human, Medium confidence (0.980). Round 6, same words: these words weren't there in round 6. Your approved version of this section (GPT's dedup, word for word, turn 53): left for you. A short general line between two sets of examples; it may be fine."
-  },
-  {
-   "id": 37,
-   "text": "Round 8: Human, Medium confidence (0.987). Round 6, same words: Human, Medium. Your approved version of this section (GPT's dedup, word for word, turn 53): left for you."
-  },
-  {
-   "id": 38,
-   "text": "Round 8: Human, Medium confidence (0.961). Round 6, same words: Human, Medium. Your approved version of this section (GPT's dedup, word for word, turn 53): left for you. The tell I see: \"You don't have to ...\" permission, then \"The question is whether ...\"."
-  },
-  {
-   "id": 39,
    "text": "Round 8: Human, Medium confidence (0.983). Round 6, same words: Human, Medium. Mine. I found no tell I could take out here without losing something; I left it."
   },
   {
+   "id": 30,
+   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: Human, Medium. Mine. I left it: nearly High (0.985 or more)."
+  },
+  {
+   "id": 31,
+   "text": "Round 8: Human, Medium confidence (0.987). Round 6, same words: Human, High. Your words: left for you."
+  },
+  {
+   "id": 32,
+   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: Human, High. Mine. I left it: nearly High (0.985 or more)."
+  },
+  {
+   "id": 33,
+   "text": "Round 8: Human, Medium confidence (0.988). Round 6, same words: Human, Medium. Your words: left for you."
+  },
+  {
+   "id": 34,
+   "text": "Round 8: Human, Medium confidence (0.987). Round 6, same words: Human, Medium (the lowest of 2 windows over these words). Your words: left for you."
+  },
+  {
+   "id": 35,
+   "text": "Round 8: Human, Medium confidence (0.988). Round 6, same words: these words weren't there in round 6. Partly your words (the Nurturer voice is yours): left for you."
+  },
+  {
+   "id": 36,
+   "text": "Round 8: Human, Medium confidence (0.977). Round 6, same words: Human, Medium (the lowest of 3 windows over these words). Your words: left for you."
+  },
+  {
+   "id": 37,
+   "text": "My pass: its point said plainly. Round 8 read: r8w048 Human, Low (0.503) \"Can't tell if that's you?\"; r8w049 to r8w051 AI, Low (0.503 to 0.595), its last three sentences. The tell: a question answered with a short knock-down (\"Can't tell if that's you? Treat it like it is.\"), and a disclaimer followed by a reframe (\"None of that is me answering ... It just keeps ...\"), the not-X, it-just-Y shape. It keeps every safety instruction and its order; the grounding's MUSTs (a crisis line counts; if you can't tell whether it's you, do the same, as if it is); his guide's two points, that this isn't an answer to whether life is worth living and that it keeps the question open long enough to look at; it drops nothing; \"That isn't my answer\" is now said by \"keeps the question ... open\". Checked with its block after the change (https://www.pangram.com/history/25417671-a332-4fea-9f90-64719e1634a8): Human Written, 0.00% AI. In this paragraph: Human, Medium (18 words) on \"Getting safe first keeps the question of whether life is worth living open long enough to \"."
+  },
+  {
+   "id": 38,
+   "text": "After my change, the check of this block alone (without the rest of the guide) read this Human, Medium confidence."
+  },
+  {
+   "id": 39,
+   "text": "Round 8: Human, Low confidence (0.805). Round 6, same words: Human, Low (the lowest of 2 windows over these words). Your words: left for you. The tell I see: a question answered right away (\"And if none of them shows up yet? No problem, ...\"), the shape round 8 read AI in the paragraph before it; said as one plain sentence in your words, it may read High."
+  },
+  {
    "id": 40,
-   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: Human, High. Your words: left for you."
+   "text": "Round 8: Human, Medium confidence (0.988). Round 6, same words: Human, Medium. Your words: left for you."
   },
   {
    "id": 41,
-   "text": "Round 8: Human, Medium confidence (0.986). Round 6, same words: Human, Medium. Mine. I left it: nearly High (0.985 or more)."
+   "text": "Round 8: Human, Medium confidence (0.951). Round 6, same words: Human, Medium. Mine. I found no tell I could take out here without losing something; I left it."
   },
   {
    "id": 42,
-   "text": "Round 8: Human, Medium confidence (0.986). Round 6, same words: Human, Medium. Mine. I left it: nearly High (0.985 or more)."
+   "text": "Round 8: Human, Medium confidence (0.980). Round 6, same words: these words weren't there in round 6. Your approved version of this section (GPT's dedup, word for word, turn 53): left for you. A short general line between two sets of examples; it may be fine."
   },
   {
    "id": 43,
-   "text": "Round 8: Human, Medium confidence (0.979). Round 6, same words: Human, Medium. Your words: left for you."
+   "text": "Round 8: Human, Medium confidence (0.987). Round 6, same words: Human, Medium. Your approved version of this section (GPT's dedup, word for word, turn 53): left for you."
   },
   {
    "id": 44,
-   "text": "Round 8: Human, Medium confidence (0.975). Round 6, same words: Human, Medium. Mine, in a paragraph you approved as it is (your yes to C2): see the suggestion on these words."
+   "text": "Round 8: Human, Medium confidence (0.961). Round 6, same words: Human, Medium. Your approved version of this section (GPT's dedup, word for word, turn 53): left for you. The tell I see: \"You don't have to ...\" permission, then \"The question is whether ...\"."
   },
   {
    "id": 45,
-   "text": "Round 8: Human, Medium confidence (0.955). Round 6, same words: Human, Medium. Mine, in a paragraph you approved as it is; it holds the danger line, which stays."
+   "text": "Round 8: Human, Medium confidence (0.983). Round 6, same words: Human, Medium. Mine. I found no tell I could take out here without losing something; I left it."
   },
   {
    "id": 46,
-   "text": "A suggestion only, since you approved this paragraph as it is. Round 8 read: r8w066 Human, Medium (0.975) \"And reaching out doesn't mean telling strangers everything. Privacy isn't fakery.\"; r8w067 Human, Medium (0.955) stays (the danger line is a safety line). The tell: an aphorism that sums up (\"Privacy isn't fakery.\"). The cut: \"Privacy isn’t fakery.\" (nothing added). It keeps that you don't tell strangers everything, and the contrast with keeping up a fake version of yourself, which the paragraph makes later in its own words."
+   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: Human, High. Your words: left for you."
   },
   {
    "id": 47,
-   "text": "Round 8: Human, Medium confidence (0.961). Round 6, same words: Human, Low. Your words: left for you."
+   "text": "Round 8: Human, Medium confidence (0.986). Round 6, same words: Human, Medium. Mine. I left it: nearly High (0.985 or more)."
   },
   {
    "id": 48,
-   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: Human, Medium. Your words: left for you."
+   "text": "Round 8: Human, Medium confidence (0.986). Round 6, same words: Human, Medium. Mine. I left it: nearly High (0.985 or more)."
   },
   {
    "id": 49,
-   "text": "Round 8: Human, Medium confidence (0.983). Round 6, same words: Human, High. Your words: left for you."
+   "text": "Round 8: Human, Medium confidence (0.979). Round 6, same words: Human, Medium. Your words: left for you."
   },
   {
    "id": 50,
-   "text": "My pass: its point said plainly. Round 8 read: r8w076 Human, Low (0.868) \"What felt scared when I wrote it can read like a threat from over there.\". The tell: a balanced inversion closer (felt scared here, reads like a threat over there). It keeps the reason to read it as them: what was fear when you wrote it can land as a threat; it drops nothing. Its block is not checked yet."
+   "text": "Round 8: Human, Medium confidence (0.975). Round 6, same words: Human, Medium. Mine, in a paragraph you approved as it is (your yes to C2): see the suggestion on these words."
   },
   {
    "id": 51,
-   "text": "Round 8: Human, Medium confidence (0.982). Round 6, same words: Human, Medium. Your words: left for you. (Hearthwork's premise, in your words.)"
+   "text": "Round 8: Human, Medium confidence (0.955). Round 6, same words: Human, Medium. Mine, in a paragraph you approved as it is; it holds the danger line, which stays."
   },
   {
    "id": 52,
-   "text": "Round 8: Human, Medium confidence (0.982). Round 6, same words: Human, Medium. Your words: left for you."
+   "text": "A suggestion only, since you approved this paragraph as it is. Round 8 read: r8w066 Human, Medium (0.975) \"And reaching out doesn't mean telling strangers everything. Privacy isn't fakery.\"; r8w067 Human, Medium (0.955) stays (the danger line is a safety line). The tell: an aphorism that sums up (\"Privacy isn't fakery.\"). The cut: \"Privacy isn’t fakery.\" (nothing added). It keeps that you don't tell strangers everything, and the contrast with keeping up a fake version of yourself, which the paragraph makes later in its own words."
   },
   {
    "id": 53,
-   "text": "Round 8: Human, Medium confidence (0.987). Round 6, same words: Human, High. Mine. I left it: nearly High (0.985 or more)."
+   "text": "Round 8: Human, Medium confidence (0.961). Round 6, same words: Human, Low. Your words: left for you."
   },
   {
    "id": 54,
-   "text": "My pass: its point said plainly. Round 8 read: r8w082 Human, Low (0.855) \"Seeing how they got there doesn't make it okay.\"; r8w081 Human, Medium (0.961), its first sentence; r8w083 Human, Medium (0.984) stays. The tell: a short knock-down sentence after a balanced \"still ... still\" sentence. It keeps accountability, the hurt, and that understanding how they got there doesn't excuse it, said about the people in one sentence; it drops nothing. Its block is not checked yet."
+   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: Human, Medium. Your words: left for you."
   },
   {
    "id": 55,
-   "text": "Round 8: Human, Medium confidence (0.970). Round 6, same words: Human, Medium. Mine. I found no tell I could take out here without losing something; I left it."
+   "text": "Round 8: Human, Medium confidence (0.983). Round 6, same words: Human, High. Your words: left for you."
   },
   {
    "id": 56,
-   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: Human, Medium. Mine. I left it: nearly High (0.985 or more)."
+   "text": "My pass: its point said plainly. Round 8 read: r8w076 Human, Low (0.868) \"What felt scared when I wrote it can read like a threat from over there.\". The tell: a balanced inversion closer (felt scared here, reads like a threat over there). It keeps the reason to read it as them: what was fear when you wrote it can land as a threat; it drops nothing. Checked with its block after the change (https://www.pangram.com/history/7dce7368-9d9a-4c19-82ef-afe877a45b84): Human Written, 0.00% AI. In this paragraph: every window over it Human, High."
   },
   {
    "id": 57,
-   "text": "My pass: a cut, nothing added. Round 8 read: r8w088 Human, Low (0.829) \"That's easy to lose sight of when you've spent so long looking at them.\"; r8w089 Human, Medium (0.909) \"And you aren't alone.\"; r8w087 Human, Medium (0.989), his guide's \"You are more than your pain and your past.\", stays. The tell: a follow-up that explains the line before it, and a short reassurance the next sentence says concretely. It keeps his guide's line, being patient and gentle, and that there's help and other people doing the same work (you aren't alone); it drops the explanation of why that's hard to see, and \"And you aren't alone.\", which the next sentence says concretely. Its block is not checked yet."
+   "text": "Round 8: Human, Medium confidence (0.982). Round 6, same words: Human, Medium. Your words: left for you. (Hearthwork's premise, in your words.)"
   },
   {
    "id": 58,
-   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: Human, Medium. Mine. I left it: nearly High (0.985 or more)."
+   "text": "Round 8: Human, Medium confidence (0.982). Round 6, same words: Human, Medium. Your words: left for you."
   },
   {
    "id": 59,
+   "text": "Round 8: Human, Medium confidence (0.987). Round 6, same words: Human, High. Mine. I left it: nearly High (0.985 or more)."
+  },
+  {
+   "id": 60,
+   "text": "My pass: its point said plainly. Round 8 read: r8w082 Human, Low (0.855) \"Seeing how they got there doesn't make it okay.\"; r8w081 Human, Medium (0.961), its first sentence; r8w083 Human, Medium (0.984) stays. The tell: a short knock-down sentence after a balanced \"still ... still\" sentence. It keeps accountability, the hurt, and that understanding how they got there doesn't excuse it, said about the people in one sentence; it drops nothing. Checked with its block after the change (https://www.pangram.com/history/edbd62c5-6b07-4b8e-9b51-41cffff43818): Human Written, 0.00% AI. In this paragraph: Human, Medium (3 words) on \"Or the skills.\"."
+  },
+  {
+   "id": 61,
+   "text": "After my change, the check of this block alone (without the rest of the guide) read this Human, Medium confidence."
+  },
+  {
+   "id": 62,
+   "text": "Round 8: Human, Medium confidence (0.970). Round 6, same words: Human, Medium. Mine. I found no tell I could take out here without losing something; I left it."
+  },
+  {
+   "id": 63,
+   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: Human, Medium. Mine. I left it: nearly High (0.985 or more)."
+  },
+  {
+   "id": 64,
+   "text": "My pass: a cut, nothing added. Round 8 read: r8w088 Human, Low (0.829) \"That's easy to lose sight of when you've spent so long looking at them.\"; r8w089 Human, Medium (0.909) \"And you aren't alone.\"; r8w087 Human, Medium (0.989), his guide's \"You are more than your pain and your past.\", stays. The tell: a follow-up that explains the line before it, and a short reassurance the next sentence says concretely. It keeps his guide's line, being patient and gentle, and that there's help and other people doing the same work (you aren't alone); it drops the explanation of why that's hard to see, and \"And you aren't alone.\", which the next sentence says concretely. Checked with its block after the change (https://www.pangram.com/history/0e1da836-533c-45fc-8119-9e54ad641234): Human Written, 0.00% AI. In this paragraph: Human, Medium (28 words) on \"You are more than your pain and your past. There’s help, and lots of other people are out \"."
+  },
+  {
+   "id": 65,
+   "text": "After my change, the check of this block alone (without the rest of the guide) read this Human, Medium confidence."
+  },
+  {
+   "id": 66,
+   "text": "Round 8: Human, Medium confidence (0.989). Round 6, same words: Human, Medium. Mine. I left it: nearly High (0.985 or more)."
+  },
+  {
+   "id": 67,
    "text": "Round 8: Human, Medium confidence (0.986). Round 6, same words: Human, Medium. Mine. I left it: nearly High (0.985 or more)."
   }
  ],

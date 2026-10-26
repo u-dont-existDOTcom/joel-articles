@@ -1,6 +1,6 @@
 {
  "article_sha256": "3f3d938d6583441df5752829afec695e5a6b6d70b7439aa24b71f048141a2c00",
- "candidate_sha256": "fca425d086f01bcfa551511ac1fbe5a619f6a8dbcbaedf733c2e5ab4738ebf65",
+ "candidate_sha256": "580499c54c27e65e1b0e24fee1e9b6f3e741176d7da6c7a9675a6c25d1b54c13",
  "fixes": [
   {
    "id": "F02",
@@ -52,11 +52,16 @@
    "block": "Love Doesn't Have to Wait for Trust ❤️",
    "windows": "r8w030 Human, Low (0.503), its second and third sentences; r8w031 Human, Low (0.848) \"The complaint might only be one sentence, once the swearing runs out.\"",
    "round6": "Human, Low and Human, High",
-   "tells": "a short balanced instruction (\"If it's something serious, answer it seriously.\") and a tidy prediction that the next sentence explains anyway",
-   "old": "without fighting the yelling and swearing around it. If it's something serious, answer it seriously. The complaint might only be one sentence, once the swearing runs out. Like the anger",
-   "new": "without fighting the yelling and swearing around it. Like the anger",
-   "keeps": "listening for the concrete complaint without fighting the swearing, and why the swearing stops; answering what's serious is said by P5 (\"take whatever's true in the anger seriously\") and shown by Mr. Rogers in the next paragraph (\"he does answer what's worth answering in it\")",
-   "loses": "the hedged prediction that the complaint might only be one sentence, which nothing relies on (the three reviewers' note: the record first said nothing was lost)"
+   "tells": "a short balanced instruction (\"If it's something serious, answer it seriously.\"), a tidy prediction that the next sentence explains anyway, and (try 2, after try 1's check read it Low) the permission packaging \"You don't have to accept every conclusion they reach about you, but do ...\"",
+   "try1": {
+    "old": "without fighting the yelling and swearing around it. If it's something serious, answer it seriously. The complaint might only be one sentence, once the swearing runs out. Like the anger",
+    "new": "without fighting the yelling and swearing around it. Like the anger",
+    "check": "t115_lovewait: Human Written, but its first sentence after \"it's you\" still read Human, Low (27 words), https://www.pangram.com/history/1635c866-8fde-4e37-8572-b757f49bc675"
+   },
+   "old": "Your little one might say it's you. You don't have to accept every conclusion they reach about you, but do listen for the concrete complaint without fighting the yelling and swearing around it. If it's something serious, answer it seriously. The complaint might only be one sentence, once the swearing runs out. Like the anger",
+   "new": "Your little one might say it's you. Listen for the concrete complaint without fighting the yelling and swearing around it. Like the anger",
+   "keeps": "listening for the concrete complaint without fighting the swearing, and why the swearing stops; answering what's serious is said by P5 (\"take whatever's true in the anger seriously\") and shown by Mr. Rogers in the next paragraph (\"he does answer what's worth answering in it\"), and not accepting every conclusion is shown there too (\"He doesn't collapse under that or fight it\")",
+   "loses": "the hedged prediction that the complaint might only be one sentence, which nothing relies on, and the explicit permission not to accept every conclusion, which the Mr. Rogers paragraph shows"
   },
   {
    "id": "F05",

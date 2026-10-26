@@ -40,6 +40,17 @@ WIN = {(w['half'], w['start'], w['end']): w for w in json.loads((EXP / 't115-res
 _api = EXP / 't115-api' / 'BLOCK-RESULTS.json'
 API = json.loads(_api.read_text(encoding='utf-8')) if _api.exists() else {'fixes': {}}
 WHOSE = json.loads((HERE / 'WHOSE.json').read_text(encoding='utf-8'))
+UNCHECKED = {'F09': 'Its block\'s check ended without an answer: the request timed out, so it may or may not have reached '
+                     'Pangram, and it isn\'t sent again until the account\'s History shows which (the next whole-guide check reads it in any case).'}
+# Spots the block checks of the pass read low in paragraphs it didn't change, which round 8, in the whole guide, read High
+EXTRA = [
+    {'text': 'Be careful not to take the accusation as proof your love really is conditional, when it could just be another part talking.',
+     'kind': 'AI',
+     'note': 'Not in round 8\'s list: the whole guide read this sentence Human, High. But the check of its block after my change to the '
+             'paragraph with "Your little one might say it\'s you" read it AI, Low (https://www.pangram.com/history/b695880a-a675-4047-8b89-5f0b92d39fee), '
+             'and Human, Low before that change (https://www.pangram.com/history/1635c866-8fde-4e37-8572-b757f49bc675). Mine. The tell I see: a '
+             'cautionary closer ("Be careful not to ..., when it could just be ..."). I left it for the next whole-guide check, which reads it in place.'},
+]
 SHADE = {'AI': 'F4A6A6', 'Low': 'FFD966', 'Medium': 'BDD7EE', 'Nearly': 'E2ECF7', 'Seam': 'E4E4E4'}
 
 
@@ -188,7 +199,7 @@ def fix_note(f):
     v = API['fixes'].get(f['id'], {})
     head = {'cut': 'My pass: a cut, nothing added.', 'reword': 'My pass: its point said plainly.'}[f['kind']]
     return '%s Round 8 read: %s. The tell: %s. It keeps %s; it drops %s. %s' % (
-        head, f['windows'], f['tells'], f['keeps'], f['loses'], v.get('summary', 'Its block is not checked yet.'))
+        head, f['windows'], f['tells'], f['keeps'], f['loses'], v.get('summary', UNCHECKED.get(f['id'], 'Its block is not checked yet.')))
 
 
 def suggest_note(s):
@@ -232,11 +243,16 @@ def paragraph(doc, half, c, line, ls, R, breaks):
             e2 = e - (len(line[a:e]) - len(line[a:e].rstrip()))
             kd = kind_of(wm['label'], wm['confidence'], wm['calibrated_confidence'], wm['words'])
             spans.append([to_c(a2), to_c(e2 - 1) + 1, kd, None if kd == 'Seam' else window_note(wm)])
+        for x in EXTRA:
+            if x['text'] in c:
+                a3 = c.index(x['text'])
+                assert not any(sp[0] < a3 + len(x['text']) and sp[1] > a3 for sp in spans), 'EXTRA overlaps a round-8 window'
+                spans.append([a3, a3 + len(x['text']), x['kind'], x['note']])
     else:
         for f in fixes:
             for a, e, label, conf, cal, words in API['fixes'].get(f['id'], {}).get('para_windows', []):
                 kd = kind_of(label, conf, cal, words)
-                spans.append([a, e, kd, '%s, the check of its block after the change: %s, %s confidence (%.3f) here.' % (f['id'], label, conf, cal or 0)])
+                spans.append([a, e, kd, 'After my change, the check of this block alone (without the rest of the guide) read this %s, %s confidence.' % (label, conf)])
     # runs
     runs, pos_old, pos_new = [], 0, 0
     fix_c = {f['id']: doc.comment(fix_note(f)) for f in fixes}

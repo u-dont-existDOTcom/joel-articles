@@ -1,0 +1,8 @@
+{
+  "schema": "JOEL_CUT_REVIEW_V1",
+  "role": "preservation_and_cold_read",
+  "reviewer": {"name": "Claude Sonnet, fresh subagent (preservation and cold read, second try)", "context_id": "t115-gate-cuts-r2-subagent"},
+  "cuts": {
+    "F03-r2": {"verdict": "PASS", "note": "Compared after with before word by word: three removals only (the permission clause, 'If it's something serious, answer it seriously', and the 'might only be one sentence' prediction), nothing added, and block_after carries the paragraph verbatim. 'You don't have to accept every conclusion' lives on in the next paragraph's 'He doesn't collapse under that or fight it' (Mr. Rogers concedes only what is true), and 'answer it seriously' in the earlier 'take whatever's true in the anger seriously' plus 'answer what's worth answering'; the dropped one-sentence hedge is a small reassurance nothing later relies on, and 'the swearing runs out' survives in the closing sentence. Cold read: 'Your little one might say it's you. Listen for the concrete complaint... Like the anger at bedtime...' flows with no gap or dangling reference (bedtime and swearing both have antecedents) and I see no new AI pattern. These two guardrails now sit in the example and the earlier question rather than as stated instructions, which I judge an acceptable loss, not a material one."}
+  }
+}

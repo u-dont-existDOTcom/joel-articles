@@ -25,12 +25,11 @@ turn115 = '\n'.join([
     '  - Round 8: experiments/t115-results/ (record_round8.py, ROUND8.md, WINDOWS.md and windows_list.py): both halves Human Written, high (0.37% and 0.21% AI), 4 AI windows (all Low) and 89 more below Human, high; ledger #347 to #359, 12 of 13 right. All four AI windows were on words round 6 read below High, unchanged since. Lesson E276 (Inner Child) in docs/HUMANIZATION-GATE.md; the next lesson in either lane is E277.',
     '  - The pass: experiments/t115-pass/ (fixes.py, CANDIDATE-ARTICLE.md, PASS.md): 12 tell fixes in my paragraphs, 7 cuts and 5 plain rewordings, taking in all 4 AI windows and 7 of the 8 Low ones (the eighth is in his crisis P2); one cut is only a suggestion (C2, which he approved as it is). experiments/t115-gate/: three fresh reviewers passed all 12, the owner-delivery gate admitted the 5 rewordings (GATE-OUTCOMES.json). Nothing installed: the article is as turn 114 left it (sha 3f3d938d6583441d).',
     '  - The docx: experiments/t115-docx/inner-child-spots-round8.docx (build_spec.py, build_docx.js, whose.py): the whole guide as round 8 read it, the pass as tracked changes (one he leaves as it is counts as accepted), every remaining window below High shaded by kind with a comment (its reading, round 6\'s, whose words), Track Changes on.',
-    '  - The API checks of the 10 changed blocks: predictions #360 to #369 (experiments/t115-api/batch1.py, TEXTS-1.json); not run, because the laptop dropped off the link mid-turn.',
+    '  - The checks: each changed block through the API, predictions first (experiments/t115-api/, API-CHECKS.md; ledger #360 to #370; laptop results in pangram-api/t115). No checked paragraph reads Low or AI; F01, F02, F05 and F11 read High throughout. F03 needed a second try (its permission clause cut too, reviewed again). F09\'s block timed out ambiguously (pangram-api/t115/cache has its .ambiguous.json): check the account\'s History before resending. The second check of Love Doesn\'t Have to Wait put an AI, Low window on P10\'s "Be careful not to take the accusation ..." (unchanged; High in round 8), marked in the docx for round 9.',
+    '  - Main took pull request #254 (the community lane) and the hypnosis guide lane\'s batch 480 while this turn ran; both are merged into the lane. The hypnosis guide lane wrote its own E276 at the same time, so this lane cites "E276 (Inner Child)", and the next lesson in either lane is E277 (docs/HUMANIZATION-GATE.md).',
     '  - NEXT: Next step 1.',
 ])
-next1 = ('1. If the turn-115 API checks haven\'t run: run experiments/t115-api/TEXTS-1.json through tools/humanization/pangram_api.py '
-         '(check ... pangram-api/t115 --expect 4.1 --windows --public) on the laptop, record them with experiments/t115-api/record.py '
-         '--ledger, and rebuild the docx with the results (experiments/t115-docx/build_spec.py, then build_docx.js). When his docx '
+next1 = ('1. When his docx '
          'comes back: read its tracked changes and his edits, put in what he accepted (a change he left as it is counts as accepted) '
          'and what he wrote (his words as he wrote them; any new words of mine through tools/humanization/owner_delivery_gate.py), '
          'then round 9, the whole guide, in the two temporary drafts. Every turn ends with the whole article sent and passed to the '
@@ -48,7 +47,7 @@ upd = {
          '  - experiments/t115-answers/ (his message), t115-results/ (round 8 read), t115-pass/ (the pass), t115-gate/ (its reviews and gate), t115-docx/ (the docx) and t115-api/ (its checks) (the latest turn), t114-answers/ (his message and answers), t114-installs/ (the install) and t114-substack/ (round 8), ', 1],
         [r"^1\. Round 8's two result links when he sends them:.*$", next1, 1],
         [e('The next lesson in either lane is E276 (the community lane\'s turn took E272 to E274 while this one ran, and the hypnosis guide lane its own E275, so this one is cited as "E275 (Inner Child)").'),
-         'The next lesson in either lane is E277 (the community lane\'s turn took E272 to E274 while this one ran, the hypnosis guide lane its own E275, so this one is cited as "E275 (Inner Child)", and this lane\'s turn 115 took E276).', 1],
+         'The next lesson in either lane is E277 (the community lane\'s turn took E272 to E274 while this one ran, the hypnosis guide lane its own E275, so this one is cited as "E275 (Inner Child)", and both lanes took E276 at the same time in turn 115, this one cited as "E276 (Inner Child)").', 1],
     ],
     'insert_before': [
         ['- TURN 114 (2026-10-26', turn115],
@@ -56,10 +55,9 @@ upd = {
     'sections': {
         '## Waiting on Joel': '\n'.join([
             '1. His docx back (experiments/t115-docx/inner-child-spots-round8.docx): the pass decided, his shaded spots worked on.',
-            '2. The laptop back on the link, if it is still off (the API checks and the push wait for it).',
-            '3. %s' % ('His merge of pull request #%s (turn 115).' % PRN if PRN != 'none' else 'The push of turn 115, then his merge of its pull request.'),
-            '4. The two temporary Substack drafts, "Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)", still hold round 8; round 9 goes into them after his docx, and his delete comes after round 9 is read.',
-            '5. Never in the article: amounts (the 1g, the 7g) and any recipe for what to take instead, including his "ultimate psychedelic recipe" line and its link.',
+            '2. %s' % ('His merge of pull request #%s (turn 115).' % PRN if PRN != 'none' else 'The push of turn 115, then his merge of its pull request.'),
+            '3. The two temporary Substack drafts, "Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)", still hold round 8; round 9 goes into them after his docx, and his delete comes after round 9 is read.',
+            '4. Never in the article: amounts (the 1g, the 7g) and any recipe for what to take instead, including his "ultimate psychedelic recipe" line and its link.',
         ]),
     },
 }

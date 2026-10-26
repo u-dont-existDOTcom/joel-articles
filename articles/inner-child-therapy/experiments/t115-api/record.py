@@ -60,12 +60,11 @@ def main(path, ledger):
             over = [w for w in below if w[3] < e and w[4] > a]
             para = [[max(w[3], a) - a, min(w[4], e) - a, 'AI' if w[0].startswith('AI') else 'Human', w[1], None, w[2]] for w in over]
             bad = [w for w in over if w[0].startswith('AI') or w[1] == 'Low']
-            shown = ('every window High' if not below else '%d window%s below High: %s' % (
-                len(below), '' if len(below) == 1 else 's', '; '.join('%s, %s (%d words): "%s"' % (
-                    'AI' if w[0].startswith('AI') else 'Human', w[1], w[2], w[5].strip()[:90]) for w in below)))
+            shown = ('every window over it Human, High' if not over else '; '.join('%s, %s (%d words) on "%s"' % (
+                'AI' if w[0].startswith('AI') else 'Human', w[1], w[2], w[5].strip()[:90]) for w in over))
             res['fixes'][fid] = {
                 'check': n, 'link': r['dashboard_link'], 'para_windows': para, 'meets': not bad,
-                'summary': 'Checked with its block after the change (%s): %s, %.2f%% AI, %s.' % (
+                'summary': 'Checked with its block after the change (%s): %s, %.2f%% AI. In this paragraph: %s.' % (
                     r['dashboard_link'], r['headline'], 100 * r['fraction_ai'], shown)}
         if ledger:
             cmd = [sys.executable, str(ROOT / 'tools/humanization/pangram_ledger.py'), 'result', str(LEDGER), '--key', n,
