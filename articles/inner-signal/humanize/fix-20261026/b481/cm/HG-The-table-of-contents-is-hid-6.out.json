@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cm/HG-The-table-of-contents-is-hid-6.txt",
+  "input_words": 40,
+  "input_sha256": "17a9ce654c7240c71c4fdb69570b8c10817dbf946a452aa5e65a3460ebb214a1",
+  "balance_before": 48639,
+  "started_utc": "2026-10-26T12:57:13Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:57:17Z",
+  "response": {
+    "id": "e32cddbe-4492-4111-aa40-9083dfbefd03",
+    "tool": "humanize",
+    "text": "NB: The table of contents is hidden on the left.\n\nIt's a weird thing about Substack, but if you move your mouse far to the left you'll see the table of contents. It'll be really helpful for this guide as it's a long one.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 40
+    },
+    "elapsed": 4
+  },
+  "balance_after": 48519
+}

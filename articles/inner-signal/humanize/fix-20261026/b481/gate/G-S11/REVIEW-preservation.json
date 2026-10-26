@@ -1,0 +1,19 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "ef44fe8aa1a93b54dfd1066b61581b5a9606324693358e549f2c9ca1a42c4dce",
+  "context_sha256": "d746619828de751f1a37707ef1b60d0d64be8394f2a591c71e9829c1b1294b48",
+  "source_sha256": "441a482c4822baee9aab6bbbb31437bcfede4ae0543d411110948d1c2efc1d04",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+    "context_id": "b481-gate-preservation-subagent-a",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Draft: 'Also read some of the stuff in the daily and weekly sections, to make the practice your own.' Words it replaces (his approved working-copy sentence): 'You can also look at the daily and weekly sections to make the practice your own.' Published meaning to keep: 'The daily and weekly sections help you make the practice your own.' Word by word: 'also' is kept (as 'Also'); 'the daily and weekly sections' is verbatim; 'to make the practice your own' is verbatim, which is the ending the_change says is kept (present, nothing missing). 'You can' is dropped and 'look at' becomes 'read some of the stuff in'; both are named in the_change as the intended swaps. Judgments: (1) 'You can also look' (an option) becomes the imperative 'Also read'. That is a register change toward a direction, but in this paragraph the permissive frame carries over ('To make it easier, you can begin with... Then, you can read...'), so 'Also read' reads as one more pointer in the same run, and 'some of' keeps it optional. No obligation, condition, person or number is created, and the reader is the one acting in both versions. (2) 'look at' to 'read' plus 'some of the stuff in' shifts how much you do (browse to read part of). It adds no fact about the guide, and it narrows nothing he said, since the published line only says these sections help you make the practice your own. (3) A comma now precedes 'to make': punctuation only, same purpose clause. The draft appears once in CONTEXT.txt, verbatim. Reads right: 'the stuff' sits in the same casual register as the unchanged next sentence ('lots of appendices... covering lots of topics'); no typo, stray space or apostrophe slip. Tells: I went through T01-T29 and C01-C04 on the draft in its context and find none actually happening in the changed sentence. T07: 'some of the stuff' is a plain casual noun phrase, not a hesitation or stage direction between beats. T15: it is Emulate's sentence, but it is not a rare-word swap; the frame changed (modal dropped, partitive added) and his ending is intact. T22 and T02: the coach and pointer cadence belongs to the unchanged neighbours ('you can begin with...', 'Then, you can read...') of a how-to-use paragraph; the draft adds none and drops its own 'You can'. T11: 'Also' is a plain additive already in his sentence ('You can also'). C02: 'the daily and weekly sections' and 'the practice' are anchored by the heading and the previous sentence. Linter finding D9 'follows the source order' is accepted: one sentence is swapped in place, nothing is reordered or moved (T14 absent); the paragraph's order is the guide's own order of parts, and it keeps its own noticing ('for the part of the practice no recording can decide in advance'; the hostile-presence appendix); T13 and T09 checked, and the draft neither adds nor removes any. The writer's stated reason ('by design') is thin, but the context answers the flag.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order"
+  ]
+}

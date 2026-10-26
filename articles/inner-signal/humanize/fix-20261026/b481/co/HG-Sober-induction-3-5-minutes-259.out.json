@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-co/HG-Sober-induction-3-5-minutes-259.txt",
+  "input_words": 88,
+  "input_sha256": "46b440fa0fff366eb1b0225e4413af751c39dcf5504a776e5b6a6950ec0b16b5",
+  "balance_before": 45207,
+  "started_utc": "2026-10-26T12:58:36Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:58:42Z",
+  "response": {
+    "id": "7b1f506f-f913-4e4f-baeb-fe28cb94d2bf",
+    "tool": "humanize",
+    "text": "return your attention to your chosen anchor. 4. Let as much of your attention as you can bring come to what you found. 3. Leave a little space. 2. If you can, listen, too, to the space after the words—without preparing an answer. 1. Take your time.\n\nBring to mind, if you want, the thing you want to talk about, or your wish for inner contact. Just let it be there for now.\n\nWhat do you notice now?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 88
+    },
+    "elapsed": 6
+  },
+  "balance_after": 44943
+}

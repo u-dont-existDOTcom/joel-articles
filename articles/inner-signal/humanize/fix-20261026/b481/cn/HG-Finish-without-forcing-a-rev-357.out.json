@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cn/HG-Finish-without-forcing-a-rev-357.txt",
+  "input_words": 115,
+  "input_sha256": "8adc3b06ac43999f6c4c956ee914518df32ed6db41ef94eaa85ea4175707ad35",
+  "balance_before": 44561,
+  "started_utc": "2026-10-26T12:58:52Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:58:59Z",
+  "response": {
+    "id": "56495dfe-d95a-4ed7-ab5a-905eeafe1075",
+    "tool": "humanize",
+    "text": "6. Ending the session Don’t feel that you have to end the session with a great revelation! When you have done as much as you want to do, it is a good idea to find out if there is anything that you need to do to make sure that you can leave things where they are for the time being. This might include thanking parts for their help, or making sure that you do something in real life (eat a good meal, put a boundary in place, get some rest, repair a relationship, keep a promise etc). Whatever it is, tell your little one, “That’s enough for today. We’re going back to the life we’re building.”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 115
+    },
+    "elapsed": 6
+  },
+  "balance_after": 44331
+}

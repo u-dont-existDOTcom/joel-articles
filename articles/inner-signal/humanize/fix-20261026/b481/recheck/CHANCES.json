@@ -1,0 +1,122 @@
+{
+ "S11": [
+  0.05,
+  0.5,
+  "Emulate's co for a Medium (0.989) 16-word sentence, its own ending kept; a small change in a long paragraph that read High around it"
+ ],
+ "S12": [
+  0.1,
+  0.4,
+  "Emulate's cm for his own Low (0.649) sentence: a plainer line after his Substack sentence, which stays"
+ ],
+ "S14": [
+  0.08,
+  0.5,
+  "Emulate's co for the first and third sentences of a Medium (0.982) 77-word window, his second sentence between them"
+ ],
+ "S15": [
+  0.08,
+  0.4,
+  "Emulate's co: the Low (0.848) list of four joined to its question with a dash"
+ ],
+ "S16": [
+  0.05,
+  0.5,
+  "Emulate's cm for the paragraph's last sentence (Medium 0.989 with the next line)"
+ ],
+ "S17": [
+  0.05,
+  0.5,
+  "the one-line paragraph without its 'And', as all three samples gave it (the same Medium window as S16)"
+ ],
+ "S18": [
+  0.1,
+  0.4,
+  "Emulate's cm for a Medium (0.944) and a Low (0.531) sentence, ending on his 'trust and precision'"
+ ],
+ "S19": [
+  0.08,
+  0.45,
+  "Emulate's co for a Low (0.829) sentence"
+ ],
+ "S20": [
+  0.1,
+  0.35,
+  "Emulate's cm for the last sentence of a Low (0.722) 64-word window; the two before it, his inner child guide's, stay"
+ ],
+ "S21": [
+  0.05,
+  0.5,
+  "Emulate's cm for one sentence of a Medium (0.987) window; the bracket after it stays"
+ ],
+ "S22": [
+  0.08,
+  0.45,
+  "Emulate's cn for three sentences (Medium 0.974)"
+ ],
+ "S23": [
+  0.05,
+  0.5,
+  "Emulate's cn for the first two sentences of a Medium (0.982) 58-word window; the rest stays"
+ ],
+ "S24": [
+  0.05,
+  0.5,
+  "the sentence two of Emulate's three samples gave, for a Medium (0.986) one"
+ ],
+ "S25": [
+  0.1,
+  0.25,
+  "Emulate's cn for eight short sentences and questions (Medium 0.949, Low 0.879, Medium 0.957); still short questions, so short windows"
+ ],
+ "S26": [
+  0.08,
+  0.3,
+  "Emulate's co question for a Low (0.727) six-word request; the three Medium BEFORE requests before it stay"
+ ],
+ "S27": [
+  0.05,
+  0.5,
+  "Emulate's co for the end of the first sentence and the last (Medium 0.989, 0.982)"
+ ],
+ "S28": [
+  0.1,
+  0.3,
+  "Emulate's co, shorter, for a Low (0.618) question: a seven-word paragraph"
+ ],
+ "S29": [
+  0.12,
+  0.35,
+  "Emulate's co for his three requests (Low 0.575 with the next section's first sentence), ending on his own words"
+ ],
+ "S30": [
+  0.12,
+  0.35,
+  "Emulate's co for the next section's first sentence, in the same Low (0.575) window as S29"
+ ],
+ "S31": [
+  0.12,
+  0.35,
+  "Emulate's co for his inner child guide's two sentences (Low 0.531, 0.851)"
+ ],
+ "S32": [
+  0.1,
+  0.4,
+  "Emulate's cn for his own Low (0.640) sentence"
+ ],
+ "S33": [
+  0.05,
+  0.4,
+  "Emulate's cm for the script's lead-in (Medium 0.984 with the first two questions)"
+ ],
+ "S34": [
+  0.05,
+  0.4,
+  "Emulate's cn for the script's first question (the same Medium window)"
+ ],
+ "S36": [
+  0.05,
+  0.35,
+  "Emulate's cm, one question for his two (Medium 0.963 with his 'What does accountability require?'); still a run of short questions"
+ ]
+}

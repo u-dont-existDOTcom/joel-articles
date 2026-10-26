@@ -4,7 +4,10 @@
 The Markdown file in Git is the master (UDA patterns/owner-questions-page.md, rule 2); this writes the view. Republish the
 output to the same artifact every time the file changes (its URL is in STATUS.md and the handoff).
 
-Usage: python3 tools/render_questions.py OWNER-QUESTIONS.md community-questions.html
+Usage: python3 tools/render_questions.py OWNER-QUESTIONS.md community-questions.html [PAGE-TITLE]
+
+PAGE-TITLE (default "Community Article Questions") is the published page's name; the hypnosis guide's questions page uses
+"Hypnosis Guide Questions" (2026-10-26: its questions had lived only in Git, and the pages Joel opens showed none open).
 """
 import html
 import re
@@ -212,7 +215,10 @@ def main():
     bad = questions_lint.problems(text)
     if bad:
         raise SystemExit('questions_lint FAIL, the page was not written:\n- ' + '\n- '.join(bad))
-    open(dst, 'w', encoding='utf-8').write(render(text))
+    page = render(text)
+    if len(sys.argv) > 3:
+        page = page.replace('<title>Community Article Questions</title>', '<title>%s</title>' % html.escape(sys.argv[3]), 1)
+    open(dst, 'w', encoding='utf-8').write(page)
     print('%s: %d bytes' % (dst, len(open(dst, encoding='utf-8').read())))
 
 

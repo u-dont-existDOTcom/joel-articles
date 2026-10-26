@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cn/HG-Protecting-Yourself-from-Hyp-30.txt",
+  "input_words": 124,
+  "input_sha256": "04636e1804742d6ba29a1f9c7d84ee336eb63d5081cff933b83d2b42d52b7d22",
+  "balance_before": 48519,
+  "started_utc": "2026-10-26T12:57:18Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:57:26Z",
+  "response": {
+    "id": "01634731-0f90-47ec-b921-47bba35dfb62",
+    "tool": "humanize",
+    "text": "Hypnotism can occur in the office, but also through music, marketing, religious ritual, sexual chemistry, charismatic authority figures, social media, grief, fear, political messages, sense of belonging, fatigue, love, trauma, beauty, etc.\n\nWhen not engaging the conscious mind, there are still numerous ways to influence a person. This is known by marketers and interface designers. The Federal Trade Commission recently published a report on “dark patterns,” or designs that trick or manipulate people. The OECD calls these “patterns that have been designed by commercial entities to induce users to make choices that may not be in their best interest by steering, deceiving, coercing, and/or manipulating them.”\n\nConscious agreement, unconscious receptivity, emotional compliance, legal and ethical, can their mind be influenced without the conscious agreement of their adult self?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 124
+    },
+    "elapsed": 8
+  },
+  "balance_after": 48147
+}

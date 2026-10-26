@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cm/HG-How-to-use-this-very-large-g-4.txt",
+  "input_words": 118,
+  "input_sha256": "af6d5b93dac1595e0478dabb97796bf5749d68f423bebee22a54d593319085b0",
+  "balance_before": 48993,
+  "started_utc": "2026-10-26T12:57:04Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:57:12Z",
+  "response": {
+    "id": "4d6ceb0d-0e12-49f5-959d-ff6e5b2b7b28",
+    "tool": "humanize",
+    "text": "If you want to take it easier, read Quick start , learn one of the inductions and the whole return sequence, and then jump to Let the next response guide you and work through the daily and weekly sections as you please. There are also lots of appendices with additional tools for working with a lot of other things; check the table of contents if you're interested. Topics include questions, NLP patterns of language, working with anxiety, working with daydreams, working with altered states in general, what to do if it feels like there's a hostile presence, working with sleep, influence, and additional inductions, among others. All the sources used in this post are at the end, in Appendix K.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 118
+    },
+    "elapsed": 7
+  },
+  "balance_after": 48639
+}

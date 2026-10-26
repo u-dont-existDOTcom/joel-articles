@@ -1,5 +1,34 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-26, after Joel's message of 12:43 UTC (batch 480's recheck links; the questions page; the preview link; confidence)
+
+**Batch 480's recheck, read** (`fix-20261026/b480/recheck/read/`): [part A](https://www.pangram.com/feed/0f1902cd-df2a-4837-9879-69979188e5f1)
+Human Written, 0 of 153 windows AI (71 High, 68 Medium, 14 Low); [part B](https://www.pangram.com/feed/1a9e674f-113e-46ad-8a07-0fb6b71ad65e)
+Mostly Human Written, 1.3% AI, the audit (2c) the one AI window (25 High, 20 Medium, 1 Low). HG-whole#71 a miss
+(pessimism, explained), HG-rest-B#72 right; the part forecasts 27 of 27 (Brier 0.017) and 14 of 14 (0.010). Nine of the
+ten cards read High in place; S3b's stop lines Medium, Low, Medium.
+
+**The questions page** ("Hypnosis Guide Questions", https://claude.ai/artifact/8o79MFm9vSpyMGrAeArZYx): the guide's own
+view of `OWNER-QUESTIONS.md` (`guide-questions.html`, `render_questions.py` with a page title); his "no open questions"
+was the community page and InnerSignal's.
+
+**Lesson E279** (a word of his that a sample drops goes back before the gate). **Two standing rules** (AGENTS.md, `docs/HUMANIZATION-GATE.md` E277 and E278, `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`,
+`docs/FIXING-AN-ARTICLE.md` 14, memory): the secret preview link for every lane (`tools/humanization/substack_secret_link.js`),
+and confidence for every window (`tools/humanization/window_confidence.py`, test).
+
+**Batch 481** (`fix-20261026/b481/README.md`): Emulate's samples of the 22 groups with a Low window or a Medium one of 10
+words or more (cm, cn, co), and of the audit; 24 splices, the strict Emulate check (clean), five linter FAILs fixed (one
+spot dropped), the gate (24 drafts, 24 delivered after two rounds: five failed the first (S14, S31, S32, S34, S36, each on a word or mark of his) and were fixed and reviewed again with the two whose sections changed with them (S15, S30, S33)). The windows left and why are in CANDIDATES.json and his page.
+
+**Question 21's page** (34 cards, REVIEW-481, browser test 74 of 74) republished to the same artifact; **questions 22 and 23**
+open; **the recheck with batch 481 in** built, forecast (CHANCES.json with a chance of High per spot), predicted
+(HG-whole#73, HG-rest-B#74), pasted and checked rendered, with each draft's secret preview link.
+
+Predictions: HG-whole#71 a miss (explained), HG-rest-B#72 right; HG-whole#73 and HG-rest-B#74 open.
+Delegations (model, piece, check, outcome): Sonnet ×36, the gate's reviewers (24 in the first round, eight groups by three roles; 12 in the second, four groups) in groups of two or three drafts, one at a
+time (`b481/gate/BRIEF-<role>-<group>.md`), each review file checked by `owner_delivery_gate.py` against the drafts' hashes:
+96 review files, 88 PASS and 8 FAIL (five drafts, all fixed and passed by fresh reviewers); group h's three reviewers also wrote five of their files again into folders that had moved, which are kept in `b481/gate/superseded/`, and two of them were stopped (lesson E279).
+
 ## 2026-10-26, after Joel's message of 00:54 UTC (batch 479's recheck links)
 
 **Batch 479's recheck, read** (`fix-20261025/b479/recheck/`): [part A](https://www.pangram.com/feed/9b9bedd2-a7d1-4141-9d85-168fbe3e81e4)

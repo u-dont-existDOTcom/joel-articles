@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-co/HG-Why-doing-it-myself-worked-b-65.txt",
+  "input_words": 154,
+  "input_sha256": "68f0d9748da1dc0a9cf98085599130aca97eb2dcb97176fd3ede6cb86b6fad10",
+  "balance_before": 47831,
+  "started_utc": "2026-10-26T12:57:34Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:57:43Z",
+  "response": {
+    "id": "a74d207d-f91f-4cc0-b871-bab8dfe6257f",
+    "tool": "humanize",
+    "text": "It occurs to me that self hypnosis would be more useful to me than the minimal I did with a professional, considering I was sober and not that suggestible then, but even if I had been, I don't think it would have been all that useful because...\n\nWhen I do it by myself, I can pick up when my wording of something for my subconscious isn't quite right. I can talk to my subconscious and find out what it thinks is wrong with the wording. And when I'm using imagery, I can tell when an image is giving me useful information and when it's just showing me what I'm afraid of or trying to avoid or what I want to be true or something I don't yet understand, among other things. I can tell when my body is saying no, before my conscious mind can twist it around to a yes.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 154
+    },
+    "elapsed": 8
+  },
+  "balance_after": 47523
+}

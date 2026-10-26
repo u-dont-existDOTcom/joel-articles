@@ -1,0 +1,23 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "5768b77c01d021ad346df91aad2c5bb2f8adc5786d1bedead681513908db1193",
+  "context_sha256": "da715839396d1c7dcb4ac9aee599e601744af07a38dc9c0953b9e70d53ffddbd",
+  "source_sha256": "529d7a8c78f0609dec4b068990688cc1d4468573c0f96a1a4b44a0e90a2b356f",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "b481-gate-cold_read_1-subagent-h",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Judged \"Here is a little script you could use:\" in its CONTEXT, where it sits directly under the heading \"Anxiety script\" and above the first-person script, against SOURCE (\"A script you could use for anxiety is:\", the working-copy line he approved; published guide \"For anxiety:\"). The change does what the_change says: Emulate's lead-in replaces the old lead-in. \"for anxiety\" is no longer inside the sentence, but the heading one line above says \"Anxiety script\", so the kept meaning (a script for anxiety that the reader may use) is still on the page, adjacent. The only new word is \"little\", a softener that adds no fact or claim. It reads naturally there: nothing precedes it but the heading, \"Here\" points at the script block that follows, there is no pronoun to misdirect, and the script's first line follows from it (that first line is the separate S34 change, which I read only as context; the context I judged is the current one, with its curly apostrophe in \"Let’s\"). It is not a landing: the line is the whole paragraph and ends on a colon. I went through T01-T29 and C01-C04 on the literal line. The one row actually happening is T19 (announcing setup): the line's only job is to introduce the script block. I judge it justified, because it is the label for a quoted script (so also not T25: the colon introduces a real quotation, not a drama reveal), the approved source line did the same job with the same \"you could use\" offer, and it tells the reader the block is words for them to use. The writer's ledger calls T19 ABSENT; I disagree on the letter but not on the outcome. I also weighed T11 and T22 and do not find them: the line bridges nothing between document parts and offers no reassurance or anticipated feeling. T26: \"little\" recurs in \"little one\" two paragraphs down, but \"a little script\" is a stock idiom, not a distinctive repeated word. T14: the \"for anxiety\" point is not lost, it sits in the heading. T01, T02-T10, T12, T13, T15-T18, T20, T21, T23, T24, T27-T29 and C01-C04 are absent: one eight-word line with no first-person stake, no invented fact, no named claim, and no pronoun. Linter findings, each judged against the context: \"B7 short landing at paragraph end\" is accepted, because the line opens the script and ends on a colon, so it is a lead-in and not an engineered closer. \"D9 follows the source order\" is accepted: a single lead-in sentence has no points to reorder, and T13 and T09 have nothing to apply to in one label line. \"E36/E41 heavy second person\" (12.5 per 100) is accepted: it is one \"you\" in an eight-word line, the same single \"you\" as the source line, an artifact of the tiny sample, and the guide addresses the reader as \"you\" throughout.",
+  "resolved_tell_ids": [
+    "T19"
+  ],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order",
+    "E36/E41 heavy second person"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "f4c1eeffe9b683ac7d84e07e6f99f1fb3c068dde08757e6402b1e48ac23a54b2",
+  "context_sha256": "c3b688bcf8c6f6e8be4d63acaee11da1109b0dae649cc6c972b969ab7b14a2fc",
+  "source_sha256": "443583441e24dabdbf59c05c120919ba30421474f0f7d94773c45f34570d2d02",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+    "context_id": "b481-gate-cold_read_2-subagent-h",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Read CONTEXT whole (section 'Forgiveness without bypass': the two paragraphs, the quoted lines, the lead-in 'Some questions that may be helpful to ask...:' and the list of seven questions), then the DRAFT's three questions against SOURCE (the working-copy questions it replaces, and his published four) and the_change. Word-for-word: the middle question 'What shaped the other person(s) into someone capable of that harm?' is identical to the source's and stays. 'What boundaries do I need to set as a result?' asks what 'What boundaries need to be set?' and his 'What boundaries are still needed?' asked; it is now first-person like the list's last question ('How can I let this go'), and 'as a result' ties it to the impact question just before it, which is the order his list already has, so it adds no fact (the 'still' was already gone from the working-copy line this replaces, and the paragraph above says 'our boundary with them still matters'). 'What’s theirs and what’s mine?' is his 'What belongs to them? What belongs to me?' as one question with nothing dropped, and 'theirs' takes the other person(s) of the question before it as its referent. His 'What actually happened?', 'What was the impact?', 'What does accountability require?' and the last question are untouched. In context it reads as one list of reflective questions with no seam: the mix of impersonal and 'I' questions is already in his list, the curly apostrophes in 'What’s' match the section, and there are no spacing or punctuation slips. Tell rows: T02 is UNCERTAIN, since seven 'What...?' questions in a row each do one job and hand off to the next, but it is justified: it is his published list, introduced as questions to ask, none is answered by the text (so not T24), and the change merges two of them and lengthens one, which loosens the cadence rather than tightening it. T12 (theirs/mine) considered and ABSENT: a naturally necessary contrast that was a pair in his guide, and one question is less symmetrical than two. T11 for 'as a result' considered and ABSENT: a real link between impact and boundaries inside a question, not a bridge. T06: 'boundaries' and the theirs/mine question are stock therapy language, but they are his published terms, so nothing is new. All other rows ABSENT: no first-person stake or fact about Joel (T01, C03), no claim (C04), referents clear (C02), no 'the kid' (C01), nothing moved or dropped (T14), no synonym-swapping (T15). Linter: 'B7 short landing at paragraph end' accepted, since the linter saw the draft alone and in context this question is the fifth of seven, with 'What does accountability require?' and the final question after it. 'D9 follows the source order' accepted, since it is a rewording of the replaced questions in place. 'O29' (run of three or more questions) accepted: the run is the paragraph's point, they are his published questions and ones a reader would ask themselves, they are introduced as a list of questions to ask, and the text answers none of them. Files read: GATE-INPUTS.json, the tell inventory, and this folder's DRAFT, CONTEXT, SOURCE and ADMISSION.",
+  "resolved_tell_ids": ["T02"],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order",
+    "O29 a run of three or more questions (gate step 7: \"a few shared AI micro-patterns (question runs, triads, \"isn't X, it's Y\")\"; its prediction review: \"questions the text answers itself\"): keep the ones a reader would ask"
+  ]
+}

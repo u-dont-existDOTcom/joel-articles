@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cm/HG-audit-list-605.txt",
+  "input_words": 119,
+  "input_sha256": "b683d8526ea88e474ce4b91b7897121027a61eb48ab1f2bd2428f9eafa07c2fd",
+  "balance_before": 41526,
+  "started_utc": "2026-10-26T13:00:17Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T13:00:28Z",
+  "response": {
+    "id": "5216f530-7a05-4542-8381-e8e7c9522619",
+    "tool": "humanize",
+    "text": "Before becoming involved in a recording or a live situation, always ask yourself:\n\nWere they upfront about using induction mechanics in the process?\n\nDoes the answer help to modify the process so that it allows for me to remain fully alert, or should I stop?\n\nAm I going to be expected to not be aware of something that they want to be secret proof that they succeeded?\n\nAm I being treated like I can’t make adult decisions, because of role, ownership, obedience, age, identity, belonging, etc.?\n\nHave they told me how they will use fractionation, cues, and effects on later behavior or memories, prior to using them?\n\nWill I be led to believe that they can create a hidden idea, based on normal body sensations?\n\nIs the exit going to restore me to my normal self, when it comes to identity, movement, orientation, critical judgment, and being told that the session has been ended?\n\nIf the answer isn’t clear in any of these areas, remain fully alert and either get the script, modify the process, or leave.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 119
+    },
+    "elapsed": 10
+  },
+  "balance_after": 41169
+}

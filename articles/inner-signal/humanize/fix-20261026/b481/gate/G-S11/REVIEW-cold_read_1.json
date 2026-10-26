@@ -1,0 +1,19 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "ef44fe8aa1a93b54dfd1066b61581b5a9606324693358e549f2c9ca1a42c4dce",
+  "context_sha256": "d746619828de751f1a37707ef1b60d0d64be8394f2a591c71e9829c1b1294b48",
+  "source_sha256": "441a482c4822baee9aab6bbbb31437bcfede4ae0543d411110948d1c2efc1d04",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "b481-gate-cold_read_1-subagent-a",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Judged: 'Also read some of the stuff in the daily and weekly sections, to make the practice your own.' inside the 'How to use this very large guide' paragraph. Change check: the_change says Emulate's 'read some of the stuff in' replaces 'look at', the sentence's own ending 'to make the practice your own' is kept, and 'Also' replaces 'You can also'. The draft does exactly that. The one extra mark is a comma before 'to make', which matches the paragraph's own pattern in the sentence before it ('...section, for the part of the practice no recording can decide in advance') and changes no meaning. Meaning against SOURCE.txt: the daily and weekly sections and 'make the practice your own' both survive. The only addition is the sampling sense of 'some of', which suits a 'very large guide' and the lighter 'look at' it replaces. It adds no fact, name, number or first-person claim (C03 and C04 absent). In context: the two sentences before use 'you can begin' and 'Then, you can read', so the bare 'Also read' reads as the same permission with 'you can' dropped, an ordinary spoken ellipsis; 'Also' follows 'Then, you can read the Let the next response guide you section' as one more thing to read; 'the practice' is anchored by 'the part of the practice' in the sentence before; 'the daily and weekly sections' sits naturally beside the named Quick start and Let the next response guide you sections; there is no stray pronoun (C02 absent). 'the stuff' matches the casual 'lots of appendices ... lots of topics' that follows. Tell rows: I find none PRESENT. I looked hardest at T02 (the paragraph is a reading-order list, but that is the job of a how-to-use signpost, and this sentence is looser, not tidier, than its neighbours), T07 ('some of the stuff' is a real narrowing, meaning the reader does not have to read all of it, not a staged hesitation), T15 (plain casual words, not rarer ones; the swap is the point of the change), T22 (the instruction carries its own reason clause and the 'You can also' opener is gone), T11 ('Also' is a bare connective, not polished bridge language), T13 and T09 (a signpost paragraph whose order is the guide's own order; this sentence adds the offhand sampling note). The sentence is not the paragraph's last (T28, T29 absent). Linter finding 'D9 follows the source order' (1/1 paragraphs, agreement 1.00) is accepted: a one-sentence swap follows its source's order by construction, the order here is the guide's reading order and not a staircase hiding a lack of noticing, and I checked T13 and T09 as the flag asks and find them absent.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order"
+  ]
+}

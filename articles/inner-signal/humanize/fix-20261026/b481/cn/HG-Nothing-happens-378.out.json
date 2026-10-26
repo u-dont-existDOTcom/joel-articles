@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cn/HG-Nothing-happens-378.txt",
+  "input_words": 79,
+  "input_sha256": "55d4fe9ba5920e23bfd3d44282d307b6b3fa93f09b3032998e8a0c622c541c5b",
+  "balance_before": 43907,
+  "started_utc": "2026-10-26T12:59:09Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:59:17Z",
+  "response": {
+    "id": "e8520f60-cd33-47c4-a4c8-a5e318abaf57",
+    "tool": "humanize",
+    "text": "NOTE: Please be aware that, especially if you are working through trauma or other memories, the images you are seeing in your mind are not necessarily meant to be taken literally. Your mind may make them into something else, squish a few things together, distort them, exaggerate them, or use a number of other ways of protecting you based on your past life experience, culture, fears, etc. It is best to take them just as images and to seek help if needed.\n\nTroubleshooting:\n\nWhat can I do if nothing seems to be happening?\n\nIs there a way to try this on a smaller scale?\n\nThings to try asking to be shown: one body sensation; one word; if today you are meant to listen to others or get some rest.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 79
+    },
+    "elapsed": 7
+  },
+  "balance_after": 43589
+}

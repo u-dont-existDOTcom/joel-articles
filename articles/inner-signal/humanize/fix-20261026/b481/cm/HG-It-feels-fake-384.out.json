@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cm/HG-It-feels-fake-384.txt",
+  "input_words": 160,
+  "input_sha256": "89525cffc11ed68a12f9497f9ab694484eacae0f32badf780a280b32d5649143",
+  "balance_before": 43589,
+  "started_utc": "2026-10-26T12:59:17Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:59:25Z",
+  "response": {
+    "id": "aa299464-bcbe-4425-8153-0cae96b98ea6",
+    "tool": "humanize",
+    "text": "Have you got a sense of what it is that is fake, the words, an image, what you are expecting to get from this, a role you feel you have to play etc. It doesn’t matter, it isn’t about not having a inner voice/image etc. or not being grown up or not wanting to do the work, it is about this isn’t working and it feels like you are doing something you don’t want to do so correct it. It may be that there is a part that is trying to protect you so talk to it.\n\n“What are you protecting me from?” or “Are you afraid I will be lying to myself again?” or “are you afraid this is going to be a performance.” That one can sometimes sting but may be appropriate as you may well have fooled yourself. So “Tell me what you remember, I’m listening.”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 160
+    },
+    "elapsed": 8
+  },
+  "balance_after": 43269
+}
