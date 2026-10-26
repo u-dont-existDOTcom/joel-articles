@@ -1,0 +1,14 @@
+{
+  "schema": "JOEL_CUT_REVIEW_V1",
+  "role": "cold_read_1",
+  "reviewer": {"name": "Claude Sonnet, fresh subagent (the first cold reader)", "context_id": "t115-gate-cold-read-1-cuts-subagent"},
+  "cuts": {
+    "F01": {"verdict": "PASS", "note": "With 'And if nothing moves at all, don’t push it.' gone, the aunt and the uncle who just sits there still show not pushing, and 'Knowing that love is in you somewhere counts for a lot…' still lands as the closing comfort (the 'attempt goes flat' case is set up in the first paragraph). No dangling reference, nothing added."},
+    "F03": {"verdict": "PASS", "note": "Answering what's serious is said before ('take whatever’s true in the anger seriously') and shown after (Mr. Rogers 'does answer what’s worth answering in it'), and 'Like the anger at bedtime, the swearing…' now follows 'yelling and swearing' directly with no gap. Only the small prediction that the complaint 'might only be one sentence' goes, and the paragraph doesn't need it."},
+    "F07": {"verdict": "PASS", "note": "His line 'You are more than your pain and your past.' now runs straight into 'There’s help, and lots of other people are out there learning…', which says 'you aren’t alone' concretely; the cut 'them' left with its sentence, so nothing dangles. What goes is explanation and reassurance, not a step."},
+    "F08": {"verdict": "PASS", "note": "The paragraph now ends on the boss example and 'nobody had to cry on a meditation cushion for that to happen', which is a complete ending; the cushion-as-practice point is already given by the paragraph before ('saying the right thing when you sit down with your little one helps, but you also have to start actually doing some of it in the rest of your life'), so the cushion line is not misread as 'no practice needed'."},
+    "F09": {"verdict": "PASS", "note": "'And you can still feel none of the warmth people mean when they say love. That just means you start smaller.' reads cleanly, 'That' points at the missing warmth, and 'smaller' is picked up by 'go smaller still' in the next paragraph. The door image goes but the way in is still said by 'you start'; no words added."},
+    "F11": {"verdict": "PASS", "note": "'If that’s what you find, just listen to it, without arguing back.' reads naturally ('it' still points at the 'I hate myself' answer) and keeps the instruction that 'an honest hearing' stood for, and the 'But if you opened this article…' that follows still turns on it. Only the stock phrase is cut."},
+    "F12": {"verdict": "PASS", "note": "'And maybe it was love. Ask that part what it hoped might happen when it brought you here…' runs on cleanly ('that part' is anchored by the heading and 'something in you' above), and the step needs no decision first, so the permission wasn't carrying anything."}
+  }
+}

@@ -1,0 +1,130 @@
+{
+ "F02": {
+  "the_change": "In \"Borrow Love P4 (after his Solomon's paradox paragraph)\", a whole-guide Pangram check (round 8) read r8w022 AI, Low (0.668), its first two sentences; r8w023 Human, Medium (0.933), \"That's how you learn as a kid, and it works now, too.\". The tell: an instruction wrapped in an image (\"hand it to yourself\"), filler (\"then for now just try\"), the example packaged as \"If the advice was ...\" and a reassuring follow-up (\"and it works now, too\"). The change: \"Then take a small piece of whatever you’d tell them and hand it to yourself. If the advice was “get more sleep,” then for now just try brushing your teeth before midnight instead of at two. That’s how you learn as a kid, and it works now, too. The technical term\" becomes \"Then take a small piece of whatever you’d tell them and do it yourself. If it’s “get more sleep,” that could be brushing your teeth before midnight instead of at two. The technical term\". It must keep the step (one small piece of the advice you'd give them, done yourself), the sleep example with its numbers, and scaffolding with its link, and add no claim, tone or promise the paragraph as it is doesn't make; what it drops: \"That's how you learn as a kid, and it works now, too.\" The scaffolding link says what it said: small steps are how people learn..",
+  "candidate_sha256": "19e743171163fb896351e6f90749b9014a345c4a156a1ba6196e6e32e2bd1b14",
+  "context_sha256": "859e35874165541cf3942b3f4b04c0bdbb458a021c946602ad89efba1da37863",
+  "source_sha256": "4579664894140d24cce199600ae622bd24d2361baeae78cfc0d7ea781b3212e4",
+  "lint_findings": [
+   {
+    "label": "B2 contrast",
+    "examples": [
+     "If it’s “get more sleep,” that could be brushing your teeth before midnight instead of at two."
+    ],
+    "writer_reason": "\"before midnight instead of at two\" is the approved example's own pair of times; it sizes the step, it is not a rhetorical contrast."
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ],
+    "writer_reason": "It is the same paragraph with one tell taken out, so it follows the approved paragraph's order by design; each sentence still notices something (T13 and T09 in the ledger)."
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "6.5 \"you\" per 100 of my words"
+    ],
+    "writer_reason": "The two sentences are the guide's instruction to the reader, as the whole guide is; \"you\" and \"your teeth\" are the reader doing the step."
+   }
+  ],
+  "writer_marked_present": []
+ },
+ "F04": {
+  "the_change": "In \"If You Want to Kill Yourself P1 (safety)\", a whole-guide Pangram check (round 8) read r8w048 Human, Low (0.503) \"Can't tell if that's you?\"; r8w049 to r8w051 AI, Low (0.503 to 0.595), its last three sentences. The tell: a question answered with a short knock-down (\"Can't tell if that's you? Treat it like it is.\"), and a disclaimer followed by a reframe (\"None of that is me answering ... It just keeps ...\"), the not-X, it-just-Y shape. The change: \"Do the same if you can’t stop yourself, or you’re badly disoriented or intoxicated. Can’t tell if that’s you? Treat it like it is. None of that is me answering whether life is worth living. It just keeps the question open long enough to look at.\" becomes \"Do the same if you can’t stop yourself, and also when you’re badly disoriented or intoxicated, or can’t tell whether any of this is you. Getting safe first keeps the question of whether life is worth living open long enough to look at.\". It must keep every safety instruction and its order; the grounding's MUSTs (a crisis line counts; if you can't tell whether it's you, do the same, as if it is); his guide's two points, that this isn't an answer to whether life is worth living and that it keeps the question open long enough to look at, and add no claim, tone or promise the paragraph as it is doesn't make; what it drops: nothing; \"That isn't my answer\" is now said by \"keeps the question ... open\".",
+  "candidate_sha256": "0e568dfbc92ac6683fb5bb9bec05c975518cfe1ab71104cfa1568affc6e1d3a7",
+  "context_sha256": "e458cc09896c187099cb7a89a07188d5bdd56d85189c833ba8a2772194c280af",
+  "source_sha256": "fdc9db6e237d673a80bb5031e1a3e4bd14782d77d77225943990c6679e7ad5a1",
+  "lint_findings": [
+   {
+    "label": "B4/E15 list or packed sentence",
+    "examples": [
+     "Do the same if you can’t stop yourself, and also when you’re badly disoriented or intoxicated, or can’t tell whether any of this is you."
+    ],
+    "writer_reason": "One action (\"Do the same\") with its conditions: his guide's own (\"can't stop yourself, are badly disoriented or intoxicated\") and the grounding's MUST (if you can't tell, do the same), in different shapes; the list-of-three rule passes."
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ],
+    "writer_reason": "It is the same paragraph with one tell taken out, so it follows the approved paragraph's order by design; each sentence still notices something (T13 and T09 in the ledger). A safety instruction keeps its order."
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "7.0 \"you\" per 100 of my words"
+    ],
+    "writer_reason": "A safety instruction to a reader who may be about to act; the second person is its point."
+   }
+  ],
+  "writer_marked_present": [
+   {
+    "id": "T17",
+    "evidence": "\"Getting safe first keeps the question of whether life is worth living open long enough to look at.\" states what the steps are for",
+    "reason": "It is his guide's own point in this place (\"It keeps the question open long enough to investigate it\"), which the grounding review marked as a point the paragraph must carry; said once, about these steps, for a reader who may resist being told life is worth living."
+   }
+  ]
+ },
+ "F05": {
+  "the_change": "In \"Write It. Don't Send It Yet., its last paragraph\", a whole-guide Pangram check (round 8) read r8w076 Human, Low (0.868) \"What felt scared when I wrote it can read like a threat from over there.\". The tell: a balanced inversion closer (felt scared here, reads like a threat over there). The change: \"What felt scared when I wrote it can read like a threat from over there.\" becomes \"Stuff I wrote while I was scared can sound like a threat to them.\". It must keep the reason to read it as them: what was fear when you wrote it can land as a threat, and add no claim, tone or promise the paragraph as it is doesn't make; what it drops: nothing.",
+  "candidate_sha256": "080c56ddf082e10c8b24468f7dadf8a99d899c64f06e2721f26cdacf2d35b594",
+  "context_sha256": "aedbf8ae2b83068456b3ac4d41c5777a3caab47b1eb3f08481e86572150533d5",
+  "source_sha256": "2739dc1e43f51f12126999fa95f29c7ecd515519392ebb481639b42ca4fc3ab0",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ],
+    "writer_reason": "It is the same paragraph with one tell taken out, so it follows the approved paragraph's order by design; each sentence still notices something (T13 and T09 in the ledger)."
+   }
+  ],
+  "writer_marked_present": []
+ },
+ "F06": {
+  "the_change": "In \"How to Forgive Without Forgetting P3\", a whole-guide Pangram check (round 8) read r8w082 Human, Low (0.855) \"Seeing how they got there doesn't make it okay.\"; r8w081 Human, Medium (0.961), its first sentence; r8w083 Human, Medium (0.984) stays. The tell: a short knock-down sentence after a balanced \"still ... still\" sentence. The change: \"They still have to answer for what they did, and it still hurt. Seeing how they got there doesn’t make it okay. It’s just that\" becomes \"They still have to answer for what they did, and it still hurt, even if you see how they got there. It’s just that\". It must keep accountability, the hurt, and that understanding how they got there doesn't excuse it, said about the people in one sentence, and add no claim, tone or promise the paragraph as it is doesn't make; what it drops: nothing.",
+  "candidate_sha256": "b7d9a1e69f7e24bf88e7f116adff15d13b77cf4cb293ace6efa230f80a78efb4",
+  "context_sha256": "d7fd885e9f2ac6ece9c780115bec53d92e7594ae52074d69a38cfdff941e4dd8",
+  "source_sha256": "43ce8a02f9b522338bd6cc33ab7933e9321700c9d563ac036666cff7868dbb9e",
+  "lint_findings": [
+   {
+    "label": "B1 finished principle",
+    "examples": [
+     "They still have to answer for what they did, and it still hurt, even if you see how they got there."
+    ],
+    "writer_reason": "It is about the people who hurt you and this harm, with the concession as a clause: the shape the gate notes read Human, high in the hypnosis guide (\"They really did hurt us and they still have to answer for it, ...\")."
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ],
+    "writer_reason": "It is the same paragraph with one tell taken out, so it follows the approved paragraph's order by design; each sentence still notices something (T13 and T09 in the ledger)."
+   }
+  ],
+  "writer_marked_present": []
+ },
+ "F10": {
+  "the_change": "In \"Remember When You Already Did It\", a whole-guide Pangram check (round 8) read r8w015 Human, Medium (0.981) \"Maybe you're more worn out now, or missing whatever helped back then. (No example? Try another doorway.)\". The tell: a question answered with a short knock-down, in parentheses. The change: \"(No example? Try another doorway.)\" becomes \"(If no example comes to mind, try another doorway.)\". It must keep the pointer to the other doorways for a reader with no example; \"Maybe you're more worn out now ...\" stays, the grounding's point that past strength doesn't cancel today's limits, and add no claim, tone or promise the paragraph as it is doesn't make; what it drops: nothing.",
+  "candidate_sha256": "7cd5dcabfe0cdff3aca21560edca303d30050a0ba8fcdea367d206546b8cb1a6",
+  "context_sha256": "ff0caf7df3a2cf2e1d5d8f33e1ca296db5894852ddb0542df6eb024e9d92b038",
+  "source_sha256": "9033c4a4f959fddb303a65d1d31db7234344c44d66b4d32089a1e5470fedad8b",
+  "lint_findings": [
+   {
+    "label": "B7 short landing at paragraph end",
+    "examples": [
+     "(If no example comes to mind, try another doorway.)"
+    ],
+    "writer_reason": "A parenthetical pointer for a reader with no example, as the approved paragraph had; plain, with nothing to land."
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ],
+    "writer_reason": "It is the same paragraph with one tell taken out, so it follows the approved paragraph's order by design; each sentence still notices something (T13 and T09 in the ledger)."
+   }
+  ],
+  "writer_marked_present": []
+ }
+}

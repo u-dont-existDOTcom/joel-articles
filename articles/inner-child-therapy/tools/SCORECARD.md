@@ -8,8 +8,8 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/inner-child
 |---|---|---|---|---|---|---|
 | Pangram 4.0 (before the ledger) | 3085 | 1395 (45%) | 57% | 43% | 96% | - |
 | Pangram 4.1 GUI (dashboard) | 28 | 27 (96%) | 4% | 96% | 100% | 0.104 (base 0.034, 28) |
-| pangram-4.1-substack | 85 | 59 (69%) | 45% | 55% | 58% | 0.187 (base 0.247, 85) |
-| pangram-4.1-api | 203 | 158 (78%) | 32% | 68% | 84% | 0.193 (base 0.218, 203) |
+| pangram-4.1-substack | 98 | 71 (72%) | 42% | 58% | 61% | 0.184 (base 0.243, 98) |
+| pangram-4.1-api | 213 | 167 (78%) | 31% | 69% | 85% | 0.192 (base 0.214, 213) |
 
 106 of the older calls are scored here differently from the lane's own marks (98 marked right there, 8 marked wrong): this page uses one rule for every lane, where only a 100% Human result is a pass and a "Mixed" or "Human with an AI window" call counts as not Human.
 
@@ -53,42 +53,42 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 37 (74%) | 38% | 62% | 80% | 0.174 (base 0.236, 50) |
-| the latest 100 | 85 | 59 (69%) | 45% | 55% | 58% | 0.187 (base 0.247, 85) |
-| all | 85 | 59 (69%) | 45% | 55% | 58% | 0.187 (base 0.247, 85) |
+| the latest 50 | 50 | 44 (88%) | 28% | 72% | 80% | 0.147 (base 0.202, 50) |
+| the latest 100 | 98 | 71 (72%) | 42% | 58% | 61% | 0.184 (base 0.243, 98) |
+| all | 98 | 71 (72%) | 42% | 58% | 61% | 0.184 (base 0.243, 98) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| stretch | 14 | 12 (86%) | 100% | 0% | 14% | 0.076 (base 0.000, 14) |
+| stretch | 16 | 14 (88%) | 100% | 0% | 12% | 0.080 (base 0.000, 16) |
 | paragraph | 51 | 29 (57%) | 43% | 57% | 53% | 0.242 (base 0.245, 51) |
-| section | 20 | 18 (90%) | 10% | 90% | 100% | 0.122 (base 0.090, 20) |
+| section | 31 | 28 (90%) | 10% | 90% | 100% | 0.140 (base 0.087, 31) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.0 to 0.2 | 8 | 0.13 | 0% |
-| 0.2 to 0.4 | 7 | 0.26 | 0% |
-| 0.4 to 0.6 | 52 | 0.51 | 60% |
-| 0.6 to 0.8 | 28 | 0.67 | 75% |
+| 0.2 to 0.4 | 9 | 0.27 | 0% |
+| 0.4 to 0.6 | 61 | 0.52 | 64% |
+| 0.6 to 0.8 | 36 | 0.66 | 81% |
 | 0.8 to 1.0 | 1 | 0.80 | 100% |
 
 ## pangram-4.1-api
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 43 (86%) | 18% | 82% | 96% | 0.176 (base 0.148, 50) |
-| the latest 100 | 100 | 81 (81%) | 24% | 76% | 93% | 0.181 (base 0.182, 100) |
-| all | 203 | 158 (78%) | 32% | 68% | 84% | 0.193 (base 0.218, 203) |
+| the latest 50 | 50 | 42 (84%) | 18% | 82% | 98% | 0.170 (base 0.148, 50) |
+| the latest 100 | 100 | 85 (85%) | 18% | 82% | 97% | 0.175 (base 0.148, 100) |
+| all | 213 | 167 (78%) | 31% | 69% | 85% | 0.192 (base 0.214, 213) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | paragraph | 113 | 88 (78%) | 32% | 68% | 85% | 0.186 (base 0.217, 113) |
-| section | 70 | 53 (76%) | 31% | 69% | 87% | 0.207 (base 0.216, 70) |
+| section | 80 | 62 (78%) | 29% | 71% | 89% | 0.202 (base 0.205, 80) |
 | stretch | 20 | 17 (85%) | 35% | 65% | 70% | 0.182 (base 0.227, 20) |
 
 Calibration:
@@ -96,15 +96,15 @@ Calibration:
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.2 to 0.4 | 13 | 0.32 | 8% |
-| 0.4 to 0.6 | 134 | 0.55 | 66% |
-| 0.6 to 0.8 | 120 | 0.64 | 82% |
+| 0.4 to 0.6 | 139 | 0.55 | 67% |
+| 0.6 to 0.8 | 127 | 0.64 | 83% |
 | 0.8 to 1.0 | 4 | 0.80 | 75% |
 
-## Misses since the ledger (72)
+## Misses since the ledger (74)
 
 | cause | misses |
 |---|---|
-| not explained yet | 17 |
+| not explained yet | 19 |
 | too pessimistic about a cut | 12 |
 | a tell I did not name | 11 |
 | a Low window came back | 8 |
@@ -127,8 +127,6 @@ The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [t106_h3_journey](https://www.pangram.com/history/23800590-b449-4804-9dac-4b17d8926d18) | t106-h3-journey, 1 | Human | AI or mixed | **not explained yet** |
-| [t106_sec_journey](https://www.pangram.com/history/b6e45715-fbfe-4847-9993-7253918dc5d9) | t106-sec-journey, 1 | Human | AI or mixed | **not explained yet** |
 | [t106_sec_hero](https://www.pangram.com/history/5105656f-4f96-45af-b7b5-5bab9fd6d771) | t106-sec-hero, 1 | Human | AI or mixed | **not explained yet** |
 | [t106_sec_belong](https://www.pangram.com/history/4ee5effc-70d2-473c-9d01-3b00d7b42840) | t106-sec-belong, 1 | Human | AI or mixed | **not explained yet** |
 | [t106_sec_timing](https://www.pangram.com/history/7c606adb-0eb5-4440-9de2-82634becc011) | t106-sec-timing, 1 | Human | AI or mixed | **not explained yet** |
@@ -142,6 +140,8 @@ The latest:
 | [t109_guard_p1d](https://www.pangram.com/history/bc6afa93-645e-40e9-b608-3bb4aa1bcfd3) | t109-guard-plain, 4 | Human | AI or mixed | **not explained yet** |
 | [t111_c4_borrowlove](https://www.pangram.com/history/c18bb0c3-9232-470f-ab12-cf0850dbb3df) | t111-borrowlove, 1 | Human | AI or mixed | **not explained yet** |
 | [t111_c8_belonging](https://www.pangram.com/history/1be9c136-ff8f-4a2e-8ee6-d009ca5d0dfa) | t111-belonging, 1 | Human | AI or mixed | **not explained yet** |
+| [t114i_solomon](https://www.pangram.com/feed/909d378e-11d2-4722-b988-a508256c78b4) | t114i-solomon, 1 | Human | AI or mixed | **not explained yet** |
+| [t115_lovewait_r2](https://www.pangram.com/history/b695880a-a675-4047-8b89-5f0b92d39fee) | ic-t115-lovewait, 2 | Human | AI or mixed | **not explained yet** |
 
 ## Lineages still open (tries used of the cap)
 
@@ -239,4 +239,9 @@ The latest:
 | t112i-ifs | section | 1 of 2 | pending |
 | t112s-A | stretch | 1 of unlimited (Substack) | pending |
 | t112s-B | stretch | 1 of unlimited (Substack) | pending |
+| t114i-solomon | section | 1 of 2 | Mixed |
+| t114s-A | stretch | 1 of unlimited (Substack) | Mixed |
+| t114s-B | stretch | 1 of unlimited (Substack) | Mixed |
+| ic-t115-lovewait | section | 2 of 2 | Mixed |
+| ic-t115-lovecoming | section | 1 of 2 | pending |
 

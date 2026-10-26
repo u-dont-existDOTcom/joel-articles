@@ -1,0 +1,249 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "0e568dfbc92ac6683fb5bb9bec05c975518cfe1ab71104cfa1568affc6e1d3a7",
+  "context_sha256": "e458cc09896c187099cb7a89a07188d5bdd56d85189c833ba8a2772194c280af",
+  "source_sha256": "fdc9db6e237d673a80bb5031e1a3e4bd14782d77d77225943990c6679e7ad5a1",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "writer": {
+    "name": "Claude Opus 5.5, the Inner Child lane writer",
+    "context_id": "session_01NbUfhcTaRT8sbjyYV1wEFq"
+  },
+  "lint": {
+    "verdict_at_init": "REVIEW",
+    "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+    "stdout_sha256": "1a8b6ee461bbbf786c1b8aeb88d0a2cf6bb4a7d67b38e4911ebcc668a715d916",
+    "findings": [
+      {
+        "label": "B4/E15 list or packed sentence",
+        "examples": [
+          "Do the same if you can’t stop yourself, and also when you’re badly disoriented or intoxicated, or can’t tell whether any of this is you."
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "One action (\"Do the same\") with its conditions: his guide's own (\"can't stop yourself, are badly disoriented or intoxicated\") and the grounding's MUST (if you can't tell, do the same), in different shapes; the list-of-three rule passes."
+      },
+      {
+        "label": "D9 follows the source order",
+        "examples": [
+          "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "It is the same paragraph with one tell taken out, so it follows the approved paragraph's order by design; each sentence still notices something (T13 and T09 in the ledger). A safety instruction keeps its order."
+      },
+      {
+        "label": "E36/E41 heavy second person",
+        "examples": [
+          "7.0 \"you\" per 100 of my words"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "A safety instruction to a reader who may be about to act; the second person is its point."
+      }
+    ]
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "the first person of \"None of that is me answering\" is gone; no preference or care is staged",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "two sentences that finish a safety instruction: when it applies, and what it is for",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "\"Do the same\" points at the instruction two sentences up; \"the question of whether life is worth living\" is the section's subject",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "no scene in the sentences",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "no props in the sentences",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "concrete conditions: can't stop yourself, badly disoriented, intoxicated, can't tell",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "no filler or staged hesitation",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "no image in the sentences",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "the two sentences have different jobs and shapes (a long condition sentence, a short purpose sentence)",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "no permission packaging",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "\"Do the same\" is the instruction applied to more readers, not a bridge",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "the conditions are his guide's own (\"can't stop yourself, are badly disoriented or intoxicated\") and the grounding's MUST, in different shapes, not a balanced taxonomy",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "the purpose sentence is his guide's stance on the question, the thing the paragraph adds beyond the steps",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "nothing reordered: the safety order stands, and the scope line stays at the end where his guide has it",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "the shape changed: the question and its short answer became one condition, the disclaimer and its reframe one statement",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "the \"None of that is me answering ... It just keeps ...\" shape is gone; nothing is set up to be denied",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "PRESENT",
+      "evidence": "\"Getting safe first keeps the question of whether life is worth living open long enough to look at.\" states what the steps are for",
+      "resolution": "JUSTIFIED_KEEP",
+      "reason": "It is his guide's own point in this place (\"It keeps the question open long enough to investigate it\"), which the grounding review marked as a point the paragraph must carry; said once, about these steps, for a reader who may resist being told life is worth living."
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "the short knock-down \"Treat it like it is.\" is gone; \"can't tell\" is a condition of the same instruction",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "nothing announces what comes next",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "the paragraph ends on what the steps are for, plainly, with no antithesis or polish",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "ABSENT",
+      "evidence": "the long sentence has one job, when to do the same, with its conditions",
+      "resolution": ""
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "no reassurance or anticipated feeling; a plain instruction and its purpose",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "no scenery in the sentences",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "the self-answered question (\"Can't tell if that's you? Treat it like it is.\") is gone",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "no colon in the sentences",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "ABSENT",
+      "evidence": "\"the question\" once in the draft; \"Do the same\" points back without repeating the steps",
+      "resolution": ""
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "none of the tic words",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "not the end of the section: his paragraph and The Spiritual Side of the Question follow",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "the last sentence adds the guide's point (the steps don't settle the question, they keep it open), not a restatement of the steps",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "the inner child is not named, and \"the kid\" appears nowhere",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "\"any of this\" is the paragraph's own conditions (about to act, the means close by); \"Getting safe first\" is the two steps just given",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "no fact about Joel's life; the \"me\" is gone",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "no claim about a study, person or product",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "REVIEW-preservation.json",
+    "cold_read_1": "REVIEW-cold_read_1.json",
+    "cold_read_2": "REVIEW-cold_read_2.json"
+  }
+}

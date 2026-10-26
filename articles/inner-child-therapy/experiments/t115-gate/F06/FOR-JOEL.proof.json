@@ -1,0 +1,64 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_ADMITTED_V1",
+  "candidate_sha256": "b7d9a1e69f7e24bf88e7f116adff15d13b77cf4cb293ace6efa230f80a78efb4",
+  "context_sha256": "d7fd885e9f2ac6ece9c780115bec53d92e7594ae52074d69a38cfdff941e4dd8",
+  "source_sha256": "43ce8a02f9b522338bd6cc33ab7933e9321700c9d563ac036666cff7868dbb9e",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "lint_verdict": "REVIEW",
+  "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+  "lint_stdout_sha256": "ffe3c84899911b22c2b55979ec57f238393be5ee7f154ff8cb320d0b9e5272cd",
+  "lint_findings": [
+    {
+      "label": "B1 finished principle",
+      "examples": [
+        "They still have to answer for what they did, and it still hurt, even if you see how they got there."
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    },
+    {
+      "label": "D9 follows the source order",
+      "examples": [
+        "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    }
+  ],
+  "tell_ledger_counts": {
+    "ABSENT": 33,
+    "PRESENT_JUSTIFIED": 0,
+    "UNCERTAIN": 0,
+    "total": 33
+  },
+  "justified_tells": [],
+  "reviews": {
+    "preservation": {
+      "path": "REVIEW-preservation.json",
+      "sha256": "db9b740d49eac191a899bd7d90272675e6d32ff197fc3963110d0567ae7a6f74",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (the preservation reviewer)",
+        "context_id": "t115-gate-preservation-subagent",
+        "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 115, 2026-10-26"
+      }
+    },
+    "cold_read_1": {
+      "path": "REVIEW-cold_read_1.json",
+      "sha256": "dade5633bfd0dba368be0fb9bb6aeb10197dc0de849b120e0ad32ca64ac9ba23",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (the first cold reader)",
+        "context_id": "t115-gate-cold-read-1-subagent",
+        "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 115, 2026-10-26"
+      }
+    },
+    "cold_read_2": {
+      "path": "REVIEW-cold_read_2.json",
+      "sha256": "93f03ed0ad88e37a9c9d4cc5d0942d8253166c4256afe70dae6f1ffa8537dfc4",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (the second cold reader)",
+        "context_id": "t115-gate-cold-read-2-subagent",
+        "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 115, 2026-10-26"
+      }
+    }
+  },
+  "manifest_sha256": "b0022d9a348da8263ebfba0598a4814401eeee12e1bd875dc493266fef32ebfd",
+  "verified_at_utc": "2026-10-26T13:13:43.304470+00:00"
+}

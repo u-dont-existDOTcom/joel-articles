@@ -1,0 +1,190 @@
+{
+ "round": 8,
+ "turn": 115,
+ "how": "Each feed page was read in the desktop app's built-in browser with tools/humanization/pangram_feed_read.js in compact mode: the result's fields, the SHA-256 of its checked text, and its windows as compact lines (WINDOWS-A.txt, WINDOWS-B.txt, each checked here against the page's own SHA-256 of that line). The checked text is rebuilt from the pasted payload (tools/humanization/substack_check_text.py) with round 6's change to its quote rule (a straight double quote after \"(\" or \"—\" is a closing one in this paste) and the embedded note as one curled line; both halves match the page's SHA-256 only with them, as in round 6.",
+ "A": {
+  "link": "https://www.pangram.com/feed/909d378e-11d2-4722-b988-a508256c78b4",
+  "created_at": "2026-10-26T08:21:13.779959-04:00",
+  "version": "4.1",
+  "headline": "Human Written",
+  "fraction_ai": 0.0036856394726783037,
+  "num_ai_segments": 1,
+  "n_windows": 93,
+  "word_count": 15205,
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "ai_windows": [
+   {
+    "i": 43,
+    "confidence": "Low",
+    "words": 37,
+    "start": 30379,
+    "end": 30569,
+    "text": "Then take a small piece of whatever you’d tell them and hand it to yourself. If the advice was “get more sleep,” then for now just try brushing your teeth before midnight instead of at two."
+   }
+  ],
+  "not_high_human": 47,
+  "items": {
+   "t114i_guard": {
+    "ai_words": 0,
+    "not_high_human_words": 117,
+    "words": 490,
+    "ai_windows": [],
+    "not_high_human_windows": [
+     85,
+     87,
+     89,
+     91
+    ],
+    "prediction": "t114i-guard#347"
+   },
+   "t114i_start": {
+    "ai_words": 0,
+    "not_high_human_words": 4,
+    "words": 475,
+    "ai_windows": [],
+    "not_high_human_windows": [
+     83
+    ],
+    "prediction": "t114i-start#348"
+   },
+   "t114i_change": {
+    "ai_words": 0,
+    "not_high_human_words": 0,
+    "words": 404,
+    "ai_windows": [],
+    "not_high_human_windows": [],
+    "prediction": "t114i-change#349"
+   },
+   "t114i_fake": {
+    "ai_words": 0,
+    "not_high_human_words": 0,
+    "words": 419,
+    "ai_windows": [],
+    "not_high_human_windows": [],
+    "prediction": "t114i-fake#351"
+   },
+   "t114i_borrow": {
+    "ai_words": 0,
+    "not_high_human_words": 17,
+    "words": 327,
+    "ai_windows": [],
+    "not_high_human_windows": [
+     19,
+     21
+    ],
+    "prediction": "t114i-borrow#354"
+   },
+   "t114i_helping": {
+    "ai_words": 0,
+    "not_high_human_words": 0,
+    "words": 229,
+    "ai_windows": [],
+    "not_high_human_windows": [],
+    "prediction": "t114i-helping#355"
+   },
+   "t114i_solomon": {
+    "ai_words": 37,
+    "not_high_human_words": 65,
+    "words": 326,
+    "ai_windows": [
+     43
+    ],
+    "not_high_human_windows": [
+     39,
+     41,
+     43,
+     44
+    ],
+    "prediction": "t114i-solomon#357"
+   }
+  }
+ },
+ "B": {
+  "link": "https://www.pangram.com/feed/bd483bd6-edab-4f39-834c-3d959b0abb72",
+  "created_at": "2026-10-26T08:21:30.731076-04:00",
+  "version": "4.1",
+  "headline": "Human Written",
+  "fraction_ai": 0.0020749049726873636,
+  "num_ai_segments": 3,
+  "n_windows": 87,
+  "word_count": 12815,
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "ai_windows": [
+   {
+    "i": 3,
+    "confidence": "Low",
+    "words": 5,
+    "start": 16976,
+    "end": 16997,
+    "text": "Treat it like it is."
+   },
+   {
+    "i": 4,
+    "confidence": "Low",
+    "words": 11,
+    "start": 16997,
+    "end": 17056,
+    "text": "None of that is me answering whether life is worth living."
+   },
+   {
+    "i": 5,
+    "confidence": "Low",
+    "words": 11,
+    "start": 17056,
+    "end": 17112,
+    "text": "It just keeps the question open long enough to look at."
+   }
+  ],
+  "not_high_human": 46,
+  "items": {
+   "t114i_escape": {
+    "ai_words": 0,
+    "not_high_human_words": 0,
+    "words": 670,
+    "ai_windows": [],
+    "not_high_human_windows": [],
+    "prediction": "t114i-escape#350"
+   },
+   "t114i_therapist": {
+    "ai_words": 0,
+    "not_high_human_words": 0,
+    "words": 370,
+    "ai_windows": [],
+    "not_high_human_windows": [],
+    "prediction": "t114i-therapist#352"
+   },
+   "t114i_hooks": {
+    "ai_words": 0,
+    "not_high_human_words": 9,
+    "words": 511,
+    "ai_windows": [],
+    "not_high_human_windows": [
+     45,
+     47,
+     49
+    ],
+    "prediction": "t114i-hooks#353"
+   },
+   "t114i_forgive": {
+    "ai_words": 0,
+    "not_high_human_words": 70,
+    "words": 354,
+    "ai_windows": [],
+    "not_high_human_windows": [
+     63,
+     65,
+     66,
+     67,
+     69
+    ],
+    "prediction": "t114i-forgive#356"
+   }
+  }
+ }
+}

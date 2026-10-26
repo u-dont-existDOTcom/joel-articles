@@ -1,0 +1,19 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "080c56ddf082e10c8b24468f7dadf8a99d899c64f06e2721f26cdacf2d35b594",
+  "context_sha256": "aedbf8ae2b83068456b3ac4d41c5777a3caab47b1eb3f08481e86572150533d5",
+  "source_sha256": "2739dc1e43f51f12126999fa95f29c7ecd515519392ebb481639b42ca4fc3ab0",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (the preservation reviewer)",
+    "context_id": "t115-gate-preservation-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 115, 2026-10-26"
+  },
+  "evidence": "\"Stuff I wrote while I was scared can sound like a threat to them.\" keeps the source's reason for reading it as them: what was written from fear can land as a threat for the recipient (\"to them\" for \"from over there\", \"while I was scared\" for \"What felt scared when I wrote it\"). The first sentence is untouched, nothing is dropped or added, and the writer's fear is the source's own (\"felt scared when I wrote it\"), not a new first-person fact. The only linter finding, D9, is a one-sentence swap that removes the balanced inversion, so it is accepted; no tell row found PRESENT (no inversion or aphorism, it ends on a plain reason).",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order"
+  ]
+}
