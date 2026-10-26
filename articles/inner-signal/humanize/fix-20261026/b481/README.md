@@ -79,3 +79,8 @@ folder had moved.
   `CHANCES.json` and `make_changed.py` (my chance for each spot that it reads red and that it reads High), the part
   forecasts against batch 480's recheck, the ledger's predictions, the paste and the rendered checks, and each draft's
   secret preview link (`tools/humanization/substack_secret_link.js`).
+- **Pasted and checked** (`recheck/RECHECK-POST-A.json`, `RECHECK-POST-B.json`): both drafts cleared in the editor and
+  pasted from the pushed payloads (commit 9053a5ec); each secret preview link's rendered text equals the checked text
+  (part A's first 99,999 characters, TEXT-A.txt; part B's without the triage card line, TEXT-B.txt). The ledger's
+  predictions are HG-whole#73 (AI at 0.30) and HG-rest-B#74 (AI at 0.03); the marking page (34 cards, browser test 74 of
+  74) is republished to the same artifact.

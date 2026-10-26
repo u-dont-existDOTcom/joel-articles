@@ -210,7 +210,7 @@ Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the
 His message, word for word: `fix-20261026/joel-20261026-1243-message.txt` (the two result links; "the questions page has
 no open questions, so you must have forgotten to do that"; the preview link for every lane; "fix any segments that are not
 high confidence human if you can, and always we should be marking down the confidence if we have it"). Done (pull request
-{PR}):
+256, https://github.com/u-dont-existDOTcom/joel-articles/pull/256):
 - **Batch 480's recheck, read** (`fix-20261026/b480/recheck/read/`: WINDOWS, META, RESULT, SCORE, and CONFIDENCE.md from
   the new `tools/humanization/window_confidence.py`): part A Human Written, 0 of 153 windows AI (71 High, 68 Medium, 14
   Low); part B Mostly Human Written, 1.3% AI, the audit (2c) the one AI window. HG-whole#71 a miss (pessimism, explained),
