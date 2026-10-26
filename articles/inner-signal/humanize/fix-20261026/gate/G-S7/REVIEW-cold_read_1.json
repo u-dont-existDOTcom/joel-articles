@@ -1,0 +1,21 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "e45d15d1afe6c84bf39994cc3b908b666feffd32836a2ba1c494e552acea6209",
+  "context_sha256": "b7950b8ea726b0bcd7e3f33cb261a5cfaa60a4eb27246fb29f95013a3d15c3f3",
+  "source_sha256": "9682d9a2a9c0b7065298e8101135db973ebdb9ddf6f76411f12e5a2a6c5a4444",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "b480-gate-cold_read_1-subagent-c",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Read cold in the section “The inner child, the guards, and the inner adult’s three jobs”, paragraph 2. The sentence before the draft ends “I’m going to talk about it in terms of three jobs: your loving Nurturer, your safe Adult Protector (hereafter just the Protector) and your wise Guide.” The draft, “It’s one person doing three jobs rather than getting three more people to move in with you to help with the rent! Each job keeps the others in balance.”, follows from it directly: “It’s” picks up the “it” (what you develop in yourself) and “three jobs” just named; “one person” echoes paragraph 1’s “the person you are right now” and is settled by the next, unchanged sentence, “It’s you that needs to develop these qualities.”; “you” is the reader throughout; “Each job” and “the others” point at the three named jobs. The rent image is the joke the three role names invite (they sound like three people), so it lands where it sits. Against the change: two sentences, the rent joke kept (“three more people to move in with you to help with the rent”), the balance kept, and “keeps” (his word) where Emulate had “helps to keep”. Against SOURCE.txt (“That’s one grown-up doing three jobs, not three more people moving in to help with the rent, and each job keeps the others in balance.”): the same three points in the same order, nothing added, nothing dropped. The small shifts are Emulate’s turns and none adds a claim: “grown-up” becomes “person” (the adult is still carried by the heading’s “inner adult” and by “Adult Protector”, and his published guide itself says “the present-day person”), “not” becomes “rather than getting”, “with you” is added (already implied by “move in”), and the comma-joined sentence becomes two with “!” on the joke. Linter B2 contrast: accepted. The contrast (one person against three people) is his own joke from the source and answers a real misreading that the named roles invite (that they are three separate beings), so it is the point of the sentence and not a reflex frame; I looked at T12 and T16 on it and found neither happening. Linter B7 short landing at paragraph end: accepted. The linter saw the draft alone; in the article “Each job keeps the others in balance.” is not the paragraph’s end (the unchanged “It’s you that needs to develop these qualities.” follows), and its words are his own from the source. Linter D9 follows the source order: accepted. It is a rewrite of one sentence of his, so his three points come in his order by design; I checked T13 and T09 as the linter asks: the rent joke is the noticing and gets the weight, and the rest of the paragraph is untouched. Tell rows: I went through T01 to T29 and C01 to C04 on these literal words in their context and found none PRESENT. The ones I looked at hardest: T17, T20 and T29 on the short second sentence (a plain statement of how the three jobs relate, in his own words, mid-paragraph, not a quote-card line or a closing restatement); T26 (“three jobs” repeats from the sentence before, but the repeat is the hinge of the joke and is in his source too); T15 (the swaps are ordinary words, not rarer synonyms, and the structure is his); T08 (the second sentence adds a new point rather than explaining the joke); C02 (every pronoun lands); C03 and C04 (no first-person fact, no outside claim). One non-blocking note: “one person … move in with you” can make a reader pause for a beat over whether the one person is the reader, which the next sentence answers.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "B2 contrast",
+    "B7 short landing at paragraph end",
+    "D9 follows the source order"
+  ]
+}

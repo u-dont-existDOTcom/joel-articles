@@ -2,6 +2,10 @@
 
 Registered 2026-10-13 from the community humanization lane (branch `claude/emulate-lessons-20260930`, commit `6775ed15`), at Joel's answer to question 20: "yes register the article but i don't want to separate it from the rules co-developed in inner child lane... so don't register if it would cause that to fork..."
 
+## Now (2026-10-26)
+
+The working copy is `candidate/joel-20261025/answer66/WORKING.html`: the 2026-10-25 version with his answers to 66 in, which he made in his post himself (his message of 2026-10-26 00:54 UTC); his post matches it (`candidate/joel-20261025/answer66/PROMOTE-CHECK-20261026.json`), and `master.md` is that version (PROMOTION-RECEIPT-20261017.md). Nothing is waiting on him in this lane. The sections below are the history of how the article got here.
+
 ## Now (2026-10-25)
 
 The working copy is `candidate/joel-20261024/answer65/WORKING.html`: his editor HTML of 2026-10-20 with his answers 57 to 65 and his kibbutz image, as an essay and then a How-To Manual. It read Human Written as one text (0 of 72 windows AI, https://www.pangram.com/feed/954042b6-e624-4c7f-87d7-db15c547d5c8), and `master.md` is that version (PROMOTION-RECEIPT-20261017.md). His post gets it through `exports/COPY-TO-SUBSTACK.html` (receipt `exports/HELPER-RECEIPT-20261025.json`). The sections below are the history of how the article got here.

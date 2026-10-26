@@ -1,6 +1,6 @@
 # Handoff: Community article humanization
 
-The intentional-communities Substack article, humanized section by section so every paragraph and every section reads Human in Pangram's web app with the meaning kept. Checked again on 2026-10-26: his message of 2026-10-25 23:50 UTC was the hypnosis guide's two recheck links, with nothing for this lane, so this lane still waits on his five Substack changes (START HERE, Next). Updated 2026-10-25, after Joel's message of 23:05 UTC ("66a": his answers to question 66 are in a new working copy, and his post gets them as five changes in Substack; START HERE). Before that, his message of 19:42 UTC in the hypnosis guide lane asked for the strict Emulate check on this article too. Before that, his message of 00:27 UTC (the new version's first whole-article check: Human Written, 0 of 72 windows AI). His published post (pasted 2026-10-20) is unchanged until he pastes the new copy helper. The newest version is `candidate/joel-20261024/answer65/WORKING.html`, and `master.md` is that version.
+The intentional-communities Substack article, humanized section by section so every paragraph and every section reads Human in Pangram's web app with the meaning kept. Updated 2026-10-26, after Joel's message of 00:54 UTC ("and i made the changes on the community article that's done"): his post has the version with his answers to 66, read and matched in this turn, and `master.md` is that version (START HERE). Nothing is waiting on him in this lane. The newest version is `candidate/joel-20261025/answer66/WORKING.html`.
 
 **Resume line (paste into any Claude account; the repository is public):**
 > Continue my community article work: read https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/HANDOFF-community-article.md and carry on from its next step.
@@ -10,6 +10,10 @@ If that branch is gone (merged), the same file is on main: https://github.com/u-
 From an account with Desktop Commander connected to the laptop, the laptop copy works too: "Continue my community article work: on my laptop, read ~/claude-acceptance-transfer/handoffs/community-article.md and carry on from its next step." If Joel adds "My answer to your last message: ..." or "Here is my response to last turn there: ...", it answers the open items in "Waiting on Joel" below.
 
 ## START HERE
+
+**His message of 2026-10-26 00:54 UTC** (`joel-20261025/joel-20261026-0054-message.txt`): "and i made the changes on the community article that's done". Done (pull request 254, https://github.com/u-dont-existDOTcom/joel-articles/pull/254): his post read in the app's browser (https://community.u-dont-exist.com redirects to it) and compared line by line with `joel-20261025/answer66/WORKING.html`'s checked text: 270 of 272 lines equal, the two others differ only by a space the post drops; all five new sentences are there (`answer66/PROMOTE-CHECK-20261026.json`). `joel-20261025/promote_20261026.py` (a copy of the last promotion for this version) made `master.md` from it and set the receipt, owner locks, editorial status, detector evidence (478g), current state and registry hashes.
+- The questions page (https://claude.ai/artifact/1EA9KBhMGXHXiiTUGScx1J) is republished from `community-questions.html`: nothing open.
+- **Next:** nothing is open in this lane. If he edits the post again, read it the same way against the working copy, put his changes into a new working copy with a script, and promote it as `promote_20261026.py` did.
 
 **His message of 2026-10-25 23:05 UTC** (`joel-20261025/joel-20261025-2305-message.txt`): "66a", with his answers file
 (`joel-20261025/emulate-check/ANSWERS-20261025-2304.json`): IC-E1, IC-E2, IC-E3 and IC-T1 approved; IC-Q1 and IC-E4

@@ -7,10 +7,10 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/inner-signa
 | version | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | Pangram 4.0 (before the ledger) | 944 | 803 (85%) | 22% | 78% | 89% | 0.120 (base 0.174, 944) |
-| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 22 | 18 (82%) | 82% | 18% | 9% | 0.141 (base 0.149, 22) |
+| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 24 | 20 (83%) | 83% | 17% | 8% | 0.131 (base 0.139, 24) |
 | pangram 4.1, web app | 14 | 8 (57%) | 43% | 57% | 86% | 0.201 (base 0.245, 14) |
 | pangram 4.1, the API (Joel's key, run on his laptop; E218) | 20 | 12 (60%) | 45% | 55% | 75% | 0.216 (base 0.247, 20) |
-| pangram API (model pangram-4, expect 4.1), Joel's key, run on the laptop | 4 | 4 (100%) | 0% | 100% | 100% | 0.144 (base 0.000, 4) |
+| pangram API (model pangram-4, expect 4.1), Joel's key, run on the laptop | 7 | 6 (86%) | 14% | 86% | 100% | 0.185 (base 0.122, 7) |
 
 ## Pangram 4.0 (before the ledger)
 
@@ -42,23 +42,23 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 22 | 18 (82%) | 82% | 18% | 9% | 0.141 (base 0.149, 22) |
-| the latest 100 | 22 | 18 (82%) | 82% | 18% | 9% | 0.141 (base 0.149, 22) |
-| all | 22 | 18 (82%) | 82% | 18% | 9% | 0.141 (base 0.149, 22) |
+| the latest 50 | 24 | 20 (83%) | 83% | 17% | 8% | 0.131 (base 0.139, 24) |
+| the latest 100 | 24 | 20 (83%) | 83% | 17% | 8% | 0.131 (base 0.139, 24) |
+| all | 24 | 20 (83%) | 83% | 17% | 8% | 0.131 (base 0.139, 24) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| article | 10 | 8 (80%) | 90% | 10% | 10% | 0.123 (base 0.090, 10) |
+| article | 12 | 10 (83%) | 92% | 8% | 8% | 0.106 (base 0.076, 12) |
 | stretch | 12 | 10 (83%) | 75% | 25% | 8% | 0.155 (base 0.188, 12) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.0 to 0.2 | 10 | 0.05 | 10% |
-| 0.2 to 0.4 | 7 | 0.33 | 14% |
+| 0.0 to 0.2 | 11 | 0.05 | 9% |
+| 0.2 to 0.4 | 8 | 0.31 | 12% |
 | 0.4 to 0.6 | 5 | 0.47 | 40% |
 
 ## pangram 4.1, web app
@@ -114,25 +114,25 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 4 | 4 (100%) | 0% | 100% | 100% | 0.144 (base 0.000, 4) |
-| the latest 100 | 4 | 4 (100%) | 0% | 100% | 100% | 0.144 (base 0.000, 4) |
-| all | 4 | 4 (100%) | 0% | 100% | 100% | 0.144 (base 0.000, 4) |
+| the latest 50 | 7 | 6 (86%) | 14% | 86% | 100% | 0.185 (base 0.122, 7) |
+| the latest 100 | 7 | 6 (86%) | 14% | 86% | 100% | 0.185 (base 0.122, 7) |
+| all | 7 | 6 (86%) | 14% | 86% | 100% | 0.185 (base 0.122, 7) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 3 | 3 (100%) | 0% | 100% | 100% | 0.138 (base 0.000, 3) |
-| pair | 1 | 1 (100%) | 0% | 100% | 100% | 0.160 (base 0.000, 1) |
+| paragraph | 5 | 4 (80%) | 20% | 80% | 100% | 0.187 (base 0.160, 5) |
+| pair | 2 | 2 (100%) | 0% | 100% | 100% | 0.181 (base 0.000, 2) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.4 to 0.6 | 2 | 0.57 | 100% |
-| 0.6 to 0.8 | 3 | 0.65 | 100% |
+| 0.4 to 0.6 | 5 | 0.58 | 80% |
+| 0.6 to 0.8 | 5 | 0.63 | 80% |
 
-## Misses since the ledger (18)
+## Misses since the ledger (19)
 
 | cause | misses |
 |---|---|
@@ -149,12 +149,12 @@ Calibration:
 | tidy closer | 1 |
 | a linter fix that read worse | 1 |
 | pessimism about Emulate's whole-stretch re-run | 1 |
+| context: Human in the whole guide, red alone | 1 |
 
 The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [HG35-w467](https://www.pangram.com/history/74763536-ab88-4ec2-b347-0e186b0208ad) | HG35, 1 | Human | AI or mixed | parallel list kept; light green turned red |
 | [HG15-p9e2](https://www.pangram.com/history/b252243a-a20d-4f01-8643-7551ffcb5d56) | HG15-p9, 2 | Human | AI or mixed | balanced closer kept |
 | [HG35-forgive-e3](https://www.pangram.com/history/637e6fb4-3a47-4fe6-899f-b5ff0923e7f3) | HG35-p13, 2 | AI | Human | fix underrated |
 | [screen-S2](https://www.pangram.com/feed/e836ef9c-c964-4012-a5af-994ef88658eb) | HG17-emu-bd, 1 | AI | Human | tells overweighted |
@@ -169,13 +169,14 @@ The latest:
 | [b472_s1c](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b472/API-CHECKS.md#b472_s1c) | HG16-B209, 3 | Human | AI or mixed | a linter fix that read worse |
 | [HG-rest-41r4-b](https://www.pangram.com/feed/1db9825e-5fed-4528-aca5-9d4272b54f83) | HG-rest-B, 3 | Human | AI or mixed | parallel list kept |
 | [HG-whole-41r7b-a](https://www.pangram.com/feed/fd67dd6e-7193-4bdf-9ed8-3ed235d62d94) | HG-whole, 6 | AI | Human | pessimism about Emulate's whole-stretch re-run |
+| [b480-S9-p](https://www.pangram.com/history/0998d046-5087-4d3c-8ca0-388a19abca28) | HG-parent-script-P1, 1 | Human | AI or mixed | context: Human in the whole guide, red alone |
 
 ## Lineages still open (tries used of the cap)
 
 | lineage | scope | tries | last read |
 |---|---|---|---|
-| HG-whole | article | 8 of unlimited (Substack) | pending |
-| HG-rest-B | article | 6 of unlimited (Substack) | pending |
+| HG-whole | article | 9 of unlimited (Substack) | pending |
+| HG-rest-B | article | 7 of unlimited (Substack) | pending |
 | HG15-p9 | paragraph | 2 of 6 | Mixed |
 | HG15 | section | 1 of 2 | Mixed |
 | HG35 | section | 1 of 2 | Mixed |
@@ -188,4 +189,5 @@ The latest:
 | HG32-c1 | stretch | 1 of unlimited (Substack) | Mixed |
 | HG32-c2 | stretch | 1 of unlimited (Substack) | Mixed |
 | HG16-B209 | pair | 3 of 6 | Mixed |
+| HG-parent-script-P1 | paragraph | 1 of 6 | Mixed |
 

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cj/HG-A-guards.txt",
+  "input_words": 179,
+  "input_sha256": "40c0fc0494aef3bc133dcfed93f6e8a56a72cdf2d3a56ba1c3ac2cb1b90c9198",
+  "balance_before": 50386,
+  "started_utc": "2026-10-26T01:04:46Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T01:04:59Z",
+  "response": {
+    "id": "6495b18e-2beb-4c84-acb9-06ee88093b7d",
+    "tool": "humanize",
+    "text": "It’s possible that, instead, you find yourself numb, or cynical, or angry, or hungry, or feeling like you have to look at your phone, or sexually aroused, or like you have to make plans, or sleepy, or dissociated, or like what you’re doing is stupid, etc. Odds are, you’re getting a visit from one of your other very charming guards! They step up when your consciously installed parental Protector isn’t doing the job, as they did when you were a child. You might want to ask it what it’s afraid might happen if it didn’t step in now to stop you from doing this, or what it wants you to do instead. Or, it might be your inner child coming out, mad at you for taking so long to get back to this. Or, it might be the parent you inherited your scripts from. Or, it might be something from earlier in the day. Or, it might be all of the above.\n\nTalk to it anyway, in the same way you would to your inner child from your Nurturer. “I see you. I’m not going to force my way past you. What’s going on?” and patiently wait for an answer. If you don’t get one, that’s ok for now, but at some point ask yourself what it might be afraid will happen if it doesn’t protect you by…..",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 179
+    },
+    "elapsed": 12
+  },
+  "balance_after": 50207
+}

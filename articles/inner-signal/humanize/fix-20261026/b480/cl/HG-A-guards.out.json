@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cl/HG-A-guards.txt",
+  "input_words": 179,
+  "input_sha256": "40c0fc0494aef3bc133dcfed93f6e8a56a72cdf2d3a56ba1c3ac2cb1b90c9198",
+  "balance_before": 49372,
+  "started_utc": "2026-10-26T01:06:07Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T01:06:19Z",
+  "response": {
+    "id": "7160321b-fe4a-4e27-bc19-7458724b39e2",
+    "tool": "humanize",
+    "text": "Instead you feel numb, or cynical or angry or hungry or like you need to look at your phone or sexual or like you need to make plans or sleepy or dissociated or like what you’re doing is stupid, etc., etc. Know that you’re often experiencing a very charming guard that’s stepping up to protect you, since your consciously chosen, installed parental Protector isn’t working, just like when you were a kid. But first, before figuring out where it’s coming from, ask what it is (before acting on it) – what it is it doesn’t want you to do or what it wants you to do. It may also be your kid, acting out because you took sooooo long to come back and play; it may be your inherited parent script; it may be from earlier in the day; it may be a combo.\n\nAlso try just talking to him/her/them, in the same Nurturer voice you use with your kid: “I see you. I’m not going to force my way through. What’s going on?” Then wait patiently for an answer. If you don’t get one, that’s okay for now, but eventually ask, “What are you afraid is going to happen if you stop protecting me by…..”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 179
+    },
+    "elapsed": 11
+  },
+  "balance_after": 49193
+}

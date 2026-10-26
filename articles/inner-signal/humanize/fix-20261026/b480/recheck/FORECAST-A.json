@@ -1,0 +1,197 @@
+{
+ "parts": [
+  {
+   "name": "S7 IC-A2",
+   "text": "It’s one person doing three jobs rather than getting three more people to move in with you to help with the rent! Each job keeps the others in balance.",
+   "chance_red": 0.25,
+   "why": "Emulate's cl for his three-jobs sentence, with his \"keeps\" put back; read Human, High, alone (480g, HG-three-jobs-P2#68); the spot read red in place in each of the last two checks (IC-A2's cut line Low, his whole sentence High)",
+   "kind": "changed"
+  },
+  {
+   "name": "S8 IC-A14",
+   "text": "Before figuring out what/where it is, make sure to ask what it is trying to stop or what it wants. It may, of course, be your inner child, mad that it’s taken you so long to come back, or it may be your inherited parent script, or something from earlier in the day, or a bit of each.",
+   "chance_red": 0.3,
+   "why": "Emulate's ck for IC-A14's two sentences, ending on the card's \"or a bit of each\" (put back after the API check for the linter); read Human alone with the guard prompt after it (480g, HG-guards-P3#69); red in place last time (Medium, High), Human Low the time before",
+   "kind": "changed"
+  },
+  {
+   "name": "S9 parent script",
+   "text": "Your parent script is made up of a collection of rules and ways of treating yourself that you adopted as a child (mostly based on how you were treated by your parent(s)). It doesn’t always take the form of a voice. This is not the inner adult (Nurturer, Protector, Guide) that you consciously build.",
+   "chance_red": 0.2,
+   "why": "Emulate's cj and ck for the two sentences that read red (Low and Medium, humanized); read Human, High, alone (480g, HG-parent-script-P1#70), with \"This\" put back after the check for the linter",
+   "kind": "changed"
+  },
+  {
+   "name": "S3a2 RR-4.6",
+   "text": "If you are already partially or fully opened, use the later ‘Already open? Contain before you deepen’ section to help orient yourself, but do not attempt to deepen yourself if you are not stable.",
+   "chance_red": 0.1,
+   "why": "batch 479's S3a, which read Human in place (light green), without \"you can\" (the gate's linter)",
+   "kind": "changed"
+  },
+  {
+   "name": "guard prompt (unchanged)",
+   "text": "(To the guard, in the same Nurturer voice you meant for your inner child: “I see you. I’m not going to force my way past you. What’s going on?” Then wait and listen patiently. If nothing comes, that’s fine for now. At some point you can ask, “What are you afraid would happen if you stopped protecting me by…..?”)",
+   "chance_red": 0.25,
+   "why": "unchanged; read red in place last time after IC-A14's sentences (Medium 10 words, Low 17), Human alone with Emulate's sentences before it (480g, #69: Medium for \"I'm not going to force my way past you.\")",
+   "kind": "neighbour"
+  },
+  {
+   "name": "parent script tail (unchanged)",
+   "text": "Often this script acts as a critic or warden, telling your inner child not to cry, not to be “needy”, not to embarrass them, not to be too independent, etc. So when you begin talking to your child in a new, loving way, the script may jump in to say that what you’re doing is “fake”.",
+   "chance_red": 0.3,
+   "why": "unchanged; read Human in place last time, but AI alone after Emulate's sentences (480g, #70: Low 30 words, Medium 27)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S7 IC-A2: the rest of its paragraph, before it",
+   "text": "Here I’m going to talk about what you develop in yourself as you reparent your inner child. I’m going to talk about it in terms of three jobs: your loving Nurturer, your safe Adult Protector (hereafter just the Protector) and your wise Guide.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S7 IC-A2: the rest of its paragraph, after it",
+   "text": "It’s you that needs to develop these qualities.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S7 IC-A2: the paragraph before it",
+   "text": "Your inner child won’t trust you right away. It’s not going to be enough for you to meditate, say three nice sentences to the inner child and expect to have its trust. What’s going to help your inner child to trust you is you, the person you are right now, becoming reliable.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S7 IC-A2: the paragraph after it",
+   "text": "Also, your inner child’s worth is not dependent on these qualities… It has its own worth, and its own qualities, like playing, being tender, not taking life too seriously, being creative and wondering at the world. Those belong in your relationship with it too, not just the wounds.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S8 IC-A14: the rest of its paragraph, before it",
+   "text": "Instead, you might feel numb, cynical, angry, hungry, like you need to look at your phone, sexually aroused, like you need to make plans, sleepy, dissociated, or you might even think that what you’re doing is stupid. Those are not failures. Often they are you experiencing a very charming guard. It’s what protects you when your consciously installed parental Protector isn’t functioning, the same as when you were a child.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S8 IC-A14: the paragraph before it",
+   "text": "If you’re not careful, you might find yourself expecting that when you go within to meet your inner child, you’ll find your inner child.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S9 parent script: the rest of its paragraph, before it",
+   "text": "One important thing to become aware of when approaching your inner child is your inherited parent script.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S9 parent script: the paragraph before it",
+   "text": "Most of the time the guard wants you to do certain things, set boundaries, do whatever you are supposed to do, eat, not text someone, keep a promise, go to sleep, talk to the therapist, admit that you owe someone money, write something down, etc.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S9 parent script: the paragraph after it",
+   "text": "Do you want to embody your Protector? Then you could practice this:",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S3a2 RR-4.6: the rest of its paragraph, before it",
+   "text": "Put yourself in a place where you can safely do this. Don’t do this if you’re driving, in the water, operating machinery, or otherwise need to be attending to yourself or other people. If you are intoxicated, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S3a2 RR-4.6: the paragraph before it",
+   "text": "Get clear on what it is you want to do during the induction. What do you want not to do today? How long do you want to spend on this? (You don’t have to do this on a problem. You can do it on something you want to experience more of: love, play, confidence, creativity, communion, whatever.) Make sure you’re leaving some time at the end to come back, and reflect on what you experienced.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S3a2 RR-4.6: the paragraph after it",
+   "text": "Deciding to do it. How will you coax yourself to do this? Make it spacious? Make it warm and held? Something else? Preview what you are going to do: will you close your eyes? Will you come out and go back in again? What will you do at the end? If you are going to use a recording, read the script if you can. Remind yourself that if you say ‘stop’ at any time, the induction will end. If you say ‘less’, you will be asked to do less. If you say ‘quiet’, the talking will stop. You can also just open your eyes and stop, and then come all the way back anyway. You don’t need to ask any parts for permission to stop, even if a part tells you that you do.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of guard prompt (unchanged): the paragraph after it",
+   "text": "If necessary take time and listen. (Perhaps they are afraid that you will lie to yourself again or pretend again or that it will be too painful or you will get spiritual bypass again or you will forgive someone who shouldn’t be forgiven yet or you will see what you want to see or that you will leave them hanging after the session or…..)",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "last check's window 4 (Human, Low, 12 words)",
+   "text": "On a guide this long, that little hidden menu is your friend.",
+   "chance_red": 0.02,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 15 (Human, Low, 10 words)",
+   "text": "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent.",
+   "chance_red": 0.02,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 28 (Human, Low, 7 words)",
+   "text": "The bigger issue was trust and precision.",
+   "chance_red": 0.02,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 30 (Human, Low, 17 words)",
+   "text": "And I can notice my body saying no before my conscious mind talks me into a yes.",
+   "chance_red": 0.02,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 139 (Human, Low, 12 words)",
+   "text": "Whatever it is, tell your little one, “That’s enough for today.",
+   "chance_red": 0.02,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 142 (Human, Low, 6 words)",
+   "text": "Give me one next action!” etc.",
+   "chance_red": 0.02,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 144 (Human, Low, 43 words)",
+   "text": "Is there a way you could try this on a smaller scale?\nAsk: “Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.”\nDo you have a sense of what it is that feels fake?",
+   "chance_red": 0.02,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 146 (Human, Low, 10 words)",
+   "text": "Maybe you’ve fooled yourself before, and that part remembers.",
+   "chance_red": 0.02,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  }
+ ],
+ "rest": {
+  "chance_red": 0.3,
+  "why": "any red outside the parts above"
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "S7": [0.25, "Emulate's cl for his three-jobs sentence, with his \"keeps\" put back; read Human, High, alone (480g, HG-three-jobs-P2#68); the spot read red in place in each of the last two checks (IC-A2's cut line Low, his whole sentence High)"],
+ "S8": [0.3, "Emulate's ck for IC-A14's two sentences, ending on the card's \"or a bit of each\" (put back after the API check for the linter); read Human alone with the guard prompt after it (480g, HG-guards-P3#69); red in place last time (Medium, High), Human Low the time before"],
+ "S9": [0.2, "Emulate's cj and ck for the two sentences that read red (Low and Medium, humanized); read Human, High, alone (480g, HG-parent-script-P1#70), with \"This\" put back after the check for the linter"],
+ "S3a2": [0.1, "batch 479's S3a, which read Human in place (light green), without \"you can\" (the gate's linter)"],
+ "S10": [0.25, "Emulate's cl for IC-B19's sentence (Low red last time); one sentence, so no API check: only this check tells"],
+ "S5b": [0.15, "batch 479's S5, Human in place and alone (479g), with his own words from his inner child guide at its end (\"no faking required\"; that phrase sat in the line that read High red two checks ago)"],
+ "guard prompt": [0.25, "unchanged; read red in place last time after IC-A14's sentences (Medium 10 words, Low 17), Human alone with Emulate's sentences before it (480g, #69: Medium for \"I'm not going to force my way past you.\")"],
+ "parent script tail": [0.3, "unchanged; read Human in place last time, but AI alone after Emulate's sentences (480g, #70: Low 30 words, Medium 27)"]
+}

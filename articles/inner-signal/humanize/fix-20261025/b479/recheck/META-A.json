@@ -1,0 +1,50 @@
+{
+ "feed_uuid": "9b9bedd2-a7d1-4141-9d85-168fbe3e81e4",
+ "link": "https://www.pangram.com/feed/9b9bedd2-a7d1-4141-9d85-168fbe3e81e4",
+ "created_at": "2026-10-25T20:53:55.108501-04:00",
+ "domain": "substack",
+ "content_type": "long_post",
+ "prediction_short": "Human",
+ "headline": "Mostly Human Written",
+ "version": "4.1",
+ "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+ "fraction_ai": 0.008944295346736908,
+ "fraction_human": 0.9910557270050049,
+ "fraction_breakdown": {
+  "ai": {
+   "low-confidence": 9.430425416212529e-05,
+   "high-confidence": 0.008849991485476494,
+   "medium-confidence": 0
+  },
+  "human": {
+   "low-confidence": 9.718561244653756e-08,
+   "high-confidence": 0.9910556077957153,
+   "medium-confidence": 0
+  },
+  "ai-assisted": {
+   "lightly": 1.2060743317276372e-16,
+   "moderately": 0
+  }
+ },
+ "document_confidence": {
+  "level": "High",
+  "boundary": null
+ },
+ "ai_distribution": {
+  "title": "AI-generated content appears in scattered patches",
+  "description": "AI-generated content appears in isolated patches separated by human-written content."
+ },
+ "num_ai_segments": 7,
+ "num_human_segments": 145,
+ "word_count": 18811,
+ "task_id": "c73740df-3413-42f1-b0a9-340248ba0dc8",
+ "text_sha256": "2861d2047276b89480efd91dc816ba7292e5df87e8cee5af35fb76aee7c8401e",
+ "text_chars_js": 99999,
+ "compact_sha256": "7bb9fbbc8ef8801a2d788b46baa63911f102cb2b1d3a212c98dbc0beb0515627",
+ "compact_chars": 9502,
+ "windows_word_sum": 18734,
+ "windows_ai": 7,
+ "windows_human": 146,
+ "embeds": {},
+ "read": "the result page's React props in compact mode (tools/humanization/pangram_feed_read.js, window.__feedMode = 'compact'), read in the app's browser after Joel's message of 2026-10-26 00:54 UTC, which gave the link"
+}

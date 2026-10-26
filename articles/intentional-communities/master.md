@@ -108,7 +108,7 @@ Let’s face it: food, housing, and logistics are not enough reason to bind whol
 
 I dream of a way to work in depth that isn’t run by a guru, and a way of being in a community with distributed authority. A place where people who’ve done the healing first can join without pretending they’re fully finished, and that also has peer practice and enough play that it doesn’t become a permanent repair shop.
 
-The motto would be: “*Nothing suppressed, everything processed.*” Each of us guides our own compatible practice, and our practices weave the community into the quilt that keeps us all warm and safe. Whatever answers we find stay fluid and organic.
+The motto would be: “*Nothing suppressed, everything processed.*” Each of us guides our own compatible practice, and our practices weave the community into the quilt that keeps us all warm and safe. Whatever answers we find stay fluid and organic, and don’t freeze into doctrine.
 
 Speaking of dynamically weaving ourselves together, though, a community does need some stable agreements that they’re not tweaking and revising every time somebody has a revelation in [breathwork](http://breathwork.u-dont-exist.com/). But these agreements need to stay open to lived experience.
 
@@ -124,7 +124,7 @@ I realize that for most people reading this there are a lot of reasons why they 
 
 The How-To Manual which follows this essay covers the whole model: inner, relational, and medicine pl/ork, the container that holds them, tech, jealousy, kids, money, land, founder power, how the communities spread, leaving, etc.
 
-People sometimes buy forty acres and then bring all their unprocessed stuff with them to a more scenic location. It’s a more beautiful view for sure, but now you have the conflict PLUS goats. A group that practices together weekly for two years may never own land. So what? It can still make a difference when people are going through a divorce, an illness or grief. Parenting too, and plain old loneliness.
+People sometimes buy forty acres and then bring all their unprocessed stuff with them to a more scenic location. It’s a more beautiful view for sure, but now you have the conflict PLUS goats. A group that practices together weekly for two years may never own land. So what? It’s already a real piece of community, and it can still make a difference when people are going through a divorce, an illness or grief. Parenting too, and plain old loneliness.
 
 [![Earth map on sky in Lamu](https://substackcdn.com/image/fetch/$s_!LmXZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d334efc-a191-40fe-8bbd-164bd0c639f5_4080x3060.jpeg "Earth map on sky in Lamu")](https://substackcdn.com/image/fetch/$s_!LmXZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d334efc-a191-40fe-8bbd-164bd0c639f5_4080x3060.jpeg)
 
@@ -385,7 +385,7 @@ Another thing is knowing which problems are beyond what peers can handle and nee
 
 ### 3. Medicine pl/ork
 
-Community can reach new heights by carefully incorporating serious plant medicines with peer guidance rather than [exalting any one person as a special shaman](http://sidney.u-dont-exist.com/). I’ll go more in detail on this in “The Medicine Part” section below. Just because it’s optional participating in the ceremonies doesn’t mean they don’t have to work with the other parts.
+Community can reach new heights by carefully incorporating serious plant medicines with peer guidance rather than [exalting any one person as a special shaman](http://sidney.u-dont-exist.com/). I’ll go more in detail on this in “The Medicine Part” section below. Just because taking part in the ceremonies is optional doesn’t mean people don’t have to work with the other parts.
 
 ### 4. The container
 
@@ -700,7 +700,7 @@ Good people leave for good reasons -- dying parent, love, work, health, exhausti
 
 A safe community can’t promise to keep everyone. There may be times when someone has to go. If someone is a serious or generalized danger to others, or keeps violating essential boundaries, or for whatever reason just makes everyday life together impossible for everyone else, it can be the right call to eject them. If restorative work can help in a reasonable amount of time, all the better. But it’s not the community’s job to be a treatment program for someone who’s endangering everyone else.
 
-This power to remove people is so easily abused, though. So work out the process before it’s about anyone in particular. What counts as cause for immediate protective action? Who decides to put temporary restrictions on someone? Who will make sure all the evidence is preserved? How will the person be able to reply to the concerns? What protections will there be for the person’s interests (housing, records, family contact, access to common resources, outside funds if any) during the separation? When is it time to bring in outside help?
+This power to remove people is so easily abused, though. So work out the process before it’s about anyone in particular. What counts as cause for immediate protective action? Who has to step aside because they’re too close to it? Who decides to put temporary restrictions on someone? Who will make sure all the evidence is preserved? How will the person be able to reply to the concerns? What review or appeal is possible without endangering others? What protections will there be for the person’s interests (housing, records, family contact, access to common resources, outside funds if any) during the separation? When is it time to bring in outside help?
 
 Note that “outside” doesn’t have to mean the nation-state. [My research](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/) initially leaned too far that way. The basic need here is for a competent level of authority that is not reviewing its own conduct. That could mean another community, a federation of communities, professionals, autonomous regional institutions, courts, regulatory agencies, emergency services, etc. The key is that it’s not the same people.
 
