@@ -1,7 +1,8 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-26, after your message of 2026-10-25 23:50 UTC (the two recheck links). **Open questions: 0.**
-**For you to do**: the recheck with my fixes in, in Brave (just below), and merge [pull request 253](https://github.com/u-dont-existDOTcom/joel-articles/pull/253) when you've looked.
+Last updated 2026-10-26, after your message of 00:54 UTC (batch 479's recheck links). **Open questions: 1** (21, the
+marking page, just below). **For you to do**: the recheck with the new fixes in, in Brave (below), and merge
+[pull request 254](https://github.com/u-dont-existDOTcom/joel-articles/pull/254) when you've looked.
 The questions are at the top, with their options and my default; under them is what you decided and what I did with it.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -10,19 +11,52 @@ read and update it. Every file it points to is a link.
 
 ## Open questions
 
-None right now.
+**🟣 21. The marking page: ten Emulate fixes.** [Your guide with each fix marked where it goes](https://claude.ai/artifact/TpZbfBZcwuj8PL7KFLhmjP):
+ten cards, each a sentence or two that read AI in one of your checks, with Emulate's version in its place and your words
+as they are now beside it. Six read Human where they stand in your last check; the other four are for the stretches that
+read AI there, and each read Human checked alone. All ten passed the meaning reads and the gate's three reviewers. Two of
+them replace your own words (your inner child guide's "It should make sense, too ..." and your published test), and the
+cards say so. Approve, Reject or Revise each card, with a comment if you want.
+- a) (my default) You go through the page; nothing changes until you've decided.
+- b) You decide the ones you want to, and say "take your advice on the rest", as last time.
+From your other account, the page opens once you share it from its Share menu; the
+[list of cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261026/review/REVIEW-480.json) is in Git either way.
 
 ## For you to do
 
-- 🟠 **The recheck with my fixes in, in Brave.** The same two temporary drafts (never published) now hold the whole guide
-  with a candidate for each red stretch of your last check (below): open each link in Brave, run Pangram's check from its
-  side panel, and send me each result's link ("Copy shareable link to result").
-  - [Part A, the main guide](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-26&audience=only_paid&free_preview=false&freemail=)
+- 🟠 **The recheck with the four new fixes in, in Brave.** The same two temporary drafts (never published) now hold the
+  whole guide with all ten fixes from question 21 in: open each link in Brave, run Pangram's check from its side panel, and
+  send me each result's link ("Copy shareable link to result").
+  - [Part A, the main guide](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-26b&audience=only_paid&free_preview=false&freemail=)
     (the check reads its first 99,999 characters; part B starts at Closing, so the end of the guide is read in full).
-  - [Part B, from Closing to the end of the appendices](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-26&audience=only_paid&free_preview=false&freemail=).
-  My forecast: about a one-in-five chance that part A reads all Human; part B keeps the audit questions you kept as a list,
-  and the rest of it may read Human. The candidates that read Human there come to you next on a marking page, beside your
-  own words; your guide itself doesn't change until you mark them.
+  - [Part B, from Closing to the end of the appendices](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-26b&audience=only_paid&free_preview=false&freemail=).
+  My forecast: under a one-in-ten chance that part A reads all Human, since red has kept turning up in sentences nobody
+  changed; part B keeps the audit questions you kept as a list. You can mark the page and run the check in either order.
+
+## Your message of 2026-10-26 00:54 UTC, and what I did
+
+Your message, [word for word](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261026/joel-20261026-0054-message.txt).
+
+- 🟢 **The recheck, read.** [Part A](https://www.pangram.com/feed/9b9bedd2-a7d1-4141-9d85-168fbe3e81e4): Mostly Human
+  Written, 0.9% AI, 7 of its 153 windows red. [Part B](https://www.pangram.com/feed/84384f22-e09d-4a3b-bd39-a6617cd21cd1):
+  Mostly Human Written, 1.5% AI, 2 of its 53 windows red, one of them the audit questions you kept as a list. My calls for
+  both were right.
+- 🟢 **Six of my seven fixes read Human in place** (the borrowed adulthood paragraph, the pointer to "Already open?", the
+  stop words, "It should make sense ...", the no-warmth line and your test): they're on the page, question 21.
+- 🟢 **Your whole three-jobs sentence, rent joke back, read AI (High)** where it stands. Emulate's version keeps the joke
+  ("rather than getting three more people to move in with you to help with the rent!") and your "keeps", and read Human
+  checked alone: it's on the page beside your sentence.
+- 🟢 **Red turned up in three places nobody had changed** ([every step](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261026/b480/README.md)): the
+  guards card you approved (IC-A14, "But before you decide where it's coming from ...") and the guard prompt after it, the
+  parent script paragraph's two middle sentences, and "Borrowed is fine, as long as it's from someone steady ..." in
+  appendix G. Each read Human the check before; the edits above them moved the red there. Emulate's versions of the three
+  are on the page; the first two read Human checked alone, and the third is one sentence, too short to check alone, so the
+  recheck above is where it shows. I've changed how I forecast this (lesson E276).
+- 🟢 **Two small changes the gate needed**: "you can" is out of the "Already open?" pointer, and the no-warmth line ends on
+  your own "no faking required" (Emulate's "You don't have to fake it!" counts as coaching, and a reviewer turned down
+  "Don't fake it." because it makes your permission a rule).
+- 🟢 **The community article**: your changes are live and match; that lane's
+  [page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/OWNER-QUESTIONS.md) has it.
 
 ## Your message of 2026-10-25 23:50 UTC, and what I did
 

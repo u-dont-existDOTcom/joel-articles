@@ -1,0 +1,25 @@
+{
+ "made": "in the turn after Joel's message of 2026-10-26 00:54 UTC; the time is not read mid-turn",
+ "link_note": "the \"updated\" value in the secret link is only a cache key, not a time",
+ "helper": "../../../fix-20261022/screen/paste_payload_lane.js",
+ "payload_commit": "13f2bcd3ab2d1242017ed60bd9091075a3d41255",
+ "cleared": "the old body cleared with a click in a plain paragraph (screenshot first), ctrl+a and Delete; the title checked first; the editor then held 1 character",
+ "saved": "the draft API returned the new body (unpublished, audience only_paid) before the page was left; its draft_updated_at is the server's",
+ "draft": "https://ibogaqueen.substack.com/publish/post/221412532",
+ "title": "TEMP recheck B (hypnosis guide appendices) - do not publish",
+ "draft_updated_at": "2026-10-26T01:40:27.983Z",
+ "secret_link": "https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-26b&audience=only_paid&free_preview=false&freemail=",
+ "payload": "PAYLOAD-B.html",
+ "payload_sha256": "a35e6d678eca3cb22f66d143a23c1c03ca5c6fc8457772b8925a92a4a25f3534",
+ "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/13f2bcd3ab2d1242017ed60bd9091075a3d41255/articles/inner-signal/humanize/fix-20261026/b480/recheck/PAYLOAD-B.html",
+ "paste": {
+  "editor_words": 11192,
+  "words_expected": 11167,
+  "words_match": false,
+  "why_not": "25 more in the editor, as at the last pastes of this draft: text the editor renders around images and embeds that WORDS-B.json leaves out; the rendered check decides"
+ },
+ "rendered_check": "the secret link opened in the app's browser: 230 lines; with the card's line \"Quick Triage Web-App Version HERE\" left out, as the rebuild leaves it out, its 229 lines (59,217 characters) hash to TEXT-B.txt (d8e80f66...) exactly",
+ "text_sha256": "d8e80f66a6c7076a9fcf46c4d8fbe9a0937341548d5bc9e451adb0a612882d52",
+ "text_chars": 59217,
+ "predictions": "pangram-ledger.jsonl HG-rest-B#72 (key HG-rest-B-26b, AI at 0.02); FORECAST-B.json"
+}

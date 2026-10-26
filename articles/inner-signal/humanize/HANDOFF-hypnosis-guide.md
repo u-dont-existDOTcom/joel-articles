@@ -111,17 +111,20 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: **the recheck with batch 479's candidates in**, two secret draft links for his Brave (the Pangram extension; he
-copies each result's link with "Copy shareable link to result"):
-- part A, the main guide to its first 99,999 characters: https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-26&audience=only_paid&free_preview=false&freemail=
-- part B, from Closing to the end of the appendices: https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-26&audience=only_paid&free_preview=false&freemail=
-No open questions; the candidates go on his page once this recheck says how each reads in place.
+The guide, two things, side by side:
+- **Question 21, the marking page** (https://claude.ai/artifact/TpZbfBZcwuj8PL7KFLhmjP; its file in Git is
+  `fix-20261026/review/REVIEW-480.json` and `.html`): ten cards, Emulate's versions of stretches that read AI, each through
+  the owner-delivery gate. Six read Human in place in batch 479's recheck; four are batch 480's, Human alone.
+- **The recheck with batch 480's candidates in**, two secret draft links for his Brave (the Pangram extension; he copies
+  each result's link with "Copy shareable link to result"):
+  - part A, the main guide to its first 99,999 characters: https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-26b&audience=only_paid&free_preview=false&freemail=
+  - part B, from Closing to the end of the appendices: https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-26b&audience=only_paid&free_preview=false&freemail=
 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
 
-Pull request 251 was merged at 2026-10-25 23:47 UTC; this turn's work is pull request 253
-(https://github.com/u-dont-existDOTcom/joel-articles/pull/253). The community lane's own state is in its handoff.
+Pull request 253 was merged at 2026-10-26 00:54 UTC; this turn's work is pull request 254
+(https://github.com/u-dont-existDOTcom/joel-articles/pull/254). The community lane's own state is in its handoff.
 
 ## Where it stands
 
@@ -202,7 +205,38 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-10-26, after Joel's message of 2026-10-25 23:50 UTC: the recheck read; batch 479's recheck waits on his Brave)
+## Next step (2026-10-26, after Joel's message of 00:54 UTC: batch 479's recheck read; question 21 and batch 480's recheck wait on him)
+
+His message, word for word: `fix-20261026/joel-20261026-0054-message.txt` (the two result links, and "i made the changes on
+the community article that's done", which is the community lane's; its handoff has it). Done (pull request 254):
+- **Batch 479's recheck, read** (`fix-20261025/b479/recheck/`: WINDOWS, META, RESULT, SCORE): part A Mostly Human Written,
+  0.9% AI, 7 of 153 windows; part B Mostly Human Written, 1.5% AI, 2 of 53. HG-whole#66 and HG-rest-B#67 right (Mixed);
+  the forecasts 21 of 23 and 13 of 16. Six of seven candidates read Human in place; his whole three-jobs sentence (S1) read
+  High red, and three unchanged stretches turned red (IC-A14 with the guard prompt, the parent script's two sentences,
+  IC-B19's "Borrowed is fine"): lesson E276, `docs/FIXING-AN-ARTICLE.md` 6.13, and `part_forecast.py`'s Low default 0.05.
+- **Batch 480** (`fix-20261026/b480/README.md` has every step): Emulate's samples of the four red stretches (cj, ck, cl),
+  splices S7 to S10 after two meaning reads (S7's "helps to keep" back to his "keeps"), the linter's fixes (S8's "or a bit
+  of each", S9's "This"), API checks 480g (#68 to #70: S7 and S8 Human, S9 Mixed, its unchanged last two sentences red
+  alone), and S3a2 and S5b for the gate.
+- **The owner-delivery gate** (`fix-20261026/gate/GATE.md`): ten drafts, three fresh Sonnet reviewers each, 10 of 10
+  delivered; S5's "Don't fake it." failed preservation and became his "no faking required".
+- **Question 21, the marking page** (`fix-20261026/review/build_review_480.py`, `REVIEW-480.json`, `.html`,
+  `BROWSER-TEST.json` 74 of 74): published at https://claude.ai/artifact/TpZbfBZcwuj8PL7KFLhmjP with `{"db": {}, "downloads": true}`.
+- **The recheck with batch 480 in** (`fix-20261026/b480/recheck/`): built, predicted (HG-whole#71, AI at 0.08;
+  HG-rest-B#72, AI at 0.02), forecast part by part, pasted into the same two drafts and checked rendered (RECHECK-POST-A/B.json).
+
+Next:
+1. When he sends the two result links: read them as in `fix-20261025/b479/recheck/` (compact mode, WINDOWS checked against
+   the page's SHA-256, META with part B's card line in "embeds", RESULT rebuilt from `fix-20261026/b480/recheck/PAYLOAD-A.html`
+   and `PAYLOAD-B.html`), the ledger results for HG-whole#71 and HG-rest-B#72, `part_forecast.py score` on
+   `fix-20261026/b480/recheck/FORECAST-A.json` and `FORECAST-B.json`.
+2. When his answers to question 21 come back (the page's JSON): a script puts them into `HUMANIZED-SO-FAR.md` (as
+   `fix-20261025/emulate-check/apply_answers_20.py` did), with each card's fate recorded. A card he approved that reads red
+   in place gets Emulate's re-run of that sample (E235), or goes back to him with the check's link and part number (E214).
+3. Then the copy helper (`docs/SUBSTACK-HELPER-DELIVERY-GATE.md`) and his paste; he deletes both TEMP drafts when done
+   (E204; name them by title).
+
+## Earlier next step (2026-10-26, after Joel's message of 2026-10-25 23:50 UTC: the recheck read; batch 479's recheck waits on his Brave)
 
 His message, word for word: `fix-20261025/joel-20261025-2350-message.txt` (the two result links). Done (pull request 253):
 - **The recheck, read** (`fix-20261025/recheck/`: WINDOWS-A/B.txt from the pages in compact mode, SHA-256 checked;

@@ -32,9 +32,12 @@ import argparse, json, pathlib, sys
 # Measured on 2026-10-23 over three pairs of consecutive whole-article checks (Nibbāna 20 Oct to recheck 1 to recheck 2,
 # the guide's part A 22 Oct to 23 Oct): of the unchanged windows that had read Human, 2 of 58 Low ones turned red (one
 # paragraph), 1 of 120 Medium ones and 2 of 168 High ones. So a light green window is a likelier place for new red
-# than a dark one, but rarely red. The defaults count the two Low windows of that one paragraph once (1 in 58) and the
+# than a dark one, but rarely red. The defaults counted the two Low windows of that one paragraph once (1 in 58) and the
 # Medium rate as it is; a forecast raises one when it has a reason (a window next to changed text, say).
-LOW_CHANCE = 0.02
+# 2026-10-26 (gate E276): batch 479's recheck of the hypnosis guide turned 2 of its 17 forecast Low windows red (IC-A14's
+# sentences, Low 96 words; IC-B19's "Borrowed is fine", Low 21 words), both inner child alignment text, against 0.02 each.
+# With the 2 of 58 before, 4 of 75: the Low default is 0.05 from then on.
+LOW_CHANCE = 0.05
 MEDIUM_CHANCE = 0.01
 # A changed part's neighbours, by default. Measured by 2026-10-23 18:13 UTC: of the neighbours the forecasts named (the
 # guide's recheck A3 and A4 by hand, Nibbāna's recheck 4 counted afterwards), about 3 in 80 read red; a forecast raises one

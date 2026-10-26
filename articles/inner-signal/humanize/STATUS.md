@@ -1,5 +1,35 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-26, after Joel's message of 00:54 UTC (batch 479's recheck links)
+
+**Batch 479's recheck, read** (`fix-20261025/b479/recheck/`): [part A](https://www.pangram.com/feed/9b9bedd2-a7d1-4141-9d85-168fbe3e81e4)
+Mostly Human Written, 0.9% AI, 7 of 153 windows AI; [part B](https://www.pangram.com/feed/84384f22-e09d-4a3b-bd39-a6617cd21cd1)
+Mostly Human Written, 1.5% AI, 2 of 53 (one the audit he kept). HG-whole#66 and HG-rest-B#67 right; the part forecasts 21
+of 23 (Brier 0.102) and 13 of 16 (0.170). S2 to S6 read Human in place; S1, his whole three-jobs sentence, read High red;
+three unchanged stretches turned red (lesson E276).
+
+**Batch 480** (`fix-20261026/b480/`): Emulate's versions of the four red stretches (S7 to S10), two meaning reads, the
+linter's fixes, API checks 480g (#68 S7 Human, #69 S8 with the guard prompt Human, #70 S9 Mixed: Emulate's sentences
+Human, the paragraph's unchanged tail red alone; explained). The recheck with every candidate in is predicted (HG-whole#71,
+AI at 0.08; HG-rest-B#72, AI at 0.02), forecast, pasted into both drafts and checked rendered.
+
+**The owner-delivery gate** (`fix-20261026/gate/GATE.md`): ten drafts (batch 479's six, batch 480's four), 10 of 10
+delivered. S5's "Don't fake it." failed preservation (his line is a release) and became his own "no faking required".
+
+**Question 21, the marking page**: ten cards on his working copy (`fix-20261026/review/`, 74 of 74 in the browser test),
+published at https://claude.ai/artifact/TpZbfBZcwuj8PL7KFLhmjP. Waiting on his marks and the recheck's two links.
+
+**Lesson** E276 (red moves onto text nobody changed); `docs/FIXING-AN-ARTICLE.md` 6.13; `part_forecast.py`'s Low default
+0.02 to 0.05 (4 of 75 measured).
+
+Predictions: HG-whole#66 and HG-rest-B#67 right (Mixed); 480g #68 and #69 right (Human), #70 a miss (Mixed; "context: Human
+in the whole guide, red alone"); HG-whole#71 and HG-rest-B#72 open.
+Delegations (model, piece, check, outcome): Sonnet, the meaning read of S7 and S8 (`b480/REVIEW-1.md`), checked against
+his lines by me: S7 fixed ("keeps"), S8 kept; Sonnet, S9 and S10 (`b480/REVIEW-2.md`): kept; Sonnet, fifteen gate reviewers
+in five groups of two or three drafts, one at a time (`gate/BRIEF-<role>-<group>.md`), each review file checked by
+`owner_delivery_gate.py` against the drafts' hashes: 33 review files, 32 PASS and one FAIL (S5's first draft, fixed and
+reviewed again by three fresh reviewers, all PASS).
+
 ## 2026-10-26, after Joel's message of 2026-10-25 23:50 UTC (the two recheck links)
 
 **The recheck, read** (`fix-20261025/recheck/`: WINDOWS-A/B.txt checked against the pages' SHA-256, META, RESULT,
