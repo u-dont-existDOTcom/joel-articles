@@ -1,0 +1,106 @@
+{
+ "parts": [
+  {
+   "name": "S10 IC-B19",
+   "text": "Borrow some from someone else if you need to, but make sure they’re stable and not someone who will try to direct your trip.",
+   "chance_red": 0.25,
+   "why": "Emulate's cl for IC-B19's sentence (Low red last time); one sentence, so no API check: only this check tells",
+   "kind": "changed"
+  },
+  {
+   "name": "S5b IC-B14",
+   "text": "If you can’t do this in a loving way today, just put your hands there and see what you feel, no faking required.",
+   "chance_red": 0.15,
+   "why": "batch 479's S5, Human in place and alone (479g), with his own words from his inner child guide at its end (\"no faking required\"; that phrase sat in the line that read High red two checks ago)",
+   "kind": "changed"
+  },
+  {
+   "name": "the hypnosis audit (kept, 2c)",
+   "text": "Before accepting a recording or live suggestion, ask:\nWas I plainly told that induction mechanics are being used?\nCan at least one answer lead to pause, modification, full alertness, or stopping?\nDoes the speaker treat not noticing as secret proof that the process worked?\nAre roles, ownership, obedience, age, identity, or belonging being used to lower adult judgment?\nAre fractionation, cues, later behavior, or memory effects disclosed before they are used?\nAre ordinary body sensations being turned into evidence for a hidden claim?\nDoes the exit restore ordinary identity, movement, orientation, and critical judgment—and plainly say that the session has ended?\nWhen an answer is unclear, stay fully alert. Ask for the exact script, change the method, or leave.",
+   "chance_red": 0.95,
+   "why": "unchanged; his answer 2c keeps it a list; read AI, High, in each check since recheck B2, lead-in to last line",
+   "kind": "changed"
+  },
+  {
+   "name": "neighbour of S10 IC-B19: the rest of its paragraph, before it",
+   "text": "This is NOT to say that you SHOULD use substances, but many people have used them when they first did self-hypnosis, contacted their inner child, or talked to their Higher Self. I’d learn the inner child work sober first, with enough Nurturer and Protector in the room before you go deep (see the inner child reparenting section).",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S10 IC-B19: the paragraph before it",
+   "text": "Be specific about the action you took, and the impact it had, feel the remorse, do what you can to rectify or keep it from happening again, and then stop holding yourself hostage, and the responsibility stays. Every so often, come back to how whoever did it got to be someone who could do that, until you understand it well enough that it changes how you feel.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S10 IC-B19: the paragraph after it",
+   "text": "Do not do it to try to FORCE yourself to get to a certain revelation about yourself, but rather to help yourself become more in tune with love and to better your life.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S5b IC-B14: the rest of its paragraph, before it",
+   "text": "Here is some inner child love. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix it. I’m here now, and the adult is here now to listen to you.” Make sure you are actually talking to your inner child, who is scared to death.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S5b IC-B14: the paragraph before it",
+   "text": "I have a page on my ZHoly3O product, which is ozonated charcoal, and I talk about this “holy water” as one of the things that can help you relax. (See the mention of Blushield on that page, too.) But neither one of those products is necessary. All you really need is to stabilize yourself, and then listen to the messages from your inner realm, reality test those messages, and then take one grounded action.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S5b IC-B14: the paragraph after it",
+   "text": "A script you could use for anxiety is:",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of the hypnosis audit (kept, 2c): the paragraph before it",
+   "text": "A good guide will make your adult self stronger. A good guide can take no. A bad guide can’t take no. A bad guide wants to take your adult self’s job. A bad guide will try to make your no something that’s bad or needs to be fixed (resistance, ego, fear, low vibration, trauma response, sin, need for more of its guidance, etc).",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of the hypnosis audit (kept, 2c): the paragraph after it",
+   "text": "Remember that often the anxiety comes from a childhood guard part of you. It’s what protects you when your consciously installed parental Protector isn’t functioning, the same as in childhood. It’s trying to help, making a guess about what’s coming: that you are in danger, or may be shamed, or abandoned, or fail, or be exposed, or be sick, or be rejected, or lose control, or whatever. It can be right! It’s probably been wrong before too, and you know some of those times. Therefore, instead of interrogating that part, start with yourself:",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "last check's window 5 (Human, Low, 8 words)",
+   "text": "An ethical one offers two genuinely safe routes.",
+   "chance_red": 0.02,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 48 (Human, Low, 14 words)",
+   "text": "Often it’s a protective part that’s seen love come with strings before.",
+   "chance_red": 0.02,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 49 (Human, Low, 4 words)",
+   "text": "Hear it out first.)",
+   "chance_red": 0.02,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  }
+ ],
+ "rest": {
+  "chance_red": 0.2,
+  "why": "any red outside the parts above"
+ }
+}

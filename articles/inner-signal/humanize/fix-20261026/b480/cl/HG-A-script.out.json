@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cl/HG-A-script.txt",
+  "input_words": 124,
+  "input_sha256": "06c22a1e1379aa2d3ce20951c851323c4376fafb606b43ec1fc528bd0fc8ac5e",
+  "balance_before": 49193,
+  "started_utc": "2026-10-26T01:06:20Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T01:06:27Z",
+  "response": {
+    "id": "aa7a9147-c7e7-40ec-8040-c0a18c7a594a",
+    "tool": "humanize",
+    "text": "One of the things you need to be aware of as you move in closer to your inner child is your inherited parent script. This is the way you learned to treat yourself when you were growing up and it is mostly based on the way your parent(s) treated you. It does not always take the form of a voice. This is not the inner adult you built for yourself (Nurturer, Protector, Guide, etc.) It is often critical or more like a warden. It can often be telling the inner child not to cry, not to be “needy”, not to embarass you, not to be too independent, etc. It is the one that often tells you that what you are doing talking to your child in a new way is “fake”.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 124
+    },
+    "elapsed": 7
+  },
+  "balance_after": 49069
+}

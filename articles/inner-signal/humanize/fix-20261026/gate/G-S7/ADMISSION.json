@@ -1,0 +1,248 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "e45d15d1afe6c84bf39994cc3b908b666feffd32836a2ba1c494e552acea6209",
+  "context_sha256": "b7950b8ea726b0bcd7e3f33cb261a5cfaa60a4eb27246fb29f95013a3d15c3f3",
+  "source_sha256": "9682d9a2a9c0b7065298e8101135db973ebdb9ddf6f76411f12e5a2a6c5a4444",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "writer": {
+    "name": "Claude Opus 5.5, the hypnosis guide lane's writer (the splices and their fixes; the words are Emulate's)",
+    "context_id": "session_01Mxpoi6tFT3FgKmBvtGjRtS"
+  },
+  "lint": {
+    "verdict_at_init": "REVIEW",
+    "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+    "stdout_sha256": "fef3f73d5471fe46d83c64281b43f54f378a96b8467b23c537eb192229e34d77",
+    "findings": [
+      {
+        "label": "B2 contrast",
+        "examples": [
+          "It’s one person doing three jobs rather than getting three more people to move in with you to help with the rent!"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "The contrast is his own joke from his inner child guide (\"one grown-up doing three jobs, not three more people moving in to help with the rent\"), as Emulate put it; it is the point of the sentence, not a framing device."
+      },
+      {
+        "label": "B7 short landing at paragraph end",
+        "examples": [
+          "Each job keeps the others in balance."
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "The linter sees the draft alone. In the article it is not the paragraph's end (his \"It’s you that needs to develop these qualities.\" follows), and its words are his own, from his inner child guide: \"each job keeps the others in balance\"."
+      },
+      {
+        "label": "D9 follows the source order",
+        "examples": [
+          "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "It is Emulate's rewrite of his sentence, so it follows his points in order by design (one person, three jobs, not three more people for the rent, the balance); the turns are Emulate's own (\"rather than getting\", \"move in with you\", \"!\")."
+      }
+    ]
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "no first-person stake in \"It’s one person doing three jobs rather than getting three more people to move in with ...\" beyond the source's own",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "\"It’s one person doing three jobs rather than getting three more people to move in with ...\" is one step in its paragraph, not part of a run of compressed commands",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "the sentence before it in the context sets it up; nothing new arrives unprepared in \"It’s one person doing three jobs rather than getting three more people to move in with ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "no scene in \"It’s one person doing three jobs rather than getting three more people to move in with ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "no concrete prop in \"It’s one person doing three jobs rather than getting three more people to move in with ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "no vague healing or process language in \"It’s one person doing three jobs rather than getting three more people to move in with ...\"; its terms are the article's own",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "no filler or staged hesitation in \"It’s one person doing three jobs rather than getting three more people to move in with ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "no image followed by an explanation of it in \"It’s one person doing three jobs rather than getting three more people to move in with ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "one change in one passage; \"It’s one person doing three jobs rather than getting three more people to move in with ...\" gets the weight its point needs, the rest of the passage is unchanged",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "no \"you don't have to X before Y\" packaging in \"It’s one person doing three jobs rather than getting three more people to move in with ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "\"It’s one person doing three jobs rather than getting three more people to move in with ...\" carries a claim or step, not a bridge between document parts",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "one person against three people is his own joke from his inner child guide (\"not three more people moving in to help with the rent\")",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "the passage around \"It’s one person doing three jobs rather than getting three more people to move in with ...\" keeps its reasons, asides and callbacks; the change adds none of its own and removes none",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "no material moved to dodge a detector: \"It’s one person doing three jobs rather than getting three more people to move in with ...\" puts back the author's own point that Emulate dropped",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "\"It’s one person doing three jobs rather than getting three more people to move in with ...\" puts back the author's words or meaning, not less likely words for their own sake",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "no \"not X, it's Y\" in \"It’s one person doing three jobs rather than getting three more people to move in with ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "ABSENT",
+      "evidence": "no compressed thesis or aphorism in \"It’s one person doing three jobs rather than getting three more people to move in with ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "no premise flipped by a short sentence in \"It’s one person doing three jobs rather than getting three more people to move in with ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "\"It’s one person doing three jobs rather than getting three more people to move in with ...\" does not announce what comes next",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "\"It’s one person doing three jobs rather than getting three more people to move in with ...\" is not a polished paragraph-ending line",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "ABSENT",
+      "evidence": "\"It’s one person doing three jobs rather than getting three more people to move in with ...\" does one job, not several coordinated argumentative jobs",
+      "resolution": ""
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "\"It’s one person doing three jobs rather than getting three more people to move in with ...\" carries a step, a rule or a reason from his line, not reassurance alone",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "no generic scenery in \"It’s one person doing three jobs rather than getting three more people to move in with ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "no faux-insight setup or self-answered question in \"It’s one person doing three jobs rather than getting three more people to move in with ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "no colon reveal in \"It’s one person doing three jobs rather than getting three more people to move in with ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "ABSENT",
+      "evidence": "no distinctive word or phrase in \"It’s one person doing three jobs rather than getting three more people to move in with ...\" repeated within three paragraphs without a job",
+      "resolution": ""
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "none of the tic words (\"doing some work\", \"load-bearing\", \"digest\", \"clean\", vague \"work\") in \"It’s one person doing three jobs rather than getting three more people to move in with ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "\"It’s one person doing three jobs rather than getting three more people to move in with ...\" is not the end of its section, and adds no lesson or uplift",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "\"It’s one person doing three jobs rather than getting three more people to move in with ...\" is not a closing restatement of its paragraph",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "the inner child isn't named in it, and \"the kid\" appears nowhere in it",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "every pronoun in \"It’s one person doing three jobs rather than getting three more people to move in with ...\" points at something named just before it",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "no first-person fact about Joel's life in \"It’s one person doing three jobs rather than getting three more people to move in with ...\" that he didn't give",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "no claim about a study, person or product in \"It’s one person doing three jobs rather than getting three more people to move in with ...\"",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "REVIEW-preservation.json",
+    "cold_read_1": "REVIEW-cold_read_1.json",
+    "cold_read_2": "REVIEW-cold_read_2.json"
+  }
+}

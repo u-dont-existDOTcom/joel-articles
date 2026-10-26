@@ -1,0 +1,40 @@
+[
+ {
+  "name": "S7 IC-A2",
+  "text": "It’s one person doing three jobs rather than getting three more people to move in with you to help with the rent! Each job keeps the others in balance.",
+  "chance_red": 0.25,
+  "why": "Emulate's cl for his three-jobs sentence, with his \"keeps\" put back; read Human, High, alone (480g, HG-three-jobs-P2#68); the spot read red in place in each of the last two checks (IC-A2's cut line Low, his whole sentence High)"
+ },
+ {
+  "name": "S8 IC-A14",
+  "text": "Before figuring out what/where it is, make sure to ask what it is trying to stop or what it wants. It may, of course, be your inner child, mad that it’s taken you so long to come back, or it may be your inherited parent script, or something from earlier in the day, or a bit of each.",
+  "chance_red": 0.3,
+  "why": "Emulate's ck for IC-A14's two sentences, ending on the card's \"or a bit of each\" (put back after the API check for the linter); read Human alone with the guard prompt after it (480g, HG-guards-P3#69); red in place last time (Medium, High), Human Low the time before"
+ },
+ {
+  "name": "S9 parent script",
+  "text": "Your parent script is made up of a collection of rules and ways of treating yourself that you adopted as a child (mostly based on how you were treated by your parent(s)). It doesn’t always take the form of a voice. This is not the inner adult (Nurturer, Protector, Guide) that you consciously build.",
+  "chance_red": 0.2,
+  "why": "Emulate's cj and ck for the two sentences that read red (Low and Medium, humanized); read Human, High, alone (480g, HG-parent-script-P1#70), with \"This\" put back after the check for the linter"
+ },
+ {
+  "name": "S3a2 RR-4.6",
+  "text": "If you are already partially or fully opened, use the later ‘Already open? Contain before you deepen’ section to help orient yourself, but do not attempt to deepen yourself if you are not stable.",
+  "chance_red": 0.1,
+  "why": "batch 479's S3a, which read Human in place (light green), without \"you can\" (the gate's linter)"
+ },
+ {
+  "name": "guard prompt (unchanged)",
+  "text": "(To the guard, in the same Nurturer voice you meant for your inner child: “I see you. I’m not going to force my way past you. What’s going on?” Then wait and listen patiently. If nothing comes, that’s fine for now. At some point you can ask, “What are you afraid would happen if you stopped protecting me by…..?”)",
+  "chance_red": 0.25,
+  "why": "unchanged; read red in place last time after IC-A14's sentences (Medium 10 words, Low 17), Human alone with Emulate's sentences before it (480g, #69: Medium for \"I'm not going to force my way past you.\")",
+  "kind": "neighbour"
+ },
+ {
+  "name": "parent script tail (unchanged)",
+  "text": "Often this script acts as a critic or warden, telling your inner child not to cry, not to be “needy”, not to embarrass them, not to be too independent, etc. So when you begin talking to your child in a new, loving way, the script may jump in to say that what you’re doing is “fake”.",
+  "chance_red": 0.3,
+  "why": "unchanged; read Human in place last time, but AI alone after Emulate's sentences (480g, #70: Low 30 words, Medium 27)",
+  "kind": "neighbour"
+ }
+]

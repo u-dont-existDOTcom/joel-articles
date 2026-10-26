@@ -264,6 +264,14 @@
       "service": "Pangram 4.1, the browser extension's check of the draft's secret link (free, his account)",
       "record": "Human Written, AI fraction 0.0000016%, document confidence High, 0 of 72 windows AI (37 High, 32 Medium, 3 Low): https://www.pangram.com/feed/954042b6-e624-4c7f-87d7-db15c547d5c8",
       "limitations": "One run; the check reads the post's paragraphs and list items, not headings, captions or alt text."
+    },
+    {
+      "section": "the four paragraphs question 66 changed",
+      "version": "candidate/joel-20261025/answer66/WORKING.html (2026-10-25)",
+      "passage": "each changed paragraph where it sits (IC-E1 with the paragraph before it), through the API on his laptop",
+      "service": "Pangram API (model pangram-4, answered 4.1), his key",
+      "record": "IC-E2, IC-E3 and IC-T1 Human (High) alone; IC-E1 with the paragraph before it Mixed, its AI window (Low) in the unchanged paragraph before, which reads Human (High) alone: candidate/joel-20261025/answer66/b478/PREDICTIONS.md",
+      "limitations": "Paragraph checks, not the whole article; the last whole-article check (https://www.pangram.com/feed/954042b6-e624-4c7f-87d7-db15c547d5c8) read the version before 66, Human Written, 0 of 72 windows AI."
     }
   ]
 }

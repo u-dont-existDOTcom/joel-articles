@@ -1,0 +1,258 @@
+{
+ "G-S2": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/gate/G-S2",
+  "the_change": "Emulate's borrowed adulthood paragraph (sample ch) in place of the one that read AI, with his two published points put back: the practices are familiar ones, and he doesn't claim the whole sequence is proven as one treatment.",
+  "candidate_sha256": "d36035c7ee3863a4e248eda56575b52e4452d30a166846dd321bb008894130fc",
+  "context_sha256": "03db0ba650da13461612b40b0159b7250052dd99813c4349a0b7d763228e3b3f",
+  "source_sha256": "df6685a19ab345107a2f2ccc741b74a2de509cd505c1c41bb806b23bfe254574",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "B1 finished principle",
+    "examples": [
+     "It’s made up of a number of familiar practices (such as modeling and supported action), even though I’m not claiming the whole sequence has been proven as one t"
+    ]
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ },
+ "G-S3a": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/gate/G-S3a",
+  "the_change": "Emulate's pointer to the \"Already open? Contain before you deepen\" section (batch 479's sample ci), with the heading's own words, his \"later\" and his \"not stable\", in place of the one that read AI; \"you can\" dropped for the linter's coach register.",
+  "candidate_sha256": "412d4a193a13cc4f1dd95e65a660d1f56294f61f839a88ca67da0f7aae2ac5ad",
+  "context_sha256": "bc1f411ed7b61ff04fa9378268964280d837b5accb360d7cbd4522d29b1b8224",
+  "source_sha256": "2e249c88852027b8378f226ebcf5a34535821e5a58ac5217b0909e3d24d0d659",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "8.8 \"you\" per 100 of my words"
+    ]
+   }
+  ]
+ },
+ "G-S3b": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/gate/G-S3b",
+  "the_change": "Emulate's three stop lines (sample cg: say 'stop', 'less', 'quiet') in place of the two sentences that read AI.",
+  "candidate_sha256": "c121ac15d089531afbeaf09b8c688d5a250ec48a0b0c92a3dc947261def04239",
+  "context_sha256": "bc1f411ed7b61ff04fa9378268964280d837b5accb360d7cbd4522d29b1b8224",
+  "source_sha256": "f780e26a17771ef7b4b4ee1d4d8da1132096aa0ae440f3958783963b488bf1f3",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "B7 short landing at paragraph end",
+    "examples": [
+     "If you say 'quiet', the talking will stop."
+    ]
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "12.1 \"you\" per 100 of my words"
+    ]
+   },
+   {
+    "label": "O30 a phrase said three or more times in one paragraph (gate, 2026-10-07: my \"a commitment they make as adults\" \"gave P22 its fourth \"as adults\"\"; Joel: \"take out second adults that's obvious\"): keep it only where the repeat does a job",
+    "examples": [
+     "\"you say\" 3 times: Remind yourself that if you say 'stop' at any time, the induction will end. / If you say 'less', you will be asked to do less. / If you say '"
+    ]
+   }
+  ]
+ },
+ "G-S4": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/gate/G-S4",
+  "the_change": "Emulate's sentence (sample ci) in place of his own two from his inner child guide, which read AI here: make sense, and anything big or hard to undo waits until you're calm and checked against what you know.",
+  "candidate_sha256": "374b0a8ac2d4856f1b30555740fa533196037be7de85ab74828c5f92fee4cf02",
+  "context_sha256": "e00a62f9137e9f3f239a0f63f5d2cf540a5243a7c857a6423972778a1fdbdac6",
+  "source_sha256": "f33e946ad335442a21f5b49df6df8d3f97c7498081517b90828c2f657eb23758",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "B4/E15 list or packed sentence",
+    "examples": [
+     "It should make sense to you and if it's something big or hard to undo, wait till you're calm and then check it out with what you know."
+    ]
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "10.7 \"you\" per 100 of my words"
+    ]
+   }
+  ]
+ },
+ "G-S5": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/gate/G-S5",
+  "the_change": "Emulate's sentence (batch 479's sample ch) for the no-warmth fallback the inner child alignment added from his inner child guide, which read AI here, ending on his own words from that guide, \"no faking required\" (Emulate's \"You don't have to fake it!\" failed the linter; \"Don't fake it.\" failed the preservation review as a rule).",
+  "candidate_sha256": "3c2e4ac5e2fdba4bdcd701f4a7b5831c3ebdf66adb17c2b2300d3387b3b431ae",
+  "context_sha256": "66794889ffe990e5b7f9d82894941d6479ccf773612f94c14cd5cb8b324f3dc6",
+  "source_sha256": "ac99e6fd665b68cdc50b8b91f375809be9a7f2978fdfdfee402d960c7279d1a0",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "13.0 \"you\" per 100 of my words"
+    ]
+   }
+  ]
+ },
+ "G-S6": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/gate/G-S6",
+  "the_change": "Emulate's question (sample cg) for his published test, with his \"this way of responding\" in place of Emulate's \"it\".",
+  "candidate_sha256": "9dec1f3736b9511c4f91af2f448b00209598138f8e3f3058b1d4a3b77c28d065",
+  "context_sha256": "a508a8e3a0f699b145d7cc580d0cdb75165432e779c69e2dd8a7b997f3bf4f52",
+  "source_sha256": "01c9bd3ff8eb7a00f9e4711e827cbfa6703b6d0faf5c3e35cbde24a4503dcc02",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "6.7 \"you\" per 100 of my words"
+    ]
+   },
+   {
+    "label": "O14 two repeated \"and\"s or \"or\"s in one stretch: fine in speech (\"bread and butter and jam\"), Emulate's trick in a list (Joel 2026-10-07)",
+    "examples": [
+     "Is this way of responding helping you to be clearer and steadier and less hooked?"
+    ]
+   }
+  ]
+ },
+ "G-S7": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/gate/G-S7",
+  "the_change": "Emulate's two sentences (sample cl) for his inner child guide's three-jobs sentence, which read AI here; the rent joke and the balance kept, and his \"keeps\" put back for Emulate's \"helps to keep\".",
+  "candidate_sha256": "e45d15d1afe6c84bf39994cc3b908b666feffd32836a2ba1c494e552acea6209",
+  "context_sha256": "b7950b8ea726b0bcd7e3f33cb261a5cfaa60a4eb27246fb29f95013a3d15c3f3",
+  "source_sha256": "9682d9a2a9c0b7065298e8101135db973ebdb9ddf6f76411f12e5a2a6c5a4444",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "B2 contrast",
+    "examples": [
+     "It’s one person doing three jobs rather than getting three more people to move in with you to help with the rent!"
+    ]
+   },
+   {
+    "label": "B7 short landing at paragraph end",
+    "examples": [
+     "Each job keeps the others in balance."
+    ]
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ },
+ "G-S8": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/gate/G-S8",
+  "the_change": "Emulate's two sentences (sample ck) in place of the inner child alignment's two that read AI: ask what it's trying to stop or wants before deciding what it is; it may be the child, the script, the day, or a mix. Its last words are the approved card's (\"or a bit of each\", for Emulate's \"or a combination\").",
+  "candidate_sha256": "a68eec776804fc724d4342a0b6750e44542d5d6739a85b4351f0a8ea60405c37",
+  "context_sha256": "e597841c738a1b75aad5e3b6bbc2051f3972036f176e1fe0c33266be85dbd2d9",
+  "source_sha256": "7ee65729ce54739a222467225595610e27fa26c4e4e0eea7f674f91feb91c06c",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "B4/E15 list or packed sentence",
+    "examples": [
+     "It may, of course, be your inner child, mad that it’s taken you so long to come back, or it may be your inherited parent script, or something from earlier in th"
+    ]
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "E125 list of three: an AI pattern in general (Joel 2026-10-03: \"lists of 3 in general are an ai pattern\"; 2026-10-07: \"lists in general are overused by AI. try to avoid that unless it's really needed\"). If the meaning doesn't need all three, drop the one that matters least; if it does, split them into sentences, the way he fixed P1 (\"Maybe it just has something to say.\"), or give the items different shapes and end on a catch-all, the way he fixed Borrowed Adulthood P2 (\"Other jobs can go to friends or community, outsource to the tools or pros, whatever works.\"). Joel, 01:06: \"when there's no actual need for 3 items you can remove one of them\"",
+    "examples": [
+     "or it may be your inherited parent script, or"
+    ]
+   }
+  ]
+ },
+ "G-S9": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/gate/G-S9",
+  "the_change": "Emulate's three sentences (samples cj and ck) in place of the two that read AI: what the inherited parent script is, that it isn't always a voice, and that it isn't the inner adult you build. The paragraph's \"This\" put back for Emulate's \"It\" in the last one.",
+  "candidate_sha256": "4103c87b1ecd8a7a8e85dd7d02a7b21e5c2d07fc2ca4f8af0c22657fcc06bc21",
+  "context_sha256": "b835003165bd29da7236258e0f070cd3c6127bb0dc92fe35013c09464dbf7b71",
+  "source_sha256": "dea530a93581d89ac004efe45ce00031cd956666429c9177e0eb71909473aa71",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "9.1 \"you\" per 100 of my words"
+    ]
+   }
+  ]
+ },
+ "G-S10": {
+  "folder": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261026/gate/G-S10",
+  "the_change": "Emulate's sentence (sample cl) in place of the inner child guide's \"Borrowed is fine, ...\", which read AI here.",
+  "candidate_sha256": "3a6ce4dba22a48c4527ee4719e92e17c3be439fbf03ae85c0b039a71a2d94c6c",
+  "context_sha256": "4579dbbcde9e7589ef132ffe235e8ebc82204d1bacc87fc2528c5ad7f3cc00d2",
+  "source_sha256": "276bdbf7985c0dc9e1c1461046781204e855682f2a661e0f1eb3976bec750b36",
+  "lint_verdict": "REVIEW",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "8.3 \"you\" per 100 of my words"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "master_sha256": "e63253a88546b23252796af84276536711ceafd5504fc9fb6e30b0cc1afb041c",
+ "items": {
+  "HG-A-jobs2": {
+   "paragraphs": [
+    "The inner child, the guards, and the inner adult’s three jobs, P1",
+    "The inner child, the guards, and the inner adult’s three jobs, P2"
+   ],
+   "blocks": [
+    91,
+    92
+   ],
+   "words": 128
+  },
+  "HG-A-guards": {
+   "paragraphs": [
+    "Working with your guards, P3",
+    "Working with your guards, P4"
+   ],
+   "blocks": [
+    139,
+    140
+   ],
+   "words": 179
+  },
+  "HG-A-script": {
+   "paragraphs": [
+    "Your inherited parent script, P1"
+   ],
+   "blocks": [
+    145
+   ],
+   "words": 124
+  },
+  "HG-B-altered": {
+   "paragraphs": [
+    "Appendix G: Altered states, P1"
+   ],
+   "blocks": [
+    670
+   ],
+   "words": 76
+  }
+ },
+ "bundle_sha256": "c28a5b2a8e47f82342013ccf21fc2216a84c2e6d6838ecf85550918d98d1f8ec"
+}

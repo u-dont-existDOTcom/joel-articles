@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ck/HG-A-guards.txt",
+  "input_words": 179,
+  "input_sha256": "40c0fc0494aef3bc133dcfed93f6e8a56a72cdf2d3a56ba1c3ac2cb1b90c9198",
+  "balance_before": 49879,
+  "started_utc": "2026-10-26T01:05:28Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T01:05:40Z",
+  "response": {
+    "id": "fbdfdb28-650d-4f8c-ba83-99af6b0f45b0",
+    "tool": "humanize",
+    "text": "It may be that instead you feel numb, or cynical, or angry, or hungry, or like you need to look at your phone, or sexual, or like you need to be making plans, or sleepy, or dissociated, or like what you’re doing is stupid, etc. etc. That’s okay! Often, it will be a very charming guard that has been there to protect you when your consciously installed parental Protector wasn’t doing the job, just like when you were a kid. Before figuring out what/where it is, make sure to ask what it is trying to stop or what it wants. It may, of course, be your inner child, mad that it’s taken you so long to come back, or it may be your inherited parent script, or something from earlier in the day, or a combination.\n\nTalk to it, using the same voice you would use with your Nurturer with your inner child: “I see you. I’m not going to force my way past you. I want to see what is going on here.” Then wait and listen patiently to see if anything comes to you. If not, that’s okay for now, but do ask at some point what it is afraid will happen if it doesn’t keep protecting you by…..",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 179
+    },
+    "elapsed": 11
+  },
+  "balance_after": 49700
+}

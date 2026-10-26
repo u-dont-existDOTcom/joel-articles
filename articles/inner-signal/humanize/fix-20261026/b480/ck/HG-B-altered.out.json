@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ck/HG-B-altered.txt",
+  "input_words": 76,
+  "input_sha256": "ae23b0e180c76e50597e4d354c0ef81a30dcbbd9c0896ffeb8e066114b777420",
+  "balance_before": 49576,
+  "started_utc": "2026-10-26T01:05:50Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T01:05:57Z",
+  "response": {
+    "id": "3a1e9229-7a94-43fa-a973-d2c5c361132c",
+    "tool": "humanize",
+    "text": "I am not saying you should, I am simply stating that many people have used substances to help them at the beginning of their work in self-hypnosis, to contact their inner child and/or talk with their Higher Self. However, I would recommend you learn how to do this while sober, and have enough Nurturer and Protector present with you as you go deep into your inner child (see the section on inner child reparenting). It can be borrowed, but be sure to get it from someone that is steady, and wonâ€™t try to run your trip.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 76
+    },
+    "elapsed": 6
+  },
+  "balance_after": 49500
+}

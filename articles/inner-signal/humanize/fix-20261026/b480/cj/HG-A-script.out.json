@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cj/HG-A-script.txt",
+  "input_words": 124,
+  "input_sha256": "06c22a1e1379aa2d3ce20951c851323c4376fafb606b43ec1fc528bd0fc8ac5e",
+  "balance_before": 50207,
+  "started_utc": "2026-10-26T01:05:00Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T01:05:08Z",
+  "response": {
+    "id": "c9647b62-bcca-4b02-bf78-c6d3e3d89f80",
+    "tool": "humanize",
+    "text": "Transcript As you begin working with your inner child, it is important to become aware of your parent script . Your parent script is made up of a collection of rules and ways of treating yourself that you adopted as a child (mostly based on how you were treated by your parent(s)). This is not always vocal. It is not the inner adult (Nurturer, Protector, Guide) that you consciously build. Often it takes on the role of a critic or warden in relation to the inner child (eg don’t cry, don’t be so “needy”, don’t embarrass\n\nm e, don’t be too independent, etc). Often, when you begin communicating with your inner child in a new way, this script can come in and say that what you are doing is “fake”.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 124
+    },
+    "elapsed": 8
+  },
+  "balance_after": 50083
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "374b0a8ac2d4856f1b30555740fa533196037be7de85ab74828c5f92fee4cf02",
+  "context_sha256": "e00a62f9137e9f3f239a0f63f5d2cf540a5243a7c857a6423972778a1fdbdac6",
+  "source_sha256": "f33e946ad335442a21f5b49df6df8d3f97c7498081517b90828c2f657eb23758",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+    "context_id": "b479-gate-preservation-subagent-b",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "SOURCE: 'It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and you've checked it against what you actually know.' DRAFT: 'It should make sense to you and if it's something big or hard to undo, wait till you're calm and then check it out with what you know.' Checked claim by claim: (1) it should make sense, kept; (2) anything big or hard to undo holds off, kept; (3) until you're calm, kept; (4) and checked against what you know, kept. No new claim, fact, number or person is added; 'to you' only names the reader the whole paragraph already addresses. Differences I weighed: 'can wait' became the imperative 'wait' (his soft advice form to a direct one; in advice 'X can wait until Y' means hold off on X until Y, so the reader does the same thing, but the register is more direct than his); 'Even then' and 'too' are gone (the draft's rule is conditioned only on size or irreversibility, and it sits right after his loving/free/sense tests, so it still applies when the instruction passes them); 'you've checked' became 'and then check' (calm, then check; his order was left open); 'actually' dropped; 'against' became 'out with'. These are modal, connective and word-level shifts. None changes what the reader is told to do or believe, so I do not count them as failures. The_change claims no put-back and none is missing. CONTEXT holds the draft once, as the last sentence of the paragraph, after his unchanged 'If it tells you to do something, I'd only do it if it's loving and leaves you free', so 'It' keeps its referent (C02 fine); the 'and if' join has no comma but reads as speech. Tell rows: T21 PRESENT in a mild form (two of his points, the sense test and the hold-off rule, joined in one sentence by 'and if' and 'and then'); justified because both points are his own two sentences (no job is added) and the join is a loose spoken run-on, not a tidy parallel list. T02 considered at paragraph scale and not present: the draft adds no step and joins two, so it loosens the cadence. T15 considered (this is Emulate's rewording) and not present as defined: the structure changed, it is not a word swap that leaves the structure and other tells in place. All other rows (T01, T03 to T14, T16 to T20, T22 to T29, C01 to C04) ABSENT. Linter: B4/E15 accepted for the T21 reason. D9 accepted: one sentence, and the order is forced because the hold-off rule only makes sense after the sense test; T13 and T09 absent (his 'I'd only do it if' stance carries the paragraph); note the writer's D9 reason cites Emulate asides ('if I can put it that way', 'of course', 'just', '!') that this draft does not contain, so I accepted D9 on the context, not on that reason. E36/E41 accepted: 3 'you' in 28 words (10.7), but his own source sentence had 3 in 27 (11.1), the paragraph has 7 'you' either way, and the guide speaks to the reader as 'you' throughout. Ledger note: the writer's T14 and T15 evidence says the draft 'puts back' his point, which is not this change (it is Emulate's sentence as it stands); I judged those rows on the draft itself.",
+  "resolved_tell_ids": ["T21"],
+  "resolved_lint_labels": [
+    "B4/E15 list or packed sentence",
+    "D9 follows the source order",
+    "E36/E41 heavy second person"
+  ]
+}

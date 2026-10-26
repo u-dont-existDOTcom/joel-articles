@@ -1,0 +1,21 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "868bb5d430c7fb31b0f1ce12a74c2bba58fee4b6023dc9325ec2aca02ec4dfd2",
+  "context_sha256": "7aa983cb6457ad168163a76e4a341b3d41acaa2ae415b5a3020d481c4baa42ff",
+  "source_sha256": "ac99e6fd665b68cdc50b8b91f375809be9a7f2978fdfdfee402d960c7279d1a0",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "b479-gate-cold_read_1-subagent-b",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Draft judged: 'If you can't do this in a loving way today, just put your hands there and see what you feel. Don't fake it.' In CONTEXT.txt ('Inner child love') it appears once, at the end of the single practice paragraph, right after 'Make sure you are actually talking to your inner child, who is scared to death.' It reads naturally there: 'this' is saying the words to the little one in a loving way, 'there' is the heart and solar plexus named earlier in the paragraph, 'in a loving way' calls back the instruction a few sentences up, and the plain imperative matches the paragraph's own register ('Put...', 'Make sure...'). The curly apostrophes match the paragraph and there are no stray spaces or its/it's slips. Against SOURCE.txt: the first sentence is word for word the one it replaces, so the net change is the last sentence only, 'You don't have to fake it!' becoming 'Don't fake it.' The meaning of his guide's fallback ('No warmth today? Then rest your hands there and notice what you find, no faking required.') is kept: no warmth today, rest the hands, notice, do not force warmth. One real shift, which I judge acceptable: 'no faking required' and 'You don't have to fake it' are permissions, 'Don't fake it' is a plain instruction. It points the same way, fits his published 'Don't recite the words like an incantation... speak to a frightened child you actually love' and this paragraph's own 'actually talking', and it drops the 'you don't have to X' formula (T10) and the exclamation mark. 'see what you feel' for his 'notice what you find' is as in the words it replaces. No new fact or claim (C03 and C04 absent); C02 fine. Linter findings. B7 short landing at paragraph end ('Don't fake it.'): it is a short last line, but not an engineered or clever closer (T20 absent: no antithesis or quote-card turn, one paragraph and not a run of them), and it does a job, closing the loophole of saying the words falsely instead of resting the hands; the replaced text also ended on a short line. T29 is weakly PRESENT, because without that last line the fallback is already clear and 'Don't fake it' restates 'actually talking to your inner child' in the negative, but it is justified: it is how his own guide closes the fallback (the faking remark) and it is the explicit guardrail the fallback needs. D9 follows the source order: the draft is the fallback and one remark in the order of the lines it replaces; only one sentence actually changes and the paragraph around it keeps its stance ('who is scared to death'), so T13 and T09 do not bite at this size. E36/E41 heavy second person: the paragraph is a second-person practice with quoted self-talk, and the swap lowers the count ('you' twice in the draft against three times in the replaced sentences); T22 is absent because the closing line is a stance, not reassurance. Other rows I looked at and found ABSENT: T10, T15, T16, T17, T19, T24, T25, T26 (the 'in a loving way' repeat is a deliberate callback), T27, T28. Note: the writer's ADMISSION.json reasons for B7 and D9 describe other text ('the stop lines go on after quiet', 'if I can put it that way', 'of course', '!'), not this draft, so I judged both findings on their own merits.",
+  "resolved_tell_ids": ["T29"],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order",
+    "E36/E41 heavy second person"
+  ]
+}
