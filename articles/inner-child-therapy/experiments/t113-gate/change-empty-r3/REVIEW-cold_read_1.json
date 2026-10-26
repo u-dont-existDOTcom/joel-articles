@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "a4434bb6d93d54858d53bc7ec58a03ea266b6fd43dc068fd0bcad068caa4bee2",
+  "context_sha256": "8302a608f6d82270e06b660f9412ac5390d04ab9fa0c1b22227855a951eead6d",
+  "source_sha256": "91bd09232135d635fab6ec4348d9ffe1a00335a0a474ee85b5b7cdccd5531a46",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, r3a)",
+    "context_id": "t113-gate-cold-read-1-r3a-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged 'When your kind words sound empty' over 'Maybe the words are all there, but the loving grown-up behind them isn't, not yet.' The heading names the symptom a reader would feel while the paragraph gives the reason, so they do not repeat, and it supplies the antecedent that the first sentence's 'the words' needs. 'Empty' is a fair gloss on the grown-up not being behind the words and on 'see if your little one can tell the difference', and 'kind' matches 'sweeter and sweeter things', so no claim is added. Casual wording, no linter findings, no tell row present.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

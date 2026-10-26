@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "a87d377608fdd00b4ce35b431c807f4de886bc5041a8fc5c6e7e8564ec2f245a",
+  "context_sha256": "d0429ae75ebe7a60fd65d274c5488b0ff690d6e018ac406c20d93c8811f17cec",
+  "source_sha256": "cf4cc587086208ebf0d01d2222fd625e72204fec85d02f4ce82b34fcf55839f5",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, half1)",
+    "context_id": "t113-gate-preservation-half1-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "I judged \"If it feels like it's all your fault\" over the paragraph that starts \"Blaming yourself can be doing a protective job, too.\": it is the felt version of the paragraph's own line (\"It's all my fault\" might be your parent's line), so a reader who blames themselves recognizes it, and it adds no claim, tone or promise. Both \"it\"s read as the situation or as the guard and the paragraph fits either reading (C02 checked), and the shared \"all ... fault\" is a heading echo that helps a skimmer (T26-type, justified). There are no linter findings and no writer-marked rows, and no other tell row is happening.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

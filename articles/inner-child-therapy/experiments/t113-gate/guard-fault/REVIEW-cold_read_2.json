@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "a87d377608fdd00b4ce35b431c807f4de886bc5041a8fc5c6e7e8564ec2f245a",
+  "context_sha256": "d0429ae75ebe7a60fd65d274c5488b0ff690d6e018ac406c20d93c8811f17cec",
+  "source_sha256": "cf4cc587086208ebf0d01d2222fd625e72204fec85d02f4ce82b34fcf55839f5",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r2d)",
+    "context_id": "t113-gate-cold-read-2-r2d-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "\"If it feels like it's all your fault\" matches the paragraph's \"Blaming yourself can be doing a protective job\" and its quoted \"It's all my fault\", and promises no more than the paragraph gives (a protective job, maybe a parent's line, stop the cruelty, get curious), so it adds no claim. In a run where \"it\" is the guard in the two headings before it, the first \"it\" here is impersonal and could be read as the guard, but either reading leads the same reader to the same paragraph, so I do not count it as an unresolved referent (C02 absent); sharing \"fault\" with the paragraph is the heading finding its paragraph (T26 judged absent). The linter had no findings, no other tell row is happening, and the four headings read as natural cases for a guard section, not a tidy taxonomy.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

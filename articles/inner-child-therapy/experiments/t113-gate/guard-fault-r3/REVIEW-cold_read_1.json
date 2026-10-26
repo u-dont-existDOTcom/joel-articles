@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "a27a3a4934572214822d0d736d588e5ed89eac4f0e1877bf56a510c69d4107f7",
+  "context_sha256": "c2878ba5f76bec5491be41eb316bc47309e128e726ebc39195ef63ea6a756648",
+  "source_sha256": "cf4cc587086208ebf0d01d2222fd625e72204fec85d02f4ce82b34fcf55839f5",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, r3a)",
+    "context_id": "t113-gate-cold-read-1-r3a-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged 'If it all feels like your fault' over 'Blaming yourself can be doing a protective job, too' and the lines after it. The heading names the feeling a reader with self-blame would recognise, and the first sentence says what that feeling can be doing, so the two do not repeat; the echo of 'It's all my fault' is the heading naming the line the paragraph goes on to quote. Plain and casual, and it adds no claim beyond the paragraph's self-blame, parent's line and 'fix it before they leave' points. No linter findings, no tell row present.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

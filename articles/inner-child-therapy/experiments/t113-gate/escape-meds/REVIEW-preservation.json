@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "03dc591e57136f0b5bceeada9c42c18cb6b0243e070f95af30b0ffec150cc4dd",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "38b5c1a3f58f8cec1c1b4c2dda034b9348db29c2d7ed87a337685d9a2b304a84",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r3b)",
+    "context_id": "t113-gate-preservation-r3b-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged \"Before you quit a medication or alcohol\" over \"Don't suddenly stop a medication just because you suspect it's involved. Talk to the doctor who prescribed it. Benzos can be dangerous to quit cold turkey. Alcohol withdrawal can be dangerous if you're physically dependent.\": \"quit a medication or alcohol\" matches the stop-a-medication advice and the two withdrawal warnings, and \"Before\" matches talk-to-the-prescriber-first and the don't-stop-suddenly caution, so no claim or promise is added. It leaves out the \"suspect it's involved\" trigger, but that sentence sits directly after the confused-or-spaced-out part that supplies it, and a reader about to quit either substance still recognizes the case. The linter raised nothing, the writer marked no row, and I found no tell row happening.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

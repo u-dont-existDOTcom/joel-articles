@@ -177,6 +177,23 @@ class PasteSafeTests(unittest.TestCase):
         badr = dict(whole, id='S2', reads=[{'text': 'Some words.', 'new': ['not there']}])
         self.assertTrue(any('not in their reads paragraph' in p for p in R.check(review([badr]), self.bl)))
 
+    def test_a_new_heading_in_a_whole_passage(self):
+        # turn 113: a case heading over a paragraph shows as a heading with its Markdown #s, so a paste keeps it a heading,
+        # and his Revise box starts from the same text
+        para = self.bl[3]
+        s = {'id': 'H1', 'type': 'structure', 'title': 'Case headings', 'advice': 'approve',
+             'spans': [{'block': 3, 'start': 0, 'end': len(para['text'])}], 'card_after': 3,
+             'edits': [], 'inserts': [{'before': 3, 'kind': 'h4', 'text': 'If it calls this stupid', 'seq': 0}], 'moves': [],
+             'reads': [{'text': 'If it calls this stupid', 'kind': 'h4', 'new': ['If it calls this stupid']}, {'text': para['text']}],
+             'what': 'A heading.', 'why': 'Skimming.', 'stays': 'Every word.', 'deciding': 'Approve puts it in.'}
+        self.assertEqual(R.check(review([s]), self.bl), [])
+        page = R.page(review([s]), MD, self.bl)
+        self.assertIn('<p class="rd rd-h rd-h4"><span class="rd-hm">#### </span><ins>If it calls this stupid</ins></p>', page)
+        data = json.loads(re.search(r'<script id="review-data" type="application/json">(.*?)</script>', page, re.S).group(1))
+        self.assertEqual(data['suggestions'][0]['proposed'], '#### If it calls this stupid\n\n' + para['text'])
+        bad = dict(s, id='H2', reads=[{'text': 'A heading', 'kind': 'h7'}])
+        self.assertTrue(any('kind must be' in p for p in R.check(review([bad]), self.bl)))
+
 
 class ReaderBriefTests(unittest.TestCase):
     def test_the_brief_says_a_referent_right_before_is_clear(self):

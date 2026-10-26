@@ -1,0 +1,104 @@
+{
+ "t114i_guard": {
+  "half": "A",
+  "section": "Hear the Guard First",
+  "scope": "section",
+  "words": 519,
+  "decides": "whether Hear the Guard First, as he approved it, reads Human in context",
+  "prediction": "t114i-guard#347: try 1 of 2 for t114i-guard (section), predicted Human at 0.60"
+ },
+ "t114i_start": {
+  "half": "A",
+  "section": "Start With Whatever Showed Up",
+  "scope": "section",
+  "words": 529,
+  "decides": "whether Start With Whatever Showed Up, as he approved it, reads Human in context",
+  "prediction": "t114i-start#348: try 1 of 2 for t114i-start (section), predicted Human at 0.55"
+ },
+ "t114i_change": {
+  "half": "A",
+  "section": "When to Change the Strategy",
+  "scope": "section",
+  "words": 444,
+  "decides": "whether When to Change the Strategy, as he approved it, reads Human in context",
+  "prediction": "t114i-change#349: try 1 of 2 for t114i-change (section), predicted Human at 0.60"
+ },
+ "t114i_escape": {
+  "half": "B",
+  "section": "When Escape Leaves Reality Behind",
+  "scope": "section",
+  "words": 721,
+  "decides": "whether When Escape Leaves Reality Behind, as he approved it, reads Human in context",
+  "prediction": "t114i-escape#350: try 1 of 2 for t114i-escape (section), predicted Human at 0.55"
+ },
+ "t114i_fake": {
+  "half": "A",
+  "section": "When the Adult Voice Feels Fake",
+  "scope": "section",
+  "words": 453,
+  "decides": "whether When the Adult Voice Feels Fake, as he approved it, reads Human in context",
+  "prediction": "t114i-fake#351: try 1 of 2 for t114i-fake (section), predicted Human at 0.60"
+ },
+ "t114i_therapist": {
+  "half": "B",
+  "section": "Finding a Therapist to Borrow Adulthood",
+  "scope": "section",
+  "words": 392,
+  "decides": "whether Finding a Therapist to Borrow Adulthood, as he approved it, reads Human in context",
+  "prediction": "t114i-therapist#352: try 1 of 2 for t114i-therapist (section), predicted Human at 0.65"
+ },
+ "t114i_hooks": {
+  "half": "B",
+  "section": "Other Folks Also Have Hooks",
+  "scope": "section",
+  "words": 450,
+  "decides": "whether Other Folks Also Have Hooks, as he approved it, reads Human in context",
+  "prediction": "t114i-hooks#353: try 1 of 2 for t114i-hooks (section), predicted Human at 0.60"
+ },
+ "t114i_borrow": {
+  "half": "A",
+  "section": "Borrow One Competency at a Time",
+  "scope": "section",
+  "words": 339,
+  "decides": "whether Borrow One Competency at a Time, as he approved it, reads Human in context",
+  "prediction": "t114i-borrow#354: try 1 of 2 for t114i-borrow (section), predicted Human at 0.60"
+ },
+ "t114i_helping": {
+  "half": "A",
+  "section": "How Would You Know It's Helping?",
+  "scope": "section",
+  "words": 235,
+  "decides": "whether How Would You Know It's Helping?, as he approved it, reads Human in context",
+  "prediction": "t114i-helping#355: try 1 of 2 for t114i-helping (section), predicted Human at 0.65"
+ },
+ "t114i_forgive": {
+  "half": "B",
+  "section": "How to Forgive Without Forgetting",
+  "scope": "section",
+  "words": 359,
+  "decides": "whether How to Forgive Without Forgetting, as he approved it, reads Human in context",
+  "prediction": "t114i-forgive#356: try 1 of 2 for t114i-forgive (section), predicted Human at 0.60"
+ },
+ "t114i_solomon": {
+  "half": "A",
+  "section": "Borrow Love—or Borrow the Perspective of Care",
+  "scope": "section",
+  "words": 333,
+  "decides": "whether Borrow Love—or Borrow the Perspective of Care, as he approved it, reads Human in context",
+  "prediction": "t114i-solomon#357: try 1 of 2 for t114i-solomon (section), predicted Human at 0.55"
+ },
+ "t114s_A": {
+  "half": "A",
+  "scope": "stretch",
+  "words": 14987,
+  "decides": "which installed sections read Human in context in half A, and whether the case headings read as his",
+  "prediction": "t114s-A#358: try 1 of unlimited (Substack) for t114s-A (stretch), predicted AI at 0.30"
+ },
+ "t114s_B": {
+  "half": "B",
+  "scope": "stretch",
+  "words": 12544,
+  "decides": "which installed sections read Human in context in half B, and whether the case headings read as his",
+  "prediction": "t114s-B#359: try 1 of unlimited (Substack) for t114s-B (stretch), predicted AI at 0.35"
+ }
+}

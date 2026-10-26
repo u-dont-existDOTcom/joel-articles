@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "e881689fb53e182a7656957bf56737457ef6b9e6e7dc475ff30955843ee4be88",
+  "context_sha256": "28b26009e68f6099ba362349a59994972a5a649dc2d0657a6739fd83b13dd24a",
+  "source_sha256": "b72c4da0b5d946ed17d1db474df997eb05c660e328446d7c2b6534e7ef735af0",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, r3a)",
+    "context_id": "t113-gate-cold-read-1-r3a-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged 'If it's anxiety' over 'Anxiety is often a part of you that's trying to protect you, making a guess about what's coming ... I'd go see.' The writer marked T26 (heading and first sentence share 'anxiety'); I agree it is justified, because the heading is the word a skimmer with this case looks for and the sentence goes on to say what the case means and what to do, so the two do not say the same thing. 'it' is the reaction that showed up, the same convention as 'If it tells you to do something', and no claim is added. No linter findings.",
+  "resolved_tell_ids": ["T26"],
+  "resolved_lint_labels": []
+}

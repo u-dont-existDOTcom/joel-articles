@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "679f0166ca28c4e64373f26e5511628dab5a0e4b79db0eea5538dbfe890b726c",
+  "context_sha256": "d0429ae75ebe7a60fd65d274c5488b0ff690d6e018ac406c20d93c8811f17cec",
+  "source_sha256": "c8fa03951616c5a1fd74dd9ae677aafc8a58aa91916411258a7c69d76f478235",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, half1)",
+    "context_id": "t113-gate-preservation-half1-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "I judged \"If it won't step back\" over \"That part doesn't have to move out. It's been living there way longer than the grown-up you...\": \"step back\" is the section's own phrase (\"What are you afraid would happen if you stepped back?\"), \"it\" is anchored by \"that guard\" in the paragraph above and the section title, and the paragraph does answer the case (the part can keep watch, settle for a lighter cover, and be listened to if it says no). The heading adds no claim, tone or promise. There are no linter findings and no writer-marked rows, and the callback to \"stepped back\" does a job, so no tell row is happening.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

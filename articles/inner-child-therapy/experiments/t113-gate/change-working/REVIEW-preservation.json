@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "ab0cd82e7608db44250fb9a60977d367b3925a4f2cb451640ce2c5d818444189",
+  "context_sha256": "c807ef17438dee80c7eb1d6a9f5fc7048860e116053b476a2e6a5cf0b0ee8340",
+  "source_sha256": "85f220335b93f03fc83c7ec8af8e6be02a17cbba2e25b06ae5f56444fc550135",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r2)",
+    "context_id": "t113-gate-preservation-r2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "'If you're doing it right and it still isn't working' carries the clause that left Joel's sentence, 'And if you keep following the reparenting steps correctly without getting the expected results': 'doing it right' for 'following ... correctly', 'still' for 'keep', and 'isn't working' for 'without getting the expected results', a fair casual equivalent that adds no claim. The sentence 'Consider if you have a unique case these steps don’t match yet.' and the rest of the paragraph are word for word the source's, minus only 'And' and that clause. 'these steps' no longer has 'reparenting steps' before it, but it reads as the guide's steps right under a heading about doing them right, in the section 'When to Change the Strategy'; no lint findings, and no tell row is happening.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

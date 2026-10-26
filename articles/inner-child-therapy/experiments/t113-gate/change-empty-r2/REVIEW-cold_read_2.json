@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "72b693b95b17189a650234739883537c9bca6ae5c035af93d98191d5024d397f",
+  "context_sha256": "c807ef17438dee80c7eb1d6a9f5fc7048860e116053b476a2e6a5cf0b0ee8340",
+  "source_sha256": "91bd09232135d635fab6ec4348d9ffe1a00335a0a474ee85b5b7cdccd5531a46",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r2b)",
+    "context_id": "t113-gate-cold-read-2-r2b-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged “When the words sound empty” over “Maybe the words are all there, but the loving grown-up behind them isn’t, not yet.”: “sound empty” is a plain, recognizable name for words with no loving grown-up behind them, it adds no claim, and the paragraph delivers on it (“I’d borrow that grown-up first. Then try again, and see if your little one can tell the difference.”); “the words” is the paragraph’s own noun, anchored by the guide’s subject, with no stray pronoun and no line split from the line it answers. The linter had no findings and the writer marked no rows; I ran every tell row and found none PRESENT (T26: the heading shares “the words” with the first sentence only so a skimmer can find the case, and the sentence goes on to say more; T06: “empty” is specific, not therapy-safe abstraction). Next to “If the relief doesn’t last”, “How many tries would I give it?”, “If you’d rather stop” and “If you’re doing it right and it still isn’t working”, the set mixes When/If/question forms and follows Joel’s own paragraphs in his order, so it reads as natural cases, not a coverage taxonomy (T12 and T02 absent).",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

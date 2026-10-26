@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "472c2d6e32145fd9045247404fcb4dd09c5031a70d484aeb5e3cc44819e8b080",
+  "context_sha256": "3692d0104051982a3ab977fa7b4de463c609bfe4380125b0754f500814a09c43",
+  "source_sha256": "8d7337eb1876b716d29e0f3ec3de1c9cd1c72c6650fff026d0fea3e84f372477",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, r2)",
+    "context_id": "t113-gate-cold-read-1-r2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged \"Which thoughts to talk to\" over \"I think a fear that keeps turning up to tell you something is worth talking to as a part of you\" and the second paragraph about not over-naming parts: the heading names the question the two paragraphs answer (a recurring fear is worth talking to; a stray thought or a reassurance-seeking worry can be let go unless it's the little one), adds no claim, and a skimmer with a worry on their mind would recognize it. It is plain and casual beside \"If nothing comes\", \"If you do get an answer\" and \"If it's anxiety\", and it asks where the sentence answers, so they do not say the same thing twice (the shared \"talk to\" is the heading's job, not a T26 repetition). The line \"How you picture all that is up to you, as long as it helps, and the simpler the better.\" was split off and now ends the \"If you do get an answer\" case, where \"all that\" still reads right. No linter findings and no writer-marked rows; I found no tell row actually happening (T19, T24 and T11 are not at work in a one-line signpost for a real reader's question).",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

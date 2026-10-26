@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "701f1cbef97cf8414a32cc364d15db8ab15c9d98468aebcdbdda8afc37508001",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "38b5c1a3f58f8cec1c1b4c2dda034b9348db29c2d7ed87a337685d9a2b304a84",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r3b)",
+    "context_id": "t113-gate-preservation-r3b-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged \"If you keep coming back from trips confused or spaced out\" against the source's first sentence \"Say you keep coming back from trips confused or spaced out.\": it is the same sentence with \"If\" for \"Say\", so nothing is added or lost, and the sentence leaving the paragraph is what the change authorizes. What stands under it, \"Maybe nothing worse happens, but after several trips like that I'd be concerned. If you're having episodes when you're sober, or any of them are severe, see a psychiatrist.\", is the case it names (\"nothing worse\" and \"like that\" point at the heading directly above, and the sober-episodes line continues the same scenario), and the medication sentences sit under their own heading. The linter raised nothing, the writer marked no row, and I found no tell row happening.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

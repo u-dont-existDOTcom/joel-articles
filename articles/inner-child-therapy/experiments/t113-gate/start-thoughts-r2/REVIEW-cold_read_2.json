@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "472c2d6e32145fd9045247404fcb4dd09c5031a70d484aeb5e3cc44819e8b080",
+  "context_sha256": "3692d0104051982a3ab977fa7b4de463c609bfe4380125b0754f500814a09c43",
+  "source_sha256": "8d7337eb1876b716d29e0f3ec3de1c9cd1c72c6650fff026d0fea3e84f372477",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r2a)",
+    "context_id": "t113-gate-cold-read-2-r2a-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "I judged \"Which thoughts to talk to\" against \"I think a fear that keeps turning up to tell you something is worth talking to as a part of you...\" and \"I wouldn't spend long deciding what to call each part, though\": the first paragraph sorts a recurring fear, \"a stray thought\" and \"worry that just keeps asking to be reassured\" into talk-to or let-go and the second is the don't-over-sort caveat, so the heading's promise is kept in the paragraph's own words (\"thoughts\", \"talk to\") and it adds no claim. There are no linter findings and no PRESENT rows: the shared \"talk to\" is a heading doing its job, not T26, and T02, T11, T12, T19 and T24 are not happening in the heading itself. One thing for the author: SOURCE.txt has \"How you picture all that is up to you, as long as it helps, and the simpler the better.\" fused onto the front of this paragraph, but CONTEXT.txt breaks the paragraph after it and leaves it as the last line of \"If you do get an answer\" (where \"all that\" still points at the voice, hunch or feeling), so the heading strands nothing, but that paragraph break is not named in the_change. With \"If nothing comes\", \"If you do get an answer\", \"If it's anxiety\" and \"When to stop\" the set mixes situations and decisions unevenly, which reads as a person's notes, not a coverage taxonomy.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

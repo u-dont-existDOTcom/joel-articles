@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "472c2d6e32145fd9045247404fcb4dd09c5031a70d484aeb5e3cc44819e8b080",
+  "context_sha256": "3692d0104051982a3ab977fa7b4de463c609bfe4380125b0754f500814a09c43",
+  "source_sha256": "8d7337eb1876b716d29e0f3ec3de1c9cd1c72c6650fff026d0fea3e84f372477",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r2)",
+    "context_id": "t113-gate-preservation-r2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "'Which thoughts to talk to' says what the first paragraph does (a fear that keeps turning up is 'worth talking to as a part of you'; a stray thought or a reassurance-seeking worry can 'go the same way', 'unless it's your little one asking'), and the second ('I wouldn't spend long deciding what to call each part, though') is the caveat to that sorting, so the heading adds no claim and leaves out nothing a skimmer needs. The paragraph words under it match SOURCE exactly; the one sentence 'How you picture all that is up to you, as long as it helps, and the simpler the better.' stays in its place above the heading (a paragraph split only), which is right because it is not about thoughts. No lint findings, and no tell row is happening: the shared 'talk to' is the match a skimmer uses, and the heading is a label, not a question answered for suspense.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "49c498bb593269eb512b9bb2a94c0a114ee9d55135e3dca28b12b32a49b9268f",
+  "context_sha256": "934ecfbebcef8a4c0d61dbd6119cea15151a54eeca1fb83b8bcf22c470b53ef0",
+  "source_sha256": "38b5c1a3f58f8cec1c1b4c2dda034b9348db29c2d7ed87a337685d9a2b304a84",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, r2)",
+    "context_id": "t113-gate-cold-read-1-r2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged \"Coming back from trips confused or spaced out\" over \"Maybe nothing worse happens, but after several trips like that I'd be concerned. If you're having episodes when you're sober, or any of them are severe, see a psychiatrist ...\" It is Joel's own sentence as a heading (minus \"Say you keep\"), so it is in his voice and names the reader's situation plainly; \"trips like that\" and \"episodes\" now point cleanly at the heading above, the whole paragraph (psychiatrist, not stopping a medication suddenly) follows from that situation, and nothing is added (dropping \"keep\" is covered by the paragraph's own \"after several trips\"). No linter findings, no writer-marked rows, and no tell row is happening; taking his sentence out of the paragraph is the part Joel decides.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

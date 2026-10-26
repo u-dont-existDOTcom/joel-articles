@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "72b693b95b17189a650234739883537c9bca6ae5c035af93d98191d5024d397f",
+  "context_sha256": "c807ef17438dee80c7eb1d6a9f5fc7048860e116053b476a2e6a5cf0b0ee8340",
+  "source_sha256": "91bd09232135d635fab6ec4348d9ffe1a00335a0a474ee85b5b7cdccd5531a46",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, r2)",
+    "context_id": "t113-gate-cold-read-1-r2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged \"When the words sound empty\" over \"Maybe the words are all there, but the loving grown-up behind them isn't, not yet ...\" in \"When to Change the Strategy\": the heading names the symptom a reader would notice and the sentence supplies the cause (the grown-up isn't behind the words yet), so they do not say the same thing twice, and \"sound empty\" claims nothing beyond the paragraph's picture of words without the loving grown-up. It is short and casual, sits naturally beside \"If the relief doesn't last\" and \"If you'd rather stop\", and \"the words\" is only slightly open on its own but inferable from the guide's practice of speaking to the little one. No linter findings, no writer-marked rows, and no tell row is happening (the shared \"the words\" is the heading's finding word, not a T26 repetition).",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

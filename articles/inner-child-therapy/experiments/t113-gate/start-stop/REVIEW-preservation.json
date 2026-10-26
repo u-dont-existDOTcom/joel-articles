@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "ffebd06a71cc397951fc449be3dfb6a5e56737db2cf028eef44d7ecc785b5325",
+  "context_sha256": "3692d0104051982a3ab977fa7b4de463c609bfe4380125b0754f500814a09c43",
+  "source_sha256": "51981a84aa8051bfe477cda33a5ee1148420832a31558c056c9809a8d82d0fd6",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r2)",
+    "context_id": "t113-gate-preservation-r2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "'When to stop' is accurate to the one sentence under it ('If a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state, I'd stop there and not test it'), claims nothing the sentence does not, and being unconditional it does not invite a reader to skip the section's one stop rule. The triggers are in the sentence's first words, so a reader with a hesitating part finds them at once; 'even when it sounds like a prediction' leans on the anxiety paragraph above it, but that is Joel's unchanged sentence, not something the heading adds. No lint findings and no tell row is happening; the sentence matches SOURCE exactly.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

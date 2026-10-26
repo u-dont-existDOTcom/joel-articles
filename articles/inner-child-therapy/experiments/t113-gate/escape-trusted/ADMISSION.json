@@ -1,0 +1,224 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "386bee9d0e437ee1a4810c7e2b09b922903c4b83b033c9456ec09d18834e0525",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "9046009b1a6642a243d8448914d78eea7f81f2cf1ee9072566be05a176cd80ae",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "writer": {
+    "name": "Claude Opus 5.5, the Inner Child lane writer",
+    "context_id": "session_01NbUfhcTaRT8sbjyYV1wEFq"
+  },
+  "lint": {
+    "verdict_at_init": "CLEAR",
+    "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+    "stdout_sha256": "91f2bc2e602db8a57a39f779a8060d288381f845902006d9cd86b7bdfbaf9f96",
+    "findings": []
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "a heading, \"Who counts as trusted\", with no first-person stake of its own; the paragraph under it keeps his \"I'd\"s",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "\"Who counts as trusted\" names one case; it is not a run of compressed commands",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "\"Who counts as trusted\" names what the paragraph right under it is about; nothing arrives unprepared",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "no scene in \"Who counts as trusted\"",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "no concrete prop in \"Who counts as trusted\"",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "no vague healing or process language in \"Who counts as trusted\"; its words are the paragraph's own subject",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "no filler or staged hesitation in \"Who counts as trusted\"",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "no image followed by an explanation in \"Who counts as trusted\"",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "the headings come only where a paragraph is its own case; the paragraphs keep their uneven lengths and asides",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "no \"you don't have to X before Y\" packaging in \"Who counts as trusted\"",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "\"Who counts as trusted\" labels a case a reader may be in; it is not prose connective tissue between document parts",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "the case headings in the section name cases a reader may or may not be in (an open set of situations), not a closed taxonomy built for coverage",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "the paragraphs under \"Who counts as trusted\" keep their reasons, asides and callbacks; the heading removes none",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "no material moved to dodge a detector: the heading is Joel's skimming idea, placed only where a paragraph is its own case",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "plain words in \"Who counts as trusted\", chosen for a reader skimming for their situation, not for unlikelihood",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "no \"not X, it's Y\" in \"Who counts as trusted\"",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "ABSENT",
+      "evidence": "no thesis or aphorism in \"Who counts as trusted\"; it names a situation",
+      "resolution": ""
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "no premise flipped by a short sentence in \"Who counts as trusted\"",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "\"Who counts as trusted\" is a heading that labels its paragraph, the way the article's other headings do; it is not a sentence whose only job is to announce",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "\"Who counts as trusted\" ends no paragraph",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "ABSENT",
+      "evidence": "\"Who counts as trusted\" does one job: it names a case",
+      "resolution": ""
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "no reassurance in \"Who counts as trusted\"",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "no generic scenery in \"Who counts as trusted\"",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "no faux-insight setup in \"Who counts as trusted\"",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "no colon in \"Who counts as trusted\"",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "PRESENT",
+      "evidence": "the heading and the first sentence share \"trusted\"",
+      "resolution": "JUSTIFIED_KEEP",
+      "reason": "The heading asks what the paragraph's first words answer (\"By trusted, I mean\"), so the shared word is the question and its answer; \"trusted advisors\" in the paragraph above is what it picks up."
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "none of the tic words in \"Who counts as trusted\"",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "\"Who counts as trusted\" does not end its section",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "\"Who counts as trusted\" is not a paragraph's last sentence",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "the inner child is not named in \"Who counts as trusted\", and \"the kid\" appears nowhere in it",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "no pronoun in \"Who counts as trusted\"; its \"trusted\" picks up \"trusted advisors\" just above",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "no fact about Joel's life in \"Who counts as trusted\"",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "no claim about a study, person or product in \"Who counts as trusted\"",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "REVIEW-preservation.json",
+    "cold_read_1": "REVIEW-cold_read_1.json",
+    "cold_read_2": "REVIEW-cold_read_2.json"
+  }
+}

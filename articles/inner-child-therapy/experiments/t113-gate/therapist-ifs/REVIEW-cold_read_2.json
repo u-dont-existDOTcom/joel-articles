@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "f409e477454ee99830ab7fbc4238620303ffe1a1ce9dedec99672beb65df2566",
+  "context_sha256": "216e3b6fdcf888265c22f0e0b3359e9657b9f36552bbc03a81ed39b7e3415080",
+  "source_sha256": "6e56039236c961139385d43fc572966b310754cabdcc734a5f70d82398841f18",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r2c)",
+    "context_id": "t113-gate-cold-read-2-r2c-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged \"IFS and Schema Therapy\" over \"The best licensed, listed therapists you'll find that come close will be doing Internal Family Systems (IFS), or Schema Therapy.\": the heading names what the paragraph is about, adds no claim, and its acronym is spelled out in the first line below it, while \"come close\" is anchored by \"my approach\" in the same paragraph and by the \"Inner Child Reparenting therapists\" heading above. It is a plain topic label for where to look, not a situation phrase, but it matches its siblings \"Inner Child Reparenting therapists\", \"Before choosing a therapist\" and \"AI therapy\", which are the same kind, so the set reads as the options a person has when looking for a therapist, not a built taxonomy (T12 absent). The paragraph sends the explanation of IFS and Schema to the appendix, so the heading does not promise a description, and what follows (licensed, listed therapists, Open Path Collective, the official site) is the finding-a-therapist job the section title already frames. Linter findings: none; writer-marked PRESENT rows: none; I swept T01 to T29 and C01 to C04 and found none actually happening (the echo of \"IFS\" and \"Schema Therapy\" in the first sentence is the heading's matching job, and the sentence adds licensed, listed and \"comes closest\", so not T26).",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

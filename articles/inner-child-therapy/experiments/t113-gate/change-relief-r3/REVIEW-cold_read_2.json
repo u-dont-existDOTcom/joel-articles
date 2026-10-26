@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "8fa9abc824e4ba2758560c830b68ed909d023c49cefac55bc18df88239eb930f",
+  "context_sha256": "8302a608f6d82270e06b660f9412ac5390d04ab9fa0c1b22227855a951eead6d",
+  "source_sha256": "4695e5b6c1b5172ba68375e1e837404c1e66e5fd011caf7e1a2873882b3b05d8",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r3c)",
+    "context_id": "t113-gate-cold-read-2-r3c-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "I judged 'If the relief doesn't last' over 'Let's say an exercise leaves you feeling lighter for a few hours, but then the old feeling comes back later on. Some relief is nice, but we still want to know if we are fixing the problem at a deeper level ... Jot down what changed and how long it lasted.' The heading names the situation in the paragraph's own terms (lighter for a few hours, then the old feeling returns; the paragraph itself says 'Some relief is nice'), claims nothing the paragraph doesn't, and the paragraph answers it (aim for deeper change that reaches regular life, note what changed and for how long, drop the note-taking if it feeds OCD). 'The relief' presumes the exercise, which the section and the guide supply, and the heading splits no line from the one it answers; among the other stall cases it reads as a natural run of ways progress stalls. No linter findings and no row marked PRESENT; the shared word 'relief' ties the heading to sentence two and helps a skimmer, so I count no T26, and I saw no other tell in the label.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

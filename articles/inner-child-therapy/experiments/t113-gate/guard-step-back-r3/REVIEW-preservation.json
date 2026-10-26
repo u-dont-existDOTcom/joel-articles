@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "679f0166ca28c4e64373f26e5511628dab5a0e4b79db0eea5538dbfe890b726c",
+  "context_sha256": "c2878ba5f76bec5491be41eb316bc47309e128e726ebc39195ef63ea6a756648",
+  "source_sha256": "c8fa03951616c5a1fd74dd9ae677aafc8a58aa91916411258a7c69d76f478235",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r3a)",
+    "context_id": "t113-gate-preservation-r3a-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged 'If it won't step back' over 'That part doesn't have to move out ... It can keep watch ... Maybe it would settle for a lighter cover ... If it says no, I'd listen.' The heading names the case the paragraph answers (the guard refusing to yield), picks up 'stepped back' from the section's opening question, and promises nothing the paragraph doesn't say; 'it' is the guard, as in the neighboring headings, and 'That part' under it is anchored by the heading. No linter findings, no writer-marked rows, and no tell row is actually happening in the heading.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

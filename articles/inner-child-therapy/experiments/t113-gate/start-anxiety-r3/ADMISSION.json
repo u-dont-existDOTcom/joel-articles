@@ -1,0 +1,224 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "e881689fb53e182a7656957bf56737457ef6b9e6e7dc475ff30955843ee4be88",
+  "context_sha256": "28b26009e68f6099ba362349a59994972a5a649dc2d0657a6739fd83b13dd24a",
+  "source_sha256": "b72c4da0b5d946ed17d1db474df997eb05c660e328446d7c2b6534e7ef735af0",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "writer": {
+    "name": "Claude Opus 5.5, the Inner Child lane writer",
+    "context_id": "session_01NbUfhcTaRT8sbjyYV1wEFq"
+  },
+  "lint": {
+    "verdict_at_init": "CLEAR",
+    "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+    "stdout_sha256": "7a6d9f84e416cbc30d03724504c90e2fe4da6ac8536cca43971b74a1924dfa6a",
+    "findings": []
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "a heading, \"If it's anxiety\", with no first-person stake of its own; the paragraph under it keeps his \"I'd\"s",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "\"If it's anxiety\" names one case; it is not a run of compressed commands",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "\"If it's anxiety\" names what the paragraph right under it is about; nothing arrives unprepared",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "no scene in \"If it's anxiety\"",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "no concrete prop in \"If it's anxiety\"",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "no vague healing or process language in \"If it's anxiety\"; its words are the paragraph's own subject",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "no filler or staged hesitation in \"If it's anxiety\"",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "no image followed by an explanation in \"If it's anxiety\"",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "the headings come only where a paragraph is its own case; the paragraphs keep their uneven lengths and asides",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "no \"you don't have to X before Y\" packaging in \"If it's anxiety\"",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "\"If it's anxiety\" labels a case a reader may be in; it is not prose connective tissue between document parts",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "the case headings in the section name cases a reader may or may not be in (an open set of situations), not a closed taxonomy built for coverage",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "the paragraphs under \"If it's anxiety\" keep their reasons, asides and callbacks; the heading removes none",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "no material moved to dodge a detector: the heading is Joel's skimming idea, placed only where a paragraph is its own case",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "plain words in \"If it's anxiety\", chosen for a reader skimming for their situation, not for unlikelihood",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "no \"not X, it's Y\" in \"If it's anxiety\"",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "ABSENT",
+      "evidence": "no thesis or aphorism in \"If it's anxiety\"; it names a situation",
+      "resolution": ""
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "no premise flipped by a short sentence in \"If it's anxiety\"",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "\"If it's anxiety\" is a heading that labels its paragraph, the way the article's other headings do; it is not a sentence whose only job is to announce",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "\"If it's anxiety\" ends no paragraph",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "ABSENT",
+      "evidence": "\"If it's anxiety\" does one job: it names a case",
+      "resolution": ""
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "no reassurance in \"If it's anxiety\"",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "no generic scenery in \"If it's anxiety\"",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "no faux-insight setup in \"If it's anxiety\"",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "no colon in \"If it's anxiety\"",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "PRESENT",
+      "evidence": "the heading \"If it's anxiety\" and the first sentence \"Anxiety is often a part of you that's trying to protect you\" share \"anxiety\"",
+      "resolution": "JUSTIFIED_KEEP",
+      "reason": "The heading shares one word with the paragraph's first sentence, which is how a reader skimming for this case finds it; the sentence goes on to say something the heading doesn't (what the case means, or what to do)."
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "none of the tic words in \"If it's anxiety\"",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "\"If it's anxiety\" does not end its section",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "\"If it's anxiety\" is not a paragraph's last sentence",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "the inner child is not named in \"If it's anxiety\", and \"the kid\" appears nowhere in it",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "any pronoun in \"If it's anxiety\" points at the section's subject, named in the section heading and the paragraphs above",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "no fact about Joel's life in \"If it's anxiety\"",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "no claim about a study, person or product in \"If it's anxiety\"",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "REVIEW-preservation.json",
+    "cold_read_1": "REVIEW-cold_read_1.json",
+    "cold_read_2": "REVIEW-cold_read_2.json"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "3047bcff0bedd8458e0210c80032b07198924913d266d4cd90426606c460a141",
+  "context_sha256": "b7154453eeba47c7804b15fe03db85fd5dfbad98102c9c76d36416a474f8e69f",
+  "source_sha256": "51981a84aa8051bfe477cda33a5ee1148420832a31558c056c9809a8d82d0fd6",
+  "verdict": "FAIL",
+  "unresolved": [
+    "Not clear on its own: says no to what? The heading drops touch, sex, going deeper and altered states, the specifics that tell a skimmer this paragraph is theirs, and the paragraph covers hesitation, not only a flat no.",
+    "T26 (shared 'a part' and 'says no') not justified: the heading is a trimmed copy of the sentence's own opening clause, so heading and sentence stutter (If a part says no / If a part hesitates ... or says no ...).",
+    "Suggested heading: If a part hesitates about touch, sex, or going deeper"
+  ],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, half1)",
+    "context_id": "t113-gate-cold-read-1-half1-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged “If a part says no” over “If a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state, I’d stop there and not test it, even when it sounds like a prediction.” Read next to “If nothing comes” and “If it’s anxiety” it could mean any refusal, and it is almost the first clause of the one-sentence paragraph, so the two say the same thing twice while the safety-relevant specifics stay out of the heading. The writer’s T26 note is not justified for that reason. No linter findings.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

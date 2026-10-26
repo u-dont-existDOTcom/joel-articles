@@ -1,0 +1,78 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_ADMITTED_V1",
+  "candidate_sha256": "de1f6f21b43e7649f996731c5479c514069e86500c287a88e863e670d2ce1516",
+  "context_sha256": "1b10fdad8003bfd6fe8bd880141111e9e45e46b7761168f3482ca7ac7a072b0c",
+  "source_sha256": "61e6433d1734ed6dfd7f5da005cba9f7aed594ad91a3eea67c0b50197acba1d7",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "lint_verdict": "REVIEW",
+  "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+  "lint_stdout_sha256": "6aa9798f6b593f007a387fd5db1e0f9f0dccaa53a5737512619aefe7c3fb1797",
+  "lint_findings": [
+    {
+      "label": "B4/E15 list or packed sentence",
+      "examples": [
+        "This psychological trick has a rich history around it, and the blind spot behind it even has a name, Solomon’s paradox, after the biblical king everybody brough"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    },
+    {
+      "label": "D9 follows the source order",
+      "examples": [
+        "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    },
+    {
+      "label": "O25 \"even\" or \"actually\", 1 in my text (TELLS-FROM-PANGRAM-DATA-20261007.md: they go with the failing paragraphs; \"They're words I add to sound casual, and they don't help\"): keep one only where it says something",
+      "examples": [
+        "This psychological trick has a rich history around it, and the blind spot behind it even has a name, Solomon’s paradox, after the biblical king everybody brough"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    },
+    {
+      "label": "O6 a candidate, to judge, not a finding: a feeling or idea doing what a person does. A neat, quotable line is the tell (\"Grief doesn't keep a schedule\"); a phrase people say all the time is not (Joel 2026-10-07 23:50: \"Modern life trains us\" is \"so common it's almost cliche, it's not a witty AI quip\"). Judge each with abstract_agents_prompt.py or by his ratings; fix only a quip, giving the action to a person with as few words changed as possible",
+      "examples": [
+        "This psychological trick has a rich history around it, and the blind spot behind it even has a name, Solomon’s paradox, after the biblical king everybody brough"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    }
+  ],
+  "tell_ledger_counts": {
+    "ABSENT": 33,
+    "PRESENT_JUSTIFIED": 0,
+    "UNCERTAIN": 0,
+    "total": 33
+  },
+  "justified_tells": [],
+  "reviews": {
+    "preservation": {
+      "path": "REVIEW-preservation.json",
+      "sha256": "1f354a6c055e8b9b4a92fff26e0826424f25fe039a6ec20ac8d2ff05a328f238",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (preservation reviewer, half2)",
+        "context_id": "t113-gate-preservation-half2-subagent",
+        "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+      }
+    },
+    "cold_read_1": {
+      "path": "REVIEW-cold_read_1.json",
+      "sha256": "7df3c48ff502611a5f816e8f00a7a3072facc781b371b15b6678a8e7b3bc2076",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, half2)",
+        "context_id": "t113-gate-cold-read-1-half2-subagent",
+        "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+      }
+    },
+    "cold_read_2": {
+      "path": "REVIEW-cold_read_2.json",
+      "sha256": "4b7374bbdc06e98227a7b1200d146f76139ae74236ab78b69265057f9db8ebbc",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r2d)",
+        "context_id": "t113-gate-cold-read-2-r2d-subagent",
+        "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+      }
+    }
+  },
+  "manifest_sha256": "ae7e6e646549c1068c0441a2a48b49646c46f13561834a0c1450501e2ac13a4c",
+  "verified_at_utc": "2026-10-26T00:24:23.415854+00:00"
+}

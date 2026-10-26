@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "e881689fb53e182a7656957bf56737457ef6b9e6e7dc475ff30955843ee4be88",
+  "context_sha256": "3692d0104051982a3ab977fa7b4de463c609bfe4380125b0754f500814a09c43",
+  "source_sha256": "b72c4da0b5d946ed17d1db474df997eb05c660e328446d7c2b6534e7ef735af0",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, r2)",
+    "context_id": "t113-gate-cold-read-1-r2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged \"If it's anxiety\" over \"Anxiety is often a part of you that's trying to protect you, making a guess about what's coming ... I'd go see.\" It names the situation in plain words, matches the \"If nothing comes\" / \"If you do get an answer\" pattern of its siblings, and adds nothing the paragraph doesn't say; the sentence goes on to say what the heading doesn't (a protective guess, probably wrong before, go and see), so the two do not say the same thing twice. The one writer-marked row, T26, is the shared word \"anxiety\": it is the finding word for a skimmer and has no honest synonym, so I accept it as justified here. No linter findings, and no other row is happening.",
+  "resolved_tell_ids": ["T26"],
+  "resolved_lint_labels": []
+}

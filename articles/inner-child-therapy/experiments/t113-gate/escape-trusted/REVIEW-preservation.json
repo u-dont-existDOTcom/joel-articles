@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "386bee9d0e437ee1a4810c7e2b09b922903c4b83b033c9456ec09d18834e0525",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "9046009b1a6642a243d8448914d78eea7f81f2cf1ee9072566be05a176cd80ae",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r3b)",
+    "context_id": "t113-gate-preservation-r3b-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged \"Who counts as trusted\" over \"By trusted, I mean someone you know is trustworthy from a long relationship with them, not someone people on Reddit said was super magical and healing ... A new therapist is not as trusted as an old one\": it names what the paragraph does (says who counts, with the Reddit recommendation, the Sidney anecdote and new-versus-old therapist as support) and adds no claim, tone or promise, and it picks up \"trusted advisors\", which ends the paragraph above. Writer-marked T26 (the heading and first sentence share \"trusted\") is justified, because the paragraph is a definition of that word and the heading is how a skimmer finds it. The linter raised nothing.",
+  "resolved_tell_ids": ["T26"],
+  "resolved_lint_labels": []
+}

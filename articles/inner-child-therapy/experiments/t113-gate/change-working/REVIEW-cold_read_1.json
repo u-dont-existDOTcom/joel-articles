@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "ab0cd82e7608db44250fb9a60977d367b3925a4f2cb451640ce2c5d818444189",
+  "context_sha256": "c807ef17438dee80c7eb1d6a9f5fc7048860e116053b476a2e6a5cf0b0ee8340",
+  "source_sha256": "85f220335b93f03fc83c7ec8af8e6be02a17cbba2e25b06ae5f56444fc550135",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, r2)",
+    "context_id": "t113-gate-cold-read-1-r2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged \"If you're doing it right and it still isn't working\" over the trimmed \"Consider if you have a unique case these steps don't match yet. Maybe you'll find something that works better for you, or you can ask me what I'd do for this case, or ask a therapist you work with.\" The heading is a faithful, casual rendering of the condition Joel's sentence carried (\"keep following the reparenting steps correctly without getting the expected results\"), adds no claim, names the reader's situation clearly, and the paragraph now reads right under it without saying the condition twice (\"these steps\" is still inferable from the section). It does remove words from Joel's sentence, which the brief already marks for his decision on the review sheet. No linter findings, no writer-marked rows, and no tell row is happening.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

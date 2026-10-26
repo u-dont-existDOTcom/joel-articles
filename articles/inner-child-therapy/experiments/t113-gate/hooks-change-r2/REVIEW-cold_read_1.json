@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "99743c89e1a07417827b09d3cfbeea1692ed5fda43844f40c16ef17226cf3e8f",
+  "context_sha256": "c4562c19421068d2f176dd164dc6a96caba7800dc60016ba9b88c45b2e1113c0",
+  "source_sha256": "d4f70d226d310d4f7729587efe3f0645c6b13aa92087147ac5c447d194b72060",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, r2)",
+    "context_id": "t113-gate-cold-read-1-r2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged \"Can they change?\" over \"You may not know for certain whether the other person is or could be capable of a healthier response, and neither do they ...\" and the Substack note link under it (which I could not open, so I judged against the five sentences). It is the reader's real question, short and in Joel's register (like his own \"How many tries would I give it?\"), \"Other Folks Also Have Hooks\" anchors \"they\", and the first sentence answers the question (you may not know) instead of restating it, so T24 is not happening. B7 flags the heading as a short landing, but it is a heading over a five-sentence paragraph and lands nothing; D9 flags that one paragraph follows its source order, which is by design for a heading that reorders nothing; I accept both.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": ["B7 short landing at paragraph end", "D9 follows the source order"]
+}

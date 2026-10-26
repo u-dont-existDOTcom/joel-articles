@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "f409e477454ee99830ab7fbc4238620303ffe1a1ce9dedec99672beb65df2566",
+  "context_sha256": "216e3b6fdcf888265c22f0e0b3359e9657b9f36552bbc03a81ed39b7e3415080",
+  "source_sha256": "6e56039236c961139385d43fc572966b310754cabdcc734a5f70d82398841f18",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, half2)",
+    "context_id": "t113-gate-cold-read-1-half2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged \"IFS and Schema Therapy\" over \"The best licensed, listed therapists you'll find that come close will be doing Internal Family Systems (IFS), or Schema Therapy...\", between \"Inner Child Reparenting therapists\" (often unlicensed) and \"Before choosing a therapist\". It names the two modalities rather than a situation, but in that sequence a skimmer reads it as the licensed alternative, the paragraph spells out \"Internal Family Systems (IFS)\" on the next line, and it matches the sibling heading's way of naming a kind of therapist; \"Licensed IFS and Schema therapists\" would be a shade clearer but this is acceptable. It adds no claim (that Schema comes closest is the paragraph's, not the heading's), does not restate the sentence, which adds \"best licensed, listed\" and \"come close\", and the shared terms are only a label, so T26 and T12 are not actually happening; no linter findings.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

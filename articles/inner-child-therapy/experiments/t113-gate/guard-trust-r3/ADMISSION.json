@@ -1,0 +1,223 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "3d88b0a782e5429847f0ad74e6dea0351c86ad1b688f97897a6cc70d94ed43b0",
+  "context_sha256": "c2878ba5f76bec5491be41eb316bc47309e128e726ebc39195ef63ea6a756648",
+  "source_sha256": "46ccd26872f7461cb4c2891b259b938b95b561faffab905f265a08b3601c000e",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "writer": {
+    "name": "Claude Opus 5.5, the Inner Child lane writer",
+    "context_id": "session_01NbUfhcTaRT8sbjyYV1wEFq"
+  },
+  "lint": {
+    "verdict_at_init": "CLEAR",
+    "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+    "stdout_sha256": "a489bffb79562d1171c3a536b3acfc0994bf278e5a8b125a95cfd46f28686a08",
+    "findings": []
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "a heading, \"Earning its trust, day to day\", with no first-person stake of its own; the paragraph under it keeps his \"I'd\"s",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "\"Earning its trust, day to day\" names one case; it is not a run of compressed commands",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "\"Earning its trust, day to day\" names what the paragraph right under it is about; nothing arrives unprepared",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "no scene in \"Earning its trust, day to day\"",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "no concrete prop in \"Earning its trust, day to day\"",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "no vague healing or process language in \"Earning its trust, day to day\"; its words are the paragraph's own subject",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "no filler or staged hesitation in \"Earning its trust, day to day\"",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "no image followed by an explanation in \"Earning its trust, day to day\"",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "the headings come only where a paragraph is its own case; the paragraphs keep their uneven lengths and asides",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "no \"you don't have to X before Y\" packaging in \"Earning its trust, day to day\"",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "\"Earning its trust, day to day\" labels a case a reader may be in; it is not prose connective tissue between document parts",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "the case headings in the section name cases a reader may or may not be in (an open set of situations), not a closed taxonomy built for coverage",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "the paragraphs under \"Earning its trust, day to day\" keep their reasons, asides and callbacks; the heading removes none",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "no material moved to dodge a detector: the heading is Joel's skimming idea, placed only where a paragraph is its own case",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "\"day to day\" says plainly where the trust is earned, the paragraph's \"mostly out in ordinary life\", for a reader who expects it in the session",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "no \"not X, it's Y\" in \"Earning its trust, day to day\"",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "ABSENT",
+      "evidence": "no thesis or aphorism in \"Earning its trust, day to day\"; it names a situation",
+      "resolution": ""
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "no premise flipped by a short sentence in \"Earning its trust, day to day\"",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "\"Earning its trust, day to day\" is a heading that labels its paragraph, the way the article's other headings do; it is not a sentence whose only job is to announce",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "\"Earning its trust, day to day\" ends no paragraph",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "ABSENT",
+      "evidence": "\"Earning its trust, day to day\" does one job: it names a case",
+      "resolution": ""
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "no reassurance in \"Earning its trust, day to day\"",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "no generic scenery in \"Earning its trust, day to day\"",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "no faux-insight setup in \"Earning its trust, day to day\"",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "no colon in \"Earning its trust, day to day\"",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "ABSENT",
+      "evidence": "no distinctive word of \"Earning its trust, day to day\" is repeated without a job; a word it shares with the paragraph is how a skimmer finds the paragraph",
+      "resolution": ""
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "none of the tic words in \"Earning its trust, day to day\"",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "\"Earning its trust, day to day\" does not end its section",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "\"Earning its trust, day to day\" is not a paragraph's last sentence",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "the inner child is not named in \"Earning its trust, day to day\", and \"the kid\" appears nowhere in it",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "\"its\" is the guard, the section's subject (\"Hear the Guard First\", \"that part\" above); the paragraph under it says \"that guard's trust\"",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "no fact about Joel's life in \"Earning its trust, day to day\"",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "no claim about a study, person or product in \"Earning its trust, day to day\"",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "REVIEW-preservation.json",
+    "cold_read_1": "REVIEW-cold_read_1.json",
+    "cold_read_2": "REVIEW-cold_read_2.json"
+  }
+}

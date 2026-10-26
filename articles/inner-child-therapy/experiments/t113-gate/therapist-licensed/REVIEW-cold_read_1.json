@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "2882bcf25bbe59219dc2e20459ecf7c805ff36cf1f578299c9e2c0f2ae8a3114",
+  "context_sha256": "2b4b896af65c432b1eb408cf8febe70e2902a869fcb92253776b26ff55b6bf43",
+  "source_sha256": "6e56039236c961139385d43fc572966b310754cabdcc734a5f70d82398841f18",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, r3b)",
+    "context_id": "t113-gate-cold-read-1-r3b-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged \"If you want a licensed therapist\" over \"The best licensed, listed therapists you'll find that come close will be doing Internal Family Systems (IFS), or Schema Therapy ... Open Path Collective ... lists thousands of affordable therapists.\" It names the reader's situation, follows naturally from the paragraph above (reparenting therapists \"often are not licensed\") and sets up \"Before choosing a therapist\" below, and adds no claim. \"Licensed\" is shared with the first sentence only as the topic, and the sentence goes on to IFS and Schema, so nothing is said twice. No linter findings or writer-marked rows, and no tell row PRESENT.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "99743c89e1a07417827b09d3cfbeea1692ed5fda43844f40c16ef17226cf3e8f",
+  "context_sha256": "5da4765a6625bdf546277dafd19e07943c3f167d288c87d399094a61910b18fa",
+  "source_sha256": "d4f70d226d310d4f7729587efe3f0645c6b13aa92087147ac5c447d194b72060",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r3b)",
+    "context_id": "t113-gate-preservation-r3b-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged \"Can they change?\" over \"You may not know for certain whether the other person is or could be capable of a healthier response, and neither do they. If they promise to change, that's probably as useful as their prior promises were ...\": the heading is the reader's own question and the paragraph does answer it (you can't be sure, a promise is weak evidence, a realistic boundary lets you hold high expectations and be ready for failure), so it promises no answer the paragraph withholds and adds no claim or tone, and \"they\" is anchored by the section's \"Other Folks Also Have Hooks\" and the paragraph above. Linter: \"B7 short landing at paragraph end\" reads the heading alone as a paragraph over a five-sentence paragraph, and \"D9 follows the source order\" is a heading following its own paragraph by design (T13 and T09 do not apply to a heading), so I accept both. The writer marked no row, and the question is a real reader's, answered with nuance rather than suspense, so I find no T24 or other tell row happening.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": ["B7 short landing at paragraph end", "D9 follows the source order"]
+}

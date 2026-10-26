@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "cac25a9e9bf810511ad78183afad1cf59f382cdaefb8b6fc6790016b7498c184",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "d35df71bbcdcfa7c759777546dac2e3670a089f46174b8b61365b9d70cae92d6",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r3b)",
+    "context_id": "t113-gate-preservation-r3b-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged \"Is your paranoia a warning sign?\" over \"Paranoia during a rough trip can be a warning sign for psychosis, but it doesn't automatically lead there, since it can be valid\" and the split-off \"If you can't clearly understand what happened yourself, get someone qualified to help\": the heading is the reader's own question, the first part answers it with the source's nuance (it tends to go that way when not balanced by practicality, the three CIA examples, the THC line), and the second part is the next step when the reader can't answer it alone, with every source sentence kept and no claim, tone or promise added. Writer-marked T26 (the heading shares \"paranoia\" and \"warning sign\" with the first sentence) is justified, because the echo is how a skimmer finds the case and the sentence says what the heading can't. Linter: \"B7 short landing at paragraph end\" is a six-word heading read as a paragraph, \"D9 follows the source order\" is a heading following its own paragraphs by design (T13 and T09 do not apply to a heading), and \"E36/E41 heavy second person\" counts one \"your\" in a heading that speaks to the reader as the guide's other headings do, so I accept all three.",
+  "resolved_tell_ids": ["T26"],
+  "resolved_lint_labels": ["B7 short landing at paragraph end", "D9 follows the source order", "E36/E41 heavy second person"]
+}

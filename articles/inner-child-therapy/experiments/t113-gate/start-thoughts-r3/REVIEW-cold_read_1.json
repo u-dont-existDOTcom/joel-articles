@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "472c2d6e32145fd9045247404fcb4dd09c5031a70d484aeb5e3cc44819e8b080",
+  "context_sha256": "28b26009e68f6099ba362349a59994972a5a649dc2d0657a6739fd83b13dd24a",
+  "source_sha256": "8d7337eb1876b716d29e0f3ec3de1c9cd1c72c6650fff026d0fea3e84f372477",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, r3a)",
+    "context_id": "t113-gate-cold-read-1-r3a-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged 'Which thoughts to talk to' over 'I think a fear that keeps turning up ... is worth talking to as a part of you' and the paragraph 'I wouldn't spend long deciding what to call each part, though.' The first paragraph is that very decision (a recurring fear or your little one: talk to it; a stray thought or a reassurance-seeking worry: let it go), and the second is its rider (don't agonise over labels, hearing out a protective part helps), so one heading fits both and claims nothing extra. It poses the reader's question that the paragraph answers rather than echoing the first sentence, and it sounds like a plain heading Joel could write. No linter findings, no tell row present.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

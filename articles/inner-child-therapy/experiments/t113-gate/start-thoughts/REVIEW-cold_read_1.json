@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "472c2d6e32145fd9045247404fcb4dd09c5031a70d484aeb5e3cc44819e8b080",
+  "context_sha256": "b7154453eeba47c7804b15fe03db85fd5dfbad98102c9c76d36416a474f8e69f",
+  "source_sha256": "8d7337eb1876b716d29e0f3ec3de1c9cd1c72c6650fff026d0fea3e84f372477",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, half1)",
+    "context_id": "t113-gate-cold-read-1-half1-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged “Which thoughts to talk to” over “How you picture all that is up to you, as long as it helps, and the simpler the better. I think a fear that keeps turning up to tell you something is worth talking to as a part of you.” The paragraphs do sort thoughts into the ones worth talking to (a recurring fear, the little one) and the ones to let go (a stray thought, a worry that keeps asking to be reassured), so a skimmer unsure whether to engage a thought would find it; the second paragraph (don’t fuss over what to call each part) sits a little off the heading but follows from it. The heading does not repeat the first sentence, adds no claim, and reads in Joel’s plain register. No linter findings and no tell row actually happening; “talk to” echoing “talking to” is a locator, not T26.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

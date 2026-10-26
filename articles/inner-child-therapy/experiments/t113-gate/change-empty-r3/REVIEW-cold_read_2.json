@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "a4434bb6d93d54858d53bc7ec58a03ea266b6fd43dc068fd0bcad068caa4bee2",
+  "context_sha256": "8302a608f6d82270e06b660f9412ac5390d04ab9fa0c1b22227855a951eead6d",
+  "source_sha256": "91bd09232135d635fab6ec4348d9ffe1a00335a0a474ee85b5b7cdccd5531a46",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r3c)",
+    "context_id": "t113-gate-cold-read-2-r3c-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "I judged 'When your kind words sound empty' over 'Maybe the words are all there, but the loving grown-up behind them isn't, not yet ... I'd borrow that grown-up first.' It names a situation a skimmer would recognize, 'kind words' and 'empty' are fair names for 'sweeter and sweeter things' with the loving grown-up missing behind them, and the heading gives 'the words' and 'them' a clear antecedent that the paragraph alone lacks. It opens a new case (a fourth blocker after the intro's three) rather than splitting a line from the one it answers, and with 'If the relief doesn't last', 'How many tries would I give it?' and the other stall cases the set reads as ways progress stalls, not a coverage taxonomy. No linter findings and no row marked PRESENT; the shared word 'words' is the anchor and not a T26 repeat, and I saw no other tell (T06, T11, T19, T22) happening in a six-word case label.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "99743c89e1a07417827b09d3cfbeea1692ed5fda43844f40c16ef17226cf3e8f",
+  "context_sha256": "93ff6a788239ee8195fdc564ab6857199946fabbe375315882015bc573ca65fc",
+  "source_sha256": "d4f70d226d310d4f7729587efe3f0645c6b13aa92087147ac5c447d194b72060",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, half2)",
+    "context_id": "t113-gate-cold-read-1-half2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged \"Can they change?\" over \"You may not know for certain whether the other person is or could be capable of a healthier response, and neither do they...\" (plus a Substack note link whose content the source does not show, so I judged against the text only). In \"Other Folks Also Have Hooks\" \"they\" is the other person, a reader wondering whether that person will change recognizes the case, and the heading asks the reader's own question while the paragraph does not flatly answer it (\"You may not know for certain\"), so T24 is not happening; no claim is added and the first sentence is not restated. B7 is a false positive (a heading read as a one-line paragraph, not a closer) and D9 holds by design (a heading has no order of its own), so I accept both; T13 and T09 do not operate in a four-word heading.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "6d942e88d7a8f399fa1f97fc03d4e3dbf273ab532cb5959fe2a2389e99d5c67b",
+  "context_sha256": "e2d5a874a80509919c88f2081032c18794eac23692062dec873f85fd388ac906",
+  "source_sha256": "1cd92a53d51285058e3c3231768f946beea8d4ba1d97a7f7b5648053517a2780",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, half2)",
+    "context_id": "t113-gate-preservation-half2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "I judged \"For guiding\" over the paragraph \"The Guide can be you too, just a calmer you ... until you develop your own internal compass\" in the section \"Borrow One Competency at a Time\". It names the one function the paragraph is about, in the same form as its siblings \"For warmth\" and \"For protecting\", and adds no claim, tone or promise (the calmer you, the wise person and the wise tradition are all in the paragraph, and the heading promises none of them). No linter findings and no writer-marked rows; T26 could be argued for the stem \"Guide\" shared with the first sentence, but that is the label doing its job, and T12 is not happening because the three-way split is Joel's own, in his paragraphs.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

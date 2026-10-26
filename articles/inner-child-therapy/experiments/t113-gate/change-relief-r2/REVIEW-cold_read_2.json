@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "8fa9abc824e4ba2758560c830b68ed909d023c49cefac55bc18df88239eb930f",
+  "context_sha256": "c807ef17438dee80c7eb1d6a9f5fc7048860e116053b476a2e6a5cf0b0ee8340",
+  "source_sha256": "4695e5b6c1b5172ba68375e1e837404c1e66e5fd011caf7e1a2873882b3b05d8",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r2b)",
+    "context_id": "t113-gate-cold-read-2-r2b-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged “If the relief doesn’t last” over “Let’s say an exercise leaves you feeling lighter for a few hours, but then the old feeling comes back later on.”: it names that opening scenario in plain words, and “doesn’t last” claims only what the paragraph says (the old feeling comes back; “Jot down what changed and how long it lasted”), while “the relief” is anchored by the exercise scenario and the paragraph’s “Some relief is nice”. The heading and the first sentence overlap in situation, but the sentence adds the concrete case (an exercise, a few hours, the old feeling returning) and the paragraph goes on to the deeper-level and integration point, so I do not count it as T26 repetition or a T11 bridge. The linter had no findings and the writer marked no rows; no tell row is PRESENT, and the heading sits in the section’s set as one of Joel’s own cases, not a taxonomy slot (T12 absent).",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

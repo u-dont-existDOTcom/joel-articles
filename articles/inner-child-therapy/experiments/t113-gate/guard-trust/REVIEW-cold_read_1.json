@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "cf1e27f4f1bc6ede74c856f3632dbacfea58d0566e8524f54c6db6490f35445d",
+  "context_sha256": "d0429ae75ebe7a60fd65d274c5488b0ff690d6e018ac406c20d93c8811f17cec",
+  "source_sha256": "46ccd26872f7461cb4c2891b259b938b95b561faffab905f265a08b3601c000e",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, half1)",
+    "context_id": "t113-gate-cold-read-1-half1-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged “Earning its trust” over “A new roommate doesn’t win you over with a speech on move-in day (hopefully, right?) … Your Protector earns that guard’s trust about the same way, mostly out in ordinary life.” It is a topic label rather than an “If” case like its neighbors, but this paragraph is the how-to for earning the guard’s trust, the heading says exactly that, and it sets up the roommate picture; “its” resolves to the guard through the section title “Hear the Guard First” and the sibling headings. The “earn … trust” echo of the third sentence is the heading naming the point, not a T26 repetition. No claim added, no linter findings, no other tell row actually happening.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

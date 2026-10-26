@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "e881689fb53e182a7656957bf56737457ef6b9e6e7dc475ff30955843ee4be88",
+  "context_sha256": "3692d0104051982a3ab977fa7b4de463c609bfe4380125b0754f500814a09c43",
+  "source_sha256": "b72c4da0b5d946ed17d1db474df997eb05c660e328446d7c2b6534e7ef735af0",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r2)",
+    "context_id": "t113-gate-preservation-r2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "'If it's anxiety' names the case the paragraph opens on ('Anxiety is often a part of you that's trying to protect you, making a guess about what's coming...'), 'it' is anchored by the section ('Start With Whatever Showed Up') and its sibling 'If' headings, and the heading adds no claim or promise; the paragraph words match SOURCE exactly. I agree with the writer's T26 row as justified: the heading and the paragraph's first word are both 'anxiety', but that echo is how a skimmer matches the case, and the sentence goes on to say what the heading does not (a protective guess, 'It can be right!', and the real-danger and doctor exception before 'I'd go see'). No lint findings, and no other tell row is happening.",
+  "resolved_tell_ids": ["T26"],
+  "resolved_lint_labels": []
+}

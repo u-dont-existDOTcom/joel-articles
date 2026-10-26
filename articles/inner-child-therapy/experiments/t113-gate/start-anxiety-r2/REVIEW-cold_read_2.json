@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "e881689fb53e182a7656957bf56737457ef6b9e6e7dc475ff30955843ee4be88",
+  "context_sha256": "3692d0104051982a3ab977fa7b4de463c609bfe4380125b0754f500814a09c43",
+  "source_sha256": "b72c4da0b5d946ed17d1db474df997eb05c660e328446d7c2b6534e7ef735af0",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r2a)",
+    "context_id": "t113-gate-cold-read-2-r2a-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "I judged \"If it's anxiety\" over \"Anxiety is often a part of you that's trying to protect you, making a guess about what's coming, like that people will laugh at you...Unless it might be real danger, or something a doctor should look at, I'd go see.\": the heading names a situation a skimmer recognizes, \"it\" has an antecedent in the section (\"Before you decide where it's coming from\"), and the paragraph delivers what the case means and what to do, with no added claim (its own guard about real danger and doctors stops the heading overpromising). The writer's PRESENT T26 (heading and first sentence both say \"anxiety\") is real but justified, because the shared word is how a skimmer finds the case and the sentence goes on to say something the heading doesn't, so I list T26 as resolved. There are no linter findings, and no other row is happening in the heading.",
+  "resolved_tell_ids": ["T26"],
+  "resolved_lint_labels": []
+}

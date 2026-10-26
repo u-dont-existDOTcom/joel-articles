@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "8630ef7beb3b9270742a7d94f5445e1123ea0edf3b3673f9f1b38a4da7400e9d",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "f6be7852f8c8c07451e4a9d4d7ee8ad4aed9cc606e40f250afdce07281e992c7",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r3e)",
+    "context_id": "t113-gate-cold-read-2-r3e-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "I judged 'If you might be prone to mania or psychosis' over 'Any of those reactions, from mania to paranoia, can also point to a vulnerability in you ... any predisposition toward mania or psychosis is a warning sign too, whether it's family history, a bad environment or a bad mindset ... get help from trusted advisors': 'prone' is the paragraph's own 'vulnerability' and 'predisposition', it covers both halves (reactions that point to a vulnerability, and a predisposition) without adding a claim or promising a remedy, and now that 'By trusted, I mean' has its own heading it stands over exactly this one paragraph. There are no linter findings, and no tell row is actually happening in the heading: the shared 'mania or psychosis' is the heading naming its case, and 'those reactions' in the first sentence leans back on the two paragraphs above, which reads fine in order and is named for a skimmer by 'from mania to paranoia'. In the section, the seven small headings take different forms (If..., a question, Who..., Before..., What...) and follow Joel's own paragraph order, so they read as his cases and not as a coverage taxonomy.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

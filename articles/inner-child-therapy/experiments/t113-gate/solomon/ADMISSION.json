@@ -1,0 +1,256 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "de1f6f21b43e7649f996731c5479c514069e86500c287a88e863e670d2ce1516",
+  "context_sha256": "1b10fdad8003bfd6fe8bd880141111e9e45e46b7761168f3482ca7ac7a072b0c",
+  "source_sha256": "61e6433d1734ed6dfd7f5da005cba9f7aed594ad91a3eea67c0b50197acba1d7",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "writer": {
+    "name": "Claude Opus 5.5, the Inner Child lane writer",
+    "context_id": "session_01NbUfhcTaRT8sbjyYV1wEFq"
+  },
+  "lint": {
+    "verdict_at_init": "REVIEW",
+    "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+    "stdout_sha256": "6aa9798f6b593f007a387fd5db1e0f9f0dccaa53a5737512619aefe7c3fb1797",
+    "findings": [
+      {
+        "label": "B4/E15 list or packed sentence",
+        "examples": [
+          "This psychological trick has a rich history around it, and the blind spot behind it even has a name, Solomon’s paradox, after the biblical king everybody brough"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "It is Joel's sentence, with its appositive and its relative clause, as he wrote it (\"this version passes\"); the change adds five words inside it and no clause."
+      },
+      {
+        "label": "D9 follows the source order",
+        "examples": [
+          "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "It is his sentence with one phrase changed, so it follows his order by design."
+      },
+      {
+        "label": "O25 \"even\" or \"actually\", 1 in my text (TELLS-FROM-PANGRAM-DATA-20261007.md: they go with the failing paragraphs; \"They're words I add to sound casual, and they don't help\"): keep one only where it says something",
+        "examples": [
+          "This psychological trick has a rich history around it, and the blind spot behind it even has a name, Solomon’s paradox, after the biblical king everybody brough"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "The \"even\" is his (\"and even has a name\"), kept with his sentence; it says the effect is well enough known to be named."
+      },
+      {
+        "label": "O6 a candidate, to judge, not a finding: a feeling or idea doing what a person does. A neat, quotable line is the tell (\"Grief doesn't keep a schedule\"); a phrase people say all the time is not (Joel 2026-10-07 23:50: \"Modern life trains us\" is \"so common it's almost cliche, it's not a witty AI quip\"). Judge each with abstract_agents_prompt.py or by his ratings; fix only a quip, giving the action to a person with as few words changed as possible",
+        "examples": [
+          "This psychological trick has a rich history around it, and the blind spot behind it even has a name, Solomon’s paradox, after the biblical king everybody brough"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "No quip: \"a blind spot ... has a name\" is the ordinary way to say an effect is named, and the trick \"has a rich history\" is his."
+      }
+    ]
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "no first-person stake; the sentence is Joel's, about a named effect",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "one sentence about the trick and its name, not a run of compressed commands",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "the sentence before it is the exercise (\"put somebody you care about into your exact life ... ask what you’d tell them as a friend\"); \"This psychological trick\" is that exercise",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "no scene of mine; the king is the study's and his (\"the biblical king everybody brought their disputes to\")",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "no concrete prop in the sentence; the king and his disputes are his own comparison",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "\"the blind spot behind it\" names a specific thing, the self-other asymmetry the study names Solomon's paradox",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "no filler or staged hesitation",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "no image followed by its explanation",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "one change in one sentence; the paragraph keeps its two sentences as he wrote them",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "no \"you don't have to X before Y\" packaging",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "it carries a claim (the effect has a name and a story), not a bridge",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "no matched pair or closed list",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "his asides stay (\"has a rich history around it\", \"who then wrecked his own life\")",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "no material moved to dodge a detector: the change makes the name accurate (his 109 A)",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "\"blind spot\" is the plain word for what the study measures, chosen for accuracy, not unlikelihood",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "no \"not X, it's Y\"",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "ABSENT",
+      "evidence": "no aphorism: a named effect with its origin",
+      "resolution": ""
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "no premise flipped by a short sentence",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "it does not announce what comes next",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "the paragraph ends on his \"who then wrecked his own life\", unchanged",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "ABSENT",
+      "evidence": "one job: the trick has a history, and the gap behind it a name",
+      "resolution": ""
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "no reassurance",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "no generic scenery",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "no faux-insight setup",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "no colon in the sentence; its commas are his",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "ABSENT",
+      "evidence": "\"it\" twice (\"around it\", \"behind it\") both mean the trick; no distinctive word repeated without a job",
+      "resolution": ""
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "no tic words",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "not the section's end (the scaffolding paragraph follows)",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "the last sentence of its paragraph, and it adds a consideration (the name and the king), not a restatement",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "the inner child is not named, and \"the kid\" appears nowhere",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "\"it\" in \"behind it\" is \"This psychological trick\", named just before",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "no fact about Joel's life",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "the claim about the study is now what the study says: its title names \"Solomon's paradox\" the self-other asymmetry, which \"the blind spot behind it\" is",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "REVIEW-preservation.json",
+    "cold_read_1": "REVIEW-cold_read_1.json",
+    "cold_read_2": "REVIEW-cold_read_2.json"
+  }
+}

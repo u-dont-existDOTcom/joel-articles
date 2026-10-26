@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "72b693b95b17189a650234739883537c9bca6ae5c035af93d98191d5024d397f",
+  "context_sha256": "229a1de1927eb95a52aa81ba997dbbf5b805a4a9f5ed308aa4f9fb69c7faec7f",
+  "source_sha256": "91bd09232135d635fab6ec4348d9ffe1a00335a0a474ee85b5b7cdccd5531a46",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, half1)",
+    "context_id": "t113-gate-preservation-half1-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "I judged \"When the words sound empty\" over \"Maybe the words are all there, but the loving grown-up behind them isn't, not yet...\": it names, in the reader's terms, the experience the paragraph diagnoses (the right words with no loving grown-up behind them), and it adds no claim, tone or promise (the paragraph's own fix, borrowing that grown-up, stays in the paragraph). \"The words\" is shared with the first sentence, the same kind of heading echo the writer marked T26 elsewhere, justified for the same reason: it is the phrase a skimmer matches. There are no linter findings and no writer-marked rows, and no other tell row is happening in the heading.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

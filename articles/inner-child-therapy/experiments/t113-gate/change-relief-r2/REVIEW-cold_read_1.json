@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "8fa9abc824e4ba2758560c830b68ed909d023c49cefac55bc18df88239eb930f",
+  "context_sha256": "c807ef17438dee80c7eb1d6a9f5fc7048860e116053b476a2e6a5cf0b0ee8340",
+  "source_sha256": "4695e5b6c1b5172ba68375e1e837404c1e66e5fd011caf7e1a2873882b3b05d8",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, r2)",
+    "context_id": "t113-gate-cold-read-1-r2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged \"If the relief doesn't last\" over \"Let's say an exercise leaves you feeling lighter for a few hours, but then the old feeling comes back later on ... Jot down what changed and how long it lasted.\" It names the reader's situation in Joel's own noun (\"Some relief is nice\") and claims nothing the paragraph doesn't; the \"Let's say\" sentence stays useful because it turns the heading's general \"the relief\" into a concrete case, so it reads as the example under the heading and not as a second statement of it. \"The relief\" is a little open on its own but inferable under \"When to Change the Strategy\". No linter findings, no writer-marked rows, and no tell row is happening.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

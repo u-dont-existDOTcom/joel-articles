@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "8630ef7beb3b9270742a7d94f5445e1123ea0edf3b3673f9f1b38a4da7400e9d",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "f6be7852f8c8c07451e4a9d4d7ee8ad4aed9cc606e40f250afdce07281e992c7",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, r3b)",
+    "context_id": "t113-gate-cold-read-1-r3b-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged \"If you might be prone to mania or psychosis\" over \"Any of those reactions, from mania to paranoia, can also point to a vulnerability in you ... any predisposition toward mania or psychosis is a warning sign too ... get help from trusted advisors\". \"Prone\" is a plain word for the paragraph's \"vulnerability\" and \"predisposition\", \"mania or psychosis\" are the paragraph's own words, and \"might\" lets both a reader who reacted badly and one with a family history see themselves, so no claim is added. It names the situation rather than restating the first sentence and reads as a plain heading in Joel's voice. No linter findings or writer-marked rows, and no tell row PRESENT (the shared \"mania or psychosis\" is how a skimmer finds the case).",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

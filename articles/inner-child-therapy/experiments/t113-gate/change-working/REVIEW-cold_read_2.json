@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "ab0cd82e7608db44250fb9a60977d367b3925a4f2cb451640ce2c5d818444189",
+  "context_sha256": "c807ef17438dee80c7eb1d6a9f5fc7048860e116053b476a2e6a5cf0b0ee8340",
+  "source_sha256": "85f220335b93f03fc83c7ec8af8e6be02a17cbba2e25b06ae5f56444fc550135",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r2b)",
+    "context_id": "t113-gate-cold-read-2-r2b-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged “If you’re doing it right and it still isn’t working” against the condition it replaces, “if you keep following the reparenting steps correctly without getting the expected results”: “doing it right” and “still isn’t working” carry the same condition (persistence, correctness, no expected result) and add nothing, and the paragraph now opens on its answer, “Consider if you have a unique case these steps don’t match yet.”, so heading and sentence read as one thought instead of saying it twice. The cost is that “these steps” lost its nearest antecedent (“the reparenting steps”) and the heading’s “it” is generic, but the section title (“the Strategy”), the guide’s own steps and the sibling “Not wanting to do it anymore” make both clear in place, so I do not hold them against it. The linter had no findings and the writer marked no rows; “working” here means effective, not the T27 tic, and no tell row is PRESENT.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

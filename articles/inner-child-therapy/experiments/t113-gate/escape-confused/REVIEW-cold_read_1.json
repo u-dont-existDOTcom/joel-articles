@@ -1,0 +1,21 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "2e24142ba8d5b0b1fc67d4b1ee15e56324482137a57aa9cd67d856be1fffd129",
+  "context_sha256": "51e3f09a99fdeec0000171eeb7202861bd893f68e5de9b74d9eab4c161dba9b8",
+  "source_sha256": "38b5c1a3f58f8cec1c1b4c2dda034b9348db29c2d7ed87a337685d9a2b304a84",
+  "verdict": "FAIL",
+  "unresolved": [
+    "SOURCE.txt opens the paragraph with \"Say you keep coming back from trips confused or spaced out.\" but CONTEXT.txt and the_change start it at \"Maybe nothing worse happens\": a sentence of the existing text is missing from CONTEXT and nothing in the_change authorizes cutting it",
+    "If that sentence stays, the heading says the same thing twice (\"confused or spaced out\" in both; T26, not marked by the writer); if it goes, \"trips like that\" leans on the heading for its antecedent and the heading never says \"trips\"",
+    "Needs Joel's OK to turn his sentence into the heading; if given, use \"Coming back from trips confused or spaced out\" so \"trips like that\" still has something to point at"
+  ],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, half2)",
+    "context_id": "t113-gate-cold-read-1-half2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged \"Coming back confused or spaced out\" over \"Maybe nothing worse happens, but after several trips like that I'd be concerned...\". As a label in the section it is clear and in the same plain register as its neighbors, but SOURCE.txt's paragraph begins \"Say you keep coming back from trips confused or spaced out.\" and CONTEXT.txt leaves that sentence out, which the_change does not mention. With the sentence the heading repeats it nearly word for word, and without it the paragraph's \"worse\" and \"trips like that\" depend on the heading, so either way the item is not ready. No linter findings and no writer-marked rows.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

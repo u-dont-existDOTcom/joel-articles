@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "49c498bb593269eb512b9bb2a94c0a114ee9d55135e3dca28b12b32a49b9268f",
+  "context_sha256": "934ecfbebcef8a4c0d61dbd6119cea15151a54eeca1fb83b8bcf22c470b53ef0",
+  "source_sha256": "38b5c1a3f58f8cec1c1b4c2dda034b9348db29c2d7ed87a337685d9a2b304a84",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r2)",
+    "context_id": "t113-gate-preservation-r2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "'Coming back from trips confused or spaced out' is Joel's removed first sentence ('Say you keep coming back from trips confused or spaced out.') without 'Say you keep'; the recurrence survives in the paragraph ('after several trips like that I'd be concerned'), no claim is added, and 'nothing worse' and 'like that' now point back to the visible heading, which reads right. The rest of the paragraph (sober episodes, severe ones, see a psychiatrist, no sudden stop of a medication, benzos, alcohol withdrawal) is word for word SOURCE and follows from the same situation, so a skimmer with this symptom finds all of it. No lint findings and no tell row is happening.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

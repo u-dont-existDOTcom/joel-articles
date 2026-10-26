@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "8630ef7beb3b9270742a7d94f5445e1123ea0edf3b3673f9f1b38a4da7400e9d",
+  "context_sha256": "934ecfbebcef8a4c0d61dbd6119cea15151a54eeca1fb83b8bcf22c470b53ef0",
+  "source_sha256": "d0b0567f12041227d5f630c2ed4037a7e73f925afd760c48ec4faa4d3432d071",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r2c)",
+    "context_id": "t113-gate-cold-read-2-r2c-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged \"If you might be prone to mania or psychosis\" over the two paragraphs opening \"Any of those reactions, from mania to paranoia, can also point to a vulnerability in you\": \"prone\" restates the paragraph's \"vulnerability\" and \"predisposition toward mania or psychosis\" without adding a claim, and \"By trusted, I mean...\" glosses the first paragraph's closing \"trusted advisors\", so one heading over both is right and a second heading would orphan \"By trusted\". \"Those reactions\" reaches back to the sections above, but \"from mania to paranoia\" and the heading's own \"mania or psychosis\" name them, so a reader who jumps straight here is not left without an antecedent. With \"Your own drug history\", \"Paranoia\", \"Coming back from trips confused or spaced out\" and \"What you mix\" it reads as one more situation a person could be in, in varied wording, not a tidy taxonomy (T12 absent). Linter findings: none; writer-marked PRESENT rows: none; I swept T01 to T29 and C01 to C04 and found none actually happening (the heading's \"mania or psychosis\" echoing the paragraph's second sentence is the skimmer's match, and the paragraph goes on to say what to do, so not T26).",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

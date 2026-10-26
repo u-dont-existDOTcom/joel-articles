@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "49c498bb593269eb512b9bb2a94c0a114ee9d55135e3dca28b12b32a49b9268f",
+  "context_sha256": "934ecfbebcef8a4c0d61dbd6119cea15151a54eeca1fb83b8bcf22c470b53ef0",
+  "source_sha256": "38b5c1a3f58f8cec1c1b4c2dda034b9348db29c2d7ed87a337685d9a2b304a84",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r2c)",
+    "context_id": "t113-gate-cold-read-2-r2c-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged the heading \"Coming back from trips confused or spaced out\" against the paragraph that now opens \"Maybe nothing worse happens, but after several trips like that I'd be concerned.\": it is Joel's old first sentence minus \"Say you keep\", it adds no claim, and \"like that\", \"episodes\" and \"any of them\" still resolve to it directly above, with \"several trips\" carrying the repetition that \"keep\" did. The paragraph delivers what the heading names (concern after repeated trips, see a psychiatrist, do not suddenly stop a medication), and the benzo and alcohol lines belong to that suspect-the-medication step, so a skimmer who matches the heading does not lose them. Beside \"Your own drug history\", \"Paranoia\", \"If you might be prone to mania or psychosis\" and \"What you mix\", the five headings differ in form and overlap the way real situations do, so they read as cases and not as a coverage taxonomy (T12 absent). Linter findings: none; writer-marked PRESENT rows: none; I swept T01 to T29 and C01 to C04 and found none actually happening (the shared word \"trips\" is the anchor \"like that\" needs, so not T26; for C02 the sentence now leans on its heading, but the heading is directly above it).",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

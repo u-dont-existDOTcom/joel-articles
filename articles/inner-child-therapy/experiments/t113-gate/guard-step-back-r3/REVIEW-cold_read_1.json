@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "679f0166ca28c4e64373f26e5511628dab5a0e4b79db0eea5538dbfe890b726c",
+  "context_sha256": "c2878ba5f76bec5491be41eb316bc47309e128e726ebc39195ef63ea6a756648",
+  "source_sha256": "c8fa03951616c5a1fd74dd9ae677aafc8a58aa91916411258a7c69d76f478235",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, r3a)",
+    "context_id": "t113-gate-cold-read-1-r3a-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged 'If it won't step back' over 'That part doesn't have to move out ... If it says no, I'd listen.' It names the case the paragraph answers and picks up the section's own question 'What are you afraid would happen if you stepped back?', so a reader whose guard holds its ground will find it. The heading is the case and the first sentence is the answer, so nothing is said twice, and the paragraph covers exactly this case (it can stay and watch, a lighter cover, listen if it says no) with no claim added. Casual wording, no linter findings, no tell row present.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

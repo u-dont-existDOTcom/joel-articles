@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "e2a6aa0c823e92a414445792821a6e437a0e78f2602fb55e2b90125ab7db3739",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "5ab0673e33ac7e7abf3d20d9f01818125c9d6a06105687db5613fb0d3c214792",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, r3b)",
+    "context_id": "t113-gate-cold-read-1-r3b-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged \"If a past trip went badly\" over \"If you go manic, psychotic (...), get super paranoid, or end up worse afterward than before, those are signs to reconsider trying the same thing again\". It takes over the signpost job of the removed \"Your own drug history matters too.\" and gives \"the same thing again\" an antecedent; \"trip\" is Joel's own word in the next paragraphs (\"a rough trip\", \"several trips\") and \"went badly\" says only what the paragraph's list says, so no claim is added. It does not echo the first sentence (the heading is the situation, the sentence says what going badly means and what to do), it is plain and in Joel's voice, and a skimmer with a bad past trip would know it is theirs. No linter findings, no writer-marked rows, and I found no tell row PRESENT.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

@@ -1,0 +1,223 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "2882bcf25bbe59219dc2e20459ecf7c805ff36cf1f578299c9e2c0f2ae8a3114",
+  "context_sha256": "2b4b896af65c432b1eb408cf8febe70e2902a869fcb92253776b26ff55b6bf43",
+  "source_sha256": "6e56039236c961139385d43fc572966b310754cabdcc734a5f70d82398841f18",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "writer": {
+    "name": "Claude Opus 5.5, the Inner Child lane writer",
+    "context_id": "session_01NbUfhcTaRT8sbjyYV1wEFq"
+  },
+  "lint": {
+    "verdict_at_init": "CLEAR",
+    "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+    "stdout_sha256": "a489bffb79562d1171c3a536b3acfc0994bf278e5a8b125a95cfd46f28686a08",
+    "findings": []
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "a heading, \"If you want a licensed therapist\", with no first-person stake of its own; the paragraph under it keeps his \"I'd\"s",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "\"If you want a licensed therapist\" names one case; it is not a run of compressed commands",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "\"If you want a licensed therapist\" names what the paragraph right under it is about; nothing arrives unprepared",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "no scene in \"If you want a licensed therapist\"",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "no concrete prop in \"If you want a licensed therapist\"",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "no vague healing or process language in \"If you want a licensed therapist\"; its words are the paragraph's own subject",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "no filler or staged hesitation in \"If you want a licensed therapist\"",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "no image followed by an explanation in \"If you want a licensed therapist\"",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "the headings come only where a paragraph is its own case; the paragraphs keep their uneven lengths and asides",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "no \"you don't have to X before Y\" packaging in \"If you want a licensed therapist\"",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "\"If you want a licensed therapist\" labels a case a reader may be in; it is not prose connective tissue between document parts",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "the case headings in the section name cases a reader may or may not be in (an open set of situations), not a closed taxonomy built for coverage",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "the paragraphs under \"If you want a licensed therapist\" keep their reasons, asides and callbacks; the heading removes none",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "no material moved to dodge a detector: the heading is Joel's skimming idea, placed only where a paragraph is its own case",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "plain words in \"If you want a licensed therapist\", chosen for a reader skimming for their situation, not for unlikelihood",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "no \"not X, it's Y\" in \"If you want a licensed therapist\"",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "ABSENT",
+      "evidence": "no thesis or aphorism in \"If you want a licensed therapist\"; it names a situation",
+      "resolution": ""
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "no premise flipped by a short sentence in \"If you want a licensed therapist\"",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "\"If you want a licensed therapist\" is a heading that labels its paragraph, the way the article's other headings do; it is not a sentence whose only job is to announce",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "\"If you want a licensed therapist\" ends no paragraph",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "ABSENT",
+      "evidence": "\"If you want a licensed therapist\" does one job: it names a case",
+      "resolution": ""
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "no reassurance in \"If you want a licensed therapist\"",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "no generic scenery in \"If you want a licensed therapist\"",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "no faux-insight setup in \"If you want a licensed therapist\"",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "no colon in \"If you want a licensed therapist\"",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "ABSENT",
+      "evidence": "\"licensed\" is the paragraph's own word (\"The best licensed, listed therapists\"), the one that sets it apart from the often-unlicensed reparenting therapists above; the sentence goes on to name the two therapies",
+      "resolution": ""
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "none of the tic words in \"If you want a licensed therapist\"",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "\"If you want a licensed therapist\" does not end its section",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "\"If you want a licensed therapist\" is not a paragraph's last sentence",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "the inner child is not named in \"If you want a licensed therapist\", and \"the kid\" appears nowhere in it",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "no pronoun in \"If you want a licensed therapist\"",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "no fact about Joel's life in \"If you want a licensed therapist\"",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "no claim about a study, person or product in \"If you want a licensed therapist\"",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "REVIEW-preservation.json",
+    "cold_read_1": "REVIEW-cold_read_1.json",
+    "cold_read_2": "REVIEW-cold_read_2.json"
+  }
+}
