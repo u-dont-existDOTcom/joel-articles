@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cg/HG-B-love.txt",
+  "input_words": 84,
+  "input_sha256": "f78734405a6adb0763c07f1a0b5e34acae79c68cf357353971c5ab8896d2ce92",
+  "balance_before": 52085,
+  "started_utc": "2026-10-26T00:06:40Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T00:06:47Z",
+  "response": {
+    "id": "894bbed9-e2c2-464b-bcb8-5dc9728fc4ec",
+    "tool": "humanize",
+    "text": "Here’s some inner child love. One of your hands on your heart, the other hand on your solar plexis, and say in a loving way to your inner child “little one, you are not alone, you don’t need to fix it, I am here now. The adult is here now to listen to you.” Make sure you are talking to your inner child. It is scared to death. If you can’t do it today in a loving way, then at least put your hands there and see what you notice. Don’t fake it.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 84
+    },
+    "elapsed": 6
+  },
+  "balance_after": 52001
+}

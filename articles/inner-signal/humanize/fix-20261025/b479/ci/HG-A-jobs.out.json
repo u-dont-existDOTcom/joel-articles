@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ci/HG-A-jobs.txt",
+  "input_words": 117,
+  "input_sha256": "3b39ae132acec625a01b5566be240e3e9bfe5abe38da7d38c7ef2df8b22c4705",
+  "balance_before": 51211,
+  "started_utc": "2026-10-26T00:07:47Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T00:07:55Z",
+  "response": {
+    "id": "b0229848-5365-41ba-bea8-dde1de9d31d3",
+    "tool": "humanize",
+    "text": "I’m sure your inner child doesn’t trust you very much at the moment. You might think that by sitting down in meditation a few times and saying three nice sentences to your inner child that they are going to trust you and come out of hiding, but that’s not going to happen. The way to win the trust of your inner child is to be reliable in the kind of person you are now.\n\nIn this post I’m going to talk about what you need to develop in yourself when you are reparenting your inner child. I’m going to talk about it in three jobs you need to do: being the loving Nurturer, the safe Adult Protector (from now on I’ll just call the Adult Protector the Protector) and the wise Guide. Although it is three jobs, it’s all done by the same person, you, and in doing each job you keep the others in balance. It’s you that needs to develop these qualities.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 117
+    },
+    "elapsed": 8
+  },
+  "balance_after": 51094
+}

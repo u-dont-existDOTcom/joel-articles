@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ci/HG-A-borrowed.txt",
+  "input_words": 105,
+  "input_sha256": "5fdabce492eb93730ced1b9132d48e7d19ba3d115e1fa950b08c38a2c1d3c5d2",
+  "balance_before": 51094,
+  "started_utc": "2026-10-26T00:07:56Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T00:08:02Z",
+  "response": {
+    "id": "f4e96b63-5912-4a1a-af68-ecc4f5451eb5",
+    "tool": "humanize",
+    "text": "My challenge was that these people don’t have access to their adult. When they try, they either go blank or they go into an inherited inner critic, or they go into a child part that may be playing adult (which I’ve called forced adulthood). To expect someone in this state to access their adult is like expecting a baby bird to fly.\n\nSo what I’ve developed (which I’m not sure has been tried before) is a way of creating a kind of bridge to their own emerging adult that I call a borrowed adulthood, using well-known processes like modeling and acting with support.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 105
+    },
+    "elapsed": 6
+  },
+  "balance_after": 50989
+}
