@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-26 (turns 82 to 115). **Open questions: none.** For you to do: go through the docx of round 8's spots and send it back. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-26 (turns 82 to 115). **Open questions: none.** For you to do: go through the docx of round 8's spots and send it back, and merge pull request #255. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -18,6 +18,10 @@ None right now.
 ### 🟠 The docx: decide on my pass and work on the shaded spots, then send it back (turn 115)
 
 The [docx](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t115-docx/inner-child-spots-round8.docx) is the whole guide as round 8 read it. My pass is in it as tracked changes: accept or reject each one (one you leave as it is, I'll take as accepted). The shaded spots are what round 8 read below Human, high that the pass didn't change, most of them your words, each with a comment giving its reading and round 6's. Track Changes is on, so whatever you type shows as yours. Send it back in chat, and I'll put everything in for round 9. ([PASS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t115-pass/PASS.md) says what the pass did and why.)
+
+### 🟠 Merge pull request #255 (turn 115)
+
+The lane's [pull request #255](https://github.com/u-dont-existDOTcom/joel-articles/pull/255) holds this turn: round 8 read, lesson E276 (Inner Child), the pass and its checks, and the docx. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged". (You merged #252, turns 113 and 114.)
 
 ### 🔵 The two temporary Substack drafts: keep them for round 9 (turn 115)
 
