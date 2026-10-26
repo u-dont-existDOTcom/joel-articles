@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "99743c89e1a07417827b09d3cfbeea1692ed5fda43844f40c16ef17226cf3e8f",
+  "context_sha256": "5da4765a6625bdf546277dafd19e07943c3f167d288c87d399094a61910b18fa",
+  "source_sha256": "d4f70d226d310d4f7729587efe3f0645c6b13aa92087147ac5c447d194b72060",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r3f)",
+    "context_id": "t113-gate-cold-read-2-r3f-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged \"Can they change?\" over \"You may not know for certain whether the other person is or could be capable of a healthier response, and neither do they. If they promise to change...\" plus the Substack note link: it is a real reader's question and the first sentence answers it honestly (you may not know), so it promises nothing the paragraph withholds and adds no claim; \"they\" is the section's other person (the paragraph itself says \"the other person\"), the same \"they\" as in \"If they've actually hurt or threatened you\". I could not open the linked note (no web), so I judged the heading against the paragraph text only. Linter: \"B7 short landing at paragraph end\" is a false positive here because the #### line opens the paragraph that answers it and closes nothing, and \"D9 follows the source order\" is accepted because a heading reorders nothing; no tell row is present (a real question answered, so not T24; \"change\" is shared only with the second sentence), and the four headings (this question, then three \"If\" cases) read as the section's own cases.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order"
+  ]
+}

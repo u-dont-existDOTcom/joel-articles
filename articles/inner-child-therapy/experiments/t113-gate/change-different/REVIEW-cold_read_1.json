@@ -1,0 +1,21 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "dc73e63bc26c706b8ee673082272a541018013343174428901f08e32691a92a4",
+  "context_sha256": "229a1de1927eb95a52aa81ba997dbbf5b805a4a9f5ed308aa4f9fb69c7faec7f",
+  "source_sha256": "85f220335b93f03fc83c7ec8af8e6be02a17cbba2e25b06ae5f56444fc550135",
+  "verdict": "FAIL",
+  "unresolved": [
+    "Not clear on its own: different from what? The heading gives the sentence's conclusion (a unique case) and leaves out its condition (steps followed correctly, expected results not coming), so a skimmer cannot tell whether it is theirs.",
+    "T26 (shared 'case') not justified: 'case' is the vague word, it recurs in 'a unique case' and 'this case', and the heading restates the sentence's point instead of locating the situation.",
+    "Suggested heading: If you're doing it right and it still isn't working"
+  ],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, half1)",
+    "context_id": "t113-gate-cold-read-1-half1-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged “If your case is different” over “If you keep following the reparenting steps correctly without getting the expected results, consider if you have a unique case these steps don’t match yet.” Skimming the section’s headings, it reads as a catch-all (none of the above) and does not say what makes the case different, while the paragraph is really for someone doing the steps right with no results; the heading and the sentence’s “unique case” say nearly the same thing twice. The writer’s T26 note is not justified because the shared word is the generic one that makes the heading vague. No linter findings. Context note, outside the heading: the context splits Joel’s one source paragraph here and drops “And” from “And if you keep following”.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

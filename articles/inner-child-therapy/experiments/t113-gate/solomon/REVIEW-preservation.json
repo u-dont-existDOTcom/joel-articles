@@ -1,0 +1,22 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "de1f6f21b43e7649f996731c5479c514069e86500c287a88e863e670d2ce1516",
+  "context_sha256": "1b10fdad8003bfd6fe8bd880141111e9e45e46b7761168f3482ca7ac7a072b0c",
+  "source_sha256": "61e6433d1734ed6dfd7f5da005cba9f7aed594ad91a3eea67c0b50197acba1d7",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, half2)",
+    "context_id": "t113-gate-preservation-half2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Compared word for word with Joel's sentence, the draft differs only by the inserted \"the blind spot behind it\" (\"and even has a name\" becomes \"and the blind spot behind it even has a name\"); every other word, his punctuation and the curly apostrophe in \"Solomon’s\" are unchanged, and the draft appears once in the context. The change is true to the linked study: Grossmann and Kross 2014 name Solomon's paradox as the self-other asymmetry in wise reasoning (wiser about other people's problems than one's own), the gap that distance from the self, the linked trick, gets around, so the name now sits on the gap and not on the trick, as Joel's 109a asked. Linter: B4/E15 and O6 are his own appositive and ordinary phrasing (the change adds five words and no clause, and \"a blind spot has a name\" is not a quip), D9 is by design, and the O25 \"even\" is his word, which the change must keep and which still says the effect is known well enough to be named.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "B4/E15 list or packed sentence",
+    "D9 follows the source order",
+    "O25 \"even\" or \"actually\", 1 in my text (TELLS-FROM-PANGRAM-DATA-20261007.md: they go with the failing paragraphs; \"They're words I add to sound casual, and they don't help\"): keep one only where it says something",
+    "O6 a candidate, to judge, not a finding: a feeling or idea doing what a person does. A neat, quotable line is the tell (\"Grief doesn't keep a schedule\"); a phrase people say all the time is not (Joel 2026-10-07 23:50: \"Modern life trains us\" is \"so common it's almost cliche, it's not a witty AI quip\"). Judge each with abstract_agents_prompt.py or by his ratings; fix only a quip, giving the action to a person with as few words changed as possible"
+  ]
+}

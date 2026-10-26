@@ -1,0 +1,182 @@
+{
+ "borrow-guiding-r3": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "gate": "DELIVERED earlier (2026-10-26T00:20:24.260904+00:00); the proof matches the manifest, draft and context as they are"
+ },
+ "change-empty-r3": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "gate": "DELIVERED earlier (2026-10-26T00:20:29.927161+00:00); the proof matches the manifest, draft and context as they are"
+ },
+ "change-relief-r3": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "gate": "DELIVERED earlier (2026-10-26T00:20:36.291986+00:00); the proof matches the manifest, draft and context as they are"
+ },
+ "change-stop-r3": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "gate": "DELIVERED earlier (2026-10-26T00:20:42.316582+00:00); the proof matches the manifest, draft and context as they are"
+ },
+ "escape-badtrip": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "gate": "DELIVERED earlier (2026-10-26T00:20:47.909156+00:00); the proof matches the manifest, draft and context as they are"
+ },
+ "escape-meds": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "gate": "DELIVERED earlier (2026-10-26T00:20:53.729626+00:00); the proof matches the manifest, draft and context as they are"
+ },
+ "escape-paranoia": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "gate": "DELIVERED earlier (2026-10-26T00:21:00.229493+00:00); the proof matches the manifest, draft and context as they are"
+ },
+ "escape-prone-r3": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "gate": "DELIVERED earlier (2026-10-26T00:21:05.958790+00:00); the proof matches the manifest, draft and context as they are"
+ },
+ "escape-trips-r3": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "gate": "DELIVERED earlier (2026-10-26T00:21:11.735034+00:00); the proof matches the manifest, draft and context as they are"
+ },
+ "escape-trusted": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "gate": "DELIVERED earlier (2026-10-26T00:23:54.286889+00:00); the proof matches the manifest, draft and context as they are"
+ },
+ "guard-fault-r3": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "gate": "DELIVERED earlier (2026-10-26T00:21:23.113515+00:00); the proof matches the manifest, draft and context as they are"
+ },
+ "guard-step-back-r3": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "gate": "DELIVERED earlier (2026-10-26T00:21:29.045091+00:00); the proof matches the manifest, draft and context as they are"
+ },
+ "guard-trust-r3": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "gate": "DELIVERED earlier (2026-10-26T00:21:35.443675+00:00); the proof matches the manifest, draft and context as they are"
+ },
+ "hooks-change-r3": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "gate": "DELIVERED earlier (2026-10-26T00:21:41.109296+00:00); the proof matches the manifest, draft and context as they are"
+ },
+ "solomon": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "gate": "DELIVERED earlier (2026-10-26T00:24:23.415854+00:00); the proof matches the manifest, draft and context as they are"
+ },
+ "start-anxiety-r3": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "gate": "DELIVERED earlier (2026-10-26T00:21:53.049031+00:00); the proof matches the manifest, draft and context as they are"
+ },
+ "start-noanswer": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "gate": "DELIVERED earlier (2026-10-26T00:21:58.869723+00:00); the proof matches the manifest, draft and context as they are"
+ },
+ "start-thoughts-r3": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "gate": "DELIVERED earlier (2026-10-26T00:22:04.714798+00:00); the proof matches the manifest, draft and context as they are"
+ },
+ "therapist-licensed": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "gate": "DELIVERED earlier (2026-10-26T00:24:46.385561+00:00); the proof matches the manifest, draft and context as they are"
+ },
+ "start-stop-r3": {
+  "reviews": {
+   "preservation": "FAIL",
+   "cold_read_1": "PASS",
+   "cold_read_2": "FAIL"
+  },
+  "admitted": false,
+  "gate": "BLOCKED: \n- preservation review start-stop-r3/REVIEW-preservation.json: review is not a resolved PASS\n- cold_read_2 review start-stop-r3/REVIEW-cold_read_2.json: review is not a resolved PASS"
+ }
+}

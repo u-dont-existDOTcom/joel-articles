@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "701f1cbef97cf8414a32cc364d15db8ab15c9d98468aebcdbdda8afc37508001",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "38b5c1a3f58f8cec1c1b4c2dda034b9348db29c2d7ed87a337685d9a2b304a84",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r3e)",
+    "context_id": "t113-gate-cold-read-2-r3e-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "I judged 'If you keep coming back from trips confused or spaced out' over 'Maybe nothing worse happens, but after several trips like that I'd be concerned. If you're having episodes when you're sober, or any of them are severe, see a psychiatrist.': it is Joel's own first sentence with 'If' for 'Say', every other source sentence is kept (the medication sentences go under escape-meds), and nothing is added, so it is true to the source and the paragraph still reads right under it because 'trips like that', 'worse' and 'episodes' all lean on the heading directly above them. There are no linter findings and no tell row is happening (the shared 'trips' is anaphora, not unearned repetition, and 'Say' to 'If' is a plain change for a heading, not rewording or reordering to dodge a detector); it is also clearly a different case from 'If a past trip went badly', since the paragraph itself says 'Maybe nothing worse happens'. One note for the escape-meds heading, not a problem with this one: 'just because you suspect it's involved' now leans on the 'episodes' above, which is fine in order but unanchored for someone who jumps straight to that heading.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

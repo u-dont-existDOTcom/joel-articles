@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "472c2d6e32145fd9045247404fcb4dd09c5031a70d484aeb5e3cc44819e8b080",
+  "context_sha256": "b7154453eeba47c7804b15fe03db85fd5dfbad98102c9c76d36416a474f8e69f",
+  "source_sha256": "8d7337eb1876b716d29e0f3ec3de1c9cd1c72c6650fff026d0fea3e84f372477",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, half1)",
+    "context_id": "t113-gate-preservation-half1-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "I judged \"Which thoughts to talk to\" over the two paragraphs that start \"How you picture all that is up to you...\" and \"I wouldn't spend long deciding what to call each part, though...\": the heading names their practical core (a fear that keeps turning up is worth talking to as a part, a stray thought or a reassurance-seeking worry can be let go), which is what a skimmer with a thought in hand is looking for, and it adds no claim or promise. The lead sentence (how you picture it is up to you) and the naming advice frame that advice rather than make a separate case, so leaving them out hides nothing a skimmer needs, and \"all that\" still points back to the section above as it did before the heading. There are no linter findings and no writer-marked rows, and no tell row is happening.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

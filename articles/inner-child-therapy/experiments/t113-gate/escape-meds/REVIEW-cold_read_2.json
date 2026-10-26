@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "03dc591e57136f0b5bceeada9c42c18cb6b0243e070f95af30b0ffec150cc4dd",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "38b5c1a3f58f8cec1c1b4c2dda034b9348db29c2d7ed87a337685d9a2b304a84",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r3f)",
+    "context_id": "t113-gate-cold-read-2-r3f-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged \"Before you quit a medication or alcohol\" over \"Don't suddenly stop a medication just because you suspect it's involved. Talk to the doctor who prescribed it. Benzos can be dangerous to quit cold turkey. Alcohol withdrawal can be dangerous if you're physically dependent.\": it names what the paragraph is about (quitting a medication or alcohol, and why not to do it abruptly), a reader weighing that would recognize it, and it adds no claim (the alcohol sentence is the paragraph's own). The context shows the \"And\" gone and the paragraph starting as the change says; the one soft spot is \"it's involved\", which leans on the episodes in the paragraph just above, but that is Joel's own sentence and reads straight through in place. The words shared with the paragraph (\"medication\", \"alcohol\") are the heading doing its label job, so I find T26 not happening; no other tell row is present, there are no linter findings, and among the section's seven mixed-form headings (If / question / Who counts / Before you / What you mix) this one reads as one more separate risk case, not a coverage taxonomy.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

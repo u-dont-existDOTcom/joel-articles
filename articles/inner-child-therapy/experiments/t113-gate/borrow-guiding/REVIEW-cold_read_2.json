@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "6d942e88d7a8f399fa1f97fc03d4e3dbf273ab532cb5959fe2a2389e99d5c67b",
+  "context_sha256": "e2d5a874a80509919c88f2081032c18794eac23692062dec873f85fd388ac906",
+  "source_sha256": "1cd92a53d51285058e3c3231768f946beea8d4ba1d97a7f7b5648053517a2780",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r2c)",
+    "context_id": "t113-gate-cold-read-2-r2c-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged \"For guiding\" over \"The Guide can be you too, just a calmer you.\": the paragraph delivers what to borrow for the Guide (a calmer you, a wise person you respect, a wise tradition), the heading adds no claim, and \"The Guide\" is tied to \"guiding\". The intro's \"really cared for you\", \"a great guide\" and \"protected you well\" already set the three functions that \"For warmth\", \"For protecting\" and \"For guiding\" label, so the balanced triad follows the section's own structure instead of being imposed (T12 considered, not present), and \"too\" and \"your future healed self\" still point to things inside the section. The label is thin on its own but unambiguous inside the triad, and nothing in it is wrong or misleading in its place. Linter findings: none; writer-marked PRESENT rows: none; I swept T01 to T29 and C01 to C04 and found none actually happening.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

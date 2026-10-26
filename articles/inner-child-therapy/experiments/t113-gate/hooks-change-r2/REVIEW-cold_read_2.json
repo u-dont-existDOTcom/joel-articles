@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "99743c89e1a07417827b09d3cfbeea1692ed5fda43844f40c16ef17226cf3e8f",
+  "context_sha256": "c4562c19421068d2f176dd164dc6a96caba7800dc60016ba9b88c45b2e1113c0",
+  "source_sha256": "d4f70d226d310d4f7729587efe3f0645c6b13aa92087147ac5c447d194b72060",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r2a)",
+    "context_id": "t113-gate-cold-read-2-r2a-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "I judged \"Can they change?\" over \"You may not know for certain whether the other person is or could be capable of a healthier response, and neither do they...\": \"they\" is pinned to \"the other person\" by that first sentence and by the section's own usage, the question is the one that follows from \"count on what they keep showing you they can do\", and the paragraph answers it (not knowable, a new promise is probably as useful as the old ones, hold a realistic boundary) with no added claim, so T24 is not happening. Linter \"B7 short landing at paragraph end\" reads the heading as a one-line paragraph, but it opens a block over a five-sentence paragraph that ends on a long sentence, so nothing lands, and \"D9 follows the source order\" is a heading over its own paragraph following it by design with nothing reordered; I accept both. I could not read the Substack note under the paragraph (no web) and judged the five-sentence paragraph, and with the section's other three headings the set reads as cases Joel wrote (uneven in form and length), not a coverage grid.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": ["B7 short landing at paragraph end", "D9 follows the source order"]
+}

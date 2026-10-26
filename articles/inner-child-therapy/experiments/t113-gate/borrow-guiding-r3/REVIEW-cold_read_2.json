@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "6d942e88d7a8f399fa1f97fc03d4e3dbf273ab532cb5959fe2a2389e99d5c67b",
+  "context_sha256": "3313300f4f65baf091480c7b358949be64681864e3d8a56a6b0de04cd6524813",
+  "source_sha256": "1cd92a53d51285058e3c3231768f946beea8d4ba1d97a7f7b5648053517a2780",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r3f)",
+    "context_id": "t113-gate-cold-read-2-r3f-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged \"For guiding\" over \"The Guide can be you too, just a calmer you... A wise tradition (like \"What would Jesus do?\" or \"What would Buddha do?\") can give some direction, too, until you develop your own internal compass.\": it names the function the paragraph covers (the Guide, borrowed from a calmer you, a wise person you respect, or a wise tradition) and adds no claim. It is terse, but read after \"For warmth\" and \"For protecting\" under \"Borrow One Competency at a Time\" it completes the same phrase (borrow someone for guiding), and the paragraph's first line \"The Guide can be you too\" answers it at once; \"too\" and \"your future healed self\" lean on the intro's list of figures, which is in view in the section. The shared stem (\"guiding\" / \"The Guide\") is the label doing its job, so I find T26 not happening; no other tell row is present, there are no linter findings, and the three \"For\" headings follow Joel's own three competency paragraphs rather than adding a taxonomy of their own.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

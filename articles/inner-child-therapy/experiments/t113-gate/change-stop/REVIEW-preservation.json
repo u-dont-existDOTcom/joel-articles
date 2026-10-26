@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "c31cf39de59fdc0277e5fe807e06c8aac8ca824ed1f0274841831a5132e1def7",
+  "context_sha256": "229a1de1927eb95a52aa81ba997dbbf5b805a4a9f5ed308aa4f9fb69c7faec7f",
+  "source_sha256": "85f220335b93f03fc83c7ec8af8e6be02a17cbba2e25b06ae5f56444fc550135",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, half1)",
+    "context_id": "t113-gate-preservation-half1-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "I judged \"If you'd rather stop\" over \"Not wanting to do it anymore might be reason enough, but if that 'nope' sounds like a part of you that's trying to protect you, I'd hear it out first...\": it states the case plainly (not wanting to do it anymore) and keeps the paragraph's permission without adding a promise. The object of \"stop\" is supplied by the section (\"When to Change the Strategy\") and by \"(stopping counts)\" in the paragraph above, and the split leaves Joel's sentence word for word. There are no linter findings and no writer-marked rows, and no tell row is happening.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

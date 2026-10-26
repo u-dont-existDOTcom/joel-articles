@@ -1,0 +1,21 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "9c03d922388ebedd9200b19976c9ad62fd3a8c9533165505d56cc304fc3f4264",
+  "context_sha256": "51e3f09a99fdeec0000171eeb7202861bd893f68e5de9b74d9eab4c161dba9b8",
+  "source_sha256": "d0b0567f12041227d5f630c2ed4037a7e73f925afd760c48ec4faa4d3432d071",
+  "verdict": "FAIL",
+  "unresolved": [
+    "\"vulnerable\" does not say to what: a reader of an inner child guide will take it as emotional vulnerability, while the paragraphs are about a predisposition to mania or psychosis (family history, a bad environment, a bad mindset) and care with other drugs that mess with what's real; this is T06 (generic therapeutic abstraction), PRESENT and not justified",
+    "The writer-marked T26 is not justified: the word shared with the first sentence (\"a vulnerability in you\") is the vague one, so the repetition does not help a skimmer find the case",
+    "Better heading: \"If you might be prone to mania or psychosis\""
+  ],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, half2)",
+    "context_id": "t113-gate-cold-read-1-half2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged \"If you might be vulnerable\" against its neighbors \"Your own drug history\", \"Paranoia\" and \"Coming back confused or spaced out\", each of which names its concrete subject; this one names none, so a skimmer with a family history of psychosis could skip it while someone doing inner child work reads it as emotional vulnerability and reads on for the wrong reason. The paragraphs say \"any predisposition toward mania or psychosis is a warning sign\" and then who counts as a trusted advisor, so \"vulnerable\" turns concrete content into a generic therapy word (T06), and the writer-marked T26 repeats that same vague word, so I do not accept it as justified. No linter findings.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

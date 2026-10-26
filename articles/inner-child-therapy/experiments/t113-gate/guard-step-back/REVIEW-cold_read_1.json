@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "679f0166ca28c4e64373f26e5511628dab5a0e4b79db0eea5538dbfe890b726c",
+  "context_sha256": "d0429ae75ebe7a60fd65d274c5488b0ff690d6e018ac406c20d93c8811f17cec",
+  "source_sha256": "c8fa03951616c5a1fd74dd9ae677aafc8a58aa91916411258a7c69d76f478235",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, half1)",
+    "context_id": "t113-gate-cold-read-1-half1-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged “If it won’t step back” over “That part doesn’t have to move out. It’s been living there way longer than the grown-up you.” “Step back” picks up the section’s own question (“What are you afraid would happen if you stepped back?”) and “it” is the guard as in the sibling headings, so a skimmer whose protective part is holding its ground would recognize the case; the paragraph answers it (the part can stay and keep watch) instead of repeating it. The part’s reluctance is implied by the paragraph (“If it says no, I’d listen”), so no claim is added. No linter findings and no tell row actually happening.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

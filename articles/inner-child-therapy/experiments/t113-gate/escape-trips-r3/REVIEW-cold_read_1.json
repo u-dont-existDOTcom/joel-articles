@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "701f1cbef97cf8414a32cc364d15db8ab15c9d98468aebcdbdda8afc37508001",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "38b5c1a3f58f8cec1c1b4c2dda034b9348db29c2d7ed87a337685d9a2b304a84",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, r3b)",
+    "context_id": "t113-gate-cold-read-1-r3b-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged \"If you keep coming back from trips confused or spaced out\" over \"Maybe nothing worse happens, but after several trips like that I'd be concerned. If you're having episodes when you're sober, or any of them are severe, see a psychiatrist.\" The heading is the removed \"Say you keep coming back from trips confused or spaced out.\" with \"If\" for \"Say\", so it adds no claim, the sentence is not said twice in the context, and \"like that\" and \"nothing worse\" now read straight off the heading above. It is long for a heading but plain, in Joel's words, and a reader with this experience would recognize it. No linter findings or writer-marked rows, and no tell row PRESENT (\"trips\" recurs only as the anchor for \"like that\").",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

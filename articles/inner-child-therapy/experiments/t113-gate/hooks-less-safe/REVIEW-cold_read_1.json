@@ -1,0 +1,19 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "83ceac4aa22698d83fb35cde99ab9808603300a78952f934d204e691ecc982a9",
+  "context_sha256": "93ff6a788239ee8195fdc564ab6857199946fabbe375315882015bc573ca65fc",
+  "source_sha256": "cbb0d4939db6c7c3243db104c454b8cadeac0c2e826aab346495d2b0a26778f5",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, half2)",
+    "context_id": "t113-gate-cold-read-1-half2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged \"Feeling less safe\" over \"If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it...\", between \"Can they change?\" and \"If you really did hurt them\" in \"Other Folks Also Have Hooks\". T26 is PRESENT (\"less safe\" in the heading and the opening clause) and I agree it is justified: the heading is the case a skimmer looks for, and the sentence goes on to say what to do (meditate on why, what keeps you in it, get safe first if they have actually hurt or threatened you), which the heading does not. It reads as a plain label in a section whose headings vary in form (question, gerund phrase, \"If\" clause), adds no claim, and there are no linter findings.",
+  "resolved_tell_ids": [
+    "T26"
+  ],
+  "resolved_lint_labels": []
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "8630ef7beb3b9270742a7d94f5445e1123ea0edf3b3673f9f1b38a4da7400e9d",
+  "context_sha256": "934ecfbebcef8a4c0d61dbd6119cea15151a54eeca1fb83b8bcf22c470b53ef0",
+  "source_sha256": "d0b0567f12041227d5f630c2ed4037a7e73f925afd760c48ec4faa4d3432d071",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, r2)",
+    "context_id": "t113-gate-cold-read-1-r2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged \"If you might be prone to mania or psychosis\" over \"Any of those reactions, from mania to paranoia, can also point to a vulnerability in you ... any predisposition toward mania or psychosis is a warning sign too ...\" and the \"By trusted, I mean ...\" paragraph. It names the reader's situation plainly, matches \"vulnerability\" and \"predisposition\" without adding a claim, and the trusted-advisor paragraph is the case's last step (it explains a word from the first), so one heading over both is right. The first sentence's \"those reactions\" leans on the cases above, but that is Joel's text and not the heading's doing. No linter findings, no writer-marked rows, and no tell row is happening.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "c31cf39de59fdc0277e5fe807e06c8aac8ca824ed1f0274841831a5132e1def7",
+  "context_sha256": "229a1de1927eb95a52aa81ba997dbbf5b805a4a9f5ed308aa4f9fb69c7faec7f",
+  "source_sha256": "85f220335b93f03fc83c7ec8af8e6be02a17cbba2e25b06ae5f56444fc550135",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, half1)",
+    "context_id": "t113-gate-cold-read-1-half1-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged “If you’d rather stop” over “Not wanting to do it anymore might be reason enough, but if that “nope” sounds like a part of you that’s trying to protect you, I’d hear it out first.” “Rather stop” is a faithful, casual way to say “not wanting to do it anymore”, “stop” is clear in a section about changing the strategy (Joel’s own “(stopping counts)” sits just above), and the sentence goes on to the protective-part check the heading does not carry, so the two do not say the same thing. It adds no claim and keeps Joel’s contraction register. No linter findings and no tell row actually happening.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

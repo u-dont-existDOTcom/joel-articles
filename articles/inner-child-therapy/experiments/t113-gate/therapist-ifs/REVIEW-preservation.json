@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "f409e477454ee99830ab7fbc4238620303ffe1a1ce9dedec99672beb65df2566",
+  "context_sha256": "216e3b6fdcf888265c22f0e0b3359e9657b9f36552bbc03a81ed39b7e3415080",
+  "source_sha256": "6e56039236c961139385d43fc572966b310754cabdcc734a5f70d82398841f18",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, half2)",
+    "context_id": "t113-gate-preservation-half2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "\"IFS and Schema Therapy\" over \"The best licensed, listed therapists you'll find that come close will be doing Internal Family Systems (IFS), or Schema Therapy ...\" names the two modalities the paragraph recommends, in its own terms, and adds no claim or promise. It does not say that the paragraph also says where to find affordable licensed therapists, or that it leaves the explanation of IFS and Schema to the appendix, but the section title (\"Finding a Therapist\"), the sibling headings and the first sentence, which spells out IFS right under the heading, carry that. No linter findings or marked rows; the echo of the first sentence's terms (T26) is the label doing its job, and T12 is not happening in this heading because the split into four kinds of help is already Joel's paragraphs.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

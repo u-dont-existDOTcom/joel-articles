@@ -1,0 +1,209 @@
+{
+ "guard-trust-r3": {
+  "the_change": "A case heading, \"Earning its trust, day to day\", over the paragraph that starts \"A new roommate doesn't win you over with ...\", a small (####) heading inside the section, the size of the guide's own small headings. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "3d88b0a782e5429847f0ad74e6dea0351c86ad1b688f97897a6cc70d94ed43b0",
+  "context_sha256": "c2878ba5f76bec5491be41eb316bc47309e128e726ebc39195ef63ea6a756648",
+  "source_sha256": "46ccd26872f7461cb4c2891b259b938b95b561faffab905f265a08b3601c000e",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "guard-step-back-r3": {
+  "the_change": "A case heading, \"If it won't step back\", over the paragraph that starts \"That part doesn't have to move out. It's ...\", a small (####) heading inside the section, the size of the guide's own small headings. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "679f0166ca28c4e64373f26e5511628dab5a0e4b79db0eea5538dbfe890b726c",
+  "context_sha256": "c2878ba5f76bec5491be41eb316bc47309e128e726ebc39195ef63ea6a756648",
+  "source_sha256": "c8fa03951616c5a1fd74dd9ae677aafc8a58aa91916411258a7c69d76f478235",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "guard-fault-r3": {
+  "the_change": "A case heading, \"If it all feels like your fault\", over the paragraph that starts \"Blaming yourself can be doing a protective job, ...\", a small (####) heading inside the section, the size of the guide's own small headings. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "a27a3a4934572214822d0d736d588e5ed89eac4f0e1877bf56a510c69d4107f7",
+  "context_sha256": "c2878ba5f76bec5491be41eb316bc47309e128e726ebc39195ef63ea6a756648",
+  "source_sha256": "cf4cc587086208ebf0d01d2222fd625e72204fec85d02f4ce82b34fcf55839f5",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "start-noanswer": {
+  "the_change": "A case heading, \"If no answer comes\", over the paragraph that starts \"That's fine for now. No need to answer ...\", a small (####) heading inside the section, the size of the guide's own small headings. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make. It replaces the paragraph's first words, \"If nothing comes,\", which leave the paragraph, so it starts \"That's fine for now.\". Joel decides on the review sheet.",
+  "candidate_sha256": "237405c3b47704f321cbdee0781d90c4b16588987ea04e791c223f5a0c68e52b",
+  "context_sha256": "28b26009e68f6099ba362349a59994972a5a649dc2d0657a6739fd83b13dd24a",
+  "source_sha256": "803c9929f18a868b7a61443f7138bc70e1a48f90b02a1816d2d01906f42c8e69",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "start-thoughts-r3": {
+  "the_change": "A case heading, \"Which thoughts to talk to\", over the paragraphs that start \"I think a fear that keeps turning up ...\", a small (####) heading inside the section, the size of the guide's own small headings. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "472c2d6e32145fd9045247404fcb4dd09c5031a70d484aeb5e3cc44819e8b080",
+  "context_sha256": "28b26009e68f6099ba362349a59994972a5a649dc2d0657a6739fd83b13dd24a",
+  "source_sha256": "8d7337eb1876b716d29e0f3ec3de1c9cd1c72c6650fff026d0fea3e84f372477",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "start-anxiety-r3": {
+  "the_change": "A case heading, \"If it's anxiety\", over the paragraph that starts \"Anxiety is often a part of you that's ...\", a small (####) heading inside the section, the size of the guide's own small headings. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "e881689fb53e182a7656957bf56737457ef6b9e6e7dc475ff30955843ee4be88",
+  "context_sha256": "28b26009e68f6099ba362349a59994972a5a649dc2d0657a6739fd83b13dd24a",
+  "source_sha256": "b72c4da0b5d946ed17d1db474df997eb05c660e328446d7c2b6534e7ef735af0",
+  "lint_findings": [],
+  "writer_marked_present": [
+   {
+    "id": "T26",
+    "evidence": "the heading \"If it's anxiety\" and the first sentence \"Anxiety is often a part of you that's trying to protect you\" share \"anxiety\"",
+    "reason": "The heading shares one word with the paragraph's first sentence, which is how a reader skimming for this case finds it; the sentence goes on to say something the heading doesn't (what the case means, or what to do)."
+   }
+  ]
+ },
+ "start-stop-r3": {
+  "the_change": "A case heading, \"When to stop\", over the paragraph that starts \"If a part hesitates about being touched or ...\", a small (####) heading inside the section, the size of the guide's own small headings. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "ffebd06a71cc397951fc449be3dfb6a5e56737db2cf028eef44d7ecc785b5325",
+  "context_sha256": "28b26009e68f6099ba362349a59994972a5a649dc2d0657a6739fd83b13dd24a",
+  "source_sha256": "51981a84aa8051bfe477cda33a5ee1148420832a31558c056c9809a8d82d0fd6",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "change-empty-r3": {
+  "the_change": "A case heading, \"When your kind words sound empty\", over the paragraph that starts \"Maybe the words are all there, but the ...\", a small (####) heading inside the section, the size of the guide's own small headings. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "a4434bb6d93d54858d53bc7ec58a03ea266b6fd43dc068fd0bcad068caa4bee2",
+  "context_sha256": "8302a608f6d82270e06b660f9412ac5390d04ab9fa0c1b22227855a951eead6d",
+  "source_sha256": "91bd09232135d635fab6ec4348d9ffe1a00335a0a474ee85b5b7cdccd5531a46",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "change-relief-r3": {
+  "the_change": "A case heading, \"If the relief doesn't last\", over the paragraph that starts \"Let's say an exercise leaves you feeling lighter ...\", a small (####) heading inside the section, the size of the guide's own small headings. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "8fa9abc824e4ba2758560c830b68ed909d023c49cefac55bc18df88239eb930f",
+  "context_sha256": "8302a608f6d82270e06b660f9412ac5390d04ab9fa0c1b22227855a951eead6d",
+  "source_sha256": "4695e5b6c1b5172ba68375e1e837404c1e66e5fd011caf7e1a2873882b3b05d8",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "change-stop-r3": {
+  "the_change": "A case heading, \"If you'd rather stop\", over the paragraph that starts \"Not wanting to do it anymore might be ...\", a small (####) heading inside the section, the size of the guide's own small headings. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "c31cf39de59fdc0277e5fe807e06c8aac8ca824ed1f0274841831a5132e1def7",
+  "context_sha256": "8302a608f6d82270e06b660f9412ac5390d04ab9fa0c1b22227855a951eead6d",
+  "source_sha256": "85f220335b93f03fc83c7ec8af8e6be02a17cbba2e25b06ae5f56444fc550135",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "escape-badtrip": {
+  "the_change": "A case heading, \"If a past trip went badly\", over the paragraph that starts \"If you go manic, psychotic (by which I ...\", a small (####) heading inside the section, the size of the guide's own small headings. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make. It replaces the paragraph's first words, the sentence \"Your own drug history matters too.\", which leave the paragraph, so it starts \"If you go manic, psychotic ...\". Joel decides on the review sheet.",
+  "candidate_sha256": "e2a6aa0c823e92a414445792821a6e437a0e78f2602fb55e2b90125ab7db3739",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "5ab0673e33ac7e7abf3d20d9f01818125c9d6a06105687db5613fb0d3c214792",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "escape-paranoia": {
+  "the_change": "A case heading, \"Is your paranoia a warning sign?\", over the paragraphs that start \"Paranoia during a rough trip can be a ...\", a small (####) heading inside the section, the size of the guide's own small headings. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make. Joel's paragraph splits before \"If you can’t clearly understand what happened yourself\", every sentence kept, and the heading stands over both parts.",
+  "candidate_sha256": "cac25a9e9bf810511ad78183afad1cf59f382cdaefb8b6fc6790016b7498c184",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "d35df71bbcdcfa7c759777546dac2e3670a089f46174b8b61365b9d70cae92d6",
+  "lint_findings": [
+   {
+    "label": "B7 short landing at paragraph end",
+    "examples": [
+     "Is your paranoia a warning sign?"
+    ],
+    "writer_reason": "The linter reads the heading alone as a paragraph. It is a heading over two paragraphs, so it lands nothing."
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ],
+    "writer_reason": "A heading over its own paragraphs follows them by design; nothing is reordered."
+   },
+   {
+    "label": "E36/E41 heavy second person",
+    "examples": [
+     "16.7 \"you\" per 100 of my words"
+    ],
+    "writer_reason": "The linter counts one \"your\" in a six-word heading. It is the heading asking the reader's own question, as the guide's other headings speak to the reader (\"If you do get an answer\")."
+   }
+  ],
+  "writer_marked_present": [
+   {
+    "id": "T26",
+    "evidence": "the heading and the first sentence share \"paranoia\" and \"warning sign\"",
+    "reason": "The heading is the reader's question in the paragraph's own words, and the sentence answers it with what the heading can't say: when it is a warning sign and when it is not."
+   }
+  ]
+ },
+ "escape-prone-r3": {
+  "the_change": "A case heading, \"If you might be prone to mania or psychosis\", over the paragraph that starts \"Any of those reactions, from mania to paranoia, ...\", a small (####) heading inside the section, the size of the guide's own small headings. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make. The paragraph after it, \"By trusted, I mean ...\", now has its own heading (escape-trusted), so this one stands over one paragraph.",
+  "candidate_sha256": "8630ef7beb3b9270742a7d94f5445e1123ea0edf3b3673f9f1b38a4da7400e9d",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "f6be7852f8c8c07451e4a9d4d7ee8ad4aed9cc606e40f250afdce07281e992c7",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "escape-trusted": {
+  "the_change": "A case heading, \"Who counts as trusted\", over the paragraph that starts \"By trusted, I mean someone you know is ...\", a small (####) heading inside the section, the size of the guide's own small headings. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "386bee9d0e437ee1a4810c7e2b09b922903c4b83b033c9456ec09d18834e0525",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "9046009b1a6642a243d8448914d78eea7f81f2cf1ee9072566be05a176cd80ae",
+  "lint_findings": [],
+  "writer_marked_present": [
+   {
+    "id": "T26",
+    "evidence": "the heading and the first sentence share \"trusted\"",
+    "reason": "The heading asks what the paragraph's first words answer (\"By trusted, I mean\"), so the shared word is the question and its answer; \"trusted advisors\" in the paragraph above is what it picks up."
+   }
+  ]
+ },
+ "escape-trips-r3": {
+  "the_change": "A case heading, \"If you keep coming back from trips confused or spaced out\", over the paragraph that starts \"Maybe nothing worse happens, but after several trips ...\", a small (####) heading inside the section, the size of the guide's own small headings. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make. It is the paragraph's first sentence, \"Say you keep coming back from trips confused or spaced out.\", with \"If\" for \"Say\"; the sentence leaves the paragraph, so it starts \"Maybe nothing worse happens, but after several trips like that I'd be concerned.\" The paragraph also splits before \"And don't suddenly stop a medication\", which gets its own heading (escape-meds), so this heading stands over its first part only. Joel decides on the review sheet.",
+  "candidate_sha256": "701f1cbef97cf8414a32cc364d15db8ab15c9d98468aebcdbdda8afc37508001",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "38b5c1a3f58f8cec1c1b4c2dda034b9348db29c2d7ed87a337685d9a2b304a84",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "escape-meds": {
+  "the_change": "A case heading, \"Before you quit a medication or alcohol\", over the paragraph that starts \"Don't suddenly stop a medication just because you ...\", a small (####) heading inside the section, the size of the guide's own small headings. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make. It stands over the second part of a paragraph that splits before \"And don't suddenly stop a medication\"; the \"And\" leaves, so it starts \"Don't suddenly stop a medication just because you suspect it's involved.\" Joel decides on the review sheet.",
+  "candidate_sha256": "03dc591e57136f0b5bceeada9c42c18cb6b0243e070f95af30b0ffec150cc4dd",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "38b5c1a3f58f8cec1c1b4c2dda034b9348db29c2d7ed87a337685d9a2b304a84",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "therapist-licensed": {
+  "the_change": "A case heading, \"If you want a licensed therapist\", over the paragraph that starts \"The best licensed, listed therapists you'll find that ...\", a small (####) heading inside the section, the size of the guide's own small headings. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "2882bcf25bbe59219dc2e20459ecf7c805ff36cf1f578299c9e2c0f2ae8a3114",
+  "context_sha256": "2b4b896af65c432b1eb408cf8febe70e2902a869fcb92253776b26ff55b6bf43",
+  "source_sha256": "6e56039236c961139385d43fc572966b310754cabdcc734a5f70d82398841f18",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "hooks-change-r3": {
+  "the_change": "A case heading, \"Can they change?\", over the paragraphs that start \"You may not know for certain whether the ...\", a small (####) heading inside the section, the size of the guide's own small headings. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "99743c89e1a07417827b09d3cfbeea1692ed5fda43844f40c16ef17226cf3e8f",
+  "context_sha256": "5da4765a6625bdf546277dafd19e07943c3f167d288c87d399094a61910b18fa",
+  "source_sha256": "d4f70d226d310d4f7729587efe3f0645c6b13aa92087147ac5c447d194b72060",
+  "lint_findings": [
+   {
+    "label": "B7 short landing at paragraph end",
+    "examples": [
+     "Can they change?"
+    ],
+    "writer_reason": "The linter reads the heading alone as a paragraph. It is a heading over a paragraph of five sentences, so it lands nothing."
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ],
+    "writer_reason": "A heading over its own paragraph follows that paragraph by design; nothing is reordered."
+   }
+  ],
+  "writer_marked_present": []
+ },
+ "borrow-guiding-r3": {
+  "the_change": "A case heading, \"For guiding\", over the paragraph that starts \"The Guide can be you too, just a ...\", a small (####) heading inside the section, the size of the guide's own small headings. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "6d942e88d7a8f399fa1f97fc03d4e3dbf273ab532cb5959fe2a2389e99d5c67b",
+  "context_sha256": "3313300f4f65baf091480c7b358949be64681864e3d8a56a6b0de04cd6524813",
+  "source_sha256": "1cd92a53d51285058e3c3231768f946beea8d4ba1d97a7f7b5648053517a2780",
+  "lint_findings": [],
+  "writer_marked_present": []
+ }
+}

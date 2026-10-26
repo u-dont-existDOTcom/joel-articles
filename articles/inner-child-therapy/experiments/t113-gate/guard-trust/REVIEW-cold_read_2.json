@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "cf1e27f4f1bc6ede74c856f3632dbacfea58d0566e8524f54c6db6490f35445d",
+  "context_sha256": "d0429ae75ebe7a60fd65d274c5488b0ff690d6e018ac406c20d93c8811f17cec",
+  "source_sha256": "46ccd26872f7461cb4c2891b259b938b95b561faffab905f265a08b3601c000e",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r2d)",
+    "context_id": "t113-gate-cold-read-2-r2d-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "\"Earning its trust\" stands over the roommate paragraph, whose third sentence says \"Your Protector earns that guard's trust about the same way, mostly out in ordinary life\" and then gives small kept promises and a \"no\" that isn't taken back, so the heading names what the paragraph delivers and adds no claim; \"its\" is the guard, anchored by \"Hear the Guard First\" above and \"that guard's\" below, and the heading marks the turn from talking to the guard (the paragraphs above) to what actually builds its trust without cutting a line from the line it answers. The heading shares \"earn\" and \"trust\" with that sentence, which is the heading finding its paragraph and not an unearned repeat (T26 judged absent); I went through T01 to T29 and C01 to C04 and found no other row happening, and the linter had no findings. Beside \"If it won't step back\", \"If it's been calling all this stupid\" and \"If it feels like it's all your fault\", it is one how-to heading among three situations the guard puts you in, which reads as a natural set rather than a coverage taxonomy.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

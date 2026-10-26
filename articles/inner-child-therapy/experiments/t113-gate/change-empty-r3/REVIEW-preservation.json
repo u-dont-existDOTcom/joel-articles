@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "a4434bb6d93d54858d53bc7ec58a03ea266b6fd43dc068fd0bcad068caa4bee2",
+  "context_sha256": "8302a608f6d82270e06b660f9412ac5390d04ab9fa0c1b22227855a951eead6d",
+  "source_sha256": "91bd09232135d635fab6ec4348d9ffe1a00335a0a474ee85b5b7cdccd5531a46",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r3a)",
+    "context_id": "t113-gate-preservation-r3a-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged 'When your kind words sound empty' over 'Maybe the words are all there, but the loving grown-up behind them isn't, not yet. Some people ... try saying sweeter and sweeter things ... see if your little one can tell the difference.' 'Kind words' is the paragraph's 'the words' and 'sweeter and sweeter things', and 'sound empty' is its 'the loving grown-up behind them isn't' / 'can tell the difference' in the reader's own terms, with no verdict or promise added (the gentle 'not yet' stays in the paragraph); the heading also gives 'the words' in the first sentence its referent. No linter findings or writer-marked rows, and no tell row is actually happening.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

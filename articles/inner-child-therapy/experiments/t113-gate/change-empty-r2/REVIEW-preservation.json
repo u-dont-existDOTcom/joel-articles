@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "72b693b95b17189a650234739883537c9bca6ae5c035af93d98191d5024d397f",
+  "context_sha256": "c807ef17438dee80c7eb1d6a9f5fc7048860e116053b476a2e6a5cf0b0ee8340",
+  "source_sha256": "91bd09232135d635fab6ec4348d9ffe1a00335a0a474ee85b5b7cdccd5531a46",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r2)",
+    "context_id": "t113-gate-preservation-r2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "'When the words sound empty' turns the paragraph's diagnosis ('the words are all there, but the loving grown-up behind them isn’t, not yet') into the symptom a reader would notice, promises no outcome, and 'the words' is the paragraph's own phrase, anchored by the section's practice with 'your little one'. The sentences under it match SOURCE exactly, including 'I’d borrow that grown-up first' and 'see if your little one can tell the difference', which the heading neither contradicts nor replaces. No lint findings and no tell row is happening (the shared 'the words' is the match, and 'empty' is plain, not generic healing language).",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

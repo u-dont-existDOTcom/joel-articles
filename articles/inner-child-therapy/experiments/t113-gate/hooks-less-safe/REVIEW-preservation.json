@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "83ceac4aa22698d83fb35cde99ab9808603300a78952f934d204e691ecc982a9",
+  "context_sha256": "93ff6a788239ee8195fdc564ab6857199946fabbe375315882015bc573ca65fc",
+  "source_sha256": "cbb0d4939db6c7c3243db104c454b8cadeac0c2e826aab346495d2b0a26778f5",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, half2)",
+    "context_id": "t113-gate-preservation-half2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "\"Feeling less safe\" over \"If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe ... get safe first\" uses the paragraph's own phrase for the situation, so a reader who feels this way recognizes it, including the reader who has actually been hurt or threatened (the paragraph's \"get safe first\" case); it adds no claim, tone or promise. T26 (\"less safe\" in the heading and in the first sentence) is happening and is justified: the heading is how a skimmer finds the case, and the sentence goes on to the instruction and the hurt-or-threatened case, which the heading doesn't carry. No linter findings.",
+  "resolved_tell_ids": ["T26"],
+  "resolved_lint_labels": []
+}

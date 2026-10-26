@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "2e24142ba8d5b0b1fc67d4b1ee15e56324482137a57aa9cd67d856be1fffd129",
+  "context_sha256": "51e3f09a99fdeec0000171eeb7202861bd893f68e5de9b74d9eab4c161dba9b8",
+  "source_sha256": "38b5c1a3f58f8cec1c1b4c2dda034b9348db29c2d7ed87a337685d9a2b304a84",
+  "verdict": "FAIL",
+  "unresolved": [
+    "CONTEXT.txt drops the first sentence of the source paragraph, \"Say you keep coming back from trips confused or spaced out.\", and the_change only describes an added heading (it quotes the paragraph as starting \"Maybe nothing worse happens\"); the heading would replace a sentence of the article without Joel being told, and the heading keeps neither \"keep\" nor \"from trips\" from it.",
+    "With that sentence gone, \"Maybe nothing worse happens, but after several trips like that\" takes both of its referents from the heading alone. Either keep the sentence under the heading (then the heading repeats it, which needs a T26 mark and a reason), or state the cut and the sentence's original wording in the_change so Joel can approve it."
+  ],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, half2)",
+    "context_id": "t113-gate-preservation-half2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "I compared SOURCE.txt with CONTEXT.txt: the source paragraph opens \"Say you keep coming back from trips confused or spaced out. Maybe nothing worse happens, but after several trips like that I'd be concerned.\", while the context paragraph opens at \"Maybe nothing worse happens\", so a sentence of the source is missing from the section as it would read. The heading \"Coming back confused or spaced out\" is itself true to that sentence and to the rest of the paragraph (repeated confusion after trips, see a psychiatrist, do not stop a medication suddenly, benzo and alcohol withdrawal), with no linter findings and no marked rows. The failure is the cut: the_change describes only an added heading, so the sentence would go without Joel being told.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

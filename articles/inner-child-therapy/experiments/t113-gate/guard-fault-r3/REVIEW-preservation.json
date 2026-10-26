@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "a27a3a4934572214822d0d736d588e5ed89eac4f0e1877bf56a510c69d4107f7",
+  "context_sha256": "c2878ba5f76bec5491be41eb316bc47309e128e726ebc39195ef63ea6a756648",
+  "source_sha256": "cf4cc587086208ebf0d01d2222fd625e72204fec85d02f4ce82b34fcf55839f5",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r3a)",
+    "context_id": "t113-gate-preservation-r3a-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged 'If it all feels like your fault' over 'Blaming yourself can be doing a protective job, too. \"It's all my fault\" might be your parent's line, word for word...'. The heading names the reader's felt situation in the paragraph's own register ('It's all my fault', 'if it's your fault') and adds no claim; the protective job, the parent's line and the advice to stop the cruelty stay in the paragraph. No linter findings or writer-marked rows; the shared 'fault' is the heading letting a skimmer find the case (the first sentence says 'Blaming yourself'), not a tell, and 'it all' reads as 'everything' even right after 'If it's been calling all this stupid'.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

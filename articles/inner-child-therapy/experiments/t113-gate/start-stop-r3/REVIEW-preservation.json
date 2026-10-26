@@ -1,0 +1,21 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "ffebd06a71cc397951fc449be3dfb6a5e56737db2cf028eef44d7ecc785b5325",
+  "context_sha256": "28b26009e68f6099ba362349a59994972a5a649dc2d0657a6739fd83b13dd24a",
+  "source_sha256": "51981a84aa8051bfe477cda33a5ee1148420832a31558c056c9809a8d82d0fd6",
+  "verdict": "FAIL",
+  "unresolved": [
+    "Names the action, not the situation: 'When to stop' has none of the words a reader in that situation would look for (part, hesitates, says no, touch, sex, going deeper, altered state), so a skimmer cannot tell whether the paragraph applies to them, which is what the headings are for.",
+    "Reads as the general stopping rule although the paragraph gives one trigger (a part hesitating about touch or sex, or saying no to going deeper or an altered state), so it can be taken for the complete list; it also collides with the later 'If you'd rather stop' (quitting the practice), a different meaning of stop.",
+    "Better heading: 'If a part hesitates or says no' (or, longer and more exact, 'If a part hesitates about touch or sex, or says no to going deeper')."
+  ],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r3a)",
+    "context_id": "t113-gate-preservation-r3a-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged 'When to stop' over 'If a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state, I'd stop there and not test it, even when it sounds like a prediction.' The heading is true but names only the paragraph's action, so it does not give a skimmer the situation to recognize and reads as a general rule the one-trigger paragraph does not fully make; 'stop there and not test it' also means stop pushing on that part, not quit, unlike the later 'If you'd rather stop'. No linter findings and no writer-marked rows, and no tell row is the problem; the failure is preservation and clarity.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

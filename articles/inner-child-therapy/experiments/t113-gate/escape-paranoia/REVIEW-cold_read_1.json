@@ -1,0 +1,23 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "cac25a9e9bf810511ad78183afad1cf59f382cdaefb8b6fc6790016b7498c184",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "d35df71bbcdcfa7c759777546dac2e3670a089f46174b8b61365b9d70cae92d6",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, r3b)",
+    "context_id": "t113-gate-cold-read-1-r3b-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged \"Is your paranoia a warning sign?\" over \"Paranoia during a rough trip can be a warning sign for psychosis, but it doesn't automatically lead there, since it can be valid\" and the split-off \"If you can't clearly understand what happened yourself, get someone qualified to help\"; it is the reader's own question and adds no claim, and the second paragraph is what to do when you can't tell which kind your paranoia was, so one heading over both is right. T26 (heading and first sentence share \"paranoia\" and \"warning sign\") is PRESENT but justified: it is a question and its answer, and the sentence adds what the heading cannot (for psychosis, not automatic, balanced by practicality). I accept the three linter findings: B7 (the linter reads the heading alone as a paragraph, and a heading lands nothing), D9 (a heading over its own paragraphs follows them, nothing is reordered) and E36/E41 (one \"your\" in a six-word heading, not a second-person pile-up). No other tell row is PRESENT.",
+  "resolved_tell_ids": [
+    "T26"
+  ],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order",
+    "E36/E41 heavy second person"
+  ]
+}

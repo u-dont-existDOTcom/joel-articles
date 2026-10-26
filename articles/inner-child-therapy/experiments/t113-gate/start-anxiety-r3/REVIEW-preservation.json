@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "e881689fb53e182a7656957bf56737457ef6b9e6e7dc475ff30955843ee4be88",
+  "context_sha256": "28b26009e68f6099ba362349a59994972a5a649dc2d0657a6739fd83b13dd24a",
+  "source_sha256": "b72c4da0b5d946ed17d1db474df997eb05c660e328446d7c2b6534e7ef735af0",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r3a)",
+    "context_id": "t113-gate-preservation-r3a-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged 'If it's anxiety' over 'Anxiety is often a part of you that's trying to protect you, making a guess about what's coming, like that people will laugh at you. It can be right! ... I'd go see.' The heading names a case a skimmer recognizes and claims nothing the paragraph doesn't; the exception ('Unless it might be real danger, or something a doctor should look at') stays in the paragraph, and 'it' is the part or worry that showed up, as in the neighboring headings. No linter findings; the writer's T26 (heading and first sentence share 'anxiety') I agree is justified: one case-word repeated so a skimmer can find the case, after which the sentence says what the heading cannot (a protective part making a guess about what's coming, to be checked).",
+  "resolved_tell_ids": ["T26"],
+  "resolved_lint_labels": []
+}

@@ -1,44 +1,52 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-25 (turns 82 to 112). **Open questions: 109.** For you to do: check the two drafts in Pangram and send me the two links, and merge pull request #250. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-26 (turns 82 to 113). **Open questions: 110.** For you to do: give GPT the review sheet, and merge the turn-113 pull request. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
-The published page, a view of this file rebuilt after every change ([questions_page.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/tools/questions_page.py)), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA [owner-questions-page.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/owner-questions-page.md), [cross-account-continuity.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/cross-account-continuity.md)). Only the account that published the page can republish it, so after a turn by your other account (turns 100 to 112), this file is newer than the page until the next republish.
+The published page, a view of this file rebuilt after every change ([questions_page.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/tools/questions_page.py)), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA [owner-questions-page.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/owner-questions-page.md), [cross-account-continuity.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/cross-account-continuity.md)). Only the account that published the page can republish it, so after a turn by your other account (turns 100 to 113), this file is newer than the page until the next republish.
 
 ## Open questions
 
-### 🟣 109. Solomon's paradox in Borrow Love's third paragraph (turn 112)
+### 🟣 110. The review sheet: case headings in 8 sections, long paragraphs split, and your 109 A wording (turn 113)
 
-Your version of the paragraph is in, word for word, with the two links your earlier version had: "psychological trick" goes to the self-distancing study the old "cheap trick" link went to ([Kross and Grossmann, 2012](https://pubmed.ncbi.nlm.nih.gov/21728454/)), and "Solomon’s paradox" to [Grossmann and Kross, 2014](https://pubmed.ncbi.nlm.nih.gov/24916084/).
+Everything is on [the review sheet](https://claude.ai/artifact/LTEDB18wTYzuUkgobzbUrn), the whole guide with each change in place, for you and then GPT, as you asked ("do the major edits as you suggested and then i can see what GPT thinks of all the changes"). Nothing in the guide changes until you approve. The sheet's file is [REVIEW.html](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t113-review/REVIEW.html) (download it and open it in a browser if the link doesn't open from your other account).
 
-One thing in it: your sentence gives the name to the trick ("This psychological trick has a rich history around it, and even has a name, Solomon’s paradox"). In the study, Solomon's paradox is the gap the trick gets around, that people reason more wisely about other people's problems than about their own. Its title is "Exploring Solomon's paradox: self-distancing eliminates the self-other asymmetry". The old version had the name on the gap: "And the gap it gets around even has a name".
+- **36 case headings in 8 sections**, over each paragraph that is its own case, so a reader can skip to theirs. 18 are your own words from the paragraph under them; the other 18 have new words, and each passed the owner-delivery gate first ([GATE.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t113-gate/GATE.md)).
+- **Long paragraphs split** where they change subject, every sentence kept: How Would You Know It's Helping? (210 words, in four) and How to Forgive Without Forgetting's last paragraph, and inside the headed sections one each in Start With Whatever Showed Up, When to Change the Strategy and Other Folks Also Have Hooks, and two in When Escape Leaves Reality Behind. In Start With Whatever Showed Up one sentence also moves up three sentences, to stay with what it's about.
+- **Your 109 A**: "the blind spot behind it even has a name, Solomon’s paradox", the rest of your sentence as it is.
+- **One question**: your guide's test line says "makes me more grounded, truthful, and free" in a paragraph that talks to "you". My pick: "you".
 
-- **A (my pick):** the name goes on the gap, and the rest of your sentence stays. I bring that wording through the checks and show it to you before it goes in. The article links the study, so a reader who clicks it sees the difference.
-- **B:** keep it as you wrote it. The trick and the gap are close enough that most readers won't stop on it.
-- **C:** your own wording.
+The sections I looked at and would leave as they are, with why, are in the sheet's opening. Four fresh readers read every section as it would read, and what I did with each of their notes is in [COLD-READ.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t113-shape/COLD-READ.md).
+
+- **A (my pick):** give GPT the sheet as you planned (on the page, select all and copy), and paste its review here. I take both, as in turn 110, and the next sheet has only what we both recommend.
+- **B:** decide the cards yourself now: Approve, Reject or Revise on each, then "Save / send" and "Copy my answers", and paste them here.
 
 ## For you to do (no decision needed)
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Round 7: check the two drafts in Pangram and send me the two links (turn 112)
+### 🟠 Merge the turn-113 pull request (turn 113)
 
-The whole article is in the two temporary Substack drafts again, so this one check covers every section changed since round 6 (turns 108 to 112). In your Brave, open [draft A](https://ibogaqueen.substack.com/publish/post/221982879) and [draft B](https://ibogaqueen.substack.com/publish/post/221983135), click Preview, then "Paid subscriber view" at the top. Click the green label next to the author's name, then "View Full Analysis", and send me each result page's link ("Copy shareable link to result"), as you did for round 6. The label's word isn't the result; the result page's windows are what I read. That takes about two minutes.
+Turn 113: the lane's [open pull request](https://github.com/u-dont-existDOTcom/joel-articles/pulls?q=is%3Apr+is%3Aopen+head%3Ahandoff%2Fclaude-dangerous-adult-20260924-1631). Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged". (You merged #250, turn 112.)
 
-### 🟠 Merge pull request #250 (turn 112)
+### 🔵 The two temporary Substack drafts: keep them for the next check (turn 113)
 
-Turn 112: [pull request #250](https://github.com/u-dont-existDOTcom/joel-articles/pull/250). Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged". (You merged #249, turn 111.)
-
-### 🔵 The two temporary Substack drafts: keep them until round 7 is read (turn 112)
-
-"Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)" hold round 7's text. Once its results are in, a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
+"Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)" still hold round 7's text. The next check puts in what you approve from the review sheet. Once its results are in, a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 109 and round 7, 2026-10-25 22:38 UTC
+
+Your message ([JOEL-20261025-2238.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t113-answers/JOEL-20261025-2238.md)). You merged pull request #250.
+
+- **109, "109a":** the name goes on the gap. The wording, "the blind spot behind it even has a name", passed the owner-delivery gate and is on the review sheet (question 110 above), with the rest of your sentence as it is.
+- **"no point checking the drafts at this point, we are about to make major edits":** round 7 of the guide as it is was skipped, and the drafts wait for what you approve from the sheet, so the one check reads the version that goes in.
+- **"do the major edits as you suggested ... (not just the headings idea but fixing the way the sections read as you did with Hear the Guard)":** on the review sheet. Of the five sections I'd planned to reshape next, Borrow One Competency at a Time already goes the plain path first and then one job a paragraph, so it gets headings; the other four keep their order, for the reasons in the sheet's opening (How to Forgive Without Forgetting gets a split).
 
 ### 🟢 108, 2026-10-25 21:40 UTC
 
@@ -935,9 +943,9 @@ Your answers to 45 and 47 to 54, word for word, are in [experiments/t72-answers/
 > [!NOTE]
 > Work that may need you later, and what happens if nothing changes.
 
-### 🔵 Next: headings where each paragraph is its own case (turn 112)
+### 🔵 Next: GPT's review, then a sheet of what we both recommend (turn 113)
 
-Your idea of 2026-10-25 21:40 UTC: a clear little heading on each paragraph, so a reader can skip the parts that don't apply. First a pilot on Hear the Guard First, shown in place in the whole article on a review page: a short heading over each case, worded the way a reader would describe their own situation, and each paragraph's first sentence changed only where it would repeat its heading. The new words go through the owner-delivery gate first and each changed paragraph through Pangram. If you like it, the other sections built the same way follow, together with the reshape batch, so each section is reworked once.
+When GPT's review is in, I take its advice card by card as in turn 110, and the next sheet has only what we both recommend. What you approve goes in word for word, and then the two drafts get it for the free check.
 
 ### 🔵 Next
 

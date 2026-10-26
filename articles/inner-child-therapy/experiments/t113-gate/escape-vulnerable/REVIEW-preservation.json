@@ -1,0 +1,19 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "9c03d922388ebedd9200b19976c9ad62fd3a8c9533165505d56cc304fc3f4264",
+  "context_sha256": "51e3f09a99fdeec0000171eeb7202861bd893f68e5de9b74d9eab4c161dba9b8",
+  "source_sha256": "d0b0567f12041227d5f630c2ed4037a7e73f925afd760c48ec4faa4d3432d071",
+  "verdict": "FAIL",
+  "unresolved": [
+    "\"If you might be vulnerable\" never says vulnerable to what. The paragraphs mean prone to mania, psychosis or paranoia from drugs that mess with what's real (the person's own reactions, family history, a bad environment or mindset). In an inner child guide most readers will read \"vulnerable\" as emotionally vulnerable, so the reader who has this risk is not told it is theirs and the reader who doesn't cannot tell to skip. Better: \"If you might be prone to mania or psychosis\"."
+  ],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, half2)",
+    "context_id": "t113-gate-preservation-half2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "I judged \"If you might be vulnerable\" over \"Any of those reactions, from mania to paranoia, can also point to a vulnerability in you ...\" and the \"By trusted, I mean ...\" paragraph, which continues the first one's last clause (\"get help from trusted advisors\"), so one heading over both is right. The heading takes the paragraph's own word and adds no claim, and the writer's T26 mark (\"vulnerable\" / \"a vulnerability in you\") is a label echo I accept; but the word carries none of what a skimming reader needs to recognize the case (mania, psychosis, paranoia, family history). No linter findings.",
+  "resolved_tell_ids": ["T26"],
+  "resolved_lint_labels": []
+}

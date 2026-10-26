@@ -1,0 +1,1387 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "inner-child-t113",
+ "title": "Inner Child Review Sheet",
+ "intro": [
+  "Every edit proposed in turn 113, each in place in the whole guide: a heading over each paragraph that is its own case, in eight sections, so a reader can skip to theirs (your idea of 2026-10-25 21:40 UTC); long paragraphs split where they change subject, every sentence kept; and your 109 A. Nothing is in the guide yet.",
+  "Where a paragraph's first words already named its case, those words became the heading and the paragraph starts after them, so nothing is said twice. Every case heading is small (####) and in sentence case, like your \"Non-altered states can feel like this too\", so it reads as a signpost inside its section, and the section's own subsections keep their size. Every other heading has new words, and each of those passed the owner-delivery gate first, with three fresh reviewers each ([GATE.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t113-gate/GATE.md)). Four more fresh readers read every section as it would read, and what I did with each of their notes is in [COLD-READ.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t113-shape/COLD-READ.md).",
+  "The sections I looked at and would leave as they are: How to Forgive Without Forgetting keeps its order, since its first paragraph says before the practice that you don't have to forgive first to get safe, set boundaries, hold someone accountable, get justice or get better, and its last answers that after (only that last paragraph splits). The Parent You Inherited keeps its order, since the borrowed-adulthood trick answers the problem the paragraphs before it set up. How Much Happiness Do You Know Is Possible? builds to its suggestion. Differentiation already goes from what it is to the long view, by way of a day-to-day list. Make a Simple Vow already has the vow first and the what-ifs after, and most readers need each of them. Signs of Manipulation is short, and every sign is one to know. Before You Try to Go Deep has its cases right under a part heading with three sections after them, so case headings there would look like more sections. And the sections that tell a story or build an argument stay whole, like My Journey and The Chicken-and-Egg Problem.",
+  "Pangram: not checked yet, since you said the drafts can wait for the big edits. Once you and GPT settle what goes in, I put it in the two temporary drafts for the free check, predictions first.",
+  "For GPT: each card shows its section as it would read, headings marked with their Markdown #s; the article around the card is the section as it is now."
+ ],
+ "git_file": "articles/inner-child-therapy/experiments/t113-review/REVIEW.html",
+ "article": {
+  "file": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "sha256": "8eb1dc9ab0c474ec8e776501d7e84ef0a325d65930593f57d02c820e9e37dbfb"
+ },
+ "built": "2026-10-26T00:27:19Z",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t113-review/REVIEW.html"
+ },
+ "types": {
+  "heads": {
+   "label": "Case headings",
+   "about": "A heading over each paragraph that is its own case, so a reader can skip to theirs."
+  },
+  "split": {
+   "label": "Splits",
+   "about": "A long paragraph in two or more, every sentence kept."
+  },
+  "reread": {
+   "label": "Wording",
+   "about": "A few words changed in a sentence."
+  },
+  "ask": {
+   "label": "Questions",
+   "about": "A question about a line: no change until you answer."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "H-guard",
+   "type": "heads",
+   "title": "Hear the Guard First: a heading over each case",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 247,
+     "start": 0,
+     "end": 205
+    },
+    {
+     "block": 248,
+     "start": 0,
+     "end": 669
+    },
+    {
+     "block": 249,
+     "start": 0,
+     "end": 196
+    },
+    {
+     "block": 250,
+     "start": 0,
+     "end": 411
+    },
+    {
+     "block": 251,
+     "start": 0,
+     "end": 591
+    },
+    {
+     "block": 252,
+     "start": 0,
+     "end": 285
+    },
+    {
+     "block": 253,
+     "start": 0,
+     "end": 281
+    }
+   ],
+   "card_after": 253,
+   "edits": [
+    {
+     "block": 252,
+     "before": "If it's been calling all this stupid, it might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, \"You don't have to hope yet, I'll keep coming back even when I mess up.\" Sometimes it doesn't say anything back for a while.",
+     "after": "It might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, \"You don't have to hope yet, I'll keep coming back even when I mess up.\" Sometimes it doesn't say anything back for a while."
+    }
+   ],
+   "inserts": [
+    {
+     "before": 250,
+     "kind": "h4",
+     "text": "Earning its trust, day to day",
+     "seq": 0
+    },
+    {
+     "before": 251,
+     "kind": "h4",
+     "text": "If it won't step back",
+     "seq": 1
+    },
+    {
+     "before": 252,
+     "kind": "h4",
+     "text": "If it's been calling all this stupid",
+     "seq": 2
+    },
+    {
+     "before": 253,
+     "kind": "h4",
+     "text": "If it all feels like your fault",
+     "seq": 3
+    }
+   ],
+   "moves": [],
+   "reads": [
+    {
+     "text": "Whichever protective part showed up, try talking to it in the same Nurturer voice you meant for your little one. At some point you can ask that part, \"What are you afraid would happen if you stepped back?\""
+    },
+    {
+     "text": "It might say this will just be one more performance, and you'll fool yourself again. That one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part remembers. \"Tell me what you remember, I'm listening.\" works well here. It puts you into the role of the Nurturer, which alleviates the instinct to argue back. Usually your little one only comes forward after that part feels heard. Peek-a-boo! If you push past it, you might get exactly the performance it was afraid of. Even if you didn't win an Emmy last year, that can look convincing, with the right words and maybe even tears, while nothing underneath feels any safer."
+    },
+    {
+     "text": "A harder voice can seem more fitting for something that's been in your way. I'd still keep the Nurturer voice. If that voice isn't there in you yet, borrow it from someone who's been safe for you."
+    },
+    {
+     "text": "Earning its trust, day to day",
+     "kind": "h4",
+     "new": [
+      "Earning its trust, day to day"
+     ],
+     "note": "New words (through the owner-delivery gate)."
+    },
+    {
+     "text": "A new roommate doesn't win you over with a speech on move-in day (hopefully, right?). The rent just has to keep showing up. Your Protector earns that guard's trust about the same way, mostly out in ordinary life. The things you do can be small, like keeping a promise to yourself nobody else knew about. Or saying no to someone, and not texting an hour later to take it back. That second one can be really hard."
+    },
+    {
+     "text": "If it won't step back",
+     "kind": "h4",
+     "new": [
+      "If it won't step back"
+     ],
+     "note": "New words (through the owner-delivery gate)."
+    },
+    {
+     "text": "That part doesn't have to move out. It's been living there way longer than the grown-up you. It can keep watch while you take one small step toward your little one. I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it all off if things got to be too much. It doesn't have to be all or nothing, either. Maybe it would settle for a lighter cover for now, like blinds tilted open a crack, and let you peek out for a minute (ST-CA, section 9.3.4). If it says no, I'd listen. When it lets you, keep an eye on that part too, for any change at all."
+    },
+    {
+     "text": "If it's been calling all this stupid",
+     "kind": "h4",
+     "note": "Your own words, from the paragraph under it."
+    },
+    {
+     "text": "It might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, \"You don't have to hope yet, I'll keep coming back even when I mess up.\" Sometimes it doesn't say anything back for a while.",
+     "note": "Starts after \"If it's been calling all this stupid\", which its heading now says."
+    },
+    {
+     "text": "If it all feels like your fault",
+     "kind": "h4",
+     "new": [
+      "If it all feels like your fault"
+     ],
+     "note": "New words (through the owner-delivery gate)."
+    },
+    {
+     "text": "Blaming yourself can be doing a protective job, too. \"It's all my fault\" might be your parent's line, word for word. Then again, if it's your fault, maybe you can fix it before they leave. I'd stop the cruelty either way. And I'd get curious about what makes it so hard to give up."
+    }
+   ],
+   "reads_label": "How Hear the Guard First would read",
+   "what": "Four headings over the last four paragraphs: \"Earning its trust, day to day\", \"If it won't step back\", \"If it's been calling all this stupid\" (your words) and \"If it all feels like your fault\". The paragraph under your words starts after them.",
+   "why": "After your exchange (the question, what the part might say, your reply, and which voice to use), each paragraph is one thing the guard might do, or, the first, how you earn its trust, so a reader can go straight to theirs.",
+   "stays": "Every sentence, in the agreed order. Your exchange (the question, what the part might say, your reply, and which voice to use) stays together under the section heading.",
+   "deciding": "Approve puts these headings in, and drops the first words that a heading now says. Revise to change a heading. Reject keeps the section as it is.",
+   "advice_note": "The new words passed the owner-delivery gate (three fresh reviewers).",
+   "found_by": "your idea of 2026-10-25 21:40 UTC; my proposal",
+   "approve_label": "use these headings"
+  },
+  {
+   "id": "H-start",
+   "type": "heads",
+   "title": "Start With Whatever Showed Up: a heading over each case",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 232,
+     "start": 0,
+     "end": 505
+    },
+    {
+     "block": 233,
+     "start": 0,
+     "end": 176
+    },
+    {
+     "block": 234,
+     "start": 0,
+     "end": 273
+    },
+    {
+     "block": 235,
+     "start": 0,
+     "end": 445
+    },
+    {
+     "block": 236,
+     "start": 0,
+     "end": 449
+    },
+    {
+     "block": 237,
+     "start": 0,
+     "end": 279
+    },
+    {
+     "block": 238,
+     "start": 0,
+     "end": 302
+    },
+    {
+     "block": 239,
+     "start": 0,
+     "end": 188
+    }
+   ],
+   "card_after": 239,
+   "edits": [
+    {
+     "block": 234,
+     "before": "If nothing comes, that's fine for now. No need to answer for that part just because you'd set this up as a healing session. Even without the answer, you can notice what sets the reaction off, and you can understand what the reaction is propelling you toward, and away from.",
+     "after": "That's fine for now. No need to answer for that part just because you'd set this up as a healing session. Even without the answer, you can notice what sets the reaction off, and you can understand what the reaction is propelling you toward, and away from."
+    },
+    {
+     "block": 235,
+     "before": "Or if you do get an answer, it could come in different forms, like as a voice or just a hunch. It's often more like a feeling. Maybe grief or anger. If so just listen and be present for it if that's what it wants. If it tells you to do something, I'd only do it if it's loving and leaves you free. It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and you've checked it against what you actually know.",
+     "after": "It could come in different forms, like as a voice or just a hunch. It's often more like a feeling. Maybe grief or anger. If so just listen and be present for it if that's what it wants. How you picture all that is up to you, as long as it helps, and the simpler the better.\n\n#### If it tells you to do something\n\nI'd only do it if it's loving and leaves you free. It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and you've checked it against what you actually know."
+    },
+    {
+     "block": 236,
+     "before": "How you picture all that is up to you, as long as it helps, and the simpler the better. I think a fear that keeps turning up to tell you something is worth talking to as a part of you. If it sounds like your little one, though, hear it out the first time it shows up. Let a stray thought go as just thinking, and come back to the room you're in. A worry that just keeps asking to be reassured can go the same way, unless it's your little one asking.",
+     "after": "I think a fear that keeps turning up to tell you something is worth talking to as a part of you. If it sounds like your little one, though, hear it out the first time it shows up. Let a stray thought go as just thinking, and come back to the room you're in. A worry that just keeps asking to be reassured can go the same way, unless it's your little one asking."
+    },
+    {
+     "block": 239,
+     "before": "If a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state, I'd stop there and not test it, even when it sounds like a prediction.",
+     "after": "I'd stop there and not test it, even when it sounds like a prediction."
+    }
+   ],
+   "inserts": [
+    {
+     "before": 234,
+     "kind": "h4",
+     "text": "If no answer comes",
+     "seq": 0
+    },
+    {
+     "before": 235,
+     "kind": "h4",
+     "text": "If you do get an answer",
+     "seq": 1
+    },
+    {
+     "before": 236,
+     "kind": "h4",
+     "text": "Which thoughts to talk to",
+     "seq": 2
+    },
+    {
+     "before": 238,
+     "kind": "h4",
+     "text": "If it's anxiety",
+     "seq": 3
+    },
+    {
+     "before": 239,
+     "kind": "h4",
+     "text": "If a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state",
+     "seq": 4
+    }
+   ],
+   "moves": [],
+   "reads": [
+    {
+     "text": "You might go looking for your little one and get mad instead, or realize you've been staring at the rug. I count that as pl/ork too, even if it feels like it's in the way. Before you decide where it's coming from, ask it what it's trying to stop, or what it wants. Maybe it just has something to say. It could be your little one, mad that you took so long to come back, or a part of you that's trying to protect you. Maybe it's that parent you inherited, or something from earlier today, or a bit of each."
+    },
+    {
+     "text": "You can tell that part something like, \"I see you. I'm not going to force my way past you. What's going on?\" Or however you'd actually say that. Then wait and listen patiently."
+    },
+    {
+     "text": "If no answer comes",
+     "kind": "h4",
+     "new": [
+      "If no answer comes"
+     ],
+     "note": "New words (through the owner-delivery gate)."
+    },
+    {
+     "text": "That's fine for now. No need to answer for that part just because you'd set this up as a healing session. Even without the answer, you can notice what sets the reaction off, and you can understand what the reaction is propelling you toward, and away from.",
+     "note": "Starts after \"If nothing comes,\", which its heading now says as \"If no answer comes\"."
+    },
+    {
+     "text": "If you do get an answer",
+     "kind": "h4",
+     "note": "Your own words, from the paragraph under it."
+    },
+    {
+     "text": "It could come in different forms, like as a voice or just a hunch. It's often more like a feeling. Maybe grief or anger. If so just listen and be present for it if that's what it wants. How you picture all that is up to you, as long as it helps, and the simpler the better.",
+     "note": "Starts after \"Or if you do get an answer,\", which its heading now says. Its last sentence, \"How you picture all that ...\", comes up from the paragraph that was next."
+    },
+    {
+     "text": "If it tells you to do something",
+     "kind": "h4",
+     "note": "Your own words, from the paragraph under it."
+    },
+    {
+     "text": "I'd only do it if it's loving and leaves you free. It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and you've checked it against what you actually know.",
+     "note": "Split from the paragraph before it; starts after \"If it tells you to do something,\", which its heading now says."
+    },
+    {
+     "text": "Which thoughts to talk to",
+     "kind": "h4",
+     "new": [
+      "Which thoughts to talk to"
+     ],
+     "note": "New words (through the owner-delivery gate)."
+    },
+    {
+     "text": "I think a fear that keeps turning up to tell you something is worth talking to as a part of you. If it sounds like your little one, though, hear it out the first time it shows up. Let a stray thought go as just thinking, and come back to the room you're in. A worry that just keeps asking to be reassured can go the same way, unless it's your little one asking.",
+     "note": "Its old first sentence, \"How you picture all that is up to you ...\", moves up three sentences, to the end of the answer paragraph."
+    },
+    {
+     "text": "I wouldn't spend long deciding what to call each part, though. Every part of you learns from how the others treat it, your little one included. A part of you that's trying to protect you might warn you about something, and when you hear it out, it doesn't have to get any louder."
+    },
+    {
+     "text": "If it's anxiety",
+     "kind": "h4",
+     "new": [
+      "If it's anxiety"
+     ],
+     "note": "New words (through the owner-delivery gate)."
+    },
+    {
+     "text": "Anxiety is often a part of you that's trying to protect you, making a guess about what's coming, like that people will laugh at you. It can be right! It's probably been wrong before too, and you know some of those times. Unless it might be real danger, or something a doctor should look at, I'd go see."
+    },
+    {
+     "text": "If a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state",
+     "kind": "h4",
+     "note": "Your own words, from the paragraph under it."
+    },
+    {
+     "text": "I'd stop there and not test it, even when it sounds like a prediction.",
+     "note": "Starts after \"If a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state\", which its heading now says."
+    }
+   ],
+   "reads_label": "How Start With Whatever Showed Up would read",
+   "what": "Six headings after the path: \"If no answer comes\" (for your \"If nothing comes,\", which leaves its paragraph), your \"If you do get an answer\" and \"If it tells you to do something\" (the paragraphs start after them), \"Which thoughts to talk to\", \"If it's anxiety\", and your stop rule's whole condition, \"If a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state\", which the rule then starts after. Your answer paragraph splits before \"If it tells you to do something\", so its cautions are their own case, and \"How you picture all that is up to you, as long as it helps, and the simpler the better.\" moves up three sentences, to right after the forms an answer can take, which it is about.",
+   "why": "After the path (what showed up, what to ask it, your line to say, and waiting), each paragraph is one of the things that can happen next. Your answer paragraph held two of them, a feeling to be present for and an instruction to be careful with, so it splits, and \"How you picture all that is up to you\" moves up three sentences to sit right after the forms an answer can take, which it is about. What to make of a fear or a stray thought gets its own paragraph.",
+   "stays": "Every sentence. The first two paragraphs, the path, stay under the section heading, and so do the four sections after this one.",
+   "deciding": "Approve puts these headings in, and drops the first words that a heading now says. Revise to change a heading. Reject keeps the section as it is.",
+   "advice_note": "The new words passed the owner-delivery gate (three fresh reviewers). The stop rule's heading is your own condition, long but exact: two shorter headings of mine didn't get through the gate, one for leaving out the hesitation and the cases, one for naming no trigger. Shorten it with Revise if you like.",
+   "found_by": "your idea of 2026-10-25 21:40 UTC; my proposal",
+   "approve_label": "use these headings"
+  },
+  {
+   "id": "H-change",
+   "type": "heads",
+   "title": "When to Change the Strategy: a heading over each reason",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 255,
+     "start": 0,
+     "end": 661
+    },
+    {
+     "block": 256,
+     "start": 0,
+     "end": 373
+    },
+    {
+     "block": 257,
+     "start": 0,
+     "end": 441
+    },
+    {
+     "block": 258,
+     "start": 0,
+     "end": 300
+    },
+    {
+     "block": 259,
+     "start": 0,
+     "end": 513
+    }
+   ],
+   "card_after": 259,
+   "edits": [
+    {
+     "block": 258,
+     "before": "How many tries would I give it? It's not like we can just put a number on it. Some things shift in a day. Others take about as long as learning guitar. But do notice if progress is stagnating. If it’s making things worse, or you just can’t do it right now, I’d change course sooner (stopping counts).",
+     "after": "It's not like we can just put a number on it. Some things shift in a day. Others take about as long as learning guitar. But do notice if progress is stagnating. If it’s making things worse, or you just can’t do it right now, I’d change course sooner (stopping counts)."
+    },
+    {
+     "block": 259,
+     "before": "Not wanting to do it anymore might be reason enough, but if that “nope” sounds like a part of you that’s trying to protect you, I’d hear it out first to get a better understanding. And if you keep following the reparenting steps correctly without getting the expected results, consider if you have a unique case these steps don’t match yet. Maybe you’ll find something that works better for you, or you can ask me what I’d do for this case, or ask a therapist you work with. Either way, I’d like to hear about it!",
+     "after": "Not wanting to do it anymore might be reason enough, but if that “nope” sounds like a part of you that’s trying to protect you, I’d hear it out first to get a better understanding.\n\n#### If you keep following the reparenting steps correctly without getting the expected results\n\nConsider if you have a unique case these steps don’t match yet. Maybe you’ll find something that works better for you, or you can ask me what I’d do for this case, or ask a therapist you work with. Either way, I’d like to hear about it!"
+    }
+   ],
+   "inserts": [
+    {
+     "before": 256,
+     "kind": "h4",
+     "text": "When your kind words sound empty",
+     "seq": 0
+    },
+    {
+     "before": 257,
+     "kind": "h4",
+     "text": "If the relief doesn't last",
+     "seq": 1
+    },
+    {
+     "before": 258,
+     "kind": "h4",
+     "text": "How many tries would I give it?",
+     "seq": 2
+    },
+    {
+     "before": 259,
+     "kind": "h4",
+     "text": "If you'd rather stop",
+     "seq": 3
+    }
+   ],
+   "moves": [],
+   "reads": [
+    {
+     "text": "Weeks in and nothing much is changing? I’d want to quit too, or else keep doing the exact same thing forever so I never have to find out what's underneath this. Before going with either of those paths, look for what exactly is in the way. Sometimes the strategy was not actually implemented, just read about or played around with lightly. Or there wasn't the right environment to really practice it, like no alone time. Or perhaps you did sit down with your little one, but it felt scary or like some part of you was trying to protect you from going deeper. Whatever it turns out to be, it makes sense to work on that blocker instead of giving up on everything."
+    },
+    {
+     "text": "When your kind words sound empty",
+     "kind": "h4",
+     "new": [
+      "When your kind words sound empty"
+     ],
+     "note": "New words (through the owner-delivery gate)."
+    },
+    {
+     "text": "Maybe the words are all there, but the loving grown-up behind them isn’t, not yet. Some people at that point might try saying sweeter and sweeter things, and then upon that not working, perhaps just “throw the baby out with the bathwater,” and decide reparenting is a scam. I’d borrow that grown-up first. Then try again, and see if your little one can tell the difference."
+    },
+    {
+     "text": "If the relief doesn't last",
+     "kind": "h4",
+     "new": [
+      "If the relief doesn't last"
+     ],
+     "note": "New words (through the owner-delivery gate)."
+    },
+    {
+     "text": "Let's say an exercise leaves you feeling lighter for a few hours, but then the old feeling comes back later on. Some relief is nice, but we still want to know if we are fixing the problem at a deeper level and integrating the benefits into regular life (like texting a friend that you're having a rough day rather than saying you're fine). Jot down what changed and how long it lasted. Although if that feeds into your OCD patterns, drop it."
+    },
+    {
+     "text": "How many tries would I give it?",
+     "kind": "h4",
+     "note": "Your own words, from the paragraph under it."
+    },
+    {
+     "text": "It's not like we can just put a number on it. Some things shift in a day. Others take about as long as learning guitar. But do notice if progress is stagnating. If it’s making things worse, or you just can’t do it right now, I’d change course sooner (stopping counts).",
+     "note": "Starts after \"How many tries would I give it?\", which its heading now says."
+    },
+    {
+     "text": "If you'd rather stop",
+     "kind": "h4",
+     "new": [
+      "If you'd rather stop"
+     ],
+     "note": "New words (through the owner-delivery gate)."
+    },
+    {
+     "text": "Not wanting to do it anymore might be reason enough, but if that “nope” sounds like a part of you that’s trying to protect you, I’d hear it out first to get a better understanding."
+    },
+    {
+     "text": "If you keep following the reparenting steps correctly without getting the expected results",
+     "kind": "h4",
+     "note": "Your own words, from the paragraph under it."
+    },
+    {
+     "text": "Consider if you have a unique case these steps don’t match yet. Maybe you’ll find something that works better for you, or you can ask me what I’d do for this case, or ask a therapist you work with. Either way, I’d like to hear about it!",
+     "note": "Split from the paragraph before it; starts after your condition, which is its heading now."
+    }
+   ],
+   "reads_label": "How When to Change the Strategy would read",
+   "what": "Five headings after your first paragraph: \"When your kind words sound empty\", \"If the relief doesn't last\", your \"How many tries would I give it?\" (which the paragraph now starts after), \"If you'd rather stop\", and your own condition, \"If you keep following the reparenting steps correctly without getting the expected results\". Your last paragraph splits in two, and the second part starts after that condition, at \"Consider if you have a unique case\".",
+   "why": "Your first paragraph is the general case, nothing much changing; each one after it is a different reason to change course, and your last paragraph holds two of them.",
+   "stays": "Every sentence of your rewrite, in your order.",
+   "deciding": "Approve puts these headings in, and drops the first words that a heading now says. Revise to change a heading. Reject keeps the section as it is.",
+   "advice_note": "The new words passed the owner-delivery gate (three fresh reviewers).",
+   "found_by": "your idea of 2026-10-25 21:40 UTC; my proposal",
+   "approve_label": "use these headings"
+  },
+  {
+   "id": "H-escape",
+   "type": "heads",
+   "title": "When Escape Leaves Reality Behind: a heading over each warning",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 274,
+     "start": 0,
+     "end": 632
+    },
+    {
+     "block": 275,
+     "start": 0,
+     "end": 455
+    },
+    {
+     "block": 276,
+     "start": 0,
+     "end": 933
+    },
+    {
+     "block": 277,
+     "start": 0,
+     "end": 484
+    },
+    {
+     "block": 278,
+     "start": 0,
+     "end": 448
+    },
+    {
+     "block": 279,
+     "start": 0,
+     "end": 460
+    },
+    {
+     "block": 280,
+     "start": 0,
+     "end": 451
+    }
+   ],
+   "card_after": 280,
+   "edits": [
+    {
+     "block": 275,
+     "before": "Your own drug history matters too. If you go manic, psychotic (by which I mean losing your sense of reality to the point of posing a risk to yourself or others), get super paranoid, or end up worse afterward than before, those are signs to reconsider trying the same thing again, and try to figure out why that happened. Don't try again until you understand what would make it safe. I’d look at the drug and the dosage, as well as mindset and setting etc.",
+     "after": "If you go manic, psychotic (by which I mean losing your sense of reality to the point of posing a risk to yourself or others), get super paranoid, or end up worse afterward than before, those are signs to reconsider trying the same thing again, and try to figure out why that happened. Don't try again until you understand what would make it safe. I’d look at the drug and the dosage, as well as mindset and setting etc."
+    },
+    {
+     "block": 276,
+     "before": "Paranoia during a rough trip can be a warning sign for psychosis, but it doesn’t automatically lead there, since it can be valid. It tends to go that way when it isn’t balanced by practicality. “The CIA is mind-controlling me!” is paranoia. “The CIA, marketers, and other forces are conspiring to mind-control me, the way they do to everyone else! But since I can see that, I can prevent it to some extent, just by being aware of how it operates” is paranoia too, but it’s practically useful, and less likely to lead to psychosis. “...which means I can prevent it by standing on my head and counting backwards from 33, since 33 is their magic Freemason number!” is leaning psychotic. Some drugs are known for causing paranoia, like THC, so I’d avoid those. If you can’t clearly understand what happened yourself, get someone qualified to help. And if you have an idea of what happened but aren’t sure, ask someone who knows you well.",
+     "after": "Paranoia during a rough trip can be a warning sign for psychosis, but it doesn’t automatically lead there, since it can be valid. It tends to go that way when it isn’t balanced by practicality. “The CIA is mind-controlling me!” is paranoia. “The CIA, marketers, and other forces are conspiring to mind-control me, the way they do to everyone else! But since I can see that, I can prevent it to some extent, just by being aware of how it operates” is paranoia too, but it’s practically useful, and less likely to lead to psychosis. “...which means I can prevent it by standing on my head and counting backwards from 33, since 33 is their magic Freemason number!” is leaning psychotic. Some drugs are known for causing paranoia, like THC, so I’d avoid those.\n\nIf you can’t clearly understand what happened yourself, get someone qualified to help. And if you have an idea of what happened but aren’t sure, ask someone who knows you well."
+    },
+    {
+     "block": 279,
+     "before": "Say you keep coming back from trips confused or spaced out. Maybe nothing worse happens, but after several trips like that I'd be concerned. If you're having episodes when you're sober, or any of them are severe, see a psychiatrist. And don't suddenly stop a medication just because you suspect it's involved. Talk to the doctor who prescribed it. Benzos can be dangerous to quit cold turkey. Alcohol withdrawal can be dangerous if you're physically dependent.",
+     "after": "Maybe nothing worse happens, but after several trips like that I'd be concerned. If you're having episodes when you're sober, or any of them are severe, see a psychiatrist.\n\n#### Before you quit a medication or alcohol\n\nDon't suddenly stop a medication just because you suspect it's involved. Talk to the doctor who prescribed it. Benzos can be dangerous to quit cold turkey. Alcohol withdrawal can be dangerous if you're physically dependent."
+    }
+   ],
+   "inserts": [
+    {
+     "before": 275,
+     "kind": "h4",
+     "text": "If a past trip went badly",
+     "seq": 0
+    },
+    {
+     "before": 276,
+     "kind": "h4",
+     "text": "Is your paranoia a warning sign?",
+     "seq": 1
+    },
+    {
+     "before": 277,
+     "kind": "h4",
+     "text": "If you might be prone to mania or psychosis",
+     "seq": 2
+    },
+    {
+     "before": 278,
+     "kind": "h4",
+     "text": "Who counts as trusted",
+     "seq": 3
+    },
+    {
+     "before": 279,
+     "kind": "h4",
+     "text": "If you keep coming back from trips confused or spaced out",
+     "seq": 4
+    },
+    {
+     "before": 280,
+     "kind": "h4",
+     "text": "What you mix",
+     "seq": 5
+    }
+   ],
+   "moves": [],
+   "reads": [
+    {
+     "text": "All kinds of psychoactive drugs can mess with your sense of what’s real, and that’s often the point of them, so you can break free of all your old patterns completely for a bit. But in general, try to select the healthiest ones and use slow and gentle protocols. I’d say one of the most abused psychedelics (aside from ketamine, if you call that a psychedelic) is 5-MeO-DMT. I have a guide on that. People very often believe you need a huge dose of it for a “full release.” They go through all kinds of screaming and shaking, nearly killing themselves, with absolutely zero inner-child work being done. It’s all spiritual bypassing."
+    },
+    {
+     "text": "If a past trip went badly",
+     "kind": "h4",
+     "new": [
+      "If a past trip went badly"
+     ],
+     "note": "New words (through the owner-delivery gate)."
+    },
+    {
+     "text": "If you go manic, psychotic (by which I mean losing your sense of reality to the point of posing a risk to yourself or others), get super paranoid, or end up worse afterward than before, those are signs to reconsider trying the same thing again, and try to figure out why that happened. Don't try again until you understand what would make it safe. I’d look at the drug and the dosage, as well as mindset and setting etc.",
+     "note": "Starts after \"Your own drug history matters too.\", which its heading takes the place of."
+    },
+    {
+     "text": "Is your paranoia a warning sign?",
+     "kind": "h4",
+     "new": [
+      "Is your paranoia a warning sign?"
+     ],
+     "note": "New words (through the owner-delivery gate)."
+    },
+    {
+     "text": "Paranoia during a rough trip can be a warning sign for psychosis, but it doesn’t automatically lead there, since it can be valid. It tends to go that way when it isn’t balanced by practicality. “The CIA is mind-controlling me!” is paranoia. “The CIA, marketers, and other forces are conspiring to mind-control me, the way they do to everyone else! But since I can see that, I can prevent it to some extent, just by being aware of how it operates” is paranoia too, but it’s practically useful, and less likely to lead to psychosis. “...which means I can prevent it by standing on my head and counting backwards from 33, since 33 is their magic Freemason number!” is leaning psychotic. Some drugs are known for causing paranoia, like THC, so I’d avoid those."
+    },
+    {
+     "text": "If you can’t clearly understand what happened yourself, get someone qualified to help. And if you have an idea of what happened but aren’t sure, ask someone who knows you well.",
+     "note": "Split from the paragraph before it."
+    },
+    {
+     "text": "If you might be prone to mania or psychosis",
+     "kind": "h4",
+     "new": [
+      "If you might be prone to mania or psychosis"
+     ],
+     "note": "New words (through the owner-delivery gate)."
+    },
+    {
+     "text": "Any of those reactions, from mania to paranoia, can also point to a vulnerability in you, so I'd be careful with other drugs that mess with what's real too. And any predisposition toward mania or psychosis is a warning sign too, whether it's family history, a bad environment or a bad mindset. These are just caution signs, and when you see them, you take more precautions of every kind. You have to figure out what they mean for you, and if you can't, get help from trusted advisors."
+    },
+    {
+     "text": "Who counts as trusted",
+     "kind": "h4",
+     "new": [
+      "Who counts as trusted"
+     ],
+     "note": "New words (through the owner-delivery gate)."
+    },
+    {
+     "text": "By trusted, I mean someone you know is trustworthy from a long relationship with them, not someone people on Reddit said was super magical and healing. That's called a crapshoot. It might turn out well, it might not. It might seem like it did, and then later you realize you were duped, as happened to me with Sidney the iboga shaman. A new therapist is not as trusted as an old one. As they say, \"new friends are silver, but old friends are gold.\""
+    },
+    {
+     "text": "If you keep coming back from trips confused or spaced out",
+     "kind": "h4",
+     "new": [
+      "If you keep coming back from trips confused or spaced out"
+     ],
+     "note": "New words (through the owner-delivery gate)."
+    },
+    {
+     "text": "Maybe nothing worse happens, but after several trips like that I'd be concerned. If you're having episodes when you're sober, or any of them are severe, see a psychiatrist.",
+     "note": "Starts after \"Say you keep coming back from trips confused or spaced out.\", which its heading now says."
+    },
+    {
+     "text": "Before you quit a medication or alcohol",
+     "kind": "h4",
+     "new": [
+      "Before you quit a medication or alcohol"
+     ],
+     "note": "New words (through the owner-delivery gate)."
+    },
+    {
+     "text": "Don't suddenly stop a medication just because you suspect it's involved. Talk to the doctor who prescribed it. Benzos can be dangerous to quit cold turkey. Alcohol withdrawal can be dangerous if you're physically dependent.",
+     "note": "Split from the paragraph before it; its \"And\" leaves."
+    },
+    {
+     "text": "What you mix",
+     "kind": "h4",
+     "note": "Your own words, from the paragraph under it."
+    },
+    {
+     "text": "Be careful what you mix, too, and not just prescribed medicines. Even some basic things like cinnamon can be dangerous (and helpful) with ayahuasca, and doctors don't know about a lot of this. I also learned that mixing acacia confusa with mimosa hostilis is very destabilizing and challenging, but excellent if you want to know how it feels to be painfully autistic + schizo! I have a list of things to be cautious about with ayahuasca in particular."
+    }
+   ],
+   "reads_label": "How When Escape Leaves Reality Behind would read",
+   "what": "Seven headings after your opening: \"If a past trip went badly\", \"Is your paranoia a warning sign?\", \"If you might be prone to mania or psychosis\", \"Who counts as trusted\", \"If you keep coming back from trips confused or spaced out\", \"Before you quit a medication or alcohol\", and your \"What you mix\". Two first sentences leave their paragraphs, since headings take their place (\"Your own drug history matters too.\" and \"Say you keep coming back from trips confused or spaced out.\"), and the medication warning drops its \"And\". Two paragraphs split where a second point starts: before \"If you can’t clearly understand what happened yourself\" and before \"And don't suddenly stop a medication\".",
+   "why": "After your opening on doses and protocols, each paragraph is its own warning, so a reader can find theirs: a trip that went badly, paranoia, being prone to mania or psychosis, who counts as trusted, coming back spaced out, stopping a medication or alcohol, and what you mix. Two paragraphs split where a second point starts: what to do when you can't tell what happened, after the paranoia examples and the THC line, and the medication warning, after coming back spaced out.",
+   "stays": "Every warning, word for word, in your order. \"By trusted, I mean\" still comes right after \"get help from trusted advisors\", now under its own heading, so a reader who skipped the heading above it still finds it.",
+   "deciding": "Approve puts these headings in, and drops the first words that a heading now says. Revise to change a heading. Reject keeps the section as it is.",
+   "advice_note": "The new words passed the owner-delivery gate (three fresh reviewers).",
+   "found_by": "your idea of 2026-10-25 21:40 UTC; my proposal",
+   "approve_label": "use these headings"
+  },
+  {
+   "id": "H-fake",
+   "type": "heads",
+   "title": "When the Adult Voice Feels Fake: a heading over each way through",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 214,
+     "start": 0,
+     "end": 285
+    },
+    {
+     "block": 215,
+     "start": 0,
+     "end": 21
+    },
+    {
+     "block": 216,
+     "start": 0,
+     "end": 81
+    },
+    {
+     "block": 217,
+     "start": 0,
+     "end": 632
+    },
+    {
+     "block": 218,
+     "start": 0,
+     "end": 476
+    },
+    {
+     "block": 219,
+     "start": 0,
+     "end": 372
+    },
+    {
+     "block": 220,
+     "start": 0,
+     "end": 543
+    }
+   ],
+   "card_after": 220,
+   "edits": [
+    {
+     "block": 218,
+     "before": "Sometimes kindness feels scary more than fake. One study's title has a word for that: \"compassion-threat.\" People in it with anxious or avoidant attachment reacted to compassion imagery like a threat, and a ten-minute exercise in feeling secure helped with the next try. Another found a first try at imagery like that \"can be frightening for people who have a tendency to be self-critical.\" So feeling fake could mean you need a bridge, more than a bigger performance of love.",
+     "after": "One study's title has a word for that: \"compassion-threat.\" People in it with anxious or avoidant attachment reacted to compassion imagery like a threat, and a ten-minute exercise in feeling secure helped with the next try. Another found a first try at imagery like that \"can be frightening for people who have a tendency to be self-critical.\" So feeling fake could mean you need a bridge, more than a bigger performance of love."
+    },
+    {
+     "block": 219,
+     "before": "And picturing one ideal parent seems to help some people. There's a whole method built on it, called the Ideal Parent Figure method. In a small pilot, seventeen adults with complex PTSD from childhood trauma did five weeks of it and were still doing better eight months later. Seventeen people with nobody to compare them to won't prove the whole method, but it's a start.",
+     "after": "There's a whole method built on it, called the Ideal Parent Figure method. In a small pilot, seventeen adults with complex PTSD from childhood trauma did five weeks of it and were still doing better eight months later. Seventeen people with nobody to compare them to won't prove the whole method, but it's a start."
+    },
+    {
+     "block": 220,
+     "before": "For some people it only stops feeling fake in an altered state, like on MDMA or deep in meditation. All of a sudden your little one is right there! Oh my gosh! And the love or grief that sounded like therapy talk is just obvious. Old memories might come up too. They can feel totally real, but that alone doesn't prove they happened. I'd still hang on to what you felt, even once it's gone, and try to bring a little of it into your normal life. You've felt that your little one is real now, so talking to them afterward isn't just pretending.",
+     "after": "Like on MDMA or deep in meditation. All of a sudden your little one is right there! Oh my gosh! And the love or grief that sounded like therapy talk is just obvious. Old memories might come up too. They can feel totally real, but that alone doesn't prove they happened. I'd still hang on to what you felt, even once it's gone, and try to bring a little of it into your normal life. You've felt that your little one is real now, so talking to them afterward isn't just pretending."
+    }
+   ],
+   "inserts": [
+    {
+     "before": 218,
+     "kind": "h4",
+     "text": "Sometimes kindness feels scary more than fake",
+     "seq": 0
+    },
+    {
+     "before": 219,
+     "kind": "h4",
+     "text": "Picturing one ideal parent seems to help some people",
+     "seq": 1
+    },
+    {
+     "before": 220,
+     "kind": "h4",
+     "text": "For some people it only stops feeling fake in an altered state",
+     "seq": 2
+    }
+   ],
+   "moves": [],
+   "reads": [
+    {
+     "text": "A lot of people get stuck right here. You call up the Nurturer and try to talk to your little one, and you get silence or a numb feeling, and all of a sudden your phone or the laundry feels urgent. Or some voice says this is silly, and it's hard to tell which part of you is saying it."
+    },
+    {
+     "text": "My friend Scott said:"
+    },
+    {
+     "text": "\"Half the time when I try to connect to baby me, I feel fake and it seems crazy.\""
+    },
+    {
+     "text": "I used to be all personal trainer and teach persistence on this as the remedy. Keeping at it does help, since a little one who learned to expect being dropped won't trust you right away. But I don't think that explains the adult feeling fully. More importantly, I think it could even be like unintentional gaslighting to the little one to ask to connect with them when you don't believe they're even real. Like when my mom pretended to listen to me when I was young, but even less excusable (from the inner child's view) because she was not asking for my time when she did that. So, it's worth meditating first on why it feels fake."
+    },
+    {
+     "text": "Sometimes kindness feels scary more than fake",
+     "kind": "h4",
+     "note": "Your own words, from the paragraph under it."
+    },
+    {
+     "text": "One study's title has a word for that: \"compassion-threat.\" People in it with anxious or avoidant attachment reacted to compassion imagery like a threat, and a ten-minute exercise in feeling secure helped with the next try. Another found a first try at imagery like that \"can be frightening for people who have a tendency to be self-critical.\" So feeling fake could mean you need a bridge, more than a bigger performance of love.",
+     "note": "Starts after \"Sometimes kindness feels scary more than fake\", which its heading now says."
+    },
+    {
+     "text": "Picturing one ideal parent seems to help some people",
+     "kind": "h4",
+     "note": "Your own words, from the paragraph under it."
+    },
+    {
+     "text": "There's a whole method built on it, called the Ideal Parent Figure method. In a small pilot, seventeen adults with complex PTSD from childhood trauma did five weeks of it and were still doing better eight months later. Seventeen people with nobody to compare them to won't prove the whole method, but it's a start.",
+     "note": "Starts after \"And picturing one ideal parent seems to help some people\", which its heading now says."
+    },
+    {
+     "text": "For some people it only stops feeling fake in an altered state",
+     "kind": "h4",
+     "note": "Your own words, from the paragraph under it."
+    },
+    {
+     "text": "Like on MDMA or deep in meditation. All of a sudden your little one is right there! Oh my gosh! And the love or grief that sounded like therapy talk is just obvious. Old memories might come up too. They can feel totally real, but that alone doesn't prove they happened. I'd still hang on to what you felt, even once it's gone, and try to bring a little of it into your normal life. You've felt that your little one is real now, so talking to them afterward isn't just pretending.",
+     "note": "Starts after \"For some people it only stops feeling fake in an altered state\", which its heading now says."
+    }
+   ],
+   "reads_label": "How When the Adult Voice Feels Fake would read",
+   "what": "Three headings over the last three paragraphs, each the paragraph's own first sentence or clause, which then leaves it: \"Sometimes kindness feels scary more than fake\", \"Picturing one ideal parent seems to help some people\" (its \"And\" goes with it), and \"For some people it only stops feeling fake in an altered state\", after which the paragraph starts \"Like on MDMA or deep in meditation.\" They are small headings, so the three subsections after them still read as sections.",
+   "why": "After Scott's line and your thoughts on why it can feel fake, each of the last three paragraphs is its own way through. Each heading is that paragraph's own first sentence or clause, so the paragraph starts right after it.",
+   "stays": "Every sentence, with Scott's line and your thoughts on why it feels fake still first.",
+   "deciding": "Approve puts these headings in, and drops the first words that a heading now says. Revise to change a heading. Reject keeps the section as it is.",
+   "advice_note": "Every heading is your own words, so no new words to check.",
+   "found_by": "your idea of 2026-10-25 21:40 UTC; my proposal",
+   "approve_label": "use these headings"
+  },
+  {
+   "id": "H-therapist",
+   "type": "heads",
+   "title": "Finding a Therapist to Borrow Adulthood: a heading over each kind of help",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 443,
+     "start": 0,
+     "end": 183
+    },
+    {
+     "block": 444,
+     "start": 0,
+     "end": 392
+    },
+    {
+     "block": 445,
+     "start": 0,
+     "end": 431
+    },
+    {
+     "block": 446,
+     "start": 0,
+     "end": 773
+    },
+    {
+     "block": 447,
+     "start": 0,
+     "end": 355
+    }
+   ],
+   "card_after": 447,
+   "edits": [
+    {
+     "block": 446,
+     "before": "Before choosing a therapist, get to know the strengths and pitfalls of their approach, including any modifications they make to the standard protocol. I'd especially want to interview them regarding how they treat spiritual experiences. You want someone who won't tell you what yours really mean, downplay them, force them, or treat them as a symptom. I'd also want one who doesn't put ideas in your head, and who understands dissociation. What have they found too challenging to deal with so far, and where have they seen the best results? A good therapist won't charge you an arm and a leg just for this kind of interview, and they should already have this information on their website to avoid wasting too much time. A certificate on the wall can't tell you any of that.",
+     "after": "Get to know the strengths and pitfalls of their approach, including any modifications they make to the standard protocol. I'd especially want to interview them regarding how they treat spiritual experiences. You want someone who won't tell you what yours really mean, downplay them, force them, or treat them as a symptom. I'd also want one who doesn't put ideas in your head, and who understands dissociation. What have they found too challenging to deal with so far, and where have they seen the best results? A good therapist won't charge you an arm and a leg just for this kind of interview, and they should already have this information on their website to avoid wasting too much time. A certificate on the wall can't tell you any of that."
+    },
+    {
+     "block": 447,
+     "before": "Regarding AI therapy, I've tried all the top AI therapy apps, and they're all pretty bad. I'm trying to make my own based on this guide, but I'm becoming more convinced that unsupervised AI therapy is just a toss up. That doesn't mean you can't get a lot of great insights sometimes when talking to AI, though, but just expect it to go sideways sometimes.",
+     "after": "I've tried all the top AI therapy apps, and they're all pretty bad. I'm trying to make my own based on this guide, but I'm becoming more convinced that unsupervised AI therapy is just a toss up. That doesn't mean you can't get a lot of great insights sometimes when talking to AI, though, but just expect it to go sideways sometimes."
+    }
+   ],
+   "inserts": [
+    {
+     "before": 444,
+     "kind": "h4",
+     "text": "Inner Child Reparenting therapists",
+     "seq": 0
+    },
+    {
+     "before": 445,
+     "kind": "h4",
+     "text": "If you want a licensed therapist",
+     "seq": 1
+    },
+    {
+     "before": 446,
+     "kind": "h4",
+     "text": "Before choosing a therapist",
+     "seq": 2
+    },
+    {
+     "before": 447,
+     "kind": "h4",
+     "text": "AI therapy",
+     "seq": 3
+    }
+   ],
+   "moves": [],
+   "reads": [
+    {
+     "text": "We all need some support, especially when taking our first steps. First and easiest is to start with finding a somatic therapist, if that resonates, as per my Somatic Therapies Guide."
+    },
+    {
+     "text": "Inner Child Reparenting therapists",
+     "kind": "h4",
+     "note": "Your own words, from the paragraph under it."
+    },
+    {
+     "text": "Inner Child Reparenting therapists do exist, and you can find them, although they often are not licensed, and I don't know of any central directory, nor of any protocol they'd have in common. There are none which work with my guide yet. I can consult, and if you like the guide, you can ask a therapist to check it out and see what they agree with or disagree with as a great way to vet them."
+    },
+    {
+     "text": "If you want a licensed therapist",
+     "kind": "h4",
+     "new": [
+      "If you want a licensed therapist"
+     ],
+     "note": "New words (through the owner-delivery gate)."
+    },
+    {
+     "text": "The best licensed, listed therapists you'll find that come close will be doing Internal Family Systems (IFS), or Schema Therapy. I'll talk more about those in the appendix, but Schema Therapy comes closest to my approach. Open Path Collective (or a similar resource in your country) lists thousands of affordable therapists. You can filter them by Schema or IFS. You can often find even more Schema therapists at the official site."
+    },
+    {
+     "text": "Before choosing a therapist",
+     "kind": "h4",
+     "note": "Your own words, from the paragraph under it."
+    },
+    {
+     "text": "Get to know the strengths and pitfalls of their approach, including any modifications they make to the standard protocol. I'd especially want to interview them regarding how they treat spiritual experiences. You want someone who won't tell you what yours really mean, downplay them, force them, or treat them as a symptom. I'd also want one who doesn't put ideas in your head, and who understands dissociation. What have they found too challenging to deal with so far, and where have they seen the best results? A good therapist won't charge you an arm and a leg just for this kind of interview, and they should already have this information on their website to avoid wasting too much time. A certificate on the wall can't tell you any of that.",
+     "note": "Starts after \"Before choosing a therapist\", which its heading now says."
+    },
+    {
+     "text": "AI therapy",
+     "kind": "h4",
+     "note": "Your own words, from the paragraph under it."
+    },
+    {
+     "text": "I've tried all the top AI therapy apps, and they're all pretty bad. I'm trying to make my own based on this guide, but I'm becoming more convinced that unsupervised AI therapy is just a toss up. That doesn't mean you can't get a lot of great insights sometimes when talking to AI, though, but just expect it to go sideways sometimes.",
+     "note": "Starts after \"Regarding AI therapy\", which its heading now says."
+    }
+   ],
+   "reads_label": "How Finding a Therapist to Borrow Adulthood would read",
+   "what": "Four headings after the first step: your \"Inner Child Reparenting therapists\", \"If you want a licensed therapist\", and your \"Before choosing a therapist\" and \"AI therapy\", which the last two paragraphs now start after.",
+   "why": "After the first step, each paragraph is its own kind of help or its own question, so a reader looking for one of them can find it.",
+   "stays": "Every sentence and link.",
+   "deciding": "Approve puts these headings in, and drops the first words that a heading now says. Revise to change a heading. Reject keeps the section as it is.",
+   "advice_note": "The new words passed the owner-delivery gate (three fresh reviewers).",
+   "found_by": "your idea of 2026-10-25 21:40 UTC; my proposal",
+   "approve_label": "use these headings"
+  },
+  {
+   "id": "H-hooks",
+   "type": "heads",
+   "title": "Other Folks Also Have Hooks: a heading over each case",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 402,
+     "start": 0,
+     "end": 618
+    },
+    {
+     "block": 403,
+     "start": 0,
+     "end": 325
+    },
+    {
+     "block": 404,
+     "start": 0,
+     "end": 523
+    },
+    {
+     "block": 405,
+     "start": 0,
+     "end": 71
+    },
+    {
+     "block": 406,
+     "start": 0,
+     "end": 373
+    },
+    {
+     "block": 407,
+     "start": 0,
+     "end": 74
+    },
+    {
+     "block": 408,
+     "start": 0,
+     "end": 466
+    }
+   ],
+   "card_after": 408,
+   "edits": [
+    {
+     "block": 406,
+     "before": "If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it. Might it be due to a lack of the healed inner child/inner adult relationship? (If so, you're reading the right guide!) But if they've actually hurt or threatened you, even once, old stuff or not, get safe first, which is not a small thing at all, I know.",
+     "after": "Meditate on why it makes you feel unsafe, and what keeps you in it. Might it be due to a lack of the healed inner child/inner adult relationship? (If so, you're reading the right guide!)\n\n#### If they've actually hurt or threatened you\n\nEven once, old stuff or not, get safe first, which is not a small thing at all, I know."
+    },
+    {
+     "block": 407,
+     "before": "If you really did hurt them, repair it. Also easier said than done, but...",
+     "after": "Repair it. Easier said than done, but..."
+    }
+   ],
+   "inserts": [
+    {
+     "before": 404,
+     "kind": "h4",
+     "text": "Can they change?",
+     "seq": 0
+    },
+    {
+     "before": 406,
+     "kind": "h4",
+     "text": "If a relationship keeps making you feel less safe",
+     "seq": 1
+    },
+    {
+     "before": 407,
+     "kind": "h4",
+     "text": "If you really did hurt them",
+     "seq": 2
+    }
+   ],
+   "moves": [],
+   "reads": [
+    {
+     "text": "Once you're in your happy place, look at the other person too, and don't go only by the one fight where they crossed your boundary, or, the other way around, by the one \"no\" or boundary of theirs that made you mad — after all, they're allowed to say no to you. Does it keep ending the same way, where you bring up something that hurt and then still end up reassuring them they're not a bad person, and the talk never comes back to what happened to you? (The psychologist Lindsay Gibson wrote the book on this: *Disentangling from Emotionally Immature People*.) Or can they hear you disagree and look at their own part?"
+    },
+    {
+     "text": "If it's the first, it can seem like you haven't explained yourself well enough yet. You probably have, and it makes more sense to count on what they keep showing you they can do than on the right words finally getting through to them. Maybe what they can do is text you something kind the next day and not bring any of it up."
+    },
+    {
+     "text": "Can they change?",
+     "kind": "h4",
+     "new": [
+      "Can they change?"
+     ],
+     "note": "New words (through the owner-delivery gate)."
+    },
+    {
+     "text": "You may not know for certain whether the other person is or could be capable of a healthier response, and neither do they. If they promise to change, that's probably as useful as their prior promises were. Think about how long it has taken you to become more healthy. Could you have done that from one moment to the next based on a promise? Sometimes we can be a better support for someone when we maintain a realistic boundary, so that we can hold high expectations, and still feel prepared for their failure to meet them."
+    },
+    {
+     "text": "https://substack.com/profile/355021294-u-dont-existcom/note/c-349048098"
+    },
+    {
+     "text": "If a relationship keeps making you feel less safe",
+     "kind": "h4",
+     "note": "Your own words, from the paragraph under it."
+    },
+    {
+     "text": "Meditate on why it makes you feel unsafe, and what keeps you in it. Might it be due to a lack of the healed inner child/inner adult relationship? (If so, you're reading the right guide!)",
+     "note": "Starts after \"If a relationship keeps making you feel less safe,\", which its heading now says."
+    },
+    {
+     "text": "If they've actually hurt or threatened you",
+     "kind": "h4",
+     "note": "Your own words, from the paragraph under it."
+    },
+    {
+     "text": "Even once, old stuff or not, get safe first, which is not a small thing at all, I know.",
+     "note": "Split from the paragraph before it; starts after \"But if they've actually hurt or threatened you,\", which its heading now says."
+    },
+    {
+     "text": "If you really did hurt them",
+     "kind": "h4",
+     "note": "Your own words, from the paragraph under it."
+    },
+    {
+     "text": "Repair it. Easier said than done, but...",
+     "note": "Starts after \"If you really did hurt them,\", which its heading now says, and \"Also easier said than done\" drops its \"Also\"."
+    },
+    {
+     "text": "You can mean the apology for a start. Then notice what happens next. Are you sorry for what you did, or are you starting to take back the complaint too because they're still upset? Maybe your first explanation sucked. Try again. 😅 And if it fails again, and you've said what you mean, well, you can't guarantee they'll understand it. Guilt may keep shouting at you. That doesn't tell you the whole conflict was your fault, nor does it prove they're manipulating you."
+    }
+   ],
+   "reads_label": "How Other Folks Also Have Hooks would read",
+   "what": "Four headings after the question about what they keep showing you and its answer: \"Can they change?\", then your own words for the rest, \"If a relationship keeps making you feel less safe\", \"If they've actually hurt or threatened you\" and \"If you really did hurt them\". The paragraphs under your words start after them, the danger line gets its own paragraph so a reader who has been hurt finds it first, and \"Also easier said than done\" drops its \"Also\", since what it pointed back to is now under another heading.",
+   "why": "After the question about what the other person keeps showing you, and its answer, each paragraph is a different case: whether they can change, a relationship that keeps making you feel less safe, having been hurt or threatened, and having hurt them yourself. The danger line gets its own paragraph and heading, so a reader who has been hurt or threatened finds it first, not under \"meditate on why\".",
+   "stays": "Every sentence and link (the link on \"a relationship\" moves into its heading). Your note stays with the paragraph about whether they can change.",
+   "deciding": "Approve puts these headings in, and drops the first words that a heading now says. Revise to change a heading. Reject keeps the section as it is.",
+   "advice_note": "The new words passed the owner-delivery gate (three fresh reviewers). One reader noticed something outside these edits: your second paragraph answers only the first of your two questions (\"If it's the first\"), so the case where they can hear you disagree gets no answer. I'd leave it, since that case needs nothing done.",
+   "found_by": "your idea of 2026-10-25 21:40 UTC; my proposal",
+   "approve_label": "use these headings"
+  },
+  {
+   "id": "H-borrow",
+   "type": "heads",
+   "title": "Borrow One Competency at a Time: a heading over each job",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 81,
+     "start": 0,
+     "end": 643
+    },
+    {
+     "block": 82,
+     "start": 0,
+     "end": 152
+    },
+    {
+     "block": 83,
+     "start": 0,
+     "end": 583
+    },
+    {
+     "block": 84,
+     "start": 0,
+     "end": 421
+    }
+   ],
+   "card_after": 84,
+   "edits": [
+    {
+     "block": 82,
+     "before": "For warmth, think of someone you remember fondly. How would they sit beside your little one? Just make sure it's someone who liked you the way you were.",
+     "after": "Think of someone you remember fondly. How would they sit beside your little one? Just make sure it's someone who liked you the way you were."
+    },
+    {
+     "block": 83,
+     "before": "For protecting, ask what a minimally competent adult would do here. Maybe something simple, like actually smelling that old food you're about to eat and then trashing it if it smells a little weird. If you're about to send an angry text, hit pause. If the room itself triggers your spidey sense, leave, or lock the door and get help. Even if this still feels like the child acting like the adult, for now, that's ok. \"Fake it til you make it\" isn't exactly it, but yeah. Afterward, you can tell your little one, \"I did that for us. That was the Protector.\" If it sounds funny, laugh!",
+     "after": "Ask what a minimally competent adult would do here. Maybe something simple, like actually smelling that old food you're about to eat and then trashing it if it smells a little weird. If you're about to send an angry text, hit pause. If the room itself triggers your spidey sense, leave, or lock the door and get help. Even if this still feels like the child acting like the adult, for now, that's ok. \"Fake it til you make it\" isn't exactly it, but yeah. Afterward, you can tell your little one, \"I did that for us. That was the Protector.\" If it sounds funny, laugh!"
+    }
+   ],
+   "inserts": [
+    {
+     "before": 82,
+     "kind": "h4",
+     "text": "For warmth",
+     "seq": 0
+    },
+    {
+     "before": 83,
+     "kind": "h4",
+     "text": "For protecting",
+     "seq": 1
+    },
+    {
+     "before": 84,
+     "kind": "h4",
+     "text": "For guiding",
+     "seq": 2
+    }
+   ],
+   "moves": [],
+   "reads": [
+    {
+     "text": "A complete ideal parent may be impossible to imagine (unless you saw The Brady Bunch). And imagination is pretty hard for adults anyway since it kinda gets stamped out of kids at an early age, but it's not just a foolish waste of time. It's actually a genius mode unlock. So since the adult is actually a baby when it comes to power to imagine, start small: Borrow one function at a time from a figure who embodies it. Perhaps a therapist or your grandmother really cared for you. Perhaps your teacher at some age was a great guide. Maybe an older sibling protected you well. And there's always your future healed self if you can imagine that."
+    },
+    {
+     "text": "For warmth",
+     "kind": "h4",
+     "note": "Your own words, from the paragraph under it."
+    },
+    {
+     "text": "Think of someone you remember fondly. How would they sit beside your little one? Just make sure it's someone who liked you the way you were.",
+     "note": "Starts after \"For warmth\", which its heading now says."
+    },
+    {
+     "text": "For protecting",
+     "kind": "h4",
+     "note": "Your own words, from the paragraph under it."
+    },
+    {
+     "text": "Ask what a minimally competent adult would do here. Maybe something simple, like actually smelling that old food you're about to eat and then trashing it if it smells a little weird. If you're about to send an angry text, hit pause. If the room itself triggers your spidey sense, leave, or lock the door and get help. Even if this still feels like the child acting like the adult, for now, that's ok. \"Fake it til you make it\" isn't exactly it, but yeah. Afterward, you can tell your little one, \"I did that for us. That was the Protector.\" If it sounds funny, laugh!",
+     "note": "Starts after \"For protecting\", which its heading now says."
+    },
+    {
+     "text": "For guiding",
+     "kind": "h4",
+     "new": [
+      "For guiding"
+     ],
+     "note": "New words (through the owner-delivery gate)."
+    },
+    {
+     "text": "The Guide can be you too, just a calmer you. That's a lot easier to imagine than your future healed self. Think back to what (and how) you decided about something like this the last time you were calm. Or ask what the wise person you respect would have you practice today. A wise tradition (like \"What would Jesus do?\" or \"What would Buddha do?\") can give some direction, too, until you develop your own internal compass."
+    }
+   ],
+   "reads_label": "How Borrow One Competency at a Time would read",
+   "what": "Three headings over the three jobs: \"For warmth\" and \"For protecting\" (your first words, which the paragraphs now start after) and \"For guiding\".",
+   "why": "After the idea (borrow one function at a time), each paragraph is one of the three jobs, so a reader who needs one of them can go straight there.",
+   "stays": "Every sentence. If the Love Isn't Coming Yet still follows as its own subsection.",
+   "deciding": "Approve puts these headings in, and drops the first words that a heading now says. Revise to change a heading. Reject keeps the section as it is.",
+   "advice_note": "The new words passed the owner-delivery gate (three fresh reviewers).",
+   "found_by": "your idea of 2026-10-25 21:40 UTC; my proposal",
+   "approve_label": "use these headings"
+  },
+  {
+   "id": "R-helping",
+   "type": "split",
+   "title": "How Would You Know It's Helping?: its 210-word paragraph in four",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 171,
+     "start": 0,
+     "end": 1228
+    },
+    {
+     "block": 172,
+     "start": 0,
+     "end": 110
+    }
+   ],
+   "card_after": 172,
+   "edits": [
+    {
+     "block": 171,
+     "before": "Don't be afraid to ask your therapist/yourself \"What is this practice supposed to help, and how would I know if it's helping?\" This sovereign, gently curious stance should apply to everything in life. Feeling calmer or having deeper insights or explanations for the trauma response are some possible signs of initial progress, but if that's the endgame, it's just a cope. Real healing is ultimately measured by reduced need for the therapy. It's like real parenting: you might start out reading parenting books and thinking hard about what to say or do, but after a while you get into the groove and a lot of it becomes natural. Inner parenting can be like that too. You don't need to keep checking this guide or planning every conversation with your little one; the nurturing, protecting and guiding become more automatic. You might still turn to therapy when you need it, and life will keep offering chances to grow wiser and more compassionate. And if the therapy is actually working, it should improve your daily life, and especially the health of the inner child-inner adult relationship. Going at it harder isn't as useful as going at it with more wisdom and compassion. Take the parts that work, and innovate on the rest.",
+     "after": "Don't be afraid to ask your therapist/yourself \"What is this practice supposed to help, and how would I know if it's helping?\" This sovereign, gently curious stance should apply to everything in life.\n\nFeeling calmer or having deeper insights or explanations for the trauma response are some possible signs of initial progress, but if that's the endgame, it's just a cope. Real healing is ultimately measured by reduced need for the therapy.\n\nIt's like real parenting: you might start out reading parenting books and thinking hard about what to say or do, but after a while you get into the groove and a lot of it becomes natural. Inner parenting can be like that too. You don't need to keep checking this guide or planning every conversation with your little one; the nurturing, protecting and guiding become more automatic. You might still turn to therapy when you need it, and life will keep offering chances to grow wiser and more compassionate.\n\nAnd if the therapy is actually working, it should improve your daily life, and especially the health of the inner child-inner adult relationship. Going at it harder isn't as useful as going at it with more wisdom and compassion. Take the parts that work, and innovate on the rest."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "reads": [
+    {
+     "text": "Don't be afraid to ask your therapist/yourself \"What is this practice supposed to help, and how would I know if it's helping?\" This sovereign, gently curious stance should apply to everything in life."
+    },
+    {
+     "text": "Feeling calmer or having deeper insights or explanations for the trauma response are some possible signs of initial progress, but if that's the endgame, it's just a cope. Real healing is ultimately measured by reduced need for the therapy.",
+     "note": "Split from the paragraph before it."
+    },
+    {
+     "text": "It's like real parenting: you might start out reading parenting books and thinking hard about what to say or do, but after a while you get into the groove and a lot of it becomes natural. Inner parenting can be like that too. You don't need to keep checking this guide or planning every conversation with your little one; the nurturing, protecting and guiding become more automatic. You might still turn to therapy when you need it, and life will keep offering chances to grow wiser and more compassionate.",
+     "note": "Split from the paragraph before it."
+    },
+    {
+     "text": "And if the therapy is actually working, it should improve your daily life, and especially the health of the inner child-inner adult relationship. Going at it harder isn't as useful as going at it with more wisdom and compassion. Take the parts that work, and innovate on the rest.",
+     "note": "Split from the paragraph before it."
+    },
+    {
+     "text": "If these exercises start feeling like a ritual you have to complete before you're allowed to live, stop there."
+    }
+   ],
+   "reads_label": "How How Would You Know It's Helping? would read",
+   "what": "The first paragraph splits in four, at \"Feeling calmer\", \"It's like real parenting\" and \"And if the therapy is actually working\".",
+   "why": "Its first paragraph is 210 words, the longest in the guide but one: the question to ask, the signs of progress, the parenting picture, and what therapy should do for your days. Each gets its own paragraph, every sentence kept.",
+   "stays": "Every sentence, in order. The last paragraph (\"If these exercises start feeling like a ritual ...\") as it is.",
+   "deciding": "Approve splits it. Reject keeps it one paragraph.",
+   "advice_note": "No new words.",
+   "found_by": "my proposal",
+   "approve_label": "split it"
+  },
+  {
+   "id": "R-forgive",
+   "type": "split",
+   "title": "How to Forgive Without Forgetting: its last paragraph in two",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 430,
+     "start": 0,
+     "end": 512
+    },
+    {
+     "block": 431,
+     "start": 0,
+     "end": 646
+    },
+    {
+     "block": 432,
+     "start": 0,
+     "end": 854
+    }
+   ],
+   "card_after": 432,
+   "edits": [
+    {
+     "block": 432,
+     "before": "They still have to answer for what they did, and it still hurt. Seeing how they got there doesn't make it okay. It's just that punishing them now can't reach back and give them what they were missing then, the sense to see it or the help. Or the skills. What's left is fixing what can be fixed, and making it easier for something different to happen now. So a boundary can still be right. So can the law, if it comes to that, or telling them plainly it was wrong (or telling yourself, if they'd never hear it). Keeping away from them for good can be right too, and you can still forgive them from over there. Understanding somebody's limitations should make my expectations more realistic, not make those limitations less consequential. \"I understand how you became this way\" can sit right next to \"I now understand why I shouldn't rely on you for this.\"",
+     "after": "They still have to answer for what they did, and it still hurt. Seeing how they got there doesn't make it okay. It's just that punishing them now can't reach back and give them what they were missing then, the sense to see it or the help. Or the skills. What's left is fixing what can be fixed, and making it easier for something different to happen now.\n\nSo a boundary can still be right. So can the law, if it comes to that, or telling them plainly it was wrong (or telling yourself, if they'd never hear it). Keeping away from them for good can be right too, and you can still forgive them from over there. Understanding somebody's limitations should make my expectations more realistic, not make those limitations less consequential. \"I understand how you became this way\" can sit right next to \"I now understand why I shouldn't rely on you for this.\""
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "reads": [
+    {
+     "text": "For many people, healing does get around to some forgiveness eventually, or at least to not being run by the resentment anymore. It can't be put on a schedule. And you don't have to forgive first to get safe, set boundaries, hold someone accountable, get justice or get better. Then again, active resentment narrows what you see, and your little one stays organized around the injury. And if someone pressures you into forgiving early, what you get is an enlightened-looking act, with the wound gone underground."
+    },
+    {
+     "text": "The understanding that helps me is seeing how a person's conditioning, history, pain, and capacity shaped the harmful move they made. Picture everything that had made them who they were by that moment, what happened to them and what they learned, the pain they carried and what they could and couldn't handle. From in there, it was the only move they had. Hurt people often pass on pain they never worked through. You may have heard that from somebody telling you to forgive. When you see it for yourself, though, you might find yourself forgiving them, and if you've held them uniquely to blame, the rage can soften into something more accurate."
+    },
+    {
+     "text": "They still have to answer for what they did, and it still hurt. Seeing how they got there doesn't make it okay. It's just that punishing them now can't reach back and give them what they were missing then, the sense to see it or the help. Or the skills. What's left is fixing what can be fixed, and making it easier for something different to happen now."
+    },
+    {
+     "text": "So a boundary can still be right. So can the law, if it comes to that, or telling them plainly it was wrong (or telling yourself, if they'd never hear it). Keeping away from them for good can be right too, and you can still forgive them from over there. Understanding somebody's limitations should make my expectations more realistic, not make those limitations less consequential. \"I understand how you became this way\" can sit right next to \"I now understand why I shouldn't rely on you for this.\"",
+     "note": "Split from the paragraph before it."
+    }
+   ],
+   "reads_label": "How How to Forgive Without Forgetting would read",
+   "what": "The last paragraph splits before \"So a boundary can still be right.\" The order stays.",
+   "why": "Its order stays: the first paragraph says before the practice that you don't have to forgive first to get safe, set boundaries, hold someone accountable, get justice or get better, and the last answers it after. Only the last paragraph, 156 words, splits in two: that they still answer for it, and what can still be right.",
+   "stays": "Every sentence, in order.",
+   "deciding": "Approve splits it. Reject keeps it one paragraph.",
+   "advice_note": "No new words.",
+   "found_by": "my proposal",
+   "approve_label": "split it"
+  },
+  {
+   "id": "W-solomon",
+   "type": "reread",
+   "title": "Borrow Love: Solomon's paradox on the gap (your 109 A)",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 101,
+     "start": 0,
+     "end": 601
+    },
+    {
+     "block": 102,
+     "start": 0,
+     "end": 464
+    },
+    {
+     "block": 103,
+     "start": 0,
+     "end": 348
+    },
+    {
+     "block": 104,
+     "start": 0,
+     "end": 289
+    }
+   ],
+   "card_after": 104,
+   "edits": [
+    {
+     "block": 103,
+     "before": "Or put somebody you care about into your exact life, your family, all the conditions you face, and then step outside it and ask what you’d tell them as a friend. This psychological trick has a rich history around it, and even has a name, Solomon’s paradox, after the biblical king everybody brought their disputes to, who then wrecked his own life.",
+     "after": "Or put somebody you care about into your exact life, your family, all the conditions you face, and then step outside it and ask what you’d tell them as a friend. This psychological trick has a rich history around it, and the blind spot behind it even has a name, Solomon’s paradox, after the biblical king everybody brought their disputes to, who then wrecked his own life."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "reads": [
+    {
+     "text": "Sometimes it's not that you can't love in general. Your dog can chew up your good shoes and be forgiven before you've found the other one. But maybe you direct that love to your little one and the attempt goes flat, or starts to feel weirdly unsafe. Just feel that love you can feel for others for a minute, in your body, before you try to redirect anything. Then as you relax into that and enjoy it more, imagine it flowing downhill, like an overflowing river of delicious chocolate. Now imagine how happy your inner child is at the bottom of the hill to play in that chocolate love that rolled down!"
+    },
+    {
+     "text": "Watch how it lands, though. \"I care about you\" can be patient, or it can be \"I care about you, now hurry up and feel better.\" Getting close can be too much, too, the way kids squirm away from an aunt they barely know who goes in for the big hug, and then climb all over the uncle who's just sitting there. And if nothing moves at all, don't push it. Knowing that love is in you somewhere counts for a lot, and you're borrowing something you already know how to do."
+    },
+    {
+     "text": "Or put somebody you care about into your exact life, your family, all the conditions you face, and then step outside it and ask what you’d tell them as a friend. This psychological trick has a rich history around it, and the blind spot behind it even has a name, Solomon’s paradox, after the biblical king everybody brought their disputes to, who then wrecked his own life.",
+     "new": [
+      [
+       "and ",
+       "the blind spot behind it"
+      ]
+     ]
+    },
+    {
+     "text": "Then take a small piece of whatever you'd tell them and hand it to yourself. If the advice was \"get more sleep,\" then for now just try brushing your teeth before midnight instead of at two. That's how you learn as a kid, and it works now, too. The technical term for this is \"scaffolding.\""
+    }
+   ],
+   "reads_label": "How Borrow Love—or Borrow the Perspective of Care would read",
+   "what": "In your sentence, \"and even has a name\" becomes \"and the blind spot behind it even has a name\".",
+   "why": "Your 109 A: Solomon's paradox is the name of the gap the trick gets around, that people reason more wisely about other people's problems than about their own, so the name goes on that; the rest of your sentence stays.",
+   "stays": "Every other word of your sentence, and both links.",
+   "deciding": "Approve puts it in. Revise to word it your way. Reject keeps your sentence as it is.",
+   "advice_note": "The new words passed the owner-delivery gate (three fresh reviewers).",
+   "found_by": "your 109 A",
+   "approve_label": "use this wording"
+  },
+  {
+   "id": "Q-me",
+   "type": "ask",
+   "title": "Don't Give the Inner Adult Away: \"me\" in a paragraph that says \"you\"",
+   "advice": "ask",
+   "question": "Your guide's test line says \"makes me more grounded, truthful, and free\", in a paragraph that otherwise talks to \"you\". Keep \"me\", or make it \"you\"?",
+   "why": "Two fresh reviewers in turn 110 tripped on the switch. In your guide it's your first person, so it may be on purpose, as your own test.",
+   "stays": "The line as it is until you answer.",
+   "advice_note": "My pick: \"you\". As it stands the line reads like a slip, and \"you\" says the same test to the reader the paragraph is talking to.",
+   "spans": [
+    {
+     "block": 38,
+     "start": 240,
+     "end": 320
+    }
+   ]
+  }
+ ]
+}

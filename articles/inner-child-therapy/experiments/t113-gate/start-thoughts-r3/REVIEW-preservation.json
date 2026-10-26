@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "472c2d6e32145fd9045247404fcb4dd09c5031a70d484aeb5e3cc44819e8b080",
+  "context_sha256": "28b26009e68f6099ba362349a59994972a5a649dc2d0657a6739fd83b13dd24a",
+  "source_sha256": "8d7337eb1876b716d29e0f3ec3de1c9cd1c72c6650fff026d0fea3e84f372477",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r3a)",
+    "context_id": "t113-gate-preservation-r3a-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged 'Which thoughts to talk to' over 'I think a fear that keeps turning up to tell you something is worth talking to as a part of you...' and 'I wouldn't spend long deciding what to call each part, though...'. The first paragraph is that choice (a recurring fear, or a thought that sounds like your little one, versus a stray thought or reassurance-seeking worry to let go) and the second, which opens with 'though', continues it (don't over-sort; a warning heard out needn't get louder), so the heading covers both and adds no claim; the sentence 'How you picture all that...' now closes the 'If you do get an answer' paragraph, kept once and verbatim, where 'all that' has its referent. No linter findings or writer-marked rows; no tell row is actually happening (the 'talk to' shared with the first sentence is a real reader's question and its plain answer, not manufactured suspense).",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

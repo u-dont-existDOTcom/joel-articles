@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "8630ef7beb3b9270742a7d94f5445e1123ea0edf3b3673f9f1b38a4da7400e9d",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "f6be7852f8c8c07451e4a9d4d7ee8ad4aed9cc606e40f250afdce07281e992c7",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r3b)",
+    "context_id": "t113-gate-preservation-r3b-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged \"If you might be prone to mania or psychosis\" over \"Any of those reactions, from mania to paranoia, can also point to a vulnerability in you ... any predisposition toward mania or psychosis is a warning sign too, whether it's family history, a bad environment or a bad mindset\": \"prone\" is the paragraph's \"vulnerability\" and \"predisposition\", and \"might\" covers both ways in (having had those reactions, or having the predisposition), so no claim or promise is added and a skimmer in either situation would recognize the case. The mania and psychosis words echo the paragraph's own, which is the heading naming its case and not a repetition doing nothing, so I find no T26; the writer marked no row and the linter raised nothing. \"Those reactions\" still points back to the headed paragraphs just above in the same section, so the paragraph reads right under the heading.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "386bee9d0e437ee1a4810c7e2b09b922903c4b83b033c9456ec09d18834e0525",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "9046009b1a6642a243d8448914d78eea7f81f2cf1ee9072566be05a176cd80ae",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, r3b)",
+    "context_id": "t113-gate-cold-read-1-r3b-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged \"Who counts as trusted\" over \"By trusted, I mean someone you know is trustworthy from a long relationship with them, not someone people on Reddit said was super magical and healing ... A new therapist is not as trusted as an old one.\" It says what the whole paragraph is about (who to trust, with the Reddit and iboga-shaman counterexamples and the new-versus-old therapist point) and picks up \"trusted advisors\" from the paragraph just above, so it reads as the question the paragraph answers, not a repeat of it. I agree the writer's T26 (shared \"trusted\") is justified: the heading asks about the defined term and \"By trusted, I mean\" answers it, which needs the term repeated. No linter findings, and no other tell row is PRESENT.",
+  "resolved_tell_ids": [
+    "T26"
+  ],
+  "resolved_lint_labels": []
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "3d88b0a782e5429847f0ad74e6dea0351c86ad1b688f97897a6cc70d94ed43b0",
+  "context_sha256": "c2878ba5f76bec5491be41eb316bc47309e128e726ebc39195ef63ea6a756648",
+  "source_sha256": "46ccd26872f7461cb4c2891b259b938b95b561faffab905f265a08b3601c000e",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r3a)",
+    "context_id": "t113-gate-preservation-r3a-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged 'Earning its trust, day to day' over the roommate paragraph. It says what the paragraph says: 'Your Protector earns that guard's trust about the same way, mostly out in ordinary life' and 'The rent just has to keep showing up' are 'earning its trust' and 'day to day', with no promise, tone or claim added, and 'its' is the guard, as in the section's other small headings. No linter findings and none marked by the writer; I found no tell row actually happening (the heading shares only 'trust' with the paragraph's third sentence, which is the heading naming the point the roommate analogy builds to).",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

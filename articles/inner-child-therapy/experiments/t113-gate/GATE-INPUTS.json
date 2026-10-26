@@ -1,0 +1,212 @@
+{
+ "borrow-guiding": {
+  "the_change": "A case heading, \"For guiding\", over the paragraph that starts \"The Guide can be you too, just a ...\", one level below the section's heading. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "6d942e88d7a8f399fa1f97fc03d4e3dbf273ab532cb5959fe2a2389e99d5c67b",
+  "context_sha256": "e2d5a874a80509919c88f2081032c18794eac23692062dec873f85fd388ac906",
+  "source_sha256": "1cd92a53d51285058e3c3231768f946beea8d4ba1d97a7f7b5648053517a2780",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "change-different": {
+  "the_change": "A case heading, \"If your case is different\", over the paragraph that starts \"If you keep following the reparenting steps correctly ...\", one level below the section's heading. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "dc73e63bc26c706b8ee673082272a541018013343174428901f08e32691a92a4",
+  "context_sha256": "229a1de1927eb95a52aa81ba997dbbf5b805a4a9f5ed308aa4f9fb69c7faec7f",
+  "source_sha256": "85f220335b93f03fc83c7ec8af8e6be02a17cbba2e25b06ae5f56444fc550135",
+  "lint_findings": [],
+  "writer_marked_present": [
+   {
+    "id": "T26",
+    "evidence": "the heading \"If your case is different\" and \"consider if you have a unique case\" share \"case\"",
+    "reason": "The heading shares one word with the paragraph's first sentence, which is how a reader skimming for this case finds it; the sentence goes on to say something the heading doesn't (what the case means, or what to do)."
+   }
+  ]
+ },
+ "change-empty": {
+  "the_change": "A case heading, \"When the words sound empty\", over the paragraph that starts \"Maybe the words are all there, but the ...\", one level below the section's heading. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "72b693b95b17189a650234739883537c9bca6ae5c035af93d98191d5024d397f",
+  "context_sha256": "229a1de1927eb95a52aa81ba997dbbf5b805a4a9f5ed308aa4f9fb69c7faec7f",
+  "source_sha256": "91bd09232135d635fab6ec4348d9ffe1a00335a0a474ee85b5b7cdccd5531a46",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "change-relief": {
+  "the_change": "A case heading, \"If the relief doesn't last\", over the paragraph that starts \"Let's say an exercise leaves you feeling lighter ...\", one level below the section's heading. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "8fa9abc824e4ba2758560c830b68ed909d023c49cefac55bc18df88239eb930f",
+  "context_sha256": "229a1de1927eb95a52aa81ba997dbbf5b805a4a9f5ed308aa4f9fb69c7faec7f",
+  "source_sha256": "4695e5b6c1b5172ba68375e1e837404c1e66e5fd011caf7e1a2873882b3b05d8",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "change-stop": {
+  "the_change": "A case heading, \"If you'd rather stop\", over the paragraph that starts \"Not wanting to do it anymore might be ...\", one level below the section's heading. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "c31cf39de59fdc0277e5fe807e06c8aac8ca824ed1f0274841831a5132e1def7",
+  "context_sha256": "229a1de1927eb95a52aa81ba997dbbf5b805a4a9f5ed308aa4f9fb69c7faec7f",
+  "source_sha256": "85f220335b93f03fc83c7ec8af8e6be02a17cbba2e25b06ae5f56444fc550135",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "escape-confused": {
+  "the_change": "A case heading, \"Coming back confused or spaced out\", over the paragraph that starts \"Maybe nothing worse happens, but after several trips ...\", one level below the section's heading. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "2e24142ba8d5b0b1fc67d4b1ee15e56324482137a57aa9cd67d856be1fffd129",
+  "context_sha256": "51e3f09a99fdeec0000171eeb7202861bd893f68e5de9b74d9eab4c161dba9b8",
+  "source_sha256": "38b5c1a3f58f8cec1c1b4c2dda034b9348db29c2d7ed87a337685d9a2b304a84",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "escape-vulnerable": {
+  "the_change": "A case heading, \"If you might be vulnerable\", over the paragraphs that start \"Any of those reactions, from mania to paranoia, ...\", one level below the section's heading. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "9c03d922388ebedd9200b19976c9ad62fd3a8c9533165505d56cc304fc3f4264",
+  "context_sha256": "51e3f09a99fdeec0000171eeb7202861bd893f68e5de9b74d9eab4c161dba9b8",
+  "source_sha256": "d0b0567f12041227d5f630c2ed4037a7e73f925afd760c48ec4faa4d3432d071",
+  "lint_findings": [],
+  "writer_marked_present": [
+   {
+    "id": "T26",
+    "evidence": "\"vulnerable\" in the heading, \"a vulnerability in you\" in the first sentence",
+    "reason": "The heading shares one word with the paragraph's first sentence, which is how a reader skimming for this case finds it; the sentence goes on to say something the heading doesn't (what the case means, or what to do)."
+   }
+  ]
+ },
+ "guard-fault": {
+  "the_change": "A case heading, \"If it feels like it's all your fault\", over the paragraph that starts \"Blaming yourself can be doing a protective job, ...\", one level below the section's heading. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "a87d377608fdd00b4ce35b431c807f4de886bc5041a8fc5c6e7e8564ec2f245a",
+  "context_sha256": "d0429ae75ebe7a60fd65d274c5488b0ff690d6e018ac406c20d93c8811f17cec",
+  "source_sha256": "cf4cc587086208ebf0d01d2222fd625e72204fec85d02f4ce82b34fcf55839f5",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "guard-step-back": {
+  "the_change": "A case heading, \"If it won't step back\", over the paragraph that starts \"That part doesn't have to move out. It's ...\", one level below the section's heading. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "679f0166ca28c4e64373f26e5511628dab5a0e4b79db0eea5538dbfe890b726c",
+  "context_sha256": "d0429ae75ebe7a60fd65d274c5488b0ff690d6e018ac406c20d93c8811f17cec",
+  "source_sha256": "c8fa03951616c5a1fd74dd9ae677aafc8a58aa91916411258a7c69d76f478235",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "guard-trust": {
+  "the_change": "A case heading, \"Earning its trust\", over the paragraph that starts \"A new roommate doesn't win you over with ...\", one level below the section's heading. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "cf1e27f4f1bc6ede74c856f3632dbacfea58d0566e8524f54c6db6490f35445d",
+  "context_sha256": "d0429ae75ebe7a60fd65d274c5488b0ff690d6e018ac406c20d93c8811f17cec",
+  "source_sha256": "46ccd26872f7461cb4c2891b259b938b95b561faffab905f265a08b3601c000e",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "hooks-change": {
+  "the_change": "A case heading, \"Can they change?\", over the paragraphs that start \"You may not know for certain whether the ...\", one level below the section's heading. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "99743c89e1a07417827b09d3cfbeea1692ed5fda43844f40c16ef17226cf3e8f",
+  "context_sha256": "93ff6a788239ee8195fdc564ab6857199946fabbe375315882015bc573ca65fc",
+  "source_sha256": "d4f70d226d310d4f7729587efe3f0645c6b13aa92087147ac5c447d194b72060",
+  "lint_findings": [
+   {
+    "label": "B7 short landing at paragraph end",
+    "examples": [
+     "Can they change?"
+    ],
+    "writer_reason": "The linter reads the heading alone as a paragraph. It is a heading over a paragraph of five sentences, so it lands nothing."
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ],
+    "writer_reason": "A heading over its own paragraph follows that paragraph by design; nothing is reordered."
+   }
+  ],
+  "writer_marked_present": []
+ },
+ "hooks-less-safe": {
+  "the_change": "A case heading, \"Feeling less safe\", over the paragraph that starts \"If a relationship keeps making you feel less ...\", one level below the section's heading. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "83ceac4aa22698d83fb35cde99ab9808603300a78952f934d204e691ecc982a9",
+  "context_sha256": "93ff6a788239ee8195fdc564ab6857199946fabbe375315882015bc573ca65fc",
+  "source_sha256": "cbb0d4939db6c7c3243db104c454b8cadeac0c2e826aab346495d2b0a26778f5",
+  "lint_findings": [],
+  "writer_marked_present": [
+   {
+    "id": "T26",
+    "evidence": "the heading \"Feeling less safe\" and the first sentence \"If a relationship keeps making you feel less safe\" share \"less safe\"",
+    "reason": "The heading shares one word with the paragraph's first sentence, which is how a reader skimming for this case finds it; the sentence goes on to say something the heading doesn't (what the case means, or what to do)."
+   }
+  ]
+ },
+ "solomon": {
+  "the_change": "In Joel's sentence, \"and even has a name\" becomes \"and the blind spot behind it even has a name\", so the name Solomon's paradox goes on the gap the trick gets around (as the study names it), not on the trick. Every other word of his sentence stays, his curly apostrophes too.",
+  "candidate_sha256": "de1f6f21b43e7649f996731c5479c514069e86500c287a88e863e670d2ce1516",
+  "context_sha256": "1b10fdad8003bfd6fe8bd880141111e9e45e46b7761168f3482ca7ac7a072b0c",
+  "source_sha256": "61e6433d1734ed6dfd7f5da005cba9f7aed594ad91a3eea67c0b50197acba1d7",
+  "lint_findings": [
+   {
+    "label": "B4/E15 list or packed sentence",
+    "examples": [
+     "This psychological trick has a rich history around it, and the blind spot behind it even has a name, Solomon’s paradox, after the biblical king everybody brough"
+    ],
+    "writer_reason": "It is Joel's sentence, with its appositive and its relative clause, as he wrote it (\"this version passes\"); the change adds five words inside it and no clause."
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ],
+    "writer_reason": "It is his sentence with one phrase changed, so it follows his order by design."
+   },
+   {
+    "label": "O25 \"even\" or \"actually\", 1 in my text (TELLS-FROM-PANGRAM-DATA-20261007.md: they go with the failing paragraphs; \"They're words I add to sound casual, and they don't help\"): keep one only where it says something",
+    "examples": [
+     "This psychological trick has a rich history around it, and the blind spot behind it even has a name, Solomon’s paradox, after the biblical king everybody brough"
+    ],
+    "writer_reason": "The \"even\" is his (\"and even has a name\"), kept with his sentence; it says the effect is well enough known to be named."
+   },
+   {
+    "label": "O6 a candidate, to judge, not a finding: a feeling or idea doing what a person does. A neat, quotable line is the tell (\"Grief doesn't keep a schedule\"); a phrase people say all the time is not (Joel 2026-10-07 23:50: \"Modern life trains us\" is \"so common it's almost cliche, it's not a witty AI quip\"). Judge each with abstract_agents_prompt.py or by his ratings; fix only a quip, giving the action to a person with as few words changed as possible",
+    "examples": [
+     "This psychological trick has a rich history around it, and the blind spot behind it even has a name, Solomon’s paradox, after the biblical king everybody brough"
+    ],
+    "writer_reason": "No quip: \"a blind spot ... has a name\" is the ordinary way to say an effect is named, and the trick \"has a rich history\" is his."
+   }
+  ],
+  "writer_marked_present": []
+ },
+ "start-anxiety": {
+  "the_change": "A case heading, \"If it's anxiety\", over the paragraph that starts \"Anxiety is often a part of you that's ...\", one level below the section's heading. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "e881689fb53e182a7656957bf56737457ef6b9e6e7dc475ff30955843ee4be88",
+  "context_sha256": "b7154453eeba47c7804b15fe03db85fd5dfbad98102c9c76d36416a474f8e69f",
+  "source_sha256": "b72c4da0b5d946ed17d1db474df997eb05c660e328446d7c2b6534e7ef735af0",
+  "lint_findings": [],
+  "writer_marked_present": [
+   {
+    "id": "T26",
+    "evidence": "the heading \"If it's anxiety\" and the first sentence \"Anxiety is often a part of you that's trying to protect you\" share \"anxiety\"",
+    "reason": "The heading shares one word with the paragraph's first sentence, which is how a reader skimming for this case finds it; the sentence goes on to say something the heading doesn't (what the case means, or what to do)."
+   }
+  ]
+ },
+ "start-says-no": {
+  "the_change": "A case heading, \"If a part says no\", over the paragraph that starts \"If a part hesitates about being touched or ...\", one level below the section's heading. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "3047bcff0bedd8458e0210c80032b07198924913d266d4cd90426606c460a141",
+  "context_sha256": "b7154453eeba47c7804b15fe03db85fd5dfbad98102c9c76d36416a474f8e69f",
+  "source_sha256": "51981a84aa8051bfe477cda33a5ee1148420832a31558c056c9809a8d82d0fd6",
+  "lint_findings": [],
+  "writer_marked_present": [
+   {
+    "id": "T26",
+    "evidence": "the heading \"If a part says no\" and the first sentence \"If a part hesitates ... or says no to going deeper\" share \"a part\" and \"says no\"",
+    "reason": "The heading shares one word with the paragraph's first sentence, which is how a reader skimming for this case finds it; the sentence goes on to say something the heading doesn't (what the case means, or what to do)."
+   }
+  ]
+ },
+ "start-thoughts": {
+  "the_change": "A case heading, \"Which thoughts to talk to\", over the paragraphs that start \"How you picture all that is up to ...\", one level below the section's heading. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "472c2d6e32145fd9045247404fcb4dd09c5031a70d484aeb5e3cc44819e8b080",
+  "context_sha256": "b7154453eeba47c7804b15fe03db85fd5dfbad98102c9c76d36416a474f8e69f",
+  "source_sha256": "8d7337eb1876b716d29e0f3ec3de1c9cd1c72c6650fff026d0fea3e84f372477",
+  "lint_findings": [],
+  "writer_marked_present": []
+ },
+ "therapist-ifs": {
+  "the_change": "A case heading, \"IFS and Schema Therapy\", over the paragraph that starts \"The best licensed, listed therapists you'll find that ...\", one level below the section's heading. It must say what the part under it is about, in words a reader skimming for their own situation would recognize, and add no claim the paragraphs don't make.",
+  "candidate_sha256": "f409e477454ee99830ab7fbc4238620303ffe1a1ce9dedec99672beb65df2566",
+  "context_sha256": "216e3b6fdcf888265c22f0e0b3359e9657b9f36552bbc03a81ed39b7e3415080",
+  "source_sha256": "6e56039236c961139385d43fc572966b310754cabdcc734a5f70d82398841f18",
+  "lint_findings": [],
+  "writer_marked_present": []
+ }
+}

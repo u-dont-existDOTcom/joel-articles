@@ -1,0 +1,22 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "3047bcff0bedd8458e0210c80032b07198924913d266d4cd90426606c460a141",
+  "context_sha256": "b7154453eeba47c7804b15fe03db85fd5dfbad98102c9c76d36416a474f8e69f",
+  "source_sha256": "51981a84aa8051bfe477cda33a5ee1148420832a31558c056c9809a8d82d0fd6",
+  "verdict": "FAIL",
+  "unresolved": [
+    "Omits 'hesitates': the paragraph says to stop at a hesitation, so a reader whose part only hesitates would skip a heading about a no.",
+    "Omits what the part hesitates or says no about (touch, sex, going deeper, altered states), so it reads as any no and cannot be told apart at a skim from 'If it's anxiety' directly above it (where the advice is to go see).",
+    "Writer's T26 not accepted: 'a part' and 'says no' are the generic words, and the specific ones that would help a skimmer find the paragraph are the ones cut.",
+    "Better heading: \"If a part hesitates or says no to touch, sex or going deeper\"."
+  ],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, half1)",
+    "context_id": "t113-gate-preservation-half1-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "I judged \"If a part says no\" over \"If a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state, I'd stop there and not test it, even when it sounds like a prediction.\" The heading keeps the generic words and cuts out what a skimmer needs: hesitation (the paragraph says to stop at a hesitation, not only at a no) and touch, sex, going deeper and altered states, which are the paragraph's whole scope, so it reads as covering any no while sitting directly under \"If it's anxiety\", where the advice is the opposite (go see), with nothing in it to tell the two apart. There are no linter findings; the writer's T26 (\"a part\", \"says no\") is not accepted, because the shared words are the generic ones and carry nothing a skimmer could match.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

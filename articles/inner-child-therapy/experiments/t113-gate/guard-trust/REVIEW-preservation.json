@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "cf1e27f4f1bc6ede74c856f3632dbacfea58d0566e8524f54c6db6490f35445d",
+  "context_sha256": "d0429ae75ebe7a60fd65d274c5488b0ff690d6e018ac406c20d93c8811f17cec",
+  "source_sha256": "46ccd26872f7461cb4c2891b259b938b95b561faffab905f265a08b3601c000e",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, half1)",
+    "context_id": "t113-gate-preservation-half1-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "I judged \"Earning its trust\" over \"A new roommate doesn't win you over with a speech on move-in day (hopefully, right?)... Your Protector earns that guard's trust about the same way...\": it names what the paragraph is about in the paragraph's own terms and promises nothing beyond what the paragraph says. \"Its\" is anchored by the guard in the section title and the neighbouring headings (C02 checked), and \"trust\" is a heading echo that helps a skimmer (T26-type, justified). It is a topic label where its siblings are conditionals, which suits a paragraph of general advice rather than a case. There are no linter findings and no writer-marked rows, and no other tell row is happening.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

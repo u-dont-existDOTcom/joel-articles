@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "ffebd06a71cc397951fc449be3dfb6a5e56737db2cf028eef44d7ecc785b5325",
+  "context_sha256": "3692d0104051982a3ab977fa7b4de463c609bfe4380125b0754f500814a09c43",
+  "source_sha256": "51981a84aa8051bfe477cda33a5ee1148420832a31558c056c9809a8d82d0fd6",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r2a)",
+    "context_id": "t113-gate-cold-read-2-r2a-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "I judged \"When to stop\" over \"If a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state, I'd stop there and not test it, even when it sounds like a prediction.\": the paragraph opens on the stopping condition, so the heading's promise is kept at once, and the heading claims nothing the sentence doesn't (it does not say these are the only reasons to stop). \"Not test it, even when it sounds like a prediction\" leans on the anxiety paragraph just above (\"a guess about what's coming\", \"I'd go see\"), which reads in order and is still intelligible to a skimmer who skipped it, so the heading does not strand the line. There are no linter findings and no PRESENT rows (the \"stop\" echo is the heading's job), and with the section's other headings the set reads as notes, not a taxonomy.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

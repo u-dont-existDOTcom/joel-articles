@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "6d942e88d7a8f399fa1f97fc03d4e3dbf273ab532cb5959fe2a2389e99d5c67b",
+  "context_sha256": "3313300f4f65baf091480c7b358949be64681864e3d8a56a6b0de04cd6524813",
+  "source_sha256": "1cd92a53d51285058e3c3231768f946beea8d4ba1d97a7f7b5648053517a2780",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r3b)",
+    "context_id": "t113-gate-preservation-r3b-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged \"For guiding\" over \"The Guide can be you too, just a calmer you ... Or ask what the wise person you respect would have you practice today. A wise tradition ... can give some direction, too, until you develop your own internal compass\": it names the function the paragraph borrows (the Guide), in the same \"For ...\" form as \"For warmth\" and \"For protecting\" under \"Borrow One Competency at a Time\", and adds no claim, tone or promise. The linter raised nothing and the writer marked no row; the three-part \"For ...\" pattern is the section's own structure, not a taxonomy the heading adds, so I find no tell row happening.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

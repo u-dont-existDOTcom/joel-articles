@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "386bee9d0e437ee1a4810c7e2b09b922903c4b83b033c9456ec09d18834e0525",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "9046009b1a6642a243d8448914d78eea7f81f2cf1ee9072566be05a176cd80ae",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r3e)",
+    "context_id": "t113-gate-cold-read-2-r3e-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "I judged 'Who counts as trusted' over 'By trusted, I mean someone you know is trustworthy from a long relationship with them, not someone people on Reddit said was super magical and healing': it labels what the paragraph delivers (the definition, then the Sidney anecdote, the new-therapist line and the proverb as applications), adds no claim, and sits right under the line it answers, 'get help from trusted advisors', so 'trusted' has its antecedent in place (and a skimmer who skipped that paragraph still gets 'someone you know is trustworthy' in the first clause). There are no linter findings; the writer's T26 (heading and first sentence share 'trusted') is only on the surface, since the sentence is the definition of that very word and the heading is its label, so I accept it as justified, and I checked T24 and T19 and find neither (the heading asks the question the line above raises and the paragraph answers it, and it labels rather than announces). Together with the section's other six headings it reads as a set of Joel's own cases in his order, not a taxonomy.",
+  "resolved_tell_ids": ["T26"],
+  "resolved_lint_labels": []
+}

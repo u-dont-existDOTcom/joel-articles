@@ -1,0 +1,21 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "cac25a9e9bf810511ad78183afad1cf59f382cdaefb8b6fc6790016b7498c184",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "d35df71bbcdcfa7c759777546dac2e3670a089f46174b8b61365b9d70cae92d6",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r3d)",
+    "context_id": "t113-gate-cold-read-2-r3d-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged \"Is your paranoia a warning sign?\" over \"Paranoia during a rough trip can be a warning sign for psychosis, but it doesn't automatically lead there\" and the split-off \"If you can't clearly understand what happened yourself, get someone qualified to help\": the heading is the reader's own question and the paragraph answers it (can be, depending on practicality, with the CIA examples), and \"what happened\" in the second part keeps its antecedent in the paranoid rough trip above, so it reads as the next step when you can't tell which kind yours was; no claim is added, and \"of psychosis\" is left to the first sentence, which the section's framing makes clear (a reader who skips this heading as not paranoid would miss those two get-help lines, but that is where Joel's paragraph holds them). I accept all three linter findings (B7 reads a heading as a paragraph ending, D9 reflects nothing reordered, E36/E41 is one \"your\" in six words, like the section's other \"you\" headings) and agree with the kept T26, since the shared \"paranoia\" and \"warning sign\" are a question and its answer, and the sentence adds the qualification the heading can't. T24 is absent (a reader's real question given a qualified answer, no suspense), and the section's seven mixed-form headings read as natural cautions in Joel's order.",
+  "resolved_tell_ids": ["T26"],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order",
+    "E36/E41 heavy second person"
+  ]
+}

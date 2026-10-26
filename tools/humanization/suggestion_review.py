@@ -37,8 +37,9 @@ REVIEW.json (the lane's build script writes it; see find_quote, block_text and c
       the same paragraphs, optional),
       "approve_label" (optional: "cut it", "use this wording", ...),
       "decided" (optional): {"status": "approved"|"rejected"|"revise", "text", "comment", "by", "at"},
-      "reads" (optional): [{"text": a paragraph as it would read, "new": [its new words: a string found once, or [the
-                 words just before, the new words], found once together], "note"}]   the
+      "reads" (optional): [{"text": a paragraph as it would read, "kind" (optional: "p", or "h2".."h4" for a new heading,
+                 shown with its Markdown #s so a paste keeps it a heading), "new": [its new words: a string found once,
+                 or [the words just before, the new words], found once together], "note"}]   the
                  whole passage as it would read, for a section in a new order; the card shows it in place of the edits
                  and moves, which stay for the check and the record ("reads_label" names it),
       "card_after" (optional): the block the card sits after (else the first span's)},
@@ -69,7 +70,7 @@ from html_links import join_split_links  # noqa: E402  (a pasted post card's lin
 TEMPLATE = HERE / 'suggestion_review_template.html'
 FORM_CSS = ROOT / 'project-sources' / 'review-form-controls.css'
 FORMAT = 'joel-suggestion-review-v1'
-GENERATOR = 'suggestion_review.py 1.1 (2026-10-25)'
+GENERATOR = 'suggestion_review.py 1.2 (2026-10-25)'
 ID_OK = re.compile(r'^[A-Za-z0-9][A-Za-z0-9.\-]{0,80}$')
 LINK = re.compile(r'\[([^\]]+)\]\(([^)\s]+)\)')
 EMPH = re.compile(r'(?<![\w*])\*([^*\s][^*]*?)\*(?!\*)')
@@ -285,6 +286,8 @@ def check(review, bl):
             if not (r.get('text') or '').strip():
                 probs.append('%s: a reads paragraph with no text' % sid)
                 continue
+            if r.get('kind', 'p') not in ('p', 'h1', 'h2', 'h3', 'h4'):
+                probs.append('%s: a reads item\'s kind must be "p" or "h1" to "h4"' % sid)
             for w in r.get('new', []):
                 whole = ''.join(w) if isinstance(w, list) else w
                 if not whole or r['text'].count(whole) != 1:
@@ -387,14 +390,26 @@ def sides(before, after):
     return ''.join(now), ''.join(new)
 
 
+def reads_mark(r):
+    """A reads item's Markdown heading mark ("#### "), or "" for a paragraph: the page shows it, so a heading pasted into
+    a chat stays a heading, and his Revise box gets the same text (turn 113: the case headings)."""
+    k = r.get('kind', 'p')
+    return '#' * int(k[1]) + ' ' if k != 'p' else ''
+
+
 def reads_html(s):
-    """The passage as it would read (REVIEW "reads"), one clean paragraph each, its new words marked."""
+    """The passage as it would read (REVIEW "reads"), one clean paragraph or heading each, its new words marked."""
     rows = []
     for r in s['reads']:
         t = esc(r['text'])
         for w in r.get('new', []):
             lead, words = (w[0], w[1]) if isinstance(w, list) else ('', w)
             t = t.replace(esc(lead + words), esc(lead) + '<ins>%s</ins>' % esc(words), 1)
+        k = r.get('kind', 'p')
+        if k != 'p':
+            rows.append('<p class="rd rd-h rd-%s"><span class="rd-hm">%s</span>%s</p>' % (k, esc(reads_mark(r)), t)
+                        + ('<div class="rd-note">%s</div>' % esc(r['note']) if r.get('note') else ''))
+            continue
         rows.append('<p class="rd">%s</p>' % t + ('<div class="rd-note">%s</div>' % esc(r['note']) if r.get('note') else ''))
     return ('<div class="chg"><div class="chg-k">%s</div><div class="reads">%s</div></div>'
             % (esc(s.get('reads_label') or 'How it would read'), ''.join(rows)))
@@ -649,7 +664,7 @@ def marker_html(s, ins, bl, types):
 def proposed_text(s, bl):
     """The text his Revise box starts from: my version of every block the suggestion changes."""
     if s.get('reads'):
-        return '\n\n'.join(r['text'] for r in s['reads'])
+        return '\n\n'.join(reads_mark(r) + r['text'] for r in s['reads'])
     parts = []
     for ins in s.get('inserts', []):
         parts.append(('#' * int(ins['kind'][1]) + ' ' if ins['kind'] != 'p' else '') + ins['text'])

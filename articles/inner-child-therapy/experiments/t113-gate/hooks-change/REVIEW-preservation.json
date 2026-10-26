@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "99743c89e1a07417827b09d3cfbeea1692ed5fda43844f40c16ef17226cf3e8f",
+  "context_sha256": "93ff6a788239ee8195fdc564ab6857199946fabbe375315882015bc573ca65fc",
+  "source_sha256": "d4f70d226d310d4f7729587efe3f0645c6b13aa92087147ac5c447d194b72060",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, half2)",
+    "context_id": "t113-gate-preservation-half2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "\"Can they change?\" over \"You may not know for certain whether the other person is or could be capable of a healthier response, and neither do they. If they promise to change, ...\" is the question a reader in this situation asks, and the paragraph answers it the way Joel does (not knowable for certain, promises count for little, keep a realistic boundary), so the heading adds no verdict, tone or promise; \"they\" is anchored by the section title and the paragraphs above, and T24 is absent because the question is the reader's own, answered with uncertainty and not held for suspense. B7 is the linter reading the one-line heading as a paragraph ending, and D9 is a heading following its own paragraph by design (T13 and T09 do not apply to a heading); neither is a problem here. The bare Substack note link under the paragraph is not in the source text, so I could not judge it.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order"
+  ]
+}

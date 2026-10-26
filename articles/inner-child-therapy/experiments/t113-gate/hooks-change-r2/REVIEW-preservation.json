@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "99743c89e1a07417827b09d3cfbeea1692ed5fda43844f40c16ef17226cf3e8f",
+  "context_sha256": "c4562c19421068d2f176dd164dc6a96caba7800dc60016ba9b88c45b2e1113c0",
+  "source_sha256": "d4f70d226d310d4f7729587efe3f0645c6b13aa92087147ac5c447d194b72060",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r2)",
+    "context_id": "t113-gate-preservation-r2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "'Can they change?' is the reader's real question and the first sentence answers it flatly and honestly ('You may not know for certain whether the other person is or could be capable of a healthier response, and neither do they'), so the heading promises no more than the paragraph gives, and 'they' is anchored by the section about the other person; the paragraph and the Substack link match SOURCE exactly. Lint 'B7 short landing at paragraph end': the linter read the heading as a paragraph, but it is a heading over a five-sentence paragraph and lands nothing, so I accept the writer's reason. Lint 'D9 follows the source order': a heading over its own paragraph follows it by design, accepted; no tell row is happening (the question is not T24 suspense, since the answer is flat and the question is the reader's).",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": ["B7 short landing at paragraph end", "D9 follows the source order"]
+}

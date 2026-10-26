@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "72b693b95b17189a650234739883537c9bca6ae5c035af93d98191d5024d397f",
+  "context_sha256": "229a1de1927eb95a52aa81ba997dbbf5b805a4a9f5ed308aa4f9fb69c7faec7f",
+  "source_sha256": "91bd09232135d635fab6ec4348d9ffe1a00335a0a474ee85b5b7cdccd5531a46",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, half1)",
+    "context_id": "t113-gate-cold-read-1-half1-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged “When the words sound empty” over “Maybe the words are all there, but the loving grown-up behind them isn’t, not yet.” A skimmer who says comforting things to their little one and feels nothing behind them would recognize it: the heading names the symptom and the sentence supplies the cause, so they do not say the same thing twice, and “sound empty” is the same idea as “the loving grown-up behind them isn’t” without adding a claim. It reads in Joel’s plain register and varies the “If” run of its neighbors. No linter findings and no tell row actually happening; the shared word “words” is a locator, not T26.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

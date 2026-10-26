@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "a87d377608fdd00b4ce35b431c807f4de886bc5041a8fc5c6e7e8564ec2f245a",
+  "context_sha256": "d0429ae75ebe7a60fd65d274c5488b0ff690d6e018ac406c20d93c8811f17cec",
+  "source_sha256": "cf4cc587086208ebf0d01d2222fd625e72204fec85d02f4ce82b34fcf55839f5",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 1 reviewer, half1)",
+    "context_id": "t113-gate-cold-read-1-half1-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "Judged “If it feels like it’s all your fault” over “Blaming yourself can be doing a protective job, too. “It’s all my fault” might be your parent’s line, word for word.” The heading names the felt thought in a reader’s own words and the paragraph then says what that blame may be doing, so they do not repeat each other; the shared “all (my/your) fault” is the heading locating the quoted line, not a T26 repetition. The first “it” is a little loose beside the neighboring “If it …” headings about the guard, but both readings land on this paragraph. No claim added, no linter findings, no tell row actually happening.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

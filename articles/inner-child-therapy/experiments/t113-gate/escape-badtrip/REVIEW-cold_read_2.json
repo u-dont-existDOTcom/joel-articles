@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "e2a6aa0c823e92a414445792821a6e437a0e78f2602fb55e2b90125ab7db3739",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "5ab0673e33ac7e7abf3d20d9f01818125c9d6a06105687db5613fb0d3c214792",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold read 2 reviewer, r3d)",
+    "context_id": "t113-gate-cold-read-2-r3d-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged \"If a past trip went badly\" over \"If you go manic, psychotic (...), get super paranoid, or end up worse afterward than before, those are signs to reconsider trying the same thing again\": \"past\" and \"went badly\" match \"trying the same thing again\", \"why that happened\" and the four outcomes listed, \"trip\" is the section's own word (\"a rough trip\", \"several trips\"), and the heading now anchors \"the same thing\" as the cut \"Your own drug history matters too.\" did, so only its \"too\" bridge is lost (Joel's call on the sheet). No linter findings or PRESENT rows were given and I find none (T26: the heading shares only \"If\" with the sentence, whose \"If\" spells out what \"badly\" means rather than repeating it; T06 and T22 do not occur in a plain label). With the section's other six headings (\"If...\", a question, \"Before...\", two \"Who/What\" phrases, in Joel's paragraph order) it reads as a natural run of cautions, not a coverage taxonomy.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

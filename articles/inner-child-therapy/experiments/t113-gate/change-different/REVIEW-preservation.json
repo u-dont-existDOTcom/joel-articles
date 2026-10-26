@@ -1,0 +1,22 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "dc73e63bc26c706b8ee673082272a541018013343174428901f08e32691a92a4",
+  "context_sha256": "229a1de1927eb95a52aa81ba997dbbf5b805a4a9f5ed308aa4f9fb69c7faec7f",
+  "source_sha256": "85f220335b93f03fc83c7ec8af8e6be02a17cbba2e25b06ae5f56444fc550135",
+  "verdict": "FAIL",
+  "unresolved": [
+    "Heading states the paragraph's conclusion ('a unique case'), not the reader's situation; it omits the trigger a skimmer recognizes: following the steps correctly and still not getting the expected results.",
+    "'Different from what?' is left open, and a reader who is doing it right and getting nowhere is likelier to think 'I'm doing it wrong' than 'my case is different', so the paragraph meant for them can be skipped; the label is generic enough to head any last paragraph (T11 lead).",
+    "Writer's T26 not accepted: the only shared word, 'case', is generic and gives a skimmer nothing to match.",
+    "Better heading: \"If you're following the steps and still not getting results\"."
+  ],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, half1)",
+    "context_id": "t113-gate-preservation-half1-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-25"
+  },
+  "evidence": "I judged \"If your case is different\" over \"If you keep following the reparenting steps correctly without getting the expected results, consider if you have a unique case these steps don't match yet.\" The heading names the paragraph's conclusion (a unique case) rather than the situation a skimmer is in (following the steps correctly and still not getting results), so \"different from what?\" stays open and a reader who is doing it right and getting nowhere may skip it, while its siblings (\"When the words sound empty\", \"If the relief doesn't last\", \"If you'd rather stop\") all name what the reader is going through. There are no linter findings; the writer's T26 (\"case\" shared with \"unique case\") is not accepted, since that one shared word is the generic one and gives a skimmer nothing to match. Outside the heading, the split drops Joel's \"And\" from \"And if you keep following\", a one-word change the whitelist should record.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

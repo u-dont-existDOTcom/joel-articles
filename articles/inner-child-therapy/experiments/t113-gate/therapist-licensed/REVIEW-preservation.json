@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "2882bcf25bbe59219dc2e20459ecf7c805ff36cf1f578299c9e2c0f2ae8a3114",
+  "context_sha256": "2b4b896af65c432b1eb408cf8febe70e2902a869fcb92253776b26ff55b6bf43",
+  "source_sha256": "6e56039236c961139385d43fc572966b310754cabdcc734a5f70d82398841f18",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r3b)",
+    "context_id": "t113-gate-preservation-r3b-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged \"If you want a licensed therapist\" over \"The best licensed, listed therapists you'll find that come close will be doing Internal Family Systems (IFS), or Schema Therapy ... Open Path Collective (or a similar resource in your country) lists thousands of affordable therapists. You can filter them by Schema or IFS\": the paragraph is the answer for a reader who wants a licensed therapist (which modalities come closest, where to search and filter), and the heading is the counterpart of the paragraph above it, which says reparenting therapists often are not licensed. It promises no more than the paragraph's own \"come close\" and adds no claim or tone. The linter raised nothing and the writer marked no row; the repeated \"licensed\" is the contrast with the paragraph above, not an empty repeat, so no tell row is happening.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "e2a6aa0c823e92a414445792821a6e437a0e78f2602fb55e2b90125ab7db3739",
+  "context_sha256": "54fd37748fb5754a264a7dd9d8ee23b022e3e27d2f00690745416b9da10e6a1b",
+  "source_sha256": "5ab0673e33ac7e7abf3d20d9f01818125c9d6a06105687db5613fb0d3c214792",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer, r3b)",
+    "context_id": "t113-gate-preservation-r3b-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 113, 2026-10-26"
+  },
+  "evidence": "Judged \"If a past trip went badly\" against the source \"Your own drug history matters too. If you go manic, psychotic (...), get super paranoid, or end up worse afterward than before, those are signs to reconsider trying the same thing again\": \"past\" carries the drug-history sentence that leaves the paragraph, and \"went badly\" covers the whole manic, psychotic, paranoid or worse-afterward list and the advice to work out why and not repeat it until it is safe, with no claim, tone or promise added. \"Trip\" is the section's own word (\"rough trip\", \"trips\", \"mindset and setting\"), and the paragraph now opens \"If you go manic\" right under the heading, which spells out what \"badly\" means instead of repeating it. The linter raised nothing and the writer marked no row; I found no tell row happening in the heading.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}
