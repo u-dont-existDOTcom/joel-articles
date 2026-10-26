@@ -269,7 +269,10 @@
    "where": "Don’t Give the Inner Adult Away",
    "waits_for": "his word on question 52",
    "must_contain": [
-    "But they can know things you don't and still be wrong about you. The test is whether the relationship makes me more grounded, truthful, and free."
+    "But they can know things you don't and still be wrong about you. The test is whether the relationship makes you more grounded, truthful, and free."
+   ],
+   "history": [
+    "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): Q-me answered \"you\", so the strings are the current ones (entry joel-114-20261026)."
    ]
   },
   {
@@ -439,7 +442,7 @@
    "what": "The relationship item leaves P1 of Not Every Hero Wears A Cape. Joel's meditation takes the place of \"leave it\" and the self-love reason, as its own paragraph in Also Look Outward after his Substack note (Claude's call on where; Joel wondered whether it \"might deserve its own section\"). The link on \"a relationship\" is his romance guide. Two words changed from his wording, both logic fixes Claude reported: \"feel less safe\" (was \"less safe\"), and \"And\" dropped at the paragraph's start. 2026-10-07 23:18: Joel rewrote the paragraph (entry also-look-outward-run-joel).",
    "joel": "2026-09-30 03:29 UTC: \"ok but now i'm rethinking the \\\"underlying reason your in it\\\" part because i'm remembering [a past relationship] [...] So now the advice to leave the relationship becomes more tricky with that in mind. I can't say she should have left me or not left me... it just depends on how things were going for her at the time. [...] Maybe instead of \\\"leave it\\\" and explaining why youre in it, just say, \\\"meditate on why it makes you feel unsafe, and what keeps you in it, and whether either may be due to a lack of the healed inner child/inner adult relationship.\\\" Although that might deserve its own section, idk. I also have a romance guide i could link to at romance.u-dont-exist.com (link works even if not for you).\"",
    "must_contain": [
-    "If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it."
+    "Meditate on why it makes you feel unsafe, and what keeps you in it."
    ],
    "must_not_contain": [
     "The underlying reason you're in it anyway",
@@ -448,8 +451,8 @@
    "order": [
     "prepared for their failure to meet them.",
     "https://substack.com/profile/355021294-u-dont-existcom/note/c-349048098",
-    "If a relationship keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it.",
-    "If you really did hurt them, repair it."
+    "Meditate on why it makes you feel unsafe, and what keeps you in it.",
+    "Repair it. Easier said than done, but"
    ],
    "must_link": [
     {
@@ -457,14 +460,20 @@
      "url": "https://romance.u-dont-exist.com"
     }
    ],
-   "order_note": "Turn 78: order updated for Joel's question 70: A (2026-10-21 00:49 UTC): these paragraphs moved with Other Folks Also Have Hooks to Borrowed Adulthood in Relationship, after Building Trust, so Not Every Hero Wears A Cape is no longer after them."
+   "order_note": "Turn 78: order updated for Joel's question 70: A (2026-10-21 00:49 UTC): these paragraphs moved with Other Folks Also Have Hooks to Borrowed Adulthood in Relationship, after Building Trust, so Not Every Hero Wears A Cape is no longer after them.",
+   "history": [
+    "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-hooks approved: the paragraph starts after its heading, his \"If a relationship keeps making you feel less safe\", so the strings are the current ones (entry joel-114-20261026)."
+   ]
   },
   {
    "id": "rel-danger-line",
    "status": "claim",
    "what": "The relationship paragraph keeps a danger condition (Claude's addition, built on Joel's \"which is not a small thing at all, I know\"). Danger goes by what the other person actually did, once is enough, and old stuff stirred up too doesn't cancel it (turn 6, after all three push-level reviews raised it).",
    "must_contain": [
-    "But if they've actually hurt or threatened you, even once, old stuff or not, get safe first, which is not a small thing at all, I know."
+    "Even once, old stuff or not, get safe first, which is not a small thing at all, I know."
+   ],
+   "history": [
+    "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-hooks approved: the danger line is its own paragraph under his \"If they've actually hurt or threatened you\", so the strings are the current ones (entry joel-114-20261026)."
    ]
   },
   {
@@ -1056,9 +1065,12 @@
    "must_contain": [
     "If the love still isn't coming, you can at least stop judging your little one.",
     "That's enough to start being the adult, even if it isn't enough yet for them to trust you.",
-    "For warmth, think of someone you remember fondly.",
+    "Think of someone you remember fondly.",
     "remember watching Mr. Rogers or Sesame Street?",
     "Some people also know a love that's a whole different size, like God's"
+   ],
+   "history": [
+    "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-borrow approved: the warmth paragraph starts after its heading, his \"For warmth\", so the strings are the current ones (entry joel-114-20261026)."
    ]
   },
   {
@@ -1080,15 +1092,17 @@
    "must_contain_exact": [
     "I wouldn't spend long deciding what to call each part, though. Every part of you learns from how the others treat it, your little one included. A part of you that's trying to protect you might warn you about something, and when you hear it out, it doesn't have to get any louder.",
     "You can tell that part something like, \"I see you. I'm not going to force my way past you. What's going on?\" Or however you'd actually say that. Then wait and listen patiently.",
-    "If nothing comes, that's fine for now. No need to answer for that part just because you'd set this up as a healing session. Even without the answer, you can notice what sets the reaction off, and you can understand what the reaction is propelling you toward, and away from.",
-    "Or if you do get an answer, it could come in different forms, like as a voice or just a hunch. It's often more like a feeling. Maybe grief or anger. If so just listen and be present for it if that's what it wants. If it tells you to do something, I'd only do it if it's loving and leaves you free. It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and you've checked it against what you actually know."
+    "That's fine for now. No need to answer for that part just because you'd set this up as a healing session. Even without the answer, you can notice what sets the reaction off, and you can understand what the reaction is propelling you toward, and away from.",
+    "It could come in different forms, like as a voice or just a hunch. It's often more like a feeling. Maybe grief or anger. If so just listen and be present for it if that's what it wants. How you picture all that is up to you, as long as it helps, and the simpler the better.",
+    "I'd only do it if it's loving and leaves you free. It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and you've checked it against what you actually know."
    ],
    "must_not_contain": [
     "That part learns it has to shout when nobody listens"
    ],
    "history": [
     "2026-10-23 (turn 103): strings updated for his answers of 21:52 UTC (entry joel-103-20261023).",
-    "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): 104 A, reshape_t109.py: his P4 is two runs now: his line to say and \"Then wait and listen patiently.\" close the plain path, and his \"If nothing comes\" lines are their own paragraph, next to his \"Or if you do get an answer\". Every sentence is still required word for word."
+    "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): 104 A, reshape_t109.py: his P4 is two runs now: his line to say and \"Then wait and listen patiently.\" close the plain path, and his \"If nothing comes\" lines are their own paragraph, next to his \"Or if you do get an answer\". Every sentence is still required word for word.",
+    "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-start approved: \"If nothing comes,\" became the heading \"If no answer comes\", \"Or if you do get an answer,\" and \"If it tells you to do something,\" are headings, and \"How you picture all that is up to you ...\" moved up to the end of the answer paragraph, so the strings are the current ones (entry joel-114-20261026)."
    ]
   },
   {
@@ -1098,10 +1112,13 @@
    "joel": "2026-10-03 16:16 UTC: \"you suggested ending sentence is good\"; \"look here's the mininal fix. i'm not saying to make oh my gosh into a rule but just see how it can break up the marching order of code instructions translated to english ok? this is human med conf\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
-    "For some people it only stops feeling fake in an altered state, like on MDMA or deep in meditation. All of a sudden your little one is right there! Oh my gosh! And the love or grief that sounded like therapy talk is just obvious. Old memories might come up too. They can feel totally real, but that alone doesn't prove they happened. I'd still hang on to what you felt, even once it's gone, and try to bring a little of it into your normal life. You've felt that your little one is real now, so talking to them afterward isn't just pretending."
+    "Like on MDMA or deep in meditation. All of a sudden your little one is right there! Oh my gosh! And the love or grief that sounded like therapy talk is just obvious. Old memories might come up too. They can feel totally real, but that alone doesn't prove they happened. I'd still hang on to what you felt, even once it's gone, and try to bring a little of it into your normal life. You've felt that your little one is real now, so talking to them afterward isn't just pretending."
    ],
    "must_not_contain": [
     "like on mushrooms"
+   ],
+   "history": [
+    "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-fake approved: his first clause is the heading \"For some people it only stops feeling fake in an altered state\", so the strings are the current ones (entry joel-114-20261026)."
    ]
   },
   {
@@ -1175,7 +1192,7 @@
     "A harder voice can seem more fitting for something that's been in your way. I'd still keep the Nurturer voice. If that voice isn't there in you yet, borrow it from someone who's been safe for you.",
     "A new roommate doesn't win you over with a speech on move-in day (hopefully, right?). The rent just has to keep showing up. Your Protector earns that guard's trust about the same way, mostly out in ordinary life. The things you do can be small, like keeping a promise to yourself nobody else knew about. Or saying no to someone, and not texting an hour later to take it back. That second one can be really hard.",
     "That part doesn't have to move out. It's been living there way longer than the grown-up you. It can keep watch while you take one small step toward your little one. I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it all off if things got to be too much. It doesn't have to be all or nothing, either. Maybe it would settle for a lighter cover for now, like blinds tilted open a crack, and let you peek out for a minute (ST-CA, section 9.3.4). If it says no, I'd listen. When it lets you, keep an eye on that part too, for any change at all.",
-    "If it's been calling all this stupid, it might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, \"You don't have to hope yet, I'll keep coming back even when I mess up.\" Sometimes it doesn't say anything back for a while.",
+    "It might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, \"You don't have to hope yet, I'll keep coming back even when I mess up.\" Sometimes it doesn't say anything back for a while.",
     "Blaming yourself can be doing a protective job, too. \"It's all my fault\" might be your parent's line, word for word. Then again, if it's your fault, maybe you can fix it before they leave. I'd stop the cruelty either way. And I'd get curious about what makes it so hard to give up."
    ],
    "order": [
@@ -1196,7 +1213,8 @@
     "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): reshape_t109c.py, the third try after P1 without the reason read 28% AI: \"It puts you into the role of the Nurturer, which alleviates the instinct to argue back.\" follows the question in P1, and his reply line stays in P3.",
     "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): reshape_t109d.py, the fourth try: each of P1 and P3 had read Human alone only with his reason line in it, so P1 takes back the harder-voice case, as his own P1 had it, and P2 is the performance paragraph that read Human alone in the second try.",
     "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): reshape_t109e.py, back to the second try's arrangement after four tries, my pick on the review page: his reply and its reason together in P3, the plain path short in P1.",
-    "Turn 111 (his answers of 2026-10-25 20:08 UTC, experiments/t111-answers/ANSWERS-20261025-2008.json): S1 approved: the agreed order (experiments/t110-review/AGREED.md, reshape_t110.py), seven paragraphs."
+    "Turn 111 (his answers of 2026-10-25 20:08 UTC, experiments/t111-answers/ANSWERS-20261025-2008.json): S1 approved: the agreed order (experiments/t110-review/AGREED.md, reshape_t110.py), seven paragraphs.",
+    "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-guard approved: his \"If it's been calling all this stupid\" is the heading, so the strings are the current ones (entry joel-114-20261026)."
    ]
   },
   {
@@ -1490,7 +1508,11 @@
    "where": "Start With Whatever Showed Up",
    "must_contain_exact": [
     "Anxiety is often a part of you that's trying to protect you, making a guess about what's coming, like that people will laugh at you. It can be right! It's probably been wrong before too, and you know some of those times. Unless it might be real danger, or something a doctor should look at, I'd go see.",
-    "If a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state, I'd stop there and not test it, even when it sounds like a prediction."
+    "If a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state",
+    "I'd stop there and not test it, even when it sounds like a prediction."
+   ],
+   "history": [
+    "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-start approved: the stop rule's condition is its heading, so the strings are the current ones (entry joel-114-20261026)."
    ]
   },
   {
@@ -1679,7 +1701,10 @@
    ],
    "order": [
     "All kinds of psychoactive drugs can mess with your sense of what's real",
-    "Your own drug history matters too"
+    "If a past trip went badly"
+   ],
+   "history": [
+    "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-escape approved: \"Your own drug history matters too.\" left for the heading \"If a past trip went badly\", so the strings are the current ones (entry joel-114-20261026)."
    ]
   },
   {
@@ -1755,7 +1780,7 @@
    ],
    "span": {
     "from": "And any predisposition toward mania or psychosis",
-    "to": "Say you keep coming back from trips",
+    "to": "If you keep coming back from trips",
     "must_contain": [
      "precautions of every kind",
      "trusted advisors"
@@ -1766,7 +1791,8 @@
     ]
    },
    "history": [
-    "2026-10-24 (turn 105): the span ends at \"Say you keep coming back from trips\", the paragraph his 101.1 answer put in place of \"Milder reactions afterward count ...\" (entry joel-105-20261024)."
+    "2026-10-24 (turn 105): the span ends at \"Say you keep coming back from trips\", the paragraph his 101.1 answer put in place of \"Milder reactions afterward count ...\" (entry joel-105-20261024).",
+    "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-escape approved: the spaced-out paragraph starts under the heading \"If you keep coming back from trips confused or spaced out\", so the strings are the current ones (entry joel-114-20261026)."
    ]
   },
   {
@@ -2809,8 +2835,8 @@
     "We all need some support, especially when taking our first steps. First and easiest is to start with finding a somatic therapist, if that resonates, as per my Somatic Therapies Guide.",
     "Inner Child Reparenting therapists do exist, and you can find them, although they often are not licensed, and I don't know of any central directory, nor of any protocol they'd have in common. There are none which work with my guide yet. I can consult, and if you like the guide, you can ask a therapist to check it out and see what they agree with or disagree with as a great way to vet them.",
     "The best licensed, listed therapists you'll find that come close will be doing Internal Family Systems (IFS), or Schema Therapy. I'll talk more about those in the appendix, but Schema Therapy comes closest to my approach. Open Path Collective (or a similar resource in your country) lists thousands of affordable therapists. You can filter them by Schema or IFS. You can often find even more Schema therapists at the official site.",
-    "Before choosing a therapist, get to know the strengths and pitfalls of their approach, including any modifications they make to the standard protocol. I'd especially want to interview them regarding how they treat spiritual experiences. You want someone who won't tell you what yours really mean, downplay them, force them, or treat them as a symptom. I'd also want one who doesn't put ideas in your head, and who understands dissociation. What have they found too challenging to deal with so far, and where have they seen the best results? A good therapist won't charge you an arm and a leg just for this kind of interview, and they should already have this information on their website to avoid wasting too much time. A certificate on the wall can't tell you any of that.",
-    "Regarding AI therapy, I've tried all the top AI therapy apps, and they're all pretty bad. I'm trying to make my own based on this guide, but I'm becoming more convinced that unsupervised AI therapy is just a toss up. That doesn't mean you can't get a lot of great insights sometimes when talking to AI, though, but just expect it to go sideways sometimes."
+    "Get to know the strengths and pitfalls of their approach, including any modifications they make to the standard protocol. I'd especially want to interview them regarding how they treat spiritual experiences. You want someone who won't tell you what yours really mean, downplay them, force them, or treat them as a symptom. I'd also want one who doesn't put ideas in your head, and who understands dissociation. What have they found too challenging to deal with so far, and where have they seen the best results? A good therapist won't charge you an arm and a leg just for this kind of interview, and they should already have this information on their website to avoid wasting too much time. A certificate on the wall can't tell you any of that.",
+    "I've tried all the top AI therapy apps, and they're all pretty bad. I'm trying to make my own based on this guide, but I'm becoming more convinced that unsupervised AI therapy is just a toss up. That doesn't mean you can't get a lot of great insights sometimes when talking to AI, though, but just expect it to go sideways sometimes."
    ],
    "must_not_contain": [
     "So how do you find a good one?",
@@ -2823,7 +2849,10 @@
     "# Appendix"
    ],
    "note": "2026-10-19 (turn 75): his 63, A of 00:26 UTC adds my sentence \"I'd also want one who doesn't put ideas in your head, and who understands dissociation.\" to P4, after his spiritual-experiences sentence.",
-   "order_note": "Turn 78: order updated for Joel's question 70: A (2026-10-21 00:49 UTC): Finding a Therapist moved before You Are Worthy of Love. Always. (GPT's M08), and its pointer \"I'll talk more about those next\" now says \"in the appendix\"."
+   "order_note": "Turn 78: order updated for Joel's question 70: A (2026-10-21 00:49 UTC): Finding a Therapist moved before You Are Worthy of Love. Always. (GPT's M08), and its pointer \"I'll talk more about those next\" now says \"in the appendix\".",
+   "history": [
+    "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-therapist approved: \"Before choosing a therapist,\" and \"Regarding AI therapy,\" became headings, so the strings are the current ones (entry joel-114-20261026)."
+   ]
   },
   {
    "id": "ifs-unburdening-cut-20261019",
@@ -3256,8 +3285,8 @@
    ],
    "order": [
     "A complete ideal parent may be impossible to imagine",
-    "For warmth, think of someone you remember fondly.",
-    "For protecting, ask what a minimally competent adult",
+    "Think of someone you remember fondly.",
+    "Ask what a minimally competent adult",
     "The Guide can be you too, just a calmer you.",
     "### If the Love Isn't Coming Yet",
     "If you weren't loved well as a child",
@@ -3265,6 +3294,9 @@
     "Taking the hostility out makes room for warmth.",
     "If the love still isn't coming, you can at least stop judging",
     "Your little one might not take it well at first."
+   ],
+   "history": [
+    "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-borrow approved: \"For warmth,\" and \"For protecting,\" became headings, so the strings are the current ones (entry joel-114-20261026)."
    ]
   },
   {
@@ -3361,10 +3393,14 @@
    "joel": "2026-10-24 18:40 UTC (experiments/t105-answers/JOEL-20261024-1840.md): \"GPT was able to fix that paragraph on its first try, it got human high conf on pangram: ...\"",
    "where": "When Escape Leaves Reality Behind",
    "must_contain_exact": [
-    "Say you keep coming back from trips confused or spaced out. Maybe nothing worse happens, but after several trips like that I'd be concerned. If you're having episodes when you're sober, or any of them are severe, see a psychiatrist. And don't suddenly stop a medication just because you suspect it's involved. Talk to the doctor who prescribed it. Benzos can be dangerous to quit cold turkey. Alcohol withdrawal can be dangerous if you're physically dependent."
+    "Maybe nothing worse happens, but after several trips like that I'd be concerned. If you're having episodes when you're sober, or any of them are severe, see a psychiatrist.",
+    "Don't suddenly stop a medication just because you suspect it's involved. Talk to the doctor who prescribed it. Benzos can be dangerous to quit cold turkey. Alcohol withdrawal can be dangerous if you're physically dependent."
    ],
    "must_not_contain": [
     "Milder reactions afterward count as caution signs too"
+   ],
+   "history": [
+    "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-escape approved: his first sentence became the heading \"If you keep coming back from trips confused or spaced out\", and the paragraph splits before the medication warning, whose \"And\" goes, so the strings are the current ones (entry joel-114-20261026)."
    ]
   },
   {
@@ -3378,7 +3414,8 @@
     "Maybe the words are all there, but the loving grown-up behind them isn’t, not yet. Some people at that point might try saying sweeter and sweeter things, and then upon that not working, perhaps just “throw the baby out with the bathwater,” and decide reparenting is a scam. I’d borrow that grown-up first. Then try again, and see if your little one can tell the difference.",
     "Let's say an exercise leaves you feeling lighter for a few hours, but then the old feeling comes back later on. Some relief is nice, but we still want to know if we are fixing the problem at a deeper level and integrating the benefits into regular life (like texting a friend that you're having a rough day rather than saying you're fine). Jot down what changed and how long it lasted. Although if that feeds into your OCD patterns, drop it.",
     "How many tries would I give it? It's not like we can just put a number on it. Some things shift in a day. Others take about as long as learning guitar. But do notice if progress is stagnating. If it’s making things worse, or you just can’t do it right now, I’d change course sooner (stopping counts).",
-    "Not wanting to do it anymore might be reason enough, but if that “nope” sounds like a part of you that’s trying to protect you, I’d hear it out first to get a better understanding. And if you keep following the reparenting steps correctly without getting the expected results, consider if you have a unique case these steps don’t match yet. Maybe you’ll find something that works better for you, or you can ask me what I’d do for this case, or ask a therapist you work with. Either way, I’d like to hear about it!",
+    "Not wanting to do it anymore might be reason enough, but if that “nope” sounds like a part of you that’s trying to protect you, I’d hear it out first to get a better understanding.",
+    "Consider if you have a unique case these steps don’t match yet. Maybe you’ll find something that works better for you, or you can ask me what I’d do for this case, or ask a therapist you work with. Either way, I’d like to hear about it!",
     "If you don’t hear a little kid talking in your head, don’t invent one. Actually, this is one place where the usual inner-child prompt to “ask your little one what they need” can get confusing, because “ask” sounds like you’re supposed to ask a question and then wait for a second voice to answer. Maybe that’s what happens for some people, but you might not be some people (hehe). If talking into an empty room feels silly, small figures on a table can help (so that you feel even more silly!?), like one for your little one and one for the rest of the gang that shows up. Put whichever one’s running the show on a throne. Both ideas come from sections 12.2 and 13.1 of a book called Schema Therapy for Children and Adolescents, which I’ll call ST-CA.",
     "You might barely have spontaneous words in your mind and yet still be able to think a sentence on purpose. Try it and see. If words are there, speak or write them. You might feel more comfortable that way than just staying in imagination land.",
     "Then again, maybe what’s actually requiring your attention now is a knot in your stomach. Or perhaps you’re in a place you want to leave. Sometimes nothing “answers” and you just know what would be nice to do for yourself. And if you don’t know, it’s fine to guess. Maybe it’s some genuine human closeness, or figuring out some way to have more say in your own life.",
@@ -3400,7 +3437,8 @@
     "What they tell you is worth remembering, too"
    ],
    "history": [
-    "Turn 107 (his answers of 2026-10-25 00:24 UTC, experiments/t107-answers/JOEL-20261025-0024.md): 103.4 A: \"But do notice if progress is stagnating.\" for his \"if it progress\"."
+    "Turn 107 (his answers of 2026-10-25 00:24 UTC, experiments/t107-answers/JOEL-20261025-0024.md): 103.4 A: \"But do notice if progress is stagnating.\" for his \"if it progress\".",
+    "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-change approved: the last paragraph splits before his condition, which is its heading, so the strings are the current ones (entry joel-114-20261026)."
    ]
   },
   {
@@ -3598,11 +3636,84 @@
    "joel": "2026-10-25 21:40 UTC (experiments/t112-answers/JOEL-20261025-2140.md)",
    "where": "Borrow Love—or Borrow the Perspective of Care; Just Like Me",
    "must_contain": [
-    "Or put somebody you care about into your exact life, your family, all the conditions you face, and then step outside it and ask what you’d tell them as a friend. This [psychological trick](https://pubmed.ncbi.nlm.nih.gov/21728454/) has a rich history around it, and even has a name, [Solomon’s paradox](https://pubmed.ncbi.nlm.nih.gov/24916084/), after the biblical king everybody brought their disputes to, who then wrecked his own life."
+    "Or put somebody you care about into your exact life, your family, all the conditions you face, and then step outside it and ask what you’d tell them as a friend. This [psychological trick](https://pubmed.ncbi.nlm.nih.gov/21728454/) has a rich history around it, and the blind spot behind it even has a name, [Solomon’s paradox](https://pubmed.ncbi.nlm.nih.gov/24916084/), after the biblical king everybody brought their disputes to, who then wrecked his own life."
    ],
    "must_not_contain": [
     "your bank account and all",
     "cheap trick for becoming the outsider to your own mess"
+   ],
+   "history": [
+    "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): W-solomon approved, his 109 A, so the strings are the current ones (entry joel-114-20261026)."
+   ]
+  },
+  {
+   "id": "joel-114-20261026",
+   "status": "applied",
+   "what": "His answers from the turn-113 review sheet: all eleven cards approved, each section as the sheet showed it (case headings, every one a ####; the first words a heading now says dropped; the splits; the one move in Start With Whatever Showed Up; his 109 A), and Q-me answered \"you\". Installed by experiments/t114-installs/apply_t114.py, which checks that the article without its notes is experiments/t113-shape/PROPOSAL-ARTICLE.md with his \"you\".",
+   "joel": "2026-10-26 00:52 UTC (experiments/t114-answers/ANSWERS-20261026-0052.json; his message, experiments/t114-answers/JOEL-20261026-0053.md)",
+   "where": "Hear the Guard First, Start With Whatever Showed Up, When to Change the Strategy, When Escape Leaves Reality Behind, When the Adult Voice Feels Fake, Finding a Therapist to Borrow Adulthood, Other Folks Also Have Hooks, Borrow One Competency at a Time, How Would You Know It's Helping?, How to Forgive Without Forgetting, Borrow Love—or Borrow the Perspective of Care; Don't Give the Inner Adult Away",
+   "must_have_line": [
+    "#### Earning its trust, day to day",
+    "#### If it won't step back",
+    "#### If it's been calling all this stupid",
+    "#### If it all feels like your fault",
+    "#### If no answer comes",
+    "#### If you do get an answer",
+    "#### If it tells you to do something",
+    "#### Which thoughts to talk to",
+    "#### If it's anxiety",
+    "#### If a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state",
+    "#### When your kind words sound empty",
+    "#### If the relief doesn't last",
+    "#### How many tries would I give it?",
+    "#### If you'd rather stop",
+    "#### If you keep following the reparenting steps correctly without getting the expected results",
+    "#### If a past trip went badly",
+    "#### Is your paranoia a warning sign?",
+    "#### If you might be prone to mania or psychosis",
+    "#### Who counts as trusted",
+    "#### If you keep coming back from trips confused or spaced out",
+    "#### Before you quit a medication or alcohol",
+    "#### What you mix",
+    "#### Sometimes kindness feels scary more than fake",
+    "#### Picturing one ideal parent seems to help some people",
+    "#### For some people it only stops feeling fake in an altered state",
+    "#### Inner Child Reparenting therapists",
+    "#### If you want a licensed therapist",
+    "#### Before choosing a therapist",
+    "#### AI therapy",
+    "#### Can they change?",
+    "#### If [a relationship](https://romance.u-dont-exist.com) keeps making you feel less safe",
+    "#### If they've actually hurt or threatened you",
+    "#### If you really did hurt them",
+    "#### For warmth",
+    "#### For protecting",
+    "#### For guiding",
+    "Feeling calmer or having deeper insights or explanations for the trauma response are some possible signs of initial progress, but if that's the endgame, it's just a cope. Real healing is ultimately measured by reduced need for the therapy.",
+    "It's like real parenting: you might start out reading parenting books and thinking hard about what to say or do, but after a while you get into the groove and a lot of it becomes natural. Inner parenting can be like that too. You don't need to keep checking this guide or planning every conversation with your little one; the nurturing, protecting and guiding become more automatic. You might still turn to therapy when you need it, and life will keep offering chances to grow wiser and more compassionate.",
+    "And if the therapy is actually working, it should improve your daily life, and especially the health of the inner child-inner adult relationship. Going at it harder isn't as useful as going at it with more wisdom and compassion. Take the parts that work, and innovate on the rest.",
+    "So a boundary can still be right. So can the law, if it comes to that, or telling them plainly it was wrong (or telling yourself, if they'd never hear it). Keeping away from them for good can be right too, and you can still forgive them from over there. Understanding somebody's limitations should make my expectations more realistic, not make those limitations less consequential. \"I understand how you became this way\" can sit right next to \"I now understand why I shouldn't rely on you for this.\"",
+    "If you can’t clearly understand what happened yourself, get someone qualified to help. And if you have an idea of what happened but aren’t sure, ask someone who knows you well.",
+    "Even once, old stuff or not, get safe first, which is not a small thing at all, I know."
+   ],
+   "must_contain": [
+    "If so just listen and be present for it if that's what it wants. How you picture all that is up to you, as long as it helps, and the simpler the better.",
+    "has a rich history around it, and the blind spot behind it even has a name",
+    "The test is whether the relationship makes you more grounded, truthful, and free.",
+    "Repair it. Easier said than done, but"
+   ],
+   "must_not_contain": [
+    "If nothing comes, that's fine for now",
+    "Your own drug history matters too",
+    "Say you keep coming back from trips",
+    "Also easier said than done",
+    "makes me more grounded, truthful, and free",
+    "and even has a name, Solomon",
+    "Regarding AI therapy,",
+    "And picturing one ideal parent",
+    "For warmth, think of someone",
+    "For protecting, ask what",
+    "And don't suddenly stop a medication"
    ]
   }
  ]

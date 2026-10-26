@@ -134,7 +134,9 @@ The image below maps out the details as best as I can fit:
 
 <!-- 2026-10-07 (turn 31), E137 sweep: "letting them do some of the grown-up jobs for you" for "handing them the steering wheel" (the guide: borrow the function, don't surrender it). 46 words, so no alone check; My Journey 100% Human (763). Pangram 4.0 through the dashboard. Turn 71 (the overnight run): the guide's TF-U12 test line, as his published guide has it, "The test is whether the relationship makes me more grounded, truthful, and free." (his first person: it waits on his word, E189, question 52; OWNER-EDITS tf12-test-line-pending-20261018), at the end of this paragraph, the restructure plan's place for it (THREE-FUNCTIONS-RESTRUCTURE-20260927.md: "One sentence, for Joel to OK"; "the relationship" is the one with somebody who seems grown-up). Of the rest of TF-U12, this section has the authority limit ("they can know things you don't and still be wrong about you") and saying no ("You still have to be able to say so."); its checks on a person (track record, respect for boundaries, independent evidence and contradictions) are in no paragraph (TRACE-r4-A.md, 4; question 54). experiments/t71-guide/drafts/tf12-a.txt. Alone Human Written (0.0078), https://www.pangram.com/history/84fbc4fe-2d8f-4f1a-a9ae-db09432258bc; My Journey with it Human Written (0.045, high, 989 words), https://www.pangram.com/history/ccb56473-3af4-417d-95d0-7e53beef8803 (round t71kkk). A version with "you" for "me" fails the linter as a list of three of mine. -->
 
-If you still feel like a kid inside, somebody who seems grown-up can feel like salvation, and letting them do some of the grown-up jobs for you can actually help for a while. But they can know things you don't and still be wrong about you. The test is whether the relationship makes me more grounded, truthful, and free.
+<!-- Turn 114 (his answers of 2026-10-26 00:52 UTC from the turn-113 review sheet, experiments/t114-answers/ANSWERS-20261026-0052.json): Q-me answered "you": "makes you more grounded, truthful, and free" for "makes me" (two fresh reviewers in turn 110 had tripped on the switch from "you"). -->
+
+If you still feel like a kid inside, somebody who seems grown-up can feel like salvation, and letting them do some of the grown-up jobs for you can actually help for a while. But they can know things you don't and still be wrong about you. The test is whether the relationship makes you more grounded, truthful, and free.
 
 <!-- Turn 72 (his answers of 2026-10-18 19:06 UTC (experiments/t72-answers/JOEL-20261018-1906.md)): 54, 7, B: the guide's "Keep the feeling and test the conclusion against track record, respect for boundaries, independent evidence and contradictions, and what happens when you disagree or say no." after his test line (52, A). experiments/t72-guide/drafts/dg-chk-b.txt. Alone Human Written (0.006), https://www.pangram.com/history/2f9fe892-434b-465c-a3d3-2f546037481a; My Journey with it Human Written (0.036, high, 1046 words), https://www.pangram.com/history/1c3e56b0-3165-4e10-9c50-e397f0fb34e3 (round t72a). -->
 
@@ -340,9 +342,17 @@ A complete ideal parent may be impossible to imagine (unless you saw The Brady B
 
 <!-- Turn 101 (his answers of 2026-10-23 14:05 UTC, experiments/t101-answers/JOEL-20261023-1405.md): 91.1 B: the main invitation first, then one borrowing for each job; this is old P6 without its first two sentences, with "For warmth," (the turn-100 test, experiments/t100-readers-edit/BORROW-ONE-COMPETENCY-TEST.md). -->
 
-For warmth, think of someone you remember fondly. How would they sit beside your little one? Just make sure it's someone who liked you the way you were.
+<!-- Turn 114 (his answers of 2026-10-26 00:52 UTC from the turn-113 review sheet, experiments/t114-answers/ANSWERS-20261026-0052.json): H-borrow approved, three case headings, his "For warmth" and "For protecting" and "For guiding", which the gate admitted. -->
 
-For protecting, ask what a minimally competent adult would do here. Maybe something simple, like actually smelling that old food you're about to eat and then trashing it if it smells a little weird. If you're about to send an angry text, hit pause. If the room itself triggers your spidey sense, leave, or lock the door and get help. Even if this still feels like the child acting like the adult, for now, that's ok. "Fake it til you make it" isn't exactly it, but yeah. Afterward, you can tell your little one, "I did that for us. That was the Protector." If it sounds funny, laugh!
+#### For warmth
+
+Think of someone you remember fondly. How would they sit beside your little one? Just make sure it's someone who liked you the way you were.
+
+#### For protecting
+
+Ask what a minimally competent adult would do here. Maybe something simple, like actually smelling that old food you're about to eat and then trashing it if it smells a little weird. If you're about to send an angry text, hit pause. If the room itself triggers your spidey sense, leave, or lock the door and get help. Even if this still feels like the child acting like the adult, for now, that's ok. "Fake it til you make it" isn't exactly it, but yeah. Afterward, you can tell your little one, "I did that for us. That was the Protector." If it sounds funny, laugh!
+
+#### For guiding
 
 The Guide can be you too, just a calmer you. That's a lot easier to imagine than your future healed self. Think back to what (and how) you decided about something like this the last time you were calm. Or ask what the wise person you respect would have you practice today. A wise tradition (like "What would Jesus do?" or "What would Buddha do?") can give some direction, too, until you develop your own internal compass.
 
@@ -444,7 +454,9 @@ Watch how it lands, though. "I care about you" can be patient, or it can be "I c
 
 <!-- Turn 112 (his message of 2026-10-25 21:40 UTC, experiments/t112-answers/JOEL-20261025-2140.md): 108.1, his own version of this paragraph, word for word ("this version passes", his check), with the two links his earlier version had: "psychological trick" goes to the self-distancing study the old "cheap trick" link went to, and "Solomon’s paradox" to the Solomon's paradox study. Question 109 asks whether the name should go on the gap, as the study has it. -->
 
-Or put somebody you care about into your exact life, your family, all the conditions you face, and then step outside it and ask what you’d tell them as a friend. This [psychological trick](https://pubmed.ncbi.nlm.nih.gov/21728454/) has a rich history around it, and even has a name, [Solomon’s paradox](https://pubmed.ncbi.nlm.nih.gov/24916084/), after the biblical king everybody brought their disputes to, who then wrecked his own life.
+<!-- Turn 114 (his answers of 2026-10-26 00:52 UTC from the turn-113 review sheet, experiments/t114-answers/ANSWERS-20261026-0052.json): W-solomon approved, his 109 A: "and the blind spot behind it even has a name", which the gate admitted, the rest of his sentence as it was. -->
+
+Or put somebody you care about into your exact life, your family, all the conditions you face, and then step outside it and ask what you’d tell them as a friend. This [psychological trick](https://pubmed.ncbi.nlm.nih.gov/21728454/) has a rich history around it, and the blind spot behind it even has a name, [Solomon’s paradox](https://pubmed.ncbi.nlm.nih.gov/24916084/), after the biblical king everybody brought their disputes to, who then wrecked his own life.
 
 Then take a small piece of whatever you'd tell them and hand it to yourself. If the advice was "get more sleep," then for now just try brushing your teeth before midnight instead of at two. That's how you learn as a kid, and it works now, too. The technical term for this is "[scaffolding](https://en.wikipedia.org/wiki/Instructional_scaffolding)."
 
@@ -717,7 +729,15 @@ If you're feeling guilty because you didn't put your seat belt on, just put it o
 
 <!-- Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): E11 from the ideas page, the heading only (his "e11 a") -->
 
-Don't be afraid to ask your therapist/yourself "What is this practice supposed to help, and how would I know if it's helping?" This sovereign, gently curious stance should apply to everything in life. Feeling calmer or having deeper insights or explanations for the trauma response are some possible signs of initial progress, but if that's the endgame, it's just a cope. Real healing is ultimately measured by reduced need for the therapy. It's like real parenting: you might start out reading parenting books and thinking hard about what to say or do, but after a while you get into the groove and a lot of it becomes natural. Inner parenting can be like that too. You don't need to keep checking this guide or planning every conversation with your little one; the nurturing, protecting and guiding become more automatic. You might still turn to therapy when you need it, and life will keep offering chances to grow wiser and more compassionate. And if the therapy is actually working, it should improve your daily life, and especially the health of the inner child-inner adult relationship. Going at it harder isn't as useful as going at it with more wisdom and compassion. Take the parts that work, and innovate on the rest.
+<!-- Turn 114 (his answers of 2026-10-26 00:52 UTC from the turn-113 review sheet, experiments/t114-answers/ANSWERS-20261026-0052.json): R-helping approved, its first paragraph split in four, every sentence kept. -->
+
+Don't be afraid to ask your therapist/yourself "What is this practice supposed to help, and how would I know if it's helping?" This sovereign, gently curious stance should apply to everything in life.
+
+Feeling calmer or having deeper insights or explanations for the trauma response are some possible signs of initial progress, but if that's the endgame, it's just a cope. Real healing is ultimately measured by reduced need for the therapy.
+
+It's like real parenting: you might start out reading parenting books and thinking hard about what to say or do, but after a while you get into the groove and a lot of it becomes natural. Inner parenting can be like that too. You don't need to keep checking this guide or planning every conversation with your little one; the nurturing, protecting and guiding become more automatic. You might still turn to therapy when you need it, and life will keep offering chances to grow wiser and more compassionate.
+
+And if the therapy is actually working, it should improve your daily life, and especially the health of the inner child-inner adult relationship. Going at it harder isn't as useful as going at it with more wisdom and compassion. Take the parts that work, and innovate on the rest.
 
 If these exercises start feeling like a ritual you have to complete before you're allowed to live, stop there.
 
@@ -891,15 +911,23 @@ I used to be all personal trainer and teach persistence on this as the remedy. K
 
 <!-- Turn 71 (the overnight run): the guide's research paragraph from Borrow One (r4 line 223), its second half here: compassion imagery and threat; "So “this feels fake” may mean the person needs a bridge rather than a more forceful performance of love."; waiting since 2026-09-25 to move here (BORROW-ONE-JOB-DRAFTS-20260925.md, U10b to U10d; OPEN-OWNER-FLAGS.md). Opened 2026-10-18: Baldwin et al. 2020, https://pubmed.ncbi.nlm.nih.gov/31301164/ (its title, "Attachment and compassion-threat"; anxious and avoidant attachment, not self-criticism; a 10-minute attachment prime before the second imagery), and Duarte et al. 2015, https://pubmed.ncbi.nlm.nih.gov/25347984/ (its practitioner point: an initial instance of imagery "can be frightening for people who have a tendency to be self-critical"). experiments/t71-guide/drafts/u10-e.txt. Alone Human Written (0.0048), https://www.pangram.com/history/17b3b60e-b61b-481b-90f6-635ef848afd1 (round t71ooo); When the Adult Voice Feels Fake as installed with it Human Written (0.080, high, 4364 words), https://www.pangram.com/history/64bfc332-e698-45f3-8ef5-f0c8a0ee02f3 (round t71ppp). Two one-paragraph versions with the pilot read AI alone (0.53 and 0.60, round t71nnn). -->
 
-Sometimes kindness feels scary more than fake. One study's title has a word for that: "[compassion-threat](https://pubmed.ncbi.nlm.nih.gov/31301164/)." People in it with anxious or avoidant attachment reacted to compassion imagery like a threat, and a ten-minute exercise in feeling secure helped with the next try. [Another](https://pubmed.ncbi.nlm.nih.gov/25347984/) found a first try at imagery like that "can be frightening for people who have a tendency to be self-critical." So feeling fake could mean you need a bridge, more than a bigger performance of love.
+<!-- Turn 114 (his answers of 2026-10-26 00:52 UTC from the turn-113 review sheet, experiments/t114-answers/ANSWERS-20261026-0052.json): H-fake approved, three case headings, each the paragraph's own first sentence or clause, which then leaves it. -->
+
+#### Sometimes kindness feels scary more than fake
+
+One study's title has a word for that: "[compassion-threat](https://pubmed.ncbi.nlm.nih.gov/31301164/)." People in it with anxious or avoidant attachment reacted to compassion imagery like a threat, and a ten-minute exercise in feeling secure helped with the next try. [Another](https://pubmed.ncbi.nlm.nih.gov/25347984/) found a first try at imagery like that "can be frightening for people who have a tendency to be self-critical." So feeling fake could mean you need a bridge, more than a bigger performance of love.
 
 <!-- Turn 71: the same paragraph's first half, the Ideal Parent Figure pilot (U10a), and its "Related research gives this idea some support without proving the whole method." Opened 2026-10-18: Parra et al. 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5700488/ (17 adults with complex PTSD and childhood trauma, a five-week programme, stable at the eight-month follow-up, no control group). experiments/t71-guide/drafts/u10-f.txt. Alone Human Written (0.36), https://www.pangram.com/history/4049a1da-6151-462b-9393-cc2a2af221dc (round t71ooo); the h1 as above (round t71ppp). -->
 
-And picturing one ideal parent seems to help some people. There's a whole method built on it, called the Ideal Parent Figure method. In a [small pilot](https://pmc.ncbi.nlm.nih.gov/articles/PMC5700488/), seventeen adults with complex PTSD from childhood trauma did five weeks of it and were still doing better eight months later. Seventeen people with nobody to compare them to won't prove the whole method, but it's a start.
+#### Picturing one ideal parent seems to help some people
+
+There's a whole method built on it, called the Ideal Parent Figure method. In a [small pilot](https://pmc.ncbi.nlm.nih.gov/articles/PMC5700488/), seventeen adults with complex PTSD from childhood trauma did five weeks of it and were still doing better eight months later. Seventeen people with nobody to compare them to won't prove the whole method, but it's a start.
 
 <!-- 2026-10-03 (turn 24): the guide update's altered-states paragraph is Joel's minimal fix (16:16 UTC) of Claude's try 3 with its proposed last sentence ("MDMA" for "mushrooms"; "right there! Oh my gosh! And the love"), Human, medium confidence on his check alone; "just see how it can break up the marching order of code instructions translated to english". Record: experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md, turn 24. -->
 
-For some people it only stops feeling fake in an altered state, like on MDMA or deep in meditation. All of a sudden your little one is right there! Oh my gosh! And the love or grief that sounded like therapy talk is just obvious. Old memories might come up too. They can feel totally real, but that alone doesn't prove they happened. I'd still hang on to what you felt, even once it's gone, and try to bring a little of it into your normal life. You've felt that your little one is real now, so talking to them afterward isn't just pretending.
+#### For some people it only stops feeling fake in an altered state
+
+Like on MDMA or deep in meditation. All of a sudden your little one is right there! Oh my gosh! And the love or grief that sounded like therapy talk is just obvious. Old memories might come up too. They can feel totally real, but that alone doesn't prove they happened. I'd still hang on to what you felt, even once it's gone, and try to bring a little of it into your normal life. You've felt that your little one is real now, so talking to them afterward isn't just pretending.
 
 <!-- 2026-10-02 (turn 17): the guide's h2, "The Parent You Inherited" (G4–G6). Turn 18: P4 and P6 are Joel's; P5 is Claude's (record: experiments/WHEN-THE-ADULT-VOICE-FEELS-FAKE-20261002.md). -->
 
@@ -998,17 +1026,33 @@ You might go looking for your little one and get mad instead, or realize you've 
 
 You can tell that part something like, "I see you. I'm not going to force my way past you. What's going on?" Or however you'd actually say that. Then wait and listen patiently.
 
-If nothing comes, that's fine for now. No need to answer for that part just because you'd set this up as a healing session. Even without the answer, you can notice what sets the reaction off, and you can understand what the reaction is propelling you toward, and away from.
+<!-- Turn 114 (his answers of 2026-10-26 00:52 UTC from the turn-113 review sheet, experiments/t114-answers/ANSWERS-20261026-0052.json): H-start approved, six case headings (his "If you do get an answer", "If it tells you to do something" and his stop rule's whole condition, and three the gate admitted), the answer paragraph split before "If it tells you to do something", and "How you picture all that is up to you ..." moved up three sentences, to stay with the forms an answer can take. -->
 
-Or if you do get an answer, it could come in different forms, like as a voice or just a hunch. It's often more like a feeling. Maybe grief or anger. If so just listen and be present for it if that's what it wants. If it tells you to do something, I'd only do it if it's loving and leaves you free. It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and you've checked it against what you actually know.
+#### If no answer comes
 
-How you picture all that is up to you, as long as it helps, and the simpler the better. I think a fear that keeps turning up to tell you something is worth talking to as a part of you. If it sounds like your little one, though, hear it out the first time it shows up. Let a stray thought go as just thinking, and come back to the room you're in. A worry that just keeps asking to be reassured can go the same way, unless it's your little one asking.
+That's fine for now. No need to answer for that part just because you'd set this up as a healing session. Even without the answer, you can notice what sets the reaction off, and you can understand what the reaction is propelling you toward, and away from.
+
+#### If you do get an answer
+
+It could come in different forms, like as a voice or just a hunch. It's often more like a feeling. Maybe grief or anger. If so just listen and be present for it if that's what it wants. How you picture all that is up to you, as long as it helps, and the simpler the better.
+
+#### If it tells you to do something
+
+I'd only do it if it's loving and leaves you free. It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and you've checked it against what you actually know.
+
+#### Which thoughts to talk to
+
+I think a fear that keeps turning up to tell you something is worth talking to as a part of you. If it sounds like your little one, though, hear it out the first time it shows up. Let a stray thought go as just thinking, and come back to the room you're in. A worry that just keeps asking to be reassured can go the same way, unless it's your little one asking.
 
 I wouldn't spend long deciding what to call each part, though. Every part of you learns from how the others treat it, your little one included. A part of you that's trying to protect you might warn you about something, and when you hear it out, it doesn't have to get any louder.
 
+#### If it's anxiety
+
 Anxiety is often a part of you that's trying to protect you, making a guess about what's coming, like that people will laugh at you. It can be right! It's probably been wrong before too, and you know some of those times. Unless it might be real danger, or something a doctor should look at, I'd go see.
 
-If a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state, I'd stop there and not test it, even when it sounds like a prediction.
+#### If a part hesitates about being touched or about sex, or says no to going deeper in this work or to an altered state
+
+I'd stop there and not test it, even when it sounds like a prediction.
 
 ### Two Common Guarding Patterns Blocking Reparenting
 
@@ -1096,11 +1140,21 @@ It might say this will just be one more performance, and you'll fool yourself ag
 
 A harder voice can seem more fitting for something that's been in your way. I'd still keep the Nurturer voice. If that voice isn't there in you yet, borrow it from someone who's been safe for you.
 
+<!-- Turn 114 (his answers of 2026-10-26 00:52 UTC from the turn-113 review sheet, experiments/t114-answers/ANSWERS-20261026-0052.json): H-guard approved, four case headings, his "If it's been calling all this stupid" and three the owner-delivery gate admitted. -->
+
+#### Earning its trust, day to day
+
 A new roommate doesn't win you over with a speech on move-in day (hopefully, right?). The rent just has to keep showing up. Your Protector earns that guard's trust about the same way, mostly out in ordinary life. The things you do can be small, like keeping a promise to yourself nobody else knew about. Or saying no to someone, and not texting an hour later to take it back. That second one can be really hard.
+
+#### If it won't step back
 
 That part doesn't have to move out. It's been living there way longer than the grown-up you. It can keep watch while you take one small step toward your little one. I think watching is what it wants anyway, to find out if there's a grown-up here now who could call it all off if things got to be too much. It doesn't have to be all or nothing, either. Maybe it would settle for a lighter cover for now, like blinds tilted open a crack, and let you peek out for a minute (ST-CA, section 9.3.4). If it says no, I'd listen. When it lets you, keep an eye on that part too, for any change at all.
 
-If it's been calling all this stupid, it might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, "You don't have to hope yet, I'll keep coming back even when I mess up." Sometimes it doesn't say anything back for a while.
+#### If it's been calling all this stupid
+
+It might turn out to be scared of getting its hopes up. I wouldn't want to get mine up either. I'd tell it something like, "You don't have to hope yet, I'll keep coming back even when I mess up." Sometimes it doesn't say anything back for a while.
+
+#### If it all feels like your fault
 
 Blaming yourself can be doing a protective job, too. "It's all my fault" might be your parent's line, word for word. Then again, if it's your fault, maybe you can fix it before they leave. I'd stop the cruelty either way. And I'd get curious about what makes it so hard to give up.
 
@@ -1114,9 +1168,15 @@ Blaming yourself can be doing a protective job, too. "It's all my fault" might b
 
 Weeks in and nothing much is changing? I’d want to quit too, or else keep doing the exact same thing forever so I never have to find out what's underneath this. Before going with either of those paths, look for what exactly is in the way. Sometimes the strategy was not actually implemented, just read about or played around with lightly. Or there wasn't the right environment to really practice it, like no alone time. Or perhaps you did sit down with your little one, but it felt scary or like some part of you was trying to protect you from going deeper. Whatever it turns out to be, it makes sense to work on that blocker instead of giving up on everything.
 
+<!-- Turn 114 (his answers of 2026-10-26 00:52 UTC from the turn-113 review sheet, experiments/t114-answers/ANSWERS-20261026-0052.json): H-change approved, five case headings (his "How many tries would I give it?" and his condition "If you keep following the reparenting steps correctly without getting the expected results", and three the gate admitted), and the last paragraph split before that condition. -->
+
+#### When your kind words sound empty
+
 Maybe the words are all there, but the loving grown-up behind them isn’t, not yet. Some people at that point might try saying sweeter and sweeter things, and then upon that not working, perhaps just “throw the baby out with the bathwater,” and decide reparenting is a scam. I’d borrow that grown-up first. Then try again, and see if your little one can tell the difference.
 
 <!-- Turn 90 (the half-A rework, experiments/t89-results/RESULT-A-meta.json, check t88s_A: Mostly Human Written, 7.2% AI, 41 of 254 windows): my paragraph (turn 30, PGQ-005); its middle read AI (Low 27, Low 17, into his P4). Two phrases plainer. Drafts: experiments/t89-drafts/. Lint CLEAR. Not yet checked in Pangram. -->
+
+#### If the relief doesn't last
 
 Let's say an exercise leaves you feeling lighter for a few hours, but then the old feeling comes back later on. Some relief is nice, but we still want to know if we are fixing the problem at a deeper level and integrating the benefits into regular life (like texting a friend that you're having a rough day rather than saying you're fine). Jot down what changed and how long it lasted. Although if that feeds into your OCD patterns, drop it.
 
@@ -1124,13 +1184,21 @@ Let's say an exercise leaves you feeling lighter for a few hours, but then the o
 
 <!-- P4's last three sentences are Joel's, word for word (2026-10-06 19:04 UTC), in place of "And if you keep doing it right and what was supposed to happen still doesn't, I think you've learned something real about it. Something with clearly better research behind it is worth switching for too." No punctuation fix was needed. -->
 
-How many tries would I give it? It's not like we can just put a number on it. Some things shift in a day. Others take about as long as learning guitar. But do notice if progress is stagnating. If it’s making things worse, or you just can’t do it right now, I’d change course sooner (stopping counts).
+#### How many tries would I give it?
+
+It's not like we can just put a number on it. Some things shift in a day. Others take about as long as learning guitar. But do notice if progress is stagnating. If it’s making things worse, or you just can’t do it right now, I’d change course sooner (stopping counts).
 
 <!-- Turn 72 (his answers of 2026-10-18 19:06 UTC (experiments/t72-answers/JOEL-20261018-1906.md)): the filler sweep (JUNK-SWEEP.md, 12): "and once isn't proof you've got it all down" is out, a second hedge on a point nobody makes (O43). experiments/t72-guide/drafts/cs5-c.txt. Alone Human Written (0.24, high), https://www.pangram.com/history/e581c91f-dd1d-41a5-a499-164970d5ef49 (round t72b); When the Adult Voice Feels Fake with it Human Written (0.072, high, 4468 words), https://www.pangram.com/history/f9857aee-b6ec-4428-9350-e8e01c2d0c50 (round t72c). Taking out "Yours too, probably." too had made a 50-word AI window in Start With Whatever Showed Up P8 (round t72b, https://www.pangram.com/history/4ddf6e7c-ca45-4128-9a0a-d35a103d3810), so that line stays. -->
 
 <!-- Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 98.7 A (his "98. agree cut all"): cut "It doesn't have to happen after every session.". The original is in experiments/t102-safety/SAFETY-CUTS.md. -->
 
-Not wanting to do it anymore might be reason enough, but if that “nope” sounds like a part of you that’s trying to protect you, I’d hear it out first to get a better understanding. And if you keep following the reparenting steps correctly without getting the expected results, consider if you have a unique case these steps don’t match yet. Maybe you’ll find something that works better for you, or you can ask me what I’d do for this case, or ask a therapist you work with. Either way, I’d like to hear about it!
+#### If you'd rather stop
+
+Not wanting to do it anymore might be reason enough, but if that “nope” sounds like a part of you that’s trying to protect you, I’d hear it out first to get a better understanding.
+
+#### If you keep following the reparenting steps correctly without getting the expected results
+
+Consider if you have a unique case these steps don’t match yet. Maybe you’ll find something that works better for you, or you can ask me what I’d do for this case, or ask a therapist you work with. Either way, I’d like to hear about it!
 
 ### When the Urge to Escape Arrives
 
@@ -1206,17 +1274,29 @@ All kinds of psychoactive drugs can mess with your sense of what’s real, and t
 
 <!-- Turn 88 (his 16:12 UTC message, "77.5yes"): 80.3 A, his chat line of turn 87 (77.5, "don't try again until you understand what would make it safe") as its own sentence after "try to figure out why that happened", in his words and his straight apostrophe; "I’d look at the drug..." then reads as how you'd find out what would make it safe. Not yet checked in Pangram. -->
 
-Your own drug history matters too. If you go manic, psychotic (by which I mean losing your sense of reality to the point of posing a risk to yourself or others), get super paranoid, or end up worse afterward than before, those are signs to reconsider trying the same thing again, and try to figure out why that happened. Don't try again until you understand what would make it safe. I’d look at the drug and the dosage, as well as mindset and setting etc.
+<!-- Turn 114 (his answers of 2026-10-26 00:52 UTC from the turn-113 review sheet, experiments/t114-answers/ANSWERS-20261026-0052.json): H-escape approved, seven case headings (his "What you mix" and six the gate admitted), the paranoia paragraph split before "If you can’t clearly understand what happened yourself", the spaced-out paragraph split before "And don't suddenly stop a medication", whose "And" goes, and "Your own drug history matters too." and "Say you keep coming back from trips confused or spaced out." out, since headings take their place. -->
+
+#### If a past trip went badly
+
+If you go manic, psychotic (by which I mean losing your sense of reality to the point of posing a risk to yourself or others), get super paranoid, or end up worse afterward than before, those are signs to reconsider trying the same thing again, and try to figure out why that happened. Don't try again until you understand what would make it safe. I’d look at the drug and the dosage, as well as mindset and setting etc.
 
 <!-- Turn 72 (his answers of 2026-10-18 19:06 UTC (experiments/t72-answers/JOEL-20261018-1906.md)): 49, 3: "paranoia isn't automatically leading to psychosis, since it can be valid, but it does tend to lead to psychosis when it isn't balanced by practicality", with his three examples ("so let's merge that in somehow"), in place of "Paranoia during a rough trip is a warning sign for psychosis."; "Freemason" for his "free mason". experiments/t72-guide/drafts/par-a.txt. Alone Human Written (0.020, high), https://www.pangram.com/history/8b12481e-1af8-4c3d-a8e3-3f15b8577b46; When the Adult Voice Feels Fake with it Human Written (0.076, high, 4479 words), https://www.pangram.com/history/4a497c49-edfd-4eb1-b810-773529dd39bf (round t72a). -->
 
 <!-- Turn 77: Joel's own text from his 2026-10-19 upload (the version he gave GPT), word for word apart from obvious typos; not yet checked in Pangram here. -->
 
-Paranoia during a rough trip can be a warning sign for psychosis, but it doesn’t automatically lead there, since it can be valid. It tends to go that way when it isn’t balanced by practicality. “The CIA is mind-controlling me!” is paranoia. “The CIA, marketers, and other forces are conspiring to mind-control me, the way they do to everyone else! But since I can see that, I can prevent it to some extent, just by being aware of how it operates” is paranoia too, but it’s practically useful, and less likely to lead to psychosis. “...which means I can prevent it by standing on my head and counting backwards from 33, since 33 is their magic Freemason number!” is leaning psychotic. Some drugs are known for causing paranoia, like THC, so I’d avoid those. If you can’t clearly understand what happened yourself, get someone qualified to help. And if you have an idea of what happened but aren’t sure, ask someone who knows you well.
+#### Is your paranoia a warning sign?
+
+Paranoia during a rough trip can be a warning sign for psychosis, but it doesn’t automatically lead there, since it can be valid. It tends to go that way when it isn’t balanced by practicality. “The CIA is mind-controlling me!” is paranoia. “The CIA, marketers, and other forces are conspiring to mind-control me, the way they do to everyone else! But since I can see that, I can prevent it to some extent, just by being aware of how it operates” is paranoia too, but it’s practically useful, and less likely to lead to psychosis. “...which means I can prevent it by standing on my head and counting backwards from 33, since 33 is their magic Freemason number!” is leaning psychotic. Some drugs are known for causing paranoia, like THC, so I’d avoid those.
+
+If you can’t clearly understand what happened yourself, get someone qualified to help. And if you have an idea of what happened but aren’t sure, ask someone who knows you well.
 
 <!-- Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 97.7 A (his "97. i agree cut all"): cut ", though I don't mean every drug's dangerous for you". The original is in experiments/t102-safety/SAFETY-CUTS.md. -->
 
+#### If you might be prone to mania or psychosis
+
 Any of those reactions, from mania to paranoia, can also point to a vulnerability in you, so I'd be careful with other drugs that mess with what's real too. And any predisposition toward mania or psychosis is a warning sign too, whether it's family history, a bad environment or a bad mindset. These are just caution signs, and when you see them, you take more precautions of every kind. You have to figure out what they mean for you, and if you can't, get help from trusted advisors.
+
+#### Who counts as trusted
 
 By trusted, I mean someone you know is trustworthy from a long relationship with them, not someone people on Reddit said was super magical and healing. That's called a crapshoot. It might turn out well, it might not. It might seem like it did, and then later you realize you were duped, as happened to me with [Sidney the iboga shaman](http://sidney.u-dont-exist.com/). A new therapist is not as trusted as an old one. As they say, "new friends are silver, but old friends are gold."
 
@@ -1224,7 +1304,15 @@ By trusted, I mean someone you know is trustworthy from a long relationship with
 
 <!-- Turn 105 (his answer of 2026-10-24 18:40 UTC, experiments/t105-answers/JOEL-20261024-1840.md): 101.1, GPT's rewrite of my paragraph, word for word as he pasted it ("GPT was able to fix that paragraph on its first try, it got human high conf on pangram"). It carries the guide's line 505 points the paragraph had: repeated milder confusion or spacing out, help when it's severe or happens sober, and no sudden stop of a medication or a substance the body depends on. What my four drafts got wrong is gate E256. -->
 
-Say you keep coming back from trips confused or spaced out. Maybe nothing worse happens, but after several trips like that I'd be concerned. If you're having episodes when you're sober, or any of them are severe, see a psychiatrist. And don't suddenly stop a medication just because you suspect it's involved. Talk to the doctor who prescribed it. Benzos can be dangerous to quit cold turkey. Alcohol withdrawal can be dangerous if you're physically dependent.
+#### If you keep coming back from trips confused or spaced out
+
+Maybe nothing worse happens, but after several trips like that I'd be concerned. If you're having episodes when you're sober, or any of them are severe, see a psychiatrist.
+
+#### Before you quit a medication or alcohol
+
+Don't suddenly stop a medication just because you suspect it's involved. Talk to the doctor who prescribed it. Benzos can be dangerous to quit cold turkey. Alcohol withdrawal can be dangerous if you're physically dependent.
+
+#### What you mix
 
 Be careful what you mix, too, and not just prescribed medicines. Even some basic things like cinnamon can be dangerous (and helpful) with ayahuasca, and doctors don't know about a lot of this. I also learned that mixing acacia confusa with mimosa hostilis is very destabilizing and challenging, but excellent if you want to know how it feels to be painfully autistic + schizo! I have a [list of things to be cautious about with ayahuasca](http://ayasafety.u-dont-exist.com/) in particular.
 
@@ -1341,7 +1429,6 @@ I’d ask for a chronic pain specialist and a written plan for the flare-ups you
 Sometimes, a physical illness is really partly or wholly an emotional issue causing “somatic symptoms,” as happened to various friends of mine, as well as to Lucia Capacchione, PhD., and many of her clients and friends. She wrote one of the first comprehensive inner child therapy guides, [Recovery of Your Inner Child](https://www.goodreads.com/book/show/909586.Recovery_of_Your_Inner_Child), in 1991. While I don’t doubt that many people do recover from mysterious physical illness via meditation, inner child therapy, and [somatic therapy](http://somatic.u-dont-exist.com), I also don’t want to claim, as some folks do, that *all* illness is entirely rooted in emotional issues. That is clearly not true. We don’t need to be gaslit to consider all the possibilities.
 
 <!-- Turn 77: Joel's own text from his 2026-10-19 upload (the version he gave GPT), word for word apart from obvious typos; not yet checked in Pangram here. -->
-
 
 # If You Want to Kill Yourself
 
@@ -1834,6 +1921,10 @@ Once you're in your happy place, look at the other person too, and don't go only
 
 If it's the first, it can seem like you haven't explained yourself well enough yet. You probably have, and it makes more sense to count on what they keep showing you they can do than on the right words finally getting through to them. Maybe what they can do is text you something kind the next day and not bring any of it up.
 
+<!-- Turn 114 (his answers of 2026-10-26 00:52 UTC from the turn-113 review sheet, experiments/t114-answers/ANSWERS-20261026-0052.json): H-hooks approved, four case headings, his "If a relationship keeps making you feel less safe", "If they've actually hurt or threatened you" and "If you really did hurt them", and "Can they change?", which the gate admitted; the danger line split into its own paragraph, and "Also easier said than done" without its "Also". -->
+
+#### Can they change?
+
 You may not know for certain whether the other person is or could be capable of a healthier response, and neither do they. If they promise to change, that's probably as useful as their prior promises were. Think about how long it has taken you to become more healthy. Could you have done that from one moment to the next based on a promise? Sometimes we can be a better support for someone when we maintain a realistic boundary, so that we can hold high expectations, and still feel prepared for their failure to meet them.
 
 <!-- 2026-09-30: Joel's Substack note, pasted as a bare URL on its own line so Substack shows its preview card (Joel, 03:29 UTC: "no code needed just paste it like that exactly (that's how substack will know to pull up the preview for it)"). It's his reply to another Substacker's note about trusting people who trust people who disrespect you, and he wants it here as an exchange with other Substackers: "it reads also more human and captivating when it's a back-and-forth discussion with other substackers rather than just the narrative voice all the time". He guessed "Also Look Outward or so"; it goes after this paragraph because the paragraph is about what you can still count on someone for, and his reply is about trust being granular. It isn't prose, so it's left out of Pangram checks. -->
@@ -1844,9 +1935,17 @@ https://substack.com/profile/355021294-u-dont-existcom/note/c-349048098
 
 <!-- 2026-10-07 (turn 35): this paragraph and the three after it are Joel's own fix of the run Pangram flagged in turn 34 (23:18 UTC: "Here i fixed the red sections for you, this is human high conf learn some lessons"), word for word, with his characters (the double hyphen in C1 too); no punctuation fix was needed. Was: the relationship paragraph ending "…and whether either may be due to a lack of the healed inner child/inner adult relationship.", "If you really did hurt them, repair it." alone, the apology paragraph from the September lane, and my C1 (PGQ-002, turn 31). Pangram 4.0 through the dashboard: alone 100% Human (80, 88 and 105; the repair line is 14 words); Your Body Might Need Some Love First 100% Human (2,181); Before You Try to Go Deep 100% Human (3,005), so the h1's 3% window from turn 34 is gone. -->
 
-If [a relationship](https://romance.u-dont-exist.com) keeps making you feel less safe, meditate on why it makes you feel unsafe, and what keeps you in it. Might it be due to a lack of the healed inner child/inner adult relationship? (If so, you're reading the right guide!) But if they've actually hurt or threatened you, even once, old stuff or not, get safe first, which is not a small thing at all, I know.
+#### If [a relationship](https://romance.u-dont-exist.com) keeps making you feel less safe
 
-If you really did hurt them, repair it. Also easier said than done, but...
+Meditate on why it makes you feel unsafe, and what keeps you in it. Might it be due to a lack of the healed inner child/inner adult relationship? (If so, you're reading the right guide!)
+
+#### If they've actually hurt or threatened you
+
+Even once, old stuff or not, get safe first, which is not a small thing at all, I know.
+
+#### If you really did hurt them
+
+Repair it. Easier said than done, but...
 
 You can mean the apology for a start. Then notice what happens next. Are you sorry for what you did, or are you starting to take back the complaint too because they're still upset? Maybe your first explanation sucked. Try again. 😅 And if it fails again, and you've said what you mean, well, you can't guarantee they'll understand it. Guilt may keep shouting at you. That doesn't tell you the whole conflict was your fault, nor does it prove they're manipulating you.
 
@@ -1902,7 +2001,6 @@ Before giving anyone advice, your little one included, it can help to find out w
 
 <!-- Turn 103 (his answers of 2026-10-23 21:52 UTC, experiments/t103-answers/JOEL-20261023-2152.md): 98.10 A (his "98. agree cut all"): cut "(And don't guess it from their gender or some other stereotype.)". The original is in experiments/t102-safety/SAFETY-CUTS.md. -->
 
-
 <!-- Turn 78 (Joel's answer to question 70: A, 2026-10-21 00:49 UTC, experiments/t78-answers/JOEL-20261021-0049.md; GPT's r03 files in experiments/t78-structure/gpt-r03/): GPT's new heading for the peer-counseling paragraphs (M07); its wording, which Joel can change. -->
 
 ## Hearthwork: Taking Turns
@@ -1951,7 +2049,11 @@ The understanding that helps me is seeing how a person's conditioning, history, 
 
 <!-- Turn 73 (his answers of 2026-10-18 21:58 UTC (experiments/t73-answers/JOEL-20261018-2158.md)): 55, 14, A ("remove that clause it is just confusing"): "and in theory they could have done something else" is out. experiments/t73-guide/drafts/c55-14.txt. Alone Human Written (0.21, high), https://www.pangram.com/history/ac25bc6d-2e5c-4f30-a38d-b9cce909f093; How to Forgive Without Forgetting with it Human Written (0.082, high, 504 words), https://www.pangram.com/history/3ac748b7-a43f-4904-8861-ff5ecf566c98 (round t73a). -->
 
-They still have to answer for what they did, and it still hurt. Seeing how they got there doesn't make it okay. It's just that punishing them now can't reach back and give them what they were missing then, the sense to see it or the help. Or the skills. What's left is fixing what can be fixed, and making it easier for something different to happen now. So a boundary can still be right. So can the law, if it comes to that, or telling them plainly it was wrong (or telling yourself, if they'd never hear it). Keeping away from them for good can be right too, and you can still forgive them from over there. Understanding somebody's limitations should make my expectations more realistic, not make those limitations less consequential. "I understand how you became this way" can sit right next to "I now understand why I shouldn't rely on you for this."
+<!-- Turn 114 (his answers of 2026-10-26 00:52 UTC from the turn-113 review sheet, experiments/t114-answers/ANSWERS-20261026-0052.json): R-forgive approved, its last paragraph split before "So a boundary can still be right.". -->
+
+They still have to answer for what they did, and it still hurt. Seeing how they got there doesn't make it okay. It's just that punishing them now can't reach back and give them what they were missing then, the sense to see it or the help. Or the skills. What's left is fixing what can be fixed, and making it easier for something different to happen now.
+
+So a boundary can still be right. So can the law, if it comes to that, or telling them plainly it was wrong (or telling yourself, if they'd never hear it). Keeping away from them for good can be right too, and you can still forgive them from over there. Understanding somebody's limitations should make my expectations more realistic, not make those limitations less consequential. "I understand how you became this way" can sit right next to "I now understand why I shouldn't rely on you for this."
 
 <!-- Turn 65 and 66 (E180), my own draft, joined: writer 2's Human first 66 words (fg1p4b w2) and a new second half (round z16, w5), then the cold read's fix (COLD-READ-fg-1.md: "they" had no referent in a paragraph about forgiving yourself; now "whoever did it", which covers you or them, as the guide's inquiry does). Forgiving yourself works the same way, with the grounding's MUST (GROUNDING-fg01.md [17]): own only what was yours, feel the remorse, repair what you can, then stop holding yourself hostage while the responsibility stays; if that's hard, forgiving others tends to be harder too; some harms take years; forgiving too soon and living in resentment are the two traps (the guide's own repeat of P1's point, with the other trap added); come back now and then to how whoever did it became capable of it. Alone Human Written (0.066, medium), https://www.pangram.com/history/1a3add5b-e0e3-46ea-a554-c33cebc1d874 (w5 before the fix 0.096). -->
 
@@ -2007,15 +2109,25 @@ All of this happens in you, so it doesn't matter whether they get any of it. And
 
 We all need some support, especially when taking our first steps. First and easiest is to start with finding a somatic therapist, if that resonates, as per my [Somatic Therapies Guide](http://somatic.u-dont-exist.com/).
 
+<!-- Turn 114 (his answers of 2026-10-26 00:52 UTC from the turn-113 review sheet, experiments/t114-answers/ANSWERS-20261026-0052.json): H-therapist approved, four case headings, his "Inner Child Reparenting therapists", "Before choosing a therapist" and "AI therapy", and "If you want a licensed therapist", which the gate admitted. -->
+
+#### Inner Child Reparenting therapists
+
 Inner Child Reparenting therapists do exist, and you can find them, although they often are not licensed, and I don't know of any central directory, nor of any protocol they'd have in common. There are none which work with my guide yet. I can consult, and if you like the guide, you can ask a therapist to check it out and see what they agree with or disagree with as a great way to vet them.
+
+#### If you want a licensed therapist
 
 The best licensed, listed therapists you'll find that come close will be doing Internal Family Systems (IFS), or Schema Therapy. I'll talk more about those in the appendix, but Schema Therapy comes closest to my approach. [Open Path Collective](https://openpathcollective.org/pricing-and-eligibility-for-affordable-therapy/) (or a similar resource in your country) lists thousands of affordable therapists. You can filter them by Schema or IFS. You can often find [even more Schema therapists at the official site](https://schematherapysociety.org/Search?&tab=1).
 
 <!-- Turn 75 (his answer of 2026-10-19 00:26 UTC (experiments/t75-answers/JOEL-20261019-0026.md)): 63, A: one sentence of mine added to his P4, after his spiritual-experiences sentence, for his guide's safety points that the removed IFS P8 carried ("a skilled, grounded, trauma-informed IFS therapist who isn't suggestive may help, especially one who understands dissociation"). The rest is his, word for word. experiments/t75-guide/drafts/fat4-b.txt. Alone Human Written (0.022, medium), https://www.pangram.com/history/f41601f7-d9bc-4575-a731-1baaf677279f; Finding a Therapist to Borrow Adulthood with it Human Written (0.00037, high, 418 words), https://www.pangram.com/history/4aa96771-0baf-4f97-8d71-838af7500b2f (round t75a). -->
 
-Before choosing a therapist, get to know the strengths and pitfalls of their approach, including any modifications they make to the standard protocol. I'd especially want to interview them regarding how they treat spiritual experiences. You want someone who won't tell you what yours really mean, downplay them, force them, or treat them as a symptom. I'd also want one who doesn't put ideas in your head, and who understands dissociation. What have they found too challenging to deal with so far, and where have they seen the best results? A good therapist won't charge you an arm and a leg just for this kind of interview, and they should already have this information on their website to avoid wasting too much time. A certificate on the wall can't tell you any of that.
+#### Before choosing a therapist
 
-Regarding AI therapy, I've tried all the top AI therapy apps, and they're all pretty bad. I'm trying to make my own based on this guide, but I'm becoming more convinced that unsupervised AI therapy is just a toss up. That doesn't mean you can't get a lot of great insights sometimes when talking to AI, though, but just expect it to go sideways sometimes.
+Get to know the strengths and pitfalls of their approach, including any modifications they make to the standard protocol. I'd especially want to interview them regarding how they treat spiritual experiences. You want someone who won't tell you what yours really mean, downplay them, force them, or treat them as a symptom. I'd also want one who doesn't put ideas in your head, and who understands dissociation. What have they found too challenging to deal with so far, and where have they seen the best results? A good therapist won't charge you an arm and a leg just for this kind of interview, and they should already have this information on their website to avoid wasting too much time. A certificate on the wall can't tell you any of that.
+
+#### AI therapy
+
+I've tried all the top AI therapy apps, and they're all pretty bad. I'm trying to make my own based on this guide, but I'm becoming more convinced that unsupervised AI therapy is just a toss up. That doesn't mean you can't get a lot of great insights sometimes when talking to AI, though, but just expect it to go sideways sometimes.
 
 # You Are Worthy of Love. Always.
 
