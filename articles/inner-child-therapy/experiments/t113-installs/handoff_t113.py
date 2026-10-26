@@ -26,6 +26,7 @@ turn113 = '\n'.join([
     '  - Gate (experiments/t113-gate/GATE.md): three rounds; every item with new words (the new headings and the Solomon sentence) through tools/humanization/owner_delivery_gate.py, three fresh Sonnet reviewers per role; a round-3 FAIL fell back to the paragraph\'s own words, never redrafted (GATE.md); the sheet shows only delivered bytes (t113-review/build_review.py refuses otherwise). Four cold reads of every proposed section, and what I did with each note: experiments/t113-shape/COLD-READ.md.',
     '  - The sheet: experiments/t113-review/ (CARDS.json, build_review.py, REVIEW.json, REVIEW.html), published to https://claude.ai/artifact/LTEDB18wTYzuUkgobzbUrn (this account only can republish). tools/humanization/suggestion_review.py 1.2 shows a new heading inside a whole passage with its Markdown #s.',
     '  - Pangram: not run this turn (his "no point checking the drafts at this point, we are about to make major edits"); the two temporary drafts still hold round 7\'s text, and the next check puts in what he approves from the sheet (experiments/t113-substack/ holds the tools, unrun).',
+    '  - Lessons: E275 (Inner Child), a case heading sits below the subsections its section already has, and the reader of one section gets the outline around it (docs/HUMANIZATION-GATE.md). The next lesson in either lane is E276 (the community lane\'s turn took E272 to E274 while this one ran).',
     '  - NEXT: Next step 1.',
 ])
 next1 = ('1. GPT\'s review of the turn-113 sheet, when he pastes it (into experiments/t114-answers/ first, E174). Take GPT\'s advice card '
@@ -37,6 +38,7 @@ next1 = ('1. GPT\'s review of the turn-113 sheet, when he pastes it (into experi
 upd = {
     'turn': '113',
     'replace': [
+        [e('The next lesson in either lane is E272.'), 'The next lesson in either lane was E272 then (the community lane then took E272 to E274).', 1],
         [e('TURN 112 (2026-10-25, his message of 2026-10-25 21:40 UTC; by %s), the latest; its next step wins over everything below. Branch %s; %s for him to merge.' % (S, BR, OLDPR)),
          'TURN 112 (2026-10-25, his message of 2026-10-25 21:40 UTC; by %s), FINISHED. Branch %s; %s, merged.' % (S, BR, OLDPR), 1],
         [e('this version is from turn 112 (his message of 2026-10-25 21:40 UTC; pull request #250 for him to merge).'),
