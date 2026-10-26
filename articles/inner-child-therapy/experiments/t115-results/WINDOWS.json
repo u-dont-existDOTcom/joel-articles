@@ -1,0 +1,3570 @@
+{
+ "about": "Turn 115: every window round 8 read below Human with High confidence, by section, beside what round 6 read for the same\nwords (Joel, 2026-10-26 12:24 UTC: \"let's start prioritizing working now on spots that are not high confidence human ...\nit's important data to see in a large pangram test what's not high conf human, for learning\").",
+ "halves": {
+  "A": "https://www.pangram.com/feed/909d378e-11d2-4722-b988-a508256c78b4",
+  "B": "https://www.pangram.com/feed/bd483bd6-edab-4f39-834c-3d959b0abb72"
+ },
+ "round6": {
+  "A": "https://www.pangram.com/feed/41dfb451-494d-4a13-a76c-335d372dbd4a",
+  "B": "https://www.pangram.com/feed/64c71597-3987-48a7-8431-c8bdc70fddcc"
+ },
+ "items": [
+  {
+   "half": "A",
+   "i": 1,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 7,
+   "ai_likelihood": 4.10504194672752e-16,
+   "calibrated_confidence": 0.9892702731203206,
+   "highlighted": false,
+   "start": 904,
+   "end": 945,
+   "text": "At first, it’s deliberate, even awkward.",
+   "section": [],
+   "paragraphs": [
+    {
+     "line": 3,
+     "before": "Reparenting means consciously evolving and molding an Inner Adult inside you, comprising a loving Nurturer, a safe Adult Protector (hereafter just the Protector) and a wise Guide. This chosen Inner Adult super hero gets into a real, loving relationship with the little one you still carry. That grown-up notices the old patterns and practices better ways of responding.",
+     "window": " At first, it’s deliberate, even awkward.",
+     "after": " With time, the roles become second nature, so you spend less of your life managing yourself and more of it living with purpose, loving, relaxing, and playing."
+    }
+   ],
+   "whose": "his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      7
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w001",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "A",
+   "i": 3,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 1,
+   "ai_likelihood": 4.886139710609354e-14,
+   "calibrated_confidence": 0.9852900666629938,
+   "highlighted": false,
+   "start": 6298,
+   "end": 6300,
+   "text": "3.",
+   "section": [
+    "The Chicken-and-Egg Problem",
+    "Five Stages of Reparenting"
+   ],
+   "paragraphs": [
+    {
+     "line": 16,
+     "before": "1. You’re still stuck identifying as the lost inner child, forced frequently into handling situations that require more maturity, even if it looks like you’ve got it all together. At this stage, use your childlike superpowers to come into the “Wow of Now” (have you seen the movie Waking Life?), and make sure there’s enough safety around you to continue with reparenting:2. Begin to borrow adulthood — remember watching Mr. Rogers or Sesame Street? Those adult role models are what we’re looking for at this stage. This can almost feel like playing house as a kid where you imagined how you’d take care of a baby doll etc. ",
+     "window": "3.",
+     "after": " Practice adulting — do at least one part of caring for yourself while support is still there from the previous step.4. Adult mode itself — after sufficient practice with reparenting, you become a natural at sending love to little you, protecting them, and directing them. 5. Adult and child in relationship — the adult leads. The child isn’t pushed away, but doesn’t have to run the whole life alone. This can actually feel really weird if you’ve been stuck in forced adulthood for a while. Our goal is to go from weird to silly and playful. Lose self-consciousness while gaining self-awareness, if that makes sense!"
+    }
+   ],
+   "whose": "too short to say",
+   "round6": null,
+   "kind": "seam",
+   "id": "r8w002",
+   "round6_text": "not in round 6 as it is now"
+  },
+  {
+   "half": "A",
+   "i": 5,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 1,
+   "ai_likelihood": 3.3159897896116453e-13,
+   "calibrated_confidence": 0.9786812097174021,
+   "highlighted": false,
+   "start": 6573,
+   "end": 6575,
+   "text": "5.",
+   "section": [
+    "The Chicken-and-Egg Problem",
+    "Five Stages of Reparenting"
+   ],
+   "paragraphs": [
+    {
+     "line": 16,
+     "before": "1. You’re still stuck identifying as the lost inner child, forced frequently into handling situations that require more maturity, even if it looks like you’ve got it all together. At this stage, use your childlike superpowers to come into the “Wow of Now” (have you seen the movie Waking Life?), and make sure there’s enough safety around you to continue with reparenting:2. Begin to borrow adulthood — remember watching Mr. Rogers or Sesame Street? Those adult role models are what we’re looking for at this stage. This can almost feel like playing house as a kid where you imagined how you’d take care of a baby doll etc. 3. Practice adulting — do at least one part of caring for yourself while support is still there from the previous step.4. Adult mode itself — after sufficient practice with reparenting, you become a natural at sending love to little you, protecting them, and directing them. ",
+     "window": "5.",
+     "after": " Adult and child in relationship — the adult leads. The child isn’t pushed away, but doesn’t have to run the whole life alone. This can actually feel really weird if you’ve been stuck in forced adulthood for a while. Our goal is to go from weird to silly and playful. Lose self-consciousness while gaining self-awareness, if that makes sense!"
+    }
+   ],
+   "whose": "too short to say",
+   "round6": null,
+   "kind": "seam",
+   "id": "r8w003",
+   "round6_text": "not in round 6 as it is now"
+  },
+  {
+   "half": "A",
+   "i": 7,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 9,
+   "ai_likelihood": 8.991468865033464e-14,
+   "calibrated_confidence": 0.9821373680795109,
+   "highlighted": false,
+   "start": 7295,
+   "end": 7338,
+   "text": "Say your boss asks you to stay late again.",
+   "section": [
+    "The Chicken-and-Egg Problem",
+    "Five Stages of Reparenting"
+   ],
+   "paragraphs": [
+    {
+     "line": 18,
+     "before": "Reparenting isn’t an exercise you finish, after all.",
+     "window": " Say your boss asks you to stay late again.",
+     "after": " You tell them no and go home feeling okay about it, and nobody had to cry on a meditation cushion for that to happen. The cushion was practice for it."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      9
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w004",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "A",
+   "i": 9,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 6,
+   "ai_likelihood": 9.560702229904905e-11,
+   "calibrated_confidence": 0.9496322353693636,
+   "highlighted": false,
+   "start": 7456,
+   "end": 7489,
+   "text": "The cushion was practice for it.",
+   "section": [
+    "The Chicken-and-Egg Problem",
+    "Five Stages of Reparenting"
+   ],
+   "paragraphs": [
+    {
+     "line": 18,
+     "before": "Reparenting isn’t an exercise you finish, after all. Say your boss asks you to stay late again. You tell them no and go home feeling okay about it, and nobody had to cry on a meditation cushion for that to happen.",
+     "window": " The cushion was practice for it.",
+     "after": ""
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      6
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w005",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "A",
+   "i": 11,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 1,
+   "ai_likelihood": 2.1775982059213383e-11,
+   "calibrated_confidence": 0.9612121212121212,
+   "highlighted": false,
+   "start": 8911,
+   "end": 8918,
+   "text": "Great.",
+   "section": [
+    "My Journey"
+   ],
+   "paragraphs": [
+    {
+     "line": 23,
+     "before": "Spending your whole life processing your wounded inner child isn’t freedom either. Spirituality opened a much bigger horizon for me—love and happiness beyond the conditions of my life story. Maybe ordinary life already gives you enough love and meaning.",
+     "window": " Great.",
+     "after": " It didn’t for me. Conditional love felt radically insufficient, so I kept looking for something deeper."
+    }
+   ],
+   "whose": "too short to say",
+   "round6": null,
+   "kind": "seam",
+   "id": "r8w006",
+   "round6_text": "not in round 6 as it is now"
+  },
+  {
+   "half": "A",
+   "i": 13,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 16,
+   "ai_likelihood": 8.564886936818553e-16,
+   "calibrated_confidence": 0.988752968588968,
+   "highlighted": false,
+   "start": 13434,
+   "end": 13533,
+   "text": "Your Protector has to catch the moment compassion starts explaining away what you’ve already seen.",
+   "section": [
+    "My Journey",
+    "Don’t Give the Inner Adult Away",
+    "Signs of Manipulation"
+   ],
+   "paragraphs": [
+    {
+     "line": 37,
+     "before": "Some manipulative people are too smart to act perfect. They lead with their wounds, or with how brutally honest they are about their flaws (very disarming, which is sort of the point), and every warning you hear about them just becomes more proof of how deep they are.",
+     "window": " Your Protector has to catch the moment compassion starts explaining away what you’ve already seen.",
+     "after": " “I have honesty issues and I’m working on them” may be a perfectly honest thing to say. It’s also telling you there’s an honesty problem right now, and knowing about a problem isn’t fixing it."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      16
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w007",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "A",
+   "i": 15,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 6,
+   "ai_likelihood": 2.317250124422854e-12,
+   "calibrated_confidence": 0.9750844404360536,
+   "highlighted": false,
+   "start": 14234,
+   "end": 14273,
+   "text": "Borrow adulthood. Do not surrender it.",
+   "section": [
+    "My Journey",
+    "Don’t Give the Inner Adult Away",
+    "Signs of Manipulation"
+   ],
+   "paragraphs": [
+    {
+     "line": 40,
+     "before": "",
+     "window": "Borrow adulthood. Do not surrender it.",
+     "after": ""
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      6
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w008",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "A",
+   "i": 17,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 20,
+   "ai_likelihood": 2.0396107830553296e-14,
+   "calibrated_confidence": 0.9856644562842577,
+   "highlighted": false,
+   "start": 20548,
+   "end": 20642,
+   "text": "A real parent doesn’t get to do that, which is one reason nobody manages to be a perfect one.",
+   "section": [
+    "Before You Try to Go Deep",
+    "When the Present-Day Adult Is Dangerous to the Child"
+   ],
+   "paragraphs": [
+    {
+     "line": 57,
+     "before": "This part tends to scare the wrong people, like somebody who’s horrified by their own thoughts. Everybody gets scary thoughts they’d rather not have sometimes, and they don’t make you a bad person, but why would you bring your inner child into the middle of them? The nice thing about inner child therapy is that you can wait until you’re calm and actually ready.",
+     "window": " A real parent doesn’t get to do that, which is one reason nobody manages to be a perfect one.",
+     "after": ""
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "High",
+      605
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w009",
+   "round6_text": "Human, High"
+  },
+  {
+   "half": "A",
+   "i": 19,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 8,
+   "ai_likelihood": 8.657523482835661e-13,
+   "calibrated_confidence": 0.9763021576865032,
+   "highlighted": false,
+   "start": 23551,
+   "end": 23594,
+   "text": "How would they sit beside your little one?",
+   "section": [
+    "Borrow the Adult Before You Can Be the Adult",
+    "Borrow One Competency at a Time",
+    "For warmth"
+   ],
+   "paragraphs": [
+    {
+     "line": 66,
+     "before": "Think of someone you remember fondly.",
+     "window": " How would they sit beside your little one?",
+     "after": " Just make sure it’s someone who liked you the way you were."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Low",
+      16
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w010",
+   "round6_text": "Human, Low"
+  },
+  {
+   "half": "A",
+   "i": 21,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 9,
+   "ai_likelihood": 2.2825299643940275e-15,
+   "calibrated_confidence": 0.9885824464565888,
+   "highlighted": false,
+   "start": 23654,
+   "end": 23706,
+   "text": "Ask what a minimally competent adult would do here.",
+   "section": [
+    "Borrow the Adult Before You Can Be the Adult",
+    "Borrow One Competency at a Time",
+    "For protecting"
+   ],
+   "paragraphs": [
+    {
+     "line": 67,
+     "before": "",
+     "window": "Ask what a minimally competent adult would do here.",
+     "after": " Maybe something simple, like actually smelling that old food you’re about to eat and then trashing it if it smells a little weird. If you’re about to send an angry text, hit pause. If the room itself triggers your spidey sense, leave, or lock the door and get help. Even if this still feels like the child acting like the adult, for now, that’s ok. “Fake it til you make it” isn’t exactly it, but yeah. Afterward, you can tell your little one, “I did that for us. That was the Protector.” If it sounds funny, laugh!"
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": null,
+   "kind": "stretch",
+   "id": "r8w011",
+   "round6_text": "not in round 6 as it is now"
+  },
+  {
+   "half": "A",
+   "i": 23,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 3,
+   "ai_likelihood": 2.299238707412221e-12,
+   "calibrated_confidence": 0.9713161933998465,
+   "highlighted": false,
+   "start": 24731,
+   "end": 24746,
+   "text": "Love them how?",
+   "section": [
+    "Borrow the Adult Before You Can Be the Adult",
+    "Borrow One Competency at a Time",
+    "If the Love Isn't Coming Yet"
+   ],
+   "paragraphs": [
+    {
+     "line": 69,
+     "before": "If you weren’t loved well as a child, “love your inner child” can sound like nonsense.",
+     "window": " Love them how?",
+     "after": " Maybe you really want the best for your little one. Maybe you hug them in your imagination, or miss them. And you can still feel none of the warmth people mean when they say love. That doesn’t close the door, though, it just means you start smaller."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      3
+     ]
+    ]
+   },
+   "kind": "seam",
+   "id": "r8w012",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "A",
+   "i": 25,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 13,
+   "ai_likelihood": 3.182017502137771e-14,
+   "calibrated_confidence": 0.9855219342695817,
+   "highlighted": false,
+   "start": 24926,
+   "end": 24996,
+   "text": "That doesn’t close the door, though, it just means you start smaller.",
+   "section": [
+    "Borrow the Adult Before You Can Be the Adult",
+    "Borrow One Competency at a Time",
+    "If the Love Isn't Coming Yet"
+   ],
+   "paragraphs": [
+    {
+     "line": 69,
+     "before": "If you weren’t loved well as a child, “love your inner child” can sound like nonsense. Love them how? Maybe you really want the best for your little one. Maybe you hug them in your imagination, or miss them. And you can still feel none of the warmth people mean when they say love.",
+     "window": " That doesn’t close the door, though, it just means you start smaller.",
+     "after": ""
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      13
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w013",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "A",
+   "i": 27,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 3,
+   "ai_likelihood": 5.994465932004076e-16,
+   "calibrated_confidence": 0.9892636312535132,
+   "highlighted": false,
+   "start": 25229,
+   "end": 25247,
+   "text": "It’s scaffolding.",
+   "section": [
+    "Borrow the Adult Before You Can Be the Adult",
+    "Borrow One Competency at a Time",
+    "If the Love Isn't Coming Yet"
+   ],
+   "paragraphs": [
+    {
+     "line": 70,
+     "before": "Maybe just imagining a caring grown-up makes you feel more threatened, or lonelier. Lonelier is a strange one, with somebody right there. Then go smaller still, to the least cruel response a decent adult could offer your little one.",
+     "window": " It’s scaffolding.",
+     "after": ""
+    }
+   ],
+   "whose": "too short to say",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      3
+     ]
+    ]
+   },
+   "kind": "seam",
+   "id": "r8w014",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "A",
+   "i": 29,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 18,
+   "ai_likelihood": 2.643426276482952e-12,
+   "calibrated_confidence": 0.9813958631984784,
+   "highlighted": false,
+   "start": 28057,
+   "end": 28162,
+   "text": "Maybe you’re more worn out now, or missing whatever helped back then. (No example? Try another doorway.)",
+   "section": [
+    "Borrow the Adult Before You Can Be the Adult",
+    "Remember When You Already Did It"
+   ],
+   "paragraphs": [
+    {
+     "line": 77,
+     "before": "My father often suggested folks remember a similar-level (or even harder) challenge that they were able to handle. Maybe you survived a car crash and surgery a few years ago, but now you’re having trouble with emotional eating. You can draw strength from the past. As my sister, a historian, likes to say, “The past didn’t go anywhere.” Your own challenge doesn’t need to be as dramatic as a car crash, as long as it really happened. So who or what helped you get through it? Is one piece of that still within reach? If you catch yourself thinking “I survived a car crash, so why can’t I stop eating when I’m upset?”, that’s the past turned into a stick to hit yourself with.",
+     "window": " Maybe you’re more worn out now, or missing whatever helped back then. (No example? Try another doorway.)",
+     "after": ""
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "High",
+      198
+     ],
+     [
+      "Human",
+      "Medium",
+      5
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w015",
+   "round6_text": "Human, Medium (the lowest of 2 windows over these words)"
+  },
+  {
+   "half": "A",
+   "i": 31,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 21,
+   "ai_likelihood": 6.985051426156019e-10,
+   "calibrated_confidence": 0.9430375018323391,
+   "highlighted": false,
+   "start": 28216,
+   "end": 28329,
+   "text": "I hate myself.” If that’s what you find, it deserves an honest hearing. Just listen to it, without arguing back.",
+   "section": [
+    "Borrow the Adult Before You Can Be the Adult",
+    "Notice the Part That Came Here"
+   ],
+   "paragraphs": [
+    {
+     "line": 78,
+     "before": "Some people hear all this about love and answer, “No.",
+     "window": " I hate myself.” If that’s what you find, it deserves an honest hearing. Just listen to it, without arguing back.",
+     "after": " But if you opened this article, something in you wanted things to be different, whatever the rest of you was saying. The same goes if you came to therapy or asked someone for help. Or maybe you’d already decided you were hopeless, and then for some reason you tried again."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      21
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w016",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "A",
+   "i": 33,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 3,
+   "ai_likelihood": 1.2113410968739302e-11,
+   "calibrated_confidence": 0.9625564139830184,
+   "highlighted": false,
+   "start": 28602,
+   "end": 28615,
+   "text": "What was it?",
+   "section": [
+    "Borrow the Adult Before You Can Be the Adult",
+    "Notice the Part That Came Here"
+   ],
+   "paragraphs": [
+    {
+     "line": 79,
+     "before": "",
+     "window": "What was it?",
+     "after": " It might have been hope, or desperation. Maybe you were curious, or scared. Some people come here out of duty. Or it was more like, “I’m not going to keep suffering like this.” And maybe it was love. You don’t need to decide which. Ask that part what it hoped might happen when it brought you here, and follow that thread."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      3
+     ]
+    ]
+   },
+   "kind": "seam",
+   "id": "r8w017",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "A",
+   "i": 35,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 13,
+   "ai_likelihood": 2.231068107106678e-16,
+   "calibrated_confidence": 0.9892806047727764,
+   "highlighted": false,
+   "start": 28656,
+   "end": 28726,
+   "text": "Maybe you were curious, or scared. Some people come here out of duty.",
+   "section": [
+    "Borrow the Adult Before You Can Be the Adult",
+    "Notice the Part That Came Here"
+   ],
+   "paragraphs": [
+    {
+     "line": 79,
+     "before": "What was it? It might have been hope, or desperation.",
+     "window": " Maybe you were curious, or scared. Some people come here out of duty.",
+     "after": " Or it was more like, “I’m not going to keep suffering like this.” And maybe it was love. You don’t need to decide which. Ask that part what it hoped might happen when it brought you here, and follow that thread."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "High",
+      39
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w018",
+   "round6_text": "Human, High"
+  },
+  {
+   "half": "A",
+   "i": 37,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 7,
+   "ai_likelihood": 1.3146445737577395e-12,
+   "calibrated_confidence": 0.9738478027867096,
+   "highlighted": false,
+   "start": 28815,
+   "end": 28847,
+   "text": "You don’t need to decide which.",
+   "section": [
+    "Borrow the Adult Before You Can Be the Adult",
+    "Notice the Part That Came Here"
+   ],
+   "paragraphs": [
+    {
+     "line": 79,
+     "before": "What was it? It might have been hope, or desperation. Maybe you were curious, or scared. Some people come here out of duty. Or it was more like, “I’m not going to keep suffering like this.” And maybe it was love.",
+     "window": " You don’t need to decide which.",
+     "after": " Ask that part what it hoped might happen when it brought you here, and follow that thread."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      7
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w019",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "A",
+   "i": 39,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 5,
+   "ai_likelihood": 2.2179971075932114e-13,
+   "calibrated_confidence": 0.9801073571203032,
+   "highlighted": false,
+   "start": 29540,
+   "end": 29568,
+   "text": "Watch how it lands, though.",
+   "section": [
+    "Borrow the Adult Before You Can Be the Adult",
+    "Borrow Love—or Borrow the Perspective of Care"
+   ],
+   "paragraphs": [
+    {
+     "line": 81,
+     "before": "",
+     "window": "Watch how it lands, though.",
+     "after": " “I care about you” can be patient, or it can be “I care about you, now hurry up and feel better.” Getting close can be too much, too, the way kids squirm away from an aunt they barely know who goes in for the big hug, and then climb all over the uncle who’s just sitting there. And if nothing moves at all, don’t push it. Knowing that love is in you somewhere counts for a lot, and you’re borrowing something you already know how to do."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      5
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w020",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "A",
+   "i": 41,
+   "label": "Human",
+   "confidence": "Low",
+   "words": 10,
+   "ai_likelihood": 7.65837526728319e-08,
+   "calibrated_confidence": 0.8291187739463601,
+   "highlighted": true,
+   "start": 29846,
+   "end": 29890,
+   "text": "And if nothing moves at all, don’t push it.",
+   "section": [
+    "Borrow the Adult Before You Can Be the Adult",
+    "Borrow Love—or Borrow the Perspective of Care"
+   ],
+   "paragraphs": [
+    {
+     "line": 81,
+     "before": "Watch how it lands, though. “I care about you” can be patient, or it can be “I care about you, now hurry up and feel better.” Getting close can be too much, too, the way kids squirm away from an aunt they barely know who goes in for the big hug, and then climb all over the uncle who’s just sitting there.",
+     "window": " And if nothing moves at all, don’t push it.",
+     "after": " Knowing that love is in you somewhere counts for a lot, and you’re borrowing something you already know how to do."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      10
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w021",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "A",
+   "i": 43,
+   "label": "AI",
+   "confidence": "Low",
+   "words": 37,
+   "ai_likelihood": 0.9999424815177917,
+   "calibrated_confidence": 0.6684888715345568,
+   "highlighted": true,
+   "start": 30379,
+   "end": 30569,
+   "text": "Then take a small piece of whatever you’d tell them and hand it to yourself. If the advice was “get more sleep,” then for now just try brushing your teeth before midnight instead of at two.",
+   "section": [
+    "Borrow the Adult Before You Can Be the Adult",
+    "Borrow Love—or Borrow the Perspective of Care"
+   ],
+   "paragraphs": [
+    {
+     "line": 83,
+     "before": "",
+     "window": "Then take a small piece of whatever you’d tell them and hand it to yourself. If the advice was “get more sleep,” then for now just try brushing your teeth before midnight instead of at two.",
+     "after": " That’s how you learn as a kid, and it works now, too. The technical term for this is “scaffolding.”"
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      37
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w022",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "A",
+   "i": 44,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 13,
+   "ai_likelihood": 3.458359432162439e-10,
+   "calibrated_confidence": 0.9333150006874743,
+   "highlighted": false,
+   "start": 30569,
+   "end": 30623,
+   "text": "That’s how you learn as a kid, and it works now, too.",
+   "section": [
+    "Borrow the Adult Before You Can Be the Adult",
+    "Borrow Love—or Borrow the Perspective of Care"
+   ],
+   "paragraphs": [
+    {
+     "line": 83,
+     "before": "Then take a small piece of whatever you’d tell them and hand it to yourself. If the advice was “get more sleep,” then for now just try brushing your teeth before midnight instead of at two.",
+     "window": " That’s how you learn as a kid, and it works now, too.",
+     "after": " The technical term for this is “scaffolding.”"
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "High",
+      1241
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w023",
+   "round6_text": "Human, High"
+  },
+  {
+   "half": "A",
+   "i": 46,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 16,
+   "ai_likelihood": 7.249387065613093e-16,
+   "calibrated_confidence": 0.988752968588968,
+   "highlighted": false,
+   "start": 30954,
+   "end": 31046,
+   "text": "Or picture the two of you washing the dishes together, nobody asking anybody how they feel.",
+   "section": [
+    "Borrow the Adult Before You Can Be the Adult",
+    "Borrow Love—or Borrow the Perspective of Care",
+    "Show Up When Nothing's Wrong"
+   ],
+   "paragraphs": [
+    {
+     "line": 84,
+     "before": "If the only time the Nurturer shows up is when something’s wrong, your little one can start to feel like they’re your job. Sometimes show up just to say “I’m glad you’re here,” and then enjoy them for a minute, the way you’d enjoy a little kid who wants to show you a rock they found.",
+     "window": " Or picture the two of you washing the dishes together, nobody asking anybody how they feel.",
+     "after": ""
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "High",
+      1241
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w024",
+   "round6_text": "Human, High"
+  },
+  {
+   "half": "A",
+   "i": 48,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 12,
+   "ai_likelihood": 5.008197179484522e-16,
+   "calibrated_confidence": 0.9892702731203206,
+   "highlighted": false,
+   "start": 37149,
+   "end": 37210,
+   "text": "Kids quit piano over one bad teacher, and this is way worse.",
+   "section": [
+    "Borrow the Adult Before You Can Be the Adult",
+    "Borrow Love—or Borrow the Perspective of Care",
+    "When the Spiritual Relationship Hurts"
+   ],
+   "paragraphs": [
+    {
+     "line": 98,
+     "before": "If a spiritual teacher you trusted betrayed you, even sitting down to meditate can feel like it belongs to them now.",
+     "window": " Kids quit piano over one bad teacher, and this is way worse.",
+     "after": " But if you let an abuser control your appreciation of life, then you’ve given them an unearned win."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Low",
+      12
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w025",
+   "round6_text": "Human, Low"
+  },
+  {
+   "half": "A",
+   "i": 50,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 3,
+   "ai_likelihood": 1.9931720746671705e-15,
+   "calibrated_confidence": 0.9885824464565888,
+   "highlighted": false,
+   "start": 38020,
+   "end": 38038,
+   "text": "Set one boundary.",
+   "section": [
+    "Building Trust With Your Little One",
+    "Not Every Hero Wears A Cape"
+   ],
+   "paragraphs": [
+    {
+     "line": 101,
+     "before": "",
+     "window": "Set one boundary.",
+     "after": " “What’s a ‘boundary’?”, I might be asking. That looks like saying no to something that’s costing you too much (money, time, whatever it is). Handle that task you’ve been putting off, or the tax man, or your DUIs in Maryland, even if all you do today is open the envelope. Keep one small promise to your little one. Clean your room! Maybe your little one had grown-ups who said sweet things and then did nothing, and maybe you’ve done it too, so this is how they start to believe you."
+    }
+   ],
+   "whose": "his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      3
+     ]
+    ]
+   },
+   "kind": "seam",
+   "id": "r8w026",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "A",
+   "i": 52,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 3,
+   "ai_likelihood": 1.4795395804931781e-16,
+   "calibrated_confidence": 0.9892909364252321,
+   "highlighted": false,
+   "start": 38353,
+   "end": 38370,
+   "text": "Clean your room!",
+   "section": [
+    "Building Trust With Your Little One",
+    "Not Every Hero Wears A Cape"
+   ],
+   "paragraphs": [
+    {
+     "line": 101,
+     "before": "Set one boundary. “What’s a ‘boundary’?”, I might be asking. That looks like saying no to something that’s costing you too much (money, time, whatever it is). Handle that task you’ve been putting off, or the tax man, or your DUIs in Maryland, even if all you do today is open the envelope. Keep one small promise to your little one.",
+     "window": " Clean your room!",
+     "after": " Maybe your little one had grown-ups who said sweet things and then did nothing, and maybe you’ve done it too, so this is how they start to believe you."
+    }
+   ],
+   "whose": "his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "High",
+      742
+     ]
+    ]
+   },
+   "kind": "seam",
+   "id": "r8w027",
+   "round6_text": "Human, High"
+  },
+  {
+   "half": "A",
+   "i": 54,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 14,
+   "ai_likelihood": 6.862835088628297e-14,
+   "calibrated_confidence": 0.9826592442977488,
+   "highlighted": false,
+   "start": 42326,
+   "end": 42404,
+   "text": "Does the love stay afterward and take whatever’s true in the anger seriously?",
+   "section": [
+    "Building Trust With Your Little One",
+    "Love Doesn't Have to Wait for Trust ❤️"
+   ],
+   "paragraphs": [
+    {
+     "line": 110,
+     "before": "When it’s your little one yelling at you, though, try not to turn “But I love you” into a line you say on cue, because then it can brush the anger off, and what it’s really saying is “so stop being angry.” I think you can mean it and still be doing that.",
+     "window": " Does the love stay afterward and take whatever’s true in the anger seriously?",
+     "after": ""
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      14
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w028",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "A",
+   "i": 56,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 13,
+   "ai_likelihood": 1.859494393722681e-15,
+   "calibrated_confidence": 0.9885824464565888,
+   "highlighted": false,
+   "start": 42628,
+   "end": 42692,
+   "text": "Tell me what feels unsafe.”\nYour little one might say it’s you.",
+   "section": [
+    "Building Trust With Your Little One",
+    "Love Doesn't Have to Wait for Trust ❤️"
+   ],
+   "paragraphs": [
+    {
+     "line": 111,
+     "before": "The love can stay, and your little one might still come back with “Big fuckity whoopty doo. I don’t believe you.” 🙄 You answer, “Okay. I believe that you don’t believe me. I still love you. 🤗 You don’t have to love me back.",
+     "window": " Tell me what feels unsafe.”",
+     "after": ""
+    },
+    {
+     "line": 112,
+     "before": "",
+     "window": "Your little one might say it’s you.",
+     "after": " You don’t have to accept every conclusion they reach about you, but do listen for the concrete complaint without fighting the yelling and swearing around it. If it’s something serious, answer it seriously. The complaint might only be one sentence, once the swearing runs out. Like the anger at bedtime, the swearing is there to get them heard, so once you’re listening instead of fighting, they don’t need it anymore."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "High",
+      21
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w029",
+   "round6_text": "Human, High"
+  },
+  {
+   "half": "A",
+   "i": 57,
+   "label": "Human",
+   "confidence": "Low",
+   "words": 35,
+   "ai_likelihood": 0.49524492025375366,
+   "calibrated_confidence": 0.5027589796980739,
+   "highlighted": true,
+   "start": 42692,
+   "end": 42898,
+   "text": "You don’t have to accept every conclusion they reach about you, but do listen for the concrete complaint without fighting the yelling and swearing around it. If it’s something serious, answer it seriously.",
+   "section": [
+    "Building Trust With Your Little One",
+    "Love Doesn't Have to Wait for Trust ❤️"
+   ],
+   "paragraphs": [
+    {
+     "line": 112,
+     "before": "Your little one might say it’s you.",
+     "window": " You don’t have to accept every conclusion they reach about you, but do listen for the concrete complaint without fighting the yelling and swearing around it. If it’s something serious, answer it seriously.",
+     "after": " The complaint might only be one sentence, once the swearing runs out. Like the anger at bedtime, the swearing is there to get them heard, so once you’re listening instead of fighting, they don’t need it anymore."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Low",
+      27
+     ],
+     [
+      "Human",
+      "Medium",
+      8
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w030",
+   "round6_text": "Human, Low (the lowest of 2 windows over these words)"
+  },
+  {
+   "half": "A",
+   "i": 58,
+   "label": "Human",
+   "confidence": "Low",
+   "words": 12,
+   "ai_likelihood": 4.5874635645759554e-08,
+   "calibrated_confidence": 0.8477789815817984,
+   "highlighted": true,
+   "start": 42898,
+   "end": 42968,
+   "text": "The complaint might only be one sentence, once the swearing runs out.",
+   "section": [
+    "Building Trust With Your Little One",
+    "Love Doesn't Have to Wait for Trust ❤️"
+   ],
+   "paragraphs": [
+    {
+     "line": 112,
+     "before": "Your little one might say it’s you. You don’t have to accept every conclusion they reach about you, but do listen for the concrete complaint without fighting the yelling and swearing around it. If it’s something serious, answer it seriously.",
+     "window": " The complaint might only be one sentence, once the swearing runs out.",
+     "after": " Like the anger at bedtime, the swearing is there to get them heard, so once you’re listening instead of fighting, they don’t need it anymore."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "High",
+      152
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w031",
+   "round6_text": "Human, High"
+  },
+  {
+   "half": "A",
+   "i": 60,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 2,
+   "ai_likelihood": 1.7614541417262583e-14,
+   "calibrated_confidence": 0.9863589367308141,
+   "highlighted": false,
+   "start": 43695,
+   "end": 43706,
+   "text": "Thank you.",
+   "section": [
+    "Building Trust With Your Little One",
+    "Love Doesn't Have to Wait for Trust ❤️"
+   ],
+   "paragraphs": [
+    {
+     "line": 113,
+     "before": "You can see the same move in a dramatized scene from the movie A Beautiful Day in the Neighborhood. Lloyd, a reporter, tells Mr. Rogers, “I can’t imagine it was easy… growing up with you as a father.” He doesn’t collapse under that or fight it, but he does answer what’s worth answering in it. He tells Lloyd that until recently his oldest son never told people about his dad, and his youngest “genuinely tested” him. Eventually he and his youngest found their way, and now he’s very proud of both his sons. Then he says, “But you are right, Lloyd. It couldn’t have been easy on them.",
+     "window": " Thank you.",
+     "after": " Thank you for that perspective.”"
+    }
+   ],
+   "whose": "too short to say",
+   "round6": null,
+   "kind": "seam",
+   "id": "r8w032",
+   "round6_text": "not in round 6 as it is now"
+  },
+  {
+   "half": "A",
+   "i": 62,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 3,
+   "ai_likelihood": 1.8082586412926892e-16,
+   "calibrated_confidence": 0.9892702731203206,
+   "highlighted": false,
+   "start": 47222,
+   "end": 47234,
+   "text": "I love you.",
+   "section": [
+    "Building Trust With Your Little One",
+    "Make a Simple Vow"
+   ],
+   "paragraphs": [
+    {
+     "line": 123,
+     "before": "“I know you’re in there.",
+     "window": " I love you.",
+     "after": " You don’t have to love me back or trust me yet. I can’t promise that nothing painful will happen. Or that I’ll always know what to do, or never react badly. But I can promise to tell you the truth and listen when you’re angry. I’ll make our life together safer where I can, and take the next step I can see to protect you. When I fail, I’ll come back to make it right. You don’t have to believe these words. Watch what I do.”"
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": null,
+   "kind": "seam",
+   "id": "r8w033",
+   "round6_text": "not in round 6 as it is now"
+  },
+  {
+   "half": "A",
+   "i": 64,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 11,
+   "ai_likelihood": 3.0629240463375673e-12,
+   "calibrated_confidence": 0.9709234705745522,
+   "highlighted": false,
+   "start": 49769,
+   "end": 49830,
+   "text": "Going back can still matter, even when nothing new turns up.",
+   "section": [
+    "Building Trust With Your Little One",
+    "When Healing Turns Into Checking"
+   ],
+   "paragraphs": [
+    {
+     "line": 131,
+     "before": "",
+     "window": "Going back can still matter, even when nothing new turns up.",
+     "after": " But returning to the same wound can also become a search for certainty in an inherently uncertain existence. Spending all day asking, “Did I process it properly? Did I grieve it enough?” is clearly not what we’re after here."
+    }
+   ],
+   "whose": "his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      29
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w034",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "A",
+   "i": 66,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 10,
+   "ai_likelihood": 2.4861204206416687e-09,
+   "calibrated_confidence": 0.9087603878116344,
+   "highlighted": false,
+   "start": 50055,
+   "end": 50106,
+   "text": "And the checking doesn’t always stay in your head.",
+   "section": [
+    "Building Trust With Your Little One",
+    "When Healing Turns Into Checking"
+   ],
+   "paragraphs": [
+    {
+     "line": 132,
+     "before": "",
+     "window": "And the checking doesn’t always stay in your head.",
+     "after": " A body scan can turn into one, or a confession. Even, going on a date, or checking your dating profile matches, can be a version of this if what you’re really after is proof that you’re good and lovable. It might calm things down for a while, and then the next little wobble matters even more."
+    }
+   ],
+   "whose": "his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Low",
+      10
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w035",
+   "round6_text": "Human, Low"
+  },
+  {
+   "half": "A",
+   "i": 68,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 3,
+   "ai_likelihood": 1.0771672250453786e-14,
+   "calibrated_confidence": 0.9867167280997569,
+   "highlighted": false,
+   "start": 55646,
+   "end": 55663,
+   "text": "No warmth today?",
+   "section": [
+    "Simple Practices",
+    "A Heart-to-Child Loop"
+   ],
+   "paragraphs": [
+    {
+     "line": 145,
+     "before": "Picture the love traveling from your heart down to your little one. If some comes back up, let it, and send it on down again, so it goes around like a loop. That part’s a gift from them, and they don’t owe it to you, so if nothing comes back, just keep sending yours.",
+     "window": " No warmth today?",
+     "after": " Then rest your hands there and notice what you find, no faking required. Non-judgement is a place to start. It can blossom into love over time."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "High",
+      1424
+     ]
+    ]
+   },
+   "kind": "seam",
+   "id": "r8w036",
+   "round6_text": "Human, High"
+  },
+  {
+   "half": "A",
+   "i": 70,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 14,
+   "ai_likelihood": 1.3197546235786369e-15,
+   "calibrated_confidence": 0.9886474609375,
+   "highlighted": false,
+   "start": 56299,
+   "end": 56376,
+   "text": "And what if all that writing leaves you more confused than when you started?",
+   "section": [
+    "Simple Practices",
+    "Journal With Each Hand"
+   ],
+   "paragraphs": [
+    {
+     "line": 147,
+     "before": "",
+     "window": "And what if all that writing leaves you more confused than when you started?",
+     "after": " Then just keep track for a while, and save the patterns for later, if they turn out to matter at all. A memory aid doesn’t have to explain your life. It could be a dated note of what happened, or of what helped. A reminder or a next step works too. Or you can leave yourself a voice note."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "High",
+      1424
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w037",
+   "round6_text": "Human, High"
+  },
+  {
+   "half": "A",
+   "i": 72,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 10,
+   "ai_likelihood": 1.0380458913517395e-16,
+   "calibrated_confidence": 0.9892909364252324,
+   "highlighted": false,
+   "start": 56478,
+   "end": 56526,
+   "text": "A memory aid doesn’t have to explain your life.",
+   "section": [
+    "Simple Practices",
+    "Journal With Each Hand"
+   ],
+   "paragraphs": [
+    {
+     "line": 147,
+     "before": "And what if all that writing leaves you more confused than when you started? Then just keep track for a while, and save the patterns for later, if they turn out to matter at all.",
+     "window": " A memory aid doesn’t have to explain your life.",
+     "after": " It could be a dated note of what happened, or of what helped. A reminder or a next step works too. Or you can leave yourself a voice note."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "High",
+      1424
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w038",
+   "round6_text": "Human, High"
+  },
+  {
+   "half": "A",
+   "i": 74,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 7,
+   "ai_likelihood": 4.011989850581654e-14,
+   "calibrated_confidence": 0.9855219342695815,
+   "highlighted": false,
+   "start": 57733,
+   "end": 57773,
+   "text": "Does saying it make the memory fiction?",
+   "section": [
+    "Simple Practices",
+    "“And So That’s the Way It Happened!”"
+   ],
+   "paragraphs": [
+    {
+     "line": 151,
+     "before": "",
+     "window": "Does saying it make the memory fiction?",
+     "after": " Well, no, it’s still what happened, as far as you remember it, even if some details turn out fuzzy. If the phrase does the trick, leave it at that, no need to narrate the whole thing."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      18
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w039",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "A",
+   "i": 76,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 9,
+   "ai_likelihood": 5.429265367905105e-14,
+   "calibrated_confidence": 0.9826592442977486,
+   "highlighted": false,
+   "start": 57957,
+   "end": 58000,
+   "text": "Do keep an ear on who’s narrating, though.",
+   "section": [
+    "Simple Practices",
+    "“And So That’s the Way It Happened!”"
+   ],
+   "paragraphs": [
+    {
+     "line": 152,
+     "before": "",
+     "window": "Do keep an ear on who’s narrating, though.",
+     "after": " If the voice starts sneering, like it’s making fun of the younger you, stop right there (that’s the courtroom creeping back in). Same if you feel more ashamed, or kind of floaty and unreal, since more distance won’t help with that. And when it goes well, it’s a good time to check in with the younger you in that story. What do they need from you now?"
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      9
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w040",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "A",
+   "i": 78,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 7,
+   "ai_likelihood": 2.5699214671338335e-15,
+   "calibrated_confidence": 0.9885824464565888,
+   "highlighted": false,
+   "start": 58320,
+   "end": 58352,
+   "text": "What do they need from you now?",
+   "section": [
+    "Simple Practices",
+    "“And So That’s the Way It Happened!”"
+   ],
+   "paragraphs": [
+    {
+     "line": 152,
+     "before": "Do keep an ear on who’s narrating, though. If the voice starts sneering, like it’s making fun of the younger you, stop right there (that’s the courtroom creeping back in). Same if you feel more ashamed, or kind of floaty and unreal, since more distance won’t help with that. And when it goes well, it’s a good time to check in with the younger you in that story.",
+     "window": " What do they need from you now?",
+     "after": ""
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      7
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w041",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "A",
+   "i": 80,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 4,
+   "ai_likelihood": 5.375004267897405e-15,
+   "calibrated_confidence": 0.9867167280997569,
+   "highlighted": false,
+   "start": 58848,
+   "end": 58880,
+   "text": "Doom scrolling TikTok nonsense?",
+   "section": [
+    "Simple Practices",
+    "One Intention in the Morning, One Review at Night"
+   ],
+   "paragraphs": [
+    {
+     "line": 156,
+     "before": "“Where did I notice the hook?” At dinner with the in-laws?",
+     "window": " Doom scrolling TikTok nonsense?",
+     "after": " Watching animé?"
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "High",
+      292
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w042",
+   "round6_text": "Human, High"
+  },
+  {
+   "half": "A",
+   "i": 83,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 4,
+   "ai_likelihood": 2.5750508339646096e-16,
+   "calibrated_confidence": 0.9892702731203206,
+   "highlighted": false,
+   "start": 70732,
+   "end": 70749,
+   "text": "It can be right!",
+   "section": [
+    "When the Adult Voice Feels Fake",
+    "Start With Whatever Showed Up",
+    "If it's anxiety"
+   ],
+   "paragraphs": [
+    {
+     "line": 190,
+     "before": "Anxiety is often a part of you that’s trying to protect you, making a guess about what’s coming, like that people will laugh at you.",
+     "window": " It can be right!",
+     "after": " It’s probably been wrong before too, and you know some of those times. Unless it might be real danger, or something a doctor should look at, I’d go see."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "High",
+      1850
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w043",
+   "round6_text": "Human, High"
+  },
+  {
+   "half": "A",
+   "i": 85,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 21,
+   "ai_likelihood": 3.086146543870914e-15,
+   "calibrated_confidence": 0.9880144313069286,
+   "highlighted": false,
+   "start": 73616,
+   "end": 73738,
+   "text": "That one can sting, because there could be something to it. Maybe you’ve fooled yourself before, and that part remembers.",
+   "section": [
+    "When the Adult Voice Feels Fake",
+    "Start With Whatever Showed Up",
+    "Hear the Guard First"
+   ],
+   "paragraphs": [
+    {
+     "line": 197,
+     "before": "It might say this will just be one more performance, and you’ll fool yourself again.",
+     "window": " That one can sting, because there could be something to it. Maybe you’ve fooled yourself before, and that part remembers.",
+     "after": " “Tell me what you remember, I’m listening.” works well here. It puts you into the role of the Nurturer, which alleviates the instinct to argue back. Usually your little one only comes forward after that part feels heard. Peek-a-boo! If you push past it, you might get exactly the performance it was afraid of. Even if you didn’t win an Emmy last year, that can look convincing, with the right words and maybe even tears, while nothing underneath feels any safer."
+    }
+   ],
+   "whose": "his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      21
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w044",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "A",
+   "i": 87,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 18,
+   "ai_likelihood": 2.9914455075108048e-15,
+   "calibrated_confidence": 0.9869770516284414,
+   "highlighted": false,
+   "start": 73959,
+   "end": 74048,
+   "text": "Peek-a-boo! If you push past it, you might get exactly the performance it was afraid of.",
+   "section": [
+    "When the Adult Voice Feels Fake",
+    "Start With Whatever Showed Up",
+    "Hear the Guard First"
+   ],
+   "paragraphs": [
+    {
+     "line": 197,
+     "before": "It might say this will just be one more performance, and you’ll fool yourself again. That one can sting, because there could be something to it. Maybe you’ve fooled yourself before, and that part remembers. “Tell me what you remember, I’m listening.” works well here. It puts you into the role of the Nurturer, which alleviates the instinct to argue back. Usually your little one only comes forward after that part feels heard.",
+     "window": " Peek-a-boo! If you push past it, you might get exactly the performance it was afraid of.",
+     "after": " Even if you didn’t win an Emmy last year, that can look convincing, with the right words and maybe even tears, while nothing underneath feels any safer."
+    }
+   ],
+   "whose": "his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      3
+     ],
+     [
+      "Human",
+      "High",
+      60
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w045",
+   "round6_text": "Human, Medium (the lowest of 2 windows over these words)"
+  },
+  {
+   "half": "A",
+   "i": 89,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 22,
+   "ai_likelihood": 4.409537479892114e-15,
+   "calibrated_confidence": 0.9875218999530877,
+   "highlighted": false,
+   "start": 74201,
+   "end": 74312,
+   "text": "A harder voice can seem more fitting for something that’s been in your way. I’d still keep the Nurturer voice.",
+   "section": [
+    "When the Adult Voice Feels Fake",
+    "Start With Whatever Showed Up",
+    "Hear the Guard First"
+   ],
+   "paragraphs": [
+    {
+     "line": 198,
+     "before": "",
+     "window": "A harder voice can seem more fitting for something that’s been in your way. I’d still keep the Nurturer voice.",
+     "after": " If that voice isn’t there in you yet, borrow it from someone who’s been safe for you."
+    }
+   ],
+   "whose": "partly his",
+   "round6": null,
+   "kind": "stretch",
+   "id": "r8w046",
+   "round6_text": "not in round 6 as it is now"
+  },
+  {
+   "half": "A",
+   "i": 91,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 56,
+   "ai_likelihood": 9.225448530103542e-12,
+   "calibrated_confidence": 0.9771640614094124,
+   "highlighted": false,
+   "start": 74484,
+   "end": 74774,
+   "text": "The rent just has to keep showing up. Your Protector earns that guard’s trust about the same way, mostly out in ordinary life. The things you do can be small, like keeping a promise to yourself nobody else knew about. Or saying no to someone, and not texting an hour later to take it back.",
+   "section": [
+    "When the Adult Voice Feels Fake",
+    "Start With Whatever Showed Up",
+    "Hear the Guard First",
+    "Earning its trust, day to day"
+   ],
+   "paragraphs": [
+    {
+     "line": 199,
+     "before": "A new roommate doesn’t win you over with a speech on move-in day (hopefully, right?).",
+     "window": " The rent just has to keep showing up. Your Protector earns that guard’s trust about the same way, mostly out in ordinary life. The things you do can be small, like keeping a promise to yourself nobody else knew about. Or saying no to someone, and not texting an hour later to take it back.",
+     "after": " That second one can be really hard."
+    }
+   ],
+   "whose": "his",
+   "round6": {
+    "half": "A",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      8
+     ],
+     [
+      "Human",
+      "High",
+      16
+     ],
+     [
+      "Human",
+      "Medium",
+      59
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w047",
+   "round6_text": "Human, Medium (the lowest of 3 windows over these words)"
+  },
+  {
+   "half": "B",
+   "i": 2,
+   "label": "Human",
+   "confidence": "Low",
+   "words": 7,
+   "ai_likelihood": 0.37764155864715576,
+   "calibrated_confidence": 0.5027589796980739,
+   "highlighted": true,
+   "start": 16950,
+   "end": 16976,
+   "text": "Can’t tell if that’s you?",
+   "section": [
+    "If You Want to Kill Yourself"
+   ],
+   "paragraphs": [
+    {
+     "line": 38,
+     "before": "Maybe you’re reading this about to act, or with the means close by. Then before anything else, get another human being involved, and put some distance between you and the means. A crisis line counts, and the person on the other end can be a total stranger. Do the same if you can’t stop yourself, or you’re badly disoriented or intoxicated.",
+     "window": " Can’t tell if that’s you?",
+     "after": " Treat it like it is. None of that is me answering whether life is worth living. It just keeps the question open long enough to look at."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Low",
+      12
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w048",
+   "round6_text": "Human, Low"
+  },
+  {
+   "half": "B",
+   "i": 3,
+   "label": "AI",
+   "confidence": "Low",
+   "words": 5,
+   "ai_likelihood": 0.875187337398529,
+   "calibrated_confidence": 0.5027589796980739,
+   "highlighted": true,
+   "start": 16976,
+   "end": 16997,
+   "text": "Treat it like it is.",
+   "section": [
+    "If You Want to Kill Yourself"
+   ],
+   "paragraphs": [
+    {
+     "line": 38,
+     "before": "Maybe you’re reading this about to act, or with the means close by. Then before anything else, get another human being involved, and put some distance between you and the means. A crisis line counts, and the person on the other end can be a total stranger. Do the same if you can’t stop yourself, or you’re badly disoriented or intoxicated. Can’t tell if that’s you?",
+     "window": " Treat it like it is.",
+     "after": " None of that is me answering whether life is worth living. It just keeps the question open long enough to look at."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Low",
+      12
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w049",
+   "round6_text": "Human, Low"
+  },
+  {
+   "half": "B",
+   "i": 4,
+   "label": "AI",
+   "confidence": "Low",
+   "words": 11,
+   "ai_likelihood": 0.9948191046714783,
+   "calibrated_confidence": 0.5752700798496947,
+   "highlighted": true,
+   "start": 16997,
+   "end": 17056,
+   "text": "None of that is me answering whether life is worth living.",
+   "section": [
+    "If You Want to Kill Yourself"
+   ],
+   "paragraphs": [
+    {
+     "line": 38,
+     "before": "Maybe you’re reading this about to act, or with the means close by. Then before anything else, get another human being involved, and put some distance between you and the means. A crisis line counts, and the person on the other end can be a total stranger. Do the same if you can’t stop yourself, or you’re badly disoriented or intoxicated. Can’t tell if that’s you? Treat it like it is.",
+     "window": " None of that is me answering whether life is worth living.",
+     "after": " It just keeps the question open long enough to look at."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Low",
+      11
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w050",
+   "round6_text": "Human, Low"
+  },
+  {
+   "half": "B",
+   "i": 5,
+   "label": "AI",
+   "confidence": "Low",
+   "words": 11,
+   "ai_likelihood": 0.9987066388130188,
+   "calibrated_confidence": 0.5947420634920635,
+   "highlighted": true,
+   "start": 17056,
+   "end": 17112,
+   "text": "It just keeps the question open long enough to look at.",
+   "section": [
+    "If You Want to Kill Yourself"
+   ],
+   "paragraphs": [
+    {
+     "line": 38,
+     "before": "Maybe you’re reading this about to act, or with the means close by. Then before anything else, get another human being involved, and put some distance between you and the means. A crisis line counts, and the person on the other end can be a total stranger. Do the same if you can’t stop yourself, or you’re badly disoriented or intoxicated. Can’t tell if that’s you? Treat it like it is. None of that is me answering whether life is worth living.",
+     "window": " It just keeps the question open long enough to look at.",
+     "after": ""
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Low",
+      11
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w051",
+   "round6_text": "Human, Low"
+  },
+  {
+   "half": "B",
+   "i": 7,
+   "label": "Human",
+   "confidence": "Low",
+   "words": 38,
+   "ai_likelihood": 1.8122111669072183e-06,
+   "calibrated_confidence": 0.8045335982318251,
+   "highlighted": true,
+   "start": 17488,
+   "end": 17672,
+   "text": "Any part of you that can help keep your body safe, or would rather wait on a decision you can’t undo, is welcome. And if none of them shows up yet? No problem, the questions can wait.",
+   "section": [
+    "If You Want to Kill Yourself"
+   ],
+   "paragraphs": [
+    {
+     "line": 39,
+     "before": "Then, before getting all philosophical, make sure there’s a real, live grown-up in the room or on the phone, if that’s possible. And as for the internal psychology of it, when the part that wants to die feels like all of you, go ahead and notice who’s doing the noticing (as we discussed in Noticing Counts), or borrow an adult from the adult lending library in your head :).",
+     "window": " Any part of you that can help keep your body safe, or would rather wait on a decision you can’t undo, is welcome. And if none of them shows up yet? No problem, the questions can wait.",
+     "after": ""
+    }
+   ],
+   "whose": "his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      24
+     ],
+     [
+      "Human",
+      "Low",
+      14
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w052",
+   "round6_text": "Human, Low (the lowest of 2 windows over these words)"
+  },
+  {
+   "half": "B",
+   "i": 9,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 1,
+   "ai_likelihood": 1.0841217680523929e-11,
+   "calibrated_confidence": 0.9625564139830184,
+   "highlighted": false,
+   "start": 18256,
+   "end": 18261,
+   "text": "Why?",
+   "section": [
+    "If You Want to Kill Yourself",
+    "The Spiritual Side of the Question"
+   ],
+   "paragraphs": [
+    {
+     "line": 41,
+     "before": "Then ask: what is the self you want to kill? Is that self the same thing as your body?",
+     "window": " Why?",
+     "after": " Do you have the same body in dreams? What exactly do you expect your body’s death to accomplish? If the problem is a state of mind, like self-hatred or despair, shame or loneliness, what makes you so sure that destroying the body ends it?"
+    }
+   ],
+   "whose": "too short to say",
+   "round6": null,
+   "kind": "seam",
+   "id": "r8w053",
+   "round6_text": "not in round 6 as it is now"
+  },
+  {
+   "half": "B",
+   "i": 11,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 6,
+   "ai_likelihood": 2.357167754848998e-15,
+   "calibrated_confidence": 0.9882448699920108,
+   "highlighted": false,
+   "start": 20304,
+   "end": 20344,
+   "text": "Leaving a relationship? Quitting a job?",
+   "section": [
+    "If You Want to Kill Yourself",
+    "The Spiritual Side of the Question"
+   ],
+   "paragraphs": [
+    {
+     "line": 45,
+     "before": "My father used to tell suicidal people, “Oh, you want to kill yourself? That’s wonderful! Now you can change what you’ve always been too afraid to change in your life, and then see if you still want to end it!” So, what would you tell my dad? What’s the change you still can’t bring yourself to make?",
+     "window": " Leaving a relationship? Quitting a job?",
+     "after": " Telling your family who you really are? Those might sound difficult, but they’re actually considerably more likely to help than dying."
+    }
+   ],
+   "whose": "his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      6
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w054",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 13,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 9,
+   "ai_likelihood": 8.116470689989441e-11,
+   "calibrated_confidence": 0.9511600701891207,
+   "highlighted": false,
+   "start": 23469,
+   "end": 23530,
+   "text": "You might catch yourself explaining who everybody is anyway.",
+   "section": [
+    "Sometimes There Isn't a Clear Child Yet",
+    "From Survival to Experimental Play"
+   ],
+   "paragraphs": [
+    {
+     "line": 53,
+     "before": "So early on, the practice is finding out who’s actually in there, through long reflection with no outside input, and journaling just for yourself, without picturing a reader.",
+     "window": " You might catch yourself explaining who everybody is anyway.",
+     "after": " Time alone in nature helps too, and so does getting back the preferences that got buried: the foods you really like and what feels good to do, and what you believe and feel when nobody’s around to take your cues from. Focusing (Eugene Gendlin’s method of listening to a vague, felt sense in your body) can especially help you notice feelings and preferences the part you’ve been playing learned to overlook. Any words you put to them can stay tentative (”I hate cooking... or just for everybody?”) while you look at what they seem to mean and revise how you read them."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      9
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w055",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 15,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 5,
+   "ai_likelihood": 2.559338917011711e-13,
+   "calibrated_confidence": 0.9799575258826653,
+   "highlighted": false,
+   "start": 24408,
+   "end": 24444,
+   "text": "Most groups expect some conformity.",
+   "section": [
+    "Sometimes There Isn't a Clear Child Yet",
+    "Untangling the Belonging Bargains"
+   ],
+   "paragraphs": [
+    {
+     "line": 54,
+     "before": "Part of building who you are is untangling yourself from whatever pulls you away from your own knowing in return for belonging. A political tribe might expect consistent positions and predictable reactions, while a family or religion that’s kind to you might have expectations that just feel like being good.",
+     "window": " Most groups expect some conformity.",
+     "after": " Your family might want a particular kind of son or daughter, and your friends might have rules about what you can joke about or get upset about. But if going along means betraying yourself, that’s the bargain. It can help to write down the rules your family ran on, including unspoken ones like “Boys don’t cry.” Then write down the role you got handed, like the stand-in parent, or the one who got blamed for everything (ST-CA has lists of both, in sections 15.2.3 and 15.2.4)."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": null,
+   "kind": "stretch",
+   "id": "r8w056",
+   "round6_text": "not in round 6 as it is now"
+  },
+  {
+   "half": "B",
+   "i": 17,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 11,
+   "ai_likelihood": 5.486072310139072e-15,
+   "calibrated_confidence": 0.9867167280997567,
+   "highlighted": false,
+   "start": 24589,
+   "end": 24654,
+   "text": "But if going along means betraying yourself, that’s the bargain.",
+   "section": [
+    "Sometimes There Isn't a Clear Child Yet",
+    "Untangling the Belonging Bargains"
+   ],
+   "paragraphs": [
+    {
+     "line": 54,
+     "before": "Part of building who you are is untangling yourself from whatever pulls you away from your own knowing in return for belonging. A political tribe might expect consistent positions and predictable reactions, while a family or religion that’s kind to you might have expectations that just feel like being good. Most groups expect some conformity. Your family might want a particular kind of son or daughter, and your friends might have rules about what you can joke about or get upset about.",
+     "window": " But if going along means betraying yourself, that’s the bargain.",
+     "after": " It can help to write down the rules your family ran on, including unspoken ones like “Boys don’t cry.” Then write down the role you got handed, like the stand-in parent, or the one who got blamed for everything (ST-CA has lists of both, in sections 15.2.3 and 15.2.4)."
+    }
+   ],
+   "whose": "his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      11
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w057",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 19,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 1,
+   "ai_likelihood": 1.2791031301597389e-16,
+   "calibrated_confidence": 0.9892909364252324,
+   "highlighted": false,
+   "start": 26302,
+   "end": 26308,
+   "text": "Debs.",
+   "section": [
+    "Sometimes There Isn't a Clear Child Yet",
+    "Untangling the Belonging Bargains",
+    "When Being Happy Feels Like Abandoning Someone"
+   ],
+   "paragraphs": [
+    {
+     "line": 58,
+     "before": "That’s exactly why I was crying for 14 years. Beginning at the age of 12, when I really started to understand that life is brutal for most people, I became convinced that being happy myself, while others weren’t, was selfish. I had this poster in my room that really resonated with me, by the famous socialist, Eugene V.",
+     "window": " Debs.",
+     "after": " I told this to a therapist in college and she actually agreed it was a good reason to be depressed!"
+    }
+   ],
+   "whose": "too short to say",
+   "round6": null,
+   "kind": "seam",
+   "id": "r8w058",
+   "round6_text": "not in round 6 as it is now"
+  },
+  {
+   "half": "B",
+   "i": 21,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 13,
+   "ai_likelihood": 1.9138857165756917e-11,
+   "calibrated_confidence": 0.9612121212121212,
+   "highlighted": false,
+   "start": 27940,
+   "end": 28016,
+   "text": "The question is whether losing one of them would feel like losing yourself.",
+   "section": [
+    "Sometimes There Isn't a Clear Child Yet",
+    "Untangling the Belonging Bargains",
+    "Four Pairs That Commonly Hook the Child"
+   ],
+   "paragraphs": [
+    {
+     "line": 65,
+     "before": "You don’t have to stop enjoying pleasure, praise, gain or belonging.",
+     "window": " The question is whether losing one of them would feel like losing yourself.",
+     "after": ""
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      13
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w059",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 23,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 6,
+   "ai_likelihood": 6.520117426652913e-14,
+   "calibrated_confidence": 0.9826592442977486,
+   "highlighted": false,
+   "start": 28103,
+   "end": 28141,
+   "text": "You’d still belong, just selectively.",
+   "section": [
+    "Sometimes There Isn't a Clear Child Yet",
+    "Untangling the Belonging Bargains",
+    "Four Pairs That Commonly Hook the Child",
+    "Differentiation"
+   ],
+   "paragraphs": [
+    {
+     "line": 66,
+     "before": "Differentiation can happen right inside a family, religion, community or relationship.",
+     "window": " You’d still belong, just selectively.",
+     "after": " As a differentiated adult you can stay deeply embedded, free to question things or disagree. If a parent used to go quiet and hurt whenever you disagreed, that might be hard to believe. A family where everyone gets to be their own person is healthier than an enmeshed one, and a faith that’s your own is healthier than religious compliance. It can be the same religion either way. And two differentiated people have a sturdier relationship than two who’ve been absorbed into each other."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      6
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w060",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 25,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 2,
+   "ai_likelihood": 1.3995084930350232e-13,
+   "calibrated_confidence": 0.9817138980542107,
+   "highlighted": false,
+   "start": 30136,
+   "end": 30151,
+   "text": "or suppressed.",
+   "section": [
+    "Sometimes There Isn't a Clear Child Yet",
+    "Let the Child Be Bad at Things"
+   ],
+   "paragraphs": [
+    {
+     "line": 71,
+     "before": "Reflection can show you what got sMothered (typo?)",
+     "window": " or suppressed.",
+     "after": " For identity you also need some experiments out in real life, so go try something new just for you. Maybe a foraging group, or a painting class. Stargazing can be awe-inspiring, and you might even see a UFO! Notice what holds your attention when nobody is impressed."
+    }
+   ],
+   "whose": "too short to say",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      2
+     ]
+    ]
+   },
+   "kind": "seam",
+   "id": "r8w061",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 27,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 9,
+   "ai_likelihood": 2.2474105490327657e-16,
+   "calibrated_confidence": 0.9892702731203206,
+   "highlighted": false,
+   "start": 30359,
+   "end": 30418,
+   "text": "Notice what holds your attention when nobody is impressed.",
+   "section": [
+    "Sometimes There Isn't a Clear Child Yet",
+    "Let the Child Be Bad at Things"
+   ],
+   "paragraphs": [
+    {
+     "line": 71,
+     "before": "Reflection can show you what got sMothered (typo?) or suppressed. For identity you also need some experiments out in real life, so go try something new just for you. Maybe a foraging group, or a painting class. Stargazing can be awe-inspiring, and you might even see a UFO!",
+     "window": " Notice what holds your attention when nobody is impressed.",
+     "after": ""
+    }
+   ],
+   "whose": "his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "High",
+      663
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w062",
+   "round6_text": "Human, High"
+  },
+  {
+   "half": "B",
+   "i": 29,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 5,
+   "ai_likelihood": 1.4002698062480154e-14,
+   "calibrated_confidence": 0.9863589367308141,
+   "highlighted": false,
+   "start": 33492,
+   "end": 33520,
+   "text": "Wanting them close is fine!",
+   "section": [
+    "The Inner Guide",
+    "Between Spoiling and Clamping Down"
+   ],
+   "paragraphs": [
+    {
+     "line": 79,
+     "before": "Once a need does show, after all that hiding, it’s okay to want a lot of closeness. So then someone you love goes for a walk alone, and you’ve texted “hello??” before they’re at the corner. When they get back, you sulk all night.",
+     "window": " Wanting them close is fine!",
+     "after": " But they get to go for a walk too. Ask your little one what it’s afraid of. I think it just wants to know they’re coming back. Then the Guide can come up with something like “See you in an hour?”"
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      22
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w063",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 31,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 9,
+   "ai_likelihood": 1.8605456463135182e-14,
+   "calibrated_confidence": 0.9863589367308141,
+   "highlighted": false,
+   "start": 34885,
+   "end": 34932,
+   "text": "The Guide isn’t there to police every thought.",
+   "section": [
+    "The Inner Guide",
+    "A Healthy Mind Is Not a Perfect Mind"
+   ],
+   "paragraphs": [
+    {
+     "line": 81,
+     "before": "Forced adulthood can get into your head too, where it wants everything as spotless as that kitchen. At your grandpa’s funeral, some dumb jingle starts up in your head and you nearly laugh during the eulogy. That doesn’t mean you didn’t love him, or that something’s wrong with you. Minds come up with ugly and embarrassing stuff all the time, some of it the opposite of what you believe, and bodies do their own thing too.",
+     "window": " The Guide isn’t there to police every thought.",
+     "after": " It notices the jingle and knows you didn’t mean it, and that it isn’t who you are. Then it goes with what you’d stand behind, which here is probably squeezing your mom’s hand and listening, and lets the jingle go."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      53
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w064",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 33,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 5,
+   "ai_likelihood": 3.5548276019863045e-13,
+   "calibrated_confidence": 0.9786812097174021,
+   "highlighted": false,
+   "start": 43043,
+   "end": 43070,
+   "text": "The same goes for doctors.",
+   "section": [
+    "Borrowed Adulthood in Relationship",
+    "First Social Connections, Done Right"
+   ],
+   "paragraphs": [
+    {
+     "line": 98,
+     "before": "",
+     "window": "The same goes for doctors.",
+     "after": " No need to give them a good impression if that means not being your own advocate. If you don’t feel up to it, bring someone you trust to speak up for you (it doesn’t have to be the relative who never respected your wishes), and ask what a treatment’s for."
+    }
+   ],
+   "whose": "his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      5
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w065",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 35,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 13,
+   "ai_likelihood": 1.5391994319727265e-12,
+   "calibrated_confidence": 0.975094548955958,
+   "highlighted": false,
+   "start": 43326,
+   "end": 43408,
+   "text": "And reaching out doesn’t mean telling strangers everything. Privacy isn’t fakery.",
+   "section": [
+    "Borrowed Adulthood in Relationship",
+    "First Social Connections, Done Right",
+    "Opening up honestly to the right people at the right pace"
+   ],
+   "paragraphs": [
+    {
+     "line": 99,
+     "before": "",
+     "window": "And reaching out doesn’t mean telling strangers everything. Privacy isn’t fakery.",
+     "after": " People can earn more of you by how they handle the smaller stuff, like whether that thing you told them about your weird fear of birds turns into a joke at the next party 🙈, and how they take it when you say no. But if a relationship is getting deep and you’re still keeping up a fake normal, happy version of yourself to hold onto it, I’d either bring more of the truth in, carefully, or let it be less deep for now. (If telling could put you in real danger, like violence, or being outed where that isn’t safe, protect yourself first.) And when someone finally accepts you, it can feel amazing. It still doesn’t prove you’re meant for each other, or that they’ve earned your trust yet."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      13
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w066",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 37,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 31,
+   "ai_likelihood": 1.086465709065898e-10,
+   "calibrated_confidence": 0.955426883533785,
+   "highlighted": false,
+   "start": 43826,
+   "end": 44005,
+   "text": "(If telling could put you in real danger, like violence, or being outed where that isn’t safe, protect yourself first.) And when someone finally accepts you, it can feel amazing.",
+   "section": [
+    "Borrowed Adulthood in Relationship",
+    "First Social Connections, Done Right",
+    "Opening up honestly to the right people at the right pace"
+   ],
+   "paragraphs": [
+    {
+     "line": 99,
+     "before": "And reaching out doesn’t mean telling strangers everything. Privacy isn’t fakery. People can earn more of you by how they handle the smaller stuff, like whether that thing you told them about your weird fear of birds turns into a joke at the next party 🙈, and how they take it when you say no. But if a relationship is getting deep and you’re still keeping up a fake normal, happy version of yourself to hold onto it, I’d either bring more of the truth in, carefully, or let it be less deep for now.",
+     "window": " (If telling could put you in real danger, like violence, or being outed where that isn’t safe, protect yourself first.) And when someone finally accepts you, it can feel amazing.",
+     "after": " It still doesn’t prove you’re meant for each other, or that they’ve earned your trust yet."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      31
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w067",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 39,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 19,
+   "ai_likelihood": 2.7492088466862796e-11,
+   "calibrated_confidence": 0.9611921763427507,
+   "highlighted": false,
+   "start": 44204,
+   "end": 44298,
+   "text": "Maybe it’s an urge that scares you, or something you did that could get you in legal trouble.",
+   "section": [
+    "Borrowed Adulthood in Relationship",
+    "First Social Connections, Done Right",
+    "Opening up honestly to the right people at the right pace",
+    "Before You Tell the Hardest Stuff"
+   ],
+   "paragraphs": [
+    {
+     "line": 100,
+     "before": "Then there’s the stuff that’s hardest to tell anyone, and of course that’s exactly what you need help with.",
+     "window": " Maybe it’s an urge that scares you, or something you did that could get you in legal trouble.",
+     "after": " I’d assume that what you tell won’t be completely confidential, especially if it sounds like something dangerous."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Low",
+      19
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w068",
+   "round6_text": "Human, Low"
+  },
+  {
+   "half": "B",
+   "i": 41,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 6,
+   "ai_likelihood": 4.033097350467904e-16,
+   "calibrated_confidence": 0.9892702731203206,
+   "highlighted": false,
+   "start": 44412,
+   "end": 44442,
+   "text": "You know that DM you deleted?",
+   "section": [
+    "Borrowed Adulthood in Relationship",
+    "First Social Connections, Done Right",
+    "Opening up honestly to the right people at the right pace",
+    "Before You Tell the Hardest Stuff"
+   ],
+   "paragraphs": [
+    {
+     "line": 101,
+     "before": "",
+     "window": "You know that DM you deleted?",
+     "after": " It can still be sitting on their phone as a screenshot 🙈, and whatever’s on a company’s server can get handed over if a court asks. Just because Mr. Boopaloopa was your name on WhatsApp doesn’t guarantee you’re anonymous, by the way."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      6
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w069",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 43,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 3,
+   "ai_likelihood": 3.819066590748932e-12,
+   "calibrated_confidence": 0.969661863731808,
+   "highlighted": false,
+   "start": 44574,
+   "end": 44591,
+   "text": "Just because Mr.",
+   "section": [
+    "Borrowed Adulthood in Relationship",
+    "First Social Connections, Done Right",
+    "Opening up honestly to the right people at the right pace",
+    "Before You Tell the Hardest Stuff"
+   ],
+   "paragraphs": [
+    {
+     "line": 101,
+     "before": "You know that DM you deleted? It can still be sitting on their phone as a screenshot 🙈, and whatever’s on a company’s server can get handed over if a court asks.",
+     "window": " Just because Mr.",
+     "after": " Boopaloopa was your name on WhatsApp doesn’t guarantee you’re anonymous, by the way."
+    }
+   ],
+   "whose": "his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      3
+     ]
+    ]
+   },
+   "kind": "seam",
+   "id": "r8w070",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 45,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 2,
+   "ai_likelihood": 1.5506387840424907e-11,
+   "calibrated_confidence": 0.9625564139830183,
+   "highlighted": false,
+   "start": 47975,
+   "end": 47986,
+   "text": "Repair it.",
+   "section": [
+    "Borrowed Adulthood in Relationship",
+    "Other Folks Also Have Hooks",
+    "If you really did hurt them"
+   ],
+   "paragraphs": [
+    {
+     "line": 111,
+     "before": "",
+     "window": "Repair it.",
+     "after": " Easier said than done, but..."
+    }
+   ],
+   "whose": "too short to say",
+   "round6": null,
+   "kind": "seam",
+   "id": "r8w071",
+   "round6_text": "not in round 6 as it is now"
+  },
+  {
+   "half": "B",
+   "i": 47,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 5,
+   "ai_likelihood": 6.735935322976089e-14,
+   "calibrated_confidence": 0.9826592442977486,
+   "highlighted": false,
+   "start": 48054,
+   "end": 48085,
+   "text": "Then notice what happens next.",
+   "section": [
+    "Borrowed Adulthood in Relationship",
+    "Other Folks Also Have Hooks",
+    "If you really did hurt them"
+   ],
+   "paragraphs": [
+    {
+     "line": 112,
+     "before": "You can mean the apology for a start.",
+     "window": " Then notice what happens next.",
+     "after": " Are you sorry for what you did, or are you starting to take back the complaint too because they’re still upset? Maybe your first explanation sucked. Try again. 😅 And if it fails again, and you’ve said what you mean, well, you can’t guarantee they’ll understand it. Guilt may keep shouting at you. That doesn’t tell you the whole conflict was your fault, nor does it prove they’re manipulating you."
+    }
+   ],
+   "whose": "his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "High",
+      724
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w072",
+   "round6_text": "Human, High"
+  },
+  {
+   "half": "B",
+   "i": 49,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 2,
+   "ai_likelihood": 1.0254161208296184e-13,
+   "calibrated_confidence": 0.9821373680795109,
+   "highlighted": false,
+   "start": 48234,
+   "end": 48245,
+   "text": "Try again.",
+   "section": [
+    "Borrowed Adulthood in Relationship",
+    "Other Folks Also Have Hooks",
+    "If you really did hurt them"
+   ],
+   "paragraphs": [
+    {
+     "line": 112,
+     "before": "You can mean the apology for a start. Then notice what happens next. Are you sorry for what you did, or are you starting to take back the complaint too because they’re still upset? Maybe your first explanation sucked.",
+     "window": " Try again.",
+     "after": " 😅 And if it fails again, and you’ve said what you mean, well, you can’t guarantee they’ll understand it. Guilt may keep shouting at you. That doesn’t tell you the whole conflict was your fault, nor does it prove they’re manipulating you."
+    }
+   ],
+   "whose": "too short to say",
+   "round6": null,
+   "kind": "seam",
+   "id": "r8w073",
+   "round6_text": "not in round 6 as it is now"
+  },
+  {
+   "half": "B",
+   "i": 51,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 1,
+   "ai_likelihood": 1.8571394422295384e-12,
+   "calibrated_confidence": 0.9729837107667858,
+   "highlighted": false,
+   "start": 48567,
+   "end": 48574,
+   "text": "There.",
+   "section": [
+    "Borrowed Adulthood in Relationship",
+    "Other Folks Also Have Hooks",
+    "Write It. Don't Send It Yet."
+   ],
+   "paragraphs": [
+    {
+     "line": 113,
+     "before": "If you’ve got something burning you up that you wanna say, write it out as a reply.",
+     "window": " There.",
+     "after": " That got it out. Ahh. Breathing easier. 😌 But don’t send it. Take that breather you earned and then come back to it from a cooler place."
+    }
+   ],
+   "whose": "too short to say",
+   "round6": null,
+   "kind": "seam",
+   "id": "r8w074",
+   "round6_text": "not in round 6 as it is now"
+  },
+  {
+   "half": "B",
+   "i": 53,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 3,
+   "ai_likelihood": 4.4155137208514664e-15,
+   "calibrated_confidence": 0.988539096951794,
+   "highlighted": false,
+   "start": 48591,
+   "end": 48614,
+   "text": "Ahh. Breathing easier.",
+   "section": [
+    "Borrowed Adulthood in Relationship",
+    "Other Folks Also Have Hooks",
+    "Write It. Don't Send It Yet."
+   ],
+   "paragraphs": [
+    {
+     "line": 113,
+     "before": "If you’ve got something burning you up that you wanna say, write it out as a reply. There. That got it out.",
+     "window": " Ahh. Breathing easier.",
+     "after": " 😌 But don’t send it. Take that breather you earned and then come back to it from a cooler place."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      3
+     ]
+    ]
+   },
+   "kind": "seam",
+   "id": "r8w075",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 55,
+   "label": "Human",
+   "confidence": "Low",
+   "words": 15,
+   "ai_likelihood": 1.6810737690775568e-08,
+   "calibrated_confidence": 0.8681055155875299,
+   "highlighted": true,
+   "start": 51051,
+   "end": 51124,
+   "text": "What felt scared when I wrote it can read like a threat from over there.",
+   "section": [
+    "Borrowed Adulthood in Relationship",
+    "Other Folks Also Have Hooks",
+    "Write It. Don't Send It Yet."
+   ],
+   "paragraphs": [
+    {
+     "line": 119,
+     "before": "Before sending anything, I’d read it once as if I were them, sitting there with my phone.",
+     "window": " What felt scared when I wrote it can read like a threat from over there.",
+     "after": ""
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Low",
+      15
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w076",
+   "round6_text": "Human, Low"
+  },
+  {
+   "half": "B",
+   "i": 57,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 7,
+   "ai_likelihood": 2.7308789452874793e-13,
+   "calibrated_confidence": 0.9824887326864609,
+   "highlighted": false,
+   "start": 52943,
+   "end": 52980,
+   "text": "You speak. I listen. Then we switch.",
+   "section": [
+    "Borrowed Adulthood in Relationship",
+    "Hearthwork: Taking Turns"
+   ],
+   "paragraphs": [
+    {
+     "line": 123,
+     "before": "The basic premise of Hearthwork, my peer-counseling framework, is: Equal time. Attention without interpretation, advice, or fixing.",
+     "window": " You speak. I listen. Then we switch.",
+     "after": " Presence, Warmth, Discipline, Confidentiality. It’s kind of a third type of relationship, alongside ordinary friendship and professional therapy, and one your little one might really need, because modern life rarely gives you anything like it."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      7
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w077",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 59,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 9,
+   "ai_likelihood": 1.5285673117884646e-13,
+   "calibrated_confidence": 0.9817138980542107,
+   "highlighted": false,
+   "start": 53943,
+   "end": 53998,
+   "text": "The peer doesn’t become your permanent parent, though.",
+   "section": [
+    "Borrowed Adulthood in Relationship",
+    "Hearthwork: Taking Turns"
+   ],
+   "paragraphs": [
+    {
+     "line": 125,
+     "before": "",
+     "window": "The peer doesn’t become your permanent parent, though.",
+     "after": " They show you a capacity, help you get the hang of it, and give it back to you, which is borrowed adulthood in its healthiest form (a driving instructor isn’t planning to drive you around forever either). Is that therapy? Well, not the mainstream kind, but yes, for sure. Professional therapy’s still useful for what it does, and peers and community do something else, so a serious healing path can include both."
+    }
+   ],
+   "whose": "his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      9
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w078",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 61,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 3,
+   "ai_likelihood": 9.605510153552418e-14,
+   "calibrated_confidence": 0.9821373680795108,
+   "highlighted": false,
+   "start": 54203,
+   "end": 54220,
+   "text": "Is that therapy?",
+   "section": [
+    "Borrowed Adulthood in Relationship",
+    "Hearthwork: Taking Turns"
+   ],
+   "paragraphs": [
+    {
+     "line": 125,
+     "before": "The peer doesn’t become your permanent parent, though. They show you a capacity, help you get the hang of it, and give it back to you, which is borrowed adulthood in its healthiest form (a driving instructor isn’t planning to drive you around forever either).",
+     "window": " Is that therapy?",
+     "after": " Well, not the mainstream kind, but yes, for sure. Professional therapy’s still useful for what it does, and peers and community do something else, so a serious healing path can include both."
+    }
+   ],
+   "whose": "his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      3
+     ]
+    ]
+   },
+   "kind": "seam",
+   "id": "r8w079",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 63,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 10,
+   "ai_likelihood": 3.441489570738302e-15,
+   "calibrated_confidence": 0.9867167280997569,
+   "highlighted": false,
+   "start": 56196,
+   "end": 56254,
+   "text": "Hurt people often pass on pain they never worked through.",
+   "section": [
+    "How to Forgive Without Forgetting"
+   ],
+   "paragraphs": [
+    {
+     "line": 129,
+     "before": "The understanding that helps me is seeing how a person’s conditioning, history, pain, and capacity shaped the harmful move they made. Picture everything that had made them who they were by that moment, what happened to them and what they learned, the pain they carried and what they could and couldn’t handle. From in there, it was the only move they had.",
+     "window": " Hurt people often pass on pain they never worked through.",
+     "after": " You may have heard that from somebody telling you to forgive. When you see it for yourself, though, you might find yourself forgiving them, and if you’ve held them uniquely to blame, the rage can soften into something more accurate."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "High",
+      409
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w080",
+   "round6_text": "Human, High"
+  },
+  {
+   "half": "B",
+   "i": 65,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 13,
+   "ai_likelihood": 1.9201215270547856e-11,
+   "calibrated_confidence": 0.9612121212121212,
+   "highlighted": false,
+   "start": 56487,
+   "end": 56551,
+   "text": "They still have to answer for what they did, and it still hurt.",
+   "section": [
+    "How to Forgive Without Forgetting"
+   ],
+   "paragraphs": [
+    {
+     "line": 130,
+     "before": "",
+     "window": "They still have to answer for what they did, and it still hurt.",
+     "after": " Seeing how they got there doesn’t make it okay. It’s just that punishing them now can’t reach back and give them what they were missing then, the sense to see it or the help. Or the skills. What’s left is fixing what can be fixed, and making it easier for something different to happen now."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      13
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w081",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 66,
+   "label": "Human",
+   "confidence": "Low",
+   "words": 10,
+   "ai_likelihood": 2.1960449458902076e-08,
+   "calibrated_confidence": 0.8553175497933108,
+   "highlighted": true,
+   "start": 56551,
+   "end": 56599,
+   "text": "Seeing how they got there doesn’t make it okay.",
+   "section": [
+    "How to Forgive Without Forgetting"
+   ],
+   "paragraphs": [
+    {
+     "line": 130,
+     "before": "They still have to answer for what they did, and it still hurt.",
+     "window": " Seeing how they got there doesn’t make it okay.",
+     "after": " It’s just that punishing them now can’t reach back and give them what they were missing then, the sense to see it or the help. Or the skills. What’s left is fixing what can be fixed, and making it easier for something different to happen now."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Low",
+      10
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w082",
+   "round6_text": "Human, Low"
+  },
+  {
+   "half": "B",
+   "i": 67,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 30,
+   "ai_likelihood": 1.5914426894358957e-12,
+   "calibrated_confidence": 0.9841645822423548,
+   "highlighted": false,
+   "start": 56599,
+   "end": 56741,
+   "text": "It’s just that punishing them now can’t reach back and give them what they were missing then, the sense to see it or the help. Or the skills.",
+   "section": [
+    "How to Forgive Without Forgetting"
+   ],
+   "paragraphs": [
+    {
+     "line": 130,
+     "before": "They still have to answer for what they did, and it still hurt. Seeing how they got there doesn’t make it okay.",
+     "window": " It’s just that punishing them now can’t reach back and give them what they were missing then, the sense to see it or the help. Or the skills.",
+     "after": " What’s left is fixing what can be fixed, and making it easier for something different to happen now."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "High",
+      27
+     ],
+     [
+      "Human",
+      "Medium",
+      3
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w083",
+   "round6_text": "Human, Medium (the lowest of 2 windows over these words)"
+  },
+  {
+   "half": "B",
+   "i": 69,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 7,
+   "ai_likelihood": 3.6502845017494234e-12,
+   "calibrated_confidence": 0.969661863731808,
+   "highlighted": false,
+   "start": 56842,
+   "end": 56876,
+   "text": "So a boundary can still be right.",
+   "section": [
+    "How to Forgive Without Forgetting"
+   ],
+   "paragraphs": [
+    {
+     "line": 131,
+     "before": "",
+     "window": "So a boundary can still be right.",
+     "after": " So can the law, if it comes to that, or telling them plainly it was wrong (or telling yourself, if they’d never hear it). Keeping away from them for good can be right too, and you can still forgive them from over there. Understanding somebody’s limitations should make my expectations more realistic, not make those limitations less consequential. “I understand how you became this way” can sit right next to “I now understand why I shouldn’t rely on you for this.”"
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      7
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w084",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 71,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 5,
+   "ai_likelihood": 1.7047177573367971e-15,
+   "calibrated_confidence": 0.9885824464565888,
+   "highlighted": false,
+   "start": 57510,
+   "end": 57544,
+   "text": "Changing the behavior counts too.",
+   "section": [
+    "How to Forgive Without Forgetting",
+    "Forgiving Yourself"
+   ],
+   "paragraphs": [
+    {
+     "line": 132,
+     "before": "Forgiving yourself works the same way. Own what you did (only what was yours), and let yourself feel the remorse. Repair what you can, by apologizing or making amends.",
+     "window": " Changing the behavior counts too.",
+     "after": " Then you’re allowed to stop holding yourself hostage, and the responsibility stays. If you’re thinking “not me, not after what I did,” forgiving other people tends to be harder too. Every so often, come back to how whoever did it got to be someone who could do that, until you understand it well enough that it changes how you feel."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      5
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w085",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 73,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 2,
+   "ai_likelihood": 7.278585828669748e-13,
+   "calibrated_confidence": 0.9763021576865032,
+   "highlighted": false,
+   "start": 58470,
+   "end": 58477,
+   "text": "Is it?",
+   "section": [
+    "When One Life Has Ended and the Next Hasn’t Begun"
+   ],
+   "paragraphs": [
+    {
+     "line": 134,
+     "before": "Your little one might be sure everything’s over.",
+     "window": " Is it?",
+     "after": " Usually one real thing ended, and there’s other stuff you’re still trying to keep going, maybe on autopilot. Some of it just isn’t known yet, and unknown isn’t the same as gone. Ask your little one what they’re scared will happen in the meantime (worst-case scenarios are kind of their specialty)."
+    }
+   ],
+   "whose": "too short to say",
+   "round6": null,
+   "kind": "seam",
+   "id": "r8w086",
+   "round6_text": "not in round 6 as it is now"
+  },
+  {
+   "half": "B",
+   "i": 75,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 9,
+   "ai_likelihood": 1.0944780056246792e-16,
+   "calibrated_confidence": 0.9892909364252322,
+   "highlighted": false,
+   "start": 62449,
+   "end": 62492,
+   "text": "You are more than your pain and your past.",
+   "section": [
+    "You Are Worthy of Love. Always."
+   ],
+   "paragraphs": [
+    {
+     "line": 144,
+     "before": "Be patient with yourself, and gentle, including with the part of you that thinks you should be over it by now.",
+     "window": " You are more than your pain and your past.",
+     "after": " That’s easy to lose sight of when you’ve spent so long looking at them. And you aren’t alone. There’s help, and lots of other people are out there learning to look after their own little ones."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Low",
+      30
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w087",
+   "round6_text": "Human, Low"
+  },
+  {
+   "half": "B",
+   "i": 76,
+   "label": "Human",
+   "confidence": "Low",
+   "words": 16,
+   "ai_likelihood": 6.751297831897318e-08,
+   "calibrated_confidence": 0.8291187739463601,
+   "highlighted": true,
+   "start": 62492,
+   "end": 62564,
+   "text": "That’s easy to lose sight of when you’ve spent so long looking at them.",
+   "section": [
+    "You Are Worthy of Love. Always."
+   ],
+   "paragraphs": [
+    {
+     "line": 144,
+     "before": "Be patient with yourself, and gentle, including with the part of you that thinks you should be over it by now. You are more than your pain and your past.",
+     "window": " That’s easy to lose sight of when you’ve spent so long looking at them.",
+     "after": " And you aren’t alone. There’s help, and lots of other people are out there learning to look after their own little ones."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Low",
+      30
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w088",
+   "round6_text": "Human, Low"
+  },
+  {
+   "half": "B",
+   "i": 77,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 5,
+   "ai_likelihood": 2.3533188731050814e-09,
+   "calibrated_confidence": 0.9087603878116344,
+   "highlighted": false,
+   "start": 62564,
+   "end": 62586,
+   "text": "And you aren’t alone.",
+   "section": [
+    "You Are Worthy of Love. Always."
+   ],
+   "paragraphs": [
+    {
+     "line": 144,
+     "before": "Be patient with yourself, and gentle, including with the part of you that thinks you should be over it by now. You are more than your pain and your past. That’s easy to lose sight of when you’ve spent so long looking at them.",
+     "window": " And you aren’t alone.",
+     "after": " There’s help, and lots of other people are out there learning to look after their own little ones."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Low",
+      30
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w089",
+   "round6_text": "Human, Low"
+  },
+  {
+   "half": "B",
+   "i": 79,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 4,
+   "ai_likelihood": 2.615252129372042e-15,
+   "calibrated_confidence": 0.9885824464565888,
+   "highlighted": false,
+   "start": 63107,
+   "end": 63128,
+   "text": "It sets limits, too.",
+   "section": [
+    "Appendix",
+    "How This Relates to Schema Therapy"
+   ],
+   "paragraphs": [
+    {
+     "line": 145,
+     "before": "Of the clinical approaches I know, schema therapy is the closest to this guide. Its therapists do what they call limited reparenting: within professional limits, they give you some of what a good parent would, with warmth and firmness and some playfulness too. Over time you take that in, and it becomes your own “Healthy Adult,” who looks after your “Vulnerable Child” and stands up to the punishing parent in your head.",
+     "window": " It sets limits, too.",
+     "after": " And it gets on with adult life, like work and the things you’ve committed to. Sound familiar? That’s a Nurturer, a Protector and a Guide by other names, and since the therapist’s version becomes yours bit by bit, it’s borrowed adulthood too."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      4
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w090",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 81,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 2,
+   "ai_likelihood": 1.879601942839093e-12,
+   "calibrated_confidence": 0.9729837107667858,
+   "highlighted": false,
+   "start": 63206,
+   "end": 63222,
+   "text": "Sound familiar?",
+   "section": [
+    "Appendix",
+    "How This Relates to Schema Therapy"
+   ],
+   "paragraphs": [
+    {
+     "line": 145,
+     "before": "Of the clinical approaches I know, schema therapy is the closest to this guide. Its therapists do what they call limited reparenting: within professional limits, they give you some of what a good parent would, with warmth and firmness and some playfulness too. Over time you take that in, and it becomes your own “Healthy Adult,” who looks after your “Vulnerable Child” and stands up to the punishing parent in your head. It sets limits, too. And it gets on with adult life, like work and the things you’ve committed to.",
+     "window": " Sound familiar?",
+     "after": " That’s a Nurturer, a Protector and a Guide by other names, and since the therapist’s version becomes yours bit by bit, it’s borrowed adulthood too."
+    }
+   ],
+   "whose": "too short to say",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      2
+     ]
+    ]
+   },
+   "kind": "seam",
+   "id": "r8w091",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 83,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 6,
+   "ai_likelihood": 2.2038880797907966e-14,
+   "calibrated_confidence": 0.9856644562842577,
+   "highlighted": false,
+   "start": 63370,
+   "end": 63411,
+   "text": "Where it really differs is spirituality.",
+   "section": [
+    "Appendix",
+    "How This Relates to Schema Therapy"
+   ],
+   "paragraphs": [
+    {
+     "line": 146,
+     "before": "",
+     "window": "Where it really differs is spirituality.",
+     "after": " Schema therapy doesn’t build it in, though the preface to its main textbook calls blending it with meditation or religious practice an important development. That’s not so surprising, since it grew out of cognitive therapy. Some people do blend them, though. Tara Bennett-Goleman’s book Emotional Alchemy, for one, fits a Buddhist loving-kindness wish to each schema. Her book barely mentions gratitude, and for me that’s the door to the bigger love back in Your Loan is PRE-APPROVED! IFS goes overboard the other way, in my opinion (more on that in the next section)."
+    }
+   ],
+   "whose": "not recorded as his",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      6
+     ]
+    ]
+   },
+   "kind": "stretch",
+   "id": "r8w092",
+   "round6_text": "Human, Medium"
+  },
+  {
+   "half": "B",
+   "i": 85,
+   "label": "Human",
+   "confidence": "Medium",
+   "words": 2,
+   "ai_likelihood": 1.7821582696999488e-13,
+   "calibrated_confidence": 0.9817138980542107,
+   "highlighted": false,
+   "start": 64762,
+   "end": 64775,
+   "text": "Then borrow.",
+   "section": [
+    "Appendix",
+    "How This Relates to IFS"
+   ],
+   "paragraphs": [
+    {
+     "line": 149,
+     "before": "Can’t find a calm, compassionate Self in there?",
+     "window": " Then borrow.",
+     "after": " One grown-up job at a time, from a friend who’ll play Protector for a night, or from something you do, like letting the phone ring when you know how that call goes (The Parent You Inherited again), until it’s yours."
+    }
+   ],
+   "whose": "too short to say",
+   "round6": {
+    "half": "B",
+    "windows": [
+     [
+      "Human",
+      "Medium",
+      2
+     ]
+    ]
+   },
+   "kind": "seam",
+   "id": "r8w093",
+   "round6_text": "Human, Medium"
+  }
+ ]
+}

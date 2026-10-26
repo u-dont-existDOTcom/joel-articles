@@ -1,0 +1,248 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "19e743171163fb896351e6f90749b9014a345c4a156a1ba6196e6e32e2bd1b14",
+  "context_sha256": "859e35874165541cf3942b3f4b04c0bdbb458a021c946602ad89efba1da37863",
+  "source_sha256": "4579664894140d24cce199600ae622bd24d2361baeae78cfc0d7ea781b3212e4",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "writer": {
+    "name": "Claude Opus 5.5, the Inner Child lane writer",
+    "context_id": "session_01NbUfhcTaRT8sbjyYV1wEFq"
+  },
+  "lint": {
+    "verdict_at_init": "REVIEW",
+    "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+    "stdout_sha256": "5a79ed699126b12af1cb8195640df570014f770c922af3a231a596adc6a034de",
+    "findings": [
+      {
+        "label": "B2 contrast",
+        "examples": [
+          "If it’s “get more sleep,” that could be brushing your teeth before midnight instead of at two."
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "\"before midnight instead of at two\" is the approved example's own pair of times; it sizes the step, it is not a rhetorical contrast."
+      },
+      {
+        "label": "D9 follows the source order",
+        "examples": [
+          "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "It is the same paragraph with one tell taken out, so it follows the approved paragraph's order by design; each sentence still notices something (T13 and T09 in the ledger)."
+      },
+      {
+        "label": "E36/E41 heavy second person",
+        "examples": [
+          "6.5 \"you\" per 100 of my words"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "The two sentences are the guide's instruction to the reader, as the whole guide is; \"you\" and \"your teeth\" are the reader doing the step."
+      }
+    ]
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "no first person in the two sentences; they continue the exercise in his paragraph before",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "an instruction and its example, after his own paragraph; no run of compressed commands",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "\"whatever you'd tell them\" picks up his \"ask what you'd tell them as a friend\" right before it",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "no scene: one example of a small step (teeth before midnight)",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "the example is the approved paragraph's own (teeth before midnight instead of at two), not a new prop",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "concrete words: sleep, teeth, midnight, two",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "the filler \"then for now just try\" is gone; nothing staged",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "the image \"hand it to yourself\" is gone; \"do it yourself\" says the step plainly, with nothing explained after",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "the paragraph keeps its scaffolding aside and link after these two sentences; the sentences differ in shape",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "no \"you don't have to X before Y\" packaging",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "\"Then\" moves his exercise to its next step; it carries the step, not a bridge",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "\"before midnight instead of at two\" is the example's own pair of times, the size of the step, not a balanced contrast",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "the paragraph names the technique (scaffolding, linked) after the example",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "nothing reordered or moved; a reassuring follow-up (\"and it works now, too\") is cut where it was",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "the structure changed (the image and the packaged example are gone), not just words swapped",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "no \"not X, it's Y\"",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "ABSENT",
+      "evidence": "no thesis line: an instruction and an example",
+      "resolution": ""
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "no premise flipped by a short sentence",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "neither sentence announces what comes next",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "the paragraph ends on the scaffolding sentence with its link, as approved, not a new closer",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "ABSENT",
+      "evidence": "one job each: the step, then the example",
+      "resolution": ""
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "\"start by\" and the reassurance are gone; what stays is the guide's step, said once",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "the teeth at two in the morning are the approved example, specific to the sleep advice",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "no question in the sentences",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "no colon in the sentences",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "ABSENT",
+      "evidence": "\"get more sleep\" appears once; \"them\" is the person from his paragraph",
+      "resolution": ""
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "none of the tic words",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "not the end of the section (Show Up When Nothing's Wrong follows)",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "not the paragraph's last sentence (the scaffolding sentence follows)",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "the inner child is not named, and \"the kid\" appears nowhere",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "\"them\" is \"somebody you care about\" in his paragraph before; \"it\" in \"If it's\" is whatever you'd tell them",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "no fact about Joel's life",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "no claim about a study, person or product in the two sentences; the scaffolding link after them is unchanged",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "REVIEW-preservation.json",
+    "cold_read_1": "REVIEW-cold_read_1.json",
+    "cold_read_2": "REVIEW-cold_read_2.json"
+  }
+}

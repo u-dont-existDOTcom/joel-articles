@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "0e568dfbc92ac6683fb5bb9bec05c975518cfe1ab71104cfa1568affc6e1d3a7",
+  "context_sha256": "e458cc09896c187099cb7a89a07188d5bdd56d85189c833ba8a2772194c280af",
+  "source_sha256": "fdc9db6e237d673a80bb5031e1a3e4bd14782d77d77225943990c6679e7ad5a1",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (the first cold reader)",
+    "context_id": "t115-gate-cold-read-1-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 115, 2026-10-26"
+  },
+  "evidence": "Read in its block, 'Do the same if you can’t stop yourself, and also when you’re badly disoriented or intoxicated, or can’t tell whether any of this is you. Getting safe first keeps the question of whether life is worth living open long enough to look at.' keeps every instruction in order (the crisis-line sentence is untouched; 'do the same' now also covers the can't-tell case, the grounding's MUST), and the next paragraph's 'before getting all philosophical' still follows from the closing sentence. 'That isn't my answer' is no longer its own sentence, but 'keeps the question of whether life is worth living open' says the steps leave that question unanswered, so I accept the writer's claim; the question-and-knock-down and the not-X-it-just-Y are gone and nothing is added. T17 is the one PRESENT row: the closing line is a purpose statement, but it is Joel's own published point and the grounding's MUST, said once about these steps, with no aphorism shape, so I accept it. Linter: B4/E15 is one instruction with its three conditions (slightly clunky 'and also when', but clear); D9 is a one-tell edit that follows its source by design, and a safety instruction keeps its order; E36/E41 is a safety instruction addressed to the reader; all accepted.",
+  "resolved_tell_ids": ["T17"],
+  "resolved_lint_labels": ["B4/E15 list or packed sentence", "D9 follows the source order", "E36/E41 heavy second person"]
+}

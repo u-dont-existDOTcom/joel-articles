@@ -1,0 +1,93 @@
+{
+ "gated": {
+  "F02": {
+   "reviews": {
+    "preservation": "PASS",
+    "cold_read_1": "PASS",
+    "cold_read_2": "PASS"
+   },
+   "admitted": true,
+   "gate": "DELIVERED earlier (2026-10-26T13:13:25.674414+00:00); the proof matches the files"
+  },
+  "F04": {
+   "reviews": {
+    "preservation": "PASS",
+    "cold_read_1": "PASS",
+    "cold_read_2": "PASS"
+   },
+   "admitted": true,
+   "gate": "DELIVERED earlier (2026-10-26T13:13:32.063047+00:00); the proof matches the files"
+  },
+  "F05": {
+   "reviews": {
+    "preservation": "PASS",
+    "cold_read_1": "PASS",
+    "cold_read_2": "PASS"
+   },
+   "admitted": true,
+   "gate": "DELIVERED earlier (2026-10-26T13:13:37.481129+00:00); the proof matches the files"
+  },
+  "F06": {
+   "reviews": {
+    "preservation": "PASS",
+    "cold_read_1": "PASS",
+    "cold_read_2": "PASS"
+   },
+   "admitted": true,
+   "gate": "DELIVERED earlier (2026-10-26T13:13:43.304470+00:00); the proof matches the files"
+  },
+  "F10": {
+   "reviews": {
+    "preservation": "PASS",
+    "cold_read_1": "PASS",
+    "cold_read_2": "PASS"
+   },
+   "admitted": true,
+   "gate": "DELIVERED earlier (2026-10-26T13:13:49.229588+00:00); the proof matches the files"
+  }
+ },
+ "cuts": {
+  "F01": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS",
+   "passed": true
+  },
+  "F03": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS",
+   "passed": true
+  },
+  "F07": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS",
+   "passed": true
+  },
+  "F08": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS",
+   "passed": true
+  },
+  "F09": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS",
+   "passed": true
+  },
+  "F11": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS",
+   "passed": true
+  },
+  "F12": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS",
+   "passed": true
+  }
+ }
+}

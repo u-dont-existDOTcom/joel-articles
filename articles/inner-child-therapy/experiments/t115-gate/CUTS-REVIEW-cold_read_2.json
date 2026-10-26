@@ -1,0 +1,38 @@
+{
+  "schema": "JOEL_CUT_REVIEW_V1",
+  "role": "cold_read_2",
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (the second cold reader)",
+    "context_id": "t115-gate-cold-read-2-cuts-subagent"
+  },
+  "cuts": {
+    "F01": {
+      "verdict": "PASS",
+      "note": "Read the block: after “the uncle who’s just sitting there”, “Knowing that love is in you somewhere counts for a lot, and you’re borrowing something you already know how to do” still ties back to the heading and to P1’s “the attempt goes flat”, and the aunt and uncle already show not pushing, so “don’t push it” leaves no gap; the reassurance was already there and no new pattern is made."
+    },
+    "F03": {
+      "verdict": "PASS",
+      "note": "“Answer it seriously” is already said by “take whatever’s true in the anger seriously” and shown by Mr. Rogers’ “he does answer what’s worth answering in it”, and “the same move” still has its antecedent (listen for the complaint, don’t collapse, don’t fight); the small prediction that the complaint “might only be one sentence” also goes, which nothing else states but the paragraph does not need, and the bedtime callback now follows the instruction directly."
+    },
+    "F07": {
+      "verdict": "PASS",
+      "note": "“There’s help, and lots of other people are out there learning…” says “you aren’t alone” concretely and follows “You are more than your pain and your past.” with no missing antecedent; his guide’s line and the patient-and-gentle line stay, and only the explanation of why it is hard to see is lost."
+    },
+    "F08": {
+      "verdict": "PASS",
+      "note": "The boss example still shows reparenting going on in ordinary life, and stage 4 (“after sufficient practice with reparenting, you become a natural…”) and the paragraph before (“saying the right thing when you sit down with your little one helps”) already say practice matters, so it does not read as “the sessions are unneeded”; the summing-up closer is gone and nothing else."
+    },
+    "F09": {
+      "verdict": "PASS",
+      "note": "“That” still points to feeling none of the warmth, and “start smaller” keeps the way in open and is what the next paragraph’s “go smaller still” picks up; the not-X-it-just-Y shape is gone and no reassurance is left in its place."
+    },
+    "F11": {
+      "verdict": "PASS",
+      "note": "“If that’s what you find, just listen to it, without arguing back” keeps the act the stock phrase named, “it” still points to what you find, and the paragraph runs into “What was it?” unchanged; no word is added."
+    },
+    "F12": {
+      "verdict": "PASS",
+      "note": "“Ask that part what it hoped might happen…” needs no choice among the listed possibilities (it asks a different question than “which”), and “that part” still points to the part that came here, so dropping the permission leaves no gap or misreading and the list stays an open enumeration."
+    }
+  }
+}

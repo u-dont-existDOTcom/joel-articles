@@ -1,10 +1,10 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-26 (turns 82 to 114). **Open questions: none.** For you to do: check the two drafts in Pangram and send me the two links, and merge pull request #252. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-10-26 (turns 82 to 115). **Open questions: none.** For you to do: go through the docx of round 8's spots and send it back. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
-The published page, a view of this file rebuilt after every change ([questions_page.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/tools/questions_page.py)), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA [owner-questions-page.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/owner-questions-page.md), [cross-account-continuity.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/cross-account-continuity.md)). Only the account that published the page can republish it, so after a turn by your other account (turns 100 to 114), this file is newer than the page until the next republish.
+The published page, a view of this file rebuilt after every change ([questions_page.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/tools/questions_page.py)), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA [owner-questions-page.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/owner-questions-page.md), [cross-account-continuity.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/cross-account-continuity.md)). Only the account that published the page can republish it, so after a turn by your other account (turns 100 to 115), this file is newer than the page until the next republish.
 
 ## Open questions
 
@@ -15,22 +15,26 @@ None right now.
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
 
-### 🟠 Round 8: check the two drafts in Pangram and send me the two links (turn 114)
+### 🟠 The docx: decide on my pass and work on the shaded spots, then send it back (turn 115)
 
-The two temporary Substack drafts now hold the guide as installed, with everything you approved from the review sheet, so the free check reads the new headings and splits in their real places. In your Brave, open [draft A](https://ibogaqueen.substack.com/publish/post/221982879) and [draft B](https://ibogaqueen.substack.com/publish/post/221983135), click Preview, then "Paid subscriber view" at the top. Click the green label next to the author's name, then "View Full Analysis", and send me each result page's link ("Copy shareable link to result"). The label's word isn't the result; the result page's windows are what I read. That takes about two minutes.
+The [docx](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t115-docx/inner-child-spots-round8.docx) is the whole guide as round 8 read it. My pass is in it as tracked changes: accept or reject each one (one you leave as it is, I'll take as accepted). The shaded spots are what round 8 read below Human, high that the pass didn't change, most of them your words, each with a comment giving its reading and round 6's. Track Changes is on, so whatever you type shows as yours. Send it back in chat, and I'll put everything in for round 9. ([PASS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t115-pass/PASS.md) says what the pass did and why.)
 
-### 🟠 Merge pull request #252 (turns 113 and 114)
+### 🔵 The two temporary Substack drafts: keep them for round 9 (turn 115)
 
-The lane's [pull request #252](https://github.com/u-dont-existDOTcom/joel-articles/pull/252) now holds turn 113's review sheet and turn 114's install. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged". (You merged #250, turn 112.)
-
-### 🔵 The two temporary Substack drafts: keep them until round 8 is read (turn 114)
-
-"Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)" hold round 8, the guide as installed. Once its results are in, a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
+"Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)" still hold round 8. Round 9, with the pass and your changes from the docx, goes into them next. Once its results are in, a permanent delete is one thing I leave to you: in your Substack drafts list, open each one's "…" menu and choose Delete. That's about a minute.
 
 ## Decided
 
 > [!TIP]
 > Your answers in your words, and what I did with them.
+
+### 🟢 Round 8 and the pass, 2026-10-26 12:24 UTC
+
+Your message ([JOEL-20261026-1224.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t115-answers/JOEL-20261026-1224.md)) with round 8's two links. You merged pull request #252.
+
+- **Round 8:** both halves Human Written, high (0.37% and 0.21% AI), with four AI windows, all Low, and 89 more windows below Human, high ([ROUND8.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t115-results/ROUND8.md), every one listed in [WINDOWS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t115-results/WINDOWS.md)).
+- **"have you been saving those parts? i hope you haven't been treating anything that passes the same?":** every window was saved in rounds 1, 2, 6 and 8, but rounds 3 to 5 wrote down only their AI windows. And yes, a Human window counted as passing whatever its confidence. All four of round 8's AI windows were on words round 6 had read below High, so your point holds. Lesson E276 (Inner Child) makes the below-High windows part of every read and every pass.
+- **"try to get it all high conf human with one more pass, then whatever remains ... in a docx":** 12 changes in my own paragraphs, taking in all four AI windows and seven of the eight Low ones, each reviewed by three fresh readers and the five rewordings by the owner-delivery gate ([PASS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t115-pass/PASS.md)). They're in the docx as tracked changes for you to decide; the rest is shaded there.
 
 ### 🟢 110, 2026-10-26 00:52 UTC
 
@@ -943,9 +947,9 @@ Your answers to 45 and 47 to 54, word for word, are in [experiments/t72-answers/
 > [!NOTE]
 > Work that may need you later, and what happens if nothing changes.
 
-### 🔵 Next: round 8's windows, then Untangling the Belonging Bargains (turn 114)
+### 🔵 Next: your docx, then round 9 (turn 115)
 
-When your two result links are in, I read each half's windows, and fix what a window shows, a diagnosed draft at a time. Then the first paragraph of Untangling the Belonging Bargains, which read AI alone.
+When the docx is back, I put in what you accepted and wrote, run the gate on any new words of mine, and paste round 9 into the two drafts. Untangling the Belonging Bargains' first paragraph read Human in round 8, with two Medium windows on your approved version, so it is in the docx with the rest.
 
 ### 🔵 Next
 
