@@ -7,9 +7,10 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/inner-signa
 | version | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | Pangram 4.0 (before the ledger) | 944 | 803 (85%) | 22% | 78% | 89% | 0.120 (base 0.174, 944) |
-| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 20 | 16 (80%) | 80% | 20% | 10% | 0.155 (base 0.160, 20) |
+| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 22 | 18 (82%) | 82% | 18% | 9% | 0.141 (base 0.149, 22) |
 | pangram 4.1, web app | 14 | 8 (57%) | 43% | 57% | 86% | 0.201 (base 0.245, 14) |
 | pangram 4.1, the API (Joel's key, run on his laptop; E218) | 20 | 12 (60%) | 45% | 55% | 75% | 0.216 (base 0.247, 20) |
+| pangram API (model pangram-4, expect 4.1), Joel's key, run on the laptop | 4 | 4 (100%) | 0% | 100% | 100% | 0.144 (base 0.000, 4) |
 
 ## Pangram 4.0 (before the ledger)
 
@@ -41,22 +42,22 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 20 | 16 (80%) | 80% | 20% | 10% | 0.155 (base 0.160, 20) |
-| the latest 100 | 20 | 16 (80%) | 80% | 20% | 10% | 0.155 (base 0.160, 20) |
-| all | 20 | 16 (80%) | 80% | 20% | 10% | 0.155 (base 0.160, 20) |
+| the latest 50 | 22 | 18 (82%) | 82% | 18% | 9% | 0.141 (base 0.149, 22) |
+| the latest 100 | 22 | 18 (82%) | 82% | 18% | 9% | 0.141 (base 0.149, 22) |
+| all | 22 | 18 (82%) | 82% | 18% | 9% | 0.141 (base 0.149, 22) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| article | 8 | 6 (75%) | 88% | 12% | 12% | 0.153 (base 0.109, 8) |
+| article | 10 | 8 (80%) | 90% | 10% | 10% | 0.123 (base 0.090, 10) |
 | stretch | 12 | 10 (83%) | 75% | 25% | 8% | 0.155 (base 0.188, 12) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.0 to 0.2 | 8 | 0.06 | 12% |
+| 0.0 to 0.2 | 10 | 0.05 | 10% |
 | 0.2 to 0.4 | 7 | 0.33 | 14% |
 | 0.4 to 0.6 | 5 | 0.47 | 40% |
 
@@ -109,6 +110,28 @@ Calibration:
 | 0.6 to 0.8 | 3 | 0.60 | 100% |
 | 0.8 to 1.0 | 4 | 0.85 | 75% |
 
+## pangram API (model pangram-4, expect 4.1), Joel's key, run on the laptop
+
+| window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| the latest 50 | 4 | 4 (100%) | 0% | 100% | 100% | 0.144 (base 0.000, 4) |
+| the latest 100 | 4 | 4 (100%) | 0% | 100% | 100% | 0.144 (base 0.000, 4) |
+| all | 4 | 4 (100%) | 0% | 100% | 100% | 0.144 (base 0.000, 4) |
+
+The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| paragraph | 3 | 3 (100%) | 0% | 100% | 100% | 0.138 (base 0.000, 3) |
+| pair | 1 | 1 (100%) | 0% | 100% | 100% | 0.160 (base 0.000, 1) |
+
+Calibration:
+
+| my chance of a 100% Human result | calls | mean chance | read Human |
+|---|---|---|---|
+| 0.4 to 0.6 | 2 | 0.57 | 100% |
+| 0.6 to 0.8 | 3 | 0.65 | 100% |
+
 ## Misses since the ledger (18)
 
 | cause | misses |
@@ -151,8 +174,8 @@ The latest:
 
 | lineage | scope | tries | last read |
 |---|---|---|---|
-| HG-whole | article | 7 of unlimited (Substack) | pending |
-| HG-rest-B | article | 5 of unlimited (Substack) | pending |
+| HG-whole | article | 8 of unlimited (Substack) | pending |
+| HG-rest-B | article | 6 of unlimited (Substack) | pending |
 | HG15-p9 | paragraph | 2 of 6 | Mixed |
 | HG15 | section | 1 of 2 | Mixed |
 | HG35 | section | 1 of 2 | Mixed |

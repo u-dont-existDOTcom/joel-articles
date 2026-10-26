@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cg/HG-A-stop.txt",
+  "input_words": 231,
+  "input_sha256": "c09304a5db1aa0b8ef652f8f620d9b872c9a537bffcd833273f57f3361047798",
+  "balance_before": 52383,
+  "started_utc": "2026-10-26T00:06:21Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T00:06:33Z",
+  "response": {
+    "id": "61c9fe21-f128-405e-9b6f-2274545e891c",
+    "tool": "humanize",
+    "text": "This is best done in a safe environment. Don't do this if you are driving, in the water, operating machinery, or otherwise need to be attentive to yourself or others. If you are intoxicated, in acute confusion, or otherwise unable to be safe, get some immediate support instead of trying out exploratory hypnosis. You can use the 'already open? contain before you deepen' section even if you are already open, but don't deepen if you can't be safe.\n\nDeciding to do it How do you think you will need to coax yourself to do this? Do you need to feel more spacious? More warm and held? Do some of these beforehand. Preview what you are going to do. Will you close your eyes? Will you come out of it and go back in again? What are you going to do at the end? If you are going to be listening to a recording, it might help to read the script beforehand. Remind yourself that if you say 'stop' at any time, the induction will end. If you say 'less', you will be asked to do less. If you say 'quiet', the talking will stop. You can always just open your eyes, stop, and come all the way back. You don't even need to ask any parts for permission to do this, even if some parts tell you that you do.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 231
+    },
+    "elapsed": 11
+  },
+  "balance_after": 52152
+}

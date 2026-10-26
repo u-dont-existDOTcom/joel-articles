@@ -1,0 +1,74 @@
+{
+ "guide_sha256": "c38ca36f298d91edc9d38b8d216ef024b0bdf7634fdfccc093d63927d7bbfcfd",
+ "items": {
+  "HG-A-jobs": {
+   "paragraphs": [
+    "The inner child, the guards, and the inner adult’s three jobs, P1",
+    "The inner child, the guards, and the inner adult’s three jobs, P2"
+   ],
+   "blocks": [
+    91,
+    92
+   ],
+   "words": 117,
+   "red": "part A, Low: \"That’s one grown-up doing three jobs, and each job keeps the others in balance.\" (IC-A2)"
+  },
+  "HG-A-borrowed": {
+   "paragraphs": [
+    "When the adult role is not available yet, P1",
+    "When the adult role is not available yet, P2"
+   ],
+   "blocks": [
+    95,
+    96
+   ],
+   "words": 105,
+   "red": "part A, High: P2 whole (EM-2: Emulate's first sentence and my plainer words for his published line)"
+  },
+  "HG-A-stop": {
+   "paragraphs": [
+    "Before you begin, P3",
+    "Before you begin, P4"
+   ],
+   "blocks": [
+    243,
+    244
+   ],
+   "words": 231,
+   "red": "part A, five Low windows marked humanized: P3's last sentence (RR-4.6), P4's \"Deciding to do it.\" (TY-6) and its last four sentences (RR-4.1's quote marks and \"say\"; the last two unchanged since A4)"
+  },
+  "HG-B-act": {
+   "paragraphs": [
+    "Core prompts, P8"
+   ],
+   "blocks": [
+    480
+   ],
+   "words": 67,
+   "red": "part B, Low and High: \"It should make sense, too. Even then, anything big or hard to undo can wait until you’re calm and you’ve checked it against what you actually know.\" (IC-B12, his inner child guide's words)"
+  },
+  "HG-B-love": {
+   "paragraphs": [
+    "Inner child love, P1"
+   ],
+   "blocks": [
+    630
+   ],
+   "words": 84,
+   "red": "part B, Low, Medium, High: from \"You don’t have to fix it.\" to the end, the High one IC-B14's added \"No warmth today? ...\" (also in part A, IC-A10, where it read Human), and the anxiety script's opening after it (Low)"
+  },
+  "HG-B-test": {
+   "paragraphs": [
+    "A response check, not a verdict about what it is, P3",
+    "A response check, not a verdict about what it is, P4"
+   ],
+   "blocks": [
+    699,
+    700
+   ],
+   "words": 93,
+   "red": "part B, High: P4's last sentence, his published test, put back by EM-16"
+  }
+ },
+ "bundle_sha256": "84d0138afe7147bf17fabc754975b04f8bbae2f506ece610a75c02eb8f4c96f3"
+}

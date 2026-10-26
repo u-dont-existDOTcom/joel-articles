@@ -1,0 +1,26 @@
+[
+ {
+  "name": "S4 IC-B12",
+  "text": "Once you get an answer, you can ask: “What can I do in my ordinary life to prove that I heard correctly?” If it tells you to do something, I’d only do it if it’s loving and leaves you free. It should make sense to you and if it’s something big or hard to undo, wait till you’re calm and then check it out with what you know.",
+  "chance_red": 0.15,
+  "why": "Emulate's ci for his two inner child guide sentences; read Human, High, alone (479g, HG-core-prompts-P8#62)"
+ },
+ {
+  "name": "S5 IC-B14",
+  "text": "Here is some inner child love. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix it. I’m here now, and the adult is here now to listen to you.” Make sure you are actually talking to your inner child, who is scared to death. If you can’t do this in a loving way today, just put your hands there and see what you feel. You don’t have to fake it!",
+  "chance_red": 0.15,
+  "why": "Emulate's ch for IC-B14's fallback; the paragraph read five Human windows alone (479g, HG-inner-child-love-P1#63), three of them Medium"
+ },
+ {
+  "name": "S6 EM-16",
+  "text": "You don’t have to find out if it’s a guard immediately, and you may not be able to comfort it quickly. Is this way of responding helping you to be clearer and steadier and less hooked?",
+  "chance_red": 0.15,
+  "why": "Emulate's cg question with his \"this way of responding\"; read Human, High, alone with the paragraph before it (479g, HG-response-check-P4#64)"
+ },
+ {
+  "name": "the hypnosis audit (kept, 2c)",
+  "text": "Was I plainly told that induction mechanics are being used?",
+  "chance_red": 0.95,
+  "why": "unchanged; his answer 2c keeps it a list; read AI, High, in recheck B2 and in the last check"
+ }
+]

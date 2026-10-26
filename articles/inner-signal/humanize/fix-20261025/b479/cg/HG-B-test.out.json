@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cg/HG-B-test.txt",
+  "input_words": 93,
+  "input_sha256": "52e91d52174ef228151760fae7daed1ab96238464f16d93aa63f350329a7b955",
+  "balance_before": 52001,
+  "started_utc": "2026-10-26T00:06:48Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T00:06:54Z",
+  "response": {
+    "id": "ec262885-a420-4892-8573-0cefdc7cadac",
+    "tool": "humanize",
+    "text": "Trying to deal with it can take a while. If you’re not feeling better, or the part that is there is remaining hostile towards you, then just give up on trying to deal with it, and come back into your body and the room. Especially if you’re feeling vulnerable, or tight in your throat, sad or scared, or protective, call on your Nurturer.\n\nRemember that you don’t need to know whether or not it’s a guard right now. If you can’t figure out how to comfort it quickly, that’s okay. Is it helping you to be clearer and steadier and less hooked?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 93
+    },
+    "elapsed": 6
+  },
+  "balance_after": 51908
+}

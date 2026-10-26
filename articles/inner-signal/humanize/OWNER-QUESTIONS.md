@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-25, after your message of 23:05 UTC (your answers to 20). **Open questions: 0.** **For you to do**:
-the whole guide's recheck in Brave (just below), and merge [pull request 251](https://github.com/u-dont-existDOTcom/joel-articles/pull/251) when you've looked.
+Last updated 2026-10-26, after your message of 2026-10-25 23:50 UTC (the two recheck links). **Open questions: 0.**
+**For you to do**: the recheck with my fixes in, in Brave (just below), and merge [pull request 253](https://github.com/u-dont-existDOTcom/joel-articles/pull/253) when you've looked.
 The questions are at the top, with their options and my default; under them is what you decided and what I did with it.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -14,14 +14,44 @@ None right now.
 
 ## For you to do
 
-- 🟠 **The whole guide's recheck, in Brave.** Everything that changed today is in two temporary drafts (never published):
-  open each link in Brave, run Pangram's check from its side panel, and send me each result's link ("Copy shareable link
-  to result").
-  - [Part A, the main guide](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-25&audience=only_paid&free_preview=false&freemail=)
-    (the check reads its first 99,999 characters, which end just inside "Try it in the Inner Signal app"; part B starts at Closing, the section before it, so the end of the guide is read in full).
-  - [Part B, from Closing to the end of the appendices](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-25&audience=only_paid&free_preview=false&freemail=).
-  My forecast is some red in each: 136 and 88 paragraphs changed since the last checks, most of them only a mark or a word.
-  Whatever reads red goes to Emulate's re-run first, or back to you with your own version beside it, before the copy helper.
+- 🟠 **The recheck with my fixes in, in Brave.** The same two temporary drafts (never published) now hold the whole guide
+  with a candidate for each red stretch of your last check (below): open each link in Brave, run Pangram's check from its
+  side panel, and send me each result's link ("Copy shareable link to result").
+  - [Part A, the main guide](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-26&audience=only_paid&free_preview=false&freemail=)
+    (the check reads its first 99,999 characters; part B starts at Closing, so the end of the guide is read in full).
+  - [Part B, from Closing to the end of the appendices](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-26&audience=only_paid&free_preview=false&freemail=).
+  My forecast: about a one-in-five chance that part A reads all Human; part B keeps the audit questions you kept as a list,
+  and the rest of it may read Human. The candidates that read Human there come to you next on a marking page, beside your
+  own words; your guide itself doesn't change until you mark them.
+
+## Your message of 2026-10-25 23:50 UTC, and what I did
+
+Your message, [word for word](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/joel-20261025-2350-message.txt).
+
+- 🟢 **The recheck, read.** [Part A](https://www.pangram.com/feed/4c912830-87c4-4ee1-bff1-5acc606dc4f7): Mostly Human
+  Written, 0.9% AI, 7 of its 161 windows red, in three places. [Part B](https://www.pangram.com/feed/6b07dbba-8dc6-42a0-b562-b46dbe778919):
+  Mostly Human Written, 2.2% AI, 8 of its 61 windows red, in four places, one of them the audit questions you kept as a
+  list. My calls for both were right, and the part forecasts put the red where it was: 244 of 248 parts right in A, 156
+  of 162 in B, nothing red anywhere they didn't look.
+- 🟢 **Where the red came from** ([every step](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/b479/README.md)):
+  - Part A, Low: "That's one grown-up doing three jobs, and each job keeps the others in balance." It's your inner child
+    guide's sentence with your "not three more people moving in to help with the rent" cut out by the alignment card. That
+    cut was mine to catch: the joke is what makes the line yours (lesson E275).
+  - Part A, High: the borrowed adulthood paragraph, Emulate's first sentence and my plainer words for your published
+    line (EM-2).
+  - Part A, five Low windows: the stop lines before an induction, where the review page put your quote marks back on
+    "stop", "less" and "quiet".
+  - Part B, High: "It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and
+    you've checked it against what you actually know." These are your own words from your inner child guide.
+  - Part B, High: "No warmth today? Then rest your hands there and notice what you find, no faking required." in the
+    anxiety practice, which turned the lines around it red too; the same line reads Human in part A's two-hand practice.
+  - Part B, High: your published test, "The useful question is whether this way of responding helps you become clearer,
+    steadier, and less hooked."
+- 🔵 **What's in the recheck above**: for the three-jobs line, your whole sentence, rent and all. For the other five,
+  Emulate's versions of just the red sentences, each read by fresh readers for meaning. Where a version shifted what you
+  said (the borrowed adulthood caution, the pointer to "Already open?", two of the stop lines), it now uses your
+  published words, or those lines stay as they were. The four High ones read Human, High, in checks on their own. The
+  audit stays as you chose.
 
 ## Your message of 2026-10-25 23:05 UTC, and what I did
 

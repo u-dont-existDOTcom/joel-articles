@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-ch/HG-A-stop.txt",
+  "input_words": 231,
+  "input_sha256": "c09304a5db1aa0b8ef652f8f620d9b872c9a537bffcd833273f57f3361047798",
+  "balance_before": 51686,
+  "started_utc": "2026-10-26T00:07:13Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T00:07:24Z",
+  "response": {
+    "id": "8a8daf4a-5ff1-4b62-a421-7c040ee55885",
+    "tool": "humanize",
+    "text": "Make sure you are in a safe place and not doing anything unsafe like driving or in the water. If you need to take care of yourself or others, this is not the time. If you are intoxicated or acutely confused , get support but don’t do this (except possibly the “already open? Contain yourself before you go deeper” part).\n\nDecide to do it. How will you coax yourself into it? Making more space for yourself? Making yourself warmer? Getting held? Whatever. Preview what you are going to do. Will you close your eyes? Will you come all the way out and go back in? What will you do at the end? If you are using a recording, read the script if you can. Remind yourself that you can say stop at any time and the induction will end. If you want things to be less, you can say that and it will be less. If you want the talking to stop, you can say “quiet” and it will stop. And of course, you can always open your eyes and come all the way back. You don’t even have to ask your parts for permission to stop. They may tell you to, but you don’t need to.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 231
+    },
+    "elapsed": 10
+  },
+  "balance_after": 51455
+}
