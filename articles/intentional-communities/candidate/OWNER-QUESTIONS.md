@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-25, after your message of 23:05 UTC ("66a"). **Open questions: 0.** **For you to do**: five changes in your post in Substack (just below), and merge pull request 251 when you've looked.
+Last updated 2026-10-26, after your message of 00:54 UTC ("i made the changes on the community article that's done"). **Open questions: 0.** **For you to do**: nothing for this article.
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -12,21 +12,14 @@ None right now.
 
 ## For you to do
 
-- 🟠 **Five changes in your post, from your answers to 66.** Your post is up with the version of 2026-10-25, so here are your answers to 66 as five changes to make in Substack's editor, in the order they come in the post. For each, find the old words (ctrl+f in the editor), select them, and type or paste the new ones; no link or bold is touched. Each changed paragraph reads Human in Pangram where it sits ([the checks](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/answer66/b478/PREDICTIONS.md)).
-  1. Your "don't freeze into doctrine". Old: "Whatever answers we find stay fluid and organic." New: "Whatever answers we find stay fluid and organic, and don’t freeze into doctrine."
-  2. A practice group already is community. Old: "So what? It can still make a difference" New: "So what? It’s already a real piece of community, and it can still make a difference"
-  3. Who steps aside, and the appeal. Old: "What counts as cause for immediate protective action?" New: "What counts as cause for immediate protective action? Who has to step aside because they’re too close to it?"
-  4. Who steps aside, and the appeal. Old: "How will the person be able to reply to the concerns?" New: "How will the person be able to reply to the concerns? What review or appeal is possible without endangering others?"
-  5. A sentence that doesn't parse. Old: "Just because it’s optional participating in the ceremonies doesn’t mean they don’t have to work with the other parts." New: "Just because taking part in the ceremonies is optional doesn’t mean people don’t have to work with the other parts."
-
-- 🟢 Done: **you put the new version in your post** with the clipboard helper (read in this turn: "Updated: Oct 25 2026", with the How-To Manual and your kibbutz image).
-- 🟢 Done: [the whole-article check](https://www.pangram.com/feed/954042b6-e624-4c7f-87d7-db15c547d5c8) (your result of 00:27 UTC): Human Written, 0 of 72 windows AI, document confidence High. My part forecast called all 130 of its parts right; my call for the whole was too gloomy, a 7% chance of no red ([scored](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/recheck-r1/SCORE.md)).
-- 🟠 Merge [pull request 251](https://github.com/u-dont-existDOTcom/joel-articles/pull/251) when you've looked: the Emulate check of this article and of the hypnosis guide, and your answers to 66 (238, the last one, is merged).
+Nothing for this article right now.
 
 ## Decided
 
 > [!TIP]
 > Answered, with what I did.
+
+- 🟢 2026-10-26 00:54 UTC, your five changes ([your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/joel-20261026-0054-message.txt)): your post now has the version with your answers to 66, word for word. I read it in the browser: its text matches mine line for line, all five new sentences included; the only two differences are spaces the post itself drops (a double space after "starting a commune." and the one before a line break after "labeled as such.") ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/answer66/PROMOTE-CHECK-20261026.json)). That version is the registered master now ([the receipt](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/PROMOTION-RECEIPT-20261017.md)).
 
 - 🟢 2026-10-25 23:05 UTC, 66, the Emulate check page ([your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/joel-20261025-2305-message.txt), [your answers](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/emulate-check/ANSWERS-20261025-2304.json)): IC-E1, IC-E2, IC-E3 and IC-T1 are in the working copy ([read it here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/answer66/READING-COPY.md), [what happened to each](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/answer66/RECORD-66.json)), and go to your post as the five changes above. IC-Q1 stays as it is: your quote marks on "in", "spiritual" and "even" keep their tone, and the next Emulate checks take that as your example (quote marks that carry a tone in an essay stay; lesson E273). IC-E4 stays as it is too.
 

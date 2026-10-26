@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cl/HG-B-altered.txt",
+  "input_words": 76,
+  "input_sha256": "ae23b0e180c76e50597e4d354c0ef81a30dcbbd9c0896ffeb8e066114b777420",
+  "balance_before": 49069,
+  "started_utc": "2026-10-26T01:06:28Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T01:06:35Z",
+  "response": {
+    "id": "fda97b1b-7cfb-461e-9257-01346bf1c0ef",
+    "tool": "humanize",
+    "text": "NOTE: I'm not saying you SHOULD use substances, but know that many have when doing these things for the first time. If you do decide to, make sure you have learned how to work with your Inner Child while sober first, and have plenty of Nurturer and Protector present when you go deep (see section on reparenting your Inner Child for more info on how to get them present). Borrow some from someone else if you need to, but make sure they're stable and not someone who will try to direct your trip.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 76
+    },
+    "elapsed": 6
+  },
+  "balance_after": 48993
+}

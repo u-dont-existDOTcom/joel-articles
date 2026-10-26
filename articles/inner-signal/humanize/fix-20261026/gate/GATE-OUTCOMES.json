@@ -1,0 +1,102 @@
+{
+ "G-S2": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "delivered_at_utc": "2026-10-26T01:36:07.469840+00:00",
+  "gate": "ADMITTED candidate=d36035c7ee3863a4e248eda56575b52e4452d30a166846dd321bb008894130fc reviews=preservation,cold_read_1,cold_read_2"
+ },
+ "G-S3a": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "delivered_at_utc": "2026-10-26T01:36:09.973995+00:00",
+  "gate": "ADMITTED candidate=412d4a193a13cc4f1dd95e65a660d1f56294f61f839a88ca67da0f7aae2ac5ad reviews=preservation,cold_read_1,cold_read_2"
+ },
+ "G-S3b": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "delivered_at_utc": "2026-10-26T01:36:12.685210+00:00",
+  "gate": "ADMITTED candidate=c121ac15d089531afbeaf09b8c688d5a250ec48a0b0c92a3dc947261def04239 reviews=preservation,cold_read_1,cold_read_2"
+ },
+ "G-S4": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "delivered_at_utc": "2026-10-26T01:36:15.345835+00:00",
+  "gate": "ADMITTED candidate=374b0a8ac2d4856f1b30555740fa533196037be7de85ab74828c5f92fee4cf02 reviews=preservation,cold_read_1,cold_read_2"
+ },
+ "G-S5": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "delivered_at_utc": "2026-10-26T01:36:17.714277+00:00",
+  "gate": "ADMITTED candidate=3c2e4ac5e2fdba4bdcd701f4a7b5831c3ebdf66adb17c2b2300d3387b3b431ae reviews=preservation,cold_read_1,cold_read_2"
+ },
+ "G-S6": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "delivered_at_utc": "2026-10-26T01:36:20.485454+00:00",
+  "gate": "ADMITTED candidate=9dec1f3736b9511c4f91af2f448b00209598138f8e3f3058b1d4a3b77c28d065 reviews=preservation,cold_read_1,cold_read_2"
+ },
+ "G-S7": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "delivered_at_utc": "2026-10-26T01:36:22.795251+00:00",
+  "gate": "ADMITTED candidate=e45d15d1afe6c84bf39994cc3b908b666feffd32836a2ba1c494e552acea6209 reviews=preservation,cold_read_1,cold_read_2"
+ },
+ "G-S8": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "delivered_at_utc": "2026-10-26T01:36:25.181109+00:00",
+  "gate": "ADMITTED candidate=a68eec776804fc724d4342a0b6750e44542d5d6739a85b4351f0a8ea60405c37 reviews=preservation,cold_read_1,cold_read_2"
+ },
+ "G-S9": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "delivered_at_utc": "2026-10-26T01:36:27.500640+00:00",
+  "gate": "ADMITTED candidate=4103c87b1ecd8a7a8e85dd7d02a7b21e5c2d07fc2ca4f8af0c22657fcc06bc21 reviews=preservation,cold_read_1,cold_read_2"
+ },
+ "G-S10": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "delivered_at_utc": "2026-10-26T01:36:29.793152+00:00",
+  "gate": "ADMITTED candidate=3a6ce4dba22a48c4527ee4719e92e17c3be439fbf03ae85c0b039a71a2d94c6c reviews=preservation,cold_read_1,cold_read_2"
+ }
+}

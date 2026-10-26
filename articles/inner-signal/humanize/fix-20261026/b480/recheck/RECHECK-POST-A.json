@@ -1,0 +1,25 @@
+{
+ "made": "in the turn after Joel's message of 2026-10-26 00:54 UTC; the time is not read mid-turn",
+ "link_note": "the \"updated\" value in the secret link is only a cache key, not a time",
+ "helper": "../../../fix-20261022/screen/paste_payload_lane.js",
+ "payload_commit": "13f2bcd3ab2d1242017ed60bd9091075a3d41255",
+ "cleared": "the old body cleared with a click in a plain paragraph (screenshot first), ctrl+a and Delete; the title checked first; the editor then held 1 character",
+ "saved": "the draft API returned the new body (unpublished, audience only_paid) before the page was left; its draft_updated_at is the server's",
+ "draft": "https://ibogaqueen.substack.com/publish/post/222109105",
+ "title": "TEMP recheck A (hypnosis guide) - do not publish",
+ "draft_updated_at": "2026-10-26T01:39:05.786Z",
+ "secret_link": "https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-26b&audience=only_paid&free_preview=false&freemail=",
+ "payload": "PAYLOAD-A.html",
+ "payload_sha256": "a52c133a4d4f450de983d35e6f3f3291a337dcd2f0b525893d473ff9c2d82889",
+ "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/13f2bcd3ab2d1242017ed60bd9091075a3d41255/articles/inner-signal/humanize/fix-20261026/b480/recheck/PAYLOAD-A.html",
+ "paste": {
+  "editor_words": 29723,
+  "words_expected": 29689,
+  "words_match": false,
+  "why_not": "the editor shows 34 more words than WORDS-A.json counts, as at every paste of part A; the rendered check decides"
+ },
+ "rendered_check": "the secret link opened in the app's browser (unpublished): 581 lines, 158,165 characters; their first 99,999 hash to TEXT-A.txt (007f2671...) exactly (tools/humanization/substack_rendered_check.js's walk)",
+ "text_sha256": "007f2671fd2f12ea71dce521df20da79631ded625c16b1c065220ba947f5e94f",
+ "text_chars": 99999,
+ "predictions": "pangram-ledger.jsonl HG-whole#71 (key HG-whole-26-b, AI at 0.08); FORECAST-A.json"
+}

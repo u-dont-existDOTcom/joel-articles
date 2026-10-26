@@ -1,0 +1,71 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_ADMITTED_V1",
+  "candidate_sha256": "e45d15d1afe6c84bf39994cc3b908b666feffd32836a2ba1c494e552acea6209",
+  "context_sha256": "b7950b8ea726b0bcd7e3f33cb261a5cfaa60a4eb27246fb29f95013a3d15c3f3",
+  "source_sha256": "9682d9a2a9c0b7065298e8101135db973ebdb9ddf6f76411f12e5a2a6c5a4444",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "lint_verdict": "REVIEW",
+  "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+  "lint_stdout_sha256": "fef3f73d5471fe46d83c64281b43f54f378a96b8467b23c537eb192229e34d77",
+  "lint_findings": [
+    {
+      "label": "B2 contrast",
+      "examples": [
+        "It’s one person doing three jobs rather than getting three more people to move in with you to help with the rent!"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    },
+    {
+      "label": "B7 short landing at paragraph end",
+      "examples": [
+        "Each job keeps the others in balance."
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    },
+    {
+      "label": "D9 follows the source order",
+      "examples": [
+        "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    }
+  ],
+  "tell_ledger_counts": {
+    "ABSENT": 33,
+    "PRESENT_JUSTIFIED": 0,
+    "UNCERTAIN": 0,
+    "total": 33
+  },
+  "justified_tells": [],
+  "reviews": {
+    "preservation": {
+      "path": "REVIEW-preservation.json",
+      "sha256": "a3a0b4a8d6a956fbc33e3d8d3092c44280897bf1deadf75f9c45fd68c61348be",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+        "context_id": "b480-gate-preservation-subagent-c",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    },
+    "cold_read_1": {
+      "path": "REVIEW-cold_read_1.json",
+      "sha256": "a99e61bd6f34613d99f6ee53ce7c4ead063c565b3ae6a8906cae39f8413e7f3e",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+        "context_id": "b480-gate-cold_read_1-subagent-c",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    },
+    "cold_read_2": {
+      "path": "REVIEW-cold_read_2.json",
+      "sha256": "15a8eda18511badd724d84de47b5fb4c2ffd3b2f64fa1890cafdd473c77339d8",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+        "context_id": "b480-gate-cold_read_2-subagent-c",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    }
+  },
+  "manifest_sha256": "319ba12b5a57f72d636016fa1bd5dd34d09bfd1a6c7de4920498d64531250d70",
+  "verified_at_utc": "2026-10-26T01:36:22.795251+00:00"
+}

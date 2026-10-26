@@ -1,0 +1,256 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "c121ac15d089531afbeaf09b8c688d5a250ec48a0b0c92a3dc947261def04239",
+  "context_sha256": "bc1f411ed7b61ff04fa9378268964280d837b5accb360d7cbd4522d29b1b8224",
+  "source_sha256": "f780e26a17771ef7b4b4ee1d4d8da1132096aa0ae440f3958783963b488bf1f3",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "writer": {
+    "name": "Claude Opus 5.5, the hypnosis guide lane's writer (the splices and their fixes; the words are Emulate's)",
+    "context_id": "session_01Mxpoi6tFT3FgKmBvtGjRtS"
+  },
+  "lint": {
+    "verdict_at_init": "REVIEW",
+    "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+    "stdout_sha256": "28aff8937488a85583aa470c79f4988e0d8082d3538c6552f9b1098c3d1140cf",
+    "findings": [
+      {
+        "label": "B7 short landing at paragraph end",
+        "examples": [
+          "If you say 'quiet', the talking will stop."
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "The linter sees the draft alone. In the article the short line is either not the paragraph's end (the stop lines go on after \"quiet\") or is the fallback's own point (\"Don't fake it.\", his inner child guide's \"no faking required\"), not a summing-up line."
+      },
+      {
+        "label": "D9 follows the source order",
+        "examples": [
+          "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "It is Emulate's rewrite of the passage it replaces, so it follows that passage's points in order by design, with Emulate's own asides and turns (\"if I can put it that way\", \"of course\", \"just\", \"!\")."
+      },
+      {
+        "label": "E36/E41 heavy second person",
+        "examples": [
+          "12.1 \"you\" per 100 of my words"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "The guide speaks to the reader as \"you\" throughout; these lines give the reader one step or one check inside a paragraph that is not a run of coaching lines."
+      },
+      {
+        "label": "O30 a phrase said three or more times in one paragraph (gate, 2026-10-07: my \"a commitment they make as adults\" \"gave P22 its fourth \"as adults\"\"; Joel: \"take out second adults that's obvious\"): keep it only where the repeat does a job",
+        "examples": [
+          "\"you say\" 3 times: Remind yourself that if you say 'stop' at any time, the induction will end. / If you say 'less', you will be asked to do less. / If you say '"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "\"you say\" names each word the reader can say, one per sentence: 'stop', 'less', 'quiet', as his published \"“Stop” ends the exercise; “less” reduces the demand; “quiet” stops the words.\" The repeat is the instruction."
+      }
+    ]
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "no first-person stake in \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\" beyond the source's own",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "\"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\" is one step in its paragraph, not part of a run of compressed commands",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "the sentence before it in the context sets it up; nothing new arrives unprepared in \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "no scene in \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "no concrete prop in \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "no vague healing or process language in \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\"; its terms are the article's own",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "no filler or staged hesitation in \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "no image followed by an explanation of it in \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "one change in one passage; \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\" gets the weight its point needs, the rest of the passage is unchanged",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "no \"you don't have to X before Y\" packaging in \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "\"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\" carries a claim or step, not a bridge between document parts",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "the three words to say are his three (\"stop\", \"less\", \"quiet\"), each with what it does, not a symmetry built for balance",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "the passage around \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\" keeps its reasons, asides and callbacks; the change adds none of its own and removes none",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "no material moved to dodge a detector: \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\" puts back the author's own point that Emulate dropped",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "\"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\" puts back the author's words or meaning, not less likely words for their own sake",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "no \"not X, it's Y\" in \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "ABSENT",
+      "evidence": "no compressed thesis or aphorism in \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "no premise flipped by a short sentence in \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "\"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\" does not announce what comes next",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "\"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\" is not a polished paragraph-ending line",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "ABSENT",
+      "evidence": "\"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\" does one job, not several coordinated argumentative jobs",
+      "resolution": ""
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "\"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\" carries a step, a rule or a reason from his line, not reassurance alone",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "no generic scenery in \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "no faux-insight setup or self-answered question in \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "no colon reveal in \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "ABSENT",
+      "evidence": "no distinctive word or phrase in \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\" repeated within three paragraphs without a job",
+      "resolution": ""
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "none of the tic words (\"doing some work\", \"load-bearing\", \"digest\", \"clean\", vague \"work\") in \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "\"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\" is not the end of its section, and adds no lesson or uplift",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "\"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\" is not a closing restatement of its paragraph",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "the inner child is not named in \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\", and \"the kid\" appears nowhere in it",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "every pronoun in \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\" points at something named just before it",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "no first-person fact about Joel's life in \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\" that he didn't give",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "no claim about a study, person or product in \"Remind yourself that if you say 'stop' at any time, the induction will end. If you say ...\"",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "REVIEW-preservation.json",
+    "cold_read_1": "REVIEW-cold_read_1.json",
+    "cold_read_2": "REVIEW-cold_read_2.json"
+  }
+}

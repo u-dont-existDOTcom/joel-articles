@@ -1,0 +1,248 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "374b0a8ac2d4856f1b30555740fa533196037be7de85ab74828c5f92fee4cf02",
+  "context_sha256": "e00a62f9137e9f3f239a0f63f5d2cf540a5243a7c857a6423972778a1fdbdac6",
+  "source_sha256": "f33e946ad335442a21f5b49df6df8d3f97c7498081517b90828c2f657eb23758",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "writer": {
+    "name": "Claude Opus 5.5, the hypnosis guide lane's writer (the splices and their fixes; the words are Emulate's)",
+    "context_id": "session_01Mxpoi6tFT3FgKmBvtGjRtS"
+  },
+  "lint": {
+    "verdict_at_init": "REVIEW",
+    "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+    "stdout_sha256": "5eac58df25dcd4860d01b0ff693d5c2b0461c7482334dac2357eca2a83d5925e",
+    "findings": [
+      {
+        "label": "B4/E15 list or packed sentence",
+        "examples": [
+          "It should make sense to you and if it's something big or hard to undo, wait till you're calm and then check it out with what you know."
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "Emulate's run-on of his two sentences: two steps joined by \"and if\", the casual join that is the human register here; nothing is listed."
+      },
+      {
+        "label": "D9 follows the source order",
+        "examples": [
+          "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "It is Emulate's rewrite of the passage it replaces, so it follows that passage's points in order by design, with Emulate's own asides and turns (\"if I can put it that way\", \"of course\", \"just\", \"!\")."
+      },
+      {
+        "label": "E36/E41 heavy second person",
+        "examples": [
+          "10.7 \"you\" per 100 of my words"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "The guide speaks to the reader as \"you\" throughout; these lines give the reader one step or one check inside a paragraph that is not a run of coaching lines."
+      }
+    ]
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "no first-person stake in \"It should make sense to you and if it's something big or hard to undo, wait till you're...\" beyond the source's own",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "\"It should make sense to you and if it's something big or hard to undo, wait till you're...\" is one step in its paragraph, not part of a run of compressed commands",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "the sentence before it in the context sets it up; nothing new arrives unprepared in \"It should make sense to you and if it's something big or hard to undo, wait till you're...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "no scene in \"It should make sense to you and if it's something big or hard to undo, wait till you're...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "no concrete prop in \"It should make sense to you and if it's something big or hard to undo, wait till you're...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "no vague healing or process language in \"It should make sense to you and if it's something big or hard to undo, wait till you're...\"; its terms are the article's own",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "no filler or staged hesitation in \"It should make sense to you and if it's something big or hard to undo, wait till you're...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "no image followed by an explanation of it in \"It should make sense to you and if it's something big or hard to undo, wait till you're...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "one change in one passage; \"It should make sense to you and if it's something big or hard to undo, wait till you're...\" gets the weight its point needs, the rest of the passage is unchanged",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "no \"you don't have to X before Y\" packaging in \"It should make sense to you and if it's something big or hard to undo, wait till you're...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "\"It should make sense to you and if it's something big or hard to undo, wait till you're...\" carries a claim or step, not a bridge between document parts",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "no matched pair or closed list made for symmetry in \"It should make sense to you and if it's something big or hard to undo, wait till you're...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "the passage around \"It should make sense to you and if it's something big or hard to undo, wait till you're...\" keeps its reasons, asides and callbacks; the change adds none of its own and removes none",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "no material moved to dodge a detector: \"It should make sense to you and if it's something big or hard to undo, wait till you're...\" puts back the author's own point that Emulate dropped",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "\"It should make sense to you and if it's something big or hard to undo, wait till you're...\" puts back the author's words or meaning, not less likely words for their own sake",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "no \"not X, it's Y\" in \"It should make sense to you and if it's something big or hard to undo, wait till you're...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "ABSENT",
+      "evidence": "no compressed thesis or aphorism in \"It should make sense to you and if it's something big or hard to undo, wait till you're...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "no premise flipped by a short sentence in \"It should make sense to you and if it's something big or hard to undo, wait till you're...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "\"It should make sense to you and if it's something big or hard to undo, wait till you're...\" does not announce what comes next",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "\"It should make sense to you and if it's something big or hard to undo, wait till you're...\" is not a polished paragraph-ending line",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "ABSENT",
+      "evidence": "\"It should make sense to you and if it's something big or hard to undo, wait till you're...\" does one job, not several coordinated argumentative jobs",
+      "resolution": ""
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "\"It should make sense to you and if it's something big or hard to undo, wait till you're...\" carries a step, a rule or a reason from his line, not reassurance alone",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "no generic scenery in \"It should make sense to you and if it's something big or hard to undo, wait till you're...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "no faux-insight setup or self-answered question in \"It should make sense to you and if it's something big or hard to undo, wait till you're...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "no colon reveal in \"It should make sense to you and if it's something big or hard to undo, wait till you're...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "ABSENT",
+      "evidence": "no distinctive word or phrase in \"It should make sense to you and if it's something big or hard to undo, wait till you're...\" repeated within three paragraphs without a job",
+      "resolution": ""
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "none of the tic words (\"doing some work\", \"load-bearing\", \"digest\", \"clean\", vague \"work\") in \"It should make sense to you and if it's something big or hard to undo, wait till you're...\"",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "\"It should make sense to you and if it's something big or hard to undo, wait till you're...\" is not the end of its section, and adds no lesson or uplift",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "\"It should make sense to you and if it's something big or hard to undo, wait till you're...\" is not a closing restatement of its paragraph",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "the inner child is not named in \"It should make sense to you and if it's something big or hard to undo, wait till you're...\", and \"the kid\" appears nowhere in it",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "\"It\" is the answer's instruction, from the sentence before: \"If it tells you to do something, I'd only do it if it's loving and leaves you free.\"",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "no first-person fact about Joel's life in \"It should make sense to you and if it's something big or hard to undo, wait till you're...\" that he didn't give",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "no claim about a study, person or product in \"It should make sense to you and if it's something big or hard to undo, wait till you're...\"",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "REVIEW-preservation.json",
+    "cold_read_1": "REVIEW-cold_read_1.json",
+    "cold_read_2": "REVIEW-cold_read_2.json"
+  }
+}

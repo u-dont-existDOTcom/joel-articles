@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cj/HG-A-jobs2.txt",
+  "input_words": 128,
+  "input_sha256": "68d4a1ea9f52f0089a7cc195db5bd2dc18a75aeb6231fd2d9645cd8ab34e119d",
+  "balance_before": 50514,
+  "started_utc": "2026-10-26T01:04:36Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T01:04:45Z",
+  "response": {
+    "id": "8d19f497-c380-4f75-8ba7-c30e824d90b2",
+    "tool": "humanize",
+    "text": "If you’re expecting that your inner child is going to trust you after you’ve spent some time meditating and saying a few nice sentences to it, you are mistaken! It is going to take a little bit longer than that for your inner child to come out and to trust you. What is needed is for YOU – you as you are now – to become someone that your inner child can trust.\n\nIn this post I’m going to tell you a little bit about what you need to develop in yourself in order to successfully reparent your inner child. I’m going to talk about it in terms of three jobs that you need to do: being the loving Nurturer, the safe Adult Protector (from now on referred to as Protector only), and the wise Guide. It’s just you, but you need to do all three jobs, and keep them in balance. You need to develop in yourself:",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 128
+    },
+    "elapsed": 8
+  },
+  "balance_after": 50386
+}
