@@ -1338,7 +1338,7 @@ buttons".
   browser (74 checks, with a negative fixture for the 2026-10-23 white-on-white boxes). A check with more than a handful of
   suggestions for him ends with this page, not with lists.
 
-(The next lesson in either lane was E266 here. The Inner Child lane's turn-110 lessons took E266 and E267, written while this section stood as it is: cite them as "E266 (Inner Child)" and "E267 (Inner Child)". The Inner Child lane's turn-111 lessons are E268 to E270 (Inner Child), near the top too, and its turn-112 lesson is E271 (Inner Child), after them; the hypnosis guide lane's E268 to E270, in the next section, were written at the same time as the turn-111 ones, and both sets keep their numbers. The hypnosis guide lane's E272 to E274 follow them there, its E275 after those, its E276 after that, and its E277 to E279 after it. The next lesson in either lane is E280.)
+(The next lesson in either lane was E266 here. The Inner Child lane's turn-110 lessons took E266 and E267, written while this section stood as it is: cite them as "E266 (Inner Child)" and "E267 (Inner Child)". The Inner Child lane's turn-111 lessons are E268 to E270 (Inner Child), near the top too, and its turn-112 lesson is E271 (Inner Child), after them; the hypnosis guide lane's E268 to E270, in the next section, were written at the same time as the turn-111 ones, and both sets keep their numbers. The hypnosis guide lane's E272 to E274 follow them there, its E275 after those, its E276 after that, its E277 to E279 after it, and its E280 to E283 after those. The next lesson in either lane is E284.)
 
 ## What his answers on the marking page showed (2026-10-25 19:42 UTC)
 
@@ -1453,7 +1453,7 @@ SCORE-B.md) and batch 480 (`articles/inner-signal/humanize/fix-20261026/b480/REA
   checked alone proves nothing either way: the parent script paragraph's last two sentences, Human in place, read AI alone
   once Emulate's sentences were in (480g, ledger #70).
 
-(The next lesson in either lane was E277 here; it is in the next section, and the next one is E280.)
+(The next lesson in either lane was E277 here; it is in the next section, and the next one after those was E280.)
 
 ## What Joel asked for after batch 480's recheck (his message of 2026-10-26 12:43 UTC)
 
@@ -1488,11 +1488,46 @@ His message: `articles/inner-signal/humanize/fix-20261026/joel-20261026-1243-mes
   their files at the end and write them again where they find them gone (group h's three did, into the new folders;
   `articles/inner-signal/humanize/fix-20261026/b481/gate/GATE.md`).
 
-(The next lesson in either lane is E280.)
+(The next lesson in either lane was E280 here; it is in the next section.)
+
+## What Joel's message of 2026-10-27 15:37 UTC taught (the hypnosis guide: batch 481's recheck, questions 21 to 23)
+
+His message: `articles/inner-signal/humanize/fix-20261027/joel-20261027-1537-message.txt`. The two recheck links, and "21.
+your list of cards was a json file? i can't read that", "22. give me the editor interface so i can see and edit what needs
+editing", "23. i need that editor interface we developed remember that?".
+
+- **E280. What he gets is a page he can open where he is, never a data file.** Question 21's marking page had been
+  published from his other account, and the questions page's fallback "from your other account" was the cards' JSON file
+  in Git, which he can't read. AGENTS.md already said an artifact is only a view of a file in Git; the file it pointed to
+  was the wrong kind. Now a marking page is published from the account the session runs in (the session can't republish
+  or even open the other account's), and its cards are written beside it as a Markdown page GitHub renders
+  (`EDITOR-27.md`, by the page's builder), which is what the page and the questions page link to; the JSON stays, for the
+  scripts. Two checks would have caught it: listing this account's artifacts before linking one (the page wasn't there),
+  and asking of every link on the questions page "can he read this where he is?".
+- **E281. Every kind of card has its colours, or its highlights don't show.** Batch 481's page gave its cards four kinds
+  the page template didn't know (held, notyet, confidence, confidence-his), and the template colours highlights only by
+  kind, so none of its 34 highlights showed in the guide: he saw the cards and no marks on the words. The browser test had
+  checked buttons, boxes, filters and export, never that a highlight shows. `suggestion_review.py` now gives every kind
+  the template doesn't know its own colours, light and dark, and the browser test fails when any open highlight has none
+  (the old page fails it: 31 without one).
+- **E282. Text he may want to edit goes on the marking page as a stretch to edit, not as options in a list.** Questions
+  22 (60 short lines at Medium) and 23 (the audit) went to him as a), b), c) on the questions page; he wanted to see the
+  text and edit it, in "the editor interface we developed" (E265, E269). The marking page now has a third kind of card,
+  advice "edit": the stretch highlighted, what Pangram read, why it's there, my advice, and Keep it as it is / Edit it,
+  where Edit opens the paragraph for his own version; his answers come back with the rest of the page's. So a question
+  about whether to change some text, or how, is a set of such cards on the page, with the options as the card's advice.
+- **E283. Emulate's re-runs of Medium and Low windows reach High more often than I said.** Of batch 481's 24 fixes, 19
+  read High in place; my chances of High (0.35 to 0.5) scored a Brier of 0.288 against a coin's 0.25
+  (`articles/inner-signal/humanize/fix-20261026/b481/recheck/read/SPOTS.md`). The five that didn't each sat in a short
+  window or a list of lines. And my whole-text call for part A missed the same way twice running (AI at 0.30 and 0.08;
+  both read 100% Human, with every part forecast right): the next forecast starts from about 0.75 for a re-run of a window
+  of ten words or more, lower for a line of a few words, and the whole-text call from its parts.
+
+(The next lesson in either lane is E284.)
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 
-(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". E247 and E248, after them, are this lane's turn-102 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E247 to E249 above (their message of 2026-10-23 18:13 UTC); both sets keep their numbers, so cite these two as "E247 (Inner Child)" and "E248 (Inner Child)". E250 to E252, the last ones here, are this lane's turn-103 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E250 and E251 above (their message of 2026-10-23 20:35 UTC); both sets keep their numbers, so cite these three as "E250 (Inner Child)" to "E252 (Inner Child)". The hypnosis guide, Nibbāna and community lanes' own E252 to E255 above came after them (their messages of 2026-10-23 22:29 and 23:28 UTC). This lane's turn-104 lesson, written at the same time, is E253 (Inner Child), with the help-request rules near the top, and its turn-105 lesson, E256 (Inner Child), is beside it, with the turn-106 lessons E257 and E258 (Inner Child) after it and the turn-107 lesson E261 (Inner Child) after those. The Nibbāna and community lanes' E256 to E259 above came at the same time as E257 and E258 (their message of 2026-10-24 19:52 UTC), the community lane's E260 after them (23:40 UTC), and its E261 at the same time as this lane's (its message of 2026-10-25 00:27 UTC); both sets keep their numbers, so cite this lane's as "E261 (Inner Child)". The hypnosis guide lane's E262 and E263 above came after them (its message of 2026-10-25 01:01 UTC), and its E264 and E265 after those (14:40 UTC). This lane's turn-109 lesson, written at the same time as those two, keeps its number too: cite it as "E264 (Inner Child)"; it is with the others near the top, and so are its turn-110 to turn-112 lessons, E266 to E271 (Inner Child). The hypnosis guide lane's E268 to E270 came at the same time as the turn-111 ones (its message of 2026-10-25 19:42 UTC); both sets keep their numbers, so cite this lane's as "E268 (Inner Child)" to "E271 (Inner Child)". The hypnosis guide lane's E272 to E274 came after them (its message of 23:05 UTC), its E275 after those (the recheck read after its message of 23:50 UTC), its E276 after that (batch 479's recheck, read after its message of 2026-10-26 00:54 UTC), and its E277 to E279 after it (its message of 12:43 UTC). The next lesson in either lane is E280.)
+(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". E247 and E248, after them, are this lane's turn-102 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E247 to E249 above (their message of 2026-10-23 18:13 UTC); both sets keep their numbers, so cite these two as "E247 (Inner Child)" and "E248 (Inner Child)". E250 to E252, the last ones here, are this lane's turn-103 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E250 and E251 above (their message of 2026-10-23 20:35 UTC); both sets keep their numbers, so cite these three as "E250 (Inner Child)" to "E252 (Inner Child)". The hypnosis guide, Nibbāna and community lanes' own E252 to E255 above came after them (their messages of 2026-10-23 22:29 and 23:28 UTC). This lane's turn-104 lesson, written at the same time, is E253 (Inner Child), with the help-request rules near the top, and its turn-105 lesson, E256 (Inner Child), is beside it, with the turn-106 lessons E257 and E258 (Inner Child) after it and the turn-107 lesson E261 (Inner Child) after those. The Nibbāna and community lanes' E256 to E259 above came at the same time as E257 and E258 (their message of 2026-10-24 19:52 UTC), the community lane's E260 after them (23:40 UTC), and its E261 at the same time as this lane's (its message of 2026-10-25 00:27 UTC); both sets keep their numbers, so cite this lane's as "E261 (Inner Child)". The hypnosis guide lane's E262 and E263 above came after them (its message of 2026-10-25 01:01 UTC), and its E264 and E265 after those (14:40 UTC). This lane's turn-109 lesson, written at the same time as those two, keeps its number too: cite it as "E264 (Inner Child)"; it is with the others near the top, and so are its turn-110 to turn-112 lessons, E266 to E271 (Inner Child). The hypnosis guide lane's E268 to E270 came at the same time as the turn-111 ones (its message of 2026-10-25 19:42 UTC); both sets keep their numbers, so cite this lane's as "E268 (Inner Child)" to "E271 (Inner Child)". The hypnosis guide lane's E272 to E274 came after them (its message of 23:05 UTC), its E275 after those (the recheck read after its message of 23:50 UTC), its E276 after that (batch 479's recheck, read after its message of 2026-10-26 00:54 UTC), its E277 to E279 after it (its message of 12:43 UTC), and its E280 to E283 after those (its message of 2026-10-27 15:37 UTC). The next lesson in either lane is E284.)
 
 The checks: `articles/inner-child-therapy/experiments/t99-api/API-RESULTS-1.jsonl` (turn 99's nine) and `articles/inner-child-therapy/experiments/t100-api/API-CHECKS.md` (this turn's eight, each with its public Pangram page). Four rewrites read 100% Human alone and in their stretch; five of my eight calls were right, and two of the misses were pessimism about a rewrite.
 

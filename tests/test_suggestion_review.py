@@ -177,6 +177,30 @@ class PasteSafeTests(unittest.TestCase):
         badr = dict(whole, id='S2', reads=[{'text': 'Some words.', 'new': ['not there']}])
         self.assertTrue(any('not in their reads paragraph' in p for p in R.check(review([badr]), self.bl)))
 
+    def test_a_stretch_to_edit_and_type_colours(self):
+        # 2026-10-27, Joel: "give me the editor interface so i can see and edit what needs editing": a stretch with no change
+        # of mine, Keep / Edit it / Not decided yet, Edit starting from the paragraph as it is; and a type the template
+        # has no colours for gets them, so its highlights show (batch 481's page had four such types and showed none)
+        last = self.bl[7]
+        ed = {'id': 'ED-1', 'type': 'short', 'title': 'A short line', 'advice': 'edit', 'why': 'It read Medium.',
+              'reading': 'Human, Medium (0.987)', 'advice_note': 'Keep it.', 'keep_label': 'keep it as it is',
+              'spans': [{'block': 7, 'start': 0, 'end': 8}], 'edits': [], 'inserts': [], 'moves': []}
+        rv = review([ed])
+        rv['types'] = dict(rv['types'], short={'label': 'Short line', 'about': 'A short line.'})
+        self.assertEqual(R.check(rv, self.bl), [])
+        page = R.page(rv, MD, self.bl)
+        self.assertIn('data-advice="edit"', page)
+        self.assertIn('>Keep it as it is</button>', page)
+        self.assertIn('>Edit it</button>', page)
+        self.assertIn('.t-short{--c:', page)
+        data = json.loads(re.search(r'<script id="review-data" type="application/json">(.*?)</script>', page, re.S).group(1))
+        got = {x['id']: x for x in data['suggestions']}
+        self.assertEqual(got['ED-1']['proposed'], last['text'])
+        bad = dict(ed, id='ED-2', edits=[{'block': 7, 'before': last['text'], 'after': 'x'}])
+        self.assertTrue(any('a stretch to edit changes nothing' in p for p in R.check(dict(rv, suggestions=[bad]), self.bl)))
+        nospan = dict(ed, id='ED-3', spans=[])
+        self.assertTrue(any('needs its spans' in p for p in R.check(dict(rv, suggestions=[nospan]), self.bl)))
+
     def test_a_new_heading_in_a_whole_passage(self):
         # turn 113: a case heading over a paragraph shows as a heading with its Markdown #s, so a paste keeps it a heading,
         # and his Revise box starts from the same text

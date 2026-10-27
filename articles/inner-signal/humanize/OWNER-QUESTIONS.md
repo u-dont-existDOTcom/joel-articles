@@ -1,55 +1,69 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-26, after your message of 12:43 UTC (part A 100% Human, part B one AI segment).
-**Open questions: 3** (21, the marking page; 22, the short lines; 23, the audit). **For you to do**: the recheck in
-Brave (its two links are under "For you to do"), and the marking page.
-The questions are at the top, with their options and my default; under them is what you decided and what I did with it.
-Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
+Last updated 2026-10-27, after your message of 15:37 UTC (both parts of the recheck read). **Open questions: 3** (21, 22
+and 23, all on one page now). **For you to do**: the editor page. The questions are at the top, with their options and my
+default; under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠 something for you to
+do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts can
 read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 21. The marking page: Emulate fixes.** [Your guide with each fix marked where it goes](https://claude.ai/artifact/TpZbfBZcwuj8PL7KFLhmjP),
-34 cards. The ten from before, each now saying how it read in your last check (nine at High confidence; the three stop
-words at Medium and Low). And 24 new ones: Emulate's versions of the stretches that read Human there at Medium or Low
-confidence, each card with the confidence it read at. 4 of them replace your own words, and those cards show yours
-first. Every new version passed the gate's three reviewers, and they're all in the recheck below.
-- a) (my default) You go through the page; nothing changes until you've decided. If you'd rather mark it after the
-  recheck, I'll have redone any card whose change doesn't read High in place.
-- b) You decide the ones you want to, and say "take your advice on the rest", as last time.
-From your other account, the page opens once you share it from its Share menu; the
-[list of cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261026/review/REVIEW-481.json) is in Git either way.
+All three are on **[the Hypnosis Guide Editor](https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG)**, the marking page with your whole guide, each card under its
+paragraph and the words it's about highlighted. It's published from the account you wrote from on 27 October, so it
+opens there; [every card as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261027/review/EDITOR-27.md) is in Git for the other account.
 
-**🟣 22. The short lines that read Medium.** 60 windows read Human at Medium confidence because they're a few words long
-(47 in part A, 13 in part B): list letters ("B.", "C."), one-word answers ("V.", "Yes."), "etc.", and short lines of the
-scripts ("Keep your eyes open.", "Move around a bit.", "Where are you grounded?"). Pangram reads each of them as human at
-91 to 99%, but it rarely gives a line that short its top label, so no rewording of the line itself gets it to High
-([every window with its confidence](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261026/b480/recheck/read/CONFIDENCE.md)).
-- a) (my default) Leave them as they are. They're the form of your scripts and lists, and an induction's short lines are
-  there on purpose. I record their confidence at every check, and if a later Pangram version reads any of them AI, that
-  stretch gets fixed then.
-- b) Join short script lines into fuller sentences where the script allows it, so Pangram reads them in longer windows.
-  That changes the scripts' rhythm, which matters in an induction, so each one would come to you as a card.
-- c) Something else (say what).
+**🟣 21. Emulate's fixes, 34 cards.** In your newest check ([part A](https://www.pangram.com/feed/a67b13cb-7267-466e-9350-e70836380857), [part B](https://www.pangram.com/feed/9fd5c1d9-6766-439e-ba4b-8b8eb5108ee4)) 28 of them read Human at High
+confidence where they stand: the nine from batches 479 and 480 that still do, and 19 of batch 481's 24, each of which
+read Medium or Low before. Six read Medium or Low: four I'd still approve (each reads better than what it replaces, or
+it's a fix of a line that read AI), and two I'd now leave (hidden until you tick "The ones I'd leave"): "Influence
+without the conscious mind" reads no better than the wording it replaces, and "The smaller asks" gains little and loses
+your ready-to-say lines.
+- a) (my default) You go through the cards: Approve, Reject or Revise. Nothing changes until you've decided.
+- b) You decide the ones you want to, and say "take your advice on the rest".
 
-**🟣 23. The hypnosis audit, the one AI window.** Its questions read AI (High, 0.999, 120 words, lead-in to last line)
-in your last check (part B), as in every check since you kept it as a list (your 2c). Emulate's three versions keep four
-of its seven questions but change what the other three ask, so I didn't put any of them in. "Can at least one answer lead
-to pause, modification, full alertness, or stopping?" came back as "Does the answer help to modify the process so that it
-allows for me to remain fully alert, or should I stop?"; "Does the speaker treat not noticing as secret proof that the
-process worked?" as "Am I going to be expected to not be aware of something that they want to be secret proof that they
-succeeded?"; and the body sensations question lost its "hidden claim".
-- a) (my default) Keep your list as it is: part B reads Mostly Human with it, and it's the one AI stretch.
-- b) You reword those three questions (2, 3 and 6) in your own words; I put Emulate's wording in for the other four and
-  the lines around them, through the gate, and your next check reads the whole list in place.
-- c) Something else (say what).
+**🟣 22. Everything else that reads under High, 54 cards.** Every other place your newest check read Human at Medium or
+Low confidence, each with Keep and Edit it (Edit opens the paragraph for you to change in place). 35 are short lines (list
+letters, one-word answers, short script lines), where my advice is Keep: Pangram rarely gives a line that short its top
+label. 19 are longer stretches with no fix yet, where it's your call: your own words, or keep it and I try Emulate's
+re-run on it (batch 482) and bring you a card.
+- a) (my default) You go through them; every edit you make goes into the next recheck, and anything you leave unmarked
+  stays as it is.
+- b) "Keep all the short lines": I take Keep on the 35 and you look only at the 19.
+
+**🟣 23. The hypnosis audit**, the one AI window ([part B](https://www.pangram.com/feed/9fd5c1d9-6766-439e-ba4b-8b8eb5108ee4): AI, High, 120 words), as one card near the end of the
+page. Emulate's three versions keep four of its seven questions but change what questions 2, 3 and 6 ask, so none of them
+is in; the card shows its closest version for ideas.
+- a) (my default) Keep your list as it is: [part B](https://www.pangram.com/feed/9fd5c1d9-6766-439e-ba4b-8b8eb5108ee4) reads Mostly Human with it.
+- b) Edit it on the card: your own words for questions 2, 3 and 6 at least; I check your version in the next recheck.
 
 ## For you to do
 
-- 🟠 **The recheck with the new fixes in**, in Brave, in the same two drafts, then send me both result links:
-  [part A](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-27&audience=only_paid&free_preview=false&freemail=) and [part B](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-27&audience=only_paid&free_preview=false&freemail=). You open each link and run the extension, as before.
+- 🟠 **[The Hypnosis Guide Editor](https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG)**: go through the cards (the progress bar counts what you've decided), then
+  click "Save / send", then "Copy my answers", and paste them to me (or "Save them as a file" and attach it). Your answers
+  also save on the page as you click.
+
+## Your message of 2026-10-27 15:37 UTC, and what I did
+
+Your message, [word for word](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261027/joel-20261027-1537-message.txt).
+
+- 🟢 **The recheck, read** ([every window with its confidence](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261026/b481/recheck/read/CONFIDENCE.md)).
+  [Part A](https://www.pangram.com/feed/a67b13cb-7267-466e-9350-e70836380857): Human Written, no AI window; of its 116 windows 58 read Human at High confidence, 55 at Medium and 3 at
+  Low. [Part B](https://www.pangram.com/feed/9fd5c1d9-6766-439e-ba4b-8b8eb5108ee4): Mostly Human Written, 1.3% AI; the one AI window (High) is the audit again, and of its other 37
+  windows 20 read High, 16 Medium and 1 Low. Of batch 481's 24 fixes, 19 now read High where they stand, 4 Medium and 1 Low
+  ([each fix](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261026/b481/recheck/read/SPOTS.md)). My part forecasts were right on every part (53 of 53, 17
+  of 17); my call for part A was too gloomy again (it read all Human, as last time), and my chances of High for Emulate's
+  fixes were too low (19 of 24 reached it).
+- 🟢 **21, "your list of cards was a json file? i can't read that"**: you're right, and it shouldn't have been your
+  fallback. The marking page was published from your other account, so it couldn't open where you were, and the questions
+  page offered the cards' JSON file instead. Now the page is published from this account, and its cards are also in Git as
+  a page GitHub shows as text. That page had a second fault: none of its 34 highlights showed in the guide, because its
+  four kinds of card had no colours (fixed in the page maker, with a browser test that fails without it).
+- 🟢 **22 and 23, "the editor interface we developed"**: the marking page now has a card for text you may want to edit
+  yourself: Keep it as it is, or Edit it, which opens the paragraph in a box for your own version. Questions 22 and 23 are
+  on it that way, beside question 21's cards. That's the rule for any question about editing text from now on (lesson
+  E282).
 
 ## Your message of 2026-10-26 12:43 UTC, and what I did
 
@@ -574,7 +588,7 @@ Your message, word for word: [joel-20261023-1230-message.txt](https://github.com
 - 🔵 **The conflation you asked me to check for.** [A reader went through the whole guide](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261021/CONFLATION-SWEEP.md)
   with its map and your fix as the example. The stance check found one more. Of the seven, four came in with my plainer
   rewrites, and three were in the published text. Six are fixed, each with a review of the fixed paragraph in its
-  context ([batch 469g](https://github.com/u-dont-existDOTcom/joel-articles/tree/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261021/b469)); the seventh is question 9.
+  context ([batch 469g's rewrite](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261021/b469/REWRITE-r2.md)); the seventh is question 9.
   1. "Working with protectors": the line to say right after the inherited parent's paragraph had no addressee, so it
      read as said to that voice. Now "(To the protector: “I notice you and what you are trying to do. ...”)".
   2. "Let the next response guide you": right after "“protector” parts", "bring in a “nurturer”, “protector”, “leader”,

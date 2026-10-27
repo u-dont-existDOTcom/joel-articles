@@ -360,6 +360,8 @@ __MAIN__
 
   // ---------------------------------------------------------------- rendering
   const PILL = { pending: 'Not approved yet', approved: 'Approved', rejected: 'Rejected: keep as is', revise: 'Revise' };
+  // a stretch for him to see and rewrite if he wants (advice "edit", 2026-10-27): its own words for the same states
+  const EDIT_PILL = { pending: 'Not decided yet', approved: 'Approved', rejected: 'Keep as it is', revise: 'Your version' };
   function savedLine(id, msg) { const c = cards[id]; if (c) { const el = $('.saved-line', c); if (el) el.textContent = msg; } }
   function isAsk(id) { return SUG[id] && SUG[id].advice === 'ask'; }
   function askPill(id) {
@@ -380,7 +382,8 @@ __MAIN__
       return;
     }
     c.dataset.status = st.status;
-    $('.pill', c).textContent = (c.dataset.advice === 'leave' && st.status === 'pending') ? 'I\'d leave it' : PILL[st.status];
+    $('.pill', c).textContent = (c.dataset.advice === 'leave' && st.status === 'pending') ? 'I\'d leave it'
+      : (c.dataset.advice === 'edit' ? EDIT_PILL : PILL)[st.status];
     $$('.dec', c).forEach(b => b.setAttribute('aria-pressed', String(b.dataset.dec === st.status)));
     const yw = $('.yours-wrap', c), yt = $('.yours', c), nt = $('.note', c);
     yw.hidden = !(st.status === 'revise' || st.text);
@@ -395,18 +398,24 @@ __MAIN__
   }
   function renderAll() { ORDER.forEach(id => renderCard(id)); progress(); }
   function progress() {
-    let n = 0, dec = 0, ap = 0, rj = 0, rv = 0, quiet = 0, quietSeen = 0, asks = 0, answered = 0;
+    let n = 0, dec = 0, ap = 0, rj = 0, rv = 0, quiet = 0, quietSeen = 0, asks = 0, answered = 0, eds = 0, edDone = 0, kept = 0, edited = 0;
     ORDER.forEach(id => {
       const st = get(id);
       if (isAsk(id)) { asks++; if ((st.comment || '').trim()) answered++; return; }
       if (SUG[id].advice === 'leave') { quiet++; if (st.status !== 'pending' || st.comment) quietSeen++; return; }
+      if (SUG[id].advice === 'edit') {   // a stretch to edit: kept or his version, counted apart from the suggestions
+        eds++; if (st.status !== 'pending') edDone++;
+        if (st.status === 'rejected') kept++; else if (st.status === 'revise') edited++;
+        return;
+      }
       n++;
       if (st.status !== 'pending') dec++;
       if (st.status === 'approved') ap++; else if (st.status === 'rejected') rj++; else if (st.status === 'revise') rv++;
     });
-    $('#prog').innerHTML = '<b>' + dec + '</b> of ' + n + ' decided · ' + ap + ' approved · ' + rj + ' rejected · ' + rv + ' to revise'
+    $('#prog').innerHTML = (n ? '<b>' + dec + '</b> of ' + n + ' decided · ' + ap + ' approved · ' + rj + ' rejected · ' + rv + ' to revise' : '')
+      + (eds ? (n ? ' · ' : '') + '<b>' + edDone + '</b> of ' + eds + ' stretches looked at · ' + kept + ' kept · ' + edited + ' edited' : '')
       + (asks ? ' · ' + answered + ' of ' + asks + ' questions answered' : '');
-    $('#meter').style.width = ((n + asks) ? Math.round(100 * (dec + answered) / (n + asks)) : 0) + '%';
+    $('#meter').style.width = ((n + eds + asks) ? Math.round(100 * (dec + edDone + answered) / (n + eds + asks)) : 0) + '%';
     $('#leaveCount').textContent = quiet + (quietSeen ? ', ' + quietSeen + ' looked at' : '');
     const counts = {};
     ORDER.forEach(id => { const s = SUG[id]; if (s.advice === 'leave') return; counts[s.type] = (counts[s.type] || 0) + 1; });

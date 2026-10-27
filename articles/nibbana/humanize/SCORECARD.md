@@ -50,7 +50,7 @@ Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.0 to 0.2 | 6 | 0.06 | 0% |
+| 0.0 to 0.2 | 6 | 0.05 | 0% |
 | 0.2 to 0.4 | 2 | 0.26 | 50% |
 
 ## Misses since the ledger (12)
