@@ -206,7 +206,8 @@ Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the
 
 His message, word for word: `fix-20261027/joel-20261027-1537-message.txt` (the two result links; "21. your list of cards
 was a json file? i can't read that"; "22. give me the editor interface so i can see and edit what needs editing"; "23. i
-need that editor interface we developed remember that?"). Done (STATUS.md's entry of 2026-10-27 has every file):
+need that editor interface we developed remember that?"). Done (pull request 257,
+https://github.com/u-dont-existDOTcom/joel-articles/pull/257; STATUS.md's entry of 2026-10-27 has every file):
 - **Batch 481's recheck, read** (`fix-20261026/b481/recheck/read/`): part A Human Written, 0 of 116 windows AI (58 High,
   55 Medium, 3 Low); part B Mostly Human Written, 1.3% AI, the audit the one AI window. HG-whole#73 a miss (explained),
   HG-rest-B#74 right; part forecasts 53 of 53 and 17 of 17; batch 481's fixes in place 19 High, 4 Medium, 1 Low
