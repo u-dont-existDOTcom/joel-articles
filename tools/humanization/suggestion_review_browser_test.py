@@ -15,6 +15,8 @@ What it does, in Chromium (Playwright), on the exact file it's given, opened as 
   - every changed paragraph shows as two clean texts, as it is now and as it would read, each exactly that version (so a
     paste can't run them together, E266 (Inner Child)), and a passage shown whole reads exactly as my version;
   - a question card takes an answer, says Answered, counts it apart from the decisions and exports it;
+  - a stretch to edit (advice "edit") keeps in one click, opens "Your version" filled with the paragraph as it is, and
+    counts apart from the suggestions; every highlight in the article has its type's colour;
   - "Next undecided" brings an undecided card to the top;
   - "Copy my answers" gives parseable JSON (from the clipboard or the box it falls back to) with the review's identity,
     every suggestion, the statuses and the comment typed, word for word; "Save them as a file" downloads the same;
@@ -162,6 +164,27 @@ def run(page_path, report_path=None):
                    page.locator(qa + ' .pill').text_content())
                 ok('%s: answers count apart from decisions' % scheme, ('1 of %d questions answered' % len(asks)) in page.locator('#prog').text_content(),
                    page.locator('#prog').text_content())
+            # a stretch to edit (advice "edit", 2026-10-27): Keep is one click, Edit opens his version filled with the
+            # paragraphs as they are, and the progress counts them apart from the suggestions
+            eds = [x['id'] for x in data['suggestions'] if x['advice'] == 'edit']
+            if eds:
+                e1 = '#c-' + eds[0].replace('.', '\\.')
+                page.click(e1 + ' .dec.reject')
+                ok('%s: Keep on a stretch to edit' % scheme, page.locator(e1).get_attribute('data-status') == 'rejected'
+                   and page.locator(e1 + ' .pill').text_content() == 'Keep as it is', page.locator(e1 + ' .pill').text_content())
+                page.click(e1 + ' .dec.revise')
+                ey = page.locator(e1 + ' textarea.yours')
+                now = next(x['proposed'] for x in data['suggestions'] if x['id'] == eds[0])
+                ok('%s: Edit opens your version, filled with the paragraph as it is' % scheme,
+                   ey.is_visible() and ey.input_value() == now, ey.input_value()[:80])
+                ok('%s: stretches to edit count apart' % scheme,
+                   ('of %d stretches looked at' % len(eds)) in page.locator('#prog').text_content(), page.locator('#prog').text_content())
+                page.click(e1 + ' .dec.undo')
+            # every highlight shows in its type's colour (2026-10-27: four types the template didn't know showed none)
+            # (a quiet one I'd leave, and one already decided, are transparent on purpose)
+            bare = page.evaluate("""() => Array.from(document.querySelectorAll('mark.hl:not(.leave):not(.done)')).filter(m => {
+                const b = getComputedStyle(m).backgroundColor; return !b || b === 'transparent' || b === 'rgba(0, 0, 0, 0)'; }).length""")
+            ok('%s: every highlight has a colour' % scheme, bare == 0, '%d without one' % bare)
             # next undecided
             page.evaluate('window.scrollTo(0, 0)')
             page.click('#nextBtn')

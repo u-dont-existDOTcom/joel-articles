@@ -111,20 +111,17 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide, two things, side by side:
-- **Question 21, the marking page** (https://claude.ai/artifact/TpZbfBZcwuj8PL7KFLhmjP; its file in Git is
-  `fix-20261026/review/REVIEW-480.json` and `.html`): ten cards, Emulate's versions of stretches that read AI, each through
-  the owner-delivery gate. Six read Human in place in batch 479's recheck; four are batch 480's, Human alone.
-- **The recheck with batch 480's candidates in**, two secret draft links for his Brave (the Pangram extension; he copies
-  each result's link with "Copy shareable link to result"):
-  - part A, the main guide to its first 99,999 characters: https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-26b&audience=only_paid&free_preview=false&freemail=
-  - part B, from Closing to the end of the appendices: https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-26b&audience=only_paid&free_preview=false&freemail=
+The guide: **his answers on the Hypnosis Guide Editor** (https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG, published from the account the 2026-10-27 15:37 UTC
+session ran in; its cards as text in Git, `fix-20261027/review/EDITOR-27.md`): question 21 (34 cards of Emulate's
+fixes), 22 (54 stretches under High to keep or edit) and 23 (the audit, to keep or edit). The pages his other account
+published (the old marking page TpZbfBZcwuj8PL7KFLhmjP and the "Hypnosis Guide Questions" view 8o79MFm9vSpyMGrAeArZYx)
+are stale; this account can't open or republish them, so point him to `OWNER-QUESTIONS.md` on GitHub and the editor page.
 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
 
-Pull request 253 was merged at 2026-10-26 00:54 UTC; this turn's work is pull request 254
-(https://github.com/u-dont-existDOTcom/joel-articles/pull/254). The community lane's own state is in its handoff.
+Pull requests 254 and 256 were merged on 2026-10-26; the work since is in the pull request the newest "Next step" names.
+The community lane's own state is in its handoff.
 
 ## Where it stands
 
@@ -205,7 +202,37 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-10-26, after Joel's message of 12:43 UTC: batch 480's recheck read; batch 481 for the windows at less than High; questions 21 to 23 and batch 481's recheck wait on him)
+## Next step (2026-10-27, after Joel's message of 15:37 UTC: batch 481's recheck read; questions 21 to 23 on one editor page)
+
+His message, word for word: `fix-20261027/joel-20261027-1537-message.txt` (the two result links; "21. your list of cards
+was a json file? i can't read that"; "22. give me the editor interface so i can see and edit what needs editing"; "23. i
+need that editor interface we developed remember that?"). Done (pull request 257,
+https://github.com/u-dont-existDOTcom/joel-articles/pull/257; STATUS.md's entry of 2026-10-27 has every file):
+- **Batch 481's recheck, read** (`fix-20261026/b481/recheck/read/`): part A Human Written, 0 of 116 windows AI (58 High,
+  55 Medium, 3 Low); part B Mostly Human Written, 1.3% AI, the audit the one AI window. HG-whole#73 a miss (explained),
+  HG-rest-B#74 right; part forecasts 53 of 53 and 17 of 17; batch 481's fixes in place 19 High, 4 Medium, 1 Low
+  (`spots_in_place.py`, SPOTS.md).
+- **The Hypnosis Guide Editor** (https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG): `fix-20261027/review/build_editor_27.py` (it imports
+  `fix-20261026/review/build_review_481.py` for question 21's cards and `readings.py`'s READINGS.json for their readings),
+  writing EDITOR-27.json, EDITOR-27.html, EDITOR-27.artifact.html (what was published, with capabilities db and downloads)
+  and EDITOR-27.md (the cards as text). Republish from this account with the same file path after any rebuild.
+- **The page maker** (`tools/humanization/suggestion_review.py` 1.3): the "edit" card, colours for every card kind, the
+  browser test's new checks, `tests/test_suggestion_review.py`. Lessons E280 to E283.
+
+Next:
+1. **When his answers come** (the page's "Copy my answers" JSON pasted in chat, or its file): save them word for word in
+   `fix-20261027/`, then a script puts them into `HUMANIZED-SO-FAR.md`, recording each card's fate as
+   `fix-20261025/review/apply_answers.py` did (APPLIED.json): an approved card's change; his Revise text word for word
+   (obvious typos only); for a stretch to edit, "rejected" is Keep (nothing changes) and "revise" is his version of the
+   paragraphs the card shows, which replaces those blocks, links put back on the same words where his text keeps them; a
+   card he leaves unmarked follows my advice only if he says so. Then the strict Emulate check (`emulate_artifacts.py`)
+   on the changed paragraphs, and the next recheck (`fix-20261026/b481/recheck/make_recheck.py`'s pattern, both drafts,
+   secret links, rendered check), predicted part by part with chances of High (E283's priors).
+2. **Batch 482**: Emulate's re-runs (E235) of the longer stretches under High that he keeps or leaves to me (the "medium"
+   cards), and of the four fixes still under High that he approves (S25, S28, S31, S5), each through the gate onto the next
+   page; his audit answer (23) goes in as he writes it.
+
+## Earlier next step (2026-10-26, after Joel's message of 12:43 UTC: batch 480's recheck read; batch 481 for the windows at less than High; questions 21 to 23 and batch 481's recheck wait on him)
 
 His message, word for word: `fix-20261026/joel-20261026-1243-message.txt` (the two result links; "the questions page has
 no open questions, so you must have forgotten to do that"; the preview link for every lane; "fix any segments that are not

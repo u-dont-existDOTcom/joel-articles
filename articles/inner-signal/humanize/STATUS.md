@@ -1,5 +1,27 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-27, after Joel's message of 15:37 UTC (batch 481's recheck links; questions 21 to 23 on one editor page)
+
+His message, word for word: `fix-20261027/joel-20261027-1537-message.txt`.
+
+**Batch 481's recheck, read** (`fix-20261026/b481/recheck/read/`: WINDOWS, META, RESULT, CONFIDENCE, SCORE, SPOTS):
+[part A](https://www.pangram.com/feed/a67b13cb-7267-466e-9350-e70836380857) Human Written, 0 of 116 windows AI (58 High, 55 Medium, 3 Low); [part B](https://www.pangram.com/feed/9fd5c1d9-6766-439e-ba4b-8b8eb5108ee4) Mostly Human Written, 1.3%
+AI, the audit (2c) the one AI window (20 High, 16 Medium, 1 Low). HG-whole#73 a miss (pessimism again, explained),
+HG-rest-B#74 right; the part forecasts 53 of 53 (Brier 0.006) and 17 of 17 (0.008). Of batch 481's 24 fixes, 19 read High
+in place, S14, S25, S28 and S31 Medium, S29 Low (`spots_in_place.py`; my chances of High scored 0.288 against a coin's
+0.25, lesson E283). Of the ten older cards, nine read High and S5's no-warmth line Medium.
+
+**The Hypnosis Guide Editor** (https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG, published from this account; `fix-20261027/review/build_editor_27.py`,
+EDITOR-27.json, .html, .md, browser test 84 of 84): question 21's 34 cards with their readings now and before
+(`readings.py`, READINGS.json; S14 and S29 now advised "leave"), question 22 as 54 stretches to edit (every other window
+under High: 35 short lines, 19 longer), question 23 as one stretch to edit (the audit, with Emulate's closest version for
+ideas). The old page (other account) showed none of its highlights: its four card kinds had no colours.
+
+**Tools**: `suggestion_review.py` 1.3: the "edit" card (Keep it as it is / Edit it), colours for every card kind, no
+doubled advice label; the browser test checks edit cards and that every open highlight has a colour; a unit test.
+Lessons E280 to E283; AGENTS.md's marking-page rule says where text to edit goes and that the page's cards are in Git as
+Markdown.
+
 ## 2026-10-26, after Joel's message of 12:43 UTC (batch 480's recheck links; the questions page; the preview link; confidence)
 
 **Batch 480's recheck, read** (`fix-20261026/b480/recheck/read/`): [part A](https://www.pangram.com/feed/0f1902cd-df2a-4837-9879-69979188e5f1)

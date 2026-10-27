@@ -44,7 +44,15 @@ REVIEW.json (the lane's build script writes it; see find_quote, block_text and c
                  and moves, which stay for the check and the record ("reads_label" names it),
       "card_after" (optional): the block the card sits after (else the first span's)},
      {"id", "type", "title", "advice": "ask", "question", "why", "stays" (optional, what holds until he answers),
-      "advice_note", "spans"}   a question: no change, an answer box, counted apart from the decisions]}
+      "advice_note", "spans"}   a question: no change, an answer box, counted apart from the decisions,
+     {"id", "type", "title", "advice": "edit", "why", "reading" (optional: what Pangram read there), "advice_note",
+      "keep_label" (optional), "spans", "card_after" (optional)}   a stretch for him to see and, if he wants, rewrite
+      himself (2026-10-27, his "give me the editor interface so i can see and edit what needs editing"): no change of
+      mine, his buttons Keep it as it is / Edit it / Not decided yet, and Edit opens "Your version" filled with the
+      paragraphs as they are now; counted with the decisions]}
+Each type may give its colours ("color", "bg", "color_dark", "bg_dark"); a type the template has no colours for gets
+them from TYPE_PALETTE, so its highlights and cards are never colourless (2026-10-27: batch 481's page had four types the
+template didn't know, and none of its 34 highlights showed in the article).
 
 Each changed paragraph shows as two clean texts, as it is now (the words that go struck through) and as it would read
 (the new words marked), so a page pasted into a chat still reads right: on the Inner Child sheet of 2026-10-25, pasted
@@ -70,7 +78,7 @@ from html_links import join_split_links  # noqa: E402  (a pasted post card's lin
 TEMPLATE = HERE / 'suggestion_review_template.html'
 FORM_CSS = ROOT / 'project-sources' / 'review-form-controls.css'
 FORMAT = 'joel-suggestion-review-v1'
-GENERATOR = 'suggestion_review.py 1.2 (2026-10-25)'
+GENERATOR = 'suggestion_review.py 1.3 (2026-10-27)'
 ID_OK = re.compile(r'^[A-Za-z0-9][A-Za-z0-9.\-]{0,80}$')
 LINK = re.compile(r'\[([^\]]+)\]\(([^)\s]+)\)')
 EMPH = re.compile(r'(?<![\w*])\*([^*\s][^*]*?)\*(?!\*)')
@@ -271,16 +279,22 @@ def check(review, bl):
         if s.get('type') not in review['types']:
             probs.append('%s: unknown type %r' % (sid, s.get('type')))
         ask = s.get('advice') == 'ask'
-        if s.get('advice') not in ('approve', 'leave', 'ask'):
-            probs.append('%s: advice must be "approve", "leave" or "ask"' % sid)
-        for k in (('title', 'question', 'why') if ask else ('title', 'what', 'why', 'stays', 'deciding')):
+        edit = s.get('advice') == 'edit'
+        if s.get('advice') not in ('approve', 'leave', 'ask', 'edit'):
+            probs.append('%s: advice must be "approve", "leave", "ask" or "edit"' % sid)
+        need = ('title', 'question', 'why') if ask else ('title', 'why', 'advice_note') if edit else \
+            ('title', 'what', 'why', 'stays', 'deciding')
+        for k in need:
             if not (s.get(k) or '').strip():
                 probs.append('%s: no %s' % (sid, k))
         if not (s.get('spans') or s.get('inserts') or s.get('moves')):
             probs.append('%s: nothing to show in the article (no spans, inserts or moves)' % sid)
-        if ask and (s.get('edits') or s.get('inserts') or s.get('moves') or s.get('reads')):
-            probs.append('%s: a question changes nothing (no edits, inserts, moves or reads)' % sid)
-        if not ask and not (s.get('edits') or s.get('inserts') or s.get('moves')):
+        if (ask or edit) and (s.get('edits') or s.get('inserts') or s.get('moves') or s.get('reads')):
+            probs.append('%s: a %s changes nothing (no edits, inserts, moves or reads)'
+                         % (sid, 'question' if ask else 'stretch to edit'))
+        if edit and not s.get('spans'):
+            probs.append('%s: a stretch to edit needs its spans' % sid)
+        if not (ask or edit) and not (s.get('edits') or s.get('inserts') or s.get('moves')):
             probs.append('%s: no change (edits, inserts or moves)' % sid)
         for r in s.get('reads', []):
             if not (r.get('text') or '').strip():
@@ -467,6 +481,32 @@ def block_html(b, marks):
     return '<p class="blk" id="b%d" data-b="%d">%s%s</p>' % (b['i'], b['i'], pn, inner)
 
 
+OWN_ADVICE = re.compile(r'(?:Approve|Leave|Your call|Reject|Keep)\b')
+BUILTIN_TYPES = {'reread', 'structure', 'caveat', 'repeat', 'innerchild', 'typo', 'cut', 'ask'}
+# (light colour, light background, dark colour, dark background), in order, for the types the template doesn't colour
+TYPE_PALETTE = [('#0e7490', '#d3f1f8', '#67e8f9', '#123a44'), ('#b45309', '#fdebc8', '#fbbf24', '#45330f'),
+                ('#4338ca', '#e1e4fd', '#a5b4fc', '#262a56'), ('#be185d', '#fce1ee', '#f9a8d4', '#4c1d33'),
+                ('#4d7c0f', '#e6f4cf', '#bef264', '#2d3b12'), ('#9333ea', '#f1e3fe', '#d8b4fe', '#3b1d55'),
+                ('#0f766e', '#d5f5ef', '#5eead4', '#123f3b'), ('#c2410c', '#ffe8d5', '#ffa66b', '#4d2c17')]
+
+
+def type_css(types):
+    """CSS giving every type outside the template's own set its colours, light and dark."""
+    rules, k = [], 0
+    for key, t in types.items():
+        if key in BUILTIN_TYPES and not t.get('color'):
+            continue
+        c, cb, cd, cbd = TYPE_PALETTE[k % len(TYPE_PALETTE)]
+        k += 1
+        c, cb = t.get('color', c), t.get('bg', cb)
+        cd, cbd = t.get('color_dark', cd), t.get('bg_dark', cbd)
+        sel = '.t-%s' % re.sub(r'[^A-Za-z0-9_-]', '', key)
+        rules.append('%s{--c:%s;--cb:%s}' % (sel, c, cb))
+        rules.append('@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) %s{--c:%s;--cb:%s}}' % (sel, cd, cbd))
+        rules.append(':root[data-theme="dark"] %s{--c:%s;--cb:%s}' % (sel, cd, cbd))
+    return '<style>\n%s\n</style>' % '\n'.join(rules) if rules else ''
+
+
 APPROVE = {'reread': 'use this wording', 'structure': 'make this change', 'innerchild': 'use this wording', 'typo': 'fix it',
            'caveat': 'cut it', 'repeat': 'cut it'}
 APPROVE_LEAVE = {'reread': 'use the reader\'s version', 'structure': 'make this change anyway', 'innerchild': 'add it anyway',
@@ -527,9 +567,35 @@ def ask_html(s, types):
 </div></section>'''
 
 
+def edit_html(s, bl, types):
+    """A stretch for him to see and rewrite if he wants: the paragraphs as they are now, what Pangram read, why it's here,
+    my advice, and Keep it as it is / Edit it / Not decided yet; Edit opens "Your version" filled with the paragraphs."""
+    t = types[s['type']]
+    sid = s['id']
+    blocks_ = sorted({sp['block'] for sp in s['spans']})
+    now = ''.join('<div class="dif side now">%s</div>' % esc(bl[i]['text']) for i in blocks_)
+    rows = ([('Pangram read', s['reading'])] if s.get('reading') else []) + [('Why it\'s here', s['why'])]
+    info = ''.join('<div class="row"><span class="lab">%s</span> <span>%s</span></div>' % (esc(k), linked(v)) for k, v in rows)
+    info += '<div class="row advice"><span class="lab">My advice</span> <span>%s</span></div>' % linked(s['advice_note'])
+    keep = s.get('keep_label') or 'keep it as it is'
+    keep = keep[:1].upper() + keep[1:]
+    return f'''<section class="card edit t-{esc(s['type'])}" id="c-{esc(sid)}" data-id="{esc(sid)}" data-type="{esc(s['type'])}" data-advice="edit" data-block="{blocks_[0]}">
+<div class="card-top"><button type="button" class="chip t-{esc(s['type'])}" data-filter-type="{esc(s['type'])}" title="{esc(t['about'])}">{esc(t['label'])}</button><span class="cid">{esc(sid)}</span><span class="ctitle">{esc(s['title'])}</span><span class="pill" aria-live="polite">Not decided yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="changes"><div class="chg"><div class="chg-k">As it is now</div>{now}</div></div>
+<div class="info">{info}</div>
+<div class="decide" role="group" aria-label="Decision on {esc(sid)}"><button type="button" class="dec reject" data-dec="rejected">{esc(keep)}</button><button type="button" class="dec revise" data-dec="revise">Edit it</button><button type="button" class="dec undo" data-dec="pending">Not decided yet</button></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="5" placeholder="Your wording"></textarea></label>
+<label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note (optional)"></textarea></label>
+<div class="saved-line"></div>
+</div></section>'''
+
+
 def card_html(s, bl, types):
     if s['advice'] == 'ask':
         return ask_html(s, types)
+    if s['advice'] == 'edit':
+        return edit_html(s, bl, types)
     t = types[s['type']]
     sid = s['id']
     leave = s['advice'] == 'leave'
@@ -545,7 +611,11 @@ def card_html(s, bl, types):
         info += ('<div class="row also"><span class="lab">Also on this paragraph</span> %s</div>'
                  % ' '.join('<button type="button" class="link-btn go" data-go="c-%s">%s</button>' % (esc(o), esc(o))
                             for o in s['overlaps']))
-    advice = ('<b>Leave it as it is.</b> ' if leave else '<b>Approve.</b> ') + linked(s.get('advice_note') or '')
+    note = s.get('advice_note') or ''
+    # a note that already says the advice ("Approve.", "Approve if ...", "Your call: ...") isn't given a second label
+    # (2026-10-27: batch 481's page read "Approve. Approve.")
+    label = '' if OWN_ADVICE.match(note) else ('<b>Leave it as it is.</b> ' if leave else '<b>Approve.</b> ')
+    advice = label + linked(note)
     found = esc(s.get('found_by') or '')
     return f'''<section class="card t-{esc(s['type'])}{' leave' if leave else ''}" id="c-{esc(sid)}" data-id="{esc(sid)}" data-type="{esc(s['type'])}" data-advice="{esc(s['advice'])}" data-block="{(s.get('spans') or [{}])[0].get('block', '')}">
 <div class="card-top"><button type="button" class="chip t-{esc(s['type'])}" data-filter-type="{esc(s['type'])}" title="{esc(t['about'])}">{esc(t['label'])}</button><span class="cid">{esc(sid)}</span><span class="ctitle">{esc(s['title'])}</span><span class="pill" aria-live="polite">Not approved yet</span><button type="button" class="link-btn fold" aria-expanded="{'false' if leave else 'true'}">{'Open' if leave else 'Fold'}</button></div>
@@ -623,6 +693,7 @@ def page(review, md, bl):
               .replace('__LEGEND__', legend)
               .replace('__SRC__', source_line(review))
               .replace('/*__FORM_CSS__*/', form_css)
+              .replace('</head>', type_css(types) + '\n</head>', 1)
               .replace('__MAIN__', '\n'.join(parts))
               .replace('__DATA__', json.dumps(data, ensure_ascii=False).replace('</', '<\\/')))
     return out
@@ -663,7 +734,10 @@ def marker_html(s, ins, bl, types):
 
 
 def proposed_text(s, bl):
-    """The text his Revise box starts from: my version of every block the suggestion changes."""
+    """The text his Revise box starts from: my version of every block the suggestion changes (for a stretch to edit, the
+    paragraphs as they are now)."""
+    if s.get('advice') == 'edit':
+        return '\n\n'.join(bl[i]['text'] for i in sorted({sp['block'] for sp in s['spans']}))
     if s.get('reads'):
         return '\n\n'.join(reads_mark(r) + r['text'] for r in s['reads'])
     parts = []
@@ -678,7 +752,7 @@ def proposed_text(s, bl):
 
 
 def before_text(s, bl):
-    if s.get('reads'):   # the whole passage as it is now: every block it marks, in the article's order
+    if s.get('reads') or s.get('advice') == 'edit':   # the whole passage as it is now: every block it marks, in the article's order
         return '\n\n'.join(bl[i]['text'] for i in sorted({sp['block'] for sp in s.get('spans', [])}))
     return '\n\n'.join(bl[e['block']]['text'] for e in s.get('edits', []))
 
