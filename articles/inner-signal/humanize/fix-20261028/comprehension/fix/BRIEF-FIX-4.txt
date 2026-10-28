@@ -1,0 +1,51 @@
+You are fixing comprehension problems in part of a long self-hypnosis guide by Joel, a Substack writer. The guide
+was rewritten so that an AI detector (Pangram) reads it as human-written, and in places the rewrite became garbled,
+unclear, vaguer, or lost a point that Joel's published version made. Readers have found those places. Your job is to fix
+each one so the paragraph is at least as clear as Joel's published version and says everything it said, while changing
+as little as possible, because every changed word can make the detector read the paragraph as AI again.
+
+The file `/home/claude/w1015/articles/inner-signal/humanize/fix-20261028/comprehension/fix/FIX-4.txt` has, for each paragraph to fix:
+- "P<n> NOW": the paragraph as it is in the guide now (the text you change);
+- "PUBLISHED": the blocks of Joel's published guide the findings point at (what it should say, clearly);
+- the findings: each with the words concerned, its kind (garbled, unclear, lost, vaguer; MINOR for a small snag),
+  what the reader said, and what my check of it found (follow my check where the two differ);
+- "BEFORE" and "AFTER": the paragraphs around it, for context only (don't change them).
+
+How to fix:
+1. Fix every finding listed for the paragraph. Change only the sentence(s) a finding names, plus a word or two around
+   them if a sentence needs it to read well. Leave every other sentence exactly as it is, character for character.
+2. The fixed sentence must be clear on a first read to someone who never saw the published version, and must say what
+   the published version says there: every point, step, condition, contrast and strength of claim ("may" stays "may",
+   "one thing ... another" keeps the point that they differ).
+3. Prefer Joel's published wording when it fits the paragraph as it now stands: copy his sentence (or the part of it
+   that's needed) exactly. When it doesn't fit (the paragraph now says things in another order, or his sentence would
+   repeat something already said), write the fix in the paragraph's own voice: its contractions, plain everyday words,
+   sentence lengths. Say plainly what he meant; don't polish, don't add an image or a flourish of your own.
+4. Don't add anything the published version doesn't say: no new claims, examples, cautions or safety lines, no
+   reassurance that isn't there. Don't fix things nobody flagged. Keep his casual grammar where it isn't a problem.
+   Joel's terms stay as the guide now uses them: the inner adult's three jobs are the Nurturer, the Protector and the
+   Guide (not "the Leader"), a protective part from childhood is a guard, and the inner child may be "your little one".
+   Don't change a sentence just to use the published guide's older term.
+5. A finding marked MINOR is a small snag: fix it only if a few words do it (up to about six changed); otherwise put
+   it in "not_fixed" with the reason "minor".
+6. A paragraph whose items run together without punctuation (a list whose line breaks were lost) is fixed by giving the
+   items back as a list: in "with", put each item on its own line starting with "- ", and any lead-in sentence on its
+   own line before them; keep the items' words.
+7. Avoid these words unless the published text has them: boring, quietly, ordinary, truly, deeply, crucial, vital,
+   navigate, journey, delve, "it's worth noting", "that's where X matters". Don't start a sentence with "And" or "But"
+   more than the paragraph already does.
+8. If a finding is wrong (the NOW text is as clear as the published one and keeps its point), don't fix it; say so.
+
+Write your answer with a single Write call to `/home/claude/w1015/articles/inner-signal/humanize/fix-20261028/comprehension/fix/FIXES-4.json`, as JSON in exactly this shape (no other text in the file):
+
+{"part": 4,
+ "fixes": [{"p": <the paragraph's number n from "P<n> NOW">, "findings": ["F3.2", "F3.3"],
+            "replace": "<exact words from that paragraph as it is NOW, copied character for character, occurring once in it>",
+            "with": "<the fixed words>",
+            "how": "published" or "rewrite",
+            "note": "<a few words: what the fix restores or clears up>"}],
+ "not_fixed": [{"finding": "F3.4", "why": "<why it needs no fix>"}]}
+
+Several fixes may share a paragraph; their "replace" strings must not overlap. Keep each "replace" as short as the fix
+allows (a sentence or two, not the whole paragraph). Every finding listed goes into exactly one fix's "findings" or into
+"not_fixed". Read only the file named above, don't run commands, don't use the web. Reply with only the number of fixes.

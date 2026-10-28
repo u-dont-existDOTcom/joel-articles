@@ -6,13 +6,13 @@ This guide has an [app coming soon](http://innerself.love/)! Working hard!
 
 # How to use this very large guide
 
-To make it easier, you can begin with the Quick start section, then learn one of the inductions and the whole return sequence. Then, you can read the Let the next response guide you section, for the part of the practice no recording can decide in advance. You can also look at the daily and weekly sections to make the practice your own. There are lots of appendices with extra tools, covering lots of topics, including asking questions, NLP patterns of language, working with anxiety, working with daydreams, altered states in general, what to do if you experience the sensation of a hostile presence, working with sleep, influence, and more inductions. All sources used are in Appendix K.
+To make it easier, you can begin with the Quick start section, then learn one of the inductions and the whole return sequence. Then, you can read the Let the next response guide you section, for the part of the practice no recording can decide in advance. Also read some of the stuff in the daily and weekly sections, to make the practice your own. There are lots of appendices with extra tools, covering lots of topics, including asking questions, NLP patterns of language, working with anxiety, working with daydreams, altered states in general, what to do if you experience the sensation of a hostile presence, working with sleep, influence, and more inductions. All sources used are in Appendix K.
 
 [Share](%%share_url%%)
 
 # The table of contents is hiding on the left
 
-Substack kinda hides the table of contents until you move the mouse toward the left side of the page. On a guide this long, that little hidden menu is your friend.
+Substack kinda hides the table of contents until you move the mouse toward the left side of the page. It'll be really helpful for this guide as it's a long one.
 
 # Introduction
 
@@ -26,7 +26,7 @@ While a lot of the teachings on hypnosis talk about the subconscious mind like i
 
 I teach a self-hypnosis method that allows you to gather all of your attention and have your conscious mind, subconscious mind, body mind, inner child mind, guard minds, adult mind and Higher Self be able to all hear and talk to each other.
 
-“How do I do this?” you ask. Just listen. When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic trance experience to demonstrate the results of all parts of your mind talking to each other and trusting each other more.
+“How do I do this?” you ask. Just listen silently. Many people skip the listening or shorten it since it's not "achieving something" but this is by far the most important step. When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic trance experience to demonstrate the results of all parts of your mind talking to each other and trusting each other more.
 
 I like to think of it like a communion between all parts of our mind, where the conscious mind doesn’t have to shout from the roof top and the subconscious mind doesn’t have to manifest symptoms, dreams, cravings, daydreams and weird body signals in order to communicate.
 
@@ -38,7 +38,7 @@ To work on difficulties or cultivate positive qualities (love, curiosity, play, 
 
 Prior to your first session, read through the induction and the full return in waking life, so you’re more familiar with them. Give yourself a chunk of time when you can be physically secure for the time it takes. Put this screen on the shelf and conduct the practice.
 
-You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - as you're invited. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return. After, note what happened & any real-world actions.
+You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - as you're invited. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return to normal waking consciousness. After, note what happened & any real-world actions.
 
 If at any point you feel panicky, disoriented, more unreal, or less functional, this is not about bravely sticking with difficult feelings (that's another choice, made freely & while staying present). Stop deepening, return to the room & get appropriate support.
 
@@ -46,7 +46,7 @@ If at any point you feel panicky, disoriented, more unreal, or less functional, 
 
 Before choosing a script, notice: do you talk to yourself in your head -- silent words & phrases -- a lot, some, little, never? Does it vary when you plan, remember, reflect, or feel upset? If it doesn't come naturally, can you make yourself think in words, silently? (Thinking in words doesn't mean you hear them.)
 
-This doesn't mean that in any given moment you won't notice feelings before words. You don’t have to decide that feelings always come first. This isn't a diagnosis, just a way of finding what's useful. "Not sure" is an answer.
+Keep in mind that it's normal, even for people who do think in words, to sometimes notice feelings before words.
 
 If you don't normally think in words, you may want to say things aloud, in writing, on a recording, etc., when this guide says "say." Or, just do what it invites, without preparing what you're going to say. When it says "ask" the child or guard, or "listen" for a response, it doesn't mean they'll be saying full sentences to you. It also doesn't mean you'll get pictures in your head instead. Just do whatever you can, and try different ways as needed.
 
@@ -62,7 +62,7 @@ Hypnotism can happen in a therapist’s office, but it can also happen through m
 
 Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers know this perfectly well. In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers. The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.
 
-Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent. Can people have their minds influenced without conscious agreement of their adult self?
+All of these are separate factors to consider: conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent. People have their minds influenced without the conscious agreement of their adult self.
 
 As associated with the Silva Mind Control method:
 

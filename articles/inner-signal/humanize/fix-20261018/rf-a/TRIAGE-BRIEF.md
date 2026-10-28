@@ -1,3 +1,5 @@
+> **SUPERSEDED 2026-10-28 (gates E284, E285).** This brief let "wording, emphasis or tone" stand, and an "UNCLEAR" finding when the next sentence said who "it" was, so that each section kept its Pangram reading. That night it let 554 of 814 findings stand, and the sentences a reader couldn't follow stayed: Joel, 2026-10-28 15:20 UTC, "the guide itself is now too incomprehensible, we went wrong somewhere". Now a garbled or unclear sentence is never let stand: it is fixed, or goes to him on the marking page, whatever Pangram then reads; and after any rewrite the comparative read (`tools/humanization/compare_read.py`) goes through every paragraph beside his text, and the lane's push stops while a paragraph is unread or a finding has no fate. `tools/triage_apply.py` refuses a triage that lets an UNCLEAR or garbled finding stand.
+
 # Triage of a second reader's findings on a rewrite that reads Human (2026-10-18)
 
 The rewrite (the CHANGED stretches) is Emulate's rewrite of a guide's text. A detector already reads it as 100% human.

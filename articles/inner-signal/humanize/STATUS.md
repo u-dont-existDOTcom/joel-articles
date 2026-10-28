@@ -1,5 +1,60 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-28, after Joel's messages of 15:20 UTC ("the guide itself is now too incomprehensible") and 16:05 UTC ("repair the process durably")
+
+His messages, word for word: `fix-20261028/joel-20261028-1520-message.txt` (with his answers file from the editor page,
+`fix-20261028/ANSWERS-20261028-1519.json`: HG-S11 and HG-S12 approved, ED-A1, ED-A3, ED-A5 and HG-S15 revised, 83 not
+marked) and `fix-20261028/joel-20261028-1605-message.txt`.
+
+**His six answers are in** `HUMANIZED-SO-FAR.md` (`fix-20261028/comprehension/make_candidate.py --answers-only`,
+CHANGES-ANSWERS.json): his four versions word for word (ED-A5's one sentence replaces its whole paragraph; HG-S15's "can
+are" became "are", the one obvious typo), and the two approved cards' words.
+
+**The comparative read** (`fix-20261028/comprehension/`, AUDIT.md): fresh readers went through the whole guide as it was
+at 15:20 (commit 0a44911d) beside his published version, sentence by sentence (`make_chunks.py`, eleven parts; six of
+them again in halves, `make_halves.py`, after their first readers hit the 64,000-token limit). 281 findings; my check of
+each (CHECKED.json, against the whole guide and his decisions: his terms, his cuts of 25 October, his inner child guide's
+lines): 41 real problems in 38 of 591 paragraphs (6 at severity 3), 118 small snags in 95 more, 6 in his own words, 116
+not problems. 23 of the 41 came in on 18 October, 13 between 20 and 23 October, 4 on 25 October, 1 is his published
+sentence whose lead-in was dropped; 29 of the 41 had been flagged by the 25 October strict check's readers and left as
+"small", 11 named on 18 October and let stand. The diagnosis went to him at 15:57 UTC.
+
+**The fixes** (`fix/`): fresh writers per part (`make_fix_briefs.py`, BRIEF-FIX-k), my review of every fix
+(`review_fixes.py`, MY-REVIEW.json: kept, changed or dropped, with why), the candidate (`make_candidate.py`: CANDIDATE.md,
+CHANGES.json), and fresh readers of every fixed paragraph beside his published one (`make_verify.py`, `collect_verify.py`,
+verify/). The writers proposed 144 fixes; I dropped 7 and changed 24 (MY-REVIEW.json), so 137 are kept, in 114
+paragraphs: every one of the 40 real problems (the 41st was settled by his own HG-S15 version) and 97 of the 118 snags.
+Eleven fresh readers then read all 114 fixed paragraphs, and the one his two approved cards changed, beside his published
+version (CLEAR, SAYS, BETTER): all passed, 3 of them (P589, P728, P752) after a second fix, when the first had left out a
+point of his. My check had counted one more real problem at first: the sober induction's countdown seemed to start at 4,
+but its "5." is a list number the readers' plain text dropped, and the writer's added "5." would have doubled it (E290).
+
+**The fix page** ([Hypnosis Guide Fixes](https://claude.ai/artifact/BC6AzFGSwc6MSgoWR2upLd), published from this account; `build_page.py`: REVIEW-28.json,
+.html, .artifact.html, .md; browser test 82 of 82): 118 cards, 114 fixes, one per paragraph (25 where a sentence doesn't
+read, 12 where a point was lost or changed, 77 small snags), and 4 passages in his own words to keep or edit. It is
+question 24; question 25 asks which wins when a clear fix reads AI or below High in the recheck (my default: clarity).
+The comparison gate passes on the guide now and on the guide with every fix approved (`fix-20261028/comprehension/GATE-CANDIDATE.json`,
+the same gate on CANDIDATE.md).
+
+**The durable repair** (his 16:05 message; lessons E284 to E290):
+- `tools/humanization/compare_read.py` (make, collect, record, gate; tests/test_compare_read.py): the comparative read for
+  any article, and the gate: every paragraph his as published, his own words, or read beside his text at its present
+  words; every finding a reader rated 2 or 3 with a fate and a reason; a garbled or unclear one never "kept" unless my
+  check put it at 1, on record. The reader's text shows a list's numbers, bullets and quote marks as the page does
+  (E290: a countdown's "5." was lost from the text, and I had counted it a real problem).
+- `tools/humanization/lane_push.py` runs the gate for every COMPARE-GATE.json in the article's folder before committing,
+  and stops; `--unread-ok "why"` puts the reason in the commit. This lane's is `COMPARE-GATE.json` (records:
+  `fix-20261028/comprehension/READ-RECORD.json`, `verify/READ-RECORD.json`; `write_records.py`).
+- `tools/humanization/clarity_read.py`: casual grammar is his voice in his own words only; `collect --prior` carries an
+  earlier run's findings, and collect warns about a sibling run left out (tests in tests/test_clarity_read.py).
+- `tools/triage_apply.py` refuses a triage that lets an unclear or garbled finding stand; the 18 October triage brief is
+  marked superseded.
+- Shared rules: AGENTS.md, `docs/FIXING-AN-ARTICLE.md` section 5, `docs/CLARITY-READ.md`, `docs/EMULATE-FALLBACK.md`
+  section 4 (step 0a), `docs/HUMANIZATION-GATE.md` E284 to E290.
+
+**On hold:** the 83 cards of the 27 October editor page he hadn't marked (questions 21 to 23); most offer Emulate's
+re-runs, which get the comparative read before they come back (E288).
+
 ## 2026-10-27, after Joel's message of 15:37 UTC (batch 481's recheck links; questions 21 to 23 on one editor page)
 
 His message, word for word: `fix-20261027/joel-20261027-1537-message.txt`.

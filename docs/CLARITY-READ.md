@@ -17,6 +17,18 @@ whole-article clarity read was Nibbāna's, after his question of 2026-10-23 14:1
 nibbana guide that's hard to understand but still passing pangram?"): three fresh readers found 29 passages, 12 of them
 hard enough that most readers wouldn't get them (`articles/nibbana/humanize/fix-20261023/clarity/CLARITY.md`).
 
+**A rewrite of his text gets the comparative read, not this one alone (gate E284).** When the text is a rewrite of his
+(Emulate's, a reader's edit, any humanizing pass), each part goes to a fresh reader beside the same part as he wrote it,
+and the reader goes through the rewrite sentence by sentence for every place it reads worse: garbled, unclear, lost or
+vaguer (`tools/humanization/compare_read.py`). This read, on the article alone, missed exactly those places in the
+hypnosis guide: "As associated with the Silva Mind Control method:" reads like a casual line until it's set beside his "A
+line associated with the Silva Mind Control tradition says it plainly:". Joel, 2026-10-28 15:20 UTC: "the guide itself is
+now too incomprehensible, we went wrong somewhere"; "didn't you already do a comprehension check? the AI guide was making
+more sense by far". Two more rules from that read (gates E286 and E287): a brief never tells readers that casual grammar
+is his voice unless the words are his (the hypnosis guide's brief did, when two-thirds of its words were Emulate's
+imitation of a casual voice), and a read that is run again keeps the first run's findings until each is checked (its
+first run flagged the agreement list; the page was built from the second run alone).
+
 ## Part 1: what a reader has to reread
 
 ### When
@@ -27,7 +39,7 @@ hard enough that most readers wouldn't get them (`articles/nibbana/humanize/fix-
 2. **Before publishing:** on the final candidate, once every other change is in, and before the final whole-article
    Pangram check, so that the passages it changes are read in place by that check.
 3. **After a large batch of changes to a published article** (a humanization pass, a restructure), at the next stable
-   point.
+   point. Where the changes rewrote his sentences, the comparative read above comes first (gate E284).
 
 A short piece, a typo fix or a one-paragraph change doesn't need it.
 
@@ -40,7 +52,10 @@ A short piece, a typo fix or a one-paragraph change doesn't need it.
 2. Give each `BRIEF-k.txt` to a fresh reader: a new agent that has seen nothing else (Sonnet is enough; Opus for an article
    whose argument is technical). Each writes `READER-k.md`: each passage, what's hard, a score (3: most readers wouldn't get
    it; 2: most would have to reread; 1: a small snag) and a plainer version.
-3. `clarity_read.py collect DIR` puts them in `ITEMS.json`, each found in the article (or marked not found).
+3. `clarity_read.py collect DIR` puts them in `ITEMS.json`, each found in the article (or marked not found). When the
+   read is run again (a fixed brief, more readers), pass the earlier run with `--prior EARLIER_DIR`: every finding the
+   new run lacks is carried, marked "check", and collect warns about a sibling folder that looks like an earlier run
+   (gate E287).
 4. **Check every item against the whole article yourself**, since each reader saw only its part. An item explained
    elsewhere gets `"status": "drop"` and a note saying where; a small one `"minor"`; `"my_score"` overrides a reader's
    score; `"check"` names any step of a plain version that guesses at his reasoning. In Nibbāna's read, 7 of 36 flags were

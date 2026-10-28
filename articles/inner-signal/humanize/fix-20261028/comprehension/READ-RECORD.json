@@ -1,0 +1,4558 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "articles/inner-signal/humanize/HUMANIZED-SO-FAR.md at 0a44911d",
+ "coverage": [
+  "00ee6ebe72ee7159",
+  "01051437fdce8470",
+  "011ca0ac876a9c24",
+  "016e367ca00c95df",
+  "01ac664df62e75ba",
+  "01c0700ee846bae6",
+  "01f68e93746bd330",
+  "03de0c90cb1959a6",
+  "03f3b518406f7949",
+  "03fbcef7ca4bde2a",
+  "04360d3ca258f182",
+  "053f94475da7bd66",
+  "05665dad4d95ec4c",
+  "05c84c01f1a42646",
+  "062a19b862e52015",
+  "06999882fc2fa5a0",
+  "069d79e0955c0a77",
+  "06c01d133a824f1d",
+  "06d9f70e9693e849",
+  "0744c266a9ab9a0d",
+  "078d0cc3e2f2567e",
+  "07b03834da225fe1",
+  "088845ff06181609",
+  "0ae7deb7823829d1",
+  "0b9ace349fabb85f",
+  "0c24c6ac0e611704",
+  "0c2a21f9620749eb",
+  "0c727ee3a0df8aa3",
+  "0cd465d3fdd1bc7a",
+  "0d1743fae7d42ac8",
+  "0d3bb135beb11648",
+  "0d4317ab66644ff1",
+  "0d75a796c91ea14c",
+  "0db58eff51715d03",
+  "0e26ef45c2631232",
+  "0e925f2549ff8fd5",
+  "0ea8414e9ecb9829",
+  "0ee01a1151fb2c5e",
+  "0f716358811de390",
+  "0f78a4465b7f88a0",
+  "0f8e155230332be6",
+  "1016644789f601f7",
+  "103fc2c2b70f2bc0",
+  "106d0b8811cf4331",
+  "10c3ed7bd90b88a9",
+  "1129fab35bb40963",
+  "118595bfaec5e881",
+  "11c9ec4da7a6d13f",
+  "11cfd9550414ad60",
+  "12693f2794a1ab73",
+  "12fd2292e6745d2a",
+  "13150c14dd8e187d",
+  "134c3377c3d64471",
+  "13aced4262821d28",
+  "141f5871e3d133fd",
+  "14fed5c7b3647fdb",
+  "155210bb0a8bc2ee",
+  "155a9c133858bf0e",
+  "15c80f8a47dd60a7",
+  "163b2d03e94b3cc4",
+  "178b7f97e53f846a",
+  "17e9db171db9eedc",
+  "1800250cd4e9fc17",
+  "18d11e9410bc7419",
+  "19cff7cc822e64ef",
+  "1aa3cf36e441c1f5",
+  "1ad751fee45c97b8",
+  "1b05807d1e434188",
+  "1b4cdc7e13fbb331",
+  "1b922875565cf088",
+  "1b982f37a0db64f4",
+  "1c60728e574c13a9",
+  "1d275d30b5f30e76",
+  "1d3b34a9c6a9fc6d",
+  "1d541767efa29365",
+  "1e42bd2a0a6eb440",
+  "1e4fef7d924b1ed3",
+  "1ea3db87bb0b4e09",
+  "1feaf3a4edb8127f",
+  "1fff51400a1df72e",
+  "20211fa928391c57",
+  "2060f861d314e446",
+  "20bf1d8028ffa2d0",
+  "21403de22594e4dc",
+  "21a0270b7f66a1e4",
+  "224c8e6bc744cde9",
+  "225eabf73fae5886",
+  "22fe9d50d94ebe7d",
+  "230279de997f71ea",
+  "235d870d4f851c85",
+  "239bbcf442711efc",
+  "23c8d7751f31253d",
+  "241a830b5f8941af",
+  "24948bad71cfa969",
+  "2589fc8cd5ceddb0",
+  "25bfaf1d9975a6a0",
+  "25e358c82b7f52aa",
+  "2663babdf6839304",
+  "268f2e0512f40869",
+  "26986efc5569a458",
+  "26c9c2e6de73de5a",
+  "272d4deec5988d42",
+  "27ebc11b18116f3b",
+  "2844fc634c603285",
+  "291da6fb64fa1dcc",
+  "294a5a0a43693dec",
+  "29bd80753e51dac7",
+  "29e4576ba6c89b57",
+  "2ad1199984231902",
+  "2adbf9c6305fc06a",
+  "2b1cd5c8cb4d625d",
+  "2b255e9f481d18a3",
+  "2b7b39bb790bedda",
+  "2b8941fa60a26a87",
+  "2c235712d9db40a1",
+  "2c608081f354a557",
+  "2c66d018e5faf6a8",
+  "2c8319e7d95df6ab",
+  "2cca133b47fb0ccb",
+  "2cd2b0994e6678d5",
+  "2d5bfbaa4b911d4f",
+  "2dcc3dbf5f18e0c9",
+  "2e92026d9631cee2",
+  "2fb4edb95dc04c80",
+  "2fcac4deb278a3a7",
+  "30801824033d38b4",
+  "31f85d4261e27576",
+  "327084e7fca372b7",
+  "32708aa33e13cb86",
+  "3283765190941387",
+  "32f4c48846681aba",
+  "345cfa8e7a7b80e8",
+  "34b0e7403ae01a44",
+  "34be55f1c3b0338b",
+  "34f68f5411f25741",
+  "357a9b247e7c1ddd",
+  "359b17aa123b62be",
+  "35bcd31298a7e7f0",
+  "35f2421a16db2fb3",
+  "365fa4e24c5ab53d",
+  "36818cb2f5558a81",
+  "37d072d1f8ce4b0c",
+  "383b3c6fd7ecdac3",
+  "384ff655a98dd30e",
+  "387192ad09e893fd",
+  "393d8a145b01378d",
+  "3a05ec4b217a03e6",
+  "3a882afa0448483e",
+  "3b600e9b86f2e08d",
+  "3bfdb1a27d40473b",
+  "3c1c7f19e89b7f18",
+  "3cd28be823de0125",
+  "3d2b4a3ffeb90f48",
+  "3dd6c0c105eecfa9",
+  "3e1897cc7d6055d8",
+  "3e1f97f97977a3e3",
+  "3eddf9ad9a92165f",
+  "3f2cb0e4f9da66de",
+  "40ac3a7c36b0b69b",
+  "4102a1fb0250dea6",
+  "41ab2962443ee899",
+  "41ad4c5d035bd0f9",
+  "42e7fee982dc10c4",
+  "42eb1b963836f896",
+  "437f0f1e816364df",
+  "43b750fe36160c1d",
+  "44c2b0867170ea6b",
+  "44d2b355968f1d62",
+  "4519400a52fa28f0",
+  "45caa330e3322704",
+  "46516e5458458618",
+  "468f34e5f7908d2a",
+  "46b928cbbe580e62",
+  "47240a2db4429dfa",
+  "4783fbf73fd4c55a",
+  "4898cb8e5b09ea96",
+  "48fefbd3467b2a06",
+  "494ef9709d0eef6e",
+  "4977a0a3e139635f",
+  "49c67ff3ba5411e1",
+  "4a7298c456c24d2d",
+  "4b16ac215fe9b2dd",
+  "4b2cac0d84fe980f",
+  "4c70afd3215ec74b",
+  "4c8af2062ca0c43f",
+  "4c9cf8a7a420e7ad",
+  "4cd541eee34443a1",
+  "4dc6f9a82b12d349",
+  "4e1c98398a88c02e",
+  "4e2521473bbc4399",
+  "4e6ad96e84bec332",
+  "4e90372c50b85e2f",
+  "4ebada20df2039c6",
+  "4f59cd85d04a948d",
+  "4f7fe1e42d07ea87",
+  "4fd381789e77d307",
+  "4ff09364db040fd5",
+  "5091b7b8fba7f357",
+  "515644aed20f2b69",
+  "51795f7f6a3bd74c",
+  "518fc5603e3a878c",
+  "5265dd50526348ad",
+  "5277e534cb210794",
+  "536fbcb1374b7db7",
+  "54709c6879a1b1a4",
+  "54949d682ab06b22",
+  "54d44f488dee8178",
+  "54e15cff8e009e9b",
+  "555c33ab0a035734",
+  "55d35c707652f0d8",
+  "564bb625de853904",
+  "569b5e1c1081e8d9",
+  "56dcf5747728fc72",
+  "57c3e0286c7960f2",
+  "5aa54432ae423f90",
+  "5ac57b50818a6db0",
+  "5b38db149741b0be",
+  "5b96d181b1dfd127",
+  "5baa372137e15675",
+  "5c1e90ae0ccdbf97",
+  "5ca8f551077392ba",
+  "5dd12d29c084c8de",
+  "5de04fdde7118283",
+  "5df0805b5cfd747a",
+  "5dfd073d49d33168",
+  "5e0731fa920eadf5",
+  "5f047616f06974a9",
+  "600bfb53ee9d423a",
+  "6082de2586c61b1b",
+  "61394f828a7c5a95",
+  "619071d23762efa9",
+  "61a53147613c223b",
+  "61f376e4e913b75b",
+  "623fcb933f6652f8",
+  "62c0c56b685bfb59",
+  "635a3bea8127a5ae",
+  "635b75311c886b76",
+  "6391ea440a29c104",
+  "63f04250747bb2b7",
+  "641289e7be166404",
+  "6456467efc284c6b",
+  "6505eff098c59076",
+  "650bb410e263edf2",
+  "6613b3b34a2a71cc",
+  "66307baa0b813085",
+  "66443aa5cb62361e",
+  "68335c8a05782291",
+  "689629e49160f57d",
+  "68b738e5f9cf1974",
+  "6940b9d52a5ece74",
+  "69689f7e81f0a2a8",
+  "698fa0699cdccb0a",
+  "69969e22f5f76d02",
+  "69ec6704e10ada61",
+  "6a532ae1675fc9af",
+  "6a994936464468c4",
+  "6ab5ab6326125775",
+  "6acde0c709029132",
+  "6af0b5f44763e20a",
+  "6b0bad6e070f4a1a",
+  "6cdf3394f56ea51e",
+  "6d1ef30b10db6366",
+  "6d94ff0df5e39240",
+  "6e48b1fdd5ea9828",
+  "6e58beb9ebc56db5",
+  "6ec14f8d787098ab",
+  "6f4ab6305d025ef9",
+  "6f54409bbf05400a",
+  "6fbd065df60f202e",
+  "706008670adb59a3",
+  "70af6b2330a36186",
+  "70ec13c7b7578d5b",
+  "712ae07251ae90b9",
+  "71904df7a38cb3a0",
+  "71aed6064c624522",
+  "720ef89102782f64",
+  "7231c3ac4ff3e8f1",
+  "72a5f04fd8ef9eeb",
+  "72ab1f6920776e18",
+  "733b34c6170cf68d",
+  "736c8208166a29a8",
+  "73ba605ff6307290",
+  "73bde1e9778cde8f",
+  "741dfc886626db75",
+  "7510070d36ec5458",
+  "7586958e7ffebb3b",
+  "7672c77b8305ccb4",
+  "7705ffc03bc11f57",
+  "774966860a406cbf",
+  "778e285ffab29a77",
+  "7b073a7809ae7049",
+  "7b76704046f484c4",
+  "7c7e391700c0b03f",
+  "7c82785f91090045",
+  "7cc2dabd162808b8",
+  "7d530ca132d8f033",
+  "7d7a2257b55896dd",
+  "7e385ff23e59ca93",
+  "7ed3cfb544bc4de6",
+  "7ef58fa4a42d293d",
+  "7fc049f7d1815b4e",
+  "7fe51fbd96a4a833",
+  "8044d83589f5df52",
+  "810edb13f57ee15f",
+  "81eb317d6c3b4522",
+  "828e0aa0e2265163",
+  "82b894e1a9cb184c",
+  "831034f775271aea",
+  "83a5f2a7f1f5c214",
+  "85bf79986ccb51e4",
+  "863e01fe30d2e51f",
+  "869886994dd4d8bf",
+  "86afe6bb4bc3dfa2",
+  "86b9373dec393e33",
+  "871fd63a6325be5d",
+  "875ad0febcc99bef",
+  "8781e222ce8cbef7",
+  "87de71a5db4cc2d6",
+  "87f69c713c3606ee",
+  "894827b28c2d0b7d",
+  "89865737f1e6b119",
+  "89b51cf5dee37d39",
+  "8ab14a1362389d14",
+  "8bb8b0ee6648ed66",
+  "8be3d6d98e794560",
+  "8cbc8bb8fe054bef",
+  "8d082a280106241f",
+  "8d304cba74404ca8",
+  "8d60424c0abbfdb9",
+  "8e7555f3a86daad3",
+  "8ede230cabcee668",
+  "8f3bbbdcb14df71e",
+  "8f3c02c903db035d",
+  "8f56f8e8283d1813",
+  "8f81bd3352379c08",
+  "8ff03f418a555bfd",
+  "902e4ad977ec700f",
+  "90446f46d285fb44",
+  "908886876b46923b",
+  "9191864a0c426968",
+  "924831549cfb118b",
+  "926bfbf649350c4d",
+  "9294af2ad9c6c9ca",
+  "932cd9d16c9f8bc3",
+  "9377fd04fb89ab48",
+  "938d449729878769",
+  "9476026890750fb1",
+  "953ab7a9843848a1",
+  "966cec95b6cb8783",
+  "9682cfe04dadd845",
+  "969ffcdc2a8aec7a",
+  "96ea1dbc7773836b",
+  "96f10c89f6472b50",
+  "973600729ae51cf3",
+  "976bff1fe026cdf5",
+  "97ae7933e5dc24ba",
+  "98a910425fd16d2e",
+  "98b5b438b85e34ce",
+  "98f12e9afffde0c2",
+  "99007a96c13af996",
+  "99ab960135edc266",
+  "99e7b24527e782e4",
+  "9a01b5c111b74b12",
+  "9a32bce6c05e9fdb",
+  "9a4ddb1d71bd352e",
+  "9a83d3298e26c84c",
+  "9ac01391e047f82d",
+  "9ac34357f5da77dd",
+  "9acd15020659a3c7",
+  "9b0ceb412c87c771",
+  "9b442c412da9c4aa",
+  "9b6a4619f362275b",
+  "9b8dc6899dbc0bb4",
+  "9bc9e61592bb9b99",
+  "9c9daa647152923c",
+  "9cda5191e9a95874",
+  "9e6a35a0e18f45aa",
+  "9f5c5457728ea8da",
+  "9fc6413de7b5e206",
+  "9ff6c7cfa79e891e",
+  "a0142cfdbc7ef3e4",
+  "a0273016a479d4a4",
+  "a03d4417279d345b",
+  "a06d225894b64dc5",
+  "a08451a0c0dde63d",
+  "a0d1296e130d304d",
+  "a231fceb06be6b33",
+  "a290d35d8fdd0e56",
+  "a29dec86e4131676",
+  "a32f324252a79471",
+  "a394c9298dcbc4d3",
+  "a44e13ceaf834459",
+  "a45528a016b95032",
+  "a4ae84524a7d9889",
+  "a56d277c13c4d0ec",
+  "a5ceb8a37036a2f7",
+  "a60bcd2723146453",
+  "a6f886d3389fafbb",
+  "a736e556b512e649",
+  "a8f6e7f45041429d",
+  "a94f17fe3e8e2439",
+  "a9ab378b6ee14234",
+  "aa6af1c24e64d2f3",
+  "aab7893d2d6f7449",
+  "ab5b770a70a25fbd",
+  "ab6427a77a606337",
+  "ac375a71cf9c81b2",
+  "ac6fb71b13c6a303",
+  "acb08b005e3f8a47",
+  "acb1942423cb8a58",
+  "aedb64b2cbc0f45f",
+  "aef5c6922244733c",
+  "b0a99f425d4392ef",
+  "b0f742deb1f1e92d",
+  "b1d50154b9de7088",
+  "b2156abee8a9da33",
+  "b2214f953de7cfe6",
+  "b264682927930e8c",
+  "b300e719bb9a900d",
+  "b39e2607ded0e6d2",
+  "b419e0a64819f643",
+  "b48ad1798e0f2d48",
+  "b4f1ff6380772429",
+  "b52a4c878898f682",
+  "b5b2c80aec3b4eda",
+  "b5ec742159130f26",
+  "b60aa53f5aa3539d",
+  "b659fed92cf08ae7",
+  "b673003f7bb4ed38",
+  "b71b89966e22065d",
+  "b762bb8e177aab5b",
+  "b791b2c1c4f5e3aa",
+  "b7d404115df1b370",
+  "b7d899072ae5a029",
+  "b8b49de30de23c47",
+  "b958676373c96a17",
+  "b979096ad2916406",
+  "b98b08b02e894406",
+  "b9a7f37dbaa453a9",
+  "ba09e81d9a11cb80",
+  "bafc1acb4b24a920",
+  "bb1671d4cec8fc8f",
+  "bbc77794d25c1d29",
+  "bc6fc8b5f1ae2a5a",
+  "bca1e040318ed232",
+  "bd91ad58b791ae76",
+  "bd9424feed36fe67",
+  "bdd295acb9859817",
+  "be58b7c6a19bddd5",
+  "bed9b254846415e2",
+  "bf500eebeb55dbb3",
+  "bf786006a7612665",
+  "bfa0940d5b9a88a3",
+  "bfe203e6192d2950",
+  "c034653d40cdf9bc",
+  "c0b60f077970281a",
+  "c0c82f99f0681666",
+  "c0cbf68daff511cc",
+  "c2570b08dbc6e0bd",
+  "c29227919918d0e6",
+  "c30a76b880284516",
+  "c335b29e1b14ce32",
+  "c383994d397c9d8d",
+  "c3a248be846e8be7",
+  "c3bc45ac352fe43f",
+  "c409ae993a48b59d",
+  "c44f8615e6fb63e0",
+  "c45d07aa15f5542d",
+  "c5057c26e39fa1ab",
+  "c5ed3840e08a9266",
+  "c61e11430edbaec4",
+  "c707003c3cc68561",
+  "c71300430df433df",
+  "c72facf9c80f9d0a",
+  "c7567981ddbf8da6",
+  "c869c02f48fe75fd",
+  "c9123b553649f93b",
+  "cac0294ea262189d",
+  "cbeec872f1c4f760",
+  "cd2432b2661a38eb",
+  "cda730ca1e43ccb0",
+  "cdbe2feedd2d05fb",
+  "ceda818da5154c58",
+  "cedd68fca909b106",
+  "cf6f71b6d16c6474",
+  "cfd56e76d058cc43",
+  "d005992709688b76",
+  "d030e7632ec09be7",
+  "d043c17d806e1745",
+  "d07439823dbd7de8",
+  "d22f5e399ac447b4",
+  "d2597335458972da",
+  "d2a69fc56d1dc0e3",
+  "d3069776b9f26ab0",
+  "d443f78860c9f54e",
+  "d48dff30365ebb2b",
+  "d4d857265cbca11f",
+  "d4e0b49075307d35",
+  "d62e703e0a3d1ae1",
+  "d6c996463aa4e12f",
+  "d701eb1bd47c6555",
+  "d717610627f49bd7",
+  "d720d913cfe028e2",
+  "d72542ea7b60821a",
+  "d7e211ed8428593d",
+  "d862f3a565ac1065",
+  "d899f55a3967b144",
+  "d9333cf26baff019",
+  "d98b0441a14993ab",
+  "da034e1d467d6cdb",
+  "da7122ac000acca0",
+  "daed79ea2b913c1a",
+  "dafc536aeb106df8",
+  "dd3c528cf8f27365",
+  "ddbae87a1aec70bf",
+  "ddd940e95890b463",
+  "dde38415f138b6d5",
+  "ddee0d22e7e28e23",
+  "de70c0c61572038a",
+  "de7a709a0fffeb5d",
+  "def6a3b0283280ca",
+  "df4feb07672c421e",
+  "df5f6d0a74664ce7",
+  "dffb7f2107b9985c",
+  "e1007fcd5ad2fc6a",
+  "e17dd343037578ac",
+  "e198a69497f18e95",
+  "e1aa058a43cf76cf",
+  "e22704110d7db0d3",
+  "e2ca844a610478f8",
+  "e3a93e856612c920",
+  "e500d4232107af91",
+  "e50c0f96f8473f40",
+  "e816473aba7c598b",
+  "e8543fa2d386737f",
+  "e8b0071df5cf0875",
+  "e8d8440e8f7a55ac",
+  "e94e6e95e1892d8e",
+  "e959a083a393be49",
+  "e95ba124697a6bc2",
+  "e98cbd93e30f0b09",
+  "e9aaa066c3f1c8d9",
+  "e9b44fcba6d6e2a5",
+  "e9e8f32f32bd4dde",
+  "eb2bd1328e0690ed",
+  "eb40a99aafd0e778",
+  "ebe80c05da926281",
+  "ec1b88022806bed1",
+  "ec2ab4e1319294e1",
+  "ed9da67d448ca56b",
+  "edb7490f31b85f95",
+  "edc10d9823ad0777",
+  "ede8f5a275fac763",
+  "ee2aecd69f8bc8c6",
+  "ee56481fec85134b",
+  "eed2591eeed84571",
+  "ef163308daeaedc9",
+  "eff745321a16724c",
+  "f002ad8323c46709",
+  "f0be55a2aa8be172",
+  "f172b8ef5cc435d4",
+  "f1b000f159e7bb64",
+  "f2640d39aed5db46",
+  "f28205e182aaf418",
+  "f289cb6fb6aae856",
+  "f2b958e02042bccc",
+  "f2bd441c8083f355",
+  "f52d4ac3983c497a",
+  "f54c52490d93a0f1",
+  "f624910b0d2f78f8",
+  "f66a9476b2abcaf4",
+  "f6d12879f0dceb0f",
+  "f7261c930c439ffb",
+  "f747ed97669ff3d1",
+  "f81c097991d0001f",
+  "f940c7418baff4c9",
+  "f9af1652caaf6ff1",
+  "f9af8257854a1704",
+  "fa3c9052783441aa",
+  "fb13eb33d986fe15",
+  "fb1fdfcbe7503046",
+  "fb40052331aeda60",
+  "fbb97f63ca3c4adb",
+  "fc7fa14187e1fd5d",
+  "fd3a3005a81a4cbc",
+  "fd75f14720f965f1",
+  "fdff51803ca6b89f",
+  "feac6f2f6d3c18be",
+  "fed9a4bba4f2bc9e",
+  "ff6b179f20b108de",
+  "ffcaaa7a5623b6a5"
+ ],
+ "findings": [
+  {
+   "id": "F1.1",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "6f4ab6305d025ef9"
+   ],
+   "now": "To make it easier, you can begin with the Quick start section, then learn one of the inductions and the whole return sequence. Then, you can read the Let the next response guide you section, for the part of the practice no recording can decide in advance.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.2",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "741dfc886626db75"
+   ],
+   "now": "Have you ever realized that you were born with an incredible brain/mind that has many layers of consciousness: dream, protect, analyze, imitate, love, remember, hide, show, heal, etc, etc?",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.3",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "c29227919918d0e6"
+   ],
+   "now": "Yet no one taught those layers to talk to each other, instead you were taught (or you figured out) that the way to grow up and be an adult is to push through, repress, suppress, pretend you’re confident, follow authority, go against authority, etc etc etc, and mind you, the deeper mind is still runn",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.4",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "73bde1e9778cde8f"
+   ],
+   "now": "I work with the subconscious as if it were an ecology, and often begin hypnosis working with the Higher Self (universal heart) and only separate into parts when needed.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.5",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "73bde1e9778cde8f"
+   ],
+   "now": "I combine this with inner child reparenting (a clever suggestion won’t heal a hurt young part), and also aspects of prompt engineering, as well as helping people to be literate in the domain of what’s hypnotizing them.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.6",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "87f69c713c3606ee"
+   ],
+   "now": "To work on difficulties or cultivate positive qualities (love, curiosity, play, confidence, etc.), simply do these steps, in order: 1) Attention; 2) Notice; 3) Offer one fitting response; 4) Wait; 5) Come all the way back.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.7",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "6cdf3394f56ea51e"
+   ],
+   "now": "Give yourself a chunk of time when you can be physically secure for the time it takes. Put this screen on the shelf and conduct the practice.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.8",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "b659fed92cf08ae7"
+   ],
+   "now": "You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - as you're invited. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.9",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "cdbe2feedd2d05fb"
+   ],
+   "now": "If at any point you feel panicky, disoriented, more unreal, or less functional, this is not about bravely sticking with difficult feelings (that's another choice, made freely & while staying present). Stop deepening, return to the room & get appropriate support.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.10",
+   "severity": 3,
+   "kind": "garbled",
+   "block_hashes": [
+    "6acde0c709029132"
+   ],
+   "now": "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent. Can people have their minds influenced without conscious agreement of their adult self?",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.11",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "2663babdf6839304"
+   ],
+   "now": "As associated with the Silva Mind Control method:",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.12",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "fed9a4bba4f2bc9e"
+   ],
+   "now": "With self-hypnosis you can do much of the same thing from the inside, by befriending and listening to the deeper part of your mind.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.13",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "06999882fc2fa5a0"
+   ],
+   "now": "DO NOT use Self Hypnosis to help you: force yourself to remember trauma, force yourself to prove trauma through memories, suppress medical symptoms, de-stabilize your self, or NOT seek correct treatment.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.14",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "0ea8414e9ecb9829"
+   ],
+   "now": "The mind of intuition and the mind of rationality can BOTH be there - intuitive signals and testing of those signals without dogma or killing them.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.15",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "b98b08b02e894406"
+   ],
+   "now": "And it’s got to lead somewhere!",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.16",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "edc10d9823ad0777"
+   ],
+   "now": "I found that especially amplified with loveyhuasca.",
+   "same_as_original": true
+  },
+  {
+   "id": "F1.17",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "7672c77b8305ccb4"
+   ],
+   "now": "Normal interaction with people made it wear off, but for a while it showed me that my mind and heart may allow this when the desire is sincere.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.18",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "518fc5603e3a878c"
+   ],
+   "now": "In the same vein, self-hypnosis seemed to extend a short chrunga trip for what felt like a long time, and it feels like if I needed to I could have continued for an arbitrary amount of time. Only because of life did I have to talk to people, etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.19",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "518fc5603e3a878c"
+   ],
+   "now": "Phenomenologically, this is very important. Although I'm not recommending that anyone prolong an altered state forever, because it's better to integrate, etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2a.1",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "134c3377c3d64471"
+   ],
+   "now": "Working with parts: Precision. Working with Higher Self: Coherence. Doing both: Communion.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2a.2",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "cda730ca1e43ccb0"
+   ],
+   "now": "If you need to work with the ecology in the subconscious (child parts, guards, critic, fantasy making parts, body memories, social part, spiritual part (God/source/best benefit of all beings part) wiser part etc etc) then:",
+   "same_as_original": false
+  },
+  {
+   "id": "F2a.3",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "98a910425fd16d2e"
+   ],
+   "now": "It’s usually a good idea to start with unity.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2a.4",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "3f2cb0e4f9da66de"
+   ],
+   "now": "So it’s better to start from the Sacred.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2a.5",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "01f68e93746bd330"
+   ],
+   "now": "So even though it can be useful to talk about your Higher Self, it doesn’t mean you already have all the good inner parenting functions etc that you need.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2a.6",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "863e01fe30d2e51f"
+   ],
+   "now": "If you have a safe adult in your life you can borrow from them, if not borrow from a mentor, older brother/sister, imagine your future self, your god/goddess or higher power, a value you have, a plan you have written, etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2a.7",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "98f12e9afffde0c2"
+   ],
+   "now": "This is a borrowed figure, so you’re still making the choice.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2a.8",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "b39e2607ded0e6d2"
+   ],
+   "now": "If you can’t imagine good, or just imagining a caring grown-up makes you feel more threatened, or lonelier, start smaller, with the least cruel response you can believe.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2a.9",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "b39e2607ded0e6d2"
+   ],
+   "now": "Once you’ve found something good, try it, don’t keep doing the exercise.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2a.10",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "99e7b24527e782e4"
+   ],
+   "now": "In this way, you can access all of the positive aspects of what it can be like to feel younger such as feeling wonder, silliness, approaching things through the senses more, feeling it’s ok to be vulnerable, to let someone take care of you, to feel need, and to want to offload some decision making.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2a.11",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "bfe203e6192d2950"
+   ],
+   "now": "This way you get the benefits of being young: curiosity, spontaneity, play, sensation, the ability to state your needs, to feel easily etc without any of the negatives of being a child, like obeying, being helpless, being scolded, the lack of good judgement etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2b.1",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "20211fa928391c57"
+   ],
+   "now": "It is possible for trust to question your promises, remember when you failed to protect them, and take its time.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2b.2",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "06c01d133a824f1d"
+   ],
+   "now": "You don't have to accept every conclusion they reach about you, but do listen for the concrete complaint without fighting the yelling and swearing around it, because even if they are coming from a place that is not completely \"right,\" there will likely be something true in what they are saying.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2b.3",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "06c01d133a824f1d"
+   ],
+   "now": "Finding other ways to show your love for them (this might include taking care of them, such as by buying and cooking food for them, setting limits for them, taking them to the doctor when they need it, and doing what you said you would do).",
+   "same_as_original": false
+  },
+  {
+   "id": "F2b.4",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "06c01d133a824f1d"
+   ],
+   "now": "Just not hitting back is enough to start being the adult, even if it isn't enough yet for them to trust you. That takes warmth, and if there isn't any yet, borrow some.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2b.5",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "63f04250747bb2b7"
+   ],
+   "now": "Their age might not be your chronological age.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2b.6",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "5265dd50526348ad"
+   ],
+   "now": "Just place one hand in the center of your chest which is physically connecting you to your love and then place your other hand just below that which is your solar plexus and where your child can be.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2b.7",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "89b51cf5dee37d39"
+   ],
+   "now": "If some comes back up, let it, and send it on down again, so it goes around like a loop. That part's a gift from them, and they don't owe it to you, so if nothing comes back, just keep sending yours.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2b.8",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "89b51cf5dee37d39"
+   ],
+   "now": "This is a conversation with your child from your heart.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2b.9",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "8be3d6d98e794560"
+   ],
+   "now": "You don't have to move their feelings, just sit back and enjoy them.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2b.10",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "7ed3cfb544bc4de6"
+   ],
+   "now": "As the Protector, work with setting boundaries together.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2b.11",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "7ed3cfb544bc4de6"
+   ],
+   "now": "It can be trust-related boundaries like, \"I'm going to keep the promise to myself\" or \"I'm not going to leave you to do adult things by yourself.\"",
+   "same_as_original": false
+  },
+  {
+   "id": "F2b.12",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "4c9cf8a7a420e7ad"
+   ],
+   "now": "A lot of times, inner child work doesn't work because people are doing all the fluffy stuff but then they go and text the person who is destabilizing them, or they don't eat, or they don't do whatever it is they're supposed to be doing.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2b.13",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "9ac34357f5da77dd"
+   ],
+   "now": "Make sure they're small enough that you can actually do them.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2b.14",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "9ac34357f5da77dd"
+   ],
+   "now": "Don't make it so that doing it successfully means you have to feel good about it, or be able to check it off a list.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3a.1",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "61394f828a7c5a95"
+   ],
+   "now": "Even if you start with protection and can’t do the warmth stuff yet, make sure the direction you’re being led in is appropriate for your inner child’s growth (i.e. not depriving them of things they need, like play or support, etc.)",
+   "same_as_original": false
+  },
+  {
+   "id": "F3a.2",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "1b982f37a0db64f4"
+   ],
+   "now": "Often, we see a sensation or a distraction or an objection as something that needs to be explored, when in fact it might just be hunger, or reasonable skepticism about something, or a sentence that doesn’t fit.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3a.3",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "a0273016a479d4a4"
+   ],
+   "now": "Often they are you experiencing a very charming guard.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3a.4",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "9b442c412da9c4aa"
+   ],
+   "now": "Tell them that it makes sense that they want to protect you and that they don’t have to stop protecting you, but that you want to know what could make them trust you 1% more that you can do that.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3a.5",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "9b442c412da9c4aa"
+   ],
+   "now": "If it says no, I’d listen, and if it says no to going deeper in this work or to an altered state, I’d stop there and not test it, even when it sounds like a prediction.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3a.6",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "de7a709a0fffeb5d"
+   ],
+   "now": "Most of the time the guard wants you to do certain things, set boundaries, do whatever you are supposed to do, eat, not text someone, keep a promise, go to sleep, talk to the therapist, admit that you owe someone money, write something down, etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3a.7",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "b71b89966e22065d"
+   ],
+   "now": "Do you want to embody your Protector? Then you could practice this:",
+   "same_as_original": false
+  },
+  {
+   "id": "F3a.8",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "c383994d397c9d8d"
+   ],
+   "now": "set boundaries (start with one and make it relative to the danger; move, stop, delay, ask, leave, get support, etc.)",
+   "same_as_original": false
+  },
+  {
+   "id": "F3a.9",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "98b5b438b85e34ce"
+   ],
+   "now": "verify if it is safe enough",
+   "same_as_original": false
+  },
+  {
+   "id": "F3a.10",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "f54c52490d93a0f1"
+   ],
+   "now": "Just tell you what they need to not be alone anymore.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3a.11",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "4a7298c456c24d2d"
+   ],
+   "now": "What does the child need? warmth, to play, to be protected, to mourn, to be angry, food, rest, boundaries, better relationships, to stop fantasizing, to stop working their butt off, that you keep a promise to them for one day, etc. etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3a.12",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "908886876b46923b"
+   ],
+   "now": "Give them what you can- don't feel like you have to fix it all.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3a.13",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "7586958e7ffebb3b"
+   ],
+   "now": "Give yourself some time to let what you did sink in- it may take some time, it may take you to go to sleep, etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3a.14",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "8044d83589f5df52"
+   ],
+   "now": "Rest, and reconnect with them later to see what was helpful.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3a.15",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "d07439823dbd7de8"
+   ],
+   "now": "Remember the goal isn't to make yourself good as new but to make yourself good as you- more supported and connected to yourself.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3a.16",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "d07439823dbd7de8"
+   ],
+   "now": "If you don't like the idea of part work or it makes you feel more divided, you can substitute whatever part you're working with for a signal or a feeling, or an imaginary younger you that you feel embodies the issue you're having.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3b.1",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "40ac3a7c36b0b69b"
+   ],
+   "now": "Whether that means touching things of different textures, drawing, exercising, roleplaying with a plushie in a different voice, etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3b.2",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "384ff655a98dd30e"
+   ],
+   "now": "Now, before you get to resting, it’s okay to limit the amount of decisions you are going to be making for a certain amount of time, it’s okay to put the things you might not get to on a list and it’s okay to let your inner adult keep watch for a while.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3b.3",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "f52d4ac3983c497a"
+   ],
+   "now": "Tell your child/ guard to write with your nondominant hand, and talk to them with your dominant.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3b.4",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "f52d4ac3983c497a"
+   ],
+   "now": "So for example, they might say \"I don't trust you\" with your nondominant hand, and you can say with your dominant hand \"I know you don't trust me right now but I love you and I want to know how I've fucked up. I don't expect you to trust me but I want to hear you out and give you a promise I can kee",
+   "same_as_original": false
+  },
+  {
+   "id": "F3b.5",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "7d530ca132d8f033"
+   ],
+   "now": "So you can do reparenting and finding yourself in parallel. For others, it is very easy to work with the inner child, they can feel it easily.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3b.6",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "85bf79986ccb51e4"
+   ],
+   "now": "You are in the first camp if:",
+   "same_as_original": false
+  },
+  {
+   "id": "F3b.7",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "22fe9d50d94ebe7d"
+   ],
+   "now": "One way of explaining this is that in your childhood you didn’t spend enough attention in finding out what you like and what you want to try out and who you are when nobody is grading you. You were too busy avoiding pain, reading what was dangerous and what you had to do to stay in a good bond, etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3b.8",
+   "severity": 3,
+   "kind": "lost",
+   "block_hashes": [
+    "3eddf9ad9a92165f"
+   ],
+   "now": "Some people come back later on different terms, and sometimes the break has to be long-term because the pattern of losing yourself with them is deeply entrenched.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3b.9",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "3eddf9ad9a92165f"
+   ],
+   "now": "As you differentiate, you learn to tell which of those apply.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3b.10",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "5b38db149741b0be"
+   ],
+   "now": "Because often your inherited parent script tells your inner child that it is supposed to be good at something as soon as it starts doing it, which is humiliating.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4a.1",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "4b2cac0d84fe980f"
+   ],
+   "now": "But there are also the older, more mundane influences: erotic imprinting (as if breast implants are actually sexy), religious fear, which tags along with shame, charismatic authority and pressure to belong.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4a.2",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "f81c097991d0001f"
+   ],
+   "now": "You will soon realize that I am right …. Or you may, in time, decide to admit that …. Or the only reason you do not agree is …. Or part of you already knows …. Or your higher self wants …. Or everyone who is awake knows …. Or the reason you do not believe that is true is because your ego does not wa",
+   "same_as_original": false
+  },
+  {
+   "id": "F4a.3",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "03de0c90cb1959a6"
+   ],
+   "now": "This is a good guide to help engage your adult in the conversation. The more powerful the state the more you will need to make use of these.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4a.4",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "fa3c9052783441aa"
+   ],
+   "now": "Be aware that even when using permissive language, you can still take away choice.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4a.5",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "e98cbd93e30f0b09"
+   ],
+   "now": "3) Including phrases such as whether or not you notice etc etc",
+   "same_as_original": false
+  },
+  {
+   "id": "F4a.6",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "9a4ddb1d71bd352e"
+   ],
+   "now": "If on the other hand, you're already pretty trancey for whatever reason, skip straight to \"Already open? Contain before you deepen\" rather than going deeper.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4a.7",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "ba09e81d9a11cb80"
+   ],
+   "now": "Test: Are you getting the response you want out of this already? If so, you might not need to deepen.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4b.1",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "4c8af2062ca0c43f"
+   ],
+   "now": "One thing you're doing, one anchor/image you're going with at first, one way of coming back, and feel free to set a tone (warm, bounded, directed, neutral witnessing, whatever) for yourself.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4b.2",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "4c8af2062ca0c43f"
+   ],
+   "now": "If you're going to use metaphors just do one, and if you switch metaphors, do it in a way that's conscious.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4b.3",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "c72facf9c80f9d0a"
+   ],
+   "now": "You can use whatever form of signal makes sense to you (feelings, rhythms, movements, words, spatial, simple knowing, lack of signal, whatever) but if you're using words, try to keep them related to whatever world you're creating.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4b.4",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "c72facf9c80f9d0a"
+   ],
+   "now": "(You can borrow qualities, but don't change who you are.)",
+   "same_as_original": false
+  },
+  {
+   "id": "F4b.5",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "4898cb8e5b09ea96"
+   ],
+   "now": "When you're writing this, think about what the verb you're using is, what the sensory quality is, what the short refrain is, and how you're going to transition between ideas. Read it out loud as you're writing it.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4b.6",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "689629e49160f57d"
+   ],
+   "now": "Get clear on what it is you want to do during the induction. What do you want not to do today?",
+   "same_as_original": false
+  },
+  {
+   "id": "F4b.7",
+   "severity": 2,
+   "kind": "garbled",
+   "block_hashes": [
+    "8781e222ce8cbef7"
+   ],
+   "now": "Deciding to do it. How will you coax yourself to do this? Make it spacious? Make it warm and held? Something else?",
+   "same_as_original": false
+  },
+  {
+   "id": "F4b.8",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "8781e222ce8cbef7"
+   ],
+   "now": "If you are going to use a recording, read the script if you can.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4b.9",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "d720d913cfe028e2"
+   ],
+   "now": "You don't have to watch yourself all the time, but for the first time, make sure you can change state.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4b.10",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "a5ceb8a37036a2f7"
+   ],
+   "now": "Utilize. Use what you have to go to the next place, whatever it is.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4b.11",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "a5ceb8a37036a2f7"
+   ],
+   "now": "Learn how to notice if there is no change, and that no change is not a positive change.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4b.12",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "a5ceb8a37036a2f7"
+   ],
+   "now": "For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4b.13",
+   "severity": 2,
+   "kind": "garbled",
+   "block_hashes": [
+    "3b600e9b86f2e08d"
+   ],
+   "now": "You can read this slowly to yourself on your recorder, you can read it out loud or say it to yourself if you are good at that.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4b.14",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "3b600e9b86f2e08d"
+   ],
+   "now": "Choose a sound, or a contact, or the two hands thing (below) or something to anchor yourself, and choose the thing you will say to open it up.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4b.15",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "b8b49de30de23c47"
+   ],
+   "now": "You can allow your eyes to rest on something in the room for a bit, and let what's already there come into view.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4b.16",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "0db58eff51715d03"
+   ],
+   "now": "Or maybe there is a sound, or something else to notice.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4b.17",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "a29dec86e4131676"
+   ],
+   "now": "You might notice something that you are doing that holds your interest, something about the sound, or sensation, or listening or something else.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4b.18",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "3d2b4a3ffeb90f48"
+   ],
+   "now": "Let your attention come back to your chosen anchor. 4. Let more of your attention come to what you've found. 3. Leave a little space. 2. See if you can listen to a space after the words without preparing an answer. 1. Take your time.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4b.19",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "8e7555f3a86daad3"
+   ],
+   "now": "Know that you're already open, you just need to aim and stabilize it, and keep it kind.",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.1",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "26986efc5569a458"
+   ],
+   "now": "Ask yourself why you're daydreaming. Is it to get guidance, or because you're working through something, or are you avoiding something?",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.2",
+   "severity": 3,
+   "kind": "garbled",
+   "block_hashes": [
+    "2c235712d9db40a1"
+   ],
+   "now": "As you move one of your hands, you're going to move deliberately, and as soon as you stop moving deliberately, you'll focus on what you've got.",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.3",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "2c66d018e5faf6a8"
+   ],
+   "now": "Sending my love down to my Child. If some comes back up, I let it, and send it on down again. If nothing comes back, I just keep sending mine.",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.4",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "0e925f2549ff8fd5"
+   ],
+   "now": "At some point in time you can add this, but you must say you are doing it before doing it.",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.5",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "ec1b88022806bed1"
+   ],
+   "now": "As you wait and release the responsibility of making it happen",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.6",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "c335b29e1b14ce32"
+   ],
+   "now": "Once you have learned the above induction and how to come back down at the end, you can do the following….",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.7",
+   "severity": 2,
+   "kind": "garbled",
+   "block_hashes": [
+    "810edb13f57ee15f"
+   ],
+   "now": "Say the word and/ or do the phrase while doing the motion (if applicable).",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.8",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "6ab5ab6326125775"
+   ],
+   "now": "When you pick the time and place (it needs to be an appropriate time and place), say the word and/ or do the phrase to begin going into this state that you picked, and are familiar with. It's fine to change the direction you are going in, or stop this at any point.",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.9",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "bf786006a7612665"
+   ],
+   "now": "Don't use this to go into hypnosis faster for things that you shouldn't be working on yet.",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.10",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "cfd56e76d058cc43"
+   ],
+   "now": "For now, though, once you come out of this trance, it'll be over for today.",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.11",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "b2214f953de7cfe6"
+   ],
+   "now": "All the instructions you have given me to carry me deeper into this session or keep me in this state are now finished.",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.12",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "e500d4232107af91"
+   ],
+   "now": "I invoke my Higher Self, universal heart-mind, wise subconscious mind, intelligence in my body, inner child(ren), inner adult(s), guard(s) and all that is of truth and love to help me know what I need to know, only in a form and at a time that will be useful, kind, stabilizing and real for me.",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.13",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "d701eb1bd47c6555"
+   ],
+   "now": "Read through these sections, and then try doing the inner meeting without looking at the screen.",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.14",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "9bc9e61592bb9b99"
+   ],
+   "now": "The notice and invitation don't need to take all those forms, just notice and invite what happens.",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.15",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "cac0294ea262189d"
+   ],
+   "now": "You can be pretty straightforward when that's the help you chose - \"Let the explanation wait a moment. What do I feel as I say that?\" can be a perfectly valid thing to say to yourself, and help you focus. As long as you're still present, and able to change if you want to, and happy to carry on, a sa",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.16",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "a0142cfdbc7ef3e4"
+   ],
+   "now": "It's also ok to use phrases that you didn't think in your head - if something comes up that you're analyzing, it's still good to analyze, even if it's not in your head already.",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.17",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "a0142cfdbc7ef3e4"
+   ],
+   "now": "Nonverbal thoughts and early thoughts aren't necessarily any better or worse than other thoughts.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.1",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "a94f17fe3e8e2439"
+   ],
+   "now": "Your shoulders tightening, or 'hmm, that feels kind of wrong', is a signal to investigate further, but 'No! That is Not Right!' is a signal to stop what you're doing and change it.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.2",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "a94f17fe3e8e2439"
+   ],
+   "now": "If you don't feel like it fits, don't keep doing it. Just change it. You don't need any other reason.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.3",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "eed2591eeed84571"
+   ],
+   "now": "Sometimes it just isn't right - sometimes it's something you hadn't thought of.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.4",
+   "severity": 3,
+   "kind": "unclear",
+   "block_hashes": [
+    "eed2591eeed84571"
+   ],
+   "now": "Neither is automatically a guard, and just being silent doesn't mean there's a process.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.5",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "b4f1ff6380772429"
+   ],
+   "now": "If there is another person involved in the situation, it may be a good idea to look at what they are doing as well.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.6",
+   "severity": 2,
+   "kind": "vaguer",
+   "block_hashes": [
+    "b4f1ff6380772429"
+   ],
+   "now": "Are they able to communicate in a mature fashion?",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.7",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "b4f1ff6380772429"
+   ],
+   "now": "You don’t need to subject yourself to something that may be dangerous to determine if this is the case.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.8",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "515644aed20f2b69"
+   ],
+   "now": "On the other hand, you may find that you have acted inappropriately and you feel guilty. Having feelings of guilt does not mean that you have done something wrong or that you have been manipulated.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.9",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "515644aed20f2b69"
+   ],
+   "now": "On the other hand, did you give in to someone else just to keep them from being disappointed in you?",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.10",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "515644aed20f2b69"
+   ],
+   "now": "What do you want to do or achieve the next time you interact with this person?",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.11",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "515644aed20f2b69"
+   ],
+   "now": "Do you need to end the interaction prematurely?",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.12",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "4977a0a3e139635f"
+   ],
+   "now": "Keep moving back and forth between the difficult thing and the easier thing. This is called pendulation and titration.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.13",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "a06d225894b64dc5"
+   ],
+   "now": "Ok, I think that is enough for now.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.14",
+   "severity": 2,
+   "kind": "garbled",
+   "block_hashes": [
+    "6d94ff0df5e39240"
+   ],
+   "now": "If you have trouble orienting yourself and it lasts for a prolonged period of time, please get some human help rather than trying a stronger induction back to the here and now.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.15",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "4e6ad96e84bec332"
+   ],
+   "now": "If you feel an urge to move, turn, reach, push, or change your body’s position, feel free to either actually do something that will not cause your body pain or discomfort, or just imagine doing what you feel you need to do, and see what happens next.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.16",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "4e6ad96e84bec332"
+   ],
+   "now": "You do not need to act out the urge, feel that you need to move, shake, release, etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.17",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "26c9c2e6de73de5a"
+   ],
+   "now": "If you feel that it would be useful to bring in your Nurturer, Protector or Guide to help you either change the tone of the interaction, set boundaries, or find your way toward the life you want, feel free to do so.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.18",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "26c9c2e6de73de5a"
+   ],
+   "now": "You don’t have to talk to them, just use the one whose job you need, and if you can’t do it yet, borrow it.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.19",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "141f5871e3d133fd"
+   ],
+   "now": "Try some different ideas as to what might be helpful for this inner part to feel better (being welcomed by you, visualizing someone else, giving them the sort of words they would like to hear, you placing yourself in a different body position, you moving further away etc).",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.20",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "141f5871e3d133fd"
+   ],
+   "now": "Only try one idea at a time to see if it works.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.21",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "ee2aecd69f8bc8c6"
+   ],
+   "now": "If this happens, allow yourself to respond for as long as you want to do so, and for as long as you can stay there (ie remain in the process).",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.22",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "2b8941fa60a26a87"
+   ],
+   "now": "Allow yourself to see where the metaphor takes you.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.23",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "4f59cd85d04a948d"
+   ],
+   "now": "Alternatively, you may want to use the session to develop a capacity that you want to develop (ie love, play, courage, curiosity etc). You can also use it to rehearse something that you have decided to do.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.24",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "0c24c6ac0e611704"
+   ],
+   "now": "Ending the session.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.25",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "0c24c6ac0e611704"
+   ],
+   "now": "When you have done as much as you want to do, it is a good idea to find out if there is anything that you need to do to make sure that you can leave things where they are for the time being.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.26",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "54d44f488dee8178"
+   ],
+   "now": "Just jot down the essentials (what was there before you started, what you have done to change things, what you are unsure about, any phrases that were said, any body signals, any information that the inner child said that it needed, anything that a guard wanted you to know, any boundaries that you p",
+   "same_as_original": false
+  },
+  {
+   "id": "F6a.27",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "d899f55a3967b144"
+   ],
+   "now": "If it says no to going deeper, or tells you to stop doing the exercise, I’d stop there and not test it, even when it sounds like a prediction.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6b.1",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "8f3bbbdcb14df71e"
+   ],
+   "now": "Notice there is no need to learn a second script! The process is the same.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6b.2",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "8f3bbbdcb14df71e"
+   ],
+   "now": "You are simply practicing for fifteen minutes or so.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6b.3",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "f172b8ef5cc435d4"
+   ],
+   "now": "You can also try other ways of inducing yourself such as becoming aware of 3 things you can see, 3 things you can hear, 3 things you can feel in your body; then 2 of each, 1 of each, counting from 5 to 1 and beginning to listen.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6b.4",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "619071d23762efa9"
+   ],
+   "now": "Once you have practiced listening a few times with the recordings, you may want to shorten them to speed up your induction, or even practice without playing them back at all.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6b.5",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "619071d23762efa9"
+   ],
+   "now": "On the other hand, if you like using the recordings, there is no reason to stop!",
+   "same_as_original": false
+  },
+  {
+   "id": "F6b.6",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "437f0f1e816364df"
+   ],
+   "now": "As you come out of the process ask yourself what you learned needed warmth, what needed to be protected, what you need to do differently to be more in accord with truth and love and life.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6b.7",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "437f0f1e816364df"
+   ],
+   "now": "And most importantly, what can you carry with you as you move forward from this?",
+   "same_as_original": false
+  },
+  {
+   "id": "F6b.8",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "118595bfaec5e881"
+   ],
+   "now": "It’s good to give this more time once or twice a week, when that’s useful.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6b.9",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "118595bfaec5e881"
+   ],
+   "now": "It’s also good to bring in some adult function to make sure nothing is being bypassed and so that at the end of the exercise, when the experience is over, there is the possibility of coming out completely and doing whatever normal thing needs doing.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6b.10",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "aedb64b2cbc0f45f"
+   ],
+   "now": "If possible, it’s good to do the normal thing immediately after the exercise, so that the subconscious sees that the adult heard and acted. Otherwise, the dishes won’t get done.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6b.11",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "a6f886d3389fafbb"
+   ],
+   "now": "NOTE: If it is medically unsafe or you are in a place of panic, sleep deprivation, nausea, deep destabilization, mania, psychosis-like symptoms, feeling overwhelmed by chemicals etc. then first focus on stabilizing and then look for what your subconscious needs you to know!",
+   "same_as_original": false
+  },
+  {
+   "id": "F6b.12",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "383b3c6fd7ecdac3"
+   ],
+   "now": "When you are flooded, it is much harder to access your adult capacities so focus on being able to regulate and getting support!",
+   "same_as_original": false
+  },
+  {
+   "id": "F6b.13",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "51795f7f6a3bd74c"
+   ],
+   "now": "The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc. So, treat it like an image and get some help outside of yourself!",
+   "same_as_original": false
+  },
+  {
+   "id": "F6b.14",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "828e0aa0e2265163"
+   ],
+   "now": "If it feels like you are being asked to do something you don't want to do then correct this.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6b.15",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "869886994dd4d8bf"
+   ],
+   "now": "If it says yes, that one can sting, because there could be something to it.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6b.16",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "d3069776b9f26ab0"
+   ],
+   "now": "Find out what rule it is enforcing. Comfort your little one before you answer any of it. Your answers can be firm or funny, as long as they aren’t mean.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.1",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "c0c82f99f0681666"
+   ],
+   "now": "Some examples of answers might be “I need to know you will set boundaries” “I need to know you will do what you said you will do” “I need to know you won’t keep leaving” “I need to know you won’t think that knowing something means that you don’t need to do anything about it” etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.2",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "66443aa5cb62361e"
+   ],
+   "now": "You can say to the guard “You don’t have to let me in, just tell me what I need to do to make it safe”.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.3",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "66443aa5cb62361e"
+   ],
+   "now": "You can work on your preferences or something that you’re curious about or something that you’re willing to try as a beginner etc. and see how it goes.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.4",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "66443aa5cb62361e"
+   ],
+   "now": "Work on developing a sense of who you are and reparent yourself as best you can.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.5",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "d4d857265cbca11f"
+   ],
+   "now": "Open your eyes, move around, feel something textured, name 5 things that you can see, and end your work for the day.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.6",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "12fd2292e6745d2a"
+   ],
+   "now": "What do you say to yourself in that moment? “If it’s really there, it’ll still be here after a good night’s sleep, some food, some time, etc, and some subsequent humility, feedback, etc, etc.”",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.7",
+   "severity": 2,
+   "kind": "vaguer",
+   "block_hashes": [
+    "5b96d181b1dfd127"
+   ],
+   "now": "You’re being too analytical. “What if you didn’t try to improve it?”",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.8",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "5b96d181b1dfd127"
+   ],
+   "now": "Maybe it’s silence, resting, or doing something. Whatever it is, just do it.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.9",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "2fb4edb95dc04c80"
+   ],
+   "now": "“What’s the smallest, most specific thing you can do to demonstrate the love you’re feeling?”",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.10",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "a9ab378b6ee14234"
+   ],
+   "now": "Maybe when you prayed it seemed like you were being abandoned and condemned. Maybe you felt betrayed by a spiritual teacher. It may be worth exploring these, but you might not want to do more of the same.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.11",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "bbc77794d25c1d29"
+   ],
+   "now": "You don’t have to do any certain thing before you start your life.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.12",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "def6a3b0283280ca"
+   ],
+   "now": "What would the Guide choose to do now?",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.13",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "0f78a4465b7f88a0"
+   ],
+   "now": "DO NOT: View your inner experiences as anything but internal happenings that need to be reality tested at all times.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.14",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "d862f3a565ac1065"
+   ],
+   "now": "DO NOT: “Extend” the duration of altered states indefinitely.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.15",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "8f81bd3352379c08"
+   ],
+   "now": "DO NOT: Allow various internal roles to get out of proportion (e.g., allow the Inner Child to run your adult life, the Protector to shut out all love, the Nurturer to disregard consequences, the Guide to ignore the needs of the Child). You are capable of analysis, as well as tenderness.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.16",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "1e42bd2a0a6eb440"
+   ],
+   "now": "Nor should you allow anyone to activate these commands in you without your knowledge, or use them to make you do something you don’t want to do, to make you into someone you don’t want to be, to give you amnesia, etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.17",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "fb1fdfcbe7503046"
+   ],
+   "now": "You should also seek professional help promptly if you are experiencing new or worsening suicidal thoughts, severe insomnia, new or worsening manic or psychotic symptoms, or if dissociative symptoms are impacting your ability to function.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.18",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "0b9ace349fabb85f"
+   ],
+   "now": "You probably don't need any more support than this if you keep the practice shorter, make it warm, pick a small and tractable subject, make sure you come back out, and then see how it affects a specific target (anxiety, daydreaming, helping a relationship, facing a task you've been avoiding, helping",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.19",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "54949d682ab06b22"
+   ],
+   "now": "If you want to deliberately do trauma-focused regression (going backwards in your memory or imagination to times when you were younger), or affect and somatic bridging (following associations from an emotional or somatic experience to find the origin of that experience, particularly if it was a trau",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.20",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "54949d682ab06b22"
+   ],
+   "now": "Ask any potential person what they would do and how they deal with uncertainty and unexpected reactions.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.21",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "f940c7418baff4c9"
+   ],
+   "now": "Start from the basis that the subconscious, the body, the sharp mind, and the guy who’s tensed up and ready for the other shoe to drop for a long time are all not your enemies.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.22",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "f940c7418baff4c9"
+   ],
+   "now": "Most of them are actually trying to help you.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.23",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "61f376e4e913b75b"
+   ],
+   "now": "You can download Inner Signal App for voice hypnosis, information, to learn the language, and for feedback on what you report.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.24",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "61f376e4e913b75b"
+   ],
+   "now": "You may want to find someone, but it is not required to graduate.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8a.1",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "1feaf3a4edb8127f"
+   ],
+   "now": "However, there is a bit of overlap in the way you can ask questions to both. So, if you know how to do prompt engineering for AI, this can be very useful to help you be more present, honest, loving etc. On the other hand, you should NEVER use it to be more controlling.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8a.2",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "dffb7f2107b9985c"
+   ],
+   "now": "Constraint: What do you need to do to make sure your asking is safe, true, kind etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8a.3",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "1ea3db87bb0b4e09"
+   ],
+   "now": "Most importantly, you always need to make your prompt safe, otherwise the analytical part of your mind will make up an answer just so it fits with your prompt.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8a.4",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "0d4317ab66644ff1"
+   ],
+   "now": "A peaceful silence would be a successful answer to my question.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8a.5",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "938d449729878769"
+   ],
+   "now": "I ask my wise subconscious mind to help me see if the intuition or impulse I have about …is coming from my universal heart or from my family, my religion, marketing, erotic programming, my political tribe, my trauma response or an old deal I did as a child to belong.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8a.6",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "938d449729878769"
+   ],
+   "now": "Let my body give me feedback as to the difference.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8a.7",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "600bfb53ee9d423a"
+   ],
+   "now": "You do not need to know this stuff to do it but if you want to freshen up on your skills in the art of working with imagery, body states, behavioral rehearsal, talking to yourself in effective sentences etc then it might be useful, when it helps the system listen.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8a.8",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "a231fceb06be6b33"
+   ],
+   "now": "Strategy level of NLP: practising a better response.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8a.9",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "a290d35d8fdd0e56"
+   ],
+   "now": "To do this we are going to use a model that’s called the Milton model.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8a.10",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "e22704110d7db0d3"
+   ],
+   "now": "We paced it; we opened up awareness; we validated the reason for the reaction; we presumed we could do it; we used a bridge word to make it easier and we invited one thing.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8a.11",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "d2597335458972da"
+   ],
+   "now": "Presumption is a powerful thing, so please don’t use it except to presume that we will have the choice of when it will happen, that we will be able to do it, that we are safe, that we are loved and that our adult can lead us.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8a.12",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "11cfd9550414ad60"
+   ],
+   "now": "However, even if you say them in a lovely gentle voice it doesn’t mean that it’s true if it isn’t! It’s not very likely that just by breathing in and out that your trauma is going to go away!",
+   "same_as_original": false
+  },
+  {
+   "id": "F8a.13",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "99ab960135edc266"
+   ],
+   "now": "ie. \"And I can allow myself to experience...\"",
+   "same_as_original": false
+  },
+  {
+   "id": "F8a.14",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "25e358c82b7f52aa"
+   ],
+   "now": "Or, something similar that you might use when working with inner child type of parts.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8b.1",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "4e90372c50b85e2f"
+   ],
+   "now": "How is this represented for you? Can you allow yourself to move that image back a couple of feet? Can you soften the edges of that image? Can you turn the volume down on that voice in your head? Etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8b.2",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "d22f5e399ac447b4"
+   ],
+   "now": "And I can allow myself to know that I am not deleting the message, just turning down the volume so that I am able to be present enough to hear what it is.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8b.3",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "641289e7be166404"
+   ],
+   "now": "There are many ways to do this. Put your hand on your heart, touch two fingers together, use a breath, a word, a particular body posture, smell, song, whatever.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8b.4",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "641289e7be166404"
+   ],
+   "now": "Feel a state that you have got to in reality that you want to be able to get to easily when you need to. Do your anchor thing and say to yourself that this is available to you. Do make sure you do it when you have clearly got it.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8b.5",
+   "severity": 2,
+   "kind": "vaguer",
+   "block_hashes": [
+    "641289e7be166404"
+   ],
+   "now": "To get yourself back into a good hypnosis state easily, don’t go for a peak state but for a good hypnotic state.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8b.6",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "e50c0f96f8473f40"
+   ],
+   "now": "Using synchronicity (The synchronicity wake up cue)",
+   "same_as_original": false
+  },
+  {
+   "id": "F8b.7",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "89865737f1e6b119"
+   ],
+   "now": "People often ask what the synchronicity means. Sometimes they get a great insight from it, but other times they get obsessed trying to work out patterns etc. I am using the noticing of the synchronicity to WAKE UP.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8b.8",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "1b922875565cf088"
+   ],
+   "now": "From that state I feel my feelings. If I am in a negative state, I check if it is a message from my Inner Child or from a childhood guard part, or if I just need to grieve.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8b.9",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "ddee0d22e7e28e23"
+   ],
+   "now": "Ask yourself: \"What does my Nurturer think about this?\", \"What does my Protector think about this?\", \"What does my Guide think about this?\"",
+   "same_as_original": false
+  },
+  {
+   "id": "F8b.10",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "19cff7cc822e64ef"
+   ],
+   "now": "These cues do not authorize you to make a decision. They do not stop you from hearing the message of your intuition if it is warning you about something.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8b.11",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "b958676373c96a17"
+   ],
+   "now": "This is very similar to implementation intention. I'm not aware of research into implementation intention for this specific thing, but the general mechanisms appear to work; Gollwitzer’s paper explains how and why they work.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8b.12",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "7b76704046f484c4"
+   ],
+   "now": "You can do that by not rehearsing them anymore and by saying to yourself (when you are fully awake) that you don't want to use synchronicity as a cue anymore (e.g. \"From now on, I am no longer going to use noticing synchronicity as a cue for waking up. I let go of this association, coincidences can ",
+   "same_as_original": false
+  },
+  {
+   "id": "F8b.13",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "f2640d39aed5db46"
+   ],
+   "now": "Instead ask yourself: What else might be true? or What is this part trying to do for me? or How might my Nurturer reframe this? or How might my Protector reframe this? or How might my Guide reframe this? etc., etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8b.14",
+   "severity": 2,
+   "kind": "vaguer",
+   "block_hashes": [
+    "3c1c7f19e89b7f18"
+   ],
+   "now": "Perceptual Positions: 1) seeing from Self, 2) then seeing from Other, 3) then seeing from Witness, and 4) then seeing from Universal Heart. I do this to see the situation with more accuracy.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8b.15",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "2c608081f354a557",
+    "81eb317d6c3b4522",
+    "239bbcf442711efc"
+   ],
+   "now": "Future Pacing: 1) Once I have seen the situation more clearly, I will imagine future scenarios where my old behavior would have triggered, to test out if my new insight is working. If these scenarios come up, I will choose new small behaviors using an Implementation Intention (If...then... statement",
+   "same_as_original": false
+  },
+  {
+   "id": "F8b.16",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "2ad1199984231902"
+   ],
+   "now": "Swish Variation: 2) I use an NLP technique called a \"Swish Pattern\" (it swaps a picture of an old reaction for a picture of a new one), but I will allow my old pattern to be there, while also holding my new pattern in my awareness. I feel what comes up somatically, and compare the differences betwee",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.1",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "32f4c48846681aba"
+   ],
+   "now": "I do not deny people's legitimate signals.",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.2",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "359b17aa123b62be"
+   ],
+   "now": "I do not use NLP to manipulate other people or convince myself of my intuition.",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.3",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "71aed6064c624522"
+   ],
+   "now": "I do not use NLP on people who are panicked, destabilized, manic, having a psychosis-like state, or are too high/dissociated to reality test.",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.4",
+   "severity": 3,
+   "kind": "lost",
+   "block_hashes": [
+    "8d082a280106241f"
+   ],
+   "now": "I do not use NLP with people when there isn't enough time.",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.5",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "953ab7a9843848a1"
+   ],
+   "now": "Ask for their permission.",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.6",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "564bb625de853904"
+   ],
+   "now": "Put 3 good adults in with the person (Nurturer to warm, Protector to make it safe, and Guide to point a direction).",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.7",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "0c2a21f9620749eb"
+   ],
+   "now": "Have them check in with their body for changes and look for evidence to support their new interpretation of the situation.",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.8",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "8cbc8bb8fe054bef"
+   ],
+   "now": "Get the person out of the altered state (bring them back to the room and have them do something).",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.9",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "7d7a2257b55896dd"
+   ],
+   "now": "What would this thing influence me to believe that isn’t true in order to get what it wants from me?",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.10",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "7d7a2257b55896dd"
+   ],
+   "now": "What is my body telling me to do about this (how does my body feel)?",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.11",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "7d7a2257b55896dd"
+   ],
+   "now": "What would life have me do here?",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.12",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "4fd381789e77d307"
+   ],
+   "now": "If what you’re investigating is true, it can take your questioning (as the police like to say).",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.13",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "4102a1fb0250dea6"
+   ],
+   "now": "Before you do what it wants you to do, see if it does any of the following: create a sense of urgency, secrecy, shame, threat of exclusion if you don’t do what it says, specialness, sexual charge, spiritual superiority, ask you for money, ask you for sex, ask you for loyalty, ask you to be quiet, as",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.14",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "4102a1fb0250dea6"
+   ],
+   "now": "ask you for money, ask you for sex, ask you for loyalty, ask you to be quiet, ask you to obey it",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.15",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "4102a1fb0250dea6"
+   ],
+   "now": "try to seduce/scare/rescue your child",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.16",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "36818cb2f5558a81"
+   ],
+   "now": "Remember that often the anxiety comes from a childhood guard part of you. It’s what protects you when your consciously installed parental Protector isn’t functioning, the same as in childhood.",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.17",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "36818cb2f5558a81"
+   ],
+   "now": "It’s trying to help, making a guess about what’s coming: that you are in danger, or may be shamed, or abandoned, or fail, or be exposed, or be sick, or be rejected, or lose control, or whatever.",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.18",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "36818cb2f5558a81"
+   ],
+   "now": "Therefore, instead of interrogating that part, start with yourself:",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.19",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "0d3bb135beb11648"
+   ],
+   "now": "In somatic experiencing (SE), you are not thrusting into the trauma.",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.20",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "635b75311c886b76"
+   ],
+   "now": "There are many other somatic approaches you can try, like heat, pressure, a weighted blanket, darkness, your favorite calming music, a careful use of a massage gun, etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.21",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "23c8d7751f31253d"
+   ],
+   "now": "But neither one of those products is necessary. All you really need is to stabilize yourself, and then listen to the messages from your inner realm, reality test those messages, and then take one grounded action.",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.22",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "0744c266a9ab9a0d"
+   ],
+   "now": "I’m not going to abandon you but I’m not going to worship you, I will listen to what you have to say and reality test it and then take some action.",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.23",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "ab6427a77a606337"
+   ],
+   "now": "If it is taking you away from life then change your body position by sitting upright, open your eyes, feel your feet and ask your subconscious to help you.",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.24",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "ab6427a77a606337"
+   ],
+   "now": "If what you are showing me is helpful then please also show me the helpfulness in it.",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.25",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "069d79e0955c0a77"
+   ],
+   "now": "One of the issues here is that people vary dramatically in how suggestible they are, both internally and externally, and different people vary in how suggestible they are in different states. Different types of suggestion (commands, imagery, music, metaphors, spiritual, etc) can be very different fo",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.26",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "069d79e0955c0a77"
+   ],
+   "now": "Being able to follow up immediately, to correct something in real time, to have a line of communication with guards, etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.27",
+   "severity": 2,
+   "kind": "garbled",
+   "block_hashes": [
+    "37d072d1f8ce4b0c"
+   ],
+   "now": "What they are trained in (what they can treat) How they use hypnosis What they will do if things don't fit (if they are treating trauma, did they have specific training on trauma and dissociation? Having hypnosis certifications matters, but doesn't mean they are trained in trauma care)",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.28",
+   "severity": 3,
+   "kind": "garbled",
+   "block_hashes": [
+    "4cd541eee34443a1"
+   ],
+   "now": "What has/hasn't worked for you in the past How direct you want them to be What kind of touch (if any) you are ok with What kind of imagery (if any) you are ok with What you want them to do if you want them to stop What they will do if things go unexpected during or after the session What they do if ",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.29",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "393d8a145b01378d"
+   ],
+   "now": "You might even be able to use this app or ask around to see if someone can tell you what the things the person did meant. They probably won't be able to tell you if the person was certified in them or not, though.",
+   "same_as_original": false
+  },
+  {
+   "id": "F10a.1",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "7b073a7809ae7049"
+   ],
+   "now": "Especially if it's a big thing, or something that can't be easily undone, slow it down to the scale of the thing. Look at it with your adult's eyes, and take it to council.",
+   "same_as_original": false
+  },
+  {
+   "id": "F10a.2",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "35bcd31298a7e7f0"
+   ],
+   "now": "They really did hurt us and they still have to answer for it, and our boundary with them still matters, but one day we may find that we have forgiven them, or at least that we’re not being run by the resentment anymore.",
+   "same_as_original": false
+  },
+  {
+   "id": "F10a.3",
+   "severity": 2,
+   "kind": "garbled",
+   "block_hashes": [
+    "7705ffc03bc11f57"
+   ],
+   "now": "Be specific about the action you took, and the impact it had, feel the remorse, do what you can to rectify or keep it from happening again, and then stop holding yourself hostage, and the responsibility stays.",
+   "same_as_original": false
+  },
+  {
+   "id": "F10a.4",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "7705ffc03bc11f57"
+   ],
+   "now": "Every so often, come back to how whoever did it got to be someone who could do that, until you understand it well enough that it changes how you feel.",
+   "same_as_original": false
+  },
+  {
+   "id": "F10a.5",
+   "severity": 2,
+   "kind": "garbled",
+   "block_hashes": [
+    "7e385ff23e59ca93"
+   ],
+   "now": "Borrowed is fine, as long as it’s from someone steady who won’t try to run your trip for you.",
+   "same_as_original": false
+  },
+  {
+   "id": "F10a.6",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "7510070d36ec5458"
+   ],
+   "now": "Do not do it to try to FORCE yourself to get to a certain revelation about yourself, but rather to help yourself become more in tune with love and to better your life.",
+   "same_as_original": false
+  },
+  {
+   "id": "F10a.7",
+   "severity": 2,
+   "kind": "vaguer",
+   "block_hashes": [
+    "078d0cc3e2f2567e"
+   ],
+   "now": "A lot of people have OPENED themselves up to something at one point in their life. If you've had a similar experience, know that there is a difference between having experienced it at one point, or only being able to access it in a certain state, and being able to get to it at any point in your life",
+   "same_as_original": false
+  },
+  {
+   "id": "F10a.8",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "078d0cc3e2f2567e"
+   ],
+   "now": "Let that experience inform what you OPEN yourself up to.",
+   "same_as_original": false
+  },
+  {
+   "id": "F10a.9",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "078d0cc3e2f2567e"
+   ],
+   "now": "(If you can't give it to the child, try to deal with why you can't, instead of trying to ramp up the experience.",
+   "same_as_original": false
+  },
+  {
+   "id": "F10a.10",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "aab7893d2d6f7449"
+   ],
+   "now": "In other words, if using self-hypnosis while you're in an altered state of consciousness is NOT helping you become MORE loving, MORE grounded, MORE honest with yourself, helping you SLEEP, become MORE communicative, MORE able to do your everyday responsibilities, etc, then stop trying to go DEEPER i",
+   "same_as_original": false
+  },
+  {
+   "id": "F10b.1",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "9b0ceb412c87c771"
+   ],
+   "now": "If you need to, open your eyes, ground yourself in your body and your environment, remove yourself from any bad influence you’re surrounding yourself with, stop stimulating your mind.",
+   "same_as_original": false
+  },
+  {
+   "id": "F10b.2",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "46b928cbbe580e62"
+   ],
+   "now": "You don’t have to find out if it’s a guard immediately, and you may not be able to comfort it quickly.",
+   "same_as_original": false
+  },
+  {
+   "id": "F10b.3",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "c7567981ddbf8da6"
+   ],
+   "now": "Your first instinct may be to fight it, banish it, hate it, show it that you’re more powerful than it is, argue with it, panic, become your own lesser self in fear of it, etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F10b.4",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "c7567981ddbf8da6"
+   ],
+   "now": "But if you’re fighting it out of fear…",
+   "same_as_original": false
+  },
+  {
+   "id": "F10b.5",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "2cca133b47fb0ccb"
+   ],
+   "now": "This is especially a good idea if the presence you’re experiencing seems even the slightest bit hostile, cold, alien, parasitic, etc. It’s not really helpful to approach it with the kind of soft, sentimental love that you’d use if you were inviting it to stay for tea, but it can be useful to approac",
+   "same_as_original": false
+  },
+  {
+   "id": "F10b.6",
+   "severity": 2,
+   "kind": "garbled",
+   "block_hashes": [
+    "178b7f97e53f846a"
+   ],
+   "now": "Finally, presences, shadow forces, or grandiose parts may try to respond by giving you a sense that you’re special, trying to “download cosmic info” to you, try to give you a special mission, make you feel doing the dishes is beneath you, etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F10b.7",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "57c3e0286c7960f2"
+   ],
+   "now": "Unless the “guidance” you’re trying to give me can help me be more beautiful, honest, relational, humble, and useful in my everyday life, I don’t need it.”",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.1",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "bd9424feed36fe67"
+   ],
+   "now": "Practise! Work out in advance which one you want to do and what you want to use it for (pick just one) and whether or not you want to do it at all!",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.2",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "bd9424feed36fe67"
+   ],
+   "now": "Any of these families of induction can be done as light inductions, with eyes open, or instead of trance you can just do them as a contact.",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.3",
+   "severity": 2,
+   "kind": "garbled",
+   "block_hashes": [
+    "230279de997f71ea"
+   ],
+   "now": "Once you start an induction, you will want to notice what’s going on (even if nothing changes) and work out what to do next, move, imagine something else, change the sensory channel you’re using, do nothing, stop the induction sequence and do something else…",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.4",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "d717610627f49bd7"
+   ],
+   "now": "Think of it as releasing as you go through the sequence.",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.5",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "d717610627f49bd7"
+   ],
+   "now": "Which bit of your body, or voice, needs this? What do you need to support it?",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.6",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "bed9b254846415e2"
+   ],
+   "now": "Tell yourself you are going to do this before you do it.",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.7",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "bed9b254846415e2"
+   ],
+   "now": "Bring yourself back to normal feeling of support and return.",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.8",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "a4ae84524a7d9889"
+   ],
+   "now": "Notice what you become aware of in the first beat – you don’t need to make your mind blank, just notice what comes up.",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.9",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "c45d07aa15f5542d"
+   ],
+   "now": "How many did you put down?",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.10",
+   "severity": 2,
+   "kind": "garbled",
+   "block_hashes": [
+    "87de71a5db4cc2d6"
+   ],
+   "now": "When you feel you have enough of your attention, imagine the scenery changing until you are in a place where you can talk to whoever you need to (or you can just cut to the chase, if you prefer).",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.11",
+   "severity": 2,
+   "kind": "vaguer",
+   "block_hashes": [
+    "e1007fcd5ad2fc6a"
+   ],
+   "now": "Gradual wave: start with a very small neutral area, feel into it a little and then imagine a wave spreading out to a new area that is still ok.",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.12",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "e1007fcd5ad2fc6a"
+   ],
+   "now": "See if there is anything different at each step.",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.13",
+   "severity": 2,
+   "kind": "vaguer",
+   "block_hashes": [
+    "44c2b0867170ea6b"
+   ],
+   "now": "Resource: pick a resource quality.",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.14",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "44c2b0867170ea6b"
+   ],
+   "now": "Imagine yourself accessing 1% more of that quality (or just sense yourself).",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.15",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "44c2b0867170ea6b"
+   ],
+   "now": "Come back, keeping the quality and one positive action that you would do with it, but leaving the imagined \"person\" behind, saying \"I am me\".",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.16",
+   "severity": 2,
+   "kind": "vaguer",
+   "block_hashes": [
+    "a8f6e7f45041429d"
+   ],
+   "now": "Autonomous: write whatever you get.",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.17",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "a8f6e7f45041429d"
+   ],
+   "now": "Deepener: none.",
+   "same_as_original": true
+  },
+  {
+   "id": "F11.18",
+   "severity": 2,
+   "kind": "garbled",
+   "block_hashes": [
+    "a8f6e7f45041429d"
+   ],
+   "now": "Integration/exit: reality test the autonomous, do one small thing based on it, stop doing it.",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.19",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "9ff6c7cfa79e891e"
+   ],
+   "now": "The personal accounts and the way I arrange this practice are my own, especially if it involves adaptations like the one I'm doing here where I am combining body-oriented work and hypnotic work.",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.20",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "9ff6c7cfa79e891e"
+   ],
+   "now": "This is not a validated form of treatment at this time.",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.21",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "3a882afa0448483e"
+   ],
+   "now": "The information on these techniques comes from these sources, not because they necessarily validate some aspects of NLP, or because every example suits trauma work (Nimja did not write or endorse this guide), but because I was adapting the language used for my own purposes, and I deliberately used a",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.22",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "eb2bd1328e0690ed"
+   ],
+   "now": "These sources talk about the key concepts of tracking what is happening in the body, resources, titration, pendulation, and the range of foci available when working, from sensation and imagery to behavior, emotions, and meaning, etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.23",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "6940b9d52a5ece74"
+   ],
+   "now": "For information about all of these things, see Inner Child Self-Love Reparenting Guide.",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.24",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "9191864a0c426968"
+   ],
+   "now": "Not everybody has an inner voice (Nedergaard and Lupyan 2024) is not about self hypnosis adaptations, but about people with different amounts of inner speech.",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.25",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "9191864a0c426968"
+   ],
+   "now": "The questions in the quick start are a practical way of seeing for yourself how you are.",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {
+  "F1.1": [
+   "his",
+   "a fix is on his fix page, card C-1; his answer decides: a section's title run into the sentence ('the Let the next response guide you section')"
+  ],
+  "F1.2": [
+   "his",
+   "a fix is on his fix page, card C-2; his answer decides: the verbs after 'layers of consciousness:' read as the layers' names"
+  ],
+  "F1.3": [
+   "kept",
+   "a small snag with no fix worth its cost: a long run-on, and what each part wants is gone; the paragraph came up on his 25 Oct page (quote marks)",
+   1
+  ],
+  "F1.4": [
+   "not",
+   "as clear, less detailed"
+  ],
+  "F1.5": [
+   "his",
+   "a fix is on his fix page, card C-3; his answer decides: why prompt engineering and influence literacy are there is gone; 'literate in the domain of what's hypnotizing them' is hard to place"
+  ],
+  "F1.6": [
+   "his",
+   "a fix is on his fix page, card C-4; his answer decides: 'Attention' and 'Notice' as bare labels"
+  ],
+  "F1.7": [
+   "his",
+   "a fix is on his fix page, card C-5; his answer decides: the 'choose one purpose' step was a repeat he approved cutting on 25 Oct (RP-1.3); 'put this screen on the shelf' is odd"
+  ],
+  "F1.8": [
+   "his",
+   "'as you're invited' and 'the invites' don't say who invites (you do); he kept these sentences in his ED-A3 version today"
+  ],
+  "F1.9": [
+   "his",
+   "a fix is on his fix page, card C-6; his answer decides: the instruction to stop comes after 'this is not about...' and 'that's another choice'"
+  ],
+  "F1.10": [
+   "done",
+   "the four kinds of agreement as a list with no verb; his HG-S15 version of today replaces the paragraph"
+  ],
+  "F1.11": [
+   "his",
+   "a fix is on his fix page, card C-7; his answer decides: 'As associated with ...' doesn't parse (he flagged it today); the words are Emulate's, in his 25 Oct quote-mark answer"
+  ],
+  "F1.12": [
+   "his",
+   "a fix is on his fix page, card C-8; his answer decides: his approved cut of 25 Oct (RP-1.4) took the sentence 'the same thing' leaned on; the Silva quote above half carries it"
+  ],
+  "F1.13": [
+   "his",
+   "a fix is on his fix page, card C-9; his answer decides: 'DO NOT use ... to help you ... NOT seek correct treatment' is a double negative"
+  ],
+  "F1.14": [
+   "his",
+   "a fix is on his fix page, card C-10; his answer decides: 'without dogma or killing them' folds two points into one phrase"
+  ],
+  "F1.15": [
+   "his",
+   "a fix is on his fix page, card C-11; his answer decides: 'it's got to lead somewhere!' replaces what has to survive a powerful state (kinder behaviour, humility, judgment, service, a workable life)"
+  ],
+  "F1.16": [
+   "his",
+   "a fix is on his fix page, card C-12; his answer decides: his published sentence, but the sentence before it ('one advantage nobody outside can duplicate: immediate dialogue with the system itself') is gone, so 'that' now points at a skilled guide's advantages"
+  ],
+  "F1.17": [
+   "not",
+   "'this' is the state just described"
+  ],
+  "F1.18": [
+   "his",
+   "a fix is on his fix page, card C-13; his answer decides: 'Only because of life did I have to talk to people, etc.' doesn't say that talking and interruptions ended the state"
+  ],
+  "F1.19": [
+   "his",
+   "a fix is on his fix page, card C-13; his answer decides: 'Although I'm not recommending ...' is a fragment"
+  ],
+  "F2a.1": [
+   "not",
+   "labels, but clear"
+  ],
+  "F2a.2": [
+   "kept",
+   "a small snag with no fix worth its cost: what each part wants is gone, and the nested brackets tangle the list",
+   1
+  ],
+  "F2a.3": [
+   "not",
+   "as clear"
+  ],
+  "F2a.4": [
+   "not",
+   "as clear"
+  ],
+  "F2a.5": [
+   "not",
+   "as clear"
+  ],
+  "F2a.6": [
+   "not",
+   "a casual run-on, but it reads"
+  ],
+  "F2a.7": [
+   "his",
+   "a fix is on his fix page, card C-14; his answer decides: 'This is a borrowed figure' leans on the adult hat two lines up"
+  ],
+  "F2a.8": [
+   "his",
+   "a fix is on his fix page, card C-15; his answer decides: 'If you can't imagine good' is missing its noun (a good adult)"
+  ],
+  "F2a.9": [
+   "not",
+   "as clear"
+  ],
+  "F2a.10": [
+   "his",
+   "a fix is on his fix page, card C-16; his answer decides: 'to let someone take care of you' sits against 'without handing over the adult part of you to the caretaker in another person'"
+  ],
+  "F2a.11": [
+   "not",
+   "as clear"
+  ],
+  "F2b.1": [
+   "not",
+   "his inner child guide's words, lined up on 25 Oct"
+  ],
+  "F2b.2": [
+   "not",
+   "his inner child guide's words, lined up on 25 Oct"
+  ],
+  "F2b.3": [
+   "not",
+   "his inner child guide's words, lined up on 25 Oct"
+  ],
+  "F2b.4": [
+   "not",
+   "his inner child guide's words; borrowing warmth is explained in its own section"
+  ],
+  "F2b.5": [
+   "not",
+   "'their' is the positions just named"
+  ],
+  "F2b.6": [
+   "his",
+   "a fix is on his fix page, card C-17; his answer decides: 'just below that which is your solar plexus' can read as below the solar plexus"
+  ],
+  "F2b.7": [
+   "not",
+   "his inner child guide's words, lined up on 25 Oct"
+  ],
+  "F2b.8": [
+   "not",
+   "a tagline he wouldn't want back"
+  ],
+  "F2b.9": [
+   "his",
+   "a fix is on his fix page, card C-18; his answer decides: 'enjoy them' can read as enjoying their feelings, not their company"
+  ],
+  "F2b.10": [
+   "not",
+   "as clear"
+  ],
+  "F2b.11": [
+   "not",
+   "as clear"
+  ],
+  "F2b.12": [
+   "kept",
+   "a small snag with no fix worth its cost: 'trust begins when you handle the consequence' is gone",
+   1
+  ],
+  "F2b.13": [
+   "his",
+   "a fix is on his fix page, card C-19; his answer decides: 'they're small enough' can read as the child (the 18 Oct triage let this one stand)"
+  ],
+  "F2b.14": [
+   "not",
+   "as clear"
+  ],
+  "F3a.1": [
+   "not",
+   "clear in its own section (the reader matched a published passage from another one)"
+  ],
+  "F3a.2": [
+   "not",
+   "as clear"
+  ],
+  "F3a.3": [
+   "his",
+   "a fix is on his fix page, card C-20; his answer decides: 'Often they are you experiencing a very charming guard' doesn't parse (my 22 Oct wording around his answer 9, cut down on 25 Oct)"
+  ],
+  "F3a.4": [
+   "his",
+   "a fix is on his fix page, card C-21; his answer decides: 'trust you 1% more that you can do that' doesn't say do what (protect yourself)"
+  ],
+  "F3a.5": [
+   "his",
+   "his inner child guide's line (under a heading there that says when); here 'not test it, even when it sounds like a prediction' is hard to place (card C-59 on his fix page)"
+  ],
+  "F3a.6": [
+   "not",
+   "clear in its own words"
+  ],
+  "F3a.7": [
+   "not",
+   "as clear"
+  ],
+  "F3a.8": [
+   "not",
+   "as clear"
+  ],
+  "F3a.9": [
+   "not",
+   "a terse list item, but it reads"
+  ],
+  "F3a.10": [
+   "his",
+   "a fix is on his fix page, card C-22; his answer decides: 'Just tell you what they need' doesn't parse: who tells whom"
+  ],
+  "F3a.11": [
+   "his",
+   "a fix is on his fix page, card C-23; his answer decides: 'keep a promise to them for one day' can read as keeping it for a day"
+  ],
+  "F3a.12": [
+   "not",
+   "as clear"
+  ],
+  "F3a.13": [
+   "his",
+   "a fix is on his fix page, card C-24; his answer decides: 'it may take you to go to sleep' doesn't parse"
+  ],
+  "F3a.14": [
+   "not",
+   "as clear"
+  ],
+  "F3a.15": [
+   "not",
+   "as clear"
+  ],
+  "F3a.16": [
+   "not",
+   "a common way to say it"
+  ],
+  "F3b.1": [
+   "his",
+   "a fix is on his fix page, card C-25; his answer decides: a 'Whether that means ...' fragment after the sentence it belongs to"
+  ],
+  "F3b.2": [
+   "kept",
+   "a small snag with no fix worth its cost: 'rest doesn't require helplessness' and 'you remain able to move, stop and return' are gone",
+   1
+  ],
+  "F3b.3": [
+   "not",
+   "his term (guard)"
+  ],
+  "F3b.4": [
+   "not",
+   "as clear"
+  ],
+  "F3b.5": [
+   "kept",
+   "a small snag with no fix worth its cost: why reparenting and finding yourself go together is gone",
+   1
+  ],
+  "F3b.6": [
+   "not",
+   "his approved fix of 25 Oct (RR-3.9)"
+  ],
+  "F3b.7": [
+   "kept",
+   "a small snag with no fix worth its cost: 'a practical model, not a claim about one brain system' is gone",
+   1
+  ],
+  "F3b.8": [
+   "not",
+   "his inner child guide's newer stance, brought in by his approved card IC-A21 (25 Oct)"
+  ],
+  "F3b.9": [
+   "his",
+   "his inner child guide's sentence (IC-A21): 'as you differentiate' isn't introduced in this guide (card C-26 on his fix page)"
+  ],
+  "F3b.10": [
+   "not",
+   "his own sentence (his edit of 21 Oct)"
+  ],
+  "F4a.1": [
+   "not",
+   "his own paragraph (23 Oct)"
+  ],
+  "F4a.2": [
+   "kept",
+   "a small snag with no fix worth its cost: the sentence saying what these phrases do (assume the conclusion, turn resistance into proof) is gone",
+   1
+  ],
+  "F4a.3": [
+   "his",
+   "a fix is on his fix page, card C-27; his answer decides: 'This is a good guide' now means the list, and 'these' has no clear referent; his point was that a good guide leaves the adult more present"
+  ],
+  "F4a.4": [
+   "his",
+   "a fix is on his fix page, card C-28; his answer decides: 'you can still take away choice' doesn't say whose"
+  ],
+  "F4a.5": [
+   "his",
+   "a fix is on his fix page, card C-29; his answer decides: why 'whether or not you notice' is a bind is gone"
+  ],
+  "F4a.6": [
+   "not",
+   "the section it points to is in the guide"
+  ],
+  "F4a.7": [
+   "his",
+   "a fix is on his fix page, card C-30; his answer decides: 'the response you want out of this' doesn't say the suggestion, for a simple chosen target"
+  ],
+  "F4b.1": [
+   "not",
+   "casual, under 'Keep it simple'"
+  ],
+  "F4b.2": [
+   "not",
+   "as clear"
+  ],
+  "F4b.3": [
+   "his",
+   "a fix is on his fix page, card C-31; his answer decides: 'whatever form of signal makes sense to you' doesn't say a signal can come in any form, or not at all"
+  ],
+  "F4b.4": [
+   "his",
+   "a fix is on his fix page, card C-31; his answer decides: 'borrow qualities' without an example (warmth, steadiness)"
+  ],
+  "F4b.5": [
+   "his",
+   "a fix is on his fix page, card C-32; his answer decides: 'think about what the verb is' for 'pick one verb, one sensory quality, one refrain'"
+  ],
+  "F4b.6": [
+   "not",
+   "as clear"
+  ],
+  "F4b.7": [
+   "his",
+   "a fix is on his fix page, card C-33; his answer decides: 'Deciding to do it.' stands as a fragment, and the firmer-invitation option is gone"
+  ],
+  "F4b.8": [
+   "his",
+   "a fix is on his fix page, card C-33; his answer decides: 'read the script' without 'beforehand'"
+  ],
+  "F4b.9": [
+   "his",
+   "a fix is on his fix page, card C-34; his answer decides: 'for the first time' doesn't say the first few sessions"
+  ],
+  "F4b.10": [
+   "his",
+   "a fix is on his fix page, card C-35; his answer decides: 'Utilize.' is a bare technical word"
+  ],
+  "F4b.11": [
+   "his",
+   "a fix is on his fix page, card C-35; his answer decides: 'no change is not a positive change' for 'no change doesn't mean secret success'"
+  ],
+  "F4b.12": [
+   "not",
+   "as clear"
+  ],
+  "F4b.13": [
+   "his",
+   "a fix is on his fix page, card C-36; his answer decides: 'read this slowly to yourself on your recorder' mixes reading and recording"
+  ],
+  "F4b.14": [
+   "his",
+   "a fix is on his fix page, card C-36; his answer decides: 'the two hands thing (below)': the two-hand practice is above, not below"
+  ],
+  "F4b.15": [
+   "not",
+   "as clear"
+  ],
+  "F4b.16": [
+   "not",
+   "as clear"
+  ],
+  "F4b.17": [
+   "his",
+   "a fix is on his fix page, card C-37; his answer decides: 'something that you are doing that holds your interest' is awkward"
+  ],
+  "F4b.18": [
+   "not",
+   "the guide has '5.' at the start of that line as a list number (the page and the Substack draft show it, <ol start=\"5\">); the reader's plain text dropped it"
+  ],
+  "F4b.19": [
+   "not",
+   "as clear"
+  ],
+  "F5.1": [
+   "not",
+   "as clear: a casual spoken question with three options"
+  ],
+  "F5.2": [
+   "his",
+   "a fix is on his fix page, card C-38; his answer decides: the hand-movement step doesn't parse; the published step (pair a small repeated movement with growing clarity, stop and notice what remains) is gone"
+  ],
+  "F5.3": [
+   "his",
+   "a fix is on his fix page, card C-39; his answer decides: the listening step is softened to 'if some comes back up'; the script still works"
+  ],
+  "F5.4": [
+   "his",
+   "a fix is on his fix page, card C-40; his answer decides: 'add this' points at a script below it, and what fractionation is and why you name it first are gone"
+  ],
+  "F5.5": [
+   "his",
+   "a fix is on his fix page, card C-41; his answer decides: one sentence of the script is split across two paragraphs, so the first reads as a fragment"
+  ],
+  "F5.6": [
+   "his",
+   "a fix is on his fix page, card C-42; his answer decides: 'the above induction' doesn't say which of the inductions"
+  ],
+  "F5.7": [
+   "his",
+   "a fix is on his fix page, card C-43; his answer decides: 'do the phrase' doesn't parse: a phrase is said"
+  ],
+  "F5.8": [
+   "his",
+   "a fix is on his fix page, card C-44; his answer decides: the cue's meaning (the suggestion you give it) became an instruction to the reader; 'do the phrase' again"
+  ],
+  "F5.9": [
+   "not",
+   "as clear: says not to use quick entry for material you're not ready for"
+  ],
+  "F5.10": [
+   "his",
+   "a fix is on his fix page, card C-45; his answer decides: 'it' could be the trance or the cue"
+  ],
+  "F5.11": [
+   "his",
+   "a fix is on his fix page, card C-46; his answer decides: 'you have given me' in a self-hypnosis script brings in an unnamed speaker"
+  ],
+  "F5.12": [
+   "not",
+   "his term: a protective part from childhood is a guard (gate E274)"
+  ],
+  "F5.13": [
+   "kept",
+   "a small snag with no fix worth its cost: the reason to put the screen aside is gone, though the next paragraph carries most of it",
+   1
+  ],
+  "F5.14": [
+   "his",
+   "a fix is on his fix page, card C-47; his answer decides: his own words; 'take all those forms' is a little hard to read"
+  ],
+  "F5.15": [
+   "his",
+   "a fix is on his fix page, card C-48; his answer decides: 'it's not ok' has no clear 'it'"
+  ],
+  "F5.16": [
+   "his",
+   "a fix is on his fix page, card C-49; his answer decides: circular ('phrases that you didn't think in your head ... even if it's not in your head already'); the point that words found now can examine a wordless meaning is gone"
+  ],
+  "F5.17": [
+   "his",
+   "a fix is on his fix page, card C-49; his answer decides: 'better or worse' doesn't say deeper, truer or more reliable"
+  ],
+  "F6a.1": [
+   "not",
+   "clear guidance in its own words"
+  ],
+  "F6a.2": [
+   "not",
+   "'it' is what you're doing"
+  ],
+  "F6a.3": [
+   "his",
+   "a fix is on his fix page, card C-50; his answer decides: 'Sometimes it just isn't right' doesn't say what 'it' is"
+  ],
+  "F6a.4": [
+   "his",
+   "a fix is on his fix page, card C-50; his answer decides: 'just being silent doesn't mean there's a process' doesn't say a hidden process working, and 'neither' is hard to place"
+  ],
+  "F6a.5": [
+   "not",
+   "as clear"
+  ],
+  "F6a.6": [
+   "kept",
+   "a small snag with no fix worth its cost: 'communicate in a mature fashion' for 'hear disagreement, take responsibility, make room for your experience'",
+   1
+  ],
+  "F6a.7": [
+   "his",
+   "a fix is on his fix page, card C-51; his answer decides: 'to determine if this is the case' has no clear 'this'"
+  ],
+  "F6a.8": [
+   "his",
+   "a fix is on his fix page, card C-52; his answer decides: 'you may find that you have acted inappropriately' then 'guilt does not mean that you have done something wrong' reads as a contradiction"
+  ],
+  "F6a.9": [
+   "not",
+   "as clear"
+  ],
+  "F6a.10": [
+   "not",
+   "as clear"
+  ],
+  "F6a.11": [
+   "his",
+   "a fix is on his fix page, card C-52; his answer decides: 'end the interaction prematurely' makes ending it sound like a mistake"
+  ],
+  "F6a.12": [
+   "his",
+   "a fix is on his fix page, card C-53; his answer decides: pendulation and titration given as one thing"
+  ],
+  "F6a.13": [
+   "his",
+   "a fix is on his fix page, card C-54; his answer decides: a self-talk line standing alone with no lead-in"
+  ],
+  "F6a.14": [
+   "his",
+   "a fix is on his fix page, card C-55; his answer decides: 'a stronger induction back to the here and now' doesn't make sense: an induction takes you in"
+  ],
+  "F6a.15": [
+   "not",
+   "as clear"
+  ],
+  "F6a.16": [
+   "his",
+   "a fix is on his fix page, card C-56; his answer decides: 'act out the urge, feel that you need to move' mixes doing and feeling"
+  ],
+  "F6a.17": [
+   "not",
+   "his term (the Guide); clear"
+  ],
+  "F6a.18": [
+   "not",
+   "borrowing a function is explained in its own section"
+  ],
+  "F6a.19": [
+   "not",
+   "as clear"
+  ],
+  "F6a.20": [
+   "not",
+   "as clear"
+  ],
+  "F6a.21": [
+   "not",
+   "as clear"
+  ],
+  "F6a.22": [
+   "his",
+   "a fix is on his fix page, card C-57; his answer decides: 'the metaphor' comes before any metaphor is named"
+  ],
+  "F6a.23": [
+   "not",
+   "as clear"
+  ],
+  "F6a.24": [
+   "his",
+   "a fix is on his fix page, card C-58; his answer decides: a stray label repeating the heading"
+  ],
+  "F6a.25": [
+   "not",
+   "as clear"
+  ],
+  "F6a.26": [
+   "not",
+   "as clear"
+  ],
+  "F6a.27": [
+   "his",
+   "his inner child guide's line (as F3a.5) (card C-59 on his fix page)"
+  ],
+  "F6b.1": [
+   "not",
+   "as clear"
+  ],
+  "F6b.2": [
+   "kept",
+   "a small snag with no fix worth its cost: 'fifteen minutes is a convenience, not a dose your feelings must follow' is gone",
+   1
+  ],
+  "F6b.3": [
+   "his",
+   "a fix is on his fix page, card C-60; his answer decides: the 5-to-1 countdown runs on from the 3-2-1 senses list"
+  ],
+  "F6b.4": [
+   "not",
+   "as clear"
+  ],
+  "F6b.5": [
+   "not",
+   "as clear"
+  ],
+  "F6b.6": [
+   "his",
+   "a fix is on his fix page, card C-61; his answer decides: 'what you learned needed warmth' has to be read twice"
+  ],
+  "F6b.7": [
+   "not",
+   "a fair question in its own words"
+  ],
+  "F6b.8": [
+   "not",
+   "'this' is the practice the section is about"
+  ],
+  "F6b.9": [
+   "not",
+   "as clear"
+  ],
+  "F6b.10": [
+   "not",
+   "his dishes line, casual but clear"
+  ],
+  "F6b.11": [
+   "not",
+   "'it' is the situation; clear"
+  ],
+  "F6b.12": [
+   "not",
+   "the section's first paragraph says it (what needs destabilizing to know isn't meant for you now)"
+  ],
+  "F6b.13": [
+   "not",
+   "the sentence before says 'especially if it relates to trauma and memory'"
+  ],
+  "F6b.14": [
+   "his",
+   "a fix is on his fix page, card C-62; his answer decides: 'correct this' doesn't say what to correct"
+  ],
+  "F6b.15": [
+   "not",
+   "his inner child guide's words, lined up on 25 Oct"
+  ],
+  "F6b.16": [
+   "not",
+   "his inner child guide's words, lined up on 25 Oct"
+  ],
+  "F7.1": [
+   "not",
+   "as clear: the examples carry the un-mystical point"
+  ],
+  "F7.2": [
+   "not",
+   "as clear in speech: 'make it safe' is letting me in"
+  ],
+  "F7.3": [
+   "not",
+   "as clear, more casual"
+  ],
+  "F7.4": [
+   "not",
+   "both points are there"
+  ],
+  "F7.5": [
+   "his",
+   "a fix is on his fix page, card C-63; his answer decides: 'end your work for the day' can read as your job"
+  ],
+  "F7.6": [
+   "his",
+   "a fix is on his fix page, card C-64; his answer decides: 'it' is the insight the heading implies; the 'etc, etc' is noise"
+  ],
+  "F7.7": [
+   "his",
+   "a fix is on his fix page, card C-65; his answer decides: 'improve it' doesn't say the practice, and the instruction became a question with no speaker"
+  ],
+  "F7.8": [
+   "not",
+   "his wish: 'ONE HONEST ACTION sounds super ai' (2026-10-21 17:56 UTC)"
+  ],
+  "F7.9": [
+   "not",
+   "as clear"
+  ],
+  "F7.10": [
+   "his",
+   "a fix is on his fix page, card C-66; his answer decides: 'more of the same' doesn't say more of what"
+  ],
+  "F7.11": [
+   "his",
+   "a fix is on his fix page, card C-67; his answer decides: 'any certain thing' is awkward"
+  ],
+  "F7.12": [
+   "not",
+   "his term: the Guide is one of the inner adult's roles, with its own section"
+  ],
+  "F7.13": [
+   "his",
+   "a fix is on his fix page, card C-68; his answer decides: a double negative; 'not commands' is gone"
+  ],
+  "F7.14": [
+   "not",
+   "the list's first line already says to reality-test"
+  ],
+  "F7.15": [
+   "not",
+   "his own words and his term (the Guide)"
+  ],
+  "F7.16": [
+   "not",
+   "the reader matched the wrong published line; the return is its own section"
+  ],
+  "F7.17": [
+   "not",
+   "as clear"
+  ],
+  "F7.18": [
+   "not",
+   "the heading anchors 'this' (a guide)"
+  ],
+  "F7.19": [
+   "not",
+   "he cut that aside on 25 Oct (CV-5.7)"
+  ],
+  "F7.20": [
+   "his",
+   "a fix is on his fix page, card C-69; his answer decides: 'any potential person' for someone you're thinking of working with"
+  ],
+  "F7.21": [
+   "his",
+   "a fix is on his fix page, card C-70; his answer decides: 'the guy who's tensed up' may not read as the protective part"
+  ],
+  "F7.22": [
+   "his",
+   "a fix is on his fix page, card C-70; his answer decides: 'without ever being properly introduced' is gone"
+  ],
+  "F7.23": [
+   "his",
+   "a fix is on his fix page, card C-71; his answer decides: a list that mixes nouns and 'to learn the language' (which language?); 'develop your own language' is gone"
+  ],
+  "F7.24": [
+   "his",
+   "a fix is on his fix page, card C-71; his answer decides: 'not required to graduate' has no context"
+  ],
+  "F8a.1": [
+   "his",
+   "a fix is on his fix page, card C-72; his answer decides: the one lesson prompt engineering gives (the shape of a question changes the answer) is gone; 'this' and 'it' lean on it"
+  ],
+  "F8a.2": [
+   "kept",
+   "a small snag with no fix worth its cost: three of the constraints (no forcing, no false certainty, capacity before content) are gone",
+   1
+  ],
+  "F8a.3": [
+   "not",
+   "the prompt line after it shows what 'safe' means"
+  ],
+  "F8a.4": [
+   "kept",
+   "a small snag with no fix worth its cost: what silence can mean (nothing is happening, not yet, rest first) is gone",
+   1
+  ],
+  "F8a.5": [
+   "not",
+   "a template's blank"
+  ],
+  "F8a.6": [
+   "kept",
+   "a small snag with no fix worth its cost: three example prompts (daydream, anxiety, hidden truth) are gone",
+   1
+  ],
+  "F8a.7": [
+   "his",
+   "a fix is on his fix page, card C-73; his answer decides: 'then it might be useful, when it helps the system listen' runs on and 'to do it' doesn't say the core method"
+  ],
+  "F8a.8": [
+   "not",
+   "as clear"
+  ],
+  "F8a.9": [
+   "his",
+   "a fix is on his fix page, card C-74; his answer decides: 'To do this' opens the section with nothing to point to"
+  ],
+  "F8a.10": [
+   "not",
+   "'it' is the example sentence just above"
+  ],
+  "F8a.11": [
+   "kept",
+   "a small snag with no fix worth its cost: what a presupposition is and 'don't smuggle in obedience' are gone; 'when it will happen' has no referent",
+   1
+  ],
+  "F8a.12": [
+   "kept",
+   "a small snag with no fix worth its cost: the better wording to use is gone; 'it doesn't mean that it's true if it isn't' is loose",
+   1
+  ],
+  "F8a.13": [
+   "his",
+   "a fix is on his fix page, card C-75; his answer decides: the section opens 'ie.' with no definition; what an embedded invitation is, and that it mustn't hide a demand, are gone"
+  ],
+  "F8a.14": [
+   "his",
+   "a fix is on his fix page, card C-76; his answer decides: a fragment pointing to an inner child example that isn't there"
+  ],
+  "F8b.1": [
+   "his",
+   "a fix is on his fix page, card C-77; his answer decides: 'what changes' when you adjust the image is gone"
+  ],
+  "F8b.2": [
+   "not",
+   "as clear"
+  ],
+  "F8b.3": [
+   "his",
+   "a fix is on his fix page, card C-78; his answer decides: what an anchor is (a cue connected to a state) is gone; the heading carries 'this'"
+  ],
+  "F8b.4": [
+   "his",
+   "a fix is on his fix page, card C-78; his answer decides: 'do your anchor thing ... when you have clearly got it' is loose: pair the cue while the state is clearly there"
+  ],
+  "F8b.5": [
+   "his",
+   "a fix is on his fix page, card C-78; his answer decides: 'peak state' vs 'a good hypnotic state' is vague"
+  ],
+  "F8b.6": [
+   "his",
+   "a fix is on his fix page, card C-79; his answer decides: a stray label repeating the heading"
+  ],
+  "F8b.7": [
+   "his",
+   "a fix is on his fix page, card C-80; his answer decides: why noticing works as a bell (the coincidence needn't carry a message) is gone"
+  ],
+  "F8b.8": [
+   "his",
+   "a fix is on his fix page, card C-81; his answer decides: 'a negative state' right after 'that state' (the highest one)"
+  ],
+  "F8b.9": [
+   "not",
+   "his term (the Guide)"
+  ],
+  "F8b.10": [
+   "not",
+   "he cut those limits on 25 Oct (CV-6.5 to 6.8)"
+  ],
+  "F8b.11": [
+   "his",
+   "a fix is on his fix page, card C-82; his answer decides: 'implementation intention' isn't explained until later, and 'this specific thing' is vague"
+  ],
+  "F8b.12": [
+   "not",
+   "a small step the guide's cue list never had (25 Oct check: stays)"
+  ],
+  "F8b.13": [
+   "not",
+   "his term (the Guide)"
+  ],
+  "F8b.14": [
+   "his",
+   "a fix is on his fix page, card C-83; his answer decides: the four positions are bare labels; what each one asks (what the other feels, the view from across the room, what serves everyone) is gone"
+  ],
+  "F8b.15": [
+   "not",
+   "as clear"
+  ],
+  "F8b.16": [
+   "kept",
+   "a small snag with no fix worth its cost: why the softened Swish (done mechanically it feels like an inner eviction) is gone",
+   1
+  ],
+  "F9.1": [
+   "his",
+   "a fix is on his fix page, card C-84; his answer decides: says something else: his published line is about talking himself out of a real signal, not denying other people's"
+  ],
+  "F9.2": [
+   "his",
+   "a fix is on his fix page, card C-85; his answer decides: 'convince myself of my intuition' can read as convincing myself I have one"
+  ],
+  "F9.3": [
+   "not",
+   "clear ('too high/dissociated' for 'chemically overwhelmed or too dissociated')"
+  ],
+  "F9.4": [
+   "his",
+   "a fix is on his fix page, card C-86; his answer decides: says something else: the published rule is not to create urgency where a person needs time; now it says not to start when time is short"
+  ],
+  "F9.5": [
+   "his",
+   "a fix is on his fix page, card C-87; his answer decides: what the permission is for is gone"
+  ],
+  "F9.6": [
+   "not",
+   "his term (the Guide)"
+  ],
+  "F9.7": [
+   "his",
+   "a fix is on his fix page, card C-88; his answer decides: 'look for evidence to support their new interpretation' now reads as looking for confirmation; 'is the response kind and doable' is gone"
+  ],
+  "F9.8": [
+   "his",
+   "a fix is on his fix page, card C-89; his answer decides: 'do something' for 'do one ordinary thing'"
+  ],
+  "F9.9": [
+   "not",
+   "his own Appendix C (23 Oct), clear"
+  ],
+  "F9.10": [
+   "not",
+   "his own Appendix C"
+  ],
+  "F9.11": [
+   "not",
+   "his own Appendix C"
+  ],
+  "F9.12": [
+   "not",
+   "his own aside"
+  ],
+  "F9.13": [
+   "not",
+   "his own list, long but it reads"
+  ],
+  "F9.14": [
+   "not",
+   "his own Appendix C"
+  ],
+  "F9.15": [
+   "his",
+   "his own Appendix C (23 Oct): 'your child' can read as the reader's own child, not the inner child (card C-90 on his fix page)"
+  ],
+  "F9.16": [
+   "his",
+   "his own phrase (his answer 9, 22 Oct: 'the consciously installed parental Protector'); a reader didn't know the term. If you like, 'your inner adult's Protector' says it with the guide's term (card C-91 on his fix page)"
+  ],
+  "F9.17": [
+   "his",
+   "a fix is on his fix page, card C-92; his answer decides: 'or whatever' for 'a feeling it believes would be unbearable'"
+  ],
+  "F9.18": [
+   "kept",
+   "a small snag with no fix worth its cost: 'start with yourself' for 'help the body first'",
+   1
+  ],
+  "F9.19": [
+   "his",
+   "a fix is on his fix page, card C-93; his answer decides: 'thrusting into the trauma' is an odd word"
+  ],
+  "F9.20": [
+   "his",
+   "a fix is on his fix page, card C-94; his answer decides: his line about using what actually helps, not 'a tiny wellness trade show', is gone"
+  ],
+  "F9.21": [
+   "not",
+   "he cut that caution on 25 Oct (CV-7.4)"
+  ],
+  "F9.22": [
+   "kept",
+   "a small snag with no fix worth its cost: 'I'm not going to worship you' said to a frightened part, where his line was about the signal",
+   1
+  ],
+  "F9.23": [
+   "kept",
+   "a small snag with no fix worth its cost: 'before debating the story' is gone",
+   1
+  ],
+  "F9.24": [
+   "his",
+   "a fix is on his fix page, card C-95; his answer decides: 'show me the helpfulness in it' is circular"
+  ],
+  "F9.25": [
+   "not",
+   "as clear, less detailed"
+  ],
+  "F9.26": [
+   "his",
+   "a fix is on his fix page, card C-96; his answer decides: a fragment listing the advantages of doing it yourself"
+  ],
+  "F9.27": [
+   "his",
+   "a fix is on his fix page, card C-97; his answer decides: a list whose line breaks were lost, so its items run together with no punctuation"
+  ],
+  "F9.28": [
+   "his",
+   "a fix is on his fix page, card C-98; his answer decides: the same: eight list items run into one sentence"
+  ],
+  "F9.29": [
+   "kept",
+   "a small snag with no fix worth its cost: 'what the things the person did meant' and 'certified in them' are tangled",
+   1
+  ],
+  "F10a.1": [
+   "his",
+   "a fix is on his fix page, card C-99; his answer decides: 'slow it down to the scale of the thing' doesn't say to slow the action to the size of its consequences"
+  ],
+  "F10a.2": [
+   "not",
+   "'they' follows 'the injury'; clear"
+  ],
+  "F10a.3": [
+   "his",
+   "a fix is on his fix page, card C-100; his answer decides: a run-on that ends 'and the responsibility stays', tacked on (my 25 Oct alignment card joined his inner child guide's two sentences with commas)"
+  ],
+  "F10a.4": [
+   "his",
+   "a fix is on his fix page, card C-100; his answer decides: 'whoever did it' in a section about forgiving yourself"
+  ],
+  "F10a.5": [
+   "his",
+   "a fix is on his fix page, card C-101; his answer decides: 'Borrowed is fine' comes after a parenthesis, so what is borrowed (Nurturer and Protector) is hard to see"
+  ],
+  "F10a.6": [
+   "his",
+   "a fix is on his fix page, card C-102; his answer decides: 'Do not do it' doesn't say altered states"
+  ],
+  "F10a.7": [
+   "his",
+   "a fix is on his fix page, card C-103; his answer decides: 'opened themselves up to something' never says love until the end of the paragraph"
+  ],
+  "F10a.8": [
+   "his",
+   "a fix is on his fix page, card C-103; his answer decides: 'Let that experience inform what you OPEN yourself up to' no longer says what to do: let it widen what seems possible while you build everyday access"
+  ],
+  "F10a.9": [
+   "his",
+   "a fix is on his fix page, card C-103; his answer decides: 'give it to the child' doesn't say love"
+  ],
+  "F10a.10": [
+   "not",
+   "his own capitals and rule (the 25 Oct check found the same and kept it)"
+  ],
+  "F10b.1": [
+   "not",
+   "as clear, less detailed"
+  ],
+  "F10b.2": [
+   "kept",
+   "a small snag with no fix worth its cost: the point that neither response proves what it is now lives only in the heading",
+   1
+  ],
+  "F10b.3": [
+   "his",
+   "a fix is on his fix page, card C-104; his answer decides: 'become your own lesser self in fear of it' is vague"
+  ],
+  "F10b.4": [
+   "not",
+   "the ellipsis leads into the next paragraph, which gives the result"
+  ],
+  "F10b.5": [
+   "not",
+   "as clear"
+  ],
+  "F10b.6": [
+   "his",
+   "a fix is on his fix page, card C-105; his answer decides: 'may try to respond by giving you ..., trying to ..., try to ..., make you ...' doesn't parse as one list, and 'respond' has nothing to respond to"
+  ],
+  "F10b.7": [
+   "his",
+   "a fix is on his fix page, card C-106; his answer decides: a near-repeat of the line before it, ending with a closing quote mark that nothing opened"
+  ],
+  "F11.1": [
+   "his",
+   "a fix is on his fix page, card C-107; his answer decides: 'Practise!' (Emulate's British spelling) stands for 'preview the sequence'"
+  ],
+  "F11.2": [
+   "his",
+   "a fix is on his fix page, card C-107; his answer decides: 'do them as a contact' doesn't point to the no-trance inner contact (9)"
+  ],
+  "F11.3": [
+   "his",
+   "a fix is on his fix page, card C-108; his answer decides: the options after 'work out what to do next' read as steps in a row; a colon would fix it"
+  ],
+  "F11.4": [
+   "his",
+   "a fix is on his fix page, card C-109; his answer decides: 'think of it as releasing' doesn't say that release guides the sequence"
+  ],
+  "F11.5": [
+   "his",
+   "a fix is on his fix page, card C-109; his answer decides: 'or voice' can read as your speaking voice"
+  ],
+  "F11.6": [
+   "his",
+   "a fix is on his fix page, card C-110; his answer decides: 'do this' could be the whole exercise or the fractionation"
+  ],
+  "F11.7": [
+   "his",
+   "a fix is on his fix page, card C-110; his answer decides: 'keep the support' is gone from the close"
+  ],
+  "F11.8": [
+   "not",
+   "'the first beat' follows 'then stop saying it'"
+  ],
+  "F11.9": [
+   "not",
+   "as clear"
+  ],
+  "F11.10": [
+   "his",
+   "a fix is on his fix page, card C-111; his answer decides: 'when you feel you have enough of your attention' is odd"
+  ],
+  "F11.11": [
+   "his",
+   "a fix is on his fix page, card C-112; his answer decides: 'a wave' doesn't say what spreads (warmth, steadiness or attention)"
+  ],
+  "F11.12": [
+   "not",
+   "he cut that caution on 25 Oct (CV-8.3)"
+  ],
+  "F11.13": [
+   "his",
+   "a fix is on his fix page, card C-113; his answer decides: 'pick a resource quality' with no examples: the reader doesn't know what to pick"
+  ],
+  "F11.14": [
+   "his",
+   "a fix is on his fix page, card C-113; his answer decides: '(or just sense yourself)' doesn't say sense what; observing instead of embodying is gone"
+  ],
+  "F11.15": [
+   "his",
+   "a fix is on his fix page, card C-113; his answer decides: the imagined 'person' was never introduced"
+  ],
+  "F11.16": [
+   "his",
+   "a fix is on his fix page, card C-114; his answer decides: 'Autonomous:' lost its noun (signal) and the guide never uses the word elsewhere"
+  ],
+  "F11.17": [
+   "his",
+   "a fix is on his fix page, card C-114; his answer decides: 'full alertness is not an inferior version of the practice' is gone"
+  ],
+  "F11.18": [
+   "his",
+   "a fix is on his fix page, card C-114; his answer decides: 'reality test the autonomous ... stop doing it' doesn't parse"
+  ],
+  "F11.19": [
+   "his",
+   "a fix is on his fix page, card C-115; his answer decides: 'especially if it involves adaptations' is awkward"
+  ],
+  "F11.20": [
+   "his",
+   "a fix is on his fix page, card C-115; his answer decides: 'this is not a validated form of treatment' doesn't say what 'this' is (the note after it he cut on 25 Oct, CV-8.5)"
+  ],
+  "F11.21": [
+   "his",
+   "a fix is on his fix page, card C-116; his answer decides: a long 'not because ... but because' sentence that reads as if the sources were chosen because he was adapting them"
+  ],
+  "F11.22": [
+   "not",
+   "he cut that caution on 25 Oct (CV-8.8)"
+  ],
+  "F11.23": [
+   "his",
+   "a fix is on his fix page, card C-117; his answer decides: 'all of these things' leans on the heading"
+  ],
+  "F11.24": [
+   "not",
+   "the title is a link on the page"
+  ],
+  "F11.25": [
+   "his",
+   "a fix is on his fix page, card C-118; his answer decides: 'how you are' is vague (the 'not a validated test' part he cut on 25 Oct, CV-8.9)"
+  ]
+ }
+}

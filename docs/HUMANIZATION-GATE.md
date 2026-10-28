@@ -1338,7 +1338,7 @@ buttons".
   browser (74 checks, with a negative fixture for the 2026-10-23 white-on-white boxes). A check with more than a handful of
   suggestions for him ends with this page, not with lists.
 
-(The next lesson in either lane was E266 here. The Inner Child lane's turn-110 lessons took E266 and E267, written while this section stood as it is: cite them as "E266 (Inner Child)" and "E267 (Inner Child)". The Inner Child lane's turn-111 lessons are E268 to E270 (Inner Child), near the top too, and its turn-112 lesson is E271 (Inner Child), after them; the hypnosis guide lane's E268 to E270, in the next section, were written at the same time as the turn-111 ones, and both sets keep their numbers. The hypnosis guide lane's E272 to E274 follow them there, its E275 after those, its E276 after that, its E277 to E279 after it, and its E280 to E283 after those. The next lesson in either lane is E284.)
+(The next lesson in either lane was E266 here. The Inner Child lane's turn-110 lessons took E266 and E267, written while this section stood as it is: cite them as "E266 (Inner Child)" and "E267 (Inner Child)". The Inner Child lane's turn-111 lessons are E268 to E270 (Inner Child), near the top too, and its turn-112 lesson is E271 (Inner Child), after them; the hypnosis guide lane's E268 to E270, in the next section, were written at the same time as the turn-111 ones, and both sets keep their numbers. The hypnosis guide lane's E272 to E274 follow them there, its E275 after those, its E276 after that, its E277 to E279 after it, its E280 to E283 after those, and its E284 to E290 after those. The next lesson in either lane is E291.)
 
 ## What his answers on the marking page showed (2026-10-25 19:42 UTC)
 
@@ -1523,11 +1523,75 @@ editing", "23. i need that editor interface we developed remember that?".
   both read 100% Human, with every part forecast right): the next forecast starts from about 0.75 for a re-run of a window
   of ten words or more, lower for a line of a few words, and the whole-text call from its parts.
 
-(The next lesson in either lane is E284.)
+(The next lesson in either lane was E284 here; it is in the next section.)
+
+## What Joel's message of 2026-10-28 15:20 UTC taught (the hypnosis guide: "too incomprehensible")
+
+His message and his answers file: `articles/inner-signal/humanize/fix-20261028/joel-20261028-1520-message.txt`. "i
+started on it, but the guide itself is now too incomprehensible, we went wrong somewhere"; on the agreement list (HG-S15):
+"is there more weird stuff in here that makes no sense like this? didn't you already do a comprehension check? the AI
+guide was making more sense by far ... is this whole guide messed up now?". And at 16:05 UTC, after the diagnosis: "ok
+good let's repair the process durably so that can't happen again also". The comparative read of that afternoon
+(`articles/inner-signal/humanize/fix-20261028/comprehension/AUDIT.md`): 281 findings from fresh readers; by my check 41
+real problems in 38 of the guide's 591 paragraphs, 118 small snags in 95 more, 6 in his own words, 116 not problems.
+
+- **E284. After any rewrite of his text, read it beside his text, sentence by sentence.** On 18 October Emulate rewrote
+  most of the guide in one night; the checks were meaning (second readers, against his text) and Pangram. On 25 October
+  the strict Emulate check looked for what was added, lost or slipped, and the clarity read read the guide on its own,
+  readers flagging what stood out. None of them asked of every sentence whether a reader could follow it as well as his,
+  and "As associated with the Silva Mind Control method:" (his "A line associated with the Silva Mind Control tradition
+  says it plainly:") passed all of them. The read now is `tools/humanization/compare_read.py`: each part of the rewrite
+  beside the same part as he wrote it, a fresh reader per part going through it sentence by sentence for every place it
+  is garbled, unclear, lost or vaguer; then every finding checked against the whole article and his own decisions (116 of
+  281 weren't problems: his terms, his cuts of 25 October, lines his newer inner child guide put in). Parts of about 1,300
+  words of the rewrite: six of the eleven first readers, given about 2,500 each, ran out of room before writing anything.
+  The shared rules: `docs/FIXING-AN-ARTICLE.md` section 5, `docs/CLARITY-READ.md`, `docs/EMULATE-FALLBACK.md` section 4,
+  `AGENTS.md`.
+- **E285. A sentence a reader can't follow is never "small", and never stays for the sake of a Pangram reading.** Three
+  checks saw these spots and I left them each time. 18 October: the triage fixed 260 findings and let 554 stand as
+  "wording, emphasis or tone", 21 of them marked unclear, because each fix risked the section reading AI. 25 October: the
+  strict check's readers rated 743 of their 808 findings "small" ("Drops his point that these four are separate things."
+  for the agreement list), and only the 65 that "matter" were triaged; 29 of the 41 real problems of 28 October were
+  among those small ones. AGENTS.md already said "Detector results are evidence, not editorial authority". What now
+  enforces it: `compare_read.py gate` (every paragraph his as published, his own words, or read beside his text at its
+  present words; every finding a reader rated 2 or 3 with a fate and a reason; a garbled or unclear one can't be "kept"
+  unless my check put it at 1, on record), run by `tools/humanization/lane_push.py` before every push of an article with
+  a COMPARE-GATE.json (the hypnosis guide's is `articles/inner-signal/humanize/COMPARE-GATE.json`), which stops unless
+  `--unread-ok "why"` puts the reason in the commit; and the lane's `tools/triage_apply.py`, which refuses a triage that
+  lets an unclear or garbled finding stand (its brief, `fix-20261018/rf-a/TRIAGE-BRIEF.md`, is marked superseded).
+- **E286. A clarity brief never calls a rewrite's casual grammar his voice.** The 25 October clarity brief said "What
+  doesn't count: his jokes, emoji, slang, exclamations and casual grammar (that's his voice)", when about two-thirds of the
+  guide's words were no longer his, most of them Emulate imitating a casual voice; so its garbles were excused as his. The
+  shared brief (`tools/humanization/clarity_read.py`) now says casual grammar is his voice in his own words only, and a
+  sentence that doesn't parse counts whoever wrote it.
+- **E287. A read that is run again keeps the first run's findings.** The clarity read's first run flagged the agreement
+  list (item 7.9, score 2); I reran it on a fixed brief and built his page from the second run alone, which didn't flag
+  it, so the flag never reached him. `clarity_read.py collect DIR --prior EARLIER` now carries every finding the rerun
+  lacks, marked "check", and warns when a sibling folder looks like an earlier run that wasn't passed.
+- **E288. A card that offers new words is read for sense beside his line before I advise it.** HG-S15 offered Emulate's
+  re-run of the agreement list because it read High, and my advice was "Approve"; the list itself made no sense, and he
+  had to find it. The Medium-and-Low-to-High work (batches 475 to 481) added Emulate's words the same way. So every
+  Emulate re-run, reader's edit or writer's version gets the comparative read of its paragraph before it becomes a card,
+  and the card says so; and the 83 cards of the 27 October editor page he hadn't marked are held until theirs is done.
+- **E289. A capture of a tool's output keeps its line breaks.** The hypnosis guide's two "Finding a hypnotist" lists ran
+  their items together ("What they are trained in (what they can treat) How they use hypnosis What they will do ...")
+  from the night of 18 October: Emulate's output was captured without its line breaks (it is already run together in
+  `fix-20261018/march-j/march-prompt.txt`), and no check compared its structure with his. A capture is compared with the
+  page it came from for its paragraphs and line breaks before it is used, and the comparative read flags a list run
+  together (two of its 41 real problems).
+- **E290. A reader's text shows a list's numbers.** The comparative read gave its readers each paragraph's plain text,
+  which drops a numbered item's number: the guide's countdown, "5. Let your attention come back to your chosen anchor. 4.
+  Let more of your attention come to what you've found. ..." on the page, reached its reader without the "5.", the reader
+  reported the count starting at 4, I counted it a real problem, and the fix writer added a "5." that would have made it
+  "5. 5." on the page; I caught it only when I looked at the Markdown. `compare_read.py` now gives a numbered item its
+  number, a bullet its dash and a quote its >, as the page shows them (test in `tests/test_compare_read.py`), and a
+  finding about a list, a heading or a link is checked against the line in the Markdown before it counts.
+
+(The next lesson in either lane is E291.)
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 
-(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". E247 and E248, after them, are this lane's turn-102 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E247 to E249 above (their message of 2026-10-23 18:13 UTC); both sets keep their numbers, so cite these two as "E247 (Inner Child)" and "E248 (Inner Child)". E250 to E252, the last ones here, are this lane's turn-103 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E250 and E251 above (their message of 2026-10-23 20:35 UTC); both sets keep their numbers, so cite these three as "E250 (Inner Child)" to "E252 (Inner Child)". The hypnosis guide, Nibbāna and community lanes' own E252 to E255 above came after them (their messages of 2026-10-23 22:29 and 23:28 UTC). This lane's turn-104 lesson, written at the same time, is E253 (Inner Child), with the help-request rules near the top, and its turn-105 lesson, E256 (Inner Child), is beside it, with the turn-106 lessons E257 and E258 (Inner Child) after it and the turn-107 lesson E261 (Inner Child) after those. The Nibbāna and community lanes' E256 to E259 above came at the same time as E257 and E258 (their message of 2026-10-24 19:52 UTC), the community lane's E260 after them (23:40 UTC), and its E261 at the same time as this lane's (its message of 2026-10-25 00:27 UTC); both sets keep their numbers, so cite this lane's as "E261 (Inner Child)". The hypnosis guide lane's E262 and E263 above came after them (its message of 2026-10-25 01:01 UTC), and its E264 and E265 after those (14:40 UTC). This lane's turn-109 lesson, written at the same time as those two, keeps its number too: cite it as "E264 (Inner Child)"; it is with the others near the top, and so are its turn-110 to turn-112 lessons, E266 to E271 (Inner Child). The hypnosis guide lane's E268 to E270 came at the same time as the turn-111 ones (its message of 2026-10-25 19:42 UTC); both sets keep their numbers, so cite this lane's as "E268 (Inner Child)" to "E271 (Inner Child)". The hypnosis guide lane's E272 to E274 came after them (its message of 23:05 UTC), its E275 after those (the recheck read after its message of 23:50 UTC), its E276 after that (batch 479's recheck, read after its message of 2026-10-26 00:54 UTC), its E277 to E279 after it (its message of 12:43 UTC), and its E280 to E283 after those (its message of 2026-10-27 15:37 UTC). The next lesson in either lane is E284.)
+(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". E247 and E248, after them, are this lane's turn-102 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E247 to E249 above (their message of 2026-10-23 18:13 UTC); both sets keep their numbers, so cite these two as "E247 (Inner Child)" and "E248 (Inner Child)". E250 to E252, the last ones here, are this lane's turn-103 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E250 and E251 above (their message of 2026-10-23 20:35 UTC); both sets keep their numbers, so cite these three as "E250 (Inner Child)" to "E252 (Inner Child)". The hypnosis guide, Nibbāna and community lanes' own E252 to E255 above came after them (their messages of 2026-10-23 22:29 and 23:28 UTC). This lane's turn-104 lesson, written at the same time, is E253 (Inner Child), with the help-request rules near the top, and its turn-105 lesson, E256 (Inner Child), is beside it, with the turn-106 lessons E257 and E258 (Inner Child) after it and the turn-107 lesson E261 (Inner Child) after those. The Nibbāna and community lanes' E256 to E259 above came at the same time as E257 and E258 (their message of 2026-10-24 19:52 UTC), the community lane's E260 after them (23:40 UTC), and its E261 at the same time as this lane's (its message of 2026-10-25 00:27 UTC); both sets keep their numbers, so cite this lane's as "E261 (Inner Child)". The hypnosis guide lane's E262 and E263 above came after them (its message of 2026-10-25 01:01 UTC), and its E264 and E265 after those (14:40 UTC). This lane's turn-109 lesson, written at the same time as those two, keeps its number too: cite it as "E264 (Inner Child)"; it is with the others near the top, and so are its turn-110 to turn-112 lessons, E266 to E271 (Inner Child). The hypnosis guide lane's E268 to E270 came at the same time as the turn-111 ones (its message of 2026-10-25 19:42 UTC); both sets keep their numbers, so cite this lane's as "E268 (Inner Child)" to "E271 (Inner Child)". The hypnosis guide lane's E272 to E274 came after them (its message of 23:05 UTC), its E275 after those (the recheck read after its message of 23:50 UTC), its E276 after that (batch 479's recheck, read after its message of 2026-10-26 00:54 UTC), its E277 to E279 after it (its message of 12:43 UTC), its E280 to E283 after those (its message of 2026-10-27 15:37 UTC), and its E284 to E290 after those (its message of 2026-10-28 15:20 UTC). The next lesson in either lane is E291.)
 
 The checks: `articles/inner-child-therapy/experiments/t99-api/API-RESULTS-1.jsonl` (turn 99's nine) and `articles/inner-child-therapy/experiments/t100-api/API-CHECKS.md` (this turn's eight, each with its public Pangram page). Four rewrites read 100% Human alone and in their stretch; five of my eight calls were right, and two of the misses were pessimism about a rewrite.
 

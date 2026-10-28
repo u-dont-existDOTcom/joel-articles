@@ -217,7 +217,7 @@ BRIEF = '''You are a cold first-time reader of part {k} of {n} of {about}. {ques
 What counts, from his own fixes:
 {examples}
 Other things that count: several claims packed into one sentence; a chain of abstract nouns ("the functional coordination through which ..."); a foreign or technical term the reader needs but that isn't explained there or earlier in your part; a "this", "that" or "it" whose referent isn't clear; a step missing from the reasoning, so the conclusion doesn't follow for the reader; a term used before it's explained; a sentence whose point you can't state after reading it twice.
-What doesn't count: his jokes, emoji, slang, exclamations and casual grammar (that's his voice); a style you'd do differently; a term explained nearby; a long passage that is clear; a claim you disagree with (don't fact-check); a "this", "that", "it" or "do that" whose meaning is in the words right before it (he, on "but it does sort of do that" right after "remove anything from laws of nature": "do that" is clearly referring to "remove anything from the laws of nature" directly before it). Before you flag a passage, read the sentence before it and ask whether a reader really stops; flag only what you're sure of.
+What doesn't count: his jokes, emoji, slang, exclamations and casual grammar in his own words (that's his voice; a rewrite's casual grammar is not his voice, and a sentence that doesn't parse counts whoever wrote it); a style you'd do differently; a term explained nearby; a long passage that is clear; a claim you disagree with (don't fact-check); a "this", "that", "it" or "do that" whose meaning is in the words right before it (he, on "but it does sort of do that" right after "remove anything from laws of nature": "do that" is clearly referring to "remove anything from the laws of nature" directly before it). Before you flag a passage, read the sentence before it and ask whether a reader really stops; flag only what you're sure of.
 
 How to write PLAIN: change the words that stop the reader, the way he did in the last example above, rather than adding words around them. A parenthetical is only for a term the reader can't know, at most one per passage; never explain a phrase whose meaning is already there, and never pile glosses into one sentence (a version of his with two parentheticals added was, he said, "actually harder to read now"). Keep his order, his images and his voice.
 
@@ -447,7 +447,43 @@ def locate(text, quote):
     return None
 
 
-def collect(outdir):
+def _same_passage(a, b):
+    """Two quotes of the same passage: one inside the other, or most of their words shared."""
+    a, b = re.sub(r'\W+', ' ', a.lower()).split(), re.sub(r'\W+', ' ', b.lower()).split()
+    if not a or not b:
+        return False
+    sa, sb = ' '.join(a), ' '.join(b)
+    if sa in sb or sb in sa:
+        return True
+    return len(set(a) & set(b)) >= 0.6 * min(len(set(a)), len(set(b)))
+
+
+def carry_prior(items, prior):
+    """Items of an earlier run of the same read (PRIOR/ITEMS.json) that this run doesn't have: kept, marked "carried",
+    with the earlier key, so a rerun never loses a finding (gate E287: the hypnosis guide's clarity read of 2026-10-25
+    flagged the agreement list in its first run, item 7.9; the page was built from the rerun alone, which didn't)."""
+    old = json.loads((pathlib.Path(prior) / 'ITEMS.json').read_text(encoding='utf-8'))
+    carried = []
+    for x in old:
+        if x.get('status') == 'drop' or any(_same_passage(x['quote'], y['quote']) for y in items):
+            continue
+        y = dict(x)
+        y['carried_from'] = '%s %s' % (pathlib.Path(prior).name, x.get('key', ''))
+        y['key'] = 'c.%s' % x.get('key', len(carried) + 1)
+        y['status'] = 'check'
+        carried.append(y)
+    return carried
+
+
+def earlier_runs(outdir):
+    """Sibling folders that look like an earlier run of this read (clarity, clarity2, ...) and have items."""
+    outdir = pathlib.Path(outdir).resolve()
+    stem = re.sub(r'\d+$', '', outdir.name)
+    return [d for d in sorted(outdir.parent.iterdir()) if d != outdir and d.is_dir()
+            and re.sub(r'\d+$', '', d.name) == stem and (d / 'ITEMS.json').exists()]
+
+
+def collect(outdir, prior=()):
     outdir = pathlib.Path(outdir)
     text = (outdir / 'ARTICLE.txt').read_text(encoding='utf-8')
     old = {}
@@ -511,6 +547,8 @@ def collect(outdir):
             items.append(rec)
     # what the worker's own check found and added (gives "by": "mine") stays when the readers' reports are collected again
     items += [x for x in old.values() if x.get('by') == 'mine']
+    for p in prior:
+        items += carry_prior(items, p)
     (outdir / 'ITEMS.json').write_text(json.dumps(items, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     return items
 
@@ -786,6 +824,8 @@ def main(argv=None):
                         "(part 5: where the article has no point of view of its own, the omission test first)")
     c = sub.add_parser('collect')
     c.add_argument('dir')
+    c.add_argument('--prior', nargs='*', default=[],
+                   help='earlier runs of the same read: their findings this run lacks are carried over (gate E287)')
     p = sub.add_parser('page')
     p.add_argument('dir'); p.add_argument('--out', required=True); p.add_argument('--title'); p.add_argument('--intro')
     a = ap.parse_args(argv)
@@ -794,9 +834,15 @@ def main(argv=None):
         print('%s: %d characters in %d parts (%s); give each BRIEF-k.txt to a fresh reader' % (
             a.dir, len(text), len(ps), ', '.join(str(len(x)) for x in ps)))
     elif a.cmd == 'collect':
-        items = collect(a.dir)
-        lost = [x['key'] for x in items if not x['found']]
-        print('%d items from the readers%s' % (len(items), ('; not found word for word: ' + ', '.join(lost)) if lost else ''))
+        missing = [str(d) for d in earlier_runs(a.dir) if str(d) not in {str(pathlib.Path(x).resolve()) for x in a.prior}]
+        if missing:
+            print('warning: %s look like earlier runs of this read; pass them with --prior so their findings are kept '
+                  '(gate E287)' % ', '.join(missing))
+        items = collect(a.dir, a.prior)
+        lost = [x['key'] for x in items if not x.get('found', True)]
+        carried = [x['key'] for x in items if x.get('carried_from')]
+        print('%d items from the readers%s%s' % (len(items), ('; not found word for word: ' + ', '.join(lost)) if lost else '',
+                                                 ('; carried from earlier runs: ' + ', '.join(carried)) if carried else ''))
     else:
         md, n = page(a.dir, a.title, a.intro)
         pathlib.Path(a.out).write_text(md, encoding='utf-8')

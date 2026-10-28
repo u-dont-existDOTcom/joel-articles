@@ -1,48 +1,65 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-27, after your message of 15:37 UTC (both parts of the recheck read). **Open questions: 3** (21, 22
-and 23, all on one page now). **For you to do**: the editor page. The questions are at the top, with their options and my
-default; under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠 something for you to
-do; 🔵 next or in progress; 🟢 done or decided.
+Last updated 2026-10-28, after your messages of 15:20 UTC ("the guide itself is now too incomprehensible") and 16:05 UTC
+("let's repair the process durably"). **Open questions: 2** (24, the fix page, and 25). **For you to do**: the fix page.
+The questions are at the top, with their options and my default; under them is what you decided and what I did with it.
+Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts can
 read and update it. Every file it points to is a link.
 
 ## Open questions
 
-All three are on **[the Hypnosis Guide Editor](https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG)**, the marking page with your whole guide, each card under its
-paragraph and the words it's about highlighted. It's published from the account you wrote from on 27 October, so it
-opens there; [every card as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261027/review/EDITOR-27.md) is in Git for the other account.
-
-**🟣 21. Emulate's fixes, 34 cards.** In your newest check ([part A](https://www.pangram.com/feed/a67b13cb-7267-466e-9350-e70836380857), [part B](https://www.pangram.com/feed/9fd5c1d9-6766-439e-ba4b-8b8eb5108ee4)) 28 of them read Human at High
-confidence where they stand: the nine from batches 479 and 480 that still do, and 19 of batch 481's 24, each of which
-read Medium or Low before. Six read Medium or Low: four I'd still approve (each reads better than what it replaces, or
-it's a fix of a line that read AI), and two I'd now leave (hidden until you tick "The ones I'd leave"): "Influence
-without the conscious mind" reads no better than the wording it replaces, and "The smaller asks" gains little and loses
-your ready-to-say lines.
-- a) (my default) You go through the cards: Approve, Reject or Revise. Nothing changes until you've decided.
+**🟣 24. The comprehension fixes, 118 cards** on **[the Hypnosis Guide Fixes page](https://claude.ai/artifact/BC6AzFGSwc6MSgoWR2upLd)**, your whole guide with
+each fix highlighted where it is and its card under the paragraph ([every card as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261028/comprehension/REVIEW-28.md), for the other account).
+114 are fixes, one card per paragraph (25 where a sentence doesn't read, 12 where a point was lost or changed, 77
+small snags), each with my advice; 4 are passages in your own words where a reader stumbled, to keep or edit. Every fix was read by a fresh reader beside your published version before it went on the page.
+- a) (my default) You go through the cards: Approve, Reject or Revise, and Keep or Edit it on the ones in your own words.
 - b) You decide the ones you want to, and say "take your advice on the rest".
 
-**🟣 22. Everything else that reads under High, 54 cards.** Every other place your newest check read Human at Medium or
-Low confidence, each with Keep and Edit it (Edit opens the paragraph for you to change in place). 35 are short lines (list
-letters, one-word answers, short script lines), where my advice is Keep: Pangram rarely gives a line that short its top
-label. 19 are longer stretches with no fix yet, where it's your call: your own words, or keep it and I try Emulate's
-re-run on it (batch 482) and bring you a card.
-- a) (my default) You go through them; every edit you make goes into the next recheck, and anything you leave unmarked
-  stays as it is.
-- b) "Keep all the short lines": I take Keep on the 35 and you look only at the 19.
+**🟣 25. When a clear fix reads AI, or Human below High, in the recheck after your answers, which wins?**
+- a) (my default) Clarity: the clear version stays, and I look for one that is both clear and High; where there isn't
+  one, it comes to you with both versions.
+- b) Pangram: the version that reads High stays, as long as it isn't garbled, and the clear one comes to you.
 
-**🟣 23. The hypnosis audit**, the one AI window ([part B](https://www.pangram.com/feed/9fd5c1d9-6766-439e-ba4b-8b8eb5108ee4): AI, High, 120 words), as one card near the end of the
-page. Emulate's three versions keep four of its seven questions but change what questions 2, 3 and 6 ask, so none of them
-is in; the card shows its closest version for ideas.
-- a) (my default) Keep your list as it is: [part B](https://www.pangram.com/feed/9fd5c1d9-6766-439e-ba4b-8b8eb5108ee4) reads Mostly Human with it.
-- b) Edit it on the card: your own words for questions 2, 3 and 6 at least; I check your version in the next recheck.
+**🔵 On hold: the 83 cards of [the 27 October editor page](https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) you hadn't marked** (questions 21 to 23); you don't need
+to mark them now. Most of them offer Emulate's re-runs, and new Emulate words now get the same read beside your
+published version before they come to you (lesson E288). Nothing changes until then.
 
 ## For you to do
 
-- 🟠 **[The Hypnosis Guide Editor](https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG)**: go through the cards (the progress bar counts what you've decided), then
+- 🟠 **[The Hypnosis Guide Fixes page](https://claude.ai/artifact/BC6AzFGSwc6MSgoWR2upLd)**: go through the cards (the progress bar counts what you've decided), then
   click "Save / send", then "Copy my answers", and paste them to me (or "Save them as a file" and attach it). Your answers
   also save on the page as you click.
+
+## Your messages of 2026-10-28 15:20 and 16:05 UTC, and what I did
+
+Your messages, word for word: [15:20](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261028/joel-20261028-1520-message.txt) (with your answers file) and [16:05](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261028/joel-20261028-1605-message.txt).
+
+- 🟢 **Your six answers are in the guide**: HG-S11 and HG-S12 as approved; ED-A1, ED-A3, ED-A5 and HG-S15 in your words.
+  ED-A5's one sentence replaces its whole paragraph, and in HG-S15 "can are" is now "are" (the one obvious typo).
+- 🟢 **"we went wrong somewhere": where.** On 18 October Emulate rewrote most of the guide in one night; second readers
+  reported 814 problems, I fixed the 260 that changed what a reader would do or believe and let 554 stand as wording or
+  tone, so each section kept reading Human. Your rule of 29 September (an Emulate version has to make at least as much
+  sense as yours) was never checked. On 25 October the strict Emulate check's readers flagged many of these spots but
+  rated 743 of 808 "small", and I went through only the 65 that "mattered". The comprehension check of 25 October read the
+  guide on its own, told its readers to let casual grammar stand as your voice, and lost its first run's flag on the
+  agreement list when I reran it. On 27 October I advised you to approve Emulate's re-run of that list (HG-S15).
+- 🟢 **"is this whole guide messed up now?": how much** ([the audit](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261028/comprehension/AUDIT.md)). Fresh readers went through the whole guide
+  beside your published version: 281 findings. By my check, 41 real problems in 38 of 591 paragraphs (about 1 in 16),
+  118 small snags in 95 more, 6 in your own words, and 116 weren't problems (your terms, your cuts of 25 October, or as
+  clear as yours). 29 of the 41 had been flagged on 25 October and left as small.
+- 🟢 **The fixes**: fresh writers fixed each real problem and the small snags a few words could fix, your published
+  wording first; I went through every fix (some changed, some dropped); fresh readers checked each fixed paragraph beside
+  yours. All 114 fixed paragraphs passed: clear, saying what yours says, and at least as easy to follow as
+  before (3 after a second fix). They're question 24.
+- 🟢 **"repair the process durably"**: the read is now a gate. Every paragraph of the guide has to be yours as published,
+  your own words, or read beside your published version at its present words, and every finding a reader rated 2 or 3
+  needs a recorded fate; a sentence a reader can't follow can't be "kept" on my say-so. `lane_push.py` runs the gate
+  before every push and stops on a failure (the guide's gate is [COMPARE-GATE.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/COMPARE-GATE.json)). The clarity read no
+  longer calls a rewrite's grammar your voice and keeps an earlier run's findings; the triage tool refuses to let an
+  unclear sentence stand; new words of any kind get the read before they become a card. The same rules are in the shared
+  files for every article, with lessons E284 to E290 ([the gate's lessons](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md)).
 
 ## Your message of 2026-10-27 15:37 UTC, and what I did
 
