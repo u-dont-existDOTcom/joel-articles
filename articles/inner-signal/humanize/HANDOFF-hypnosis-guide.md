@@ -18,6 +18,15 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-10-28: comprehension comes first, and the comparison gate enforces it.** Joel, 15:20 UTC: "the guide itself is
+  now too incomprehensible, we went wrong somewhere"; 16:05 UTC: "let's repair the process durably so that can't happen
+  again also". Every paragraph of `HUMANIZED-SO-FAR.md` must be his as published, his own words, or read beside his text
+  by a comparative read at its present words (`tools/humanization/compare_read.py`), and every finding a reader rated 2
+  or 3 needs a fate with a reason: `COMPARE-GATE.json` in this folder, which `lane_push.py` runs before every push and
+  which stops it (`--unread-ok "why"` only with the reason in the commit). New words of any kind (an Emulate re-run, a
+  reader's edit, a writer's fix) are read beside his text before they become a card (E288), and a garbled or unclear
+  sentence is fixed or goes to him, never let stand for a Pangram reading (E285; `tools/triage_apply.py` refuses it).
+  The audit that started it: `fix-20261028/comprehension/AUDIT.md`. Lessons E284 to E290.
 - **2026-10-22: the Inner Child lane's note (`NOTE-FROM-INNER-CHILD-LANE-20261022.md`) is handled.** Part 1: the
   drafts are renamed without "Pangram" ("TEMP recheck A (hypnosis guide) - do not publish", "TEMP recheck B (hypnosis
   guide appendices) - do not publish"; the screening post is "TEMP screen (hypnosis guide samples) - do not publish"),
@@ -111,11 +120,14 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: **his answers on the Hypnosis Guide Editor** (https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG, published from the account the 2026-10-27 15:37 UTC
-session ran in; its cards as text in Git, `fix-20261027/review/EDITOR-27.md`): question 21 (34 cards of Emulate's
-fixes), 22 (54 stretches under High to keep or edit) and 23 (the audit, to keep or edit). The pages his other account
-published (the old marking page TpZbfBZcwuj8PL7KFLhmjP and the "Hypnosis Guide Questions" view 8o79MFm9vSpyMGrAeArZYx)
-are stale; this account can't open or republish them, so point him to `OWNER-QUESTIONS.md` on GitHub and the editor page.
+The guide: **his answers on the Hypnosis Guide Fixes page** (https://claude.ai/artifact/BC6AzFGSwc6MSgoWR2upLd, published from the account the 2026-10-28
+sessions ran in; its cards as text in Git, `fix-20261028/comprehension/REVIEW-28.md`): question 24 (114 fixes from the
+comparative read, one card per paragraph, and 4 passages in his own words to keep or edit) and question 25 (when a clear
+fix reads AI or below High in the recheck, which wins; my default clarity). The 83 cards of the Hypnosis Guide Editor
+(https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) he hadn't marked, questions 21 to 23, are on hold until their new
+words have had the comparative read (E288). The pages his other account published (the old marking page
+TpZbfBZcwuj8PL7KFLhmjP and the "Hypnosis Guide Questions" view 8o79MFm9vSpyMGrAeArZYx) are stale; this account can't
+open or republish them, so point him to `OWNER-QUESTIONS.md` on GitHub and the fix page.
 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
@@ -202,7 +214,38 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-10-27, after Joel's message of 15:37 UTC: batch 481's recheck read; questions 21 to 23 on one editor page)
+## Next step (2026-10-28, after Joel's messages of 15:20 UTC, "too incomprehensible", and 16:05 UTC, "repair the process durably")
+
+His messages, word for word: `fix-20261028/joel-20261028-1520-message.txt` (with his answers file,
+`fix-20261028/ANSWERS-20261028-1519.json`) and `fix-20261028/joel-20261028-1605-message.txt`. Done (pull request __PR__;
+STATUS.md's entry of 2026-10-28 has every file):
+- **His six answers are in** `HUMANIZED-SO-FAR.md` (`fix-20261028/comprehension/make_candidate.py --answers-only`).
+- **The comparative read** of the whole guide (`fix-20261028/comprehension/`, AUDIT.md): 41 real problems in 38
+  paragraphs, 118 small snags, 6 in his own words, 116 not problems, each checked by me (CHECKED.json).
+- **The fixes** (fix/: the writers' FIXES-k.json, my MY-REVIEW.json, KEPT.json; CANDIDATE.md and CHANGES.json; the fresh
+  readers' check, verify/) and **the fix page**, question 24 ([Hypnosis Guide Fixes](https://claude.ai/artifact/BC6AzFGSwc6MSgoWR2upLd), published from this account; `build_page.py`: REVIEW-28.json, .html,
+  .artifact.html, .md).
+- **The durable repair**: `tools/humanization/compare_read.py` and its gate, run by `lane_push.py` (this lane's
+  `COMPARE-GATE.json`; the records are `fix-20261028/comprehension/READ-RECORD.json` and `verify/READ-RECORD.json`, written
+  by `write_records.py` and `collect_verify.py`); `clarity_read.py collect --prior`; `tools/triage_apply.py`'s refusal;
+  lessons E284 to E290 and the shared rules.
+
+Next:
+1. **When his answers to 24 come** (the page's JSON pasted, or its file): save them word for word in `fix-20261028/`,
+   then a script (on the pattern of `fix-20261025/review/apply_answers.py`) puts them into `HUMANIZED-SO-FAR.md` from
+   CHANGES.json: an approved card's paragraph as the card shows it; his Revise text word for word (obvious typos only);
+   for a card in his own words, Keep changes nothing and his version replaces the paragraph; a card he leaves unmarked
+   follows my advice only if he says so. Every paragraph whose words change gets a read beside his published version
+   (`make_verify.py`'s pattern) unless the words are his, and `write_records.py` / `collect_verify.py` update the records
+   so the gate passes; the fates of the audit's findings change from "his" (on his page) to "fixed" or "his" (his answer).
+2. **Then the whole-guide recheck**, both parts through the Substack drafts (`fix-20261026/b481/recheck/make_recheck.py`'s
+   pattern, secret links, rendered check), predicted part by part. A fix that reads AI or below High goes by his answer
+   to 25 (my default: clarity wins, then a version that is both, or his choice).
+3. **The 83 held cards of the editor page** (questions 21 to 23): their Emulate words get the comparative read beside his
+   published text (`compare_read.py make --words 1300` on the paragraphs, then collect, then my check) before any of them
+   comes back to him (E288).
+
+## Earlier next step (2026-10-27, after Joel's message of 15:37 UTC: batch 481's recheck read; questions 21 to 23 on one editor page)
 
 His message, word for word: `fix-20261027/joel-20261027-1537-message.txt` (the two result links; "21. your list of cards
 was a json file? i can't read that"; "22. give me the editor interface so i can see and edit what needs editing"; "23. i

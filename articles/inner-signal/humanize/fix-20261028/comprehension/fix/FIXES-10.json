@@ -1,0 +1,16 @@
+{"part": 10,
+ "fixes": [
+  {"p": 654, "findings": ["F10a.1"], "replace": "slow it down to the scale of the thing", "with": "slow it down to the scale of its consequences", "how": "rewrite", "note": "says to slow the action to the size of its consequences; 'adult's eyes' left as is, since the check names only the scale"},
+  {"p": 668, "findings": ["F10a.3"], "replace": "hostage, and the responsibility stays", "with": "hostage after responsibility has been faced", "how": "published", "note": "ends the run-on with his point: stop holding yourself hostage once responsibility has been faced"},
+  {"p": 668, "findings": ["F10a.4"], "replace": "how whoever did it got to be", "with": "how you got to be", "how": "rewrite", "note": "makes clear it's you who did it, not someone else"},
+  {"p": 670, "findings": ["F10a.5"], "replace": "Borrowed is fine", "with": "Borrowed Nurturer and Protector is fine", "how": "rewrite", "note": "names what can be borrowed (Nurturer and Protector), so it can't be read as borrowed substances"},
+  {"p": 671, "findings": ["F10a.6"], "replace": "Do not do it", "with": "Do not use altered states", "how": "published", "note": "names altered states as what not to use to force a revelation"},
+  {"p": 672, "findings": ["F10a.7"], "replace": "OPENED themselves up to something", "with": "OPENED themselves up to love", "how": "rewrite", "note": "names love as what was opened to, so the contrast that follows is about love"},
+  {"p": 672, "findings": ["F10a.8"], "replace": "Let that experience inform what you OPEN yourself up to.", "with": "Let that experience widen what seems possible while you build usable access.", "how": "published", "note": "restores what to do with a past opening: let it widen what seems possible while you build access you can use"},
+  {"p": 672, "findings": ["F10a.9"], "replace": "give it to the child", "with": "give that love to the child", "how": "rewrite", "note": "says it's love you give the child"},
+  {"p": 700, "findings": ["F10b.2"], "replace": "You don’t have to find out", "with": "Neither response proves what it is. You don’t have to find out", "how": "rewrite", "note": "restores that neither response proves what it is; 'guard' kept, as it is the guide's term"},
+  {"p": 702, "findings": ["F10b.3"], "replace": "your own lesser self", "with": "your own threatened self", "how": "rewrite", "note": "names the threatened self you collapse into, instead of the vague 'lesser self'"},
+  {"p": 715, "findings": ["F10b.6"], "replace": "may try to respond by giving you a sense that you’re special, trying", "with": "don’t always attack through fear. They may also try to give you a sense that you’re special, try", "how": "rewrite", "note": "restores the contrast with fear, drops the dangling 'respond', makes the list parse"},
+  {"p": 716, "findings": ["F10b.7"], "replace": "Unless the “guidance” you’re trying to give me can help me be more beautiful, honest, relational, humble, and useful in my everyday life, I don’t need it.”", "with": "Guidance worth keeping should make ordinary life more beautiful, honest, relational, humble, reliable, and useful to other people.", "how": "published", "note": "his general rule for guidance, not a near-repeat of the script, with no stray closing quote"}
+ ],
+ "not_fixed": []}

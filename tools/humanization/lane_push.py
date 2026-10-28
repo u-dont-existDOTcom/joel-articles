@@ -3,7 +3,7 @@
 to fix that right?").
 
   python3 tools/humanization/lane_push.py "Commit subject" [--article inner-child-therapy] [--add PATH ...]
-                                           [--pr "Pull request title" --pr-body FILE]
+                                           [--pr "Pull request title" --pr-body FILE] [--unread-ok "why"]
 
 1. registers the article's artifacts (scripts/register_article_artifacts.py --write), stages the article folder,
    articles/INDEX.json and any --add paths, and commits with the subject, adding the trailer lines in
@@ -16,6 +16,14 @@ to fix that right?").
 5. with --pr, opens a pull request into main when none is open for the branch, or names the open one;
 6. says whether the branch's open pull request can merge, and when main has moved past it with a conflict, says so
    (Joel, 2026-10-22 21:41 UTC: "the pr has conflicts"; main had taken another lane's pull request after the merge).
+
+Before any of that, the comparison gate (gate E284): for every COMPARE-GATE.json in the article's folder, every paragraph
+of the article must be his as published, his own words, or read beside his text by a comparative read at its present
+words, and every finding of severity 2 or 3 still in it needs a fate (tools/humanization/compare_read.py gate). On a
+failure nothing is committed or pushed, unless --unread-ok "reason" is given; the reason goes into the commit message.
+Joel, 2026-10-28 16:05 UTC, after the hypnosis guide had become "too incomprehensible" through rewrites nobody read
+beside his text: "let's repair the process durably so that can't happen again also". An article with a lane folder of
+rewritten text (a HUMANIZED-*.md) and no COMPARE-GATE.json gets a warning.
 
 It prints the pushed commit, which the browser's raw.githubusercontent.com fetches use.
 """
@@ -71,11 +79,35 @@ def prune(article):
     return gone
 
 
-def commit(subject, paths):
+def compare_gate(article, unread_ok=None):
+    """Run every COMPARE-GATE.json of ARTICLE's folder (compare_read.py gate); stop on a failure unless UNREAD_OK gives a
+    reason. Returns the note for the commit message, or ''."""
+    folder = REPO / 'articles' / article
+    configs = sorted(folder.rglob('COMPARE-GATE.json'))
+    if not configs:
+        if any(folder.rglob('HUMANIZED-*.md')):
+            print('warning: articles/%s has rewritten text (HUMANIZED-*.md) and no COMPARE-GATE.json, so nothing checks '
+                  'that every rewritten paragraph was read beside his text (docs/FIXING-AN-ARTICLE.md section 5)' % article)
+        return ''
+    failed = []
+    for c in configs:
+        r = run([sys.executable, 'tools/humanization/compare_read.py', 'gate', '--config', str(c.relative_to(REPO))],
+                check=False, timeout=300)
+        print(r.stdout.strip()[-3000:])
+        if r.returncode:
+            failed.append(str(c.relative_to(REPO)))
+    if failed and not unread_ok:
+        sys.exit('not committed or pushed: the comparison gate failed for %s. Read the unread paragraphs beside his text '
+                 '(compare_read.py) and give every open finding a fate, or push anyway with --unread-ok "why"'
+                 % ', '.join(failed))
+    return ('Unread-ok (the comparison gate failed for %s): %s' % (', '.join(failed), unread_ok)) if failed else ''
+
+
+def commit(subject, paths, note=''):
     run(['git', 'add', '-A'] + paths)
     if run(['git', 'diff', '--cached', '--quiet'], check=False).returncode == 0:
         return False
-    msg = subject
+    msg = subject + ('\n\n' + note if note else '')
     trailers = os.environ.get('LANE_COMMIT_TRAILERS', '').strip()
     if trailers:
         msg += '\n\n' + trailers
@@ -155,6 +187,7 @@ def parser():
     ap.add_argument('--add', nargs='*', action='extend', default=[], help='more paths to stage (tools, tests, docs)')
     ap.add_argument('--pr', help='open a pull request with this title when none is open for the branch')
     ap.add_argument('--pr-body', help='the pull request body (a file)')
+    ap.add_argument('--unread-ok', help='push although the comparison gate fails, and say why in the commit message')
     return ap
 
 
@@ -164,8 +197,9 @@ def main(argv=None):
     if a.pr and not a.pr_body:
         ap.error('--pr needs --pr-body')
     paths = ['articles/%s' % a.article, 'articles/INDEX.json'] + a.add
+    note = compare_gate(a.article, a.unread_ok)
     register(a.article)
-    made = commit(a.subject, paths)
+    made = commit(a.subject, paths, note)
     gone = prune(a.article)
     fixed = commit('INDEX hash', paths)
     preflight()

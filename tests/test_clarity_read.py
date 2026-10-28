@@ -230,6 +230,31 @@ KEEPS: every sentence
             self.assertIn('- ARTICLE-HINTED: the warmth line hints at a moment', md)
             self.assertIn('**Question for you:** Has grief turned into warmth for you?', md)
 
+    def test_a_rerun_keeps_the_first_runs_findings(self):
+        # gate E287: the hypnosis guide's first clarity run flagged the agreement list (7.9); the page was built from
+        # the rerun alone, which didn't, so the flag never reached Joel
+        with tempfile.TemporaryDirectory() as t:
+            t = pathlib.Path(t)
+            first, second = t / 'clarity', t / 'clarity2'
+            for d in (first, second):
+                d.mkdir()
+            agreement = 'Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent.'
+            (first / 'ITEMS.json').write_text(json.dumps([
+                {'key': '7.9', 'quote': agreement, 'score': '2', 'status': 'keep'},
+                {'key': '7.10', 'quote': 'A line both runs found, word for word.', 'score': '1', 'status': 'keep'},
+                {'key': '7.11', 'quote': 'A flag the first run dropped itself.', 'score': '1', 'status': 'drop'}]))
+            items = [{'key': '1.1', 'quote': 'A line both runs found, word for word.', 'score': '2', 'status': 'keep'}]
+            carried = C.carry_prior(items, first)
+            self.assertEqual([x['quote'] for x in carried], [agreement])
+            self.assertEqual(carried[0]['status'], 'check')
+            self.assertEqual(carried[0]['carried_from'], 'clarity 7.9')
+            self.assertEqual(C.earlier_runs(second), [first.resolve()])
+
+    def test_a_rewrites_casual_grammar_is_not_his_voice(self):
+        # gate E286: the brief let readers excuse Emulate's casual grammar as Joel's voice
+        self.assertIn("casual grammar in his own words", C.BRIEF if hasattr(C, 'BRIEF') else open(C.__file__).read())
+        self.assertIn("a rewrite's casual grammar is not his voice", open(C.__file__).read())
+
     def test_every_brief_says_to_work_quickly(self):
         """E262: the reader of the hypnosis guide's first part ran out of output deliberating; every kind of brief now says
         to work quickly, as the edit and repeats briefs did."""

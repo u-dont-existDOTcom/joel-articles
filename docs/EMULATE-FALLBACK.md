@@ -180,6 +180,14 @@ The aim is a paragraph that keeps as many of our sentences as it can and takes f
       that he never said ("I do not use NLP with people when there isn't enough time" was Emulate's, in his voice, and
       went in), what it lost, and its slips. Check every finding against the texts; what isn't a mechanical fix goes on
       the marking page (`AGENTS.md`), with his version beside it.
+   0a. **The comparative read for sense (gate E284).** The strict check's readers look for what was added, lost or
+      slipped, and rate it; in the hypnosis guide they rated a list with no verb "small" ("Drops his point that these
+      four are separate things."), and 743 of their 808 findings were small and stayed. So then a fresh reader goes
+      through each part beside his text, sentence by sentence, for every place the result reads worse: garbled,
+      unclear, lost or vaguer (`tools/humanization/compare_read.py`). Rule 4 of his choosing rule above ("it makes at
+      least as much sense") is checked here and never assumed. Every finding is fixed or goes to him; none stays
+      because fixing it might cost the Pangram reading (gate E285). Joel, 2026-10-28 15:20 UTC: "the guide itself is
+      now too incomprehensible, we went wrong somewhere".
    1. The two-way preservation trace, by a fresh agent that hasn't seen the notes.
    2. The whole-article stance check (`tools/humanization/stance_check_prompt.py`), by a fresh agent with the whole published article: Emulate turned "without pretending that people arrive emotionally finished" into "where people don't come in pre-healed" in community section 3, nearly the opposite of what Joel wants, and only a check against the whole article shows that (Joel, 2026-10-02: "Did the reviewers not look at the article?").
    3. Sense (S1 to S6), grounding and MISFIRES, the bans, the tell ledger and architecture.

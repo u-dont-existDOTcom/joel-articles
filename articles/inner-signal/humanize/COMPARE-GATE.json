@@ -1,0 +1,14 @@
+{
+ "about": "The hypnosis guide's comparison gate (compare_read.py gate, run by lane_push.py; gates E284, E285): every paragraph of the guide so far is his as published, his own words, or read beside his text at its present words, and every finding a reader rated 2 or 3 has a fate.",
+ "article": "articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+ "original": "articles/inner-signal/humanize/source/published-20260928.md",
+ "records": [
+  "articles/inner-signal/humanize/fix-2026*/comprehension/READ-RECORD.json",
+  "articles/inner-signal/humanize/fix-2026*/comprehension/verify/READ-RECORD.json"
+ ],
+ "owner": [
+  "articles/inner-signal/humanize/fix-2026*/joel-*-message.txt",
+  "articles/inner-signal/humanize/fix-2026*/**/ANSWERS-*.json",
+  "articles/inner-signal/humanize/fix-2026*/EDITS-joel-*.json"
+ ]
+}
