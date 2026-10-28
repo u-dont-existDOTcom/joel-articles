@@ -217,7 +217,7 @@ Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the
 ## Next step (2026-10-28, after Joel's messages of 15:20 UTC, "too incomprehensible", and 16:05 UTC, "repair the process durably")
 
 His messages, word for word: `fix-20261028/joel-20261028-1520-message.txt` (with his answers file,
-`fix-20261028/ANSWERS-20261028-1519.json`) and `fix-20261028/joel-20261028-1605-message.txt`. Done (pull request __PR__;
+`fix-20261028/ANSWERS-20261028-1519.json`) and `fix-20261028/joel-20261028-1605-message.txt`. Done (pull request [258](https://github.com/u-dont-existDOTcom/joel-articles/pull/258);
 STATUS.md's entry of 2026-10-28 has every file):
 - **His six answers are in** `HUMANIZED-SO-FAR.md` (`fix-20261028/comprehension/make_candidate.py --answers-only`).
 - **The comparative read** of the whole guide (`fix-20261028/comprehension/`, AUDIT.md): 41 real problems in 38
