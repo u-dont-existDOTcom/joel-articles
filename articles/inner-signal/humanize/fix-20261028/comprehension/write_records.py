@@ -4,7 +4,8 @@ COMPARE-GATE.json.
 READ-RECORD.json: every paragraph the audit's readers read (the guide as it was when Joel wrote, commit 0a44911d), every
 finding, and its fate from my check (CHECKED.json) and the fix page (REVIEW-28.json): a real problem or a snag with a fix
 on his page is "his" (his answer decides), one he settled himself is "done", one that isn't a problem is "not", a snag
-with no fix is "kept" at my severity 1, his own words are "his". verify/READ-RECORD.json: the fixed paragraphs as the
+with no fix is "kept" at my severity 1, his own words are "his"; once his answers are in (APPLIED-28.json), an approved
+card's findings are "fixed" and a card he answered otherwise is "his". verify/READ-RECORD.json: the fixed paragraphs as the
 fresh readers of the fixes read them (make_verify.py, collect_verify.py).
 
   python3 articles/inner-signal/humanize/fix-20261028/comprehension/write_records.py
@@ -44,6 +45,14 @@ def main():
         for s in review['suggestions']:
             for f in s.get('findings', []):
                 card[f] = s['id']
+    # once his answers are in (apply_answers_28.py's APPLIED-28.json), a card's findings take his answer as their fate
+    applied = json.loads((HERE / 'APPLIED-28.json').read_text(encoding='utf-8')) if (HERE / 'APPLIED-28.json').exists() else None
+    answered = applied['fates'] if applied else {}
+    # a fix that only adds or changes punctuation (C-54's quote marks round a line said to oneself) leaves the words the
+    # gate compares, so its finding stays on record as kept at my severity, with the approved fix named
+    kept_fixes = json.loads((HERE / 'fix' / 'KEPT.json').read_text(encoding='utf-8'))['fixes']
+    marks_only = {f for f in {g for x in kept_fixes for g in x.get('findings', [])}
+                  if all(cr.loose(x['replace']) == cr.loose(x['with']) for x in kept_fixes if f in x.get('findings', []))}
     disp = {}
     for r in F:
         r['block_hashes'] = [cr.phash(c.NOW[i]['text']) for i in r['now_blocks']]
@@ -54,6 +63,16 @@ def main():
             disp[r['id']] = ['done', note]
         elif v[0] == 'not':
             disp[r['id']] = ['not', note]
+        elif r['id'] in card and card[r['id']] in answered:
+            ans = answered[card[r['id']]]
+            if (ans.startswith('approved') or ans.startswith('accepted')) and r['id'] in marks_only:
+                disp[r['id']] = ['kept', 'card %s, %s (%s); the fix changes only punctuation, which the comparison '
+                                 'leaves out, so the words stay on record: %s' % (card[r['id']], ans, applied['answers'], note),
+                                 v[1] if isinstance(v[1], int) else 1]
+            elif ans.startswith('approved') or ans.startswith('accepted'):
+                disp[r['id']] = ['fixed', 'card %s, %s (%s): %s' % (card[r['id']], ans, applied['answers'], note)]
+            else:
+                disp[r['id']] = ['his', 'card %s, his answer: %s (%s)' % (card[r['id']], ans, applied['answers'])]
         elif v[0] == 'his':
             disp[r['id']] = ['his', '%s%s' % (note, ' (card %s on his fix page)' % card[r['id']] if r['id'] in card else '')]
         elif r['id'] in card:
