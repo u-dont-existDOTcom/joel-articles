@@ -1,44 +1,57 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-29, after your messages of 18:18 UTC (the recheck's result links) and 18:55 UTC (Emulate).
-**Open questions: 1** (26, Emulate). **For you to do**: run Pangram on the new recheck's two links. The questions are at
-the top, with their options and my default; under them is what you decided and what I did with it. Colours: 🟣 a
-question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
+Last updated 2026-10-29 20:15 UTC, after batch 483 (the writers with the lessons from Emulate's fixes).
+**Open questions: 0.** **For you to do**: run Pangram on the new recheck's two links. The questions are at the top, with
+their options and my default; under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠
+something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts can
 read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 26. Emulate: re-up or not?** (your message of 18:55 UTC: "emulate is 50k words for $15 per month. i'm not sure it
-is worth re-upping on it. well maybe it is.")
-- a) **Wait for this recheck, then decide** (my default): it's the direct test of the writers without Emulate, since
-  none of its 21 new versions came from it. If most read Human, skip Emulate; if a third or more stay AI, take one month.
-- b) Re-up now: one month, used only on spots the writers have failed twice (a round here is a few hundred words, so
-  50k words covers dozens of rounds).
-- c) Don't re-up: the writers and the lessons below carry on alone.
+None right now. Question 26 (Emulate) stays withdrawn until this recheck shows whether the writers pass without it.
 
-**🔵 In progress: what Emulate's fixes teach.** The plan was to save every Emulate case and write down how it reshaped
-each flagged sentence ([its fallback doc](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/EMULATE-FALLBACK.md), section 5); that never happened. I'm going through the lane's own
-Emulate batches now: each flagged sentence beside the replacement Emulate wrote that passed, and the change in its
-shape, never its wording (its versions bent the meaning). Whatever our writers' brief lacks goes into the next round.
-
-**🔵 Next: the recheck's result.** Every version that reads Human goes on your marking page with how it read in place;
-whatever still reads AI or below High gets another try that is both clear and Human first (your rule for 25). The four
-suggestions for lines of your own, and your three-jobs line, are cards in your words with my suggestion beside them.
+**🔵 Next: the recheck's result.** Then your marking page: every version that reads Human and clear (batch 482's 11 and
+whatever passes now), ours as cards to approve, the suggestions for your own lines beside your words.
 
 **🔵 On hold: the 83 cards of [the 27 October editor page](https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) you hadn't marked** (questions 21 to 23). The guide has
-changed under them, so the recheck decides: a window that still reads below High in the guide as it is now gets a new
+changed under them, so the rechecks decide: a window that still reads below High in the guide as it is now gets a new
 try (read beside your published version before it becomes a card), and the old cards are retired. You don't need to
 mark them.
 
 ## For you to do
 
-- 🟠 **Run Pangram on the new recheck's two drafts** (the same two drafts, with batch 482's versions in): open each link
-  in your Chrome, click the Pangram label next to the author's name twice, then "View Full Analysis", and send me the
-  result's link ("Copy shareable link to result"):
-  - [Part A, the guide](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-29b&audience=only_paid&free_preview=false&freemail=) (TEMP recheck A; Pangram reads its first 99,999 characters; try 12)
-  - [Part B, from Your functioning in ordinary life is the feedback to the end](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-29b&audience=only_paid&free_preview=false&freemail=) (TEMP recheck B; try 10)
+- 🟠 **Run Pangram on the new recheck's two drafts** (the same two drafts, now with batch 483's versions and batch 482's
+  that read Human): open each link in your Chrome, click the Pangram label next to the author's name twice, then "View
+  Full Analysis", and send me the result's link ("Copy shareable link to result"):
+  - [Part A, the guide](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-29c&audience=only_paid&free_preview=false&freemail=) (TEMP recheck A; Pangram reads its first 99,999 characters; try 13)
+  - [Part B, from Your functioning in ordinary life is the feedback to the end](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-29c&audience=only_paid&free_preview=false&freemail=) (TEMP recheck B; try 11)
+
+## Batch 483, after the lessons (2026-10-29 20:15 UTC)
+
+- 🟢 **[What Emulate's fixes teach](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/emulate-lessons/LESSONS.md)**: our writers' brief already named what Emulate takes out; it missed
+  how Emulate builds what it puts in (it keeps the sentence count or joins, chains steps, lets a sentence run long, keeps a
+  list inside its sentence). In batch 482, versions that kept the sentence count read Human 9 times in 12, versions that
+  split 2 in 9. Much of Emulate's passing came from dropping what reads AI, which your clarity rule rules out.
+- 🟢 **The next try**: three fresh writers, given those rules and shown what read AI last time, rewrote the 9 stretches
+  of ours that still read AI and wrote suggestions for two lines of your own (the no-warmth line, and "All of these are
+  separate factors" with its list in brackets). No pick splits a sentence. A fresh reader read all 10 paragraphs beside
+  your published version: every one reads clearly and says what yours says.
+
+## Your message of 2026-10-29 19:22 UTC, and what I did
+
+Your message, word for word: [19:22](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/joel-20261029-1922-message.txt).
+
+- 🟢 **Batch 482's recheck, read.** Part A: [Mostly Human Written, 2.3% AI](https://www.pangram.com/feed/19fba559-fe64-46a3-92a1-ab87f728b4ba) (try 12): 158 windows,
+  20 AI (8 Low, 6 Medium, 6 High), 138 Human (62 High, 58 Medium, 18 Low). Part B: [Mostly Human Written, 3.9%
+  AI](https://www.pangram.com/feed/82470746-1d28-4ddc-ac19-276ca31c19f2) (try 10): 87 windows, 13 AI (4 Low, 4 Medium, 5 High, the audit one of them), 74 Human (34 High,
+  28 Medium, 12 Low). Of the 21 new versions, 11 read Human (5 at High) and 10 still read AI; red also moved onto 14
+  windows of words nobody changed, next to the rewrites ([each spot](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/b482/recheck/read/SPOTS.md); [every window, with its
+  confidence](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/b482/recheck/read/CONFIDENCE.md)). Your guide hasn't changed: the clear versions stay until a new one is both clear and Human.
+- 🟢 **26, "not sure why you are asking before even checking if you can learn the lessons"**: withdrawn, and a lesson
+  for every lane ([E293](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md)): before asking you to pay for a tool, do the free work that could
+  make it unnecessary, then ask only with what it showed.
 
 ## Your messages of 2026-10-29 18:18 and 18:55 UTC, and what I did
 
@@ -54,7 +67,7 @@ Your messages, word for word: [18:18](https://github.com/u-dont-existDOTcom/joel
   spots of ours that read AI, and suggestions for 4 lines of your own that did. I chose one of each ([with my
   reasons](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/b482/CHOICES.json)), and fresh readers read all 20 paragraphs beside your published version: every one reads clearly
   and says what yours says. They're in the two drafts above; your working copy hasn't changed.
-- 🔵 **Emulate**: question 26 above, and the study of its fixes in progress.
+- 🟢 **Emulate**: I put question 26 to you; you withdrew it at 19:22 UTC until the lessons are checked (above). The study of its fixes is in progress.
 
 ## Your messages of 2026-10-29 17:21 and 17:53 UTC, and what I did
 

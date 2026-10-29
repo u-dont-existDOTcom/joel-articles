@@ -1,5 +1,60 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-29 20:15 UTC: the Emulate lessons, and batch 483 pasted
+
+**What Emulate's fixes teach** (`fix-20261029/emulate-lessons/`: LESSONS.md, PAIRS.json, build/; the brief is
+`fix-20261029/EMULATE-LESSONS-BRIEF.md`). 98 pairs from 18 batch groups (68 passing, 22 failures, 8 reverse), every quote
+checked against its file (by the study and again by me: 98 of 98 found). The brief already named what Emulate takes out;
+it lacked how Emulate builds: it keeps or lowers the sentence count, chains steps, lets sentences run long, keeps lists
+inside the sentence, asks a framed test directly. Batch 482 checked by my own count: same sentence count, 9 of 12 Human;
+more sentences, 2 of 9. Emulate changed meaning in 52 of 70 passing pairs (dropped qualifiers first); under 4.1 its raw
+output read Human in 2 of 6 screening samples; free-standing definitions, outcome lists and label-and-colon steps passed
+only when it dropped them. The shape rules are in `docs/EMULATE-FALLBACK.md` section 1 (for every lane's writers) and
+`fix-20261029/b483/LESSONS-FOR-BRIEF.md`; `tools/humanization/emulate-cases/README.md` indexes the cases (section 5).
+
+**Batch 483** (`fix-20261029/b483/`): `make_targets.py` (TARGETS.json: the 9 stretches of ours whose batch 482 version
+read AI, his J3, and his HG-S15 sentence as J5, each with its last try and how it read, the red beside it, and a note on the
+four shapes nobody has solved); three writers (writers/BRIEF-W1..W3.md: the shape rules, what read AI last time); my picks
+(CHOICES.json; no pick splits a sentence: T4, T7, T9, J3 and T15 join theirs); `make_b483.py` (CANDIDATE-MASTER.md:
+batch 482's 11 Human versions word for word plus batch 483's 11, no link dropped); the comparative read (read/, one fresh
+reader: 10 of 10 pass). The recheck (`b483/recheck/`): payloads (merge PASS; part B starts at the same section),
+`make_changed.py` (each candidate 0.5 or 0.4 by its last try; red next to a rewrite 0.4, red that moved 0.55, the audit
+0.95), FORECAST-A.json (82 parts, 9.7 expected red if independent) and FORECAST-B.json (46, 5.4); ledger HG-whole#79 (try
+13, AI, 0.05) and HG-rest-B#80 (try 11, AI, 0.03); pushed at 0fc62a44, both drafts cleared and pasted from that commit
+(editor words +34 and +25), saved bodies checked, and the secret links render exactly TEXT-A.txt's first 99,999
+characters and TEXT-B.txt (RECHECK-POST-A.json, RECHECK-POST-B.json; cache keys recheck-a-29c and recheck-b-29c). The
+links are on his questions page.
+
+## 2026-10-29, after Joel's message of 19:22 UTC (batch 482's recheck links; "26 not sure why you are asking before even checking if you can learn the lessons")
+
+His message, word for word: `fix-20261029/joel-20261029-1922-message.txt`. Pull request 261 was merged at 19:20 UTC.
+
+**Batch 482's recheck, read** (`fix-20261029/b482/recheck/read/`: META, WINDOWS, RESULT rebuilt from the payloads with
+`substack_check_text.py result`, both SHA-256 matched; CONFIDENCE.md; SCORE-A/B.md; HG-whole#77 and HG-rest-B#78 right,
+Mixed). Part A [Mostly Human Written, 2.3% AI](https://www.pangram.com/feed/19fba559-fe64-46a3-92a1-ab87f728b4ba) (try
+12): 158 windows, 20 AI (8 Low, 6 Medium, 6 High), 138 Human (62 High, 58 Medium, 18 Low). Part B
+[Mostly Human Written, 3.9% AI](https://www.pangram.com/feed/82470746-1d28-4ddc-ac19-276ca31c19f2) (try 10): 87 windows,
+13 AI (4 Low, 4 Medium, 5 High, the audit one of them), 74 Human (34 High, 28 Medium, 12 Low). Part forecasts: A 83 of 96
+parts right (Brier 0.105), B 53 of 62 (0.110), no red outside the parts.
+
+**The writers without Emulate** (`spots_482.py`, SPOTS.md): 11 of 21 candidates read Human in place (J1, J4, T3, T11,
+T16 at High; J2, T1, T8, T10 Medium; T13, T14 Low) and 10 still AI (T2, T4, T5, T6, T9, T15, T17 and J3 at High, T12
+Medium, T7 Low). T2, T5, T6, T12 and T17 went from AI Low to AI Medium or High; T7 went from AI High to AI Low. Red moved
+onto 14 windows of words this batch didn't change, all next to rewrites: Why doing it myself P1 (after T2's paragraph,
+the heading between them not in the checked text), the six metaphors section from the line before P1 to P3 (around T5
+and T6), Make the hypnosis more active P1, the no-trance Choice line (T17's paragraph) and "The personal accounts and the
+way I arrange this practice" (after it). The three-jobs line, his Quick start line and the Nimja line read Human; his
+HG-S15 list and the audit read AI as before.
+
+**26 withdrawn; lesson E293** (`docs/HUMANIZATION-GATE.md`; `docs/EMULATE-FALLBACK.md` sections 1 and 6): a question that
+spends his money waits until the free work that could answer it is done (here: the study of the Emulate cases we have,
+and the writers fed with its lessons on the failures). His questions page has no open questions.
+
+Next: when the study (`fix-20261029/emulate-lessons/`) is in, check its pairs against their files, put the shape rules
+that two or more cases back into the writers' brief, and run batch 483 on the 10 spots that still read AI (each from the
+working copy's clear version, the writers shown what read AI in batch 482), read beside his published text, then the
+recheck with batch 482's 11 Human versions in; then his marking page with every version that reads Human and clear.
+
 ## 2026-10-29, after Joel's messages of 18:18 UTC (the recheck's result links) and 18:55 UTC (Emulate: re-up or learn)
 
 His messages, word for word: `fix-20261029/joel-20261029-1818-message.txt` and `fix-20261029/joel-20261029-1855-message.txt`
