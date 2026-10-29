@@ -12,7 +12,8 @@
    "hedge or doubt added",
    "casual register (contractions, \"kind of\", \"pretty\") added",
    "other: list or gloss moved into brackets or dashes as an aside",
-   "other: casual connective added (on the other hand, though, also, of course)"
+   "other: casual connective added (on the other hand, though, also, of course)",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "Raw sample: \"a number of things that I know work\" (a stronger claim than \"familiar practices\") and \"even though I don't know if the whole sequence has been tried before\" (his not knowing, where he says he makes no claim; \"tried\" is a lower bar than \"formally tested and proven\"). Both were put back before the check. Kept: \"a temporary fix\" for \"provisional\", \"I came up with the idea of constructing\" for \"I have developed\".",
   "detector": "Pangram 4.1",
@@ -35,7 +36,8 @@
   "labels": [
    "order changed",
    "subject changed",
-   "other: register made more formal or more abstract (contractions removed, abstract subject)"
+   "other: register made more formal or more abstract (contractions removed, abstract subject)",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "Raw sample narrowed \"if you're not stable\" to \"if you are not in a safe state\", added \"partially or fully\", misnamed the section (\"Contain yourself before deepening\") and misspelled \"partally\"; the lane put back \"not stable\" and the heading's words.",
   "detector": "Pangram 4.1",
@@ -81,7 +83,8 @@
    "short sentences joined",
    "casual register (contractions, \"kind of\", \"pretty\") added",
    "other: run-on or comma splice made (clauses chained with and/then/however or a bare comma)",
-   "other: statement or softened line turned into a direct instruction to the reader"
+   "other: statement or softened line turned into a direct instruction to the reader",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "\"Even then\" is gone (that a big step waits even when the answer makes sense), and \"what you actually know\" became \"what you know\".",
   "detector": "Pangram 4.1",
@@ -105,7 +108,8 @@
    "other: question turned into a statement or instruction",
    "quip or metaphor removed",
    "casual register (contractions, \"kind of\", \"pretty\") added",
-   "other: exclamation added"
+   "other: exclamation added",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "",
   "detector": "Pangram 4.1",
@@ -152,7 +156,8 @@
    "a long sentence split",
    "\"not X but Y\" or parallel pair broken",
    "other: exclamation added",
-   "casual register (contractions, \"kind of\", \"pretty\") added"
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "Raw sample softened \"keeps the others in balance\" to \"helps to keep\" (and lost the full stop); the lane put \"keeps\" back.",
   "detector": "Pangram 4.1",
@@ -176,7 +181,8 @@
    "other: bare statement or command turned into a softened instruction (make sure, you may want to, it is a good idea to)",
    "hedge or doubt added",
    "other: register made more formal or more abstract (contractions removed, abstract subject)",
-   "other: typos, slashes or nonstandard spelling"
+   "other: typos, slashes or nonstandard spelling",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "\"of course\" adds an assurance he doesn't give; \"decide where it's coming from\" became \"figuring out what/where it is\"; the raw sample ended the list on the model word \"a combination\", which the lane changed back to his \"a bit of each\".",
   "detector": "Pangram 4.1",
@@ -199,7 +205,8 @@
   "labels": [
    "a long sentence split",
    "subject changed",
-   "other: list or gloss moved into brackets or dashes as an aside"
+   "other: list or gloss moved into brackets or dashes as an aside",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "\"internalized\" became \"adopted\"; the raw sample lost a full stop (\"a voice It is not\"), fixed.",
   "detector": "Pangram 4.1",
@@ -222,7 +229,8 @@
   "labels": [
    "other: statement or softened line turned into a direct instruction to the reader",
    "other: bare statement or command turned into a softened instruction (make sure, you may want to, it is a good idea to)",
-   "quip or metaphor removed"
+   "quip or metaphor removed",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "A permission (\"Borrowed is fine, as long as ...\") became an instruction with a condition (\"Borrow some ... if you need to, but make sure ...\"); \"run your trip for you\" flattened to \"direct your trip\".",
   "detector": "Pangram 4.1",
@@ -245,7 +253,8 @@
   "labels": [
    "quip or metaphor removed",
    "casual register (contractions, \"kind of\", \"pretty\") added",
-   "other: reason or cause clause added (because, since, as, so that)"
+   "other: reason or cause clause added (because, since, as, so that)",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "The warm personification (\"that little hidden menu is your friend\") is gone; \"It\" now has to point back to the table of contents in the sentence before.",
   "detector": "Pangram 4.1",
@@ -313,7 +322,8 @@
    "\"not X but Y\" or parallel pair broken",
    "hedge or doubt added",
    "order changed",
-   "short sentences joined"
+   "short sentences joined",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "Raw sample stated sobriety as a reason (\"One reason was that I was sober\") and as a fact about him (\"wasn't that susceptible\"); he only suspected the first and felt the second. The lane changed both (\"might have been\", \"didn't feel\").",
   "detector": "Pangram 4.1",
@@ -358,7 +368,8 @@
   "labels": [
    "casual register (contractions, \"kind of\", \"pretty\") added",
    "quip or metaphor removed",
-   "other: run-on or comma splice made (clauses chained with and/then/however or a bare comma)"
+   "other: run-on or comma splice made (clauses chained with and/then/however or a bare comma)",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "",
   "detector": "Pangram 4.1",
@@ -380,7 +391,8 @@
   "emulate_reading": "Human (High, 0.997, 326 words), batch 481's recheck part A (fix-20261026/b481/recheck/read/RESULT-A.json)",
   "labels": [
    "other: bare statement or command turned into a softened instruction (make sure, you may want to, it is a good idea to)",
-   "other: only a word or two changed"
+   "other: only a word or two changed",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "",
   "detector": "Pangram 4.1",
@@ -403,7 +415,8 @@
   "labels": [
    "casual register (contractions, \"kind of\", \"pretty\") added",
    "other: capitals for emphasis added",
-   "abstract nouns turned into people doing things"
+   "abstract nouns turned into people doing things",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "\"when you're being induced\" became \"when you're trying to induce\": the reader is now the one inducing, not the one in trance.",
   "detector": "Pangram 4.1",
@@ -470,7 +483,8 @@
   "emulate_reading": "Human (High, 0.998, 149 words), batch 481's recheck part A (fix-20261026/b481/recheck/read/RESULT-A.json)",
   "labels": [
    "casual register (contractions, \"kind of\", \"pretty\") added",
-   "other: only a word or two changed"
+   "other: only a word or two changed",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "",
   "detector": "Pangram 4.1",
@@ -493,7 +507,8 @@
   "labels": [
    "abstract nouns turned into people doing things",
    "subject changed",
-   "quip or metaphor removed"
+   "quip or metaphor removed",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "Raw sample dropped his \"genuinely\" (put back by the gate).",
   "detector": "Pangram 4.1",
@@ -537,7 +552,8 @@
   "emulate": "Also read some of the stuff in the daily and weekly sections, to make the practice your own.",
   "emulate_reading": "Human (High, 0.999, 399 words), batch 481's recheck part A (fix-20261026/b481/recheck/read/RESULT-A.json); still High on 2026-10-29 (fix-20261029/recheck/read/RESULT-A.json)",
   "labels": [
-   "casual register (contractions, \"kind of\", \"pretty\") added"
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "Raw sample dropped \"to make the practice your own\" (put back), and its \"You can also\" was cut for the linter.",
   "detector": "Pangram 4.1",
@@ -560,7 +576,8 @@
   "labels": [
    "order changed",
    "casual register (contractions, \"kind of\", \"pretty\") added",
-   "other: list or gloss moved into brackets or dashes as an aside"
+   "other: list or gloss moved into brackets or dashes as an aside",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "Raw sample: \"their\" dark patterns and \"used to trick and manipulate\" for his \"designs that trick or manipulate consumers\"; the gate put his words back.",
   "detector": "Pangram 4.1",
@@ -650,7 +667,8 @@
   "labels": [
    "casual register (contractions, \"kind of\", \"pretty\") added",
    "order changed",
-   "other: casual connective added (on the other hand, though, also, of course)"
+   "other: casual connective added (on the other hand, though, also, of course)",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "Dropped condition: \"only for the use of starting a session at a later time\" became a plain permission (\"that's fine\"); the restriction \"only\" is gone.",
   "detector": "Pangram 4.1",
@@ -670,7 +688,8 @@
   "labels": [
    "order changed",
    "other: register made more formal or more abstract (contractions removed, abstract subject)",
-   "other: run of parallel \"if\" clauses or \"If you X, Y\" sentences made or kept"
+   "other: run of parallel \"if\" clauses or \"If you X, Y\" sentences made or kept",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "\"If you have done anything to alter your state when coming out of a trance\" attaches \"when coming out\" to the altering, not to the reversing.",
   "detector": "Pangram 4.1",
@@ -692,7 +711,8 @@
    "a long sentence split",
    "casual register (contractions, \"kind of\", \"pretty\") added",
    "sentence lengths made uneven",
-   "other: restating closer added"
+   "other: restating closer added",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "\"train\" and \"test\" were lost in an earlier step; this sample kept \"never\" and made \"your eyes can be open\" a may.",
   "detector": "Pangram 4.1",
@@ -715,7 +735,8 @@
    "\"not X but Y\" or parallel pair broken",
    "casual register (contractions, \"kind of\", \"pretty\") added",
    "sentence lengths made uneven",
-   "other: statement or softened line turned into a direct instruction to the reader"
+   "other: statement or softened line turned into a direct instruction to the reader",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "",
   "detector": "Pangram 4.1",
@@ -736,7 +757,8 @@
    "other: run of parallel \"if\" clauses or \"If you X, Y\" sentences made or kept",
    "other: catch-all list ending added (etc., whatever, or anything like that)",
    "other: casual connective added (on the other hand, though, also, of course)",
-   "casual register (contractions, \"kind of\", \"pretty\") added"
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "",
   "detector": "Pangram 4.1",
@@ -777,7 +799,8 @@
    "colon or dash removed",
    "a long sentence split",
    "a concrete particular added",
-   "casual register (contractions, \"kind of\", \"pretty\") added"
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "\"First\" (ask first) is gone: a no now has no next step.",
   "detector": "Pangram 4.1",
@@ -797,7 +820,8 @@
   "labels": [
    "a long sentence split",
    "a concrete particular added",
-   "sentence lengths made uneven"
+   "sentence lengths made uneven",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "\"stand only when steady\" became \"until you feel like you can do so without falling over\", a lower bar; \"the count is supposed to bring you back\" became \"counting does this, but not always\".",
   "detector": "Pangram 4.1",
@@ -841,7 +865,8 @@
   "labels": [
    "other: run-on or comma splice made (clauses chained with and/then/however or a bare comma)",
    "short sentences joined",
-   "other: only a word or two changed"
+   "other: only a word or two changed",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "Raw sample: \"you can put your weight here if you like\" and \"know where you are\" for \"of your choice\" and \"name where you are\"; the lane put his words back.",
   "detector": "Pangram 4.1",
@@ -864,7 +889,8 @@
   "labels": [
    "short sentences joined",
    "other: run-on or comma splice made (clauses chained with and/then/however or a bare comma)",
-   "other: bare statement or command turned into a softened instruction (make sure, you may want to, it is a good idea to)"
+   "other: bare statement or command turned into a softened instruction (make sure, you may want to, it is a good idea to)",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "Raw sample: \"make sure you remember what day\" for \"remind yourself\" (the lane: \"make sure you can name\").",
   "detector": "Pangram 4.1",
@@ -887,7 +913,8 @@
   "labels": [
    "short sentences joined",
    "other: run-on or comma splice made (clauses chained with and/then/however or a bare comma)",
-   "other: register made more formal or more abstract (contractions removed, abstract subject)"
+   "other: register made more formal or more abstract (contractions removed, abstract subject)",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "",
   "detector": "Pangram 4.1",
@@ -911,7 +938,8 @@
    "abstract nouns turned into people doing things",
    "quip or metaphor removed",
    "other: bare statement or command turned into a softened instruction (make sure, you may want to, it is a good idea to)",
-   "other: catch-all list ending added (etc., whatever, or anything like that)"
+   "other: catch-all list ending added (etc., whatever, or anything like that)",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "\"neutral witnessing\" became \"neutral\"; \"a firm boundary\" became \"protective, forceful\"; \"when the metaphor stops helping\" is gone.",
   "detector": "Pangram 4.1",
@@ -933,7 +961,8 @@
    "other: quoted inner speech or a direct request added",
    "other: catch-all list ending added (etc., whatever, or anything like that)",
    "other: list or gloss moved into brackets or dashes as an aside",
-   "short sentences joined"
+   "short sentences joined",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "\"no response at all\" became \"nothing\"; \"let a count mark something meaningful there\" became \"even as you count, etc.\" (the instruction about the count is gone).",
   "detector": "Pangram 4.1",
@@ -953,7 +982,8 @@
    "a long sentence split",
    "sentence lengths made uneven",
    "definition turned into an action or instruction",
-   "abstract nouns turned into people doing things"
+   "abstract nouns turned into people doing things",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "The step \"making a deliberate movement with one hand as you bring yourself into a clearer state\" became \"Tell yourself that as you move one of your hands, you're going to move deliberately\": the clearer state is gone from the step (the comprehension pass later restored it).",
   "detector": "Pangram 4.1",
@@ -992,7 +1022,8 @@
   "emulate_reading": "Human (High), batch 430 (fix-20261018/b430/b430-results.json); the same sentence read Human (High, 476-word window) in the first 4.1 check of the installed guide (41a, fix-20261020/result41/WINDOWS-41a.json)",
   "labels": [
    "quip or metaphor removed",
-   "abstract nouns turned into people doing things"
+   "abstract nouns turned into people doing things",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "",
   "detector": "Pangram 4.0",
@@ -1014,7 +1045,8 @@
    "list shortened",
    "subject changed",
    "other: reason or cause clause added (because, since, as, so that)",
-   "casual register (contractions, \"kind of\", \"pretty\") added"
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "\"listening closely\" is dropped from what self-hypnosis lets you practice.",
   "detector": "Pangram 4.0",
@@ -1095,7 +1127,8 @@
    "quip or metaphor removed",
    "\"not X but Y\" or parallel pair broken",
    "hedge or doubt added",
-   "other: run-on or comma splice made (clauses chained with and/then/however or a bare comma)"
+   "other: run-on or comma splice made (clauses chained with and/then/however or a bare comma)",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "\"teaches the subconscious that the adult heard and acted\" became \"impress on the subconscious that something has changed\".",
   "detector": "Pangram 4.0",
@@ -1116,7 +1149,8 @@
    "abstract nouns turned into people doing things",
    "short sentences joined",
    "quip or metaphor removed",
-   "casual register (contractions, \"kind of\", \"pretty\") added"
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "Drops \"Most of them have been trying to help\"; adds a claim (\"Most of these things will become easier once ...\").",
   "detector": "Pangram 4.0",
@@ -1136,7 +1170,8 @@
    "hedge or doubt added",
    "other: reason or cause clause added (because, since, as, so that)",
    "casual register (contractions, \"kind of\", \"pretty\") added",
-   "quip or metaphor removed"
+   "quip or metaphor removed",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "Changed person: \"the kid\" became \"her\" (a gender for the little one, which the lane has caught before); \"enough small promises\" became \"some of your promises\".",
   "detector": "Pangram 4.0",
@@ -1158,7 +1193,8 @@
    "hedge or doubt added",
    "casual register (contractions, \"kind of\", \"pretty\") added",
    "\"not X but Y\" or parallel pair broken",
-   "summing-up or closing line dropped"
+   "summing-up or closing line dropped",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "Invented present fact: \"I was sober\" became \"I'm sober right now\"; the point \"The larger issue was trust and precision\" is dropped.",
   "detector": "Pangram 4.0",
@@ -1177,7 +1213,8 @@
   "labels": [
    "quip or metaphor removed",
    "abstract nouns turned into people doing things",
-   "other: \"and ... and\" or \"or ... or\" chain instead of a comma list"
+   "other: \"and ... and\" or \"or ... or\" chain instead of a comma list",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "Drops the third sentence (catching the body's no before the conscious mind argues it into a yes).",
   "detector": "Pangram 4.0",
@@ -1196,7 +1233,8 @@
   "labels": [
    "short sentences joined",
    "other: bare statement or command turned into a softened instruction (make sure, you may want to, it is a good idea to)",
-   "other: run-on or comma splice made (clauses chained with and/then/however or a bare comma)"
+   "other: run-on or comma splice made (clauses chained with and/then/however or a bare comma)",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "Drops \"repeating the count is not proof of a complete return\" and \"only\" (\"Note only what actually appeared\"), and \"stand only when steady\" became \"stand up and make sure that you are oriented\".",
   "detector": "Pangram 4.0",
@@ -1213,7 +1251,8 @@
   "emulate": "You might hear a phrase, feel a sensation, notice a memory, see a color, be contacted by a child or protector, feel pain, warmth, silence or know that your need to do something or be grateful for something or that this is enough listening for today.",
   "emulate_reading": "Human (High), 298 words, batch 431 (fix-20261018/b431/b431-results.json)",
   "labels": [
-   "abstract nouns turned into people doing things"
+   "abstract nouns turned into people doing things",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "Garbled: \"an urge to stop\" became part of \"know that your need to do something\".",
   "detector": "Pangram 4.0",
@@ -1253,7 +1292,8 @@
    "abstract nouns turned into people doing things",
    "summing-up or closing line dropped",
    "\"not X but Y\" or parallel pair broken",
-   "other: exclamation added"
+   "other: exclamation added",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "Drops the closing rule \"Ask for capacity, not content.\"",
   "detector": "Pangram 4.0",
@@ -1308,7 +1348,8 @@
   "labels": [
    "abstract nouns turned into people doing things",
    "a concrete particular added",
-   "other: topic sentence added at the start"
+   "other: topic sentence added at the start",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "",
   "detector": "Pangram 4.0",
@@ -1328,7 +1369,8 @@
    "abstract nouns turned into people doing things",
    "short sentences joined",
    "casual register (contractions, \"kind of\", \"pretty\") added",
-   "other: anaphora or fragment run made or kept (By X? By Y?; If it is really X ...)"
+   "other: anaphora or fragment run made or kept (By X? By Y?; If it is really X ...)",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "\"or shame, grief, anger, longing ... asking for care\" became \"shame/grief/anger or other parts coming out\".",
   "detector": "Pangram 4.0",
@@ -1348,7 +1390,8 @@
    "a long sentence split",
    "abstract nouns turned into people doing things",
    "casual register (contractions, \"kind of\", \"pretty\") added",
-   "sentence lengths made uneven"
+   "sentence lengths made uneven",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "",
   "detector": "Pangram 4.0",
@@ -1464,7 +1507,8 @@
    "summing-up or closing line dropped",
    "first person or a personal aside added",
    "other: capitals for emphasis added",
-   "other: list or gloss moved into brackets or dashes as an aside"
+   "other: list or gloss moved into brackets or dashes as an aside",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "Drops the closing claim (self-hypnosis has one advantage nobody outside can duplicate); \"they\" became \"he\" for the hypnotist.",
   "detector": "Pangram 4.0",
@@ -1638,7 +1682,8 @@
   "labels": [
    "other: question turned into a statement or instruction",
    "other: reason or cause clause added (because, since, as, so that)",
-   "other: register made more formal or more abstract (contractions removed, abstract subject)"
+   "other: register made more formal or more abstract (contractions removed, abstract subject)",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "",
   "detector": "Pangram 4.1",
@@ -1705,7 +1750,8 @@
    "other: bare statement or command turned into a softened instruction (make sure, you may want to, it is a good idea to)",
    "casual register (contractions, \"kind of\", \"pretty\") added",
    "other: list or gloss moved into brackets or dashes as an aside",
-   "abstract nouns turned into people doing things"
+   "abstract nouns turned into people doing things",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "",
   "detector": "Pangram 4.1 (passed 4.0)",
@@ -1749,7 +1795,8 @@
   "labels": [
    "abstract nouns turned into people doing things",
    "other: bare statement or command turned into a softened instruction (make sure, you may want to, it is a good idea to)",
-   "casual register (contractions, \"kind of\", \"pretty\") added"
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "",
   "detector": "Pangram 4.1",
@@ -1812,7 +1859,8 @@
   "emulate_reading": "Human (Low, 0.638, 36 words) in recheck B2 (fix-20261023/recheck-b2/RESULT-B.json); AI (Low, 0.64, 7 words) and AI (Medium, 0.987, 29 words) on 2026-10-25 (fix-20261025/recheck/RESULT-B.json); Human (Medium, 0.909) and Human (High, 0.994) in batch 480's recheck (fix-20261026/b480/recheck/read/RESULT-B.json); AI (Low, 7 words) and AI (High, 29 words) on 2026-10-29 (fix-20261029/recheck/read/RESULT-B.json)",
   "labels": [
    "short sentences joined",
-   "other: only a word or two changed"
+   "other: only a word or two changed",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "",
   "detector": "Pangram 4.1",
@@ -1877,7 +1925,8 @@
   "emulate_reading": "AI (High, 108 words), batch 431 (fix-20261018/b431/b431-results.json)",
   "labels": [
    "other: catch-all list ending added (etc., whatever, or anything like that)",
-   "casual register (contractions, \"kind of\", \"pretty\") added"
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "",
   "detector": "Pangram 4.0",
@@ -1897,7 +1946,8 @@
   "emulate": "Language that’s permissive but that still takes your choice away includes:\n\nUtilizing indirect patterns, which often work better because they bypass the conscious mind, but can be specific about where they’re going even if vague in their language, may just seem conversational, or use suggestions.",
   "emulate_reading": "AI (High, a 418-word window running through the list), batch 431 (fix-20261018/b431/b431-results.json)",
   "labels": [
-   "other: register made more formal or more abstract (contractions removed, abstract subject)"
+   "other: register made more formal or more abstract (contractions removed, abstract subject)",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "",
   "detector": "Pangram 4.0",
@@ -1918,7 +1968,8 @@
   "emulate": "Prompt for daydreaming:\n\nIf this daydream has useful information, please show me what I can learn from it. If it is only to avoid dealing with something, please help me get back to the present and deal with what needs to be dealt with.",
   "emulate_reading": "AI (High, a 163-word window), batch 431 (fix-20261018/b431/b431-results.json)",
   "labels": [
-   "casual register (contractions, \"kind of\", \"pretty\") added"
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: looser, wordier phrasing (filler and repetition such as \"all you have to do is\", \"a number of\", \"when you want to\")"
   ],
   "meaning_error": "",
   "detector": "Pangram 4.0",

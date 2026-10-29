@@ -71,10 +71,11 @@ neutral witnessing, or whatever else." read AI at High, and so did the untouched
 - Wry quips, joke similes and punchlines; aphorisms and balanced closers that wrap a thought up; tidy follow-ups that
   restate, sum up or reassure.
 - Definitions and explanations in a textbook shape ("X means A and then B"); parallel pairs and "not X, but Y"
-  contrasts; colon reveals and signposting.
-- Lists of abstract nouns, especially in threes; lists of options strung with "or" in one breath.
+  contrasts; colon reveals and signposting; a label and a colon before each step.
+- Lists of abstract nouns, especially in threes; options strung with "or" in one breath; fragment lists.
 - Generic "you"/"imagine" scenarios; stock words (journey, profound, navigate, delve, crucial, genuinely, truly).
 
+{item_notes}
 ## What to return
 Write your answer with a single Write call to `{out}`, as JSON:
 
@@ -86,6 +87,18 @@ Each replacement replaces the flagged sentences as one stretch (they are next to
 order given), so it can be one sentence or several. Read only `{targets}` (your items are listed under "W{k}"); don't run
 commands or use the web. Reply with only "DONE: <number of items>".
 '''
+
+# the shapes Emulate passed only by dropping them, which we can't (../emulate-lessons/LESSONS.md, "Unsolved")
+HARD = {'T2': 'an outcome list. Keep all five outcomes; one long spoken sentence (or two, not more) that says them as '
+              'what you notice in yourself and your days, not a colon list or an "or ... or" string.',
+        'T7': 'a free-standing definition. Keep what fractionation is and what doing it openly teaches; say it as what '
+              'you do when you add it (one or two sentences, chained), not "Fractionation means" or "In fractionation".',
+        'T9': 'a free-standing definition. Keep what an embedded invitation is, that it invites a modest inner movement and '
+              'that it must not hide a demand; say it as what you do when you write one, in one or two sentences, with '
+              'the example after it still making sense.',
+        'T17': 'label-and-colon steps (Autonomous signal:, Deepener:, Handoff:, Integration/exit:). The labels stay: they '
+               'name the steps the reader follows, as in the published version. Make what follows each label a loose spoken sentence '
+               'of uneven length, with the list in brackets or after a dash, and keep the number of sentences.'}
 
 HIS_NOTE = {'J3': """**Item J3 is Joel's own line** (from his inner child guide). Nothing goes in without him: your versions are suggestions
 he will see beside his own words. Stay as close to his words as the job allows, and change only what most likely reads
@@ -153,8 +166,11 @@ def main():
     lessons_file = B / 'LESSONS-FOR-BRIEF.md'
     lessons = lessons_file.read_text(encoding='utf-8') if lessons_file.exists() else '(none yet)\n'
     for w in GROUPS:
+        notes = ''.join('- **%s** is %s\n' % (j, HARD[j]) for j in GROUPS[w] if j in HARD)
+        notes = ('## The hardest items (nobody has a version of these that reads Human yet)\n' + notes + '\n') if notes else ''
         brief = BRIEF.format(k=w[1:], out=B / 'writers' / ('VERSIONS-%s.json' % w), targets=B / 'TARGETS.json',
-                             lessons=lessons, his_note=''.join(HIS_NOTE[j] for j in GROUPS[w] if j in HIS_NOTE))
+                             lessons=lessons, his_note=''.join(HIS_NOTE[j] for j in GROUPS[w] if j in HIS_NOTE),
+                             item_notes=notes)
         (B / 'writers' / ('BRIEF-%s.md' % w)).write_text(brief, encoding='utf-8')
     for it in items:
         print(it['id'], it['writer'], it['where'], '| near red:', len(it['turned_red_nearby']), '|',

@@ -107,6 +107,32 @@ The Inner Child chat's full system did better on the same section the same day (
 - The six took about two and a half hours, 17:03 to 19:40 UTC. E1's passing version (`analysis/transfer-20260930/E1-b.txt`) hasn't been through the gate. Its hug example is Claude's own thought, and Joel hasn't approved it.
 - Passing wasn't the end of it (Inner Child chat, 2026-10-01). Joel's read of those six found two meaning problems that the gate and Pangram had both passed. P1 carried the guide's "love and trust don't have to come as a pair" without what the guide left out: love "does require the lover to be honest (trustworthy objectively)". P4 carried the guide's "She did not tell me I wasn't angry" into his own memory ("maybe she did, you don't know"). Both are fixed, and the grounding review now tests carried claims for missing conditions and flags the guide's statements about his life (`HUMANIZATION-GATE.md`, S6). Emulate keeps meaning no better than the loop does, so its output needs the same read.
 
+### What its fixes teach (the study of 2026-10-29)
+
+Section 5's loop was never run until Joel asked on 2026-10-29 ("i wonder if we really understood all the lessons from
+emulate's fixes", then "not sure why you are asking before even checking if you can learn the lessons", E293). The study
+paired 98 of Emulate's rewrites in the hypnosis guide with the sentences they replaced and their readings
+(`articles/inner-signal/humanize/fix-20261029/emulate-lessons/LESSONS.md`, PAIRS.json; every quote checked against its
+file). What it found:
+- **The writers' brief already names what Emulate takes out** (quips, closers, textbook definitions, colon reveals, "not X
+  but Y", lists of abstract nouns). It lacked **how Emulate builds what it puts in**: it keeps or lowers the number of
+  sentences, chains steps in one spoken sentence, lets sentences run long, keeps a list inside its sentence, and asks a
+  framed test as one direct question. Our writers did the opposite and split: in batch 482, versions that kept the
+  sentence count read Human 9 times in 12, versions that split 2 times in 9.
+- **Emulate fails on the same shapes**: runs of one-command sentences, runs of same-shape sentences, fragment lists,
+  options strung on "or", and "you don't have to" lines.
+- **Much of its passing came from dropping what reads AI** (it changed meaning in 52 of 70 passing pairs), which his
+  clarity rule (E291) doesn't allow. Free-standing definitions, outcome lists and label-and-colon recipe lines passed only
+  when it dropped them; nobody but Joel (his Appendix C) has a passing shape for them yet.
+- **Under 4.1 its raw output is no longer a sure pass** (2 of 6 raw samples read Human in the screening post of
+  2026-10-22); its strong 4.1 record is single red sentences swapped inside a section that already read Human.
+
+The shape rules, as the writers get them: `articles/inner-signal/humanize/fix-20261029/b483/LESSONS-FOR-BRIEF.md` (eleven
+lines: keep the sentence count or join; chain steps; let a sentence run long; keep a list inside its sentence and never
+string options on "or"; ask a framed test directly once; break runs of three; fold a "you don't have to" into its step;
+a published point stays in the paragraph's shape; no new idioms or wrap-ups; carry every qualifier across a join; saying
+an item in full is fine). Every lane's writers' brief carries them from now on; batch 483 is their first test.
+
 ## 2. When to use Emulate
 
 Use it only when all of these hold:

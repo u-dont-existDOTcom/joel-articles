@@ -57233,7 +57233,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/fix-20261029/b483/make_targets.py",
-          "sha256": "72097257991158cb75f1a14181b419e908e4b7ff7d924a99890c87481772f1e0",
+          "sha256": "7f8dd9e1e300b05923272720db7356d10006049e9eb6cc785071724ebf8ced7f",
           "role": "humanization_working_record"
         },
         {
@@ -57253,22 +57253,97 @@
         },
         {
           "path": "articles/inner-signal/humanize/fix-20261029/b483/writers/BRIEF-W1.md",
-          "sha256": "ed39dd0d2dc47313f8a8e22e415aa01f9f2d63aec6833dc6c8bd8294b436ebe8",
+          "sha256": "b2b3f9b9a49fb21ebde2e66efdd272a2c02026039c48bc717fb24fd1f80b21fe",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-signal/humanize/fix-20261029/b483/writers/BRIEF-W2.md",
-          "sha256": "83b67609fb947aa60e389efb976b9342ca086106fe9eece1534532934a174f6d",
+          "sha256": "f1d3d6e5ae61518cba0e10c3d1cc29c99adb175ec38ebc958fbde676fe15d4a8",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-signal/humanize/fix-20261029/b483/writers/BRIEF-W3.md",
-          "sha256": "fa1e60c4d7d1325d83f5f9b487300381b9bb7e69dce074a93f23c9d9fef0258c",
+          "sha256": "7f36a296c0dcbae16527172477b771d99abba627d121524c845bac927e8faa84",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-signal/humanize/fix-20261029/emulate-lessons/PAIRS.json",
-          "sha256": "c7760f4b830754f6e4b85936b15951a1ddabb4b58a194098db70914a6c8b4411",
+          "sha256": "f79ba948df53807dc1a366cf4a1f498f17ff3f94d831ea93c5e2cc0120b8e5ea",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/b483/LESSONS-FOR-BRIEF.md",
+          "sha256": "3fb52367ccfe900cce934282b261e112224d6850436285c429c0b03b3850b6e3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/emulate-lessons/LESSONS.md",
+          "sha256": "a711fb67a10567d6cf1c78fcadc34b2e4b3bd335ad7c9f8b7472005b9723e37e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/emulate-lessons/build/aiwin.py",
+          "sha256": "19fec4e2c9c1b4b485ae90d4dde3af724ac0c4e8ff5756d7106ef2e5cbff7ad5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/emulate-lessons/build/build.py",
+          "sha256": "c3a330b100e4d46c7ae47e1901b429b21c618aa3f7f2bb7727d0d36340f7844d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/emulate-lessons/build/data1.py",
+          "sha256": "d6cd4e5c822b18d8891c44ee838c1caa098e0a4b51816a14593d2692b12fc674",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/emulate-lessons/build/data2.py",
+          "sha256": "8c18c53dca06aa79604241ab261f5bb0e58312da42b56265c8a30f3103a4f396",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/emulate-lessons/build/data3.py",
+          "sha256": "c0a072074afca18d4ca245b4b891a025c9eff114b13e576e54d25dcd0c81dc83",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/emulate-lessons/build/data4.py",
+          "sha256": "3e8f75f5f6164144328507ff14f735abb3fa92b9072a31d39613396e63628f0b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/emulate-lessons/build/data5.py",
+          "sha256": "f5f6b69bb6000b7d78ac021327afe2d71d0c27a2933132bac405339f305c05ee",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/emulate-lessons/build/ex.py",
+          "sha256": "15bc1eca47053b6711672126010166d007612817c51025e85fd9efeb7f98530c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/emulate-lessons/build/lessons_body.md",
+          "sha256": "0e2b1a8d07985fcc209ee892feb0182c42a19acce86fe598e322c0fedb21bf17",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/emulate-lessons/build/make_lessons.py",
+          "sha256": "ca3e174a30b0cd7e508eb10f22c71be77e86bb22c08f6b505190a850c1529892",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/emulate-lessons/build/rd.py",
+          "sha256": "0abddb38a75c4953d6aaec5e53c8f05d95ae064552db8dbf587ec6df93c93d96",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/emulate-lessons/build/whose.py",
+          "sha256": "5c20d96b7cc952f39143f6232218a7dd6d70d0f8b19cbc69fcfcb4ef7b01eac6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/emulate-lessons/build/writers.py",
+          "sha256": "7d8401629ae973497fe45322695ff6b652efbceaeab4a426bee5181ef4149254",
           "role": "humanization_working_record"
         }
       ]
