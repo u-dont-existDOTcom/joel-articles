@@ -1,5 +1,30 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-29 20:15 UTC: the Emulate lessons, and batch 483 pasted
+
+**What Emulate's fixes teach** (`fix-20261029/emulate-lessons/`: LESSONS.md, PAIRS.json, build/; the brief is
+`fix-20261029/EMULATE-LESSONS-BRIEF.md`). 98 pairs from 18 batch groups (68 passing, 22 failures, 8 reverse), every quote
+checked against its file (by the study and again by me: 98 of 98 found). The brief already named what Emulate takes out;
+it lacked how Emulate builds: it keeps or lowers the sentence count, chains steps, lets sentences run long, keeps lists
+inside the sentence, asks a framed test directly. Batch 482 checked by my own count: same sentence count, 9 of 12 Human;
+more sentences, 2 of 9. Emulate changed meaning in 52 of 70 passing pairs (dropped qualifiers first); under 4.1 its raw
+output read Human in 2 of 6 screening samples; free-standing definitions, outcome lists and label-and-colon steps passed
+only when it dropped them. The shape rules are in `docs/EMULATE-FALLBACK.md` section 1 (for every lane's writers) and
+`fix-20261029/b483/LESSONS-FOR-BRIEF.md`; `tools/humanization/emulate-cases/README.md` indexes the cases (section 5).
+
+**Batch 483** (`fix-20261029/b483/`): `make_targets.py` (TARGETS.json: the 9 stretches of ours whose batch 482 version
+read AI, his J3, and his HG-S15 sentence as J5, each with its last try and how it read, the red beside it, and a note on the
+four shapes nobody has solved); three writers (writers/BRIEF-W1..W3.md: the shape rules, what read AI last time); my picks
+(CHOICES.json; no pick splits a sentence: T4, T7, T9, J3 and T15 join theirs); `make_b483.py` (CANDIDATE-MASTER.md:
+batch 482's 11 Human versions word for word plus batch 483's 11, no link dropped); the comparative read (read/, one fresh
+reader: 10 of 10 pass). The recheck (`b483/recheck/`): payloads (merge PASS; part B starts at the same section),
+`make_changed.py` (each candidate 0.5 or 0.4 by its last try; red next to a rewrite 0.4, red that moved 0.55, the audit
+0.95), FORECAST-A.json (82 parts, 9.7 expected red if independent) and FORECAST-B.json (46, 5.4); ledger HG-whole#79 (try
+13, AI, 0.05) and HG-rest-B#80 (try 11, AI, 0.03); pushed at 0fc62a44, both drafts cleared and pasted from that commit
+(editor words +34 and +25), saved bodies checked, and the secret links render exactly TEXT-A.txt's first 99,999
+characters and TEXT-B.txt (RECHECK-POST-A.json, RECHECK-POST-B.json; cache keys recheck-a-29c and recheck-b-29c). The
+links are on his questions page.
+
 ## 2026-10-29, after Joel's message of 19:22 UTC (batch 482's recheck links; "26 not sure why you are asking before even checking if you can learn the lessons")
 
 His message, word for word: `fix-20261029/joel-20261029-1922-message.txt`. Pull request 261 was merged at 19:20 UTC.

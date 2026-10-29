@@ -132,9 +132,10 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: nothing right now. His questions page has no open questions (26 withdrawn, E293); the next recheck's links
-and his marking page come with batch 483. The 83 cards of the Hypnosis Guide Editor
-(https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) he hadn't marked are retired by the rechecks. The pages his other account published (the old
+The guide: **his two Pangram result links** for batch 483's recheck (the secret links are in
+`fix-20261029/b483/recheck/RECHECK-POST-A.json` and `RECHECK-POST-B.json`, and on his questions page). No open questions
+(26 withdrawn until this recheck shows whether the writers pass without Emulate, E293). The 83 cards of the Hypnosis Guide
+Editor (https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) he hadn't marked are retired by the rechecks. The pages his other account published (the old
 marking page TpZbfBZcwuj8PL7KFLhmjP and the "Hypnosis Guide Questions" view 8o79MFm9vSpyMGrAeArZYx) are stale; this
 account can't open or republish them, so point him to `OWNER-QUESTIONS.md` on GitHub.
 
@@ -223,7 +224,26 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-10-29, after Joel's message of 19:22 UTC: batch 482's recheck read; 26 withdrawn; the Emulate lessons study, then batch 483)
+## Next step (2026-10-29 20:15 UTC: the Emulate lessons in; batch 483 pasted; its Pangram results wait on him)
+
+Done (STATUS.md's entry of 20:15 UTC has every file): the study (`fix-20261029/emulate-lessons/LESSONS.md`), its shape rules
+in `docs/EMULATE-FALLBACK.md` section 1 and in batch 483's brief; batch 483 (`fix-20261029/b483/`) written, picked, read
+(10 of 10), built with batch 482's 11 Human versions, forecast, predicted (HG-whole#79, HG-rest-B#80) and pasted from commit
+0fc62a44 (RECHECK-POST-A/B.json).
+
+Next:
+1. **Read the results** when his two links come, into `fix-20261029/b483/recheck/read/`, as `fix-20261029/b482/recheck/read/`
+   was read (pangram_feed_read.js compact into META and WINDOWS, `substack_check_text.py result` with part B's embeds from
+   the last META-B.json, `window_confidence.py`, `part_forecast.py score`, `pangram_ledger.py result`, and a copy of
+   `b482/recheck/read/spots_482.py` for batch 483's spots). Score the writers with the lessons against batch 482 (11 of 21)
+   and say whether question 26 comes back (E293: only with that evidence).
+2. **His marking page (REVIEW-483)**: every version that reads Human and clear, from batch 482 and 483, ours as cards to
+   approve (the clear current version stays the default, E291), his own lines (J1, J2, J4, J3, J5) as cards in his words with
+   the suggestion beside them; published from this account, with its Markdown copy in Git.
+3. A spot that still reads AI after two lesson-fed tries is one of the shapes nobody has solved (LESSONS.md: definitions,
+   outcome lists, label-and-colon steps): it goes to him as a stretch to edit, with what was tried.
+
+## Earlier next step (2026-10-29, after Joel's message of 19:22 UTC: batch 482's recheck read; 26 withdrawn; the Emulate lessons study, then batch 483)
 
 His message, word for word: `fix-20261029/joel-20261029-1922-message.txt`. Done (STATUS.md's entry after 19:22 has every
 file): batch 482's recheck read (`fix-20261029/b482/recheck/read/`: RESULT, CONFIDENCE.md, SCORE, SPOTS.md from

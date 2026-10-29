@@ -1,31 +1,43 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-29, after your message of 19:22 UTC (batch 482's recheck links; 26).
-**Open questions: 0.** **For you to do: nothing right now**; the next links come when the next try is ready. The
-questions are at the top, with their options and my default; under them is what you decided and what I did with it.
-Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
+Last updated 2026-10-29 20:15 UTC, after batch 483 (the writers with the lessons from Emulate's fixes).
+**Open questions: 0.** **For you to do**: run Pangram on the new recheck's two links. The questions are at the top, with
+their options and my default; under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠
+something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts can
 read and update it. Every file it points to is a link.
 
 ## Open questions
 
-None right now. Question 26 (Emulate) is withdrawn: you're right that I asked before checking whether the lessons can
-be learned from what we already have. That check comes first, and the question comes back only if it leaves a decision
-that's yours.
+None right now. Question 26 (Emulate) stays withdrawn until this recheck shows whether the writers pass without it.
 
-**🔵 In progress: what Emulate's fixes teach.** I'm going through the lane's own Emulate batches: each flagged sentence
-beside the replacement Emulate wrote that passed, and the change in its shape, never its wording (its versions bent
-the meaning). The shape rules go into the writers' brief.
-
-**🔵 Next: the next try (batch 483)** on the 10 spots that still read AI, by writers given those rules and shown what
-read AI this time, each version read beside your published text first; then the recheck. Your marking page comes with
-it: every version that reads Human and clear, so you mark once.
+**🔵 Next: the recheck's result.** Then your marking page: every version that reads Human and clear (batch 482's 11 and
+whatever passes now), ours as cards to approve, the suggestions for your own lines beside your words.
 
 **🔵 On hold: the 83 cards of [the 27 October editor page](https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) you hadn't marked** (questions 21 to 23). The guide has
 changed under them, so the rechecks decide: a window that still reads below High in the guide as it is now gets a new
 try (read beside your published version before it becomes a card), and the old cards are retired. You don't need to
 mark them.
+
+## For you to do
+
+- 🟠 **Run Pangram on the new recheck's two drafts** (the same two drafts, now with batch 483's versions and batch 482's
+  that read Human): open each link in your Chrome, click the Pangram label next to the author's name twice, then "View
+  Full Analysis", and send me the result's link ("Copy shareable link to result"):
+  - [Part A, the guide](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-29c&audience=only_paid&free_preview=false&freemail=) (TEMP recheck A; Pangram reads its first 99,999 characters; try 13)
+  - [Part B, from Your functioning in ordinary life is the feedback to the end](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-29c&audience=only_paid&free_preview=false&freemail=) (TEMP recheck B; try 11)
+
+## Batch 483, after the lessons (2026-10-29 20:15 UTC)
+
+- 🟢 **[What Emulate's fixes teach](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/emulate-lessons/LESSONS.md)**: our writers' brief already named what Emulate takes out; it missed
+  how Emulate builds what it puts in (it keeps the sentence count or joins, chains steps, lets a sentence run long, keeps a
+  list inside its sentence). In batch 482, versions that kept the sentence count read Human 9 times in 12, versions that
+  split 2 in 9. Much of Emulate's passing came from dropping what reads AI, which your clarity rule rules out.
+- 🟢 **The next try**: three fresh writers, given those rules and shown what read AI last time, rewrote the 9 stretches
+  of ours that still read AI and wrote suggestions for two lines of your own (the no-warmth line, and "All of these are
+  separate factors" with its list in brackets). No pick splits a sentence. A fresh reader read all 10 paragraphs beside
+  your published version: every one reads clearly and says what yours says.
 
 ## Your message of 2026-10-29 19:22 UTC, and what I did
 
