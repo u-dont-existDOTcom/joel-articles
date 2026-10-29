@@ -1,0 +1,2093 @@
+[
+ {
+  "id": "b479-S2",
+  "batch": "479",
+  "source_file": "articles/inner-signal/humanize/fix-20261025/b479/CANDIDATES.json",
+  "input": "For that starting point, I have developed a kind of provisional bridge that I call “borrowed adulthood.” It’s built from familiar practices like modeling and supported action, but I’m not suggesting that the whole sequence has been formally tested and proven as one treatment.",
+  "input_reading": "AI (High, calibrated 0.995), its own 46-word window, whole-guide recheck of 2026-10-25 part A (fix-20261025/recheck/RESULT-A.json); the same words read AI (High, 46 words) again on 2026-10-29 after the splice was taken out (fix-20261029/recheck/read/RESULT-A.json)",
+  "emulate": "So, I came up with the idea of constructing a bridge – a temporary fix – a borrowed adulthood, if I can put it that way. It’s made up of a number of familiar practices (such as modeling and supported action), even though I’m not claiming the whole sequence has been proven as one treatment.",
+  "emulate_reading": "Human (High, 0.999, 85-word window) with Human (Medium, 0.961, 31 words) in batch 479's recheck part A (fix-20261025/b479/recheck/RESULT-A.json); Human (High) alone through the API (b479-S2-p, README.md); Human (High) in batch 480's recheck (fix-20261026/b480/recheck/read/RESULT-A.json)",
+  "labels": [
+   "first person or a personal aside added",
+   "hedge or doubt added",
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: list or gloss moved into brackets or dashes as an aside",
+   "other: casual connective added (on the other hand, though, also, of course)"
+  ],
+  "meaning_error": "Raw sample: \"a number of things that I know work\" (a stronger claim than \"familiar practices\") and \"even though I don't know if the whole sequence has been tried before\" (his not knowing, where he says he makes no claim; \"tried\" is a lower bar than \"formally tested and proven\"). Both were put back before the check. Kept: \"a temporary fix\" for \"provisional\", \"I came up with the idea of constructing\" for \"I have developed\".",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261025/b479/CANDIDATES.json",
+  "source_key": "spots/S2/old",
+  "emulate_key": "spots/S2/new",
+  "emulate_raw": "So, I came up with the idea of constructing a bridge – a temporary fix – a borrowed adulthood, if I can put it that way. It’s made up of a number of things that I know work (such as modelling and supported action), even though I don’t know if the whole sequence has been tried before.",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261025/b479/ch/HG-A-borrowed.out.txt",
+  "note": "Shape: the noun-heavy claim (\"a kind of provisional bridge that I call ...\", \"built from familiar practices like ...\") became a spoken first-person account with an aside in dashes and a self-conscious hedge (\"if I can put it that way\"); the disclaimer moved from \"but I'm not suggesting\" to a trailing \"even though\"."
+ },
+ {
+  "id": "b479-S3a",
+  "batch": "479",
+  "source_file": "articles/inner-signal/humanize/fix-20261025/b479/CANDIDATES.json",
+  "input": "(The part below called \"Already open? Contain before you deepen\" can be used to help orient you if you're already open, but don't use it to make yourself deeper if you're not stable.)",
+  "input_reading": "AI (Low, 0.531, 34-word window, marked humanized) with a Human (Low) window before it, recheck of 2026-10-25 part A (fix-20261025/recheck/RESULT-A.json)",
+  "emulate": "If you are already partially or fully opened, you can use the later 'Already open? Contain before you deepen' section to help orient yourself, but do not attempt to deepen yourself if you are not stable.",
+  "emulate_reading": "Human (High, 0.996, 83 words), batch 479's recheck part A (fix-20261025/b479/recheck/RESULT-A.json); Human (High) again in batch 481's recheck after the linter fix S3a2 (fix-20261026/b481/recheck/read/RESULT-A.json)",
+  "labels": [
+   "order changed",
+   "subject changed",
+   "other: register made more formal or more abstract (contractions removed, abstract subject)"
+  ],
+  "meaning_error": "Raw sample narrowed \"if you're not stable\" to \"if you are not in a safe state\", added \"partially or fully\", misnamed the section (\"Contain yourself before deepening\") and misspelled \"partally\"; the lane put back \"not stable\" and the heading's words.",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261025/b479/CANDIDATES.json",
+  "source_key": "spots/S3a/old",
+  "emulate_key": "spots/S3a/new",
+  "emulate_raw": "If you are already partally or fully opened, you can use the 'Already open? Contain yourself before deepening' section to help orient yourself, but do not attempt to deepen yourself if you are not in a safe state.",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261025/b479/ci/HG-A-stop.out.txt",
+  "note": "Shape: a bracketed passive aside about a section (\"The part below called ... can be used to help orient you if ...\") became a plain sentence that starts with the reader's condition (\"If you are already ... opened, you can use ...\")."
+ },
+ {
+  "id": "b479-S3b",
+  "batch": "479",
+  "source_file": "articles/inner-signal/humanize/fix-20261025/b479/CANDIDATES.json",
+  "input": "Know that you can say \"stop\" at any time and the induction will end. If you want to change something, say \"less\" if you want it to be asking for less from you, or say \"quiet\" and the talking will stop.",
+  "input_reading": "AI (Low, 0.503, 14 words) and AI (Low, 0.855, 27 words), both marked humanized, recheck of 2026-10-25 part A (fix-20261025/recheck/RESULT-A.json)",
+  "emulate": "Remind yourself that if you say 'stop' at any time, the induction will end. If you say 'less', you will be asked to do less. If you say 'quiet', the talking will stop.",
+  "emulate_reading": "Human (Medium, 0.969, 71 words), batch 479's recheck part A (fix-20261025/b479/recheck/RESULT-A.json); in batch 480's recheck its three sentences read Human Medium (0.944), Low (0.879) and Medium (0.972) (fix-20261026/b480/recheck/read/RESULT-A.json): a weak pass",
+  "labels": [
+   "a long sentence split",
+   "other: run of parallel \"if\" clauses or \"If you X, Y\" sentences made or kept"
+  ],
+  "meaning_error": "\"If you want to change something\" (why you would say less or quiet) is gone.",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261025/b479/CANDIDATES.json",
+  "source_key": "spots/S3b/old",
+  "emulate_key": "spots/S3b/new",
+  "emulate_raw": "Remind yourself that if you say 'stop' at any time, the induction will end. If you say 'less', you will be asked to do less. If you say 'quiet', the talking will stop.",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261025/b479/cg/HG-A-stop.out.txt",
+  "note": "Shape: one long mixed sentence (\"If you want to change something, say 'less' if ..., or say 'quiet' and ...\") became three short parallel \"If you say X, ...\" sentences. Emulate made a parallel run here, and it never read better than Medium."
+ },
+ {
+  "id": "b479-S4",
+  "batch": "479",
+  "source_file": "articles/inner-signal/humanize/fix-20261025/b479/CANDIDATES.json",
+  "input": "It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and you've checked it against what you actually know.",
+  "input_reading": "AI (Low, 0.754, 5 words) and AI (High, 0.997, 24 words), recheck of 2026-10-25 part B (fix-20261025/recheck/RESULT-B.json); again AI (Low, 5 words) and AI (High, 24 words) on 2026-10-29 with these words back (fix-20261029/recheck/read/RESULT-B.json). His own words (his inner child guide).",
+  "emulate": "It should make sense to you and if it's something big or hard to undo, wait till you're calm and then check it out with what you know.",
+  "emulate_reading": "Human (High, 0.999, in a 1724-word window), batch 479's recheck part B (fix-20261025/b479/recheck/RESULT-B.json), and again in batch 480's (fix-20261026/b480/recheck/read/RESULT-B.json); Human (High, one window) alone through the API with its paragraph (b479-S4-p)",
+  "labels": [
+   "short sentences joined",
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: run-on or comma splice made (clauses chained with and/then/however or a bare comma)",
+   "other: statement or softened line turned into a direct instruction to the reader"
+  ],
+  "meaning_error": "\"Even then\" is gone (that a big step waits even when the answer makes sense), and \"what you actually know\" became \"what you know\".",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261025/b479/CANDIDATES.json",
+  "source_key": "spots/S4/old",
+  "emulate_key": "spots/S4/new",
+  "emulate_raw": "It should make sense to you and if it's something big or hard to undo, wait till you're calm and then check it out with what you know.",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261025/b479/ci/HG-B-act.out.txt",
+  "note": "Shape: a short add-on sentence (\"It should make sense, too.\") and a hedged rule (\"Even then, anything big ... can wait until ...\") became one run-on instruction joined with \"and if\", \"wait till ... and then check it out\"."
+ },
+ {
+  "id": "b479-S5",
+  "batch": "479",
+  "source_file": "articles/inner-signal/humanize/fix-20261025/b479/CANDIDATES.json",
+  "input": "No warmth today? Then rest your hands there and notice what you find, no faking required.",
+  "input_reading": "AI (High, 0.994, 16 words), recheck of 2026-10-25 part B (fix-20261025/recheck/RESULT-B.json); again AI (Medium, 3 words) and AI (High, 13 words) on 2026-10-29 with these words back (fix-20261029/recheck/read/RESULT-B.json). His inner child guide's line.",
+  "emulate": "If you can’t do this in a loving way today, just put your hands there and see what you feel. You don’t have to fake it!",
+  "emulate_reading": "Human (High, 0.997, 50 words) and Human (Medium, 0.989, 7 words), batch 479's recheck part B (fix-20261025/b479/recheck/RESULT-B.json); Human (five windows, two High, three Medium) alone through the API (b479-S5-p)",
+  "labels": [
+   "other: question turned into a statement or instruction",
+   "quip or metaphor removed",
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: exclamation added"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261025/b479/CANDIDATES.json",
+  "source_key": "spots/S5/old",
+  "emulate_key": "spots/S5/new",
+  "emulate_raw": "If you can’t do this in a loving way today, just put your hands there and see what you feel. You don’t have to fake it!",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261025/b479/ch/HG-B-love.out.txt",
+  "note": "Shape: a fragment question and a clipped tag (\"No warmth today? ... no faking required.\") became a plain condition and a plain permission (\"If you can't do this in a loving way today, just ... You don't have to fake it!\"). The lane later put his \"no faking required\" back for the linter (S5b), which read Human High in batch 480's recheck and Human Medium in batch 481's."
+ },
+ {
+  "id": "b479-S6",
+  "batch": "479",
+  "source_file": "articles/inner-signal/humanize/fix-20261025/b479/CANDIDATES.json",
+  "input": "The useful question is whether this way of responding helps you become clearer, steadier, and less hooked.",
+  "input_reading": "AI (High, 0.996, 17 words), recheck of 2026-10-25 part B (fix-20261025/recheck/RESULT-B.json); again AI (High, 17 words) on 2026-10-29 with these words back (fix-20261029/recheck/read/RESULT-B.json). The published sentence, word for word.",
+  "emulate": "Is this way of responding helping you to be clearer and steadier and less hooked?",
+  "emulate_reading": "Human (High, 0.999, in a 1772-word window), batch 479's recheck part B (fix-20261025/b479/recheck/RESULT-B.json) and batch 480's (fix-20261026/b480/recheck/read/RESULT-B.json); Human (High, one window) through the API with the paragraph before it (b479-S6-p+prev)",
+  "labels": [
+   "a question added",
+   "other: signposting or framing words dropped (\"The useful question is whether\", \"That distinction matters here\")",
+   "other: \"and ... and\" or \"or ... or\" chain instead of a comma list"
+  ],
+  "meaning_error": "Raw sample: \"Is it helping you\" had no clear \"it\"; the lane put back \"this way of responding\".",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261025/b479/CANDIDATES.json",
+  "source_key": "spots/S6/old",
+  "emulate_key": "spots/S6/new",
+  "emulate_raw": "Is it helping you to be clearer and steadier and less hooked?",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261025/b479/cg/HG-B-test.out.txt",
+  "note": "Shape: a framed criterion (\"The useful question is whether X helps you become A, B, and C\") became the direct question itself, with the three-item list as \"A and B and C\"."
+ },
+ {
+  "id": "b480-S7",
+  "batch": "480",
+  "source_file": "articles/inner-signal/humanize/fix-20261026/b480/CANDIDATES.json",
+  "input": "That’s one grown-up doing three jobs, not three more people moving in to help with the rent, and each job keeps the others in balance.",
+  "input_reading": "AI (High, 0.996, 27 words), its own window, batch 479's recheck part A (fix-20261025/b479/recheck/RESULT-A.json). His own sentence, from his inner child guide.",
+  "emulate": "It’s one person doing three jobs rather than getting three more people to move in with you to help with the rent! Each job keeps the others in balance.",
+  "emulate_reading": "Human (High, 0.998, in a 1766-word window), batch 480's recheck part A (fix-20261026/b480/recheck/read/RESULT-A.json), and batch 481's (fix-20261026/b481/recheck/read/RESULT-A.json); Human (High, one 84-word window) alone through the API (b480-S7-p)",
+  "labels": [
+   "a long sentence split",
+   "\"not X but Y\" or parallel pair broken",
+   "other: exclamation added",
+   "casual register (contractions, \"kind of\", \"pretty\") added"
+  ],
+  "meaning_error": "Raw sample softened \"keeps the others in balance\" to \"helps to keep\" (and lost the full stop); the lane put \"keeps\" back.",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b480/CANDIDATES.json",
+  "source_key": "spots/S7/old",
+  "emulate_key": "spots/S7/new",
+  "emulate_raw": "It’s one person doing three jobs rather than getting three more people to move in with you to help with the rent! Each job helps to keep the others in balance",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261026/b480/cl/HG-A-jobs2.out.txt",
+  "note": "Shape: one sentence with a \"not X\" contrast slotted in the middle (\"three jobs, not three more people moving in ..., and each job ...\") became two sentences: the joke as its own line with \"rather than\" and an exclamation, then the balance as a plain sentence. Note that his sentence without the rent clause read AI (Low, 16 words) in the 2026-10-25 recheck, and with it AI (High)."
+ },
+ {
+  "id": "b480-S8",
+  "batch": "480",
+  "source_file": "articles/inner-signal/humanize/fix-20261026/b480/CANDIDATES.json",
+  "input": "But before you decide where it's coming from, ask it what it's trying to stop, or what it wants. It could also be your inner child, mad that you took so long to come back, or your inherited parent script, or something from earlier today, or a bit of each.",
+  "input_reading": "AI (Medium, 0.967, 21 words) and AI (High, 0.996, 48 words), batch 479's recheck part A (fix-20261025/b479/recheck/RESULT-A.json)",
+  "emulate": "Before figuring out what/where it is, make sure to ask what it is trying to stop or what it wants. It may, of course, be your inner child, mad that it’s taken you so long to come back, or it may be your inherited parent script, or something from earlier in the day, or a bit of each.",
+  "emulate_reading": "Human (High, 0.998, 108 words), batch 480's recheck part A (fix-20261026/b480/recheck/read/RESULT-A.json); the same in batch 481's (fix-20261026/b481/recheck/read/RESULT-A.json); Human (five windows, three High, two Medium) through the API with the next paragraph (b480-S8-p+next)",
+  "labels": [
+   "other: bare statement or command turned into a softened instruction (make sure, you may want to, it is a good idea to)",
+   "hedge or doubt added",
+   "other: register made more formal or more abstract (contractions removed, abstract subject)",
+   "other: typos, slashes or nonstandard spelling"
+  ],
+  "meaning_error": "\"of course\" adds an assurance he doesn't give; \"decide where it's coming from\" became \"figuring out what/where it is\"; the raw sample ended the list on the model word \"a combination\", which the lane changed back to his \"a bit of each\".",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b480/CANDIDATES.json",
+  "source_key": "spots/S8/old",
+  "emulate_key": "spots/S8/new",
+  "emulate_raw": "Before figuring out what/where it is, make sure to ask what it is trying to stop or what it wants. It may, of course, be your inner child, mad that it’s taken you so long to come back, or it may be your inherited parent script, or something from earlier in the day, or a combination.",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261026/b480/ck/HG-A-guards.out.txt",
+  "note": "Shape: Emulate kept the long \"or ... or ... or\" list but changed its frame: \"make sure to ask\", \"It may, of course, be ..., or it may be ...\", and dropped the contractions and the opening \"But\". Here the change is mostly in register and hedging, not structure."
+ },
+ {
+  "id": "b480-S9",
+  "batch": "480",
+  "source_file": "articles/inner-signal/humanize/fix-20261026/b480/CANDIDATES.json",
+  "input": "This is the set of rules and ways of treating yourself that you internalized as a child, mostly based on how your parent(s) treated you, and it doesn’t always sound like a voice. This is not the same as your inner adult (Nurturer, Protector, Guide) that you build up on purpose.",
+  "input_reading": "AI (Low, 0.851, 35 words) and AI (Medium, 0.944, 18 words), both marked humanized, batch 479's recheck part A (fix-20261025/b479/recheck/RESULT-A.json). Words written by Claude in batch 470.",
+  "emulate": "Your parent script is made up of a collection of rules and ways of treating yourself that you adopted as a child (mostly based on how you were treated by your parent(s)). It doesn’t always take the form of a voice. This is not the inner adult (Nurturer, Protector, Guide) that you consciously build.",
+  "emulate_reading": "Human (High, 0.998, in a 568-word window), batch 480's recheck part A (fix-20261026/b480/recheck/read/RESULT-A.json), and batch 481's (fix-20261026/b481/recheck/read/RESULT-A.json). Alone through the API (b480-S9-p), Emulate's sentences read Human (High, 73 words) and the paragraph's two unchanged last sentences read AI (Low 30, Medium 27).",
+  "labels": [
+   "a long sentence split",
+   "subject changed",
+   "other: list or gloss moved into brackets or dashes as an aside"
+  ],
+  "meaning_error": "\"internalized\" became \"adopted\"; the raw sample lost a full stop (\"a voice It is not\"), fixed.",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b480/CANDIDATES.json",
+  "source_key": "spots/S9/old",
+  "emulate_key": "spots/S9/new",
+  "emulate_raw": "Your parent script is made up of a collection of rules and ways of treating yourself that you adopted as a child (mostly based on how you were treated by your parent(s)). This is not always vocal. It is not the inner adult (Nurturer, Protector, Guide) that you consciously build.",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261026/b480/cj/HG-A-script.out.txt",
+  "note": "Shape: a definition that opened on \"This is the set of rules ..., mostly based on ..., and it doesn't always ...\" became a sentence with the term as its subject (\"Your parent script is made up of ...\") with the qualifier in brackets, and the \"doesn't always sound like a voice\" clause split off as its own short sentence."
+ },
+ {
+  "id": "b480-S10",
+  "batch": "480",
+  "source_file": "articles/inner-signal/humanize/fix-20261026/b480/CANDIDATES.json",
+  "input": "Borrowed is fine, as long as it’s from someone steady who won’t try to run your trip for you.",
+  "input_reading": "AI (Low, 0.754, 21 words), its own window, batch 479's recheck part B (fix-20261025/b479/recheck/RESULT-B.json). His inner child guide's sentence.",
+  "emulate": "Borrow some from someone else if you need to, but make sure they're stable and not someone who will try to direct your trip.",
+  "emulate_reading": "Human (High, 0.999, in a 348-word window), batch 480's recheck part B (fix-20261026/b480/recheck/read/RESULT-B.json), and batch 481's (fix-20261026/b481/recheck/read/RESULT-B.json)",
+  "labels": [
+   "other: statement or softened line turned into a direct instruction to the reader",
+   "other: bare statement or command turned into a softened instruction (make sure, you may want to, it is a good idea to)",
+   "quip or metaphor removed"
+  ],
+  "meaning_error": "A permission (\"Borrowed is fine, as long as ...\") became an instruction with a condition (\"Borrow some ... if you need to, but make sure ...\"); \"run your trip for you\" flattened to \"direct your trip\".",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b480/CANDIDATES.json",
+  "source_key": "spots/S10/old",
+  "emulate_key": "spots/S10/new",
+  "emulate_raw": "Borrow some from someone else if you need to, but make sure they're stable and not someone who will try to direct your trip.",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261026/b480/cl/HG-B-altered.out.txt",
+  "note": "Shape: a clipped verdict with a condition (\"X is fine, as long as ...\") became an instruction to the reader with \"if you need to\" and \"make sure\"."
+ },
+ {
+  "id": "b481-S12",
+  "batch": "481",
+  "source_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "input": "On a guide this long, that little hidden menu is your friend.",
+  "input_reading": "Human (Low, 0.649, 12 words), batch 480's recheck part A (fix-20261026/b480/recheck/read/RESULT-A.json). His own sentence.",
+  "emulate": "It'll be really helpful for this guide as it's a long one.",
+  "emulate_reading": "Human (High, 0.999, 399 words), batch 481's recheck part A (fix-20261026/b481/recheck/read/RESULT-A.json); still Human (High) on 2026-10-29 (fix-20261029/recheck/read/RESULT-A.json)",
+  "labels": [
+   "quip or metaphor removed",
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: reason or cause clause added (because, since, as, so that)"
+  ],
+  "meaning_error": "The warm personification (\"that little hidden menu is your friend\") is gone; \"It\" now has to point back to the table of contents in the sentence before.",
+  "detector": "Pangram 4.1",
+  "kind": "weak-to-high",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "source_key": "spots/S12/old",
+  "emulate_key": "spots/S12/new",
+  "emulate_raw": "It'll be really helpful for this guide as it's a long one.",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261026/b481/cm/HG-The-table-of-contents-is-hid-6.out.txt",
+  "note": "Shape: a wry personification of the menu became a plain helpful remark with a reason (\"as it's a long one\")."
+ },
+ {
+  "id": "b481-S15",
+  "batch": "481",
+  "source_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "input": "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent. Can people have their minds influenced without conscious agreement of their adult self?",
+  "input_reading": "Human (Low, 0.848, 10 words), batch 480's recheck part A (fix-20261026/b480/recheck/read/RESULT-A.json)",
+  "emulate": "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent - can people have their minds influenced without the conscious agreement of their adult self?",
+  "emulate_reading": "Human (High, 0.998, 147 words), batch 481's recheck part A (fix-20261026/b481/recheck/read/RESULT-A.json)",
+  "labels": [
+   "short sentences joined",
+   "other: only a word or two changed"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "weak-to-high",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "source_key": "spots/S15/old",
+  "emulate_key": "spots/S15/new",
+  "emulate_raw": "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent - can people have their minds influenced without the conscious agreement of their adult self?",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261026/b481/co/HG-Protecting-Yourself-from-Hyp-30.out.txt",
+  "note": "Shape: a verbless list sentence followed by a question became one sentence: the list, a dash, and the question (\"... legal and ethical consent - can people ...?\"). Joel's own revision of 28 October (his card HG-S15: \"All of these are separate factors to consider: conscious agreement, ...\", a colon list) read AI (Low, 18 words) on 2026-10-29."
+ },
+ {
+  "id": "b481-S16",
+  "batch": "481",
+  "source_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "input": "So these modes can correct each other.",
+  "input_reading": "Human (Medium, 0.989, 14 words, with the next line), batch 480's recheck part A (fix-20261026/b480/recheck/read/RESULT-A.json)",
+  "emulate": "So each can correct the other.",
+  "emulate_reading": "Human (High, 0.998, in a 1746-word window), batch 481's recheck part A (fix-20261026/b481/recheck/read/RESULT-A.json)",
+  "labels": [
+   "subject changed",
+   "other: only a word or two changed"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "weak-to-high",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "source_key": "spots/S16/old",
+  "emulate_key": "spots/S16/new",
+  "emulate_raw": "So each can correct the other.",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261026/b481/cm/HG-Forget-the-left-brain-right-62.out.txt",
+  "note": "Shape: \"these modes\" (an abstract label) became \"each ... the other\". A two-word change; with the old words back it read Human (Low, 0.531, 7 words) on 2026-10-29 (fix-20261029/recheck/read/RESULT-A.json), so the old line read below High twice and the new one High once."
+ },
+ {
+  "id": "b481-S18",
+  "batch": "481",
+  "source_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "input": "I was sober at the session and didn't feel especially suggestible, but I suspect that's not even the main reason the pro didn't work very well for me. The bigger issue was trust and precision.",
+  "input_reading": "Human (Medium, 0.944, 31 words) and Human (Low, 0.531, 7 words), batch 480's recheck part A (fix-20261026/b480/recheck/read/RESULT-A.json)",
+  "emulate": "One reason might have been that I was sober when I did that, and didn't feel that susceptible to hypnosis. But I think a bigger reason is trust and precision.",
+  "emulate_reading": "Human (High, 0.998, in a 1746-word window), batch 481's recheck part A (fix-20261026/b481/recheck/read/RESULT-A.json)",
+  "labels": [
+   "\"not X but Y\" or parallel pair broken",
+   "hedge or doubt added",
+   "order changed",
+   "short sentences joined"
+  ],
+  "meaning_error": "Raw sample stated sobriety as a reason (\"One reason was that I was sober\") and as a fact about him (\"wasn't that susceptible\"); he only suspected the first and felt the second. The lane changed both (\"might have been\", \"didn't feel\").",
+  "detector": "Pangram 4.1",
+  "kind": "weak-to-high",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "source_key": "spots/S18/old",
+  "emulate_key": "spots/S18/new",
+  "emulate_raw": "One reason was that I was sober when I did that, and wasn't that susceptible to hypnosis. But I think a bigger reason is that",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261026/b481/cm/HG-Why-doing-it-myself-worked-b-65.out.txt",
+  "note": "Shape (the splice joins Emulate's \"But I think a bigger reason is that\" to his \"trust and precision\"): the knock-down (\"..., but I suspect that's not even the main reason ... The bigger issue was trust and precision.\") became a ranked pair in his voice (\"One reason might have been ... But I think a bigger reason is ...\"), and the short verdict line was folded into the second sentence. With the old words back it read Human (High, 53 words) and Human (Low, 0.503, 7 words: \"The bigger issue was trust and precision.\") on 2026-10-29 (fix-20261029/recheck/read/RESULT-A.json)."
+ },
+ {
+  "id": "b481-S19",
+  "batch": "481",
+  "source_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "input": "And I can notice my body saying no before my conscious mind talks me into a yes.",
+  "input_reading": "Human (Low, 0.829, 17 words), batch 480's recheck part A (fix-20261026/b480/recheck/read/RESULT-A.json)",
+  "emulate": "I can tell when my body is saying no, before my conscious mind can twist it around to a yes.",
+  "emulate_reading": "Human (High, 0.998, in a 1746-word window), batch 481's recheck part A (fix-20261026/b481/recheck/read/RESULT-A.json)",
+  "labels": [
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: only a word or two changed"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "weak-to-high",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "source_key": "spots/S19/old",
+  "emulate_key": "spots/S19/new",
+  "emulate_raw": "I can tell when my body is saying no, before my conscious mind can twist it around to a yes.",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261026/b481/co/HG-Why-doing-it-myself-worked-b-65.out.txt",
+  "note": "Shape: almost none: the opening \"And\" dropped and \"talks me into a yes\" became \"can twist it around to a yes\". With the old words back it read Human (Medium, 0.944) on 2026-10-29 (fix-20261029/recheck/read/RESULT-A.json). Counts as evidence that a window this short moves with context more than with wording."
+ },
+ {
+  "id": "b481-S20",
+  "batch": "481",
+  "source_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "input": "You want to let your quieter preferences bubble up to the surface so you can be sure you’re not just echoing your social group.",
+  "input_reading": "Human (Low, 0.722, 64 words, with the two sentences before it, which are his inner child guide's), batch 480's recheck part A (fix-20261026/b480/recheck/read/RESULT-A.json)",
+  "emulate": "You want to be able to let the quiet little preferences that you have bubble up to the surface and know for sure that you’re not going by what your social group would want you to do.",
+  "emulate_reading": "Human (High, 0.999, in a 1624-word window), batch 481's recheck part A (fix-20261026/b481/recheck/read/RESULT-A.json); the old words back read Human (High) on 2026-10-29 (fix-20261029/recheck/read/RESULT-A.json)",
+  "labels": [
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "quip or metaphor removed",
+   "other: run-on or comma splice made (clauses chained with and/then/however or a bare comma)"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "weak-to-high",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "source_key": "spots/S20/old",
+  "emulate_key": "spots/S20/new",
+  "emulate_raw": "You want to be able to let the quiet little preferences that you have bubble up to the surface and know for sure that you’re not going by what your “social” group would want you to do.",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261026/b481/cm/HG-When-your-voice-is-everybody-186.out.txt",
+  "note": "Shape: a compact purpose sentence (\"so you can be sure you're not just echoing your social group\") became a looser, wordier one (\"be able to let the quiet little preferences that you have ... and know for sure that you're not going by what your social group would want you to do\"): the metaphor \"echoing\" became a plain action."
+ },
+ {
+  "id": "b481-S21",
+  "batch": "481",
+  "source_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "input": "And when you're done, come back the other way.",
+  "input_reading": "Human (Medium, 0.987, 21 words, with the bracket after it), batch 480's recheck part A (fix-20261026/b480/recheck/read/RESULT-A.json)",
+  "emulate": "When you're done, make sure to come back the other way.",
+  "emulate_reading": "Human (High, 0.997, 326 words), batch 481's recheck part A (fix-20261026/b481/recheck/read/RESULT-A.json)",
+  "labels": [
+   "other: bare statement or command turned into a softened instruction (make sure, you may want to, it is a good idea to)",
+   "other: only a word or two changed"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "weak-to-high",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "source_key": "spots/S21/old",
+  "emulate_key": "spots/S21/new",
+  "emulate_raw": "When you're done, make sure to come back the other way.",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261026/b481/cm/HG-Please-don-t-put-six-metapho-238.out.txt",
+  "note": "Shape: \"And when you're done, come back\" became \"When you're done, make sure to come back\". With the old words back it read Human (Low, 0.754, 10 words) on 2026-10-29 (fix-20261029/recheck/read/RESULT-A.json)."
+ },
+ {
+  "id": "b481-S22",
+  "batch": "481",
+  "source_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "input": "Read it out loud as you're writing it. Long, elegant sentences don't read well when you're being induced. It's all just soup.",
+  "input_reading": "Human (Medium, 0.974, 26 words), batch 480's recheck part A (fix-20261026/b480/recheck/read/RESULT-A.json)",
+  "emulate": "And then read it out loud as you write it. Long, elegant sentences are NOT going to help you when you’re trying to induce. It’s all soup to you at that point.",
+  "emulate_reading": "Human (High, 0.997, 326 words), batch 481's recheck part A (fix-20261026/b481/recheck/read/RESULT-A.json)",
+  "labels": [
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: capitals for emphasis added",
+   "abstract nouns turned into people doing things"
+  ],
+  "meaning_error": "\"when you're being induced\" became \"when you're trying to induce\": the reader is now the one inducing, not the one in trance.",
+  "detector": "Pangram 4.1",
+  "kind": "weak-to-high",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "source_key": "spots/S22/old",
+  "emulate_key": "spots/S22/new",
+  "emulate_raw": "And then read it out loud as you write it. Long, elegant sentences are NOT going to help you when you’re trying to induce. It’s all soup to you at that point.",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261026/b481/cn/HG-Please-don-t-put-six-metapho-238.out.txt",
+  "note": "Shape: three short tidy lines ending on a clipped image (\"It's all just soup.\") became the same three with a spoken frame (\"And then\", \"are NOT going to help you\", \"It's all soup to you at that point\"): the image is tied to the reader and a moment instead of standing as an aphorism. With the old words back they read Human (Low, 0.719) and Human (Medium) on 2026-10-29 (fix-20261029/recheck/read/RESULT-A.json)."
+ },
+ {
+  "id": "b481-S23",
+  "batch": "481",
+  "source_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "input": "Get clear on what it is you want to do during the induction. What do you want not to do today?",
+  "input_reading": "Human (Medium, 0.982, 58 words, with the rest of the paragraph), batch 480's recheck part A (fix-20261026/b480/recheck/read/RESULT-A.json)",
+  "emulate": "Think about what you want to do. Are there things you don’t want to do today?",
+  "emulate_reading": "Human (High, 0.997, 326 words), batch 481's recheck part A (fix-20261026/b481/recheck/read/RESULT-A.json)",
+  "labels": [
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: only a word or two changed"
+  ],
+  "meaning_error": "\"during the induction\" is gone, and \"Get clear on\" became the weaker \"Think about\".",
+  "detector": "Pangram 4.1",
+  "kind": "weak-to-high",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "source_key": "spots/S23/old",
+  "emulate_key": "spots/S23/new",
+  "emulate_raw": "Think about what you want to do. Are there things you don’t want to do today?",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261026/b481/cn/HG-Before-you-begin-242.out.txt",
+  "note": "Shape: shorter and plainer words (\"Think about what you want to do. Are there things you don't want to do today?\"); the awkward \"What do you want not to do today?\" became an ordinary question. With the old words back they read Human (Medium) on 2026-10-29 (fix-20261029/recheck/read/RESULT-A.json)."
+ },
+ {
+  "id": "b481-S26",
+  "batch": "481",
+  "source_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "input": "Give me one next action!",
+  "input_reading": "Human (Low, 0.727, 6 words), batch 480's recheck part A (fix-20261026/b480/recheck/read/RESULT-A.json)",
+  "emulate": "What is one next thing I can do?",
+  "emulate_reading": "Human (High, 0.999, in an 842-word window), batch 481's recheck part A (fix-20261026/b481/recheck/read/RESULT-A.json)",
+  "labels": [
+   "a question added",
+   "abstract nouns turned into people doing things",
+   "other: only a word or two changed"
+  ],
+  "meaning_error": "A demand to the subconscious (\"Give me one next action!\") became a question (\"What is one next thing I can do?\"), which is softer.",
+  "detector": "Pangram 4.1",
+  "kind": "weak-to-high",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "source_key": "spots/S26/old",
+  "emulate_key": "spots/S26/new",
+  "emulate_raw": "What is one next thing I can do?",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261026/b481/co/HG-Capacity-before-content-377.out.txt",
+  "note": "Shape: the fourth exclamation of a run of commands became a question, and \"action\" became \"thing I can do\". With the old words back it read Human (Low, 0.727, 6 words) again on 2026-10-29 (fix-20261029/recheck/read/RESULT-A.json)."
+ },
+ {
+  "id": "b481-S30",
+  "batch": "481",
+  "source_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "input": "Do you have a sense of what it is that feels fake?",
+  "input_reading": "Human (Low, 0.575, 31 words, with the requests before the heading), batch 480's recheck part A (fix-20261026/b480/recheck/read/RESULT-A.json)",
+  "emulate": "Have you got any sense of what it is that's making it feel fake?",
+  "emulate_reading": "Human (High, 0.998, 149 words), batch 481's recheck part A (fix-20261026/b481/recheck/read/RESULT-A.json)",
+  "labels": [
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: only a word or two changed"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "weak-to-high",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "source_key": "spots/S30/old",
+  "emulate_key": "spots/S30/new",
+  "emulate_raw": "Have you got any sense of what it is that's making it feel fake?",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261026/b481/co/HG-It-feels-fake-384.out.txt",
+  "note": "Shape: \"Do you have a sense of what it is that feels fake?\" became \"Have you got any sense of what it is that's making it feel fake?\": more spoken. With the old words back it read Human (Medium, 0.951) on 2026-10-29 (fix-20261029/recheck/read/RESULT-A.json)."
+ },
+ {
+  "id": "b481-S32",
+  "batch": "481",
+  "source_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "input": "An ethical one offers two genuinely safe routes.",
+  "input_reading": "Human (Low, 0.640, 8 words), batch 480's recheck part B (fix-20261026/b480/recheck/read/RESULT-B.json). His own sentence.",
+  "emulate": "An Ethical Double Bind Question gives someone a choice between two genuinely safe things to do.",
+  "emulate_reading": "Human (High, 0.999, 329 words), batch 481's recheck part B (fix-20261026/b481/recheck/read/RESULT-B.json)",
+  "labels": [
+   "abstract nouns turned into people doing things",
+   "subject changed",
+   "quip or metaphor removed"
+  ],
+  "meaning_error": "Raw sample dropped his \"genuinely\" (put back by the gate).",
+  "detector": "Pangram 4.1",
+  "kind": "weak-to-high",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "source_key": "spots/S32/old",
+  "emulate_key": "spots/S32/new",
+  "emulate_raw": "An Ethical Double Bind Question gives someone a choice between two safe things to do.",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261026/b481/cn/HG-Pattern-6-Ethical-double-bin-514.out.txt",
+  "note": "Shape: a compressed line with a pronoun subject and a metaphor (\"An ethical one offers two genuinely safe routes.\") became the full term doing something to a person (\"An Ethical Double Bind Question gives someone a choice between two genuinely safe things to do.\"). With the old words back it read AI (Medium, 0.951, 8 words) on 2026-10-29 (fix-20261029/recheck/read/RESULT-B.json)."
+ },
+ {
+  "id": "b481-S36",
+  "batch": "481",
+  "source_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "input": "What is theirs? What is mine?",
+  "input_reading": "Human (Medium, 0.963, 10 words, with his \"What does accountability require?\"), batch 480's recheck part B (fix-20261026/b480/recheck/read/RESULT-B.json)",
+  "emulate": "What’s theirs and what’s mine?",
+  "emulate_reading": "Human (High, 0.997, 66 words), batch 481's recheck part B (fix-20261026/b481/recheck/read/RESULT-B.json)",
+  "labels": [
+   "short sentences joined",
+   "\"not X but Y\" or parallel pair broken",
+   "casual register (contractions, \"kind of\", \"pretty\") added"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "weak-to-high",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "source_key": "spots/S36/old",
+  "emulate_key": "spots/S36/new",
+  "emulate_raw": "What’s theirs and what’s mine?",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261026/b481/cm/HG-Forgiveness-without-bypass-665.out.txt",
+  "note": "Shape: two parallel short questions (\"What is theirs? What is mine?\") became one question with contractions (\"What's theirs and what's mine?\"). With the old words back they read Human (Medium, 0.972) on 2026-10-29 (fix-20261029/recheck/read/RESULT-B.json)."
+ },
+ {
+  "id": "b481-S11",
+  "batch": "481",
+  "source_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "input": "You can also look at the daily and weekly sections to make the practice your own.",
+  "input_reading": "Human (Medium, 0.989, 16 words), batch 480's recheck part A (fix-20261026/b480/recheck/read/RESULT-A.json)",
+  "emulate": "Also read some of the stuff in the daily and weekly sections, to make the practice your own.",
+  "emulate_reading": "Human (High, 0.999, 399 words), batch 481's recheck part A (fix-20261026/b481/recheck/read/RESULT-A.json); still High on 2026-10-29 (fix-20261029/recheck/read/RESULT-A.json)",
+  "labels": [
+   "casual register (contractions, \"kind of\", \"pretty\") added"
+  ],
+  "meaning_error": "Raw sample dropped \"to make the practice your own\" (put back), and its \"You can also\" was cut for the linter.",
+  "detector": "Pangram 4.1",
+  "kind": "weak-to-high",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "source_key": "spots/S11/old",
+  "emulate_key": "spots/S11/new",
+  "emulate_raw": "You can also read some of the stuff in the daily and weekly sections",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261026/b481/co/HG-How-to-use-this-very-large-g-4.out.txt",
+  "note": "Shape: \"look at\" became \"read some of the stuff in\": a vaguer, spoken phrase."
+ },
+ {
+  "id": "b481-S14",
+  "batch": "481",
+  "source_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "input": "Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers know this perfectly well. In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers.",
+  "input_reading": "Human (Medium, 0.982, 77 words, with the paragraph before), batch 480's recheck part A (fix-20261026/b480/recheck/read/RESULT-A.json)",
+  "emulate": "There are a lot of ways to influence people without engaging their conscious mind. Marketers and interface designers know this perfectly well. The Federal Trade Commission has a report on “dark patterns” - designs that trick or manipulate consumers.",
+  "emulate_reading": "Human (High, 0.997, 274 words) and Human (Medium, 0.976, 24 words), batch 481's recheck part A (fix-20261026/b481/recheck/read/RESULT-A.json): only partly High",
+  "labels": [
+   "order changed",
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: list or gloss moved into brackets or dashes as an aside"
+  ],
+  "meaning_error": "Raw sample: \"their\" dark patterns and \"used to trick and manipulate\" for his \"designs that trick or manipulate consumers\"; the gate put his words back.",
+  "detector": "Pangram 4.1",
+  "kind": "weak-to-high",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "source_key": "spots/S14/old",
+  "emulate_key": "spots/S14/new",
+  "emulate_raw": "There are a lot of ways to influence people without engaging their conscious mind. The methods marketers and interface designers use are well-known. The Federal Trade Commission has a report on their “dark patterns” - designs used to trick and manipulate consumers.",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261026/b481/co/HG-Protecting-Yourself-from-Hyp-30.out.txt",
+  "note": "Shape: the dangling opening clause (\"Even when not actively engaging the conscious mind, there are many ways ...\") became a plain sentence with the condition last (\"There are a lot of ways ... without engaging their conscious mind\"); the FTC sentence became a short statement with a dash gloss."
+ },
+ {
+  "id": "b481-S29",
+  "batch": "481",
+  "source_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "input": "Ask: “Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.”",
+  "input_reading": "Human (Low, 0.575, 31 words), batch 480's recheck part A (fix-20261026/b480/recheck/read/RESULT-A.json)",
+  "emulate": "Maybe ask to be shown just one body sensation, or just one word. Or even just whether today is for listening or resting.",
+  "emulate_reading": "Human (Low, 0.813, 23 words), batch 481's recheck part A (fix-20261026/b481/recheck/read/RESULT-A.json)",
+  "labels": [
+   "colon or dash removed",
+   "\"not X but Y\" or parallel pair broken",
+   "hedge or doubt added",
+   "other: question turned into a statement or instruction"
+  ],
+  "meaning_error": "\"Ask\" (an instruction) became \"Maybe ask\"; the three requests to the inner process became a reported request (\"ask to be shown\").",
+  "detector": "Pangram 4.1",
+  "kind": "weak-stays-weak",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "source_key": "spots/S29/old",
+  "emulate_key": "spots/S29/new",
+  "emulate_raw": "Maybe ask to\n\nbe shown just one body sensation, or just one word,\n\nor even just whether it is more for listening to something\n\nor resting today.",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261026/b481/co/HG-Nothing-happens-378.out.txt",
+  "note": "Shape: a colon and three parallel quoted requests became one hedged sentence and an \"Or even just ...\" fragment. It still read Human (Low, 0.813, 23 words): this change did not reach High."
+ },
+ {
+  "id": "b481-S31",
+  "batch": "481",
+  "source_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "input": "Maybe you've fooled yourself before, and that part remembers.",
+  "input_reading": "Human (Low, 0.531, 10 words), batch 480's recheck part A (fix-20261026/b480/recheck/read/RESULT-A.json). His inner child guide's sentence.",
+  "emulate": "You may have fooled yourself in the past, and that part remembers.",
+  "emulate_reading": "Human (Medium, 0.989, 12 words), batch 481's recheck part A (fix-20261026/b481/recheck/read/RESULT-A.json)",
+  "labels": [
+   "hedge or doubt added",
+   "other: only a word or two changed"
+  ],
+  "meaning_error": "Raw sample: \"this part knows it\" for his \"that part remembers\" (put back).",
+  "detector": "Pangram 4.1",
+  "kind": "weak-stays-weak",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b481/CANDIDATES.json",
+  "source_key": "spots/S31/old",
+  "emulate_key": "spots/S31/new",
+  "emulate_raw": "You may have fooled yourself in the past and this part knows it.",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261026/b481/co/HG-It-feels-fake-384.out.txt",
+  "note": "Shape: \"Maybe you've fooled yourself before\" became \"You may have fooled yourself in the past\". It reached only Medium; the old words back read AI (Low, 0.503, 10 words) on 2026-10-29 (fix-20261029/recheck/read/RESULT-A.json)."
+ },
+ {
+  "id": "seam-bj-help",
+  "batch": "473 (emu-seam)",
+  "source_file": "articles/inner-signal/humanize/fix-20261023/emu-seam/INPUT.json",
+  "input": "If you are finding that you are responding to it when you don’t want to, or you are having problems with being disoriented after using it, get some help from someone who is qualified to help you.",
+  "input_reading": "AI (High): the whole stretch read AI (High) through the API as it stood, 245 words (b472_s2_base, fix-20261023/b472/API-CHECKS.md), and in the recheck of 2026-10-22 part A (AI High, 162 words, fix-20261022/recheck/RESULT-A.json). The text is Emulate's earlier output (samples emu-bf and emu-ax, which had passed) with the lane's meaning fixes.",
+  "emulate": "If it’s causing you a problem (you’re responding to it when you don’t want to, you’re having disorientation issues, whatever), then get help from someone who can help you.",
+  "emulate_reading": "Human (High, 157 words) alone through the API with \"who's qualified\" put back (b473_seam_bj_p1, fix-20261023/b473/API-CHECKS.md); in place in the recheck of 2026-10-23 part A this sentence read AI (Low, 0.879, 35 words) (fix-20261023/recheck/RESULT-A.json)",
+  "labels": [
+   "subject changed",
+   "other: list or gloss moved into brackets or dashes as an aside",
+   "other: catch-all list ending added (etc., whatever, or anything like that)",
+   "casual register (contractions, \"kind of\", \"pretty\") added"
+  ],
+  "meaning_error": "\"qualified\" dropped (anyone \"who can help you\"); put back before the check.",
+  "detector": "Pangram 4.1",
+  "kind": "pass-alone-ai-in-place",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261023/emu-seam/bj/HG-seam-rr.out.txt",
+  "source_key": "HG-seam-rr",
+  "note": "Shape: a two-part condition in full clauses (\"If you are finding that you are ..., or you are having problems with ...\") became one plain condition with the examples in brackets ending on \"whatever\". Passed alone, failed in place: the reading of a 35-word window depended on its neighbours."
+ },
+ {
+  "id": "seam-bj-keep",
+  "batch": "473 (emu-seam)",
+  "source_file": "articles/inner-signal/humanize/fix-20261023/emu-seam/INPUT.json",
+  "input": "If you want to keep it in, you can, but only for the use of starting a session at a later time when you want to. For now, today’s trance will be over when you come out of it.",
+  "input_reading": "AI (High): the whole stretch read AI (High) through the API as it stood, 245 words (b472_s2_base, fix-20261023/b472/API-CHECKS.md), and in the recheck of 2026-10-22 part A (AI High, 162 words, fix-20261022/recheck/RESULT-A.json). The text is Emulate's earlier output (samples emu-bf and emu-ax, which had passed) with the lane's meaning fixes.",
+  "emulate": "If you want to keep it around so you can use it to go back into a trance at a later date when you want to, that’s fine. But for now, when you come out of this trance, it will be over for today.",
+  "emulate_reading": "Human (High, 157 words) alone through the API (b473_seam_bj_p1, fix-20261023/b473/API-CHECKS.md); in place in the recheck of 2026-10-23 part A these two sentences read AI (Medium, 0.958, 45 words) (fix-20261023/recheck/RESULT-A.json)",
+  "labels": [
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "order changed",
+   "other: casual connective added (on the other hand, though, also, of course)"
+  ],
+  "meaning_error": "Dropped condition: \"only for the use of starting a session at a later time\" became a plain permission (\"that's fine\"); the restriction \"only\" is gone.",
+  "detector": "Pangram 4.1",
+  "kind": "pass-alone-ai-in-place",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261023/emu-seam/bj/HG-seam-rr.out.txt",
+  "source_key": "HG-seam-rr",
+  "note": "Shape: a hedged permission with a restriction (\"you can, but only for ...\") became a casual permission (\"If you want to keep it around ..., that's fine.\"), and the closing clause order was swapped. AI (Medium) in place."
+ },
+ {
+  "id": "seam-bk-reverse",
+  "batch": "473 (emu-seam)",
+  "source_file": "articles/inner-signal/humanize/fix-20261023/emu-seam/INPUT.json",
+  "input": "Make sure to reverse anything you’ve done to alter your state when you come out of it. If you’ve floated, make sure you regain your weight (of your choice, of course). If you’ve shrunk, grow to your normal size again.",
+  "input_reading": "AI (High): these sentences read AI (High, then Medium 25 words) in the recheck of 2026-10-22 part A (fix-20261022/recheck/RESULT-A.json) and AI (High) through the API (b472_s2_base, fix-20261023/b472/API-CHECKS.md). Emulate's own earlier output (emu-ax), which had read Human in Pangram 4.0 (batch 463, HG18-wb).",
+  "emulate": "If you have done anything to alter your state when coming out of a trance, make sure to reverse those things. If you have floated, make sure to gain your weight again (whatever weight you want of course). If you have shrunk, make sure to grow back to your regular size.",
+  "emulate_reading": "Human (High, a 286-word window) in the API pair check b473_seam_pair (fix-20261023/b473/API-CHECKS.md); never installed, so never read in place",
+  "labels": [
+   "order changed",
+   "other: register made more formal or more abstract (contractions removed, abstract subject)",
+   "other: run of parallel \"if\" clauses or \"If you X, Y\" sentences made or kept"
+  ],
+  "meaning_error": "\"If you have done anything to alter your state when coming out of a trance\" attaches \"when coming out\" to the altering, not to the reversing.",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261023/emu-seam/bk/HG-seam-rr.out.txt",
+  "source_key": "HG-seam-rr",
+  "note": "A counter-case: Emulate made this run MORE uniform (\"If you have X, make sure to Y\" three times) and dropped the contractions, and the pair still read Human (High). The structural lessons are tendencies, not switches."
+ },
+ {
+  "id": "b474-drive",
+  "batch": "474",
+  "source_file": "articles/inner-signal/humanize/fix-20261023/b474/CANDIDATES.json",
+  "input": "Never do this when you are driving or doing something where you need to be actively paying attention. It is not safe to go into a trance where you are actively paying attention to what is inside of you when you should be paying attention to what is outside of you, even with your eyes open, even if you are using “if it would be useful for you to do so” type language.",
+  "input_reading": "Human (Low, 0.67, 18 words) for the first sentence and AI (Low, 0.575, a 98-word window) from the second sentence into the next paragraph, recheck of 2026-10-23 part A (fix-20261023/recheck/RESULT-A.json)",
+  "emulate": "There is something you should never do while using this induction. And that’s use it while you’re driving or doing something where you need to be actively paying attention. It’s just not safe to be going into a trance where you are actively paying attention to what’s going on inside of you when you need to be paying attention to what’s going on outside of you. Even though your eyes can be open, even though you’re using “if it would be useful for you to do so” type language it’s just not safe.",
+  "emulate_reading": "Human (High, 0.999, in a 1365-word window), recheck A3 (fix-20261023/recheck-a3/RESULT-A.json); through the API, Human (Medium, 11 words, the first line) and Human (High, 129 words) (b474_seam2, fix-20261023/b474/API-CHECKS.md)",
+  "labels": [
+   "other: announcing set-up added (\"There is something you should never do ... And that's ...\")",
+   "a long sentence split",
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "sentence lengths made uneven",
+   "other: restating closer added"
+  ],
+  "meaning_error": "\"train\" and \"test\" were lost in an earlier step; this sample kept \"never\" and made \"your eyes can be open\" a may.",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261023/b474/bn/HG-A-seam2.out.txt",
+  "source_key": "b474_seam2/old/0",
+  "note": "Shape: a flat prohibition and one long sentence with two trailing \"even ...\" clauses became a spoken announcement (\"There is something you should never do ... And that's use it while ...\"), the reason as its own sentence, and the \"even though ..., even though ...\" clauses as a last sentence ending on a repeated \"it's just not safe\". Two tells from the inventory (an announcing set-up, a restating closer) are here, and it read High: in speech-like prose they read as speech."
+ },
+ {
+  "id": "b474-shortcut-steps",
+  "batch": "474",
+  "source_file": "articles/inner-signal/humanize/fix-20261023/b474/CANDIDATES.json",
+  "input": "If you want to turn this one off, all you have to do is not practice it anymore, take it out of your recordings, take it out of your apps if you’re using it there, and start using your regular induction again. You’ll want to say, while you’re awake, that you won’t use this one anymore, but saying that it’s gone doesn’t mean it’s going to be gone right away.",
+  "input_reading": "AI (Low, 0.575) for the first sentence (in the 98-word window above) and AI (Medium, 0.933, 34 words) for the second, recheck of 2026-10-23 part A (fix-20261023/recheck/RESULT-A.json). Emulate's bj with the lane's fix \"You'll want to say, while you're awake,\".",
+  "emulate": "If you want to turn this one off, simply don’t practice it anymore. Take it out of your recordings, take it out of your apps if you’re using it in an app, and start using your regular induction. Tell yourself, when you’re awake, that you won’t be using it anymore. Just because you say that it’ll be gone doesn’t mean that it’ll be gone right away.",
+  "emulate_reading": "Human (High, 0.999, in a 1365-word window), recheck A3 (fix-20261023/recheck-a3/RESULT-A.json); through the API, Human (High, 129 words) and Human (Medium, 33 words) for \"Tell yourself ... right away.\" (b474_seam2, fix-20261023/b474/API-CHECKS.md)",
+  "labels": [
+   "a long sentence split",
+   "list split into sentences",
+   "\"not X but Y\" or parallel pair broken",
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "sentence lengths made uneven",
+   "other: statement or softened line turned into a direct instruction to the reader"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261023/b474/bl/HG-A-seam2.out.txt",
+  "source_key": "b474_seam2/old/1",
+  "note": "Shape: two long sentences, a comma run of four steps and a \"..., but saying that it's gone doesn't mean ...\" contrast, became five shorter ones: the first step alone, the other steps together, the instruction (\"Tell yourself, when you're awake, ...\"), and the caution as its own \"Just because you say ... doesn't mean ...\" sentence."
+ },
+ {
+  "id": "b474-shortcut-help",
+  "batch": "474",
+  "source_file": "articles/inner-signal/humanize/fix-20261023/b474/CANDIDATES.json",
+  "input": "If it’s causing you a problem (you’re responding to it when you don’t want to, you’re having disorientation issues, whatever), then get help from someone who’s qualified to help you. If you want to keep it around so you can use it to go back into a trance at a later date when you want to, that’s fine. But for now, when you come out of this trance, it will be over for today.",
+  "input_reading": "AI (Low, 0.879, 35 words) and AI (Medium, 0.958, 45 words), recheck of 2026-10-23 part A (fix-20261023/recheck/RESULT-A.json); Emulate's bj (with \"who's qualified\" put back), which had read Human (High) alone",
+  "emulate": "If it’s causing you a problem, if you’re still responding to it when you don’t want to respond to it, if you’re having issues with disorientation, etc, get some help from someone who’s qualified to help you with this. If, on the other hand, you want to keep it so that you can use it to go back into trance at a later date when you do want to go into a trance, that’s fine too. For now, though, once you come out of this trance, it’ll be over for today.",
+  "emulate_reading": "Human (High, 0.999, in a 1365-word window), recheck A3 (fix-20261023/recheck-a3/RESULT-A.json); Human (High, 82 words) and Human (Medium, 16 words) through the API (b474_seam2, fix-20261023/b474/API-CHECKS.md)",
+  "labels": [
+   "other: run of parallel \"if\" clauses or \"If you X, Y\" sentences made or kept",
+   "other: catch-all list ending added (etc., whatever, or anything like that)",
+   "other: casual connective added (on the other hand, though, also, of course)",
+   "casual register (contractions, \"kind of\", \"pretty\") added"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261023/b474/bl/HG-A-seam2.out.txt",
+  "source_key": "b474_seam2/old/1",
+  "note": "Shape: the bracketed examples (\"(you're responding to it ..., you're having disorientation issues, whatever)\") became a run of \"if\" clauses (\"If it's causing you a problem, if you're still ..., if you're having ..., etc,\"), and casual connectives (\"If, on the other hand, ...\", \"that's fine too\", \"For now, though,\") were added."
+ },
+ {
+  "id": "b474-trouble-show",
+  "batch": "474",
+  "source_file": "articles/inner-signal/humanize/fix-20261023/b474/CANDIDATES.json",
+  "input": "Showing yourself just one sensation in your body / one word / whether to listen today or rest?",
+  "input_reading": "AI (Medium, 0.94, 34 words, marked humanized), with the next line, recheck of 2026-10-23 part A (fix-20261023/recheck/RESULT-A.json). Emulate's own earlier output (emu-as, HG24-ow1), which had read Human (Medium) in the recheck of 2026-10-22.",
+  "emulate": "Show yourself one sensation, one word, ask yourself if you want to listen today or if you need to rest.",
+  "emulate_reading": "As installed, with \"body\" put back (\"Show yourself one body sensation, ...\"), Human (High, 0.999, in a 1797-word window), recheck A3 (fix-20261023/recheck-a3/RESULT-A.json); the line before it (\"Is there a way you could try this on a smaller scale?\") read Human (Medium, 0.967, 57 words); Human (High, 132 words) for the stretch through the API (b474_trouble, fix-20261023/b474/API-CHECKS.md)",
+  "labels": [
+   "other: question turned into a statement or instruction",
+   "other: statement or softened line turned into a direct instruction to the reader",
+   "abstract nouns turned into people doing things"
+  ],
+  "meaning_error": "The requests were made of the inner process (\"Show me ...\") and are now made to yourself (\"Show yourself ...\"); \"body\" is dropped and \"what today is for\" became what you want or need.",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261023/b474/bn/HG-A-trouble.out.txt",
+  "source_key": "b474_trouble/old/1",
+  "note": "Shape: a verbless question fragment with a slash list (\"Showing yourself just one sensation in your body / one word / whether to listen today or rest?\") became an instruction with a comma list and a second verb (\"ask yourself if you want to ... or if you need to rest\")."
+ },
+ {
+  "id": "b474-trouble-fake",
+  "batch": "474",
+  "source_file": "articles/inner-signal/humanize/fix-20261023/b474/CANDIDATES.json",
+  "input": "Do you know what exactly feels fake - the words, an image, what you are expecting, the role etc?",
+  "input_reading": "AI (Medium, 0.94, 34 words, marked humanized), recheck of 2026-10-23 part A (fix-20261023/recheck/RESULT-A.json); Emulate's earlier output (emu-as)",
+  "emulate": "Do you have a sense of what it is that feels fake? The words, an image, what you are expecting to get from this, a role you feel you have to play etc.",
+  "emulate_reading": "Human (High, 0.999, in a 1797-word window), recheck A3 (fix-20261023/recheck-a3/RESULT-A.json)",
+  "labels": [
+   "colon or dash removed",
+   "a long sentence split",
+   "a concrete particular added",
+   "casual register (contractions, \"kind of\", \"pretty\") added"
+  ],
+  "meaning_error": "\"First\" (ask first) is gone: a no now has no next step.",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261023/b474/bm/HG-A-trouble.out.txt",
+  "source_key": "b474_trouble/old/2",
+  "note": "Shape: one question with a dash and a short list tucked into it (\"... feels fake - the words, an image, what you are expecting, the role etc?\") became a plain question, then the list as its own verbless line with fuller, more particular items (\"what you are expecting to get from this, a role you feel you have to play etc.\")."
+ },
+ {
+  "id": "b474-stand",
+  "batch": "474",
+  "source_file": "articles/inner-signal/humanize/fix-20261023/b474/CANDIDATES.json",
+  "input": "Move around a bit, and don’t get up until you feel steady. Make sure you’re truly oriented and alert (the count is supposed to bring you back, but it doesn’t always do the whole job).",
+  "input_reading": "AI (Low, 0.575, 38 words), recheck of 2026-10-23 part A (fix-20261023/recheck/RESULT-A.json)",
+  "emulate": "Move around a bit. Don’t get up until you feel like you can do so without falling over. Make sure that you are oriented and alert (counting does this, but not always).",
+  "emulate_reading": "Human (Low, 0.503, 4 words) and Human (Low, 0.714, 56 words), recheck A3 (fix-20261023/recheck-a3/RESULT-A.json): a weak pass; the unchanged lines before it read AI (Low) in the same check, and batch 475 replaced the stretch",
+  "labels": [
+   "a long sentence split",
+   "a concrete particular added",
+   "sentence lengths made uneven"
+  ],
+  "meaning_error": "\"stand only when steady\" became \"until you feel like you can do so without falling over\", a lower bar; \"the count is supposed to bring you back\" became \"counting does this, but not always\".",
+  "detector": "Pangram 4.1",
+  "kind": "pass-low",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261023/b474/CANDIDATES.json",
+  "source_key": "b474_s3c/old/0",
+  "emulate_key": "b474_s3c/new/0",
+  "note": "Shape (two samples spliced: bn, then bm): one joined instruction became a four-word sentence and a longer one with a vivid particular (\"without falling over\")."
+ },
+ {
+  "id": "b475-script",
+  "batch": "475",
+  "source_file": "articles/inner-signal/humanize/fix-20261023/b475/CANDIDATES.json",
+  "input": "All instructions you have given me to carry me deeper in this session or to keep me in this state are now finished. The only instruction I will take with me into my everyday life, or the only cue I will use to take me into this state in the future, is the one I consciously choose to, and neither of them keeps me in this state. When I come out of this session, I will be me, in my body, with my adult judgment.\"",
+  "input_reading": "AI (Low, 0.503, 23 words) and AI (Low, 0.684, 93 words), recheck A3 (fix-20261023/recheck-a3/RESULT-A.json). Emulate's earlier output (emu-ax) with the lane's fixes.",
+  "emulate": "All the instructions you have given me to carry me deeper into this session or keep me in this state are now finished, the only intention I will take with me into my everyday life or the only cue I will use to take me into this state at a later date will be the one I consciously choose to and neither of them will keep me in this state. When I come out of this session I will be me, in my body and with my adult judgment.”",
+  "emulate_reading": "Human (High, 0.999, in a 1587-word window), recheck A4 (fix-20261023/recheck-a4/RESULT-A.json)",
+  "labels": [
+   "short sentences joined",
+   "other: run-on or comma splice made (clauses chained with and/then/however or a bare comma)",
+   "other: typos, slashes or nonstandard spelling"
+  ],
+  "meaning_error": "The triage changed the sample's \"instruction\" to \"intention\" (the reader's fix); the raw sample's \"in to\", \"every day\" and \"judgement\" were put back to the guide's spelling.",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261023/b475/CANDIDATES.json",
+  "source_key": "script/old",
+  "emulate_key": "script/new",
+  "emulate_raw": "All the instructions you have given me to carry me deeper in to this session or keep me in this state are now finished, the only instruction I will take with me in to my every day life or the only cue I will use to take me in to this state at a later date will be the one I consciously choose to and neither of them will keep me in this state. When I come out of this session I will be me, in my body and with my adult judgement.\"",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261023/b475/bo/HG-A-return.out.txt",
+  "note": "Shape: two sentences, the second with neat paired commas (\"The only instruction ..., or the only cue ..., is the one ..., and neither ...\"), became one long comma-spliced run with almost no internal commas (\"... are now finished, the only intention I will take ... or the only cue ... will be the one I consciously choose to and neither of them will keep me in this state.\")."
+ },
+ {
+  "id": "b475-count",
+  "batch": "475",
+  "source_file": "articles/inner-signal/humanize/fix-20261023/b475/CANDIDATES.json",
+  "input": "Then count up, using these five steps: 1...feel your body again and what it's resting on, feel your weight (of your choice). 2...feel your breathing return to normal. 3...hear the room, name where you are. 4...wiggle your fingers and toes, move your shoulders and your eyes. 5...open your eyes, back in the here and now, feeling normal and clear. This session is now over.",
+  "input_reading": "AI (Low, 0.684, 93 words), AI (Medium, 0.951, 20 words) and AI (Low, 0.644, 31 words), recheck A3 (fix-20261023/recheck-a3/RESULT-A.json)",
+  "emulate": "Then do a count up: On 1 start to feel your body again and what it's resting on and feel your weight (of your choice). On 2 start to feel your breathing return to normal. On 3 start to hear the room around you and name where you are. On 4 start to wiggle your fingers and toes, move your shoulders and your eyes. On 5 open your eyes, back in the here and now, feeling normal and clear and the session is now over.",
+  "emulate_reading": "Human (High, 0.999), Human (Medium, 0.988, 39 words) and Human (High, 0.995, 52 words), recheck A4 (fix-20261023/recheck-a4/RESULT-A.json)",
+  "labels": [
+   "other: run-on or comma splice made (clauses chained with and/then/however or a bare comma)",
+   "short sentences joined",
+   "other: only a word or two changed"
+  ],
+  "meaning_error": "Raw sample: \"you can put your weight here if you like\" and \"know where you are\" for \"of your choice\" and \"name where you are\"; the lane put his words back.",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261023/b475/CANDIDATES.json",
+  "source_key": "count/old",
+  "emulate_key": "count/new",
+  "emulate_raw": "Then do a count up, e.g. On 1 start to feel your body again and what it's resting on and feel your weight (you can put your weight here if you like). On 2 start to feel your breathing return to normal. On 3 start to hear the room around you and know where you are. On 4 start to wiggle your fingers and toes, move your shoulders and your eyes. On 5 open your eyes whenever you like, back in the here and now, feeling normal and clear and the session is now over.",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261023/b475/bp/HG-A-return.out.txt",
+  "note": "Shape: numbered fragments (\"1...feel your body again ... 2...feel your breathing ...\") became full sentences with the number as a time (\"On 1 start to feel ...\"), and the closing line was joined onto step 5 with \"and\" (\"... feeling normal and clear and the session is now over.\")."
+ },
+ {
+  "id": "b475-reorient",
+  "batch": "475",
+  "source_file": "articles/inner-signal/humanize/fix-20261023/b475/CANDIDATES.json",
+  "input": "When you come out, remind yourself what day (or date) it is. Look to your left and your right. Look at something near, and something far.",
+  "input_reading": "AI (Low, 0.644, 31 words), AI (Low, 0.575, 7 words) and AI (Low, 0.531, 7 words), recheck A3 (fix-20261023/recheck-a3/RESULT-A.json). Emulate's own earlier output (emu-ax), which had split the published \"Look left, right, near, and far.\" into two sentences.",
+  "emulate": "When you come out make sure you can name what day (or date) it is, look to your left and right, look at something near to you and something further away.",
+  "emulate_reading": "Human (High, 0.995, 52 words), recheck A4 (fix-20261023/recheck-a4/RESULT-A.json)",
+  "labels": [
+   "short sentences joined",
+   "other: run-on or comma splice made (clauses chained with and/then/however or a bare comma)",
+   "other: bare statement or command turned into a softened instruction (make sure, you may want to, it is a good idea to)"
+  ],
+  "meaning_error": "Raw sample: \"make sure you remember what day\" for \"remind yourself\" (the lane: \"make sure you can name\").",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261023/b475/CANDIDATES.json",
+  "source_key": "reorient/old",
+  "emulate_key": "reorient/new",
+  "emulate_raw": "When you come out make sure you remember what day (or date) it is, look to your left and right, look at something near to you and something further away.",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261023/b475/bo/HG-A-return.out.txt",
+  "note": "Shape: three short command sentences became one comma-run instruction (\"When you come out make sure you can name what day (or date) it is, look to your left and right, look at something near to you and something further away.\"). The same content split into short commands read AI three times in a row."
+ },
+ {
+  "id": "b475-note",
+  "batch": "475",
+  "source_file": "articles/inner-signal/humanize/fix-20261023/b475/CANDIDATES.json",
+  "input": "Note: If you're going to sleep to a recording, it's fine to go to sleep or just to remain resting quietly at the end of it. But if you're coming out, you should not leave yourself in an altered state, including leaving yourself in a role, with judgment lowered, with movements impaired, blank, with a non-specific reset word, or indefinitely.",
+  "input_reading": "Human (Medium, 0.974, 43 words) for the first sentence and AI (Medium, 0.977, 36 words) for the second, recheck A3 (fix-20261023/recheck-a3/RESULT-A.json)",
+  "emulate": "Note: If you are going to sleep to a recording then it is fine to go to sleep or just remain resting quietly at the end of it, however if you are coming out of a recording then you should not leave yourself in an altered state, this includes leaving yourself in a role, with lowered judgment, with lowered ability to move, blank or with a non-specific reset word or for an indefinite length of time.",
+  "emulate_reading": "Human (High, 0.998, in a 521-word window), recheck A4 (fix-20261023/recheck-a4/RESULT-A.json)",
+  "labels": [
+   "short sentences joined",
+   "other: run-on or comma splice made (clauses chained with and/then/however or a bare comma)",
+   "other: register made more formal or more abstract (contractions removed, abstract subject)"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261023/b475/CANDIDATES.json",
+  "source_key": "note/old",
+  "emulate_key": "note/new",
+  "emulate_raw": "Note: If you are going to sleep to a recording then it is fine to go to sleep or just remain resting quietly, however if you are coming out of a recording then you should not leave yourself in an altered state, this includes leaving yourself in a role, with lowered judgement, with lowered ability to move, blank or with a non specific reset word or for an indefinite length of time.",
+  "emulate_raw_file": "articles/inner-signal/humanize/fix-20261023/b475/bo/HG-A-return.out.txt",
+  "note": "Shape: two sentences joined into one with \", however\", then a comma splice into the list (\"... an altered state, this includes leaving yourself in a role, ...\"), contractions removed, and the last item made a phrase (\"for an indefinite length of time\")."
+ },
+ {
+  "id": "screen-S2-metaphors",
+  "batch": "screen 2026-10-22 (emu-bd)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-bc/HG17-pub2.txt",
+  "input": "Choose one purpose, one starting anchor or image, and a way back. Decide whether warmth, a firm boundary, direction, or neutral witnessing would help. Floating, stairs, gardens, inner rooms, colored light, and child dialogue do not all need to report for duty at once. Switch consciously when the metaphor stops helping.",
+  "input_reading": "The published section read AI (High, a 1642-word window) in the 4.0 baseline (batch 429, fix-20261018/b429/b429-results.json); in 4.1 the installed sample ba of this section read AI with most windows marked humanized (whole-guide check 41r3-a, fix-20261020/result41/WINDOWS-41r3-a.json)",
+  "emulate": "Have some idea what you want to do, where you are starting, how you will get back, and what kind of atmosphere you want to create. You may want to be warm, protective, forceful, neutral, etc. You may want to float, go down stairs, walk in a garden, go inside, work with color, talk to an inner child, etc. It doesn't make sense to do all of these in one session. You can change the metaphor if you do so consciously.",
+  "emulate_reading": "Human (High, 0.999, in a 1847-word window) in the screening post (fix-20261022/screen/RESULT-S.json); sample S2 read Human in every window",
+  "labels": [
+   "abstract nouns turned into people doing things",
+   "quip or metaphor removed",
+   "other: bare statement or command turned into a softened instruction (make sure, you may want to, it is a good idea to)",
+   "other: catch-all list ending added (etc., whatever, or anything like that)"
+  ],
+  "meaning_error": "\"neutral witnessing\" became \"neutral\"; \"a firm boundary\" became \"protective, forceful\"; \"when the metaphor stops helping\" is gone.",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-bd/HG17-pub2.out.txt",
+  "note": "Shape: noun lists (\"one purpose, one starting anchor or image, and a way back\"; \"Floating, stairs, gardens, ...\") became things the reader does (\"what you want to do, where you are starting, how you will get back\"; \"You may want to float, go down stairs, walk in a garden ..., etc.\"), and the quip (\"do not all need to report for duty at once\") became a plain reason (\"It doesn't make sense to do all of these in one session.\"). Compare screen-S1-metaphors, the same input in sample bc, which read AI."
+ },
+ {
+  "id": "screen-S2-imagery",
+  "batch": "screen 2026-10-22 (emu-bd)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-bc/HG17-pub2.txt",
+  "input": "Imagery is optional. A signal may arrive through sensation, rhythm, movement, words, spatial sense, simple knowing, or no response at all. Keep the language in the world you chose: let a count mark something meaningful there, and reverse the journey when you finish. Borrow qualities such as warmth or steadiness without replacing your identity.",
+  "input_reading": "As screen-S2-metaphors: the published section read AI (High) in 4.0 (fix-20261018/b429/b429-results.json); its installed Emulate version read AI (humanized) in 4.1 (fix-20261020/result41/WINDOWS-41r3-a.json)",
+  "emulate": "You don't have to use imagery at all. Your signal from the other side can be felt, rhythmic, movement, verbal, spatial, \"I know it,\" or nothing. If you do choose a metaphor, try to stay in that \"world,\" even as you count, etc., and come back the same way you went in. It is okay to borrow from other places (warmth, steadiness, etc.) but don't change your identity.",
+  "emulate_reading": "Human (High, 0.999, in a 1847-word window) in the screening post (fix-20261022/screen/RESULT-S.json)",
+  "labels": [
+   "colon or dash removed",
+   "hedge or doubt added",
+   "other: quoted inner speech or a direct request added",
+   "other: catch-all list ending added (etc., whatever, or anything like that)",
+   "other: list or gloss moved into brackets or dashes as an aside",
+   "short sentences joined"
+  ],
+  "meaning_error": "\"no response at all\" became \"nothing\"; \"let a count mark something meaningful there\" became \"even as you count, etc.\" (the instruction about the count is gone).",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-bd/HG17-pub2.out.txt",
+  "note": "Shape: a short definition line (\"Imagery is optional.\"), a noun list and a colon instruction became a \"you\" sentence, a looser list with a quoted inner phrase (\"\\\"I know it,\\\"\"), and one joined, hedged instruction (\"If you do choose a metaphor, try to stay in that \\\"world,\\\" even as you count, etc., and come back ...\"). Compare screen-S1-imagery (sample bc), which kept the noun list and read AI."
+ },
+ {
+  "id": "screen-S4-active",
+  "batch": "screen 2026-10-22 (emu-bf)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-be/HG17-fx1.txt",
+  "input": "If your state of being still is one where you tend to become sleepy, diffuse or mentally escaping, try making your hypnosis more active, since hypnosis can be more alert rather than more relaxed. For example, keeping your eyes open, and making a deliberate movement with one hand as you bring yourself into a clearer state, and then ceasing the deliberate movement and noticing what remains. Don’t try to disappear inward.",
+  "input_reading": "AI in 4.1: this installed text (sample ba with the lane's fixes) read AI with its windows marked humanized in whole-guide check 41r3-a, \"Don't try to disappear inward.\" AI (Medium, 6 words) and the script after it AI (High, 56 words) (fix-20261020/result41/WINDOWS-41r3-a.json)",
+  "emulate": "If being still tends to make you sleepy, or diffuse your attention, or make you want to mentally escape, you can make the hypnosis more active. Instead of getting more relaxed with the hypnosis, try getting more alert. Keep your eyes open. Tell yourself that as you move one of your hands, you're going to move deliberately, and as soon as you stop moving deliberately, you'll focus on what you've got. Don't escape inside yourself.",
+  "emulate_reading": "Human (High, 0.998, 99 words) and Human (High, 0.999, 32 words) in the screening post (fix-20261022/screen/RESULT-S.json); sample S4 read Human in every window",
+  "labels": [
+   "a long sentence split",
+   "sentence lengths made uneven",
+   "definition turned into an action or instruction",
+   "abstract nouns turned into people doing things"
+  ],
+  "meaning_error": "The step \"making a deliberate movement with one hand as you bring yourself into a clearer state\" became \"Tell yourself that as you move one of your hands, you're going to move deliberately\": the clearer state is gone from the step (the comprehension pass later restored it).",
+  "detector": "Pangram 4.1",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-bf/HG17-fx1.out.txt",
+  "note": "Shape: a \"since hypnosis can be more alert rather than more relaxed\" explanation became an instruction (\"Instead of getting more relaxed ..., try getting more alert.\"); a verbless \"For example, keeping ..., and making ..., and then ceasing ...\" fragment became a four-word command (\"Keep your eyes open.\") and a long spoken sentence. Compare screen-S3-active (sample be), which read AI."
+ },
+ {
+  "id": "40-HG06-consent",
+  "batch": "430 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG06-r1.txt",
+  "input": "Conscious agreement is one thing. Unconscious receptivity is another. Emotional compliance is another. Legal and ethical consent is another. A mind can be influenced without the adult self having clearly chosen the influence.",
+  "input_reading": "AI (High), the whole section one 183-word window, AI likelihood 0.89, batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "Consciously or unconsciously, emotionally or legally, there are a lot of ways to gain someone’s consent, or influence their mind, even if they are a fully grown adult.",
+  "emulate_reading": "Human (High), the section one 244-word window, AI likelihood 0.10, batch 430 (fix-20261018/b430/b430-results.json)",
+  "labels": [
+   "\"not X but Y\" or parallel pair broken",
+   "short sentences joined",
+   "abstract nouns turned into people doing things",
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "summing-up or closing line dropped"
+  ],
+  "meaning_error": "The published point that these are four separate things is lost (they become \"ways to gain someone's consent\"), and \"without the adult self having clearly chosen the influence\" became \"even if they are a fully grown adult\". Joel's own revision of 28 October put the point back (\"All of these are separate factors to consider: ...\"), and that line read AI (Low, 18 words) on 2026-10-29.",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG06-r1.out.txt",
+  "note": "Shape: an anaphoric run of five short sentences (\"X is one thing. Y is another. Z is another. ...\") and a summing-up line became one sentence about people (\"there are a lot of ways to gain someone's consent, or influence their mind\")."
+ },
+ {
+  "id": "40-HG06-form",
+  "batch": "430 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG06-r1.txt",
+  "input": "Influence doesn’t wait for the conscious mind to sign a form.",
+  "input_reading": "AI (High), batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "Even when not actively engaging the conscious mind, there are many ways to influence people.",
+  "emulate_reading": "Human (High), batch 430 (fix-20261018/b430/b430-results.json); the same sentence read Human (High, 476-word window) in the first 4.1 check of the installed guide (41a, fix-20261020/result41/WINDOWS-41a.json)",
+  "labels": [
+   "quip or metaphor removed",
+   "abstract nouns turned into people doing things"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG06-r1.out.txt",
+  "note": "Shape: a personified quip (influence that won't wait for a signed form) became a plain statement about influencing people."
+ },
+ {
+  "id": "40-HG06-training",
+  "batch": "430 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG06-r1.txt",
+  "input": "Advertising, fear, craving, screens, tribe, resentment, authority, loneliness, and repetition are already training the mind. Self-hypnosis lets you practice from inside it: befriending the deeper layers, listening closely, and making adult choice more available.",
+  "input_reading": "AI (High), batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "Since there are a lot of forces out there trying to train your mind, via ads, fear, craving, screens, tribe, resentment, authority, loneliness, and repetition, you can use self-hypnosis techniques to learn to befriend your deeper mind, and choose things for yourself as a fully conscious adult.",
+  "emulate_reading": "Human (High), batch 430 (fix-20261018/b430/b430-results.json)",
+  "labels": [
+   "short sentences joined",
+   "colon or dash removed",
+   "list shortened",
+   "subject changed",
+   "other: reason or cause clause added (because, since, as, so that)",
+   "casual register (contractions, \"kind of\", \"pretty\") added"
+  ],
+  "meaning_error": "\"listening closely\" is dropped from what self-hypnosis lets you practice.",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG06-r1.out.txt",
+  "note": "Shape: a nine-noun subject list and a colon reveal with three gerunds became one \"Since there are a lot of forces out there trying to train your mind, via ..., you can ...\" sentence: the list is demoted to a \"via\" aside and the three practices become two."
+ },
+ {
+  "id": "40-HG10-evidence",
+  "batch": "430 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG10-r1.txt",
+  "input": "Hypnosis has real evidence, although it doesn’t have magical evidence.",
+  "input_reading": "AI (High), the whole section one 191-word window, batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "Is there REAL (not magical) evidence for Hypnosis? Yes.",
+  "emulate_reading": "Human (High), 208 words, batch 430 (fix-20261018/b430/b430-results.json); still Human (High) in 4.1's first check (41a, fix-20261020/result41/WINDOWS-41a.json)",
+  "labels": [
+   "a question added",
+   "other: capitals for emphasis added",
+   "other: list or gloss moved into brackets or dashes as an aside",
+   "sentence lengths made uneven",
+   "\"not X but Y\" or parallel pair broken"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG10-r1.out.txt",
+  "note": "Shape: a balanced \"X, although not Y\" claim became a reader's question with the contrast in brackets and a one-word answer."
+ },
+ {
+  "id": "40-HG10-distinction",
+  "batch": "430 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG10-r1.txt",
+  "input": "That distinction matters here. I want you to learn an inner skill, not become a consumer of increasingly elaborate trance recordings.",
+  "input_reading": "AI (High), batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "Here I will be teaching you a real self-skill, not just asking you to buy more audio trance files.",
+  "emulate_reading": "Human (High), batch 430 (fix-20261018/b430/b430-results.json); Human (High) in 41a (fix-20261020/result41/WINDOWS-41a.json)",
+  "labels": [
+   "other: signposting or framing words dropped (\"The useful question is whether\", \"That distinction matters here\")",
+   "a concrete particular added",
+   "subject changed"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG10-r1.out.txt",
+  "note": "Shape: a signpost line (\"That distinction matters here.\") was dropped, and \"a consumer of increasingly elaborate trance recordings\" became the concrete \"buy more audio trance files\"."
+ },
+ {
+  "id": "40-HG11-state",
+  "batch": "430 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG11-r1.txt",
+  "input": "A powerful state matters only if something survives it: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life.",
+  "input_reading": "AI (High), the whole section one 202-word window, batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "And of course it’s got to be a powerful state that leads to greater goodness in your life!",
+  "emulate_reading": "Human (High), 230 words, batch 430 (fix-20261018/b430/b430-results.json)",
+  "labels": [
+   "colon or dash removed",
+   "list shortened",
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: exclamation added"
+  ],
+  "meaning_error": "Drops the five outcomes and turns the point around: published says a powerful state matters only if something good survives it; Emulate says it has to be a powerful state. Restoring the list later read AI in 4.1 (reverse-X1.11).",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG11-r1.out.txt",
+  "note": "Shape: a colon reveal with a five-item list of abstract nouns became a short casual exclamation."
+ },
+ {
+  "id": "40-HG22-dishes",
+  "batch": "430 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG22-r1.txt",
+  "input": "Do the ordinary action immediately when possible. That teaches the subconscious that the adult heard and acted, instead of staging another beautiful internal meeting and then leaving the dishes exactly where they were.",
+  "input_reading": "AI (Low), the whole section one 95-word window, AI likelihood 1.00, batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "Wherever possible take any normal action immediately afterwards to impress on the subconscious that something has changed, otherwise it may think that because the dishes have not been done, despite all the internal meetings to do the dishes, that there is no point in doing them.",
+  "emulate_reading": "Human (Medium), 130 words, batch 430 (fix-20261018/b430/b430-results.json)",
+  "labels": [
+   "short sentences joined",
+   "quip or metaphor removed",
+   "\"not X but Y\" or parallel pair broken",
+   "hedge or doubt added",
+   "other: run-on or comma splice made (clauses chained with and/then/however or a bare comma)"
+  ],
+  "meaning_error": "\"teaches the subconscious that the adult heard and acted\" became \"impress on the subconscious that something has changed\".",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG22-r1.out.txt",
+  "note": "Shape: a command plus a wry \"instead of staging another beautiful internal meeting and then leaving the dishes ...\" became one run-on sentence that reasons in the subconscious's voice (\"otherwise it may think that because the dishes have not been done ... that there is no point in doing them\")."
+ },
+ {
+  "id": "40-HG27-enemy",
+  "batch": "430 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG27-r1.txt",
+  "input": "The subconscious isn’t the enemy. Neither are the body, the sharp analytical mind, or the protector that has been braced for years. Most of them have been trying to help without ever being properly introduced.",
+  "input_reading": "AI (Medium), the whole section one 111-word window, batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "Most of these things will become easier once you stop being afraid of your subconscious and your body, and when you stop fighting your analytical mind or whatever protector is up at the time.",
+  "emulate_reading": "Human (Medium), 133 words, batch 430 (fix-20261018/b430/b430-results.json)",
+  "labels": [
+   "\"not X but Y\" or parallel pair broken",
+   "abstract nouns turned into people doing things",
+   "short sentences joined",
+   "quip or metaphor removed",
+   "casual register (contractions, \"kind of\", \"pretty\") added"
+  ],
+  "meaning_error": "Drops \"Most of them have been trying to help\"; adds a claim (\"Most of these things will become easier once ...\").",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG27-r1.out.txt",
+  "note": "Shape: a negation run (\"X isn't the enemy. Neither are A, B, or C.\") with a wry closer (\"without ever being properly introduced\") became one sentence of things you stop doing (\"once you stop being afraid of ..., and when you stop fighting ...\")."
+ },
+ {
+  "id": "40-HG27-kid",
+  "batch": "430 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG27-r1.txt",
+  "input": "Listen until the kid is willing to come closer. Keep enough small promises that the guards can occasionally sit down.",
+  "input_reading": "AI (Medium), batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "Then listen to her when she wants to come closer. It’s easiest if you keep some of your promises to her, too, because then the guards can relax a bit.",
+  "emulate_reading": "Human (Medium), batch 430 (fix-20261018/b430/b430-results.json)",
+  "labels": [
+   "hedge or doubt added",
+   "other: reason or cause clause added (because, since, as, so that)",
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "quip or metaphor removed"
+  ],
+  "meaning_error": "Changed person: \"the kid\" became \"her\" (a gender for the little one, which the lane has caught before); \"enough small promises\" became \"some of your promises\".",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG27-r1.out.txt",
+  "note": "Shape: two tight commands with a wry image (\"so the guards can occasionally sit down\") became a hedged pair with a because-clause (\"It's easiest if ..., too, because then the guards can relax a bit.\")."
+ },
+ {
+  "id": "40-HG12-sober",
+  "batch": "431 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG12-r1.txt",
+  "input": "Self-hypnosis became much more useful for me than working with a professional hypnotist. The session with the hypnotist did very little. Maybe part of that was state-dependent: I was sober and didn’t feel especially suggestible. The larger issue was trust and precision.",
+  "input_reading": "AI (High, a 170-word window), batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "Have I mentioned I'm a big fan of self-hypnosis? Doing it on my own seems far more useful than the very little I managed to do with a \"professional\". I'm sober right now, and I don't feel especially suggestible, but I suspect that's not even the main reason the pro didn't work very well for me.",
+  "emulate_reading": "Human (High), the section one 513-word window, batch 431 (fix-20261018/b431/b431-results.json)",
+  "labels": [
+   "a question added",
+   "first person or a personal aside added",
+   "hedge or doubt added",
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "\"not X but Y\" or parallel pair broken",
+   "summing-up or closing line dropped"
+  ],
+  "meaning_error": "Invented present fact: \"I was sober\" became \"I'm sober right now\"; the point \"The larger issue was trust and precision\" is dropped.",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG12-r1.out.txt",
+  "note": "Shape: four flat declaratives ending on a verdict (\"The larger issue was trust and precision.\") became a chatty first-person opener with a rhetorical question, scare quotes (\"a \\\"professional\\\"\"), and a suspicion (\"but I suspect that's not even the main reason\")."
+ },
+ {
+  "id": "40-HG12-essay",
+  "batch": "431 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG12-r1.txt",
+  "input": "When I’m giving the suggestion, I can feel the exact moment a phrase is slightly wrong. I can stop, ask what the subconscious meant, and notice whether an image feels like guidance, fear, avoidance, wishful thinking, or something I don’t yet understand. I can catch the body’s no before the conscious mind writes a persuasive little essay called yes.",
+  "input_reading": "AI (High, a 170-word window), batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "When I do it on my own, I can detect when the wording I'm using for a suggestion to my subconscious is slightly off, and talk to my subconscious to find out what it thinks is wrong with the wording. When I use an image, I can tell whether it's giving me useful information, or just telling me what I'm afraid of, or what I want to avoid, or what I want to be true, or something else.",
+  "emulate_reading": "Human (High), batch 431 (fix-20261018/b431/b431-results.json); the first sentence read Human (High, 170 words) in 4.1's first check (41a, fix-20261020/result41/WINDOWS-41a.json)",
+  "labels": [
+   "quip or metaphor removed",
+   "abstract nouns turned into people doing things",
+   "other: \"and ... and\" or \"or ... or\" chain instead of a comma list"
+  ],
+  "meaning_error": "Drops the third sentence (catching the body's no before the conscious mind argues it into a yes).",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG12-r1.out.txt",
+  "note": "Shape: a noun list (\"guidance, fear, avoidance, wishful thinking, or something I don't yet understand\") became clauses about what the image tells me, joined by \"or ... or ... or\"; the closing quip (\"writes a persuasive little essay called yes\") is gone."
+ },
+ {
+  "id": "40-HG18-orient",
+  "batch": "431 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG18-r1.txt",
+  "input": "Name the day or date. Look left, right, near, and far. Move before standing, and stand only when steady. Check that you are actually oriented and alert; repeating the count is not proof of a complete return. Note only what actually appeared, and any action it calls for. Then do something normal.",
+  "input_reading": "AI (High), the whole section one 317-word window, batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "It is a good idea to say to yourself what day it is or what the date is, look to your left and to your right, look at something near and something far away, move about a bit before you stand up, stand up and make sure that you are oriented and alert. Take note of anything that came up during your session and what you may or may not need to do as a result, and then just go about doing something normal.",
+  "emulate_reading": "Human (High), 465 words, AI likelihood 0.07, batch 431 (fix-20261018/b431/b431-results.json)",
+  "labels": [
+   "short sentences joined",
+   "other: bare statement or command turned into a softened instruction (make sure, you may want to, it is a good idea to)",
+   "other: run-on or comma splice made (clauses chained with and/then/however or a bare comma)"
+  ],
+  "meaning_error": "Drops \"repeating the count is not proof of a complete return\" and \"only\" (\"Note only what actually appeared\"), and \"stand only when steady\" became \"stand up and make sure that you are oriented\".",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG18-r1.out.txt",
+  "note": "Shape: six short commands became two long run-on sentences opened by \"It is a good idea to\"."
+ },
+ {
+  "id": "40-HG19-response",
+  "batch": "431 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG19-r1.txt",
+  "input": "The response may be a phrase, sensation, memory, color, child, protector, pain, warmth, silence, task, gratitude, an urge to stop, or the realization that today’s practice is over.",
+  "input_reading": "AI (High), the whole section one 220-word window, batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "You might hear a phrase, feel a sensation, notice a memory, see a color, be contacted by a child or protector, feel pain, warmth, silence or know that your need to do something or be grateful for something or that this is enough listening for today.",
+  "emulate_reading": "Human (High), 298 words, batch 431 (fix-20261018/b431/b431-results.json)",
+  "labels": [
+   "abstract nouns turned into people doing things"
+  ],
+  "meaning_error": "Garbled: \"an urge to stop\" became part of \"know that your need to do something\".",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG19-r1.out.txt",
+  "note": "Shape: a thirteen-noun list (\"a phrase, sensation, memory, color, child, protector, pain, warmth, silence, task, ...\") became verbs the reader does (\"You might hear a phrase, feel a sensation, notice a memory, see a color, be contacted by ...\")."
+ },
+ {
+  "id": "40-HG19-believe",
+  "batch": "431 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG19-r1.txt",
+  "input": "Listen to all of it. Believe none of it automatically.",
+  "input_reading": "AI (High), batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "Listen to it all and believe none of it.",
+  "emulate_reading": "Human (High), batch 431 (fix-20261018/b431/b431-results.json)",
+  "labels": [
+   "short sentences joined",
+   "\"not X but Y\" or parallel pair broken"
+  ],
+  "meaning_error": "Changed strength: \"automatically\" is gone, so \"believe none of it\" now means believe nothing.",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG19-r1.out.txt",
+  "note": "Shape: two parallel imperatives (a tidy closing pair) became one sentence."
+ },
+ {
+  "id": "40-HG23-rule",
+  "batch": "431 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG23-r1.txt",
+  "input": "Altered-state rule: do not ask for hidden truth while medically unsafe, panicking, sleep-deprived, nauseated, destabilized, manic, psychosis-like, or chemically overwhelmed. First stabilize. Truth that requires destabilization is not ready to be known directly. Ask for capacity, not content.",
+  "input_reading": "AI (High), the whole section one 317-word window, batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "NOTE: If it is medically unsafe for you to do this, or you are panicking, sleep deprived, nauseated, deeply destabilized, manic, in a psychosis-like state, or overwhelmed by chemicals, please stabilize first before seeking out what your subconscious needs you to know. It is not ready for you to know it if it requires you to destabilize to know it!",
+  "emulate_reading": "Human (High), 370 words, batch 431 (fix-20261018/b431/b431-results.json)",
+  "labels": [
+   "other: label added in front (\"Note:\", \"REMEMBER:\", \"Invoking:\")",
+   "other: capitals for emphasis added",
+   "abstract nouns turned into people doing things",
+   "summing-up or closing line dropped",
+   "\"not X but Y\" or parallel pair broken",
+   "other: exclamation added"
+  ],
+  "meaning_error": "Drops the closing rule \"Ask for capacity, not content.\"",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG23-r1.out.txt",
+  "note": "Shape: a label-colon rule with a long condition list, then two short verdicts, became a capitalised \"NOTE:\" with an \"If it is ... for you, or you are ...\" condition, and an exclamation; the \"not content\" aphorism is gone."
+ },
+ {
+  "id": "40-HG23-tuesday",
+  "batch": "431 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG23-r1.txt",
+  "input": "That pressure can produce flooding, panic, false certainty, confabulation, dissociation, or a generally worse Tuesday.",
+  "input_reading": "AI (High), batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "This can lead to flooding, panic, false certainty, confabulation, dissociation, and just generally making your day suck more.",
+  "emulate_reading": "Human (High), batch 431 (fix-20261018/b431/b431-results.json); Human (High, 257-word window) in 4.1's first check (41a, fix-20261020/result41/WINDOWS-41a.json)",
+  "labels": [
+   "quip or metaphor removed",
+   "casual register (contractions, \"kind of\", \"pretty\") added"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG23-r1.out.txt",
+  "note": "Shape: a list ending on a wry punchline (\"or a generally worse Tuesday\") ended instead on blunt slang (\"and just generally making your day suck more\")."
+ },
+ {
+  "id": "40-HG26-relationship",
+  "batch": "431 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG26-r1.txt",
+  "input": "Use self-hypnosis as a relationship with yourself. When the situation needs actual care, the guide shouldn’t become a substitute for it.",
+  "input_reading": "AI (High), the whole section one 361-word window, batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "Self-hypnosis is a relationship you have with yourself, and sometimes the situation calls for more than that.",
+  "emulate_reading": "Human (High), 532 words, batch 431 (fix-20261018/b431/b431-results.json)",
+  "labels": [
+   "short sentences joined",
+   "hedge or doubt added"
+  ],
+  "meaning_error": "Changed strength: \"the guide shouldn't become a substitute for [actual care]\" became \"sometimes the situation calls for more than that\".",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG26-r1.out.txt",
+  "note": "Shape: a command and a \"When X, Y shouldn't Z\" rule became one soft compound sentence with \"sometimes\"."
+ },
+ {
+  "id": "40-HG26-feedback",
+  "batch": "431 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG26-r1.txt",
+  "input": "If the practice makes ordinary life more loving, honest, functional, relational, grounded, and precise, continue gently. If it makes ordinary life less stable, stop deepening and return to sleep, food, grounding, boundaries, and outside support.",
+  "input_reading": "AI (High), batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "The ultimate feedback on whether your process is working well is how you’re functioning in ordinary life. If you’re being more loving, honest, functional, relational, grounded, and precise than you were before you started, then keep doing what you’re doing. If you’re functioning less well than before, then stop trying to go deeper and focus instead on getting enough sleep, eating, grounding yourself, maintaining healthy boundaries with others, and getting support from others.",
+  "emulate_reading": "Human (High), batch 431 (fix-20261018/b431/b431-results.json)",
+  "labels": [
+   "abstract nouns turned into people doing things",
+   "a concrete particular added",
+   "other: topic sentence added at the start"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG26-r1.out.txt",
+  "note": "Shape: two balanced conditionals (\"If the practice makes ordinary life more ..., continue gently. If it makes ordinary life less stable, ...\") became sentences about the reader (\"If you're being more loving ...\", \"If you're functioning less well ...\") with fuller particulars (\"getting enough sleep, eating, grounding yourself, ...\"), after a new topic sentence."
+ },
+ {
+  "id": "40-HG36-lighting",
+  "batch": "431 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG36-r1.txt",
+  "input": "Intensity then gets mistaken for meaning. Sometimes the inner child is finally speaking. Sometimes a Protector is showing fear, or shame, grief, anger, longing, and other buried material are asking for care. But an intense state can also be bodily overload, environmental chaos, sleep deprivation, or plain confusion. A frightening image isn’t automatically truth, a bad feeling isn’t automatically a lesson, and a “download” doesn’t deserve belief merely because it came with excellent lighting.",
+  "input_reading": "AI (High), the whole section one 355-word window, batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "The problem is that people think that because they are in an altered state, that it must mean something. Sometimes it is your inner child talking, sometimes it is a Protector scaring you, and sometimes it is shame/grief/anger or other parts coming out, but often it is simply your body being overloaded by the experience, the chaos of the environment, lack of sleep, or some other reason that it just doesn't make sense. Just because you had a picture that scared you doesn't mean it's true, just because you had a bad feeling doesn't mean it's helpful and just because you had a download in a nice lighting doesn't mean you should believe it.",
+  "emulate_reading": "Human (High), 499 words, batch 431 (fix-20261018/b431/b431-results.json)",
+  "labels": [
+   "abstract nouns turned into people doing things",
+   "short sentences joined",
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: anaphora or fragment run made or kept (By X? By Y?; If it is really X ...)"
+  ],
+  "meaning_error": "\"or shame, grief, anger, longing ... asking for care\" became \"shame/grief/anger or other parts coming out\".",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG36-r1.out.txt",
+  "note": "Shape: an abstract opener (\"Intensity then gets mistaken for meaning.\") became people thinking (\"The problem is that people think that because ...\"), and three tidy \"X isn't automatically Y\" clauses with a quip became a casual \"Just because ..., just because ... and just because ...\" run. Emulate made an anaphora here, and 4.0 passed it."
+ },
+ {
+  "id": "40-HG01-nav",
+  "batch": "431 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG01-r1.txt",
+  "input": "Begin with Quick start, learn one induction and the complete return, then use Let the next response guide you for the part no recording can decide in advance. The daily and weekly sections help you make the practice your own. The appendices hold extra tools for questions, NLP language, anxiety, daydreaming, altered states, hostile-presence experiences, sleep, influence, and additional inductions. Sources are together in Appendix K.",
+  "input_reading": "AI (Low), one 83-word window, AI likelihood 0.98, batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "This is a very big guide. To make it easier, you can use the Quick start section if you want to quickly learn one of the inductions and the whole return sequence. Then, you can read the Let the next response guide you section, to learn what to do when your response is not guided by a recording. You can also look at the daily and weekly sections for something to try out every day, or every week. If you have questions, or want to learn more, there are lots of appendices, covering lots of topics, including questions, NLP patterns of language, working with anxiety, working with daydreams, altered states in general, what to do if you experience the sensation of a hostile presence, working with sleep, ways to influence others, and more inductions. All sources used are in Appendix K.",
+  "emulate_reading": "Human (High), 157 words, batch 431 (fix-20261018/b431/b431-results.json)",
+  "labels": [
+   "a long sentence split",
+   "abstract nouns turned into people doing things",
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "sentence lengths made uneven"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG01-r1.out.txt",
+  "note": "Shape: a compressed instruction sentence and a noun-list sentence (\"extra tools for questions, NLP language, anxiety, daydreaming, ...\") became a looser walk-through (\"To make it easier, you can ... Then, you can ... You can also ...\") with the list as activities (\"working with anxiety, working with daydreams, ... what to do if you experience ...\")."
+ },
+ {
+  "id": "40-HG04-h",
+  "batch": "437 (sample emu-h)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-h/HG04-r1.txt",
+  "input": "As you listen, a sensation, image, phrase, feeling, objection, or silence may become noticeable. Let the next invitation follow that response. Use warmth, a boundary, direction, or more time as needed. Finish with the complete return, then note what happened and any real-world action it calls for.",
+  "input_reading": "AI (High), the whole section one 337-word window, batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "you'll follow whatever you notice - sensation, image, phrase, feeling, rebellion, silence - as you're invited. Vary the invites as needed to be responsive & warm, to create a boundary, to proceed, etc. Complete the return. After, note what happened & any real-world actions.",
+  "emulate_reading": "Human (High), 356 words, batch 437 (fix-20261018/b437/b437-results.json)",
+  "labels": [
+   "other: list or gloss moved into brackets or dashes as an aside",
+   "other: catch-all list ending added (etc., whatever, or anything like that)",
+   "sentence lengths made uneven",
+   "other: typos, slashes or nonstandard spelling",
+   "short sentences joined"
+  ],
+  "meaning_error": "\"objection\" became \"rebellion\"; \"Use warmth, a boundary, direction, or more time\" became \"to be responsive & warm, to create a boundary, to proceed, etc.\"",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-h/HG04-r1.out.txt",
+  "note": "Shape: the list became a dashed aside inside an instruction (\"you'll follow whatever you notice - sensation, image, ... - as you're invited\"), the next list ends on \"etc.\", ampersands appear, and a three-word sentence stands alone (\"Complete the return.\"). The same input's sample emu-a kept two colon lists and read AI (fail-40-HG04-a)."
+ },
+ {
+  "id": "40-HG16-a",
+  "batch": "431 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG16-r1.txt",
+  "input": "Pause there. Don’t obey immediately, and don’t perform automatic rebellion either. Wake up inside the influence.",
+  "input_reading": "AI (High), the whole section one 543-word window, batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "If you’re being hypnotically influenced, stop. Don’t listen. Don’t rebel, either, just stop and realize that you’re being influenced.",
+  "emulate_reading": "Human (High), the section's first 300-word window (its other 418-word window, the list, read AI: fail-40-HG16-a), batch 431 (fix-20261018/b431/b431-results.json); with the list from sample emu-h the whole section read Human (High, 744 words), batch 437 (fix-20261018/b437/b437-results.json)",
+  "labels": [
+   "sentence lengths made uneven",
+   "quip or metaphor removed",
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: conditional \"If you...\" opening added"
+  ],
+  "meaning_error": "\"Don't obey immediately\" became \"Don't listen\" (stronger and different); \"automatic rebellion\" lost \"automatic\".",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG16-r1.out.txt",
+  "note": "Shape: a slogan closer (\"Wake up inside the influence.\") became a plain step (\"just stop and realize that you're being influenced\"), after a one-word command (\"stop.\"). The same window's \"By a screen? By a specific ad? ...\" run passed 4.0 and read AI in 4.1 (fail-41-byx)."
+ },
+ {
+  "id": "40-HG29-i-daydream",
+  "batch": "438 (sample emu-i)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-i/HG29_30-r1.txt",
+  "input": "For daydreaming:\n\n“If this daydream is useful, reveal the guidance inside it. If it is avoidance, bring me gently into the present and help me deal with what I need to deal with.”",
+  "input_reading": "AI (High), the whole section one 585-word window, batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "Daydreaming: Show me if this daydream is useful and guiding me, or if it is a way of not dealing with my life. If it is the latter, let me deal with my life.",
+  "emulate_reading": "Human (High), 643 words, batch 438 (fix-20261018/b438/b438-results.json)",
+  "labels": [
+   "\"not X but Y\" or parallel pair broken",
+   "short sentences joined"
+  ],
+  "meaning_error": "\"reveal the guidance inside it\" became \"Show me if this daydream is useful and guiding me\"; \"gently\" is gone.",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-i/HG29_30-r1.out.txt",
+  "note": "Shape: a parallel pair of conditional requests (\"If this daydream is useful, reveal .... If it is avoidance, bring me ...\") became one either-or question and a back-reference (\"Show me if ..., or if .... If it is the latter, ...\"). The same input's sample emu-a kept the parallel pair and read AI (fail-40-HG29-a)."
+ },
+ {
+  "id": "40-refix-HG11",
+  "batch": "443 (sample emu-r)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-r/HG11-fxw1.txt",
+  "input": "Love without analysis can become fantasy, analysis without love can become sterile. Intuition without testing can become delusion; testing without intuition can become dead. These modes can each serve to correct the others.",
+  "input_reading": "AI (High), the whole fixed section one 239-word window, batch 434 (fix-20261018/b434/b434-results.json). The lane's meaning-fixed text, mostly Emulate's words with the published points put back.",
+  "emulate": "Without the mind of love the mind of analysis can be sterile. Without the mind of analysis the mind of love can lead to fantasy. Without testing intuitive signals they can become delusions. Without intuitive signals the testing can be dead. So these ‘modes’ can correct each other.",
+  "emulate_reading": "Human (High), 239 words, batch 443 (fix-20261018/b443/b443-results.json); in 4.1 its lines read only Human (Medium) and Human (Low) (batch 480's recheck and 2026-10-29)",
+  "labels": [
+   "\"not X but Y\" or parallel pair broken",
+   "other: anaphora or fragment run made or kept (By X? By Y?; If it is really X ...)",
+   "a long sentence split"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-r/HG11-fxw1.out.txt",
+  "note": "Shape: two chiasmus pairs (\"A without B can become X, B without A can become Y\") became four separate \"Without X, Y can be Z\" sentences: the paired balance is broken, but an anaphora is made, and in 4.1 that run sat at Medium and Low."
+ },
+ {
+  "id": "40-refix-HG19",
+  "batch": "443 (sample emu-r)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-r/HG19-fxw1.txt",
+  "input": "You’re asking your conscious mind to listen without forcing an answer.",
+  "input_reading": "AI (High), the whole fixed section one 289-word window, batch 434 (fix-20261018/b434/b434-results.json)",
+  "emulate": "Ask your conscious mind to listen.",
+  "emulate_reading": "Human (High), 302 words, batch 443 (fix-20261018/b443/b443-results.json); Human (High, a 1863-word window) in 4.1's first check (41a, fix-20261020/result41/WINDOWS-41a.json)",
+  "labels": [
+   "definition turned into an action or instruction",
+   "sentence lengths made uneven"
+  ],
+  "meaning_error": "Drops \"without forcing an answer\".",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-r/HG19-fxw1.out.txt",
+  "note": "Shape: a sentence that explains what you are doing (\"You're asking ... to listen without forcing an answer.\") became a five-word command."
+ },
+ {
+  "id": "40-HG12-outside",
+  "batch": "431 (sample emu-a)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG12-r1.txt",
+  "input": "An outside hypnotist can’t easily conduct that rapid back-and-forth because they aren’t inside the mind receiving the suggestion. A skilled guide can still notice blind spots, help regulate the process, and hold a safer container. Self-hypnosis simply has one advantage nobody outside can duplicate: immediate dialogue with the system itself.",
+  "input_reading": "AI (Medium, a 71-word window), batch 429 (fix-20261018/b429/b429-results.json)",
+  "emulate": "A hypnotist working on me can't interact with my subconscious mind quickly enough to get the detailed feedback needed to know what's going on in my mind, since he isn't IN my mind. (Of course, there are advantages to having someone else guiding the process, since they may be able to see things I'm blind to, and can help me keep the process regulated and safe.)",
+  "emulate_reading": "Human (High), the section one 513-word window, batch 431 (fix-20261018/b431/b431-results.json). In 4.1 the dropped sentence, reworded by the lane (\"But doing it myself has one advantage nobody outside can copy: immediate dialogue with my own system.\"), read AI (Medium, 17 words) in check 41a (fix-20261020/result41/WINDOWS-41a.json), and put back word for word by the comprehension pass it read AI (Low, 0.793, 16 words) on 2026-10-29 (fix-20261029/recheck/read/RESULT-A.json)",
+  "labels": [
+   "summing-up or closing line dropped",
+   "first person or a personal aside added",
+   "other: capitals for emphasis added",
+   "other: list or gloss moved into brackets or dashes as an aside"
+  ],
+  "meaning_error": "Drops the closing claim (self-hypnosis has one advantage nobody outside can duplicate); \"they\" became \"he\" for the hypnotist.",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG12-r1.out.txt",
+  "note": "Shape: three sentences ending on a colon aphorism (\"Self-hypnosis simply has one advantage nobody outside can duplicate: immediate dialogue with the system itself.\") became one first-person sentence (\"A hypnotist working on me ... since he isn't IN my mind.\") and a bracketed \"(Of course, ...)\" concession, with no closer. Batch 482's target T3 is that closer."
+ },
+ {
+  "id": "40-refix-HG33-quip",
+  "batch": "443 (sample emu-r)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-r/HG33-fxw1.txt",
+  "input": "Others settle with warmth, darkness, favorite music, massage, weighted blanket, breathwork, favorite object, or personal relaxation technology. Use the support that actually helps, rather than building a tiny wellness trade show around the anxiety.",
+  "input_reading": "AI (High), the whole fixed section one 868-word window, batch 434 (fix-20261018/b434/b434-results.json)",
+  "emulate": "You may find that you settle down with some of these things: warmth, darkness, favorite music, massage, a weighted blanket, some breathwork, a favorite object, technology you use to relax, etc.",
+  "emulate_reading": "Human (High), 913 words, batch 443 (fix-20261018/b443/b443-results.json); the paragraph read Human (High, 201 words) in batch 481's recheck (fix-20261026/b481/recheck/read/RESULT-B.json) until the joke was put back (reverse-X9.10)",
+  "labels": [
+   "quip or metaphor removed",
+   "summing-up or closing line dropped",
+   "other: bare statement or command turned into a softened instruction (make sure, you may want to, it is a good idea to)",
+   "other: catch-all list ending added (etc., whatever, or anything like that)"
+  ],
+  "meaning_error": "Drops the published joke and its point (use the one support that helps rather than piling them up).",
+  "detector": "Pangram 4.0",
+  "kind": "pass",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-r/HG33-fxw1.out.txt",
+  "note": "Shape: a list sentence and a closing joke (\"rather than building a tiny wellness trade show around the anxiety\") became one hedged list sentence ending on \"etc.\", with no closer."
+ },
+ {
+  "id": "fail-41-screen-S1-metaphors",
+  "batch": "screen 2026-10-22 (emu-bc)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-bc/HG17-pub2.txt",
+  "input": "Choose one purpose, one starting anchor or image, and a way back. Decide whether warmth, a firm boundary, direction, or neutral witnessing would help. Floating, stairs, gardens, inner rooms, colored light, and child dialogue do not all need to report for duty at once. Switch consciously when the metaphor stops helping.",
+  "input_reading": "The published section read AI (High) in the 4.0 baseline (batch 429); see screen-S2-metaphors",
+  "emulate": "Keep it simple. One reason for the trance, one starting anchor or image, one way to get back. Do you want it to be warm, or firm, or directed, or neutral witnessing? Do you want to float, or go down stairs, or through gardens, or through a series of inner rooms, or to a place of colored light, or have a dialogue with your child part, etc. You can change metaphors, but do it consciously.",
+  "emulate_reading": "AI (Low, 0.727, 15 words) and AI (Medium, 0.979, 49 words), screening post S1 (fix-20261022/screen/RESULT-S.json)",
+  "labels": [
+   "a question added",
+   "other: \"and ... and\" or \"or ... or\" chain instead of a comma list",
+   "quip or metaphor removed",
+   "other: catch-all list ending added (etc., whatever, or anything like that)"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "fail",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-bc/HG17-pub2.out.txt",
+  "kept_or_made": [
+   "verbless fragment list or one-word fragment sentences",
+   "a run of vivid examples or options in one breath"
+  ],
+  "note": "Emulate kept the verbless triad (\"One reason for the trance, one starting anchor or image, one way to get back.\") and turned the options into two long \"or ... or ... or\" questions, a run of vivid examples in one breath. Sample bd of the same input (screen-S2-metaphors) made the options things the reader may want to do, ended them on \"etc.\", and read Human (High)."
+ },
+ {
+  "id": "fail-41-screen-S1-imagery",
+  "batch": "screen 2026-10-22 (emu-bc)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-bc/HG17-pub2.txt",
+  "input": "Imagery is optional. A signal may arrive through sensation, rhythm, movement, words, spatial sense, simple knowing, or no response at all. Keep the language in the world you chose: let a count mark something meaningful there, and reverse the journey when you finish.",
+  "input_reading": "The published section read AI (High) in 4.0 (batch 429)",
+  "emulate": "There's no need for any imagery at all if you don't want it. It can be sensation, rhythm, movement, words, spatial, simple knowing, or no response at all. Keep the words consistent with the world you're creating. If you are counting, make that count meaningful in that world.",
+  "emulate_reading": "AI (Low, 0.503, 15 words), AI (Low, 0.757, 25 words) and AI (Low, 11 words), screening post S1 (fix-20261022/screen/RESULT-S.json)",
+  "labels": [
+   "colon or dash removed",
+   "a long sentence split",
+   "casual register (contractions, \"kind of\", \"pretty\") added"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "fail",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-bc/HG17-pub2.out.txt",
+  "kept_or_made": [
+   "a run of vivid examples or options in one breath",
+   "instruction-step run: one short command per sentence"
+  ],
+  "note": "Emulate kept the noun list nearly word for word (\"sensation, rhythm, movement, words, spatial, simple knowing, or no response at all\") and split the colon instruction into separate short commands. Sample bd (screen-S2-imagery) rewrote the list with a quoted inner phrase and joined the commands into one hedged sentence, and read Human (High)."
+ },
+ {
+  "id": "fail-41-screen-S3-active",
+  "batch": "screen 2026-10-22 (emu-be)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-be/HG17-fx1.txt",
+  "input": "If your state of being still is one where you tend to become sleepy, diffuse or mentally escaping, try making your hypnosis more active, since hypnosis can be more alert rather than more relaxed. For example, keeping your eyes open, and making a deliberate movement with one hand as you bring yourself into a clearer state, and then ceasing the deliberate movement and noticing what remains. Don’t try to disappear inward.",
+  "input_reading": "AI in 4.1, windows marked humanized (whole-guide check 41r3-a, fix-20261020/result41/WINDOWS-41r3-a.json)",
+  "emulate": "If you find your state of stillness makes you too sleepy, diffuse or mentally escapist, try some more active hypnosis. You don't have to relax more to go deeper into hypnosis, you can become more alert. Try keeping your eyes open and deliberately moving one hand, deliberately moving yourself into a clearer state. Then stop the deliberate movement and notice what's there without trying to disappear.",
+  "emulate_reading": "AI (Medium, 0.989, 17 words) for \"You don't have to relax more ...\" and AI (High, 0.996, 51 words) for the instructions after it, screening post S3 (fix-20261022/screen/RESULT-S.json)",
+  "labels": [
+   "a long sentence split",
+   "casual register (contractions, \"kind of\", \"pretty\") added"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "fail",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-be/HG17-fx1.out.txt",
+  "kept_or_made": [
+   "permission formula (\"You don't have to X\", \"you can Y\")",
+   "balanced good/bad or X/Y contrast",
+   "instruction-step run: one short command per sentence"
+  ],
+  "note": "Emulate turned the explanation into a permission formula with a contrast (\"You don't have to relax more to go deeper into hypnosis, you can become more alert.\") and kept a run of commands. Sample bf of the same input (screen-S4-active) wrote \"Instead of getting more relaxed ..., try getting more alert.\" and one long spoken sentence, and read Human (High)."
+ },
+ {
+  "id": "fail-41-screen-S5-ifrun",
+  "batch": "screen 2026-10-22 (emu-bg)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-bg/HG32-pr1.txt",
+  "input": "If it’s true, it can handle my questions. If it’s real love, it’ll survive my boundaries. And real guidance will still be there after I sleep on it. Anything that’s really for me won’t ask me to give up my adult self.”",
+  "input_reading": "AI (High): this prose (Claude's, batch 469) read AI as one 518-word window in check 41r2-b (fix-20261020/result41/WINDOWS-41r2-b.json)",
+  "emulate": "Remember: if it’s true, it will survive questioning. If it’s really love, it will survive boundaries. If it’s really guidance, it will still be there in the morning. If it’s really for you, it will not require you to give up being an adult.",
+  "emulate_reading": "AI (Low, 57 words, from \"Let me slow it down\" through \"Remember: if it's true ...\"), AI (Medium, 9 words), AI (Low, 13 words), AI (Low, 17 words), screening post S5 (fix-20261022/screen/RESULT-S.json)",
+  "labels": [
+   "other: label added in front (\"Note:\", \"REMEMBER:\", \"Invoking:\")",
+   "other: anaphora or fragment run made or kept (By X? By Y?; If it is really X ...)",
+   "other: register made more formal or more abstract (contractions removed, abstract subject)"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "fail",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-bg/HG32-pr1.out.txt",
+  "kept_or_made": [
+   "parallel or anaphoric run (If it is really X ...; By X? By Y?; If you X, Y ...)",
+   "aphorism or tidy maxim"
+  ],
+  "note": "The input had already broken the parallel (\"If it's true, it can handle ... If it's real love, it'll survive ... And real guidance will ... Anything that's really for me ...\"). Emulate rebuilt it into four identical \"If it's really X, it will Y\" maxims behind a \"Remember:\" label. Emulate moved toward the AI shape here; sample bh did the same (four \"If it's ...\" lines, AI Medium and Low)."
+ },
+ {
+  "id": "fail-41-screen-S5-obey",
+  "batch": "screen 2026-10-22 (emu-bg)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-bg/HG32-pr1.txt",
+  "input": "I don’t have to obey it, and I don’t have to attack it either.",
+  "input_reading": "AI (High), as fail-41-screen-S5-ifrun (fix-20261020/result41/WINDOWS-41r2-b.json)",
+  "emulate": "I don’t have to obey. I don’t have to attack.",
+  "emulate_reading": "AI (Medium, 12 words), screening post S5 (fix-20261022/screen/RESULT-S.json)",
+  "labels": [
+   "a long sentence split"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "fail",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-bg/HG32-pr1.out.txt",
+  "kept_or_made": [
+   "parallel or anaphoric run (If it is really X ...; By X? By Y?; If you X, Y ...)",
+   "permission formula (\"You don't have to X\", \"you can Y\")"
+  ],
+  "note": "Splitting one joined sentence made a matched pair of two short sentences."
+ },
+ {
+  "id": "fail-41-screen-S6-fragments",
+  "batch": "screen 2026-10-22 (emu-bh)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-bg/HG32-pr1.txt",
+  "input": "Before acting on it, look for the usual signs, like urgency, secrecy, shame, a threat that you’ll be left out or a promise that you’re special, that kind of thing. Is there a sexual charge, or spiritual superiority? Be wary if it demands money or sex from you.",
+  "input_reading": "AI (High), as fail-41-screen-S5-ifrun (fix-20261020/result41/WINDOWS-41r2-b.json)",
+  "emulate": "Before giving in to whatever it is, check, if the usual methods are used. Urgency. Secrecy. Shame. ‘You will be left out!’ ‘You are special!’ or similar. Sexual charge. Spiritual superiority. They want money or sex from you.",
+  "emulate_reading": "Human (Low, 14 words) for the first sentence, then AI (Low, 4 words, \"Sexual charge. Spiritual superiority.\", marked humanized) and AI (Medium, 41 words, marked humanized), screening post S6 (fix-20261022/screen/RESULT-S.json)",
+  "labels": [
+   "list split into sentences",
+   "other: quoted inner speech or a direct request added"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "fail",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-bh/HG32-pr1.out.txt",
+  "kept_or_made": [
+   "verbless fragment list or one-word fragment sentences"
+  ],
+  "note": "A counter-case for \"list split into sentences\": the list was split into one- and two-word sentences (\"Urgency. Secrecy. Shame.\") and read AI, marked humanized."
+ },
+ {
+  "id": "fail-41-screen-S6-guide",
+  "batch": "screen 2026-10-22 (emu-bh)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-bg/HG32-pr1.txt",
+  "input": "You can tell a good guide because your adult self gets stronger with them. And can they take your no? A bad guide can’t.",
+  "input_reading": "AI (High), as fail-41-screen-S5-ifrun (fix-20261020/result41/WINDOWS-41r2-b.json)",
+  "emulate": "A good guide will help you to become more of your adult self. And a good guide can take your ‘no’. A bad guide cannot take your ‘no’, because a bad guide puts him- or herself in the place of your adult self.",
+  "emulate_reading": "AI (Medium, 52 words, marked humanized), screening post S6 (fix-20261022/screen/RESULT-S.json)",
+  "labels": [
+   "other: question turned into a statement or instruction",
+   "other: reason or cause clause added (because, since, as, so that)",
+   "other: register made more formal or more abstract (contractions removed, abstract subject)"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "fail",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-bh/HG32-pr1.out.txt",
+  "kept_or_made": [
+   "balanced good/bad or X/Y contrast"
+  ],
+  "note": "The input's question (\"And can they take your no?\") became a statement, and the passage became a matched good guide / bad guide pair with a because-clause. Joel's own Appendix C, written after this screen, read Human (High) (his answer 13)."
+ },
+ {
+  "id": "fail-41-screen-S6-commands",
+  "batch": "screen 2026-10-22 (emu-bh)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-bg/HG32-pr1.txt",
+  "input": "If you see several of these, slow down. Don’t go deeper into trance, and don’t make a decision you can’t undo. Just come back to the room and your body for a while. Then eat, sleep, give it time, get some counsel and so on.",
+  "input_reading": "AI (High), as fail-41-screen-S5-ifrun (fix-20261020/result41/WINDOWS-41r2-b.json)",
+  "emulate": "If many of the above apply, then slow down. Don’t go deeper into trance. Don’t make irreversible decisions. Just being in your body in the room for a while, will help a lot. Then eat, sleep, give it time, get counsel, etc.",
+  "emulate_reading": "AI (Medium, 30 words), AI (High, 6 words, \"Don't go deeper into trance.\"), AI (Medium, 5 words), AI (High, 15 words), AI (Medium, 52 words), all marked humanized, screening post S6 (fix-20261022/screen/RESULT-S.json)",
+  "labels": [
+   "a long sentence split",
+   "other: catch-all list ending added (etc., whatever, or anything like that)"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "fail",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-bh/HG32-pr1.out.txt",
+  "kept_or_made": [
+   "instruction-step run: one short command per sentence"
+  ],
+  "note": "The input's joined command (\"Don't go deeper into trance, and don't make a decision you can't undo.\") was split into two short commands, and each short command read AI on its own."
+ },
+ {
+  "id": "fail-41-byx",
+  "batch": "431/437 (emu-a, HG16) read in the recheck of 2026-10-22",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG16-r1.txt",
+  "input": "Screens, advertising, politics, religious fear, erotic imprinting, charismatic authority, belonging pressure, shame, urgency, and repetition all do it.",
+  "input_reading": "AI (High), the whole section one 543-word window, 4.0 baseline (batch 429)",
+  "emulate": "By a screen? By a specific ad? By a politician? By a religion? By erotic imprinting? By an authority figure? By the desire for belonging? By shame? By a sense of urgency? By repetition?",
+  "emulate_reading": "Pangram 4.0: Human (High), the first 300-word window of batch 431 and the 744-word section of batch 437. Pangram 4.1: AI (Low, 3 words), AI (Low, 10 words), AI (Medium, 10 words), AI (Low, 7 words), AI (Low, 2 words), recheck of 2026-10-22 part A (fix-20261022/recheck/RESULT-A.json)",
+  "labels": [
+   "a question added",
+   "list split into sentences",
+   "other: anaphora or fragment run made or kept (By X? By Y?; If it is really X ...)"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1 (passed 4.0)",
+  "kind": "fail-after-passing-4.0",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG16-r1.out.txt",
+  "kept_or_made": [
+   "parallel or anaphoric run (If it is really X ...; By X? By Y?; If you X, Y ...)",
+   "verbless fragment list or one-word fragment sentences"
+  ],
+  "note": "A list turned into a run of ten fragment questions (\"By a screen? By a specific ad? ...\") passed 4.0 and failed 4.1. Claude's fix b472-s1b, the same items in brackets ending on \"etc.\", read Human (High) through the API (fix-20261023/b472/API-CHECKS.md) and in place."
+ },
+ {
+  "id": "fail-41-emu-ax-if",
+  "batch": "463 (emu-ax, HG18) read in the recheck of 2026-10-22",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-ax/HG18-aw1.txt",
+  "input": "Reverse whatever you used to enter. If you floated, regain chosen weight. If you became small, return to ordinary scale. If you met a younger state or several parts, confirm present wholeness, body ownership, and adult judgment.",
+  "input_reading": "AI (High), the whole section one 317-word window, 4.0 baseline (batch 429)",
+  "emulate": "Make sure to reverse anything you've done to alter your state when you come out of it. If you've floated, make sure you regain your weight (of your choice, of course). If you've shrunk, grow to your normal size again. If you've regressed or met parts, make sure you come back to feeling complete in the here and now and acknowledge that your body belongs to you and is under control of the adult mind.",
+  "emulate_reading": "Pangram 4.0: Human (High), 524 words, batch 463 (HG18-wb). Pangram 4.1: AI (High) through the API (b472_s2_base, fix-20261023/b472/API-CHECKS.md); AI (Medium, 25 words) and AI (High, 36 words), recheck of 2026-10-22 part A (fix-20261022/recheck/RESULT-A.json)",
+  "labels": [
+   "other: bare statement or command turned into a softened instruction (make sure, you may want to, it is a good idea to)",
+   "casual register (contractions, \"kind of\", \"pretty\") added",
+   "other: list or gloss moved into brackets or dashes as an aside",
+   "abstract nouns turned into people doing things"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1 (passed 4.0)",
+  "kind": "fail-after-passing-4.0",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-ax/HG18-aw1.out.txt",
+  "kept_or_made": [
+   "parallel or anaphoric run (If it is really X ...; By X? By Y?; If you X, Y ...)",
+   "instruction-step run: one short command per sentence"
+  ],
+  "note": "Emulate softened every command (\"Make sure to\", \"make sure you\") and added contractions and an aside, but kept the run of \"If you've X, (make sure you) Y\" sentences. 4.0 passed it; 4.1 did not. Its re-run (seam-bk-reverse) kept the run too and passed in a pair check, so the run alone does not decide it."
+ },
+ {
+  "id": "fail-41-emu-ax-look",
+  "batch": "463 (emu-ax, HG18) read in recheck A3",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-ax/HG18-aw1.txt",
+  "input": "Name the day or date. Look left, right, near, and far.",
+  "input_reading": "AI (High), 4.0 baseline (batch 429)",
+  "emulate": "When you come out, remind yourself what day (or date) it is. Look to your left and your right. Look at something near, and something far.",
+  "emulate_reading": "Pangram 4.0: Human (High), batch 463 (HG18-wb). Pangram 4.1: AI (Low, 0.644, 31 words), AI (Low, 0.575, 7 words: \"Look to your left and your right.\"), AI (Low, 0.531, 7 words: \"Look at something near, and something far.\"), recheck A3 (fix-20261023/recheck-a3/RESULT-A.json)",
+  "labels": [
+   "list split into sentences",
+   "a long sentence split"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1 (passed 4.0)",
+  "kind": "fail-after-passing-4.0",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-ax/HG18-aw1.out.txt",
+  "kept_or_made": [
+   "instruction-step run: one short command per sentence"
+  ],
+  "note": "Emulate split \"Look left, right, near, and far.\" into two short commands. Joined back into one comma-run instruction by sample bo, it read Human (High, 0.995) in recheck A4 (b475-reorient)."
+ },
+ {
+  "id": "fail-41-emu-ba-ways",
+  "batch": "emu-ba (HG17, installed unscreened) read in check 41r3-a",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-ba/HG17-az1.txt",
+  "input": "Counting is one way in. Conversation, story, movement, repeated sound, and curiosity can also organize attention.",
+  "input_reading": "AI (High), 4.0 baseline (batch 429)",
+  "emulate": "There are all sorts of ways to do this. The method here involves counting, but there are many others. You might just talk with someone, tell a story, move, play with sound, or make use of curiosity.",
+  "emulate_reading": "AI (Medium, 9 words, marked humanized) for the first sentence and AI (High, a 342-word window, marked humanized) for the rest, whole-guide check 41r3-a (fix-20261020/result41/WINDOWS-41r3-a.json)",
+  "labels": [
+   "abstract nouns turned into people doing things",
+   "other: bare statement or command turned into a softened instruction (make sure, you may want to, it is a good idea to)",
+   "casual register (contractions, \"kind of\", \"pretty\") added"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "fail",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-ba/HG17-az1.out.txt",
+  "kept_or_made": [
+   "coach or option register (\"You may want to\", \"You can\", \"There are all sorts of ways\")",
+   "a run of vivid examples or options in one breath"
+  ],
+  "note": "A counter-case for \"abstract nouns turned into people doing things\": the nouns became things \"You might just\" do, in a casual frame, and it still read AI, marked humanized. The whole sample read AI in 48 windows, 42 of them marked humanized: in 4.1 a raw Emulate sample that was never screened was not safe."
+ },
+ {
+  "id": "fail-41-emu-ba-not",
+  "batch": "emu-ba (HG17) read in check 41r3-a",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-ba/HG17-az1.txt",
+  "input": "You don’t have to surrender, play asleep, or obey anyone.",
+  "input_reading": "AI (High), 4.0 baseline (batch 429)",
+  "emulate": "They are not about surrendering, playing asleep, or obeying someone.",
+  "emulate_reading": "AI (Low, 10 words), whole-guide check 41r3-a (fix-20261020/result41/WINDOWS-41r3-a.json)",
+  "labels": [
+   "other: register made more formal or more abstract (contractions removed, abstract subject)",
+   "subject changed"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "fail",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-ba/HG17-az1.out.txt",
+  "kept_or_made": [
+   "list of three abstract items"
+  ],
+  "note": "Emulate moved the sentence away from the reader (\"You don't have to ...\" became \"They are not about ...\") and kept the list of three."
+ },
+ {
+  "id": "fail-41-emu-w-q",
+  "batch": "451 (emu-w, HG35) read in check 41b",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.txt",
+  "input": "How do we hold all of this?",
+  "input_reading": "The lane's meaning-fixed text; its section read AI in places in 4.0 (batch 434)",
+  "emulate": "So how do we hold all of this? We simply remember that it can all be true.",
+  "emulate_reading": "Pangram 4.0: Human (High), the section's 1144 words, batch 451 (HG35-refix3). Pangram 4.1: AI (Low, 8 words) for the question, and the answer after it, in the lane's fixed words, AI (High, 29 words), check 41b (fix-20261020/result41/WINDOWS-41b.json)",
+  "labels": [
+   "other: casual connective added (on the other hand, though, also, of course)"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1 (passed 4.0)",
+  "kind": "fail-after-passing-4.0",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-w/HG35-fxw1.out.txt",
+  "kept_or_made": [
+   "rhetorical question answered at once"
+  ],
+  "note": "A counter-case for \"a question added\": a question the next sentence answers at once (\"So how do we hold all of this? We simply remember ...\") read AI."
+ },
+ {
+  "id": "fail-41-br-fix",
+  "batch": "477 (br)",
+  "source_file": "articles/inner-signal/humanize/fix-20261023/b477/EDITS-b477.json",
+  "input": "You don’t have to fix this. I’m here now. The adult is listening.”",
+  "input_reading": "AI (Low, 0.503, 11 words) for \"You don't have to fix this. I'm here now.\", recheck of 2026-10-23 part B (fix-20261023/recheck/RESULT-B.json)",
+  "emulate": "You don’t have to fix it. I’m here now, and the adult is here now to listen to you.”",
+  "emulate_reading": "Human (Low, 0.638, 36 words) in recheck B2 (fix-20261023/recheck-b2/RESULT-B.json); AI (Low, 0.64, 7 words) and AI (Medium, 0.987, 29 words) on 2026-10-25 (fix-20261025/recheck/RESULT-B.json); Human (Medium, 0.909) and Human (High, 0.994) in batch 480's recheck (fix-20261026/b480/recheck/read/RESULT-B.json); AI (Low, 7 words) and AI (High, 29 words) on 2026-10-29 (fix-20261029/recheck/read/RESULT-B.json)",
+  "labels": [
+   "short sentences joined",
+   "other: only a word or two changed"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "fail-unstable",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261023/b477/br/HG-B-love.out.txt",
+  "source_key": "0/old",
+  "kept_or_made": [
+   "permission formula (\"You don't have to X\", \"you can Y\")"
+  ],
+  "note": "Emulate changed two words and joined two short lines; the permission formula (\"You don't have to fix it.\") stayed, and the line flipped between Human and AI in five checks."
+ },
+ {
+  "id": "fail-41-emu-bf-ones",
+  "batch": "screen 2026-10-22 (emu-bf), installed; read on 2026-10-29",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-bf/HG17-fx1.txt",
+  "input": "One purpose, one anchor or image to start, one way back, and a decided on feeling (warm, bounded, directed, or neutral witnessing).",
+  "input_reading": "AI in 4.1 (the installed sample ba read AI, marked humanized, in check 41r3-a)",
+  "emulate": "One thing you're doing, one anchor/image you're going with at first, one way of coming back, and feel free to set a tone (warm, bounded, directed, neutral witnessing, whatever) for yourself.",
+  "emulate_reading": "Human (High) in the screening post (fix-20261022/screen/RESULT-S.json), in batch 480's recheck (0.994, fix-20261026/b480/recheck/read/RESULT-A.json) and in batch 481's (0.997, fix-20261026/b481/recheck/read/RESULT-A.json); AI (Low, 0.649, 34 words) on 2026-10-29 (fix-20261029/recheck/read/RESULT-A.json), after the comprehension fixes changed the sentences around it",
+  "labels": [
+   "other: catch-all list ending added (etc., whatever, or anything like that)",
+   "other: list or gloss moved into brackets or dashes as an aside",
+   "casual register (contractions, \"kind of\", \"pretty\") added"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "fail-context",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-bf/HG17-fx1.out.txt",
+  "kept_or_made": [
+   "verbless fragment list or one-word fragment sentences",
+   "a run of vivid examples or options in one breath"
+  ],
+  "note": "Emulate kept the verbless \"One X, one Y, one Z\" triad, with the options in brackets ending on \"whatever\". It read High three times, then AI when its neighbours changed. Batch 482's writers rewrote it (target T5)."
+ },
+ {
+  "id": "fail-41-emu-r-somatic",
+  "batch": "443 (emu-r, HG33), read on 2026-10-29",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-r/HG33-fxw1.txt",
+  "input": "Other body approaches that may help include heat, pressure, weighted blanket, darkness, favorite calming music, massage gun used carefully, etc.",
+  "input_reading": "The lane's meaning-fixed text, whose section read AI (High, 868 words) in batch 434 (fix-20261018/b434/b434-results.json)",
+  "emulate": "There are many other somatic approaches you can try, like heat, pressure, a weighted blanket, darkness, your favorite calming music, a careful use of a massage gun, etc.",
+  "emulate_reading": "Human (High, 201 words) in batch 480's and 481's rechecks (fix-20261026/b480/recheck/read/RESULT-B.json, fix-20261026/b481/recheck/read/RESULT-B.json); AI (Low, 0.793, 28 words) on 2026-10-29 (fix-20261029/recheck/read/RESULT-B.json), when the published quip after it was restored (reverse-X9.10, AI High)",
+  "labels": [
+   "other: catch-all list ending added (etc., whatever, or anything like that)"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "fail-context",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-r/HG33-fxw1.out.txt",
+  "kept_or_made": [
+   "a run of vivid examples or options in one breath"
+  ],
+  "note": "A run of six examples ending on \"etc.\" read High twice and AI once its next sentence became the restored \"tiny wellness trade show\" quip. Neighbours decide short windows."
+ },
+ {
+  "id": "fail-40-HG04-a",
+  "batch": "431 (emu-a, HG04)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG04-r1.txt",
+  "input": "As you listen, a sensation, image, phrase, feeling, objection, or silence may become noticeable. Let the next invitation follow that response. Use warmth, a boundary, direction, or more time as needed. Finish with the complete return, then note what happened and any real-world action it calls for.",
+  "input_reading": "AI (High), the whole section one 337-word window, batch 429",
+  "emulate": "As you do the induction, something will happen that you can notice: a sensation, an image, a phrase, a feeling, a “no way!” or a silence. Follow this guide for the next thing to do. This will vary based on what you need: warmth, a boundary, direction, time, and more. At the end of the session, come all the way back out, as described in this guide. Then write down what happened, and notice what you need to do in the “real world” to make this work.",
+  "emulate_reading": "AI (High, 108 words), batch 431 (fix-20261018/b431/b431-results.json)",
+  "labels": [
+   "other: catch-all list ending added (etc., whatever, or anything like that)",
+   "casual register (contractions, \"kind of\", \"pretty\") added"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.0",
+  "kind": "fail",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG04-r1.out.txt",
+  "kept_or_made": [
+   "colon followed by a list"
+  ],
+  "note": "Emulate made two colon lists (\"something will happen that you can notice: a sensation, an image, ...\"; \"This will vary based on what you need: warmth, a boundary, direction, time, and more.\"). Sample emu-h of the same input put the list in dashes and read Human (High) (40-HG04-h)."
+ },
+ {
+  "id": "fail-40-HG16-a",
+  "batch": "431 (emu-a, HG16)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG16-r1.txt",
+  "input": "Permissive words can still conceal coercion. I watch for the following:\n\nIndirect suggestion can slip past the skeptical guard because the conscious mind may never receive one clean proposition to accept or reject. The intended direction can still be quite specific even when the wording feels open, vague, conversational, or merely suggestive.",
+  "input_reading": "AI (High), the whole section one 543-word window, batch 429",
+  "emulate": "Language that’s permissive but that still takes your choice away includes:\n\nUtilizing indirect patterns, which often work better because they bypass the conscious mind, but can be specific about where they’re going even if vague in their language, may just seem conversational, or use suggestions.",
+  "emulate_reading": "AI (High, a 418-word window running through the list), batch 431 (fix-20261018/b431/b431-results.json)",
+  "labels": [
+   "other: register made more formal or more abstract (contractions removed, abstract subject)"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.0",
+  "kind": "fail",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG16-r1.out.txt",
+  "kept_or_made": [
+   "colon followed by a list",
+   "label with a colon before each item"
+  ],
+  "note": "Emulate kept a colon-introduced list with one gerund item per line. Sample emu-h of the same list numbered the items as \"1) Utilizing ...\", ran them as full clauses, and read Human (High) in 4.0 (batch 437)."
+ },
+ {
+  "id": "fail-40-HG29-a",
+  "batch": "431 (emu-a, HG29+30)",
+  "source_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG29_30-r1.txt",
+  "input": "For daydreaming:\n\n“If this daydream is useful, reveal the guidance inside it. If it is avoidance, bring me gently into the present and help me deal with what I need to deal with.”",
+  "input_reading": "AI (High), the whole section one 585-word window, batch 429",
+  "emulate": "Prompt for daydreaming:\n\nIf this daydream has useful information, please show me what I can learn from it. If it is only to avoid dealing with something, please help me get back to the present and deal with what needs to be dealt with.",
+  "emulate_reading": "AI (High, a 163-word window), batch 431 (fix-20261018/b431/b431-results.json)",
+  "labels": [
+   "casual register (contractions, \"kind of\", \"pretty\") added"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.0",
+  "kind": "fail",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261018/emu-a/HG29_30-r1.out.txt",
+  "kept_or_made": [
+   "parallel or anaphoric run (If it is really X ...; By X? By Y?; If you X, Y ...)",
+   "label with a colon before each item"
+  ],
+  "note": "Emulate kept the matched pair of conditional requests (\"If this daydream has ..., please .... If it is only to avoid ..., please ...\"). Sample emu-i broke the pair (\"Show me if ..., or if .... If it is the latter, ...\") and read Human (High) (40-HG29-i-daydream)."
+ },
+ {
+  "id": "reverse-X1.11",
+  "batch": "comprehension fix of 2026-10-28 (card X1.11), read on 2026-10-29",
+  "source_file": "articles/inner-signal/humanize/fix-20261028/comprehension/fix/KEPT.json",
+  "input": "And it’s got to lead somewhere: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life.",
+  "input_reading": "AI (Low, 0.784, 21 words), 2026-10-29 part A (fix-20261029/recheck/read/RESULT-A.json)",
+  "emulate": "And it’s got to lead somewhere!",
+  "emulate_reading": "Human (Medium, 0.989, 14 words, with the line before it) in batch 480's recheck (fix-20261026/b480/recheck/read/RESULT-A.json); \"It's got to lead somewhere!\" read Human (High) in batch 481's (fix-20261026/b481/recheck/read/RESULT-A.json)",
+  "labels": [
+   "colon or dash removed",
+   "list shortened",
+   "other: exclamation added"
+  ],
+  "meaning_error": "Emulate's line drops the five outcomes (the published list), which the comprehension pass put back.",
+  "detector": "Pangram 4.1",
+  "kind": "reverse",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261028/comprehension/fix/KEPT.json",
+  "source_key": "fixes/10/with",
+  "emulate_key": "fixes/10/replace",
+  "note": "The published list after a colon came back with the point, and the line read AI. Batch 482's writers (target T2) kept the outcomes as sentences about people, without the colon."
+ },
+ {
+  "id": "reverse-X1.5",
+  "batch": "comprehension fix of 2026-10-28 (card X1.5), read on 2026-10-29",
+  "source_file": "articles/inner-signal/humanize/fix-20261028/comprehension/fix/KEPT.json",
+  "input": "Then put the screen aside; the practice is something you learn to conduct, not a checklist to keep reading.",
+  "input_reading": "AI (Low, 0.575, 35 words), 2026-10-29 part A (fix-20261029/recheck/read/RESULT-A.json)",
+  "emulate": "Put this screen on the shelf and conduct the practice.",
+  "emulate_reading": "Human (High, 0.999, 303 words), batch 481's recheck part A (fix-20261026/b481/recheck/read/RESULT-A.json)",
+  "labels": [
+   "\"not X but Y\" or parallel pair broken",
+   "colon or dash removed",
+   "definition turned into an action or instruction"
+  ],
+  "meaning_error": "Emulate's line (\"Put this screen on the shelf and conduct the practice.\") lost \"not a checklist to keep reading\".",
+  "detector": "Pangram 4.1",
+  "kind": "reverse",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261028/comprehension/fix/KEPT.json",
+  "source_key": "fixes/4/with",
+  "emulate_key": "fixes/4/replace",
+  "note": "The published \"X; the practice is something you learn to conduct, not a checklist to keep reading\" (semicolon, definition, \"not X\") read AI where Emulate's plain instruction had read High. Batch 482's target T1."
+ },
+ {
+  "id": "reverse-X5.3",
+  "batch": "comprehension fix of 2026-10-28 (card X5.3), read on 2026-10-29",
+  "source_file": "articles/inner-signal/humanize/fix-20261028/comprehension/fix/KEPT.json",
+  "input": "Fractionation means returning toward ordinary awareness and then deciding whether to enter absorption again. Used openly, it teaches that trance has a door in both directions.",
+  "input_reading": "AI (Low, 0.754, 27 words) and AI (High, 0.997, 12 words), 2026-10-29 part A (fix-20261029/recheck/read/RESULT-A.json)",
+  "emulate": "At some point in time you can add this, but you must say you are doing it before doing it.",
+  "emulate_reading": "Human (High, 0.998, 304 words), batch 481's recheck part A (fix-20261026/b481/recheck/read/RESULT-A.json)",
+  "labels": [
+   "definition turned into an action or instruction",
+   "quip or metaphor removed",
+   "summing-up or closing line dropped"
+  ],
+  "meaning_error": "Emulate's version had dropped what fractionation is and why you name it first.",
+  "detector": "Pangram 4.1",
+  "kind": "reverse",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261028/comprehension/fix/KEPT.json",
+  "source_key": "fixes/43/with",
+  "emulate_key": "fixes/43/replace",
+  "note": "The published definition (\"Fractionation means ...\") and aphorism (\"Used openly, it teaches that trance has a door in both directions.\") came back, and read AI (Low and High). Emulate had kept only the instruction. Batch 482's target T7."
+ },
+ {
+  "id": "reverse-X8.4",
+  "batch": "comprehension fix of 2026-10-28 (card X8.4), read on 2026-10-29",
+  "source_file": "articles/inner-signal/humanize/fix-20261028/comprehension/fix/KEPT.json",
+  "input": "An embedded invitation places a small direction inside a larger sentence. It should invite a modest inner movement, not hide a demand.",
+  "input_reading": "AI (High, 0.994, 22 words), 2026-10-29 part B (fix-20261029/recheck/read/RESULT-B.json)",
+  "emulate": "ie. \"And I can allow myself to experience...\"",
+  "emulate_reading": "Human (Medium, 1 word) and Human (High, 0.999, 329 words), batch 481's recheck part B (fix-20261026/b481/recheck/read/RESULT-B.json)",
+  "labels": [
+   "definition turned into an action or instruction",
+   "\"not X but Y\" or parallel pair broken"
+  ],
+  "meaning_error": "Emulate's version had dropped what an embedded invitation is and that it mustn't hide a demand; only the example was left.",
+  "detector": "Pangram 4.1",
+  "kind": "reverse",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261028/comprehension/fix/KEPT.json",
+  "source_key": "fixes/82/with",
+  "emulate_key": "fixes/82/replace",
+  "note": "A textbook definition (\"An embedded invitation places a small direction inside a larger sentence.\") and a \"not X\" rule came back and read AI (High). Batch 482's target T9."
+ },
+ {
+  "id": "reverse-X9.10",
+  "batch": "comprehension fix of 2026-10-28 (card X9.10), read on 2026-10-29",
+  "source_file": "articles/inner-signal/humanize/fix-20261028/comprehension/fix/KEPT.json",
+  "input": "Use the support that actually helps, rather than assembling a tiny wellness trade show around the anxiety.",
+  "input_reading": "AI (High, 0.997, 17 words) for the joke and AI (Low, 0.793, 28 words) for the sentence before it, 2026-10-29 part B (fix-20261029/recheck/read/RESULT-B.json)",
+  "emulate": "a careful use of a massage gun, etc.",
+  "emulate_reading": "Human (High, 0.998, 201 words): the paragraph ended on the example list, batch 481's recheck part B (fix-20261026/b481/recheck/read/RESULT-B.json)",
+  "labels": [
+   "quip or metaphor removed",
+   "summing-up or closing line dropped"
+  ],
+  "meaning_error": "Emulate's refix (batch 443) had dropped the published closing joke.",
+  "detector": "Pangram 4.1",
+  "kind": "reverse",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261028/comprehension/fix/KEPT.json",
+  "source_key": "fixes/101/with",
+  "emulate_key": "fixes/101/replace",
+  "note": "The published joke (\"rather than assembling a tiny wellness trade show around the anxiety\") came back as the paragraph's last line and read AI (High), and Emulate's example sentence before it, High twice before, read AI (Low) too (fail-41-emu-r-somatic). Batch 482's target T14."
+ },
+ {
+  "id": "reverse-X4.6",
+  "batch": "comprehension fix of 2026-10-28 (card X4.6), read on 2026-10-29",
+  "source_file": "articles/inner-signal/humanize/fix-20261029/recheck/TEXT-A.txt",
+  "input": "(You can borrow qualities such as warmth or steadiness, but don’t change who you are.)",
+  "input_reading": "AI (Low, 0.784, 16 words, marked humanized), 2026-10-29 part A (fix-20261029/recheck/read/RESULT-A.json)",
+  "emulate": "(You can borrow qualities, but don’t change who you are.)",
+  "emulate_reading": "Human (High, 0.997, 326 words), batch 481's recheck part A (fix-20261026/b481/recheck/read/RESULT-A.json); Human (Medium, 0.987, 21 words with the sentence before) in batch 480's (fix-20261026/b480/recheck/read/RESULT-A.json)",
+  "labels": [
+   "list shortened"
+  ],
+  "meaning_error": "",
+  "detector": "Pangram 4.1",
+  "kind": "reverse",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261026/b481/recheck/TEXT-A.txt",
+  "note": "Two published examples (\"such as warmth or steadiness\") went into a bracketed aside and it read AI (Low, marked humanized). Batch 482's target T6."
+ },
+ {
+  "id": "reverse-X10.7",
+  "batch": "comprehension fix of 2026-10-28 (card X10.7), read on 2026-10-29",
+  "source_file": "articles/inner-signal/humanize/fix-20261028/comprehension/fix/KEPT.json",
+  "input": "Let that experience show you what's possible, while you build a way to get to it in everyday life.",
+  "input_reading": "AI (Low, 0.64, 20 words), 2026-10-29 part B (fix-20261029/recheck/read/RESULT-B.json)",
+  "emulate": "Let that experience inform what you OPEN yourself up to.",
+  "emulate_reading": "Human (High, 0.999, 348 words), batch 481's recheck part B (fix-20261026/b481/recheck/read/RESULT-B.json)",
+  "labels": [
+   "other: capitals for emphasis added",
+   "\"not X but Y\" or parallel pair broken"
+  ],
+  "meaning_error": "Emulate's line lost the published \"while you build usable access\"; its \"what you OPEN yourself up to\" changed the point.",
+  "detector": "Pangram 4.1",
+  "kind": "reverse",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261028/comprehension/fix/KEPT.json",
+  "source_key": "fixes/112/with",
+  "emulate_key": "fixes/112/replace",
+  "note": "The published balance (\"show you what's possible, while you build a way to get to it in everyday life\") read AI (Low) where Emulate's shorter line had read High. Batch 482's target T16."
+ },
+ {
+  "id": "reverse-X11.13",
+  "batch": "comprehension fix of 2026-10-28 (card X11.13), read on 2026-10-29",
+  "source_file": "articles/inner-signal/humanize/fix-20261028/comprehension/fix/KEPT.json",
+  "input": "Autonomous signal: write whatever you get (a word, sensation, impulse, objection, or silence) without interpreting it as proof.",
+  "input_reading": "AI (Low, 0.531, 18 words), with X11.14 and X11.15 after it AI (Low, 0.721, 41 words) and AI (Low, 0.503, 17 words), 2026-10-29 part B (fix-20261029/recheck/read/RESULT-B.json)",
+  "emulate": "Autonomous: write whatever you get.",
+  "emulate_reading": "Human (High, 0.999, 1671 words), batch 481's recheck part B (fix-20261026/b481/recheck/read/RESULT-B.json)",
+  "labels": [
+   "list shortened",
+   "summing-up or closing line dropped"
+  ],
+  "meaning_error": "Emulate's version dropped what may come (the bracketed list) and \"without interpreting it as proof\".",
+  "detector": "Pangram 4.1",
+  "kind": "reverse",
+  "emulate_file": "articles/inner-signal/humanize/fix-20261028/comprehension/fix/KEPT.json",
+  "source_key": "fixes/129/with",
+  "emulate_key": "fixes/129/replace",
+  "note": "In a label-colon recipe (\"Autonomous signal: ...\", \"Deepener: ...\", \"Handoff: ...\"), the restored bracketed list and caveat read AI (Low), and so did the next two restored lines (cards X11.14, X11.15). Batch 482's target T17."
+ }
+]

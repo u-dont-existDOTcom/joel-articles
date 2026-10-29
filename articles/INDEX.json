@@ -57220,6 +57220,56 @@
           "path": "articles/inner-signal/humanize/fix-20261029/joel-20261029-1922-message.txt",
           "sha256": "04efc287773db4406e6ba2da40da132c6d911a35e224677d5da2d7b248cd60bf",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/b483/TARGETS.json",
+          "sha256": "e325c9b5f6fe21b31f30810306b8258a57c49e13a1d9d43e254d27a9bb1af91d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/b483/make_b483.py",
+          "sha256": "191b44e9d778c1014943acc93b336665114a4de68b26eac7e0c934b56d1fd329",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/b483/make_targets.py",
+          "sha256": "72097257991158cb75f1a14181b419e908e4b7ff7d924a99890c87481772f1e0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/b483/read_candidates.py",
+          "sha256": "99a054785357afef4b03bbe6e3a61b2002883ac181aa898f9c7c303fdcaee2a1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/b483/recheck/make_changed.py",
+          "sha256": "dc4622b411ea96550db3b6dbb0a3768fd8db0488c498309e3cd03cdb0cf796fc",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/b483/recheck/make_recheck.py",
+          "sha256": "135add719a9f96e1ff31202343d9d9e42a0496bb91ddf8fb487e36e06fe53675",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/b483/writers/BRIEF-W1.md",
+          "sha256": "ed39dd0d2dc47313f8a8e22e415aa01f9f2d63aec6833dc6c8bd8294b436ebe8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/b483/writers/BRIEF-W2.md",
+          "sha256": "83b67609fb947aa60e389efb976b9342ca086106fe9eece1534532934a174f6d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/b483/writers/BRIEF-W3.md",
+          "sha256": "fa1e60c4d7d1325d83f5f9b487300381b9bb7e69dce074a93f23c9d9fef0258c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/emulate-lessons/PAIRS.json",
+          "sha256": "c7760f4b830754f6e4b85936b15951a1ddabb4b58a194098db70914a6c8b4411",
+          "role": "humanization_working_record"
         }
       ]
     },
