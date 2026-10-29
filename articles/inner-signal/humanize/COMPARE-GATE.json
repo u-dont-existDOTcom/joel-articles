@@ -4,7 +4,8 @@
  "original": "articles/inner-signal/humanize/source/published-20260928.md",
  "records": [
   "articles/inner-signal/humanize/fix-2026*/comprehension/READ-RECORD.json",
-  "articles/inner-signal/humanize/fix-2026*/comprehension/verify/READ-RECORD.json"
+  "articles/inner-signal/humanize/fix-2026*/comprehension/verify/READ-RECORD.json",
+  "articles/inner-signal/humanize/fix-2026*/*/read/READ-RECORD.json"
  ],
  "owner": [
   "articles/inner-signal/humanize/fix-2026*/joel-*-message.txt",

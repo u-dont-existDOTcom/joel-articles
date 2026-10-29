@@ -29,7 +29,9 @@ GATE = {
     'article': 'articles/inner-signal/humanize/HUMANIZED-SO-FAR.md',
     'original': 'articles/inner-signal/humanize/source/published-20260928.md',
     'records': ['articles/inner-signal/humanize/fix-2026*/comprehension/READ-RECORD.json',
-                'articles/inner-signal/humanize/fix-2026*/comprehension/verify/READ-RECORD.json'],
+                'articles/inner-signal/humanize/fix-2026*/comprehension/verify/READ-RECORD.json',
+                # a batch's comparative read of its candidates (fix-20261029/b482/read/, read_candidates.py)
+                'articles/inner-signal/humanize/fix-2026*/*/read/READ-RECORD.json'],
     'owner': ['articles/inner-signal/humanize/fix-2026*/joel-*-message.txt',
               'articles/inner-signal/humanize/fix-2026*/**/ANSWERS-*.json',
               'articles/inner-signal/humanize/fix-2026*/EDITS-joel-*.json'],

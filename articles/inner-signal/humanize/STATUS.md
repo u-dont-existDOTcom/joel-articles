@@ -1,5 +1,56 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-29, after Joel's messages of 18:18 UTC (the recheck's result links) and 18:55 UTC (Emulate: re-up or learn)
+
+His messages, word for word: `fix-20261029/joel-20261029-1818-message.txt` and `fix-20261029/joel-20261029-1855-message.txt`
+("emulate is 50k words for $15 per month. i'm not sure it is worth re-upping on it. well maybe it is. and i wonder if we
+really understood all the lessons from emulate's fixes or if we can learn enough from what we got that we wouldn't need
+it anymore").
+
+**The recheck read** (`fix-20261029/recheck/read/`; HG-whole#75, try 11, and HG-rest-B#76, try 9, both right). Part A
+[Mostly Human Written, 1.6% AI](https://www.pangram.com/feed/d1e283a5-efcf-4fc4-ad6f-d535e12951b2): 170 windows, 11 AI
+(8 Low, 1 Medium, 2 High) and 159 Human (69 High, 70 Medium, 20 Low). Part B
+[Mostly Human Written, 4.5% AI](https://www.pangram.com/feed/f9b45a7b-402c-412c-af68-a5f9ca44f6e6): 91 windows, 20 AI
+(11 Low, 2 Medium, 7 High, the audit one of them) and 71 Human (33 High, 26 Medium, 12 Low). CONFIDENCE.md lists every
+window below High with whose words it holds; SPOTS.md reads our 140 changes of 28 and 29 October in place (112 High, 12
+Medium, 5 Low, 8 AI Low, 3 AI High: most AI readings are where a fix brought back his published sentence, the AI-written
+one, as with the fractionation definition, the embedded invitation and the wellness trade show line).
+
+**Batch 482, the next try** (`fix-20261029/b482/`; his rule for 25, E291: the clear version stays, and the new one has to
+be clear and Human). `make_bundle.py` sorted every sentence of the windows below High (SORTED.json: to Emulate, his own
+words to him, the audit left). Emulate's balance was 0 words at 18:28 UTC, so fresh writers made the versions, for the
+AI windows first (the Low and Medium Human windows wait): `make_targets.py` writes TARGETS.json, 17 stretches of ours (T1
+to T17) and 4 of his own lines that read AI (J1 to J4, suggestions only: they go in with his answer or not at all). Left
+out: the Nimja link line; the three-jobs line (his inner child guide's sentence with its middle cut, to him with his full
+sentence as my suggestion); his HG-S15 list and his Quick start line, whose windows start in our sentences before them.
+Four writers (writers/BRIEF-W1..W4.md, each with the 4.1 tells and his rule) wrote two versions of each; I chose one
+(CHOICES.json, each with its reason; one logged fix, T2's first sentence taken from v1). `make_b482.py` puts the picks in
+CANDIDATE-MASTER.md (21 spots, no link dropped); the working copy doesn't change until he answers.
+
+**The comparative read** (`read_candidates.py`, read/): two fresh readers, each paragraph beside his published version and
+as it stands: 20 of 20 pass (clear, says what his says; 7 easier than before, 13 the same). `read_candidates.py` now also
+gives the reader the published paragraph holding the very sentence a candidate changes (TARGETS.json's two closest
+published paragraphs missed T3's "Self-hypnosis simply has one advantage ...", which is in the one before).
+
+**The candidate recheck** (`fix-20261029/b482/recheck/`): `make_recheck.py` from CANDIDATE-MASTER.md (merge PASS; part B
+starts at Your functioning in ordinary life is the feedback, as last time). `make_changed.py` gives each candidate its
+chances by how its stretch read (all AI Low: red 0.2; any Medium or High: 0.35), and adds what read AI last time and is
+unchanged (his HG-S15 list 0.55, the three-jobs line 0.65, his Quick start line and the Nimja line 0.3, the audit 0.95);
+`part_forecast.py` (with --medium, rest 0.25) writes FORECAST-A.json (96 parts, 6.2 red expected if independent) and
+FORECAST-B.json (62 parts, 6.5). Ledger: HG-whole#77 (try 12, AI, 0.05 chance of 100% Human) and HG-rest-B#78 (try 10, AI,
+0.03: the audit). Pushed at e859ce30 (pull request 261), then both drafts cleared in the editor (ctrl+a, Delete) and
+pasted with `paste_payload_lane.js` from that commit (SHA-256 checked; editor words +34 and +25, as every paste); the
+drafts' saved bodies hold the new words; the secret links render exactly TEXT-A.txt's first 99,999 characters and
+TEXT-B.txt (RECHECK-POST-A.json, RECHECK-POST-B.json, cache keys recheck-a-29b and recheck-b-29b).
+
+**Emulate (his message of 18:55).** My advice: hold off re-upping until this recheck is read, since it is the direct
+test of the writers without Emulate (none of the 21 versions came from it); if a third or more stay AI, one month ($15,
+50k words; a round here is a few hundred words) for the spots the writers fail twice. His second question: the lessons
+were not fully learned. `docs/EMULATE-FALLBACK.md` section 5 (save each case, pair each loud sentence with Emulate's
+replacement by its change in shape) was never carried out: `tools/humanization/emulate-cases/` doesn't exist. A study of
+the lane's own Emulate batches is running (`fix-20261029/emulate-lessons/`: PAIRS.json and LESSONS.md, the shape
+changes the writers' brief lacks); its lessons go into the next round's brief.
+
 ## 2026-10-29, after Joel's message of 17:21 UTC (his answers to 24 and 25)
 
 His message, word for word: `fix-20261029/joel-20261029-1721-message.txt` ("25 we never publish nonsense because it passes
