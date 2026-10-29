@@ -56855,6 +56855,26 @@
           "path": "articles/inner-signal/humanize/fix-20261029/recheck/read/windows_map.py",
           "sha256": "469e8e127bb754685be9c8191cc91a200a276aaecfdfa5a3a27d2b4b0b118887",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/b482/BUNDLE-RECORD.json",
+          "sha256": "824706718616ef351657c4856472729913af808509ab9c75dc4487ee1bd0abea",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/b482/BUNDLE.json",
+          "sha256": "578d89fd18f66a646c880bce9d316da2fedc1e89bd1b5f7cadc76a885be9e39e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/b482/SORTED.json",
+          "sha256": "6f22d42f41bdb8c5e66d47cb6475214d1ee8fb60df7dc35fbce5b2c1069f2943",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/b482/make_bundle.py",
+          "sha256": "75a35cbc381c415b95cccdbda6bfb8d1775b8f18c88e9489f309c6cb09fbfc37",
+          "role": "humanization_working_record"
         }
       ]
     },
