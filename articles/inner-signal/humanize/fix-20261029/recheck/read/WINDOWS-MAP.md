@@ -1,0 +1,347 @@
+# Where the recheck of 2026-10-29 read below High
+
+Made by `windows_map.py`. Each window that isn't High-confidence Human, and each line of the checked text it touches: what the line is, and how the last check (batch 481's recheck) read it if it is unchanged.
+
+## Part A (Mostly Human Written, https://www.pangram.com/feed/d1e283a5-efcf-4fc4-ad6f-d535e12951b2)
+
+- **#1 AI (Low)**, 35 words, Quick start: do this first, P3: "Then put the screen aside; the practice is something you learn to conduct, not a checklist to keep reading. / You’ll follow whatever you notice - sensation, image"
+  - "Prior to your first session, read through the induction and the full return in waking life": fix X1.5 (card C-5)
+  - "You’ll follow whatever you notice - sensation, image, phrase, feeling, objection, silence ": his own version of 28 October
+- **#3 Human (Medium)**, 23 words, Protecting Yourself from Hypnotists, P2: "Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers know this perfectly well."
+  - "Even when not actively engaging the conscious mind, there are many ways to influence peopl": back to the words batch 480's recheck read Human (a batch 481 spot he never approved)
+- **#5 AI (Low)**, 18 words, Protecting Yourself from Hypnotists, P3: "All of these are separate factors to consider: conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent."
+  - "All of these are separate factors to consider: conscious agreement, unconscious receptivit": 8 new words
+- **#6 Human (Medium)**, 13 words, Protecting Yourself from Hypnotists, P3: "People have their minds influenced without the conscious agreement of their adult self."
+  - "All of these are separate factors to consider: conscious agreement, unconscious receptivit": 8 new words
+- **#8 Human (Medium)**, 1 words, The Most Extreme Example, P2: "V."
+  - "My friend P. has a friend named V. V. is a 33rd-degree Free Mason. V. has the ability to g": unchanged; last check read it Human (Medium)
+- **#10 Human (Medium)**, 1 words, The Most Extreme Example, P2: "V."
+  - "My friend P. has a friend named V. V. is a 33rd-degree Free Mason. V. has the ability to g": unchanged; last check read it Human (Medium)
+- **#12 Human (Medium)**, 14 words, Keep the Adult Part of Yourself in Charge, P1: "All legitimate forms of influence can stand up to questions, sleep, boundaries and time."
+  - "Under no circumstances allow a strong state, charismatic individual, sexual charge, spirit": unchanged; last check read it Human (High)
+- **#14 Human (Medium)**, 1 words, Hypnosis Evidence, P1: "Yes."
+  - "Is there REAL (not magical) evidence for Hypnosis? Yes. In 2024 there has been an overview": unchanged; last check read it Human (Medium)
+- **#16 Human (Medium)**, 1 words, Hypnosis Evidence, P1: "Yes."
+  - "Is there REAL (not magical) evidence for Hypnosis? Yes. In 2024 there has been an overview": unchanged; last check read it Human (Medium)
+- **#18 Human (Low)**, 13 words, Forget the left-brain/right-brain cartoon, P3: "The body can have a voice - saying yes or no or not yet."
+  - "The mind of love and the mind of analysis can BOTH be there - warmth and brightness. The m": fix X1.10 (card C-10)
+- **#19 Human (Medium)**, 41 words, Forget the left-brain/right-brain cartoon, P3: "The imagination can have opened up the field and then the adult can choose what to do next in the real world…. It can be peaceful but also precise. / Without the "
+  - "The mind of love and the mind of analysis can BOTH be there - warmth and brightness. The m": fix X1.10 (card C-10)
+  - "Without the mind of love the mind of analysis can be sterile. Without the mind of analysis": back to the words batch 480's recheck read Human (a batch 481 spot he never approved)
+- **#21 Human (Medium)**, 8 words, Forget the left-brain/right-brain cartoon, P4: "Without testing intuitive signals they can become delusions."
+  - "Without the mind of love the mind of analysis can be sterile. Without the mind of analysis": back to the words batch 480's recheck read Human (a batch 481 spot he never approved)
+- **#22 Human (Low)**, 8 words, Forget the left-brain/right-brain cartoon, P4: "Without intuitive signals the testing can be dead."
+  - "Without the mind of love the mind of analysis can be sterile. Without the mind of analysis": back to the words batch 480's recheck read Human (a batch 481 spot he never approved)
+- **#23 Human (Low)**, 7 words, Forget the left-brain/right-brain cartoon, P4: "So these modes can correct each other."
+  - "Without the mind of love the mind of analysis can be sterile. Without the mind of analysis": back to the words batch 480's recheck read Human (a batch 481 spot he never approved)
+- **#24 AI (Low)**, 21 words, Forget the left-brain/right-brain cartoon, P5: "And it’s got to lead somewhere: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life."
+  - "And it’s got to lead somewhere: kinder behavior, more humility, better judgment, real serv": fix X1.11 (card C-11)
+- **#26 Human (Low)**, 7 words, Why doing it myself worked better for me, P1: "The bigger issue was trust and precision."
+  - "Doing self-hypnosis on my own seems far more useful than the very little I managed to do w": back to the words batch 480's recheck read Human (a batch 481 spot he never approved)
+- **#28 Human (Medium)**, 17 words, Why doing it myself worked better for me, P2: "And I can notice my body saying no before my conscious mind talks me into a yes."
+  - "When I do it on my own, I can detect when the wording I’m using for a suggestion to my sub": back to the words batch 480's recheck read Human (a batch 481 spot he never approved)
+- **#30 AI (Low)**, 16 words, Why doing it myself worked better for me, P4: "Self-hypnosis simply has one advantage nobody outside can duplicate: immediate dialogue with the system itself."
+  - "Self-hypnosis simply has one advantage nobody outside can duplicate: immediate dialogue wi": fix X1.12 (card C-12)
+- **#31 Human (Medium)**, 7 words, Why doing it myself worked better for me, P4: "I found that especially amplified with loveyhuasca."
+  - "Self-hypnosis simply has one advantage nobody outside can duplicate: immediate dialogue wi": fix X1.12 (card C-12)
+- **#33 Human (Medium)**, 6 words, Sometimes start with the whole, P5: "Is this fear? Is this intuition?"
+  - "Differentiate only as you need to. “Is this my inner child? Or is this a guard? Is this my": unchanged; last check read it Human (High)
+- **#35 AI (Medium)**, 16 words, The inner child, the guards, and the inner adult’s three jobs, P2: "That’s one grown-up doing three jobs, and each job keeps the others in balance."
+  - "Here I’m going to talk about what you develop in yourself as you reparent your inner child": 4 new words
+- **#36 Human (Medium)**, 9 words, The inner child, the guards, and the inner adult’s three jobs, P2: "It’s you that needs to develop these qualities."
+  - "Here I’m going to talk about what you develop in yourself as you reparent your inner child": 4 new words
+- **#38 Human (Low)**, 12 words, The inner child, the guards, and the inner adult’s three jobs, P3: "Those belong in your relationship with it too, not just the wounds."
+  - "Also, your inner child’s worth is not dependent on these qualities… It has its own worth, ": unchanged; last check read it Human (High)
+- **#40 AI (High)**, 46 words, When the adult role is not available yet, P2: "For that starting point, I have developed a kind of provisional bridge that I call “borrowed adulthood.” It’s built from familiar practices like modeling and su"
+  - "For that starting point, I have developed a kind of provisional bridge that I call “borrow": 21 new words
+- **#41 Human (Medium)**, 21 words, When the adult role is not available yet, P3: "Access your witnessing position if necessary, just noticing what’s there, without needing it to be warm or wise or certain."
+  - "Access your witnessing position if necessary, just noticing what’s there, without needing ": unchanged; last check read it Human (High)
+- **#43 Human (Medium)**, 4 words, When the adult role is not available yet, P9: "Borrow that one response."
+  - "It can be helpful to use borrowing when you’re in the adult position and not knowing what ": unchanged; last check read it Human (High)
+- **#45 Human (Medium)**, 26 words, Love doesn’t have to wait for trust, P2: "You could say something like, “Okay. I believe that you don’t believe me. I still love you. You don’t have to love me back."
+  - "You could say something like, “Okay. I believe that you don’t believe me. I still love you": unchanged; last check read it Human (Medium)
+- **#47 Human (Medium)**, 8 words, Love doesn’t have to wait for trust, P3: "If it’s something serious, answer it seriously."
+  - "Then respond to the complaints that are sure to come. You don’t have to accept every concl": unchanged; last check read it Human (High)
+- **#49 Human (Medium)**, 12 words, Instead of blame, P2: "What did it understand back then? What options could it actually see?"
+  - "When you’re placing your younger self on trial, instead of asking which age of you deserve": unchanged; last check read it Human (Medium)
+- **#51 Human (Medium)**, 3 words, Instead of blame, P2: "What was missing?"
+  - "When you’re placing your younger self on trial, instead of asking which age of you deserve": unchanged; last check read it Human (Medium)
+- **#53 Human (Medium)**, 3 words, The two-hand practice, P2: "No warmth today?"
+  - "Begin to send love from your heart down to your child and just notice what comes up for yo": unchanged; last check read it Human (Medium)
+- **#55 Human (Medium)**, 1 words, The Protector, P3: "Tired?"
+  - "If it’s hard to bring up the warm stuff, you can always do something to protect your inner": fix X2.7 (card C-19); fix X6.11 (card C-58)
+- **#57 Human (Medium)**, 1 words, Quick start: do this first, P1: "etc."
+  - "To work on difficulties or cultivate positive qualities (love, curiosity, play, confidence": fix X1.4 (card C-4)
+- **#59 Human (Medium)**, 1 words, Quick start: do this first, P1: "etc."
+  - "To work on difficulties or cultivate positive qualities (love, curiosity, play, confidence": fix X1.4 (card C-4)
+- **#61 Human (Medium)**, 14 words, Working with your guards, P3: "Those are not failures. Often what you’re experiencing is a very charming guard."
+  - "Instead, you might feel numb, cynical, angry, hungry, like you need to look at your phone,": fix X3.1 (card C-20)
+- **#63 Human (Medium)**, 69 words, Working with your guards, P3: "But before you decide where it’s coming from, ask it what it’s trying to stop, or what it wants. It could also be your inner child, mad that you took so long to"
+  - "Instead, you might feel numb, cynical, angry, hungry, like you need to look at your phone,": fix X3.1 (card C-20)
+  - "(To the guard, in the same Nurturer voice you meant for your inner child: “I see you. I’m ": unchanged; last check read it Human (Medium)
+- **#64 Human (Low)**, 10 words, Working with your guards, P4: "I’m not going to force my way past you."
+  - "(To the guard, in the same Nurturer voice you meant for your inner child: “I see you. I’m ": unchanged; last check read it Human (Medium)
+- **#65 Human (Medium)**, 17 words, Working with your guards, P4: "What’s going on?” Then wait and listen patiently. If nothing comes, that’s fine for now."
+  - "(To the guard, in the same Nurturer voice you meant for your inner child: “I see you. I’m ": unchanged; last check read it Human (Medium)
+- **#67 Human (Medium)**, 5 words, Don’t rush the repair, P1: "Just be with the child."
+  - "Just be with the child.": unchanged; last check read it Human (High)
+- **#69 Human (Medium)**, 1 words, Quick start: do this first, P1: "etc."
+  - "To work on difficulties or cultivate positive qualities (love, curiosity, play, confidence": fix X1.4 (card C-4)
+- **#71 Human (Medium)**, 1 words, Don’t rush the repair, P6: "B."
+  - "B. Look at what’s there before judging or deciding what it is.": unchanged; last check read it Human (Medium)
+- **#73 Human (Medium)**, 1 words, Quick start: do this first, P1: "C."
+  - "C. Ask them what you can do or if you can move closer to them. If you feel like you alread": unchanged; last check read it Human (Medium)
+- **#75 Human (Medium)**, 1 words, Introduction, P4: "D."
+  - "D. Give them what you can- don’t feel like you have to fix it all.": unchanged; last check read it Human (Medium)
+- **#77 Human (Medium)**, 1 words, How to use this very large guide, P1: "E."
+  - "E. Give yourself some time to let what you did sink in- it may take some time, it may take": fix X3.5 (card C-24)
+- **#79 Human (Medium)**, 1 words, What I mean by hypnosis, P2: "F."
+  - "F. Reconnect with them- don’t expect them to merge, go away, forgive you, become happy, et": unchanged; last check read it Human (Medium)
+- **#81 Human (Medium)**, 1 words, Quick start: do this first, P2: "G."
+  - "G. Rest, and reconnect with them later to see what was helpful.": unchanged; last check read it Human (Medium)
+- **#83 Human (Medium)**, 2 words, When “your voice” is everybody else’s voice, P11: "Temporary Separation."
+  - "Temporary Separation. Sometimes it may be wise to remove yourself, for a time, from the pe": my advised wording (card C-26)
+- **#85 Human (Medium)**, 8 words, If you sense you are being influenced, P6: "A good guide leaves your adult more present."
+  - "A good guide leaves your adult more present. The more powerful the state the stronger the ": fix X4.1 (card C-27)
+- **#87 Human (Medium)**, 8 words, Induction: gathering attention without disappearing, P1: "Contain before you deepen” rather than going deeper."
+  - "Inductions serve to gather you up so you can access quiet stuff. They’re not about surrend": unchanged; last check read it Human (High)
+- **#89 Human (Medium)**, 14 words, What an induction is actually doing, P1: "Part of that is gathering your attention up. Part of that might be deepening."
+  - "Getting yourself ready to do something. Part of that is gathering your attention up. Part ": fix X6.11 (card C-58)
+- **#91 Human (Medium)**, 8 words, What an induction is actually doing, P2: "If so, you might not need to deepen."
+  - "Test: For a simple, chosen target, are you getting the response you want out of the sugges": fix X4.4 (card C-30)
+- **#92 Human (Low)**, 3 words, Please don’t put six metaphors in one trance, P1: "Keep it simple."
+  - "Keep it simple. One thing you’re doing, one anchor/image you’re going with at first, one w": unchanged; last check read it Human (Medium)
+- **#93 AI (Low)**, 34 words, Please don’t put six metaphors in one trance, P1: "One thing you’re doing, one anchor/image you’re going with at first, one way of coming back, and feel free to set a tone (warm, bounded, directed, neutral witne"
+  - "Keep it simple. One thing you’re doing, one anchor/image you’re going with at first, one w": unchanged; last check read it Human (Medium)
+- **#94 Human (Medium)**, 85 words, Please don’t put six metaphors in one trance, P2: "If you’re going to use metaphors just do one, and if you switch metaphors, do it in a way that’s conscious. / Using metaphors and imagery is entirely optional. Yo"
+  - "Keep it simple. One thing you’re doing, one anchor/image you’re going with at first, one w": unchanged; last check read it Human (Medium)
+  - "Using metaphors and imagery is entirely optional. You can use whatever form of signal show": fix X4.5 (card C-31); fix X4.6 (card C-31)
+- **#95 Human (Low)**, 10 words, Please don’t put six metaphors in one trance, P2: "And when you’re done, come back the other way."
+  - "Using metaphors and imagery is entirely optional. You can use whatever form of signal show": fix X4.5 (card C-31); fix X4.6 (card C-31)
+- **#96 AI (Low)**, 16 words, Please don’t put six metaphors in one trance, P2: "(You can borrow qualities such as warmth or steadiness, but don’t change who you are.)"
+  - "Using metaphors and imagery is entirely optional. You can use whatever form of signal show": fix X4.5 (card C-31); fix X4.6 (card C-31)
+- **#97 Human (Low)**, 42 words, Please don’t put six metaphors in one trance, P3: "When you’re writing the script, decide what the verb you’re using is, what the sensory quality is, what the short refrain is, and how you’re going to transition"
+  - "When you’re writing the script, decide what the verb you’re using is, what the sensory qua": fix X4.7 (card C-32)
+- **#98 Human (Medium)**, 72 words, Before you begin, P1: "Long, elegant sentences don’t read well when you’re being induced. It’s all just soup. / Read this page, and the Come all the way back page, when you’re awake. / Ge"
+  - "When you’re writing the script, decide what the verb you’re using is, what the sensory qua": fix X4.7 (card C-32)
+  - "Read this page, and the Come all the way back page, when you’re awake.": unchanged; last check read it Human (High)
+  - "Get clear on what it is you want to do during the induction. What do you want not to do to": back to the words batch 480's recheck read Human (a batch 481 spot he never approved)
+- **#100 Human (Medium)**, 6 words, Before you begin, P3: "(The part below called “Already open?"
+  - "Put yourself in a place where you can safely do this. Don’t do this if you’re driving, in ": fix X6.11 (card C-58)
+- **#102 Human (Medium)**, 12 words, Before you begin, P4: "Deciding to do it: how will you coax yourself to do this?"
+  - "Deciding to do it: how will you coax yourself to do this? Make it spacious? Make it warm a": fix X4.8 (card C-33); fix X4.9 (card C-33)
+- **#103 Human (Low)**, 8 words, Before you begin, P4: "Make it spacious? Make it warm and held?"
+  - "Deciding to do it: how will you coax yourself to do this? Make it spacious? Make it warm a": fix X4.8 (card C-33); fix X4.9 (card C-33)
+- **#104 Human (Medium)**, 9 words, Before you begin, P4: "Make it firmer, so you stay with a feeling?"
+  - "Deciding to do it: how will you coax yourself to do this? Make it spacious? Make it warm a": fix X4.8 (card C-33); fix X4.9 (card C-33)
+- **#105 Human (Low)**, 2 words, Before you begin, P4: "Something else?"
+  - "Deciding to do it: how will you coax yourself to do this? Make it spacious? Make it warm a": fix X4.8 (card C-33); fix X4.9 (card C-33)
+- **#106 Human (Medium)**, 12 words, Before you begin, P4: "Preview what you are going to do: will you close your eyes?"
+  - "Deciding to do it: how will you coax yourself to do this? Make it spacious? Make it warm a": fix X4.8 (card C-33); fix X4.9 (card C-33)
+- **#107 Human (Low)**, 16 words, Before you begin, P4: "Will you come out and go back in again? What will you do at the end?"
+  - "Deciding to do it: how will you coax yourself to do this? Make it spacious? Make it warm a": fix X4.8 (card C-33); fix X4.9 (card C-33)
+- **#108 Human (Medium)**, 15 words, Before you begin, P4: "If you are going to use a recording, read the script beforehand if you can."
+  - "Deciding to do it: how will you coax yourself to do this? Make it spacious? Make it warm a": fix X4.8 (card C-33); fix X4.9 (card C-33)
+- **#109 Human (Low)**, 58 words, Before you begin, P4: "Know that you can say “stop” at any time and the induction will end. If you want to change something, say “less” if you want it to be asking for less from you, "
+  - "Deciding to do it: how will you coax yourself to do this? Make it spacious? Make it warm a": fix X4.8 (card C-33); fix X4.9 (card C-33)
+- **#110 Human (Medium)**, 21 words, Before you begin, P4: "You don’t need to ask any parts for permission to stop, even if a part tells you that you do."
+  - "Deciding to do it: how will you coax yourself to do this? Make it spacious? Make it warm a": fix X4.8 (card C-33); fix X4.9 (card C-33)
+- **#112 Human (Medium)**, 22 words, Before you begin, P5: "You don’t have to watch yourself all the time, but for the first few times, make sure you can change state."
+  - "If you are new to this or haven’t done it for a while, work on the coming in and coming ou": fix X4.10 (card C-34)
+- **#114 Human (Medium)**, 19 words, Before you begin, P5: "A no will stay a no. The narrator can’t add stuff just because you don’t say anything."
+  - "If you are new to this or haven’t done it for a while, work on the coming in and coming ou": fix X4.10 (card C-34)
+- **#116 Human (Medium)**, 7 words, Before you begin, P6: "Learn how to notice what is there."
+  - "Let your response guide you as to what to do next regardless of what the script is expecti": fix X4.11 (card C-35); fix X4.12 (card C-35)
+- **#118 Human (Medium)**, 16 words, Before you begin, P6: "Either way, keep the instructions about how to stay safe and how to get out plain."
+  - "Let your response guide you as to what to do next regardless of what the script is expecti": fix X4.11 (card C-35); fix X4.12 (card C-35)
+- **#120 Human (Medium)**, 7 words, Sober induction: 3–5 minutes, P5: "Allow yourself some time to do this."
+  - "Allow yourself some time to do this.": unchanged; last check read it Human (High)
+- **#122 Human (Medium)**, 1 words, Sober induction: 3–5 minutes, P12: "4."
+  - "Let your attention come back to your chosen anchor. 4. Let more of your attention come to ": unchanged; last check read it Human (Low)
+- **#124 Human (Medium)**, 6 words, Sober induction: 3–5 minutes, P12: "3. Leave a little space. 2."
+  - "Let your attention come back to your chosen anchor. 4. Let more of your attention come to ": unchanged; last check read it Human (Low)
+- **#126 Human (Low)**, 1 words, Sober induction: 3–5 minutes, P12: "1."
+  - "Let your attention come back to your chosen anchor. 4. Let more of your attention come to ": unchanged; last check read it Human (Low)
+- **#127 Human (Medium)**, 3 words, Sober induction: 3–5 minutes, P12: "Take your time."
+  - "Let your attention come back to your chosen anchor. 4. Let more of your attention come to ": unchanged; last check read it Human (Low)
+- **#129 Human (Medium)**, 22 words, Sober induction: 3–5 minutes, P13: "Just let it be there for now. You don’t need to tell the whole story yet. / What do you notice now?"
+  - "Bring to mind, if you want, the thing that you want to talk about, or just the wish to hav": unchanged; last check read it Human (Medium)
+  - "What do you notice now?": unchanged; last check read it Human (Medium)
+- **#131 Human (Medium)**, 23 words, Already open? Contain before you deepen, P3: "Orient yourself by looking around. Where are you? What’s the date or day? How does your body feel? Where are you grounded?"
+  - "Orient yourself by looking around. Where are you? What’s the date or day? How does your bo": unchanged; last check read it Human (Medium)
+- **#133 Human (Medium)**, 3 words, Already open? Contain before you deepen, P3: "Focus on that."
+  - "Orient yourself by looking around. Where are you? What’s the date or day? How does your bo": unchanged; last check read it Human (Medium)
+- **#135 Human (Medium)**, 8 words, Already open? Contain before you deepen, P4: "If there’s too much it can wait."
+  - "Say something like, “Only what I can integrate, please. If there’s too much it can wait. M": unchanged; last check read it Human (Low)
+- **#136 Human (Low)**, 5 words, Already open? Contain before you deepen, P4: "My body may stay safe."
+  - "Say something like, “Only what I can integrate, please. If there’s too much it can wait. M": unchanged; last check read it Human (Low)
+- **#138 Human (Medium)**, 9 words, Stay awake when your mind likes to escape, P2: "Feel your spine. Ask yourself why you’re daydreaming."
+  - "Look around you and choose something to look at. Feel your spine. Ask yourself why you’re ": unchanged; last check read it Human (Medium)
+- **#140 Human (Low)**, 25 words, Make the hypnosis more active, P1: "Keep your eyes open. Pair a small repeated hand movement with increasing clarity; stop the movement and notice what remains. Don’t escape inside yourself."
+  - "If being still tends to make you sleepy, or diffuse your attention, or make you want to me": fix X5.1 (card C-38); fix X6.11 (card C-58)
+- **#141 Human (Medium)**, 14 words, Make the hypnosis more active, P2: "Say something like, / “Starting with your eyes open press your thumb to your forefinger."
+  - "If being still tends to make you sleepy, or diffuse your attention, or make you want to me": fix X5.1 (card C-38); fix X6.11 (card C-58)
+  - "“Starting with your eyes open press your thumb to your forefinger. And as you press your f": unchanged; last check read it Human (Medium)
+- **#143 Human (Medium)**, 15 words, The two-hand induction, P5: "If something comes back up, I let it, and send my love on down again."
+  - "“Sending my love down to my Child. If something comes back up, I let it, and send my love ": fix X5.2 (card C-39)
+- **#145 AI (Low)**, 27 words, Optional fractionation: practice coming back, P1: "Check out Nimja’s sleep playlist to go to sleep listening to hypnosis / Fractionation means returning toward ordinary awareness and then deciding whether to enter"
+  - "Check out Nimja’s sleep playlist to go to sleep listening to hypnosis": unchanged; last check read it Human (High)
+  - "Fractionation means returning toward ordinary awareness and then deciding whether to enter": fix X5.3 (card C-40)
+- **#146 AI (High)**, 12 words, Optional fractionation: practice coming back, P1: "Used openly, it teaches that trance has a door in both directions."
+  - "Fractionation means returning toward ordinary awareness and then deciding whether to enter": fix X5.3 (card C-40)
+- **#148 Human (Medium)**, 1 words, Come all the way back, P1: "Etcetera."
+  - "If you have done anything to alter your state when entering the trance, make sure to rever": unchanged; last check read it Human (Medium)
+- **#150 Human (Medium)**, 4 words, Come all the way back, P4: "Move around a bit."
+  - "When you come out make sure you can name what day (or date) it is, look to your left and r": fix X6.11 (card C-58)
+- **#152 Human (Medium)**, 3 words, Let the response change the invitation, P1: "Just change it."
+  - "Your shoulders tightening, or ‘hmm, that feels kind of wrong’, is a signal to investigate ": unchanged; last check read it Human (High)
+- **#154 Human (Low)**, 12 words, Finish without forcing a revelation, P1: "Whatever it is, tell your little one, “That’s enough for today."
+  - "Don’t feel that you have to end the session with a great revelation! When you have done as": fix X6.11 (card C-58)
+- **#156 Human (Medium)**, 7 words, Capacity before content, P4: "What are you hiding? Tell me NOW!"
+  - "“What is it you won’t tell me? What are you hiding? Tell me NOW! I am telling you to tell ": unchanged; last check read it Human (High)
+- **#158 Human (Medium)**, 22 words, Capacity before content, P8: "Prepare me BEFORE you break it open! Ground me BEFORE you show me the memory! Support me BEFORE you make it intense!"
+  - "“Dear Wise Subconscious Mind, if there is something you know that my conscious self is not": back to the words batch 480's recheck read Human (a batch 481 spot he never approved)
+- **#159 Human (Low)**, 6 words, Capacity before content, P8: "Give me one next action!” etc."
+  - "“Dear Wise Subconscious Mind, if there is something you know that my conscious self is not": back to the words batch 480's recheck read Human (a batch 481 spot he never approved)
+- **#160 Human (Medium)**, 16 words, Capacity before content, P9: "REMEMBER: Not everything in hypnotic imagery is literal, especially if it relates to trauma and memory."
+  - "REMEMBER: Not everything in hypnotic imagery is literal, especially if it relates to traum": back to the words batch 480's recheck read Human (a batch 481 spot he never approved)
+- **#162 Human (Medium)**, 13 words, Capacity before content, P9: "So, treat it like an image and get some help outside of yourself!"
+  - "REMEMBER: Not everything in hypnotic imagery is literal, especially if it relates to traum": back to the words batch 480's recheck read Human (a batch 481 spot he never approved)
+- **#163 Human (Low)**, 12 words, Nothing happens, P1: "Is there a way you could try this on a smaller scale?"
+  - "Is there a way you could try this on a smaller scale?": back to the words batch 480's recheck read Human (a batch 481 spot he never approved)
+- **#164 Human (Medium)**, 31 words, Nothing happens, P2: "Ask: “Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.” / Do you have a sense of what it is that feels fake?"
+  - "Ask: “Show me one body sensation.” “Show me one word.” “Show me whether today is for liste": back to the words batch 480's recheck read Human (a batch 481 spot he never approved)
+  - "Do you have a sense of what it is that feels fake? The words, an image, what you are expec": fix X6.14 (card C-62)
+- **#166 AI (Low)**, 10 words, It feels fake, P2: "Maybe you’ve fooled yourself before, and that part remembers."
+  - "You could say something like ‘What are you protecting me from?’ or ‘Are you afraid I will ": back to the words batch 480's recheck read Human (a batch 481 spot he never approved)
+- **#167 Human (Low)**, 11 words, It feels fake, P2: "“Tell me what you remember, I’m listening.” works well here."
+  - "You could say something like ‘What are you protecting me from?’ or ‘Are you afraid I will ": back to the words batch 480's recheck read Human (a batch 481 spot he never approved)
+
+## Part B (Mostly Human Written, https://www.pangram.com/feed/f9b45a7b-402c-412c-af68-a5f9ca44f6e6)
+
+- **#1 Human (Medium)**, 2 words, Try it in the Inner Signal app, P1: "Have fun."
+  - "You can download Inner Signal App for voice hypnosis, information, help developing your ow": fix X7.10 (card C-71); fix X7.11 (card C-71)
+- **#3 AI (Low)**, 5 words, Core prompts, P8: "It should make sense, too."
+  - "Once you get an answer, you can ask: “What can I do in my ordinary life to prove that I he": 10 new words
+- **#4 AI (High)**, 24 words, Core prompts, P8: "Even then, anything big or hard to undo can wait until you’re calm and you’ve checked it against what you actually know."
+  - "Once you get an answer, you can ask: “What can I do in my ordinary life to prove that I he": 10 new words
+- **#5 AI (Low)**, 32 words, Core prompts, P9: "The prompt will tell your subconscious what you want. The NLP in Appendix B can help you get it in a safer way, but that doesn’t make the answer automatically t"
+  - "The prompt will tell your subconscious what you want. The NLP in Appendix B can help you g": unchanged; last check read it Human (High)
+- **#7 Human (Medium)**, 4 words, The four NLP layers, P3: "easier to get to."
+  - "State Level of NLP: making useful states (warmth, adult presence, courage, love etc.) easi": unchanged; last check read it Human (High)
+- **#9 AI (High)**, 22 words, Pattern 5: Embedded invitations, P1: "An embedded invitation places a small direction inside a larger sentence. It should invite a modest inner movement, not hide a demand."
+  - "An embedded invitation places a small direction inside a larger sentence. It should invite": fix X8.4 (card C-75)
+- **#10 Human (Low)**, 1 words, Pattern 5: Embedded invitations, P1: "ie."
+  - "An embedded invitation places a small direction inside a larger sentence. It should invite": fix X8.4 (card C-75)
+- **#12 AI (Low)**, 20 words, Pattern 6: Ethical double binds, P1: "Manipulative Double Bind Questions are set up so that whatever you answer, you end up doing what the speaker wants."
+  - "Manipulative Double Bind Questions are set up so that whatever you answer, you end up doin": unchanged; last check read it Human (High)
+- **#13 AI (Medium)**, 8 words, Pattern 6: Ethical double binds, P2: "An ethical one offers two genuinely safe routes."
+  - "An ethical one offers two genuinely safe routes. Ethical Double Bind Questions might be:": back to the words batch 480's recheck read Human (a batch 481 spot he never approved)
+- **#15 Human (Medium)**, 2 words, Pattern 10: Meta Model questions — the de-hypnosis tool, P2: "Always? Never?"
+  - "“What do you mean specifically? According to who? Compared to what? Always? Never? What sp": unchanged; last check read it Human (Medium)
+- **#17 Human (Medium)**, 1 words, Installing the synchronicity cue, P10: "plan)."
+  - "This is very similar to implementation intention (an if...then... plan). I’m not aware of ": fix X8.13 (card C-82)
+- **#19 Human (Low)**, 15 words, Reframing — changing the meaning without lying, P1: "Reframes are dishonest when they make the problem into something that was good all along."
+  - "Reframes are dishonest when they make the problem into something that was good all along. ": unchanged; last check read it Human (Medium)
+- **#20 AI (Low)**, 18 words, Reframing — changing the meaning without lying, P1: "Instead ask yourself: What else might be true? or What is this part trying to do for me?"
+  - "Reframes are dishonest when they make the problem into something that was good all along. ": unchanged; last check read it Human (Medium)
+- **#21 Human (Low)**, 7 words, Reframing — changing the meaning without lying, P1: "or How might my Nurturer reframe this?"
+  - "Reframes are dishonest when they make the problem into something that was good all along. ": unchanged; last check read it Human (Medium)
+- **#22 Human (Low)**, 7 words, Reframing — changing the meaning without lying, P1: "or How might my Protector reframe this?"
+  - "Reframes are dishonest when they make the problem into something that was good all along. ": unchanged; last check read it Human (Medium)
+- **#23 Human (Low)**, 7 words, Reframing — changing the meaning without lying, P1: "or How might my Guide reframe this?"
+  - "Reframes are dishonest when they make the problem into something that was good all along. ": unchanged; last check read it Human (Medium)
+- **#24 Human (Medium)**, 2 words, Reframing — changing the meaning without lying, P1: "etc., etc."
+  - "Reframes are dishonest when they make the problem into something that was good all along. ": unchanged; last check read it Human (Medium)
+- **#26 Human (Medium)**, 10 words, Perceptual positions — self, other, witness, universal heart, P2: "I do this to see the situation with more accuracy."
+  - "Perceptual Positions: 1) seeing from Self (what do I feel from inside myself?), 2) then se": fix X8.14 (card C-83)
+- **#28 AI (Low)**, 15 words, What I will not use NLP for, P3: "I do not tell people to override their fear before asking what it’s protecting."
+  - "I do not tell people to override their fear before asking what it’s protecting.": unchanged; last check read it Human (Medium)
+- **#29 Human (Low)**, 8 words, What I will not use NLP for, P4: "I do not use NLP for memory retrieval."
+  - "I do not use NLP for memory retrieval.": unchanged; last check read it Human (Medium)
+- **#30 Human (Low)**, 16 words, What I will not use NLP for, P5: "I do not use NLP to manipulate other people or convince myself an intuition is true."
+  - "I do not use NLP to manipulate other people or convince myself an intuition is true.": fix X9.2 (card C-85)
+- **#31 Human (Low)**, 11 words, What I will not use NLP for, P6: "I do not remove pain, hunger, grief, anger, or medical symptoms."
+  - "I do not remove pain, hunger, grief, anger, or medical symptoms.": unchanged; last check read it Human (High)
+- **#33 Human (Medium)**, 9 words, What I will not use NLP for, P9: "I do not use covert commands in my language."
+  - "I do not use covert commands in my language.": unchanged; last check read it Human (High)
+- **#35 Human (Medium)**, 1 words, Running the whole NLP sequence, P9: "statement)."
+  - "Future pace a scenario for them where their old pattern would have triggered, and have the": unchanged; last check read it Human (Medium)
+- **#37 Human (Medium)**, 15 words, Appendix C: The extended de-hypnosis checklist, P1: "I don’t have to obey it. I don’t even have to attack it."
+  - "What to do when you feel like you’re being pushed too hard by something (person, ad, ideol": unchanged; last check read it Human (Medium)
+- **#39 AI (High)**, 120 words, Hypnosis-specific audit, P8: "Before accepting a recording or live suggestion, ask: / Was I plainly told that induction mechanics are being used? / Can at least one answer lead to pause, modific"
+  - "Before accepting a recording or live suggestion, ask:": unchanged; last check read it AI (High)
+  - "Was I plainly told that induction mechanics are being used?": unchanged; last check read it AI (High)
+  - "Can at least one answer lead to pause, modification, full alertness, or stopping?": unchanged; last check read it AI (High)
+  - "Does the speaker treat not noticing as secret proof that the process worked?": unchanged; last check read it AI (High)
+  - "Are roles, ownership, obedience, age, identity, or belonging being used to lower adult jud": unchanged; last check read it AI (High)
+  - "Are fractionation, cues, later behavior, or memory effects disclosed before they are used?": unchanged; last check read it AI (High)
+  - "Are ordinary body sensations being turned into evidence for a hidden claim?": unchanged; last check read it AI (High)
+  - "Does the exit restore ordinary identity, movement, orientation, and critical judgment—and ": unchanged; last check read it AI (High)
+  - "When an answer is unclear, stay fully alert. Ask for the exact script, change the method, ": unchanged; last check read it AI (High)
+- **#40 Human (Medium)**, 13 words, Appendix D: Anxiety — body first, P2: "Remember that often the anxiety comes from a childhood guard part of you."
+  - "Remember that often the anxiety comes from a childhood guard part of you. It’s what protec": fix X9.8 (card C-92); my advised wording (card C-91)
+- **#42 Human (Medium)**, 4 words, Appendix D: Anxiety — body first, P2: "It can be right!"
+  - "Remember that often the anxiety comes from a childhood guard part of you. It’s what protec": fix X9.8 (card C-92); my advised wording (card C-91)
+- **#44 Human (Medium)**, 6 words, Reduced breathing / Buteyko-style breathing, P1: "Only pause if that’s comfortable."
+  - "Work on your reduced breathing / Buteyko breathing. (NOTE: there are some good things to b": unchanged; last check read it Human (High)
+- **#46 Human (Medium)**, 4 words, Somatic Experiencing, P1: "You learn to track."
+  - "Somatic experiencing: If you would like more information about somatic experiencing, or ev": fix X9.9 (card C-93)
+- **#48 Human (Medium)**, 4 words, Body supports, P1: "Work with the body."
+  - "Work with the body. Sometimes the mind is too activated for meditation to help, so you may": fix X9.10 (card C-94)
+- **#50 Human (Medium)**, 24 words, Body supports, P1: "Also stop if the massage makes the anxiety symptoms worse, or makes you feel bad in any way, such as painful, dizzy, tingly, etc.)"
+  - "Work with the body. Sometimes the mind is too activated for meditation to help, so you may": fix X9.10 (card C-94)
+- **#51 AI (Low)**, 28 words, Body supports, P1: "There are many other somatic approaches you can try, like heat, pressure, a weighted blanket, darkness, your favorite calming music, a careful use of a massage "
+  - "Work with the body. Sometimes the mind is too activated for meditation to help, so you may": fix X9.10 (card C-94)
+- **#52 AI (High)**, 17 words, Body supports, P1: "Use the support that actually helps, rather than assembling a tiny wellness trade show around the anxiety."
+  - "Work with the body. Sometimes the mind is too activated for meditation to help, so you may": fix X9.10 (card C-94)
+- **#54 Human (Medium)**, 36 words, Body supports, P2: "But neither one of those products is necessary. All you really need is to stabilize yourself, and then listen to the messages from your inner realm, reality tes"
+  - "I have a page on my ZHoly3O product, which is ozonated charcoal, and I talk about this “ho": unchanged; last check read it Human (High)
+- **#55 Human (Low)**, 34 words, Inner child love, P1: "Here is some inner child love. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are"
+  - "Here is some inner child love. Put your hand over your heart and your other hand on your s": 6 new words
+- **#56 AI (Low)**, 7 words, Inner child love, P1: "You don’t have to fix it."
+  - "Here is some inner child love. Put your hand over your heart and your other hand on your s": 6 new words
+- **#57 AI (High)**, 29 words, Inner child love, P1: "I’m here now, and the adult is here now to listen to you.” Make sure you are actually talking to your inner child, who is scared to death."
+  - "Here is some inner child love. Put your hand over your heart and your other hand on your s": 6 new words
+- **#58 AI (Medium)**, 3 words, The two-hand practice, P2: "No warmth today?"
+  - "Here is some inner child love. Put your hand over your heart and your other hand on your s": 6 new words
+- **#59 AI (High)**, 13 words, The two-hand practice, P2: "Then rest your hands there and notice what you find, no faking required."
+  - "Here is some inner child love. Put your hand over your heart and your other hand on your s": 6 new words
+- **#61 Human (Medium)**, 26 words, Appendix F: Self-trust, outside guidance, and oracle-like states, P3: "If you’re dealing with particularly complicated trauma, blind spots, dissociation, destabilization, or relational wounds that need another nervous system, skill"
+  - "That said, self hypnosis may be the best way of talking to your subconscious on a day to d": unchanged; last check read it Human (Medium)
+- **#63 Human (Low)**, 19 words, Forgiveness without bypass, P3: "“You don’t have to forgive before you’re ready. I won’t use spirituality to silence your pain."
+  - "“You don’t have to forgive before you’re ready. I won’t use spirituality to silence your p": unchanged; last check read it Human (Medium)
+- **#65 Human (Medium)**, 61 words, Forgiving yourself, P1: "What was the impact? What boundaries need to be set? What shaped the other person(s) into someone capable of that harm? What is theirs? What is mine? What does "
+  - "What actually happened? What was the impact? What boundaries need to be set? What shaped t": back to the words batch 480's recheck read Human (a batch 481 spot he never approved)
+  - "For self-forgiveness, name what you did, but don’t take responsibility for what wasn’t you": unchanged; last check read it Human (High)
+- **#67 Human (Medium)**, 13 words, Forgiving yourself, P2: "Then you’re allowed to stop holding yourself hostage, and the responsibility stays."
+  - "Be specific about the action you took, and the impact it had, feel the remorse, do what yo": fix X10.2 (card C-100); fix X10.3 (card C-100)
+- **#69 Human (Low)**, 22 words, Appendix G: Altered states, P1: "Borrowing them is fine, as long as it’s from someone steady who won’t try to run your trip for you."
+  - "This is NOT to say that you SHOULD use substances, but many people have used them when the": fix X10.4 (card C-101)
+- **#71 AI (Low)**, 20 words, Appendix G: Altered states, P3: "Let that experience show you what’s possible, while you build a way to get to it in everyday life."
+  - "A lot of people have OPENED themselves up to love at one point in their life. If you’ve ha": fix X10.6 (card C-103); fix X10.7 (card C-103); fix X10.8 (card C-103)
+- **#72 Human (Medium)**, 40 words, Appendix G: Altered states, P3: "(If you can’t give that love to the child, try to deal with why you can’t, instead of trying to ramp up the experience. Often it’s a protective part that’s seen"
+  - "A lot of people have OPENED themselves up to love at one point in their life. If you’ve ha": fix X10.6 (card C-103); fix X10.7 (card C-103); fix X10.8 (card C-103)
+- **#73 Human (Low)**, 4 words, Appendix G: Altered states, P3: "Hear it out first.)"
+  - "A lot of people have OPENED themselves up to love at one point in their life. If you’ve ha": fix X10.6 (card C-103); fix X10.7 (card C-103); fix X10.8 (card C-103)
+- **#75 Human (Medium)**, 23 words, A response check, not a verdict about what it is, P4: "You don’t have to find out if it’s a guard immediately, and you may not be able to comfort it quickly."
+  - "You don’t have to find out if it’s a guard immediately, and you may not be able to comfort": 6 new words
+- **#76 AI (High)**, 17 words, A response check, not a verdict about what it is, P4: "The useful question is whether this way of responding helps you become clearer, steadier, and less hooked."
+  - "You don’t have to find out if it’s a guard immediately, and you may not be able to comfort": 6 new words
+- **#78 Human (Medium)**, 14 words, 7. Care workshop, P1: "Invite the signal/feeling/young part to come only as close as is welcome."
+  - "Care workshop: prepare the workshop (time, place, tools, boundaries, etc). Invite the sign": unchanged; last check read it Human (High)
+- **#80 Human (Medium)**, 9 words, Finish without forcing a revelation, P1: "Tell your little one, “That’s enough for today."
+  - "Care workshop: prepare the workshop (time, place, tools, boundaries, etc). Invite the sign": unchanged; last check read it Human (High)
+- **#82 Human (Medium)**, 13 words, 8. Resource embodiment, P1: "Resource: pick a resource quality you understand (warmth, boundary, steadiness, curiosity, or dignity)."
+  - "Resource: pick a resource quality you understand (warmth, boundary, steadiness, curiosity,": fix X11.10 (card C-113); fix X11.11 (card C-113); fix X11.12 (card C-113)
+- **#84 Human (Medium)**, 3 words, 8. Resource embodiment, P1: "What is different?"
+  - "Resource: pick a resource quality you understand (warmth, boundary, steadiness, curiosity,": fix X11.10 (card C-113); fix X11.11 (card C-113); fix X11.12 (card C-113)
+- **#86 AI (Low)**, 18 words, 9. No-trance inner contact, P1: "Autonomous signal: write whatever you get (a word, sensation, impulse, objection, or silence) without interpreting it as proof."
+  - "For the no trance inner contact, I would do: Pacing: notice you can see, it’s (day of the ": fix X11.13 (card C-114); fix X11.14 (card C-114); fix X11.15 (card C-114)
+- **#87 AI (Low)**, 41 words, 9. No-trance inner contact, P1: "Deepener: none (full alertness isn’t a lesser version). Handoff: have your adult self answer the question in whatever way is appropriate, preferably by writing "
+  - "For the no trance inner contact, I would do: Pacing: notice you can see, it’s (day of the ": fix X11.13 (card C-114); fix X11.14 (card C-114); fix X11.15 (card C-114)
+- **#88 AI (Low)**, 17 words, 9. No-trance inner contact, P1: "Since you didn’t go into trance, just close the exercise and carry on with your day."
+  - "For the no trance inner contact, I would do: Pacing: notice you can see, it’s (day of the ": fix X11.13 (card C-114); fix X11.14 (card C-114); fix X11.15 (card C-114)
+- **#89 Human (Medium)**, 44 words, Appendix K: Sources and further reading, P1: "The personal accounts and the way I arrange this practice are my own, especially adaptations like the one I’m doing here where I am combining body-oriented work"
+  - "The personal accounts and the way I arrange this practice are my own, especially adaptatio": fix X11.16 (card C-115); fix X11.17 (card C-115)
+
