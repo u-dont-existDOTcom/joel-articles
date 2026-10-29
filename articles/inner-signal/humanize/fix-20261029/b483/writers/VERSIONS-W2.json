@@ -1,0 +1,17 @@
+{
+ "T5": {
+  "v1": "Go into the trance to do one thing, starting from a single anchor or image and having one way of coming back, and set yourself a tone too if you want one (warm, bounded, directed, neutral witnessing, whatever).",
+  "v2": "You want to be doing one thing, and to go with one anchor or image at first and one way of coming back, plus a tone if you'd like to set yourself one, say warm, bounded, directed, neutral witnessing or something like that.",
+  "keeps": "One thing you're doing (v1 'Go into the trance to do one thing'; v2 'You want to be doing one thing'), one anchor or image at first (v1 'starting from a single anchor or image'; v2 'to go with one anchor or image at first'), one way of coming back (v1 'having one way of coming back'; v2 'and one way of coming back'), setting yourself a tone is optional (v1 'set yourself a tone too if you want one'; v2 'plus a tone if you'd like to set yourself one'), and the open list of tones (v1 in brackets ending 'whatever'; v2 after 'say', ending 'or something like that'); still one sentence in both."
+ },
+ "T6": {
+  "v1": "(You can borrow qualities like warmth or steadiness as long as you don't change who you are.)",
+  "v2": "(Don't change who you are, though if you want to borrow qualities like warmth or steadiness, you can.)",
+  "keeps": "You can borrow qualities (v1 'you can borrow qualities'; v2 'if you want to borrow qualities ..., you can'), warmth or steadiness as examples (both 'like warmth or steadiness'), and don't change who you are, set against the borrowing (v1 as the condition 'as long as you don't change who you are'; v2 as the opening command 'Don't change who you are', with 'though' holding the contrast); still one sentence in brackets, main clause first in both so the two 'If/when ...' sentences before it don't become a run of three."
+ },
+ "T9": {
+  "v1": "When you write an embedded invitation you're putting a small direction inside a larger sentence, and you let that direction invite a modest inner movement instead of using it to hide a demand.",
+  "v2": "To write an embedded invitation you take a small direction, one that invites a modest inner movement and doesn't hide a demand, and put it inside a larger sentence.",
+  "keeps": "What an embedded invitation is, a small direction placed inside a larger sentence (v1 'When you write an embedded invitation you're putting a small direction inside a larger sentence'; v2 'To write an embedded invitation you take a small direction ... and put it inside a larger sentence'), that it should invite a modest inner movement (v1 'you let that direction invite a modest inner movement'; v2 'one that invites a modest inner movement'), and that it must not hide a demand, set against the inviting (v1 'instead of using it to hide a demand'; v2 'and doesn't hide a demand'); both join the two sentences into one, said as what you do when you write one, and v2 ends on the larger sentence so the 'ie.' example right after it shows the embedding."
+ }
+}

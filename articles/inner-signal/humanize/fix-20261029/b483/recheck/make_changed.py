@@ -6,8 +6,9 @@ his HG-S15 sentence (J5); batch 482's 11 versions that read Human stay word for 
 measured on batch 482 (its writers' versions read AI in 5 of 12 stretches that had read AI Low only, and in 5 of 9 that
 had read AI Medium or High, against my 0.2 and 0.35): a stretch whose last try read AI High, red 0.5; any other, red 0.4;
 High 0.2 for each. What read AI last time and is unchanged now: the audit, red 0.95; a window that turned red last time
-next to a rewrite that changes again, red 0.4 (the red came with the rewrite); one red in both of the last two checks,
-red 0.6. part_forecast.py adds the neighbours and the windows that read Human at Low or Medium last time.
+next to a rewrite that changes again, red 0.4 (the red came with the rewrite); one that turned red with nothing changing
+near it, red 0.55 (the window moved, and nothing has changed there since); one red in both of the last two checks, red
+0.6. part_forecast.py adds the neighbours and the windows that read Human at Low or Medium last time.
 
   python3 articles/inner-signal/humanize/fix-20261029/b483/recheck/make_changed.py
 """
@@ -48,6 +49,7 @@ def main():
                                '; last try %s' % (lt['read_in_place'] if lt else 'none (his sentence read AI Low twice)'),
                         'kind': 'changed'})
         taken = [(text.find(c['text']), text.find(c['text']) + len(c['text'])) for c in out]
+        spots_here = list(out)
         for r in lastspots['red_elsewhere']:
             if r['part'] != part or AUDIT_FIRST in r['text']:
                 continue
@@ -57,12 +59,18 @@ def main():
             i = text.find(seg)
             if any(a < i + len(seg) and b > i for a, b in taken):
                 continue
+            # near a rewrite: within two lines (paragraphs) of the checked text of a changed candidate
+            line = text.count('\n', 0, i)
+            near = any(abs(text.count('\n', 0, a) - line) <= 2 for a, _b in taken[:len(spots_here)])
             taken.append((i, i + len(seg)))
-            red = 0.6 if r['red_last_time'] else 0.4
+            if r['red_last_time']:
+                red, why = 0.6, 'and the check before'
+            elif near:
+                red, why = 0.4, 'next to a rewrite that changes again (the red came with the rewrite)'
+            else:
+                red, why = 0.55, 'with nothing near it changing (a window that moved)'
             out.append({'name': 'kept: ' + seg[:48].rstrip() + '...', 'text': seg, 'chance_red': red, 'chance_high': 0.1,
-                        'why': 'unchanged; read %s last time%s' % (r['reading'], ', and the check before' if r['red_last_time']
-                                                                   else ', next to a rewrite that changes again'),
-                        'kind': 'changed'})
+                        'why': 'unchanged; read %s last time, %s' % (r['reading'], why), 'kind': 'changed'})
         if part == 'B':
             a = text.find(AUDIT_FIRST)
             b = text.find(AUDIT_LAST, a) + len(AUDIT_LAST)
