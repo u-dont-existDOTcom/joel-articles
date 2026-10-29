@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-29, after your message of 17:21 UTC (your answers to 24 and 25). **Open questions: 0.** **For you
-to do**: let me make the recheck's two drafts (Substack is signed out in the Claude app's browser). The questions are at
+Last updated 2026-10-29, after your messages of 17:21 UTC (your answers to 24 and 25) and 17:53 UTC ("i signed in").
+**Open questions: 0.** **For you to do**: run Pangram on the recheck's two links. The questions are at
 the top, with their options and my default; under them is what you decided and what I did with it. Colours: 🟣 a
 question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -12,10 +12,10 @@ read and update it. Every file it points to is a link.
 
 None right now.
 
-**🔵 Next: the whole-guide recheck**, both parts built from the guide with your answers in and forecast part by part
-([the recheck's folder](https://github.com/u-dont-existDOTcom/joel-articles/tree/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/recheck)). It needs the two temporary Substack drafts, and Substack is signed out in the Claude app's
-browser, so it waits on the step below. Whatever reads AI or below High comes back to you only as a version that is
-both clear and Human; the clear version stays in until then (your rule for 25).
+**🔵 Next: the whole-guide recheck**, both parts pasted into their temporary drafts and checked as rendered
+([the recheck's folder](https://github.com/u-dont-existDOTcom/joel-articles/tree/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/recheck)); my forecast is written down before the check. Whatever reads AI or below High
+comes back to you only as a version that is both clear and Human; the clear version stays in until then (your rule
+for 25).
 
 **🔵 On hold: the 83 cards of [the 27 October editor page](https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) you hadn't marked** (questions 21 to 23). The guide has
 changed under them, so the recheck decides: a window that still reads below High in the guide as it is now gets a new
@@ -24,17 +24,14 @@ mark them.
 
 ## For you to do
 
-- 🟠 **Let me make the recheck's drafts.** Substack is signed out in the Claude app's browser (the Browser pane in the
-  desktop app), and I never sign in for you. Either:
-  - a) (my pick) sign in to Substack in the app's browser: I then make both drafts and give you their two secret links,
-    which you open in your Chrome with the Pangram extension and send me the two result links ("Copy shareable link to
-    result"); or
-  - b) connect Claude in Chrome in your Chrome (the one with Substack signed in and the Pangram extension): then I make
-    the drafts there and read Pangram's results myself, with nothing for you to send back.
+- 🟠 **Run Pangram on the recheck's two drafts**: open each link in your Chrome, click the Pangram label next to the
+  author's name twice, then "View Full Analysis", and send me the result's link ("Copy shareable link to result"):
+  - [Part A, the guide](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-29&audience=only_paid&free_preview=false&freemail=) (TEMP recheck A; Pangram reads its first 99,999 characters)
+  - [Part B, from Your functioning in ordinary life is the feedback to the end](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-29&audience=only_paid&free_preview=false&freemail=) (TEMP recheck B)
 
-## Your message of 2026-10-29 17:21 UTC, and what I did
+## Your messages of 2026-10-29 17:21 and 17:53 UTC, and what I did
 
-Your message, word for word: [17:21](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/joel-20261029-1721-message.txt).
+Your messages, word for word: [17:21](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/joel-20261029-1721-message.txt) and [17:53](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/joel-20261029-1753-message.txt).
 
 - 🟢 **24, "approve all the cards and where there's no "approve" option just take the advice given"**: all 114 fixes are
   in the guide ([what each card's answer did](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261028/comprehension/APPLIED-28.json)). The four cards in your own words had no Approve, so my
@@ -46,6 +43,8 @@ Your message, word for word: [17:21](https://github.com/u-dont-existDOTcom/joel-
   pangram."**: a standing rule now, for every article. A clear version that reads AI or below High stays in, and the
   next try has to be both clear and Human; the unclear one is never the fallback, nor offered to you as the
   alternative ([lesson E291](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md), and in the shared rules every lane reads).
+- 🟢 **"i signed in" (17:53 UTC)**: Substack was signed in again in the app's browser, so I pasted both parts into
+  their drafts, checked that each renders exactly the text I forecast from, and made the two links above.
 - 🟢 **The comparison gate passes** on the guide with all of this in: every paragraph is yours, or was read beside your
   published version at its present words, and every finding has its fate.
 

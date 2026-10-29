@@ -125,8 +125,8 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: **a Substack sign-in in the desktop app's browser** (or Claude in Chrome connected in his Chrome), for the
-whole-guide recheck's two drafts; then, unless Claude in Chrome reads them, the two Pangram result links. His questions
+The guide: **his two Pangram result links** for the whole-guide recheck's drafts (the secret links are in
+`fix-20261029/recheck/RECHECK-POST-A.json` and `RECHECK-POST-B.json`, and on his questions page). His questions
 page has no open questions. The 83 cards of the Hypnosis Guide Editor (https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) he hadn't marked
 are retired by the recheck (next step 3). The pages his other account published (the old marking page
 TpZbfBZcwuj8PL7KFLhmjP and the "Hypnosis Guide Questions" view 8o79MFm9vSpyMGrAeArZYx) are stale; this account can't
@@ -217,7 +217,7 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-10-29, after Joel's message of 17:21 UTC: his answers to 24 and 25 in; the recheck waits on a Substack sign-in)
+## Next step (2026-10-29, after Joel's messages of 17:21 UTC, his answers to 24 and 25, and 17:53 UTC, "i signed in": the recheck's drafts are pasted; their Pangram results wait on him)
 
 His message, word for word: `fix-20261029/joel-20261029-1721-message.txt`. Done (pull request
 [259](https://github.com/u-dont-existDOTcom/joel-articles/pull/259); STATUS.md's entry of 2026-10-29 has every file): all 114 fixes in, my advised wording on
@@ -225,8 +225,12 @@ the four cards in his own words (read beside his text, 5 of 5 pass), the finding
 his rule for 25 (E291, E292) in the shared rules; the recheck built and forecast (`fix-20261029/recheck/`, ledger
 HG-whole#75 and HG-rest-B#76).
 
+After his 17:53 message ("i signed in"), step 1 below is done: both drafts pasted from commit 2fa3b7b5 and checked as
+rendered (`fix-20261029/recheck/RECHECK-POST-A.json`, `RECHECK-POST-B.json`, with the two secret links); the links are
+on his questions page, and his two Pangram result links are what comes next.
+
 Next:
-1. **When Substack is signed in again in the app's browser** (or Claude in Chrome is connected in his Chrome): paste
+1. **(done 2026-10-29 17:56 UTC)** When Substack is signed in again in the app's browser (or Claude in Chrome is connected in his Chrome): paste
    PAYLOAD-A.html into draft 222109105 ("TEMP recheck A (hypnosis guide) - do not publish") and PAYLOAD-B.html into
    draft 221412532 ("TEMP recheck B (hypnosis guide appendices) - do not publish"), as batch 481's RECHECK-POST-A.json
    and RECHECK-POST-B.json say: clear the body with a click in a plain paragraph, ctrl+a and Delete, then
