@@ -18,6 +18,11 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-10-29: clarity is never traded for a Pangram reading.** Joel, 17:21 UTC, on question 25: "we never publish
+  nonsense because it passes pangram. we come back and we try again if clarity loses on pangram." A clear version that
+  reads AI or below High stays in, and the next try has to be both clear and Human, read beside his text first; the
+  unclear version is never the fallback or the alternative offered to him (E291). New words of mine that he accepts
+  wholesale ("take the advice given") are still read beside his text before they stay (E292).
 - **2026-10-28: comprehension comes first, and the comparison gate enforces it.** Joel, 15:20 UTC: "the guide itself is
   now too incomprehensible, we went wrong somewhere"; 16:05 UTC: "let's repair the process durably so that can't happen
   again also". Every paragraph of `HUMANIZED-SO-FAR.md` must be his as published, his own words, or read beside his text
@@ -120,14 +125,12 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: **his answers on the Hypnosis Guide Fixes page** (https://claude.ai/artifact/BC6AzFGSwc6MSgoWR2upLd, published from the account the 2026-10-28
-sessions ran in; its cards as text in Git, `fix-20261028/comprehension/REVIEW-28.md`): question 24 (114 fixes from the
-comparative read, one card per paragraph, and 4 passages in his own words to keep or edit) and question 25 (when a clear
-fix reads AI or below High in the recheck, which wins; my default clarity). The 83 cards of the Hypnosis Guide Editor
-(https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) he hadn't marked, questions 21 to 23, are on hold until their new
-words have had the comparative read (E288). The pages his other account published (the old marking page
+The guide: **a Substack sign-in in the desktop app's browser** (or Claude in Chrome connected in his Chrome), for the
+whole-guide recheck's two drafts; then, unless Claude in Chrome reads them, the two Pangram result links. His questions
+page has no open questions. The 83 cards of the Hypnosis Guide Editor (https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) he hadn't marked
+are retired by the recheck (next step 3). The pages his other account published (the old marking page
 TpZbfBZcwuj8PL7KFLhmjP and the "Hypnosis Guide Questions" view 8o79MFm9vSpyMGrAeArZYx) are stale; this account can't
-open or republish them, so point him to `OWNER-QUESTIONS.md` on GitHub and the fix page.
+open or republish them, so point him to `OWNER-QUESTIONS.md` on GitHub.
 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
@@ -214,7 +217,33 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-10-28, after Joel's messages of 15:20 UTC, "too incomprehensible", and 16:05 UTC, "repair the process durably")
+## Next step (2026-10-29, after Joel's message of 17:21 UTC: his answers to 24 and 25 in; the recheck waits on a Substack sign-in)
+
+His message, word for word: `fix-20261029/joel-20261029-1721-message.txt`. Done (pull request
+[259](https://github.com/u-dont-existDOTcom/joel-articles/pull/259); STATUS.md's entry of 2026-10-29 has every file): all 114 fixes in, my advised wording on
+the four cards in his own words (read beside his text, 5 of 5 pass), the findings' fates from his answers, the gate PASS;
+his rule for 25 (E291, E292) in the shared rules; the recheck built and forecast (`fix-20261029/recheck/`, ledger
+HG-whole#75 and HG-rest-B#76).
+
+Next:
+1. **When Substack is signed in again in the app's browser** (or Claude in Chrome is connected in his Chrome): paste
+   PAYLOAD-A.html into draft 222109105 ("TEMP recheck A (hypnosis guide) - do not publish") and PAYLOAD-B.html into
+   draft 221412532 ("TEMP recheck B (hypnosis guide appendices) - do not publish"), as batch 481's RECHECK-POST-A.json
+   and RECHECK-POST-B.json say: clear the body with a click in a plain paragraph, ctrl+a and Delete, then
+   `fix-20261022/screen/paste_payload_lane.js` with window.__paste = {url: the payload's raw.githubusercontent.com address
+   at the commit that has it, sha256: RECHECK-BUILD.json's payload_sha256, title, words_sha256: WORDS-A.json's or
+   WORDS-B.json's}; the secret links (`tools/humanization/substack_secret_link.js`, new cache keys such as recheck-a-29);
+   the rendered check (`tools/humanization/substack_rendered_check.js` against TEXT-A.txt's and TEXT-B.txt's SHA-256);
+   RECHECK-POST-A.json and -B.json. Give him the two links (or, in his Chrome through Claude in Chrome, click the Pangram
+   label twice, then View Full Analysis, yourself).
+2. **Read the results** (`tools/humanization/pangram_feed_read.js` into read/RESULT-A.json and RESULT-B.json;
+   `window_confidence.py`; `part_forecast.py score`; `pangram_ledger.py results`, and `explain` for a miss). Every fix that
+   reads AI or below High gets a new try that is both clear and Human (E291): Emulate's re-run or a new fix, read beside
+   his published text first (the comparative read), then his marking page. The clear version stays in meanwhile.
+3. **The 83 held cards of the 27 October editor page**: retired by the recheck; the windows that still read below High
+   in the guide as it is now get new tries as in 2.
+
+## Earlier next step (2026-10-28, after Joel's messages of 15:20 UTC, "too incomprehensible", and 16:05 UTC, "repair the process durably")
 
 His messages, word for word: `fix-20261028/joel-20261028-1520-message.txt` (with his answers file,
 `fix-20261028/ANSWERS-20261028-1519.json`) and `fix-20261028/joel-20261028-1605-message.txt`. Done (pull request [258](https://github.com/u-dont-existDOTcom/joel-articles/pull/258);

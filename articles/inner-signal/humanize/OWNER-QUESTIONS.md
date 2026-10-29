@@ -1,36 +1,53 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-28, after your messages of 15:20 UTC ("the guide itself is now too incomprehensible") and 16:05 UTC
-("let's repair the process durably"). **Open questions: 2** (24, the fix page, and 25). **For you to do**: the fix page.
-The questions are at the top, with their options and my default; under them is what you decided and what I did with it.
-Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
+Last updated 2026-10-29, after your message of 17:21 UTC (your answers to 24 and 25). **Open questions: 0.** **For you
+to do**: let me make the recheck's two drafts (Substack is signed out in the Claude app's browser). The questions are at
+the top, with their options and my default; under them is what you decided and what I did with it. Colours: 🟣 a
+question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts can
 read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 24. The comprehension fixes, 118 cards** on **[the Hypnosis Guide Fixes page](https://claude.ai/artifact/BC6AzFGSwc6MSgoWR2upLd)**, your whole guide with
-each fix highlighted where it is and its card under the paragraph ([every card as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261028/comprehension/REVIEW-28.md), for the other account).
-114 are fixes, one card per paragraph (25 where a sentence doesn't read, 12 where a point was lost or changed, 77
-small snags), each with my advice; 4 are passages in your own words where a reader stumbled, to keep or edit. Every fix was read by a fresh reader beside your published version before it went on the page.
-- a) (my default) You go through the cards: Approve, Reject or Revise, and Keep or Edit it on the ones in your own words.
-- b) You decide the ones you want to, and say "take your advice on the rest".
+None right now.
 
-**🟣 25. When a clear fix reads AI, or Human below High, in the recheck after your answers, which wins?**
-- a) (my default) Clarity: the clear version stays, and I look for one that is both clear and High; where there isn't
-  one, it comes to you with both versions.
-- b) Pangram: the version that reads High stays, as long as it isn't garbled, and the clear one comes to you.
+**🔵 Next: the whole-guide recheck**, both parts built from the guide with your answers in and forecast part by part
+([the recheck's folder](https://github.com/u-dont-existDOTcom/joel-articles/tree/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/recheck)). It needs the two temporary Substack drafts, and Substack is signed out in the Claude app's
+browser, so it waits on the step below. Whatever reads AI or below High comes back to you only as a version that is
+both clear and Human; the clear version stays in until then (your rule for 25).
 
-**🔵 On hold: the 83 cards of [the 27 October editor page](https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) you hadn't marked** (questions 21 to 23); you don't need
-to mark them now. Most of them offer Emulate's re-runs, and new Emulate words now get the same read beside your
-published version before they come to you (lesson E288). Nothing changes until then.
+**🔵 On hold: the 83 cards of [the 27 October editor page](https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) you hadn't marked** (questions 21 to 23). The guide has
+changed under them, so the recheck decides: a window that still reads below High in the guide as it is now gets a new
+try (read beside your published version before it becomes a card), and the old cards are retired. You don't need to
+mark them.
 
 ## For you to do
 
-- 🟠 **[The Hypnosis Guide Fixes page](https://claude.ai/artifact/BC6AzFGSwc6MSgoWR2upLd)**: go through the cards (the progress bar counts what you've decided), then
-  click "Save / send", then "Copy my answers", and paste them to me (or "Save them as a file" and attach it). Your answers
-  also save on the page as you click.
+- 🟠 **Let me make the recheck's drafts.** Substack is signed out in the Claude app's browser (the Browser pane in the
+  desktop app), and I never sign in for you. Either:
+  - a) (my pick) sign in to Substack in the app's browser: I then make both drafts and give you their two secret links,
+    which you open in your Chrome with the Pangram extension and send me the two result links ("Copy shareable link to
+    result"); or
+  - b) connect Claude in Chrome in your Chrome (the one with Substack signed in and the Pangram extension): then I make
+    the drafts there and read Pangram's results myself, with nothing for you to send back.
+
+## Your message of 2026-10-29 17:21 UTC, and what I did
+
+Your message, word for word: [17:21](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/joel-20261029-1721-message.txt).
+
+- 🟢 **24, "approve all the cards and where there's no "approve" option just take the advice given"**: all 114 fixes are
+  in the guide ([what each card's answer did](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261028/comprehension/APPLIED-28.json)). The four cards in your own words had no Approve, so my
+  suggested wording went in: "As you become more your own person" for "As you differentiate"; "not push past that no"
+  for "not test it" (in both places, as that card said); "your inner child"; and "your inner adult's Protector" for
+  "your consciously installed parental Protector". Because those words are mine, a fresh reader read the five
+  paragraphs beside your published version first: all five read clearly and say what yours says.
+- 🟢 **25, "we never publish nonsense because it passes pangram. we come back and we try again if clarity loses on
+  pangram."**: a standing rule now, for every article. A clear version that reads AI or below High stays in, and the
+  next try has to be both clear and Human; the unclear one is never the fallback, nor offered to you as the
+  alternative ([lesson E291](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md), and in the shared rules every lane reads).
+- 🟢 **The comparison gate passes** on the guide with all of this in: every paragraph is yours, or was read beside your
+  published version at its present words, and every finding has its fate.
 
 ## Your messages of 2026-10-28 15:20 and 16:05 UTC, and what I did
 
@@ -55,7 +72,7 @@ Your messages, word for word: [15:20](https://github.com/u-dont-existDOTcom/joel
   before (3 after a second fix). They're question 24.
 - 🟢 **"repair the process durably"**: the read is now a gate. Every paragraph of the guide has to be yours as published,
   your own words, or read beside your published version at its present words, and every finding a reader rated 2 or 3
-  needs a recorded fate; a sentence a reader can't follow can't be "kept" on my say-so. `lane_push.py` runs the gate
+  needs a recorded fate; a sentence a reader can't follow can't be "kept" on my say-so. [the push tool](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/tools/humanization/lane_push.py) runs the gate
   before every push and stops on a failure (the guide's gate is [COMPARE-GATE.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/COMPARE-GATE.json)). The clarity read no
   longer calls a rewrite's grammar your voice and keeps an earlier run's findings; the triage tool refuses to let an
   unclear sentence stand; new words of any kind get the read before they become a card. The same rules are in the shared

@@ -1,5 +1,41 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-29, after Joel's message of 17:21 UTC (his answers to 24 and 25)
+
+His message, word for word: `fix-20261029/joel-20261029-1721-message.txt` ("25 we never publish nonsense because it passes
+pangram. we come back and we try again if clarity loses on pangram." and "approve all the cards and where there's no
+"approve" option just take the advice given").
+
+**His answers are in** `HUMANIZED-SO-FAR.md`: all 114 fix cards approved, and my advised wording on the four cards in his
+own words, which have no Approve button (`fix-20261029/build_decisions.py`, DECISIONS-20261029.json: his decision in the
+page's export form, named DECISIONS and not ANSWERS so that the comparison gate doesn't count my wording as his words).
+`fix-20261028/comprehension/apply_answers_28.py` now takes the cards in his own words first and puts a fix on the same
+paragraph on top (C-91 and C-92 share Appendix D's P2; before, the fix card overwrote his answer), carries an answer to a
+second paragraph ("also": C-59's note said its answer went for Working with your guards, P6 too) and records each card's
+fate (APPLIED-28.json; no link lost). The five paragraphs with my wording were read by a fresh reader beside his
+published version (`fix-20261029/comprehension/read_advice.py`, verify/): 5 of 5 pass. `write_records.py` takes his
+answers as the findings' fates: 137 fixed, 21 small snags kept, 6 his, 116 not, 1 done; three fixes change only
+punctuation (C-1, C-25, C-54), which the gate's loose text doesn't see, so their findings stay on record as kept at my
+severity 1. The comparison gate passes (0 unread, 0 open).
+
+**His rule for 25**, lessons E291 (clarity is never traded for a Pangram reading: the clear version stays and the next try
+has to be both) and E292 ("take the advice given" puts my words in, and they get the read): `AGENTS.md`,
+`docs/FIXING-AN-ARTICLE.md` section 5, `docs/EMULATE-FALLBACK.md` (the bullet that waited on his ruling) and
+`docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`.
+
+**The recheck, built and forecast** (`fix-20261029/recheck/`): `make_recheck.py` from the guide itself (merge PASS; the
+helper interaction tests pass): part A is the first 99,999 characters (18,197 words), and part B starts at Your
+functioning in ordinary life is the feedback, a section earlier than last time, since the fixes made the main guide
+longer (11,073 words). `make_changed.py` writes CHANGED-A.json (89 paragraphs the last check didn't read) and
+CHANGED-B.json (65, and the audit as one part), each with my chances from one stated rule (new words, and runs of 8 or
+more words brought back from his published version, the AI-written one); `tools/humanization/part_forecast.py` writes
+FORECAST-A.json (182 parts) and FORECAST-B.json (133). Ledger: HG-whole#75 (AI, 0.15 chance of 100% Human) and
+HG-rest-B#76 (AI, 0.03: the audit).
+
+**Stopped at the paste.** Substack is signed out in the desktop app's browser: the drafts API answers 403 and the
+publication's page shows "Sign in". I never sign in, so the drafts (222109105, 221412532) weren't touched. On his
+questions page: sign in there (my pick), or connect Claude in Chrome in his Chrome. Pull request 259.
+
 ## 2026-10-28, after Joel's messages of 15:20 UTC ("the guide itself is now too incomprehensible") and 16:05 UTC ("repair the process durably")
 
 His messages, word for word: `fix-20261028/joel-20261028-1520-message.txt` (with his answers file from the editor page,
