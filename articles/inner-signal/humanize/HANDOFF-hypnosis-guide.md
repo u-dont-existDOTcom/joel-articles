@@ -18,6 +18,14 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-10-29 18:55 UTC: Emulate, re-up or learn (question 26).** Joel: "emulate is 50k words for $15 per month. i'm not
+  sure it is worth re-upping on it. well maybe it is. and i wonder if we really understood all the lessons from emulate's
+  fixes or if we can learn enough from what we got that we wouldn't need it anymore". The lessons were not fully learned:
+  `docs/EMULATE-FALLBACK.md` section 5 (each case saved, each loud sentence paired with Emulate's replacement by its
+  change in shape) was never carried out. The study of the lane's own Emulate batches is
+  `fix-20261029/emulate-lessons/` (PAIRS.json, LESSONS.md); its shape rules go into the writers' brief. Batch 482's
+  recheck is the test of the writers without Emulate (none of its 21 versions came from it): his choice on 26 waits on it.
+
 - **2026-10-29: clarity is never traded for a Pangram reading.** Joel, 17:21 UTC, on question 25: "we never publish
   nonsense because it passes pangram. we come back and we try again if clarity loses on pangram." A clear version that
   reads AI or below High stays in, and the next try has to be both clear and Human, read beside his text first; the
@@ -125,12 +133,12 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: **his two Pangram result links** for the whole-guide recheck's drafts (the secret links are in
-`fix-20261029/recheck/RECHECK-POST-A.json` and `RECHECK-POST-B.json`, and on his questions page). His questions
-page has no open questions. The 83 cards of the Hypnosis Guide Editor (https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) he hadn't marked
-are retired by the recheck (next step 3). The pages his other account published (the old marking page
-TpZbfBZcwuj8PL7KFLhmjP and the "Hypnosis Guide Questions" view 8o79MFm9vSpyMGrAeArZYx) are stale; this account can't
-open or republish them, so point him to `OWNER-QUESTIONS.md` on GitHub.
+The guide: **his two Pangram result links** for the recheck with batch 482's versions in (the secret links are in
+`fix-20261029/b482/recheck/RECHECK-POST-A.json` and `RECHECK-POST-B.json`, and on his questions page), and **question 26**
+(Emulate: re-up or not; my default is to decide after that recheck). The 83 cards of the Hypnosis Guide Editor
+(https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) he hadn't marked are retired by the rechecks. The pages his other account published (the old
+marking page TpZbfBZcwuj8PL7KFLhmjP and the "Hypnosis Guide Questions" view 8o79MFm9vSpyMGrAeArZYx) are stale; this
+account can't open or republish them, so point him to `OWNER-QUESTIONS.md` on GitHub.
 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
@@ -217,7 +225,36 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-10-29, after Joel's messages of 17:21 UTC, his answers to 24 and 25, and 17:53 UTC, "i signed in": the recheck's drafts are pasted; their Pangram results wait on him)
+## Next step (2026-10-29, after Joel's messages of 18:18 UTC, the recheck's result links, and 18:55 UTC, Emulate: batch 482's recheck is pasted; its Pangram results and question 26 wait on him)
+
+His messages, word for word: `fix-20261029/joel-20261029-1818-message.txt` and `fix-20261029/joel-20261029-1855-message.txt`.
+Done (pull request [261](https://github.com/u-dont-existDOTcom/joel-articles/pull/261); STATUS.md's entry of 2026-10-29 after 18:18 and 18:55 has every file):
+- **The recheck read** (`fix-20261029/recheck/read/`: RESULT, CONFIDENCE.md, SPOTS.md, SCORE): part A 1.6% AI, 11 AI
+  windows; part B 4.5% AI, 20 AI windows, the audit one of them; HG-whole#75 and HG-rest-B#76 right.
+- **Batch 482** (`fix-20261029/b482/`): SORTED.json, TARGETS.json (T1 to T17 ours, J1 to J4 suggestions for his own
+  lines), the writers' versions (writers/), my picks (CHOICES.json), CANDIDATES.json and CANDIDATE-MASTER.md, the
+  comparative read (read/: 20 of 20 pass, READ-RECORD.json in the gate's records).
+- **The candidate recheck** (`fix-20261029/b482/recheck/`): built, forecast (FORECAST-A/B.json), predicted (HG-whole#77,
+  try 12; HG-rest-B#78, try 10), pasted from commit e859ce30 and checked as rendered (RECHECK-POST-A/B.json, cache keys
+  recheck-a-29b and recheck-b-29b); the links are on his questions page.
+- **Question 26** (Emulate) on his page, and the Emulate lessons study (`fix-20261029/emulate-lessons/`) started.
+
+Next:
+1. **Read the results** when his two links come: `tools/humanization/pangram_feed_read.js` (compact) into
+   `fix-20261029/b482/recheck/read/` (RESULT-A.json, RESULT-B.json, META, WINDOWS), `substack_check_text.py result`,
+   `window_confidence.py` (CONFIDENCE.md, with --his for his words), `part_forecast.py score` (SCORE-A/B.md) and
+   `pangram_ledger.py result` for #77 and #78 (`explain` for a miss). Then read each of the 21 candidates in place (the
+   worst window over its new words, as `fix-20261029/recheck/read/windows_map.py` does) and score the writers without
+   Emulate: that is the evidence for question 26.
+2. **His marking page (REVIEW-482)**: a card for each T candidate with how it read in place (the clear current version
+   is the default: E291); the J suggestions and the three-jobs line as cards in his own words, my suggestion beside his
+   line. A candidate that still reads AI or below High gets another try first (the writers again with the lessons
+   from step 3, or Emulate if he re-ups), read beside his published text before it becomes a card.
+3. **The Emulate lessons**: when `fix-20261029/emulate-lessons/LESSONS.md` is in, check its pairs against their files,
+   put the shape rules that two or more cases back into the writers' brief (`fix-20261029/b482/make_targets.py`'s BRIEF
+   and `docs/EMULATE-FALLBACK.md` section 1), and start `tools/humanization/emulate-cases/` as section 5 says.
+
+## Earlier next step (2026-10-29, after Joel's messages of 17:21 UTC, his answers to 24 and 25, and 17:53 UTC, "i signed in": the recheck's drafts are pasted; their Pangram results wait on him)
 
 His message, word for word: `fix-20261029/joel-20261029-1721-message.txt`. Done (pull request
 [259](https://github.com/u-dont-existDOTcom/joel-articles/pull/259); STATUS.md's entry of 2026-10-29 has every file): all 114 fixes in, my advised wording on

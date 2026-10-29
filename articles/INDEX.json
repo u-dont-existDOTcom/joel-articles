@@ -31863,7 +31863,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/HANDOFF-hypnosis-guide.md",
-          "sha256": "f0b8336be84f2c466fbbc7af9893a367d0e7149f8aaba27c078f9f6f4fba3931",
+          "sha256": "b99e741609ce544d2980588c6940f4464dfbb4dd04120199ae0b1a352e8fc7a6",
           "role": "humanization_working_record"
         },
         {
@@ -36128,7 +36128,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/STATUS.md",
-          "sha256": "f71e348992bc6deafa02515c3ce8547c5575b74b75f0276f3f17ad797ad41c76",
+          "sha256": "37379f8642c0e20a475333e02a75042b68cc7201f0485d15f43bcafe4d31e272",
           "role": "humanization_working_record"
         },
         {
@@ -37388,7 +37388,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/OWNER-QUESTIONS.md",
-          "sha256": "1c49a7c00f72ac96fc792caa51c8960d095be697319ec89a69ccb9f91ddb25a9",
+          "sha256": "b703201f4913d9600c5e54d0e2b87b456ff65c50c994cf4a22208080a3a24b8c",
           "role": "humanization_working_record"
         },
         {
@@ -57124,6 +57124,21 @@
         {
           "path": "articles/inner-signal/humanize/fix-20261029/b482/writers/VERSIONS-W4.json",
           "sha256": "e45e394d96279cbf050cb9324cadbe1bd4e59869085d532b48bd67c49f349ac3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/b482/recheck/RECHECK-POST-A.json",
+          "sha256": "351e1fbb19886c89239f10ecead377d10d25f70aa4b42f94c04007d169af0a29",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/b482/recheck/RECHECK-POST-B.json",
+          "sha256": "edadf3a0dc9bf024e929871bb6c3909040f5789e7d737347ea0703f639182cf6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261029/joel-20261029-1855-message.txt",
+          "sha256": "2f71c9b73131f3b17a7a88bb89a09003228e3ef8e8cd406430ae4a534b4ac70d",
           "role": "humanization_working_record"
         }
       ]
