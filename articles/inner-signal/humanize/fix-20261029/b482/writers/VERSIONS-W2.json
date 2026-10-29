@@ -1,0 +1,32 @@
+{
+ "T2": {
+  "v1": "And all this inner work has to lead somewhere. Maybe you treat people more kindly, or you’re humbler, or you make better calls. Or you end up really serving others, or with an everyday life that works better than it did.",
+  "v2": "And the practice has to go somewhere. You should come out of it kinder to people, or humbler, or making better decisions, or doing real service, or with an everyday life that works better than before.",
+  "keeps": "Has to lead somewhere, with 'it' named (v1 s1 'all this inner work', v2 s1 'the practice'); kinder behavior, more humility, better judgment (v1 s2: treat people more kindly, humbler, better calls; v2 s2: kinder to people, humbler, better decisions); real service and a more workable ordinary life, all as either/or options (v1 s3: really serving others, everyday life that works better; v2 s2 end: doing real service, everyday life that works better)."
+ },
+ "T5": {
+  "v1": "Pick the one thing you're doing. Start out with a single anchor/image, and have one way of coming back. Setting a tone for yourself is fine too (warm, bounded, directed, neutral witnessing, whatever).",
+  "v2": "Stick to the one thing you're doing, with one anchor or image to get started and one way to come back. You can also set yourself a tone if you want one, maybe warm or bounded or directed or neutral witnessing, or whatever else.",
+  "keeps": "One thing you're doing (v1 s1, v2 s1); one anchor/image at first (v1 s2 'start out with a single', v2 s1 'to get started'); one way of coming back (v1 s2, v2 s1); a tone you may set for yourself, with warm, bounded, directed, neutral witnessing, whatever (v1 s3 'is fine too', v2 s2 'if you want one')."
+ },
+ "T8": {
+  "v1": "You use the prompt to tell your subconscious what you want. The NLP in Appendix B can make getting it safer. Even so, that doesn’t mean whatever answer you get is automatically true.",
+  "v2": "The prompt is you letting your subconscious know what you want. Using the NLP in Appendix B, you can get it in a safer way. That still won’t make the answer automatically true.",
+  "keeps": "The prompt tells your subconscious what you want (s1 in both); the NLP in Appendix B can help you get it more safely (s2 in both); that doesn't make the answer automatically true (s3 in both: 'Even so, that doesn’t mean...' / 'That still won’t make...')."
+ },
+ "T11": {
+  "v1": "An ethical double bind gives you two ways to go, and both of them are actually safe.",
+  "v2": "With an ethical double bind you get two options, and either one really is safe.",
+  "keeps": "Names the ethical double bind instead of 'one'; it offers two routes (v1 'two ways to go', v2 'two options'); both are genuinely safe (v1 'both of them are actually safe', v2 'either one really is safe'); one sentence each."
+ },
+ "T14": {
+  "v1": "You can try plenty of other somatic things too, like heat, pressure, a weighted blanket, darkness, your favorite calming music, a massage gun used carefully, etc. Go with whichever support actually helps. Don’t pile a whole bunch of wellness stuff up around the anxiety.",
+  "v2": "You’ve got lots of other options for the body too, like heat, pressure, a weighted blanket, darkness, your favorite calming music, or a massage gun if you’re careful with it, etc. Use whatever actually helps you, and don’t go surrounding the anxiety with a heap of wellness stuff.",
+  "keeps": "Many other somatic approaches to try (s1: v1 'plenty of other somatic things', v2 'lots of other options for the body'); heat, pressure, weighted blanket, darkness, favorite calming music, careful massage gun, etc. (s1 both); use the support that actually helps (v1 s2, v2 s2 first clause); don't assemble a big array of wellness things around the anxiety (v1 s3, v2 s2 second clause)."
+ },
+ "T17": {
+  "v1": "Autonomous signal: write down what you get, whether that's a word, a sensation, an impulse, an objection, or silence, and don't take it as proof. Deepener: none. Doing the inner contact fully alert doesn't make it a lesser version. Handoff: have your adult self answer the question however makes sense, ideally by writing something or doing something. Integration/exit: reality test the signal, then act on it in one small way. You didn't go into trance, so just close the exercise and get on with your day.",
+  "v2": "Autonomous signal: whatever comes (a word, sensation, impulse, objection, or silence), write it down, but don't read it as proof. Deepener: none. Being fully alert for this one doesn't make it a lesser version. Handoff: have your adult self answer the question in whatever way fits, and writing or doing something is best. Integration/exit: reality test the signal and then do one small thing about it. There was no trance, so you just close the exercise and carry on with your day.",
+  "keeps": "Step labels kept. Autonomous signal: write what you get, word/sensation/impulse/objection/silence, not as proof (s1 both); Deepener: none, and full alertness is not a lesser version (s2-s3 both); Handoff: adult self answers in whatever way fits, preferably by writing or doing (s4 both); Integration/exit: reality test the signal and do one small thing based on it (s5 both); no trance, so just close the exercise and carry on with your day (s6 both)."
+ }
+}

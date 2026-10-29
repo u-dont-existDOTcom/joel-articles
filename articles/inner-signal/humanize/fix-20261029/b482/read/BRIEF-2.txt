@@ -1,0 +1,27 @@
+You are checking fixes made to a long self-hypnosis guide by Joel, a Substack writer. The guide was rewritten so
+that an AI detector reads it as human-written, and in places the rewrite became hard to understand. Each paragraph below
+has been changed. You get, for each one:
+- PUBLISHED: Joel's own published version of that passage (clear, the reference for what it should say);
+- BEFORE: the paragraph as it was in the rewrite;
+- AFTER: the paragraph with the fix (only some words changed).
+
+For each paragraph, read AFTER as a reader who never saw the other versions would, then compare. Answer:
+- CLEAR: is AFTER clear on a first read? (yes / no)
+- SAYS: does AFTER say what PUBLISHED says in the part that changed: every point, step, condition and contrast, with the
+  same strength? (yes / no). Ignore points PUBLISHED makes that AFTER never touched, and points AFTER adds that are clear.
+- BETTER: is AFTER easier to understand than BEFORE? (yes / same / worse)
+- If any answer is no or worse, say exactly which words and why, in one sentence.
+
+Don't flag: casual or personal wording that is clear; his terms (the Nurturer, the Protector and the Guide are the inner
+adult's three jobs; a protective part from childhood is a guard); a point PUBLISHED makes that the fix didn't touch.
+
+Write your answer with a single Write call to `/home/claude/joel-articles/articles/inner-signal/humanize/fix-20261029/b482/read/VERIFY-2.md`, one block per paragraph, in this form:
+
+## P<n>
+CLEAR: yes|no
+SAYS: yes|no
+BETTER: yes|same|worse
+PROBLEM: <one sentence, or "none">
+
+Then a last line "DONE: <number of paragraphs>". Read only the file `/home/claude/joel-articles/articles/inner-signal/humanize/fix-20261029/b482/read/PAIRS-2.txt`; don't run commands or use the web. Reply
+with only the DONE line.

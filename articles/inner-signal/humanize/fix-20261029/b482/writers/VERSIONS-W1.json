@@ -1,0 +1,32 @@
+{
+  "T1": {
+    "v1": "Then put the screen away. You’re learning to run the practice yourself, so don’t keep reading along like it’s a checklist.",
+    "v2": "Then put the screen down and don’t treat the practice as a checklist to keep reading, since you’re learning to lead it yourself.",
+    "keeps": "Then put the screen aside (v1 'Then put the screen away'; v2 'Then put the screen down'); the practice is something you learn to conduct (v1 'You’re learning to run the practice yourself'; v2 'since you’re learning to lead it yourself'); not a checklist to keep reading (v1 'so don’t keep reading along like it’s a checklist'; v2 'don’t treat the practice as a checklist to keep reading')."
+  },
+  "T4": {
+    "v1": "For people starting from there, I came up with something I call “borrowed adulthood.” I think of it as a provisional bridge, and I pieced it together from familiar practices like modeling and supported action. I’m not saying the whole sequence has been formally tested and proven as one treatment, though.",
+    "v2": "For people at that starting point, I’ve worked out a temporary bridge of my own and named it “borrowed adulthood.” The parts are familiar practices, like modeling and supported action. Still, I’m not claiming anyone has formally tested and proven the whole sequence as one treatment.",
+    "keeps": "For that starting point (v1 'For people starting from there'; v2 'For people at that starting point'); I developed it (v1 'I came up with', 'I pieced it together'; v2 'I’ve worked out ... of my own'); a kind of provisional bridge (v1 'I think of it as a provisional bridge'; v2 'a temporary bridge'); that I call “borrowed adulthood” (v1 'something I call'; v2 'named it'); built from familiar practices like modeling and supported action (v1 'pieced it together from familiar practices like modeling and supported action'; v2 'The parts are familiar practices, like modeling and supported action'); but I’m not suggesting the whole sequence has been formally tested and proven as one treatment (v1 last sentence, the 'but' kept as 'though'; v2 last sentence, the 'but' kept as 'Still')."
+  },
+  "T7": {
+    "v1": "In fractionation, you come back up toward ordinary awareness. Then you decide whether to go into absorption again. If you use fractionation openly, it teaches you that you can come out of trance as well as go in.",
+    "v2": "Fractionation has you come back up toward normal waking awareness, and then you choose whether to go back into absorption. When it’s done openly, you learn that you can get out of a trance as well as into one.",
+    "keeps": "Fractionation is returning toward ordinary awareness (v1 first sentence; v2 'Fractionation has you come back up toward normal waking awareness') and then deciding whether to enter absorption again (v1 'Then you decide whether to go into absorption again'; v2 'and then you choose whether to go back into absorption'); used openly (v1 'If you use fractionation openly'; v2 'When it’s done openly'); it teaches that trance has a door in both directions, said plainly (v1 'it teaches you that you can come out of trance as well as go in'; v2 'you learn that you can get out of a trance as well as into one'); fractionation stays the topic at the end, so the next sentence’s 'add this' still points to it."
+  },
+  "T10": {
+    "v1": "A Manipulative Double Bind Question is rigged so that you wind up doing what the speaker wants, whatever answer you give.",
+    "v2": "No matter how you answer a Manipulative Double Bind Question, you end up doing what the speaker wants, because it was set up that way.",
+    "keeps": "Manipulative Double Bind Questions (v1 and v2 'a Manipulative Double Bind Question', singular so the next paragraph’s 'An ethical one' points to it); are set up so that (v1 'is rigged so that'; v2 'because it was set up that way'); whatever you answer (v1 'whatever answer you give'; v2 'No matter how you answer'); you end up doing what the speaker wants (v1 'you wind up doing what the speaker wants'; v2 'you end up doing what the speaker wants')."
+  },
+  "T13": {
+    "v1": "I won’t tell anyone to override their fear without first asking what it’s protecting.",
+    "v2": "I don’t tell people to override their fear, not until I’ve asked what it’s protecting.",
+    "keeps": "I do not tell people (v1 'I won’t tell anyone'; v2 'I don’t tell people'); to override their fear (same words in both); before asking what it’s protecting (v1 'without first asking what it’s protecting'; v2 'not until I’ve asked what it’s protecting')."
+  },
+  "T16": {
+    "v1": "Let that experience show you what's possible. In the meantime, build yourself a way to reach love in everyday life.",
+    "v2": "While you're building a way to reach love on a normal day, let that experience show you what can happen.",
+    "keeps": "Let that experience show you what's possible (v1 first sentence; v2 'let that experience show you what can happen'); while (v1 'In the meantime'; v2 'While you're building'); you build a way to get to it, meaning love, in everyday life (v1 'build yourself a way to reach love in everyday life'; v2 'a way to reach love on a normal day'); naming love instead of 'it' gives the next sentence’s 'that love' something to point to."
+  }
+}

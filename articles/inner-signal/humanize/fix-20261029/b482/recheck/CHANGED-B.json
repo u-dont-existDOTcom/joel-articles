@@ -1,0 +1,114 @@
+[
+ {
+  "name": "J2 (Core prompts, P8)",
+  "text": "It would have to make sense too. And even with all that, I wouldn’t do anything big or hard to undo until I’m calm and I’ve checked it against what I actually know.",
+  "chance_red": 0.35,
+  "chance_high": 0.25,
+  "why": "a suggestion for his own words of a stretch that read AI on 2026-10-29 (AI (Low), window 3 of part B; AI (High), window 4 of part B); red stays likelier where it read Medium or High",
+  "kind": "changed"
+ },
+ {
+  "name": "J3 (Inner child love, P1)",
+  "text": "If you don’t feel any warmth today, there’s no need to fake it. Just rest your hands there and notice what you find.",
+  "chance_red": 0.35,
+  "chance_high": 0.25,
+  "why": "a suggestion for his own words of a stretch that read AI on 2026-10-29 (AI (Medium), window 58 of part B; AI (High), window 59 of part B); red stays likelier where it read Medium or High",
+  "kind": "changed"
+ },
+ {
+  "name": "J4 (A response check, not a verdict about what it is, P4)",
+  "text": "Just keep an eye on whether the way you’re responding to it helps you get clearer and steadier and less hooked.",
+  "chance_red": 0.35,
+  "chance_high": 0.25,
+  "why": "a suggestion for his own words of a stretch that read AI on 2026-10-29 (AI (High), window 76 of part B); red stays likelier where it read Medium or High",
+  "kind": "changed"
+ },
+ {
+  "name": "T8 (Core prompts, P9)",
+  "text": "You use the prompt to tell your subconscious what you want. The NLP in Appendix B can make getting it safer. Even so, that doesn’t mean whatever answer you get is automatically true.",
+  "chance_red": 0.2,
+  "chance_high": 0.35,
+  "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 5 of part B; AI (Low), window 5 of part B)",
+  "kind": "changed"
+ },
+ {
+  "name": "T9 (Pattern 5: Embedded invitations, P1)",
+  "text": "With an embedded invitation, you tuck a small direction into a longer sentence, and you shouldn’t be hiding a demand in it. The direction should invite a modest shift inside you.",
+  "chance_red": 0.35,
+  "chance_high": 0.25,
+  "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (High), window 9 of part B; AI (High), window 9 of part B); red stays likelier where it read Medium or High",
+  "kind": "changed"
+ },
+ {
+  "name": "T10 (Pattern 6: Ethical double binds, P1)",
+  "text": "A Manipulative Double Bind Question is rigged so that you wind up doing what the speaker wants, whatever answer you give.",
+  "chance_red": 0.2,
+  "chance_high": 0.35,
+  "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 12 of part B)",
+  "kind": "changed"
+ },
+ {
+  "name": "T11 (Pattern 6: Ethical double binds, P2)",
+  "text": "An ethical double bind gives you two ways to go, and both of them are actually safe.",
+  "chance_red": 0.35,
+  "chance_high": 0.25,
+  "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Medium), window 13 of part B); red stays likelier where it read Medium or High",
+  "kind": "changed"
+ },
+ {
+  "name": "T12 (Reframing — changing the meaning without lying, P1)",
+  "text": "Instead, ask yourself questions like What else might be true? or What is this part trying to do for me?",
+  "chance_red": 0.2,
+  "chance_high": 0.35,
+  "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 20 of part B)",
+  "kind": "changed"
+ },
+ {
+  "name": "T13 (What I will not use NLP for, P3)",
+  "text": "I won’t tell anyone to override their fear without first asking what it’s protecting.",
+  "chance_red": 0.2,
+  "chance_high": 0.35,
+  "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 28 of part B)",
+  "kind": "changed"
+ },
+ {
+  "name": "T14 (Body supports, P1)",
+  "text": "You’ve got lots of other options for the body too, like heat, pressure, a weighted blanket, darkness, your favorite calming music, or a massage gun if you’re careful with it, etc. Use whatever actually helps you, and don’t go surrounding the anxiety with a heap of wellness stuff.",
+  "chance_red": 0.35,
+  "chance_high": 0.25,
+  "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 51 of part B; AI (High), window 52 of part B); red stays likelier where it read Medium or High",
+  "kind": "changed"
+ },
+ {
+  "name": "T15 (Inner child love, P1)",
+  "text": "You don’t need to fix it. I’m here now. The adult is here right now to listen to you.” When you say this, really talk to your inner child, who’s scared to death.",
+  "chance_red": 0.35,
+  "chance_high": 0.25,
+  "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 56 of part B; AI (High), window 57 of part B; AI (High), window 57 of part B); red stays likelier where it read Medium or High",
+  "kind": "changed"
+ },
+ {
+  "name": "T16 (Appendix G: Altered states, P3)",
+  "text": "While you’re building a way to reach love on a normal day, let that experience show you what can happen.",
+  "chance_red": 0.2,
+  "chance_high": 0.35,
+  "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 71 of part B)",
+  "kind": "changed"
+ },
+ {
+  "name": "T17 (9. No-trance inner contact, P1)",
+  "text": "Autonomous signal: write down what you get, whether that’s a word, a sensation, an impulse, an objection, or silence, and don’t take it as proof. Deepener: none. Doing the inner contact fully alert doesn’t make it a lesser version. Handoff: have your adult self answer the question however makes sense, ideally by writing something or doing something. Integration/exit: reality test the signal, then act on it in one small way. You didn’t go into trance, so just close the exercise and get on with your day.",
+  "chance_red": 0.2,
+  "chance_high": 0.35,
+  "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 86 of part B; AI (Low), window 87 of part B; AI (Low), window 87 of part B; AI (Low), window 87 of part B; AI (Low), window 88 of part B)",
+  "kind": "changed"
+ },
+ {
+  "name": "the hypnosis audit (kept, 2c)",
+  "text": "Before accepting a recording or live suggestion, ask:\nWas I plainly told that induction mechanics are being used?\nCan at least one answer lead to pause, modification, full alertness, or stopping?\nDoes the speaker treat not noticing as secret proof that the process worked?\nAre roles, ownership, obedience, age, identity, or belonging being used to lower adult judgment?\nAre fractionation, cues, later behavior, or memory effects disclosed before they are used?\nAre ordinary body sensations being turned into evidence for a hidden claim?\nDoes the exit restore ordinary identity, movement, orientation, and critical judgment—and plainly say that the session has ended?\nWhen an answer is unclear, stay fully alert. Ask for the exact script, change the method, or leave.",
+  "chance_red": 0.95,
+  "chance_high": 0.0,
+  "why": "his list, kept by his answer 2c, unchanged: read AI (High) in the last three checks",
+  "kind": "changed"
+ }
+]

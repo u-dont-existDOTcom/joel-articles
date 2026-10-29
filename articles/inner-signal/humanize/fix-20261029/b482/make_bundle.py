@@ -47,8 +47,19 @@ def main():
     bl = sr.blocks(md)
     conf = json.loads(CONF.read_text(encoding='utf-8'))
     gate = json.loads((H / 'COMPARE-GATE.json').read_text(encoding='utf-8'))
-    mine = cr.owner_paragraphs(gate['owner'], ROOT)
+    # his texts, with the one obvious typo fixed when HG-S15 went in ("can are" -> "are")
+    mine = [m.replace('all of these can are separate', 'all of these are separate') for m in cr.owner_paragraphs(gate['owner'], ROOT)]
     ic = [cr.loose(b['text']) for b in sr.blocks(IC_GUIDE.read_text(encoding='utf-8')) if not b['level']]
+    # their sentences, so that a sentence of his with a few words cut or a typo fixed is still his (IC-A2's "That's one
+    # grown-up doing three jobs" is his inner child guide's sentence with its middle cut, batch 479's S1)
+    split = lambda t: [s for s in re.split(r'(?<=[.!?])\s+', t) if len(s.split()) >= 4]
+    his_s = [s for m in mine for s in split(m)]
+    ic_s = [s for m in ic for s in split(m)]
+
+    def near(lt, pool):
+        import difflib
+        return any(difflib.SequenceMatcher(a=lt, b=s, autojunk=False).ratio() >= 0.85 for s in pool
+                   if abs(len(s) - len(lt)) <= 0.6 * max(len(s), len(lt)))
     paras = [(b['i'], wc.norm(b['text'])) for b in bl if not b['level']]
     audit = next(b['i'] for b in bl if b['text'].startswith(AUDIT_FIRST))
     audit_end = audit
@@ -67,9 +78,9 @@ def main():
                     fate = 'not placed (a heading, or text across two paragraphs)'
                 elif audit <= i <= audit_end:
                     fate = 'left: the hypnosis audit he kept as a list (2c)'
-                elif lt and cr.is_his(lt, mine):
+                elif lt and (cr.is_his(lt, mine) or (len(lt.split()) >= 4 and near(lt, his_s))):
                     fate = 'his own words: to him'
-                elif lt and any(lt in p for p in ic):
+                elif lt and (any(lt in p for p in ic) or (len(lt.split()) >= 4 and near(lt, ic_s))):
                     fate = 'his inner child guide: to him'
                 else:
                     fate = 'Emulate'

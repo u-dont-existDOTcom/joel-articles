@@ -1,0 +1,456 @@
+{
+ "parts": [
+  {
+   "name": "J2 (Core prompts, P8)",
+   "text": "It would have to make sense too. And even with all that, I wouldn’t do anything big or hard to undo until I’m calm and I’ve checked it against what I actually know.",
+   "chance_red": 0.35,
+   "chance_high": 0.25,
+   "why": "a suggestion for his own words of a stretch that read AI on 2026-10-29 (AI (Low), window 3 of part B; AI (High), window 4 of part B); red stays likelier where it read Medium or High",
+   "kind": "changed"
+  },
+  {
+   "name": "J3 (Inner child love, P1)",
+   "text": "If you don’t feel any warmth today, there’s no need to fake it. Just rest your hands there and notice what you find.",
+   "chance_red": 0.35,
+   "chance_high": 0.25,
+   "why": "a suggestion for his own words of a stretch that read AI on 2026-10-29 (AI (Medium), window 58 of part B; AI (High), window 59 of part B); red stays likelier where it read Medium or High",
+   "kind": "changed"
+  },
+  {
+   "name": "J4 (A response check, not a verdict about what it is, P4)",
+   "text": "Just keep an eye on whether the way you’re responding to it helps you get clearer and steadier and less hooked.",
+   "chance_red": 0.35,
+   "chance_high": 0.25,
+   "why": "a suggestion for his own words of a stretch that read AI on 2026-10-29 (AI (High), window 76 of part B); red stays likelier where it read Medium or High",
+   "kind": "changed"
+  },
+  {
+   "name": "T8 (Core prompts, P9)",
+   "text": "You use the prompt to tell your subconscious what you want. The NLP in Appendix B can make getting it safer. Even so, that doesn’t mean whatever answer you get is automatically true.",
+   "chance_red": 0.2,
+   "chance_high": 0.35,
+   "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 5 of part B; AI (Low), window 5 of part B)",
+   "kind": "changed"
+  },
+  {
+   "name": "T9 (Pattern 5: Embedded invitations, P1)",
+   "text": "With an embedded invitation, you tuck a small direction into a longer sentence, and you shouldn’t be hiding a demand in it. The direction should invite a modest shift inside you.",
+   "chance_red": 0.35,
+   "chance_high": 0.25,
+   "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (High), window 9 of part B; AI (High), window 9 of part B); red stays likelier where it read Medium or High",
+   "kind": "changed"
+  },
+  {
+   "name": "T10 (Pattern 6: Ethical double binds, P1)",
+   "text": "A Manipulative Double Bind Question is rigged so that you wind up doing what the speaker wants, whatever answer you give.",
+   "chance_red": 0.2,
+   "chance_high": 0.35,
+   "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 12 of part B)",
+   "kind": "changed"
+  },
+  {
+   "name": "T11 (Pattern 6: Ethical double binds, P2)",
+   "text": "An ethical double bind gives you two ways to go, and both of them are actually safe.",
+   "chance_red": 0.35,
+   "chance_high": 0.25,
+   "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Medium), window 13 of part B); red stays likelier where it read Medium or High",
+   "kind": "changed"
+  },
+  {
+   "name": "T12 (Reframing — changing the meaning without lying, P1)",
+   "text": "Instead, ask yourself questions like What else might be true? or What is this part trying to do for me?",
+   "chance_red": 0.2,
+   "chance_high": 0.35,
+   "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 20 of part B)",
+   "kind": "changed"
+  },
+  {
+   "name": "T13 (What I will not use NLP for, P3)",
+   "text": "I won’t tell anyone to override their fear without first asking what it’s protecting.",
+   "chance_red": 0.2,
+   "chance_high": 0.35,
+   "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 28 of part B)",
+   "kind": "changed"
+  },
+  {
+   "name": "T14 (Body supports, P1)",
+   "text": "You’ve got lots of other options for the body too, like heat, pressure, a weighted blanket, darkness, your favorite calming music, or a massage gun if you’re careful with it, etc. Use whatever actually helps you, and don’t go surrounding the anxiety with a heap of wellness stuff.",
+   "chance_red": 0.35,
+   "chance_high": 0.25,
+   "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 51 of part B; AI (High), window 52 of part B); red stays likelier where it read Medium or High",
+   "kind": "changed"
+  },
+  {
+   "name": "T15 (Inner child love, P1)",
+   "text": "You don’t need to fix it. I’m here now. The adult is here right now to listen to you.” When you say this, really talk to your inner child, who’s scared to death.",
+   "chance_red": 0.35,
+   "chance_high": 0.25,
+   "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 56 of part B; AI (High), window 57 of part B; AI (High), window 57 of part B); red stays likelier where it read Medium or High",
+   "kind": "changed"
+  },
+  {
+   "name": "T16 (Appendix G: Altered states, P3)",
+   "text": "While you’re building a way to reach love on a normal day, let that experience show you what can happen.",
+   "chance_red": 0.2,
+   "chance_high": 0.35,
+   "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 71 of part B)",
+   "kind": "changed"
+  },
+  {
+   "name": "T17 (9. No-trance inner contact, P1)",
+   "text": "Autonomous signal: write down what you get, whether that’s a word, a sensation, an impulse, an objection, or silence, and don’t take it as proof. Deepener: none. Doing the inner contact fully alert doesn’t make it a lesser version. Handoff: have your adult self answer the question however makes sense, ideally by writing something or doing something. Integration/exit: reality test the signal, then act on it in one small way. You didn’t go into trance, so just close the exercise and get on with your day.",
+   "chance_red": 0.2,
+   "chance_high": 0.35,
+   "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 86 of part B; AI (Low), window 87 of part B; AI (Low), window 87 of part B; AI (Low), window 87 of part B; AI (Low), window 88 of part B)",
+   "kind": "changed"
+  },
+  {
+   "name": "the hypnosis audit (kept, 2c)",
+   "text": "Before accepting a recording or live suggestion, ask:\nWas I plainly told that induction mechanics are being used?\nCan at least one answer lead to pause, modification, full alertness, or stopping?\nDoes the speaker treat not noticing as secret proof that the process worked?\nAre roles, ownership, obedience, age, identity, or belonging being used to lower adult judgment?\nAre fractionation, cues, later behavior, or memory effects disclosed before they are used?\nAre ordinary body sensations being turned into evidence for a hidden claim?\nDoes the exit restore ordinary identity, movement, orientation, and critical judgment—and plainly say that the session has ended?\nWhen an answer is unclear, stay fully alert. Ask for the exact script, change the method, or leave.",
+   "chance_red": 0.95,
+   "chance_high": 0.0,
+   "why": "his list, kept by his answer 2c, unchanged: read AI (High) in the last three checks",
+   "kind": "changed"
+  },
+  {
+   "name": "neighbour of J2 (Core prompts, P8): the rest of its paragraph, before it",
+   "text": "Once you get an answer, you can ask: “What can I do in my ordinary life to prove that I heard correctly?” If it tells you to do something, I’d only do it if it’s loving and leaves you free.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of J2 (Core prompts, P8): the paragraph before it",
+   "text": "When you want to know if a particular intuition you have is coming from your universal heart or from your programming: “I ask my wise subconscious mind to help me see if the intuition or impulse I have about …is coming from my universal heart or from my family, my religion, marketing, erotic programming, my political tribe, my trauma response or an old deal I did as a child to belong. If it’s coming from my programming, I ask the parts responsible for it to step back and soften only as much as is safe, so that I can have true guidance from my universal heart that will help me make my life better in the most simple ways possible. Let my body give me feedback as to the difference.”",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of J3 (Inner child love, P1): the paragraph before it",
+   "text": "I have a page on my ZHoly3O product, which is ozonated charcoal, and I talk about this “holy water” as one of the things that can help you relax. (See the mention of Blushield on that page, too.) But neither one of those products is necessary. All you really need is to stabilize yourself, and then listen to the messages from your inner realm, reality test those messages, and then take one grounded action.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of J3 (Inner child love, P1): the paragraph after it",
+   "text": "A script you could use for anxiety is:",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of J4 (A response check, not a verdict about what it is, P4): the rest of its paragraph, before it",
+   "text": "You don’t have to find out if it’s a guard immediately, and you may not be able to comfort it quickly.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of J4 (A response check, not a verdict about what it is, P4): the paragraph before it",
+   "text": "If you feel vulnerable, if you feel tightness in your throat, if you feel sadness or fear or like you’re trying to protect something, call upon your Nurturer. If you don’t feel better, or if it continues being hostile towards you, stop trying to deal with it and return to your body and the room.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of J4 (A response check, not a verdict about what it is, P4): the paragraph after it",
+   "text": "Your first instinct may be to fight it, banish it, hate it, show it that you’re more powerful than it is, argue with it, panic, become your own threatened self in fear of it, etc. Some people may want to use traditional prayer or mantras or protection or banishing or exorcism techniques, and those may well work for them. But if you’re fighting it out of fear…",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T8 (Core prompts, P9): the paragraph after it",
+   "text": "Appendix B - NLP (Neuro-Linguistic Programming)",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T9 (Pattern 5: Embedded invitations, P1): the rest of its paragraph, after it",
+   "text": "ie. “And I can allow myself to experience...”",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T9 (Pattern 5: Embedded invitations, P1): the paragraph before it",
+   "text": "Bridge words are words like ‘as, whilst, because, when, after, before, which means’ etc. These are words that link events. However, even if you say them in a lovely gentle voice it doesn’t mean that it’s true if it isn’t! It’s not very likely that just by breathing in and out that your trauma is going to go away!",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T9 (Pattern 5: Embedded invitations, P1): the paragraph after it",
+   "text": "or, “As I sit here, I may begin to allow myself to become aware...”",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T10 (Pattern 6: Ethical double binds, P1): the paragraph before it",
+   "text": "You can use this, of course, but don’t use ten of them one after the other! People will know that you’ve just come out of some weekend certification course and they won’t feel so safe with you.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T11 (Pattern 6: Ethical double binds, P2): the rest of its paragraph, after it",
+   "text": "Ethical Double Bind Questions might be:",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T11 (Pattern 6: Ethical double binds, P2): the paragraph after it",
+   "text": "“Would you prefer to allow a feeling of warmth to come over you now, or would you prefer a feeling of space?”",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T12 (Reframing — changing the meaning without lying, P1): the rest of its paragraph, before it",
+   "text": "Reframes are dishonest when they make the problem into something that was good all along.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T12 (Reframing — changing the meaning without lying, P1): the rest of its paragraph, after it",
+   "text": "or How might my Nurturer reframe this? or How might my Protector reframe this? or How might my Guide reframe this? etc., etc.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T12 (Reframing — changing the meaning without lying, P1): the paragraph before it",
+   "text": "You can do that by not rehearsing them anymore and by saying to yourself (when you are fully awake) that you don’t want to use synchronicity as a cue anymore (e.g. “From now on, I am no longer going to use noticing synchronicity as a cue for waking up. I let go of this association, coincidences can go back to being just coincidences.”). Saying this is just you deciding, it doesn’t mean the association is gone straight away.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T12 (Reframing — changing the meaning without lying, P1): the paragraph after it",
+   "text": "Here is a rough outline of the NLP tools and techniques I use:",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T13 (What I will not use NLP for, P3): the paragraph before it",
+   "text": "I do not use NLP to talk myself out of a real signal.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T13 (What I will not use NLP for, P3): the paragraph after it",
+   "text": "I do not use NLP for memory retrieval.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T14 (Body supports, P1): the rest of its paragraph, before it",
+   "text": "Work with the body. Sometimes the mind is too activated for meditation to help, so you may need to work directly with the body to calm it down. Maybe get a massage, or massage a foot, your scalp, a temple, or the back of the neck, the top of a shoulder, etc. (Avoid massaging the front of the neck. Also avoid massaging injured or numb body parts, or bruised, inflamed, or recently surgically operated on areas, or varicose veins. Also stop if the massage makes the anxiety symptoms worse, or makes you feel bad in any way, such as painful, dizzy, tingly, etc.)",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T14 (Body supports, P1): the paragraph before it",
+   "text": "Gendlin Focusing: Focusing is another approach where you work with your body. You might say to yourself, “What is the felt sense of this whole anxiety?” Don’t answer with your head; let your body come up with a vague sense of the whole anxiety. Then ask, “What would this felt sense like me to know?” Try a word or a phrase and see how well it fits the felt sense. But also see if what the word or phrase says is true of the situation. The word may feel ok, but say something that doesn’t fit the situation, or vice versa. Use the words and the body to mutually correct one another.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T15 (Inner child love, P1): the rest of its paragraph, before it",
+   "text": "Here is some inner child love. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T16 (Appendix G: Altered states, P3): the rest of its paragraph, before it",
+   "text": "A lot of people have OPENED themselves up to love at one point in their life. If you’ve had a similar experience, know that there is a difference between having experienced it at one point, or only being able to access it in a certain state, and being able to get to it at any point in your life.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T16 (Appendix G: Altered states, P3): the rest of its paragraph, after it",
+   "text": "(If you can’t give that love to the child, try to deal with why you can’t, instead of trying to ramp up the experience. Often it’s a protective part that’s seen love come with strings before. Hear it out first.)",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T16 (Appendix G: Altered states, P3): the paragraph before it",
+   "text": "Do not use altered states to try to FORCE yourself to get to a certain revelation about yourself, but rather to help yourself become more in tune with love and to better your life.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T16 (Appendix G: Altered states, P3): the paragraph after it",
+   "text": "Use your altered state of consciousness, either while you’re in it or after, to help yourself by asking things like:",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T17 (9. No-trance inner contact, P1): the rest of its paragraph, before it",
+   "text": "For the no trance inner contact, I would do: Pacing: notice you can see, it’s (day of the week), you have feet, you can read, you can write, etc. Suggestion: in your mind, ask one clear question and wait, but don’t focus too hard. Choice: you can answer the question, write an answer, write that you don’t know, take a break, rephrase the question, ask someone else, stop doing this, etc.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T17 (9. No-trance inner contact, P1): the paragraph before it",
+   "text": "Resource: pick a resource quality you understand (warmth, boundary, steadiness, curiosity, or dignity). Imagine yourself accessing 1% more of that quality (or, if you prefer, just observe it rather than embody it). What is different? How is your body, voice, etc? Do this a few times to strengthen it. Come back, keeping the quality and one positive action that you would do with it, but leaving the imagined you behind, saying “I am me”.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T17 (9. No-trance inner contact, P1): the paragraph after it",
+   "text": "The personal accounts and the way I arrange this practice are my own, especially adaptations like the one I’m doing here where I am combining body-oriented work and hypnotic work. This combination is not a validated form of treatment at this time.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of the hypnosis audit (kept, 2c): the paragraph before it",
+   "text": "A good guide will make your adult self stronger. A good guide can take no. A bad guide can’t take no. A bad guide wants to take your adult self’s job. A bad guide will try to make your no something that’s bad or needs to be fixed (resistance, ego, fear, low vibration, trauma response, sin, need for more of its guidance, etc).",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of the hypnosis audit (kept, 2c): the paragraph after it",
+   "text": "Remember that often the anxiety comes from a childhood guard part of you. It’s what protects you when your inner adult’s Protector isn’t functioning, the same as in childhood. It’s trying to help, making a guess about what’s coming: that you are in danger, or may be shamed, or abandoned, or fail, or be exposed, or be sick, or be rejected, or lose control, or feel something it believes would be unbearable. It can be right! It’s probably been wrong before too, and you know some of those times. Therefore, instead of interrogating that part, start with yourself:",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "last check's window 7 (Human, Medium, 4 words)",
+   "text": "easier to get to.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 15 (Human, Medium, 2 words)",
+   "text": "Always? Never?",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 26 (Human, Medium, 10 words)",
+   "text": "I do this to see the situation with more accuracy.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 30 (Human, Low, 16 words)",
+   "text": "I do not use NLP to manipulate other people or convince myself an intuition is true.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 31 (Human, Low, 11 words)",
+   "text": "I do not remove pain, hunger, grief, anger, or medical symptoms.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 33 (Human, Medium, 9 words)",
+   "text": "I do not use covert commands in my language.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 37 (Human, Medium, 15 words)",
+   "text": "I don’t have to obey it. I don’t even have to attack it.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 44 (Human, Medium, 6 words)",
+   "text": "Only pause if that’s comfortable.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 46 (Human, Medium, 4 words)",
+   "text": "You learn to track.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 61 (Human, Medium, 26 words)",
+   "text": "If you’re dealing with particularly complicated trauma, blind spots, dissociation, destabilization, or relational wounds that need another nervous system, skilled outside support may be best.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 63 (Human, Low, 19 words)",
+   "text": "“You don’t have to forgive before you’re ready. I won’t use spirituality to silence your pain.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 65 (Human, Medium, 61 words)",
+   "text": "What was the impact? What boundaries need to be set? What shaped the other person(s) into someone capable of that harm? What is theirs? What is mine? What does accountability require? How can I let this go, without denying any of the above?\nFor self-forgiveness, name what you did, but don’t take responsibility for what wasn’t yours.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 67 (Human, Medium, 13 words)",
+   "text": "Then you’re allowed to stop holding yourself hostage, and the responsibility stays.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 69 (Human, Low, 22 words)",
+   "text": "Borrowing them is fine, as long as it’s from someone steady who won’t try to run your trip for you.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 78 (Human, Medium, 14 words)",
+   "text": "Invite the signal/feeling/young part to come only as close as is welcome.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 80 (Human, Medium, 9 words)",
+   "text": "Tell your little one, “That’s enough for today.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  }
+ ],
+ "rest": {
+  "chance_red": 0.25,
+  "why": "any red outside the parts above"
+ }
+}

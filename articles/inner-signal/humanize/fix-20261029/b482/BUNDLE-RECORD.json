@@ -18,20 +18,16 @@
   },
   "HG-Protecting-Yourself-from-Hyp-31": {
    "paragraphs": [
-    "Protecting Yourself from Hypnotists, P2",
-    "Protecting Yourself from Hypnotists, P3"
+    "Protecting Yourself from Hypnotists, P2"
    ],
    "blocks": [
-    31,
-    32
+    31
    ],
    "targets": [
-    "Protecting Yourself from Hypnotists, P2",
-    "Protecting Yourself from Hypnotists, P3"
+    "Protecting Yourself from Hypnotists, P2"
    ],
-   "words": 97,
+   "words": 66,
    "windows": [
-    "AI Low 5 18 words",
     "Human Medium 3 23 words"
    ]
   },
@@ -776,6 +772,6 @@
    ]
   }
  },
- "bundle_sha256": "578d89fd18f66a646c880bce9d316da2fedc1e89bd1b5f7cadc76a885be9e39e",
- "words": 4212
+ "bundle_sha256": "42bf32664f765ff02d481de1973bfe79e080ed15cddcd4019cc3c1edc7674a10",
+ "words": 4181
 }
