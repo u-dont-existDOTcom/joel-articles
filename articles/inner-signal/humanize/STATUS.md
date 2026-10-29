@@ -1,5 +1,35 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-29, after Joel's message of 19:22 UTC (batch 482's recheck links; "26 not sure why you are asking before even checking if you can learn the lessons")
+
+His message, word for word: `fix-20261029/joel-20261029-1922-message.txt`. Pull request 261 was merged at 19:20 UTC.
+
+**Batch 482's recheck, read** (`fix-20261029/b482/recheck/read/`: META, WINDOWS, RESULT rebuilt from the payloads with
+`substack_check_text.py result`, both SHA-256 matched; CONFIDENCE.md; SCORE-A/B.md; HG-whole#77 and HG-rest-B#78 right,
+Mixed). Part A [Mostly Human Written, 2.3% AI](https://www.pangram.com/feed/19fba559-fe64-46a3-92a1-ab87f728b4ba) (try
+12): 158 windows, 20 AI (8 Low, 6 Medium, 6 High), 138 Human (62 High, 58 Medium, 18 Low). Part B
+[Mostly Human Written, 3.9% AI](https://www.pangram.com/feed/82470746-1d28-4ddc-ac19-276ca31c19f2) (try 10): 87 windows,
+13 AI (4 Low, 4 Medium, 5 High, the audit one of them), 74 Human (34 High, 28 Medium, 12 Low). Part forecasts: A 83 of 96
+parts right (Brier 0.105), B 53 of 62 (0.110), no red outside the parts.
+
+**The writers without Emulate** (`spots_482.py`, SPOTS.md): 11 of 21 candidates read Human in place (J1, J4, T3, T11,
+T16 at High; J2, T1, T8, T10 Medium; T13, T14 Low) and 10 still AI (T2, T4, T5, T6, T9, T15, T17 and J3 at High, T12
+Medium, T7 Low). T2, T5, T6, T12 and T17 went from AI Low to AI Medium or High; T7 went from AI High to AI Low. Red moved
+onto 14 windows of words this batch didn't change, all next to rewrites: Why doing it myself P1 (after T2's paragraph,
+the heading between them not in the checked text), the six metaphors section from the line before P1 to P3 (around T5
+and T6), Make the hypnosis more active P1, the no-trance Choice line (T17's paragraph) and "The personal accounts and the
+way I arrange this practice" (after it). The three-jobs line, his Quick start line and the Nimja line read Human; his
+HG-S15 list and the audit read AI as before.
+
+**26 withdrawn; lesson E293** (`docs/HUMANIZATION-GATE.md`; `docs/EMULATE-FALLBACK.md` sections 1 and 6): a question that
+spends his money waits until the free work that could answer it is done (here: the study of the Emulate cases we have,
+and the writers fed with its lessons on the failures). His questions page has no open questions.
+
+Next: when the study (`fix-20261029/emulate-lessons/`) is in, check its pairs against their files, put the shape rules
+that two or more cases back into the writers' brief, and run batch 483 on the 10 spots that still read AI (each from the
+working copy's clear version, the writers shown what read AI in batch 482), read beside his published text, then the
+recheck with batch 482's 11 Human versions in; then his marking page with every version that reads Human and clear.
+
 ## 2026-10-29, after Joel's messages of 18:18 UTC (the recheck's result links) and 18:55 UTC (Emulate: re-up or learn)
 
 His messages, word for word: `fix-20261029/joel-20261029-1818-message.txt` and `fix-20261029/joel-20261029-1855-message.txt`

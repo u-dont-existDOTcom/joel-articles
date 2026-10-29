@@ -18,14 +18,13 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
-- **2026-10-29 18:55 UTC: Emulate, re-up or learn (question 26).** Joel: "emulate is 50k words for $15 per month. i'm not
-  sure it is worth re-upping on it. well maybe it is. and i wonder if we really understood all the lessons from emulate's
-  fixes or if we can learn enough from what we got that we wouldn't need it anymore". The lessons were not fully learned:
-  `docs/EMULATE-FALLBACK.md` section 5 (each case saved, each loud sentence paired with Emulate's replacement by its
-  change in shape) was never carried out. The study of the lane's own Emulate batches is
-  `fix-20261029/emulate-lessons/` (PAIRS.json, LESSONS.md); its shape rules go into the writers' brief. Batch 482's
-  recheck is the test of the writers without Emulate (none of its 21 versions came from it): his choice on 26 waits on it.
-
+- **2026-10-29 19:22 UTC: learn before asking to buy (E293).** Joel had asked at 18:55 whether Emulate ($15 a month for
+  50k words) was worth re-upping and whether we had learned its lessons; I put the purchase to him as question 26, and he
+  answered: "not sure why you are asking before even checking if you can learn the lessons". 26 is withdrawn. The
+  lessons were never mined (`docs/EMULATE-FALLBACK.md` section 5's cases folder doesn't exist); the study of the lane's own
+  Emulate batches is `fix-20261029/emulate-lessons/` (PAIRS.json, LESSONS.md). Batch 482's recheck was the test of the
+  writers without Emulate: 11 of 21 read Human, 10 still AI, 5 of them worse, and red spread onto 14 windows next to the
+  rewrites (`fix-20261029/b482/recheck/read/SPOTS.md`). The next round's writers get the study's shape rules first.
 - **2026-10-29: clarity is never traded for a Pangram reading.** Joel, 17:21 UTC, on question 25: "we never publish
   nonsense because it passes pangram. we come back and we try again if clarity loses on pangram." A clear version that
   reads AI or below High stays in, and the next try has to be both clear and Human, read beside his text first; the
@@ -133,9 +132,8 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: **his two Pangram result links** for the recheck with batch 482's versions in (the secret links are in
-`fix-20261029/b482/recheck/RECHECK-POST-A.json` and `RECHECK-POST-B.json`, and on his questions page), and **question 26**
-(Emulate: re-up or not; my default is to decide after that recheck). The 83 cards of the Hypnosis Guide Editor
+The guide: nothing right now. His questions page has no open questions (26 withdrawn, E293); the next recheck's links
+and his marking page come with batch 483. The 83 cards of the Hypnosis Guide Editor
 (https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) he hadn't marked are retired by the rechecks. The pages his other account published (the old
 marking page TpZbfBZcwuj8PL7KFLhmjP and the "Hypnosis Guide Questions" view 8o79MFm9vSpyMGrAeArZYx) are stale; this
 account can't open or republish them, so point him to `OWNER-QUESTIONS.md` on GitHub.
@@ -225,7 +223,25 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-10-29, after Joel's messages of 18:18 UTC, the recheck's result links, and 18:55 UTC, Emulate: batch 482's recheck is pasted; its Pangram results and question 26 wait on him)
+## Next step (2026-10-29, after Joel's message of 19:22 UTC: batch 482's recheck read; 26 withdrawn; the Emulate lessons study, then batch 483)
+
+His message, word for word: `fix-20261029/joel-20261029-1922-message.txt`. Done (STATUS.md's entry after 19:22 has every
+file): batch 482's recheck read (`fix-20261029/b482/recheck/read/`: RESULT, CONFIDENCE.md, SCORE, SPOTS.md from
+`spots_482.py`; HG-whole#77 and HG-rest-B#78 right); lesson E293; question 26 withdrawn.
+
+Next:
+1. **The Emulate lessons** (`fix-20261029/emulate-lessons/`, a study running in this session; if LESSONS.md isn't
+   there, run it again from `fix-20261029/EMULATE-LESSONS-BRIEF.md`): check its pairs against their files, keep the shape rules two
+   or more cases back, put them into the writers' brief (`fix-20261029/b482/make_targets.py`'s BRIEF, copied into batch
+   483's) and into `docs/EMULATE-FALLBACK.md` section 1, and start `tools/humanization/emulate-cases/` (section 5).
+2. **Batch 483** (`fix-20261029/b483/`): the 10 spots that still read AI (T2, T4, T5, T6, T7, T9, T12, T15, T17 and his J3),
+   each from the working copy's clear version, the writers shown batch 482's version that read AI and the 14 windows that
+   turned red beside them; two versions each, my pick, the comparative read; then the recheck with batch 482's 11 Human
+   versions in as they are (`b482/CANDIDATES.json`), forecast and predicted (HG-whole try 13, HG-rest-B try 11).
+3. **His marking page (REVIEW-483)** after that recheck: every version that reads Human and clear, ours as cards to
+   approve, his own lines (J1, J2, J4 and whatever of J3 passes, the three-jobs line) as cards in his words.
+
+## Earlier next step (2026-10-29, after Joel's messages of 18:18 UTC, the recheck's result links, and 18:55 UTC, Emulate: batch 482's recheck is pasted; its Pangram results and question 26 wait on him)
 
 His messages, word for word: `fix-20261029/joel-20261029-1818-message.txt` and `fix-20261029/joel-20261029-1855-message.txt`.
 Done (pull request [261](https://github.com/u-dont-existDOTcom/joel-articles/pull/261); STATUS.md's entry of 2026-10-29 after 18:18 and 18:55 has every file):
