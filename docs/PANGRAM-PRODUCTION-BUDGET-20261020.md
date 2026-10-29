@@ -8,6 +8,8 @@ This is the normative `joel-articles` production testing policy. The Pangram lab
 
 **ACTIVE; supersedes the earlier two-try paragraph ceiling.** A paragraph may require a sequence of **up to six new Pangram submissions total** when resolving one failing sentence reveals a *different* failing sentence in Pangram 4.1's shading. **Six is a safety ceiling, never a target or prepaid allowance.** Stop at the first point the worker lacks a clear, specific, faithful reason to test again.
 
+**Clarity is never traded for a reading (Joel, 2026-10-29 17:21 UTC; gate E291):** "we never publish nonsense because it passes pangram. we come back and we try again if clarity loses on pangram." A try is admitted only in a version a reader can follow, read beside his text (gate E284); when the clear version still reads AI or below High, it stays in the article and the next try is owed, never a return to the unclear version that read Human.
+
 **New submission admission after any failed result:**
 
 - First inspect the exact recorded GUI sentence shading, actual verdict and *real contiguous* context. Name the precise target sentence(s) still red or suspiciously light green; distinguish a **newly exposed sentence** from the **same unchanged failure**. The latter must not be rebranded as a new issue or a new paragraph.
