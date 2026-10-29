@@ -1,5 +1,38 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-29, after Joel's message of 22:23 UTC (batch 483's recheck links; "ok give me the cards i'll fix everything and then you can learn")
+
+His message, word for word: `fix-20261029/joel-20261029-2223-message.txt`. Pull request 262 was merged at 22:19 UTC.
+
+**Batch 483's recheck, read** (`fix-20261029/b483/recheck/read/`: META, WINDOWS and RESULT as before, both SHA-256
+matched; `confidence_483.sh` writes CONFIDENCE.md/json and SCORE-A/B.md; `spots_483.py` writes SPOTS.json/md; HG-whole#79
+and HG-rest-B#80 right, Mixed). Part A [Mostly Human Written, 3.4% AI](https://www.pangram.com/feed/d7900092-2691-46bd-b76a-d2043526509c)
+(try 13): 150 windows, 23 AI (10 Low, 6 Medium, 7 High), 127 Human (60 High, 52 Medium, 15 Low). Part B
+[Mostly Human Written, 4.1% AI](https://www.pangram.com/feed/845b60a9-9b58-4824-bc34-29cb1e395efa) (try 11): 81 windows,
+12 AI (3 Low, 4 Medium, 5 High, the audit one of them), 69 Human (32 High, 25 Medium, 12 Low). Part forecasts: A 59 of 82
+parts right (Brier 0.205, 2 red windows outside the parts), B 39 of 46 (0.123).
+
+**The writers with the shape rules from Emulate's fixes: 2 of 11** read Human in place (T2 High, his J5 Low); the other 9
+read AI at High (T4, T5, T6, T9, T15, J3 and T17 as in batch 482; T7 and T12 worse, from Low and Medium). Batch 482's 11
+Human versions all read Human again (T3, J1, T10, T11, J4 High; T1, J2, T8 Medium; T13, T14, T16 Low). Red on words
+nobody changed: 26 windows, 13 of them red in batch 482's recheck too (the audit among them) and 13 new (part A: "It's all
+just soup", Before you begin P3 and P4, Make the hypnosis more active, the two-hand and sleep inductions; part B: the
+reframing questions' Nurturer line, "Here is some inner child love.", Appendix K's "not a validated form of treatment").
+Against batch 482 (11 of 21), the lessons didn't carry the residue: what passed was an outcome list said as what you
+notice in yourself (T2) and a list moved into brackets (J5); definitions (T7, T9), the script (T15, J3), the labelled steps
+(T17), the borrowed-adulthood disclaimer (T4) and short instructions (T5, T6, T12) did not. Question 26 stays withdrawn (Joel is rewriting them himself; E293).
+
+**His cards page** ([Hypnosis Guide Cards](https://claude.ai/artifact/SxZ3CYESSGw1KWJp46mRAG), published from this
+account with db and downloads; `fix-20261029/b483/review/build_page_483.py` writes REVIEW-483.json, .html,
+.artifact.html and .md): 28 cards on `HUMANIZED-SO-FAR.md` as it is. 13 to approve (9 ours, "Reads Human now"; 4 his
+lines with a suggestion, "Your own words": J1, J2, J4, J5), each with how its words read before and how the new version
+read in place (both rechecks for batch 482's), and the comparative read. 9 "For you to rewrite" (one per paragraph that
+still reads AI: R-96, R-237, R-238, R-289, R-509, R-561, R-630, R-755, and the audit), each with the paragraph as both
+tries read and how they read, plus any other words of the paragraph that read AI in the latest recheck. 6 "Reads AI,
+not tried yet" (N-65, N-239, N-243, N-276, N-282, N-757): the rest of the red on unchanged words, by stretch. Its
+decisions collection was empty at publishing. `tools/humanization/suggestion_review.py`'s card text now takes
+`[name](https://...)` links and line breaks (test added), so a card names each Pangram check by its part.
+
 ## 2026-10-29 20:15 UTC: the Emulate lessons, and batch 483 pasted
 
 **What Emulate's fixes teach** (`fix-20261029/emulate-lessons/`: LESSONS.md, PAIRS.json, build/; the brief is

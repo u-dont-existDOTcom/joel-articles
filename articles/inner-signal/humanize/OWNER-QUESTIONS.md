@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-29 20:15 UTC, after batch 483 (the writers with the lessons from Emulate's fixes).
-**Open questions: 0.** **For you to do**: run Pangram on the new recheck's two links. The questions are at the top, with
+Last updated 2026-10-29, after batch 483's recheck (your links of 22:23 UTC) and your cards page.
+**Open questions: 0.** **For you to do**: mark the cards page. The questions are at the top, with
 their options and my default; under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠
 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -10,10 +10,9 @@ read and update it. Every file it points to is a link.
 
 ## Open questions
 
-None right now. Question 26 (Emulate) stays withdrawn until this recheck shows whether the writers pass without it.
-
-**🔵 Next: the recheck's result.** Then your marking page: every version that reads Human and clear (batch 482's 11 and
-whatever passes now), ours as cards to approve, the suggestions for your own lines beside your words.
+None right now. Question 26 (Emulate) stays withdrawn: you're rewriting the hard places yourself, and what your versions
+teach comes before any purchase (E293). If the rest still won't read Human after that, I'll bring 26 back with what your
+versions showed.
 
 **🔵 On hold: the 83 cards of [the 27 October editor page](https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) you hadn't marked** (questions 21 to 23). The guide has
 changed under them, so the rechecks decide: a window that still reads below High in the guide as it is now gets a new
@@ -22,11 +21,33 @@ mark them.
 
 ## For you to do
 
-- 🟠 **Run Pangram on the new recheck's two drafts** (the same two drafts, now with batch 483's versions and batch 482's
-  that read Human): open each link in your Chrome, click the Pangram label next to the author's name twice, then "View
-  Full Analysis", and send me the result's link ("Copy shareable link to result"):
-  - [Part A, the guide](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-29c&audience=only_paid&free_preview=false&freemail=) (TEMP recheck A; Pangram reads its first 99,999 characters; try 13)
-  - [Part B, from Your functioning in ordinary life is the feedback to the end](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-29c&audience=only_paid&free_preview=false&freemail=) (TEMP recheck B; try 11)
+- 🟠 **Mark [Hypnosis Guide Cards](https://claude.ai/artifact/SxZ3CYESSGw1KWJp46mRAG)** (your guide as it is in Git, every card on it; [the same cards as
+  text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/b483/review/REVIEW-483.md)):
+  - **13 new versions that read Human** where they stand in the latest recheck: 9 of ours to approve, and 4 suggestions
+    for lines of your own, beside your words. Approve, Reject or Revise.
+  - **9 places for you to rewrite**: words that still read AI after the writers tried twice (each card shows both tries
+    and how they read). One of them is your audit list.
+  - **6 more places that read AI** in the latest recheck, on words nobody has tried a new version of yet.
+
+  Your answers save as you click. When you're done, click **Copy my answers** (or **Save them as a file**) and send them
+  to me.
+
+## Your message of 2026-10-29 22:23 UTC, and what I did
+
+Your message, word for word: [22:23](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/joel-20261029-2223-message.txt).
+
+- 🟢 **Batch 483's recheck, read.** Part A: [Mostly Human Written, 3.4% AI](https://www.pangram.com/feed/d7900092-2691-46bd-b76a-d2043526509c) (try 13): 150 windows,
+  23 AI (10 Low, 6 Medium, 7 High), 127 Human (60 High, 52 Medium, 15 Low). Part B: [Mostly Human Written, 4.1%
+  AI](https://www.pangram.com/feed/845b60a9-9b58-4824-bc34-29cb1e395efa) (try 11): 81 windows, 12 AI (3 Low, 4 Medium, 5 High, the audit one of them), 69 Human (32 High,
+  25 Medium, 12 Low) ([each spot](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/b483/recheck/read/SPOTS.md); [every window, with its
+  confidence](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/b483/recheck/read/CONFIDENCE.md)).
+- 🟢 **The writers with the lessons from Emulate's fixes: 2 of 11 read Human** (the five outcomes as things you notice in
+  yourself, High; your "All of these" sentence with its list in brackets, Low). The other 9 read AI at High: 7 as
+  their first try did, and 2 worse (fractionation and reframing had read Low and Medium). Batch 482's 11 versions that read
+  Human last time all read Human again. Besides those, 26 windows of words nobody changed read AI, 13 of them Human in the
+  recheck before. The shape rules weren't enough for those 9, so they're yours on the cards page, and your versions are what the
+  next lessons come from.
+- 🟢 **Your cards**: [Hypnosis Guide Cards](https://claude.ai/artifact/SxZ3CYESSGw1KWJp46mRAG), above.
 
 ## Batch 483, after the lessons (2026-10-29 20:15 UTC)
 

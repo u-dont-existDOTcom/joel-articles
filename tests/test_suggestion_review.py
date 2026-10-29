@@ -220,6 +220,15 @@ class PasteSafeTests(unittest.TestCase):
 
 
 class ReaderBriefTests(unittest.TestCase):
+    def test_card_text_links_by_name_and_keeps_line_breaks(self):
+        h = R.linked('Read AI in the check (see [part A](https://www.pangram.com/feed/abc)).\nTry 1, read AI <High> at '
+                     'https://example.com/x.')
+        self.assertIn('<a href="https://www.pangram.com/feed/abc" target="_blank" rel="noopener noreferrer">part A</a>)', h)
+        self.assertIn('<br>Try 1', h)
+        self.assertIn('&lt;High&gt;', h)
+        self.assertIn('<a href="https://example.com/x" target="_blank" rel="noopener noreferrer">https://example.com/x</a>.', h)
+        self.assertNotIn('[part A]', h)
+
     def test_the_brief_says_a_referent_right_before_is_clear(self):
         """E264: the reader flagged "do that" right after "remove anything from laws of nature"; Joel, 14:40: ""do that" is
         clearly referring to "remove anything from the laws of nature" directly before it"."""
