@@ -32,9 +32,13 @@ more words brought back from his published version, the AI-written one); `tools/
 FORECAST-A.json (182 parts) and FORECAST-B.json (133). Ledger: HG-whole#75 (AI, 0.15 chance of 100% Human) and
 HG-rest-B#76 (AI, 0.03: the audit).
 
-**Stopped at the paste.** Substack is signed out in the desktop app's browser: the drafts API answers 403 and the
-publication's page shows "Sign in". I never sign in, so the drafts (222109105, 221412532) weren't touched. On his
-questions page: sign in there (my pick), or connect Claude in Chrome in his Chrome. Pull request 259.
+**The paste, after his "i signed in" (17:53 UTC).** At first Substack was signed out in the desktop app's browser (the
+drafts API answered 403; pull request 259 went out with the recheck waiting on that). After he signed in: both drafts
+cleared in the editor (ctrl+a, Delete), pasted with `fix-20261022/screen/paste_payload_lane.js` from commit 2fa3b7b5
+(SHA-256 checked; editor words +34 and +25, as every paste of parts A and B), saved, and read through their secret links
+with `tools/humanization/substack_rendered_check.js`: part A's first 99,999 characters hash to TEXT-A.txt's SHA-256, and
+part B, with its web-app card line left out as before, to TEXT-B.txt's (RECHECK-POST-A.json, RECHECK-POST-B.json). The
+two links are on his questions page; the results come back as feed links.
 
 ## 2026-10-28, after Joel's messages of 15:20 UTC ("the guide itself is now too incomprehensible") and 16:05 UTC ("repair the process durably")
 
