@@ -1,5 +1,36 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-30, after Joel's answers of 14:35 UTC (the cards page answered; "your "pevious" button brouught me to the bottom of the page")
+
+His message, word for word: `fix-20261030/joel-20261030-1435-message.txt`; his answers file, word for word:
+`fix-20261029/b483/review/ANSWERS-20261030-1435.json`; his card comments: `fix-20261030/joel-20261030-1435-comments.txt`.
+
+**His answers are in** (`fix-20261029/b483/review/apply_answers_483.py`, APPLIED-483.json): 9 cards approved (T2, T3,
+J1, J2, T10, T11, T13, T14, J4) and 19 in his own versions (T1, J5, T8, T16, N-65, R-96, R-237, R-238, N-239, N-243,
+N-276, N-282, R-289, R-509, R-561, R-audit, R-630, R-755, N-757). Eight obvious typos fixed and listed ("telecaster" for
+"teleprompter", "can make help smooth", "subsconscious", "awarenes", "sutble", three double spaces). Taken off his text:
+the headings he typed above two versions (the guide has them), "this passes:" around R-630, and of R-755's three versions
+the one he marked 100% High went in. Kept and asked: N-243's second paragraph ("Deciding to do it: ...", with how to stop),
+which his version didn't include. His R-96 comment done: the next paragraph starts "First, access your witnessing
+position". The four paragraphs with a typo fix or that change, read by me beside his file
+(`fix-20261030/applied/read/`, E294); the comparison gate passes.
+
+**The Previous button** (`fix-20261030/previous-button/`): it went to the last undecided card above and, with every card
+above decided, wrapped round to the last one on the page. Now it goes to the card before (decided or not), and at the
+first card it stays. Checked in a browser, old and new side by side; test added; suggestion_review.py 1.4.
+
+**His lessons**: E294 (the read beside his text is done by the lead model, not Sonnet; the readers of batches 482 and 483
+ran on Sonnet, as `compare_read.py`'s brief said, and missed "in waking life", "the verb" for "one central verb", the
+words-as-signal mix-up, "make into" for "declare"; Emulate's "scared to death" for the "frightened" it was sent was
+missed by every check since 2026-10-18), E295 (a card says "reads Human" only at High), E296 (his fixes: add clarity,
+break a list or a long run with a line that sounds different, an example from life, say who does it; his tells: "one" for
+"a", "proof", "secretly/silently", the passive: O46, O43, O47, O48 in `tells_lint.py`, W97 to W100 and J68 in the
+registry), E297 (an exercise is given once). The read instructions in `compare_read.py`, `docs/CLARITY-READ.md` and
+`docs/FIXING-AN-ARTICLE.md` say the lead model now.
+
+**Next, in progress**: my own read of the whole guide beside the published version (errors like "in waking life", lost or
+confused meaning, missing commas, invented content, repeated exercises), then his page.
+
 ## 2026-10-29, after Joel's message of 22:23 UTC (batch 483's recheck links; "ok give me the cards i'll fix everything and then you can learn")
 
 His message, word for word: `fix-20261029/joel-20261029-2223-message.txt`. Pull request 262 was merged at 22:19 UTC.

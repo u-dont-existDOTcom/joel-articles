@@ -882,6 +882,15 @@ EVAL_OPINION = re.compile(r"\bI\s+(?:really\s+|kind of\s+|sort of\s+|actually\s+
 EVAL_IN_SOURCE = re.compile(r"\bI\s+(?:\w+\s+){0,2}(?:like|love|admire|appreciate|enjoy|adore|prefer|hate|dislike|respect|glad|happy)\b", re.I)
 
 
+# O48: a form of "be" or "get" and a past participle (regular "-ed", or a common irregular one), with an adverb allowed between
+# ("is being used", "are disclosed", "was quietly told"); adjectives that end in -ed ("is interested") are counted too, which is
+# why the check is a REVIEW for a run of three or more in a paragraph, not a FAIL.
+PASSIVE = re.compile(r"\b(?:am|is|are|was|were|be|been|being|get|gets|got|gotten|getting)\s+(?:\w+ly\s+)?(?:being\s+)?"
+                     r"(?:\w+ed|told|given|taken|made|done|seen|known|shown|held|kept|left|lost|found|brought|bought|caught|"
+                     r"taught|thought|sold|built|sent|spent|put|set|led|said|paid|meant|felt|heard|written|driven|hidden|"
+                     r"chosen|broken|spoken|forgotten|forgiven|drawn|grown|thrown|worn|torn|born|borne)\b", re.I)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('draft'); ap.add_argument('--source')
@@ -966,6 +975,7 @@ def main():
         openers.append(' '.join(words(nss[0])[:1]).lower() if ss else '')
         para_mine.append(any(mine_s))
         imps = 0
+        passives = 0   # O48: passive verbs in my sentences
         plists = []   # (mine, excerpt) for each list of three outside a quote (E125)
         checked = any(m and RESEARCH_NOTE.search(without_quotes(x)) for x, m in zip(nss, mine_s))   # O23: the paragraph narrates a check
         for i, s in enumerate(ss):
@@ -1055,6 +1065,43 @@ def main():
                      'prove""): say what it does show, or cut it', s)
             elif re.search(r"\b(?:isn't|aren't|is not|are not)\s+proof\b", n, re.I):
                 flag('REVIEW', 'O43 "isn\'t proof" (Joel 2026-10-18 named "not proof that" a high-frequency AI tell): say what it is instead', s)
+            # Joel, 2026-10-30 14:35 UTC, on the hypnosis guide's no-trance steps ("without interpreting it as proof"): ""proof"..
+            # "it's not proof" "that doesn't prove" ... high freq AI". "it's not proof" fails with "doesn't prove"; any other "proof"
+            # or "prove" in my sentence is a REVIEW: say what it shows, or what to do with it.
+            if re.search(r"\b(?:it's|that's|this is|it is|that is|this isn't|it isn't|that isn't)\s+(?:not\s+)?(?:\w+\s+)?proof\b(?!\s+(?:that|of))", n, re.I) \
+                    and re.search(r"\bnot\b|n't\b", n[:n.lower().find('proof')], re.I):
+                flag('FAIL', 'O43 "it\'s not proof" (Joel 2026-10-30: ""proof".. "it\'s not proof" "that doesn\'t prove" ... high freq AI"): say what '
+                     'it is, or what to do with it', s)
+            elif re.search(r"\b(?:as|secret|any|no|real)\s+proof\b|\bproof\s+(?:that|of)\b|\bproves?\b|\bproving\b", n, re.I) \
+                    and not re.search(r"\bnot proof (?:that|of)\b|\b(?:doesn't|does not|don't|do not|didn't|did not)\s+(?:\w+\s+)?prove\b", n, re.I):
+                flag('REVIEW', 'O43 "proof"/"prove" (Joel 2026-10-30: ""proof".. "it\'s not proof" "that doesn\'t prove" ... high freq AI"): say what '
+                     'it shows instead, unless proving is the subject', s)
+            # O46 (Joel, 2026-10-30 14:35 UTC, on the same steps' "do one small thing based on it" and "ask one clear question": "AI
+            # overuses "one" where humans often say "an" or "a". add that to the list of high freq tells. especially "one small
+            # thing""). "one small thing/step" fails; "one" before a describing word and a noun, where "a" or "an" would do, is a
+            # REVIEW: it stays when the count is the point ("one metaphor, not six").
+            if re.search(r"\bone (?:small|little|tiny|simple) (?:thing|step|action|act|move|change|task)s?\b", n, re.I):
+                flag('FAIL', 'O46 "one small thing" (Joel 2026-10-30: "AI overuses "one" where humans often say "an" or "a" ... especially "one '
+                     'small thing""): "a small thing", or say the thing', s)
+            elif re.search(r"(?<!\bat )(?<!\bno )(?<!\bonly )(?<!\bjust )\bone (?:small|little|tiny|simple|clear|single|quick|short|concrete|"
+                           r"specific|fitting|real|honest|gentle|good|true|steady|careful|brief|plain|direct) (?!of\b|or\b|at a time\b)[a-z]+",
+                           n, re.I):
+                flag('REVIEW', 'O46 "one" where "a" or "an" would do (Joel 2026-10-30: "AI overuses "one" where humans often say "an" or "a""): '
+                     'keep "one" only when the count is the point', s)
+            # O47 (Joel, 2026-10-30 14:35 UTC, on "so no answer can secretly mean "deeper"": ""secretly/silently" is an AI tell btw,
+            # AI always using those words"). Like "quietly" (O42), they fail in my text, unless "silently" says how something is
+            # said or read ("read it silently").
+            for mq in re.finditer(r"\b(?:secretly|silently)\b", n, re.I):
+                before = words(n[:mq.start()])[-3:]
+                if mq.group(0).lower() == 'silently' and any(re.fullmatch(r"(?:read|reads|reading|say|says|saying|count|counting|"
+                                                                          r"repeat|repeating|speak|speaking|mouth|recite)", x, re.I)
+                                                              for x in before):
+                    continue
+                flag('FAIL', 'O47 "%s" (Joel 2026-10-30: ""secretly/silently" is an AI tell btw, AI always using those words"): say what '
+                     'actually happens, or take it out' % mq.group(0).lower(), s)
+                break
+            # O48 (Joel, 2026-10-30 14:35 UTC: "passive voice overuse also high freq AI"): counted per paragraph, below.
+            passives += len(PASSIVE.findall(n))
             # O44 (Joel, 2026-10-21 17:56, on the hypnosis guide's return steps, where "one honest action" among what you go back to
             # had read AI in every wording of his: "especially "ONE HONEST ACTION" sounds super ai. i never heard a real person say
             # that in my life.").
@@ -1218,6 +1265,9 @@ def main():
         if ss and len(words(nss[-1])) <= 9 and mine_s[-1]:
             para_final_short += 1; flag('REVIEW', 'B7 short landing at paragraph end', ss[-1])
         if imps >= 2: imper_heavy += 1; flag('REVIEW', 'E23 paragraph of instructions', p[:90] + '...')
+        if passives >= 3:
+            flag('REVIEW', 'O48 passive voice in %d places (Joel 2026-10-30: "passive voice overuse also high freq AI"): say who does it, as he '
+                 'does ("Is the hypnotist using ..." for "Are roles ... being used")' % passives, p[:90] + '...')
         # O27: rough edges in my text, never in his lines or installed ones (JOEL-FIXES-CATALOGUE: "Rough edges he leaves:
         # typos, double spaces, missing periods. These come from typing. They aren't something for me to imitate.")
         spans, seen = sentence_spans(p, ss), set()

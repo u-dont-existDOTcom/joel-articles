@@ -1,0 +1,182 @@
+{
+ "answers": "ANSWERS-20261030-1435.json",
+ "answers_sha256": "55a964c3360207670464e84ec01014bcc05093d5b634fead76a2baf325c37951",
+ "before_sha256": "6e5256d4db49572df7d241f8bc6a7cbe1a4785b4adb2595bea2704959da9a737",
+ "after_sha256": "d97ac3ad820e4f4caa8e591595ee50d4a87a349a96a607ecc782a71d6786ae05",
+ "fates": {
+  "T1": "his version",
+  "J5": "his version",
+  "T2": "approved: the card's version went in",
+  "N-65": "his version",
+  "T3": "approved: the card's version went in",
+  "R-96": "his version",
+  "R-237": "his version",
+  "R-238": "his version",
+  "N-239": "his version",
+  "N-243": "his version",
+  "N-276": "his version",
+  "N-282": "his version",
+  "R-289": "his version",
+  "J1": "approved: the card's version went in",
+  "J2": "approved: the card's version went in",
+  "T8": "his version",
+  "R-509": "his version",
+  "T10": "approved: the card's version went in",
+  "T11": "approved: the card's version went in",
+  "R-561": "his version",
+  "T13": "approved: the card's version went in",
+  "R-audit": "his version",
+  "T14": "approved: the card's version went in",
+  "R-630": "his version",
+  "T16": "his version",
+  "J4": "approved: the card's version went in",
+  "R-755": "his version",
+  "N-757": "his version"
+ },
+ "notes": {
+  "T1": [
+   "typo fixed (a slip of the word: a news anchor reads from a teleprompter): \"reading from a telecaster like\" -> \"reading from a teleprompter like\""
+  ],
+  "J5": [
+   "his version replaces the whole paragraph, so its four factors (conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent) and \"People have their minds influenced without the conscious agreement of their adult self.\" are gone: told him once"
+  ],
+  "N-65": [],
+  "R-96": [
+   "his comment: the next paragraph now starts \"First, access your witnessing position\""
+  ],
+  "R-237": [
+   "his version began with the section's heading, which the guide already has: left out",
+   "typo fixed (a typo): \"out of the subsconscious\" -> \"out of the subconscious\""
+  ],
+  "R-238": [],
+  "N-239": [],
+  "N-243": [
+   "his version had one paragraph for the card's two; it replaced the first (\"Put yourself in a place …\"), and the second (\"Deciding to do it: …\", with how to stop the induction) stays as it is until he says to cut it"
+  ],
+  "N-276": [
+   "his first paragraph ends \"Say something like,\" and the script follows on the next line: two paragraphs, as in the guide"
+  ],
+  "N-282": [
+   "his four paragraphs go in the card's four places (the heading \"Sleep induction\" stays between the second and the third); only the first changed"
+  ],
+  "R-289": [],
+  "T8": [
+   "typo fixed (a leftover word): \"can make help smooth\" -> \"can help smooth\""
+  ],
+  "R-509": [],
+  "R-561": [],
+  "R-audit": [
+   "typo fixed (a double space): \"the script,  or stopping\" -> \"the script, or stopping\"",
+   "typo fixed (a typo): \"my lack of awarenes of\" -> \"my lack of awareness of\"",
+   "each line of his lists is a paragraph of its own in the guide, as the audit's lines were"
+  ],
+  "R-630": [
+   "his version came as: this passes: \"…\"; the words inside the quotation marks went in"
+  ],
+  "T16": [
+   "typo fixed (a double space): \"that experience  you had\" -> \"that experience you had\"",
+   "typo fixed (a double space): \"with strings  or get revoked\" -> \"with strings or get revoked\""
+  ],
+  "R-755": [
+   "he sent three versions (one Human at about 70% High and the rest Medium, one 100% High Human, one AI); the 100% High one went in",
+   "typo fixed (a typo): \"aware of the sutble inner signal\" -> \"aware of the subtle inner signal\""
+  ],
+  "N-757": [
+   "his version began with the appendix's heading, which the guide already has: left out"
+  ]
+ },
+ "typos": [
+  {
+   "card": "T1",
+   "was": "reading from a telecaster like",
+   "now": "reading from a teleprompter like",
+   "why": "a slip of the word: a news anchor reads from a teleprompter"
+  },
+  {
+   "card": "T8",
+   "was": "can make help smooth",
+   "now": "can help smooth",
+   "why": "a leftover word"
+  },
+  {
+   "card": "T16",
+   "was": "that experience  you had",
+   "now": "that experience you had",
+   "why": "a double space"
+  },
+  {
+   "card": "T16",
+   "was": "with strings  or get revoked",
+   "now": "with strings or get revoked",
+   "why": "a double space"
+  },
+  {
+   "card": "R-237",
+   "was": "out of the subsconscious",
+   "now": "out of the subconscious",
+   "why": "a typo"
+  },
+  {
+   "card": "R-audit",
+   "was": "the script,  or stopping",
+   "now": "the script, or stopping",
+   "why": "a double space"
+  },
+  {
+   "card": "R-audit",
+   "was": "my lack of awarenes of",
+   "now": "my lack of awareness of",
+   "why": "a typo"
+  },
+  {
+   "card": "R-755",
+   "was": "aware of the sutble inner signal",
+   "now": "aware of the subtle inner signal",
+   "why": "a typo"
+  }
+ ],
+ "links_dropped": [],
+ "changed_blocks": [
+  19,
+  32,
+  63,
+  65,
+  68,
+  96,
+  97,
+  237,
+  238,
+  239,
+  243,
+  276,
+  277,
+  282,
+  283,
+  285,
+  286,
+  289,
+  385,
+  480,
+  481,
+  509,
+  514,
+  515,
+  561,
+  576,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  627,
+  630,
+  685,
+  713,
+  755,
+  757
+ ]
+}

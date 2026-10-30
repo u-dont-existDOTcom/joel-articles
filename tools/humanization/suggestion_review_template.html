@@ -195,7 +195,7 @@ body.reading .card{display:none}
   <div class="bar gut">
     <span class="name">__TITLE__</span>
     <span class="prog" id="prog" aria-live="polite"></span>
-    <button type="button" class="btn" id="prevBtn" title="The undecided suggestion before this point">↑ Previous</button>
+    <button type="button" class="btn" id="prevBtn" title="The card before this one">↑ Previous</button>
     <button type="button" class="btn main" id="nextBtn" title="The next suggestion you haven't decided">Next undecided ↓</button>
     <button type="button" class="btn" id="toolsBtn" aria-expanded="false" aria-controls="tools">Filters</button>
     <button type="button" class="btn" id="saveBtn" aria-expanded="false" aria-controls="savePanel">Save / send</button>
@@ -465,16 +465,25 @@ __MAIN__
   function undecided(c) { const id = c.dataset.id; return isAsk(id) ? !(get(id).comment || '').trim() : get(id).status === 'pending'; }
   function step(dir) {
     if (document.body.classList.contains('reading')) { document.body.classList.remove('reading'); $('#readingMode').checked = false; }
-    const list = visibleCards().filter(undecided);
-    if (!list.length) { $('#prog').insertAdjacentText('beforeend', ' · nothing undecided in view'); return; }
-    const topLine = 130;
+    const topLine = 130;   // just under the sticky bar: a card scrolled to with goTo() stands at scroll-padding-top (120px)
     if (dir > 0) {
+      const list = visibleCards().filter(undecided);
+      if (!list.length) { $('#prog').insertAdjacentText('beforeend', ' · nothing undecided in view'); return; }
       const next = list.find(c => c.getBoundingClientRect().top > topLine + 4) || list[0];
       goTo(next);
-    } else {
-      const prev = list.slice().reverse().find(c => c.getBoundingClientRect().top < topLine - 4) || list[list.length - 1];
-      goTo(prev);
+      return;
     }
+    // Previous: the card before the one you're on, decided or not, and never a jump to the bottom. (Joel, 2026-10-30, after
+    // going through the cards in order: "your "pevious" button brouught me to the bottom of the page": it went to the last
+    // undecided card above, and with every card above decided it wrapped round to the last one on the page.)
+    const all = visibleCards();
+    const above = all.filter(c => c.getBoundingClientRect().top < topLine + 4);
+    if (!above.length) { $('#prog').insertAdjacentText('beforeend', ' · this is the first card'); return; }
+    const cur = above[above.length - 1];
+    // inside a long card (its top well above the bar): back to its start first; at its start: the card before it
+    const target = cur.getBoundingClientRect().top < topLine - 60 ? cur : above[above.length - 2];
+    if (!target) { $('#prog').insertAdjacentText('beforeend', ' · this is the first card'); return; }
+    goTo(target);
   }
   $('#nextBtn').addEventListener('click', () => step(1));
   $('#prevBtn').addEventListener('click', () => step(-1));

@@ -220,6 +220,17 @@ class PasteSafeTests(unittest.TestCase):
 
 
 class ReaderBriefTests(unittest.TestCase):
+    def test_previous_goes_to_the_card_before_and_never_wraps_to_the_bottom(self):
+        # Joel, 2026-10-30: "your "pevious" button brouught me to the bottom of the page" (with every card above decided,
+        # it wrapped round to the last undecided card on the page); the browser check is fix-20261030/previous-button/
+        page = R.page(review([]), MD, R.blocks(MD))
+        step = page[page.index('function step(dir)'):page.index("$('#nextBtn').addEventListener")]
+        prev = step[step.index('// Previous'):]
+        self.assertNotIn('list[list.length - 1]', prev)
+        self.assertNotIn('filter(undecided)', prev)
+        self.assertIn('this is the first card', prev)
+        self.assertIn('title="The card before this one"', page)
+
     def test_card_text_links_by_name_and_keeps_line_breaks(self):
         h = R.linked('Read AI in the check (see [part A](https://www.pangram.com/feed/abc)).\nTry 1, read AI <High> at '
                      'https://example.com/x.')

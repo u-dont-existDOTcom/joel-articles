@@ -49,8 +49,9 @@ A short piece, a typo fix or a one-paragraph change doesn't need it.
    reading text, the parts (split at headings, about 30,000 characters each) and a brief for each part. The brief carries
    Joel's own fixes as the examples of what counts (`tools/humanization/clarity_examples.json`; add one each time he fixes a
    passage for clarity, with his words).
-2. Give each `BRIEF-k.txt` to a fresh reader: a new agent that has seen nothing else (Sonnet is enough; Opus for an article
-   whose argument is technical). Each writes `READER-k.md`: each passage, what's hard, a score (3: most readers wouldn't get
+2. Give each `BRIEF-k.txt` to a reader of the lead session's own model (Opus), never a cheaper one (gate E294; Joel,
+   2026-10-30: "looks like you need to read everything again yourself (not sonnet)"): the lead session itself, or a fresh
+   agent on the same model that has seen nothing else. Each writes `READER-k.md`: each passage, what's hard, a score (3: most readers wouldn't get
    it; 2: most would have to reread; 1: a small snag) and a plainer version.
 3. `clarity_read.py collect DIR` puts them in `ITEMS.json`, each found in the article (or marked not found). When the
    read is run again (a fixed brief, more readers), pass the earlier run with `--prior EARLIER_DIR`: every finding the

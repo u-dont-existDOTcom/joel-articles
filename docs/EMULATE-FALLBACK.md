@@ -133,6 +133,19 @@ string options on "or"; ask a framed test directly once; break runs of three; fo
 a published point stays in the paragraph's shape; no new idioms or wrap-ups; carry every qualifier across a join; saying
 an item in full is fine). Every lane's writers' brief carries them from now on; batch 483 is their first test.
 
+**Batch 483's result, and what Joel's own fixes did instead (2026-10-30).** The writers given those rules got 2 of 11 of
+the hardest stretches to read Human, so Joel rewrote the rest himself ("ok give me the cards i'll fix everything and then
+you can learn"); nine of his versions he reports as passing Pangram on his own checks. What his versions do, in his words
+(`articles/inner-signal/humanize/fix-20261030/joel-20261030-1435-comments.txt`; gate E296): they **add clarity rather
+than compress** ("uncompress all the lists and add explanation"; "adds clarity, and breaks apart and reverses the X not Y
+ai pattern and overly efficient unclear phrasing"); they **break a list or a long run with a line that sounds different**
+(a bridge, "Continuing with the job interview:", with the line before it: "both required"; a joke, "Hopefully your name
+didn't suddenly change to Larry."); they **give an example from life** where an abstraction stood (the TikTok sign-up for
+the kinds of consent; "It's good nobody loves me, because I'm happier alone" for a dishonest reframe); and they **say who
+does it** instead of the passive ("Is the hypnotist using ..."). These are the writers' first rules now, ahead of the
+eleven above, because they keep the meaning and add to it, where Emulate's passing came from dropping it. The study of
+each of his versions beside both writers' tries comes after his versions are rechecked in place.
+
 ## 2. When to use Emulate
 
 Use it only when all of these hold:
