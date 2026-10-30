@@ -1,5 +1,58 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-30, after Joel's message of 20:15 UTC (the recheck's two result links; "ok i opened the pr"; "i guess we need to go back and re-read the community article as well after this then")
+
+His message, word for word: `fix-20261030/joel-20261030-2015-message.txt`.
+
+**The recheck read** (`fix-20261030/recheck/read/`: WINDOWS and META from his result pages, RESULT-A/B.json from
+`make_results.py`, CONFIDENCE.md, SCORE-A/B.md, SPOTS.md from `spots_30.py`):
+- Part A ([fc1d8dae](https://www.pangram.com/feed/fc1d8dae-ed2b-4050-9c0b-5c1571dc3548), try 14): Mostly Human Written,
+  1.3% AI; 175 windows, 8 AI (6 Low, 2 High), 167 Human (73 High, 69 Medium, 25 Low). The last check had 23 AI.
+- Part B ([48eed31c](https://www.pangram.com/feed/48eed31c-7ff5-4392-887c-92663cd6aea8), try 12): 2.3% AI; 75 windows,
+  6 AI (1 Low, 3 Medium, 2 High), 69 Human (33 High, 29 Medium, 7 Low). The last check had 12 AI.
+- HG-whole#81 and HG-rest-B#82 (both "AI, 0.02") were right.
+- His versions of 30 October: 36 of their 37 paragraphs read Human in place, 19 at High; his audit Human throughout (8
+  windows High, 3 Medium). The one AI is R-509, in a window that starts with my restored better-bridge line.
+- Appendix C's list, rewritten with his strategy: Human (4 High, 1 Medium). My suggestions: S-24 and S-782 High, S-14
+  and S-20 Medium.
+- My fixes, by kind: garbled-sentence fixes 1 AI in 80 readings; restored points 4 in 19. 8 of the 14 AI windows sit on
+  restored points (F1.10, F10.1, F10.2, F11.5, F14.4, F14.5, F14.6, and F12.1's neighbours), and words beside them that
+  read High or Medium on 29 October read AI this time (the double binds, the weekend line, the "Show me" asks).
+
+**Lessons** (`docs/HUMANIZATION-GATE.md`): E301 (read every change to a paragraph and every earlier verdict before
+restoring a point: F1.10 brought back a line he cut on 25 October, card RP-1.4; F10.1 and F11.5 brought back points my
+28 October check had found said already), E302 (a restored point brings AI back, and the red spreads to words nobody
+changed), E303 (what his versions do that the writers' tries didn't; `recheck/read/HIS-STUDY.md` from `his_study.py`).
+The writers' first rules: `docs/EMULATE-FALLBACK.md` section 1; `docs/FIXING-AN-ARTICLE.md` step 6 points to them.
+`tools/humanization/compare_read.py`: `collect` gives each finding `changes`, every commit that changed its paragraph
+with the sentences it dropped and added (on F1.10 it shows the 25 October cut); tested in `tests/test_compare_read.py`.
+
+**The tries** (`fix-20261030/tries/`: `make_tries.py`, TRIES.json, CANDIDATE-MASTER.md; my read of each beside his
+published version in `tries/read/READ.md` and READ-RECORD.json): T-35, T-337 and T-374 take the restored sentences back
+out; T-339 (F10.2), T-495 (F7.7), T-249 (F8.1), T-503 (F14.6), T-505 (F14.4) and T-508 (F14.5) are new tries in his shape;
+S-162 and S-382 are suggestions for his words; S-14, S-20, S-24 and S-782 stay in. `tells_lint.py --installed` on the new
+sentences: only the long sentences, the six forms said as a spoken list, "even" where it means something, and his three
+"Show me" asks. HUMANIZED-SO-FAR.md is unchanged.
+
+**The next recheck** (`tries/make_recheck.py`, `make_changed.py`): built (merge PASS), forecast (FORECAST-A.json 36 parts,
+4.05 expected red; FORECAST-B.json 15 parts, 2.5), predicted (HG-whole#83, try 15, AI at 0.02; HG-rest-B#84, try 13, AI
+at 0.04), pushed (pull request [264](https://github.com/u-dont-existDOTcom/joel-articles/pull/264), commit a17f58b8), pasted
+into both drafts and checked as rendered (`tries/RECHECK-POST-A.json`: the first 99,999 characters equal TEXT-A;
+`-B.json`: RENDERED-B.txt, TEXT-B with the card line and R-561's quote). The drafts saved at 21:03 and 21:04 UTC, and the
+two links went to him right after.
+
+**The universal architecture's pull request 450** (he opened it): its audit wanted this task's checkpoint, and then the
+checkpoint-format tests wanted the gate results recorded with status and counts; both pushed
+(`claude/judgment-is-not-residue`, c8f008f). All checks pass; merging is his.
+
+**The community article** (his "re-read the community article as well after this"): most of its meaning reads ran on
+Sonnet (its STATUS.md's delegation lines: the traces and cold reads of sections 10 to 16, the caveat readers, the eight
+Emulate-check readers of 25 October). Its live post matches `master.md` paragraph for paragraph ("Updated: Oct 25 2026").
+The full read is set up for after this round's cards page:
+`articles/intentional-communities/candidate/fullread-20261030/PLAN.md` (ten parts).
+
+Delegations (model, piece, check, outcome): none; every read this turn was the lead session's own.
+
 ## 2026-10-30, after Joel's answers of 14:35 UTC (the cards page answered; "your "pevious" button brouught me to the bottom of the page")
 
 His message, word for word: `fix-20261030/joel-20261030-1435-message.txt`; his answers file, word for word:
