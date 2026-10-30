@@ -1,0 +1,1337 @@
+{
+ "about": "Fix what my own read of the whole guide found (FINDINGS.json, 122 findings), and record each finding's fate.",
+ "before_sha256": "d97ac3ad820e4f4caa8e591595ee50d4a87a349a96a607ecc782a71d6786ae05",
+ "after_sha256": "975fdb3c2ac7d4a92856683866cf14d758cbf907e6ec408d605ceec3a1faed2b",
+ "changed": [
+  {
+   "block": 11,
+   "where": "Introduction, P3",
+   "findings": [
+    "F1.1"
+   ],
+   "before": "Yet no one taught those layers to talk to each other, instead you were taught (or you figured out) that the way to grow up and be an adult is to push through, repress, suppress, pretend you’re confident, follow authority, go against authority, etc etc etc, and mind you, the deeper mind is still running all of the programs it’s running: child mind, guard mind (childhood protector parts, the protective reactions learned as a child), body mind, intuitive mind, fantasy mind (trying to become guidance mind), etc etc",
+   "after": "Yet no one taught those layers to talk to each other. Instead you were taught (or you figured out) that the way to grow up and be an adult is to push through, repress, suppress, pretend you’re confident, follow authority, go against authority, etc etc etc. And mind you, the deeper mind is still running all of the programs it’s running: the child mind wanting to feel safe, the guard mind bracing for danger (childhood protector parts, the protective reactions learned as a child), the body mind remembering what your intellect explained away, the intuitive mind speaking up before you have the words, and the fantasy mind trying to become guidance mind, etc etc."
+  },
+  {
+   "block": 12,
+   "where": "Introduction, P4",
+   "findings": [
+    "F1.2"
+   ],
+   "before": "While a lot of the teachings on hypnosis talk about the subconscious mind like it’s one giant machine you just have to put the right commands into in order to get it to do what you want, for me, the most useful thing to do is sit and listen to the different parts of myself until they can all be heard.",
+   "after": "While a lot of the teachings on hypnosis talk about the subconscious mind like it’s one giant machine you just have to put the right commands into in order to get it to do what you want, for me, the most useful thing to do is sit and listen to the different parts of myself until they can all be heard, without any of them grabbing the microphone."
+  },
+  {
+   "block": 23,
+   "where": "Do you usually think in words?, P1",
+   "findings": [
+    "O47"
+   ],
+   "before": "Before choosing a script, notice: do you talk to yourself in your head -- silent words & phrases -- a lot, some, little, never? Does it vary when you plan, remember, reflect, or feel upset? If it doesn't come naturally, can you make yourself think in words, silently? (Thinking in words doesn't mean you hear them.)",
+   "after": "Before choosing a script, notice: do you talk to yourself in your head -- silent words & phrases -- a lot, some, little, never? Does it vary when you plan, remember, reflect, or feel upset? If it doesn't come naturally, can you make yourself think in words? (Thinking in words doesn't mean you hear them.)"
+  },
+  {
+   "block": 31,
+   "where": "Protecting Yourself from Hypnotists, P2",
+   "findings": [
+    "F1.8"
+   ],
+   "before": "Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers know this perfectly well. In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers. The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.",
+   "after": "There are many ways to influence people that never go through their conscious mind. Marketers and interface designers know this perfectly well. In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers. The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests."
+  },
+  {
+   "block": 35,
+   "where": "Protecting Yourself from Hypnotists, P6",
+   "findings": [
+    "F1.10"
+   ],
+   "before": "With self-hypnosis you can train your own mind from the inside, by befriending and listening to the deeper part of your mind. This opens up a whole new area of choice for you as an adult in the world.",
+   "after": "Ads, screens, fear and cravings are already training your mind, and so are your tribe, the people in authority, loneliness and plain old repetition. With self-hypnosis you can train your own mind from the inside, by befriending and listening to the deeper part of your mind. This opens up a whole new area of choice for you as an adult in the world."
+  },
+  {
+   "block": 51,
+   "where": "Hypnosis Evidence, P1",
+   "findings": [
+    "F2.1"
+   ],
+   "before": "Is there REAL (not magical) evidence for Hypnosis? Yes. In 2024 there has been an overview of 49 meta-analyses containing a total of 261 distinct primary studies. Evidence was strongest for pain, medical procedures, and work with children and adolescents, but varied with different outcomes and study design quality.",
+   "after": "Is there REAL (not magical) evidence for Hypnosis? Yes. In 2024, there was an overview of 49 meta-analyses containing a total of 261 distinct primary studies. Evidence was strongest for pain, medical procedures, and work with children and adolescents, but varied with different outcomes and study design quality."
+  },
+  {
+   "block": 52,
+   "where": "Hypnosis Evidence, P2",
+   "findings": [
+    "F2.2"
+   ],
+   "before": "Is there evidence for Self-Hypnosis? Yes. There has been a systematic review of Randomized Controlled Trials of self-hypnosis, finding benefit in studies of pain, childbirth, pediatric, stress, anxiety etc. Self-hypnosis seemed more useful when done as a real self-skill several times, not just listening to an audio file.",
+   "after": "Is there evidence for Self-Hypnosis? Yes. There has been a systematic review of Randomized Controlled Trials of self-hypnosis, finding benefit in studies of pain, childbirth, children, stress, anxiety etc. Self-hypnosis seemed more useful when done as a real self-skill several times, not just listening to an audio file."
+  },
+  {
+   "block": 55,
+   "where": "What to Use Self-Hypnosis For, and What Not To, P1",
+   "findings": [
+    "F2.3"
+   ],
+   "before": "The Mayo Clinic warns that using hypnosis to deal with earlier life stressful events may invoke strong emotions and that there are other types of treatments that may be more helpful with historical trauma.",
+   "after": "The Mayo Clinic warns that using hypnosis to deal with earlier life stressful events may bring up strong emotions and that there are other types of treatments that may be more helpful with historical trauma."
+  },
+  {
+   "block": 61,
+   "where": "Forget the left-brain/right-brain cartoon, P3",
+   "findings": [
+    "F2.5"
+   ],
+   "before": "The mind of love and the mind of analysis can BOTH be there - warmth and brightness. The mind of intuition and the mind of rationality can BOTH be there - intuitive signals without dogma, and testing of those signals without killing them. The body can have a voice - saying yes or no or not yet. The imagination can have opened up the field and then the adult can choose what to do next in the real world…. It can be peaceful but also precise.",
+   "after": "The mind of love and the mind of analysis can BOTH be there - warmth and brightness. The mind of intuition and the mind of rationality can BOTH be there - intuitive signals without dogma, and testing of those signals without killing them. The body can have a voice - saying yes or no or not yet. The imagination can open up the field, and then the adult can choose what to do next in the real world. It can be peaceful but also precise."
+  },
+  {
+   "block": 62,
+   "where": "Forget the left-brain/right-brain cartoon, P4",
+   "findings": [
+    "F2.4"
+   ],
+   "before": "Without the mind of love the mind of analysis can be sterile. Without the mind of analysis the mind of love can lead to fantasy. Without testing intuitive signals they can become delusions. Without intuitive signals the testing can be dead. So these modes can correct each other.",
+   "after": "Without the mind of love, the mind of analysis can be sterile. Without the mind of analysis, the mind of love can lead to fantasy. Without testing, intuitive signals can become delusions. Without intuitive signals, the testing can be dead. So these modes can correct each other."
+  },
+  {
+   "block": 73,
+   "where": "Why doing it myself worked better for me, P9",
+   "findings": [
+    "F2.6",
+    "F2.7"
+   ],
+   "before": "In the same vein, self-hypnosis seemed to extend a short chrunga trip for what felt like a long time, and it feels like if I needed to I could have continued for an arbitrary amount of time. It only ended because life needed me to talk to people, etc. Phenomenologically, this is very important. I'm not recommending that anyone prolong an altered state forever, because it's better to integrate, etc.",
+   "after": "In the same vein, self-hypnosis seemed to extend a short chrunga trip for what felt like a long time, and it felt like, if I needed to, I could have continued for an arbitrary amount of time. It only ended because life needed me to talk to people, etc. Phenomenologically, this is very important. I'm not recommending that anyone prolong an altered state forever, though. It's better to integrate it into your life than to try to live inside it."
+  },
+  {
+   "block": 77,
+   "where": "A useful map of the mind, P2",
+   "findings": [
+    "F3.1"
+   ],
+   "before": "Working with parts: Precision. Working with Higher Self: Coherence. Doing both: Communion.",
+   "after": "Working with parts gives you precision, and working with the Higher Self gives you coherence. Communion is going back and forth between the two."
+  },
+  {
+   "block": 80,
+   "where": "A useful map of the mind, P5",
+   "findings": [
+    "F3.2"
+   ],
+   "before": "If you need to work with the ecology in the subconscious (child parts, guards, critic, fantasy making parts, body memories, social part, spiritual part (God/source/best benefit of all beings part) wiser part etc etc) then:",
+   "after": "If you need to work with the ecology in the subconscious, notice what each part wants: the child parts usually want love, the guards want you safe, the critic wants you to meet some standard, the fantasy making parts are after possibility, body memories want to be recognized, the social part wants to belong, the spiritual part wants God or source or what’s best for all beings, and the wiser part just wants what’s true. Then:"
+  },
+  {
+   "block": 82,
+   "where": "A useful map of the mind, P7",
+   "findings": [
+    "F3.3"
+   ],
+   "before": "b) Move into differentiation. “Which part is afraid? Which part wants to protect you? Which part wants to avoid it? Which part knows what to do? Which part is too young for this?” Etc.",
+   "after": "b) Move into differentiation. “Which part is afraid? Which part wants to protect you? Which part wants to avoid the whole thing? Which part knows what to do? Which part is too young for this?” Etc."
+  },
+  {
+   "block": 98,
+   "where": "When the adult role is not available yet, P4",
+   "findings": [
+    "F3.4"
+   ],
+   "before": "If you have a safe adult in your life you can borrow from them, if not borrow from a mentor, older brother/sister, imagine your future self, your god/goddess or higher power, a value you have, a plan you have written, etc. It’s ok to just borrow what you need right now, warmth or a boundary or direction, just like you would borrow a cup of sugar from a neighbor.",
+   "after": "If you have a safe adult in your life, you can borrow from them. If not, borrow from a mentor, an older brother/sister, your imagined future self, your god/goddess or higher power, a value you have, a plan you have written, etc. It’s ok to just borrow what you need right now, warmth or a boundary or direction, just like you would borrow a cup of sugar from a neighbor."
+  },
+  {
+   "block": 99,
+   "where": "When the adult role is not available yet, P5",
+   "findings": [
+    "F3.6"
+   ],
+   "before": "Next, put on your adult hat as if you are an apprentice adult and do or say what you think you should do or say. You should do at least part of what you think you should do or say.",
+   "after": "Next, put on your adult hat as if you are an apprentice adult, and pick the words or the action yourself. Then do at least part of it."
+  },
+  {
+   "block": 103,
+   "where": "When the adult role is not available yet, P9",
+   "findings": [
+    "F3.7",
+    "F3.8"
+   ],
+   "before": "It can be helpful to use borrowing when you’re in the adult position and not knowing what a decent adult would do, especially when the child doesn’t trust you and every response you can think of is retaliating, defending your goodness, collapsing or leaving. How would a decent adult hear that distrust? Borrow that one response. You may still feel young when you do it, it’s okay, feeling like an adult can come after you act like one.",
+   "after": "It can be helpful to use borrowing when you’re in the adult position and don’t know what a decent adult would do, especially when the child doesn’t trust you and every response you can think of is retaliating, defending your goodness, collapsing or leaving. How would a decent adult hear that distrust? Borrow that one response. You may still feel young when you do it. Feeling like an adult can come after you act like one."
+  },
+  {
+   "block": 105,
+   "where": "Let the child speak without handing over the steering wheel, P1",
+   "findings": [
+    "F3.9"
+   ],
+   "before": "You can choose to let the parts of you that feel younger express themselves without handing over the adult part of you to the caretaker in another person or without actually going back in age. In this way, you can access all of the positive aspects of what it can be like to feel younger such as feeling wonder, silliness, approaching things through the senses more, feeling it’s ok to be vulnerable, to let someone take care of you, to feel need, and to want to offload some decision making, while your adult part stays present.",
+   "after": "You can choose to let the parts of you that feel younger express themselves. That doesn’t mean handing your adult judgment over to someone else to take care of you, or actually going back in age. In this way, you can access all of the positive aspects of what it can be like to feel younger such as feeling wonder, silliness, approaching things through the senses more, feeling it’s ok to be vulnerable, to let someone take care of you, to feel need, and to want to offload some decision making, while your adult part stays present."
+  },
+  {
+   "block": 113,
+   "where": "Instead of blame, P1",
+   "findings": [
+    "O43"
+   ],
+   "before": "Be aware of what you are teaching your other positions. For example, are you teaching your little one that you are going to love them no matter what? Or are you teaching them that it is their responsibility to believe your love for them, and that if they don't, it is their fault? Is it two separate positions, one making the vow to love your little one no matter what, and the other blaming your little one for not taking in your love? Or is it one position doing both of these things? Or are you blending them? Their age might not be your chronological age. Both talk in your grown-up voice, so to your little one they're the same. Be careful not to take the blaming as proof your love really is conditional, when it could just be another part talking.",
+   "after": "Be aware of what you are teaching your other positions. For example, are you teaching your little one that you are going to love them no matter what? Or are you teaching them that it is their responsibility to believe your love for them, and that if they don't, it is their fault? Is it two separate positions, one making the vow to love your little one no matter what, and the other blaming your little one for not taking in your love? Or is it one position doing both of these things? Or are you blending them? Their age might not be your chronological age. Both talk in your grown-up voice, so to your little one they're the same. Be careful not to take the blaming to mean your love really is conditional, when it could just be another part talking."
+  },
+  {
+   "block": 117,
+   "where": "The two-hand practice, P1",
+   "findings": [
+    "F4.1"
+   ],
+   "before": "There is a simple and easy body technique to connect with your inner child. Just place one hand in the center of your chest which is physically connecting you to your love and then place your other hand just below that, on your solar plexus, where your child can be.",
+   "after": "There is a simple and easy body technique to connect with your inner child. Just place one hand in the center of your chest, which physically connects you to your love, and then place your other hand just below that, on your solar plexus, where your child can be."
+  },
+  {
+   "block": 120,
+   "where": "The Nurturer, P1",
+   "findings": [
+    "F4.2"
+   ],
+   "before": "The Nurturer: Some of the work you can do as the Nurturer is to enjoy your inner child. You don't have to move their feelings, just sit back and enjoy their company. Be happy that they are there. Children need to be enjoyed! Say things to your inner child like:",
+   "after": "The Nurturer: Some of the work you can do as the Nurturer is to enjoy your inner child. You don't have to try to make their feelings go away. Just sit back and enjoy their company. Be happy that they are there. Children need to be enjoyed! Say things to your inner child like:"
+  },
+  {
+   "block": 129,
+   "where": "The Protector, P2",
+   "findings": [
+    "F4.3"
+   ],
+   "before": "A lot of times, inner child work doesn't work because people are doing all the fluffy stuff but then they go and text the person who is destabilizing them, or they don't eat, or they don't do whatever it is they're supposed to be doing.",
+   "after": "A lot of times, inner child work doesn't work because people are doing all the fluffy stuff, but then they go and text the person who is destabilizing them, or they don't eat, or they don't do whatever it is they're supposed to be doing. Your inner child starts to trust you when you start taking care of those things."
+  },
+  {
+   "block": 151,
+   "where": "Protection that knows when to stop scanning, P4",
+   "findings": [
+    "F5.1"
+   ],
+   "before": "set boundaries (start with one and make it relative to the danger; move, stop, delay, ask, leave, get support, etc.)",
+   "after": "set boundaries (start with one and keep it in proportion to the danger; move, stop, delay, ask, leave, get support, etc.)"
+  },
+  {
+   "block": 152,
+   "where": "Protection that knows when to stop scanning, P5",
+   "findings": [
+    "F5.2"
+   ],
+   "before": "verify if it is safe enough",
+   "after": "verify if it is safe enough (you don't need perfect certainty, just enough real-world evidence to take the next step)"
+  },
+  {
+   "block": 156,
+   "where": "Inner child reparenting, P1",
+   "findings": [
+    "F5.3"
+   ],
+   "before": "I see a lot of connection between reparenting therapy and self hypnosis. They fit well together, though I’d learn to do inner-child therapy sober first, in your ordinary mindstate, since that’s the one you’ll be living in, and get enough Nurturer and Protector in the room before you go deep. When you go into hypnosis the child might come to you. You might see that child in any form. It can be an image, a posture, a voice, a memory, an emotion, etc. It can be any age. It can be any vulnerable part of you. It doesn’t even have to be a child, if there is no child there, just work with a guard or whatever you find.",
+   "after": "I see a lot of connection between reparenting therapy and self hypnosis. They fit well together, though I’d learn to do inner-child therapy sober first, in your ordinary mindstate, since that’s the one you’ll be living in, and get enough Nurturer and Protector in the room before you go deep. When you go into hypnosis the child might come to you. You might see that child in any form. It can be an image, a posture, a voice, a memory, an emotion, etc. It can be any age. It can be any vulnerable part of you. It doesn’t even have to be a child. If there is no child there, just work with a guard or whatever you find."
+  },
+  {
+   "block": 160,
+   "where": "Don’t rush the repair, P3",
+   "findings": [
+    "F5.4"
+   ],
+   "before": "It can be anything. What does the child need? warmth, to play, to be protected, to mourn, to be angry, food, rest, boundaries, better relationships, to stop fantasizing, to stop working their butt off, that you keep a promise to them today, etc. etc.",
+   "after": "What does the child need? It can be anything: warmth, to play, to be protected, to mourn, to be angry, food, rest, boundaries, better relationships, to stop fantasizing, to stop working their butt off, that you keep a promise to them today, etc. etc."
+  },
+  {
+   "block": 164,
+   "where": "Don’t rush the repair, P7",
+   "findings": [
+    "F5.5"
+   ],
+   "before": "C. Ask them what you can do or if you can move closer to them. If you feel like you already know what they need, ask if they'd prefer warmth, space, verbal reassurance, silence, distance, whatever.",
+   "after": "C. Ask them what you can do or if you can move closer to them. Even if you feel like you already know what they need, ask if they'd prefer warmth, space, verbal reassurance, silence, distance, whatever."
+  },
+  {
+   "block": 165,
+   "where": "Don’t rush the repair, P8",
+   "findings": [
+    "F5.6"
+   ],
+   "before": "D. Give them what you can- don't feel like you have to fix it all.",
+   "after": "D. Give them what you can: pick a need and do the smallest thing that would help. Don't feel like you have to fix it all."
+  },
+  {
+   "block": 168,
+   "where": "Don’t rush the repair, P11",
+   "findings": [
+    "F5.7"
+   ],
+   "before": "G. Rest, and reconnect with them later to see what was helpful.",
+   "after": "G. Stop and rest before the caring turns into another performance, and reconnect with them later to see what was helpful."
+  },
+  {
+   "block": 169,
+   "where": "Don’t rush the repair, P12",
+   "findings": [
+    "F5.8"
+   ],
+   "before": "Remember the goal isn't to make yourself good as new but to make yourself good as you- more supported and connected to yourself. If you don't like the idea of part work or it makes you feel more divided, you can substitute whatever part you're working with for a signal or a feeling, or an imaginary younger you that you feel embodies the issue you're having.",
+   "after": "Remember the goal isn't to make yourself good as new but to make yourself good as you- more supported and connected to yourself. If you don't like the idea of part work or it makes you feel more divided, you can work with a signal or a feeling instead of a part, or with an imaginary younger you that you feel embodies the issue you're having."
+  },
+  {
+   "block": 172,
+   "where": "Play and rest still need an adult present, P2",
+   "findings": [
+    "F5.9"
+   ],
+   "before": "Now, before you get to resting, it’s okay to limit the amount of decisions you are going to be making for a certain amount of time, it’s okay to put the things you might not get to on a list and it’s okay to let your inner adult keep watch for a while.",
+   "after": "Resting doesn’t mean you have to become helpless. It’s okay to limit the number of decisions you are going to be making for a certain amount of time, it’s okay to put the things you might not get to on a list, and it’s okay to let your inner adult keep watch for a while. You can still move, stop and come back whenever you need to."
+  },
+  {
+   "block": 176,
+   "where": "When “your voice” is everybody else’s voice, P1",
+   "findings": [
+    "F6.1"
+   ],
+   "before": "It can be difficult to connect with your inner child if your inner child didn’t have the opportunity to develop. This happens often when you grow up in a situation where you don’t have a private self, for example when a controlling family, a rigid religion or an enmeshed community takes over very early in your life. Or you are pushed to achieve very early in life. The result is that you don’t know what you feel, what you want, what you believe, what you like and dislike until you have heard someone else’s opinion about it. If you are in that situation, it can be difficult to follow the advice to ‘love yourself’. You don’t even know who ‘yourself’ is! So you can do reparenting and finding yourself in parallel. For others, it is very easy to work with the inner child, they can feel it easily.",
+   "after": "It can be difficult to connect with your inner child if your inner child didn’t have the opportunity to develop. This happens often when you grow up in a situation where you don’t have a private self, for example when a controlling family, a rigid religion or an enmeshed community takes over very early in your life. Or you are pushed to achieve very early in life. The result is that you don’t know what you feel, what you want, what you believe, what you like and dislike until you have heard someone else’s opinion about it. If you are in that situation, it can be difficult to follow the advice to ‘love yourself’. You don’t even know who ‘yourself’ is! So you can do reparenting and finding yourself in parallel. For others, it is very easy to work with the inner child because they can feel it right away."
+  },
+  {
+   "block": 185,
+   "where": "When “your voice” is everybody else’s voice, P10",
+   "findings": [
+    "F6.2"
+   ],
+   "before": "One way of explaining this is that in your childhood you didn’t spend enough attention in finding out what you like and what you want to try out and who you are when nobody is grading you. You were too busy avoiding pain, reading what was dangerous and what you had to do to stay in a good bond, etc.",
+   "after": "One way of explaining this is that your childhood didn’t leave you much room for finding out what you like, what you want to try out and who you are when nobody is grading you. You were too busy avoiding pain, reading what was dangerous and what you had to do to stay in a good bond, etc."
+  },
+  {
+   "block": 198,
+   "where": "Belonging without betraying yourself, P1",
+   "findings": [
+    "F6.4"
+   ],
+   "before": "When you are a child you feel that you need to belong to the family in order to survive. This is why people do things for their family, religion, romantic partner, political tribe, spiritual group, institution, online community etc., that they wouldn’t otherwise do. Part of adulting is working out where you are selling yourself in order to belong and choosing your own ground, and finding out you can disappoint someone and not disappear. A large part of your subconscious mind is made out of other people. That is why you are reading a self hypnosis guide!",
+   "after": "When you are a child you feel that you need to belong to the family in order to survive. This is why people do things for their family, religion, romantic partner, political tribe, spiritual group, institution, online community etc., that they wouldn’t otherwise do. Part of adulting is working out where you are selling yourself in order to belong and choosing your own ground, and finding out you can disappoint someone and not disappear. A large part of your subconscious mind is made out of other people. That is why belonging gets a section in a self hypnosis guide!"
+  },
+  {
+   "block": 206,
+   "where": "Belonging without betraying yourself, P9",
+   "findings": [
+    "F6.5"
+   ],
+   "before": "And then look what your body tells you. It is not always correct, but it is a good place to start.",
+   "after": "And then notice what your body tells you. It is not always correct, but it is a good place to start."
+  },
+  {
+   "block": 209,
+   "where": "De-hypnosis: wake up inside the influence, P2",
+   "findings": [
+    "F6.6"
+   ],
+   "before": "Manipulation often comes with any of the following: urgency, you are special, FOMO (fear of missing out), not being included, sexual charge, shame, confused, someone will rescue you, destiny, you should obey, secret knowledge, an excessive sense of certainty about something way too quickly, and a sense that one good question will break the spell.",
+   "after": "Manipulation often comes with any of the following: urgency, feeling special, FOMO (fear of missing out), the threat of not being included, sexual charge, shame, confusion, the promise that someone will rescue you, destiny, pressure to obey, secret knowledge, an excessive sense of certainty about something way too quickly, and a sense that one good question will break the spell."
+  },
+  {
+   "block": 212,
+   "where": "If you sense you are being influenced, P2",
+   "findings": [
+    "F6.7",
+    "O48"
+   ],
+   "before": "Secondly, some of the ways that hypnotic language is used to manipulate are where you have consented to something without realizing it, where you are given only one choice, or where something not yet agreed upon is embedded in a sentence. For example;",
+   "after": "Secondly, here are some of the ways people use hypnotic language to manipulate: you consent to something without realizing it, you only get one choice, or someone slips something you never agreed to into a sentence. For example:"
+  },
+  {
+   "block": 214,
+   "where": "If you sense you are being influenced, P4",
+   "findings": [
+    "F6.7"
+   ],
+   "before": "If you are unsure, you may like to ask yourself the following questions;",
+   "after": "If you are unsure, you may like to ask yourself the following questions:"
+  },
+  {
+   "block": 215,
+   "where": "If you sense you are being influenced, P5",
+   "findings": [
+    "O48"
+   ],
+   "before": "What am I being asked to agree to? What choice am I being given? What is being assumed that I may not agree with? Who benefits if I comply? What is the emotionally charged part of what is being said? What is not being said? If I say no, what will the consequences be? (Will I be punished, shamed, laughed at, not be included, be told I am not ‘awake’ etc?)",
+   "after": "What are they asking me to agree to? What choice are they giving me? What are they assuming that I may not agree with? Who benefits if I comply? What is the emotionally charged part of what they’re saying? What are they leaving out? If I say no, what will the consequences be? (Will they punish me, shame me, laugh at me, leave me out, tell me I’m not ‘awake’ etc?)"
+  },
+  {
+   "block": 216,
+   "where": "If you sense you are being influenced, P6",
+   "findings": [
+    "F6.7"
+   ],
+   "before": "A good guide leaves your adult more present. The more powerful the state the stronger the boundaries you will need.",
+   "after": "A good guide leaves your adult more present. The more powerful the state, the stronger the boundaries you will need."
+  },
+  {
+   "block": 218,
+   "where": "Soft language can still take away choice, P1",
+   "findings": [
+    "F7.1"
+   ],
+   "before": "Be aware that even when using permissive language, you can still take away the subject’s choice. Be aware of;",
+   "after": "Be aware that even when using permissive language, you can still take away the subject’s choice."
+  },
+  {
+   "block": 226,
+   "where": "Soft language can still take away choice, P9",
+   "findings": [
+    "F7.2"
+   ],
+   "before": "7) Including suggestions for amnesia, or making a subject think that something (dream, amnesia, imagery, body experiences etc) has happened when this may not necessarily be the case.",
+   "after": "7) Including suggestions for amnesia, or using dreams, gaps in memory, imagery, body experiences etc as evidence to make a subject think that something has happened when this may not necessarily be the case."
+  },
+  {
+   "block": 228,
+   "where": "Soft language can still take away choice, P11",
+   "findings": [
+    "F7.3"
+   ],
+   "before": "In order for a subject to be making a REAL choice whilst in a hypnosis, there MUST be at least one way for a subject NOT to carry on with the hypnosis if they wish. This could be by making the hypnosis lighter, using a different method of hypnosis, being in full awareness whilst in a hypnosis, or being able to pause or stop the hypnosis. Just so you know, if you say no, you are quite entitled to mean NO, even if someone with a nice voice is asking you to do something! Also, just because you don't say anything, or don't know what to say, DOES NOT mean yes!",
+   "after": "In order for a subject to be making a REAL choice whilst in hypnosis, there MUST be at least one way for a subject NOT to carry on with the hypnosis if they wish. This could be by making the hypnosis lighter, using a different method of hypnosis, being in full awareness whilst in hypnosis, or being able to pause or stop the hypnosis. Just so you know, if you say no, you are quite entitled to mean NO, even if someone with a nice voice is asking you to do something! Also, just because you don't say anything, or don't know what to say, DOES NOT mean yes!"
+  },
+  {
+   "block": 229,
+   "where": "Soft language can still take away choice, P12",
+   "findings": [
+    "F7.4"
+   ],
+   "before": "(see appendix C for a longer version of the de hypno)",
+   "after": "(see appendix C for a longer version of the de-hypnosis checklist)"
+  },
+  {
+   "block": 231,
+   "where": "Induction: gathering attention without disappearing, P1",
+   "findings": [
+    "F7.5"
+   ],
+   "before": "Inductions serve to gather you up so you can access quiet stuff. They're not about surrendering or playing asleep or obeying someone. Sometimes it's nice to do an actual induction if you're sober but distracted or analytical or otherwise not very trancey. If on the other hand, you're already pretty trancey for whatever reason, skip straight to \"Already open? Contain before you deepen\" rather than going deeper.",
+   "after": "Inductions serve to gather you up so you can access quiet stuff. They're not about surrendering or playing asleep or obeying someone. Sometimes it's nice to do an actual induction if you're sober but distracted or analytical or otherwise not very trancey. If, on the other hand, you're already pretty trancey for whatever reason, skip straight to \"Already open? Contain before you deepen\" rather than going deeper."
+  },
+  {
+   "block": 241,
+   "where": "Before you begin, P1",
+   "findings": [
+    "F7.6"
+   ],
+   "before": "Read this page, and the Come all the way back page, when you're awake.",
+   "after": "Read through the induction, and the Come all the way back section, when you're awake."
+  },
+  {
+   "block": 245,
+   "where": "Before you begin, P5",
+   "findings": [
+    "F7.8"
+   ],
+   "before": "If you are new to this or haven't done it for a while, work on the coming in and coming out part first, don't bring in the hard stuff till later. You don't have to watch yourself all the time, but for the first few times, make sure you can change state. Let yourself make it easier and easier to do this and notice that it takes less and less of you to do it. A no will stay a no. The narrator can't add stuff just because you don't say anything.",
+   "after": "If you are new to this or haven't done it for a while, work on the coming in and coming out part first. Don't bring in the hard stuff till later. You don't have to watch yourself all the time, but for the first few times, make sure you can change state. Let yourself make it easier and easier to do this and notice that it takes less and less of you to do it. A no will stay a no. The narrator can't add stuff just because you don't say anything."
+  },
+  {
+   "block": 246,
+   "where": "Before you begin, P6",
+   "findings": [
+    "F7.7"
+   ],
+   "before": "Let your response guide you as to what to do next regardless of what the script is expecting. Utilize: use what you have (a thought, sound, movement, or objection) to go to the next place, whatever it is. Learn how to notice what is there. Learn how to notice if there is no change, and that no change is not a secret success. For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain.",
+   "after": "Let your response guide you as to what to do next regardless of what the script is expecting. Utilize: use what you have (a thought, sound, movement, or objection) to go to the next place, whatever it is. Learn how to notice what is there. If nothing changes, notice that too: no change doesn't mean it worked in some way you can't see. For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain."
+  },
+  {
+   "block": 248,
+   "where": "Sober induction: 3–5 minutes, P1",
+   "findings": [
+    "E297",
+    "F8.1"
+   ],
+   "before": "You can read this slowly into your recorder, you can read it out loud or say it to yourself if you are good at that. Choose a sound, or a contact, or the two hands thing (above) or something to anchor yourself, and choose the thing you will say to open it up. Use the same anchor for everywhere that anchor is mentioned. Don't read the directions, just pause between paragraphs.",
+   "after": "You can read this slowly into your recorder, or you can read it out loud or say it to yourself if you are good at that. Choose a sound, or a contact, or the two-hand practice (above) or something to anchor yourself, and choose the thing you will say to open it up. Use the same anchor wherever the script mentions it. Don't read the directions out loud. Just pause between paragraphs."
+  },
+  {
+   "block": 250,
+   "where": "Sober induction: 3–5 minutes, P3",
+   "findings": [
+    "F8.2"
+   ],
+   "before": "You can allow your eyes to rest on something in the room for a bit, and let what's already there come into view.",
+   "after": "You can allow your eyes to rest on something in the room for a bit. Notice the difference between looking for something and letting what's already there come into view."
+  },
+  {
+   "block": 268,
+   "where": "Already open? Contain before you deepen, P4",
+   "findings": [
+    "F8.3"
+   ],
+   "before": "Say something like, \"Only what I can integrate, please. If there's too much it can wait. My body may stay safe. I'll be here as an adult, this won't just be my inner child.\"",
+   "after": "Say something like, \"Only what I can integrate, please. If there's too much, it can wait. My body may stay safe. I'll be here as an adult, so my inner child doesn't have to carry this alone.\""
+  },
+  {
+   "block": 279,
+   "where": "The two-hand induction, P1",
+   "findings": [
+    "E297",
+    "F8.4"
+   ],
+   "before": "One hand on your heart, one hand on your solar plexus",
+   "after": "Start with the two-hand practice: one hand on your heart for your Nurturer, the other on your solar plexus for your vulnerable child."
+  },
+  {
+   "block": 281,
+   "where": "The two-hand induction, P3",
+   "findings": [
+    "F8.4"
+   ],
+   "before": "Start to breathe gently….",
+   "after": "Breathe gently."
+  },
+  {
+   "block": 287,
+   "where": "Sleep induction, P3",
+   "findings": [
+    "F8.7"
+   ],
+   "before": "Check out Nimja’s sleep playlist to go to sleep listening to hypnosis",
+   "after": "Check out Nimja’s sleep playlist to go to sleep listening to hypnosis."
+  },
+  {
+   "block": 297,
+   "where": "Optional trance depth check, P2",
+   "findings": [
+    "F8.5"
+   ],
+   "before": "It might be useful for your wise subconscious to twitch a finger in one of your hands, or make a finger pulse, or come up by itself, or to heat up a finger and make it noticeable to you, or tingle in a noticeable way to let you know that your inner meeting space is ready for you to go into.",
+   "after": "It might be useful for your wise subconscious to let you know that your inner meeting space is ready for you to go into by making a finger twitch, pulse, lift up by itself, heat up or tingle in a way you notice."
+  },
+  {
+   "block": 299,
+   "where": "Optional trance depth check, P4",
+   "findings": [
+    "F8.6"
+   ],
+   "before": "Sometimes a finger will move, sometimes an entire hand will heat up, sometimes you will notice a change in your breathing, sometimes you won’t notice anything at all. Even if something happens, it doesn’t mean it is true, it just might mean that something is listening.",
+   "after": "Sometimes a finger will move, sometimes an entire hand will heat up, sometimes you will notice a change in your breathing, sometimes you won’t notice anything at all. Even if something happens, it doesn’t mean that what comes next will be true. It just might mean that something is listening."
+  },
+  {
+   "block": 301,
+   "where": "A shortcut back into hypnosis, P1",
+   "findings": [
+    "F9.1"
+   ],
+   "before": "Once you have learned a useful induction and how to come back down at the end, you can do the following….",
+   "after": "Once you have learned a useful induction and how to come all the way back up at the end, you can do the following:"
+  },
+  {
+   "block": 316,
+   "where": "Come all the way back, P6",
+   "findings": [
+    "F9.2"
+   ],
+   "before": "Note: If you are going to sleep to a recording then it is fine to go to sleep or just remain resting quietly at the end of it. However, if you are coming out of a recording then you should not leave yourself in an altered state. This includes leaving yourself in a role, with lowered judgment, with lowered ability to move, blank or with a non-specific reset word or for an indefinite length of time.",
+   "after": "Note: If you are going to sleep to a recording, then it is fine to go to sleep or just keep resting at the end of it. However, if it's a recording that's meant to bring you back awake, then you should not leave yourself in an altered state. This includes leaving yourself in a role, with lowered judgment, with lowered ability to move, blank or with a non-specific reset word or for an indefinite length of time."
+  },
+  {
+   "block": 321,
+   "where": "The actual inner meeting, P4",
+   "findings": [
+    "F9.3"
+   ],
+   "before": "Ask your conscious mind to listen.",
+   "after": "Ask your conscious mind to listen, and don't force an answer."
+  },
+  {
+   "block": 331,
+   "where": "Finding your own words, P2",
+   "findings": [
+    "F10.7"
+   ],
+   "before": "Then just listen. You don't need fancy language - often it will be better to just ask what happens next, or whatever. If you notice a feeling developing, it might be best not to say anything while it's developing (if you can help it) but some days you need to talk to understand, so just do that.",
+   "after": "Then just listen. You don't need fancy language - often it will be better to just ask what happens next, or whatever. If you notice a feeling developing, it might be best not to say anything while it's developing (if you can help it), but some days you need to talk to understand, so just do that."
+  },
+  {
+   "block": 337,
+   "where": "Let the response change the invitation, P1",
+   "findings": [
+    "F10.1"
+   ],
+   "before": "Your shoulders tightening, or 'hmm, that feels kind of wrong', is a signal to investigate further, but 'No! That is Not Right!' is a signal to stop what you're doing and change it. If you don't feel like it fits, don't keep doing it. Just change it. You don't need any other reason.",
+   "after": "Your shoulders tightening, or 'hmm, that feels kind of wrong', is a signal to investigate further. A tightening won't tell you what it's about by itself, so ask what happened and whether the invitation fits. But 'No! That is Not Right!' is a signal to stop what you're doing and change it. If you don't feel like it fits, don't keep doing it, and don't try saying it again more persuasively. Just change it. You don't need any other reason."
+  },
+  {
+   "block": 339,
+   "where": "Let the response change the invitation, P3",
+   "findings": [
+    "F10.2"
+   ],
+   "before": "Sometimes the invitation just isn't right - sometimes it's something you hadn't thought of. Either way, it isn't automatically a guard, and silence doesn't mean a hidden process is working.",
+   "after": "Sometimes the invitation just isn't right. Sometimes it brings up a possibility you hadn't thought of, and the feeling that comes with it is worth meeting. You don't have to know which it is before you make room to find out. Either way, your doubt isn't automatically a guard, and silence doesn't mean a hidden process is working."
+  },
+  {
+   "block": 341,
+   "where": "Look at the situation too, P1",
+   "findings": [
+    "F10.3"
+   ],
+   "before": "If there is another person involved in the situation, it may be a good idea to look at what they are doing as well. Are they able to communicate in a mature fashion? Try and be specific in your description, and be willing to alter it if you find out that it was incorrect. Just because someone is disagreeing with you or trying to set boundaries around you does not mean they are in their emotionally immature parts. You don’t need to subject yourself to something that may be dangerous before protecting yourself.",
+   "after": "If there is another person involved in the situation, it may be a good idea to look at what they are doing as well. Can they hear you disagree, take responsibility, and make room for what you're going through? Try and be specific in your description, and be willing to alter it if you find out that it was incorrect. Just because someone is disagreeing with you or trying to set boundaries around you does not mean they are in their emotionally immature parts. You don’t need to subject yourself to something that may be dangerous before protecting yourself."
+  },
+  {
+   "block": 345,
+   "where": "Change the amount of contact, P2",
+   "findings": [
+    "F10.4"
+   ],
+   "before": "\"Ok, I think that is enough for now.\"",
+   "after": "You can say, \"I can let this much be here, and notice what's supporting me right now.\" And when you've had enough, \"Ok, I think that is enough for now.\""
+  },
+  {
+   "block": 353,
+   "where": "Offer the care that is actually wanted, P4",
+   "findings": [
+    "F10.6"
+   ],
+   "before": "It is possible that when you try and give the part what it wants, you might feel very upset. It may be that it never got what it needed at the time and now that you are giving it what it wants, it is processing the upset of not getting what it wanted before. If this happens, allow yourself to respond for as long as you want to do so, and for as long as you can stay there (ie remain in the process). If you feel that the voice, distance, touch, image etc is too much, then change it to something that is less. Don’t think that you can’t take the love.",
+   "after": "It is possible that when you try and give the part what it wants, you might feel very upset. It may be that it never got what it needed at the time and now that you are giving it what it wants, it is processing the upset of not getting what it wanted before. That doesn’t mean your love isn’t working. If this happens, allow yourself to respond for as long as you want to do so, and for as long as you can stay there (ie remain in the process), but don’t push for more tears, since crying more doesn’t mean you’re healing more. If you feel that the voice, distance, touch, image etc is too much, then change it to something that is less. Don’t think that you can’t take the love."
+  },
+  {
+   "block": 354,
+   "where": "Offer the care that is actually wanted, P5",
+   "findings": [
+    "F10.5"
+   ],
+   "before": "Allow yourself to see where a metaphor takes you. Ask questions like ‘if the problem had an image or story, what would it be?’ or ‘what would need to happen to make things right?’ If it feels like you need to do something to give yourself the resource that you feel you need (or to put a boundary in place, or to move away or to take some other action) then try doing that for as far as it takes to be of use to you. Remember that whatever you find out is likely to be metaphorical. It may be a good hypothesis for what you need to do but it is not a proven fact.",
+   "after": "Allow yourself to see where a metaphor takes you. Ask questions like ‘if the problem had an image or story, what would it be?’ or ‘what would need to happen to make things right?’ If it feels like you need to do something to give yourself the resource that you feel you need (or to put a boundary in place, or to move away or to take some other action) then try doing that for as far as it takes to be of use to you. Remember that whatever you find out is likely to be metaphorical. It may be a good hypothesis for what you need to do, but it isn’t a record of what actually happened."
+  },
+  {
+   "block": 362,
+   "where": "The 15-minute daily practice, P1",
+   "findings": [
+    "F11.2"
+   ],
+   "before": "Notice there is no need to learn a second script! The process is the same. You are simply practicing for fifteen minutes or so. That is long enough to induce yourself (it only takes a few minutes), practice and let it unfold at its own pace, and come out again (that takes a few minutes too). Five minutes is plenty to see what happens when you simply sit in silence, listening, and you can interrupt yourself at any time to change direction if that feels better.",
+   "after": "Notice there is no need to learn a second script! The process is the same. You are simply practicing for fifteen minutes or so. That is long enough to induce yourself (it only takes a few minutes), practice and let it unfold at its own pace, and come out again (that takes a few minutes too). Fifteen minutes is just a handy appointment with yourself, though, and your feelings don't have to keep to it. Five minutes is plenty to see what happens when you simply sit in silence, listening, and you can interrupt yourself at any time to change direction if that feels better."
+  },
+  {
+   "block": 363,
+   "where": "The 15-minute daily practice, P2",
+   "findings": [
+    "F11.8"
+   ],
+   "before": "You can also try other ways of inducing yourself such as becoming aware of 3 things you can see, 3 things you can hear, 3 things you can feel in your body; then 2 of each, 1 of each. Then count from 5 to 1 and begin to listen. Choose one way to induce yourself, you don't need to try all of them! (In fact, it might be counter-productive!)",
+   "after": "You can also try other ways of inducing yourself such as becoming aware of 3 things you can see, 3 things you can hear, 3 things you can feel in your body; then 2 of each, 1 of each. Then count from 5 to 1 and begin to listen. Choose one way to induce yourself. You don't need to try all of them! (In fact, it might be counter-productive!)"
+  },
+  {
+   "block": 365,
+   "where": "The 15-minute daily practice, P4",
+   "findings": [
+    "F11.1",
+    "O46"
+   ],
+   "before": "As you come out of the process ask yourself what needed warmth, what needed to be protected, what you need to do differently to be more in accord with truth and love and life. Is there something you want to explore more fully or a capacity you want to build? And most importantly, what can you carry with you as you move forward from this? If you identified something you needed to do differently, make a plan with yourself to do that thing. The more specific you can be, the more likely you are to change: “If _________ (fill in the cue for the old pattern), then I will do ________ (fill in one small action that will begin to change the pattern).” Then check back later and see how you are doing – sleeping, relating, functioning, etc., not only how impressive the session felt.",
+   "after": "As you come out of the process, ask yourself what needed warmth, what needed to be protected, what you need to do differently to be more in accord with truth and love and life. Is there something you want to explore more fully or a capacity you want to build? And most importantly, what can you now carry yourself that you used to have to borrow? If you identified something you needed to do differently, make a plan with yourself to do that thing. The more specific you can be, the more likely you are to change: “If _________ (fill in the cue for the old pattern), then I will do ________ (fill in a small action that will begin to change the pattern).” Then check back later and see how you are doing – sleeping, relating, functioning, etc., not only how impressive the session felt."
+  },
+  {
+   "block": 367,
+   "where": "The weekly deeper practice, P1",
+   "findings": [
+    "F11.8"
+   ],
+   "before": "It’s good to give this more time once or twice a week, when that’s useful. It doesn’t have to be very intense but it is good to start from Higher Self or at least a neutral witnessing place and follow what appears. It’s also good to bring in some adult function to make sure nothing is being bypassed and so that at the end of the exercise, when the experience is over, there is the possibility of coming out completely and doing whatever normal thing needs doing.",
+   "after": "It’s good to give this more time once or twice a week, when that’s useful. It doesn’t have to be very intense, but it is good to start from Higher Self or at least a neutral witnessing place and follow what appears. It’s also good to bring in some adult function to make sure nothing is being bypassed and so that at the end of the exercise, when the experience is over, there is the possibility of coming out completely and doing whatever normal thing needs doing."
+  },
+  {
+   "block": 368,
+   "where": "The weekly deeper practice, P2",
+   "findings": [
+    "F11.3"
+   ],
+   "before": "If possible, it’s good to do the normal thing immediately after the exercise, so that the subconscious sees that the adult heard and acted. Otherwise, the dishes won’t get done.",
+   "after": "If possible, it’s good to do the normal thing immediately after the exercise, so that the subconscious sees that the adult heard and acted. Otherwise you just get another beautiful inner meeting, and the dishes are still sitting in the sink."
+  },
+  {
+   "block": 370,
+   "where": "Capacity before content, P1",
+   "findings": [
+    "F11.4"
+   ],
+   "before": "NOTE: If it is medically unsafe or you are in a place of panic, sleep deprivation, nausea, deep destabilization, mania, psychosis-like symptoms, feeling overwhelmed by chemicals etc. then first focus on stabilizing and then look for what your subconscious needs you to know! If it takes you destabilizing to know what your subconscious knows, it is not meant for you to know directly at this time! Focus on asking for capacity over content!",
+   "after": "NOTE: If it is medically unsafe or you are in a place of panic, sleep deprivation, nausea, deep destabilization, mania, psychosis-like symptoms, feeling overwhelmed by chemicals etc. then first focus on stabilizing and then look for what your subconscious needs you to know! If knowing what your subconscious knows would destabilize you, it is not meant for you to know directly at this time! Focus on asking for capacity over content!"
+  },
+  {
+   "block": 374,
+   "where": "Capacity before content, P5",
+   "findings": [
+    "F11.5"
+   ],
+   "before": "This can lead to flooding, panic, false certainty, confabulation, dissociation etc. and can make your day SUCK! When you are flooded, it is much harder to access your adult capacities so focus on being able to regulate and getting support! Just ask for what you need to know in a way that you CAN tolerate:",
+   "after": "This can lead to flooding, panic, false certainty, confabulation, dissociation etc. and can make your day SUCK! When you are flooded, it is much harder to access your adult capacities, so focus on being able to regulate and getting support! If your subconscious won’t answer, it may be protecting you until your adult is steady enough to take in what it has. Just ask for what you need to know in a way that you CAN tolerate:"
+  },
+  {
+   "block": 376,
+   "where": "Capacity before content, P7",
+   "findings": [
+    "F11.6"
+   ],
+   "before": "Instead, say to yourself something like this:",
+   "after": "Or, instead of demanding answers, say to yourself something like this:"
+  },
+  {
+   "block": 378,
+   "where": "Capacity before content, P9",
+   "findings": [
+    "F11.7"
+   ],
+   "before": "REMEMBER: Not everything in hypnotic imagery is literal, especially if it relates to trauma and memory. The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc. So, treat it like an image and get some help outside of yourself!",
+   "after": "REMEMBER: Not everything in hypnotic imagery is literal, especially if it relates to trauma and memory. The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc. So, treat it like an image, and get some help outside of yourself when you need it!"
+  },
+  {
+   "block": 384,
+   "where": "It feels fake, P1",
+   "findings": [
+    "F12.1"
+   ],
+   "before": "Do you have a sense of what it is that feels fake? The words, an image, what you are expecting to get from this, a role you feel you have to play etc. It doesn't matter that you don't have an inner voice/image to do this, it isn't necessarily about not having a 'grown up' or resisting doing the work. If it feels like you are being asked to do something you don't want to do then correct the invitation. It could be that there is a part that is protecting you, so talk to it.",
+   "after": "Do you have a sense of what it is that feels fake? The words, an image, what you are expecting to get from this, a role you feel you have to play etc. It doesn't matter that you don't have an inner voice/image to do this. It isn't necessarily about not having a 'grown up' or resisting doing the work. If it feels like you are being asked to do something you don't want to do, then correct the invitation. It could be that there is a part that is protecting you, so talk to it."
+  },
+  {
+   "block": 389,
+   "where": "The subconscious will not answer, P1",
+   "findings": [
+    "F12.2"
+   ],
+   "before": "There may not be an answer. There may not be an answer that will help you. You may need to try asking a different question or you may just need to rest or finish your inner work for the day. If trust is actually a concern, you can try asking your subconscious “What would you need to know in order to trust me?” Some examples of answers might be “I need to know you will set boundaries” “I need to know you will do what you said you will do” “I need to know you won’t keep leaving” “I need to know you won’t think that knowing something means that you don’t need to do anything about it” etc.",
+   "after": "There may not be an answer. There may not be an answer that will help you. You may need to try asking a different question or you may just need to rest or finish your inner work for the day. If trust is actually a concern, you can try asking your subconscious “What would you need to know in order to trust me?” Some examples of answers might be “I need to know you will set boundaries,” “I need to know you will do what you said you will do,” “I need to know you won’t keep leaving,” or “I need to know you won’t think that knowing something means that you don’t need to do anything about it.”"
+  },
+  {
+   "block": 403,
+   "where": "You become too analytical, P1",
+   "findings": [
+    "E297"
+   ],
+   "before": "You’re being too analytical. “What if you didn’t try to improve the practice?” Put your hand on your heart, your other hand on your solar plexus, and say, “I don’t have to do this perfectly. I’m here for a relationship with something deeper than my surface mind.” “What can you do to make this a communion, not a performance?” Maybe it’s silence, resting, or doing something. Whatever it is, just do it.",
+   "after": "You’re being too analytical. “What if you didn’t try to improve the practice?” Do the two-hand practice and say, “I don’t have to do this perfectly. I’m here for a relationship with something deeper than my surface mind.” “What can you do to make this a communion, not a performance?” Maybe it’s silence, resting, or doing something. Whatever it is, just do it."
+  },
+  {
+   "block": 405,
+   "where": "You become too blissful or diffuse, P1",
+   "findings": [
+    "F12.3"
+   ],
+   "before": "You’re being too blissful, diffuse, etc. Bring it down to a more specific level. “What’s the smallest, most specific thing you can do to demonstrate the love you’re feeling?”",
+   "after": "You’re being too blissful, diffuse, etc. Bring it down to a more specific level. “What’s the smallest, most specific thing your love is asking you to do next? A task, a boundary, a meal, some rest, a repair, a conversation?”"
+  },
+  {
+   "block": 416,
+   "where": "You get stuck in endless processing, P1",
+   "findings": [
+    "F12.4"
+   ],
+   "before": "You may have a real wound that needs to be dealt with, but it’s possible you’re caught in a checking loop. Consider asking yourself “Will processing this again actually help me feel, understand, decide, or do something differently? Or is this a form of checking to see if I can get the reassurance that something is finally okay?” Sometimes, whether you’re grieving or doing your practice, it’s okay to cover the same ground again and again.",
+   "after": "You may have a real wound that you need to deal with and be caught in a checking loop at the same time. Consider asking yourself “Will processing this again actually help me feel, understand, decide, or do something differently? Or is this a form of checking to see if I can get the reassurance that something is finally okay?” Sometimes, whether you’re grieving or doing your practice, it’s okay to cover the same ground again and again."
+  },
+  {
+   "block": 423,
+   "where": "What not to do, P2",
+   "findings": [
+    "F13.1"
+   ],
+   "before": "DO NOT: Engage in seeking “downloads” of information or make a hobby of demons/jinn/Unattached Burdens or the like, until you have stabilized your life. Get help to do so, if you are not reality testing well, or not functioning well in your life.",
+   "after": "DO NOT: Engage in seeking “downloads” of information or make a hobby of demons/jinn/Unattached Burdens or the like. Stabilize your life first, and get help to do so if you are not reality testing well, or not functioning well in your life."
+  },
+  {
+   "block": 446,
+   "where": "Closing, P1",
+   "findings": [
+    "F13.3"
+   ],
+   "before": "Start from the basis that the subconscious, the body, the sharp mind, and the guard who's tensed up and ready for the other shoe to drop for a long time are all not your enemies. Most of them have actually been trying to help you, without ever being properly introduced.",
+   "after": "Start from the basis that none of these are your enemies: the subconscious, the body, the sharp mind, and the guard who's been tensed up and waiting for the other shoe to drop for a long time. Most of them have actually been trying to help you, without ever being properly introduced."
+  },
+  {
+   "block": 450,
+   "where": "Try it in the Inner Signal app, P1",
+   "findings": [
+    "F13.4"
+   ],
+   "before": "You can download Inner Signal App for voice hypnosis, information, help developing your own language, and feedback on what you report. Have fun. Feel free to ask any questions you might have about what the hypnotist is doing. Self hypnosis is a great tool, but you don't need an app to do it. You may want to find a practitioner as well, but that's an option, not a graduation requirement.",
+   "after": "You can use the Inner Signal app for voice hypnosis, information, help developing your own language, and feedback on what you report. Have fun. Feel free to ask any questions you might have about what the hypnotist is doing. Self hypnosis is a great tool, but you don't need an app to do it. You may want to find a practitioner as well, but that's an option, not a graduation requirement."
+  },
+  {
+   "block": 465,
+   "where": "Appendix A: How to ask the subconscious a useful question, P6",
+   "findings": [
+    "F14.1"
+   ],
+   "before": "Constraint: What do you need to do to make sure your asking is safe, true, kind etc.",
+   "after": "Constraint: What do you need to do to make sure your asking is safe, true, kind etc.? That means no forcing, no false certainty, and making sure you can handle the answer before you ask for it."
+  },
+  {
+   "block": 483,
+   "where": "Appendix B: NLP without turning yourself into a sales seminar, P1",
+   "findings": [
+    "F14.2"
+   ],
+   "before": "Appendix B - NLP (Neuro-Linguistic Programming)",
+   "after": "NLP stands for Neuro-Linguistic Programming."
+  },
+  {
+   "block": 490,
+   "where": "The four NLP layers, P5",
+   "findings": [
+    "F14.3"
+   ],
+   "before": "Language Level of NLP: pacing what is true; opening up people’s awareness; presuming you can do something safe; linking cause and effect; embedding invitations; asking de-hypnotic questions to break the effects of vague, absolute, manipulative or grandiose language.",
+   "after": "Language Level of NLP: pacing what is true; opening up people’s awareness; presuming only that you can do something safe; linking cause and effect carefully; embedding invitations; asking de-hypnotic questions to break the effects of vague, absolute, manipulative or grandiose language."
+  },
+  {
+   "block": 503,
+   "where": "Pattern 2: Awareness verbs, P2",
+   "findings": [
+    "F14.6"
+   ],
+   "before": "Example: ‘Notice how you find out the answer.’",
+   "after": "Example: ‘Notice how the answer comes to you: as an image, a word, a pressure, some warmth, silence, or something to do next.’"
+  },
+  {
+   "block": 505,
+   "where": "Pattern 3: Presuppositions, P1",
+   "findings": [
+    "F14.4"
+   ],
+   "before": "Presumption is a powerful thing, so please don’t use it except to presume that we will have the choice of when it will happen, that we will be able to do it, that we are safe, that we are loved and that our adult can lead us.",
+   "after": "A presupposition is an assumption hidden inside a sentence. Presumption is a powerful thing, so please don’t use it except to presume that we will have the choice of when it will happen, that we will be able to do it, that we are safe, that we are loved and that our adult can lead us. Never use it to sneak in obedience."
+  },
+  {
+   "block": 507,
+   "where": "Pattern 4: Gentle cause-effect bridges, P1",
+   "findings": [
+    "F14.5"
+   ],
+   "before": "Bridge words are words like ‘as, whilst, because, when, after, before, which means’ etc. These are words that link events. However, even if you say them in a lovely gentle voice it doesn’t mean that it’s true if it isn’t! It’s not very likely that just by breathing in and out that your trauma is going to go away!",
+   "after": "Bridge words are words like ‘as, whilst, because, when, after, before, which means’ etc. These are words that link events. However, even if you say them in a lovely gentle voice it doesn’t mean that it’s true if it isn’t! It’s not very likely that just by breathing in and out your trauma is going to go away! A better bridge claims a lot less: ‘As I breathe, my adult self may become present enough to hear a small piece of what the wound needs.’"
+  },
+  {
+   "block": 532,
+   "where": "Submodalities — editing the form, not denying the truth, P1",
+   "findings": [
+    "F15.1"
+   ],
+   "before": "If someone's fear, craving, fantasy, belief, memory, whatever, has sensory properties in your experience (it has a place in your visual field, or sounds a certain way, or is heavy, or moving, or inside / outside your body, or something like that), you can work with those properties. If there are no sensory properties that you can notice, don't try to create any -- just don't use this tool!",
+   "after": "If your fear, craving, fantasy, belief, memory, whatever, has sensory properties in your experience (it has a place in your visual field, or sounds a certain way, or is heavy, or moving, or inside / outside your body, or something like that), you can work with those properties. If there are no sensory properties that you can notice, don't try to create any -- just don't use this tool!"
+  },
+  {
+   "block": 543,
+   "where": "Using synchronicity as your own wake-up bell, P4",
+   "findings": [
+    "O43",
+    "O48"
+   ],
+   "before": "Whenever I notice it I use it as a cue for waking up inside whatever state I am in, feeling my body, feeling the room I'm in, remembering that what I'm noticing is not proof for what I'm interpreting from the coincidences, widening my state so that I can see beyond what my current state is showing me. I then look for the truth of what is going on (What is really going on, what is just my interpretation? What needs to be warmed? What needs to be protected? What action needs to be taken?) and I go into the highest state I can get into, where I can see what is going on in that situation as objectively and clearly as I can, from the highest perspective I can get to, whilst remaining in my body, not leaving the facts of the situation and not leaving my regular human state. From that state I feel my feelings. If the state I started in is negative, I check if it is a message from my Inner Child or from a childhood guard part, or if I just need to grieve. I check if it is a message from my physical body (if there is a problem with my body that needs to be taken care of) or if there is something that needs to be done about the situation. From that place I choose what to do. I choose at least one thing to do that is from a loving place. I allow myself to be in whatever state is real for me, which may include objectivity, clarity, ease, peace, freedom, joy, gratitude, etc.",
+   "after": "Whenever I notice it I use it as a cue for waking up inside whatever state I am in, feeling my body, feeling the room I'm in, remembering that what I'm noticing doesn't confirm what I'm reading into the coincidences, widening my state so that I can see beyond what my current state is showing me. I then look for the truth of what is going on (What is really going on, what is just my interpretation? What needs warmth? What needs protecting? What do I need to do?) and I go into the highest state I can get into, where I can see what is going on in that situation as objectively and clearly as I can, from the highest perspective I can get to, whilst remaining in my body, not leaving the facts of the situation and not leaving my regular human state. From that state I feel my feelings. If the state I started in is negative, I check if it is a message from my Inner Child or from a childhood guard part, or if I just need to grieve. I check if it is a message from my physical body (if there is a problem with my body that I need to take care of) or if I need to do something about the situation. From that place I choose what to do. I choose at least one thing to do that is from a loving place. I allow myself to be in whatever state is real for me, which may include objectivity, clarity, ease, peace, freedom, joy, gratitude, etc."
+  },
+  {
+   "block": 550,
+   "where": "Installing the synchronicity cue, P5",
+   "findings": [
+    "F15.2"
+   ],
+   "before": "Reiterate to yourself that whenever you notice a synchronicity, it is just a bell that rings to wake you up, it is not proof for what you are interpreting from it.",
+   "after": "Reiterate to yourself that whenever you notice a synchronicity, it is just a bell that rings to wake you up. It doesn’t confirm what you are reading into it."
+  },
+  {
+   "block": 557,
+   "where": "False positives, and turning the cue off, P1",
+   "findings": [
+    "F15.4"
+   ],
+   "before": "A downside of synchronicity cues is that they can lead to false positives. We create an association in our head on purpose when we rehearse what to do when we notice a synchronicity; however, when you are absorbed in something and/or when you are destabilized, you might think that you saw a synchronicity when in fact there wasn't any. Research has shown that people that score high on apophenia tests also score high for detecting patterns that were not really there, as well as scoring high on psychosis spectrum traits (see Blain and colleagues, and Grant and colleagues) (this is not saying that noticing patterns is bad; in fact, it's not a pathology).",
+   "after": "A downside of synchronicity cues is that they can lead to false positives. We create an association in our head on purpose when we rehearse what to do when we notice a synchronicity; however, when you are absorbed in something and/or when you are destabilized, you might think that you saw a synchronicity when in fact there wasn't any. Research has linked apophenia, the tendency to see patterns that aren't really there, with psychosis spectrum traits (see Blain and colleagues, and Grant and colleagues). That isn't saying that noticing patterns is bad. In fact, it's not a pathology."
+  },
+  {
+   "block": 564,
+   "where": "Perceptual positions — self, other, witness, universal heart, P2",
+   "findings": [
+    "F15.5"
+   ],
+   "before": "Perceptual Positions: 1) seeing from Self (what do I feel from inside myself?), 2) then seeing from Other (if I sit inside the other person, what might they be feeling or protecting?), 3) then seeing from Witness (if I watched this from across the room, what would I notice?), and 4) then seeing from Universal Heart (what serves truth, love, boundaries, and the good of everyone involved?). I do this to see the situation with more accuracy.",
+   "after": "I go through four positions: 1) seeing from Self (what do I feel from inside myself?), 2) then seeing from Other (if I sit inside the other person, what might they be feeling or protecting?), 3) then seeing from Witness (if I watched this from across the room, what would I notice?), and 4) then seeing from Universal Heart (what serves truth, love, boundaries, and the good of everyone involved?). I do this to see the situation with more accuracy."
+  },
+  {
+   "block": 567,
+   "where": "Future pacing — let the future test the insight, P1",
+   "findings": [
+    "F15.5"
+   ],
+   "before": "Future Pacing: 1) Once I have seen the situation more clearly, I will imagine future scenarios where my old behavior would have triggered, to test out if my new insight is working.",
+   "after": "Once I have seen the situation more clearly, I will imagine future scenarios where my old behavior would have triggered, to test out if my new insight is working."
+  },
+  {
+   "block": 570,
+   "where": "The Swish, softened, P1",
+   "findings": [
+    "F15.5"
+   ],
+   "before": "Swish Variation: 2) I use an NLP technique called a \"Swish Pattern\" (it swaps a picture of an old reaction for a picture of a new one), but I will allow my old pattern to be there, while also holding my new pattern in my awareness. I feel what comes up somatically, and compare the differences between the future scenarios of my old and new patterns.",
+   "after": "I use an NLP technique called a \"Swish Pattern\" (it swaps a picture of an old reaction for a picture of a new one), but I will allow my old pattern to be there, while also holding my new pattern in my awareness. I feel what comes up somatically, and compare the differences between the future scenarios of my old and new patterns."
+  },
+  {
+   "block": 572,
+   "where": "Parts integration, without pretending the conflict is solved, P1",
+   "findings": [
+    "F15.5"
+   ],
+   "before": "Parts Integration: I use this technique to ask my conflicting parts what they want, what they are afraid of, what their need is, and see if I can find a 3rd option that satisfies both parts' needs, without either part dominating my behavior.",
+   "after": "I use parts integration to ask my conflicting parts what they want, what they are afraid of, what their need is, and see if I can find a 3rd option that satisfies both parts' needs, without either part dominating my behavior."
+  },
+  {
+   "block": 579,
+   "where": "What I will not use NLP for, P6",
+   "findings": [
+    "F16.1"
+   ],
+   "before": "I do not remove pain, hunger, grief, anger, or medical symptoms.",
+   "after": "I do not use NLP to remove pain, hunger, grief, anger, or medical symptoms."
+  },
+  {
+   "block": 588,
+   "where": "Running the whole NLP sequence, P2",
+   "findings": [
+    "F16.2"
+   ],
+   "before": "Induce/Contain the person (get their attention, or stabilize them first if they are already wide open).",
+   "after": "Induce or contain yourself (gather your attention, or stabilize yourself first if you are already wide open)."
+  },
+  {
+   "block": 589,
+   "where": "Running the whole NLP sequence, P3",
+   "findings": [
+    "F16.2"
+   ],
+   "before": "Ask for their permission: is it useful to work with this image, feeling or pattern today?",
+   "after": "Ask yourself for permission: is it useful to work with this image, feeling or pattern today?"
+  },
+  {
+   "block": 590,
+   "where": "Running the whole NLP sequence, P4",
+   "findings": [
+    "F16.2"
+   ],
+   "before": "Get a representation of their pattern (image, feeling, size, color, location, movement, etc.).",
+   "after": "Get a representation of your pattern (image, feeling, size, color, location, movement, etc.)."
+  },
+  {
+   "block": 591,
+   "where": "Running the whole NLP sequence, P5",
+   "findings": [
+    "F16.2"
+   ],
+   "before": "Find out what that part/pattern is protecting for them.",
+   "after": "Find out what that part/pattern is protecting for you."
+  },
+  {
+   "block": 592,
+   "where": "Running the whole NLP sequence, P6",
+   "findings": [
+    "F16.2"
+   ],
+   "before": "Gently change some aspect of their pattern (location, volume, space, posture, speed, etc.).",
+   "after": "Gently change some aspect of your pattern (location, volume, space, posture, speed, etc.)."
+  },
+  {
+   "block": 593,
+   "where": "Running the whole NLP sequence, P7",
+   "findings": [
+    "F16.2"
+   ],
+   "before": "Put 3 good adults in with the person (Nurturer to warm, Protector to make it safe, and Guide to point a direction). In real life they’re all part of the one inner adult, so we can imagine them splitting apart if need be and coming together as well.",
+   "after": "Bring in your 3 good adults (Nurturer to warm, Protector to make it safe, and Guide to point a direction). In real life they’re all part of the one inner adult, so we can imagine them splitting apart if need be and coming together as well."
+  },
+  {
+   "block": 594,
+   "where": "Running the whole NLP sequence, P8",
+   "findings": [
+    "F16.2"
+   ],
+   "before": "Anchor the person's good state (heart, fingers, breath, posture, etc.).",
+   "after": "Anchor your good state (heart, fingers, breath, posture, etc.)."
+  },
+  {
+   "block": 595,
+   "where": "Running the whole NLP sequence, P9",
+   "findings": [
+    "F16.2"
+   ],
+   "before": "Future pace a scenario for them where their old pattern would have triggered, and have them do a small new behavior (If...then... statement).",
+   "after": "Future pace a scenario where your old pattern would have triggered, and do a small new behavior (If...then... statement)."
+  },
+  {
+   "block": 596,
+   "where": "Running the whole NLP sequence, P10",
+   "findings": [
+    "F16.2"
+   ],
+   "before": "Have them check in with their body for changes, ask whether the new behavior is kind and doable, and ask what supports their new interpretation of the situation beyond how it feels.",
+   "after": "Check in with your body for changes, ask whether the new behavior is kind and doable, and ask what supports your new interpretation of the situation beyond how it feels."
+  },
+  {
+   "block": 597,
+   "where": "Running the whole NLP sequence, P11",
+   "findings": [
+    "F16.2"
+   ],
+   "before": "Get the person out of the altered state (bring them back to the room and have them do one ordinary thing).",
+   "after": "Get yourself out of the altered state (come back to the room and do something normal)."
+  },
+  {
+   "block": 618,
+   "where": "Appendix D: Anxiety — body first, P2",
+   "findings": [
+    "F16.4"
+   ],
+   "before": "Remember that often the anxiety comes from a childhood guard part of you. It’s what protects you when your inner adult’s Protector isn’t functioning, the same as in childhood. It’s trying to help, making a guess about what’s coming: that you are in danger, or may be shamed, or abandoned, or fail, or be exposed, or be sick, or be rejected, or lose control, or feel something it believes would be unbearable. It can be right! It’s probably been wrong before too, and you know some of those times. Therefore, instead of interrogating that part, start with yourself:",
+   "after": "Remember that often the anxiety comes from a childhood guard part of you. It’s what protects you when your inner adult’s Protector isn’t functioning, the same as in childhood. It’s trying to help, making a guess about what’s coming: that you are in danger, or may be shamed, or abandoned, or fail, or be exposed, or be sick, or be rejected, or lose control, or feel something it believes would be unbearable. It can be right! It’s probably been wrong before too, and you know some of those times. Therefore, don’t start by interrogating that part. Help your body first."
+  },
+  {
+   "block": 623,
+   "where": "EFT tapping, P1",
+   "findings": [
+    "F17.1"
+   ],
+   "before": "EFT tapping: One of the easiest ways to do EFT is to say something like, “Even though I have this anxiety, I am willing to be kind to the part of me that is afraid,” while you tap gently on your body and stay with what you feel. There isn’t a ton of evidence for EFT, but there are some studies on anxiety. A 2025 systematic review found 7 randomized controlled trials for anxiety disorders, and noted that EFT was more effective than no intervention in several of them. So use the evidence with caution, and know that there are first-line therapies for anxiety.",
+   "after": "One of the easiest ways to do EFT is to say something like, “Even though I have this anxiety, I am willing to be kind to the part of me that is afraid,” while you tap gently on your body and stay with what you feel. There isn’t a ton of evidence for EFT, but there are some studies on anxiety. A 2025 systematic review found 7 randomized controlled trials for anxiety disorders, and noted that EFT was more effective than no intervention in several of them. So use the evidence with caution, and know that there are first-line therapies for anxiety."
+  },
+  {
+   "block": 625,
+   "where": "Somatic Experiencing, P1",
+   "findings": [
+    "F17.1"
+   ],
+   "before": "Somatic experiencing: If you would like more information about somatic experiencing, or even a free intro session, please see my somatic guide. In somatic experiencing (SE), you are not digging into the trauma. You learn to track. So you might start by tracking, by discovering where the activation is, where a neutral place is, and then whether you can move your attention from one to the other, very slowly, like a snail.",
+   "after": "If you would like more information about somatic experiencing, or even a free intro session, please see my somatic guide. In somatic experiencing (SE), you are not digging into the trauma. You learn to track. So you might start by tracking, by discovering where the activation is, where a neutral place is, and then whether you can move your attention from one to the other, very slowly, like a snail."
+  },
+  {
+   "block": 627,
+   "where": "Gendlin Focusing, P1",
+   "findings": [
+    "F17.1"
+   ],
+   "before": "Gendlin Focusing: Focusing is another approach where you work with your body. You might say to yourself, “What is the felt sense of this whole anxiety?” Don’t answer with your head; let your body come up with a vague sense of the whole anxiety. Then ask, “What would this felt sense like me to know?” Try a word or a phrase and see how well it fits the felt sense. But also see if what the word or phrase says is true of the situation. The word may feel ok, but say something that doesn’t fit the situation, or vice versa. Use the words and the body to mutually correct one another.",
+   "after": "Focusing is another approach where you work with your body. You might say to yourself, “What is the felt sense of this whole anxiety?” Don’t answer with your head; let your body come up with a vague sense of the whole anxiety. Then ask, “What would this felt sense like me to know?” Try a word or a phrase and see how well it fits the felt sense. But also see if what the word or phrase says is true of the situation. The word may feel ok, but say something that doesn’t fit the situation, or vice versa. Use the words and the body to mutually correct one another."
+  },
+  {
+   "block": 636,
+   "where": "Anxiety script, P3",
+   "findings": [
+    "F17.3"
+   ],
+   "before": "If you’re there little one, I’m here. Thank you guard for letting me know you’re here, you didn’t have to scream, I got your message.",
+   "after": "If you’re there, little one, I’m here. Thank you, guard, for letting me know you’re here. You didn’t have to scream. I got your message."
+  },
+  {
+   "block": 637,
+   "where": "Anxiety script, P4",
+   "findings": [
+    "F17.3"
+   ],
+   "before": "If there is something we need to do let me know what the first thing is that we need to do at this moment, if there is nothing to do, help my body stand down. I’m not going to abandon you but I’m not going to worship you, I will listen to what you have to say and reality test it and then take some action.",
+   "after": "If there is something we need to do, let me know what the first thing is that we need to do at this moment. If there is nothing to do, help my body stand down. I’m not going to abandon you, but I’m not going to worship you either. I will listen to what you have to say and reality test it and then take some action."
+  },
+  {
+   "block": 639,
+   "where": "Appendix E: Is the daydream helping or replacing your life?, P1",
+   "findings": [
+    "F17.4"
+   ],
+   "before": "Sometimes daydreaming is something that your subconscious mind is doing to help you. It is simulating an idea or event to help you digest grief or teach you something. The very act of daydreaming may be helping you to access your creativity or allowing your subconscious to show you a potential future. Sometimes your subconscious will show you things that you may be afraid of. Sometimes it will show you what you want.",
+   "after": "Sometimes daydreaming is something that your subconscious mind is doing to help you. It is simulating an idea or event to help you work through grief or teach you something. The very act of daydreaming may be helping you to access your creativity or allowing your subconscious to show you a potential future. Sometimes your subconscious will show you things that you may be afraid of. Sometimes it will show you what you want."
+  },
+  {
+   "block": 640,
+   "where": "Appendix E: Is the daydream helping or replacing your life?, P2",
+   "findings": [
+    "F17.4"
+   ],
+   "before": "Other times daydreaming may be taking you away from your life in a detrimental way. It may be that you are escaping reality and are addicted to fantasies rather than the real life. You may be dissociating or obsessing about romantic partners or escaping from being an adult.",
+   "after": "Other times daydreaming may be taking you away from your life in a detrimental way. It may be that you are escaping reality and are addicted to fantasies rather than real life. You may be dissociating or obsessing about romantic partners or escaping from being an adult."
+  },
+  {
+   "block": 662,
+   "where": "Finding a hypnotist who can work with you, list item",
+   "findings": [
+    "F17.6"
+   ],
+   "before": "What they will do if things go unexpected during or after the session",
+   "after": "What they will do if something unexpected happens during or after the session"
+  },
+  {
+   "block": 666,
+   "where": "Finding a hypnotist who can work with you, P13",
+   "findings": [
+    "F17.7"
+   ],
+   "before": "Then afterwards, check in about what was actually done, regardless of what you might call the method. Ask the person why they did what they did, and whether they told you in advance. Did you agree to it? How did the person respond to you? Keep in mind that just because something made you uncomfortable, it doesn't mean it was bad, but if they saw your discomfort as meaning that you needed more of it, that might be something to look into. You might even be able to use this app or ask around to see if someone can tell you what the things the person did meant. They probably won't be able to tell you if the person was certified in them or not, though. Then you can decide if you want to try learning to do self-hypnosis, using both, or find someone else.",
+   "after": "Then afterwards, check in about what was actually done, regardless of what you might call the method. Ask the person why they did what they did, and whether they told you in advance. Did you agree to it? How did the person respond to you? Keep in mind that just because something made you uncomfortable, it doesn't mean it was bad, but if they saw your discomfort as meaning that you needed more of it, that might be something to look into. You might even be able to use this app or ask around to see if someone can tell you what the things the person did meant. They probably won't be able to tell you whether the person was certified in those methods, though. Then you can decide if you want to try learning to do self-hypnosis, using both, or find someone else."
+  },
+  {
+   "block": 673,
+   "where": "The council — internal first, then outward, P3",
+   "findings": [
+    "O42"
+   ],
+   "before": "On the other hand, it is possible to give your power away. Seeking counsel can quietly turn into abdicating to an authority figure. Another person doesn’t get automatic trust, or automatic dismissal.",
+   "after": "On the other hand, it is possible to give your power away. Seeking counsel can slide into abdicating to an authority figure without you noticing. Another person doesn’t get automatic trust, or automatic dismissal."
+  },
+  {
+   "block": 676,
+   "where": "Forgiveness without bypass, P1",
+   "findings": [
+    "F18.1"
+   ],
+   "before": "We can not force forgiveness on ourselves, it has to come from a place of understanding otherwise it can be bypassing. However, if we remain in the anger forever, we are allowing the injury to dictate how we live our lives in the present. So how do we hold all of this? We just remember that it can all be true at once. They really did hurt us and they still have to answer for it, and our boundary with them still matters, but one day we may find that we have forgiven them, or at least that we’re not being run by the resentment anymore. And we don’t have to forgive first to get safe, set boundaries, hold someone accountable, get justice or get better.",
+   "after": "We cannot force forgiveness on ourselves. It has to come from a place of understanding, otherwise it can be bypassing. However, if we remain in the anger forever, we are allowing the injury to dictate how we live our lives in the present. So how do we hold all of this? We just remember that it can all be true at once. They really did hurt us and they still have to answer for it, and our boundary with them still matters, but one day we may find that we have forgiven them, or at least that we’re not being run by the resentment anymore. And we don’t have to forgive first to get safe, set boundaries, hold someone accountable, get justice or get better."
+  },
+  {
+   "block": 693,
+   "where": "Stabilize before you interpret, P1",
+   "findings": [
+    "F18.2"
+   ],
+   "before": "Self-hypnosis can be POWERFUL when you are in an altered state of consciousness (i.e. when you're on loveyhuasca, meditating, have a lucid dream, are dealing with grief, are dealing with sexual energy, are praying, haven't slept, are around plant medicine, etc, etc, etc). Sometimes you may OPEN yourself up to things FASTER than you are able to put them into context with your adult self.",
+   "after": "Self-hypnosis can be POWERFUL when you are in an altered state of consciousness (e.g. when you're on loveyhuasca, meditating, have a lucid dream, are dealing with grief, are dealing with sexual energy, are praying, haven't slept, are around plant medicine, etc, etc, etc). Sometimes you may OPEN yourself up to things FASTER than you are able to put them into context with your adult self."
+  },
+  {
+   "block": 694,
+   "where": "Stabilize before you interpret, P2",
+   "findings": [
+    "F18.3"
+   ],
+   "before": "So what feels like a meaningful altered state of consciousness may or may not actually be meaningful - it could be your inner child, it could be a childhood guard part, it could be all of the things you're ashamed of / sad about / angry about / etc, coming out to be dealt with. Or it could be that your body is overloaded, your environment is chaotic, you haven't slept enough, etc, etc, etc. Regardless of how scary an image is, regardless of the lighting that came with the \"download\", regardless of how bad you feel, it doesn't necessarily mean what you think it does!",
+   "after": "So what feels like a meaningful altered state of consciousness may or may not actually be meaningful - it could be your inner child, it could be a childhood guard part, it could be all of the things you're ashamed of / sad about / angry about / etc, coming out to be dealt with. Or it could be that your body is overloaded, your environment is chaotic, you haven't slept enough, etc, etc, etc. Regardless of how scary an image is, regardless of how amazing the lighting was on the \"download\", regardless of how bad you feel, it doesn't necessarily mean what you think it does!"
+  },
+  {
+   "block": 717,
+   "where": "Do not fight from fear, P1",
+   "findings": [
+    "F19.1"
+   ],
+   "before": "Your first instinct may be to fight it, banish it, hate it, show it that you’re more powerful than it is, argue with it, panic, become your own threatened self in fear of it, etc. Some people may want to use traditional prayer or mantras or protection or banishing or exorcism techniques, and those may well work for them. But if you’re fighting it out of fear…",
+   "after": "Your first instinct may be to fight it, banish it, hate it, show it that you’re more powerful than it is, argue with it, panic, become your own threatened self in fear of it, etc. Some people may want to use traditional prayer or mantras or protection or banishing or exorcism techniques, and those may well work for them. But if you’re fighting it out of fear, it can backfire:"
+  },
+  {
+   "block": 721,
+   "where": "A bodily boundary: compassion present, door closed, P1",
+   "findings": [
+    "F19.2"
+   ],
+   "before": "Second, feel free to tell the presence that while you have compassion for it, the door is closed.",
+   "after": "You can also tell the presence that while you have compassion for it, the door is closed."
+  },
+  {
+   "block": 730,
+   "where": "The cosmic-download humility test, P1",
+   "findings": [
+    "F19.2"
+   ],
+   "before": "Finally, presences, shadow forces, or grandiose parts don’t always attack through fear. They may also try to give you a sense that you’re special, try to “download cosmic info” to you, try to give you a special mission, make you feel doing the dishes is beneath you, etc. You can just say, “Thank you for the imagery, but I don’t need your grand performance. Unless the info you’re trying to download to me can help me do the dishes, clean my room, be more honest, be more helpful, be more loving, keep my promises, take care of my body by resting and eating etc, I don’t need it.”",
+   "after": "Presences, shadow forces, or grandiose parts don’t always attack through fear, either. They may also try to give you a sense that you’re special, try to “download cosmic info” to you, try to give you a special mission, make you feel doing the dishes is beneath you, etc. You can just say, “Thank you for the imagery, but I don’t need your grand performance. Unless the info you’re trying to download to me can help me do the dishes, clean my room, be more honest, be more helpful, be more loving, keep my promises, take care of my body by resting and eating etc, I don’t need it.”"
+  },
+  {
+   "block": 741,
+   "where": "1. Stretch and release, P1",
+   "findings": [
+    "F20.1",
+    "F20.2"
+   ],
+   "before": "Stretch and Release: Work out what will be supporting you, focus on the feeling of support. You can also focus on where one of your hands or feet is. Either actually, or in your imagination, stretch a little bit, either stretching that part of your body slightly or pressing gently down into the support, and then let go of the effort, just relax. See if there is any difference, even if there isn’t. Do this for no more than 3 places on your body. Let releasing guide you as you go through the sequence. Which bit of your body, or inner voice, needs this? What do you need to support it? Bring your body back to normal movement and return.",
+   "after": "Work out what will be supporting you, and focus on the feeling of support. You can also focus on where one of your hands or feet is. Either actually, or in your imagination, stretch a little bit, either stretching that part of your body slightly or pressing gently down into the support, and then let go of the effort, just relax. See if there is any difference (it’s fine if there isn’t). Do this for no more than 3 places on your body. Let releasing guide you as you go through the sequence. Which bit of your body, or inner voice, needs this? What do you need to support it? Bring your body back to normal movement and return."
+  },
+  {
+   "block": 743,
+   "where": "2. Supported floating, P1",
+   "findings": [
+    "F20.4"
+   ],
+   "before": "Supported Floating: Work out what is supporting you and where your weight is, imagine that the support is holding a tiny bit (1%) more of your effort. It’s like floating but you don’t have to lose contact, or you can just keep it at the same level, with just enough weight/pressure. See what happens, you can fractionate this if you want, perhaps noticing your normal awareness when you breathe in and the support when you breathe out. Tell yourself you are going to fractionate before you do it. What can you hear more easily now? Keep the support, come back to your normal weight and firm contact, and return.",
+   "after": "Work out what is supporting you and where your weight is. Imagine that the support is holding a tiny bit (1%) more of your effort. It’s like floating but you don’t have to lose contact, or you can just keep it at the same level, with just enough weight/pressure. See what happens. You can fractionate this if you want, perhaps noticing your normal awareness when you breathe in and the support when you breathe out. Tell yourself you are going to fractionate before you do it. What can you hear more easily now? Keep the support, come back to your normal weight and firm contact, and return."
+  },
+  {
+   "block": 745,
+   "where": "3. Rhythmic breath or pulse, P1",
+   "findings": [
+    "F20.3"
+   ],
+   "before": "Rhythmic: Use your breathing or slightly hum in your throat to make a natural rhythm, or tap your finger or listen to sounds outside to make an artificial one. You can even do it by counting to yourself (silently) or with no rhythm at all. Tell yourself you are going to say “here, and here again” over and over, and notice what you pay attention to in between the phrases, then stop saying it. Notice what you become aware of in the first beat – you don’t need to make your mind blank, just notice what comes up. Does it make any words, feelings, needs or actions more clear? Bring back your normal rhythm and return.",
+   "after": "Use your breathing or a slight hum in your throat for a natural rhythm. You could also tap your finger, or follow a sound outside. You can even do it by counting to yourself (silently) or with no rhythm at all. Say “here, and here again” over and over, and notice what you pay attention to in between the phrases. Then stop saying it. Notice what you become aware of in the first beat – you don’t need to make your mind blank, just notice what comes up. Does it make any words, feelings, needs or actions more clear? Bring back your normal rhythm and return."
+  },
+  {
+   "block": 747,
+   "where": "4. Unwinding object, P1",
+   "findings": [
+    "F20.1",
+    "F20.4"
+   ],
+   "before": "Unwinding Object: Good for when you have a few different strands to one thing you want to work on. Imagine an object unwinding – maybe some yarn, some bubbles, or some knots that you place beside you. Once you’ve placed them all, give yourself a minute to look at them all, you don’t have to change anything, but you can label them if you need to (just a word or two). How many did you put down? Which one do you need to work on, what does it need – warmth, protection, action? Keep one strand in your attention and put the others somewhere you can see them and return.",
+   "after": "Unwinding an object is good for when you have a few different strands to one thing you want to work on. Imagine an object unwinding – maybe some yarn, some bubbles, or some knots that you place beside you. Once you’ve placed them all, give yourself a minute to look at them all. You don’t have to change anything, but you can label them if you need to (just a word or two). How many did you put down? Which one do you need to work on, and what does it need – warmth, protection, action? Keep one strand in your attention and put the others somewhere you can see them and return."
+  },
+  {
+   "block": 749,
+   "where": "5. Sensory journey, P1",
+   "findings": [
+    "F20.1",
+    "F20.4"
+   ],
+   "before": "Sensory Journey: Pay attention to the sounds in the room you’re in and how your body feels, then imagine yourself walking somewhere. Where do you want to go? Listen to the sounds of your footsteps and take in your surroundings as you walk, what do objects feel like if you touch them, what landmarks do you see? When you feel you have gathered enough of your attention, imagine the scenery changing until you are in a place where you can talk to whoever you need to (or you can just cut to the chase, if you prefer). Pay attention to something without worrying about what it means. Allow yourself to be curious about what’s going to happen next, but don’t make it a “what are they going to do to you?” kind of thing. When you are ready to finish, imagine yourself walking back the way you came and close the space.",
+   "after": "Pay attention to the sounds in the room you’re in and how your body feels, then imagine yourself walking somewhere. Where do you want to go? Listen to the sounds of your footsteps and take in your surroundings as you walk. What do objects feel like if you touch them? What landmarks do you see? When you feel you have gathered enough of your attention, imagine the scenery changing until you are in a place where you can talk to whoever you need to (or you can just cut to the chase, if you prefer). Pay attention to something without worrying about what it means. Allow yourself to be curious about what’s going to happen next, but don’t make it a “what are they going to do to you?” kind of thing. When you are ready to finish, imagine yourself walking back the way you came and close the space."
+  },
+  {
+   "block": 751,
+   "where": "6. Gradual wave, P1",
+   "findings": [
+    "F20.1"
+   ],
+   "before": "Gradual wave: start with a very small neutral area, feel into it a little and then imagine a wave of warmth, steadiness, or attention spreading out to a new area that is still ok. Sense into the new area (or continue using the old). See if there is anything different at each step. Does the body want any contact, space, words, other care? Let the mental image go, sense your body, sense your contact points, come back.",
+   "after": "Start with a very small neutral area, feel into it a little and then imagine a wave of warmth, steadiness, or attention spreading out to a new area that is still ok. Sense into the new area (or continue using the old). See if there is anything different at each step. Does the body want any contact, space, words, other care? Let the mental image go, sense your body, sense your contact points, come back."
+  },
+  {
+   "block": 753,
+   "where": "7. Care workshop, P1",
+   "findings": [
+    "F20.1"
+   ],
+   "before": "Care workshop: prepare the workshop (time, place, tools, boundaries, etc). Invite the signal/feeling/young part to come only as close as is welcome. Try to avoid any language that makes you feel you're not one person. Care for it as best you can, by asking what it wants and giving that if you can, or sensing into it and responding, or just being with it. Take breaks, get back in contact if that's ok, take more breaks, etc. Keep bringing in adult functions (or borrow someone else's function). Have the adult part of you run the show. Goal is to make it \"good as you\" rather than \"good as new\", not to erase history. Tell your little one, \"That's enough for today. We're going back to the life we're building.\" Close the workspace, reassure yourself that you are one whole person, that you're an adult now, and come back.",
+   "after": "Prepare the workshop (time, place, tools, boundaries, etc). Invite the signal/feeling/young part to come only as close as is welcome. Try to avoid any language that makes you feel you're not one person. Care for it as best you can, by asking what it wants and giving that if you can, or sensing into it and responding, or just being with it. Take breaks, get back in contact if that's ok, take more breaks, etc. Keep bringing in adult functions (or borrow someone else's function). Have the adult part of you run the show. The goal is to make it \"good as you\" rather than \"good as new\", not to erase history. Tell your little one, \"That's enough for today. We're going back to the life we're building.\" Close the workspace, reassure yourself that you are one whole person, that you're an adult now, and come back."
+  },
+  {
+   "block": 755,
+   "where": "8. Resource embodiment, P1",
+   "findings": [
+    "F20.1",
+    "O46"
+   ],
+   "before": "Resource: pick a resource quality you understand (warmth, boundary, steadiness, curiosity, or dignity). Imagine yourself accessing 1% more of that quality (or, if you prefer, just observe it rather than embody it). What is different? How is your body, voice, etc? Do this a few times to strengthen it. Come back, keeping the quality and one positive action that you would do with it, but leaving the imagined you behind, saying \"I am me\".",
+   "after": "Pick a resource quality you understand (warmth, boundary, steadiness, curiosity, or dignity). Imagine yourself accessing 1% more of that quality (or, if you prefer, just observe it rather than embody it). What is different? How is your body, voice, etc? Do this a few times to strengthen it. Come back, keeping the quality and a positive action that you would do with it, but leaving the imagined you behind, saying \"I am me\"."
+  },
+  {
+   "block": 774,
+   "where": "Inner-child care and adult capacities, P1",
+   "findings": [
+    "F21.1"
+   ],
+   "before": "For information about borrowed adulthood, love that doesn't require trust, practical and relational repair, spiritual struggle, differentiation and mutual peer support, see Inner Child Self-Love Reparenting Guide. The practices in this post are designed to match with those in the guide, but include some elements of learning to get into self hypnosis, as well as other helpful language, and making sure you come back at the end, etc.",
+   "after": "For information about borrowed adulthood, love that doesn't require trust, practical and relational repair, spiritual struggle, differentiation and mutual peer support, see my Inner Child Self-Love Reparenting Guide. The practices in this post are designed to match with those in the guide, but include some elements of learning to get into self hypnosis, as well as other helpful language, and making sure you come back at the end, etc."
+  },
+  {
+   "block": 775,
+   "where": "Inner-child care and adult capacities, P2",
+   "findings": [
+    "O48"
+   ],
+   "before": "Some of the information in this post is taken from Healing the Divided Self, Phillips and Frederick, 1995, pp 148-153, 171-174, about renurturing work, and how it can be combined with somatic work, and how to develop capacities for nurturing, etc. For information about attunement, and how every child is different and needs to be responded to differently, see Trauma Through a Child's Eyes, Levine and Maggie Kline, especially ch 4, 5, 10, etc, as it talks about actual kids (and this guide is applying this to how to respond to younger feeling states within an adult). The sequence for doing this with borrowed adulthood and the arrangement of 3 functions of adulthood, etc, is not from these authors, however.",
+   "after": "Some of the information in this post comes from Healing the Divided Self, Phillips and Frederick, 1995, pp 148-153, 171-174, about renurturing work, and how it can be combined with somatic work, and how to develop capacities for nurturing, etc. For information about attunement, and how every child is different and needs to be responded to differently, see Trauma Through a Child's Eyes, Levine and Maggie Kline, especially ch 4, 5, 10, etc, as it talks about actual kids (and this guide is applying this to how to respond to younger feeling states within an adult). The sequence for doing this with borrowed adulthood and the arrangement of 3 functions of adulthood, etc, is not from these authors, however."
+  },
+  {
+   "block": 779,
+   "where": "Memory, support, and choosing a practitioner, P1",
+   "findings": [
+    "F21.3"
+   ],
+   "before": "Chapter 7 of Trauma and Memory, by Peter Levine, 2015, is useful on the difference between compelling experience and historical verification. This US Veterans Administration website contains useful general information about hypnosis, such as the fact that it can be very strong and should be carefully used, and that it may result in false memories. This ASCH website contains information about the usefulness of getting certified in hypnosis, and why it doesn't guarantee competence. Links are available for these and other useful groups in the evidence and specialist sections, but they point to their particular claims rather than validating every use of hypnosis.",
+   "after": "Chapter 7 of Trauma and Memory, by Peter Levine, 2015, is useful on the difference between compelling experience and historical verification. This US Department of Veterans Affairs website contains useful general information about hypnosis, such as the fact that it can be very strong and should be carefully used, and that it may result in false memories. This ASCH website contains information about the usefulness of getting certified in hypnosis, and why it doesn't guarantee competence. Links are available for these and other useful groups in the evidence and specialist sections, but they point to their particular claims rather than validating every use of hypnosis."
+  },
+  {
+   "block": 100,
+   "where": "When the adult role is not available yet, P6",
+   "findings": [
+    "F3.5"
+   ],
+   "before": "Return the adult hat, noticing what you borrowed and what you were able to do on your own (even if it’s only 5%).",
+   "after": "Last, return the adult hat, noticing what you borrowed and what you were able to do on your own (even if it’s only 5%).",
+   "markdown": true
+  },
+  {
+   "block": 735,
+   "where": "Appendix I: Sleep hypnosis, P1",
+   "findings": [
+    "F20.5"
+   ],
+   "before": "For sleep, try using this playlist by Nimja",
+   "after": "For sleep, try using [this playlist by Nimja](https://www.youtube.com/watch?v=IqyqE8V2CJg&list=PLZhjR9_8QJZsWUmSS5KpiueoQuq0k-poT).",
+   "markdown": true
+  },
+  {
+   "block": 654,
+   "where": "Finding a hypnotist who can work with you, P3",
+   "findings": [
+    "F17.5"
+   ],
+   "before": "What they will do if things don't fit (if they are treating trauma, did they have specific training on trauma and dissociation? Having hypnosis certifications matters, but doesn't mean they are trained in trauma care)",
+   "after": "- What they will do if things don't fit\n\n- If they are treating trauma, whether they have specific training in trauma and dissociation (having hypnosis certifications matters, but doesn't mean they are trained in trauma care)",
+   "markdown": true
+  },
+  {
+   "block": 601,
+   "where": "Appendix C: The extended de-hypnosis checklist, P3",
+   "findings": [
+    "C-601"
+   ],
+   "before": "Before you do what it wants you to do, see if it does any of the following: create a sense of urgency, secrecy, shame, threat of exclusion if you don’t do what it says, specialness, sexual charge, spiritual superiority, ask you for money, ask you for sex, ask you for loyalty, ask you to be quiet, ask you to obey it, try to limit your choices, make it seem like it’s bad to question it, act like not obeying it is a problem that needs to be solved, make normal life seem boring/stupid/irrelevant in its presence, try to seduce/scare/rescue your inner child, not let your adult self say no.",
+   "after": "Before you do what it wants you to do, check how it’s trying to get you there. Is it rushing you, or telling you to keep things secret? Is it shaming you, or threatening to leave you out if you don’t do what it says? Maybe it makes you feel special, or there’s a sexual charge to it, or a sense that you’re spiritually above everyone else.\n\nThen look at what it wants from you. Is it money, or sex? Your loyalty? Is it asking you to keep quiet, or to obey it?\n\nKeep in mind though, people who mean well can ask for some of these too. A teacher charges for their time, and your partner probably wants your loyalty. If you can say no to them and they’re fine with it, that’s a good sign.\n\nBack to the interrogation:\n\nIs it trying to narrow down your choices? Does questioning it feel like you’re doing something wrong, or does it act like not obeying is a problem you need to fix? Does normal life start to seem boring, stupid or irrelevant when it’s around? Is it trying to seduce, scare or rescue your inner child? And does it try to stop your adult self from saying no?",
+   "markdown": true
+  },
+  {
+   "block": 219,
+   "where": "Soft language can still take away choice, P2",
+   "findings": [
+    "F7.1"
+   ],
+   "before": "",
+   "after": "Here are some of the ways that happens:",
+   "inserted_after": 219
+  },
+  {
+   "block": 505,
+   "where": "Pattern 3: Presuppositions, P1",
+   "findings": [
+    "F14.4"
+   ],
+   "before": "",
+   "after": "Example: ‘Before any part has to change, it can first become more understood.’",
+   "inserted_after": 505
+  },
+  {
+   "block": 280,
+   "where": "The two-hand induction, P2",
+   "findings": [
+    "F8.4",
+    "E297"
+   ],
+   "before": "Let the hand on your heart be your Nurturer and let the hand on your solar plexus be your vulnerable child",
+   "after": "",
+   "deleted": true
+  },
+  {
+   "block": 563,
+   "where": "Perceptual positions — self, other, witness, universal heart, P1",
+   "findings": [
+    "F15.5"
+   ],
+   "before": "Here is a rough outline of the NLP tools and techniques I use:",
+   "after": "",
+   "deleted": true
+  }
+ ],
+ "cards": {
+  "F1.3": 14,
+  "F1.4": 14,
+  "F1.5": 20,
+  "F1.6": 20,
+  "F1.7": 24,
+  "F21.2": 777
+ },
+ "counts": {
+  "paragraphs_changed": 143,
+  "findings_fixed": 109,
+  "findings_his": 9,
+  "findings_not": 4
+ }
+}

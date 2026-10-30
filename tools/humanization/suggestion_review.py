@@ -78,7 +78,7 @@ from html_links import join_split_links  # noqa: E402  (a pasted post card's lin
 TEMPLATE = HERE / 'suggestion_review_template.html'
 FORM_CSS = ROOT / 'project-sources' / 'review-form-controls.css'
 FORMAT = 'joel-suggestion-review-v1'
-GENERATOR = 'suggestion_review.py 1.3 (2026-10-27)'
+GENERATOR = 'suggestion_review.py 1.4 (2026-10-30)'
 ID_OK = re.compile(r'^[A-Za-z0-9][A-Za-z0-9.\-]{0,80}$')
 LINK = re.compile(r'\[([^\]]+)\]\(([^)\s]+)\)')
 EMPH = re.compile(r'(?<![\w*])\*([^*\s][^*]*?)\*(?!\*)')
@@ -347,16 +347,30 @@ def esc(s):
 URL = re.compile(r'https?://[^\s<>"]+')
 
 
+NAMED = re.compile(r'\[([^\]\n]+)\]\((https?://[^\s<>"()]+)\)')
+
+
 def linked(s):
-    """S escaped, with each web address in it a link he can click (a card's why, advice or note)."""
+    """S escaped, with each web address in it a link he can click (a card's why, advice or note). A link written
+    [part A](https://...) shows its name instead of the address, and a line break in S is a line break on the card
+    (2026-10-29: the cards of the hypnosis guide name each Pangram check by its part and list each try on a line)."""
+    def bare(t):
+        out, pos = [], 0
+        for m in URL.finditer(t):
+            url = m.group(0).rstrip('.,;:)')
+            out.append(esc(t[pos:m.start()]))
+            out.append('<a href="%s" target="_blank" rel="noopener noreferrer">%s</a>' % (esc(url), esc(url)))
+            pos = m.start() + len(url)
+        out.append(esc(t[pos:]))
+        return ''.join(out)
+    s = s or ''
     out, pos = [], 0
-    for m in URL.finditer(s or ''):
-        url = m.group(0).rstrip('.,;:)')
-        out.append(esc(s[pos:m.start()]))
-        out.append('<a href="%s" target="_blank" rel="noopener noreferrer">%s</a>' % (esc(url), esc(url)))
-        pos = m.start() + len(url)
-    out.append(esc((s or '')[pos:]))
-    return ''.join(out)
+    for m in NAMED.finditer(s):
+        out.append(bare(s[pos:m.start()]))
+        out.append('<a href="%s" target="_blank" rel="noopener noreferrer">%s</a>' % (esc(m.group(2)), esc(m.group(1))))
+        pos = m.end()
+    out.append(bare(s[pos:]))
+    return ''.join(out).replace('\n', '<br>')
 
 
 def tokens(s):

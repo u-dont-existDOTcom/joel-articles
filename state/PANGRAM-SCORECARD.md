@@ -38,23 +38,23 @@ The boundary mix over all lanes:
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | community article | 1 | 0 (0%) | 0% | 100% | 0% | 0.865 (base 0.000, 1) |
-| hypnosis guide | 30 | 24 (80%) | 80% | 20% | 7% | 0.150 (base 0.160, 30) |
+| hypnosis guide | 34 | 28 (82%) | 82% | 18% | 6% | 0.132 (base 0.145, 34) |
 | nibbana article | 8 | 7 (88%) | 88% | 12% | 0% | 0.086 (base 0.109, 8) |
-| **all lanes** | 39 | 31 (79%) | 79% | 21% | 5% | 0.155 (base 0.163, 39) |
+| **all lanes** | 43 | 35 (81%) | 81% | 19% | 5% | 0.141 (base 0.151, 43) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | community article | 1 | 0 (0%) | 0% | 100% | 0% | 0.865 (base 0.000, 1) |
-| hypnosis guide | 30 | 24 (80%) | 80% | 20% | 7% | 0.150 (base 0.160, 30) |
+| hypnosis guide | 34 | 28 (82%) | 82% | 18% | 6% | 0.132 (base 0.145, 34) |
 | nibbana article | 8 | 7 (88%) | 88% | 12% | 0% | 0.086 (base 0.109, 8) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| article | 27 | 21 (78%) | 81% | 19% | 4% | 0.155 (base 0.151, 27) |
+| article | 31 | 25 (81%) | 84% | 16% | 3% | 0.135 (base 0.135, 31) |
 | stretch | 12 | 10 (83%) | 75% | 25% | 8% | 0.155 (base 0.188, 12) |
 
 ## pangram API (model pangram-4), answered 4.1

@@ -2572,6 +2572,90 @@
     }
    ],
    "reason": "Sentence lengths can be counted, but whether a run reads as a checklist depends on what each sentence does; ChatGPT called the same paragraph's lengths varied. The tell panel's WHOLE: line is its check."
+  },
+  {
+   "id": "W97",
+   "tell": "\"one\" where \"a\" or \"an\" would do, especially \"one small thing\" (the hypnosis guide's \"do one small thing based on it\", \"ask one clear question\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/inner-signal/humanize/fix-20261030/joel-20261030-1435-comments.txt",
+     "quote": "i also notice AI overuses \"one\" where humans often say \"an\" or \"a\". add that to the list of high freq tells. especially \"one small thing\""
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "AI overuses \"one\" where humans often say \"an\" or \"a\" ... especially \"one small thing\"\" (O46)"
+    }
+   ],
+   "rule": "O46",
+   "example": "Integration/exit: reality test the signal and do one small thing based on it."
+  },
+  {
+   "id": "W98",
+   "tell": "\"proof\" and \"prove\" said of a feeling or a signal (\"without interpreting it as proof\", \"it's not proof\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/inner-signal/humanize/fix-20261030/joel-20261030-1435-comments.txt",
+     "quote": "also \"proof\".. \"it's not proof\" \"that doesn't prove\" ... high freq AI"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"proof\".. \"it's not proof\" \"that doesn't prove\" ... high freq AI\" (O43)"
+    }
+   ],
+   "rule": "O43",
+   "example": "Autonomous signal: write whatever you get without interpreting it as proof."
+  },
+  {
+   "id": "W99",
+   "tell": "\"secretly\" and \"silently\" (\"so no answer can secretly mean deeper\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/inner-signal/humanize/fix-20261030/joel-20261030-1435-comments.txt",
+     "quote": "\"secretly/silently\" is an AI tell btw, AI always using those words."
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"secretly/silently\" is an AI tell btw, AI always using those words\" (O47)"
+    }
+   ],
+   "rule": "O47",
+   "example": "At some point you can add this, so no answer can secretly mean deeper."
+  },
+  {
+   "id": "W100",
+   "tell": "passive voice in a run (the audit's \"Are fractionation, cues ... disclosed before they are used?\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/inner-signal/humanize/fix-20261030/joel-20261030-1435-comments.txt",
+     "quote": "passive voice overuse also high freq AI"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"passive voice overuse also high freq AI\" (O48)"
+    }
+   ],
+   "rule": "O48",
+   "example": "Are fractionation, cues, later behavior, or memory effects disclosed before they are used? Were you plainly told that induction mechanics are being used? The exit is followed by a clear statement."
+  },
+  {
+   "id": "J68",
+   "tell": "one long flow in one sound (a run of steps or items in the same shape) with nothing that sounds different to break it",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "articles/inner-signal/humanize/fix-20261030/joel-20261030-1435-comments.txt",
+     "quote": "again it helps to break up one long flow with something that sounds different (check if your name didn't change to Larry), otherwise people start glossing over when reading and it reads more AI."
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "\"break up one long flow with something that sounds different (check if your name didn't change to Larry), otherwise people start glossing over when reading and it reads more AI\""
+    }
+   ],
+   "reason": "Whether a run reads as one flow, and what would sound different in it without breaking its meaning, depends on what the run says and where a reader would gloss over; his fixes were a joke line (\"Hopefully your name didn't suddenly change to Larry.\") and a bridge (\"Continuing with the job interview:\"), which no pattern can choose."
   }
  ]
 }

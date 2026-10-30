@@ -20,8 +20,11 @@ the read after any rewrite of his text, by Emulate or anyone (gate E284).
 `make` splits both versions at the h1 and h2 headings they share (a heading only the rewrite has goes with the shared
 heading before it) into parts of about --words words of the rewrite (1,300 by default: six of the hypnosis guide's
 eleven first readers, given about 2,500 words each, ran out of room before writing anything), and writes PART-k.txt (ORIGINAL then REWRITE),
-BRIEF-k.txt for a fresh reader each (a new agent that has seen nothing else; Sonnet is enough), and PARTS.json. Each
-reader writes READER-k.md.
+BRIEF-k.txt for each part, and PARTS.json. The reader is the lead session's model itself (Opus), reading every part
+beside his: never a cheaper model (gate E294; Joel, 2026-10-30: "is it because you are using dumb readers? not reading it
+yourself?", "looks like you need to read everything again yourself (not sonnet)"; the Sonnet reads of 29 October
+had passed "in waking life" for "to waking life" and "the verb" for "one central verb"). A cheaper model may only lay
+out the pairs. Each part's findings go in READER-k.md.
 
 `collect` reads every READER-k.md into FINDINGS.json: each finding's quote found in the rewrite (its block and paragraph
 number, as the marking page numbers them) and in the original; "same_as_original" when the flagged words are word for

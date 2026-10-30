@@ -1,0 +1,579 @@
+{
+ "spots": [
+  {
+   "id": "T1",
+   "batch": 482,
+   "where": "Quick start: do this first, P2",
+   "whose": "ours",
+   "part": "A",
+   "before": [
+    "AI (Low), window 1 of part A"
+   ],
+   "now": "Human (Medium)",
+   "windows": [
+    "Human Medium 40 words"
+   ],
+   "human": true,
+   "high": false,
+   "new": "Then put the screen away. You’re learning to run the practice yourself, so don’t keep reading along like it’s a checklist."
+  },
+  {
+   "id": "J5",
+   "batch": 483,
+   "where": "Protecting Yourself from Hypnotists, P3",
+   "whose": "his",
+   "part": "A",
+   "before": [
+    "AI (Low), window 5 of part A (2026-10-29 18:18 check)",
+    "AI (Low), window 5 of part A (2026-10-29 19:22 check)"
+   ],
+   "now": "Human (Low)",
+   "windows": [
+    "Human Low 18 words"
+   ],
+   "human": true,
+   "high": false,
+   "new": "All of these (conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent) are separate factors to consider."
+  },
+  {
+   "id": "T2",
+   "batch": 483,
+   "where": "Forget the left-brain/right-brain cartoon, P5",
+   "whose": "ours",
+   "part": "A",
+   "before": [
+    "AI (Low), window 24 of part A"
+   ],
+   "now": "Human (High)",
+   "windows": [
+    "Human High 44 words"
+   ],
+   "human": true,
+   "high": true,
+   "new": "And all of this has got to lead somewhere, to a point where you notice you’re behaving more kindly, you’ve got more humility and better judgment than you had, you’re doing real service, or your ordinary life has gotten more workable."
+  },
+  {
+   "id": "T3",
+   "batch": 482,
+   "where": "Why doing it myself worked better for me, P4",
+   "whose": "ours",
+   "part": "A",
+   "before": [
+    "AI (Low), window 30 of part A"
+   ],
+   "now": "Human (High)",
+   "windows": [
+    "Human High 1230 words"
+   ],
+   "human": true,
+   "high": true,
+   "new": "When I hypnotize myself, though, my dialogue with the system itself is immediate, and that's an advantage nobody outside my own head can duplicate."
+  },
+  {
+   "id": "T4",
+   "batch": 483,
+   "where": "When the adult role is not available yet, P2",
+   "whose": "ours",
+   "part": "A",
+   "before": [
+    "AI (High), window 40 of part A",
+    "AI (High), window 40 of part A"
+   ],
+   "now": "AI (High)",
+   "windows": [
+    "AI High 44 words"
+   ],
+   "human": false,
+   "high": false,
+   "new": "For that starting point, I’ve taken familiar practices like modeling and supported action and built them into a kind of provisional bridge I call “borrowed adulthood,” but I’m not suggesting anyone has formally tested and proven the whole sequence as one treatment."
+  },
+  {
+   "id": "T5",
+   "batch": 483,
+   "where": "Please don’t put six metaphors in one trance, P1",
+   "whose": "ours",
+   "part": "A",
+   "before": [
+    "AI (Low), window 93 of part A"
+   ],
+   "now": "AI (High)",
+   "windows": [
+    "AI High 61 words"
+   ],
+   "human": false,
+   "high": false,
+   "new": "Go into the trance to do one thing, starting from a single anchor or image and having one way of coming back, and set yourself a tone too if you want one (warm, bounded, directed, neutral witnessing, whatever)."
+  },
+  {
+   "id": "T6",
+   "batch": 483,
+   "where": "Please don’t put six metaphors in one trance, P2",
+   "whose": "ours",
+   "part": "A",
+   "before": [
+    "AI (Low), window 96 of part A"
+   ],
+   "now": "AI (High)",
+   "windows": [
+    "AI High 60 words"
+   ],
+   "human": false,
+   "high": false,
+   "new": "(You can borrow qualities like warmth or steadiness as long as you don't change who you are.)"
+  },
+  {
+   "id": "T7",
+   "batch": 483,
+   "where": "Optional fractionation: practice coming back, P1",
+   "whose": "ours",
+   "part": "A",
+   "before": [
+    "AI (Low), window 145 of part A",
+    "AI (High), window 146 of part A"
+   ],
+   "now": "AI (High)",
+   "windows": [
+    "AI High 170 words"
+   ],
+   "human": false,
+   "high": false,
+   "new": "If you’re using fractionation, you come back up toward ordinary awareness and then decide whether to go into absorption again, and if you do it openly it teaches you that a trance has a way out as well as a way in."
+  },
+  {
+   "id": "J1",
+   "batch": 482,
+   "where": "It feels fake, P2",
+   "whose": "his",
+   "part": "A",
+   "before": [
+    "AI (Low), window 166 of part A"
+   ],
+   "now": "Human (High)",
+   "windows": [
+    "Human High 1742 words"
+   ],
+   "human": true,
+   "high": true,
+   "new": "Maybe you've fooled yourself before, and that part of you remembers it."
+  },
+  {
+   "id": "J2",
+   "batch": 482,
+   "where": "Core prompts, P8",
+   "whose": "his",
+   "part": "B",
+   "before": [
+    "AI (Low), window 3 of part B",
+    "AI (High), window 4 of part B"
+   ],
+   "now": "Human (Medium)",
+   "windows": [
+    "Human High 1029 words",
+    "Human Medium 63 words"
+   ],
+   "human": true,
+   "high": false,
+   "new": "It would have to make sense too. And even with all that, I wouldn't do anything big or hard to undo until I'm calm and I've checked it against what I actually know."
+  },
+  {
+   "id": "T8",
+   "batch": 482,
+   "where": "Core prompts, P9",
+   "whose": "ours",
+   "part": "B",
+   "before": [
+    "AI (Low), window 5 of part B",
+    "AI (Low), window 5 of part B"
+   ],
+   "now": "Human (Medium)",
+   "windows": [
+    "Human Medium 63 words"
+   ],
+   "human": true,
+   "high": false,
+   "new": "You use the prompt to tell your subconscious what you want. The NLP in Appendix B can make getting it safer. Even so, that doesn’t mean whatever answer you get is automatically true."
+  },
+  {
+   "id": "T9",
+   "batch": 483,
+   "where": "Pattern 5: Embedded invitations, P1",
+   "whose": "ours",
+   "part": "B",
+   "before": [
+    "AI (High), window 9 of part B",
+    "AI (High), window 9 of part B"
+   ],
+   "now": "AI (High)",
+   "windows": [
+    "AI High 30 words"
+   ],
+   "human": false,
+   "high": false,
+   "new": "To write an embedded invitation you take a small direction, one that invites a modest inner movement and doesn't hide a demand, and put it inside a larger sentence."
+  },
+  {
+   "id": "T10",
+   "batch": 482,
+   "where": "Pattern 6: Ethical double binds, P1",
+   "whose": "ours",
+   "part": "B",
+   "before": [
+    "AI (Low), window 12 of part B"
+   ],
+   "now": "Human (High)",
+   "windows": [
+    "Human High 351 words"
+   ],
+   "human": true,
+   "high": true,
+   "new": "A Manipulative Double Bind Question is rigged so that you wind up doing what the speaker wants, whatever answer you give."
+  },
+  {
+   "id": "T11",
+   "batch": 482,
+   "where": "Pattern 6: Ethical double binds, P2",
+   "whose": "ours",
+   "part": "B",
+   "before": [
+    "AI (Medium), window 13 of part B"
+   ],
+   "now": "Human (High)",
+   "windows": [
+    "Human High 351 words"
+   ],
+   "human": true,
+   "high": true,
+   "new": "An ethical double bind gives you two ways to go, and both of them are actually safe."
+  },
+  {
+   "id": "T12",
+   "batch": 483,
+   "where": "Reframing — changing the meaning without lying, P1",
+   "whose": "ours",
+   "part": "B",
+   "before": [
+    "AI (Low), window 20 of part B"
+   ],
+   "now": "AI (High)",
+   "windows": [
+    "AI High 12 words",
+    "AI Medium 10 words"
+   ],
+   "human": false,
+   "high": false,
+   "new": "Instead I’d have you ask yourself What else might be true? or What is this part trying to do for me?"
+  },
+  {
+   "id": "T13",
+   "batch": 482,
+   "where": "What I will not use NLP for, P3",
+   "whose": "ours",
+   "part": "B",
+   "before": [
+    "AI (Low), window 28 of part B"
+   ],
+   "now": "Human (Low)",
+   "windows": [
+    "Human Low 16 words"
+   ],
+   "human": true,
+   "high": false,
+   "new": "I won’t tell anyone to override their fear without first asking what it’s protecting."
+  },
+  {
+   "id": "T14",
+   "batch": 482,
+   "where": "Body supports, P1",
+   "whose": "ours",
+   "part": "B",
+   "before": [
+    "AI (Low), window 51 of part B",
+    "AI (High), window 52 of part B"
+   ],
+   "now": "Human (Low)",
+   "windows": [
+    "Human Medium 33 words",
+    "Human Low 18 words"
+   ],
+   "human": true,
+   "high": false,
+   "new": "You’ve got lots of other options for the body too, like heat, pressure, a weighted blanket, darkness, your favorite calming music, or a massage gun if you’re careful with it, etc. Use whatever actually helps you, and don’t go surrounding the anxiety with a heap of wellness stuff."
+  },
+  {
+   "id": "J3",
+   "batch": 483,
+   "where": "Inner child love, P1",
+   "whose": "his",
+   "part": "B",
+   "before": [
+    "AI (Medium), window 58 of part B",
+    "AI (High), window 59 of part B"
+   ],
+   "now": "AI (High)",
+   "windows": [
+    "AI High 56 words"
+   ],
+   "human": false,
+   "high": false,
+   "new": "If there’s no warmth today, just rest your hands there without faking anything and notice what you find."
+  },
+  {
+   "id": "T15",
+   "batch": 483,
+   "where": "Inner child love, P1",
+   "whose": "ours",
+   "part": "B",
+   "before": [
+    "AI (Low), window 56 of part B",
+    "AI (High), window 57 of part B",
+    "AI (High), window 57 of part B"
+   ],
+   "now": "AI (High)",
+   "windows": [
+    "AI High 56 words"
+   ],
+   "human": false,
+   "high": false,
+   "new": "You don’t have to fix it, I’m here now, and the adult is here now to listen to you,” and make sure you’re actually talking to your inner child, who is scared to death."
+  },
+  {
+   "id": "T16",
+   "batch": 482,
+   "where": "Appendix G: Altered states, P3",
+   "whose": "ours",
+   "part": "B",
+   "before": [
+    "AI (Low), window 71 of part B"
+   ],
+   "now": "Human (Low)",
+   "windows": [
+    "Human Low 21 words"
+   ],
+   "human": true,
+   "high": false,
+   "new": "While you're building a way to reach love on a normal day, let that experience show you what can happen."
+  },
+  {
+   "id": "J4",
+   "batch": 482,
+   "where": "A response check, not a verdict about what it is, P4",
+   "whose": "his",
+   "part": "B",
+   "before": [
+    "AI (High), window 76 of part B"
+   ],
+   "now": "Human (High)",
+   "windows": [
+    "Human High 1775 words"
+   ],
+   "human": true,
+   "high": true,
+   "new": "Just keep an eye on whether the way you’re responding to it helps you get clearer and steadier and less hooked."
+  },
+  {
+   "id": "T17",
+   "batch": 483,
+   "where": "9. No-trance inner contact, P1",
+   "whose": "ours",
+   "part": "B",
+   "before": [
+    "AI (Low), window 86 of part B",
+    "AI (Low), window 87 of part B",
+    "AI (Low), window 87 of part B",
+    "AI (Low), window 87 of part B",
+    "AI (Low), window 88 of part B"
+   ],
+   "now": "AI (High)",
+   "windows": [
+    "AI High 127 words"
+   ],
+   "human": false,
+   "high": false,
+   "new": "Autonomous signal: you write down whatever you get (a word, sensation, impulse, objection, or silence), and you don't treat it as proof. Deepener: none here, though being fully alert isn't a lesser version. Handoff: have your adult self answer the question in whatever way is appropriate, and I'd rather that answer come through writing or doing something. Integration/exit: once you've reality tested the signal, do one small thing based on it. You just close the exercise there and carry on with your day, since you didn't go into trance."
+  }
+ ],
+ "red_elsewhere": [
+  {
+   "part": "A",
+   "reading": "AI (High)",
+   "words": 31,
+   "text": "I was sober at the session and didn’t feel especially suggestible, but I suspect that’s not even the main reason the pro didn’t work very well for me.",
+   "red_last_time": true
+  },
+  {
+   "part": "A",
+   "reading": "AI (Medium)",
+   "words": 7,
+   "text": "The bigger issue was trust and precision.",
+   "red_last_time": true
+  },
+  {
+   "part": "A",
+   "reading": "AI (Low)",
+   "words": 3,
+   "text": "Keep it simple.",
+   "red_last_time": true
+  },
+  {
+   "part": "A",
+   "reading": "AI (Medium)",
+   "words": 7,
+   "text": "Using metaphors and imagery is entirely optional.",
+   "red_last_time": true
+  },
+  {
+   "part": "A",
+   "reading": "AI (High)",
+   "words": 55,
+   "text": "You can use whatever form of signal shows up (feelings, rhythms, movements, words, spatial sense, simple knowing, lack of signal, whatever) but if you’re using words, try to keep them related to whatever world you’re creating. If you’re going to count, do it in a way that makes sense in your world.",
+   "red_last_time": true
+  },
+  {
+   "part": "A",
+   "reading": "AI (Medium)",
+   "words": 10,
+   "text": "And when you’re done, come back the other way.",
+   "red_last_time": true
+  },
+  {
+   "part": "A",
+   "reading": "AI (Medium)",
+   "words": 12,
+   "text": "Long, elegant sentences don’t read well when you’re being induced.",
+   "red_last_time": true
+  },
+  {
+   "part": "A",
+   "reading": "AI (Low)",
+   "words": 5,
+   "text": "It’s all just soup.",
+   "red_last_time": false
+  },
+  {
+   "part": "A",
+   "reading": "AI (Low)",
+   "words": 30,
+   "text": "Contain before you deepen” can be used to help orient you if you’re already open, but don’t use it to make yourself deeper if you’re not stable.)",
+   "red_last_time": false
+  },
+  {
+   "part": "A",
+   "reading": "AI (Low)",
+   "words": 15,
+   "text": "Deciding to do it: how will you coax yourself to do this? Make it spacious?",
+   "red_last_time": false
+  },
+  {
+   "part": "A",
+   "reading": "AI (Low)",
+   "words": 5,
+   "text": "Make it warm and held?",
+   "red_last_time": false
+  },
+  {
+   "part": "A",
+   "reading": "AI (Low)",
+   "words": 12,
+   "text": "Instead of getting more relaxed with the hypnosis, try getting more alert.",
+   "red_last_time": false
+  },
+  {
+   "part": "A",
+   "reading": "AI (Low)",
+   "words": 4,
+   "text": "Keep your eyes open.",
+   "red_last_time": false
+  },
+  {
+   "part": "A",
+   "reading": "AI (High)",
+   "words": 16,
+   "text": "Pair a small repeated hand movement with increasing clarity; stop the movement and notice what remains.",
+   "red_last_time": true
+  },
+  {
+   "part": "A",
+   "reading": "AI (Medium)",
+   "words": 5,
+   "text": "Don’t escape inside yourself.",
+   "red_last_time": true
+  },
+  {
+   "part": "A",
+   "reading": "AI (Low)",
+   "words": 14,
+   "text": "Say something like,\n“Starting with your eyes open press your thumb to your forefinger.",
+   "red_last_time": false
+  },
+  {
+   "part": "A",
+   "reading": "AI (Low)",
+   "words": 13,
+   "text": "“Love above, Child below, Adult present”\n“Sending my love down to my Child.",
+   "red_last_time": false
+  },
+  {
+   "part": "A",
+   "reading": "AI (Medium)",
+   "words": 47,
+   "text": "If something comes back up, I let it, and send my love on down again. If nothing comes back, I just keep sending mine, and listening.”\nSleep induction is different than inner work, where you need to come back up to write things down and do actions.",
+   "red_last_time": false
+  },
+  {
+   "part": "A",
+   "reading": "AI (Low)",
+   "words": 13,
+   "text": "You can tell your analytical mind to stand down, any revelations can wait.",
+   "red_last_time": false
+  },
+  {
+   "part": "B",
+   "reading": "AI (Medium)",
+   "words": 15,
+   "text": "Reframes are dishonest when they make the problem into something that was good all along.",
+   "red_last_time": true
+  },
+  {
+   "part": "B",
+   "reading": "AI (Low)",
+   "words": 7,
+   "text": "or How might my Nurturer reframe this?",
+   "red_last_time": false
+  },
+  {
+   "part": "B",
+   "reading": "AI (High)",
+   "words": 120,
+   "text": "Before accepting a recording or live suggestion, ask:\nWas I plainly told that induction mechanics are being used?\nCan at least one answer lead to pause, modification, full alertness, or stopping?\nDoes the speaker treat not noticing as secret proof that the process worked?\nAre roles, ownership, obedience, age, identity, or belonging being used to lower adult judgment?\nAre fractionation, cues, later behavior, or memory effects disclosed before they are used?\nAre ordinary body sensations being turned into evidence for a hidden claim?\nDoes the exit restore ordinary identity, movement, orientation, and critical judgment—and plainly say that the session has ended?\nWhen an answer is unclear, stay fully alert. Ask for the exact script, change the method, or leave.",
+   "red_last_time": true
+  },
+  {
+   "part": "B",
+   "reading": "AI (Low)",
+   "words": 6,
+   "text": "Here is some inner child love.",
+   "red_last_time": false
+  },
+  {
+   "part": "B",
+   "reading": "AI (Medium)",
+   "words": 28,
+   "text": "Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone.",
+   "red_last_time": true
+  },
+  {
+   "part": "B",
+   "reading": "AI (Medium)",
+   "words": 28,
+   "text": "Choice: you can answer the question, write an answer, write that you don’t know, take a break, rephrase the question, ask someone else, stop doing this, etc.",
+   "red_last_time": true
+  },
+  {
+   "part": "B",
+   "reading": "AI (Low)",
+   "words": 12,
+   "text": "This combination is not a validated form of treatment at this time.",
+   "red_last_time": false
+  }
+ ]
+}
