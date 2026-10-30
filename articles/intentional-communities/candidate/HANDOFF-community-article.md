@@ -11,6 +11,16 @@ From an account with Desktop Commander connected to the laptop, the laptop copy 
 
 ## START HERE
 
+**His message of 2026-10-30 20:15 UTC, in the hypnosis guide lane** (`articles/inner-signal/humanize/fix-20261030/joel-20261030-2015-message.txt`):
+"i guess we need to go back and re-read the community article as well after this then". The hypnosis guide's own read by
+the lead model had found 122 places the Sonnet reads passed (gate E294), and most of this article's meaning reads ran on
+Sonnet too. The full read is set up: `fullread-20261030/PLAN.md` (ten parts from `compare_read.py make`, `master.md`
+beside `original.md`; the live post, "Updated: Oct 25 2026", matches `master.md` paragraph for paragraph as of
+2026-10-30). **Next:** after the hypnosis guide's next cards page ("after this"), the lead model reads the ten parts
+(never Sonnet), then `compare_read.py collect --git-path articles/intentional-communities/master.md` (each finding's
+`changes`, E301), every finding checked against his decisions, and the fixes on his marking page as exact Substack
+edits, since the post is live.
+
 **His message of 2026-10-26 00:54 UTC** (`joel-20261025/joel-20261026-0054-message.txt`): "and i made the changes on the community article that's done". Done (pull request 254, https://github.com/u-dont-existDOTcom/joel-articles/pull/254): his post read in the app's browser (https://community.u-dont-exist.com redirects to it) and compared line by line with `joel-20261025/answer66/WORKING.html`'s checked text: 270 of 272 lines equal, the two others differ only by a space the post drops; all five new sentences are there (`answer66/PROMOTE-CHECK-20261026.json`). `joel-20261025/promote_20261026.py` (a copy of the last promotion for this version) made `master.md` from it and set the receipt, owner locks, editorial status, detector evidence (478g), current state and registry hashes.
 - The questions page (https://claude.ai/artifact/1EA9KBhMGXHXiiTUGScx1J) is republished from `community-questions.html`: nothing open.
 - **Next:** nothing is open in this lane. If he edits the post again, read it the same way against the working copy, put his changes into a new working copy with a script, and promote it as `promote_20261026.py` did.

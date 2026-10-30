@@ -1702,7 +1702,63 @@ dispositions taught:
   F17.2 stay out). The new sentences go through `tells_lint.py --installed` (the guide before the fixes), so only they
   are flagged.
 
-(The next lesson in either lane is E301.)
+(The next lesson in either lane was E301 here; it is in the next section.)
+
+## What the recheck of 2026-10-30 showed (the hypnosis guide, read after his message of 20:15 UTC)
+
+His two results: part A ([fc1d8dae](https://www.pangram.com/feed/fc1d8dae-ed2b-4050-9c0b-5c1571dc3548)), Mostly Human
+Written, 1.3% AI, 8 AI windows where the last check had 23; part B
+([48eed31c](https://www.pangram.com/feed/48eed31c-7ff5-4392-887c-92663cd6aea8)), 2.3% AI, 6 where it had 12
+(`articles/inner-signal/humanize/fix-20261030/recheck/read/`: RESULT, CONFIDENCE.md, SPOTS.md). His versions of 30 October:
+36 of their 37 paragraphs read Human in place, 19 at High; the one AI (R-509) sits in a window that starts with a sentence
+I'd restored. My fixes from the full read, read in place by the kind of problem they fixed: garbled sentences 1 AI in 80
+readings (64 High), unclear ones 3 in 27, vaguer ones 1 in 13, lost points brought back 4 in 19.
+
+- **E301. Before you restore a point, read every change to its paragraph and every earlier verdict on it.** E298's check
+  reads the commit the words came in with, and that isn't always where the point left. F1.10 brought back "forces ...
+  already training your mind" as a list, which Joel had cut as a repeat on 25 October (card RP-1.4: "after the marketers
+  paragraph and the Silva line have said it"); the commit `compare_read.py collect` showed was the 29 October install.
+  F10.1 and F11.5 brought back points my own check of 28 October had found said already
+  (`fix-20261028/comprehension/AUDIT.md`: F6a.1, "clear guidance in its own words"; F6b.12, "the section's first
+  paragraph says it"). All three read AI, and all three come out again (`fix-20261030/tries/`). A point he cut stays out
+  (E298), and so does one an earlier read found said already, unless the words that said it have changed since.
+  `compare_read.py collect` now gives each finding every commit that changed its paragraph, newest first, with the
+  sentences each one dropped and added (`changes`; on F1.10 it shows the 25 October commit dropping "As you're certainly
+  aware there are many, many forces at work in the world that are already training your mind"). Read them, and the
+  earlier reads' verdicts on the same point, before restoring it.
+- **E302. A restored point brings AI back, and the red spreads to words nobody changed.** Of every kind of fix,
+  restorations read AI most (4 in 19, against 1 in 80 for commas and wrong words), and 8 of the recheck's 14 AI windows sit
+  on restored points. Words beside them that read High or Medium on 29 October read AI this time with nothing in them
+  changed: the double-bind definitions and the weekend-course line after Patterns 2 to 4 (where a definition, an example
+  list and a colon reveal had come back), and the three "Show me" asks after the restored silence line. A window that
+  read High broke into small ones around each restored sentence (part A's 1,791-word window over the response section
+  became nine). So a lost point comes back only where nothing nearby says it, and in the shape of his versions (E303),
+  never in the published wording: the why or an example instead of a definition on its own, a colon list said the way it
+  would be spoken, the better version led into the way his reframing paragraph does ("So we might arrive at, ...").
+- **E303. What his versions do that the writers' tries didn't.** Each of his 19 versions of 30 October beside the words
+  it replaced, 8 of them beside both writers' tries for the same words (`fix-20261030/recheck/read/HIS-STUDY.md`): the
+  writers rearranged the same content (a sentence split or joined, a clause moved, "It's fine to" for "You can"), and
+  those tries read AI. He changed what the paragraph does, and 36 of 37 of his paragraphs read Human in place:
+  - he cut the hedge or the filler instead of rewording it (T1's "Give yourself a chunk of time"; R-96's "not ... formally
+    tested and proven as one treatment"; R-289's "so no answer can secretly mean deeper");
+  - he said what an abstract word means in experience (N-65's "trust and precision" became "how much I trusted him (I
+    noticed my analytical mind was checking everything he suggested), and whether he knew the right buttons to press for
+    me as a unique human being");
+  - he gave each abstract term an example, often a funny one (N-239's "like "letting go"" and "fluffy"; R-238's
+    raindrops; R-561's "It's good nobody loves me" with the honest reframe it could become; J5's TikTok sign-up; N-243's
+    "swimming with the fishies");
+  - he said what a step is for (N-276's "That hand movement is the mental escape into the body's flow"; R-289's "a
+    revolving door ... rather than "flying blind"");
+  - he turned a slogan or a run of labels into instructions and short paragraphs that start differently (N-282's "Love
+    above, Child below, Adult present" became "Imagine a divine Love from above ..."; R-755's label-and-colon run became
+    seven paragraphs);
+  - he named a real source, or undercut a formal line with a joke (R-96's Schema Therapy; N-757's Cochrane medal).
+  Ours to copy: the cut, the uncompressing, the why, an example that only illustrates a point the guide makes, and the
+  broken run. Not ours: his life ("That literally has happened to people I know"), a joke about himself, a source he
+  hasn't named; a try that needs one goes to him as a card. The writers' brief (`docs/EMULATE-FALLBACK.md` section 1)
+  carries the list.
+
+(The next lesson in either lane is E304.)
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 

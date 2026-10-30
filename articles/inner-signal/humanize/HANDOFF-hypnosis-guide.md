@@ -18,6 +18,13 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-10-30 20:15 UTC: restored points read AI; tries follow his versions' shape.** The recheck after the full read
+  went from 23 AI windows to 8 (part A) and 12 to 6 (part B), and 36 of the 37 paragraphs of his own versions read Human
+  in place. Most of the red was on points the full read brought back, and it spread to words nobody changed (E302): one
+  of them he had cut himself on 25 October (RP-1.4), two an earlier read had found said already, so before restoring a
+  point, read every change to its paragraph and the earlier verdicts (E301; `compare_read.py collect` now lists the
+  changes). New tries change what a paragraph does, the way his do (E303: cut the hedge, say what an abstract word means,
+  give an example, say what a step is for), never just move its words around.
 - **2026-10-30: the read beside his text is the lead model's own (E294), and it caught 122 problems.** After his
   answers of 14:35 UTC ("is it because you are using dumb readers? not reading it yourself?", "looks like you need to
   read everything again yourself (not sonnet)", "we should be ADDING clarity, not losing it"), the lead model read the
@@ -145,8 +152,11 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: **the Pangram results of the recheck of 30 October**, two links he opens in his Chrome with the Pangram
-extension (`fix-20261030/recheck/RECHECK-POST-A.json` and `-B.json`; on his questions page). His answers to [Hypnosis
+The guide: **the Pangram results of the next recheck** (pasted 2026-10-30 at 21:04 UTC after his message of 20:15),
+two links he opens in his Chrome with the Pangram extension (`fix-20261030/tries/RECHECK-POST-A.json` and `-B.json`;
+on his questions page). His results of the recheck before it came at 20:15 and are read (`fix-20261030/recheck/read/`).
+Merging pull request 264 here, and the universal architecture's pull request 450 (the judgment bound in the
+delegation pattern, which he opened; its checks pass), are his. His answers to [Hypnosis
 Guide Cards](https://claude.ai/artifact/SxZ3CYESSGw1KWJp46mRAG) came on 2026-10-30 at 14:35 UTC and are in. One
 question on his page: which list his audit comment meant ("apply the fix strategy I used above on the below:", with
 nothing after it); I took Appendix C's "any of the following" list and the recheck tests my version of it. The 83 cards of the Hypnosis Guide Editor
@@ -240,7 +250,40 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-10-30, after Joel's answers of 14:35 UTC: his answers in, my full read and its fixes in, the recheck pasted; its Pangram results wait on him)
+## Next step (2026-10-30, after Joel's message of 20:15 UTC: the recheck read; lessons E301 to E303; the next round's tries pasted; their Pangram results wait on him)
+
+His message, word for word: `fix-20261030/joel-20261030-2015-message.txt`. Done (pull request
+[264](https://github.com/u-dont-existDOTcom/joel-articles/pull/264); STATUS.md's entry after 20:15 has every file):
+- **The recheck read** (`fix-20261030/recheck/read/`): part A 1.3% AI, 8 AI windows; part B 2.3% AI, 6; HG-whole#81 and
+  HG-rest-B#82 right. His versions: 36 of 37 paragraphs Human in place, 19 at High (SPOTS.md; HIS-STUDY.md has each
+  beside the words it replaced and the writers' tries).
+- **Lessons E301 to E303** (`docs/HUMANIZATION-GATE.md`); the writers' first rules in `docs/EMULATE-FALLBACK.md` section
+  1; `compare_read.py collect` gives each finding its paragraph's `changes`.
+- **The tries** (`fix-20261030/tries/`, TRIES.json; my read of each, `tries/read/READ.md`): three restored sentences
+  taken back (T-35, T-337, T-374), six new tries in our words (T-339, T-495, T-249, T-503, T-505, T-508), two suggestions
+  for his words (S-162, S-382); the last recheck's four suggestions (S-14, S-20, S-24, S-782) still in. The working copy
+  is unchanged: all of these go on his cards page with their readings.
+- **The recheck** built, forecast (FORECAST-A/B.json), predicted (HG-whole#83, try 15; HG-rest-B#84, try 13), pasted from
+  commit a17f58b8 and checked as rendered (`tries/RECHECK-POST-A.json`, `-B.json`: cache keys recheck-a-30b and
+  recheck-b-30b; part B's rendered text is `tries/RENDERED-B.txt`, the card line and R-561's quote as before).
+
+Next:
+1. **Read the results** when his two links come, into `fix-20261030/tries/read/`, as `fix-20261030/recheck/read/` was read
+   (`pangram_feed_read.js` compact into META and WINDOWS; a copy of `recheck/read/make_results.py`, its R561 exception
+   and part B's embeds; `window_confidence.py`; `part_forecast.py score`; `pangram_ledger.py result` for #83 and #84 with
+   `--sha` of the predicted TEXT-B; a copy of `recheck/read/spots_30.py` that reads TRIES.json for each try's reading).
+2. **His cards page** (suggestion_review.py 1.4), published from this account with its Markdown copy in Git: the 11 tries
+   and the 4 standing suggestions, each with how it read in place (a card says "reads Human" only at High, E295); the
+   take-backs as cards that say why; Appendix C's rewritten list with its reading (informational); S-636 (the exercise
+   named instead of taught again). A try that reads AI or below High gets one more try in his shape (E303) first, or goes
+   to him as a stretch to edit with what was tried.
+3. **Then the community article's full read** (Joel: "i guess we need to go back and re-read the community article as
+   well after this then"): `articles/intentional-communities/candidate/fullread-20261030/PLAN.md` (ten parts made; the
+   lead model reads, never Sonnet; the post is live, so fixes go on his marking page as exact Substack edits).
+4. When the guide goes into his post: Substack's editor curls a straight quote after "(" as a closing quote (his R-561
+   example); the payload for his post wants the curly opening quote.
+
+## Earlier next step (2026-10-30, after Joel's answers of 14:35 UTC: his answers in, my full read and its fixes in, the recheck pasted; its Pangram results wait on him)
 
 His message and comments, word for word: `fix-20261030/joel-20261030-1435-message.txt` and
 `fix-20261030/joel-20261030-1435-comments.txt`. Done (STATUS.md's entry after 14:35 has every file): his answers in

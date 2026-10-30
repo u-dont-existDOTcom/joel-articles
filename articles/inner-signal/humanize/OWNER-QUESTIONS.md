@@ -1,9 +1,9 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-30, after your answers to the cards page (14:35 UTC).
-**Open questions: 1.** **For you to do**: open the two recheck links and send me Pangram's results. The questions are at
-the top, with their options and my default; under them is what you decided and what I did with it. Colours: 🟣 a question
-for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
+Last updated 2026-10-30, after your message of 20:15 UTC (the recheck's two results).
+**Open questions: 1.** **For you to do**: open the two new recheck links and send me Pangram's results. The questions are
+at the top, with their options and my default; under them is what you decided and what I did with it. Colours: 🟣 a
+question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts can
 read and update it. Every file it points to is a link.
@@ -25,14 +25,39 @@ changed under them, so the rechecks decide; you don't need to mark them.
 
 ## For you to do
 
-- 🟠 **Open the recheck in your Chrome and run the Pangram extension on each** (as before: click the Pangram label, then
-  View Full Analysis, and send me the two result links):
-  - [Recheck A (the guide)](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-30&audience=only_paid&free_preview=false&freemail=)
-  - [Recheck B (the rest of the guide and the appendices)](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-30&audience=only_paid&free_preview=false&freemail=)
+- 🟠 **Open the new recheck in your Chrome and run the Pangram extension on each** (as before: click the Pangram label,
+  then View Full Analysis, and send me the two result links):
+  - [Recheck A (the guide)](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-30b&audience=only_paid&free_preview=false&freemail=)
+  - [Recheck B (the rest of the guide and the appendices)](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-30b&audience=only_paid&free_preview=false&freemail=)
 
-  They hold the guide with your answers in, the fixes from my read, and my suggestions for four of your paragraphs, so
-  the results tell us how your versions read in place (what I learn from) and which spots still need work. Your next
-  cards page comes with those results.
+  They hold eleven changes: three of my restored sentences taken back out, six new tries in our words, and two
+  suggestions for your own words ([my read of each beside your published version](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/tries/read/READ.md)). Your next cards page
+  comes with those results.
+- 🟠 **When you like: merge** [pull request 264](https://github.com/u-dont-existDOTcom/joel-articles/pull/264) here, and
+  [pull request 450](https://github.com/u-dont-existDOTcom/universal-dev-architecture/pull/450) in the universal
+  architecture (the "not Sonnet" rule; its checks pass now).
+
+## Your message of 2026-10-30 20:15 UTC, and what I did
+
+Your message, word for word: [20:15](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/joel-20261030-2015-message.txt).
+
+- 🟢 **The recheck, read.** Part A: [Mostly Human Written, 1.3% AI](https://www.pangram.com/feed/fc1d8dae-ed2b-4050-9c0b-5c1571dc3548) (try 14): 175 windows,
+  8 AI (6 Low, 2 High), 167 Human (73 High, 69 Medium, 25 Low); the last check had 23 AI. Part B: [Mostly Human
+  Written, 2.3% AI](https://www.pangram.com/feed/48eed31c-7ff5-4392-887c-92663cd6aea8) (try 12): 75 windows, 6 AI (1 Low, 3 Medium, 2 High), 69 Human (33 High, 29
+  Medium, 7 Low); the last had 12 ([each spot](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/recheck/read/SPOTS.md); [every window, with its confidence](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/recheck/read/CONFIDENCE.md)).
+- 🟢 **Your versions**: 36 of their 37 paragraphs read Human in place, 19 at High; your audit Human all the way through.
+  The one AI (embedded invitations) sits in a window that starts with a sentence I'd restored just above it.
+  [Each of yours beside the words it replaced and the writers' tries](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/recheck/read/HIS-STUDY.md).
+- 🟢 **Appendix C's list**, done your way: Human (4 windows High, 1 Medium).
+- 🟢 **What I learned**: most of the red sat on points I'd restored, and it spread to words nobody changed. One of those
+  points you had cut yourself on 25 October; two my own earlier check had found said already. The read tool now lists
+  every change to a paragraph before a point comes back. And your versions change what a paragraph does (cut the hedge,
+  say what an abstract word means, give an example, say what a step is for), where the writers only moved words around.
+  Those are the writers' first rules now.
+- 🟢 **Your pull request** in the universal architecture: its checks wanted a task record and then the test results in a
+  set format; both pushed, all checks pass.
+- 🔵 **The community article**: yes, I think it needs the same read. Most of its meaning reads ran on Sonnet, and the
+  post is live, so a missed error is public. It's set up for right after your next cards page ([the plan](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/fullread-20261030/PLAN.md)).
 
 ## Your answers of 2026-10-30 14:35 UTC, and what I did
 

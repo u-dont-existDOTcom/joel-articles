@@ -261,7 +261,7 @@ def parse_reader(raw, part):
 
 
 def history(git_path, cwd):
-    """[(sha, date, subject, the rewrite's text at that commit, loosened)], oldest first."""
+    """[(sha, date, subject, the rewrite's text at that commit, loosened, its paragraphs as written)], oldest first."""
     log = subprocess.run(['git', 'log', '--reverse', '--format=%H\t%cI\t%s', '--', git_path], cwd=cwd,
                          capture_output=True, text=True, check=True).stdout.splitlines()
     out = []
@@ -269,7 +269,46 @@ def history(git_path, cwd):
         sha, date, subj = line.split('\t', 2)
         md = subprocess.run(['git', 'show', '%s:%s' % (sha, git_path)], cwd=cwd, capture_output=True,
                             text=True).stdout
-        out.append((sha, date, subj, '\n'.join(loose(b['text']) for b in sr.blocks(md))))
+        bl = [b['text'] for b in sr.blocks(md) if not b['level']]
+        out.append((sha, date, subj, '\n'.join(loose(b['text']) for b in sr.blocks(md)), bl))
+    return out
+
+
+def changes(text, hist, min_overlap=0.4):
+    """Every commit that changed the paragraph TEXT is in, newest first, with the sentences it dropped and added (gate
+    E301: before a lost point comes back, see whether a card of his, or an earlier read, took it out). The paragraph is
+    followed back through HIST (history(), oldest first) by its words: at each older commit, the paragraph sharing most
+    words with the one after it, if they share at least MIN_OVERLAP of their words."""
+    def wset(s):
+        return set(loose(s).split())
+
+    versions, cur = [], wset(text)
+    for entry in reversed(hist):
+        paras = entry[4] if len(entry) > 4 else []
+        best, score = None, 0.0
+        for p in paras:
+            w = wset(p)
+            if w and cur:
+                j = len(w & cur) / len(w | cur)
+                if j > score:
+                    best, score = p, j
+        if best is None or score < min_overlap:
+            break
+        versions.append((entry[0], entry[1], entry[2], best))
+        cur = wset(best)
+    out = []
+    for newer, older in zip(versions, versions[1:]):
+        if loose(newer[3]) == loose(older[3]):
+            continue
+        ns = {loose(s) for s in sentences(newer[3])}
+        os_ = {loose(s) for s in sentences(older[3])}
+        out.append({'sha': newer[0][:8], 'date': newer[1][:10], 'subject': newer[2][:140],
+                    'dropped': [s for s in sentences(older[3]) if loose(s) not in ns],
+                    'added': [s for s in sentences(newer[3]) if loose(s) not in os_]})
+    if versions:
+        first = versions[-1]
+        out.append({'sha': first[0][:8], 'date': first[1][:10], 'subject': first[2][:140], 'first_seen': True,
+                    'text': first[3]})
     return out
 
 
@@ -279,10 +318,10 @@ def origin(text, hist, orig_joined):
         return None
     if all(p in orig_joined for p in ps):
         return {'sha': None, 'date': None, 'subject': 'as published'}
-    for sha, date, subj, joined in hist:
+    for sha, date, subj, joined, *_ in hist:
         if all(p in joined for p in ps):
             return {'sha': sha[:8], 'date': date[:10], 'subject': subj[:140]}
-    for sha, date, subj, joined in hist:
+    for sha, date, subj, joined, *_ in hist:
         if sum(p in joined for p in ps) * 2 >= len(ps):
             return {'sha': sha[:8], 'date': date[:10], 'subject': subj[:140], 'partial': True}
     return None
@@ -332,6 +371,8 @@ def collect(outdir, git_path=None, owner=(), cwd=None):
             long_ = [q for q in ps if len(q) >= 20]
             r['owner_words'] = bool(mine) and bool(long_) and all(q in mine for q in long_)
             r['origin'] = origin(r['now'], hist, orig_joined) if hist else None
+            if hist and r['now_blocks']:
+                r['changes'] = changes(rew[r['now_blocks'][0]]['text'], hist)
             findings.append(r)
     counted = [r for r in findings if not r['same_as_original']]
     hit = collections.defaultdict(int)
