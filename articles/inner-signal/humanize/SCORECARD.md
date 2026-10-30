@@ -177,8 +177,8 @@ The latest:
 
 | lineage | scope | tries | last read |
 |---|---|---|---|
-| HG-whole | article | 13 of unlimited (Substack) | Mixed |
-| HG-rest-B | article | 11 of unlimited (Substack) | Mixed |
+| HG-whole | article | 14 of unlimited (Substack) | pending |
+| HG-rest-B | article | 12 of unlimited (Substack) | pending |
 | HG15-p9 | paragraph | 2 of 6 | Mixed |
 | HG15 | section | 1 of 2 | Mixed |
 | HG35 | section | 1 of 2 | Mixed |
