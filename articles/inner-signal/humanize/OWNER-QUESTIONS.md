@@ -1,36 +1,62 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-29, after batch 483's recheck (your links of 22:23 UTC) and your cards page.
-**Open questions: 0.** **For you to do**: mark the cards page. The questions are at the top, with
-their options and my default; under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠
-something for you to do; 🔵 next or in progress; 🟢 done or decided.
+Last updated 2026-10-30, after your answers to the cards page (14:35 UTC).
+**Open questions: 1.** **For you to do**: open the two recheck links and send me Pangram's results. The questions are at
+the top, with their options and my default; under them is what you decided and what I did with it. Colours: 🟣 a question
+for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts can
 read and update it. Every file it points to is a link.
 
 ## Open questions
 
-None right now. Question 26 (Emulate) stays withdrawn: you're rewriting the hard places yourself, and what your versions
-teach comes before any purchase (E293). If the rest still won't read Human after that, I'll bring 26 back with what your
-versions showed.
+- 🟣 **27. Which list did you mean?** Your comment on the audit card ends "see if you can apply the fix strategy I used
+  above on the below:" and nothing comes after it. My default: Appendix C's list ("Before you do what it wants you to
+  do, see if it does any of the following: create a sense of urgency, secrecy, shame ..."). I rewrote it with your
+  strategy (the list uncompressed into questions, explained, and broken by a bridge: "Keep in mind though, people who
+  mean well can ask for some of these too ..." and "Back to the interrogation:", after your "as the police like to
+  say" just above it), and the recheck below reads it in place. If you meant another list, paste it and I'll do that
+  one too.
+
+Question 26 (Emulate) stays withdrawn (E293).
 
 **🔵 On hold: the 83 cards of [the 27 October editor page](https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) you hadn't marked** (questions 21 to 23). The guide has
-changed under them, so the rechecks decide: a window that still reads below High in the guide as it is now gets a new
-try (read beside your published version before it becomes a card), and the old cards are retired. You don't need to
-mark them.
+changed under them, so the rechecks decide; you don't need to mark them.
 
 ## For you to do
 
-- 🟠 **Mark [Hypnosis Guide Cards](https://claude.ai/artifact/SxZ3CYESSGw1KWJp46mRAG)** (your guide as it is in Git, every card on it; [the same cards as
-  text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/b483/review/REVIEW-483.md)):
-  - **13 new versions that read Human** where they stand in the latest recheck: 9 of ours to approve, and 4 suggestions
-    for lines of your own, beside your words. Approve, Reject or Revise.
-  - **9 places for you to rewrite**: words that still read AI after the writers tried twice (each card shows both tries
-    and how they read). One of them is your audit list.
-  - **6 more places that read AI** in the latest recheck, on words nobody has tried a new version of yet.
+- 🟠 **Open the recheck in your Chrome and run the Pangram extension on each** (as before: click the Pangram label, then
+  View Full Analysis, and send me the two result links):
+  - [Recheck A (the guide)](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-30&audience=only_paid&free_preview=false&freemail=)
+  - [Recheck B (the rest of the guide and the appendices)](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-30&audience=only_paid&free_preview=false&freemail=)
 
-  Your answers save as you click. When you're done, click **Copy my answers** (or **Save them as a file**) and send them
-  to me.
+  They hold the guide with your answers in, the fixes from my read, and my suggestions for four of your paragraphs, so
+  the results tell us how your versions read in place (what I learn from) and which spots still need work. Your next
+  cards page comes with those results.
+
+## Your answers of 2026-10-30 14:35 UTC, and what I did
+
+Your message, word for word: [14:35](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/joel-20261030-1435-message.txt); your comments on the cards:
+[word for word](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/joel-20261030-1435-comments.txt).
+
+- 🟢 **Your answers are in**: 9 cards approved, 19 in your own versions, with eight typos fixed and listed
+  (each card's fate is in [the status page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/STATUS.md)). Your R-96 comment done: the next paragraph starts
+  "First, access your witnessing position". Kept and asked before: N-243's second paragraph ("Deciding to do it: ...",
+  with how to stop), which your version didn't include.
+- 🟢 **The Previous button** went to the bottom of the page when every card above was decided; now it goes to the card
+  before, and stays at the first.
+- 🟢 **"Dumb readers": yes.** The readers of batches 482 and 483 ran on Sonnet. I've now read the whole guide myself
+  beside your published version: [122 problems they had passed](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/fullread/FINDINGS.md), 61 of them
+  garbled sentences (missing commas, comma splices, "how to come back down" for the return up, "invoke", "i.e." for e.g.,
+  the old name of Veterans Affairs), 28 lost points, 19 unclear, 14 vaguer. 109 are fixed in our words, each read again
+  beside your text ([every fixed paragraph, before and after, beside yours](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/fullread/VERIFY-PAIRS.md)); 5
+  are suggestions for paragraphs you rewrote yourself, on your next page; 4 aren't problems once checked (the long-term
+  break you approved on 25 October, two repeated safety lines, and limits said in their own sections).
+- 🟢 **Your tells** ("one", "proof", "secretly/silently", the passive): in the linter, and taken out of our words.
+- 🟢 **The exercise taught four times**: taught once now, in The two-hand practice; the induction and the troubleshooting
+  line name it. Appendix D's is your version, so a suggestion for it is on your next page.
+- 🟢 **"Scared to death"**: Emulate wrote it on 18 October, for the "who is frightened" it was sent; no check caught it
+  until you did.
 
 ## Your message of 2026-10-29 22:23 UTC, and what I did
 

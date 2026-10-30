@@ -18,6 +18,13 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-10-30: the read beside his text is the lead model's own (E294), and it caught 122 problems.** After his
+  answers of 14:35 UTC ("is it because you are using dumb readers? not reading it yourself?", "looks like you need to
+  read everything again yourself (not sonnet)", "we should be ADDING clarity, not losing it"), the lead model read the
+  whole guide beside his published version (`fix-20261030/fullread/`), fixed 109 problems in our words, and put 5 on his
+  page. Before fixing a finding, check how its words came in (E298: a point he approved taking out stays out) and whose
+  they are (E299: words he only passed through, as in his quote-mark card EM-Q1, are ours to fix). A restored point
+  comes back without his named tells (E300). Never hand this read to a cheaper model.
 - **2026-10-29 22:23 UTC: Joel rewrites the residue himself, and we learn from his versions.** After batch 483 (the
   writers with the shape rules from Emulate's fixes: 2 of 11 Human), he wrote: "ok give me the cards i'll fix everything
   and then you can learn". His cards page is
@@ -138,9 +145,11 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: **his answers on [Hypnosis Guide Cards](https://claude.ai/artifact/SxZ3CYESSGw1KWJp46mRAG)** (the page's
-`decisions` collection, which `ArtifactData list` reads from this account, or the JSON he sends). No open questions (26
-withdrawn: he is rewriting the residue himself, E293). The 83 cards of the Hypnosis Guide Editor
+The guide: **the Pangram results of the recheck of 30 October**, two links he opens in his Chrome with the Pangram
+extension (`fix-20261030/recheck/RECHECK-POST-A.json` and `-B.json`; on his questions page). His answers to [Hypnosis
+Guide Cards](https://claude.ai/artifact/SxZ3CYESSGw1KWJp46mRAG) came on 2026-10-30 at 14:35 UTC and are in. One
+question on his page: which list his audit comment meant ("apply the fix strategy I used above on the below:", with
+nothing after it); I took Appendix C's "any of the following" list and the recheck tests my version of it. The 83 cards of the Hypnosis Guide Editor
 (https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) he hadn't marked are retired by the rechecks. The pages his other
 account published (the old marking page TpZbfBZcwuj8PL7KFLhmjP and the "Hypnosis Guide Questions" view
 8o79MFm9vSpyMGrAeArZYx) are stale; this account can't open or republish them, so point him to `OWNER-QUESTIONS.md` on
@@ -231,7 +240,33 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-10-29, after Joel's message of 22:23 UTC: batch 483's recheck read; his cards page is on him)
+## Next step (2026-10-30, after Joel's answers of 14:35 UTC: his answers in, my full read and its fixes in, the recheck pasted; its Pangram results wait on him)
+
+His message and comments, word for word: `fix-20261030/joel-20261030-1435-message.txt` and
+`fix-20261030/joel-20261030-1435-comments.txt`. Done (STATUS.md's entry after 14:35 has every file): his answers in
+(`fix-20261029/b483/review/apply_answers_483.py`), the Previous button fixed (`fix-20261030/previous-button/`), lessons
+E294 to E300, my full read and its 109 fixes (`fix-20261030/fullread/`), and the recheck built, predicted (HG-whole#81,
+HG-rest-B#82) and pasted from commit 3c86a07e (`fix-20261030/recheck/RECHECK-POST-A.json` and `-B.json` have the two
+secret links, which are also on his questions page).
+
+Next:
+1. **Read the results** when his two links come, into `fix-20261030/recheck/read/`, as
+   `fix-20261029/b483/recheck/read/` was read (`pangram_feed_read.js` compact into META and WINDOWS,
+   `substack_check_text.py result` (part B's rendered text is RENDERED-B.txt: TEXT-B.txt plus the embedded card's line,
+   and one quote mark Substack curled the wrong way), `window_confidence.py`, `part_forecast.py score`,
+   `pangram_ledger.py result` for #81 and #82, and a copy of `b483/recheck/read/spots_483.py` for this round's spots).
+2. **Learn from his versions** (his 19 of 30 October, now read in place): set each beside both writers' tries and
+   Emulate's lessons (`fix-20261029/emulate-lessons/LESSONS.md`), and write down what his does that theirs didn't; into
+   the writers' brief and `docs/EMULATE-FALLBACK.md` section 1, the lesson into `docs/HUMANIZATION-GATE.md` (E301 on).
+3. **One cards page** (suggestion_review.py 1.4, its Previous button fixed): the 5 suggestions for his words
+   (`fix-20261030/recheck/SUGGESTIONS.json`, with how each read in place), Appendix C's rewritten list with its reading,
+   and every spot that reads AI or below High (E278), each with a new try that is both clear and Human (E291), read by
+   the lead model beside his published version first (E294). A card says "reads Human" only at High (E295). Published
+   from this account, its Markdown copy in Git.
+4. When the guide goes into his post: Substack's editor curls a straight quote after "(" as a closing quote (his R-561
+   example); the payload for his post wants the curly opening quote.
+
+## Earlier next step (2026-10-29, after Joel's message of 22:23 UTC: batch 483's recheck read; his cards page is on him)
 
 His message, word for word: `fix-20261029/joel-20261029-2223-message.txt`. Done (STATUS.md's entry after 22:23 has every
 file): batch 483's recheck read (`fix-20261029/b483/recheck/read/`; HG-whole#79 and HG-rest-B#80 right); his cards page

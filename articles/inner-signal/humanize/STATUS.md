@@ -28,8 +28,51 @@ break a list or a long run with a line that sounds different, an example from li
 registry), E297 (an exercise is given once). The read instructions in `compare_read.py`, `docs/CLARITY-READ.md` and
 `docs/FIXING-AN-ARTICLE.md` say the lead model now.
 
-**Next, in progress**: my own read of the whole guide beside the published version (errors like "in waking life", lost or
-confused meaning, missing commas, invented content, repeated exercises), then his page.
+**My own read of the whole guide** (`fix-20261030/fullread/`): the lead model read all 21 parts beside his published
+version (READER-1..21.md; `compare_read.py collect` into FINDINGS.json): 122 findings the Sonnet reads had passed, 12 at
+severity 2. By kind: 61 garbled (missing commas and comma splices; "how to come back down" for the return up; "invoke"
+for evoke; "i.e." for e.g.; "Veterans Administration" for Veterans Affairs; "the de hypno"; "If it takes you
+destabilizing"), 28 lost points, 19 unclear, 14 vaguer. Each checked against the whole guide and its history (the commit
+its words came in with, and the card behind it) before acting:
+- 109 fixed in our words (`apply_fullread.py`; APPLIED-FULLREAD.json has every paragraph before and after), the smallest
+  change that says what his published version says, in the voice around it. Among them: the 14 lost points brought back
+  (what each mind and each part wants, the contrast with what already trains the mind, rest without helplessness, the
+  tightening that doesn't explain itself, the appointment that isn't a dose, what you can now carry yourself, the
+  presupposition's definition and example, the better bridge); the NLP sequence back in the second person; the
+  induction library's labels taken off; the two-hand exercise taught once (E297: the induction and the troubleshooting
+  line name it; Appendix D's, his, goes on his page); Appendix C's "any of the following" list rewritten with his audit
+  strategy (uncompressed into questions, explained, and a bridge: people who mean well can ask for some of these too,
+  then "Back to the interrogation:", after his "as the police like to say"). The tells he named on 30 October taken out
+  of our words (O42 "quietly", O43 "proof", O46 "one small", O47 "silently", O48 passive voice), where the linter's
+  whole-guide run found them; `tells_lint.py --installed` (the guide before) flags only the new sentences.
+- 9 his: 5 suggestions for paragraphs he rewrote himself go on his next page (ED-A1 "achieving something" comma and where
+  the results show; ED-A3 "as you're invited"; ED-A5 "not sure is a fine answer"; CV-8.9 "The study"; R-630, the
+  exercise named instead of taught again); his J5 and R-96 versions dropped two published points, his call; his own
+  Appendix C questions (23 October, "13 human high conf") stay.
+- 4 not problems, each with its reason: the long-term break (he approved it, card IC-A21, 25 October: E298); the
+  session's end said in What not to do and the products' "doesn't prove" (repeated safety language, O45); the cue's
+  limits (in its own sections).
+- 13 of the 22 "own words" findings were Emulate's sentences he had only passed through when he fixed its quote marks
+  (EM-Q1, 25 October): fixed like ours (E299). Restored points came back without his named tells (E300).
+Every changed paragraph read by me beside its old words and his published version (VERIFY-PAIRS.md;
+`read/record_fixes_read.py`: read/VERIFY.md, read/READ-RECORD.json, 147 paragraphs), then in place; the full read's
+record (READ-RECORD.json, every finding with its fate) is in the comparison gate's records: PASS (0 unread, 0 open).
+Lessons E298 to E300.
+
+**The recheck of 30 October** (`fix-20261030/recheck/`): CANDIDATE-MASTER.md (`make_candidates.py`: the guide with his
+answers and my fixes, and my suggestions for four of his rewritten paragraphs in place; his versions of 30 October as he
+wrote them, to learn from them in place); payloads (`make_recheck.py`, merge PASS; part B now starts at When this needs
+more support than a guide can provide, character 99,498 of 166,107); `make_changed.py` and `part_forecast.py`:
+FORECAST-A.json (217 parts, 25.7 expected red if independent) and FORECAST-B.json (161, 20.7); ledger HG-whole#81 (try
+14, AI, 0.02) and HG-rest-B#82 (try 12, AI, 0.02). Pushed at 3c86a07e; both drafts cleared and pasted from that commit
+(editor words +34 and +25, as always), saved bodies checked (new words in, old gone), and the secret links render
+TEXT-A.txt's first 99,999 characters exactly, and TEXT-B.txt with the embedded post's card line and one quote mark that
+Substack's editor curled the wrong way in his R-561 example (RENDERED-B.txt is what the link shows;
+RECHECK-POST-A.json, RECHECK-POST-B.json; cache keys recheck-a-30 and recheck-b-30). The links are on his questions page.
+
+**Next**: his two Pangram result links; then read them as batch 483's were (`fix-20261029/b483/recheck/read/`), learn
+from his versions in place (each beside both writers' tries), and one cards page: the suggestions for his words, every
+spot that reads AI or below High with a new try, and Appendix C's list with how it read.
 
 ## 2026-10-29, after Joel's message of 22:23 UTC (batch 483's recheck links; "ok give me the cards i'll fix everything and then you can learn")
 

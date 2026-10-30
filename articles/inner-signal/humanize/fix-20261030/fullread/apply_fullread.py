@@ -21,6 +21,10 @@ So the lead model read all 21 parts beside his published version (READER-1..21.m
 
   python3 articles/inner-signal/humanize/fix-20261030/fullread/apply_fullread.py [--check]
 
+It runs on the guide as it was before the fixes (BEFORE_SHA, commit d24bd21a's HUMANIZED-SO-FAR.md; to run it again:
+git show d24bd21a:articles/inner-signal/humanize/HUMANIZED-SO-FAR.md > articles/inner-signal/humanize/HUMANIZED-SO-FAR.md),
+and makes the guide at 975fdb3c.
+
 Writes HUMANIZED-SO-FAR.md, APPLIED-FULLREAD.json (every changed paragraph before and after, with its findings) and
 DISPOSITIONS.json (every finding's fate, for compare_read.py record).
 """
@@ -409,8 +413,8 @@ CARDS = {
 # the fate of every finding not fixed above: (fate, why, my severity when lower)
 FATES = {
     'F1.3': ('his', 'His own sentence (ED-A1, 28 October): the comma before "but" is on his cards page.'),
-    'F1.4': ('his', 'His edit of the paragraph (ED-A1): the suggestion ("show up in your ordinary life") is on his cards '
-             'page.'),
+    'F1.4': ('his', 'His edit of the paragraph (ED-A1): the suggestion ("see the results in your day-to-day life") is on '
+             'his cards page.'),
     'F1.5': ('his', 'His edit of the paragraph (ED-A3, 28 October), which kept "as you\'re invited": the suggestion is on '
              'his cards page.'),
     'F1.6': ('his', 'His edit of the paragraph (ED-A3): "any real-world actions it calls for" is on his cards page.'),
