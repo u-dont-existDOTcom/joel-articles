@@ -1,0 +1,714 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "inner-signal-hypnosis-guide-cards-20261030b",
+ "title": "Hypnosis Guide Cards, 30 October",
+ "intro": [
+  "Your hypnosis guide as it is in Git, with every card from the two rechecks of 30 October (<a href=\"https://www.pangram.com/feed/a123b9a4-de86-462a-aa45-4f46b122ab4e\">part A</a> and <a href=\"https://www.pangram.com/feed/a485abe9-057b-4209-a9be-11ad81a90b90\">part B</a> of 21:40 UTC).",
+  "<b>7 of my tries read Human</b> where they stand, three of them sentences I take back out (one you had cut yourself on 25 October). Approve, Reject or Revise. <b>One more reads better</b> but not Human yet.",
+  "<b>5 suggestions for your own words</b>: four from the last recheck, read in place twice, and the two-hand exercise named instead of taught again.",
+  "<b>3 places for you to rewrite</b>: words that still read AI after a try. Each card shows the try and how it read.",
+  "<b>5 places that read AI this time only</b>, with nothing changed in or near them. They read Human last time, so I'd keep them for now; question 28 on your questions page asks how we call the guide done.",
+  "Your answers save as you click. When you're done, click <b>Copy my answers</b> (or <b>Save them as a file</b>) and send them to me."
+ ],
+ "git_file": "articles/inner-signal/humanize/fix-20261030/tries/review/REVIEW-30b.html",
+ "article": {
+  "file": "articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "975fdb3c2ac7d4a92856683866cf14d758cbf907e6ec408d605ceec3a1faed2b"
+ },
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/tries/review/REVIEW-30b.md"
+ },
+ "built": "2026-10-30 21:51 UTC",
+ "types": {
+  "passes": {
+   "label": "Reads Human now",
+   "about": "A new version that read Human where it stands in the latest recheck, in place of words that read AI or below High. Approve, Reject or Revise."
+  },
+  "better": {
+   "label": "Reads better, not Human yet",
+   "about": "A new version that read better than the words it replaces, but still reads AI in one place. Approve, Reject or Revise."
+  },
+  "yours": {
+   "label": "Your own words",
+   "about": "A suggestion for a paragraph you wrote yourself. Approve uses the suggestion; Reject keeps your words; Revise lets you write your own."
+  },
+  "rewrite": {
+   "label": "For you to rewrite",
+   "about": "Words that still read AI after a try (the try and how it read are on the card). Keep them, or edit them in your own words."
+  },
+  "red": {
+   "label": "Reads AI this time only",
+   "about": "Words that read AI in the latest recheck with nothing changed in them or near them. Keep them, or edit them in your own words."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "S-14",
+   "spot": "S-14",
+   "type": "yours",
+   "title": "“since it's not \"achieving something\", but …”",
+   "where": "Introduction, P6",
+   "spans": [
+    {
+     "block": 14,
+     "start": 122,
+     "end": 383
+    }
+   ],
+   "edits": [
+    {
+     "block": 14,
+     "before": "“How do I do this?” you ask. Just listen silently. Many people skip the listening or shorten it since it's not \"achieving something\" but this is by far the most important step. When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic trance experience to demonstrate the results of all parts of your mind talking to each other and trusting each other more.",
+     "after": "“How do I do this?” you ask. Just listen silently. Many people skip the listening or shorten it since it's not \"achieving something\", but this is by far the most important step. When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic trance experience to see the results in your day-to-day life, with all parts of your mind talking to each other and trusting each other more."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“something\" but this is by far the most important step. When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic trance experience to demonstrate the results of” becomes “something\", but this is by far the most important step. When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic trance experience to see the results in your day-to-day life, with”",
+   "why": "A comma before \"but\", and where the results show: your published version says they are \"proven in ordinary life\", and \"demonstrate the results\" had lost that. It read Human (Medium) where it stands in the recheck of 20:15 UTC ([part A](https://www.pangram.com/feed/fc1d8dae-ed2b-4050-9c0b-5c1571dc3548)) and Human (Medium) in the recheck of 21:40 UTC ([part A](https://www.pangram.com/feed/a123b9a4-de86-462a-aa45-4f46b122ab4e)). (His edit of 28 October (ED-A1).)",
+   "stays": "The rest of your paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Your call. I'd use it: it keeps your words where it can. It read Human at Medium confidence in both checks, so it may want another light pass later.",
+   "found_by": "My read of the whole guide beside your published version (30 October)",
+   "deciding": "Approve uses this wording; Reject keeps yours; Revise lets you write your own.",
+   "approve_label": "use this wording"
+  },
+  {
+   "id": "S-20",
+   "spot": "S-20",
+   "type": "yours",
+   "title": "“You'll follow whatever you notice …”",
+   "where": "Quick start: do this first, P3",
+   "spans": [
+    {
+     "block": 20,
+     "start": 92,
+     "end": 324
+    }
+   ],
+   "edits": [
+    {
+     "block": 20,
+     "before": "You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - as you're invited. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return to normal waking consciousness. After, note what happened & any real-world actions.",
+     "after": "You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - and let it shape your next invite. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return to normal waking consciousness. After, note what happened & any real-world actions it calls for."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“as you're invited. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return to normal waking consciousness. After, note what happened & any real-world actions” becomes “and let it shape your next invite. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return to normal waking consciousness. After, note what happened & any real-world actions it calls for”",
+   "why": "\"as you're invited\" leaves a reader asking who invites; your published version runs the other way: what you notice shapes your next invitation. And the actions are the ones the session points to (\"it calls for\"). It read Human (Medium) where it stands in the recheck of 20:15 UTC ([part A](https://www.pangram.com/feed/fc1d8dae-ed2b-4050-9c0b-5c1571dc3548)) and Human (Medium) in the recheck of 21:40 UTC ([part A](https://www.pangram.com/feed/a123b9a4-de86-462a-aa45-4f46b122ab4e)). (His edit of 28 October (ED-A3), which kept \"as you're invited\" from before.)",
+   "stays": "The rest of your paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Your call. I'd use it: it keeps your words where it can. It read Human at Medium confidence in both checks, so it may want another light pass later.",
+   "found_by": "My read of the whole guide beside your published version (30 October)",
+   "deciding": "Approve uses this wording; Reject keeps yours; Revise lets you write your own.",
+   "approve_label": "use this wording"
+  },
+  {
+   "id": "S-24",
+   "spot": "S-24",
+   "type": "yours",
+   "title": "“And \"not sure\" is a perfectly good answer …”",
+   "where": "Do you usually think in words?, P2",
+   "spans": [
+    {
+     "block": 24,
+     "start": 106,
+     "end": 112
+    }
+   ],
+   "edits": [
+    {
+     "block": 24,
+     "before": "Keep in mind that it's normal, even for people who do think in words, to sometimes notice feelings before words.",
+     "after": "Keep in mind that it's normal, even for people who do think in words, to sometimes notice feelings before words. And \"not sure\" is a perfectly good answer to these questions. They're just here to help you pick instructions that work for you."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“words.” becomes “words. And \"not sure\" is a perfectly good answer to these questions. They're just here to help you pick instructions that work for you.”",
+   "why": "Your published version also told the reader that \"not sure\" is a fine answer and that the questions only pick workable instructions; nothing in the guide says it now. This says it plainly. It read Human (High) where it stands in the recheck of 20:15 UTC ([part A](https://www.pangram.com/feed/fc1d8dae-ed2b-4050-9c0b-5c1571dc3548)) and Human (High) in the recheck of 21:40 UTC ([part A](https://www.pangram.com/feed/a123b9a4-de86-462a-aa45-4f46b122ab4e)). (His own paragraph of 28 October (ED-A5: \"couldn't even understand what the original was talking about\").)",
+   "stays": "The rest of your paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Your call. I'd use it: it keeps your words where it can.",
+   "found_by": "My read of the whole guide beside your published version (30 October)",
+   "deciding": "Approve uses this wording; Reject keeps yours; Revise lets you write your own.",
+   "approve_label": "use this wording"
+  },
+  {
+   "id": "T-35",
+   "spot": "T-35",
+   "type": "passes",
+   "title": "“Ads, screens, fear and cravings …”",
+   "where": "Protecting Yourself from Hypnotists, P6",
+   "spans": [
+    {
+     "block": 35,
+     "start": 0,
+     "end": 153
+    }
+   ],
+   "edits": [
+    {
+     "block": 35,
+     "before": "Ads, screens, fear and cravings are already training your mind, and so are your tribe, the people in authority, loneliness and plain old repetition. With self-hypnosis you can train your own mind from the inside, by befriending and listening to the deeper part of your mind. This opens up a whole new area of choice for you as an adult in the world.",
+     "after": "With self-hypnosis you can train your own mind from the inside, by befriending and listening to the deeper part of your mind. This opens up a whole new area of choice for you as an adult in the world."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "Cuts “Ads, screens, fear and cravings are already training your mind, and so are your tribe, the people in authority, loneliness and plain old repetition.”",
+   "why": "The paragraph read AI (Low) in the recheck of 20:15 UTC ([part A](https://www.pangram.com/feed/fc1d8dae-ed2b-4050-9c0b-5c1571dc3548)). Without the sentence, the paragraph read Human (High) where it stands in the recheck of 21:40 UTC ([part A](https://www.pangram.com/feed/a123b9a4-de86-462a-aa45-4f46b122ab4e)). You cut this point as a repeat on 25 October (card RP-1.4: \"says again that other forces are already shaping your mind, after the marketers paragraph and the Silva line have said it\"). My full read brought it back as a list, and it read AI. It comes out again. I read it beside your published version. It says what yours says without the list you cut on 25 October.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Approve: the paragraph reads Human without it, and the point is said already.",
+   "found_by": "The two rechecks of 30 October (20:15 and 21:40 UTC)",
+   "deciding": "Approve cuts it; Reject keeps it as it is; Revise lets you write your own.",
+   "approve_label": "cut it"
+  },
+  {
+   "id": "N-145",
+   "spot": "red",
+   "type": "red",
+   "title": "“This is not the same as your …”",
+   "where": "Your inherited parent script, P1",
+   "spans": [
+    {
+     "block": 145,
+     "start": 285,
+     "end": 667
+    }
+   ],
+   "edits": [],
+   "inserts": [],
+   "moves": [],
+   "why": "These words read AI (Low) and AI (High) in the recheck of 21:40 UTC ([part A](https://www.pangram.com/feed/a123b9a4-de86-462a-aa45-4f46b122ab4e)). In the recheck of 20:15 UTC they read Human (High) ([part A](https://www.pangram.com/feed/fc1d8dae-ed2b-4050-9c0b-5c1571dc3548)), with the same words, and nothing near them changed in between.",
+   "reading": "AI (Low) and AI (High), in the latest recheck only",
+   "advice": "edit",
+   "keep_label": "keep it as it is",
+   "advice_note": "Your call. They read Human last time with the same words, so they may read Human again next time (last time's two AI windows on unchanged words read High this time). If they read AI twice in a row, they get a try or your version.",
+   "found_by": "The recheck of 21:40 UTC"
+  },
+  {
+   "id": "R-162",
+   "spot": "S-162",
+   "type": "rewrite",
+   "title": "“How much of the grown-up you …”",
+   "where": "Don’t rush the repair, P5",
+   "spans": [
+    {
+     "block": 162,
+     "start": 189,
+     "end": 452
+    }
+   ],
+   "edits": [],
+   "inserts": [],
+   "moves": [],
+   "why": "Your words (from your inner child guide) read AI (Low, 0.53, a coin toss) at 20:15 UTC ([part A](https://www.pangram.com/feed/fc1d8dae-ed2b-4050-9c0b-5c1571dc3548)), where they had read High on 29 October. My suggestion, \"To find out, try looking around the room, pausing before you act, making a choice and following through on it, since those are all things your adult self can do.\", read AI (High) at 21:40 UTC ([part A](https://www.pangram.com/feed/a123b9a4-de86-462a-aa45-4f46b122ab4e)), worse than yours, so I've withdrawn it.",
+   "reading": "AI (Low); my suggestion AI (High)",
+   "advice": "edit",
+   "keep_label": "keep it as it is",
+   "advice_note": "Your call. Yours read AI only at Low, which moves between checks; mine read worse. Keep it, or rewrite it if you want to be sure.",
+   "found_by": "The two rechecks of 30 October (20:15 and 21:40 UTC)"
+  },
+  {
+   "id": "N-238",
+   "spot": "red",
+   "type": "red",
+   "title": "“Decide on a hypnotic tone (warm, indirect, …”",
+   "where": "Please don’t put six metaphors in one trance, P1",
+   "spans": [
+    {
+     "block": 238,
+     "start": 282,
+     "end": 504
+    },
+    {
+     "block": 239,
+     "start": 389,
+     "end": 569
+    }
+   ],
+   "edits": [],
+   "inserts": [],
+   "moves": [],
+   "why": "Your words read AI (Low) and AI (Medium) in the recheck of 21:40 UTC ([part A](https://www.pangram.com/feed/a123b9a4-de86-462a-aa45-4f46b122ab4e)). In the recheck of 20:15 UTC they read Human (Low) and Human (Medium) ([part A](https://www.pangram.com/feed/fc1d8dae-ed2b-4050-9c0b-5c1571dc3548)), with the same words, and nothing near them changed in between.",
+   "reading": "AI (Low) and AI (Medium), in the latest recheck only",
+   "advice": "edit",
+   "keep_label": "keep it as it is",
+   "advice_note": "Your call. They read Human last time with the same words, so they may read Human again next time (last time's two AI windows on unchanged words read High this time). If they read AI twice in a row, they get a try or your version.",
+   "found_by": "The recheck of 21:40 UTC"
+  },
+  {
+   "id": "T-495",
+   "spot": "T-495",
+   "type": "passes",
+   "title": "“If nothing changes, notice that too …”",
+   "where": "Before you begin, P6",
+   "spans": [
+    {
+     "block": 247,
+     "start": 272,
+     "end": 299
+    }
+   ],
+   "edits": [
+    {
+     "block": 247,
+     "before": "Let your response guide you as to what to do next regardless of what the script is expecting. Utilize: use what you have (a thought, sound, movement, or objection) to go to the next place, whatever it is. Learn how to notice what is there. If nothing changes, notice that too: no change doesn't mean it worked in some way you can't see. For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain.",
+     "after": "Let your response guide you as to what to do next regardless of what the script is expecting. Utilize: use what you have (a thought, sound, movement, or objection) to go to the next place, whatever it is. Learn how to notice what is there. If nothing changes, notice that too, and don't talk yourself into believing it worked in some way you can't see. For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“too: no change doesn't mean” becomes “too, and don't talk yourself into believing”",
+   "why": "The words it replaces read Human (Low) in the recheck of 20:15 UTC ([part A](https://www.pangram.com/feed/fc1d8dae-ed2b-4050-9c0b-5c1571dc3548)). This version read Human (Low) where it stands in the recheck of 21:40 UTC ([part A](https://www.pangram.com/feed/a123b9a4-de86-462a-aa45-4f46b122ab4e)). Read Human (Low): a colon, then a \"doesn't mean\" line. This says the same thing as one plain instruction. I read it beside your published version. It says what \"no change doesn't mean secret success\" says, as one plain instruction.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Approve: it reads Human where it stands and keeps every point. It read Human at Low confidence in place, so it may still read AI on its own or in a later check. It reads no worse than now and says it more plainly.",
+   "found_by": "The two rechecks of 30 October (20:15 and 21:40 UTC)",
+   "deciding": "Approve uses the new wording; Reject keeps it as it is; Revise lets you write your own."
+  },
+  {
+   "id": "T-249",
+   "spot": "T-249",
+   "type": "passes",
+   "title": "“Don't read the directions out loud …”",
+   "where": "Sober induction: 3–5 minutes, P1",
+   "spans": [
+    {
+     "block": 249,
+     "start": 348,
+     "end": 358
+    }
+   ],
+   "edits": [
+    {
+     "block": 249,
+     "before": "You can read this slowly into your recorder, or you can read it out loud or say it to yourself if you are good at that. Choose a sound, or a contact, or the two-hand practice (above) or something to anchor yourself, and choose the thing you will say to open it up. Use the same anchor wherever the script mentions it. Don't read the directions out loud. Just pause between paragraphs.",
+     "after": "You can read this slowly into your recorder, or you can read it out loud or say it to yourself if you are good at that. Choose a sound, or a contact, or the two-hand practice (above) or something to anchor yourself, and choose the thing you will say to open it up. Use the same anchor wherever the script mentions it. Don't read the directions out loud, just pause between paragraphs."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“loud. Just” becomes “loud, just”",
+   "why": "The words it replaces read Human (Low) in the recheck of 20:15 UTC ([part A](https://www.pangram.com/feed/fc1d8dae-ed2b-4050-9c0b-5c1571dc3548)). This version read Human (High) where it stands in the recheck of 21:40 UTC ([part A](https://www.pangram.com/feed/a123b9a4-de86-462a-aa45-4f46b122ab4e)). Read Human (Low): three short commands in a row. The sentence before my fix was \"Don't read the directions, just pause between paragraphs\"; this keeps its shape, with \"out loud\" so it can't be read as \"don't read them at all\". I read it beside your published version. It keeps all three points: the same anchor, the directions not read out loud, the pause.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Approve: it reads Human where it stands and keeps every point.",
+   "found_by": "The two rechecks of 30 October (20:15 and 21:40 UTC)",
+   "deciding": "Approve uses the new wording; Reject keeps it as it is; Revise lets you write your own."
+  },
+  {
+   "id": "N-269",
+   "spot": "red",
+   "type": "red",
+   "title": "“Say something like, \"Only what I can …”",
+   "where": "Already open? Contain before you deepen, P4",
+   "spans": [
+    {
+     "block": 269,
+     "start": 0,
+     "end": 191
+    },
+    {
+     "block": 270,
+     "start": 0,
+     "end": 42
+    }
+   ],
+   "edits": [],
+   "inserts": [],
+   "moves": [],
+   "why": "These words read AI (Low) in the recheck of 21:40 UTC ([part A](https://www.pangram.com/feed/a123b9a4-de86-462a-aa45-4f46b122ab4e)). In the recheck of 20:15 UTC they read Human (Low) ([part A](https://www.pangram.com/feed/fc1d8dae-ed2b-4050-9c0b-5c1571dc3548)), with the same words, and nothing near them changed in between.",
+   "reading": "AI (Low), in the latest recheck only",
+   "advice": "edit",
+   "keep_label": "keep it as it is",
+   "advice_note": "Your call. They read Human last time with the same words, so they may read Human again next time (last time's two AI windows on unchanged words read High this time). If they read AI twice in a row, they get a try or your version.",
+   "found_by": "The recheck of 21:40 UTC"
+  },
+  {
+   "id": "T-337",
+   "spot": "T-337",
+   "type": "passes",
+   "title": "“A tightening won't tell you …”",
+   "where": "Let the response change the invitation, P1",
+   "spans": [
+    {
+     "block": 337,
+     "start": 90,
+     "end": 211
+    }
+   ],
+   "edits": [
+    {
+     "block": 337,
+     "before": "Your shoulders tightening, or 'hmm, that feels kind of wrong', is a signal to investigate further. A tightening won't tell you what it's about by itself, so ask what happened and whether the invitation fits. But 'No! That is Not Right!' is a signal to stop what you're doing and change it. If you don't feel like it fits, don't keep doing it, and don't try saying it again more persuasively. Just change it. You don't need any other reason.",
+     "after": "Your shoulders tightening, or 'hmm, that feels kind of wrong', is a signal to investigate further, but 'No! That is Not Right!' is a signal to stop what you're doing and change it. If you don't feel like it fits, don't keep doing it, and don't try saying it again more persuasively. Just change it. You don't need any other reason."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "Cuts “A tightening won't tell you what it's about by itself, so ask what happened and whether the invitation fits.” and joins the two sentences around it again, as they were: “..., is a signal to investigate further, but 'No! That is Not Right!' is a signal to stop ...”",
+   "why": "The paragraph read AI (Low) in the recheck of 20:15 UTC ([part A](https://www.pangram.com/feed/fc1d8dae-ed2b-4050-9c0b-5c1571dc3548)). Without the sentence, the paragraph read Human (Medium) where it stands in the recheck of 21:40 UTC ([part A](https://www.pangram.com/feed/a123b9a4-de86-462a-aa45-4f46b122ab4e)). On 28 October I found this point said already (AUDIT.md, F6a.1): the response check just above calls a tightness a notice, not a meaning, and says to find out what happened, and the script just below asks whether the invitation fits. My restored sentence said it again and read AI. The sentence goes back to one, as it read High on 29 October; \"don't try saying it again more persuasively\" stays. I read it beside your published version. It keeps every point the guide makes here; the response check just above already says a tightness is a notice to find out about.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Approve: the paragraph reads Human without it, and the point is said already. It read Human at Medium confidence in place, so it may still read AI on its own or in a later check.",
+   "found_by": "The two rechecks of 30 October (20:15 and 21:40 UTC)",
+   "deciding": "Approve cuts it; Reject keeps it as it is; Revise lets you write your own.",
+   "approve_label": "cut it"
+  },
+  {
+   "id": "T-339",
+   "spot": "T-339",
+   "type": "better",
+   "title": "“Sometimes the invitation just isn't right …”",
+   "where": "Let the response change the invitation, P3",
+   "spans": [
+    {
+     "block": 339,
+     "start": 36,
+     "end": 223
+    }
+   ],
+   "edits": [
+    {
+     "block": 339,
+     "before": "Sometimes the invitation just isn't right. Sometimes it brings up a possibility you hadn't thought of, and the feeling that comes with it is worth meeting. You don't have to know which it is before you make room to find out. Either way, your doubt isn't automatically a guard, and silence doesn't mean a hidden process is working.",
+     "after": "Sometimes the invitation just isn't right, and other times it's brought up something you hadn't thought of, with a feeling that's worth meeting, so give it a little room and find out which. Either way, your doubt isn't automatically a guard, and silence doesn't mean a hidden process is working."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“right. Sometimes it brings up a possibility you hadn't thought of, and the feeling that comes with it is worth meeting. You don't have to know which it is before you make room to find out” becomes “right, and other times it's brought up something you hadn't thought of, with a feeling that's worth meeting, so give it a little room and find out which”",
+   "why": "The words it replaces read AI (High) in the recheck of 20:15 UTC ([part A](https://www.pangram.com/feed/fc1d8dae-ed2b-4050-9c0b-5c1571dc3548)). This version read AI (Low) where it stands in the recheck of 21:40 UTC ([part A](https://www.pangram.com/feed/a123b9a4-de86-462a-aa45-4f46b122ab4e)). My clear version read AI (High): two \"Sometimes\" sentences in a row, a \"you don't have to\" line and a tidy pair. This keeps every point in two sentences, the shape of the unclear version that read High on 29 October. I read it beside your published version. It keeps all four of your points (the wrong invitation, the new possibility with a feeling worth meeting, making room to find out which, doubt that isn't a guard and silence that isn't a hidden process), with both \"it\"s named.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Approve: it is clearer than what's there and it read better (AI at High before, AI at Low now). The part that still reads AI (Low, at 0.50, a coin toss) is its last sentence, \"Either way, ...\", which is the guide's sentence as it was; if it reads AI again next time, it gets its own try.",
+   "found_by": "The two rechecks of 30 October (20:15 and 21:40 UTC)",
+   "deciding": "Approve uses the new wording; Reject keeps it as it is; Revise lets you write your own."
+  },
+  {
+   "id": "T-374",
+   "spot": "T-374",
+   "type": "passes",
+   "title": "“If your subconscious won’t answer …”",
+   "where": "Capacity before content, P5",
+   "spans": [
+    {
+     "block": 374,
+     "start": 241,
+     "end": 363
+    }
+   ],
+   "edits": [
+    {
+     "block": 374,
+     "before": "This can lead to flooding, panic, false certainty, confabulation, dissociation etc. and can make your day SUCK! When you are flooded, it is much harder to access your adult capacities, so focus on being able to regulate and getting support! If your subconscious won’t answer, it may be protecting you until your adult is steady enough to take in what it has. Just ask for what you need to know in a way that you CAN tolerate:",
+     "after": "This can lead to flooding, panic, false certainty, confabulation, dissociation etc. and can make your day SUCK! When you are flooded, it is much harder to access your adult capacities, so focus on being able to regulate and getting support! Just ask for what you need to know in a way that you CAN tolerate:"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "Cuts “If your subconscious won’t answer, it may be protecting you until your adult is steady enough to take in what it has.”",
+   "why": "The paragraph read AI (Low) in the recheck of 20:15 UTC ([part A](https://www.pangram.com/feed/fc1d8dae-ed2b-4050-9c0b-5c1571dc3548)). Without the sentence, the paragraph read Human (High) where it stands in the recheck of 21:40 UTC ([part A](https://www.pangram.com/feed/a123b9a4-de86-462a-aa45-4f46b122ab4e)). On 28 October I found this point said already (AUDIT.md, F6b.12): the section's first paragraph says \"If knowing what your subconscious knows would destabilize you, it is not meant for you to know directly at this time!\" My full read brought it back anyway, and it read AI. It comes out again; the comma before \"so\" stays. I read it beside your published version. The section's first paragraph already says that silence may be protecting you.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Approve: the paragraph reads Human without it, and the point is said already.",
+   "found_by": "The two rechecks of 30 October (20:15 and 21:40 UTC)",
+   "deciding": "Approve cuts it; Reject keeps it as it is; Revise lets you write your own.",
+   "approve_label": "cut it"
+  },
+  {
+   "id": "R-381",
+   "spot": "S-382",
+   "type": "rewrite",
+   "title": "“Is there a way you could try this …”",
+   "where": "Nothing happens, P1",
+   "spans": [
+    {
+     "block": 381,
+     "start": 0,
+     "end": 53
+    },
+    {
+     "block": 382,
+     "start": 0,
+     "end": 107
+    }
+   ],
+   "edits": [],
+   "inserts": [],
+   "moves": [],
+   "why": "The smaller-scale line read AI (Low) in both rechecks of 30 October ([part A](https://www.pangram.com/feed/fc1d8dae-ed2b-4050-9c0b-5c1571dc3548), [part A](https://www.pangram.com/feed/a123b9a4-de86-462a-aa45-4f46b122ab4e)); it had read Human (High) on 29 October. Your three \"Show me\" asks read AI (High) at 20:15 UTC. My suggestion for your asks, \"Ask for something small, like “Show me one body sensation,” or “Show me one word.” If even that gets you nothing, try “Show me whether today is for listening or resting.”\", read AI (Medium) at 21:40 UTC, with the next line.",
+   "reading": "AI (Low) and AI (High); my suggestion AI (Medium)",
+   "advice": "edit",
+   "keep_label": "keep it as it is",
+   "advice_note": "Rewrite them in your own words if you want them to read Human: three asks in a row of the same shape is what reads AI. Keep the three asks and what \"smaller\" means.",
+   "found_by": "The two rechecks of 30 October (20:15 and 21:40 UTC)"
+  },
+  {
+   "id": "T-503",
+   "spot": "T-503",
+   "type": "passes",
+   "title": "“Notice how the answer comes to you …”",
+   "where": "Pattern 2: Awareness verbs, P2",
+   "spans": [
+    {
+     "block": 503,
+     "start": 41,
+     "end": 113
+    }
+   ],
+   "edits": [
+    {
+     "block": 503,
+     "before": "Example: ‘Notice how the answer comes to you: as an image, a word, a pressure, some warmth, silence, or something to do next.’",
+     "after": "Example: ‘Notice how the answer comes to you… maybe as an image, or a word… maybe as a pressure, or some warmth… or a silence, or a sense of what to do next.’"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“you: as an image, a word, a pressure, some warmth, silence, or something” becomes “you… maybe as an image, or a word… maybe as a pressure, or some warmth… or a silence, or a sense of what”",
+   "why": "The words it replaces read AI (Medium) in the recheck of 20:15 UTC ([part B](https://www.pangram.com/feed/48eed31c-7ff5-4392-887c-92663cd6aea8)). This version read Human (High) where it stands in the recheck of 21:40 UTC ([part B](https://www.pangram.com/feed/a485abe9-057b-4209-a9be-11ad81a90b90)). Read AI: a colon, then six things in one breath. Said the way a script is spoken, with its pauses, every one of them is still there. I read it beside your published version. All six ways an answer can come are there, said the way a script is spoken.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Approve: it reads Human where it stands and keeps every point.",
+   "found_by": "The two rechecks of 30 October (20:15 and 21:40 UTC)",
+   "deciding": "Approve uses the new wording; Reject keeps it as it is; Revise lets you write your own."
+  },
+  {
+   "id": "T-505",
+   "spot": "T-505",
+   "type": "passes",
+   "title": "“Presumption is a powerful thing (a presupposition …”",
+   "where": "Pattern 3: Presuppositions, P1",
+   "spans": [
+    {
+     "block": 505,
+     "start": 0,
+     "end": 321
+    }
+   ],
+   "edits": [
+    {
+     "block": 505,
+     "before": "A presupposition is an assumption hidden inside a sentence. Presumption is a powerful thing, so please don’t use it except to presume that we will have the choice of when it will happen, that we will be able to do it, that we are safe, that we are loved and that our adult can lead us. Never use it to sneak in obedience.",
+     "after": "Presumption is a powerful thing (a presupposition hides an assumption inside a sentence, and the person hearing it usually takes that assumption on board), so please don’t use it except to presume that we will have the choice of when it will happen, that we will be able to do it, that we are safe, that we are loved and that our adult can lead us. Don’t ever presume obedience, the way a hypnotist does when they say something like, ‘As you go deeper, it gets easier and easier to just do what I say.’"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“A presupposition is an assumption hidden inside a sentence. Presumption is a powerful thing, so please don’t use it except to presume that we will have the choice of when it will happen, that we will be able to do it, that we are safe, that we are loved and that our adult can lead us. Never use it to sneak in obedience.” becomes “Presumption is a powerful thing (a presupposition hides an assumption inside a sentence, and the person hearing it usually takes that assumption on board), so please don’t use it except to presume that we will have the choice of when it will happen, that we will be able to do it, that we are safe, that we are loved and that our adult can lead us. Don’t ever presume obedience, the way a hypnotist does when they say something like, ‘As you go deeper, it gets easier and easier to just do what I say.’”",
+   "why": "The words it replaces read AI (Medium) in the recheck of 20:15 UTC ([part B](https://www.pangram.com/feed/48eed31c-7ff5-4392-887c-92663cd6aea8)). This version read Human (High) where it stands in the recheck of 21:40 UTC ([part B](https://www.pangram.com/feed/a485abe9-057b-4209-a9be-11ad81a90b90)). Read AI: a textbook definition on its own and a short command. This puts the definition inside the sentence you approved, as an aside that says why presumption is powerful, and shows what presuming obedience sounds like, the way your reframing paragraph shows the dishonest reframe before the honest one. I read it beside your published version. What a presupposition is, why it's powerful, what to presume and what never to (obedience), and your example, all there. New: the quoted line a hypnotist might use to presume obedience.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Approve: it reads Human where it stands and keeps every point.",
+   "found_by": "The two rechecks of 30 October (20:15 and 21:40 UTC)",
+   "deciding": "Approve uses the new wording; Reject keeps it as it is; Revise lets you write your own."
+  },
+  {
+   "id": "R-508",
+   "spot": "T-508,R-509",
+   "type": "rewrite",
+   "title": "“A better bridge claims a lot less …”",
+   "where": "Pattern 4: Gentle cause-effect bridges, P1",
+   "spans": [
+    {
+     "block": 508,
+     "start": 310,
+     "end": 447
+    },
+    {
+     "block": 510,
+     "start": 0,
+     "end": 73
+    }
+   ],
+   "edits": [],
+   "inserts": [],
+   "moves": [],
+   "why": "These read AI (High) together, in one window, in both rechecks of 30 October: the better-bridge line that ends Pattern 4 and your embedded-invitations paragraph after it (20:15 UTC: [part B](https://www.pangram.com/feed/48eed31c-7ff5-4392-887c-92663cd6aea8), window 15, 140 words; 21:40 UTC: [part B](https://www.pangram.com/feed/a485abe9-057b-4209-a9be-11ad81a90b90), window 7, 67 words). My try led into the better bridge the way your reframing paragraph does: \"So an honest bridge might sound more like, ‘As I breathe, my adult self may become present enough to hear a little of what the wound needs.’\" It read AI (High) with your paragraph again. The likeliest part is the textbook definition your paragraph opens with (\"An embedded invitation places a small direction inside a larger sentence.\"): a free-standing definition is the one shape that has read AI everywhere in this guide, and this same sentence read AI (High) on 29 October too, when the comprehension fix brought it back; the version without it had read Human (the Emulate study's case reverse-X8.4).",
+   "reading": "AI (High), in both rechecks of 30 October",
+   "advice": "edit",
+   "keep_label": "keep it as it is",
+   "advice_note": "Rewrite either or both in your own words if you want them to read Human. Your fix strategy fits here: say what an embedded invitation is for before or instead of defining it, and lead into the better bridge the way you led into the honest reframe. Keep every point.",
+   "found_by": "The two rechecks of 30 October (20:15 and 21:40 UTC)"
+  },
+  {
+   "id": "N-580",
+   "spot": "red",
+   "type": "red",
+   "title": "“I do not use NLP on people …”",
+   "where": "What I will not use NLP for, P7",
+   "spans": [
+    {
+     "block": 580,
+     "start": 0,
+     "end": 141
+    },
+    {
+     "block": 581,
+     "start": 0,
+     "end": 135
+    },
+    {
+     "block": 582,
+     "start": 0,
+     "end": 44
+    },
+    {
+     "block": 583,
+     "start": 0,
+     "end": 56
+    },
+    {
+     "block": 584,
+     "start": 0,
+     "end": 143
+    },
+    {
+     "block": 585,
+     "start": 0,
+     "end": 153
+    }
+   ],
+   "edits": [],
+   "inserts": [],
+   "moves": [],
+   "why": "These words read AI (Medium) and AI (High) in the recheck of 21:40 UTC ([part B](https://www.pangram.com/feed/a485abe9-057b-4209-a9be-11ad81a90b90)). In the recheck of 20:15 UTC they read Human (Medium) and Human (High) ([part B](https://www.pangram.com/feed/48eed31c-7ff5-4392-887c-92663cd6aea8)), with the same words, and nothing near them changed in between.",
+   "reading": "AI (Medium) and AI (High), in the latest recheck only",
+   "advice": "edit",
+   "keep_label": "keep it as it is",
+   "advice_note": "Your call. They read Human last time with the same words, so they may read Human again next time (last time's two AI windows on unchanged words read High this time). If they read AI twice in a row, they get a try or your version.",
+   "found_by": "The recheck of 21:40 UTC"
+  },
+  {
+   "id": "N-587",
+   "spot": "red",
+   "type": "red",
+   "title": "“Here is a rough outline of the …”",
+   "where": "Running the whole NLP sequence, P1",
+   "spans": [
+    {
+     "block": 587,
+     "start": 0,
+     "end": 50
+    },
+    {
+     "block": 588,
+     "start": 0,
+     "end": 109
+    },
+    {
+     "block": 589,
+     "start": 0,
+     "end": 92
+    },
+    {
+     "block": 590,
+     "start": 0,
+     "end": 93
+    },
+    {
+     "block": 591,
+     "start": 0,
+     "end": 54
+    },
+    {
+     "block": 592,
+     "start": 0,
+     "end": 90
+    },
+    {
+     "block": 593,
+     "start": 0,
+     "end": 106
+    },
+    {
+     "block": 595,
+     "start": 0,
+     "end": 121
+    },
+    {
+     "block": 596,
+     "start": 0,
+     "end": 169
+    }
+   ],
+   "edits": [],
+   "inserts": [],
+   "moves": [],
+   "why": "These words read AI (Low), AI (Medium) and AI (High) in the recheck of 21:40 UTC ([part B](https://www.pangram.com/feed/a485abe9-057b-4209-a9be-11ad81a90b90)). In the recheck of 20:15 UTC they read Human (Medium) and Human (High) ([part B](https://www.pangram.com/feed/48eed31c-7ff5-4392-887c-92663cd6aea8)), with the same words, and nothing near them changed in between.",
+   "reading": "AI (Low), AI (Medium) and AI (High), in the latest recheck only",
+   "advice": "edit",
+   "keep_label": "keep it as it is",
+   "advice_note": "Your call. They read Human last time with the same words, so they may read Human again next time (last time's two AI windows on unchanged words read High this time). If they read AI twice in a row, they get a try or your version.",
+   "found_by": "The recheck of 21:40 UTC"
+  },
+  {
+   "id": "S-636",
+   "spot": "S-636",
+   "type": "yours",
+   "title": "“Do the two-hand practice from Working with …”",
+   "where": "Inner child love, P1",
+   "spans": [
+    {
+     "block": 636,
+     "start": 0,
+     "end": 124
+    }
+   ],
+   "edits": [
+    {
+     "block": 636,
+     "before": "Here is my basic inner child love practice technique. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix this problem. I’m here now to listen to you.” Make sure you're actually talking to your inner child, not just repeating a script. If you can't genuinely say all that and feel it, then just rest your hands there and notice what you find.",
+     "after": "Do the two-hand practice from Working with your inner child, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix this problem. I’m here now to listen to you.” Make sure you're actually talking to your inner child, not just repeating a script. If you can't genuinely say all that and feel it, then just rest your hands there and notice what you find."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“Here is my basic inner child love practice technique. Put your hand over your heart and your other hand on your solar plexus” becomes “Do the two-hand practice from Working with your inner child”",
+   "why": "The same exercise is taught four times in the guide (you: \"we have 4 of these in different versions in there ... Let's make sure we aren't giving people exercises over and over\"). It's taught once now, in The two-hand practice; the induction and the troubleshooting line name it instead of teaching it again. This would do the same here and keep your words for the inner child. It names the exercise and keeps your words for the inner child; it hasn't been checked in place yet. (His version of 30 October (R-630).)",
+   "stays": "The rest of your paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Your call. I'd use it: the exercise is taught once, as you asked.",
+   "found_by": "My read of the whole guide beside your published version (30 October)",
+   "deciding": "Approve uses this wording; Reject keeps yours; Revise lets you write your own.",
+   "approve_label": "use this wording"
+  },
+  {
+   "id": "S-782",
+   "spot": "S-782",
+   "type": "yours",
+   "title": "“The study Not everybody has an inner …”",
+   "where": "Inner speech and putting experience into words, P1",
+   "spans": [
+    {
+     "block": 782,
+     "start": 0,
+     "end": 3
+    }
+   ],
+   "edits": [
+    {
+     "block": 782,
+     "before": "Not everybody has an inner voice (Nedergaard and Lupyan 2024) is not about self hypnosis adaptations, but about people with different amounts of inner speech. The questions in the quick start are a practical way of seeing for yourself how much inner speech you have.",
+     "after": "The study Not everybody has an inner voice (Nedergaard and Lupyan 2024) is not about self hypnosis adaptations, but about people with different amounts of inner speech. The questions in the quick start are a practical way of seeing for yourself how much inner speech you have."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“Not” becomes “The study Not”",
+   "why": "The study's title isn't marked as a title, so the sentence first reads as a claim (\"Not everybody has an inner voice ... is not about\"). \"The study\" in front makes it a title. It read Human (High) where it stands in the recheck of 20:15 UTC ([part B](https://www.pangram.com/feed/48eed31c-7ff5-4392-887c-92663cd6aea8)) and Human (High) in the recheck of 21:40 UTC ([part B](https://www.pangram.com/feed/a485abe9-057b-4209-a9be-11ad81a90b90)). (His edit of 25 October (CV-8.9).)",
+   "stays": "The rest of your paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Your call. I'd use it: it keeps your words where it can.",
+   "found_by": "My read of the whole guide beside your published version (30 October)",
+   "deciding": "Approve uses this wording; Reject keeps yours; Revise lets you write your own.",
+   "approve_label": "use this wording"
+  }
+ ]
+}
