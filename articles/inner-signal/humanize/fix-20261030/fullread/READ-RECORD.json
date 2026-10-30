@@ -1,0 +1,2330 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+ "coverage": [
+  "00ee6ebe72ee7159",
+  "01051437fdce8470",
+  "011ca0ac876a9c24",
+  "016e367ca00c95df",
+  "01ac664df62e75ba",
+  "01c0700ee846bae6",
+  "01f68e93746bd330",
+  "0234827ae73a296f",
+  "028522ee6999ca58",
+  "0296d13f24ee1dca",
+  "03f3b518406f7949",
+  "03fbcef7ca4bde2a",
+  "04e9c2c13b020764",
+  "04f3dcb89bce71d4",
+  "053f94475da7bd66",
+  "05665dad4d95ec4c",
+  "05c84c01f1a42646",
+  "062a19b862e52015",
+  "06c01d133a824f1d",
+  "06d9f70e9693e849",
+  "0744c266a9ab9a0d",
+  "07aa85e0bc32afbb",
+  "07b03834da225fe1",
+  "088845ff06181609",
+  "0958ae65215478de",
+  "0a1e30855f9bb16b",
+  "0ae7deb7823829d1",
+  "0af9a8231b8d675a",
+  "0b9ace349fabb85f",
+  "0cd465d3fdd1bc7a",
+  "0d1743fae7d42ac8",
+  "0d4317ab66644ff1",
+  "0d85ae04695f437f",
+  "0db58eff51715d03",
+  "0e26ef45c2631232",
+  "0ee01a1151fb2c5e",
+  "0f3f181ec5533e35",
+  "0f5b9860a8d604d8",
+  "0f716358811de390",
+  "0f8e155230332be6",
+  "1016644789f601f7",
+  "101c3371c2eb4a15",
+  "103fc2c2b70f2bc0",
+  "106d0b8811cf4331",
+  "108222840622b765",
+  "10c3ed7bd90b88a9",
+  "110895d74cc5c0db",
+  "1129fab35bb40963",
+  "112e07b4eaebbfab",
+  "118595bfaec5e881",
+  "11cfd9550414ad60",
+  "12693f2794a1ab73",
+  "13150c14dd8e187d",
+  "134265d73ff8e8bf",
+  "134c3377c3d64471",
+  "13aced4262821d28",
+  "141f5871e3d133fd",
+  "14fed5c7b3647fdb",
+  "155210bb0a8bc2ee",
+  "155a9c133858bf0e",
+  "15c80f8a47dd60a7",
+  "163b2d03e94b3cc4",
+  "1683143bb71894b0",
+  "177f1f9afb6d7a86",
+  "17e9db171db9eedc",
+  "1800250cd4e9fc17",
+  "18b471deb263d21b",
+  "18c5e5ca0cf4fd3b",
+  "18d11e9410bc7419",
+  "18f929df30688e74",
+  "19cff7cc822e64ef",
+  "1aa3cf36e441c1f5",
+  "1ab3ecfdabbcead7",
+  "1ad751fee45c97b8",
+  "1b05807d1e434188",
+  "1b117e9b09c36bbb",
+  "1b4cdc7e13fbb331",
+  "1b982f37a0db64f4",
+  "1c5caf089f930ada",
+  "1c60728e574c13a9",
+  "1c79bd80fe9fc975",
+  "1d275d30b5f30e76",
+  "1d3b34a9c6a9fc6d",
+  "1d541767efa29365",
+  "1d643a8267f9b4ac",
+  "1e42bd2a0a6eb440",
+  "1e4fef7d924b1ed3",
+  "1e9a34eb805c12b4",
+  "1ea3db87bb0b4e09",
+  "1fff51400a1df72e",
+  "20211fa928391c57",
+  "2060f861d314e446",
+  "20bf1d8028ffa2d0",
+  "20edfe403a300d6b",
+  "21403de22594e4dc",
+  "21a0270b7f66a1e4",
+  "224c8e6bc744cde9",
+  "225eabf73fae5886",
+  "22fe9d50d94ebe7d",
+  "235d870d4f851c85",
+  "239bbcf442711efc",
+  "23b01fa05ab909c9",
+  "23c8d7751f31253d",
+  "241a830b5f8941af",
+  "246f7d6bd1c68d41",
+  "24948bad71cfa969",
+  "25751981d843b3f4",
+  "2589fc8cd5ceddb0",
+  "25bfaf1d9975a6a0",
+  "268f2e0512f40869",
+  "26986efc5569a458",
+  "26c9c2e6de73de5a",
+  "272d4deec5988d42",
+  "2775e18022568198",
+  "27c75a400d8b9b3d",
+  "27ebc11b18116f3b",
+  "2844fc634c603285",
+  "291da6fb64fa1dcc",
+  "294a5a0a43693dec",
+  "29e4576ba6c89b57",
+  "2ad1199984231902",
+  "2adbf9c6305fc06a",
+  "2b1cd5c8cb4d625d",
+  "2b255e9f481d18a3",
+  "2b7b39bb790bedda",
+  "2c608081f354a557",
+  "2c8319e7d95df6ab",
+  "2cb0f527b8587c7f",
+  "2cca133b47fb0ccb",
+  "2cd2b0994e6678d5",
+  "2d5bfbaa4b911d4f",
+  "2dcc3dbf5f18e0c9",
+  "2dd9fdee4105b1e2",
+  "2e92026d9631cee2",
+  "2ebb9d7074442b96",
+  "2fb4edb95dc04c80",
+  "2fcac4deb278a3a7",
+  "30801824033d38b4",
+  "31f85d4261e27576",
+  "31f9d00c3d2da11d",
+  "327084e7fca372b7",
+  "32708aa33e13cb86",
+  "3283765190941387",
+  "345cfa8e7a7b80e8",
+  "34b0e7403ae01a44",
+  "34be55f1c3b0338b",
+  "34f68f5411f25741",
+  "357a9b247e7c1ddd",
+  "35bcd31298a7e7f0",
+  "35f2421a16db2fb3",
+  "365fa4e24c5ab53d",
+  "383b3c6fd7ecdac3",
+  "384ff655a98dd30e",
+  "387192ad09e893fd",
+  "393d8a145b01378d",
+  "39c1f04ab2201944",
+  "39e7fe7af141a689",
+  "3a05ec4b217a03e6",
+  "3a6b4b90e4f3be84",
+  "3af965ed5a506185",
+  "3b7a0b1802463cb7",
+  "3bfdb1a27d40473b",
+  "3c1170c8a4beaa1c",
+  "3c39145abb26c856",
+  "3cd28be823de0125",
+  "3d2b4a3ffeb90f48",
+  "3e1897cc7d6055d8",
+  "3e1f97f97977a3e3",
+  "3e5bbfc68b5ca0ab",
+  "3e6eb32034b587c8",
+  "3f2cb0e4f9da66de",
+  "40ac3a7c36b0b69b",
+  "4140e1aa3b0947b7",
+  "41ab2962443ee899",
+  "41ad4c5d035bd0f9",
+  "4224b924d4556338",
+  "42e7fee982dc10c4",
+  "42eb1b963836f896",
+  "42ec24f19196b833",
+  "44d2b355968f1d62",
+  "4519400a52fa28f0",
+  "45808d436bb09648",
+  "45caa330e3322704",
+  "460fcc262dd8e1d7",
+  "46516e5458458618",
+  "468f34e5f7908d2a",
+  "46da6a97704bc911",
+  "47240a2db4429dfa",
+  "4783fbf73fd4c55a",
+  "48fefbd3467b2a06",
+  "494ef9709d0eef6e",
+  "49c67ff3ba5411e1",
+  "4b16ac215fe9b2dd",
+  "4b2cac0d84fe980f",
+  "4c6f24f2d4d603cb",
+  "4c70afd3215ec74b",
+  "4c9cf8a7a420e7ad",
+  "4dc6f9a82b12d349",
+  "4e1c98398a88c02e",
+  "4e2521473bbc4399",
+  "4e4f4a6cc7cff1cc",
+  "4ebada20df2039c6",
+  "4eeb722477e9b838",
+  "4f59cd85d04a948d",
+  "4f7fe1e42d07ea87",
+  "4fd381789e77d307",
+  "4ff09364db040fd5",
+  "5091b7b8fba7f357",
+  "51795f7f6a3bd74c",
+  "5277e534cb210794",
+  "536fbcb1374b7db7",
+  "54709c6879a1b1a4",
+  "54d44f488dee8178",
+  "54e15cff8e009e9b",
+  "555c33ab0a035734",
+  "55d35c707652f0d8",
+  "564bb625de853904",
+  "5660785ab8b3601c",
+  "569b5e1c1081e8d9",
+  "56dcf5747728fc72",
+  "5776c9776caacb42",
+  "593788d19b089d19",
+  "5a0fa7677d227bfa",
+  "5a2d2e7bdbf9da20",
+  "5aa54432ae423f90",
+  "5ac57b50818a6db0",
+  "5ae577159b2bb8ee",
+  "5b38db149741b0be",
+  "5baa372137e15675",
+  "5c1e90ae0ccdbf97",
+  "5ca8f551077392ba",
+  "5d1469ffcbb3de0d",
+  "5d8189d8db325a30",
+  "5dd12d29c084c8de",
+  "5de04fdde7118283",
+  "5df0805b5cfd747a",
+  "5dfd073d49d33168",
+  "5e0731fa920eadf5",
+  "5f047616f06974a9",
+  "6082de2586c61b1b",
+  "61394f828a7c5a95",
+  "6142fc255e16c778",
+  "619071d23762efa9",
+  "61a53147613c223b",
+  "623fcb933f6652f8",
+  "628d24a5c00fd8ba",
+  "62c0c56b685bfb59",
+  "62e29f49022896b2",
+  "6334dd28257ffd5e",
+  "635a3bea8127a5ae",
+  "6362c1d7c55d41a5",
+  "6391ea440a29c104",
+  "63f04250747bb2b7",
+  "6456467efc284c6b",
+  "6505eff098c59076",
+  "650bb410e263edf2",
+  "6613b3b34a2a71cc",
+  "662dc8b37bbc4e9f",
+  "66307baa0b813085",
+  "66443aa5cb62361e",
+  "6838fd58d2eabd7c",
+  "689629e49160f57d",
+  "68b738e5f9cf1974",
+  "69689f7e81f0a2a8",
+  "698fa0699cdccb0a",
+  "69969e22f5f76d02",
+  "69ec6704e10ada61",
+  "6a532ae1675fc9af",
+  "6a994936464468c4",
+  "6af0b5f44763e20a",
+  "6b0bad6e070f4a1a",
+  "6b5e40b97d5308aa",
+  "6cb86636062c5223",
+  "6d1ef30b10db6366",
+  "6d440f4f84435333",
+  "6e48b1fdd5ea9828",
+  "6e58beb9ebc56db5",
+  "6fbd065df60f202e",
+  "706008670adb59a3",
+  "70af6b2330a36186",
+  "70e644c518bb4ff3",
+  "70ec13c7b7578d5b",
+  "712ae07251ae90b9",
+  "71aed6064c624522",
+  "720ef89102782f64",
+  "7231c3ac4ff3e8f1",
+  "733b34c6170cf68d",
+  "736c8208166a29a8",
+  "73ba605ff6307290",
+  "746cf25c8647e090",
+  "75a4a91fdd85732b",
+  "7672c77b8305ccb4",
+  "7702bffa094f8896",
+  "774966860a406cbf",
+  "778e285ffab29a77",
+  "796da186980e8f68",
+  "7af155b260648811",
+  "7b76704046f484c4",
+  "7c7e391700c0b03f",
+  "7c82785f91090045",
+  "7cc2dabd162808b8",
+  "7d530ca132d8f033",
+  "7d7a2257b55896dd",
+  "7e4718280b4d62c8",
+  "7ed3cfb544bc4de6",
+  "7ef58fa4a42d293d",
+  "7f872112672036c9",
+  "7fc049f7d1815b4e",
+  "8044d83589f5df52",
+  "81eb317d6c3b4522",
+  "827bacc211b2b5b3",
+  "82b894e1a9cb184c",
+  "831034f775271aea",
+  "83a5f2a7f1f5c214",
+  "84fe438dc8335aab",
+  "85bf79986ccb51e4",
+  "863e01fe30d2e51f",
+  "86afe6bb4bc3dfa2",
+  "86b9373dec393e33",
+  "871fd63a6325be5d",
+  "875ad0febcc99bef",
+  "87cfd0ff4b423563",
+  "894827b28c2d0b7d",
+  "89b51cf5dee37d39",
+  "8ab14a1362389d14",
+  "8b44c305df3839a4",
+  "8bb8b0ee6648ed66",
+  "8d60424c0abbfdb9",
+  "8e7555f3a86daad3",
+  "8f3bbbdcb14df71e",
+  "8f3c02c903db035d",
+  "8f56f8e8283d1813",
+  "8f81bd3352379c08",
+  "8ff03f418a555bfd",
+  "90446f46d285fb44",
+  "90525060a9231508",
+  "908886876b46923b",
+  "924831549cfb118b",
+  "926bfbf649350c4d",
+  "928ab8930c357d04",
+  "9294af2ad9c6c9ca",
+  "93202fa1999c0e86",
+  "932cd9d16c9f8bc3",
+  "9377fd04fb89ab48",
+  "938d449729878769",
+  "9476026890750fb1",
+  "966cec95b6cb8783",
+  "9682cfe04dadd845",
+  "969ffcdc2a8aec7a",
+  "96ea1dbc7773836b",
+  "96f10c89f6472b50",
+  "973600729ae51cf3",
+  "97535d9a5ef39163",
+  "976bff1fe026cdf5",
+  "97ae7933e5dc24ba",
+  "97cf10a217c7ee8a",
+  "98a910425fd16d2e",
+  "98b5b438b85e34ce",
+  "99007a96c13af996",
+  "9a01b5c111b74b12",
+  "9a32bce6c05e9fdb",
+  "9a4ddb1d71bd352e",
+  "9a54e7d4c4e6ea5f",
+  "9a83d3298e26c84c",
+  "9ac01391e047f82d",
+  "9acbe3e4c2aa910a",
+  "9acd15020659a3c7",
+  "9b0ceb412c87c771",
+  "9b6a4619f362275b",
+  "9b8dc6899dbc0bb4",
+  "9c9daa647152923c",
+  "9cda5191e9a95874",
+  "9d38aca2191500e3",
+  "9e66179736d599d9",
+  "9e6a35a0e18f45aa",
+  "9ee0484adecfcdbe",
+  "9efb1d0e0f36d940",
+  "9f5c5457728ea8da",
+  "9fc6413de7b5e206",
+  "a03d4417279d345b",
+  "a06d225894b64dc5",
+  "a08451a0c0dde63d",
+  "a0b2c8ac1bb7eda8",
+  "a0d1296e130d304d",
+  "a231fceb06be6b33",
+  "a279ad6a9f3a4a5e",
+  "a32f324252a79471",
+  "a4264a6f0181ab78",
+  "a4303e3c926f18be",
+  "a44e13ceaf834459",
+  "a45528a016b95032",
+  "a4ae84524a7d9889",
+  "a56d277c13c4d0ec",
+  "a59aea020e5a5508",
+  "a5ff53025a34e4b7",
+  "a60bcd2723146453",
+  "a63ee388a561f95d",
+  "a66104d497e263e8",
+  "a684340791eb8e19",
+  "a6f886d3389fafbb",
+  "a736e556b512e649",
+  "a73d4daaa8a72746",
+  "a74a470e13e7b88f",
+  "a94f17fe3e8e2439",
+  "aa22f162de2ee5fb",
+  "aa6af1c24e64d2f3",
+  "aab7893d2d6f7449",
+  "ab0bccd61036a3e7",
+  "ab5b770a70a25fbd",
+  "ac375a71cf9c81b2",
+  "ac6fb71b13c6a303",
+  "acb08b005e3f8a47",
+  "acb1942423cb8a58",
+  "aedb64b2cbc0f45f",
+  "aef5c6922244733c",
+  "b0a99f425d4392ef",
+  "b0e332d44104ca81",
+  "b0f742deb1f1e92d",
+  "b0fd9115471290da",
+  "b1d50154b9de7088",
+  "b2156abee8a9da33",
+  "b264682927930e8c",
+  "b300e719bb9a900d",
+  "b40abc61c20a1245",
+  "b419e0a64819f643",
+  "b436df0716dbbbac",
+  "b48ad1798e0f2d48",
+  "b52a4c878898f682",
+  "b599e95b0d6228fa",
+  "b5b2c80aec3b4eda",
+  "b5ec742159130f26",
+  "b60aa53f5aa3539d",
+  "b673003f7bb4ed38",
+  "b6aaef2fc026b9ee",
+  "b71b89966e22065d",
+  "b762bb8e177aab5b",
+  "b76ddd9250deb278",
+  "b791b2c1c4f5e3aa",
+  "b7d404115df1b370",
+  "b7d899072ae5a029",
+  "b89af7ea38a28170",
+  "b8b49de30de23c47",
+  "b979096ad2916406",
+  "b9a7f37dbaa453a9",
+  "bafc1acb4b24a920",
+  "bb1671d4cec8fc8f",
+  "bc6fc8b5f1ae2a5a",
+  "bca1e040318ed232",
+  "bd91ad58b791ae76",
+  "bda6377c082863dc",
+  "bdb8e48e8b3fb312",
+  "bdd295acb9859817",
+  "be58b7c6a19bddd5",
+  "bea09cc2faf17b93",
+  "bf500eebeb55dbb3",
+  "bf786006a7612665",
+  "bf95125c4911d812",
+  "bfa0940d5b9a88a3",
+  "bfe203e6192d2950",
+  "bfe559b6b4c2dfbd",
+  "c026393136138994",
+  "c034653d40cdf9bc",
+  "c03daad8a18220bd",
+  "c0b60f077970281a",
+  "c0c82f99f0681666",
+  "c0cbf68daff511cc",
+  "c1adf4ab905f1d2d",
+  "c2367063f74eaf53",
+  "c2570b08dbc6e0bd",
+  "c29227919918d0e6",
+  "c2df9b0d8b7d2c81",
+  "c30a76b880284516",
+  "c383994d397c9d8d",
+  "c3a248be846e8be7",
+  "c3bc45ac352fe43f",
+  "c44f8615e6fb63e0",
+  "c45d07aa15f5542d",
+  "c4ff533f585e8a99",
+  "c584372a64d2f75d",
+  "c5ed3840e08a9266",
+  "c61e11430edbaec4",
+  "c697ed5b27f65770",
+  "c707003c3cc68561",
+  "c71300430df433df",
+  "c869c02f48fe75fd",
+  "c9123b553649f93b",
+  "cbc72f41615236ea",
+  "cbeec872f1c4f760",
+  "cce354dc170dc11f",
+  "ccfbe93d6f738128",
+  "cd2432b2661a38eb",
+  "cda730ca1e43ccb0",
+  "ce9f9c1a866d15fd",
+  "cecb272cd549283d",
+  "ceda818da5154c58",
+  "cedd68fca909b106",
+  "cf6f71b6d16c6474",
+  "d005992709688b76",
+  "d030e7632ec09be7",
+  "d043c17d806e1745",
+  "d07439823dbd7de8",
+  "d1612455ba02f187",
+  "d164a4e77ae0219f",
+  "d22f5e399ac447b4",
+  "d2597335458972da",
+  "d2a69fc56d1dc0e3",
+  "d3069776b9f26ab0",
+  "d420ec52efdd760f",
+  "d443f78860c9f54e",
+  "d4e0b49075307d35",
+  "d54c6cf97f938138",
+  "d58f0978aef99932",
+  "d62e703e0a3d1ae1",
+  "d658a3738233e170",
+  "d6abf53c6580eff7",
+  "d6c996463aa4e12f",
+  "d701eb1bd47c6555",
+  "d72542ea7b60821a",
+  "d7635609a07a8002",
+  "d7e211ed8428593d",
+  "d862f3a565ac1065",
+  "d9333cf26baff019",
+  "d98b0441a14993ab",
+  "da034e1d467d6cdb",
+  "da7122ac000acca0",
+  "daed79ea2b913c1a",
+  "dafc536aeb106df8",
+  "dd3c528cf8f27365",
+  "ddbae87a1aec70bf",
+  "ddd940e95890b463",
+  "dde38415f138b6d5",
+  "ddee0d22e7e28e23",
+  "de70c0c61572038a",
+  "de7a709a0fffeb5d",
+  "def6a3b0283280ca",
+  "df4feb07672c421e",
+  "df5f6d0a74664ce7",
+  "dffb7f2107b9985c",
+  "e01a28e1fdd5bccc",
+  "e05f414729beeaed",
+  "e17dd343037578ac",
+  "e198a69497f18e95",
+  "e1aa058a43cf76cf",
+  "e22704110d7db0d3",
+  "e2c524be25025d18",
+  "e2ca844a610478f8",
+  "e3a93e856612c920",
+  "e500d4232107af91",
+  "e557081a3284e31d",
+  "e58eae47cb88b1b8",
+  "e816473aba7c598b",
+  "e8543fa2d386737f",
+  "e8b0071df5cf0875",
+  "e94e6e95e1892d8e",
+  "e959a083a393be49",
+  "e95ba124697a6bc2",
+  "e9709839abfbb09c",
+  "e9a494ba23249e90",
+  "e9aaa066c3f1c8d9",
+  "e9b44fcba6d6e2a5",
+  "e9b749d4fafae1f1",
+  "e9e8f32f32bd4dde",
+  "ea78c2df150c0871",
+  "eb2bd1328e0690ed",
+  "ebe80c05da926281",
+  "ec2ab4e1319294e1",
+  "ed4f8d31f12006f8",
+  "ed9da67d448ca56b",
+  "edb7490f31b85f95",
+  "edce9ff334febc98",
+  "eddf53d19dc8e4bb",
+  "ede8f5a275fac763",
+  "ee172c7063300056",
+  "ee2aecd69f8bc8c6",
+  "ee56481fec85134b",
+  "eee38a6dd1019541",
+  "ef163308daeaedc9",
+  "eff745321a16724c",
+  "f002ad8323c46709",
+  "f01f68653bbb03a0",
+  "f0be55a2aa8be172",
+  "f0f77ecb07841381",
+  "f1b000f159e7bb64",
+  "f28205e182aaf418",
+  "f289cb6fb6aae856",
+  "f2b958e02042bccc",
+  "f2bd441c8083f355",
+  "f30d9b86f7180357",
+  "f52d4ac3983c497a",
+  "f5f9af9260b66eb7",
+  "f6199045859b7490",
+  "f624910b0d2f78f8",
+  "f66a9476b2abcaf4",
+  "f6d12879f0dceb0f",
+  "f7261c930c439ffb",
+  "f747ed97669ff3d1",
+  "f77fe9beafad780e",
+  "f81c097991d0001f",
+  "f9af8257854a1704",
+  "fa45f5afb93b8212",
+  "fae497fc170c735b",
+  "fb13eb33d986fe15",
+  "fb1fdfcbe7503046",
+  "fb40052331aeda60",
+  "fbb97f63ca3c4adb",
+  "fc7fa14187e1fd5d",
+  "fd3a3005a81a4cbc",
+  "fd75f14720f965f1",
+  "fdff51803ca6b89f",
+  "feac6f2f6d3c18be",
+  "ff6b179f20b108de",
+  "ffcaaa7a5623b6a5"
+ ],
+ "findings": [
+  {
+   "id": "F1.1",
+   "severity": 2,
+   "kind": "vaguer",
+   "block_hashes": [
+    "c29227919918d0e6"
+   ],
+   "now": "Yet no one taught those layers to talk to each other, instead you were taught (or you figured out) that the way to grow up and be an adult is to push through, repress, suppress, pretend you’re confident, follow authority, go against authority, etc etc etc, and mind you, the deeper mind is still runn",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.2",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "1d275d30b5f30e76"
+   ],
+   "now": "While a lot of the teachings on hypnosis talk about the subconscious mind like it’s one giant machine you just have to put the right commands into in order to get it to do what you want, for me, the most useful thing to do is sit and listen to the different parts of myself until they can all be hear",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.3",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "0a1e30855f9bb16b"
+   ],
+   "now": "Many people skip the listening or shorten it since it's not \"achieving something\" but this is by far the most important step.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.4",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "0a1e30855f9bb16b"
+   ],
+   "now": "When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic trance experience to demonstrate the results of all parts of your mind talking to each other and trusting each other more.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.5",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "6cb86636062c5223"
+   ],
+   "now": "You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - as you're invited.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.6",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "6cb86636062c5223"
+   ],
+   "now": "After, note what happened & any real-world actions.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.7",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "c026393136138994"
+   ],
+   "now": "Keep in mind that it's normal, even for people who do think in words, to sometimes notice feelings before words.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.8",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "f6d12879f0dceb0f"
+   ],
+   "now": "Even when not actively engaging the conscious mind, there are many ways to influence people.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.9",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "0296d13f24ee1dca"
+   ],
+   "now": "You maybe semi-consciously clicked \"Agree\" on the TikTok signup, and now you're suddenly into Death Note animé and worshipping Satan on the down-low while at church. That literally has happened to people I know.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.10",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "b6aaef2fc026b9ee"
+   ],
+   "now": "With self-hypnosis you can train your own mind from the inside, by befriending and listening to the deeper part of your mind.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2.1",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "e94e6e95e1892d8e"
+   ],
+   "now": "In 2024 there has been an overview of 49 meta-analyses containing a total of 261 distinct primary studies.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2.2",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "4b16ac215fe9b2dd"
+   ],
+   "now": "There has been a systematic review of Randomized Controlled Trials of self-hypnosis, finding benefit in studies of pain, childbirth, pediatric, stress, anxiety etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2.3",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "327084e7fca372b7"
+   ],
+   "now": "The Mayo Clinic warns that using hypnosis to deal with earlier life stressful events may invoke strong emotions and that there are other types of treatments that may be more helpful with historical trauma.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2.4",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "1aa3cf36e441c1f5"
+   ],
+   "now": "Without the mind of love the mind of analysis can be sterile. Without the mind of analysis the mind of love can lead to fantasy. Without testing intuitive signals they can become delusions. Without intuitive signals the testing can be dead.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2.5",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "7af155b260648811"
+   ],
+   "now": "The imagination can have opened up the field and then the adult can choose what to do next in the real world….",
+   "same_as_original": false
+  },
+  {
+   "id": "F2.6",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "75a4a91fdd85732b"
+   ],
+   "now": "In the same vein, self-hypnosis seemed to extend a short chrunga trip for what felt like a long time, and it feels like if I needed to I could have continued for an arbitrary amount of time.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2.7",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "75a4a91fdd85732b"
+   ],
+   "now": "I'm not recommending that anyone prolong an altered state forever, because it's better to integrate, etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3.1",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "134c3377c3d64471"
+   ],
+   "now": "Working with parts: Precision. Working with Higher Self: Coherence. Doing both: Communion.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3.2",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "cda730ca1e43ccb0"
+   ],
+   "now": "If you need to work with the ecology in the subconscious (child parts, guards, critic, fantasy making parts, body memories, social part, spiritual part (God/source/best benefit of all beings part) wiser part etc etc) then:",
+   "same_as_original": false
+  },
+  {
+   "id": "F3.3",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "f1b000f159e7bb64"
+   ],
+   "now": "Which part wants to avoid it?",
+   "same_as_original": false
+  },
+  {
+   "id": "F3.4",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "863e01fe30d2e51f"
+   ],
+   "now": "If you have a safe adult in your life you can borrow from them, if not borrow from a mentor, older brother/sister, imagine your future self, your god/goddess or higher power, a value you have, a plan you have written, etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3.5",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "41ad4c5d035bd0f9"
+   ],
+   "now": "- Return the adult hat, noticing what you borrowed and what you were able to do on your own (even if it’s only 5%).",
+   "same_as_original": false
+  },
+  {
+   "id": "F3.6",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "698fa0699cdccb0a"
+   ],
+   "now": "Next, put on your adult hat as if you are an apprentice adult and do or say what you think you should do or say. You should do at least part of what you think you should do or say.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3.7",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "831034f775271aea"
+   ],
+   "now": "It can be helpful to use borrowing when you’re in the adult position and not knowing what a decent adult would do, especially when the child doesn’t trust you and every response you can think of is retaliating, defending your goodness, collapsing or leaving.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3.8",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "831034f775271aea"
+   ],
+   "now": "You may still feel young when you do it, it’s okay, feeling like an adult can come after you act like one.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3.9",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "796da186980e8f68"
+   ],
+   "now": "You can choose to let the parts of you that feel younger express themselves without handing over the adult part of you to the caretaker in another person or without actually going back in age.",
+   "same_as_original": false
+  },
+  {
+   "id": "F3.10",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "a74a470e13e7b88f"
+   ],
+   "now": "For that baby bird, I use a kind of provisional bridge (also found in Schema Therapy) that I call “borrowed adulthood,” which I'll detail here.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4.1",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "028522ee6999ca58"
+   ],
+   "now": "Just place one hand in the center of your chest which is physically connecting you to your love and then place your other hand just below that, on your solar plexus, where your child can be.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4.2",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "bf95125c4911d812"
+   ],
+   "now": "You don't have to move their feelings, just sit back and enjoy their company.",
+   "same_as_original": false
+  },
+  {
+   "id": "F4.3",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "4c9cf8a7a420e7ad"
+   ],
+   "now": "A lot of times, inner child work doesn't work because people are doing all the fluffy stuff but then they go and text the person who is destabilizing them, or they don't eat, or they don't do whatever it is they're supposed to be doing.",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.1",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "c383994d397c9d8d"
+   ],
+   "now": "4. set boundaries (start with one and make it relative to the danger; move, stop, delay, ask, leave, get support, etc.)",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.2",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "98b5b438b85e34ce"
+   ],
+   "now": "5. verify if it is safe enough",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.3",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "d4e0b49075307d35"
+   ],
+   "now": "It doesn’t even have to be a child, if there is no child there, just work with a guard or whatever you find.",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.4",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "6334dd28257ffd5e"
+   ],
+   "now": "It can be anything. What does the child need? warmth, to play, to be protected, to mourn, to be angry, food, rest, boundaries, better relationships, to stop fantasizing, to stop working their butt off, that you keep a promise to them today, etc. etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.5",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "9e6a35a0e18f45aa"
+   ],
+   "now": "If you feel like you already know what they need, ask if they'd prefer warmth, space, verbal reassurance, silence, distance, whatever.",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.6",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "908886876b46923b"
+   ],
+   "now": "D. Give them what you can- don't feel like you have to fix it all.",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.7",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "8044d83589f5df52"
+   ],
+   "now": "G. Rest, and reconnect with them later to see what was helpful.",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.8",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "d07439823dbd7de8"
+   ],
+   "now": "If you don't like the idea of part work or it makes you feel more divided, you can substitute whatever part you're working with for a signal or a feeling, or an imaginary younger you that you feel embodies the issue you're having.",
+   "same_as_original": false
+  },
+  {
+   "id": "F5.9",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "384ff655a98dd30e"
+   ],
+   "now": "Now, before you get to resting, it’s okay to limit the amount of decisions you are going to be making for a certain amount of time, it’s okay to put the things you might not get to on a list and it’s okay to let your inner adult keep watch for a while.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6.1",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "7d530ca132d8f033"
+   ],
+   "now": "For others, it is very easy to work with the inner child, they can feel it easily.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6.2",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "22fe9d50d94ebe7d"
+   ],
+   "now": "One way of explaining this is that in your childhood you didn’t spend enough attention in finding out what you like and what you want to try out and who you are when nobody is grading you.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6.3",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "110895d74cc5c0db"
+   ],
+   "now": "Some people come back later on different terms, and sometimes the break has to be long-term because the pattern of losing yourself with them is deeply entrenched.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6.4",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "c30a76b880284516"
+   ],
+   "now": "A large part of your subconscious mind is made out of other people. That is why you are reading a self hypnosis guide!",
+   "same_as_original": false
+  },
+  {
+   "id": "F6.5",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "dd3c528cf8f27365"
+   ],
+   "now": "And then look what your body tells you.",
+   "same_as_original": false
+  },
+  {
+   "id": "F6.6",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "a08451a0c0dde63d"
+   ],
+   "now": "Manipulation often comes with any of the following: urgency, you are special, FOMO (fear of missing out), not being included, sexual charge, shame, confused, someone will rescue you, destiny, you should obey, secret knowledge, an excessive sense of certainty about something way too quickly, and a se",
+   "same_as_original": false
+  },
+  {
+   "id": "F6.7",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "062a19b862e52015"
+   ],
+   "now": "Secondly, some of the ways that hypnotic language is used to manipulate are where you have consented to something without realizing it, where you are given only one choice, or where something not yet agreed upon is embedded in a sentence. For example;",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.1",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "a0b2c8ac1bb7eda8"
+   ],
+   "now": "Be aware that even when using permissive language, you can still take away the subject’s choice. Be aware of;",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.2",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "5091b7b8fba7f357"
+   ],
+   "now": "7) Including suggestions for amnesia, or making a subject think that something (dream, amnesia, imagery, body experiences etc) has happened when this may not necessarily be the case.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.3",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "268f2e0512f40869"
+   ],
+   "now": "In order for a subject to be making a REAL choice whilst in a hypnosis, there MUST be at least one way for a subject NOT to carry on with the hypnosis if they wish.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.4",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "cbeec872f1c4f760"
+   ],
+   "now": "(see appendix C for a longer version of the de hypno)",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.5",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "9a4ddb1d71bd352e"
+   ],
+   "now": "If on the other hand, you're already pretty trancey for whatever reason, skip straight to \"Already open? Contain before you deepen\" rather than going deeper.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.6",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "4dc6f9a82b12d349"
+   ],
+   "now": "1. Read this page, and the Come all the way back page, when you're awake.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.7",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "ab0bccd61036a3e7"
+   ],
+   "now": "Learn how to notice if there is no change, and that no change is not a secret success.",
+   "same_as_original": false
+  },
+  {
+   "id": "F7.8",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "628d24a5c00fd8ba"
+   ],
+   "now": "5. If you are new to this or haven't done it for a while, work on the coming in and coming out part first, don't bring in the hard stuff till later.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8.1",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "e9709839abfbb09c"
+   ],
+   "now": "Use the same anchor for everywhere that anchor is mentioned. Don't read the directions, just pause between paragraphs.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8.2",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "b8b49de30de23c47"
+   ],
+   "now": "You can allow your eyes to rest on something in the room for a bit, and let what's already there come into view.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8.3",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "e1aa058a43cf76cf"
+   ],
+   "now": "Say something like, \"Only what I can integrate, please. If there's too much it can wait. My body may stay safe. I'll be here as an adult, this won't just be my inner child.\"",
+   "same_as_original": false
+  },
+  {
+   "id": "F8.4",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "55d35c707652f0d8"
+   ],
+   "now": "One hand on your heart, one hand on your solar plexus",
+   "same_as_original": false
+  },
+  {
+   "id": "F8.5",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "fd75f14720f965f1"
+   ],
+   "now": "It might be useful for your wise subconscious to twitch a finger in one of your hands, or make a finger pulse, or come up by itself, or to heat up a finger and make it noticeable to you, or tingle in a noticeable way to let you know that your inner meeting space is ready for you to go into.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8.6",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "106d0b8811cf4331"
+   ],
+   "now": "Even if something happens, it doesn’t mean it is true, it just might mean that something is listening.",
+   "same_as_original": false
+  },
+  {
+   "id": "F8.7",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "c5ed3840e08a9266"
+   ],
+   "now": "Check out Nimja’s sleep playlist to go to sleep listening to hypnosis",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.1",
+   "severity": 2,
+   "kind": "garbled",
+   "block_hashes": [
+    "39e7fe7af141a689"
+   ],
+   "now": "Once you have learned a useful induction and how to come back down at the end, you can do the following….",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.2",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "24948bad71cfa969"
+   ],
+   "now": "However, if you are coming out of a recording then you should not leave yourself in an altered state.",
+   "same_as_original": false
+  },
+  {
+   "id": "F9.3",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "01c0700ee846bae6"
+   ],
+   "now": "Ask your conscious mind to listen.",
+   "same_as_original": false
+  },
+  {
+   "id": "F10.1",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "a94f17fe3e8e2439"
+   ],
+   "now": "Your shoulders tightening, or 'hmm, that feels kind of wrong', is a signal to investigate further, but 'No! That is Not Right!' is a signal to stop what you're doing and change it.",
+   "same_as_original": false
+  },
+  {
+   "id": "F10.2",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "e01a28e1fdd5bccc"
+   ],
+   "now": "Sometimes the invitation just isn't right - sometimes it's something you hadn't thought of. Either way, it isn't automatically a guard, and silence doesn't mean a hidden process is working.",
+   "same_as_original": false
+  },
+  {
+   "id": "F10.3",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "18f929df30688e74"
+   ],
+   "now": "Are they able to communicate in a mature fashion?",
+   "same_as_original": false
+  },
+  {
+   "id": "F10.4",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "a06d225894b64dc5"
+   ],
+   "now": "\"Ok, I think that is enough for now.\"",
+   "same_as_original": false
+  },
+  {
+   "id": "F10.5",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "101c3371c2eb4a15"
+   ],
+   "now": "It may be a good hypothesis for what you need to do but it is not a proven fact.",
+   "same_as_original": false
+  },
+  {
+   "id": "F10.6",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "ee2aecd69f8bc8c6"
+   ],
+   "now": "If this happens, allow yourself to respond for as long as you want to do so, and for as long as you can stay there (ie remain in the process).",
+   "same_as_original": false
+  },
+  {
+   "id": "F10.7",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "44d2b355968f1d62"
+   ],
+   "now": "If you notice a feeling developing, it might be best not to say anything while it's developing (if you can help it) but some days you need to talk to understand, so just do that.",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.1",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "c584372a64d2f75d"
+   ],
+   "now": "And most importantly, what can you carry with you as you move forward from this?",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.2",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "8f3bbbdcb14df71e"
+   ],
+   "now": "You are simply practicing for fifteen minutes or so.",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.3",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "aedb64b2cbc0f45f"
+   ],
+   "now": "Otherwise, the dishes won’t get done.",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.4",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "a6f886d3389fafbb"
+   ],
+   "now": "If it takes you destabilizing to know what your subconscious knows, it is not meant for you to know directly at this time!",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.5",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "383b3c6fd7ecdac3"
+   ],
+   "now": "When you are flooded, it is much harder to access your adult capacities so focus on being able to regulate and getting support!",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.6",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "a32f324252a79471"
+   ],
+   "now": "Instead, say to yourself something like this:",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.7",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "51795f7f6a3bd74c"
+   ],
+   "now": "So, treat it like an image and get some help outside of yourself!",
+   "same_as_original": false
+  },
+  {
+   "id": "F11.8",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "112e07b4eaebbfab"
+   ],
+   "now": "Choose one way to induce yourself, you don't need to try all of them!",
+   "same_as_original": false
+  },
+  {
+   "id": "F12.1",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "5660785ab8b3601c"
+   ],
+   "now": "It doesn't matter that you don't have an inner voice/image to do this, it isn't necessarily about not having a 'grown up' or resisting doing the work.",
+   "same_as_original": false
+  },
+  {
+   "id": "F12.2",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "c0c82f99f0681666"
+   ],
+   "now": "Some examples of answers might be “I need to know you will set boundaries” “I need to know you will do what you said you will do” “I need to know you won’t keep leaving” “I need to know you won’t think that knowing something means that you don’t need to do anything about it” etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F12.3",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "2fb4edb95dc04c80"
+   ],
+   "now": "“What’s the smallest, most specific thing you can do to demonstrate the love you’re feeling?”",
+   "same_as_original": false
+  },
+  {
+   "id": "F12.4",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "07b03834da225fe1"
+   ],
+   "now": "You may have a real wound that needs to be dealt with, but it’s possible you’re caught in a checking loop.",
+   "same_as_original": false
+  },
+  {
+   "id": "F13.1",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "daed79ea2b913c1a"
+   ],
+   "now": "DO NOT: Engage in seeking “downloads” of information or make a hobby of demons/jinn/Unattached Burdens or the like, until you have stabilized your life.",
+   "same_as_original": false
+  },
+  {
+   "id": "F13.2",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "1e42bd2a0a6eb440"
+   ],
+   "now": "Don’t put hidden commands in yourself, nor allow anyone to do so.",
+   "same_as_original": false
+  },
+  {
+   "id": "F13.3",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "5a2d2e7bdbf9da20"
+   ],
+   "now": "Start from the basis that the subconscious, the body, the sharp mind, and the guard who's tensed up and ready for the other shoe to drop for a long time are all not your enemies.",
+   "same_as_original": false
+  },
+  {
+   "id": "F13.4",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "6d440f4f84435333"
+   ],
+   "now": "You can download Inner Signal App for voice hypnosis, information, help developing your own language, and feedback on what you report.",
+   "same_as_original": false
+  },
+  {
+   "id": "F14.1",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "dffb7f2107b9985c"
+   ],
+   "now": "Constraint: What do you need to do to make sure your asking is safe, true, kind etc.",
+   "same_as_original": false
+  },
+  {
+   "id": "F14.2",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "f2b958e02042bccc"
+   ],
+   "now": "Appendix B - NLP (Neuro-Linguistic Programming)",
+   "same_as_original": false
+  },
+  {
+   "id": "F14.3",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "ddd940e95890b463"
+   ],
+   "now": "Language Level of NLP: pacing what is true; opening up people’s awareness; presuming you can do something safe; linking cause and effect; embedding invitations; asking de-hypnotic questions to break the effects of vague, absolute, manipulative or grandiose language.",
+   "same_as_original": false
+  },
+  {
+   "id": "F14.4",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "d2597335458972da"
+   ],
+   "now": "Presumption is a powerful thing, so please don’t use it except to presume that we will have the choice of when it will happen, that we will be able to do it, that we are safe, that we are loved and that our adult can lead us.",
+   "same_as_original": false
+  },
+  {
+   "id": "F14.5",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "11cfd9550414ad60"
+   ],
+   "now": "It’s not very likely that just by breathing in and out that your trauma is going to go away!",
+   "same_as_original": false
+  },
+  {
+   "id": "F14.6",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "d72542ea7b60821a"
+   ],
+   "now": "Example: ‘Notice how you find out the answer.’",
+   "same_as_original": false
+  },
+  {
+   "id": "F15.1",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "875ad0febcc99bef"
+   ],
+   "now": "If someone's fear, craving, fantasy, belief, memory, whatever, has sensory properties in your experience (it has a place in your visual field, or sounds a certain way, or is heavy, or moving, or inside / outside your body, or something like that), you can work with those properties.",
+   "same_as_original": false
+  },
+  {
+   "id": "F15.2",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "1800250cd4e9fc17"
+   ],
+   "now": "Reiterate to yourself that whenever you notice a synchronicity, it is just a bell that rings to wake you up, it is not proof for what you are interpreting from it.",
+   "same_as_original": false
+  },
+  {
+   "id": "F15.3",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "19cff7cc822e64ef"
+   ],
+   "now": "These cues do not authorize you to make a decision. They do not stop you from hearing the message of your intuition if it is warning you about something.",
+   "same_as_original": false
+  },
+  {
+   "id": "F15.4",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "053f94475da7bd66"
+   ],
+   "now": "Research has shown that people that score high on apophenia tests also score high for detecting patterns that were not really there, as well as scoring high on psychosis spectrum traits (see Blain and colleagues, and Grant and colleagues) (this is not saying that noticing patterns is bad; in fact, i",
+   "same_as_original": false
+  },
+  {
+   "id": "F15.5",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "ec2ab4e1319294e1"
+   ],
+   "now": "Here is a rough outline of the NLP tools and techniques I use:",
+   "same_as_original": false
+  },
+  {
+   "id": "F16.1",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "48fefbd3467b2a06"
+   ],
+   "now": "I do not remove pain, hunger, grief, anger, or medical symptoms.",
+   "same_as_original": false
+  },
+  {
+   "id": "F16.2",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "13aced4262821d28"
+   ],
+   "now": "Induce/Contain the person (get their attention, or stabilize them first if they are already wide open).",
+   "same_as_original": false
+  },
+  {
+   "id": "F16.3",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "7d7a2257b55896dd"
+   ],
+   "now": "What is my body telling me to do about this (how does my body feel)?",
+   "same_as_original": false
+  },
+  {
+   "id": "F16.4",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "f77fe9beafad780e"
+   ],
+   "now": "Therefore, instead of interrogating that part, start with yourself:",
+   "same_as_original": false
+  },
+  {
+   "id": "F17.1",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "a684340791eb8e19"
+   ],
+   "now": "Somatic experiencing: If you would like more information about somatic experiencing, or even a free intro session, please see my somatic guide.",
+   "same_as_original": false
+  },
+  {
+   "id": "F17.2",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "23c8d7751f31253d"
+   ],
+   "now": "But neither one of those products is necessary.",
+   "same_as_original": false
+  },
+  {
+   "id": "F17.3",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "e959a083a393be49"
+   ],
+   "now": "If you’re there little one, I’m here. Thank you guard for letting me know you’re here, you didn’t have to scream, I got your message.",
+   "same_as_original": false
+  },
+  {
+   "id": "F17.4",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "61a53147613c223b"
+   ],
+   "now": "It is simulating an idea or event to help you digest grief or teach you something.",
+   "same_as_original": false
+  },
+  {
+   "id": "F17.5",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "f30d9b86f7180357"
+   ],
+   "now": "- What they will do if things don't fit (if they are treating trauma, did they have specific training on trauma and dissociation? Having hypnosis certifications matters, but doesn't mean they are trained in trauma care)",
+   "same_as_original": false
+  },
+  {
+   "id": "F17.6",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "b0e332d44104ca81"
+   ],
+   "now": "- What they will do if things go unexpected during or after the session",
+   "same_as_original": false
+  },
+  {
+   "id": "F17.7",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "393d8a145b01378d"
+   ],
+   "now": "They probably won't be able to tell you if the person was certified in them or not, though.",
+   "same_as_original": false
+  },
+  {
+   "id": "F18.1",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "35bcd31298a7e7f0"
+   ],
+   "now": "We can not force forgiveness on ourselves, it has to come from a place of understanding otherwise it can be bypassing.",
+   "same_as_original": false
+  },
+  {
+   "id": "F18.2",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "894827b28c2d0b7d"
+   ],
+   "now": "Self-hypnosis can be POWERFUL when you are in an altered state of consciousness (i.e. when you're on loveyhuasca, meditating, have a lucid dream, are dealing with grief, are dealing with sexual energy, are praying, haven't slept, are around plant medicine, etc, etc, etc).",
+   "same_as_original": false
+  },
+  {
+   "id": "F18.3",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "b60aa53f5aa3539d"
+   ],
+   "now": "Regardless of how scary an image is, regardless of the lighting that came with the \"download\", regardless of how bad you feel, it doesn't necessarily mean what you think it does!",
+   "same_as_original": false
+  },
+  {
+   "id": "F19.1",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "b76ddd9250deb278"
+   ],
+   "now": "But if you’re fighting it out of fear…",
+   "same_as_original": false
+  },
+  {
+   "id": "F19.2",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "d1612455ba02f187"
+   ],
+   "now": "Finally, presences, shadow forces, or grandiose parts don’t always attack through fear.",
+   "same_as_original": false
+  },
+  {
+   "id": "F20.1",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "1b117e9b09c36bbb"
+   ],
+   "now": "Stretch and Release: Work out what will be supporting you, focus on the feeling of support.",
+   "same_as_original": false
+  },
+  {
+   "id": "F20.2",
+   "severity": 2,
+   "kind": "garbled",
+   "block_hashes": [
+    "1b117e9b09c36bbb"
+   ],
+   "now": "See if there is any difference, even if there isn’t.",
+   "same_as_original": false
+  },
+  {
+   "id": "F20.3",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "a4ae84524a7d9889"
+   ],
+   "now": "Rhythmic: Use your breathing or slightly hum in your throat to make a natural rhythm, or tap your finger or listen to sounds outside to make an artificial one.",
+   "same_as_original": false
+  },
+  {
+   "id": "F20.4",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "42ec24f19196b833"
+   ],
+   "now": "See what happens, you can fractionate this if you want, perhaps noticing your normal awareness when you breathe in and the support when you breathe out.",
+   "same_as_original": false
+  },
+  {
+   "id": "F20.5",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "b791b2c1c4f5e3aa"
+   ],
+   "now": "- For sleep, try using this playlist by Nimja",
+   "same_as_original": false
+  },
+  {
+   "id": "F21.1",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "c2367063f74eaf53"
+   ],
+   "now": "For information about borrowed adulthood, love that doesn't require trust, practical and relational repair, spiritual struggle, differentiation and mutual peer support, see Inner Child Self-Love Reparenting Guide.",
+   "same_as_original": false
+  },
+  {
+   "id": "F21.2",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "5a0fa7677d227bfa"
+   ],
+   "now": "Not everybody has an inner voice (Nedergaard and Lupyan 2024) is not about self hypnosis adaptations, but about people with different amounts of inner speech.",
+   "same_as_original": false
+  },
+  {
+   "id": "F21.3",
+   "severity": 1,
+   "kind": "garbled",
+   "block_hashes": [
+    "d98b0441a14993ab"
+   ],
+   "now": "This US Veterans Administration website contains useful general information about hypnosis, such as the fact that it can be very strong and should be carefully used, and that it may result in false memories.",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {
+  "F1.1": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F1.2": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F1.3": [
+   "his",
+   "His own sentence (ED-A1, 28 October): the comma before \"but\" is on his cards page."
+  ],
+  "F1.4": [
+   "his",
+   "His edit of the paragraph (ED-A1): the suggestion (\"show up in your ordinary life\") is on his cards page."
+  ],
+  "F1.5": [
+   "his",
+   "His edit of the paragraph (ED-A3, 28 October), which kept \"as you're invited\": the suggestion is on his cards page."
+  ],
+  "F1.6": [
+   "his",
+   "His edit of the paragraph (ED-A3): \"any real-world actions it calls for\" is on his cards page."
+  ],
+  "F1.7": [
+   "his",
+   "His own paragraph (ED-A5, 28 October: \"couldn't even understand what the original was talking about\"): the \"Not sure\" point, said plainly, is on his cards page."
+  ],
+  "F1.8": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F1.9": [
+   "his",
+   "His own version (J5, 30 October) replaces the paragraph with his example; the four kinds of consent are his call, and the example makes the point that the mind can be influenced without the adult choosing."
+  ],
+  "F1.10": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F2.1": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F2.2": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F2.3": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F2.4": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F2.5": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F2.6": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F2.7": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F3.1": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F3.2": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F3.3": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F3.4": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F3.5": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F3.6": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F3.7": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F3.8": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F3.9": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F3.10": [
+   "his",
+   "His own version (R-96, 30 October); Appendix K keeps the disclaimer that the sequence isn't validated as one treatment."
+  ],
+  "F4.1": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F4.2": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F4.3": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F5.1": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F5.2": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F5.3": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F5.4": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F5.5": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F5.6": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F5.7": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F5.8": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F5.9": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F6.1": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F6.2": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F6.3": [
+   "not",
+   "He approved this change on 25 October (card IC-A21, lined up with his inner child guide's \"Differentiation\": \"sometimes the break has to be long-term\"); the published caution is what he replaced."
+  ],
+  "F6.4": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F6.5": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F6.6": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F6.7": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F7.1": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F7.2": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F7.3": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F7.4": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F7.5": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F7.6": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F7.7": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F7.8": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F8.1": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F8.2": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F8.3": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F8.4": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F8.5": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F8.6": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F8.7": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F9.1": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F9.2": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F9.3": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F10.1": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F10.2": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F10.3": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F10.4": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F10.5": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F10.6": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F10.7": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F11.1": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F11.2": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F11.3": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F11.4": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F11.5": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F11.6": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F11.7": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F11.8": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F12.1": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F12.2": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F12.3": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F12.4": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F13.1": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F13.2": [
+   "not",
+   "The last rule's point (end every session back in your ordinary self, saying it's over) is made where it belongs, in Come all the way back (\"the session is now over\"); saying it again here is the repeated safety language he asked us to cut (O45, 23 October)."
+  ],
+  "F13.3": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F13.4": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F14.1": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F14.2": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F14.3": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F14.4": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F14.5": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F14.6": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F15.1": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F15.2": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F15.3": [
+   "not",
+   "The cue's limits that are gone here are in its own sections: it is yours and you can take it out (\"False positives, and turning the cue off\"), and nobody may activate what you put in yourself (\"What not to do\", the hidden commands rule)."
+  ],
+  "F15.4": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F15.5": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F16.1": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F16.2": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F16.3": [
+   "his",
+   "His own text (his message of 23 October 01:10 UTC, window 13 \"human high conf\"); the published caution would bring back \"proves\", a tell he named; the next paragraph already tests the signal (\"it'll still be there tomorrow\")."
+  ],
+  "F16.4": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F17.1": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F17.2": [
+   "not",
+   "The caution (a product says nothing about whether an inner signal is true) is the guide's point everywhere; saying it again after a product is the repeated safety language he asked us to cut (O45), in the \"doesn't prove\" form he named a tell on 30 October."
+  ],
+  "F17.3": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F17.4": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F17.5": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F17.6": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F17.7": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F18.1": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F18.2": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F18.3": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F19.1": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F19.2": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F20.1": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F20.2": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F20.3": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F20.4": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F20.5": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F21.1": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ],
+  "F21.2": [
+   "his",
+   "His edit (CV-8.9, 25 October): marking the title (\"The study ...\") is on his cards page."
+  ],
+  "F21.3": [
+   "fixed",
+   "Fixed in our words (apply_fullread.py; APPLIED-FULLREAD.json has the paragraph before and after), and the paragraph read beside his published version (VERIFY.md)."
+  ]
+ }
+}
