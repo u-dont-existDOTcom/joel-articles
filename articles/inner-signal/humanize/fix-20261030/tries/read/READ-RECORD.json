@@ -1,0 +1,19 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "fix-20261030/tries/CANDIDATE-MASTER.md: the tries of 2026-10-30, read by the lead session (E294)",
+ "coverage": [
+  "24c6e1014fb86ab7",
+  "383b3c6fd7ecdac3",
+  "5c41c88af5e9319b",
+  "64b5e9737ba38c7e",
+  "830e04ca8cd65a4d",
+  "a45049a87d00db47",
+  "b6325fb4f9bc4ec0",
+  "b6aaef2fc026b9ee",
+  "d4538aa930c6deda",
+  "e2618a73bc24f543",
+  "f7b1cefef60c20c2"
+ ],
+ "findings": [],
+ "dispositions": {}
+}

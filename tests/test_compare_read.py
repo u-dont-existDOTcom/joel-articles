@@ -174,6 +174,22 @@ class CompareReadTests(unittest.TestCase):
         self.assertEqual(recs[0]['kind'], 'lost')
         self.assertEqual(recs[0]['severity'], 2)
 
+    def test_changes_show_the_card_that_cut_a_point(self):
+        # gate E301: the hypnosis guide's forces line, cut by his card RP-1.4 on 25 October, brought back on 30 October
+        cut = 'As you know there are many forces at work in the world that are already training your mind.'
+        rest = 'With self-hypnosis you can do much of the same thing from the inside, by befriending your mind.'
+        later = 'With self-hypnosis you can train your own mind from the inside, by befriending your mind.'
+        back = 'Ads, screens, fear and cravings are already training your mind.'
+        hist = [('a' * 40, '2026-10-21T00:00:00', 'installed', '', [cut + ' ' + rest, 'Another paragraph entirely.']),
+                ('b' * 40, '2026-10-25T00:00:00', 'his answers in (RP-1.4)', '', [rest, 'Another paragraph entirely.']),
+                ('c' * 40, '2026-10-29T00:00:00', 'comprehension fixes', '', [later, 'Another paragraph entirely.'])]
+        ch = C.changes(back + ' ' + later, hist)
+        self.assertEqual([c['subject'] for c in ch], ['comprehension fixes', 'his answers in (RP-1.4)', 'installed'])
+        self.assertEqual(ch[1]['dropped'], [cut])
+        self.assertTrue(ch[-1]['first_seen'])
+        # a paragraph that shares too few words with any older one has no history before it
+        self.assertEqual(C.changes('Nothing like any of these at all, really.', hist), [])
+
 
 if __name__ == '__main__':
     unittest.main()

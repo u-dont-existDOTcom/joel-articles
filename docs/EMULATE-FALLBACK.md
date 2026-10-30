@@ -146,6 +146,22 @@ does it** instead of the passive ("Is the hypnotist using ..."). These are the w
 eleven above, because they keep the meaning and add to it, where Emulate's passing came from dropping it. The study of
 each of his versions beside both writers' tries comes after his versions are rechecked in place.
 
+**His versions in place, and the study (2026-10-30, gate E303).** Rechecked in the whole guide, 36 of the 37 paragraphs
+of his versions read Human, 19 at High (`articles/inner-signal/humanize/fix-20261030/recheck/read/SPOTS.md`). Beside the
+writers' tries for the same words (`HIS-STUDY.md` there), the difference is what changes: the writers moved the same
+content around (split, joined, reordered, "It's fine to" for "You can"); he changed what the paragraph does. The writers'
+first rules, in this order:
+1. Cut the hedge or the filler sentence instead of rewording it.
+2. Say what an abstract word means in experience, in the first person where the paragraph is his story.
+3. Give an abstract term an example, a funny one where the paragraph allows it; show the wrong version beside the right
+   one where the point is a difference (his reframing paragraph).
+4. Say what a step is for.
+5. Turn a slogan or a run of labels into instructions, in short paragraphs that start differently.
+6. Lead into a quoted example with a spoken line ("So we might arrive at, ...") instead of a label and a colon.
+Then the eleven shape rules above. A try may add only an example that illustrates a point the guide makes; his life, a
+joke about himself and a source he hasn't named are his to add, so a stretch that needs one goes to him as a card. And a
+lost point comes back only where nothing nearby says it, in this shape, never in the published wording (E301, E302).
+
 ## 2. When to use Emulate
 
 Use it only when all of these hold:
