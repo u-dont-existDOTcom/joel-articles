@@ -31863,7 +31863,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/HANDOFF-hypnosis-guide.md",
-          "sha256": "43f61833c3626736555a9edc4529419b58d93055174fbc2dec598f4c3c61dfc2",
+          "sha256": "aa97134170e72fafa11fb82ba13acd0472867b9b31e166aaf1221145ab54b5c6",
           "role": "humanization_working_record"
         },
         {
@@ -36128,7 +36128,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/STATUS.md",
-          "sha256": "80a96f927753ec42f812fa0e78eb666f8c49963b5ae24c4b9fad05b1adb2645f",
+          "sha256": "327536d7a7e640f4e676d447fc6916cb203e112e4ef570f6f0649ce4a37c42c7",
           "role": "humanization_working_record"
         },
         {
@@ -37388,7 +37388,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/OWNER-QUESTIONS.md",
-          "sha256": "fd11d5edd0735cca788c7293b97e11944b37bddbe7f37c55cf1eb6ddf591c1cc",
+          "sha256": "e6990d87c726fd1b22a4ffb60a53563554c9ff2b7b714e89e57c50b8ca5374a9",
           "role": "humanization_working_record"
         },
         {
@@ -44653,7 +44653,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/SCORECARD.md",
-          "sha256": "f5c29adebc2bbe332c046da795c0e8a087acf3000f1afb652b5a6786b081ce87",
+          "sha256": "c0d771c555fa96047a6089cd1e45351bd6cb6babe25b53f0cbc33ba23706f380",
           "role": "humanization_working_record"
         },
         {
@@ -44893,7 +44893,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/pangram-ledger.jsonl",
-          "sha256": "c7d2f380d365f1ef669094db6188ed1724b298b54d53758a21bdce4c9a95d1b6",
+          "sha256": "5b37ab1387741d0bb279db2f28949a9ab8b8c1bd71a231f32f0171969695f01f",
           "role": "humanization_working_record"
         },
         {
@@ -58494,6 +58494,116 @@
         {
           "path": "articles/inner-signal/humanize/fix-20261030/tries/RENDERED-B.txt",
           "sha256": "f995a23e193bfcdd111cf44df5d1cf25109c8216cd7163ed3579062563981394",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/joel-20261030-2140-message.txt",
+          "sha256": "c1d663c551c845814224c9b9d42d5c822acfad64c62ae3784c792d063f67eb2d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/tries/read/CONFIDENCE.json",
+          "sha256": "95515f8f3ffbbe796b4a6917cb2988c52beb8370117021db7b2d430d063aafe5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/tries/read/CONFIDENCE.md",
+          "sha256": "59b8a3ff9121ee5f1d1dc31a999519404e794ed51ddee8ff17e1035ea720f881",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/tries/read/META-A.json",
+          "sha256": "601ed74db0d3ace7fcc1f2d6157de722191a38be860405e0d05e7a0cbe8a58f3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/tries/read/META-B.json",
+          "sha256": "8d715d71d73167d3e619d7d10faf503c8b245530bc440a1c499aab9e24c8ff1b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/tries/read/RESULT-A.json",
+          "sha256": "cd97f2531a13f5b35caca0cf9c93f158f70dc9a0f78d573c4b1d8b8709882249",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/tries/read/RESULT-B.json",
+          "sha256": "af916adc9ee83befe9441c022b3be652cdf531a7d4796b258fadfc7b786ed327",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/tries/read/SCORE-A.md",
+          "sha256": "b3177c6bb7c6d64fbda96cdf86f3e96d55982a2e1ab1838a2720919a00a2dec2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/tries/read/SCORE-B.md",
+          "sha256": "603bbc934e304ae8aa66b390a3c44dc2aea5b6a842369bf1f2dc12a9926c2005",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/tries/read/SPOTS.json",
+          "sha256": "31db6d4861b3a391ac72b40f7a9038fb7cd74b1f36d0e9dd12695377b4e17491",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/tries/read/SPOTS.md",
+          "sha256": "5816b601992181f15f5aa6a6cc44aa6d9d897141673c5c0813fec463db457513",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/tries/read/STABILITY.md",
+          "sha256": "1f9841411942dbe5ea1db38c053be0f7de78a98407ba29a5dca9d5298b762b35",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/tries/read/WINDOWS-A.txt",
+          "sha256": "bb193545ed2a57ff183858fb9e7e65c3139079b11e746f53500e2fdb0b9b04ab",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/tries/read/WINDOWS-B.txt",
+          "sha256": "b556fcd865d5f7085c134586c42afff817e4b89d72cdc837c68d460394ad0d63",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/tries/read/make_results.py",
+          "sha256": "b98cdb603d1cc374a4c1a819f89b504b1e1b121385cb57ca2c2a38f940d5051c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/tries/read/spots_tries.py",
+          "sha256": "bcf522744fb7913927e842415800526d15ba41f169e4906ca160ba7cc940cd21",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/tries/read/stability.py",
+          "sha256": "70da970142192e41e9554afa6ebef14d6029275f65f7b4a327d265ca87ac3a62",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/tries/review/REVIEW-30b.artifact.html",
+          "sha256": "fc021e3bacfebaad87bededbfb74b0578cbeba2291ed405561160ef3e6d76527",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/tries/review/REVIEW-30b.html",
+          "sha256": "d8b890b661845cfc8e646c98c2123e0f6bb559fac2a4bcf53dbd37af8767d5c4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/tries/review/REVIEW-30b.json",
+          "sha256": "83d556506da2474bff913e903177487b90507f224f9b0aec3f083996490c4741",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/tries/review/REVIEW-30b.md",
+          "sha256": "43bb1158f8efda9221d7f05686109e82761ab0a409f65341444a86cd9295c4da",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261030/tries/review/build_page_30b.py",
+          "sha256": "179b93db24696b65c701ae298474d1a127e662db29084f7ea418cd3cab597cec",
           "role": "humanization_working_record"
         }
       ]

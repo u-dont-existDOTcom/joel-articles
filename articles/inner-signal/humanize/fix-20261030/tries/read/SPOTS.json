@@ -1,0 +1,297 @@
+{
+ "spots": [
+  {
+   "id": "T-35",
+   "kind": "take back",
+   "where": "Protecting Yourself from Hypnotists, P6",
+   "whose": "my fix of 30 October (F1.10)",
+   "after": "With self-hypnosis you can train your own mind from the inside, by befriending and listening to the deeper part of your mind. This opens up a whole new area of choice for you as an adult in the world.",
+   "part": "A",
+   "reading": "Human (High)",
+   "ai_windows": [],
+   "reading_before": "AI (Low)"
+  },
+  {
+   "id": "T-337",
+   "kind": "take back",
+   "where": "Let the response change the invitation, P1",
+   "whose": "my fix of 30 October (F10.1)",
+   "after": "Your shoulders tightening, or 'hmm, that feels kind of wrong', is a signal to investigate further, but 'No! That is Not Right!' is a signal to stop what you're doing and change it. If you don't feel like it fits, don't keep doing it, and don't try saying it again more persuasively. Just change it. You don't need any other reason.",
+   "part": "A",
+   "reading": "Human (Medium)",
+   "ai_windows": [],
+   "reading_before": "AI (Low)"
+  },
+  {
+   "id": "T-339",
+   "kind": "new try",
+   "where": "Let the response change the invitation, P3",
+   "whose": "my fix of 30 October (F10.2)",
+   "after": "Sometimes the invitation just isn't right, and other times it's brought up something you hadn't thought of, with a feeling that's worth meeting, so give it a little room and find out which. Either way, your doubt isn't automatically a guard, and silence doesn't mean a hidden process is working.",
+   "part": "A",
+   "reading": "AI (Low)",
+   "ai_windows": [
+    168
+   ],
+   "reading_before": "AI (High)"
+  },
+  {
+   "id": "T-374",
+   "kind": "take back",
+   "where": "Capacity before content, P5",
+   "whose": "my fix of 30 October (F11.5)",
+   "after": "This can lead to flooding, panic, false certainty, confabulation, dissociation etc. and can make your day SUCK! When you are flooded, it is much harder to access your adult capacities, so focus on being able to regulate and getting support! Just ask for what you need to know in a way that you CAN tolerate:",
+   "part": "A",
+   "reading": "Human (High)",
+   "ai_windows": [],
+   "reading_before": "AI (Low)"
+  },
+  {
+   "id": "T-495",
+   "kind": "new try",
+   "where": "Before you begin, P6",
+   "whose": "my fix of 30 October (F7.7)",
+   "after": "Let your response guide you as to what to do next regardless of what the script is expecting. Utilize: use what you have (a thought, sound, movement, or objection) to go to the next place, whatever it is. Learn how to notice what is there. If nothing changes, notice that too, and don't talk yourself into believing it worked in some way you can't see. For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain.",
+   "part": "A",
+   "reading": "Human (Low)",
+   "ai_windows": [],
+   "reading_before": "Human (Low)"
+  },
+  {
+   "id": "T-249",
+   "kind": "new try",
+   "where": "Sober induction: 3–5 minutes, P1",
+   "whose": "my fix of 30 October (F8.1)",
+   "after": "You can read this slowly into your recorder, or you can read it out loud or say it to yourself if you are good at that. Choose a sound, or a contact, or the two-hand practice (above) or something to anchor yourself, and choose the thing you will say to open it up. Use the same anchor wherever the script mentions it. Don't read the directions out loud, just pause between paragraphs.",
+   "part": "A",
+   "reading": "Human (High)",
+   "ai_windows": [],
+   "reading_before": "Human (Low)"
+  },
+  {
+   "id": "T-503",
+   "kind": "new try",
+   "where": "Pattern 2: Awareness verbs, P2",
+   "whose": "my fix of 30 October (F14.6)",
+   "after": "Example: ‘Notice how the answer comes to you… maybe as an image, or a word… maybe as a pressure, or some warmth… or a silence, or a sense of what to do next.’",
+   "part": "B",
+   "reading": "Human (High)",
+   "ai_windows": [],
+   "reading_before": "AI (Medium)"
+  },
+  {
+   "id": "T-505",
+   "kind": "new try",
+   "where": "Pattern 3: Presuppositions, P1",
+   "whose": "my fix of 30 October (F14.4)",
+   "after": "Presumption is a powerful thing (a presupposition hides an assumption inside a sentence, and the person hearing it usually takes that assumption on board), so please don’t use it except to presume that we will have the choice of when it will happen, that we will be able to do it, that we are safe, that we are loved and that our adult can lead us. Don’t ever presume obedience, the way a hypnotist does when they say something like, ‘As you go deeper, it gets easier and easier to just do what I say.’",
+   "part": "B",
+   "reading": "Human (High)",
+   "ai_windows": [],
+   "reading_before": "AI (Medium)"
+  },
+  {
+   "id": "T-508",
+   "kind": "new try",
+   "where": "Pattern 4: Gentle cause-effect bridges, P1",
+   "whose": "my fix of 30 October (F14.5)",
+   "after": "Bridge words are words like ‘as, whilst, because, when, after, before, which means’ etc. These are words that link events. However, even if you say them in a lovely gentle voice it doesn’t mean that it’s true if it isn’t! It’s not very likely that just by breathing in and out your trauma is going to go away! So an honest bridge might sound more like, ‘As I breathe, my adult self may become present enough to hear a little of what the wound needs.’",
+   "part": "B",
+   "reading": "AI (High)",
+   "ai_windows": [
+    7
+   ],
+   "reading_before": "AI (High)"
+  },
+  {
+   "id": "S-162",
+   "kind": "suggestion",
+   "where": "Don’t rush the repair, P5",
+   "whose": "your inner child guide's words",
+   "after": "A. Prepare yourself to tend to them (get yourself into a place where you can spend time with them, have privacy, feel you can access support if you need it, and be as adult as you can be). How much of the grown-up you is actually here right now? To find out, try looking around the room, pausing before you act, making a choice and following through on it, since those are all things your adult self can do. If you can't do that because you're basically the frightened kid, leave the deeper conversation until later.",
+   "part": "A",
+   "reading": "AI (High)",
+   "ai_windows": [
+    72,
+    73,
+    74
+   ],
+   "reading_before": "AI (Low)"
+  },
+  {
+   "id": "S-382",
+   "kind": "suggestion",
+   "where": "Nothing happens, P2",
+   "whose": "your published version",
+   "after": "Ask for something small, like “Show me one body sensation,” or “Show me one word.” If even that gets you nothing, try “Show me whether today is for listening or resting.”",
+   "part": "A",
+   "reading": "AI (Medium)",
+   "ai_windows": [
+    177
+   ],
+   "reading_before": "AI (High)"
+  }
+ ],
+ "red_elsewhere": [
+  {
+   "part": "A",
+   "window": 59,
+   "confidence": "Low",
+   "calibrated": 0.727,
+   "words": 18,
+   "text": "This is not the same as your inner adult (Nurturer, Protector, Guide) that you build up on purpose."
+  },
+  {
+   "part": "A",
+   "window": 60,
+   "confidence": "High",
+   "calibrated": 0.994,
+   "words": 30,
+   "text": "Often this script acts as a critic or warden, telling your inner child not to cry, not to be “needy”, not to embarrass them, not to be too independent, etc."
+  },
+  {
+   "part": "A",
+   "window": 61,
+   "confidence": "Low",
+   "calibrated": 0.727,
+   "words": 27,
+   "text": "So when you begin talking to your child in a new, loving way, the script may jump in to say that what you’re doing is “fake”."
+  },
+  {
+   "part": "A",
+   "window": 97,
+   "confidence": "Low",
+   "calibrated": 0.575,
+   "words": 11,
+   "text": "Decide on a hypnotic tone (warm, indirect, direct, neutral witnessing, etc.)"
+  },
+  {
+   "part": "A",
+   "window": 98,
+   "confidence": "Low",
+   "calibrated": 0.531,
+   "words": 3,
+   "text": "for the session."
+  },
+  {
+   "part": "A",
+   "window": 99,
+   "confidence": "Low",
+   "calibrated": 0.503,
+   "words": 23,
+   "text": "If you’re going to use metaphors, just start with one, and if you switch metaphors midway, understand the purpose of the switch."
+  },
+  {
+   "part": "A",
+   "window": 104,
+   "confidence": "Low",
+   "calibrated": 0.503,
+   "words": 14,
+   "text": "When you’re done, come back the opposite way from how you went in."
+  },
+  {
+   "part": "A",
+   "window": 105,
+   "confidence": "Medium",
+   "calibrated": 0.986,
+   "words": 21,
+   "text": "You can borrow qualities such as warmth or steadiness from someone who models them, but don’t change who you are."
+  },
+  {
+   "part": "A",
+   "window": 140,
+   "confidence": "Low",
+   "calibrated": 0.67,
+   "words": 47,
+   "text": "Say something like, “Only what I can integrate, please. If there’s too much, it can wait. My body may stay safe. I’ll be here as an adult, so my inner child doesn’t have to carry this alone.”\nWhen you feel oriented, make an intention."
+  },
+  {
+   "part": "A",
+   "window": 176,
+   "confidence": "Low",
+   "calibrated": 0.503,
+   "words": 12,
+   "text": "Is there a way you could try this on a smaller scale?"
+  },
+  {
+   "part": "B",
+   "window": 18,
+   "confidence": "Medium",
+   "calibrated": 0.933,
+   "words": 25,
+   "text": "I do not use NLP on people who are panicked, destabilized, manic, having a psychosis-like state, or are too high/dissociated to reality test."
+  },
+  {
+   "part": "B",
+   "window": 19,
+   "confidence": "High",
+   "calibrated": 0.995,
+   "words": 27,
+   "text": "I do not use NLP to make people feel like their no is resistance, or like they are spiritually inferior to me if they disagree with me."
+  },
+  {
+   "part": "B",
+   "window": 20,
+   "confidence": "Medium",
+   "calibrated": 0.969,
+   "words": 104,
+   "text": "I do not use covert commands in my language.\nI do not use NLP to create urgency where time is needed.\nI do not use NLP on people without their consent (the idea that “your subconscious will let me know if you want me to do this” is NOT consent).\nI do not use NLP to get compliance from people in a suggestible state (in trance, tired, attracted to me, feeling shame or grief, or chemically altered).\nHere is a rough outline of the entire NLP process:\nInduce or contain yourself (gather your attention, or stabilize yourself first if you are already wide open)."
+  },
+  {
+   "part": "B",
+   "window": 21,
+   "confidence": "High",
+   "calibrated": 0.993,
+   "words": 29,
+   "text": "Ask yourself for permission: is it useful to work with this image, feeling or pattern today?\nGet a representation of your pattern (image, feeling, size, color, location, movement, etc.)."
+  },
+  {
+   "part": "B",
+   "window": 22,
+   "confidence": "Medium",
+   "calibrated": 0.976,
+   "words": 10,
+   "text": "Find out what that part/pattern is protecting for you."
+  },
+  {
+   "part": "B",
+   "window": 23,
+   "confidence": "Low",
+   "calibrated": 0.784,
+   "words": 13,
+   "text": "Gently change some aspect of your pattern (location, volume, space, posture, speed, etc.)."
+  },
+  {
+   "part": "B",
+   "window": 24,
+   "confidence": "Low",
+   "calibrated": 0.503,
+   "words": 20,
+   "text": "Bring in your 3 good adults (Nurturer to warm, Protector to make it safe, and Guide to point a direction)."
+  },
+  {
+   "part": "B",
+   "window": 27,
+   "confidence": "Low",
+   "calibrated": 0.531,
+   "words": 19,
+   "text": "Future pace a scenario where your old pattern would have triggered, and do a small new behavior (If...then..."
+  },
+  {
+   "part": "B",
+   "window": 28,
+   "confidence": "Low",
+   "calibrated": 0.531,
+   "words": 1,
+   "text": "statement)."
+  },
+  {
+   "part": "B",
+   "window": 29,
+   "confidence": "Low",
+   "calibrated": 0.503,
+   "words": 30,
+   "text": "Check in with your body for changes, ask whether the new behavior is kind and doable, and ask what supports your new interpretation of the situation beyond how it feels."
+  }
+ ]
+}

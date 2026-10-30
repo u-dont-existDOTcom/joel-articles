@@ -1,14 +1,26 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-30, after your message of 20:15 UTC (the recheck's two results).
-**Open questions: 1.** **For you to do**: open the two new recheck links and send me Pangram's results. The questions are
-at the top, with their options and my default; under them is what you decided and what I did with it. Colours: 🟣 a
-question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
+Last updated 2026-10-30, after your message of 21:40 UTC (the second recheck's two results).
+**Open questions: 2.** **For you to do**: your cards page, and question 28. The questions are at the top, with their
+options and my default; under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠
+something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts can
 read and update it. Every file it points to is a link.
 
 ## Open questions
+
+- 🟣 **28. How do we call the guide done?** The two rechecks of 30 October showed that words nobody changed read
+  differently from one check to the next: of the windows of unchanged words, 6 of 87 that read Human (High) at 20:15 read
+  AI at 21:40 (3 of them at High), and the two that read AI at 20:15 read Human (High) at 21:40, with nothing changed in
+  or near any of them ([the table](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/tries/read/STABILITY.md)). So every whole-guide check will turn up a few new red
+  windows, whatever we do. The options:
+  1. **My default:** the guide is done when every paragraph reads clearly beside your published version, no stretch reads
+     AI in two checks in a row, and nothing reads AI at High right next to a change. Red that shows up once on words
+     nobody changed goes on your cards page as "reads AI this time only", and we only act on it if it comes back.
+  2. Keep going until one check reads every window Human (the rule as it stands). Expect more rounds, since a few
+     windows move each time.
+  3. Something else: say what.
 
 - 🟣 **27. Which list did you mean?** Your comment on the audit card ends "see if you can apply the fix strategy I used
   above on the below:" and nothing comes after it. My default: Appendix C's list ("Before you do what it wants you to
@@ -25,17 +37,26 @@ changed under them, so the rechecks decide; you don't need to mark them.
 
 ## For you to do
 
-- 🟠 **Open the new recheck in your Chrome and run the Pangram extension on each** (as before: click the Pangram label,
-  then View Full Analysis, and send me the two result links):
-  - [Recheck A (the guide)](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-30b&audience=only_paid&free_preview=false&freemail=)
-  - [Recheck B (the rest of the guide and the appendices)](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-30b&audience=only_paid&free_preview=false&freemail=)
+- 🟠 **Your cards page**: [Hypnosis Guide Cards, 30 October](https://claude.ai/artifact/RQ6cqZAF2JevtxgWgSPS9o) ([its cards as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/tries/review/REVIEW-30b.md)).
+  21 cards: 7 of my tries that read Human (three of them sentences I take back out), one that reads better but not Human
+  yet, 5 suggestions for your own words, 3 places for you to rewrite (they still read AI after a try), and 5 that read AI
+  this time only. When you're done, click **Copy my answers** and send them to me.
+- 🟠 **Question 28** above.
 
-  They hold eleven changes: three of my restored sentences taken back out, six new tries in our words, and two
-  suggestions for your own words ([my read of each beside your published version](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/tries/read/READ.md)). Your next cards page
-  comes with those results.
-- 🟠 **When you like: merge** [pull request 264](https://github.com/u-dont-existDOTcom/joel-articles/pull/264) here, and
-  [pull request 450](https://github.com/u-dont-existDOTcom/universal-dev-architecture/pull/450) in the universal
-  architecture (the "not Sonnet" rule; its checks pass now).
+## Your message of 2026-10-30 21:40 UTC, and what I did
+
+- 🟢 **The second recheck, read.** Part A: [Mostly Human Written, 1.7% AI](https://www.pangram.com/feed/a123b9a4-de86-462a-aa45-4f46b122ab4e) (try 15): 187 windows,
+  15 AI (11 Low, 2 Medium, 2 High), 172 Human (79 High, 75 Medium, 18 Low). Part B: [Mostly Human Written, 2.9%
+  AI](https://www.pangram.com/feed/a485abe9-057b-4209-a9be-11ad81a90b90) (try 13): 63 windows, 11 AI (5 Low, 3 Medium, 3 High), 52 Human (23 High, 18 Medium, 11
+  Low) ([each try](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/tries/read/SPOTS.md); [every window, with its confidence](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/tries/read/CONFIDENCE.md)).
+- 🟢 **What worked**: all three take-backs (the paragraphs read High, Medium and High without the restored sentences), the
+  presupposition and awareness-verb examples (High), and the "Don't read the directions out loud" line (High). The double
+  binds and the weekend-course line, which read AI last time with nothing changed, read High again.
+- 🟢 **What didn't**: the honest-bridge line still reads AI (High) in one window with your embedded-invitation paragraph;
+  my suggestion for your room test read worse than your words, so it's withdrawn.
+- 🟢 **New red on words nobody changed**: the parent-script paragraph, your two metaphor paragraphs, the containment
+  script, and the NLP list and sequence. They read Human last time with the same words, which is what question 28 is
+  about.
 
 ## Your message of 2026-10-30 20:15 UTC, and what I did
 

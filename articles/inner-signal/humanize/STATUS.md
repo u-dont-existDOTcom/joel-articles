@@ -1,5 +1,40 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-10-30, after Joel's message of 21:40 UTC (the second recheck's two result links)
+
+His message, word for word: `fix-20261030/joel-20261030-2140-message.txt`.
+
+**The second recheck read** (`fix-20261030/tries/read/`: WINDOWS and META from his result pages, RESULT-A/B.json from
+`make_results.py` with part B's card line and R-561's quote, CONFIDENCE.md, SCORE-A/B.md, SPOTS.md from `spots_tries.py`,
+STABILITY.md from `stability.py`):
+- Part A ([a123b9a4](https://www.pangram.com/feed/a123b9a4-de86-462a-aa45-4f46b122ab4e), try 15): Mostly Human Written,
+  1.7% AI; 187 windows, 15 AI (11 Low, 2 Medium, 2 High), 172 Human (79 High, 75 Medium, 18 Low). The check before had 8.
+- Part B ([a485abe9](https://www.pangram.com/feed/a485abe9-057b-4209-a9be-11ad81a90b90), try 13): 2.9% AI; 63 windows,
+  11 AI (5 Low, 3 Medium, 3 High), 52 Human (23 High, 18 Medium, 11 Low). The check before had 6.
+- HG-whole#83 and HG-rest-B#84 (AI at 0.02 and 0.04) were right; the part forecasts scored 28 of 36 and 13 of 15.
+- The tries: T-35 and T-374 Human (High), T-337 Human (Medium) (the take-backs); T-249, T-503, T-505 Human (High); T-495
+  Human (Low), as before; T-339 AI (Low), from AI (High), on its kept last sentence; T-508 AI (High) again, in one window
+  with his R-509; S-382 AI (Medium), from his AI (High); S-162 AI (High), worse than his words (withdrawn). The standing
+  suggestions read as before (S-24 and S-782 High, S-14 and S-20 Medium), and so did Appendix C's list (4 High, 1 Medium).
+- Red on words nobody changed, all Human last time: the parent-script paragraph (High on its "not to ..." run), his
+  R-237 and R-238 (Low; R-238's "borrow qualities" line Medium), F8.3's script (Low), the "I do not use NLP ..." list and
+  the NLP sequence (High, Medium and Low). The double binds and the weekend line, AI last time with nothing changed, read
+  High. Of the unchanged windows away from the changes, 6 of 87 that read High read AI this time (STABILITY.md).
+
+**Lesson E304** (`docs/HUMANIZATION-GATE.md`): one whole-guide check doesn't tell you a window's state; a try is judged by
+its own window, and a stretch is a finding when it reads AI in two checks in a row. **Question 28** on his page: how the
+guide is called done (my default: no stretch AI in two checks in a row, every paragraph clear beside his text).
+
+**His cards page** (`fix-20261030/tries/review/build_page_30b.py`: REVIEW-30b.json, .html, .artifact.html, .md; published
+as [Hypnosis Guide Cards, 30 October](https://claude.ai/artifact/RQ6cqZAF2JevtxgWgSPS9o) from this account, capabilities db
+and downloads; its decisions collection read back empty after publishing): 21 cards. Seven tries that read Human
+(T-35, T-337, T-374 take-backs; T-495, T-249, T-503, T-505), T-339 (reads better), five suggestions for his words (S-14,
+S-20, S-24, S-782, S-636), three stretches for him to rewrite (R-508: the honest bridge with his R-509; R-381: the
+smaller-scale line and the "Show me" asks; R-162: the room test), and five stretches that read AI this time only (N-145,
+N-238, N-269, N-580, N-587).
+
+Delegations (model, piece, check, outcome): none; every read this turn was the lead session's own.
+
 ## 2026-10-30, after Joel's message of 20:15 UTC (the recheck's two result links; "ok i opened the pr"; "i guess we need to go back and re-read the community article as well after this then")
 
 His message, word for word: `fix-20261030/joel-20261030-2015-message.txt`.
