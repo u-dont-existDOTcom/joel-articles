@@ -59225,6 +59225,11 @@
           "path": "articles/inner-signal/humanize/fix-20261101/sections/s1101-items.json",
           "sha256": "207e4bd0af93b3806254522eb1e2565fc5df24e4a8f32676f1fdca14b26af972",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261101/sections/read_s1101.py",
+          "sha256": "5243166cb1ea9672ba583ee40517807e32a9fc02411ced279796b09e71e3c113",
+          "role": "humanization_working_record"
         }
       ]
     },
