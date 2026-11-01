@@ -1,0 +1,136 @@
+[
+ {
+  "key": "p1101-17a",
+  "lineage": "HG1101-17-P1",
+  "scope": "paragraph",
+  "blocks": [
+   105
+  ],
+  "words": 92,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "round 1's paired negations cut to one \"though, and\"; the rest of the paragraph read Human (Low) or High on 1 November",
+  "where": "Let the child speak without handing over the steering wheel, P1"
+ },
+ {
+  "key": "p1101-17b",
+  "lineage": "HG1101-17-P23",
+  "scope": "pair",
+  "blocks": [
+   106,
+   107
+  ],
+  "words": 96,
+  "call": "AI",
+  "chance": 0.45,
+  "why": "the quote's last line and the last paragraph without round 1's repeated list of what is good about being young; still two lists, the published ones",
+  "where": "Let the child speak without handing over the steering wheel, P3"
+ },
+ {
+  "key": "p1101-42",
+  "lineage": "HG1101-42-P4",
+  "scope": "paragraph",
+  "blocks": [
+   299
+  ],
+  "words": 51,
+  "call": "Human",
+  "chance": 0.7,
+  "why": "the short closing sentence joined to the one it qualifies",
+  "where": "Optional trance depth check, P4"
+ },
+ {
+  "key": "p1101-44a",
+  "lineage": "HG1101-44-P4",
+  "scope": "paragraph",
+  "blocks": [
+   314
+  ],
+  "words": 92,
+  "call": "Human",
+  "chance": 0.7,
+  "why": "the short last sentence joined to the one before; the rest read Human (High) and Medium",
+  "where": "Come all the way back, P4"
+ },
+ {
+  "key": "p1101-44b",
+  "lineage": "HG1101-44-P5",
+  "scope": "paragraph",
+  "blocks": [
+   315
+  ],
+  "words": 58,
+  "call": "AI",
+  "chance": 0.45,
+  "why": "says why (the voice that isn't coming back) instead of rules in the published order",
+  "where": "Come all the way back, P5"
+ },
+ {
+  "key": "p1101-44c",
+  "lineage": "HG1101-44-P6",
+  "scope": "paragraph",
+  "blocks": [
+   316
+  ],
+  "words": 72,
+  "call": "AI",
+  "chance": 0.45,
+  "why": "says what being left in a role or blank means once you get up",
+  "where": "Come all the way back, P6"
+ },
+ {
+  "key": "p1101-53a",
+  "lineage": "HG1101-53-P1",
+  "scope": "paragraph",
+  "blocks": [
+   368
+  ],
+  "words": 87,
+  "call": "AI",
+  "chance": 0.4,
+  "why": "starts from what the extra time is for; still a run of steps, which read AI twice",
+  "where": "The weekly deeper practice, P1"
+ },
+ {
+  "key": "p1101-53b",
+  "lineage": "HG1101-53-P12",
+  "scope": "pair",
+  "blocks": [
+   368,
+   369
+  ],
+  "words": 132,
+  "call": "AI",
+  "chance": 0.35,
+  "why": "the two paragraphs together, as the section has them; read AI twice",
+  "where": "The weekly deeper practice, P2"
+ },
+ {
+  "key": "p1101-59",
+  "lineage": "HG1101-59-P1",
+  "scope": "paragraph",
+  "blocks": [
+   405,
+   406
+  ],
+  "words": 59,
+  "call": "AI",
+  "chance": 0.45,
+  "why": "says what \"diffuse\" is before the step; the window was a heading and an order twice",
+  "where": "You become too blissful or diffuse, P1"
+ },
+ {
+  "key": "p1101-93",
+  "lineage": "HG1101-93-P1",
+  "scope": "paragraph",
+  "blocks": [
+   731,
+   732
+  ],
+  "words": 118,
+  "call": "Human",
+  "chance": 0.6,
+  "why": "the opening says what happens instead (flattery); the rest read Human (High) twice",
+  "where": "The cosmic-download humility test, P1"
+ }
+]

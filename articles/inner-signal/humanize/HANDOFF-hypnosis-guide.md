@@ -18,6 +18,19 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-11-01, after Joel's message of 22:27 UTC ("Continue my hypnosis guide work ... carry on from its next step"):
+  batch s1101's windows are all fixed or carded.** Our words fixed (rounds 2 and 3, `fix-20261101/sections/fixes_round2.py`,
+  `fixes_round3.py`); his words on [Hypnosis Guide Cards, 1 November (2)](https://claude.ai/artifact/V3ZgooEhJAr2ApQdsjF3Hu)
+  (`fix-20261101/sections/review/`, REVIEW-S1101.md the cards as text): 14 cards on his paragraphs, 7 on his inner child
+  guide's lines (round 1's fix of two of them undone, card G-23; lesson E314), and 4 stretches of ours that read AI in
+  three tries (E-107, E-315, E-368, E-406, "edit" cards). The eleven sections with nothing on his page had their second
+  and last section check (`recheck/`: six Human Written) and round 3's paragraphs their first paragraph check
+  (`recheck/para/`: four more Human). See the Next step.
+- **The mailbox, every turn** (AGENTS.md, "Suggested fixes from other projects"; gate E313): before other work, the lane
+  in universal-dev-architecture (`suggested-fixes/joel-articles/`), new issues, pull requests, comments and reviews here
+  (`gh api` REST; GraphQL is blocked), edits others made to this note or `OWNER-QUESTIONS.md`, and the runtime's queued
+  messages; record it with `python3 tools/humanization/lane_mailbox.py record --turn "<first clock reading>" ...`
+  (`state/MAILBOX.json`). `lane_push.py` refuses to push without `--mailbox "<first clock reading>"`.
 - **2026-11-01, batch s1101: every section checked by itself (E307): 83 of 103 Human, 20 not;** CONFIDENCE.md lists
   the 91 windows to fix (E306), ten fixed so far (the Next step).
 - **2026-11-01 20:29 UTC: the second full read and the contradiction read are in, and his four cards are approved.**
@@ -171,7 +184,8 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: **nothing right now**; the next step below is mine. His answers to
+The guide: **his answers to [Hypnosis Guide Cards, 1 November (2)](https://claude.ai/artifact/V3ZgooEhJAr2ApQdsjF3Hu)**
+(25 cards; 2026-11-01, after his message of 22:27 UTC), and question 27 (card W-605 may answer it). Earlier:  His answers to
 [Hypnosis Guide Cards, 1 November](https://claude.ai/artifact/C66yqEFThWQcAFtdAdLEpH) came at 20:29 UTC and are in
 (`fix-20261101/fr2-answers/APPLIED-FR2.json`), as did his answers to
 [Hypnosis Guide Cards, 30 October](https://claude.ai/artifact/RQ6cqZAF2JevtxgWgSPS9o) at 18:57 UTC
@@ -182,7 +196,8 @@ question on his page: which list his audit comment meant ("apply the fix strateg
 nothing after it); I took Appendix C's "any of the following" list and the recheck tests my version of it. The 83 cards of the Hypnosis Guide Editor
 (https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) he hadn't marked are retired by the rechecks. The pages his other
 account published (the old marking page TpZbfBZcwuj8PL7KFLhmjP and the "Hypnosis Guide Questions" view
-8o79MFm9vSpyMGrAeArZYx) are stale; this account can't open or republish them, so point him to `OWNER-QUESTIONS.md` on
+8o79MFm9vSpyMGrAeArZYx) belong to the account of session 01Mxpoi6…, which republished the questions view
+(version 3) on 2026-11-01 after his message of 22:27 UTC; from the other account, point him to `OWNER-QUESTIONS.md` on
 GitHub.
 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
@@ -270,7 +285,25 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-11-01, after Joel's answers of 20:29 UTC: the second full read and its cards in; the section checks next)
+## Next step (2026-11-01, after Joel's message of 22:27 UTC: s1101's windows fixed or on his cards page)
+
+Done (STATUS.md's entry after 22:27 UTC has every file and number): the windows in our words fixed (rounds 2 and 3), his
+words on his cards page (25 cards), the eleven ready sections checked again by themselves (r1101: six Human Written),
+round 3's paragraphs checked alone (p1101: four Human, four stretches still AI after three tries, now "edit" cards).
+The guide: HUMANIZED-SO-FAR.md 170052f8...
+
+Next:
+0. **His answers to [Hypnosis Guide Cards, 1 November (2)](https://claude.ai/artifact/V3ZgooEhJAr2ApQdsjF3Hu)**: put
+   them in with a script that records each card's fate (as `fix-20261101/fr2-answers/apply_answers_fr2.py` did; the
+   cards' edits are in REVIEW-S1101.json), read what he wrote beside his text, then the comparison gate.
+1. **The sections with a card, checked again by themselves**, each its second and last section try (lineages
+   HG1101-NN; `fix-20261101/sections/recheck/make_recheck.py` takes the ready ones): 15, 18, 20, 23, 27, 37 (only
+   if W-270 renames the heading it names), 39, 40, 41, 51, 69, 71, 72, 73, 74, 84, 85, 99. The four stretches of ours that read AI three times (E-107, E-315, E-368, E-406) take
+   his version if he gives one; if he keeps them, the whole-guide check reads them in place (their paragraph lineages
+   have tries 2 to 6 left, each only with a new diagnosis).
+2. **Then the whole guide**, on the Substack drafts with his extension (the secret preview links, E277).
+
+## Earlier next step (2026-11-01, after Joel's answers of 20:29 UTC: the second full read and its cards in; the section checks next)
 
 Done (STATUS.md's entry for the second full read has every file): the whole guide read again by the lead model
 (`fix-20261101/fullread2/`), the contradiction read (CONTRADICTIONS.md), the two-hand merge, his four cards approved and

@@ -1,6 +1,6 @@
 # Hypnosis Guide Cards, 1 November (2): every card
 
-The page's cards as text, in the order of the guide. Built 2026-11-01 22:57 UTC from [the guide so far](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/HUMANIZED-SO-FAR.md). To answer, use the page; or write your answer under a card's number in a message to me.
+The page's cards as text, in the order of the guide. Built 2026-11-01 23:18 UTC from [the guide so far](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/HUMANIZED-SO-FAR.md). To answer, use the page; or write your answer under a card's number in a message to me.
 
 ## The inner child, the guards, and the inner adult’s three jobs
 
@@ -19,6 +19,20 @@ The page's cards as text, in the order of the guide. Built 2026-11-01 22:57 UTC 
 **Why:** The line is from your inner child guide, shortened when it came into this guide, and the cut took out the part that says what your published version says here: “They aren’t three literal beings. They’re three ways the present-day person reparents the inner child.” Without it, “one grown-up doing three jobs” reads like a slogan.
 
 **My advice:** I’d approve: it’s your own line in full, and it says the point your published version makes.
+
+## Let the child speak without handing over the steering wheel
+
+### E-107: “That way you keep the good parts of feeling younger …” (Our words, still AI)
+
+**Pangram read:** AI (High) in the first section check (the paragraph before my rewrites), AI (High) in the second (one window over the whole section), and AI (High), 38 words, checked with the quote before it
+
+**As it is now** (the words Pangram read in bold):
+
+> **That way you keep the good parts of feeling younger and leave behind what came with really being a kid: having to obey, not being able to do much for yourself, getting scolded, and not knowing better yet.**
+
+**Why:** Your published version: “That distinction lets you recover curiosity, spontaneity, play, sensory freshness, honest need, and quick emotional movement without pairing those gifts with obedience, helplessness, scolding, or weakened judgment.” Three versions of ours kept its two lists, and each read AI. The paragraph before it, rewritten the same evening, reads Human (High) now. The version that’s in is clear, so it stays until a version reads both clear and Human (your rule of 29 October).
+
+**My advice:** Edit it, if you can say it your way; I’m out of versions that keep your meaning and read Human here. Or keep it as it is, and the whole-guide check reads it in place.
 
 ## Love doesn’t have to wait for trust
 
@@ -206,6 +220,21 @@ The page's cards as text, in the order of the guide. Built 2026-11-01 22:57 UTC 
 
 **My advice:** I’d approve.
 
+## Come all the way back
+
+### E-315: “If your recording cuts out partway through …” (Our words, still AI)
+
+**Pangram read:** AI (High) on these two paragraphs in both section checks (126 and 134 words), and AI checked alone: AI (High and Medium) on the first, AI (High) on the second
+
+**As it is now** (the words Pangram read in bold):
+
+> **If your recording cuts out partway through, you could end up lying there waiting for a voice that isn't coming back. So tell yourself, "The recording has stopped and the session is over," and do the count and the checks above on your own. Once your eyes are open, press your feet or hands into something solid too.**
+> **Sleep recordings are different, since drifting off at the end of one, or just resting, is what they're for. A recording that's meant to wake you back up has to finish the job, though. If it leaves you still in a role, with your judgment or your body slowed down, or blank, you'd be walking around half under. The same goes for a vague reset word, or a state it never ends.**
+
+**Why:** Your published version: “If a recording stops unexpectedly: say, “The recording stopped and the session is over.” … Don’t wait for the missing narrator to release you.” and “Sleep is separate. … A waking recording shouldn’t end by preserving a role, reduced judgment, impaired movement, blankness, an undefined reset word, or an invitation to remain altered indefinitely.” Three versions of ours, rules first and then rules with reasons, all read AI. The version that’s in is clear, so it stays until a version reads both clear and Human (your rule of 29 October).
+
+**My advice:** Edit it, if you can say it your way; I’m out of versions that keep your meaning and read Human here. Or keep it as it is, and the whole-guide check reads it in place.
+
 ## Finish without forcing a revelation
 
 ### W-358: “We’re going back to the life we’re building.” (From your inner child guide)
@@ -219,6 +248,35 @@ The page's cards as text, in the order of the guide. Built 2026-11-01 22:57 UTC 
 **Why:** Your inner child guide’s line, the one every session ends on (your card F18.1 kept it here). Pangram read its last ten words Human (Low); the line is clear and it’s yours, so there’s nothing to say more plainly.
 
 **My advice:** Keep it as it is, I’d say; the section read Human Written overall.
+
+## The weekly deeper practice
+
+### E-368: “Once or twice a week …” (Our words, still AI)
+
+**Pangram read:** AI Detected (0.65) in the first section check, AI Generated (1.0) in the second, and AI (High) checked alone and with the paragraph after it
+
+**As it is now** (the words Pangram read in bold):
+
+> **Once or twice a week, when it’s useful, give this practice more time, so there’s room to follow whatever shows up. It doesn’t need to be more intense than usual. Start from your Higher Self, or from simply noticing what’s there if that’s out of reach. If you need the Protector or another of your adult jobs, bring it in or borrow it from someone safe, and check you’re not skipping past anything important. Leave enough time at the end to come all the way back out.**
+> **Then, if you can, do the normal thing that came up right away. Your subconscious gets to see that the adult in you heard it and did something, and it doesn’t just become one more beautiful inner meeting with the dishes still in the sink.**
+
+**Why:** Your published The weekly deeper practice: two paragraphs, how to give the practice more time once or twice a week and why to do the normal thing right after. Three versions of ours read AI, the last two more than the first. The version that’s in is clear, so it stays until a version reads both clear and Human (your rule of 29 October).
+
+**My advice:** Edit it, if you can say it your way; I’m out of versions that keep your meaning and read Human here. Or keep it as it is, and the whole-guide check reads it in place.
+
+## You become too blissful or diffuse
+
+### E-406: “If the bliss spreads out into a big warm haze …” (Our words, still AI)
+
+**Pangram read:** AI (Medium) and then AI (High) in the section checks, with the headings and your “Don’t pry.” around it, and AI (High) checked alone with its heading
+
+**As it is now** (the words Pangram read in bold):
+
+> **If the bliss spreads out into a big warm haze, it can’t do much for you or anyone else yet. Bring it down to one next step by asking, “What’s the next small thing this love is asking me to do? A task, a boundary, a meal, some rest, a repair, a conversation?”**
+
+**Why:** Your published “Ask the bliss to become specific.” and “What task, boundary, meal, rest, repair, or conversation does love require next?” Three versions of ours read AI. The version that’s in is clear, so it stays until a version reads both clear and Human (your rule of 29 October).
+
+**My advice:** Edit it, if you can say it your way; I’m out of versions that keep your meaning and read Human here. Or keep it as it is, and the whole-guide check reads it in place.
 
 ## Pattern 4: Gentle cause-effect bridges
 

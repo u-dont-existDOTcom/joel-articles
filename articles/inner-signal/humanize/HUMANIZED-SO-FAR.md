@@ -208,11 +208,11 @@ It can be helpful to use borrowing when you’re in the adult position and don�
 
 ## Let the child speak without handing over the steering wheel
 
-Let the parts of you that feel younger have their say. You don’t hand your adult judgment over to someone who will take care of you, and you don’t try to become a little kid again for real. In this way, you can access all of the positive aspects of what it can be like to feel younger, such as feeling wonder, silliness, approaching things through the senses more, feeling it’s ok to be vulnerable, to want someone to take care of you, to feel need, and to want to offload some decision making, while your adult part stays present.
+Let the parts of you that feel younger have their say. You’re still the one making the adult decisions, though, and you’re not trying to become a little kid again. In this way, you can access all of the positive aspects of what it can be like to feel younger, such as feeling wonder, silliness, approaching things through the senses more, feeling it’s ok to be vulnerable, to want someone to take care of you, to feel need, and to want to offload some decision making, while your adult part stays present.
 
-"It is okay for a younger part of me to talk. But I understand that the adult in me is always going to be here, listening, evaluating, protecting me and stopping me if needed. No younger part of me, no guide, no recording and no other person gets to make my adult decisions for me."
+"It is okay for a younger part of me to talk. But I understand that the adult in me is always going to be here, listening, evaluating, protecting me and stopping me if needed. I'm not handing my adult decisions over to a younger part of me, or to a guide or a recording, or to anyone else."
 
-That way you get back what was good about being young. You can be curious, spontaneous and playful, things can feel vivid again, and you can say what you need and feel things quickly. You leave behind the part of being a kid where you had to obey, couldn’t do much for yourself, got scolded, and didn’t know better yet.
+That way you keep the good parts of feeling younger and leave behind what came with really being a kid: having to obey, not being able to do much for yourself, getting scolded, and not knowing better yet.
 
 ## Love doesn’t have to wait for trust
 
@@ -596,7 +596,7 @@ It might be useful for your wise subconscious to let you know that your inner me
 
 You don’t have to make it happen, or pretend that it is happening, just wait with love and notice what happens.”
 
-Sometimes a finger will move, sometimes an entire hand will heat up, sometimes you will notice a change in your breathing, sometimes you won’t notice anything at all. Even if something happens, it doesn’t mean that what comes next will be true. At most, it could mean that some part of you is listening.
+Sometimes a finger will move, sometimes an entire hand will heat up, sometimes you will notice a change in your breathing, sometimes you won’t notice anything at all. Even if something happens, it doesn’t mean that what comes next will be true, only that some part of you might be listening.
 
 ## A shortcut back into hypnosis
 
@@ -626,11 +626,11 @@ Here is a generic bring-back that you can use: "When I come out of this session,
 
 Then do a count up: On 1 start to feel your body again and what it's resting on and feel your weight (of your choice). On 2 start to feel your breathing return to normal. On 3 start to hear the room around you and name where you are. On 4 start to wiggle your fingers and toes, move your shoulders and your eyes. On 5 open your eyes, back in the here and now, feeling normal and clear and the session is now over.
 
-When you come out, make sure you can name what day (or date) it is, look to your left and right, look at something near to you and something further away. Move around a bit. Don't get up until you feel like you can do so without falling over. Make sure that you are oriented and alert (counting does this, but not always). Make a mental note of just what actually came up, and of anything you need to do about it. Then go and do something normal, like eating or washing up.
+When you come out, make sure you can name what day (or date) it is, look to your left and right, look at something near to you and something further away. Move around a bit. Don't get up until you feel like you can do so without falling over. Make sure that you are oriented and alert (counting does this, but not always). Make a mental note of just what actually came up and anything you need to do about it, then go and do something normal, like eating or washing up.
 
-If your recording cuts out partway through, don't lie there waiting for it to bring you back. Tell yourself, "The recording has stopped and the session is over." Then do the count and the checks above on your own. Once your eyes are open, press your feet or hands into something solid too.
+If your recording cuts out partway through, you could end up lying there waiting for a voice that isn't coming back. So tell yourself, "The recording has stopped and the session is over," and do the count and the checks above on your own. Once your eyes are open, press your feet or hands into something solid too.
 
-Sleep recordings are different: if you fall asleep at the end of one, or just keep resting, that's fine. But a recording that's meant to wake you back up should bring you all the way out. It shouldn't leave you stuck in a role, with your judgment or your ability to move turned down, or blank. A vague reset word is no good either, and neither is being left in that state with no end to it.
+Sleep recordings are different, since drifting off at the end of one, or just resting, is what they're for. A recording that's meant to wake you back up has to finish the job, though. If it leaves you still in a role, with your judgment or your body slowed down, or blank, you'd be walking around half under. The same goes for a vague reset word, or a state it never ends.
 
 # The actual inner meeting
 
@@ -734,9 +734,9 @@ As you come out of the process, ask yourself what needed warmth, what needed to 
 
 # The weekly deeper practice
 
-Once or twice a week, if it’s useful, give the practice more time. More time doesn’t have to mean more intense. It helps to start from your Higher Self, or if that’s out of reach, from just noticing what’s there. Then follow whatever shows up. If you need one of your adult jobs, the Protector say, bring it in, or borrow it from someone safe. And check that you’re not skipping past anything important. You’ll also want enough time at the end to come all the way back out and do whatever normal thing needs doing.
+Once or twice a week, when it’s useful, give this practice more time, so there’s room to follow whatever shows up. It doesn’t need to be more intense than usual. Start from your Higher Self, or from simply noticing what’s there if that’s out of reach. If you need the Protector or another of your adult jobs, bring it in or borrow it from someone safe, and check you’re not skipping past anything important. Leave enough time at the end to come all the way back out.
 
-If you can, do that normal thing right after the session. That way your subconscious sees that the adult in you heard what came up and did something about it, instead of having one more beautiful inner meeting and leaving the dishes where they were.
+Then, if you can, do the normal thing that came up right away. Your subconscious gets to see that the adult in you heard it and did something, and it doesn’t just become one more beautiful inner meeting with the dishes still in the sink.
 
 # Capacity before content
 
@@ -810,7 +810,7 @@ What do you say to yourself in that moment? “If it’s real, it’ll still be 
 
 ## You become too blissful or diffuse
 
-Ask what the bliss could turn into in real life: “What’s the next small thing this love is asking me to do? A task, a boundary, a meal, some rest, a repair, a conversation?”
+If the bliss spreads out into a big warm haze, it can’t do much for you or anyone else yet. Bring it down to one next step by asking, “What’s the next small thing this love is asking me to do? A task, a boundary, a meal, some rest, a repair, a conversation?”
 
 ## You want the hidden truth immediately
 
@@ -1462,7 +1462,7 @@ The General Rule is: if you find that what you're doing is making you more lovin
 
 ## The cosmic-download humility test
 
-Not every hostile presence, shadow force or grandiose part comes at you with fear. They may also try to give you a sense that you’re special, try to “download cosmic info” to you, try to give you a special mission, make you feel doing the dishes is beneath you, etc. You can just say, “Thank you for the imagery, but I don’t need your grand performance. Unless the info you’re trying to download to me can help me do the dishes, clean my room, be more honest, be more helpful, be more loving, keep my promises, take care of my body by resting and eating etc, I don’t need it.”
+Sometimes a hostile presence, a shadow force or a grandiose part comes at you with flattery instead of fear. It may try to give you a sense that you’re special, try to “download cosmic info” to you, try to give you a special mission, make you feel doing the dishes is beneath you, etc. You can just say, “Thank you for the imagery, but I don’t need your grand performance. Unless the info you’re trying to download to me can help me do the dishes, clean my room, be more honest, be more helpful, be more loving, keep my promises, take care of my body by resting and eating etc, I don’t need it.”
 
 Guidance worth keeping should make ordinary life more beautiful, honest, relational, humble, reliable, and useful to other people.
 

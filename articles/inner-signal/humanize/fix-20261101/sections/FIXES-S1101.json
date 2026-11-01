@@ -1,5 +1,5 @@
 {
- "about": "apply_s1101_fixes.py reads this. The windows of batch s1101 (RESULTS.md, CONFIDENCE.md) fixed so far, in our words; the rest of CONFIDENCE.md's list is the next step (HANDOFF). The read of the fixes beside the published text and the linter (tells_lint.py) reworded seven of my sentences (coach phrases, an \"actually\", an \"it\" with no name, a \"tempting ... but\" setup, a short landing); the two lists in \"That way you get back what was good about being young\" stay, since the published version names every item. Round 2: fixes_round2.py (the rest of the windows in our words; the two fixes of his inner child guide's words in Working with your guards undone and made a card; the windows in his words are on his cards page, review/build_page_s1101.py).",
+ "about": "apply_s1101_fixes.py reads this. The windows of batch s1101 (RESULTS.md, CONFIDENCE.md) fixed so far, in our words; the rest of CONFIDENCE.md's list is the next step (HANDOFF). The read of the fixes beside the published text and the linter (tells_lint.py) reworded seven of my sentences (coach phrases, an \"actually\", an \"it\" with no name, a \"tempting ... but\" setup, a short landing); the two lists in \"That way you get back what was good about being young\" stay, since the published version names every item. Round 2: fixes_round2.py (the rest of the windows in our words; the two fixes of his inner child guide's words in Working with your guards undone and made a card; the windows in his words are on his cards page, review/build_page_s1101.py). Round 3: fixes_round3.py (the six sections that still read AI or Human (Low) on their second and last section check, each fix with its diagnosis and the text that was checked).",
  "guide_sha256": "a32e6afe295f3c185307eb622264212a978878dc52be19ebfa83dac91cc0691b",
  "windows": [
   {
@@ -38,11 +38,19 @@
    "fix": [
     [
      "You can choose to let the parts of you that feel younger express themselves. That doesn’t mean handing your adult judgment over to someone else to take care of you, or actually going back in age.",
-     "Let the parts of you that feel younger have their say. You don’t hand your adult judgment over to someone who will take care of you, and you don’t try to become a little kid again for real."
+     "Let the parts of you that feel younger have their say. You’re still the one making the adult decisions, though, and you’re not trying to become a little kid again."
     ]
    ],
    "why": "Human (Low); \"actually going back in age\" is vague. Said as the published version means it: not trying to become literally younger.",
-   "fate": "fixed"
+   "fate": "fixed",
+   "round3": [
+    {
+     "old": "You can choose to let the parts of you that feel younger express themselves. That doesn’t mean handing your adult judgment over to someone else to take care of you, or actually going back in age.",
+     "checked_r1101": "Let the parts of you that feel younger have their say. You don’t hand your adult judgment over to someone who will take care of you, and you don’t try to become a little kid again for real.",
+     "read_r1101": "AI Generated (1.0): one AI (High) window over the whole section, 230 words; it read AI Detected (0.23) before round 1",
+     "diagnosis": "Round 1 built all three paragraphs from paired negations and lists (\"You don’t hand ..., and you don’t try ...\", \"No younger part of me, no guide, no recording and no other person\", and two lists in a row in the last paragraph, which also repeated the good things of being young the first paragraph lists). Fewer pairs, and the last paragraph says only what the first one doesn’t: what you leave behind."
+    }
+   ]
   },
   {
    "id": "s1101-17 w3",
@@ -52,11 +60,19 @@
    "fix": [
     [
      "I am not going to replace my adult judgment with any child state, guide, recording or person.",
-     "No younger part of me, no guide, no recording and no other person gets to make my adult decisions for me."
+     "I'm not handing my adult decisions over to a younger part of me, or to a guide or a recording, or to anyone else."
     ]
    ],
    "why": "Human (Low): \"replace my adult judgment with any child state\" is abstract; said as what it means in practice.",
-   "fate": "fixed"
+   "fate": "fixed",
+   "round3": [
+    {
+     "old": "I am not going to replace my adult judgment with any child state, guide, recording or person.",
+     "checked_r1101": "No younger part of me, no guide, no recording and no other person gets to make my adult decisions for me.",
+     "read_r1101": "in the same AI (High) window",
+     "diagnosis": "as above"
+    }
+   ]
   },
   {
    "id": "s1101-17 w4",
@@ -66,11 +82,19 @@
    "fix": [
     [
      "This way you get the benefits of being young: curiosity, spontaneity, play, sensation, the ability to state your needs, to feel easily etc., without any of the negatives of being a child, like obeying, being helpless, being scolded, the lack of good judgment etc.",
-     "That way you get back what was good about being young. You can be curious, spontaneous and playful, things can feel vivid again, and you can say what you need and feel things quickly. You leave behind the part of being a kid where you had to obey, couldn’t do much for yourself, got scolded, and didn’t know better yet."
+     "That way you keep the good parts of feeling younger and leave behind what came with really being a kid: having to obey, not being able to do much for yourself, getting scolded, and not knowing better yet."
     ]
    ],
    "why": "AI (High): two lists set against each other. The same ten things, said as what you get back and what you leave behind.",
-   "fate": "fixed"
+   "fate": "fixed",
+   "round3": [
+    {
+     "old": "This way you get the benefits of being young: curiosity, spontaneity, play, sensation, the ability to state your needs, to feel easily etc., without any of the negatives of being a child, like obeying, being helpless, being scolded, the lack of good judgment etc.",
+     "checked_r1101": "That way you get back what was good about being young. You can be curious, spontaneous and playful, things can feel vivid again, and you can say what you need and feel things quickly. You leave behind the part of being a kid where you had to obey, couldn’t do much for yourself, got scolded, and didn’t know better yet.",
+     "read_r1101": "in the same AI (High) window",
+     "diagnosis": "as above"
+    }
+   ]
   },
   {
    "id": "s1101-20 w7-8",
@@ -225,12 +249,20 @@
    "published": "None proves truth; at most, something may be listening.",
    "fix": [
     [
-     "It just might mean that something is listening.",
-     "At most, it could mean that some part of you is listening."
+     "Even if something happens, it doesn’t mean that what comes next will be true. It just might mean that something is listening.",
+     "Even if something happens, it doesn’t mean that what comes next will be true, only that some part of you might be listening."
     ]
    ],
    "why": "Human (Low): \"something\" said as what the guide means, a part of you, and the published limit \"at most\" put back.",
-   "fate": "fixed"
+   "fate": "fixed",
+   "round3": [
+    {
+     "old": "Even if something happens, it doesn’t mean that what comes next will be true. It just might mean that something is listening.",
+     "checked_r1101": "At most, it could mean that some part of you is listening.",
+     "read_r1101": "Human Written; the closing sentence Human (Low), 12 words, as before",
+     "diagnosis": "A short closing sentence on its own reads Low however it is worded; joined to the sentence it qualifies, as the published \"None proves truth; at most, something may be listening\" is one sentence."
+    }
+   ]
   },
   {
    "id": "s1101-44 w4-6",
@@ -240,19 +272,39 @@
    "fix": [
     [
      "Take mental note of only what actually came up for you and any actions you need to take regarding it. Then go on and do something normal.",
-     "Make a mental note of just what actually came up, and of anything you need to do about it. Then go and do something normal, like eating or washing up."
+     "Make a mental note of just what actually came up and anything you need to do about it, then go and do something normal, like eating or washing up."
     ],
     [
      "If your recording cuts out for some reason, you can say to yourself, \"The recording has stopped and the session is over,\" and then do the above on your own. Once your eyes are open, press your feet or hands into a surface as well.",
-     "If your recording cuts out partway through, don't lie there waiting for it to bring you back. Tell yourself, \"The recording has stopped and the session is over.\" Then do the count and the checks above on your own. Once your eyes are open, press your feet or hands into something solid too."
+     "If your recording cuts out partway through, you could end up lying there waiting for a voice that isn't coming back. So tell yourself, \"The recording has stopped and the session is over,\" and do the count and the checks above on your own. Once your eyes are open, press your feet or hands into something solid too."
     ],
     [
      "Note: If you are going to sleep to a recording, then it is fine to go to sleep or just keep resting at the end of it. However, if it's a recording that's meant to bring you back awake, then you should not leave yourself in an altered state. This includes leaving yourself in a role, with lowered judgment, with lowered ability to move, blank or with a non-specific reset word or for an indefinite length of time.",
-     "Sleep recordings are different: if you fall asleep at the end of one, or just keep resting, that's fine. But a recording that's meant to wake you back up should bring you all the way out. It shouldn't leave you stuck in a role, with your judgment or your ability to move turned down, or blank. A vague reset word is no good either, and neither is being left in that state with no end to it."
+     "Sleep recordings are different, since drifting off at the end of one, or just resting, is what they're for. A recording that's meant to wake you back up has to finish the job, though. If it leaves you still in a role, with your judgment or your body slowed down, or blank, you'd be walking around half under. The same goes for a vague reset word, or a state it never ends."
     ]
    ],
    "why": "Human (Low), AI (Low) and AI (High) over the last two paragraphs. The paragraph about a recording that cuts out had lost the published point, don't wait for the missing narrator to release you; it's back, and \"the above\" says what it is (the count and the checks). \"Something normal\" gets an example; the note on sleep recordings keeps every item of its list, in two sentences.",
-   "fate": "fixed"
+   "fate": "fixed",
+   "round3": [
+    {
+     "old": "Take mental note of only what actually came up for you and any actions you need to take regarding it. Then go on and do something normal.",
+     "checked_r1101": "Make a mental note of just what actually came up, and of anything you need to do about it. Then go and do something normal, like eating or washing up.",
+     "read_r1101": "Human (Low), 11 words, on \"Then go and do something normal, like eating or washing up.\"",
+     "diagnosis": "The short last sentence again; joined to the one before."
+    },
+    {
+     "old": "If your recording cuts out for some reason, you can say to yourself, \"The recording has stopped and the session is over,\" and then do the above on your own. Once your eyes are open, press your feet or hands into a surface as well.",
+     "checked_r1101": "If your recording cuts out partway through, don't lie there waiting for it to bring you back. Tell yourself, \"The recording has stopped and the session is over.\" Then do the count and the checks above on your own. Once your eyes are open, press your feet or hands into something solid too.",
+     "read_r1101": "AI (High), 134 words over this paragraph and the next, as on 1 November (126 words)",
+     "diagnosis": "Both versions were rules in the published order: an instruction, then a list of what a recording mustn’t do. Each paragraph now says why: what happens if you wait for the missing voice, and what being left in a role or blank means once you get up."
+    },
+    {
+     "old": "Note: If you are going to sleep to a recording, then it is fine to go to sleep or just keep resting at the end of it. However, if it's a recording that's meant to bring you back awake, then you should not leave yourself in an altered state. This includes leaving yourself in a role, with lowered judgment, with lowered ability to move, blank or with a non-specific reset word or for an indefinite length of time.",
+     "checked_r1101": "Sleep recordings are different: if you fall asleep at the end of one, or just keep resting, that's fine. But a recording that's meant to wake you back up should bring you all the way out. It shouldn't leave you stuck in a role, with your judgment or your ability to move turned down, or blank. A vague reset word is no good either, and neither is being left in that state with no end to it.",
+     "read_r1101": "in the same AI (High) window",
+     "diagnosis": "as above"
+    }
+   ]
   },
   {
    "id": "s1101-46 w1",
@@ -290,15 +342,29 @@
    "fix": [
     [
      "It’s good to give this more time once or twice a week, when that’s useful. It doesn’t have to be very intense, but it is good to start from Higher Self or at least a neutral witnessing place and follow what appears. It’s also good to bring in some adult function when you need it, to check that nothing important is being bypassed, and to leave time at the end to come out completely and do whatever normal thing needs doing.",
-     "Once or twice a week, if it’s useful, give the practice more time. More time doesn’t have to mean more intense. It helps to start from your Higher Self, or if that’s out of reach, from just noticing what’s there. Then follow whatever shows up. If you need one of your adult jobs, the Protector say, bring it in, or borrow it from someone safe. And check that you’re not skipping past anything important. You’ll also want enough time at the end to come all the way back out and do whatever normal thing needs doing."
+     "Once or twice a week, when it’s useful, give this practice more time, so there’s room to follow whatever shows up. It doesn’t need to be more intense than usual. Start from your Higher Self, or from simply noticing what’s there if that’s out of reach. If you need the Protector or another of your adult jobs, bring it in or borrow it from someone safe, and check you’re not skipping past anything important. Leave enough time at the end to come all the way back out."
     ],
     [
      "If possible, it’s good to do the normal thing immediately after the exercise, so that the subconscious sees that the adult heard and acted. Otherwise you just get another beautiful inner meeting, and the dishes are still sitting in the sink.",
-     "If you can, do that normal thing right after the session. That way your subconscious sees that the adult in you heard what came up and did something about it, instead of having one more beautiful inner meeting and leaving the dishes where they were."
+     "Then, if you can, do the normal thing that came up right away. Your subconscious gets to see that the adult in you heard it and did something, and it doesn’t just become one more beautiful inner meeting with the dishes still in the sink."
     ]
    ],
    "why": "AI Detected (0.65): \"it’s good to\" four times in two paragraphs, and \"some adult function\" and \"a neutral witnessing place\" left abstract. Each said as what it is (the Nurturer, the Protector or the Guide, or borrowed from someone safe, as in the borrowed adulthood section; just noticing what’s there); the closing quip about the sink said the published way.",
-   "fate": "fixed"
+   "fate": "fixed",
+   "round3": [
+    {
+     "old": "It’s good to give this more time once or twice a week, when that’s useful. It doesn’t have to be very intense, but it is good to start from Higher Self or at least a neutral witnessing place and follow what appears. It’s also good to bring in some adult function when you need it, to check that nothing important is being bypassed, and to leave time at the end to come out completely and do whatever normal thing needs doing.",
+     "checked_r1101": "Once or twice a week, if it’s useful, give the practice more time. More time doesn’t have to mean more intense. It helps to start from your Higher Self, or if that’s out of reach, from just noticing what’s there. Then follow whatever shows up. If you need one of your adult jobs, the Protector say, bring it in, or borrow it from someone safe. And check that you’re not skipping past anything important. You’ll also want enough time at the end to come all the way back out and do whatever normal thing needs doing.",
+     "read_r1101": "AI Generated (1.0): AI (Medium, High, Medium, High) over the whole section; it read AI Detected (0.65) before",
+     "diagnosis": "Round 2 cut the repeated \"it’s good to\" into short commands and short statements (\"More time doesn’t have to mean more intense.\", \"Then follow whatever shows up.\"), each read AI on its own. The paragraph now starts from what the extra time is for, and the steps run together as one person would say them."
+    },
+    {
+     "old": "If possible, it’s good to do the normal thing immediately after the exercise, so that the subconscious sees that the adult heard and acted. Otherwise you just get another beautiful inner meeting, and the dishes are still sitting in the sink.",
+     "checked_r1101": "If you can, do that normal thing right after the session. That way your subconscious sees that the adult in you heard what came up and did something about it, instead of having one more beautiful inner meeting and leaving the dishes where they were.",
+     "read_r1101": "in the same AI window (High, 98 words with the end of the paragraph before)",
+     "diagnosis": "as above"
+    }
+   ]
   },
   {
    "id": "s1101-59 w1",
@@ -308,11 +374,19 @@
    "fix": [
     [
      "Bring it down to something specific. Ask yourself, “What’s the smallest, most specific thing your love is asking you to do next? A task, a boundary, a meal, some rest, a repair, a conversation?”",
-     "Ask what the bliss could turn into in real life: “What’s the next small thing this love is asking me to do? A task, a boundary, a meal, some rest, a repair, a conversation?”"
+     "If the bliss spreads out into a big warm haze, it can’t do much for you or anyone else yet. Bring it down to one next step by asking, “What’s the next small thing this love is asking me to do? A task, a boundary, a meal, some rest, a repair, a conversation?”"
     ]
    ],
    "why": "AI (Medium) over the headings and this paragraph: \"Bring it down to something specific\" didn't say what \"it\" is or what specific means. The published \"Ask the bliss to become specific\", said as something you can do, and the question asked in the first person, as you'd ask it.",
-   "fate": "fixed"
+   "fate": "fixed",
+   "round3": [
+    {
+     "old": "Bring it down to something specific. Ask yourself, “What’s the smallest, most specific thing your love is asking you to do next? A task, a boundary, a meal, some rest, a repair, a conversation?”",
+     "checked_r1101": "Ask what the bliss could turn into in real life: “What’s the next small thing this love is asking me to do? A task, a boundary, a meal, some rest, a repair, a conversation?”",
+     "read_r1101": "AI (High), 50 words over the heading, this paragraph, the next heading and his \"Don’t pry.\" (AI Medium on 1 November)",
+     "diagnosis": "A rewrite of the words that kept the shape (the ledger’s explanation of HG1101-59#195): a heading, a one-line instruction, a quoted question. The paragraph now says what the problem is (\"diffuse\" in the heading) before the step, so the window holds more than a heading and an order."
+    }
+   ]
   },
   {
    "id": "s1101-69 w4-16",
@@ -467,12 +541,20 @@
    "published": "Hostile presences, shadow forces, grandiose parts, and altered-state imagery don’t always attack through fear.",
    "fix": [
     [
-     "Presences, shadow forces, or grandiose parts don’t always attack through fear, either.",
-     "Not every hostile presence, shadow force or grandiose part comes at you with fear."
+     "Presences, shadow forces, or grandiose parts don’t always attack through fear, either. They may also try to give you a sense",
+     "Sometimes a hostile presence, a shadow force or a grandiose part comes at you with flattery instead of fear. It may try to give you a sense"
     ]
    ],
    "why": "AI (Low): \"either\" pointed back at nothing in this section, and \"presences\" lost the published \"hostile\".",
-   "fate": "fixed"
+   "fate": "fixed",
+   "round3": [
+    {
+     "old": "Presences, shadow forces, or grandiose parts don’t always attack through fear, either. They may also try to give you a sense",
+     "checked_r1101": "Not every hostile presence, shadow force or grandiose part comes at you with fear.",
+     "read_r1101": "AI (Low), 19 words: the heading and the first sentence, both times",
+     "diagnosis": "An opening generalization kept (HG1101-93#197). It now says what happens instead (flattery), in the next sentence’s terms."
+    }
+   ]
   },
   {
    "id": "s1101-96 w7",

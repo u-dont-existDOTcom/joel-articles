@@ -6,7 +6,7 @@
   {
    "test": "light: one card per suggestion",
    "pass": true,
-   "detail": "21 cards, 21 suggestions"
+   "detail": "25 cards, 25 suggestions"
   },
   {
    "test": "light: every other card starts not approved",
@@ -71,7 +71,7 @@
   {
    "test": "light: progress counts the decisions",
    "pass": true,
-   "detail": "3 of 18 decided · 1 approved · 1 rejected · 1 to revise · 0 of 3 stretches looked at · 0 kept · 0 edited"
+   "detail": "3 of 18 decided · 1 approved · 1 rejected · 1 to revise · 0 of 7 stretches looked at · 0 kept · 0 edited"
   },
   {
    "test": "light: back to not approved in one click",
@@ -81,7 +81,7 @@
   {
    "test": "light: approval count is explicit approvals only",
    "pass": true,
-   "detail": "2 of 18 decided · 0 approved · 1 rejected · 1 to revise · 0 of 3 stretches looked at · 0 kept · 0 edited"
+   "detail": "2 of 18 decided · 0 approved · 1 rejected · 1 to revise · 0 of 7 stretches looked at · 0 kept · 0 edited"
   },
   {
    "test": "light: type filter hides that type",
@@ -128,12 +128,12 @@
   {
    "test": "light: Edit opens your version, filled with the paragraph as it is",
    "pass": true,
-   "detail": "Say something like, \"Only what I can integrate, please. Patience pays, so if the"
+   "detail": "That way you keep the good parts of feeling younger and leave behind what came w"
   },
   {
    "test": "light: stretches to edit count apart",
    "pass": true,
-   "detail": "3 of 18 decided · 1 approved · 1 rejected · 1 to revise · 1 of 3 stretches looked at · 0 kept · 1 edited"
+   "detail": "3 of 18 decided · 1 approved · 1 rejected · 1 to revise · 1 of 7 stretches looked at · 0 kept · 1 edited"
   },
   {
    "test": "light: every highlight has a colour",
@@ -158,7 +158,7 @@
   {
    "test": "light: export has every suggestion",
    "pass": true,
-   "detail": 21
+   "detail": 25
   },
   {
    "test": "light: comment exported word for word",
@@ -218,7 +218,7 @@
   {
    "test": "dark: one card per suggestion",
    "pass": true,
-   "detail": "21 cards, 21 suggestions"
+   "detail": "25 cards, 25 suggestions"
   },
   {
    "test": "dark: every other card starts not approved",
@@ -283,7 +283,7 @@
   {
    "test": "dark: progress counts the decisions",
    "pass": true,
-   "detail": "3 of 18 decided · 1 approved · 1 rejected · 1 to revise · 0 of 3 stretches looked at · 0 kept · 0 edited"
+   "detail": "3 of 18 decided · 1 approved · 1 rejected · 1 to revise · 0 of 7 stretches looked at · 0 kept · 0 edited"
   },
   {
    "test": "dark: back to not approved in one click",
@@ -293,7 +293,7 @@
   {
    "test": "dark: approval count is explicit approvals only",
    "pass": true,
-   "detail": "2 of 18 decided · 0 approved · 1 rejected · 1 to revise · 0 of 3 stretches looked at · 0 kept · 0 edited"
+   "detail": "2 of 18 decided · 0 approved · 1 rejected · 1 to revise · 0 of 7 stretches looked at · 0 kept · 0 edited"
   },
   {
    "test": "dark: type filter hides that type",
@@ -340,12 +340,12 @@
   {
    "test": "dark: Edit opens your version, filled with the paragraph as it is",
    "pass": true,
-   "detail": "Say something like, \"Only what I can integrate, please. Patience pays, so if the"
+   "detail": "That way you keep the good parts of feeling younger and leave behind what came w"
   },
   {
    "test": "dark: stretches to edit count apart",
    "pass": true,
-   "detail": "3 of 18 decided · 1 approved · 1 rejected · 1 to revise · 1 of 3 stretches looked at · 0 kept · 1 edited"
+   "detail": "3 of 18 decided · 1 approved · 1 rejected · 1 to revise · 1 of 7 stretches looked at · 0 kept · 1 edited"
   },
   {
    "test": "dark: every highlight has a colour",
@@ -370,7 +370,7 @@
   {
    "test": "dark: export has every suggestion",
    "pass": true,
-   "detail": 21
+   "detail": 25
   },
   {
    "test": "dark: comment exported word for word",

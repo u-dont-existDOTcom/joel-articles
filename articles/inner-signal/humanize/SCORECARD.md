@@ -11,7 +11,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/inner-signa
 | pangram 4.1, web app | 14 | 8 (57%) | 43% | 57% | 86% | 0.201 (base 0.245, 14) |
 | pangram 4.1, the API (Joel's key, run on his laptop; E218) | 20 | 12 (60%) | 45% | 55% | 75% | 0.216 (base 0.247, 20) |
 | pangram API (model pangram-4, expect 4.1), Joel's key, run on the laptop | 7 | 6 (86%) | 14% | 86% | 100% | 0.185 (base 0.122, 7) |
-| Pangram 4.1 (web app) | 103 | 84 (82%) | 18% | 82% | 83% | 0.186 (base 0.150, 103) |
+| Pangram 4.1 (web app) | 124 | 103 (83%) | 24% | 76% | 78% | 0.183 (base 0.183, 124) |
 
 ## Pangram 4.0 (before the ledger)
 
@@ -137,25 +137,27 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 43 (86%) | 16% | 84% | 82% | 0.163 (base 0.134, 50) |
-| the latest 100 | 100 | 81 (81%) | 19% | 81% | 82% | 0.186 (base 0.154, 100) |
-| all | 103 | 84 (82%) | 18% | 82% | 83% | 0.186 (base 0.150, 103) |
+| the latest 50 | 50 | 43 (86%) | 28% | 72% | 74% | 0.171 (base 0.202, 50) |
+| the latest 100 | 100 | 83 (83%) | 26% | 74% | 75% | 0.183 (base 0.192, 100) |
+| all | 124 | 103 (83%) | 24% | 76% | 78% | 0.183 (base 0.183, 124) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| section | 103 | 84 (82%) | 18% | 82% | 83% | 0.186 (base 0.150, 103) |
+| section | 114 | 93 (82%) | 21% | 79% | 82% | 0.185 (base 0.166, 114) |
+| paragraph | 8 | 8 (100%) | 50% | 50% | 50% | 0.170 (base 0.250, 8) |
+| pair | 2 | 2 (100%) | 100% | 0% | 0% | 0.163 (base 0.000, 2) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.2 to 0.4 | 4 | 0.25 | 50% |
-| 0.4 to 0.6 | 77 | 0.56 | 81% |
-| 0.6 to 0.8 | 83 | 0.64 | 88% |
+| 0.2 to 0.4 | 5 | 0.27 | 40% |
+| 0.4 to 0.6 | 91 | 0.55 | 73% |
+| 0.6 to 0.8 | 91 | 0.64 | 89% |
 
-## Misses since the ledger (40)
+## Misses since the ledger (42)
 
 | cause | misses |
 |---|---|
@@ -176,13 +178,13 @@ Calibration:
 | context: Human in the whole guide, red alone | 1 |
 | pessimism about red moving onto unchanged text | 1 |
 | pessimism about the whole text, again | 1 |
+| a rewrite of the words, not the shape | 1 |
+| an opening generalization kept | 1 |
 
 The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [s1101-36](https://www.pangram.com/history/c1a63da5-511e-46f5-879a-9dda4d958002) | HG1101-36, 1 | AI | Human | **not explained yet** |
-| [s1101-37](https://www.pangram.com/history/00960ecb-3db9-4988-ad9b-cbe6e650b7c8) | HG1101-37, 1 | AI | Human | **not explained yet** |
 | [s1101-38](https://www.pangram.com/history/0009f224-bec6-450c-a1d6-c3697413778a) | HG1101-38, 1 | AI | Human | **not explained yet** |
 | [s1101-40](https://www.pangram.com/history/c601f371-9603-4327-8b11-45a1f9c0293a) | HG1101-40, 1 | Human | AI or mixed | **not explained yet** |
 | [s1101-44](https://www.pangram.com/history/489391bc-5f75-4088-897d-a9e907e9e0f4) | HG1101-44, 1 | Human | AI or mixed | **not explained yet** |
@@ -196,6 +198,8 @@ The latest:
 | [s1101-95](https://www.pangram.com/history/8be96f9e-57b6-41f4-86ec-808c276c90f8) | HG1101-95, 1 | AI | Human | **not explained yet** |
 | [s1101-96](https://www.pangram.com/history/78cb97fc-9eb9-44a6-9de3-2988a428ebd1) | HG1101-96, 1 | AI | Human | **not explained yet** |
 | [s1101-99](https://www.pangram.com/history/2122b7a5-8950-4926-9037-81d41cfbf928) | HG1101-99, 1 | Human | AI or mixed | **not explained yet** |
+| [r1101-59](https://www.pangram.com/history//34180952-89c5-44bb-8abe-521269bff5e2) | HG1101-59, 2 | Human | AI or mixed | a rewrite of the words, not the shape |
+| [r1101-93](https://www.pangram.com/history//814667a4-d788-4dd1-a0d9-f941a0cf8ea5) | HG1101-93, 2 | Human | AI or mixed | an opening generalization kept |
 
 ## Lineages still open (tries used of the cap)
 
@@ -216,23 +220,27 @@ The latest:
 | HG32-c2 | stretch | 1 of unlimited (Substack) | Mixed |
 | HG16-B209 | pair | 3 of 6 | Mixed |
 | HG-parent-script-P1 | paragraph | 1 of 6 | Mixed |
-| HG1101-14 | section | 1 of 2 | Mixed |
-| HG1101-17 | section | 1 of 2 | Mixed |
+| HG1101-17 | section | 2 of 2 | AI |
 | HG1101-20 | section | 1 of 2 | Mixed |
 | HG1101-23 | section | 1 of 2 | Mixed |
 | HG1101-27 | section | 1 of 2 | Mixed |
 | HG1101-39 | section | 1 of 2 | Mixed |
 | HG1101-40 | section | 1 of 2 | AI |
 | HG1101-41 | section | 1 of 2 | Mixed |
-| HG1101-44 | section | 1 of 2 | Mixed |
-| HG1101-46 | section | 1 of 2 | Mixed |
-| HG1101-53 | section | 1 of 2 | Mixed |
-| HG1101-59 | section | 1 of 2 | Mixed |
+| HG1101-44 | section | 2 of 2 | Mixed |
+| HG1101-53 | section | 2 of 2 | AI |
+| HG1101-59 | section | 2 of 2 | Mixed |
 | HG1101-69 | section | 1 of 2 | Mixed |
 | HG1101-71 | section | 1 of 2 | Mixed |
 | HG1101-72 | section | 1 of 2 | Mixed |
 | HG1101-74 | section | 1 of 2 | AI |
 | HG1101-84 | section | 1 of 2 | Mixed |
-| HG1101-93 | section | 1 of 2 | Mixed |
+| HG1101-93 | section | 2 of 2 | Mixed |
 | HG1101-99 | section | 1 of 2 | Mixed |
+| HG1101-17-P23 | pair | 1 of 6 | Mixed |
+| HG1101-44-P5 | paragraph | 1 of 6 | AI |
+| HG1101-44-P6 | paragraph | 1 of 6 | AI |
+| HG1101-53-P1 | paragraph | 1 of 6 | AI |
+| HG1101-53-P12 | pair | 1 of 6 | AI |
+| HG1101-59-P1 | paragraph | 1 of 6 | AI |
 

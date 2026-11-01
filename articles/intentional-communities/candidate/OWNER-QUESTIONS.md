@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-11-01, after your message of 20:26 UTC (you asked me to make the 19 changes in your post). **Open questions: 0.** **For you to do**: nothing.
+Last updated 2026-11-01, after your message of 22:27 UTC (carry on from the next step). **Open questions: 0.** **For you to do**: mark [Community Article Cards, 1 November](https://claude.ai/artifact/RtotMXhGD211nugumDr6pX) (six cards).
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -12,12 +12,14 @@ None right now.
 
 ## For you to do
 
-Nothing right now.
+- 🟠 Mark [Community Article Cards, 1 November](https://claude.ai/artifact/RtotMXhGD211nugumDr6pX) ([the cards as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/fullread-20261030/review/joel-20261101-2026/sections/review/REVIEW-IC1101.md)): after your 19 changes went in, I checked each section they touched in Pangram by itself. Ten of 13 read Human Written, three Mostly Human; six windows read AI or Human (Low), all in your post's words, so they're cards: four suggestions and two lines I'd keep. Once you've marked them, I put them into your post through its editor, as on 1 November.
 
 ## Decided
 
 > [!TIP]
 > Answered, with what I did.
+
+- 🟢 2026-11-01 22:27 UTC, "Continue my community article work ... carry on from its next step": the section checks of your post are read ([every section's result](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/fullread-20261030/review/joel-20261101-2026/sections/RESULTS.md)), and their six windows are your cards (above).
 
 - 🟢 2026-11-01 20:26 UTC, "i didn't make the edits to community guide, that's too much. you can do that." ([your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/fullread-20261030/review/joel-20261101-2026/joel-20261101-2026-message.txt)). Done: I made the 19 changes in your post's editor and clicked Update (the audience and the other settings as they were). Your post now has all 19, and every other word is as it was. Its title already said "Updated: Nov 1 2026" in the editor, so that went live with them. The article's master copy in Git is that version now. Then each section with a change got a Pangram check by itself: 10 of the 13 read Human Written and 3 Mostly Human ([every result](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/fullread-20261030/review/joel-20261101-2026/sections/RESULTS.md)). Six windows in your words read AI or Human (Low), in The New Age May Dawn Suddenly and Communes Are Hot Again; they come to you as cards. Each of those sections gets checked again after its fixes, as you said for the hypnosis guide.
 

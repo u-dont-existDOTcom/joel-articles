@@ -3,7 +3,7 @@
  "review_id": "inner-signal-hypnosis-guide-cards-20261101-s1101",
  "title": "Hypnosis Guide Cards, 1 November (2)",
  "intro": [
-  "Your hypnosis guide as it is in Git, after each section was checked in Pangram by itself. 91 windows read AI or Human (Low). The ones in our words (Emulate’s or mine) are fixed in the guide already, each said plainly from your published version. The ones in <b>your own words</b> are here: <b>14 cards</b> on paragraphs you wrote or rewrote, and <b>7</b> on lines from your inner child guide that this guide uses. 3 of them I’d keep as they are.",
+  "Your hypnosis guide as it is in Git, after each section was checked in Pangram by itself. 91 windows read AI or Human (Low). The ones in our words (Emulate’s or mine) are fixed in the guide already, each said plainly from your published version. The ones in <b>your own words</b> are here: <b>14 cards</b> on paragraphs you wrote or rewrote, and <b>7</b> on lines from your inner child guide that this guide uses. 3 of them I’d keep as they are. And <b>4 stretches of our own words</b> are here too, as stretches to edit: each read AI in three tries, and you may want to say them your way.",
   "One of them, G-23, puts back two lines of your inner child guide that the first round of fixes this afternoon changed without asking you (“What’s going on?” and “If nothing comes, that’s fine for now.”).",
   "Each card says what Pangram read there. Once you’ve answered, each section with a card gets its second and last check by itself, and then the whole guide on the Substack drafts.",
   "Your answers save as you click. When you’re done, click <b>Copy my answers</b> (or <b>Save them as a file</b>) and send them to me."
@@ -11,17 +11,21 @@
  "git_file": "articles/inner-signal/humanize/fix-20261101/sections/review/REVIEW-S1101.html",
  "article": {
   "file": "articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
-  "sha256": "5805fe1005e98135bf3f93b0ef465a81c4dcad8326dbf23bb368e3087229b145"
+  "sha256": "170052f8576fb26a2a255ab7b4bcdb6769c42178646036986d8ffc6fc007fe39"
  },
  "links": {
   "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
   "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/sections/review/REVIEW-S1101.md"
  },
- "built": "2026-11-01 22:57 UTC",
+ "built": "2026-11-01 23:18 UTC",
  "types": {
   "yours": {
    "label": "Your own words",
    "about": "A paragraph you wrote or rewrote, where Pangram read AI or Human (Low). Approve uses the suggestion; Reject keeps your words; Revise lets you write your own."
+  },
+  "stuck": {
+   "label": "Our words, still AI",
+   "about": "Words of ours (Emulate's or mine) that read AI in all three tries, each said plainly from your published version. Keep it as it is (a clear version stays in), or Edit it: your own versions have read Human."
   },
   "icguide": {
    "label": "From your inner child guide",
@@ -59,6 +63,25 @@
    "deciding": "Approve uses the suggestion; Reject keeps your words; Revise lets you write your own.",
    "reading": "Human (Low), 16 words",
    "approve_label": "use your whole line"
+  },
+  {
+   "id": "E-107",
+   "type": "stuck",
+   "title": "“That way you keep the good parts of feeling younger …”",
+   "where": "Let the child speak without handing over the steering wheel, P3",
+   "advice": "edit",
+   "why": "Your published version: “That distinction lets you recover curiosity, spontaneity, play, sensory freshness, honest need, and quick emotional movement without pairing those gifts with obedience, helplessness, scolding, or weakened judgment.” Three versions of ours kept its two lists, and each read AI. The paragraph before it, rewritten the same evening, reads Human (High) now. The version that’s in is clear, so it stays until a version reads both clear and Human (your rule of 29 October).",
+   "reading": "AI (High) in the first section check (the paragraph before my rewrites), AI (High) in the second (one window over the whole section), and AI (High), 38 words, checked with the quote before it",
+   "advice_note": "Edit it, if you can say it your way; I’m out of versions that keep your meaning and read Human here. Or keep it as it is, and the whole-guide check reads it in place.",
+   "keep_label": "keep it as it is",
+   "found_by": "Batch s1101: each section checked by itself in Pangram (1 November)",
+   "spans": [
+    {
+     "block": 107,
+     "start": 0,
+     "end": 204
+    }
+   ]
   },
   {
    "id": "W-111",
@@ -375,6 +398,30 @@
    "reading": "AI (Low), 40 words; Human (Low), 16 words"
   },
   {
+   "id": "E-315",
+   "type": "stuck",
+   "title": "“If your recording cuts out partway through …”",
+   "where": "Come all the way back, P5",
+   "advice": "edit",
+   "why": "Your published version: “If a recording stops unexpectedly: say, “The recording stopped and the session is over.” … Don’t wait for the missing narrator to release you.” and “Sleep is separate. … A waking recording shouldn’t end by preserving a role, reduced judgment, impaired movement, blankness, an undefined reset word, or an invitation to remain altered indefinitely.” Three versions of ours, rules first and then rules with reasons, all read AI. The version that’s in is clear, so it stays until a version reads both clear and Human (your rule of 29 October).",
+   "reading": "AI (High) on these two paragraphs in both section checks (126 and 134 words), and AI checked alone: AI (High and Medium) on the first, AI (High) on the second",
+   "advice_note": "Edit it, if you can say it your way; I’m out of versions that keep your meaning and read Human here. Or keep it as it is, and the whole-guide check reads it in place.",
+   "keep_label": "keep it as it is",
+   "found_by": "Batch s1101: each section checked by itself in Pangram (1 November)",
+   "spans": [
+    {
+     "block": 315,
+     "start": 0,
+     "end": 314
+    },
+    {
+     "block": 316,
+     "start": 0,
+     "end": 372
+    }
+   ]
+  },
+  {
    "id": "W-358",
    "type": "icguide",
    "title": "“We’re going back to the life we’re building.”",
@@ -390,6 +437,49 @@
      "block": 358,
      "start": 451,
      "end": 496
+    }
+   ]
+  },
+  {
+   "id": "E-368",
+   "type": "stuck",
+   "title": "“Once or twice a week …”",
+   "where": "The weekly deeper practice, P1",
+   "advice": "edit",
+   "why": "Your published The weekly deeper practice: two paragraphs, how to give the practice more time once or twice a week and why to do the normal thing right after. Three versions of ours read AI, the last two more than the first. The version that’s in is clear, so it stays until a version reads both clear and Human (your rule of 29 October).",
+   "reading": "AI Detected (0.65) in the first section check, AI Generated (1.0) in the second, and AI (High) checked alone and with the paragraph after it",
+   "advice_note": "Edit it, if you can say it your way; I’m out of versions that keep your meaning and read Human here. Or keep it as it is, and the whole-guide check reads it in place.",
+   "keep_label": "keep it as it is",
+   "found_by": "Batch s1101: each section checked by itself in Pangram (1 November)",
+   "spans": [
+    {
+     "block": 368,
+     "start": 0,
+     "end": 466
+    },
+    {
+     "block": 369,
+     "start": 0,
+     "end": 237
+    }
+   ]
+  },
+  {
+   "id": "E-406",
+   "type": "stuck",
+   "title": "“If the bliss spreads out into a big warm haze …”",
+   "where": "You become too blissful or diffuse, P1",
+   "advice": "edit",
+   "why": "Your published “Ask the bliss to become specific.” and “What task, boundary, meal, rest, repair, or conversation does love require next?” Three versions of ours read AI. The version that’s in is clear, so it stays until a version reads both clear and Human (your rule of 29 October).",
+   "reading": "AI (Medium) and then AI (High) in the section checks, with the headings and your “Don’t pry.” around it, and AI (High) checked alone with its heading",
+   "advice_note": "Edit it, if you can say it your way; I’m out of versions that keep your meaning and read Human here. Or keep it as it is, and the whole-guide check reads it in place.",
+   "keep_label": "keep it as it is",
+   "found_by": "Batch s1101: each section checked by itself in Pangram (1 November)",
+   "spans": [
+    {
+     "block": 406,
+     "start": 0,
+     "end": 258
     }
    ]
   },

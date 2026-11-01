@@ -38,6 +38,10 @@ TYPES = {
     'yours': {'label': 'Your own words',
               'about': 'A paragraph you wrote or rewrote, where Pangram read AI or Human (Low). Approve uses the '
                        'suggestion; Reject keeps your words; Revise lets you write your own.'},
+    'stuck': {'label': 'Our words, still AI',
+              'about': 'Words of ours (Emulate\'s or mine) that read AI in all three tries, each said plainly from your '
+                       'published version. Keep it as it is (a clear version stays in), or Edit it: your own versions '
+                       'have read Human.'},
     'icguide': {'label': 'From your inner child guide',
                 'about': 'Your inner child guide\'s words in this guide, whole or shortened, where Pangram read AI or '
                          'Human (Low). Approve uses the suggestion; Reject keeps them; Revise lets you write your own.'},
@@ -457,6 +461,45 @@ def build_cards():
                   'Your other sentences in these steps word for word (“Hopefully your name didn’t suddenly change to '
                   'Larry.” is in the step before).', DECIDE, 'I’d approve.', None,
                   reading(win_blocks(('s1101-99', 10), ('s1101-99', 12), ('s1101-99', 13), ('s1101-99', 14)))))
+    # the stretches of ours that read AI in three tries (round 1 or 2 in the section checks, round 3 alone: ../recheck/)
+    stuck = [
+        ('E-107', '“That way you keep the good parts of feeling younger …”', 'That way you keep the good parts of feeling younger',
+         'AI (High) in the first section check (the paragraph before my rewrites), AI (High) in the second (one window over '
+         'the whole section), and AI (High), 38 words, checked with the quote before it',
+         'Your published version: “That distinction lets you recover curiosity, spontaneity, play, sensory freshness, '
+         'honest need, and quick emotional movement without pairing those gifts with obedience, helplessness, scolding, or '
+         'weakened judgment.” Three versions of ours kept its two lists, and each read AI. The paragraph before it, '
+         'rewritten the same evening, reads Human (High) now.'),
+        ('E-315', '“If your recording cuts out partway through …”', 'If your recording cuts out partway through',
+         'AI (High) on these two paragraphs in both section checks (126 and 134 words), and AI checked alone: AI (High '
+         'and Medium) on the first, AI (High) on the second',
+         'Your published version: “If a recording stops unexpectedly: say, “The recording stopped and the session is '
+         'over.” … Don’t wait for the missing narrator to release you.” and “Sleep is separate. … A waking recording '
+         'shouldn’t end by preserving a role, reduced judgment, impaired movement, blankness, an undefined reset word, or '
+         'an invitation to remain altered indefinitely.” Three versions of ours, rules first and then rules with reasons, '
+         'all read AI.'),
+        ('E-368', '“Once or twice a week …”', 'Once or twice a week, when it’s useful, give this practice more time',
+         'AI Detected (0.65) in the first section check, AI Generated (1.0) in the second, and AI (High) checked alone and '
+         'with the paragraph after it',
+         'Your published The weekly deeper practice: two paragraphs, how to give the practice more time once or twice a '
+         'week and why to do the normal thing right after. Three versions of ours read AI, the last two more than the '
+         'first.'),
+        ('E-406', '“If the bliss spreads out into a big warm haze …”', 'If the bliss spreads out into a big warm haze',
+         'AI (Medium) and then AI (High) in the section checks, with the headings and your “Don’t pry.” around it, and AI '
+         '(High) checked alone with its heading',
+         'Your published “Ask the bliss to become specific.” and “What task, boundary, meal, rest, repair, or '
+         'conversation does love require next?” Three versions of ours read AI.'),
+    ]
+    for cid, title, start, read, why in stuck:
+        i = block_with(start)
+        blocks_ = [i] + ([i + 1] if cid in ('E-315', 'E-368') else [])
+        S.append({'id': cid, 'type': 'stuck', 'title': title, 'where': sr.where(BL, i), 'advice': 'edit',
+                  'why': why + ' The version that’s in is clear, so it stays until a version reads both clear and Human '
+                  '(your rule of 29 October).', 'reading': read,
+                  'advice_note': 'Edit it, if you can say it your way; I’m out of versions that keep your meaning and '
+                                 'read Human here. Or keep it as it is, and the whole-guide check reads it in place.',
+                  'keep_label': 'keep it as it is', 'found_by': FOUND,
+                  'spans': [{'block': b, 'start': 0, 'end': len(BL[b]['text'])} for b in blocks_]})
     return S
 
 
@@ -473,7 +516,9 @@ def build():
             'read AI or Human (Low). The ones in our words (Emulate’s or mine) are fixed in the guide already, each '
             'said plainly from your published version. The ones in <b>your own words</b> are here: <b>%d cards</b> on '
             'paragraphs you wrote or rewrote, and <b>%d</b> on lines from your inner child guide that this guide '
-            'uses. %d of them I’d keep as they are.' % (n['yours'], n['icguide'], edit),
+            'uses. %d of them I’d keep as they are. And <b>%d stretches of our own words</b> are here too, as stretches to '
+            'edit: each read AI in three tries, and you may want to say them your way.' % (n['yours'], n['icguide'],
+                                                                                          edit - n['stuck'], n['stuck']),
             'One of them, G-23, puts back two lines of your inner child guide that the first round of fixes this '
             'afternoon changed without asking you (“What’s going on?” and “If nothing comes, that’s fine for now.”).',
             'Each card says what Pangram read there. Once you’ve answered, each section with a card gets its second '
