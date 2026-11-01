@@ -280,9 +280,9 @@ Use parts language here too, if it helps. Often, we see a sensation or a distrac
 
 If you're not careful, you might find yourself expecting that when you go within to meet your inner child, you'll find your inner child.
 
-Instead, you might feel numb, cynical, angry, suddenly hungry, like you need to look at your phone, sexually aroused, like you need to make plans, sleepy, dissociated, or you might even think that what you're doing is stupid. Those are not failures. Often what you're experiencing is a very charming guard. It's what protects you when your consciously installed parental Protector isn't functioning, the same as when you were a child. It might not be a guard at all, though. Maybe it's your inner child, angry that you took so long to come back. Maybe it's your inherited parent script, or something left over from earlier today, or some of each. So before you decide what it is, ask it what it's trying to stop, or what it wants.
+Instead, you might feel numb, cynical, angry, suddenly hungry, like you need to look at your phone, sexually aroused, like you need to make plans, sleepy, dissociated, or you might even think that what you're doing is stupid. Those are not failures. Often what you're experiencing is a very charming guard. It's what protects you when your consciously installed parental Protector isn't functioning, the same as when you were a child. But before you decide where it's coming from, ask it what it's trying to stop, or what it wants. It could also be your inner child, mad that you took so long to come back, or your inherited parent script, or something from earlier today, or a bit of each.
 
-Talk to the guard the way your Nurturer talks to your inner child: “I see you. I'm not going to force my way past you. What's up?” Then wait and listen patiently. If you get nothing back, leave it there for today. Later on, ask it, “What are you afraid would happen if you stopped protecting me by…?”
+Say to the guard, in the same Nurturer voice you meant for your inner child: “I see you. I'm not going to force my way past you. What's going on?” Then wait and listen patiently. If nothing comes, that's fine for now. At some point you can ask, “What are you afraid would happen if you stopped protecting me by…?”
 
 If necessary, take time and listen. (Perhaps they are afraid that you will lie to yourself again or pretend again or that it will be too painful or you will spiritually bypass again or you will forgive someone who shouldn’t be forgiven yet or you will see what you want to see or that you will leave them hanging after the session or…)
 
@@ -346,7 +346,7 @@ Remember the goal isn't to make yourself good as new but to make yourself good a
 
 When you're reparenting, it's okay to play with things that interest your younger states, whether that means touching things of different textures, drawing, exercising, roleplaying with a plushie in a different voice, etc. As long as your reality testing is good and you remember that you aren't a child or pet or doll or whatever and that nobody owns you, it's okay to work on getting your play ability back. A lot of the best discoveries come when you're both just messing around. Play not only paves the way for therapy, but is a part of how successful therapy should be measured.
 
-Resting doesn’t mean you have to become helpless. It’s okay to limit the number of decisions you are going to be making for a certain amount of time, it’s okay to put the things you might not get to on a list, and it’s okay to let your inner adult keep watch for a while. You can still move, stop and come back whenever you need to.
+Resting doesn’t mean you have to become helpless. It’s okay to limit the number of decisions you are going to be making for a certain amount of time, it’s okay to put the things you might not get to on a list, and it’s okay to let your inner adult keep watch for a while. You can still get up and move around, stop resting, and get back to what you were doing whenever you need to.
 
 ## Non-dominant hand dialogue
 
@@ -548,19 +548,19 @@ Orient yourself by looking around. Where are you? What's the date or day? How do
 
 Say something like, "Only what I can integrate, please. Patience pays, so if there's too much, let it simmer. May my body stay safe, and may my little one know there's an adult here to carry the heavy stuff."
 
-When you feel oriented, set an intention.
+Once you’ve got your bearings, ask for one thing.
 
-Something like, "Please show me the next truth/symbol/feeling/question/action that is useful for me, that I can integrate."
+"Please show me the next truth, symbol, feeling, question or action that's useful for me, and no more than I can handle."
 
 ## Stay awake when your mind likes to escape
 
-Say to yourself, "I'm not going anywhere, and I'm coming more fully here." Sit up, open your eyes, feel your feet, let your breathing be natural.
+If your mind keeps drifting off, sit up and open your eyes, feel your feet on the floor, and let your breathing go at its own pace. Then tell yourself, "I'm not going anywhere. I'm coming more fully here."
 
-Look around you and choose something to look at. Feel your spine. Ask yourself why you're daydreaming. Is it to get guidance, or because you're working through something, or are you avoiding something?
+Pick one thing in the room to look at, and feel your spine. Then ask yourself what the daydreaming is doing for you. Is it bringing you guidance, or helping you work through a feeling, or are you using it to avoid something?
 
-Say something like, "If I'm meant to be getting guidance, please show me the action I need to take. If I'm avoiding something, please bring me back to now and show me what I'm avoiding."
+Ask for what fits, something like, "If this is guidance, show me what I need to do about it. If I'm avoiding something, bring me gently back to the present and show me what it is."
 
-### Make the hypnosis more active
+### Make the hypnosis more alert
 
 If being still tends to make you sleepy, zone out, or wish you were out (escapism), no worries, there's a trick for that. [Instead of getting more relaxed with the hypnosis, try getting more alert](https://www.tandfonline.com/doi/full/10.1080/00029157.2018.1496318) (it's still relaxed-alert, not paranoid-alert). Keep your eyes open. Use a small hand movement each time you make the auto-suggestion that you're gaining increasing clarity. Then stop the hand movement and see where your mind is at. That hand movement is the mental escape into the body's flow. Say something like,
 
@@ -596,7 +596,7 @@ It might be useful for your wise subconscious to let you know that your inner me
 
 You don’t have to make it happen, or pretend that it is happening, just wait with love and notice what happens.”
 
-Sometimes a finger will move, sometimes an entire hand will heat up, sometimes you will notice a change in your breathing, sometimes you won’t notice anything at all. Even if something happens, it doesn’t mean that what comes next will be true. It just might mean that something is listening.
+Sometimes a finger will move, sometimes an entire hand will heat up, sometimes you will notice a change in your breathing, sometimes you won’t notice anything at all. Even if something happens, it doesn’t mean that what comes next will be true. At most, it could mean that some part of you is listening.
 
 ## A shortcut back into hypnosis
 
@@ -626,11 +626,11 @@ Here is a generic bring-back that you can use: "When I come out of this session,
 
 Then do a count up: On 1 start to feel your body again and what it's resting on and feel your weight (of your choice). On 2 start to feel your breathing return to normal. On 3 start to hear the room around you and name where you are. On 4 start to wiggle your fingers and toes, move your shoulders and your eyes. On 5 open your eyes, back in the here and now, feeling normal and clear and the session is now over.
 
-When you come out, make sure you can name what day (or date) it is, look to your left and right, look at something near to you and something further away. Move around a bit. Don't get up until you feel like you can do so without falling over. Make sure that you are oriented and alert (counting does this, but not always). Take mental note of only what actually came up for you and any actions you need to take regarding it. Then go on and do something normal.
+When you come out, make sure you can name what day (or date) it is, look to your left and right, look at something near to you and something further away. Move around a bit. Don't get up until you feel like you can do so without falling over. Make sure that you are oriented and alert (counting does this, but not always). Make a mental note of just what actually came up, and of anything you need to do about it. Then go and do something normal, like eating or washing up.
 
-If your recording cuts out for some reason, you can say to yourself, "The recording has stopped and the session is over," and then do the above on your own. Once your eyes are open, press your feet or hands into a surface as well.
+If your recording cuts out partway through, don't lie there waiting for it to bring you back. Tell yourself, "The recording has stopped and the session is over." Then do the count and the checks above on your own. Once your eyes are open, press your feet or hands into something solid too.
 
-Note: If you are going to sleep to a recording, then it is fine to go to sleep or just keep resting at the end of it. However, if it's a recording that's meant to bring you back awake, then you should not leave yourself in an altered state. This includes leaving yourself in a role, with lowered judgment, with lowered ability to move, blank or with a non-specific reset word or for an indefinite length of time.
+Sleep recordings are different: if you fall asleep at the end of one, or just keep resting, that's fine. But a recording that's meant to wake you back up should bring you all the way out. It shouldn't leave you stuck in a role, with your judgment or your ability to move turned down, or blank. A vague reset word is no good either, and neither is being left in that state with no end to it.
 
 # The actual inner meeting
 
@@ -652,7 +652,7 @@ Listen to everything and believe nothing automatically.
 
 # Let the next response guide you
 
-The induction and the inner meeting get you to a place where you can listen. From there, you respond to whatever actually happens, which is the part no recording can decide in advance. Read through these sections, and then try doing the inner meeting without looking at the screen.
+The induction and the inner meeting get you to where you can listen. After that, it's about answering what happens, instead of reading out a script that has already decided what every part of you is going to say. Read through these sections, and then try doing the inner meeting without looking at the screen.
 
 Respond to each thing that comes up with an accurate notice and a small reasonable invitation (or action or taking more time etc). The thing might be a sensation, image, gesture, feeling, words, or anything. The notice and invitation don't need to cover all those forms, just notice and invite what happens.
 
@@ -716,7 +716,7 @@ Alternatively, you may want to use the session to build up something you want mo
 
 Don’t feel that you have to end the session with a great revelation. When you have done as much as you want to do, ask yourself what would help you leave things where they are for now. This might include thanking parts for their help, or making sure that you do something in real life (eat a good meal, put a boundary in place, get some rest, repair a relationship, keep a promise etc). Whatever it is, tell your little one, "That’s enough for today. We’re going back to the life we’re building."
 
-When you have finished, even if you stopped part way through, use the ‘Come all the way back’ procedure to bring yourself back. When you are back, it is a good idea to write a few lines in a notebook about what you have done. Just jot down the essentials (what was there before you started, what you have done to change things, what happened, what you are unsure about, any phrases that were said, any body signals, any information that the inner child said that it needed, anything that a guard wanted you to know, any boundaries that you put in place, any repairs that you did, anything you learned about what not to force etc). You don’t need to write down the whole cast of characters, just what you actually noticed.
+When you have finished, even if you stopped part way through, use the ‘Come all the way back’ procedure to bring yourself back. When you are back, it is a good idea to write a few lines in a notebook about what you have done. Just jot down the essentials (what was there before you started, what you have done to change things, what happened, what you are unsure about, any phrases that were said, any body signals, any information that the inner child said that it needed, anything that a guard wanted you to know, any boundaries that you put in place, any repairs that you did, anything you learned about what not to force etc). You don’t have to list every part of you that might have been involved, only what you actually noticed.
 
 ### Throughout the exercise
 
@@ -734,9 +734,9 @@ As you come out of the process, ask yourself what needed warmth, what needed to 
 
 # The weekly deeper practice
 
-It’s good to give this more time once or twice a week, when that’s useful. It doesn’t have to be very intense, but it is good to start from Higher Self or at least a neutral witnessing place and follow what appears. It’s also good to bring in some adult function when you need it, to check that nothing important is being bypassed, and to leave time at the end to come out completely and do whatever normal thing needs doing.
+Once or twice a week, if it’s useful, give the practice more time. More time doesn’t have to mean more intense. It helps to start from your Higher Self, or if that’s out of reach, from just noticing what’s there. Then follow whatever shows up. If you need one of your adult jobs, the Protector say, bring it in, or borrow it from someone safe. And check that you’re not skipping past anything important. You’ll also want enough time at the end to come all the way back out and do whatever normal thing needs doing.
 
-If possible, it’s good to do the normal thing immediately after the exercise, so that the subconscious sees that the adult heard and acted. Otherwise you just get another beautiful inner meeting, and the dishes are still sitting in the sink.
+If you can, do that normal thing right after the session. That way your subconscious sees that the adult in you heard what came up and did something about it, instead of having one more beautiful inner meeting and leaving the dishes where they were.
 
 # Capacity before content
 
@@ -810,7 +810,7 @@ What do you say to yourself in that moment? “If it’s real, it’ll still be 
 
 ## You become too blissful or diffuse
 
-Bring it down to something specific. Ask yourself, “What’s the smallest, most specific thing your love is asking you to do next? A task, a boundary, a meal, some rest, a repair, a conversation?”
+Ask what the bliss could turn into in real life: “What’s the next small thing this love is asking me to do? A task, a boundary, a meal, some rest, a repair, a conversation?”
 
 ## You want the hidden truth immediately
 
@@ -1010,9 +1010,9 @@ Example: ‘Notice how the answer comes to you… maybe as an image, or a word�
 
 ### Pattern 3: Presuppositions
 
-Presumption is a powerful thing (a presupposition hides an assumption inside a sentence, and the person hearing it usually takes that assumption on board), so please don’t use it except to presume that we will have the choice of when it will happen, that we will be able to do it, that we are safe, that we are loved and that our adult can lead us. Don’t ever presume obedience, the way a hypnotist does when they say something like, ‘As you go deeper, it gets easier and easier to just do what I say.’
+A presupposition hides an assumption inside a sentence, and whoever hears it usually just goes along with it. That’s a lot of power, so only use it to assume good things: that you’ll get to choose when it happens, that you can do it, that you’re safe, that you’re loved, and that your adult self can lead. Never use it to assume obedience, the way a hypnotist does when they say something like, ‘As you go deeper, it gets easier and easier to just do what I say.’
 
-Example: ‘Before any part has to change, it can first become more understood.’
+A safe one sounds like this: ‘Before any part has to change, it can first become more understood.’
 
 ### Pattern 4: Gentle cause-effect bridges
 
@@ -1028,43 +1028,43 @@ An embedded invitation places a small direction inside a larger sentence. For ou
 
 or, "As I sit here, I may begin to allow myself to become aware..."
 
-Or, something similar that you might use when working with inner child type of parts: "My little one doesn't have to trust me all at once; they can simply notice I'm still here."
+With your inner child, it could be: "My little one doesn't have to trust me all at once; they can simply notice I'm still here."
 
-You can use this, of course, but don't use ten of them one after the other! People will know that you've just come out of some weekend certification course and they won't feel so safe with you.
+One at a time is plenty. String ten of them together and people can tell you've just come back from some weekend certification course, and they won't feel so safe with you.
 
 ### Pattern 6: Ethical double binds
 
-A Manipulative Double Bind Question is rigged so that you wind up doing what the speaker wants, whatever answer you give.
+A manipulative double bind is a question where any answer you give gets the speaker what they wanted. "Do you want to go deeper now, or in a moment?" sends you deeper either way.
 
-An ethical double bind gives you two ways to go, and both of them are actually safe. An ethical double bind question might be:
+An ethical double bind also gives you two choices, but both of them are genuinely safe for you, like:
 
-"Would you prefer to allow a feeling of warmth to come over you now, or would you prefer a feeling of space?"
+"Would you like some warmth first, or some space?"
 
 ### Pattern 7: Conversational postulates
 
-An example of a Conversational Postulate (a yes-or-no question that works as a request) is:
+A conversational postulate is a yes-or-no question that's really a request, the way "Can you pass the salt?" asks for the salt.
 
-"Can I allow my subconscious to show me the next thing to do, without showing me all the details of wounding that are involved?"
+"Can my subconscious show me the next thing to do, without showing me every detail of the wound?"
 
 ### Pattern 8: Tag questions
 
-You can use tag questions, like "isn't it?" or "can't it?" or "doesn't it?" or others, but be aware that these can get pretty oily pretty quickly, so don't overdo it.
+Tag questions, like "isn't it?" or "doesn't it?", can soften a sentence, but they get oily very quickly, so go easy on them.
 
 "Your body knows how to relax, doesn't it?"
 
 ### Pattern 9: Nominalizations
 
-Nominalizations are words that turn a process into a noun, like 'healing', 'safety', 'trust', 'integration', 'communion', 'clarity', 'rest', etc. These are a bit vague, and sometimes that can be useful, because it allows the subconscious to fill in the blank with something very specific for that person.
+A nominalization turns something you do into a noun: you heal, and it becomes 'healing'. Others are 'safety', 'trust', 'integration', 'communion', 'clarity' and 'rest'. They're a bit vague, and sometimes that's useful, because it lets the listener's subconscious fill in something very specific for them.
 
-"I can allow myself some safety, in whatever way my body knows how."
+"A bit more safety can come to me in whatever way my body understands."
 
 ### Pattern 10: Meta Model questions — the de-hypnosis tool
 
-To 'Milton Model' is to open things up. To 'Meta Model' is to say "What do you mean by that?" In order to be ethical with people, you need to do both.
+Milton Model language opens things up, and Meta Model questions ask what exactly someone means. If you want to be ethical with people, you need both.
 
-"What do you mean specifically? According to who? Compared to what? Always? Never? What specifically would happen if you did? How do you know that? What evidence could you have that would change your mind?"
+When something sounds true but vague, ask: "What do you mean, specifically? According to who? Compared to what? Always, or never? What exactly would happen if you did? How do you know that, and what evidence would change your mind?"
 
-When people are starting to get stiff in their bodies, 'Milton' it. When you feel like you're losing touch with the truth of what's going on, 'Meta' it.
+So when someone is starting to tense up in their body, use the Milton Model to help them soften. And when you feel you're losing track of what's really going on, that's the time for the Meta Model.
 
 ## Sensory, state, and strategy tools
 
@@ -1178,9 +1178,9 @@ Find out if that part/pattern is protecting something for you.
 
 Gently change an aspect of your pattern's representation from the prior step.
 
-Bring in your 3 good adults (Nurturer to warm, Protector to make it safe, and Guide to point a direction). In real life they’re all part of the one inner adult, so we can imagine them splitting apart if need be and coming together as well.
+Bring in your three good adults: the Nurturer to bring warmth, the Protector to make it safe, and the Guide to show you which way to go. They’re really all one inner adult, so you can picture them separately when that helps, and as one again after.
 
-Anchor the good state you're in, with a hand on your heart, two fingers touching, a breath or a posture, so you can get back to it later.
+Then anchor the good state you're in with a hand on your heart, two fingers touching, a particular breath or a posture, so that doing the same thing later can bring the state back.
 
 Imagine running into a scenario where your old pattern would have triggered, and adopt a feasible new behavior. ("If I see a red cloth, then I will choose not to charge at it. I am not a bull anymore.")
 
@@ -1196,7 +1196,7 @@ If what you’re investigating is true, it can take your questioning (as the pol
 
 Before you do what it wants you to do, check how it’s trying to get you there. Is it rushing you, or telling you to keep things secret? Is it shaming you, or threatening to leave you out if you don’t do what it says? Maybe it makes you feel special, or there’s a sexual charge to it, or a sense that you’re spiritually above everyone else.
 
-Then look at what it wants from you. Is it money, or sex? Your loyalty? Is it asking you to keep quiet, or to obey it?
+Then look at what it wants from you. Is it money, or sex, or your loyalty? Is it asking you to keep quiet, or to obey it?
 
 Keep in mind though, people who mean well can ask for some of these too. A teacher charges for their time, and your partner probably wants your loyalty. If you can say no to them and they’re fine with it, that’s a good sign.
 
@@ -1356,13 +1356,13 @@ Sometimes you need the support of your peers. In [Hearthwork](https://ibogaqueen
 
 We cannot force forgiveness on ourselves. It has to come from a place of understanding, otherwise it can be bypassing. However, if we remain in the anger forever, we are allowing the injury to dictate how we live our lives in the present. So how do we hold all of this? We just remember that it can all be true at once. They really did hurt us and they still have to answer for it, and our boundary with them still matters, but one day we may find that we have forgiven them, or at least that we’re not being run by the resentment anymore. And we don’t have to forgive first to get safe, set boundaries, hold someone accountable, get justice or get better.
 
-A helpful understanding to come to is that while their actions were harmful, in a sense, they could only make the moves they made, given their accumulated nature at the time (conditioning, history, pain, capacity, etc). This doesn’t negate that harm was caused, and it doesn’t stop you from holding someone accountable, allowing for consequences, working on making different moves now, etc. It simply helps us come to a place where we aren’t expecting something from someone that they can’t give. It doesn’t make their limitations matter any less.
+A helpful understanding to come to is that while their actions were harmful, in a sense, they could only make the moves they made, given their accumulated nature at the time (conditioning, history, pain, capacity, etc). This doesn’t negate that harm was caused, and it doesn’t stop you from holding someone accountable, allowing for consequences, working on making different moves now, etc. It simply helps us come to a place where we aren’t expecting something from someone that they can’t give, though what their limitations cost us is still real.
 
-You might say to the part of you that was hurt, “You don’t have to forgive before you’re ready. I won’t use spirituality to silence your pain. And I won’t build our whole life around this wound forever.”
+You might say to the part of you that got hurt, “You don’t have to forgive until you’re ready. I’m not going to use spiritual talk to shut your pain up. I’m also not going to build our whole life around this wound forever.”
 
 Some questions that may be helpful to ask when coming to a place of forgiveness, while still holding all of the above:
 
-What actually happened? What was the impact? What boundaries need to be set? What shaped the other person(s) into someone capable of that harm? What is theirs? What is mine? What does accountability require? How can I let this go, without denying any of the above?
+What actually happened? What was the impact? What boundaries need to be set? What shaped the other person(s) into someone capable of that harm? What part of it was theirs, and what part was mine? What does accountability require? How can I let this go, without denying any of the above?
 
 ## Forgiving yourself
 
@@ -1452,17 +1452,17 @@ Sit up, make sure your feet are grounded on the floor, straighten your spine, pu
 
 ## If it might be psychosis or destabilization
 
-This is assuming that you are having a symbolic experience of “hostile presences” which responds to grounding and love. It may be that what you are experiencing is actually psychotic or a form of destabilization.
+Everything above assumes that the “hostile presence” is symbolic, the kind that settles down when you ground yourself and meet it with love. What you’re going through might instead be psychosis, or your mind becoming unstable in some other way.
 
-If you feel like you are under attack for multiple days at a time, if you are not able to sleep, if you are not able to function normally, if you are hearing voices telling you to do things, if you feel you need to hurt yourself or somebody else, if you feel you are going manic, if you feel you can’t communicate normally, if you feel you can’t distinguish between what you are experiencing symbolically and normal reality, get help immediately. It’s not something to deal with in hypnosis.
+Get help right away if you feel under attack for days at a time, or you can’t sleep or function normally. The same goes if you hear voices telling you to do things, feel you need to hurt yourself or somebody else, or feel you’re going manic. And get help if you can’t communicate normally, or can’t tell the difference between what you’re experiencing symbolically and normal reality. This isn’t something to deal with in hypnosis.
 
 ### The General Rule
 
-The General Rule is: if you find that what you're doing is making you more loving, more grounded, more relational, more honest, more functional, then it's probably OK to keep doing it gently. But if what you're doing is making you more paranoid, sleepless, grandiose, isolated, scared, or more and more unreal, then don't go deeper. Get help.
+The General Rule is: if you find that what you're doing is making you more loving, more grounded, more relational, more honest, more functional, then it's probably OK to keep doing it gently. But if it's making you more paranoid, sleepless, grandiose, isolated or scared, or things feel more and more unreal, stop going deeper and get help.
 
 ## The cosmic-download humility test
 
-Presences, shadow forces, or grandiose parts don’t always attack through fear, either. They may also try to give you a sense that you’re special, try to “download cosmic info” to you, try to give you a special mission, make you feel doing the dishes is beneath you, etc. You can just say, “Thank you for the imagery, but I don’t need your grand performance. Unless the info you’re trying to download to me can help me do the dishes, clean my room, be more honest, be more helpful, be more loving, keep my promises, take care of my body by resting and eating etc, I don’t need it.”
+Not every hostile presence, shadow force or grandiose part comes at you with fear. They may also try to give you a sense that you’re special, try to “download cosmic info” to you, try to give you a special mission, make you feel doing the dishes is beneath you, etc. You can just say, “Thank you for the imagery, but I don’t need your grand performance. Unless the info you’re trying to download to me can help me do the dishes, clean my room, be more honest, be more helpful, be more loving, keep my promises, take care of my body by resting and eating etc, I don’t need it.”
 
 Guidance worth keeping should make ordinary life more beautiful, honest, relational, humble, reliable, and useful to other people.
 
@@ -1492,7 +1492,7 @@ Work out what is supporting you and where your weight is. Imagine that the suppo
 
 ## 3. Rhythmic breath or pulse
 
-Use your breathing or a slight hum in your throat for a natural rhythm. You could also tap your finger, or follow a sound outside. You can even do it by counting to yourself (silently) or with no rhythm at all. Say “here, and here again” over and over, and notice what you pay attention to in between the phrases. Then stop saying it. Notice what you become aware of in the first beat – you don’t need to make your mind blank, just notice what comes up. Does it make any words, feelings, needs or actions more clear? Bring back your normal rhythm and return.
+Use your breathing or a slight hum in your throat for a natural rhythm. You could also tap your finger, or follow a sound outside. You can even do it by counting to yourself (silently) or with no rhythm at all. Say “here, and here again” over and over, and notice what you pay attention to in between the phrases. Then stop saying it. Notice what you become aware of in the first beat – you don’t need to make your mind blank, just notice what comes up. Does it make any words, feelings, needs or actions more clear? Then let everything go back to its normal rhythm, and come back.
 
 ## 4. Unwinding object
 
@@ -1512,7 +1512,7 @@ Prepare the workshop (time, place, tools, boundaries, etc). Invite the signal/fe
 
 ## 8. Resource embodiment
 
-Pick a resource quality you understand (warmth, boundary, steadiness, curiosity, or dignity). Imagine yourself accessing 1% more of that quality (or, if you prefer, just observe it rather than embody it). What is different? How is your body, voice, etc? Do this a few times to strengthen it. Come back, keeping the quality and a positive action that you would do with it, but leaving the imagined you behind, saying "I am me".
+Pick a quality you understand and want more of, like warmth, being able to hold a boundary, steadiness, curiosity or dignity. Imagine yourself with just 1% more of it. (If you'd rather not step into it, you can watch an imagined you have it instead.) What's different? How do you sit, and how does your voice sound? Try it a few times; each time, it gets a little easier to find. Come back, keeping the quality and a positive action that you would do with it, but leaving the imagined you behind, saying "I am me".
 
 ## 9. No-trance inner contact
 

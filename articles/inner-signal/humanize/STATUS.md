@@ -1,5 +1,33 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-11-01, after Joel's message of 22:27 UTC: batch s1101's windows, round 2; his cards page; the recheck of eleven sections
+
+His message: carry on from both handoffs' next steps. **The mailbox first** (gate E313 below; `state/MAILBOX.json`): one new
+item in the lane of universal-dev-architecture, `2026-10-31-mailbox-every-turn.md` (an owner request), adopted
+(`AGENTS.md`'s section, `tools/humanization/lane_mailbox.py`, `lane_push.py --mailbox`, `tests/test_lane_mailbox.py`,
+`docs/suggested-fixes-ledger.md`); no new issues, comments or reviews; no queued messages.
+
+**Round 2 of the fixes** (`fix-20261101/sections/fixes_round2.py` writes FIXES-S1101.json; `apply_s1101_fixes.py` rebuilds
+the guide from a32e6afe with both rounds; APPLIED-S1101.json): every window left in CONFIDENCE.md in our words, in
+eighteen sections, said plainly from the published passage and read beside it (a lost published point put back in two:
+the recording that cuts out, the script decided in advance), linted (`read/record_s1101_read.py` says what the lint
+still names and why), read record `read/READ-RECORD.json` (53 paragraphs). Comparison gate: PASS. Whose words a window
+is was checked again against his inner child guide with a near-match too: several "ours" sentences are his inner child
+guide's lines, shortened when they came in, and two lines of round 1's fix in Working with your guards ("What's going
+on?", "If nothing comes, that's fine for now.") were his inner child guide's word for word. That fix is undone (his
+words back) and is his card G-23 (lesson E314). "Share", "8." and "9." are not prose.
+
+**His cards page**: [Hypnosis Guide Cards, 1 November (2)](https://claude.ai/artifact/V3ZgooEhJAr2ApQdsjF3Hu)
+(`fix-20261101/sections/review/`, REVIEW-S1101.md the cards as text; browser test 82 of 82): 21 cards, 14 on his own
+paragraphs and 7 on his inner child guide's lines; three I'd keep as they are. The audit (AI Generated) gets his
+Appendix C strategy (W-605), which may be what question 27 meant.
+
+**The recheck** (`fix-20261101/sections/recheck/`, `make_recheck.py`): the eleven sections whose windows are all fixed
+(none waits on a card), each by itself, try 2 of 2 (lineages HG1101-NN, batch r1101); predictions in the ledger before
+the run. Results: below when read.
+
+Delegations (model, piece, check, outcome): none; every read was the lead session's own.
+
 ## 2026-11-01, batch s1101: each section of the guide checked in Pangram by itself (E307)
 
 `fix-20261101/sections/`: make_sections.py (103 sections: a heading of level 1 or 2 and its paragraphs, short ones
