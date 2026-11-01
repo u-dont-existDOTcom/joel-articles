@@ -9,6 +9,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/intentional
 | Pangram 4.0 (before the ledger) | 1905 | 1397 (73%) | 44% | 56% | 66% | - |
 | pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 1 | 0 (0%) | 0% | 100% | 0% | 0.865 (base 0.000, 1) |
 | pangram API (model pangram-4), answered 4.1 | 5 | 3 (60%) | 20% | 80% | 80% | 0.233 (base 0.160, 5) |
+| Pangram 4.1 (web app) | 13 | 10 (77%) | 15% | 85% | 92% | 0.169 (base 0.130, 13) |
 
 ## Pangram 4.0 (before the ledger)
 
@@ -72,10 +73,32 @@ Calibration:
 | 0.6 to 0.8 | 1 | 0.75 | 100% |
 | 0.8 to 1.0 | 3 | 0.87 | 67% |
 
-## Misses since the ledger (3)
+## Pangram 4.1 (web app)
+
+| window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| the latest 50 | 13 | 10 (77%) | 15% | 85% | 92% | 0.169 (base 0.130, 13) |
+| the latest 100 | 13 | 10 (77%) | 15% | 85% | 92% | 0.169 (base 0.130, 13) |
+| all | 13 | 10 (77%) | 15% | 85% | 92% | 0.169 (base 0.130, 13) |
+
+The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| section | 13 | 10 (77%) | 15% | 85% | 92% | 0.169 (base 0.130, 13) |
+
+Calibration:
+
+| my chance of a 100% Human result | calls | mean chance | read Human |
+|---|---|---|---|
+| 0.4 to 0.6 | 5 | 0.56 | 80% |
+| 0.6 to 0.8 | 12 | 0.70 | 83% |
+
+## Misses since the ledger (6)
 
 | cause | misses |
 |---|---|
+| not explained yet | 3 |
 | pessimism | 1 |
 | the unchanged neighbour | 1 |
 | a window the test made | 1 |
@@ -87,10 +110,15 @@ The latest:
 | [IC-whole-r1](https://www.pangram.com/feed/954042b6-e624-4c7f-87d7-db15c547d5c8) | IC-whole, 1 | AI | Human | pessimism |
 | [IC-E1-p+prev](https://www.pangram.com/history/07e5a128-04f5-485f-96d8-2c69dcdc5ee3) | IC-E1-p+prev, 1 | Human | AI or mixed | the unchanged neighbour |
 | [IC-W2-p](https://www.pangram.com/history/710c78cf-92db-43bb-9a42-9053b5ca2d06) | IC-W2-p, 1 | AI | Human | a window the test made |
+| [ic1101-01](https://www.pangram.com/history/1cb32234-2b92-4553-ba33-9a91b28ef530) | IC1101-01, 1 | Human | AI or mixed | **not explained yet** |
+| [ic1101-03](https://www.pangram.com/history/3746268a-9329-4a84-9d84-6b8908afb809) | IC1101-03, 1 | Human | AI or mixed | **not explained yet** |
+| [ic1101-06](https://www.pangram.com/history/1548a133-acdb-4ce3-9187-04e6fa950d53) | IC1101-06, 1 | AI | Human | **not explained yet** |
 
 ## Lineages still open (tries used of the cap)
 
 | lineage | scope | tries | last read |
 |---|---|---|---|
 | IC-E1-p+prev | pair | 1 of 6 | Mixed |
+| IC1101-01 | section | 1 of 2 | Mixed |
+| IC1101-03 | section | 1 of 2 | Mixed |
 

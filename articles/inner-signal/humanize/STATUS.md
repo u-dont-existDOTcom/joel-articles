@@ -1,5 +1,27 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-11-01, batch s1101: each section of the guide checked in Pangram by itself (E307)
+
+`fix-20261101/sections/`: make_sections.py (103 sections: a heading of level 1 or 2 and its paragraphs, short ones
+joined to the next; SECTIONS.json, s1101-items.json), predict_sections.py (PREDICTIONS.md, from the windows of the check
+of 30 October 21:40 UTC; 103 predictions in the ledger, lineages HG1101-01 to HG1101-103, try 1 of 2 each), the run in
+his account in the app's browser (Pangram 4.1, the web app; about 330 credits of 2780), RAW-S1101.txt and RESULTS.json
+(read back from the page's history), read_s1101.py (RESULTS.md with every window's confidence and each result's link,
+CONFIDENCE.md and CONFIDENCE.json with whose words each window is). **83 of 103 read Human Written, 5 Mostly Human, 13 AI
+Detected, 2 AI Generated** (Stay awake when your mind likes to escape; Hypnosis-specific audit). 91 windows read AI or
+Human (Low), in 29 sections, to fix now (E306); 95 read Human (Medium), listed. Predictions: 84 of 103 right. The ledger
+read the compact results' windows as characters and called every result Mixed; `pangram_ledger.py` is fixed (with a
+test), and `results --correct` recorded the right verdicts after the wrong ones.
+
+**The first fixes** (`FIXES-S1101.json`, `apply_s1101_fixes.py`, APPLIED-S1101.json; the guide 75815766... at the end of
+this entry's work): ten windows in our words in Sometimes start with the whole, Let the child speak, The two-hand
+practice, Working with your guards and Don't rush the repair, each said plainly from the published passage it came
+from, read beside it and the paragraphs around it, linted (seven of my sentences reworded where the linter named a
+tell), read record `fix-20261101/sections/read/READ-RECORD.json`. Comparison gate: PASS. Not rechecked yet: a section is
+checked again (its second and last try) once every window in it is fixed or decided, his words through his cards page.
+
+Delegations (model, piece, check, outcome): none.
+
 ## 2026-11-01, the second full read and the contradiction read; Joel's answers of 20:29 UTC to their cards
 
 **The read** (`fix-20261101/fullread2/`: PARTS.json, PART-n.txt, READER-1..18.md, FIXES-1..18.json, CLAIMS-1..18.md,

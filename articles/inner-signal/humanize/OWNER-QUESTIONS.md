@@ -38,8 +38,12 @@ Nothing for the guide right now.
   given the links between their items, "one" and the other tells, commas). Eight contradictions in our words are fixed
   too, and the two-hand practice is taught once now, with your paragraph from the induction moved into it (S-636). In
   your own words only punctuation and a few slips changed, each listed at the end of the cards' text.
-- 🔵 **Next: each section checked in Pangram by itself** (E307), and every window that reads AI or Human (Low) fixed
-  straight away (E306); then the whole guide on the Substack drafts with your extension.
+- 🟢 **Each section checked in Pangram by itself** (E307): 83 of the 103 sections read Human Written, 5 Mostly Human,
+  13 AI Detected and 2 AI Generated ("Stay awake when your mind likes to escape" and "Hypnosis-specific audit"). [Every
+  section's result, with its link and every window's confidence](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/sections/RESULTS.md).
+- 🔵 **Next: the 91 windows that read AI or Human (Low)** get fixed (E306; [the list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/sections/CONFIDENCE.md)).
+  Ten in our words are done; the ones in your own words come to you as cards. Each section is checked again once all
+  its windows are handled, then the whole guide on the Substack drafts with your extension.
 
 ## Your message of 2026-11-01 18:57 UTC, and what I did
 

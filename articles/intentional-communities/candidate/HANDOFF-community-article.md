@@ -275,8 +275,11 @@ State at the end of the turn of Joel's message of 2026-10-16 23:38 UTC:
 ## Waiting on Joel
 Nothing in this lane (2026-11-01 20:26 UTC: he asked me to make the 19 changes in his post, and they are in).
 ## Next step
-1. A Pangram check of each section the 19 changes touched, by itself (E307); fix every window that reads AI or Human
-   (Low) (E306) as edits made in his post the same way, and list the small Human (Medium) ones (START HERE).
+1. Batch ic1101 is read (`fullread-20261030/review/joel-20261101-2026/sections/RESULTS.md`): six windows in his
+   live post read AI or Human (Low), in The New Age May Dawn Suddenly and Communes Are Hot Again (the seventh is an
+   image's alt text: leave image blocks out of a section's text next time). His words go to him as cards (C-4's clause
+   is ours, approved by him); what he approves goes into his post through its editor as on 2026-11-01, and each section
+   is checked again by itself (its second and last try, lineage IC1101-NN).
 2. After any new Emulate run on this article: the strict Emulate check again (`joel-20261025/emulate-check/run_audit.sh`;
    `docs/EMULATE-FALLBACK.md` section 4).
 3. Before every push: `python3 scripts/register_article_artifacts.py --article intentional-communities --write`, then the

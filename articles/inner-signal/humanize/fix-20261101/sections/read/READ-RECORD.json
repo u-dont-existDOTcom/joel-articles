@@ -1,0 +1,20 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "HUMANIZED-SO-FAR.md at 11228f7a: the 12 paragraphs the fixes of batch s1101 changed (FIXES-S1101.json), read by the lead session beside his published version and the paragraphs around them, then linted (tells_lint.py) and reworded where it named a tell (E294, E306)",
+ "coverage": [
+  "2e82f7d72c28df31",
+  "3658421b3c3be8ff",
+  "4130acdae43d1630",
+  "437fbbdda015fb87",
+  "57dac7e7c7511f7b",
+  "67efda2b29847072",
+  "869983f91dfce896",
+  "89d7b5074929d7e2",
+  "a2582255e229f62c",
+  "cf2a01592510df1e",
+  "df11aed4520aaa65",
+  "ef9a241e3f497fbc"
+ ],
+ "findings": [],
+ "dispositions": {}
+}

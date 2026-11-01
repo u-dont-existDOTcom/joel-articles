@@ -18,6 +18,8 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-11-01, batch s1101: every section checked by itself (E307): 83 of 103 Human, 20 not;** CONFIDENCE.md lists
+  the 91 windows to fix (E306), ten fixed so far (the Next step).
 - **2026-11-01 20:29 UTC: the second full read and the contradiction read are in, and his four cards are approved.**
   The lead model read the whole guide again beside his published version (`fix-20261101/fullread2/`: 216 findings, 205
   fixed in our words, his own words to his page or fixed as listed punctuation and slips), listed the guide's claims and
@@ -274,8 +276,14 @@ Done (STATUS.md's entry for the second full read has every file): the whole guid
 (`fix-20261101/fullread2/`), the contradiction read (CONTRADICTIONS.md), the two-hand merge, his four cards approved and
 in (`fix-20261101/fr2-answers/`), lessons E311 and E312. The guide so far: HUMANIZED-SO-FAR.md a32e6afe...
 
-Next:
-1. **Each section checked by itself in Pangram** (E307): a section is a heading and its paragraphs, down to the next
+Next (2026-11-01, after batch s1101; STATUS.md's entry for it has the numbers):
+0. **Batch s1101 is read** (`fix-20261101/sections/`): 91 windows that read AI or Human (Low), in 29 sections, are listed
+   in CONFIDENCE.md with whose words they are; ten are fixed (FIXES-S1101.json). Go on down CONFIDENCE.md: our words fixed
+   in FIXES-S1101.json (said plainly from the published passage, read beside it, linted), his words (his versions, his
+   published lines, his inner child guide's lines) on a new cards page; a one-word "Share" is a button's label, not
+   prose. Once every window of a section is fixed or decided, check that section again by itself (its second and last
+   try, lineage HG1101-NN); the AI Generated two (s1101-40, s1101-74) and the AI Detected ones first.
+1. (Done 2026-11-01, batch s1101.) **Each section checked by itself in Pangram** (E307): a section is a heading and its paragraphs, down to the next
    heading of the same or a higher level; a long section split at its subheadings. In his account in the app's browser
    (https://www.pangram.com/dashboard; about 1 credit per 100 words, about 310 for the whole guide; look at the credits
    left first) or on the laptop with his API key (`tools/humanization/pangram_api.py`). Record every window's

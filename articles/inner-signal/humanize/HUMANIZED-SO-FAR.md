@@ -174,9 +174,9 @@ Start like this: ‘I’m approaching this from the universal heart. I’m appro
 
 It can be that you can’t even access your Higher Self, or the universal heart, or whatever you call it. (By the way, if it doesn’t work for you, don’t use it! It’s no good adopting somebody else’s map.) In that case, start by just witnessing whatever is coming up. Notice the room, your body, the fact that you’re in a younger state etc. Being able to notice is enough adult presence for the first step.
 
-Once you have the ability to notice, and to differentiate, you don’t need to keep rehearsing it. Just work on whatever it is you need to work on (often being warm to yourself, protecting yourself and knowing what to do etc). So even though it can be useful to talk about your Higher Self, it doesn’t mean you already have all the good inner parenting functions etc that you need. You usually need to work on developing them. And I don’t think the Higher Self has any specific wisdom. It’s a vantage point, where more wisdom and compassion can come up, but problems can also look like they were never problems at all from up there, and that can ironically lead instead to more foolish indifference. So when I say to invoke your Higher Self, I mean stepping into that wider view while you keep your own judgment.
+Once you have the ability to notice, and to differentiate, you don’t need to keep rehearsing it. Just work on whatever it is you need to work on (often being warm to yourself, protecting yourself and knowing what to do etc). So even though it can be useful to talk about your Higher Self, it doesn’t mean you already have all the good inner parenting functions etc that you need. You usually need to work on developing them. And I don’t think the Higher Self has any specific wisdom. It’s a vantage point, where more wisdom and compassion can come up, but problems can also look like they were never problems at all from up there, and that can ironically lead instead to more foolish indifference. So invoking your Higher Self just means going up there for the view, and then coming back down to make your own decisions.
 
-Differentiate only as you need to. “Is this my inner child? Or is this a guard? Is this my body? Is this fear? Is this intuition? Is this my social part? Is this divine guidance, or is this my interpretation of divine guidance?”
+When something specific comes up, that’s the time to sort out what it is. “Is this my inner child? Or is this a guard? Is this my body? Is this fear? Is this intuition? Is this my social part? Is this divine guidance, or is this my interpretation of divine guidance?”
 
 # The inner child, the guards, and the inner adult’s three jobs
 
@@ -208,11 +208,11 @@ It can be helpful to use borrowing when you’re in the adult position and don�
 
 ## Let the child speak without handing over the steering wheel
 
-You can choose to let the parts of you that feel younger express themselves. That doesn’t mean handing your adult judgment over to someone else to take care of you, or actually going back in age. In this way, you can access all of the positive aspects of what it can be like to feel younger, such as feeling wonder, silliness, approaching things through the senses more, feeling it’s ok to be vulnerable, to want someone to take care of you, to feel need, and to want to offload some decision making, while your adult part stays present.
+Let the parts of you that feel younger have their say. You don’t hand your adult judgment over to someone who will take care of you, and you don’t try to become a little kid again for real. In this way, you can access all of the positive aspects of what it can be like to feel younger, such as feeling wonder, silliness, approaching things through the senses more, feeling it’s ok to be vulnerable, to want someone to take care of you, to feel need, and to want to offload some decision making, while your adult part stays present.
 
-"It is okay for a younger part of me to talk. But I understand that the adult in me is always going to be here, listening, evaluating, protecting me and stopping me if needed. I am not going to replace my adult judgment with any child state, guide, recording or person."
+"It is okay for a younger part of me to talk. But I understand that the adult in me is always going to be here, listening, evaluating, protecting me and stopping me if needed. No younger part of me, no guide, no recording and no other person gets to make my adult decisions for me."
 
-This way you get the benefits of being young: curiosity, spontaneity, play, sensation, the ability to state your needs, to feel easily etc., without any of the negatives of being a child, like obeying, being helpless, being scolded, the lack of good judgment etc.
+That way you get back what was good about being young. You can be curious, spontaneous and playful, things can feel vivid again, and you can say what you need and feel things quickly. You leave behind the part of being a kid where you had to obey, couldn’t do much for yourself, got scolded, and didn’t know better yet.
 
 ## Love doesn’t have to wait for trust
 
@@ -236,9 +236,9 @@ There is a simple and easy body technique to connect with your inner child. Just
 
 Imagine a divine Love from above, with the inner child below, in the solar plexus area. The inner adult is present. You can also use the hand on the solar plexus to massage that area.
 
-Begin to send love from your heart down to your inner child and just notice what comes up for you. If some comes back up, let it, and send it on down again, so it goes around like a loop. That part's a gift from them, and they don't owe it to you, so if nothing comes back, just keep sending yours. If you feel resistance, just meet it with love. If you feel or see something, just meet that with love as well. No warmth today? Then rest your hands there and notice what you find, no faking required. This is a conversation with your inner child from your heart.
+Begin to send love from your heart down to your inner child and just notice what comes up for you. If some comes back up, let it, and send it on down again, so it goes around like a loop. That part's a gift from them, and they don't owe it to you, so if nothing comes back, just keep sending yours. If you feel resistance, just meet it with love. If you feel or see something, just meet that with love as well. No warmth today? Then rest your hands there and notice what you find, no faking required. Let it go back and forth between your heart and your inner child, like a real conversation.
 
-Breathe gently the whole time. The practice also works as an induction: it’s one of the anchors you can choose in the Sober induction below.
+Keep breathing gently through the whole practice. It works as an induction too: the Sober induction below has it as one of the anchors you can pick.
 
 ## The Nurturer
 
@@ -276,13 +276,13 @@ Start with whatever adult function you can connect to, but most of us need enoug
 
 ## Working with your guards
 
-Feel free to use parts language here, too, if it’s helpful. Often, we see a sensation or a distraction or an objection as something that needs to be explored, when in fact it might just be hunger, or reasonable skepticism about something, or a sentence that doesn’t fit. It’s good to notice it, though, and then to see what might be going on.
+Use parts language here too, if it helps. Often, we see a sensation or a distraction or an objection as something that needs to be explored, when in fact it might just be hunger, or reasonable skepticism about something, or a sentence that doesn’t fit. Still, notice it, and then look at what might be going on.
 
 If you're not careful, you might find yourself expecting that when you go within to meet your inner child, you'll find your inner child.
 
-Instead, you might feel numb, cynical, angry, suddenly hungry, like you need to look at your phone, sexually aroused, like you need to make plans, sleepy, dissociated, or you might even think that what you're doing is stupid. Those are not failures. Often what you're experiencing is a very charming guard. It's what protects you when your consciously installed parental Protector isn't functioning, the same as when you were a child. But before you decide where it's coming from, ask it what it's trying to stop, or what it wants. It could also be your inner child, mad that you took so long to come back, or your inherited parent script, or something from earlier today, or a bit of each.
+Instead, you might feel numb, cynical, angry, suddenly hungry, like you need to look at your phone, sexually aroused, like you need to make plans, sleepy, dissociated, or you might even think that what you're doing is stupid. Those are not failures. Often what you're experiencing is a very charming guard. It's what protects you when your consciously installed parental Protector isn't functioning, the same as when you were a child. It might not be a guard at all, though. Maybe it's your inner child, angry that you took so long to come back. Maybe it's your inherited parent script, or something left over from earlier today, or some of each. So before you decide what it is, ask it what it's trying to stop, or what it wants.
 
-Say to the guard, in the same Nurturer voice you meant for your inner child: “I see you. I'm not going to force my way past you. What's going on?” Then wait and listen patiently. If nothing comes, that's fine for now. At some point you can ask, “What are you afraid would happen if you stopped protecting me by…?”
+Talk to the guard the way your Nurturer talks to your inner child: “I see you. I'm not going to force my way past you. What's up?” Then wait and listen patiently. If you get nothing back, leave it there for today. Later on, ask it, “What are you afraid would happen if you stopped protecting me by…?”
 
 If necessary, take time and listen. (Perhaps they are afraid that you will lie to yourself again or pretend again or that it will be too painful or you will spiritually bypass again or you will forgive someone who shouldn’t be forgiven yet or you will see what you want to see or that you will leave them hanging after the session or…)
 
@@ -318,9 +318,9 @@ I see a lot of connection between [reparenting therapy](http://innerchild.u-dont
 
 ## Don’t rush the repair
 
-When your inner child does show up, don’t start a healing project right away. Just be with them.
+When your inner child does show up, put the healing work aside for now and just be with them for a while.
 
-If you can, tell them something like, “I’m here. You don’t have to explain yourself, or be healed today, or impress me. I just want to know what would help you feel less alone.”
+If you can, tell them something like, “Little one, I’m here. You don’t have to explain anything, and you don’t have to get better today or impress me. I just want to know what would make you feel less alone.”
 
 What does your inner child need? It can be anything: warmth, to play, to be protected, to mourn, to be angry, food, rest, boundaries, better relationships, to stop fantasizing, to stop working their butt off, that you keep a promise to them today, etc. etc.
 

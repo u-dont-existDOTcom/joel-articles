@@ -504,8 +504,14 @@ def cmd_results(a):
     for key, r in res.items():
         if isinstance(r, list):  # compact form [headline, ai, words, windows, utc, link tail, flagged]
             r = {'headline': r[0], 'likelihood': r[1], 'words': r[2], 'windows': r[3], 'utc': r[4], 'link': r[5]}
-        p = find(recs, key=key, open_only=True)
+        if isinstance(r.get('windows'), str):
+            # the compact form's windows are one string, "label, confidence, words; ..." (2026-11-01: read as a string,
+            # its characters were taken for windows, and every result came out Mixed)
+            r['windows'] = [w for w in r['windows'].split('; ') if w]
+        p = find(recs, key=key, open_only=not a.correct)
         if not p:
+            continue
+        if a.correct and p.get('result') is None:
             continue
         verdict = verdict_of(r.get('headline'), r.get('windows'), r.get('fraction_ai'))
         link = r.get('link') or ''
@@ -515,6 +521,8 @@ def cmd_results(a):
                                             'likelihood': r.get('avg_ai_likelihood', r.get('likelihood')),
                                             'words_read': r.get('words'), 'windows': r.get('windows'),
                                             'detector': a.detector or p.get('detector'), 'at': r.get('utc')})
+        if a.correct:
+            rec['note'] = 'corrects the result line before it for this prediction: ' + a.correct
         append(a.ledger, rec)
         recs.append(rec)
         n += 1
@@ -644,6 +652,8 @@ def main(argv=None):
     p.add_argument('ledger')
     p.add_argument('results')
     p.add_argument('--detector')
+    p.add_argument('--correct', help='record these results again for predictions that already have one, with this reason '
+                                     '(a later result line replaces the earlier one)')
     p.set_defaults(fn=cmd_results)
     for name, fn in (('explain', cmd_explain), ('void', cmd_void)):
         p = sub.add_parser(name)

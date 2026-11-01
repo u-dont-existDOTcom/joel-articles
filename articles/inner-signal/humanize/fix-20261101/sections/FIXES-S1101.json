@@ -1,0 +1,162 @@
+{
+ "about": "apply_s1101_fixes.py reads this. The windows of batch s1101 (RESULTS.md, CONFIDENCE.md) fixed so far, in our words; the rest of CONFIDENCE.md's list is the next step (HANDOFF). The read of the fixes beside the published text and the linter (tells_lint.py) reworded seven of my sentences (coach phrases, an \"actually\", an \"it\" with no name, a \"tempting ... but\" setup, a short landing); the two lists in \"That way you get back what was good about being young\" stay, since the published version names every item.",
+ "guide_sha256": "a32e6afe295f3c185307eb622264212a978878dc52be19ebfa83dac91cc0691b",
+ "windows": [
+  {
+   "id": "s1101-14 w2",
+   "section": "s1101-14",
+   "whose": "ours (my K2 sentence of 1 November)",
+   "published": "If Higher Self, the universal heart ... Higher Self language can help you gather around a meaningful source of care; it doesn’t establish that a perfectly capable inner parent is already available.",
+   "fix": [
+    [
+     "So when I say to invoke your Higher Self, I mean stepping into that wider view while you keep your own judgment.",
+     "So invoking your Higher Self just means going up there for the view, and then coming back down to make your own decisions."
+    ]
+   ],
+   "why": "AI (Low): a \"when I say X, I mean Y\" definition. Said plainly, tied to the \"from up there\" of the sentence before it.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-14 w3",
+   "section": "s1101-14",
+   "whose": "ours",
+   "published": "Differentiate only when something specific appears:",
+   "fix": [
+    [
+     "Differentiate only as you need to. “Is this my inner child?",
+     "When something specific comes up, that’s the time to sort out what it is. “Is this my inner child?"
+    ]
+   ],
+   "why": "Human (Low), and vague: \"as you need to\" doesn't say when. The published version says when: when something specific appears.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-17 w1",
+   "section": "s1101-17",
+   "whose": "ours (the heading is his, as published, and stays)",
+   "published": "Letting a younger feeling-state speak doesn’t mean handing adult judgment to an outside caretaker or trying to become literally younger.",
+   "fix": [
+    [
+     "You can choose to let the parts of you that feel younger express themselves. That doesn’t mean handing your adult judgment over to someone else to take care of you, or actually going back in age.",
+     "Let the parts of you that feel younger have their say. You don’t hand your adult judgment over to someone who will take care of you, and you don’t try to become a little kid again for real."
+    ]
+   ],
+   "why": "Human (Low); \"actually going back in age\" is vague. Said as the published version means it: not trying to become literally younger.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-17 w3",
+   "section": "s1101-17",
+   "whose": "ours",
+   "published": "No child-state, guide, recording, or outside person replaces adult judgment.",
+   "fix": [
+    [
+     "I am not going to replace my adult judgment with any child state, guide, recording or person.",
+     "No younger part of me, no guide, no recording and no other person gets to make my adult decisions for me."
+    ]
+   ],
+   "why": "Human (Low): \"replace my adult judgment with any child state\" is abstract; said as what it means in practice.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-17 w4",
+   "section": "s1101-17",
+   "whose": "ours",
+   "published": "That distinction lets you recover curiosity, spontaneity, play, sensory freshness, honest need, and quick emotional movement without pairing those gifts with obedience, helplessness, scolding, or weakened judgment.",
+   "fix": [
+    [
+     "This way you get the benefits of being young: curiosity, spontaneity, play, sensation, the ability to state your needs, to feel easily etc., without any of the negatives of being a child, like obeying, being helpless, being scolded, the lack of good judgment etc.",
+     "That way you get back what was good about being young. You can be curious, spontaneous and playful, things can feel vivid again, and you can say what you need and feel things quickly. You leave behind the part of being a kid where you had to obey, couldn’t do much for yourself, got scolded, and didn’t know better yet."
+    ]
+   ],
+   "why": "AI (High): two lists set against each other. The same ten things, said as what you get back and what you leave behind.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-20 w7-8",
+   "section": "s1101-20",
+   "whose": "ours (the merge line of 1 November, and the sentence before it)",
+   "published": "Let it become a conversation rather than a performance.",
+   "fix": [
+    [
+     "This is a conversation with your inner child from your heart.",
+     "Let it go back and forth between your heart and your inner child, like a real conversation."
+    ],
+    [
+     "Breathe gently the whole time. The practice also works as an induction: it’s one of the anchors you can choose in the Sober induction below.",
+     "Keep breathing gently through the whole practice. It works as an induction too: the Sober induction below has it as one of the anchors you can pick."
+    ]
+   ],
+   "why": "Human (Low) and AI (Low). The first sentence is vague (\"a conversation ... from your heart\"); the published version says what it is for: a conversation, not a performance.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-23 w1,w3",
+   "section": "s1101-23",
+   "whose": "ours",
+   "published": "People assume inner-child work begins with the child. Very often, you meet the guard at the door first.",
+   "fix": [
+    [
+     "Feel free to use parts language here, too, if it’s helpful.",
+     "Use parts language here too, if it helps."
+    ],
+    [
+     "It’s good to notice it, though, and then to see what might be going on.",
+     "Still, notice it, and then look at what might be going on."
+    ]
+   ],
+   "why": "Human (Low), twice: the paragraph's first and last sentences, said more plainly.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-23 w7-8",
+   "section": "s1101-23",
+   "whose": "ours (his inner child guide's \"I see you. I'm not going to force my way past you.\" stays)",
+   "published": "They’re often the protector making an appearance in its usual charming way. ... One important voice is the inherited parent ...",
+   "fix": [
+    [
+     "But before you decide where it's coming from, ask it what it's trying to stop, or what it wants. It could also be your inner child, mad that you took so long to come back, or your inherited parent script, or something from earlier today, or a bit of each.",
+     "It might not be a guard at all, though. Maybe it's your inner child, angry that you took so long to come back. Maybe it's your inherited parent script, or something left over from earlier today, or some of each. So before you decide what it is, ask it what it's trying to stop, or what it wants."
+    ]
+   ],
+   "why": "AI (Medium) and AI (High): the instruction came before what it was about, and the possibilities ran on as one list.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-23 w8-11",
+   "section": "s1101-23",
+   "whose": "ours around his inner child guide's words (\"I see you.\", \"I'm not going to force my way past you.\", \"Then wait and listen patiently.\", which stay)",
+   "published": "“I notice you. You are trying to protect something. I want to understand. What are you afraid would happen if you stopped?” Then wait.",
+   "fix": [
+    [
+     "Say to the guard, in the same Nurturer voice you meant for your inner child: “I see you.",
+     "Talk to the guard the way your Nurturer talks to your inner child: “I see you."
+    ],
+    [
+     "What's going on?” Then wait and listen patiently. If nothing comes, that's fine for now. At some point you can ask,",
+     "What's up?” Then wait and listen patiently. If you get nothing back, leave it there for today. Later on, ask it,"
+    ]
+   ],
+   "why": "AI (High, Medium, Low, Low) around his own lines; our words said more plainly.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-27 w1-2",
+   "section": "s1101-27",
+   "whose": "ours (the heading is his, as published, and stays)",
+   "published": "When the child does appear, resist the urge to begin a healing project immediately. Be with them first. “Little one, I am here. You do not have to explain everything. You do not have to be healed today. You do not have to become impressive. I only want to know what would help you feel less alone.”",
+   "fix": [
+    [
+     "When your inner child does show up, don’t start a healing project right away. Just be with them.",
+     "When your inner child does show up, put the healing work aside for now and just be with them for a while."
+    ],
+    [
+     "If you can, tell them something like, “I’m here. You don’t have to explain yourself, or be healed today, or impress me. I just want to know what would help you feel less alone.”",
+     "If you can, tell them something like, “Little one, I’m here. You don’t have to explain anything, and you don’t have to get better today or impress me. I just want to know what would make you feel less alone.”"
+    ]
+   ],
+   "why": "AI (High) and AI (Low): the heading, the instruction and the script read as one AI window; said the way you'd say it, with the published \"Little one\".",
+   "fate": "fixed"
+  }
+ ]
+}

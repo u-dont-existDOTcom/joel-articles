@@ -1,0 +1,4196 @@
+{
+ "s1101-01": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 141,
+  "utc": "2026-11-01T20:45:44Z",
+  "link": "https://www.pangram.com/history/5c5ea3f7-a1a5-42da-8157-5113694672d0",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 140,
+    "start": 0,
+    "end": 807,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 1,
+    "start": 807,
+    "end": 813,
+    "text": "Share"
+   }
+  ]
+ },
+ "s1101-02": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 528,
+  "utc": "2026-11-01T20:45:54Z",
+  "link": "https://www.pangram.com/history/18a4ec38-3221-4db5-8c4d-7141d34e76cf",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 312,
+    "start": 0,
+    "end": 1709,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 3,
+    "start": 1709,
+    "end": 1731,
+    "text": "Just listen silently."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 213,
+    "start": 1731,
+    "end": 2888,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-03": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 198,
+  "utc": "2026-11-01T20:46:04Z",
+  "link": "https://www.pangram.com/history/6731325b-ef7e-40c9-87f9-0da519bc4b5d",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 76,
+    "start": 0,
+    "end": 436,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 5,
+    "start": 436,
+    "end": 462,
+    "text": "Then put the screen away."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 18,
+    "start": 462,
+    "end": 567,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 19,
+    "start": 567,
+    "end": 694,
+    "text": "You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - and let it shape your next invite."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 80,
+    "start": 694,
+    "end": 1192,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-04": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 171,
+  "utc": "2026-11-01T20:46:14Z",
+  "link": "https://www.pangram.com/history/e996e330-ac2b-459c-85ba-c0e445dca263",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 171,
+    "start": 0,
+    "end": 909,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-05": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 140,
+  "utc": "2026-11-01T20:46:25Z",
+  "link": "https://www.pangram.com/history/64c078e9-ed65-4c48-b516-1e85cfdc95f8",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 140,
+    "start": 0,
+    "end": 773,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-06": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 214,
+  "utc": "2026-11-01T20:46:35Z",
+  "link": "https://www.pangram.com/history/57c2521c-24f5-4243-8c11-0a4dc672691c",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 214,
+    "start": 0,
+    "end": 1341,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-07": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 151,
+  "utc": "2026-11-01T20:46:47Z",
+  "link": "https://www.pangram.com/history/ed98971e-7b64-4134-b728-cf616ac26ca6",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 38,
+    "start": 0,
+    "end": 212,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 1,
+    "start": 212,
+    "end": 215,
+    "text": "V."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 6,
+    "start": 215,
+    "end": 244,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 1,
+    "start": 244,
+    "end": 247,
+    "text": "V."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 105,
+    "start": 247,
+    "end": 811,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-08": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 278,
+  "utc": "2026-11-01T20:46:56Z",
+  "link": "https://www.pangram.com/history/4c754162-e4a2-4cb7-a044-866a4ae16dd3",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 278,
+    "start": 0,
+    "end": 1455,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-09": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 199,
+  "utc": "2026-11-01T20:47:07Z",
+  "link": "https://www.pangram.com/history/b77aa5d3-e84f-41f4-b524-5da2d882d6f4",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 199,
+    "start": 0,
+    "end": 1087,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-10": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 133,
+  "utc": "2026-11-01T20:47:18Z",
+  "link": "https://www.pangram.com/history/00473f62-0f17-46fd-b23e-3b287b517a67",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 57,
+    "start": 0,
+    "end": 367,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 1,
+    "start": 367,
+    "end": 372,
+    "text": "Yes."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 75,
+    "start": 372,
+    "end": 805,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-11": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 400,
+  "utc": "2026-11-01T20:47:29Z",
+  "link": "https://www.pangram.com/history/aeb77f50-21f8-467b-b7a9-fca416f871dc",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 214,
+    "start": 0,
+    "end": 1308,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 4,
+    "start": 1308,
+    "end": 1329,
+    "text": "Nobody needs to win!"
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 82,
+    "start": 1329,
+    "end": 1750,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 9,
+    "start": 1750,
+    "end": 1792,
+    "text": "You can be at peace and still be precise."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 25,
+    "start": 1792,
+    "end": 1923,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 22,
+    "start": 1923,
+    "end": 2071,
+    "text": "Without testing, intuitive signals can become delusions. Without intuitive signals, the testing can be dead. So these modes can correct each other."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 44,
+    "start": 2071,
+    "end": 2305,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-12": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 602,
+  "utc": "2026-11-01T20:47:40Z",
+  "link": "https://www.pangram.com/history/d2defe2a-ae66-48c8-a78d-6a516f06c3ab",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 602,
+    "start": 0,
+    "end": 3312,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-13": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 329,
+  "utc": "2026-11-01T20:47:53Z",
+  "link": "https://www.pangram.com/history/cd0ca962-7e4b-4430-bb8b-a51ec03ace39",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 329,
+    "start": 0,
+    "end": 1822,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-14": {
+  "headline": "Mostly Human Written",
+  "likelihood": 0.054,
+  "words": 405,
+  "utc": "2026-11-01T20:48:03Z",
+  "link": "https://www.pangram.com/history/aca0f3a9-bb0e-4e10-9995-cc3dda0b9433",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 340,
+    "start": 0,
+    "end": 1762,
+    "text": ""
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 22,
+    "start": 1762,
+    "end": 1875,
+    "text": "So when I say to invoke your Higher Self, I mean stepping into that wider view while you keep your own judgment."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 6,
+    "start": 1875,
+    "end": 1910,
+    "text": "Differentiate only as you need to."
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 5,
+    "start": 1910,
+    "end": 1935,
+    "text": "“Is this my inner child?"
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 32,
+    "start": 1935,
+    "end": 2104,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-15": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 186,
+  "utc": "2026-11-01T20:48:17Z",
+  "link": "https://www.pangram.com/history/f9bab306-b8a6-44a1-a71e-19846a84ddea",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 112,
+    "start": 0,
+    "end": 580,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 16,
+    "start": 580,
+    "end": 660,
+    "text": "That’s one grown-up doing three jobs, and each job keeps the others in balance."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 46,
+    "start": 660,
+    "end": 923,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 12,
+    "start": 923,
+    "end": 991,
+    "text": "Those belong in your relationship with it too, not just the wounds."
+   }
+  ]
+ },
+ "s1101-16": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 479,
+  "utc": "2026-11-01T20:48:27Z",
+  "link": "https://www.pangram.com/history/4d4addbb-966a-4870-adde-194738b0ba2a",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 479,
+    "start": 0,
+    "end": 2569,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-17": {
+  "headline": "AI Detected",
+  "likelihood": 0.234,
+  "words": 205,
+  "utc": "2026-11-01T20:48:43Z",
+  "link": "https://www.pangram.com/history/6115945d-3d98-4531-987d-12f7cccd7a3e",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 47,
+    "start": 0,
+    "end": 255,
+    "text": "Let the child speak without handing over the steering wheel\nYou can choose to let the parts of you that feel younger express themselves. That doesn’t mean handing your adult judgment over to someone else to take care of you, or actually going back in age."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 97,
+    "start": 255,
+    "end": 773,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 17,
+    "start": 773,
+    "end": 868,
+    "text": "I am not going to replace my adult judgment with any child state, guide, recording or person.\""
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 44,
+    "start": 868,
+    "end": 1132,
+    "text": "This way you get the benefits of being young: curiosity, spontaneity, play, sensation, the ability to state your needs, to feel easily etc., without any of the negatives of being a child, like obeying, being helpless, being scolded, the lack of good judgment etc."
+   }
+  ]
+ },
+ "s1101-18": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 339,
+  "utc": "2026-11-01T20:48:53Z",
+  "link": "https://www.pangram.com/history/d8abdd41-44c6-404c-91b8-53650e0088ed",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 227,
+    "start": 0,
+    "end": 1183,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 5,
+    "start": 1183,
+    "end": 1209,
+    "text": "Owning what was not okay."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 95,
+    "start": 1209,
+    "end": 1689,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 12,
+    "start": 1689,
+    "end": 1749,
+    "text": "That takes warmth, and if there isn't any yet, borrow some."
+   }
+  ]
+ },
+ "s1101-19": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 263,
+  "utc": "2026-11-01T20:49:04Z",
+  "link": "https://www.pangram.com/history/55280ff5-7f85-41e9-9e72-a6adb5e3daac",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 209,
+    "start": 0,
+    "end": 1078,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 3,
+    "start": 1078,
+    "end": 1096,
+    "text": "What was missing?"
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 51,
+    "start": 1096,
+    "end": 1370,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-20": {
+  "headline": "AI Detected",
+  "likelihood": 0.172,
+  "words": 233,
+  "utc": "2026-11-01T20:49:14Z",
+  "link": "https://www.pangram.com/history/4c8cd710-de83-499d-9b29-7e985adc1729",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 75,
+    "start": 0,
+    "end": 409,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 5,
+    "start": 409,
+    "end": 437,
+    "text": "The inner adult is present."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 87,
+    "start": 437,
+    "end": 852,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 13,
+    "start": 852,
+    "end": 916,
+    "text": "If you feel or see something, just meet that with love as well."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 3,
+    "start": 916,
+    "end": 933,
+    "text": "No warmth today?"
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 13,
+    "start": 933,
+    "end": 1006,
+    "text": "Then rest your hands there and notice what you find, no faking required."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 16,
+    "start": 1006,
+    "end": 1099,
+    "text": "This is a conversation with your inner child from your heart.\nBreathe gently the whole time."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 21,
+    "start": 1099,
+    "end": 1209,
+    "text": "The practice also works as an induction: it’s one of the anchors you can choose in the Sober induction below."
+   }
+  ]
+ },
+ "s1101-21": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 429,
+  "utc": "2026-11-01T20:49:25Z",
+  "link": "https://www.pangram.com/history/7fab8bdd-c5c0-4fb8-a06d-4521e3ec899e",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 366,
+    "start": 0,
+    "end": 1805,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 4,
+    "start": 1805,
+    "end": 1828,
+    "text": "Are you scared? Tired?"
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 59,
+    "start": 1828,
+    "end": 2102,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-22": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 330,
+  "utc": "2026-11-01T20:49:36Z",
+  "link": "https://www.pangram.com/history/6fca98ae-666f-48ea-9cdd-53987caa4a32",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 184,
+    "start": 0,
+    "end": 1001,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 1,
+    "start": 1001,
+    "end": 1006,
+    "text": "etc."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 57,
+    "start": 1006,
+    "end": 1295,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 1,
+    "start": 1295,
+    "end": 1300,
+    "text": "etc."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 87,
+    "start": 1300,
+    "end": 1794,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-23": {
+  "headline": "AI Detected",
+  "likelihood": 0.233,
+  "words": 481,
+  "utc": "2026-11-01T20:49:47Z",
+  "link": "https://www.pangram.com/history/9d463437-7a1d-416f-b124-c0640ec34737",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 16,
+    "start": 0,
+    "end": 84,
+    "text": "Working with your guards\nFeel free to use parts language here, too, if it’s helpful."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 38,
+    "start": 84,
+    "end": 295,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 16,
+    "start": 295,
+    "end": 367,
+    "text": "It’s good to notice it, though, and then to see what might be going on."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 65,
+    "start": 367,
+    "end": 730,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 4,
+    "start": 730,
+    "end": 754,
+    "text": "Those are not failures."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 32,
+    "start": 754,
+    "end": 939,
+    "text": ""
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 21,
+    "start": 939,
+    "end": 1036,
+    "text": "But before you decide where it's coming from, ask it what it's trying to stop, or what it wants."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 59,
+    "start": 1036,
+    "end": 1324,
+    "text": "It could also be your inner child, mad that you took so long to come back, or your inherited parent script, or something from earlier today, or a bit of each.\nSay to the guard, in the same Nurturer voice you meant for your inner child: “I see you. I'm not going to force my way past you."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 9,
+    "start": 1324,
+    "end": 1374,
+    "text": "What's going on?” Then wait and listen patiently."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 8,
+    "start": 1374,
+    "end": 1413,
+    "text": "If nothing comes, that's fine for now."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 24,
+    "start": 1413,
+    "end": 1545,
+    "text": "At some point you can ask, “What are you afraid would happen if you stopped protecting me by…?”\nIf necessary, take time and listen."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 189,
+    "start": 1545,
+    "end": 2500,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-24": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 138,
+  "utc": "2026-11-01T20:49:58Z",
+  "link": "https://www.pangram.com/history/5866d6e2-20d9-4d40-ac4a-bac0525584aa",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 92,
+    "start": 0,
+    "end": 508,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 46,
+    "start": 508,
+    "end": 736,
+    "text": "You might be hearing, \"Don't be needy! Don't embarrass us! And don't be independent.\" So when you begin talking to your inner child in a new, loving way, that dusty old script may huff and puff that what you’re doing is “fake”."
+   }
+  ]
+ },
+ "s1101-25": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 172,
+  "utc": "2026-11-01T20:50:10Z",
+  "link": "https://www.pangram.com/history/86ef9bb6-104b-4b0e-a347-87e6fc4f5b88",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 14,
+    "start": 0,
+    "end": 81,
+    "text": "Protection that knows when to stop scanning\nDo you want to embody your Protector?"
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 158,
+    "start": 81,
+    "end": 951,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-26": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 127,
+  "utc": "2026-11-01T20:50:19Z",
+  "link": "https://www.pangram.com/history/ed9e507d-e678-48fa-96bf-2acec8f853f0",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 127,
+    "start": 0,
+    "end": 642,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-27": {
+  "headline": "AI Detected",
+  "likelihood": 0.151,
+  "words": 422,
+  "utc": "2026-11-01T20:50:30Z",
+  "link": "https://www.pangram.com/history/7f466fb6-6d6c-49d3-bb3f-b2fac63a0415",
+  "windows": [
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 48,
+    "start": 0,
+    "end": 238,
+    "text": "Don’t rush the repair\nWhen your inner child does show up, don’t start a healing project right away. Just be with them.\nIf you can, tell them something like, “I’m here. You don’t have to explain yourself, or be healed today, or impress me."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 18,
+    "start": 238,
+    "end": 329,
+    "text": "I just want to know what would help you feel less alone.”\nWhat does your inner child need?"
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 38,
+    "start": 329,
+    "end": 549,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 1,
+    "start": 549,
+    "end": 554,
+    "text": "etc."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 37,
+    "start": 554,
+    "end": 743,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 12,
+    "start": 743,
+    "end": 800,
+    "text": "Check how much grown-up you is really in the room first."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 37,
+    "start": 800,
+    "end": 1014,
+    "text": "Can you pause before you act? Are you following through after making decisions? If you can’t do those things because you’re basically the frightened kid still, then let’s leave the deeper conversation until later."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 17,
+    "start": 1014,
+    "end": 1093,
+    "text": "Do whatever helps you come back a bit before you try to talk to little you.\nB."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 12,
+    "start": 1093,
+    "end": 1153,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 1,
+    "start": 1153,
+    "end": 1156,
+    "text": "C."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 37,
+    "start": 1156,
+    "end": 1356,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 1,
+    "start": 1356,
+    "end": 1359,
+    "text": "D."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 26,
+    "start": 1359,
+    "end": 1478,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 1,
+    "start": 1478,
+    "end": 1481,
+    "text": "E."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 21,
+    "start": 1481,
+    "end": 1581,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 1,
+    "start": 1581,
+    "end": 1584,
+    "text": "F."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 24,
+    "start": 1584,
+    "end": 1719,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 1,
+    "start": 1719,
+    "end": 1722,
+    "text": "G."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 89,
+    "start": 1722,
+    "end": 2185,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-28": {
+  "headline": "Mostly Human Written",
+  "likelihood": 0.007,
+  "words": 186,
+  "utc": "2026-11-01T20:50:43Z",
+  "link": "https://www.pangram.com/history/344ce037-6e85-4b74-8acc-9014caaf24a4",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 115,
+    "start": 0,
+    "end": 625,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 9,
+    "start": 625,
+    "end": 675,
+    "text": "Resting doesn’t mean you have to become helpless."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 50,
+    "start": 675,
+    "end": 897,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 12,
+    "start": 897,
+    "end": 958,
+    "text": "You can still move, stop and come back whenever you need to."
+   }
+  ]
+ },
+ "s1101-29": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 176,
+  "utc": "2026-11-01T20:50:56Z",
+  "link": "https://www.pangram.com/history/7f774eea-1f08-4bc9-b21f-230e31ec3e18",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 176,
+    "start": 0,
+    "end": 833,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-30": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 694,
+  "utc": "2026-11-01T20:51:07Z",
+  "link": "https://www.pangram.com/history/e29e3c49-7e26-4d50-8ed9-3540ed5edd26",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 331,
+    "start": 0,
+    "end": 1703,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 3,
+    "start": 1703,
+    "end": 1719,
+    "text": "Taking a break."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 360,
+    "start": 1719,
+    "end": 3639,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-31": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 236,
+  "utc": "2026-11-01T20:51:16Z",
+  "link": "https://www.pangram.com/history/caa647fb-d5c9-4456-8b93-ae523e133083",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 236,
+    "start": 0,
+    "end": 1276,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-32": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 240,
+  "utc": "2026-11-01T20:51:27Z",
+  "link": "https://www.pangram.com/history/782b661b-a9c4-44ef-8bc8-c68877e0ed7f",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 240,
+    "start": 0,
+    "end": 1409,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-33": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 245,
+  "utc": "2026-11-01T20:51:37Z",
+  "link": "https://www.pangram.com/history/229f0f48-6fa2-4e22-b950-672f18073019",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 172,
+    "start": 0,
+    "end": 942,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 5,
+    "start": 942,
+    "end": 968,
+    "text": "Who benefits if I comply?"
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 11,
+    "start": 968,
+    "end": 1029,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 5,
+    "start": 1029,
+    "end": 1056,
+    "text": "What are they leaving out?"
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 28,
+    "start": 1056,
+    "end": 1189,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 24,
+    "start": 1189,
+    "end": 1329,
+    "text": "Anyone worth following leaves your adult self more present. The more powerful the state you’re in, the stronger the boundaries you’ll need."
+   }
+  ]
+ },
+ "s1101-34": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 454,
+  "utc": "2026-11-01T20:51:48Z",
+  "link": "https://www.pangram.com/history/75aaa814-29a0-4710-9642-3c45ff786734",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 454,
+    "start": 0,
+    "end": 2513,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-35": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 243,
+  "utc": "2026-11-01T20:51:58Z",
+  "link": "https://www.pangram.com/history/05156579-5b17-42cf-aaf1-c6fe13d12a11",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 243,
+    "start": 0,
+    "end": 1363,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-36": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 464,
+  "utc": "2026-11-01T20:52:09Z",
+  "link": "https://www.pangram.com/history/c1a63da5-511e-46f5-879a-9dda4d958002",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 132,
+    "start": 0,
+    "end": 721,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 3,
+    "start": 721,
+    "end": 738,
+    "text": "for the session."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 329,
+    "start": 738,
+    "end": 2468,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-37": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 555,
+  "utc": "2026-11-01T20:52:21Z",
+  "link": "https://www.pangram.com/history/00960ecb-3db9-4988-ad9b-cbe6e650b7c8",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 164,
+    "start": 0,
+    "end": 915,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 4,
+    "start": 915,
+    "end": 949,
+    "text": "Stabilize before dipping deeper.\""
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 38,
+    "start": 949,
+    "end": 1126,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 8,
+    "start": 1126,
+    "end": 1167,
+    "text": "Make it spacious? Make it warm and held?"
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 9,
+    "start": 1167,
+    "end": 1211,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 2,
+    "start": 1211,
+    "end": 1227,
+    "text": "Something else?"
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 144,
+    "start": 1227,
+    "end": 1902,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 9,
+    "start": 1902,
+    "end": 1944,
+    "text": "Don't bring in the hard stuff till later."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 45,
+    "start": 1944,
+    "end": 2158,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 6,
+    "start": 2158,
+    "end": 2179,
+    "text": "A no will stay a no."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 110,
+    "start": 2179,
+    "end": 2772,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 16,
+    "start": 2772,
+    "end": 2855,
+    "text": "Either way, keep the instructions about how to stay safe and how to get out plain."
+   }
+  ]
+ },
+ "s1101-38": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 446,
+  "utc": "2026-11-01T20:52:30Z",
+  "link": "https://www.pangram.com/history/0009f224-bec6-450c-a1d6-c3697413778a",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 325,
+    "start": 0,
+    "end": 1736,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 1,
+    "start": 1736,
+    "end": 1738,
+    "text": "4."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 11,
+    "start": 1738,
+    "end": 1793,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 6,
+    "start": 1793,
+    "end": 1820,
+    "text": "3. Leave a little space. 2."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 15,
+    "start": 1820,
+    "end": 1899,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 4,
+    "start": 1899,
+    "end": 1917,
+    "text": "1. Take your time."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 84,
+    "start": 1917,
+    "end": 2350,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-39": {
+  "headline": "Mostly Human Written",
+  "likelihood": 0.045,
+  "words": 190,
+  "utc": "2026-11-01T20:52:41Z",
+  "link": "https://www.pangram.com/history/042df72f-0050-41d9-ac60-57242532e41e",
+  "windows": [
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 6,
+    "start": 0,
+    "end": 49,
+    "text": "Already Trancey? Stabilize before dipping deeper."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 38,
+    "start": 49,
+    "end": 296,
+    "text": "This is for when you're already open for some reason (loveyhuasca, meditation, lucid dreaming, going through grief, listening to beautiful music, prayer, erotic energy, exhaustion, seeing something you love, etc) and want to aim and stabilize it."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 18,
+    "start": 296,
+    "end": 384,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 31,
+    "start": 384,
+    "end": 547,
+    "text": "Orient yourself by looking around. Where are you? What's the date or day? How does your body feel? Where are you grounded? Can you feel your feet/hands/spine/etc?"
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 25,
+    "start": 547,
+    "end": 689,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 3,
+    "start": 689,
+    "end": 704,
+    "text": "Focus on that."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 9,
+    "start": 704,
+    "end": 760,
+    "text": "Say something like, \"Only what I can integrate, please."
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 32,
+    "start": 760,
+    "end": 913,
+    "text": "Patience pays, so if there's too much, let it simmer. May my body stay safe, and may my little one know there's an adult here to carry the heavy stuff.\""
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 28,
+    "start": 913,
+    "end": 1079,
+    "text": "When you feel oriented, set an intention.\nSomething like, \"Please show me the next truth/symbol/feeling/question/action that is useful for me, that I can integrate.\""
+   }
+  ]
+ },
+ "s1101-40": {
+  "headline": "AI Generated",
+  "likelihood": 1.0,
+  "words": 332,
+  "utc": "2026-11-01T20:52:51Z",
+  "link": "https://www.pangram.com/history/c601f371-9603-4327-8b11-45a1f9c0293a",
+  "windows": [
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 36,
+    "start": 0,
+    "end": 187,
+    "text": "Stay awake when your mind likes to escape\nSay to yourself, \"I'm not going anywhere, and I'm coming more fully here.\" Sit up, open your eyes, feel your feet, let your breathing be natural."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 9,
+    "start": 187,
+    "end": 236,
+    "text": "Look around you and choose something to look at."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 3,
+    "start": 236,
+    "end": 253,
+    "text": "Feel your spine."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 43,
+    "start": 253,
+    "end": 489,
+    "text": "Ask yourself why you're daydreaming. Is it to get guidance, or because you're working through something, or are you avoiding something?\nSay something like, \"If I'm meant to be getting guidance, please show me the action I need to take."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 18,
+    "start": 489,
+    "end": 576,
+    "text": "If I'm avoiding something, please bring me back to now and show me what I'm avoiding.\""
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 49,
+    "start": 576,
+    "end": 850,
+    "text": "Make the hypnosis more active\nIf being still tends to make you sleepy, zone out, or wish you were out (escapism), no worries, there's a trick for that. Instead of getting more relaxed with the hypnosis, try getting more alert (it's still relaxed-alert, not paranoid-alert)."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 4,
+    "start": 850,
+    "end": 871,
+    "text": "Keep your eyes open."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 18,
+    "start": 871,
+    "end": 976,
+    "text": "Use a small hand movement each time you make the auto-suggestion that you're gaining increasing clarity."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 24,
+    "start": 976,
+    "end": 1097,
+    "text": "Then stop the hand movement and see where your mind is at. That hand movement is the mental escape into the body's flow."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 52,
+    "start": 1097,
+    "end": 1417,
+    "text": "Say something like,\n“Starting with your eyes open, press your thumb to your forefinger. And as you press your fingers together gently and release, you begin to bring yourself into a place of clearer awareness… again you press your fingers together and release, bringing yourself into an even clearer state of awareness."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 20,
+    "start": 1417,
+    "end": 1536,
+    "text": "And again as you press your fingers together and release, you bring yourself into the clearest state of awareness yet."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 56,
+    "start": 1536,
+    "end": 1859,
+    "text": "And now you stop pressing your fingers together, and in the first second after you stop pressing your fingers together deliberately, you can notice if there is any sensory echo of the pressing in your fingers, in your breathing, in your attention, or nowhere at all. Just notice, sit up straight and work from this level.”"
+   }
+  ]
+ },
+ "s1101-41": {
+  "headline": "AI Detected",
+  "likelihood": 0.261,
+  "words": 187,
+  "utc": "2026-11-01T20:53:02Z",
+  "link": "https://www.pangram.com/history/560997fc-cefa-43d4-b6c3-489738f1dab9",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 50,
+    "start": 0,
+    "end": 276,
+    "text": ""
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 40,
+    "start": 276,
+    "end": 559,
+    "text": "Optional fractionation: practice coming back\nFractionation means returning toward ordinary awareness and then deciding whether to enter hypnotic absorption again. It gives trance a revolving door, so that the approach can be evaluated at different levels rather than \"flying blind.\""
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 16,
+    "start": 559,
+    "end": 661,
+    "text": "Going in and out repeatedly also helps to make those transitions easier, quicker, and more intuitive."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 81,
+    "start": 661,
+    "end": 1058,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-42": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 237,
+  "utc": "2026-11-01T20:53:12Z",
+  "link": "https://www.pangram.com/history/b22c72b6-7ebf-4ab8-a9a3-6822c705a666",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 94,
+    "start": 0,
+    "end": 437,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 4,
+    "start": 437,
+    "end": 456,
+    "text": "Just pick a place."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 116,
+    "start": 456,
+    "end": 1081,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 15,
+    "start": 1081,
+    "end": 1159,
+    "text": "Even if something happens, it doesn’t mean that what comes next will be true."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 8,
+    "start": 1159,
+    "end": 1207,
+    "text": "It just might mean that something is listening."
+   }
+  ]
+ },
+ "s1101-43": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 681,
+  "utc": "2026-11-01T20:53:23Z",
+  "link": "https://www.pangram.com/history/d1b37184-c8da-4a6a-9a38-89d048658093",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 681,
+    "start": 0,
+    "end": 3344,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-44": {
+  "headline": "AI Detected",
+  "likelihood": 0.237,
+  "words": 588,
+  "utc": "2026-11-01T20:53:35Z",
+  "link": "https://www.pangram.com/history/489391bc-5f75-4088-897d-a9e907e9e0f4",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 402,
+    "start": 0,
+    "end": 1969,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 4,
+    "start": 1969,
+    "end": 1988,
+    "text": "Move around a bit."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 29,
+    "start": 1988,
+    "end": 2137,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 20,
+    "start": 2137,
+    "end": 2239,
+    "text": "Take mental note of only what actually came up for you and any actions you need to take regarding it."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 7,
+    "start": 2239,
+    "end": 2275,
+    "text": "Then go on and do something normal."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 126,
+    "start": 2275,
+    "end": 2919,
+    "text": "If your recording cuts out for some reason, you can say to yourself, \"The recording has stopped and the session is over,\" and then do the above on your own. Once your eyes are open, press your feet or hands into a surface as well.\nNote: If you are going to sleep to a recording, then it is fine to go to sleep or just keep resting at the end of it. However, if it's a recording that's meant to bring you back awake, then you should not leave yourself in an altered state. This includes leaving yourself in a role, with lowered judgment, with lowered ability to move, blank or with a non-specific reset word or for an indefinite length of time."
+   }
+  ]
+ },
+ "s1101-45": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 299,
+  "utc": "2026-11-01T20:53:44Z",
+  "link": "https://www.pangram.com/history/ca8d74dc-3a98-428a-92aa-5f56d3c300d3",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 299,
+    "start": 0,
+    "end": 1555,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-46": {
+  "headline": "Mostly Human Written",
+  "likelihood": 0.082,
+  "words": 497,
+  "utc": "2026-11-01T20:53:55Z",
+  "link": "https://www.pangram.com/history/0c0710c1-c0a9-4ba7-b99e-c166cd5eb1d2",
+  "windows": [
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 39,
+    "start": 0,
+    "end": 216,
+    "text": "Let the next response guide you\nThe induction and the inner meeting get you to a place where you can listen. From there, you respond to whatever actually happens, which is the part no recording can decide in advance."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 458,
+    "start": 216,
+    "end": 2647,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-47": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 164,
+  "utc": "2026-11-01T20:54:05Z",
+  "link": "https://www.pangram.com/history/1e31cecf-7472-42e3-ab3d-c762bd1743c3",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 164,
+    "start": 0,
+    "end": 881,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-48": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 244,
+  "utc": "2026-11-01T20:54:17Z",
+  "link": "https://www.pangram.com/history/328f74d8-4d89-49e5-bc71-3be9b253535a",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 244,
+    "start": 0,
+    "end": 1287,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-49": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 284,
+  "utc": "2026-11-01T20:54:27Z",
+  "link": "https://www.pangram.com/history/5dbcb85c-3837-4db9-9f96-2bc36c637628",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 284,
+    "start": 0,
+    "end": 1489,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-50": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 571,
+  "utc": "2026-11-01T20:54:37Z",
+  "link": "https://www.pangram.com/history/53e7fc86-e576-49ba-9f48-4208f52f87e7",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 571,
+    "start": 0,
+    "end": 2857,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-51": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 343,
+  "utc": "2026-11-01T20:54:48Z",
+  "link": "https://www.pangram.com/history/532027b0-d9b1-499b-99e7-27a4cc34ba40",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 80,
+    "start": 0,
+    "end": 422,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 12,
+    "start": 422,
+    "end": 486,
+    "text": "Whatever it is, tell your little one, \"That’s enough for today."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 10,
+    "start": 486,
+    "end": 532,
+    "text": "We’re going back to the life we’re building.\""
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 117,
+    "start": 532,
+    "end": 1163,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 17,
+    "start": 1163,
+    "end": 1254,
+    "text": "You don’t need to write down the whole cast of characters, just what you actually noticed."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 107,
+    "start": 1254,
+    "end": 1814,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-52": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 407,
+  "utc": "2026-11-01T20:54:58Z",
+  "link": "https://www.pangram.com/history/89c2d22c-d938-438b-ae8f-14b885389353",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 14,
+    "start": 0,
+    "end": 71,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 29,
+    "start": 71,
+    "end": 235,
+    "text": "The process is the same: gather your attention, notice what is here, respond, wait, and come all the way back. You are simply practicing for fifteen minutes or so."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 364,
+    "start": 235,
+    "end": 2177,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-53": {
+  "headline": "AI Detected",
+  "likelihood": 0.651,
+  "words": 131,
+  "utc": "2026-11-01T20:55:09Z",
+  "link": "https://www.pangram.com/history/35f8fc73-3636-4e8f-9634-70828c7e1e5f",
+  "windows": [
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 89,
+    "start": 0,
+    "end": 452,
+    "text": "The weekly deeper practice\nIt’s good to give this more time once or twice a week, when that’s useful. It doesn’t have to be very intense, but it is good to start from Higher Self or at least a neutral witnessing place and follow what appears. It’s also good to bring in some adult function when you need it, to check that nothing important is being bypassed, and to leave time at the end to come out completely and do whatever normal thing needs doing."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 42,
+    "start": 452,
+    "end": 694,
+    "text": "If possible, it’s good to do the normal thing immediately after the exercise, so that the subconscious sees that the adult heard and acted. Otherwise you just get another beautiful inner meeting, and the dishes are still sitting in the sink."
+   }
+  ]
+ },
+ "s1101-54": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 460,
+  "utc": "2026-11-01T20:55:19Z",
+  "link": "https://www.pangram.com/history/295bfb39-fc6b-4ebe-bb0f-8a59ee22dbec",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 85,
+    "start": 0,
+    "end": 507,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 5,
+    "start": 507,
+    "end": 540,
+    "text": "Ask for capacity before content."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 290,
+    "start": 540,
+    "end": 2087,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 22,
+    "start": 2087,
+    "end": 2204,
+    "text": "Prepare me before you break it open. Ground me before you show me the memory. Support me before you make it intense."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 58,
+    "start": 2204,
+    "end": 2551,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-55": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 405,
+  "utc": "2026-11-01T20:55:31Z",
+  "link": "https://www.pangram.com/history/7057f307-46b8-4c56-ae09-1c9adc2ed7da",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 17,
+    "start": 0,
+    "end": 93,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 38,
+    "start": 93,
+    "end": 286,
+    "text": "Try out these requests: “Show me a body sensation.” “Show me just a word.” “Show me whether today is for listening or resting.”\nIt feels fake\nDo you have a sense of what it is that feels fake?"
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 81,
+    "start": 286,
+    "end": 675,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 69,
+    "start": 675,
+    "end": 1045,
+    "text": "You could say something like 'What are you protecting me from?' or 'Are you afraid I will lie to myself again?' or 'Are you afraid this will just be a performance?' If it says yes, that can sting, because there could be something to it. Maybe you've fooled yourself before, and that part of you remembers it. \"Tell me what you remember, I'm listening.\" works well here."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 30,
+    "start": 1045,
+    "end": 1194,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 49,
+    "start": 1194,
+    "end": 1448,
+    "text": "Find out what rule it is enforcing. Comfort your little one before you answer any of it. Your answers can be firm or funny, as long as they aren’t mean. Then work on finding some ordinary evidence to build a more believable 'grown up' voice of your own."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 121,
+    "start": 1448,
+    "end": 2058,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-56": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 127,
+  "utc": "2026-11-01T20:55:43Z",
+  "link": "https://www.pangram.com/history/d8b2e625-4bda-42fe-bf92-96aba64757b8",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 127,
+    "start": 0,
+    "end": 627,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-57": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 324,
+  "utc": "2026-11-01T20:55:55Z",
+  "link": "https://www.pangram.com/history/62df15cc-8565-4dec-a4f2-0d7070606a87",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 324,
+    "start": 0,
+    "end": 1643,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-58": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 165,
+  "utc": "2026-11-01T20:56:08Z",
+  "link": "https://www.pangram.com/history/d0cefc71-5d3f-4a8d-b2d5-e12db430f68e",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 159,
+    "start": 0,
+    "end": 850,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 6,
+    "start": 850,
+    "end": 878,
+    "text": "Whatever it is, just do it."
+   }
+  ]
+ },
+ "s1101-59": {
+  "headline": "AI Detected",
+  "likelihood": 0.186,
+  "words": 271,
+  "utc": "2026-11-01T20:56:15Z",
+  "link": "https://www.pangram.com/history/06ef1fd0-fd66-4fd0-a698-9f8fea722a14",
+  "windows": [
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 50,
+    "start": 0,
+    "end": 278,
+    "text": "You become too blissful or diffuse\nBring it down to something specific. Ask yourself, “What’s the smallest, most specific thing your love is asking you to do next? A task, a boundary, a meal, some rest, a repair, a conversation?”\nYou want the hidden truth immediately\nDon’t pry."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 79,
+    "start": 278,
+    "end": 714,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 16,
+    "start": 714,
+    "end": 790,
+    "text": "Invite your little one in with you. They might go numb, or call BS on that."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 126,
+    "start": 790,
+    "end": 1498,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-60": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 227,
+  "utc": "2026-11-01T20:56:26Z",
+  "link": "https://www.pangram.com/history/95d4b2d3-a361-43ea-9710-befec5956f38",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 227,
+    "start": 0,
+    "end": 1161,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-61": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 503,
+  "utc": "2026-11-01T20:56:37Z",
+  "link": "https://www.pangram.com/history/68945e58-7086-4fd4-9cd8-01b7fa676950",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 503,
+    "start": 0,
+    "end": 2854,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-62": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 198,
+  "utc": "2026-11-01T20:56:47Z",
+  "link": "https://www.pangram.com/history/4fef0378-dac7-4307-8d5d-ff00ff2df730",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 198,
+    "start": 0,
+    "end": 1241,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-63": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 367,
+  "utc": "2026-11-01T20:56:58Z",
+  "link": "https://www.pangram.com/history/c72dd2db-04df-4903-b9fa-ba8aa51502d2",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 367,
+    "start": 0,
+    "end": 2205,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-64": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 172,
+  "utc": "2026-11-01T20:57:08Z",
+  "link": "https://www.pangram.com/history/90421c19-e510-400b-8fad-8cb2994433a3",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 172,
+    "start": 0,
+    "end": 916,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-65": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 343,
+  "utc": "2026-11-01T20:57:19Z",
+  "link": "https://www.pangram.com/history/c5b81c38-ec80-43b8-92fa-f1ab7fee1f8f",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 343,
+    "start": 0,
+    "end": 1804,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-66": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 337,
+  "utc": "2026-11-01T20:57:32Z",
+  "link": "https://www.pangram.com/history/c7e576e3-d2fe-4ce7-8ea0-5d66fe5c2856",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 171,
+    "start": 0,
+    "end": 917,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 16,
+    "start": 917,
+    "end": 1003,
+    "text": "No forcing, no false certainty, and no asking for an answer before you can handle it."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 150,
+    "start": 1003,
+    "end": 1841,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-67": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 487,
+  "utc": "2026-11-01T20:57:40Z",
+  "link": "https://www.pangram.com/history/82e3cbe8-f2c0-4ef6-9f4f-d963b636f178",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 395,
+    "start": 0,
+    "end": 2024,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 36,
+    "start": 2024,
+    "end": 2189,
+    "text": "It would have to make sense too. And even with all that, I wouldn't do anything big or hard to undo until I'm calm and I've checked it against what I actually know."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 46,
+    "start": 2189,
+    "end": 2454,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 10,
+    "start": 2454,
+    "end": 2507,
+    "text": "That doesn't make the answers any more true, though."
+   }
+  ]
+ },
+ "s1101-68": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 224,
+  "utc": "2026-11-01T20:57:50Z",
+  "link": "https://www.pangram.com/history/c6e7b387-1209-4f2b-84a5-71890b619456",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 224,
+    "start": 0,
+    "end": 1265,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-69": {
+  "headline": "AI Detected",
+  "likelihood": 0.439,
+  "words": 1067,
+  "utc": "2026-11-01T20:58:02Z",
+  "link": "https://www.pangram.com/history/9854f7ec-1bbc-46dd-9691-88b03625fd83",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 311,
+    "start": 0,
+    "end": 1577,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 6,
+    "start": 1577,
+    "end": 1600,
+    "text": "is all you need to do."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 131,
+    "start": 1600,
+    "end": 2329,
+    "text": ""
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 402,
+    "start": 2329,
+    "end": 4561,
+    "text": "Don’t ever presume obedience, the way a hypnotist does when they say something like, ‘As you go deeper, it gets easier and easier to just do what I say.’\nExample: ‘Before any part has to change, it can first become more understood.’\nPattern 4: Gentle cause-effect bridges\nBridge words are words like ‘as, whilst, because, when, after, before, which means’ etc. These are words that link events, which can make something seem like it goes along with or produces the next thing. That doesn't mean it actually does, of course.\nHere's an example of some of the overly commanding bridge language many hypnotists will use: “Because I breathe, the trauma leaves.”\nI prefer the communion version: “As I breathe, my adult self can allow itself to become present enough to hear a bit of what my wounded inner child needs.”\nPattern 5: Embedded invitations\nAn embedded invitation places a small direction inside a larger sentence. For our purposes in ethical communion-style hypnosis, we don't use these to hide commands, but to smooth them into nudges without breaking the communion dialog rhythm, for example: \"And I can allow myself to experience...\"\nor, \"As I sit here, I may begin to allow myself to become aware...\"\nOr, something similar that you might use when working with inner child type of parts: \"My little one doesn't have to trust me all at once; they can simply notice I'm still here.\"\nYou can use this, of course, but don't use ten of them one after the other! People will know that you've just come out of some weekend certification course and they won't feel so safe with you.\nPattern 6: Ethical double binds\nA Manipulative Double Bind Question is rigged so that you wind up doing what the speaker wants, whatever answer you give.\nAn ethical double bind gives you two ways to go, and both of them are actually safe. An ethical double bind question might be:\n\"Would you prefer to allow a feeling of warmth to come over you now, or would you prefer a feeling of space?\"\nPattern 7: Conversational postulates\nAn example of a Conversational Postulate (a yes-or-no question that works as a request) is:\n\"Can I allow my subconscious to show me the next thing to do, without showing me all the details of wounding that are involved?\""
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 17,
+    "start": 4561,
+    "end": 4645,
+    "text": "Pattern 8: Tag questions\nYou can use tag questions, like \"isn't it?\" or \"can't it?\""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 4,
+    "start": 4645,
+    "end": 4662,
+    "text": "or \"doesn't it?\""
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 18,
+    "start": 4662,
+    "end": 4753,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 31,
+    "start": 4753,
+    "end": 4970,
+    "text": "\"Your body knows how to relax, doesn't it?\"\nPattern 9: Nominalizations\nNominalizations are words that turn a process into a noun, like 'healing', 'safety', 'trust', 'integration', 'communion', 'clarity', 'rest', etc."
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 28,
+    "start": 4970,
+    "end": 5129,
+    "text": "These are a bit vague, and sometimes that can be useful, because it allows the subconscious to fill in the blank with something very specific for that person."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 13,
+    "start": 5129,
+    "end": 5198,
+    "text": "\"I can allow myself some safety, in whatever way my body knows how.\""
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 41,
+    "start": 5198,
+    "end": 5405,
+    "text": "Pattern 10: Meta Model questions — the de-hypnosis tool\nTo 'Milton Model' is to open things up. To 'Meta Model' is to say \"What do you mean by that?\" In order to be ethical with people, you need to do both."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 11,
+    "start": 5405,
+    "end": 5473,
+    "text": "\"What do you mean specifically? According to who? Compared to what?"
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 1,
+    "start": 5473,
+    "end": 5481,
+    "text": "Always?"
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 1,
+    "start": 5481,
+    "end": 5488,
+    "text": "Never?"
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 7,
+    "start": 5488,
+    "end": 5531,
+    "text": "What specifically would happen if you did?"
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 45,
+    "start": 5531,
+    "end": 5765,
+    "text": "How do you know that? What evidence could you have that would change your mind?\"\nWhen people are starting to get stiff in their bodies, 'Milton' it. When you feel like you're losing touch with the truth of what's going on, 'Meta' it."
+   }
+  ]
+ },
+ "s1101-70": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 1550,
+  "utc": "2026-11-01T20:58:12Z",
+  "link": "https://www.pangram.com/history/cabb1030-ffef-409e-91a4-9e289518129a",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 122,
+    "start": 0,
+    "end": 678,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 2,
+    "start": 678,
+    "end": 692,
+    "text": "What changes?"
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 385,
+    "start": 692,
+    "end": 2632,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 6,
+    "start": 2632,
+    "end": 2674,
+    "text": "What needs warmth? What needs protecting?"
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 365,
+    "start": 2674,
+    "end": 4629,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 1,
+    "start": 4629,
+    "end": 4636,
+    "text": "plan)."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 320,
+    "start": 4636,
+    "end": 6451,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 18,
+    "start": 6451,
+    "end": 6545,
+    "text": "Instead, ask yourself: \"What else might be true?\" or \"What is this part trying to do for me?\""
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 21,
+    "start": 6545,
+    "end": 6666,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 2,
+    "start": 6666,
+    "end": 6677,
+    "text": "etc., etc."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 308,
+    "start": 6677,
+    "end": 8411,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-71": {
+  "headline": "AI Detected",
+  "likelihood": 0.124,
+  "words": 250,
+  "utc": "2026-11-01T20:58:22Z",
+  "link": "https://www.pangram.com/history/145d85ae-75ce-424a-a9ce-039544dfff79",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 125,
+    "start": 0,
+    "end": 619,
+    "text": ""
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 19,
+    "start": 619,
+    "end": 720,
+    "text": "As an example, I won’t tell anyone to override their fear without first asking what it’s protecting."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 12,
+    "start": 720,
+    "end": 781,
+    "text": "Or to make them feel urgency when they want time to process."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 94,
+    "start": 781,
+    "end": 1306,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-72": {
+  "headline": "AI Detected",
+  "likelihood": 0.24,
+  "words": 287,
+  "utc": "2026-11-01T20:58:33Z",
+  "link": "https://www.pangram.com/history/7eb461fe-48a6-4ca7-93f9-57e972c226d4",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 43,
+    "start": 0,
+    "end": 270,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 19,
+    "start": 270,
+    "end": 383,
+    "text": "Ask yourself for permission: is it useful to work with this pattern today?\nGet a representation of your pattern."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 26,
+    "start": 383,
+    "end": 508,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 11,
+    "start": 508,
+    "end": 571,
+    "text": "Find out if that part/pattern is protecting something for you."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 13,
+    "start": 571,
+    "end": 649,
+    "text": "Gently change an aspect of your pattern's representation from the prior step."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 76,
+    "start": 649,
+    "end": 1027,
+    "text": "Bring in your 3 good adults (Nurturer to warm, Protector to make it safe, and Guide to point a direction). In real life they’re all part of the one inner adult, so we can imagine them splitting apart if need be and coming together as well.\nAnchor the good state you're in, with a hand on your heart, two fingers touching, a breath or a posture, so you can get back to it later."
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 18,
+    "start": 1027,
+    "end": 1139,
+    "text": "Imagine running into a scenario where your old pattern would have triggered, and adopt a feasible new behavior."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 46,
+    "start": 1139,
+    "end": 1385,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 35,
+    "start": 1385,
+    "end": 1572,
+    "text": "Ask yourself whether the new behavior you've imagined is kind and sensible.\nThen come all the way back out of the altered state (see “Come all the way back”), and go do something normal."
+   }
+  ]
+ },
+ "s1101-73": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 522,
+  "utc": "2026-11-01T20:58:44Z",
+  "link": "https://www.pangram.com/history/c0512630-d9d3-4041-9fa0-86d109c13636",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 43,
+    "start": 0,
+    "end": 271,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 7,
+    "start": 271,
+    "end": 296,
+    "text": "I don’t have to obey it."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 8,
+    "start": 296,
+    "end": 328,
+    "text": "I don’t even have to attack it."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 205,
+    "start": 328,
+    "end": 1334,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 13,
+    "start": 1334,
+    "end": 1392,
+    "text": "Then look at what it wants from you. Is it money, or sex?"
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 2,
+    "start": 1392,
+    "end": 1406,
+    "text": "Your loyalty?"
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 11,
+    "start": 1406,
+    "end": 1453,
+    "text": "Is it asking you to keep quiet, or to obey it?"
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 15,
+    "start": 1453,
+    "end": 1526,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 13,
+    "start": 1526,
+    "end": 1606,
+    "text": "A teacher charges for their time, and your partner probably wants your loyalty."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 54,
+    "start": 1606,
+    "end": 1869,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 14,
+    "start": 1869,
+    "end": 1947,
+    "text": "Does normal life start to seem boring, stupid or irrelevant when it’s around?"
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 137,
+    "start": 1947,
+    "end": 2628,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-74": {
+  "headline": "AI Generated",
+  "likelihood": 1.0,
+  "words": 240,
+  "utc": "2026-11-01T20:58:54Z",
+  "link": "https://www.pangram.com/history/5f67ddd1-1c49-4f16-afef-51b5d129e17c",
+  "windows": [
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 93,
+    "start": 0,
+    "end": 575,
+    "text": "Hypnosis-specific audit\nBefore accepting a hypnotic recording or live suggestion, ask these important questions to avoid being manipulated:\nWhat induction mechanics are being used to bring me under the spell?\nCan my responses lead to pausing or modifying the script, or stopping & coming to full alertness?\nDoes the hypnotist treat my lack of awareness of what's going on as some kind of proof that the process worked?\nIs the hypnotist using identity roles, obedience ladders, age regressions, or desires for/assumptions of belonging to lower my adult self's better judgment?"
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 34,
+    "start": 575,
+    "end": 770,
+    "text": "Keep in mind though, the answer to that last one requires either checking the script first, or explaining what your adult judgement would accept, as the hypnotist can't be expected to know that."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 91,
+    "start": 770,
+    "end": 1316,
+    "text": "Continuing with the job interview:\nAre fractionation, cues, or other methods of affecting my memory or modifying my post-session behavior disclosed before they are used?\nIs the hypnotist implicitly turning my bodily sensations into evidence for a prior assumption?\nWhen we're ready to exit hypnosis, will they give me a clear statement that the session has ended, and would I get back my normal waking (and walking) identity? Will I be able to use my critical judgement abilities as before?\nWhen any answer to these questions is unclear, beware."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 22,
+    "start": 1316,
+    "end": 1421,
+    "text": "Ask for the exact script. If they don't want to give it, change the method, or walk right out that door."
+   }
+  ]
+ },
+ "s1101-75": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 131,
+  "utc": "2026-11-01T20:59:04Z",
+  "link": "https://www.pangram.com/history/51753c83-0336-4fcd-b798-71da337a752b",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 131,
+    "start": 0,
+    "end": 708,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-76": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 203,
+  "utc": "2026-11-01T20:59:15Z",
+  "link": "https://www.pangram.com/history/8d42958d-13ad-451e-bbb6-ee44b3ae7a00",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 203,
+    "start": 0,
+    "end": 1133,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-77": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 186,
+  "utc": "2026-11-01T20:59:26Z",
+  "link": "https://www.pangram.com/history/a667ac68-35f7-4d72-bbba-f66705b8b525",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 186,
+    "start": 0,
+    "end": 1004,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-78": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 230,
+  "utc": "2026-11-01T20:59:37Z",
+  "link": "https://www.pangram.com/history/cfdb231b-b27d-41e1-a0e1-c2d8cb960475",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 230,
+    "start": 0,
+    "end": 1267,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-79": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 233,
+  "utc": "2026-11-01T20:59:47Z",
+  "link": "https://www.pangram.com/history/2352c082-2a33-4823-bd32-d84baf7b7c30",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 72,
+    "start": 0,
+    "end": 366,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 22,
+    "start": 366,
+    "end": 473,
+    "text": "If you can't genuinely say all that and feel it, then just rest your hands there and notice what you find."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 139,
+    "start": 473,
+    "end": 1132,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-80": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 364,
+  "utc": "2026-11-01T20:59:58Z",
+  "link": "https://www.pangram.com/history/a26db688-2524-4099-bb5d-b84110c5f6a8",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 364,
+    "start": 0,
+    "end": 1954,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-81": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 180,
+  "utc": "2026-11-01T21:00:09Z",
+  "link": "https://www.pangram.com/history/47aae1f8-55f3-4362-a3ee-2ef055601a37",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 180,
+    "start": 0,
+    "end": 1106,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-82": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 326,
+  "utc": "2026-11-01T21:00:20Z",
+  "link": "https://www.pangram.com/history/1aae72b2-088e-4b08-9b74-3115e9561b9d",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 326,
+    "start": 0,
+    "end": 1670,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-83": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 337,
+  "utc": "2026-11-01T21:00:29Z",
+  "link": "https://www.pangram.com/history/e954ef6a-caff-43a2-a89a-7cd4e373db61",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 337,
+    "start": 0,
+    "end": 1898,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-84": {
+  "headline": "Mostly Human Written",
+  "likelihood": 0.059,
+  "words": 436,
+  "utc": "2026-11-01T21:00:40Z",
+  "link": "https://www.pangram.com/history/2ee1cdcf-712f-4b71-ad5d-e451a5cdb4f6",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 9,
+    "start": 0,
+    "end": 68,
+    "text": "Forgiveness without bypass\nWe cannot force forgiveness on ourselves."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 206,
+    "start": 68,
+    "end": 1180,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 9,
+    "start": 1180,
+    "end": 1231,
+    "text": "It doesn’t make their limitations matter any less."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 30,
+    "start": 1231,
+    "end": 1374,
+    "text": "You might say to the part of you that was hurt, “You don’t have to forgive before you’re ready. I won’t use spirituality to silence your pain."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 37,
+    "start": 1374,
+    "end": 1578,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 25,
+    "start": 1578,
+    "end": 1714,
+    "text": "What was the impact? What boundaries need to be set? What shaped the other person(s) into someone capable of that harm? What is theirs?"
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 3,
+    "start": 1714,
+    "end": 1728,
+    "text": "What is mine?"
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 76,
+    "start": 1728,
+    "end": 2145,
+    "text": "What does accountability require? How can I let this go, without denying any of the above?\nForgiving yourself\nFor self-forgiveness, name what you did, but don't take responsibility for what wasn't yours. Let yourself feel the remorse and take in the harm, or how it went against your values, and stop short of making yourself a permanent criminal.\nDo what you can to put it right, or to keep it from happening again."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 41,
+    "start": 2145,
+    "end": 2369,
+    "text": "Then you're allowed to stop holding yourself hostage, and the responsibility stays. Every so often, come back to how you got to be someone who could do that, until you understand it well enough that it changes how you feel."
+   }
+  ]
+ },
+ "s1101-85": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 442,
+  "utc": "2026-11-01T21:00:50Z",
+  "link": "https://www.pangram.com/history/1ee45d5d-5fde-45e2-bdfa-6b45396a082c",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 34,
+    "start": 0,
+    "end": 195,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 27,
+    "start": 195,
+    "end": 348,
+    "text": "I’d learn the inner child work sober first, with enough Nurturer and Protector in the room before you go deep (see the inner child reparenting section)."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 22,
+    "start": 348,
+    "end": 448,
+    "text": "Borrowing them is fine, as long as it’s from someone steady who won’t try to run your trip for you."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 148,
+    "start": 448,
+    "end": 1187,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 32,
+    "start": 1187,
+    "end": 1353,
+    "text": "Often there's a child guard part that’s seen love come with strings or get revoked before in a painful way. Love starts with hearing out the resistance to it first.)"
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 179,
+    "start": 1353,
+    "end": 2352,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-86": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 234,
+  "utc": "2026-11-01T21:01:00Z",
+  "link": "https://www.pangram.com/history/7161e084-3723-4936-89f6-71fd2017f057",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 234,
+    "start": 0,
+    "end": 1334,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-87": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 164,
+  "utc": "2026-11-01T21:01:11Z",
+  "link": "https://www.pangram.com/history/d9c3e476-06ac-47b8-b817-98cfd9c2bd7e",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 164,
+    "start": 0,
+    "end": 954,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-88": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 287,
+  "utc": "2026-11-01T21:01:24Z",
+  "link": "https://www.pangram.com/history/0a16a592-10b8-45cc-b6d0-7458bc2abe36",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 287,
+    "start": 0,
+    "end": 1452,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-89": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 204,
+  "utc": "2026-11-01T21:01:34Z",
+  "link": "https://www.pangram.com/history/8ac4ebda-9b8a-4ce2-b45f-542c9aa391de",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 204,
+    "start": 0,
+    "end": 994,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-90": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 199,
+  "utc": "2026-11-01T21:01:43Z",
+  "link": "https://www.pangram.com/history/eed0b9da-51f4-4119-83fd-c404c642bb9c",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 199,
+    "start": 0,
+    "end": 993,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-91": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 186,
+  "utc": "2026-11-01T21:01:53Z",
+  "link": "https://www.pangram.com/history/5b3760a8-2d91-49ee-99d8-3a336f85b41f",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 186,
+    "start": 0,
+    "end": 1008,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-92": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 200,
+  "utc": "2026-11-01T21:02:03Z",
+  "link": "https://www.pangram.com/history/5c94d532-1b8c-46da-8eb3-f8f728e99c2a",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 135,
+    "start": 0,
+    "end": 748,
+    "text": "If it might be psychosis or destabilization\nThis is assuming that you are having a symbolic experience of “hostile presences” which responds to grounding and love. It may be that what you are experiencing is actually psychotic or a form of destabilization.\nIf you feel like you are under attack for multiple days at a time, if you are not able to sleep, if you are not able to function normally, if you are hearing voices telling you to do things, if you feel you need to hurt yourself or somebody else, if you feel you are going manic, if you feel you can’t communicate normally, if you feel you can’t distinguish between what you are experiencing symbolically and normal reality, get help immediately. It’s not something to deal with in hypnosis."
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 38,
+    "start": 748,
+    "end": 957,
+    "text": "The General Rule\nThe General Rule is: if you find that what you're doing is making you more loving, more grounded, more relational, more honest, more functional, then it's probably OK to keep doing it gently."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 27,
+    "start": 957,
+    "end": 1108,
+    "text": "But if what you're doing is making you more paranoid, sleepless, grandiose, isolated, scared, or more and more unreal, then don't go deeper. Get help."
+   }
+  ]
+ },
+ "s1101-93": {
+  "headline": "AI Detected",
+  "likelihood": 0.105,
+  "words": 209,
+  "utc": "2026-11-01T21:02:15Z",
+  "link": "https://www.pangram.com/history/98e84a1c-0bf1-46a8-990e-3a93792d874e",
+  "windows": [
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 18,
+    "start": 0,
+    "end": 120,
+    "text": "The cosmic-download humility test\nPresences, shadow forces, or grandiose parts don’t always attack through fear, either."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 191,
+    "start": 120,
+    "end": 1133,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-94": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 177,
+  "utc": "2026-11-01T21:02:26Z",
+  "link": "https://www.pangram.com/history/8b6c2d4c-a8c5-4484-926b-71d8fa19a57e",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 177,
+    "start": 0,
+    "end": 944,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-95": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 125,
+  "utc": "2026-11-01T21:02:36Z",
+  "link": "https://www.pangram.com/history/8be96f9e-57b6-41f4-86ec-808c276c90f8",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 1,
+    "start": 0,
+    "end": 2,
+    "text": "1."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 124,
+    "start": 2,
+    "end": 652,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-96": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 224,
+  "utc": "2026-11-01T21:02:46Z",
+  "link": "https://www.pangram.com/history/78cb97fc-9eb9-44a6-9de3-2988a428ebd1",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 1,
+    "start": 0,
+    "end": 2,
+    "text": "2."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 112,
+    "start": 2,
+    "end": 614,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 1,
+    "start": 614,
+    "end": 616,
+    "text": "3."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 64,
+    "start": 616,
+    "end": 955,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 4,
+    "start": 955,
+    "end": 976,
+    "text": "Then stop saying it."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 35,
+    "start": 976,
+    "end": 1158,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 7,
+    "start": 1158,
+    "end": 1200,
+    "text": "Bring back your normal rhythm and return."
+   }
+  ]
+ },
+ "s1101-97": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 272,
+  "utc": "2026-11-01T21:02:56Z",
+  "link": "https://www.pangram.com/history/b1bfeda1-4b76-411a-9409-718dba7ec126",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 1,
+    "start": 0,
+    "end": 2,
+    "text": "4."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 115,
+    "start": 2,
+    "end": 599,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 1,
+    "start": 599,
+    "end": 601,
+    "text": "5."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 155,
+    "start": 601,
+    "end": 1415,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-98": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 218,
+  "utc": "2026-11-01T21:03:08Z",
+  "link": "https://www.pangram.com/history/82ee0103-6798-4f0c-939d-d4de1e28a44c",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 1,
+    "start": 0,
+    "end": 2,
+    "text": "6."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 77,
+    "start": 2,
+    "end": 422,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 1,
+    "start": 422,
+    "end": 424,
+    "text": "7."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 139,
+    "start": 424,
+    "end": 1158,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-99": {
+  "headline": "AI Detected",
+  "likelihood": 0.183,
+  "words": 311,
+  "utc": "2026-11-01T21:03:17Z",
+  "link": "https://www.pangram.com/history/2122b7a5-8950-4926-9037-81d41cfbf928",
+  "windows": [
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 1,
+    "start": 0,
+    "end": 2,
+    "text": "8."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 14,
+    "start": 2,
+    "end": 116,
+    "text": "Resource embodiment\nPick a resource quality you understand (warmth, boundary, steadiness, curiosity, or dignity)."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 19,
+    "start": 116,
+    "end": 227,
+    "text": "Imagine yourself accessing 1% more of that quality (or, if you prefer, just observe it rather than embody it)."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 3,
+    "start": 227,
+    "end": 246,
+    "text": "What is different?"
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 14,
+    "start": 246,
+    "end": 314,
+    "text": "How is your body, voice, etc? Do this a few times to strengthen it."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 25,
+    "start": 314,
+    "end": 450,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 1,
+    "start": 450,
+    "end": 452,
+    "text": "9."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 53,
+    "start": 452,
+    "end": 720,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 23,
+    "start": 720,
+    "end": 852,
+    "text": "Hopefully your name didn't suddenly change to Larry.\nFor the suggestion: in your mind, ask a clear question and then listen gently."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 10,
+    "start": 852,
+    "end": 907,
+    "text": "Now keep your sense of agency during the answer phase."
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": null,
+    "words": 67,
+    "start": 907,
+    "end": 1274,
+    "text": "You might notice an answer popped up, or you might decide you don't know. You can always take a break or rephrase the question. Sometimes you might ask advice from someone else.\nKeep aware of the subtle inner signal: write whatever you get. It might be a word or sensation. An impulse or objection. Sometimes there's no signal, just silence, itself a kind of signal."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 33,
+    "start": 1274,
+    "end": 1464,
+    "text": "Don't jump to interpreting it as validation of some theory.\nHand off the role: have your adult self answer that same question in whatever way is appropriate, preferably by writing or doing."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 24,
+    "start": 1464,
+    "end": 1605,
+    "text": "Integration/exit: reality test the signal you noticed. As part of testing, if it seems appropriate, you can do something simple based on it."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": null,
+    "words": 24,
+    "start": 1605,
+    "end": 1730,
+    "text": "There's no elaborate exit protocol here since you didn't go into trance. Just close the exercise and carry on with your day."
+   }
+  ]
+ },
+ "s1101-100": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 210,
+  "utc": "2026-11-01T21:03:28Z",
+  "link": "https://www.pangram.com/history/9b875512-8349-4ea8-a198-cb20b10d71b3",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 210,
+    "start": 0,
+    "end": 1232,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-101": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 198,
+  "utc": "2026-11-01T21:03:39Z",
+  "link": "https://www.pangram.com/history/409180ef-f224-4ebd-87f9-c37a140ef1f3",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 198,
+    "start": 0,
+    "end": 1166,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-102": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 199,
+  "utc": "2026-11-01T21:03:50Z",
+  "link": "https://www.pangram.com/history/82c04d61-492d-4ec0-8d0d-e5560c3d965b",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 199,
+    "start": 0,
+    "end": 1185,
+    "text": ""
+   }
+  ]
+ },
+ "s1101-103": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 171,
+  "utc": "2026-11-01T21:04:00Z",
+  "link": "https://www.pangram.com/history/a787b90d-ec2f-4fd8-a8a1-a912714bb735",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "calibrated": null,
+    "words": 171,
+    "start": 0,
+    "end": 1083,
+    "text": ""
+   }
+  ]
+ }
+}

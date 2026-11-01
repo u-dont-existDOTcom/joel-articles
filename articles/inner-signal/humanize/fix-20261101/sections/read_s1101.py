@@ -41,13 +41,23 @@ def main():
     import glob
     owner = sorted({f for g in cfg['owner'] for f in glob.glob(str(ROOT / g), recursive=True)})
     mine = cr.owner_paragraphs(owner, ROOT)
+    icg = cr.loose((H / 'fix-20261025' / 'ic-align' / 'IC-GUIDE.txt').read_text(encoding='utf-8'))
 
-    def whose(i):
+    def whose(i, wtext=''):
+        """Whose words a window is: by paragraph first (a paragraph he rewrote is his, E312), then by sentence (his
+        published guide, his inner child guide)."""
         q = cr.loose(bl[i]['text'])
         if q and q in orig:
             return 'his, as published'
         if cr.is_his(q, mine):
-            return 'his own words'
+            return 'his own words (a paragraph he wrote or rewrote)'
+        ss = [cr.loose(x) for x in cr.sentences(wtext or bl[i]['text']) if len(x.split()) >= 4]
+        if ss and all(x in orig for x in ss):
+            return 'his, as published (the sentence)'
+        if ss and all(x in icg for x in ss):
+            return 'his, from his inner child guide'
+        if ss and any(x in orig or x in icg for x in ss):
+            return 'partly his (published or inner child guide), partly ours'
         return 'ours'
 
     compact, rows, fix, med = {}, [], [], []
@@ -75,7 +85,7 @@ def main():
                       or (len(t) > 80 and t[20:80] in norm(bl[i]['text']))]
             item = {'key': k, 'section': s['name'], 'window': n, 'label': w['label'], 'confidence': w['confidence'],
                     'calibrated': w.get('calibrated'), 'words': w['words'], 'text': w.get('text', ''),
-                    'blocks': covers, 'where': [sr.where(bl, i) for i in covers], 'whose': [whose(i) for i in covers],
+                    'blocks': covers, 'where': [sr.where(bl, i) for i in covers], 'whose': [whose(i, w.get('text', '')) for i in covers],
                     'link': r['link']}
             (fix if (w['label'] != 'Human' or w['confidence'] == 'Low') else med).append(item)
     out = ['# Batch s1101: each section of the guide by itself, read', '',

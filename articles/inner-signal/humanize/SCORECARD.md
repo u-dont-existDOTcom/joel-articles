@@ -11,6 +11,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/inner-signa
 | pangram 4.1, web app | 14 | 8 (57%) | 43% | 57% | 86% | 0.201 (base 0.245, 14) |
 | pangram 4.1, the API (Joel's key, run on his laptop; E218) | 20 | 12 (60%) | 45% | 55% | 75% | 0.216 (base 0.247, 20) |
 | pangram API (model pangram-4, expect 4.1), Joel's key, run on the laptop | 7 | 6 (86%) | 14% | 86% | 100% | 0.185 (base 0.122, 7) |
+| Pangram 4.1 (web app) | 103 | 84 (82%) | 18% | 82% | 83% | 0.186 (base 0.150, 103) |
 
 ## Pangram 4.0 (before the ledger)
 
@@ -132,10 +133,33 @@ Calibration:
 | 0.4 to 0.6 | 5 | 0.58 | 80% |
 | 0.6 to 0.8 | 5 | 0.63 | 80% |
 
-## Misses since the ledger (21)
+## Pangram 4.1 (web app)
+
+| window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| the latest 50 | 50 | 43 (86%) | 16% | 84% | 82% | 0.163 (base 0.134, 50) |
+| the latest 100 | 100 | 81 (81%) | 19% | 81% | 82% | 0.186 (base 0.154, 100) |
+| all | 103 | 84 (82%) | 18% | 82% | 83% | 0.186 (base 0.150, 103) |
+
+The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| section | 103 | 84 (82%) | 18% | 82% | 83% | 0.186 (base 0.150, 103) |
+
+Calibration:
+
+| my chance of a 100% Human result | calls | mean chance | read Human |
+|---|---|---|---|
+| 0.2 to 0.4 | 4 | 0.25 | 50% |
+| 0.4 to 0.6 | 77 | 0.56 | 81% |
+| 0.6 to 0.8 | 83 | 0.64 | 88% |
+
+## Misses since the ledger (40)
 
 | cause | misses |
 |---|---|
+| not explained yet | 19 |
 | balanced closer kept | 3 |
 | parallel list kept | 2 |
 | context: red in the whole guide, Human in the pair | 2 |
@@ -157,21 +181,21 @@ The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [screen-S2](https://www.pangram.com/feed/e836ef9c-c964-4012-a5af-994ef88658eb) | HG17-emu-bd, 1 | AI | Human | tells overweighted |
-| [screen2-B0](https://www.pangram.com/feed/5af06c6a-8f56-4bd7-9c86-5e9813f7a97e) | HG31-nlp-tail, 1 | AI | Human | a red window read as its first section's |
-| [b472_s1_base](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b472/API-CHECKS.md#b472_s1_base) | HG16-B209, 1 | AI | Human | context: red in the whole guide, Human in the pair |
-| [b472_s3_base](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b472/API-CHECKS.md#b472_s3_base) | HG18-B311, 1 | AI | Human | context: red in the whole guide, Human in the pair |
-| [b472_s2d](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b472/API-CHECKS.md#b472_s2d) | HG18-B308, 3 | Human | AI or mixed | the same skeleton reworded |
-| [b472_s2e](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b472/API-CHECKS.md#b472_s2e) | HG18-B308, 4 | Human | AI or mixed | tidy closers at both paragraphs' ends |
-| [b472_s2e_alone](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b472/API-CHECKS.md#b472_s2e_alone) | HG17-B306, 2 | Human | AI or mixed | tidy closer |
-| [b472_s2f](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b472/API-CHECKS.md#b472_s2f) | HG18-B308, 5 | Human | AI or mixed | six versions, same reading: the method is spent |
-| [b472_s2f_alone](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b472/API-CHECKS.md#b472_s2f_alone) | HG17-B306, 3 | Human | AI or mixed | six versions, same reading: the method is spent |
-| [b472_s1c](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b472/API-CHECKS.md#b472_s1c) | HG16-B209, 3 | Human | AI or mixed | a linter fix that read worse |
-| [HG-rest-41r4-b](https://www.pangram.com/feed/1db9825e-5fed-4528-aca5-9d4272b54f83) | HG-rest-B, 3 | Human | AI or mixed | parallel list kept |
-| [HG-whole-41r7b-a](https://www.pangram.com/feed/fd67dd6e-7193-4bdf-9ed8-3ed235d62d94) | HG-whole, 6 | AI | Human | pessimism about Emulate's whole-stretch re-run |
-| [b480-S9-p](https://www.pangram.com/history/0998d046-5087-4d3c-8ca0-388a19abca28) | HG-parent-script-P1, 1 | Human | AI or mixed | context: Human in the whole guide, red alone |
-| [HG-whole-26-b](https://www.pangram.com/feed/0f1902cd-df2a-4837-9879-69979188e5f1) | HG-whole, 9 | AI | Human | pessimism about red moving onto unchanged text |
-| [HG-whole-26-c](https://www.pangram.com/feed/a67b13cb-7267-466e-9350-e70836380857) | HG-whole, 10 | AI | Human | pessimism about the whole text, again |
+| [s1101-36](https://www.pangram.com/history/c1a63da5-511e-46f5-879a-9dda4d958002) | HG1101-36, 1 | AI | Human | **not explained yet** |
+| [s1101-37](https://www.pangram.com/history/00960ecb-3db9-4988-ad9b-cbe6e650b7c8) | HG1101-37, 1 | AI | Human | **not explained yet** |
+| [s1101-38](https://www.pangram.com/history/0009f224-bec6-450c-a1d6-c3697413778a) | HG1101-38, 1 | AI | Human | **not explained yet** |
+| [s1101-40](https://www.pangram.com/history/c601f371-9603-4327-8b11-45a1f9c0293a) | HG1101-40, 1 | Human | AI or mixed | **not explained yet** |
+| [s1101-44](https://www.pangram.com/history/489391bc-5f75-4088-897d-a9e907e9e0f4) | HG1101-44, 1 | Human | AI or mixed | **not explained yet** |
+| [s1101-46](https://www.pangram.com/history/0c0710c1-c0a9-4ba7-b99e-c166cd5eb1d2) | HG1101-46, 1 | Human | AI or mixed | **not explained yet** |
+| [s1101-51](https://www.pangram.com/history/532027b0-d9b1-499b-99e7-27a4cc34ba40) | HG1101-51, 1 | AI | Human | **not explained yet** |
+| [s1101-53](https://www.pangram.com/history/35f8fc73-3636-4e8f-9634-70828c7e1e5f) | HG1101-53, 1 | Human | AI or mixed | **not explained yet** |
+| [s1101-73](https://www.pangram.com/history/c0512630-d9d3-4041-9fa0-86d109c13636) | HG1101-73, 1 | AI | Human | **not explained yet** |
+| [s1101-74](https://www.pangram.com/history/5f67ddd1-1c49-4f16-afef-51b5d129e17c) | HG1101-74, 1 | Human | AI or mixed | **not explained yet** |
+| [s1101-81](https://www.pangram.com/history/47aae1f8-55f3-4362-a3ee-2ef055601a37) | HG1101-81, 1 | AI | Human | **not explained yet** |
+| [s1101-93](https://www.pangram.com/history/98e84a1c-0bf1-46a8-990e-3a93792d874e) | HG1101-93, 1 | Human | AI or mixed | **not explained yet** |
+| [s1101-95](https://www.pangram.com/history/8be96f9e-57b6-41f4-86ec-808c276c90f8) | HG1101-95, 1 | AI | Human | **not explained yet** |
+| [s1101-96](https://www.pangram.com/history/78cb97fc-9eb9-44a6-9de3-2988a428ebd1) | HG1101-96, 1 | AI | Human | **not explained yet** |
+| [s1101-99](https://www.pangram.com/history/2122b7a5-8950-4926-9037-81d41cfbf928) | HG1101-99, 1 | Human | AI or mixed | **not explained yet** |
 
 ## Lineages still open (tries used of the cap)
 
@@ -192,4 +216,23 @@ The latest:
 | HG32-c2 | stretch | 1 of unlimited (Substack) | Mixed |
 | HG16-B209 | pair | 3 of 6 | Mixed |
 | HG-parent-script-P1 | paragraph | 1 of 6 | Mixed |
+| HG1101-14 | section | 1 of 2 | Mixed |
+| HG1101-17 | section | 1 of 2 | Mixed |
+| HG1101-20 | section | 1 of 2 | Mixed |
+| HG1101-23 | section | 1 of 2 | Mixed |
+| HG1101-27 | section | 1 of 2 | Mixed |
+| HG1101-39 | section | 1 of 2 | Mixed |
+| HG1101-40 | section | 1 of 2 | AI |
+| HG1101-41 | section | 1 of 2 | Mixed |
+| HG1101-44 | section | 1 of 2 | Mixed |
+| HG1101-46 | section | 1 of 2 | Mixed |
+| HG1101-53 | section | 1 of 2 | Mixed |
+| HG1101-59 | section | 1 of 2 | Mixed |
+| HG1101-69 | section | 1 of 2 | Mixed |
+| HG1101-71 | section | 1 of 2 | Mixed |
+| HG1101-72 | section | 1 of 2 | Mixed |
+| HG1101-74 | section | 1 of 2 | AI |
+| HG1101-84 | section | 1 of 2 | Mixed |
+| HG1101-93 | section | 1 of 2 | Mixed |
+| HG1101-99 | section | 1 of 2 | Mixed |
 
