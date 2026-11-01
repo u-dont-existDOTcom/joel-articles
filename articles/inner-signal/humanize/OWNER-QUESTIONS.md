@@ -34,7 +34,7 @@ Nothing for the guide right now.
   that aren't large are listed and left; and a window below High gets its meaning read again, since those are often the
   smoothed-over, vague places (gate E306, which replaces my "two checks in a row"). Sections get checked by themselves,
   not only inside the whole guide (E307).
-- 🟢 **Your cards page, in the guide** ([your answers](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/tries/review/ANSWERS-20261101-1850.json); [what went in, card by card](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/APPLIED-30b.json)): the 10 you
+- 🟢 **Your cards page, in the guide** ([what went in, card by card](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/APPLIED-30b.md)): the 10 you
   approved, your 10 versions word for word (obvious typos only fixed and listed: "embarass", "int he", "Can you can",
   "Jim Carey", "we need overcome" and four double spaces), and S-24 stays out. Your new headings ("Induction: gathering
   and softening attention", "Overly Confusing Isn't Automatically Good", "Already Trancey? Stabilize before dipping

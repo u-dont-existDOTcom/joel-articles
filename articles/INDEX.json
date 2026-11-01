@@ -37388,7 +37388,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/OWNER-QUESTIONS.md",
-          "sha256": "17d10240eb3890fa0e92b739801bbae35a7933345ca07600b84c67a9a13052bc",
+          "sha256": "aa20caf5da180fe118af7258df6107656894395773795dd25829c934a05c8689",
           "role": "humanization_working_record"
         },
         {
@@ -58634,6 +58634,11 @@
         {
           "path": "articles/inner-signal/humanize/fix-20261101/joel-20261101-1857-message.txt",
           "sha256": "64bd2749fd4d8f755905d5f32d21a41510e7d2a718248c676900d150e7d5a629",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261101/APPLIED-30b.md",
+          "sha256": "24d5c1991895d564019a376b72d7593fe0f1421d6d483f38a1f4302b838c78f3",
           "role": "humanization_working_record"
         }
       ]
