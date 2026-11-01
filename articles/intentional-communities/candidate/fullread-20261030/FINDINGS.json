@@ -1,0 +1,3244 @@
+{
+ "summary": {
+  "readers_missing": [],
+  "totals": {
+   "1": {
+    "parsed": 11,
+    "total_line": 11
+   },
+   "2": {
+    "parsed": 8,
+    "total_line": 8
+   },
+   "3": {
+    "parsed": 7,
+    "total_line": 7
+   },
+   "4": {
+    "parsed": 5,
+    "total_line": 5
+   },
+   "5": {
+    "parsed": 9,
+    "total_line": 9
+   },
+   "6": {
+    "parsed": 7,
+    "total_line": 7
+   },
+   "7": {
+    "parsed": 6,
+    "total_line": 6
+   },
+   "8": {
+    "parsed": 11,
+    "total_line": 11
+   },
+   "9": {
+    "parsed": 1,
+    "total_line": 1
+   },
+   "10": {
+    "parsed": 1,
+    "total_line": 1
+   }
+  },
+  "findings": 66,
+  "by_severity": {
+   "1": 50,
+   "2": 16
+  },
+  "by_kind": {
+   "garbled": 9,
+   "unclear": 25,
+   "lost": 26,
+   "vaguer": 6
+  },
+  "same_as_original": [],
+  "owner_words": [
+   "F1.1",
+   "F1.3",
+   "F1.4",
+   "F1.7",
+   "F1.8",
+   "F1.10",
+   "F2.1",
+   "F2.3",
+   "F2.5",
+   "F2.7",
+   "F2.8",
+   "F3.1",
+   "F3.2",
+   "F3.3",
+   "F3.4",
+   "F3.6",
+   "F3.7",
+   "F4.1",
+   "F4.2",
+   "F4.4",
+   "F4.5",
+   "F5.1",
+   "F5.2",
+   "F5.3",
+   "F5.4",
+   "F5.5",
+   "F5.6",
+   "F5.7",
+   "F5.8",
+   "F5.9",
+   "F6.1",
+   "F6.2",
+   "F6.3",
+   "F6.5",
+   "F6.6",
+   "F6.7",
+   "F7.1",
+   "F7.3",
+   "F7.5",
+   "F7.6",
+   "F8.1",
+   "F8.2",
+   "F8.3",
+   "F8.5",
+   "F8.6",
+   "F8.7",
+   "F8.9",
+   "F10.1"
+  ],
+  "not_found": [],
+  "paragraphs": 305,
+  "paragraphs_hit": {
+   "1": 56,
+   "2": 16,
+   "3": 0
+  }
+ },
+ "findings": [
+  {
+   "id": "F1.1",
+   "part": 1,
+   "now": "It was the result of years of work, traveling to all kinds of communes and communal experiments around the country, trying to answer a question that for him was primary: How do we live together without recreating the same loneliness, domination, and stupidity we were supposedly escaping?",
+   "published": "He made it in 1988 after spending years visiting communal experiments around the United States and asking a question that never really left him: how could human beings live together without reproducing the same loneliness, domination, and stupidity we were supposedly escaping?",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "Nothing in the sentence does the traveling and the trying (\"It\", the movie, is the only subject), and \"around the country\" no longer says which country, from a writer who later says he lives in Africa.",
+   "now_found": 1.0,
+   "now_blocks": [
+    2
+   ],
+   "where": [
+    "The New Age May Dawn Suddenly, P1"
+   ],
+   "block_hashes": [
+    "7635dcbee6d9c383"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    2
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "I just put a movie my father made in 1988 up on the Internet for the first time: *Where's Utopia?* It was the result of years of work, traveling to all kinds of communes and communal experiments around the country, trying to answer a question that for him was primary: How do we live together without recreating the same loneliness, domination, and stupidity we were supposedly escaping?"
+    }
+   ]
+  },
+  {
+   "id": "F1.2",
+   "part": 1,
+   "now": "At the time that meant a lot of boredom, with some adventures mixed in, but those years gave me a great sample to compare against.",
+   "published": "At the time this mostly meant boredom. In retrospect, it gave me a strangely useful comparison sample.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "Without a comma after \"At the time\", the reader first takes \"the time that meant a lot of boredom\" as one phrase and has to start the sentence again.",
+   "now_found": 1.0,
+   "now_blocks": [
+    13
+   ],
+   "where": [
+    "The New Age May Dawn Suddenly, P12"
+   ],
+   "block_hashes": [
+    "38d7b7be70c715b1"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    11
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "I spent much of my childhood being carried through Twin Oaks, Acorn, East Wind, Padanaram, Zendik, and many other communities. I was usually just a visitor’s kid, close enough to see how people lived but never quite part of the tribe. At the time that meant a lot of boredom, with some adventures mixed in, but those years gave me a great sample to compare against."
+    }
+   ]
+  },
+  {
+   "id": "F1.3",
+   "part": 1,
+   "now": "In case you aren’t familiar with Y2K, it was the Year 2000 (represented as year 00) computer bug which some folks like my dad especially, felt might be the end of civilization.",
+   "published": "while escaping Y2K, that brief historical period when otherwise reasonable adults prepared for civilization to be defeated by a two-digit date.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "The one comma after \"especially\" splits \"some folks\" from \"felt\", so the sentence reads as broken; it wants a comma on each side of \"like my dad especially\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    14
+   ],
+   "where": [
+    "The New Age May Dawn Suddenly, P13"
+   ],
+   "block_hashes": [
+    "1a2d681ace1fbcb1"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    12
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "From 1999 to 2001, my family actually lived with the Love Israel family in Washington while escaping Y2K, that brief historical period when otherwise reasonable adults prepared for civilization to be defeated by a two-digit date.",
+      "There were wild berries of every kind, and I loved being in nature."
+     ],
+     "added": [
+      "From 1999 to 2001, my family actually lived with the Love Israel family in Washington while escaping Y2K.",
+      "In case you aren't familiar with Y2K, it was the Year 2000 (represented as year 00) computer bug which some folks like my dad especially, felt might be the end of civilization.",
+      "At Love Israel, I had my dream of picking all kinds of wild berries in nature come true."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "From 1999 to 2001, my family actually lived with the Love Israel family in Washington while escaping Y2K, that brief historical period when otherwise reasonable adults prepared for civilization to be defeated by a two-digit date. We lived in a yurt. There were wild berries of every kind, and I loved being in nature. I was also lonely, bored, irritated by the cult programming, and missing my friends in Philadelphia."
+    }
+   ]
+  },
+  {
+   "id": "F1.4",
+   "part": 1,
+   "now": "At Love Israel, I had my dream of picking all kinds of wild berries in nature come true.",
+   "published": "There were wild berries of every kind, and I loved being in nature.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"I had my dream of picking ... berries in nature\" reads first as a dream he had, and \"come true\" only arrives at the end, so the reader has to go back.",
+   "now_found": 1.0,
+   "now_blocks": [
+    14
+   ],
+   "where": [
+    "The New Age May Dawn Suddenly, P13"
+   ],
+   "block_hashes": [
+    "1a2d681ace1fbcb1"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    12
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "From 1999 to 2001, my family actually lived with the Love Israel family in Washington while escaping Y2K, that brief historical period when otherwise reasonable adults prepared for civilization to be defeated by a two-digit date.",
+      "There were wild berries of every kind, and I loved being in nature."
+     ],
+     "added": [
+      "From 1999 to 2001, my family actually lived with the Love Israel family in Washington while escaping Y2K.",
+      "In case you aren't familiar with Y2K, it was the Year 2000 (represented as year 00) computer bug which some folks like my dad especially, felt might be the end of civilization.",
+      "At Love Israel, I had my dream of picking all kinds of wild berries in nature come true."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "From 1999 to 2001, my family actually lived with the Love Israel family in Washington while escaping Y2K, that brief historical period when otherwise reasonable adults prepared for civilization to be defeated by a two-digit date. We lived in a yurt. There were wild berries of every kind, and I loved being in nature. I was also lonely, bored, irritated by the cult programming, and missing my friends in Philadelphia."
+    }
+   ]
+  },
+  {
+   "id": "F1.5",
+   "part": 1,
+   "now": "There were like eight people at Acorn when I was there, and no kids. I couldn’t tell whether it was a commune I might join or a group of people who were already friends, and who happened to live on some really beautiful land and be good at building cool stuff.",
+   "published": "Acorn had something like eight people when I visited. There were no children there. I couldn’t tell whether it was a commune I might join or a group of friends who happened to own beautiful land and build lovely things together. Joining an established group of eight friends felt less like applying to a community than asking whether their group chat had an opening.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published joke about asking whether their group chat had an opening, which made the point that joining eight old friends is not like joining a community, is gone.",
+   "now_found": 1.0,
+   "now_blocks": [
+    20
+   ],
+   "where": [
+    "The New Age May Dawn Suddenly, P19"
+   ],
+   "block_hashes": [
+    "2c6b1f185a76fb8e"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    18
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "Joining would have felt less like applying to a commune than asking whether their group chat had an opening."
+     ],
+     "added": []
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "There were like eight people at Acorn when I was there, and no kids. I couldn't tell whether it was a commune I might join or a group of people who were already friends, and who happened to live on some really beautiful land and be good at building cool stuff. Joining would have felt less like applying to a commune than asking whether their group chat had an opening."
+    }
+   ]
+  },
+  {
+   "id": "F1.6",
+   "part": 1,
+   "now": "It was more like a tiny hippie town, but with a highly structured political system that didn’t seem intuitive for hippies.",
+   "published": "It felt more like a tiny hippie town with an unusually complicated labor-credit system.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "\"An unusually complicated labor-credit system\" named what made Twin Oaks institutional (how work is counted); \"a highly structured political system\" no longer says what it was.",
+   "now_found": 1.0,
+   "now_blocks": [
+    21
+   ],
+   "where": [
+    "The New Age May Dawn Suddenly, P20"
+   ],
+   "block_hashes": [
+    "a295833017832a7b"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    19
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Twin Oaks was much bigger, like two or three hundred people at the time, and almost institutional. It was friendly and interesting, but I didn't feel like I was in a tribe there. It was more like a tiny hippie town, but with a highly structured political system that didn't seem intuitive for hippies."
+    }
+   ]
+  },
+  {
+   "id": "F1.7",
+   "part": 1,
+   "now": "Suddenly, the longing to escape loneliness which inspired my father’s movie, is everywhere again.",
+   "published": "The longing that shaped my father’s film is suddenly everywhere again.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "The comma after \"movie\" with none before \"which\" splits the subject from its verb; it wants a comma on both sides of \"which inspired my father’s movie\", or none.",
+   "now_found": 1.0,
+   "now_blocks": [
+    29
+   ],
+   "where": [
+    "Communes Are Hot Again 🔥, P1"
+   ],
+   "block_hashes": [
+    "f4ddb9aa5a02a817"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    26
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Suddenly, the longing to escape loneliness which inspired my father’s movie, is everywhere again. Back in 2023, ironically, just the year after Covid lockdowns ended, the U.S. Surgeon General even put out an advisory, saying roughly half of American adults experience loneliness, and it treated social connection as a **public-health** issue."
+    }
+   ]
+  },
+  {
+   "id": "F1.8",
+   "part": 1,
+   "now": "Back in 2023, ironically, just the year after Covid lockdowns ended, the U.S. Surgeon General even put out an advisory, saying roughly half of American adults experience loneliness, and it treated social connection as a **public-health** issue.",
+   "published": "The U.S. Surgeon General’s 2023 advisory reported that roughly half of American adults experience loneliness and treated social connection as a public-health issue rather than a sentimental extra.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"Ironically\" never says what the irony is (that loneliness was declared a health issue only after the lockdowns that caused so much of it had ended), so the reader has to guess.",
+   "now_found": 1.0,
+   "now_blocks": [
+    29
+   ],
+   "where": [
+    "Communes Are Hot Again 🔥, P1"
+   ],
+   "block_hashes": [
+    "f4ddb9aa5a02a817"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    26
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Suddenly, the longing to escape loneliness which inspired my father’s movie, is everywhere again. Back in 2023, ironically, just the year after Covid lockdowns ended, the U.S. Surgeon General even put out an advisory, saying roughly half of American adults experience loneliness, and it treated social connection as a **public-health** issue."
+    }
+   ]
+  },
+  {
+   "id": "F1.9",
+   "part": 1,
+   "now": "In a large society the shared norms and close ties that held those groups together fall apart, and that’s how large societies end up run by psychopaths.",
+   "published": "none",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"That’s how\" claims a mechanism the sentence doesn’t give: it doesn’t say why the ties falling apart lets psychopaths rise (nobody knows anybody well enough to see who they are), and it wants a comma after \"In a large society\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    31
+   ],
+   "where": [
+    "Communes Are Hot Again 🔥, P3"
+   ],
+   "block_hashes": [
+    "bde7cceb6e47a8d3"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "What's starving them is anomie. We evolved to live in small groups where everybody knows everybody. In a large society the shared norms and close ties that held those groups together fall apart, and that's how large societies end up run by psychopaths. (Yes, I'm always going on about this.)"
+    }
+   ]
+  },
+  {
+   "id": "F1.10",
+   "part": 1,
+   "now": "Apart from the Covid lockdowns just prior, AI became serious around this time, and it started changing people’s jobs and relationships, and how they see the future.",
+   "published": "I can’t prove AI caused that turn. The timing is still hard to ignore. Around the same period, AI stopped being a tech-news curiosity and began reorganizing people’s jobs, feeds, relationships, and expectations of the future.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published caution that he can’t prove AI caused the turn, only that the timing is hard to ignore, is gone, so NOW states the cause; and \"Apart from\" can read as \"except for\" where it means \"besides\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    34
+   ],
+   "where": [
+    "Communes Are Hot Again 🔥, P6"
+   ],
+   "block_hashes": [
+    "2c801cdac48dcee6"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    30
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "I have no proof that the rise of AI caused this turn, but it's hard to ignore the coincidence in timing.",
+      "AI became serious around this time, and it started changing people's jobs and relationships, and how they see the future."
+     ],
+     "added": [
+      "Apart from the Covid lockdowns just prior, AI became serious around this time, and it started changing people's jobs and relationships, and how they see the future."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "I have no proof that the rise of AI caused this turn, but it’s hard to ignore the coincidence in timing. AI became serious around this time, and it started changing people’s jobs and relationships, and how they see the future. Suddenly, forming a village sounded like a good backup plan, not just a hippie utopian whim."
+    }
+   ]
+  },
+  {
+   "id": "F1.11",
+   "part": 1,
+   "now": "Later, when another influencer with a big following floated the commune idea, the comment section started to become a recruitment board, where people were apparently forming joint operations together right in there.",
+   "published": "Another large influencer later floated the commune idea, and the comments began turning into a recruitment board. People were finding prospective members under a post the way they might normally find a used sofa. It was chaotic, sincere, and revealing.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"Forming joint operations together right in there\" leaves the reader guessing what people were doing; the published version said they were finding members for communes in the comments.",
+   "now_found": 1.0,
+   "now_blocks": [
+    36
+   ],
+   "where": [
+    "Communes Are Hot Again 🔥, P8"
+   ],
+   "block_hashes": [
+    "bbadb6ea1250e83f"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    32
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "Later, when another influencer with a big following floated the commune idea, the comment section started to become a recruitment board.",
+      "It was chaotic, but sincere, and it was revealing.",
+      "There were people in the comments finding prospective members the way you'd usually find a used sofa."
+     ],
+     "added": [
+      "Later, when another influencer with a big following floated the commune idea, the comment section started to become a recruitment board, where people were apparently forming joint operations together right in there."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Later, when another influencer with a big following floated the commune idea, the comment section started to become a recruitment board. It was chaotic, but sincere, and it was revealing. There were people in the comments finding prospective members the way you’d usually find a used sofa."
+    }
+   ]
+  },
+  {
+   "id": "F2.1",
+   "part": 2,
+   "now": "Some of the commenters were skeptics tho. The oldest objection showed up immediately, restating the collective action problem: anarcho-communalism sounds great on paper, but when property becomes “owned by everyone, cared for by nobody,” the practicality comes into question.",
+   "published": "Not everybody in the comments was trying to join. The oldest objection arrived almost immediately: maybe most people don’t want the responsibility anarchism requires, and communal property becomes “owned by everyone, cared for by nobody.”",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "\"The practicality comes into question\" says less than the objection did: that most people may not want the responsibility anarchism requires, so shared property gets neglected.",
+   "now_found": 1.0,
+   "now_blocks": [
+    38
+   ],
+   "where": [
+    "The Freeloader Problem, P1"
+   ],
+   "block_hashes": [
+    "7bd286aae00d0260"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    34
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "first_seen": true,
+     "text": "Some of the commenters were skeptics tho. The oldest objection showed up immediately, restating the collective action problem: anarcho-communalism sounds great on paper, but when property becomes “owned by everyone, cared for by nobody,” the practicality comes into question."
+    }
+   ]
+  },
+  {
+   "id": "F2.2",
+   "part": 2,
+   "now": "Any attempt at communal ownership needs to take this into account by having folks take on visible and named stewardship duties, and by having a plan to deal with leeches.",
+   "published": "Communal ownership therefore needs named stewardship, visible duties, consequences for chronic freeloading, and enough relational capacity to confront the problem before resentment becomes the real government.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published list ended with \"enough relational capacity to confront the problem before resentment becomes the real government\", the point that ties freeloading to the article’s theme; NOW keeps the duties and the plan but drops it.",
+   "now_found": 1.0,
+   "now_blocks": [
+    41
+   ],
+   "where": [
+    "The Freeloader Problem, P4"
+   ],
+   "block_hashes": [
+    "036d470307374c3e"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    38
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "Communal ownership entails folks taking on visible and named stewardship duties.",
+      "It requires knowing what to do if someone is leeching off the group and how to deal with it.",
+      "It requires developing healthier forms of relationships."
+     ],
+     "added": [
+      "Any attempt at communal ownership needs to take this into account by having folks take on visible and named stewardship duties, and by having a plan to deal with leeches.",
+      "The How-To Manual after this essay deals with these issues."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Communal ownership entails folks taking on visible and named stewardship duties. It requires knowing what to do if someone is leeching off the group and how to deal with it. It requires developing healthier forms of relationships. No, taking away the idea of a boss does not make everyone less passive, selfish, thieving, nor suddenly unlearning learned helplessness."
+    }
+   ]
+  },
+  {
+   "id": "F2.3",
+   "part": 2,
+   "now": "No, taking away the idea of a boss does not make everyone less passive, selfish, thieving, nor suddenly unlearning learned helplessness.",
+   "published": "A community cannot run on the assumption that removing bosses removes passivity, selfishness, theft, or learned helplessness.",
+   "kind": "garbled",
+   "severity": 2,
+   "why": "\"Does not make everyone less passive, selfish, thieving, nor suddenly unlearning learned helplessness\" doesn’t parse: the list switches from adjectives to \"unlearning\", and \"nor\" has no verb of its own.",
+   "now_found": 1.0,
+   "now_blocks": [
+    41
+   ],
+   "where": [
+    "The Freeloader Problem, P4"
+   ],
+   "block_hashes": [
+    "036d470307374c3e"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    38
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "Communal ownership entails folks taking on visible and named stewardship duties.",
+      "It requires knowing what to do if someone is leeching off the group and how to deal with it.",
+      "It requires developing healthier forms of relationships."
+     ],
+     "added": [
+      "Any attempt at communal ownership needs to take this into account by having folks take on visible and named stewardship duties, and by having a plan to deal with leeches.",
+      "The How-To Manual after this essay deals with these issues."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Communal ownership entails folks taking on visible and named stewardship duties. It requires knowing what to do if someone is leeching off the group and how to deal with it. It requires developing healthier forms of relationships. No, taking away the idea of a boss does not make everyone less passive, selfish, thieving, nor suddenly unlearning learned helplessness."
+    }
+   ]
+  },
+  {
+   "id": "F2.4",
+   "part": 2,
+   "now": "The How-To Manual after this essay deals with these issues.",
+   "published": "The desire to return to a natural way of living together has outrun the knowledge. People know they’re lonely and exhausted. They usually don’t know why so many earlier communities failed, why the same conflicts keep returning, or how quickly beautiful land becomes irrelevant once money, children, jealousy, and ownership enter the picture.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published paragraph saying the longing has outrun the knowledge (people know they’re lonely, but not why earlier communities failed or why the same conflicts return) is gone, and with it the reason the next section exists.",
+   "now_found": 1.0,
+   "now_blocks": [
+    41
+   ],
+   "where": [
+    "The Freeloader Problem, P4"
+   ],
+   "block_hashes": [
+    "036d470307374c3e"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    39
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "Communal ownership entails folks taking on visible and named stewardship duties.",
+      "It requires knowing what to do if someone is leeching off the group and how to deal with it.",
+      "It requires developing healthier forms of relationships."
+     ],
+     "added": [
+      "Any attempt at communal ownership needs to take this into account by having folks take on visible and named stewardship duties, and by having a plan to deal with leeches.",
+      "The How-To Manual after this essay deals with these issues."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Communal ownership entails folks taking on visible and named stewardship duties. It requires knowing what to do if someone is leeching off the group and how to deal with it. It requires developing healthier forms of relationships. No, taking away the idea of a boss does not make everyone less passive, selfish, thieving, nor suddenly unlearning learned helplessness."
+    }
+   ]
+  },
+  {
+   "id": "F2.5",
+   "part": 2,
+   "now": "Most communes of my acquaintance traded inner freedom of the heart (spirituality) for outer freedom (secular, nondogmatic, political). The two pendulum ends of this trade-off mirror each other.",
+   "published": "The two failures mirror each other. Secular groups distribute power but leave the inner life largely private. Spiritual groups address the inner life but concentrate power around whoever defines the path.",
+   "kind": "unclear",
+   "severity": 2,
+   "why": "The first sentence says most communes gave up inner freedom for outer freedom, which is only the secular half; the \"two pendulum ends\" and the spiritual section that follows need \"or the other way around\", and the published version said how the two mirror each other (power shared but the inner life left private, or the inner life addressed but power concentrated).",
+   "now_found": 1.0,
+   "now_blocks": [
+    45
+   ],
+   "where": [
+    "Why Communities Keep Dying in the Same Two Ways, P1"
+   ],
+   "block_hashes": [
+    "1ddc37977ad87079"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    51
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "first_seen": true,
+     "text": "Most communes of my acquaintance traded inner freedom of the heart (spirituality) for outer freedom (secular, nondogmatic, political). The two pendulum ends of this trade-off mirror each other. I believe we can combine the best of both, but first, let’s see how each fails individually."
+    }
+   ]
+  },
+  {
+   "id": "F2.6",
+   "part": 2,
+   "now": "A place where people who’ve done the healing first can join without pretending they’re fully finished, and that also has peer practice and enough play that it doesn’t become a permanent repair shop.",
+   "published": "I want depth without a guru owning it, and distributed authority without pretending that people arrive emotionally finished. That requires practice between peers, plus enough play that the community doesn’t become a permanent repair shop.",
+   "kind": "unclear",
+   "severity": 2,
+   "why": "\"People who’ve done the healing first can join\" reads as a condition for joining, while the published point was the opposite: nobody has to arrive emotionally finished.",
+   "now_found": 1.0,
+   "now_blocks": [
+    54
+   ],
+   "where": [
+    "We Want Freedom Inside & Out!, P2"
+   ],
+   "block_hashes": [
+    "4fae197147ece92e"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    53
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "I dream of a way to work in depth that isn’t run by a guru, and a way of being in a community with distributed authority. A place where people who've done the healing first can join without pretending they're fully finished, and that also has peer practice and enough play that it doesn’t become a permanent repair shop."
+    }
+   ]
+  },
+  {
+   "id": "F2.7",
+   "part": 2,
+   "now": "Each of us guides our own compatible practice, and our practices weave the community into the quilt that keeps us all warm and safe.",
+   "published": "Nothing suppressed, everything processed; authority stays with the practitioner; the community provides the container; and the answers remain fluid and organic instead of freezing into doctrine.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"Compatible\" never says with what (with each other’s practice, or with the shared one), so the reader has to guess.",
+   "now_found": 1.0,
+   "now_blocks": [
+    55
+   ],
+   "where": [
+    "We Want Freedom Inside & Out!, P3"
+   ],
+   "block_hashes": [
+    "de70bc659dc5c327"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    60
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "fc1dfd78",
+     "date": "2026-10-26",
+     "subject": "Hypnosis guide: batch 479's recheck read, batch 480 and its recheck; community article promoted after his changes",
+     "dropped": [
+      "Whatever answers we find stay fluid and organic."
+     ],
+     "added": [
+      "Whatever answers we find stay fluid and organic, and don't freeze into doctrine."
+     ]
+    },
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "Nothing suppressed, everything processed.",
+      "Each of us guides our own practice, and our practices weave the community into the quilt that keeps us all warm and safe."
+     ],
+     "added": [
+      "The motto would be:",
+      "Nothing suppressed, everything processed.\" Each of us guides our own compatible practice, and our practices weave the community into the quilt that keeps us all warm and safe."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Nothing suppressed, everything processed. Each of us guides our own practice, and our practices weave the community into the quilt that keeps us all warm and safe. Whatever answers we find stay fluid and organic."
+    }
+   ]
+  },
+  {
+   "id": "F2.8",
+   "part": 2,
+   "now": "Secular communities, on the other hand, often call it “the process,” which can become just as sacred.",
+   "published": "Secular communities often call it “the process,” which can become equally sacred—just with longer meetings and fewer robes.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published joke \"just with longer meetings and fewer robes\", which showed how \"the process\" becomes sacred, is gone.",
+   "now_found": 1.0,
+   "now_blocks": [
+    57
+   ],
+   "where": [
+    "We Want Freedom Inside & Out!, P5"
+   ],
+   "block_hashes": [
+    "b2c04ae5f53e4deb"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    63
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "When agreements get frozen, religious communities tend to call the frozen version doctrine. Secular communities on the other hand often call it “the process,” which can become just as sacred."
+    }
+   ]
+  },
+  {
+   "id": "F3.1",
+   "part": 3,
+   "now": "Uh, but wait, where do you find these people?",
+   "published": "Possible places to meet people include unprogrammed Quaker meetings, restorative-practice groups, open-hearted congregations, mature recovery communities, meditation groups, and people who came back from a long retreat kinder rather than more impressed with themselves.",
+   "kind": "unclear",
+   "severity": 2,
+   "why": "\"These people\" points back to nobody: the paragraph before is about the values to list, and the practice group they would form is only named in the next section (\"Call it a practice group\"), so the heading and the question come before the reader knows what group is meant.",
+   "now_found": 1.0,
+   "now_blocks": [
+    73
+   ],
+   "where": [
+    "Practice group of whom?, P1"
+   ],
+   "block_hashes": [
+    "5d85fe51f7bc1479"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    369
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "Where do you find these people?",
+      "Try an unprogrammed Quaker meeting, a restorative-practice group, an open-hearted congregation, a mature recovery group, a meditation group, or find some people who have gone on long retreats and come back kinder, rather than more impressed with themselves."
+     ],
+     "added": [
+      "Uh, but wait, where do you find these people?",
+      "Try an unprogrammed Quaker or Unitarian meeting, a restorative-practice group, any open-hearted congregation, a mature recovery group, a meditation group, or find some people who have gone on long retreats and come back kinder, rather than more impressed with themselves."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Where do you find these people? Try an unprogrammed Quaker meeting, a restorative-practice group, an open-hearted congregation, a mature recovery group, a meditation group, or find some people who have gone on long retreats and come back kinder, rather than more impressed with themselves."
+    }
+   ]
+  },
+  {
+   "id": "F3.2",
+   "part": 3,
+   "now": "Fun and nice things first give incentive.",
+   "published": "none",
+   "kind": "unclear",
+   "severity": 2,
+   "why": "A compressed note: the reader has to work out that it means \"start with the fun and nice things, because they give people a reason to keep coming\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    78
+   ],
+   "where": [
+    "Practice Before Committing, P1"
+   ],
+   "block_hashes": [
+    "b58ceaf6de43d30d"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "Here's an idea if you're remote, or stuck where you are:",
+      "build the part of community you actually can.",
+      "Set up a counseling exchange with one friend, in person or by video."
+     ],
+     "added": [
+      "So, build the part of community you actually can.",
+      "Call it a practice group, for now, not a commune.",
+      "Fun and nice things first give incentive.",
+      "Set up a counseling exchange with one friend, in person or by video call."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Here's an idea if you're remote, or stuck where you are: build the part of community you actually can. Have a weekly meal with two households. Set up a counseling exchange with one friend, in person or by video. Share tools or childcare. Transport or food prep work too. Or a sauna. And if you're hippie enough, add acro-yoga, dance improv, a mothers' circle or a cuddle puddle."
+    }
+   ]
+  },
+  {
+   "id": "F3.3",
+   "part": 3,
+   "now": "And once you’re past those phases, if you still want to live together, you can all meet in a rented or borrowed space, or at each other’s houses, long before anyone needs a land surveyor.",
+   "published": "Three households reliably showing up for one another for six months will teach you more than another year of imagining the ideal village.",
+   "kind": "unclear",
+   "severity": 2,
+   "why": "After the phases, the next step is to \"meet in a rented or borrowed space, or at each other’s houses\", which the group has been doing all along; the reader can’t tell whether \"meet\" means \"live together\" there before buying land.",
+   "now_found": 1.0,
+   "now_blocks": [
+    80
+   ],
+   "where": [
+    "Practice Before Committing, P3"
+   ],
+   "block_hashes": [
+    "f7f7ac1954bde1bf"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    364
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "Until that's happened, you're all still promising strangers, and you don't want to take out a mortgage together yet.",
+      "That's okay!",
+      "You can all meet in a rented or borrowed space, or at each other's houses, long before anyone needs a land surveyor."
+     ],
+     "added": [
+      "Until all of those phases are passed thru, you're all still promising strangers, and you don't want to take out a mortgage together yet.",
+      "And once you're past those phases, if you still want to live together, you can all meet in a rented or borrowed space, or at each other's houses, long before anyone needs a land surveyor."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Until that’s happened, you’re all still promising strangers, and you don’t want to take out a mortgage together yet. That’s okay! You can all meet in a rented or borrowed space, or at each other’s houses, long before anyone needs a land surveyor."
+    }
+   ]
+  },
+  {
+   "id": "F3.4",
+   "part": 3,
+   "now": "Many perfectly intelligent grownups would rather sit around for six hours talking about solar panels than talk about jealousy, God, death, childhood, money, sex, psychedelics, or somebody wanting to leave, which is what I ask people to do in this article.",
+   "published": "This article asks people to discuss jealousy, God, death, childhood, money, sex, psychedelics, and what happens when somebody wants to leave. Many perfectly intelligent adults would rather discuss solar panels for six hours.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"Which is what I ask people to do\" can attach to \"somebody wanting to leave\", as if the article asked people to leave; it means talking about all of those things.",
+   "now_found": 1.0,
+   "now_blocks": [
+    82
+   ],
+   "where": [
+    "The Math of Absorption, P1"
+   ],
+   "block_hashes": [
+    "6c6ae6f1ce2058f3"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    253
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Many perfectly intelligent grownups would rather sit around for six hours talking about solar panels than talk about jealousy, God, death, childhood, money, sex, psychedelics, or somebody wanting to leave, which is what I ask people to do in this article."
+    }
+   ]
+  },
+  {
+   "id": "F3.5",
+   "part": 3,
+   "now": "Even a professional faker may be able to pull off an act for months.",
+   "published": "Even a professional faker can sometimes perform for months; time gives you more evidence, not certainty.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published sentence went on \"time gives you more evidence, not certainty\", which is what the \"Even\" leads to; without it the long visit’s point (useful, but no guarantee) is left for the reader to work out.",
+   "now_found": 1.0,
+   "now_blocks": [
+    102
+   ],
+   "where": [
+    "From Visitor to Member—Slowly, P2"
+   ],
+   "block_hashes": [
+    "6b18e4deef351b53"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    302
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "If someone will have a role in your group that has serious consequences, involving kids, shared resources, medicine, vehicles or private records, you want to know how they handle that specific thing.",
+      "I wouldn't hand someone the van keys just because they're great with kids."
+     ],
+     "added": [
+      "First, correspond with the visitor. Did they read the materials?",
+      "(Not everyone does.) Do they get the basic idea of why this community is here?",
+      "Are they at least starting to do the relevant practices?",
+      "It's a lot cheaper to find out through a thoughtful exchange than after six months of misunderstanding, right?",
+      "The short visit: If they come for a week or two and just participate in normal life, well, most people can be charming for two weeks.",
+      "Not exactly a high bar.",
+      "😅 So that's about all you'll find out.",
+      "The long visit: If you're not around long enough to actually experience inconvenience and conflict with the person in question, then you're not going to learn very much about them.",
+      "Watch how they react when working and making decisions in the group.",
+      "When tired, corrected, attracted, disappointed, bored, etc.",
+      "(Hopefully not all at once!) Even a professional faker may be able to pull off an act for months.",
+      "Taking on responsibilities: If someone will have a role in your group that has serious consequences, involving kids, shared resources, medicine, vehicles or private records, you want to know how they handle that specific area of competence.",
+      "Great skill with kids doesn't mean they can drive the van down the windy roads safely."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "If someone will have a role in your group that has serious consequences, involving kids, shared resources, medicine, vehicles or private records, you want to know how they handle that specific thing. I wouldn’t hand someone the van keys just because they’re great with kids. You can find out by checking whether you’ve seen them do this thing before, and asking for references if appropriate. Give people access to these things in stages and ensure there’s always some way to appeal decisions about these roles to a separate authority if needed."
+    }
+   ]
+  },
+  {
+   "id": "F3.6",
+   "part": 3,
+   "now": "But medicine is an optional part of the overall therapy process, and if a member is avoiding the therapy process and becoming hard to deal with, they will naturally not belong at a certain point.",
+   "published": "none",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"But\" sits on the sentence that agrees with the one before (medicine is optional); the contrast it means is that the therapy process is not optional, which the reader has to work out.",
+   "now_found": 1.0,
+   "now_blocks": [
+    106
+   ],
+   "where": [
+    "From Visitor to Member—Slowly, P6"
+   ],
+   "block_hashes": [
+    "ffdc1586641aadd5"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "It should go without saying that nobody has to take medicine to have equal respect in the community. But medicine is an optional part of the overall therapy process, and if a member is avoiding the therapy process and becoming hard to deal with, they will naturally not belong at a certain point. If it gets to the point of being impossible to live with, they will be kicked out. But nearly always, people who don't fit in leave way before that."
+    }
+   ]
+  },
+  {
+   "id": "F3.7",
+   "part": 3,
+   "now": "The exit terms in “Leaving, Removal, and Dissolution” section after that would also help for thinking about those agreements.",
+   "published": "none",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"In “Leaving, Removal, and Dissolution” section\" is missing \"the\", and \"help for thinking about\" wants \"help with thinking about\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    108
+   ],
+   "where": [
+    "From Visitor to Member—Slowly, P8"
+   ],
+   "block_hashes": [
+    "83fb4ab2dcf3addb"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "first_seen": true,
+     "text": "Before making long-term commitments, it really makes sense to go through the choices explained in my below sections about technology, relationships, children, money, and founder power. The exit terms in “Leaving, Removal, and Dissolution” section after that would also help for thinking about those agreements."
+    }
+   ]
+  },
+  {
+   "id": "F4.1",
+   "part": 4,
+   "now": "I also suspect there may be a private relationship they have with ayahuasca, since Mimosa hostilis (a potent DMT ayahuasca plant) mainly comes from that region, and the Mexican government vaguely accuses them of narcotrafficking.",
+   "published": "I also suspect there may be a private relationship with ayahuasca, but nobody told me that, and I present it only as my impression—not as fact.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published sentence said nobody told him this and he offers it only as his impression, not as fact; NOW gives reasons for the suspicion instead, so a claim about a real movement and a drug reads firmer than he made it.",
+   "now_found": 1.0,
+   "now_blocks": [
+    118
+   ],
+   "where": [
+    "Zap spirituality enigma, P1"
+   ],
+   "block_hashes": [
+    "6ee79467061b3bcf"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    202
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "first_seen": true,
+     "text": "I felt a deep spirituality from the Zapatistas. The Mayan language, as they explained, doesn’t even have subject/object structure. Instead of “I put the glass there” it’s something like “With me, the glass moved there.” I also suspect there may be a private relationship they have with ayahuasca, since Mimosa hostilis (a potent DMT ayahuasca plant) mainly comes from that region, and the Mexican government vaguely accuses them of narcotrafficking. That’s another reason to look at them as an example of much of my model, since if they are using ayahuasca, it could explain some things about their political struggles and spiritual successes, including the fact that they have the most beautiful poetic rhetoric I’ve ever seen published."
+    }
+   ]
+  },
+  {
+   "id": "F4.2",
+   "part": 4,
+   "now": "Now, the Zapatistas also don’t prove my whole money-free economy goal.",
+   "published": "I’m borrowing a pedagogy and a replication ambition, not claiming the Zapatistas already proved my whole model.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "A goal can’t be proved; the sentence means their example doesn’t show a money-free economy working, since they still use money, which the next sentence has to explain.",
+   "now_found": 1.0,
+   "now_blocks": [
+    133
+   ],
+   "where": [
+    "Money is still a problem, P1"
+   ],
+   "block_hashes": [
+    "bc527e85980ba129"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    215
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Now, the Zapatistas also don't prove my whole money-free economy goal. They still use money internally in some cases, not others, and they still use it externally for trade. They've also benefitted from outside economic help, while at the same time making efforts to remain politically independent from donors and more self-sustaining."
+    }
+   ]
+  },
+  {
+   "id": "F4.3",
+   "part": 4,
+   "now": "But it means that people building institutions of this sort have another serious system to study, instead of inventing their governance during their first dispute.",
+   "published": "The resemblance doesn’t prove a universal formula. It gives builders another serious system to study instead of inventing governance during their first dispute.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "The published step \"the resemblance doesn’t prove a universal formula\" is gone, so \"But it means\" contrasts with nothing and \"it\" has no clear referent.",
+   "now_found": 1.0,
+   "now_blocks": [
+    137
+   ],
+   "where": [
+    "Are Zapatistas just unicorns?, P2"
+   ],
+   "block_hashes": [
+    "15f5742e756e112c"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    216
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "Does this prove there's a universal formula?"
+     ],
+     "added": []
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Sociocracy has a very different history, yet some similar features have emerged there as well: circles, decision-making by consent, distributed authority, and linking between the levels. Does this prove there's a universal formula? No. But it means that people building institutions of this sort have another serious system to study, instead of inventing their governance during their first dispute."
+    }
+   ]
+  },
+  {
+   "id": "F4.4",
+   "part": 4,
+   "now": "I’d probably not sell any tickets if I held a workshop called, “Rebuilding Intergenerational Belonging.",
+   "published": "Nobody needs to announce a workshop called “Rebuilding Intergenerational Belonging.” An aunt has already assigned three people a task.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published joke \"An aunt has already assigned three people a task\", the concrete picture of the extended family already doing the work, is gone.",
+   "now_found": 1.0,
+   "now_blocks": [
+    145
+   ],
+   "where": [
+    "What Community Looks Like From Sénégal, P6"
+   ],
+   "block_hashes": [
+    "b3e40916693f48b0"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    328
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "Who needs a workshop called \"Rebuilding Intergenerational Belonging\" when some aunt has already given three people a task?"
+     ],
+     "added": [
+      "I'd probably not sell any tickets if I held a workshop called, \"Rebuilding Intergenerational Belonging.\" 😅"
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "In the villages and families I've spent time around, so much is taken care of by the extended family and the local memory, alongside the formal systems. Whether it's land, childcare, housing, food, obligations, etc, etc. Who needs a workshop called \"Rebuilding Intergenerational Belonging\" when some aunt has already given three people a task?"
+    }
+   ]
+  },
+  {
+   "id": "F4.5",
+   "part": 4,
+   "now": "But the “tolerance” part is funny…",
+   "published": "none",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "It never says why the \"tolerance\" part is funny (the socially conservative country of the paragraphs around it, or the first letters spelling TOUBA, as the picture shows), so the reader is left with the joke but not its point.",
+   "now_found": 1.0,
+   "now_blocks": [
+    150
+   ],
+   "where": [
+    "What Community Looks Like From Sénégal, P11"
+   ],
+   "block_hashes": [
+    "a1d7e7d270f6fcbb"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "Even in Dakar, I found this graffiti on a wall:"
+     ],
+     "added": [
+      "Even in Dakar, the overpopulated capital, I found this graffiti on a wall:",
+      "But the \"tolerance\" part is funny..."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Even in Dakar, I found this graffiti on a wall: \"Tolerance! Openness! Union! Happiness! Love!\" And elsewhere there are murals of Sufi leaders. Spiritual graffiti still surprises me. Where I grew up, a city wall was either selling you a product or showing off somebody's inability to draw a penis."
+    }
+   ]
+  },
+  {
+   "id": "F5.1",
+   "part": 5,
+   "now": "The warmth has hard limits here. One noteworthy example is the plight of LGBTQ+ people here, who cross them automatically.",
+   "published": "none",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"Who cross them automatically\" makes the reader go back to find that \"them\" is the limits; it means LGBTQ+ people are outside those limits just by being who they are.",
+   "now_found": 1.0,
+   "now_blocks": [
+    154
+   ],
+   "where": [
+    "All is not well in paradise, P1"
+   ],
+   "block_hashes": [
+    "0f0885a5fdc3b2c5"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "But does this mean I think Sénégal is some magical place that's kept its communal paradise?",
+      "No, not quite."
+     ],
+     "added": []
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "But does this mean I think Sénégal is some magical place that's kept its communal paradise? No, not quite. The warmth has hard limits here. One noteworthy example is the plight of LGBTQ+ people here, who cross them automatically."
+    }
+   ]
+  },
+  {
+   "id": "F5.2",
+   "part": 5,
+   "now": "And the relatives stay dependent too, since the payments aren’t in something that builds on itself, like compost for soil.",
+   "published": "none",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"The payments aren’t in something that builds on itself, like compost for soil\" is compressed: the reader has to work out that the money goes on needs of the moment instead of into something that grows, the way compost builds soil.",
+   "now_found": 1.0,
+   "now_blocks": [
+    168
+   ],
+   "where": [
+    "Lessons from the Black Tax, P3"
+   ],
+   "block_hashes": [
+    "35343c3c82d0ef36"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "But these days it can be soul destroying.",
+      "How can they get ahead, when all these people are dependent on them?",
+      "And the relatives stay dependent too, since the payments don't give them a real alternative.",
+      "It's the ancestral ethic playing out inside an individualistic cash economy.",
+      "It can keep people alive, but it eats away at both sides too."
+     ],
+     "added": [
+      "But these days, the pressure to give back can be soul destroying.",
+      "And the relatives stay dependent too, since the payments aren't in something that builds on itself, like compost for soil.",
+      "Injecting cash into non-cash economies might feel good, but like candy, it can also undermine the health of the local relationships and sustainability."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "But these days it can be soul destroying. People have a lot less of the communal life that held the obligation up (the shared land, work, childcare, food and daily belonging), but they still carry it. So if one of them makes it into the cash economy, it's really hard to build any independence or long-term stability, because they may be expected to carry everybody. How can they get ahead, when all these people are dependent on them? And the relatives stay dependent too, since the payments don't give them a real alternative. It's the ancestral ethic playing out inside an individualistic cash economy. It can keep people alive, but it eats away at both sides too."
+    }
+   ]
+  },
+  {
+   "id": "F5.3",
+   "part": 5,
+   "now": "I’ve broken the model I propose down into the 4 parts shown in the above diagram. Note, Pl/ork means play + work. Calling therapy “inner work” forgets the inner child, who also wants to play. (Forgive the neologism. I hope pl/ork isn’t too corny. 🌽): 1) inner pl/ork (reparenting), 2) relational pl/ork (peer counseling especially), 3) medicine pl/ork (like loveyhuasca or iboga), and 4) the practical logistical foundation which is most of this article, since I have guides separately on the other parts. Obviously the details are complicated, and jealousy, children, money, land, God, and iboga don’t fit neatly into four boxes, but let’s go with it.",
+   "published": "I divide the model into four parts. Yes, four sounds suspiciously tidy for something involving jealousy, children, land, money, God, and iboga. Bear with me. I’ve published detailed guides for the first three—free, with no funnel and no retreat to buy. Most of this article is about the fourth.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "The list of the four parts comes three sentences after \"the 4 parts\", hung on the colon after \"(Forgive the neologism ... 🌽)\", so the reader has to carry the list back to where it belongs.",
+   "now_found": 1.0,
+   "now_blocks": [
+    179
+   ],
+   "where": [
+    "The Four Parts That Have to Pl/ork Together, P3"
+   ],
+   "block_hashes": [
+    "ee24e10219dec024"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    57
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "I’ve broken the model I propose down into the 4 parts shown in the above diagram. Note, Pl/ork means play + work. Calling therapy “inner work” forgets the inner child, who also wants to play. (Forgive the neologism. I hope pl/ork isn’t too corny. 🌽): 1) inner pl/ork (reparenting), 2) relational pl/ork (peer counseling especially), 3) medicine pl/ork (like loveyhuasca or iboga), and 4) the practical logistical foundation which is most of this article, since I have guides separately on the other parts. Obviously the details are complicated, and jealousy, children, money, land, God, and iboga don’t fit neatly into four boxes, but let’s go with it."
+    }
+   ]
+  },
+  {
+   "id": "F5.4",
+   "part": 5,
+   "now": "4) the practical logistical foundation which is most of this article, since I have guides separately on the other parts.",
+   "published": "I’ve published detailed guides for the first three—free, with no funnel and no retreat to buy.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published sentence said his guides to the first three parts are free, \"with no funnel and no retreat to buy\", which matters in an article that warns about founders and money; NOW only says the guides exist.",
+   "now_found": 1.0,
+   "now_blocks": [
+    179
+   ],
+   "where": [
+    "The Four Parts That Have to Pl/ork Together, P3"
+   ],
+   "block_hashes": [
+    "ee24e10219dec024"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    57
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "I’ve broken the model I propose down into the 4 parts shown in the above diagram. Note, Pl/ork means play + work. Calling therapy “inner work” forgets the inner child, who also wants to play. (Forgive the neologism. I hope pl/ork isn’t too corny. 🌽): 1) inner pl/ork (reparenting), 2) relational pl/ork (peer counseling especially), 3) medicine pl/ork (like loveyhuasca or iboga), and 4) the practical logistical foundation which is most of this article, since I have guides separately on the other parts. Obviously the details are complicated, and jealousy, children, money, land, God, and iboga don’t fit neatly into four boxes, but let’s go with it."
+    }
+   ]
+  },
+  {
+   "id": "F5.5",
+   "part": 5,
+   "now": "And that actually symbolizes the adult/child relationship to me in some way as well.",
+   "published": "Then there’s somatic regulation, because the mind can make a magnificent decision while the nervous system quietly files an appeal.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "\"In some way\" leaves the reader to guess how the body and the mind stand for the child and the adult, and the published joke (the mind decides while the nervous system \"quietly files an appeal\") that showed why the body comes first is gone.",
+   "now_found": 1.0,
+   "now_blocks": [
+    184
+   ],
+   "where": [
+    "1. Inner pl/ork, P4"
+   ],
+   "block_hashes": [
+    "94c60a0017d751d1"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    70
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "And this reparenting journey is built on somatic regulation first. I.e., listening to the body's feelings before making a decision with the mind. And that actually symbolizes the adult/child relationship to me in some way as well."
+    }
+   ]
+  },
+  {
+   "id": "F5.6",
+   "part": 5,
+   "now": "But since we’re merging peer therapy with community, we also need to make sure that the person caring about you and listening to you shouldn’t translate that information into administration over your life, the way a professional therapist might diagnose you as this or that and then suddenly you’re ineligible for certain careers.",
+   "published": "But care is not jurisdiction. The person listening to me should not automatically gain power over my membership, work, housing, children, medicine, or the evidence in a dispute about them.",
+   "kind": "garbled",
+   "severity": 2,
+   "why": "\"Make sure that the person ... shouldn’t translate\" doesn’t parse, \"that information\" has nothing before it (what you tell them while they listen), and \"administration over your life\" is vaguer than the published list: power over your membership, work, housing, children, medicine, or the evidence in a dispute.",
+   "now_found": 1.0,
+   "now_blocks": [
+    188
+   ],
+   "where": [
+    "2. Relational pl/ork, P3"
+   ],
+   "block_hashes": [
+    "558aba545ad3067a"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    75
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "But since we're merging peer therapy with community, we also need to make sure that the person caring about you and listening to you shouldn't translate that information into administration over your life, the way a professional therapist might diagnose you as this or that and then suddenly you're ineligible for certain careers. Although obviously that information can come out regardless when people are in close quarters."
+    }
+   ]
+  },
+  {
+   "id": "F5.7",
+   "part": 5,
+   "now": "It’s the practical logistical foundation that gets built once the architects can work well together.",
+   "published": "The first three parts shape the community’s inner life. The container gives that work a stable place to happen.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"The architects\" appear from nowhere; the reader has to guess they are the members, who build the foundation once they can work together.",
+   "now_found": 1.0,
+   "now_blocks": [
+    194
+   ],
+   "where": [
+    "4. The container, P2"
+   ],
+   "block_hashes": [
+    "41dfafbdfc417186"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    91
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "The first three parts are the inside of the container, and this container is what gives those a stable place to manifest. It's the practical logistical foundation that gets built once the architects can work well together."
+    }
+   ]
+  },
+  {
+   "id": "F5.8",
+   "part": 5,
+   "now": "This is the part about membership, land, resources, governance, children, leaving, etc.",
+   "published": "Beautiful land can’t compensate for ownership that gives one person the final say. Peer counseling can’t rescue a membership process that admits people faster than the group can support them. Medicine can’t repair an exit agreement that was never written.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "The published container section said why it can’t be skipped: land can’t make up for one person owning it, peer counseling can’t rescue a membership process that admits people too fast, medicine can’t repair an exit agreement nobody wrote, and a skipped part comes back under pressure; NOW keeps only a list of its topics (the last point survives only in the diagram’s description).",
+   "now_found": 1.0,
+   "now_blocks": [
+    193
+   ],
+   "where": [
+    "4. The container, P1"
+   ],
+   "block_hashes": [
+    "5eb44e9a4a8538ed"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    90
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "This is the part about membership, land, resources, governance, children, leaving, etc."
+    }
+   ]
+  },
+  {
+   "id": "F5.9",
+   "part": 5,
+   "now": "Injecting cash into non-cash economies might feel good, but like candy, it can also undermine the health of the local relationships and sustainability.",
+   "published": "This is also the boundary problem a money-free commune has to solve. Internal life can be cashless while taxes, hospitals, visas, school fees, family obligations, imported tools, and other outside relationships still arrive denominated in money. The question is not whether to recreate individual wages inside the commune. It is who handles that interface, how much collective cash is kept for it, and how to stop access to outside money from becoming a new status hierarchy.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "The published section drew the lesson for a commune from the Black Tax: inside life can be cashless while taxes, hospitals and visas still need money, so someone has to handle that boundary without access to outside money becoming a new status hierarchy; NOW ends on the candy image, and the section no longer says what it teaches a commune.",
+   "now_found": 1.0,
+   "now_blocks": [
+    168
+   ],
+   "where": [
+    "Lessons from the Black Tax, P3"
+   ],
+   "block_hashes": [
+    "35343c3c82d0ef36"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    346
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "But these days it can be soul destroying.",
+      "How can they get ahead, when all these people are dependent on them?",
+      "And the relatives stay dependent too, since the payments don't give them a real alternative.",
+      "It's the ancestral ethic playing out inside an individualistic cash economy.",
+      "It can keep people alive, but it eats away at both sides too."
+     ],
+     "added": [
+      "But these days, the pressure to give back can be soul destroying.",
+      "And the relatives stay dependent too, since the payments aren't in something that builds on itself, like compost for soil.",
+      "Injecting cash into non-cash economies might feel good, but like candy, it can also undermine the health of the local relationships and sustainability."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "But these days it can be soul destroying. People have a lot less of the communal life that held the obligation up (the shared land, work, childcare, food and daily belonging), but they still carry it. So if one of them makes it into the cash economy, it's really hard to build any independence or long-term stability, because they may be expected to carry everybody. How can they get ahead, when all these people are dependent on them? And the relatives stay dependent too, since the payments don't give them a real alternative. It's the ancestral ethic playing out inside an individualistic cash economy. It can keep people alive, but it eats away at both sides too."
+    }
+   ]
+  },
+  {
+   "id": "F6.1",
+   "part": 6,
+   "now": "And most intentional communities using psychedelics are still not public about it, due to possible trouble (even where the law allows some use) from parents worried about children, from neighbors imagining chaos, from insurance providers who might drop them, and from local officials who may not understand any of the distinctions.",
+   "published": "Communities therefore face real legal differences by country, state, substance, religious status, and activity. Anyone building around medicine needs actual local legal advice, not a friend who once read a thread.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "The published paragraph before it said the law differs by country, state, substance, religious status and activity, and that anyone building around medicine needs real local legal advice; NOW drops both, so \"the distinctions\" refers to nothing and the legal caution is gone.",
+   "now_found": 1.0,
+   "now_blocks": [
+    197
+   ],
+   "where": [
+    "The Medicine Part - Yes, I’m Naming It, P1"
+   ],
+   "block_hashes": [
+    "1cb372a54620500d"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    96
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "Most intentional communities using psychedelics are still not public about it, due to possible trouble (even where the law allows some use) from parents worried about children, from neighbors imagining chaos, from insurance providers who might drop them, and from local officials who may not understand any of the distinctions."
+     ],
+     "added": [
+      "Most of the writing on communities hasn't caught up with psychedelics.",
+      "They've gone, or are going, from taboo toward regulated use for physical and mental health indications really fast as their benefits become more studied.",
+      "And most intentional communities using psychedelics are still not public about it, due to possible trouble (even where the law allows some use) from parents worried about children, from neighbors imagining chaos, from insurance providers who might drop them, and from local officials who may not understand any of the distinctions."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Most intentional communities using psychedelics are still not public about it, due to possible trouble (even where the law allows some use) from parents worried about children, from neighbors imagining chaos, from insurance providers who might drop them, and from local officials who may not understand any of the distinctions."
+    }
+   ]
+  },
+  {
+   "id": "F6.2",
+   "part": 6,
+   "now": "And I believe there are real reasons to take psychedelics communally too - e.g. they can lower defensive barriers which otherwise dominate every serious conversation, and create strong bonds between members of the community who have been through the harder nights together.",
+   "published": "The case for communal use is also real in my experience. Psychedelics can loosen defenses that otherwise dominate every serious conversation. They can create powerful bonds when people sit through difficult nights together. They can also produce confusion, grandiosity, dependency, and interpersonal mess. The question is whether the surrounding community has enough maturity to tell those apart.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published case for communal use ended with its other side: psychedelics can also produce confusion, grandiosity, dependency and interpersonal mess, and the question is whether the community is mature enough to tell those apart; NOW keeps only the benefits here.",
+   "now_found": 1.0,
+   "now_blocks": [
+    199
+   ],
+   "where": [
+    "The Medicine Part - Yes, I’m Naming It, P3"
+   ],
+   "block_hashes": [
+    "b593996d41e1f4ed"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    101
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "In my experience there are real reasons to take psychedelics communally too - eg they can lower defensive barriers which otherwise dominate every serious conversation, and create strong bonds between members of the community who have been through the harder nights together.",
+      "But there are also negatives that can come from taking a psychedelic - confusion, grandiosity, dependency, fouling up dynamics between members.",
+      "Are you mature enough as a community to tell the good from the bad?"
+     ],
+     "added": [
+      "And I believe there are real reasons to take psychedelics communally too - e.g.",
+      "they can lower defensive barriers which otherwise dominate every serious conversation, and create strong bonds between members of the community who have been through the harder nights together."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "In my experience there are real reasons to take psychedelics communally too - eg they can lower defensive barriers which otherwise dominate every serious conversation, and create strong bonds between members of the community who have been through the harder nights together. But there are also negatives that can come from taking a psychedelic - confusion, grandiosity, dependency, fouling up dynamics between members. Are you mature enough as a community to tell the good from the bad?"
+    }
+   ]
+  },
+  {
+   "id": "F6.3",
+   "part": 6,
+   "now": "After my original ayahuasca ego deaths at age 25, I had trouble finding anyone in the physical world who seemed to have experienced anything similar.",
+   "published": "After my original ayahuasca ego deaths at 26, I had trouble finding anyone in the physical world who seemed to have experienced anything similar.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "NOW says 25 where the published version says 26; unless he corrected it, a fact about his life has changed.",
+   "now_found": 1.0,
+   "now_blocks": [
+    206
+   ],
+   "where": [
+    "Community Is What Makes Psychedelics Pl/ork Best!, P1"
+   ],
+   "block_hashes": [
+    "e0f8df8fa6e04195"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    104
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "The deeper you go, the more alienated you can feel.",
+      "After my original ayahuasca ego deaths at 25, I had trouble finding anyone in the physical world who seemed to have experienced anything similar.",
+      "😂 In a community of people who've sat through the same nights, you aren't the only one who's been there, and someone can catch the God complex early."
+     ],
+     "added": [
+      "Part of it is integration: an insight needs somewhere to land.",
+      "What happens when you come back from an amazing experience which gave you insight and clarity about your life, into the same old environment where nobody knows what you've been through and you're faced with the same old cues?",
+      "It can be super helpful to have gone through the experience in a community, where the people who held you through it can also notice what happens to you over the following months.",
+      "- The deeper you go, the more alienated you can feel. After my original ayahuasca ego deaths at age 25, I had trouble finding anyone in the physical world who seemed to have experienced anything similar.",
+      "😂 I often feel like if I'd gone thru that in a community with others, it would have been much more of a healthy and durable transformation, although without the challenges I guess we don't learn as much also... - Do you trust the people you're relying on for support? Support from people you trust is different from paid support, which is often paying people you don't know to look after you for a night.",
+      "To me it seems way too much of a gamble if I have a better alternative."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "The deeper you go, the more alienated you can feel. After my original ayahuasca ego deaths at 25, I had trouble finding anyone in the physical world who seemed to have experienced anything similar. I couldn’t even find them at Buddhist monasteries despite all the preaching about enlightenment. That helped give me a God complex, a Savior complex, or both, which then attracted exactly the right people to show me my limits. 😂 In a community of people who’ve sat through the same nights, you aren’t the only one who’s been there, and someone can catch the God complex early."
+    }
+   ]
+  },
+  {
+   "id": "F6.4",
+   "part": 6,
+   "now": "Do you trust the people you’re relying on for support?** Support from people you trust is different from paid support, which is often paying people you don’t know to look after you for a night. To me it seems way too much of a gamble if I have a better alternative.",
+   "published": "Trusted support is different from purchased support. The commercial alternative is often paying strangers for one night of care. Sometimes those strangers are excellent. Sometimes the person with the feather has known you for four hours and already has a cosmology for everything you say.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published version was fair to paid sitters (\"Sometimes those strangers are excellent\") and had the joke about the person with the feather who has known you four hours; NOW drops both, so it reads as a flat dismissal of paid support.",
+   "now_found": 1.0,
+   "now_blocks": [
+    206
+   ],
+   "where": [
+    "Community Is What Makes Psychedelics Pl/ork Best!, P1"
+   ],
+   "block_hashes": [
+    "e0f8df8fa6e04195"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    105
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "The deeper you go, the more alienated you can feel.",
+      "After my original ayahuasca ego deaths at 25, I had trouble finding anyone in the physical world who seemed to have experienced anything similar.",
+      "😂 In a community of people who've sat through the same nights, you aren't the only one who's been there, and someone can catch the God complex early."
+     ],
+     "added": [
+      "Part of it is integration: an insight needs somewhere to land.",
+      "What happens when you come back from an amazing experience which gave you insight and clarity about your life, into the same old environment where nobody knows what you've been through and you're faced with the same old cues?",
+      "It can be super helpful to have gone through the experience in a community, where the people who held you through it can also notice what happens to you over the following months.",
+      "- The deeper you go, the more alienated you can feel. After my original ayahuasca ego deaths at age 25, I had trouble finding anyone in the physical world who seemed to have experienced anything similar.",
+      "😂 I often feel like if I'd gone thru that in a community with others, it would have been much more of a healthy and durable transformation, although without the challenges I guess we don't learn as much also... - Do you trust the people you're relying on for support? Support from people you trust is different from paid support, which is often paying people you don't know to look after you for a night.",
+      "To me it seems way too much of a gamble if I have a better alternative."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "The deeper you go, the more alienated you can feel. After my original ayahuasca ego deaths at 25, I had trouble finding anyone in the physical world who seemed to have experienced anything similar. I couldn’t even find them at Buddhist monasteries despite all the preaching about enlightenment. That helped give me a God complex, a Savior complex, or both, which then attracted exactly the right people to show me my limits. 😂 In a community of people who’ve sat through the same nights, you aren’t the only one who’s been there, and someone can catch the God complex early."
+    }
+   ]
+  },
+  {
+   "id": "F6.5",
+   "part": 6,
+   "now": "Is your community humble enough to say no? To pause? Using the medicine takes that.",
+   "published": "I won’t idealize psychedelics. Some people should avoid them, some communities shouldn’t use them, and enthusiasm will create casualties wherever competence lags behind access. A community choosing this path needs enough humility to say no, pause, refer out, and admit when an experience caused harm.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"Using the medicine takes that\" makes the reader stop to work out that \"that\" is the humility to say no or to pause.",
+   "now_found": 1.0,
+   "now_blocks": [
+    211
+   ],
+   "where": [
+    "The Case Against Psychedelics, P2"
+   ],
+   "block_hashes": [
+    "5d8fe8d0f7b2eaca"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    111
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "But I won't idealize psychedelics."
+     ],
+     "added": []
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "But I won’t idealize psychedelics. Some people and communities should avoid them. Where access is ahead of competence, people will become casualties of enthusiasm. Is your community humble enough to say no? To pause? Using the medicine takes that. It also takes humility to refer people out, and admit when an experience did harm."
+    }
+   ]
+  },
+  {
+   "id": "F6.6",
+   "part": 6,
+   "now": "They’re right though that modern folk do very often decide they’re ready to lead ceremonies long before they’re really trained and prepared.",
+   "published": "none",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"They\" comes right after the Huni Kuin shamans and the other ayahuasca shamans they accuse, so the reader can’t tell who is right; it means the traditional lineages from the start of the section.",
+   "now_found": 1.0,
+   "now_blocks": [
+    215
+   ],
+   "where": [
+    "No Special Shamans, P2"
+   ],
+   "block_hashes": [
+    "fed9a803bc6af089"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "And while I do think it's valuable to have someone highly experienced in navigating the spirit worlds who is able to sense where you are in those and guide you, I also wouldn't trust many of these shamans to guide me, considering it's common to find that even the ones who can heal people very well may still be happy to send evil spirits to kill someone, if that hit job is lucrative. I also don't trust their medical intuition in general, considering the Huni Kuin shamans are famous for claiming that all other ayahuasca shamans are giving people cancer by using the knotted B. caapi vine (since the knots remind them of tumors). They're right though that modern folk do very often decide they're ready to lead ceremonies long before they're really trained and prepared. I'm sure I could still learn a lot from those traditions, and they will continue to develop their understandings as well."
+    }
+   ]
+  },
+  {
+   "id": "F6.7",
+   "part": 6,
+   "now": "That answers the reasonable objection that communes are just privileged escape pods, which gets double dipped with the objection that psychedelics are also privileged escape pods (or, alternatively, as some say, “a vacation for the poor”).",
+   "published": "That answers the reasonable objection that communes are merely privileged escape pods.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"Gets double dipped with the objection\" is an idiom the reader has to puzzle out; it means the objection doubles when the commune also uses psychedelics, which people call escape pods too.",
+   "now_found": 1.0,
+   "now_blocks": [
+    230
+   ],
+   "where": [
+    "After the Psychedelic Calling, P4"
+   ],
+   "block_hashes": [
+    "8b3fc15f8413bca8"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    130
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "In fact, if people are training there so they can help others build communities of their own, they'd be working towards forming a real alternative."
+     ],
+     "added": []
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Once the euphoria wears off and people have a more sober view of the call they feel, it can become useful. A community can be a place for people to train up in the practices, and sometimes go off and start another experiment. In fact, if people are training there so they can help others build communities of their own, they’d be working towards forming a real alternative. That answers the reasonable objection that communes are just privileged escape pods, which gets double dipped with the objection that psychedelics are also privileged escape pods (or, alternatively, as some say, \"a vacation for the poor\")."
+    }
+   ]
+  },
+  {
+   "id": "F7.1",
+   "part": 7,
+   "now": "There should be pre-existing agreements in place so that their choices will be protected, both for catastrophic illness and end of life care.",
+   "published": "A catastrophic-illness agreement should protect choice, access to common resources or outside funds when needed, transportation, privacy, and the possibility that the community’s preferred approach won’t be enough.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "\"So that their choices will be protected\" says less than the published list of what the agreement covers: choice, access to common resources or outside funds, transportation, privacy, and the chance that the community’s preferred approach won’t be enough.",
+   "now_found": 1.0,
+   "now_blocks": [
+    248
+   ],
+   "where": [
+    "Which Connections to the Technosphere Do You Keep?, P16"
+   ],
+   "block_hashes": [
+    "57ce46eb59c92a18"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    146
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "Medical privacy should be discussed, but may not be guaranteed, since some medical conditions are contagious."
+     ],
+     "added": [
+      "Medical privacy should be discussed, but may not be guaranteed, since some medical conditions are contagious, and a common purse requires common decision-making for things that take from it."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "No member should have to prove their ideological loyalty when they're scared or sick. There should be pre-existing agreements in place so that their choices will be protected, both for catastrophic illness and end of life care. Medical privacy should be discussed, but may not be guaranteed, since some medical conditions are contagious."
+    }
+   ]
+  },
+  {
+   "id": "F7.2",
+   "part": 7,
+   "now": "ZEGG, a community near Berlin, and Tamera, a ZEGG offshoot in Portugal, have spent decades experimenting with relationships inside community. They are an example of how a community can acknowledge the erotic aspects of life.",
+   "published": "ZEGG and Tamera have spent decades experimenting with relationships inside community. Their answers aren’t commandments for everybody, but they demonstrate that a group can acknowledge erotic life rather than pretending twenty adults have become neutral colleagues because the bylaws say so.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published version said their answers aren’t commandments for everybody, and had the joke about pretending twenty adults have become neutral colleagues because the bylaws say so; NOW drops both, so the example reads as more of an endorsement.",
+   "now_found": 1.0,
+   "now_blocks": [
+    257
+   ],
+   "where": [
+    "Jealousy Can Capture Monogamy or Free Love, P6"
+   ],
+   "block_hashes": [
+    "7829bcdf31d8a9aa"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    154
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "ZEGG, a community near Berlin, and Tamera, another in Portugal, have spent decades experimenting with relationships inside community.",
+      "Their answers are not a set of commandments that everyone must follow.",
+      "But they are an example of how a community can acknowledge the erotic aspects of life.",
+      "It is not necessary for 20 adults to pretend that they've become neutral colleagues just because the by-laws say so."
+     ],
+     "added": [
+      "ZEGG, a community near Berlin, and Tamera, a ZEGG offshoot in Portugal, have spent decades experimenting with relationships inside community.",
+      "They are an example of how a community can acknowledge the erotic aspects of life."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "ZEGG, a community near Berlin, and Tamera, another in Portugal, have spent decades experimenting with relationships inside community. Their answers are not a set of commandments that everyone must follow. But they are an example of how a community can acknowledge the erotic aspects of life. It is not necessary for 20 adults to pretend that they've become neutral colleagues just because the by-laws say so."
+    }
+   ]
+  },
+  {
+   "id": "F7.3",
+   "part": 7,
+   "now": "I feel very much saddened by the way that adults are seen as (and actually often are) so dangerous for children in the West, especially when they are fond of each other.",
+   "published": "I also reject the suburban panic that treats every warm relationship between an unrelated adult and child as suspicious.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"When they are fond of each other\" leaves \"they\" open (the adults, or an adult and a child); the published version said it plainly: a warm relationship between an unrelated adult and a child.",
+   "now_found": 1.0,
+   "now_blocks": [
+    284
+   ],
+   "where": [
+    "Children Need Freedom Inside Real Protection, P6"
+   ],
+   "block_hashes": [
+    "3df8a9bc8fca6543"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    178
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "first_seen": true,
+     "text": "I feel very much saddened by the way that adults are seen as (and actually often are) so dangerous for children in the West, especially when they are fond of each other. It’s good for kids to have a whole bunch of grownups who know them and enjoy them, who would notice when something changes, and who would act when something’s wrong. When adults panic like that, kids can lose all those grownups without the panic actually preventing abuse. It’s amazing when you travel the world and you see how sick US culture is especially… all over Africa and parts of Asia, I’ve seen parents let their kids run around naked in public with no qualms or concerns. That’s real freedom!"
+    }
+   ]
+  },
+  {
+   "id": "F7.4",
+   "part": 7,
+   "now": "Make sure kids have relationships and a reporting route outside the community.** Grandparents, cousins, local friends, teachers and other trusted adults give them perspective on their life, and someone to talk to. State intervention can fail spectacularly, and enclosing kids completely in a community can fail too. Kids need more than one world.",
+   "published": "Keep relationships and a reporting route outside the community. Grandparents, cousins, local friends, teachers, and other trusted adults give children perspective and somewhere to speak. At least one trusted adult, advocate, or reporting route should be reachable without going through community leadership. In 1984, Vermont authorities seized 112 children during the Island Pond raid, and the court returned them after rejecting the state’s blanket request. State intervention can fail spectacularly. Total community enclosure can also fail. Children need more than one world.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published item said at least one trusted adult, advocate or reporting route should be reachable without going through community leadership, the detail that makes the route protective; NOW keeps the heading but not that sentence.",
+   "now_found": 1.0,
+   "now_blocks": [
+    286
+   ],
+   "where": [
+    "Children Need Freedom Inside Real Protection, list item"
+   ],
+   "block_hashes": [
+    "6f79a5a702b40a03"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    184
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "The Buddha even taught his son honesty as the most important first lesson.",
+      "Make believe\" must be labeled as such.",
+      "When adults lie to children (like Santa is real etc), that teaches them to misunderstand the difference between reality and make-believe.",
+      "And those who are known to lie a lot are especially targeted by abusers who know their accusations won't be believed."
+     ],
+     "added": [
+      "Give children real agency. When kids say no to an adult who wants to be alone with them or touch them, that's a hard line that can't be crossed.",
+      "Apart from that, obedience should not be demanded from kids outside of legitimate safety needs.",
+      "Create a no-secrets rule. No grownup has a right to ask a kid to keep a secret from their mom or another trusted adult, whether it's about a gift, a game, a touch, a conversation or a relationship.",
+      "(A surprise has an end date.",
+      "But secrets meant to isolate a kid aren't allowed.) 3.",
+      "Teach Honesty.",
+      "The Buddha even taught his son Rahula honesty as the most important first lesson.",
+      "Make believe\" must be labeled as such.\\ When adults lie to children (like \"Santa is real!\" etc), that teaches them to misunderstand the difference between reality and make-believe.",
+      "Those who are known to lie a lot are especially targeted by abusers who know their accusations won't be believed.",
+      "Hear the child even when the accused is someone people love. Communities fail here, because the adult may be charismatic, useful, rich, spiritually important, or everybody's friend.",
+      "Decide on the response process ahead of time, before anyone's face is attached to it.",
+      "Keep everyone at risk safe first, right away, then make sure the accusation is investigated competently and fairly.",
+      "Make sure kids have relationships and a reporting route outside the community. Grandparents, cousins, local friends, teachers and other trusted adults give them perspective on their life, and someone to talk to.",
+      "State intervention can fail spectacularly, and enclosing kids completely in a community can fail too.",
+      "Kids need more than one world.",
+      "In 1984, Vermont authorities raided a religious community in Island Pond and took 112 kids into custody over suspected abuse.",
+      "A judge turned down the state's blanket request to hold them, because it couldn't name any specific case, and the kids went home that same day.",
+      "There was apparently some physical abuse going on there as a disciplinary practice, but that's something which varies a lot in every society also."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Protecting children is the duty of adults, but it requires children to help also. \"The Boy Who Cried Wolf\" is a didactic children's story which continues to be useful generation after generation. The Buddha even taught his son honesty as the most important first lesson. I agree. We must teach children truthfulness before there's a crisis. \"Make believe\" must be labeled as such. When adults lie to children (like Santa is real etc), that teaches them to misunderstand the difference between reality and make-believe. Make sure kids understand what they say will be taken seriously if they are known to be honest. And those who are known to lie a lot are especially targeted by abusers who know their accusations won't be believed. Don't let the teaching turn into interrogation or punishment when they're not sure. A scared or confused kid may get mixed up telling what happened and still need protection."
+    }
+   ]
+  },
+  {
+   "id": "F7.5",
+   "part": 7,
+   "now": "There was apparently some physical abuse going on there as a disciplinary practice, but that’s something which varies a lot in every society also.",
+   "published": "none",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"That’s something which varies a lot in every society\" doesn’t say what varies (the norms about physical discipline), so a reader can take it as saying abuse is relative, and has to reread to see what is meant.",
+   "now_found": 1.0,
+   "now_blocks": [
+    286
+   ],
+   "where": [
+    "Children Need Freedom Inside Real Protection, list item"
+   ],
+   "block_hashes": [
+    "6f79a5a702b40a03"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "The Buddha even taught his son honesty as the most important first lesson.",
+      "Make believe\" must be labeled as such.",
+      "When adults lie to children (like Santa is real etc), that teaches them to misunderstand the difference between reality and make-believe.",
+      "And those who are known to lie a lot are especially targeted by abusers who know their accusations won't be believed."
+     ],
+     "added": [
+      "Give children real agency. When kids say no to an adult who wants to be alone with them or touch them, that's a hard line that can't be crossed.",
+      "Apart from that, obedience should not be demanded from kids outside of legitimate safety needs.",
+      "Create a no-secrets rule. No grownup has a right to ask a kid to keep a secret from their mom or another trusted adult, whether it's about a gift, a game, a touch, a conversation or a relationship.",
+      "(A surprise has an end date.",
+      "But secrets meant to isolate a kid aren't allowed.) 3.",
+      "Teach Honesty.",
+      "The Buddha even taught his son Rahula honesty as the most important first lesson.",
+      "Make believe\" must be labeled as such.\\ When adults lie to children (like \"Santa is real!\" etc), that teaches them to misunderstand the difference between reality and make-believe.",
+      "Those who are known to lie a lot are especially targeted by abusers who know their accusations won't be believed.",
+      "Hear the child even when the accused is someone people love. Communities fail here, because the adult may be charismatic, useful, rich, spiritually important, or everybody's friend.",
+      "Decide on the response process ahead of time, before anyone's face is attached to it.",
+      "Keep everyone at risk safe first, right away, then make sure the accusation is investigated competently and fairly.",
+      "Make sure kids have relationships and a reporting route outside the community. Grandparents, cousins, local friends, teachers and other trusted adults give them perspective on their life, and someone to talk to.",
+      "State intervention can fail spectacularly, and enclosing kids completely in a community can fail too.",
+      "Kids need more than one world.",
+      "In 1984, Vermont authorities raided a religious community in Island Pond and took 112 kids into custody over suspected abuse.",
+      "A judge turned down the state's blanket request to hold them, because it couldn't name any specific case, and the kids went home that same day.",
+      "There was apparently some physical abuse going on there as a disciplinary practice, but that's something which varies a lot in every society also."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Protecting children is the duty of adults, but it requires children to help also. \"The Boy Who Cried Wolf\" is a didactic children's story which continues to be useful generation after generation. The Buddha even taught his son honesty as the most important first lesson. I agree. We must teach children truthfulness before there's a crisis. \"Make believe\" must be labeled as such. When adults lie to children (like Santa is real etc), that teaches them to misunderstand the difference between reality and make-believe. Make sure kids understand what they say will be taken seriously if they are known to be honest. And those who are known to lie a lot are especially targeted by abusers who know their accusations won't be believed. Don't let the teaching turn into interrogation or punishment when they're not sure. A scared or confused kid may get mixed up telling what happened and still need protection."
+    }
+   ]
+  },
+  {
+   "id": "F7.6",
+   "part": 7,
+   "now": "In those cases, the child, the family, and the people at risk all need access to competent help and review, hopefully including non-intrusive help from outside the home community.",
+   "published": "The child, the family, and the people at risk all need access to competent help and review that the home community does not control.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "The published rule was help and review \"that the home community does not control\"; \"hopefully including non-intrusive help from outside\" turns that requirement into a hope.",
+   "now_found": 1.0,
+   "now_blocks": [
+    288
+   ],
+   "where": [
+    "Born to Be Wild, P1"
+   ],
+   "block_hashes": [
+    "6229a0bc94edfe99"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    185
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "It's possible that records are private, or that cases were referred elsewhere.",
+      "Whatever the reason, I can't claim communities already know how to handle the hardest cases on their own."
+     ],
+     "added": [
+      "I can't claim communities already know how to handle the hardest cases on their own."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Sometimes we also need to protect people from the rare, but real threat posed by dangerous children. I looked through the research corpus for a well-documented case of a child in an intentional community who remained seriously dangerous to others. I was looking to find the reported conduct, the assessment, the intervention, the review, and what happened later. I couldn't find one. It's possible that records are private, or that cases were referred elsewhere. Whatever the reason, I can't claim communities already know how to handle the hardest cases on their own. In those cases, the child, the family, and the people at risk all need access to competent help and review, hopefully including non-intrusive help from outside the home community."
+    }
+   ]
+  },
+  {
+   "id": "F8.1",
+   "part": 8,
+   "now": "What kind of legal or illegal entity (cooperative, trust, association, company, or tribal squatting?) will hold the land? This needs to be decided before it’s bought or occupied.",
+   "published": "If the founder’s name is on the deed, you have a landlord with a philosophy. If three of twelve members own everything, you have two membership classes whether or not the welcome packet uses the word “equal.”",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published section opened with why the legal form matters: whoever owns the land holds the power (\"a landlord with a philosophy\", or two membership classes when three of twelve own everything); NOW goes straight to the choice of entity.",
+   "now_found": 1.0,
+   "now_blocks": [
+    297
+   ],
+   "where": [
+    "Money, Land, and Shared Resources, P1"
+   ],
+   "block_hashes": [
+    "e0079ad2c9b78c77"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    291
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "What kind of legal entity (cooperative, trust, association, company, whatever fits your jurisdiction) will hold the land?",
+      "This needs to be decided before it's bought.",
+      "Then you'll need to decide who has what voting rights, who has what access and use rights to common resources, how you will account for people's contributions (if at all), how inheritance works, what about outside debt, how improvements get handled, and what happens when someone wants to leave the community.",
+      "Lots of decisions to make!"
+     ],
+     "added": [
+      "What kind of legal or illegal entity (cooperative, trust, association, company, or tribal squatting?) will hold the land?",
+      "This needs to be decided before it's bought or occupied.",
+      "Then you'll need to decide who has what voting rights, who has what access and use rights to common resources, how you will account for people's contributions (if at all), how inheritance works, outside debts... oh my!",
+      "Read the founderism questions next, and agree on the exit terms in \"Leaving, Removal, and Dissolution\" before anyone commits."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "What kind of legal entity (cooperative, trust, association, company, whatever fits your jurisdiction) will hold the land? This needs to be decided before it's bought. Then you'll need to decide who has what voting rights, who has what access and use rights to common resources, how you will account for people's contributions (if at all), how inheritance works, what about outside debt, how improvements get handled, and what happens when someone wants to leave the community. Lots of decisions to make!"
+    }
+   ]
+  },
+  {
+   "id": "F8.2",
+   "part": 8,
+   "now": "Read the founderism questions next, and agree on the exit terms in “Leaving, Removal, and Dissolution” before anyone commits.",
+   "published": "Then make the material system legible. A money-free community still has scarce things and bottlenecks. Members should be able to know what the community owns or holds in common, what is reserved, what obligations exist outside the community, who can allocate major resources, and where conflicts of interest lie. Large transfers of land, equipment, stores, or outside cash should not depend on one person’s memory or permission. Define exit rights in whatever unit makes sense—cash if the community uses it, but also tools, transport, temporary housing, stored goods, or continued use rights—so exit is not a paper right that works only when the community has spare money.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published step of making the material system legible (members can see what is held in common and who can allocate it, and big transfers don’t depend on one person’s memory or permission) is gone; only the exit terms are kept, later.",
+   "now_found": 1.0,
+   "now_blocks": [
+    297
+   ],
+   "where": [
+    "Money, Land, and Shared Resources, P1"
+   ],
+   "block_hashes": [
+    "e0079ad2c9b78c77"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    293
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "What kind of legal entity (cooperative, trust, association, company, whatever fits your jurisdiction) will hold the land?",
+      "This needs to be decided before it's bought.",
+      "Then you'll need to decide who has what voting rights, who has what access and use rights to common resources, how you will account for people's contributions (if at all), how inheritance works, what about outside debt, how improvements get handled, and what happens when someone wants to leave the community.",
+      "Lots of decisions to make!"
+     ],
+     "added": [
+      "What kind of legal or illegal entity (cooperative, trust, association, company, or tribal squatting?) will hold the land?",
+      "This needs to be decided before it's bought or occupied.",
+      "Then you'll need to decide who has what voting rights, who has what access and use rights to common resources, how you will account for people's contributions (if at all), how inheritance works, outside debts... oh my!",
+      "Read the founderism questions next, and agree on the exit terms in \"Leaving, Removal, and Dissolution\" before anyone commits."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "What kind of legal entity (cooperative, trust, association, company, whatever fits your jurisdiction) will hold the land? This needs to be decided before it's bought. Then you'll need to decide who has what voting rights, who has what access and use rights to common resources, how you will account for people's contributions (if at all), how inheritance works, what about outside debt, how improvements get handled, and what happens when someone wants to leave the community. Lots of decisions to make!"
+    }
+   ]
+  },
+  {
+   "id": "F8.3",
+   "part": 8,
+   "now": "Members might have outside jobs, and they bring an agreed share of that income in.",
+   "published": "Outside work complicates that boundary even before a common purse. It does not only bring cash. It brings another schedule, status system, social world, set of loyalties, and often new consumption expectations. During the first stage, an outside earner should contribute an agreed share, but money cannot buy exemption from ordinary communal work or extra political authority. The group also has to notice when outside jobs are draining the people and skills needed to build shared livelihoods. Otherwise the commune remains a dormitory for the cash economy instead of moving toward a common purse.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published version said an outside earner’s money can’t buy exemption from communal work or extra political authority, and that outside jobs can drain the people the commune needs; NOW only says they bring a share in.",
+   "now_found": 1.0,
+   "now_blocks": [
+    300
+   ],
+   "where": [
+    "Moving Beyond Money, P2"
+   ],
+   "block_hashes": [
+    "680e2791f960630d"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    347
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "First there will be no money exchanged between members for basic community functions like food, housing, care, tools, education, transport etc. Members might have outside jobs, and they bring an agreed share of that income in. This is probably a good place to start if someone wants to create a community now and have it be realistic."
+    }
+   ]
+  },
+  {
+   "id": "F8.4",
+   "part": 8,
+   "now": "Then follow the practical power. Whose name is on the deed? Who’s in charge of the resources? Who keeps the records? Who decides who gets admitted, and who picks the people who review the founder? Who controls access to the kids, or to medicine, and who can make a complaint go away? The org chart might look flat and horizontal, while the keys, passwords, titles and even just general reputation all point to one person or clique.",
+   "published": "An override is real only if it can operate against the person being challenged. If the founder chooses the reviewer, holds the records, owns the land, and can remove the complainant, the community cannot meaningfully override the founder no matter how many circles it holds.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published test that made the four questions bite (an override is real only if it can work against the person challenged, and not if the founder picks the reviewer and holds the records) is gone.",
+   "now_found": 1.0,
+   "now_blocks": [
+    312
+   ],
+   "where": [
+    "Founderism: The Four Questions, P6"
+   ],
+   "block_hashes": [
+    "3246c6fe31e879c1"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    237
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "Who's in charge of the housing and the food stores, the vehicles and tools, and any bank account outside the community?",
+      "The org chart might look flat and horizontal, while the keys, passwords, titles and even just general reputation all point to one person."
+     ],
+     "added": [
+      "Who's in charge of the resources?",
+      "The org chart might look flat and horizontal, while the keys, passwords, titles and even just general reputation all point to one person or clique."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Then follow the practical power. Whose name is on the deed? Who's in charge of the housing and the food stores, the vehicles and tools, and any bank account outside the community? Who keeps the records? Who decides who gets admitted, and who picks the people who review the founder? Who controls access to the kids, or to medicine, and who can make a complaint go away? The org chart might look flat and horizontal, while the keys, passwords, titles and even just general reputation all point to one person."
+    }
+   ]
+  },
+  {
+   "id": "F8.5",
+   "part": 8,
+   "now": "If several are present, they are worth paying attention to before the founder(s) can explain how the situation is uniquely different in a spiritual way.",
+   "published": "None of these proves abuse by itself. Several together deserve attention before the founder explains why this situation is spiritually unique.",
+   "kind": "garbled",
+   "severity": 2,
+   "why": "\"Several\" refers to the published list of daily warning signs (the founder growing more central, disagreement treated as failure, outcomes never measured, former members made contaminated), which NOW no longer has, so the reader can’t tell several of what.",
+   "now_found": 1.0,
+   "now_blocks": [
+    313
+   ],
+   "where": [
+    "Founderism: The Four Questions, P7"
+   ],
+   "block_hashes": [
+    "7b8cbdefd2c832b6"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    240
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "Presence of one of these alone isn't proof of abuse, but if several are present, they are worth paying attention to before the founder can explain how the situation is uniquely different in a spiritual way."
+     ],
+     "added": [
+      "If several are present, they are worth paying attention to before the founder(s) can explain how the situation is uniquely different in a spiritual way.",
+      "Ask these questions about any community, teacher or method, including me."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Presence of one of these alone isn't proof of abuse, but if several are present, they are worth paying attention to before the founder can explain how the situation is uniquely different in a spiritual way."
+    }
+   ]
+  },
+  {
+   "id": "F8.6",
+   "part": 8,
+   "now": "While founderism is a problem in every community, it’s especially so in communities which form naturally over time as I’m describing may happen in my case.",
+   "published": "none",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"Which form naturally over time as I’m describing may happen in my case\" doesn’t parse; it means \"as I’ve said may happen in my case\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    314
+   ],
+   "where": [
+    "Founderism: The Four Questions, P8"
+   ],
+   "block_hashes": [
+    "e595060d29e7f06a"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "While founderism is a problem in every community, it's especially so in communities which form naturally over time as I'm describing may happen in my case. In such cases, there's no formal community and no formal rules until people decide to come together to make them. It doesn't make sense to do that at first, if, say, I'm the only one there and I don't know who else will be there that I could trust. If there's one other person who comes to visit, it also doesn't make sense, so there's a critical mass point at which people decide \"we were just living together like friends, but now we want to formalize the community.\""
+    }
+   ]
+  },
+  {
+   "id": "F8.7",
+   "part": 8,
+   "now": "But privacy also can be resistance to the communal spirit, so there has to be a living, always re-assessed balance between what you and the community owe each other, and what remains your own domain.",
+   "published": "Members can decline to share without producing a therapeutic explanation for the refusal.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "The published section warned that a group \"ends by treating privacy as resistance\" and said members can decline to share without giving a therapeutic reason; NOW says privacy can be resistance and drops the right to decline, so it now says close to the opposite.",
+   "now_found": 1.0,
+   "now_blocks": [
+    321
+   ],
+   "where": [
+    "How My Own Model Could Become a Cult, P5"
+   ],
+   "block_hashes": [
+    "e85809801cf4377a"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    248
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "A group starts out inviting honesty and ends up treating privacy as resistance.",
+      "But privacy also can be resistance to the communal spirit, so there has to be a dynamic, living, always re-assessed balance between what you and the community owe each other, and what remains your own domain.",
+      "In general, people can have their own private practices, of course."
+     ],
+     "added": [
+      "But privacy also can be resistance to the communal spirit, so there has to be a living, always re-assessed balance between what you and the community owe each other, and what remains your own domain."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "“Nothing suppressed, everything processed” can become a situation where someone in the group must tell all, even if they don’t want to. I have seen that risk in groups that use the ZEGG Forum practice. A group starts out inviting honesty and ends up treating privacy as resistance. But privacy also can be resistance to the communal spirit, so there has to be a dynamic, living, always re-assessed balance between what you and the community owe each other, and what remains your own domain. In general, people can have their own private practices, of course. But some practices go too far against the communal spirit. If someone starts worshipping Satan, say, they get booted."
+    }
+   ]
+  },
+  {
+   "id": "F8.8",
+   "part": 8,
+   "now": "But some practices go too far against the communal spirit.",
+   "published": "none",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "Right after \"Every practice in this article can be turned against the people using it\", \"some practices\" reads as the community’s practices; it means a member’s own private practices, as the Satan example shows.",
+   "now_found": 1.0,
+   "now_blocks": [
+    321
+   ],
+   "where": [
+    "How My Own Model Could Become a Cult, P5"
+   ],
+   "block_hashes": [
+    "e85809801cf4377a"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "A group starts out inviting honesty and ends up treating privacy as resistance.",
+      "But privacy also can be resistance to the communal spirit, so there has to be a dynamic, living, always re-assessed balance between what you and the community owe each other, and what remains your own domain.",
+      "In general, people can have their own private practices, of course."
+     ],
+     "added": [
+      "But privacy also can be resistance to the communal spirit, so there has to be a living, always re-assessed balance between what you and the community owe each other, and what remains your own domain."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "“Nothing suppressed, everything processed” can become a situation where someone in the group must tell all, even if they don’t want to. I have seen that risk in groups that use the ZEGG Forum practice. A group starts out inviting honesty and ends up treating privacy as resistance. But privacy also can be resistance to the communal spirit, so there has to be a dynamic, living, always re-assessed balance between what you and the community owe each other, and what remains your own domain. In general, people can have their own private practices, of course. But some practices go too far against the communal spirit. If someone starts worshipping Satan, say, they get booted."
+    }
+   ]
+  },
+  {
+   "id": "F8.9",
+   "part": 8,
+   "now": "Peer counseling can become peer surveillance, even if the tone is warm.",
+   "published": "The boundary is simple: the principles are commitments I choose for my own practice, never powers the community gains over me.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "The published section went on with medicine prerequisites creating gatekeepers over people at their most open, and the boundary that holds the whole model together: the principles are commitments he chooses for his own practice, never powers the community gains over him; NOW has neither.",
+   "now_found": 1.0,
+   "now_blocks": [
+    322
+   ],
+   "where": [
+    "How My Own Model Could Become a Cult, P6"
+   ],
+   "block_hashes": [
+    "80e2f2a556fce29b"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    247
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "954ad4e3",
+    "date": "2026-10-21",
+    "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "first_seen": true,
+     "text": "Peer counseling can become peer surveillance, even if the tone is warm."
+    }
+   ]
+  },
+  {
+   "id": "F8.10",
+   "part": 8,
+   "now": "Dissent is important for growth. Sometimes it really is their wounded ego projection, and that should be acknowledged. But again, balance, because if complaints are too often or too broadly painted as projection, that’s as much a failure, if not more so.",
+   "published": "“Your resistance is your wound talking” is one of the most efficient sentences ever invented for avoiding an argument. When a community begins diagnosing dissent instead of responding to it, leave before they schedule a group process about your leaving.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "The published warning (diagnosing dissent instead of answering it is the sign to leave) becomes a balance in which dissent sometimes \"really is their wounded ego projection\", and \"their\" has no one before it to refer to.",
+   "now_found": 1.0,
+   "now_blocks": [
+    323
+   ],
+   "where": [
+    "How My Own Model Could Become a Cult, P7"
+   ],
+   "block_hashes": [
+    "2c3fa9cffb37cb5e"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    250
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "No single person or permanent group of people should handle grievances and have the power to decide who gets into or stays in the community.",
+      "Each person should have a usable avenue for exit.",
+      "That doesn't mean everything everyone says is equally valid, though."
+     ],
+     "added": []
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "No single person or permanent group of people should handle grievances and have the power to decide who gets into or stays in the community. Each person should have a usable avenue for exit. Dissent is important for growth. That doesn't mean everything everyone says is equally valid, though. Sometimes it really is their wounded ego projection, and that should be acknowledged. But again, balance, because if complaints are too often or too broadly painted as projection, that's as much a failure, if not more so."
+    }
+   ]
+  },
+  {
+   "id": "F8.11",
+   "part": 8,
+   "now": "There are some basic human rights that can’t be voted away from you by the majority in a community, unless it’s a question of resource availability as a whole. If safety and the conditions for health can be provided, they should be provided. People should be able to maintain relationships with others outside the community, as long as those relationships don’t interfere with the community as a whole (for example, you can’t bring your boyfriend from outside to live with you if he’s antagonistic towards the commune).",
+   "published": "There is also a floor the majority cannot vote away: bodily safety, enough food and sleep, independent medical care, private thought, contact with people outside the community, a way to report harm without asking the accused person’s friends for permission, and a usable way to leave. A majority vote does not make deprivation consensual.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "The published floor named the rights (bodily safety, food and sleep, independent medical care, private thought, outside contact, a way to report harm without asking the accused person’s friends, a usable way to leave); NOW names none of them but outside contact, and makes even that conditional.",
+   "now_found": 1.0,
+   "now_blocks": [
+    324
+   ],
+   "where": [
+    "How My Own Model Could Become a Cult, P8"
+   ],
+   "block_hashes": [
+    "d42f119a62834bfb"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    251
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "If safety and the conditions for health can be provided, it should be provided.",
+      "People should be able to maintain relationships with others outside the community, as long as those relationships don't interfere with the community as a whole (for example, you can't bring your boyfriend to live with you if he's not only not a member of the community, but also antagonistic towards it)."
+     ],
+     "added": [
+      "If safety and the conditions for health can be provided, they should be provided.",
+      "People should be able to maintain relationships with others outside the community, as long as those relationships don't interfere with the community as a whole (for example, you can't bring your boyfriend from outside to live with you if he's antagonistic towards the commune)."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "There are some basic human rights that can’t be voted away from you by the majority in a community, unless it's a question of resource availability as a whole. If safety and the conditions for health can be provided, it should be provided. People should be able to maintain relationships with others outside the community, as long as those relationships don't interfere with the community as a whole (for example, you can't bring your boyfriend to live with you if he's not only not a member of the community, but also antagonistic towards it)."
+    }
+   ]
+  },
+  {
+   "id": "F9.1",
+   "part": 9,
+   "now": "Decide in advance which offers of help are purely goodwill and which go on a ledger of mutual aid. The federation can keep track of these for each purpose, without having to put a value on them or require every exchange to be “even”.",
+   "published": "Exchange and obligations need the same honesty even if nobody uses money internally. A gift of food, pooled medicine, a loan of a vehicle or tool, reciprocal labor, emergency housing, a shared building project, and a visit meant mainly for training or relationship-building are different events. Some create a future obligation; some do not. A federation can keep purpose-specific records without pricing everything or forcing every transfer into parity.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"Keep track of these for each purpose\" points to purposes NOW never names; the published version listed them (a gift of food, pooled medicine, a loaned vehicle, reciprocal labor, emergency housing, a training visit) and said some create an obligation and some don’t.",
+   "now_found": 1.0,
+   "now_blocks": [
+    331
+   ],
+   "where": [
+    "From One Community to a Movement, P4"
+   ],
+   "block_hashes": [
+    "ea7a1c8f52a02510"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    226
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "dropped": [
+      "A gift of food, pooled medicine, a vehicle or a tool on loan, trades of labor, emergency housing, a shared building project, a visit that's mainly for training or relationship building:",
+      "they're all different events, and some of them create future obligations while others don't.",
+      "If cash is used for transactions with the outside world, grants and loans need to be kept separate the same way, and so do guarantees and shared enterprise commitments."
+     ],
+     "added": [
+      "Decide in advance which offers of help are purely goodwill and which go on a ledger of mutual aid."
+     ]
+    },
+    {
+     "sha": "954ad4e3",
+     "date": "2026-10-21",
+     "subject": "Merge pull request #206 from u-dont-existDOTcom/claude/community-joel-1018",
+     "first_seen": true,
+     "text": "Even if nobody uses money internally, communities still need the same honesty about exchanges and obligations. A gift of food, pooled medicine, a vehicle or a tool on loan, trades of labor, emergency housing, a shared building project, a visit that's mainly for training or relationship building: they're all different events, and some of them create future obligations while others don't. The federation can keep track of these for each purpose, without having to put a value on them or require every exchange to be \"even\". If cash is used for transactions with the outside world, grants and loans need to be kept separate the same way, and so do guarantees and shared enterprise commitments. Solidarity doesn't mean every community is liable for whatever the others owe, and it doesn't mean anyone has an unlimited claim on another community's labor and stores, or its land and tools."
+    }
+   ]
+  },
+  {
+   "id": "F10.1",
+   "part": 10,
+   "now": "makes an uncomfortable argument: the communities that last a long time often rely on a religious ideology which makes members feel alienated from the wider society. Basically, the more cultish, the more durable, since cults are designed to capture people.",
+   "published": "an uncomfortable argument that long-surviving communities often rely on communal property, separation, boundaries, and binding ideology. Cohesion and capture can resemble each other from a distance.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "The published note said what Orlov finds (communal property, separation, boundaries and binding ideology) and drew a careful point (cohesion and capture can look alike from a distance); NOW narrows his argument to religious ideology and turns the caution into a flat claim (\"the more cultish, the more durable\").",
+   "now_found": 1.0,
+   "now_blocks": [
+    364
+   ],
+   "where": [
+    "What Helps Communities Last—and Whether Longevity Is Enough, P1"
+   ],
+   "block_hashes": [
+    "19f1d6203e9445c1"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    402
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d57845b4",
+    "date": "2026-10-25",
+    "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,"
+   },
+   "changes": [
+    {
+     "sha": "d57845b4",
+     "date": "2026-10-25",
+     "subject": "Joel 2026-10-25 00:27: community recheck read Human (0 of 72 AI), forecast scored, copy helper for his post, new version promoted to master,",
+     "first_seen": true,
+     "text": "***Communities That Abide*** by Dmitry Orlov makes an uncomfortable argument: the communities that last a long time often rely on a religious ideology which makes members feel alienated from the wider society. Basically, the more cultish, the more durable, since cults are designed to capture people."
+    }
+   ]
+  }
+ ]
+}
