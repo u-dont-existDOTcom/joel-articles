@@ -1,0 +1,2218 @@
+[
+ {
+  "key": "s1101-01",
+  "lineage": "HG1101-01",
+  "name": "How to use this very large guide",
+  "words": 141,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "1 window Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.91,
+  "windows_30oct": [
+   "A1 Human Medium",
+   "A2 Human High"
+  ]
+ },
+ {
+  "key": "s1101-02",
+  "lineage": "HG1101-02",
+  "name": "The table of contents is hiding on the left / Introduction",
+  "words": 512,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "7 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "4 windows Human (High) on 30 October"
+  ],
+  "cover": 0.97,
+  "windows_30oct": [
+   "A2 Human High",
+   "A3 Human Medium",
+   "A4 Human High",
+   "A5 Human Medium",
+   "A6 Human High",
+   "A7 Human Medium",
+   "A8 Human High",
+   "A9 Human Medium",
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium"
+  ]
+ },
+ {
+  "key": "s1101-03",
+  "lineage": "HG1101-03",
+  "name": "Quick start: do this first",
+  "words": 199,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "5 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "3 windows Human (High) on 30 October"
+  ],
+  "cover": 1.0,
+  "windows_30oct": [
+   "A10 Human High",
+   "A11 Human Medium",
+   "A12 Human High",
+   "A13 Human Medium",
+   "A14 Human High",
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium"
+  ]
+ },
+ {
+  "key": "s1101-04",
+  "lineage": "HG1101-04",
+  "name": "Do you usually think in words?",
+  "words": 165,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.92,
+  "windows_30oct": [
+   "A14 Human High",
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium"
+  ]
+ },
+ {
+  "key": "s1101-05",
+  "lineage": "HG1101-05",
+  "name": "What I mean by hypnosis",
+  "words": 136,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.94,
+  "windows_30oct": [
+   "A14 Human High"
+  ]
+ },
+ {
+  "key": "s1101-06",
+  "lineage": "HG1101-06",
+  "name": "Protecting Yourself from Hypnotists",
+  "words": 206,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "4 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 1.0,
+  "windows_30oct": [
+   "A14 Human High",
+   "A15 Human Medium",
+   "A16 Human High",
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium"
+  ]
+ },
+ {
+  "key": "s1101-07",
+  "lineage": "HG1101-07",
+  "name": "The Most Extreme Example / Keep the Adult Part of Yourself in Charge",
+  "words": 147,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "2 windows Human (Medium) on 30 October",
+   "35% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "3 windows Human (High) on 30 October"
+  ],
+  "cover": 0.65,
+  "windows_30oct": [
+   "A16 Human High",
+   "A17 Human Medium",
+   "A18 Human High",
+   "A19 Human Medium",
+   "A20 Human High"
+  ]
+ },
+ {
+  "key": "s1101-08",
+  "lineage": "HG1101-08",
+  "name": "Affirmations Done Right",
+  "words": 260,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.95,
+  "windows_30oct": [
+   "A20 Human High"
+  ]
+ },
+ {
+  "key": "s1101-09",
+  "lineage": "HG1101-09",
+  "name": "Reversing Accidental Affirmations",
+  "words": 191,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.96,
+  "windows_30oct": [
+   "A20 Human High"
+  ]
+ },
+ {
+  "key": "s1101-10",
+  "lineage": "HG1101-10",
+  "name": "Hypnosis Evidence",
+  "words": 128,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "5 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.94,
+  "windows_30oct": [
+   "A21 Human Medium",
+   "A22 Human High",
+   "A23 Human Medium",
+   "A24 Human High",
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium"
+  ]
+ },
+ {
+  "key": "s1101-11",
+  "lineage": "HG1101-11",
+  "name": "What to Use Self-Hypnosis For, and What Not To / Forget the left-brain/right-brain cartoon",
+  "words": 386,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "4 windows Human (Medium) on 30 October",
+   "40% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "4 windows Human (High) on 30 October"
+  ],
+  "cover": 0.6,
+  "windows_30oct": [
+   "A24 Human High",
+   "A25 Human Medium",
+   "A26 Human High",
+   "A27 Human Medium",
+   "A29 Human Medium",
+   "A30 Human High",
+   "A31 Human Medium",
+   "A32 Human High"
+  ]
+ },
+ {
+  "key": "s1101-12",
+  "lineage": "HG1101-12",
+  "name": "Why doing it myself worked better for me",
+  "words": 580,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October",
+   "12% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.88,
+  "windows_30oct": [
+   "A32 Human High",
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium"
+  ]
+ },
+ {
+  "key": "s1101-13",
+  "lineage": "HG1101-13",
+  "name": "A useful map of the mind",
+  "words": 318,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "1 window Human (Medium) on 30 October",
+   "17% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.83,
+  "windows_30oct": [
+   "A32 Human High",
+   "A33 Human Medium",
+   "A34 Human High"
+  ]
+ },
+ {
+  "key": "s1101-14",
+  "lineage": "HG1101-14",
+  "name": "Sometimes start with the whole",
+  "words": 387,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October",
+   "17% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.83,
+  "windows_30oct": [
+   "A34 Human High",
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium"
+  ]
+ },
+ {
+  "key": "s1101-15",
+  "lineage": "HG1101-15",
+  "name": "The inner child, the guards, and the inner adult’s three jobs",
+  "words": 176,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "1 window Human (Medium) on 30 October",
+   "14% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.86,
+  "windows_30oct": [
+   "A34 Human High",
+   "A35 Human Medium",
+   "A36 Human High"
+  ]
+ },
+ {
+  "key": "s1101-16",
+  "lineage": "HG1101-16",
+  "name": "When the adult role is not available yet",
+  "words": 464,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October",
+   "10% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.9,
+  "windows_30oct": [
+   "A36 Human High",
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium"
+  ]
+ },
+ {
+  "key": "s1101-17",
+  "lineage": "HG1101-17",
+  "name": "Let the child speak without handing over the steering wheel",
+  "words": 203,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October",
+   "13% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.87,
+  "windows_30oct": [
+   "A36 Human High",
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium"
+  ]
+ },
+ {
+  "key": "s1101-18",
+  "lineage": "HG1101-18",
+  "name": "Love doesn’t have to wait for trust",
+  "words": 329,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "4 windows Human (High) on 30 October"
+  ],
+  "cover": 0.92,
+  "windows_30oct": [
+   "A36 Human High",
+   "A37 Human Medium",
+   "A38 Human High",
+   "A39 Human Medium",
+   "A40 Human High",
+   "A41 Human Medium",
+   "A42 Human High"
+  ]
+ },
+ {
+  "key": "s1101-19",
+  "lineage": "HG1101-19",
+  "name": "Instead of blame",
+  "words": 258,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "2 windows Human (Medium) on 30 October",
+   "10% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "3 windows Human (High) on 30 October"
+  ],
+  "cover": 0.9,
+  "windows_30oct": [
+   "A42 Human High",
+   "A43 Human Medium",
+   "A44 Human High",
+   "A45 Human Medium",
+   "A46 Human High"
+  ]
+ },
+ {
+  "key": "s1101-20",
+  "lineage": "HG1101-20",
+  "name": "Working with your inner child / The two-hand practice",
+  "words": 229,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "2 windows Human (Medium) on 30 October",
+   "37% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.63,
+  "windows_30oct": [
+   "A46 Human High",
+   "A47 Human Medium",
+   "A150 Human High",
+   "A151 Human Medium"
+  ]
+ },
+ {
+  "key": "s1101-21",
+  "lineage": "HG1101-21",
+  "name": "The Nurturer / The Protector",
+  "words": 401,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [
+   "20% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.8,
+  "windows_30oct": [
+   "A48 Human High"
+  ]
+ },
+ {
+  "key": "s1101-22",
+  "lineage": "HG1101-22",
+  "name": "The Guide",
+  "words": 310,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "3 windows Human (High) on 30 October"
+  ],
+  "cover": 0.95,
+  "windows_30oct": [
+   "A48 Human High",
+   "A49 Human Medium",
+   "A50 Human High",
+   "A51 Human Medium",
+   "A52 Human High",
+   "A71 Human Medium"
+  ]
+ },
+ {
+  "key": "s1101-23",
+  "lineage": "HG1101-23",
+  "name": "Working with your guards",
+  "words": 463,
+  "call": "AI",
+  "chance": 0.4,
+  "tells": [
+   "1 window Human (Low) on 30 October",
+   "6 windows Human (Medium) on 30 October",
+   "17% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "3 windows Human (High) on 30 October"
+  ],
+  "cover": 0.83,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A52 Human High",
+   "A53 Human Medium",
+   "A54 Human High",
+   "A55 Human Medium",
+   "A56 Human Low",
+   "A57 Human Medium",
+   "A58 Human High",
+   "A71 Human Medium"
+  ]
+ },
+ {
+  "key": "s1101-24",
+  "lineage": "HG1101-24",
+  "name": "Your inherited parent script",
+  "words": 132,
+  "call": "AI",
+  "chance": 0.25,
+  "tells": [
+   "1 window AI (Low) on 30 October",
+   "1 window Human (Medium) on 30 October",
+   "64% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "read beside his published version (second full read, 1 November)"
+  ],
+  "cover": 0.36,
+  "windows_30oct": [
+   "A59 Human Medium",
+   "A60 AI-Generated Low"
+  ]
+ },
+ {
+  "key": "s1101-25",
+  "lineage": "HG1101-25",
+  "name": "Protection that knows when to stop scanning",
+  "words": 163,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "4 windows Human (Medium) on 30 October",
+   "36% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.64,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A63 Human Medium",
+   "A64 Human High",
+   "A71 Human Medium"
+  ]
+ },
+ {
+  "key": "s1101-26",
+  "lineage": "HG1101-26",
+  "name": "Inner child reparenting",
+  "words": 122,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "4 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.92,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A64 Human High",
+   "A65 Human Medium",
+   "A66 Human High",
+   "A71 Human Medium"
+  ]
+ },
+ {
+  "key": "s1101-27",
+  "lineage": "HG1101-27",
+  "name": "Don’t rush the repair",
+  "words": 406,
+  "call": "AI",
+  "chance": 0.4,
+  "tells": [
+   "1 window Human (Low) on 30 October",
+   "7 windows Human (Medium) on 30 October",
+   "37% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "5 windows Human (High) on 30 October"
+  ],
+  "cover": 0.63,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A70 Human High",
+   "A71 Human Medium",
+   "A76 Human Low",
+   "A77 Human Medium",
+   "A78 Human High",
+   "A79 Human Medium",
+   "A80 Human High",
+   "A81 Human Medium",
+   "A82 Human High",
+   "A83 Human Medium",
+   "A84 Human High"
+  ]
+ },
+ {
+  "key": "s1101-28",
+  "lineage": "HG1101-28",
+  "name": "Play and rest still need an adult present",
+  "words": 177,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 1.0,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "A84 Human High"
+  ]
+ },
+ {
+  "key": "s1101-29",
+  "lineage": "HG1101-29",
+  "name": "Non-dominant hand dialogue",
+  "words": 167,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.91,
+  "windows_30oct": [
+   "A84 Human High"
+  ]
+ },
+ {
+  "key": "s1101-30",
+  "lineage": "HG1101-30",
+  "name": "When “your voice” is everybody else’s voice",
+  "words": 677,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.96,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "A84 Human High",
+   "A86 Human High"
+  ]
+ },
+ {
+  "key": "s1101-31",
+  "lineage": "HG1101-31",
+  "name": "Belonging without betraying yourself",
+  "words": 235,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 1.0,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "A86 Human High"
+  ]
+ },
+ {
+  "key": "s1101-32",
+  "lineage": "HG1101-32",
+  "name": "De-hypnosis: wake up inside the influence",
+  "words": 233,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [
+   "11% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.89,
+  "windows_30oct": [
+   "A86 Human High"
+  ]
+ },
+ {
+  "key": "s1101-33",
+  "lineage": "HG1101-33",
+  "name": "If you sense you are being influenced",
+  "words": 239,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "2 windows Human (Medium) on 30 October",
+   "33% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "3 windows Human (High) on 30 October"
+  ],
+  "cover": 0.67,
+  "windows_30oct": [
+   "A86 Human High",
+   "A87 Human Medium",
+   "A88 Human High",
+   "A89 Human Medium",
+   "A90 Human High"
+  ]
+ },
+ {
+  "key": "s1101-34",
+  "lineage": "HG1101-34",
+  "name": "Soft language can still take away choice",
+  "words": 447,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October",
+   "19% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.81,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "A92 Human High"
+  ]
+ },
+ {
+  "key": "s1101-35",
+  "lineage": "HG1101-35",
+  "name": "Induction: gathering and softening attention",
+  "words": 233,
+  "call": "Human",
+  "chance": 0.5,
+  "tells": [
+   "73% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.27,
+  "windows_30oct": [
+   "A92 Human High",
+   "A94 Human High"
+  ]
+ },
+ {
+  "key": "s1101-36",
+  "lineage": "HG1101-36",
+  "name": "Overly Confusing Isn't Automatically Good",
+  "words": 439,
+  "call": "AI",
+  "chance": 0.25,
+  "tells": [
+   "3 windows AI (Low) on 30 October",
+   "2 windows Human (Low) on 30 October",
+   "4 windows Human (Medium) on 30 October",
+   "69% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.31,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "A96 Human High",
+   "A98 AI-Generated Low",
+   "A99 AI-Generated Low",
+   "A100 AI-Generated Low",
+   "A101 Human Low",
+   "A104 Human Medium",
+   "A107 Human Low"
+  ]
+ },
+ {
+  "key": "s1101-37",
+  "lineage": "HG1101-37",
+  "name": "Before you begin",
+  "words": 543,
+  "call": "AI",
+  "chance": 0.4,
+  "tells": [
+   "1 window Human (Low) on 30 October",
+   "6 windows Human (Medium) on 30 October",
+   "26% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "8 windows Human (High) on 30 October"
+  ],
+  "cover": 0.74,
+  "windows_30oct": [
+   "A109 Human High",
+   "A110 Human Medium",
+   "A111 Human High",
+   "A113 Human High",
+   "A114 Human Medium",
+   "A115 Human High",
+   "A116 Human Medium",
+   "A118 Human Medium",
+   "A119 Human High",
+   "A120 Human Medium",
+   "A121 Human High",
+   "A122 Human Medium",
+   "A123 Human High",
+   "A125 Human High",
+   "A126 Human Low"
+  ]
+ },
+ {
+  "key": "s1101-38",
+  "lineage": "HG1101-38",
+  "name": "Sober induction: 3–5 minutes",
+  "words": 435,
+  "call": "AI",
+  "chance": 0.4,
+  "tells": [
+   "2 windows Human (Low) on 30 October",
+   "4 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "5 windows Human (High) on 30 October"
+  ],
+  "cover": 0.99,
+  "windows_30oct": [
+   "A127 Human High",
+   "A128 Human Medium",
+   "A129 Human High",
+   "A130 Human Medium",
+   "A131 Human Low",
+   "A132 Human High",
+   "A133 Human Low",
+   "A134 Human Medium",
+   "A135 Human High",
+   "A136 Human Medium",
+   "A137 Human High"
+  ]
+ },
+ {
+  "key": "s1101-39",
+  "lineage": "HG1101-39",
+  "name": "Already Trancey? Stabilize before dipping deeper.",
+  "words": 178,
+  "call": "AI",
+  "chance": 0.4,
+  "tells": [
+   "1 window Human (Low) on 30 October",
+   "1 window Human (Medium) on 30 October",
+   "37% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "3 windows Human (High) on 30 October"
+  ],
+  "cover": 0.63,
+  "windows_30oct": [
+   "A137 Human High",
+   "A138 Human Medium",
+   "A139 Human High",
+   "A140 Human Low",
+   "A142 Human High"
+  ]
+ },
+ {
+  "key": "s1101-40",
+  "lineage": "HG1101-40",
+  "name": "Stay awake when your mind likes to escape",
+  "words": 318,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October",
+   "17% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "4 windows Human (High) on 30 October"
+  ],
+  "cover": 0.83,
+  "windows_30oct": [
+   "A142 Human High",
+   "A143 Human Medium",
+   "A144 Human High",
+   "A145 Human Medium",
+   "A146 Human High",
+   "A147 Human Medium",
+   "A148 Human High"
+  ]
+ },
+ {
+  "key": "s1101-41",
+  "lineage": "HG1101-41",
+  "name": "Sleep induction / Optional fractionation: practice coming back",
+  "words": 185,
+  "call": "AI",
+  "chance": 0.4,
+  "tells": [
+   "1 window Human (Low) on 30 October",
+   "52% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.48,
+  "windows_30oct": [
+   "A152 Human High",
+   "A153 Human Low",
+   "A154 Human High"
+  ]
+ },
+ {
+  "key": "s1101-42",
+  "lineage": "HG1101-42",
+  "name": "Deepening, if useful / Optional trance depth check",
+  "words": 233,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [
+   "14% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.86,
+  "windows_30oct": [
+   "A154 Human High"
+  ]
+ },
+ {
+  "key": "s1101-43",
+  "lineage": "HG1101-43",
+  "name": "A shortcut back into hypnosis",
+  "words": 647,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "1 window Human (Medium) on 30 October",
+   "25% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "3 windows Human (High) on 30 October"
+  ],
+  "cover": 0.75,
+  "windows_30oct": [
+   "A154 Human High",
+   "A156 Human High",
+   "A157 Human Medium",
+   "A158 Human High"
+  ]
+ },
+ {
+  "key": "s1101-44",
+  "lineage": "HG1101-44",
+  "name": "Come all the way back",
+  "words": 582,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "4 windows Human (High) on 30 October"
+  ],
+  "cover": 0.96,
+  "windows_30oct": [
+   "A160 Human High",
+   "A161 Human Medium",
+   "A162 Human High",
+   "A163 Human Medium",
+   "A164 Human High",
+   "A165 Human Medium",
+   "A166 Human High"
+  ]
+ },
+ {
+  "key": "s1101-45",
+  "lineage": "HG1101-45",
+  "name": "The actual inner meeting",
+  "words": 291,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 1.0,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "A166 Human High"
+  ]
+ },
+ {
+  "key": "s1101-46",
+  "lineage": "HG1101-46",
+  "name": "Let the next response guide you / Finding your own words",
+  "words": 488,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [
+   "15% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.85,
+  "windows_30oct": [
+   "A166 Human High"
+  ]
+ },
+ {
+  "key": "s1101-47",
+  "lineage": "HG1101-47",
+  "name": "Let the response change the invitation",
+  "words": 157,
+  "call": "Human",
+  "chance": 0.5,
+  "tells": [
+   "1 window Human (Medium) on 30 October",
+   "54% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.46,
+  "windows_30oct": [
+   "A166 Human High",
+   "A167 Human Medium",
+   "A168 Human High"
+  ]
+ },
+ {
+  "key": "s1101-48",
+  "lineage": "HG1101-48",
+  "name": "Look at the situation too",
+  "words": 240,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [
+   "23% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.77,
+  "windows_30oct": [
+   "A170 Human High"
+  ]
+ },
+ {
+  "key": "s1101-49",
+  "lineage": "HG1101-49",
+  "name": "Change the amount of contact",
+  "words": 281,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 1.0,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "A170 Human High"
+  ]
+ },
+ {
+  "key": "s1101-50",
+  "lineage": "HG1101-50",
+  "name": "Offer the care that is actually wanted",
+  "words": 557,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.92,
+  "windows_30oct": [
+   "A170 Human High"
+  ]
+ },
+ {
+  "key": "s1101-51",
+  "lineage": "HG1101-51",
+  "name": "Finish without forcing a revelation",
+  "words": 334,
+  "call": "AI",
+  "chance": 0.4,
+  "tells": [
+   "1 window Human (Low) on 30 October",
+   "33% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.67,
+  "windows_30oct": [
+   "A170 Human High",
+   "A171 Human Low",
+   "A172 Human High"
+  ]
+ },
+ {
+  "key": "s1101-52",
+  "lineage": "HG1101-52",
+  "name": "The 15-minute daily practice",
+  "words": 404,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October",
+   "17% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.83,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "A172 Human High",
+   "A174 Human High"
+  ]
+ },
+ {
+  "key": "s1101-53",
+  "lineage": "HG1101-53",
+  "name": "The weekly deeper practice",
+  "words": 126,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [
+   "30% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.7,
+  "windows_30oct": [
+   "A174 Human High"
+  ]
+ },
+ {
+  "key": "s1101-54",
+  "lineage": "HG1101-54",
+  "name": "Capacity before content",
+  "words": 456,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October",
+   "39% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.61,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "A174 Human High",
+   "A176 Human High"
+  ]
+ },
+ {
+  "key": "s1101-55",
+  "lineage": "HG1101-55",
+  "name": "Troubleshooting / Nothing happens / It feels fake",
+  "words": 394,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "4 windows Human (Medium) on 30 October",
+   "19% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.81,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "A179 Human High",
+   "A180 Human Medium",
+   "A181 Human High"
+  ]
+ },
+ {
+  "key": "s1101-56",
+  "lineage": "HG1101-56",
+  "name": "The subconscious will not answer",
+  "words": 124,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.9,
+  "windows_30oct": [
+   "A181 Human High"
+  ]
+ },
+ {
+  "key": "s1101-57",
+  "lineage": "HG1101-57",
+  "name": "The inner child will not appear / You get anxious",
+  "words": 314,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.94,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "A181 Human High"
+  ]
+ },
+ {
+  "key": "s1101-58",
+  "lineage": "HG1101-58",
+  "name": "You dissociate or feel unreal / You become grandiose / You become too analytical",
+  "words": 157,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "4 windows Human (Medium) on 30 October",
+   "39% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.61,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "A181 Human High",
+   "A182 Human Medium"
+  ]
+ },
+ {
+  "key": "s1101-59",
+  "lineage": "HG1101-59",
+  "name": "You become too blissful or diffuse / You want the hidden truth immediately / You keep daydreaming / You get stuck in spiritual bypass",
+  "words": 264,
+  "call": "AI",
+  "chance": 0.4,
+  "tells": [
+   "1 window Human (Low) on 30 October",
+   "24% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.76,
+  "windows_30oct": [
+   "A185 Human Low",
+   "A187 Human High"
+  ]
+ },
+ {
+  "key": "s1101-60",
+  "lineage": "HG1101-60",
+  "name": "You get stuck in endless processing / You keep using hypnosis but not changing life",
+  "words": 220,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.91,
+  "windows_30oct": [
+   "A187 Human High"
+  ]
+ },
+ {
+  "key": "s1101-61",
+  "lineage": "HG1101-61",
+  "name": "What not to do",
+  "words": 482,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October",
+   "25% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.75,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "A187 Human High"
+  ]
+ },
+ {
+  "key": "s1101-62",
+  "lineage": "HG1101-62",
+  "name": "When this needs more support than a guide can provide",
+  "words": 193,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 1.0,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "A187 Human High",
+   "B1 Human High"
+  ]
+ },
+ {
+  "key": "s1101-63",
+  "lineage": "HG1101-63",
+  "name": "Methods to explore with a trained person present / Your functioning in ordinary life is the feedback",
+  "words": 357,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.99,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "B1 Human High"
+  ]
+ },
+ {
+  "key": "s1101-64",
+  "lineage": "HG1101-64",
+  "name": "Closing",
+  "words": 167,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [
+   "19% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.81,
+  "windows_30oct": [
+   "B1 Human High"
+  ]
+ },
+ {
+  "key": "s1101-65",
+  "lineage": "HG1101-65",
+  "name": "Try it in the Inner Signal app / Survey and consultation",
+  "words": 330,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "1 window Human (Medium) on 30 October",
+   "18% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.82,
+  "windows_30oct": [
+   "B1 Human High",
+   "B2 Human Medium",
+   "B3 Human High"
+  ]
+ },
+ {
+  "key": "s1101-66",
+  "lineage": "HG1101-66",
+  "name": "Appendices / Appendix A: How to ask the subconscious a useful question",
+  "words": 335,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October",
+   "16% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.84,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "B3 Human High",
+   "B5 Human High"
+  ]
+ },
+ {
+  "key": "s1101-67",
+  "lineage": "HG1101-67",
+  "name": "Core prompts",
+  "words": 479,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.9,
+  "windows_30oct": [
+   "B5 Human High"
+  ]
+ },
+ {
+  "key": "s1101-68",
+  "lineage": "HG1101-68",
+  "name": "Appendix B: NLP without turning yourself into a sales seminar / The four NLP layers",
+  "words": 221,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "4 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.94,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "B5 Human High",
+   "B6 Human Medium",
+   "B7 Human High"
+  ]
+ },
+ {
+  "key": "s1101-69",
+  "lineage": "HG1101-69",
+  "name": "The Milton Model, minus the covert sales seminar",
+  "words": 1040,
+  "call": "AI",
+  "chance": 0.25,
+  "tells": [
+   "1 window AI (High) on 30 October",
+   "4 windows Human (Medium) on 30 October",
+   "22% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "3 windows Human (High) on 30 October"
+  ],
+  "cover": 0.78,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "B7 Human High",
+   "B8 AI-Generated High",
+   "B9 Human High",
+   "B10 Human Medium",
+   "B11 Human High"
+  ]
+ },
+ {
+  "key": "s1101-70",
+  "lineage": "HG1101-70",
+  "name": "Sensory, state, and strategy tools",
+  "words": 1527,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "4 windows Human (Medium) on 30 October",
+   "17% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "3 windows Human (High) on 30 October"
+  ],
+  "cover": 0.83,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "B11 Human High",
+   "B12 Human Medium",
+   "B13 Human High",
+   "B16 Human High"
+  ]
+ },
+ {
+  "key": "s1101-71",
+  "lineage": "HG1101-71",
+  "name": "What I will not use NLP for",
+  "words": 237,
+  "call": "AI",
+  "chance": 0.4,
+  "tells": [
+   "1 window Human (Low) on 30 October",
+   "97% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "read beside his published version (second full read, 1 November)"
+  ],
+  "cover": 0.03,
+  "windows_30oct": [
+   "B17 Human Low"
+  ]
+ },
+ {
+  "key": "s1101-72",
+  "lineage": "HG1101-72",
+  "name": "Running the whole NLP sequence",
+  "words": 280,
+  "call": "AI",
+  "chance": 0.25,
+  "tells": [
+   "1 window AI (Low) on 30 October",
+   "1 window Human (Low) on 30 October",
+   "86% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "read beside his published version (second full read, 1 November)"
+  ],
+  "cover": 0.14,
+  "windows_30oct": [
+   "B25 AI-Generated Low",
+   "B26 Human Low"
+  ]
+ },
+ {
+  "key": "s1101-73",
+  "lineage": "HG1101-73",
+  "name": "Appendix C: The extended de-hypnosis checklist",
+  "words": 496,
+  "call": "AI",
+  "chance": 0.4,
+  "tells": [
+   "3 windows Human (Low) on 30 October",
+   "4 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.98,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "B32 Human Low",
+   "B33 Human Low",
+   "B34 Human Low",
+   "B35 Human High",
+   "B36 Human Medium",
+   "B37 Human High"
+  ]
+ },
+ {
+  "key": "s1101-74",
+  "lineage": "HG1101-74",
+  "name": "Hypnosis-specific audit",
+  "words": 233,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "1 window Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.96,
+  "windows_30oct": [
+   "B37 Human High",
+   "B38 Human Medium",
+   "B39 Human High"
+  ]
+ },
+ {
+  "key": "s1101-75",
+  "lineage": "HG1101-75",
+  "name": "Appendix D: Anxiety — body first",
+  "words": 126,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "2 windows Human (Medium) on 30 October",
+   "17% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.83,
+  "windows_30oct": [
+   "B39 Human High",
+   "B40 Human Medium",
+   "B41 Human High",
+   "B42 Human Medium"
+  ]
+ },
+ {
+  "key": "s1101-76",
+  "lineage": "HG1101-76",
+  "name": "Reduced breathing / Buteyko-style breathing / EFT tapping",
+  "words": 199,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [
+   "20% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.8,
+  "windows_30oct": [
+   "B43 Human High"
+  ]
+ },
+ {
+  "key": "s1101-77",
+  "lineage": "HG1101-77",
+  "name": "Somatic Experiencing / Gendlin Focusing",
+  "words": 184,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "1 window Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.91,
+  "windows_30oct": [
+   "B43 Human High",
+   "B44 Human Medium",
+   "B45 Human High"
+  ]
+ },
+ {
+  "key": "s1101-78",
+  "lineage": "HG1101-78",
+  "name": "Body supports",
+  "words": 227,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.95,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "B45 Human High"
+  ]
+ },
+ {
+  "key": "s1101-79",
+  "lineage": "HG1101-79",
+  "name": "Inner child love / Anxiety script",
+  "words": 222,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "2 windows Human (Medium) on 30 October",
+   "24% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.76,
+  "windows_30oct": [
+   "B46 Human Medium",
+   "B47 Human High",
+   "B48 Human Medium",
+   "B49 Human High"
+  ]
+ },
+ {
+  "key": "s1101-80",
+  "lineage": "HG1101-80",
+  "name": "Appendix E: Is the daydream helping or replacing your life?",
+  "words": 364,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.9,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "B49 Human High"
+  ]
+ },
+ {
+  "key": "s1101-81",
+  "lineage": "HG1101-81",
+  "name": "Appendix F: Self-trust, outside guidance, and oracle-like states",
+  "words": 175,
+  "call": "AI",
+  "chance": 0.4,
+  "tells": [
+   "1 window Human (Low) on 30 October",
+   "3 windows Human (Medium) on 30 October",
+   "18% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.82,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "A76 Human Low",
+   "B49 Human High"
+  ]
+ },
+ {
+  "key": "s1101-82",
+  "lineage": "HG1101-82",
+  "name": "Finding a hypnotist who can work with you",
+  "words": 317,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.91,
+  "windows_30oct": [
+   "B49 Human High"
+  ]
+ },
+ {
+  "key": "s1101-83",
+  "lineage": "HG1101-83",
+  "name": "When the subconscious speaks like an oracle / The council — internal first, then outward",
+  "words": 324,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [
+   "16% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.84,
+  "windows_30oct": [
+   "B49 Human High"
+  ]
+ },
+ {
+  "key": "s1101-84",
+  "lineage": "HG1101-84",
+  "name": "Forgiveness without bypass / Forgiving yourself",
+  "words": 420,
+  "call": "AI",
+  "chance": 0.4,
+  "tells": [
+   "1 window Human (Low) on 30 October",
+   "6 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "4 windows Human (High) on 30 October"
+  ],
+  "cover": 0.91,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "B49 Human High",
+   "B50 Human Medium",
+   "B51 Human Low",
+   "B52 Human High",
+   "B53 Human Medium",
+   "B54 Human High",
+   "B55 Human Medium",
+   "B56 Human High"
+  ]
+ },
+ {
+  "key": "s1101-85",
+  "lineage": "HG1101-85",
+  "name": "Appendix G: Altered states",
+  "words": 423,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October",
+   "17% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.83,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "B56 Human High"
+  ]
+ },
+ {
+  "key": "s1101-86",
+  "lineage": "HG1101-86",
+  "name": "Stabilize before you interpret / Trip-Sitting: Medical Triage, Shadow Work, Therapy (v 5.3, updated July 19, 2026)",
+  "words": 224,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October",
+   "18% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.82,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "B56 Human High"
+  ]
+ },
+ {
+  "key": "s1101-87",
+  "lineage": "HG1101-87",
+  "name": "Appendix H: Demons, jinn, hostile presences, and “Unattached Burdens”",
+  "words": 158,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 1.0,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "B56 Human High"
+  ]
+ },
+ {
+  "key": "s1101-88",
+  "lineage": "HG1101-88",
+  "name": "Start with the room, the body, and basic safety",
+  "words": 270,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.95,
+  "windows_30oct": [
+   "B56 Human High"
+  ]
+ },
+ {
+  "key": "s1101-89",
+  "lineage": "HG1101-89",
+  "name": "A response check, not a verdict about what it is",
+  "words": 194,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [
+   "13% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.87,
+  "windows_30oct": [
+   "B56 Human High"
+  ]
+ },
+ {
+  "key": "s1101-90",
+  "lineage": "HG1101-90",
+  "name": "Do not fight from fear",
+  "words": 196,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October",
+   "18% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.82,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "B56 Human High"
+  ]
+ },
+ {
+  "key": "s1101-91",
+  "lineage": "HG1101-91",
+  "name": "A bodily boundary: compassion present, door closed",
+  "words": 181,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 1.0,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "B56 Human High"
+  ]
+ },
+ {
+  "key": "s1101-92",
+  "lineage": "HG1101-92",
+  "name": "If it might be psychosis or destabilization",
+  "words": 193,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [
+   "17% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 30 October"
+  ],
+  "cover": 0.83,
+  "windows_30oct": [
+   "B56 Human High",
+   "B57 Human High"
+  ]
+ },
+ {
+  "key": "s1101-93",
+  "lineage": "HG1101-93",
+  "name": "The cosmic-download humility test / Don’t become an entity hobbyist",
+  "words": 202,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.99,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "B57 Human High"
+  ]
+ },
+ {
+  "key": "s1101-94",
+  "lineage": "HG1101-94",
+  "name": "Appendix I: Sleep hypnosis / Appendix J: A practical induction library",
+  "words": 171,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "1 window Human (Medium) on 30 October",
+   "16% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.84,
+  "windows_30oct": [
+   "B58 Human Medium",
+   "B59 Human High"
+  ]
+ },
+ {
+  "key": "s1101-95",
+  "lineage": "HG1101-95",
+  "name": "1. Stretch and release",
+  "words": 123,
+  "call": "AI",
+  "chance": 0.4,
+  "tells": [
+   "1 window Human (Low) on 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.98,
+  "windows_30oct": [
+   "A133 Human Low",
+   "B59 Human High"
+  ]
+ },
+ {
+  "key": "s1101-96",
+  "lineage": "HG1101-96",
+  "name": "2. Supported floating / 3. Rhythmic breath or pulse",
+  "words": 221,
+  "call": "AI",
+  "chance": 0.4,
+  "tells": [
+   "1 window Human (Low) on 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.98,
+  "windows_30oct": [
+   "A131 Human Low",
+   "B59 Human High"
+  ]
+ },
+ {
+  "key": "s1101-97",
+  "lineage": "HG1101-97",
+  "name": "4. Unwinding object / 5. Sensory journey",
+  "words": 269,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "1 window Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.95,
+  "windows_30oct": [
+   "A128 Human Medium",
+   "B59 Human High"
+  ]
+ },
+ {
+  "key": "s1101-98",
+  "lineage": "HG1101-98",
+  "name": "6. Gradual wave / 7. Care workshop",
+  "words": 212,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.94,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "B59 Human High"
+  ]
+ },
+ {
+  "key": "s1101-99",
+  "lineage": "HG1101-99",
+  "name": "8. Resource embodiment / 9. No-trance inner contact",
+  "words": 302,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "5 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "3 windows Human (High) on 30 October"
+  ],
+  "cover": 1.0,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "B59 Human High",
+   "B60 Human Medium",
+   "B61 Human High",
+   "B62 Human Medium",
+   "B63 Human High"
+  ]
+ },
+ {
+  "key": "s1101-100",
+  "lineage": "HG1101-100",
+  "name": "Appendix K: Sources and further reading / Learning, entering, and returning",
+  "words": 204,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.98,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "B63 Human High"
+  ]
+ },
+ {
+  "key": "s1101-101",
+  "lineage": "HG1101-101",
+  "name": "Indirect language and re-entry cues / Body awareness and changing the amount of contact",
+  "words": 192,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.96,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "B63 Human High"
+  ]
+ },
+ {
+  "key": "s1101-102",
+  "lineage": "HG1101-102",
+  "name": "Inner-child care and adult capacities",
+  "words": 193,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 1.0,
+  "windows_30oct": [
+   "A49 Human Medium",
+   "A51 Human Medium",
+   "A71 Human Medium",
+   "B63 Human High"
+  ]
+ },
+ {
+  "key": "s1101-103",
+  "lineage": "HG1101-103",
+  "name": "Inner speech and putting experience into words / Memory, support, and choosing a practitioner",
+  "words": 170,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [
+   "25% of it new or changed since 30 October"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 30 October"
+  ],
+  "cover": 0.75,
+  "windows_30oct": [
+   "B63 Human High"
+  ]
+ }
+]

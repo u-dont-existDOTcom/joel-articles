@@ -44893,7 +44893,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/pangram-ledger.jsonl",
-          "sha256": "5b37ab1387741d0bb279db2f28949a9ab8b8c1bd71a231f32f0171969695f01f",
+          "sha256": "2cfe25000540f150c60cfb0f2aa6413f5847faed3074bbea9c1b41574992aa21",
           "role": "humanization_working_record"
         },
         {
@@ -59194,6 +59194,36 @@
         {
           "path": "articles/inner-signal/humanize/fix-20261101/fullread2/review/build_page_fr2.py",
           "sha256": "f63476fe833d734ceeabf8a83134e27f9959a6c5533ed9341458bf7ef57d9891",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261101/sections/PREDICTIONS.json",
+          "sha256": "042884c5a57d5b84f72298a499a5f364a35e0cb0b91ac67e974760664155db63",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261101/sections/PREDICTIONS.md",
+          "sha256": "a0885d048e61833dea2149f097393905deed18abb12a3a5cafc7b8c730c1f52e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261101/sections/SECTIONS.json",
+          "sha256": "f85c6458616ba29fb55410e24c0c6fe2450ae2c38c59c5fd73d8cc092b935fe0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261101/sections/make_sections.py",
+          "sha256": "44fb37316ef78d14b2e0c391d44dbfc646dbe947b9cea2f818de16617c3b8965",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261101/sections/predict_sections.py",
+          "sha256": "5470aeddc55748b7e5a689a29ea81c05b38fac3a8fbbdd848c5923b7e7f1ba95",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261101/sections/s1101-items.json",
+          "sha256": "207e4bd0af93b3806254522eb1e2565fc5df24e4a8f32676f1fdca14b26af972",
           "role": "humanization_working_record"
         }
       ]
