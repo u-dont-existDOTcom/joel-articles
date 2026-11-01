@@ -1,0 +1,602 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "intentional-communities-fullread-20261030",
+ "title": "Community Article Cards, 30 October",
+ "intro": [
+  "Your community article as it is live (\"Updated: Oct 25 2026\"), read by me sentence by sentence beside your published version, the way I read the hypnosis guide (not Sonnet).",
+  "I checked each thing I found against how its words got there. Points your edits of 20 October, your rulings or your answers took out stay out: they're your cuts. Snags in words you chose that a reader still gets stay as they are. What's left is 19 cards:",
+  "<b>4 sentences a cut of 24 October left hanging</b> (cuts I advised): each fix keeps the cut. <b>5 commas and slips.</b> <b>7 suggestions for your own words.</b> <b>1 fix to my words.</b> <b>2 questions</b>, where a sentence of yours can be read two ways: tell me which you meant.",
+  "The post is live, so nothing changes until you say. Once you've answered, I'll give you each approved change as the exact old and new words to change in Substack's editor.",
+  "Your answers save as you click. When you're done, click <b>Copy my answers</b> (or <b>Save them as a file</b>) and send them to me."
+ ],
+ "git_file": "articles/intentional-communities/candidate/fullread-20261030/review/REVIEW-FULLREAD.html",
+ "article": {
+  "file": "articles/intentional-communities/master.md",
+  "sha256": "c5fac8549eaa7d1ed1c4d3e94013fb4efb7bb62f4d641283d2ec8bbbb185262a"
+ },
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/master.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/fullread-20261030/review/REVIEW-FULLREAD.md"
+ },
+ "built": "2026-10-30 22:31 UTC",
+ "types": {
+  "hanging": {
+   "label": "Left hanging by a cut",
+   "about": "A sentence that leaned on words you cut on 24 October (question 64, as I advised), and now hangs. The fix keeps your cut. Approve, Reject or Revise."
+  },
+  "typo": {
+   "label": "Commas and slips",
+   "about": "A comma or a small slip in the words as they are. Approve, Reject or Revise."
+  },
+  "yours": {
+   "label": "Your own words",
+   "about": "A suggestion for words you wrote yourself, or in your edits of 20 October. Approve uses the suggestion; Reject keeps your words; Revise lets you write your own."
+  },
+  "mine": {
+   "label": "My words",
+   "about": "A fix to words I wrote. Approve, Reject or Revise."
+  },
+  "ask": {
+   "label": "A question for you",
+   "about": "A sentence of yours that can be read two ways. Tell me which you meant in the answer box; it stays as it is until you do."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "C-1",
+   "spot": "F1.2",
+   "type": "typo",
+   "title": "“time that meant a lot of boredom, …”",
+   "where": "The New Age May Dawn Suddenly, P12",
+   "spans": [
+    {
+     "block": 13,
+     "start": 242,
+     "end": 246
+    }
+   ],
+   "edits": [
+    {
+     "block": 13,
+     "before": "I spent much of my childhood being carried through Twin Oaks, Acorn, East Wind, Padanaram, Zendik, and many other communities. I was usually just a visitor’s kid, close enough to see how people lived but never quite part of the tribe. At the time that meant a lot of boredom, with some adventures mixed in, but those years gave me a great sample to compare against.",
+     "after": "I spent much of my childhood being carried through Twin Oaks, Acorn, East Wind, Padanaram, Zendik, and many other communities. I was usually just a visitor’s kid, close enough to see how people lived but never quite part of the tribe. At the time, that meant a lot of boredom, with some adventures mixed in, but those years gave me a great sample to compare against."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“At the time that meant a lot of boredom” becomes “At the time, that meant a lot of boredom”",
+   "why": "Without a comma after \"At the time\", the sentence first reads as \"the time that meant a lot of boredom\", and the reader has to start it again.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Approve: one comma, nothing else changes.",
+   "found_by": "My read of the whole article beside your published version (30 October)",
+   "deciding": "Approve uses the new words; Reject keeps it as it is; Revise lets you write your own."
+  },
+  {
+   "id": "C-2",
+   "spot": "F1.3",
+   "type": "typo",
+   "title": "“folks like my dad especially, felt might …”",
+   "where": "The New Age May Dawn Suddenly, P13",
+   "spans": [
+    {
+     "block": 14,
+     "start": 214,
+     "end": 219
+    }
+   ],
+   "edits": [
+    {
+     "block": 14,
+     "before": "From 1999 to 2001, my family actually lived with the Love Israel family in Washington while escaping Y2K. In case you aren’t familiar with Y2K, it was the Year 2000 (represented as year 00) computer bug which some folks like my dad especially, felt might be the end of civilization. We lived in a yurt. At Love Israel, I had my dream of picking all kinds of wild berries in nature come true. I was also lonely, bored, irritated by the cult programming, and missing my friends in Philadelphia.",
+     "after": "From 1999 to 2001, my family actually lived with the Love Israel family in Washington while escaping Y2K. In case you aren’t familiar with Y2K, it was the Year 2000 (represented as year 00) computer bug which some folks, like my dad especially, felt might be the end of civilization. We lived in a yurt. At Love Israel, I had my dream of picking all kinds of wild berries in nature come true. I was also lonely, bored, irritated by the cult programming, and missing my friends in Philadelphia."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“computer bug which some folks like my dad especially, felt” becomes “computer bug which some folks, like my dad especially, felt”",
+   "why": "The one comma after \"especially\" splits \"some folks\" from \"felt\", so the sentence reads as broken. A comma on each side of \"like my dad especially\" puts it back together.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Approve: one comma, nothing else changes.",
+   "found_by": "My read of the whole article beside your published version (30 October)",
+   "deciding": "Approve uses the new words; Reject keeps it as it is; Revise lets you write your own."
+  },
+  {
+   "id": "C-3",
+   "spot": "F1.7",
+   "type": "typo",
+   "title": "“loneliness which inspired my father’s movie, is …”",
+   "where": "Communes Are Hot Again 🔥, P1",
+   "spans": [
+    {
+     "block": 29,
+     "start": 32,
+     "end": 42
+    }
+   ],
+   "edits": [
+    {
+     "block": 29,
+     "before": "Suddenly, the longing to escape loneliness which inspired my father’s movie, is everywhere again. Back in 2023, ironically, just the year after Covid lockdowns ended, the U.S. Surgeon General even put out an advisory, saying roughly half of American adults experience loneliness, and it treated social connection as a **public-health** issue.",
+     "after": "Suddenly, the longing to escape loneliness, which inspired my father’s movie, is everywhere again. Back in 2023, ironically, just the year after Covid lockdowns ended, the U.S. Surgeon General even put out an advisory, saying roughly half of American adults experience loneliness, and it treated social connection as a **public-health** issue."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“the longing to escape loneliness which inspired my father’s movie, is everywhere again” becomes “the longing to escape loneliness, which inspired my father’s movie, is everywhere again”",
+   "why": "The comma after \"movie\", with none before \"which\", splits the subject from its verb. These are your words of 18 October, the opening you checked in Pangram yourself.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Approve: one comma. A comma rarely moves a Pangram reading, but these are the words you checked, so it's your call.",
+   "found_by": "My read of the whole article beside your published version (30 October)",
+   "deciding": "Approve uses the new words; Reject keeps it as it is; Revise lets you write your own."
+  },
+  {
+   "id": "C-4",
+   "spot": "F1.9",
+   "type": "mine",
+   "title": "“society the shared norms and close ties …”",
+   "where": "Communes Are Hot Again 🔥, P3",
+   "spans": [
+    {
+     "block": 31,
+     "start": 111,
+     "end": 205
+    }
+   ],
+   "edits": [
+    {
+     "block": 31,
+     "before": "What’s starving them is anomie. We evolved to live in small groups where everybody knows everybody. In a large society the shared norms and close ties that held those groups together fall apart, and that’s how large societies end up run by psychopaths. (Yes, I’m always going on about this.)",
+     "after": "What’s starving them is anomie. We evolved to live in small groups where everybody knows everybody. In a large society, the shared norms and close ties that held those groups together fall apart, and nobody knows anybody well enough to see what they’re really like. That’s how large societies end up run by psychopaths. (Yes, I’m always going on about this.)"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“In a large society the shared norms and close ties that held those groups together fall apart, and that’s how large societies end up run by psychopaths.” becomes “In a large society, the shared norms and close ties that held those groups together fall apart, and nobody knows anybody well enough to see what they’re really like. That’s how large societies end up run by psychopaths.”",
+   "why": "\"That's how\" claims a reason the sentence never gives: it doesn't say why the ties falling apart lets psychopaths rise. This is my paragraph, written on 17 October from your thesis (\"large societies breed anomie and capture by psychopaths\"), and the bridge I've added is my guess at your reason.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Approve if that's your reason; if it isn't, Revise with yours. The comma after \"In a large society\" goes in either way.",
+   "found_by": "My read of the whole article beside your published version (30 October)",
+   "deciding": "Approve uses the new words; Reject keeps it as it is; Revise lets you write your own."
+  },
+  {
+   "id": "C-5",
+   "spot": "F2.3",
+   "type": "yours",
+   "title": "“selfish, thieving, nor suddenly unlearning learned helplessness.”",
+   "where": "The Freeloader Problem, P4",
+   "spans": [
+    {
+     "block": 41,
+     "start": 303,
+     "end": 345
+    }
+   ],
+   "edits": [
+    {
+     "block": 41,
+     "before": "Any attempt at communal ownership needs to take this into account by having folks take on visible and named stewardship duties, and by having a plan to deal with leeches. The How-To Manual after this essay deals with these issues. No, taking away the idea of a boss does not make everyone less passive, selfish, thieving, nor suddenly unlearning learned helplessness.",
+     "after": "Any attempt at communal ownership needs to take this into account by having folks take on visible and named stewardship duties, and by having a plan to deal with leeches. The How-To Manual after this essay deals with these issues. No, taking away the idea of a boss does not make everyone less passive, selfish or thieving, or suddenly unlearn their learned helplessness."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“does not make everyone less passive, selfish, thieving, nor suddenly unlearning learned helplessness.” becomes “does not make everyone less passive, selfish or thieving, or suddenly unlearn their learned helplessness.”",
+   "why": "As it is, the sentence doesn't parse: the list switches from \"passive, selfish, thieving\" to \"unlearning\", and \"nor\" has no verb of its own. Your sentence of 14 October; this keeps all four things.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Your call. I'd use it: it keeps your words and your point, and a reader gets through it in one go.",
+   "found_by": "My read of the whole article beside your published version (30 October)",
+   "deciding": "Approve uses the new words; Reject keeps it as it is; Revise lets you write your own."
+  },
+  {
+   "id": "C-6",
+   "spot": "F2.5",
+   "type": "yours",
+   "title": "“political). The two pendulum ends of this …”",
+   "where": "Why Communities Keep Dying in the Same Two Ways, P1",
+   "spans": [
+    {
+     "block": 45,
+     "start": 123,
+     "end": 133
+    }
+   ],
+   "edits": [
+    {
+     "block": 45,
+     "before": "Most communes of my acquaintance traded inner freedom of the heart (spirituality) for outer freedom (secular, nondogmatic, political). The two pendulum ends of this trade-off mirror each other. I believe we can combine the best of both, but first, let’s see how each fails individually.",
+     "after": "Most communes of my acquaintance traded inner freedom of the heart (spirituality) for outer freedom (secular, nondogmatic, political), or the other way around. The two pendulum ends of this trade-off mirror each other. I believe we can combine the best of both, but first, let’s see how each fails individually."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“for outer freedom (secular, nondogmatic, political).” becomes “for outer freedom (secular, nondogmatic, political), or the other way around.”",
+   "why": "The sentence says most communes gave up inner freedom for outer freedom, which is only the secular half. The next sentence's \"two pendulum ends\", and the two sections after it (the secular communes, then the spiritual ones), are about both ways. Your words of 20 October.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Your call. I'd use it: five words, and the paragraph says what the sections after it show.",
+   "found_by": "My read of the whole article beside your published version (30 October)",
+   "deciding": "Approve uses the new words; Reject keeps it as it is; Revise lets you write your own."
+  },
+  {
+   "id": "C-7",
+   "spot": "F3.1",
+   "type": "yours",
+   "title": "“these people? Try an unprogrammed Quaker or …”",
+   "where": "Practice group of whom?, P1",
+   "spans": [
+    {
+     "block": 73,
+     "start": 32,
+     "end": 44
+    }
+   ],
+   "edits": [
+    {
+     "block": 73,
+     "before": "Uh, but wait, where do you find these people? Try an unprogrammed Quaker or Unitarian meeting, a restorative-practice group, any open-hearted congregation, a mature recovery group, a meditation group, or find some people who have gone on long retreats and come back kinder, rather than more impressed with themselves.",
+     "after": "Uh, but wait, where do you find people for a practice group? Try an unprogrammed Quaker or Unitarian meeting, a restorative-practice group, any open-hearted congregation, a mature recovery group, a meditation group, or find some people who have gone on long retreats and come back kinder, rather than more impressed with themselves."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“where do you find these people?” becomes “where do you find people for a practice group?”",
+   "why": "\"These people\" points back to nobody. The section before is about the values to list before visiting, and the practice group is only named in the next section (\"Call it a practice group\"). This ties the question to your heading.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Your call. I'd use it: it keeps your \"Uh, but wait\" and the heading, and says who.",
+   "found_by": "My read of the whole article beside your published version (30 October)",
+   "deciding": "Approve uses the new words; Reject keeps it as it is; Revise lets you write your own."
+  },
+  {
+   "id": "C-8",
+   "spot": "F3.2",
+   "type": "yours",
+   "title": "“Fun and nice things first give incentive. …”",
+   "where": "Practice Before Committing, P1",
+   "spans": [
+    {
+     "block": 78,
+     "start": 104,
+     "end": 134
+    }
+   ],
+   "edits": [
+    {
+     "block": 78,
+     "before": "So, build the part of community you actually can. **Call it a practice group**, for now, not a commune. Fun and nice things first give incentive. Have a weekly meal with two households. Set up a counseling exchange with one friend, in person or by video call. Share tools or childcare. Transport or food prep work too. Or a sauna. And if you’re hippie enough, add acro-yoga, dance improv, a mothers’ circle or a cuddle puddle.",
+     "after": "So, build the part of community you actually can. **Call it a practice group**, for now, not a commune. Do the fun and nice things first, to give people an incentive. Have a weekly meal with two households. Set up a counseling exchange with one friend, in person or by video call. Share tools or childcare. Transport or food prep work too. Or a sauna. And if you’re hippie enough, add acro-yoga, dance improv, a mothers’ circle or a cuddle puddle."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“Fun and nice things first give incentive.” becomes “Do the fun and nice things first, to give people an incentive.”",
+   "why": "As it is, it reads like a note to yourself: the reader has to work out that it means \"start with the fun and nice things, because they give people a reason to keep coming\". Your words of 20 October.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Your call. I'd use it: same words, put in order.",
+   "found_by": "My read of the whole article beside your published version (30 October)",
+   "deciding": "Approve uses the new words; Reject keeps it as it is; Revise lets you write your own."
+  },
+  {
+   "id": "C-9",
+   "spot": "F3.3",
+   "type": "ask",
+   "title": "“you can all meet in a rented …”",
+   "where": "Practice Before Committing, P3",
+   "spans": [
+    {
+     "block": 80,
+     "start": 208,
+     "end": 281
+    }
+   ],
+   "edits": [],
+   "inserts": [],
+   "moves": [],
+   "advice": "ask",
+   "question": "Did you mean that the group keeps meeting in rented or borrowed places, or at each other's houses, until it really needs land, or that it can try living together there before anyone buys land?",
+   "why": "After the phases, the next step is \"meet in a rented or borrowed space, or at each other's houses\", which the group has been doing all along, so the reader can't tell what changes once they're past the phases. Your version of 18 October had it the other way round (\"Until that's happened ... That's okay! You can all meet in a rented or borrowed space ...\"); when you made it the step after the phases on 20 October, \"meet\" stayed.",
+   "stays": "It stays as it is until you answer.",
+   "advice_note": "Tell me which. If it's meeting: \"you can keep meeting in a rented or borrowed space, or at each other's houses, long before anyone needs a land surveyor\". If it's living together: \"you can all live together in a rented or borrowed space first, long before anyone needs a land surveyor\". My guess is the second, since the sentence starts \"if you still want to live together\".",
+   "found_by": "My read of the whole article beside your published version (30 October)"
+  },
+  {
+   "id": "C-10",
+   "spot": "F3.7",
+   "type": "typo",
+   "title": "“Leaving, Removal, and Dissolution” section after that …”",
+   "where": "From Visitor to Member—Slowly, P8",
+   "spans": [
+    {
+     "block": 108,
+     "start": 203,
+     "end": 277
+    }
+   ],
+   "edits": [
+    {
+     "block": 108,
+     "before": "Before making long-term commitments, it really makes sense to go through the choices explained in my below sections about technology, relationships, children, money, and founder power. The exit terms in “Leaving, Removal, and Dissolution” section after that would also help for thinking about those agreements.",
+     "after": "Before making long-term commitments, it really makes sense to go through the choices explained in my below sections about technology, relationships, children, money, and founder power. The exit terms in the “Leaving, Removal, and Dissolution” section after that would also help with thinking about those agreements."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“The exit terms in “Leaving, Removal, and Dissolution” section after that would also help for thinking about those agreements.” becomes “The exit terms in the “Leaving, Removal, and Dissolution” section after that would also help with thinking about those agreements.”",
+   "why": "\"In “Leaving, Removal, and Dissolution” section\" is missing \"the\", and \"help for thinking about\" wants \"help with\".",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Approve: two words, nothing else changes.",
+   "found_by": "My read of the whole article beside your published version (30 October)",
+   "deciding": "Approve uses the new words; Reject keeps it as it is; Revise lets you write your own."
+  },
+  {
+   "id": "C-11",
+   "spot": "F4.3",
+   "type": "hanging",
+   "title": "“But it means that people building institutions …”",
+   "where": "Are Zapatistas just unicorns?, P2",
+   "spans": [
+    {
+     "block": 137,
+     "start": 187,
+     "end": 204
+    }
+   ],
+   "edits": [
+    {
+     "block": 137,
+     "before": "Sociocracy has a very different history, yet some similar features have emerged there as well: circles, decision-making by consent, distributed authority, and linking between the levels. But it means that people building institutions of this sort have another serious system to study, instead of inventing their governance during their first dispute.",
+     "after": "Sociocracy has a very different history, yet some similar features have emerged there as well: circles, decision-making by consent, distributed authority, and linking between the levels. That means people building institutions of this sort have another serious system to study, instead of inventing their governance during their first dispute."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“But it means that people building” becomes “That means people building”",
+   "why": "On 24 October you cut \"Does this prove there's a universal formula? No.\" (64.4, as I advised), and I left the \"But\" that answered it. Now it contrasts with nothing, and \"it\" has nothing to point to.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Approve: it keeps your cut, and the sentence makes sense again.",
+   "found_by": "My read of the whole article beside your published version (30 October)",
+   "deciding": "Approve uses the new words; Reject keeps it as it is; Revise lets you write your own."
+  },
+  {
+   "id": "C-12",
+   "spot": "F5.6",
+   "type": "yours",
+   "title": "“shouldn’t translate that information into administration over …”",
+   "where": "2. Relational pl/ork, P3",
+   "spans": [
+    {
+     "block": 188,
+     "start": 133,
+     "end": 169
+    }
+   ],
+   "edits": [
+    {
+     "block": 188,
+     "before": "But since we’re merging peer therapy with community, we also need to make sure that the person caring about you and listening to you shouldn’t translate that information into administration over your life, the way a professional therapist might diagnose you as this or that and then suddenly you’re ineligible for certain careers. Although obviously that information can come out regardless when people are in close quarters.",
+     "after": "But since we’re merging peer therapy with community, we also need to make sure that the person caring about you and listening to you doesn’t turn what you tell them into administration over your life, the way a professional therapist might diagnose you as this or that and then suddenly you’re ineligible for certain careers. Although obviously that information can come out regardless when people are in close quarters."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“make sure that the person caring about you and listening to you shouldn’t translate that information into administration over your life” becomes “make sure that the person caring about you and listening to you doesn’t turn what you tell them into administration over your life”",
+   "why": "\"Make sure that ... shouldn't translate\" doesn't parse, and \"that information\" has nothing before it: it means what you tell the person while they listen. Your words; \"administration over your life\" stays.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Your call. I'd use it: it fixes the grammar and keeps your point.",
+   "found_by": "My read of the whole article beside your published version (30 October)",
+   "deciding": "Approve uses the new words; Reject keeps it as it is; Revise lets you write your own."
+  },
+  {
+   "id": "C-13",
+   "spot": "F6.6",
+   "type": "yours",
+   "title": "“They’re right though that modern folk do …”",
+   "where": "No Special Shamans, P2",
+   "spans": [
+    {
+     "block": 215,
+     "start": 633,
+     "end": 653
+    }
+   ],
+   "edits": [
+    {
+     "block": 215,
+     "before": "And while I do think it’s valuable to have someone highly experienced in navigating the spirit worlds who is able to sense where you are in those and guide you, I also wouldn’t trust many of these shamans to guide me, considering it’s common to find that even the ones who can heal people very well may still be happy to send evil spirits to kill someone, if that hit job is lucrative. I also don’t trust their medical intuition in general, considering the Huni Kuin shamans are famous for claiming that all other ayahuasca shamans are giving people cancer by using the knotted B. caapi vine (since the knots remind them of tumors). They’re right though that modern folk do very often decide they’re ready to lead ceremonies long before they’re really trained and prepared. I’m sure I could still learn a lot from those traditions, and they will continue to develop their understandings as well.",
+     "after": "And while I do think it’s valuable to have someone highly experienced in navigating the spirit worlds who is able to sense where you are in those and guide you, I also wouldn’t trust many of these shamans to guide me, considering it’s common to find that even the ones who can heal people very well may still be happy to send evil spirits to kill someone, if that hit job is lucrative. I also don’t trust their medical intuition in general, considering the Huni Kuin shamans are famous for claiming that all other ayahuasca shamans are giving people cancer by using the knotted B. caapi vine (since the knots remind them of tumors). The lineages are right, though, that modern folk do very often decide they’re ready to lead ceremonies long before they’re really trained and prepared. I’m sure I could still learn a lot from those traditions, and they will continue to develop their understandings as well."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“They’re right though that modern folk” becomes “The lineages are right, though, that modern folk”",
+   "why": "\"They\" comes right after the Huni Kuin shamans and the shamans they accuse, so the reader can't tell who is right. It means the traditional lineages your section starts with. Your words.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Your call. I'd use it: otherwise a reader may think you're siding with the cancer claim.",
+   "found_by": "My read of the whole article beside your published version (30 October)",
+   "deciding": "Approve uses the new words; Reject keeps it as it is; Revise lets you write your own."
+  },
+  {
+   "id": "C-14",
+   "spot": "F7.3",
+   "type": "yours",
+   "title": "“they are fond of each other. It’s …”",
+   "where": "Children Need Freedom Inside Real Protection, P6",
+   "spans": [
+    {
+     "block": 284,
+     "start": 141,
+     "end": 145
+    }
+   ],
+   "edits": [
+    {
+     "block": 284,
+     "before": "I feel very much saddened by the way that adults are seen as (and actually often are) so dangerous for children in the West, especially when they are fond of each other. It’s good for kids to have a whole bunch of grownups who know them and enjoy them, who would notice when something changes, and who would act when something’s wrong. When adults panic like that, kids can lose all those grownups without the panic actually preventing abuse. It’s amazing when you travel the world and you see how sick US culture is especially… all over Africa and parts of Asia, I’ve seen parents let their kids run around naked in public with no qualms or concerns. That’s real freedom!",
+     "after": "I feel very much saddened by the way that adults are seen as (and actually often are) so dangerous for children in the West, especially when an adult and a child are fond of each other. It’s good for kids to have a whole bunch of grownups who know them and enjoy them, who would notice when something changes, and who would act when something’s wrong. When adults panic like that, kids can lose all those grownups without the panic actually preventing abuse. It’s amazing when you travel the world and you see how sick US culture is especially… all over Africa and parts of Asia, I’ve seen parents let their kids run around naked in public with no qualms or concerns. That’s real freedom!"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“especially when they are fond of each other” becomes “especially when an adult and a child are fond of each other”",
+   "why": "\"They\" can be read as the adults. Your published version said it plainly: a warm relationship between an unrelated adult and a child. Your words of 20 October.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Your call. I'd use it: in this paragraph above all, the reader should know exactly who is meant.",
+   "found_by": "My read of the whole article beside your published version (30 October)",
+   "deciding": "Approve uses the new words; Reject keeps it as it is; Revise lets you write your own."
+  },
+  {
+   "id": "C-15",
+   "spot": "F7.5",
+   "type": "ask",
+   "title": "“but that’s something which varies a lot …”",
+   "where": "Children Need Freedom Inside Real Protection, list item",
+   "spans": [
+    {
+     "block": 286,
+     "start": 2565,
+     "end": 2627
+    }
+   ],
+   "edits": [],
+   "inserts": [],
+   "moves": [],
+   "advice": "ask",
+   "question": "What varies: what counts as acceptable physical discipline, from one society to another, or how much of it goes on, in every society, so that it isn't special to communes?",
+   "why": "\"That's something which varies a lot in every society also\" doesn't say what varies, so a reader can take it as saying abuse is relative, and has to reread to see what you mean. Your words of 20 October.",
+   "stays": "It stays as it is until you answer.",
+   "advice_note": "Tell me which and I'll put it plainly. For the first: \"but what counts as acceptable physical discipline varies a lot from one society to another\". For the second: \"but that goes on, more or less, in every society, not only in communes\".",
+   "found_by": "My read of the whole article beside your published version (30 October)"
+  },
+  {
+   "id": "C-16",
+   "spot": "F8.5",
+   "type": "hanging",
+   "title": "“are present, they are worth paying attention …”",
+   "where": "Founderism: The Four Questions, P7",
+   "spans": [
+    {
+     "block": 313,
+     "start": 11,
+     "end": 22
+    }
+   ],
+   "edits": [
+    {
+     "block": 313,
+     "before": "If several are present, they are worth paying attention to before the founder(s) can explain how the situation is uniquely different in a spiritual way. Ask these questions about any community, teacher or method, including me.",
+     "after": "If several of these point to one person or clique, they are worth paying attention to before the founder(s) can explain how the situation is uniquely different in a spiritual way. Ask these questions about any community, teacher or method, including me."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“If several are present, they are worth paying attention to” becomes “If several of these point to one person or clique, they are worth paying attention to”",
+   "why": "On 24 October you cut \"Presence of one of these alone isn't proof of abuse, but\" (64.23, as I advised, with your note that \"isn't proof of\" is a high-frequency AI pattern), and \"several\" lost the \"these\" it counted. This keeps your cut and doesn't bring \"proof\" back.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Approve: it keeps your cut, and the reader knows several of what.",
+   "found_by": "My read of the whole article beside your published version (30 October)",
+   "deciding": "Approve uses the new words; Reject keeps it as it is; Revise lets you write your own."
+  },
+  {
+   "id": "C-17",
+   "spot": "F8.6",
+   "type": "typo",
+   "title": "“time as I’m describing may happen in …”",
+   "where": "Founderism: The Four Questions, P8",
+   "spans": [
+    {
+     "block": 314,
+     "start": 110,
+     "end": 132
+    }
+   ],
+   "edits": [
+    {
+     "block": 314,
+     "before": "While founderism is a problem in every community, it’s especially so in communities which form naturally over time as I’m describing may happen in my case. In such cases, there’s no formal community and no formal rules until people decide to come together to make them. It doesn’t make sense to do that at first, if, say, I’m the only one there and I don’t know who else will be there that I could trust. If there’s one other person who comes to visit, it also doesn’t make sense, so there’s a critical mass point at which people decide “we were just living together like friends, but now we want to formalize the community.”",
+     "after": "While founderism is a problem in every community, it’s especially so in communities which form naturally over time, as I’ve said may happen in my case. In such cases, there’s no formal community and no formal rules until people decide to come together to make them. It doesn’t make sense to do that at first, if, say, I’m the only one there and I don’t know who else will be there that I could trust. If there’s one other person who comes to visit, it also doesn’t make sense, so there’s a critical mass point at which people decide “we were just living together like friends, but now we want to formalize the community.”"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“over time as I’m describing may happen in my case” becomes “over time, as I’ve said may happen in my case”",
+   "why": "\"Which form naturally over time as I'm describing may happen in my case\" doesn't parse; it means \"as I've said may happen in my case\".",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Approve: a comma and one word.",
+   "found_by": "My read of the whole article beside your published version (30 October)",
+   "deciding": "Approve uses the new words; Reject keeps it as it is; Revise lets you write your own."
+  },
+  {
+   "id": "C-18",
+   "spot": "F8.8",
+   "type": "hanging",
+   "title": "“practices go too far against the communal …”",
+   "where": "How My Own Model Could Become a Cult, P5",
+   "spans": [
+    {
+     "block": 321,
+     "start": 411,
+     "end": 420
+    }
+   ],
+   "edits": [
+    {
+     "block": 321,
+     "before": "“Nothing suppressed, everything processed” can become a situation where someone in the group must tell all, even if they don’t want to. I have seen that risk in groups that use the ZEGG Forum practice. But privacy also can be resistance to the communal spirit, so there has to be a living, always re-assessed balance between what you and the community owe each other, and what remains your own domain. But some practices go too far against the communal spirit. If someone starts worshipping Satan, say, they get booted.",
+     "after": "“Nothing suppressed, everything processed” can become a situation where someone in the group must tell all, even if they don’t want to. I have seen that risk in groups that use the ZEGG Forum practice. But privacy also can be resistance to the communal spirit, so there has to be a living, always re-assessed balance between what you and the community owe each other, and what remains your own domain. But some private practices go too far against the communal spirit. If someone starts worshipping Satan, say, they get booted."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“But some practices go too far against the communal spirit.” becomes “But some private practices go too far against the communal spirit.”",
+   "why": "On 24 October you cut \"In general, people can have their own private practices, of course.\" (64.24, as I advised). That sentence told the reader that \"some practices\" meant a member's own; without it, coming after \"Every practice in this article can be turned against the people using it\", it reads as the community's practices.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Approve: one word, and it keeps your cut.",
+   "found_by": "My read of the whole article beside your published version (30 October)",
+   "deciding": "Approve uses the new words; Reject keeps it as it is; Revise lets you write your own."
+  },
+  {
+   "id": "C-19",
+   "spot": "F8.10",
+   "type": "hanging",
+   "title": "“their wounded ego projection, and that should …”",
+   "where": "How My Own Model Could Become a Cult, P7",
+   "spans": [
+    {
+     "block": 323,
+     "start": 56,
+     "end": 84
+    }
+   ],
+   "edits": [
+    {
+     "block": 323,
+     "before": "Dissent is important for growth. Sometimes it really is their wounded ego projection, and that should be acknowledged. But again, balance, because if complaints are too often or too broadly painted as projection, that’s as much a failure, if not more so.",
+     "after": "Dissent is important for growth. Sometimes it really is the dissenter’s wounded ego projecting, and that should be acknowledged. But again, balance, because if complaints are too often or too broadly painted as projection, that’s as much a failure, if not more so."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“Sometimes it really is their wounded ego projection” becomes “Sometimes it really is the dissenter’s wounded ego projecting”",
+   "why": "On 24 October you cut \"That doesn't mean everything everyone says is equally valid, though.\" (64.25, as I advised), and \"their\" lost the people it pointed to.",
+   "stays": "The rest of the paragraph, word for word.",
+   "advice": "approve",
+   "advice_note": "Approve: it keeps your cut and your point.",
+   "found_by": "My read of the whole article beside your published version (30 October)",
+   "deciding": "Approve uses the new words; Reject keeps it as it is; Revise lets you write your own."
+  }
+ ]
+}

@@ -20,13 +20,13 @@ Hello Lovey Bunny!
 
 Have you ever realized that you were born with an incredible brain/mind that has many layers of consciousness and can dream, protect, analyze, imitate, love, remember, hide, show, heal, etc, etc?
 
-Yet no one taught those layers to talk to each other. Instead you were taught (or you figured out) that the way to grow up and be an adult is to push through, repress, suppress, pretend you’re confident, follow authority, go against authority, etc etc etc. And mind you, the deeper mind is still running all of the programs it’s running: the child mind wanting to feel safe, the guard mind bracing for danger (childhood protector parts, the protective reactions learned as a child), the body mind remembering what your intellect explained away, the intuitive mind speaking up before you have the words, and the fantasy mind trying to become guidance mind, etc etc.
+Yet no one taught those layers to talk to each other. Instead you were taught (or you figured out) that the way to grow up and be an adult is to push through, repress, suppress, pretend you’re confident, follow authority, go against authority, etc etc etc. And mind you, the deeper mind is still running all of the programs it’s running: the inner child mind wanting to feel safe, the guard mind bracing for danger (childhood protector parts, the protective reactions learned as a child), the body mind remembering what your intellect explained away, the intuitive mind speaking up before you have the words, and the fantasy mind trying to become guidance mind, etc etc.
 
 While a lot of the teachings on hypnosis talk about the subconscious mind like it’s one giant machine you just have to put the right commands into in order to get it to do what you want, for me, the most useful thing to do is sit and listen to the different parts of myself until they can all be heard, without any of them grabbing the microphone.
 
-I teach a self-hypnosis method that allows you to gather all of your attention and have your conscious mind, subconscious mind, body mind, inner child mind, guard minds, adult mind and Higher Self be able to all hear and talk to each other.
+I teach a self-hypnosis method that allows you to gather all of your attention, so your conscious mind, subconscious mind, body mind, inner child mind, guard minds, adult mind and Higher Self can all hear and talk to each other.
 
-“How do I do this?” you ask. Just listen silently. Many people skip the listening or shorten it since it's not "achieving something" but this is by far the most important step. When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic trance experience to demonstrate the results of all parts of your mind talking to each other and trusting each other more.
+“How do I do this?” you ask. Just listen silently. Many people skip the listening or shorten it since it's not "achieving something", but this is by far the most important step. When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic trance experience to see the results in your day-to-day life, with all parts of your mind talking to each other and trusting each other more.
 
 I like to think of it like a communion between all parts of our mind, where the conscious mind doesn’t have to shout from the roof top and the subconscious mind doesn’t have to manifest symptoms, dreams, cravings, daydreams and weird body signals in order to communicate.
 
@@ -34,11 +34,11 @@ I work with the subconscious as if it were an ecology, and often begin hypnosis 
 
 # Quick start: do this first
 
-To work on difficulties or cultivate positive qualities (love, curiosity, play, confidence, etc.), simply do these steps, in order: 1) Gather attention; 2) Notice what is here; 3) Offer one fitting response; 4) Wait; 5) Come all the way back. Not much needs to happen in each session!
+To work on difficulties or cultivate positive qualities (love, curiosity, play, confidence, etc.), simply do these steps, in order: 1) Gather attention; 2) Notice what is here; 3) Offer a fitting response; 4) Wait; 5) Come all the way back. Not much needs to happen in each session!
 
 Prior to your first session, read through the induction and the full return to waking life, so you’re more familiar with them. Then put the screen away. You’re learning to run the practice yourself, not reading from a teleprompter like a news anchor person.
 
-You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - as you're invited. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return to normal waking consciousness. After, note what happened & any real-world actions.
+You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - and let it shape your next invite. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return to normal waking consciousness. After, note what happened & any real-world actions it calls for.
 
 If at any point you feel panicky, disoriented, more unreal, or less functional, this is not the time for bravely sticking with difficult feelings (that's another choice, made freely & while staying present). Stop deepening, return to the room & get appropriate support.
 
@@ -48,7 +48,7 @@ Before choosing a script, notice: do you talk to yourself in your head -- silent
 
 Keep in mind that it's normal, even for people who do think in words, to sometimes notice feelings before words.
 
-If you don't normally think in words, you may want to say things aloud, in writing, on a recording, etc., when this guide says "say." Or, just do what it invites, without preparing what you're going to say. When it says "ask" the child or guard, or "listen" for a response, it doesn't mean they'll be saying full sentences to you. It also doesn't mean you'll get pictures in your head instead. Just do whatever you can, and try different ways as needed.
+If you don't normally think in words, you may want to say things aloud, in writing, on a recording, etc., when this guide says "say." Or, just do what it invites, without preparing what you're going to say. When it says "ask" the inner child or guard, or "listen" for a response, it doesn't mean they'll be saying full sentences to you. It also doesn't mean you'll get pictures in your head instead. Just do whatever you can, and try different ways as needed.
 
 # What I mean by hypnosis
 
@@ -68,7 +68,7 @@ A line associated with the Silva Mind Control tradition says it plainly:
 
 “If you don’t learn to control your mind, someone else will!”
 
-Ads, screens, fear and cravings are already training your mind, and so are your tribe, the people in authority, loneliness and plain old repetition. With self-hypnosis you can train your own mind from the inside, by befriending and listening to the deeper part of your mind. This opens up a whole new area of choice for you as an adult in the world.
+With self-hypnosis you can train your own mind from the inside, by befriending and listening to the deeper part of your mind. This opens up a whole new area of choice for you as an adult in the world.
 
 Double click to interact with video
 
@@ -82,7 +82,7 @@ My friend P. has a friend named V. V. is a 33rd-degree Free Mason. V. has the ab
 
 # Keep the Adult Part of Yourself in Charge
 
-Under no circumstances allow a strong state, charismatic individual, sexual charge, spiritual claim, or other authority to replace the adult part of yourself. All legitimate forms of influence can stand up to questions, sleep, boundaries and time.
+Don’t let a strong state, a charismatic person, a sexual charge, a spiritual claim or any other authority take the place of the adult part of yourself. Legitimate influence can stand up to questions, sleep, boundaries and time.
 
 # Affirmations Done Right
 
@@ -100,27 +100,27 @@ The Buddha also taught that the important thing is always to come back to mindfu
 
 # Hypnosis Evidence
 
-Is there REAL (not magical) evidence for Hypnosis? Yes. In 2024, there was an [overview of 49 meta-analyses](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1330238/full) containing a total of 261 distinct primary studies. Evidence was strongest for pain, medical procedures, and work with children and adolescents, but varied with different outcomes and study design quality.
+Is there real (not magical) evidence for hypnosis? Yes. In 2024, there was an [overview of 49 meta-analyses](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1330238/full) containing a total of 261 distinct primary studies. Evidence was strongest for pain, medical procedures, and work with children and adolescents, but varied with different outcomes and study design quality.
 
-Is there evidence for Self-Hypnosis? Yes. There has been [a systematic review of Randomized Controlled Trials](https://eprints.bournemouth.ac.uk/31277/4/Eason%20and%20Parris%20in%20press.pdf) of self-hypnosis, finding benefit in studies of pain, childbirth, children, stress, anxiety etc. Self-hypnosis seemed more useful when done as a real self-skill several times, not just listening to an audio file.
+Is there evidence for self-hypnosis? Yes. There has been [a systematic review of Randomized Controlled Trials](https://eprints.bournemouth.ac.uk/31277/4/Eason%20and%20Parris%20in%20press.pdf) of self-hypnosis, finding benefit in studies of pain, childbirth, children, stress, anxiety etc. Self-hypnosis seemed more useful when people learned it as a real skill and practiced it several times than when they just listened to an audio file.
 
-Here I will be teaching you a real self-skill, so you don’t end up a consumer of more and more elaborate trance recordings.
+Here I will be teaching you a real skill, so you don’t end up a consumer of more and more elaborate trance recordings.
 
 # What to Use Self-Hypnosis For, and What Not To
 
-The Mayo Clinic warns that using hypnosis to deal with earlier life stressful events may bring up strong emotions and that there are other types of treatments that may be more helpful with historical trauma.
+The Mayo Clinic warns that using hypnosis to deal with stressful events from earlier in life may bring up strong emotions and that there are other types of treatments that may be more helpful with historical trauma.
 
-DO use Self Hypnosis to help you: regulate your self, talk to your self, re-parent your self, gain clarity, change habits, make your life safer in the now, integrate emotions, and take action in ordinary life.
+Use self-hypnosis to help you: regulate yourself, talk to yourself, reparent yourself, gain clarity, change habits, make your life safer in the now, integrate emotions, and take action in ordinary life.
 
-DO NOT use Self Hypnosis to help you: force yourself to remember trauma, force yourself to prove trauma through memories, suppress medical symptoms, de-stabilize your self, or replace appropriate clinical care.
+Don’t use self-hypnosis to: force yourself to remember trauma, force yourself to prove trauma through memories, push symptoms down instead of getting medical attention, destabilize yourself, or replace appropriate clinical care.
 
 # Forget the left-brain/right-brain cartoon
 
-I use the expression ‘syncing the hemispheres’ but don’t want to over interpret what is going on neuroscientifically. A [huge study of resting-state fMRI scans](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0071275) of 1011 people does not support the common pop neuropsych notion that people in general are left or right brained. But there is evidence for lateralization of some functions or networks.
+I use the expression ‘syncing the hemispheres’ but don’t want to overinterpret what is going on neuroscientifically. A [huge study of resting-state fMRI scans](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0071275) of 1011 people does not support the common pop neuropsych notion that people in general are left- or right-brained. But there is evidence for lateralization of some functions or networks.
 
-Let’s elicit a high level of co-operation between the verbal, the analytical, the imaginal, the emotional, the somatic, the intuitive, the relational, the spiritual … It’s not an electoral process. Nobody needs to win!
+Let’s elicit a high level of co-operation between the verbal, the analytical, the imaginal, the emotional, the somatic, the intuitive, the relational, the spiritual … all the modes of your mind. It’s not an electoral process. Nobody needs to win!
 
-The mind of love and the mind of analysis can BOTH be there - warmth and brightness. The mind of intuition and the mind of rationality can BOTH be there - intuitive signals without dogma, and testing of those signals without killing them. The body can have a voice - saying yes or no or not yet. The imagination can open up the field, and then the adult can choose what to do next in the real world. It can be peaceful but also precise.
+The mind of love and the mind of analysis can both be there, so you can be warm and clear-headed at once. The mind of intuition and the mind of rationality can both be there - intuitive signals without dogma, and testing of those signals without killing them. The body can have a voice - saying yes or no or not yet. The imagination can open up the field, and then the adult can choose what to do next in the real world. You can be at peace and still be precise.
 
 Without the mind of love, the mind of analysis can be sterile. Without the mind of analysis, the mind of love can lead to fantasy. Without testing, intuitive signals can become delusions. Without intuitive signals, the testing can be dead. So these modes can correct each other.
 
@@ -130,11 +130,11 @@ And all of this has got to lead somewhere, to a point where you notice you’re 
 
 Doing self-hypnosis on my own seems far more useful than the very little I managed to do with a professional hypnotist. I was sober at the session and didn't feel especially suggestible, but I suspect that's not even the main reason the pro didn't work very well for me. The bigger issue was how much I trusted him (I noticed my analytical mind was checking everything he suggested), and whether he knew the right buttons to press for me as a unique human being.
 
-When I do it on my own, I can detect when the wording I'm using for a suggestion to my subconscious is slightly off, and talk to my subconscious to find out what it thinks is wrong with the wording. When I use an image, I can tell whether it's giving me useful information, or just telling me what I'm afraid of, or what I want to avoid, or what I want to be true, or something I don't understand yet. And I can notice my body saying no before my conscious mind talks me into a yes.
+When I do it on my own, I can detect when the wording I'm using for a suggestion to my subconscious is slightly off, and talk to my subconscious to find out what it thinks is wrong with the wording. When an image comes up, I can tell whether it's giving me useful information, or just telling me what I'm afraid of, or what I want to avoid, or what I want to be true, or something I don't understand yet. And I can notice my body saying no before my conscious mind talks me into a yes.
 
-A hypnotist working on me can't interact with my subconscious mind quickly enough to get the detailed feedback needed to know what's going on in my mind, since they aren't IN my mind. (Of course, there are advantages to having a skilled guide, since they may be able to see things I'm blind to, and can help me keep the process regulated and safe.)
+A hypnotist working on me can't interact with my subconscious mind quickly enough to get the detailed feedback needed to know what's going on in my mind, since they aren't inside my mind. (Of course, there are advantages to having a skilled guide, since they may be able to see things I'm blind to, and can help me keep the process regulated and safe.)
 
-When I hypnotize myself, though, my dialogue with the system itself is immediate, and that's an advantage nobody outside my own head can duplicate. I found that especially amplified with [loveyhuasca](http://loveyhuasca.info/). My experiences included a much deeper understanding of [my motivations](http://motivations.u-dont-exist.com/), peaceful loving awareness operating alongside analytical clarity, the disappearance of unhelpful daydreaming, different priorities around relationships, stronger intuition, and repeated correction between intuition, subconscious response, and conscious analysis.
+When I hypnotize myself, though, my dialogue with my subconscious is immediate, and that's an advantage nobody outside my own head can duplicate. I found that especially amplified with [loveyhuasca](http://loveyhuasca.info/). My experiences included a much deeper understanding of [my motivations](http://motivations.u-dont-exist.com/), peaceful loving awareness operating alongside analytical clarity, the disappearance of unhelpful daydreaming, different priorities around relationships, stronger intuition, and repeated correction between intuition, subconscious response, and conscious analysis.
 
 I also got stronger results when I practiced immediately after sky hypnosis:
 
@@ -144,13 +144,13 @@ I also got stronger results when I practiced immediately after sky hypnosis:
 
 Some benefits arrived the next morning or a few days later. After one loveyhuasca self-hypnosis session, I woke in what felt like an answer to prayer. I’d been dealing with a lot of lust energy and worrying it could pull me into a relationship that wasn’t right. I asked the subconscious to connect the heart chakra with the sacral chakra—to bring the love energy and sex energy into the same current. The next morning I woke in a kind of “perfected” love state. I didn’t feel that I needed to find a woman; the divine feminine felt somehow at zero distance from my heart. Normal interaction with people made it wear off, but for a while it showed me that my mind and heart may allow this when the desire is sincere.
 
-In the same vein, self-hypnosis seemed to extend a short [chrunga](http://chrunga.u-dont-exist.com/) trip for what felt like a long time, and it felt like, if I needed to, I could have continued for an arbitrary amount of time. It only ended because life needed me to talk to people, etc. Phenomenologically, this is very important. I'm not recommending that anyone prolong an altered state forever, though. It's better to integrate it into your life than to try to live inside it.
+In the same vein, self-hypnosis seemed to extend a short [chrunga](http://chrunga.u-dont-exist.com/) trip for what felt like a long time, and it felt like I could have kept it going for as long as I wanted. It only ended because life needed me to talk to people, etc. Phenomenologically, this is very important. I'm not recommending that anyone prolong an altered state forever, though. It's better to integrate it into your life than to try to live inside it.
 
 Without drugs, self hypnosis or meditation might also work way better inside a lucid dream - I explain that possibility in my [lucid dreaming guide](https://ibogaqueen.substack.com/p/ego-death-without-drugs-lucid-dream).
 
 # A useful map of the mind
 
-Note: whenever I refer to the subconscious I’m referring to all of the processes under the surface of your conscious awareness: perceptions, emotions, desires, avoidance tendencies, imagery, memories, body signals, habits, intuitions, automatic behaviors and so forth. You can work with all of these together as if it’s all one mind, or you can work with it as a set of parts, an ecology if you like. There isn’t a right or wrong way to approach it. They’re all maps. Don’t form a priesthood around either one!
+Note: whenever I refer to the subconscious, I’m referring to all of the processes under the surface of your conscious awareness: perceptions, emotions, desires, avoidance tendencies, imagery, memories, body signals, habits, intuitions, automatic behaviors and so forth. You can work with all of these together as if it’s all one mind, or you can work with it as a set of parts, an ecology if you like. There isn’t a right or wrong way to approach it. They’re both maps. Don’t form a priesthood around either one!
 
 Working with parts gives you precision, and working with the Higher Self gives you coherence. Communion is going back and forth between the two.
 
@@ -160,23 +160,23 @@ a) Invoke the subconscious in some way. Something simple like ‘Hello, wise sub
 
 If you need to work with the ecology in the subconscious, notice what each part wants: the child parts usually want love, the guards want you safe, the critic wants you to meet some standard, the fantasy making parts are after possibility, body memories want to be recognized, the social part wants to belong, the spiritual part wants God or source or what’s best for all beings, and the wiser part just wants what’s true. Then:
 
-a) It’s usually a good idea to start with unity. So invoke your Higher Self: Hello my Higher Self/universal heart-mind/wise subconscious, please guide me…
+a) It’s usually a good idea to start with unity. So invoke your Higher Self: “Hello, my Higher Self/universal heart-mind/wise subconscious, please guide me…”
 
 b) Move into differentiation. “Which part is afraid? Which part wants to protect you? Which part wants to avoid the whole thing? Which part knows what to do? Which part is too young for this?” Etc.
 
-c) Move back into unity again. “And all of these parts are part of the one life, and as the adult in charge of this life you can lead with love…” Etc.
+c) Move back into unity again. “And all of these parts belong to the one life, and as the adult in charge of this life, you can lead with love…” Etc.
 
 ## Sometimes start with the whole
 
-Some people make themselves too fragmented by starting to work with parts. ‘Here’s a part! Here’s another one! I’ll get twelve of them in a room and give them all an office to hang around in!’ So it’s better to start from the Sacred.
+Some people make themselves too fragmented by starting to work with parts. ‘Here’s a part! Here’s another one! I’ll get twelve of them in a room and give them all an office to hang around in!’ If that happens to you, it’s better to start from the sacred whole.
 
-Start like this: ‘I’m approaching this from the universal heart. I’m approaching this from my Higher Self. I’m approaching this from the part of me that knows it belongs to life before it belongs to any wound, or role, or family, or group, or identity, or ideology, or story. So can you please tell me what’s going to be true and kind and timely and stabilizing and useful here?’ Etc.
+Start like this: ‘I’m approaching this from the universal heart. I’m approaching this from my Higher Self. I’m approaching this from the part of me that knows it belongs to life before it belongs to any wound, or role, or family, or group, or identity, or ideology, or story. So please help me see what’s true and kind and timely and stabilizing and useful here.’ Etc.
 
-It can be that you can’t even access your Higher Self, or the universal heart, or whatever works for you. (Btw, if it doesn’t work for you don’t use it! It’s no good adopting somebody else’s map.) In that case, start by just witnessing whatever is coming up. Notice the room, your body, the fact that you’re in a younger state etc. Being able to notice is enough adult presence for the first step.
+It can be that you can’t even access your Higher Self, or the universal heart, or whatever you call it. (By the way, if it doesn’t work for you, don’t use it! It’s no good adopting somebody else’s map.) In that case, start by just witnessing whatever is coming up. Notice the room, your body, the fact that you’re in a younger state etc. Being able to notice is enough adult presence for the first step.
 
-Once you have the ability to notice, and to differentiate, you don’t need to keep rehearsing it. Just work on whatever it is you need to work on (often being warm to yourself, protecting yourself and knowing what to do etc). So even though it can be useful to talk about your Higher Self, it doesn’t mean you already have all the good inner parenting functions etc that you need. You usually need to work on developing them. And I don’t think the Higher Self has any specific wisdom. It’s a vantage point, where more wisdom and compassion can come up, but problems can also look like they were never problems at all from up there, and that can ironically lead instead to more foolish indifference.
+Once you have the ability to notice, and to differentiate, you don’t need to keep rehearsing it. Just work on whatever it is you need to work on (often being warm to yourself, protecting yourself and knowing what to do etc). So even though it can be useful to talk about your Higher Self, it doesn’t mean you already have all the good inner parenting functions etc that you need. You usually need to work on developing them. And I don’t think the Higher Self has any specific wisdom. It’s a vantage point, where more wisdom and compassion can come up, but problems can also look like they were never problems at all from up there, and that can ironically lead instead to more foolish indifference. So invoking your Higher Self just means going up there for the view, and then coming back down to make your own decisions.
 
-Differentiate only as you need to. “Is this my inner child? Or is this a guard? Is this my body? Is this fear? Is this intuition? Is this my social part? Is this divine guidance, or is this my interpretation of divine guidance?”
+When something specific comes up, that’s the time to sort out what it is. “Is this my inner child? Or is this a guard? Is this my body? Is this fear? Is this intuition? Is this my social part? Is this divine guidance, or is this my interpretation of divine guidance?”
 
 # The inner child, the guards, and the inner adult’s three jobs
 
@@ -192,7 +192,7 @@ The problem is that some people do not have access to their adult functions at w
 
 For that baby bird, I use a kind of provisional bridge (also found in Schema Therapy) that I call “borrowed adulthood,” which I'll detail here.
 
-First, access your witnessing position if necessary, just noticing what’s there, without needing it to be warm or wise or certain. If you already know how to access different internal positions, move immediately to accessing the adult position you want to borrow.
+First, access your witnessing position if necessary, just noticing what’s there, without needing it to be warm or wise or certain. If you already know how to access different internal positions, move straight to the adult function you need to borrow.
 
 If you have a safe adult in your life, you can borrow from them. If not, borrow from a mentor, an older brother/sister, your imagined future self, your god/goddess or higher power, a value you have, a plan you have written, etc. It’s ok to just borrow what you need right now, warmth or a boundary or direction, just like you would borrow a cup of sugar from a neighbor.
 
@@ -200,23 +200,23 @@ Next, put on your adult hat as if you are an apprentice adult, and pick the word
 
 Last, return the adult hat, noticing what you borrowed and what you were able to do on your own (even if it’s only 5%).
 
-The adult hat is only borrowed, so you’re still making the choice. The longer version of this exercise can be found in my [Inner Child Self-Love Reparenting Guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided).
+The adult hat is only borrowed: the person you borrowed it from stays beside you, and you still make the choice. The longer version of this exercise can be found in my [Inner Child Self-Love Reparenting Guide](https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided).
 
-You don’t have to have trustworthy people in your history. Use someone you remember when that helps, or just imagine a good adult whose intention is to take good care of you. See if you can imagine what they would say/do in your situation, with your history, limitations, options, etc. If you can’t imagine a good adult, or just imagining a caring grown-up makes you feel more threatened, or lonelier, start smaller, with the least cruel response you can believe. Once you’ve found something good, try it, don’t keep doing the exercise.
+You don’t have to have trustworthy people in your history. Use someone you remember when that helps, or just imagine a good adult whose intention is to take good care of you. See if you can imagine what they would say/do in your situation, with your history, limitations, options, etc. If you can’t imagine a good adult, or just imagining a caring grown-up makes you feel more threatened, or lonelier, start smaller, with the least cruel response you can believe. Once you’ve found something good, try it out instead of repeating the exercise.
 
-It can be helpful to use borrowing when you’re in the adult position and don’t know what a decent adult would do, especially when the child doesn’t trust you and every response you can think of is retaliating, defending your goodness, collapsing or leaving. How would a decent adult hear that distrust? Borrow that one response. You may still feel young when you do it. Feeling like an adult can come after you act like one.
+It can be helpful to use borrowing when you’re in the adult position and don’t know what a decent adult would do, especially when your inner child doesn’t trust you and every response you can think of is retaliating, defending your goodness, collapsing or leaving. How would a decent adult hear that distrust? Borrow that one response. You may still feel young when you do it. Feeling like an adult can come after you act like one.
 
 ## Let the child speak without handing over the steering wheel
 
-You can choose to let the parts of you that feel younger express themselves. That doesn’t mean handing your adult judgment over to someone else to take care of you, or actually going back in age. In this way, you can access all of the positive aspects of what it can be like to feel younger such as feeling wonder, silliness, approaching things through the senses more, feeling it’s ok to be vulnerable, to let someone take care of you, to feel need, and to want to offload some decision making, while your adult part stays present.
+Let the parts of you that feel younger have their say. You don’t hand your adult judgment over to someone who will take care of you, and you don’t try to become a little kid again for real. In this way, you can access all of the positive aspects of what it can be like to feel younger, such as feeling wonder, silliness, approaching things through the senses more, feeling it’s ok to be vulnerable, to want someone to take care of you, to feel need, and to want to offload some decision making, while your adult part stays present.
 
-"It is okay for a younger part of me to talk. But I understand that the adult in me is always going to be here, listening, evaluating, protecting me and stopping me if needed. I am not going to replace my adult judgement with any child state, guide, recording or person."
+"It is okay for a younger part of me to talk. But I understand that the adult in me is always going to be here, listening, evaluating, protecting me and stopping me if needed. No younger part of me, no guide, no recording and no other person gets to make my adult decisions for me."
 
-This way you get the benefits of being young: curiosity, spontaneity, play, sensation, the ability to state your needs, to feel easily etc without any of the negatives of being a child, like obeying, being helpless, being scolded, the lack of good judgement etc.
+That way you get back what was good about being young. You can be curious, spontaneous and playful, things can feel vivid again, and you can say what you need and feel things quickly. You leave behind the part of being a kid where you had to obey, couldn’t do much for yourself, got scolded, and didn’t know better yet.
 
 ## Love doesn’t have to wait for trust
 
-What if your little one doesn't believe you love them? It is possible to love them even if they don't believe you love them. It is possible for trust to question your promises, remember when you failed to protect them, and take its time.
+What if your little one doesn't believe you love them? It is possible to love them even if they don't believe you love them. Their trust can question your promises, remember when you failed to protect them, and take its time, and you can keep loving them while it does.
 
 You could say something like, "Okay. I believe that you don't believe me. I still love you. You don't have to love me back. Tell me what feels unsafe." Try not to turn "I still love you" into a line you say on cue, though, because then it can brush the anger off, and what it's really saying is "so stop being angry."
 
@@ -224,7 +224,7 @@ Then respond to the complaints that are sure to come. You don't have to accept e
 
 ## Instead of blame
 
-Be aware of what you are teaching your other positions. For example, are you teaching your little one that you are going to love them no matter what? Or are you teaching them that it is their responsibility to believe your love for them, and that if they don't, it is their fault? Is it two separate positions, one making the vow to love your little one no matter what, and the other blaming your little one for not taking in your love? Or is it one position doing both of these things? Or are you blending them? Their age might not be your chronological age. Both talk in your grown-up voice, so to your little one they're the same. Be careful not to take the blaming to mean your love really is conditional, when it could just be another part talking.
+Be aware of what you are teaching your other positions. For example, are you teaching your little one that you are going to love them no matter what? Or are you teaching them that it is their responsibility to believe your love for them, and that if they don't, it is their fault? Is it two separate positions, one making the vow to love your little one no matter what, and the other blaming your little one for not taking in your love? Or is it one position doing both of these things? Or are you blending them? They may be younger than you are now. Both talk in your grown-up voice, so to your little one they're the same. Be careful not to take the blaming to mean your love really is conditional, when it could just be another part talking.
 
 When you're placing your younger self on trial, instead of asking which age of you deserves the blame, ask: What was that age of you trying to get, or get away from? What did it understand back then? What options could it actually see? Could it stand to take any of them? What happened because of the choice it made? What was missing? Some ability, or help/protection from someone else? What can you learn or repair now, and how would you act differently in such situations? Even if what it did was harmful to you and others, punishing yourself now is not going to give it the capacity it needed at the time.
 
@@ -232,13 +232,17 @@ When you're placing your younger self on trial, instead of asking which age of y
 
 ## The two-hand practice
 
-There is a simple and easy body technique to connect with your inner child. Just place one hand in the center of your chest, which physically connects you to your love, and then place your other hand just below that, on your solar plexus, where your child can be.
+There is a simple and easy body technique to connect with your inner child. Just place one hand in the center of your chest, which physically connects you to your love, and then place your other hand just below that, on your solar plexus, where your inner child can be.
 
-Begin to send love from your heart down to your child and just notice what comes up for you. If some comes back up, let it, and send it on down again, so it goes around like a loop. That part's a gift from them, and they don't owe it to you, so if nothing comes back, just keep sending yours. If you feel resistance, just meet it with love. If you feel or see something, just meet that with love as well. No warmth today? Then rest your hands there and notice what you find, no faking required. This is a conversation with your child from your heart.
+Imagine a divine Love from above, with the inner child below, in the solar plexus area. The inner adult is present. You can also use the hand on the solar plexus to massage that area.
+
+Begin to send love from your heart down to your inner child and just notice what comes up for you. If some comes back up, let it, and send it on down again, so it goes around like a loop. That part's a gift from them, and they don't owe it to you, so if nothing comes back, just keep sending yours. If you feel resistance, just meet it with love. If you feel or see something, just meet that with love as well. No warmth today? Then rest your hands there and notice what you find, no faking required. Let it go back and forth between your heart and your inner child, like a real conversation.
+
+Keep breathing gently through the whole practice. It works as an induction too: the Sober induction below has it as one of the anchors you can pick.
 
 ## The Nurturer
 
-The Nurturer: Some of the work you can do as the Nurturer is to enjoy your inner child. You don't have to try to make their feelings go away. Just sit back and enjoy their company. Be happy that they are there. Children need to be enjoyed! Say things to your inner child like:
+Some of the work you can do as the Nurturer is to enjoy your inner child. You don't have to try to make their feelings go away. Just sit back and enjoy their company. Be happy that they are there. Your inner child needs to be enjoyed as well as comforted when it hurts. Say things to your inner child like:
 
 It's okay to feel the way you're feeling.
 
@@ -254,17 +258,17 @@ You can be sad here.
 
 ## The Protector
 
-As the Protector, work with setting boundaries together. They can be simple like, "I'm going to leave this conversation because it's not safe" or "I'm going to stop texting the person who destabilizes me." It can be self-care boundaries like, "I'm going to eat" or "I'm going to get some sleep." It can be trust-related boundaries like, "I'm going to keep the promise to myself" or "I'm not going to leave you to do adult things by yourself." You can protect your inner child from yourself too, like by repairing after an internal attack: calling yourself an idiot for losing your keys again, for one. Your inner child was listening, so you go back and apologize to them.
+As the Protector, set boundaries, so your inner child can believe the warm stuff. They can be simple like, "I'm going to leave this conversation because it's not safe" or "I'm going to stop texting the person who destabilizes me." It can be self-care boundaries like, "I'm going to eat" or "I'm going to get some sleep." It can be trust-related boundaries like, "I'm going to keep the promise to myself" or "I'm not going to leave you to do adult things by yourself." You can protect your inner child from yourself too, like by repairing after an internal attack: calling yourself an idiot for losing your keys again, for one. Your inner child was listening, so you go back and apologize to them.
 
 A lot of times, inner child work doesn't work because people are doing all the fluffy stuff, but then they go and text the person who is destabilizing them, or they don't eat, or they don't do whatever it is they're supposed to be doing. Your inner child starts to trust you when you start taking care of those things.
 
-If it's hard to bring up the warm stuff, you can always do something to protect your inner child. Make sure it's small enough that you can actually do it. If you're not able to, figure out what's getting in the way of you doing it. Are you scared? Tired? Do you not know how to? Is there a practical thing that's getting in your way? Have you set yourself up to do it in a way that's likely to be successful? Don't make it so that doing it successfully means you have to feel good about it, or be able to check it off a list.
+If it's hard to bring up the warm stuff, you can always do something to protect your inner child. Make sure it's small enough that you can actually do it. If you're not able to, figure out what's getting in the way of you doing it. Are you scared? Tired? Do you not know how to? Is there a practical thing that's getting in your way? Have you set yourself up to do it in a way that's likely to be successful? It still counts if doing it doesn't make you feel better right away, and checking it off a list doesn't mean it helped.
 
 ## The Guide
 
-You can also work with your Guide. Call them whatever you want, Leader, Guru, Wise One, Sage, Inner Teacher, Director, Higher Adult, whatever.
+You can also work with your Guide. Call them whatever you want: Leader, Guru, Wise One, Sage, Inner Teacher, Director, Higher Adult, whatever.
 
-Ask them for help with directing your life. The Guide holds standards, the way a good parent would, and asks hard things of your inner child so it can grow, at its own pace. Your parent’s harsh tone doesn’t come with the job, though, so be careful not to ask for the kind of “tough it out, you don’t have needs, you just need discipline!” kind of direction. Without the Guide, you can also slide from looking after your inner child into spoiling it: sweets and screens can pass for loving yourself, and so can getting it out of anything hard. Ask them for help in directing you to do adult things in a way that takes your needs into account: asking for the help you need, expressing your preferences, letting a safe person see you in an imperfect way, finding ways to get your need for closeness met without punishing someone for their need for space, etc. etc.
+Ask them for help with directing your life. The Guide holds standards, the way a good parent would, and asks hard things of your inner child so it can grow, at its own pace. Your parent’s harsh tone doesn’t come with the job, though, so be careful not to ask for the “tough it out, you don’t have needs, you just need discipline!” kind of direction. Without the Guide, you can also slide from looking after your inner child into spoiling it: sweets and screens can pass for loving yourself, and so can getting it out of anything hard. Ask them for help in directing you to do adult things in a way that takes your needs into account: asking for the help you need, expressing your preferences, letting a safe person see you in an imperfect way, finding ways to get your need for closeness met without punishing someone for their need for space, etc. etc.
 
 Affirmations might be helpful here, too: “We’re not just here to feel good. We’re here to become whole. We’re here to belong to life, not only to people who approve of us. We’re here to serve truth/beauty/love/God/source/nature/the universe/dharma/the Tao/the benefit of all beings,” etc. etc.
 
@@ -272,29 +276,29 @@ Start with whatever adult function you can connect to, but most of us need enoug
 
 ## Working with your guards
 
-Feel free to use parts language here, too, if it’s helpful. Often, we see a sensation or a distraction or an objection as something that needs to be explored, when in fact it might just be hunger, or reasonable skepticism about something, or a sentence that doesn’t fit. It’s good to notice it, though, and then to see what might be going on.
+Use parts language here too, if it helps. Often, we see a sensation or a distraction or an objection as something that needs to be explored, when in fact it might just be hunger, or reasonable skepticism about something, or a sentence that doesn’t fit. Still, notice it, and then look at what might be going on.
 
 If you're not careful, you might find yourself expecting that when you go within to meet your inner child, you'll find your inner child.
 
-Instead, you might feel numb, cynical, angry, hungry, like you need to look at your phone, sexually aroused, like you need to make plans, sleepy, dissociated, or you might even think that what you're doing is stupid. Those are not failures. Often what you're experiencing is a very charming guard. It's what protects you when your consciously installed parental Protector isn't functioning, the same as when you were a child. But before you decide where it's coming from, ask it what it's trying to stop, or what it wants. It could also be your inner child, mad that you took so long to come back, or your inherited parent script, or something from earlier today, or a bit of each.
+Instead, you might feel numb, cynical, angry, suddenly hungry, like you need to look at your phone, sexually aroused, like you need to make plans, sleepy, dissociated, or you might even think that what you're doing is stupid. Those are not failures. Often what you're experiencing is a very charming guard. It's what protects you when your consciously installed parental Protector isn't functioning, the same as when you were a child. It might not be a guard at all, though. Maybe it's your inner child, angry that you took so long to come back. Maybe it's your inherited parent script, or something left over from earlier today, or some of each. So before you decide what it is, ask it what it's trying to stop, or what it wants.
 
-(To the guard, in the same Nurturer voice you meant for your inner child: “I see you. I'm not going to force my way past you. What's going on?” Then wait and listen patiently. If nothing comes, that's fine for now. At some point you can ask, “What are you afraid would happen if you stopped protecting me by…..?”)
+Talk to the guard the way your Nurturer talks to your inner child: “I see you. I'm not going to force my way past you. What's up?” Then wait and listen patiently. If you get nothing back, leave it there for today. Later on, ask it, “What are you afraid would happen if you stopped protecting me by…?”
 
-If necessary take time and listen. (Perhaps they are afraid that you will lie to yourself again or pretend again or that it will be too painful or you will get spiritual bypass again or you will forgive someone who shouldn’t be forgiven yet or you will see what you want to see or that you will leave them hanging after the session or…..)
+If necessary, take time and listen. (Perhaps they are afraid that you will lie to yourself again or pretend again or that it will be too painful or you will spiritually bypass again or you will forgive someone who shouldn’t be forgiven yet or you will see what you want to see or that you will leave them hanging after the session or…)
 
-(Now talk to the guard. Tell them that it makes sense that they want to protect you and that they don’t have to stop protecting you, but that you want to know what could make them trust you 1% more that you can protect yourself. If it says no, I’d listen, and if it says no to going deeper in this work or to an altered state, I’d stop there and not push past that no, even when it sounds like a prediction.)
+Now talk to the guard. Tell them that it makes sense that they want to protect you and that they don’t have to stop protecting you, but that you want to know what could make them trust you 1% more that you can protect yourself. If it says no, I’d listen, and if it says no to going deeper in this work or to an altered state, I’d stop there and not push past that no, even when it sounds like a prediction.
 
-Most of the time the guard wants you to do certain things, set boundaries, do whatever you are supposed to do, eat, not text someone, keep a promise, go to sleep, talk to the therapist, admit that you owe someone money, write something down, etc.
+Most of the time, the guard wants you to do certain things: set boundaries, do whatever you are supposed to do, eat, not text someone, keep a promise, go to sleep, talk to the therapist, admit that you owe someone money, write something down, etc.
 
 ## Your inherited parent script
 
-One important thing to become aware of when approaching your inner child is your inherited parent script. This is the set of rules and ways of treating yourself that you internalized as a child, mostly based on how your parent(s) treated you, and it doesn’t always sound like a voice. This is not the same as your inner adult (Nurturer, Protector, Guide) that you build up on purpose. Often this script acts as a critic or warden, telling your inner child not to cry, not to be “needy”, not to embarrass them, not to be too independent, etc. So when you begin talking to your child in a new, loving way, the script may jump in to say that what you’re doing is “fake”.
+One important thing to become aware of when approaching your inner child is your inherited parent script. This is the set of rules and ways of treating yourself that you internalized as a child, mostly based on how your parent(s) treated you, and it doesn’t always sound like a voice. This is not the same as your inner adult (Nurturer, Protector, Guide) that you build up on purpose. Often this script acts as a critic or warden, telling your inner child not to cry or complain. You might be hearing, "Don't be needy! Don't embarrass us! And don't be independent." So when you begin talking to your inner child in a new, loving way, that dusty old script may huff and puff that what you’re doing is “fake”.
 
 ## Protection that knows when to stop scanning
 
 Do you want to embody your Protector? Then you could practice this:
 
-1. orient self (look around, feel the support around you, etc.)
+1. orient yourself (look around, feel the support around you, etc.)
 
 2. assess the situation (know what you know, what you don’t know and check out what you need to)
 
@@ -304,25 +308,25 @@ Do you want to embody your Protector? Then you could practice this:
 
 5. verify if it is safe enough (you don't need perfect certainty, just enough real-world evidence to take the next step)
 
-6. stand down and rest
+6. stand down and rest (stop scanning once staying on alert isn't helping anymore)
 
-This seems to me like a mature Protector. One that is not afraid to say that he doesn’t know, or one that can ask another human being, or one that can delay interpreting a situation or one that can use a no-trance method. I am learning to do discernment when I need to and stop scanning the room when it isn’t needed anymore.
+This seems to me like a mature Protector: it’s not afraid to say it doesn’t know, and it can ask another human being, delay interpreting a situation or use a no-trance method. I am learning to use discernment when I need to, and to stop scanning the room when it isn’t needed anymore.
 
 ## Inner child reparenting
 
-I see a lot of connection between [reparenting therapy](http://innerchild.u-dont-exist.com/) and self hypnosis. They fit well together, though I’d learn to do inner-child therapy sober first, in your ordinary mindstate, since that’s the one you’ll be living in, and get enough Nurturer and Protector in the room before you go deep. When you go into hypnosis the child might come to you. You might see that child in any form. It can be an image, a posture, a voice, a memory, an emotion, etc. It can be any age. It can be any vulnerable part of you. It doesn’t even have to be a child. If there is no child there, just work with a guard or whatever you find.
+I see a lot of connection between [reparenting therapy](http://innerchild.u-dont-exist.com/) and self hypnosis. They fit well together, though I’d learn to do inner-child therapy sober first, in your ordinary mindstate, since that’s the one you’ll be living in, and get enough Nurturer and Protector in the room before you go deep. When you go into hypnosis, your inner child might come to you. It might show up in any form. It can be an image, a posture, a voice, a memory, an emotion, etc. It can be any age. It can be any vulnerable part of you. It doesn’t even have to be a child. If there is no child there, just work with a guard or whatever you find.
 
 ## Don’t rush the repair
 
-Just be with the child.
+When your inner child does show up, put the healing work aside for now and just be with them for a while.
 
-If you can, tell the child that you are there for them and that they don’t have to explain themselves, or be healed or impress you. You only want to know what would help them feel less alone.
+If you can, tell them something like, “Little one, I’m here. You don’t have to explain anything, and you don’t have to get better today or impress me. I just want to know what would make you feel less alone.”
 
-What does the child need? It can be anything: warmth, to play, to be protected, to mourn, to be angry, food, rest, boundaries, better relationships, to stop fantasizing, to stop working their butt off, that you keep a promise to them today, etc. etc.
+What does your inner child need? It can be anything: warmth, to play, to be protected, to mourn, to be angry, food, rest, boundaries, better relationships, to stop fantasizing, to stop working their butt off, that you keep a promise to them today, etc. etc.
 
-Find a younger you/guard/feeling/signal that comes up in your body, and
+When a younger you, a guard, a feeling or a signal comes up in your body, take it slowly:
 
-A. Prepare yourself to tend to them (get yourself into a place where you can spend time with them, have privacy, feel you can access support if you need it, and be as adult as you can be). How much of the grown-up you is actually here right now? Try looking around the room, pausing before you act, making a choice and following through on it. If you can't do that because you're basically the frightened kid, leave the deeper conversation until later.
+A. Prepare yourself to tend to them with some privacy, but still able to access support if needed. Check how much grown-up you is really in the room first. Can you pause before you act? Are you following through after making decisions? If you can’t do those things because you’re basically the frightened kid still, then let’s leave the deeper conversation until later. Do whatever helps you come back a bit before you try to talk to little you.
 
 B. Look at what's there before judging or deciding what it is.
 
@@ -346,7 +350,7 @@ Resting doesn’t mean you have to become helpless. It’s okay to limit the num
 
 ## Non-dominant hand dialogue
 
-If talking out loud or visualizing conversations feels fake, try writing it out. Tell your child/ guard to write with your nondominant hand, and talk to them with your dominant. It might be a little hard to write with your nondominant hand but you can kind of do it. So for example, they might say "I don't trust you" with your nondominant hand, and you can say with your dominant hand "I know you don't trust me right now but I love you and I want to know how I've fucked up. I don't expect you to trust me but I want to hear you out and give you a promise I can keep today" and they can say "what promise?" and you can say "I'm going to make sure I eat today/ clear off my desk/ not text so-and-so". Only say the "I love you" part if you can feel it. If you don't feel the love yet, say you care.
+If talking out loud or visualizing conversations feels fake, try writing it out. Tell your inner child or guard to write with your nondominant hand, and talk to them with your dominant. It might be a little hard to write with your nondominant hand but you can kind of do it. So for example, they might say "I don't trust you" with your nondominant hand, and you can say with your dominant hand "I know you don't trust me right now but I love you and I want to know how I've fucked up. I don't expect you to trust me but I want to hear you out and give you a promise I can keep today" and they can say "what promise?" and you can say "I'm going to make sure I eat today/ clear off my desk/ not text so-and-so". Only say the "I love you" part if you can feel it. If you don't feel the love yet, say you care.
 
 # When “your voice” is everybody else’s voice
 
@@ -354,7 +358,7 @@ It can be difficult to connect with your inner child if your inner child didn’
 
 You are in the first camp if:
 
-You don’t know what you want, until you have heard what someone else wants.
+You don’t know what you want until you have heard what someone else wants.
 
 Your opinion is very different when you are with different people
 
@@ -370,7 +374,7 @@ You can rebel, but you can’t choose yet
 
 One way of explaining this is that your childhood didn’t leave you much room for finding out what you like, what you want to try out and who you are when nobody is grading you. You were too busy avoiding pain, reading what was dangerous and what you had to do to stay in a good bond, etc.
 
-Temporary Separation. Sometimes it may be wise to remove yourself, for a time, from the people or group that you normally would get answers from. Some people come back later on different terms, and sometimes the break has to be long-term because the pattern of losing yourself with them is deeply entrenched. As you become more your own person, you learn to tell which of those apply. You want to let your quieter preferences bubble up to the surface so you can be sure you’re not just echoing your social group.
+Taking a break. Sometimes it may be wise to remove yourself, for a time, from the people or group that you normally would get answers from. Some people come back later on different terms, and sometimes the break has to be long-term because the pattern of losing yourself with them is deeply entrenched. As you become more your own person, you learn to tell which of those apply. You want to let your quieter preferences bubble up to the surface so you can be sure you’re not just echoing your social group.
 
 What is the difference between a human being and a human doing? If you don’t feel good enough as a human being, you will try to become good enough as a "human doing" by, for example, being beautiful, doing something well, being smart, having a certain status, being spiritual, etc. Those can all be real gifts, although they still become a kind of bargain for belonging when failing in these areas feels like losing what it means to have your own inherent value.
 
@@ -382,19 +386,17 @@ What do I believe when I don’t check with other people?
 
 What do I want that is neither in rebellion nor in compliance with others?
 
-Where am I buying my sense of belonging at the expense of betraying myself?
-
 What can I try on that I don’t need to be good at?
 
 With whom can I be myself?
 
 What do I feel in my body and what do I make out of it?
 
-Give your inner child the opportunity to do something that has no value for its resume and that it doesn’t need to be good at. For example painting, dancing, gardening, learning a language, playing a sport, doing volunteer work, playing a musical instrument, etc. Because often your inherited parent script tells your inner child that it is supposed to be good at something as soon as it starts doing it, which is humiliating. The more consciously sculpted adult in you can answer, “We’re finding out whether we enjoy this, not proving our worth.” So try things out long enough until the humiliation is gone.
+Give your inner child the opportunity to do something that has no value for its resume and that it doesn’t need to be good at. For example, painting, dancing, gardening, learning a language, playing a sport, doing volunteer work, playing a musical instrument, etc. Because often your inherited parent script tells your inner child that it is supposed to be good at something as soon as it starts doing it, which is humiliating. The more consciously sculpted adult in you can answer, “We’re finding out whether we enjoy this, not proving our worth.” So try things out long enough until the humiliation is gone.
 
 ## Belonging without betraying yourself
 
-When you are a child you feel that you need to belong to the family in order to survive. This is why people do things for their family, religion, romantic partner, political tribe, spiritual group, institution, online community etc., that they wouldn’t otherwise do. Part of adulting is working out where you are selling yourself in order to belong and choosing your own ground, and finding out you can disappoint someone and not disappear. A large part of your subconscious mind is made out of other people. That is why belonging gets a section in a self hypnosis guide!
+When you are a child, you feel that you need to belong to the family in order to survive. This is why people do things for their family, religion, romantic partner, political tribe, spiritual group, institution, online community etc., that they wouldn’t otherwise do. Part of adulting is working out where you are selling yourself in order to belong and choosing your own ground, and finding out you can disappoint someone and not disappear. A large part of your subconscious mind is made out of other people. That is why belonging gets a section in a self hypnosis guide!
 
 Where am I betraying myself in order to belong?
 
@@ -416,7 +418,7 @@ And then notice what your body tells you. It is not always correct, but it is a 
 
 One of the best side-effects of learning self-hypnosis is that sudden "waking up" to all the ways your attention is being shaped in your day-to-day life. There are actually multiple patents on using screens to send subliminal messages, but even without that kind of potentially illegal tech, the screen is one connection to the omnipotent Algorithm. Which shows us ads and guides our preferences. Then we wonder why we vote for this or that politician. But there are also the older, more mundane influences: erotic imprinting (as if breast implants are actually sexy), religious fear, which tags along with shame, charismatic authority and pressure to belong. And all of that drilled repeatedly into us, because one exposure won't do the trick. Sometimes it’s benign – like lullabies or prayers or being taught by a good teacher or listening to a beautiful song or being in love. But you may want to ask yourself what effect it’s having on your ability to see clearly and make choices.
 
-Manipulation often comes with any of the following: urgency, feeling special, FOMO (fear of missing out), the threat of not being included, sexual charge, shame, confusion, the promise that someone will rescue you, destiny, pressure to obey, secret knowledge, an excessive sense of certainty about something way too quickly, and a sense that one good question will break the spell.
+Manipulation often comes with any of the following: urgency, feeling special, FOMO (fear of missing out), the threat of not being included, sexual charge, shame, confusion, the promise that someone will rescue you, destiny, pressure to obey, secret knowledge, a sense of certainty about something that comes way too quickly, and a sense that one good question will break the spell.
 
 ## If you sense you are being influenced
 
@@ -424,19 +426,19 @@ First of all, if you sense you are being hypnotically influenced, stop. Don’t 
 
 Secondly, here are some of the ways people use hypnotic language to manipulate: you consent to something without realizing it, you only get one choice, or someone slips something you never agreed to into a sentence. For example:
 
-You will soon realize that I am right …. Or you may, in time, decide to admit that …. Or the only reason you do not agree is …. Or part of you already knows …. Or your higher self wants …. Or everyone who is awake knows …. Or the reason you do not believe that is true is because your ego does not want you to …
+“You will soon realize that I am right…” Or “You may, in time, decide to admit that…” Or “The only reason you do not agree is…” Or “Part of you already knows…” Or “Your higher self wants…” Or “Everyone who is awake knows…” Or “The reason you do not believe that is true is because your ego does not want you to…”
 
 If you are unsure, you may like to ask yourself the following questions:
 
 What are they asking me to agree to? What choice are they giving me? What are they assuming that I may not agree with? Who benefits if I comply? What is the emotionally charged part of what they’re saying? What are they leaving out? If I say no, what will the consequences be? (Will they punish me, shame me, laugh at me, leave me out, tell me I’m not ‘awake’ etc?)
 
-A good guide leaves your adult more present. The more powerful the state, the stronger the boundaries you will need.
+Anyone worth following leaves your adult self more present. The more powerful the state you’re in, the stronger the boundaries you’ll need.
 
 ## Soft language can still take away choice
 
-Be aware that even when using permissive language, you can still take away the subject’s choice.
+Be aware that even permissive language can still take away the subject’s choice.
 
-[Indirect suggestion](https://nimja.com/stories/random/the_contradiction_of_subject_agency)s can by-pass the subject’s skeptical guard. They do this by not directly telling the subject what to do. This does not mean that indirect suggestions are not specific. It simply means that they are worded in a vague, conversational, suggestive manner.
+[Indirect suggestion](https://nimja.com/stories/random/the_contradiction_of_subject_agency)s can bypass the subject’s skeptical guard. They do this by not directly telling the subject what to do. This does not mean that indirect suggestions are not specific. It simply means that they are worded in a vague, conversational, suggestive manner.
 
 Here are some of the ways that happens:
 
@@ -444,7 +446,7 @@ Here are some of the ways that happens:
 
 2) In any way making it so that whatever the subject says shows that a suggestion has worked, when this may not be the case (this includes answering yes, no, noticing something, not noticing something, trying not to do something, not answering, etc etc etc)
 
-3) Including phrases such as whether or not you notice etc etc, so either way counts as success
+3) Including phrases such as “whether or not you notice” etc etc, so either way counts as success
 
 4) Including any concepts that may make a subject think they must obey, or take on a role, or that it is good/safe to please the guide or belong to someone etc etc.
 
@@ -454,49 +456,57 @@ Here are some of the ways that happens:
 
 7) Including suggestions for amnesia, or using dreams, gaps in memory, imagery, body experiences etc as evidence to make a subject think that something has happened when this may not necessarily be the case.
 
-8) Not taking a subject out at the end of a recording, or leaving them with a role to play, with their judgement down, with their physical abilities down, with their minds blank, or in any other way different for an indefinite length of time.
+8) Not taking a subject out at the end of a recording, or leaving them with a role to play, with their judgment down, with their physical abilities down, with their minds blank, or in any other way different for an indefinite length of time.
 
-In order for a subject to be making a REAL choice whilst in hypnosis, there MUST be at least one way for a subject NOT to carry on with the hypnosis if they wish. This could be by making the hypnosis lighter, using a different method of hypnosis, being in full awareness whilst in hypnosis, or being able to pause or stop the hypnosis. Just so you know, if you say no, you are quite entitled to mean NO, even if someone with a nice voice is asking you to do something! Also, just because you don't say anything, or don't know what to say, DOES NOT mean yes!
+In order for a subject to be making a real choice while in hypnosis, there must be at least one way for them not to carry on with the hypnosis if they wish. This could be by making the hypnosis lighter, using a different method of hypnosis, being in full awareness while in hypnosis, or being able to pause or stop the hypnosis. Just so you know, if you say no, you are entitled to mean no, even if someone with a nice voice is asking you to do something. And just because you don't say anything, or don't know what to say, doesn't mean yes.
 
 (see appendix C for a longer version of the de-hypnosis checklist)
 
-# Induction: gathering attention without disappearing
+# Induction: gathering and softening attention
 
-Inductions serve to gather you up so you can access quiet stuff. They're not about surrendering or playing asleep or obeying someone. Sometimes it's nice to do an actual induction if you're sober but distracted or analytical or otherwise not very trancey. If, on the other hand, you're already pretty trancey for whatever reason, skip straight to "Already open? Contain before you deepen" rather than going deeper.
+Inductions serve to gather your awareness up into a gentler, trancier, more receptive form so you can access the inner knowing that's too quiet for our ordinary awareness to hear. Call me a heretic, but I don't think inductions should be about surrendering to the hypnotist while playing asleep.
 
-Get trancey enough to do what you want to do (focused, warm, receptive, embodied, able to stop, and optionally deeper)
+Sometimes it's nice to do an actual induction if you're sober but distracted or analytical or otherwise not very trancey. If, on the other hand, you're already pretty trancey for whatever reason, skip straight to "Already trancey? Stabilize before dipping deeper."
 
-## What an induction is actually doing
+There are lots of different ways to do the induction. For this method, I'm going to be counting, but you could do all sorts of things. If you want to just talk, or tell a story, or move, or make sounds, or be curious, or whatever, by all means, just do that if it works. Everyone's unique and each person might have a kind that works best for them which they'll discover as they go. The nice thing about the counting method is it's very explicitly an induction, whereas with more implicit methods you have to make sure to explain their function clearly.
 
-Getting yourself ready to do something. Part of that is gathering your attention up. Part of that might be deepening. Part of that is letting what you notice inform the words you're hearing and what you do next. There are lots of different ways to do this. For this method, I'm going to be counting, but you could do all sorts of things. If you want to just talk, or tell a story, or move, or make sounds, or be curious, or whatever, by all means, just do that. The only thing is, say that you're doing it. Don't pretend you're doing something else, in the name of elegance or whatever.
+You can test to see if you're at a deep enough level of hypnosis by choosing a simple target suggestion and checking if the response is the automatic subconscious kind or the analytical questioning kind.
 
-Test: For a simple, chosen target, are you getting the response you want out of the suggestion already? If so, you might not need to deepen.
+## Overly Confusing Isn't Automatically Good
 
-## Please don’t put six metaphors in one trance
+"Keep it simple, stupid!" (KISS principle) actually can apply to hypnosis!
 
-"Keep it simple, stupid!" (KISS principle). It's really easy to take a whole bunch of techniques from all of this and make something so complicated that you "hypnotize" yourself to the point where you don't even know if it worked or not. So start off with setting one anchor/image. Decide on a hypnotic tone (warm, indirect, direct, neutral witnessing, etc.) for the session. If you're going to use metaphors, just start with one, and if you switch metaphors midway, understand the purpose of the switch. Then plan a simple stepwise walk out of the subconscious at session end.
+It's really easy to take a whole bunch of techniques from all of this and make something so complicated that you "hypnotize" yourself to the point where you don't even know if it worked or not. But keep in mind that especially with self-hypnosis, we can't go so deep that we are unable to continue the session! And even if it were a hypnotist bringing you under, you still need to be at an "access level" of awareness in which you can respond to questions.
 
-Using metaphors and imagery is your call. You can use whatever form of inner signal that you notice. It may be a direct knowing, or an emotion, words, some kind of rhythm, movements or other kind of spatial perception. Keep the language tied to the subconscious world you've chosen, so if you're counting, and there are already raindrops falling, you can count the raindrops, for example. When you're done, come back the opposite way from how you went in. You can borrow qualities such as warmth or steadiness from someone who models them, but don't change who you are.
+So start off with setting one anchor/image to rest your mind's eye on. Decide on a hypnotic tone (warm, indirect, direct, neutral witnessing, etc.) for the session. If you're going to use metaphors, just start with one, and if you switch metaphors midway, understand the purpose of the switch. Then plan a simple stepwise walk out of the subconscious at session's end.
 
-When you're writing the script, decide what the central verb you're using is to anchor it (like "letting go"), what the sensory quality is (unified, disjoint, fluffy, etc), what the short refrain is, and how you're going to slide from one idea to the next. Read it out loud as you're writing it. Long, elegant sentences don't read well when you're being induced. It's all just soup. Soft, but to the point, easy to remember, easy to say, easy to grok, that's what we're going for.
+In fact, you don't even need to use metaphors nor imagery. You can use whatever form of inner signal that you notice. It may be a direct knowing, or an emotion, some kind of rhythmic movement or sound, or other kind of spatial perception technique like body scanning or flipping between awareness of different body parts.
+
+Keep the language tied to the subconscious world you've chosen, so if you're counting, and there are already raindrops falling, you can count the raindrops, not the sheep which aren't in that scene. When you're done, come back out the opposite way from how you went in (we often visualize a staircase).
+
+It's fine to borrow qualities such as warmth or steadiness from someone who models them, if you need to, but don't change who you are. We don't want you showing up at the Emmy's like Jim Carrey saying he's Nobody. 😅 Not yet anyways.
+
+When you're writing the script, decide what the central verb you're using is to anchor it (like "letting go"). Give it an overall sensory quality, like unified or disjoint, or something fun like "fluffy wuffy."
+
+You may have a short refrain that you come back to a few times in there as another type of anchor. Think about how you're going to slide from one idea to the next. It's much easier if you read it out loud as you're writing it, since the writing brain is sort of different from the vocal brain. Long, elegant sentences don't read well when you're being induced. You want your script to be soft, but to the point, easy to remember, easy to say, easy to grok.
 
 ## Before you begin
 
 1. Read through the induction, and the Come all the way back section, when you're awake.
 
-2. Get clear on what it is you want to do during the induction. What do you want not to do today? How long do you want to spend on this? (You don't have to do this on a problem. You can do it on something you want to experience more of: love, play, confidence, creativity, communion, whatever.) Make sure you're leaving some time at the end to come back, and reflect on what you experienced.
+2. Get clear on what it is you want to do during the induction. What are you leaving alone today? How long do you want to spend on this? (You don't have to do this on a problem. You can do it on something you want to experience more of: love, play, confidence, creativity, communion, whatever.) Make sure you're leaving some time at the end to come back, and reflect on what you experienced.
 
-3. Put yourself in a place where you can safely do this, which is not: driving a big machine, swimming with the fishies, or otherwise needing to be alert and functionally responsible for yourself or others. If you are intoxicated and/or more confused than usual, or for whatever reason not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. (The part below called "Already open? Contain before you deepen" can be used to help orient you if you're already open, but don't use it to make yourself deeper if you're not stable.)
+3. Put yourself in a place where you can safely do this, which is not: driving a big machine, swimming with the fishies, or otherwise needing to be alert and functionally responsible for yourself or others. If you are intoxicated and more confused than usual, or for whatever reason not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. (The part below called "Already Trancey? Stabilize before dipping deeper." can be used to help orient you if you're already open, but don't use it to make yourself deeper if you're not stable.)
 
-4. Deciding to do it: how will you coax yourself to do this? Make it spacious? Make it warm and held? Make it firmer, so you stay with a feeling? Something else? Preview what you are going to do: will you close your eyes? Will you come out and go back in again? What will you do at the end? If you are going to use a recording, read the script beforehand if you can. Know that you can say "stop" at any time and the induction will end. If you want to change something, say "less" if you want it to be asking for less from you, or say "quiet" and the talking will stop. You can also just open your eyes and stop, and then come all the way back anyway. You don't need to ask any parts for permission to stop, even if a part tells you that you do.
+4. Deciding to do it: how will you coax yourself to do this? Make it spacious? Make it warm and held? Make it firmer, so you stay with a feeling? Something else? Preview what you are going to do: will you close your eyes? Will you come out and go back in again? What will you do at the end? If you are going to use a recording, read the script beforehand if you can. Know that you can say "stop" at any time and the induction will end. If you want to change something, say "less" if you want it to ask less of you, or say "quiet" and the talking will stop. You can also just open your eyes and stop, and then come all the way back anyway. You don't need to ask any parts for permission to stop, even if a part tells you that you do.
 
 5. If you are new to this or haven't done it for a while, work on the coming in and coming out part first. Don't bring in the hard stuff till later. You don't have to watch yourself all the time, but for the first few times, make sure you can change state. Let yourself make it easier and easier to do this and notice that it takes less and less of you to do it. A no will stay a no. The narrator can't add stuff just because you don't say anything.
 
-6. Let your response guide you as to what to do next regardless of what the script is expecting. [Utilize](https://catalog.erickson-foundation.org/page/ericksonian-hypnosis-therapy-techniques): use what you have (a thought, sound, movement, or objection) to go to the next place, whatever it is. Learn how to notice what is there. If nothing changes, notice that too: no change doesn't mean it worked in some way you can't see. For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain.
+6. Let your response guide you as to what to do next regardless of what the script is expecting. [Utilize](https://catalog.erickson-foundation.org/page/ericksonian-hypnosis-therapy-techniques): use what you have (a thought, sound, movement, or objection) to go to the next place, whatever it is. Learn how to notice what is there. If nothing changes, notice that too. As my dad always said, "Be prepared to take what you get. The best might come afterwards!" For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain.
 
 ## Sober induction: 3–5 minutes
 
-You can read this slowly into your recorder, or you can read it out loud or say it to yourself if you are good at that. Choose a sound, or a contact, or the two-hand practice (above) or something to anchor yourself, and choose the thing you will say to open it up. Use the same anchor wherever the script mentions it. Don't read the directions out loud. Just pause between paragraphs.
+You can read this slowly into your recorder, or you can read it out loud or say it to yourself if you are good at that. Choose a sound, or a contact, or the two-hand practice (above) or something to anchor yourself, and choose a phrase you will say to open it up. Use the same anchor wherever the script mentions it. Don't read the directions out loud, just pause between paragraphs.
 
 Script:
 
@@ -528,7 +538,7 @@ Let yourself notice what comes to you, if anything. It may not be clear yet what
 
 Let yourself take your time to notice, with or without words.
 
-## Already open? Contain before you deepen
+## Already Trancey? Stabilize before dipping deeper.
 
 This is for when you're already open for some reason (loveyhuasca, meditation, lucid dreaming, going through grief, listening to beautiful music, prayer, erotic energy, exhaustion, seeing something you love, etc) and want to aim and stabilize it.
 
@@ -536,9 +546,9 @@ Know that you're already open, you just need to aim and stabilize it, and keep i
 
 Orient yourself by looking around. Where are you? What's the date or day? How does your body feel? Where are you grounded? Can you feel your feet/hands/spine/etc? Make some contact with yourself, eg press your thumbs against the tips of your index fingers gently but firmly so that you can feel friction. Focus on that.
 
-Say something like, "Only what I can integrate, please. If there's too much, it can wait. My body may stay safe. I'll be here as an adult, so my inner child doesn't have to carry this alone."
+Say something like, "Only what I can integrate, please. Patience pays, so if there's too much, let it simmer. May my body stay safe, and may my little one know there's an adult here to carry the heavy stuff."
 
-When you feel oriented, make an intention.
+When you feel oriented, set an intention.
 
 Something like, "Please show me the next truth/symbol/feeling/question/action that is useful for me, that I can integrate."
 
@@ -554,21 +564,11 @@ Say something like, "If I'm meant to be getting guidance, please show me the act
 
 If being still tends to make you sleepy, zone out, or wish you were out (escapism), no worries, there's a trick for that. [Instead of getting more relaxed with the hypnosis, try getting more alert](https://www.tandfonline.com/doi/full/10.1080/00029157.2018.1496318) (it's still relaxed-alert, not paranoid-alert). Keep your eyes open. Use a small hand movement each time you make the auto-suggestion that you're gaining increasing clarity. Then stop the hand movement and see where your mind is at. That hand movement is the mental escape into the body's flow. Say something like,
 
-“Starting with your eyes open, press your thumb to your forefinger. And as you press your fingers together gently and release, you begin to bring yourself into a place of clearer awareness… again you press your fingers together and release, bringing yourself into an even clearer state of awareness. And again as you press your fingers together and release, you bring yourself into a clear state of awareness. And now you stop pressing your fingers together, and in the first second after you stop pressing your fingers together deliberately, you can notice if there is any sensory echo of the pressing in your fingers, in your breathing, in your attention, or nowhere at all. Just notice, sit up straight and work from this level."
-
-## The two-hand induction
-
-Start with the two-hand practice: one hand on your heart for your Nurturer, the other on your solar plexus for your vulnerable child.
-
-Breathe gently.
-
-Imagine a divine Love from above, with the inner child below, in the solar plexus area. The inner adult is present. You can also use the hand on the solar plexus to massage that area. Say:
-
-“Sending my love down to my Child. If something comes back up, I let it, and send my love on down again. If nothing comes back, I just keep sending mine, and listening.”
+“Starting with your eyes open, press your thumb to your forefinger. And as you press your fingers together gently and release, you begin to bring yourself into a place of clearer awareness… again you press your fingers together and release, bringing yourself into an even clearer state of awareness. And again as you press your fingers together and release, you bring yourself into the clearest state of awareness yet. And now you stop pressing your fingers together, and in the first second after you stop pressing your fingers together deliberately, you can notice if there is any sensory echo of the pressing in your fingers, in your breathing, in your attention, or nowhere at all. Just notice, sit up straight and work from this level.”
 
 ## Sleep induction
 
-Sleep induction is different than inner work, where you need to come back up to write things down and do actions.
+Sleep induction is different than inner work, where you need to come back up to write things down and act on them.
 
 You can tell your analytical mind to stand down, any revelations can wait.
 
@@ -578,7 +578,7 @@ Check out [Nimja’s sleep playlist](https://www.youtube.com/watch?v=IqyqE8V2CJg
 
 Fractionation means returning toward ordinary awareness and then deciding whether to enter hypnotic absorption again. It gives trance a revolving door, so that the approach can be evaluated at different levels rather than "flying blind." Going in and out repeatedly also helps to make those transitions easier, quicker, and more intuitive. At some point in time you can add this with intention.
 
-“Ok, open your eyes and come back up, feel the room around you, you can decide if you want to stop the work at this point or if you want to continue, if you want to continue soften your eyes or close them and notice the change that comes over you when you do, if you want to stop, that is ok too, either way is ok and you can stop at either place.”
+“Okay, open your eyes and come back up. Feel the room around you. You can decide if you want to stop the work at this point or continue. If you want to continue, soften your eyes or close them, and notice the change that comes over you when you do. If you want to stop, that’s okay too. Either way is okay, and you can stop at either place.”
 
 ## Deepening, if useful
 
@@ -594,7 +594,7 @@ Who or what needs to talk first?
 
 It might be useful for your wise subconscious to let you know that your inner meeting space is ready for you to go into by making a finger twitch, pulse, lift up by itself, heat up or tingle in a way you notice.
 
-You don’t have to make it happen, or pretend that it is happening, just wait with love and notice what happens.
+You don’t have to make it happen, or pretend that it is happening, just wait with love and notice what happens.”
 
 Sometimes a finger will move, sometimes an entire hand will heat up, sometimes you will notice a change in your breathing, sometimes you won’t notice anything at all. Even if something happens, it doesn’t mean that what comes next will be true. It just might mean that something is listening.
 
@@ -602,31 +602,31 @@ Sometimes a finger will move, sometimes an entire hand will heat up, sometimes y
 
 Once you have learned a useful induction and how to come all the way back up at the end, you can do the following:
 
-Have an unusual word, phrase, and/ or motion (optional) that you will use to go into hypnosis again. Say the word and/ or phrase while doing the motion (if applicable). Be sure to do this when you are in hypnosis and in a good place. Don't do this when you are in a very emotional state, child state, or thinking about something that could be considered trauma. The idea is for you to be able to pick a good state to go into, and you can decide what that is.
+Have an unusual word, phrase, and/or motion (optional) that you will use to go into hypnosis again. Say the word and/or phrase while doing the motion (if applicable). Be sure to do this when you are in hypnosis and in a good place. Don't do this when you are in a very emotional state, child state, or thinking about something that could be considered trauma. The idea is for you to be able to pick a good state to go into, and you can decide what that is.
 
-Ex: My dad used to use a mudra (like putting two fingers together like an "OK" sign) when he needed to relax. He even did it when he was driving. Not that I recommend driving in a trance, don't do that! Make sure that your relaxation/ stay alert cue is not the same as your cue to go inward to hypnosis.
+For example, my dad used to use a mudra (like putting two fingers together like an "OK" sign) when he needed to relax. He even did it when he was driving. Not that I recommend driving in a trance, don't do that! Make sure the cue you use to calm down while staying alert is not the same as your cue to go inward into hypnosis.
 
-Give your cue the meaning you choose: “When I pick the time and place (an appropriate time and place) and say the word and/ or phrase to begin, I can go into this state that I picked and am familiar with. I can change direction, or stop, at any point.”
+Give your cue the meaning you choose: “When I pick the time and place (an appropriate time and place) and say the word and/or phrase to begin, I can go into this state that I picked and am familiar with. I can change direction, or stop, at any point.”
 
-Now come all the way back up again, and at a later time, when it is appropriate, start using this. Over time, you can shorten the length of the longer induction, or use the longer induction if this doesn't seem to be enough for your needs. There is no need to have to do this a certain number of times, go to a certain depth, or even have a certain sensation when you do this.
+Now come all the way back up again, and at a later time, when it is appropriate, start using this. Over time, you can shorten the length of the longer induction, or use the longer induction if this doesn't seem to be enough for your needs. You don't have to do this a certain number of times, go to a certain depth, or even have a certain sensation when you do this.
 
-Also, be sure that this is working for you. Be able to turn it on and off at will. Make sure it isn't there when you don't want it to be. Be able to change directions or come back up when you are in it. Don't use it in a way that makes you follow instructions that you are hearing from a narrator, notifications, or something that you overhear. Don't use this to go into hypnosis faster for things that you shouldn't be working on yet.
+Also, be sure that this is working for you: you can turn it on and off at will, it isn't there when you don't want it to be, and you can change direction or come back up when you are in it. Don't use it in a way that makes you follow instructions that you are hearing from a narrator, notifications, or something that you overhear. Don't use this to go into hypnosis faster for things that you shouldn't be working on yet.
 
-There is something you should never do while using this induction. And that's use it, practice it or test it while you're driving or doing something where you need to be actively paying attention. It's just not safe to be going into a trance where you are actively paying attention to what's going on inside of you when you need to be paying attention to what's going on outside of you. Even though your eyes can be open, even though you're using "if it would be useful for you to do so" type language, it's just not safe.
+There is something you should never do with this shortcut: use it, practice it or test it while you're driving or doing something where you need to be actively paying attention. It's just not safe to be going into a trance where you are actively paying attention to what's going on inside of you when you need to be paying attention to what's going on outside of you. Even though your eyes can be open, even though you're using "if it would be useful for you to do so" type language, it's just not safe.
 
 ### Turning the shortcut off, or keeping it
 
-If you want to turn this one off, simply don't practice it anymore. Take it out of your recordings, take it out of your apps if you're using it in an app, and start using your regular induction. Tell yourself, when you're awake, that you won't be using it anymore. Just because you say that it'll be gone doesn't mean that it'll be gone right away. If it's causing you a problem, if you're still responding to it when you don't want to respond to it, if you're having issues with disorientation, etc, get some help from someone who's qualified to help you with this. If, on the other hand, you want to keep it so that you can use it to go back into trance at a later date when you do want to go into a trance, that's fine too. For now, though, once you come out of this trance, today's session is over.
+If you want to turn the shortcut off, simply don't practice it anymore. Take it out of your recordings, take it out of your apps if you're using it in an app, and start using your regular induction. Tell yourself, when you're awake, that you won't be using it anymore. Just because you say that it'll be gone doesn't mean that it'll be gone right away. If it's causing you a problem, if you're still responding to it when you don't want to respond to it, if you're having issues with disorientation, etc, get some help from someone who's qualified to help you with this. If, on the other hand, you want to keep it so that you can use it to go back into trance at a later date when you do want to go into a trance, that's fine too. Keeping it doesn't keep today's trance going, though: once you come back, today's session is over.
 
 # Come all the way back
 
-If you have done anything to alter your state when entering the trance, make sure to reverse those things. If you have floated, make sure to gain your weight again (whatever weight you want of course). If you have shrunk, make sure to grow back to your regular size. If you have met a younger state or are working with parts, make sure to come back to feeling complete in your body in the here and now, that your body belongs to you, and that it is under the control of your adult mind. If you have gone somewhere, make sure to go back the same way you went there. Etcetera.
+If you have done anything to alter your state when entering the trance, make sure to reverse those things. If you have floated, make sure to gain your weight again (whatever weight you want of course). If you have shrunk, make sure to grow back to your regular size. If you have met a younger state or are working with parts, make sure to come back to feeling complete in your body in the here and now, that your body belongs to you, and that it is under the control of your adult mind. If you have gone somewhere, make sure to come back the same way you went. Etcetera.
 
 Here is a generic bring-back that you can use: "When I come out of this session, I will only bring with me that which is useful to me in my everyday life right now. Anything else I will bring with me at a later date, when I am better able to integrate it. When I come out of this session, I will be coming back to the room I am in now, and to the day in which I am participating in this session now. All the instructions to carry me deeper into this session or keep me in this state are now finished. The only intention I will take with me into my everyday life, and the only cue I will use to take me into this state at a later date, will be the ones I consciously choose, and neither of them will keep me in this state. When I come out of this session I will be me, in my body and with my adult judgment."
 
 Then do a count up: On 1 start to feel your body again and what it's resting on and feel your weight (of your choice). On 2 start to feel your breathing return to normal. On 3 start to hear the room around you and name where you are. On 4 start to wiggle your fingers and toes, move your shoulders and your eyes. On 5 open your eyes, back in the here and now, feeling normal and clear and the session is now over.
 
-When you come out make sure you can name what day (or date) it is, look to your left and right, look at something near to you and something further away. Move around a bit. Don't get up until you feel like you can do so without falling over. Make sure that you are oriented and alert (counting does this, but not always). Take mental note of only what actually came up for you and any actions you need to take regarding it. Then go on and do something normal.
+When you come out, make sure you can name what day (or date) it is, look to your left and right, look at something near to you and something further away. Move around a bit. Don't get up until you feel like you can do so without falling over. Make sure that you are oriented and alert (counting does this, but not always). Take mental note of only what actually came up for you and any actions you need to take regarding it. Then go on and do something normal.
 
 If your recording cuts out for some reason, you can say to yourself, "The recording has stopped and the session is over," and then do the above on your own. Once your eyes are open, press your feet or hands into a surface as well.
 
@@ -646,13 +646,13 @@ This does not mean you have to stop thinking to listen. Just notice your thought
 
 Internally say, “Tell me what I need to know or ask me what you need to know and I’ll sit in silence for 5 minutes and listen.”
 
-You may hear a phrase, feel a body sensation, notice a memory, see a color, be contacted by a child or guard, feel pain, warmth, complete silence, know that you need to do something, be grateful for something, feel you need to stop the listening or any number of things.
+You may hear a phrase, feel a body sensation, notice a memory, see a color, be contacted by your inner child or a guard, feel pain, warmth, complete silence, know that you need to do something, be grateful for something, feel you need to stop the listening or any number of things.
 
 Listen to everything and believe nothing automatically.
 
 # Let the next response guide you
 
-Read through these sections, and then try doing the inner meeting without looking at the screen.
+The induction and the inner meeting get you to a place where you can listen. From there, you respond to whatever actually happens, which is the part no recording can decide in advance. Read through these sections, and then try doing the inner meeting without looking at the screen.
 
 Respond to each thing that comes up with an accurate notice and a small reasonable invitation (or action or taking more time etc). The thing might be a sensation, image, gesture, feeling, words, or anything. The notice and invitation don't need to cover all those forms, just notice and invite what happens.
 
@@ -672,17 +672,19 @@ Is this a notice or meaning? "My stomach went tight" is a notice, "He's a comple
 
 ## Let the response change the invitation
 
-Your shoulders tightening, or 'hmm, that feels kind of wrong', is a signal to investigate further. A tightening won't tell you what it's about by itself, so ask what happened and whether the invitation fits. But 'No! That is Not Right!' is a signal to stop what you're doing and change it. If you don't feel like it fits, don't keep doing it, and don't try saying it again more persuasively. Just change it. You don't need any other reason.
+Your shoulders tightening, or 'hmm, that feels kind of wrong', is a signal to investigate further, but 'No! That is Not Right!' is a signal to stop what you're doing and change it. If you don't feel like it fits, don't keep doing it, and don't try saying it again more persuasively. Just change it. You don't need any other reason.
 
-"I notice the tightness, and I can just leave it like that. I wonder if that fits, or if I'd rather do something different?"
+"I notice the tightness, and I can just leave it like that. Then again, is that what I really want?"
 
-Sometimes the invitation just isn't right. Sometimes it brings up a possibility you hadn't thought of, and the feeling that comes with it is worth meeting. You don't have to know which it is before you make room to find out. Either way, your doubt isn't automatically a guard, and silence doesn't mean a hidden process is working.
+Sometimes the invitation just isn't right or helpful, even if it sounds like something a hypnotist might say. Each time we play around with this, we explore new possibilities which bring up new inner signals for us to feel out.
+
+Doubting is sometimes a guard to listen to, and sometimes simply part of normal consideration. Lack of doubt doesn't necessarily mean the process is working in the best way, either.
 
 ## Look at the situation too
 
-If there is another person involved in the situation, it may be a good idea to look at what they are doing as well. Can they hear you disagree, take responsibility, and make room for what you're going through? Try and be specific in your description, and be willing to alter it if you find out that it was incorrect. Just because someone is disagreeing with you or trying to set boundaries around you does not mean they are in their emotionally immature parts. You don’t need to subject yourself to something that may be dangerous before protecting yourself.
+If there is another person involved in the situation, it may be a good idea to look at what they are doing as well. Can they hear you disagree, take responsibility, and make room for what you're going through? Try and be specific in what you conclude about them, and be willing to change it if you find out that it was wrong. Just because someone is disagreeing with you or trying to set boundaries with you does not mean they are in their emotionally immature parts. You don’t need to subject yourself to something that may be dangerous before protecting yourself.
 
-On the other hand, you may find that you feel guilty. Having feelings of guilt does not mean that you have done something wrong or that you have been manipulated. Have you done something that was wrong or that caused harm? If so, what can you do to fix it? On the other hand, did you give in to someone else just to keep them from being disappointed in you? What do you want to do or achieve the next time you interact with this person? Do you need them to understand what you are feeling/thinking? Do you just need to communicate information to them? Do you need to set boundaries with them? Do you need to end the interaction? You don’t have to make them understand before you can act.
+Look at your own side too. You may find that you feel guilty. Having feelings of guilt does not mean that you have done something wrong or that you have been manipulated. Have you done something that was wrong or that caused harm? If so, what can you do to fix it? On the other hand, did you give in to someone else just to keep them from being disappointed in you? What do you want to do or achieve the next time you interact with this person? Do you need them to understand what you are feeling/thinking? Do you just need to communicate information to them? Do you need to set boundaries with them? Do you need to end the interaction? You don’t have to make them understand before you can act.
 
 ## Change the amount of contact
 
@@ -706,69 +708,69 @@ Try some different ideas as to what might be helpful for this inner part to feel
 
 It is possible that when you try and give the part what it wants, you might feel very upset. It may be that it never got what it needed at the time and now that you are giving it what it wants, it is processing the upset of not getting what it wanted before. That doesn’t mean your love isn’t working. If this happens, allow yourself to respond for as long as you want to do so, and for as long as you can stay there (ie remain in the process), but don’t push for more tears, since crying more doesn’t mean you’re healing more. If you feel that the voice, distance, touch, image etc is too much, then change it to something that is less. Don’t think that you can’t take the love.
 
-Allow yourself to see where a metaphor takes you. Ask questions like ‘if the problem had an image or story, what would it be?’ or ‘what would need to happen to make things right?’ If it feels like you need to do something to give yourself the resource that you feel you need (or to put a boundary in place, or to move away or to take some other action) then try doing that for as far as it takes to be of use to you. Remember that whatever you find out is likely to be metaphorical. It may be a good hypothesis for what you need to do, but it isn’t a record of what actually happened.
+Allow yourself to see where a metaphor takes you. Ask questions like ‘if the problem had an image or story, what would it be?’ or ‘what would need to happen to make things right?’ If it feels like you need to do something to give yourself the resource that you feel you need (or to put a boundary in place, or to move away or to take some other action) then try doing that, as far as it helps you. Remember that whatever you find out is likely to be metaphorical. It may be a good hypothesis for what you need to do, but it isn’t a record of what actually happened.
 
-Alternatively, you may want to use the session to develop a capacity that you want to develop (ie love, play, courage, curiosity etc). You can also use it to rehearse something that you have decided to do.
+Alternatively, you may want to use the session to build up something you want more of (eg love, play, courage, curiosity etc). You can also use it to rehearse something that you have decided to do.
 
 ## Finish without forcing a revelation
 
-Don’t feel that you have to end the session with a great revelation! When you have done as much as you want to do, it is a good idea to find out if there is anything that you need to do to make sure that you can leave things where they are for the time being. This might include thanking parts for their help, or making sure that you do something in real life (eat a good meal, put a boundary in place, get some rest, repair a relationship, keep a promise etc). Whatever it is, tell your little one, "That’s enough for today. We’re going back to the life we’re building."
+Don’t feel that you have to end the session with a great revelation. When you have done as much as you want to do, ask yourself what would help you leave things where they are for now. This might include thanking parts for their help, or making sure that you do something in real life (eat a good meal, put a boundary in place, get some rest, repair a relationship, keep a promise etc). Whatever it is, tell your little one, "That’s enough for today. We’re going back to the life we’re building."
 
-When you have finished, even if you stopped part way through, use the ‘Come all the way back’ procedure to bring yourself back. When you are back, it is a good idea to write a few lines in a notebook about what you have done. Just jot down the essentials (what was there before you started, what you have done to change things, what you are unsure about, any phrases that were said, any body signals, any information that the inner child said that it needed, anything that a guard wanted you to know, any boundaries that you put in place, any repairs that you did, anything that you learnt about what it is a mistake to try and force etc). You don’t need to write down the whole cast of characters, just what you actually noticed.
+When you have finished, even if you stopped part way through, use the ‘Come all the way back’ procedure to bring yourself back. When you are back, it is a good idea to write a few lines in a notebook about what you have done. Just jot down the essentials (what was there before you started, what you have done to change things, what happened, what you are unsure about, any phrases that were said, any body signals, any information that the inner child said that it needed, anything that a guard wanted you to know, any boundaries that you put in place, any repairs that you did, anything you learned about what not to force etc). You don’t need to write down the whole cast of characters, just what you actually noticed.
 
 ### Throughout the exercise
 
-Note: throughout the exercise, allow your analytical part to make comments and/or tell you that it doesn’t like what you are doing. Just tell it that you will check things out when you come back and make any commitments etc when you are back. If it says no to going deeper, or tells you to stop doing the exercise, I’d stop there and not push past that no, even when it sounds like a prediction. You can stop whenever you want to. Remember that the images that you see can be meaningful without being actual memories of things that happened and just because you see an image, or feel a body release, that doesn’t mean that you are right about what is going on!
+Allow your analytical part to make comments and/or tell you that it doesn’t like what you are doing. Just tell it that you will check things out, and make any commitments etc, when you are back. If it says no to going deeper, or tells you to stop doing the exercise, I’d stop there. You can stop whenever you want to. Remember that the images you see can be meaningful without being memories of things that actually happened. And just because you see an image, or feel a body release, doesn’t mean you are right about what is going on.
 
 # The 15-minute daily practice
 
-Notice there is no need to learn a second script! The process is the same. You are simply practicing for fifteen minutes or so. That is long enough to induce yourself (it only takes a few minutes), practice and let it unfold at its own pace, and come out again (that takes a few minutes too). Fifteen minutes is just a handy appointment with yourself, though, and your feelings don't have to keep to it. Five minutes is plenty to see what happens when you simply sit in silence, listening, and you can interrupt yourself at any time to change direction if that feels better.
+There is no need to learn a second script. The process is the same: gather your attention, notice what is here, respond, wait, and come all the way back. You are simply practicing for fifteen minutes or so. That is long enough to induce yourself (it only takes a few minutes), practice and let it unfold at its own pace, and come out again (that takes a few minutes too). Fifteen minutes is just a handy appointment with yourself, though, and your feelings don't have to keep to it. Five minutes is plenty to see what happens when you simply sit in silence, listening, and you can interrupt yourself at any time to change direction if that feels better.
 
-You can also try other ways of inducing yourself such as becoming aware of 3 things you can see, 3 things you can hear, 3 things you can feel in your body; then 2 of each, 1 of each. Then count from 5 to 1 and begin to listen. Choose one way to induce yourself. You don't need to try all of them! (In fact, it might be counter-productive!)
+You can also try other ways of inducing yourself, such as becoming aware of 3 things you can see, 3 things you can hear, 3 things you can feel in your body; then 2 of each, 1 of each. Then count from 5 to 1 and begin to listen. Choose one way to induce yourself. You don't need to try all of them (in fact, stacking them might be counter-productive).
 
-Once you have practiced listening a few times with the recordings, you may want to shorten them to speed up your induction, or even practice without playing them back at all. On the other hand, if you like using the recordings, there is no reason to stop! (NB. You may wish to use the re-entry cue to help you re-enter your process, this will also shorten your induction if you already know what to do.)
+Once you have practiced listening a few times with the recordings, you may want to shorten them to speed up your induction, or even practice without playing them back at all. On the other hand, if you like using the recordings, there is no reason to stop. (Once you know the induction well, the cue from "A shortcut back into hypnosis" can shorten it too.)
 
 As you come out of the process, ask yourself what needed warmth, what needed to be protected, what you need to do differently to be more in accord with truth and love and life. Is there something you want to explore more fully or a capacity you want to build? And most importantly, what can you now carry yourself that you used to have to borrow? If you identified something you needed to do differently, make a plan with yourself to do that thing. The more specific you can be, the more likely you are to change: “If _________ (fill in the cue for the old pattern), then I will do ________ (fill in a small action that will begin to change the pattern).” Then check back later and see how you are doing – sleeping, relating, functioning, etc., not only how impressive the session felt.
 
 # The weekly deeper practice
 
-It’s good to give this more time once or twice a week, when that’s useful. It doesn’t have to be very intense, but it is good to start from Higher Self or at least a neutral witnessing place and follow what appears. It’s also good to bring in some adult function to make sure nothing is being bypassed and so that at the end of the exercise, when the experience is over, there is the possibility of coming out completely and doing whatever normal thing needs doing.
+It’s good to give this more time once or twice a week, when that’s useful. It doesn’t have to be very intense, but it is good to start from Higher Self or at least a neutral witnessing place and follow what appears. It’s also good to bring in some adult function when you need it, to check that nothing important is being bypassed, and to leave time at the end to come out completely and do whatever normal thing needs doing.
 
 If possible, it’s good to do the normal thing immediately after the exercise, so that the subconscious sees that the adult heard and acted. Otherwise you just get another beautiful inner meeting, and the dishes are still sitting in the sink.
 
 # Capacity before content
 
-NOTE: If it is medically unsafe or you are in a place of panic, sleep deprivation, nausea, deep destabilization, mania, psychosis-like symptoms, feeling overwhelmed by chemicals etc. then first focus on stabilizing and then look for what your subconscious needs you to know! If knowing what your subconscious knows would destabilize you, it is not meant for you to know directly at this time! Focus on asking for capacity over content!
+Note: if it is medically unsafe, or you are in a place of panic, sleep deprivation, nausea, deep destabilization, mania, psychosis-like symptoms, feeling overwhelmed by chemicals etc., focus on stabilizing first, with help if you need it (see “When this needs more support than a guide can provide”), and only then look for what your subconscious needs you to know. If knowing what your subconscious knows would destabilize you, it is not meant for you to know directly at this time. Ask for capacity before content.
 
 Sometimes, it feels like your subconscious knows something that your conscious self is not prepared to know. It may be something related to your sexuality, grief, trauma, family issues, betrayal, shame, vocation, a relationship, illness fears, spirituality, addiction, identity, moral issues etc.
 
-What you DON’T want to do is bully your subconscious into telling you what it knows by saying things to yourself like:
+What you don’t want to do is bully your subconscious into telling you what it knows by saying things to yourself like:
 
 “What is it you won’t tell me? What are you hiding? Tell me NOW! I am telling you to tell me!”
 
-This can lead to flooding, panic, false certainty, confabulation, dissociation etc. and can make your day SUCK! When you are flooded, it is much harder to access your adult capacities, so focus on being able to regulate and getting support! If your subconscious won’t answer, it may be protecting you until your adult is steady enough to take in what it has. Just ask for what you need to know in a way that you CAN tolerate:
+This can lead to flooding, panic, false certainty, confabulation, dissociation etc., and can make your day suck. When you are flooded, it is much harder to access your adult capacities, so focus on being able to regulate and on getting support first. Then ask for what you need to know in a way that you can tolerate:
 
-“What can you tell me, that will make my conscious self 5% better at knowing the thing you want to tell me?” “Can you tell me in symbolic form so I am not completely overwhelmed by the revelation?” “Can you tell me what I need to do to be safe, without actually telling me what it is?” “Do I need to know WHAT it is, or do I need to know that I need to get some support to have the capacity to know what it is, and who would be a good person to help me?” etc.
+“What can you tell me, that will make my conscious self 5% better at knowing the thing you want to tell me?” “Can you tell me in symbolic form so I am not completely overwhelmed by the revelation?” “Can you tell me what I need to do to be safe, without actually telling me what it is?” “Do I need to know what it is now, or do I need to get some support first, so I have the capacity to know it, and who would be a good person to help me?” etc.
 
 Or, instead of demanding answers, say to yourself something like this:
 
-“Dear Wise Subconscious Mind, if there is something you know that my conscious self is not ready to know, please don’t break it open violently! Do what you can to make me able to know it in a way that is safe! Prepare me BEFORE you break it open! Ground me BEFORE you show me the memory! Support me BEFORE you make it intense! Give me one next action!” etc.
+“Dear Wise Subconscious Mind, if there is something you know that my conscious self is not ready to know, please don’t break it open violently. Do what you can to help me know it in a way that is safe. Prepare me before you break it open. Ground me before you show me the memory. Support me before you make it intense. And show me the next thing to do.” etc.
 
-REMEMBER: Not everything in hypnotic imagery is literal, especially if it relates to trauma and memory. The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc. So, treat it like an image, and get some help outside of yourself when you need it!
+Remember: not everything in hypnotic imagery is literal, especially if it relates to trauma and memory. The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc. So, treat it like an image, and get some help outside of yourself when you need it.
 
 # Troubleshooting
 
 ## Nothing happens
 
-Is there a way you could try this on a smaller scale?
+Check if there's a way you could try this on a smaller scale.
 
-Ask: “Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.”
+Try out these requests: “Show me a body sensation.” “Show me just a word.” “Show me whether today is for listening or resting.”
 
 ## It feels fake
 
-Do you have a sense of what it is that feels fake? The words, an image, what you are expecting to get from this, a role you feel you have to play etc. It doesn't matter that you don't have an inner voice/image to do this. It isn't necessarily about not having a 'grown up' or resisting doing the work. If it feels like you are being asked to do something you don't want to do, then correct the invitation. It could be that there is a part that is protecting you, so talk to it.
+Do you have a sense of what it is that feels fake? The words, an image, what you are expecting to get from this, a role you feel you have to play etc. Not having an inner voice or images doesn't mean you're resisting the work, or that you're missing a 'grown up'. If it feels like you are being asked to do something you don't want to do, then correct the invitation. It could be that there is a part that is protecting you, so talk to it.
 
-You could say something like 'What are you protecting me from?' or 'Are you afraid I will lie to myself again?' or 'Are you afraid this will just be a performance?' If it says yes, that one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part of you remembers it. "Tell me what you remember, I'm listening." works well here.
+You could say something like 'What are you protecting me from?' or 'Are you afraid I will lie to myself again?' or 'Are you afraid this will just be a performance?' If it says yes, that can sting, because there could be something to it. Maybe you've fooled yourself before, and that part of you remembers it. "Tell me what you remember, I'm listening." works well here.
 
 It could also be your inherited parent script that you are picking up, and it is trying to enforce a rule about how you should be to belong to them. Find out what rule it is enforcing. Comfort your little one before you answer any of it. Your answers can be firm or funny, as long as they aren’t mean. Then work on finding some ordinary evidence to build a more believable 'grown up' voice of your own.
 
@@ -780,7 +782,7 @@ There may not be an answer. There may not be an answer that will help you. You m
 
 ## The inner child will not appear
 
-If you can figure out who the guard is, talk to it. You can say to the guard “You don’t have to let me in, just tell me what I need to do to make it safe”. Even if there isn’t a child part that you can talk to, you can work with whatever you are aware of. You can work on your preferences or something that you’re curious about or something that you’re willing to try as a beginner etc. and see how it goes. Work on developing a sense of who you are and reparent yourself as best you can.
+If you can tell there is a guard in the way, talk to it. You can say to the guard “You don’t have to let me in, just tell me what I need to do to make it safe”. Even if there isn’t a child part that you can talk to, you can work with whatever you are aware of. You can work on your preferences or something that you’re curious about or something that you’re willing to try as a beginner etc. and see how it goes. Work on developing a sense of who you are and reparent yourself as best you can.
 
 ## You get anxious
 
@@ -788,9 +790,9 @@ Find out if the anxiety is bad enough that you want to decrease contact with it 
 
 -Where are your feet? Where are you sitting? Focus on your body, your breathing, and the room around you.
 
--Tell your little one and your guards (childhood protector parts) that you’re there for your little one, that you recognize that your guards are trying to protect you, and that you don’t need them to scream at you in order for you to know that something is wrong. Ask them if they need you to do something and if they do, ask them to show you one step at a time that you can do. If they don’t, then ask them to let your body calm down.
+-Tell your little one and your guards (childhood protector parts) that you’re there for your little one, that you recognize that your guards are trying to protect you, and that you don’t need them to scream at you in order for you to know that something is wrong. Ask them if they need you to do something, and if they do, ask them to show you one step at a time that you can do. If they don’t, then ask them to let your body calm down.
 
-If you’re having chest pain, fainting, suicidal thoughts, psychosis-like symptoms, mania-like symptoms, severe dissociative symptoms, not being able to sleep, wanting to hurt yourself or somebody else, etc. then you need to get professional help. For more on handling anxiety, see the toolbox in Appendix D.
+If you’re having chest pain, fainting, suicidal thoughts, psychosis-like symptoms, mania-like symptoms, severe dissociative symptoms, not being able to sleep, wanting to hurt yourself or somebody else, etc., then you need to get professional help. For more on handling anxiety, see the toolbox in Appendix D.
 
 ## You dissociate or feel unreal
 
@@ -800,15 +802,15 @@ Open your eyes, move around, feel something textured, name 5 things that you can
 
 Go eat, go to sleep, do some chores, accept some humility, find somebody to disagree with you, etc.
 
-What do you say to yourself in that moment? “If it’s really there, it’ll still be here after a good night’s sleep, some food, some time, and some subsequent humility, feedback, etc.”
+What do you say to yourself in that moment? “If it’s real, it’ll still be here after a good night’s sleep, some food, some time, and some subsequent humility, feedback, etc.”
 
 ## You become too analytical
 
-You’re being too analytical. “What if you didn’t try to improve the practice?” Do the two-hand practice and say, “I don’t have to do this perfectly. I’m here for a relationship with something deeper than my surface mind.” “What can you do to make this a communion, not a performance?” Maybe it’s silence, resting, or doing something. Whatever it is, just do it.
+“What if you didn’t try to improve the practice?” Put one hand on your heart and the other on your solar plexus, as in the two-hand practice, and say, “I don’t have to do this perfectly. I’m here for a relationship with something deeper than my surface mind.” “What can you do to make this a communion, not a performance?” Maybe it’s silence, resting, or doing something. Whatever it is, just do it.
 
 ## You become too blissful or diffuse
 
-You’re being too blissful, diffuse, etc. Bring it down to a more specific level. “What’s the smallest, most specific thing your love is asking you to do next? A task, a boundary, a meal, some rest, a repair, a conversation?”
+Bring it down to something specific. Ask yourself, “What’s the smallest, most specific thing your love is asking you to do next? A task, a boundary, a meal, some rest, a repair, a conversation?”
 
 ## You want the hidden truth immediately
 
@@ -818,13 +820,13 @@ Don’t pry.
 
 ## You keep daydreaming
 
-You’re daydreaming. Sit up and open your eyes, and ask yourself, “What are you avoiding doing in the real world by doing this?”
+Sit up and open your eyes, and ask yourself, “What are you avoiding doing in the real world by doing this?”
 
 ## You get stuck in spiritual bypass
 
 “Where has divine love not yet descended into the wound?”
 
-Maybe you had a profound opening that showed you how much more love and freedom is possible. Let that matter, but don’t demand that the child receive it on command. Invite your little one in with you. They might go numb, or call BS on that. If so, they might just need to see if you’re actually humble enough, and grateful enough for them, to listen to their rejection and be patient. Maybe when you prayed it seemed like you were being abandoned and condemned. Maybe you felt betrayed by a spiritual teacher. It may be worth exploring these, but you might not want to do more of the same practice.
+Maybe you had a profound opening that showed you how much more love and freedom is possible. Let that matter, but don’t demand that your inner child receive it on command. Invite your little one in with you. They might go numb, or call BS on that. If so, they might just need to see if you’re actually humble enough, and grateful enough for them, to listen to their rejection and be patient. Maybe when you prayed it seemed like you were being abandoned and condemned. Maybe you felt betrayed by a spiritual teacher. It may be worth exploring these, but you might not want to do more of the same practice.
 
 Sometimes it’s best to get some practical help while life still feels too small, and let yourself be curious about finding more happiness, without necessarily believing the explanation of how it’s going to work. Sometimes people have enough love and meaning to just live their lives, and trying to be spiritual doesn’t have to be another assignment.
 
@@ -838,41 +840,41 @@ What would the Guide choose to do now?
 
 ## You keep using hypnosis but not changing life
 
-You’re doing hypnosis over and over again without making changes in your life. Ask yourself, “What can I do to show my little one I’m for real?” Pick one thing to do that’s small enough to repeat, then go do it. A big gesture you later drop would only prove them right to doubt you, but a small thing you keep doing can change their mind.
+Ask yourself, “What can I do to show my little one I’m for real?” Pick one thing to do that’s small enough to repeat, then go do it. A big gesture you later drop would only prove them right to doubt you, but a small thing you keep doing can change their mind.
 
 # What not to do
 
-DO NOT: View your inner experiences as commands or proof. They’re internal happenings that need to be reality tested at all times.
+Don’t view your inner experiences as commands or proof. They’re internal happenings that need to be reality tested at all times.
 
-DO NOT: Engage in seeking “downloads” of information or make a hobby of demons/jinn/Unattached Burdens or the like. Stabilize your life first, and get help to do so if you are not reality testing well, or not functioning well in your life.
+Don’t go seeking “downloads” of information, or make a hobby of demons/jinn/Unattached Burdens or the like. Stabilize your life first, and get help to do so if you are not reality testing well, or not functioning well in your life.
 
-DO NOT: Participate in self-hypnosis while operating a car, bathing, swimming, operating any equipment, supervising children, or engaged in any activity which requires active attention.
+Don’t do self-hypnosis while driving, bathing, swimming, operating any equipment, supervising children, or doing anything else that requires active attention.
 
-DO NOT: Attempt to “force” memories, to use trance to “prove” something happened to you, or to skip medical attention for symptoms just because you can “force” them down using hypnosis.
+Don’t try to “force” memories, to use trance to “prove” something happened to you, or to skip medical attention for symptoms just because you can “force” them down using hypnosis.
 
-DO NOT: Force yourself to ignore your body’s needs, such as eating when hungry, resting when tired, responding to pain, etc., or your emotions, such as letting yourself grieve when someone dies, feeling anger when it is appropriate, acknowledging your fears, etc., until you know more about what the signals are telling you.
+Don’t force yourself to ignore your body’s needs, such as eating when hungry, resting when tired, responding to pain, etc., or your emotions, such as letting yourself grieve when someone dies, feeling anger when it is appropriate, acknowledging your fears, etc., until you know more about what the signals are telling you.
 
-DO NOT: “Extend” the duration of altered states indefinitely.
+Don’t “extend” the duration of altered states indefinitely.
 
-DO NOT: Allow various internal roles to get out of proportion (e.g., allow the Inner Child to run your adult life, the Protector to shut out all love, the Nurturer to disregard consequences, the Guide to ignore the needs of the Child). You are capable of analysis, as well as tenderness.
+Don’t allow your inner roles to get out of proportion (e.g., letting your inner child run your adult life, the Protector shut out all love, the Nurturer disregard consequences, or the Guide ignore the needs of your inner child). You are capable of analysis, as well as tenderness.
 
-DO NOT: Utilize NLP techniques to force down guard parts, to give yourself certainty you do not have, to manipulate others, or to heal yourself when your body is telling you not to.
+Don’t use NLP techniques to force down guard parts, to give yourself certainty you do not have, to manipulate others, or to heal yourself when your body is telling you not to.
 
 Don’t consider negative indicators (doubt, distraction, resistance, lack of response, saying “No”) as good signs that the induction is working.
 
-Don’t rely upon the safety of your unconscious mind as the only safety factor in any session. Be sure you have set up clear limits, are in a safe place, and have a way to terminate the session and get out which has been tested and proven to work.
+Don’t rely upon the safety of your unconscious mind as the only safety factor in any session. Be sure you have set up clear limits, are in a safe place, and have a tested way to end the session and get out.
 
 Don’t believe that normal physical sensations are indications of hidden trauma, illness, toxins in your body, possession, “attachments,” “transformations,” or information from your “subconscious mind.”
 
 Don’t believe that anything is “healed” in your body (neurologically, cellularly, etc.) simply because it is “healed” in your imagination.
 
-Don’t put hidden commands in yourself, nor allow anyone to do so. Even if you are consciously placing something in yourself which you wish to utilize later, be sure that you know exactly what you are doing and why you are doing it, and be sure that you can review it and CAN “take it out” if you decide that you no longer wish to use it. It may not be as easy as simply saying, “Take out.” Nor should you allow anyone to activate these commands in you without your knowledge, or use them to make you do something you don’t want to do, to make you into someone you don’t want to be, to give you amnesia, etc.
+Don’t put hidden commands in yourself, nor allow anyone to do so. Even if you are consciously placing something in yourself which you wish to utilize later, be sure that you know exactly what you are doing and why you are doing it, and be sure that you can review it and can “take it out” if you decide that you no longer wish to use it. It may not be as easy as simply saying, “Take out.” Nor should you allow anyone to activate these commands in you without your knowledge, or use them to make you do something you don’t want to do, to make you into someone you don’t want to be, to give you amnesia, etc.
 
 # When this needs more support than a guide can provide
 
 You should get help now if you are in imminent danger, if you are very confused, if you cannot ensure your own safety, and/or if you are experiencing concerning physical symptoms (e.g., chest pain, fainting, etc). You should also seek professional help promptly if you are experiencing new or worsening suicidal thoughts, severe insomnia, new or worsening manic or psychotic symptoms, or if dissociative symptoms are impacting your ability to function.
 
-You should seek suitable ongoing help if you are experiencing recurring panic attacks, compulsions, substance destabilization, major relationship instability, etc.
+You should seek suitable ongoing help if you are experiencing recurring panic attacks, compulsions, destabilization from substances, major relationship instability, etc.
 
 You probably don't need any more support than this if you keep the practice shorter, make it warm, pick a small and tractable subject, make sure you come back out, and then see how it affects a specific target (anxiety, daydreaming, helping a relationship, facing a task you've been avoiding, helping you sleep, being less reactive emotionally, improving your intuitive accuracy, etc) for a week or two. If you notice that your functioning is getting worse, or that you're getting more certain about unconfirmable memories, then reassess instead of pushing harder.
 
@@ -886,7 +888,7 @@ The main clinical practice guidelines for the treatment of major trauma recommen
 
 ## Your functioning in ordinary life is the feedback
 
-Always keep in mind that your functioning in ordinary life is the feedback. If you find yourself more loving, more honest, more functional, more relational, more grounded, more precise, etc. than when you started this process, keep on keeping on gently. If you notice that your ordinary life is becoming less stable, don't try to go deeper. Go for more sleep, more eating, more grounding, more healthy boundaries with other people, more getting support from other people, etc.
+If you find yourself more loving, more honest, more functional, more relational, more grounded, more precise, etc. than when you started this process, keep on keeping on gently. If you notice that your ordinary life is becoming less stable, don't try to go deeper. Go for more sleep, more eating, more grounding, more healthy boundaries with other people, more support from other people, etc.
 
 # Closing
 
@@ -894,15 +896,15 @@ Start from the basis that none of these are your enemies: the subconscious, the 
 
 Whether or not you can get hypnotized very deeply is less interesting to me than whether or not you can become a trustworthy adult.
 
-Listen to your little one for as long as it takes until they're comfortable enough to move closer to you. This is easiest to do if you're making and keeping lots of small promises to your little one, so the various guards feel they can occasionally relax. Work on loving yourself in a way that your thinking doesn't object to; work on thinking in a way that your love for yourself doesn't become fantasy; work on doing this in the course of regular life so that your adult self can keep the promise.
+Listen to your little one for as long as it takes until they're comfortable enough to move closer to you. This is easiest to do if you're making and keeping lots of small promises to your little one, so the various guards feel they can occasionally relax. Work on loving yourself in a way that your thinking doesn't object to; work on thinking in a way that your love for yourself doesn't become fantasy; and take all of this back into regular life, where your adult self keeps its promises.
 
 # Try it in the Inner Signal app
 
-You can use the [Inner Signal app](http://innersignal.u-dont-exist.com/) for voice hypnosis, information, help developing your own language, and feedback on what you report. Have fun. Feel free to ask any questions you might have about what the hypnotist is doing. Self hypnosis is a great tool, but you don't need an app to do it. You may want to find a practitioner as well, but that's an option, not a graduation requirement.
+You can use the [Inner Signal app](http://innersignal.u-dont-exist.com/) for voice hypnosis, information, help developing your own language, and feedback on what you report. Have fun. Feel free to ask it any questions you might have about what a hypnotist you're working with is doing. Self hypnosis is a great tool, but you don't need an app to do it. You may want to find a practitioner as well, but that's an option, not a graduation requirement.
 
 Always enter this app via this page, not by bookmarking the app itself, to make sure you get the current version.
 
-If you’re using the ChatGPT version of this app, you might want to upload a picture, drawing, poem or song to talk about instead of writing out your explanation in prose. But please make sure the file you upload can be seen or heard by the chat you’re currently using! It will probably tell you that it can’t see or hear the file if you’ve made this mistake. Please remember that what’s in the file, what it means to you, and what the app thinks it means, are three different things, and that you get to decide for yourself whether the app has interpreted it correctly – you don’t have to defend your choice of medium.
+If you’re using the ChatGPT version of this app, you might want to upload a picture, drawing, poem or song to talk about instead of writing out your explanation in prose. But please make sure the file you upload can be seen or heard by the chat you’re currently using. It will probably tell you that it can’t see or hear the file if you’ve made this mistake. Please remember that what’s in the file, what it means to you, and what the app thinks it means are three different things, and that you get to decide for yourself whether the app has interpreted it correctly – you don’t have to defend your choice of medium.
 
 Bear in mind that even with voice, the app is asking you what’s going on for you – it can’t feel your body, share a practitioner’s embodied intuition, or know a response you don’t report. The app is not pretending to be a skilled therapist, just helping you to learn for yourself, so that you can make better-informed choices.
 
@@ -918,7 +920,7 @@ Note: You can skip this section and just use the main path. This is additional i
 
 # Appendix A: How to ask the subconscious a useful question
 
-Your subconscious mind is NOT an AI large language model. However, there is a bit of overlap in the way you can ask questions to both: how you ask shapes the answer. So, if you know how to do prompt engineering for AI, this can be very useful to help you be more present, honest, loving etc. On the other hand, you should NEVER use it to be more controlling.
+Your subconscious mind is not an AI large language model. However, there is a bit of overlap in the way you can ask questions to both: how you ask shapes the answer. So, if you know how to do prompt engineering for AI, this can be very useful to help you be more present, honest, loving etc. But you should never use it to be more controlling.
 
 To get as much precision as possible, you need to include the following in your prompt:
 
@@ -928,7 +930,7 @@ Context: Give some context so it knows what you’re talking about.
 
 Intention: What do you want to change or accomplish?
 
-Constraint: What do you need to do to make sure your asking is safe, true, kind etc.? That means no forcing, no false certainty, and making sure you can handle the answer before you ask for it.
+Constraint: What do you need to do to make sure your question is safe, true, kind etc.? No forcing, no false certainty, and no asking for an answer before you can handle it.
 
 Output: How do you want to receive the answer? As an image, phrase, sensation in your body, memory, action, question, symbol, silence, rest etc.
 
@@ -936,7 +938,7 @@ Evaluation: How are you going to evaluate the answer? How will you know if it’
 
 Iteration: Iterate by changing your prompt depending on what you get from reality as feedback.
 
-Most importantly, you always need to make your prompt safe, otherwise the analytical part of your mind will make up an answer just so it fits with your prompt. I usually add the following to my prompt:
+Most importantly, always let silence count as an answer, otherwise the analytical part of your mind will make up an answer just so it fits with your prompt. I usually add the following to my prompt:
 
 “If you need more time or the best and safest answer is silence, then I ask you to make my body go into a deeper state of comfortable rest. A peaceful silence would be a successful answer to my question.”
 
@@ -950,15 +952,15 @@ When you experience resistance: “What are you protecting me from? What would h
 
 When you want to ask your inner child something: “What do you want me to know? What do you need me to do today so that you are not alone in dealing with it?”
 
-When you want to bring in your Protector: “What would a minimally competent adult do here, in the external world, so that the system is safe?”
+When you want to bring in your Protector: “What would a minimally competent adult do here, in the external world, so that all of me is safe?”
 
-When you want to ask your leader or guru self: “What direction is the most in alignment with truth, love, life and all beings?”
+When you want to ask your Guide: “What direction is the most in alignment with truth, love, life and all beings?”
 
-When you want to listen to your intuition: “I ask my intuition to give me a signal, my analytical mind to decipher it, my body to give me feedback as to whether my deciphering is correct and reality to give me feedback as to whether my deciphering is correct.”
+When you want to listen to your intuition: “I ask my intuition to give me a signal, my analytical mind to decipher it, my body to give me feedback on whether my deciphering is correct, and reality to test it.”
 
 When you want to know if a particular intuition you have is coming from your universal heart or from your programming: “I ask my wise subconscious mind to help me see if the intuition or impulse I have about …is coming from my universal heart or from my family, my religion, marketing, erotic programming, my political tribe, my trauma response or an old deal I did as a child to belong. If it’s coming from my programming, I ask the parts responsible for it to step back and soften only as much as is safe, so that I can have true guidance from my universal heart that will help me make my life better in the most simple ways possible. Let my body give me feedback as to the difference.”
 
-Once you get an answer, you can ask: “What can I do in my ordinary life to prove that I heard correctly?” If it tells you to do something, I'd only do it if it's loving and leaves you free. It would have to make sense too. And even with all that, I wouldn't do anything big or hard to undo until I'm calm and I've checked it against what I actually know.
+Once you get an answer, you can ask: “What can I do in my ordinary life to show that I heard correctly?” If it tells you to do something, I'd only do it if it's loving and leaves you free. It would have to make sense too. And even with all that, I wouldn't do anything big or hard to undo until I'm calm and I've checked it against what I actually know.
 
 You use the prompt to tell your subconscious what you want in a language it can easily understand. The NLP in Appendix B below can help smooth the prompt's entry and reduce resistance. Used together properly, the subconscious can feel safer in giving its response. That doesn't make the answers any more true, though.
 
@@ -966,7 +968,7 @@ You use the prompt to tell your subconscious what you want in a language it can 
 
 NLP stands for Neuro-Linguistic Programming.
 
-You do not need to know this stuff to use the main path, but if you want to freshen up on your skills in the art of working with imagery, body states, behavioral rehearsal, talking to yourself in effective sentences etc then it might be useful, as long as it helps the system listen. Using the techniques can be an easy way to fall into the trap of thinking that NLP is a bag of tricks rather than something that needs to be done with love and truth and contact and consent.
+You do not need to know this stuff to use the main path, but if you want to freshen up on your skills in the art of working with imagery, body states, behavioral rehearsal, talking to yourself in effective sentences etc., then it might be useful, as long as it helps you listen. Using the techniques can be an easy way to fall into the trap of thinking that NLP is a bag of tricks rather than something that needs to be done with love and truth and contact and consent.
 
 ## The four NLP layers
 
@@ -976,13 +978,13 @@ Sensory Level of NLP: working with the form of an inner experience (where do you
 
 State Level of NLP: making useful states (warmth, adult presence, courage, love etc.) easier to get to.
 
-Strategy level of NLP: practising a better response.
+Strategy Level of NLP: practicing a better response.
 
 Language Level of NLP: pacing what is true; opening up people’s awareness; presuming only that you can do something safe; linking cause and effect carefully; embedding invitations; asking de-hypnotic questions to break the effects of vague, absolute, manipulative or grandiose language.
 
 ## The Milton Model, minus the covert sales seminar
 
-We are going to use a model that’s called the Milton model. It’s all to do with sentence architecture. When we tell ourselves to ‘be better’, ‘relax now’, ‘stop feeling anxious’ or ‘trust me’ it doesn’t work, does it?
+We are going to use a model that’s called the Milton model. It’s all to do with sentence architecture. When we tell ourselves to ‘be better’, ‘relax now’, ‘stop feeling anxious’ or ‘trust me’, it doesn’t work, does it?
 
 What we need to do is use [indirect language](https://learn.nimja.com/techniques/hypnotic_language) to go around the part that wants to argue with us, so that we can actually get to where we want to get to.
 
@@ -996,7 +998,7 @@ We paced it; we opened up awareness; we validated the reason for the reaction; w
 
 So how might we pace and lead in a way that works with anxiety?
 
-It might go something like this: ‘It is completely true that the sensation of ________ (or the emotion of _____) is coming up for me. It makes complete sense that my system is trying to react and respond to that by wanting to do or think ________. Whilst that is completely true, there is another thing that is equally true, which is that my adult self is here, breathing in the room right now, and wanting to listen to what comes up for me next.’
+It might go something like this: ‘It is completely true that the sensation of ________ (or the emotion of _____) is coming up for me. It makes complete sense that my system is trying to react and respond to that by wanting to do or think ________. While that is completely true, there is another thing that is equally true, which is that my adult self is here, breathing in the room right now, and wanting to listen to what comes up for me next.’
 
 Truth, Invite, Truth, Invite etc. is all you need to do.
 
@@ -1004,21 +1006,25 @@ Truth, Invite, Truth, Invite etc. is all you need to do.
 
 Open up awareness by using awareness verbs e.g. notice, realize, recognize, sense, feel, wonder, imagine, picture, listen to, allow, discover, remember, consider etc.
 
-Example: ‘Notice how the answer comes to you: as an image, a word, a pressure, some warmth, silence, or something to do next.’
+Example: ‘Notice how the answer comes to you… maybe as an image, or a word… maybe as a pressure, or some warmth… or a silence, or a sense of what to do next.’
 
 ### Pattern 3: Presuppositions
 
-A presupposition is an assumption hidden inside a sentence. Presumption is a powerful thing, so please don’t use it except to presume that we will have the choice of when it will happen, that we will be able to do it, that we are safe, that we are loved and that our adult can lead us. Never use it to sneak in obedience.
+Presumption is a powerful thing (a presupposition hides an assumption inside a sentence, and the person hearing it usually takes that assumption on board), so please don’t use it except to presume that we will have the choice of when it will happen, that we will be able to do it, that we are safe, that we are loved and that our adult can lead us. Don’t ever presume obedience, the way a hypnotist does when they say something like, ‘As you go deeper, it gets easier and easier to just do what I say.’
 
 Example: ‘Before any part has to change, it can first become more understood.’
 
 ### Pattern 4: Gentle cause-effect bridges
 
-Bridge words are words like ‘as, whilst, because, when, after, before, which means’ etc. These are words that link events. However, even if you say them in a lovely gentle voice it doesn’t mean that it’s true if it isn’t! It’s not very likely that just by breathing in and out your trauma is going to go away! A better bridge claims a lot less: ‘As I breathe, my adult self may become present enough to hear a small piece of what the wound needs.’
+Bridge words are words like ‘as, whilst, because, when, after, before, which means’ etc. These are words that link events, which can make something seem like it goes along with or produces the next thing. That doesn't mean it actually does, of course.
+
+Here's an example of some of the overly commanding bridge language many hypnotists will use: “Because I breathe, the trauma leaves.”
+
+I prefer the communion version: “As I breathe, my adult self can allow itself to become present enough to hear a bit of what my wounded inner child needs.”
 
 ### Pattern 5: Embedded invitations
 
-An embedded invitation places a small direction inside a larger sentence. For our purposes in ethical communion-style hypnosis, we don't use these to hide commands, but to smooth them into nudges without breaking the communion dialog rhythm: ie. "And I can allow myself to experience..."
+An embedded invitation places a small direction inside a larger sentence. For our purposes in ethical communion-style hypnosis, we don't use these to hide commands, but to smooth them into nudges without breaking the communion dialog rhythm, for example: "And I can allow myself to experience..."
 
 or, "As I sit here, I may begin to allow myself to become aware..."
 
@@ -1030,7 +1036,7 @@ You can use this, of course, but don't use ten of them one after the other! Peop
 
 A Manipulative Double Bind Question is rigged so that you wind up doing what the speaker wants, whatever answer you give.
 
-An ethical double bind gives you two ways to go, and both of them are actually safe. Ethical Double Bind Questions might be:
+An ethical double bind gives you two ways to go, and both of them are actually safe. An ethical double bind question might be:
 
 "Would you prefer to allow a feeling of warmth to come over you now, or would you prefer a feeling of space?"
 
@@ -1038,11 +1044,11 @@ An ethical double bind gives you two ways to go, and both of them are actually s
 
 An example of a Conversational Postulate (a yes-or-no question that works as a request) is:
 
-"Can I allow the system to show me the next thing to do, without showing me all the details of wounding that are involved?"
+"Can I allow my subconscious to show me the next thing to do, without showing me all the details of wounding that are involved?"
 
 ### Pattern 8: Tag questions
 
-Similarly, you can use tag questions, like "isn't it?" or "can't it?" or "doesn't it?" or others, but be aware that these can get pretty oily pretty quickly, so don't overdo it.
+You can use tag questions, like "isn't it?" or "can't it?" or "doesn't it?" or others, but be aware that these can get pretty oily pretty quickly, so don't overdo it.
 
 "Your body knows how to relax, doesn't it?"
 
@@ -1064,7 +1070,7 @@ When people are starting to get stiff in their bodies, 'Milton' it. When you fee
 
 ### Submodalities — editing the form, not denying the truth
 
-If your fear, craving, fantasy, belief, memory, whatever, has sensory properties in your experience (it has a place in your visual field, or sounds a certain way, or is heavy, or moving, or inside / outside your body, or something like that), you can work with those properties. If there are no sensory properties that you can notice, don't try to create any -- just don't use this tool!
+If your fear, craving, fantasy, belief, memory, whatever, has sensory properties in your experience (it has a place in your visual field, or sounds a certain way, or is heavy, or moving, or inside / outside your body, or something like that), you can work with those properties. If there are no sensory properties that you can notice, don't try to create any -- just don't use this tool.
 
 How is this represented for you? Can you allow yourself to move that image back a couple of feet? Can you soften the edges of that image? Can you turn the volume down on that voice in your head? Etc. What changes?
 
@@ -1076,23 +1082,21 @@ And, always ask the guard if it's ok to do this.
 
 ### Anchoring — giving the body a doorway back
 
-There are many cues you can connect to a state. Put your hand on your heart, touch two fingers together, use a breath, a word, a particular body posture, smell, song, whatever. Feel a state that you have got to in reality that you want to be able to get to easily when you need to. Do your anchor thing and say to yourself that this is available to you. Do make sure you do it when you clearly feel that state. To get yourself back into a good hypnosis state easily, don’t go for a peak emotional state but for a usable, receptive one. See the main induction for a quick way to get back into hypnosis. Do make sure this is different from both your alert and calm cue and your synchronicity wake up cue.
+There are many cues you can connect to a state. Put your hand on your heart, touch two fingers together, use a breath, a word, a particular body posture, smell, song, whatever. Feel a state you have really been in, one you want to be able to get back to easily when you need it. Do your anchor thing and say to yourself that this is available to you. Do make sure you do it when you clearly feel that state. To get yourself back into a good hypnosis state easily, don’t go for a peak emotional state but for a usable, receptive one. See "A shortcut back into hypnosis" for a quick way back in. Do make sure this is different from both your alert and calm cue and your synchronicity wake up cue.
 
 ### Using synchronicity as your own wake-up bell
 
 I call this the synchronicity wake up cue.
 
-People often ask what the synchronicity means. Sometimes they get a great insight from it, but other times they get obsessed trying to work out patterns etc. I am using the noticing of the synchronicity to WAKE UP. It doesn't have to mean anything.
+People often ask what the synchronicity means. Sometimes they get a great insight from it, but other times they get obsessed trying to work out patterns etc. I am using the noticing of the synchronicity to wake up. It doesn't have to mean anything.
 
 It is my cue to: Stop, orient, go wider, reality check, listen, do at least one thing from a loving place.
 
-Whenever I notice it I use it as a cue for waking up inside whatever state I am in, feeling my body, feeling the room I'm in, remembering that what I'm noticing doesn't confirm what I'm reading into the coincidences, widening my state so that I can see beyond what my current state is showing me. I then look for the truth of what is going on (What is really going on, what is just my interpretation? What needs warmth? What needs protecting? What do I need to do?) and I go into the highest state I can get into, where I can see what is going on in that situation as objectively and clearly as I can, from the highest perspective I can get to, whilst remaining in my body, not leaving the facts of the situation and not leaving my regular human state. From that state I feel my feelings. If the state I started in is negative, I check if it is a message from my Inner Child or from a childhood guard part, or if I just need to grieve. I check if it is a message from my physical body (if there is a problem with my body that I need to take care of) or if I need to do something about the situation. From that place I choose what to do. I choose at least one thing to do that is from a loving place. I allow myself to be in whatever state is real for me, which may include objectivity, clarity, ease, peace, freedom, joy, gratitude, etc.
+Whenever I notice it, I use it as a cue for waking up inside whatever state I am in, feeling my body, feeling the room I'm in, remembering that what I'm noticing doesn't confirm what I'm reading into the coincidences, widening my state so that I can see beyond what my current state is showing me. I then look for the truth of what is going on (What is really going on, what is just my interpretation? What needs warmth? What needs protecting? What do I need to do?) and I go into the highest state I can get into, where I can see what is going on in that situation as objectively and clearly as I can, from the highest perspective I can get to, while remaining in my body, not leaving the facts of the situation and not leaving my regular human state. From that state I feel my feelings. If the state I started in is negative, I check if it is a message from my inner child or from a childhood guard part, or if I just need to grieve. I check if it is a message from my physical body (if there is a problem with my body that I need to take care of) or if I need to do something about the situation. From that place I choose what to do. I choose at least one thing to do that is from a loving place. I allow myself to be in whatever state is real for me, which may include objectivity, clarity, ease, peace, freedom, joy, gratitude, etc.
 
-This way I don't go into identification but I still hear the message of the state if it's negative.
+This way I don't identify with the state, but I still hear its message if it's negative.
 
 #### Installing the synchronicity cue
-
-How to install Synchronicity cues:
 
 Mentally rehearse the following: Imagine that you have noticed a synchronicity that is obviously harmless.
 
@@ -1104,7 +1108,7 @@ Reiterate to yourself that whenever you notice a synchronicity, it is just a bel
 
 Ask yourself: "What does my Nurturer think about this?", "What does my Protector think about this?", "What does my Guide think about this?"
 
-Rehearse going back to a more grounded state and to a more wide view of the situation.
+Rehearse going back to a more grounded state and to a wider view of the situation.
 
 Rehearse yourself taking at least one action. Rehearse yourself waking up completely.
 
@@ -1122,7 +1126,7 @@ You can do that by not rehearsing them anymore and by saying to yourself (when y
 
 ### Reframing — changing the meaning without lying
 
-Reframes are dishonest when they declare the problem was something that was good all along ("It's good nobody loves me, because I'm happier alone"). Instead ask yourself: What else might be true? or What is this part trying to do for me? or How might my Nurturer reframe this? or How might my Protector reframe this? or How might my Guide reframe this? etc., etc. So we might arrive at, "If it seems like nobody loves me, could it be a part of a vicious cycle in which I expect that, and my expectations are met?"
+Reframes are dishonest when they declare the problem was something that was good all along ("It's good nobody loves me, because I'm happier alone"). Instead, ask yourself: "What else might be true?" or "What is this part trying to do for me?" or "How might my Nurturer reframe this?" or "How might my Protector reframe this?" or "How might my Guide reframe this?" etc., etc. So we might arrive at, "If it seems like nobody loves me, could it be a part of a vicious cycle in which I expect that, and my expectations are met?"
 
 ### Perceptual positions — self, other, witness, universal heart
 
@@ -1132,7 +1136,7 @@ I will not use this to rationalize bad behavior, but only to break out of a pris
 
 ### Future pacing — let the future test the insight
 
-Once I have seen the situation more clearly, I will imagine future scenarios where my old behavior would have triggered, to test out if my new insight is working.
+Once I have seen the situation more clearly, I will imagine future scenarios where my old behavior would have been triggered, to test out if my new insight is working.
 
 If these scenarios come up, I will choose new small behaviors using an Implementation Intention (If...then... statement)
 
@@ -1146,53 +1150,43 @@ I use parts integration to ask my conflicting parts what they want, what they ar
 
 ## What I will not use NLP for
 
-Here is a list of things I do not do with NLP, to myself or to others:
+Here is a list of things I don't do with NLP, whether I'm hypnotizing myself or someone else:
 
-I do not use NLP to talk myself out of a real signal.
+I don't use NLP to convince anyone an intuition is true. For example, I don't use NLP or hypnosis in general, to do more than initial memory retrieval work. Memories retrieved still need external validation, especially when they were led to (which NLP tends to).
 
-I won’t tell anyone to override their fear without first asking what it’s protecting.
+On the other hand, I also don't use NLP to talk anyone out of a real signal. That doesn't mean we can't try to calm unbearable pain, but we must keep access to the awareness of the signal so that we can do the real root cause healing.
 
-I do not use NLP for memory retrieval.
+As an example, I won’t tell anyone to override their fear without first asking what it’s protecting. Or to make them feel urgency when they want time to process.
 
-I do not use NLP to manipulate other people or convince myself an intuition is true.
+I don't use NLP on people without their consent nor to bypass consent via covert commands. Nearly all hypnotists claim that hypnosis *cannot* violate consent, which is an absurdly ignorant and unethical claim.
 
-I do not use NLP to remove pain, hunger, grief, anger, or medical symptoms.
+That includes not manipulating anyone to feel like their "no" is the ego's resistance we need to overcome, which is another way of saying they are spiritually inferior to me if they disagree with me.
 
-I do not use NLP on people who are panicked, destabilized, manic, having a psychosis-like state, or are too high/dissociated to reality test.
-
-I do not use NLP to make people feel like their no is resistance, or like they are spiritually inferior to me if they disagree with me.
-
-I do not use covert commands in my language.
-
-I do not use NLP to create urgency where time is needed.
-
-I do not use NLP on people without their consent (the idea that "your subconscious will let me know if you want me to do this" is NOT consent).
-
-I do not use NLP to get compliance from people in a suggestible state (in trance, tired, attracted to me, feeling shame or grief, or chemically altered).
+If someone is in an unstable state in which they can't reasonably give consent, I don't use NLP to pretend they did.
 
 ## Running the whole NLP sequence
 
 Here is a rough outline of the entire NLP process:
 
-Induce or contain yourself (gather your attention, or stabilize yourself first if you are already wide open).
+Induce yourself (meaning gather your attention into a soft focus) or contain yourself (meaning stabilize yourself) first if you are already too opened up to difficult memories/experiences.
 
-Ask yourself for permission: is it useful to work with this image, feeling or pattern today?
+Ask yourself for permission: is it useful to work with this pattern today?
 
-Get a representation of your pattern (image, feeling, size, color, location, movement, etc.).
+Get a representation of your pattern. Do you see it as an image, with size, color and location, or do you feel it like a movement or some other kind of sensation?
 
-Find out what that part/pattern is protecting for you.
+Find out if that part/pattern is protecting something for you.
 
-Gently change some aspect of your pattern (location, volume, space, posture, speed, etc.).
+Gently change an aspect of your pattern's representation from the prior step.
 
 Bring in your 3 good adults (Nurturer to warm, Protector to make it safe, and Guide to point a direction). In real life they’re all part of the one inner adult, so we can imagine them splitting apart if need be and coming together as well.
 
-Anchor your good state (heart, fingers, breath, posture, etc.).
+Anchor the good state you're in, with a hand on your heart, two fingers touching, a breath or a posture, so you can get back to it later.
 
-Future pace a scenario where your old pattern would have triggered, and do a small new behavior (If...then... statement).
+Imagine running into a scenario where your old pattern would have triggered, and adopt a feasible new behavior. ("If I see a red cloth, then I will choose not to charge at it. I am not a bull anymore.")
 
-Check in with your body for changes, ask whether the new behavior is kind and doable, and ask what supports your new interpretation of the situation beyond how it feels.
+Check in with your body for signals during the re-imagining process, and what else besides body signals supports your new interpretation of the situation. Ask yourself whether the new behavior you've imagined is kind and sensible.
 
-Get yourself out of the altered state (come back to the room and do something normal).
+Then come all the way back out of the altered state (see “Come all the way back”), and go do something normal.
 
 # Appendix C: The extended de-hypnosis checklist
 
@@ -1244,15 +1238,15 @@ When any answer to these questions is unclear, beware. Ask for the exact script.
 
 Remember that often the anxiety comes from a childhood guard part of you. It’s what protects you when your inner adult’s Protector isn’t functioning, the same as in childhood. It’s trying to help, making a guess about what’s coming: that you are in danger, or may be shamed, or abandoned, or fail, or be exposed, or be sick, or be rejected, or lose control, or feel something it believes would be unbearable. It can be right! It’s probably been wrong before too, and you know some of those times. Therefore, don’t start by interrogating that part. Help your body first.
 
-Always work with yourself in a series – first your body, then your inner child, then some inquiry, then some action:
+Work in this order – first your body, then your inner child, then some inquiry, then some action:
 
 ## Reduced breathing / Buteyko-style breathing
 
-Work on your reduced breathing / Buteyko breathing. (NOTE: there are some good things to be said for slowing your breathing down, if you are breathing too much, or panicked. However, please don’t hold your breath until you are air hungry, which can make you more anxious in the short term.) Breathe in small amounts through your nose and let it out quietly, through your nose too. Only pause if that's comfortable. Can you make your breathing very quiet? If you feel bad, dizzy, or panicky, or have medical issues, STOP!
+Try breathing less. (There are some good things to be said for slowing your breathing down, if you are breathing too much, or panicked. However, please don’t hold your breath until you are air hungry, which can make you more anxious in the short term.) Breathe in small amounts through your nose and let it out quietly, through your nose too. Only pause if that's comfortable. Can you make your breathing very quiet? If you feel bad, dizzy, or panicky, or have medical issues, stop.
 
 ## EFT tapping
 
-One of the easiest ways to do EFT is to say something like, “Even though I have this anxiety, I am willing to be kind to the part of me that is afraid,” while you tap gently on your body and stay with what you feel. There isn’t a ton of evidence for EFT, but there are some studies on anxiety. A [2025 systematic review](https://www.mdpi.com/2227-9032/13/17/2180) found 7 randomized controlled trials for anxiety disorders, and noted that EFT was more effective than no intervention in several of them. So use the evidence with caution, and know that there are first-line therapies for anxiety.
+One of the easiest ways to do EFT (Emotional Freedom Techniques, or tapping) is to say something like, “Even though I have this anxiety, I am willing to be kind to the part of me that is afraid,” while you tap gently on your body and stay with what you feel. There isn’t a ton of evidence for EFT, but there are some studies on anxiety. A [2025 systematic review](https://www.mdpi.com/2227-9032/13/17/2180) found 7 randomized controlled trials for anxiety disorders, and noted that EFT was more effective than no intervention in several of them. So treat the evidence with caution, and know that there are first-line therapies for anxiety.
 
 ## Somatic Experiencing
 
@@ -1266,11 +1260,11 @@ Focusing is another approach where you work with your body. You might say to you
 
 Work with the body. Sometimes the mind is too activated for meditation to help, so you may need to work directly with the body to calm it down. Maybe get a massage, or massage a foot, your scalp, a temple, or the back of the neck, the top of a shoulder, etc. (Avoid massaging the front of the neck. Also avoid massaging injured or numb body parts, or bruised, inflamed, or recently surgically operated on areas, or varicose veins. Also stop if the massage makes the anxiety symptoms worse, or makes you feel bad in any way, such as painful, dizzy, tingly, etc.) You’ve got lots of other options for the body too, like heat, pressure, a weighted blanket, darkness, your favorite calming music, or a massage gun if you’re careful with it, etc. Use whatever actually helps you, and don’t go surrounding the anxiety with a heap of wellness stuff.
 
-I have a page on my [ZHoly3O](http://zholy3o.u-dont-exist.com/) product, which is ozonated charcoal, and I talk about this “holy water” as one of the things that can help you relax. (See the mention of [Blushield](http://devices.u-dont-exist.com/) on that page, too.) But neither one of those products is necessary. All you really need is to stabilize yourself, and then listen to the messages from your inner realm, reality test those messages, and then take one grounded action.
+I have a page on my [ZHoly3O](http://zholy3o.u-dont-exist.com/) product, an ozonated charcoal “holy water”, where I talk about it as one of the things that can help you relax. (See the mention of [Blushield](http://devices.u-dont-exist.com/) on that page, too.) But neither one of those products is necessary. All you really need is to stabilize yourself, and then listen to the messages from your inner realm, reality test those messages, and then do something grounded about them.
 
 ## Inner child love
 
-Here is my basic inner child love practice technique. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix this problem. I’m here now to listen to you.” Make sure you're actually talking to your inner child, not just repeating a script. If you can't genuinely say all that and feel it, then just rest your hands there and notice what you find.
+Put your hand over your heart and your other hand on your solar plexus (the two-hand practice in Working with your inner child), and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix this problem. I’m here now to listen to you.” Make sure you're actually talking to your inner child, not just repeating a script. If you can't genuinely say all that and feel it, then just rest your hands there and notice what you find.
 
 ## Anxiety script
 
@@ -1288,11 +1282,11 @@ Sometimes daydreaming is something that your subconscious mind is doing to help 
 
 Other times daydreaming may be taking you away from your life in a detrimental way. It may be that you are escaping reality and are addicted to fantasies rather than real life. You may be dissociating or obsessing about romantic partners or escaping from being an adult.
 
-How do you know which it is? Simply ask yourself if the daydreaming is taking you closer to life, with more clarity, love and ability to take action or if it is taking you away from life, in a repetitive and craving way.
+How do you know which it is? Simply ask yourself if the daydreaming is taking you closer to life, with more clarity, love and ability to take action, or if it is taking you away from life, in a repetitive and craving way.
 
-If it is helping you then simply ask yourself what the guidance is and how you can use it.
+If it is helping you, then simply ask yourself what the guidance is and how you can use it.
 
-If it is taking you away from life then change your body position by sitting upright, open your eyes, feel your feet and ask your subconscious to help you. Simply say to yourself, “Dear subconscious thank you for showing me images. If what you are showing me is helpful then please also show me the guidance in it. If what you are showing me is a way of avoiding dealing with life then please show me in a gentle but structured way how to deal with life as it is right now.”
+If it is taking you away from life, then change your body position by sitting upright, open your eyes, feel your feet and ask your subconscious to help you. Simply say to yourself, “Dear subconscious, thank you for showing me images. If what you are showing me is helpful, then please also show me the guidance in it. If what you are showing me is a way of avoiding dealing with life, then please show me in a gentle but structured way how to deal with life as it is right now.”
 
 Then ask yourself what it is that you need to do in real life that you are avoiding by daydreaming.
 
@@ -1300,9 +1294,9 @@ You may need to send a text message or stop sending text messages. You may need 
 
 # Appendix F: Self-trust, outside guidance, and oracle-like states
 
-[Please see how to use synchronicity as a cue, not an oracle, above.]
+[For using synchronicity as a cue rather than an oracle, see “Using synchronicity as your own wake-up bell” in Appendix B.]
 
-One of the issues here is that people vary dramatically in how suggestible they are, both internally and externally, and different people vary in how suggestible they are in different states. Different types of suggestion (commands, imagery, music, metaphors, spiritual, etc) can be very different for different people. So there are definite advantages to both having someone work with you (pacing, containment, another set of eyes), and doing things yourself. Doing it yourself means being able to follow up immediately, to correct something in real time, to have a line of communication with guards, etc.
+One of the issues here is that people vary dramatically in how suggestible they are, both to their own suggestions and to someone else's, and the same person can be more or less suggestible in different states. Different types of suggestion (commands, imagery, music, metaphors, spiritual, etc) can be very different for different people. So there are definite advantages to both having someone work with you (pacing, containment, another set of eyes), and doing things yourself. Doing it yourself means being able to follow up immediately, to correct something in real time, to have a line of communication with guards, etc.
 
 That said, self hypnosis may be the best way of talking to your subconscious on a day to day basis. If you’re dealing with particularly complicated trauma, blind spots, dissociation, destabilization, or relational wounds that need another nervous system, skilled outside support may be best.
 
@@ -1314,7 +1308,7 @@ Ask them:
 
 - How they use hypnosis
 
-- What they will do if things don't fit
+- What they will do if a suggestion doesn't fit you
 
 - If they are treating trauma, whether they have specific training in trauma and dissociation (having hypnosis certifications matters, but doesn't mean they are trained in trauma care)
 
@@ -1340,17 +1334,17 @@ Ask them:
 
 You should be able to be firmly encouraged, but not forced to continue if you don't want to.
 
-Then afterwards, check in about what was actually done, regardless of what you might call the method. Ask the person why they did what they did, and whether they told you in advance. Did you agree to it? How did the person respond to you? Keep in mind that just because something made you uncomfortable, it doesn't mean it was bad, but if they saw your discomfort as meaning that you needed more of it, that might be something to look into. You might even be able to use this app or ask around to see if someone can tell you what the things the person did meant. They probably won't be able to tell you whether the person was certified in those methods, though. Then you can decide if you want to try learning to do self-hypnosis, using both, or find someone else.
+Then afterwards, check in about what was actually done, regardless of what you might call the method. Ask the person why they did what they did, and whether they told you in advance. Did you agree to it? How did the person respond to you? Keep in mind that just because something made you uncomfortable, it doesn't mean it was bad, but if they saw your discomfort as meaning that you needed more of it, that might be something to look into. You might even be able to use this app or ask around to see if someone can tell you what the things the person did meant. They probably won't be able to tell you whether the person was certified in those methods, though. Then you can decide if you want to try learning to do self-hypnosis, use both, or find someone else.
 
 ## When the subconscious speaks like an oracle
 
 Your subconscious is amazing at picking up on things your conscious mind isn't getting. Whether it's anticipations, reading patterns, or just picking up on uncanny things, it's good to respect what your subconscious is picking up on. But just because your subconscious gives you an image or tells you to do something, that doesn't mean you need to treat it like an order.
 
-Especially if it's a big thing, or something that can't be easily undone, slow it down to the scale of its consequences. Look at it with your adult's eyes, and take it to council.
+Especially if it's a big thing, or something that can't be easily undone, slow down: the bigger the consequences, the slower you go. Look at it with your adult's eyes, and take it to the council (next section).
 
 ## The council — internal first, then outward
 
-Ask your child, your adult, your conscious mind, your subconscious mind, your intuition, your analytical mind. But if it's bigger than all of those, ask outside of yourself, too. The bigger and more un-undoable something is, the more you want to reach outside.
+Ask your inner child, your adult, your conscious mind, your subconscious mind, your intuition, your analytical mind. But if it's bigger than all of those, ask outside of yourself, too. The bigger and more un-undoable something is, the more you want to reach outside.
 
 Ask people who love you, people who are like you, people who have done what you are thinking of doing. Sometimes it is right to go it alone, but I would suggest making it the last step, after you've tried to get counsel.
 
@@ -1364,7 +1358,7 @@ We cannot force forgiveness on ourselves. It has to come from a place of underst
 
 A helpful understanding to come to is that while their actions were harmful, in a sense, they could only make the moves they made, given their accumulated nature at the time (conditioning, history, pain, capacity, etc). This doesn’t negate that harm was caused, and it doesn’t stop you from holding someone accountable, allowing for consequences, working on making different moves now, etc. It simply helps us come to a place where we aren’t expecting something from someone that they can’t give. It doesn’t make their limitations matter any less.
 
-“You don’t have to forgive before you’re ready. I won’t use spirituality to silence your pain. And I won’t build our whole life around this wound forever.”
+You might say to the part of you that was hurt, “You don’t have to forgive before you’re ready. I won’t use spirituality to silence your pain. And I won’t build our whole life around this wound forever.”
 
 Some questions that may be helpful to ask when coming to a place of forgiveness, while still holding all of the above:
 
@@ -1374,13 +1368,13 @@ What actually happened? What was the impact? What boundaries need to be set? Wha
 
 For self-forgiveness, name what you did, but don't take responsibility for what wasn't yours. Let yourself feel the remorse and take in the harm, or how it went against your values, and stop short of making yourself a permanent criminal.
 
-Be specific about the action you took, and the impact it had, feel the remorse, do what you can to rectify or keep it from happening again. Then you're allowed to stop holding yourself hostage, and the responsibility stays. Every so often, come back to how you got to be someone who could do that, until you understand it well enough that it changes how you feel.
+Do what you can to put it right, or to keep it from happening again. Then you're allowed to stop holding yourself hostage, and the responsibility stays. Every so often, come back to how you got to be someone who could do that, until you understand it well enough that it changes how you feel.
 
 # Appendix G: Altered states
 
-This is NOT to say that you SHOULD use substances, but many people have used them when they first did self-hypnosis, contacted their inner child, or talked to their Higher Self. I’d learn the inner child work sober first, with enough Nurturer and Protector in the room before you go deep (see the inner child reparenting section). Borrowing them is fine, as long as it’s from someone steady who won’t try to run your trip for you.
+I’m not saying you should use substances, but many people have used them when they first did self-hypnosis, contacted their inner child, or talked to their Higher Self. I’d learn the inner child work sober first, with enough Nurturer and Protector in the room before you go deep (see the inner child reparenting section). Borrowing them is fine, as long as it’s from someone steady who won’t try to run your trip for you.
 
-Do not use altered states to try to FORCE yourself to get to a certain revelation about yourself, but rather to help yourself become more in tune with love and to better your life.
+Do not use altered states to try to force yourself to get to a certain revelation about yourself, but rather to help yourself become more in tune with love and to better your life.
 
 A lot of people have had dramatic openings to love at some point in their life. If you've had a similar experience, you know that there is a difference between having experienced it at one point, or only being able to access it in a certain state, and being able to get to it at any point in your life. While you're building a way to reach love on a normal day, let that experience you had serve as a reference point for what can happen. (If you can't give that love to the child, try to deal with why you can't, instead of trying to ramp up the experience. Often there's a child guard part that’s seen love come with strings or get revoked before in a painful way. Love starts with hearing out the resistance to it first.)
 
@@ -1388,17 +1382,17 @@ Use your altered state of consciousness, either while you're in it or after, to 
 
 Help me to become more grounded. Help me to only take what I can integrate. Help me to remember love. Help me to come back when it's time. Help me to figure out how to change one thing in my life to make it better.
 
-DO NOT use self-hypnosis to try to keep the altered state of consciousness going indefinitely, to try to recover memories, to make yourself MORE afraid, to help you not need to sleep, to help you not need to take care of medical problems, to help you become LESS communicative, etc.
+Don’t use self-hypnosis to try to keep the altered state of consciousness going indefinitely, to force memories to come back, to make yourself more afraid, to get by without sleep, to put off taking care of medical problems, to become less communicative, etc.
 
-In other words, if using self-hypnosis while you're in an altered state of consciousness is NOT helping you become MORE loving, MORE grounded, MORE honest with yourself, helping you SLEEP, become MORE communicative, MORE able to do your everyday responsibilities, etc, then stop trying to go DEEPER into your altered state of consciousness, and start working on integrating what you've already gotten from it.
+In other words, if using self-hypnosis while you're in an altered state of consciousness isn't helping you become more loving, more grounded, more honest with yourself, sleep better, become more communicative and more able to do your everyday responsibilities, etc, then stop trying to go deeper into your altered state of consciousness, and start working on integrating what you've already gotten from it.
 
 ## Stabilize before you interpret
 
-Self-hypnosis can be POWERFUL when you are in an altered state of consciousness (e.g. when you're on loveyhuasca, meditating, have a lucid dream, are dealing with grief, are dealing with sexual energy, are praying, haven't slept, are around plant medicine, etc, etc, etc). Sometimes you may OPEN yourself up to things FASTER than you are able to put them into context with your adult self.
+Self-hypnosis can be powerful when you are in an altered state of consciousness (e.g. when you're on loveyhuasca, meditating, have a lucid dream, are dealing with grief, are dealing with sexual energy, are praying, haven't slept, are around plant medicine, etc, etc, etc). Sometimes you may open yourself up to things faster than you are able to put them into context with your adult self.
 
-So what feels like a meaningful altered state of consciousness may or may not actually be meaningful - it could be your inner child, it could be a childhood guard part, it could be all of the things you're ashamed of / sad about / angry about / etc, coming out to be dealt with. Or it could be that your body is overloaded, your environment is chaotic, you haven't slept enough, etc, etc, etc. Regardless of how scary an image is, regardless of how amazing the lighting was on the "download", regardless of how bad you feel, it doesn't necessarily mean what you think it does!
+So what feels like a meaningful altered state of consciousness may or may not actually be meaningful - it could be your inner child, it could be a childhood guard part, it could be all of the things you're ashamed of / sad about / angry about / etc, coming out to be dealt with. Or it could be that your body is overloaded, your environment is chaotic, you haven't slept enough, etc, etc, etc. Regardless of how scary an image is, regardless of how amazing the lighting was on the "download", regardless of how bad you feel, it doesn't necessarily mean what you think it does.
 
-Before you even THINK about interpreting what your altered state of consciousness is, ask yourself something simpler:
+Before you even think about interpreting what your altered state of consciousness is, ask yourself something simpler:
 
 “What kind of problem is happening?”
 
@@ -1418,7 +1412,7 @@ I speak here from experience.
 
 When you’re doing hypnosis, meditation, lucid dreaming, loveyhuasca-ing, going through a period of intense grief, praying, or whatever else may alter your consciousness, it’s possible you may run into something that you perceive to be a demon, a jinn, a parasitic energy, or whatever other dark entity or terrifying archetype you may encounter – it may be a voice or an image, and it doesn’t just feel like an emotion or a younger part of you, but something that feels intrusive, hateful, seductive, mocking, etc.
 
-First of all, it doesn’t matter if they’re demons or not. They may be literal demons, for all you know. Or they may be manifestations of your mind, burdens you’re carrying from previous relationships, whatever. What matters is what is the best way to deal with them, so you end up safer, clearer, more loving, more grounded and less hooked.
+First of all, it doesn’t matter if they’re demons or not. They may be literal demons, for all you know. Or they may be manifestations of your mind, burdens you’re carrying from previous relationships, whatever. What matters is finding the best way to deal with them, so you end up safer, clearer, more loving, more grounded and less hooked.
 
 ## Start with the room, the body, and basic safety
 
@@ -1434,7 +1428,7 @@ If you feel like you’re in any danger of doing anything harmful to yourself or
 
 If, however, you feel like you’re stable enough to stay present, check in with yourself and see what’s best to do. Put your hand on your heart if that feels okay, breathe comfortably, and stay aware of the room.
 
-Internalize the fact that you don’t have to know what it is. Find out if it helps to be warm towards it or to keep it at arm’s length, and keep your boundary either way. Keep in mind that you don’t have to do what it tells you to do.
+Remember that you don’t have to know what it is. Find out if it helps to be warm towards it or to keep it at arm’s length, and keep your boundary either way. Keep in mind that you don’t have to do what it tells you to do.
 
 If you feel vulnerable, if you feel tightness in your throat, if you feel sadness or fear or like you’re trying to protect something, call upon your Nurturer. If you don’t feel better, or if it continues being hostile towards you, stop trying to deal with it and return to your body and the room.
 
@@ -1442,11 +1436,11 @@ You don’t have to find out if it’s a guard immediately, and you may not be a
 
 ## Do not fight from fear
 
-Your first instinct may be to fight it, banish it, hate it, show it that you’re more powerful than it is, argue with it, panic, become your own threatened self in fear of it, etc. Some people may want to use traditional prayer or mantras or protection or banishing or exorcism techniques, and those may well work for them. But if you’re fighting it out of fear, it can backfire:
+Your first instinct may be to fight it, banish it, hate it, show it that you’re more powerful than it is, argue with it, panic, turn completely into the frightened part of you, etc. Some people may want to use traditional prayer or mantras or protection or banishing or exorcism techniques, and those may well work for them. But if you’re fighting it out of fear, it can backfire:
 
-It becomes a center of attention if you fear it, and if you hate it you give it a hook in you. (If you’re proud you give it an opponent, and if you panic you give it your nervous system.)
+It becomes a center of attention if you fear it, and if you hate it, you give it a hook in you. (If you’re proud, you give it an opponent, and if you panic, you give it your nervous system.)
 
-So the next time it comes up you can just say, “I see that there is no reason to hate and revile what I am experiencing. I see that there is no reason to merge with or become what I am experiencing. I see that there is no reason to obey what I am experiencing. I see that there is no reason to try to defeat what I am experiencing out of fear. I choose to return my attention to loving awareness.”
+So the next time it comes up, you can just say, “I see that there is no reason to hate and revile what I am experiencing. I see that there is no reason to merge with or become what I am experiencing. I see that there is no reason to obey what I am experiencing. I see that there is no reason to try to defeat what I am experiencing out of fear. I choose to return my attention to loving awareness.”
 
 ## A bodily boundary: compassion present, door closed
 
@@ -1464,7 +1458,7 @@ If you feel like you are under attack for multiple days at a time, if you are no
 
 ### The General Rule
 
-The General Rule is: if you find that what you're doing is making you more loving, more grounded, more relational, more honest, more functional, then it's probably OK to keep doing it gently. But if what you're doing is making you more paranoid, sleepless, grandiose, isolated, scared, or more and more unreal, then DON'T GO DEEPER! GET HELP!
+The General Rule is: if you find that what you're doing is making you more loving, more grounded, more relational, more honest, more functional, then it's probably OK to keep doing it gently. But if what you're doing is making you more paranoid, sleepless, grandiose, isolated, scared, or more and more unreal, then don't go deeper. Get help.
 
 ## The cosmic-download humility test
 
@@ -1482,7 +1476,7 @@ For sleep, try using [this playlist by Nimja](https://www.youtube.com/watch?v=Iq
 
 # Appendix J: A practical induction library
 
-Preview the sequence. Work out in advance which one you want to do and what you want to use it for (pick just one) and whether or not you want to do it at all! Any of these families of induction can be done as light inductions, with eyes open, or you can just do them as a no-trance inner contact.
+Preview the sequence. Work out in advance which one you want to do and what you want to use it for (pick just one) and whether or not you want to do it at all. Any of these families of induction can be done as light inductions, with eyes open, or you can just do them as a no-trance inner contact.
 
 Once you start an induction, you will want to notice what’s going on (even if nothing changes) and work out what to do next: move, imagine something else, change the sensory channel you’re using, do nothing, or stop the induction sequence and do something else… Whatever you do, make sure you bring yourself fully back to waking at the end of an induction.
 
@@ -1514,7 +1508,7 @@ Start with a very small neutral area, feel into it a little and then imagine a w
 
 ## 7. Care workshop
 
-Prepare the workshop (time, place, tools, boundaries, etc). Invite the signal/feeling/young part to come only as close as is welcome. Try to avoid any language that makes you feel you're not one person. Care for it as best you can, by asking what it wants and giving that if you can, or sensing into it and responding, or just being with it. Take breaks, get back in contact if that's ok, take more breaks, etc. Keep bringing in adult functions (or borrow someone else's function). Have the adult part of you run the show. The goal is to make it "good as you" rather than "good as new", not to erase history. Tell your little one, "That's enough for today. We're going back to the life we're building." Close the workspace, reassure yourself that you are one whole person, that you're an adult now, and come back.
+Prepare the workshop (time, place, tools, boundaries, etc). Invite the signal/feeling/young part to come only as close as is welcome. Try to avoid any language that makes you feel you're not one person. Care for it as best you can, by asking what it wants and giving that if you can, or sensing into it and responding, or just being with it. Take breaks, get back in contact if that's ok, take more breaks, etc. Keep bringing in adult functions (or borrow someone else's function). Have the adult part of you run the show. The goal is to make it "good as you" rather than "good as new", not to erase history. Close the workspace, reassure yourself that you are one whole person, that you're an adult now, and come back.
 
 ## 8. Resource embodiment
 
@@ -1544,7 +1538,7 @@ The personal accounts and the way I arrange this practice are my own, especially
 
 ## Learning, entering, and returning
 
-*Healing the Divided Self*, Maggie Phillips and Claire Frederick (1995), pp 24-27, 45-50, 83-90, covers a lot of aspects of this post, such as interactive hypnosis, helping the subject learn how to learn by using other senses, learning self hypnosis, making sure the subject comes back at the end, etc. However, this is a professional clinical book, not a self help book, so be careful about trying to use the procedures used with the cases, etc in this book for solo work (the same applies to historical information it contains). Also, Adam Eason and Benjamin Parris's [article about self hypnosis](https://www.ishhypnosis.org/encyclopedia/self-hypnosis/) for the International Society of Hypnosis should be a useful thing to read (especially the parts that talk about how to learn to learn when you're directing it yourself, and about whether you need another person to help you, and using recordings to help you, etc.)
+*Healing the Divided Self*, Maggie Phillips and Claire Frederick (1995), pp 24-27, 45-50, 83-90, covers a lot of aspects of this post, such as interactive hypnosis, helping the subject learn how to learn by using other senses, learning self hypnosis, making sure the subject comes back at the end, etc. However, this is a professional clinical book, not a self help book, so be careful about trying to use the procedures used with the cases, etc in this book for solo work (and the same goes for its historical claims). Also, Adam Eason and Benjamin Parris's [article about self hypnosis](https://www.ishhypnosis.org/encyclopedia/self-hypnosis/) for the International Society of Hypnosis should be a useful thing to read (especially the parts that talk about how to learn to learn when you're directing it yourself, and about whether you need another person to help you, and using recordings to help you, etc.)
 
 ## Indirect language and re-entry cues
 
@@ -1552,7 +1546,7 @@ For information about using indirect hypnotic language patterns, such as pacing,
 
 ## Body awareness and changing the amount of contact
 
-NOTE: Some of the information in this post comes from *In an Unspoken Voice*, Peter Levine, 2010, especially ch 5 and 7, as well as ch 3 and 4 of *Freedom from Pain*, Levine and Maggie Phillips, 2012, and ch 4 of *Healing Trauma*, by Levine. These sources talk about the key concepts of tracking what is happening in the body, resources, titration, pendulation, and the range of foci available when working, from sensation and imagery to behavior, emotions, and meaning, etc.
+Some of the information in this post comes from *In an Unspoken Voice*, Peter Levine, 2010, especially ch 5 and 7, as well as ch 3 and 4 of *Freedom from Pain*, Levine and Maggie Phillips, 2012, and ch 4 of *Healing Trauma*, by Levine. These sources talk about the key concepts of tracking what is happening in the body, resources, titration, pendulation, and the range of foci available when working, from sensation and imagery to behavior, emotions, and meaning, etc.
 
 ## Inner-child care and adult capacities
 
@@ -1562,8 +1556,8 @@ Some of the information in this post comes from *Healing the Divided Self*, Phil
 
 ## Inner speech and putting experience into words
 
-[Not everybody has an inner voice](https://journals.sagepub.com/doi/10.1177/09567976241243004) (Nedergaard and Lupyan 2024) is not about self hypnosis adaptations, but about people with different amounts of inner speech. The questions in the quick start are a practical way of seeing for yourself how much inner speech you have.
+The study [Not everybody has an inner voice](https://journals.sagepub.com/doi/10.1177/09567976241243004) (Nedergaard and Lupyan 2024) is not about self hypnosis adaptations, but about people with different amounts of inner speech. The questions in the quick start are a practical way of seeing for yourself how much inner speech you have.
 
 ## Memory, support, and choosing a practitioner
 
-Chapter 7 of *Trauma and Memory*, by Peter Levine, 2015, is useful on the difference between compelling experience and historical verification. [This US Department of Veterans Affairs website](https://www.va.gov/WHOLEHEALTHLIBRARY/tools/hypnosis.asp) contains useful general information about hypnosis, such as the fact that it can be very strong and should be carefully used, and that it may result in false memories. [This ASCH website](https://asch.net/what-is-certification/) contains information about the usefulness of getting certified in hypnosis, and why it doesn't guarantee competence. Links are available for these and other useful groups in the evidence and specialist sections, but they point to their particular claims rather than validating every use of hypnosis.
+Chapter 7 of *Trauma and Memory*, by Peter Levine, 2015, is useful on the difference between compelling experience and historical verification. [This US Department of Veterans Affairs website](https://www.va.gov/WHOLEHEALTHLIBRARY/tools/hypnosis.asp) contains useful general information about hypnosis, such as the fact that it can be very strong and should be carefully used, and that it may result in false memories. [This ASCH (American Society of Clinical Hypnosis) website](https://asch.net/what-is-certification/) contains information about the usefulness of getting certified in hypnosis, and why it doesn't guarantee competence. Links are available for these and other useful groups in the evidence and specialist sections, but they point to their particular claims rather than validating every use of hypnosis.

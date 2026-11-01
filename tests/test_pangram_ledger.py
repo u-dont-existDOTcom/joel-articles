@@ -40,6 +40,22 @@ class Ledger(unittest.TestCase):
         return L.main(['result', self.ledger, '--sha', L.sha256(body), '--verdict', verdict,
                        '--link', 'https://www.pangram.com/history/x%d' % self.n])
 
+    def test_compact_results_keep_their_windows(self):
+        """The web app reader's compact form gives the windows as one string; read character by character, every result
+        was Mixed (2026-11-01, batch s1101). A correction run records the right verdict after the wrong one."""
+        self.assertEqual(self.predict('all human', key='k1'), 0)
+        res = self.dir / 'res.json'
+        res.write_text(json.dumps({'k1': ['Human Written', 0, 2, 'Human, High, 2', '20:00:00', '/u1', []]}), encoding='utf-8')
+        self.assertEqual(L.main(['results', self.ledger, str(res)]), 0)
+        p = L.find(L.read(self.ledger), key='k1')
+        self.assertEqual(p['result']['verdict'], 'Human')
+        res.write_text(json.dumps({'k1': ['Mostly Human Written', 0.05, 2, 'Human, High, 1; AI-Generated, Low, 1', '20:00:00',
+                                          '/u1', []]}), encoding='utf-8')
+        self.assertEqual(L.main(['results', self.ledger, str(res), '--correct', 'test']), 0)
+        p = L.find(L.read(self.ledger), key='k1')
+        self.assertEqual(p['result']['verdict'], 'Mixed')
+        self.assertIn('corrects', p['result']['note'])
+
     def test_a_prediction_needs_evidence(self):
         self.assertEqual(self.predict('one', tells=()), 2)
         self.assertEqual(L.read(self.ledger), [])

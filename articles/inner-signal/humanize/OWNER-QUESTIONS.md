@@ -1,9 +1,9 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-30, after your message of 20:15 UTC (the recheck's two results).
-**Open questions: 1.** **For you to do**: open the two new recheck links and send me Pangram's results. The questions are
-at the top, with their options and my default; under them is what you decided and what I did with it. Colours: 🟣 a
-question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
+Last updated 2026-11-01, after your answers of 20:29 UTC to the cards of my second full read.
+**Open questions: 1** (27). **For you to do**: nothing for the guide right now; I'm checking each section in Pangram. The questions are at the top, with their
+options and my default; under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠
+something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts can
 read and update it. Every file it points to is a link.
@@ -25,17 +25,54 @@ changed under them, so the rechecks decide; you don't need to mark them.
 
 ## For you to do
 
-- 🟠 **Open the new recheck in your Chrome and run the Pangram extension on each** (as before: click the Pangram label,
-  then View Full Analysis, and send me the two result links):
-  - [Recheck A (the guide)](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-30b&audience=only_paid&free_preview=false&freemail=)
-  - [Recheck B (the rest of the guide and the appendices)](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-30b&audience=only_paid&free_preview=false&freemail=)
+Nothing for the guide right now.
 
-  They hold eleven changes: three of my restored sentences taken back out, six new tries in our words, and two
-  suggestions for your own words ([my read of each beside your published version](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/tries/read/READ.md)). Your next cards page
-  comes with those results.
-- 🟠 **When you like: merge** [pull request 264](https://github.com/u-dont-existDOTcom/joel-articles/pull/264) here, and
-  [pull request 450](https://github.com/u-dont-existDOTcom/universal-dev-architecture/pull/450) in the universal
-  architecture (the "not Sonnet" rule; its checks pass now).
+## Your answers of 2026-11-01 20:29 UTC, and what I did
+
+- 🟢 **Your four cards, in the guide** ([the cards as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/fullread2/review/REVIEW-FR2.md)): step 3 of
+  Before you begin says "intoxicated and more confused than usual" (K9); step 6 keeps the half of your dad's line it's
+  about (F1.6); the fingers script's last press is "the clearest state of awareness yet" (F7.5); and the care workshop
+  no longer repeats "That's enough for today ..." (F18.1).
+- 🟢 **My second full read of the guide**, every paragraph beside your published version: 216 things found. The 205 in
+  our words are fixed (Emulate's shouting, compressed or vague sentences said plainly from your published meaning, lists
+  given the links between their items, "one" and the other tells, commas). Eight contradictions in our words are fixed
+  too, and the two-hand practice is taught once now, with your paragraph from the induction moved into it (S-636). In
+  your own words only punctuation and a few slips changed, each listed at the end of the cards' text.
+- 🟢 **Each section checked in Pangram by itself** (E307): 83 of the 103 sections read Human Written, 5 Mostly Human,
+  13 AI Detected and 2 AI Generated ("Stay awake when your mind likes to escape" and "Hypnosis-specific audit"). [Every
+  section's result, with its link and every window's confidence](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/sections/RESULTS.md).
+- 🔵 **Next: the 91 windows that read AI or Human (Low)** get fixed (E306; [the list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/sections/CONFIDENCE.md)).
+  Ten in our words are done; the ones in your own words come to you as cards. Each section is checked again once all
+  its windows are handled, then the whole guide on the Substack drafts with your extension.
+
+## Your message of 2026-11-01 18:57 UTC, and what I did
+
+- 🟢 **28: ii** ([your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/joel-20261101-1857-message.txt)). The guide is done when one check reads every window Human. A
+  window that reads AI or Human (Low) gets fixed straight away, without another check to confirm it; Human (Medium) ones
+  that aren't large are listed and left; and a window below High gets its meaning read again, since those are often the
+  smoothed-over, vague places (gate E306, which replaces my "two checks in a row"). Sections get checked by themselves,
+  not only inside the whole guide (E307).
+- 🟢 **Your cards page, in the guide** ([what went in, card by card](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/APPLIED-30b.md)): the 10 you
+  approved, your 10 versions word for word (obvious typos only fixed and listed: "embarass", "int he", "Can you can",
+  "Jim Carey", "we need overcome" and four double spaces), and S-24 stays out. Your new headings ("Induction: gathering
+  and softening attention", "Overly Confusing Isn't Automatically Good", "Already Trancey? Stabilize before dipping
+  deeper.") are in, and the one place that named "Already open? Contain before you deepen" now names the new heading.
+- 🟢 **The whole guide read again by me** (E309, E310), and the contradiction read: done (above, 20:29 UTC).
+
+## Your message of 2026-10-30 21:40 UTC, and what I did
+
+- 🟢 **The second recheck, read.** Part A: [Mostly Human Written, 1.7% AI](https://www.pangram.com/feed/a123b9a4-de86-462a-aa45-4f46b122ab4e) (try 15): 187 windows,
+  15 AI (11 Low, 2 Medium, 2 High), 172 Human (79 High, 75 Medium, 18 Low). Part B: [Mostly Human Written, 2.9%
+  AI](https://www.pangram.com/feed/a485abe9-057b-4209-a9be-11ad81a90b90) (try 13): 63 windows, 11 AI (5 Low, 3 Medium, 3 High), 52 Human (23 High, 18 Medium, 11
+  Low) ([each try](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/tries/read/SPOTS.md); [every window, with its confidence](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/tries/read/CONFIDENCE.md)).
+- 🟢 **What worked**: all three take-backs (the paragraphs read High, Medium and High without the restored sentences), the
+  presupposition and awareness-verb examples (High), and the "Don't read the directions out loud" line (High). The double
+  binds and the weekend-course line, which read AI last time with nothing changed, read High again.
+- 🟢 **What didn't**: the honest-bridge line still reads AI (High) in one window with your embedded-invitation paragraph;
+  my suggestion for your room test read worse than your words, so it's withdrawn.
+- 🟢 **New red on words nobody changed**: the parent-script paragraph, your two metaphor paragraphs, the containment
+  script, and the NLP list and sequence. They read Human last time with the same words, which is what question 28 is
+  about.
 
 ## Your message of 2026-10-30 20:15 UTC, and what I did
 

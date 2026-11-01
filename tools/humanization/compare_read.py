@@ -327,6 +327,23 @@ def origin(text, hist, orig_joined):
     return None
 
 
+def his_lines(x):
+    """The paragraphs (lines) of an answers item's "your version", or an edit's "new", that are his: the ones that aren't
+    in the card's own text ("before", "my version", or the edit's "old") word for word. A version he sends back with a
+    card's text copied into it (EM-Q1, 25 October: the card's list of 85 places, where he changed only quote marks and
+    four lines) makes only the lines he changed his (gate E311)."""
+    mine = x.get('your_version') if x.get('your_version') else x.get('new')
+    if not mine:
+        return []
+    card = loose('\n'.join(str(x.get(k) or '') for k in ('before', 'my_version', 'old')))
+    out = []
+    for line in str(mine).split('\n'):
+        q = loose(line)
+        if q and (not card or q not in card):
+            out.append(q)
+    return out
+
+
 def owner_corpus(files):
     parts_ = []
     for f in files:
@@ -336,7 +353,8 @@ def owner_corpus(files):
             items = d.get('items', []) if isinstance(d, dict) else d
             for x in items:
                 if isinstance(x, dict):
-                    parts_ += [str(x.get(k) or '') for k in ('your_version', 'comment', 'new', 'after', 'text')]
+                    parts_ += his_lines(x)
+                    parts_ += [str(x.get(k) or '') for k in ('comment', 'after', 'text')]
         else:
             parts_.append(raw)
     return loose('\n'.join(parts_))
@@ -420,7 +438,8 @@ def record(outdir, findings=None, coverage=None, dispositions=None, article=None
 
 def owner_paragraphs(globs, root):
     """His own texts, loosened: his messages whole, and every version he gave of a paragraph (an answers file's "your
-    version", an edit file's "new"), whole, so a paragraph he wrote or rewrote is his whatever words it kept."""
+    version", an edit file's "new"), whole, so a paragraph he wrote or rewrote is his whatever words it kept; but not
+    the lines of a version that are the card's own text copied back (his_lines, gate E311)."""
     out = []
     for g in globs:
         for f in sorted(glob.glob(str(pathlib.Path(root) / g), recursive=True)):
@@ -430,7 +449,7 @@ def owner_paragraphs(globs, root):
                 items = d.get('items', d.get('edits', [])) if isinstance(d, dict) else d
                 for x in items:
                     if isinstance(x, dict):
-                        out += [loose(str(x.get(k) or '')) for k in ('your_version', 'new')]
+                        out += his_lines(x)
             else:
                 out.append(loose(raw))
     return [t for t in out if t]

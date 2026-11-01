@@ -24,9 +24,9 @@ That’s where the ***escuelita*** in my title comes in. *Escuelita* means “li
 
 Copy link
 
-I spent much of my childhood being carried through [Twin Oaks](https://twinoaks.org/), [Acorn](https://www.ic.org/directory/acorn-community-farm/), [East Wind](http://eastwind.org/), [Padanaram](https://www.facebook.com/p/Padanaram-100064853281734/), [Zendik](https://highlandscurrent.org/2017/05/09/leaving-zendik-farm/), and many other communities. I was usually just a visitor’s kid, close enough to see how people lived but never quite part of the tribe. At the time that meant a lot of boredom, with some adventures mixed in, but those years gave me a great sample to compare against.
+I spent much of my childhood being carried through [Twin Oaks](https://twinoaks.org/), [Acorn](https://www.ic.org/directory/acorn-community-farm/), [East Wind](http://eastwind.org/), [Padanaram](https://www.facebook.com/p/Padanaram-100064853281734/), [Zendik](https://highlandscurrent.org/2017/05/09/leaving-zendik-farm/), and many other communities. I was usually just a visitor’s kid, close enough to see how people lived but never quite part of the tribe. At the time, that meant a lot of boredom, with some adventures mixed in, but those years gave me a great sample to compare against.
 
-From 1999 to 2001, my family actually lived with the [Love Israel family](https://uwapress.uw.edu/book/9780295988856/the-love-israel-family/) in Washington while escaping [Y2K](https://en.wikipedia.org/wiki/Year_2000_problem). In case you aren’t familiar with Y2K, it was the Year 2000 (represented as year 00) computer bug which some folks like my dad especially, felt might be the end of civilization. We lived in a yurt. At Love Israel, I had my dream of picking all kinds of wild berries in nature come true. I was also lonely, bored, irritated by the cult programming, and missing my friends in Philadelphia.
+From 1999 to 2001, my family actually lived with the [Love Israel family](https://uwapress.uw.edu/book/9780295988856/the-love-israel-family/) in Washington while escaping [Y2K](https://en.wikipedia.org/wiki/Year_2000_problem). In case you aren’t familiar with Y2K, it was the Year 2000 (represented as year 00) computer bug which some folks, like my dad especially, felt might be the end of civilization. We lived in a yurt. At Love Israel, I had my dream of picking all kinds of wild berries in nature come true. I was also lonely, bored, irritated by the cult programming, and missing my friends in Philadelphia.
 
 I wanted to befriend the children there, but they treated me as an outsider. My mom never liked the place. The leader was also named Love Israel, and to me he seemed like the fakest person I’d ever met, complete with the expected God complex.
 
@@ -56,11 +56,11 @@ But what I gathered from a bird’s eye view is that the secular communities oft
 
 # Communes Are Hot Again 🔥
 
-Suddenly, the longing to escape loneliness which inspired my father’s movie, is everywhere again. Back in 2023, ironically, just the year after Covid lockdowns ended, [the U.S. Surgeon General](https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf) even put out an advisory, saying roughly half of American adults experience loneliness, and it treated social connection as a **public-health** issue.
+Suddenly, the longing to escape loneliness, which inspired my father’s movie, is everywhere again. Back in 2023, ironically, just the year after Covid lockdowns ended, [the U.S. Surgeon General](https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf) even put out an advisory, saying roughly half of American adults experience loneliness, and it treated social connection as a **public-health** issue.
 
 It’s obvious that a lot of people can’t tolerate modern life in isolation anymore (the UN’s rules for prisoners literally ban more than 15 days of it). Folks may disagree about politics, food, God, sex, or whether shoes are oppressive, but they agree that something about the current arrangement is starving them.
 
-What’s starving them is anomie. We evolved to live in small groups where everybody knows everybody. In a large society the shared norms and close ties that held those groups together fall apart, and that’s how large societies end up run by psychopaths. (Yes, I’m always going on about this.)
+What’s starving them is anomie. We evolved to live in small groups where everybody knows everybody. In a large society, the shared norms and close ties that held those groups together fall apart, and nobody knows anybody well enough to see what they’re really like. That’s how large societies end up run by psychopaths. (Yes, I’m always going on about this.)
 
 Check out the Google Trends for “[ecovillage](https://trends.google.com/explore?q=ecovillage&date=all&geo=Worldwide)” and “[intentional community](https://trends.google.com/explore?q=intentional%20community&date=all&geo=Worldwide)”. After years of decline, interest climbed sharply in the mid-2020s.
 
@@ -80,7 +80,7 @@ Some of the commenters were skeptics tho. The oldest objection showed up immedia
 
 I’d say the comment above is more true of the big socialism experiments than small communes, but I still take it seriously, because some people really would rather let somebody else take responsibility. Sometimes you see the same three people who end up doing all the maintenance, while everybody else talks about freedom while lounging around in their hammocks. And then unofficial leaders start gaining power just based on their indispensability.
 
-Any attempt at communal ownership needs to take this into account by having folks take on visible and named stewardship duties, and by having a plan to deal with leeches. The How-To Manual after this essay deals with these issues. No, taking away the idea of a boss does not make everyone less passive, selfish, thieving, nor suddenly unlearning learned helplessness.
+Any attempt at communal ownership needs to take this into account by having folks take on visible and named stewardship duties, and by having a plan to deal with leeches. The How-To Manual after this essay deals with these issues. No, taking away the idea of a boss does not make everyone less passive, selfish or thieving, or suddenly unlearn their learned helplessness.
 
 ---
 
@@ -88,7 +88,7 @@ Any attempt at communal ownership needs to take this into account by having folk
 
 # Why Communities Keep Dying in the Same Two Ways
 
-Most communes of my acquaintance traded inner freedom of the heart (spirituality) for outer freedom (secular, nondogmatic, political). The two pendulum ends of this trade-off mirror each other. I believe we can combine the best of both, but first, let’s see how each fails individually.
+Most communes of my acquaintance traded inner freedom of the heart (spirituality) for outer freedom (secular, nondogmatic, political), or the other way around. The two pendulum ends of this trade-off mirror each other. I believe we can combine the best of both, but first, let’s see how each fails individually.
 
 ## Outer-freedom-only models
 
@@ -144,7 +144,7 @@ Are you willing to experiment? That’s a real value too. Put it on your list, b
 
 ## Practice group of whom?
 
-Uh, but wait, where do you find these people? Try an unprogrammed Quaker or Unitarian meeting, a restorative-practice group, any open-hearted congregation, a mature recovery group, a meditation group, or find some people who have gone on long retreats and come back kinder, rather than more impressed with themselves.
+Uh, but wait, where do you find people for a practice group? Try an unprogrammed Quaker or Unitarian meeting, a restorative-practice group, any open-hearted congregation, a mature recovery group, a meditation group, or find some people who have gone on long retreats and come back kinder, rather than more impressed with themselves.
 
 And if you *can* get away from “civilization” for a bit, that can be really valuable to get some perspective on how others have already figured things out. Go visit some real [intentional communities](https://www.ic.org/). Lots of [ecovillages](https://ecovillage.org/) are open to visitors too. Check their current visitor requirements first.
 
@@ -154,11 +154,11 @@ If you’re lucky, you might find a pre-existing commune that you’d be happy t
 
 ## Practice Before Committing
 
-So, build the part of community you actually can. **Call it a practice group**, for now, not a commune. Fun and nice things first give incentive. Have a weekly meal with two households. Set up a [counseling exchange](http://hearthwork.u-dont-exist.com/) with one friend, in person or by video call. Share tools or childcare. Transport or food prep work too. Or a sauna. And if you’re hippie enough, add acro-yoga, dance improv, a mothers’ circle or a [cuddle puddle](http://cuddleparty.com/).
+So, build the part of community you actually can. **Call it a practice group**, for now, not a commune. Do the fun and nice things first, to give people an incentive. Have a weekly meal with two households. Set up a [counseling exchange](http://hearthwork.u-dont-exist.com/) with one friend, in person or by video call. Share tools or childcare. Transport or food prep work too. Or a sauna. And if you’re hippie enough, add acro-yoga, dance improv, a mothers’ circle or a [cuddle puddle](http://cuddleparty.com/).
 
 And then the hard stuff comes as a test before any talk of a shared future together. Keep your commitments, or renegotiate when they feel wrong, rather than just avoiding. Get through at least one big disagreement. Dealing with it for real includes the relational pl/ork of each of you naming what really went on, giving each of you time, figuring out what came up for each of you (jealousy, humiliation, fear, old material, whatever), and dealing with it until the emotional pressure changes enough that whatever agreement you come up with means something.
 
-Until all of those phases are passed thru, you’re all still promising strangers, and you don’t want to take out a mortgage together yet. And once you’re past those phases, if you still want to live together, you can all meet in a rented or borrowed space, or at each other’s houses, long before anyone needs a land surveyor.
+Until all of those phases are passed thru, you’re all still promising strangers, and you don’t want to take out a mortgage together yet. And once you’re past those phases, if you still want to live together, you can all live together in a rented or borrowed space first, long before anyone needs a land surveyor.
 
 ## The Math of Absorption
 
@@ -219,7 +219,7 @@ It should go without saying that nobody has to take medicine to have equal respe
 
 They should not be demonized for not trying to fit in. They should be offered compassion, but ultimately it’s up to them if they want to fit in and follow the communal processes. And in some cases, the community may make exceptions. If someone is actually sick and needs care, kicking them out could be like a death sentence.
 
-Before making long-term commitments, it really makes sense to go through the choices explained in my below sections about technology, relationships, children, money, and founder power. The exit terms in “Leaving, Removal, and Dissolution” section after that would also help for thinking about those agreements.
+Before making long-term commitments, it really makes sense to go through the choices explained in my below sections about technology, relationships, children, money, and founder power. The exit terms in the “Leaving, Removal, and Dissolution” section after that would also help with thinking about those agreements.
 
 ---
 
@@ -277,7 +277,7 @@ One way an *escuelita* could fail is if it becomes a business, where residents s
 
 As part of [my research](https://innerself.185-233-106-15.sslip.io/blog/commune-article-research/) I have also looked for evidence of what happened after the *Escuelita*. While I found information on alumni networks, people bringing practices back with them, and organizing later, I couldn’t find a clear chain of somebody having been to the *Escuelita*, then a new communal institution being set up, and then evidence about how its members and their children actually did over time. Zapatista influence was already spreading abroad before the *Escuelita*, so if some institution resembles a Zapatista one later, that alone doesn’t prove the *Escuelita* was responsible.
 
-[Sociocracy](https://www.sociocracyforall.org/sociocracy/) has a very different history, yet some similar features have emerged there as well: circles, decision-making by consent, distributed authority, and linking between the levels. But it means that people building institutions of this sort have another serious system to study, instead of inventing their governance during their first dispute.
+[Sociocracy](https://www.sociocracyforall.org/sociocracy/) has a very different history, yet some similar features have emerged there as well: circles, decision-making by consent, distributed authority, and linking between the levels. That means people building institutions of this sort have another serious system to study, instead of inventing their governance during their first dispute.
 
 ---
 
@@ -379,7 +379,7 @@ And this reparenting journey is built on [somatic regulation](https://ibogaqueen
 
 The idea is that the capacity to be there for people when they need help isn’t located in one professional or guru, or the founder of the group that everyone emotionally depends on, but in the community as a whole.
 
-But since we’re merging peer therapy with community, we also need to make sure that the person caring about you and listening to you shouldn’t translate that information into administration over your life, the way a professional therapist might diagnose you as this or that and then suddenly you’re ineligible for certain careers. Although obviously that information can come out regardless when people are in close quarters.
+But since we’re merging peer therapy with community, we also need to make sure that the person caring about you and listening to you doesn’t turn what you tell them into administration over your life, the way a professional therapist might diagnose you as this or that and then suddenly you’re ineligible for certain careers. Although obviously that information can come out regardless when people are in close quarters.
 
 Another thing is knowing which problems are beyond what peers can handle and need outside or expert help.
 
@@ -438,7 +438,7 @@ They do also attract people who are all for revelation and hate the follow-throu
 
 Traditional lineages usually disagree with me on this, and many ayahuasca tribes and Bwiti iboga communities believe the medicine should stay under trained lineage authority. I respect what those traditions have preserved, and I’ve learned some “dos & don’t dos” from their sensible practices and less sensible practices. For example, although I do highly value [loving kindness meditation](http://love.u-dont-exist.com/), inner child [reparenting](http://innerchild.u-dont-exist.com/), and [nibbana meditation](http://nibbana.u-dont-exist.com/) before ceremony, during, and at all times, I notice a lot of people want their ceremony to look and feel like some kind of abstract mix of indigenous rituals & props to make it feel more authentic and sacred than their everyday life. I understand the benefit of setting aside one time and place for sacred experiences (the book, [“God is Red”](https://www.amazon.com/God-Red-Native-Religion-Anniversary/dp/1555914985) comes to mind), although the shadow side to that is making the spiritual seem like another world apart from your regular life, which is sort of opposite to integration.
 
-And while I do think it’s valuable to have someone highly experienced in navigating the spirit worlds who is able to sense where you are in those and guide you, I also wouldn’t trust many of these shamans to guide me, considering it’s common to find that even the ones who can heal people very well may still be happy to send evil spirits to kill someone, if that hit job is lucrative. I also don’t trust their medical intuition in general, considering the Huni Kuin shamans are famous for claiming that all other ayahuasca shamans are giving people cancer by using the knotted B. caapi vine (since the knots remind them of tumors). They’re right though that modern folk do very often decide they’re ready to lead ceremonies long before they’re really trained and prepared. I’m sure I could still learn a lot from those traditions, and they will continue to develop their understandings as well.
+And while I do think it’s valuable to have someone highly experienced in navigating the spirit worlds who is able to sense where you are in those and guide you, I also wouldn’t trust many of these shamans to guide me, considering it’s common to find that even the ones who can heal people very well may still be happy to send evil spirits to kill someone, if that hit job is lucrative. I also don’t trust their medical intuition in general, considering the Huni Kuin shamans are famous for claiming that all other ayahuasca shamans are giving people cancer by using the knotted B. caapi vine (since the knots remind them of tumors). The lineages are right, though, that modern folk do very often decide they’re ready to lead ceremonies long before they’re really trained and prepared. I’m sure I could still learn a lot from those traditions, and they will continue to develop their understandings as well.
 
 Double click to interact with video
 
@@ -576,7 +576,7 @@ I got a taste of that at a Unitarian youth camp, and it’s still one of the fre
 
 The adults still have to pay attention to what goes on in the children’s territory. Older kids can’t be allowed to boss the younger ones around there. And keeping secrets shouldn’t be part of how independence manifests.
 
-I feel very much saddened by the way that adults are seen as (and actually often are) so dangerous for children in the West, especially when they are fond of each other. It’s good for kids to have a whole bunch of grownups who know them and enjoy them, who would notice when something changes, and who would act when something’s wrong. When adults panic like that, kids can lose all those grownups without the panic actually preventing abuse. It’s amazing when you travel the world and you see how sick US culture is especially… all over Africa and parts of Asia, I’ve seen parents let their kids run around naked in public with no qualms or concerns. That’s real freedom!
+I feel very much saddened by the way that adults are seen as (and actually often are) so dangerous for children in the West, especially when an adult and a child are fond of each other. It’s good for kids to have a whole bunch of grownups who know them and enjoy them, who would notice when something changes, and who would act when something’s wrong. When adults panic like that, kids can lose all those grownups without the panic actually preventing abuse. It’s amazing when you travel the world and you see how sick US culture is especially… all over Africa and parts of Asia, I’ve seen parents let their kids run around naked in public with no qualms or concerns. That’s real freedom!
 
 So here’s how I see this protection being ideally structured:
 
@@ -585,7 +585,7 @@ So here’s how I see this protection being ideally structured:
 3. **Teach Honesty**. Protecting children is the duty of adults, but it requires children to help also. “The Boy Who Cried Wolf” is a didactic children’s story which continues to be useful generation after generation. The Buddha even taught his son Rahula honesty as the most important first lesson. I agree. We must teach children truthfulness before there’s a crisis. “Make believe” must be labeled as such.\
    When adults lie to children (like “Santa is real!” etc), that teaches them to misunderstand the difference between reality and make-believe. Make sure kids understand what they say will be taken seriously if they are known to be honest. Those who are known to lie a lot are especially targeted by abusers who know their accusations won’t be believed. Don’t let the teaching turn into interrogation or punishment when they’re not sure. A scared or confused kid may get mixed up telling what happened and still need protection.
 4. **Hear the child even when the accused is someone people love.** Communities fail here, because the adult may be charismatic, useful, rich, spiritually important, or everybody’s friend. Decide on the response process ahead of time, before anyone’s face is attached to it. Keep everyone at risk safe first, right away, then make sure the accusation is investigated competently and fairly.
-5. **Make sure kids have relationships and a reporting route outside the community.** Grandparents, cousins, local friends, teachers and other trusted adults give them perspective on their life, and someone to talk to. State intervention can fail spectacularly, and enclosing kids completely in a community can fail too. Kids need more than one world. In 1984, Vermont authorities [raided a religious community in Island Pond](https://vtdigger.org/2024/06/21/40-years-later-island-pond-has-little-interest-in-revisiting-its-historic-raid/) and took 112 kids into custody over suspected abuse. A judge turned down the state’s blanket request to hold them, because it couldn’t name any specific case, and the kids went home that same day. There was apparently some physical abuse going on there as a disciplinary practice, but that’s something which varies a lot in every society also.
+5. **Make sure kids have relationships and a reporting route outside the community.** Grandparents, cousins, local friends, teachers and other trusted adults give them perspective on their life, and someone to talk to. State intervention can fail spectacularly, and enclosing kids completely in a community can fail too. Kids need more than one world. In 1984, Vermont authorities [raided a religious community in Island Pond](https://vtdigger.org/2024/06/21/40-years-later-island-pond-has-little-interest-in-revisiting-its-historic-raid/) and took 112 kids into custody over suspected abuse. A judge turned down the state’s blanket request to hold them, because it couldn’t name any specific case, and the kids went home that same day. There was apparently some physical abuse going on there as a disciplinary practice, but what counts as acceptable physical discipline varies a lot from one society to another, and it happens to some degree in every society, communes included.
 
 #### Born to Be Wild
 
@@ -642,9 +642,9 @@ The questions so far have been about the method. These four are about the founde
 
 Then follow the practical power. Whose name is on the deed? Who’s in charge of the resources? Who keeps the records? Who decides who gets admitted, and who picks the people who review the founder? Who controls access to the kids, or to medicine, and who can make a complaint go away? The org chart might look flat and horizontal, while the keys, passwords, titles and even just general reputation all point to one person or clique.
 
-If several are present, they are worth paying attention to before the founder(s) can explain how the situation is uniquely different in a spiritual way. Ask these questions about any community, teacher or method, including me.
+If several of these point to one person or clique, they are worth paying attention to before the founder(s) can explain how the situation is uniquely different in a spiritual way. Ask these questions about any community, teacher or method, including me.
 
-While founderism is a problem in every community, it’s especially so in communities which form naturally over time as I’m describing may happen in my case. In such cases, there’s no formal community and no formal rules until people decide to come together to make them. It doesn’t make sense to do that at first, if, say, I’m the only one there and I don’t know who else will be there that I could trust. If there’s one other person who comes to visit, it also doesn’t make sense, so there’s a critical mass point at which people decide “we were just living together like friends, but now we want to formalize the community.”
+While founderism is a problem in every community, it’s especially so in communities which form naturally over time, as I’ve said may happen in my case. In such cases, there’s no formal community and no formal rules until people decide to come together to make them. It doesn’t make sense to do that at first, if, say, I’m the only one there and I don’t know who else will be there that I could trust. If there’s one other person who comes to visit, it also doesn’t make sense, so there’s a critical mass point at which people decide “we were just living together like friends, but now we want to formalize the community.”
 
 If I could find a suitable commune to join, that would basically reverse this problem. I would then be the one on probation. And if we are all starting together from scratch, then we would all be at an equal probationary level with each other.
 
@@ -658,11 +658,11 @@ As if a founderism-type subtle dictatorship isn’t bad enough, we often find gr
 
 Every practice in this article can be turned against the people using it.
 
-“Nothing suppressed, everything processed” can become a situation where someone in the group must tell all, even if they don’t want to. I have seen that risk in groups that use the [ZEGG Forum](https://www.theartofrelating.com.au/zegg-forum.html) practice. But privacy also can be resistance to the communal spirit, so there has to be a living, always re-assessed balance between what you and the community owe each other, and what remains your own domain. But some practices go too far against the communal spirit. If someone starts worshipping Satan, say, they get booted.
+“Nothing suppressed, everything processed” can become a situation where someone in the group must tell all, even if they don’t want to. I have seen that risk in groups that use the [ZEGG Forum](https://www.theartofrelating.com.au/zegg-forum.html) practice. But privacy also can be resistance to the communal spirit, so there has to be a living, always re-assessed balance between what you and the community owe each other, and what remains your own domain. But some private practices go too far against the communal spirit. If someone starts worshipping Satan, say, they get booted.
 
 Peer counseling can become peer surveillance, even if the tone is warm.
 
-Dissent is important for growth. Sometimes it really is their wounded ego projection, and that should be acknowledged. But again, balance, because if complaints are too often or too broadly painted as projection, that’s as much a failure, if not more so.
+Dissent is important for growth. Sometimes it really is the dissenter’s wounded ego projecting, and that should be acknowledged. But again, balance, because if complaints are too often or too broadly painted as projection, that’s as much a failure, if not more so.
 
 There are some basic human rights that can’t be voted away from you by the majority in a community, unless it’s a question of resource availability as a whole. If safety and the conditions for health can be provided, they should be provided. People should be able to maintain relationships with others outside the community, as long as those relationships don’t interfere with the community as a whole (for example, you can’t bring your boyfriend from outside to live with you if he’s antagonistic towards the commune).
 

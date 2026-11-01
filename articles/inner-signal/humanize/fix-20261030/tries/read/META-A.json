@@ -1,0 +1,78 @@
+{
+ "feed_uuid": "a123b9a4-de86-462a-aa45-4f46b122ab4e",
+ "link": "https://www.pangram.com/feed/a123b9a4-de86-462a-aa45-4f46b122ab4e",
+ "created_at": "2026-10-30T17:39:47.671948-04:00",
+ "domain": "substack",
+ "content_type": "long_post",
+ "prediction_short": "Human",
+ "headline": "Mostly Human Written",
+ "version": "4.1",
+ "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+ "readout_policy_id": null,
+ "fraction_ai": 0.01659761741757393,
+ "fraction_human": 0.9834023714065552,
+ "fraction_breakdown": {
+  "ai": {
+   "low-confidence": 4.0605038520880044e-05,
+   "high-confidence": 0.016166338697075844,
+   "medium-confidence": 0.0003906746278516948
+  },
+  "human": {
+   "low-confidence": 0.00048382816021330655,
+   "high-confidence": 0.9826391935348511,
+   "medium-confidence": 0.00027933207456953824
+  },
+  "ai-assisted": {
+   "lightly": 4.490004219597458e-21,
+   "moderately": 0
+  }
+ },
+ "document_confidence": {
+  "level": "High",
+  "boundary": null
+ },
+ "verdict_support": {
+  "ai": 0,
+  "human": 1,
+  "mixed": 0,
+  "source": "sentence_dp",
+  "ai_coverage": {
+   "p10": 0,
+   "p50": 0.015000149607658386,
+   "p90": 0.05,
+   "std": 0.0009929279331117868,
+   "mean": 0.015010793693363667,
+   "show_range": false
+  },
+  "ai_threshold": 0.800000011920929,
+  "human_coverage": {
+   "p10": 0.984009861946106,
+   "p50": 0.9850098490715027,
+   "p90": 0.9860098361968994,
+   "std": 0.0009929279331117868,
+   "mean": 0.9849991798400879
+  },
+  "human_threshold": 0.8999999761581421,
+  "coverage_resolution": 0.0010000099427998066
+ },
+ "ai_distribution": {
+  "title": "AI-generated content appears in scattered patches",
+  "description": "AI-generated content appears in isolated patches separated by human-written content."
+ },
+ "num_ai_segments": 15,
+ "num_human_segments": 172,
+ "word_count": 18807,
+ "task_id": "365debe6-ff94-4f9e-84fa-4c8ac8e6f29d",
+ "text_sha256": "640b67ef5e9ea7311bda792151d31a27f9a503d0deaf8e2fe57b4d3b530d92c6",
+ "text_chars_js": 99999,
+ "compact_sha256": "bb193545ed2a57ff183858fb9e7e65c3139079b11e746f53500e2fdb0b9b04ab",
+ "compact_chars": 11659,
+ "windows_word_sum": 18807,
+ "windows_ai": 15,
+ "windows_human": 172,
+ "labels": [
+  "Human",
+  "AI-Generated"
+ ],
+ "read_at": "2026-10-30, after his message of 21:40 UTC"
+}

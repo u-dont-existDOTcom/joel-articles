@@ -1,6 +1,6 @@
 # Handoff: Community article humanization
 
-The intentional-communities Substack article, humanized section by section so every paragraph and every section reads Human in Pangram's web app with the meaning kept. Checked again 2026-10-26, after Joel's message of 12:43 UTC (the hypnosis guide's; nothing in it for this lane, and nothing changed here). Updated 2026-10-26, after Joel's message of 00:54 UTC ("and i made the changes on the community article that's done"): his post has the version with his answers to 66, read and matched in this turn, and `master.md` is that version (START HERE). Nothing is waiting on him in this lane. The newest version is `candidate/joel-20261025/answer66/WORKING.html`.
+The intentional-communities Substack article, humanized section by section so every paragraph and every section reads Human in Pangram's web app with the meaning kept. Updated 2026-10-30, after the full read by the lead model that his message of 20:15 UTC asked for: his cards page for it waits on him (START HERE). Checked again 2026-10-26, after Joel's message of 12:43 UTC (the hypnosis guide's; nothing in it for this lane, and nothing changed here). Updated 2026-10-26, after Joel's message of 00:54 UTC ("and i made the changes on the community article that's done"): his post has the version with his answers to 66, read and matched in this turn, and `master.md` is that version (START HERE). Nothing is waiting on him in this lane. The newest version is `candidate/joel-20261025/answer66/WORKING.html`.
 
 **Resume line (paste into any Claude account; the repository is public):**
 > Continue my community article work: read https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/HANDOFF-community-article.md and carry on from its next step.
@@ -11,15 +11,26 @@ From an account with Desktop Commander connected to the laptop, the laptop copy 
 
 ## START HERE
 
+**His message of 2026-11-01 20:26 UTC** (`fullread-20261030/review/joel-20261101-2026/joel-20261101-2026-message.txt`, with his editor's HTML of the post, EDITOR-BEFORE-20261101-2026.html): "i didn't make the edits to community guide, that's too much. you can do that." **Done:** the 19 changes went into his post through its editor in the app's browser (one editor transaction, then Update and "Update now", settings untouched); the public post has all 19 and the working copy's words (`LIVE-CHECK-20261101.json` beside the message); `joel-20261101-2026/promote_20261101.py` made it `master.md` and set the receipt, owner locks, editorial status, current state and registry. When he asks for edits in his live post, they go in through its editor this way: each "Find" string checked to occur once in one run of text, the replacements in one transaction, and the public post read back through Substack's API.
+- **Next:** a Pangram check of each section the 19 changes touched, by itself (gate E307), in his account in the app's browser or through the API on the laptop; fix every window that reads AI or Human (Low) (E306), as edits for his post made the same way; list the small Human (Medium) ones.
+
 **His message of 2026-10-30 20:15 UTC, in the hypnosis guide lane** (`articles/inner-signal/humanize/fix-20261030/joel-20261030-2015-message.txt`):
-"i guess we need to go back and re-read the community article as well after this then". The hypnosis guide's own read by
-the lead model had found 122 places the Sonnet reads passed (gate E294), and most of this article's meaning reads ran on
-Sonnet too. The full read is set up: `fullread-20261030/PLAN.md` (ten parts from `compare_read.py make`, `master.md`
-beside `original.md`; the live post, "Updated: Oct 25 2026", matches `master.md` paragraph for paragraph as of
-2026-10-30). **Next:** after the hypnosis guide's next cards page ("after this"), the lead model reads the ten parts
-(never Sonnet), then `compare_read.py collect --git-path articles/intentional-communities/master.md` (each finding's
-`changes`, E301), every finding checked against his decisions, and the fixes on his marking page as exact Substack
-edits, since the post is live.
+"i guess we need to go back and re-read the community article as well after this then". **Done on 30 October:** I read
+the live post (`master.md`, "Updated: Oct 25 2026") beside his published version myself, ten parts, sentence by sentence
+(`fullread-20261030/`: READER-1..10.md, FINDINGS.json, 66 findings). Every finding was traced through every version
+before anything went to him (`fullread-20261030/READ.md`, `DISPOSITIONS.json`, `READ-RECORD.json`): 27 are points he cut
+himself (most in his edits of 20 October, his and GPT's; READ.md lists them, and they stay out unless he wants them back),
+19 are snags in words he chose, one was my misreading, and 19 are cards on
+[Community Article Cards, 30 October](https://claude.ai/artifact/QzrX2ZWqtWZdW3WR6ZNq5X) (`fullread-20261030/review/`;
+REVIEW-FULLREAD.md is the cards as text): four sentences that a cut of 24 October left hanging (lesson E305), five commas
+and slips, seven suggestions for his own words, one fix to my words, and two questions.
+- **His answers came on 2026-11-01 at 18:57 UTC** (`fullread-20261030/review/ANSWERS-20261101-1857.json`, with his message
+  in `articles/inner-signal/humanize/fix-20261101/joel-20261101-1857-message.txt`): all 17 approved, C-9 "2nd yeah"
+  (living together there first), C-15 "both". On C-3: "you didn't need to ask me for commas if they are clearly needed"
+  (gate E308). `fullread-20261030/review/apply_answers.py` made `WORKING-20261101.md` (master.md with the 19 changes,
+  each pair checked to occur once), `SUBSTACK-EDITS.md` (the 19 old/new pairs for Substack's editor, sent to him) and
+  `RECORD-FULLREAD.json`; `READ-ANSWERS.md` is my read of the two answers' words.
+- **Then (done 2026-11-01 20:26 UTC, above):** the 19 changes went into his post for him, and master.md is that version.
 
 **His message of 2026-10-26 00:54 UTC** (`joel-20261025/joel-20261026-0054-message.txt`): "and i made the changes on the community article that's done". Done (pull request 254, https://github.com/u-dont-existDOTcom/joel-articles/pull/254): his post read in the app's browser (https://community.u-dont-exist.com redirects to it) and compared line by line with `joel-20261025/answer66/WORKING.html`'s checked text: 270 of 272 lines equal, the two others differ only by a space the post drops; all five new sentences are there (`answer66/PROMOTE-CHECK-20261026.json`). `joel-20261025/promote_20261026.py` (a copy of the last promotion for this version) made `master.md` from it and set the receipt, owner locks, editorial status, detector evidence (478g), current state and registry hashes.
 - The questions page (https://claude.ai/artifact/1EA9KBhMGXHXiiTUGScx1J) is republished from `community-questions.html`: nothing open.
@@ -252,6 +263,9 @@ State at the end of the turn of Joel's message of 2026-10-16 23:38 UTC:
 - **Pangram works** in the desktop app's browser pane (remote-devices `Claude_Browser` tools), tab "seed" at https://www.pangram.com/dashboard, his Pro account (1 credit per 100 words; about 5,350 credits left). If the tab is gone, open it again with `preview_start` at that URL; he stays logged in. The page helpers `window.__run(name, items)` (items `[key, text, sha256]`; it types each text, checks its SHA-256 and clicks), `window.__readB(itemsUrl, pages)` and `window.__readI(items, pages)` (read the results from Pangram's history by SHA-256; `__readI` takes the items array, and only the key and hash are used) are defined in the page; after a reload ("New check" reloads it), paste any `bNNN.js` (self-contained) instead or define them again from it. Big batches: push the batch's `bNNN-items.json` and fetch it in the page from raw.githubusercontent.com at the commit's SHA; small ones can be passed in directly (318g), with the hashes checked in the page first.
 
 ## The pages Joel uses
+- Community Article Cards, 30 October (the full read): https://claude.ai/artifact/QzrX2ZWqtWZdW3WR6ZNq5X, published from the
+  account of the session that did the read (session 012rNYVw…), a view of `fullread-20261030/review/REVIEW-FULLREAD.html`
+  (built by `build_page.py` there); its cards as text are `fullread-20261030/review/REVIEW-FULLREAD.md`.
 - Community Emulate Check (question 66): https://claude.ai/artifact/YJZDafwDzxWnuynW1PLPp1, a view of `candidate/joel-20261025/emulate-check/REVIEW-EMULATE.html`
   (built by `build_emulate_review.py` there; republish from the session that published it, or give Joel the page's file).
 - Community Article Questions: https://claude.ai/artifact/1EA9KBhMGXHXiiTUGScx1J, published by the account of session 01Mxpoi6…; only that account can republish it. Its master is `candidate/OWNER-QUESTIONS.md` (render: `python3 tools/render_questions.py OWNER-QUESTIONS.md community-questions.html` from `candidate/`; the cloud workspace has Python's markdown module, the laptop doesn't). From the other account, update the file, push, and give Joel the file's GitHub link as [text](url): https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/OWNER-QUESTIONS.md (on main after this branch's pull request merges). Run `pangram_links_check.py` on it and `tools/humanization/html_links.py` on the rendered page. Version 25 published 2026-10-25 after Joel's message of 23:05 UTC (66 answered; the five changes for Substack); version 23 after his message of 19:42 UTC (question 66); version 18 on 2026-10-23 after his message of 23:28 UTC (questions 64 and 65); version 15 on 2026-10-17 (questions 52 to 54).
@@ -259,19 +273,18 @@ State at the end of the turn of Joel's message of 2026-10-16 23:38 UTC:
 - Every turn, give Joel the article so far: since 2026-10-23, the new version's reading copy (`joel-20261023/restructure/READING-COPY.md`, as its GitHub link); before that, `candidate/community-article-so-far.html` and the side-by-side page of any section that changed, as files (the latest scripts: section 13 `s13/make_page_v37b.py`, section 14 `s14/make_page_v8.py`, section 15 `s15/make_page_v17.py`, section 16 `s16/make_page_v30.py`, section 8 `fix-20261017d/make_pages_s8.py`). Check each with `python3 tools/humanization/html_links.py PAGE.html` before sending.
 
 ## Waiting on Joel
-1. **Five changes in Substack** (his 66 answers): `joel-20261025/answer66/SUBSTACK-EDITS.md`, given to him word for word in
-   the 23:05 turn's answer. No open questions.
-2. Pull request 251 (https://github.com/u-dont-existDOTcom/joel-articles/pull/251), the 19:42 and 23:05 turns' work for
-   both lanes, to merge. Pull request 238 (the 00:27 turn) was merged on 2026-10-25.
+Nothing in this lane (2026-11-01 20:26 UTC: he asked me to make the 19 changes in his post, and they are in).
 ## Next step
-1. When he says the changes are in: read his post against `joel-20261025/answer66/ARTICLE.txt` (the walk of
-   `tools/humanization/substack_rendered_check.js`, or the post's text against the file), then promote
-   `answer66/WORKING.html` to the master with a receipt (as `joel-20261025/promote_20261025.py` did for 65), register, and
-   delete the temporary community draft ("TEMP recheck (community article) - do not publish") if no check needs it.
+1. Batch ic1101 is read (`fullread-20261030/review/joel-20261101-2026/sections/RESULTS.md`): six windows in his
+   live post read AI or Human (Low), in The New Age May Dawn Suddenly and Communes Are Hot Again (the seventh is an
+   image's alt text: leave image blocks out of a section's text next time). His words go to him as cards (C-4's clause
+   is ours, approved by him); what he approves goes into his post through its editor as on 2026-11-01, and each section
+   is checked again by itself (its second and last try, lineage IC1101-NN).
 2. After any new Emulate run on this article: the strict Emulate check again (`joel-20261025/emulate-check/run_audit.sh`;
    `docs/EMULATE-FALLBACK.md` section 4).
 3. Before every push: `python3 scripts/register_article_artifacts.py --article intentional-communities --write`, then the
-   repository's checks (`python -m unittest discover -s tests`, `python scripts/validate_content_repository.py --root .`).
+   repository's checks (`python -m unittest discover -s tests`, `python scripts/validate_content_repository.py --root .`),
+   or `tools/humanization/lane_push.py --article intentional-communities`, which does both.
 
 ## Where everything is
 - Repo u-dont-existDOTcom/joel-articles, `articles/intentional-communities/`: `CURRENT-STATE.md`, `IMPORT-RECEIPT-20261013.md`, `ARCHITECTURE.md`, the registry files, `original.md` (the published text, the master), `STATUS.md` (old lane status), and `candidate/`: `STATUS.md` (newest entry on top), `HUMANIZED-SO-FAR.md`, `OWNER-EDITS.json`, `OWNER-QUESTIONS.md` and `community-questions.html`, `sN/` (predictions, parts, batch files, review folders, install scripts), `in-context/icNN-vM.json` (page maps), the pages, `joel-20261013/`, `joel-20261014/`, `joel-20261014-2119/`, `joel-20261015/` and `joel-20261016/` (his messages and texts), `sweep-20261016/` (the opener sweeps), `sweep-20261013/`, `fix-20261014/` (the sweep's fixes: candidates, gate records, repeats, batches, predictions, results, sources), `fix-20261014b/` (his answers of 21:19: gate, batches, predictions, results), `fix-20261015/` (his answers of 10-15 09:33: gate, batch 285g, predictions with links, the links behind 27, `make_pages.py`), `fix-20261015b/` (his 11:04 text and section 13 v5: batch 287g, its gate records, predictions with links, `make_batch.py`, `make_pages.py` for section 4), `joel-20261017/` (his messages of 10-17 02:07, 13:11 and 17:16, and the PsyPost screenshot), `fix-20261017/` (his answers of 02:07 and 13:11: section 10 v5, section 12's study, repeats, cold reads, batch 320g), `fix-20261017b/` (his 17:16 message: exclamations `make_excl.py`, the 44c install `install_44c.py`, the whole-article pass `faithful/` with `TRIAGE.md`, its fixes `make_faithful.py`, the anomie draft `anomie/`, batches `b415` to `b419` with predictions and results, `install_1716.py`, `excl-13-14.md` for question 48), `fix-20261017c/` (his 19:14 answer: section 13 v35, `make_s13_v35.py`, march and cold reads, batch `b420`, `install_1914.py`, `make_questions.py`), `s13/` (section 13, in the article as v35 since his 19:14 answer, before that v34: Emulate rounds `emu-a` to `emu-k`, drafts v1 to v34 with their `make_vNN.py` and fixes files (`make_v30v.py` for the one-fix-out variants), gate rounds `review-r1` to `review-r24c` (and `review-r17b`, `review-r23b`) with `make_gate_rNN.py` (`make_gate_r19b.py` for the cold reads, stance checks and repeats), batches `b288` to `b299`, `b304`, `b307` to `b312`, `b314`, `b316` to `b318`, `b298/COVERAGE.md`, the page scripts up to `make_page_v34.py`, `install/` (`install_s13_v31.py` to `install_s13_v34.py`, `GATE-v31.json`), `article_with.py`, `positions.txt`, `preservation-keys.json`), `s14/` (section 14, in the article as v8: Emulate round `emu-a`, drafts v0 to v8, rounds `review-r1` to `review-r6`, batches `b300` to `b306`, `b313`, `b315` (its 316g check is in `s13/b316`), `install/`, `make_page_v8.py`), `images/` (image 7, published and rebuilt), `scoring/`, `prediction-review/`, `tools/`, `images.json`.

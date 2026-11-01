@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-10-26, after your message of 00:54 UTC ("i made the changes on the community article that's done"). **Open questions: 0.** **For you to do**: nothing for this article.
+Last updated 2026-11-01, after your message of 20:26 UTC (you asked me to make the 19 changes in your post). **Open questions: 0.** **For you to do**: nothing.
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -12,12 +12,18 @@ None right now.
 
 ## For you to do
 
-Nothing for this article right now.
+Nothing right now.
 
 ## Decided
 
 > [!TIP]
 > Answered, with what I did.
+
+- 🟢 2026-11-01 20:26 UTC, "i didn't make the edits to community guide, that's too much. you can do that." ([your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/fullread-20261030/review/joel-20261101-2026/joel-20261101-2026-message.txt)). Done: I made the 19 changes in your post's editor and clicked Update (the audience and the other settings as they were). Your post now has all 19, and every other word is as it was. Its title already said "Updated: Nov 1 2026" in the editor, so that went live with them. The article's master copy in Git is that version now. Then each section with a change got a Pangram check by itself: 10 of the 13 read Human Written and 3 Mostly Human ([every result](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/fullread-20261030/review/joel-20261101-2026/sections/RESULTS.md)). Six windows in your words read AI or Human (Low), in The New Age May Dawn Suddenly and Communes Are Hot Again; they come to you as cards. Each of those sections gets checked again after its fixes, as you said for the hypnosis guide.
+
+- 🟢 2026-11-01 18:57 UTC, your answers to [Community Article Cards, 30 October](https://claude.ai/artifact/QzrX2ZWqtWZdW3WR6ZNq5X): all 17 approved; C-9 "2nd yeah" and C-15 "both" are now words ([my read of them](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/fullread-20261030/review/READ-ANSWERS.md)). Your note on C-3 is a rule now: commas that are clearly needed go in without a card.
+
+- 🟢 2026-10-30 20:15 UTC, "i guess we need to go back and re-read the community article as well after this then" ([your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/joel-20261030-2015-message.txt)): I read your live post beside your published version myself, sentence by sentence, and found 66 places that read worse. Before putting any on your page I checked how each one's words got there: 27 are points you cut yourself, most in your edits of 20 October (yours and GPT's), so they stay out (they're listed in [the read's record](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/fullread-20261030/READ.md), if you want any back); 19 are snags in words you chose that a reader still gets; one was my misreading. The other 19 are your cards page.
 
 - 🟢 2026-10-26 00:54 UTC, your five changes ([your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/joel-20261026-0054-message.txt)): your post now has the version with your answers to 66, word for word. I read it in the browser: its text matches mine line for line, all five new sentences included; the only two differences are spaces the post itself drops (a double space after "starting a commune." and the one before a line break after "labeled as such.") ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/joel-20261025/answer66/PROMOTE-CHECK-20261026.json)). That version is the registered master now ([the receipt](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/PROMOTION-RECEIPT-20261017.md)).
 

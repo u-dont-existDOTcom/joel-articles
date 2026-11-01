@@ -1,0 +1,203 @@
+[
+ {
+  "key": "ic1101-01",
+  "lineage": "IC1101-01",
+  "name": "The New Age May Dawn Suddenly",
+  "words": 1133,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "3 windows Human (Medium) on 25 October",
+   "changed on 1 November: C-1, C-2"
+  ],
+  "human_tells": [
+   "2 windows Human (High) on 25 October"
+  ],
+  "cover": 0.87
+ },
+ {
+  "key": "ic1101-02",
+  "lineage": "IC1101-02",
+  "name": "Communes Are Hot Again 🔥",
+  "words": 364,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [
+   "changed on 1 November: C-3, C-4"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 25 October"
+  ],
+  "cover": 0.77
+ },
+ {
+  "key": "ic1101-03",
+  "lineage": "IC1101-03",
+  "name": "The Freeloader Problem",
+  "words": 286,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [
+   "changed on 1 November: C-5"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 25 October"
+  ],
+  "cover": 0.53
+ },
+ {
+  "key": "ic1101-04",
+  "lineage": "IC1101-04",
+  "name": "Why Communities Keep Dying in the Same Two Ways",
+  "words": 204,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [
+   "changed on 1 November: C-6"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 25 October"
+  ],
+  "cover": 0.82
+ },
+ {
+  "key": "ic1101-05",
+  "lineage": "IC1101-05",
+  "name": "Practice group of whom?",
+  "words": 179,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "2 windows Human (Medium) on 25 October",
+   "changed on 1 November: C-7"
+  ],
+  "human_tells": [
+   "3 windows Human (High) on 25 October"
+  ],
+  "cover": 0.85
+ },
+ {
+  "key": "ic1101-06",
+  "lineage": "IC1101-06",
+  "name": "Practice Before Committing",
+  "words": 234,
+  "call": "AI",
+  "chance": 0.4,
+  "tells": [
+   "1 window Human (Low) on 25 October",
+   "1 window Human (Medium) on 25 October",
+   "changed on 1 November: C-8, C-9"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 25 October"
+  ],
+  "cover": 0.75
+ },
+ {
+  "key": "ic1101-07",
+  "lineage": "IC1101-07",
+  "name": "From Visitor to Member—Slowly",
+  "words": 753,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "4 windows Human (Medium) on 25 October",
+   "changed on 1 November: C-10"
+  ],
+  "human_tells": [
+   "5 windows Human (High) on 25 October"
+  ],
+  "cover": 0.91
+ },
+ {
+  "key": "ic1101-08",
+  "lineage": "IC1101-08",
+  "name": "Are Zapatistas just unicorns?",
+  "words": 148,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [
+   "changed on 1 November: C-11"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 25 October"
+  ],
+  "cover": 0.81
+ },
+ {
+  "key": "ic1101-09",
+  "lineage": "IC1101-09",
+  "name": "2. Relational pl/ork",
+  "words": 146,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [
+   "changed on 1 November: C-12"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 25 October"
+  ],
+  "cover": 0.82
+ },
+ {
+  "key": "ic1101-10",
+  "lineage": "IC1101-10",
+  "name": "No Special Shamans",
+  "words": 474,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [
+   "changed on 1 November: C-13"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 25 October"
+  ],
+  "cover": 0.93
+ },
+ {
+  "key": "ic1101-11",
+  "lineage": "IC1101-11",
+  "name": "Children Need Freedom Inside Real Protection",
+  "words": 759,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [
+   "changed on 1 November: C-14, C-15"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 25 October"
+  ],
+  "cover": 0.82
+ },
+ {
+  "key": "ic1101-12",
+  "lineage": "IC1101-12",
+  "name": "Founderism: The Four Questions",
+  "words": 605,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "2 windows Human (Medium) on 25 October",
+   "changed on 1 November: C-16, C-17"
+  ],
+  "human_tells": [
+   "3 windows Human (High) on 25 October"
+  ],
+  "cover": 0.87
+ },
+ {
+  "key": "ic1101-13",
+  "lineage": "IC1101-13",
+  "name": "How My Own Model Could Become a Cult",
+  "words": 364,
+  "call": "Human",
+  "chance": 0.75,
+  "tells": [
+   "changed on 1 November: C-18, C-19"
+  ],
+  "human_tells": [
+   "1 window Human (High) on 25 October"
+  ],
+  "cover": 0.86
+ }
+]

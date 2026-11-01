@@ -1,0 +1,391 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "intentional-communities-fullread-20261030",
+ "title": "Community Article Cards, 30 October",
+ "git_file": "articles/intentional-communities/candidate/fullread-20261030/review/REVIEW-FULLREAD.html",
+ "article": {
+  "file": "articles/intentional-communities/master.md",
+  "sha256": "c5fac8549eaa7d1ed1c4d3e94013fb4efb7bb62f4d641283d2ec8bbbb185262a"
+ },
+ "built": "2026-10-30 22:31 UTC",
+ "generator": "suggestion_review.py 1.4 (2026-10-30)",
+ "exported_at": "2026-11-01T18:57:41.980Z",
+ "counts": {
+  "approved": 17,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 2
+ },
+ "items": [
+  {
+   "id": "C-1",
+   "type": "typo",
+   "title": "“time that meant a lot of boredom, …”",
+   "where": "The New Age May Dawn Suddenly, P12",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "I spent much of my childhood being carried through Twin Oaks, Acorn, East Wind, Padanaram, Zendik, and many other communities. I was usually just a visitor’s kid, close enough to see how people lived but never quite part of the tribe. At the time, that meant a lot of boredom, with some adventures mixed in, but those years gave me a great sample to compare against.",
+   "before": "I spent much of my childhood being carried through Twin Oaks, Acorn, East Wind, Padanaram, Zendik, and many other communities. I was usually just a visitor’s kid, close enough to see how people lived but never quite part of the tribe. At the time that meant a lot of boredom, with some adventures mixed in, but those years gave me a great sample to compare against.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T18:50:53.916Z"
+    }
+   ],
+   "updated": "2026-11-01T18:50:53.917Z"
+  },
+  {
+   "id": "C-2",
+   "type": "typo",
+   "title": "“folks like my dad especially, felt might …”",
+   "where": "The New Age May Dawn Suddenly, P13",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "From 1999 to 2001, my family actually lived with the Love Israel family in Washington while escaping Y2K. In case you aren’t familiar with Y2K, it was the Year 2000 (represented as year 00) computer bug which some folks, like my dad especially, felt might be the end of civilization. We lived in a yurt. At Love Israel, I had my dream of picking all kinds of wild berries in nature come true. I was also lonely, bored, irritated by the cult programming, and missing my friends in Philadelphia.",
+   "before": "From 1999 to 2001, my family actually lived with the Love Israel family in Washington while escaping Y2K. In case you aren’t familiar with Y2K, it was the Year 2000 (represented as year 00) computer bug which some folks like my dad especially, felt might be the end of civilization. We lived in a yurt. At Love Israel, I had my dream of picking all kinds of wild berries in nature come true. I was also lonely, bored, irritated by the cult programming, and missing my friends in Philadelphia.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T18:51:02.589Z"
+    }
+   ],
+   "updated": "2026-11-01T18:51:02.589Z"
+  },
+  {
+   "id": "C-3",
+   "type": "typo",
+   "title": "“loneliness which inspired my father’s movie, is …”",
+   "where": "Communes Are Hot Again 🔥, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "you didn't need to ask me for commas if they are clearly needed",
+   "my_version": "Suddenly, the longing to escape loneliness, which inspired my father’s movie, is everywhere again. Back in 2023, ironically, just the year after Covid lockdowns ended, the U.S. Surgeon General even put out an advisory, saying roughly half of American adults experience loneliness, and it treated social connection as a **public-health** issue.",
+   "before": "Suddenly, the longing to escape loneliness which inspired my father’s movie, is everywhere again. Back in 2023, ironically, just the year after Covid lockdowns ended, the U.S. Surgeon General even put out an advisory, saying roughly half of American adults experience loneliness, and it treated social connection as a **public-health** issue.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T18:51:40.441Z"
+    }
+   ],
+   "updated": "2026-11-01T18:51:55.870Z"
+  },
+  {
+   "id": "C-4",
+   "type": "mine",
+   "title": "“society the shared norms and close ties …”",
+   "where": "Communes Are Hot Again 🔥, P3",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "What’s starving them is anomie. We evolved to live in small groups where everybody knows everybody. In a large society, the shared norms and close ties that held those groups together fall apart, and nobody knows anybody well enough to see what they’re really like. That’s how large societies end up run by psychopaths. (Yes, I’m always going on about this.)",
+   "before": "What’s starving them is anomie. We evolved to live in small groups where everybody knows everybody. In a large society the shared norms and close ties that held those groups together fall apart, and that’s how large societies end up run by psychopaths. (Yes, I’m always going on about this.)",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T18:52:16.708Z"
+    }
+   ],
+   "updated": "2026-11-01T18:52:16.708Z"
+  },
+  {
+   "id": "C-5",
+   "type": "yours",
+   "title": "“selfish, thieving, nor suddenly unlearning learned helplessness.”",
+   "where": "The Freeloader Problem, P4",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Any attempt at communal ownership needs to take this into account by having folks take on visible and named stewardship duties, and by having a plan to deal with leeches. The How-To Manual after this essay deals with these issues. No, taking away the idea of a boss does not make everyone less passive, selfish or thieving, or suddenly unlearn their learned helplessness.",
+   "before": "Any attempt at communal ownership needs to take this into account by having folks take on visible and named stewardship duties, and by having a plan to deal with leeches. The How-To Manual after this essay deals with these issues. No, taking away the idea of a boss does not make everyone less passive, selfish, thieving, nor suddenly unlearning learned helplessness.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T18:52:45.815Z"
+    }
+   ],
+   "updated": "2026-11-01T18:52:45.815Z"
+  },
+  {
+   "id": "C-6",
+   "type": "yours",
+   "title": "“political). The two pendulum ends of this …”",
+   "where": "Why Communities Keep Dying in the Same Two Ways, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Most communes of my acquaintance traded inner freedom of the heart (spirituality) for outer freedom (secular, nondogmatic, political), or the other way around. The two pendulum ends of this trade-off mirror each other. I believe we can combine the best of both, but first, let’s see how each fails individually.",
+   "before": "Most communes of my acquaintance traded inner freedom of the heart (spirituality) for outer freedom (secular, nondogmatic, political). The two pendulum ends of this trade-off mirror each other. I believe we can combine the best of both, but first, let’s see how each fails individually.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T18:53:03.569Z"
+    }
+   ],
+   "updated": "2026-11-01T18:53:03.569Z"
+  },
+  {
+   "id": "C-7",
+   "type": "yours",
+   "title": "“these people? Try an unprogrammed Quaker or …”",
+   "where": "Practice group of whom?, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Uh, but wait, where do you find people for a practice group? Try an unprogrammed Quaker or Unitarian meeting, a restorative-practice group, any open-hearted congregation, a mature recovery group, a meditation group, or find some people who have gone on long retreats and come back kinder, rather than more impressed with themselves.",
+   "before": "Uh, but wait, where do you find these people? Try an unprogrammed Quaker or Unitarian meeting, a restorative-practice group, any open-hearted congregation, a mature recovery group, a meditation group, or find some people who have gone on long retreats and come back kinder, rather than more impressed with themselves.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T18:53:11.265Z"
+    }
+   ],
+   "updated": "2026-11-01T18:53:11.265Z"
+  },
+  {
+   "id": "C-8",
+   "type": "yours",
+   "title": "“Fun and nice things first give incentive. …”",
+   "where": "Practice Before Committing, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "So, build the part of community you actually can. **Call it a practice group**, for now, not a commune. Do the fun and nice things first, to give people an incentive. Have a weekly meal with two households. Set up a counseling exchange with one friend, in person or by video call. Share tools or childcare. Transport or food prep work too. Or a sauna. And if you’re hippie enough, add acro-yoga, dance improv, a mothers’ circle or a cuddle puddle.",
+   "before": "So, build the part of community you actually can. **Call it a practice group**, for now, not a commune. Fun and nice things first give incentive. Have a weekly meal with two households. Set up a counseling exchange with one friend, in person or by video call. Share tools or childcare. Transport or food prep work too. Or a sauna. And if you’re hippie enough, add acro-yoga, dance improv, a mothers’ circle or a cuddle puddle.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T18:53:19.794Z"
+    }
+   ],
+   "updated": "2026-11-01T18:53:19.794Z"
+  },
+  {
+   "id": "C-9",
+   "type": "ask",
+   "title": "“you can all meet in a rented …”",
+   "where": "Practice Before Committing, P3",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Did you mean that the group keeps meeting in rented or borrowed places, or at each other's houses, until it really needs land, or that it can try living together there before anyone buys land?",
+   "your_version": "",
+   "comment": "2nd yeah",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-01T18:54:20.520Z"
+  },
+  {
+   "id": "C-10",
+   "type": "typo",
+   "title": "“Leaving, Removal, and Dissolution” section after that …”",
+   "where": "From Visitor to Member—Slowly, P8",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Before making long-term commitments, it really makes sense to go through the choices explained in my below sections about technology, relationships, children, money, and founder power. The exit terms in the “Leaving, Removal, and Dissolution” section after that would also help with thinking about those agreements.",
+   "before": "Before making long-term commitments, it really makes sense to go through the choices explained in my below sections about technology, relationships, children, money, and founder power. The exit terms in “Leaving, Removal, and Dissolution” section after that would also help for thinking about those agreements.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T18:54:35.240Z"
+    }
+   ],
+   "updated": "2026-11-01T18:54:35.240Z"
+  },
+  {
+   "id": "C-11",
+   "type": "hanging",
+   "title": "“But it means that people building institutions …”",
+   "where": "Are Zapatistas just unicorns?, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Sociocracy has a very different history, yet some similar features have emerged there as well: circles, decision-making by consent, distributed authority, and linking between the levels. That means people building institutions of this sort have another serious system to study, instead of inventing their governance during their first dispute.",
+   "before": "Sociocracy has a very different history, yet some similar features have emerged there as well: circles, decision-making by consent, distributed authority, and linking between the levels. But it means that people building institutions of this sort have another serious system to study, instead of inventing their governance during their first dispute.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T18:55:06.105Z"
+    }
+   ],
+   "updated": "2026-11-01T18:55:06.105Z"
+  },
+  {
+   "id": "C-12",
+   "type": "yours",
+   "title": "“shouldn’t translate that information into administration over …”",
+   "where": "2. Relational pl/ork, P3",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "But since we’re merging peer therapy with community, we also need to make sure that the person caring about you and listening to you doesn’t turn what you tell them into administration over your life, the way a professional therapist might diagnose you as this or that and then suddenly you’re ineligible for certain careers. Although obviously that information can come out regardless when people are in close quarters.",
+   "before": "But since we’re merging peer therapy with community, we also need to make sure that the person caring about you and listening to you shouldn’t translate that information into administration over your life, the way a professional therapist might diagnose you as this or that and then suddenly you’re ineligible for certain careers. Although obviously that information can come out regardless when people are in close quarters.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T18:55:20.145Z"
+    }
+   ],
+   "updated": "2026-11-01T18:55:20.145Z"
+  },
+  {
+   "id": "C-13",
+   "type": "yours",
+   "title": "“They’re right though that modern folk do …”",
+   "where": "No Special Shamans, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "And while I do think it’s valuable to have someone highly experienced in navigating the spirit worlds who is able to sense where you are in those and guide you, I also wouldn’t trust many of these shamans to guide me, considering it’s common to find that even the ones who can heal people very well may still be happy to send evil spirits to kill someone, if that hit job is lucrative. I also don’t trust their medical intuition in general, considering the Huni Kuin shamans are famous for claiming that all other ayahuasca shamans are giving people cancer by using the knotted B. caapi vine (since the knots remind them of tumors). The lineages are right, though, that modern folk do very often decide they’re ready to lead ceremonies long before they’re really trained and prepared. I’m sure I could still learn a lot from those traditions, and they will continue to develop their understandings as well.",
+   "before": "And while I do think it’s valuable to have someone highly experienced in navigating the spirit worlds who is able to sense where you are in those and guide you, I also wouldn’t trust many of these shamans to guide me, considering it’s common to find that even the ones who can heal people very well may still be happy to send evil spirits to kill someone, if that hit job is lucrative. I also don’t trust their medical intuition in general, considering the Huni Kuin shamans are famous for claiming that all other ayahuasca shamans are giving people cancer by using the knotted B. caapi vine (since the knots remind them of tumors). They’re right though that modern folk do very often decide they’re ready to lead ceremonies long before they’re really trained and prepared. I’m sure I could still learn a lot from those traditions, and they will continue to develop their understandings as well.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T18:55:25.254Z"
+    }
+   ],
+   "updated": "2026-11-01T18:55:25.254Z"
+  },
+  {
+   "id": "C-14",
+   "type": "yours",
+   "title": "“they are fond of each other. It’s …”",
+   "where": "Children Need Freedom Inside Real Protection, P6",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "I feel very much saddened by the way that adults are seen as (and actually often are) so dangerous for children in the West, especially when an adult and a child are fond of each other. It’s good for kids to have a whole bunch of grownups who know them and enjoy them, who would notice when something changes, and who would act when something’s wrong. When adults panic like that, kids can lose all those grownups without the panic actually preventing abuse. It’s amazing when you travel the world and you see how sick US culture is especially… all over Africa and parts of Asia, I’ve seen parents let their kids run around naked in public with no qualms or concerns. That’s real freedom!",
+   "before": "I feel very much saddened by the way that adults are seen as (and actually often are) so dangerous for children in the West, especially when they are fond of each other. It’s good for kids to have a whole bunch of grownups who know them and enjoy them, who would notice when something changes, and who would act when something’s wrong. When adults panic like that, kids can lose all those grownups without the panic actually preventing abuse. It’s amazing when you travel the world and you see how sick US culture is especially… all over Africa and parts of Asia, I’ve seen parents let their kids run around naked in public with no qualms or concerns. That’s real freedom!",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T18:55:45.004Z"
+    }
+   ],
+   "updated": "2026-11-01T18:55:45.004Z"
+  },
+  {
+   "id": "C-15",
+   "type": "ask",
+   "title": "“but that’s something which varies a lot …”",
+   "where": "Children Need Freedom Inside Real Protection, list item",
+   "advice": "ask",
+   "status": "answered",
+   "question": "What varies: what counts as acceptable physical discipline, from one society to another, or how much of it goes on, in every society, so that it isn't special to communes?",
+   "your_version": "",
+   "comment": "both",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-01T18:56:17.401Z"
+  },
+  {
+   "id": "C-16",
+   "type": "hanging",
+   "title": "“are present, they are worth paying attention …”",
+   "where": "Founderism: The Four Questions, P7",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "If several of these point to one person or clique, they are worth paying attention to before the founder(s) can explain how the situation is uniquely different in a spiritual way. Ask these questions about any community, teacher or method, including me.",
+   "before": "If several are present, they are worth paying attention to before the founder(s) can explain how the situation is uniquely different in a spiritual way. Ask these questions about any community, teacher or method, including me.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T18:57:05.685Z"
+    }
+   ],
+   "updated": "2026-11-01T18:57:05.685Z"
+  },
+  {
+   "id": "C-17",
+   "type": "typo",
+   "title": "“time as I’m describing may happen in …”",
+   "where": "Founderism: The Four Questions, P8",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "While founderism is a problem in every community, it’s especially so in communities which form naturally over time, as I’ve said may happen in my case. In such cases, there’s no formal community and no formal rules until people decide to come together to make them. It doesn’t make sense to do that at first, if, say, I’m the only one there and I don’t know who else will be there that I could trust. If there’s one other person who comes to visit, it also doesn’t make sense, so there’s a critical mass point at which people decide “we were just living together like friends, but now we want to formalize the community.”",
+   "before": "While founderism is a problem in every community, it’s especially so in communities which form naturally over time as I’m describing may happen in my case. In such cases, there’s no formal community and no formal rules until people decide to come together to make them. It doesn’t make sense to do that at first, if, say, I’m the only one there and I don’t know who else will be there that I could trust. If there’s one other person who comes to visit, it also doesn’t make sense, so there’s a critical mass point at which people decide “we were just living together like friends, but now we want to formalize the community.”",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T18:57:11.491Z"
+    }
+   ],
+   "updated": "2026-11-01T18:57:11.491Z"
+  },
+  {
+   "id": "C-18",
+   "type": "hanging",
+   "title": "“practices go too far against the communal …”",
+   "where": "How My Own Model Could Become a Cult, P5",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "“Nothing suppressed, everything processed” can become a situation where someone in the group must tell all, even if they don’t want to. I have seen that risk in groups that use the ZEGG Forum practice. But privacy also can be resistance to the communal spirit, so there has to be a living, always re-assessed balance between what you and the community owe each other, and what remains your own domain. But some private practices go too far against the communal spirit. If someone starts worshipping Satan, say, they get booted.",
+   "before": "“Nothing suppressed, everything processed” can become a situation where someone in the group must tell all, even if they don’t want to. I have seen that risk in groups that use the ZEGG Forum practice. But privacy also can be resistance to the communal spirit, so there has to be a living, always re-assessed balance between what you and the community owe each other, and what remains your own domain. But some practices go too far against the communal spirit. If someone starts worshipping Satan, say, they get booted.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T18:57:15.386Z"
+    }
+   ],
+   "updated": "2026-11-01T18:57:15.386Z"
+  },
+  {
+   "id": "C-19",
+   "type": "hanging",
+   "title": "“their wounded ego projection, and that should …”",
+   "where": "How My Own Model Could Become a Cult, P7",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Dissent is important for growth. Sometimes it really is the dissenter’s wounded ego projecting, and that should be acknowledged. But again, balance, because if complaints are too often or too broadly painted as projection, that’s as much a failure, if not more so.",
+   "before": "Dissent is important for growth. Sometimes it really is their wounded ego projection, and that should be acknowledged. But again, balance, because if complaints are too often or too broadly painted as projection, that’s as much a failure, if not more so.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T18:57:26.839Z"
+    }
+   ],
+   "updated": "2026-11-01T18:57:26.839Z"
+  }
+ ]
+}

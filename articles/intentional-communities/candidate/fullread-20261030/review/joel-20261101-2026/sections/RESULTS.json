@@ -1,0 +1,623 @@
+{
+ "ic1101-01": {
+  "headline": "Mostly Human Written",
+  "likelihood": 0.042,
+  "words": 1211,
+  "utc": "2026-11-01T21:08:40Z",
+  "link": "https://www.pangram.com/history/1cb32234-2b92-4553-ba33-9a91b28ef530",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 291,
+    "start": 0,
+    "end": 1704,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 10,
+    "start": 1704,
+    "end": 1759,
+    "text": "That’s where the ***escuelita*** in my title comes in."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 30,
+    "start": 1759,
+    "end": 1949,
+    "text": "Escuelita means “little school.” I’m borrowing the word from the Zapatistas in Mexico, whose *Escuelita* brought outsiders into their communities for a while to learn autonomy by living it."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 39,
+    "start": 1949,
+    "end": 2168,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 12,
+    "start": 2168,
+    "end": 2236,
+    "text": "Otherwise, we’ve built a lovely refuge for whoever got there first."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 64,
+    "start": 2236,
+    "end": 2640,
+    "text": ""
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 22,
+    "start": 2640,
+    "end": 2748,
+    "text": "I was usually just a visitor’s kid, close enough to see how people lived but never quite part of the tribe."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "words": 25,
+    "start": 2748,
+    "end": 2880,
+    "text": "At the time, that meant a lot of boredom, with some adventures mixed in, but those years gave me a great sample to compare against."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 718,
+    "start": 2880,
+    "end": 6896,
+    "text": ""
+   }
+  ]
+ },
+ "ic1101-02": {
+  "headline": "Mostly Human Written",
+  "likelihood": 0.01,
+  "words": 410,
+  "utc": "2026-11-01T21:08:51Z",
+  "link": "https://www.pangram.com/history/83546a94-5012-4b8e-939b-f6196714c9e5",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 113,
+    "start": 0,
+    "end": 682,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 6,
+    "start": 682,
+    "end": 714,
+    "text": "What’s starving them is anomie."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 11,
+    "start": 714,
+    "end": 782,
+    "text": "We evolved to live in small groups where everybody knows everybody."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 30,
+    "start": 782,
+    "end": 948,
+    "text": "In a large society, the shared norms and close ties that held those groups together fall apart, and nobody knows anybody well enough to see what they’re really like."
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 10,
+    "start": 948,
+    "end": 1002,
+    "text": "That’s how large societies end up run by psychopaths."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 18,
+    "start": 1002,
+    "end": 1115,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 11,
+    "start": 1115,
+    "end": 1182,
+    "text": "After years of decline, interest climbed sharply in the mid-2020s."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 211,
+    "start": 1182,
+    "end": 2483,
+    "text": ""
+   }
+  ]
+ },
+ "ic1101-03": {
+  "headline": "Mostly Human Written",
+  "likelihood": 0.056,
+  "words": 376,
+  "utc": "2026-11-01T21:09:01Z",
+  "link": "https://www.pangram.com/history/3746268a-9329-4a84-9d84-6b8908afb809",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 293,
+    "start": 0,
+    "end": 1979,
+    "text": ""
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "words": 21,
+    "start": 1979,
+    "end": 2122,
+    "text": "---\n![Infographic, “Building Healing Community – How It Could Work: a lived village, a training ground, and a path toward deeper common life”."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 62,
+    "start": 2122,
+    "end": 2545,
+    "text": ""
+   }
+  ]
+ },
+ "ic1101-04": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 212,
+  "utc": "2026-11-01T21:09:13Z",
+  "link": "https://www.pangram.com/history/99326514-7f71-4d66-919b-58f80a7e2769",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 212,
+    "start": 0,
+    "end": 1173,
+    "text": ""
+   }
+  ]
+ },
+ "ic1101-05": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 184,
+  "utc": "2026-11-01T21:09:23Z",
+  "link": "https://www.pangram.com/history/f8dd00b0-1937-44a6-a53d-4fb5bd484217",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 184,
+    "start": 0,
+    "end": 1072,
+    "text": ""
+   }
+  ]
+ },
+ "ic1101-06": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 240,
+  "utc": "2026-11-01T21:09:35Z",
+  "link": "https://www.pangram.com/history/1548a133-acdb-4ce3-9187-04e6fa950d53",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 12,
+    "start": 0,
+    "end": 76,
+    "text": "Practice Before Committing\nSo, build the part of community you actually can."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 22,
+    "start": 76,
+    "end": 193,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 7,
+    "start": 193,
+    "end": 233,
+    "text": "Have a weekly meal with two households."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 14,
+    "start": 233,
+    "end": 307,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 13,
+    "start": 307,
+    "end": 378,
+    "text": "Share tools or childcare. Transport or food prep work too. Or a sauna."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 172,
+    "start": 378,
+    "end": 1345,
+    "text": ""
+   }
+  ]
+ },
+ "ic1101-07": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 767,
+  "utc": "2026-11-01T21:09:48Z",
+  "link": "https://www.pangram.com/history/4114affd-4958-4696-b2f9-7ac39159648c",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 44,
+    "start": 0,
+    "end": 230,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 5,
+    "start": 230,
+    "end": 261,
+    "text": "But practical burden piled up."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 27,
+    "start": 261,
+    "end": 428,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 3,
+    "start": 428,
+    "end": 449,
+    "text": "(Not everyone does.)"
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 22,
+    "start": 449,
+    "end": 564,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 20,
+    "start": 564,
+    "end": 678,
+    "text": "It’s a lot cheaper to find out through a thoughtful exchange than after six months of misunderstanding, right? 2."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 26,
+    "start": 678,
+    "end": 816,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 5,
+    "start": 816,
+    "end": 840,
+    "text": "Not exactly a high bar."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 9,
+    "start": 840,
+    "end": 880,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 1,
+    "start": 880,
+    "end": 882,
+    "text": "3."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 70,
+    "start": 882,
+    "end": 1295,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 1,
+    "start": 1295,
+    "end": 1297,
+    "text": "4."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 534,
+    "start": 1297,
+    "end": 4396,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 0,
+    "start": 4396,
+    "end": 4400,
+    "text": "---"
+   }
+  ]
+ },
+ "ic1101-08": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 150,
+  "utc": "2026-11-01T21:10:00Z",
+  "link": "https://www.pangram.com/history/8a45bf4b-c3c8-421e-b476-f5522791cbce",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 150,
+    "start": 0,
+    "end": 960,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 0,
+    "start": 960,
+    "end": 964,
+    "text": "---"
+   }
+  ]
+ },
+ "ic1101-09": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 151,
+  "utc": "2026-11-01T21:10:12Z",
+  "link": "https://www.pangram.com/history/e6a32208-e037-47ad-8a4c-e4101968490f",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 1,
+    "start": 0,
+    "end": 2,
+    "text": "2."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 150,
+    "start": 2,
+    "end": 886,
+    "text": ""
+   }
+  ]
+ },
+ "ic1101-10": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 487,
+  "utc": "2026-11-01T21:10:59Z",
+  "link": "https://www.pangram.com/history/07a1ef32-e197-470b-a7d7-43033835dfaa",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 487,
+    "start": 0,
+    "end": 2812,
+    "text": ""
+   }
+  ]
+ },
+ "ic1101-11": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 846,
+  "utc": "2026-11-01T21:11:10Z",
+  "link": "https://www.pangram.com/history/19f6861d-c720-4386-84d1-51d763397ce8",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 424,
+    "start": 0,
+    "end": 2436,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 1,
+    "start": 2436,
+    "end": 2438,
+    "text": "2."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 56,
+    "start": 2438,
+    "end": 2722,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 1,
+    "start": 2722,
+    "end": 2724,
+    "text": "3."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 49,
+    "start": 2724,
+    "end": 3021,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 2,
+    "start": 3021,
+    "end": 3030,
+    "text": "I agree."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 109,
+    "start": 3030,
+    "end": 3659,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 1,
+    "start": 3659,
+    "end": 3661,
+    "text": "4."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 62,
+    "start": 3661,
+    "end": 4050,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 1,
+    "start": 4050,
+    "end": 4052,
+    "text": "5."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 140,
+    "start": 4052,
+    "end": 4914,
+    "text": ""
+   }
+  ]
+ },
+ "ic1101-12": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 628,
+  "utc": "2026-11-01T21:11:20Z",
+  "link": "https://www.pangram.com/history/8fd35d0f-d85f-4e6a-9a3e-a1218df59770",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 344,
+    "start": 0,
+    "end": 1939,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 17,
+    "start": 1939,
+    "end": 2023,
+    "text": "Whose name is on the deed? Who’s in charge of the resources? Who keeps the records?"
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 267,
+    "start": 2023,
+    "end": 3458,
+    "text": ""
+   }
+  ]
+ },
+ "ic1101-13": {
+  "headline": "Human Written",
+  "likelihood": 0.0,
+  "words": 438,
+  "utc": "2026-11-01T21:11:31Z",
+  "link": "https://www.pangram.com/history/57a2de91-9de9-41a7-b1c8-95a78b3ee955",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 438,
+    "start": 0,
+    "end": 2567,
+    "text": ""
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 0,
+    "start": 2567,
+    "end": 2571,
+    "text": "---"
+   }
+  ]
+ }
+}
