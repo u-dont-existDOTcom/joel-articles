@@ -11,6 +11,9 @@ From an account with Desktop Commander connected to the laptop, the laptop copy 
 
 ## START HERE
 
+**His message of 2026-11-01 20:26 UTC** (`fullread-20261030/review/joel-20261101-2026/joel-20261101-2026-message.txt`, with his editor's HTML of the post, EDITOR-BEFORE-20261101-2026.html): "i didn't make the edits to community guide, that's too much. you can do that." **Done:** the 19 changes went into his post through its editor in the app's browser (one editor transaction, then Update and "Update now", settings untouched); the public post has all 19 and the working copy's words (`LIVE-CHECK-20261101.json` beside the message); `joel-20261101-2026/promote_20261101.py` made it `master.md` and set the receipt, owner locks, editorial status, current state and registry. When he asks for edits in his live post, they go in through its editor this way: each "Find" string checked to occur once in one run of text, the replacements in one transaction, and the public post read back through Substack's API.
+- **Next:** a Pangram check of each section the 19 changes touched, by itself (gate E307), in his account in the app's browser or through the API on the laptop; fix every window that reads AI or Human (Low) (E306), as edits for his post made the same way; list the small Human (Medium) ones.
+
 **His message of 2026-10-30 20:15 UTC, in the hypnosis guide lane** (`articles/inner-signal/humanize/fix-20261030/joel-20261030-2015-message.txt`):
 "i guess we need to go back and re-read the community article as well after this then". **Done on 30 October:** I read
 the live post (`master.md`, "Updated: Oct 25 2026") beside his published version myself, ten parts, sentence by sentence
@@ -27,9 +30,7 @@ and slips, seven suggestions for his own words, one fix to my words, and two que
   (gate E308). `fullread-20261030/review/apply_answers.py` made `WORKING-20261101.md` (master.md with the 19 changes,
   each pair checked to occur once), `SUBSTACK-EDITS.md` (the 19 old/new pairs for Substack's editor, sent to him) and
   `RECORD-FULLREAD.json`; `READ-ANSWERS.md` is my read of the two answers' words.
-- **Next:** when he says the 19 changes are in his post, read his post (https://community.u-dont-exist.com redirects to
-  it) against `fullread-20261030/review/WORKING-20261101.md`, then promote it to `master.md` with a receipt, as
-  `joel-20261025/promote_20261026.py` did, and register.
+- **Then (done 2026-11-01 20:26 UTC, above):** the 19 changes went into his post for him, and master.md is that version.
 
 **His message of 2026-10-26 00:54 UTC** (`joel-20261025/joel-20261026-0054-message.txt`): "and i made the changes on the community article that's done". Done (pull request 254, https://github.com/u-dont-existDOTcom/joel-articles/pull/254): his post read in the app's browser (https://community.u-dont-exist.com redirects to it) and compared line by line with `joel-20261025/answer66/WORKING.html`'s checked text: 270 of 272 lines equal, the two others differ only by a space the post drops; all five new sentences are there (`answer66/PROMOTE-CHECK-20261026.json`). `joel-20261025/promote_20261026.py` (a copy of the last promotion for this version) made `master.md` from it and set the receipt, owner locks, editorial status, detector evidence (478g), current state and registry hashes.
 - The questions page (https://claude.ai/artifact/1EA9KBhMGXHXiiTUGScx1J) is republished from `community-questions.html`: nothing open.
@@ -272,10 +273,10 @@ State at the end of the turn of Joel's message of 2026-10-16 23:38 UTC:
 - Every turn, give Joel the article so far: since 2026-10-23, the new version's reading copy (`joel-20261023/restructure/READING-COPY.md`, as its GitHub link); before that, `candidate/community-article-so-far.html` and the side-by-side page of any section that changed, as files (the latest scripts: section 13 `s13/make_page_v37b.py`, section 14 `s14/make_page_v8.py`, section 15 `s15/make_page_v17.py`, section 16 `s16/make_page_v30.py`, section 8 `fix-20261017d/make_pages_s8.py`). Check each with `python3 tools/humanization/html_links.py PAGE.html` before sending.
 
 ## Waiting on Joel
-1. **The 19 changes in Substack's editor** (his answers of 2026-11-01 to the full read's cards page):
-   `fullread-20261030/review/SUBSTACK-EDITS.md`, sent to him. Nothing else is open in this lane.
+Nothing in this lane (2026-11-01 20:26 UTC: he asked me to make the 19 changes in his post, and they are in).
 ## Next step
-1. When the 19 changes are in his post: the first bullet of START HERE says what to do.
+1. A Pangram check of each section the 19 changes touched, by itself (E307); fix every window that reads AI or Human
+   (Low) (E306) as edits made in his post the same way, and list the small Human (Medium) ones (START HERE).
 2. After any new Emulate run on this article: the strict Emulate check again (`joel-20261025/emulate-check/run_audit.sh`;
    `docs/EMULATE-FALLBACK.md` section 4).
 3. Before every push: `python3 scripts/register_article_artifacts.py --article intentional-communities --write`, then the

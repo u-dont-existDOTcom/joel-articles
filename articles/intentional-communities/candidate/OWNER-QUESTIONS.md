@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-11-01, after your answers of 18:57 UTC to the full read's cards page. **Open questions: 0.** **For you to do**: the 19 changes in Substack's editor.
+Last updated 2026-11-01, after your message of 20:26 UTC (you asked me to make the 19 changes in your post). **Open questions: 0.** **For you to do**: nothing.
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -12,12 +12,14 @@ None right now.
 
 ## For you to do
 
-- 🟠 **The 19 changes in Substack's editor**: [the list, each as the words to find and the words to put in their place](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/fullread-20261030/review/SUBSTACK-EDITS.md). Your answers to the cards page, all 19 of them; then click Update and tell me, and I'll read your post against my copy.
+Nothing right now.
 
 ## Decided
 
 > [!TIP]
 > Answered, with what I did.
+
+- 🟢 2026-11-01 20:26 UTC, "i didn't make the edits to community guide, that's too much. you can do that." ([your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/fullread-20261030/review/joel-20261101-2026/joel-20261101-2026-message.txt)). Done: I made the 19 changes in your post's editor and clicked Update (the audience and the other settings as they were). Your post now has all 19, and every other word is as it was. Its title already said "Updated: Nov 1 2026" in the editor, so that went live with them. The article's master copy in Git is that version now. Next, each section with a change gets a Pangram check by itself, and any window that reads AI or Human (Low) gets fixed, as you said for the hypnosis guide.
 
 - 🟢 2026-11-01 18:57 UTC, your answers to [Community Article Cards, 30 October](https://claude.ai/artifact/QzrX2ZWqtWZdW3WR6ZNq5X): all 17 approved; C-9 "2nd yeah" and C-15 "both" are now words ([my read of them](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/fullread-20261030/review/READ-ANSWERS.md)). Your note on C-3 is a rule now: commas that are clearly needed go in without a card.
 

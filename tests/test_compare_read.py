@@ -166,6 +166,19 @@ class CompareReadTests(unittest.TestCase):
         (self.d / 'read' / 'READ-RECORD.json').write_text(json.dumps({'coverage': [], 'findings': []}), encoding='utf-8')
         self.assertEqual(C.gate(self.d / 'gate.json', self.d), [])
 
+    def test_a_card_copied_back_into_his_version_is_not_his(self):
+        # E311: his version of EM-Q1 was the card's own list with quote marks fixed; only the lines he changed are his
+        item = {'before': 'Line one, the card\'s.\nLine two, the card\'s.',
+                'my_version': 'Line one, the card\'s.\nLine two, the card\'s.',
+                'your_version': 'Line one, the card\'s.\nLine two, as he rewrote it.'}
+        self.assertEqual(C.his_lines(item), [C.loose('Line two, as he rewrote it.')])
+        (self.d / 'answers.json').write_text(json.dumps({'items': [item]}), encoding='utf-8')
+        mine = C.owner_paragraphs(['answers.json'], self.d)
+        self.assertFalse(C.is_his(C.loose('Line one, the card\'s.'), mine))
+        self.assertTrue(C.is_his(C.loose('Line two, as he rewrote it.'), mine))
+        # a version of his own, with no card text in it, stays his whole
+        self.assertEqual(C.his_lines({'your_version': 'All his.'}), [C.loose('All his.')])
+
     def test_reader_fields_parse_across_lines(self):
         recs, total = C.parse_reader('## F2.1\nNOW: one line\nand another\nPUBLISHED: none\nKIND: Lost (a point)\n'
                                      'SEVERITY: 2 (most readers)\nWHY: because.\n\nTOTAL: 1\n', 2)

@@ -1,0 +1,366 @@
+{
+ "about": "The community post after the 19 changes of his answers of 1 November went in. Joel, 2026-11-01 20:26 UTC: \"i didn't make the edits to community guide, that's too much. you can do that.\" (joel-20261101-2026-message.txt, with his editor's HTML, EDITOR-BEFORE-20261101-2026.html). In the app's browser (his Substack, signed in), the post's editor (https://ibogaqueen.substack.com/publish/post/198340475) held each of the 19 \"Find\" strings of ../SUBSTACK-EDITS.md once, each inside one run of text with no marks; the 19 replacements went in as one editor transaction (each old string then 0 times, each new one once), the editor saved, and Update, then \"Update now\" in Substack's dialog (audience and settings untouched), put them live. The title already read \"Updated: Nov 1 2026\" in the saved editor (not changed by me). Then the public post was read through Substack's API without signing in.",
+ "post": {
+  "url": "https://ibogaqueen.substack.com/p/building-healing-community-escuelitas",
+  "title": "Building Healing Community \"Escuelitas\" to Save The World 🫶🏿🌍🫶🏿 Updated: Nov 1 2026",
+  "subtitle": "People are desperate to get back to a saner lifestyle. Getting there might seem crazy at first. 😅",
+  "audience": "everyone",
+  "post_date": "2026-07-13T18:22:25.148Z",
+  "draft_updated_at": "2026-11-01T20:29:47.711Z (Substack's draft record, after the changes saved)",
+  "body_html_sha256": "2d1d92196d41757ed0b21aa9e37e2d8ce05d13aec828cb7899d707768e3c8623",
+  "body_html_bytes": 225669
+ },
+ "the_19_changes_live": {
+  "each_old_string_count": 0,
+  "each_new_string_count": 1,
+  "all_19": true
+ },
+ "editor_before_update": {
+  "editor_words": 15594,
+  "working_words": 15700,
+  "differences": 38,
+  "note": "the same kinds as below: every one structural"
+ },
+ "live_against_working": {
+  "working": "WORKING-20261101.md at commit 0562d2381a30a349dda4aaef907dde935d194ad4 (master.md with the 19 changes)",
+  "live_words": 15557,
+  "working_words": 15700,
+  "method": "the words of every top-level block of the live body_html (embeds and buttons left out) against the words of the working Markdown with its links, images and emphasis marks stripped, in order; a difference is a run where they part until five words agree again",
+  "differences": 65,
+  "by_kind": {
+   "an embed's or button's own text in the working Markdown (the editor's chrome, not the article's words)": 7,
+   "a horizontal rule (Markdown only)": 17,
+   "two list items run together in the HTML text (no space between items)": 37,
+   "a list number (Markdown only)": 3,
+   "a line break (the Markdown backslash)": 1
+  },
+  "word_differences": 0,
+  "list": [
+   {
+    "live": "",
+    "working": "Share \"Where's Utopia?\" (Click READ MORE): My father's 1988 documentary on Communal Living in USA, online for first time",
+    "kind": "an embed's or button's own text in the working Markdown (the editor's chrome, not the article's words)"
+   },
+   {
+    "live": "",
+    "working": "Subscribe now ---",
+    "kind": "an embed's or button's own text in the working Markdown (the editor's chrome, not the article's words)"
+   },
+   {
+    "live": "",
+    "working": "---",
+    "kind": "a horizontal rule (Markdown only)"
+   },
+   {
+    "live": "",
+    "working": "---",
+    "kind": "a horizontal rule (Markdown only)"
+   },
+   {
+    "live": "",
+    "working": "---",
+    "kind": "a horizontal rule (Markdown only)"
+   },
+   {
+    "live": "those.You",
+    "working": "those. You",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "etc.You’re",
+    "working": "etc. You’re",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "",
+    "working": "---",
+    "kind": "a horizontal rule (Markdown only)"
+   },
+   {
+    "live": "",
+    "working": "1.",
+    "kind": "a list number (Markdown only)"
+   },
+   {
+    "live": "right?The",
+    "working": "right? 2. The",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "out.The",
+    "working": "out. 3. The",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "months.Taking",
+    "working": "months. 4. Taking",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "",
+    "working": "---",
+    "kind": "a horizontal rule (Markdown only)"
+   },
+   {
+    "live": "",
+    "working": "---",
+    "kind": "a horizontal rule (Markdown only)"
+   },
+   {
+    "live": "",
+    "working": "Professor Baby Sheep Taught Me Inner Child Shaking Therapy! 😅🫶🏿🐑 Copy link",
+    "kind": "an embed's or button's own text in the working Markdown (the editor's chrome, not the article's words)"
+   },
+   {
+    "live": "",
+    "working": "Double click to interact with video",
+    "kind": "an embed's or button's own text in the working Markdown (the editor's chrome, not the article's words)"
+   },
+   {
+    "live": "",
+    "working": "---",
+    "kind": "a horizontal rule (Markdown only)"
+   },
+   {
+    "live": "",
+    "working": "---",
+    "kind": "a horizontal rule (Markdown only)"
+   },
+   {
+    "live": "",
+    "working": "---",
+    "kind": "a horizontal rule (Markdown only)"
+   },
+   {
+    "live": "months.The",
+    "working": "months. The",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "also…Do",
+    "working": "also… Do",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "alternative.In",
+    "working": "alternative. In",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "continuously.Your",
+    "working": "continuously. Your",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "mom.One",
+    "working": "mom. One",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "time.There",
+    "working": "time. There",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "911.And",
+    "working": "911. And",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "",
+    "working": "Double click to interact with video",
+    "kind": "an embed's or button's own text in the working Markdown (the editor's chrome, not the article's words)"
+   },
+   {
+    "live": "",
+    "working": "---",
+    "kind": "a horizontal rule (Markdown only)"
+   },
+   {
+    "live": "",
+    "working": "Spirit and Mind Health### Facing the Polycrisis: Is There Hope For Humanity? u-dont-exist.com · 15 novembre 2025 Read fu",
+    "kind": "an embed's or button's own text in the working Markdown (the editor's chrome, not the article's words)"
+   },
+   {
+    "live": "",
+    "working": "---",
+    "kind": "a horizontal rule (Markdown only)"
+   },
+   {
+    "live": "",
+    "working": "---",
+    "kind": "a horizontal rule (Markdown only)"
+   },
+   {
+    "live": "",
+    "working": "Double click to interact with video",
+    "kind": "an embed's or button's own text in the working Markdown (the editor's chrome, not the article's words)"
+   },
+   {
+    "live": "",
+    "working": "---",
+    "kind": "a horizontal rule (Markdown only)"
+   },
+   {
+    "live": "",
+    "working": "1.",
+    "kind": "a list number (Markdown only)"
+   },
+   {
+    "live": "needs.Create",
+    "working": "needs. 2. Create",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "allowed.)Teach",
+    "working": "allowed.) 3. Teach",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "such.When",
+    "working": "such.\\ When",
+    "kind": "a line break (the Markdown backslash)"
+   },
+   {
+    "live": "protection.Hear",
+    "working": "protection. 4. Hear",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "fairly.Make",
+    "working": "fairly. 5. Make",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "",
+    "working": "---",
+    "kind": "a horizontal rule (Markdown only)"
+   },
+   {
+    "live": "",
+    "working": "1.",
+    "kind": "a list number (Markdown only)"
+   },
+   {
+    "live": "founder(s)?Can",
+    "working": "founder(s)? 2. Can",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "founder(s)?Can",
+    "working": "founder(s)? 3. Can",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "founder(s)?Can",
+    "working": "founder(s)? 4. Can",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "",
+    "working": "---",
+    "kind": "a horizontal rule (Markdown only)"
+   },
+   {
+    "live": "",
+    "working": "---",
+    "kind": "a horizontal rule (Markdown only)"
+   },
+   {
+    "live": "",
+    "working": "---",
+    "kind": "a horizontal rule (Markdown only)"
+   },
+   {
+    "live": "Mintz.A",
+    "working": "Mintz. A",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "Zapatistas.American",
+    "working": "Zapatistas. American",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "essential.Commune",
+    "working": "essential. Commune",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "there.A",
+    "working": "there. A",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "out!Within",
+    "working": "out! Within",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "communities.Seeking",
+    "working": "communities. Seeking",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "Morning.Voices",
+    "working": "Morning. Voices",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "autonomy.Inside",
+    "working": "autonomy. Inside",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "too.Living",
+    "working": "too. Living",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "observation.Hunt,",
+    "working": "observation. Hunt,",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "agreements.Want",
+    "working": "agreements. Want",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "sociocracy.Building",
+    "working": "sociocracy. Building",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "decision-making.Ludwig",
+    "working": "decision-making. Ludwig",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "people.It",
+    "working": "people. It",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "Ludwig.Commitment",
+    "working": "Ludwig. Commitment",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "them.Alienation",
+    "working": "them. Alienation",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "them.Jo",
+    "working": "them. Jo",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   },
+   {
+    "live": "about.Want",
+    "working": "about. Want",
+    "kind": "two list items run together in the HTML text (no space between items)"
+   }
+  ]
+ }
+}

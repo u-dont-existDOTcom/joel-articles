@@ -1,5 +1,39 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-11-01, the second full read and the contradiction read; Joel's answers of 20:29 UTC to their cards
+
+**The read** (`fix-20261101/fullread2/`: PARTS.json, PART-n.txt, READER-1..18.md, FIXES-1..18.json, CLAIMS-1..18.md,
+FINDINGS.json, DISPOSITIONS.json, READ-RECORD.json): the whole guide (620 paragraphs) read again by the lead session
+beside his published version (E294, E309): Emulate's shouting, compressed or vague sentences said plainly from the
+published meaning, lists given the links between their items (N-580), his tells, needed commas (E308). 216 findings
+(205 rated 1, 10 rated 2, and F1.6, which is in his published text too): 205 fixed in our words; 5 fixed in his words as
+punctuation or obvious slips, each listed (`apply_fullread2.py` TOUCHES_HIS: F6.11, F7.6, F11.17, F13.5, F13.19); 4 his
+(F1.6, F7.5 and F18.1 to his cards page; F14.3, his "some kind of proof", left as he wrote it); 2 done with the merge.
+**The contradiction read** (E310; `CONTRADICTIONS.md`, from the CLAIMS files): K1 to K8 fixed in our words, K9 to his
+cards page, and the checked non-contradictions and repeats listed. **The two-hand practice** (his S-636): the two-hand
+induction section cut, its one new paragraph (his) moved into The two-hand practice, and the troubleshooting line and
+Appendix D name the practice. `apply_fullread2.py` put it all in from the guide as read (d4f3b12e..., commit b20792c6):
+130 changes, no links dropped. `VERIFY-PAIRS.md` (`read/verify_pairs.py`) is every change before and after; I read each
+beside his text, and the seven new tells my own fixes had brought in were reworded (`read/record_fix_read.py`,
+`read/READ-RECORD.json`, 190 paragraphs).
+
+**Whose words** (E311, E312): the gate's owner corpus counted a card's own text copied back into his version as his
+words; `compare_read.py` now counts only the lines he changed (`his_lines`, with a test). My own sentence-level check of
+which fixes changed his words missed two paragraphs he rewrote on 30 October, which `compare_read.py collect` flagged:
+F7.5 (his fingers script, N-276) went to his cards page, and F13.19 (his Reframing questions, R-561) keeps his words, with
+quotation marks (straight, like the others in his paragraph) and a comma.
+
+**His cards page**: [Hypnosis Guide Cards, 1 November](https://claude.ai/artifact/C66yqEFThWQcAFtdAdLEpH)
+(`fix-20261101/fullread2/review/`, REVIEW-FR2.md is the cards as text, with his words changed without a card at its end):
+K9, F1.6, F7.5 and F18.1. **His answers at 20:29 UTC** (`review/ANSWERS-20261101-2029.json`): all four approved, in the
+guide as the cards showed them (`fix-20261101/fr2-answers/apply_answers_fr2.py`, APPLIED-FR2.json; the guide
+a32e6afe...), read record `fix-20261101/fr2-answers/read/READ-RECORD.json`. Comparison gate: PASS (0 unread, 0 open).
+
+The Human (Low) windows of 30 October that are his words, 293 (fractionation) and 601 (Appendix C's opening), wait for
+the section checks; the others are fixed or now sit in his new versions. Lessons E311 and E312.
+
+Delegations (model, piece, check, outcome): none; every read was the lead session's own.
+
 ## 2026-11-01, after Joel's message of 18:57 UTC (his answers to both cards pages; "28ii"; fix every AI and Human (Low) section; read the guide for contradictions)
 
 His message, word for word: `fix-20261101/joel-20261101-1857-message.txt`; his answers:

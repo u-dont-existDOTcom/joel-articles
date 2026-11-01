@@ -18,6 +18,13 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-11-01 20:29 UTC: the second full read and the contradiction read are in, and his four cards are approved.**
+  The lead model read the whole guide again beside his published version (`fix-20261101/fullread2/`: 216 findings, 205
+  fixed in our words, his own words to his page or fixed as listed punctuation and slips), listed the guide's claims and
+  read them against each other (CONTRADICTIONS.md: eight fixed, one his), and taught the two-hand practice once (S-636).
+  His answers to [Hypnosis Guide Cards, 1 November](https://claude.ai/artifact/C66yqEFThWQcAFtdAdLEpH) approved all four
+  (`fix-20261101/fr2-answers/`). Whose words a fix touches goes by paragraph: run `compare_read.py collect` against the
+  guide as read, and every finding it marks "owner_words" is a card or a listed slip (E312; E311 fixed the gate's corpus).
 - **2026-11-01 18:57 UTC: his answers are in, and his question 28 is "ii" with a sharper rule (E306).** Fix every window
   that reads AI or Human (Low), without checking it again first; list the small Human (Medium) ones; read below-High
   windows' meaning again ("often smoothed over and vague"), without confabulating to reach High. Check each section by
@@ -163,7 +170,9 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 ## Waiting on Joel
 
 The guide: **nothing right now**; the next step below is mine. His answers to
-[Hypnosis Guide Cards, 30 October](https://claude.ai/artifact/RQ6cqZAF2JevtxgWgSPS9o) came on 2026-11-01 and are in
+[Hypnosis Guide Cards, 1 November](https://claude.ai/artifact/C66yqEFThWQcAFtdAdLEpH) came at 20:29 UTC and are in
+(`fix-20261101/fr2-answers/APPLIED-FR2.json`), as did his answers to
+[Hypnosis Guide Cards, 30 October](https://claude.ai/artifact/RQ6cqZAF2JevtxgWgSPS9o) at 18:57 UTC
 (`fix-20261101/APPLIED-30b.json`); question 28 is decided (E306); question 27 stays open on his page. Merging pull request
 265 here, and the universal architecture's pull request 450, are his. His answers to [Hypnosis
 Guide Cards](https://claude.ai/artifact/SxZ3CYESSGw1KWJp46mRAG) came on 2026-10-30 at 14:35 UTC and are in. One
@@ -259,7 +268,25 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-11-01, after Joel's message of 18:57 UTC: his answers in; 28 ii; the whole guide to read again)
+## Next step (2026-11-01, after Joel's answers of 20:29 UTC: the second full read and its cards in; the section checks next)
+
+Done (STATUS.md's entry for the second full read has every file): the whole guide read again by the lead model
+(`fix-20261101/fullread2/`), the contradiction read (CONTRADICTIONS.md), the two-hand merge, his four cards approved and
+in (`fix-20261101/fr2-answers/`), lessons E311 and E312. The guide so far: HUMANIZED-SO-FAR.md a32e6afe...
+
+Next:
+1. **Each section checked by itself in Pangram** (E307): a section is a heading and its paragraphs, down to the next
+   heading of the same or a higher level; a long section split at its subheadings. In his account in the app's browser
+   (https://www.pangram.com/dashboard; about 1 credit per 100 words, about 310 for the whole guide; look at the credits
+   left first) or on the laptop with his API key (`tools/humanization/pangram_api.py`). Record every window's
+   confidence (E278), with each result's link.
+2. **Every window that reads AI or Human (Low) gets fixed** (E306), without a recheck first: its meaning read again
+   beside the published version (below High is often smoothed over and vague), then a fix that says it plainly, never
+   confabulated; our words fixed in place and read beside his text, his own words to his cards page (293 and 601 if
+   they still read Low). Small Human (Medium) windows: listed. Each fixed section checked again by itself.
+3. **Then the whole guide**, on the Substack drafts with his extension (the secret preview links, E277).
+
+## Earlier next step (2026-11-01, after Joel's message of 18:57 UTC: his answers in; 28 ii; the whole guide to read again)
 
 His message, word for word: `fix-20261101/joel-20261101-1857-message.txt`. Done (STATUS.md's entry after 18:57 has every
 file): his answers in the guide (`fix-20261101/apply_answers_30b.py`, APPLIED-30b.json), the gate's read of the six

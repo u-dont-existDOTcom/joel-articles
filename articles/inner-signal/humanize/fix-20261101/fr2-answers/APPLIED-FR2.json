@@ -1,0 +1,37 @@
+{
+ "answers": "articles/inner-signal/humanize/fix-20261101/fullread2/review/ANSWERS-20261101-2029.json",
+ "review": "articles/inner-signal/humanize/fix-20261101/fullread2/review/REVIEW-FR2.json",
+ "before_sha256": "c44cffb21f9fe338b1ec8213c9a981110758777e74e016895d6897412fa7ca27",
+ "after_sha256": "a32e6afe295f3c185307eb622264212a978878dc52be19ebfa83dac91cc0691b",
+ "links_dropped": [],
+ "applied": [
+  {
+   "id": "K9",
+   "where": "Before you begin, P3",
+   "old": "intoxicated and/or more confused than usual",
+   "new": "intoxicated and more confused than usual",
+   "at": "2026-11-01T20:28:37.102Z"
+  },
+  {
+   "id": "F1.6",
+   "where": "Before you begin, P6",
+   "old": "As my dad always said, \"Always and in everything, expect the very best. But be prepared to take what you get. The best might come afterwards!\"",
+   "new": "As my dad always said, \"Be prepared to take what you get. The best might come afterwards!\"",
+   "at": "2026-11-01T20:28:54.270Z"
+  },
+  {
+   "id": "F7.5",
+   "where": "Make the hypnosis more active, P2",
+   "old": "you bring yourself into a clear state of awareness.",
+   "new": "you bring yourself into the clearest state of awareness yet.",
+   "at": "2026-11-01T20:29:10.423Z"
+  },
+  {
+   "id": "F18.1",
+   "where": "7. Care workshop, P1",
+   "old": "Tell your little one, \"That's enough for today. We're going back to the life we're building.\"",
+   "new": "",
+   "at": "2026-11-01T20:29:18.711Z"
+  }
+ ]
+}

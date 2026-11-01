@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-11-01, after your message of 18:57 UTC (your answers to both cards pages, and 28 ii).
-**Open questions: 1** (27). **For you to do**: nothing for the guide right now; I'm on the full read below. The questions are at the top, with their
+Last updated 2026-11-01, after your answers of 20:29 UTC to the cards of my second full read.
+**Open questions: 1** (27). **For you to do**: nothing for the guide right now; I'm checking each section in Pangram. The questions are at the top, with their
 options and my default; under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠
 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -27,6 +27,20 @@ changed under them, so the rechecks decide; you don't need to mark them.
 
 Nothing for the guide right now.
 
+## Your answers of 2026-11-01 20:29 UTC, and what I did
+
+- 🟢 **Your four cards, in the guide** ([the cards as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/fullread2/review/REVIEW-FR2.md)): step 3 of
+  Before you begin says "intoxicated and more confused than usual" (K9); step 6 keeps the half of your dad's line it's
+  about (F1.6); the fingers script's last press is "the clearest state of awareness yet" (F7.5); and the care workshop
+  no longer repeats "That's enough for today ..." (F18.1).
+- 🟢 **My second full read of the guide**, every paragraph beside your published version: 216 things found. The 205 in
+  our words are fixed (Emulate's shouting, compressed or vague sentences said plainly from your published meaning, lists
+  given the links between their items, "one" and the other tells, commas). Eight contradictions in our words are fixed
+  too, and the two-hand practice is taught once now, with your paragraph from the induction moved into it (S-636). In
+  your own words only punctuation and a few slips changed, each listed at the end of the cards' text.
+- 🔵 **Next: each section checked in Pangram by itself** (E307), and every window that reads AI or Human (Low) fixed
+  straight away (E306); then the whole guide on the Substack drafts with your extension.
+
 ## Your message of 2026-11-01 18:57 UTC, and what I did
 
 - 🟢 **28: ii** ([your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/joel-20261101-1857-message.txt)). The guide is done when one check reads every window Human. A
@@ -39,11 +53,7 @@ Nothing for the guide right now.
   "Jim Carey", "we need overcome" and four double spaces), and S-24 stays out. Your new headings ("Induction: gathering
   and softening attention", "Overly Confusing Isn't Automatically Good", "Already Trancey? Stabilize before dipping
   deeper.") are in, and the one place that named "Already open? Contain before you deepen" now names the new heading.
-- 🔵 **Next, the whole guide read again by me** (E309, E310): every place Emulate made it shout, every compressed or vague
-  sentence said plainly from your published version (not from what Emulate added), disjoint lists given the links that
-  explain them, things that contradict each other anywhere in the guide, and the two-hand practice's four versions cut
-  or merged (your S-636 comment). Then every window that read AI or Human (Low) in the last check and isn't in your new
-  versions gets fixed, each section is checked in Pangram by itself, and the whole guide last.
+- 🟢 **The whole guide read again by me** (E309, E310), and the contradiction read: done (above, 20:29 UTC).
 
 ## Your message of 2026-10-30 21:40 UTC, and what I did
 
