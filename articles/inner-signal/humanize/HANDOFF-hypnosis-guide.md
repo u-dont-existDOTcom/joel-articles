@@ -624,7 +624,9 @@ high confidence human if you can, and always we should be marking down the confi
   HG-rest-B#72 right; the part forecasts 27 of 27 and 14 of 14.
 - **The guide's own questions page** ("Hypnosis Guide Questions", https://claude.ai/artifact/8o79MFm9vSpyMGrAeArZYx), a
   view of `OWNER-QUESTIONS.md` made by `articles/intentional-communities/candidate/tools/render_questions.py` into
-  `guide-questions.html`: republish it (same file path) whenever the file changes.
+  `guide-questions.html` with the title as its third argument (`"Hypnosis Guide Questions"`; without it the page is
+  titled "Community Article Questions", as happened once on 2026-11-01): republish it (same file path) whenever the file
+  changes.
 - **Two standing rules** (AGENTS.md, gates E277 and E278, docs, memory): every lane gives Joel each temporary draft's
   secret preview link (`tools/humanization/substack_secret_link.js`), and every Pangram result is recorded with each
   window's confidence, a window at less than High being work to do where a fix keeps his meaning and form.
