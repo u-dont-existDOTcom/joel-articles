@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-10-30, after your message of 21:40 UTC (the second recheck's two results).
-**Open questions: 2.** **For you to do**: your cards page, and question 28. The questions are at the top, with their
+Last updated 2026-11-01, after your message of 18:57 UTC (your answers to both cards pages, and 28 ii).
+**Open questions: 1** (27). **For you to do**: nothing for the guide right now; I'm on the full read below. The questions are at the top, with their
 options and my default; under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠
 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -9,18 +9,6 @@ The master copy of this page is [this file in Git](https://github.com/u-dont-exi
 read and update it. Every file it points to is a link.
 
 ## Open questions
-
-- 🟣 **28. How do we call the guide done?** The two rechecks of 30 October showed that words nobody changed read
-  differently from one check to the next: of the windows of unchanged words, 6 of 87 that read Human (High) at 20:15 read
-  AI at 21:40 (3 of them at High), and the two that read AI at 20:15 read Human (High) at 21:40, with nothing changed in
-  or near any of them ([the table](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/tries/read/STABILITY.md)). So every whole-guide check will turn up a few new red
-  windows, whatever we do. The options:
-  1. **My default:** the guide is done when every paragraph reads clearly beside your published version, no stretch reads
-     AI in two checks in a row, and nothing reads AI at High right next to a change. Red that shows up once on words
-     nobody changed goes on your cards page as "reads AI this time only", and we only act on it if it comes back.
-  2. Keep going until one check reads every window Human (the rule as it stands). Expect more rounds, since a few
-     windows move each time.
-  3. Something else: say what.
 
 - 🟣 **27. Which list did you mean?** Your comment on the audit card ends "see if you can apply the fix strategy I used
   above on the below:" and nothing comes after it. My default: Appendix C's list ("Before you do what it wants you to
@@ -37,11 +25,25 @@ changed under them, so the rechecks decide; you don't need to mark them.
 
 ## For you to do
 
-- 🟠 **Your cards page**: [Hypnosis Guide Cards, 30 October](https://claude.ai/artifact/RQ6cqZAF2JevtxgWgSPS9o) ([its cards as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/tries/review/REVIEW-30b.md)).
-  21 cards: 7 of my tries that read Human (three of them sentences I take back out), one that reads better but not Human
-  yet, 5 suggestions for your own words, 3 places for you to rewrite (they still read AI after a try), and 5 that read AI
-  this time only. When you're done, click **Copy my answers** and send them to me.
-- 🟠 **Question 28** above.
+Nothing for the guide right now.
+
+## Your message of 2026-11-01 18:57 UTC, and what I did
+
+- 🟢 **28: ii** ([your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/joel-20261101-1857-message.txt)). The guide is done when one check reads every window Human. A
+  window that reads AI or Human (Low) gets fixed straight away, without another check to confirm it; Human (Medium) ones
+  that aren't large are listed and left; and a window below High gets its meaning read again, since those are often the
+  smoothed-over, vague places (gate E306, which replaces my "two checks in a row"). Sections get checked by themselves,
+  not only inside the whole guide (E307).
+- 🟢 **Your cards page, in the guide** ([your answers](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/tries/review/ANSWERS-20261101-1850.json); [what went in, card by card](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/APPLIED-30b.json)): the 10 you
+  approved, your 10 versions word for word (obvious typos only fixed and listed: "embarass", "int he", "Can you can",
+  "Jim Carey", "we need overcome" and four double spaces), and S-24 stays out. Your new headings ("Induction: gathering
+  and softening attention", "Overly Confusing Isn't Automatically Good", "Already Trancey? Stabilize before dipping
+  deeper.") are in, and the one place that named "Already open? Contain before you deepen" now names the new heading.
+- 🔵 **Next, the whole guide read again by me** (E309, E310): every place Emulate made it shout, every compressed or vague
+  sentence said plainly from your published version (not from what Emulate added), disjoint lists given the links that
+  explain them, things that contradict each other anywhere in the guide, and the two-hand practice's four versions cut
+  or merged (your S-636 comment). Then every window that read AI or Human (Low) in the last check and isn't in your new
+  versions gets fixed, each section is checked in Pangram by itself, and the whole guide last.
 
 ## Your message of 2026-10-30 21:40 UTC, and what I did
 

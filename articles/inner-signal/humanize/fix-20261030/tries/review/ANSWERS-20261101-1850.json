@@ -1,0 +1,461 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "inner-signal-hypnosis-guide-cards-20261030b",
+ "title": "Hypnosis Guide Cards, 30 October",
+ "git_file": "articles/inner-signal/humanize/fix-20261030/tries/review/REVIEW-30b.html",
+ "article": {
+  "file": "articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "975fdb3c2ac7d4a92856683866cf14d758cbf907e6ec408d605ceec3a1faed2b"
+ },
+ "built": "2026-10-30 21:51 UTC",
+ "generator": "suggestion_review.py 1.4 (2026-10-30)",
+ "exported_at": "2026-11-01T18:50:10.593Z",
+ "counts": {
+  "approved": 10,
+  "rejected": 1,
+  "revise": 10,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "S-14",
+   "type": "yours",
+   "title": "“since it's not \"achieving something\", but …”",
+   "where": "Introduction, P6",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "“How do I do this?” you ask. Just listen silently. Many people skip the listening or shorten it since it's not \"achieving something\", but this is by far the most important step. When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic trance experience to see the results in your day-to-day life, with all parts of your mind talking to each other and trusting each other more.",
+   "before": "“How do I do this?” you ask. Just listen silently. Many people skip the listening or shorten it since it's not \"achieving something\" but this is by far the most important step. When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic trance experience to demonstrate the results of all parts of your mind talking to each other and trusting each other more.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-10-30T22:12:15.201Z"
+    }
+   ],
+   "updated": "2026-10-30T22:12:15.201Z"
+  },
+  {
+   "id": "S-20",
+   "type": "yours",
+   "title": "“You'll follow whatever you notice …”",
+   "where": "Quick start: do this first, P3",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - and let it shape your next invite. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return to normal waking consciousness. After, note what happened & any real-world actions it calls for.",
+   "before": "You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - as you're invited. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return to normal waking consciousness. After, note what happened & any real-world actions.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-10-30T22:15:23.254Z"
+    }
+   ],
+   "updated": "2026-10-30T22:15:23.254Z"
+  },
+  {
+   "id": "S-24",
+   "type": "yours",
+   "title": "“And \"not sure\" is a perfectly good answer …”",
+   "where": "Do you usually think in words?, P2",
+   "advice": "approve",
+   "status": "rejected",
+   "your_version": "",
+   "comment": "this is that ai slop creeping back in with the over careful wording",
+   "my_version": "Keep in mind that it's normal, even for people who do think in words, to sometimes notice feelings before words. And \"not sure\" is a perfectly good answer to these questions. They're just here to help you pick instructions that work for you.",
+   "before": "Keep in mind that it's normal, even for people who do think in words, to sometimes notice feelings before words.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "rejected",
+     "at": "2026-10-30T22:15:59.535Z"
+    }
+   ],
+   "updated": "2026-10-30T22:16:19.547Z"
+  },
+  {
+   "id": "T-35",
+   "type": "passes",
+   "title": "“Ads, screens, fear and cravings …”",
+   "where": "Protecting Yourself from Hypnotists, P6",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "With self-hypnosis you can train your own mind from the inside, by befriending and listening to the deeper part of your mind. This opens up a whole new area of choice for you as an adult in the world.",
+   "before": "Ads, screens, fear and cravings are already training your mind, and so are your tribe, the people in authority, loneliness and plain old repetition. With self-hypnosis you can train your own mind from the inside, by befriending and listening to the deeper part of your mind. This opens up a whole new area of choice for you as an adult in the world.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-10-30T22:16:57.017Z"
+    }
+   ],
+   "updated": "2026-10-30T22:16:57.017Z"
+  },
+  {
+   "id": "N-145",
+   "type": "red",
+   "title": "“This is not the same as your …”",
+   "where": "Your inherited parent script, P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Your inherited parent script\nOne important thing to become aware of when approaching your inner child is your inherited parent script. This is the set of rules and ways of treating yourself that you internalized as a child, mostly based on how your parent(s) treated you, and it doesn’t always sound like a voice. This is not the same as your inner adult (Nurturer, Protector, Guide) that you build up on purpose. Often this script acts as a critic or warden, telling your inner child not to cry or complain. You might be hearing, \"Don't be needy! Don't embarass us! And don't be independent.\" So when you begin talking to your inner child in a new, loving way, that dusty old script may huff and puff that what you’re doing is “fake”.",
+   "comment": "it actually read as Mixed when i tested it with the heading. i also noticed this was saying talk to your child. it hsould be inner child not child. child is like a real child. \n\nit's all human now on its own",
+   "my_version": "One important thing to become aware of when approaching your inner child is your inherited parent script. This is the set of rules and ways of treating yourself that you internalized as a child, mostly based on how your parent(s) treated you, and it doesn’t always sound like a voice. This is not the same as your inner adult (Nurturer, Protector, Guide) that you build up on purpose. Often this script acts as a critic or warden, telling your inner child not to cry, not to be “needy”, not to embarrass them, not to be too independent, etc. So when you begin talking to your child in a new, loving way, the script may jump in to say that what you’re doing is “fake”.",
+   "before": "One important thing to become aware of when approaching your inner child is your inherited parent script. This is the set of rules and ways of treating yourself that you internalized as a child, mostly based on how your parent(s) treated you, and it doesn’t always sound like a voice. This is not the same as your inner adult (Nurturer, Protector, Guide) that you build up on purpose. Often this script acts as a critic or warden, telling your inner child not to cry, not to be “needy”, not to embarrass them, not to be too independent, etc. So when you begin talking to your child in a new, loving way, the script may jump in to say that what you’re doing is “fake”.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-10-30T22:17:41.066Z"
+    }
+   ],
+   "updated": "2026-10-30T22:21:29.035Z"
+  },
+  {
+   "id": "R-162",
+   "type": "rewrite",
+   "title": "“How much of the grown-up you …”",
+   "where": "Don’t rush the repair, P5",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "A. Prepare yourself to tend to them with some privacy, but still able to access support if needed. Check how much grown-up you is really int he room first. Can you can pause before you act? Are you following through after making decisions? If you can’t do those things because you’re basically the frightened kid still, then let’s leave the deeper conversation until later. Do whatever helps you come back a bit before you try to talk to little you. ",
+   "comment": "you had introduced some repetition about support, maybe that's what got it flagged. i checked the section and it was mixed, but with this edit, it's human",
+   "my_version": "A. Prepare yourself to tend to them (get yourself into a place where you can spend time with them, have privacy, feel you can access support if you need it, and be as adult as you can be). How much of the grown-up you is actually here right now? Try looking around the room, pausing before you act, making a choice and following through on it. If you can't do that because you're basically the frightened kid, leave the deeper conversation until later.",
+   "before": "A. Prepare yourself to tend to them (get yourself into a place where you can spend time with them, have privacy, feel you can access support if you need it, and be as adult as you can be). How much of the grown-up you is actually here right now? Try looking around the room, pausing before you act, making a choice and following through on it. If you can't do that because you're basically the frightened kid, leave the deeper conversation until later.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-10-30T22:26:02.671Z"
+    }
+   ],
+   "updated": "2026-10-30T22:44:53.485Z"
+  },
+  {
+   "id": "N-238",
+   "type": "red",
+   "title": "“Decide on a hypnotic tone (warm, indirect, …”",
+   "where": "Please don’t put six metaphors in one trance, P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Induction: gathering and softening attention\n\nInductions serve to gather your awareness up into a gentler, trancier, more receptive form so you can access the inner knowing that's too quiet for our ordinary awareness to hear.  Call me a heretic, but I don't think inductions should be about surrendering to the hypnotist while playing asleep. \n\nSometimes it's nice to do an actual induction if you're sober but distracted or analytical or otherwise not very trancey. If, on the other hand, you're already pretty trancey for whatever reason, skip straight to \"Already trancey? Stabilize before dipping deeper.\"\n\nThere are lots of different ways to do the induction. For this method, I'm going to be counting, but you could do all sorts of things. If you want to just talk, or tell a story, or move, or make sounds, or be curious, or whatever, by all means, just do that if it works. Everyone's unique and each person might have a kind that works best for them which they'll discover as they go.  The nice thing about the counting method is it's very explicitly an induction, whereas more implicit methods you have to make sure to explain its function clearly.\n\nYou can test to see if you're at a deep enough level of hypnosis by choosing a simple target suggestion and checking if the response is the automatic subconscious kind or the analytical questioning kind.\n\nOverly Confusing Isn't Automatically Good\n\"Keep it simple, stupid!\" (KISS principle) actually can apply to hypnosis!\n\n It's really easy to take a whole bunch of techniques from all of this and make something so complicated that you \"hypnotize\" yourself to the point where you don't even know if it worked or not. But keep in mind that especially with self-hypnosis, we can't go so deep that we are unable to continue the session! And even if it were a hypnotist bringing you under, you still need to be at an \"access level\" of awareness in which you can respond to questions.\n\nSo start off with setting one anchor/image to rest your mind's eye on. Decide on a hypnotic tone (warm, indirect, direct, neutral witnessing, etc.) for the session. If you're going to use metaphors, just start with one, and if you switch metaphors midway, understand the purpose of the switch. Then plan a simple stepwise walk out of the subconscious at session's end.\n\nIn fact, you don't even need to use metaphors nor imagery. You can use whatever form of inner signal that you notice. It may be a direct knowing, or an emotion, some kind of rhythmic movement or sound, or other kind of spatial perception technique like body scanning or flipping between awareness of different body parts. \n\nKeep the language tied to the subconscious world you've chosen, so if you're counting, and there are already raindrops falling, you can count the raindrops, not the sheep which aren't in that scene. When you're done, come back out the opposite way from how you went in (we often visualize a staircase). \n\nIt's fine to borrow qualities such as warmth or steadiness from someone who models them, if you need to, but don't change who you are. We don't want you showing up at the Emmy's like Jim Carey saying he's Nobody. 😅 Not yet anyways.\n\nWhen you're writing the script, decide what the central verb you're using is to anchor it (like \"letting go\"). Give it an overall sensory quality, like unified or disjoint, or something fun like \"fluffy wuffy.\" \nYou may have a short refrain that you come back to a few times in there as another type of anchor. Think about how you're going to slide from one idea to the next. It's much easier if you read it out loud as you're writing it, since the writing brain is sort of different from the vocal brain. Long, elegant sentences don't read well when you're being induced. You want your script to be soft, but to the point, easy to remember, easy to say, easy to grok.",
+   "comment": "i was shocked to test a larger part, have you not been checking larger parts also? look at this https://www.pangram.com/history/c92d8c29-48a9-4e0e-a355-97a4aabb4f7c?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\ni think that should save you some trouble trying to understand how the full article changes... we're just getting lucky thanks to some other sections that make this look more human. altho these 2 paras by themselves do pass. i guess this was a flaw in the original design of the humanization process?\n\nbut as usual i'm glad i rewrote it to get to human high conf because it does read a lot better and more clearly now",
+   "my_version": "\"Keep it simple, stupid!\" (KISS principle). It's really easy to take a whole bunch of techniques from all of this and make something so complicated that you \"hypnotize\" yourself to the point where you don't even know if it worked or not. So start off with setting one anchor/image. Decide on a hypnotic tone (warm, indirect, direct, neutral witnessing, etc.) for the session. If you're going to use metaphors, just start with one, and if you switch metaphors midway, understand the purpose of the switch. Then plan a simple stepwise walk out of the subconscious at session end.\n\nUsing metaphors and imagery is your call. You can use whatever form of inner signal that you notice. It may be a direct knowing, or an emotion, words, some kind of rhythm, movements or other kind of spatial perception. Keep the language tied to the subconscious world you've chosen, so if you're counting, and there are already raindrops falling, you can count the raindrops, for example. When you're done, come back the opposite way from how you went in. You can borrow qualities such as warmth or steadiness from someone who models them, but don't change who you are.",
+   "before": "\"Keep it simple, stupid!\" (KISS principle). It's really easy to take a whole bunch of techniques from all of this and make something so complicated that you \"hypnotize\" yourself to the point where you don't even know if it worked or not. So start off with setting one anchor/image. Decide on a hypnotic tone (warm, indirect, direct, neutral witnessing, etc.) for the session. If you're going to use metaphors, just start with one, and if you switch metaphors midway, understand the purpose of the switch. Then plan a simple stepwise walk out of the subconscious at session end.\n\nUsing metaphors and imagery is your call. You can use whatever form of inner signal that you notice. It may be a direct knowing, or an emotion, words, some kind of rhythm, movements or other kind of spatial perception. Keep the language tied to the subconscious world you've chosen, so if you're counting, and there are already raindrops falling, you can count the raindrops, for example. When you're done, come back the opposite way from how you went in. You can borrow qualities such as warmth or steadiness from someone who models them, but don't change who you are.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-10-30T22:47:22.201Z"
+    },
+    {
+     "from": "revise",
+     "to": "pending",
+     "at": "2026-10-30T22:48:03.105Z"
+    },
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-01T18:49:59.672Z"
+    }
+   ],
+   "updated": "2026-11-01T18:49:59.672Z"
+  },
+  {
+   "id": "T-495",
+   "type": "passes",
+   "title": "“If nothing changes, notice that too …”",
+   "where": "Before you begin, P6",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "Let your response guide you as to what to do next regardless of what the script is expecting. Utilize: use what you have (a thought, sound, movement, or objection) to go to the next place, whatever it is. Learn how to notice what is there. If nothing changes, notice that too. As my dad always said, \"Always and in everything, expect the very best. But be prepared to take what you get. The best might come afterwards!\" For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain.",
+   "comment": "",
+   "my_version": "Let your response guide you as to what to do next regardless of what the script is expecting. Utilize: use what you have (a thought, sound, movement, or objection) to go to the next place, whatever it is. Learn how to notice what is there. If nothing changes, notice that too, and don't talk yourself into believing it worked in some way you can't see. For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain.",
+   "before": "Let your response guide you as to what to do next regardless of what the script is expecting. Utilize: use what you have (a thought, sound, movement, or objection) to go to the next place, whatever it is. Learn how to notice what is there. If nothing changes, notice that too: no change doesn't mean it worked in some way you can't see. For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T17:20:33.052Z"
+    },
+    {
+     "from": "approved",
+     "to": "revise",
+     "at": "2026-11-01T17:20:52.507Z"
+    }
+   ],
+   "updated": "2026-11-01T17:21:46.703Z"
+  },
+  {
+   "id": "T-249",
+   "type": "passes",
+   "title": "“Don't read the directions out loud …”",
+   "where": "Sober induction: 3–5 minutes, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "You can read this slowly into your recorder, or you can read it out loud or say it to yourself if you are good at that. Choose a sound, or a contact, or the two-hand practice (above) or something to anchor yourself, and choose the thing you will say to open it up. Use the same anchor wherever the script mentions it. Don't read the directions out loud, just pause between paragraphs.",
+   "before": "You can read this slowly into your recorder, or you can read it out loud or say it to yourself if you are good at that. Choose a sound, or a contact, or the two-hand practice (above) or something to anchor yourself, and choose the thing you will say to open it up. Use the same anchor wherever the script mentions it. Don't read the directions out loud. Just pause between paragraphs.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T17:22:03.363Z"
+    }
+   ],
+   "updated": "2026-11-01T17:22:03.363Z"
+  },
+  {
+   "id": "N-269",
+   "type": "red",
+   "title": "“Say something like, \"Only what I can …”",
+   "where": "Already open? Contain before you deepen, P4",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Already Trancey?  Stabilize before dipping deeper.\nThis is for when you're already open for some reason (loveyhuasca, meditation, lucid dreaming, going through grief, listening to beautiful music, prayer, erotic energy, exhaustion, seeing something you love, etc) and want to aim and stabilize it.\n\nKnow that you're already open, you just need to aim and stabilize it, and keep it kind.\n\nOrient yourself by looking around. Where are you? What's the date or day? How does your body feel? Where are you grounded? Can you feel your feet/hands/spine/etc? Make some contact with yourself, eg press your thumbs against the tips of your index fingers gently but firmly so that you can feel friction. Focus on that.\n\nSay something like, \"Only what I can integrate, please. Patience pays, so if there's too much, let it simmer. May my body stay safe, and may my little one know there's an adult here to carry the heavy stuff.\"",
+   "comment": "had to edit this section bc the heading was also low conf human, now it's all high conf",
+   "my_version": "Say something like, \"Only what I can integrate, please. If there's too much, it can wait. My body may stay safe. I'll be here as an adult, so my inner child doesn't have to carry this alone.\"\n\nWhen you feel oriented, make an intention.",
+   "before": "Say something like, \"Only what I can integrate, please. If there's too much, it can wait. My body may stay safe. I'll be here as an adult, so my inner child doesn't have to carry this alone.\"\n\nWhen you feel oriented, make an intention.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-01T17:28:00.688Z"
+    }
+   ],
+   "updated": "2026-11-01T17:28:27.155Z"
+  },
+  {
+   "id": "T-337",
+   "type": "passes",
+   "title": "“A tightening won't tell you …”",
+   "where": "Let the response change the invitation, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Your shoulders tightening, or 'hmm, that feels kind of wrong', is a signal to investigate further, but 'No! That is Not Right!' is a signal to stop what you're doing and change it. If you don't feel like it fits, don't keep doing it, and don't try saying it again more persuasively. Just change it. You don't need any other reason.",
+   "before": "Your shoulders tightening, or 'hmm, that feels kind of wrong', is a signal to investigate further. A tightening won't tell you what it's about by itself, so ask what happened and whether the invitation fits. But 'No! That is Not Right!' is a signal to stop what you're doing and change it. If you don't feel like it fits, don't keep doing it, and don't try saying it again more persuasively. Just change it. You don't need any other reason.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T17:28:40.752Z"
+    }
+   ],
+   "updated": "2026-11-01T17:28:40.752Z"
+  },
+  {
+   "id": "T-339",
+   "type": "better",
+   "title": "“Sometimes the invitation just isn't right …”",
+   "where": "Let the response change the invitation, P3",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "\"I notice the tightness, and I can just leave it like that. Then again, is that what I really want?\"\n\nSometimes the invitation just isn't right or helpful, even if it sounds like something a hypnotist might say. Each time we play around with this, we explore new possibilities which bring up new inner signals for us to feel out. \nDoubting is sometimes a guard to listen to, and sometimes simply part of normal consideration. Lack of doubt doesn't necessarily mean the process is working in the best way, either.",
+   "comment": "now it's human including the line prior",
+   "my_version": "Sometimes the invitation just isn't right, and other times it's brought up something you hadn't thought of, with a feeling that's worth meeting, so give it a little room and find out which. Either way, your doubt isn't automatically a guard, and silence doesn't mean a hidden process is working.",
+   "before": "Sometimes the invitation just isn't right. Sometimes it brings up a possibility you hadn't thought of, and the feeling that comes with it is worth meeting. You don't have to know which it is before you make room to find out. Either way, your doubt isn't automatically a guard, and silence doesn't mean a hidden process is working.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T17:29:08.599Z"
+    },
+    {
+     "from": "approved",
+     "to": "revise",
+     "at": "2026-11-01T17:29:22.816Z"
+    }
+   ],
+   "updated": "2026-11-01T17:34:32.313Z"
+  },
+  {
+   "id": "T-374",
+   "type": "passes",
+   "title": "“If your subconscious won’t answer …”",
+   "where": "Capacity before content, P5",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "This can lead to flooding, panic, false certainty, confabulation, dissociation etc. and can make your day SUCK! When you are flooded, it is much harder to access your adult capacities, so focus on being able to regulate and getting support! Just ask for what you need to know in a way that you CAN tolerate:",
+   "before": "This can lead to flooding, panic, false certainty, confabulation, dissociation etc. and can make your day SUCK! When you are flooded, it is much harder to access your adult capacities, so focus on being able to regulate and getting support! If your subconscious won’t answer, it may be protecting you until your adult is steady enough to take in what it has. Just ask for what you need to know in a way that you CAN tolerate:",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T17:35:10.677Z"
+    }
+   ],
+   "updated": "2026-11-01T17:35:10.677Z"
+  },
+  {
+   "id": "R-381",
+   "type": "rewrite",
+   "title": "“Is there a way you could try this …”",
+   "where": "Nothing happens, P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Check if there's a way you could try this on a smaller scale.\n\nTry out these requests: “Show me a body sensation.” “Show me just a word.” “Show me whether today is for listening or resting.”",
+   "comment": "\"one\" is super ai, and that compression",
+   "my_version": "Is there a way you could try this on a smaller scale?\n\nAsk: “Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.”",
+   "before": "Is there a way you could try this on a smaller scale?\n\nAsk: “Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.”",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-01T17:35:27.197Z"
+    }
+   ],
+   "updated": "2026-11-01T17:38:09.231Z"
+  },
+  {
+   "id": "T-503",
+   "type": "passes",
+   "title": "“Notice how the answer comes to you …”",
+   "where": "Pattern 2: Awareness verbs, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "nice you're getting the hang of fixing lists i guess",
+   "my_version": "Example: ‘Notice how the answer comes to you… maybe as an image, or a word… maybe as a pressure, or some warmth… or a silence, or a sense of what to do next.’",
+   "before": "Example: ‘Notice how the answer comes to you: as an image, a word, a pressure, some warmth, silence, or something to do next.’",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T17:38:17.060Z"
+    }
+   ],
+   "updated": "2026-11-01T17:38:40.311Z"
+  },
+  {
+   "id": "T-505",
+   "type": "passes",
+   "title": "“Presumption is a powerful thing (a presupposition …”",
+   "where": "Pattern 3: Presuppositions, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Presumption is a powerful thing (a presupposition hides an assumption inside a sentence, and the person hearing it usually takes that assumption on board), so please don’t use it except to presume that we will have the choice of when it will happen, that we will be able to do it, that we are safe, that we are loved and that our adult can lead us. Don’t ever presume obedience, the way a hypnotist does when they say something like, ‘As you go deeper, it gets easier and easier to just do what I say.’",
+   "before": "A presupposition is an assumption hidden inside a sentence. Presumption is a powerful thing, so please don’t use it except to presume that we will have the choice of when it will happen, that we will be able to do it, that we are safe, that we are loved and that our adult can lead us. Never use it to sneak in obedience.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T17:39:10.931Z"
+    }
+   ],
+   "updated": "2026-11-01T17:39:10.931Z"
+  },
+  {
+   "id": "R-508",
+   "type": "rewrite",
+   "title": "“A better bridge claims a lot less …”",
+   "where": "Pattern 4: Gentle cause-effect bridges, P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Bridge words are words like ‘as, whilst, because, when, after, before, which means’ etc. These are words that link events, which can make something seem like it goes along with or produces the next thing. That doesn't mean it actually does, of course.\n\nHere's an example of some of the overly commanding bridge language many hypnotists will use: “Because I breathe, the trauma leaves.”\n\nI prefer the communion version: “As I breathe, my adult self can allow itself to become present enough to hear a bit of what my wounded inner child needs.”",
+   "comment": "Emulate really made a lot of my guide sound like a madman screaming for some reaosn can we fix that ? the ai guide was way better. I went back to the ai guide and fixed it. we gotta read this whole guide again because it seems you still didn't see all the places where emualte messed it up. Although the AI guide was also too vague as you can see in this example. Which is prob why emulate took those liberties because the compression & vagueness had to be fixed somehow.",
+   "my_version": "Bridge words are words like ‘as, whilst, because, when, after, before, which means’ etc. These are words that link events. However, even if you say them in a lovely gentle voice it doesn’t mean that it’s true if it isn’t! It’s not very likely that just by breathing in and out your trauma is going to go away! A better bridge claims a lot less: ‘As I breathe, my adult self may become present enough to hear a small piece of what the wound needs.’\n\nAn embedded invitation places a small direction inside a larger sentence. For our purposes in ethical communion-style hypnosis, we don't use these to hide commands, but to smooth them into nudges without breaking the communion dialog rhythm: ie. \"And I can allow myself to experience...\"",
+   "before": "Bridge words are words like ‘as, whilst, because, when, after, before, which means’ etc. These are words that link events. However, even if you say them in a lovely gentle voice it doesn’t mean that it’s true if it isn’t! It’s not very likely that just by breathing in and out your trauma is going to go away! A better bridge claims a lot less: ‘As I breathe, my adult self may become present enough to hear a small piece of what the wound needs.’\n\nAn embedded invitation places a small direction inside a larger sentence. For our purposes in ethical communion-style hypnosis, we don't use these to hide commands, but to smooth them into nudges without breaking the communion dialog rhythm: ie. \"And I can allow myself to experience...\"",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-01T17:39:15.563Z"
+    }
+   ],
+   "updated": "2026-11-01T17:46:57.094Z"
+  },
+  {
+   "id": "N-580",
+   "type": "red",
+   "title": "“I do not use NLP on people …”",
+   "where": "What I will not use NLP for, P7",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "What I will not use NLP for\n\nHere is a list of things I don't do with NLP, whether I'm hypnotizing myself or someone else:\n\nI don't use NLP to convince anyone an intuition is true. For example,  I don't use NLP or hypnosis in general, to do more than initial memory retrieval work. Memories retrieved still need external validation, especially when they were led to (which NLP tends to). \n\nOn the other hand, I also don't use NLP to talk anyone out of a real signal. That doesn't mean we can't try to calm unbearable pain, but we must keep access to the awareness of the signal so that we can do the real root cause healing.\nAs an example, I won’t tell anyone to override their fear without first asking what it’s protecting. Or to make them feel urgency when they want time to process.\n\nI don't use NLP on people without their consent nor to bypass consent via covert commands. Nearly all hypnotists claim that hypnosis *cannot* violate consent, which is an absurdly ignorant and unethical claim.\nThat includes not manipulating anyone to feel like their \"no\" is the ego's resistance we need overcome, which is another way of saying they are spiritually inferior to me if they disagree with me.\nIf someone is in an unstable state in which they can't reasonably give consent, I don't use NLP to pretend they did. ",
+   "comment": "regardless of pangram, this whole section needed a much better organization and explanation. i amn thinking much of this you should have been able to do yourself. it looked way too disjoint and mechanical, the relationships between things that explain them were not there. ",
+   "my_version": "I do not use NLP on people who are panicked, destabilized, manic, having a psychosis-like state, or are too high/dissociated to reality test.\n\nI do not use NLP to make people feel like their no is resistance, or like they are spiritually inferior to me if they disagree with me.\n\nI do not use covert commands in my language.\n\nI do not use NLP to create urgency where time is needed.\n\nI do not use NLP on people without their consent (the idea that \"your subconscious will let me know if you want me to do this\" is NOT consent).\n\nI do not use NLP to get compliance from people in a suggestible state (in trance, tired, attracted to me, feeling shame or grief, or chemically altered).",
+   "before": "I do not use NLP on people who are panicked, destabilized, manic, having a psychosis-like state, or are too high/dissociated to reality test.\n\nI do not use NLP to make people feel like their no is resistance, or like they are spiritually inferior to me if they disagree with me.\n\nI do not use covert commands in my language.\n\nI do not use NLP to create urgency where time is needed.\n\nI do not use NLP on people without their consent (the idea that \"your subconscious will let me know if you want me to do this\" is NOT consent).\n\nI do not use NLP to get compliance from people in a suggestible state (in trance, tired, attracted to me, feeling shame or grief, or chemically altered).",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-01T17:47:11.920Z"
+    }
+   ],
+   "updated": "2026-11-01T18:04:16.655Z"
+  },
+  {
+   "id": "N-587",
+   "type": "red",
+   "title": "“Here is a rough outline of the …”",
+   "where": "Running the whole NLP sequence, P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Here is a rough outline of the entire NLP process:\n\nInduce yourself (meaning gather your attention into a soft focus) or contain yourself (meaning stabilize yourself) first if you are already too opened up to difficult memories/experiences.\n\nAsk yourself for permission: is it useful to work with this pattern today?\n\nGet a representation of your pattern. Do you see it as an image, with size, color and location, or do you feel it like a movement or some other kind of sensation?\n\nFind out if that part/pattern is protecting something for you.\n\nGently change an aspect of your pattern's representation from the prior step.\n\nBring in your 3 good adults (Nurturer to warm, Protector to make it safe, and Guide to point a direction). In real life they’re all part of the one inner adult, so we can imagine them splitting apart if need be and coming together as well.\n\nImagine running into a scenario where your old pattern would have triggered, and adopt a feasible new behavior. (\"If I see a red cloth,  then I will choose not to charge at it. I am not a bull anymore.\")\n\nCheck in with your body for signals during the re-imagining process, and what else besides body signals supports your new interpretation of the situation. Ask yourself whether the new behavior you've imagined is kind and sensible.",
+   "comment": "this section reads mixed by itself, so again you didn't need to test the whole article to understand this. i fixed it, passes high conf human",
+   "my_version": "Here is a rough outline of the entire NLP process:\n\nInduce or contain yourself (gather your attention, or stabilize yourself first if you are already wide open).\n\nAsk yourself for permission: is it useful to work with this image, feeling or pattern today?\n\nGet a representation of your pattern (image, feeling, size, color, location, movement, etc.).\n\nFind out what that part/pattern is protecting for you.\n\nGently change some aspect of your pattern (location, volume, space, posture, speed, etc.).\n\nBring in your 3 good adults (Nurturer to warm, Protector to make it safe, and Guide to point a direction). In real life they’re all part of the one inner adult, so we can imagine them splitting apart if need be and coming together as well.\n\nFuture pace a scenario where your old pattern would have triggered, and do a small new behavior (If...then... statement).\n\nCheck in with your body for changes, ask whether the new behavior is kind and doable, and ask what supports your new interpretation of the situation beyond how it feels.",
+   "before": "Here is a rough outline of the entire NLP process:\n\nInduce or contain yourself (gather your attention, or stabilize yourself first if you are already wide open).\n\nAsk yourself for permission: is it useful to work with this image, feeling or pattern today?\n\nGet a representation of your pattern (image, feeling, size, color, location, movement, etc.).\n\nFind out what that part/pattern is protecting for you.\n\nGently change some aspect of your pattern (location, volume, space, posture, speed, etc.).\n\nBring in your 3 good adults (Nurturer to warm, Protector to make it safe, and Guide to point a direction). In real life they’re all part of the one inner adult, so we can imagine them splitting apart if need be and coming together as well.\n\nFuture pace a scenario where your old pattern would have triggered, and do a small new behavior (If...then... statement).\n\nCheck in with your body for changes, ask whether the new behavior is kind and doable, and ask what supports your new interpretation of the situation beyond how it feels.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-01T18:04:26.962Z"
+    }
+   ],
+   "updated": "2026-11-01T18:16:30.578Z"
+  },
+  {
+   "id": "S-636",
+   "type": "yours",
+   "title": "“Do the two-hand practice from Working with …”",
+   "where": "Inner child love, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "but rather than just being less clear about the practice can we cut or merge some of the 4 dups?",
+   "my_version": "Do the two-hand practice from Working with your inner child, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix this problem. I’m here now to listen to you.” Make sure you're actually talking to your inner child, not just repeating a script. If you can't genuinely say all that and feel it, then just rest your hands there and notice what you find.",
+   "before": "Here is my basic inner child love practice technique. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix this problem. I’m here now to listen to you.” Make sure you're actually talking to your inner child, not just repeating a script. If you can't genuinely say all that and feel it, then just rest your hands there and notice what you find.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T18:16:51.133Z"
+    }
+   ],
+   "updated": "2026-11-01T18:17:48.761Z"
+  },
+  {
+   "id": "S-782",
+   "type": "yours",
+   "title": "“The study Not everybody has an inner …”",
+   "where": "Inner speech and putting experience into words, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "The study Not everybody has an inner voice (Nedergaard and Lupyan 2024) is not about self hypnosis adaptations, but about people with different amounts of inner speech. The questions in the quick start are a practical way of seeing for yourself how much inner speech you have.",
+   "before": "Not everybody has an inner voice (Nedergaard and Lupyan 2024) is not about self hypnosis adaptations, but about people with different amounts of inner speech. The questions in the quick start are a practical way of seeing for yourself how much inner speech you have.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T18:18:57.857Z"
+    }
+   ],
+   "updated": "2026-11-01T18:18:57.857Z"
+  }
+ ]
+}

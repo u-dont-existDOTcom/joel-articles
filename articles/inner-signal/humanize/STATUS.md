@@ -1,5 +1,36 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-11-01, after Joel's message of 18:57 UTC (his answers to both cards pages; "28ii"; fix every AI and Human (Low) section; read the guide for contradictions)
+
+His message, word for word: `fix-20261101/joel-20261101-1857-message.txt`; his answers:
+`fix-20261030/tries/review/ANSWERS-20261101-1850.json` (10 approved, 1 rejected, 10 revised) and, for the community
+article, `articles/intentional-communities/candidate/fullread-20261030/review/ANSWERS-20261101-1857.json`. The session had
+stopped on 30 October during the community article's full read (after the cards page was published) and resumed with
+this message.
+
+**His answers, in the guide** (`fix-20261101/apply_answers_30b.py`, APPLIED-30b.json; the guide c2e2b0d9... then
+d4f3b12e... after the follow-on): the 10 approved cards as the cards showed them (S-14, S-20, T-35, T-249, T-337, T-374,
+T-503, T-505, S-636, S-782); his 10 versions word for word, one paragraph a line, with the obvious typos fixed and listed
+(N-145, R-162, N-238, T-495, N-269, T-339, R-381, R-508, N-580, N-587); S-24 stays out ("this is that ai slop creeping back
+in with the over careful wording"). Where his version took in more than the card (N-238: the whole Induction section, two
+headings renamed and "What an induction is actually doing" folded in; N-269: its heading; N-580: the whole list), PLANS in
+the script names every paragraph it replaced. Follow-on (E305): the Before you begin list named "Already open? Contain
+before you deepen", now "Already Trancey? Stabilize before dipping deeper.". My read of the six paragraphs the gate
+couldn't match to his words (four approved suggestions, two of his with a typo fixed):
+`fix-20261101/applied/read/READ-RECORD.json`. Comparison gate: PASS (0 unread, 0 open). Points his versions dropped, to
+tell him once: T-495 (his dad's line replaces "don't talk yourself into believing it worked in some way you can't see"),
+T-339 ("silence is not proof that a hidden process is working" became "Lack of doubt doesn't necessarily mean the process
+is working"), N-580 (the named states: panicked, manic, psychosis-like, too high to reality test; tired, attracted, shame
+or grief, chemically altered, now "an unstable state").
+
+**Question 28: ii, with his rule** (gate E306, superseding E304's two-checks rule): fix every window that reads AI or
+Human (Low) without checking it again; list the Human (Medium) ones that aren't large; read below-High windows' meaning
+again; no confabulating to reach High. **E307**: check sections by themselves. **E308** (from the community page): a
+clearly needed comma goes in without a card. **E309**: read the whole guide again for Emulate's shouting, beside the AI
+guide. **E310**: read the whole guide for contradictions.
+
+Delegations (model, piece, check, outcome): none; every read was the lead session's own.
+
 ## 2026-10-30, after Joel's message of 21:40 UTC (the second recheck's two result links)
 
 His message, word for word: `fix-20261030/joel-20261030-2140-message.txt`.

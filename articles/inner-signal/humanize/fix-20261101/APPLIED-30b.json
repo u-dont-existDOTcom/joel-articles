@@ -1,0 +1,532 @@
+{
+ "answers": "fix-20261030/tries/review/ANSWERS-20261101-1850.json",
+ "answers_sha256": "200af08937e7077e5c15176052126f55d669af05681c367c3c0915fd9c3d5d0f",
+ "before_sha256": "975fdb3c2ac7d4a92856683866cf14d758cbf907e6ec408d605ceec3a1faed2b",
+ "after_sha256": "d4f3b12eb27971aad6f1b44b43c54ef7b347e2968a35b9e5da579247a8f9af02",
+ "fates": {
+  "S-14": "approved: the card's version went in",
+  "S-20": "approved: the card's version went in",
+  "S-24": "rejected: stays as it is",
+  "T-35": "approved: the card's version went in",
+  "N-145": "his version",
+  "R-162": "his version",
+  "N-238": "his version",
+  "T-495": "his version",
+  "T-249": "approved: the card's version went in",
+  "N-269": "his version",
+  "T-337": "approved: the card's version went in",
+  "T-339": "his version",
+  "T-374": "approved: the card's version went in",
+  "R-381": "his version",
+  "T-503": "approved: the card's version went in",
+  "T-505": "approved: the card's version went in",
+  "R-508": "his version",
+  "N-580": "his version",
+  "N-587": "his version",
+  "S-636": "approved: the card's version went in",
+  "S-782": "approved: the card's version went in"
+ },
+ "notes": {
+  "S-24": [
+   "his comment: this is that ai slop creeping back in with the over careful wording"
+  ],
+  "N-145": [
+   "typo fixed (a spelling slip): \"Don't embarass us!\" -> \"Don't embarrass us!\"",
+   "his comment: it actually read as Mixed when i tested it with the heading. i also noticed this was saying talk to your child. it hsould be inner child not child. child is like a real child. \n\nit's all human now on its own"
+  ],
+  "R-162": [
+   "typo fixed (a slip of the space): \"really int he room\" -> \"really in the room\"",
+   "typo fixed (a doubled word): \"Can you can pause\" -> \"Can you pause\"",
+   "his comment: you had introduced some repetition about support, maybe that's what got it flagged. i checked the section and it was mixed, but with this edit, it's human"
+  ],
+  "N-238": [
+   "typo fixed (a double space): \"to hear.  Call me\" -> \"to hear. Call me\"",
+   "typo fixed (a double space): \"as they go.  The nice thing\" -> \"as they go. The nice thing\"",
+   "typo fixed (the actor's name is spelled Carrey): \"like Jim Carey saying\" -> \"like Jim Carrey saying\"",
+   "his comment: i was shocked to test a larger part, have you not been checking larger parts also? look at this https://www.pangram.com/history/c92d8c29-48a9-4e0e-a355-97a4aabb4f7c?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\ni think that should save you some trouble trying to understand how the full article changes... we're just getting lucky thanks to some other sections that make this look more human. altho these 2 paras by themselves do pass. i guess this was a flaw in the original design of the humanization process?\n\nbut as usual i'm glad i rewrote it to get to human high conf because it does read a lot better and more clearly now"
+  ],
+  "T-495": [],
+  "N-269": [
+   "typo fixed (a double space): \"Already Trancey?  Stabilize\" -> \"Already Trancey? Stabilize\"",
+   "his comment: had to edit this section bc the heading was also low conf human, now it's all high conf"
+  ],
+  "T-339": [
+   "his comment: now it's human including the line prior"
+  ],
+  "R-381": [
+   "his comment: \"one\" is super ai, and that compression"
+  ],
+  "T-503": [
+   "his comment: nice you're getting the hang of fixing lists i guess"
+  ],
+  "R-508": [
+   "his comment: Emulate really made a lot of my guide sound like a madman screaming for some reaosn can we fix that ? the ai guide was way better. I went back to the ai guide and fixed it. we gotta read this whole guide again because it seems you still didn't see all the places where emualte messed it up. Although the AI guide was also too vague as you can see in this example. Which is prob why emulate took those liberties because the compression & vagueness had to be fixed somehow."
+  ],
+  "N-580": [
+   "typo fixed (a double space): \"For example,  I don't use\" -> \"For example, I don't use\"",
+   "typo fixed (a missing \"to\"): \"resistance we need overcome\" -> \"resistance we need to overcome\"",
+   "his comment: regardless of pangram, this whole section needed a much better organization and explanation. i amn thinking much of this you should have been able to do yourself. it looked way too disjoint and mechanical, the relationships between things that explain them were not there. "
+  ],
+  "N-587": [
+   "typo fixed (a double space): \"a red cloth,  then\" -> \"a red cloth, then\"",
+   "his comment: this section reads mixed by itself, so again you didn't need to test the whole article to understand this. i fixed it, passes high conf human"
+  ],
+  "S-636": [
+   "his comment: but rather than just being less clear about the practice can we cut or merge some of the 4 dups?"
+  ]
+ },
+ "replaced": {
+  "N-145": [
+   {
+    "block": 144,
+    "was": "Your inherited parent script",
+    "now": "same"
+   },
+   {
+    "block": 145,
+    "was": "One important thing to become aware of when approaching your inner child is your inherited parent script. This is the set of rules and ways of treating yourself that you internalized as a child, mostly based on how your parent(s) treated you, and it doesn’t always sound like a voice. This is not the same as your inner adult (Nurturer, Protector, Guide) that you build up on purpose. Often this script acts as a critic or warden, telling your inner child not to cry, not to be “needy”, not to embarrass them, not to be too independent, etc. So when you begin talking to your child in a new, loving way, the script may jump in to say that what you’re doing is “fake”.",
+    "now": [
+     "One important thing to become aware of when approaching your inner child is your inherited parent script. This is the set of rules and ways of treating yourself that you internalized as a child, mostly based on how your parent(s) treated you, and it doesn’t always sound like a voice. This is not the same as your inner adult (Nurturer, Protector, Guide) that you build up on purpose. Often this script acts as a critic or warden, telling your inner child not to cry or complain. You might be hearing, \"Don't be needy! Don't embarrass us! And don't be independent.\" So when you begin talking to your inner child in a new, loving way, that dusty old script may huff and puff that what you’re doing is “fake”."
+    ]
+   }
+  ],
+  "R-162": [
+   {
+    "block": 162,
+    "was": "A. Prepare yourself to tend to them (get yourself into a place where you can spend time with them, have privacy, feel you can access support if you need it, and be as adult as you can be). How much of the grown-up you is actually here right now? Try looking around the room, pausing before you act, making a choice and following through on it. If you can't do that because you're basically the frightened kid, leave the deeper conversation until later.",
+    "now": [
+     "A. Prepare yourself to tend to them with some privacy, but still able to access support if needed. Check how much grown-up you is really in the room first. Can you pause before you act? Are you following through after making decisions? If you can’t do those things because you’re basically the frightened kid still, then let’s leave the deeper conversation until later. Do whatever helps you come back a bit before you try to talk to little you."
+    ]
+   }
+  ],
+  "N-238": [
+   {
+    "block": 231,
+    "was": "Induction: gathering attention without disappearing",
+    "now": [
+     "Induction: gathering and softening attention"
+    ]
+   },
+   {
+    "block": 232,
+    "was": "Inductions serve to gather you up so you can access quiet stuff. They're not about surrendering or playing asleep or obeying someone. Sometimes it's nice to do an actual induction if you're sober but distracted or analytical or otherwise not very trancey. If, on the other hand, you're already pretty trancey for whatever reason, skip straight to \"Already open? Contain before you deepen\" rather than going deeper.",
+    "now": [
+     "Inductions serve to gather your awareness up into a gentler, trancier, more receptive form so you can access the inner knowing that's too quiet for our ordinary awareness to hear. Call me a heretic, but I don't think inductions should be about surrendering to the hypnotist while playing asleep.",
+     "Sometimes it's nice to do an actual induction if you're sober but distracted or analytical or otherwise not very trancey. If, on the other hand, you're already pretty trancey for whatever reason, skip straight to \"Already trancey? Stabilize before dipping deeper.\"",
+     "There are lots of different ways to do the induction. For this method, I'm going to be counting, but you could do all sorts of things. If you want to just talk, or tell a story, or move, or make sounds, or be curious, or whatever, by all means, just do that if it works. Everyone's unique and each person might have a kind that works best for them which they'll discover as they go. The nice thing about the counting method is it's very explicitly an induction, whereas more implicit methods you have to make sure to explain its function clearly.",
+     "You can test to see if you're at a deep enough level of hypnosis by choosing a simple target suggestion and checking if the response is the automatic subconscious kind or the analytical questioning kind."
+    ]
+   },
+   {
+    "block": 233,
+    "was": "Get trancey enough to do what you want to do (focused, warm, receptive, embodied, able to stop, and optionally deeper)",
+    "now": []
+   },
+   {
+    "block": 234,
+    "was": "What an induction is actually doing",
+    "now": []
+   },
+   {
+    "block": 235,
+    "was": "Getting yourself ready to do something. Part of that is gathering your attention up. Part of that might be deepening. Part of that is letting what you notice inform the words you're hearing and what you do next. There are lots of different ways to do this. For this method, I'm going to be counting, but you could do all sorts of things. If you want to just talk, or tell a story, or move, or make sounds, or be curious, or whatever, by all means, just do that. The only thing is, say that you're doing it. Don't pretend you're doing something else, in the name of elegance or whatever.",
+    "now": []
+   },
+   {
+    "block": 236,
+    "was": "Test: For a simple, chosen target, are you getting the response you want out of the suggestion already? If so, you might not need to deepen.",
+    "now": []
+   },
+   {
+    "block": 237,
+    "was": "Please don’t put six metaphors in one trance",
+    "now": [
+     "Overly Confusing Isn't Automatically Good"
+    ]
+   },
+   {
+    "block": 238,
+    "was": "\"Keep it simple, stupid!\" (KISS principle). It's really easy to take a whole bunch of techniques from all of this and make something so complicated that you \"hypnotize\" yourself to the point where you don't even know if it worked or not. So start off with setting one anchor/image. Decide on a hypnotic tone (warm, indirect, direct, neutral witnessing, etc.) for the session. If you're going to use metaphors, just start with one, and if you switch metaphors midway, understand the purpose of the switch. Then plan a simple stepwise walk out of the subconscious at session end.",
+    "now": [
+     "\"Keep it simple, stupid!\" (KISS principle) actually can apply to hypnosis!",
+     "It's really easy to take a whole bunch of techniques from all of this and make something so complicated that you \"hypnotize\" yourself to the point where you don't even know if it worked or not. But keep in mind that especially with self-hypnosis, we can't go so deep that we are unable to continue the session! And even if it were a hypnotist bringing you under, you still need to be at an \"access level\" of awareness in which you can respond to questions.",
+     "So start off with setting one anchor/image to rest your mind's eye on. Decide on a hypnotic tone (warm, indirect, direct, neutral witnessing, etc.) for the session. If you're going to use metaphors, just start with one, and if you switch metaphors midway, understand the purpose of the switch. Then plan a simple stepwise walk out of the subconscious at session's end."
+    ]
+   },
+   {
+    "block": 239,
+    "was": "Using metaphors and imagery is your call. You can use whatever form of inner signal that you notice. It may be a direct knowing, or an emotion, words, some kind of rhythm, movements or other kind of spatial perception. Keep the language tied to the subconscious world you've chosen, so if you're counting, and there are already raindrops falling, you can count the raindrops, for example. When you're done, come back the opposite way from how you went in. You can borrow qualities such as warmth or steadiness from someone who models them, but don't change who you are.",
+    "now": [
+     "In fact, you don't even need to use metaphors nor imagery. You can use whatever form of inner signal that you notice. It may be a direct knowing, or an emotion, some kind of rhythmic movement or sound, or other kind of spatial perception technique like body scanning or flipping between awareness of different body parts.",
+     "Keep the language tied to the subconscious world you've chosen, so if you're counting, and there are already raindrops falling, you can count the raindrops, not the sheep which aren't in that scene. When you're done, come back out the opposite way from how you went in (we often visualize a staircase).",
+     "It's fine to borrow qualities such as warmth or steadiness from someone who models them, if you need to, but don't change who you are. We don't want you showing up at the Emmy's like Jim Carrey saying he's Nobody. 😅 Not yet anyways."
+    ]
+   },
+   {
+    "block": 240,
+    "was": "When you're writing the script, decide what the central verb you're using is to anchor it (like \"letting go\"), what the sensory quality is (unified, disjoint, fluffy, etc), what the short refrain is, and how you're going to slide from one idea to the next. Read it out loud as you're writing it. Long, elegant sentences don't read well when you're being induced. It's all just soup. Soft, but to the point, easy to remember, easy to say, easy to grok, that's what we're going for.",
+    "now": [
+     "When you're writing the script, decide what the central verb you're using is to anchor it (like \"letting go\"). Give it an overall sensory quality, like unified or disjoint, or something fun like \"fluffy wuffy.\"",
+     "You may have a short refrain that you come back to a few times in there as another type of anchor. Think about how you're going to slide from one idea to the next. It's much easier if you read it out loud as you're writing it, since the writing brain is sort of different from the vocal brain. Long, elegant sentences don't read well when you're being induced. You want your script to be soft, but to the point, easy to remember, easy to say, easy to grok."
+    ]
+   }
+  ],
+  "T-495": [
+   {
+    "block": 247,
+    "was": "Let your response guide you as to what to do next regardless of what the script is expecting. Utilize: use what you have (a thought, sound, movement, or objection) to go to the next place, whatever it is. Learn how to notice what is there. If nothing changes, notice that too: no change doesn't mean it worked in some way you can't see. For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain.",
+    "now": [
+     "Let your response guide you as to what to do next regardless of what the script is expecting. Utilize: use what you have (a thought, sound, movement, or objection) to go to the next place, whatever it is. Learn how to notice what is there. If nothing changes, notice that too. As my dad always said, \"Always and in everything, expect the very best. But be prepared to take what you get. The best might come afterwards!\" For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain."
+    ]
+   }
+  ],
+  "N-269": [
+   {
+    "block": 265,
+    "was": "Already open? Contain before you deepen",
+    "now": [
+     "Already Trancey? Stabilize before dipping deeper."
+    ]
+   },
+   {
+    "block": 266,
+    "was": "This is for when you're already open for some reason (loveyhuasca, meditation, lucid dreaming, going through grief, listening to beautiful music, prayer, erotic energy, exhaustion, seeing something you love, etc) and want to aim and stabilize it.",
+    "now": [
+     "This is for when you're already open for some reason (loveyhuasca, meditation, lucid dreaming, going through grief, listening to beautiful music, prayer, erotic energy, exhaustion, seeing something you love, etc) and want to aim and stabilize it."
+    ]
+   },
+   {
+    "block": 267,
+    "was": "Know that you're already open, you just need to aim and stabilize it, and keep it kind.",
+    "now": [
+     "Know that you're already open, you just need to aim and stabilize it, and keep it kind."
+    ]
+   },
+   {
+    "block": 268,
+    "was": "Orient yourself by looking around. Where are you? What's the date or day? How does your body feel? Where are you grounded? Can you feel your feet/hands/spine/etc? Make some contact with yourself, eg press your thumbs against the tips of your index fingers gently but firmly so that you can feel friction. Focus on that.",
+    "now": [
+     "Orient yourself by looking around. Where are you? What's the date or day? How does your body feel? Where are you grounded? Can you feel your feet/hands/spine/etc? Make some contact with yourself, eg press your thumbs against the tips of your index fingers gently but firmly so that you can feel friction. Focus on that."
+    ]
+   },
+   {
+    "block": 269,
+    "was": "Say something like, \"Only what I can integrate, please. If there's too much, it can wait. My body may stay safe. I'll be here as an adult, so my inner child doesn't have to carry this alone.\"",
+    "now": [
+     "Say something like, \"Only what I can integrate, please. Patience pays, so if there's too much, let it simmer. May my body stay safe, and may my little one know there's an adult here to carry the heavy stuff.\""
+    ]
+   }
+  ],
+  "T-339": [
+   {
+    "block": 338,
+    "was": "\"I notice the tightness, and I can just leave it like that. I wonder if that fits, or if I'd rather do something different?\"",
+    "now": [
+     "\"I notice the tightness, and I can just leave it like that. Then again, is that what I really want?\""
+    ]
+   },
+   {
+    "block": 339,
+    "was": "Sometimes the invitation just isn't right. Sometimes it brings up a possibility you hadn't thought of, and the feeling that comes with it is worth meeting. You don't have to know which it is before you make room to find out. Either way, your doubt isn't automatically a guard, and silence doesn't mean a hidden process is working.",
+    "now": [
+     "Sometimes the invitation just isn't right or helpful, even if it sounds like something a hypnotist might say. Each time we play around with this, we explore new possibilities which bring up new inner signals for us to feel out.",
+     "Doubting is sometimes a guard to listen to, and sometimes simply part of normal consideration. Lack of doubt doesn't necessarily mean the process is working in the best way, either."
+    ]
+   }
+  ],
+  "R-381": [
+   {
+    "block": 381,
+    "was": "Is there a way you could try this on a smaller scale?",
+    "now": [
+     "Check if there's a way you could try this on a smaller scale."
+    ]
+   },
+   {
+    "block": 382,
+    "was": "Ask: “Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.”",
+    "now": [
+     "Try out these requests: “Show me a body sensation.” “Show me just a word.” “Show me whether today is for listening or resting.”"
+    ]
+   }
+  ],
+  "R-508": [
+   {
+    "block": 508,
+    "was": "Bridge words are words like ‘as, whilst, because, when, after, before, which means’ etc. These are words that link events. However, even if you say them in a lovely gentle voice it doesn’t mean that it’s true if it isn’t! It’s not very likely that just by breathing in and out your trauma is going to go away! A better bridge claims a lot less: ‘As I breathe, my adult self may become present enough to hear a small piece of what the wound needs.’",
+    "now": [
+     "Bridge words are words like ‘as, whilst, because, when, after, before, which means’ etc. These are words that link events, which can make something seem like it goes along with or produces the next thing. That doesn't mean it actually does, of course.",
+     "Here's an example of some of the overly commanding bridge language many hypnotists will use: “Because I breathe, the trauma leaves.”",
+     "I prefer the communion version: “As I breathe, my adult self can allow itself to become present enough to hear a bit of what my wounded inner child needs.”"
+    ]
+   }
+  ],
+  "N-580": [
+   {
+    "block": 573,
+    "was": "What I will not use NLP for",
+    "now": "same"
+   },
+   {
+    "block": 574,
+    "was": "Here is a list of things I do not do with NLP, to myself or to others:",
+    "now": [
+     "Here is a list of things I don't do with NLP, whether I'm hypnotizing myself or someone else:"
+    ]
+   },
+   {
+    "block": 575,
+    "was": "I do not use NLP to talk myself out of a real signal.",
+    "now": [
+     "I don't use NLP to convince anyone an intuition is true. For example, I don't use NLP or hypnosis in general, to do more than initial memory retrieval work. Memories retrieved still need external validation, especially when they were led to (which NLP tends to).",
+     "On the other hand, I also don't use NLP to talk anyone out of a real signal. That doesn't mean we can't try to calm unbearable pain, but we must keep access to the awareness of the signal so that we can do the real root cause healing.",
+     "As an example, I won’t tell anyone to override their fear without first asking what it’s protecting. Or to make them feel urgency when they want time to process.",
+     "I don't use NLP on people without their consent nor to bypass consent via covert commands. Nearly all hypnotists claim that hypnosis *cannot* violate consent, which is an absurdly ignorant and unethical claim.",
+     "That includes not manipulating anyone to feel like their \"no\" is the ego's resistance we need to overcome, which is another way of saying they are spiritually inferior to me if they disagree with me.",
+     "If someone is in an unstable state in which they can't reasonably give consent, I don't use NLP to pretend they did."
+    ]
+   },
+   {
+    "block": 576,
+    "was": "I won’t tell anyone to override their fear without first asking what it’s protecting.",
+    "now": []
+   },
+   {
+    "block": 577,
+    "was": "I do not use NLP for memory retrieval.",
+    "now": []
+   },
+   {
+    "block": 578,
+    "was": "I do not use NLP to manipulate other people or convince myself an intuition is true.",
+    "now": []
+   },
+   {
+    "block": 579,
+    "was": "I do not use NLP to remove pain, hunger, grief, anger, or medical symptoms.",
+    "now": []
+   },
+   {
+    "block": 580,
+    "was": "I do not use NLP on people who are panicked, destabilized, manic, having a psychosis-like state, or are too high/dissociated to reality test.",
+    "now": []
+   },
+   {
+    "block": 581,
+    "was": "I do not use NLP to make people feel like their no is resistance, or like they are spiritually inferior to me if they disagree with me.",
+    "now": []
+   },
+   {
+    "block": 582,
+    "was": "I do not use covert commands in my language.",
+    "now": []
+   },
+   {
+    "block": 583,
+    "was": "I do not use NLP to create urgency where time is needed.",
+    "now": []
+   },
+   {
+    "block": 584,
+    "was": "I do not use NLP on people without their consent (the idea that \"your subconscious will let me know if you want me to do this\" is NOT consent).",
+    "now": []
+   },
+   {
+    "block": 585,
+    "was": "I do not use NLP to get compliance from people in a suggestible state (in trance, tired, attracted to me, feeling shame or grief, or chemically altered).",
+    "now": []
+   }
+  ],
+  "N-587": [
+   {
+    "block": 587,
+    "was": "Here is a rough outline of the entire NLP process:",
+    "now": [
+     "Here is a rough outline of the entire NLP process:"
+    ]
+   },
+   {
+    "block": 588,
+    "was": "Induce or contain yourself (gather your attention, or stabilize yourself first if you are already wide open).",
+    "now": [
+     "Induce yourself (meaning gather your attention into a soft focus) or contain yourself (meaning stabilize yourself) first if you are already too opened up to difficult memories/experiences."
+    ]
+   },
+   {
+    "block": 589,
+    "was": "Ask yourself for permission: is it useful to work with this image, feeling or pattern today?",
+    "now": [
+     "Ask yourself for permission: is it useful to work with this pattern today?"
+    ]
+   },
+   {
+    "block": 590,
+    "was": "Get a representation of your pattern (image, feeling, size, color, location, movement, etc.).",
+    "now": [
+     "Get a representation of your pattern. Do you see it as an image, with size, color and location, or do you feel it like a movement or some other kind of sensation?"
+    ]
+   },
+   {
+    "block": 591,
+    "was": "Find out what that part/pattern is protecting for you.",
+    "now": [
+     "Find out if that part/pattern is protecting something for you."
+    ]
+   },
+   {
+    "block": 592,
+    "was": "Gently change some aspect of your pattern (location, volume, space, posture, speed, etc.).",
+    "now": [
+     "Gently change an aspect of your pattern's representation from the prior step."
+    ]
+   },
+   {
+    "block": 593,
+    "was": "Bring in your 3 good adults (Nurturer to warm, Protector to make it safe, and Guide to point a direction). In real life they’re all part of the one inner adult, so we can imagine them splitting apart if need be and coming together as well.",
+    "now": [
+     "Bring in your 3 good adults (Nurturer to warm, Protector to make it safe, and Guide to point a direction). In real life they’re all part of the one inner adult, so we can imagine them splitting apart if need be and coming together as well."
+    ]
+   },
+   {
+    "block": 595,
+    "was": "Future pace a scenario where your old pattern would have triggered, and do a small new behavior (If...then... statement).",
+    "now": [
+     "Imagine running into a scenario where your old pattern would have triggered, and adopt a feasible new behavior. (\"If I see a red cloth, then I will choose not to charge at it. I am not a bull anymore.\")"
+    ]
+   },
+   {
+    "block": 596,
+    "was": "Check in with your body for changes, ask whether the new behavior is kind and doable, and ask what supports your new interpretation of the situation beyond how it feels.",
+    "now": [
+     "Check in with your body for signals during the re-imagining process, and what else besides body signals supports your new interpretation of the situation. Ask yourself whether the new behavior you've imagined is kind and sensible."
+    ]
+   }
+  ]
+ },
+ "typos": [
+  {
+   "card": "N-145",
+   "was": "Don't embarass us!",
+   "now": "Don't embarrass us!",
+   "why": "a spelling slip"
+  },
+  {
+   "card": "R-162",
+   "was": "really int he room",
+   "now": "really in the room",
+   "why": "a slip of the space"
+  },
+  {
+   "card": "R-162",
+   "was": "Can you can pause",
+   "now": "Can you pause",
+   "why": "a doubled word"
+  },
+  {
+   "card": "N-238",
+   "was": "to hear.  Call me",
+   "now": "to hear. Call me",
+   "why": "a double space"
+  },
+  {
+   "card": "N-238",
+   "was": "as they go.  The nice thing",
+   "now": "as they go. The nice thing",
+   "why": "a double space"
+  },
+  {
+   "card": "N-238",
+   "was": "like Jim Carey saying",
+   "now": "like Jim Carrey saying",
+   "why": "the actor's name is spelled Carrey"
+  },
+  {
+   "card": "N-269",
+   "was": "Already Trancey?  Stabilize",
+   "now": "Already Trancey? Stabilize",
+   "why": "a double space"
+  },
+  {
+   "card": "N-580",
+   "was": "For example,  I don't use",
+   "now": "For example, I don't use",
+   "why": "a double space"
+  },
+  {
+   "card": "N-580",
+   "was": "resistance we need overcome",
+   "now": "resistance we need to overcome",
+   "why": "a missing \"to\""
+  },
+  {
+   "card": "N-587",
+   "was": "a red cloth,  then",
+   "now": "a red cloth, then",
+   "why": "a double space"
+  }
+ ],
+ "links_dropped": [],
+ "changed_blocks": [
+  14,
+  20,
+  35,
+  145,
+  162,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  247,
+  249,
+  265,
+  266,
+  267,
+  268,
+  269,
+  337,
+  338,
+  339,
+  374,
+  381,
+  382,
+  503,
+  505,
+  508,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  595,
+  596,
+  636,
+  782
+ ],
+ "follow_on": [
+  {
+   "why": "N-269 renamed the heading \"Already open? Contain before you deepen\" to \"Already Trancey? Stabilize before dipping deeper.\"; the Before you begin list pointed to it by its old name (gate E305: the sentence that leaned on what changed is fixed in the same change)",
+   "old": "(The part below called \"Already open? Contain before you deepen\" can be used",
+   "new": "(The part below called \"Already Trancey? Stabilize before dipping deeper.\" can be used"
+  }
+ ]
+}

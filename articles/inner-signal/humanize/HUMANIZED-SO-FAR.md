@@ -26,7 +26,7 @@ While a lot of the teachings on hypnosis talk about the subconscious mind like i
 
 I teach a self-hypnosis method that allows you to gather all of your attention and have your conscious mind, subconscious mind, body mind, inner child mind, guard minds, adult mind and Higher Self be able to all hear and talk to each other.
 
-“How do I do this?” you ask. Just listen silently. Many people skip the listening or shorten it since it's not "achieving something" but this is by far the most important step. When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic trance experience to demonstrate the results of all parts of your mind talking to each other and trusting each other more.
+“How do I do this?” you ask. Just listen silently. Many people skip the listening or shorten it since it's not "achieving something", but this is by far the most important step. When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic trance experience to see the results in your day-to-day life, with all parts of your mind talking to each other and trusting each other more.
 
 I like to think of it like a communion between all parts of our mind, where the conscious mind doesn’t have to shout from the roof top and the subconscious mind doesn’t have to manifest symptoms, dreams, cravings, daydreams and weird body signals in order to communicate.
 
@@ -38,7 +38,7 @@ To work on difficulties or cultivate positive qualities (love, curiosity, play, 
 
 Prior to your first session, read through the induction and the full return to waking life, so you’re more familiar with them. Then put the screen away. You’re learning to run the practice yourself, not reading from a teleprompter like a news anchor person.
 
-You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - as you're invited. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return to normal waking consciousness. After, note what happened & any real-world actions.
+You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - and let it shape your next invite. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return to normal waking consciousness. After, note what happened & any real-world actions it calls for.
 
 If at any point you feel panicky, disoriented, more unreal, or less functional, this is not the time for bravely sticking with difficult feelings (that's another choice, made freely & while staying present). Stop deepening, return to the room & get appropriate support.
 
@@ -68,7 +68,7 @@ A line associated with the Silva Mind Control tradition says it plainly:
 
 “If you don’t learn to control your mind, someone else will!”
 
-Ads, screens, fear and cravings are already training your mind, and so are your tribe, the people in authority, loneliness and plain old repetition. With self-hypnosis you can train your own mind from the inside, by befriending and listening to the deeper part of your mind. This opens up a whole new area of choice for you as an adult in the world.
+With self-hypnosis you can train your own mind from the inside, by befriending and listening to the deeper part of your mind. This opens up a whole new area of choice for you as an adult in the world.
 
 Double click to interact with video
 
@@ -288,7 +288,7 @@ Most of the time the guard wants you to do certain things, set boundaries, do wh
 
 ## Your inherited parent script
 
-One important thing to become aware of when approaching your inner child is your inherited parent script. This is the set of rules and ways of treating yourself that you internalized as a child, mostly based on how your parent(s) treated you, and it doesn’t always sound like a voice. This is not the same as your inner adult (Nurturer, Protector, Guide) that you build up on purpose. Often this script acts as a critic or warden, telling your inner child not to cry, not to be “needy”, not to embarrass them, not to be too independent, etc. So when you begin talking to your child in a new, loving way, the script may jump in to say that what you’re doing is “fake”.
+One important thing to become aware of when approaching your inner child is your inherited parent script. This is the set of rules and ways of treating yourself that you internalized as a child, mostly based on how your parent(s) treated you, and it doesn’t always sound like a voice. This is not the same as your inner adult (Nurturer, Protector, Guide) that you build up on purpose. Often this script acts as a critic or warden, telling your inner child not to cry or complain. You might be hearing, "Don't be needy! Don't embarrass us! And don't be independent." So when you begin talking to your inner child in a new, loving way, that dusty old script may huff and puff that what you’re doing is “fake”.
 
 ## Protection that knows when to stop scanning
 
@@ -322,7 +322,7 @@ What does the child need? It can be anything: warmth, to play, to be protected, 
 
 Find a younger you/guard/feeling/signal that comes up in your body, and
 
-A. Prepare yourself to tend to them (get yourself into a place where you can spend time with them, have privacy, feel you can access support if you need it, and be as adult as you can be). How much of the grown-up you is actually here right now? Try looking around the room, pausing before you act, making a choice and following through on it. If you can't do that because you're basically the frightened kid, leave the deeper conversation until later.
+A. Prepare yourself to tend to them with some privacy, but still able to access support if needed. Check how much grown-up you is really in the room first. Can you pause before you act? Are you following through after making decisions? If you can’t do those things because you’re basically the frightened kid still, then let’s leave the deeper conversation until later. Do whatever helps you come back a bit before you try to talk to little you.
 
 B. Look at what's there before judging or deciding what it is.
 
@@ -460,25 +460,33 @@ In order for a subject to be making a REAL choice whilst in hypnosis, there MUST
 
 (see appendix C for a longer version of the de-hypnosis checklist)
 
-# Induction: gathering attention without disappearing
+# Induction: gathering and softening attention
 
-Inductions serve to gather you up so you can access quiet stuff. They're not about surrendering or playing asleep or obeying someone. Sometimes it's nice to do an actual induction if you're sober but distracted or analytical or otherwise not very trancey. If, on the other hand, you're already pretty trancey for whatever reason, skip straight to "Already open? Contain before you deepen" rather than going deeper.
+Inductions serve to gather your awareness up into a gentler, trancier, more receptive form so you can access the inner knowing that's too quiet for our ordinary awareness to hear. Call me a heretic, but I don't think inductions should be about surrendering to the hypnotist while playing asleep.
 
-Get trancey enough to do what you want to do (focused, warm, receptive, embodied, able to stop, and optionally deeper)
+Sometimes it's nice to do an actual induction if you're sober but distracted or analytical or otherwise not very trancey. If, on the other hand, you're already pretty trancey for whatever reason, skip straight to "Already trancey? Stabilize before dipping deeper."
 
-## What an induction is actually doing
+There are lots of different ways to do the induction. For this method, I'm going to be counting, but you could do all sorts of things. If you want to just talk, or tell a story, or move, or make sounds, or be curious, or whatever, by all means, just do that if it works. Everyone's unique and each person might have a kind that works best for them which they'll discover as they go. The nice thing about the counting method is it's very explicitly an induction, whereas more implicit methods you have to make sure to explain its function clearly.
 
-Getting yourself ready to do something. Part of that is gathering your attention up. Part of that might be deepening. Part of that is letting what you notice inform the words you're hearing and what you do next. There are lots of different ways to do this. For this method, I'm going to be counting, but you could do all sorts of things. If you want to just talk, or tell a story, or move, or make sounds, or be curious, or whatever, by all means, just do that. The only thing is, say that you're doing it. Don't pretend you're doing something else, in the name of elegance or whatever.
+You can test to see if you're at a deep enough level of hypnosis by choosing a simple target suggestion and checking if the response is the automatic subconscious kind or the analytical questioning kind.
 
-Test: For a simple, chosen target, are you getting the response you want out of the suggestion already? If so, you might not need to deepen.
+## Overly Confusing Isn't Automatically Good
 
-## Please don’t put six metaphors in one trance
+"Keep it simple, stupid!" (KISS principle) actually can apply to hypnosis!
 
-"Keep it simple, stupid!" (KISS principle). It's really easy to take a whole bunch of techniques from all of this and make something so complicated that you "hypnotize" yourself to the point where you don't even know if it worked or not. So start off with setting one anchor/image. Decide on a hypnotic tone (warm, indirect, direct, neutral witnessing, etc.) for the session. If you're going to use metaphors, just start with one, and if you switch metaphors midway, understand the purpose of the switch. Then plan a simple stepwise walk out of the subconscious at session end.
+It's really easy to take a whole bunch of techniques from all of this and make something so complicated that you "hypnotize" yourself to the point where you don't even know if it worked or not. But keep in mind that especially with self-hypnosis, we can't go so deep that we are unable to continue the session! And even if it were a hypnotist bringing you under, you still need to be at an "access level" of awareness in which you can respond to questions.
 
-Using metaphors and imagery is your call. You can use whatever form of inner signal that you notice. It may be a direct knowing, or an emotion, words, some kind of rhythm, movements or other kind of spatial perception. Keep the language tied to the subconscious world you've chosen, so if you're counting, and there are already raindrops falling, you can count the raindrops, for example. When you're done, come back the opposite way from how you went in. You can borrow qualities such as warmth or steadiness from someone who models them, but don't change who you are.
+So start off with setting one anchor/image to rest your mind's eye on. Decide on a hypnotic tone (warm, indirect, direct, neutral witnessing, etc.) for the session. If you're going to use metaphors, just start with one, and if you switch metaphors midway, understand the purpose of the switch. Then plan a simple stepwise walk out of the subconscious at session's end.
 
-When you're writing the script, decide what the central verb you're using is to anchor it (like "letting go"), what the sensory quality is (unified, disjoint, fluffy, etc), what the short refrain is, and how you're going to slide from one idea to the next. Read it out loud as you're writing it. Long, elegant sentences don't read well when you're being induced. It's all just soup. Soft, but to the point, easy to remember, easy to say, easy to grok, that's what we're going for.
+In fact, you don't even need to use metaphors nor imagery. You can use whatever form of inner signal that you notice. It may be a direct knowing, or an emotion, some kind of rhythmic movement or sound, or other kind of spatial perception technique like body scanning or flipping between awareness of different body parts.
+
+Keep the language tied to the subconscious world you've chosen, so if you're counting, and there are already raindrops falling, you can count the raindrops, not the sheep which aren't in that scene. When you're done, come back out the opposite way from how you went in (we often visualize a staircase).
+
+It's fine to borrow qualities such as warmth or steadiness from someone who models them, if you need to, but don't change who you are. We don't want you showing up at the Emmy's like Jim Carrey saying he's Nobody. 😅 Not yet anyways.
+
+When you're writing the script, decide what the central verb you're using is to anchor it (like "letting go"). Give it an overall sensory quality, like unified or disjoint, or something fun like "fluffy wuffy."
+
+You may have a short refrain that you come back to a few times in there as another type of anchor. Think about how you're going to slide from one idea to the next. It's much easier if you read it out loud as you're writing it, since the writing brain is sort of different from the vocal brain. Long, elegant sentences don't read well when you're being induced. You want your script to be soft, but to the point, easy to remember, easy to say, easy to grok.
 
 ## Before you begin
 
@@ -486,17 +494,17 @@ When you're writing the script, decide what the central verb you're using is to 
 
 2. Get clear on what it is you want to do during the induction. What do you want not to do today? How long do you want to spend on this? (You don't have to do this on a problem. You can do it on something you want to experience more of: love, play, confidence, creativity, communion, whatever.) Make sure you're leaving some time at the end to come back, and reflect on what you experienced.
 
-3. Put yourself in a place where you can safely do this, which is not: driving a big machine, swimming with the fishies, or otherwise needing to be alert and functionally responsible for yourself or others. If you are intoxicated and/or more confused than usual, or for whatever reason not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. (The part below called "Already open? Contain before you deepen" can be used to help orient you if you're already open, but don't use it to make yourself deeper if you're not stable.)
+3. Put yourself in a place where you can safely do this, which is not: driving a big machine, swimming with the fishies, or otherwise needing to be alert and functionally responsible for yourself or others. If you are intoxicated and/or more confused than usual, or for whatever reason not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. (The part below called "Already Trancey? Stabilize before dipping deeper." can be used to help orient you if you're already open, but don't use it to make yourself deeper if you're not stable.)
 
 4. Deciding to do it: how will you coax yourself to do this? Make it spacious? Make it warm and held? Make it firmer, so you stay with a feeling? Something else? Preview what you are going to do: will you close your eyes? Will you come out and go back in again? What will you do at the end? If you are going to use a recording, read the script beforehand if you can. Know that you can say "stop" at any time and the induction will end. If you want to change something, say "less" if you want it to be asking for less from you, or say "quiet" and the talking will stop. You can also just open your eyes and stop, and then come all the way back anyway. You don't need to ask any parts for permission to stop, even if a part tells you that you do.
 
 5. If you are new to this or haven't done it for a while, work on the coming in and coming out part first. Don't bring in the hard stuff till later. You don't have to watch yourself all the time, but for the first few times, make sure you can change state. Let yourself make it easier and easier to do this and notice that it takes less and less of you to do it. A no will stay a no. The narrator can't add stuff just because you don't say anything.
 
-6. Let your response guide you as to what to do next regardless of what the script is expecting. [Utilize](https://catalog.erickson-foundation.org/page/ericksonian-hypnosis-therapy-techniques): use what you have (a thought, sound, movement, or objection) to go to the next place, whatever it is. Learn how to notice what is there. If nothing changes, notice that too: no change doesn't mean it worked in some way you can't see. For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain.
+6. Let your response guide you as to what to do next regardless of what the script is expecting. [Utilize](https://catalog.erickson-foundation.org/page/ericksonian-hypnosis-therapy-techniques): use what you have (a thought, sound, movement, or objection) to go to the next place, whatever it is. Learn how to notice what is there. If nothing changes, notice that too. As my dad always said, "Always and in everything, expect the very best. But be prepared to take what you get. The best might come afterwards!" For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain.
 
 ## Sober induction: 3–5 minutes
 
-You can read this slowly into your recorder, or you can read it out loud or say it to yourself if you are good at that. Choose a sound, or a contact, or the two-hand practice (above) or something to anchor yourself, and choose the thing you will say to open it up. Use the same anchor wherever the script mentions it. Don't read the directions out loud. Just pause between paragraphs.
+You can read this slowly into your recorder, or you can read it out loud or say it to yourself if you are good at that. Choose a sound, or a contact, or the two-hand practice (above) or something to anchor yourself, and choose the thing you will say to open it up. Use the same anchor wherever the script mentions it. Don't read the directions out loud, just pause between paragraphs.
 
 Script:
 
@@ -528,7 +536,7 @@ Let yourself notice what comes to you, if anything. It may not be clear yet what
 
 Let yourself take your time to notice, with or without words.
 
-## Already open? Contain before you deepen
+## Already Trancey? Stabilize before dipping deeper.
 
 This is for when you're already open for some reason (loveyhuasca, meditation, lucid dreaming, going through grief, listening to beautiful music, prayer, erotic energy, exhaustion, seeing something you love, etc) and want to aim and stabilize it.
 
@@ -536,7 +544,7 @@ Know that you're already open, you just need to aim and stabilize it, and keep i
 
 Orient yourself by looking around. Where are you? What's the date or day? How does your body feel? Where are you grounded? Can you feel your feet/hands/spine/etc? Make some contact with yourself, eg press your thumbs against the tips of your index fingers gently but firmly so that you can feel friction. Focus on that.
 
-Say something like, "Only what I can integrate, please. If there's too much, it can wait. My body may stay safe. I'll be here as an adult, so my inner child doesn't have to carry this alone."
+Say something like, "Only what I can integrate, please. Patience pays, so if there's too much, let it simmer. May my body stay safe, and may my little one know there's an adult here to carry the heavy stuff."
 
 When you feel oriented, make an intention.
 
@@ -672,11 +680,13 @@ Is this a notice or meaning? "My stomach went tight" is a notice, "He's a comple
 
 ## Let the response change the invitation
 
-Your shoulders tightening, or 'hmm, that feels kind of wrong', is a signal to investigate further. A tightening won't tell you what it's about by itself, so ask what happened and whether the invitation fits. But 'No! That is Not Right!' is a signal to stop what you're doing and change it. If you don't feel like it fits, don't keep doing it, and don't try saying it again more persuasively. Just change it. You don't need any other reason.
+Your shoulders tightening, or 'hmm, that feels kind of wrong', is a signal to investigate further, but 'No! That is Not Right!' is a signal to stop what you're doing and change it. If you don't feel like it fits, don't keep doing it, and don't try saying it again more persuasively. Just change it. You don't need any other reason.
 
-"I notice the tightness, and I can just leave it like that. I wonder if that fits, or if I'd rather do something different?"
+"I notice the tightness, and I can just leave it like that. Then again, is that what I really want?"
 
-Sometimes the invitation just isn't right. Sometimes it brings up a possibility you hadn't thought of, and the feeling that comes with it is worth meeting. You don't have to know which it is before you make room to find out. Either way, your doubt isn't automatically a guard, and silence doesn't mean a hidden process is working.
+Sometimes the invitation just isn't right or helpful, even if it sounds like something a hypnotist might say. Each time we play around with this, we explore new possibilities which bring up new inner signals for us to feel out.
+
+Doubting is sometimes a guard to listen to, and sometimes simply part of normal consideration. Lack of doubt doesn't necessarily mean the process is working in the best way, either.
 
 ## Look at the situation too
 
@@ -746,7 +756,7 @@ What you DON’T want to do is bully your subconscious into telling you what it 
 
 “What is it you won’t tell me? What are you hiding? Tell me NOW! I am telling you to tell me!”
 
-This can lead to flooding, panic, false certainty, confabulation, dissociation etc. and can make your day SUCK! When you are flooded, it is much harder to access your adult capacities, so focus on being able to regulate and getting support! If your subconscious won’t answer, it may be protecting you until your adult is steady enough to take in what it has. Just ask for what you need to know in a way that you CAN tolerate:
+This can lead to flooding, panic, false certainty, confabulation, dissociation etc. and can make your day SUCK! When you are flooded, it is much harder to access your adult capacities, so focus on being able to regulate and getting support! Just ask for what you need to know in a way that you CAN tolerate:
 
 “What can you tell me, that will make my conscious self 5% better at knowing the thing you want to tell me?” “Can you tell me in symbolic form so I am not completely overwhelmed by the revelation?” “Can you tell me what I need to do to be safe, without actually telling me what it is?” “Do I need to know WHAT it is, or do I need to know that I need to get some support to have the capacity to know what it is, and who would be a good person to help me?” etc.
 
@@ -760,9 +770,9 @@ REMEMBER: Not everything in hypnotic imagery is literal, especially if it relate
 
 ## Nothing happens
 
-Is there a way you could try this on a smaller scale?
+Check if there's a way you could try this on a smaller scale.
 
-Ask: “Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.”
+Try out these requests: “Show me a body sensation.” “Show me just a word.” “Show me whether today is for listening or resting.”
 
 ## It feels fake
 
@@ -1004,17 +1014,21 @@ Truth, Invite, Truth, Invite etc. is all you need to do.
 
 Open up awareness by using awareness verbs e.g. notice, realize, recognize, sense, feel, wonder, imagine, picture, listen to, allow, discover, remember, consider etc.
 
-Example: ‘Notice how the answer comes to you: as an image, a word, a pressure, some warmth, silence, or something to do next.’
+Example: ‘Notice how the answer comes to you… maybe as an image, or a word… maybe as a pressure, or some warmth… or a silence, or a sense of what to do next.’
 
 ### Pattern 3: Presuppositions
 
-A presupposition is an assumption hidden inside a sentence. Presumption is a powerful thing, so please don’t use it except to presume that we will have the choice of when it will happen, that we will be able to do it, that we are safe, that we are loved and that our adult can lead us. Never use it to sneak in obedience.
+Presumption is a powerful thing (a presupposition hides an assumption inside a sentence, and the person hearing it usually takes that assumption on board), so please don’t use it except to presume that we will have the choice of when it will happen, that we will be able to do it, that we are safe, that we are loved and that our adult can lead us. Don’t ever presume obedience, the way a hypnotist does when they say something like, ‘As you go deeper, it gets easier and easier to just do what I say.’
 
 Example: ‘Before any part has to change, it can first become more understood.’
 
 ### Pattern 4: Gentle cause-effect bridges
 
-Bridge words are words like ‘as, whilst, because, when, after, before, which means’ etc. These are words that link events. However, even if you say them in a lovely gentle voice it doesn’t mean that it’s true if it isn’t! It’s not very likely that just by breathing in and out your trauma is going to go away! A better bridge claims a lot less: ‘As I breathe, my adult self may become present enough to hear a small piece of what the wound needs.’
+Bridge words are words like ‘as, whilst, because, when, after, before, which means’ etc. These are words that link events, which can make something seem like it goes along with or produces the next thing. That doesn't mean it actually does, of course.
+
+Here's an example of some of the overly commanding bridge language many hypnotists will use: “Because I breathe, the trauma leaves.”
+
+I prefer the communion version: “As I breathe, my adult self can allow itself to become present enough to hear a bit of what my wounded inner child needs.”
 
 ### Pattern 5: Embedded invitations
 
@@ -1146,51 +1160,41 @@ I use parts integration to ask my conflicting parts what they want, what they ar
 
 ## What I will not use NLP for
 
-Here is a list of things I do not do with NLP, to myself or to others:
+Here is a list of things I don't do with NLP, whether I'm hypnotizing myself or someone else:
 
-I do not use NLP to talk myself out of a real signal.
+I don't use NLP to convince anyone an intuition is true. For example, I don't use NLP or hypnosis in general, to do more than initial memory retrieval work. Memories retrieved still need external validation, especially when they were led to (which NLP tends to).
 
-I won’t tell anyone to override their fear without first asking what it’s protecting.
+On the other hand, I also don't use NLP to talk anyone out of a real signal. That doesn't mean we can't try to calm unbearable pain, but we must keep access to the awareness of the signal so that we can do the real root cause healing.
 
-I do not use NLP for memory retrieval.
+As an example, I won’t tell anyone to override their fear without first asking what it’s protecting. Or to make them feel urgency when they want time to process.
 
-I do not use NLP to manipulate other people or convince myself an intuition is true.
+I don't use NLP on people without their consent nor to bypass consent via covert commands. Nearly all hypnotists claim that hypnosis *cannot* violate consent, which is an absurdly ignorant and unethical claim.
 
-I do not use NLP to remove pain, hunger, grief, anger, or medical symptoms.
+That includes not manipulating anyone to feel like their "no" is the ego's resistance we need to overcome, which is another way of saying they are spiritually inferior to me if they disagree with me.
 
-I do not use NLP on people who are panicked, destabilized, manic, having a psychosis-like state, or are too high/dissociated to reality test.
-
-I do not use NLP to make people feel like their no is resistance, or like they are spiritually inferior to me if they disagree with me.
-
-I do not use covert commands in my language.
-
-I do not use NLP to create urgency where time is needed.
-
-I do not use NLP on people without their consent (the idea that "your subconscious will let me know if you want me to do this" is NOT consent).
-
-I do not use NLP to get compliance from people in a suggestible state (in trance, tired, attracted to me, feeling shame or grief, or chemically altered).
+If someone is in an unstable state in which they can't reasonably give consent, I don't use NLP to pretend they did.
 
 ## Running the whole NLP sequence
 
 Here is a rough outline of the entire NLP process:
 
-Induce or contain yourself (gather your attention, or stabilize yourself first if you are already wide open).
+Induce yourself (meaning gather your attention into a soft focus) or contain yourself (meaning stabilize yourself) first if you are already too opened up to difficult memories/experiences.
 
-Ask yourself for permission: is it useful to work with this image, feeling or pattern today?
+Ask yourself for permission: is it useful to work with this pattern today?
 
-Get a representation of your pattern (image, feeling, size, color, location, movement, etc.).
+Get a representation of your pattern. Do you see it as an image, with size, color and location, or do you feel it like a movement or some other kind of sensation?
 
-Find out what that part/pattern is protecting for you.
+Find out if that part/pattern is protecting something for you.
 
-Gently change some aspect of your pattern (location, volume, space, posture, speed, etc.).
+Gently change an aspect of your pattern's representation from the prior step.
 
 Bring in your 3 good adults (Nurturer to warm, Protector to make it safe, and Guide to point a direction). In real life they’re all part of the one inner adult, so we can imagine them splitting apart if need be and coming together as well.
 
 Anchor your good state (heart, fingers, breath, posture, etc.).
 
-Future pace a scenario where your old pattern would have triggered, and do a small new behavior (If...then... statement).
+Imagine running into a scenario where your old pattern would have triggered, and adopt a feasible new behavior. ("If I see a red cloth, then I will choose not to charge at it. I am not a bull anymore.")
 
-Check in with your body for changes, ask whether the new behavior is kind and doable, and ask what supports your new interpretation of the situation beyond how it feels.
+Check in with your body for signals during the re-imagining process, and what else besides body signals supports your new interpretation of the situation. Ask yourself whether the new behavior you've imagined is kind and sensible.
 
 Get yourself out of the altered state (come back to the room and do something normal).
 
@@ -1270,7 +1274,7 @@ I have a page on my [ZHoly3O](http://zholy3o.u-dont-exist.com/) product, which i
 
 ## Inner child love
 
-Here is my basic inner child love practice technique. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix this problem. I’m here now to listen to you.” Make sure you're actually talking to your inner child, not just repeating a script. If you can't genuinely say all that and feel it, then just rest your hands there and notice what you find.
+Do the two-hand practice from Working with your inner child, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix this problem. I’m here now to listen to you.” Make sure you're actually talking to your inner child, not just repeating a script. If you can't genuinely say all that and feel it, then just rest your hands there and notice what you find.
 
 ## Anxiety script
 
@@ -1562,7 +1566,7 @@ Some of the information in this post comes from *Healing the Divided Self*, Phil
 
 ## Inner speech and putting experience into words
 
-[Not everybody has an inner voice](https://journals.sagepub.com/doi/10.1177/09567976241243004) (Nedergaard and Lupyan 2024) is not about self hypnosis adaptations, but about people with different amounts of inner speech. The questions in the quick start are a practical way of seeing for yourself how much inner speech you have.
+The study [Not everybody has an inner voice](https://journals.sagepub.com/doi/10.1177/09567976241243004) (Nedergaard and Lupyan 2024) is not about self hypnosis adaptations, but about people with different amounts of inner speech. The questions in the quick start are a practical way of seeing for yourself how much inner speech you have.
 
 ## Memory, support, and choosing a practitioner
 
