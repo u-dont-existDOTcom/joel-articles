@@ -1,0 +1,21 @@
+{
+ "answers": "ANSWERS-20261102-1816.json",
+ "answers_sha256": "761cbfcc0f7dbe271745343d4f7e60c997888280564729c63b4ec94c604c0985",
+ "before_sha256": "80b2e475c67480e9e0356e8a31902f779967197e0607caaed8169e5d16015487",
+ "after_sha256": "a789009c3777ede488fa8b3fce233874d42e88acc6f7adee186eb571eb2d0e00",
+ "fates": {
+  "W-92b": "approved: the card's version went in",
+  "W-283b": "approved: the card's version went in",
+  "R-638": "approved: the card's version went in"
+ },
+ "changed_blocks": [
+  92,
+  281,
+  282,
+  638
+ ],
+ "blocks": [
+  773,
+  772
+ ]
+}

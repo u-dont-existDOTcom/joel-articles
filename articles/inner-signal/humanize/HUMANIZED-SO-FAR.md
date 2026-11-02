@@ -182,7 +182,7 @@ When something specific comes up, that’s the time to sort out what it is. “I
 
 Your inner child won’t trust you right away. It’s not going to be enough for you to meditate, say three nice sentences to the inner child and expect to have its trust. What’s going to help your inner child to trust you is you, the person you are right now, becoming reliable.
 
-Here I’m going to talk about what you develop in yourself as you reparent your inner child. I’m going to talk about it in terms of three jobs: your loving Nurturer, your safe Adult Protector (hereafter just the Protector) and your wise Guide. That’s one grown-up doing three jobs, not three more people moving in to help with the rent, and each job keeps the others in balance. It’s you that needs to develop these qualities.
+Here I’m going to talk about what you develop in yourself as you reparent your inner child. I’m going to talk about it in terms of three jobs: your loving Nurturer, your safe Adult Protector (hereafter just the Protector) and your wise Guide. That’s one grown-up doing three jobs, not three more people moving in to help with the rent, and each job keeps the others in balance. Say a party gets to be too much for your little one. The Protector gets you both out of there, and on the way home the Nurturer tells them they did great, even though mostly they hid in the bathroom. And the Guide helps them think twice about the next weird party they might go to, avoiding another cycle of bathroom vacationing. 🙈 It’s you that needs to develop these qualities.
 
 Also, your inner child’s worth is not dependent on these qualities… It has its own worth, and its own qualities, like playing, being tender, not taking life too seriously, being creative and wondering at the world. Those belong in your relationship with it too, not just the wounds.
 
@@ -560,9 +560,7 @@ Ask for any diffuse benefits to become more practically focused: "If this is gui
 
 ### Make the hypnosis more alert
 
-Aside from focusing on things in your direct experience, you can also [suggest yourself into greater alertness](https://www.tandfonline.com/doi/full/10.1080/00029157.2018.1496318) (it's still relaxed-alert, not paranoid-alert). Keep your eyes open. Use a small hand movement each time you make the auto-suggestion that you're gaining increasing clarity. Then stop the hand movement and see where your mind is at. That hand movement is the mental escape into the body's flow. Say something like,
-
-“Starting with your eyes open, press your thumb to your forefinger, gently, and let go. As you do, you begin to bring yourself into a place of clearer awareness… Press and let go again, and you’re clearer still. And once more, into the clearest state of awareness yet. Now stop pressing. In the first second after you stop, notice if there’s any echo of the pressing in your fingers, in your breathing, in your attention, or nowhere at all. Just notice, sit up straight and work from this level.”
+Aside from focusing on things in your direct experience, you can also [suggest yourself into greater alertness](https://www.tandfonline.com/doi/full/10.1080/00029157.2018.1496318) (it's still relaxed-alert, not paranoid-alert). Keep your eyes open. Use a small hand movement each time you make the auto-suggestion that you're gaining increasing clarity. Then stop the hand movement and see where your mind is at. That hand movement is the mental escape into the body's flow.
 
 ## Sleep induction
 
@@ -1274,7 +1272,7 @@ How do you know which it is? Simply ask yourself if the daydreaming is taking yo
 
 If it is helping you, then simply ask yourself what the guidance is and how you can use it.
 
-If it is taking you away from life, then change your body position by sitting upright, open your eyes, feel your feet and ask your subconscious to help you. Simply say to yourself, “Dear subconscious, thank you for showing me images. If what you are showing me is helpful, then please also show me the guidance in it. If what you are showing me is a way of avoiding dealing with life, then please show me in a gentle but structured way how to deal with life as it is right now.”
+If it is taking you away from life, then change your body position by sitting upright, open your eyes, feel your feet and ask your subconscious to help you.
 
 Then ask yourself what it is that you need to do in real life that you are avoiding by daydreaming.
 
