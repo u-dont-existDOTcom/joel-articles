@@ -82,6 +82,15 @@ class Ledger(unittest.TestCase):
         self.result('s2', 'AI')
         self.assertEqual(self.predict('s3', lineage='S13', scope='section', diagnosis='another'), 2)
 
+    def test_a_half_does_not_go_through_the_paid_api(self):
+        """Joel, 2026-11-02 20:38 UTC: "that should be done the free way to not waste my pangram credits" (E218, E325)."""
+        half = ' '.join(['word'] * 1500)
+        argv = ['predict', self.ledger, '--lineage', 'W2', '--scope', 'stretch', '--text', self.text(half), '--call', 'AI',
+                '--chance', '0.4', '--tells', 'x', '--detector', "pangram 4.1, the API (Joel's key, run on his laptop; E218)"]
+        self.assertEqual(L.main(argv), 2)
+        sub = list(argv); sub[-1] = "pangram 4.1, Pangram's check of the Substack draft (free)"
+        self.assertEqual(L.main(sub + ['--decides', 'what the whole reads now']), 0)
+
     def test_a_fixed_section_gets_one_more_check_after_each_fix(self):
         """Joel, 2026-11-02 19:11 UTC, his answer 28a: one more check of the whole section after each fix, each with my
         prediction written first. Past its two tries a section takes a check only with --after-fix, and never of a text it

@@ -1,0 +1,23 @@
+{
+ "commit": "a5567f33eed10675d3f2299b5526c70e57377998",
+ "how": "cleared through the editor's own API (editor.commands.clearContent, after checking the draft's title; 0 characters left), not with ctrl+a and Delete, which can make Substack write to Joel's clipboard; then fix-20261022/screen/paste_payload_lane.js (the payload fetched from raw.githubusercontent.com at the commit, its SHA-256 checked); the draft API's saved body holds the new words; the secret link by tools/humanization/substack_secret_link.js's rules; the rendered check is tools/humanization/substack_rendered_check.js's walk in the app's built-in browser",
+ "draft": 222109105,
+ "title": "TEMP recheck A (hypnosis guide) - do not publish",
+ "link": "https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-1102&audience=only_paid&free_preview=false&freemail=",
+ "payload_sha256": "9b9bce73582bd5254b5d467be3d1edd632eb5793918155ac55e27528450035cf",
+ "editor_words": 31534,
+ "payload_words": 31500,
+ "editor_words_note": "+34, as every paste of part A",
+ "draft_updated_at": "2026-11-02T20:49:40.170Z",
+ "is_published": false,
+ "saved_body_checked": [
+  "his answers of 20:38 UTC in (\"helicopter mom\", \"Fool me once\", \"Tell me what you remember, I\", \"Or however you\")",
+  "the old words gone (\"Talk to the guard the way your Nurturer talks\", \"If nothing comes back, that\", \"Try out these requests\")"
+ ],
+ "rendered": {
+  "lines": 597,
+  "code_points": 168724,
+  "first_99999_sha256": "8747acaa899ffc07223a75fd0fee51731917d9addb2a6d705cf9368f10f203f7",
+  "equals_TEXT_A": true
+ }
+}

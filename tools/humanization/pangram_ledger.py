@@ -132,6 +132,12 @@ def refusals(recs, rec):
     if not rec.get('tells') and not rec.get('human_tells'):
         out.append('no evidence: name the AI tells and the human tells in the actual words (the rule asks for both)')
     scope = rec['scope']
+    # E218, E325 (Joel, 2026-11-02 20:38 UTC: "that should be done the free way to not waste my pangram credits"): a half,
+    # a whole article or anything over 1,200 words is checked free in a temporary Substack draft, never through the API
+    if 'api' in (rec.get('detector') or '').lower() and (scope in ('article', 'stretch') and (rec.get('words') or 0) > 1200
+                                                       or (rec.get('words') or 0) > 1200) and not (rec.get('paid_ok') or '').strip():
+        out.append('%d words through the API: a half, a whole article or anything over 1,200 words goes through a temporary '
+                   'Substack draft and its secret preview link, free (E218, E325); --paid-ok only with his words' % (rec.get('words') or 0))
     if scope not in CAPS:
         out.append('scope must be one of %s' % ', '.join(sorted(CAPS)))
         return out
@@ -464,7 +470,7 @@ def cmd_predict(a):
            'scope': a.scope, 'sha256': sha, 'words': words, 'call': a.call, 'chance': a.chance, 'tells': a.tells or [],
            'human_tells': a.human_tells or [], 'diagnosis': a.diagnosis, 'decides': a.decides, 'key': a.key, 'batch': a.batch,
            'detector': a.detector, 'shading_expected': a.shading_expected, 'emulate_share': a.emulate_share,
-           'after_fix': a.after_fix, 'try': len(line) + 1}
+           'after_fix': a.after_fix, 'paid_ok': a.paid_ok, 'try': len(line) + 1}
     why = refusals(recs, rec)
     if why:
         print('REFUSED: ' + '\n  '.join(why), file=sys.stderr)
@@ -638,6 +644,7 @@ def main(argv=None):
     p.add_argument('--detector', default='Pangram 4.1 (web app)')
     p.add_argument('--shading-expected')
     p.add_argument('--emulate-share', type=float)
+    p.add_argument('--paid-ok', help="Joel's words allowing a text over 1,200 words through the paid API (E218, E325)")
     p.add_argument('--after-fix', help='a section past its two tries: what the fix changed (his answer 28a, one more check '
                    'of the whole section after each fix)')
     p.set_defaults(fn=cmd_predict)

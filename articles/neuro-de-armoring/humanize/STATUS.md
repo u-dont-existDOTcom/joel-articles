@@ -1,5 +1,13 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-02, after Joel's message of 20:38 UTC: checks over six paragraphs go free (E325)
+
+His message was about the hypnosis guide's whole check ("that should be done the free way to not waste my pangram
+credits"). This lane's baseline of the whole article (5,821 words, batch n1102) was one of the five halves or whole
+articles the lanes sent through the API on 2 November, against his rule (E218). `tools/humanization/pangram_api.py` and
+`pangram_ledger.py` now refuse a text of more than six paragraphs or 1,200 words through the API (gate E325); the
+handoff's START HERE says how this lane checks a bigger section or the whole article free. Question 1 still waits on him.
+
 ## 2026-11-02, after Joel's message of 19:11 UTC: the lightest fix tried on one section; question 1
 
 His message was about the hypnosis guide (28a, 29a); this lane's next step went on. **Part 1, C to E**
