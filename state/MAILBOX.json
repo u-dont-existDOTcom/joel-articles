@@ -1,0 +1,47 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-01T22:27Z",
+   "lines_of_work": [
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "1 new item: 2026-10-31-mailbox-every-turn.md (an owner request), not in docs/suggested-fixes-ledger.md; the lane's other item (2026-09-30) was adopted on 2026-10-01"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "no new issues; no new comments or reviews on any issue or pull request since 2026-10-26 (gh api REST); pull request 265 was merged by Joel at 2026-11-01 22:23 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "both handoff notes and the guide's questions page changed since this session's last turn (2026-10-26) only through the lane's own sessions on Joel's other account (commits 1b0cf92f to 833d398a, his answers in them); no edit by anyone else"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "2026-10-31-mailbox-every-turn.md",
+     "outcome": "adopted: AGENTS.md section replaced, lane_mailbox.py and lane_push.py --mailbox, tests, the places named in both handoff notes, ledger row"
+    }
+   ],
+   "recorded_utc": "2026-11-01T23:01Z"
+  }
+ ]
+}

@@ -1,5 +1,48 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-11-01, after Joel's message of 22:27 UTC: batch s1101's windows, round 2; his cards page; the recheck of eleven sections
+
+His message: carry on from both handoffs' next steps. **The mailbox first** (gate E313 below; `state/MAILBOX.json`): one new
+item in the lane of universal-dev-architecture, `2026-10-31-mailbox-every-turn.md` (an owner request), adopted
+(`AGENTS.md`'s section, `tools/humanization/lane_mailbox.py`, `lane_push.py --mailbox`, `tests/test_lane_mailbox.py`,
+`docs/suggested-fixes-ledger.md`); no new issues, comments or reviews; no queued messages.
+
+**Round 2 of the fixes** (`fix-20261101/sections/fixes_round2.py` writes FIXES-S1101.json; `apply_s1101_fixes.py` rebuilds
+the guide from a32e6afe with both rounds; APPLIED-S1101.json): every window left in CONFIDENCE.md in our words, in
+eighteen sections, said plainly from the published passage and read beside it (a lost published point put back in two:
+the recording that cuts out, the script decided in advance), linted (`read/record_s1101_read.py` says what the lint
+still names and why), read record `read/READ-RECORD.json` (53 paragraphs). Comparison gate: PASS. Whose words a window
+is was checked again against his inner child guide with a near-match too: several "ours" sentences are his inner child
+guide's lines, shortened when they came in, and two lines of round 1's fix in Working with your guards ("What's going
+on?", "If nothing comes, that's fine for now.") were his inner child guide's word for word. That fix is undone (his
+words back) and is his card G-23 (lesson E314). "Share", "8." and "9." are not prose.
+
+**His cards page**: [Hypnosis Guide Cards, 1 November (2)](https://claude.ai/artifact/V3ZgooEhJAr2ApQdsjF3Hu)
+(`fix-20261101/sections/review/`, REVIEW-S1101.md the cards as text; browser test 82 of 82): 21 cards, 14 on his own
+paragraphs and 7 on his inner child guide's lines, three of them I'd keep as they are; and, after the checks below, 4 stretches of ours to edit (25 cards). The audit (AI Generated) gets his
+Appendix C strategy (W-605), which may be what question 27 meant.
+
+**The recheck** (`fix-20261101/sections/recheck/`, `make_recheck.py`): the eleven sections whose windows are all fixed
+(none waits on a card), each by itself, try 2 of 2 (lineages HG1101-NN, batch r1101); predictions in the ledger before
+the run (pushed at e6300416, fetched in the tab from raw.githubusercontent.com and checked by SHA-256, file and items).
+**Read** (`recheck/read_r1101.py`: RESULTS.md, CONFIDENCE.md, r1101-results.json; the ledger 9 of 11 right, the two
+misses explained): **six of eleven read Human Written** (Sometimes start with the whole, Play and rest, Deepening and the
+depth check, Let the next response guide you, If it might be psychosis, Supported floating and Rhythmic breath), four of
+them every window High; **five did not** (Let the child speak and The weekly deeper practice AI Generated; Come all the
+way back, the blissful/diffuse troubleshooting and The cosmic-download humility test AI Detected), and two Human (Low)
+closing sentences remained.
+
+**Round 3** (`fixes_round3.py`, each fix with its diagnosis and the text that was checked; the read record and the
+comparison gate again: PASS), **checked paragraph by paragraph** since the section checks are spent (`recheck/para/`,
+batch p1101, try 1 of 6 per lineage, items given inline and checked by SHA-256; 10 of 10 predictions right): four read
+Human (High): the first paragraph of Let the child speak, the depth check's closing, Come all the way back's checks, and
+the cosmic-download opening. Four stretches of ours still read AI after three tries each (Let the child speak's last
+paragraph, the two paragraphs on recordings, The weekly deeper practice, the blissful/diffuse paragraph): they stay as
+they are (clear, read beside the published version; E291) and are on his cards page as stretches to edit (E-107, E-315,
+E-368, E-406). The guide: 170052f8...
+
+Delegations (model, piece, check, outcome): none; every read was the lead session's own.
+
 ## 2026-11-01, batch s1101: each section of the guide checked in Pangram by itself (E307)
 
 `fix-20261101/sections/`: make_sections.py (103 sections: a heading of level 1 or 2 and its paragraphs, short ones

@@ -1,0 +1,71 @@
+"""Tests for tools/humanization/lane_mailbox.py and lane_push.py's mailbox gate (Joel, 2026-10-31: "can we make sure you always
+check what is addressed to you in each turn? like checking ur mailbox?"; adopted 2026-11-01 from
+universal-dev-architecture's suggested-fixes/joel-articles/2026-10-31-mailbox-every-turn.md)."""
+import pathlib
+import sys
+import tempfile
+import unittest
+from unittest import mock
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'tools' / 'humanization'))
+import lane_push as P  # noqa: E402
+import lane_mailbox as M  # noqa: E402
+
+READ_ALL = [('uda-lane', 'no new items'), ('repo', 'no new issues, comments or reviews'),
+            ('notes', 'no edits by others'), ('runtime', 'no queued messages')]
+
+
+class Record(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.path = pathlib.Path(self.tmp.name) / 'MAILBOX.json'
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def test_every_place_read_is_complete(self):
+        self.assertEqual(M.record('2026-11-01 22:27', ['guide'], READ_ALL, [], [], path=self.path), [])
+        self.assertEqual(M.check('2026-11-01T22:27:00Z', path=self.path), [])
+
+    def test_a_place_left_out_is_missing(self):
+        probs = M.record('2026-11-01 22:27', [], READ_ALL[:3], [], [], path=self.path)
+        self.assertTrue(any(p.startswith('runtime') for p in probs), probs)
+
+    def test_an_unreachable_place_counts_with_what_failed_and_a_retry(self):
+        probs = M.record('2026-11-01 22:27', [], READ_ALL[:1] + READ_ALL[2:],
+                         [('repo', 'GitHub API 502', 'first thing next turn')], [], path=self.path)
+        self.assertEqual(probs, [])
+        probs = M.record('2026-11-01 22:27', [], READ_ALL[:1] + READ_ALL[2:], [('repo', 'GitHub API 502', '')], [],
+                         path=self.path)
+        self.assertTrue(any(p.startswith('repo') for p in probs), probs)
+
+    def test_an_item_needs_an_outcome(self):
+        probs = M.record('2026-11-01 22:27', [], READ_ALL, [], [('item.md', '')], path=self.path)
+        self.assertTrue(any('item.md' in p for p in probs), probs)
+
+    def test_another_turn_is_not_this_turn(self):
+        M.record('2026-11-01 22:27', [], READ_ALL, [], [], path=self.path)
+        self.assertTrue(M.check('2026-11-02 09:10', path=self.path))
+
+    def test_a_turn_is_a_clock_reading(self):
+        with self.assertRaises(ValueError):
+            M.turn_key('this turn')
+
+
+class PushGate(unittest.TestCase):
+    def test_push_without_mailbox_is_refused_before_anything_is_committed(self):
+        with mock.patch.object(P, 'commit') as commit, self.assertRaises(SystemExit) as e:
+            P.main(['subject', '--article', 'inner-signal'])
+        self.assertIn('--mailbox', str(e.exception))
+        commit.assert_not_called()
+
+    def test_push_with_an_incomplete_check_is_refused(self):
+        with mock.patch.object(M, 'check', return_value=['runtime: not checked']), \
+                mock.patch.object(P, 'commit') as commit, self.assertRaises(SystemExit) as e:
+            P.main(['subject', '--article', 'inner-signal', '--mailbox', '2026-11-01 22:27'])
+        self.assertIn('runtime', str(e.exception))
+        commit.assert_not_called()
+
+
+if __name__ == '__main__':
+    unittest.main()

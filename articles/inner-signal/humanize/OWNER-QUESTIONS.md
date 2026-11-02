@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-11-01, after your answers of 20:29 UTC to the cards of my second full read.
-**Open questions: 1** (27). **For you to do**: nothing for the guide right now; I'm checking each section in Pangram. The questions are at the top, with their
+Last updated 2026-11-01, after your message of 22:27 UTC (carry on from the next step).
+**Open questions: 1** (27). **For you to do**: mark [Hypnosis Guide Cards, 1 November (2)](https://claude.ai/artifact/V3ZgooEhJAr2ApQdsjF3Hu) (25 cards). The questions are at the top, with their
 options and my default; under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠
 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -10,13 +10,19 @@ read and update it. Every file it points to is a link.
 
 ## Open questions
 
-- 🟣 **27. Which list did you mean?** Your comment on the audit card ends "see if you can apply the fix strategy I used
-  above on the below:" and nothing comes after it. My default: Appendix C's list ("Before you do what it wants you to
-  do, see if it does any of the following: create a sense of urgency, secrecy, shame ..."). I rewrote it with your
-  strategy (the list uncompressed into questions, explained, and broken by a bridge: "Keep in mind though, people who
-  mean well can ask for some of these too ..." and "Back to the interrogation:", after your "as the police like to
-  say" just above it), and the recheck below reads it in place. If you meant another list, paste it and I'll do that
-  one too.
+**🟣 27. Which list did you mean?** Your comment on the audit card ends "see if you can apply the fix strategy I used
+above on the below:" and nothing comes after it. My default: Appendix C's list ("Before you do what it wants you to
+do, see if it does any of the following: create a sense of urgency, secrecy, shame ..."). I rewrote it with your
+strategy (the list uncompressed into questions, explained, and broken by a bridge: "Keep in mind though, people who
+mean well can ask for some of these too ..." and "Back to the interrogation:", after your "as the police like to
+say" just above it), and the recheck below reads it in place. If you meant another list, paste it and I'll do that
+one too.
+Since then the audit itself read AI Generated in its own check, so card W-605 on the new cards page applies the same
+strategy to the audit. If the audit is what you meant, approving W-605 answers this question too.
+
+- a) The audit itself (Hypnosis-specific audit): approve card W-605 on the cards page, which rewrites it your Appendix C way.
+- b) Appendix C's list, my default: done, and Appendix C reads Human Written by itself.
+- c) Another list: paste it, and I'll do that one too.
 
 Question 26 (Emulate) stays withdrawn (E293).
 
@@ -25,7 +31,29 @@ changed under them, so the rechecks decide; you don't need to mark them.
 
 ## For you to do
 
-Nothing for the guide right now.
+- 🟠 Mark [Hypnosis Guide Cards, 1 November (2)](https://claude.ai/artifact/V3ZgooEhJAr2ApQdsjF3Hu) ([the cards as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/sections/review/REVIEW-S1101.md)):
+  14 cards on paragraphs you wrote or rewrote, 7 on your inner child guide's lines (3 of the 21 I'd keep as they are),
+  and 4 stretches of our words that read AI in three tries, for you to keep or say your way. Each card says what
+  Pangram read there.
+
+## Your message of 2026-11-01 22:27 UTC, and what I did
+
+- 🟢 **The windows in our words** (of the 91 that read AI or Human (Low) when each section was checked by itself) are
+  fixed, each said plainly from your published version, read beside it and linted. Where a point of your published
+  version had gone missing, it's back (the recording that cuts out: don't wait for the missing voice; the script decided
+  in advance).
+- 🟢 **Your inner child guide's words are back where this afternoon's fixes had changed them** without a card ("What's
+  going on?" and "If nothing comes, that's fine for now." in Working with your guards). The fix is card G-23. Several
+  lines I'd counted as ours turned out to be your inner child guide's, shortened when they came in; they're cards too
+  (lesson E314).
+- 🟢 **The eleven sections with nothing waiting on you, checked again by themselves** (their second and last section
+  check; [each result](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/sections/recheck/RESULTS.md)):
+  six read Human Written, five didn't. Their paragraphs then got one more try each, checked alone
+  ([each result](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/sections/recheck/para/RESULTS.md)):
+  four now read Human (High), and four stretches still read AI after three tries. Those are on your cards page as
+  stretches to edit (E-107, E-315, E-368, E-406); the clear version stays in until one reads both clear and Human.
+- 🔵 **Next**: your answers to the cards; then the sections with a card get their second check by themselves, and the
+  whole guide its check on the Substack drafts with your extension.
 
 ## Your answers of 2026-11-01 20:29 UTC, and what I did
 

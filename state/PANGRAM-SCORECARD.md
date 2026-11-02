@@ -38,23 +38,23 @@ The boundary mix over all lanes:
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | community article | 1 | 0 (0%) | 0% | 100% | 0% | 0.865 (base 0.000, 1) |
-| hypnosis guide | 34 | 28 (82%) | 82% | 18% | 6% | 0.132 (base 0.145, 34) |
+| hypnosis guide | 38 | 32 (84%) | 84% | 16% | 5% | 0.119 (base 0.133, 38) |
 | nibbana article | 8 | 7 (88%) | 88% | 12% | 0% | 0.086 (base 0.109, 8) |
-| **all lanes** | 43 | 35 (81%) | 81% | 19% | 5% | 0.141 (base 0.151, 43) |
+| **all lanes** | 47 | 39 (83%) | 83% | 17% | 4% | 0.129 (base 0.141, 47) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | community article | 1 | 0 (0%) | 0% | 100% | 0% | 0.865 (base 0.000, 1) |
-| hypnosis guide | 34 | 28 (82%) | 82% | 18% | 6% | 0.132 (base 0.145, 34) |
+| hypnosis guide | 38 | 32 (84%) | 84% | 16% | 5% | 0.119 (base 0.133, 38) |
 | nibbana article | 8 | 7 (88%) | 88% | 12% | 0% | 0.086 (base 0.109, 8) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| article | 31 | 25 (81%) | 84% | 16% | 3% | 0.135 (base 0.135, 31) |
+| article | 35 | 29 (83%) | 86% | 14% | 3% | 0.120 (base 0.122, 35) |
 | stretch | 12 | 10 (83%) | 75% | 25% | 8% | 0.155 (base 0.188, 12) |
 
 ## pangram API (model pangram-4), answered 4.1
@@ -76,6 +76,29 @@ The boundary mix over all lanes:
 |---|---|---|---|---|---|---|
 | paragraph | 4 | 3 (75%) | 0% | 100% | 75% | 0.089 (base 0.000, 4) |
 | pair | 1 | 0 (0%) | 100% | 0% | 100% | 0.810 (base 0.000, 1) |
+
+## Pangram 4.1 (web app)
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| community article | 13 | 10 (77%) | 15% | 85% | 92% | 0.169 (base 0.130, 13) |
+| hypnosis guide | 124 | 103 (83%) | 24% | 76% | 78% | 0.183 (base 0.183, 124) |
+| **all lanes** | 137 | 113 (82%) | 23% | 77% | 80% | 0.182 (base 0.179, 137) |
+
+The latest 100 calls of each lane:
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| community article | 13 | 10 (77%) | 15% | 85% | 92% | 0.169 (base 0.130, 13) |
+| hypnosis guide | 100 | 83 (83%) | 26% | 74% | 75% | 0.183 (base 0.192, 100) |
+
+The boundary mix over all lanes:
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| section | 127 | 103 (81%) | 20% | 80% | 83% | 0.183 (base 0.163, 127) |
+| paragraph | 8 | 8 (100%) | 50% | 50% | 50% | 0.170 (base 0.250, 8) |
+| pair | 2 | 2 (100%) | 100% | 0% | 0% | 0.163 (base 0.000, 2) |
 
 ## pangram 4.1, web app
 
@@ -205,7 +228,7 @@ The boundary mix over all lanes:
 
 | cause | misses | lanes |
 |---|---|---|
-| not explained yet | 17 | inner child guide |
+| not explained yet | 39 | community article, hypnosis guide, inner child guide |
 | too pessimistic about a cut | 12 | inner child guide |
 | a tell I did not name | 11 | inner child guide |
 | a Low window came back | 8 | inner child guide |
@@ -236,6 +259,8 @@ The boundary mix over all lanes:
 | context: Human in the whole guide, red alone | 1 | hypnosis guide |
 | pessimism about red moving onto unchanged text | 1 | hypnosis guide |
 | pessimism about the whole text, again | 1 | hypnosis guide |
+| a rewrite of the words, not the shape | 1 | hypnosis guide |
+| an opening generalization kept | 1 | hypnosis guide |
 | a tell I left in | 1 | inner child guide |
 | his questions are the tell | 1 | inner child guide |
 | the list was not the only tell | 1 | inner child guide |
