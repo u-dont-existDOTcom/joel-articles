@@ -1,0 +1,232 @@
+{
+ "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+ "status": "READY_FOR_CHECK",
+ "candidate_sha256": "e419394552f904d98a6f5eec1b656920d9873f0bc66fc35e4fd90299b8846283",
+ "context_sha256": "997eba18ef7566afdc7d7132b5c014e58da4ef6a9ae6681dd5dd7ea07d009c8d",
+ "source_sha256": "a328dd7b7c66f07edb86b30870910e01fbe63acc86603337df78dcff1e2bc6a4",
+ "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+ "writer": {
+  "name": "Claude Opus 5.5, the hypnosis guide lane's writer (the suggestions on his cards C-92 and C-480)",
+  "context_id": "session_01Mxpoi6tFT3FgKmBvtGjRtS"
+ },
+ "lint": {
+  "verdict_at_init": "REVIEW",
+  "linter_sha256": "4ce090c41fe4e2c0e7bc28b7cb59ebd6269e58be33611525c39c9fb4bc2a6e3e",
+  "stdout_sha256": "124e048eb807ae1df07fd2894c5dfbdfa56b10205ee8e11310c867ce9f7e343b",
+  "findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ],
+    "disposition": "JUSTIFIED_KEEP",
+    "reason": "It replaces his line in place, so it follows that line's order by design."
+   }
+  ]
+ },
+ "tell_ledger": [
+  {
+   "id": "T01",
+   "status": "ABSENT",
+   "evidence": "no first person in the change (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T02",
+   "status": "ABSENT",
+   "evidence": "one sentence inside a paragraph of explanation and example (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T03",
+   "status": "ABSENT",
+   "evidence": "nothing new arrives; his point and his joke are kept (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T04",
+   "status": "ABSENT",
+   "evidence": "no scene in the change; his party example follows unchanged (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T05",
+   "status": "ABSENT",
+   "evidence": "no new prop; the rent is his (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T06",
+   "status": "ABSENT",
+   "evidence": "no therapy abstraction added (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T07",
+   "status": "ABSENT",
+   "evidence": "no filler; \"still\" carries the real turn (three named jobs, one person) (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T08",
+   "status": "ABSENT",
+   "evidence": "no explanation after an image (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T09",
+   "status": "ABSENT",
+   "evidence": "one sentence (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T10",
+   "status": "ABSENT",
+   "evidence": "no permission formula (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T11",
+   "status": "ABSENT",
+   "evidence": "no bridge phrase (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T12",
+   "status": "ABSENT",
+   "evidence": "his \"X, not Y\" contrast is gone; nothing balanced is added (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T13",
+   "status": "ABSENT",
+   "evidence": "his joke stays inside the line, in brackets (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T14",
+   "status": "ABSENT",
+   "evidence": "nothing moved (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T15",
+   "status": "ABSENT",
+   "evidence": "the words are his but \"It’s still\" and \"nobody new is\"; the shape changes, the reveal is gone (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T16",
+   "status": "ABSENT",
+   "evidence": "the reflex negative reveal (\"not three more people\") is what the change removes (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T17",
+   "status": "ABSENT",
+   "evidence": "his clause \"each job keeps the others in balance\" is kept as he wrote it (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T18",
+   "status": "ABSENT",
+   "evidence": "no premise and knock-down (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T19",
+   "status": "ABSENT",
+   "evidence": "it announces nothing (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T20",
+   "status": "ABSENT",
+   "evidence": "not a paragraph end; the party example follows (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T21",
+   "status": "ABSENT",
+   "evidence": "one claim and his joke (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T22",
+   "status": "ABSENT",
+   "evidence": "no coach phrase (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T23",
+   "status": "ABSENT",
+   "evidence": "no generic scenery (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T24",
+   "status": "ABSENT",
+   "evidence": "no question (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T25",
+   "status": "ABSENT",
+   "evidence": "no colon (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T26",
+   "status": "ABSENT",
+   "evidence": "\"three jobs\" repeats the sentence before it, as his line did (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T27",
+   "status": "ABSENT",
+   "evidence": "none of his tic words (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T28",
+   "status": "ABSENT",
+   "evidence": "not a section end (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "T29",
+   "status": "ABSENT",
+   "evidence": "not the paragraph's last sentence (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "C01",
+   "status": "ABSENT",
+   "evidence": "the inner child is not named in the change (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "C02",
+   "status": "ABSENT",
+   "evidence": "\"It\" is the grown-up doing the jobs, as his \"That\" was (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "C03",
+   "status": "ABSENT",
+   "evidence": "no first-person fact (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  },
+  {
+   "id": "C04",
+   "status": "ABSENT",
+   "evidence": "no named entity (judged: It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.)",
+   "resolution": ""
+  }
+ ],
+ "review_files": {
+  "preservation": "REVIEW-preservation.json",
+  "cold_read_1": "REVIEW-cold_read_1.json",
+  "cold_read_2": "REVIEW-cold_read_2.json"
+ }
+}

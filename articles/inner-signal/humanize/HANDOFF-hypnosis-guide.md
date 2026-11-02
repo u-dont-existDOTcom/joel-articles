@@ -18,6 +18,10 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-11-02, after Joel's message of 23:07 UTC (the second free check's result pages): read; part B has no AI window,
+  part A three (Low); the cards page for what's left is published.** `fix-20261102/free-whole-2/read/WINDOWS.md`;
+  [Hypnosis Guide Cards, 2 November (3)](https://claude.ai/artifact/TAgS2uaHjmyZTHx4ZuW4Bx) (`fix-20261102/f1102/REVIEW-F1102.*`; its gate in `fix-20261102/f1102/gate/`).
+  See the Next step.
 - **2026-11-02, after Joel's messages of 21:57 UTC (his free check's two result pages, "30a") and 21:59 UTC ("i logged
   into the other pangram account if you want to read that history"): the check read, 30a in, batch f1102's fixes in,
   the second free check pasted, his second account read.** Part A 0.73% AI and part B 0.26% AI
@@ -221,10 +225,9 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: **his two Pangram result pages** for the second free check (the secret links in
-`fix-20261102/free-whole-2/RECHECK-POST-A.json` and `-B.json`, on `OWNER-QUESTIONS.md` under For you to do: he opens each
-in his browser and runs the Pangram extension). No open questions (30 answered: 30a, in). Earlier: his result pages for
-the first free check came at 2026-11-02 21:57 UTC and are read (`fix-20261102/free-whole/read/`).
+The guide: **his answers to [Hypnosis Guide Cards, 2 November (3)](https://claude.ai/artifact/TAgS2uaHjmyZTHx4ZuW4Bx)** (6 cards). No open questions.
+Earlier: his result pages for the second free check came at 2026-11-02 23:07 UTC and are read
+(`fix-20261102/free-whole-2/read/`).
 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
@@ -311,7 +314,21 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-11-02, after Joel's messages of 21:57 and 21:59 UTC: the second free check pasted; its results wait on him)
+## Next step (2026-11-02, after Joel's message of 23:07 UTC: the second free check read; his cards page waits on him)
+
+Done (STATUS.md's entry for 23:07). The guide: HUMANIZED-SO-FAR.md 66eb95e7; his post still has a789009c's words.
+
+Next:
+0. **His answers to [Hypnosis Guide Cards, 2 November (3)](https://claude.ai/artifact/TAgS2uaHjmyZTHx4ZuW4Bx)** (`fix-20261102/f1102/REVIEW-F1102.json`): put them
+   in with a script that records each card's fate (`fix-20261102/answers-w1102/apply_answers_w1102.py` is the model), then
+   the comparison gate. His own versions of an edit card go in as he wrote them (typos only fixed).
+1. **The third free check** of the whole guide with his answers in: `fix-20261102/free-whole-2/make_recheck.py` with a new
+   DATE, the two drafts cleared through the editor's API, pasted, read back, new cache keys; predictions first.
+2. **C-672's next try** (his forgiveness quote), as the earlier next steps say; and the Human (Low) windows left in our
+   words (Pattern 9 into Pattern 10, `fix-20261102/free-whole-2/read/WINDOWS.md`) once his answers are in.
+3. **Then his post**, the same way as on 2 November (`fix-20261102/live/`), with the date in the subtitle (E323).
+
+## Earlier next step (2026-11-02, after Joel's messages of 21:57 and 21:59 UTC: the second free check pasted; its results wait on him)
 
 Done (STATUS.md's entry for 21:57 has every file and number). The guide: HUMANIZED-SO-FAR.md 66eb95e7 (772 blocks); his
 post still has a789009c's words.

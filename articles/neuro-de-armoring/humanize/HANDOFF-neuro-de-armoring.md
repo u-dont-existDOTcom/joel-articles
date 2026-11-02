@@ -18,6 +18,7 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-02, after Joel's message of 23:07 UTC (the hypnosis guide's second free check)**: nothing changed in this lane; question 1 still waits on him.
 - **2026-11-02, after Joel's message of 21:59 UTC (his other Pangram account, read in the hypnosis lane): two lessons that apply here too.** E326: a check's text is the text alone, no paragraph labels or Markdown marks; E327: a heading is checked like a sentence, so a coined slogan heading can tip a section (`docs/HUMANIZATION-GATE.md`; `articles/inner-signal/humanize/fix-20261102/joel-pangram/history2/HISTORY-LEARNING-2.md`). Question 1 still waits on him.
 - **2026-11-02, after Joel's message of 20:38 UTC (about the hypnosis guide: "that should be done the free way to not
   waste my pangram credits"): anything over six paragraphs or 1,200 words is checked free (gate E325).** This lane's

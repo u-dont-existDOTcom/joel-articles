@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-11-02, after your messages of 21:57 and 21:59 UTC.
-**Open questions: 0.** **For you to do**: open the whole guide's two new links with your Pangram extension and send me the two result pages (below). The questions are at the top, with their
+Last updated 2026-11-02, after your message of 23:07 UTC.
+**Open questions: 0.** **For you to do**: mark [Hypnosis Guide Cards, 2 November (3)](https://claude.ai/artifact/TAgS2uaHjmyZTHx4ZuW4Bx) (6 cards). The questions are at the top, with their
 options and my default; under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠
 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -15,14 +15,29 @@ changed under them, so the rechecks decide; you don't need to mark them.
 
 ## For you to do
 
-- 🟠 **Open these two links in your browser and run the Pangram extension on each, then send me the two result pages.**
-  They hold the whole guide with this round's fixes and your 30a in, in my two temporary drafts (never published), so
-  the checks cost no credits. I checked that each page shows exactly the text I meant to check.
-  - [Part A: from the start to What not to do](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-1102b&audience=only_paid&free_preview=false&freemail=)
-    (the check reads its first 100,000 characters, which end in What not to do)
-  - [Part B: from You keep using hypnosis but not changing life to the end, with the appendices](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-1102b&audience=only_paid&free_preview=false&freemail=)
-    (it starts a section before part A ends, so the seam is read in both)
+- 🟠 Mark [Hypnosis Guide Cards, 2 November (3)](https://claude.ai/artifact/TAgS2uaHjmyZTHx4ZuW4Bx) ([the cards as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/f1102/REVIEW-F1102.md)):
+  two suggestions on your words, each checked in Pangram and passed by my three reviewers (C-92: your rent line
+  with the joke in brackets; C-480: your Core prompts caveat joined to its sentence), and four stretches to edit or
+  keep (your Troubleshooting seam, and three of mine that two tries couldn't clear).
 
+## Your message of 2026-11-02 23:07 UTC, and what I did
+
+Word for word: [your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/free-whole-2/joel-20261102-2307-message.txt).
+
+- 🟢 **The second free check, read** ([every window to fix, with whose words](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/free-whole-2/read/WINDOWS.md)).
+  Part A read [Human Written, 0.43% AI](https://www.pangram.com/feed/0c89b980-8ffd-44fd-9cde-8a75f9ee4c8c): 139 windows,
+  3 AI (all Low) and 10 Human (Low). Part B read [Human Written](https://www.pangram.com/feed/27c8a2a4-399b-4a20-b8d1-e9ae2957bca4)
+  with no AI window at all (0.01% AI): 37 windows, 5 of them Human (Low).
+- 🟢 **What the fixes did in the whole**: the 15-minute practice's opening and the end of If you sense you are being
+  influenced aren't flagged any more, and Pattern 10's opening went from AI (Low) to Human (Low). My version of the
+  pairs of minds read Human in its stretch but AI (Low) again in the whole, so it's on your page to edit.
+- 🟢 **Your words**: your rent line went from AI (Low) to Human (Low) with no change; your Troubleshooting seam read
+  AI (Low) again; your Core prompts line Human (Low) again.
+- 🟠 **The cards page**: [Hypnosis Guide Cards, 2 November (3)](https://claude.ai/artifact/TAgS2uaHjmyZTHx4ZuW4Bx): two suggestions on your words (your rent line with the
+  joke in brackets read [Human Written, one window, High](https://www.pangram.com/history/a1aff5ea-da51-415b-a4eb-cc3aef09e8e3); your Core prompts
+  caveat joined read [High](https://www.pangram.com/history/99c37345-2641-4db2-be55-e4324087321d)), both passed by my three reviewers, and four
+  stretches to edit or keep: your Troubleshooting seam, and three of mine that two tries couldn't clear (the pairs of
+  minds, the two-hand practice's breathing line, the sources line).
 
 ## Your messages of 2026-11-02 21:57 and 21:59 UTC, and what I did
 

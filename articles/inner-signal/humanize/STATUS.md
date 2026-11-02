@@ -1,5 +1,24 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-11-02, after Joel's message of 23:07 UTC: the second free check read; the cards page for what's left
+
+His message (`fix-20261102/free-whole-2/joel-20261102-2307-message.txt`): the second free check's two result pages. **The
+mailbox first** (`state/MAILBOX.json`, "2026-11-02 23:07"): pull request 271 merged by him at 23:06 UTC; nothing else new.
+
+**The second free check, read** (`fix-20261102/free-whole-2/read/`: WINDOWS-A/B.txt and META-A/B.json from the pages in
+compact mode, each SHA-256 the page's; make_results.py, RESULT-A/B.json; read_free1102.py, WINDOWS.md): part A Human
+Written, 0.43% AI (139 windows: 3 AI, all Low; 136 Human: 65 High, 61 Medium, 10 Low); part B Human Written, 0.01% AI, no
+AI window (37 Human: 17 High, 15 Medium, 5 Low). HG-whole#271 and HG-rest-B#272 right (both Mixed by the ledger's rule:
+part B's 0.0001 AI fraction). In the whole: F-216 and F-361 not flagged; F-528's lead-in Human (Low) from AI (Low);
+F-61/F-62 AI (Low) again (Human Medium in their stretch); his rent line Human (Low) from AI (Low), unchanged words; his
+Troubleshooting seam AI (Low) again.
+
+**The cards page** (`fix-20261102/f1102/build_page_f1102.py`, REVIEW-F1102.*): C-92 (the c1102-92b wording) and C-480, both admitted by the owner-delivery gate (three PASS each; `fix-20261102/f1102/gate/GATE.md`); published as Hypnosis Guide Cards, 2 November (3), https://claude.ai/artifact/TAgS2uaHjmyZTHx4ZuW4Bx (browser test 82 of 82). Edit cards: E-380 (his seam),
+E-61, E-119 and E-762 (ours, two tries each).
+
+Delegations (model, piece, check, outcome): Sonnet, three fresh reviewers of G-92 and G-480 for the owner-delivery gate
+(preservation, two cold reads), checked by `owner_delivery_gate.py check` (`fix-20261102/f1102/gate/run_gate.py`): all six reviews PASS; both drafts delivered (FOR-JOEL.txt with its proof).
+
 ## 2026-11-02, after Joel's messages of 21:57 UTC (his free check's result pages, "30a") and 21:59 UTC (his other Pangram account)
 
 His message (`fix-20261102/free-whole/joel-20261102-2157-message.txt`): his two result pages, and "30a"; at 21:59 UTC: "i
