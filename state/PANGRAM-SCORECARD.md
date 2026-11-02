@@ -100,6 +100,32 @@ The boundary mix over all lanes:
 | paragraph | 8 | 8 (100%) | 50% | 50% | 50% | 0.170 (base 0.250, 8) |
 | pair | 2 | 2 (100%) | 100% | 0% | 0% | 0.163 (base 0.000, 2) |
 
+## pangram 4.1, the API (Joel's key, run on his laptop; E218)
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| community article | 3 | 3 (100%) | 0% | 100% | 100% | 0.115 (base 0.000, 3) |
+| hypnosis guide | 52 | 34 (65%) | 33% | 67% | 87% | 0.193 (base 0.220, 52) |
+| nibbana article | 21 | 10 (48%) | 67% | 33% | 67% | 0.225 (base 0.222, 21) |
+| **all lanes** | 76 | 47 (62%) | 41% | 59% | 82% | 0.198 (base 0.242, 76) |
+
+The latest 100 calls of each lane:
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| community article | 3 | 3 (100%) | 0% | 100% | 100% | 0.115 (base 0.000, 3) |
+| hypnosis guide | 52 | 34 (65%) | 33% | 67% | 87% | 0.193 (base 0.220, 52) |
+| nibbana article | 21 | 10 (48%) | 67% | 33% | 67% | 0.225 (base 0.222, 21) |
+
+The boundary mix over all lanes:
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| pair | 27 | 16 (59%) | 44% | 56% | 81% | 0.197 (base 0.247, 27) |
+| paragraph | 23 | 13 (57%) | 57% | 43% | 70% | 0.205 (base 0.246, 23) |
+| section | 20 | 15 (75%) | 15% | 85% | 90% | 0.177 (base 0.128, 20) |
+| stretch | 6 | 3 (50%) | 50% | 50% | 100% | 0.255 (base 0.250, 6) |
+
 ## pangram 4.1, web app
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
@@ -119,29 +145,6 @@ The boundary mix over all lanes:
 |---|---|---|---|---|---|---|
 | paragraph | 10 | 6 (60%) | 40% | 60% | 80% | 0.195 (base 0.240, 10) |
 | section | 4 | 2 (50%) | 50% | 50% | 100% | 0.214 (base 0.250, 4) |
-
-## pangram 4.1, the API (Joel's key, run on his laptop; E218)
-
-| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
-|---|---|---|---|---|---|---|
-| hypnosis guide | 20 | 12 (60%) | 45% | 55% | 75% | 0.216 (base 0.247, 20) |
-| nibbana article | 21 | 10 (48%) | 67% | 33% | 67% | 0.225 (base 0.222, 21) |
-| **all lanes** | 41 | 22 (54%) | 56% | 44% | 71% | 0.220 (base 0.246, 41) |
-
-The latest 100 calls of each lane:
-
-| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
-|---|---|---|---|---|---|---|
-| hypnosis guide | 20 | 12 (60%) | 45% | 55% | 75% | 0.216 (base 0.247, 20) |
-| nibbana article | 21 | 10 (48%) | 67% | 33% | 67% | 0.225 (base 0.222, 21) |
-
-The boundary mix over all lanes:
-
-| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
-|---|---|---|---|---|---|---|
-| paragraph | 21 | 11 (52%) | 62% | 38% | 67% | 0.220 (base 0.236, 21) |
-| pair | 19 | 10 (53%) | 53% | 47% | 74% | 0.222 (base 0.249, 19) |
-| stretch | 1 | 1 (100%) | 0% | 100% | 100% | 0.202 (base 0.000, 1) |
 
 ## pangram API (model pangram-4, expect 4.1), Joel's key, run on the laptop
 
@@ -261,6 +264,16 @@ The boundary mix over all lanes:
 | pessimism about the whole text, again | 1 | hypnosis guide |
 | a rewrite of the words, not the shape | 1 | hypnosis guide |
 | an opening generalization kept | 1 | hypnosis guide |
+| a line restored untested from his inner child guide, without the example that follows it there | 1 | hypnosis guide |
+| his opening read Human (Low) beside the lettered steps; Mostly Human Written at 5.8% with no AI window | 1 | hypnosis guide |
+| the approved script reads AI in the section; my prediction took his own check of a longer passage as the base | 1 | hypnosis guide |
+| pessimism: his Patterns 3 to 7 (Human High by themselves) carried a long section | 1 | hypnosis guide |
+| pessimism about the list numbers | 1 | hypnosis guide |
+| the script reads AI (Low) after his rewrite; his check of this passage had other words | 1 | hypnosis guide |
+| my fix put a new list of three in place of the old one ('Maybe your fingers..., or your breath..., or your attention...') | 1 | hypnosis guide |
+| the questions said as a run of instructions in our voice ('Then find out ... check whether ... And ask ...') | 1 | hypnosis guide |
+| the three echoes as three steps still read as a list, and the plainer climb read AI (Medium) beside them | 1 | hypnosis guide |
+| the Meta Model's list of questions, unchanged, read AI (Low and Medium) in this stretch; in the section it read Human (Low and Medium) | 1 | hypnosis guide |
 | a tell I left in | 1 | inner child guide |
 | his questions are the tell | 1 | inner child guide |
 | the list was not the only tell | 1 | inner child guide |

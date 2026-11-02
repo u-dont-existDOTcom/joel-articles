@@ -1,0 +1,87 @@
+{
+ "r1102b-A1": {
+  "headline": "Human Written",
+  "fraction_ai": 7.68289102784283e-34,
+  "words": 191,
+  "windows": [
+   "Human, High, 198"
+  ],
+  "utc": "2026-11-02T17:17:05Z",
+  "link": "https://www.pangram.com/history/5ad82ada-83a8-4c4f-89f2-4f0966465f5f"
+ },
+ "r1102b-B0": {
+  "headline": "AI Detected",
+  "fraction_ai": 0.25990813970565796,
+  "words": 354,
+  "windows": [
+   "Human, Low, 21",
+   "Human, Medium, 39",
+   "Human, High, 17",
+   "Human, Low, 7",
+   "Human, Medium, 9",
+   "Human, High, 32",
+   "Human, Medium, 15",
+   "Human, High, 87",
+   "Human, Medium, 4",
+   "Human, High, 18",
+   "Human, Medium, 12",
+   "Human, Low, 12",
+   "AI, Low, 18",
+   "AI, Low, 24",
+   "AI, Low, 10",
+   "AI, Low, 3",
+   "AI, Low, 39"
+  ],
+  "utc": "2026-11-02T17:17:12Z",
+  "link": "https://www.pangram.com/history/1087d1e2-6e20-41b5-8b2e-81d64be3b2cf"
+ },
+ "r1102b-B3": {
+  "headline": "AI Detected",
+  "fraction_ai": 0.2532274127006531,
+  "words": 168,
+  "windows": [
+   "Human, High, 89",
+   "Human, Medium, 18",
+   "Human, Low, 12",
+   "Human, Low, 3",
+   "AI, Low, 15",
+   "AI, High, 21",
+   "AI, Low, 8",
+   "Human, Low, 10"
+  ],
+  "utc": "2026-11-02T17:17:16Z",
+  "link": "https://www.pangram.com/history/c6990553-fb90-4cc5-ae42-42fd1e0caa26"
+ },
+ "r1102b-C1": {
+  "headline": "Human Written",
+  "fraction_ai": 1.301223295779863e-10,
+  "words": 197,
+  "windows": [
+   "Human, High, 39",
+   "Human, Medium, 4",
+   "Human, High, 73",
+   "Human, Medium, 23",
+   "Human, High, 16",
+   "Human, Medium, 19",
+   "Human, High, 34"
+  ],
+  "utc": "2026-11-02T17:17:20Z",
+  "link": "https://www.pangram.com/history/65ac97c1-88c9-483a-bc30-2b8a427e3209"
+ },
+ "r1102b-D2": {
+  "headline": "AI Detected",
+  "fraction_ai": 0.40229862928390503,
+  "words": 151,
+  "windows": [
+   "Human, High, 41",
+   "Human, Medium, 12",
+   "AI, Low, 12",
+   "AI, Low, 10",
+   "AI, Low, 28",
+   "AI, Low, 12",
+   "Human, High, 41"
+  ],
+  "utc": "2026-11-02T17:17:25Z",
+  "link": "https://www.pangram.com/history/a68f6b1e-1ea6-4c31-b9a7-33ba058c8e2b"
+ }
+}

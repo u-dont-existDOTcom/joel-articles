@@ -885,6 +885,9 @@ EVAL_IN_SOURCE = re.compile(r"\bI\s+(?:\w+\s+){0,2}(?:like|love|admire|appreciat
 # O48: a form of "be" or "get" and a past participle (regular "-ed", or a common irregular one), with an adverb allowed between
 # ("is being used", "are disclosed", "was quietly told"); adjectives that end in -ed ("is interested") are counted too, which is
 # why the check is a REVIEW for a run of three or more in a paragraph, not a FAIL.
+# O52: three or more things in a row, each with its own small word ("a task, a boundary, a meal"), the run ending the question
+NOUN_RUN = re.compile(r"(?:\b(?:a|an|the|some|your|any)\s+[a-z]+(?:\s+[a-z]+)?\s*,\s*){2,}(?:(?:or|and)\s+)?"
+                      r"\b(?:a|an|the|some|your|any)\s+[a-z]+(?:\s+[a-z]+)?\s*\?", re.I)
 PASSIVE = re.compile(r"\b(?:am|is|are|was|were|be|been|being|get|gets|got|gotten|getting)\s+(?:\w+ly\s+)?(?:being\s+)?"
                      r"(?:\w+ed|told|given|taken|made|done|seen|known|shown|held|kept|left|lost|found|brought|bought|caught|"
                      r"taught|thought|sold|built|sent|spent|put|set|led|said|paid|meant|felt|heard|written|driven|hidden|"
@@ -1102,6 +1105,29 @@ def main():
                 break
             # O48 (Joel, 2026-10-30 14:35 UTC: "passive voice overuse also high freq AI"): counted per paragraph, below.
             passives += len(PASSIVE.findall(n))
+            # O49 (Joel, 2026-11-02, on E-406: ""what's the next small thing" have you noticed that Ai says this like 1 trazillion
+            # times, any chance it gets, it wants the next small thing? ... you literally said "one next step" right before "the
+            # next small thing""; his fix took both out). A step that is named ("the next step is to eat") isn't matched.
+            if re.search(r"\bnext (?:small|little|tiny) (?:thing|step)s?\b|\bsmall next steps?\b|\bone next step\b", n, re.I):
+                flag('FAIL', 'O49 "the next small thing" or "one next step" (Joel 2026-11-02: "Ai says this like 1 trazillion times, '
+                     'any chance it gets"): say the step itself', s)
+            # O50 (Joel, 2026-11-02, on W-685: ""still matters" is another ai tell").
+            if re.search(r"\bstill (?:matters|matter)\b", n, re.I):
+                flag('FAIL', 'O50 "still matters" (Joel 2026-11-02: ""still matters" is another ai tell"): say what it changes, or '
+                     'take it out', s)
+            # O51 (Joel, 2026-11-02, on E-368: ""do the normal thing" "normal" ordinary, "the thing" "do the thing"...  Ai is always
+            # saying this portable stuff that could go anywhere"; his tries on W-164: "do whatever helps you come back to yourself a
+            # bit" became "do whatever makes you feel adult", and the paragraph went from AI Detected to Human Written).
+            if re.search(r"\bdo (?:the|that|this) (?:normal |ordinary |next |real )?thing\b|\bthe (?:normal|ordinary) thing\b|"
+                         r"\bcome back to yourself\b", n, re.I):
+                flag('FAIL', 'O51 a portable phrase ("do the normal thing", "do the thing", "come back to yourself"; Joel 2026-11-02: '
+                     '"Ai is always saying this portable stuff that could go anywhere"): name what to do', s)
+            # O52 (Joel, 2026-11-02, on E-406: "and then a listicle. how could you not see all this?"; his fix asked each item as
+            # its own question and read Human (High)): a question made of a run of things ("A task, a boundary, a meal, some
+            # rest, a repair, a conversation?").
+            if n.rstrip().endswith('?') and NOUN_RUN.search(n):
+                flag('FAIL', 'O52 a list of things asked as one question (Joel 2026-11-02: "and then a listicle"): ask each as its '
+                     'own question, the way he fixed it ("Is there a task I\'m ignoring? Or a boundary I need to set?")', s)
             # O44 (Joel, 2026-10-21 17:56, on the hypnosis guide's return steps, where "one honest action" among what you go back to
             # had read AI in every wording of his: "especially "ONE HONEST ACTION" sounds super ai. i never heard a real person say
             # that in my life.").

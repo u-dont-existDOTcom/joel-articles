@@ -1,0 +1,24 @@
+[
+ {
+  "key": "r1102b-B5",
+  "lineage": "HG1102-40-C",
+  "scope": "pair",
+  "words": 70,
+  "call": "Human",
+  "chance": 0.6,
+  "why": "the script cut: his paragraph above it already says each of its steps (eyes open, the small hand movement with each suggestion of clarity, then stop and see where your mind is at)",
+  "card": "W-283",
+  "sha256": "6b76c4b3180a1b92afe70b4f73f437350e22dcb3e548e902f0fb339c8f89d221"
+ },
+ {
+  "key": "r1102b-B6",
+  "lineage": "HG1102-W282",
+  "scope": "stretch",
+  "words": 262,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "the passage he checked himself, from \"Once you've got your bearings\", with the script cut",
+  "card": "W-283",
+  "sha256": "272f01e9b40e4a93d0de08a07fd5e27f06165c65bec8e2313578a887699f83ae"
+ }
+]

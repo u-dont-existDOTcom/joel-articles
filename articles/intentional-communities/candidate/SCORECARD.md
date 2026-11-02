@@ -10,6 +10,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/intentional
 | pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 1 | 0 (0%) | 0% | 100% | 0% | 0.865 (base 0.000, 1) |
 | pangram API (model pangram-4), answered 4.1 | 5 | 3 (60%) | 20% | 80% | 80% | 0.233 (base 0.160, 5) |
 | Pangram 4.1 (web app) | 13 | 10 (77%) | 15% | 85% | 92% | 0.169 (base 0.130, 13) |
+| pangram 4.1, the API (Joel's key, run on his laptop; E218) | 3 | 3 (100%) | 0% | 100% | 100% | 0.115 (base 0.000, 3) |
 
 ## Pangram 4.0 (before the ledger)
 
@@ -94,6 +95,28 @@ Calibration:
 | 0.4 to 0.6 | 5 | 0.56 | 80% |
 | 0.6 to 0.8 | 12 | 0.70 | 83% |
 
+## pangram 4.1, the API (Joel's key, run on his laptop; E218)
+
+| window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| the latest 50 | 3 | 3 (100%) | 0% | 100% | 100% | 0.115 (base 0.000, 3) |
+| the latest 100 | 3 | 3 (100%) | 0% | 100% | 100% | 0.115 (base 0.000, 3) |
+| all | 3 | 3 (100%) | 0% | 100% | 100% | 0.115 (base 0.000, 3) |
+
+The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| section | 2 | 2 (100%) | 0% | 100% | 100% | 0.141 (base 0.000, 2) |
+| paragraph | 1 | 1 (100%) | 0% | 100% | 100% | 0.062 (base 0.000, 1) |
+
+Calibration:
+
+| my chance of a 100% Human result | calls | mean chance | read Human |
+|---|---|---|---|
+| 0.4 to 0.6 | 1 | 0.60 | 100% |
+| 0.6 to 0.8 | 3 | 0.67 | 100% |
+
 ## Misses since the ledger (6)
 
 | cause | misses |
@@ -119,6 +142,5 @@ The latest:
 | lineage | scope | tries | last read |
 |---|---|---|---|
 | IC-E1-p+prev | pair | 1 of 6 | Mixed |
-| IC1101-01 | section | 1 of 2 | Mixed |
 | IC1101-03 | section | 1 of 2 | Mixed |
 

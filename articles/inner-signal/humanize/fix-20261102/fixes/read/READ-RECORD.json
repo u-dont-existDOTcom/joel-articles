@@ -1,0 +1,9 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "HUMANIZED-SO-FAR.md at 80b2e475: the paragraph batch r1102b's fix changed (FIXES-R1102B.json), read by the lead session beside his published version and the paragraphs around it, then linted (E294, E306)",
+ "coverage": [
+  "48ea242b52fb9da9"
+ ],
+ "findings": [],
+ "dispositions": {}
+}

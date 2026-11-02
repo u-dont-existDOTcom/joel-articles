@@ -11,6 +11,22 @@ From an account with Desktop Commander connected to the laptop, the laptop copy 
 
 ## START HERE
 
+**2026-11-02, after Joel's answers of 16:43 UTC** (sent with the hypnosis guide's, no text;
+`fullread-20261030/review/joel-20261101-2026/sections/review/ANSWERS-20261102-0029.json`): W-1, W-3, W-4 and W-6 approved,
+his own versions of W-2 and W-5. **Done:** the six edits (`apply_ic1101.py`, SUBSTACK-EDITS-IC1101.json: his straight
+apostrophe and "--" follow the post's ’ and —) went into his post through its editor in the app's browser (each Find
+string once, in one run of text with no marks; one transaction; the draft saved; Update, "Update now", settings and title
+untouched); the public post, read through Substack's API from the laptop (Desktop Commander's curl, no sign-in), has all
+six and the working copy's words (LIVE-CHECK-20261102.json, 0 word differences); `promote_20261102.py` made it
+`master.md` (a6d95a91) with the receipt, owner locks, editorial status, current state and registry. Both sections then
+had their second and last check by themselves through the API with public links (`sections/recheck/`, batch ic1102):
+both Human Written, Communes Are Hot Again with one Human (Low) window, his new W-5 sentence; his words said as three
+sentences still read Human (Low) (`sections/recheck/p3/`, lineage IC1102-02-P3), so it's question 67 on
+`OWNER-QUESTIONS.md` (keep it, my default, or his version, checked before it goes in).
+- **Next:** his answer to question 67. If he sends a version, check it in Pangram (lineage IC1102-02-P3, five tries
+  left) before it goes into his post the same way. Nothing else is waiting in this lane.
+- Every Pangram reading given to him carries its link, and a suggestion is checked before it reaches him (gate E315).
+
 **2026-11-01, after Joel's message of 22:27 UTC** ("Continue my community article work ... carry on from its next step"): batch ic1101's six windows in his post's words are cards on [Community Article Cards, 1 November](https://claude.ai/artifact/RtotMXhGD211nugumDr6pX) (`fullread-20261030/review/joel-20261101-2026/sections/review/`: `build_page_ic1101.py`, REVIEW-IC1101.md the cards as text, browser test 82 of 82): four suggestions (the Escuelita said as what it was, "a visitor's kid" in two sentences, "a great sample" said as the communities he saw, and C-4's clause as "to tell who can be trusted") and two lines to keep. The seventh window was the infographic's alt text, not prose.
 - **Next:** his answers. What he approves goes into his post through its editor, as on 1 November (each Find string checked to occur once in one run of text, the replacements in one transaction, Update and "Update now", the public post read back through Substack's API); then master.md promoted the same way (`joel-20261101-2026/promote_20261101.py`), and the two sections checked again by themselves, their second and last try (lineages IC1101-01 and IC1101-02).
 - **The mailbox, every turn** (AGENTS.md, "Suggested fixes from other projects"; gate E313): before other work, the lane in universal-dev-architecture (`suggested-fixes/joel-articles/`), new issues, pull requests, comments and reviews here (`gh api` REST; GraphQL is blocked), edits others made to this note or `OWNER-QUESTIONS.md`, and the runtime's queued messages; record it with `python3 tools/humanization/lane_mailbox.py record --turn "<first clock reading>" ...` (`state/MAILBOX.json`). `lane_push.py` refuses to push without `--mailbox "<first clock reading>"`. The check of 2026-11-01 22:27 UTC: one item, `2026-10-31-mailbox-every-turn.md`, adopted; nothing else new.

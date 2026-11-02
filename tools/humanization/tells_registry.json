@@ -2656,6 +2656,58 @@
     }
    ],
    "reason": "Whether a run reads as one flow, and what would sound different in it without breaking its meaning, depends on what the run says and where a reader would gloss over; his fixes were a joke line (\"Hopefully your name didn't suddenly change to Larry.\") and a bridge (\"Continuing with the job interview:\"), which no pattern can choose."
+  },
+  {
+   "id": "W101",
+   "tell": "\"the next small thing\" / \"one next step\" (E-406's \"Bring it down to one next step by asking, 'What's the next small thing this love is asking me to do?'\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/inner-signal/humanize/fix-20261102/joel-20261102-1643-comments.txt",
+     "quote": "have you noticed that Ai says this like 1 trazillion times, any chance it gets, it wants the next small thing?"
+    }
+   ],
+   "rule": "O49",
+   "example": "Bring it down to one next step by asking what the next small thing is."
+  },
+  {
+   "id": "W102",
+   "tell": "\"still matters\" (W-685's \"our boundary with them still matters\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/inner-signal/humanize/fix-20261102/joel-20261102-1643-comments.txt",
+     "quote": "\"still matters\" is another ai tell"
+    }
+   ],
+   "rule": "O50",
+   "example": "Our boundary with them still matters, but one day we may forgive."
+  },
+  {
+   "id": "W103",
+   "tell": "a portable phrase that could go anywhere (\"do the normal thing\", \"do the thing\", \"come back to yourself a bit\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/inner-signal/humanize/fix-20261102/joel-20261102-1643-comments.txt",
+     "quote": "Ai is always saying this portable stuff that could go anywhere"
+    }
+   ],
+   "rule": "O51",
+   "example": "Then go and do the normal thing that came up."
+  },
+  {
+   "id": "W104",
+   "tell": "a list of things asked as one question (E-406's \"A task, a boundary, a meal, some rest, a repair, a conversation?\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/inner-signal/humanize/fix-20261102/joel-20261102-1643-comments.txt",
+     "quote": "and then a listicle. how could you not see all this?"
+    }
+   ],
+   "rule": "O52",
+   "example": "What does love require next? A task, a boundary, a meal, some rest, a repair, a conversation?"
   }
  ]
 }

@@ -1,0 +1,3244 @@
+{
+ "answers": "fix-20261102/ANSWERS-20261102-1643.json",
+ "answers_sha256": "07010d4583399a7b23954ffae902e18bdb9897d2bee4fd8cfcf247e7c038801d",
+ "pangram_texts": "fix-20261102/joel-pangram/texts-raw.json",
+ "before_sha256": "170052f8576fb26a2a255ab7b4bcdb6769c42178646036986d8ffc6fc007fe39",
+ "after_sha256": "d2e5ce23591daad569243e08160a01ca0e7f449fb3a3a43802400200ad19f647",
+ "fates": {
+  "W-92": "approved: the card's version went in",
+  "E-107": "his version (his version on the cards page)",
+  "W-111": "approved: the card's version went in",
+  "W-119": "approved: the card's version went in",
+  "G-23": "approved: the card's version went in",
+  "W-164": "his version (his version on the cards page)",
+  "W-270": "approved: the card's version went in",
+  "W-271": "approved: the card's version went in",
+  "W-274": "his version (his version on the cards page)",
+  "W-282": "his version (his version on the cards page)",
+  "W-283": "approved: the card's version went in",
+  "W-289": "approved: the card's version went in",
+  "E-315": "his version (his version on the cards page)",
+  "W-358": "his version (his version on the cards page)",
+  "E-368": "his version (his version on the cards page)",
+  "E-406": "his version (his Pangram text https://www.pangram.com/history/ff307b0a-ff97-476c-be72-68ceef371b0e)",
+  "W-509": "his version (his Pangram texts https://www.pangram.com/history/6c87cdc9-aca4-4293-8eaa-22a8fa2884c6 (Patterns 3 to 6, with the McHappyness example) and https://www.pangram.com/history/54ec1675-46cc-4e67-b3e1-6bf54ff01151 (Pattern 7))",
+  "W-513": "approved, then replaced by his own Pattern 3 to 7 (his note on W-509), which rewrites this paragraph too",
+  "W-579": "his version (his version on the cards page)",
+  "W-589": "his version (his version on the cards page)",
+  "W-596": "his version (his version on the cards page)",
+  "W-605": "his version (his Pangram text https://www.pangram.com/history/c341e75a-0155-457e-a490-4a97db7f9e28)",
+  "W-685": "his version (his version on the cards page)",
+  "W-687": "his version (his version on the cards page)",
+  "W-762": "his version (his version on the cards page)"
+ },
+ "notes": {
+  "W-92": [],
+  "E-107": [
+   "typo fixed (a missing \"to\"): \"you gain access all of\" -> \"you gain access to all of\"",
+   "typo fixed (a missing \"be\"): \"what it can be like to as free as\" -> \"what it can be like to be as free as\"",
+   "typo fixed (a double space): \"to talk.  I understand\" -> \"to talk. I understand\"",
+   "his comment: fixed this section, now passes and sounds better/clearer and passes human high conf: https://www.pangram.com/history/3cd6c871-fffc-4f28-99bd-c3bcd828c4f1?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link"
+  ],
+  "W-111": [],
+  "W-119": [],
+  "G-23": [],
+  "W-164": [
+   "his comment: your version did not improve: https://www.pangram.com/history/1fc537a3-8f3e-4a82-b59c-0654a118c88b?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nhere's my 1st attempt at fixing the top part: https://www.pangram.com/history/02ffb895-b22c-44f2-a16b-9809759adbf2?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\ntop is now human but not high conf: https://www.pangram.com/history/e2fd260f-7eac-4a92-940e-e162f7eb4e2a?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\none small fix: https://www.pangram.com/history/be6be4f7-0bf5-49d1-87ec-08bc48bf20fc?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\ni broke some some listy-language but it actually made it worse: https://www.pangram.com/history/85a2e717-e607-410d-93c9-1e836c207ac7?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\n\nnow it's all human, tho the bottom not high conf. the fix was to remove the portable therapy speak of \"come back to yourself a bit\": https://www.pangram.com/history/8852d677-3060-423a-a546-56e16a02e4d4?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nbut then when i put back the prior listy-language fix, it made that last fix not good enough:\nhttps://www.pangram.com/history/6a013fb0-f423-4385-8750-ebb92617e58a?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\ni changed \"kid\" to \"little boo\" and now it's human high conf (i didn't like kid anyway):\nhttps://www.pangram.com/history/14c44cec-57e0-4b80-b7bc-fbfed1a8c304?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link"
+  ],
+  "W-270": [],
+  "W-271": [
+   "his comment: didn't read human low for me, idk you should send me the pangram link"
+  ],
+  "W-274": [
+   "his comment: why are you not giving me the pangram link so i can see? always give me the links. look, the real problem was below, you didn't see: \n\nhttps://www.pangram.com/history/afe7f6a6-981d-4104-b2fb-8474bda9f289?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\nby itself\nhttps://www.pangram.com/history/5aa7a3fd-6756-4094-8fa9-85f4178ae354?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link"
+  ],
+  "W-282": [
+   "typo fixed (a double space): \"feel your spine  at the same time\" -> \"feel your spine at the same time\"",
+   "source link kept on his words \"suggest yourself into greater alertness\" (the study the old words \"Instead of getting more relaxed with the hypnosis, try getting more alert\" linked to; his sentence says the same thing)",
+   "his comment: that whole section was AI on pangram, now it's human high conf and reads better"
+  ],
+  "W-283": [
+   "his comment: that's fine, altho it actually read human by itself and read human with the last section after i fixed the last section"
+  ],
+  "W-289": [
+   "his comment: \"I'd approve\" is not a reason for suggesting to approve lol. but yes i checked and this did fix it on pangram"
+  ],
+  "E-315": [
+   "typo fixed (a missing \"you\"): \"might half wake up and still\" -> \"might half wake you up and still\"",
+   "his comment: these are my attempts in order. i'm thinking you could maybe learn more this way than just looking at the perfect final one?\nyou can also maybe check my pangram history in general to see more of the experiments in fixing different passages (i have 2 accounts tho, just one is logged in now)\n\nhttps://www.pangram.com/history/36ec99b2-144d-4eba-8e07-7a813e42437c?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\nhttps://www.pangram.com/history/b5d71590-772b-4374-831f-5f16550e5571?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\nhttps://www.pangram.com/history/94cbf52b-17b2-4406-af22-2cce7b67185e?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\nhttps://www.pangram.com/history/92cc0afc-1bd9-46ef-b45d-8e6a8954e303?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\nhttps://www.pangram.com/history/13234f89-bcb4-445c-851c-a8762bd7eaba?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\nhttps://www.pangram.com/history/eb780122-a257-42bf-b372-7ef9ea3523f1?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\nhttps://www.pangram.com/history/71102ea3-fe7b-45fe-ae6c-048382dd3663?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\nhttps://www.pangram.com/history/4dea2bac-7ab8-496d-84a0-2e5ff003de09?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link (finally human high conf, notice this is also the only version with a real useful ending)"
+  ],
+  "W-358": [
+   "his comment: fixed in pangram"
+  ],
+  "E-368": [
+   "his comment: high conf human on first try. a lot of obvious stuff here:\n\"do the normal thing\" \"normal\" ordinary, \"the thing\" \"do the thing\"...  Ai is always saying this portable stuff that could go anywhere. the ai quip at the end also, obvious"
+  ],
+  "E-406": [
+   "typo fixed (a stray \"is\"): \"What’s this lofty love is asking me to do?\" -> \"What’s this lofty love asking me to do?\"",
+   "typo fixed (the closing quote mark matches the opening one): \"relationship repair?\"\" -> \"relationship repair?”\"",
+   "his comment: \"what's the next small thing\" have you noticed that Ai says this like 1 trazillion times, any chance it gets, it wants the next small thing? you don't need to be a genius to figure out this ai pattern. \n\nyou literally said \"one next step\" right before \"the next small thing\"... wow, and then a listicle. how could you not see all this?\n\nso first i undoubled the next step:\nhttps://www.pangram.com/history/41905cb6-54a8-4b57-b496-5e2db9716bb6?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\nthat wasn't enough\nthen i also removed the first \"next step\", but still not enough:\nhttps://www.pangram.com/history/6f4ca408-924b-44c5-afe5-f2a7f32c9903?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\nexpanding the listicle moved it to human high conf:\nhttps://www.pangram.com/history/ff307b0a-ff97-476c-be72-68ceef371b0e?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nand minimal pair test shows the listicle was the only thing pangram really demanded to be fixed:\nhttps://www.pangram.com/history/f418aed4-a02a-4b73-92a5-0b35177dd732?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\naltho it still reads ai to me without the other fixes\n\n\n"
+  ],
+  "W-509": [
+   "his comment: ok i see you didn't actually test to see if this or the next fix would fix anything? both in and still this span is ai:  https://www.pangram.com/history/6387a3ed-1509-4e42-a89b-8143165af5a0?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nhere's my first attempt: https://www.pangram.com/history/7b6141ee-194e-4c5b-934a-ffb3a064e3b0?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nnext try a bit better: https://www.pangram.com/history/597d8b09-8060-41c5-bcf7-721eebf33d16?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\nand 1% better; https://www.pangram.com/history/f6ad1c0c-f7e6-4110-bb6c-5ed8581420e0?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nan tiny bit better https://www.pangram.com/history/daa67474-8f41-497e-8670-d6c5bca4df51?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nfinally fully human high conf altho i had to go a bit outside what you might think up: https://www.pangram.com/history/6c87cdc9-aca4-4293-8eaa-22a8fa2884c6?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nthe minimal pair shows it was exactly the unusual joke (which you might learn from compared to your ai quips) that made even the other part human:\n\nhttps://www.pangram.com/history/06769981-33be-4a9e-a00e-ef8dd53d3e27?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\ni tried taking out the joke you might not be able to think of but breaking up the communication pattern, that helped\n\nhttps://www.pangram.com/history/7ee02c7d-8852-4e84-934b-8fea4ff6f477?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nhere's 100% human without the mcd quip (maybe i can teach you to make human quips): https://www.pangram.com/history/b25dea80-c4cb-415a-8cbb-2b4069eb30b4?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nbut it still has a low human region\n\nok now i got it 100% high conf human without mcd quip by uncompressing one low conf sentence a bit: https://www.pangram.com/history/54ec1675-46cc-4e67-b3e1-6bf54ff01151?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nbut i still like that mcd quip you can keep that in\n"
+  ],
+  "W-513": [],
+  "W-579": [
+   "typo fixed (two words swapped): \"when they want time to take to process\" -> \"when they want to take time to process\"",
+   "his comment: you didn't manage to fix the ai altho it sounded a bit better to me. i fixed it by simply explaining what \"it\" was\n\nhttps://www.pangram.com/history/a25e487f-276a-471c-ba70-023f7fe9aa6b?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link"
+  ],
+  "W-589": [
+   "typo fixed (a stray \"to\"): \"The Nurturer to brings love in\" -> \"The Nurturer brings love in\"",
+   "his comment: that wasn't the part marked ai, look: https://www.pangram.com/history/a1824eb6-828d-4a34-bd7c-52d1181714bd?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nand with your \"fix\" it got way more AI bc u put a listicle: https://www.pangram.com/history/115adaff-6d6f-454b-a2fa-32f08166b24a?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nhere is the high conf human version (including cultural reference which I'd like to keep): https://www.pangram.com/history/222e4bec-b73c-45ba-938b-4e2cb337d996?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link \n\nbut the cultural reference wasn't needed as this proves, it was just the listicle that had to be broken up as usual: https://www.pangram.com/history/4a5eca9f-3bac-4ec1-900e-835a84ebea67?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link"
+  ],
+  "W-596": [
+   "his comment: ok it didn't show me that when i checked it: https://www.pangram.com/history/8fb8b276-cf6b-4ca1-b0a6-75dab171fb20?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nbut anyway i've given a fix, sounds better to me"
+  ],
+  "W-605": [
+   "typo fixed (\"you're\" for \"your\"): \"check how well you're critical thinking is working\" -> \"check how well your critical thinking is working\"",
+   "his comment: you used \"quietly\" an ai tell. and too many listicles, and you didn't check if your changes passed.. they didn't. don't waste my time: https://www.pangram.com/history/ca9568e9-9256-4037-a779-9b5e569bbc39?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nmy first attempt wasn't enough: https://www.pangram.com/history/1f7c2ed9-a0b5-4a2e-acbf-144b1655fd9d?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nthen i realized a lot of it was unclear. now it's more human and more clear: https://www.pangram.com/history/dc29f59e-b371-47d1-9324-ce00d92e004c?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\ni checked the ai spans alone and they passed as human. \n\nok i broke up another listicle pattern and that helped:\nhttps://www.pangram.com/history/50fe8c5b-12e4-4c7d-b821-ab4389812390?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nnow 100% human high conf when i fixed the \"evidence... for what they already thought was true\" which sounds ai https://www.pangram.com/history/c341e75a-0155-457e-a490-4a97db7f9e28?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nthis also passes without the body signal example, altho i'd prefer to keep that one: https://www.pangram.com/history/38d09be5-8be0-4dda-bd47-e5c82f6bb91b?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link"
+  ],
+  "W-685": [
+   "his comment: it wasn't just that, here are the ai spans: https://www.pangram.com/history/e971282c-804a-4bd8-af69-6f3be0b1118d?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nthere was a whole lot there that was redundant, cut that. let's see what other redundancy remains in this article and cut that also. \nmy next attempt was less human, altho reads a lot better to me: https://www.pangram.com/history/530840d1-5b25-40ae-bae3-5167805858d0?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\n\"still matters\" is another ai tell\n\ni clarified an ai part and it turned human:\nhttps://www.pangram.com/history/8fdd1272-e96b-4fd9-b383-dc6418aad5bb?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\ni changed \"talk\" to mumbo jumbo (intensifier and prob not common ai phrasing) to change it all to human. also clarified \"did\" to \"regret doing\" but checked, that didn't change the score: https://www.pangram.com/history/21e4379b-0947-4af4-97c7-563bc5c614ec?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nnow changed \"shut your pain up\" to \"shush your cries\" to move that part from human low to human high, now it's all human high\n\nhttps://www.pangram.com/history/0ace8ab7-f39c-4be8-8ef2-c892a7d800ec?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link"
+  ],
+  "W-687": [
+   "his comment: your change helped, but last line was still low conf. now it's high conf"
+  ],
+  "W-762": [
+   "his heading \"No-trance inner contact\" keeps the guide's number: \"9. No-trance inner contact\"",
+   "his comment: not sure which section you pangramed but when i pangramed this section it looks like you chose the wrong parts to fix: https://www.pangram.com/history/83fb69fc-94e5-42dd-8543-ede73a1d04cc?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\ni applied your changes and it got worse: https://www.pangram.com/history/14f6e8d7-4019-4a06-afbe-d9c359d44093?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nhere i fixed it, 100% human high conf now: https://www.pangram.com/history/2a567edc-b81b-491e-b2fb-d3e41145b80f?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link"
+  ]
+ },
+ "replaced": {
+  "E-107": [
+   {
+    "block": 104,
+    "was": "Let the child speak without handing over the steering wheel",
+    "now": [
+     "Let the child speak while you define the goal"
+    ]
+   },
+   {
+    "block": 105,
+    "was": "Let the parts of you that feel younger have their say. You’re still the one making the adult decisions, though, and you’re not trying to become a little kid again. In this way, you can access all of the positive aspects of what it can be like to feel younger, such as feeling wonder, silliness, approaching things through the senses more, feeling it’s ok to be vulnerable, to want someone to take care of you, to feel need, and to want to offload some decision making, while your adult part stays present.",
+    "now": [
+     "Your inner child wants to be heard, but they don't want to feel like they have to steer the ship while they're in the emotional storm. By providing this protective healing guidance for them, you gain access to all of the positive aspects of what it can be like to be as free as an unburdened child. All the wonder, silliness, approaching things through the senses more, feeling it’s ok to be vulnerable, to want someone to take care of you, to feel need without the stigma of \"needy,\" and to want to offload some decision making, while your adult part stays present. At the same time you get to leave behind the difficulties that came with really being a kid: having to obey, not being able to do much for yourself, getting scolded, and not understanding how things work yet."
+    ]
+   },
+   {
+    "block": 106,
+    "was": "\"It is okay for a younger part of me to talk. But I understand that the adult in me is always going to be here, listening, evaluating, protecting me and stopping me if needed. I'm not handing my adult decisions over to a younger part of me, or to a guide or a recording, or to anyone else.\"",
+    "now": [
+     "\"It is okay for a younger part of me to talk. I understand that the adult in me is always going to be here, listening, evaluating, protecting me and stopping me if needed. I'm not handing my adult decisions over to a younger part of me, or to a hypnotist or a recording, or to anyone else.\""
+    ]
+   },
+   {
+    "block": 107,
+    "was": "That way you keep the good parts of feeling younger and leave behind what came with really being a kid: having to obey, not being able to do much for yourself, getting scolded, and not knowing better yet.",
+    "now": []
+   }
+  ],
+  "W-164": [
+   {
+    "block": 159,
+    "was": "Don’t rush the repair",
+    "now": "same"
+   },
+   {
+    "block": 160,
+    "was": "When your inner child does show up, put the healing work aside for now and just be with them for a while.",
+    "now": [
+     "When your inner child does show up, spend some quality time with them before taking off the kid gloves, so to speak, and jumping into the healing work."
+    ]
+   },
+   {
+    "block": 161,
+    "was": "If you can, tell them something like, “Little one, I’m here. You don’t have to explain anything, and you don’t have to get better today or impress me. I just want to know what would make you feel less alone.”",
+    "now": [
+     "They might like to hear something like, “Little one, I’m here with you now. You don’t have to work to explain anything. I'm not asking you to impress me with how fast you can get better. Can I help you feel less alone?”"
+    ]
+   },
+   {
+    "block": 162,
+    "was": "What does your inner child need? It can be anything: warmth, to play, to be protected, to mourn, to be angry, food, rest, boundaries, better relationships, to stop fantasizing, to stop working their butt off, that you keep a promise to them today, etc. etc.",
+    "now": [
+     "What does your inner child need? It can be anything: warmth, to play, to be protected, to mourn, to be angry, food, rest, boundaries, better relationships, to stop fantasizing, to stop working their butt off, that you keep a promise to them today, etc. etc."
+    ]
+   },
+   {
+    "block": 163,
+    "was": "When a younger you, a guard, a feeling or a signal comes up in your body, take it slowly:",
+    "now": [
+     "When a younger you, a guard, a feeling or a signal comes up in your body, take it slowly:"
+    ]
+   },
+   {
+    "block": 164,
+    "was": "A. Prepare yourself to tend to them with some privacy, but still able to access support if needed. Check how much grown-up you is really in the room first. Can you pause before you act? Are you following through after making decisions? If you can’t do those things because you’re basically the frightened kid still, then let’s leave the deeper conversation until later. Do whatever helps you come back a bit before you try to talk to little you.",
+    "now": [
+     "A. Prepare yourself to tend to them with some privacy, but still able to access support if needed. Check how much grown-up you is really in the room first. Can you take a moment before you react? When you decide something, do you follow through? If you answered \"No,\" because right now you’re mostly still stuck identifying as the frightened little boo, hold off on the deeper conversation. Do what makes you feel adult before you try to talk to little you."
+    ]
+   }
+  ],
+  "W-274": [
+   {
+    "block": 274,
+    "was": "Say something like, \"Only what I can integrate, please. Patience pays, so if there's too much, let it simmer. May my body stay safe, and may my little one know there's an adult here to carry the heavy stuff.\"",
+    "now": [
+     "Say something like, \"I ask to experience only the therapy that I can integrate. Patience pays, so if there's too much, let it simmer. May my body stay safe, and may my little one know there's an adult here to carry the heavy stuff.\""
+    ]
+   }
+  ],
+  "W-282": [
+   {
+    "block": 275,
+    "was": "Once you’ve got your bearings, ask for one thing.",
+    "now": [
+     "Once you’ve got your bearings, make your first wish."
+    ]
+   },
+   {
+    "block": 276,
+    "was": "\"Please show me the next truth, symbol, feeling, question or action that's useful for me, and no more than I can handle.\"",
+    "now": [
+     "\"Please show me the next truth. The next symbol or feeling. The question or action that's useful for me at this time, and no more than I can handle.\""
+    ]
+   },
+   {
+    "block": 277,
+    "was": "Stay awake when your mind likes to escape",
+    "now": "same"
+   },
+   {
+    "block": 278,
+    "was": "If your mind keeps drifting off, sit up and open your eyes, feel your feet on the floor, and let your breathing go at its own pace. Then tell yourself, \"I'm not going anywhere. I'm coming more fully here.\"",
+    "now": [
+     "If your mind keeps drifting off, sit up and open your eyes. Then feel your feet on the floor, and just let your breathing go at its own pace. Tell yourself, \"I'm not going anywhere. I'm happily arriving more fully here each moment.\""
+    ]
+   },
+   {
+    "block": 279,
+    "was": "Pick one thing in the room to look at, and feel your spine. Then ask yourself what the daydreaming is doing for you. Is it bringing you guidance, or helping you work through a feeling, or are you using it to avoid something?",
+    "now": [
+     "Pick something in the room to look at, and feel your spine at the same time (focusing on two things makes it harder for the mind to use multitasking mode to wander). Then ask yourself what the daydreaming is doing for you. Is it bringing you guidance? Does it help you work through a feeling, or are you using it to avoid something?"
+    ]
+   },
+   {
+    "block": 280,
+    "was": "Ask for what fits, something like, \"If this is guidance, show me what I need to do about it. If I'm avoiding something, bring me gently back to the present and show me what it is.\"",
+    "now": [
+     "Ask for any diffuse benefits to become more practically focused: \"If this is guidance, show me what I need to do about it. If I'm avoiding something, bring me gently back to the present and show me what it is.\""
+    ]
+   },
+   {
+    "block": 281,
+    "was": "Make the hypnosis more alert",
+    "now": "same"
+   },
+   {
+    "block": 282,
+    "was": "If being still tends to make you sleepy, zone out, or wish you were out (escapism), no worries, there's a trick for that. Instead of getting more relaxed with the hypnosis, try getting more alert (it's still relaxed-alert, not paranoid-alert). Keep your eyes open. Use a small hand movement each time you make the auto-suggestion that you're gaining increasing clarity. Then stop the hand movement and see where your mind is at. That hand movement is the mental escape into the body's flow. Say something like,",
+    "now": [
+     "Aside from focusing on things in your direct experience, you can also suggest yourself into greater alertness (it's still relaxed-alert, not paranoid-alert). Keep your eyes open. Use a small hand movement each time you make the auto-suggestion that you're gaining increasing clarity. Then stop the hand movement and see where your mind is at. That hand movement is the mental escape into the body's flow. Say something like,"
+    ]
+   }
+  ],
+  "E-315": [
+   {
+    "block": 315,
+    "was": "If your recording cuts out partway through, you could end up lying there waiting for a voice that isn't coming back. So tell yourself, \"The recording has stopped and the session is over,\" and do the count and the checks above on your own. Once your eyes are open, press your feet or hands into something solid too.",
+    "now": [
+     "If your recording happens to cut out partway through, woops... you could end up lying there dazed & confused, waiting on a voice that isn't coming back. Don't worry, you don't have to be a vegetable forever. Just tell yourself, \"The recording has stopped and we're all done now. Welcome back to me!\" (that exclamation actually helps, because trance is kinda monotone). Then do the exit-trance count and the present-time checks above on your own. Once your eyes are open, \"touch grass\" as they say, for grounding. Or if no grass, just push your adorable feet or hands into something solid. The physical feeling connects your brain to your body."
+    ]
+   },
+   {
+    "block": 316,
+    "was": "Sleep recordings are different, since drifting off at the end of one, or just resting, is what they're for. A recording that's meant to wake you back up has to finish the job, though. If it leaves you still in a role, with your judgment or your body slowed down, or blank, you'd be walking around half under. The same goes for a vague reset word, or a state it never ends.",
+    "now": [
+     "Sleep recordings are another story, since you're assuming you'll drift off midway with those. But if the sleep recording is designed to also wake you back up, make sure it's doing so intelligently, not just using a vague exit word that might half wake you up and still leave you a bit blank or \"under the spell\" so to speak."
+    ]
+   }
+  ],
+  "W-358": [
+   {
+    "block": 358,
+    "was": "Don’t feel that you have to end the session with a great revelation. When you have done as much as you want to do, ask yourself what would help you leave things where they are for now. This might include thanking parts for their help, or making sure that you do something in real life (eat a good meal, put a boundary in place, get some rest, repair a relationship, keep a promise etc). Whatever it is, tell your little one, \"That’s enough for today. We’re going back to the life we’re building.\"",
+    "now": [
+     "Don’t feel that you have to end the session with a great revelation (those are often flaky, not standing the test of time). When you have done as much as you want to do, ask yourself what would help you leave things where they are for now. This might include thanking parts for their help, or making sure that you do something in real life (put a boundary in place, get some rest, repair a relationship, keep a promise etc). You can tell your little one, \"That’s enough for today, choochoo. Aren't you excited to get back to the life we're building?\""
+    ]
+   }
+  ],
+  "E-368": [
+   {
+    "block": 368,
+    "was": "Once or twice a week, when it’s useful, give this practice more time, so there’s room to follow whatever shows up. It doesn’t need to be more intense than usual. Start from your Higher Self, or from simply noticing what’s there if that’s out of reach. If you need the Protector or another of your adult jobs, bring it in or borrow it from someone safe, and check you’re not skipping past anything important. Leave enough time at the end to come all the way back out.",
+    "now": [
+     "Once or twice a week, when it’s useful, give this practice more space and time so even the unplanned, unknown and maybe hidden needs can show up. Just because it's unplanned doesn't mean it will be more shocking. Start from your Higher Self, from the field of acceptance and understanding, or however you can describe it that makes it feel accessible. If you need the Protector or another of your adult jobs, bring it in or borrow it from someone safe. Mr. or Ms. Protector can check to make sure you’re not skipping past anything important. Leave enough time at the end to come all the way back up & out."
+    ]
+   },
+   {
+    "block": 369,
+    "was": "Then, if you can, do the normal thing that came up right away. Your subconscious gets to see that the adult in you heard it and did something, and it doesn’t just become one more beautiful inner meeting with the dishes still in the sink.",
+    "now": [
+     "Then, if there's something from the session that asked you to do something in real life, and your Protector agrees, then go ahead and do it when you can. That's how you show your subconscious you mean business."
+    ]
+   }
+  ],
+  "E-406": [
+   {
+    "block": 405,
+    "was": "You become too blissful or diffuse",
+    "now": "same"
+   },
+   {
+    "block": 406,
+    "was": "If the bliss spreads out into a big warm haze, it can’t do much for you or anyone else yet. Bring it down to one next step by asking, “What’s the next small thing this love is asking me to do? A task, a boundary, a meal, some rest, a repair, a conversation?”",
+    "now": [
+     "If the bliss spreads out into a big warm haze, it can’t do much for you or anyone else yet. Bring it down to Earth by asking, “What’s this lofty love asking me to do? Is there a task I'm ignoring? Or a boundary I need to set? Am I getting enough rest and nourishment? Am I hiding from a needed conversation or relationship repair?”"
+    ]
+   }
+  ],
+  "W-509": [
+   {
+    "block": 505,
+    "was": "Pattern 3: Presuppositions",
+    "now": "same"
+   },
+   {
+    "block": 506,
+    "was": "A presupposition hides an assumption inside a sentence, and whoever hears it usually just goes along with it. That’s a lot of power, so only use it to assume good things: that you’ll get to choose when it happens, that you can do it, that you’re safe, that you’re loved, and that your adult self can lead. Never use it to assume obedience, the way a hypnotist does when they say something like, ‘As you go deeper, it gets easier and easier to just do what I say.’",
+    "now": [
+     "A presupposition hides an assumption inside a sentence, and whoever hears it usually just goes along with it. That’s a lot of power, so only use it to assume good things. It should give you more agency, not less. It should make you more safe (not just feeling more safe when you're not). It should help you feel the love that's there (even if it's only available beyond the conditions). We don't use this to assume obedience, the way a less ethical hypnotist does when they say something like, ‘As you go deeper, it gets easier and easier to just do what I say.’"
+    ]
+   },
+   {
+    "block": 507,
+    "was": "A safe one sounds like this: ‘Before any part has to change, it can first become more understood.’",
+    "now": [
+     "I'd switch that up to the safe version: ‘As you go deeper, it gets easier to commune with any part that needs your understanding before it can change.’"
+    ]
+   },
+   {
+    "block": 508,
+    "was": "Pattern 4: Gentle cause-effect bridges",
+    "now": "same"
+   },
+   {
+    "block": 509,
+    "was": "Bridge words are words like ‘as, whilst, because, when, after, before, which means’ etc. These are words that link events, which can make something seem like it goes along with or produces the next thing. That doesn't mean it actually does, of course.",
+    "now": [
+     "Bridge words, like ‘as’, ‘whilst’, ‘because’, ‘when’, ‘after’, ‘before’ and ‘which means’, link one event to the next, so the first can seem to come with the second, or even cause it. That doesn't mean it does, of course. This is another kind of more subtle presupposition technique."
+    ]
+   },
+   {
+    "block": 510,
+    "was": "Here's an example of some of the overly commanding bridge language many hypnotists will use: “Because I breathe, the trauma leaves.”",
+    "now": []
+   },
+   {
+    "block": 511,
+    "was": "I prefer the communion version: “As I breathe, my adult self can allow itself to become present enough to hear a bit of what my wounded inner child needs.”",
+    "now": [
+     "We can use this technique to support communion and agency: “As I breathe, my adult self can allow itself to become present enough to hear a bit of what my wounded inner child needs.”"
+    ]
+   },
+   {
+    "block": 512,
+    "was": "Pattern 5: Embedded invitations",
+    "now": "same"
+   },
+   {
+    "block": 513,
+    "was": "An embedded invitation places a small direction inside a larger sentence. For our purposes in ethical communion-style hypnosis, we don't use these to hide commands, but to smooth them into nudges without breaking the communion dialog rhythm, for example: \"And I can allow myself to experience...\"",
+    "now": [
+     "An embedded invitation tucks a small direction inside a bigger sentence, like when you put a pill inside a little food to swallow it easier. In communion hypnosis, we choose not to use embeds like this to hide commands, but rather to soften them into nudges. Nudges give more agency, and they keep the conversation flowing without a need for a strong decision. For example, rather than, \"As I sit here, I will become aware...\" we can say, \"As I sit here, I may begin to allow myself to become aware...\""
+    ]
+   },
+   {
+    "block": 514,
+    "was": "or, \"As I sit here, I may begin to allow myself to become aware...\"",
+    "now": []
+   },
+   {
+    "block": 515,
+    "was": "With your inner child, it could be: \"My little one doesn't have to trust me all at once; they can simply notice I'm still here.\"",
+    "now": [
+     "With your inner child, it could be: \"My little one doesn't have to trust me all at once. I invite them to just notice that right now, I'm still here.\""
+    ]
+   },
+   {
+    "block": 516,
+    "was": "One at a time is plenty. String ten of them together and people can tell you've just come back from some weekend certification course, and they won't feel so safe with you.",
+    "now": [
+     "Invitational language can also feel super fake though, especially when it's overused. Fakeness doesn't feel so safe. And if it's just chunking the manipulation into easier bite-sized portions without reducing the overall size of the demand, it could be less ethical, not more."
+    ]
+   },
+   {
+    "block": 517,
+    "was": "Pattern 6: Ethical double binds",
+    "now": "same"
+   },
+   {
+    "block": 518,
+    "was": "A manipulative double bind is a question where any answer you give gets the speaker what they wanted. \"Do you want to go deeper now, or in a moment?\" sends you deeper either way.",
+    "now": [
+     "This is also an actual parenting technique. Children love choices, even when they're both designed for the same pre-decided outcome. Our subconscious still works like that, too. A manipulative double bind is the name for that, although hypnotists don't call it manipulative, that's my framing. Nimja demonstrates this a lot in his hypnosis: \"Do you want to go deeper now, or in a moment?\" Clearly, that sends you deeper regardless what you \"choose.\""
+    ]
+   },
+   {
+    "block": 519,
+    "was": "An ethical double bind also gives you two choices, but both of them are genuinely safe for you, like:",
+    "now": [
+     "An ethical double bind also gives you two choices, but both of them are designed to be genuinely safe, and they also give a bit of actual agency, even if both choices serve the same end. Example:"
+    ]
+   },
+   {
+    "block": 520,
+    "was": "\"Would you like some warmth first, or some space?\"",
+    "now": [
+     "\"Welcome to McHappyness. Would you like some warmth first, or some space?\" And would you like fries with that?"
+    ]
+   },
+   {
+    "block": 521,
+    "was": "Pattern 7: Conversational postulates",
+    "now": "same"
+   },
+   {
+    "block": 522,
+    "was": "A conversational postulate is a yes-or-no question that's really a request, the way \"Can you pass the salt?\" asks for the salt.",
+    "now": [
+     "A conversational postulate is a sneaky little yes or no question that's actually a way to ask for something indirectly. People use it all the time casually, like, \"Can you pass the salt?\" We already know they're not really asking if you have that ability. In its most egregious form, it could turn into a dare. Do you recall how hard it was as a child to ignore a dare?"
+    ]
+   },
+   {
+    "block": 523,
+    "was": "\"Can my subconscious show me the next thing to do, without showing me every detail of the wound?\"",
+    "now": [
+     "I dare you now to practice this ethical postulate! \"Can my subconscious show me the next healing stepping stone, sparing me any more painful memories than I can handle right now?\""
+    ]
+   }
+  ],
+  "W-579": [
+   {
+    "block": 575,
+    "was": "What I will not use NLP for",
+    "now": "same"
+   },
+   {
+    "block": 576,
+    "was": "Here is a list of things I don't do with NLP, whether I'm hypnotizing myself or someone else:",
+    "now": [
+     "Here is a list of things I don't do with NLP, whether I'm hypnotizing myself or someone else:"
+    ]
+   },
+   {
+    "block": 577,
+    "was": "I don't use NLP to convince anyone an intuition is true. For example, I don't use NLP or hypnosis in general, to do more than initial memory retrieval work. Memories retrieved still need external validation, especially when they were led to (which NLP tends to).",
+    "now": [
+     "I don't use NLP to convince anyone an intuition is true. For example, I don't use NLP or hypnosis in general, to do more than initial memory retrieval work. Memories retrieved still need external validation, especially when they were led to (which NLP tends to)."
+    ]
+   },
+   {
+    "block": 578,
+    "was": "On the other hand, I also don't use NLP to talk anyone out of a real signal. That doesn't mean we can't try to calm unbearable pain, but we must keep access to the awareness of the signal so that we can do the real root cause healing.",
+    "now": [
+     "On the other hand, I also don't use NLP to talk anyone out of a real signal. That doesn't mean we can't try to calm unbearable pain, but we must keep access to the awareness of the signal so that we can do the real root cause healing."
+    ]
+   },
+   {
+    "block": 579,
+    "was": "As an example, I won’t tell anyone to override their fear without first asking what it’s protecting. Or to make them feel urgency when they want time to process.",
+    "now": [
+     "For example, I won’t tell anyone to push past their fear before asking what it’s protecting, and I won’t make anyone feel rushed when they want to take time to process the feelings."
+    ]
+   }
+  ],
+  "W-589": [
+   {
+    "block": 583,
+    "was": "Running the whole NLP sequence",
+    "now": "same"
+   },
+   {
+    "block": 584,
+    "was": "Here is a rough outline of the entire NLP process:",
+    "now": [
+     "Here is a rough outline of the entire NLP process:"
+    ]
+   },
+   {
+    "block": 585,
+    "was": "Induce yourself (meaning gather your attention into a soft focus) or contain yourself (meaning stabilize yourself) first if you are already too opened up to difficult memories/experiences.",
+    "now": [
+     "Induce yourself (meaning gather your attention into a soft focus) or contain yourself (meaning stabilize yourself) first if you are already too opened up to difficult memories/experiences."
+    ]
+   },
+   {
+    "block": 586,
+    "was": "Ask yourself for permission: is it useful to work with this pattern today?",
+    "now": [
+     "Ask yourself for permission: is it useful to work with this pattern today?"
+    ]
+   },
+   {
+    "block": 587,
+    "was": "Get a representation of your pattern. Do you see it as an image, with size, color and location, or do you feel it like a movement or some other kind of sensation?",
+    "now": [
+     "Get a representation of your pattern. Do you see it as an image, with size, color and location, or do you feel it like a movement or some other kind of sensation?"
+    ]
+   },
+   {
+    "block": 588,
+    "was": "Find out if that part/pattern is protecting something for you.",
+    "now": [
+     "Find out if that part/pattern is protecting something for you."
+    ]
+   },
+   {
+    "block": 589,
+    "was": "Gently change an aspect of your pattern's representation from the prior step.",
+    "now": [
+     "Gently change an aspect of your pattern's representation from the prior step."
+    ]
+   },
+   {
+    "block": 590,
+    "was": "Bring in your three good adults: the Nurturer to bring warmth, the Protector to make it safe, and the Guide to show you which way to go. They’re really all one inner adult, so you can picture them separately when that helps, and as one again after.",
+    "now": [
+     "Bring in your three good adults. The Nurturer brings love in. Next, the Protector puts your helmet on, and then the Guide points the way out of the mess. They’re really all one inner adult, but picturing each with their own function can be easier before merging them together (like Captain Planet if you saw that cartoon)."
+    ]
+   },
+   {
+    "block": 591,
+    "was": "Then anchor the good state you're in with a hand on your heart, two fingers touching, a particular breath or a posture, so that doing the same thing later can bring the state back.",
+    "now": [
+     "Then anchor the good state you're in with a hand on your heart, two fingers touching, a particular breath or a posture, so that doing the same thing later can bring the state back."
+    ]
+   },
+   {
+    "block": 592,
+    "was": "Imagine running into a scenario where your old pattern would have triggered, and adopt a feasible new behavior. (\"If I see a red cloth, then I will choose not to charge at it. I am not a bull anymore.\")",
+    "now": [
+     "Imagine running into a scenario where your old pattern would have triggered, and adopt a feasible new behavior. (\"If I see a red cloth, then I will choose not to charge at it. I am not a bull anymore.\")"
+    ]
+   },
+   {
+    "block": 593,
+    "was": "Check in with your body for signals during the re-imagining process, and what else besides body signals supports your new interpretation of the situation. Ask yourself whether the new behavior you've imagined is kind and sensible.",
+    "now": [
+     "Check in with your body for signals during the re-imagining process, and what else besides body signals supports your new interpretation of the situation. Ask yourself whether the new behavior you've imagined is kind and sensible."
+    ]
+   },
+   {
+    "block": 594,
+    "was": "Then come all the way back out of the altered state (see “Come all the way back”), and go do something normal.",
+    "now": [
+     "Then come all the way back out of the altered state (see “Come all the way back”), and go do something normal."
+    ]
+   }
+  ],
+  "W-596": [
+   {
+    "block": 596,
+    "was": "What to do when you feel like you’re being pushed too hard by something (person, ad, ideology, spiritual teaching, romantic attraction, internal voice, etc.): Say to yourself, “Okay, something is trying to influence me here. I don’t have to obey it. I don’t even have to attack it. I can just slow myself down and ask some questions like, 'What would this thing influence me to believe that isn’t true in order to get what it wants from me? What is my body telling me to do about this (how does my body feel)? What would love do here? What would truth do here? How would I approach this humbly? What would life have me do here?'”",
+    "now": [
+     "What to do when you feel like you’re being pushed too hard by something (person, ad, ideology, spiritual teaching, romantic attraction, internal voice, etc.): Say to yourself, “Okay, something is trying to influence me here. I don’t have to obey it or attack it. I can just slow myself down and ask some questions like, 'What would this thing influence me to believe that isn’t true in order to get what it wants from me? What is my body telling me to do about this (how does my body feel)? What would love do here? What would truth do here? How would I approach this humbly? What would life have me do here?'”"
+    ]
+   }
+  ],
+  "W-605": [
+   {
+    "block": 605,
+    "was": "Hypnosis-specific audit",
+    "now": "same"
+   },
+   {
+    "block": 606,
+    "was": "Before accepting a hypnotic recording or live suggestion, ask these important questions to avoid being manipulated:",
+    "now": [
+     "Before you let a hypnotic recording or a live hypnotist put manipulative suggestions into your skull, interview them a bit:"
+    ]
+   },
+   {
+    "block": 607,
+    "was": "What induction mechanics are being used to bring me under the spell?",
+    "now": [
+     "First, what are they going to do to bring you under? And if you react negatively to something, will they pause to change the script? Make sure they are fine with stopping the whole thing."
+    ]
+   },
+   {
+    "block": 608,
+    "was": "Can my responses lead to pausing or modifying the script, or stopping & coming to full alertness?",
+    "now": []
+   },
+   {
+    "block": 609,
+    "was": "Does the hypnotist treat my lack of awareness of what's going on as some kind of proof that the process worked?",
+    "now": [
+     "And how are they deciding it's working? Just because you seem \"out of it\" shouldn't be a green light. Are they using sneaky moves to get past your adult judgement, like putting you into identity roles (including age regression)? Walking you down obedience ladders? Your desire for belonging also shouldn't be used for that."
+    ]
+   },
+   {
+    "block": 610,
+    "was": "Is the hypnotist using identity roles, obedience ladders, age regressions, or desires for/assumptions of belonging to lower my adult self's better judgment?",
+    "now": []
+   },
+   {
+    "block": 611,
+    "was": "Keep in mind though, the answer to that last one requires either checking the script first, or explaining what your adult judgement would accept, as the hypnotist can't be expected to know that.",
+    "now": [
+     "Keep in mind though, you can only answer those last questions by reading the script first. You can't expect them to know what your adult judgement would accept, so make that clear ahead of time."
+    ]
+   },
+   {
+    "block": 612,
+    "was": "Continuing with the job interview:",
+    "now": []
+   },
+   {
+    "block": 613,
+    "was": "Are fractionation, cues, or other methods of affecting my memory or modifying my post-session behavior disclosed before they are used?",
+    "now": [
+     "Will they tell you before they use techniques that affect your memory or behaviors after the session? Like fractionation or cues."
+    ]
+   },
+   {
+    "block": 614,
+    "was": "Is the hypnotist implicitly turning my bodily sensations into evidence for a prior assumption?",
+    "now": [
+     "Are they low-key using your body signals to prove their theories? Like oh your hand dropped real fast, so you ARE gay."
+    ]
+   },
+   {
+    "block": 615,
+    "was": "When we're ready to exit hypnosis, will they give me a clear statement that the session has ended, and would I get back my normal waking (and walking) identity? Will I be able to use my critical judgement abilities as before?",
+    "now": [
+     "And when it's time to come out, will they tell you clearly that the session is over, so you get your normal waking, walking self back? After it's over, check how well your critical thinking is working when you look back on how it went."
+    ]
+   },
+   {
+    "block": 616,
+    "was": "When any answer to these questions is unclear, beware. Ask for the exact script. If they don't want to give it, change the method, or walk right out that door.",
+    "now": [
+     "If any answer they give you is wishy washy, beware. Ask for the exact script (or the methods used since they probably aren't exactly reading a script). If they don't want to give the secrets away, walk right out that door."
+    ]
+   }
+  ],
+  "W-685": [
+   {
+    "block": 677,
+    "was": "Forgiveness without bypass",
+    "now": "same"
+   },
+   {
+    "block": 678,
+    "was": "We cannot force forgiveness on ourselves. It has to come from a place of understanding, otherwise it can be bypassing. However, if we remain in the anger forever, we are allowing the injury to dictate how we live our lives in the present. So how do we hold all of this? We just remember that it can all be true at once. They really did hurt us and they still have to answer for it, and our boundary with them still matters, but one day we may find that we have forgiven them, or at least that we’re not being run by the resentment anymore. And we don’t have to forgive first to get safe, set boundaries, hold someone accountable, get justice or get better.",
+    "now": [
+     "We cannot force forgiveness on ourselves. It has to come from a place of understanding, otherwise it can be bypassing. However, if we remain in the anger forever, we are allowing the injury to dictate how we live our lives in the present. So how do we hold all of this? We just remember that it can all be true at once. They really did hurt us and they still have to answer for it. Our boundary with them is crucial to maintain, especially after forgiveness which can tend to weaken it. One day we may find that we have forgiven them for not knowing better, just like Jesus did on the Cross."
+    ]
+   },
+   {
+    "block": 679,
+    "was": "A helpful understanding to come to is that while their actions were harmful, in a sense, they could only make the moves they made, given their accumulated nature at the time (conditioning, history, pain, capacity, etc). This doesn’t negate that harm was caused, and it doesn’t stop you from holding someone accountable, allowing for consequences, working on making different moves now, etc. It simply helps us come to a place where we aren’t expecting something from someone that they can’t give, though what their limitations cost us is still real.",
+    "now": []
+   },
+   {
+    "block": 680,
+    "was": "You might say to the part of you that got hurt, “You don’t have to forgive until you’re ready. I’m not going to use spiritual talk to shut your pain up. I’m also not going to build our whole life around this wound forever.”",
+    "now": [
+     "You might say to the part of you that got hurt, “I’m not going to use spiritual mumbo jumbo to shush your cries and make you forgive before you're ready. But I’m also not going to build our whole life around this wound forever.”"
+    ]
+   },
+   {
+    "block": 681,
+    "was": "Some questions that may be helpful to ask when coming to a place of forgiveness, while still holding all of the above:",
+    "now": []
+   },
+   {
+    "block": 682,
+    "was": "What actually happened? What was the impact? What boundaries need to be set? What shaped the other person(s) into someone capable of that harm? What part of it was theirs, and what part was mine? What does accountability require? How can I let this go, without denying any of the above?",
+    "now": []
+   },
+   {
+    "block": 683,
+    "was": "Forgiving yourself",
+    "now": "same"
+   },
+   {
+    "block": 684,
+    "was": "For self-forgiveness, name what you did, but don't take responsibility for what wasn't yours. Let yourself feel the remorse and take in the harm, or how it went against your values, and stop short of making yourself a permanent criminal.",
+    "now": [
+     "For self-forgiveness, name what you regret doing, and take responsibility for just that part. Let yourself feel the remorse by taking in the harm done. See how it went against your values. Stop short of making yourself a permanent criminal by identifying with the behaviors you're now abandoning."
+    ]
+   },
+   {
+    "block": 685,
+    "was": "Do what you can to put it right, or to keep it from happening again. Then you're allowed to stop holding yourself hostage, and the responsibility stays. Every so often, come back to how you got to be someone who could do that, until you understand it well enough that it changes how you feel.",
+    "now": [
+     "Do what you can to put it right. Every so often, come back to how you got to be someone who could do that, until you understand the pattern well enough that it can't drive you anymore."
+    ]
+   }
+  ],
+  "W-687": [
+   {
+    "block": 686,
+    "was": "Appendix G: Altered states",
+    "now": "same"
+   },
+   {
+    "block": 687,
+    "was": "I’m not saying you should use substances, but many people have used them when they first did self-hypnosis, contacted their inner child, or talked to their Higher Self. I’d learn the inner child work sober first, with enough Nurturer and Protector in the room before you go deep (see the inner child reparenting section). Borrowing them is fine, as long as it’s from someone steady who won’t try to run your trip for you.",
+    "now": [
+     "I’m not saying you should use substances, but many people have used them when they first did self-hypnosis, contacted their inner child, or talked to their Higher Self. I’d learn the inner child work sober first, with enough Nurturer and Protector in the room before you go deep (see the inner child reparenting section). If you don’t have them in you yet, borrow them from someone steady, as long as they won’t take advantage of that to try to run your trip for you."
+    ]
+   }
+  ],
+  "W-762": [
+   {
+    "block": 758,
+    "was": "9. No-trance inner contact",
+    "now": "number"
+   },
+   {
+    "block": 759,
+    "was": "For the no trance inner contact, I would follow something along the lines of these steps:",
+    "now": [
+     "We don't need to go into trance to get a lot of the benefits of the communion technique! Here's my no-trance version:"
+    ]
+   },
+   {
+    "block": 760,
+    "was": "For pacing (warm-up), notice reality as it is now: what you can see, what day of the week it is, that you can read or that you still have your feet, etc. Hopefully your name didn't suddenly change to Larry.",
+    "now": [
+     "For pacing (warm-up), notice reality as it is now. What do you see around you? Is today Monday, your favorite day of the week? Hopefully your name didn't suddenly change to Larry."
+    ]
+   },
+   {
+    "block": 761,
+    "was": "For the suggestion: in your mind, ask a clear question and then listen gently.",
+    "now": [
+     "For the suggestion: in your mind, ask a clear question and then listen gently."
+    ]
+   },
+   {
+    "block": 762,
+    "was": "Now keep your sense of agency during the answer phase. You might notice an answer popped up, or you might decide you don't know. You can always take a break or rephrase the question. Sometimes you might ask advice from someone else.",
+    "now": [
+     "Now keep your sense of agency during the answer phase. You might notice an answer popped up, or you might decide you don't know. You can always take a break or rephrase the question. Sometimes you might ask advice from someone else."
+    ]
+   },
+   {
+    "block": 763,
+    "was": "Keep aware of the subtle inner signal: write whatever you get. It might be a word or sensation. An impulse or objection. Sometimes there's no signal, just silence, itself a kind of signal. Don't jump to interpreting it as validation of some theory.",
+    "now": [
+     "Keep aware of the subtle inner signal: write whatever you get. It might be a word or sensation. An impulse or objection. Sometimes there's no signal, just silence, itself a kind of signal. Don't jump to interpreting it as validation of some theory."
+    ]
+   },
+   {
+    "block": 764,
+    "was": "Hand off the role: have your adult self answer that same question in whatever way is appropriate, preferably by writing or doing.",
+    "now": [
+     "Hand off the role: have your adult self answer that same question in whatever way is appropriate, preferably by writing or doing."
+    ]
+   },
+   {
+    "block": 765,
+    "was": "Integration/exit: reality test the signal you noticed. As part of testing, if it seems appropriate, you can do something simple based on it.",
+    "now": [
+     "Integration/exit: reality test the signal you noticed. As part of testing, if it seems appropriate, you can do something simple based on it."
+    ]
+   },
+   {
+    "block": 766,
+    "was": "There's no elaborate exit protocol here since you didn't go into trance. Just close the exercise and carry on with your day.",
+    "now": [
+     "There's no elaborate exit protocol here since you didn't go into trance. Just close the exercise and carry on with your day."
+    ]
+   }
+  ]
+ },
+ "typos": [
+  {
+   "card": "E-107",
+   "was": "you gain access all of",
+   "now": "you gain access to all of",
+   "why": "a missing \"to\""
+  },
+  {
+   "card": "E-107",
+   "was": "what it can be like to as free as",
+   "now": "what it can be like to be as free as",
+   "why": "a missing \"be\""
+  },
+  {
+   "card": "E-107",
+   "was": "to talk.  I understand",
+   "now": "to talk. I understand",
+   "why": "a double space"
+  },
+  {
+   "card": "W-282",
+   "was": "feel your spine  at the same time",
+   "now": "feel your spine at the same time",
+   "why": "a double space"
+  },
+  {
+   "card": "E-315",
+   "was": "might half wake up and still",
+   "now": "might half wake you up and still",
+   "why": "a missing \"you\""
+  },
+  {
+   "card": "E-406",
+   "was": "What’s this lofty love is asking me to do?",
+   "now": "What’s this lofty love asking me to do?",
+   "why": "a stray \"is\""
+  },
+  {
+   "card": "E-406",
+   "was": "relationship repair?\"",
+   "now": "relationship repair?”",
+   "why": "the closing quote mark matches the opening one"
+  },
+  {
+   "card": "W-579",
+   "was": "when they want time to take to process",
+   "now": "when they want to take time to process",
+   "why": "two words swapped"
+  },
+  {
+   "card": "W-589",
+   "was": "The Nurturer to brings love in",
+   "now": "The Nurturer brings love in",
+   "why": "a stray \"to\""
+  },
+  {
+   "card": "W-605",
+   "was": "check how well you're critical thinking is working",
+   "now": "check how well your critical thinking is working",
+   "why": "\"you're\" for \"your\""
+  }
+ ],
+ "links_dropped": [],
+ "changed_blocks": [
+  92,
+  104,
+  105,
+  106,
+  107,
+  111,
+  119,
+  141,
+  142,
+  160,
+  161,
+  162,
+  163,
+  164,
+  249,
+  270,
+  271,
+  274,
+  275,
+  276,
+  278,
+  279,
+  280,
+  282,
+  283,
+  289,
+  315,
+  316,
+  358,
+  368,
+  369,
+  406,
+  506,
+  507,
+  509,
+  510,
+  511,
+  513,
+  514,
+  515,
+  516,
+  518,
+  519,
+  520,
+  522,
+  523,
+  576,
+  577,
+  578,
+  579,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  596,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  678,
+  679,
+  680,
+  681,
+  682,
+  684,
+  685,
+  687,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766
+ ],
+ "block_map": {
+  "0": [
+   0
+  ],
+  "1": [
+   1
+  ],
+  "2": [
+   2
+  ],
+  "3": [
+   3
+  ],
+  "4": [
+   4
+  ],
+  "5": [
+   5
+  ],
+  "6": [
+   6
+  ],
+  "7": [
+   7
+  ],
+  "8": [
+   8
+  ],
+  "9": [
+   9
+  ],
+  "10": [
+   10
+  ],
+  "11": [
+   11
+  ],
+  "12": [
+   12
+  ],
+  "13": [
+   13
+  ],
+  "14": [
+   14
+  ],
+  "15": [
+   15
+  ],
+  "16": [
+   16
+  ],
+  "17": [
+   17
+  ],
+  "18": [
+   18
+  ],
+  "19": [
+   19
+  ],
+  "20": [
+   20
+  ],
+  "21": [
+   21
+  ],
+  "22": [
+   22
+  ],
+  "23": [
+   23
+  ],
+  "24": [
+   24
+  ],
+  "25": [
+   25
+  ],
+  "26": [
+   26
+  ],
+  "27": [
+   27
+  ],
+  "28": [
+   28
+  ],
+  "29": [
+   29
+  ],
+  "30": [
+   30
+  ],
+  "31": [
+   31
+  ],
+  "32": [
+   32
+  ],
+  "33": [
+   33
+  ],
+  "34": [
+   34
+  ],
+  "35": [
+   35
+  ],
+  "36": [
+   36
+  ],
+  "37": [
+   37
+  ],
+  "38": [
+   38
+  ],
+  "39": [
+   39
+  ],
+  "40": [
+   40
+  ],
+  "41": [
+   41
+  ],
+  "42": [
+   42
+  ],
+  "43": [
+   43
+  ],
+  "44": [
+   44
+  ],
+  "45": [
+   45
+  ],
+  "46": [
+   46
+  ],
+  "47": [
+   47
+  ],
+  "48": [
+   48
+  ],
+  "49": [
+   49
+  ],
+  "50": [
+   50
+  ],
+  "51": [
+   51
+  ],
+  "52": [
+   52
+  ],
+  "53": [
+   53
+  ],
+  "54": [
+   54
+  ],
+  "55": [
+   55
+  ],
+  "56": [
+   56
+  ],
+  "57": [
+   57
+  ],
+  "58": [
+   58
+  ],
+  "59": [
+   59
+  ],
+  "60": [
+   60
+  ],
+  "61": [
+   61
+  ],
+  "62": [
+   62
+  ],
+  "63": [
+   63
+  ],
+  "64": [
+   64
+  ],
+  "65": [
+   65
+  ],
+  "66": [
+   66
+  ],
+  "67": [
+   67
+  ],
+  "68": [
+   68
+  ],
+  "69": [
+   69
+  ],
+  "70": [
+   70
+  ],
+  "71": [
+   71
+  ],
+  "72": [
+   72
+  ],
+  "73": [
+   73
+  ],
+  "74": [
+   74
+  ],
+  "75": [
+   75
+  ],
+  "76": [
+   76
+  ],
+  "77": [
+   77
+  ],
+  "78": [
+   78
+  ],
+  "79": [
+   79
+  ],
+  "80": [
+   80
+  ],
+  "81": [
+   81
+  ],
+  "82": [
+   82
+  ],
+  "83": [
+   83
+  ],
+  "84": [
+   84
+  ],
+  "85": [
+   85
+  ],
+  "86": [
+   86
+  ],
+  "87": [
+   87
+  ],
+  "88": [
+   88
+  ],
+  "89": [
+   89
+  ],
+  "90": [
+   90
+  ],
+  "91": [
+   91
+  ],
+  "92": [
+   92
+  ],
+  "93": [
+   93
+  ],
+  "94": [
+   94
+  ],
+  "95": [
+   95
+  ],
+  "96": [
+   96
+  ],
+  "97": [
+   97
+  ],
+  "98": [
+   98
+  ],
+  "99": [
+   99
+  ],
+  "100": [
+   100
+  ],
+  "101": [
+   101
+  ],
+  "102": [
+   102
+  ],
+  "103": [
+   103
+  ],
+  "104": [
+   104
+  ],
+  "105": [
+   105
+  ],
+  "106": [
+   106
+  ],
+  "107": [],
+  "108": [
+   107
+  ],
+  "109": [
+   108
+  ],
+  "110": [
+   109
+  ],
+  "111": [
+   110
+  ],
+  "112": [
+   111
+  ],
+  "113": [
+   112
+  ],
+  "114": [
+   113
+  ],
+  "115": [
+   114
+  ],
+  "116": [
+   115
+  ],
+  "117": [
+   116
+  ],
+  "118": [
+   117
+  ],
+  "119": [
+   118
+  ],
+  "120": [
+   119
+  ],
+  "121": [
+   120
+  ],
+  "122": [
+   121
+  ],
+  "123": [
+   122
+  ],
+  "124": [
+   123
+  ],
+  "125": [
+   124
+  ],
+  "126": [
+   125
+  ],
+  "127": [
+   126
+  ],
+  "128": [
+   127
+  ],
+  "129": [
+   128
+  ],
+  "130": [
+   129
+  ],
+  "131": [
+   130
+  ],
+  "132": [
+   131
+  ],
+  "133": [
+   132
+  ],
+  "134": [
+   133
+  ],
+  "135": [
+   134
+  ],
+  "136": [
+   135
+  ],
+  "137": [
+   136
+  ],
+  "138": [
+   137
+  ],
+  "139": [
+   138
+  ],
+  "140": [
+   139
+  ],
+  "141": [
+   140
+  ],
+  "142": [
+   141
+  ],
+  "143": [
+   142
+  ],
+  "144": [
+   143
+  ],
+  "145": [
+   144
+  ],
+  "146": [
+   145
+  ],
+  "147": [
+   146
+  ],
+  "148": [
+   147
+  ],
+  "149": [
+   148
+  ],
+  "150": [
+   149
+  ],
+  "151": [
+   150
+  ],
+  "152": [
+   151
+  ],
+  "153": [
+   152
+  ],
+  "154": [
+   153
+  ],
+  "155": [
+   154
+  ],
+  "156": [
+   155
+  ],
+  "157": [
+   156
+  ],
+  "158": [
+   157
+  ],
+  "159": [
+   158
+  ],
+  "160": [
+   159
+  ],
+  "161": [
+   160
+  ],
+  "162": [
+   161
+  ],
+  "163": [
+   162
+  ],
+  "164": [
+   163
+  ],
+  "165": [
+   164
+  ],
+  "166": [
+   165
+  ],
+  "167": [
+   166
+  ],
+  "168": [
+   167
+  ],
+  "169": [
+   168
+  ],
+  "170": [
+   169
+  ],
+  "171": [
+   170
+  ],
+  "172": [
+   171
+  ],
+  "173": [
+   172
+  ],
+  "174": [
+   173
+  ],
+  "175": [
+   174
+  ],
+  "176": [
+   175
+  ],
+  "177": [
+   176
+  ],
+  "178": [
+   177
+  ],
+  "179": [
+   178
+  ],
+  "180": [
+   179
+  ],
+  "181": [
+   180
+  ],
+  "182": [
+   181
+  ],
+  "183": [
+   182
+  ],
+  "184": [
+   183
+  ],
+  "185": [
+   184
+  ],
+  "186": [
+   185
+  ],
+  "187": [
+   186
+  ],
+  "188": [
+   187
+  ],
+  "189": [
+   188
+  ],
+  "190": [
+   189
+  ],
+  "191": [
+   190
+  ],
+  "192": [
+   191
+  ],
+  "193": [
+   192
+  ],
+  "194": [
+   193
+  ],
+  "195": [
+   194
+  ],
+  "196": [
+   195
+  ],
+  "197": [
+   196
+  ],
+  "198": [
+   197
+  ],
+  "199": [
+   198
+  ],
+  "200": [
+   199
+  ],
+  "201": [
+   200
+  ],
+  "202": [
+   201
+  ],
+  "203": [
+   202
+  ],
+  "204": [
+   203
+  ],
+  "205": [
+   204
+  ],
+  "206": [
+   205
+  ],
+  "207": [
+   206
+  ],
+  "208": [
+   207
+  ],
+  "209": [
+   208
+  ],
+  "210": [
+   209
+  ],
+  "211": [
+   210
+  ],
+  "212": [
+   211
+  ],
+  "213": [
+   212
+  ],
+  "214": [
+   213
+  ],
+  "215": [
+   214
+  ],
+  "216": [
+   215
+  ],
+  "217": [
+   216
+  ],
+  "218": [
+   217
+  ],
+  "219": [
+   218
+  ],
+  "220": [
+   219
+  ],
+  "221": [
+   220
+  ],
+  "222": [
+   221
+  ],
+  "223": [
+   222
+  ],
+  "224": [
+   223
+  ],
+  "225": [
+   224
+  ],
+  "226": [
+   225
+  ],
+  "227": [
+   226
+  ],
+  "228": [
+   227
+  ],
+  "229": [
+   228
+  ],
+  "230": [
+   229
+  ],
+  "231": [
+   230
+  ],
+  "232": [
+   231
+  ],
+  "233": [
+   232
+  ],
+  "234": [
+   233
+  ],
+  "235": [
+   234
+  ],
+  "236": [
+   235
+  ],
+  "237": [
+   236
+  ],
+  "238": [
+   237
+  ],
+  "239": [
+   238
+  ],
+  "240": [
+   239
+  ],
+  "241": [
+   240
+  ],
+  "242": [
+   241
+  ],
+  "243": [
+   242
+  ],
+  "244": [
+   243
+  ],
+  "245": [
+   244
+  ],
+  "246": [
+   245
+  ],
+  "247": [
+   246
+  ],
+  "248": [
+   247
+  ],
+  "249": [
+   248
+  ],
+  "250": [
+   249
+  ],
+  "251": [
+   250
+  ],
+  "252": [
+   251
+  ],
+  "253": [
+   252
+  ],
+  "254": [
+   253
+  ],
+  "255": [
+   254
+  ],
+  "256": [
+   255
+  ],
+  "257": [
+   256
+  ],
+  "258": [
+   257
+  ],
+  "259": [
+   258
+  ],
+  "260": [
+   259
+  ],
+  "261": [
+   260
+  ],
+  "262": [
+   261
+  ],
+  "263": [
+   262
+  ],
+  "264": [
+   263
+  ],
+  "265": [
+   264
+  ],
+  "266": [
+   265
+  ],
+  "267": [
+   266
+  ],
+  "268": [
+   267
+  ],
+  "269": [
+   268
+  ],
+  "270": [
+   269
+  ],
+  "271": [
+   270
+  ],
+  "272": [
+   271
+  ],
+  "273": [
+   272
+  ],
+  "274": [
+   273
+  ],
+  "275": [
+   274
+  ],
+  "276": [
+   275
+  ],
+  "277": [
+   276
+  ],
+  "278": [
+   277
+  ],
+  "279": [
+   278
+  ],
+  "280": [
+   279
+  ],
+  "281": [
+   280
+  ],
+  "282": [
+   281
+  ],
+  "283": [
+   282
+  ],
+  "284": [
+   283
+  ],
+  "285": [
+   284
+  ],
+  "286": [
+   285
+  ],
+  "287": [
+   286
+  ],
+  "288": [
+   287
+  ],
+  "289": [
+   288
+  ],
+  "290": [
+   289
+  ],
+  "291": [
+   290
+  ],
+  "292": [
+   291
+  ],
+  "293": [
+   292
+  ],
+  "294": [
+   293
+  ],
+  "295": [
+   294
+  ],
+  "296": [
+   295
+  ],
+  "297": [
+   296
+  ],
+  "298": [
+   297
+  ],
+  "299": [
+   298
+  ],
+  "300": [
+   299
+  ],
+  "301": [
+   300
+  ],
+  "302": [
+   301
+  ],
+  "303": [
+   302
+  ],
+  "304": [
+   303
+  ],
+  "305": [
+   304
+  ],
+  "306": [
+   305
+  ],
+  "307": [
+   306
+  ],
+  "308": [
+   307
+  ],
+  "309": [
+   308
+  ],
+  "310": [
+   309
+  ],
+  "311": [
+   310
+  ],
+  "312": [
+   311
+  ],
+  "313": [
+   312
+  ],
+  "314": [
+   313
+  ],
+  "315": [
+   314
+  ],
+  "316": [
+   315
+  ],
+  "317": [
+   316
+  ],
+  "318": [
+   317
+  ],
+  "319": [
+   318
+  ],
+  "320": [
+   319
+  ],
+  "321": [
+   320
+  ],
+  "322": [
+   321
+  ],
+  "323": [
+   322
+  ],
+  "324": [
+   323
+  ],
+  "325": [
+   324
+  ],
+  "326": [
+   325
+  ],
+  "327": [
+   326
+  ],
+  "328": [
+   327
+  ],
+  "329": [
+   328
+  ],
+  "330": [
+   329
+  ],
+  "331": [
+   330
+  ],
+  "332": [
+   331
+  ],
+  "333": [
+   332
+  ],
+  "334": [
+   333
+  ],
+  "335": [
+   334
+  ],
+  "336": [
+   335
+  ],
+  "337": [
+   336
+  ],
+  "338": [
+   337
+  ],
+  "339": [
+   338
+  ],
+  "340": [
+   339
+  ],
+  "341": [
+   340
+  ],
+  "342": [
+   341
+  ],
+  "343": [
+   342
+  ],
+  "344": [
+   343
+  ],
+  "345": [
+   344
+  ],
+  "346": [
+   345
+  ],
+  "347": [
+   346
+  ],
+  "348": [
+   347
+  ],
+  "349": [
+   348
+  ],
+  "350": [
+   349
+  ],
+  "351": [
+   350
+  ],
+  "352": [
+   351
+  ],
+  "353": [
+   352
+  ],
+  "354": [
+   353
+  ],
+  "355": [
+   354
+  ],
+  "356": [
+   355
+  ],
+  "357": [
+   356
+  ],
+  "358": [
+   357
+  ],
+  "359": [
+   358
+  ],
+  "360": [
+   359
+  ],
+  "361": [
+   360
+  ],
+  "362": [
+   361
+  ],
+  "363": [
+   362
+  ],
+  "364": [
+   363
+  ],
+  "365": [
+   364
+  ],
+  "366": [
+   365
+  ],
+  "367": [
+   366
+  ],
+  "368": [
+   367
+  ],
+  "369": [
+   368
+  ],
+  "370": [
+   369
+  ],
+  "371": [
+   370
+  ],
+  "372": [
+   371
+  ],
+  "373": [
+   372
+  ],
+  "374": [
+   373
+  ],
+  "375": [
+   374
+  ],
+  "376": [
+   375
+  ],
+  "377": [
+   376
+  ],
+  "378": [
+   377
+  ],
+  "379": [
+   378
+  ],
+  "380": [
+   379
+  ],
+  "381": [
+   380
+  ],
+  "382": [
+   381
+  ],
+  "383": [
+   382
+  ],
+  "384": [
+   383
+  ],
+  "385": [
+   384
+  ],
+  "386": [
+   385
+  ],
+  "387": [
+   386
+  ],
+  "388": [
+   387
+  ],
+  "389": [
+   388
+  ],
+  "390": [
+   389
+  ],
+  "391": [
+   390
+  ],
+  "392": [
+   391
+  ],
+  "393": [
+   392
+  ],
+  "394": [
+   393
+  ],
+  "395": [
+   394
+  ],
+  "396": [
+   395
+  ],
+  "397": [
+   396
+  ],
+  "398": [
+   397
+  ],
+  "399": [
+   398
+  ],
+  "400": [
+   399
+  ],
+  "401": [
+   400
+  ],
+  "402": [
+   401
+  ],
+  "403": [
+   402
+  ],
+  "404": [
+   403
+  ],
+  "405": [
+   404
+  ],
+  "406": [
+   405
+  ],
+  "407": [
+   406
+  ],
+  "408": [
+   407
+  ],
+  "409": [
+   408
+  ],
+  "410": [
+   409
+  ],
+  "411": [
+   410
+  ],
+  "412": [
+   411
+  ],
+  "413": [
+   412
+  ],
+  "414": [
+   413
+  ],
+  "415": [
+   414
+  ],
+  "416": [
+   415
+  ],
+  "417": [
+   416
+  ],
+  "418": [
+   417
+  ],
+  "419": [
+   418
+  ],
+  "420": [
+   419
+  ],
+  "421": [
+   420
+  ],
+  "422": [
+   421
+  ],
+  "423": [
+   422
+  ],
+  "424": [
+   423
+  ],
+  "425": [
+   424
+  ],
+  "426": [
+   425
+  ],
+  "427": [
+   426
+  ],
+  "428": [
+   427
+  ],
+  "429": [
+   428
+  ],
+  "430": [
+   429
+  ],
+  "431": [
+   430
+  ],
+  "432": [
+   431
+  ],
+  "433": [
+   432
+  ],
+  "434": [
+   433
+  ],
+  "435": [
+   434
+  ],
+  "436": [
+   435
+  ],
+  "437": [
+   436
+  ],
+  "438": [
+   437
+  ],
+  "439": [
+   438
+  ],
+  "440": [
+   439
+  ],
+  "441": [
+   440
+  ],
+  "442": [
+   441
+  ],
+  "443": [
+   442
+  ],
+  "444": [
+   443
+  ],
+  "445": [
+   444
+  ],
+  "446": [
+   445
+  ],
+  "447": [
+   446
+  ],
+  "448": [
+   447
+  ],
+  "449": [
+   448
+  ],
+  "450": [
+   449
+  ],
+  "451": [
+   450
+  ],
+  "452": [
+   451
+  ],
+  "453": [
+   452
+  ],
+  "454": [
+   453
+  ],
+  "455": [
+   454
+  ],
+  "456": [
+   455
+  ],
+  "457": [
+   456
+  ],
+  "458": [
+   457
+  ],
+  "459": [
+   458
+  ],
+  "460": [
+   459
+  ],
+  "461": [
+   460
+  ],
+  "462": [
+   461
+  ],
+  "463": [
+   462
+  ],
+  "464": [
+   463
+  ],
+  "465": [
+   464
+  ],
+  "466": [
+   465
+  ],
+  "467": [
+   466
+  ],
+  "468": [
+   467
+  ],
+  "469": [
+   468
+  ],
+  "470": [
+   469
+  ],
+  "471": [
+   470
+  ],
+  "472": [
+   471
+  ],
+  "473": [
+   472
+  ],
+  "474": [
+   473
+  ],
+  "475": [
+   474
+  ],
+  "476": [
+   475
+  ],
+  "477": [
+   476
+  ],
+  "478": [
+   477
+  ],
+  "479": [
+   478
+  ],
+  "480": [
+   479
+  ],
+  "481": [
+   480
+  ],
+  "482": [
+   481
+  ],
+  "483": [
+   482
+  ],
+  "484": [
+   483
+  ],
+  "485": [
+   484
+  ],
+  "486": [
+   485
+  ],
+  "487": [
+   486
+  ],
+  "488": [
+   487
+  ],
+  "489": [
+   488
+  ],
+  "490": [
+   489
+  ],
+  "491": [
+   490
+  ],
+  "492": [
+   491
+  ],
+  "493": [
+   492
+  ],
+  "494": [
+   493
+  ],
+  "495": [
+   494
+  ],
+  "496": [
+   495
+  ],
+  "497": [
+   496
+  ],
+  "498": [
+   497
+  ],
+  "499": [
+   498
+  ],
+  "500": [
+   499
+  ],
+  "501": [
+   500
+  ],
+  "502": [
+   501
+  ],
+  "503": [
+   502
+  ],
+  "504": [
+   503
+  ],
+  "505": [
+   504
+  ],
+  "506": [
+   505
+  ],
+  "507": [
+   506
+  ],
+  "508": [
+   507
+  ],
+  "509": [
+   508
+  ],
+  "510": [],
+  "511": [
+   509
+  ],
+  "512": [
+   510
+  ],
+  "513": [
+   511
+  ],
+  "514": [],
+  "515": [
+   512
+  ],
+  "516": [
+   513
+  ],
+  "517": [
+   514
+  ],
+  "518": [
+   515
+  ],
+  "519": [
+   516
+  ],
+  "520": [
+   517
+  ],
+  "521": [
+   518
+  ],
+  "522": [
+   519
+  ],
+  "523": [
+   520
+  ],
+  "524": [
+   521
+  ],
+  "525": [
+   522
+  ],
+  "526": [
+   523
+  ],
+  "527": [
+   524
+  ],
+  "528": [
+   525
+  ],
+  "529": [
+   526
+  ],
+  "530": [
+   527
+  ],
+  "531": [
+   528
+  ],
+  "532": [
+   529
+  ],
+  "533": [
+   530
+  ],
+  "534": [
+   531
+  ],
+  "535": [
+   532
+  ],
+  "536": [
+   533
+  ],
+  "537": [
+   534
+  ],
+  "538": [
+   535
+  ],
+  "539": [
+   536
+  ],
+  "540": [
+   537
+  ],
+  "541": [
+   538
+  ],
+  "542": [
+   539
+  ],
+  "543": [
+   540
+  ],
+  "544": [
+   541
+  ],
+  "545": [
+   542
+  ],
+  "546": [
+   543
+  ],
+  "547": [
+   544
+  ],
+  "548": [
+   545
+  ],
+  "549": [
+   546
+  ],
+  "550": [
+   547
+  ],
+  "551": [
+   548
+  ],
+  "552": [
+   549
+  ],
+  "553": [
+   550
+  ],
+  "554": [
+   551
+  ],
+  "555": [
+   552
+  ],
+  "556": [
+   553
+  ],
+  "557": [
+   554
+  ],
+  "558": [
+   555
+  ],
+  "559": [
+   556
+  ],
+  "560": [
+   557
+  ],
+  "561": [
+   558
+  ],
+  "562": [
+   559
+  ],
+  "563": [
+   560
+  ],
+  "564": [
+   561
+  ],
+  "565": [
+   562
+  ],
+  "566": [
+   563
+  ],
+  "567": [
+   564
+  ],
+  "568": [
+   565
+  ],
+  "569": [
+   566
+  ],
+  "570": [
+   567
+  ],
+  "571": [
+   568
+  ],
+  "572": [
+   569
+  ],
+  "573": [
+   570
+  ],
+  "574": [
+   571
+  ],
+  "575": [
+   572
+  ],
+  "576": [
+   573
+  ],
+  "577": [
+   574
+  ],
+  "578": [
+   575
+  ],
+  "579": [
+   576
+  ],
+  "580": [
+   577
+  ],
+  "581": [
+   578
+  ],
+  "582": [
+   579
+  ],
+  "583": [
+   580
+  ],
+  "584": [
+   581
+  ],
+  "585": [
+   582
+  ],
+  "586": [
+   583
+  ],
+  "587": [
+   584
+  ],
+  "588": [
+   585
+  ],
+  "589": [
+   586
+  ],
+  "590": [
+   587
+  ],
+  "591": [
+   588
+  ],
+  "592": [
+   589
+  ],
+  "593": [
+   590
+  ],
+  "594": [
+   591
+  ],
+  "595": [
+   592
+  ],
+  "596": [
+   593
+  ],
+  "597": [
+   594
+  ],
+  "598": [
+   595
+  ],
+  "599": [
+   596
+  ],
+  "600": [
+   597
+  ],
+  "601": [
+   598
+  ],
+  "602": [
+   599
+  ],
+  "603": [
+   600
+  ],
+  "604": [
+   601
+  ],
+  "605": [
+   602
+  ],
+  "606": [
+   603
+  ],
+  "607": [
+   604
+  ],
+  "608": [],
+  "609": [
+   605
+  ],
+  "610": [],
+  "611": [
+   606
+  ],
+  "612": [],
+  "613": [
+   607
+  ],
+  "614": [
+   608
+  ],
+  "615": [
+   609
+  ],
+  "616": [
+   610
+  ],
+  "617": [
+   611
+  ],
+  "618": [
+   612
+  ],
+  "619": [
+   613
+  ],
+  "620": [
+   614
+  ],
+  "621": [
+   615
+  ],
+  "622": [
+   616
+  ],
+  "623": [
+   617
+  ],
+  "624": [
+   618
+  ],
+  "625": [
+   619
+  ],
+  "626": [
+   620
+  ],
+  "627": [
+   621
+  ],
+  "628": [
+   622
+  ],
+  "629": [
+   623
+  ],
+  "630": [
+   624
+  ],
+  "631": [
+   625
+  ],
+  "632": [
+   626
+  ],
+  "633": [
+   627
+  ],
+  "634": [
+   628
+  ],
+  "635": [
+   629
+  ],
+  "636": [
+   630
+  ],
+  "637": [
+   631
+  ],
+  "638": [
+   632
+  ],
+  "639": [
+   633
+  ],
+  "640": [
+   634
+  ],
+  "641": [
+   635
+  ],
+  "642": [
+   636
+  ],
+  "643": [
+   637
+  ],
+  "644": [
+   638
+  ],
+  "645": [
+   639
+  ],
+  "646": [
+   640
+  ],
+  "647": [
+   641
+  ],
+  "648": [
+   642
+  ],
+  "649": [
+   643
+  ],
+  "650": [
+   644
+  ],
+  "651": [
+   645
+  ],
+  "652": [
+   646
+  ],
+  "653": [
+   647
+  ],
+  "654": [
+   648
+  ],
+  "655": [
+   649
+  ],
+  "656": [
+   650
+  ],
+  "657": [
+   651
+  ],
+  "658": [
+   652
+  ],
+  "659": [
+   653
+  ],
+  "660": [
+   654
+  ],
+  "661": [
+   655
+  ],
+  "662": [
+   656
+  ],
+  "663": [
+   657
+  ],
+  "664": [
+   658
+  ],
+  "665": [
+   659
+  ],
+  "666": [
+   660
+  ],
+  "667": [
+   661
+  ],
+  "668": [
+   662
+  ],
+  "669": [
+   663
+  ],
+  "670": [
+   664
+  ],
+  "671": [
+   665
+  ],
+  "672": [
+   666
+  ],
+  "673": [
+   667
+  ],
+  "674": [
+   668
+  ],
+  "675": [
+   669
+  ],
+  "676": [
+   670
+  ],
+  "677": [
+   671
+  ],
+  "678": [
+   672
+  ],
+  "679": [],
+  "680": [
+   673
+  ],
+  "681": [],
+  "682": [],
+  "683": [
+   674
+  ],
+  "684": [
+   675
+  ],
+  "685": [
+   676
+  ],
+  "686": [
+   677
+  ],
+  "687": [
+   678
+  ],
+  "688": [
+   679
+  ],
+  "689": [
+   680
+  ],
+  "690": [
+   681
+  ],
+  "691": [
+   682
+  ],
+  "692": [
+   683
+  ],
+  "693": [
+   684
+  ],
+  "694": [
+   685
+  ],
+  "695": [
+   686
+  ],
+  "696": [
+   687
+  ],
+  "697": [
+   688
+  ],
+  "698": [
+   689
+  ],
+  "699": [
+   690
+  ],
+  "700": [
+   691
+  ],
+  "701": [
+   692
+  ],
+  "702": [
+   693
+  ],
+  "703": [
+   694
+  ],
+  "704": [
+   695
+  ],
+  "705": [
+   696
+  ],
+  "706": [
+   697
+  ],
+  "707": [
+   698
+  ],
+  "708": [
+   699
+  ],
+  "709": [
+   700
+  ],
+  "710": [
+   701
+  ],
+  "711": [
+   702
+  ],
+  "712": [
+   703
+  ],
+  "713": [
+   704
+  ],
+  "714": [
+   705
+  ],
+  "715": [
+   706
+  ],
+  "716": [
+   707
+  ],
+  "717": [
+   708
+  ],
+  "718": [
+   709
+  ],
+  "719": [
+   710
+  ],
+  "720": [
+   711
+  ],
+  "721": [
+   712
+  ],
+  "722": [
+   713
+  ],
+  "723": [
+   714
+  ],
+  "724": [
+   715
+  ],
+  "725": [
+   716
+  ],
+  "726": [
+   717
+  ],
+  "727": [
+   718
+  ],
+  "728": [
+   719
+  ],
+  "729": [
+   720
+  ],
+  "730": [
+   721
+  ],
+  "731": [
+   722
+  ],
+  "732": [
+   723
+  ],
+  "733": [
+   724
+  ],
+  "734": [
+   725
+  ],
+  "735": [
+   726
+  ],
+  "736": [
+   727
+  ],
+  "737": [
+   728
+  ],
+  "738": [
+   729
+  ],
+  "739": [
+   730
+  ],
+  "740": [
+   731
+  ],
+  "741": [
+   732
+  ],
+  "742": [
+   733
+  ],
+  "743": [
+   734
+  ],
+  "744": [
+   735
+  ],
+  "745": [
+   736
+  ],
+  "746": [
+   737
+  ],
+  "747": [
+   738
+  ],
+  "748": [
+   739
+  ],
+  "749": [
+   740
+  ],
+  "750": [
+   741
+  ],
+  "751": [
+   742
+  ],
+  "752": [
+   743
+  ],
+  "753": [
+   744
+  ],
+  "754": [
+   745
+  ],
+  "755": [
+   746
+  ],
+  "756": [
+   747
+  ],
+  "757": [
+   748
+  ],
+  "758": [
+   749
+  ],
+  "759": [
+   750
+  ],
+  "760": [
+   751
+  ],
+  "761": [
+   752
+  ],
+  "762": [
+   753
+  ],
+  "763": [
+   754
+  ],
+  "764": [
+   755
+  ],
+  "765": [
+   756
+  ],
+  "766": [
+   757
+  ],
+  "767": [
+   758
+  ],
+  "768": [
+   759
+  ],
+  "769": [
+   760
+  ],
+  "770": [
+   761
+  ],
+  "771": [
+   762
+  ],
+  "772": [
+   763
+  ],
+  "773": [
+   764
+  ],
+  "774": [
+   765
+  ],
+  "775": [
+   766
+  ],
+  "776": [
+   767
+  ],
+  "777": [
+   768
+  ],
+  "778": [
+   769
+  ],
+  "779": [
+   770
+  ],
+  "780": [
+   771
+  ],
+  "781": [
+   772
+  ]
+ }
+}

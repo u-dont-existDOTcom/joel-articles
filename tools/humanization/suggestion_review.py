@@ -42,7 +42,11 @@ REVIEW.json (the lane's build script writes it; see find_quote, block_text and c
                  or [the words just before, the new words], found once together], "note"}]   the
                  whole passage as it would read, for a section in a new order; the card shows it in place of the edits
                  and moves, which stay for the check and the record ("reads_label" names it),
-      "card_after" (optional): the block the card sits after (else the first span's)},
+      "card_after" (optional): the block the card sits after (else the first span's),
+      "reading" (optional): what Pangram read on the stretch, with the link to each result (check() refuses a reading
+                 with no Pangram link: Joel, 2026-11-02, "always give me the links"),
+      "tested" (needed when there is a reading): what Pangram read on the suggestion itself, with its link; both show
+                 on the card (1.5; before it, an approve card didn't show its reading at all)},
      {"id", "type", "title", "advice": "ask", "question", "why", "stays" (optional, what holds until he answers),
       "advice_note", "spans"}   a question: no change, an answer box, counted apart from the decisions,
      {"id", "type", "title", "advice": "edit", "why", "reading" (optional: what Pangram read there), "advice_note",
@@ -78,8 +82,11 @@ from html_links import join_split_links  # noqa: E402  (a pasted post card's lin
 TEMPLATE = HERE / 'suggestion_review_template.html'
 FORM_CSS = ROOT / 'project-sources' / 'review-form-controls.css'
 FORMAT = 'joel-suggestion-review-v1'
-GENERATOR = 'suggestion_review.py 1.4 (2026-10-30)'
+GENERATOR = 'suggestion_review.py 1.5 (2026-11-02)'
 ID_OK = re.compile(r'^[A-Za-z0-9][A-Za-z0-9.\-]{0,80}$')
+# a Pangram result's page (2026-11-02, Joel on the hypnosis guide's cards: "why are you not giving me the pangram link so
+# i can see? always give me the links", and "you didn't check if your changes passed.. they didn't. don't waste my time")
+PANGRAM_LINK = re.compile(r'https?://(?:www\.)?pangram\.com/(?:history|feed)/[0-9a-f][0-9a-f-]{7,}')
 LINK = re.compile(r'\[([^\]]+)\]\(([^)\s]+)\)')
 EMPH = re.compile(r'(?<![\w*])\*([^*\s][^*]*?)\*(?!\*)')
 HEAD = re.compile(r'^(#{1,6})\s+(.*)$')
@@ -280,6 +287,16 @@ def check(review, bl):
             probs.append('%s: unknown type %r' % (sid, s.get('type')))
         ask = s.get('advice') == 'ask'
         edit = s.get('advice') == 'edit'
+        if review.get('pangram_links', True):
+            rd = s.get('reading')
+            if rd is not None and not PANGRAM_LINK.search(rd):
+                probs.append('%s: what Pangram read has no link to the result (Joel, 2026-11-02: "always give me the '
+                             'links")' % sid)
+            if rd and s.get('advice') in ('approve', 'leave') and (s.get('edits') or s.get('inserts') or s.get('moves')) \
+                    and not PANGRAM_LINK.search(s.get('tested') or ''):
+                probs.append('%s: a suggestion for a stretch Pangram flagged needs its own Pangram check, with the link, '
+                             'in "tested" (Joel, 2026-11-02: "you didn\'t check if your changes passed.. they didn\'t. '
+                             'don\'t waste my time")' % sid)
         if s.get('advice') not in ('approve', 'leave', 'ask', 'edit'):
             probs.append('%s: advice must be "approve", "leave", "ask" or "edit"' % sid)
         need = ('title', 'question', 'why') if ask else ('title', 'why', 'advice_note') if edit else \
@@ -588,7 +605,8 @@ def edit_html(s, bl, types):
     sid = s['id']
     blocks_ = sorted({sp['block'] for sp in s['spans']})
     now = ''.join('<div class="dif side now">%s</div>' % esc(bl[i]['text']) for i in blocks_)
-    rows = ([('Pangram read', s['reading'])] if s.get('reading') else []) + [('Why it\'s here', s['why'])]
+    rows = (([('Pangram read', s['reading'])] if s.get('reading') else [])
+            + ([('Pangram on the suggestion', s['tested'])] if s.get('tested') else []) + [('Why it\'s here', s['why'])])
     info = ''.join('<div class="row"><span class="lab">%s</span> <span>%s</span></div>' % (esc(k), linked(v)) for k, v in rows)
     info += '<div class="row advice"><span class="lab">My advice</span> <span>%s</span></div>' % linked(s['advice_note'])
     keep = s.get('keep_label') or 'keep it as it is'
@@ -616,8 +634,9 @@ def card_html(s, bl, types):
     approve = s.get('approve_label') or (APPROVE_LEAVE if leave else APPROVE).get(s['type'], 'make this change')
     if leave and s.get('approve_label'):
         approve += ' anyway'
-    rows = [('What changes', s['what']), ('Why', s['why']), ('What stays', s['stays']),
-            ('You\'re deciding', s['deciding'])]
+    rows = ([('What changes', s['what'])] + ([('Pangram read', s['reading'])] if s.get('reading') else [])
+            + ([('Pangram on the suggestion', s['tested'])] if s.get('tested') else [])
+            + [('Why', s['why']), ('What stays', s['stays']), ('You\'re deciding', s['deciding'])])
     info = ''.join('<div class="row"><span class="lab">%s</span> <span>%s</span></div>' % (esc(k), linked(v)) for k, v in rows)
     if s.get('warning'):
         info += '<div class="row warn"><span class="lab">Note</span> <span>%s</span></div>' % linked(s['warning'])

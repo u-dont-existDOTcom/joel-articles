@@ -183,7 +183,8 @@ class PasteSafeTests(unittest.TestCase):
         # has no colours for gets them, so its highlights show (batch 481's page had four such types and showed none)
         last = self.bl[7]
         ed = {'id': 'ED-1', 'type': 'short', 'title': 'A short line', 'advice': 'edit', 'why': 'It read Medium.',
-              'reading': 'Human, Medium (0.987)', 'advice_note': 'Keep it.', 'keep_label': 'keep it as it is',
+              'reading': 'Human, Medium (0.987): https://www.pangram.com/history/0a1b2c3d-0000-4000-8000-000000000000',
+              'advice_note': 'Keep it.', 'keep_label': 'keep it as it is',
               'spans': [{'block': 7, 'start': 0, 'end': 8}], 'edits': [], 'inserts': [], 'moves': []}
         rv = review([ed])
         rv['types'] = dict(rv['types'], short={'label': 'Short line', 'about': 'A short line.'})
@@ -200,6 +201,34 @@ class PasteSafeTests(unittest.TestCase):
         self.assertTrue(any('a stretch to edit changes nothing' in p for p in R.check(dict(rv, suggestions=[bad]), self.bl)))
         nospan = dict(ed, id='ED-3', spans=[])
         self.assertTrue(any('needs its spans' in p for p in R.check(dict(rv, suggestions=[nospan]), self.bl)))
+
+    def test_a_pangram_card_carries_its_links(self):
+        # 2026-11-02, Joel on the hypnosis guide's cards: "why are you not giving me the pangram link so i can see? always
+        # give me the links", and "you didn't check if your changes passed.. they didn't. don't waste my time": a card
+        # that says what Pangram read gives the result's link, and a suggestion for that stretch gives its own check's
+        # link ("tested"); both show on the card, an approve card's too (1.4 showed an approve card's reading nowhere)
+        last = self.bl[7]
+        link = 'https://www.pangram.com/history/1050793a-1f08-47d0-aac9-098afd0e5408'
+        s = {'id': 'P-1', 'type': 'caveat', 'title': 'A line', 'advice': 'approve',
+             'spans': [{'block': 7, 'start': 0, 'end': 8}],
+             'edits': [{'block': 7, 'before': last['text'], 'after': 'The last paragraph says something once.'}],
+             'inserts': [], 'moves': [], 'what': 'Says it once.', 'why': 'It repeats.', 'stays': 'The rest.',
+             'deciding': 'Approve uses it.', 'reading': 'AI (High), 27 words: [the section](%s)' % link,
+             'tested': 'Human Written: [the suggestion](https://www.pangram.com/history/5ad82ada-83a8-4c4f-89f2-4f0966465f5f)'}
+        self.assertEqual(R.check(review([s]), self.bl), [])
+        page = R.page(review([s]), MD, self.bl)
+        self.assertIn('Pangram read', page)
+        self.assertIn('Pangram on the suggestion', page)
+        self.assertIn('<a href="%s" target="_blank" rel="noopener noreferrer">the section</a>' % link, page)
+        nolink = dict(s, id='P-2', reading='AI (High), 27 words')
+        self.assertTrue(any('has no link' in p for p in R.check(review([nolink]), self.bl)))
+        untested = dict(s, id='P-3')
+        del untested['tested']
+        self.assertTrue(any('its own Pangram check' in p for p in R.check(review([untested]), self.bl)))
+        # a card with no Pangram reading (a clarity card, a question) needs neither
+        plain = dict(s, id='P-4')
+        del plain['reading'], plain['tested']
+        self.assertEqual(R.check(review([plain]), self.bl), [])
 
     def test_a_new_heading_in_a_whole_passage(self):
         # turn 113: a case heading over a paragraph shows as a heading with its Markdown #s, so a paste keeps it a heading,

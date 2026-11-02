@@ -1,5 +1,45 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-11-02, after Joel's answers of 16:43 UTC: his answers in; the changed sections checked; three tested cards
+
+His message had no text, only his two answers files (`fix-20261102/joel-20261102-1643-message.txt`; the guide's answers
+word for word in `fix-20261102/ANSWERS-20261102-1643.json`, his comments as text in `joel-20261102-1643-comments.txt`).
+**The mailbox first** (gate E313, `state/MAILBOX.json`): nothing new in the lane of universal-dev-architecture, no new
+issues, comments or reviews, no queued messages.
+
+**His answers, in** (`fix-20261102/apply_answers_s1101.py`, APPLIED-S1101.json): 8 approved cards as shown, his 16
+versions word for word but for ten typos, each listed; W-509 and W-513 his Pattern 3 to 7 (6c87cdc9 to Pattern 6 with
+the McHappyness joke he said to keep, Pattern 7 from 54ec1675); W-605 his c341e75a; E-406 his ff307b0a ("it still reads
+ai to me without the other fixes"); the "9." of the no-trance practice kept; one source link kept on his words. His
+Pangram texts were read from his links (`joel-pangram/texts-raw.json`, each SHA-256 checked against the page) and saved
+as his (`EDITS-joel-20261102-pangram.json`). The lead session read the ten paragraphs of the approved cards
+(`answers/read/`); the comparison gate passes.
+
+**The changed sections, each checked by itself** (`recheck/`, batch r1102, 22 checks through the API on the laptop with
+public links; RESULTS.md): 19 Human Written. 17 of 22 predictions right; the misses explained in the ledger (the rent
+line restored without its example; his opening Human (Low) beside the lettered steps; the script; two pessimistic).
+
+**Fixes, tried before anything reached him** (`recheck/round2/`, batch r1102b, rounds 2 to 5, one try per lineage per
+round): his inner child guide's party example after the rent line, 100% Human (A1); the script rewritten twice, AI both
+times (B3, a new list of three; B4, three steps), and cut, 100% Human with his paragraph and Human Written in his passage
+(B5, B6); our guards sentence asked as two questions, Human (C1, now in: `fixes/`, with its read); Pattern 10 twice, AI
+in its stretch both times (D2, D1), so it stays; Appendix E without its repeated prayer, 100% Human (E1). 5 of 10
+predictions right, every miss explained in the ledger.
+
+**His cards page**: [Hypnosis Guide Cards, 2 November](https://claude.ai/artifact/AzBJ2kkPievVk18n4x6Tmv)
+(`review/build_page_r1102.py`; W-92b, W-283b, R-638; browser test 76 of 76, after a fix to the test's "Next undecided"
+check for small pages). `suggestion_review.py` 1.5: every card shows what Pangram read and its own check of the
+suggestion, each with links, and check() refuses a card without them (tests in `test_suggestion_review.py`).
+
+**What he asked for besides**: his 53 tries read in order (`joel-pangram/SEQUENCES.md`); lessons E315 to E320 in
+`docs/HUMANIZATION-GATE.md`; tells_lint.py's O49 to O52 with registry entries W101 to W104; the repeats read
+(`redundancy/find_repeats.py`, REPEATS.md: two cut as cards, the rest kept with reasons). His Pangram history beyond his
+links can't be read: the app's browser is signed out of Pangram (its history API answers 401), and I don't sign in.
+Question 27 is answered by his W-605; question 28 asks whether a fixed section may be checked a third time.
+
+Predictions: r1102 17 of 22, r1102b 5 of 10 (ledger `pangram-ledger.jsonl`). Delegations (model, piece, check,
+outcome): none; the reads, the fixes and the cards were judgment interleaved with the checks.
+
 ## 2026-11-01, after Joel's message of 22:27 UTC: batch s1101's windows, round 2; his cards page; the recheck of eleven sections
 
 His message: carry on from both handoffs' next steps. **The mailbox first** (gate E313 below; `state/MAILBOX.json`): one new
