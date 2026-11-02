@@ -1,0 +1,35 @@
+{
+ "before_sha256": "a789009c3777ede488fa8b3fce233874d42e88acc6f7adee186eb571eb2d0e00",
+ "after_sha256": "4583036068ad844b6a4f2517fab40f9bb9c033a8ae8fc09281e8a359a8b05d77",
+ "in": [
+  "F-20",
+  "F-42",
+  "F-140",
+  "F-255",
+  "F-265"
+ ],
+ "fates": {
+  "F-11": "reverted: AI (Low, High, Medium) in its section (w1102f-02); the original read Human there",
+  "F-16": "reverted: AI (High) in its section and in the whole",
+  "F-20": "in: its section Human Written, 0% AI; in the whole its window (with his teleprompter sentence) AI (Low), as before",
+  "F-42": "in: its section Human Written, 0% AI; not flagged in the whole",
+  "F-140": "in: its section Human Written, 0% AI (with C-141); not flagged in the whole",
+  "F-216": "not in yet: its section Human Written, its seatbelt sentence AI (High) in the whole",
+  "F-218": "reverted: its section Mostly Human, the heading and next sentence Human (Low) once it was cut",
+  "F-251": "reverted: AI (Low) in its section, AI (High) in the whole",
+  "F-253": "reverted: AI (High) and three AI (Low) in its section",
+  "F-255": "in: not flagged in its section or in the whole",
+  "F-265": "in: not flagged in its section or in the whole",
+  "F-527": "reverted: AI (Medium) in its section and in the whole",
+  "F-528": "reverted: Human (Low) in its section, AI (High) in the whole",
+  "C-141": "card: his inner child guide's lines; its section Human Written, 0% AI; not flagged in the whole",
+  "C-384": "card: his inner child guide's lines; its section Human Written, 0% AI; Human (Low) in the whole, as before",
+  "C-626": "withdrawn: his inner child guide's line read AI (High) in its section and in the whole",
+  "C-672": "not a card: its section Human Written, 0% AI, and not flagged in the whole, but the owner-delivery gate's preservation review failed it (\"whole life\" dropped, his \"I'm\" made \"We're\", his \"But\" lost; gate/GATE.md)"
+ },
+ "blocks": [
+  772,
+  772
+ ],
+ "results": "RESULTS.md (batch w1102f)"
+}

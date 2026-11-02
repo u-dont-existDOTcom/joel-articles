@@ -139,7 +139,7 @@ def refusals(recs, rec):
     if any(p['sha256'] == rec['sha256'] for p in line):
         out.append('this exact text (same SHA-256) was already submitted in lineage %s: read its result from the ledger or '
                    "Pangram's History instead of paying again" % rec['lineage'])
-    out += blocks(recs, rec['lineage'], scope, rec.get('detector'))
+    out += blocks(recs, rec['lineage'], scope, rec.get('detector'), after_fix=rec.get('after_fix'))
     if cap_for(scope, rec.get('detector')) is None and not (rec.get('decides') or '').strip():
         out.append('a Substack check past the usual two tries must say what its result decides (--decides; Joel, '
                    '2026-10-21, question 7 b: "run only when its result decides something")')
@@ -150,9 +150,14 @@ def refusals(recs, rec):
     return out
 
 
-def blocks(recs, lineage, scope, detector=None):
+def blocks(recs, lineage, scope, detector=None, after_fix=None):
     """What stops any further submission in the lineage, whatever the text: the cap, a submission with no result, two
-    unexplained misses in a row. DETECTOR is the new prediction's (a Substack check of an article has no cap)."""
+    unexplained misses in a row. DETECTOR is the new prediction's (a Substack check of an article has no cap).
+
+    AFTER_FIX (what the fix changed) lets a section past its two tries take one more check of the whole section after a
+    fix: Joel's answer to question 28 of the hypnosis guide, 2026-11-02 19:11 UTC, "28a" ("Yes, my default: one more check
+    of the whole section after each fix, each with my prediction written first"). The new text is the fix in place, so it
+    can't be a try already made (the SHA-256 check), and every other block still applies."""
     out = []
     line = lineage_view(state(recs), lineage)
     pending = [p for p in line if not p['result']]
@@ -160,9 +165,9 @@ def blocks(recs, lineage, scope, detector=None):
         out.append('try %d of lineage %s (%s) has no result: recover it from the History, or void it if it was never sent'
                    % (pending[0]['try'], lineage, pending[0].get('key') or pending[0]['sha256'][:12]))
     cap = cap_for(scope, detector if detector is not None else (line[-1].get('detector') if line else None))
-    if cap is not None and len(line) >= cap:
-        out.append('lineage %s has used its %d tries for a %s: stop and ask Joel (a new owner decision is needed)'
-                   % (lineage, cap, scope))
+    if cap is not None and len(line) >= cap and not (scope == 'section' and (after_fix or '').strip()):
+        out.append('lineage %s has used its %d tries for a %s: stop and ask Joel (a new owner decision is needed), or, '
+                   'for a section with a fix in it, give --after-fix (his answer 28a)' % (lineage, cap, scope))
     done = [p for p in line if p['result']]
     if len(done) >= 2 and all(is_miss(p) and not p['explain'] for p in done[-2:]):
         out.append('the last two predictions of lineage %s missed and neither is explained: stop and ask Joel ("I can\'t find '
@@ -459,7 +464,7 @@ def cmd_predict(a):
            'scope': a.scope, 'sha256': sha, 'words': words, 'call': a.call, 'chance': a.chance, 'tells': a.tells or [],
            'human_tells': a.human_tells or [], 'diagnosis': a.diagnosis, 'decides': a.decides, 'key': a.key, 'batch': a.batch,
            'detector': a.detector, 'shading_expected': a.shading_expected, 'emulate_share': a.emulate_share,
-           'try': len(line) + 1}
+           'after_fix': a.after_fix, 'try': len(line) + 1}
     why = refusals(recs, rec)
     if why:
         print('REFUSED: ' + '\n  '.join(why), file=sys.stderr)
@@ -633,6 +638,8 @@ def main(argv=None):
     p.add_argument('--detector', default='Pangram 4.1 (web app)')
     p.add_argument('--shading-expected')
     p.add_argument('--emulate-share', type=float)
+    p.add_argument('--after-fix', help='a section past its two tries: what the fix changed (his answer 28a, one more check '
+                   'of the whole section after each fix)')
     p.set_defaults(fn=cmd_predict)
     p = sub.add_parser('result')
     p.add_argument('ledger')

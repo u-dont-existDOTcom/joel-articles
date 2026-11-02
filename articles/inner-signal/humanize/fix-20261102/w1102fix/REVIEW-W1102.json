@@ -1,0 +1,97 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "inner-signal-hypnosis-guide-cards-20261102-w1102",
+ "title": "Hypnosis Guide Cards, 2 November (2)",
+ "intro": [
+  "Your hypnosis guide as it is in Git, after this round’s fixes of the stretches that still read AI or Human (Low) when the whole guide was checked. These <b>2 cards</b> are the changes that touch your words. Every suggestion was checked in Pangram in its section and in the whole guide before it reached you, and each card links each check.",
+  "Your answers save as you click. When you’re done, click <b>Copy my answers</b> (or <b>Save them as a file</b>) and send them to me."
+ ],
+ "git_file": "articles/inner-signal/humanize/fix-20261102/w1102fix/REVIEW-W1102.html",
+ "article": {
+  "file": "articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "4583036068ad844b6a4f2517fab40f9bb9c033a8ae8fc09281e8a359a8b05d77"
+ },
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/w1102fix/REVIEW-W1102.md"
+ },
+ "built": "2026-11-02 19:47 UTC",
+ "types": {
+  "yours": {
+   "label": "Your own words",
+   "about": "A paragraph you wrote or rewrote. Approve uses the suggestion; Reject keeps your words; Revise lets you write your own."
+  },
+  "icguide": {
+   "label": "From your inner child guide",
+   "about": "Your inner child guide's words in this guide. Approve uses the suggestion; Reject keeps them; Revise lets you write your own."
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "A passage that says what another part of the guide already says (your note on W-685). Approve cuts it; Reject keeps it; Revise lets you write your own."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "C-141",
+   "type": "icguide",
+   "title": "“I see you. I'm not going to force my way past you.”",
+   "where": "Working with your guards, P4",
+   "spans": [
+    {
+     "block": 141,
+     "start": 0,
+     "end": 242
+    }
+   ],
+   "edits": [
+    {
+     "block": 141,
+     "before": "Talk to the guard the way your Nurturer talks to your inner child: “I see you. I'm not going to force my way past you. What's going on?” Then wait and listen patiently. If nothing comes back, that's okay, you don't need to push for an answer. Later on, you can ask it, “What are you afraid would happen if you stopped protecting me by…?”",
+     "after": "You can tell that part something like, “I see you. I'm not going to force my way past you. What's going on?” Or however you'd actually say that. Then wait and listen patiently. If nothing comes, that's fine for now. No need to answer for that part just because you'd set this up as a healing session. Later on, you can ask it, “What are you afraid would happen if you stopped protecting me by…?”"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "Your inner child guide’s lines go back in as you wrote them: “You can tell that part something like, … Or however you’d actually say that. … If nothing comes, that’s fine for now. No need to answer for that part just because you’d set this up as a healing session.”",
+   "why": "When they came into this guide they were shortened and reworded (“Talk to the guard the way your Nurturer talks to your inner child:”, “If nothing comes back, that’s okay, you don’t need to push for an answer.”), and in the whole guide those lines read AI (Low) and Human (Low). I also took out a sentence of mine just before them (“So before you decide where it’s coming from, ask it. What is it trying to stop? What does it want from you?”), which read AI in the whole and asked what your lines ask.",
+   "stays": "Everything else in the section, and “Later on, you can ask it…” right after your lines.",
+   "advice": "approve",
+   "advice_note": "Approve: it’s your own wording, and in place it reads Human in its section and in the whole.",
+   "found_by": "The whole-guide check in two halves (2 November), round w1102f",
+   "deciding": "Approve uses the suggestion; Reject keeps your words; Revise lets you write your own.",
+   "tested": "The section with your lines: Human Written, 0% AI: [check](https://www.pangram.com/history/92f3037b-036a-4dea-b660-c60fb6d6231c). The whole first half with them: none of these lines flagged: [check](https://www.pangram.com/history/4f9f2703-fa7c-49cb-84d8-8b739ee3fe72)",
+   "reading": "AI (Low), 26 words, on “Talk to the guard … force my way past you.”, and Human (Low) on the two lines after it: [the whole guide’s first half](https://www.pangram.com/history/25bc4954-3ece-40f7-98c5-75fd5444f6e1)"
+  },
+  {
+   "id": "C-384",
+   "type": "icguide",
+   "title": "“… that one can sting …”",
+   "where": "It feels fake, P2",
+   "spans": [
+    {
+     "block": 384,
+     "start": 165,
+     "end": 369
+    }
+   ],
+   "edits": [
+    {
+     "block": 384,
+     "before": "You could say something like 'What are you protecting me from?' or 'Are you afraid I will lie to myself again?' or 'Are you afraid this will just be a performance?' If it says yes, that can sting, because there could be something to it. Maybe you've fooled yourself before, and that part of you remembers it. \"Tell me what you remember, I'm listening.\" works well here.",
+     "after": "You could say something like 'What are you protecting me from?' or 'Are you afraid I will lie to myself again?' or 'Are you afraid this will just be a performance?' If it says yes, that one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part remembers. \"Tell me what you remember, I'm listening.\" works well here. It puts you into the role of the Nurturer, which alleviates the instinct to argue back."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "Your inner child guide’s lines go back as you wrote them (“that one can sting”, “that part remembers”), with your sentence that says why the question works: “It puts you into the role of the Nurturer, which alleviates the instinct to argue back.”",
+   "why": "They were shortened when they came in, and your reason was left out. That stretch read Human (Low) in the whole guide, and with your lines it still does, so this card is about your words and your reason, not a better reading. In its section, it reads Human Written, 0% AI.",
+   "stays": "The three questions before it, and the rest of It feels fake.",
+   "advice": "approve",
+   "advice_note": "Approve: the reader gets your reason for asking, in your words, and the reading is no worse.",
+   "found_by": "The whole-guide check in two halves (2 November), round w1102f",
+   "deciding": "Approve uses the suggestion; Reject keeps your words; Revise lets you write your own.",
+   "tested": "The section with your lines: Human Written, 0% AI: [check](https://www.pangram.com/history/97456f59-2adf-4e59-842f-82178ba8f8e5). The whole second half: Human (Low), 36 words, as before: [check](https://www.pangram.com/history/8fbefde8-9028-45bd-9dae-693ffa56092e)",
+   "reading": "Human (Low), 38 words: [the whole guide’s second half](https://www.pangram.com/history/aa3f74c7-cc59-40dd-b6e9-fcc0d3cc2b06)"
+  }
+ ]
+}

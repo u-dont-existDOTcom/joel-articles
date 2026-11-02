@@ -77,7 +77,14 @@ def run(page_path, report_path=None):
                 ok('%s: %s starts with your decision' % (scheme, s['id']), st == s['decided']['status'], st)
             pend = page.evaluate("""() => Array.from(document.querySelectorAll('.card[data-id]')).filter(c => c.dataset.status !== 'pending').length""")
             ok('%s: every other card starts not approved' % scheme, pend == len(pre), pend)
-            c1, c2, c3 = ('#c-' + i.replace('.', '\\.') for i in ids[:3])
+            # Approve, Reject and Revise are tried on three cards; a page of two (2026-11-02, Hypnosis Guide Cards, 2 November
+            # (2), after the gate held its third card back) tries Revise on the rejected card, so it ends as revise
+            three = len(ids) >= 3
+            c1, c2 = ('#c-' + i.replace('.', '\\.') for i in ids[:2])
+            c3 = '#c-' + ids[2].replace('.', '\\.') if three else c2
+            id3 = ids[2] if three else ids[1]
+            n_dec = 3 if three else 2
+            st2 = 'rejected' if three else 'revise'
             note = page.locator(c1 + ' textarea.note')
             text = 'Keep "this" — and check the link, please. Ünïcode ok.'
             note.click()
@@ -95,7 +102,7 @@ def run(page_path, report_path=None):
             page.click(c3 + ' .dec.revise')
             yours = page.locator(c3 + ' textarea.yours')
             ok('%s: Revise opens your version' % scheme, yours.is_visible())
-            mine = next(s['proposed'] for s in data['suggestions'] if s['id'] == ids[2])
+            mine = next(s['proposed'] for s in data['suggestions'] if s['id'] == id3)
             ok('%s: your version starts from mine' % scheme, yours.input_value() == mine, yours.input_value()[:80])
             yours.type(' Mine.')
             con2 = yours.evaluate(CONTRAST_JS)
@@ -104,7 +111,7 @@ def run(page_path, report_path=None):
             pre_n = sum(1 for s in pre if s['advice'] == 'approve')
             prog = page.locator('#prog').text_content()
             ok('%s: progress counts the decisions' % scheme,
-               (' %d approved' % (1 + pre_ap) in prog) and prog.startswith('%d of' % (3 + pre_n)), prog)
+               (' %d approved' % (1 + pre_ap) in prog) and prog.startswith('%d of' % (n_dec + pre_n)), prog)
             page.click(c1 + ' .dec.undo')
             ok('%s: back to not approved in one click' % scheme, page.locator(c1).get_attribute('data-status') == 'pending')
             ok('%s: approval count is explicit approvals only' % scheme, ' %d approved' % pre_ap in page.locator('#prog').text_content(),
@@ -219,8 +226,8 @@ def run(page_path, report_path=None):
                 ok('%s: export has every suggestion' % scheme, len(exp['items']) == total, len(exp['items']))
                 got = {x['id']: x for x in exp['items']}
                 ok('%s: comment exported word for word' % scheme, got[ids[0]]['comment'] == text, got[ids[0]]['comment'])
-                ok('%s: statuses exported' % scheme, got[ids[0]]['status'] == 'approved' and got[ids[1]]['status'] == 'rejected'
-                   and got[ids[2]]['status'] == 'revise' and got[ids[2]]['your_version'].endswith(' Mine.'))
+                ok('%s: statuses exported' % scheme, got[ids[0]]['status'] == 'approved' and got[ids[1]]['status'] == st2
+                   and got[id3]['status'] == 'revise' and got[id3]['your_version'].endswith(' Mine.'))
                 if asks:
                     ok('%s: the answer is exported with its question' % scheme, got[asks[0]]['comment'] == ans
                        and got[asks[0]]['status'] == 'answered' and got[asks[0]].get('question'), got[asks[0]])
@@ -233,7 +240,7 @@ def run(page_path, report_path=None):
             page.reload()
             page.wait_for_selector('.card[data-id]')
             ok('%s: a reload keeps the decisions' % scheme, page.locator(c1).get_attribute('data-status') == 'approved'
-               and page.locator(c2).get_attribute('data-status') == 'rejected')
+               and page.locator(c2).get_attribute('data-status') == st2)
             ok('%s: a reload keeps the comment' % scheme, page.locator(c1 + ' textarea.note').input_value() == text)
             # import after clearing
             page.evaluate('localStorage.clear()')

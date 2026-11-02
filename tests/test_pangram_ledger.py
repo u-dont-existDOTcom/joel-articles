@@ -82,6 +82,25 @@ class Ledger(unittest.TestCase):
         self.result('s2', 'AI')
         self.assertEqual(self.predict('s3', lineage='S13', scope='section', diagnosis='another'), 2)
 
+    def test_a_fixed_section_gets_one_more_check_after_each_fix(self):
+        """Joel, 2026-11-02 19:11 UTC, his answer 28a: one more check of the whole section after each fix, each with my
+        prediction written first. Past its two tries a section takes a check only with --after-fix, and never of a text it
+        has already sent."""
+        def fixed(body, after_fix=None):
+            argv = ['predict', self.ledger, '--lineage', 'S9', '--scope', 'section', '--text', self.text(body), '--call', 'Human',
+                    '--chance', '0.6', '--tells', 'a closer', '--diagnosis', 'the closer cut']
+            return L.main(argv + (['--after-fix', after_fix] if after_fix else []))
+        self.assertEqual(self.predict('a1', lineage='S9', scope='section', call='AI'), 0)
+        self.result('a1', 'Mixed')
+        self.assertEqual(self.predict('a2', lineage='S9', scope='section', call='AI', diagnosis='the seam rewritten'), 0)
+        self.result('a2', 'Mixed')
+        self.assertEqual(fixed('a3'), 2)
+        self.assertEqual(fixed('a3', 'the closer of P2 cut'), 0)
+        self.result('a3', 'Human')
+        self.assertEqual(fixed('a3', 'the same text again'), 2)
+        self.assertEqual(L.main(['predict', self.ledger, '--lineage', 'P9', '--scope', 'paragraph', '--text', self.text('p'),
+                                 '--call', 'Human', '--chance', '0.6', '--tells', 'x', '--after-fix', 'not a section']), 0)
+
     def test_a_substack_article_check_goes_past_two_when_it_decides_something(self):
         """Joel, 2026-10-21 17:56 UTC, question 7 b: Substack checks of a whole article may go past two, each predicted
         first and run only when its result decides something. A pangram.com article check keeps the cap of two."""

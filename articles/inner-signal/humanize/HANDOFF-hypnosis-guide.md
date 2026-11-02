@@ -18,6 +18,13 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-11-02, after Joel's message of 19:11 UTC ("29a yes you can always update that date when updating a post of
+  course, but you're saying we still ahve to fix some stretches", and "28a"): the dates updated; the windows round, part
+  one.** His subtitle says "Last update: Nov 2, 2026, v. 7.0" and the community post's title "Updated: Nov 2 2026" (E323:
+  the date changes with every update). 28a: a section takes one more check after a fix (`pangram_ledger.py --after-fix`).
+  The w1102 windows (`fix-20261102/whole/WINDOWS.md`) fixed and checked (`fix-20261102/w1102fix/`, batch w1102f): five
+  fixes of ours in (guide 45830360), seven reverted because their sections read worse (E324), two cards on
+  [Hypnosis Guide Cards, 2 November (2)](https://claude.ai/artifact/DsWJ3E4voqJPNZscZXGMHG). See the Next step.
 - **2026-11-02, after Joel's message of 18:16 UTC ("so are we done now can you update the hypnosis article?
   hypnosis.u-dont-exist.com then we can start on the next one we had queued"): the guide is live in his post.** His
   three cards in (`fix-20261102/apply_answers_r1102.py`; guide a789009c, 772 blocks); the whole guide checked in two
@@ -294,7 +301,30 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-11-02, after Joel's message of 18:16 UTC: his cards in, the whole guide checked, the guide live in his post)
+## Next step (2026-11-02, after Joel's message of 19:11 UTC: the dates updated; the windows round, part one)
+
+Done (STATUS.md's entry for 19:11 has every file and number). The guide: HUMANIZED-SO-FAR.md 45830360 (772 blocks); his
+post still has a789009c's words (the guide's changes since then are ours and wait for the next update of his post).
+
+Next:
+0. **His answers to [Hypnosis Guide Cards, 2 November (2)](https://claude.ai/artifact/DsWJ3E4voqJPNZscZXGMHG)** (C-141, C-384): put them in with a script
+   that records each card's fate (`fix-20261102/apply_answers_r1102.py` is the model; the edits are in
+   `fix-20261102/w1102fix/REVIEW-W1102.json`), then the comparison gate. C-672 (his forgiveness quote) failed the
+   owner-delivery gate's preservation review (`w1102fix/gate/GATE.md`): its next try keeps his "I'm", "our whole life",
+   "forever" and "But", breaks only the matched "not going to ... not going to" frame, and goes through Pangram (its
+   section and the whole) and the gate again.
+1. **The stretches still flagged** (APPLIED-W1102F.json's fates; E304: act on what reads AI in two whole checks): the
+   introduction's list of minds (block 11) and prompt engineering sentence (16), the line after his teleprompter sentence
+   (20), the end of If you sense you are being influenced (216; F-216 read Human in its section and its seatbelt line
+   AI (High) in the whole), the last line of Before you begin (251), the sober induction's directions (253), Pattern 10's
+   opening (527, 528) and the end of Inner child love (626). Each one fix at a time, its lineage's next try, and E324:
+   revert at once what makes its section worse; a run of short sentences of one shape is a list; a joke-shaped closer is
+   a closer. The section lineages HG1101-NN take more checks after a fix (28a, `--after-fix`).
+2. **The whole guide again** when those are done: the halves' lineages HG1102-whole-A and -B have used both tries, so cut
+   it differently (thirds, a new lineage each) or check it on a Substack draft (E277).
+3. **Then his post**, the same way as on 2 November (`fix-20261102/live/`), with the date in the subtitle (E323).
+
+## Earlier next step (2026-11-02, after Joel's message of 18:16 UTC: his cards in, the whole guide checked, the guide live in his post)
 
 Done (STATUS.md's entry for 2026-11-02 18:16 has every file and number). The guide: HUMANIZED-SO-FAR.md a789009c (772
 blocks), and the same words in his post (post 202810155, https://ibogaqueen.substack.com/p/guide-to-self-hypnosis-and-app-including).

@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-11-02, after your message of 18:16 UTC.
-**Open questions: 2** (28, 29). **For you to do**: nothing on this page; your other Pangram account if you'd like its history read too. The questions are at the top, with their
+Last updated 2026-11-02, after your message of 19:11 UTC.
+**Open questions: 0.** **For you to do**: mark [Hypnosis Guide Cards, 2 November (2)](https://claude.ai/artifact/DsWJ3E4voqJPNZscZXGMHG) (2 cards). The questions are at the top, with their
 options and my default; under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠
 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -10,33 +10,46 @@ read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 29. Your post's subtitle still says "Last update: Sept 16, 2026, v. 6.1". Change it?** The guide in your post
-behind hypnosis.u-dont-exist.com is the new one now, about 31,500 words where the old one had about 19,700, and I left
-the title and subtitle as they were.
-
-- a) Yes, my default: "Last update: Nov 2, 2026, v. 7.0" in place of "Last update: Sept 16, 2026, v. 6.1", the rest of
-  the subtitle as it is. I'd make it in the post's settings and read it back from the public post.
-- b) Leave it as it is.
-- c) Your own wording.
-
-**🟣 28. May a section be checked a third time, to see a fix in place?** Each section gets two checks by itself, and
-then a fix can only be checked with the paragraph next to it. That isn't the same test: your opening of Don't rush the
-repair read Human (High) by itself and Human (Low) in its section, and the script in Make the hypnosis more alert read
-Human for you by itself and AI (High) in its section. So two of today's cards (W-92b and W-283b) are checked with their
-neighbours, and their sections can't be checked again with the fix in.
-
-- a) Yes, my default: one more check of the whole section after each fix, each with my prediction written first.
-- b) No: fixes are checked with the paragraph next to them, as now, and the whole-guide check on the Substack drafts
-  reads them in place at the end.
-- c) Something else.
-
 **🔵 On hold: the 83 cards of [the 27 October editor page](https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) you hadn't marked** (questions 21 to 23). The guide has
 changed under them, so the rechecks decide; you don't need to mark them.
 
 ## For you to do
 
+- 🟠 Mark [Hypnosis Guide Cards, 2 November (2)](https://claude.ai/artifact/DsWJ3E4voqJPNZscZXGMHG) ([the cards as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/w1102fix/REVIEW-W1102.md)):
+  both put your inner child guide's lines back as you wrote them (C-141 in Working with your guards, C-384 in It feels
+  fake). Each was checked in Pangram in its section and in the whole guide first.
 - 🟠 If you'd like your other Pangram account's history read too, sign into it in the app's browser, the way you did
   this one. I read it the same way and add what it teaches.
+
+## Your message of 2026-11-02 19:11 UTC, and what I did
+
+- 🟢 **29a, done.** Your post's subtitle now says "Last update: Nov 2, 2026, v. 7.0", read back from the public post.
+  Your rule, that the date changes whenever I update a post, now holds for every post (gate E323). So your community
+  post's title, which still said "Updated: Nov 1 2026" though I changed the post today, now says "Updated: Nov 2 2026".
+  Nothing else in either post changed ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/live/DATES-20261102.json)).
+- 🟢 **28a, in use.** Each section gets one more check after a fix, with my prediction written first.
+- 🟢 **The stretches: yes, there were some, and this round fixed part of them.** In the whole guide, 12 short stretches
+  read AI and 20 Human (Low), though every section had read Human by itself. Here's what happened when I fixed them and
+  checked again ([every check, with its link](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/w1102fix/RESULTS.md)):
+  - Fixed in your guide, Human in their sections and not flagged in the whole: the "legit influence" line, now said
+    as things you do ([check](https://www.pangram.com/history/0bd6d03b-0e25-47b0-abf3-9e93feaa761e)), and a summing-up
+    sentence of mine cut in Working with your guards ([check](https://www.pangram.com/history/92f3037b-036a-4dea-b660-c60fb6d6231c)).
+  - On your new cards page: your inner child guide's own lines put back in two places, where this guide had shortened
+    them. A change to your forgiveness quote, which read AI (High) in the whole
+    ([check](https://www.pangram.com/history/aa3f74c7-cc59-40dd-b6e9-fcc0d3cc2b06)), read Human in its section and in the
+    whole, but one of the three reviewers that check my suggestions to your words failed it: it dropped your "whole
+    life", made your "I'm" a "We're" and lost your "But" ([why](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/w1102fix/gate/GATE.md)). So it
+    isn't on the page; the next try keeps those.
+  - Six of my fixes made their sections read worse, two of them [AI Detected](https://www.pangram.com/history/1c316dee-a9c1-42ba-95f4-c21a9cb17a1f),
+    so I took them out again. Splitting a list into short sentences of the same shape read AI, and so did a closer
+    turned into a joke. Your inner child guide's "No warmth today?" line read AI (High) in Inner child love, so I didn't
+    put it on a card ([check](https://www.pangram.com/history/f44db6b6-054d-4f22-abf0-516e236708e6)).
+  - Still to fix: the introduction's list of minds, the line after your teleprompter sentence, the end of If you sense
+    you are being influenced, the last line of Before you begin, the sober induction's directions, Pattern 10's opening
+    and the end of Inner child love. The two halves, checked with every fix in, the failed ones too, read
+    [Mostly Human Written, 1.8% AI](https://www.pangram.com/history/4f9f2703-fa7c-49cb-84d8-8b739ee3fe72) and
+    [Mostly Human Written, 1.1% AI](https://www.pangram.com/history/8fbefde8-9028-45bd-9dae-693ffa56092e). The guide
+    now has only the fixes that read Human.
 
 ## Your message of 2026-11-02 18:16 UTC, and what I did
 

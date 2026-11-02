@@ -1,5 +1,20 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-02, after Joel's message of 19:11 UTC: the lightest fix tried on one section; question 1
+
+His message was about the hypnosis guide (28a, 29a); this lane's next step went on. **Part 1, C to E**
+(`fix-20261102/s04/rewrite_s04.py`, CANDIDATE.md, SECTION.txt): the template labels off ("The Problem:", "The Fix:", "The
+Hardening:"), the self-answered question made a statement, the closer "The engine is flooded." folded in, short sentences
+joined; his own sentences kept where mine failed the linter (the side effects, the hot and cold showers). fidelity_keys.py:
+PASS. tells_lint with his text as owner: REVIEW. Checked through the API with a public link (batch n1102r, lineage
+ND1102-04 try 2 of 2, called AI at 0.25, right): [AI Detected, 90.6% AI](https://www.pangram.com/history/8a5c6453-c6f1-4ab3-b713-51e54e3550f2)
+from 100%; only the SSRIs paragraph reads Human (Low, Medium, Low). So the template is not the main tell: question 1 on
+`OWNER-QUESTIONS.md` asks how freely the science sections may be rewritten (default a: freely in his voice, every claim,
+number and warning kept, nothing invented, one card per section). Gate E323 for this post: its title's "v5.1 (Sept 10,
+2026)" changes with the post.
+
+Predictions: n1102r 1 of 1. Delegations (model, piece, check, outcome): none.
+
 ## 2026-11-02, after Joel's message of 18:16 UTC: the lane set up; the baseline checked
 
 His message (`articles/inner-signal/humanize/fix-20261102/joel-20261102-1816-message.txt`): "... then we can start on the

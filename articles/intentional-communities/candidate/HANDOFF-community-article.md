@@ -11,6 +11,7 @@ From an account with Desktop Commander connected to the laptop, the laptop copy 
 
 ## START HERE
 
+- **2026-11-02, after Joel's message of 19:11 UTC (his answer 29a on the hypnosis guide's questions page: "you can always update that date when updating a post of course")**: the post's title now says "Updated: Nov 2 2026" (`articles/inner-signal/humanize/fix-20261102/live/record_dates.py`, DATES-20261102.json). From now on, every change to his post changes that date in the same editor session (gate E323). Nothing else is waiting in this lane.
 **2026-11-02, after Joel's answers of 16:43 UTC** (sent with the hypnosis guide's, no text;
 `fullread-20261030/review/joel-20261101-2026/sections/review/ANSWERS-20261102-0029.json`): W-1, W-3, W-4 and W-6 approved,
 his own versions of W-2 and W-5. **Done:** the six edits (`apply_ic1101.py`, SUBSTACK-EDITS-IC1101.json: his straight

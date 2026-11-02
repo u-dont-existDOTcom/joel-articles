@@ -1,0 +1,13 @@
+[
+ {
+  "key": "n1102r-04",
+  "name": "Part 1, C to E, rewritten (rewrite_s04.py)",
+  "lineage": "ND1102-04",
+  "scope": "section",
+  "words": 472,
+  "call": "AI",
+  "chance": 0.25,
+  "why": "the template labels gone and the self-answered question a statement, but dense claim-by-claim prose remains",
+  "sha256": "c54a0f0d145184be95663a8a5bd4e330278a1b73e23a34df9b8ef306acf44a81"
+ }
+]
