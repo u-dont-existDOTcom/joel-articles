@@ -2708,6 +2708,84 @@
    ],
    "rule": "O52",
    "example": "What does love require next? A task, a boundary, a meal, some rest, a repair, a conversation?"
+  },
+  {
+   "id": "W105",
+   "tell": "\"won't mind\" as a closer (\"A good therapist or helpline won't mind.\"), cut from his texts in his Pangram history",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/inner-signal/humanize/fix-20261102/joel-pangram/history/HISTORY-LEARNING.md",
+     "quote": "A good therapist or helpline won't mind."
+    }
+   ],
+   "rule": "O53",
+   "example": "Ask them about it at the start. A good therapist or helpline won’t mind."
+  },
+  {
+   "id": "W106",
+   "tell": "the signpost \"One more thing about…\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/inner-signal/humanize/fix-20261102/joel-pangram/history/HISTORY-LEARNING.md",
+     "quote": "One more thing about telling whether it helped."
+    }
+   ],
+   "rule": "O54",
+   "example": "One more thing about telling whether it helped. Say you slept better that week."
+  },
+  {
+   "id": "W107",
+   "tell": "\"And that's not good because…\", an explanation in its own sentence",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/inner-signal/humanize/fix-20261102/joel-pangram/history/HISTORY-LEARNING.md",
+     "quote": "And that's not good because your inner child will get humiliated that it isn't good at it."
+    }
+   ],
+   "rule": "O55",
+   "example": "You keep doing it. And that’s not good because your inner child will get humiliated that it isn’t good at it."
+  },
+  {
+   "id": "W108",
+   "tell": "\"a last resort\", a rule that sums up",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/inner-signal/humanize/fix-20261102/joel-pangram/history/HISTORY-LEARNING.md",
+     "quote": "A full break from your little one is a last resort, unless something's actually unsafe."
+    }
+   ],
+   "rule": "O56",
+   "example": "A full break from your little one is a last resort, unless something’s actually unsafe."
+  },
+  {
+   "id": "W109",
+   "tell": "the concession \"though it's often\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/inner-signal/humanize/fix-20261102/joel-pangram/history/HISTORY-LEARNING.md",
+     "quote": "\"though it's often\" became \"and of course that's\""
+    }
+   ],
+   "rule": "O57",
+   "example": "Use a fake name if you like, though it’s often traceable anyway."
+  },
+  {
+   "id": "W110",
+   "tell": "\"can feel a lot like\", a portable aside",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/inner-signal/humanize/fix-20261102/joel-pangram/history/HISTORY-LEARNING.md",
+     "quote": "which can feel a lot like doing it (this article included)"
+    }
+   ],
+   "rule": "O58",
+   "example": "Sometimes those weeks were mostly reading about it and getting ready, which can feel a lot like doing it."
   }
  ]
 }

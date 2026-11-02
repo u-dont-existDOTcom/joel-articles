@@ -1,5 +1,48 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-11-02, after Joel's message of 18:16 UTC: his three cards in; the whole guide checked; the guide live in his post; his Pangram history read
+
+His message (`fix-20261102/joel-20261102-1816-message.txt`): "i signed back into one of my pangrams if you want to learn
+from that history, then i can sign into the other one to learn from that one. so are we done now can you update the
+hypnosis article? hypnosis.u-dont-exist.com then we can start on the next one we had queued", with his answers to
+Hypnosis Guide Cards, 2 November (`fix-20261102/ANSWERS-20261102-1816.json`: all three approved, no comments). **The
+mailbox first** (`state/MAILBOX.json`, "2026-11-02 18:16"): nothing new.
+
+**His cards, in** (`fix-20261102/apply_answers_r1102.py`, APPLIED-R1102.json): W-92b, W-283b and R-638 as shown; the
+guide 80b2e475 to a789009c (773 to 772 blocks); read in place (`answers-r1102/read/`); comparison gate PASS.
+
+**The whole guide, checked in two halves** (E307; `fix-20261102/whole/make_whole.py`, batch w1102, lineages
+HG1102-whole-A and -B, the cut at "The 15-minute daily practice"; through the API on the laptop with public links):
+A [Mostly Human Written, 1.4% AI](https://www.pangram.com/history/25bc4954-3ece-40f7-98c5-75fd5444f6e1), B
+[Human Written, 0.4% AI](https://www.pangram.com/history/aa3f74c7-cc59-40dd-b6e9-fcc0d3cc2b06) (RESULTS.md). Both
+predictions (a fully Human result, 0.55) missed, each explained in the ledger: 12 AI windows (2 AI (High): the sober
+induction's opening and his W-685 forgiveness quote) and 20 Human (Low) in context, where each section had read Human by
+itself (E319). Among them our C1 fix of this morning ("So before you decide where it's coming from, ask it."
+and its two questions), which read Human in its section.
+
+**The guide, live in his post** (his request; `fix-20261102/live/`): substack_merge.py put a789009c into the post's
+editor copy of 28 September (ARCHIVAL-20261102.html, MERGE-REPORT.json PASS; the merge now keeps a rule left inside a
+segment, before the block after it: his N-238 rename had left one), and the post's editor took it in one transaction
+with the post's own six native blocks; Update, then "Update now". The public post, read without signing in from the
+laptop (POST-AFTER.json), matches the guide word for word but for the native blocks' own text
+(`record_live.py`, LIVE-CHECK-20261102.json: guide 31,503 words, post 31,452). A slip, recorded: the first try used the
+editor's paste with the transaction held, to read the parse; Substack's paste handler applied it anyway, so the draft
+held the guide twice from 18:29:35 to 18:31:20 UTC (never published). Never paste into a live post's editor; parse with
+the editor's own schema and dispatch one transaction. Title and subtitle unchanged (question 29: the subtitle still says
+"Last update: Sept 16, 2026, v. 6.1").
+
+**His Pangram history, read at his invitation** (the account he signed back into, in the app's browser;
+`fix-20261102/joel-pangram/history/`): 2,681 checks; 22 edits of 16 texts from AI to Human Written (FLIPS.json,
+HISTORY-LEARNING.md, every pair linked; the links are private to his account, E322). Lessons E321 and E322; tells_lint.py's
+O53 to O58 (registry W105 to W110), each phrase checked absent from his original guide and his inner child guide first
+("can feel like" without "a lot" is in both, so O58 needs it; "I'm not saying" is in both articles, so it isn't a rule).
+
+**Next**: the w1102 windows round (HANDOFF's Next step); question 28 and 29 wait on him. The next article in his queue,
+neuro de-armoring, started in its own lane (`articles/neuro-de-armoring/`).
+
+Predictions: w1102 0 of 2 (both read Human overall, not fully). Delegations (model, piece, check, outcome): none; the live update and the
+history read were judgment interleaved with checks in the browser.
+
 ## 2026-11-02, after Joel's answers of 16:43 UTC: his answers in; the changed sections checked; three tested cards
 
 His message had no text, only his two answers files (`fix-20261102/joel-20261102-1643-message.txt`; the guide's answers

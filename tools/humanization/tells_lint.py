@@ -888,6 +888,20 @@ EVAL_IN_SOURCE = re.compile(r"\bI\s+(?:\w+\s+){0,2}(?:like|love|admire|appreciat
 # O52: three or more things in a row, each with its own small word ("a task, a boundary, a meal"), the run ending the question
 NOUN_RUN = re.compile(r"(?:\b(?:a|an|the|some|your|any)\s+[a-z]+(?:\s+[a-z]+)?\s*,\s*){2,}(?:(?:or|and)\s+)?"
                       r"\b(?:a|an|the|some|your|any)\s+[a-z]+(?:\s+[a-z]+)?\s*\?", re.I)
+# O53 to O58: phrases Joel cut in his Pangram history (fix-20261102/joel-pangram/history/HISTORY-LEARNING.md): the rule, the
+# pattern (straight quotes), what it is, and what he did instead.
+HISTORY_CUTS = [
+    ('O53', r"\bwon't mind\b", '"won\'t mind" ("A good therapist or helpline won\'t mind.")',
+     'say the plain thing, the way he did ("That\'s a normal and expected question."), or take it out'),
+    ('O54', r"\bone more thing\b", '"One more thing about…"', 'start with the thing itself, the way he did ("Let\'s say…")'),
+    ('O55', r"\bthat's not good because\b", '"And that\'s not good because…"',
+     'fold it into its sentence, the way he did ("…it, which is humiliating.")'),
+    ('O56', r"\ba last resort\b", '"a last resort" ("A full break from your little one is a last resort, unless…")',
+     'say when it applies, or take it out (he cut it)'),
+    ('O57', r"\bthough it's often\b", '"though it\'s often"', 'say it the way he did ("and of course that\'s")'),
+    ('O58', r"\bcan feel a lot like\b", '"can feel a lot like" ("which can feel a lot like doing it")',
+     'say what actually happened, the way he did ("the strategy was not actually implemented, just read")'),
+]
 PASSIVE = re.compile(r"\b(?:am|is|are|was|were|be|been|being|get|gets|got|gotten|getting)\s+(?:\w+ly\s+)?(?:being\s+)?"
                      r"(?:\w+ed|told|given|taken|made|done|seen|known|shown|held|kept|left|lost|found|brought|bought|caught|"
                      r"taught|thought|sold|built|sent|spent|put|set|led|said|paid|meant|felt|heard|written|driven|hidden|"
@@ -1128,6 +1142,13 @@ def main():
             if n.rstrip().endswith('?') and NOUN_RUN.search(n):
                 flag('FAIL', 'O52 a list of things asked as one question (Joel 2026-11-02: "and then a listicle"): ask each as its '
                      'own question, the way he fixed it ("Is there a task I\'m ignoring? Or a boundary I need to set?")', s)
+            # O53 to O58 (Joel's Pangram history, read 2026-11-02 at his invitation, 18:16 UTC: "i signed back into one of my
+            # pangrams if you want to learn from that history"): phrases he cut from texts that read AI, after which they read Human
+            # Written (articles/inner-signal/humanize/fix-20261102/joel-pangram/history/HISTORY-LEARNING.md). None of them is in
+            # his original guide or his inner child guide; "can feel like" without "a lot" is, so O58 needs "a lot".
+            for rid, rx, what, fix in HISTORY_CUTS:
+                if re.search(rx, n, re.I):
+                    flag('FAIL', '%s %s (Joel cut it in his Pangram history, and the text read Human Written): %s' % (rid, what, fix), s)
             # O44 (Joel, 2026-10-21 17:56, on the hypnosis guide's return steps, where "one honest action" among what you go back to
             # had read AI in every wording of his: "especially "ONE HONEST ACTION" sounds super ai. i never heard a real person say
             # that in my life.").

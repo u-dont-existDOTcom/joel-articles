@@ -1,0 +1,26 @@
+[
+ {
+  "key": "w1102-A",
+  "lineage": "HG1102-whole-A",
+  "scope": "stretch",
+  "chars": 87583,
+  "words": 15890,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "every section of this half read Human by itself in its last check, but for the Human (Low) windows kept; a half reads them in context",
+  "sha256": "1a8ebd7c673c1064a8be819c2929f1637152505963a39f5c7db7e5ef32132e86",
+  "guide_sha256": "a789009c3777ede488fa8b3fce233874d42e88acc6f7adee186eb571eb2d0e00"
+ },
+ {
+  "key": "w1102-B",
+  "lineage": "HG1102-whole-B",
+  "scope": "stretch",
+  "chars": 87186,
+  "words": 15578,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "every section of this half read Human by itself in its last check, but for the Human (Low) windows kept; a half reads them in context",
+  "sha256": "a0329f6ace84a6862e7e8747a1859bcaeeb1013ffd9d717b49e293de192559aa",
+  "guide_sha256": "a789009c3777ede488fa8b3fce233874d42e88acc6f7adee186eb571eb2d0e00"
+ }
+]

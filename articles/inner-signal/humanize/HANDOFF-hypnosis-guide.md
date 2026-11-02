@@ -18,6 +18,14 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-11-02, after Joel's message of 18:16 UTC ("so are we done now can you update the hypnosis article?
+  hypnosis.u-dont-exist.com then we can start on the next one we had queued"): the guide is live in his post.** His
+  three cards in (`fix-20261102/apply_answers_r1102.py`; guide a789009c, 772 blocks); the whole guide checked in two
+  halves (`fix-20261102/whole/`: 1.4% and 0.4% AI, 12 AI and 20 Human (Low) windows in context); the guide put into his
+  post through its editor and read back from the public post word for word (`fix-20261102/live/`, LIVE-CHECK-20261102.json;
+  how, and the paste slip not to repeat, in STATUS.md). His Pangram history read (`fix-20261102/joel-pangram/history/`):
+  lessons E321 and E322, tells_lint.py's O53 to O58. Questions 28 and 29 (the subtitle) wait on him. The next article in
+  his queue, neuro de-armoring, has its own lane and handoff (`articles/neuro-de-armoring/`). See the Next step.
 - **2026-11-02, after Joel's answers of 16:43 UTC (both cards pages, no text; `fix-20261102/`): his answers are in, every
   changed section checked by itself, and three tested cards are on [Hypnosis Guide Cards, 2 November](https://claude.ai/artifact/AzBJ2kkPievVk18n4x6Tmv).**
   His 16 versions and 8 approved cards in (`apply_answers_s1101.py`, APPLIED-S1101.json, every fate and the ten typos;
@@ -286,7 +294,29 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-11-02, after Joel's answers of 16:43 UTC: his answers in, the changed sections checked, three tested cards)
+## Next step (2026-11-02, after Joel's message of 18:16 UTC: his cards in, the whole guide checked, the guide live in his post)
+
+Done (STATUS.md's entry for 2026-11-02 18:16 has every file and number). The guide: HUMANIZED-SO-FAR.md a789009c (772
+blocks), and the same words in his post (post 202810155, https://ibogaqueen.substack.com/p/guide-to-self-hypnosis-and-app-including).
+
+Next:
+0. **The w1102 windows** (`fix-20261102/whole/RESULTS.md`; E306: fix every AI and Human (Low) window): sort each by
+   whose words it is (his published version, his inner child guide, his answers and Pangram texts, or ours; as in
+   `compare_read.py collect`). Ours: fix in place with E321's order first (a specific example, cut the closer, cut the
+   summing up, fold the explanation in, join the short sentences), lint, and check each fix with its neighbours (E319)
+   before it counts. His: a card each, every suggestion checked first, with the reading and the check linked
+   (`suggestion_review.py` 1.5). His W-685 forgiveness quote read Human (High) for him by itself: a card says so and
+   offers his own choice.
+1. **Then his post again**, the same way as today (`fix-20261102/live/`): substack_merge.py into the latest editor copy
+   (take it from the post's editor first, and compare its native blocks), one transaction with the editor's own schema
+   (never the paste), Update, "Update now", and the read-back from the public post (`record_live.py`).
+2. **Questions 28 and 29**: if 29 is a), change the subtitle in the post's settings and read it back.
+3. **His other Pangram account**: if he signs into it in the app's browser, read its history the same way
+   (`fix-20261102/joel-pangram/history/`: pairs from AI to Human Written within four checks) and add what it teaches.
+4. **How checks run now**: through the API on the laptop with `--public`, as below; his history pages are read in the app's
+   browser only when he has signed in there himself.
+
+## Earlier next step (2026-11-02, after Joel's answers of 16:43 UTC: his answers in, the changed sections checked, three tested cards)
 
 Done (STATUS.md's entry for 2026-11-02 has every file and number). The guide: HUMANIZED-SO-FAR.md 80b2e475 (773 blocks).
 
@@ -1543,4 +1573,4 @@ published). Nothing is left to run until he answers.
 5. **To reinstall a section**: `tools/install_fixed.py install` replaces published blocks, so a section that is already in
    the article is reinstalled by rebuilding the article from `source/published-20260928.md` with every `fixed` file in
    `fix-20261018/installed.json` (462g: HG36; the rebuild with the old list reproduced the article exactly).
-6. Keep `STATUS.md`, this note, the laptop copy and the scorecard page current after every batch.
+6. Keep [STATUS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/STATUS.md), this note, the laptop copy and the scorecard page current after every batch.

@@ -1,0 +1,63 @@
+{
+ "about": "What was done, in the app's browser (his Substack, signed in), the post's editor: - The live post's words were first compared with the editor copy of 28 September (source/substack-editor-20260928.html):   the same text blocks but for two embed cards' own text, so he hadn't changed the prose since; but one image (the one   at the top, fdb94728) was gone from the live post. - substack_merge.py put the guide (HUMANIZED-SO-FAR.md a789009c) into that editor copy (ARCHIVAL-20261102.html,   MERGE-REPORT.json: 31,417 words equal to the guide's, 43 links, 8 native objects byte for byte). - A first try pasted it through the editor's paste (view.pasteHTML, with view.dispatch held), meant to read the parse   without applying it; Substack's own paste handler applied it anyway, asynchronously, at the top of the draft, so the   draft held the guide twice for about two minutes (saved 18:29:35 UTC, never published). - Then one transaction replaced the whole document: the archival HTML parsed with the editor's own schema, the top   image he had removed left out, and the post's own six native blocks (Subscribe, Share, the YouTube video, the two   post embeds, the image) carried over as they were in the editor. Its text blocks were checked equal to the archival   HTML's, the guide appeared once, and the draft saved (18:31:20 UTC). Update, then \"Update now\", settings untouched. - The public post, read through Substack's API from the laptop without signing in (POST-AFTER.json), is compared here   with the guide's text, word for word.",
+ "url": "https://ibogaqueen.substack.com/p/guide-to-self-hypnosis-and-app-including",
+ "post_id": 202810155,
+ "title": "Inner Signal Guide to Self-Hypnosis (& APP), including Reparenting, Conscious-Subconscious Spiritual Communion",
+ "subtitle": "You won't find a hypnosis guide like this anywhere. Last update: Sept 16, 2026, v. 6.1",
+ "audience": "everyone",
+ "post_date": "2026-06-24T14:39:28.546Z",
+ "before": {
+  "body_html_sha256": "e9d67526017167f22545a64d1636afcfc6347ef3b32999efbf57bf2884e7cdae",
+  "words": 19656
+ },
+ "after": {
+  "body_html_sha256": "f014f7b80735120c97cc2065808afcdc7ae13d7dff71bbc2d65116bc8d842ac5",
+  "words": 31452
+ },
+ "editor_doc_sha256": {
+  "with the guide twice (never published)": "a8941fc43ae8df842976806eb71e959c84467aa09ebb81825d5fe3e9cb89c1b9",
+  "published": "3b8ec9f3046a70b629b1da8eca9fbbb946e44411198148feb2431f66f1f11735"
+ },
+ "guide": {
+  "file": "articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "a789009c3777ede488fa8b3fce233874d42e88acc6f7adee186eb571eb2d0e00",
+  "words": 31503
+ },
+ "differences": [
+  {
+   "op": "delete",
+   "guide": "image 1",
+   "live": ""
+  },
+  {
+   "op": "delete",
+   "guide": "Double click to interact with video",
+   "live": ""
+  },
+  {
+   "op": "delete",
+   "guide": "image 2",
+   "live": ""
+  },
+  {
+   "op": "delete",
+   "guide": "image 3 Try this 10-Second Sky Hypnosis Body Mind Hack Copy link",
+   "live": ""
+  },
+  {
+   "op": "replace",
+   "guide": "suggestions",
+   "live": "suggestion s"
+  },
+  {
+   "op": "delete",
+   "guide": "image 4",
+   "live": ""
+  },
+  {
+   "op": "delete",
+   "guide": "Psychedelics Trip-Sitting Medical Triage Shadow Work Therapy v 5 3 updated July 19 2026 u-dont-exist com 25 août 2025image 5 Quick Triage Web-App Version HERE Read full story",
+   "live": ""
+  }
+ ]
+}

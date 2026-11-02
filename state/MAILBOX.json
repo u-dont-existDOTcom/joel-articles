@@ -73,6 +73,37 @@
    ],
    "items": [],
    "recorded_utc": "2026-11-02T16:47Z"
+  },
+  {
+   "turn": "2026-11-02T18:16Z",
+   "lines_of_work": [
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (the lane holds 2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); the live AGENTS.md (blob 5160080) adds 'say each thing once' and LESSON-INDEX 84 one combined pull request, both followed"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 267 merged by Joel at 2026-11-02 18:14 UTC; no new issues, comments or reviews since 16:40 UTC (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to either handoff note or questions page since this session's last turn (the last commits, d2be7831 and c4b63802, are this session's)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-02T18:18Z"
   }
  ]
 }
