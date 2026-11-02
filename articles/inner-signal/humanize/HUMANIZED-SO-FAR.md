@@ -120,9 +120,9 @@ I use the expression ‘syncing the hemispheres’ but don’t want to overinter
 
 Let’s elicit a high level of co-operation between the verbal, the analytical, the imaginal, the emotional, the somatic, the intuitive, the relational, the spiritual … all the modes of your mind. It’s not an electoral process. Nobody needs to win!
 
-The mind of love and the mind of analysis can both be there, so you can be warm and clear-headed at once. The mind of intuition and the mind of rationality can both be there - intuitive signals without dogma, and testing of those signals without killing them. The body can have a voice - saying yes or no or not yet. The imagination can open up the field, and then the adult can choose what to do next in the real world. You can be at peace and still be precise.
+The mind of love and the mind of analysis can both be there, so you can be warm and clear-headed at once. The mind of intuition and the mind of rationality can both be there - intuitive signals without dogma, and testing of those signals without killing them. Your body has its own yes and no, and sometimes a not yet. Your imagination can open things up before the adult in you decides what to do in real life.
 
-Without the mind of love, the mind of analysis can be sterile. Without the mind of analysis, the mind of love can lead to fantasy. Without testing, intuitive signals can become delusions. Without intuitive signals, the testing can be dead. So these modes can correct each other.
+Analysis with no love in it gets sterile, and love that never stops to analyze anything drifts off into fantasy. The same goes for intuition and testing: signals you never test can turn into delusions, and testing with nothing intuitive to test is dead.
 
 And all of this has got to lead somewhere, to a point where you notice you’re behaving more kindly, you’ve got more humility and better judgment than you had, you’re doing real service, or your ordinary life has gotten more workable.
 
@@ -430,7 +430,7 @@ If you are unsure, you may like to ask yourself the following questions:
 
 What are they asking me to agree to? What choice are they giving me? What are they assuming that I may not agree with? Who benefits if I comply? What is the emotionally charged part of what they’re saying? What are they leaving out? If I say no, what will the consequences be? (Will they punish me, shame me, laugh at me, leave me out, tell me I’m not ‘awake’ etc?)
 
-Anyone worth following leaves your adult self more present. The more powerful the state you’re in, the stronger the boundaries you’ll need.
+And afterwards: do I come away from them more present and grown up, or less? Be extra careful with all this when you’re in a deep or powerful state, because that’s when you need your boundaries most.
 
 ## Soft language can still take away choice
 
@@ -720,7 +720,7 @@ Allow your analytical part to make comments and/or tell you that it doesn’t li
 
 # The 15-minute daily practice
 
-There is no need to learn a second script. The process is the same: gather your attention, notice what is here, respond, wait, and come all the way back. You are simply practicing for fifteen minutes or so. That is long enough to induce yourself (it only takes a few minutes), practice and let it unfold at its own pace, and come out again (that takes a few minutes too). Fifteen minutes is just a handy appointment with yourself, though, and your feelings don't have to keep to it. Five minutes is plenty to see what happens when you simply sit in silence, listening, and you can interrupt yourself at any time to change direction if that feels better.
+You don't need to learn a second script for this. It's the same process (gather your attention, notice what's here, respond, wait, and come all the way back), just for fifteen minutes or so. That is long enough to induce yourself (it only takes a few minutes), practice and let it unfold at its own pace, and come out again (that takes a few minutes too). Fifteen minutes is just a handy appointment with yourself, though, and your feelings don't have to keep to it. Five minutes is plenty to see what happens when you simply sit in silence, listening, and you can interrupt yourself at any time to change direction if that feels better.
 
 You can also try other ways of inducing yourself, such as becoming aware of 3 things you can see, 3 things you can hear, 3 things you can feel in your body; then 2 of each, 1 of each. Then count from 5 to 1 and begin to listen. Choose one way to induce yourself. You don't need to try all of them (in fact, stacking them might be counter-productive).
 
@@ -758,7 +758,7 @@ Remember: not everything in hypnotic imagery is literal, especially if it relate
 
 ## Nothing happens
 
-Don't fret, even for the greatest masters, nothing happens many times. After all, only like 50% of people are very suggestible. But sometimes it's just confusing when you throw everything at yourself at once. Check if there's a way you could try this on a smaller scale, maybe starting with, “Show me whether today is for listening or resting.”
+Don't fret, even for the greatest masters, nothing happens many times. After all, only like 15% of people are very suggestible. But sometimes it's just confusing when you throw everything at yourself at once. Check if there's a way you could try this on a smaller scale, maybe starting with, “Show me whether today is for listening or resting.”
 
 ## It feels fake
 
@@ -1052,9 +1052,9 @@ A nominalization turns something you do into a noun: you heal, and it becomes 'h
 
 ### Pattern 10: Meta Model questions — the de-hypnosis tool
 
-Milton Model language opens things up, and Meta Model questions ask what exactly someone means. If you want to be ethical with people, you need both.
+Milton Model language opens things up, and Meta Model questions ask what exactly someone means.
 
-When something sounds true but vague, ask: "What do you mean, specifically? According to who? Compared to what? Always, or never? What exactly would happen if you did? How do you know that, and what evidence would change your mind?"
+You need both to be ethical with people, so when something sounds true but vague, ask: "What do you mean, specifically? According to who? Compared to what? Always, or never? What exactly would happen if you did? How do you know that, and what evidence would change your mind?"
 
 So when someone is starting to tense up in their body, use the Milton Model to help them soften. And when you feel you're losing track of what's really going on, that's the time for the Meta Model.
 

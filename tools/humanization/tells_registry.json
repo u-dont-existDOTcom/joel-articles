@@ -2786,6 +2786,32 @@
    ],
    "rule": "O58",
    "example": "Sometimes those weeks were mostly reading about it and getting ready, which can feel a lot like doing it."
+  },
+  {
+   "id": "W111",
+   "tell": "\"The same principle extends to…\" / \"The same limit appears…\", a signpost, cut from his texts in his second Pangram account's history",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/inner-signal/humanize/fix-20261102/joel-pangram/history2/HISTORY-LEARNING-2.md",
+     "quote": "\"The same principle extends to…\" and \"The same limit appears…\""
+    }
+   ],
+   "rule": "O59",
+   "example": "The same principle extends to physical trauma reactions after the danger has passed."
+  },
+  {
+   "id": "W112",
+   "tell": "\"not a recipe\" as a closer (\"…not a recipe you have to follow.\"), cut from his texts in his second Pangram account's history",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/inner-signal/humanize/fix-20261102/joel-pangram/history2/HISTORY-LEARNING-2.md",
+     "quote": "\"…not a recipe you have to follow.\" was cut"
+    }
+   ],
+   "rule": "O60",
+   "example": "Take what helps from his retreat, not a recipe you have to follow."
   }
  ]
 }

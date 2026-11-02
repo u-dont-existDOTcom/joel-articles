@@ -74,10 +74,11 @@ class RegistryShape(unittest.TestCase):
         # passive voice) and J68 (one long flow in one sound) from his hypnosis guide cards of 2026-10-30 14:35; W101 to W104
         # (O49 "the next small thing", O50 "still matters", O51 portable phrases, O52 a list asked as one question) from his
         # hypnosis guide cards of 2026-11-02; W105 to W110 (O53 to O58, phrases he cut in his Pangram history) from his history,
-        # read at his invitation on 2026-11-02 18:16 UTC
-        self.assertEqual(len(ids), 178)
+        # read at his invitation on 2026-11-02 18:16 UTC; W111 and W112 (O59 "the same principle extends to", O60 "not a
+        # recipe") from his second account's history, read at his invitation on 2026-11-02 21:59 UTC
+        self.assertEqual(len(ids), 180)
         self.assertEqual(len(set(ids)), len(ids))
-        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 110)
+        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 112)
         for t in TELLS:
             with self.subTest(id=t['id']):
                 self.assertIn(t['kind'], ('mechanical', 'judgment'))

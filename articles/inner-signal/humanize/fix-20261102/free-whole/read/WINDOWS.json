@@ -1,0 +1,542 @@
+{
+ "parts": {
+  "A": {
+   "link": "https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8",
+   "headline": "Mostly Human Written",
+   "fraction_ai": 0.007264752872288227,
+   "words": 18869,
+   "shading": "146 windows: 7 AI (7 Low), 139 Human (64 High, 63 Medium, 12 Low)"
+  },
+  "B": {
+   "link": "https://www.pangram.com/feed/788969af-0de3-43b6-a37c-e28759c7a816",
+   "headline": "Human Written",
+   "fraction_ai": 0.0025762098375707865,
+   "words": 13024,
+   "shading": "35 windows: 1 AI (1 Low), 34 Human (16 High, 14 Medium, 4 Low)"
+  }
+ },
+ "windows": [
+  {
+   "part": "A",
+   "window": 21,
+   "label": "AI",
+   "confidence": "Low",
+   "calibrated": 0.531,
+   "words": 13,
+   "text": "The body can have a voice - saying yes or no or not yet.",
+   "blocks": [
+    61
+   ],
+   "where": [
+    "Forget the left-brain/right-brain cartoon, P3"
+   ],
+   "section": "s1101-11",
+   "section_name": "What to Use Self-Hypnosis For, and What Not To / Forget the left-brain/right-brain cartoon",
+   "whose": [
+    "ours"
+   ],
+   "link": "https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8"
+  },
+  {
+   "part": "A",
+   "window": 22,
+   "label": "AI",
+   "confidence": "Low",
+   "calibrated": 0.531,
+   "words": 30,
+   "text": "The imagination can open up the field, and then the adult can choose what to do next in the real world. You can be at peace and still be precise.",
+   "blocks": [
+    61
+   ],
+   "where": [
+    "Forget the left-brain/right-brain cartoon, P3"
+   ],
+   "section": "s1101-11",
+   "section_name": "What to Use Self-Hypnosis For, and What Not To / Forget the left-brain/right-brain cartoon",
+   "whose": [
+    "ours"
+   ],
+   "link": "https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8"
+  },
+  {
+   "part": "A",
+   "window": 23,
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.531,
+   "words": 12,
+   "text": "Without the mind of love, the mind of analysis can be sterile.",
+   "blocks": [
+    62
+   ],
+   "where": [
+    "Forget the left-brain/right-brain cartoon, P4"
+   ],
+   "section": "s1101-11",
+   "section_name": "What to Use Self-Hypnosis For, and What Not To / Forget the left-brain/right-brain cartoon",
+   "whose": [
+    "ours"
+   ],
+   "link": "https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8"
+  },
+  {
+   "part": "A",
+   "window": 24,
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.812,
+   "words": 13,
+   "text": "Without the mind of analysis, the mind of love can lead to fantasy.",
+   "blocks": [
+    62
+   ],
+   "where": [
+    "Forget the left-brain/right-brain cartoon, P4"
+   ],
+   "section": "s1101-11",
+   "section_name": "What to Use Self-Hypnosis For, and What Not To / Forget the left-brain/right-brain cartoon",
+   "whose": [
+    "ours"
+   ],
+   "link": "https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8"
+  },
+  {
+   "part": "A",
+   "window": 26,
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.879,
+   "words": 7,
+   "text": "So these modes can correct each other.",
+   "blocks": [
+    62
+   ],
+   "where": [
+    "Forget the left-brain/right-brain cartoon, P4"
+   ],
+   "section": "s1101-11",
+   "section_name": "What to Use Self-Hypnosis For, and What Not To / Forget the left-brain/right-brain cartoon",
+   "whose": [
+    "ours"
+   ],
+   "link": "https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8"
+  },
+  {
+   "part": "A",
+   "window": 34,
+   "label": "AI",
+   "confidence": "Low",
+   "calibrated": 0.668,
+   "words": 27,
+   "text": "That’s one grown-up doing three jobs, not three more people moving in to help with the rent, and each job keeps the others in balance.",
+   "blocks": [
+    92
+   ],
+   "where": [
+    "The inner child, the guards, and the inner adult’s three jobs, P2"
+   ],
+   "section": "s1101-15",
+   "section_name": "The inner child, the guards, and the inner adult’s three jobs",
+   "whose": [
+    "his, from his inner child guide"
+   ],
+   "link": "https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8"
+  },
+  {
+   "part": "A",
+   "window": 35,
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.566,
+   "words": 12,
+   "text": "Say a party gets to be too much for your little one.",
+   "blocks": [
+    92
+   ],
+   "where": [
+    "The inner child, the guards, and the inner adult’s three jobs, P2"
+   ],
+   "section": "s1101-15",
+   "section_name": "The inner child, the guards, and the inner adult’s three jobs",
+   "whose": [
+    "his, from his inner child guide"
+   ],
+   "link": "https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8"
+  },
+  {
+   "part": "A",
+   "window": 44,
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.684,
+   "words": 7,
+   "text": "Keep breathing gently through the whole practice.",
+   "blocks": [
+    119
+   ],
+   "where": [
+    "The two-hand practice, P4"
+   ],
+   "section": "s1101-20",
+   "section_name": "Working with your inner child / The two-hand practice",
+   "whose": [
+    "ours"
+   ],
+   "link": "https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8"
+  },
+  {
+   "part": "A",
+   "window": 80,
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.503,
+   "words": 9,
+   "text": "Anyone worth following leaves your adult self more present.",
+   "blocks": [
+    216
+   ],
+   "where": [
+    "If you sense you are being influenced, P6"
+   ],
+   "section": "s1101-33",
+   "section_name": "If you sense you are being influenced",
+   "whose": [
+    "ours"
+   ],
+   "link": "https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8"
+  },
+  {
+   "part": "A",
+   "window": 81,
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.503,
+   "words": 15,
+   "text": "The more powerful the state you’re in, the stronger the boundaries you’ll need.",
+   "blocks": [
+    216
+   ],
+   "where": [
+    "If you sense you are being influenced, P6"
+   ],
+   "section": "s1101-33",
+   "section_name": "If you sense you are being influenced",
+   "whose": [
+    "ours"
+   ],
+   "link": "https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8"
+  },
+  {
+   "part": "A",
+   "window": 95,
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.895,
+   "words": 1,
+   "text": "4.",
+   "blocks": [
+    18
+   ],
+   "where": [
+    "Quick start: do this first, P1"
+   ],
+   "section": "s1101-03",
+   "section_name": "Quick start: do this first",
+   "whose": [
+    "ours"
+   ],
+   "link": "https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8"
+  },
+  {
+   "part": "A",
+   "window": 97,
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.899,
+   "words": 1,
+   "text": "3.",
+   "blocks": [
+    18
+   ],
+   "where": [
+    "Quick start: do this first, P1"
+   ],
+   "section": "s1101-03",
+   "section_name": "Quick start: do this first",
+   "whose": [
+    "ours"
+   ],
+   "link": "https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8"
+  },
+  {
+   "part": "A",
+   "window": 99,
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.879,
+   "words": 1,
+   "text": "2.",
+   "blocks": [
+    18
+   ],
+   "where": [
+    "Quick start: do this first, P1"
+   ],
+   "section": "s1101-03",
+   "section_name": "Quick start: do this first",
+   "whose": [
+    "ours"
+   ],
+   "link": "https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8"
+  },
+  {
+   "part": "A",
+   "window": 101,
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.895,
+   "words": 1,
+   "text": "1.",
+   "blocks": [
+    1
+   ],
+   "where": [
+    "the opening, P2"
+   ],
+   "section": "s1101-01",
+   "section_name": "How to use this very large guide",
+   "whose": [
+    "his, as published"
+   ],
+   "link": "https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8"
+  },
+  {
+   "part": "A",
+   "window": 118,
+   "label": "AI",
+   "confidence": "Low",
+   "calibrated": 0.531,
+   "words": 9,
+   "text": "There is no need to learn a second script.",
+   "blocks": [
+    361
+   ],
+   "where": [
+    "The 15-minute daily practice, P1"
+   ],
+   "section": "s1101-52",
+   "section_name": "The 15-minute daily practice",
+   "whose": [
+    "ours"
+   ],
+   "link": "https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8"
+  },
+  {
+   "part": "A",
+   "window": 119,
+   "label": "AI",
+   "confidence": "Low",
+   "calibrated": 0.879,
+   "words": 20,
+   "text": "The process is the same: gather your attention, notice what is here, respond, wait, and come all the way back.",
+   "blocks": [
+    361
+   ],
+   "where": [
+    "The 15-minute daily practice, P1"
+   ],
+   "section": "s1101-52",
+   "section_name": "The 15-minute daily practice",
+   "whose": [
+    "ours"
+   ],
+   "link": "https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8"
+  },
+  {
+   "part": "A",
+   "window": 120,
+   "label": "AI",
+   "confidence": "Low",
+   "calibrated": 0.566,
+   "words": 9,
+   "text": "You are simply practicing for fifteen minutes or so.",
+   "blocks": [
+    361
+   ],
+   "where": [
+    "The 15-minute daily practice, P1"
+   ],
+   "section": "s1101-52",
+   "section_name": "The 15-minute daily practice",
+   "whose": [
+    "ours"
+   ],
+   "link": "https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8"
+  },
+  {
+   "part": "A",
+   "window": 131,
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.684,
+   "words": 14,
+   "text": "But sometimes it’s just confusing when you throw everything at yourself at once.",
+   "blocks": [
+    380
+   ],
+   "where": [
+    "Nothing happens, P1"
+   ],
+   "section": "s1101-55",
+   "section_name": "Troubleshooting / Nothing happens / It feels fake",
+   "whose": [
+    "his own words (a paragraph he wrote or rewrote)"
+   ],
+   "link": "https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8"
+  },
+  {
+   "part": "A",
+   "window": 132,
+   "label": "AI",
+   "confidence": "Low",
+   "calibrated": 0.713,
+   "words": 32,
+   "text": "Check if there’s a way you could try this on a smaller scale, maybe starting with, “Show me whether today is for listening or resting.” Well, what do you mean “it”...",
+   "blocks": [
+    380,
+    381,
+    382
+   ],
+   "where": [
+    "Nothing happens, P1",
+    "the heading \"It feels fake\"",
+    "It feels fake, P1"
+   ],
+   "section": "s1101-55",
+   "section_name": "Troubleshooting / Nothing happens / It feels fake",
+   "whose": [
+    "his own words (a paragraph he wrote or rewrote)",
+    "his, as published",
+    "his own words (a paragraph he wrote or rewrote)"
+   ],
+   "link": "https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8"
+  },
+  {
+   "part": "B",
+   "window": 7,
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.872,
+   "words": 10,
+   "text": "That doesn’t make the answers any more true, though.",
+   "blocks": [
+    480
+   ],
+   "where": [
+    "Core prompts, P9"
+   ],
+   "section": "s1101-67",
+   "section_name": "Core prompts",
+   "whose": [
+    "his own words (a paragraph he wrote or rewrote)"
+   ],
+   "link": "https://www.pangram.com/feed/788969af-0de3-43b6-a37c-e28759c7a816"
+  },
+  {
+   "part": "B",
+   "window": 12,
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.647,
+   "words": 53,
+   "text": "They’re a bit vague, and sometimes that’s useful, because it lets the listener’s subconscious fill in something very specific for them. “A bit more safety can come to me in whatever way my body understands.” Milton Model language opens things up, and Meta Model questions ask what exactly someone means.",
+   "blocks": [
+    524,
+    525,
+    526,
+    527
+   ],
+   "where": [
+    "Pattern 9: Nominalizations, P1",
+    "Pattern 9: Nominalizations, P2",
+    "the heading \"Pattern 10: Meta Model questions — the de-hypnosis tool\"",
+    "Pattern 10: Meta Model questions — the de-hypnosis tool, P1"
+   ],
+   "section": "s1101-69",
+   "section_name": "The Milton Model, minus the covert sales seminar",
+   "whose": [
+    "ours",
+    "ours",
+    "his, as published",
+    "ours"
+   ],
+   "link": "https://www.pangram.com/feed/788969af-0de3-43b6-a37c-e28759c7a816"
+  },
+  {
+   "part": "B",
+   "window": 13,
+   "label": "AI",
+   "confidence": "Low",
+   "calibrated": 0.531,
+   "words": 32,
+   "text": "If you want to be ethical with people, you need both. When something sounds true but vague, ask: “What do you mean, specifically? According to who? Compared to what? Always, or never?",
+   "blocks": [
+    527,
+    528
+   ],
+   "where": [
+    "Pattern 10: Meta Model questions — the de-hypnosis tool, P1",
+    "Pattern 10: Meta Model questions — the de-hypnosis tool, P2"
+   ],
+   "section": "s1101-69",
+   "section_name": "The Milton Model, minus the covert sales seminar",
+   "whose": [
+    "ours",
+    "ours"
+   ],
+   "link": "https://www.pangram.com/feed/788969af-0de3-43b6-a37c-e28759c7a816"
+  },
+  {
+   "part": "B",
+   "window": 14,
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.503,
+   "words": 7,
+   "text": "What exactly would happen if you did?",
+   "blocks": [
+    528
+   ],
+   "where": [
+    "Pattern 10: Meta Model questions — the de-hypnosis tool, P2"
+   ],
+   "section": "s1101-69",
+   "section_name": "The Milton Model, minus the covert sales seminar",
+   "whose": [
+    "ours"
+   ],
+   "link": "https://www.pangram.com/feed/788969af-0de3-43b6-a37c-e28759c7a816"
+  },
+  {
+   "part": "B",
+   "window": 34,
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.895,
+   "words": 34,
+   "text": "The information on these techniques comes from these sources, but that doesn’t mean they validate every NLP claim, or that every example suits trauma work (Nimja did not write or endorse this guide).",
+   "blocks": [
+    762
+   ],
+   "where": [
+    "Indirect language and re-entry cues, P1"
+   ],
+   "section": "s1101-101",
+   "section_name": "Indirect language and re-entry cues / Body awareness and changing the amount of contact",
+   "whose": [
+    "ours"
+   ],
+   "link": "https://www.pangram.com/feed/788969af-0de3-43b6-a37c-e28759c7a816"
+  }
+ ]
+}

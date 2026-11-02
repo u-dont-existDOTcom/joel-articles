@@ -18,6 +18,12 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-11-02, after Joel's messages of 21:57 UTC (his free check's two result pages, "30a") and 21:59 UTC ("i logged
+  into the other pangram account if you want to read that history"): the check read, 30a in, batch f1102's fixes in,
+  the second free check pasted, his second account read.** Part A 0.73% AI and part B 0.26% AI
+  (`fix-20261102/free-whole/read/WINDOWS.md`). The guide is HUMANIZED-SO-FAR.md 66eb95e7 (six fixes of ours, each Human in
+  its stretch; `fix-20261102/f1102/`). The second free check's links are in `fix-20261102/free-whole-2/RECHECK-POST-A.json`
+  and `-B.json`. Lessons E326 and E327 (`fix-20261102/joel-pangram/history2/`). See the Next step.
 - **2026-11-02, after Joel's message of 20:38 UTC ("how are you cehcking the whole guide? that should be done the free
   way to not waste my pangram credits. which you said requires my help. why did you forget this?"): the whole guide's free
   check is pasted, and the API refuses halves.** On 2 November the lanes had sent 63 checks through the API (about 91,000
@@ -215,13 +221,10 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: **his two Pangram result pages** for the whole guide's free check (the secret links in
-`fix-20261102/free-whole/RECHECK-POST-A.json` and `-B.json`, on `OWNER-QUESTIONS.md` under For you to do: he opens each
-in his browser and runs the Pangram extension), and **question 30** (his "only like 50% of people are very suggestible";
-my default a, "15%", Stanford Medicine 2024). Optional, his: signing in to his other Pangram account in the app's browser
-if he wants its history read (never sign in for him). Earlier: his answers to
-[Hypnosis Guide Cards, 2 November (2)](https://claude.ai/artifact/DsWJ3E4voqJPNZscZXGMHG) came at 2026-11-02 20:38 UTC and are in
-(`fix-20261102/answers-w1102/APPLIED-W1102-ANSWERS.json`).
+The guide: **his two Pangram result pages** for the second free check (the secret links in
+`fix-20261102/free-whole-2/RECHECK-POST-A.json` and `-B.json`, on `OWNER-QUESTIONS.md` under For you to do: he opens each
+in his browser and runs the Pangram extension). No open questions (30 answered: 30a, in). Earlier: his result pages for
+the first free check came at 2026-11-02 21:57 UTC and are read (`fix-20261102/free-whole/read/`).
 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
@@ -308,7 +311,30 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-11-02, after Joel's message of 20:38 UTC: the whole guide's free check pasted; its results wait on him)
+## Next step (2026-11-02, after Joel's messages of 21:57 and 21:59 UTC: the second free check pasted; its results wait on him)
+
+Done (STATUS.md's entry for 21:57 has every file and number). The guide: HUMANIZED-SO-FAR.md 66eb95e7 (772 blocks); his
+post still has a789009c's words.
+
+How checks run: as the earlier next step says (E325): the API only within six paragraphs and 1,200 words; halves and
+whole articles through the two temporary drafts and his extension.
+
+Next:
+0. **His two result pages** for the links in `fix-20261102/free-whole-2/RECHECK-POST-A.json` and `-B.json`: read them as
+   `fix-20261102/free-whole/read/` did (pangram_feed_read.js compact in the app's browser; WINDOWS-A/B.txt and META-A/B.json,
+   each checked against the page's SHA-256; a make_results.py with part B's text RENDERED-B.txt; a read_free1102.py for the
+   windows and whose words), and score HG-whole#271 and HG-rest-B#272.
+1. **His cards page**, with both whole checks' readings on each card: C-92 (his rent line, the c1102-92b wording: "It’s
+   still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in
+   balance.") and C-480 (his Core prompts line joined) through the owner-delivery gate first (three fresh reviewers, as in
+   `fix-20261102/w1102fix/gate/`); his Troubleshooting seam (blocks 380 to 382) and the two stretches of ours that didn't
+   clear (the end of The two-hand practice, blocks 118 and 119; the sources line, block 762) as stretches to edit. Any
+   new window below High in the second check joins them, fixed first where it is ours.
+2. **C-672's next try** (his forgiveness quote): keep his "I'm", "our whole life", "forever" and "But", break only the
+   matched "not going to ... not going to" frame; its stretch through the API, then the gate, then a card.
+3. **Then his post**, the same way as on 2 November (`fix-20261102/live/`), with the date in the subtitle (E323).
+
+## Earlier next step (2026-11-02, after Joel's message of 20:38 UTC: the whole guide's free check pasted; its results wait on him)
 
 Done (STATUS.md's entry for 20:38 has every file and number). The guide: HUMANIZED-SO-FAR.md 28c84e9e (772 blocks), his
 answers to the cards of 2 November (2) in; his post still has a789009c's words.

@@ -1,5 +1,39 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-11-02, after Joel's messages of 21:57 UTC (his free check's result pages, "30a") and 21:59 UTC (his other Pangram account)
+
+His message (`fix-20261102/free-whole/joel-20261102-2157-message.txt`): his two result pages, and "30a"; at 21:59 UTC: "i
+logged into the other pangram account if you want to read that history". **The mailbox first** (`state/MAILBOX.json`,
+"2026-11-02 21:57"): pull request 270 merged by him at 21:56 UTC; nothing else new.
+
+**The free whole check, read** (`fix-20261102/free-whole/read/`: META, WINDOWS-A/B.txt read with pangram_feed_read.js in
+compact mode, each line's SHA-256 the page's; make_results.py, RESULT-A/B.json; read_free1102.py, WINDOWS.md): part A
+Mostly Human Written, 0.73% AI (146 windows: 7 AI, all Low; 139 Human: 64 High, 63 Medium, 12 Low); part B Human Written,
+0.26% AI (35 windows: 1 AI, Low; 34 Human: 16 High, 14 Medium, 4 Low). Predictions HG-whole#258 and HG-rest-B#259 right.
+
+**30a** (`fix-20261102/q30/apply_q30.py`, APPLIED-Q30.json; read record; comparison gate PASS): "only like 15%".
+
+**Batch f1102** (`fix-20261102/f1102/`: fixes_f1102.py, make_f1102.py, API-F1102.jsonl, RESULTS.md, apply_f1102.py,
+APPLIED-F1102.json): nine stretches of at most six paragraphs through the API with public links, all Human Written; in:
+F-61, F-62, F-216, F-361, F-527, F-528 (HUMANIZED-SO-FAR.md a9b7061b to 66eb95e7; comparison gate PASS). F-119 and F-762
+left a Human (Low) window; their second tries (batch f1102b, F-118 and F-762b) read AI Detected and stay out (E324); both
+stretches go on his next page to edit. Cards checked: C-92 (c1102-92b, the rent joke in brackets, one window High) and
+C-480 (joined, High); they go through the owner-delivery gate with the next check's readings. Predictions: f1102 8 of 9
+(the 527 miss explained), f1102b 0 of 2 (explained).
+
+**The second free check** (`fix-20261102/free-whole-2/`: make_recheck.py with DATE 20261102b, payloads at a6fcdf41; both
+drafts cleared through the editor's API, pasted, read back; RECHECK-POST-A/B.json; part A's first 99,999 characters equal
+TEXT-A.txt, part B equals RENDERED-B.txt): predictions HG-whole#271 and HG-rest-B#272 (batch free1102b). The links wait on
+him.
+
+**His second Pangram account** (`fix-20261102/joel-pangram/history2/`: rows_raw.py, its SHA-256 the page's; make_flips2.py,
+FLIPS-2.json, HISTORY-LEARNING-2.md, every pair linked): 2,359 checks; 70 small edits from AI to Human Written. Lessons E326
+(labels and Markdown marks pasted with a text read AI: `.pn` is unselectable in suggestion_review's template,
+render_article_so_far.py and render_in_context.py; test in tests/test_suggestion_review.py) and E327 (headings);
+tells_lint.py O59 and O60 (registry W111, W112).
+
+Delegations: none (the history read and the checks were in the app's browser and on his laptop, judgment between steps).
+
 ## 2026-11-02, after Joel's message of 20:38 UTC: the whole guide checked the free way; the API stops halves; his answers in
 
 His message (`fix-20261102/answers-w1102/joel-20261102-2038-message.txt`): "how are you cehcking the whole guide? that
