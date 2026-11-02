@@ -136,7 +136,7 @@ del{color:var(--mute);text-decoration-thickness:1px;-webkit-user-select:none;use
 .ctx{background:transparent;border:1px dashed var(--line);border-radius:10px;padding:10px 16px;margin:10px 0;color:var(--mute);font-size:15px;overflow-wrap:anywhere}
 .ctx p{margin:.35em 0} .ctx .h{font:600 15px/1.3 system-ui,sans-serif;color:var(--fg)}
 .where{font:13px/1.4 system-ui,sans-serif;color:var(--mute);margin:4px 0 0}
-.pn{font:600 12px/1 system-ui,sans-serif;color:var(--mute);margin-right:4px}
+.pn{font:600 12px/1 system-ui,sans-serif;color:var(--mute);margin-right:4px;-webkit-user-select:none;user-select:none}
 """
 
 

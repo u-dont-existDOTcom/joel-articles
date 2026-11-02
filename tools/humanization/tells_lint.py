@@ -901,6 +901,12 @@ HISTORY_CUTS = [
     ('O57', r"\bthough it's often\b", '"though it\'s often"', 'say it the way he did ("and of course that\'s")'),
     ('O58', r"\bcan feel a lot like\b", '"can feel a lot like" ("which can feel a lot like doing it")',
      'say what actually happened, the way he did ("the strategy was not actually implemented, just read")'),
+    # O59 and O60: his second account, read 2026-11-02 at his invitation (21:59 UTC: "i logged into the other pangram account if
+    # you want to read that history"; fix-20261102/joel-pangram/history2/HISTORY-LEARNING-2.md). "The same goes for" is in his
+    # inner child guide, so O59 names the signpost nouns and verbs he cut, not "the same" alone.
+    ('O59', r"\bthe same (?:principle|limit|logic|rule|idea|pattern) (?:extends|applies|appears|holds)\b",
+     '"The same principle extends to…" ("The same limit appears…")', 'start with the case itself, the way he did ("In…")'),
+    ('O60', r"\bnot a recipe\b", '"not a recipe" ("…not a recipe you have to follow.")', 'take it out, the way he did'),
 ]
 PASSIVE = re.compile(r"\b(?:am|is|are|was|were|be|been|being|get|gets|got|gotten|getting)\s+(?:\w+ly\s+)?(?:being\s+)?"
                      r"(?:\w+ed|told|given|taken|made|done|seen|known|shown|held|kept|left|lost|found|brought|bought|caught|"
@@ -1142,7 +1148,7 @@ def main():
             if n.rstrip().endswith('?') and NOUN_RUN.search(n):
                 flag('FAIL', 'O52 a list of things asked as one question (Joel 2026-11-02: "and then a listicle"): ask each as its '
                      'own question, the way he fixed it ("Is there a task I\'m ignoring? Or a boundary I need to set?")', s)
-            # O53 to O58 (Joel's Pangram history, read 2026-11-02 at his invitation, 18:16 UTC: "i signed back into one of my
+            # O53 to O60 (Joel's Pangram history, read 2026-11-02 at his invitation, 18:16 UTC: "i signed back into one of my
             # pangrams if you want to learn from that history"): phrases he cut from texts that read AI, after which they read Human
             # Written (articles/inner-signal/humanize/fix-20261102/joel-pangram/history/HISTORY-LEARNING.md). None of them is in
             # his original guide or his inner child guide; "can feel like" without "a lot" is, so O58 needs "a lot".

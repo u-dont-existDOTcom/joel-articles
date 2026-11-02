@@ -168,6 +168,38 @@
    ],
    "items": [],
    "recorded_utc": "2026-11-02T20:40Z"
+  },
+  {
+   "turn": "2026-11-02T21:57Z",
+   "lines_of_work": [
+    "hypnosis guide",
+    "neuro de-armoring",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (the lane holds 2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); the live AGENTS.md is unchanged (blob 5160080), LESSON-INDEX unchanged (54288d1)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 270 merged by Joel at 2026-11-02 21:56 UTC; no new issues, comments or reviews since 20:38 UTC (gh api REST); the branch fast-forwarded to main 0ab2b21e"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to the handoff notes or questions pages since this session's push b675ab32"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-02T21:58Z"
   }
  ]
 }

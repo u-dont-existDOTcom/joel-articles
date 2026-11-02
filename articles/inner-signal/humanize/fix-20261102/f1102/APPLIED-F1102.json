@@ -1,0 +1,33 @@
+{
+ "before_sha256": "a9b7061be2c0507a76eca9b74286c105838d81cf5b39d9a1290bc1c824decb27",
+ "after_sha256": "66eb95e7beac2ceac9ac01347f93c8de2960bcb7fad4b769fe8fa2ec07347b25",
+ "taken": [
+  "F-61",
+  "F-62",
+  "F-216",
+  "F-361",
+  "F-527",
+  "F-528"
+ ],
+ "fates": {
+  "F-61": "in: f1102-61 Human Written (3 High, 2 Medium; the new sentences in a Medium window with F-62)",
+  "F-62": "in: with F-61",
+  "F-119": "not in: f1102-119 Human Written but a Human (Low) window still over the breathing line and the two sentences before it; its second try (F-118 with it) read AI Detected; a stretch to edit on his page",
+  "F-216": "in: f1102-216 Human Written, one window, High",
+  "F-361": "in: f1102-361 Human Written, one window, High",
+  "F-527": "in: f1102-527 Human Written (3 High, 2 Medium; the question run Medium)",
+  "F-528": "in: with F-527",
+  "F-762": "not in: f1102-762 Human Written but the new disclaimer sentence Human (Low); its second try (F-762b) read AI Detected; a stretch to edit on his page",
+  "C-92": "card: c1102-92b (the bracket wording) Human Written, one window, High; c1102-92a (the clause cut) Human (Medium) on his rent line; to the owner-delivery gate, then his page",
+  "C-480": "card: c1102-480 Human Written, the joined sentence High; to the owner-delivery gate, then his page"
+ },
+ "changed_blocks": [
+  61,
+  62,
+  216,
+  361,
+  527,
+  528
+ ],
+ "blocks": 772
+}

@@ -284,5 +284,18 @@ class ReaderBriefTests(unittest.TestCase):
         self.assertIn('redirecting the thought stream with your conscious, higher intention', json.dumps(last, ensure_ascii=False))
 
 
+    def test_paragraph_labels_are_never_copied_with_the_text(self):
+        """E326: Joel's checks of paragraphs copied from these pages read "P1Here is a list" and "Your inherited parent
+        script P1One", and taking the labels out alone turned AI Detected 21% to 46% into Human Written (his second Pangram
+        account, 2026-11-02). Every page that numbers paragraphs keeps the labels out of a copy."""
+        import re
+        for rel in ('tools/humanization/suggestion_review_template.html', 'tools/humanization/render_article_so_far.py',
+                    'tools/humanization/render_in_context.py'):
+            src = (ROOT / rel).read_text(encoding='utf-8')
+            rules = re.findall(r'\.pn\s*\{+([^}]*)\}', src)
+            self.assertTrue(rules, rel)
+            self.assertTrue(any('user-select:none' in r.replace(' ', '') for r in rules), rel)
+
+
 if __name__ == '__main__':
     unittest.main()

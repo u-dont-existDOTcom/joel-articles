@@ -1,0 +1,14 @@
+{
+ "question": 30,
+ "answer": "30a",
+ "message": "../free-whole/joel-20261102-2157-message.txt",
+ "before_sha256": "28c84e9e1d54da1227a1ea2985a75a2954714b8491436c36f8cfe19241499a4d",
+ "after_sha256": "a9b7061be2c0507a76eca9b74286c105838d81cf5b39d9a1290bc1c824decb27",
+ "changed_blocks": [
+  380
+ ],
+ "where": "Nothing happens, P1",
+ "before": "After all, only like 50% of people are very suggestible.",
+ "after": "After all, only like 15% of people are very suggestible.",
+ "source": "https://med.stanford.edu/news/all-news/2024/01/brain-stimulation-hypnosis.html"
+}

@@ -103,7 +103,8 @@ main.article p,main.article blockquote,.blk.li{margin:.85em 0}
 main.article blockquote{border-left:3px solid var(--line);padding-left:1rem;color:var(--muted)}
 .blk.li{display:flex;gap:.55em;padding-left:.4em}
 .blk.li .mk{flex:0 0 auto;font-weight:700}
-.pn{font:600 .66em system-ui,sans-serif;color:var(--muted);margin-right:.45em;vertical-align:.12em}
+/* 2026-11-02: never copied with the text (Joel's checks of paragraphs copied from these pages read "P1Here is a list"; taking the labels out alone turned AI Detected into Human Written, gate E326) */
+.pn{font:600 .66em system-ui,sans-serif;color:var(--muted);margin-right:.45em;vertical-align:.12em;-webkit-user-select:none;user-select:none}
 .blk.li .pn{order:-1}
 .native-blk{font:600 .85rem system-ui,sans-serif;color:var(--muted);background:var(--soft);border:1px dashed var(--line);border-radius:8px;padding:8px 12px;margin:1em 0}
 mark.hl{background:var(--cb);color:inherit;border-bottom:2px solid var(--c);border-radius:2px;padding:0 .04em;cursor:pointer;-webkit-box-decoration-break:clone;box-decoration-break:clone}
