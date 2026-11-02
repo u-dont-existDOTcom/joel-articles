@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "article_id": "neuro-de-armoring",
+  "owner_review": {
+    "status": "pending",
+    "evidence": "Registered 2026-11-02 at Joel's message of 18:16 UTC (\"then we can start on the next one we had queued\"; articles/inner-signal/humanize/fix-20261102/joel-20261102-1816-message.txt); his queue of 2026-09-28 sets this article's rule (articles/inner-child-therapy/experiments/emulate-20260929/ARTICLES.md, #3). No passage is locked until he says so."
+  },
+  "locked_passages": [],
+  "protected_functions": [
+    {
+      "id": "protocol-fidelity",
+      "description": "Every compound, dose, unit, timing and warning comes out exactly as it went in (his queue, 2026-09-28: \"Supplement protocol. Every compound, dose, unit, timing and warning must come out exactly as it went in.\"). humanize/FIDELITY-KEYS.json lists them from master.md, and tools/humanization/fidelity_keys.py check must pass on every draft before it is checked in Pangram or shown to him."
+    },
+    {
+      "id": "working-master-source-identity",
+      "description": "The registered master is master.md: his post as of 2 November 2026, which matches the editor copy of 28 September word for word but for the video's own placeholder text (IMPORT-RECEIPT-20261102.md). source/ keeps the editor copy, its Markdown and the post as Substack's API gave it; they are never edited."
+    },
+    {
+      "id": "shared-rules-only",
+      "description": "The article runs the repository's shared humanization rules (AGENTS.md, docs/HUMANIZATION-GATE.md, tools/humanization/), as the community article and the hypnosis guide do; article files hold this article's records only."
+    }
+  ]
+}

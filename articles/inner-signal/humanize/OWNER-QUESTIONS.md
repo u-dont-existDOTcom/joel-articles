@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-11-02, after your answers of 16:43 UTC.
-**Open questions: 1** (28). **For you to do**: mark [Hypnosis Guide Cards, 2 November](https://claude.ai/artifact/AzBJ2kkPievVk18n4x6Tmv) (3 cards). The questions are at the top, with their
+Last updated 2026-11-02, after your message of 18:16 UTC.
+**Open questions: 2** (28, 29). **For you to do**: nothing on this page; your other Pangram account if you'd like its history read too. The questions are at the top, with their
 options and my default; under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠
 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -9,6 +9,15 @@ The master copy of this page is [this file in Git](https://github.com/u-dont-exi
 read and update it. Every file it points to is a link.
 
 ## Open questions
+
+**🟣 29. Your post's subtitle still says "Last update: Sept 16, 2026, v. 6.1". Change it?** The guide in your post
+behind hypnosis.u-dont-exist.com is the new one now, about 31,500 words where the old one had about 19,700, and I left
+the title and subtitle as they were.
+
+- a) Yes, my default: "Last update: Nov 2, 2026, v. 7.0" in place of "Last update: Sept 16, 2026, v. 6.1", the rest of
+  the subtitle as it is. I'd make it in the post's settings and read it back from the public post.
+- b) Leave it as it is.
+- c) Your own wording.
 
 **🟣 28. May a section be checked a third time, to see a fix in place?** Each section gets two checks by itself, and
 then a fix can only be checked with the paragraph next to it. That isn't the same test: your opening of Don't rush the
@@ -26,12 +35,33 @@ changed under them, so the rechecks decide; you don't need to mark them.
 
 ## For you to do
 
-- 🟠 Mark [Hypnosis Guide Cards, 2 November](https://claude.ai/artifact/AzBJ2kkPievVk18n4x6Tmv) ([the cards as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/review/REVIEW-R1102.md)):
-  your party example after the rent line (W-92b), the script cut where your paragraph already gives its steps (W-283b),
-  and Appendix E's prayer cut where it repeats yours (R-638). Every suggestion was checked in Pangram first, and each
-  card links each check.
-- 🟠 If you want me to read your Pangram history: the app's browser is signed out of Pangram now, and I don't sign in
-  anywhere. If you sign in there yourself, with the account you mean, I can read your other experiments.
+- 🟠 If you'd like your other Pangram account's history read too, sign into it in the app's browser, the way you did
+  this one. I read it the same way and add what it teaches.
+
+## Your message of 2026-11-02 18:16 UTC, and what I did
+
+- 🟢 **Your three cards are in**: your party example after the rent line (W-92b), the script cut (W-283b) and Appendix
+  E's repeated prayer cut (R-638), read in place ([what changed](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/APPLIED-R1102.json)).
+- 🟢 **The whole guide, checked in two halves**: the first half reads
+  [Mostly Human Written, 1.4% AI](https://www.pangram.com/history/25bc4954-3ece-40f7-98c5-75fd5444f6e1) and the second
+  [Human Written, 0.4% AI](https://www.pangram.com/history/aa3f74c7-cc59-40dd-b6e9-fcc0d3cc2b06)
+  ([every window](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/whole/RESULTS.md)). Twelve short stretches still read AI in the whole, and
+  twenty Human (Low): the sober induction's opening, "The more powerful the state you're in, the stronger the
+  boundaries you'll need.", the forgiveness quote and more. That's the next round: ours fixed and checked, yours as cards
+  with tested suggestions.
+- 🟢 **Your post is updated.** The guide is in your post behind hypnosis.u-dont-exist.com, made in its editor and read
+  back from the public post, where every word matches the guide
+  ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/live/LIVE-CHECK-20261102.json)). Your Subscribe and Share buttons, the video,
+  the two post embeds and the image are as they were in the post; the top image you'd taken out stays out. The title
+  and subtitle are unchanged (question 29). One slip on the way: for about two minutes the unpublished draft held the
+  guide twice, because the editor's paste added it at the top as well; I replaced the whole draft with one copy before
+  pressing Update, so readers never saw it.
+- 🟢 **Your Pangram history, read**: 22 of your edits turned a text from AI to Human Written
+  ([what changed in each, and the lessons](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/joel-pangram/history/HISTORY-LEARNING.md)). Most often
+  it was a silly, specific example for a general one (Mr. Boopaloopa on WhatsApp, Chantress Seba's inbox), then a tidy
+  closer cut ("A good therapist or helpline won't mind."), then a summing-up sentence cut. Six phrases you cut that
+  never appear in your own writing are now linter checks ("won't mind", "One more thing about", "And that's not good
+  because", "a last resort", "though it's often", "can feel a lot like"). Lessons E321 and E322.
 
 ## Your answers of 2026-11-02 16:43 UTC, and what I did
 
