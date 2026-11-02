@@ -7,7 +7,7 @@ His export of 2026-11-02 20:37 UTC (ANSWERS-20261102-2038.json here, word for wo
   happens" and "It feels fake"), and his comment: "this section so far with that has it as human low
   https://www.pangram.com/history/fe024a3a-3338-43a2-a8cc-f5d4579e6fe4 ... here's the fully human high conf section til now
   (text pasted as my version): https://www.pangram.com/history/b7fc49b6-e142-4456-a1a5-9d0bc6c646e1". His version goes in as
-  he checked it: the two headings stay; "Check if there's a way you could try this on a smaller scale." and the line of
+  he checked it (Human Written; his "fully human high conf" is the headline, and one of its three windows reads Human (Medium)): the two headings stay; "Check if there's a way you could try this on a smaller scale." and the line of
   requests after it become his one paragraph; the next two paragraphs are his; his "But seriously..." paragraph follows
   them; the two paragraphs after (the parent script, the fake feeling) stay as they were, since his text stops before them
   ("til now"). Only his double space inside the Bush quote and the space after "!!!" go (obvious typos, his rule).
@@ -77,8 +77,9 @@ def main():
     new_raw[i + 5] = [set_block_text(raw[i + 5], fix(l2[1]), lost)]
     new_raw[i + 6] = [set_block_text(raw[i + 6], fix(p3), lost), fix(p4)]
     fates['C-384'] = ('revise: his version of Nothing happens and It feels fake through the card\'s paragraph went in, '
-                      'with his "But seriously..." paragraph after it; his check of it: Human Written, every window High '
-                      '(https://www.pangram.com/history/b7fc49b6-e142-4456-a1a5-9d0bc6c646e1)')
+                      'with his "But seriously..." paragraph after it; his check of it: Human Written, three windows: Human (High), '
+                      'Human (Medium) on "!!! But seriously...", Human (High) '
+                      '(https://www.pangram.com/history/b7fc49b6-e142-4456-a1a5-9d0bc6c646e1; read 2026-11-02 after 20:51 UTC)')
     assert not lost, lost
     out = []
     for j, r in enumerate(raw):

@@ -1,5 +1,38 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-11-02, after Joel's message of 20:38 UTC: the whole guide checked the free way; the API stops halves; his answers in
+
+His message (`fix-20261102/answers-w1102/joel-20261102-2038-message.txt`): "how are you cehcking the whole guide? that
+should be done the free way to not waste my pangram credits. which you said requires my help. why did you forget this?",
+with his answers to Hypnosis Guide Cards, 2 November (2) (`ANSWERS-20261102-2038.json`: C-141 approved; C-384 revise,
+his own version of Nothing happens and It feels fake). **The mailbox first** (`state/MAILBOX.json`, "2026-11-02 20:38"):
+pull request 269 merged by him at 19:58 UTC; nothing else new.
+
+**His question, answered on `OWNER-QUESTIONS.md`.** On 2 November the lanes sent 63 checks through the API, about 91,000
+words: five halves or whole articles (about 68,800 words), 29 sections over his six paragraphs or 1,200 words (about
+15,700), 29 within his rule (about 6,500), counted from the three lanes' ledgers. The cause and the guards are lesson E325:
+`pangram_api.py check` refuses more than six paragraphs or 1,200 words before any POST, and `pangram_ledger.py predict`
+refuses such a prediction through the API, each unless `--paid-ok` carries his words (tests
+`tests/test_pangram_api_size.py`, `tests/test_pangram_ledger.py`); the laptop's copy (`inbox/pangram-r1102/`) is the guarded
+one, the old one moved to `inbox/pangram-r1102/replaced/`, and it refused a big text there.
+
+**His answers** (`fix-20261102/answers-w1102/apply_answers_w1102.py`, APPLIED-W1102-ANSWERS.json; comparison gate PASS;
+read record `answers-w1102/read/`): HUMANIZED-SO-FAR.md 45830360 to 28c84e9e (772 blocks). His C-384 check reads Human
+Written with windows High, Medium (on "!!! But seriously...") and High; the first record said "every window High", which
+was wrong, and is corrected after reading the history page's data (`his_checks_read`). Question 30 asks about his "50%"
+(Stanford Medicine 2024: about 15% highly hypnotizable).
+
+**The whole guide's free check** (`fix-20261102/free-whole/`: make_recheck.py, CANDIDATE-MASTER.md 28c84e9e, merge PASS,
+PAYLOAD-A/B, TEXT-A/B, WORDS-A/B, pushed at a5567f33): both lane drafts (A 222109105, B 221412532) cleared through the
+editor's own API (`editor.commands.clearContent`, after checking the title; not ctrl+a and Delete, which can write to his
+clipboard), pasted with `fix-20261022/screen/paste_payload_lane.js` (+34 and +25 editor words, as every time), the saved
+bodies read back, and the secret links made and opened (RECHECK-POST-A.json, RECHECK-POST-B.json). Part A's first 99,999
+characters equal TEXT-A.txt; part B equals RENDERED-B.txt (TEXT-B.txt with the embedded card's line and two opening
+quotes after "(" that the editor curled as closing ones; his live post keeps straight quotes there). Predictions first:
+HG-whole#258 and HG-rest-B#259 (batch free1102). The links wait on him.
+
+Delegations: none (each piece was small, or needed the app's browser).
+
 ## 2026-11-02, after Joel's message of 19:11 UTC: 28a and 29a; the dates in both posts; the w1102 windows round
 
 His message (`fix-20261102/joel-20261102-1911-message.txt`): "29a yes you can always update that date when updating a

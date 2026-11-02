@@ -18,6 +18,13 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-11-02, after Joel's message of 20:38 UTC ("how are you cehcking the whole guide? that should be done the free
+  way to not waste my pangram credits. which you said requires my help. why did you forget this?"): the whole guide's free
+  check is pasted, and the API refuses halves.** On 2 November the lanes had sent 63 checks through the API (about 91,000
+  words; five halves or whole articles, 29 sections over his six paragraphs); E325 and the guards in `pangram_api.py` and
+  `pangram_ledger.py` stop that now, and the laptop's copy is guarded. His answers are in (guide 28c84e9e); question 30 is
+  his "50%". The whole guide is in the lane's two temporary drafts with their secret links, which he opens with his Pangram
+  extension (`fix-20261102/free-whole/`). See the Next step.
 - **2026-11-02, after Joel's message of 19:11 UTC ("29a yes you can always update that date when updating a post of
   course, but you're saying we still ahve to fix some stretches", and "28a"): the dates updated; the windows round, part
   one.** His subtitle says "Last update: Nov 2, 2026, v. 7.0" and the community post's title "Updated: Nov 2 2026" (E323:
@@ -208,13 +215,13 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: **his answers to [Hypnosis Guide Cards, 2 November](https://claude.ai/artifact/AzBJ2kkPievVk18n4x6Tmv)** (3
-cards: W-92b his party example after the rent line, W-283b the script cut, R-638 Appendix E's prayer cut; each checked
-in Pangram, each card links its checks), and **question 28** on `OWNER-QUESTIONS.md` (may a section that used its two
-checks be checked a third time, to see a fix in place; my default a). Optional, his: signing in to Pangram in the app's
-browser if he wants his other experiments read (it is signed out; never sign in for him). Merging pull request 267 is his.
-Earlier: his answers to [Hypnosis Guide Cards, 1 November (2)](https://claude.ai/artifact/V3ZgooEhJAr2ApQdsjF3Hu) came
-at 2026-11-02 16:43 UTC and are in (`fix-20261102/APPLIED-S1101.json`); question 27 is answered by his W-605.
+The guide: **his two Pangram result pages** for the whole guide's free check (the secret links in
+`fix-20261102/free-whole/RECHECK-POST-A.json` and `-B.json`, on `OWNER-QUESTIONS.md` under For you to do: he opens each
+in his browser and runs the Pangram extension), and **question 30** (his "only like 50% of people are very suggestible";
+my default a, "15%", Stanford Medicine 2024). Optional, his: signing in to his other Pangram account in the app's browser
+if he wants its history read (never sign in for him). Earlier: his answers to
+[Hypnosis Guide Cards, 2 November (2)](https://claude.ai/artifact/DsWJ3E4voqJPNZscZXGMHG) came at 2026-11-02 20:38 UTC and are in
+(`fix-20261102/answers-w1102/APPLIED-W1102-ANSWERS.json`).
 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
@@ -301,7 +308,34 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-11-02, after Joel's message of 19:11 UTC: the dates updated; the windows round, part one)
+## Next step (2026-11-02, after Joel's message of 20:38 UTC: the whole guide's free check pasted; its results wait on him)
+
+Done (STATUS.md's entry for 20:38 has every file and number). The guide: HUMANIZED-SO-FAR.md 28c84e9e (772 blocks), his
+answers to the cards of 2 November (2) in; his post still has a789009c's words.
+
+**How checks run now (E325, his rule since 2026-10-23, E218):** the API (`pangram_api.py check` on the laptop, with
+`--public`) only for a paragraph or a section of at most six paragraphs and 1,200 words; the tool refuses more before
+sending anything, unless `--paid-ok` carries his words for that one. A half, a whole article, or many paragraphs at once
+(E200) go free: the lane's temporary Substack drafts (A 222109105, B 221412532; never published; cleared through the
+editor's API, `editor.commands.clearContent`, never ctrl+a and Delete), pasted with `fix-20261022/screen/paste_payload_lane.js`,
+their secret links made with `tools/humanization/substack_secret_link.js` and checked with `substack_rendered_check.js`; he
+opens the links in his browser with the Pangram extension and sends the result pages.
+
+Next:
+0. **His two result pages** for the links in `fix-20261102/free-whole/RECHECK-POST-A.json` and `-B.json` (on
+   `OWNER-QUESTIONS.md` under For you to do). Read each with `tools/humanization/pangram_feed_read.js` in the app's
+   browser (the `https://www.pangram.com/feed/<uuid>` pages), record the results against HG-whole#258 and HG-rest-B#259
+   (part B's text is RENDERED-B.txt), and list every AI and below-High window with `window_confidence.py`, by whose words.
+1. **Question 30** (his "only like 50% of people are very suggestible"): with a), change "50%" to "15%" in block 380, the
+   rest as he wrote it.
+2. **Then the stretches still flagged** in that check, one fix at a time, as the earlier next step's item 1 says (E324:
+   revert at once what makes its section worse); section checks through the API within six paragraphs, each with its
+   prediction first.
+3. **C-672's next try** (his forgiveness quote): keep his "I'm", "our whole life", "forever" and "But", break only the
+   matched "not going to ... not going to" frame; its section through the API, then the owner-delivery gate, then a card.
+4. **Then his post**, the same way as on 2 November (`fix-20261102/live/`), with the date in the subtitle (E323).
+
+## Earlier next step (2026-11-02, after Joel's message of 19:11 UTC: the dates updated; the windows round, part one)
 
 Done (STATUS.md's entry for 19:11 has every file and number). The guide: HUMANIZED-SO-FAR.md 45830360 (772 blocks); his
 post still has a789009c's words (the guide's changes since then are ours and wait for the next update of his post).
@@ -344,7 +378,8 @@ Next:
 3. **His other Pangram account**: if he signs into it in the app's browser, read its history the same way
    (`fix-20261102/joel-pangram/history/`: pairs from AI to Human Written within four checks) and add what it teaches.
 4. **How checks run now**: through the API on the laptop with `--public`, as below; his history pages are read in the app's
-   browser only when he has signed in there himself.
+   browser only when he has signed in there himself. (Superseded by E325, 2026-11-02 20:38 UTC: the API only for at most six
+   paragraphs and 1,200 words; halves and whole articles go through the Substack drafts and his extension.)
 
 ## Earlier next step (2026-11-02, after Joel's answers of 16:43 UTC: his answers in, the changed sections checked, three tested cards)
 
@@ -362,7 +397,8 @@ Next:
    (section 15; his approved wording), and our Pattern 10 opening (section 69; both fixes read AI in their stretch,
    r1102b-D2 and D1, so the lineage HG1102-69-P10 has four tries left, each only with a new diagnosis).
 3. **Then the whole guide**, on the Substack drafts with his extension (the secret preview links, E277).
-4. **How checks run now**: through the API on the laptop with `--public` (inbox/pangram-r1102*/: TEXTS.json, the
+4. **How checks run now** (superseded by E325 for anything over six paragraphs or 1,200 words, which goes through the
+   Substack drafts and his extension): through the API on the laptop with `--public` (inbox/pangram-r1102*/: TEXTS.json, the
    repository's pangram_api.py, SHA256SUMS; `pangram_api.py check TEXTS.json out --expect 4.1 --windows --public`); the
    app's browser is signed out of Pangram's web app (its history API answers 401), and history pages he links are read
    from their public API (`https://web.pangram.com/api/history/<uuid>/`). One try per lineage per round: the ledger takes

@@ -1954,9 +1954,10 @@ His message, word for word: `articles/inner-signal/humanize/fix-20261101/joel-20
   rule since 2026-10-23 (E218): "you can check paras or sections with API, not more than like 5-6 paras at a time in
   general (not half an  article)", and the budget rule's Substack route for every whole-article or very large check
   (`docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`; the worker makes the drafts and their secret preview links, E277, and he
-  opens them with his Pangram extension). On 2 November the lanes ran four halves of the hypnosis guide and the whole neuro
-  de-armoring article through the API (about 69,000 words), and many sections bigger than six paragraphs (about 22,000
-  words more). His message of 20:38 UTC: "how are you cehcking the whole guide? that should be done the free way to not
+  opens them with his Pangram extension). On 2 November the lanes sent 63 checks through the API, about 91,000 words: four
+  halves of the hypnosis guide and the whole neuro de-armoring article (five checks, about 68,800 words), 29 sections
+  longer than six paragraphs or 1,200 words (about 15,700 words), and 29 checks within his rule (about 6,500 words);
+  counted from the three lanes' ledgers, each text's paragraphs counted from its TEXTS.json. His message of 20:38 UTC: "how are you cehcking the whole guide? that should be done the free way to not
   waste my pangram credits. which you said requires my help. why did you forget this?" The rule was in the repository and
   in the handoff's own next step ("Then the whole guide, on the Substack drafts with his extension"), but the lane's checks
   had moved to the API on 1 November, when the app's browser was signed out of Pangram, and the turn summaries carried "the

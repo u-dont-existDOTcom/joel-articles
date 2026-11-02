@@ -18,6 +18,14 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-02, after Joel's message of 20:38 UTC (about the hypnosis guide: "that should be done the free way to not
+  waste my pangram credits"): anything over six paragraphs or 1,200 words is checked free (gate E325).** This lane's
+  whole-article baseline (5,821 words) went through the API, against his rule (E218). `pangram_api.py check` now refuses
+  such a text before sending it. A bigger section, or the whole article, goes into a temporary Substack draft of this
+  lane's own (a "TEMP ... - do not publish" title without "Pangram" in it, added to the title list in
+  `articles/inner-signal/humanize/fix-20261022/screen/paste_payload_lane.js`), its body cleared through the editor's API,
+  its secret link made with `tools/humanization/substack_secret_link.js` and checked with `substack_rendered_check.js`; he
+  opens the link with his Pangram extension. Question 1 still waits on him.
 - **2026-11-02, after Joel's message of 19:11 UTC: the lightest fix tried, and question 1 waits on him.** Part 1 C to E with the template taken off and every claim kept read [AI Detected, 90.6% AI](https://www.pangram.com/history/8a5c6453-c6f1-4ab3-b713-51e54e3550f2) (`fix-20261102/s04/`). Question 1 (`OWNER-QUESTIONS.md`, published as Neuro De-Armoring Questions, https://claude.ai/artifact/8cWv5mbXY8y53RL1nhvzky) asks how freely the science sections may be rewritten. When the post is updated, its title's "v5.1 (Sept 10, 2026)" changes too (gate E323).
 - **2026-11-02: the lane is set up and the baseline is checked.** The article is registered (`articles/INDEX.json`,
   `articles/neuro-de-armoring/`: master.md is his post as it stands, IMPORT-RECEIPT-20261102.md). The baseline, through
@@ -42,7 +50,9 @@ Scott passages, the introduction and the D-serine paragraph in Part 4 sound most
 
 ## Next step (2026-11-02, after Joel's message of 19:11 UTC: question 1)
 
-0. **His answer to question 1** decides the rewrite: a) freely in his voice, every claim, compound, dose, unit, timing and
+0. **How a section is checked** (E325): through the API only within six paragraphs and 1,200 words; anything
+   bigger through this lane's own temporary Substack draft and its secret link, for his extension (START HERE).
+   **His answer to question 1** decides the rewrite: a) freely in his voice, every claim, compound, dose, unit, timing and
    warning kept (fidelity_keys.py check), nothing invented (C03), one card per section; b) his own lines first, then the
    rest fitted around them; c) only Parts 2 to 5. Whatever he says, each section is checked in Pangram before it reaches
    him; ND1102-04 has used both its section tries, so its next check is the one more check after a fix that his answer
