@@ -1,3 +1,6 @@
+**Joel's message of 2026-11-02 21:59 UTC (his other Pangram account, read in the hypnosis lane): its lessons apply here too.** E326 (a check's text carries no paragraph labels or Markdown marks: the pages that number paragraphs keep the labels out of a copy now) and E327 (a heading is checked like a sentence); linter rules O59 and O60. Nothing changed in his post or `master.md`.
+Predictions: none. Delegations (model, piece, check, outcome): none.
+
 **Joel's message of 2026-11-02 20:38 UTC (about the hypnosis guide: "how are you cehcking the whole guide? that should be done the free way to not waste my pangram credits"): the API now refuses big checks.** Gate E325: a check of more than six paragraphs or 1,200 words, or of a whole post, goes through a temporary Substack draft and its secret link, which he opens with his Pangram extension; `tools/humanization/pangram_api.py check` and `pangram_ledger.py predict` refuse it through the API. Two of this lane's three API checks on 2 November (batch ic1102) were sections of more than six paragraphs (20 and 8 short ones, 1,151 and 379 words), counted in the 29 sections over his limit that gate E325 lists. Nothing changed in his post or `master.md`.
 Predictions: none. Delegations (model, piece, check, outcome): none.
 

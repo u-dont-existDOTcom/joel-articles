@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-11-02, after your message of 20:38 UTC.
-**Open questions: 1** (30). **For you to do**: open the whole guide's two links with your Pangram extension and send me the two result pages (below). The questions are at the top, with their
+Last updated 2026-11-02, after your messages of 21:57 and 21:59 UTC.
+**Open questions: 0.** **For you to do**: open the whole guide's two new links with your Pangram extension and send me the two result pages (below). The questions are at the top, with their
 options and my default; under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠
 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -10,30 +10,57 @@ read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 30. Your new line in Nothing happens says "only like 50% of people are very suggestible". Make it 15%?** The
-figure I know of is lower: Stanford Medicine's report on its 2024 hypnosis study says about 15% of people are highly
-hypnotizable, and about two-thirds of adults at least somewhat
-([Stanford Medicine, 2024](https://med.stanford.edu/news/all-news/2024/01/brain-stimulation-hypnosis.html)). The lower
-number makes your point, that nothing happening is normal, even stronger.
-
-- a) "only like 15%", my default, with the rest of your sentence as it is.
-- b) Keep "50%".
-- c) Your own wording.
-
 **🔵 On hold: the 83 cards of [the 27 October editor page](https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) you hadn't marked** (questions 21 to 23). The guide has
 changed under them, so the rechecks decide; you don't need to mark them.
 
 ## For you to do
 
 - 🟠 **Open these two links in your browser and run the Pangram extension on each, then send me the two result pages.**
-  They hold the whole guide as it is now, with your answers of 20:38 UTC in, in my two temporary drafts (never
-  published), so the checks cost no credits. I checked that each page shows exactly the text I meant to check.
-  - [Part A: from the start to What not to do](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-1102&audience=only_paid&free_preview=false&freemail=)
+  They hold the whole guide with this round's fixes and your 30a in, in my two temporary drafts (never published), so
+  the checks cost no credits. I checked that each page shows exactly the text I meant to check.
+  - [Part A: from the start to What not to do](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-1102b&audience=only_paid&free_preview=false&freemail=)
     (the check reads its first 100,000 characters, which end in What not to do)
-  - [Part B: from You keep using hypnosis but not changing life to the end, with the appendices](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-1102&audience=only_paid&free_preview=false&freemail=)
+  - [Part B: from You keep using hypnosis but not changing life to the end, with the appendices](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-1102b&audience=only_paid&free_preview=false&freemail=)
     (it starts a section before part A ends, so the seam is read in both)
-- 🟠 If you'd like your other Pangram account's history read too, sign into it in the app's browser, the way you did
-  this one. I read it the same way and add what it teaches.
+
+
+## Your messages of 2026-11-02 21:57 and 21:59 UTC, and what I did
+
+Word for word: [your message of 21:57](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/free-whole/joel-20261102-2157-message.txt); at 21:59: "i logged into
+the other pangram account if you want to read that history".
+
+- 🟢 **Your two result pages, read** ([every window to fix, with whose words](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/free-whole/read/WINDOWS.md)).
+  Part A read [Mostly Human Written, 0.73% AI](https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8): 146
+  windows, 7 AI (all Low) and 12 Human (Low). Part B read [Human Written, 0.26% AI](https://www.pangram.com/feed/788969af-0de3-43b6-a37c-e28759c7a816):
+  35 windows, 1 AI (Low) and 4 Human (Low). The prompt engineering sentence, the line after your teleprompter sentence,
+  the last line of Before you begin and the sober induction's directions aren't flagged any more.
+- 🟢 **30a, in**: "only like 15% of people are very suggestible", the rest of your sentence as you wrote it.
+- 🟢 **Four stretches of mine fixed**, each checked in its stretch (six paragraphs at most, through the API):
+  - the pairs of minds in Forget the left-brain/right-brain cartoon: [Human Written](https://www.pangram.com/history/c361e22f-9ae8-4b65-be8b-215e1d2794de), High and Medium;
+  - the end of If you sense you are being influenced, now one more question to ask yourself and a plain line about
+    boundaries: [Human Written, every window High](https://www.pangram.com/history/c6ec3c54-5f3b-4a53-90f4-5e7e7ac59024);
+  - the opening of The 15-minute daily practice: [Human Written, every window High](https://www.pangram.com/history/8affe9d8-823a-441d-8d42-8e3c67eeafd6);
+  - Pattern 10's opening, where "If you want to be ethical with people, you need both." became the lead-in to the
+    questions: [Human Written](https://www.pangram.com/history/2da7176a-9885-4040-828e-88015a3a0ed7), High and Medium.
+- 🔵 **Two stretches of mine didn't clear in two tries each**, so they'll go on your next page to edit if you want:
+  the end of The two-hand practice ([Human (Low)](https://www.pangram.com/history/d9e3b9fa-1645-4a15-b29b-a200b1262447); the second try read
+  [AI Detected](https://www.pangram.com/history/9a2c0524-9c4f-437b-ab2a-a1cfed0e3b47)), and the sources line in Indirect language and re-entry cues
+  ([Human (Low)](https://www.pangram.com/history/980fd19b-1041-45a1-8cd5-a70025b4c612); the second try read [AI Detected](https://www.pangram.com/history/26f67e2c-984e-4a54-a3ff-138d1ef4e6f7)).
+  Both are as they were in your guide.
+- 🔵 **Three stretches of your words read below High in the whole**: your inner child guide's rent line (AI (Low)),
+  the seam between Nothing happens and It feels fake (AI (Low): the check leaves headings out, so your two sections run
+  together there), and your Core prompts line "That doesn't make the answers any more true, though." (Human (Low)). I
+  checked a suggestion for two: the rent line with the joke in brackets read [Human Written, every window High](https://www.pangram.com/history/a1aff5ea-da51-415b-a4eb-cc3aef09e8e3),
+  and the Core prompts line joined to the sentence before it read [Human Written, High](https://www.pangram.com/history/99c37345-2641-4db2-be55-e4324087321d).
+  They go through my three reviewers and onto a cards page with the new check's readings; the seam goes there as yours
+  to look at.
+- 🟢 **Your other Pangram account, read** ([what it taught](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/joel-pangram/history2/HISTORY-LEARNING-2.md)):
+  2,359 checks, and 70 small edits that took a text from AI to Human Written, every one linked. Most were the same as
+  your first account: a closer or a summing-up sentence cut, a plain or silly word, something only you would say. Two
+  were new. Paragraphs copied from my cards pages came with my "P1", "P2" labels glued on, and taking those out alone
+  turned AI Detected into Human Written, so the labels can't be copied any more (E326). And headings are checked like
+  sentences: "Make the Protector Visible" read AI where "Keep Your Word" read Human (E327). Two phrases you cut are
+  linter rules now.
 
 ## Your message of 2026-11-02 20:38 UTC, and what I did
 
@@ -59,7 +86,7 @@ Word for word: [your message](https://github.com/u-dont-existDOTcom/joel-article
   version of Nothing happens and It feels fake, with your "But seriously..." paragraph after it. I only took out the
   double space inside the Bush quote and the space after "!!!". Your check of it reads
   [Human Written](https://www.pangram.com/history/b7fc49b6-e142-4456-a1a5-9d0bc6c646e1): Human (High), then Human
-  (Medium) on "!!! But seriously...", then Human (High). Question 30 is about the one number in it.
+  (Medium) on "!!! But seriously...", then Human (High). Question 30 was about the one number in it (30a, in at 21:57 UTC).
 - 🔵 **Next**: your two result pages show which stretches still read AI or below High in the whole guide. Then I fix
   those, one at a time, the stretches still flagged first (the introduction's list of minds and the rest); then your
   forgiveness quote's next try, keeping your "I'm", "our whole life", "forever" and "But".

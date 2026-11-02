@@ -31863,7 +31863,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/HANDOFF-hypnosis-guide.md",
-          "sha256": "f2096f8aa91bc2859c8f6c24c29cb9cbe64827f93cb3ec29e5e3145c8e1d6635",
+          "sha256": "bfa3e88bd4e2d62725b8933f743234b21e9f6933a1990d9f224f41fb9e2ebf4a",
           "role": "humanization_working_record"
         },
         {
@@ -36128,7 +36128,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/STATUS.md",
-          "sha256": "3d85f60486fc7a0e09f394e26d335d566c564094d7a3197283a016fdb240f765",
+          "sha256": "b74d05ced5922e1f54985e5e82dc77a9463d1ba0887d55a6a72e2197c5676343",
           "role": "humanization_working_record"
         },
         {
@@ -37388,7 +37388,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/OWNER-QUESTIONS.md",
-          "sha256": "d0338aeed411fe74cbf508ae9d99b6b3c22aedf8016201753498d6bb8c3149c9",
+          "sha256": "6b17e0d5dc4c9298e511884f02aa2ebc80cf3d30c95d3b46139ff3bd432379a4",
           "role": "humanization_working_record"
         },
         {
@@ -55608,7 +55608,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/guide-questions.html",
-          "sha256": "618dd917adb0d39d6a9d9db1f45f583a3f68a4dc709c6007d62ae95aab1c38bc",
+          "sha256": "4408b5a8335645bbffa5957ac408497822a800191cc53843acd022c5059ef3dc",
           "role": "humanization_working_record"
         },
         {
@@ -60815,6 +60815,21 @@
           "path": "articles/inner-signal/humanize/fix-20261102/q30/read/READ-RECORD.json",
           "sha256": "6b2add3862ad27d180c5edd3f2be3ad68b27bb7869e9ca34d39d1229af4fa88f",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261102/free-whole-2/RECHECK-POST-A.json",
+          "sha256": "d61f949d96d0ed5028157335d01a77a6027b56c5627d6b263cc3e3212ca68124",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261102/free-whole-2/RECHECK-POST-B.json",
+          "sha256": "d19cac1f770f1ece9171366bbb84a8a4d64a9069404dc2971321e7a79c4b835a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/humanize/fix-20261102/free-whole-2/RENDERED-B.txt",
+          "sha256": "ad86bd24d5c0caee00fe0726b449069786973af8f4d4d0f7373f9b6435ed460d",
+          "role": "humanization_working_record"
         }
       ]
     },
@@ -62997,7 +63012,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/STATUS.md",
-          "sha256": "747c2338ddc9c7214f110beeb0a3b06e4cec2d42fc7b21c2cbcade78022c3527",
+          "sha256": "a28188b8568debac3e6deed81805b8a18716a58235a0c57773ff38cf36f86422",
           "role": "humanization_working_record"
         },
         {
@@ -84102,7 +84117,7 @@
         },
         {
           "path": "articles/intentional-communities/candidate/HANDOFF-community-article.md",
-          "sha256": "945996640644a3904546a28bf25c07f1080f52e0efcbec515cf803e66c468de4",
+          "sha256": "7c82fc64f69ecddff0876bac0c58bacd1fb9c10487ccea509cd744d7e2ded80b",
           "role": "humanization_working_record"
         },
         {
@@ -104544,7 +104559,7 @@
         },
         {
           "path": "articles/neuro-de-armoring/humanize/HANDOFF-neuro-de-armoring.md",
-          "sha256": "046d4746fc03f895958e07eed87a7c4a57b51e1d41099fdc7c80d6f32f5f1e46",
+          "sha256": "7357119ab773283a996f7ca0b8028d8fb8e63535c7c95df0c9497145006d20e7",
           "role": "humanization_working_record"
         },
         {
@@ -104559,7 +104574,7 @@
         },
         {
           "path": "articles/neuro-de-armoring/humanize/STATUS.md",
-          "sha256": "6da57699ae054245bc60aadd602b09c7c3eaec241a6d1288271bd32eb6a2c44f",
+          "sha256": "26aae5e59d937b8ce946b0815ec69e5d33a8d02f209eb01ce589935080642578",
           "role": "humanization_working_record"
         },
         {

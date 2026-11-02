@@ -1,0 +1,28 @@
+{
+ "commit": "a6fcdf41378f1f54e95310b29bf0385c5c1593bb",
+ "how": "cleared through the editor's own API (editor.commands.clearContent, after checking the title), then fix-20261022/screen/paste_payload_lane.js (the payload fetched from raw.githubusercontent.com at the commit, its SHA-256 checked); the draft API's saved body holds the new words; the secret link by tools/humanization/substack_secret_link.js's rules; the rendered check is tools/humanization/substack_rendered_check.js's walk in the app's built-in browser",
+ "draft": 221412532,
+ "title": "TEMP recheck B (hypnosis guide appendices) - do not publish",
+ "link": "https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-1102b&audience=only_paid&free_preview=false&freemail=",
+ "payload_sha256": "ed72cdfa2e7a56ac387730c7f3951749d3464481e3b0d814f4556c73f399b5f6",
+ "editor_words": 13119,
+ "payload_words": 13094,
+ "editor_words_note": "+25, as every paste of part B",
+ "draft_updated_at": "2026-11-02T22:42:13.144Z",
+ "is_published": false,
+ "saved_body_checked": [
+  "F-528 in (\"You need both to be ethical with people\")",
+  "the old closer gone (\"If you want to be ethical with people, you need both\")"
+ ],
+ "rendered": {
+  "lines": 266,
+  "code_points": 70412,
+  "sha256": "ad86bd24d5c0caee00fe0726b449069786973af8f4d4d0f7373f9b6435ed460d",
+  "equals_TEXT_B": false,
+  "equals_RENDERED_B": true,
+  "differences_from_TEXT_B": [
+   "the embedded card's line \"Quick Triage Web-App Version HERE\"",
+   "two opening quotes after \"(\" curled as closing ones by the editor, as last time"
+  ]
+ }
+}

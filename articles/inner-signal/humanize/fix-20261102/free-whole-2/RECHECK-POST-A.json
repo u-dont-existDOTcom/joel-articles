@@ -1,0 +1,23 @@
+{
+ "commit": "a6fcdf41378f1f54e95310b29bf0385c5c1593bb",
+ "how": "cleared through the editor's own API (editor.commands.clearContent, after checking the title), then fix-20261022/screen/paste_payload_lane.js (the payload fetched from raw.githubusercontent.com at the commit, its SHA-256 checked); the draft API's saved body holds the new words; the secret link by tools/humanization/substack_secret_link.js's rules; the rendered check is tools/humanization/substack_rendered_check.js's walk in the app's built-in browser",
+ "draft": 222109105,
+ "title": "TEMP recheck A (hypnosis guide) - do not publish",
+ "link": "https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-1102b&audience=only_paid&free_preview=false&freemail=",
+ "payload_sha256": "a1723dcf0172d1143fd0d7e840090a0a0ad99212b45264f54ec65061edee63e8",
+ "editor_words": 31527,
+ "payload_words": 31493,
+ "editor_words_note": "+34, as every paste of part A",
+ "draft_updated_at": "2026-11-02T22:41:22.370Z",
+ "is_published": false,
+ "saved_body_checked": [
+  "batch f1102's fixes in (\"Your body has its own yes and no\", \"And afterwards: do I come away\", 30a's \"only like 15% of people\")",
+  "the old words gone (\"The body can have a voice\", \"Anyone worth following leaves\", \"There is no need to learn a second script\", \"only like 50%\")"
+ ],
+ "rendered": {
+  "lines": 597,
+  "code_points": 168682,
+  "first_99999_sha256": "20a8a62a454eb71a2f94a18b693ead375915bd0ba4039aaa4e2c3b443ce07aaf",
+  "equals_TEXT_A": true
+ }
+}
