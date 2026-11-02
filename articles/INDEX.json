@@ -103946,6 +103946,11 @@
           "path": "articles/neuro-de-armoring/source/substack-editor-20260928.html",
           "sha256": "935020c949db7b1ec9f4463d7c9809a90ada9005d2dab1082f5e1c27bb5a9c24",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/ARCHITECTURE.md",
+          "sha256": "5b5980201b8121d5e4a9f8361d2346a4356d99e3d6ceed044f4c7c2a108cbf0c",
+          "role": "architecture_map"
         }
       ]
     }
