@@ -23,8 +23,13 @@ had their second and last check by themselves through the API with public links 
 both Human Written, Communes Are Hot Again with one Human (Low) window, his new W-5 sentence; his words said as three
 sentences still read Human (Low) (`sections/recheck/p3/`, lineage IC1102-02-P3), so it's question 67 on
 `OWNER-QUESTIONS.md` (keep it, my default, or his version, checked before it goes in).
-- **Next:** his answer to question 67. If he sends a version, check it in Pangram (lineage IC1102-02-P3, five tries
-  left) before it goes into his post the same way. Nothing else is waiting in this lane.
+- **Question 67, answered at 17:40 UTC** (`sections/review/q67/`: his message word for word, `apply_q67.py`,
+  LIVE-CHECK-Q67.json): "i fixed it by removing the obvious ai part which i didn't write", with his check of the section
+  (Human Written, Human (High) throughout, https://www.pangram.com/history/7813bbfe-30db-4f31-a17f-2937f4e465bf). The cut
+  ("the shared norms and close ties that held those groups together fall apart, and", ours from an earlier round) went
+  into his post the same way (Substack's publish call answered 200; the public post showed it about three minutes
+  later), and `master.md` is that version (728d39d4).
+- **Next:** nothing is waiting in this lane. When he sends new edits or cards, the same flow.
 - Every Pangram reading given to him carries its link, and a suggestion is checked before it reaches him (gate E315).
 
 **2026-11-01, after Joel's message of 22:27 UTC** ("Continue my community article work ... carry on from its next step"): batch ic1101's six windows in his post's words are cards on [Community Article Cards, 1 November](https://claude.ai/artifact/RtotMXhGD211nugumDr6pX) (`fullread-20261030/review/joel-20261101-2026/sections/review/`: `build_page_ic1101.py`, REVIEW-IC1101.md the cards as text, browser test 82 of 82): four suggestions (the Escuelita said as what it was, "a visitor's kid" in two sentences, "a great sample" said as the communities he saw, and C-4's clause as "to tell who can be trusted") and two lines to keep. The seventh window was the infographic's alt text, not prose.

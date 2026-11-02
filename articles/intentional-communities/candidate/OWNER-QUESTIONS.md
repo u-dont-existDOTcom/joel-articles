@@ -1,6 +1,6 @@
 # Community article: what I need from Joel
 
-Last updated 2026-11-02, after your answers of 16:43 UTC. **Open questions: 1** (67). **For you to do**: nothing else right now.
+Last updated 2026-11-02, after your message of 17:40 UTC (your fix for question 67). **Open questions: 0.** **For you to do**: nothing right now.
 
 Colours: 🟣 purple, a question for you; 🟠 orange, something for you to do; 🔵 blue, next or in progress; 🟢 green, done or decided.
 
@@ -8,24 +8,18 @@ The master copy of this page is a file in Git, so a session in either of your ac
 
 ## Open questions
 
-**🟣 67. Your new anomie sentence: keep it?** In Communes Are Hot Again, your W-5 sentence ("In a large society, the
-shared norms and close ties that held those groups together fall apart, and nobody knows anybody well enough or for long
-enough to tell who can be trusted—even your next-door neighbor is often a total stranger.") reads Human (Low) when the
-section is checked by itself, and the section reads Human Written ([its check](https://www.pangram.com/history/1cd97bec-a6b6-4bf6-98c0-560b6957a048)).
-Said as three sentences, with only the punctuation changed, it still reads Human (Low)
-([that check](https://www.pangram.com/history/220be31a-a388-4b38-a2a0-14cbda1ecbb0)), so I have nothing better to offer.
-
-- a) Keep it as it is, my default: the section reads Human Written, and the sentence reads Human.
-- b) Your version: paste it, and I'll check it in Pangram before it goes into your post.
+None right now.
 
 ## For you to do
 
-Nothing else right now.
+Nothing right now.
 
 ## Decided
 
 > [!TIP]
 > Answered, with what I did.
+
+- 🟢 2026-11-02 17:40 UTC, question 67, "i fixed it by removing the obvious ai part which i didn't write" ([your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/fullread-20261030/review/joel-20261101-2026/sections/review/q67/joel-20261102-1740-message.txt), [your check](https://www.pangram.com/history/7813bbfe-30db-4f31-a17f-2937f4e465bf): Human Written, Human (High) throughout). Your section differs from your post in that one place: "the shared norms and close ties that held those groups together fall apart, and" is gone. I made that cut in your post's editor and clicked Update (settings as they were); the public post has it, and every other word is as it was ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/fullread-20261030/review/joel-20261101-2026/sections/review/q67/LIVE-CHECK-Q67.json)). The master copy in Git is that version now.
 
 - 🟢 2026-11-02 16:43 UTC, your answers to [Community Article Cards, 1 November](https://claude.ai/artifact/RtotMXhGD211nugumDr6pX) ([your answers](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/fullread-20261030/review/joel-20261101-2026/sections/review/ANSWERS-20261102-0029.json)): W-1, W-3, W-4 and W-6 approved, your own versions of W-2 and W-5. I made the six edits in your post's editor and clicked Update (the audience and the other settings as they were, the title as you set it). Your post has all six, and every other word is as it was ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/fullread-20261030/review/joel-20261101-2026/sections/review/LIVE-CHECK-20261102.json)); your apostrophe and your "--" follow the post's own (’ and —). The master copy in Git is that version now. Then both sections got their second check by themselves: The New Age May Dawn Suddenly reads Human Written, every window High ([check](https://www.pangram.com/history/e1e3333e-5c11-4b65-9729-25fb2217446b)), and Communes Are Hot Again reads Human Written with one Human (Low) sentence, question 67 above ([check](https://www.pangram.com/history/1cd97bec-a6b6-4bf6-98c0-560b6957a048)).
 

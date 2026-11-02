@@ -1,0 +1,369 @@
+{
+ "about": "The edit went into his post through its editor, as on 1 and 2 November: the Find string once, in one run of text with no marks; one transaction (the editor's document 421a7902 before, fcd20edb after); the draft saved; Update, then \"Update now\" (Substack's publish call answered 200; the public post showed the change about three minutes later). The public post, read through Substack's API from the laptop without signing in (POST.json), has the change and the working copy's words.",
+ "his_message": "joel-20261102-1740-message.txt",
+ "his_check": "https://www.pangram.com/history/7813bbfe-30db-4f31-a17f-2937f4e465bf",
+ "find": "In a large society, the shared norms and close ties that held those groups together fall apart, and nobody knows anybody",
+ "replace": "In a large society, nobody knows anybody",
+ "editor_doc_sha256": {
+  "before": "421a7902762364aa636c7624af6376616732aeb1ba43e7c31fc5b4cc7ddb3033",
+  "after": "fcd20edb21eed6ecfaeee43368521b41304856dc2cc9730f363d98e3b3b28d8d"
+ },
+ "post": {
+  "title": "Building Healing Community \"Escuelitas\" to Save The World 🫶🏿🌍🫶🏿 Updated: Nov 1 2026",
+  "audience": "everyone",
+  "post_date": "2026-07-13T18:22:25.148Z",
+  "body_html_sha256": "c804501598df41646370af9dde760dac6718d448009fe84a0cc0b8d4688a09c1"
+ },
+ "live_against_working": {
+  "working": "WORKING-20261102b.md, SHA-256 728d39d46a9c281b23baed8befb57cb3202cf220a1e9158b5bf01d47a075edc0",
+  "differences": 69,
+  "word_differences": 0,
+  "list": [
+   {
+    "working": "Where's Utopia Click READ MORE My father's 1988 documentary on Communal Living in USA online for first time ever Copy link",
+    "live": "",
+    "kind": "an embed's own text in the working Markdown (the editor's chrome, not the article's words)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "1",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "2",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "3",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "4",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "Professor Baby Sheep Taught Me Inner Child Shaking Therapy Copy link",
+    "live": "",
+    "kind": "an embed's own text in the working Markdown (the editor's chrome, not the article's words)"
+   },
+   {
+    "working": "Double click to interact with video",
+    "live": "",
+    "kind": "an embed's own text in the working Markdown (the editor's chrome, not the article's words)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "Double click to interact with video",
+    "live": "",
+    "kind": "an embed's own text in the working Markdown (the editor's chrome, not the article's words)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "Spirit and Mind Health Facing the Polycrisis Is There Hope For Humanity u-dont-exist com 15 novembre 2025 Read full story",
+    "live": "",
+    "kind": "an embed's own text in the working Markdown (the editor's chrome, not the article's words)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "Double click to interact with video",
+    "live": "",
+    "kind": "an embed's own text in the working Markdown (the editor's chrome, not the article's words)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "1",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "2",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "3",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "4",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "5",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "1",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "2",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "3",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "4",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   }
+  ]
+ }
+}

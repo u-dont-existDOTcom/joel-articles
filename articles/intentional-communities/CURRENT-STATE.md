@@ -4,7 +4,7 @@ Registered 2026-10-13 from the community humanization lane (branch `claude/emula
 
 ## Now (2026-11-02)
 
-`master.md` is his post as of 2 November: the master of 1 November with the six edits of his answers to Community Article Cards, 1 November (his message of 2026-11-02 16:43 UTC), made in his post through its editor and read back from the public post (`articles/intentional-communities/candidate/fullread-20261030/review/joel-20261101-2026/sections/review/LIVE-CHECK-20261102.json`). Next: the two sections those edits touched, checked again by themselves (their second and last section check, lineages IC1101-01 and IC1101-02), and a fix for any window that reads AI or Human (Low) (E306). The sections below are the history of how the article got here.
+`master.md` is his post as of 2 November: the master of 1 November with the six edits of his answers to Community Article Cards, 1 November, and his own fix of the anomie sentence (question 67, his message of 17:40 UTC), each made in his post through its editor and read back from the public post (`articles/intentional-communities/candidate/fullread-20261030/review/joel-20261101-2026/sections/review/LIVE-CHECK-20261102.json`, `articles/intentional-communities/candidate/fullread-20261030/review/joel-20261101-2026/sections/review/q67/LIVE-CHECK-Q67.json`). Both sections those edits touched read Human Written by themselves; his check of Communes Are Hot Again with his fix reads Human (High) throughout (https://www.pangram.com/history/7813bbfe-30db-4f31-a17f-2937f4e465bf). Nothing is waiting in this lane. The sections below are the history of how the article got here.
 
 ## Now (2026-11-01)
 

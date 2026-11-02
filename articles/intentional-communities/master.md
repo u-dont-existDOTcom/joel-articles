@@ -60,7 +60,7 @@ Suddenly, the longing to escape loneliness, which inspired my father’s movie, 
 
 It’s obvious that a lot of people can’t tolerate modern life in isolation anymore (the UN’s rules for prisoners literally ban more than 15 days of it). Folks may disagree about politics, food, God, sex, or whether shoes are oppressive, but they agree that something about the current arrangement is starving them.
 
-What’s starving them is anomie. We evolved to live in small groups where everybody knows, loves, and trusts everybody. In a large society, the shared norms and close ties that held those groups together fall apart, and nobody knows anybody well enough or for long enough to tell who can be trusted—even your next-door neighbor is often a total stranger. That’s how large societies end up run by psychopaths. (Yes, I’m always going on about this.)
+What’s starving them is anomie. We evolved to live in small groups where everybody knows, loves, and trusts everybody. In a large society, nobody knows anybody well enough or for long enough to tell who can be trusted—even your next-door neighbor is often a total stranger. That’s how large societies end up run by psychopaths. (Yes, I’m always going on about this.)
 
 Check out the Google Trends for “[ecovillage](https://trends.google.com/explore?q=ecovillage&date=all&geo=Worldwide)” and “[intentional community](https://trends.google.com/explore?q=intentional%20community&date=all&geo=Worldwide)”. After years of decline, interest climbed sharply in the mid-2020s.
 
