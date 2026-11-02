@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-11-01, after your message of 22:27 UTC (carry on from the next step).
-**Open questions: 1** (27). **For you to do**: mark [Hypnosis Guide Cards, 1 November (2)](https://claude.ai/artifact/V3ZgooEhJAr2ApQdsjF3Hu) (25 cards). The questions are at the top, with their
+Last updated 2026-11-02, after your answers of 16:43 UTC.
+**Open questions: 1** (28). **For you to do**: mark [Hypnosis Guide Cards, 2 November](https://claude.ai/artifact/AzBJ2kkPievVk18n4x6Tmv) (3 cards). The questions are at the top, with their
 options and my default; under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠
 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -10,31 +10,67 @@ read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 27. Which list did you mean?** Your comment on the audit card ends "see if you can apply the fix strategy I used
-above on the below:" and nothing comes after it. My default: Appendix C's list ("Before you do what it wants you to
-do, see if it does any of the following: create a sense of urgency, secrecy, shame ..."). I rewrote it with your
-strategy (the list uncompressed into questions, explained, and broken by a bridge: "Keep in mind though, people who
-mean well can ask for some of these too ..." and "Back to the interrogation:", after your "as the police like to
-say" just above it), and the recheck below reads it in place. If you meant another list, paste it and I'll do that
-one too.
-Since then the audit itself read AI Generated in its own check, so card W-605 on the new cards page applies the same
-strategy to the audit. If the audit is what you meant, approving W-605 answers this question too.
+**🟣 28. May a section be checked a third time, to see a fix in place?** Each section gets two checks by itself, and
+then a fix can only be checked with the paragraph next to it. That isn't the same test: your opening of Don't rush the
+repair read Human (High) by itself and Human (Low) in its section, and the script in Make the hypnosis more alert read
+Human for you by itself and AI (High) in its section. So two of today's cards (W-92b and W-283b) are checked with their
+neighbours, and their sections can't be checked again with the fix in.
 
-- a) The audit itself (Hypnosis-specific audit): approve card W-605 on the cards page, which rewrites it your Appendix C way.
-- b) Appendix C's list, my default: done, and Appendix C reads Human Written by itself.
-- c) Another list: paste it, and I'll do that one too.
-
-Question 26 (Emulate) stays withdrawn (E293).
+- a) Yes, my default: one more check of the whole section after each fix, each with my prediction written first.
+- b) No: fixes are checked with the paragraph next to them, as now, and the whole-guide check on the Substack drafts
+  reads them in place at the end.
+- c) Something else.
 
 **🔵 On hold: the 83 cards of [the 27 October editor page](https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) you hadn't marked** (questions 21 to 23). The guide has
 changed under them, so the rechecks decide; you don't need to mark them.
 
 ## For you to do
 
-- 🟠 Mark [Hypnosis Guide Cards, 1 November (2)](https://claude.ai/artifact/V3ZgooEhJAr2ApQdsjF3Hu) ([the cards as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/sections/review/REVIEW-S1101.md)):
-  14 cards on paragraphs you wrote or rewrote, 7 on your inner child guide's lines (3 of the 21 I'd keep as they are),
-  and 4 stretches of our words that read AI in three tries, for you to keep or say your way. Each card says what
-  Pangram read there.
+- 🟠 Mark [Hypnosis Guide Cards, 2 November](https://claude.ai/artifact/AzBJ2kkPievVk18n4x6Tmv) ([the cards as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/review/REVIEW-R1102.md)):
+  your party example after the rent line (W-92b), the script cut where your paragraph already gives its steps (W-283b),
+  and Appendix E's prayer cut where it repeats yours (R-638). Every suggestion was checked in Pangram first, and each
+  card links each check.
+- 🟠 If you want me to read your Pangram history: the app's browser is signed out of Pangram now, and I don't sign in
+  anywhere. If you sign in there yourself, with the account you mean, I can read your other experiments.
+
+## Your answers of 2026-11-02 16:43 UTC, and what I did
+
+- 🟢 **Your versions are in the guide**, all 16 ([what went where](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/APPLIED-S1101.json)), with ten
+  typos fixed and listed (a missing "to", "be" and "you", a stray "to" and "is", "you're" for "your", two words swapped,
+  a double space, the quote marks). Where your "your version" box held the card's text or your last minimal pair, your
+  Pangram text went in instead: Patterns 3 to 7 (your McHappyness version, which you said to keep, with Pattern 7 from
+  your last, fully High try), the audit (c341e75a, with the body-signal example you'd keep), and the blissful paragraph
+  (your "Bring it down to Earth" version, since you said the minimal pair "still reads ai to me"). The heading of the
+  no-trance practice keeps its "9." like the other practices. The source link that was on "Instead of getting more
+  relaxed ... try getting more alert" is now on your words "suggest yourself into greater alertness".
+- 🟢 **Your eight approved cards are in**, read beside your published version and your inner child guide.
+- 🟢 **Each section your answers changed, checked by itself** (22 checks, each with its link:
+  [the results](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/recheck/RESULTS.md)): 19 read Human Written. The three that didn't:
+  - The inner child, the guards: the rent line you got back on W-92 read AI (High). With your inner child guide's
+    party example after it, as it goes there, it reads 100% Human: card W-92b.
+  - Stay awake / Make the hypnosis more alert: the script (W-283) read AI (High). Two rewrites of it read AI too;
+    without it your passage reads Human: card W-283b.
+  - Don't rush the repair: Mostly Human Written, with your opening and two lines of the quote Human (Low)
+    ([the check](https://www.pangram.com/history/03338373-12c4-41ab-bbda-694159cd0d2e)); by themselves they read
+    Human (High) for you ([your check](https://www.pangram.com/history/14c44cec-57e0-4b80-b7bc-fbfed1a8c304)). I'd
+    keep them; the section reads Human, only Low in context.
+- 🟢 **Our one Human (Low) sentence is fixed and checked** (Working with your guards: "ask it. What is it trying to stop?
+  What does it want from you?", [checked](https://www.pangram.com/history/65ac97c1-88c9-483a-bc30-2b8a427e3209)). Pattern
+  10's opening reads Human (Low) in its section; both my fixes read AI in their checks
+  ([one](https://www.pangram.com/history/a68f6b1e-1ea6-4c31-b9a7-33ba058c8e2b),
+  [two](https://www.pangram.com/history/cebaccad-d951-4faf-8f36-282f80d44271)), so it stays as it is for now.
+- 🟢 **Your tries, in order** ([all 53, each linked, with what changed](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/joel-pangram/SEQUENCES.md)):
+  lists were the trigger most often, and a list asked as one question most of all; a sequence with its own verb for each
+  step read Human; portable phrases ("come back to yourself a bit", "do the normal thing") read AI; your own odd jokes
+  turned whole texts Human. My own script fixes taught the same lesson the hard way: I put a new list of three in place
+  of the old one, and it read AI (High). Lessons E315 to E320, and four new checks in the linter: "the next small
+  thing", "still matters", portable phrases, and a list asked as one question.
+- 🟢 **Links and tests on every card from now on**: the cards page now shows what Pangram read, with its link, and the
+  check of the suggestion, with its link, on every card, and refuses to build a card without them.
+- 🟢 **The repeats**: I read the whole guide for passages that say the same thing twice
+  ([what I found and why each stays or goes](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/redundancy/REPEATS.md)). Two go to you as cards (W-283b,
+  R-638); the rest are cross-references, safety lines said where they're needed, or lists said in parallel on purpose.
+- 🟢 Question 27 is answered by your W-605: the audit itself, in your words.
 
 ## Your message of 2026-11-01 22:27 UTC, and what I did
 

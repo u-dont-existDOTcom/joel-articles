@@ -1,0 +1,16 @@
+[
+ {
+  "key": "ic1102b-W5",
+  "lineage": "IC1102-02-P3",
+  "scope": "paragraph",
+  "name": "Communes Are Hot Again, P3 (W-5 split)",
+  "words": 76,
+  "call": "Human",
+  "chance": 0.75,
+  "card": "W-5",
+  "old": "In a large society, the shared norms and close ties that held those groups together fall apart, and nobody knows anybody well enough or for long enough to tell who can be trusted—even your next-door neighbor is often a total stranger.",
+  "new": "In a large society, the shared norms and close ties that held those groups together fall apart. Nobody knows anybody well enough, or for long enough, to tell who can be trusted. Even your next-door neighbor is often a total stranger.",
+  "why": "his words, the long sentence that read Human (Low) said as three; the rest of the paragraph read Human",
+  "sha256": "e32f3f3faa9b4dbbf37b46a1cd95ed4331745392adcf03ffc55aab7839924ea4"
+ }
+]

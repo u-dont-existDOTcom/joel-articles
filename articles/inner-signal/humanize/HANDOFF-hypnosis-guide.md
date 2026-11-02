@@ -18,6 +18,15 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-11-02, after Joel's answers of 16:43 UTC (both cards pages, no text; `fix-20261102/`): his answers are in, every
+  changed section checked by itself, and three tested cards are on [Hypnosis Guide Cards, 2 November](https://claude.ai/artifact/AzBJ2kkPievVk18n4x6Tmv).**
+  His 16 versions and 8 approved cards in (`apply_answers_s1101.py`, APPLIED-S1101.json, every fate and the ten typos;
+  his Pangram texts where his note pointed to them: `joel-pangram/texts-raw.json`, `EDITS-joel-20261102-pangram.json`);
+  22 checks through the API with public links (`recheck/`, batch r1102: 19 Human Written); the fixes tried in rounds
+  2 to 5 (`recheck/round2/`, batch r1102b); our one fix in (`fixes/`); his 53 tries read in order
+  (`joel-pangram/SEQUENCES.md`); the repeats read (`redundancy/REPEATS.md`). New rules: every card links what Pangram
+  read and its own check of the suggestion (`suggestion_review.py` 1.5 refuses one without), lessons E315 to E320, and
+  tells_lint.py's O49 to O52. See the Next step.
 - **2026-11-01, after Joel's message of 22:27 UTC ("Continue my hypnosis guide work ... carry on from its next step"):
   batch s1101's windows are all fixed or carded.** Our words fixed (rounds 2 and 3, `fix-20261101/sections/fixes_round2.py`,
   `fixes_round3.py`); his words on [Hypnosis Guide Cards, 1 November (2)](https://claude.ai/artifact/V3ZgooEhJAr2ApQdsjF3Hu)
@@ -184,21 +193,13 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: **his answers to [Hypnosis Guide Cards, 1 November (2)](https://claude.ai/artifact/V3ZgooEhJAr2ApQdsjF3Hu)**
-(25 cards; 2026-11-01, after his message of 22:27 UTC), and question 27 (card W-605 may answer it). Earlier:  His answers to
-[Hypnosis Guide Cards, 1 November](https://claude.ai/artifact/C66yqEFThWQcAFtdAdLEpH) came at 20:29 UTC and are in
-(`fix-20261101/fr2-answers/APPLIED-FR2.json`), as did his answers to
-[Hypnosis Guide Cards, 30 October](https://claude.ai/artifact/RQ6cqZAF2JevtxgWgSPS9o) at 18:57 UTC
-(`fix-20261101/APPLIED-30b.json`); question 28 is decided (E306); question 27 stays open on his page. Merging pull request
-265 here, and the universal architecture's pull request 450, are his. His answers to [Hypnosis
-Guide Cards](https://claude.ai/artifact/SxZ3CYESSGw1KWJp46mRAG) came on 2026-10-30 at 14:35 UTC and are in. One
-question on his page: which list his audit comment meant ("apply the fix strategy I used above on the below:", with
-nothing after it); I took Appendix C's "any of the following" list and the recheck tests my version of it. The 83 cards of the Hypnosis Guide Editor
-(https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) he hadn't marked are retired by the rechecks. The pages his other
-account published (the old marking page TpZbfBZcwuj8PL7KFLhmjP and the "Hypnosis Guide Questions" view
-8o79MFm9vSpyMGrAeArZYx) belong to the account of session 01Mxpoi6…, which republished the questions view
-(version 3) on 2026-11-01 after his message of 22:27 UTC; from the other account, point him to `OWNER-QUESTIONS.md` on
-GitHub.
+The guide: **his answers to [Hypnosis Guide Cards, 2 November](https://claude.ai/artifact/AzBJ2kkPievVk18n4x6Tmv)** (3
+cards: W-92b his party example after the rent line, W-283b the script cut, R-638 Appendix E's prayer cut; each checked
+in Pangram, each card links its checks), and **question 28** on `OWNER-QUESTIONS.md` (may a section that used its two
+checks be checked a third time, to see a fix in place; my default a). Optional, his: signing in to Pangram in the app's
+browser if he wants his other experiments read (it is signed out; never sign in for him). Merging pull request 267 is his.
+Earlier: his answers to [Hypnosis Guide Cards, 1 November (2)](https://claude.ai/artifact/V3ZgooEhJAr2ApQdsjF3Hu) came
+at 2026-11-02 16:43 UTC and are in (`fix-20261102/APPLIED-S1101.json`); question 27 is answered by his W-605.
 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
@@ -285,7 +286,29 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-11-01, after Joel's message of 22:27 UTC: s1101's windows fixed or on his cards page)
+## Next step (2026-11-02, after Joel's answers of 16:43 UTC: his answers in, the changed sections checked, three tested cards)
+
+Done (STATUS.md's entry for 2026-11-02 has every file and number). The guide: HUMANIZED-SO-FAR.md 80b2e475 (773 blocks).
+
+Next:
+0. **His answers to [Hypnosis Guide Cards, 2 November](https://claude.ai/artifact/AzBJ2kkPievVk18n4x6Tmv)**: put them in
+   with a script that records each card's fate (as `fix-20261102/apply_answers_s1101.py` did; the edits are in
+   `fix-20261102/review/REVIEW-R1102.json`), then the comparison gate. His notes on a card's tries come with links: read
+   them in order (E318) and save the texts he points to (`joel-pangram/`).
+1. **Question 28**: if he says a), check each section a card changed a third time (sections 15 and 40 for W-92b and
+   W-283b, Appendix E for R-638), each with its prediction first; if b), the whole-guide check reads them in place.
+2. **Still at Human (Low)** (E306; none is a card): his opening of Don't rush the repair and two lines of its quote
+   (section 27; Human (High) for him by themselves), "Those belong in your relationship with it too, not just the wounds."
+   (section 15; his approved wording), and our Pattern 10 opening (section 69; both fixes read AI in their stretch,
+   r1102b-D2 and D1, so the lineage HG1102-69-P10 has four tries left, each only with a new diagnosis).
+3. **Then the whole guide**, on the Substack drafts with his extension (the secret preview links, E277).
+4. **How checks run now**: through the API on the laptop with `--public` (inbox/pangram-r1102*/: TEXTS.json, the
+   repository's pangram_api.py, SHA256SUMS; `pangram_api.py check TEXTS.json out --expect 4.1 --windows --public`); the
+   app's browser is signed out of Pangram's web app (its history API answers 401), and history pages he links are read
+   from their public API (`https://web.pangram.com/api/history/<uuid>/`). One try per lineage per round: the ledger takes
+   a lineage's next try only after its last one has a result.
+
+## Earlier next step (2026-11-01, after Joel's message of 22:27 UTC: s1101's windows fixed or on his cards page)
 
 Done (STATUS.md's entry after 22:27 UTC has every file and number): the windows in our words fixed (rounds 2 and 3), his
 words on his cards page (25 cards), the eleven ready sections checked again by themselves (r1101: six Human Written),

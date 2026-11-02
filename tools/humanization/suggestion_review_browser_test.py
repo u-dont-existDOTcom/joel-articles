@@ -185,12 +185,19 @@ def run(page_path, report_path=None):
             bare = page.evaluate("""() => Array.from(document.querySelectorAll('mark.hl:not(.leave):not(.done)')).filter(m => {
                 const b = getComputedStyle(m).backgroundColor; return !b || b === 'transparent' || b === 'rgba(0, 0, 0, 0)'; }).length""")
             ok('%s: every highlight has a colour' % scheme, bare == 0, '%d without one' % bare)
-            # next undecided
+            # next undecided (on a small page the clicks above can leave no card undecided, so the first card is set back
+            # to undecided first: 2026-11-02, the three-card page read 0 here while the button worked on a fresh page)
+            first = data['suggestions'][0]['id'].replace('.', '\\.')
+            was = page.locator('#c-' + first).get_attribute('data-status')
+            if was != 'pending':
+                page.click('#c-' + first + ' .dec.undo')
             page.evaluate('window.scrollTo(0, 0)')
             page.click('#nextBtn')
             page.wait_for_timeout(900)
             top = page.evaluate("""() => { const cs = Array.from(document.querySelectorAll('.card[data-id]')).filter(c => !c.hidden && c.offsetParent && c.dataset.status==='pending'); const vis = cs.map(c => c.getBoundingClientRect().top).filter(t => t > -5 && t < 400); return vis.length }""")
             ok('%s: Next undecided brings one to the top' % scheme, top >= 1, top)
+            if was != 'pending':   # the first card's decision back, for the export and reload checks after this
+                page.click('#c-' + first + ' .dec.' + {'approved': 'approve', 'rejected': 'reject', 'revise': 'revise'}[was])
             # export
             page.click('#saveBtn')
             page.click('#copyJson')

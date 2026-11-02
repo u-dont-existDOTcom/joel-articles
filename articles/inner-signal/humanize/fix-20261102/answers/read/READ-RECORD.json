@@ -1,0 +1,18 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "HUMANIZED-SO-FAR.md at d2e5ce23: the 10 paragraphs the 8 cards Joel approved on 2 November changed (W-92, W-111, W-119, G-23, W-270, W-271, W-283, W-289), read by the lead session beside his published version and his inner child guide, then linted (tells_lint.py); none needed rewording (E284, E294)",
+ "coverage": [
+  "5326b07e2f759e8e",
+  "797456ef0fc215c7",
+  "89aec415dc187cf6",
+  "98b3db956eeaaa0b",
+  "9f36f892d0182b4a",
+  "acce1a6ed445664b",
+  "d292231a038416f2",
+  "d3d12842624c1e20",
+  "f02eaca86c0be62b",
+  "f810f1f8e7d9e87c"
+ ],
+ "findings": [],
+ "dispositions": {}
+}

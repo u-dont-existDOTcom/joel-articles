@@ -1,0 +1,24 @@
+[
+ {
+  "key": "r1102b-B4",
+  "lineage": "HG1102-40-S",
+  "scope": "pair",
+  "words": 175,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "B3's climb (it read Human, Medium and Low), and the three echoes as three steps, each its own verb (his fix for W-589 and W-605: a sequence, not a list)",
+  "card": "W-283",
+  "sha256": "a221905a8fa09dbbcd0519b5f84a221c5a31a5b2ad7fef6a7b99abc90d20906b"
+ },
+ {
+  "key": "r1102b-D1",
+  "lineage": "HG1102-69-P10",
+  "scope": "stretch",
+  "words": 131,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "his published verbs back (\"To 'Milton Model' is to open things up\"), said a little more fully",
+  "card": null,
+  "sha256": "c776f20cf559fa7c91c097186e543944390888692e8bc68e6d0265b652e1c123"
+ }
+]

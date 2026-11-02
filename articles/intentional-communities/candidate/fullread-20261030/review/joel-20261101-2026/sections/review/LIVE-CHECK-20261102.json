@@ -1,0 +1,417 @@
+{
+ "about": "The edits (SUBSTACK-EDITS-IC1101.json, apply_ic1101.py) went into his post through its editor in the app's browser, the way the community handoff says (his Substack, signed in): each Find string occurred once, inside one run of text with no marks; the six replacements went in as one editor transaction (each old string then 0 times, each new one once); the draft saved (Substack's draft record had all six); Update, then \"Update now\" in Substack's dialog, with the audience and settings untouched. The title still reads \"Updated: Nov 1 2026\", as he set it.",
+ "post": {
+  "url": "https://ibogaqueen.substack.com/p/building-healing-community-escuelitas",
+  "editor": "https://ibogaqueen.substack.com/publish/post/198340475",
+  "title": "Building Healing Community \"Escuelitas\" to Save The World 🫶🏿🌍🫶🏿 Updated: Nov 1 2026",
+  "audience": "everyone",
+  "post_date": "2026-07-13T18:22:25.148Z",
+  "body_html_sha256": "25e514c28b6bba5855710e6b53a66747288471854ff06696eb7eb8d646bc66dc"
+ },
+ "editor_doc_sha256": {
+  "before": "d3e578587c336cd4af6cb6bbecb14e5917ebbe1198d5ab459a3d4087da21a339",
+  "after": "421a7902762364aa636c7624af6376616732aeb1ba43e7c31fc5b4cc7ddb3033"
+ },
+ "the_six_edits_live": [
+  {
+   "cards": [
+    "W-1",
+    "W-2"
+   ],
+   "find_left": 0,
+   "replace_live": 1
+  },
+  {
+   "cards": [
+    "W-2"
+   ],
+   "find_left": 0,
+   "replace_live": 1
+  },
+  {
+   "cards": [
+    "W-3"
+   ],
+   "find_left": 0,
+   "replace_live": 1
+  },
+  {
+   "cards": [
+    "W-4"
+   ],
+   "find_left": 0,
+   "replace_live": 1
+  },
+  {
+   "cards": [
+    "W-5"
+   ],
+   "find_left": 0,
+   "replace_live": 1
+  },
+  {
+   "cards": [
+    "W-5",
+    "W-6"
+   ],
+   "find_left": 0,
+   "replace_live": 1
+  }
+ ],
+ "all_six": true,
+ "live_against_working": {
+  "working": "WORKING-20261102.md, SHA-256 a6d95a913a26553ce080e677ae2faa12d1678379fc34cfb29468e54beb2a6dab",
+  "working_words": 15777,
+  "live_words": 15644,
+  "method": "the words of the live body_html (tags stripped) against the words of the working Markdown with its links, images and emphasis marks stripped, in order (difflib)",
+  "differences": 69,
+  "word_differences": 0,
+  "list": [
+   {
+    "working": "Where's Utopia Click READ MORE My father's 1988 documentary on Communal Living in USA online for first time ever Copy link",
+    "live": "",
+    "kind": "an embed's own text in the working Markdown (the editor's chrome, not the article's words)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "1",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "2",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "3",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "4",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "Professor Baby Sheep Taught Me Inner Child Shaking Therapy Copy link",
+    "live": "",
+    "kind": "an embed's own text in the working Markdown (the editor's chrome, not the article's words)"
+   },
+   {
+    "working": "Double click to interact with video",
+    "live": "",
+    "kind": "an embed's own text in the working Markdown (the editor's chrome, not the article's words)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "Double click to interact with video",
+    "live": "",
+    "kind": "an embed's own text in the working Markdown (the editor's chrome, not the article's words)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "Spirit and Mind Health Facing the Polycrisis Is There Hope For Humanity u-dont-exist com 15 novembre 2025 Read full story",
+    "live": "",
+    "kind": "an embed's own text in the working Markdown (the editor's chrome, not the article's words)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "Double click to interact with video",
+    "live": "",
+    "kind": "an embed's own text in the working Markdown (the editor's chrome, not the article's words)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "1",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "2",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "3",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "4",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "5",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "1",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "2",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "3",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "4",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "---",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   },
+   {
+    "working": "-",
+    "live": "",
+    "kind": "a horizontal rule or list number (Markdown only)"
+   }
+  ]
+ }
+}
