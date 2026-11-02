@@ -1,0 +1,29 @@
+{
+ "answers": "ANSWERS-20261102-2038.json",
+ "answers_sha256": "5702300f3a863e19596521df601cf20ad738c745d4edacc534f88ff1d7724cf0",
+ "before_sha256": "4583036068ad844b6a4f2517fab40f9bb9c033a8ae8fc09281e8a359a8b05d77",
+ "after_sha256": "28c84e9e1d54da1227a1ea2985a75a2954714b8491436c36f8cfe19241499a4d",
+ "fates": {
+  "C-141": "approved: the card's version went in",
+  "C-384": "revise: his version of Nothing happens and It feels fake through the card's paragraph went in, with his \"But seriously...\" paragraph after it; his check of it: Human Written, every window High (https://www.pangram.com/history/b7fc49b6-e142-4456-a1a5-9d0bc6c646e1)"
+ },
+ "changed_blocks": [
+  141,
+  380,
+  381,
+  383,
+  384
+ ],
+ "blocks": [
+  772,
+  772
+ ],
+ "his_checks": {
+  "with the card in, his section so far": "https://www.pangram.com/history/fe024a3a-3338-43a2-a8cc-f5d4579e6fe4",
+  "his version, the section so far": "https://www.pangram.com/history/b7fc49b6-e142-4456-a1a5-9d0bc6c646e1"
+ },
+ "typos_fixed": [
+  "the double space inside the Bush quote",
+  "the space after \"!!!\""
+ ]
+}

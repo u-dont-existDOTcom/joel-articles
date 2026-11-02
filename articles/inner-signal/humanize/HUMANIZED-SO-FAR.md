@@ -280,7 +280,7 @@ If you're not careful, you might find yourself expecting that when you go within
 
 Instead, you might feel numb, cynical, angry, suddenly hungry, like you need to look at your phone, sexually aroused, like you need to make plans, sleepy, dissociated, or you might even think that what you're doing is stupid. Those are not failures. Often what you're experiencing is a very charming guard. It's what protects you when your consciously installed parental Protector isn't functioning, the same as when you were a child. It might not be a guard at all, though. Maybe it's your inner child, mad that you took so long to come back. Maybe it's your inherited parent script, or something from earlier today, or a bit of each.
 
-Talk to the guard the way your Nurturer talks to your inner child: “I see you. I'm not going to force my way past you. What's going on?” Then wait and listen patiently. If nothing comes back, that's okay, you don't need to push for an answer. Later on, you can ask it, “What are you afraid would happen if you stopped protecting me by…?”
+You can tell that part something like, “I see you. I'm not going to force my way past you. What's going on?” Or however you'd actually say that. Then wait and listen patiently. If nothing comes, that's fine for now. No need to answer for that part just because you'd set this up as a healing session. Later on, you can ask it, “What are you afraid would happen if you stopped protecting me by…?”
 
 If necessary, take time and listen. (Perhaps they are afraid that you will lie to yourself again or pretend again or that it will be too painful or you will spiritually bypass again or you will forgive someone who shouldn’t be forgiven yet or you will see what you want to see or that you will leave them hanging after the session or…)
 
@@ -758,15 +758,15 @@ Remember: not everything in hypnotic imagery is literal, especially if it relate
 
 ## Nothing happens
 
-Check if there's a way you could try this on a smaller scale.
-
-Try out these requests: “Show me a body sensation.” “Show me just a word.” “Show me whether today is for listening or resting.”
+Don't fret, even for the greatest masters, nothing happens many times. After all, only like 50% of people are very suggestible. But sometimes it's just confusing when you throw everything at yourself at once. Check if there's a way you could try this on a smaller scale, maybe starting with, “Show me whether today is for listening or resting.”
 
 ## It feels fake
 
-Do you have a sense of what it is that feels fake? The words, an image, what you are expecting to get from this, a role you feel you have to play etc. Not having an inner voice or images doesn't mean you're resisting the work, or that you're missing a 'grown up'. If it feels like you are being asked to do something you don't want to do, then correct the invitation. It could be that there is a part that is protecting you, so talk to it.
+Well, what do you mean "it"... do you have a sense of what it is that feels fake? The words, an image, what you are expecting to get from this, a role you feel you have to play etc. Not having an inner voice or images doesn't mean you're resisting the work, or that you're missing a 'grown-up'. If it feels like you are being asked to do something you don't want to do, then correct the invitation. It could be that there is a part that is protecting you, so talk to it.
 
-You could say something like 'What are you protecting me from?' or 'Are you afraid I will lie to myself again?' or 'Are you afraid this will just be a performance?' If it says yes, that can sting, because there could be something to it. Maybe you've fooled yourself before, and that part of you remembers it. "Tell me what you remember, I'm listening." works well here.
+You could say something like 'What are you protecting me from, helicopter mom?' or 'Are you sus because you think this will just be a silly performance?' If it says yes, that one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part remembers. But as ex-US-President George W. Bush wisely explained, "Fool me once, shame on — shame on you. Fool me — you can't get fooled again." !!!
+
+But seriously... you can then say, "Tell me what you remember, I'm listening." It puts you into the role of the Nurturer, which alleviates the instinct to argue back.
 
 It could also be your inherited parent script that you are picking up, and it is trying to enforce a rule about how you should be to belong to them. Find out what rule it is enforcing. Comfort your little one before you answer any of it. Your answers can be firm or funny, as long as they aren’t mean. Then work on finding some ordinary evidence to build a more believable 'grown up' voice of your own.
 
