@@ -1,0 +1,26 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "3f6d17b5167fd4282c1931c80b1c388bcad0501c6f9f7ec4de853303da56a099",
+  "context_sha256": "7026366fdfaca3b67dde74ee7a9e115fe870041af3389cc42f5bd9b782f2ab6c",
+  "source_sha256": "ffa0c89587aa99dccc60a7650c6e3f1459c9cefd234be7bbf32c64fe669301b1",
+  "verdict": "FAIL",
+  "unresolved": [
+    "His figure is replaced: “build our whole life around this wound forever” (the wound as what the whole life is organised around) became “moving into this wound for good” (living inside the wound); “whole life” is gone and the writer’s own notes call the image new.",
+    "Who does what changes: the speaker’s own “I’m … not going to build” became a joint “We’re not moving into”, so the hurt part joins the subject.",
+    "“But I’m also” became “either”: his turn from reassurance to limit is lost, so the line can read as a second reassurance."
+  ],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+    "context_id": "w1102f-gate-preservation-subagent-a",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-11-02 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Judged: DRAFT “We’re not moving into this wound for good, either.” against SOURCE “But I’m also not going to build our whole life around this wound forever.”, read inside CONTEXT (the quote “I’m not going to use spiritual mumbo jumbo to shush your cries and make you forgive before you're ready. We’re not moving into this wound for good, either.”). Mechanics are fine: the draft is exactly the replacement the_change describes, appears once in CONTEXT.txt, keeps the closing quote mark and the curly apostrophe of the quote’s other contraction, and his first sentence is untouched. No claim, number, condition or new person is added. Kept: “this wound”, “forever” as “for good”, the refusal itself. Not kept: (1) His figure. “build our whole life around this wound” makes the wound what the whole life is organised around (it echoes the paragraph above, “allowing the injury to dictate how we live our lives”); “moving into this wound for good” has the two of us living inside the wound (it echoes “remain in the anger forever”). These are neighbouring claims, not one: a life can be organised around a wound without anyone dwelling in the pain, and someone can dwell in the pain without the life being built around it. The writer’s own ADMISSION.json calls the image “new” and states the point as “the wound doesn’t get to run the whole life”, yet “whole life” is said nowhere in the draft. (2) Who does what. His “I’m … not going to build” is the speaker’s own refusal; “We’re not moving into” makes it joint, so the speaker no longer holds it alone and the hurt part joins the subject. (3) “But I’m also” becomes “either”: the turn from the first half’s reassurance to a limit is lost, so the second half can read as one more reassurance in the same direction. Each difference is small, but together they make the second half a neighbouring sentence rather than his, and the only reason to touch a line that read Human (High) by itself is the detector, which cannot license a shift in meaning. Tells (T01 to T29 and C01 to C04 judged on the draft in its context): PRESENT T12 only. The two refusals are still a balanced pair, but that pair is the section’s own necessary contrast (no bypass, not staying in the anger) and it is looser than in his line (different subject, no “But … also … not going to” mirror), so I judge it justified. T09 and T13 (the D9 hint): absent at this scale, the quote’s first half keeps his voiced, uneven “spiritual mumbo jumbo to shush your cries”. T20: absent, a plain 9-word close after a much longer sentence, “either” trails off instead of landing, and the neighbouring paragraphs end on long sentences. T26, T27 and C02 (a “we” right after “I” and “your”, read as speaker plus hurt part): absent. Lint: “B7 short landing at paragraph end” accepted, because the quote is one utterance whose last sentence was always the paragraph’s end and there is no run of short closers; “D9 follows the source order” accepted, because one clause is replaced in place so the order is his. I could not check the detector runs the_change cites (w1102f-84, w1102f-B) and did not rely on them. FAIL is on preservation only: a version that keeps his figure and his “I” and changes only the frame would keep his line.",
+  "resolved_tell_ids": [
+    "T12"
+  ],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order"
+  ]
+}

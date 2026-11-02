@@ -38,7 +38,7 @@ To work on difficulties or cultivate positive qualities (love, curiosity, play, 
 
 Prior to your first session, read through the induction and the full return to waking life, so you’re more familiar with them. Then put the screen away. You’re learning to run the practice yourself, not reading from a teleprompter like a news anchor person.
 
-You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - and let it shape your next invite. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return to normal waking consciousness. After, note what happened & any real-world actions it calls for.
+Follow whatever shows up, even if it’s an objection or a long silence, and let it shape what you invite next. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return to normal waking consciousness. After, note what happened & any real-world actions it calls for.
 
 If at any point you feel panicky, disoriented, more unreal, or less functional, this is not the time for bravely sticking with difficult feelings (that's another choice, made freely & while staying present). Stop deepening, return to the room & get appropriate support.
 
@@ -82,7 +82,7 @@ My friend P. has a friend named V. V. is a 33rd-degree Free Mason. V. has the ab
 
 # Keep the Adult Part of Yourself in Charge
 
-Don’t let a strong state, a charismatic person, a sexual charge, a spiritual claim or any other authority take the place of the adult part of yourself. Legitimate influence can stand up to questions, sleep, boundaries and time.
+Don’t let a strong state, a charismatic person, a sexual charge, a spiritual claim or any other authority take the place of the adult part of yourself. If it’s legit, it’ll still make sense after you’ve slept on it and asked all your annoying questions, and it can take a no and wait.
 
 # Affirmations Done Right
 
@@ -278,7 +278,7 @@ Use parts language here too, if it helps. Often, we see a sensation or a distrac
 
 If you're not careful, you might find yourself expecting that when you go within to meet your inner child, you'll find your inner child.
 
-Instead, you might feel numb, cynical, angry, suddenly hungry, like you need to look at your phone, sexually aroused, like you need to make plans, sleepy, dissociated, or you might even think that what you're doing is stupid. Those are not failures. Often what you're experiencing is a very charming guard. It's what protects you when your consciously installed parental Protector isn't functioning, the same as when you were a child. It might not be a guard at all, though. Maybe it's your inner child, mad that you took so long to come back. Maybe it's your inherited parent script, or something from earlier today, or a bit of each. So before you decide where it's coming from, ask it. What is it trying to stop? What does it want from you?
+Instead, you might feel numb, cynical, angry, suddenly hungry, like you need to look at your phone, sexually aroused, like you need to make plans, sleepy, dissociated, or you might even think that what you're doing is stupid. Those are not failures. Often what you're experiencing is a very charming guard. It's what protects you when your consciously installed parental Protector isn't functioning, the same as when you were a child. It might not be a guard at all, though. Maybe it's your inner child, mad that you took so long to come back. Maybe it's your inherited parent script, or something from earlier today, or a bit of each.
 
 Talk to the guard the way your Nurturer talks to your inner child: “I see you. I'm not going to force my way past you. What's going on?” Then wait and listen patiently. If nothing comes back, that's okay, you don't need to push for an answer. Later on, you can ask it, “What are you afraid would happen if you stopped protecting me by…?”
 
@@ -508,7 +508,7 @@ You can read this slowly into your recorder, or you can read it out loud or say 
 
 Script:
 
-You can allow your eyes to rest on something in the room for a bit. Notice the difference between looking for something and letting what's already there come into view.
+Let your eyes rest on something in the room for a bit, maybe a doorknob or a spot on the wall. Notice the difference between looking for something and letting what's already there come into view.
 
 You can allow yourself to notice something you can feel, like the sensation of something under you, and notice the sensation of the contact, the pressure. Or maybe there is a sound, or something else to notice.
 
@@ -528,7 +528,7 @@ Count 5 to 1, taking your time if you like.
 
 5. Let your attention come back to your chosen anchor. 4. Let more of your attention come to what you've found. 3. Leave a little space. 2. See if you can listen to a space after the words without preparing an answer. 1. Take your time.
 
-Bring to mind, if you want, the thing that you want to talk about, or just the wish to have inner contact. Just let it be there for now. You don't need to tell the whole story yet.
+Bring to mind, if you want, the thing that you want to talk about, or just the wish to have inner contact, and let it sit there without telling the whole story yet.
 
 What do you notice now?
 

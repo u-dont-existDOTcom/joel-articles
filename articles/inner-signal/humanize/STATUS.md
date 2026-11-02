@@ -1,5 +1,36 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-11-02, after Joel's message of 19:11 UTC: 28a and 29a; the dates in both posts; the w1102 windows round
+
+His message (`fix-20261102/joel-20261102-1911-message.txt`): "29a yes you can always update that date when updating a
+post of course, but you're saying we still ahve to fix some stretches" and "28a". **The mailbox first**
+(`state/MAILBOX.json`, "2026-11-02 19:11"): pull request 268 merged by him at 19:10 UTC; nothing else new.
+
+**29a** (`fix-20261102/live/record_dates.py`, DATES-20261102.json): the subtitle box in the post's editor, the saved draft's
+body equal to the published one, Update, "Update now"; the public post says "Last update: Nov 2, 2026, v. 7.0" and its
+body is unchanged. His rule is standing (E323), so the community post's title went from "Updated: Nov 1 2026" to "Updated:
+Nov 2 2026" the same way (its body differed only by the editor's default "cover_image_crop": null in three post embeds).
+
+**28a** (`tools/humanization/pangram_ledger.py` `--after-fix`, test in `tests/test_pangram_ledger.py`): a section past its
+two tries takes one more check after a fix, never of a text it has already sent.
+
+**The windows round** (`fix-20261102/whole/read_w1102.py`, WINDOWS.md: 32 windows, each with its blocks, its section and
+whose words; `fix-20261102/w1102fix/`): fixes_w1102.py (13 of ours, 4 card suggestions, 6 windows kept with reasons),
+batch w1102f (make_w1102f.py; 12 sections and both halves, through the API with public links, RESULTS.md). Six sections
+read fully Human; six read worse than before (02 AI Detected 21.9%, 38 AI Detected 18.2%, 79 AI Detected 18.5%, 34, 37 and
+69 Mostly Human), each miss explained in the ledger. The halves, with every fix in: 1.8% and 1.1% AI (try 2 of 2, both
+called right). In the guide (apply_w1102f.py, APPLIED-W1102F.json, every edit's fate; read record `w1102fix/read/`;
+comparison gate PASS): F-20, F-42, F-140, F-255, F-265; HUMANIZED-SO-FAR.md a789009c to 45830360. Reverted: F-11, F-16,
+F-218, F-251, F-253, F-527, F-528; F-216 waits. Cards on [Hypnosis Guide Cards, 2 November (2)](https://claude.ai/artifact/DsWJ3E4voqJPNZscZXGMHG) (build_page_w1102.py,
+REVIEW-W1102.*; browser test 76 of 76, after the test learned pages of two cards): C-141 and C-384, his inner child guide's
+lines as he wrote them. Not cards: C-672 (his forgiveness quote) read Human in its section and the whole, but the
+owner-delivery gate's preservation review failed it, two cold reads passing (`w1102fix/gate/GATE.md`); C-626 withdrawn
+(his line read AI (High) here). Lesson E324.
+
+Predictions: w1102f 8 of 14 (6 section misses, each explained). Delegations (model, piece, check, outcome): Sonnet, three
+fresh reviewers of C-672 for the owner-delivery gate (preservation, two cold reads), checked by `owner_delivery_gate.py
+check`; preservation FAIL (three real losses of meaning), both cold reads PASS, so C-672 was held back.
+
 ## 2026-11-02, after Joel's message of 18:16 UTC: his three cards in; the whole guide checked; the guide live in his post; his Pangram history read
 
 His message (`fix-20261102/joel-20261102-1816-message.txt`): "i signed back into one of my pangrams if you want to learn

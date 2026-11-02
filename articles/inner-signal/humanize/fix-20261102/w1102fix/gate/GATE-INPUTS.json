@@ -1,0 +1,23 @@
+{
+ "G-672": {
+  "folder": "articles/inner-signal/humanize/fix-20261102/w1102fix/gate/G-672",
+  "the_change": "In his own quote to the hurt part (his answer to card W-685 of 2 November), the second half \"But I’m also not going to build our whole life around this wound forever.” becomes \"We’re not moving into this wound for good, either.” The quote read Human (High) for him by itself and AI (High) in the whole guide (w1102); the AI pattern is the matched pair \"I’m not going to ... But I’m also not going to ...\". With the change, the section reads Human Written, 0% AI (w1102f-84), and the whole half no longer flags it (w1102f-B).",
+  "candidate_sha256": "3f6d17b5167fd4282c1931c80b1c388bcad0501c6f9f7ec4de853303da56a099",
+  "context_sha256": "7026366fdfaca3b67dde74ee7a9e115fe870041af3389cc42f5bd9b782f2ab6c",
+  "source_sha256": "ffa0c89587aa99dccc60a7650c6e3f1459c9cefd234be7bbf32c64fe669301b1",
+  "lint_findings": [
+   {
+    "label": "B7 short landing at paragraph end",
+    "examples": [
+     "We’re not moving into this wound for good, either.”"
+    ]
+   },
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ }
+}

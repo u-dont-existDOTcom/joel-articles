@@ -18,6 +18,7 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-02, after Joel's message of 19:11 UTC: the lightest fix tried, and question 1 waits on him.** Part 1 C to E with the template taken off and every claim kept read [AI Detected, 90.6% AI](https://www.pangram.com/history/8a5c6453-c6f1-4ab3-b713-51e54e3550f2) (`fix-20261102/s04/`). Question 1 (`OWNER-QUESTIONS.md`, published as Neuro De-Armoring Questions, https://claude.ai/artifact/8cWv5mbXY8y53RL1nhvzky) asks how freely the science sections may be rewritten. When the post is updated, its title's "v5.1 (Sept 10, 2026)" changes too (gate E323).
 - **2026-11-02: the lane is set up and the baseline is checked.** The article is registered (`articles/INDEX.json`,
   `articles/neuro-de-armoring/`: master.md is his post as it stands, IMPORT-RECEIPT-20261102.md). The baseline, through
   the API with public links (`fix-20261102/baseline/`, batch n1102, RESULTS.md): every one of the ten sections reads AI
@@ -39,7 +40,17 @@ All of the article is his published post. His queue's rule: "Paragraphs that alr
 stay exactly as they are." Everything else is rewritten in his register and reaches him as cards, each tested first. The
 Scott passages, the introduction and the D-serine paragraph in Part 4 sound most like him.
 
-## Next step (2026-11-02: the baseline is in)
+## Next step (2026-11-02, after Joel's message of 19:11 UTC: question 1)
+
+0. **His answer to question 1** decides the rewrite: a) freely in his voice, every claim, compound, dose, unit, timing and
+   warning kept (fidelity_keys.py check), nothing invented (C03), one card per section; b) his own lines first, then the
+   rest fitted around them; c) only Parts 2 to 5. Whatever he says, each section is checked in Pangram before it reaches
+   him; ND1102-04 has used both its section tries, so its next check is the one more check after a fix that his answer
+   28a gives a section (`pangram_ledger.py predict --after-fix`).
+1. **Then the cards** (suggestion_review.py, one card per section, the fidelity check's PASS on each), the owner-delivery
+   gate for every model-written card (three fresh reviewers, as in `articles/inner-signal/humanize/fix-20261102/w1102fix/gate/`).
+
+## Earlier next step (2026-11-02: the baseline is in)
 
 0. **The mailbox first** (`state/MAILBOX.json`, `lane_push.py --mailbox`), as in the other lanes.
 1. **Section by section, the AI windows** (`fix-20261102/baseline/RESULTS.md`: 95 AI windows in the whole): start with the

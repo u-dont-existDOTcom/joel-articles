@@ -1,0 +1,290 @@
+{
+ "guide_with_edits_sha256": "f183275ab20e6f54544d9ba1266bd3d27b3397deb7fef4fdff748934c8a5d2e2",
+ "sections": [
+  {
+   "key": "w1102f-02",
+   "section": "s1101-02",
+   "name": "The table of contents is hiding on the left / Introduction",
+   "blocks": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "edits": [
+    "F-11",
+    "F-16"
+   ],
+   "words": 516,
+   "sha256": "f6f829baa8e13218ed5f2c99504f5bd4ebc123036a03e68bd7bd0c319dded8c9"
+  },
+  {
+   "key": "w1102f-03",
+   "section": "s1101-03",
+   "name": "Quick start: do this first",
+   "blocks": [
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "edits": [
+    "F-20"
+   ],
+   "words": 200,
+   "sha256": "c1ea39e8e211a7bcb59112fc709aa80a5d0266f4c697f7bb110f38a33989f86b"
+  },
+  {
+   "key": "w1102f-07",
+   "section": "s1101-07",
+   "name": "The Most Extreme Example / Keep the Adult Part of Yourself in Charge",
+   "blocks": [
+    37,
+    38,
+    39,
+    40,
+    41,
+    42
+   ],
+   "edits": [
+    "F-42"
+   ],
+   "words": 162,
+   "sha256": "c5c124f4271c65727d5784316cfd1928807570ce63ecd1dddd05071c2be5a1cc"
+  },
+  {
+   "key": "w1102f-23",
+   "section": "s1101-23",
+   "name": "Working with your guards",
+   "blocks": [
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144
+   ],
+   "edits": [
+    "F-140",
+    "C-141"
+   ],
+   "words": 461,
+   "sha256": "f70d7c839f848e33a4065014ce68667ead7d0609c1f01ef4e841090a80956814"
+  },
+  {
+   "key": "w1102f-33",
+   "section": "s1101-33",
+   "name": "If you sense you are being influenced",
+   "blocks": [
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216
+   ],
+   "edits": [
+    "F-216"
+   ],
+   "words": 258,
+   "sha256": "14bea394f48f794659c01aa8e43fc0ca92438f0896bd45cf55f8d696013af6df"
+  },
+  {
+   "key": "w1102f-34",
+   "section": "s1101-34",
+   "name": "Soft language can still take away choice",
+   "blocks": [
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229
+   ],
+   "edits": [
+    "F-218"
+   ],
+   "words": 434,
+   "sha256": "2ba718fb088c8d3a673bc382fa58cf2c98d0fcbfa9d1ac82e34c82417555e970"
+  },
+  {
+   "key": "w1102f-37",
+   "section": "s1101-37",
+   "name": "Before you begin",
+   "blocks": [
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250
+   ],
+   "edits": [
+    "F-251"
+   ],
+   "words": 551,
+   "sha256": "f7b86ea21495a744916c9f988dee4762216a7b66c5c4cb2cf7088e7355d5bd69"
+  },
+  {
+   "key": "w1102f-38",
+   "section": "s1101-38",
+   "name": "Sober induction: 3–5 minutes",
+   "blocks": [
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267
+   ],
+   "edits": [
+    "F-253",
+    "F-255",
+    "F-265"
+   ],
+   "words": 458,
+   "sha256": "58019309c8dae5598a169d5bfadb7ad28c9468f79b7ab94e25ec3c98680a5aab"
+  },
+  {
+   "key": "w1102f-55",
+   "section": "s1101-55",
+   "name": "Troubleshooting / Nothing happens / It feels fake",
+   "blocks": [
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385
+   ],
+   "edits": [
+    "C-384"
+   ],
+   "words": 408,
+   "sha256": "03013c790368e95715294a28f567b8aadc1bbb96c37e5e76d6f86dd24e58861c"
+  },
+  {
+   "key": "w1102f-69",
+   "section": "s1101-69",
+   "name": "The Milton Model, minus the covert sales seminar",
+   "blocks": [
+    489,
+    490,
+    491,
+    492,
+    493,
+    494,
+    495,
+    496,
+    497,
+    498,
+    499,
+    500,
+    501,
+    502,
+    503,
+    504,
+    505,
+    506,
+    507,
+    508,
+    509,
+    510,
+    511,
+    512,
+    513,
+    514,
+    515,
+    516,
+    517,
+    518,
+    519,
+    520,
+    521,
+    522,
+    523,
+    524,
+    525,
+    526,
+    527,
+    528
+   ],
+   "edits": [
+    "F-527",
+    "F-528"
+   ],
+   "words": 1235,
+   "sha256": "5ce86d132445831f7cd56dc9ab0839f845ec3b964c068de6dcec5dee133f545e"
+  },
+  {
+   "key": "w1102f-79",
+   "section": "s1101-79",
+   "name": "Inner child love / Anxiety script",
+   "blocks": [
+    624,
+    625,
+    626,
+    627,
+    628,
+    629,
+    630
+   ],
+   "edits": [
+    "C-626"
+   ],
+   "words": 217,
+   "sha256": "3174958724c71db31be9445d047edeae5beaf6382c02c5d90ce3f6af4cec2916"
+  },
+  {
+   "key": "w1102f-84",
+   "section": "s1101-84",
+   "name": "Forgiveness without bypass / Forgiving yourself",
+   "blocks": [
+    669,
+    670,
+    671,
+    672,
+    673,
+    674
+   ],
+   "edits": [
+    "C-672"
+   ],
+   "words": 242,
+   "sha256": "8dd1ef6eaf66ff53b282f2e1bb0d4ef26304aa5099e5f3beb58b85d9d375a455"
+  }
+ ]
+}

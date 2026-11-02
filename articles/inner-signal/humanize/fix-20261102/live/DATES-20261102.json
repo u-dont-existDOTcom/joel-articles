@@ -1,0 +1,26 @@
+{
+ "about": "His words (`../joel-20261102-1911-message.txt`): \"29a yes you can always update that date when updating a post of course\". Question 29 a) was the hypnosis guide's subtitle, \"Last update: Sept 16, 2026, v. 6.1\" to \"Last update: Nov 2, 2026, v. 7.0\". \"you can always update that date when updating a post\" is a standing rule (gate E323), so the community post, updated today twice (his six card edits and his fix of question 67), had its title's \"Updated: Nov 1 2026\" made \"Updated: Nov 2 2026\" too.",
+ "hypnosis": {
+  "url": "https://ibogaqueen.substack.com/p/guide-to-self-hypnosis-and-app-including",
+  "post_id": 202810155,
+  "subtitle": {
+   "before": "You won't find a hypnosis guide like this anywhere. Last update: Sept 16, 2026, v. 6.1",
+   "after": "You won't find a hypnosis guide like this anywhere. Last update: Nov 2, 2026, v. 7.0"
+  },
+  "body_html_sha256": "f014f7b80735120c97cc2065808afcdc7ae13d7dff71bbc2d65116bc8d842ac5",
+  "body": "unchanged (as in POST-AFTER.json)"
+ },
+ "community": {
+  "url": "https://ibogaqueen.substack.com/p/building-healing-community-escuelitas",
+  "post_id": 198340475,
+  "title": {
+   "before": "Building Healing Community \"Escuelitas\" to Save The World 🫶🏿🌍🫶🏿 Updated: Nov 1 2026",
+   "after": "Building Healing Community \"Escuelitas\" to Save The World 🫶🏿🌍🫶🏿 Updated: Nov 2 2026"
+  },
+  "body_html_sha256": {
+   "before": "c804501598df41646370af9dde760dac6718d448009fe84a0cc0b8d4688a09c1",
+   "after": "e5cf71399ced3cb27af571acc3af3682dbf6c2fcc260bdd070e80774e6ec5368"
+  },
+  "body": "the words unchanged; three post embeds' data gained \"cover_image_crop\": null, the editor's default, and without it the HTML is the copy read after question 67, byte for byte"
+ }
+}
