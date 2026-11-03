@@ -10,13 +10,14 @@ INTRO = [
     'recorded. This page carries out your structure answer, A: the Quick Bad Trip Checklist keeps each step\'s heading '
     'and one or two of your lines, step 1 keeps its danger signs in full, and each step ends with a link to the section '
     'that has the rest. The Longer Triage goes; the few things only it says move into the long part.',
-    'Three cards at the end turn your round-1 answers into lines (Q-3 and Q-6, in your words as far as I could keep '
-    'them, and your advice to try the remedies in low doses first). Nothing changes until you approve it. Humanizing '
-    'starts after this round, with your three new rules: AI quips go or get humanized, "one ordinary" goes everywhere, '
-    'and "X does not Y" gets changed.',
+    'Four cards at the end turn your round-1 answers into lines (Q-3 and Q-6, in your words as far as I could keep '
+    'them, and your advice to try the remedies in low doses first), and SF-8, from your message of 22:04, cuts DMSO\'s '
+    'blood-thinner line. Nothing changes until you approve it. Humanizing starts after this round, with your three new '
+    'rules: AI quips go or get humanized, "one ordinary" goes everywhere, and "X does not Y" gets changed.',
 ]
 
 TYPES['words'] = {'label': 'From your answer', 'about': 'a line drafted from what you wrote in round 1, for your OK'}
+TYPES['checked'] = {'label': 'Warning checked', 'about': 'a warning checked against the studies, at your request'}
 
 
 def more(before_bid, slug, title, cid):
@@ -369,7 +370,7 @@ card(id='AN-Q3a', type='words', advice='approve', title='DMSO and harmalas, in y
           'at the same time, but it\'s totally fine to take them a bit apart like and there is no reason to take them '
           'together anyway the point is to take dmso if you already absorbed the harmalas and the aya is too crazy." I left '
           'out "there is no reason to take them together anyway", since the rest says it.'),
-     stays='The rest of DMSO\'s interactions, the blood-thinning line included.',
+     stays='The rest of DMSO\'s interactions (SF-8, next, is the card on the blood-thinning line).',
      deciding='Any word of it you\'d say differently (your words keep the apostrophes you typed).',
      advice_note='Approve, or revise it in your words.', found_by='your answer to Q-3',
      edits=[replace_words(P('B205', 2), 'Don’t take it with drugs that should not absorb rapidly, including corticosteroids, NSAIDs, '
@@ -395,7 +396,8 @@ card(id='AN-Q3b', type='words', advice='approve', title='A possible bleed, in yo
           'blood thinner" (PubMed: [Asmis et al. 2010](https://doi.org/10.1016/j.bbrc.2009.12.102)). I found no study '
           'of bleeding in people taking it by mouth, so the line stays your experience.'),
      stays='The rest of the stroke paragraph.',
-     deciding='Whether it belongs here or with the DMSO section\'s blood-thinning line.',
+     deciding=('Whether it belongs here, or in DMSO\'s interactions where the blood-thinning line is now (SF-8 cuts that '
+               'line; if you approve both, these lines would be the guide\'s only word on DMSO and bleeding).'),
      advice_note='Approve, or revise it in your words.', found_by='your answer to Q-3',
      edits=[replace_words(P('B106'), 'because the symptoms improved enough to feel reassuring.',
                           'because the symptoms improved enough to feel reassuring. If someone is worried about a bleed, I\'d '
@@ -404,6 +406,26 @@ card(id='AN-Q3b', type='words', advice='approve', title='A possible bleed, in yo
                           'issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding '
                           'is already a medical issue I\'d want to think about that more.')],
      spans=[span_of(P('B106'), 'DMSO cannot identify whether the problem is a clot, a hemorrhage')])
+
+card(id='SF-8', type='checked', advice='approve', title='DMSO and blood thinners: the line goes (your message of 22:04)',
+     what=('The last of DMSO\'s interactions goes: "Don’t combine it with blood-thinning medication because DMSO also thins '
+           'the blood."'),
+     why=('You wrote: "hm so maybe we could remove the blood thinner dmso warning". According to PubMed, what\'s behind it '
+          'is lab work. In donated human blood, DMSO made platelets stick about 15% less under flow and cut their '
+          'aggregation about 6%, partly by acting on COX-1, the enzyme aspirin blocks (the human platelet study your '
+          'chest-pain section links: [Asmis et al. 2010](https://doi.org/10.1016/j.bbrc.2009.12.102)). In mice it kept '
+          'an injured artery from clotting shut (the tissue-factor study it links: [Camici et al. '
+          '2006](https://doi.org/10.1161/CIRCULATIONAHA.106.638460)). I found no study of bleeding in people taking '
+          'DMSO, alone or with a blood thinner. So the effect is real in the lab and mild, and "also thins the blood" '
+          'claims more than anyone has shown in people.'),
+     stays=('The chest-pain section\'s science, with both studies linked, and your bleed lines in the stroke paragraph if '
+            'you approve AN-Q3b ("if bleeding is already a medical issue I\'d want to think about that more").'),
+     deciding='Whether someone already on a blood thinner needs a line of their own here, or your AN-Q3b lines cover them.',
+     advice_note=('Approve. Nothing shows a danger in people, and AN-Q3b keeps a caution for someone whose bleeding is '
+                  'already a medical issue.'),
+     found_by='your message of 22:04',
+     edits=[cut_block(P('B205', 4))],
+     spans=[whole(P('B205', 4))])
 
 card(id='AN-Q6', type='words', advice='approve', title='Ocean water and charcoal water, in your words (your answer to Q-6)',
      what=('"These work similarly to ocean water." becomes: "I honestly can\'t say how different these are from ocean water, '

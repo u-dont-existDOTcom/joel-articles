@@ -1,6 +1,6 @@
 # Bad Trips guide: questions for Joel
 
-Updated 2026-11-03 (turn 2, his answers of 18:59 UTC in). Status: **open** = waiting on you, **next** = I do it once you
+Updated 2026-11-03 (turn 3, his messages of 22:04 and 22:05 UTC in). Status: **open** = waiting on you, **next** = I do it once you
 answer, **done** = answered.
 Answer on the marking page (Bad Trips Guide, Round 2), or under a card's name in a message.
 
@@ -8,8 +8,13 @@ Answer on the marking page (Bad Trips Guide, Round 2), or under a card's name in
 
 1. **open — Round 2's page.** Your structure answer (A) step by step: each checklist step as it would read (CL-1 to
    CL-15), the Longer Triage folded into the long part (LT-1 to LT-5), and four lines drafted from your round-1 answers
-   (AN-Q3a and AN-Q3b for DMSO, AN-Q6 for ocean water, AN-Q1 for low doses first).
-2. **next — The quick triage in the web app.** You'd like to move it there, but aren't sure the GPT-made app will give
+   (AN-Q3a and AN-Q3b for DMSO, AN-Q6 for ocean water, AN-Q1 for low doses first). Since your message of 22:04 it also has SF-8:
+   DMSO's blood-thinner line goes. What's behind that line is lab work (a mild platelet effect in donated blood, no clot
+   in an injured mouse artery), and I found no study of bleeding in people taking DMSO.
+2. **open — The agmatine warnings** (in the neuro de-armoring protocol). Checked one by one, with each study linked:
+   [the agmatine check](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t02-warnings/AGMATINE-WARNINGS-CHECK.md).
+   Which ones go is yours to say, and the neuro de-armoring lane, which owns that protocol, puts it in.
+3. **next — The quick triage in the web app.** You'd like to move it there, but aren't sure the GPT-made app will give
    the advice (its safety guardrails). Once round 2 is in, I can put the checklist's situations to the app and list what
    it refuses or changes, so you can decide with that in hand.
 
@@ -20,8 +25,11 @@ recorded with the baseline.)
 
 ## Decisions on record
 
-His answers of 2026-11-03 18:59 UTC to round 1 (`review/r01/ANSWERS-R01-20261103-1859.json`; his message word for word
-in `experiments/t01-answers/JOEL-MESSAGE-20261103-1859.md`):
+His messages of 2026-11-03 22:04 and 22:05 UTC ([experiments/t01-answers/JOEL-MESSAGE-20261103-2204.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t01-answers/JOEL-MESSAGE-20261103-2204.md)): "maybe
+we could remove the blood thinner dmso warning" (round 2's SF-8) and "check the agmatine warnings" (item 2 above).
+
+His answers of 2026-11-03 18:59 UTC to round 1 ([review/r01/ANSWERS-R01-20261103-1859.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r01/ANSWERS-R01-20261103-1859.json); his message word for word
+in [experiments/t01-answers/JOEL-MESSAGE-20261103-1859.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t01-answers/JOEL-MESSAGE-20261103-1859.md)):
 
 - **ST-1: A.** The checklist keeps each step's heading and one or two of his lines with a link; the Longer Triage goes.
 - **Q-1: smell first** ("smell it first for sure, that's like an allergy test"); his advice to try every remedy in low,
@@ -36,5 +44,5 @@ in `experiments/t01-answers/JOEL-MESSAGE-20261103-1859.md`):
 - **Q-8: (a)**, the support lines stay in Get One Human Anchor.
 - **The 31 change cards**: all approved, RP-4 with his line kept in his words, SF-2 left as advised, RP-13 cut at his
   word ("remove it"). Three new rules came with them, for every article: AI quips go or get humanized; "one ordinary"
-  goes everywhere; "X does not Y" gets changed (`docs/HUMANIZATION-GATE.md`; `tools/humanization/tells_lint.py` O46
+  goes everywhere; "X does not Y" gets changed ([docs/HUMANIZATION-GATE.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/docs/HUMANIZATION-GATE.md); [tools/humanization/tells_lint.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/tools/humanization/tells_lint.py) O46
   and X1).

@@ -790,7 +790,7 @@ The page's cards as text, in the order of the guide. Built 2026-11-03 from [the 
 
 **What stays:** The rest of the stroke paragraph.
 
-**For you to weigh:** Whether it belongs here or with the DMSO section's blood-thinning line.
+**For you to weigh:** Whether it belongs here, or in DMSO's interactions where the blood-thinning line is now (SF-8 cuts that line; if you approve both, these lines would be the guide's only word on DMSO and bleeding).
 
 **My advice:** Approve, or revise it in your words.
 
@@ -854,11 +854,33 @@ The page's cards as text, in the order of the guide. Built 2026-11-03 from [the 
 
 **Why:** Your answer: "don't take DMSO literally with harmalas like don't put the harmala in the dmso or take them exactly at the same time, but it's totally fine to take them a bit apart like and there is no reason to take them together anyway the point is to take dmso if you already absorbed the harmalas and the aya is too crazy." I left out "there is no reason to take them together anyway", since the rest says it.
 
-**What stays:** The rest of DMSO's interactions, the blood-thinning line included.
+**What stays:** The rest of DMSO's interactions (SF-8, next, is the card on the blood-thinning line).
 
 **For you to weigh:** Any word of it you'd say differently (your words keep the apostrophes you typed).
 
 **My advice:** Approve, or revise it in your words.
 
 *Found by: your answer to Q-3.*
+
+## SF-8: DMSO and blood thinners: the line goes (your message of 22:04) (Warning checked)
+
+*DMSO, P11*
+
+**What changes:** The last of DMSO's interactions goes: "Don’t combine it with blood-thinning medication because DMSO also thins the blood."
+
+**Now** (the words it changes in bold):
+
+> **Don’t combine it with blood-thinning medication because DMSO also thins the blood.**
+
+**How it would read:** this paragraph goes.
+
+**Why:** You wrote: "hm so maybe we could remove the blood thinner dmso warning". According to PubMed, what's behind it is lab work. In donated human blood, DMSO made platelets stick about 15% less under flow and cut their aggregation about 6%, partly by acting on COX-1, the enzyme aspirin blocks (the human platelet study your chest-pain section links: [Asmis et al. 2010](https://doi.org/10.1016/j.bbrc.2009.12.102)). In mice it kept an injured artery from clotting shut (the tissue-factor study it links: [Camici et al. 2006](https://doi.org/10.1161/CIRCULATIONAHA.106.638460)). I found no study of bleeding in people taking DMSO, alone or with a blood thinner. So the effect is real in the lab and mild, and "also thins the blood" claims more than anyone has shown in people.
+
+**What stays:** The chest-pain section's science, with both studies linked, and your bleed lines in the stroke paragraph if you approve AN-Q3b ("if bleeding is already a medical issue I'd want to think about that more").
+
+**For you to weigh:** Whether someone already on a blood thinner needs a line of their own here, or your AN-Q3b lines cover them.
+
+**My advice:** Approve. Nothing shows a danger in people, and AN-Q3b keeps a caution for someone whose bleeding is already a medical issue.
+
+*Found by: your message of 22:04.*
 

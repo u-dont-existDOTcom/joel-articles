@@ -4,7 +4,7 @@
  "how": [
   "Every edit Joel gives goes in here the same turn, with his words and the strings the guide must (or must not) contain once it's done. Status pending until the guide has it; then applied.",
   "tools/humanization/check_owner_edits.py checks every entry against GUIDE-SO-FAR.md; render_article_so_far.py runs it on every render.",
-  "His words of 2026-11-03 18:59 UTC are in experiments/t01-answers/JOEL-MESSAGE-20261103-1859.md."
+  "His words of 2026-11-03 18:59 UTC are in experiments/t01-answers/JOEL-MESSAGE-20261103-1859.md; those of 22:04 and 22:05 UTC in experiments/t01-answers/JOEL-MESSAGE-20261103-2204.md."
  ],
  "entries": [
   {
@@ -150,6 +150,16 @@
    "what": "AI quips removed or humanized",
    "joel": "18:59: \"so many ai quips, we gotta remove or humanize those\"",
    "waits_for": "the humanize pass, after round 2"
+  },
+  {
+   "id": "sf8-dmso-blood-thinner",
+   "status": "pending",
+   "what": "DMSO's blood-thinner interaction line goes (round 2's card SF-8; the evidence behind it is lab work, and no study of bleeding in people taking DMSO turned up)",
+   "joel": "22:04: \"hm so maybe we could remove the blood thinner dmso warning\"",
+   "waits_for": "his answer to round 2's card SF-8",
+   "must_not_contain": [
+    "Don’t combine it with blood-thinning medication because DMSO also thins the blood."
+   ]
   }
  ]
 }

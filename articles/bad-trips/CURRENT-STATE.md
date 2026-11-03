@@ -1,6 +1,6 @@
 # Bad Trips guide: current state
 
-Updated: 2026-11-03 (turn 2, his answers of 18:59 UTC). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
+Updated: 2026-11-03 (turn 3, his messages of 22:04 and 22:05 UTC). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
 badtrips guide at badtrips.u-dont-exist.com"; `experiments/t01-answers/JOEL-MESSAGE-20261103-1545.md`).
 
 ## Goal
@@ -37,12 +37,21 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
   windows, recorded with each window's confidence in `humanize/baseline-20261103/` and the ledger); his 40 answers
   recorded and applied (30 change cards, his RP-4 line, Q-1, Q-4, Q-5, Q-7; 14,504 to 13,808 words); his three new
   rules in the shared files (gate, `tells_lint.py` O46 and X1, the tells registry); round 2's page built.
+- 2026-11-03 (turn 3, his messages of 22:04 and 22:05 UTC): main merged in again (the neuro lane's tells registry entry
+  W113, O61, kept; this lane's two renumbered W114 and W115); his messages saved
+  (`experiments/t01-answers/JOEL-MESSAGE-20261103-2204.md`); DMSO's blood-thinner line checked against PubMed and put on
+  round 2's page as SF-8 (cut; the evidence is lab work: a mild platelet effect in donated blood, no clot in an injured
+  mouse artery, no study of bleeding in people), 26 cards, version 2 of the page, no answers on it yet; the agmatine
+  warnings (the neuro de-armoring protocol's, not this guide's) checked one by one:
+  `experiments/t02-warnings/AGMATINE-WARNINGS-CHECK.md`. The whole-guide page's link check against his post lists two
+  links gone, the appendix's Fireside and ICEERS root links: RP-14 (approved) cut that line as the support lines' third
+  copy, and both services stay linked in Get One Human Anchor and Who to Contact.
 
 ## Current checkpoint
 
-- **In progress:** Turn 2: his round-1 answers are in (`review/r01/ANSWERS-R01-20261103-1859.json`; every card's fate recorded) and applied (`GUIDE-SO-FAR.md`, by `review/r01/apply_r01.py`); round 2's marking page (`review/r02/`, 25 cards: the checklist step by step per his answer A, the Longer Triage folded in, four lines drafted from his answers) is with Joel.
+- **In progress:** Turn 3: round 2's marking page (`review/r02/`, 26 cards, version 2: the checklist step by step per his answer A, the Longer Triage folded in, four lines drafted from his round-1 answers, and SF-8, DMSO's blood-thinner line cut at his message of 22:04) waits for his answers; the agmatine check (`experiments/t02-warnings/AGMATINE-WARNINGS-CHECK.md`) is for him and the neuro de-armoring lane, which owns that protocol.
 - **Next step (updated on every push, so another account can pick up here):** Put his round-2 answers in with a `review/r02/apply_r02.py` like round 1's (its "More:" lines take their links from each insert's href; CL-14 links "love" in step 14's heading to http://love.u-dont-exist.com/); then the humanize pass on the guide as it then stands: AI quips (gate J15), "one ordinary" (O46), "X does not Y" (X1, 65 candidates after round 1), the baseline's AI windows (`humanize/baseline-20261103/`), the gate's own writers (no Emulate), then the overcompletion read (E328) and the word-for-sense read (E331).
-- **Waiting on Joel:** his answers on round 2's page.
+- **Waiting on Joel:** his answers on round 2's page; which agmatine warnings go (for the neuro de-armoring lane); whether DMSO's other cautions in this guide get the same check.
 
 ## Remaining
 

@@ -15,6 +15,15 @@ https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips
 
 ## START HERE
 
+- **2026-11-03, turn 3 (his messages of 22:04 and 22:05 UTC).** He'd remove DMSO's blood-thinner warning ("hm so maybe
+  we could remove the blood thinner dmso warning") and asked for the agmatine warnings to be checked, which he thinks old
+  Gemini models wrote (`experiments/t01-answers/JOEL-MESSAGE-20261103-2204.md`). The DMSO line is round 2's card SF-8
+  (cut, with what PubMed has: lab work only), so round 2's page has 26 cards. Agmatine is in the neuro de-armoring
+  protocol, not this guide: each of its warnings is checked in `experiments/t02-warnings/AGMATINE-WARNINGS-CHECK.md`,
+  for him and for the neuro lane, which owns that protocol and has its own open question on the warnings. **First:** his
+  round-2 answers, as in turn 2's first step below (SF-8 is a cut like the others). If he wants DMSO's other cautions in
+  this guide checked the same way (corticosteroids and NSAIDs, the cholinergic and choline lines, cluster headache,
+  histamine), put each one with its evidence on the next page.
 - **2026-11-03, turn 2 (his message of 18:59 UTC).** His 40 answers to round 1 are recorded
   (`review/r01/ANSWERS-R01-20261103-1859.json`) and applied: `GUIDE-SO-FAR.md` is the guide after round 1 (made by
   `review/r01/apply_r01.py`; `OWNER-EDITS.json` checks his own edits are in it). His structure answer is A. Round 2's
