@@ -18,6 +18,12 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-11-03, after Joel's answers of 00:39 UTC (Hypnosis Guide Cards, 2 November (3)): his answers in, the whole
+  guide read for overcompletion and 70 repeats cut, the third free check pasted.** His E-61: "cut all this. you didn't
+  notice the massive overcompletion here? prob this whole guide is full of it then." The guide is HUMANIZED-SO-FAR.md
+  7e77327d (762 blocks; `fix-20261103/answers-f1102/`, `fix-20261103/overcompletion/` with CUTS.md). Lessons E328 to E330.
+  The free check's links are in `fix-20261103/free-whole/RECHECK-POST-A.json` and `-B.json`; questions 31 and 32 wait on
+  him. See the Next step.
 - **2026-11-02, after Joel's message of 23:07 UTC (the second free check's result pages): read; part B has no AI window,
   part A three (Low); the cards page for what's left is published.** `fix-20261102/free-whole-2/read/WINDOWS.md`;
   [Hypnosis Guide Cards, 2 November (3)](https://claude.ai/artifact/TAgS2uaHjmyZTHx4ZuW4Bx) (`fix-20261102/f1102/REVIEW-F1102.*`; its gate in `fix-20261102/f1102/gate/`).
@@ -225,9 +231,10 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: **his answers to [Hypnosis Guide Cards, 2 November (3)](https://claude.ai/artifact/TAgS2uaHjmyZTHx4ZuW4Bx)** (6 cards). No open questions.
-Earlier: his result pages for the second free check came at 2026-11-02 23:07 UTC and are read
-(`fix-20261102/free-whole-2/read/`).
+The guide: **his two result pages** for the third free check (the links on `OWNER-QUESTIONS.md` under For you to do;
+`fix-20261103/free-whole/RECHECK-POST-A.json` and `-B.json`), and **questions 31 and 32** (E-119's "and you breathe out";
+four of his own lines that explain again). Earlier: his answers to Hypnosis Guide Cards, 2 November (3) came at 2026-11-03
+00:39 UTC and are in (`fix-20261103/answers-f1102/`).
 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
@@ -314,7 +321,25 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-11-02, after Joel's message of 23:07 UTC: the second free check read; his cards page waits on him)
+## Next step (2026-11-03, after Joel's answers of 00:39 UTC: his answers in, the overcompletion cut, the third free check pasted)
+
+Done (STATUS.md's entry for 2026-11-03 00:39 has every file and number). The guide: HUMANIZED-SO-FAR.md 7e77327d (762
+blocks); his post still has a789009c's words.
+
+Next:
+0. **His two result pages** for the links in `fix-20261103/free-whole/RECHECK-POST-A.json` and `-B.json`: read each with
+   `tools/humanization/pangram_feed_read.js` in the app's browser (compact mode), record them against HG-whole#273 and
+   HG-rest-B#274 (part B's text is RENDERED-B.txt), and list every AI and below-High window by whose words (copy
+   `fix-20261102/free-whole-2/read/` and point it at the new folder; the block numbers moved with the cuts).
+1. **Each window to fix: overcompletion first (E328).** Read the flagged stretch against the paragraphs before it, and cut
+   what is explained again before any rewording; then E321's order. Ours: fix and check its stretch (at most six
+   paragraphs through the API, E325). His: a card.
+2. **Questions 31 and 32** (`OWNER-QUESTIONS.md`): put his answers in with a script that records them (31: E-119's "and
+   you breathe out"; 32: the four lines of his own in `fix-20261103/overcompletion/DECISIONS.json`, decision "ask").
+3. **C-672's next try** (his forgiveness quote), as the earlier next steps say.
+4. **Then his post**, the same way as on 2 November (`fix-20261102/live/`), with the date in the subtitle (E323).
+
+## Earlier next step (2026-11-02, after Joel's message of 23:07 UTC: the second free check read; his cards page waits on him)
 
 Done (STATUS.md's entry for 23:07). The guide: HUMANIZED-SO-FAR.md 66eb95e7; his post still has a789009c's words.
 

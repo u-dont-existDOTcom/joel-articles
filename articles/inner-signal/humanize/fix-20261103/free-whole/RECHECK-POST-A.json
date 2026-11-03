@@ -1,0 +1,24 @@
+{
+ "commit": "6a09959cfe894948db5bb8c6ba0b49263bf4530a",
+ "how": "cleared through the editor's own API (editor.commands.clearContent, after checking the title), then fix-20261022/screen/paste_payload_lane.js (the payload fetched from raw.githubusercontent.com at the commit, its SHA-256 checked); the draft API's saved body holds the new words; the secret link by the draft's uuid (the substack_secret_link.js steps), opened and read with the substack_rendered_check.js walk",
+ "draft": 222109105,
+ "title": "TEMP recheck A (hypnosis guide) - do not publish",
+ "link": "https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-1103&audience=only_paid&free_preview=false&freemail=",
+ "payload_sha256": "7b3f32a544a6e302f20f720da44a74192e426a623d1a7f45ffb85e1105c2e8d7",
+ "editor_words": 30465,
+ "payload_words": 30431,
+ "editor_words_note": "+34, as every paste of part A",
+ "draft_updated_at": "2026-11-03T02:08:30.068Z",
+ "is_published": false,
+ "saved_body_checked": [
+  "his answers and the cuts in (\"Gently breathe in lots of love\", \"imposterous\", \"I found my dialogue with my subconscious\", \"bathroom vacationing\")",
+  "the old words gone (\"The mind of love and the mind of analysis\", \"Keep breathing gently through the whole practice\", \"develop these qualities\", \"Be happy that they are there\")"
+ ],
+ "rendered": {
+  "lines": 587,
+  "code_points": 162885,
+  "first_99999_sha256": "32cbd5b59408bafcd806e30fd4707cd6622ba664fe70f82e38b2e94942fba0c7",
+  "equals_TEXT_A": true,
+  "ends_in": "Methods to explore with a trained person present (When this needs more support than a guide can provide)"
+ }
+}

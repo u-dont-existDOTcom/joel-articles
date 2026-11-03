@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-11-02, after your message of 23:07 UTC.
-**Open questions: 0.** **For you to do**: mark [Hypnosis Guide Cards, 2 November (3)](https://claude.ai/artifact/TAgS2uaHjmyZTHx4ZuW4Bx) (6 cards). The questions are at the top, with their
+Last updated 2026-11-03, after your answers of 00:39 UTC.
+**Open questions: 2** (31 and 32). **For you to do**: open the whole guide's two links with your Pangram extension and send me the two result pages (below). The questions are at the top, with their
 options and my default; under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠
 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -10,15 +10,78 @@ read and update it. Every file it points to is a link.
 
 ## Open questions
 
+**🟣 31. Your new first line of the two-hand practice says "begin to send that love from your heart down to your inner
+child and you breathe out". Did you mean "as you breathe out"?** It went in as you wrote it: "Gently breathe in lots of
+love and begin to send that love from your heart down to your inner child and you breathe out, noticing what comes up for
+you." With "as", the sending rides the out-breath.
+
+- a) "as you breathe out", my recommendation, if that's what you meant.
+- b) Keep "and you breathe out" (it stays until you answer).
+- c) Your own wording.
+
+**🟣 32. Four lines you wrote yourself explain again what the sentences just before them say. Cut them?** I cut the
+overcompletion in my words and in your published version's summing-up lines (below), but these four are your own recent
+writing, so they're yours to decide. Each stays until you answer.
+
+1. Appendix G, the end of your bracket about dramatic openings to love: "Love starts with hearing out the resistance to it
+   first." (The two sentences before it say it: deal with why you can't give the love, since a guard part has seen love
+   come with strings.)
+2. Pattern 6, after your Nimja example ("Do you want to go deeper now, or in a moment?"): "Clearly, that sends you deeper
+   regardless what you "choose."" (The example and "both designed for the same pre-decided outcome" already show it.)
+3. Pattern 7, after "Can you pass the salt?": "We already know they're not really asking if you have that ability." (Your
+   "a sneaky little yes or no question that's actually a way to ask for something indirectly" already says it.)
+4. Appendix C, between "A good guide will make your adult self stronger." and "A bad guide will try to make your no
+   something that's bad or needs to be fixed (...)": "A good guide can take no. A bad guide can't take no. A bad guide wants
+   to take your adult self's job." (Each guide said from both sides, the way the pairs of minds were.)
+
+- a) Cut all four, my recommendation.
+- b) Keep all four.
+- c) Say which: for example "32: cut 1, 3 and 4".
+
 **🔵 On hold: the 83 cards of [the 27 October editor page](https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) you hadn't marked** (questions 21 to 23). The guide has
 changed under them, so the rechecks decide; you don't need to mark them.
 
 ## For you to do
 
-- 🟠 Mark [Hypnosis Guide Cards, 2 November (3)](https://claude.ai/artifact/TAgS2uaHjmyZTHx4ZuW4Bx) ([the cards as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/f1102/REVIEW-F1102.md)):
-  two suggestions on your words, each checked in Pangram and passed by my three reviewers (C-92: your rent line
-  with the joke in brackets; C-480: your Core prompts caveat joined to its sentence), and four stretches to edit or
-  keep (your Troubleshooting seam, and three of mine that two tries couldn't clear).
+- 🟠 **Open these two links in your browser and run the Pangram extension on each, then send me the two result pages.**
+  They hold the whole guide as it is now, with your answers and the overcompletion cuts in, in my two temporary drafts
+  (never published), so the checks cost no credits. I checked that each page shows exactly the text I meant to check.
+  - [Part A: from the start to Methods to explore with a trained person present](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-1103&audience=only_paid&free_preview=false&freemail=)
+    (the check reads its first 100,000 characters, which end there)
+  - [Part B: from Methods to explore with a trained person present to the end, with the appendices](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-1103&audience=only_paid&free_preview=false&freemail=)
+    (it starts a little before part A ends, so the seam is read in both)
+- 🟠 Questions 31 and 32, above.
+- 🟠 Merge [pull request 273](https://github.com/u-dont-existDOTcom/joel-articles/pull/273) when you've looked.
+
+## Your answers of 2026-11-03 00:39 UTC, and what I did
+
+Word for word: [your answers](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/answers-f1102/ANSWERS-20261103-0039.json) and [your comments in them](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/answers-f1102/joel-20261103-0039-message.txt).
+
+- 🟢 **Your answers are in** ([what changed, card by card](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/answers-f1102/APPLIED-F1102-ANSWERS.json)): the
+  pairs of minds cut (E-61); your rent line with the joke in brackets (C-92) and your Core prompts caveat joined (C-480),
+  as the cards had them; your own versions of the two-hand practice's end (E-119), of Nothing happens and "It feels fake"
+  (E-380: the heading in your quotes, and "imposterous" kept) and of the Sources section (E-762). Your checks of E-380:
+  the two paragraphs as they were read [AI Generated](https://www.pangram.com/history/db67603a-b644-4667-b07a-140220544dd3),
+  and your version [Human Written](https://www.pangram.com/history/580be4c0-6fde-4f65-ba3b-559352c4d4ef).
+- 🟢 **The overcompletion, across the whole guide.** You were right, and it was worse than missing it: my repeats read of
+  2 November had found the pairs of minds and kept them as "parallel on purpose". This time fresh readers each read one
+  part of the guide for anything explained a second time (in other words, from the other side, as a summing-up, or as a
+  moral after an example), without knowing whose words were whose, and I read each of their 94 finds in place:
+  - **70 cuts went in** (about 950 words; [every cut, with what already said it](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/overcompletion/CUTS.md)).
+    68 were in my words; 2 were lines of your published version that only said the paragraph again (marked there; your
+    "let's see what other redundancy remains in this article and cut that also" of 2 November).
+  - **20 stayed**, each with its reason on the same page: a new case or source, an instruction where a reader needs it,
+    a list of examples, or your own voice (your KISS joke, your dad's driving, your "etc etc etc").
+  - **4 are lines you wrote yourself**, so they're question 32.
+- 🟢 **Lessons** ([the gate's notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md)):
+  E328, overcompletion is read for, and cut, before any flagged stretch gets reworded (my rewordings of the pairs of minds
+  kept the very thing that read AI); E329, a flagged stretch over a heading gets tested the way Pangram reads it before I
+  advise keeping it (I'd explained your seam away instead of testing it, and it read AI Generated by itself); E330, a
+  made-up word is fine in an informal piece if it sounds right.
+- 🟢 **The whole guide, the free way**: both temporary drafts hold the guide as it is now (the links are under For you to
+  do), each checked against the text I meant to send, and my predictions for both are written first.
+- 🔵 **Next**: your two result pages show which stretches still read AI or below High after the cuts. I fix those, with
+  overcompletion read for first, and put your answers to 31 and 32 in.
 
 ## Your message of 2026-11-02 23:07 UTC, and what I did
 

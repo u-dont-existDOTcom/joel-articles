@@ -1,204 +1,214 @@
-# What the overcompletion read cut from the guide (3 November)
+# The overcompletion read of 3 November: what was cut, asked and kept
 
-Joel, on card E-61 (2026-11-03 00:39 UTC): "cut all this. you didn't notice the massive overcompletion here? prob this whole guide is full of it then." Six fresh readers read the guide in six parts (BRIEF.md); the lead session judged every candidate (DECISIONS.json). These are the cuts in our words, each with what already said it. The guide went from 090588f7 to 7e77327d (770 blocks to 762, about 957 words fewer). Block numbers are the guide's before the cuts.
+Joel, on card E-61 (2026-11-03 00:39 UTC): "cut all this. you didn't notice the massive overcompletion here? prob this whole guide is full of it then." Fresh readers read the guide in parts for anything explained a second time (BRIEF.md here), without knowing whose words were whose; the lead session read each find in place and decided (DECISIONS.json, make_decisions.py). The guide went from 090588f7 to 7e77327d: 70 cuts, about 957 words, 8 paragraphs gone whole. Block numbers are the guide's before the cuts.
 
-- **[11] Introduction, P3** (says-again): ~~, the protective reactions learned as a child~~
+## Cut, in our words (68)
+
+- **[11] Introduction, P3**: ~~, the protective reactions learned as a child~~
   - now reads: Yet no one taught those layers to talk to each other. Instead you were taught (or you figured out) that the way to grow up and be an adult is to push through, repress, suppress, pretend you’re confident, follow authority, go against authority, etc etc etc. And mind you, the deeper mind is still running all of the programs it’s running: the inner child mind wanting to feel safe, the guard mind bracing for danger (childhood protector parts), the body mind remembering what your intellect explained away, the intuitive mind speaking up before you have the words, and the fantasy mind trying to become guidance mind, etc etc.
-  - already said: [11] "childhood protector parts"
-- **[25] Do you usually think in words?, P3** (sums-up): ~~Just do whatever you can, and try different ways as needed.~~
-  - already said: [25] "you may want to say things aloud, in writing, on a recording, etc." | [25] "Or, just do what it invites, without preparing what you're going to say."
-- **[35] Protecting Yourself from Hypnotists, P6** (sums-up): ~~This opens up a whole new area of choice for you as an adult in the world.~~
-  - already said: [35] "With self-hypnosis you can train your own mind from the inside, by befriending and listening to the deeper part of your mind." | [34] "If you don’t learn to control your mind, someone else will!"
-- **[48] Reversing Accidental Affirmations, P1** (other-side): ~~With the intentional correction, you don’t have to be unconsciously led astray by your random wrong thoughts.~~
-  - already said: [48] "without redirecting the thought stream with your conscious, higher intention, you can end up just going directly where it leads you"
-- **[66] Why doing it myself worked better for me, P4** (other-side): ~~When I hypnotize myself, though, my dialogue with my subconscious is immediate, and that's an advantage nobody outside my own head can duplicate.~~
+  - why: a second gloss on "the guard mind" right after "childhood protector parts"
+- **[25] Do you usually think in words?, P3**: ~~Just do whatever you can, and try different ways as needed.~~
+  - why: sums the paragraph up: its options already say any way is fine
+- **[35] Protecting Yourself from Hypnotists, P6**: ~~This opens up a whole new area of choice for you as an adult in the world.~~
+  - why: names the benefit the sentence before it already gives (training your own mind from the inside)
+- **[66] Why doing it myself worked better for me, P4**: ~~When I hypnotize myself, though, my dialogue with my subconscious is immediate, and that's an advantage nobody outside my own head can duplicate.~~
   - now reads: I found my dialogue with my subconscious especially amplified with loveyhuasca. My experiences included a much deeper understanding of my motivations, peaceful loving awareness operating alongside analytical clarity, the disappearance of unhelpful daydreaming, different priorities around relationships, stronger intuition, and repeated correction between intuition, subconscious response, and conscious analysis.
-  - already said: [65] "A hypnotist working on me can't interact with my subconscious mind quickly enough to get the detailed feedback needed to know what's going on in my mind, since they aren't inside my mind." | [64] "talk to my subconscious to find out what it thinks is wrong with the wording"
-- **[71] Why doing it myself worked better for me, P9** (sums-up): ~~It's better to integrate it into your life than to try to live inside it.~~
-  - already said: [71] "I'm not recommending that anyone prolong an altered state forever, though."
-- **[85] Sometimes start with the whole, P3** (caveat-again): ~~It’s no good adopting somebody else’s map.~~
+  - why: the paragraph before it from the other side (a hypnotist can't get quick feedback / I can); the next sentence names the dialogue instead of "that"
+- **[71] Why doing it myself worked better for me, P9**: ~~It's better to integrate it into your life than to try to live inside it.~~
+  - why: the caveat before it said again as advice
+- **[85] Sometimes start with the whole, P3**: ~~It’s no good adopting somebody else’s map.~~
   - now reads: It can be that you can’t even access your Higher Self, or the universal heart, or whatever you call it. (By the way, if it doesn’t work for you, don’t use it!) In that case, start by just witnessing whatever is coming up. Notice the room, your body, the fact that you’re in a younger state etc. Being able to notice is enough adult presence for the first step.
-  - already said: [85] "if it doesn’t work for you, don’t use it!" | [74] "They’re both maps. Don’t form a priesthood around either one!"
-- **[86] Sometimes start with the whole, P4** (says-again): ~~You usually need to work on developing them.~~
-  - already said: [86] "Just work on whatever it is you need to work on (often being warm to yourself, protecting yourself and knowing what to do etc)." | [86] "it doesn’t mean you already have all the good inner parenting functions etc that you need."
-- **[86] Sometimes start with the whole, P4** (sums-up): ~~So invoking your Higher Self just means going up there for the view, and then coming back down to make your own decisions.~~
-  - already said: [86] "It’s a vantage point, where more wisdom and compassion can come up, but problems can also look like they were never problems at all from up there, and that can ironically lead instead to more foolish indifference." | [42] "Don’t let a strong state, a charismatic person, a sexual charge, a spiritual claim or any other authority take the place of the adult part of yourself."
-- **[90] The inner child, the guards, and the inner adult’s three jobs, P2** (sums-up): ~~It’s you that needs to develop these qualities.~~
-  - already said: [90] "Here I’m going to talk about what you develop in yourself as you reparent your inner child." | [90] "It’s still one grown-up doing three jobs" | [89] "What’s going to help your inner child to trust you is you, the person you are right now, becoming reliable."
-- **[106] Love doesn’t have to wait for trust, P1** (says-again): ~~, and you can keep loving them while it does~~
-  - already said: [106] "It is possible to love them even if they don't believe you love them."
-- **[108] Love doesn’t have to wait for trust, P3** (says-again): ~~Learning to listen to them when they are angry without hitting back.~~
-  - already said: [108] "do listen for the concrete complaint without fighting the yelling and swearing around it"
-- **[110] Instead of blame, P1** (every-case): ~~Or are you blending them?~~
-  - already said: [110] "Is it two separate positions, one making the vow to love your little one no matter what, and the other blaming your little one for not taking in your love? Or is it one position doing both of these things?"
-- **[119] The Nurturer, P1** (says-again): ~~ Be happy that they are there.~~
-  - already said: [119] 'Some of the work you can do as the Nurturer is to enjoy your inner child.' and 'Just sit back and enjoy their company.'
-- **[119] The Nurturer, P1** (sums-up): ~~ Your inner child needs to be enjoyed as well as comforted when it hurts.~~
-  - already said: [119] 'is to enjoy your inner child' and 'enjoy their company'
-- **[128] The Protector, P2** (sums-up): ~~ Your inner child starts to trust you when you start taking care of those things.~~
-  - already said: [127] 'set boundaries, so your inner child can believe the warm stuff'; and the first sentence of [128] (the work fails when the protecting is skipped)
-- **[153] Protection that knows when to stop scanning, P7** (sums-up): ~~ I am learning to use discernment when I need to, and to stop scanning the room when it isn’t needed anymore.~~
-  - already said: [152] 'stop scanning once staying on alert isn't helping anymore'; the heading [145] 'Protection that knows when to stop scanning'; [148]-[149] assess and differentiate
-- **[153] Protection that knows when to stop scanning, P7** (preview-recap): ~~This seems to me like a mature Protector: it’s not afraid to say it doesn’t know, and it can ask another human being, delay interpreting a situation or use a no-trance method.~~
-  - already said: [148] 'know what you know, what you don't know'; [150] 'delay, ask, leave, get support'
-- **[155] Inner child reparenting, P1** (says-again): ~~They fit well together, though ~~
-  - already said: [155] 'I see a lot of connection between reparenting therapy and self hypnosis.'
-- **[155] Inner child reparenting, P1** (says-again): ~~ It doesn’t even have to be a child.~~
-  - already said: [155] 'It can be any vulnerable part of you.' (and 'It can be any age.')
-- **[164] Don’t rush the repair, P8** (other-side): ~~ Don't feel like you have to fix it all.~~
-  - already said: [164] 'Give them what you can: pick a need and do the smallest thing that would help.' (also [168] 'the goal isn't to make yourself good as new')
-- **[165] Don’t rush the repair, P9** (says-again): ~~it may take some time, ~~
-  - already said: [165] 'Give yourself some time'
-- **[166] Don’t rush the repair, P10** (says-again): ~~ Just reconnect with them if they're willing.~~
+  - why: the reason for "if it doesn't work for you, don't use it!", which the maps line earlier already gave
+- **[86] Sometimes start with the whole, P4**: ~~You usually need to work on developing them.~~
+  - why: the two sentences before it already say you need to work on them
+- **[86] Sometimes start with the whole, P4**: ~~So invoking your Higher Self just means going up there for the view, and then coming back down to make your own decisions.~~
+  - why: a "So…" that sums up the vantage-point picture and its warning
+- **[90] The inner child, the guards, and the inner adult’s three jobs, P2**: ~~It’s you that needs to develop these qualities.~~
+  - why: the paragraph's first sentence said again at its end
+- **[106] Love doesn’t have to wait for trust, P1**: ~~, and you can keep loving them while it does~~
+  - why: the sentence before it, said again
+- **[108] Love doesn’t have to wait for trust, P3**: ~~Learning to listen to them when they are angry without hitting back.~~
+  - why: the same listening without hitting back, said earlier in the paragraph
+- **[110] Instead of blame, P1**: ~~Or are you blending them?~~
+  - why: one position doing both, asked again
+- **[119] The Nurturer, P1**: ~~Be happy that they are there.~~
+  - why: "Just sit back and enjoy their company", said again
+- **[119] The Nurturer, P1**: ~~Your inner child needs to be enjoyed as well as comforted when it hurts.~~
+  - why: sums the paragraph up (enjoy them, not only make their feelings go away)
+- **[128] The Protector, P2**: ~~Your inner child starts to trust you when you start taking care of those things.~~
+  - why: the sentence before it from the other side (it fails when those things are skipped / works when they aren't)
+- **[153] Protection that knows when to stop scanning, P7**: ~~I am learning to use discernment when I need to, and to stop scanning the room when it isn’t needed anymore.~~
+  - why: with P2a-07, the whole paragraph: it sums up the list before it (assess, ask, delay, stop scanning); from his published version, reworded
+- **[153] Protection that knows when to stop scanning, P7**: ~~This seems to me like a mature Protector: it’s not afraid to say it doesn’t know, and it can ask another human being, delay interpreting a situation or use a no-trance method.~~
+  - why: with P2a-06, the whole paragraph (see P2a-06)
+- **[155] Inner child reparenting, P1**: ~~They fit well together, though~~
+  - why: "a lot of connection", said again
+- **[155] Inner child reparenting, P1**: ~~It doesn’t even have to be a child.~~
+  - why: "any vulnerable part of you", said again
+- **[164] Don’t rush the repair, P8**: ~~Don't feel like you have to fix it all.~~
+  - why: the step before it from the other side (do the smallest thing / don't fix it all)
+- **[165] Don’t rush the repair, P9**: ~~it may take some time,~~
+  - why: "Give yourself some time", said again
+- **[166] Don’t rush the repair, P10**: ~~Just reconnect with them if they're willing.~~
   - now reads: F. Reconnect with them if they're willing- don't expect them to merge, go away, forgive you, become happy, etc.
-  - already said: [166] 'Reconnect with them'
-- **[216] Soft language can still take away choice, P1** (preview-recap): ~~Be aware that even permissive language can still take away the subject’s choice.~~
-  - already said: [215] heading 'Soft language can still take away choice'; [217] 'Indirect suggestions can bypass the subject’s skeptical guard.'
-- **[177] When “your voice” is everybody else’s voice, P3** (says-again): ~~You don’t know what you want until you have heard what someone else wants.~~
-  - already said: [175] 'The result is that you don’t know what you feel, what you want, what you believe, what you like and dislike until you have heard someone else’s opinion about it.'
-- **[196] Belonging without betraying yourself, P1** (sums-up): ~~That is why belonging gets a section in a self hypnosis guide!~~
-  - already said: [196] 'A large part of your subconscious mind is made out of other people.'; [195] heading 'Belonging without betraying yourself'
-- **[217] Soft language can still take away choice, P2** (says-again): ~~This does not mean that indirect suggestions are not specific. It simply means that they are worded in a vague, conversational, suggestive manner.~~
-  - already said: [217] 'They do this by not directly telling the subject what to do.'
-- **[247] Before you begin, P4** (says-again): ~~ If you are going to use a recording, read the script beforehand if you can.~~
-  - already said: [244] 'Read through the induction, and the Come all the way back section, when you're awake.'
-- **[248] Before you begin, P5** (caveat-again): ~~ A no will stay a no. The narrator can't add stuff just because you don't say anything.~~
-  - already said: [227] 'if you say no, you are entitled to mean no, even if someone with a nice voice is asking you to do something. And just because you don't say anything, or don't know what to say, doesn't mean yes.' Also [247] 'Know that you can say "stop" at any time and the induction will end.'
-- **[289] Deepening, if useful, P2** (says-again): ~~ Just pick a place.~~
-  - already said: [289] 'Pick a place to go to when you go inside.' and 'whatever you want.'
-- **[298] A shortcut back into hypnosis, P2** (sums-up): ~~ The idea is for you to be able to pick a good state to go into, and you can decide what that is.~~
-  - already said: [298] 'Be sure to do this when you are in hypnosis and in a good place.' and 'Don't do this when you are in a very emotional state, child state, or thinking about something that could be considered trauma.'
-- **[305] Turning the shortcut off, or keeping it, P1** (says-again): ~~: once you come back, today's session is over~~
-  - already said: [305] 'Keeping it doesn't keep today's trance going, though'
-- **[330] Notice, meaning, and your thoughts on the meaning, P1** (says-again): ~~When you can, it can be helpful to separate it out like that though - ~~
+  - why: "Reconnect with them", said again; "if they're willing" moves up
+- **[216] Soft language can still take away choice, P1**: ~~Be aware that even permissive language can still take away the subject’s choice.~~
+  - why: a paragraph that only says its heading again
+- **[177] When “your voice” is everybody else’s voice, P3**: ~~You don’t know what you want until you have heard what someone else wants.~~
+  - why: the list's first sign is the paragraph before the list, said again
+- **[196] Belonging without betraying yourself, P1**: ~~That is why belonging gets a section in a self hypnosis guide!~~
+  - why: a "That is why" ending to the point the sentence before it makes
+- **[217] Soft language can still take away choice, P2**: ~~This does not mean that indirect suggestions are not specific. It simply means that they are worded in a vague, conversational, suggestive manner.~~
+  - why: "not directly telling the subject what to do", explained again
+- **[247] Before you begin, P4**: ~~If you are going to use a recording, read the script beforehand if you can.~~
+  - why: "Read through the induction ... when you're awake", said again
+- **[248] Before you begin, P5**: ~~A no will stay a no. The narrator can't add stuff just because you don't say anything.~~
+  - why: the no and silence rules said again; the paragraph before it already says you can say stop at any time
+- **[289] Deepening, if useful, P2**: ~~Just pick a place.~~
+  - why: "Pick a place", said again
+- **[298] A shortcut back into hypnosis, P2**: ~~The idea is for you to be able to pick a good state to go into, and you can decide what that is.~~
+  - why: sums the paragraph up
+- **[305] Turning the shortcut off, or keeping it, P1**: ~~: once you come back, today's session is over~~
+  - why: "Keeping it doesn't keep today's trance going", said again
+- **[330] Notice, meaning, and your thoughts on the meaning, P1**: ~~When you can, it can be helpful to separate it out like that though -~~
   - now reads: It's worth trying to separate the notice, the meaning, and your thoughts on the meaning, but in practice it will often be pretty fuzzy. For example, "I noticed... this seemed to mean... here's why that might be true / false" or something like that.
-  - already said: [330] 'It's worth trying to separate the notice, the meaning, and your thoughts on the meaning'
-- **[331] Notice, meaning, and your thoughts on the meaning, P2** (sums-up): ~~ Feelings are good to pay attention to, but it's still good to consider what they mean.~~
-  - already said: [331] 'You can then go on to find out what he did, notice what it was that gave you the idea, and consider if there might be other explanations.' and 'Nonverbal thoughts and early thoughts aren't necessarily any deeper, truer, or more reliable than other thoughts.'; [330] the whole notice / meaning split
-- **[333] Let the response change the invitation, P1** (says-again): ~~Just change it. ~~
-  - already said: [333] "'No! That is Not Right!' is a signal to stop what you're doing and change it" and "don't keep doing it"
-- **[341] Change the amount of contact, P1** (sums-up): ~~ Do as much or as little as you feel you can.~~
-  - already said: [341] 'if it feels too much, immediately start to widen your awareness' and 'approaching in smaller amounts is titration'
-- **[345] If you feel an urge to move, P1** (other-side): ~~You do not need to act out the urge, shake, release, etc. ~~
-  - already said: [345] 'or just imagine doing what you feel you need to do'
-- **[347] Offer the care that is actually wanted, P1** (other-side): ~~All of them are welcome to the meeting. ~~
-  - already said: [347] 'You don’t have to get rid of any of them.' (the next sentence says the same stance from the other side), and the offers above it: 'offer them the opportunity to spend time with you', 'talk to them in the same Nurturer voice', 'find out what they are concerned about'
-- **[348] Offer the care that is actually wanted, P2** (other-side): ~~ If you are already able to do a certain step, you don’t have to do it again.~~
-  - already said: [348] 'You only need to use the Witness if you need help getting started with a step.'
-- **[350] Offer the care that is actually wanted, P4** (caveat-again): ~~ Don’t think that you can’t take the love.~~
-  - already said: [350] 'That doesn’t mean your love isn’t working.' and 'then change it to something that is less'
-- **[357] Throughout the exercise, P1** (caveat-again): ~~Remember that the images you see can be meaningful without being memories of things that actually happened. ~~
+  - why: the first sentence said again; the example joins it with "For example"
+- **[331] Notice, meaning, and your thoughts on the meaning, P2**: ~~Feelings are good to pay attention to, but it's still good to consider what they mean.~~
+  - why: sums the paragraph up
+- **[333] Let the response change the invitation, P1**: ~~Just change it.~~
+  - why: "stop what you're doing and change it", said again
+- **[341] Change the amount of contact, P1**: ~~Do as much or as little as you feel you can.~~
+  - why: sums the paragraph up
+- **[345] If you feel an urge to move, P1**: ~~You do not need to act out the urge, shake, release, etc.~~
+  - why: "or just imagine doing what you feel you need to do", from the other side
+- **[347] Offer the care that is actually wanted, P1**: ~~All of them are welcome to the meeting.~~
+  - why: the next sentence from the other side (welcome / don't have to get rid of them)
+- **[348] Offer the care that is actually wanted, P2**: ~~If you are already able to do a certain step, you don’t have to do it again.~~
+  - why: the sentence before it from the other side
+- **[350] Offer the care that is actually wanted, P4**: ~~Don’t think that you can’t take the love.~~
+  - why: sums the paragraph up ("That doesn't mean your love isn't working", "change it to something that is less")
+- **[357] Throughout the exercise, P1**: ~~Remember that the images you see can be meaningful without being memories of things that actually happened.~~
   - now reads: Allow your analytical part to make comments and/or tell you that it doesn’t like what you are doing. Just tell it that you will check things out, and make any commitments etc, when you are back. If it says no to going deeper, or tells you to stop doing the exercise, I’d stop there. You can stop whenever you want to. Just because you see an image, or feel a body release, doesn’t mean you are right about what is going on.
-  - already said: [351] 'Remember that whatever you find out is likely to be metaphorical. It may be a good hypothesis for what you need to do, but it isn’t a record of what actually happened.'
-- **[360] The 15-minute daily practice, P2** (says-again): ~~Choose one way to induce yourself.~~
-  - already said: [360] the next sentence: “You don't need to try all of them (in fact, stacking them might be counter-productive).”
-- **[375] Capacity before content, P9** (sums-up): ~~So, treat it like an image, and get~~
+  - why: said in "Remember that whatever you find out is likely to be metaphorical" before it; the next sentence starts without its "And"
+- **[360] The 15-minute daily practice, P2**: ~~Choose one way to induce yourself.~~
+  - why: the next sentence says it from the other side (you don't need to try all of them)
+- **[375] Capacity before content, P9**: ~~So, treat it like an image, and get~~
   - now reads: Remember: not everything in hypnotic imagery is literal, especially if it relates to trauma and memory. The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc. Get some help outside of yourself when you need it.
-  - already said: [375] “not everything in hypnotic imagery is literal, especially if it relates to trauma and memory.” and “The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc.” (and, in another section, [357] “Remember that the images you see can be meaningful without being memories of things that actually happened.”)
-- **[414] You get stuck in endless processing, P2** (says-again): ~~You don’t have to have a meeting with every thought that pops into your head before you start your life.~~
-  - already said: [414] the first sentence: “The best thing to do, though, if you notice you’re in a checking loop, is allow the thought to be there without engaging with it and get on with what you have chosen to do.”
-- **[414] You get stuck in endless processing, P2** (says-again): ~~You don’t have to complete a ritual before you start your life.~~
-  - already said: [414] the first sentence: “The best thing to do, though, if you notice you’re in a checking loop, is allow the thought to be there without engaging with it and get on with what you have chosen to do.” and the sentence before it: “You don’t have to have a meeting with every thought that pops into your head before you start your life.”
-- **[445] Closing, P3** (other-side): ~~work on thinking in a way that your love for yourself doesn't become fantasy;~~
+  - why: a "So…" conclusion of the two sentences before it; the line to get help stays
+- **[414] You get stuck in endless processing, P2**: ~~You don’t have to have a meeting with every thought that pops into your head before you start your life.~~
+  - why: the first sentence's instruction said again as a picture
+- **[414] You get stuck in endless processing, P2**: ~~You don’t have to complete a ritual before you start your life.~~
+  - why: the same instruction said a third time
+- **[445] Closing, P3**: ~~work on thinking in a way that your love for yourself doesn't become fantasy;~~
   - now reads: Listen to your little one for as long as it takes until they're comfortable enough to move closer to you. This is easiest to do if you're making and keeping lots of small promises to your little one, so the various guards feel they can occasionally relax. Work on loving yourself in a way that your thinking doesn't object to, and take all of this back into regular life, where your adult self keeps its promises.
-  - already said: [445] the clause before it: “Work on loving yourself in a way that your thinking doesn't object to” (love answering to thinking); the same balance is in [425] “You are capable of analysis, as well as tenderness.” and, before this part, in [60] (“all the modes of your mind ... Nobody needs to win!”, as the brief quotes it)
-- **[493] The Milton Model, minus the covert sales seminar, P5** (aftercare): ~~We paced it; we opened up awareness; we validated the reason for the reaction; we presumed we could do it; we used a bridge word to make it easier and we invited one thing. ~~
-  - already said: [491] 'So let’s start with something we know to be true, let’s take the pressure off, presume that we can only do a tiny bit and let’s invite one thing:' (the same moves, listed just before the example sentence).
-- **[536] Anchoring — giving the body a doorway back, P1** (caveat-again): ~~Do make sure you do it when you clearly feel that state. ~~
-  - already said: [536] 'Feel a state you have really been in, one you want to be able to get back to easily when you need it. Do your anchor thing…' (feel the state, then anchor, already gives the order).
-- **[540] Using synchronicity as your own wake-up bell, P3** (preview-recap): ~~It is my cue to: Stop, orient, go wider, reality check, listen, do at least one thing from a loving place.~~
-  - already said: [541] 'Whenever I notice it, I use it as a cue for waking up inside whatever state I am in, feeling my body, feeling the room I'm in…' and the rest of that paragraph, which steps through the same moves (widening, looking for the truth, listening for the message, choosing at least one loving thing).
-- **[541] Using synchronicity as your own wake-up bell, P4** (says-again): ~~, from the highest perspective I can get to~~
-  - already said: [541] 'I go into the highest state I can get into, where I can see what is going on in that situation as objectively and clearly as I can' (same sentence).
-- **[541] Using synchronicity as your own wake-up bell, P4** (says-again): ~~From that place I choose what to do. ~~
-  - already said: [541] 'I choose at least one thing to do that is from a loving place.' (the next sentence).
-- **[542] Using synchronicity as your own wake-up bell, P5** (sums-up): ~~This way I don't identify with the state, but I still hear its message if it's negative.~~
-  - already said: [541] 'waking up inside whatever state I am in… widening my state so that I can see beyond what my current state is showing me' (not identifying) and 'If the state I started in is negative, I check if it is a message from my inner child…' (still hearing the message).
-- **[554] False positives, and turning the cue off, P1** (caveat-again): ~~ In fact, it's not a pathology.~~
-  - already said: [554] 'That isn't saying that noticing patterns is bad.' (the sentence before).
-- **[560] Perceptual positions — self, other, witness, universal heart, P1** (says-again): ~~ I do this to see the situation with more accuracy.~~
-  - already said: [561] 'I will not use this to rationalize bad behavior, but only to break out of a prison of perception.' (the aim again, with the limit added).
-- **[564] Future pacing — let the future test the insight, P2** (says-again): ~~ (If...then... statement)~~
-  - already said: [552] 'implementation intention (an if...then... plan)'
-- **[610] Appendix D: Anxiety — body first, P2** (says-again): ~~ Help your body first.~~
-  - already said: 608, heading: 'Appendix D: Anxiety — body first'. 611, next paragraph: 'Work in this order – first your body, then your inner child, then some inquiry, then some action'.
-- **[615] EFT tapping, P1** (sums-up): ~~So treat the evidence with caution, and know that~~
+  - why: the clause before it from the other side (love your thinking accepts / thinking that keeps love real), as in the pairs of minds he cut
+- **[493] The Milton Model, minus the covert sales seminar, P5**: ~~We paced it; we opened up awareness; we validated the reason for the reaction; we presumed we could do it; we used a bridge word to make it easier and we invited one thing.~~
+  - why: the moves the paragraph before the example already lists, named again after it
+- **[536] Anchoring — giving the body a doorway back, P1**: ~~Do make sure you do it when you clearly feel that state.~~
+  - why: "Feel a state you have really been in ... Do your anchor thing", said again
+- **[540] Using synchronicity as your own wake-up bell, P3**: ~~It is my cue to: Stop, orient, go wider, reality check, listen, do at least one thing from a loving place.~~
+  - why: a preview list of the paragraph after it, which says each step
+- **[541] Using synchronicity as your own wake-up bell, P4**: ~~, from the highest perspective I can get to~~
+  - why: "the highest state I can get into", said again in the same sentence
+- **[541] Using synchronicity as your own wake-up bell, P4**: ~~From that place I choose what to do.~~
+  - why: the next sentence says it ("I choose at least one thing to do that is from a loving place")
+- **[542] Using synchronicity as your own wake-up bell, P5**: ~~This way I don't identify with the state, but I still hear its message if it's negative.~~
+  - why: sums the paragraph before it up
+- **[554] False positives, and turning the cue off, P1**: ~~In fact, it's not a pathology.~~
+  - why: "That isn't saying that noticing patterns is bad", said again
+- **[560] Perceptual positions — self, other, witness, universal heart, P1**: ~~I do this to see the situation with more accuracy.~~
+  - why: the aim the next paragraph gives with its limit ("to break out of a prison of perception")
+- **[564] Future pacing — let the future test the insight, P2**: ~~(If...then... statement)~~
+  - why: the gloss the guide gave the first time ("an if...then... plan")
+- **[610] Appendix D: Anxiety — body first, P2**: ~~Help your body first.~~
+  - why: the heading and the next paragraph say it ("first your body")
+- **[615] EFT tapping, P1**: ~~So treat the evidence with caution, and know that~~
   - now reads: One of the easiest ways to do EFT (Emotional Freedom Techniques, or tapping) is to say something like, “Even though I have this anxiety, I am willing to be kind to the part of me that is afraid,” while you tap gently on your body and stay with what you feel. There isn’t a ton of evidence for EFT, but there are some studies on anxiety. A 2025 systematic review found 7 randomized controlled trials for anxiety disorders, and noted that EFT was more effective than no intervention in several of them. There are first-line therapies for anxiety.
-  - already said: 615: 'There isn't a ton of evidence for EFT, but there are some studies on anxiety.'
-- **[619] Gendlin Focusing, P1** (sums-up): ~~ Use the words and the body to mutually correct one another.~~
-  - already said: 619: 'The word may feel ok, but say something that doesn’t fit the situation, or vice versa.' This is the two-way check, after 'see how well it fits the felt sense' and 'see if what the word or phrase says is true of the situation'.
-- **[621] Body supports, P1** (says-again): ~~Work with the body. ~~
-  - already said: 620, heading: 'Body supports'. 621, next sentence: 'you may need to work directly with the body to calm it down'.
-- **[622] Body supports, P2** (sums-up): ~~ All you really need is to stabilize yourself, and then listen to the messages from your inner realm, reality test those messages, and then do something grounded about them.~~
-  - already said: 611: 'first your body, then your inner child, then some inquiry, then some action'. The anxiety script says it again in 629: 'I will listen to what you have to say and reality test it and then take some action.'
-- **[662] When the subconscious speaks like an oracle, P2** (says-again): ~~: the bigger the consequences, the slower you go~~
-  - already said: [662] "Especially if it's a big thing, or something that can't be easily undone, slow down" (the first half of the same sentence)
-- **[664] The council — internal first, then outward, P1** (says-again): ~~ The bigger and more un-undoable something is, the more you want to reach outside.~~
-  - already said: [664] "But if it's bigger than all of those, ask outside of yourself, too."; [662] "Especially if it's a big thing, or something that can't be easily undone, slow down"
-- **[666] The council — internal first, then outward, P3** (sums-up): ~~ Another person doesn’t get automatic trust, or automatic dismissal.~~
-  - already said: [666] "it is possible to give your power away. Seeking counsel can slide into abdicating to an authority figure without you noticing."; [665] "Sometimes it is right to go it alone, but I would suggest making it the last step, after you've tried to get counsel."
-- **[667] The council — internal first, then outward, P4** (caveat-again): ~~, but they don’t interpret what you experience~~
-  - already said: [667] "attention without interpretation, advice, or fixing" and "but you don’t act as each other’s Guide"
-- **[681] Appendix G: Altered states, P7** (says-again): ~~In other words, if using self-hypnosis while you're in an altered state of consciousness isn't helping you become more loving, more grounded, more honest with yourself, sleep better, become more communicative and more able to do your everyday responsibilities, etc, then stop trying to go deeper into your altered state of consciousness, and start working on integrating what you've already gotten from it.~~
-  - already said: [680] "Don’t use self-hypnosis to try to keep the altered state of consciousness going indefinitely, to force memories to come back, to make yourself more afraid, to get by without sleep, to put off taking care of medical problems, to become less communicative, etc."; [679] "Help me to become more grounded. Help me to only take what I can integrate. Help me to remember love. Help me to come back when it's time."
-- **[703] A response check, not a verdict about what it is, P2** (caveat-again): ~~Remember that you don’t have to know what it is. ~~
-  - already said: [695] "it doesn’t matter if they’re demons or not."; [698] "don’t try to figure out what it is."; heading [701] "A response check, not a verdict about what it is"
-- **[705] A response check, not a verdict about what it is, P4** (preview-recap): ~~You don’t have to find out if it’s a guard immediately, and you may not be able to comfort it quickly. Just keep an eye on whether the way you’re responding to it helps you get clearer and steadier and less hooked.~~
-  - already said: [703] "Remember that you don’t have to know what it is. Find out if it helps to be warm towards it or to keep it at arm’s length, and keep your boundary either way."; [695] "so you end up safer, clearer, more loving, more grounded and less hooked."; heading [701] "A response check, not a verdict about what it is"
-- **[708] Do not fight from fear, P2** (every-case): ~~ (If you’re proud, you give it an opponent, and if you panic, you give it your nervous system.)~~
-  - already said: [708] "It becomes a center of attention if you fear it, and if you hate it, you give it a hook in you."; [707] "Your first instinct may be to fight it, banish it, hate it, show it that you’re more powerful than it is, argue with it, panic, turn completely into the frightened part of you, etc."
-- **[712] A bodily boundary: compassion present, door closed, P2** (says-again): ~~, but it can be useful to approach it with love while also making it clear that it needs to respect your boundaries~~
-  - already said: [711] "You can also tell the presence that while you have compassion for it, the door is closed." (and heading [710] "compassion present, door closed")
-- **[721] The cosmic-download humility test, P2** (sums-up): ~~Guidance worth keeping should make ordinary life more beautiful, honest, relational, humble, reliable, and useful to other people.~~
-  - already said: [720] "Unless the info you’re trying to download to me can help me do the dishes, clean my room, be more honest, be more helpful, be more loving, keep my promises, take care of my body by resting and eating etc, I don’t need it."; [718] "making you more loving, more grounded, more relational, more honest, more functional"
+  - why: a "So" conclusion of "There isn't a ton of evidence"; the first-line therapies stay
+- **[619] Gendlin Focusing, P1**: ~~Use the words and the body to mutually correct one another.~~
+  - why: sums up the two-way check the sentences before it describe
+- **[621] Body supports, P1**: ~~Work with the body.~~
+  - why: the heading, and the next sentence's "work directly with the body"
+- **[622] Body supports, P2**: ~~All you really need is to stabilize yourself, and then listen to the messages from your inner realm, reality test those messages, and then do something grounded about them.~~
+  - why: the guide's order (body, inner child, inquiry, action) summed up again
+- **[662] When the subconscious speaks like an oracle, P2**: ~~: the bigger the consequences, the slower you go~~
+  - why: the first half of the sentence said again as a rule of scale
+- **[664] The council — internal first, then outward, P1**: ~~The bigger and more un-undoable something is, the more you want to reach outside.~~
+  - why: the sentence before it said again as a rule of scale
+- **[666] The council — internal first, then outward, P3**: ~~Another person doesn’t get automatic trust, or automatic dismissal.~~
+  - why: the two sentences before it summed up, with their other side
+- **[667] The council — internal first, then outward, P4**: ~~, but they don’t interpret what you experience~~
+  - why: the paragraph already says attention without interpretation and that peers aren't each other's Guide
+- **[681] Appendix G: Altered states, P7**: ~~In other words, if using self-hypnosis while you're in an altered state of consciousness isn't helping you become more loving, more grounded, more honest with yourself, sleep better, become more communicative and more able to do your everyday responsibilities, etc, then stop trying to go deeper into your altered state of consciousness, and start working on integrating what you've already gotten from it.~~
+  - why: "In other words": the paragraph before it from the other side, and The General Rule says it again
+- **[703] A response check, not a verdict about what it is, P2**: ~~Remember that you don’t have to know what it is.~~
+  - why: said three times before it (it doesn't matter if they're demons; don't try to figure out what it is; the heading)
+- **[705] A response check, not a verdict about what it is, P4**: ~~You don’t have to find out if it’s a guard immediately, and you may not be able to comfort it quickly. Just keep an eye on whether the way you’re responding to it helps you get clearer and steadier and less hooked.~~
+  - why: the section's recap: the heading and the paragraphs before it say it
+- **[708] Do not fight from fear, P2**: ~~(If you’re proud, you give it an opponent, and if you panic, you give it your nervous system.)~~
+  - why: two more cases after the point is made (fear gives it attention, hate a hook)
+- **[712] A bodily boundary: compassion present, door closed, P2**: ~~, but it can be useful to approach it with love while also making it clear that it needs to respect your boundaries~~
+  - why: the paragraph before it and the heading say it (compassion present, door closed)
 
-## Not cut here
+## Cut, lines of his published version that only said it again (2)
 
-- **[27] What I mean by hypnosis, P1** (keep; his, as published): there’s a lot more than meets the eye. In fact,
-  - why: a lead-in the next sentence fills in, not a second explanation; his published words
-- **[31] Protecting Yourself from Hypnotists, P2** (keep; ours): The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.
-  - why: a second source is evidence, not a second explanation, and it is his published OECD citation
-- **[107] Love doesn’t have to wait for trust, P2** (keep; his, from his inner child guide): , and what it's really saying is "so stop being angry."
-  - why: his inner child guide's words; it voices what the line says underneath, which is his move, not a second explanation
-- **[116] The two-hand practice, P3** (keep; his own words (a paragraph he wrote or rewrote)):  Let it go back and forth between your heart and your inner child, like a real conversation.
-  - why: his own version of the paragraph, sent with his answers of 3 November, kept this line; "like a real conversation" is his picture
-- **[142] Working with your guards, P7** (keep; ours): eat, not text someone, keep a promise, go to sleep, 
-  - why: a list of what a guard may want, in its own section; a list, not an explanation said twice
-- **[184] When “your voice” is everybody else’s voice, P10** (keep; ours): One way of explaining this is that your childhood didn’t leave you much room for finding out what you like, what you want to try out and who you are when nobody is grading you. You were too busy avoiding pain, reading what was dangerous and what you had to do to stay in a good bond, etc.
-  - why: adds why (attention went into avoiding pain and keeping the bond), which the first paragraph doesn't say; his published content
-- **[220] Soft language can still take away choice, P5** (keep; ours): noticing something, not noticing something, 
-  - why: a list of examples in his own "etc etc etc", not an explanation said twice
-- **[232] Induction: gathering and softening attention, P3** (keep; his own words (a paragraph he wrote or rewrote)): , but you could do all sorts of things
-  - why: his own words, in his voice; too small to ask about
-- **[235] Overly Confusing Isn't Automatically Good, P1** (keep; his own words (a paragraph he wrote or rewrote)): "Keep it simple, stupid!" (KISS principle) actually can apply to hypnosis!
-  - why: his own joke opening the section
-- **[242] Overly Confusing Isn't Automatically Good, P8** (keep; his own words (a paragraph he wrote or rewrote)):  You want your script to be soft, but to the point, easy to remember, easy to say, easy to grok.
-  - why: his own words; "soft, but to the point, easy to remember" adds what the script should be
-- **[299] A shortcut back into hypnosis, P3** (keep; ours):  Not that I recommend driving in a trance, don't do that!
-  - why: his aside about his dad's driving, a joke in his voice, not an explanation
-- **[323] Let the next response guide you, P1** (keep; his, as published (near-verbatim: a small fix of ours)): The induction and the inner meeting get you to where you can listen. After that, it's about answering what happens, instead of reading out a script that has already decided what every part of you is going to say. 
-  - why: opens the section: what the induction is for and what comes after it, not a second explanation; his published content
-- **[357] Throughout the exercise, P1** (keep; ours):  And just because you see an image, or feel a body release, doesn’t mean you are right about what is going on.
-  - why: adds a body release to the images
-- **[367] Capacity before content, P1** (keep; his, as published (near-verbatim: a small fix of ours)): Ask for capacity before content.
-  - why: the section's instruction in its own words, which the request scripts after it carry out (ask, not bully); his published words
-- **[368] Capacity before content, P2** (keep; ours): , vocation, a relationship, illness fears, spirituality, addiction, identity, moral issues
-  - why: a list of areas a reader may recognize, not an explanation said twice; his published list
-- **[441] Your functioning in ordinary life is the feedback, P1** (keep; ours): don't try to go deeper. Go
-  - why: the stop rule for this case, where a reader in it reads it; not a second explanation in this section
-- **[512] Pattern 6: Ethical double binds, P1** (ask; his own words (a paragraph he wrote or rewrote)):  Clearly, that sends you deeper regardless what you "choose."
+His card W-685 (2 November): "let's see what other redundancy remains in this article and cut that also". Each is back with one word from him.
+
+- **[48] Reversing Accidental Affirmations, P1**: ~~With the intentional correction, you don’t have to be unconsciously led astray by your random wrong thoughts.~~
+  - why: the sentence before it from the other side (with the correction / without it); his published sentence
+- **[721] The cosmic-download humility test, P2**: ~~Guidance worth keeping should make ordinary life more beautiful, honest, relational, humble, reliable, and useful to other people.~~
+  - why: sums up his script before it and The General Rule; his published paragraph
+
+## Asked, his own words (4): question 32
+
+- **[512] Pattern 6: Ethical double binds, P1**: Clearly, that sends you deeper regardless what you "choose."
   - why: his own paragraph: it explains his Nimja example after it has made the point
-- **[516] Pattern 7: Conversational postulates, P1** (ask; his own words (a paragraph he wrote or rewrote)): We already know they're not really asking if you have that ability. 
+- **[516] Pattern 7: Conversational postulates, P1**: We already know they're not really asking if you have that ability.
   - why: his own paragraph: it explains his salt example after it has made the point
-- **[522] Pattern 9: Nominalizations, P1** (keep; his, as published (near-verbatim: a small fix of ours)): Others are 'safety', 'trust', 'integration', 'communion', 'clarity' and 'rest'. 
-  - why: examples of the term, not an explanation said twice; his published words
-- **[575] What I will not use NLP for, P6** (keep; his own words (a paragraph he wrote or rewrote)): , which is another way of saying they are spiritually inferior to me if they disagree with me
-  - why: his own words; it names what the move implies (that they are spiritually inferior), a new point
-- **[598] Appendix C: The extended de-hypnosis checklist, P9** (ask; his own words (a paragraph he wrote or rewrote)): A good guide can take no. A bad guide can’t take no. A bad guide wants to take your adult self’s job. 
+- **[598] Appendix C: The extended de-hypnosis checklist, P9**: A good guide can take no. A bad guide can’t take no. A bad guide wants to take your adult self’s job.
   - why: his own paragraph: the good guide and the bad guide each said from both sides
-- **[677] Appendix G: Altered states, P3** (ask; his own words (a paragraph he wrote or rewrote)):  Love starts with hearing out the resistance to it first.
+- **[677] Appendix G: Altered states, P3**: Love starts with hearing out the resistance to it first.
   - why: his own paragraph's last line sums up the two sentences before it
-- **[697] Start with the room, the body, and basic safety, P1** (keep; ours): So what do you do when you encounter a demon, or a jinn, or something else that’s bad and intrusive?
-  - why: a question that opens the section, not an explanation
-- **[723] Don’t become an entity hobbyist, P1** (keep; ours): I just don’t want you to do that. 
-  - why: his voice asking, not an explanation
+
+## Kept (20)
+
+- **[27] What I mean by hypnosis, P1** (his, as published): there’s a lot more than meets the eye. In fact,
+  - why kept: a lead-in the next sentence fills in, not a second explanation; his published words
+- **[31] Protecting Yourself from Hypnotists, P2** (ours): The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.
+  - why kept: a second source is evidence, not a second explanation, and it is his published OECD citation
+- **[107] Love doesn’t have to wait for trust, P2** (his, from his inner child guide): , and what it's really saying is "so stop being angry."
+  - why kept: his inner child guide's words; it voices what the line says underneath, which is his move, not a second explanation
+- **[116] The two-hand practice, P3** (his own words (a paragraph he wrote or rewrote)): Let it go back and forth between your heart and your inner child, like a real conversation.
+  - why kept: his own version of the paragraph, sent with his answers of 3 November, kept this line; "like a real conversation" is his picture
+- **[142] Working with your guards, P7** (ours): eat, not text someone, keep a promise, go to sleep,
+  - why kept: a list of what a guard may want, in its own section; a list, not an explanation said twice
+- **[184] When “your voice” is everybody else’s voice, P10** (ours): One way of explaining this is that your childhood didn’t leave you much room for finding out what you like, what you want to try out and who you are when nobody is grading you. You were too busy avoiding pain, reading what was dangerous and what you had to do to stay in a good bond, etc.
+  - why kept: adds why (attention went into avoiding pain and keeping the bond), which the first paragraph doesn't say; his published content
+- **[220] Soft language can still take away choice, P5** (ours): noticing something, not noticing something,
+  - why kept: a list of examples in his own "etc etc etc", not an explanation said twice
+- **[232] Induction: gathering and softening attention, P3** (his own words (a paragraph he wrote or rewrote)): , but you could do all sorts of things
+  - why kept: his own words, in his voice; too small to ask about
+- **[235] Overly Confusing Isn't Automatically Good, P1** (his own words (a paragraph he wrote or rewrote)): "Keep it simple, stupid!" (KISS principle) actually can apply to hypnosis!
+  - why kept: his own joke opening the section
+- **[242] Overly Confusing Isn't Automatically Good, P8** (his own words (a paragraph he wrote or rewrote)): You want your script to be soft, but to the point, easy to remember, easy to say, easy to grok.
+  - why kept: his own words; "soft, but to the point, easy to remember" adds what the script should be
+- **[299] A shortcut back into hypnosis, P3** (ours): Not that I recommend driving in a trance, don't do that!
+  - why kept: his aside about his dad's driving, a joke in his voice, not an explanation
+- **[323] Let the next response guide you, P1** (his, as published (near-verbatim: a small fix of ours)): The induction and the inner meeting get you to where you can listen. After that, it's about answering what happens, instead of reading out a script that has already decided what every part of you is going to say.
+  - why kept: opens the section: what the induction is for and what comes after it, not a second explanation; his published content
+- **[357] Throughout the exercise, P1** (ours): And just because you see an image, or feel a body release, doesn’t mean you are right about what is going on.
+  - why kept: adds a body release to the images
+- **[367] Capacity before content, P1** (his, as published (near-verbatim: a small fix of ours)): Ask for capacity before content.
+  - why kept: the section's instruction in its own words, which the request scripts after it carry out (ask, not bully); his published words
+- **[368] Capacity before content, P2** (ours): , vocation, a relationship, illness fears, spirituality, addiction, identity, moral issues
+  - why kept: a list of areas a reader may recognize, not an explanation said twice; his published list
+- **[441] Your functioning in ordinary life is the feedback, P1** (ours): don't try to go deeper. Go
+  - why kept: the stop rule for this case, where a reader in it reads it; not a second explanation in this section
+- **[522] Pattern 9: Nominalizations, P1** (his, as published (near-verbatim: a small fix of ours)): Others are 'safety', 'trust', 'integration', 'communion', 'clarity' and 'rest'.
+  - why kept: examples of the term, not an explanation said twice; his published words
+- **[575] What I will not use NLP for, P6** (his own words (a paragraph he wrote or rewrote)): , which is another way of saying they are spiritually inferior to me if they disagree with me
+  - why kept: his own words; it names what the move implies (that they are spiritually inferior), a new point
+- **[697] Start with the room, the body, and basic safety, P1** (ours): So what do you do when you encounter a demon, or a jinn, or something else that’s bad and intrusive?
+  - why kept: a question that opens the section, not an explanation
+- **[723] Don’t become an entity hobbyist, P1** (ours): I just don’t want you to do that.
+  - why kept: his voice asking, not an explanation

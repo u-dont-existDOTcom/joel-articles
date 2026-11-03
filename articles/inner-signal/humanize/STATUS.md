@@ -1,5 +1,46 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-11-03, after Joel's answers of 00:39 UTC: his answers in; the whole guide read for overcompletion and cut; the free check pasted
+
+His message was his answers file for Hypnosis Guide Cards, 2 November (3) (`fix-20261103/answers-f1102/`:
+ANSWERS-20261103-0039.json word for word, his comments in joel-20261103-0039-message.txt). **The mailbox first**
+(`state/MAILBOX.json`, "2026-11-03 00:39"): pull request 272 merged by him at 00:39 UTC; nothing else new.
+
+**His answers** (`apply_answers_f1102.py`, APPLIED-F1102-ANSWERS.json, read record; comparison gate PASS; HUMANIZED-SO-FAR.md
+66eb95e7 to 090588f7, 772 to 770 blocks): E-61 cut blocks 61 and 62 ("cut all this. you didn't notice the massive
+overcompletion here? prob this whole guide is full of it then."); C-92 and C-480 as the cards had them; his versions of
+E-119 (blocks 118 and 119), E-380 (380 to 382; the heading in his quotes, his coinage "imposterous") and E-762 (758 and 762,
+the links and italics kept). His checks: the two Troubleshooting paragraphs as they were, AI Generated (fraction 1.0;
+https://www.pangram.com/history/db67603a-b644-4667-b07a-140220544dd3); his version Human Written (High 106, Medium 4 on " am I
+getting warm?", High 60; https://www.pangram.com/history/580be4c0-6fde-4f65-ba3b-559352c4d4ef). Question 31 asks whether
+E-119's "and you breathe out" meant "as".
+
+**The overcompletion read** (`fix-20261103/overcompletion/`): BRIEF.md (his definition, the pairs of minds as the example,
+his rulings on what isn't overcompletion), make_chunks.py and make_halves.py (the parts), reads/READ-*.json, collect.py
+(CANDIDATES.json: 94 finds, whose words by paragraph and by near-verbatim sentence, so a sentence of his published version
+with a typo fixed counts as his), make_decisions.py (DECISIONS.json: 70 cut, 20 kept, 4 asked), apply_cuts.py
+(APPLIED-CUTS.json; read record; comparison gate PASS; 090588f7 to 7e77327d, 770 to 762 blocks, about 950 words),
+make_cuts_md.py (CUTS.md: every cut with what already said it, the kept ones with the reason). The four asked are his own
+recent words: question 32. Two cuts are lines of his published version (P1-06, P6-12), under his W-685 "cut that also".
+
+**Lessons E328 to E330** (`docs/HUMANIZATION-GATE.md`): E328, overcompletion is read for before a flagged window is
+reworded (REPEATS.md of 2 November had kept the pairs of minds as "parallel on purpose"; find_repeats.py looks for shared
+words); E329, a window over a heading is tested as Pangram reads it before a card advises keeping it; E330, a made-up word
+is fine if it sounds right. The writer's brief (`tools/humanization/reviewer/writer_draft.txt`) has E328's rule.
+
+**The free whole check** (`fix-20261103/free-whole/`: make_recheck.py with DATE 20261103, CANDIDATE-MASTER.md 7e77327d,
+merge PASS, PAYLOAD-A/B, TEXT-A/B, WORDS-A/B, pushed at 6a09959c): both lane drafts (A 222109105, B 221412532) cleared
+through the editor's own API, pasted with paste_payload_lane.js (+34 and +25 editor words, as every time), the saved bodies
+read back, the secret links made and opened (RECHECK-POST-A.json, RECHECK-POST-B.json). Part A now ends in Methods to
+explore with a trained person present (the cuts shortened it), and its first 99,999 characters equal TEXT-A.txt; part B
+starts at that heading and equals RENDERED-B.txt (TEXT-B.txt with the embedded card's line and two curled quotes, SHA-256
+96617221). Predictions first: HG-whole#273 and HG-rest-B#274 (batch free1103). The links wait on him.
+
+Delegations (model, piece, check, outcome): Sonnet, the overcompletion read, six readers of one part each (parts 1, 4 and 6
+done; parts 2, 3 and 5 stopped by a container restart, then failed on the API's 64,000-token reply cap, then done in
+halves by six more readers), checked by collect.py (every cut found exactly in its block) and by the lead session reading
+each of the 94 finds in place: 70 used, 20 kept, 4 asked.
+
 ## 2026-11-02, after Joel's message of 23:07 UTC: the second free check read; the cards page for what's left
 
 His message (`fix-20261102/free-whole-2/joel-20261102-2307-message.txt`): the second free check's two result pages. **The

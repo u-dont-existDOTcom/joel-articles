@@ -1,0 +1,29 @@
+{
+ "commit": "6a09959cfe894948db5bb8c6ba0b49263bf4530a",
+ "how": "cleared through the editor's own API (editor.commands.clearContent, after checking the title), then fix-20261022/screen/paste_payload_lane.js (the payload fetched from raw.githubusercontent.com at the commit, its SHA-256 checked); the draft API's saved body holds the new words; the secret link by the draft's uuid (the substack_secret_link.js steps), opened and read with the substack_rendered_check.js walk",
+ "draft": 221412532,
+ "title": "TEMP recheck B (hypnosis guide appendices) - do not publish",
+ "link": "https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-1103&audience=only_paid&free_preview=false&freemail=",
+ "payload_sha256": "a3b46168f02bb8e3e7044112ac41010d3c48cd7abef9bc8d54fc63ab1bc8fa0f",
+ "editor_words": 11992,
+ "payload_words": 11967,
+ "editor_words_note": "+25, as every paste of part B",
+ "draft_updated_at": "2026-11-03T02:09:44.709Z",
+ "is_published": false,
+ "saved_body_checked": [
+  "his Sources and Core prompts lines in (\"someone there forgot to award me\", \"don’t blame them for every NLP claim\", \"though that doesn’t make the answers any more true\")",
+  "the cuts gone (\"It is my cue to: Stop, orient\", \"Guidance worth keeping should make ordinary life\", \"Help your body first.\")"
+ ],
+ "rendered": {
+  "lines": 244,
+  "code_points": 63903,
+  "sha256": "96617221a00126b5c266de8a06c6989fba049852829acebdc38ccd15c2696a77",
+  "equals_TEXT_B": false,
+  "equals_RENDERED_B": true,
+  "starts_at": "Methods to explore with a trained person present (a section before part A ends, so the seam is read in both)",
+  "differences_from_TEXT_B": [
+   "the embedded card's line \"Quick Triage Web-App Version HERE\"",
+   "two opening quotes after \"(\" curled as closing ones by the editor, as every time"
+  ]
+ }
+}
