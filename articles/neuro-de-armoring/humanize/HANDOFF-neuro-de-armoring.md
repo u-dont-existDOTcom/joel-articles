@@ -63,7 +63,8 @@ Done (STATUS.md's entry for 2026-11-03 15:22 has every file and number). The art
 
 Next:
 1. **His answers to the three examples** (REVIEW-X1103.json's ids X-26, X-84 and X-15): save them word for word, put his
-   versions into the article with a script that records each (obvious typos only), run fidelity_keys.py check (a lost
+   versions into the article with a script that records each (obvious typos only), after setting up this lane's
+   COMPARE-GATE.json the way the hypnosis lane's is (lane_push.py warns that there is none), run fidelity_keys.py check (a lost
    dose or warning goes back to him as a question, never silently restored over his words), and check each of his
    paragraphs in Pangram by itself (predictions first).
 2. **Then learn from them**: write down, sentence by sentence, what his versions do that mine didn't (E321's way; the

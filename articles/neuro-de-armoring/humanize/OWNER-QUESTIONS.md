@@ -1,7 +1,7 @@
 # Neuro de-armoring: what I need from Joel
 
 Last updated 2026-11-03, after your message of 15:22 UTC and your two answers in that turn.
-**Open questions: 0.** **For you to do**: rewrite the three examples on [Neuro De-Armoring Cards, 3 November](https://claude.ai/artifact/GKEbRH8VvXKzbEnZGCZUgz), and merge pull request 278 (below). Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next
+**Open questions: 0.** **For you to do**: rewrite the three examples on [Neuro De-Armoring Cards, 3 November](https://claude.ai/artifact/GKEbRH8VvXKzbEnZGCZUgz), and merge pull request 279 (below). Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next
 or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
@@ -16,7 +16,7 @@ None right now.
 - 🟠 Rewrite the three examples on [Neuro De-Armoring Cards, 3 November](https://claude.ai/artifact/GKEbRH8VvXKzbEnZGCZUgz) ([the cards as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/examples/REVIEW-X1103.md)),
   one of each kind the article has: the underpinning paragraph (the science), the UMP trial (a dose with its
   instructions) and agmatine's interactions (a list of warnings). Or keep any of them as it is.
-- 🟠 Merge [pull request 278](https://github.com/u-dont-existDOTcom/joel-articles/pull/278) when you've looked.
+- 🟠 Merge [pull request 279](https://github.com/u-dont-existDOTcom/joel-articles/pull/279) when you've looked.
 
 ## Your answers of 2026-11-03 (after your message of 15:22 UTC), and what I did
 

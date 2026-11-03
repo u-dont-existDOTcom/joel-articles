@@ -27,7 +27,7 @@ round 1 showed.
 the underpinning paragraph (the science), the UMP trial (a dose with its instructions) and agmatine's interactions (a
 list of warnings), each a stretch to edit, each linking its baseline result and my round-1 results.
 
-Predictions: 28 (2 in r1103a, 26 in r1103b), all AI, all right; 3 voided. Delegations (model, piece, check, outcome):
+Pull request 278, opened during the turn, is the Inner Child lane's (its real-life section), nothing for this lane. Predictions: 28 (2 in r1103a, 26 in r1103b), all AI, all right; 3 voided. Delegations (model, piece, check, outcome):
 none; the rewrite was judgment throughout.
 
 ## 2026-11-03, after Joel's message of 14:52 UTC
