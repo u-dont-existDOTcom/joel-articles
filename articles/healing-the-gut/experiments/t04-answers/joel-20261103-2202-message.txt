@@ -1,0 +1,7 @@
+Joel, 2026-11-03 22:02 UTC (sent with the batch-1 page's answers export, joel-20261103-2202-b1-answers.json):
+
+yes make that swapping standard i ams ure i told you before to do that. 
+
+we don't do whole article checks with pangram GUI, that should be in the repo rules. i have a free route for those. you can do a section check in the GUI tho, like 5-6 paragraphs or so. all this is in the rules. idk why you're not seeing the repo rules? i want to make sure each lane is feeding into and reading from the same place so i don't duplicate work. like that next button issue idk why you made the next button code yourself, it was already working in another lane. 
+
+pr 195 has conflicts

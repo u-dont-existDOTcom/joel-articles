@@ -44,7 +44,6 @@ CONTRAST_JS = """(el) => {
 }"""
 
 
-
 def settle(page, limit_ms=5000):
     """Wait until a smooth scroll has stopped (scrollY unchanged for 300 ms): a jump of several thousand pixels can take
     longer than a fixed wait, and a check read mid-scroll sees the card still below the bar (2026-11-03, the gut page)."""
@@ -225,13 +224,23 @@ def run(page_path, report_path=None):
             ok('%s: every highlight has a colour' % scheme, bare == 0, '%d without one' % bare)
             # next undecided (on a small page the clicks above can leave no card undecided, so the first card is set back
             # to undecided first: 2026-11-02, the three-card page read 0 here while the button worked on a fresh page)
-            first = data['suggestions'][0]['id'].replace('.', '\\.')
+            # the first decision card: a question card has no undo button, so a page that opens on a question (the
+            # bad-trips guide's structure question, 2026-11-03) timed out here
+            first = next(s['id'] for s in data['suggestions'] if s['advice'] in ('approve', 'leave')).replace('.', '\\.')
             was = page.locator('#c-' + first).get_attribute('data-status')
             if was != 'pending':
                 page.click('#c-' + first + ' .dec.undo')
             page.evaluate('window.scrollTo(0, 0)')
             page.click('#nextBtn')
-            settle(page)
+            # wait for the smooth scroll to end, not a fixed 900 ms: on a long page the first undecided card can be
+            # 13,000 px down (the bad-trips guide's round 1, 2026-11-03), and the scroll was still under way at 900 ms
+            last = -1
+            for _ in range(40):
+                page.wait_for_timeout(250)
+                y = page.evaluate('Math.round(window.scrollY)')
+                if y == last:
+                    break
+                last = y
             top = page.evaluate("""() => { const cs = Array.from(document.querySelectorAll('.card[data-id]')).filter(c => !c.hidden && c.offsetParent && c.dataset.status==='pending'); const vis = cs.map(c => c.getBoundingClientRect().top).filter(t => t > -5 && t < 400); return vis.length }""")
             ok('%s: Next undecided brings one to the top' % scheme, top >= 1, top)
             # Next walks the undecided cards in the order they stand on the page, questions included (Joel, 2026-11-03

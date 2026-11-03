@@ -1,0 +1,17 @@
+[
+ {
+  "id": "R01",
+  "verdict": "PASS",
+  "issue": "Phase 3 pointer correct, replacing 'later in the decision tree'. Opening kits sentence matches the allowed Gemini addition ('so check the reviews' for 'can check'). 'commercial' dropped; 'should work with a qualified clinician instead of self-stacking' became imperative 'don't stack supplements on your own, work with...'."
+ },
+ {
+  "id": "R02",
+  "verdict": "FAIL",
+  "issue": "'Titrate up to 10–30g' became permissive 'You can go up to'; heading 'Energy Starvation' became 'fuels'; 'by fermenting raw resistant starch' implies reader ferments; 'structurally collapses' became 'basically falls apart'."
+ },
+ {
+  "id": "R03",
+  "verdict": "PASS",
+  "issue": "Phase 1, 2 and 3 pointers all correct. 'escalate into' became 'move on to'; 'The correct order still matters' became 'the order you do things in does matter'; 'well-tolerated' became 'that you tolerate well'; numbered three-category list merged into one prose sentence."
+ }
+]
