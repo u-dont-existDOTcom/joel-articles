@@ -18,9 +18,12 @@ https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips
 - **2026-11-03, turn 1 (his message of 15:45 UTC).** Set up: his paste is `source/owner-editor-20261103.html`, equal to
   the published post block for block; `original.md` is its Markdown and `original-blocks.json` its block map (B0 to
   B438). Baseline: his extension labels the published post AI; the full analysis is his task 1 on `OWNER-QUESTIONS.md`.
-  Three fresh readers mapped the repeats and the safety lines (`experiments/t01-repeats/`). The marking page
+  Three fresh readers are mapping the repeats and the safety lines (`experiments/t01-repeats/`; B's and C's first
+  parts are in, A's report is still being written). The marking page
   (`review/r01/`, built by `build_r01.py` from `cards_r01.py`) asks the structure question (ST-1) and proposes the
-  repeats inside the long part. **Next:** put his answers in (record each card's fate), then, if he picks A, build round 2:
+  repeats inside the long part (Bad Trips Guide, Round 1, https://claude.ai/artifact/GB83uPzEFyLVGkQD9cQC97).
+  **First:** when the three reports are complete, check every quote against the article and add any new card to the
+  same page (same card ids kept, so his answers stay). **Next:** put his answers in (record each card's fate), then, if he picks A, build round 2:
   the new checklist step by step from his own headings and first lines, the Longer Triage's paragraphs moved where they
   belong, and the checklist's copies cut with the place that says each point. After the structure, an overcompletion read
   (gate E328) before any rewording, then Emulate first on the flagged paragraphs (`docs/EMULATE-FALLBACK.md`).

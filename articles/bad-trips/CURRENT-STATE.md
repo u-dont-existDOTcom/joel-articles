@@ -29,8 +29,8 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
 
 ## Current checkpoint
 
-- **In progress:** Turn 1: the round-1 marking page (structure question ST-1, the repeats inside the long part, the safety lines in one section, two questions) is with Joel.
-- **Next step (updated on every push, so another account can pick up here):** Put his answers to round 1 in (each card's fate recorded); if he picks A on ST-1, build round 2: the new checklist step by step from his own headings and first lines, the Longer Triage's paragraphs moved where they belong, and the checklist's copies cut, each with the place that says its point.
+- **In progress:** Turn 1: the round-1 marking page (structure question ST-1, the repeats inside the long part, the safety lines in one section, two questions) is with Joel; readers A, B and C are finishing their reports.
+- **Next step (updated on every push, so another account can pick up here):** When the three reports are complete, check each quote against the article and add any new card to round 1's page (same ids); then put his answers in (each card's fate recorded); if he picks A on ST-1, build round 2: the new checklist step by step from his own headings and first lines, the Longer Triage's paragraphs moved where they belong, and the checklist's copies cut, each with the place that says its point.
 - **Waiting on Joel:** his answers on the round-1 page, and the baseline check's full-analysis link (OWNER-QUESTIONS.md, task 1).
 
 ## Remaining
