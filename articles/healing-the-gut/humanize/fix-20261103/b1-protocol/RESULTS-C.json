@@ -1,0 +1,102 @@
+{
+ "b1-P1-C": {
+  "sha256": "1b8c82a9b40fa90a68d192684dab7efd34ad8bb4a8dfdc32a8334d4af446d887",
+  "words": 164,
+  "prediction_short": "AI",
+  "fraction_human": 0.10046549141407013,
+  "fraction_ai": 0.8995345234870911,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/9f293168-a6eb-40c3-93ef-cd8be1752626",
+  "windows": [
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 21,
+    "text": "Phase 1: The Pre-Flight Safety Check\nBefore you throw supplements or antimicrobials at your gut, the mechanics have to work."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "words": 34,
+    "text": " This part is from T.C. Hale (Kick Your Fat in the Nuts) and Stanley Rosenberg (Accessing the Healing Power of the Vagus Nerve).\nAre your pupils dilated all the time? No gag reflex?"
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 43,
+    "text": " Then according to Hale you're stuck in fight/flight (\"sympathetic dominance\"), and digestion is offline. Rosenberg's fix is his Basic Exercise (eye movements) or the Salamander, which mechanically release the vagus nerve so your body can switch into rest and digest."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "words": 8,
+    "text": "\nThen bile. Do you burp after fatty meals?"
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 31,
+    "text": " Do your stools float, or look like clay? Then your bile is stagnant, and Hale says if you take antimicrobials now you'll get a herx reaction you can't detoxify."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "words": 14,
+    "text": " So thin the bile first with Beet Flow or phosphatidylcholine, before any killing protocol."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "Low",
+    "words": 20,
+    "text": "\nMy notes: for stress and sleep see Severe stress above, and for stomach acid and bile see Low stomach acid."
+   }
+  ]
+ },
+ "b1-P2-C": {
+  "sha256": "1bafd1bb85a3c6bcf31d98dad118102c90f10ff8a4da3c135de7bd1e8052dd17",
+  "words": 86,
+  "prediction_short": "Human",
+  "fraction_human": 0.9999998807907104,
+  "fraction_ai": 1.1525598608841392e-07,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/f79fb8c2-4f6a-4ddb-95f6-fbd71c169771",
+  "windows": [
+   {
+    "label": "Human Written",
+    "confidence": "Medium",
+    "words": 7,
+    "text": "Phase 2: The Reset\nThis is Dr."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "High",
+    "words": 8,
+    "text": " Michael Ruscio (Healthy Gut, Healthy You) and Dr."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "Medium",
+    "words": 16,
+    "text": " Mark Pimentel (The Microbiome Connection): calm the inflammation down and starve the overgrowths, no harsh chemicals."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "Low",
+    "words": 26,
+    "text": "\nDiet-wise, go Paleo-Low FODMAP (Ruscio) or Low Fermentation Eating (Pimentel). Either way you stop feeding the bacteria in your small intestine.\nAnd no snacking!"
+   },
+   {
+    "label": "Human Written",
+    "confidence": "Medium",
+    "words": 22,
+    "text": " Pimentel wants meals 4-5 hours apart, strictly, so the Migrating Motor Complex (MMC) gets to sweep your gut clean in between."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "High",
+    "words": 10,
+    "text": "\nMy notes: see Poor diet now and Plant foods, above."
+   }
+  ]
+ }
+}
