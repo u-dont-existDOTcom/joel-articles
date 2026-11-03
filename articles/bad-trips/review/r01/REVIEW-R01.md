@@ -122,11 +122,33 @@ The page's cards as text, in the order of the guide. Built 2026-11-03 from [the 
 
 **What stays:** The danger signs in checklist step 1, and the call-for-help lines inside each emergency (the seizure's five minutes, the chest-pain line, serotonin syndrome, the harm script), stay where the reader acts on them.
 
-**For you to weigh:** Whether the tripsitting part should keep a one-line pointer to this section where the heading was.
+**For you to weigh:** Whether the tripsitting part should keep a one-line pointer to this section where the heading was. And the medics-list line that goes ends "using a fast field remedy does not require giving up a time-sensitive medical option": the next section's opening says medics and remedy go together ("Some symptom patterns call for medics while you use an immediate remedy"), but not in those words; a reader preferred keeping this line and cutting that one.
 
 **My advice:** Approve.
 
 *Found by: my read; reader C.*
+
+## SF-2: The seizure and chest-pain thresholds, in the list and in their sections (Safety in one place)
+
+*Active Seizure, P4*
+
+**What changes:** A reader would cut "Call medics for a convulsive seizure lasting about five minutes..." from Active Seizure, since the medics list says the same seizure line (and the chest-pain section's thresholds repeat the list's chest-pain line).
+
+**Now** (the words it changes in bold):
+
+> **Call medics for a convulsive seizure lasting about five minutes, repeated seizures without normal recovery, trouble breathing, dangerous heat, serious injury, a first seizure, or a seizure substantially different from the person’s known pattern.**
+
+**How it would read:** this paragraph goes.
+
+**Why:** Someone in the middle of a seizure or a chest-pain scare is reading that section, not the list: the threshold changes what they do right there. The list is for scanning before anything happens.
+
+**What stays:** Both stay as they are, unless you say otherwise.
+
+**For you to weigh:** Whether two places is one too many for these two thresholds.
+
+**My advice:** Leave: each is where the reader acts on it, which is your rule for safety lines. (I'd leave this one; it's here so you can overrule me.)
+
+*Found by: reader B.*
 
 ## RP-3: "Medics in parallel", said again (Said twice)
 

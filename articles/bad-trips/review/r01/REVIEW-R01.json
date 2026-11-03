@@ -164,7 +164,7 @@
    "what": "\"When Peer Support Isn't Enough\" moves, with its three paragraphs (when to get urgent help; \"I might kill someone to test this theory\"; local emergency services, 988 and 911), from the tripsitting part up into \"When to Bring In Outside Help\", as its third part, under its own heading at the same level as the other two. The mental-health list's first item (\"The person may be unsafe to themselves or others.\") goes, since the moved paragraph says it with the details. The line under the medics list (\"The remedies below can begin while help is being arranged...\") goes, since the next section opens with the same point (\"An emergency means act now...\").",
    "why": "Today the guide lists when to call for help in about seven places (checklist steps 1 and 9, the Longer Triage, the two lists here, When Peer Support Isn't Enough, and the harm section). You asked for the safety lines in one spot: this puts the medics list, the mental-health list and the urgent-help paragraph together where a reader looks for them.",
    "stays": "The danger signs in checklist step 1, and the call-for-help lines inside each emergency (the seizure's five minutes, the chest-pain line, serotonin syndrome, the harm script), stay where the reader acts on them.",
-   "deciding": "Whether the tripsitting part should keep a one-line pointer to this section where the heading was.",
+   "deciding": "Whether the tripsitting part should keep a one-line pointer to this section where the heading was. And the medics-list line that goes ends \"using a fast field remedy does not require giving up a time-sensitive medical option\": the next section's opening says medics and remedy go together (\"Some symptom patterns call for medics while you use an immediate remedy\"), but not in those words; a reader preferred keeping this line and cutting that one.",
    "advice_note": "Approve.",
    "found_by": "my read; reader C",
    "inserts": [
@@ -221,6 +221,32 @@
     }
    ],
    "card_after": 125
+  },
+  {
+   "id": "SF-2",
+   "type": "safety",
+   "advice": "leave",
+   "title": "The seizure and chest-pain thresholds, in the list and in their sections",
+   "what": "A reader would cut \"Call medics for a convulsive seizure lasting about five minutes...\" from Active Seizure, since the medics list says the same seizure line (and the chest-pain section's thresholds repeat the list's chest-pain line).",
+   "why": "Someone in the middle of a seizure or a chest-pain scare is reading that section, not the list: the threshold changes what they do right there. The list is for scanning before anything happens.",
+   "stays": "Both stay as they are, unless you say otherwise.",
+   "deciding": "Whether two places is one too many for these two thresholds.",
+   "advice_note": "Leave: each is where the reader acts on it, which is your rule for safety lines.",
+   "found_by": "reader B",
+   "edits": [
+    {
+     "block": 140,
+     "before": "Call medics for a convulsive seizure lasting about five minutes, repeated seizures without normal recovery, trouble breathing, dangerous heat, serious injury, a first seizure, or a seizure substantially different from the person’s known pattern.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 140,
+     "start": 0,
+     "end": 245
+    }
+   ]
   },
   {
    "id": "RP-3",

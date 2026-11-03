@@ -93,12 +93,28 @@ card(id='SF-1', type='safety', advice='approve', title='When to call for help, i
      stays=('The danger signs in checklist step 1, and the call-for-help lines inside each emergency (the seizure\'s '
             'five minutes, the chest-pain line, serotonin syndrome, the harm script), stay where the reader acts on '
             'them.'),
-     deciding='Whether the tripsitting part should keep a one-line pointer to this section where the heading was.',
+     deciding=('Whether the tripsitting part should keep a one-line pointer to this section where the heading was. And the '
+               'medics-list line that goes ends "using a fast field remedy does not require giving up a time-sensitive '
+               'medical option": the next section\'s opening says medics and remedy go together ("Some symptom patterns '
+               'call for medics while you use an immediate remedy"), but not in those words; a reader preferred keeping '
+               'this line and cutting that one.'),
      advice_note='Approve.', found_by='my read; reader C',
      inserts=[{'before': P('B98'), 'kind': 'h2', 'text': 'When Peer Support Isn’t Enough', 'seq': 1}],
      moves=[{'blocks': [P('B276'), P('B277'), P('B278')], 'before': P('B98'), 'seq': 2}],
      edits=[cut_block(P('B275')), cut_block(P('B97', 0)), cut_block(P('B95'))],
      spans=[whole(P('B275')), whole(P('B97', 0)), whole(P('B95'))], card_after=P('B97', 6))
+
+card(id='SF-2', type='safety', advice='leave', title='The seizure and chest-pain thresholds, in the list and in their sections',
+     what=('A reader would cut "Call medics for a convulsive seizure lasting about five minutes..." from Active Seizure, '
+           'since the medics list says the same seizure line (and the chest-pain section\'s thresholds repeat the list\'s '
+           'chest-pain line).'),
+     why=('Someone in the middle of a seizure or a chest-pain scare is reading that section, not the list: the threshold '
+          'changes what they do right there. The list is for scanning before anything happens.'),
+     stays='Both stay as they are, unless you say otherwise.',
+     deciding='Whether two places is one too many for these two thresholds.',
+     advice_note='Leave: each is where the reader acts on it, which is your rule for safety lines.',
+     found_by='reader B',
+     edits=[cut_block(P('B112'))], spans=[whole(P('B112'))])
 
 card(id='RP-3', type='repeat', advice='approve', title='"Medics in parallel", said again',
      what=('"Some branches call for medics in parallel. Others describe severe but physiologically stable altered '
