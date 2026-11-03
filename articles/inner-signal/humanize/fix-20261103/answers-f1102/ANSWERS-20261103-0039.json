@@ -1,0 +1,141 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "inner-signal-hypnosis-guide-cards-20261102-f1102",
+ "title": "Hypnosis Guide Cards, 2 November (3)",
+ "git_file": "articles/inner-signal/humanize/fix-20261102/f1102/REVIEW-F1102.html",
+ "article": {
+  "file": "articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "66eb95e7beac2ceac9ac01347f93c8de2960bcb7fad4b769fe8fa2ec07347b25"
+ },
+ "built": "2026-11-02 23:19 UTC",
+ "generator": "suggestion_review.py 1.5 (2026-11-02)",
+ "exported_at": "2026-11-03T00:38:55.360Z",
+ "counts": {
+  "approved": 2,
+  "rejected": 0,
+  "revise": 4,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "E-61",
+   "type": "stuck",
+   "title": "“Your body has its own yes and no …” / “Analysis with no love in it …”",
+   "where": "Forget the left-brain/right-brain cartoon, P3",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "",
+   "comment": "cut all this. you didn't notice the massive overcompletion here? prob this whole guide is full of it then. ",
+   "my_version": "The mind of love and the mind of analysis can both be there, so you can be warm and clear-headed at once. The mind of intuition and the mind of rationality can both be there - intuitive signals without dogma, and testing of those signals without killing them. Your body has its own yes and no, and sometimes a not yet. Your imagination can open things up before the adult in you decides what to do in real life.\n\nAnalysis with no love in it gets sterile, and love that never stops to analyze anything drifts off into fantasy. The same goes for intuition and testing: signals you never test can turn into delusions, and testing with nothing intuitive to test is dead.",
+   "before": "The mind of love and the mind of analysis can both be there, so you can be warm and clear-headed at once. The mind of intuition and the mind of rationality can both be there - intuitive signals without dogma, and testing of those signals without killing them. Your body has its own yes and no, and sometimes a not yet. Your imagination can open things up before the adult in you decides what to do in real life.\n\nAnalysis with no love in it gets sterile, and love that never stops to analyze anything drifts off into fantasy. The same goes for intuition and testing: signals you never test can turn into delusions, and testing with nothing intuitive to test is dead.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-03T00:17:02.178Z"
+    }
+   ],
+   "updated": "2026-11-03T00:23:08.337Z"
+  },
+  {
+   "id": "C-92",
+   "type": "icguide",
+   "title": "“It’s still one grown-up doing three jobs …”",
+   "where": "The inner child, the guards, and the inner adult’s three jobs, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Here I’m going to talk about what you develop in yourself as you reparent your inner child. I’m going to talk about it in terms of three jobs: your loving Nurturer, your safe Adult Protector (hereafter just the Protector) and your wise Guide. It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance. Say a party gets to be too much for your little one. The Protector gets you both out of there, and on the way home the Nurturer tells them they did great, even though mostly they hid in the bathroom. And the Guide helps them think twice about the next weird party they might go to, avoiding another cycle of bathroom vacationing. 🙈 It’s you that needs to develop these qualities.",
+   "before": "Here I’m going to talk about what you develop in yourself as you reparent your inner child. I’m going to talk about it in terms of three jobs: your loving Nurturer, your safe Adult Protector (hereafter just the Protector) and your wise Guide. That’s one grown-up doing three jobs, not three more people moving in to help with the rent, and each job keeps the others in balance. Say a party gets to be too much for your little one. The Protector gets you both out of there, and on the way home the Nurturer tells them they did great, even though mostly they hid in the bathroom. And the Guide helps them think twice about the next weird party they might go to, avoiding another cycle of bathroom vacationing. 🙈 It’s you that needs to develop these qualities.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-03T00:24:08.093Z"
+    }
+   ],
+   "updated": "2026-11-03T00:24:08.093Z"
+  },
+  {
+   "id": "E-119",
+   "type": "stuck",
+   "title": "“Keep breathing gently through the whole practice.”",
+   "where": "The two-hand practice, P3",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Gently breathe in lots of love and begin to send that love from your heart down to your inner child and you breathe out, noticing what comes up for you. If some comes back up, let it, and send it on down again, so it goes around like a loop. That part's a gift from them, and they don't owe it to you, so if nothing comes back, just keep sending yours. If you feel resistance, just meet it with love. If you feel or see something, just meet that with love as well. If you can't find any warmth today, just leave your hands where they are and notice what's there. Don't pretend to feel something you don't. Let it go back and forth between your heart and your inner child, like a real conversation.\n\nThis practice works as an induction too: the Sober induction below has it as one of the anchors you can pick.",
+   "comment": "",
+   "my_version": "Begin to send love from your heart down to your inner child and just notice what comes up for you. If some comes back up, let it, and send it on down again, so it goes around like a loop. That part's a gift from them, and they don't owe it to you, so if nothing comes back, just keep sending yours. If you feel resistance, just meet it with love. If you feel or see something, just meet that with love as well. If you can't find any warmth today, just leave your hands where they are and notice what's there. Don't pretend to feel something you don't. Let it go back and forth between your heart and your inner child, like a real conversation.\n\nKeep breathing gently through the whole practice. It works as an induction too: the Sober induction below has it as one of the anchors you can pick.",
+   "before": "Begin to send love from your heart down to your inner child and just notice what comes up for you. If some comes back up, let it, and send it on down again, so it goes around like a loop. That part's a gift from them, and they don't owe it to you, so if nothing comes back, just keep sending yours. If you feel resistance, just meet it with love. If you feel or see something, just meet that with love as well. If you can't find any warmth today, just leave your hands where they are and notice what's there. Don't pretend to feel something you don't. Let it go back and forth between your heart and your inner child, like a real conversation.\n\nKeep breathing gently through the whole practice. It works as an induction too: the Sober induction below has it as one of the anchors you can pick.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-03T00:25:15.452Z"
+    }
+   ],
+   "updated": "2026-11-03T00:26:39.430Z"
+  },
+  {
+   "id": "E-380",
+   "type": "yours",
+   "title": "“… “Show me whether today is for listening or resting.”” / “Well, what do you mean “it”…”",
+   "where": "Nothing happens, P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Don't fret, even for the greatest masters, many times nothing happens. After all, only like 15% of people are very suggestible. But sometimes it's just confusing when you throw everything at yourself at once. Check if there's a way you could try this on a smaller scale... like is it even the right time for this? You can directly ask that.\n\n\"It feels fake\"\n\nLet's drill into that \"it\"... do you have a sense of what exactly feels feigned, imposterous, or preposterous? The words, an image, what you are expecting to get from this, a role you feel you have to play... am I getting warm? Not having an inner voice or images doesn't mean you're resisting the work, nor that you're missing a 'grown-up'. If it feels like you are being asked to do something you don't want to do, then correct the invitation. It could be that there is a part that is protecting you, so talk to it.",
+   "comment": "yes it directly tests as ai just these 2 paragraphs: https://www.pangram.com/history/db67603a-b644-4667-b07a-140220544dd3?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nfixed them on my first attempt, yes i know i invented a word, that's cool you can invent words for informal pieces like this if they sound right:\n\nhttps://www.pangram.com/history/580be4c0-6fde-4f65-ba3b-559352c4d4ef?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "Don't fret, even for the greatest masters, nothing happens many times. After all, only like 15% of people are very suggestible. But sometimes it's just confusing when you throw everything at yourself at once. Check if there's a way you could try this on a smaller scale, maybe starting with, “Show me whether today is for listening or resting.”\n\nWell, what do you mean \"it\"... do you have a sense of what it is that feels fake? The words, an image, what you are expecting to get from this, a role you feel you have to play etc. Not having an inner voice or images doesn't mean you're resisting the work, or that you're missing a 'grown-up'. If it feels like you are being asked to do something you don't want to do, then correct the invitation. It could be that there is a part that is protecting you, so talk to it.",
+   "before": "Don't fret, even for the greatest masters, nothing happens many times. After all, only like 15% of people are very suggestible. But sometimes it's just confusing when you throw everything at yourself at once. Check if there's a way you could try this on a smaller scale, maybe starting with, “Show me whether today is for listening or resting.”\n\nWell, what do you mean \"it\"... do you have a sense of what it is that feels fake? The words, an image, what you are expecting to get from this, a role you feel you have to play etc. Not having an inner voice or images doesn't mean you're resisting the work, or that you're missing a 'grown-up'. If it feels like you are being asked to do something you don't want to do, then correct the invitation. It could be that there is a part that is protecting you, so talk to it.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-03T00:26:58.714Z"
+    }
+   ],
+   "updated": "2026-11-03T00:34:04.903Z"
+  },
+  {
+   "id": "C-480",
+   "type": "yours",
+   "title": "“… though that doesn’t make the answers any more true.”",
+   "where": "Core prompts, P9",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "You use the prompt to tell your subconscious what you want in a language it can easily understand. The NLP in Appendix B below can help smooth the prompt's entry and reduce resistance. Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.",
+   "before": "You use the prompt to tell your subconscious what you want in a language it can easily understand. The NLP in Appendix B below can help smooth the prompt's entry and reduce resistance. Used together properly, the subconscious can feel safer in giving its response. That doesn't make the answers any more true, though.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-03T00:34:28.349Z"
+    }
+   ],
+   "updated": "2026-11-03T00:34:28.349Z"
+  },
+  {
+   "id": "E-762",
+   "type": "stuck",
+   "title": "“The information on these techniques comes from these sources …”",
+   "where": "Indirect language and re-entry cues, P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "The personal accounts and the way I arrange this practice are my own, especially adaptations like combining body-oriented work and hypnotic work. This combination is not a scientifically validated form of treatment just yet. The Cochrane Collaboration was going to certify it, but then someone there forgot to award me their highest medal of honor.\nLearning, entering, and returning\nHealing the Divided Self, Maggie Phillips and Claire Frederick (1995), pp 24-27, 45-50, 83-90, covers a lot of aspects of this post, such as interactive hypnosis, helping the subject learn how to learn by using other senses, learning self hypnosis, making sure the subject comes back at the end, etc. However, this is a professional clinical book, not a self help book, so be careful about trying to use the procedures used with the cases, etc in this book for solo work (and the same goes for its historical claims). Also, Adam Eason and Benjamin Parris's article about self hypnosis for the International Society of Hypnosis should be a useful thing to read (especially the parts that talk about how to learn to learn when you're directing it yourself, and about whether you need another person to help you, and using recordings to help you, etc.)\nIndirect language and re-entry cues\nFor information about using indirect hypnotic language patterns, such as pacing, utilizing, metaphor, and associational cues, etc, see Healing the Divided Self, Phillips and Frederick, 1995, pp 53-57, 96-100, as well as Nimja's tutorial on hypnotic language patterns, and his tutorial on triggers. That's where I \"formally\" learned these techniques from (most recently), but don't blame them for every NLP claim here, or for an example that doesn't suit trauma work (Nimja didn't write or endorse this guide). I adapted the language for my own purposes, and I deliberately used a sequence that would be easy to use for re-entry.",
+   "comment": "i fixed it in the whole section",
+   "my_version": "For information about using indirect hypnotic language patterns, such as pacing, utilizing, metaphor, and associational cues, etc, see Healing the Divided Self, Phillips and Frederick, 1995, pp 53-57, 96-100, as well as Nimja's tutorial on hypnotic language patterns, and his tutorial on triggers. The information on these techniques comes from these sources, but that doesn't mean they validate every NLP claim, or that every example suits trauma work (Nimja did not write or endorse this guide). I adapted the language for my own purposes, and I deliberately used a sequence that would be easy to use for re-entry.",
+   "before": "For information about using indirect hypnotic language patterns, such as pacing, utilizing, metaphor, and associational cues, etc, see Healing the Divided Self, Phillips and Frederick, 1995, pp 53-57, 96-100, as well as Nimja's tutorial on hypnotic language patterns, and his tutorial on triggers. The information on these techniques comes from these sources, but that doesn't mean they validate every NLP claim, or that every example suits trauma work (Nimja did not write or endorse this guide). I adapted the language for my own purposes, and I deliberately used a sequence that would be easy to use for re-entry.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-03T00:38:36.919Z"
+    }
+   ],
+   "updated": "2026-11-03T00:38:45.641Z"
+  }
+ ]
+}

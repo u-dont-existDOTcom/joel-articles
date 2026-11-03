@@ -1,3 +1,6 @@
+**Joel's answers of 2026-11-03 00:39 UTC (the hypnosis guide's third cards page): their lessons apply here too.** E328 (overcompletion is read for before a flagged window is reworded: a second explanation is cut even when it's parallel or balanced; his "cut all this. you didn't notice the massive overcompletion here?"), E329 (a window over a heading is tested the way Pangram reads it before a card advises keeping it) and E330 (a made-up word is fine in an informal piece if it sounds right). Nothing changed in his post or `master.md`.
+Predictions: none. Delegations (model, piece, check, outcome): none.
+
 **Joel's message of 2026-11-02 23:07 UTC (the hypnosis guide's second free check)**: nothing changed in this lane.
 Predictions: none. Delegations (model, piece, check, outcome): none.
 

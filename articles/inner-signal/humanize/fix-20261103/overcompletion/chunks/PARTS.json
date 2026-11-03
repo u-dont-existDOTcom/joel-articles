@@ -1,0 +1,59 @@
+{
+ "guide_sha256": "090588f72475fbddf5528b9db50193bf50572fc5f99542a52fab02e36db15de0",
+ "parts": [
+  {
+   "part": 1,
+   "blocks": [
+    0,
+    111
+   ],
+   "words": 5166,
+   "file": "articles/inner-signal/humanize/fix-20261103/overcompletion/chunks/PART-1.md"
+  },
+  {
+   "part": 2,
+   "blocks": [
+    112,
+    228
+   ],
+   "words": 4467,
+   "file": "articles/inner-signal/humanize/fix-20261103/overcompletion/chunks/PART-2.md"
+  },
+  {
+   "part": 3,
+   "blocks": [
+    229,
+    357
+   ],
+   "words": 6142,
+   "file": "articles/inner-signal/humanize/fix-20261103/overcompletion/chunks/PART-3.md"
+  },
+  {
+   "part": 4,
+   "blocks": [
+    358,
+    478
+   ],
+   "words": 4928,
+   "file": "articles/inner-signal/humanize/fix-20261103/overcompletion/chunks/PART-4.md"
+  },
+  {
+   "part": 5,
+   "blocks": [
+    479,
+    637
+   ],
+   "words": 5522,
+   "file": "articles/inner-signal/humanize/fix-20261103/overcompletion/chunks/PART-5.md"
+  },
+  {
+   "part": 6,
+   "blocks": [
+    638,
+    769
+   ],
+   "words": 5203,
+   "file": "articles/inner-signal/humanize/fix-20261103/overcompletion/chunks/PART-6.md"
+  }
+ ]
+}
