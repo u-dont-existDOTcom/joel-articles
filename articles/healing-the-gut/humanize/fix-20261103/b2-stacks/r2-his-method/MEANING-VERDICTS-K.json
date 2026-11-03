@@ -1,0 +1,12 @@
+[
+  {
+    "id": "K01",
+    "verdict": "PASS",
+    "issue": "Allowed kits sentence matches the brief. \"(Phase 3)\" pointer is correct. \"Start low\" glossed as \"low doses\" (wording). Worth a look: \"all three of those\" needs the preceding list; \"best\" now spans all kits; \"either\" added; \"decision tree\" dropped; \"should work\" became \"don't stack\"."
+  },
+  {
+    "id": "K02",
+    "verdict": "FAIL",
+    "issue": "'Prebiotic / butyrate support' lost the word \"prebiotic\" (now \"something that helps your gut make butyrate\"); \"especially butyrate\" flattened. Also \"reset ... motility\" became \"change what and when you eat\"."
+  }
+]

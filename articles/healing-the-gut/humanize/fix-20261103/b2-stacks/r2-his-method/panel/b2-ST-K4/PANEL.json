@@ -1,0 +1,54 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "I wouldn't start everyone off on the general \"gut cleanse\" stacks either, the ones built around oregano oil, wormwood, black walnut, berberine or other antimicrobial herbs.",
+  "Those are for later (Phase 3), once you have more reason to suspect overgrowth, parasites, H.",
+  "pylori or something else specific.",
+  "(My own advice is different for H.",
+  "pylori, where berberine works well: see Parasites, above.)"
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [],
+  "5": []
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "codex": [
+   "The orderly progression from caution to a later phase to an exception could reflect AI polishing, though none of these features strongly establishes authorship. The conversational opening and slightly awkward aside give it a less uniform voice."
+  ],
+  "haiku": [
+   "The sentences are evenly weighted and tidily sequenced (a list, then a staging line, then a qualifying aside), giving a smooth, polished rhythm. Beyond the list closers, the structure is not strongly machine-made."
+  ],
+  "sonnet": [
+   "The paragraph is built as two evenly weighted, smoothly balanced sentences, each ending on a tidy list, followed by a parenthetical that cleanly tidies up an exception, so the rhythm is regular and the structure is orderly and self-contained. Nothing in it is rough, tangential or surprising."
+  ]
+ },
+ "human_clean": [
+  "(My own advice is different for H. pylori, where berberine works well: see Parasites, above.)",
+  "My own advice is different for H. pylori, where berberine works well",
+  "see Parasites, above.",
+  "(My own advice is different for H. pylori, where berberine works well: see Parasites, above.)"
+ ]
+}

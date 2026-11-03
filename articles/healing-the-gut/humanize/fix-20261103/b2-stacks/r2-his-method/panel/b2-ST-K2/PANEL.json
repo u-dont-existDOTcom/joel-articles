@@ -1,0 +1,42 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "But some people want a ready-made starting point so they don't have to buy every ingredient separately.",
+  "If that's you, I'd look for a \"repair and rebuild\" stack that has a probiotic you tolerate well (or a probiotic system), something that helps your gut make butyrate and the other short-chain fatty acids, and nutrients for the gut lining like glutamine, zinc carnosine, colostrum, mucosal-support herbs and so on."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph follows a tidy advice template: identify a practical need, address the reader directly, then deliver a comprehensive checklist. Its short opening followed by one heavily loaded sentence could suggest AI polishing, though none of these features establishes authorship."
+  ],
+  "haiku": [
+   "The paragraph is smooth and evenly balanced, with a tidy three-part list of needs and a hedge, which gives it a polished, generic shape; its rhythm and voice are conventional rather than distinctive, though nothing about it is clearly machine-made beyond the items above."
+  ],
+  "sonnet": [
+   "The paragraph is built as a single even, balanced run: a framing sentence, then one long sentence that holds a three-item list ending in an open-ended tail, with no uneven rhythm, no concrete detail and no personal anecdote. Its voice is helpful and generic, like product-guide copy, rather than a particular person describing what they did."
+  ]
+ },
+ "human_clean": [
+  "so they don't have to buy every ingredient separately",
+  "so they don't have to buy every ingredient separately",
+  "so they don't have to buy every ingredient separately"
+ ]
+}
