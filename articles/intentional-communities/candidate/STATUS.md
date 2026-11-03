@@ -1,3 +1,6 @@
+**Joel's message of 2026-11-03 15:22 UTC (move on to the neuro de-armoring article)**: nothing changed in this lane's article. Emulate is retired for new text in every article (gate E333).
+Predictions: none. Delegations (model, piece, check, outcome): none.
+
 **Joel's message of 2026-11-03 14:52 UTC (his answers to the hypnosis guide's question 34, and "make sure this closer reading is also part of the general joel-articles skill")**: nothing changed in this lane's article. The word-for-sense read is now in `SKILL.md` with its tool, `tools/humanization/sense_read.py`, for this article too.
 Predictions: none. Delegations (model, piece, check, outcome): none.
 

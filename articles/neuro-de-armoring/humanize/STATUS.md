@@ -1,5 +1,35 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-03, after Joel's message of 15:22 UTC: question 1 answered; round 1 rewritten and checked; Emulate retired; three examples for him
+
+His message (`fix-20261103/joel-20261103-1522-message.txt`): "no need to recheck i'm sure it's fine, move onto the next
+article you said you were already working on it right". His answers to two questions in the app, word for word in
+`fix-20261103/joel-20261103-1522-answers.txt`: question 1, "Freely, in your voice (Recommended)"; then, after round 1 read
+AI and Emulate showed 0 words left, "yout old me emulate doens't even pass pangram 4.1 very well anymore so that's
+pointless and emulate has done so much damage to my guides that took too long to fix as you saw with hypnosis guide.
+give me a couple examples i will see how to rewrite it to train you". **The mailbox first** (`state/MAILBOX.json`,
+"2026-11-03 15:22"): pull request 277 merged by him at 15:22 UTC; nothing else new.
+
+**Round 1** (`fix-20261103/r1/`): every section rewritten freely in his voice (sections/S01 to S10.md; assemble_r1.py
+makes CANDIDATE.md, fidelity_keys.py PASS on the whole, and cuts each section into stretches the API takes, his Human
+(High) paragraphs left out of them); tells_lint.py on every section and its flags in my sentences fixed. Checked through
+the API on the laptop with public links, predictions first: batch r1103a (`a/`, the first try of Psychology is the
+Software: 40.4% and 100% AI) and batch r1103b (`b/`, 26 stretches: 19 at 100% AI, the best 12.7% AI, Psychology is the
+Software's first half; RESULTS.md). Every prediction was AI, and right. Three predictions were voided, never sent: the
+API counts a heading of eight words or more as a paragraph, so it refused one stretch, and the cut was made again.
+
+**Round 2 stopped before it started** (`fix-20261103/r2/emulate_r2.py`, the 30 segments it would have sent): Emulate's
+balance was 0 words, and his answer retires it (gate E333, `docs/EMULATE-FALLBACK.md`, AGENTS.md). Gate E334 says what
+round 1 showed.
+
+**His three examples** (`fix-20261103/examples/build_page_x1103.py`, REVIEW-X1103.*; published as Neuro De-Armoring Cards,
+3 November, https://claude.ai/artifact/GKEbRH8VvXKzbEnZGCZUgz, capabilities db and downloads; browser test 60 of 60):
+the underpinning paragraph (the science), the UMP trial (a dose with its instructions) and agmatine's interactions (a
+list of warnings), each a stretch to edit, each linking its baseline result and my round-1 results.
+
+Pull request 278, opened during the turn, is the Inner Child lane's (its real-life section), nothing for this lane. Predictions: 28 (2 in r1103a, 26 in r1103b), all AI, all right; 3 voided. Delegations (model, piece, check, outcome):
+none; the rewrite was judgment throughout.
+
 ## 2026-11-03, after Joel's message of 14:52 UTC
 
 His message was his answers to the hypnosis guide's question 34 and "make sure this closer reading is also part of the general joel-articles skill"; nothing changed in this lane. Question 1 still waits on him; this lane is next. The word-for-sense read is now in `SKILL.md` with its tool, `tools/humanization/sense_read.py`. Predictions: none. Delegations (model, piece, check, outcome): none.
