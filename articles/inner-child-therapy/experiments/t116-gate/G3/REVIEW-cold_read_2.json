@@ -1,0 +1,13 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "3ab50be68d54782048a4bd7b9113d662201d79cf604ee709dc7c2c2db6f05940",
+  "context_sha256": "e2056fb304291e2de1c84b3eaa927bd7d6bec2e538c75b4696e0ad8b1b1b09c7",
+  "source_sha256": "9ddeabf2ee05dc89d9816521d32e54612353e360f4f1fb8c6cecc2a377f1f109",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {"name": "Claude Sonnet, fresh subagent (the second cold reader)", "context_id": "t116-gate-cold-read-2-subagent", "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 116, 2026-11-03"},
+  "evidence": "Old wording \"Your Protector earns that guard's trust\" introduces a \"guard\" the reader has not met: the section above it (Protecting and Building Trust With Your Little One, down through Reframing attacks as unskillful attempts to help) never mentions a guard (the only nearby 'guard' in the guide is a later security-guard image and, at line 699, 'that guard part' in an unrelated section), so a reader stumbles on who the guard is, and may think it is a new figure. New wording \"Your Protector earns your little one's trust about the same way\": the Protector is the figure this whole section is about, the little one is the section's heading subject (\"Earning their trust\"), and the roommate analogy (the new roommate wins you over / the Protector wins the little one) now lines up. \"Your little one\" is Joel's standard warm name (not C01). Repeating \"your\" twice in a row (\"Your Protector earns your little one's\") is ordinary speech, not T26. It adds no claim, tone or promise; the rest of the paragraph (rent, real world day after day, both examples) is untouched. No inventory row applies (T15 is not a thesaurus swap, since the swap fixes a dead referent; C02 is resolved, not introduced).",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

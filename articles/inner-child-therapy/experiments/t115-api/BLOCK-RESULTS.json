@@ -1,0 +1,462 @@
+{
+ "fixes": {
+  "F01": {
+   "check": "t115_borrow",
+   "link": "https://www.pangram.com/history/51d04a39-9289-47e5-a581-7853cffc332d",
+   "para_windows": [],
+   "meets": true,
+   "summary": "Checked with its block after the change (https://www.pangram.com/history/51d04a39-9289-47e5-a581-7853cffc332d): Human Written, 0.00% AI. In this paragraph: every window over it Human, High."
+  },
+  "F02": {
+   "check": "t115_borrow",
+   "link": "https://www.pangram.com/history/51d04a39-9289-47e5-a581-7853cffc332d",
+   "para_windows": [],
+   "meets": true,
+   "summary": "Checked with its block after the change (https://www.pangram.com/history/51d04a39-9289-47e5-a581-7853cffc332d): Human Written, 0.00% AI. In this paragraph: every window over it Human, High."
+  },
+  "F03": {
+   "check": "t115_lovewait_r2",
+   "link": "https://www.pangram.com/history/b695880a-a675-4047-8b89-5f0b92d39fee",
+   "para_windows": [
+    [
+     35,
+     264,
+     "Human",
+     "Medium",
+     null,
+     40
+    ]
+   ],
+   "meets": true,
+   "summary": "Checked with its block after the change (https://www.pangram.com/history/b695880a-a675-4047-8b89-5f0b92d39fee): Mostly Human Written, 2.44% AI. In this paragraph: Human, Medium (40 words) on \"Listen for the concrete complaint without fighting the yelling and swearing around it. Lik\"."
+  },
+  "F04": {
+   "check": "t115_crisis",
+   "link": "https://www.pangram.com/history/25417671-a332-4fea-9f90-64719e1634a8",
+   "para_windows": [
+    [
+     393,
+     492,
+     "Human",
+     "Medium",
+     null,
+     18
+    ]
+   ],
+   "meets": true,
+   "summary": "Checked with its block after the change (https://www.pangram.com/history/25417671-a332-4fea-9f90-64719e1634a8): Human Written, 0.00% AI. In this paragraph: Human, Medium (18 words) on \"Getting safe first keeps the question of whether life is worth living open long enough to \"."
+  },
+  "F05": {
+   "check": "t115_writeit",
+   "link": "https://www.pangram.com/history/7dce7368-9d9a-4c19-82ef-afe877a45b84",
+   "para_windows": [],
+   "meets": true,
+   "summary": "Checked with its block after the change (https://www.pangram.com/history/7dce7368-9d9a-4c19-82ef-afe877a45b84): Human Written, 0.00% AI. In this paragraph: every window over it Human, High."
+  },
+  "F06": {
+   "check": "t115_forgive",
+   "link": "https://www.pangram.com/history/edbd62c5-6b07-4b8e-9b51-41cffff43818",
+   "para_windows": [
+    [
+     226,
+     241,
+     "Human",
+     "Medium",
+     null,
+     3
+    ]
+   ],
+   "meets": true,
+   "summary": "Checked with its block after the change (https://www.pangram.com/history/edbd62c5-6b07-4b8e-9b51-41cffff43818): Human Written, 0.00% AI. In this paragraph: Human, Medium (3 words) on \"Or the skills.\"."
+  },
+  "F07": {
+   "check": "t115_worthy",
+   "link": "https://www.pangram.com/history/0e1da836-533c-45fc-8119-9e54ad641234",
+   "para_windows": [
+    [
+     110,
+     252,
+     "Human",
+     "Medium",
+     null,
+     28
+    ]
+   ],
+   "meets": true,
+   "summary": "Checked with its block after the change (https://www.pangram.com/history/0e1da836-533c-45fc-8119-9e54ad641234): Human Written, 0.00% AI. In this paragraph: Human, Medium (28 words) on \"You are more than your pain and your past. There’s help, and lots of other people are out \"."
+  },
+  "F08": {
+   "check": "t115_stages",
+   "link": "https://www.pangram.com/history/8ebeb962-bf21-4080-b20b-2dec350e0561",
+   "para_windows": [
+    [
+     50,
+     93,
+     "Human",
+     "Medium",
+     null,
+     9
+    ]
+   ],
+   "meets": true,
+   "summary": "Checked with its block after the change (https://www.pangram.com/history/8ebeb962-bf21-4080-b20b-2dec350e0561): Human Written, 0.00% AI. In this paragraph: Human, Medium (9 words) on \"Say your boss asks you to stay late again.\"."
+  },
+  "F10": {
+   "check": "t115_remember",
+   "link": "https://www.pangram.com/history/33231c23-2cb5-4f24-93bc-8023153ce108",
+   "para_windows": [
+    [
+     745,
+     797,
+     "Human",
+     "Medium",
+     null,
+     9
+    ]
+   ],
+   "meets": true,
+   "summary": "Checked with its block after the change (https://www.pangram.com/history/33231c23-2cb5-4f24-93bc-8023153ce108): Human Written, 0.00% AI. In this paragraph: Human, Medium (9 words) on \"(If no example comes to mind, try another doorway.)\"."
+  },
+  "F11": {
+   "check": "t115_notice",
+   "link": "https://www.pangram.com/history/cfd5e3ca-91b3-4382-88be-85c6fb594c52",
+   "para_windows": [],
+   "meets": true,
+   "summary": "Checked with its block after the change (https://www.pangram.com/history/cfd5e3ca-91b3-4382-88be-85c6fb594c52): Human Written, 0.00% AI. In this paragraph: every window over it Human, High."
+  },
+  "F12": {
+   "check": "t115_notice",
+   "link": "https://www.pangram.com/history/cfd5e3ca-91b3-4382-88be-85c6fb594c52",
+   "para_windows": [
+    [
+     0,
+     12,
+     "Human",
+     "Medium",
+     null,
+     3
+    ]
+   ],
+   "meets": true,
+   "summary": "Checked with its block after the change (https://www.pangram.com/history/cfd5e3ca-91b3-4382-88be-85c6fb594c52): Human Written, 0.00% AI. In this paragraph: Human, Medium (3 words) on \"What was it?\"."
+  }
+ },
+ "checks": {
+  "t115_borrow": {
+   "link": "https://www.pangram.com/history/51d04a39-9289-47e5-a581-7853cffc332d",
+   "headline": "Human Written",
+   "fraction_ai": 1.68210554139768e-20,
+   "words": 307,
+   "windows": 1,
+   "ai_windows": 0,
+   "below_high": 0,
+   "verdict": "Human",
+   "utc": "2026-10-26T13:24:08Z",
+   "below_high_windows": []
+  },
+  "t115_lovewait": {
+   "link": "https://www.pangram.com/history/1635c866-8fde-4e37-8572-b757f49bc675",
+   "headline": "Human Written",
+   "fraction_ai": 3.4529339245636947e-06,
+   "words": 733,
+   "windows": 12,
+   "ai_windows": 0,
+   "below_high": 7,
+   "verdict": "Human",
+   "utc": "2026-10-26T13:24:22Z",
+   "below_high_windows": [
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 67,
+     "text": "So your love can sound like you’re asking them to trust you. It doesn’t need their trust, but it does need you to be honest with them, which isn’t the same as perfect.\nThe love can go first, though, before their trust is done going over your track record (they’ve heard what you still call yourself when you mess up, sometimes out loud)."
+    },
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 5,
+     "text": "So the anger seemed stupid."
+    },
+    {
+     "label": "Human Written",
+     "confidence": "Low",
+     "words": 27,
+     "text": "You don’t have to accept every conclusion they reach about you, but do listen for the concrete complaint without fighting the yelling and swearing around it."
+    },
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 27,
+     "text": "Like the anger at bedtime, the swearing is there to get them heard, so once you’re listening instead of fighting, they don’t need it anymore."
+    },
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 2,
+     "text": "Thank you."
+    },
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 16,
+     "text": "Both talk in your grown-up voice, so to your little one they’re the same."
+    },
+    {
+     "label": "Human Written",
+     "confidence": "Low",
+     "words": 22,
+     "text": "Be careful not to take the accusation as proof your love really is conditional, when it could just be another part talking."
+    }
+   ]
+  },
+  "t115_crisis": {
+   "link": "https://www.pangram.com/history/25417671-a332-4fea-9f90-64719e1634a8",
+   "headline": "Human Written",
+   "fraction_ai": 7.886863037653846e-12,
+   "words": 202,
+   "windows": 4,
+   "ai_windows": 0,
+   "below_high": 2,
+   "verdict": "Human",
+   "utc": "2026-10-26T13:24:36Z",
+   "below_high_windows": [
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 18,
+     "text": "Getting safe first keeps the question of whether life is worth living open long enough to look at."
+    },
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 14,
+     "text": "And if none of them shows up yet? No problem, the questions can wait."
+    }
+   ]
+  },
+  "t115_writeit": {
+   "link": "https://www.pangram.com/history/7dce7368-9d9a-4c19-82ef-afe877a45b84",
+   "headline": "Human Written",
+   "fraction_ai": 2.3864839886699428e-14,
+   "words": 512,
+   "windows": 6,
+   "ai_windows": 0,
+   "below_high": 3,
+   "verdict": "Human",
+   "utc": "2026-10-26T13:25:04Z",
+   "below_high_windows": [
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 2,
+     "text": "Write It."
+    },
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 1,
+     "text": "There."
+    },
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 8,
+     "text": "It’s also how your voice sounds, though."
+    }
+   ]
+  },
+  "t115_forgive": {
+   "link": "https://www.pangram.com/history/edbd62c5-6b07-4b8e-9b51-41cffff43818",
+   "headline": "Human Written",
+   "fraction_ai": 2.9521705485103134e-17,
+   "words": 358,
+   "windows": 3,
+   "ai_windows": 0,
+   "below_high": 1,
+   "verdict": "Human",
+   "utc": "2026-10-26T13:25:34Z",
+   "below_high_windows": [
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 3,
+     "text": "Or the skills."
+    }
+   ]
+  },
+  "t115_worthy": {
+   "link": "https://www.pangram.com/history/0e1da836-533c-45fc-8119-9e54ad641234",
+   "headline": "Human Written",
+   "fraction_ai": 1.3681308530522074e-07,
+   "words": 126,
+   "windows": 3,
+   "ai_windows": 0,
+   "below_high": 2,
+   "verdict": "Human",
+   "utc": "2026-10-26T13:25:55Z",
+   "below_high_windows": [
+    {
+     "label": "Human Written",
+     "confidence": "Low",
+     "words": 6,
+     "text": "You Are Worthy of Love. Always."
+    },
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 28,
+     "text": "You are more than your pain and your past. There’s help, and lots of other people are out there learning to look after their own little ones."
+    }
+   ]
+  },
+  "t115_stages": {
+   "link": "https://www.pangram.com/history/8ebeb962-bf21-4080-b20b-2dec350e0561",
+   "headline": "Human Written",
+   "fraction_ai": 1.7821612173746053e-14,
+   "words": 352,
+   "windows": 9,
+   "ai_windows": 0,
+   "below_high": 4,
+   "verdict": "Human",
+   "utc": "2026-10-26T13:26:16Z",
+   "below_high_windows": [
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 1,
+     "text": "3."
+    },
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 1,
+     "text": "4."
+    },
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 1,
+     "text": "5."
+    },
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 9,
+     "text": "Say your boss asks you to stay late again."
+    }
+   ]
+  },
+  "t115_remember": {
+   "link": "https://www.pangram.com/history/33231c23-2cb5-4f24-93bc-8023153ce108",
+   "headline": "Human Written",
+   "fraction_ai": 3.2995607300963714e-16,
+   "words": 151,
+   "windows": 2,
+   "ai_windows": 0,
+   "below_high": 1,
+   "verdict": "Human",
+   "utc": "2026-10-26T13:27:53Z",
+   "below_high_windows": [
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 9,
+     "text": "(If no example comes to mind, try another doorway.)"
+    }
+   ]
+  },
+  "t115_notice": {
+   "link": "https://www.pangram.com/history/cfd5e3ca-91b3-4382-88be-85c6fb594c52",
+   "headline": "Human Written",
+   "fraction_ai": 3.966361795075665e-15,
+   "words": 139,
+   "windows": 3,
+   "ai_windows": 0,
+   "below_high": 1,
+   "verdict": "Human",
+   "utc": "2026-10-26T13:28:08Z",
+   "below_high_windows": [
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 3,
+     "text": "What was it?"
+    }
+   ]
+  },
+  "t115_lovewait_r2": {
+   "link": "https://www.pangram.com/history/b695880a-a675-4047-8b89-5f0b92d39fee",
+   "headline": "Mostly Human Written",
+   "fraction_ai": 0.02444631978869438,
+   "words": 720,
+   "windows": 15,
+   "ai_windows": 1,
+   "below_high": 8,
+   "verdict": "Mixed",
+   "utc": "2026-10-26T13:35:12Z",
+   "below_high_windows": [
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 67,
+     "text": "So your love can sound like you’re asking them to trust you. It doesn’t need their trust, but it does need you to be honest with them, which isn’t the same as perfect.\nThe love can go first, though, before their trust is done going over your track record (they’ve heard what you still call yourself when you mess up, sometimes out loud)."
+    },
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 5,
+     "text": "So the anger seemed stupid."
+    },
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 14,
+     "text": "Does the love stay afterward and take whatever’s true in the anger seriously?"
+    },
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 40,
+     "text": "Listen for the concrete complaint without fighting the yelling and swearing around it. Like the anger at bedtime, the swearing is there to get them heard, so once you’re listening instead of fighting, they don’t need it anymore."
+    },
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 2,
+     "text": "Thank you."
+    },
+    {
+     "label": "Human Written",
+     "confidence": "Medium",
+     "words": 61,
+     "text": "When they say “I don’t believe you,” something in you might fire back an accusation, and then they can learn your love is only there as long as they take it the right way. The resentment can be purely visceral: being doubted after you’ve tried feels unfair, but there’s nothing unfair in them going over your track record."
+    },
+    {
+     "label": "Human Written",
+     "confidence": "Low",
+     "words": 16,
+     "text": "Both talk in your grown-up voice, so to your little one they’re the same."
+    },
+    {
+     "label": "AI-Generated",
+     "confidence": "Low",
+     "words": 22,
+     "text": "Be careful not to take the accusation as proof your love really is conditional, when it could just be another part talking."
+    }
+   ]
+  }
+ },
+ "installed": [
+  "F01",
+  "F02",
+  "F03",
+  "F04",
+  "F05",
+  "F06",
+  "F07",
+  "F08",
+  "F10",
+  "F11",
+  "F12"
+ ]
+}

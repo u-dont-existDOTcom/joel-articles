@@ -1,0 +1,49 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_ADMITTED_V1",
+  "candidate_sha256": "be3883db3f2770d9804b178cf7e5933c3d5894eefa13cea69a546def14da8210",
+  "context_sha256": "04738d38f004f4fb0bfa39f659cb9172523fd4392024a905235ca98bf6b11a6d",
+  "source_sha256": "2d90fd82846d5ea3ff125f40538161e1010b1ddefefb12f2c10369279ffbea84",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "lint_verdict": "CLEAR",
+  "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+  "lint_stdout_sha256": "7a6d9f84e416cbc30d03724504c90e2fe4da6ac8536cca43971b74a1924dfa6a",
+  "lint_findings": [],
+  "tell_ledger_counts": {
+    "ABSENT": 33,
+    "PRESENT_JUSTIFIED": 0,
+    "UNCERTAIN": 0,
+    "total": 33
+  },
+  "justified_tells": [],
+  "reviews": {
+    "preservation": {
+      "path": "REVIEW-preservation.json",
+      "sha256": "69e686d3b26e0bb4b537c8d972d2d0c732841aa8975d73f3fe03e2ac35fd96b4",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (the preservation reviewer)",
+        "context_id": "t116-gate-preservation-subagent",
+        "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 116, 2026-11-03"
+      }
+    },
+    "cold_read_1": {
+      "path": "REVIEW-cold_read_1.json",
+      "sha256": "6539b43821c99eb05795f2e0507aa37e5b794fe208a01d0df7b1d6a1d9f67af7",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (the first cold reader)",
+        "context_id": "t116-gate-cold-read-1-subagent",
+        "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 116, 2026-11-03"
+      }
+    },
+    "cold_read_2": {
+      "path": "REVIEW-cold_read_2.json",
+      "sha256": "3915b64f1ce263f2be650367c201abe145795b5099d6e6d3f803ffb741965e99",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (the second cold reader)",
+        "context_id": "t116-gate-cold-read-2-subagent",
+        "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 116, 2026-11-03"
+      }
+    }
+  },
+  "manifest_sha256": "ce59611daeb6eb8954cb4683b6abe3070b7e47ee489de578acbe7d51be122531",
+  "verified_at_utc": "2026-11-03T21:41:55.119057+00:00"
+}

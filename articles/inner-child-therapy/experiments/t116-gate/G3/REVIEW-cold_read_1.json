@@ -1,0 +1,13 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "3ab50be68d54782048a4bd7b9113d662201d79cf604ee709dc7c2c2db6f05940",
+  "context_sha256": "e2056fb304291e2de1c84b3eaa927bd7d6bec2e538c75b4696e0ad8b1b1b09c7",
+  "source_sha256": "9ddeabf2ee05dc89d9816521d32e54612353e360f4f1fb8c6cecc2a377f1f109",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {"name": "Claude Sonnet, fresh subagent (the first cold reader)", "context_id": "t116-gate-cold-read-1-subagent", "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 116, 2026-11-03"},
+  "evidence": "Reads as: \"Your Protector earns your little one’s trust about the same way, out there in the real world, day after day.\" The old \"that guard’s trust\" pointed at a guard no reader of this section has met (I grepped the guide: the only nearby guard imagery is in later sections), which is a C02 failure. The new words name the person whose trust is earned, and fit the heading (\"Earning their trust\") and the section it ends (Protecting and Building Trust With Your Little One), where \"your little one\" is the established name for the inner child (C01 satisfied, warm name). \"Your Protector\" is defined in the guide's opening (the Protector, hereafter), so the sentence has both ends: who earns, whose trust. It also fits the roommate comparison in the two sentences before it (the roommate who has to be won over is the little one; the rent that keeps showing up is the Protector's acts). The phrase \"your little one\" appears often in the section, but here it is needed to name the referent and is Joel's own usual phrase, not an unearned repeat (T26 absent). No added claim, first person, bridge or announcement. It reads as a plain possessive in his voice.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

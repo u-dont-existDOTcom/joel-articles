@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "b7d9a1e69f7e24bf88e7f116adff15d13b77cf4cb293ace6efa230f80a78efb4",
+  "context_sha256": "d7fd885e9f2ac6ece9c780115bec53d92e7594ae52074d69a38cfdff941e4dd8",
+  "source_sha256": "43ce8a02f9b522338bd6cc33ab7933e9321700c9d563ac036666cff7868dbb9e",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (the first cold reader)",
+    "context_id": "t115-gate-cold-read-1-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 115, 2026-10-26"
+  },
+  "evidence": "Read after the paragraph that ends 'When you see it for yourself, though, you might find yourself forgiving them': 'They still have to answer for what they did, and it still hurt, even if you see how they got there. It’s just that punishing them now can’t reach back…' The 'still' answers P2's softening, 'even if you see how they got there' picks up P2's 'see it for yourself' and 'how a person’s… shaped the harmful move', and 'It’s just that' still pivots from accountability to what punishing can't do. Accountability, the hurt and 'seeing doesn't excuse it' are all in one sentence about the people, and nothing is added; the short knock-down is gone. No tell row is PRESENT (the still-still pair and the concession are the source's own and kept, not new). Linter: B1 finished principle is a concrete statement about these people and this harm, opening the paragraph and followed by its reasoning rather than closing on it, not an aphorism; D9 is a one-tell edit that follows its source by design; both accepted.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": ["B1 finished principle", "D9 follows the source order"]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "3c170688ef5bfbe618b08b4cd6ffd0353919a77a1f967a3d702e38063b241ca9",
+  "context_sha256": "5f00eca7a0d8855fb735c5f71bf714eb683f399b7a853f8ecb1de1e659995f59",
+  "source_sha256": "c2128a374bf734c9e861d82a2dd95e5c65116736d4b6990916e8e73454136f69",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (the preservation reviewer)",
+    "context_id": "t116-gate-preservation-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 116, 2026-11-03"
+  },
+  "evidence": "Programmatic check: replacing \"That future you\" with \"Your future self\" in SOURCE gives the CONTEXT paragraph exactly; \"probably also knows why you can’t pull this off perfectly today\", the \"they\" question, the mom quote with its « » spacing, the humor lines are all untouched. No claim added: the \"wiser future version\" is the very thing the section’s first paragraph (once I understood it more clearly) and the next paragraph (\"a wiser future version of whoever else is involved, too\") already describe, so \"also\" and \"too\" still line up, and \"Your future self\" is a self-standing phrase that needs no earlier sentence. It is Joel’s own phrase (guide line 29, \"Your future self might work\"). Checked in the guide: \"That future you\" at line 401 sits in Borrow Hindsight directly after the paragraph with no earlier mention of a future self there, so the old phrase did dangle. \"they\" pronoun use is Joel’s and unchanged.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}
