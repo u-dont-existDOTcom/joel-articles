@@ -1,5 +1,9 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-03, after Joel's message of 11:19 UTC
+
+His message was the hypnosis guide's 31a, 32a and third free check; nothing changed in this lane. Question 1 still waits on him.
+
 ## 2026-11-03, after Joel's answers of 00:39 UTC
 
 His answers were the hypnosis guide's third cards page. Their lessons apply here too: E328 (overcompletion is read for, and cut, before a flagged window is reworded; parallel structure is no reason to keep a second explanation), E329 (a window over a heading is tested as Pangram reads it before a card advises keeping it) and E330 (a made-up word is fine in an informal piece if it sounds right). Nothing in this lane changed; question 1 still waits on him.
