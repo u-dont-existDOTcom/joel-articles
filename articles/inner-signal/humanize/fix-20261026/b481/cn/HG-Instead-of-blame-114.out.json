@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cn/HG-Instead-of-blame-114.txt",
+  "input_words": 113,
+  "input_sha256": "4e2adb695e196122ab9d8dcc2a3ff98686d8362c1694c4c1401c9093345ccbb5",
+  "balance_before": 47523,
+  "started_utc": "2026-10-26T12:57:43Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:57:51Z",
+  "response": {
+    "id": "c7fa76fb-54ea-4655-8d21-0584fe439d4e",
+    "tool": "humanize",
+    "text": "Next time you find yourself judging, shaming, blaming or even ‘putting on trial’ any version of yourself in their younger years, try asking the following instead: What was that age of you trying to get or get out of? What did they understand at that age? What did they see as their options? Did they feel they could take those options? What was the result of taking those options? What did they not have? Did they need help/protection from someone else? What can you learn from this experience now and/or do to repair things now? How will you deal with similar situations next time? Even if what they did was bad, what good will it do that age of you for you to beat yourself up about it now?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 113
+    },
+    "elapsed": 7
+  },
+  "balance_after": 47184
+}

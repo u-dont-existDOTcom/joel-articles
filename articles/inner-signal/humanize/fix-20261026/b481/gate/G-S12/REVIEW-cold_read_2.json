@@ -1,0 +1,19 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "749a7ad432bd69dc74f769fdc7af01fa96c9ecd234aa3c8178787a4b7a1d5600",
+  "context_sha256": "64257db7de9bb4859c127dcebc89eee41d02d1f502b7f45dbc8992c498e2f499",
+  "source_sha256": "6f09a1c38e9ce6c52d02caf2c34cc92a076ace59f03dea8a2b81e54807421722",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+    "context_id": "b481-gate-cold_read_2-subagent-a",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Read the whole section (heading “The table of contents is hiding on the left”, the Substack sentence, then the draft), then the draft, then SOURCE. Draft judged: “It'll be really helpful for this guide as it's a long one.” It is the section's last sentence and appears once in CONTEXT, word for word. the_change: Emulate's sentence in place of his own “On a guide this long, that little hidden menu is your friend.”, carrying “the hidden table of contents helps because the guide is long”. The draft does exactly that: the help is stated (“really helpful”), the reason is stated (“as it's a long one”), and “this guide” is what it is long for. Meaning against SOURCE (his published words): same claim, same reason, nothing added. What is lost is his flourish, not a fact: “that little hidden menu” and the personification “is your friend” become “It” and “really helpful”, and the present-tense “is” becomes “It'll be”. Because the replaced words are his, that loss is his to weigh and the card shows his line first; it is a flattening of voice, not an error. Seam and voice: I feel none. The sentence before it already speaks in this register (“Substack kinda hides...”) and “It'll”, “it's”, “really”, “a long one” carry on in it; it is plain and short, with no hedge, summary or moral he would not write, and “helpful for this guide” is the loose preposition people use in speech. Referent (C02): “It'll” is the table of contents (the object of the sentence before and the heading's subject); the second “it's” is this guide, its nearest antecedent. Two different “it”s in one sentence is speech-like and I do not find it a stumble. Tell rows: I answered all of T01-T29 and C01-C04 on the literal sentence in its context and find none actually happening. Weighed because it ends the section: T20/T28/T29 - it is a plain practical reason, not a clever closer (his own “is your friend” is nearer to one), not uplift or a lesson, and not a restatement: without it the reader knows where the menu is but not why it matters here, so it adds a new consideration (the guide's length). T08 - the line after the concrete UI detail gives the reason to use it, not a translation of it. T15 - it is a recast sentence, not a swap to rarer words. T22 - it carries a reason, not reassurance alone. T11 - “for this guide” ties the tip to the guide because the reason needs it. T07 - “really” and “a long one” carry the reason and are not staged hesitation. C01-C04 - no inner child, no first-person fact, no named-entity claim. Linter: the only finding, “D9 follows the source order”, is not a real problem here. The passage is two sentences, how and then why, and that order is fixed by the content; the swap keeps the replaced sentence's job, and the sentence before it (the part that notices something, a UI quirk) is untouched; I found neither T13 nor T09. Accepted and listed in resolved_lint_labels.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order"
+  ]
+}

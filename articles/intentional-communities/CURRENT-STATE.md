@@ -2,6 +2,14 @@
 
 Registered 2026-10-13 from the community humanization lane (branch `claude/emulate-lessons-20260930`, commit `6775ed15`), at Joel's answer to question 20: "yes register the article but i don't want to separate it from the rules co-developed in inner child lane... so don't register if it would cause that to fork..."
 
+## Now (2026-11-02)
+
+`master.md` is his post as of 2 November: the master of 1 November with the six edits of his answers to Community Article Cards, 1 November, and his own fix of the anomie sentence (question 67, his message of 17:40 UTC), each made in his post through its editor and read back from the public post (`articles/intentional-communities/candidate/fullread-20261030/review/joel-20261101-2026/sections/review/LIVE-CHECK-20261102.json`, `articles/intentional-communities/candidate/fullread-20261030/review/joel-20261101-2026/sections/review/q67/LIVE-CHECK-Q67.json`). Both sections those edits touched read Human Written by themselves; his check of Communes Are Hot Again with his fix reads Human (High) throughout (https://www.pangram.com/history/7813bbfe-30db-4f31-a17f-2937f4e465bf). Nothing is waiting in this lane. The sections below are the history of how the article got here.
+
+## Now (2026-11-01)
+
+The working copy is `candidate/fullread-20261030/review/WORKING-20261101.md`: the 2026-10-26 master with the 19 changes of his answers to the full read's cards (his message of 2026-11-01 18:57 UTC). He asked me to make them in his post (20:26 UTC: "you can do that"); they went in through its editor, his post matches the working copy (`candidate/fullread-20261030/review/joel-20261101-2026/LIVE-CHECK-20261101.json`), and `master.md` is that version (PROMOTION-RECEIPT-20261017.md). Next: a Pangram check of the sections the 19 changes touched, each by itself (gate E307), and a fix for any window that reads AI or Human (Low) (E306). The sections below are the history of how the article got here.
+
 ## Now (2026-10-26)
 
 The working copy is `candidate/joel-20261025/answer66/WORKING.html`: the 2026-10-25 version with his answers to 66 in, which he made in his post himself (his message of 2026-10-26 00:54 UTC); his post matches it (`candidate/joel-20261025/answer66/PROMOTE-CHECK-20261026.json`), and `master.md` is that version (PROMOTION-RECEIPT-20261017.md). Nothing is waiting on him in this lane. The sections below are the history of how the article got here.

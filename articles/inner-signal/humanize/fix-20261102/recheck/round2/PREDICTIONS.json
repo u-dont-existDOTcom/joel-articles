@@ -1,0 +1,57 @@
+[
+ {
+  "key": "r1102b-A1",
+  "lineage": "HG1102-15-P12",
+  "scope": "pair",
+  "words": 191,
+  "call": "Human",
+  "chance": 0.6,
+  "why": "his inner child guide's party example after the rent line, as it goes there (his words; specifics)",
+  "card": "W-92",
+  "sha256": "4a0feb1353ccc25d15842230183af05438ec1c6996d5961bec3a0fd9dd96a989"
+ },
+ {
+  "key": "r1102b-B0",
+  "lineage": "HG1102-W282",
+  "scope": "stretch",
+  "words": 354,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "the passage he checked himself (\"now it's human high conf\"), from \"Once you've got your bearings\" to the end of the script, as it stands",
+  "card": "W-282",
+  "sha256": "567e14afacb478d4d0daf8330e4b19040dc31039e43eee3976ddf26277cee23f"
+ },
+ {
+  "key": "r1102b-B3",
+  "lineage": "HG1102-40-S",
+  "scope": "pair",
+  "words": 168,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "B2, and the \"clearer, clearer still, clearest yet\" climb said plainly",
+  "card": "W-283",
+  "sha256": "b818312e161819378fb0b4fe3aa9a328ad70d5f8a308938046763f12ac6f8002"
+ },
+ {
+  "key": "r1102b-C1",
+  "lineage": "HG1102-23-P34",
+  "scope": "pair",
+  "words": 197,
+  "call": "Human",
+  "chance": 0.6,
+  "why": "the two questions asked as questions",
+  "card": null,
+  "sha256": "88195c843200e0b6138e2db454ceab30bc6dcb11f0c276f63f7a7eb4d476cb6e"
+ },
+ {
+  "key": "r1102b-D2",
+  "lineage": "HG1102-69-P10",
+  "scope": "stretch",
+  "words": 151,
+  "call": "Human",
+  "chance": 0.6,
+  "why": "D1, and the Meta Model's questions said as you'd ask them, not as a list of seven",
+  "card": null,
+  "sha256": "473684da3045d6f60b0cd5f357dd5649672c6c9910ac90a9348b3e3ab47a3ae2"
+ }
+]

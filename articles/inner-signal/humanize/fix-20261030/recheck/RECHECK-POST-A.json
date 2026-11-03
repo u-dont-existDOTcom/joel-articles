@@ -1,0 +1,22 @@
+{
+ "commit": "3c86a07ed4eeda9d6c701a162cb63bb00248a189",
+ "how": "cleared in the editor with a click in its first paragraph, ctrl+a and Delete (0 characters left), then fix-20261022/screen/paste_payload_lane.js (the payload fetched from raw.githubusercontent.com at the commit, its SHA-256 checked); the draft API's saved body holds the new words; the secret link from tools/humanization/substack_secret_link.js's rules; the rendered check is tools/humanization/substack_rendered_check.js's walk in the built-in browser",
+ "draft": 222109105,
+ "title": "TEMP recheck A (hypnosis guide) - do not publish",
+ "link": "https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-30&audience=only_paid&free_preview=false&freemail=",
+ "payload_sha256": "9b4fa17eeb4ffd096bff5b2eae7a96cc42e80a05a24f679d4eba1fe483cf5e20",
+ "editor_words": 31067,
+ "payload_words": 31033,
+ "editor_words_note": "+34, as every paste of part A",
+ "draft_updated_at": "2026-10-30T15:42:14.222Z",
+ "saved_body_checked": [
+  "the full read's fixes in (\"never go through their conscious mind\", \"Ads, screens, fear and cravings\", \"the guard mind bracing for danger\")",
+  "the old words gone (\"Even when not actively engaging\", \"In 2024 there has been\")"
+ ],
+ "rendered": {
+  "lines": 608,
+  "code_points": 166107,
+  "first_99999_sha256": "35d7b7985523030941ca5a95055d28c7adfb5c7e17da0abeb3a11af6128e480d",
+  "equals_TEXT_A": true
+ }
+}

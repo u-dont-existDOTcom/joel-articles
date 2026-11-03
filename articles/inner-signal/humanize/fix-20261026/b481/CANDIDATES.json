@@ -1,0 +1,582 @@
+{
+ "base": "articles/inner-signal/humanize/fix-20261026/b480/CANDIDATE-MASTER.md",
+ "base_sha256": "5895883b98a213df2df0c563cc7581655a5b3219fd08a096be085d722f555279",
+ "candidate_master_sha256": "85c9e6aff7e903fa4f611de353c51490d6782a1930c830b4c50cb9eaf746f36f",
+ "spots": {
+  "S11": {
+   "part": "A",
+   "where": "How to use this very large guide, P1",
+   "block": 4,
+   "his": false,
+   "red": "Human, Medium (0.989), 16 words: this sentence",
+   "windows": [
+    "A2"
+   ],
+   "samples": [
+    "co/HG-How-to-use-this-very-large-g-4"
+   ],
+   "old": "You can also look at the daily and weekly sections to make the practice your own.",
+   "sample_words": "You can also read some of the stuff in the daily and weekly sections",
+   "new": "Also read some of the stuff in the daily and weekly sections, to make the practice your own.",
+   "fixes": [
+    {
+     "replace": "in the daily and weekly sections",
+     "with": "in the daily and weekly sections, to make the practice your own.",
+     "why": "the sample went on \"and take a look at some of the lots of appendices\", which the next sentence says; the sentence's point, his published \"The daily and weekly sections help you make the practice your own\", stays"
+    },
+    {
+     "replace": "You can also read",
+     "with": "Also read",
+     "why": "the gate's linter: \"You can\" is a coach phrase (E41), and one in a sentence this short is over the limit of 2 per 100 words, a FAIL that can't be waived for model words; the old sentence had it too"
+    }
+   ],
+   "published": "His published guide: \"The daily and weekly sections help you make the practice your own.\" (The working copy's sentence, which he approved: \"You can also look at the daily and weekly sections to make the practice your own.\")",
+   "paragraph_before_change": "To make it easier, you can begin with the Quick start section, then learn one of the inductions and the whole return sequence. Then, you can read the Let the next response guide you section, for the part of the practice no recording can decide in advance. You can also look at the daily and weekly sections to make the practice your own. There are lots of appendices with extra tools, covering lots of topics, including asking questions, NLP patterns of language, working with anxiety, working with daydreams, altered states in general, what to do if you experience the sensation of a hostile presence, working with sleep, influence, and more inductions. All sources used are in Appendix K.",
+   "paragraph_after": "To make it easier, you can begin with the Quick start section, then learn one of the inductions and the whole return sequence. Then, you can read the Let the next response guide you section, for the part of the practice no recording can decide in advance. Also read some of the stuff in the daily and weekly sections, to make the practice your own. There are lots of appendices with extra tools, covering lots of topics, including asking questions, NLP patterns of language, working with anxiety, working with daydreams, altered states in general, what to do if you experience the sensation of a hostile presence, working with sleep, influence, and more inductions. All sources used are in Appendix K."
+  },
+  "S12": {
+   "part": "A",
+   "where": "The table of contents is hiding on the left, P1",
+   "block": 7,
+   "his": true,
+   "red": "Human, Low (0.649), 12 words: this sentence, his own",
+   "windows": [
+    "A4"
+   ],
+   "samples": [
+    "cm/HG-The-table-of-contents-is-hid-6"
+   ],
+   "old": "On a guide this long, that little hidden menu is your friend.",
+   "sample_words": "It'll be really helpful for this guide as it's a long one.",
+   "new": "It'll be really helpful for this guide as it's a long one.",
+   "fixes": [],
+   "published": "His published guide, his own words: \"On a guide this long, that little hidden menu is your friend.\"",
+   "paragraph_before_change": "Substack kinda hides the table of contents until you move the mouse toward the left side of the page. On a guide this long, that little hidden menu is your friend.",
+   "paragraph_after": "Substack kinda hides the table of contents until you move the mouse toward the left side of the page. It'll be really helpful for this guide as it's a long one."
+  },
+  "S14": {
+   "part": "A",
+   "where": "Protecting Yourself from Hypnotists, P2",
+   "block": 31,
+   "his": false,
+   "red": "Human, Medium (0.982), 77 words: the paragraph before and these three sentences",
+   "windows": [
+    "A13"
+   ],
+   "samples": [
+    "co/HG-Protecting-Yourself-from-Hyp-30",
+    "co/HG-Protecting-Yourself-from-Hyp-30"
+   ],
+   "old": "Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers know this perfectly well. In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers.",
+   "sample_words": "There are a lot of ways to influence people without engaging their conscious mind. Marketers and interface designers know this perfectly well. The Federal Trade Commission has a report on their “dark patterns” - designs used to trick and manipulate consumers.",
+   "new": "There are a lot of ways to influence people without engaging their conscious mind. Marketers and interface designers know this perfectly well. The Federal Trade Commission has a report on “dark patterns” - designs that trick or manipulate consumers.",
+   "fixes": [
+    {
+     "replace": "a report on their “dark patterns” - designs used to trick and manipulate consumers.",
+     "with": "a report on “dark patterns” - designs that trick or manipulate consumers.",
+     "why": "the gate's preservation reviewer (G-S14, first draft): Emulate's \"their\" and \"used to\" made the dark patterns the marketers' own, used on purpose, and \"trick and manipulate\" said both where his line says either; his \"designs that trick or manipulate consumers\" put back"
+    }
+   ],
+   "published": "His published guide: \"Influence doesn’t wait for the conscious mind to sign a form. Marketers and interface designers know this perfectly well. The FTC’s report on dark patterns describes designs that trick or manipulate consumers, while the OECD describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.\" (His second sentence stays as it is.)",
+   "paragraph_before_change": "Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers know this perfectly well. In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers. The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.",
+   "paragraph_after": "There are a lot of ways to influence people without engaging their conscious mind. Marketers and interface designers know this perfectly well. The Federal Trade Commission has a report on “dark patterns” - designs that trick or manipulate consumers. The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests."
+  },
+  "S15": {
+   "part": "A",
+   "where": "Protecting Yourself from Hypnotists, P3",
+   "block": 32,
+   "his": false,
+   "red": "Human, Low (0.848), 10 words: its first sentence, the four kinds of agreement",
+   "windows": [
+    "A15"
+   ],
+   "samples": [
+    "co/HG-Protecting-Yourself-from-Hyp-30"
+   ],
+   "old": "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent. Can people have their minds influenced without conscious agreement of their adult self?",
+   "sample_words": "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent - can people have their minds influenced without the conscious agreement of their adult self?",
+   "new": "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent - can people have their minds influenced without the conscious agreement of their adult self?",
+   "fixes": [],
+   "published": "His published guide: \"Conscious agreement is one thing. Unconscious receptivity is another. Emotional compliance is another. Legal and ethical consent is another. A mind can be influenced without the adult self having clearly chosen the influence.\"",
+   "paragraph_before_change": "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent. Can people have their minds influenced without conscious agreement of their adult self?",
+   "paragraph_after": "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent - can people have their minds influenced without the conscious agreement of their adult self?"
+  },
+  "S16": {
+   "part": "A",
+   "where": "Forget the left-brain/right-brain cartoon, P4",
+   "block": 62,
+   "his": false,
+   "red": "Human, Medium (0.989), 14 words: this sentence and the next paragraph",
+   "windows": [
+    "A25"
+   ],
+   "samples": [
+    "cm/HG-Forget-the-left-brain-right-62"
+   ],
+   "old": "So these modes can correct each other.",
+   "sample_words": "So each can correct the other.",
+   "new": "So each can correct the other.",
+   "fixes": [],
+   "published": "His published guide: \"Let the modes correct each other.\"",
+   "paragraph_before_change": "Without the mind of love the mind of analysis can be sterile. Without the mind of analysis the mind of love can lead to fantasy. Without testing intuitive signals they can become delusions. Without intuitive signals the testing can be dead. So these modes can correct each other.",
+   "paragraph_after": "Without the mind of love the mind of analysis can be sterile. Without the mind of analysis the mind of love can lead to fantasy. Without testing intuitive signals they can become delusions. Without intuitive signals the testing can be dead. So each can correct the other."
+  },
+  "S17": {
+   "part": "A",
+   "where": "Forget the left-brain/right-brain cartoon, P5",
+   "block": 63,
+   "his": false,
+   "red": "Human, Medium (0.989), 14 words: this line and the sentence before it",
+   "windows": [
+    "A25"
+   ],
+   "samples": [
+    "cm/HG-Forget-the-left-brain-right-62"
+   ],
+   "old": "And it’s got to lead somewhere!",
+   "sample_words": "It’s got to lead somewhere!",
+   "new": "It’s got to lead somewhere!",
+   "fixes": [],
+   "published": "The working copy's line, which he approved: \"And it’s got to lead somewhere!\" (his published guide: \"A powerful state matters only if something survives it: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life.\")",
+   "paragraph_before_change": "And it’s got to lead somewhere!",
+   "paragraph_after": "It’s got to lead somewhere!"
+  },
+  "S18": {
+   "part": "A",
+   "where": "Why doing it myself worked better for me, P1",
+   "block": 65,
+   "his": false,
+   "red": "Human, Medium (0.944), 31 words, and Human, Low (0.531), 7 words: these two sentences",
+   "windows": [
+    "A27",
+    "A28"
+   ],
+   "samples": [
+    "cm/HG-Why-doing-it-myself-worked-b-65",
+    "cm/HG-Why-doing-it-myself-worked-b-65"
+   ],
+   "old": "I was sober at the session and didn't feel especially suggestible, but I suspect that's not even the main reason the pro didn't work very well for me. The bigger issue was trust and precision.",
+   "sample_words": "One reason was that I was sober when I did that, and wasn't that susceptible to hypnosis. But I think a bigger reason is trust and precision.",
+   "new": "One reason might have been that I was sober when I did that, and didn't feel that susceptible to hypnosis. But I think a bigger reason is trust and precision.",
+   "fixes": [
+    {
+     "replace": "One reason was that",
+     "with": "One reason might have been that",
+     "why": "his published \"Maybe part of that was state-dependent\" and the working copy's \"I suspect that's not even the main reason\": a possible reason, not a sure one"
+    },
+    {
+     "replace": "wasn't that susceptible",
+     "with": "didn't feel that susceptible",
+     "why": "his published \"didn’t feel especially suggestible\" is how he felt, not a fact about how susceptible he is"
+    }
+   ],
+   "published": "His published guide: \"The session with the hypnotist did very little. Maybe part of that was state-dependent: I was sober and didn’t feel especially suggestible. The larger issue was trust and precision.\" The sample's \"But I think a bigger reason is\" runs on into the next paragraph; its end here is his \"trust and precision.\"",
+   "paragraph_before_change": "Doing self-hypnosis on my own seems far more useful than the very little I managed to do with a professional hypnotist. I was sober at the session and didn't feel especially suggestible, but I suspect that's not even the main reason the pro didn't work very well for me. The bigger issue was trust and precision.",
+   "paragraph_after": "Doing self-hypnosis on my own seems far more useful than the very little I managed to do with a professional hypnotist. One reason might have been that I was sober when I did that, and didn't feel that susceptible to hypnosis. But I think a bigger reason is trust and precision."
+  },
+  "S19": {
+   "part": "A",
+   "where": "Why doing it myself worked better for me, P2",
+   "block": 66,
+   "his": false,
+   "red": "Human, Low (0.829), 17 words: this sentence",
+   "windows": [
+    "A30"
+   ],
+   "samples": [
+    "co/HG-Why-doing-it-myself-worked-b-65"
+   ],
+   "old": "And I can notice my body saying no before my conscious mind talks me into a yes.",
+   "sample_words": "I can tell when my body is saying no, before my conscious mind can twist it around to a yes.",
+   "new": "I can tell when my body is saying no, before my conscious mind can twist it around to a yes.",
+   "fixes": [],
+   "published": "His published guide: \"I can catch the body’s no before the conscious mind writes a persuasive little essay called yes.\"",
+   "paragraph_before_change": "When I do it on my own, I can detect when the wording I'm using for a suggestion to my subconscious is slightly off, and talk to my subconscious to find out what it thinks is wrong with the wording. When I use an image, I can tell whether it's giving me useful information, or just telling me what I'm afraid of, or what I want to avoid, or what I want to be true, or something I don't understand yet. And I can notice my body saying no before my conscious mind talks me into a yes.",
+   "paragraph_after": "When I do it on my own, I can detect when the wording I'm using for a suggestion to my subconscious is slightly off, and talk to my subconscious to find out what it thinks is wrong with the wording. When I use an image, I can tell whether it's giving me useful information, or just telling me what I'm afraid of, or what I want to avoid, or what I want to be true, or something I don't understand yet. I can tell when my body is saying no, before my conscious mind can twist it around to a yes."
+  },
+  "S20": {
+   "part": "A",
+   "where": "When “your voice” is everybody else’s voice, P11",
+   "block": 186,
+   "his": false,
+   "red": "Human, Low (0.722), 64 words: this sentence and the two before it, which are his inner child guide's",
+   "windows": [
+    "A77"
+   ],
+   "samples": [
+    "cm/HG-When-your-voice-is-everybody-186"
+   ],
+   "old": "You want to let your quieter preferences bubble up to the surface so you can be sure you’re not just echoing your social group.",
+   "sample_words": "You want to be able to let the quiet little preferences that you have bubble up to the surface and know for sure that you’re not going by what your “social” group would want you to do.",
+   "new": "You want to be able to let the quiet little preferences that you have bubble up to the surface and know for sure that you’re not going by what your social group would want you to do.",
+   "fixes": [
+    {
+     "replace": "your “social” group",
+     "with": "your social group",
+     "why": "Emulate's quote marks around \"social\" taken off (the habit Joel caught on 2026-10-25, quote marks around inner child)"
+    }
+   ],
+   "published": "His published guide: \"Sometimes a temporary, intentional period of distance from the people or group supplying the answers helps quieter preferences surface. Use that distance only long enough to tell your own signal from the social echo.\" (The two sentences before it are his inner child guide's and stay.)",
+   "paragraph_before_change": "Temporary Separation. Sometimes it may be wise to remove yourself, for a time, from the people or group that you normally would get answers from. Some people come back later on different terms, and sometimes the break has to be long-term because the pattern of losing yourself with them is deeply entrenched. As you differentiate, you learn to tell which of those apply. You want to let your quieter preferences bubble up to the surface so you can be sure you’re not just echoing your social group.",
+   "paragraph_after": "Temporary Separation. Sometimes it may be wise to remove yourself, for a time, from the people or group that you normally would get answers from. Some people come back later on different terms, and sometimes the break has to be long-term because the pattern of losing yourself with them is deeply entrenched. As you differentiate, you learn to tell which of those apply. You want to be able to let the quiet little preferences that you have bubble up to the surface and know for sure that you’re not going by what your social group would want you to do."
+  },
+  "S21": {
+   "part": "A",
+   "where": "Please don’t put six metaphors in one trance, P2",
+   "block": 238,
+   "his": false,
+   "red": "Human, Medium (0.987), 21 words: this sentence and the bracket after it",
+   "windows": [
+    "A87"
+   ],
+   "samples": [
+    "cm/HG-Please-don-t-put-six-metapho-238"
+   ],
+   "old": "And when you're done, come back the other way.",
+   "sample_words": "When you're done, make sure to come back the other way.",
+   "new": "When you're done, make sure to come back the other way.",
+   "fixes": [],
+   "published": "His published guide: \"Keep the language in the world you chose: let a count mark something meaningful there, and reverse the journey when you finish.\"",
+   "paragraph_before_change": "Using metaphors and imagery is entirely optional. You can use whatever form of signal makes sense to you (feelings, rhythms, movements, words, spatial, simple knowing, lack of signal, whatever) but if you're using words, try to keep them related to whatever world you're creating. If you're going to count, do it in a way that makes sense in your world. And when you're done, come back the other way. (You can borrow qualities, but don't change who you are.)",
+   "paragraph_after": "Using metaphors and imagery is entirely optional. You can use whatever form of signal makes sense to you (feelings, rhythms, movements, words, spatial, simple knowing, lack of signal, whatever) but if you're using words, try to keep them related to whatever world you're creating. If you're going to count, do it in a way that makes sense in your world. When you're done, make sure to come back the other way. (You can borrow qualities, but don't change who you are.)"
+  },
+  "S22": {
+   "part": "A",
+   "where": "Please don’t put six metaphors in one trance, P3",
+   "block": 239,
+   "his": false,
+   "red": "Human, Medium (0.974), 26 words: these three sentences",
+   "windows": [
+    "A89"
+   ],
+   "samples": [
+    "cn/HG-Please-don-t-put-six-metapho-238"
+   ],
+   "old": "Read it out loud as you're writing it. Long, elegant sentences don't read well when you're being induced. It's all just soup.",
+   "sample_words": "And then read it out loud as you write it. Long, elegant sentences are NOT going to help you when you’re trying to induce. It’s all soup to you at that point.",
+   "new": "And then read it out loud as you write it. Long, elegant sentences are NOT going to help you when you’re trying to induce. It’s all soup to you at that point.",
+   "fixes": [],
+   "published": "His published guide: \"Pick one central verb, one sensory quality, one short refrain, and one transition phrase, then read the script aloud; long elegant sentences become soup during an induction.\"",
+   "paragraph_before_change": "When you're writing this, think about what the verb you're using is, what the sensory quality is, what the short refrain is, and how you're going to transition between ideas. Read it out loud as you're writing it. Long, elegant sentences don't read well when you're being induced. It's all just soup.",
+   "paragraph_after": "When you're writing this, think about what the verb you're using is, what the sensory quality is, what the short refrain is, and how you're going to transition between ideas. And then read it out loud as you write it. Long, elegant sentences are NOT going to help you when you’re trying to induce. It’s all soup to you at that point."
+  },
+  "S23": {
+   "part": "A",
+   "where": "Before you begin, P2",
+   "block": 242,
+   "his": false,
+   "red": "Human, Medium (0.982), 58 words: these two sentences and the rest of the paragraph to its last sentence",
+   "windows": [
+    "A91"
+   ],
+   "samples": [
+    "cn/HG-Before-you-begin-242",
+    "cn/HG-Before-you-begin-242"
+   ],
+   "old": "Get clear on what it is you want to do during the induction. What do you want not to do today?",
+   "sample_words": "Think about what you want to do. Are there things you don’t want to do today?",
+   "new": "Think about what you want to do. Are there things you don’t want to do today?",
+   "fixes": [],
+   "published": "His published guide: \"Choose the question or quality you want to explore, what you’re leaving alone today, and how much time you have.\"",
+   "paragraph_before_change": "Get clear on what it is you want to do during the induction. What do you want not to do today? How long do you want to spend on this? (You don't have to do this on a problem. You can do it on something you want to experience more of: love, play, confidence, creativity, communion, whatever.) Make sure you're leaving some time at the end to come back, and reflect on what you experienced.",
+   "paragraph_after": "Think about what you want to do. Are there things you don’t want to do today? How long do you want to spend on this? (You don't have to do this on a problem. You can do it on something you want to experience more of: love, play, confidence, creativity, communion, whatever.) Make sure you're leaving some time at the end to come back, and reflect on what you experienced."
+  },
+  "S24": {
+   "part": "A",
+   "where": "Before you begin, P3",
+   "block": 243,
+   "his": false,
+   "red": "Human, Medium (0.986), 11 words: this sentence",
+   "windows": [
+    "A93"
+   ],
+   "samples": [
+    "cm/HG-Before-you-begin-242"
+   ],
+   "old": "Put yourself in a place where you can safely do this.",
+   "sample_words": "Make sure you're in a safe place to do this.",
+   "new": "Make sure you're in a safe place to do this.",
+   "fixes": [],
+   "published": "His published guide: \"Choose a physically secure place without driving, water, machinery, or anyone needing your supervision.\" (Two of the three samples gave this sentence word for word.)",
+   "paragraph_before_change": "Put yourself in a place where you can safely do this. Don't do this if you're driving, in the water, operating machinery, or otherwise need to be attending to yourself or other people. If you are intoxicated, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. If you are already partially or fully opened, use the later 'Already open? Contain before you deepen' section to help orient yourself, but do not attempt to deepen yourself if you are not stable.",
+   "paragraph_after": "Make sure you're in a safe place to do this. Don't do this if you're driving, in the water, operating machinery, or otherwise need to be attending to yourself or other people. If you are intoxicated, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. If you are already partially or fully opened, use the later 'Already open? Contain before you deepen' section to help orient yourself, but do not attempt to deepen yourself if you are not stable."
+  },
+  "S25": {
+   "part": "A",
+   "where": "Before you begin, P4",
+   "block": 244,
+   "his": false,
+   "red": "Human, Medium (0.949), 20 words; Low (0.879), 2 words (\"Something else?\"); Medium (0.957), 28 words: these sentences",
+   "windows": [
+    "A95",
+    "A96",
+    "A97"
+   ],
+   "samples": [
+    "cn/HG-Before-you-begin-242"
+   ],
+   "old": "Deciding to do it. How will you coax yourself to do this? Make it spacious? Make it warm and held? Something else? Preview what you are going to do: will you close your eyes? Will you come out and go back in again? What will you do at the end?",
+   "sample_words": "Decide to do it. How will you coax yourself to do it? Make it spacious? Make it warm and held? etc. Preview what you are going to do. Will you close your eyes? Will you come out and go back in again? What will you do at the end?",
+   "new": "Decide to do it. How will you coax yourself to do this? Make it spacious? Make it warm and held? etc. Preview what you are going to do. Will you close your eyes? Will you come out and go back in again? What will you do at the end?",
+   "fixes": [
+    {
+     "replace": "coax yourself to do it?",
+     "with": "coax yourself to do this?",
+     "why": "the gate's linter (R1, an action \"it\" near a paragraph start; Joel 2026-09-30: \"the first it is unclear referent\"): the old sentence's \"this\" put back"
+    }
+   ],
+   "published": "His published guide: \"Decide what kind of encouragement is welcome: spacious listening, warm company, or a firmer invitation to stay with a feeling. Preview eye closure, any repeated exit and re-entry, and the return.\" (The rest of the paragraph stays, with the stop lines of card S3b.)",
+   "paragraph_before_change": "Deciding to do it. How will you coax yourself to do this? Make it spacious? Make it warm and held? Something else? Preview what you are going to do: will you close your eyes? Will you come out and go back in again? What will you do at the end? If you are going to use a recording, read the script if you can. Remind yourself that if you say 'stop' at any time, the induction will end. If you say 'less', you will be asked to do less. If you say 'quiet', the talking will stop. You can also just open your eyes and stop, and then come all the way back anyway. You don't need to ask any parts for permission to stop, even if a part tells you that you do.",
+   "paragraph_after": "Decide to do it. How will you coax yourself to do this? Make it spacious? Make it warm and held? etc. Preview what you are going to do. Will you close your eyes? Will you come out and go back in again? What will you do at the end? If you are going to use a recording, read the script if you can. Remind yourself that if you say 'stop' at any time, the induction will end. If you say 'less', you will be asked to do less. If you say 'quiet', the talking will stop. You can also just open your eyes and stop, and then come all the way back anyway. You don't need to ask any parts for permission to stop, even if a part tells you that you do."
+  },
+  "S26": {
+   "part": "A",
+   "where": "Capacity before content, P8",
+   "block": 377,
+   "his": false,
+   "red": "Human, Low (0.727), 6 words: this request",
+   "windows": [
+    "A138"
+   ],
+   "samples": [
+    "co/HG-Capacity-before-content-377"
+   ],
+   "old": "Give me one next action!",
+   "sample_words": "What is one next thing I can do?",
+   "new": "What is one next thing I can do?",
+   "fixes": [],
+   "published": "The working copy's request, which he approved (batch 470): \"Prepare me BEFORE you break it open! Ground me BEFORE you show me the memory! Support me BEFORE you make it intense! Give me one next action!\" (his published guide: \"If the full truth would overwhelm me, please do not reveal it all. Show me the capacity before the content.\")",
+   "paragraph_before_change": "“Dear Wise Subconscious Mind, if there is something you know that my conscious self is not ready to know, please don’t break it open violently! Do what you can to make me able to know it in a way that is safe! Prepare me BEFORE you break it open! Ground me BEFORE you show me the memory! Support me BEFORE you make it intense! Give me one next action!” etc.",
+   "paragraph_after": "“Dear Wise Subconscious Mind, if there is something you know that my conscious self is not ready to know, please don’t break it open violently! Do what you can to make me able to know it in a way that is safe! Prepare me BEFORE you break it open! Ground me BEFORE you show me the memory! Support me BEFORE you make it intense! What is one next thing I can do?” etc."
+  },
+  "S27": {
+   "part": "A",
+   "where": "Capacity before content, P9",
+   "block": 378,
+   "his": false,
+   "red": "Human, Medium (0.989), 16 words, and Human, Medium (0.982), 13 words: the end of its first sentence and its last",
+   "windows": [
+    "A139",
+    "A141"
+   ],
+   "samples": [
+    "co/HG-Nothing-happens-378",
+    "co/HG-Capacity-before-content-377"
+   ],
+   "old": "especially if it relates to trauma and memory. The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc. So, treat it like an image and get some help outside of yourself!",
+   "sample_words": "especially if it has to do with trauma or memories. The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc. So take it as an image and get some outside help!",
+   "new": "especially if it has to do with trauma or memories. The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc. So take it as an image and get some outside help!",
+   "fixes": [],
+   "published": "The working copy's paragraph, which he approved (batch 470): \"REMEMBER: Not everything in hypnotic imagery is literal, especially if it relates to trauma and memory. ... So, treat it like an image and get some help outside of yourself!\" (his published guide: \"The result is symbolic information or a hypothesis, never proof of history.\")",
+   "paragraph_before_change": "REMEMBER: Not everything in hypnotic imagery is literal, especially if it relates to trauma and memory. The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc. So, treat it like an image and get some help outside of yourself!",
+   "paragraph_after": "REMEMBER: Not everything in hypnotic imagery is literal, especially if it has to do with trauma or memories. The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc. So take it as an image and get some outside help!"
+  },
+  "S28": {
+   "part": "A",
+   "where": "Nothing happens, P1",
+   "block": 381,
+   "his": false,
+   "red": "Human, Low (0.618), 12 words: this sentence",
+   "windows": [
+    "A142"
+   ],
+   "samples": [
+    "co/HG-Nothing-happens-378"
+   ],
+   "old": "Is there a way you could try this on a smaller scale?",
+   "sample_words": "Could you try it on a smaller scale?",
+   "new": "Could you try this on a smaller scale?",
+   "fixes": [
+    {
+     "replace": "try it on",
+     "with": "try this on",
+     "why": "the gate's linter (R1, an action \"it\" at a paragraph's start; Joel 2026-09-30: \"the first it is unclear referent\"): the old sentence's \"this\" put back"
+    }
+   ],
+   "published": "His published guide: \"Start smaller:\"",
+   "paragraph_before_change": "Is there a way you could try this on a smaller scale?",
+   "paragraph_after": "Could you try this on a smaller scale?"
+  },
+  "S29": {
+   "part": "A",
+   "where": "Nothing happens, P2",
+   "block": 382,
+   "his": true,
+   "red": "Human, Low (0.575), 31 words: these three requests and the next section's first sentence",
+   "windows": [
+    "A143"
+   ],
+   "samples": [
+    "co/HG-Nothing-happens-378"
+   ],
+   "old": "Ask: “Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.”",
+   "sample_words": "Maybe ask to be shown just one body sensation, or just one word, or even just whether today is for listening or resting.",
+   "new": "Maybe ask to be shown just one body sensation, or just one word. Or even just whether today is for listening or resting.",
+   "fixes": [
+    {
+     "replace": "just one word, or even",
+     "with": "just one word. Or even",
+     "why": "the gate's linter: three asks joined with \"or\" in one sentence are a list of three (E125, a FAIL in model words), so the third is its own sentence, the way he split his own"
+    }
+   ],
+   "published": "His published guide, his own words: \"“Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.”\" The sample's last words (\"whether it is more for listening to something or resting today\") make it listening to something outside you; his \"today is for listening or resting\" ends it instead.",
+   "paragraph_before_change": "Ask: “Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.”",
+   "paragraph_after": "Maybe ask to be shown just one body sensation, or just one word. Or even just whether today is for listening or resting."
+  },
+  "S30": {
+   "part": "A",
+   "where": "It feels fake, P1",
+   "block": 384,
+   "his": false,
+   "red": "Human, Low (0.575), 31 words: this sentence and the three requests before the heading",
+   "windows": [
+    "A143"
+   ],
+   "samples": [
+    "co/HG-It-feels-fake-384"
+   ],
+   "old": "Do you have a sense of what it is that feels fake?",
+   "sample_words": "Have you got any sense of what it is that's making it feel fake?",
+   "new": "Have you got any sense of what it is that's making it feel fake?",
+   "fixes": [],
+   "published": "His published guide: \"First ask what feels fake: the wording, the image, the expectation, or the role you’re trying to perform.\"",
+   "paragraph_before_change": "Do you have a sense of what it is that feels fake? The words, an image, what you are expecting to get from this, a role you feel you have to play etc. It doesn't matter that you don't have an inner voice/image to do this, it isn't necessarily about not having a 'grown up' or resisting doing the work. If it feels like you are being asked to do something you don't want to do then correct this. It could be that there is a part that is protecting you, so talk to it.",
+   "paragraph_after": "Have you got any sense of what it is that's making it feel fake? The words, an image, what you are expecting to get from this, a role you feel you have to play etc. It doesn't matter that you don't have an inner voice/image to do this, it isn't necessarily about not having a 'grown up' or resisting doing the work. If it feels like you are being asked to do something you don't want to do then correct this. It could be that there is a part that is protecting you, so talk to it."
+  },
+  "S31": {
+   "part": "A",
+   "where": "It feels fake, P2",
+   "block": 385,
+   "his": true,
+   "red": "Human, Low (0.531), 10 words: this sentence, his own (his next line, \"Tell me what you remember, I'm listening.\" works well here., Low (0.851), stays)",
+   "windows": [
+    "A146"
+   ],
+   "samples": [
+    "co/HG-It-feels-fake-384"
+   ],
+   "old": "Maybe you've fooled yourself before, and that part remembers.",
+   "sample_words": "You may have fooled yourself in the past and this part knows it.",
+   "new": "You may have fooled yourself in the past, and that part remembers.",
+   "fixes": [
+    {
+     "replace": " and this part knows it.",
+     "with": ", and that part remembers.",
+     "why": "the gate's preservation reviewer (G-S31, first draft): \"this part knows it\" lost his \"remembers\", which his next line picks up (\"Tell me what you remember\"), so his words end the sentence; and Emulate's \"Try\" for his \"works well here\" made his claim a suggestion, so his next sentence stays as it is"
+    }
+   ],
+   "published": "His inner child guide, his own words: \"Maybe you've fooled yourself before, and that part remembers. \"Tell me what you remember, I'm listening.\" works well here.\"",
+   "paragraph_before_change": "You could say something like 'What are you protecting me from?' or 'Are you afraid I will lie to myself again?' or 'Are you afraid this will just be a performance?' If it says yes, that one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part remembers. \"Tell me what you remember, I'm listening.\" works well here.",
+   "paragraph_after": "You could say something like 'What are you protecting me from?' or 'Are you afraid I will lie to myself again?' or 'Are you afraid this will just be a performance?' If it says yes, that one can sting, because there could be something to it. You may have fooled yourself in the past, and that part remembers. \"Tell me what you remember, I'm listening.\" works well here."
+  },
+  "S32": {
+   "part": "B",
+   "where": "Pattern 6: Ethical double binds, P2",
+   "block": 515,
+   "his": true,
+   "red": "Human, Low (0.640), 8 words: this sentence, his own",
+   "windows": [
+    "B5"
+   ],
+   "samples": [
+    "cn/HG-Pattern-6-Ethical-double-bin-514"
+   ],
+   "old": "An ethical one offers two genuinely safe routes.",
+   "sample_words": "An Ethical Double Bind Question gives someone a choice between two safe things to do.",
+   "new": "An Ethical Double Bind Question gives someone a choice between two genuinely safe things to do.",
+   "fixes": [
+    {
+     "replace": "two safe things",
+     "with": "two genuinely safe things",
+     "why": "the gate's preservation reviewer (G-S32, first draft): Emulate dropped his \"genuinely\", the word that says the safety is real, which is what separates the ethical double bind from the manipulative one"
+    }
+   ],
+   "published": "His published guide, his own words: \"A manipulative double bind traps every answer inside the speaker’s agenda. An ethical one offers two genuinely safe routes.\"",
+   "paragraph_before_change": "An ethical one offers two genuinely safe routes. Ethical Double Bind Questions might be:",
+   "paragraph_after": "An Ethical Double Bind Question gives someone a choice between two genuinely safe things to do. Ethical Double Bind Questions might be:"
+  },
+  "S33": {
+   "part": "B",
+   "where": "Anxiety script, P1",
+   "block": 632,
+   "his": false,
+   "red": "Human, Medium (0.984), 18 words: this line and the script's first two questions",
+   "windows": [
+    "B33"
+   ],
+   "samples": [
+    "cm/HG-Anxiety-script-632"
+   ],
+   "old": "A script you could use for anxiety is:",
+   "sample_words": "Here is a little script you could use:",
+   "new": "Here is a little script you could use:",
+   "fixes": [],
+   "published": "The working copy's line, which he approved: \"A script you could use for anxiety is:\" (his published guide: \"For anxiety:\"; the heading says \"Anxiety script\")",
+   "paragraph_before_change": "A script you could use for anxiety is:",
+   "paragraph_after": "Here is a little script you could use:"
+  },
+  "S34": {
+   "part": "B",
+   "where": "Anxiety script, P2",
+   "block": 633,
+   "his": false,
+   "red": "Human, Medium (0.984), 18 words: the line before and these first two questions",
+   "windows": [
+    "B33"
+   ],
+   "samples": [
+    "cn/HG-Anxiety-script-632"
+   ],
+   "old": "Where are my body parts?",
+   "sample_words": "Lets see if I can find my body parts.",
+   "new": "Let’s see if I can find my body parts.",
+   "fixes": [
+    {
+     "replace": "Lets see",
+     "with": "Let’s see",
+     "why": "Emulate's typo, \"Lets\" for \"Let’s\" (Joel, 2026-10-25: \"i didn' tmake these typos, did you?\"), with the curly apostrophe the section's other words have (the gate's three reviewers failed the first draft's straight one)"
+    }
+   ],
+   "published": "The working copy's script, which he approved: \"Where are my body parts? What are my feet doing? ...\"",
+   "paragraph_before_change": "Where are my body parts? What are my feet doing? How is my body positioned in the chair? How is my body breathing? How is my body situated in the room?",
+   "paragraph_after": "Let’s see if I can find my body parts. What are my feet doing? How is my body positioned in the chair? How is my body breathing? How is my body situated in the room?"
+  },
+  "S36": {
+   "part": "B",
+   "where": "Forgiveness without bypass, P5",
+   "block": 665,
+   "his": false,
+   "red": "Human, Medium (0.963), 10 words: these two questions with his \"What does accountability require?\"",
+   "windows": [
+    "B41"
+   ],
+   "samples": [
+    "cm/HG-Forgiveness-without-bypass-665"
+   ],
+   "old": "What is theirs? What is mine?",
+   "sample_words": "What’s theirs and what’s mine?",
+   "new": "What’s theirs and what’s mine?",
+   "fixes": [],
+   "published": "His published guide: \"“What belongs to them?” “What belongs to me?”\" (the working copy's \"What boundaries need to be set?\", which he approved, stays: Emulate's \"What boundaries do I need to set as a result?\" dropped his \"still\" (\"What boundaries are still needed?\") and added a cause, and the gate's preservation reviewer failed it)",
+   "paragraph_before_change": "What actually happened? What was the impact? What boundaries need to be set? What shaped the other person(s) into someone capable of that harm? What is theirs? What is mine? What does accountability require? How can I let this go, without denying any of the above?",
+   "paragraph_after": "What actually happened? What was the impact? What boundaries need to be set? What shaped the other person(s) into someone capable of that harm? What’s theirs and what’s mine? What does accountability require? How can I let this go, without denying any of the above?"
+  }
+ },
+ "left": {
+  "A13 (Protecting Yourself from Hypnotists, P1)": "the window also holds P2's first three sentences, which S14 changes; Emulate's versions of P1 are the same list with an \"It\" that has nothing to refer to",
+  "A39 (Instead of blame, P2)": "his inner child guide's three questions (Medium, 0.987): Emulate's version turns \"it\" into \"they\" in a paragraph that says \"it\" throughout and drops \"stand to\" from \"Could it stand to take any of them?\"",
+  "A53 (Working with your guards, P4)": "his inner child guide's \"I'm not going to force my way past you.\" (Medium, 0.987): Emulate kept it or changed it to \"I don't want to go past you\"",
+  "A75 (When \"your voice\" is everybody else's voice, P11)": "\"Temporary Separation.\" (Low, 0.851, 2 words), the label the paragraph starts with; a two-word window can't read High, and Emulate's versions drop the label or turn it into a question",
+  "A79 (When \"your voice\" is everybody else's voice, P12)": "every sample drops \"a kind of bargain for belonging\", his published \"belonging bargains\", which the section's question \"Where am I buying my sense of belonging\" picks up",
+  "A111 (Sober induction, P13 and P14)": "every sample keeps \"Just let it be there for now.\" word for word and drops \"You don't need to tell the whole story yet.\"",
+  "A119 (Already open? Contain before you deepen, P4)": "Emulate's versions make \"My body may stay safe\" a promise, \"My body will be safe\" (his published \"The body may stay safe.\"); the only other change was a comma",
+  "A135 (Finish without forcing a revelation, P1)": "his inner child guide's line, which all three samples kept word for word",
+  "B9 (Reframing, P1)": "its questions are his published ones (\"What else might be true?\" \"What is this part trying to do for me?\"); the samples changed them",
+  "B19 (Appendix C, P1)": "\"I don't have to obey it. I don't even have to attack it.\": the samples kept it word for word, or dropped \"even\"",
+  "B37 (Forgiveness without bypass, P3)": "his published three sentences to the inner child; every sample changes who speaks (\"We don't have to ...\") or what is promised",
+  "A137 (Capacity before content, P8)": "the three BEFORE requests: Emulate's version puts \"Please\" in front of each, and three new exclamations in a row fail the linter's exclamation rate (S1, S2), which can't be waived for model words; the Low request after them is S26",
+  "B35 (Forgiveness without bypass, P1)": "the only change a sample offered, \"We remember that it can all be true at once.\" (no \"just\"), is a coach phrase in model words (\"remember that\", E41), a FAIL",
+  "B39 (Forgiveness without bypass, P5)": "\"What boundaries need to be set?\" with his \"What was the impact?\" (Medium, 0.981): Emulate's \"What boundaries do I need to set as a result?\" dropped his published \"still\" and added a cause, and the gate's preservation reviewer failed it",
+  "B23 (Hypnosis-specific audit, the one AI window)": "his list (2c); Emulate's three versions change what three of its seven questions ask: question 23 on his questions page"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "guide_sha256": "975fdb3c2ac7d4a92856683866cf14d758cbf907e6ec408d605ceec3a1faed2b",
+ "master_sha256": "8a7ffad7f3c5c7a68c19b89e5635adad2311b2b0cf6ab84faa213f029061f304",
+ "suggestions": [
+  {
+   "id": "S-14",
+   "findings": [
+    "F1.3",
+    "F1.4"
+   ],
+   "block": 14,
+   "where": "Introduction, P6",
+   "whose": "his edit of 28 October (ED-A1)",
+   "his": "“How do I do this?” you ask. Just listen silently. Many people skip the listening or shorten it since it's not \"achieving something\" but this is by far the most important step. When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic trance experience to demonstrate the results of all parts of your mind talking to each other and trusting each other more.",
+   "suggestion": "“How do I do this?” you ask. Just listen silently. Many people skip the listening or shorten it since it's not \"achieving something\", but this is by far the most important step. When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic trance experience to see the results in your day-to-day life, with all parts of your mind talking to each other and trusting each other more.",
+   "why": "A comma before \"but\", and where the results show: your published version says they are \"proven in ordinary life\", and \"demonstrate the results\" had lost that.",
+   "in_recheck": true
+  },
+  {
+   "id": "S-20",
+   "findings": [
+    "F1.5",
+    "F1.6"
+   ],
+   "block": 20,
+   "where": "Quick start: do this first, P3",
+   "whose": "his edit of 28 October (ED-A3), which kept \"as you're invited\" from before",
+   "his": "You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - as you're invited. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return to normal waking consciousness. After, note what happened & any real-world actions.",
+   "suggestion": "You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - and let it shape your next invite. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return to normal waking consciousness. After, note what happened & any real-world actions it calls for.",
+   "why": "\"as you're invited\" leaves a reader asking who invites; your published version runs the other way: what you notice shapes your next invitation. And the actions are the ones the session points to (\"it calls for\").",
+   "in_recheck": true
+  },
+  {
+   "id": "S-24",
+   "findings": [
+    "F1.7"
+   ],
+   "block": 24,
+   "where": "Do you usually think in words?, P2",
+   "whose": "his own paragraph of 28 October (ED-A5: \"couldn't even understand what the original was talking about\")",
+   "his": "Keep in mind that it's normal, even for people who do think in words, to sometimes notice feelings before words.",
+   "suggestion": "Keep in mind that it's normal, even for people who do think in words, to sometimes notice feelings before words. And \"not sure\" is a perfectly good answer to these questions. They're just here to help you pick instructions that work for you.",
+   "why": "Your published version also told the reader that \"not sure\" is a fine answer and that the questions only pick workable instructions; nothing in the guide says it now. This says it plainly.",
+   "in_recheck": true
+  },
+  {
+   "id": "S-782",
+   "findings": [
+    "F21.2"
+   ],
+   "block": 782,
+   "where": "Inner speech and putting experience into words, P1",
+   "whose": "his edit of 25 October (CV-8.9)",
+   "his": "Not everybody has an inner voice (Nedergaard and Lupyan 2024) is not about self hypnosis adaptations, but about people with different amounts of inner speech. The questions in the quick start are a practical way of seeing for yourself how much inner speech you have.",
+   "suggestion": "The study Not everybody has an inner voice (Nedergaard and Lupyan 2024) is not about self hypnosis adaptations, but about people with different amounts of inner speech. The questions in the quick start are a practical way of seeing for yourself how much inner speech you have.",
+   "why": "The study's title isn't marked as a title, so the sentence first reads as a claim (\"Not everybody has an inner voice ... is not about\"). \"The study\" in front makes it a title.",
+   "in_recheck": true
+  },
+  {
+   "id": "S-636",
+   "findings": [
+    "E297"
+   ],
+   "block": 636,
+   "where": "Inner child love, P1",
+   "whose": "his version of 30 October (R-630)",
+   "his": "Here is my basic inner child love practice technique. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix this problem. I’m here now to listen to you.” Make sure you're actually talking to your inner child, not just repeating a script. If you can't genuinely say all that and feel it, then just rest your hands there and notice what you find.",
+   "suggestion": "Do the two-hand practice from Working with your inner child, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix this problem. I’m here now to listen to you.” Make sure you're actually talking to your inner child, not just repeating a script. If you can't genuinely say all that and feel it, then just rest your hands there and notice what you find.",
+   "why": "The same exercise is taught four times in the guide (you: \"we have 4 of these in different versions in there ... Let's make sure we aren't giving people exercises over and over\"). It's taught once now, in The two-hand practice; the induction and the troubleshooting line name it instead of teaching it again. This would do the same here and keep your words for the inner child.",
+   "in_recheck": false
+  }
+ ]
+}

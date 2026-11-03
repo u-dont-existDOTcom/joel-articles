@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cn/HG-Why-doing-it-myself-worked-b-65.txt",
+  "input_words": 154,
+  "input_sha256": "68f0d9748da1dc0a9cf98085599130aca97eb2dcb97176fd3ede6cb86b6fad10",
+  "balance_before": 47985,
+  "started_utc": "2026-10-26T12:57:33Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:57:42Z",
+  "response": {
+    "id": "441a87ab-ca5e-40a5-b474-0d915fbea999",
+    "tool": "humanize",
+    "text": "The technique is pretty different, and seems a lot more useful for me to do on my own than the tiny bit I tried with a professional hypnotist (I was sober for that, but didn't feel particularly suggestible at the time; I don't think that's the main reason it didn't work very well, though).\n\nThe thing is, when I do it on my own, I can tell when I'm not quite wording something right to communicate effectively with my subconscious. I can then talk to my subconscious and find out what it thinks is wrong with my wording. Similarly, when I use an image, I can usually tell whether it's giving me useful information, or just telling me something I'm afraid of, or something I want to avoid, or something I want to be true, or something I don't understand yet. Also, I can tell when my body is saying no before my conscious mind has had a chance to talk it into saying yes.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 154
+    },
+    "elapsed": 9
+  },
+  "balance_after": 47523
+}

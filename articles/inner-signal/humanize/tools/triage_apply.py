@@ -8,6 +8,10 @@ KEY.fixed.json), and reports what didn't fit and the share of the words changed,
 section stays Human (under 18%: 3 of 3 fixed sections did; above it, 2 of 30).
 
   python3 tools/triage_apply.py UNITS.json [UNITS.json ...]     (KEY.triage.json next to each)
+
+Since 2026-10-28 it refuses a triage that lets an UNCLEAR or garbled finding stand (gates E284 and E285; the brief has a
+SUPERSEDED note): on 2026-10-18 the triage let 554 of 814 findings stand, 21 of them marked unclear, to keep each
+section reading Human, and ten days later the guide was "too incomprehensible".
 """
 import difflib, json, pathlib, sys
 
@@ -22,10 +26,29 @@ def changed(a, b):
     return 1 - sum(m.size for m in sm.get_matching_blocks()) / max(len(a), len(b), 1)
 
 
+SENSE = ('UNCLEAR', 'GARBLED', 'GRAMMAR', 'SENSE', 'FRAGMENT')
+
+
+def sense_let_stand(tri):
+    """The let-stand findings that are about whether a reader can follow the words: never let stand (gates E284, E285;
+    Joel, 2026-10-28 15:20 UTC: "the guide itself is now too incomprehensible, we went wrong somewhere")."""
+    out = []
+    for x in tri.get('let_stand', []):
+        line = x.get('finding', '') if isinstance(x, dict) else str(x)
+        head = line.split(':', 2)[1].strip().split()[0].upper() if line.count(':') >= 1 and line.split(':', 2)[1].strip() else ''
+        if head.strip('"') in SENSE:
+            out.append(line)
+    return out
+
+
 def run(units_path):
     units_path = pathlib.Path(units_path)
     key = json.loads(units_path.read_text(encoding='utf-8'))['key']
     tri = json.loads((units_path.parent / ('%s.triage.json' % key)).read_text(encoding='utf-8'))
+    bad_stand = sense_let_stand(tri)
+    if bad_stand:
+        sys.exit('%s: the triage lets a sentence a reader can\'t follow stand; fix it or give it to Joel:\n  %s'
+                 % (key, '\n  '.join(bad_stand)))
     review = [{'block': f['block'], 'verdict': 'FIX', 'problems': f['problems']} for f in tri.get('fixes', []) if f.get('problems')]
     rp = units_path.parent / ('%s.review.json' % key)
     rp.write_text(json.dumps(review, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')

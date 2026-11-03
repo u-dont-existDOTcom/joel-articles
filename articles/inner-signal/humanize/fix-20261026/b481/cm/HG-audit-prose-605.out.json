@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cm/HG-audit-prose-605.txt",
+  "input_words": 134,
+  "input_sha256": "862fe3d66f837455477b7d21e19e8ea18cb6f652347b68671fd82ea9edb13641",
+  "balance_before": 41169,
+  "started_utc": "2026-10-26T13:00:29Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T13:00:40Z",
+  "response": {
+    "id": "484891a1-5408-4234-a348-0e0161e8dc4e",
+    "tool": "humanize",
+    "text": "Do you wish to be buried in a mass grave ? How can you know whether a hypnosis recording or live show may be dangerous to you ? Ask yourself the following questions and if you are not sure about any one of the answers you should become completely alert and aware, ask for a script, or leave . Was it specifically stated that some form of induction mechanics will be employed ? Was at least one method described to you that you could use to become completely alert and aware, or to stop the session altogether ? Was it stated that if you do not notice the induction mechanics it actually proves that it worked, and that you should be reassured by that fact ? Are you being given a new role, new ownership, told to obey, treated as a child, or told who/what you are or who/what you belong to in order to bypass your adult critical faculty ? Was the effect of any fractionation, cueing, behavioral or memory effect explained to you before it was used on you ? Are common physical sensations being given unusual meaning ? Is there an exit procedure to restore you to your normal identity, movements, orientation and critical faculty, and a specific statement telling you that the session is over ?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 134
+    },
+    "elapsed": 11
+  },
+  "balance_after": 40767
+}

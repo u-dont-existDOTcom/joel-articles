@@ -1,0 +1,604 @@
+{
+ "about": "apply_s1101_fixes.py reads this. The windows of batch s1101 (RESULTS.md, CONFIDENCE.md) fixed so far, in our words; the rest of CONFIDENCE.md's list is the next step (HANDOFF). The read of the fixes beside the published text and the linter (tells_lint.py) reworded seven of my sentences (coach phrases, an \"actually\", an \"it\" with no name, a \"tempting ... but\" setup, a short landing); the two lists in \"That way you get back what was good about being young\" stay, since the published version names every item. Round 2: fixes_round2.py (the rest of the windows in our words; the two fixes of his inner child guide's words in Working with your guards undone and made a card; the windows in his words are on his cards page, review/build_page_s1101.py). Round 3: fixes_round3.py (the six sections that still read AI or Human (Low) on their second and last section check, each fix with its diagnosis and the text that was checked).",
+ "guide_sha256": "a32e6afe295f3c185307eb622264212a978878dc52be19ebfa83dac91cc0691b",
+ "windows": [
+  {
+   "id": "s1101-14 w2",
+   "section": "s1101-14",
+   "whose": "ours (my K2 sentence of 1 November)",
+   "published": "If Higher Self, the universal heart ... Higher Self language can help you gather around a meaningful source of care; it doesn’t establish that a perfectly capable inner parent is already available.",
+   "fix": [
+    [
+     "So when I say to invoke your Higher Self, I mean stepping into that wider view while you keep your own judgment.",
+     "So invoking your Higher Self just means going up there for the view, and then coming back down to make your own decisions."
+    ]
+   ],
+   "why": "AI (Low): a \"when I say X, I mean Y\" definition. Said plainly, tied to the \"from up there\" of the sentence before it.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-14 w3",
+   "section": "s1101-14",
+   "whose": "ours",
+   "published": "Differentiate only when something specific appears:",
+   "fix": [
+    [
+     "Differentiate only as you need to. “Is this my inner child?",
+     "When something specific comes up, that’s the time to sort out what it is. “Is this my inner child?"
+    ]
+   ],
+   "why": "Human (Low), and vague: \"as you need to\" doesn't say when. The published version says when: when something specific appears.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-17 w1",
+   "section": "s1101-17",
+   "whose": "ours (the heading is his, as published, and stays)",
+   "published": "Letting a younger feeling-state speak doesn’t mean handing adult judgment to an outside caretaker or trying to become literally younger.",
+   "fix": [
+    [
+     "You can choose to let the parts of you that feel younger express themselves. That doesn’t mean handing your adult judgment over to someone else to take care of you, or actually going back in age.",
+     "Let the parts of you that feel younger have their say. You’re still the one making the adult decisions, though, and you’re not trying to become a little kid again."
+    ]
+   ],
+   "why": "Human (Low); \"actually going back in age\" is vague. Said as the published version means it: not trying to become literally younger.",
+   "fate": "fixed",
+   "round3": [
+    {
+     "old": "You can choose to let the parts of you that feel younger express themselves. That doesn’t mean handing your adult judgment over to someone else to take care of you, or actually going back in age.",
+     "checked_r1101": "Let the parts of you that feel younger have their say. You don’t hand your adult judgment over to someone who will take care of you, and you don’t try to become a little kid again for real.",
+     "read_r1101": "AI Generated (1.0): one AI (High) window over the whole section, 230 words; it read AI Detected (0.23) before round 1",
+     "diagnosis": "Round 1 built all three paragraphs from paired negations and lists (\"You don’t hand ..., and you don’t try ...\", \"No younger part of me, no guide, no recording and no other person\", and two lists in a row in the last paragraph, which also repeated the good things of being young the first paragraph lists). Fewer pairs, and the last paragraph says only what the first one doesn’t: what you leave behind."
+    }
+   ]
+  },
+  {
+   "id": "s1101-17 w3",
+   "section": "s1101-17",
+   "whose": "ours",
+   "published": "No child-state, guide, recording, or outside person replaces adult judgment.",
+   "fix": [
+    [
+     "I am not going to replace my adult judgment with any child state, guide, recording or person.",
+     "I'm not handing my adult decisions over to a younger part of me, or to a guide or a recording, or to anyone else."
+    ]
+   ],
+   "why": "Human (Low): \"replace my adult judgment with any child state\" is abstract; said as what it means in practice.",
+   "fate": "fixed",
+   "round3": [
+    {
+     "old": "I am not going to replace my adult judgment with any child state, guide, recording or person.",
+     "checked_r1101": "No younger part of me, no guide, no recording and no other person gets to make my adult decisions for me.",
+     "read_r1101": "in the same AI (High) window",
+     "diagnosis": "as above"
+    }
+   ]
+  },
+  {
+   "id": "s1101-17 w4",
+   "section": "s1101-17",
+   "whose": "ours",
+   "published": "That distinction lets you recover curiosity, spontaneity, play, sensory freshness, honest need, and quick emotional movement without pairing those gifts with obedience, helplessness, scolding, or weakened judgment.",
+   "fix": [
+    [
+     "This way you get the benefits of being young: curiosity, spontaneity, play, sensation, the ability to state your needs, to feel easily etc., without any of the negatives of being a child, like obeying, being helpless, being scolded, the lack of good judgment etc.",
+     "That way you keep the good parts of feeling younger and leave behind what came with really being a kid: having to obey, not being able to do much for yourself, getting scolded, and not knowing better yet."
+    ]
+   ],
+   "why": "AI (High): two lists set against each other. The same ten things, said as what you get back and what you leave behind.",
+   "fate": "fixed",
+   "round3": [
+    {
+     "old": "This way you get the benefits of being young: curiosity, spontaneity, play, sensation, the ability to state your needs, to feel easily etc., without any of the negatives of being a child, like obeying, being helpless, being scolded, the lack of good judgment etc.",
+     "checked_r1101": "That way you get back what was good about being young. You can be curious, spontaneous and playful, things can feel vivid again, and you can say what you need and feel things quickly. You leave behind the part of being a kid where you had to obey, couldn’t do much for yourself, got scolded, and didn’t know better yet.",
+     "read_r1101": "in the same AI (High) window",
+     "diagnosis": "as above"
+    }
+   ]
+  },
+  {
+   "id": "s1101-20 w7-8",
+   "section": "s1101-20",
+   "whose": "ours (the merge line of 1 November, and the sentence before it)",
+   "published": "Let it become a conversation rather than a performance.",
+   "fix": [
+    [
+     "This is a conversation with your inner child from your heart.",
+     "Let it go back and forth between your heart and your inner child, like a real conversation."
+    ],
+    [
+     "Breathe gently the whole time. The practice also works as an induction: it’s one of the anchors you can choose in the Sober induction below.",
+     "Keep breathing gently through the whole practice. It works as an induction too: the Sober induction below has it as one of the anchors you can pick."
+    ]
+   ],
+   "why": "Human (Low) and AI (Low). The first sentence is vague (\"a conversation ... from your heart\"); the published version says what it is for: a conversation, not a performance.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-23 w1,w3",
+   "section": "s1101-23",
+   "whose": "ours",
+   "published": "People assume inner-child work begins with the child. Very often, you meet the guard at the door first.",
+   "fix": [
+    [
+     "Feel free to use parts language here, too, if it’s helpful.",
+     "Use parts language here too, if it helps."
+    ],
+    [
+     "It’s good to notice it, though, and then to see what might be going on.",
+     "Still, notice it, and then look at what might be going on."
+    ]
+   ],
+   "why": "Human (Low), twice: the paragraph's first and last sentences, said more plainly.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-23 w7-8",
+   "section": "s1101-23",
+   "whose": "ours (his inner child guide's \"I see you. I'm not going to force my way past you.\" stays)",
+   "published": "They’re often the protector making an appearance in its usual charming way. ... One important voice is the inherited parent ...",
+   "fix": [
+    [
+     "But before you decide where it's coming from, ask it what it's trying to stop, or what it wants. It could also be your inner child, mad that you took so long to come back, or your inherited parent script, or something from earlier today, or a bit of each.",
+     "It might not be a guard at all, though. Maybe it's your inner child, angry that you took so long to come back. Maybe it's your inherited parent script, or something left over from earlier today, or some of each. So before you decide what it is, ask it what it's trying to stop, or what it wants."
+    ]
+   ],
+   "why": "AI (Medium) and AI (High): the instruction came before what it was about, and the possibilities ran on as one list.",
+   "fate": "card",
+   "undone": "card G-23: the fix rewrote sentences taken from his inner child guide (\"Before you decide where it's coming from, ask it what it's trying to stop, or what it wants\", \"mad that you took so long to come back\", \"or something from earlier today, or a bit of each\"); his words stay until he answers the card"
+  },
+  {
+   "id": "s1101-23 w8-11",
+   "section": "s1101-23",
+   "whose": "ours around his inner child guide's words (\"I see you.\", \"I'm not going to force my way past you.\", \"Then wait and listen patiently.\", which stay)",
+   "published": "“I notice you. You are trying to protect something. I want to understand. What are you afraid would happen if you stopped?” Then wait.",
+   "fix": [
+    [
+     "Say to the guard, in the same Nurturer voice you meant for your inner child: “I see you.",
+     "Talk to the guard the way your Nurturer talks to your inner child: “I see you."
+    ],
+    [
+     "What's going on?” Then wait and listen patiently. If nothing comes, that's fine for now. At some point you can ask,",
+     "What's up?” Then wait and listen patiently. If you get nothing back, leave it there for today. Later on, ask it,"
+    ]
+   ],
+   "why": "AI (High, Medium, Low, Low) around his own lines; our words said more plainly.",
+   "fate": "card",
+   "undone": "card G-23: \"What's going on?\" and \"If nothing comes, that's fine for now.\" are his inner child guide's lines word for word, and \"in the same Nurturer voice you meant for\" and \"At some point you can ask\" are from the same paragraphs of it; his words stay until he answers the card"
+  },
+  {
+   "id": "s1101-27 w1-2",
+   "section": "s1101-27",
+   "whose": "ours (the heading is his, as published, and stays)",
+   "published": "When the child does appear, resist the urge to begin a healing project immediately. Be with them first. “Little one, I am here. You do not have to explain everything. You do not have to be healed today. You do not have to become impressive. I only want to know what would help you feel less alone.”",
+   "fix": [
+    [
+     "When your inner child does show up, don’t start a healing project right away. Just be with them.",
+     "When your inner child does show up, put the healing work aside for now and just be with them for a while."
+    ],
+    [
+     "If you can, tell them something like, “I’m here. You don’t have to explain yourself, or be healed today, or impress me. I just want to know what would help you feel less alone.”",
+     "If you can, tell them something like, “Little one, I’m here. You don’t have to explain anything, and you don’t have to get better today or impress me. I just want to know what would make you feel less alone.”"
+    ]
+   ],
+   "why": "AI (High) and AI (Low): the heading, the instruction and the script read as one AI window; said the way you'd say it, with the published \"Little one\".",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-28 w4",
+   "section": "s1101-28",
+   "whose": "ours",
+   "published": "Rest also doesn’t require helplessness. ... You remain able to move, stop, and return.",
+   "fix": [
+    [
+     "You can still move, stop and come back whenever you need to.",
+     "You can still get up and move around, stop resting, and get back to what you were doing whenever you need to."
+    ]
+   ],
+   "why": "Human (Low): \"move, stop and come back\" didn't say from what. The published point: resting doesn't take away your ability to get up, end the rest and go back to things.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-39 w9",
+   "section": "s1101-39",
+   "whose": "ours (his own paragraphs above it stay)",
+   "published": "Once you’re oriented, choose one intention: “Please show me the next useful truth, symbol, feeling, question, or action — only in the amount I can live well with.”",
+   "fix": [
+    [
+     "When you feel oriented, set an intention.",
+     "Once you’ve got your bearings, ask for one thing."
+    ],
+    [
+     "Something like, \"Please show me the next truth/symbol/feeling/question/action that is useful for me, that I can integrate.\"",
+     "\"Please show me the next truth, symbol, feeling, question or action that's useful for me, and no more than I can handle.\""
+    ]
+   ],
+   "why": "Human (Low): \"set an intention\" said as what it is here, one thing to ask for; \"that I can integrate\" said as the published \"only in the amount I can live well with\", which also stops it repeating his \"Only what I can integrate\" two paragraphs up.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-40 w1-5",
+   "section": "s1101-40",
+   "whose": "ours (the heading is his, as published, and stays)",
+   "published": "Sit upright. Open the eyes. Feel the feet. Let the breath be natural. Say: “I am not going away. I am coming more fully here.” Look at one object. Feel the spine. “Is this daydream guidance, emotional digestion, or avoidance?” “If it is guidance, show me the action inside it. If it is avoidance, bring me gently into the present and show me what I am avoiding.”",
+   "fix": [
+    [
+     "Say to yourself, \"I'm not going anywhere, and I'm coming more fully here.\" Sit up, open your eyes, feel your feet, let your breathing be natural.",
+     "If your mind keeps drifting off, sit up and open your eyes, feel your feet on the floor, and let your breathing go at its own pace. Then tell yourself, \"I'm not going anywhere. I'm coming more fully here.\""
+    ],
+    [
+     "Look around you and choose something to look at. Feel your spine. Ask yourself why you're daydreaming. Is it to get guidance, or because you're working through something, or are you avoiding something?",
+     "Pick one thing in the room to look at, and feel your spine. Then ask yourself what the daydreaming is doing for you. Is it bringing you guidance, or helping you work through a feeling, or are you using it to avoid something?"
+    ],
+    [
+     "Say something like, \"If I'm meant to be getting guidance, please show me the action I need to take. If I'm avoiding something, please bring me back to now and show me what I'm avoiding.\"",
+     "Ask for what fits, something like, \"If this is guidance, show me what I need to do about it. If I'm avoiding something, bring me gently back to the present and show me what it is.\""
+    ],
+    [
+     "### Make the hypnosis more active",
+     "### Make the hypnosis more alert"
+    ]
+   ],
+   "why": "AI Generated, the whole section: four commands in a row, then a question. Each step now says what it's for (the heading's drifting mind), the body comes before the words as published, \"working through something\" is the published \"emotional digestion\" (a feeling), \"gently\" is back, and the heading says \"alert\", the word his paragraph under it uses. His paragraph and script under the heading are his, on his cards page.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-42 w5",
+   "section": "s1101-42",
+   "whose": "ours",
+   "published": "None proves truth; at most, something may be listening.",
+   "fix": [
+    [
+     "Even if something happens, it doesn’t mean that what comes next will be true. It just might mean that something is listening.",
+     "Even if something happens, it doesn’t mean that what comes next will be true, only that some part of you might be listening."
+    ]
+   ],
+   "why": "Human (Low): \"something\" said as what the guide means, a part of you, and the published limit \"at most\" put back.",
+   "fate": "fixed",
+   "round3": [
+    {
+     "old": "Even if something happens, it doesn’t mean that what comes next will be true. It just might mean that something is listening.",
+     "checked_r1101": "At most, it could mean that some part of you is listening.",
+     "read_r1101": "Human Written; the closing sentence Human (Low), 12 words, as before",
+     "diagnosis": "A short closing sentence on its own reads Low however it is worded; joined to the sentence it qualifies, as the published \"None proves truth; at most, something may be listening\" is one sentence."
+    }
+   ]
+  },
+  {
+   "id": "s1101-44 w4-6",
+   "section": "s1101-44",
+   "whose": "ours",
+   "published": "Note only what actually appeared, and any action it calls for. Then do something normal. / If a recording stops unexpectedly: say, “The recording stopped and the session is over.” Open your eyes, name the location and day, press your feet or hands into a surface, move, look around, and use the five-step count. Don’t wait for the missing narrator to release you. / Sleep is separate. A sleep recording may end in sleep or quiet rest. A waking recording shouldn’t end by preserving a role, reduced judgment, impaired movement, blankness, an undefined reset word, or an invitation to remain altered indefinitely.",
+   "fix": [
+    [
+     "Take mental note of only what actually came up for you and any actions you need to take regarding it. Then go on and do something normal.",
+     "Make a mental note of just what actually came up and anything you need to do about it, then go and do something normal, like eating or washing up."
+    ],
+    [
+     "If your recording cuts out for some reason, you can say to yourself, \"The recording has stopped and the session is over,\" and then do the above on your own. Once your eyes are open, press your feet or hands into a surface as well.",
+     "If your recording cuts out partway through, you could end up lying there waiting for a voice that isn't coming back. So tell yourself, \"The recording has stopped and the session is over,\" and do the count and the checks above on your own. Once your eyes are open, press your feet or hands into something solid too."
+    ],
+    [
+     "Note: If you are going to sleep to a recording, then it is fine to go to sleep or just keep resting at the end of it. However, if it's a recording that's meant to bring you back awake, then you should not leave yourself in an altered state. This includes leaving yourself in a role, with lowered judgment, with lowered ability to move, blank or with a non-specific reset word or for an indefinite length of time.",
+     "Sleep recordings are different, since drifting off at the end of one, or just resting, is what they're for. A recording that's meant to wake you back up has to finish the job, though. If it leaves you still in a role, with your judgment or your body slowed down, or blank, you'd be walking around half under. The same goes for a vague reset word, or a state it never ends."
+    ]
+   ],
+   "why": "Human (Low), AI (Low) and AI (High) over the last two paragraphs. The paragraph about a recording that cuts out had lost the published point, don't wait for the missing narrator to release you; it's back, and \"the above\" says what it is (the count and the checks). \"Something normal\" gets an example; the note on sleep recordings keeps every item of its list, in two sentences.",
+   "fate": "fixed",
+   "round3": [
+    {
+     "old": "Take mental note of only what actually came up for you and any actions you need to take regarding it. Then go on and do something normal.",
+     "checked_r1101": "Make a mental note of just what actually came up, and of anything you need to do about it. Then go and do something normal, like eating or washing up.",
+     "read_r1101": "Human (Low), 11 words, on \"Then go and do something normal, like eating or washing up.\"",
+     "diagnosis": "The short last sentence again; joined to the one before."
+    },
+    {
+     "old": "If your recording cuts out for some reason, you can say to yourself, \"The recording has stopped and the session is over,\" and then do the above on your own. Once your eyes are open, press your feet or hands into a surface as well.",
+     "checked_r1101": "If your recording cuts out partway through, don't lie there waiting for it to bring you back. Tell yourself, \"The recording has stopped and the session is over.\" Then do the count and the checks above on your own. Once your eyes are open, press your feet or hands into something solid too.",
+     "read_r1101": "AI (High), 134 words over this paragraph and the next, as on 1 November (126 words)",
+     "diagnosis": "Both versions were rules in the published order: an instruction, then a list of what a recording mustn’t do. Each paragraph now says why: what happens if you wait for the missing voice, and what being left in a role or blank means once you get up."
+    },
+    {
+     "old": "Note: If you are going to sleep to a recording, then it is fine to go to sleep or just keep resting at the end of it. However, if it's a recording that's meant to bring you back awake, then you should not leave yourself in an altered state. This includes leaving yourself in a role, with lowered judgment, with lowered ability to move, blank or with a non-specific reset word or for an indefinite length of time.",
+     "checked_r1101": "Sleep recordings are different: if you fall asleep at the end of one, or just keep resting, that's fine. But a recording that's meant to wake you back up should bring you all the way out. It shouldn't leave you stuck in a role, with your judgment or your ability to move turned down, or blank. A vague reset word is no good either, and neither is being left in that state with no end to it.",
+     "read_r1101": "in the same AI (High) window",
+     "diagnosis": "as above"
+    }
+   ]
+  },
+  {
+   "id": "s1101-46 w1",
+   "section": "s1101-46",
+   "whose": "ours (the heading is his, as published, and stays)",
+   "published": "The induction and inner meeting bring you to a place where you can listen. From here, learn to answer what happens instead of reciting a speech that has already decided what every part will say.",
+   "fix": [
+    [
+     "The induction and the inner meeting get you to a place where you can listen. From there, you respond to whatever actually happens, which is the part no recording can decide in advance.",
+     "The induction and the inner meeting get you to where you can listen. After that, it's about answering what happens, instead of reading out a script that has already decided what every part of you is going to say."
+    ]
+   ],
+   "why": "AI (High): \"which is the part no recording can decide in advance\" was a tidy closer, and the published contrast was gone: you answer what happens, not a speech decided in advance.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-51 w5",
+   "section": "s1101-51",
+   "whose": "ours (his inner child guide's line in the paragraph before is on his cards page)",
+   "published": "You don’t owe the notebook a complete cast of characters.",
+   "fix": [
+    [
+     "You don’t need to write down the whole cast of characters, just what you actually noticed.",
+     "You don’t have to list every part of you that might have been involved, only what you actually noticed."
+    ]
+   ],
+   "why": "Human (Low): \"the whole cast of characters\" said as what it means here, every part of you that might have been involved.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-53 w1-2",
+   "section": "s1101-53",
+   "whose": "ours (the heading is his, as published, and stays)",
+   "published": "Once or twice a week, give the same practice more time when that is useful. More time needn’t mean greater intensity. Start from Higher Self or neutral witnessing, follow what appears, borrow an adult function when needed, and ask whether anything important is being bypassed. Leave room for the full exit and any ordinary action needed afterward. / Do the ordinary action immediately when possible. That teaches the subconscious that the adult heard and acted, instead of staging another beautiful internal meeting and then leaving the dishes exactly where they were.",
+   "fix": [
+    [
+     "It’s good to give this more time once or twice a week, when that’s useful. It doesn’t have to be very intense, but it is good to start from Higher Self or at least a neutral witnessing place and follow what appears. It’s also good to bring in some adult function when you need it, to check that nothing important is being bypassed, and to leave time at the end to come out completely and do whatever normal thing needs doing.",
+     "Once or twice a week, when it’s useful, give this practice more time, so there’s room to follow whatever shows up. It doesn’t need to be more intense than usual. Start from your Higher Self, or from simply noticing what’s there if that’s out of reach. If you need the Protector or another of your adult jobs, bring it in or borrow it from someone safe, and check you’re not skipping past anything important. Leave enough time at the end to come all the way back out."
+    ],
+    [
+     "If possible, it’s good to do the normal thing immediately after the exercise, so that the subconscious sees that the adult heard and acted. Otherwise you just get another beautiful inner meeting, and the dishes are still sitting in the sink.",
+     "Then, if you can, do the normal thing that came up right away. Your subconscious gets to see that the adult in you heard it and did something, and it doesn’t just become one more beautiful inner meeting with the dishes still in the sink."
+    ]
+   ],
+   "why": "AI Detected (0.65): \"it’s good to\" four times in two paragraphs, and \"some adult function\" and \"a neutral witnessing place\" left abstract. Each said as what it is (the Nurturer, the Protector or the Guide, or borrowed from someone safe, as in the borrowed adulthood section; just noticing what’s there); the closing quip about the sink said the published way.",
+   "fate": "fixed",
+   "round3": [
+    {
+     "old": "It’s good to give this more time once or twice a week, when that’s useful. It doesn’t have to be very intense, but it is good to start from Higher Self or at least a neutral witnessing place and follow what appears. It’s also good to bring in some adult function when you need it, to check that nothing important is being bypassed, and to leave time at the end to come out completely and do whatever normal thing needs doing.",
+     "checked_r1101": "Once or twice a week, if it’s useful, give the practice more time. More time doesn’t have to mean more intense. It helps to start from your Higher Self, or if that’s out of reach, from just noticing what’s there. Then follow whatever shows up. If you need one of your adult jobs, the Protector say, bring it in, or borrow it from someone safe. And check that you’re not skipping past anything important. You’ll also want enough time at the end to come all the way back out and do whatever normal thing needs doing.",
+     "read_r1101": "AI Generated (1.0): AI (Medium, High, Medium, High) over the whole section; it read AI Detected (0.65) before",
+     "diagnosis": "Round 2 cut the repeated \"it’s good to\" into short commands and short statements (\"More time doesn’t have to mean more intense.\", \"Then follow whatever shows up.\"), each read AI on its own. The paragraph now starts from what the extra time is for, and the steps run together as one person would say them."
+    },
+    {
+     "old": "If possible, it’s good to do the normal thing immediately after the exercise, so that the subconscious sees that the adult heard and acted. Otherwise you just get another beautiful inner meeting, and the dishes are still sitting in the sink.",
+     "checked_r1101": "If you can, do that normal thing right after the session. That way your subconscious sees that the adult in you heard what came up and did something about it, instead of having one more beautiful inner meeting and leaving the dishes where they were.",
+     "read_r1101": "in the same AI window (High, 98 words with the end of the paragraph before)",
+     "diagnosis": "as above"
+    }
+   ]
+  },
+  {
+   "id": "s1101-59 w1",
+   "section": "s1101-59",
+   "whose": "ours (the headings and the lines after it are his, as published)",
+   "published": "Ask the bliss to become specific. “What task, boundary, meal, rest, repair, or conversation does love require next?”",
+   "fix": [
+    [
+     "Bring it down to something specific. Ask yourself, “What’s the smallest, most specific thing your love is asking you to do next? A task, a boundary, a meal, some rest, a repair, a conversation?”",
+     "If the bliss spreads out into a big warm haze, it can’t do much for you or anyone else yet. Bring it down to one next step by asking, “What’s the next small thing this love is asking me to do? A task, a boundary, a meal, some rest, a repair, a conversation?”"
+    ]
+   ],
+   "why": "AI (Medium) over the headings and this paragraph: \"Bring it down to something specific\" didn't say what \"it\" is or what specific means. The published \"Ask the bliss to become specific\", said as something you can do, and the question asked in the first person, as you'd ask it.",
+   "fate": "fixed",
+   "round3": [
+    {
+     "old": "Bring it down to something specific. Ask yourself, “What’s the smallest, most specific thing your love is asking you to do next? A task, a boundary, a meal, some rest, a repair, a conversation?”",
+     "checked_r1101": "Ask what the bliss could turn into in real life: “What’s the next small thing this love is asking me to do? A task, a boundary, a meal, some rest, a repair, a conversation?”",
+     "read_r1101": "AI (High), 50 words over the heading, this paragraph, the next heading and his \"Don’t pry.\" (AI Medium on 1 November)",
+     "diagnosis": "A rewrite of the words that kept the shape (the ledger’s explanation of HG1101-59#195): a heading, a one-line instruction, a quoted question. The paragraph now says what the problem is (\"diffuse\" in the heading) before the step, so the window holds more than a heading and an order."
+    }
+   ]
+  },
+  {
+   "id": "s1101-69 w4-16",
+   "section": "s1101-69",
+   "whose": "ours (his own paragraphs on bridges and embedded invitations go to his cards page)",
+   "published": "Pattern 3 to 10 of the published Milton Model (published-20260928.md, from \"A presupposition hides an assumption\" to \"Use Meta Model to return to truth.\")",
+   "fix": [
+    [
+     "Presumption is a powerful thing (a presupposition hides an assumption inside a sentence, and the person hearing it usually takes that assumption on board), so please don’t use it except to presume that we will have the choice of when it will happen, that we will be able to do it, that we are safe, that we are loved and that our adult can lead us. Don’t ever presume obedience,",
+     "A presupposition hides an assumption inside a sentence, and whoever hears it usually just goes along with it. That’s a lot of power, so only use it to assume good things: that you’ll get to choose when it happens, that you can do it, that you’re safe, that you’re loved, and that your adult self can lead. Never use it to assume obedience,"
+    ],
+    [
+     "Example: ‘Before any part has to change",
+     "A safe one sounds like this: ‘Before any part has to change"
+    ],
+    [
+     "Or, something similar that you might use when working with inner child type of parts: \"My little one",
+     "With your inner child, it could be: \"My little one"
+    ],
+    [
+     "You can use this, of course, but don't use ten of them one after the other! People will know that you've just come out of some weekend certification course and they won't feel so safe with you.",
+     "One at a time is plenty. String ten of them together and people can tell you've just come back from some weekend certification course, and they won't feel so safe with you."
+    ],
+    [
+     "A Manipulative Double Bind Question is rigged so that you wind up doing what the speaker wants, whatever answer you give.",
+     "A manipulative double bind is a question where any answer you give gets the speaker what they wanted. \"Do you want to go deeper now, or in a moment?\" sends you deeper either way."
+    ],
+    [
+     "An ethical double bind gives you two ways to go, and both of them are actually safe. An ethical double bind question might be:",
+     "An ethical double bind also gives you two choices, but both of them are genuinely safe for you, like:"
+    ],
+    [
+     "\"Would you prefer to allow a feeling of warmth to come over you now, or would you prefer a feeling of space?\"",
+     "\"Would you like some warmth first, or some space?\""
+    ],
+    [
+     "An example of a Conversational Postulate (a yes-or-no question that works as a request) is:",
+     "A conversational postulate is a yes-or-no question that's really a request, the way \"Can you pass the salt?\" asks for the salt."
+    ],
+    [
+     "\"Can I allow my subconscious to show me the next thing to do, without showing me all the details of wounding that are involved?\"",
+     "\"Can my subconscious show me the next thing to do, without showing me every detail of the wound?\""
+    ],
+    [
+     "You can use tag questions, like \"isn't it?\" or \"can't it?\" or \"doesn't it?\" or others, but be aware that these can get pretty oily pretty quickly, so don't overdo it.",
+     "Tag questions, like \"isn't it?\" or \"doesn't it?\", can soften a sentence, but they get oily very quickly, so go easy on them."
+    ],
+    [
+     "Nominalizations are words that turn a process into a noun, like 'healing', 'safety', 'trust', 'integration', 'communion', 'clarity', 'rest', etc. These are a bit vague, and sometimes that can be useful, because it allows the subconscious to fill in the blank with something very specific for that person.",
+     "A nominalization turns something you do into a noun: you heal, and it becomes 'healing'. Others are 'safety', 'trust', 'integration', 'communion', 'clarity' and 'rest'. They're a bit vague, and sometimes that's useful, because it lets the listener's subconscious fill in something very specific for them."
+    ],
+    [
+     "\"I can allow myself some safety, in whatever way my body knows how.\"",
+     "\"A bit more safety can come to me in whatever way my body understands.\""
+    ],
+    [
+     "To 'Milton Model' is to open things up. To 'Meta Model' is to say \"What do you mean by that?\" In order to be ethical with people, you need to do both.",
+     "Milton Model language opens things up, and Meta Model questions ask what exactly someone means. If you want to be ethical with people, you need both."
+    ],
+    [
+     "\"What do you mean specifically? According to who? Compared to what? Always? Never? What specifically would happen if you did? How do you know that? What evidence could you have that would change your mind?\"",
+     "When something sounds true but vague, ask: \"What do you mean, specifically? According to who? Compared to what? Always, or never? What exactly would happen if you did? How do you know that, and what evidence would change your mind?\""
+    ],
+    [
+     "When people are starting to get stiff in their bodies, 'Milton' it. When you feel like you're losing touch with the truth of what's going on, 'Meta' it.",
+     "So when someone is starting to tense up in their body, use the Milton Model to help them soften. And when you feel you're losing track of what's really going on, that's the time for the Meta Model."
+    ]
+   ],
+   "why": "AI Detected (0.44): one AI (High) window of 402 words over Patterns 3 to 7, and Low windows over 8 to 10. Our paragraphs said plainly, each from its published pattern: what a presupposition does to the listener; a manipulative double bind shown with one (the published says what it is but gave no example); a conversational postulate shown with \"Can you pass the salt?\"; what a nominalization is, shown with \"heal\"; what the Meta Model questions are for; the list of what to presume kept whole; the verbs 'Milton' it and 'Meta' it said as which model to use when. His own paragraphs in the same window (bridge words, the two bridge examples, embedded invitations) are on his cards page.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-72 w6",
+   "section": "s1101-72",
+   "whose": "ours (his step before it is on his cards page)",
+   "published": "Bring in the three adults. Nurturer warms, Protector makes it safe, Leader points a direction. Anchor the useful state. Heart, fingers, breath, posture.",
+   "fix": [
+    [
+     "Bring in your 3 good adults (Nurturer to warm, Protector to make it safe, and Guide to point a direction). In real life they’re all part of the one inner adult, so we can imagine them splitting apart if need be and coming together as well.",
+     "Bring in your three good adults: the Nurturer to bring warmth, the Protector to make it safe, and the Guide to show you which way to go. They’re really all one inner adult, so you can picture them separately when that helps, and as one again after."
+    ],
+    [
+     "Anchor the good state you're in, with a hand on your heart, two fingers touching, a breath or a posture, so you can get back to it later.",
+     "Then anchor the good state you're in with a hand on your heart, two fingers touching, a particular breath or a posture, so that doing the same thing later can bring the state back."
+    ]
+   ],
+   "why": "AI (Low), 76 words: \"we can imagine them splitting apart if need be and coming together as well\" said plainly, and what anchoring does (the cue brings the state back) said as the guide's anchoring section says it.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-73 w6",
+   "section": "s1101-73",
+   "whose": "ours (his opening paragraph is on his cards page)",
+   "published": "Is there a demand for money, sex, loyalty, silence, or obedience?",
+   "fix": [
+    [
+     "Is it money, or sex? Your loyalty?",
+     "Is it money, or sex, or your loyalty?"
+    ]
+   ],
+   "why": "Human (Low), two words: a fragment standing as a question, joined to the question it belongs to.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-84 w3,w4,w7",
+   "section": "s1101-84",
+   "whose": "ours (the forgiving-yourself lines are his inner child guide's, on his cards page)",
+   "published": "Understanding someone’s limitations should make expectations more realistic, not make the limitations less consequential. / “You do not have to forgive before you are ready. I will not use spirituality to silence your pain. I will also not build our whole life around this wound forever.” / “What belongs to them?” “What belongs to me?”",
+   "fix": [
+    [
+     "It simply helps us come to a place where we aren’t expecting something from someone that they can’t give. It doesn’t make their limitations matter any less.",
+     "It simply helps us come to a place where we aren’t expecting something from someone that they can’t give, though what their limitations cost us is still real."
+    ],
+    [
+     "You might say to the part of you that was hurt, “You don’t have to forgive before you’re ready. I won’t use spirituality to silence your pain. And I won’t build our whole life around this wound forever.”",
+     "You might say to the part of you that got hurt, “You don’t have to forgive until you’re ready. I’m not going to use spiritual talk to shut your pain up. I’m also not going to build our whole life around this wound forever.”"
+    ],
+    [
+     "What is theirs? What is mine?",
+     "What part of it was theirs, and what part was mine?"
+    ]
+   ],
+   "why": "Human (Low) and AI (Low): \"matter any less\" said as the published \"less consequential\"; \"use spirituality to silence your pain\" said as what it is; two three-word questions joined into the one they are.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-92 w1,w3",
+   "section": "s1101-92",
+   "whose": "ours (the heading is his, as published, and stays)",
+   "published": "A symbolic hostile-presence experience that settles with grounding and love is very different from a state that becomes persistent, paranoid, sleepless, dangerous, or impossible to reality-test. / If somebody believes they’re under attack for days, can’t sleep or function, hears commands, feels compelled to hurt themselves or anyone else, becomes manic, can’t communicate normally, or can’t distinguish symbolic experience from ordinary reality, stop treating the problem as hypnosis material. Get help. / If it makes you more paranoid, sleepless, grandiose, isolated, frightened, or unreal, stop deepening and get support.",
+   "fix": [
+    [
+     "This is assuming that you are having a symbolic experience of “hostile presences” which responds to grounding and love. It may be that what you are experiencing is actually psychotic or a form of destabilization.",
+     "Everything above assumes that the “hostile presence” is symbolic, the kind that settles down when you ground yourself and meet it with love. What you’re going through might instead be psychosis, or your mind becoming unstable in some other way."
+    ],
+    [
+     "If you feel like you are under attack for multiple days at a time, if you are not able to sleep, if you are not able to function normally, if you are hearing voices telling you to do things, if you feel you need to hurt yourself or somebody else, if you feel you are going manic, if you feel you can’t communicate normally, if you feel you can’t distinguish between what you are experiencing symbolically and normal reality, get help immediately. It’s not something to deal with in hypnosis.",
+     "Get help right away if you feel under attack for days at a time, or you can’t sleep or function normally. The same goes if you hear voices telling you to do things, feel you need to hurt yourself or somebody else, or feel you’re going manic. And get help if you can’t communicate normally, or can’t tell the difference between what you’re experiencing symbolically and normal reality. This isn’t something to deal with in hypnosis."
+    ],
+    [
+     "But if what you're doing is making you more paranoid, sleepless, grandiose, isolated, scared, or more and more unreal, then don't go deeper. Get help.",
+     "But if it's making you more paranoid, sleepless, grandiose, isolated or scared, or things feel more and more unreal, stop going deeper and get help."
+    ]
+   ],
+   "why": "Human (Low), 135 and 27 words: eight \"if you\" clauses in one sentence, now three sentences that keep all eight warning signs and \"get help right away\"; \"symbolic experience ... which responds to grounding and love\" said plainly; the General Rule's second half ends in \"get help\" as one sentence.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-93 w1",
+   "section": "s1101-93",
+   "whose": "ours (the heading is his, as published, and stays)",
+   "published": "Hostile presences, shadow forces, grandiose parts, and altered-state imagery don’t always attack through fear.",
+   "fix": [
+    [
+     "Presences, shadow forces, or grandiose parts don’t always attack through fear, either. They may also try to give you a sense",
+     "Sometimes a hostile presence, a shadow force or a grandiose part comes at you with flattery instead of fear. It may try to give you a sense"
+    ]
+   ],
+   "why": "AI (Low): \"either\" pointed back at nothing in this section, and \"presences\" lost the published \"hostile\".",
+   "fate": "fixed",
+   "round3": [
+    {
+     "old": "Presences, shadow forces, or grandiose parts don’t always attack through fear, either. They may also try to give you a sense",
+     "checked_r1101": "Not every hostile presence, shadow force or grandiose part comes at you with fear.",
+     "read_r1101": "AI (Low), 19 words: the heading and the first sentence, both times",
+     "diagnosis": "An opening generalization kept (HG1101-93#197). It now says what happens instead (flattery), in the next sentence’s terms."
+    }
+   ]
+  },
+  {
+   "id": "s1101-96 w7",
+   "section": "s1101-96",
+   "whose": "ours",
+   "published": "Let ordinary rhythm resume and return.",
+   "fix": [
+    [
+     "Bring back your normal rhythm and return.",
+     "Then let everything go back to its normal rhythm, and come back."
+    ]
+   ],
+   "why": "Human (Low): \"return\" said as what it is here, coming back.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-99 w2-5",
+   "section": "s1101-99",
+   "whose": "ours (the heading numbers are his, and not prose; his own steps of the no-trance contact are on his cards page)",
+   "published": "Choose qualities you understand: warmth, boundary, steadiness, curiosity, or dignity. Imagine posture, voice, or attention with 1% more access to one quality. Observe rather than embody it when preferred. Notice a movement, word, image, or no response. Repeat to strengthen access, not replace identity.",
+   "fix": [
+    [
+     "Pick a resource quality you understand (warmth, boundary, steadiness, curiosity, or dignity). Imagine yourself accessing 1% more of that quality (or, if you prefer, just observe it rather than embody it). What is different? How is your body, voice, etc? Do this a few times to strengthen it.",
+     "Pick a quality you understand and want more of, like warmth, being able to hold a boundary, steadiness, curiosity or dignity. Imagine yourself with just 1% more of it. (If you'd rather not step into it, you can watch an imagined you have it instead.) What's different? How do you sit, and how does your voice sound? Try it a few times; each time, it gets a little easier to find."
+    ]
+   ],
+   "why": "AI (High), AI (Medium) and Human (Low): \"a resource quality\" and \"boundary\" said as what they are, \"accessing 1% more\" as having 1% more, \"observe it rather than embody it\" as watching an imagined you, and \"body, voice, etc\" as the published posture and voice.",
+   "fate": "fixed"
+  },
+  {
+   "id": "s1101-01 w2",
+   "section": "s1101-01",
+   "whose": "his, as published",
+   "fix": [],
+   "why": "\"Share\": the post's share button's label, not prose.",
+   "fate": "not prose"
+  },
+  {
+   "id": "s1101-99 w1,w7",
+   "section": "s1101-99",
+   "whose": "his, as published",
+   "fix": [],
+   "why": "\"8.\" and \"9.\": the numbers of two headings, read as windows of their own; not prose.",
+   "fate": "not prose"
+  }
+ ]
+}

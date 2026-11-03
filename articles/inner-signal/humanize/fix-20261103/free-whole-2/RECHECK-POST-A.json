@@ -1,0 +1,24 @@
+{
+ "commit": "1029816ad22a3c6795fe54dd16746331aba8f051",
+ "how": "cleared through the editor's own API (editor.commands.clearContent, after checking the title), then fix-20261022/screen/paste_payload_lane.js (the payload fetched from raw.githubusercontent.com at the commit, its SHA-256 checked); the draft API's saved body holds the new words; the secret link by the draft's uuid (the substack_secret_link.js steps), opened and read with the substack_rendered_check.js walk",
+ "draft": 222109105,
+ "title": "TEMP recheck A (hypnosis guide) - do not publish",
+ "link": "https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-1103b&audience=only_paid&free_preview=false&freemail=",
+ "payload_sha256": "c63d647b612c61fb2f63f7c8caaf7c2a029cc47850e74f1a1ff29ae5d365a855",
+ "editor_words": 30407,
+ "payload_words": 30373,
+ "editor_words_note": "+34, as every paste of part A",
+ "draft_updated_at": "2026-11-03T11:38:31.744Z",
+ "is_published": false,
+ "saved_body_checked": [
+  "31a and batch l1103 in (\"as you breathe out\", \"you can’t know ahead of time what every part of you is going to say\", \"Just do the same practice, from the induction to coming all the way back\", \"put the screen away and try the inner meeting\")",
+  "the old words gone (\"and you breathe out\", \"it's about answering what happens\", \"It's the same process (gather your attention\", \"Love starts with hearing out the resistance\")"
+ ],
+ "rendered": {
+  "lines": 587,
+  "code_points": 162544,
+  "first_99999_sha256": "fc5cedec52d56bb307b81c9f957c96da7138c29a79f9ea3553fc7e06e2870a26",
+  "equals_TEXT_A": true,
+  "ends_in": "Methods to explore with a trained person present (When this needs more support than a guide can provide)"
+ }
+}

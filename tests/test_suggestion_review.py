@@ -177,6 +177,59 @@ class PasteSafeTests(unittest.TestCase):
         badr = dict(whole, id='S2', reads=[{'text': 'Some words.', 'new': ['not there']}])
         self.assertTrue(any('not in their reads paragraph' in p for p in R.check(review([badr]), self.bl)))
 
+    def test_a_stretch_to_edit_and_type_colours(self):
+        # 2026-10-27, Joel: "give me the editor interface so i can see and edit what needs editing": a stretch with no change
+        # of mine, Keep / Edit it / Not decided yet, Edit starting from the paragraph as it is; and a type the template
+        # has no colours for gets them, so its highlights show (batch 481's page had four such types and showed none)
+        last = self.bl[7]
+        ed = {'id': 'ED-1', 'type': 'short', 'title': 'A short line', 'advice': 'edit', 'why': 'It read Medium.',
+              'reading': 'Human, Medium (0.987): https://www.pangram.com/history/0a1b2c3d-0000-4000-8000-000000000000',
+              'advice_note': 'Keep it.', 'keep_label': 'keep it as it is',
+              'spans': [{'block': 7, 'start': 0, 'end': 8}], 'edits': [], 'inserts': [], 'moves': []}
+        rv = review([ed])
+        rv['types'] = dict(rv['types'], short={'label': 'Short line', 'about': 'A short line.'})
+        self.assertEqual(R.check(rv, self.bl), [])
+        page = R.page(rv, MD, self.bl)
+        self.assertIn('data-advice="edit"', page)
+        self.assertIn('>Keep it as it is</button>', page)
+        self.assertIn('>Edit it</button>', page)
+        self.assertIn('.t-short{--c:', page)
+        data = json.loads(re.search(r'<script id="review-data" type="application/json">(.*?)</script>', page, re.S).group(1))
+        got = {x['id']: x for x in data['suggestions']}
+        self.assertEqual(got['ED-1']['proposed'], last['text'])
+        bad = dict(ed, id='ED-2', edits=[{'block': 7, 'before': last['text'], 'after': 'x'}])
+        self.assertTrue(any('a stretch to edit changes nothing' in p for p in R.check(dict(rv, suggestions=[bad]), self.bl)))
+        nospan = dict(ed, id='ED-3', spans=[])
+        self.assertTrue(any('needs its spans' in p for p in R.check(dict(rv, suggestions=[nospan]), self.bl)))
+
+    def test_a_pangram_card_carries_its_links(self):
+        # 2026-11-02, Joel on the hypnosis guide's cards: "why are you not giving me the pangram link so i can see? always
+        # give me the links", and "you didn't check if your changes passed.. they didn't. don't waste my time": a card
+        # that says what Pangram read gives the result's link, and a suggestion for that stretch gives its own check's
+        # link ("tested"); both show on the card, an approve card's too (1.4 showed an approve card's reading nowhere)
+        last = self.bl[7]
+        link = 'https://www.pangram.com/history/1050793a-1f08-47d0-aac9-098afd0e5408'
+        s = {'id': 'P-1', 'type': 'caveat', 'title': 'A line', 'advice': 'approve',
+             'spans': [{'block': 7, 'start': 0, 'end': 8}],
+             'edits': [{'block': 7, 'before': last['text'], 'after': 'The last paragraph says something once.'}],
+             'inserts': [], 'moves': [], 'what': 'Says it once.', 'why': 'It repeats.', 'stays': 'The rest.',
+             'deciding': 'Approve uses it.', 'reading': 'AI (High), 27 words: [the section](%s)' % link,
+             'tested': 'Human Written: [the suggestion](https://www.pangram.com/history/5ad82ada-83a8-4c4f-89f2-4f0966465f5f)'}
+        self.assertEqual(R.check(review([s]), self.bl), [])
+        page = R.page(review([s]), MD, self.bl)
+        self.assertIn('Pangram read', page)
+        self.assertIn('Pangram on the suggestion', page)
+        self.assertIn('<a href="%s" target="_blank" rel="noopener noreferrer">the section</a>' % link, page)
+        nolink = dict(s, id='P-2', reading='AI (High), 27 words')
+        self.assertTrue(any('has no link' in p for p in R.check(review([nolink]), self.bl)))
+        untested = dict(s, id='P-3')
+        del untested['tested']
+        self.assertTrue(any('its own Pangram check' in p for p in R.check(review([untested]), self.bl)))
+        # a card with no Pangram reading (a clarity card, a question) needs neither
+        plain = dict(s, id='P-4')
+        del plain['reading'], plain['tested']
+        self.assertEqual(R.check(review([plain]), self.bl), [])
+
     def test_a_new_heading_in_a_whole_passage(self):
         # turn 113: a case heading over a paragraph shows as a heading with its Markdown #s, so a paste keeps it a heading,
         # and his Revise box starts from the same text
@@ -196,6 +249,26 @@ class PasteSafeTests(unittest.TestCase):
 
 
 class ReaderBriefTests(unittest.TestCase):
+    def test_previous_goes_to_the_card_before_and_never_wraps_to_the_bottom(self):
+        # Joel, 2026-10-30: "your "pevious" button brouught me to the bottom of the page" (with every card above decided,
+        # it wrapped round to the last undecided card on the page); the browser check is fix-20261030/previous-button/
+        page = R.page(review([]), MD, R.blocks(MD))
+        step = page[page.index('function step(dir)'):page.index("$('#nextBtn').addEventListener")]
+        prev = step[step.index('// Previous'):]
+        self.assertNotIn('list[list.length - 1]', prev)
+        self.assertNotIn('filter(undecided)', prev)
+        self.assertIn('this is the first card', prev)
+        self.assertIn('title="The card before this one"', page)
+
+    def test_card_text_links_by_name_and_keeps_line_breaks(self):
+        h = R.linked('Read AI in the check (see [part A](https://www.pangram.com/feed/abc)).\nTry 1, read AI <High> at '
+                     'https://example.com/x.')
+        self.assertIn('<a href="https://www.pangram.com/feed/abc" target="_blank" rel="noopener noreferrer">part A</a>)', h)
+        self.assertIn('<br>Try 1', h)
+        self.assertIn('&lt;High&gt;', h)
+        self.assertIn('<a href="https://example.com/x" target="_blank" rel="noopener noreferrer">https://example.com/x</a>.', h)
+        self.assertNotIn('[part A]', h)
+
     def test_the_brief_says_a_referent_right_before_is_clear(self):
         """E264: the reader flagged "do that" right after "remove anything from laws of nature"; Joel, 14:40: ""do that" is
         clearly referring to "remove anything from the laws of nature" directly before it"."""
@@ -209,6 +282,19 @@ class ReaderBriefTests(unittest.TestCase):
         ex = json.loads((ROOT / 'tools/humanization/clarity_examples.json').read_text(encoding='utf-8'))
         last = ex[-1] if isinstance(ex, list) else ex['examples'][-1]
         self.assertIn('redirecting the thought stream with your conscious, higher intention', json.dumps(last, ensure_ascii=False))
+
+
+    def test_paragraph_labels_are_never_copied_with_the_text(self):
+        """E326: Joel's checks of paragraphs copied from these pages read "P1Here is a list" and "Your inherited parent
+        script P1One", and taking the labels out alone turned AI Detected 21% to 46% into Human Written (his second Pangram
+        account, 2026-11-02). Every page that numbers paragraphs keeps the labels out of a copy."""
+        import re
+        for rel in ('tools/humanization/suggestion_review_template.html', 'tools/humanization/render_article_so_far.py',
+                    'tools/humanization/render_in_context.py'):
+            src = (ROOT / rel).read_text(encoding='utf-8')
+            rules = re.findall(r'\.pn\s*\{+([^}]*)\}', src)
+            self.assertTrue(rules, rel)
+            self.assertTrue(any('user-select:none' in r.replace(' ', '') for r in rules), rel)
 
 
 if __name__ == '__main__':

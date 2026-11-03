@@ -1,0 +1,1458 @@
+<title>Hypnosis Guide Questions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,650&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column; four status colours carry the meaning, everything else stays quiet. */
+:root {
+  --bg: #f5f7fa; --surface: #ffffff; --fg: #1b2130; --muted: #586174; --rule: #dbe0e8; --link: #2a5db0;
+  --q: #6d43c9; --q-soft: #f1ebff; --todo: #b65a06; --todo-soft: #fff1e3; --next: #23649e; --next-soft: #e7f1fb;
+  --done: #2b7a52; --done-soft: #e6f5ec;
+  --display: "Literata", Georgia, "Times New Roman", serif;
+  --body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #12151b; --surface: #191d25; --fg: #e5e8ee; --muted: #9ba4b4; --rule: #2b313c; --link: #8db7f5;
+  --q: #b8a1ff; --q-soft: #251d3d; --todo: #f3a95e; --todo-soft: #33230f; --next: #85b9ef; --next-soft: #15263a;
+  --done: #79d3a0; --done-soft: #142b20; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #12151b; --surface: #191d25; --fg: #e5e8ee; --muted: #9ba4b4; --rule: #2b313c; --link: #8db7f5;
+  --q: #b8a1ff; --q-soft: #251d3d; --todo: #f3a95e; --todo-soft: #33230f; --next: #85b9ef; --next-soft: #15263a;
+  --done: #79d3a0; --done-soft: #142b20; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 1rem; line-height: 1.6;
+  padding-inline: 16px; padding-block: 28px 56px; }
+main { max-width: 46rem; margin-inline: auto; display: grid; gap: 1.75rem; min-width: 0; }
+h1 { font-family: var(--display); font-weight: 650; font-size: clamp(1.6rem, 4vw, 2.1rem); line-height: 1.2;
+  margin: 0; text-wrap: balance; }
+h2 { font-family: var(--display); font-weight: 500; font-size: 1.3rem; margin: 0 0 .5rem; text-wrap: balance;
+  display: flex; align-items: center; gap: .6rem; }
+section { display: grid; gap: .75rem; min-width: 0; }
+.head { display: grid; gap: .6rem; }
+.head p { margin: 0; }
+.meta { color: var(--muted); }
+.legend { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0; padding: 0; list-style: none; }
+.chip { display: inline-flex; align-items: center; gap: .4rem; font-size: .85rem; padding: .15rem .6rem;
+  border-radius: 999px; border: 1px solid var(--rule); background: var(--surface); }
+.dot { inline-size: .7rem; block-size: .7rem; border-radius: 50%; flex: none; display: inline-block;
+  vertical-align: baseline; }
+.dot.q { background: var(--q); } .dot.todo { background: var(--todo); } .dot.next { background: var(--next); }
+.dot.done { background: var(--done); }
+.callout { margin: 0; padding: .55rem .8rem; border-radius: 6px; font-weight: 700; font-size: .95rem; }
+.callout.q { background: var(--q-soft); color: var(--q); } .callout.todo { background: var(--todo-soft); color: var(--todo); }
+.callout.next { background: var(--next-soft); color: var(--next); } .callout.done { background: var(--done-soft); color: var(--done); }
+section.open > p { margin: 0; }
+section.open > p > strong:first-child { font-family: var(--display); font-weight: 650; font-size: 1.1rem; }
+section.open ul { margin: 0; padding-inline-start: 1.3rem; }
+section.open .q-block { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px;
+  padding: .9rem 1rem; display: grid; gap: .55rem; }
+section.open .q-block p { margin: 0; }
+ul.items { list-style: none; margin: 0; padding: 0; display: grid; gap: .55rem; }
+ul.items > li { display: grid; grid-template-columns: .7rem 1fr; gap: .65rem; align-items: start; min-width: 0; }
+ul.items > li > .dot { margin-top: .45rem; }
+ul.items > li > div { min-width: 0; overflow-wrap: anywhere; }
+ul.items > li > div > p { margin: 0 0 .45rem; } ul.items > li > div > p:last-child { margin-bottom: 0; }
+ul.items > li > div ul { margin: .3rem 0 .45rem; padding-inline-start: 1.2rem; display: block; }
+ul.items > li > div li { display: list-item; margin: .2rem 0; }
+.gap { block-size: .4rem; }
+a { color: var(--link); text-underline-offset: 2px; }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; border-radius: 2px; }
+code { font-family: var(--mono); font-size: .86em; background: var(--surface); border: 1px solid var(--rule);
+  border-radius: 4px; padding: .05rem .3rem; overflow-wrap: anywhere; user-select: all; }
+.small { font-size: .85rem; color: var(--muted); }
+.q-block strong .dot { margin-right: .45rem; }
+</style>
+<main>
+<header class="head"><h1>Hypnosis guide: what I need from Joel</h1><p>Last updated 2026-11-03, after your message of 14:52 UTC.
+<strong>Open questions: 0.</strong> <strong>For you to do</strong>: merge pull request 277 (below). The questions are at the top, with their
+options and my default; under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠
+something for you to do; 🔵 next or in progress; 🟢 done or decided.</p>
+<p class="small">The master copy of this page is <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/OWNER-QUESTIONS.md">this file in Git</a>, so a session in either of your accounts can
+read and update it. Every file it points to is a link.</p>
+</header>
+<section class="open"><h2><span class="dot q"></span>Open questions</h2>
+<p>None right now.</p>
+<p><strong><span class="dot next" role="img" aria-label="Next or in progress"></span>On hold: the 83 cards of <a href="https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG">the 27 October editor page</a> you hadn't marked</strong> (questions 21 to 23). The guide has
+changed under them, so the rechecks decide; you don't need to mark them.</p>
+</section>
+<section class="todo"><h2><span class="dot todo"></span>For you to do</h2>
+<ul class="items">
+<li><span class="dot todo" role="img" aria-label="For you to do"></span><div>Merge <a href="https://github.com/u-dont-existDOTcom/joel-articles/pull/277">pull request 277</a> when you've looked.</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-11-03 14:52 UTC, and what I did</h2>
+<p>Word for word: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/q34/joel-20261103-1452-message.txt">your message</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your answers to question 34, in</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/q34/APPLIED-Q34.json">what changed</a>):</p>
+<ul>
+<li>34.1 kept ("playing asleep").</li>
+<li>34.2 your sentence: "That hand movement grounds and aligns the distractible mind."</li>
+<li>34.3 "especially when the questions led to them (which NLP tends to do)".</li>
+<li>34.4 kept.</li>
+<li>34.5 "repeated coordination between intuition, subconscious response, and conscious analysis".</li>
+</ul>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>In your post too</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/live-q34/LIVE-CHECK-20261103b.json">the public post, read back</a>): the same way as this
+  morning, with only those three paragraphs replaced, after a check that the editor still held this morning's guide. The
+  subtitle already had today's date. Read back from the public post without signing in, it matches the guide word for
+  word, apart from the images', video's and embeds' own text.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The closer reading is in the joel-articles skill</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/SKILL.md">SKILL.md, "Word-for-sense read before publication"</a>),
+  with a tool any lane can run before an article goes into your post (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/tools/humanization/sense_read.py">sense_read.py</a>).
+  It cuts the article into parts, plants test errors of the "oily" kind where the readers can't see them, gives each
+  fresh reader one part, scores whether they caught every planted error and read every paragraph, and lists the rest of
+  what they found to trace to whose words it is. The repository's agent guide and the article-fixing checklist point to
+  it, and a test keeps all three naming it.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-11-03 13:46 UTC, and what I did</h2>
+<p>Word for word: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/c1103b/joel-20261103-1346-message.txt">your message and your answers</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>33a: the guide is in your post</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/live/LIVE-CHECK-20261103.json">the public post, read back</a>).
+  The way it went in on 2 November: in the post's editor, one change, no pasting. This time only the 76 places that
+  changed since then were replaced, after a check that the editor still held exactly the guide of 2 November, so
+  nothing you'd changed in the draft could be lost. The subtitle now says "Last update: Nov 3, 2026, v. 7.0" (only
+  the date; tell me if you want v. 7.1). Read back from the public post without signing in, it matches the guide word
+  for word, apart from the images', video's and embeds' own text, as on 2 November.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your Pattern 10 (E-523), in</strong> as you wrote it (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/c1103b/APPLIED-C1103B-ANSWERS.json">what changed</a>); I only took out
+  the second "?" in "or...? ? How".</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"Oily" is now "old".</strong> It came from the guide you published on 28 September ("They become oily very quickly,
+  don't they?"), not from Emulate, and our rewrite kept it.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>How it got past me.</strong> Every check I ran asks whose words a sentence is (yours or ours) and whether Pangram reads
+  it as human. Words from your published guide count as yours, so "oily" passed them all, and a real word in a
+  grammatical sentence passes a spell check too. Nothing read each word for whether it was the word meant. That's
+  lesson E331 now, with the method for every article.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The whole guide, read word by word for sense</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/nonsense/FINDINGS.md">every finding, whose words, and what I did</a>).
+  Nine fresh readers had a part each. Then, to test the read itself, three more had nine planted errors of the same
+  kind hidden in their parts ("deceptive" for "receptive", "ointment" for "appointment"), and they found all nine. 21
+  real findings:</p>
+<ul>
+<li>6 slips in our words, fixed (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/nonsense/APPLIED-NONSENSE.json">the fixes</a>): "Their trust can question your promises"
+(now "They can question your promises"); "a very charming guard" (your published irony back: "making an appearance in
+its usual charming way"); "one or more of the trauma-specific variants" (a missing "the"); a missing full stop in
+Future pacing; "some yarn unwinding, some bubbles settling" (bubbles don't unwind; your published picture back); and
+"use this app or" cut (Emulate's sentence; it pointed at no app).</li>
+<li>5 in your own words: question 34.</li>
+<li>10 kept, each with its reason (most are yours and read fine; one is the date on your post embed, which isn't prose).</li>
+</ul>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-11-03 12:18 UTC, and what I did</h2>
+<p>Word for word: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/free-whole-2/joel-20261103-1218-message.txt">your message and your answers</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The fourth free check, read</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/free-whole-2/read/WINDOWS.md">every window below High, with whose words</a>):
+  both parts Human Written again, with no AI window. <a href="https://www.pangram.com/feed/c2f7a242-d7f1-40a5-8453-df9047c5947b">Part A</a>: 92 windows, 47 High, 44 Medium, 1 Low (your old
+  "You don't have to work to explain anything."). <a href="https://www.pangram.com/feed/93dac4dd-cdea-49f2-8103-83211c1ebb4d">Part B</a>: 23 windows, 12 High, 10 Medium, 1 Low (Pattern 10's
+  questions). My predictions were right this time.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Three of my four fixes, in</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/l1103/APPLIED-L1103.json">what went in and why</a>): Let the next
+  response guide you, the 15-minute practice and EFT tapping aren't flagged any more. My Pattern 10 try read lower than
+  before, so the earlier version stays, and Pattern 10 is now your card.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your E-157, in</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/c1103/APPLIED-C1103-ANSWERS.json">what changed</a>): "Baby boopaloopa, I'm here with
+  you now. You don't have to work to explain anything or impress me with how fast you can get better." I only took out
+  the full stop left before "or impress me" when you joined the two sentences.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-11-03 11:19 UTC, and what I did</h2>
+<p>Word for word: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/free-whole/joel-20261103-1119-message.txt">your message</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The third free check, read</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/free-whole/read/WINDOWS.md">every window below High, with whose words</a>):
+  both parts read Human Written, with <strong>no AI window anywhere</strong> in the guide. <a href="https://www.pangram.com/feed/4796254d-deaa-43f1-8bc9-25979960da03">Part A</a>: 100 windows, 50 High, 47
+  Medium, 3 Low. <a href="https://www.pangram.com/feed/75baa67a-da78-4f74-b814-819444865b9c">Part B</a>: 30 windows, 15 High, 13 Medium, 2 Low. The overcompletion cuts did it: the pairs of minds
+  and your Troubleshooting seam, the last AI windows, are gone. I had predicted a few AI windows from the cuts; I was wrong.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>31a and 32a, in</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/answers-q31-32/APPLIED-Q31-Q32.json">what changed</a>): "as you breathe out", and
+  your four lines that explained again cut (Appendix G's "Love starts with hearing out the resistance to it first.",
+  Pattern 6's "Clearly, that sends you deeper...", Pattern 7's "We already know they're not really asking...", and the
+  good guide and bad guide said from both sides in Appendix C).</p>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>The five Human (Low) windows.</strong> Four are mine, each read for overcompletion first (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/l1103/fixes_l1103.py">the fixes and why</a>):
+  Let the next response guide you, said plainly; the 15-minute practice's recap of the steps, gone; Pattern 10, with the
+  ethics point leading the two models and the questions on their own; EFT, said plainly, and its last sentence (left
+  stranded by one of my cuts) joined back to the evidence it qualifies. They're in the two links above, not in the guide
+  yet: for these windows a check of the stretch didn't predict the whole, so the free check decides and costs no credits.
+  The fifth is your own line, so it's the card.</p>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>Next</strong>: if the fourth check reads High where it read Low (or at least no worse), the fixes go into the guide, then
+  your card, then your post.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your answers of 2026-11-03 00:39 UTC, and what I did</h2>
+<p>Word for word: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/answers-f1102/ANSWERS-20261103-0039.json">your answers</a> and <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/answers-f1102/joel-20261103-0039-message.txt">your comments in them</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your answers are in</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/answers-f1102/APPLIED-F1102-ANSWERS.json">what changed, card by card</a>): the
+  pairs of minds cut (E-61); your rent line with the joke in brackets (C-92) and your Core prompts caveat joined (C-480),
+  as the cards had them; your own versions of the two-hand practice's end (E-119), of Nothing happens and "It feels fake"
+  (E-380: the heading in your quotes, and "imposterous" kept) and of the Sources section (E-762). Your checks of E-380:
+  the two paragraphs as they were read <a href="https://www.pangram.com/history/db67603a-b644-4667-b07a-140220544dd3">AI Generated</a>,
+  and your version <a href="https://www.pangram.com/history/580be4c0-6fde-4f65-ba3b-559352c4d4ef">Human Written</a>.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The overcompletion, across the whole guide.</strong> You were right, and it was worse than missing it: my repeats read of
+  2 November had found the pairs of minds and kept them as "parallel on purpose". This time fresh readers each read one
+  part of the guide for anything explained a second time (in other words, from the other side, as a summing-up, or as a
+  moral after an example), without knowing whose words were whose, and I read each of their 94 finds in place:</p>
+<ul>
+<li><strong>70 cuts went in</strong> (about 950 words; <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/overcompletion/CUTS.md">every cut, with what already said it</a>).
+68 were in my words; 2 were lines of your published version that only said the paragraph again (marked there; your
+"let's see what other redundancy remains in this article and cut that also" of 2 November).</li>
+<li><strong>20 stayed</strong>, each with its reason on the same page: a new case or source, an instruction where a reader needs it,
+a list of examples, or your own voice (your KISS joke, your dad's driving, your "etc etc etc").</li>
+<li><strong>4 are lines you wrote yourself</strong>: question 32 (32a at 11:19 UTC, cut).</li>
+</ul>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Lessons</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md">the gate's notes</a>):
+  E328, overcompletion is read for, and cut, before any flagged stretch gets reworded (my rewordings of the pairs of minds
+  kept the very thing that read AI); E329, a flagged stretch over a heading gets tested the way Pangram reads it before I
+  advise keeping it (I'd explained your seam away instead of testing it, and it read AI Generated by itself); E330, a
+  made-up word is fine in an informal piece if it sounds right.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The whole guide, the free way</strong>: both temporary drafts hold the guide as it is now (the links are under For you to
+  do), each checked against the text I meant to send, and my predictions for both are written first.</p>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>Next</strong>: your two result pages show which stretches still read AI or below High after the cuts. I fix those, with
+  overcompletion read for first, and put your answers to 31 and 32 in.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-11-02 23:07 UTC, and what I did</h2>
+<p>Word for word: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/free-whole-2/joel-20261102-2307-message.txt">your message</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The second free check, read</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/free-whole-2/read/WINDOWS.md">every window to fix, with whose words</a>).
+  Part A read <a href="https://www.pangram.com/feed/0c89b980-8ffd-44fd-9cde-8a75f9ee4c8c">Human Written, 0.43% AI</a>: 139 windows,
+  3 AI (all Low) and 10 Human (Low). Part B read <a href="https://www.pangram.com/feed/27c8a2a4-399b-4a20-b8d1-e9ae2957bca4">Human Written</a>
+  with no AI window at all (0.01% AI): 37 windows, 5 of them Human (Low).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>What the fixes did in the whole</strong>: the 15-minute practice's opening and the end of If you sense you are being
+  influenced aren't flagged any more, and Pattern 10's opening went from AI (Low) to Human (Low). My version of the
+  pairs of minds read Human in its stretch but AI (Low) again in the whole, so it's on your page to edit.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your words</strong>: your rent line went from AI (Low) to Human (Low) with no change; your Troubleshooting seam read
+  AI (Low) again; your Core prompts line Human (Low) again.</p>
+</div></li>
+<li><span class="dot todo" role="img" aria-label="For you to do"></span><div><p><strong>The cards page</strong>: <a href="https://claude.ai/artifact/TAgS2uaHjmyZTHx4ZuW4Bx">Hypnosis Guide Cards, 2 November (3)</a>: two suggestions on your words (your rent line with the
+  joke in brackets read <a href="https://www.pangram.com/history/a1aff5ea-da51-415b-a4eb-cc3aef09e8e3">Human Written, one window, High</a>; your Core prompts
+  caveat joined read <a href="https://www.pangram.com/history/99c37345-2641-4db2-be55-e4324087321d">High</a>), both passed by my three reviewers, and four
+  stretches to edit or keep: your Troubleshooting seam, and three of mine that two tries couldn't clear (the pairs of
+  minds, the two-hand practice's breathing line, the sources line).</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your messages of 2026-11-02 21:57 and 21:59 UTC, and what I did</h2>
+<p>Word for word: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/free-whole/joel-20261102-2157-message.txt">your message of 21:57</a>; at 21:59: "i logged into
+the other pangram account if you want to read that history".</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your two result pages, read</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/free-whole/read/WINDOWS.md">every window to fix, with whose words</a>).
+  Part A read <a href="https://www.pangram.com/feed/e6bb0af2-11b7-42ac-9026-1a4c51ba75f8">Mostly Human Written, 0.73% AI</a>: 146
+  windows, 7 AI (all Low) and 12 Human (Low). Part B read <a href="https://www.pangram.com/feed/788969af-0de3-43b6-a37c-e28759c7a816">Human Written, 0.26% AI</a>:
+  35 windows, 1 AI (Low) and 4 Human (Low). The prompt engineering sentence, the line after your teleprompter sentence,
+  the last line of Before you begin and the sober induction's directions aren't flagged any more.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>30a, in</strong>: "only like 15% of people are very suggestible", the rest of your sentence as you wrote it.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Four stretches of mine fixed</strong>, each checked in its stretch (six paragraphs at most, through the API):</p>
+<ul>
+<li>the pairs of minds in Forget the left-brain/right-brain cartoon: <a href="https://www.pangram.com/history/c361e22f-9ae8-4b65-be8b-215e1d2794de">Human Written</a>, High and Medium;</li>
+<li>the end of If you sense you are being influenced, now one more question to ask yourself and a plain line about
+boundaries: <a href="https://www.pangram.com/history/c6ec3c54-5f3b-4a53-90f4-5e7e7ac59024">Human Written, every window High</a>;</li>
+<li>the opening of The 15-minute daily practice: <a href="https://www.pangram.com/history/8affe9d8-823a-441d-8d42-8e3c67eeafd6">Human Written, every window High</a>;</li>
+<li>Pattern 10's opening, where "If you want to be ethical with people, you need both." became the lead-in to the
+questions: <a href="https://www.pangram.com/history/2da7176a-9885-4040-828e-88015a3a0ed7">Human Written</a>, High and Medium.</li>
+</ul>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>Two stretches of mine didn't clear in two tries each</strong>, so they'll go on your next page to edit if you want:
+  the end of The two-hand practice (<a href="https://www.pangram.com/history/d9e3b9fa-1645-4a15-b29b-a200b1262447">Human (Low)</a>; the second try read
+  <a href="https://www.pangram.com/history/9a2c0524-9c4f-437b-ab2a-a1cfed0e3b47">AI Detected</a>), and the sources line in Indirect language and re-entry cues
+  (<a href="https://www.pangram.com/history/980fd19b-1041-45a1-8cd5-a70025b4c612">Human (Low)</a>; the second try read <a href="https://www.pangram.com/history/26f67e2c-984e-4a54-a3ff-138d1ef4e6f7">AI Detected</a>).
+  Both are as they were in your guide.</p>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>Three stretches of your words read below High in the whole</strong>: your inner child guide's rent line (AI (Low)),
+  the seam between Nothing happens and It feels fake (AI (Low): the check leaves headings out, so your two sections run
+  together there), and your Core prompts line "That doesn't make the answers any more true, though." (Human (Low)). I
+  checked a suggestion for two: the rent line with the joke in brackets read <a href="https://www.pangram.com/history/a1aff5ea-da51-415b-a4eb-cc3aef09e8e3">Human Written, every window High</a>,
+  and the Core prompts line joined to the sentence before it read <a href="https://www.pangram.com/history/99c37345-2641-4db2-be55-e4324087321d">Human Written, High</a>.
+  They go through my three reviewers and onto a cards page with the new check's readings; the seam goes there as yours
+  to look at.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your other Pangram account, read</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/joel-pangram/history2/HISTORY-LEARNING-2.md">what it taught</a>):
+  2,359 checks, and 70 small edits that took a text from AI to Human Written, every one linked. Most were the same as
+  your first account: a closer or a summing-up sentence cut, a plain or silly word, something only you would say. Two
+  were new. Paragraphs copied from my cards pages came with my "P1", "P2" labels glued on, and taking those out alone
+  turned AI Detected into Human Written, so the labels can't be copied any more (E326). And headings are checked like
+  sentences: "Make the Protector Visible" read AI where "Keep Your Word" read Human (E327). Two phrases you cut are
+  linter rules now.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-11-02 20:38 UTC, and what I did</h2>
+<p>Word for word: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/answers-w1102/joel-20261102-2038-message.txt">your message</a> and <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/answers-w1102/ANSWERS-20261102-2038.json">your answers</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>How I'd checked the whole guide: through the paid API on your key, against your rule.</strong> Today the lanes sent 63
+  checks through the API, about 91,000 words. Five were whole-guide halves or a whole article (this guide in two halves,
+  twice, and the neuro de-armoring article whole: about 68,800 words), which your rule sends to a free Substack draft.
+  29 were sections longer than your five or six paragraphs (about 15,700 words). Only 29 checks, about 6,500 words, kept
+  to your rule. I can't see what Pangram charged; at the 1 credit per 100 words that pangram.com's checks cost, the ones
+  over your limit come to about 850 credits.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Why I forgot.</strong> On 1 November the app's browser was signed out of Pangram, so the lanes moved their checks to the
+  API. From then on, the notes I carry between turns said "checks run through the API" without your limit, and nothing
+  in the tools stopped a big text, so the halves went the same way as the paragraphs. Your rule was written down, and my
+  own next step even said the whole guide would go on the Substack drafts with your extension.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>What stops it now</strong> (lesson E325): the API tool refuses, before sending anything, a text of more than six
+  paragraphs or 1,200 words, and the check ledger refuses to log such a check through the API, unless I give your words
+  allowing that one. The copy on your laptop is the guarded one; I tried it there, and it refused a big text without
+  sending anything.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The whole guide, the free way</strong>: in my two temporary drafts, with your answers in; the two links are under For
+  you to do. My predictions for both are written first, as always.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your answers are in</strong> (the guide is now 28c84e9e; <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/answers-w1102/APPLIED-W1102-ANSWERS.json">what changed</a>): C-141 as the card had it, and C-384 as your
+  version of Nothing happens and It feels fake, with your "But seriously..." paragraph after it. I only took out the
+  double space inside the Bush quote and the space after "!!!". Your check of it reads
+  <a href="https://www.pangram.com/history/b7fc49b6-e142-4456-a1a5-9d0bc6c646e1">Human Written</a>: Human (High), then Human
+  (Medium) on "!!! But seriously...", then Human (High). Question 30 was about the one number in it (30a, in at 21:57 UTC).</p>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>Next</strong>: your two result pages show which stretches still read AI or below High in the whole guide. Then I fix
+  those, one at a time, the stretches still flagged first (the introduction's list of minds and the rest); then your
+  forgiveness quote's next try, keeping your "I'm", "our whole life", "forever" and "But".</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-11-02 19:11 UTC, and what I did</h2>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>29a, done.</strong> Your post's subtitle now says "Last update: Nov 2, 2026, v. 7.0", read back from the public post.
+  Your rule, that the date changes whenever I update a post, now holds for every post (gate E323). So your community
+  post's title, which still said "Updated: Nov 1 2026" though I changed the post today, now says "Updated: Nov 2 2026".
+  Nothing else in either post changed (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/live/DATES-20261102.json">the check</a>).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>28a, in use.</strong> Each section gets one more check after a fix, with my prediction written first.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><strong>The stretches: yes, there were some, and this round fixed part of them.</strong> In the whole guide, 12 short stretches
+  read AI and 20 Human (Low), though every section had read Human by itself. Here's what happened when I fixed them and
+  checked again (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/w1102fix/RESULTS.md">every check, with its link</a>):<ul>
+<li>Fixed in your guide, Human in their sections and not flagged in the whole: the "legit influence" line, now said
+as things you do (<a href="https://www.pangram.com/history/0bd6d03b-0e25-47b0-abf3-9e93feaa761e">check</a>), and a summing-up
+sentence of mine cut in Working with your guards (<a href="https://www.pangram.com/history/92f3037b-036a-4dea-b660-c60fb6d6231c">check</a>).</li>
+<li>On your new cards page: your inner child guide's own lines put back in two places, where this guide had shortened
+them. A change to your forgiveness quote, which read AI (High) in the whole
+(<a href="https://www.pangram.com/history/aa3f74c7-cc59-40dd-b6e9-fcc0d3cc2b06">check</a>), read Human in its section and in the
+whole, but one of the three reviewers that check my suggestions to your words failed it: it dropped your "whole
+life", made your "I'm" a "We're" and lost your "But" (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/w1102fix/gate/GATE.md">why</a>). So it
+isn't on the page; the next try keeps those.</li>
+<li>Six of my fixes made their sections read worse, two of them <a href="https://www.pangram.com/history/1c316dee-a9c1-42ba-95f4-c21a9cb17a1f">AI Detected</a>,
+so I took them out again. Splitting a list into short sentences of the same shape read AI, and so did a closer
+turned into a joke. Your inner child guide's "No warmth today?" line read AI (High) in Inner child love, so I didn't
+put it on a card (<a href="https://www.pangram.com/history/f44db6b6-054d-4f22-abf0-516e236708e6">check</a>).</li>
+<li>Still to fix: the introduction's list of minds, the line after your teleprompter sentence, the end of If you sense
+you are being influenced, the last line of Before you begin, the sober induction's directions, Pattern 10's opening
+and the end of Inner child love. The two halves, checked with every fix in, the failed ones too, read
+<a href="https://www.pangram.com/history/4f9f2703-fa7c-49cb-84d8-8b739ee3fe72">Mostly Human Written, 1.8% AI</a> and
+<a href="https://www.pangram.com/history/8fbefde8-9028-45bd-9dae-693ffa56092e">Mostly Human Written, 1.1% AI</a>. The guide
+now has only the fixes that read Human.</li>
+</ul>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-11-02 18:16 UTC, and what I did</h2>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your three cards are in</strong>: your party example after the rent line (W-92b), the script cut (W-283b) and Appendix
+  E's repeated prayer cut (R-638), read in place (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/APPLIED-R1102.json">what changed</a>).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The whole guide, checked in two halves</strong>: the first half reads
+  <a href="https://www.pangram.com/history/25bc4954-3ece-40f7-98c5-75fd5444f6e1">Mostly Human Written, 1.4% AI</a> and the second
+  <a href="https://www.pangram.com/history/aa3f74c7-cc59-40dd-b6e9-fcc0d3cc2b06">Human Written, 0.4% AI</a>
+  (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/whole/RESULTS.md">every window</a>). Twelve short stretches still read AI in the whole, and
+  twenty Human (Low): the sober induction's opening, "The more powerful the state you're in, the stronger the
+  boundaries you'll need.", the forgiveness quote and more. That's the next round: ours fixed and checked, yours as cards
+  with tested suggestions.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your post is updated.</strong> The guide is in your post behind hypnosis.u-dont-exist.com, made in its editor and read
+  back from the public post, where every word matches the guide
+  (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/live/LIVE-CHECK-20261102.json">the check</a>). Your Subscribe and Share buttons, the video,
+  the two post embeds and the image are as they were in the post; the top image you'd taken out stays out. The title
+  and subtitle are unchanged (question 29). One slip on the way: for about two minutes the unpublished draft held the
+  guide twice, because the editor's paste added it at the top as well; I replaced the whole draft with one copy before
+  pressing Update, so readers never saw it.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your Pangram history, read</strong>: 22 of your edits turned a text from AI to Human Written
+  (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/joel-pangram/history/HISTORY-LEARNING.md">what changed in each, and the lessons</a>). Most often
+  it was a silly, specific example for a general one (Mr. Boopaloopa on WhatsApp, Chantress Seba's inbox), then a tidy
+  closer cut ("A good therapist or helpline won't mind."), then a summing-up sentence cut. Six phrases you cut that
+  never appear in your own writing are now linter checks ("won't mind", "One more thing about", "And that's not good
+  because", "a last resort", "though it's often", "can feel a lot like"). Lessons E321 and E322.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your answers of 2026-11-02 16:43 UTC, and what I did</h2>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your versions are in the guide</strong>, all 16 (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/APPLIED-S1101.json">what went where</a>), with ten
+  typos fixed and listed (a missing "to", "be" and "you", a stray "to" and "is", "you're" for "your", two words swapped,
+  a double space, the quote marks). Where your "your version" box held the card's text or your last minimal pair, your
+  Pangram text went in instead: Patterns 3 to 7 (your McHappyness version, which you said to keep, with Pattern 7 from
+  your last, fully High try), the audit (c341e75a, with the body-signal example you'd keep), and the blissful paragraph
+  (your "Bring it down to Earth" version, since you said the minimal pair "still reads ai to me"). The heading of the
+  no-trance practice keeps its "9." like the other practices. The source link that was on "Instead of getting more
+  relaxed ... try getting more alert" is now on your words "suggest yourself into greater alertness".</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your eight approved cards are in</strong>, read beside your published version and your inner child guide.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Each section your answers changed, checked by itself</strong> (22 checks, each with its link:
+  <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/recheck/RESULTS.md">the results</a>): 19 read Human Written. The three that didn't:</p>
+<ul>
+<li>The inner child, the guards: the rent line you got back on W-92 read AI (High). With your inner child guide's
+party example after it, as it goes there, it reads 100% Human: card W-92b.</li>
+<li>Stay awake / Make the hypnosis more alert: the script (W-283) read AI (High). Two rewrites of it read AI too;
+without it your passage reads Human: card W-283b.</li>
+<li>Don't rush the repair: Mostly Human Written, with your opening and two lines of the quote Human (Low)
+(<a href="https://www.pangram.com/history/03338373-12c4-41ab-bbda-694159cd0d2e">the check</a>); by themselves they read
+Human (High) for you (<a href="https://www.pangram.com/history/14c44cec-57e0-4b80-b7bc-fbfed1a8c304">your check</a>). I'd
+keep them; the section reads Human, only Low in context.</li>
+</ul>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Our one Human (Low) sentence is fixed and checked</strong> (Working with your guards: "ask it. What is it trying to stop?
+  What does it want from you?", <a href="https://www.pangram.com/history/65ac97c1-88c9-483a-bc30-2b8a427e3209">checked</a>). Pattern
+  10's opening reads Human (Low) in its section; both my fixes read AI in their checks
+  (<a href="https://www.pangram.com/history/a68f6b1e-1ea6-4c31-b9a7-33ba058c8e2b">one</a>,
+  <a href="https://www.pangram.com/history/cebaccad-d951-4faf-8f36-282f80d44271">two</a>), so it stays as it is for now.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your tries, in order</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/joel-pangram/SEQUENCES.md">all 53, each linked, with what changed</a>):
+  lists were the trigger most often, and a list asked as one question most of all; a sequence with its own verb for each
+  step read Human; portable phrases ("come back to yourself a bit", "do the normal thing") read AI; your own odd jokes
+  turned whole texts Human. My own script fixes taught the same lesson the hard way: I put a new list of three in place
+  of the old one, and it read AI (High). Lessons E315 to E320, and four new checks in the linter: "the next small
+  thing", "still matters", portable phrases, and a list asked as one question.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Links and tests on every card from now on</strong>: the cards page now shows what Pangram read, with its link, and the
+  check of the suggestion, with its link, on every card, and refuses to build a card without them.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The repeats</strong>: I read the whole guide for passages that say the same thing twice
+  (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261102/redundancy/REPEATS.md">what I found and why each stays or goes</a>). Two go to you as cards (W-283b,
+  R-638); the rest are cross-references, safety lines said where they're needed, or lists said in parallel on purpose.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p>Question 27 is answered by your W-605: the audit itself, in your words.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-11-01 22:27 UTC, and what I did</h2>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The windows in our words</strong> (of the 91 that read AI or Human (Low) when each section was checked by itself) are
+  fixed, each said plainly from your published version, read beside it and linted. Where a point of your published
+  version had gone missing, it's back (the recording that cuts out: don't wait for the missing voice; the script decided
+  in advance).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your inner child guide's words are back where this afternoon's fixes had changed them</strong> without a card ("What's
+  going on?" and "If nothing comes, that's fine for now." in Working with your guards). The fix is card G-23. Several
+  lines I'd counted as ours turned out to be your inner child guide's, shortened when they came in; they're cards too
+  (lesson E314).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The eleven sections with nothing waiting on you, checked again by themselves</strong> (their second and last section
+  check; <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/sections/recheck/RESULTS.md">each result</a>):
+  six read Human Written, five didn't. Their paragraphs then got one more try each, checked alone
+  (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/sections/recheck/para/RESULTS.md">each result</a>):
+  four now read Human (High), and four stretches still read AI after three tries. Those are on your cards page as
+  stretches to edit (E-107, E-315, E-368, E-406); the clear version stays in until one reads both clear and Human.</p>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>Next</strong>: your answers to the cards; then the sections with a card get their second check by themselves, and the
+  whole guide its check on the Substack drafts with your extension.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your answers of 2026-11-01 20:29 UTC, and what I did</h2>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your four cards, in the guide</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/fullread2/review/REVIEW-FR2.md">the cards as text</a>): step 3 of
+  Before you begin says "intoxicated and more confused than usual" (K9); step 6 keeps the half of your dad's line it's
+  about (F1.6); the fingers script's last press is "the clearest state of awareness yet" (F7.5); and the care workshop
+  no longer repeats "That's enough for today ..." (F18.1).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>My second full read of the guide</strong>, every paragraph beside your published version: 216 things found. The 205 in
+  our words are fixed (Emulate's shouting, compressed or vague sentences said plainly from your published meaning, lists
+  given the links between their items, "one" and the other tells, commas). Eight contradictions in our words are fixed
+  too, and the two-hand practice is taught once now, with your paragraph from the induction moved into it (S-636). In
+  your own words only punctuation and a few slips changed, each listed at the end of the cards' text.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Each section checked in Pangram by itself</strong> (E307): 83 of the 103 sections read Human Written, 5 Mostly Human,
+  13 AI Detected and 2 AI Generated ("Stay awake when your mind likes to escape" and "Hypnosis-specific audit"). <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/sections/RESULTS.md">Every
+  section's result, with its link and every window's confidence</a>.</p>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>Next: the 91 windows that read AI or Human (Low)</strong> get fixed (E306; <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/sections/CONFIDENCE.md">the list</a>).
+  Ten in our words are done; the ones in your own words come to you as cards. Each section is checked again once all
+  its windows are handled, then the whole guide on the Substack drafts with your extension.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-11-01 18:57 UTC, and what I did</h2>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>28: ii</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/joel-20261101-1857-message.txt">your message</a>). The guide is done when one check reads every window Human. A
+  window that reads AI or Human (Low) gets fixed straight away, without another check to confirm it; Human (Medium) ones
+  that aren't large are listed and left; and a window below High gets its meaning read again, since those are often the
+  smoothed-over, vague places (gate E306, which replaces my "two checks in a row"). Sections get checked by themselves,
+  not only inside the whole guide (E307).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your cards page, in the guide</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/APPLIED-30b.md">what went in, card by card</a>): the 10 you
+  approved, your 10 versions word for word (obvious typos only fixed and listed: "embarass", "int he", "Can you can",
+  "Jim Carey", "we need overcome" and four double spaces), and S-24 stays out. Your new headings ("Induction: gathering
+  and softening attention", "Overly Confusing Isn't Automatically Good", "Already Trancey? Stabilize before dipping
+  deeper.") are in, and the one place that named "Already open? Contain before you deepen" now names the new heading.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The whole guide read again by me</strong> (E309, E310), and the contradiction read: done (above, 20:29 UTC).</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-10-30 21:40 UTC, and what I did</h2>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The second recheck, read.</strong> Part A: <a href="https://www.pangram.com/feed/a123b9a4-de86-462a-aa45-4f46b122ab4e">Mostly Human Written, 1.7% AI</a> (try 15): 187 windows,
+  15 AI (11 Low, 2 Medium, 2 High), 172 Human (79 High, 75 Medium, 18 Low). Part B: <a href="https://www.pangram.com/feed/a485abe9-057b-4209-a9be-11ad81a90b90">Mostly Human Written, 2.9%
+  AI</a> (try 13): 63 windows, 11 AI (5 Low, 3 Medium, 3 High), 52 Human (23 High, 18 Medium, 11
+  Low) (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/tries/read/SPOTS.md">each try</a>; <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/tries/read/CONFIDENCE.md">every window, with its confidence</a>).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>What worked</strong>: all three take-backs (the paragraphs read High, Medium and High without the restored sentences), the
+  presupposition and awareness-verb examples (High), and the "Don't read the directions out loud" line (High). The double
+  binds and the weekend-course line, which read AI last time with nothing changed, read High again.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>What didn't</strong>: the honest-bridge line still reads AI (High) in one window with your embedded-invitation paragraph;
+  my suggestion for your room test read worse than your words, so it's withdrawn.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>New red on words nobody changed</strong>: the parent-script paragraph, your two metaphor paragraphs, the containment
+  script, and the NLP list and sequence. They read Human last time with the same words, which is what question 28 is
+  about.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-10-30 20:15 UTC, and what I did</h2>
+<p>Your message, word for word: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/joel-20261030-2015-message.txt">20:15</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The recheck, read.</strong> Part A: <a href="https://www.pangram.com/feed/fc1d8dae-ed2b-4050-9c0b-5c1571dc3548">Mostly Human Written, 1.3% AI</a> (try 14): 175 windows,
+  8 AI (6 Low, 2 High), 167 Human (73 High, 69 Medium, 25 Low); the last check had 23 AI. Part B: <a href="https://www.pangram.com/feed/48eed31c-7ff5-4392-887c-92663cd6aea8">Mostly Human
+  Written, 2.3% AI</a> (try 12): 75 windows, 6 AI (1 Low, 3 Medium, 2 High), 69 Human (33 High, 29
+  Medium, 7 Low); the last had 12 (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/recheck/read/SPOTS.md">each spot</a>; <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/recheck/read/CONFIDENCE.md">every window, with its confidence</a>).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your versions</strong>: 36 of their 37 paragraphs read Human in place, 19 at High; your audit Human all the way through.
+  The one AI (embedded invitations) sits in a window that starts with a sentence I'd restored just above it.
+  <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/recheck/read/HIS-STUDY.md">Each of yours beside the words it replaced and the writers' tries</a>.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Appendix C's list</strong>, done your way: Human (4 windows High, 1 Medium).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>What I learned</strong>: most of the red sat on points I'd restored, and it spread to words nobody changed. One of those
+  points you had cut yourself on 25 October; two my own earlier check had found said already. The read tool now lists
+  every change to a paragraph before a point comes back. And your versions change what a paragraph does (cut the hedge,
+  say what an abstract word means, give an example, say what a step is for), where the writers only moved words around.
+  Those are the writers' first rules now.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your pull request</strong> in the universal architecture: its checks wanted a task record and then the test results in a
+  set format; both pushed, all checks pass.</p>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>The community article</strong>: yes, I think it needs the same read. Most of its meaning reads ran on Sonnet, and the
+  post is live, so a missed error is public. It's set up for right after your next cards page (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/fullread-20261030/PLAN.md">the plan</a>).</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your answers of 2026-10-30 14:35 UTC, and what I did</h2>
+<p>Your message, word for word: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/joel-20261030-1435-message.txt">14:35</a>; your comments on the cards:
+<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/joel-20261030-1435-comments.txt">word for word</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your answers are in</strong>: 9 cards approved, 19 in your own versions, with eight typos fixed and listed
+  (each card's fate is in <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/STATUS.md">the status page</a>). Your R-96 comment done: the next paragraph starts
+  "First, access your witnessing position". Kept and asked before: N-243's second paragraph ("Deciding to do it: ...",
+  with how to stop), which your version didn't include.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The Previous button</strong> went to the bottom of the page when every card above was decided; now it goes to the card
+  before, and stays at the first.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"Dumb readers": yes.</strong> The readers of batches 482 and 483 ran on Sonnet. I've now read the whole guide myself
+  beside your published version: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/fullread/FINDINGS.md">122 problems they had passed</a>, 61 of them
+  garbled sentences (missing commas, comma splices, "how to come back down" for the return up, "invoke", "i.e." for e.g.,
+  the old name of Veterans Affairs), 28 lost points, 19 unclear, 14 vaguer. 109 are fixed in our words, each read again
+  beside your text (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261030/fullread/VERIFY-PAIRS.md">every fixed paragraph, before and after, beside yours</a>); 5
+  are suggestions for paragraphs you rewrote yourself, on your next page; 4 aren't problems once checked (the long-term
+  break you approved on 25 October, two repeated safety lines, and limits said in their own sections).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your tells</strong> ("one", "proof", "secretly/silently", the passive): in the linter, and taken out of our words.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The exercise taught four times</strong>: taught once now, in The two-hand practice; the induction and the troubleshooting
+  line name it. Appendix D's is your version, so a suggestion for it is on your next page.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"Scared to death"</strong>: Emulate wrote it on 18 October, for the "who is frightened" it was sent; no check caught it
+  until you did.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-10-29 22:23 UTC, and what I did</h2>
+<p>Your message, word for word: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/joel-20261029-2223-message.txt">22:23</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Batch 483's recheck, read.</strong> Part A: <a href="https://www.pangram.com/feed/d7900092-2691-46bd-b76a-d2043526509c">Mostly Human Written, 3.4% AI</a> (try 13): 150 windows,
+  23 AI (10 Low, 6 Medium, 7 High), 127 Human (60 High, 52 Medium, 15 Low). Part B: <a href="https://www.pangram.com/feed/845b60a9-9b58-4824-bc34-29cb1e395efa">Mostly Human Written, 4.1%
+  AI</a> (try 11): 81 windows, 12 AI (3 Low, 4 Medium, 5 High, the audit one of them), 69 Human (32 High,
+  25 Medium, 12 Low) (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/b483/recheck/read/SPOTS.md">each spot</a>; <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/b483/recheck/read/CONFIDENCE.md">every window, with its
+  confidence</a>).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The writers with the lessons from Emulate's fixes: 2 of 11 read Human</strong> (the five outcomes as things you notice in
+  yourself, High; your "All of these" sentence with its list in brackets, Low). The other 9 read AI at High: 7 as
+  their first try did, and 2 worse (fractionation and reframing had read Low and Medium). Batch 482's 11 versions that read
+  Human last time all read Human again. Besides those, 26 windows of words nobody changed read AI, 13 of them Human in the
+  recheck before. The shape rules weren't enough for those 9, so they're yours on the cards page, and your versions are what the
+  next lessons come from.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your cards</strong>: <a href="https://claude.ai/artifact/SxZ3CYESSGw1KWJp46mRAG">Hypnosis Guide Cards</a>, above.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Batch 483, after the lessons (2026-10-29 20:15 UTC)</h2>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong><a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/emulate-lessons/LESSONS.md">What Emulate's fixes teach</a></strong>: our writers' brief already named what Emulate takes out; it missed
+  how Emulate builds what it puts in (it keeps the sentence count or joins, chains steps, lets a sentence run long, keeps a
+  list inside its sentence). In batch 482, versions that kept the sentence count read Human 9 times in 12, versions that
+  split 2 in 9. Much of Emulate's passing came from dropping what reads AI, which your clarity rule rules out.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The next try</strong>: three fresh writers, given those rules and shown what read AI last time, rewrote the 9 stretches
+  of ours that still read AI and wrote suggestions for two lines of your own (the no-warmth line, and "All of these are
+  separate factors" with its list in brackets). No pick splits a sentence. A fresh reader read all 10 paragraphs beside
+  your published version: every one reads clearly and says what yours says.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-10-29 19:22 UTC, and what I did</h2>
+<p>Your message, word for word: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/joel-20261029-1922-message.txt">19:22</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Batch 482's recheck, read.</strong> Part A: <a href="https://www.pangram.com/feed/19fba559-fe64-46a3-92a1-ab87f728b4ba">Mostly Human Written, 2.3% AI</a> (try 12): 158 windows,
+  20 AI (8 Low, 6 Medium, 6 High), 138 Human (62 High, 58 Medium, 18 Low). Part B: <a href="https://www.pangram.com/feed/82470746-1d28-4ddc-ac19-276ca31c19f2">Mostly Human Written, 3.9%
+  AI</a> (try 10): 87 windows, 13 AI (4 Low, 4 Medium, 5 High, the audit one of them), 74 Human (34 High,
+  28 Medium, 12 Low). Of the 21 new versions, 11 read Human (5 at High) and 10 still read AI; red also moved onto 14
+  windows of words nobody changed, next to the rewrites (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/b482/recheck/read/SPOTS.md">each spot</a>; <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/b482/recheck/read/CONFIDENCE.md">every window, with its
+  confidence</a>). Your guide hasn't changed: the clear versions stay until a new one is both clear and Human.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>26, "not sure why you are asking before even checking if you can learn the lessons"</strong>: withdrawn, and a lesson
+  for every lane (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md">E293</a>): before asking you to pay for a tool, do the free work that could
+  make it unnecessary, then ask only with what it showed.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your messages of 2026-10-29 18:18 and 18:55 UTC, and what I did</h2>
+<p>Your messages, word for word: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/joel-20261029-1818-message.txt">18:18</a> and <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/joel-20261029-1855-message.txt">18:55</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The recheck, read.</strong> Part A: <a href="https://www.pangram.com/feed/d1e283a5-efcf-4fc4-ad6f-d535e12951b2">Mostly Human Written, 1.6% AI</a> (try 11):
+  170 windows, 11 AI (8 Low, 1 Medium, 2 High), 159 Human (69 High, 70 Medium, 20 Low). Part B: <a href="https://www.pangram.com/feed/f9b45a7b-402c-412c-af68-a5f9ca44f6e6">Mostly Human Written,
+  4.5% AI</a> (try 9): 91 windows, 20 AI (11 Low, 2 Medium, 7 High, the audit one of them), 71 Human (33
+  High, 26 Medium, 12 Low). Of the 140 changes you approved on 28 and 29 October, 112 read Human at High where they
+  stand; most of the 11 that read AI are where a fix brought back your published sentence (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/recheck/read/CONFIDENCE.md">every window, with its
+  confidence</a>).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The next try (batch 482).</strong> Emulate's balance was 0 words, so fresh writers wrote two versions of each of the 17
+  spots of ours that read AI, and suggestions for 4 lines of your own that did. I chose one of each (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/b482/CHOICES.json">with my
+  reasons</a>), and fresh readers read all 20 paragraphs beside your published version: every one reads clearly
+  and says what yours says. They're in the two drafts above; your working copy hasn't changed.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Emulate</strong>: I put question 26 to you; you withdrew it at 19:22 UTC until the lessons are checked (above). The study of its fixes is in progress.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your messages of 2026-10-29 17:21 and 17:53 UTC, and what I did</h2>
+<p>Your messages, word for word: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/joel-20261029-1721-message.txt">17:21</a> and <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261029/joel-20261029-1753-message.txt">17:53</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>24, "approve all the cards and where there's no "approve" option just take the advice given"</strong>: all 114 fixes are
+  in the guide (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261028/comprehension/APPLIED-28.json">what each card's answer did</a>). The four cards in your own words had no Approve, so my
+  suggested wording went in: "As you become more your own person" for "As you differentiate"; "not push past that no"
+  for "not test it" (in both places, as that card said); "your inner child"; and "your inner adult's Protector" for
+  "your consciously installed parental Protector". Because those words are mine, a fresh reader read the five
+  paragraphs beside your published version first: all five read clearly and say what yours says.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>25, "we never publish nonsense because it passes pangram. we come back and we try again if clarity loses on
+  pangram."</strong>: a standing rule now, for every article. A clear version that reads AI or below High stays in, and the
+  next try has to be both clear and Human; the unclear one is never the fallback, nor offered to you as the
+  alternative (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md">lesson E291</a>, and in the shared rules every lane reads).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"i signed in" (17:53 UTC)</strong>: Substack was signed in again in the app's browser, so I pasted both parts into
+  their drafts, checked that each renders exactly the text I forecast from, and made the two links above.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The comparison gate passes</strong> on the guide with all of this in: every paragraph is yours, or was read beside your
+  published version at its present words, and every finding has its fate.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your messages of 2026-10-28 15:20 and 16:05 UTC, and what I did</h2>
+<p>Your messages, word for word: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261028/joel-20261028-1520-message.txt">15:20</a> (with your answers file) and <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261028/joel-20261028-1605-message.txt">16:05</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your six answers are in the guide</strong>: HG-S11 and HG-S12 as approved; ED-A1, ED-A3, ED-A5 and HG-S15 in your words.
+  ED-A5's one sentence replaces its whole paragraph, and in HG-S15 "can are" is now "are" (the one obvious typo).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"we went wrong somewhere": where.</strong> On 18 October Emulate rewrote most of the guide in one night; second readers
+  reported 814 problems, I fixed the 260 that changed what a reader would do or believe and let 554 stand as wording or
+  tone, so each section kept reading Human. Your rule of 29 September (an Emulate version has to make at least as much
+  sense as yours) was never checked. On 25 October the strict Emulate check's readers flagged many of these spots but
+  rated 743 of 808 "small", and I went through only the 65 that "mattered". The comprehension check of 25 October read the
+  guide on its own, told its readers to let casual grammar stand as your voice, and lost its first run's flag on the
+  agreement list when I reran it. On 27 October I advised you to approve Emulate's re-run of that list (HG-S15).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"is this whole guide messed up now?": how much</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261028/comprehension/AUDIT.md">the audit</a>). Fresh readers went through the whole guide
+  beside your published version: 281 findings. By my check, 41 real problems in 38 of 591 paragraphs (about 1 in 16),
+  118 small snags in 95 more, 6 in your own words, and 116 weren't problems (your terms, your cuts of 25 October, or as
+  clear as yours). 29 of the 41 had been flagged on 25 October and left as small.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The fixes</strong>: fresh writers fixed each real problem and the small snags a few words could fix, your published
+  wording first; I went through every fix (some changed, some dropped); fresh readers checked each fixed paragraph beside
+  yours. All 114 fixed paragraphs passed: clear, saying what yours says, and at least as easy to follow as
+  before (3 after a second fix). They're question 24.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"repair the process durably"</strong>: the read is now a gate. Every paragraph of the guide has to be yours as published,
+  your own words, or read beside your published version at its present words, and every finding a reader rated 2 or 3
+  needs a recorded fate; a sentence a reader can't follow can't be "kept" on my say-so. <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/tools/humanization/lane_push.py">the push tool</a> runs the gate
+  before every push and stops on a failure (the guide's gate is <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/COMPARE-GATE.json">COMPARE-GATE.json</a>). The clarity read no
+  longer calls a rewrite's grammar your voice and keeps an earlier run's findings; the triage tool refuses to let an
+  unclear sentence stand; new words of any kind get the read before they become a card. The same rules are in the shared
+  files for every article, with lessons E284 to E290 (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md">the gate's lessons</a>).</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-10-27 15:37 UTC, and what I did</h2>
+<p>Your message, <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261027/joel-20261027-1537-message.txt">word for word</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The recheck, read</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261026/b481/recheck/read/CONFIDENCE.md">every window with its confidence</a>).
+  <a href="https://www.pangram.com/feed/a67b13cb-7267-466e-9350-e70836380857">Part A</a>: Human Written, no AI window; of its 116 windows 58 read Human at High confidence, 55 at Medium and 3 at
+  Low. <a href="https://www.pangram.com/feed/9fd5c1d9-6766-439e-ba4b-8b8eb5108ee4">Part B</a>: Mostly Human Written, 1.3% AI; the one AI window (High) is the audit again, and of its other 37
+  windows 20 read High, 16 Medium and 1 Low. Of batch 481's 24 fixes, 19 now read High where they stand, 4 Medium and 1 Low
+  (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261026/b481/recheck/read/SPOTS.md">each fix</a>). My part forecasts were right on every part (53 of 53, 17
+  of 17); my call for part A was too gloomy again (it read all Human, as last time), and my chances of High for Emulate's
+  fixes were too low (19 of 24 reached it).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>21, "your list of cards was a json file? i can't read that"</strong>: you're right, and it shouldn't have been your
+  fallback. The marking page was published from your other account, so it couldn't open where you were, and the questions
+  page offered the cards' JSON file instead. Now the page is published from this account, and its cards are also in Git as
+  a page GitHub shows as text. That page had a second fault: none of its 34 highlights showed in the guide, because its
+  four kinds of card had no colours (fixed in the page maker, with a browser test that fails without it).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>22 and 23, "the editor interface we developed"</strong>: the marking page now has a card for text you may want to edit
+  yourself: Keep it as it is, or Edit it, which opens the paragraph in a box for your own version. Questions 22 and 23 are
+  on it that way, beside question 21's cards. That's the rule for any question about editing text from now on (lesson
+  E282).</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-10-26 12:43 UTC, and what I did</h2>
+<p>Your message, <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261026/joel-20261026-1243-message.txt">word for word</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The recheck, read</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261026/b480/recheck/read/CONFIDENCE.md">every window with its confidence</a>).
+  <a href="https://www.pangram.com/feed/0f1902cd-df2a-4837-9879-69979188e5f1">Part A</a>: Human Written, no AI window; of its 153
+  windows 71 read Human at High confidence, 68 at Medium and 14 at Low. <a href="https://www.pangram.com/feed/1a9e674f-113e-46ad-8a07-0fb6b71ad65e">Part B</a>:
+  Mostly Human Written, 1.3% AI; the one AI window (High) is the audit's questions, which you kept as a list (your 2c),
+  and of its other 46 windows 25 read High, 20 Medium and 1 Low. Nine of the ten fixes on the marking page read High in
+  place; the three stop words read Medium and Low. My part forecasts were right on every part (27 of 27, 14 of 14), and my
+  call for part A was too gloomy: I'd given it a one-in-twelve chance of reading all Human.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"the questions page has no open questions"</strong>: the hypnosis guide's questions were only in this file in Git (with 21
+  open), and the questions pages you can open (the community article's, and InnerSignal's) had none open. Now the guide has
+  its own page, "Hypnosis Guide Questions", a view of this file that I update with it every turn.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The preview link, for every lane</strong>: now a standing rule in the repository's instructions that every lane reads,
+  with a tool that makes a draft's secret preview link (paid view) without clicking through, and a lesson (E277). What
+  you get is always the link: you open it and run the check, nothing else. It's in my memory too.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Confidence, always</strong>: every result I read now records each window's confidence, my reports say "Human (Low)", and
+  a tool lists every window that isn't High-confidence Human with its place and whose words it is (lesson E278; in my
+  memory too).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The fixes for less than High</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261026/b481/README.md">every step</a>):
+  Emulate's samples of the 22 groups of paragraphs with a Low window or a Medium one of 10 words or more, and of the
+  audit. 24 fixes passed the gate's three reviewers and are on the page, question 21; three of them first failed a reviewer
+  (Emulate had dropped your "genuinely", your "remembers" and "works well here", and your "trick or manipulate"), so your
+  words are back in those. The short lines are question 22, and the audit question 23.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Left as they are</strong>, because none of Emulate's versions kept what they say: your inner child guide's questions in
+  "Instead of blame" and "I'm not going to force my way past you."; "Temporary Separation." (a two-word label); the
+  human-doing paragraph (every version drops your "bargain for belonging"); the sober induction's "You don't need to tell
+  the whole story yet." (every version drops it); "My body may stay safe" (every version makes it a promise, "will be
+  safe"); "That's enough for today" and "I don't have to obey it." (kept word for word); your reframing questions and your
+  three forgiveness lines to the inner child; and two my checks turned down (three new exclamations in a row in the
+  BEFORE requests, and "remember that" in "We just remember that it can all be true at once").</p>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>The recheck with all of them in</strong>: its two links are under "For you to do".</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-10-26 00:54 UTC, and what I did</h2>
+<p>Your message, <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261026/joel-20261026-0054-message.txt">word for word</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The recheck, read.</strong> <a href="https://www.pangram.com/feed/9b9bedd2-a7d1-4141-9d85-168fbe3e81e4">Part A</a>: Mostly Human
+  Written, 0.9% AI, 7 of its 153 windows red. <a href="https://www.pangram.com/feed/84384f22-e09d-4a3b-bd39-a6617cd21cd1">Part B</a>:
+  Mostly Human Written, 1.5% AI, 2 of its 53 windows red, one of them the audit questions you kept as a list. My calls for
+  both were right.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Six of my seven fixes read Human in place</strong> (the borrowed adulthood paragraph, the pointer to "Already open?", the
+  stop words, "It should make sense ...", the no-warmth line and your test): they're on the page, question 21.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your whole three-jobs sentence, rent joke back, read AI (High)</strong> where it stands. Emulate's version keeps the joke
+  ("rather than getting three more people to move in with you to help with the rent!") and your "keeps", and read Human
+  checked alone: it's on the page beside your sentence.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Red turned up in three places nobody had changed</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261026/b480/README.md">every step</a>): the
+  guards card you approved (IC-A14, "But before you decide where it's coming from ...") and the guard prompt after it, the
+  parent script paragraph's two middle sentences, and "Borrowed is fine, as long as it's from someone steady ..." in
+  appendix G. Each read Human the check before; the edits above them moved the red there. Emulate's versions of the three
+  are on the page; the first two read Human checked alone, and the third is one sentence, too short to check alone, so the
+  recheck above is where it shows. I've changed how I forecast this (lesson E276).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Two small changes the gate needed</strong>: "you can" is out of the "Already open?" pointer, and the no-warmth line ends on
+  your own "no faking required" (Emulate's "You don't have to fake it!" counts as coaching, and a reviewer turned down
+  "Don't fake it." because it makes your permission a rule).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The community article</strong>: your changes are live and match; that lane's
+  <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/OWNER-QUESTIONS.md">page</a> has it.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-10-25 23:50 UTC, and what I did</h2>
+<p>Your message, <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/joel-20261025-2350-message.txt">word for word</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The recheck, read.</strong> <a href="https://www.pangram.com/feed/4c912830-87c4-4ee1-bff1-5acc606dc4f7">Part A</a>: Mostly Human
+  Written, 0.9% AI, 7 of its 161 windows red, in three places. <a href="https://www.pangram.com/feed/6b07dbba-8dc6-42a0-b562-b46dbe778919">Part B</a>:
+  Mostly Human Written, 2.2% AI, 8 of its 61 windows red, in four places, one of them the audit questions you kept as a
+  list. My calls for both were right, and the part forecasts put the red where it was: 244 of 248 parts right in A, 156
+  of 162 in B, nothing red anywhere they didn't look.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Where the red came from</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/b479/README.md">every step</a>):</p>
+<ul>
+<li>Part A, Low: "That's one grown-up doing three jobs, and each job keeps the others in balance." It's your inner child
+guide's sentence with your "not three more people moving in to help with the rent" cut out by the alignment card. That
+cut was mine to catch: the joke is what makes the line yours (lesson E275).</li>
+<li>Part A, High: the borrowed adulthood paragraph, Emulate's first sentence and my plainer words for your published
+line (EM-2).</li>
+<li>Part A, five Low windows: the stop lines before an induction, where the review page put your quote marks back on
+"stop", "less" and "quiet".</li>
+<li>Part B, High: "It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and
+you've checked it against what you actually know." These are your own words from your inner child guide.</li>
+<li>Part B, High: "No warmth today? Then rest your hands there and notice what you find, no faking required." in the
+anxiety practice, which turned the lines around it red too; the same line reads Human in part A's two-hand practice.</li>
+<li>Part B, High: your published test, "The useful question is whether this way of responding helps you become clearer,
+steadier, and less hooked."</li>
+</ul>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>What's in the recheck above</strong>: for the three-jobs line, your whole sentence, rent and all. For the other five,
+  Emulate's versions of just the red sentences, each read by fresh readers for meaning. Where a version shifted what you
+  said (the borrowed adulthood caution, the pointer to "Already open?", two of the stop lines), it now uses your
+  published words, or those lines stay as they were. The four High ones read Human, High, in checks on their own. The
+  audit stays as you chose.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-10-25 23:05 UTC, and what I did</h2>
+<p>Your message, <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/joel-20261025-2305-message.txt">word for word</a>,
+and <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/emulate-check/ANSWERS-20261025-2300.json">your answers file</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"251 has conflicts"</strong>: fixed, twice. Main took the Inner Child lane's turns 111 and 112 after my pushes, and both
+  lanes had added lessons with the same numbers to one shared file; both lanes' lessons are kept. 251 can merge.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>20, the Emulate check page: your answers are in the guide</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/emulate-check/APPLIED-20.json">what happened to each card</a>):
+  the 17 you approved, and your versions of the quote-mark card and EM-16 word for word ("coming back" keeps its quote
+  marks; "Just because an idea should be a resource ..." is out).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>EM-11, "actually emulate's version is better, hypnosis is for pain btw"</strong>: you're right, and I should have known:
+  hypnosis is widely used for pain, so a flat rule against suppressing symptoms says the wrong thing, and Emulate's "skip
+  medical attention for symptoms just because you can force them down" was the point. Emulate's sentence stays as it was.
+  The lesson (E272): when I offer your older words over Emulate's, I check which says the truer thing, not only which is
+  yours.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"make sure we are not using "protector" to mean "guard""</strong>: 19 places used it that way and say guard now, the one
+  you saw in "Finish without forcing a revelation" P2 among them, and the heading "Working with childhood protector parts"
+  (now "Working with your guards"). Your Protector, the grown-up job, stays in its 20 places, and so do the three
+  brackets that explain "guards" as "(childhood protector parts)", as your own version of the card kept them
+  (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/emulate-check/GUARD-SWEEP.json">each one</a>).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The strict Emulate check, run again</strong>: nothing new; what's left is what you left or what was looked at before.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-10-25 19:42 UTC, and what I did</h2>
+<p>Your message, <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/joel-20261025-1942-message.txt">word for word</a>,
+and <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/review/ANSWERS-20261025-1940.json">your answers file</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>19, the review page: your answers are in the guide</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/review/APPLIED.json">what happened to each card</a>):
+  the 139 you approved, your own versions of RR-2.1, RR-7.3, RR-8.3 and CV-8.9 word for word, and the 35 of the 153 you
+  left unmarked that I'd advised; the other 118 stay out. Where two cards changed one paragraph, both went in, as their
+  notes said (IC-A9 replaces RR-2.3's paragraph; ST-8.2 moves RR-8.8's line with its commas). Four small fixes their
+  combination needed: Installing the synchronicity cue P9 began "They" once the sentences before it went, so it says
+  "These cues"; "try doing it" says "the inner meeting"; "etc)!" lost its "!"; and IC-A17 and IC-B19 added the same lines,
+  so the full words stay in "Inner child reparenting" and Appendix G points to them, as IC-A17's note said.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"check all "the kid" instances and auto-fix"</strong>: done, in Closing and in "You keep using hypnosis" ("show my little
+  one I'm for real"; that one was Emulate's, in none of your texts). "Actual kids" (real children) stays.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"why was inner child in quotes? ... remove quotes if you find it elsewhere"</strong>: none left (Finish without forcing a
+  revelation, Pattern 5, and "Love doesn't have to wait for trust", where IC-T1 makes them "your little one").</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"i didn' tmake these typos, did you?"</strong>: no, they're not yours. None of your texts has a space before a full stop
+  or comma. Emulate put them after link texts and labels, and they stayed when the links went back on their words; my
+  checks compared Emulate's sentences with the draft they replaced, and read the meaning, not the marks. So I missed them.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"make those emulate checks more strict"</strong>: the strict check now runs on every article with Emulate's sentences in
+  it, before it goes to you and after every Emulate run: it compares the article with your own texts mark by mark
+  (spaces, typos, quote marks, references, numbers, links) and fresh readers read every changed paragraph beside yours;
+  the plain errors get fixed and the rest comes to you on a page like this one. It's in the repository's rules and its
+  Emulate guide, with lessons E268 and E269. On your guide it fixed 31 spaces (22 on your last page, 9 more, the colons in
+  Appendix B among them), 53 typos and slips, and the references (the book titles in italics again, "(1995) pp",
+  "randomized controlled trials"); the rest is question 20.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"make sure all the citations and stuff are not messed up"</strong>: Appendix K was Emulate's: the titles had lost their
+  italics and the punctuation was off (fixed), and three things changed what your sources say (question 20, Sources).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"that means we should also check the community article"</strong>: done: far less there (no spaces, no typos of this kind,
+  the references as you have them); six cards are on its own page, question 66 on <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/intentional-communities/candidate/OWNER-QUESTIONS.md">the community questions page</a>.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"save that so it's how we work in future editing work"</strong>: saved, and in the repository's rules (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/AGENTS.md">AGENTS.md</a>):
+  editing suggestions go to you on a marking page like this, in any article.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-10-25 14:40 UTC, and what I did</h2>
+<p>Your message, <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/joel-20261025-1440-message.txt">word for word</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>15.1, your wording</strong>: "because without redirecting the thought stream with your conscious, higher intention," is
+  in the review page as decided by you (RR-1.1), and "do that" stays as it is. The "led astray but" in the same paragraph
+  is a typo of its own (TY-1).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"can you fix the reader?"</strong>: the reread's brief now says a "this", "that", "it" or "do that" whose meaning is in the
+  words right before it doesn't count, with your sentence as its example, and that a plainer version changes the words
+  that stop a reader instead of adding brackets (one at most, for a term a reader can't know); your fix is its newest
+  example. Ten fresh readers then read the guide again with it: 80 passages. I offer 47 (most as a smaller change than the
+  reader's: a word, a comma, a name for "it"), would leave 32 as they are, and one is the Pattern 4 cut already on the
+  page. Three of the first reread's still hold and are on the page too; the rest of its 64 were brackets added to your
+  words, or are elsewhere on the page (lesson E264).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"line up all the inner child work with the latest inner child guide"</strong>: two readers compared every inner child
+  passage of the guide with your latest inner child guide, the version you decided passage by passage, and I checked each
+  difference against both guides and the InnerSignal rules. 43 differences, each lined up with your decided words: steps,
+  safety points (a no to going deeper is listened to, the grown-up check before going deep, the heart-to-child loop's "no
+  faking required"), advice you've changed since (not hitting back is enough to start being the adult, a break from a
+  family can be long-term, the six questions instead of blame) and names ("your little one", they/them, the guards). I
+  offer 42 of them, and would leave one that would say the same caution twice. Two need your eye most: IC-A1 (your inner
+  child guide now says the Higher Self has no specific wisdom, and this guide's prompts ask your universal heart for
+  guidance) and IC-A17 (learn the inner child work in your ordinary state before bringing it into hypnosis).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"give me the full HTML guide with highlighting ... approve reject reivse"</strong>: the review page, question 19. It's
+  made by a tool every article's checks can use now, and tested in a real browser (74 checks, in light and dark, on a
+  phone-width screen too): decisions, comments, filters, Next undecided, saving and loading your answers. A long list of
+  suggestions now always ends with a page like this (lesson E265); the four lists of 01:01 broke a rule that already
+  said so.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your messages of 2026-10-25 00:49 and 01:01 UTC, and what I did</h2>
+<p>Your messages, word for word: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/joel-20261025-0049-message.txt">00:49</a>
+("ok, what's next in the queue to hum,anize now?") and <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261025/joel-20261025-0101-message.txt">01:01</a>
+("finish the guide first").</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"finish the guide first"</strong>: the guide's clarity check, all four parts, was questions 15 to 18, four lists; at
+  14:40 you asked for one page instead, so they're all on the review page, question 19. Neuro de-armoring, next in your
+  queue, starts after it.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>How it ran</strong>: 36 fresh readers' reports, each on a part of the guide (the repeats readers had the whole guide too),
+  and I checked every one of their 295 items against the whole guide, your answers so far and the InnerSignal rules for
+  inner child and hypnosis writing. Nothing in the guide has changed yet.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>A slip of mine the readers caught</strong>: your 3 a of 21 October took the Pattern 4 version without its two examples,
+  but its sentences about "the first example" and "the second example" stayed in, pointing at nothing. ST-8.1 on the review page fixes it.
+  When a cut is taken to pass Pangram, the words that point to what was cut now go with it (lesson E263).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The reader of the guide's first part ran out of output</strong> thinking, as three community readers had on 23 October.
+  Its part went to two readers in halves, which finished in about six and seven minutes, and the reread brief now has the
+  same "work quickly" line as the others (lesson E262).</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-10-23 22:29 UTC, and what I did</h2>
+<p>Your message, word for word as I have it: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/joel-20261023-2229-message.txt">joel-20261023-2229-message.txt</a>.</p>
+<ul class="items">
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><strong>"same question for community and hypnosis articles":</strong> no, we hadn't looked at this guide for too much safety
+  language either. The check is standard now, as part 3 of the clarity check, and the Nibbāna and community lists are on
+  their pages. For this guide it runs with the rest of its clarity check (the reread list and the reader's edit), in a
+  turn of its own: it's about 29,500 words, and since it's inner child work, it follows the InnerSignal rules for
+  reviewing that kind of writing.</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-10-23 20:35 UTC, and what I did</h2>
+<p>Your message, word for word as I have it: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/joel-20261023-2035-message.txt">joel-20261023-2035-message.txt</a>
+(most of it was about the Nibbāna article and the community article; their pages say what I did there).</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Recheck B</strong> (<a href="https://www.pangram.com/feed/d63c3c9f-b71f-4435-9b20-59027a31225b">your result</a>): Mostly Human Written,
+  1.3% AI. One of its 36 windows is red: the hypnosis audit's seven questions (High), which you chose to keep as a list
+  (your 2c). The inner child line from Emulate (batch 477) and the eight spelling fixes in the appendices (batch 476) read
+  Human. My part forecast called all 51 of its parts right
+  (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/recheck-b2/SCORE.md">scored</a>).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>So the whole guide now reads Human, except the audit you kept.</strong> Part A read 100% Human in recheck A4.</p>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><strong>Next for this guide: the clarity check on the whole guide</strong>, both halves, as on your Nibbāna article. First, fresh
+  readers mark the passages a reader would have to reread. Then the reader's edit proposes moves, headings and cuts. I
+  check each item against the whole guide, and you get the list to pick from. It's a long guide (about 29,500 words), so
+  it gets a turn of its own.</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-10-23 18:13 UTC, and what I did</h2>
+<p>Your message, word for word as I have it: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/joel-20261023-1813-message.txt">joel-20261023-1813-message.txt</a>,
+with GPT's reply you attached beside it.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Recheck A4</strong> (<a href="https://www.pangram.com/feed/fd67dd6e-7193-4bdf-9ed8-3ed235d62d94">your result</a>): Human Written, 0% AI,
+  all 108 windows Human. Batch 475's whole stretch, script to Note, from Emulate, reads Human in place, and so do batch
+  476's spelling fixes. My part forecast called all 52 of its parts right (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/recheck-a4/SCORE.md">scored</a>);
+  my call for the whole part was AI, which was too pessimistic about Emulate's re-run of a whole stretch.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Recheck B's red line, from Emulate (batch 477).</strong> "You don’t have to fix this. I’m here now." had read AI, Low. Of six
+  samples, one kept your script as words said to your inner child, so the line is now “Little one, you are not alone. You
+  don’t have to fix it. I’m here now, and the adult is here now to listen to you.” A fresh reader found the meaning kept
+  (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b477/REVIEW.md">the review</a>, item 6). Part B also has batch 476's eight spelling
+  fixes in the appendices. The audit questions stay as they are (your 2c), so they'll most likely read red again.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your question about "putting you in", and the readability check</strong> are both on <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/nibbana/humanize/OWNER-QUESTIONS.md">your Nibbāna article's page</a>:
+  you're right, and GPT's reader's edit is now part of the standard clarity check, for this guide too.</p>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>Next for this guide:</strong> once part B reads Human outside the audit you kept, the clarity check runs on the whole guide
+  (both parts), with the reader's edit.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-10-23 16:55 UTC, and what I did</h2>
+<p>Your message, word for word as I have it: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/joel-20261023-1655-message.txt">joel-20261023-1655-message.txt</a>
+(most of it was about the Nibbāna article; its page says what I did there).</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Recheck A3</strong> (<a href="https://www.pangram.com/feed/43889be6-155e-4584-b232-90c4ad70e629">your result</a>): Mostly Human Written,
+  1.1% AI, 7 windows red, all in "Come all the way back": the end of the bring-back script, the count up, the first three
+  lines after it, and the Note's second sentence. Batch 474's driving caution, shortcut paragraph and troubleshooting lines
+  read Human. My part forecast called 31 of its 33 parts right (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/recheck-a3/SCORE.md">scored</a>);
+  it had the changed check paragraph at 35%, and missed that the red would spread from it into the script's end and the
+  Note.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Batch 475: the whole red stretch, script to Note, went through Emulate</strong> (three samples). Two of them turned the guide
+  into a hypnotist's script ("tell the listener", "leave them"), so the new lines come from the third (the script's end,
+  the first line after the count, the Note) and, for the count up, from the second, which kept it an instruction to you.
+  From your published guide I put back what they had lost: the five steps as the count, not an example ("e.g."); your
+  weight "of your choice"; "name where you are"; "open your eyes", not "whenever you like". A fresh reader compared each
+  with your published words (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b475/REVIEW.md">its report</a>) and found two more, both fixed: what
+  you keep is "the only intention I will take with me" (your word; it said "instruction"), and "make sure you can name
+  what day (or date) it is" (naming is the check). I left "one honest action" out, since you called it AI, and the
+  script's earlier sentences as they were (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b475/TRIAGE.json">the triage</a>). No API check
+  first: this red was Low and Medium, which the API can't reproduce; the recheck decides.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Batch 476, spelling.</strong> Emulate's samples had brought misspellings into the guide that your published text doesn't
+  have: "solar plexis" five times, "carefuly", "subconcious", "supress", "neuroscientifcally", "somedays", and British
+  spellings ("realise", "behaviour", "stabilise", "visualise") in 25 paragraphs. All are back to your spelling. My linter
+  flags them; the installs hadn't acted on it, and now every Emulate splice gets its spelling fixed before it goes in.</p>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>Part B's one red line</strong>, "You don't have to fix this. I'm here now." (Low), is next for B, with Emulate first; part B
+  now has its spelling fixes too.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-10-23 14:14 UTC, and what I did</h2>
+<p>Your message, word for word: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/joel-20261023-1414-message.txt">joel-20261023-1414-message.txt</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Recheck A</strong> (<a href="https://www.pangram.com/feed/3f9225c6-4ec8-452e-bdff-d44040b1acc0">your result</a>): Mostly Human Written,
+  1.4% AI, 7 of 108 windows red, down from 10. Your forces paragraph and the return paragraph read Human in place. Red: the
+  shortcut paragraph again, starting in the driving caution's second sentence before it (Low and Medium, where it had been
+  High), though it read Human, High, on its own; the return's check, "Move around a bit ..." (Low); and, new, Nothing
+  happens' two lines with It feels fake's first question (Low and Medium), which had read Human, Medium, last time.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Batch 474</strong>: all three stretches went through Emulate (three samples each), and only the red sentences came back in:
+  the driving caution and the shortcut paragraph whole, two sentences of the return's check, the three lines of
+  troubleshooting. Each read <a href="https://www.pangram.com/history/2480b0af-7257-41d0-94db-2cec0d7757cc">Human</a> on its own (<a href="https://www.pangram.com/history/0f0a02c3-6b11-4031-a136-8f63e03f8dd1">the check</a>,
+  <a href="https://www.pangram.com/history/02d5a7e2-9c94-4732-9687-513cdddf1929">and this one</a>), which for this kind of red only says they are no worse. The reader caught
+  three things, all fixed: the caution now bars practicing and testing the cue while driving too (your published words say
+  "train, test, or use"), "note only what actually came up" is back, and so is "body sensation".</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Predictions by part, from now on.</strong> Before each whole check I write which parts I expect red, each with its chance,
+  and score them part by part after. For the recheck A below: the driving caution and shortcut paragraph 45%, the return's
+  check 35%, the troubleshooting lines 30%, the return paragraph 10%, your forces paragraph 5%; each of the last check's 28
+  light green windows 1 to 2%; anywhere else 15%. Together that's a 13% chance of no red at all.
+  <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/recheck-a3/FORECAST.json">The forecast</a>. Today's two rechecks showed why: I had named every
+  changed part green, and the red came where the last check had been light green.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Pull request 224's conflict</strong> (the gate's lessons again, from the Inner Child lane) is resolved:
+  <a href="https://github.com/u-dont-existDOTcom/joel-articles/pull/224">pull request 224</a> can merge.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your answers of 2026-10-23 12:30 UTC, and what I did</h2>
+<p>Your message, word for word: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/joel-20261023-1230-message.txt">joel-20261023-1230-message.txt</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>14 (the seam), answered with "for the other parts you can either learn from me or learn from emulate right?" and
+  your re-run trick</strong> ("you can take text emulate gives which doesn't pass, and re-run it, and then it can pass"). The seam
+  was Emulate's text with my meaning fixes, so I re-ran it through Emulate three times. The shortcut paragraph of sample bj
+  read <a href="https://www.pangram.com/history/8c07a601-45c9-4d33-9555-6b51302e81d3">Human, High</a> on its own, with the two points it dropped put back ("qualified",
+  "right away"), and with sample bk's return paragraph, the only one that kept "your body belongs to you", the pair read
+  <a href="https://www.pangram.com/history/ce2c2f4e-e14f-45a6-9ed8-27c25aaf1397">Human, High, as one window</a>. The second reader found two more things, and both are fixed:
+  "State your decision while awake" had become optional and about where you won't use it, so it now says "You'll want to
+  say, while you're awake, ..." (<a href="https://www.pangram.com/history/1129f619-ef4e-4276-8889-f8b3496f19b7">Human, High and Medium</a>); and "If you met a younger
+  state" had become "If you have regressed", so it has your published words back. Six versions of mine had read AI here;
+  your trick passed on the first check. <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b473/API-CHECKS.md">All the checks</a>, <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b473/REVIEW.md">the review</a>
+  and <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b473/TRIAGE.json">its triage</a>.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your rewrite of De-hypnosis's forces paragraph is in, word for word</strong> (the run of "By a screen? ..." questions that
+  read AI in recheck A), up to "It's all around you."; your two lines after it about benign influence stay. Two typos
+  fixed: "ominpotent" and a stray "a" ("vote for a this or that politician").</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Why I'd stopped using Emulate</strong>: the Nibbāna batch (n1) fixed its stretches in place instead, on the idea that
+  Emulate would lose the links and claims of short, citation-heavy stretches. That broke the shared rule (Emulate first on a
+  published article's flagged paragraphs) and did worse: four stretches read AI in three tries each until your rewrites.
+  Back on Emulate now, with your re-run trick (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md#what-joels-message-of-2026-10-23-1230-utc-taught-the-hypnosis-guide-and-nibbāna-lanes">lessons E234 to E237</a>).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Recheck B</strong> (<a href="https://www.pangram.com/feed/1db9825e-5fed-4528-aca5-9d4272b54f83">your result</a>): Mostly Human Written,
+  1.4% AI, two windows red: the hypnosis audit's questions (they stay, your answer 2c) and, Low, "You don't have to fix
+  this. I'm here now." in the inner child script ("Little one, you are not alone. ..."). That line is next for B, with
+  Emulate first; your appendix C held.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Pull request 224's conflict</strong> (the gate's lessons, written by this lane and the Inner Child lane at once) is
+  resolved, both kept: <a href="https://github.com/u-dont-existDOTcom/joel-articles/pull/224">pull request 224</a> can merge.</p>
+</div></li>
+</ul>
+<details><summary>Question 14 as it was asked</summary>
+
+- **14. The shortcut part's last paragraph and the return's first: will you write them in your own words?**
+  <a href="https://www.pangram.com/feed/47610d4b-fb69-4966-896f-317b029fc1af">Recheck A</a>, part 9, read AI, High, from "To turn this off, stop rehearsing it, take it out of any recordings
+  that you have, stop having it in any apps that are active, ..." to "If you've regressed or met parts, make sure you come
+  back to feeling complete in the here and now and acknowledge that your body belongs to you and is under control of the
+  adult mind." Through the API the two paragraphs read AI, High, in six versions (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261023/b472/API-CHECKS.md#b472_s2_base">the checks</a>): as
+  they are, reworded, in your register, and with their tidy closing lines taken out. The shortcut paragraph read AI on its
+  own too. Both come from your published guide's polished text, and no earlier draft of yours has them, so there is no
+  wording of yours to go back to. It's two paragraphs:
+  1. Retiring the shortcut: stop practicing it, take it out of your recordings and apps, and go back to your usual
+     induction; decide that while you're awake; saying it's gone doesn't make it vanish at once; if it keeps pulling you in
+     or leaves you disoriented, get qualified help; you can keep it, but only to start a session you choose later; today's
+     trance ends when you come back.
+  2. On the way out, undo whatever you did on the way in: floated, come back to your chosen weight; shrank, your normal
+     size; went younger or met parts, come back whole, here and now, in a body that's yours, with your adult judgment;
+     went somewhere, come back the same way; bring back only what you chose.
+
+  Options:
+    - A. You write them in your own words, in any order.
+    - B. I try a seventh way first: the retiring steps folded into the paragraph before them ("Also, be sure that this is
+    working for you ..."), which reads Human, so they no longer stand next to the return.
+    - C. They stay as they are, red.
+
+  My recommendation: A. Your own words have passed every time (Appendix C's opening, after six versions of mine), and
+  mine have now failed six times here. B moves your safety steps around without fixing what reads AI in them. My default
+  until you answer: they stay as they are, and recheck A waits for your answer, so that one check reads everything.
+
+</details>
+
+</section>
+<section class="next"><h2><span class="dot next"></span>Your answers of 2026-10-23 01:10 UTC, and what I did</h2>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><strong>Recheck A</strong> (<a href="https://www.pangram.com/feed/47610d4b-fb69-4966-896f-317b029fc1af">your result</a>): <strong>Mostly Human Written</strong>, 1.4% AI, 10 of its 100 windows, and its text was
+  exactly the text I pasted. The induction section from bf reads Human in place, all but its last paragraph. Three
+  short stretches read AI:<ul>
+<li>Part 7, at its end: De-hypnosis's run of questions, "By a screen? By a specific ad? ... By repetition?" (Low, one
+Medium). They're now your kind of bracketed list, "(a screen, a specific ad, a politician, ..., repetition, etc.)",
+which read Human through the API.</li>
+<li>Part 9: the seam above, now question 14.</li>
+<li>Part 9: "Get up only when you feel steady. Make sure you're truly oriented and alert. Don't just assume it because
+you've done the count." (Low). It's now "Move around a bit, and don't get up until you feel steady. Make sure you're
+truly oriented and alert (the count is supposed to bring you back, but it doesn't always do the whole job)", which
+read Human through the API.</li>
+</ul>
+</div></li>
+</ul>
+<p>The two fixes read Human on their own pairs, but so did the old wording, so only the next recheck A can show they hold
+  in place. A reader checked both against your published guide (nothing lost or moved). Every batch 470g and 471g
+  paragraph in this part read Human, as forecast (17 of 17).</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>13: your own Appendix C.</strong> I took your five paragraphs as your whole Appendix C, its opening and the rest, and
+  they're in as you typed them, with "accomodate" spelled "accommodate" (your "etc)" stays, as you write it elsewhere in
+  the guide). If you meant only the first two, tell me and my middle goes back. One thing your new opening no longer
+  says is that your body's signal doesn't prove anything ("without assuming what it proves"); I think your list of
+  warning signs right after it covers that, so I left it. What your version did that mine didn't is now a lesson for
+  every lane (the gate's E223), and the bracketed list above is its first use.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The duplicate:</strong> yes, the second screening post repeated Appendix C's middle and end in both new openings'
+  samples, on purpose, so that each opening was read with the same text after it. From now on, samples that share text
+  go in separate API checks (E224).</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your answers of 2026-10-22 21:41 UTC, and what I did</h2>
+<ul class="items">
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>12 a, A: forced adulthood.</strong> "When the adult role is not available yet" now says some people "may go blank, access an
+  inherited inner critic, or feel like a child part who may be playing at being an adult (what I call forced adulthood)".</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>12 b, A.</strong> No umbrella word.</p>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>12 c: three roles, one inner adult.</strong> Appendix B's step keeps the three adults, with your clarification right after it:
+  "Put 3 good adults in with the person (Nurturer to warm, Protector to make it safe, and Guide to point a direction). In
+  real life they’re all part of the one inner adult, so we can imagine them splitting apart if need be and coming together
+  as well." ("we could also imagine" became "we can imagine", the same offer.) The invocation's "inner adult(s)" and
+  Appendix K's "three-adult arrangement" stay as they are.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p>How they were checked: a reader went through both changes against your answer, their meaning and how they read in
+  place (both fine); the step-or-break reader read both; and a check against your whole published guide found two places
+  in these paragraphs that earlier rewrites had moved away from what you published:</p>
+<ul>
+<li>"Telling them to just access their adult is like telling them to just be able to fly" made the adult out of reach for
+good, where you'd published "assumes the capacity they are trying to build". It's now "like telling a baby bird to
+just fly".</li>
+<li>The step had lost each adult's job ("Nurturer warms, Protector makes it safe, Leader points a direction"); they're
+back in its brackets.
+  Both fixes were read again in place and passed. The same check asked about two more things, and both stay: "forced
+  adulthood" is your term (it had no source in the published guide, which is why it asked), and "an inherited inner
+  critic" is the script acting as a critic, as I said under 10.</li>
+</ul>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>Your screening result</strong> (<a href="https://www.pangram.com/feed/e836ef9c-c964-4012-a5af-994ef88658eb">the result</a>, Mostly Human Written, 8.6% AI):</p>
+<ul>
+<li>The induction section: two of the four samples read Human in every window, bd and bf. I took bf, because it was made
+from the installed section with every point in and your 11 b, while bd was made from the published text and
+invented a source ("shamelessly stolen from the Gerson hypnosis course"). The other two, bc and be, read Mixed.</li>
+<li>Appendix C: neither sample read Human. bg read Human from its list of tricks to the good guide, and AI in its opening
+(when to use the checklist, the statement to say, the four tests) and its last sentence; bh read AI nearly throughout.
+So the second screening post tried two new openings with bg's middle, and Appendix C as it stands (question 13 has
+what it found).</li>
+</ul>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>The induction section from bf.</strong> A reader compared bf with your published section point by point: of its 251
+  points bf kept 169, changed 52 and lost 30, and it added 10 claims. This time only what changes what a reader does or believes goes
+  back, each as the smallest edit inside bf's own sentence, since ba's restorations in plain words had read AI. So 31
+  fixes, among them your 11 b word for word, "you can also just open your eyes and be done", the count's "Leave a little
+  space", "something is listening" for "someone", the shortcut's cue made unusual and paired with hypnosis, and the "Nymja"
+  to-do note turned back into a pointer to Nimja's sleep playlist. Its three links are back, and your published headings.
+  The other 70 findings are let stand, each with a reason (wording, an example, a small word, a point carried elsewhere).
+  A separate reader then checked every changed paragraph in place and audited all 70 let stands: 27 of the 28 paragraphs
+  fine, and no let stand it disagreed with. Its one catch was that "overwhelmed by chemicals" is narrower than your published "intoxicated", and
+  that's your own 11 b wording, so it stays. A cold reader of the whole section found three unclear spots, now fixed in
+  bf's own words: "The narrator can't add stuff just because you don't say anything", "This is for when you're already
+  open ...", and "today's trance will be over when you come out of it". A check against your whole published
+  guide then found three places where bf had moved away from it, and each is back in its own sentence: the
+  already-open practice had become a way to go deeper ("so that you can deepen it" is out, for your "I do not need to
+  intensify it"); the preview before you begin had become optional ("if you can" is out); and "just open your eyes and
+  be done" said an early stop needs no return, where your guide says "Use Come all the way back, even when you ended
+  early", so it's now "You can also just open your eyes and stop, and then come all the way back anyway". Your published
+  "You can simply open your eyes and finish" pulls the same way as bf did, so tell me if you meant opening your eyes to
+  be enough there.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Nibbāna:</strong> your editor HTML is in, and rebuilt the way the check reads it, it is exactly the text Pangram read
+  (same SHA-256), so each of the 22 red windows is a known stretch of it. The article is next after this guide.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The pull request's conflict</strong> (another lane's merge had landed first) is fixed; you merged it at 22:16 UTC.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your answers of 2026-10-22 18:37 UTC, and what I did</h2>
+<ul class="items">
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>9: a childhood protector part.</strong> The guards now have your name where the guide first uses the word, where it
+  explains them, and where it puts anxiety or a negative state down to one, with your reason in your words:
+  1. The opening's first "guard": "guard mind (childhood protector parts, the protective reactions learned as a child)".
+  2. "Working with protectors" is now "Working with childhood protector parts", and its paragraph says "... what is often
+     a very charming guard, a childhood protector part. It's what protects you when your consciously installed parental
+     Protector isn't functioning, the same as when you were a child." The line to say a little later is "(To the guard, the
+     childhood protector part: “I notice you ...”)", so it can't be read as said to the inherited parent script just before
+     it, and the next two are "the protector part".
+  3. "You get anxious": "Tell your Little parts and childhood protector parts that you're there ...".
+  4. The synchronicity cue (question 9 itself): "I check if it is a message from my Inner Child or from a childhood
+     protector part, or if I just need to grieve."
+  5. Appendix D opens: "Remember that often the anxiety comes from a childhood protector part of you. It's what protects
+     you when your consciously installed parental Protector isn't functioning, the same as in childhood. It's trying to
+     help, but it believes you are in danger, ..."
+  6. Appendix G: "it could be a childhood protector part".</p>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>10: the Inner Child article's names.</strong> Your table of 13:22 UTC, the core names of 14:26 and your nutshell of 16:12,
+  as the Inner Child lane's note listed them:
+  1. The h1 is "The inner child, the guards, and the inner adult's three jobs" (it said "the three inner adults").
+  2. Where the three are first named: "your loving Nurturer, your safe Adult Protector (hereafter just the Protector) and
+     your wise Guide", your words from the Inner Child article's opening, so each name hints at its job where it's first
+     read.
+  3. The third job is the Guide wherever the guide names it: "The Leader, Guide, or Guru" is "The Guide", and Leader and
+     Guru stay among the names a reader can give it ("Call them whatever you want, Leader, Guru, Wise One ...").
+  4. One name for the inherited parent: "inherited parent script", explained once where the guide introduces it ("the set
+     of rules and ways of treating yourself that you internalized as a child, mostly based on how your parent(s) treated
+     you, and it doesn't always sound like a voice"), and the same name in "Your voice" and "It feels fake". The
+     "inherited inner critic" in "When the adult role is not available yet" stays; that's the script acting as a critic.
+  5. The note's other two points are question 12 a and b; 12 c came out of the review.</p>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>11 b</strong> is in as you picked it: "If you are overwhelmed by chemicals, acutely confused, or not able to keep yourself
+  safe, then get some immediate support instead of doing exploratory hypnosis." Two of the four new samples of the
+  induction section were made with it, and the other two get it in the meaning work.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p>How they were checked: a reader went through each change against your answer, its meaning, the names and its sense
+  between the paragraphs around it; a cold reader read the whole h1; a stance check read the changed paragraphs against
+  your whole published guide; the step-or-break reader read each changed paragraph. Round 1 found five things, and four
+  are fixed with the reader's own wording (the new name explained at its first read, an "it" that could be the child,
+  the line to say that could be said to the script, "a childhood protector part" that could describe the Inner Child);
+  the fifth is 12 c. The stance check found five places, in words of the installed versions rather than mine, where a
+  changed paragraph had drifted from your published guide, and each is back in a few words: reparenting doesn't wait
+  for the inner adult to be finished ("what you develop in yourself as you reparent your inner child", "that you build
+  up on purpose", your "three ways the present-day person reparents"); "no value for its resume" (your "no résumé value",
+  which had become "no value on its own"); the Protector can't "shut out all love" and the Nurturer can't "disregard
+  consequences" (they had become "loving relationships" and "consequences to others"); and in the synchronicity cue,
+  "as objectively and clearly as I can" (it had claimed you see "objectively and clearly"). The linter then caught three
+  of my rewordings adding tells the installed text didn't have, and they're said more plainly now. Each round's fixes
+  were read again in place, and every reader passed them.
+  Of the 23 changed paragraphs, 22 read Human in the last whole-guide check (21 of them high), and the 23rd is the
+  safety line in the induction section, which the screened sample replaces; their new reading comes with the next check.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your answers of 2026-10-21 17:56 UTC, and what I did</h2>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><strong>1, yes.</strong> The final merge goes into your editor HTML of 28 September.</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>2 c, Appendix C.</strong> The hypnosis-specific audit stays a list of seven questions. The general checklist before it is
+  prose now, in seven paragraphs (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261021/b469/HG32-section.md">the section as it stands</a>). Four rounds of
+  meaning checks kept every point: the fourteen signs, the statement to say with its four tests, and the good and bad
+  guide. The fixes along the way put back "without assuming what it proves" and "if it's real love, it'll survive my
+  boundaries", and let a voice inside you count among the influences. In the recheck it read AI as one window
+  (<a href="https://www.pangram.com/feed/558d14f6-625d-46aa-8495-adf9141cb3a4">part B</a>), as I'd forecast, so two new Emulate samples of it are in the screening post (under "For you to do").</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>3 a, the NLP patterns.</strong> The Human version is installed, and it read Human, high, in the recheck
+  (<a href="https://www.pangram.com/feed/558d14f6-625d-46aa-8495-adf9141cb3a4">part B</a>).</p>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>4 d, the return steps.</strong> The Human version is installed (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261021/b469/HG18-section.md">the section</a>), with
+  what it had lost put back in its own plain words. When a recording stops, "Once your eyes are open, press your feet or
+  hands into a surface as well." The count's first step feels the body's contact again ("feel your body again and what
+  it's resting on"), and its third is "hear the room, name where you are", as you wrote them. A reader caught two slips,
+  both fixed: "the five steps listed above" pointed at nothing above, and a quotation mark had no opening. "One honest
+  action" stays out, and the linter now fails it (your "sounds super ai"). In the recheck it read Human with three short
+  red windows (<a href="https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7">part A</a>): "If you've gone somewhere...", "Get up only when you feel steady" and "Make sure you're truly
+  oriented...".</p>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>4 d, the listening script</strong> (the sober induction and the rest of "Induction: gathering attention without
+  disappearing"): it read AI in the recheck, from the section's first paragraph to the shortcut, most windows marked
+  "humanized" (<a href="https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7">part A</a>). I had chosen its sample by meaning alone, so this time four new samples go through the
+  screening post first. The version that read AI
+  (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261018/rf-zg/HG17-section.md">the section as it stands</a>) is the best of three new Emulate
+  versions of the whole section, with the 30 points it had lost put back in its own plain words ("What am I noticing
+  now?", the count's "Five.", "keep safety and exit instructions plain", the three links, and the rest) and its 14
+  inventions taken out (your dad "uses" the mudra when he drives; "I always announce" fractionation). Then three rounds
+  of reviews: a point-by-point check against your published section, a cold read, the step-or-break read, and a check
+  against the whole guide. They found five places that shifted a position (what you leave alone had become optional,
+  "communion with things", the adult self tied to an adult body, help for any leftover response instead of a lasting
+  one, drills before any other use), and "the Adult" with a capital twice where you wrote "the adult"; all are fixed.
+  One thing the check found is in your published text itself: question 11.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>5: there was no question 5 left.</strong> Your message of 22:01 had settled it (how to check the guide in 4.1: through
+  Substack, free), so it moved to the decided list. The numbers stay as they were so your earlier answers still match.</p>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>6 b, the repeats.</strong> After the 4.1 work, I'll bring them to you one at a time. Each will show both passages with the
+  paragraphs around them, how far apart they are, what each place is doing there, and three options: keep both, cut one,
+  or merge them into the place that says it best, with my pick. The lists I have so far, for reference:
+  <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261020/b467/REPEATS.md">part A</a> (16) and <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261020/b467/part2/REPEATS.md">part B</a> (14).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>7 b.</strong> Substack checks go past two now, each with its prediction and what its result decides; the ledger enforces
+  it.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>8 a.</strong> Your edit is installed as you typed it (<a href="https://www.pangram.com/history/18cfa70c-5f9e-4828-a9e7-68829d774e13">your check</a>,
+  Human). What I learned from it is in the <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md">shared rules</a> for every lane: say a saying as
+  people say it ("a human being and a human doing"), say what's lost instead of a stock phrase ("losing yourself"), a
+  missing comma isn't a human tell (I had listed "by for example" as one), and "one honest action" is AI.</p>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>The conflation you asked me to check for.</strong> <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261021/CONFLATION-SWEEP.md">A reader went through the whole guide</a>
+  with its map and your fix as the example. The stance check found one more. Of the seven, four came in with my plainer
+  rewrites, and three were in the published text. Six are fixed, each with a review of the fixed paragraph in its
+  context (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261021/b469/REWRITE-r2.md">batch 469g's rewrite</a>); the seventh is question 9.
+  1. "Working with protectors": the line to say right after the inherited parent's paragraph had no addressee, so it
+     read as said to that voice. Now "(To the protector: “I notice you and what you are trying to do. ...”)".
+  2. "Let the next response guide you": right after "“protector” parts", "bring in a “nurturer”, “protector”, “leader”,
+     etc" is now "bring in your “Nurturer”, “Protector” or “Leader”". And "use them to get whatever function you need
+     that you aren't able to do on your own" is now "use the one whose job you need, and if you can't do it yet, borrow
+     it", with the Leader back to "the life you want", as published.
+  3. "It feels fake": "an inner voice of a parent" is now "the voice of your inherited inner parent", and "a more
+     believable 'grown up' voice" is now "... voice of your own" (published: "the new adult voice").
+  4. Appendix G: "it could be a Protector" is now "it could be a protector part".
+  5. Appendix H: "if you feel sadness or fear or a need to protect yourself from it, call upon your Nurturer" sent a
+     Protector's job to the Nurturer. It's back to your published sign of vulnerability: "or like you're trying to
+     protect something".
+  6. "You get anxious": "your Little parts and Protector parts" is now "... protector parts" (the guards that "scream at
+     you").</p>
+</div></li>
+</ul>
+<p>All six read Human, high, in the recheck (<a href="https://www.pangram.com/feed/c8001eb5-84a6-41dc-a2c0-0f4733dc3fc7">part A</a>, <a href="https://www.pangram.com/feed/558d14f6-625d-46aa-8495-adf9141cb3a4">part B</a>). The rule,
+  a tool for the sweep, and a note to paste into the Inner Child chat are below; there's no channel from this chat to
+  that one.</p>
+</section>
+<section class="done"><h2><span class="dot done"></span>Decided earlier, for you to undo if you want</h2>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The first 4.1 fixes</strong> (six sentences in four sections, 467g and 468g). Each was a red sentence in the 4.1 check, and
+  each read Human alone. "Why doing it myself" and Appendix D also read Human whole with their fixes. <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261020/EDITS41.json">The list of 4.1 edits</a> has every
+  one with its checks, and <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261020/apply_edits41.py">its script</a> puts them back after any rebuild:</p>
+<ul>
+<li>"Why doing it myself worked better for me": "But doing it myself has one advantage nobody outside can copy:
+immediate dialogue with my own system." is cut. The sentence before it says the same: a hypnotist can't get that
+feedback because they aren't IN your mind
+(<a href="https://www.pangram.com/history/add7ee33-578f-4e04-80a5-2b64858ebc0e">check</a>).</li>
+<li>Same section: "Ordinary interaction dissolved the state, but for a while it showed me a possibility my mind and heart
+may permit when the desire is sincere." is now "Normal interaction with people made it wear off, but for a while it
+showed me that my mind and heart may allow this when the desire is sincere."
+(<a href="https://www.pangram.com/history/3f7838aa-37a9-4eb5-b2b7-6733a7e2940b">check</a>; the section whole,
+<a href="https://www.pangram.com/history/f2fa8fa3-2e64-4f8b-8e4c-9a102ceb5c32">check</a>).</li>
+<li>"Your voice": "your inner parent tells your inner child" became "your inherited parent ..."
+(<a href="https://www.pangram.com/history/8e342f67-3726-4e97-86b5-87d941abbc5b">check</a>); your own edit of 17:56 replaced
+that sentence ("your inherited inner parent ... The more consciously sculpted adult in you can answer").</li>
+<li>Appendix D: "Inhale small amounts through your nose, exhale quietly through it, and pause only if comfortable." is now
+"Breathe in small amounts through your nose and let it out quietly, through your nose too. Only pause if that's
+comfortable." (<a href="https://www.pangram.com/history/518ba839-31c3-4938-9b09-93f2a42874c9">check</a>; the appendix whole,
+<a href="https://www.pangram.com/history/25912495-df6a-4a87-9f71-07b290424bbd">check</a>).</li>
+<li>Appendix F: "We simply remember that it can all be true: the harm happened, the boundary still matters, the person is
+still accountable, and forgiveness may come later on its own." is now "We just remember that it can all be true at
+once. They really did hurt us and they still have to answer for it, and our boundary with them still matters, but one
+day we may find that we have forgiven them."
+(<a href="https://www.pangram.com/history/637e6fb4-3a47-4fe6-899f-b5ff0923e7f3">check</a>).</li>
+<li>Appendix F: "Let the remorse register the harm, ... without making yourself a permanent criminal" is now "Let
+yourself feel the remorse and take in the harm, or how it went against your values, and stop short of making
+yourself a permanent criminal", and "without taking responsibility for what wasn't yours" is now "but don't take
+responsibility for what wasn't yours" (<a href="https://www.pangram.com/history/fb5462fd-54ca-4993-a909-0072386f60bb">check</a>).</li>
+</ul>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Appendix F's quoted promise to the inner child stays as it is</strong>: "You don't have to forgive before you're ready. I
+  won't use spirituality to silence your pain. And I won't build our whole life around this wound forever." Its first two
+  sentences read AI, low, in the appendix alone, and the whole quote did with its promises joined
+  (<a href="https://www.pangram.com/history/2b0c9b19-25e2-4855-a867-42c9992b575b">check</a>). It read light green in the whole
+  guide, so it stays until the recheck shows it in context. Every cold reader also asked who is speaking. Their best
+  reading, your adult speaking to the hurt part, is the meant one. A short lead-in such as "Your adult can tell the inner
+  child:" would answer that, if you want one.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your table-of-contents note</strong> (was question 3) read Human in 454g with the rest of "How to use" and the table of
+  contents (<a href="https://www.pangram.com/history/94dc9298-fb41-497c-a71a-8666a6c0df7f">check</a>), as you wrote it: installed.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"Why learn self-hypnosis", the nine forces.</strong> Four Emulate versions dropped your list (advertising, fear, craving,
+  screens, tribe, resentment, authority, loneliness, repetition) and kept the point that these forces already train the
+  mind; my version with the list read AI alone (453g). The version without it is installed
+  (<a href="https://www.pangram.com/history/98448ce1-bbdc-4b1d-a0d4-f22df8e93ec2">check</a>). Say if the list has to come back.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"You want the hidden truth immediately"</strong> and the divine-love question in the troubleshooting list are as you
+  wrote them; Emulate's versions bent them.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>"Altered states" (Appendix G)</strong> is now one new Emulate run of the whole section, from your published text, with
+  10 meaning fixes (the substance lines, the "don't use self-hypnosis to" list and "recover memories", sleep and everyday
+  responsibilities, "remember love", the frightening image, the simpler question): 100% Human whole and in every
+  paragraph (<a href="https://www.pangram.com/history/6e9604e0-5f3d-4b48-b781-078f0be25fb5">check</a>). Its "let stand" list (18
+  points, among them "deepen listening" left out of the purposes) is in <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261018/rf-zd/HG36.triage.json">its triage</a>. Your three
+  closing paragraphs, which read AI alone, are no longer in the article as published.</p>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>The triage's "let stand" lists.</strong> In each section Emulate rewrote, I fixed only what changes what a reader would do or
+  believe (cautions, script steps, invented facts, claims made stronger or weaker, lost points, repeats) and let the rest
+  stand: wording, tone, an aside in your voice, a shortened list. Each section's list is in its triage file
+  ("let_stand", with the reason for each), listed in <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/STATUS.md">the lane's status page</a>.</p>
+</div></li>
+</ul>
+</section>
+<section class="todo"><h2><span class="dot todo"></span>For you to do</h2>
+<ul class="items">
+<li><span class="dot todo" role="img" aria-label="For you to do"></span><div><p>Merge <a href="https://github.com/u-dont-existDOTcom/joel-articles/pull/247">pull request 247</a> when you've looked: the review page, its tool and tests, the reread's fixed brief,
+  and the records. Your guide's text doesn't change in it.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p>Done: recheck B (your result of 20:35 UTC on 23 October), recheck A4, both
+  screening posts, and your Nibbāna article's rechecks (on its page).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p>Your temporary drafts: recheck A and B are "TEMP recheck A (hypnosis guide) - do not publish" and "TEMP recheck B
+  (hypnosis guide appendices) - do not publish", and the screening post is the third. I reuse them for each recheck, so
+  nothing new piles up. Deleting them is yours, once the guide is done.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Where it stands</h2>
+<p><span class="dot done" role="img" aria-label="Done or decided"></span>All 40 of the guide's sections are humanized, and your answers 1 to 14 are in. <span class="dot done" role="img" aria-label="Done or decided"></span>The guide reads Human outside the one
+audit window you kept (recheck B, 23 October). <span class="dot next" role="img" aria-label="Next or in progress"></span>The clarity check and the inner child alignment are on the review page,
+question 19, its last step before the copy helper for your post: what you approve goes in, each change checked in Pangram
+where it sits, then one recheck of the whole guide. <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/STATUS.md">The lane's status page</a> has every
+check's link.</p></section>
+</main>

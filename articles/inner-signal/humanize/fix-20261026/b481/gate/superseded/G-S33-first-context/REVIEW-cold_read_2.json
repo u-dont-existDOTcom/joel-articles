@@ -1,0 +1,21 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "5768b77c01d021ad346df91aad2c5bb2f8adc5786d1bedead681513908db1193",
+  "context_sha256": "4830bf5a361d3189df6cd1029ae8d24db485d9f8a94a9c26593ddee88d85fd50",
+  "source_sha256": "529d7a8c78f0609dec4b068990688cc1d4468573c0f96a1a4b44a0e90a2b356f",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+    "context_id": "b481-gate-cold_read_2-subagent-h",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Judged the draft 'Here is a little script you could use:' in its context (heading 'Anxiety script', then this line as a one-line paragraph, then the first-person script) against SOURCE 'A script you could use for anxiety is:' and the_change (Emulate's line, the heading says it is for anxiety). Meaning: the offer ('a script you could use') is kept; 'for anxiety' is not repeated, but the heading directly above says 'Anxiety script', so nothing is lost, and the old line's double mention of anxiety goes. 'little' adds tone, not a fact; it is his own idiom ('that little hidden menu' in the S12 line, 'little one' in this script). 'Here is' uncontracted does not sit oddly: the same script uses uncontracted forms ('If there is something we need to do'). The line has no apostrophes, typos or spacing slips. Read in order (heading, lead-in, script) I felt no seam, no different writer and no tidy summary; the lead-in is what tells the reader the first-person block is theirs to use, which is the job the approved working line did. Tell rows: T19 is PRESENT, because the line's only job is to announce the script that follows, and T11 is UNCERTAIN (generic bridge wording that could introduce any script). Both are justified here: it is a one-line label introducing a real quoted block with a colon (so not T25), it is one lead-in swapped for the one lead-in the approved line already was (no announcement added, and a shorter, less staged line than before), and a quoted first-person script needs some lead-in or it reads as Joel's own self-talk rather than something offered to the reader. I disagree with the writer's ledger saying T19 'does not announce what comes next' and T11 'not a bridge', but the verdict does not turn on it. T26: 'script' echoes the heading (it did in the source too) and 'little' echoes 'little one'; both are ordinary words doing no harm, so ABSENT. All other rows ABSENT: no first-person stake (T01), no cadence or list (T02, T21), no negative reveal or thesis (T16, T17), no coach reassurance beyond the source's own 'you could use' (T22), no moved or cut material beyond the heading-carried 'for anxiety' (T14), no invented fact or claim (C03, C04), referents clear (C02), naming untouched (C01). Linter: 'B7 short landing at paragraph end' accepted, since this is a lead-in ending on a colon with the script following, not a closer; 'D9 follows the source order' accepted, since a one-line label has no organization in which to notice anything and T13/T09 do not apply to it; 'E36/E41 heavy second person' accepted, since 12.5 per 100 is one 'you' in an eight-word line, the same 'you' the source line had, in a guide that addresses the reader as 'you' throughout. Files read: GATE-INPUTS.json, the tell inventory, and this folder's DRAFT, CONTEXT, SOURCE and ADMISSION.",
+  "resolved_tell_ids": ["T19", "T11"],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order",
+    "E36/E41 heavy second person"
+  ]
+}

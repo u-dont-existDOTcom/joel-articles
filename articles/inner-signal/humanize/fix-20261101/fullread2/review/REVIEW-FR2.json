@@ -1,0 +1,157 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "inner-signal-hypnosis-guide-cards-20261101",
+ "title": "Hypnosis Guide Cards, 1 November",
+ "intro": [
+  "Your hypnosis guide as it is in Git, after my second full read of it (every paragraph, beside your published version) and the read for contradictions you asked for.",
+  "The read found 216 things. The 205 in our words (Emulate's or mine) are fixed in the guide already, and so are the eight contradictions in our words; the two-hand practice is taught once now, as you asked. What it found in your own words is here: <b>2 lines said twice</b>, <b>one suggestion</b> for your fingers script, and <b>one contradiction</b>. Approve, Reject or Revise.",
+  "In your own words, only punctuation and a few slips changed without a card (two typos, an \"ie.\" that means \"for example\", and a label in front of your words that wasn't yours), as you said for commas. The Markdown copy of this page lists each one, before and after.",
+  "Your answers save as you click. When you're done, click <b>Copy my answers</b> (or <b>Save them as a file</b>) and send them to me."
+ ],
+ "git_file": "articles/inner-signal/humanize/fix-20261101/fullread2/review/REVIEW-FR2.html",
+ "article": {
+  "file": "articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "c44cffb21f9fe338b1ec8213c9a981110758777e74e016895d6897412fa7ca27"
+ },
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261101/fullread2/review/REVIEW-FR2.md"
+ },
+ "built": "2026-11-01 20:25 UTC",
+ "types": {
+  "repeat": {
+   "label": "Said twice",
+   "about": "Your words, in the guide twice. The card keeps them in one place. Approve, Reject or Revise."
+  },
+  "yours": {
+   "label": "Your own words",
+   "about": "A suggestion for a sentence you wrote. Approve uses the suggestion; Reject keeps your words; Revise lets you write your own."
+  },
+  "contradiction": {
+   "label": "Contradiction",
+   "about": "Your words here say something another part of the guide takes back. Approve, Reject or Revise."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "K9",
+   "type": "contradiction",
+   "title": "“If you are intoxicated and/or …”",
+   "where": "Before you begin, P3",
+   "spans": [
+    {
+     "block": 249,
+     "start": 215,
+     "end": 258
+    }
+   ],
+   "edits": [
+    {
+     "block": 249,
+     "before": "Put yourself in a place where you can safely do this, which is not: driving a big machine, swimming with the fishies, or otherwise needing to be alert and functionally responsible for yourself or others. If you are intoxicated and/or more confused than usual, or for whatever reason not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. (The part below called \"Already Trancey? Stabilize before dipping deeper.\" can be used to help orient you if you're already open, but don't use it to make yourself deeper if you're not stable.)",
+     "after": "Put yourself in a place where you can safely do this, which is not: driving a big machine, swimming with the fishies, or otherwise needing to be alert and functionally responsible for yourself or others. If you are intoxicated and more confused than usual, or for whatever reason not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. (The part below called \"Already Trancey? Stabilize before dipping deeper.\" can be used to help orient you if you're already open, but don't use it to make yourself deeper if you're not stable.)"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“intoxicated and/or more confused than usual” becomes “intoxicated and more confused than usual”.",
+   "why": "As it is, being intoxicated is by itself a reason to get support instead of doing exploratory hypnosis. Elsewhere the guide does self-hypnosis on loveyhuasca: your own sessions in Why doing it myself worked better for me, Already Trancey? (for when you’re already open, loveyhuasca first in its list), and Stabilize before you interpret (“Self-hypnosis can be powerful when you are in an altered state of consciousness (e.g. when you’re on loveyhuasca …”). With “and”, the stop is for being intoxicated and more confused than usual, and the rest of the sentence (“or for whatever reason not able to keep yourself safe”) still stops anyone a substance has made unsafe.",
+   "stays": "The rest of step 3 word for word, with its pointer to Already Trancey? for when you’re already open.",
+   "advice": "approve",
+   "advice_note": "I’d approve: step 3 then agrees with your own sessions and Appendix G, and it still stops anyone who isn’t safe.",
+   "found_by": "The read for contradictions (1 November)",
+   "deciding": "Approve uses “and”; Reject keeps “and/or”; Revise lets you write your own.",
+   "approve_label": "use this wording"
+  },
+  {
+   "id": "F1.6",
+   "type": "repeat",
+   "title": "“As my dad always said …”",
+   "where": "Before you begin, P6",
+   "spans": [
+    {
+     "block": 252,
+     "start": 277,
+     "end": 419
+    }
+   ],
+   "edits": [
+    {
+     "block": 252,
+     "before": "Let your response guide you as to what to do next regardless of what the script is expecting. Utilize: use what you have (a thought, sound, movement, or objection) to go to the next place, whatever it is. Learn how to notice what is there. If nothing changes, notice that too. As my dad always said, \"Always and in everything, expect the very best. But be prepared to take what you get. The best might come afterwards!\" For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain.",
+     "after": "Let your response guide you as to what to do next regardless of what the script is expecting. Utilize: use what you have (a thought, sound, movement, or objection) to go to the next place, whatever it is. Learn how to notice what is there. If nothing changes, notice that too. As my dad always said, \"Be prepared to take what you get. The best might come afterwards!\" For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "In step 6 of Before you begin, your dad’s line keeps the half this step is about, “Be prepared to take what you get. The best might come afterwards!” The whole line stays where you explain it, at the start of Affirmations Done Right.",
+   "why": "Your dad’s line is in the guide twice, word for word: it opens Affirmations Done Right (as you published it), and it is in your version of step 6 (30 October). In Affirmations Done Right it is the subject; here the step is about what to do when nothing changes, which is the line’s second half.",
+   "stays": "Affirmations Done Right as it is, and the rest of step 6 word for word.",
+   "advice": "approve",
+   "advice_note": "I’d approve: the line still comes back in step 6, where it helps, without the whole of it again.",
+   "found_by": "My second full read of the guide, beside your published version (1 November)",
+   "deciding": "Approve uses the shorter line in step 6; Reject keeps it in full in both places; Revise lets you write your own.",
+   "approve_label": "use this wording"
+  },
+  {
+   "id": "F7.5",
+   "type": "yours",
+   "title": "“… into a clear state of awareness”",
+   "where": "Make the hypnosis more active, P2",
+   "spans": [
+    {
+     "block": 283,
+     "start": 358,
+     "end": 409
+    }
+   ],
+   "edits": [
+    {
+     "block": 283,
+     "before": "“Starting with your eyes open, press your thumb to your forefinger. And as you press your fingers together gently and release, you begin to bring yourself into a place of clearer awareness… again you press your fingers together and release, bringing yourself into an even clearer state of awareness. And again as you press your fingers together and release, you bring yourself into a clear state of awareness. And now you stop pressing your fingers together, and in the first second after you stop pressing your fingers together deliberately, you can notice if there is any sensory echo of the pressing in your fingers, in your breathing, in your attention, or nowhere at all. Just notice, sit up straight and work from this level.”",
+     "after": "“Starting with your eyes open, press your thumb to your forefinger. And as you press your fingers together gently and release, you begin to bring yourself into a place of clearer awareness… again you press your fingers together and release, bringing yourself into an even clearer state of awareness. And again as you press your fingers together and release, you bring yourself into the clearest state of awareness yet. And now you stop pressing your fingers together, and in the first second after you stop pressing your fingers together deliberately, you can notice if there is any sensory echo of the pressing in your fingers, in your breathing, in your attention, or nowhere at all. Just notice, sit up straight and work from this level.”"
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "“you bring yourself into a clear state of awareness” becomes “you bring yourself into the clearest state of awareness yet”.",
+   "why": "The script steps up, from “a place of clearer awareness” to “an even clearer state of awareness”, and then back down to “a clear state of awareness”, on the press that should take it furthest. In your published version each press takes you further (“Again — clearer, not sleepier.”). The sentence is in your version of the script (30 October), so it’s yours to decide.",
+   "stays": "The rest of the script, word for word.",
+   "advice": "approve",
+   "advice_note": "I’d approve: it keeps your words and makes the last press the clearest, as your published script does.",
+   "found_by": "My second full read of the guide, beside your published version (1 November)",
+   "deciding": "Approve uses the new wording; Reject keeps yours; Revise lets you write your own.",
+   "approve_label": "use this wording"
+  },
+  {
+   "id": "F18.1",
+   "type": "repeat",
+   "title": "“That's enough for today …”",
+   "where": "7. Care workshop, P1",
+   "spans": [
+    {
+     "block": 755,
+     "start": 609,
+     "end": 702
+    }
+   ],
+   "edits": [
+    {
+     "block": 755,
+     "before": "Prepare the workshop (time, place, tools, boundaries, etc). Invite the signal/feeling/young part to come only as close as is welcome. Try to avoid any language that makes you feel you're not one person. Care for it as best you can, by asking what it wants and giving that if you can, or sensing into it and responding, or just being with it. Take breaks, get back in contact if that's ok, take more breaks, etc. Keep bringing in adult functions (or borrow someone else's function). Have the adult part of you run the show. The goal is to make it \"good as you\" rather than \"good as new\", not to erase history. Tell your little one, \"That's enough for today. We're going back to the life we're building.\" Close the workspace, reassure yourself that you are one whole person, that you're an adult now, and come back.",
+     "after": "Prepare the workshop (time, place, tools, boundaries, etc). Invite the signal/feeling/young part to come only as close as is welcome. Try to avoid any language that makes you feel you're not one person. Care for it as best you can, by asking what it wants and giving that if you can, or sensing into it and responding, or just being with it. Take breaks, get back in contact if that's ok, take more breaks, etc. Keep bringing in adult functions (or borrow someone else's function). Have the adult part of you run the show. The goal is to make it \"good as you\" rather than \"good as new\", not to erase history. Close the workspace, reassure yourself that you are one whole person, that you're an adult now, and come back."
+    }
+   ],
+   "inserts": [],
+   "moves": [],
+   "what": "Cuts “Tell your little one, \"That's enough for today. We're going back to the life we're building.\"” from the care workshop (Appendix J). The line stays at the end of Finish without forcing a revelation.",
+   "why": "Your line from your inner child guide is in the guide twice: at the end of Finish without forcing a revelation, where every session ends, and here in the care workshop. The workshop closes in its next sentence anyway (“Close the workspace, reassure yourself that you are one whole person, that you're an adult now, and come back.”).",
+   "stays": "The line in Finish without forcing a revelation, and the rest of the care workshop word for word.",
+   "advice": "approve",
+   "advice_note": "I’d approve: the line is said once, where every session ends, and the workshop still closes the same way.",
+   "found_by": "My second full read of the guide, beside your published version (1 November)",
+   "deciding": "Approve cuts it here; Reject keeps it in both places; Revise lets you write your own.",
+   "approve_label": "cut it"
+  }
+ ]
+}

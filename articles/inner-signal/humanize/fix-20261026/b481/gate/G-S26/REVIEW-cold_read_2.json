@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "8d7a08cc7d2c47e3cde1353eabd2501166fdb60bbc5a6c92ad82834dbac4ee8b",
+  "context_sha256": "a0eac06deaf34b4a1257c2b5d0649edee534cded23f1903609d7e86d66d2d292",
+  "source_sha256": "50171245d16b3c7635035277465123a9e1e011fc46573c30a084a8b438f99d00",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+    "context_id": "b481-gate-cold_read_2-subagent-e",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Read CONTEXT.txt whole first (the \"Capacity before content\" section, shared with S27), then DRAFT.txt, SOURCE.txt and the_change. The draft, \"What is one next thing I can do?\", occurs once, as the last request inside the quoted script (the quote closes after it and goes on \"etc.\"), and is exactly the sentence the_change names; it replaces \"Give me one next action!\". Meaning: the approved request asks the subconscious for one next action, after prepare, ground and support me. The draft asks the same thing in question form: one next thing the speaker can do. The only additions are the question mood and \"I can do\", which fits the section's capacity theme (a next step within capacity) and adds no fact or claim; the whole quote is addressed to the \"Wise Subconscious Mind\", so the question is still put to it, and the article already teaches asking it in questions (\"Can you tell me what I need to do to be safe, without actually telling me what it is?\", \"What can you tell me, that will make my conscious self 5% better...?\"). Seam: the three \"BEFORE\" requests are a parallel chain of \"X me\" imperatives with exclamation marks, and the draft turns the fourth into a plain question, a change of form and loudness. I weighed that as a possible seam and judge it a natural turn from asking the subconscious to prepare me to asking what I can do; it uses the uncontracted \"What is\" of the script's other lines (\"What is it you won't tell me?\", \"I am telling you\"), and I hear no different writer. It is plainer than the \"next action\" wording it replaces, a small loss of voice, not a tell. No summary, no hedge, nothing that completes a thought. Tell rows: none actually happening. Looked hardest at T22 (a generic coaching question, but it is a request that carries a job, in the script's own warm register, and the line it replaces was the same kind of line); T20 (it ends the quoted script, but as a plain request in the slot the old line held, not a polished closer, and the neighbouring paragraph endings do not echo it); T15 (the structure changes and the words get plainer, not rarer); T24 (the question is for the subconscious to answer and nothing in the text answers it); T01 and C03 (the \"I\" is the script's speaker, not the author's stake or a life fact); T29 (a new request, not a restatement). All other rows absent. Linter: B7 \"What is one next thing I can do?\" is the last request inside the quotation, in the slot the old short line held, a request to the subconscious and not a summing-up line; accepted. D9: a same-slot single-sentence swap cannot reorder anything, and T13 and T09 are not engaged by one request; accepted.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order"
+  ]
+}

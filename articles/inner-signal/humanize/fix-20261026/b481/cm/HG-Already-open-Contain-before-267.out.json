@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cm/HG-Already-open-Contain-before-267.txt",
+  "input_words": 89,
+  "input_sha256": "4110cf121cbe1f95a010eb18f83f5202e36219724c1bd821b9a37b5d5740551b",
+  "balance_before": 44943,
+  "started_utc": "2026-10-26T12:58:43Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:58:51Z",
+  "response": {
+    "id": "38ff3468-0722-4725-8c82-505c7e9d8c52",
+    "tool": "humanize",
+    "text": "Groung yourself if you need to - look around you, where are you? What date/day is it? Where are you in your body? Can you feel your feet/hands/spine/etc? Make contact between parts of your body (e.g. press your thumbs against the tips of your index fingers, gently but firmly enough to feel friction). Focus on this.\n\nIf you feel you need to, say something like \"I can only handle integrating so much, if there's more it can wait until another time\" or \"My body will be safe\" or \"Even though I'm connecting with my inner child, I'm still here as an adult\".",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 89
+    },
+    "elapsed": 7
+  },
+  "balance_after": 44676
+}

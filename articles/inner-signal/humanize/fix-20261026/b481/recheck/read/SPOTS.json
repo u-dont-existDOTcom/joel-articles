@@ -1,0 +1,272 @@
+[
+ {
+  "part": "A",
+  "name": "S11 (How to use this very large guide, P1)",
+  "text": "Also read some of the stuff in the daily and weekly sections, to make the practice your own.",
+  "chance_red": 0.05,
+  "chance_high": 0.5,
+  "read": "Human High",
+  "windows": [
+   "#0 Human High (0.999, 399 words)"
+  ]
+ },
+ {
+  "part": "A",
+  "name": "S12 (The table of contents is hiding on the left, P1)",
+  "text": "It’ll be really helpful for this guide as it’s a long one.",
+  "chance_red": 0.1,
+  "chance_high": 0.4,
+  "read": "Human High",
+  "windows": [
+   "#0 Human High (0.999, 399 words)"
+  ]
+ },
+ {
+  "part": "A",
+  "name": "S14 (Protecting Yourself from Hypnotists, P2)",
+  "text": "There are a lot of ways to influence people without engaging their conscious mind. Marketers and interface designers know this perfectly well. The Federal Trade Commission has a report on “dark patterns” - designs that trick or manipulate consumers.",
+  "chance_red": 0.08,
+  "chance_high": 0.5,
+  "read": "Human Medium",
+  "windows": [
+   "#6 Human High (0.997, 274 words)",
+   "#7 Human Medium (0.976, 24 words)"
+  ]
+ },
+ {
+  "part": "A",
+  "name": "S15 (Protecting Yourself from Hypnotists, P3)",
+  "text": "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent - can people have their minds influenced without the conscious agreement of their adult self?",
+  "chance_red": 0.08,
+  "chance_high": 0.4,
+  "read": "Human High",
+  "windows": [
+   "#8 Human High (0.998, 147 words)"
+  ]
+ },
+ {
+  "part": "A",
+  "name": "S16 (Forget the left-brain/right-brain cartoon, P4)",
+  "text": "So each can correct the other.",
+  "chance_red": 0.05,
+  "chance_high": 0.5,
+  "read": "Human High",
+  "windows": [
+   "#16 Human High (0.998, 1746 words)"
+  ]
+ },
+ {
+  "part": "A",
+  "name": "S17 (Forget the left-brain/right-brain cartoon, P5)",
+  "text": "It’s got to lead somewhere!",
+  "chance_red": 0.05,
+  "chance_high": 0.5,
+  "read": "Human High",
+  "windows": [
+   "#16 Human High (0.998, 1746 words)"
+  ]
+ },
+ {
+  "part": "A",
+  "name": "S18 (Why doing it myself worked better for me, P1)",
+  "text": "One reason might have been that I was sober when I did that, and didn’t feel that susceptible to hypnosis. But I think a bigger reason is trust and precision.",
+  "chance_red": 0.1,
+  "chance_high": 0.4,
+  "read": "Human High",
+  "windows": [
+   "#16 Human High (0.998, 1746 words)"
+  ]
+ },
+ {
+  "part": "A",
+  "name": "S19 (Why doing it myself worked better for me, P2)",
+  "text": "I can tell when my body is saying no, before my conscious mind can twist it around to a yes.",
+  "chance_red": 0.08,
+  "chance_high": 0.45,
+  "read": "Human High",
+  "windows": [
+   "#16 Human High (0.998, 1746 words)"
+  ]
+ },
+ {
+  "part": "A",
+  "name": "S20 (When “your voice” is everybody else’s voice, P11)",
+  "text": "You want to be able to let the quiet little preferences that you have bubble up to the surface and know for sure that you’re not going by what your social group would want you to do.",
+  "chance_red": 0.1,
+  "chance_high": 0.35,
+  "read": "Human High",
+  "windows": [
+   "#55 Human High (0.999, 1624 words)"
+  ]
+ },
+ {
+  "part": "A",
+  "name": "S21 (Please don’t put six metaphors in one trance, P2)",
+  "text": "When you’re done, make sure to come back the other way.",
+  "chance_red": 0.05,
+  "chance_high": 0.5,
+  "read": "Human High",
+  "windows": [
+   "#61 Human High (0.997, 326 words)"
+  ]
+ },
+ {
+  "part": "A",
+  "name": "S22 (Please don’t put six metaphors in one trance, P3)",
+  "text": "And then read it out loud as you write it. Long, elegant sentences are NOT going to help you when you’re trying to induce. It’s all soup to you at that point.",
+  "chance_red": 0.08,
+  "chance_high": 0.45,
+  "read": "Human High",
+  "windows": [
+   "#61 Human High (0.997, 326 words)"
+  ]
+ },
+ {
+  "part": "A",
+  "name": "S23 (Before you begin, P2)",
+  "text": "Think about what you want to do. Are there things you don’t want to do today?",
+  "chance_red": 0.05,
+  "chance_high": 0.5,
+  "read": "Human High",
+  "windows": [
+   "#61 Human High (0.997, 326 words)"
+  ]
+ },
+ {
+  "part": "A",
+  "name": "S24 (Before you begin, P3)",
+  "text": "Make sure you’re in a safe place to do this.",
+  "chance_red": 0.05,
+  "chance_high": 0.5,
+  "read": "Human High",
+  "windows": [
+   "#61 Human High (0.997, 326 words)"
+  ]
+ },
+ {
+  "part": "A",
+  "name": "S25 (Before you begin, P4)",
+  "text": "Decide to do it. How will you coax yourself to do this? Make it spacious? Make it warm and held? etc. Preview what you are going to do. Will you close your eyes? Will you come out and go back in again? What will you do at the end?",
+  "chance_red": 0.1,
+  "chance_high": 0.25,
+  "read": "Human Medium",
+  "windows": [
+   "#62 Human Medium (0.987, 4 words)",
+   "#63 Human High (0.994, 8 words)",
+   "#64 Human Medium (0.978, 9 words)",
+   "#65 Human High (0.992, 7 words)",
+   "#66 Human Medium (0.977, 5 words)",
+   "#67 Human High (0.997, 215 words)"
+  ]
+ },
+ {
+  "part": "A",
+  "name": "S26 (Capacity before content, P8)",
+  "text": "What is one next thing I can do?",
+  "chance_red": 0.08,
+  "chance_high": 0.3,
+  "read": "Human High",
+  "windows": [
+   "#109 Human High (0.999, 842 words)"
+  ]
+ },
+ {
+  "part": "A",
+  "name": "S27 (Capacity before content, P9)",
+  "text": "especially if it has to do with trauma or memories. The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc. So take it as an image and get some outside help!",
+  "chance_red": 0.05,
+  "chance_high": 0.5,
+  "read": "Human High",
+  "windows": [
+   "#109 Human High (0.999, 842 words)"
+  ]
+ },
+ {
+  "part": "A",
+  "name": "S28 (Nothing happens, P1)",
+  "text": "Could you try this on a smaller scale?",
+  "chance_red": 0.1,
+  "chance_high": 0.3,
+  "read": "Human Medium",
+  "windows": [
+   "#110 Human Medium (0.961, 8 words)"
+  ]
+ },
+ {
+  "part": "A",
+  "name": "S29 (Nothing happens, P2)",
+  "text": "Maybe ask to be shown just one body sensation, or just one word. Or even just whether today is for listening or resting.",
+  "chance_red": 0.12,
+  "chance_high": 0.35,
+  "read": "Human Low",
+  "windows": [
+   "#111 Human Low (0.813, 23 words)"
+  ]
+ },
+ {
+  "part": "A",
+  "name": "S30 (It feels fake, P1)",
+  "text": "Have you got any sense of what it is that’s making it feel fake?",
+  "chance_red": 0.12,
+  "chance_high": 0.35,
+  "read": "Human High",
+  "windows": [
+   "#112 Human High (0.998, 149 words)"
+  ]
+ },
+ {
+  "part": "A",
+  "name": "S31 (It feels fake, P2)",
+  "text": "You may have fooled yourself in the past, and that part remembers.",
+  "chance_red": 0.12,
+  "chance_high": 0.35,
+  "read": "Human Medium",
+  "windows": [
+   "#113 Human Medium (0.989, 12 words)"
+  ]
+ },
+ {
+  "part": "B",
+  "name": "S32 (Pattern 6: Ethical double binds, P2)",
+  "text": "An Ethical Double Bind Question gives someone a choice between two genuinely safe things to do.",
+  "chance_red": 0.1,
+  "chance_high": 0.4,
+  "read": "Human High",
+  "windows": [
+   "#4 Human High (0.999, 329 words)"
+  ]
+ },
+ {
+  "part": "B",
+  "name": "S33 (Anxiety script, P1)",
+  "text": "Here is a little script you could use:",
+  "chance_red": 0.05,
+  "chance_high": 0.4,
+  "read": "Human High",
+  "windows": [
+   "#27 Human High (0.999, 619 words)"
+  ]
+ },
+ {
+  "part": "B",
+  "name": "S34 (Anxiety script, P2)",
+  "text": "Let’s see if I can find my body parts.",
+  "chance_red": 0.05,
+  "chance_high": 0.4,
+  "read": "Human High",
+  "windows": [
+   "#27 Human High (0.999, 619 words)"
+  ]
+ },
+ {
+  "part": "B",
+  "name": "S36 (Forgiveness without bypass, P5)",
+  "text": "What’s theirs and what’s mine?",
+  "chance_red": 0.05,
+  "chance_high": 0.35,
+  "read": "Human High",
+  "windows": [
+   "#31 Human High (0.997, 66 words)"
+  ]
+ }
+]

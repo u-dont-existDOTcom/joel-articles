@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cm/HG-When-your-voice-is-everybody-186.txt",
+  "input_words": 170,
+  "input_sha256": "98252c2c3428b4a2671bd1259b9de660ceb04f5830cea9bef9d447fff3633d50",
+  "balance_before": 47007,
+  "started_utc": "2026-10-26T12:58:00Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:58:11Z",
+  "response": {
+    "id": "3f0561e3-dc6e-4332-a2ee-9875eafc98f8",
+    "tool": "humanize",
+    "text": "One thing you might want to do is separate yourself from people or a group of people for a while. Sometimes you can go back to them later on, but on a different set of terms. Sometimes it has to be a long term separation because you’ve been losing yourself with a certain group of people for so long. As you start to differentiate yourself you’ll know which one it is. You want to be able to let the quiet little preferences that you have bubble up to the surface and know for sure that you’re not going by what your “social” group would want you to do.\n\nWhat’s the difference between a human being and a human doing? Well, if you don’t feel good enough as a human being, then you’re going to have to be good enough as a “human doing”. That means you have to be beautiful, or you have to be good at something, or you have to be smart, or you have to have a certain status, or you have to be spiritual or whatever. Some of these things may be gifts that you really have, but when you fail in those areas you feel like you don’t have your own inherent value.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 170
+    },
+    "elapsed": 10
+  },
+  "balance_after": 46497
+}

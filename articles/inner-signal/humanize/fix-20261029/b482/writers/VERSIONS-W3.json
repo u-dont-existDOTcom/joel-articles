@@ -1,0 +1,27 @@
+{
+ "T3": {
+  "v1": "Self-hypnosis puts me in immediate dialogue with the system itself, which is one advantage nobody outside my mind can duplicate.",
+  "v2": "When I hypnotize myself, though, my dialogue with the system itself is immediate, and that's an advantage nobody outside my own head can duplicate.",
+  "keeps": "Self-hypnosis has one advantage (v1 'which is one advantage', v2 'that's an advantage'); nobody outside can duplicate it (v1 'nobody outside my mind can duplicate', v2 'nobody outside my own head can duplicate'); that advantage is immediate dialogue with the system itself (v1 'puts me in immediate dialogue with the system itself', v2 'my dialogue with the system itself is immediate'); both end on the advantage, so the next sentence's 'that' still points to it; no colon reveal in either."
+ },
+ "T6": {
+  "v1": "(It's fine to borrow qualities like warmth or steadiness. Just don't change who you are.)",
+  "v2": "(If you want to borrow warmth or steadiness or some other quality, go ahead, but don't change who you are.)",
+  "keeps": "You may borrow qualities (v1 'It's fine to borrow', v2 'If you want to borrow ..., go ahead'); warmth and steadiness are examples of them (v1 'qualities like warmth or steadiness', v2 'warmth or steadiness or some other quality'); the limit, don't change who you are (v1 'Just don't change who you are', v2 'but don't change who you are'); both stay a parenthetical aside."
+ },
+ "T9": {
+  "v1": "With an embedded invitation, you tuck a small direction into a longer sentence, and you shouldn't be hiding a demand in it. The direction should invite a modest shift inside you.",
+  "v2": "An embedded invitation is when you put a little direction inside a bigger sentence. Don't sneak a demand in with it. The movement it invites in you should be modest.",
+  "keeps": "Names the embedded invitation and says a small direction goes inside a larger sentence (v1 'tuck a small direction into a longer sentence', v2 'put a little direction inside a bigger sentence'); it shouldn't hide a demand (v1 'you shouldn't be hiding a demand in it', v2 'Don't sneak a demand in with it'); it should invite a modest inner movement (v1 'The direction should invite a modest shift inside you', v2 'The movement it invites in you should be modest'); both end on what it invites, so the 'ie.' example follows that; no 'X places A inside B' shape and no 'X, not Y' pair."
+ },
+ "T12": {
+  "v1": "Instead, ask yourself questions like What else might be true? or What is this part trying to do for me?",
+  "v2": "So instead, ask yourself, What else might be true? or What is this part trying to do for me?",
+  "keeps": "Instead of the dishonest reframe (v1 'Instead,', v2 'So instead,'); the instruction to ask yourself (both 'ask yourself'); the two questions word for word, What else might be true? and What is this part trying to do for me?, joined by 'or' and ending on the second question so the Nurturer, Protector and Guide questions still continue the list (both); colon gone in both."
+ },
+ "T15": {
+  "v1": "You don’t have to fix it. I’m here now, and so is the adult, here to listen to you.” As you say it, be sure you’re actually talking to your inner child. Your little one is scared to death.",
+  "v2": "You don’t need to fix it. I’m here now. The adult is here right now to listen to you.” When you say this, really talk to your inner child, who’s scared to death.",
+  "keeps": "Script: you don't have to fix it (v1 'You don't have to fix it', v2 'You don't need to fix it'); I'm here now (both 'I'm here now'); the adult is here now to listen to you (v1 'and so is the adult, here to listen to you', v2 'The adult is here right now to listen to you'); closing quote mark kept after it in both; make sure you're actually talking to your inner child (v1 'As you say it, be sure you're actually talking to your inner child', v2 'When you say this, really talk to your inner child'); the inner child is scared to death (v1 'Your little one is scared to death', v2 'who's scared to death')."
+ }
+}

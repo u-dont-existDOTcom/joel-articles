@@ -1,0 +1,157 @@
+[
+ {
+  "block": 14,
+  "verdict": "verdict: FAIL",
+  "flags": [
+   "-- B4/E15 list or packed sentence (1)",
+   "-- D9 follows the source order (1)",
+   "-- E125 list of three: an AI pattern in general (Joel 2026-10-03: \"lists of 3 in general are an ai pattern\"; 2026-10-07: \"lists in general are overused by AI. try to avoid that unless it's really needed\"). If the meaning doesn't need all three, drop the one that matters least; if it does, split them into sentences, the way he fixed P1 (\"Maybe it just has something to say.\"), or give the items different shapes and end on a catch-all, the way he fixed Borrowed Adulthood P2 (\"Other jobs can go to friends or community, outsource to the tools or pros, whatever works.\"). Joel, 01:06: \"when there's no actual need for 3 items you can remove one of them\". A FAIL in my sentences since 2026-10-17 (E186: \"how is that not detected?\") (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: adrenergic (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: imidazoline (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: neuromodulator (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: phosphatidylcholine (1)"
+  ]
+ },
+ {
+  "block": 16,
+  "verdict": "verdict: FAIL",
+  "flags": [
+   "-- B4/E15 list or packed sentence (1)",
+   "-- D9 follows the source order (1)",
+   "-- E125 list of three: an AI pattern in general (Joel 2026-10-03: \"lists of 3 in general are an ai pattern\"; 2026-10-07: \"lists in general are overused by AI. try to avoid that unless it's really needed\"). If the meaning doesn't need all three, drop the one that matters least; if it does, split them into sentences, the way he fixed P1 (\"Maybe it just has something to say.\"), or give the items different shapes and end on a catch-all, the way he fixed Borrowed Adulthood P2 (\"Other jobs can go to friends or community, outsource to the tools or pros, whatever works.\"). Joel, 01:06: \"when there's no actual need for 3 items you can remove one of them\". A FAIL in my sentences since 2026-10-17 (E186: \"how is that not detected?\") (1)",
+   "-- E23 paragraph of instructions (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: agmatine (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: anhedonia (1)"
+  ]
+ },
+ {
+  "block": 17,
+  "verdict": "verdict: FAIL",
+  "flags": [
+   "-- B4/E15 list or packed sentence (2)",
+   "-- D9 follows the source order (1)",
+   "-- E125 list of three: an AI pattern in general (Joel 2026-10-03: \"lists of 3 in general are an ai pattern\"; 2026-10-07: \"lists in general are overused by AI. try to avoid that unless it's really needed\"). If the meaning doesn't need all three, drop the one that matters least; if it does, split them into sentences, the way he fixed P1 (\"Maybe it just has something to say.\"), or give the items different shapes and end on a catch-all, the way he fixed Borrowed Adulthood P2 (\"Other jobs can go to friends or community, outsource to the tools or pros, whatever works.\"). Joel, 01:06: \"when there's no actual need for 3 items you can remove one of them\". A FAIL in my sentences since 2026-10-17 (E186: \"how is that not detected?\") (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: ayahuasca (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: fentanyl (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: harmalas (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: iboga (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: ibogaine (2)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: linezolid (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: noribogaine (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: serotonergic (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: tramadol (1)"
+  ]
+ },
+ {
+  "block": 18,
+  "verdict": "verdict: FAIL",
+  "flags": [
+   "-- B2 contrast (1)",
+   "-- B4/E15 list or packed sentence (1)",
+   "-- D9 follows the source order (1)",
+   "-- E125 list of three: an AI pattern in general (Joel 2026-10-03: \"lists of 3 in general are an ai pattern\"; 2026-10-07: \"lists in general are overused by AI. try to avoid that unless it's really needed\"). If the meaning doesn't need all three, drop the one that matters least; if it does, split them into sentences, the way he fixed P1 (\"Maybe it just has something to say.\"), or give the items different shapes and end on a catch-all, the way he fixed Borrowed Adulthood P2 (\"Other jobs can go to friends or community, outsource to the tools or pros, whatever works.\"). Joel, 01:06: \"when there's no actual need for 3 items you can remove one of them\". A FAIL in my sentences since 2026-10-17 (E186: \"how is that not detected?\") (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: ayahuasca (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: harmalas (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: iboga (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: serotonergic (1)",
+   "-- O18 \"not X, but still Y\" (Joel 2026-10-07: \"there are other X Y rules, like 'Not x, but still y.'\"): say the claim plainly; keep the contrast only when the reader needs the other side said (1)"
+  ]
+ },
+ {
+  "block": 23,
+  "verdict": "verdict: REVIEW",
+  "flags": [
+   "-- B4/E15 list or packed sentence (1)",
+   "-- D9 follows the source order (1)"
+  ]
+ },
+ {
+  "block": 24,
+  "verdict": "verdict: REVIEW",
+  "flags": [
+   "-- B4/E15 list or packed sentence (1)",
+   "-- D9 follows the source order (1)",
+   "-- E36/E41 heavy second person (1)"
+  ]
+ },
+ {
+  "block": 25,
+  "verdict": "verdict: REVIEW",
+  "flags": [
+   "-- B4/E15 list or packed sentence (1)",
+   "-- D9 follows the source order (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: re-emerge (the closed form \"reemerge\" is standard) (1)"
+  ]
+ },
+ {
+  "block": 27,
+  "verdict": "verdict: REVIEW",
+  "flags": [
+   "-- D9 follows the source order (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: dysregulated (1)"
+  ]
+ },
+ {
+  "block": 28,
+  "verdict": "verdict: REVIEW",
+  "flags": [
+   "-- D9 follows the source order (1)"
+  ]
+ },
+ {
+  "block": 81,
+  "verdict": "verdict: FAIL",
+  "flags": [
+   "-- B4/E15 list or packed sentence (2)",
+   "-- D9 follows the source order (1)",
+   "-- E125 list of three: an AI pattern in general (Joel 2026-10-03: \"lists of 3 in general are an ai pattern\"; 2026-10-07: \"lists in general are overused by AI. try to avoid that unless it's really needed\"). If the meaning doesn't need all three, drop the one that matters least; if it does, split them into sentences, the way he fixed P1 (\"Maybe it just has something to say.\"), or give the items different shapes and end on a catch-all, the way he fixed Borrowed Adulthood P2 (\"Other jobs can go to friends or community, outsource to the tools or pros, whatever works.\"). Joel, 01:06: \"when there's no actual need for 3 items you can remove one of them\". A FAIL in my sentences since 2026-10-17 (E186: \"how is that not detected?\") (2)",
+   "-- E125 two lists of three in one paragraph (Joel 2026-10-03, on P1 at 66% AI: \"P! failed b ecause it has 2 lists of 3\"); fix one first: drop the item that matters least, or if every item is needed, split it into sentences the way he did (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: anhedonia (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: downregulation (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: ketamine (2)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: microdosing (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: pramipexole (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: ropinirole (1)"
+  ]
+ },
+ {
+  "block": 82,
+  "verdict": "verdict: FAIL",
+  "flags": [
+   "-- B4/E15 list or packed sentence (1)",
+   "-- D9 follows the source order (1)",
+   "-- E125 list of three: an AI pattern in general (Joel 2026-10-03: \"lists of 3 in general are an ai pattern\"; 2026-10-07: \"lists in general are overused by AI. try to avoid that unless it's really needed\"). If the meaning doesn't need all three, drop the one that matters least; if it does, split them into sentences, the way he fixed P1 (\"Maybe it just has something to say.\"), or give the items different shapes and end on a catch-all, the way he fixed Borrowed Adulthood P2 (\"Other jobs can go to friends or community, outsource to the tools or pros, whatever works.\"). Joel, 01:06: \"when there's no actual need for 3 items you can remove one of them\". A FAIL in my sentences since 2026-10-17 (E186: \"how is that not detected?\") (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: monophosphate (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: neurite (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: phosphatide (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: uridine (1)"
+  ]
+ },
+ {
+  "block": 83,
+  "verdict": "verdict: FAIL",
+  "flags": [
+   "-- B4/E15 list or packed sentence (1)",
+   "-- D9 follows the source order (1)",
+   "-- E125 list of three: an AI pattern in general (Joel 2026-10-03: \"lists of 3 in general are an ai pattern\"; 2026-10-07: \"lists in general are overused by AI. try to avoid that unless it's really needed\"). If the meaning doesn't need all three, drop the one that matters least; if it does, split them into sentences, the way he fixed P1 (\"Maybe it just has something to say.\"), or give the items different shapes and end on a catch-all, the way he fixed Borrowed Adulthood P2 (\"Other jobs can go to friends or community, outsource to the tools or pros, whatever works.\"). Joel, 01:06: \"when there's no actual need for 3 items you can remove one of them\". A FAIL in my sentences since 2026-10-17 (E186: \"how is that not detected?\") (1)",
+   "-- O15 unusual spelling or hyphenation, his lines included (Joel 2026-10-07: \"unusual spellings should help pass pangram, but that's also cheating\"); a coinage or a rare word stays, a misspelling gets fixed: ketamine (1)"
+  ]
+ },
+ {
+  "block": 85,
+  "verdict": "verdict: FAIL",
+  "flags": [
+   "-- B4/E15 list or packed sentence (3)",
+   "-- D9 follows the source order (1)",
+   "-- E125 list of three: an AI pattern in general (Joel 2026-10-03: \"lists of 3 in general are an ai pattern\"; 2026-10-07: \"lists in general are overused by AI. try to avoid that unless it's really needed\"). If the meaning doesn't need all three, drop the one that matters least; if it does, split them into sentences, the way he fixed P1 (\"Maybe it just has something to say.\"), or give the items different shapes and end on a catch-all, the way he fixed Borrowed Adulthood P2 (\"Other jobs can go to friends or community, outsource to the tools or pros, whatever works.\"). Joel, 01:06: \"when there's no actual need for 3 items you can remove one of them\". A FAIL in my sentences since 2026-10-17 (E186: \"how is that not detected?\") (2)",
+   "-- E125 two lists of three in one paragraph (Joel 2026-10-03, on P1 at 66% AI: \"P! failed b ecause it has 2 lists of 3\"); fix one first: drop the item that matters least, or if every item is needed, split it into sentences the way he did (1)"
+  ]
+ },
+ {
+  "block": 86,
+  "verdict": "verdict: REVIEW",
+  "flags": [
+   "-- D9 follows the source order (1)"
+  ]
+ }
+]

@@ -1,0 +1,2202 @@
+{
+ "fixes": [
+  {
+   "id": "X1.1",
+   "part": "1",
+   "block": 4,
+   "where": "How to use this very large guide, P1",
+   "findings": [
+    "F1.1"
+   ],
+   "replace": "the Let the next response guide you section",
+   "with": "the “Let the next response guide you” section",
+   "writer_with": "the “Let the next response guide you” section",
+   "how": "rewrite",
+   "note": "quote marks set the section title off so it no longer runs into the sentence; the check flagged only the title, and the heading says what 'it' is",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X1.2",
+   "part": "1",
+   "block": 10,
+   "where": "Introduction, P2",
+   "findings": [
+    "F1.2"
+   ],
+   "replace": "layers of consciousness: dream",
+   "with": "layers of consciousness and can dream",
+   "writer_with": "layers of consciousness and can dream",
+   "how": "rewrite",
+   "note": "says the mind can do these things, so the verbs no longer read as the layers' names",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X1.3",
+   "part": "1",
+   "block": 16,
+   "where": "Introduction, P8",
+   "findings": [
+    "F1.5"
+   ],
+   "replace": "prompt engineering, as well as helping people to be literate in the domain of what’s hypnotizing them.",
+   "with": "prompt engineering (the shape of a question changes the kind of answer we can hear), as well as influence literacy, since hypnosis is hardly the only thing hypnotizing us.",
+   "writer_with": "prompt engineering (the shape of a question changes the kind of answer we can hear), as well as helping people to be literate in the domain of what’s hypnotizing them (hypnosis is hardly the only thing hypnotizing us).",
+   "how": "published",
+   "note": "his published reasons for prompt engineering and influence literacy; 'literate in the domain of what's hypnotizing them' becomes his 'influence literacy'",
+   "mine": true,
+   "valid": true
+  },
+  {
+   "id": "X1.4",
+   "part": "1",
+   "block": 18,
+   "where": "Quick start: do this first, P1",
+   "findings": [
+    "F1.6"
+   ],
+   "replace": "1) Attention; 2) Notice;",
+   "with": "1) Gather attention; 2) Notice what is here;",
+   "writer_with": "1) Gather attention; 2) Notice what is here;",
+   "how": "published",
+   "note": "says what to do with attention and what to notice",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X1.5",
+   "part": "1",
+   "block": 19,
+   "where": "Quick start: do this first, P2",
+   "findings": [
+    "F1.7"
+   ],
+   "replace": "Put this screen on the shelf and conduct the practice.",
+   "with": "Then put the screen aside; the practice is something you learn to conduct, not a checklist to keep reading.",
+   "writer_with": "Choose one purpose and what you are leaving alone today. Then put the screen aside; the practice is something you learn to conduct, not a checklist to keep reading.",
+   "how": "published",
+   "note": "his published line about putting the screen aside; the 'choose one purpose' step stays out, since he approved cutting it as a repeat on 25 Oct (RP-1.3)",
+   "mine": true,
+   "valid": true
+  },
+  {
+   "id": "X1.6",
+   "part": "1",
+   "block": 21,
+   "where": "Quick start: do this first, P4",
+   "findings": [
+    "F1.9"
+   ],
+   "replace": "this is not about bravely sticking",
+   "with": "this is not the time for bravely sticking",
+   "writer_with": "this is not the time for bravely sticking",
+   "how": "rewrite",
+   "note": "'this' now plainly means that moment, so nothing has to be worked out before the instruction to stop",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X1.7",
+   "part": "1",
+   "block": 33,
+   "where": "Protecting Yourself from Hypnotists, P4",
+   "findings": [
+    "F1.11"
+   ],
+   "replace": "As associated with the Silva Mind Control method:",
+   "with": "A line associated with the Silva Mind Control tradition says it plainly:",
+   "writer_with": "A line associated with the Silva Mind Control tradition says it plainly:",
+   "how": "published",
+   "note": "a full sentence again that says a quoted line follows; his published line",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X1.8",
+   "part": "1",
+   "block": 35,
+   "where": "Protecting Yourself from Hypnotists, P6",
+   "findings": [
+    "F1.12"
+   ],
+   "replace": "With self-hypnosis you can do much of the same thing from the inside,",
+   "with": "With self-hypnosis you can train your own mind from the inside,",
+   "writer_with": "Advertising, fear, craving, screens, tribe, resentment, authority, loneliness, and repetition are already training the mind. With self-hypnosis",
+   "how": "published",
+   "note": "says what 'the same thing' was (training the mind) without bringing back the sentence he cut as a repeat on 25 Oct (RP-1.4)",
+   "mine": true,
+   "valid": true,
+   "writer_replace": "With self-hypnosis"
+  },
+  {
+   "id": "X1.9",
+   "part": "1",
+   "block": 57,
+   "where": "What to Use Self-Hypnosis For, and What Not To, P3",
+   "findings": [
+    "F1.13"
+   ],
+   "replace": "or NOT seek correct treatment.",
+   "with": "or replace appropriate clinical care.",
+   "writer_with": "or replace appropriate clinical care.",
+   "how": "published",
+   "note": "drops the double negative and names what it mustn't replace: appropriate clinical care",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X1.10",
+   "part": "1",
+   "block": 61,
+   "where": "Forget the left-brain/right-brain cartoon, P3",
+   "findings": [
+    "F1.14"
+   ],
+   "replace": "intuitive signals and testing of those signals without dogma or killing them.",
+   "with": "intuitive signals without dogma, and testing of those signals without killing them.",
+   "writer_with": "intuitive signals without dogma, and testing of those signals without killing them.",
+   "how": "rewrite",
+   "note": "pairs 'without dogma' with the signals and 'without killing them' with the testing",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X1.11",
+   "part": "1",
+   "block": 63,
+   "where": "Forget the left-brain/right-brain cartoon, P5",
+   "findings": [
+    "F1.15"
+   ],
+   "replace": "And it’s got to lead somewhere!",
+   "with": "And it’s got to lead somewhere: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life.",
+   "writer_with": "A powerful state matters only if something survives it: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life.",
+   "how": "published",
+   "note": "keeps his exclamation's voice and gives back his published list of what a powerful state has to leave behind",
+   "mine": true,
+   "valid": true
+  },
+  {
+   "id": "X1.12",
+   "part": "1",
+   "block": 68,
+   "where": "Why doing it myself worked better for me, P4",
+   "findings": [
+    "F1.16"
+   ],
+   "replace": "I found that especially amplified with loveyhuasca.",
+   "with": "Self-hypnosis simply has one advantage nobody outside can duplicate: immediate dialogue with the system itself. I found that especially amplified with loveyhuasca.",
+   "writer_with": "Self-hypnosis simply has one advantage nobody outside can duplicate: immediate dialogue with the system itself. I found that especially amplified with loveyhuasca.",
+   "how": "published",
+   "note": "restores the advantage 'that' points to: immediate dialogue with the system itself",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X1.13",
+   "part": "1",
+   "block": 73,
+   "where": "Why doing it myself worked better for me, P9",
+   "findings": [
+    "F1.18"
+   ],
+   "replace": "Only because of life did I have to talk to people, etc.",
+   "with": "It only ended because life needed me to talk to people, etc.",
+   "writer_with": "did I have to stop, to talk to people",
+   "how": "rewrite",
+   "note": "says that talking to people is what ended the state (his published condition)",
+   "mine": true,
+   "valid": true,
+   "writer_replace": "did I have to talk to people"
+  },
+  {
+   "id": "X1.14",
+   "part": "1",
+   "block": 73,
+   "where": "Why doing it myself worked better for me, P9",
+   "findings": [
+    "F1.19"
+   ],
+   "replace": "Although I'm not recommending",
+   "with": "I'm not recommending",
+   "writer_with": "I'm not recommending",
+   "how": "rewrite",
+   "note": "the fragment becomes a full sentence; it already says what integrating is better than (prolonging the state forever)",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X2.1",
+   "part": "2",
+   "block": 101,
+   "where": "When the adult role is not available yet, P7",
+   "findings": [
+    "F2a.7"
+   ],
+   "replace": "This is a borrowed figure",
+   "with": "The adult hat is only borrowed",
+   "writer_with": "The adult hat is only borrowed",
+   "how": "rewrite",
+   "note": "names what is borrowed (the adult hat two lines up); 'only borrowed' says why the choice stays yours, as published's 'beside your judgment rather than replacing it'",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X2.2",
+   "part": "2",
+   "block": 102,
+   "where": "When the adult role is not available yet, P8",
+   "findings": [
+    "F2a.8"
+   ],
+   "replace": "imagine good,",
+   "with": "imagine a good adult,",
+   "writer_with": "imagine a good adult,",
+   "how": "rewrite",
+   "note": "gives 'imagine' its missing noun: a good adult, as earlier in the paragraph",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X2.3",
+   "part": "2",
+   "block": 105,
+   "where": "Let the child speak without handing over the steering wheel, P1",
+   "findings": [
+    "F2a.10"
+   ],
+   "replace": "to want to offload some decision making.",
+   "with": "to want to offload some decision making, while your adult part stays present.",
+   "writer_with": "to want to offload some decision making, while your adult part stays present.",
+   "how": "rewrite",
+   "note": "restores published 'while the internal adult remains present' in the paragraph's own term, so letting someone take care of you no longer reads against not handing over the adult part",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X2.4",
+   "part": "2",
+   "block": 117,
+   "where": "The two-hand practice, P1",
+   "findings": [
+    "F2b.6"
+   ],
+   "replace": "just below that which is your solar plexus and where",
+   "with": "just below that, on your solar plexus, where",
+   "writer_with": "just below that, on your solar plexus, where",
+   "how": "rewrite",
+   "note": "second hand goes on the solar plexus, not below it; one 'which' fewer",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X2.5",
+   "part": "2",
+   "block": 120,
+   "where": "The Nurturer, P1",
+   "findings": [
+    "F2b.9"
+   ],
+   "replace": "sit back and enjoy them.",
+   "with": "sit back and enjoy their company.",
+   "writer_with": "sit back and enjoy their company.",
+   "how": "rewrite",
+   "note": "you enjoy the child's company (published), not their feelings",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X2.7",
+   "part": "2",
+   "block": 130,
+   "where": "The Protector, P3",
+   "findings": [
+    "F2b.13"
+   ],
+   "replace": "Make sure they're small enough that you can actually do them. If you're not able to, figure out what's getting in the way of you doing them.",
+   "with": "Make sure it's small enough that you can actually do it. If you're not able to, figure out what's getting in the way of you doing it.",
+   "writer_with": "Make sure it's small enough that you can actually do it. If you're not able to, figure out what's getting in the way of you doing it.",
+   "how": "rewrite",
+   "note": "'it' points to the protective act ('something'), not the child; 'doing them' follows so the paragraph's later 'it' agrees",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X3.1",
+   "part": "3",
+   "block": 139,
+   "where": "Working with your guards, P3",
+   "findings": [
+    "F3a.3"
+   ],
+   "replace": "Often they are you experiencing a very charming guard.",
+   "with": "Often what you're experiencing is a very charming guard.",
+   "writer_with": "Often what you're experiencing is a very charming guard.",
+   "how": "rewrite",
+   "note": "makes it parse: those reactions are often a guard",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X3.2",
+   "part": "3",
+   "block": 142,
+   "where": "Working with your guards, P6",
+   "findings": [
+    "F3a.4"
+   ],
+   "replace": "trust you 1% more that you can do that",
+   "with": "trust you 1% more that you can protect yourself",
+   "writer_with": "trust you 1% more that you can protect yourself",
+   "how": "rewrite",
+   "note": "names what the guard is asked to trust you can do: protect yourself",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X3.3",
+   "part": "3",
+   "block": 159,
+   "where": "Don’t rush the repair, P2",
+   "findings": [
+    "F3a.10"
+   ],
+   "replace": "Just tell you what they need to not be alone anymore.",
+   "with": "You only want to know what would help them feel less alone.",
+   "writer_with": "You only want to know what would help them feel less alone.",
+   "how": "rewrite",
+   "note": "his published line 'I only want to know what would help you feel less alone' in the paragraph's reported speech: clear who wants to know what, and keeps the modest 'feel less alone'",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X3.4",
+   "part": "3",
+   "block": 160,
+   "where": "Don’t rush the repair, P3",
+   "findings": [
+    "F3a.11"
+   ],
+   "replace": "that you keep a promise to them for one day",
+   "with": "that you keep a promise to them today",
+   "writer_with": "that you keep a promise to them today",
+   "how": "rewrite",
+   "note": "a promise kept today, as published, not a promise kept for a day",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X3.5",
+   "part": "3",
+   "block": 166,
+   "where": "Don’t rush the repair, P9",
+   "findings": [
+    "F3a.13"
+   ],
+   "replace": "it may take you to go to sleep",
+   "with": "it may take sleep",
+   "writer_with": "it may take sleep",
+   "how": "rewrite",
+   "note": "says plainly that letting it sink in may need sleep, as published does",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X3.6",
+   "part": "3",
+   "block": 171,
+   "where": "Play and rest still need an adult present, P1",
+   "findings": [
+    "F3b.1"
+   ],
+   "replace": "your younger states. Whether that means",
+   "with": "your younger states, whether that means",
+   "writer_with": "your younger states, whether that means",
+   "how": "rewrite",
+   "note": "joins the 'Whether' fragment back to the sentence it belongs to",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X4.1",
+   "part": "4",
+   "block": 216,
+   "where": "If you sense you are being influenced, P6",
+   "findings": [
+    "F4a.3"
+   ],
+   "replace": "This is a good guide to help engage your adult in the conversation. The more powerful the state the more you will need to make use of these.",
+   "with": "A good guide leaves your adult more present. The more powerful the state the stronger the boundaries you will need.",
+   "writer_with": "A good guide leaves your adult more present. The more powerful the state the stronger the boundaries you will need.",
+   "how": "rewrite",
+   "note": "restores his test for any guide (it leaves your adult more present) and that powerful states need stronger boundaries; nothing points back at the list of questions",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X4.2",
+   "part": "4",
+   "block": 218,
+   "where": "Soft language can still take away choice, P1",
+   "findings": [
+    "F4a.4"
+   ],
+   "replace": "you can still take away choice",
+   "with": "you can still take away the subject’s choice",
+   "writer_with": "you can still take away the subject’s choice",
+   "how": "rewrite",
+   "note": "says whose choice: you use the language, the subject loses the choice",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X4.3",
+   "part": "4",
+   "block": 222,
+   "where": "Soft language can still take away choice, P5",
+   "findings": [
+    "F4a.5"
+   ],
+   "replace": "you notice etc etc",
+   "with": "you notice etc etc, so either way counts as success",
+   "writer_with": "you notice etc etc, so either way counts as success",
+   "how": "rewrite",
+   "note": "restores why the phrase binds: noticing or not, it counts as success",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X4.4",
+   "part": "4",
+   "block": 235,
+   "where": "What an induction is actually doing, P2",
+   "findings": [
+    "F4a.7"
+   ],
+   "replace": "Test: Are you getting the response you want out of this already?",
+   "with": "Test: For a simple, chosen target, are you getting the response you want out of the suggestion already?",
+   "writer_with": "Test: For a simple, chosen target, are you getting the response you want out of the suggestion already?",
+   "how": "published",
+   "note": "says what is tested (the suggestion) and when (a simple, chosen target)",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X4.5",
+   "part": "4",
+   "block": 238,
+   "where": "Please don’t put six metaphors in one trance, P2",
+   "findings": [
+    "F4b.3"
+   ],
+   "replace": "whatever form of signal makes sense to you (feelings, rhythms, movements, words, spatial, simple knowing",
+   "with": "whatever form of signal shows up (feelings, rhythms, movements, words, spatial sense, simple knowing",
+   "writer_with": "whatever form of signal shows up (feelings, rhythms, movements, words, spatial sense, simple knowing",
+   "how": "rewrite",
+   "note": "the signal comes in whatever form it takes, lack of signal included, instead of one you pick; 'spatial' gets its noun",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X4.6",
+   "part": "4",
+   "block": 238,
+   "where": "Please don’t put six metaphors in one trance, P2",
+   "findings": [
+    "F4b.4"
+   ],
+   "replace": "You can borrow qualities,",
+   "with": "You can borrow qualities such as warmth or steadiness,",
+   "writer_with": "You can borrow qualities such as warmth or steadiness,",
+   "how": "published",
+   "note": "gives his examples of the qualities",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X4.7",
+   "part": "4",
+   "block": 239,
+   "where": "Please don’t put six metaphors in one trance, P3",
+   "findings": [
+    "F4b.5"
+   ],
+   "replace": "When you're writing this, think about",
+   "with": "When you're writing the script, decide",
+   "writer_with": "When you're writing the script, decide",
+   "how": "rewrite",
+   "note": "an instruction to settle on the verb, quality, refrain and transition, not just think about them; names the script",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X4.8",
+   "part": "4",
+   "block": 244,
+   "where": "Before you begin, P4",
+   "findings": [
+    "F4b.7"
+   ],
+   "replace": "Deciding to do it. How will you coax yourself to do this? Make it spacious? Make it warm and held? Something else?",
+   "with": "Deciding to do it: how will you coax yourself to do this? Make it spacious? Make it warm and held? Make it firmer, so you stay with a feeling? Something else?",
+   "writer_with": "Deciding to do it: how will you coax yourself to do this? Make it spacious? Make it warm and held? Firmer, to stay with a feeling? Something else?",
+   "how": "rewrite",
+   "note": "the firmer option as a question like the two before it ('Make it firmer, so you stay with a feeling?'), his published 'a firmer invitation to stay with a feeling'",
+   "mine": true,
+   "valid": true
+  },
+  {
+   "id": "X4.9",
+   "part": "4",
+   "block": 244,
+   "where": "Before you begin, P4",
+   "findings": [
+    "F4b.8"
+   ],
+   "replace": "read the script if you can",
+   "with": "read the script beforehand if you can",
+   "writer_with": "read the script beforehand if you can",
+   "how": "published",
+   "note": "says when to read it",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X4.10",
+   "part": "4",
+   "block": 245,
+   "where": "Before you begin, P5",
+   "findings": [
+    "F4b.9"
+   ],
+   "replace": "for the first time,",
+   "with": "for the first few times,",
+   "writer_with": "for the first few times,",
+   "how": "rewrite",
+   "note": "says it is the first few sessions where you make sure you can change state",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X4.11",
+   "part": "4",
+   "block": 246,
+   "where": "Before you begin, P6",
+   "findings": [
+    "F4b.10"
+   ],
+   "replace": "Utilize. Use what you have to go to the next place",
+   "with": "Utilize: use what you have (a thought, sound, movement, or objection) to go to the next place",
+   "writer_with": "Utilize: use what you have (a thought, sound, movement, or objection) to go to the next place",
+   "how": "published",
+   "note": "'Utilize' is explained by what follows it, with his examples",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X4.12",
+   "part": "4",
+   "block": 246,
+   "where": "Before you begin, P6",
+   "findings": [
+    "F4b.11"
+   ],
+   "replace": "no change is not a positive change",
+   "with": "no change is not a secret success",
+   "writer_with": "no change is not a secret success",
+   "how": "published",
+   "note": "restores the warning not to take no change for hidden success",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X4.13",
+   "part": "4",
+   "block": 248,
+   "where": "Sober induction: 3–5 minutes, P1",
+   "findings": [
+    "F4b.13"
+   ],
+   "replace": "read this slowly to yourself on your recorder",
+   "with": "read this slowly into your recorder",
+   "writer_with": "read this slowly into your recorder",
+   "how": "published",
+   "note": "recording no longer mixed up with reading to yourself",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X4.14",
+   "part": "4",
+   "block": 248,
+   "where": "Sober induction: 3–5 minutes, P1",
+   "findings": [
+    "F4b.14"
+   ],
+   "replace": "the two hands thing (below)",
+   "with": "the two hands thing (above)",
+   "writer_with": "the two hands thing (above)",
+   "how": "rewrite",
+   "note": "the two-hand practice comes earlier, not later",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X4.15",
+   "part": "4",
+   "block": 254,
+   "where": "Sober induction: 3–5 minutes, P7",
+   "findings": [
+    "F4b.17"
+   ],
+   "replace": "something that you are doing that holds your interest",
+   "with": "something that holds your interest",
+   "writer_with": "something that holds your interest",
+   "how": "rewrite",
+   "note": "drops the stacked 'that you are doing'",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X5.1",
+   "part": "5",
+   "block": 276,
+   "where": "Make the hypnosis more active, P1",
+   "findings": [
+    "F5.2"
+   ],
+   "replace": "As you move one of your hands, you're going to move deliberately, and as soon as you stop moving deliberately, you'll focus on what you've got.",
+   "with": "Pair a small repeated hand movement with increasing clarity; stop the movement and notice what remains.",
+   "writer_with": "Pair a small repeated hand movement with increasing clarity; stop the movement and notice what remains.",
+   "how": "published",
+   "note": "restores the step: a small repeated hand movement with growing clarity, then stop and notice what remains",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X5.2",
+   "part": "5",
+   "block": 283,
+   "where": "The two-hand induction, P5",
+   "findings": [
+    "F5.3"
+   ],
+   "replace": "If some comes back up, I let it, and send it on down again. If nothing comes back, I just keep sending mine.",
+   "with": "If something comes back up, I let it, and send my love on down again. If nothing comes back, I just keep sending mine, and listening.",
+   "writer_with": "If something comes back up, I let it, and send my love on down again. If nothing comes back, I just keep sending mine, and listening.",
+   "how": "rewrite",
+   "note": "whatever comes back from the child is received, 'it' is anchored, and the listening step is back",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X5.3",
+   "part": "5",
+   "block": 289,
+   "where": "Optional fractionation: practice coming back, P1",
+   "findings": [
+    "F5.4"
+   ],
+   "replace": "At some point in time you can add this, but you must say you are doing it before doing it.",
+   "with": "Fractionation means returning toward ordinary awareness and then deciding whether to enter absorption again. Used openly, it teaches that trance has a door in both directions. At some point in time you can add this, but you must say you are doing it before doing it, so no answer can secretly mean “deeper.”",
+   "writer_with": "Fractionation means returning toward ordinary awareness and then deciding whether to enter absorption again. Used openly, it teaches that trance has a door in both directions. At some point in time you can add this, but you must say you are doing it before doing it; every answer cannot secretly mean “deeper.”",
+   "how": "published",
+   "note": "says what fractionation is and why you name it first (his published sentences); the last clause in plain order",
+   "mine": true,
+   "valid": true
+  },
+  {
+   "id": "X5.4",
+   "part": "5",
+   "block": 296,
+   "where": "Optional trance depth check, P1",
+   "findings": [
+    "F5.5"
+   ],
+   "replace": "As you wait and release the responsibility of making it happen",
+   "with": "As you wait, you release the responsibility of making anything happen.",
+   "writer_with": "As you wait, you release the responsibility of making anything happen.",
+   "how": "rewrite",
+   "note": "makes the fragment a full sentence; 'anything' replaces the unanchored 'it'",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X5.5",
+   "part": "5",
+   "block": 301,
+   "where": "A shortcut back into hypnosis, P1",
+   "findings": [
+    "F5.6"
+   ],
+   "replace": "the above induction",
+   "with": "a useful induction",
+   "writer_with": "a useful induction",
+   "how": "published",
+   "note": "any induction that works for you, not an unnamed one above",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X5.6",
+   "part": "5",
+   "block": 302,
+   "where": "A shortcut back into hypnosis, P2",
+   "findings": [
+    "F5.7"
+   ],
+   "replace": "Say the word and/ or do the phrase",
+   "with": "Say the word and/ or phrase",
+   "writer_with": "Say the word and/ or phrase",
+   "how": "rewrite",
+   "note": "a phrase is said, not done",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X5.7",
+   "part": "5",
+   "block": 304,
+   "where": "A shortcut back into hypnosis, P4",
+   "findings": [
+    "F5.8"
+   ],
+   "replace": "When you pick the time and place (it needs to be an appropriate time and place), say the word and/ or do the phrase to begin going into this state that you picked, and are familiar with. It's fine to change the direction you are going in, or stop this at any point.",
+   "with": "Give your cue the meaning you choose: “When I pick the time and place (an appropriate time and place) and say the word and/ or phrase to begin, I can go into this state that I picked and am familiar with. I can change direction, or stop, at any point.”",
+   "writer_with": "Give your cue the meaning you choose: \"When you pick the time and place (it needs to be an appropriate time and place), and say the word and/ or phrase to begin, you can go into this state that you picked, and are familiar with. It's fine to change the direction you are going in, or stop this at any point.\"",
+   "how": "rewrite",
+   "note": "the cue's meaning, said to yourself in the first person as in his published version, not an instruction; fixes 'do the phrase'",
+   "mine": true,
+   "valid": true
+  },
+  {
+   "id": "X5.8",
+   "part": "5",
+   "block": 309,
+   "where": "Turning the shortcut off, or keeping it, P1",
+   "findings": [
+    "F5.10"
+   ],
+   "replace": "it'll be over for today",
+   "with": "today's session is over",
+   "writer_with": "the altered state will be over for today",
+   "how": "rewrite",
+   "note": "says it's today's session that ends, not the kept cue",
+   "mine": true,
+   "valid": true
+  },
+  {
+   "id": "X5.9",
+   "part": "5",
+   "block": 312,
+   "where": "Come all the way back, P2",
+   "findings": [
+    "F5.11"
+   ],
+   "replace": "All the instructions you have given me to carry me deeper",
+   "with": "All the instructions to carry me deeper",
+   "writer_with": "All the instructions to carry me deeper",
+   "how": "rewrite",
+   "note": "drops the unnamed 'you' from the first-person script",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X5.10",
+   "part": "5",
+   "block": 328,
+   "where": "Let the next response guide you, P2",
+   "findings": [
+    "F5.14"
+   ],
+   "replace": "take all those forms",
+   "with": "cover all those forms",
+   "writer_with": "cover all those forms",
+   "how": "rewrite",
+   "note": "reads as: you needn't go through every kind",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X5.11",
+   "part": "5",
+   "block": 332,
+   "where": "Finding your own words, P3",
+   "findings": [
+    "F5.15"
+   ],
+   "replace": "doesn't mean it's not ok",
+   "with": "doesn't require an exit",
+   "writer_with": "doesn't require an exit",
+   "how": "published",
+   "note": "'it' had no referent; says sadness or tension doesn't mean you have to stop",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X5.12",
+   "part": "5",
+   "block": 335,
+   "where": "Notice, meaning, and your thoughts on the meaning, P2",
+   "findings": [
+    "F5.16"
+   ],
+   "replace": "It's also ok to use phrases that you didn't think in your head - if something comes up that you're analyzing, it's still good to analyze, even if it's not in your head already.",
+   "with": "It's also ok to put a meaning into words now, to look at it, even if it came to you without words.",
+   "writer_with": "A sentence you find now can help examine the meaning without being a sentence you thought then.",
+   "how": "published",
+   "note": "his published point (words you find now can help examine a meaning that came without words), in the paragraph's own voice",
+   "mine": true,
+   "valid": true
+  },
+  {
+   "id": "X5.13",
+   "part": "5",
+   "block": 335,
+   "where": "Notice, meaning, and your thoughts on the meaning, P2",
+   "findings": [
+    "F5.17"
+   ],
+   "replace": "any better or worse",
+   "with": "any deeper, truer, or more reliable",
+   "writer_with": "any deeper, truer, or more reliable",
+   "how": "rewrite",
+   "note": "names the measures: deeper, truer, more reliable",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X6.1",
+   "part": "6",
+   "block": 339,
+   "where": "Let the response change the invitation, P3",
+   "findings": [
+    "F6a.3"
+   ],
+   "replace": "Sometimes it just isn't right",
+   "with": "Sometimes the invitation just isn't right",
+   "writer_with": "Sometimes the invitation just isn't right",
+   "how": "rewrite",
+   "note": "names what 'it' is: the invitation the heading talks about",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X6.2",
+   "part": "6",
+   "block": 339,
+   "where": "Let the response change the invitation, P3",
+   "findings": [
+    "F6a.4"
+   ],
+   "replace": "Neither is automatically a guard, and just being silent doesn't mean there's a process.",
+   "with": "Either way, it isn't automatically a guard, and silence doesn't mean a hidden process is working.",
+   "writer_with": "Skepticism isn't automatically a guard, and just being silent doesn't mean a hidden process is working.",
+   "how": "published",
+   "note": "keeps the paragraph's two cases (it doesn't say skepticism) and says what silence doesn't show: a hidden process at work",
+   "mine": true,
+   "valid": true
+  },
+  {
+   "id": "X6.3",
+   "part": "6",
+   "block": 341,
+   "where": "Look at the situation too, P1",
+   "findings": [
+    "F6a.7"
+   ],
+   "replace": "to determine if this is the case.",
+   "with": "before protecting yourself.",
+   "writer_with": "before protecting yourself.",
+   "how": "published",
+   "note": "no unclear 'this'; restores that you can protect yourself without first being exposed to danger",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X6.4",
+   "part": "6",
+   "block": 342,
+   "where": "Look at the situation too, P2",
+   "findings": [
+    "F6a.8"
+   ],
+   "replace": "you have acted inappropriately and you feel guilty.",
+   "with": "you feel guilty.",
+   "writer_with": "you feel guilty.",
+   "how": "rewrite",
+   "note": "no longer says you acted wrongly right before saying guilt doesn't mean you did",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X6.5",
+   "part": "6",
+   "block": 342,
+   "where": "Look at the situation too, P2",
+   "findings": [
+    "F6a.11"
+   ],
+   "replace": "end the interaction prematurely?",
+   "with": "end the interaction?",
+   "writer_with": "end the interaction?",
+   "how": "rewrite",
+   "note": "ending it is one legitimate purpose, not a mistake",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X6.6",
+   "part": "6",
+   "block": 344,
+   "where": "Change the amount of contact, P1",
+   "findings": [
+    "F6a.12"
+   ],
+   "replace": "This is called pendulation and titration.",
+   "with": "This is called pendulation, and approaching in smaller amounts is titration.",
+   "writer_with": "This is called pendulation, and approaching in smaller amounts is titration.",
+   "how": "published",
+   "note": "pendulation (moving back and forth) and titration (approaching in smaller amounts) are two things again",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X6.7",
+   "part": "6",
+   "block": 345,
+   "where": "Change the amount of contact, P2",
+   "findings": [
+    "F6a.13"
+   ],
+   "replace": "Ok, I think that is enough for now.",
+   "with": "\"Ok, I think that is enough for now.\"",
+   "writer_with": "\"Ok, I think that is enough for now.\"",
+   "how": "rewrite",
+   "note": "quote marks show it's a line you say to yourself, like the guide's other self-talk lines",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X6.8",
+   "part": "6",
+   "block": 346,
+   "where": "Change the amount of contact, P3",
+   "findings": [
+    "F6a.14"
+   ],
+   "replace": "a stronger induction back to the here and now.",
+   "with": "a stronger induction.",
+   "writer_with": "a stronger induction.",
+   "how": "published",
+   "note": "an induction takes you in, so it's what not to try, not a way back",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X6.9",
+   "part": "6",
+   "block": 348,
+   "where": "If you feel an urge to move, P1",
+   "findings": [
+    "F6a.16"
+   ],
+   "replace": "act out the urge, feel that you need to move, shake, release, etc.",
+   "with": "act out the urge, shake, release, etc.",
+   "writer_with": "act out the urge, shake, release, etc.",
+   "how": "rewrite",
+   "note": "the list is only things you needn't do, as in his list, no longer mixing doing and feeling",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X6.10",
+   "part": "6",
+   "block": 354,
+   "where": "Offer the care that is actually wanted, P5",
+   "findings": [
+    "F6a.22"
+   ],
+   "replace": "where the metaphor takes you",
+   "with": "where a metaphor takes you",
+   "writer_with": "where a metaphor takes you",
+   "how": "rewrite",
+   "note": "no longer points back to a metaphor that was never named",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X6.11",
+   "part": "6",
+   "block": 357,
+   "where": "Finish without forcing a revelation, P1",
+   "findings": [
+    "F6a.24"
+   ],
+   "replace": "Ending the session. Don’t",
+   "with": "Don’t",
+   "writer_with": "Don’t",
+   "how": "rewrite",
+   "note": "drops a stray label that repeated the heading",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X6.12",
+   "part": "6",
+   "block": 363,
+   "where": "The 15-minute daily practice, P2",
+   "findings": [
+    "F6b.3"
+   ],
+   "replace": "1 of each, counting from 5 to 1 and beginning to listen.",
+   "with": "1 of each. Then count from 5 to 1 and begin to listen.",
+   "writer_with": "1 of each. Then count from 5 to 1 and begin to listen.",
+   "how": "rewrite",
+   "note": "the 5-to-1 count is its own step after the 3-2-1 senses",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X6.13",
+   "part": "6",
+   "block": 365,
+   "where": "The 15-minute daily practice, P4",
+   "findings": [
+    "F6b.6"
+   ],
+   "replace": "what you learned needed warmth",
+   "with": "what needed warmth",
+   "writer_with": "what needed warmth",
+   "how": "published",
+   "note": "reads on the first pass, as his 'what needed warmth'",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X6.14",
+   "part": "6",
+   "block": 384,
+   "where": "It feels fake, P1",
+   "findings": [
+    "F6b.14"
+   ],
+   "replace": "then correct this.",
+   "with": "then correct the invitation.",
+   "writer_with": "then correct the invitation.",
+   "how": "published",
+   "note": "says what to correct",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X7.1",
+   "part": "7",
+   "block": 398,
+   "where": "You dissociate or feel unreal, P1",
+   "findings": [
+    "F7.5"
+   ],
+   "replace": "end your work for the day",
+   "with": "end the deeper practice for the day",
+   "writer_with": "end the deeper practice for the day",
+   "how": "published",
+   "note": "makes clear it's the deeper practice that ends, not your job",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X7.2",
+   "part": "7",
+   "block": 401,
+   "where": "You become grandiose, P2",
+   "findings": [
+    "F7.6"
+   ],
+   "replace": "some time, etc, and some subsequent humility, feedback, etc, etc.",
+   "with": "some time, and some subsequent humility, feedback, etc.",
+   "writer_with": "some time, and some subsequent humility, feedback, etc.",
+   "how": "rewrite",
+   "note": "clears the stray and doubled 'etc' so the list reads straight; 'it' kept, since per the check the heading makes it the insight",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X7.3",
+   "part": "7",
+   "block": 403,
+   "where": "You become too analytical, P1",
+   "findings": [
+    "F7.7"
+   ],
+   "replace": "“What if you didn’t try to improve it?”",
+   "with": "“What if you didn’t try to improve the practice?”",
+   "writer_with": "Stop trying to improve the practice.",
+   "how": "rewrite",
+   "note": "names the practice as what not to improve, in the paragraph's own self-talk (one word changed)",
+   "mine": true,
+   "valid": true
+  },
+  {
+   "id": "X7.4",
+   "part": "7",
+   "block": 413,
+   "where": "You get stuck in spiritual bypass, P2",
+   "findings": [
+    "F7.10"
+   ],
+   "replace": "do more of the same.",
+   "with": "do more of the same practice.",
+   "writer_with": "do more of the same practice.",
+   "how": "published",
+   "note": "says more of what: the same practice",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X7.5",
+   "part": "7",
+   "block": 417,
+   "where": "You get stuck in endless processing, P2",
+   "findings": [
+    "F7.11"
+   ],
+   "replace": "do any certain thing",
+   "with": "complete a ritual",
+   "writer_with": "complete a ritual",
+   "how": "published",
+   "note": "restores 'complete a ritual' in place of the vague 'any certain thing'",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X7.6",
+   "part": "7",
+   "block": 422,
+   "where": "What not to do, P1",
+   "findings": [
+    "F7.13"
+   ],
+   "replace": "as anything but internal happenings",
+   "with": "as commands or proof. They’re internal happenings",
+   "writer_with": "as commands or proof. They’re internal happenings",
+   "how": "rewrite",
+   "note": "removes the double negative and restores not taking them as commands or proof",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X7.7",
+   "part": "7",
+   "block": 440,
+   "where": "Methods to explore with a trained person present, P1",
+   "findings": [
+    "F7.20"
+   ],
+   "replace": "any potential person",
+   "with": "any potential clinician",
+   "writer_with": "any potential clinician",
+   "how": "rewrite",
+   "note": "says who you ask: a clinician you might work with",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X7.8",
+   "part": "7",
+   "block": 446,
+   "where": "Closing, P1",
+   "findings": [
+    "F7.21"
+   ],
+   "replace": "and the guy",
+   "with": "and the guard",
+   "writer_with": "and the guard",
+   "how": "rewrite",
+   "note": "uses the guide's term for the protective part",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X7.9",
+   "part": "7",
+   "block": 446,
+   "where": "Closing, P1",
+   "findings": [
+    "F7.22"
+   ],
+   "replace": "Most of them are actually trying to help you.",
+   "with": "Most of them have actually been trying to help you, without ever being properly introduced.",
+   "writer_with": "Most of them are actually trying to help you without ever being properly introduced.",
+   "how": "published",
+   "note": "his published point that they've been helping without ever being properly introduced",
+   "mine": true,
+   "valid": true,
+   "writer_replace": "Most of them are actually trying to help you."
+  },
+  {
+   "id": "X7.10",
+   "part": "7",
+   "block": 450,
+   "where": "Try it in the Inner Signal app, P1",
+   "findings": [
+    "F7.23"
+   ],
+   "replace": "for voice hypnosis, information, to learn the language, and for feedback on what you report",
+   "with": "for voice hypnosis, information, help developing your own language, and feedback on what you report",
+   "writer_with": "developing your own language",
+   "how": "rewrite",
+   "note": "his published 'develop your own language', and the list reads as one list",
+   "mine": true,
+   "valid": true,
+   "writer_replace": "to learn the language"
+  },
+  {
+   "id": "X7.11",
+   "part": "7",
+   "block": 450,
+   "where": "Try it in the Inner Signal app, P1",
+   "findings": [
+    "F7.24"
+   ],
+   "replace": "You may want to find someone, but it is not required to graduate.",
+   "with": "You may want to find a practitioner as well, but that's an option, not a graduation requirement.",
+   "writer_with": "it is not a graduation requirement",
+   "how": "published",
+   "note": "his published 'an option rather than a graduation requirement', and says who",
+   "mine": true,
+   "valid": true,
+   "writer_replace": "it is not required to graduate"
+  },
+  {
+   "id": "X8.1",
+   "part": "8",
+   "block": 460,
+   "where": "Appendix A: How to ask the subconscious a useful question, P1",
+   "findings": [
+    "F8a.1"
+   ],
+   "replace": "However, there is a bit of overlap in the way you can ask questions to both.",
+   "with": "However, there is a bit of overlap in the way you can ask questions to both: how you ask shapes the answer.",
+   "writer_with": "However, there is a bit of overlap in the way you can ask questions to both: how you ask shapes the answer.",
+   "how": "rewrite",
+   "note": "restores the one lesson prompt engineering gives (the shape of a question changes the answer), which 'this' and 'it' lean on",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X8.2",
+   "part": "8",
+   "block": 484,
+   "where": "Appendix B: NLP without turning yourself into a sales seminar, P2",
+   "findings": [
+    "F8a.7"
+   ],
+   "replace": "You do not need to know this stuff to do it but if you want to freshen up on your skills in the art of working with imagery, body states, behavioral rehearsal, talking to yourself in effective sentences etc then it might be useful, when it helps the system listen.",
+   "with": "You do not need to know this stuff to use the main path, but if you want to freshen up on your skills in the art of working with imagery, body states, behavioral rehearsal, talking to yourself in effective sentences etc then it might be useful, as long as it helps the system listen.",
+   "writer_with": "You do not need to know this stuff to use the main path, but if you want to freshen up on your skills in the art of working with imagery, body states, behavioral rehearsal, talking to yourself in effective sentences etc then it might be useful, as long as it helps the system listen.",
+   "how": "rewrite",
+   "note": "says NLP isn't needed for the main path (the guide's own name for the core method, from the note before Appendix A) and makes helping the system listen the condition for it being useful, so the sentence no longer trails off",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X8.3",
+   "part": "8",
+   "block": 492,
+   "where": "The Milton Model, minus the covert sales seminar, P1",
+   "findings": [
+    "F8a.9"
+   ],
+   "replace": "To do this we are going to use",
+   "with": "We are going to use",
+   "writer_with": "We are going to use",
+   "how": "rewrite",
+   "note": "drops 'To do this', which had nothing to point to at the top of the section",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X8.4",
+   "part": "8",
+   "block": 509,
+   "where": "Pattern 5: Embedded invitations, P1",
+   "findings": [
+    "F8a.13"
+   ],
+   "replace": "ie. \"And I can allow myself to experience...\"",
+   "with": "An embedded invitation places a small direction inside a larger sentence. It should invite a modest inner movement, not hide a demand. ie. \"And I can allow myself to experience...\"",
+   "writer_with": "An embedded invitation places a small direction inside a larger sentence. It should invite a modest inner movement, not hide a demand. ie. \"And I can allow myself to experience...\"",
+   "how": "published",
+   "note": "restores what an embedded invitation is and that it mustn't hide a demand, so 'ie.' gives examples of something stated",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X8.5",
+   "part": "8",
+   "block": 511,
+   "where": "Pattern 5: Embedded invitations, P3",
+   "findings": [
+    "F8a.14"
+   ],
+   "replace": "inner child type of parts.",
+   "with": "inner child type of parts: \"My little one doesn't have to trust me all at once; they can simply notice I'm still here.\"",
+   "writer_with": "inner child type of parts: \"The child does not have to trust me all at once; it can simply notice I am still here.\"",
+   "how": "published",
+   "note": "his published example, in his terms for the inner child (your little one, they)",
+   "mine": true,
+   "valid": true
+  },
+  {
+   "id": "X8.6",
+   "part": "8",
+   "block": 533,
+   "where": "Submodalities — editing the form, not denying the truth, P2",
+   "findings": [
+    "F8b.1"
+   ],
+   "replace": "in your head? Etc.",
+   "with": "in your head? Etc. What changes?",
+   "writer_with": "in your head? Etc. What changes?",
+   "how": "published",
+   "note": "restores noticing what changes after each adjustment",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X8.7",
+   "part": "8",
+   "block": 538,
+   "where": "Anchoring — giving the body a doorway back, P1",
+   "findings": [
+    "F8b.3"
+   ],
+   "replace": "There are many ways to do this.",
+   "with": "There are many cues you can connect to a state.",
+   "writer_with": "There are many cues you can connect to a state.",
+   "how": "rewrite",
+   "note": "says what an anchor is, a cue connected to a state, which also tells the reader what 'your anchor thing' is",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X8.8",
+   "part": "8",
+   "block": 538,
+   "where": "Anchoring — giving the body a doorway back, P1",
+   "findings": [
+    "F8b.4"
+   ],
+   "replace": "Do make sure you do it when you have clearly got it.",
+   "with": "Do make sure you do it when you clearly feel that state.",
+   "writer_with": "Do make sure you do it when you clearly feel that state.",
+   "how": "rewrite",
+   "note": "makes plain that the cue and the phrase go in while the state is clearly there",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X8.9",
+   "part": "8",
+   "block": 538,
+   "where": "Anchoring — giving the body a doorway back, P1",
+   "findings": [
+    "F8b.5"
+   ],
+   "replace": "a peak state but for a good hypnotic state.",
+   "with": "a peak emotional state but for a usable, receptive one.",
+   "writer_with": "a peak emotional state but for a usable, receptive one.",
+   "how": "rewrite",
+   "note": "restores the contrast: a usable receptive state, not peak emotional intensity",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X8.10",
+   "part": "8",
+   "block": 540,
+   "where": "Using synchronicity as your own wake-up bell, P1",
+   "findings": [
+    "F8b.6"
+   ],
+   "replace": "Using synchronicity (The synchronicity wake up cue)",
+   "with": "I call this the synchronicity wake up cue.",
+   "writer_with": "I call this the synchronicity wake up cue.",
+   "how": "rewrite",
+   "note": "turns the stray label into a sentence that names the cue the anchoring section already mentions; the published version has no line here",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X8.11",
+   "part": "8",
+   "block": 541,
+   "where": "Using synchronicity as your own wake-up bell, P2",
+   "findings": [
+    "F8b.7"
+   ],
+   "replace": "I am using the noticing of the synchronicity to WAKE UP.",
+   "with": "I am using the noticing of the synchronicity to WAKE UP. It doesn't have to mean anything.",
+   "writer_with": "I am using the noticing of the synchronicity to WAKE UP. It doesn't have to mean anything.",
+   "how": "rewrite",
+   "note": "restores that the coincidence needn't carry a message for the noticing to work as a bell",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X8.12",
+   "part": "8",
+   "block": 543,
+   "where": "Using synchronicity as your own wake-up bell, P4",
+   "findings": [
+    "F8b.8"
+   ],
+   "replace": "If I am in a negative state,",
+   "with": "If the state I started in is negative,",
+   "writer_with": "If the state I started in is negative,",
+   "how": "rewrite",
+   "note": "makes clear the negative state is the one the cue caught me in, not the highest state",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X8.13",
+   "part": "8",
+   "block": 555,
+   "where": "Installing the synchronicity cue, P10",
+   "findings": [
+    "F8b.11"
+   ],
+   "replace": "This is very similar to implementation intention. I'm not aware of research into implementation intention for this specific thing,",
+   "with": "This is very similar to implementation intention (an if...then... plan). I'm not aware of research into implementation intention for synchronicity cues,",
+   "writer_with": "This is very similar to implementation intention (an if...then... plan). I'm not aware of research into implementation intention for synchronicity cues,",
+   "how": "rewrite",
+   "note": "says what an implementation intention is (in the guide's later 'If...then...' wording) and names the unstudied use, synchronicity cues",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X8.14",
+   "part": "8",
+   "block": 564,
+   "where": "Perceptual positions — self, other, witness, universal heart, P2",
+   "findings": [
+    "F8b.14"
+   ],
+   "replace": "Perceptual Positions: 1) seeing from Self, 2) then seeing from Other, 3) then seeing from Witness, and 4) then seeing from Universal Heart.",
+   "with": "Perceptual Positions: 1) seeing from Self (what do I feel from inside myself?), 2) then seeing from Other (if I sit inside the other person, what might they be feeling or protecting?), 3) then seeing from Witness (if I watched this from across the room, what would I notice?), and 4) then seeing from Universal Heart (what serves truth, love, boundaries, and the good of everyone involved?).",
+   "writer_with": "Perceptual Positions: 1) seeing from Self (what do I feel from inside myself?), 2) then seeing from Other (if I sit inside the other person, what might they be feeling or protecting?), 3) then seeing from Witness (if I watched this from across the room, what would I notice?), and 4) then seeing from Universal Heart (what serves truth, love, boundaries, and the good of everyone involved?).",
+   "how": "published",
+   "note": "gives the question each position asks, so Other, Witness and Universal Heart are explained",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X9.1",
+   "part": "9",
+   "block": 575,
+   "where": "What I will not use NLP for, P2",
+   "findings": [
+    "F9.1"
+   ],
+   "replace": "deny people's legitimate signals",
+   "with": "use NLP to talk myself out of a real signal",
+   "writer_with": "use NLP to talk myself out of a real signal",
+   "how": "published",
+   "note": "restores his point: not using NLP to talk myself out of a real signal (his act, his own signal)",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X9.2",
+   "part": "9",
+   "block": 578,
+   "where": "What I will not use NLP for, P5",
+   "findings": [
+    "F9.2"
+   ],
+   "replace": "convince myself of my intuition",
+   "with": "convince myself an intuition is true",
+   "writer_with": "convince myself an intuition is true",
+   "how": "published",
+   "note": "says the intuition is being made to feel true, not that I have one",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X9.3",
+   "part": "9",
+   "block": 583,
+   "where": "What I will not use NLP for, P10",
+   "findings": [
+    "F9.4"
+   ],
+   "replace": "with people when there isn't enough time",
+   "with": "to create urgency where time is needed",
+   "writer_with": "to create urgency where time is needed",
+   "how": "published",
+   "note": "restores the rule against creating urgency where time is needed",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X9.4",
+   "part": "9",
+   "block": 589,
+   "where": "Running the whole NLP sequence, P3",
+   "findings": [
+    "F9.5"
+   ],
+   "replace": "Ask for their permission.",
+   "with": "Ask for their permission: is it useful to work with this image, feeling or pattern today?",
+   "writer_with": "Ask for their permission to work with their pattern today.",
+   "how": "rewrite",
+   "note": "fix check (P589): his published question, what the permission is for, whether today is useful, and image, feeling or pattern, not just pattern",
+   "mine": true,
+   "valid": true
+  },
+  {
+   "id": "X9.5",
+   "part": "9",
+   "block": 596,
+   "where": "Running the whole NLP sequence, P10",
+   "findings": [
+    "F9.7"
+   ],
+   "replace": "changes and look for evidence to support their new interpretation of the situation.",
+   "with": "changes, ask whether the new behavior is kind and doable, and ask what supports their new interpretation of the situation beyond how it feels.",
+   "writer_with": "changes, ask whether the new behavior is kind and doable, and ask what supports their new interpretation of the situation beyond how it feels.",
+   "how": "rewrite",
+   "note": "restores the kind-and-doable check and testing the interpretation beyond how it feels, instead of looking for confirmation; 'new behavior' points back to the step before",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X9.6",
+   "part": "9",
+   "block": 597,
+   "where": "Running the whole NLP sequence, P11",
+   "findings": [
+    "F9.8"
+   ],
+   "replace": "have them do something",
+   "with": "have them do one ordinary thing",
+   "writer_with": "have them do one ordinary thing",
+   "how": "published",
+   "note": "restores 'one ordinary thing', the grounding return",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X9.8",
+   "part": "9",
+   "block": 616,
+   "where": "Appendix D: Anxiety — body first, P2",
+   "findings": [
+    "F9.17"
+   ],
+   "replace": "or whatever.",
+   "with": "or feel something it believes would be unbearable.",
+   "writer_with": "or feel whatever it believes would be unbearable.",
+   "how": "published",
+   "note": "his published last item, a feeling it believes would be unbearable",
+   "mine": true,
+   "valid": true
+  },
+  {
+   "id": "X9.9",
+   "part": "9",
+   "block": 623,
+   "where": "Somatic Experiencing, P1",
+   "findings": [
+    "F9.19"
+   ],
+   "replace": "not thrusting into the trauma",
+   "with": "not digging into the trauma",
+   "writer_with": "not digging into the trauma",
+   "how": "rewrite",
+   "note": "plain word for his 'trauma excavation'",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X9.10",
+   "part": "9",
+   "block": 627,
+   "where": "Body supports, P1",
+   "findings": [
+    "F9.20"
+   ],
+   "replace": "a careful use of a massage gun, etc.",
+   "with": "a careful use of a massage gun, etc. Use the support that actually helps, rather than assembling a tiny wellness trade show around the anxiety.",
+   "writer_with": "a careful use of a massage gun, etc. Use only the support that actually helps.",
+   "how": "published",
+   "note": "his published line, joke included",
+   "mine": true,
+   "valid": true
+  },
+  {
+   "id": "X9.14",
+   "part": "9",
+   "block": 641,
+   "where": "Appendix E: Is the daydream helping or replacing your life?, P5",
+   "findings": [
+    "F9.24"
+   ],
+   "replace": "show me the helpfulness in it",
+   "with": "show me the guidance in it",
+   "writer_with": "show me the guidance in it",
+   "how": "published",
+   "note": "'guidance' for the circular 'helpfulness', matching the question in the paragraph before",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X9.15",
+   "part": "9",
+   "block": 646,
+   "where": "Appendix F: Self-trust, outside guidance, and oracle-like states, P2",
+   "findings": [
+    "F9.26"
+   ],
+   "replace": "Being able to follow up immediately",
+   "with": "Doing it yourself means being able to follow up immediately",
+   "writer_with": "Doing it yourself means being able to follow up immediately",
+   "how": "rewrite",
+   "note": "makes the fragment a sentence that says these are the advantages of doing it yourself",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X9.16",
+   "part": "9",
+   "block": 649,
+   "where": "Finding a hypnotist who can work with you, P1",
+   "findings": [
+    "F9.27"
+   ],
+   "replace": "What they are trained in (what they can treat) How they use hypnosis What they will do if things don't fit (if they are treating trauma, did they have specific training on trauma and dissociation? Having hypnosis certifications matters, but doesn't mean they are trained in trauma care)",
+   "with": "Ask them:\n- What they are trained in (what they can treat)\n- How they use hypnosis\n- What they will do if things don't fit (if they are treating trauma, did they have specific training on trauma and dissociation? Having hypnosis certifications matters, but doesn't mean they are trained in trauma care)",
+   "writer_with": "Ask them:\n- What they are trained in (what they can treat)\n- How they use hypnosis\n- What they will do if things don't fit (if they are treating trauma, did they have specific training on trauma and dissociation? Having hypnosis certifications matters, but doesn't mean they are trained in trauma care)",
+   "how": "rewrite",
+   "note": "list restored; 'Ask them' (his 'Ask') says these are things to ask a hypnotist",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X9.17",
+   "part": "9",
+   "block": 650,
+   "where": "Finding a hypnotist who can work with you, P2",
+   "findings": [
+    "F9.28"
+   ],
+   "replace": "What has/hasn't worked for you in the past How direct you want them to be What kind of touch (if any) you are ok with What kind of imagery (if any) you are ok with What you want them to do if you want them to stop What they will do if things go unexpected during or after the session What they do if you aren't sure if something is a memory or not How they will do the full return (coming out of hypnosis) at the end of the session You should be able to be firmly encouraged, but not forced to continue if you don't want to.",
+   "with": "Tell them:\n- What has/hasn't worked for you in the past\n- How direct you want them to be\n- What kind of touch (if any) you are ok with\n- What kind of imagery (if any) you are ok with\n- What you want them to do if you want them to stop\nAsk them:\n- What they will do if things go unexpected during or after the session\n- What they do if you aren't sure if something is a memory or not\n- How they will do the full return (coming out of hypnosis) at the end of the session\nYou should be able to be firmly encouraged, but not forced to continue if you don't want to.",
+   "writer_with": "Tell them:\n- What has/hasn't worked for you in the past\n- How direct you want them to be\n- What kind of touch (if any) you are ok with\n- What kind of imagery (if any) you are ok with\n- What you want them to do if you want them to stop\nAsk them:\n- What they will do if things go unexpected during or after the session\n- What they do if you aren't sure if something is a memory or not\n- How they will do the full return (coming out of hypnosis) at the end of the session\nYou should be able to be firmly encouraged, but not forced to continue if you don't want to.",
+   "how": "rewrite",
+   "note": "list restored, with his split between what you tell them (his 'Describe') and what you ask them",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X10.1",
+   "part": "10",
+   "block": 654,
+   "where": "When the subconscious speaks like an oracle, P2",
+   "findings": [
+    "F10a.1"
+   ],
+   "replace": "slow it down to the scale of the thing",
+   "with": "slow it down to the scale of its consequences",
+   "writer_with": "slow it down to the scale of its consequences",
+   "how": "rewrite",
+   "note": "says to slow the action to the size of its consequences; 'adult's eyes' left as is, since the check names only the scale",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X10.2",
+   "part": "10",
+   "block": 668,
+   "where": "Forgiving yourself, P2",
+   "findings": [
+    "F10a.3"
+   ],
+   "replace": "again, and then stop holding yourself hostage, and the responsibility stays.",
+   "with": "again. Then you're allowed to stop holding yourself hostage, and the responsibility stays.",
+   "writer_with": "hostage after responsibility has been faced",
+   "how": "published",
+   "note": "his inner child guide's own sentence, whole, which the 25 Oct alignment card had joined to the list with commas",
+   "mine": true,
+   "valid": true,
+   "writer_replace": "hostage, and the responsibility stays"
+  },
+  {
+   "id": "X10.3",
+   "part": "10",
+   "block": 668,
+   "where": "Forgiving yourself, P2",
+   "findings": [
+    "F10a.4"
+   ],
+   "replace": "how whoever did it got to be",
+   "with": "how you got to be",
+   "writer_with": "how you got to be",
+   "how": "rewrite",
+   "note": "makes clear it's you who did it, not someone else",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X10.4",
+   "part": "10",
+   "block": 670,
+   "where": "Appendix G: Altered states, P1",
+   "findings": [
+    "F10a.5"
+   ],
+   "replace": "Borrowed is fine",
+   "with": "Borrowing them is fine",
+   "writer_with": "Borrowed Nurturer and Protector is fine",
+   "how": "rewrite",
+   "note": "says what can be borrowed (the Nurturer and Protector just named), so it can't be read as borrowed substances",
+   "mine": true,
+   "valid": true
+  },
+  {
+   "id": "X10.5",
+   "part": "10",
+   "block": 671,
+   "where": "Appendix G: Altered states, P2",
+   "findings": [
+    "F10a.6"
+   ],
+   "replace": "Do not do it",
+   "with": "Do not use altered states",
+   "writer_with": "Do not use altered states",
+   "how": "published",
+   "note": "names altered states as what not to use to force a revelation",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X10.6",
+   "part": "10",
+   "block": 672,
+   "where": "Appendix G: Altered states, P3",
+   "findings": [
+    "F10a.7"
+   ],
+   "replace": "OPENED themselves up to something",
+   "with": "OPENED themselves up to love",
+   "writer_with": "OPENED themselves up to love",
+   "how": "rewrite",
+   "note": "names love as what was opened to, so the contrast that follows is about love",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X10.7",
+   "part": "10",
+   "block": 672,
+   "where": "Appendix G: Altered states, P3",
+   "findings": [
+    "F10a.8"
+   ],
+   "replace": "Let that experience inform what you OPEN yourself up to.",
+   "with": "Let that experience show you what's possible, while you build a way to get to it in everyday life.",
+   "writer_with": "Let that experience widen what seems possible while you build usable access.",
+   "how": "published",
+   "note": "his published point (let it widen what seems possible while you build usable access) in plain words",
+   "mine": true,
+   "valid": true
+  },
+  {
+   "id": "X10.8",
+   "part": "10",
+   "block": 672,
+   "where": "Appendix G: Altered states, P3",
+   "findings": [
+    "F10a.9"
+   ],
+   "replace": "give it to the child",
+   "with": "give that love to the child",
+   "writer_with": "give that love to the child",
+   "how": "rewrite",
+   "note": "says it's love you give the child",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X10.10",
+   "part": "10",
+   "block": 702,
+   "where": "Do not fight from fear, P1",
+   "findings": [
+    "F10b.3"
+   ],
+   "replace": "your own lesser self",
+   "with": "your own threatened self",
+   "writer_with": "your own threatened self",
+   "how": "rewrite",
+   "note": "names the threatened self you collapse into, instead of the vague 'lesser self'",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X10.11",
+   "part": "10",
+   "block": 715,
+   "where": "The cosmic-download humility test, P1",
+   "findings": [
+    "F10b.6"
+   ],
+   "replace": "may try to respond by giving you a sense that you’re special, trying",
+   "with": "don’t always attack through fear. They may also try to give you a sense that you’re special, try",
+   "writer_with": "don’t always attack through fear. They may also try to give you a sense that you’re special, try",
+   "how": "rewrite",
+   "note": "restores the contrast with fear, drops the dangling 'respond', makes the list parse",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X10.12",
+   "part": "10",
+   "block": 716,
+   "where": "The cosmic-download humility test, P2",
+   "findings": [
+    "F10b.7"
+   ],
+   "replace": "Unless the “guidance” you’re trying to give me can help me be more beautiful, honest, relational, humble, and useful in my everyday life, I don’t need it.”",
+   "with": "Guidance worth keeping should make ordinary life more beautiful, honest, relational, humble, reliable, and useful to other people.",
+   "writer_with": "Guidance worth keeping should make ordinary life more beautiful, honest, relational, humble, reliable, and useful to other people.",
+   "how": "published",
+   "note": "his general rule for guidance, not a near-repeat of the script, with no stray closing quote",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X11.1",
+   "part": "11",
+   "block": 722,
+   "where": "Appendix J: A practical induction library, P1",
+   "findings": [
+    "F11.1"
+   ],
+   "replace": "Practise!",
+   "with": "Preview the sequence.",
+   "writer_with": "Preview the sequence.",
+   "how": "published",
+   "note": "restores previewing the sequence in place of a bare 'Practise!'",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X11.2",
+   "part": "11",
+   "block": 722,
+   "where": "Appendix J: A practical induction library, P1",
+   "findings": [
+    "F11.2"
+   ],
+   "replace": "or instead of trance you can just do them as a contact",
+   "with": "or you can just do them as a no-trance inner contact",
+   "writer_with": "or you can just do them as a no-trance inner contact",
+   "how": "rewrite",
+   "note": "names the contact as the no-trance inner contact of exercise 9",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X11.3",
+   "part": "11",
+   "block": 723,
+   "where": "Appendix J: A practical induction library, P2",
+   "findings": [
+    "F11.3"
+   ],
+   "replace": "next, move, imagine something else, change the sensory channel you’re using, do nothing, stop",
+   "with": "next: move, imagine something else, change the sensory channel you’re using, do nothing, or stop",
+   "writer_with": "next: move, imagine something else, change the sensory channel you’re using, do nothing, or stop",
+   "how": "rewrite",
+   "note": "colon and 'or' make these choices for the next move, not steps in a row",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X11.4",
+   "part": "11",
+   "block": 726,
+   "where": "1. Stretch and release, P1",
+   "findings": [
+    "F11.4"
+   ],
+   "replace": "Think of it as releasing as you go through the sequence.",
+   "with": "Let releasing guide you as you go through the sequence.",
+   "writer_with": "Let releasing guide you as you go through the sequence.",
+   "how": "rewrite",
+   "note": "says release guides the sequence; drops the unanchored 'it'",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X11.5",
+   "part": "11",
+   "block": 726,
+   "where": "1. Stretch and release, P1",
+   "findings": [
+    "F11.5"
+   ],
+   "replace": "or voice,",
+   "with": "or inner voice,",
+   "writer_with": "or inner voice,",
+   "how": "published",
+   "note": "inner voice, not your speaking voice",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X11.6",
+   "part": "11",
+   "block": 728,
+   "where": "2. Supported floating, P1",
+   "findings": [
+    "F11.6"
+   ],
+   "replace": "Tell yourself you are going to do this before you do it.",
+   "with": "Tell yourself you are going to fractionate before you do it.",
+   "writer_with": "Tell yourself you are going to fractionate before you do it.",
+   "how": "rewrite",
+   "note": "it's the fractionation you name beforehand, not the whole exercise",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X11.7",
+   "part": "11",
+   "block": 728,
+   "where": "2. Supported floating, P1",
+   "findings": [
+    "F11.7"
+   ],
+   "replace": "Bring yourself back to normal feeling of support and return.",
+   "with": "Keep the support, come back to your normal weight and firm contact, and return.",
+   "writer_with": "Bring your weight back to normal, keeping the support, and return.",
+   "how": "rewrite",
+   "note": "fix check (P728): his published close, keep the support, regain weight and firm contact, then return",
+   "mine": true,
+   "valid": true
+  },
+  {
+   "id": "X11.8",
+   "part": "11",
+   "block": 734,
+   "where": "5. Sensory journey, P1",
+   "findings": [
+    "F11.10"
+   ],
+   "replace": "When you feel you have enough of your attention",
+   "with": "When you feel you have gathered enough of your attention",
+   "writer_with": "When you feel you have gathered enough of your attention",
+   "how": "rewrite",
+   "note": "the walk gathers your attention, so the cue for changing scenery parses",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X11.9",
+   "part": "11",
+   "block": 736,
+   "where": "6. Gradual wave, P1",
+   "findings": [
+    "F11.11"
+   ],
+   "replace": "imagine a wave spreading out",
+   "with": "imagine a wave of warmth, steadiness, or attention spreading out",
+   "writer_with": "imagine a wave of warmth, steadiness, or attention spreading out",
+   "how": "published",
+   "note": "says what the wave spreads",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X11.10",
+   "part": "11",
+   "block": 740,
+   "where": "8. Resource embodiment, P1",
+   "findings": [
+    "F11.13"
+   ],
+   "replace": "pick a resource quality.",
+   "with": "pick a resource quality you understand (warmth, boundary, steadiness, curiosity, or dignity).",
+   "writer_with": "pick a resource quality you understand (warmth, boundary, steadiness, curiosity, or dignity).",
+   "how": "published",
+   "note": "restores the examples and the 'you understand' condition",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X11.11",
+   "part": "11",
+   "block": 740,
+   "where": "8. Resource embodiment, P1",
+   "findings": [
+    "F11.14"
+   ],
+   "replace": "(or just sense yourself)",
+   "with": "(or, if you prefer, just observe it rather than embody it)",
+   "writer_with": "(or, if you prefer, just observe it rather than embody it)",
+   "how": "published",
+   "note": "restores the option to observe the quality instead of embodying it",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X11.12",
+   "part": "11",
+   "block": 740,
+   "where": "8. Resource embodiment, P1",
+   "findings": [
+    "F11.15"
+   ],
+   "replace": "the imagined \"person\" behind",
+   "with": "the imagined you behind",
+   "writer_with": "the imagined you behind",
+   "how": "rewrite",
+   "note": "points back to 'imagine yourself' instead of a person never introduced",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X11.13",
+   "part": "11",
+   "block": 742,
+   "where": "9. No-trance inner contact, P1",
+   "findings": [
+    "F11.16"
+   ],
+   "replace": "Autonomous: write whatever you get.",
+   "with": "Autonomous signal: write whatever you get (a word, sensation, impulse, objection, or silence) without interpreting it as proof.",
+   "writer_with": "Autonomous signal: write whatever you get (a word, sensation, impulse, objection, or silence) without interpreting it as proof.",
+   "how": "published",
+   "note": "restores the noun, what may come, and not reading it as proof",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X11.14",
+   "part": "11",
+   "block": 742,
+   "where": "9. No-trance inner contact, P1",
+   "findings": [
+    "F11.17"
+   ],
+   "replace": "Deepener: none.",
+   "with": "Deepener: none (full alertness isn't a lesser version).",
+   "writer_with": "Deepener: none (full alertness isn't a lesser version).",
+   "how": "rewrite",
+   "note": "restores that full alertness isn't a lesser version of the practice",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X11.15",
+   "part": "11",
+   "block": 742,
+   "where": "9. No-trance inner contact, P1",
+   "findings": [
+    "F11.18"
+   ],
+   "replace": "reality test the autonomous, do one small thing based on it, stop doing it.",
+   "with": "reality test the signal and do one small thing based on it. Since you didn't go into trance, just close the exercise and carry on with your day.",
+   "writer_with": "reality test the signal and do one small thing based on it. Since you didn't go into trance, just close the exercise and carry on with your day.",
+   "how": "rewrite",
+   "note": "names the signal, says it's the exercise you close, restores closing without a waking return",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X11.16",
+   "part": "11",
+   "block": 744,
+   "where": "Appendix K: Sources and further reading, P1",
+   "findings": [
+    "F11.19"
+   ],
+   "replace": "especially if it involves adaptations",
+   "with": "especially adaptations",
+   "writer_with": "especially adaptations",
+   "how": "rewrite",
+   "note": "drops the vague conditional 'if it involves'; the combining is the adaptation",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X11.17",
+   "part": "11",
+   "block": 744,
+   "where": "Appendix K: Sources and further reading, P1",
+   "findings": [
+    "F11.20"
+   ],
+   "replace": "This is not a validated",
+   "with": "This combination is not a validated",
+   "writer_with": "This combination is not a validated",
+   "how": "published",
+   "note": "says what isn't validated; the line on what the notes are for is left out (minor, too long)",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X11.18",
+   "part": "11",
+   "block": 748,
+   "where": "Indirect language and re-entry cues, P1",
+   "findings": [
+    "F11.21"
+   ],
+   "replace": "not because they necessarily validate some aspects of NLP, or because every example suits trauma work (Nimja did not write or endorse this guide), but because I was adapting the language used for my own purposes",
+   "with": "but that doesn't mean they validate every NLP claim, or that every example suits trauma work (Nimja did not write or endorse this guide). I adapted the language for my own purposes",
+   "writer_with": "but that doesn't mean they validate every NLP claim, or that every example suits trauma work (Nimja did not write or endorse this guide). I adapted the language for my own purposes",
+   "how": "rewrite",
+   "note": "splits the not-because/but-because: technique sources, not evidence; the wording and re-entry sequence are his own adaptations",
+   "mine": false,
+   "valid": true
+  },
+  {
+   "id": "X11.19",
+   "part": "11",
+   "block": 752,
+   "where": "Inner-child care and adult capacities, P1",
+   "findings": [
+    "F11.23"
+   ],
+   "replace": "all of these things",
+   "with": "borrowed adulthood, love that doesn't require trust, practical and relational repair, spiritual struggle, differentiation and mutual peer support",
+   "writer_with": "inner-child care and adult capacities",
+   "how": "rewrite",
+   "note": "fix check (P752): the six things his published sentence says the companion guide covers (his term borrowed adulthood), not the heading again",
+   "mine": true,
+   "valid": true
+  },
+  {
+   "id": "X11.20",
+   "part": "11",
+   "block": 755,
+   "where": "Inner speech and putting experience into words, P1",
+   "findings": [
+    "F11.25"
+   ],
+   "replace": "how you are",
+   "with": "how much inner speech you have",
+   "writer_with": "how much inner speech you have",
+   "how": "rewrite",
+   "note": "says what the questions let you check",
+   "mine": false,
+   "valid": true
+  }
+ ]
+}

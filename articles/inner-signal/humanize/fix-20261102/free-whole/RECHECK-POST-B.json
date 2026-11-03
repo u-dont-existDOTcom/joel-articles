@@ -1,0 +1,25 @@
+{
+ "commit": "a5567f33eed10675d3f2299b5526c70e57377998",
+ "how": "cleared through the editor's own API (editor.commands.clearContent, after checking the draft's title; 0 characters left), not with ctrl+a and Delete, which can make Substack write to Joel's clipboard; then fix-20261022/screen/paste_payload_lane.js (the payload fetched from raw.githubusercontent.com at the commit, its SHA-256 checked); the draft API's saved body holds the new words; the secret link by tools/humanization/substack_secret_link.js's rules; the rendered check is tools/humanization/substack_rendered_check.js's walk in the app's built-in browser",
+ "draft": 221412532,
+ "title": "TEMP recheck B (hypnosis guide appendices) - do not publish",
+ "link": "https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-1102&audience=only_paid&free_preview=false&freemail=",
+ "payload_sha256": "835dee849c6cf178547830d719d0e1d1c828dac561ef50e150f22b1b6ab5ba8c",
+ "editor_words": 13121,
+ "payload_words": 13096,
+ "editor_words_note": "+25, as every paste of part B",
+ "draft_updated_at": "2026-11-02T20:51:16.182Z",
+ "is_published": false,
+ "rendered": {
+  "lines": 266,
+  "code_points": 70422,
+  "sha256": "758040c87b4e5283526cae514ca176b9117cf793ab98e91677b1671044b5fc1f",
+  "equals_TEXT_B": false,
+  "equals_RENDERED_B": true,
+  "differences_from_TEXT_B": [
+   "the card line \"Quick Triage Web-App Version HERE\" (an embedded post's card, as in the last part B check)",
+   "Substack's editor curled two opening quotes after \"(\" as closing ones: (”It’s good nobody loves me ... (his R-561 version, as last time) and (”If I see a red cloth ... (new this time); TEXT-B.txt has them as opening quotes"
+  ]
+ },
+ "note": "RENDERED-B.txt is TEXT-B.txt with those three differences, and its SHA-256 is the rendered page's: the text Pangram's check of this link reads"
+}

@@ -1,0 +1,24 @@
+[
+ {
+  "key": "r1-S02a",
+  "name": "Psychology is the Software, first try, part a",
+  "lineage": "ND1103-S02a",
+  "scope": "stretch",
+  "words": 283,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "the labels and closers are gone and the curtains line is said the way people talk, but the Gibson sentence and the house metaphor are still dense",
+  "sha256": "4a527f49e7239918f5ee02aff1930c6fb8c58a03c94e06923b253c2114934499"
+ },
+ {
+  "key": "r1-S02b",
+  "name": "Psychology is the Software, first try, part b",
+  "lineage": "ND1103-S02b",
+  "scope": "stretch",
+  "words": 203,
+  "call": "AI",
+  "chance": 0.35,
+  "why": "plainer sentences and no paired closers; the solvent and foundation lines are still metaphor stacked on metaphor",
+  "sha256": "cc3f8bbe85c00e7240185192ddacb7e9239e98af292f80e4ffdb78d083fd2465"
+ }
+]

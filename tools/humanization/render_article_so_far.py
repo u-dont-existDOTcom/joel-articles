@@ -110,7 +110,7 @@ h1, h2, h3 {{ font-family: system-ui, sans-serif; line-height: 1.25; }}
 blockquote {{ color: #555; border-left: 3px solid #ccc; margin-left: 0; padding-left: 1rem; font-size: 0.9em; }}
 .candidate {{ font-family: system-ui, sans-serif; font-size: 0.85em; background: #fff6e0; border: 1px solid #e0b84c; border-radius: 6px; padding: 0.6rem 0.8rem; margin: 2rem 0 0.5rem; }}
 a {{ color: #0b5cad; }}
-.pn {{ font: 600 0.7em system-ui, sans-serif; color: #8a8a8a; margin-right: 0.35em; vertical-align: 0.1em; }}
+.pn {{ font: 600 0.7em system-ui, sans-serif; color: #8a8a8a; margin-right: 0.35em; vertical-align: 0.1em; -webkit-user-select: none; user-select: none; }}
 .art-img {{ margin: 1.5rem 0; }} .art-img img {{ max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; }}
 .notin {{ font-family: system-ui, sans-serif; font-size: 0.85em; background: #fde8e8; border: 2px solid #c0392b; border-radius: 6px; padding: 0.6rem 0.8rem; margin: 1rem 0; }}
 .waiting {{ font-family: system-ui, sans-serif; font-size: 0.85em; background: #f3f6fa; border: 1px solid #9fb3c8; border-radius: 6px; padding: 0.6rem 0.8rem; margin: 1rem 0; }}

@@ -1,5 +1,7 @@
 # Emulate as a fallback, and how to learn from it
 
+**Status: RETIRED for new humanization, 2026-11-03 (gate E333).** Joel, when the neuro de-armoring article's free rewrite had read AI and Emulate had no words left on his account: "yout old me emulate doens't even pass pangram 4.1 very well anymore so that's pointless and emulate has done so much damage to my guides that took too long to fix as you saw with hypnosis guide". So no new text goes to Emulate in any article, and the order below stops at step 2: the system, then Pangram, and where my versions keep reading AI, his own rewrites of a few examples, which the system learns from. What follows stays for the Emulate sentences already in his articles: their strict check (section 4, step 5.0) and the comparative read still apply wherever one is changed.
+
 **Status: ACTIVE for every article, 2026-09-30.** Joel set its place in the order: "emulate would come after the rewrite loop because the purpose of emulate is as a fallback if my system can't pass pangram." Claude wrote the rest from the Emulate run. The Inner Child chat reviewed it on 2026-10-01 and changed four things: who decides whether a published article's paragraph is Joel's own words (section 2), where the tool runs (section 3), what Joel's review of the system's first six paragraphs found (section 1), and how to collect the reviewer's 50 calls (section 6). The reasons are next to each change.
 
 **Which order, by kind of text (Joel, 2026-09-30, 20:31 UTC):**
@@ -84,7 +86,7 @@ Where a finding matches a rule the gate already has, it's named in brackets.
 - **In a long section, a small window belongs to the whole text** (community section 5, 2026-10-04, `s5/PREDICTIONS-s5.md` batches 27 to 44). In a 2,000-word section the AI windows were 40 to 70 words, and they moved with any change, before or after them: one changed sentence in P26 brought back windows at P19 and P25 (batches 37 to 42); matching the old word counts didn't keep the old cuts (batch 38); deleting a sentence to find a trigger opened windows elsewhere (batch 28). So judge a fix in the whole section, change one thing per check when hunting a window, and judge the section by its verdict.
 - **A paragraph can sit in a Human window and fail alone** (section 5, batch 32). Three paragraphs rebuilt to clear the section's windows read 100% AI alone (0.62 to 0.97). The per-paragraph checks run on the final words, after the section passes; versions that passed alone before are the first place to look (v20's P7 and v41's P32 went back in).
 - **When the cold reader and Pangram flag the same sentence, fix the reader's problem first** (section 5, P11). Its "It" had nothing to point to, and the window that read AI in four versions started there. "Support from people you trust is…" cleared both.
-- **When a meaning fix costs the section its 0%, the fix stays and the owner chooses** (section 5, 2026-10-04: "Detector results are evidence, not editorial authority", AGENTS.md). v60 kept P26's meaning fixes and reads Human at 5.0%; v59 without them reads 100% Human, and went to Joel as the alternative. His ruling will settle the rule.
+- **When a meaning fix costs the section its 0%, the fix stays and the owner chooses** (section 5, 2026-10-04: "Detector results are evidence, not editorial authority", AGENTS.md). v60 kept P26's meaning fixes and reads Human at 5.0%; v59 without them reads 100% Human, and went to Joel as the alternative. His ruling, 2026-10-29 17:21 UTC (gate E291): "we never publish nonsense because it passes pangram. we come back and we try again if clarity loses on pangram." So the clear version stays and the next try has to be both clear and Human; the unclear one that passed is not offered as the alternative.
 
 ### Writing from the lessons alone
 
@@ -94,11 +96,73 @@ Claude wrote the first two guide paragraphs of "Love Doesn't Have to Wait for Tr
 
 **The lessons tell you which sentences are loud. They don't yet tell you how to write a paragraph that passes.**
 
+The same test under Pangram 4.1 (the hypnosis guide, batch 482, 2026-10-29; Emulate's balance was 0 words): four fresh
+writers rewrote the 21 stretches that read AI in the whole-guide recheck, from a brief listing the 4.1 tells, each version
+read clear beside his published text first. In place, 11 of 21 read Human (5 at High) and 10 still read AI; 5 of those
+went from AI Low to AI High, and red moved onto 14 windows of unchanged text next to them (a whole section turned AI around
+two rewrites). `articles/inner-signal/humanize/fix-20261029/b482/recheck/read/SPOTS.md` has each one. The section 5 study
+of the cases we have (`fix-20261029/emulate-lessons/`) is the next step before any purchase (section 6, E293).
+
 The Inner Child chat's full system did better on the same section the same day (turn 7, `experiments/LOVE-DOESNT-WAIT-20260930.md` on its branch).
 - Of its first six paragraphs, five passed Pangram on the first check.
 - The E2 paragraph took three rounds of three fresh writers each. Round two's brief said "don't end on the evidence, and don't list it", and round three's asked for no so-or-because sentence explaining the answer.
 - The six took about two and a half hours, 17:03 to 19:40 UTC. E1's passing version (`analysis/transfer-20260930/E1-b.txt`) hasn't been through the gate. Its hug example is Claude's own thought, and Joel hasn't approved it.
 - Passing wasn't the end of it (Inner Child chat, 2026-10-01). Joel's read of those six found two meaning problems that the gate and Pangram had both passed. P1 carried the guide's "love and trust don't have to come as a pair" without what the guide left out: love "does require the lover to be honest (trustworthy objectively)". P4 carried the guide's "She did not tell me I wasn't angry" into his own memory ("maybe she did, you don't know"). Both are fixed, and the grounding review now tests carried claims for missing conditions and flags the guide's statements about his life (`HUMANIZATION-GATE.md`, S6). Emulate keeps meaning no better than the loop does, so its output needs the same read.
+
+### What its fixes teach (the study of 2026-10-29)
+
+Section 5's loop was never run until Joel asked on 2026-10-29 ("i wonder if we really understood all the lessons from
+emulate's fixes", then "not sure why you are asking before even checking if you can learn the lessons", E293). The study
+paired 98 of Emulate's rewrites in the hypnosis guide with the sentences they replaced and their readings
+(`articles/inner-signal/humanize/fix-20261029/emulate-lessons/LESSONS.md`, PAIRS.json; every quote checked against its
+file). What it found:
+- **The writers' brief already names what Emulate takes out** (quips, closers, textbook definitions, colon reveals, "not X
+  but Y", lists of abstract nouns). It lacked **how Emulate builds what it puts in**: it keeps or lowers the number of
+  sentences, chains steps in one spoken sentence, lets sentences run long, keeps a list inside its sentence, and asks a
+  framed test as one direct question. Our writers did the opposite and split: in batch 482, versions that kept the
+  sentence count read Human 9 times in 12, versions that split 2 times in 9.
+- **Emulate fails on the same shapes**: runs of one-command sentences, runs of same-shape sentences, fragment lists,
+  options strung on "or", and "you don't have to" lines.
+- **Much of its passing came from dropping what reads AI** (it changed meaning in 52 of 70 passing pairs), which his
+  clarity rule (E291) doesn't allow. Free-standing definitions, outcome lists and label-and-colon recipe lines passed only
+  when it dropped them; nobody but Joel (his Appendix C) has a passing shape for them yet.
+- **Under 4.1 its raw output is no longer a sure pass** (2 of 6 raw samples read Human in the screening post of
+  2026-10-22); its strong 4.1 record is single red sentences swapped inside a section that already read Human.
+
+The shape rules, as the writers get them: `articles/inner-signal/humanize/fix-20261029/b483/LESSONS-FOR-BRIEF.md` (eleven
+lines: keep the sentence count or join; chain steps; let a sentence run long; keep a list inside its sentence and never
+string options on "or"; ask a framed test directly once; break runs of three; fold a "you don't have to" into its step;
+a published point stays in the paragraph's shape; no new idioms or wrap-ups; carry every qualifier across a join; saying
+an item in full is fine). Every lane's writers' brief carries them from now on; batch 483 is their first test.
+
+**Batch 483's result, and what Joel's own fixes did instead (2026-10-30).** The writers given those rules got 2 of 11 of
+the hardest stretches to read Human, so Joel rewrote the rest himself ("ok give me the cards i'll fix everything and then
+you can learn"); nine of his versions he reports as passing Pangram on his own checks. What his versions do, in his words
+(`articles/inner-signal/humanize/fix-20261030/joel-20261030-1435-comments.txt`; gate E296): they **add clarity rather
+than compress** ("uncompress all the lists and add explanation"; "adds clarity, and breaks apart and reverses the X not Y
+ai pattern and overly efficient unclear phrasing"); they **break a list or a long run with a line that sounds different**
+(a bridge, "Continuing with the job interview:", with the line before it: "both required"; a joke, "Hopefully your name
+didn't suddenly change to Larry."); they **give an example from life** where an abstraction stood (the TikTok sign-up for
+the kinds of consent; "It's good nobody loves me, because I'm happier alone" for a dishonest reframe); and they **say who
+does it** instead of the passive ("Is the hypnotist using ..."). These are the writers' first rules now, ahead of the
+eleven above, because they keep the meaning and add to it, where Emulate's passing came from dropping it. The study of
+each of his versions beside both writers' tries comes after his versions are rechecked in place.
+
+**His versions in place, and the study (2026-10-30, gate E303).** Rechecked in the whole guide, 36 of the 37 paragraphs
+of his versions read Human, 19 at High (`articles/inner-signal/humanize/fix-20261030/recheck/read/SPOTS.md`). Beside the
+writers' tries for the same words (`HIS-STUDY.md` there), the difference is what changes: the writers moved the same
+content around (split, joined, reordered, "It's fine to" for "You can"); he changed what the paragraph does. The writers'
+first rules, in this order:
+1. Cut the hedge or the filler sentence instead of rewording it.
+2. Say what an abstract word means in experience, in the first person where the paragraph is his story.
+3. Give an abstract term an example, a funny one where the paragraph allows it; show the wrong version beside the right
+   one where the point is a difference (his reframing paragraph).
+4. Say what a step is for.
+5. Turn a slogan or a run of labels into instructions, in short paragraphs that start differently.
+6. Lead into a quoted example with a spoken line ("So we might arrive at, ...") instead of a label and a colon.
+Then the eleven shape rules above. A try may add only an example that illustrates a point the guide makes; his life, a
+joke about himself and a source he hasn't named are his to add, so a stretch that needs one goes to him as a card. And a
+lost point comes back only where nothing nearby says it, in this shape, never in the published wording (E301, E302).
 
 ## 2. When to use Emulate
 
@@ -180,6 +244,14 @@ The aim is a paragraph that keeps as many of our sentences as it can and takes f
       that he never said ("I do not use NLP with people when there isn't enough time" was Emulate's, in his voice, and
       went in), what it lost, and its slips. Check every finding against the texts; what isn't a mechanical fix goes on
       the marking page (`AGENTS.md`), with his version beside it.
+   0a. **The comparative read for sense (gate E284).** The strict check's readers look for what was added, lost or
+      slipped, and rate it; in the hypnosis guide they rated a list with no verb "small" ("Drops his point that these
+      four are separate things."), and 743 of their 808 findings were small and stayed. So then a fresh reader goes
+      through each part beside his text, sentence by sentence, for every place the result reads worse: garbled,
+      unclear, lost or vaguer (`tools/humanization/compare_read.py`). Rule 4 of his choosing rule above ("it makes at
+      least as much sense") is checked here and never assumed. Every finding is fixed or goes to him; none stays
+      because fixing it might cost the Pangram reading (gate E285). Joel, 2026-10-28 15:20 UTC: "the guide itself is
+      now too incomprehensible, we went wrong somewhere".
    1. The two-way preservation trace, by a fresh agent that hasn't seen the notes.
    2. The whole-article stance check (`tools/humanization/stance_check_prompt.py`), by a fresh agent with the whole published article: Emulate turned "without pretending that people arrive emotionally finished" into "where people don't come in pre-healed" in community section 3, nearly the opposite of what Joel wants, and only a check against the whole article shows that (Joel, 2026-10-02: "Did the reviewers not look at the article?").
    3. Sense (S1 to S6), grounding and MISFIRES, the bans, the tell ledger and architecture.
@@ -216,6 +288,10 @@ Joel's fixes stay the model for his voice. Emulate teaches what Pangram catches.
 ## 6. When to stop needing each fallback
 
 - **Emulate.** Stop routine use when the loop has passed ten paragraphs in a row without it. Go back to it if paragraphs start failing again.
+  - Before asking Joel to pay for it again (a renewal, more words), do the free work first: mine the cases we already have
+    (section 5) and try the writers, fed with what that showed, on the spots that failed. Ask only if a decision is still
+    his, and say what that work found (E293; Joel, 2026-10-29 19:22 UTC: "not sure why you are asking before even
+    checking if you can learn the lessons").
 - **Pangram.** In this test, all eleven of the reviewer's HUMAN calls matched Pangram, as every one had before. Its AI calls on our own near-the-line drafts were wrong three times in four.
   - Once the reviewer's HUMAN has held on about 50 paragraphs across articles, a reviewer HUMAN can stand in for the Pangram check.
   - The gate runs that reviewer only when a paragraph fails, so its HUMAN calls pile up slowly. To collect the 50, run it, blind, on paragraphs that are going to Pangram anyway, and log its call before the Pangram result in the article's PREDICTIONS file. (Added 2026-10-01 by the Inner Child chat.)

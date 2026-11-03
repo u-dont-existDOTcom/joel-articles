@@ -1,0 +1,2160 @@
+{
+ "about": "fidelity_keys.py extract: the numbers, terms and warnings of the master, which a draft must keep",
+ "numbers": {
+  "0.1g-0.2g": 1,
+  "1": 4,
+  "1.8-2.4g": 1,
+  "1.8g-2.4g": 1,
+  "1/24th": 1,
+  "10-20mg": 3,
+  "10-20minutes": 1,
+  "100-300mg": 1,
+  "100mg": 2,
+  "12-24hours": 1,
+  "12hours": 1,
+  "150-300mg": 2,
+  "150mg": 1,
+  "1Minute": 1,
+  "1cup": 2,
+  "1g/day": 2,
+  "1spray": 1,
+  "2": 3,
+  "2-3nights": 2,
+  "200g": 1,
+  "2010": 1,
+  "2012": 1,
+  "2024": 1,
+  "2025": 1,
+  "20mg": 1,
+  "250-500mg": 2,
+  "2cups": 1,
+  "3": 3,
+  "3-7day": 1,
+  "3-7days": 2,
+  "300-600mg": 1,
+  "300-600mg/day": 1,
+  "30mg/kg": 1,
+  "30seconds": 1,
+  "3Minutes": 1,
+  "3days": 1,
+  "3times": 1,
+  "4": 2,
+  "4,700mg": 1,
+  "400mg": 2,
+  "45minutes": 2,
+  "50-100mg": 1,
+  "500mg": 2,
+  "50mg": 1,
+  "5minutes": 1,
+  "7-14day": 1,
+  "700mg-1400mg": 1,
+  "90": 2,
+  "99.9": 1,
+  "99mg": 1,
+  "<20g/day": 1,
+  "Part1": 1,
+  "Part2": 2,
+  "Part3": 1,
+  "Part4": 1,
+  "Part5": 1,
+  "Step1": 1,
+  "Step2": 1,
+  "Step3": 1,
+  "Week8+": 1,
+  "Weeks1-2": 2,
+  "Weeks3-5": 1,
+  "~1,000mg": 1,
+  "~1,300mg": 1,
+  "~194mg": 1,
+  "~300mg": 1,
+  "~360mg": 1,
+  "~480mg/100g": 1,
+  "~600mg": 1,
+  "~700-900mg": 1,
+  "~800mg": 1,
+  "~925mg": 1,
+  "≈960mg": 1
+ },
+ "terms": [
+  "3-a",
+  "3D",
+  "3s",
+  "4-point",
+  "5-HT2A",
+  "5-HTP",
+  "8-Week",
+  "ATP",
+  "BHB",
+  "BPM",
+  "BaselineState",
+  "CBT",
+  "CDP-choline",
+  "COMT",
+  "CPU",
+  "D2-D3",
+  "DAWS",
+  "DAWS-pattern",
+  "DCS",
+  "DCS-style",
+  "DHA",
+  "DHA-induced",
+  "DHA/EPA",
+  "DMSO",
+  "DXM",
+  "DeltaFosB",
+  "EMDR",
+  "GDNF",
+  "GluD",
+  "HDAC",
+  "HPA-axis",
+  "HRV",
+  "HSPs/PI31",
+  "IQ",
+  "KCNQ",
+  "LSD",
+  "LSD/novelty",
+  "LifeLab",
+  "MAO-A",
+  "MAOI",
+  "MAOIs",
+  "MAPK",
+  "MDMA",
+  "MedlinePlus",
+  "NAC",
+  "NMDA",
+  "NMDA-dependent",
+  "NMDA/GluN2B",
+  "NMDA/glutamate",
+  "NO/imidazoline",
+  "P5P",
+  "PC",
+  "PDE-5",
+  "PQQ",
+  "PQQand",
+  "PS",
+  "PTSD",
+  "SAM-e",
+  "SNRIs",
+  "SSRIs",
+  "TPH2",
+  "TPH2-style",
+  "UMP",
+  "Val158Met",
+  "adrenaline",
+  "agmatine",
+  "avocado",
+  "ayahuasca",
+  "beet greens",
+  "broccoli sprouts",
+  "cdp-choline",
+  "choline",
+  "clonidine",
+  "coconut water",
+  "cordyceps",
+  "cortisol",
+  "cystine",
+  "d-cycloserine",
+  "d-serine",
+  "dopamine",
+  "dynorphin",
+  "eggs",
+  "electrolytes",
+  "fentanyl",
+  "fish oil",
+  "glutamate",
+  "glycinate",
+  "guanfacine",
+  "harmala",
+  "harmalas",
+  "herring",
+  "hillbilly",
+  "iboga",
+  "ibogaine",
+  "ketamine",
+  "ketone",
+  "ketones",
+  "kratom",
+  "l-serine",
+  "l-tryptophan",
+  "leucine",
+  "linezolid",
+  "lithium",
+  "mackerel",
+  "magnesium",
+  "mazatapec",
+  "mercury",
+  "methadone",
+  "myrosinase",
+  "nitrates",
+  "noribogaine",
+  "opioids",
+  "phosphatidylcholine",
+  "phosphatidylserine",
+  "potassium",
+  "potato",
+  "potatoes",
+  "pramipexole",
+  "prozac",
+  "psilocybin",
+  "ropinirole",
+  "salmon",
+  "sam-e",
+  "serotonin",
+  "shrooms",
+  "sodium",
+  "st. john's wort",
+  "sulfate",
+  "sulforaphane",
+  "tramadol",
+  "tuna",
+  "uridine",
+  "zinc"
+ ],
+ "units": [
+  {
+   "id": "W001",
+   "what": "Electrolytes: Consult a doctor if you have kidney disease or heart conditions.",
+   "paragraph": 6,
+   "keys": [
+    [
+     "consult"
+    ],
+    [
+     "electrolytes"
+    ],
+    [
+     "doctor"
+    ],
+    [
+     "conditions"
+    ]
+   ]
+  },
+  {
+   "id": "W002",
+   "what": "Never combine Iboga with most medications (especially heart & psych meds).",
+   "paragraph": 7,
+   "keys": [
+    [
+     "never"
+    ],
+    [
+     "iboga"
+    ],
+    [
+     "psych"
+    ],
+    [
+     "medications"
+    ]
+   ]
+  },
+  {
+   "id": "W003",
+   "what": "Behavioral Warning (The Isolation Trap): While this protocol demands starving the brain of \"Phasic\" Dopamine (excitement, novelty, the chase), do not isolate completely.",
+   "paragraph": 8,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "warning"
+    ],
+    [
+     "dopamine"
+    ],
+    [
+     "behavioral"
+    ],
+    [
+     "completely"
+    ]
+   ]
+  },
+  {
+   "id": "W004",
+   "what": "Avoid \"Exciting Love\" (romance, high-stakes drama), as this spikes Phasic Dopamine and resets the armor.",
+   "paragraph": 9,
+   "keys": [
+    [
+     "avoid"
+    ],
+    [
+     "dopamine"
+    ],
+    [
+     "high-stakes"
+    ],
+    [
+     "exciting"
+    ]
+   ]
+  },
+  {
+   "id": "W005",
+   "what": "Cognitive Warning: As you de-armor, you will feel naked and exposed.",
+   "paragraph": 10,
+   "keys": [
+    [
+     "warning"
+    ],
+    [
+     "cognitive"
+    ],
+    [
+     "de-armor"
+    ]
+   ]
+  },
+  {
+   "id": "W006",
+   "what": "Rule: During this protocol, do not trust your social intuition.",
+   "paragraph": 11,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "intuition"
+    ],
+    [
+     "trust"
+    ]
+   ]
+  },
+  {
+   "id": "W007",
+   "what": "Agmatine Warning (The Voltage Governor): Agmatine is not a basic nutrient like magnesium or a membrane nutrient like phosphatidylcholine.",
+   "paragraph": 12,
+   "keys": [
+    [
+     "warning"
+    ],
+    [
+     "agmatine"
+    ],
+    [
+     "magnesium"
+    ],
+    [
+     "phosphatidylcholine"
+    ],
+    [
+     "basic"
+    ],
+    [
+     "governor"
+    ]
+   ]
+  },
+  {
+   "id": "W008",
+   "what": "Do not combine agmatine casually with opioids, kratom, clonidine/guanfacine, blood-pressure medication, nitrates, PDE-5 inhibitors, MAOIs, or complex psychiatric medication stacks without clinician review.",
+   "paragraph": 13,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "without clinician review"
+    ],
+    [
+     "MAOIs"
+    ],
+    [
+     "PDE-5"
+    ],
+    [
+     "agmatine"
+    ],
+    [
+     "clonidine"
+    ],
+    [
+     "guanfacine"
+    ],
+    [
+     "kratom"
+    ],
+    [
+     "nitrates"
+    ],
+    [
+     "opioids"
+    ],
+    [
+     "blood-pressure"
+    ],
+    [
+     "psychiatric"
+    ]
+   ]
+  },
+  {
+   "id": "W009",
+   "what": "Avoid it during pregnancy or breastfeeding, and be especially cautious with bipolar disorder, psychosis history, unstable panic, low blood pressure, kidney/liver disease, or active substance relapse risk.",
+   "paragraph": 13,
+   "keys": [
+    [
+     "avoid"
+    ],
+    [
+     "cautious"
+    ],
+    [
+     "risk"
+    ],
+    [
+     "breastfeeding"
+    ],
+    [
+     "pregnancy"
+    ]
+   ]
+  },
+  {
+   "id": "W010",
+   "what": "Stop immediately if it causes flatness, anhedonia, emotional blunting, new depression, agitation, insomnia, dizziness, palpitations, nausea, loose stools, diarrhea, or increased craving.",
+   "paragraph": 14,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "palpitations"
+    ],
+    [
+     "dizziness"
+    ]
+   ]
+  },
+  {
+   "id": "W011",
+   "what": "Do not \"push through\" numbness.",
+   "paragraph": 14,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "numbness"
+    ],
+    [
+     "push"
+    ]
+   ]
+  },
+  {
+   "id": "W012",
+   "what": "Uridine & 5-HTP Warning for Psychedelic Users: These are not \"trip enhancers.\" They are repair-oriented levers that can change brain sensitivity quickly. 5-HTP is serotonergic because it is a direct serotonin precursor.",
+   "paragraph": 15,
+   "keys": [
+    [
+     "warning"
+    ],
+    [
+     "5-HTP"
+    ],
+    [
+     "serotonin"
+    ],
+    [
+     "uridine"
+    ],
+    [
+     "repair-oriented"
+    ],
+    [
+     "enhancers"
+    ]
+   ]
+  },
+  {
+   "id": "W013",
+   "what": "Do not combine it with SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St.",
+   "paragraph": 15,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "DXM"
+    ],
+    [
+     "MAOIs"
+    ],
+    [
+     "MDMA"
+    ],
+    [
+     "SNRIs"
+    ],
+    [
+     "SSRIs"
+    ],
+    [
+     "fentanyl"
+    ],
+    [
+     "linezolid"
+    ],
+    [
+     "lithium"
+    ],
+    [
+     "methadone"
+    ],
+    [
+     "tramadol"
+    ],
+    [
+     "combine"
+    ]
+   ]
+  },
+  {
+   "id": "W014",
+   "what": "John's wort, SAM-e, L-tryptophan, or other serotonin-raising stacks without clinician review.",
+   "paragraph": 15,
+   "keys": [
+    [
+     "without clinician review"
+    ],
+    [
+     "SAM-e"
+    ],
+    [
+     "l-tryptophan"
+    ],
+    [
+     "sam-e"
+    ],
+    [
+     "john's"
+    ],
+    [
+     "wort"
+    ]
+   ]
+  },
+  {
+   "id": "W015",
+   "what": "Be especially conservative around ayahuasca / harmalas because MAO-A inhibition can amplify serotonin load, and around iboga / ibogaine because ibogaine and noribogaine interact with serotonin transport biology and already carry serious cardiac and neurological risk.",
+   "paragraph": 15,
+   "keys": [
+    [
+     "interact"
+    ],
+    [
+     "risk"
+    ],
+    [
+     "MAO-A"
+    ],
+    [
+     "ayahuasca"
+    ],
+    [
+     "harmalas"
+    ],
+    [
+     "iboga"
+    ],
+    [
+     "ibogaine"
+    ],
+    [
+     "noribogaine"
+    ],
+    [
+     "serotonin"
+    ],
+    [
+     "conservative"
+    ],
+    [
+     "inhibition"
+    ]
+   ]
+  },
+  {
+   "id": "W016",
+   "what": "Rule: do not take 5-HTP on the same day as psychedelics, and do not use it anywhere near ayahuasca/harmalas or iboga unless the whole medicine plan has been medically reviewed.",
+   "paragraph": 16,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "unless"
+    ],
+    [
+     "5-HTP"
+    ],
+    [
+     "ayahuasca"
+    ],
+    [
+     "harmalas"
+    ],
+    [
+     "iboga"
+    ],
+    [
+     "medically"
+    ],
+    [
+     "anywhere"
+    ]
+   ]
+  },
+  {
+   "id": "W017",
+   "what": "Do not take UMP on the same day as psychedelics; if sensitivity changes, assume your old psychedelic dose may now be too high.",
+   "paragraph": 16,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "UMP"
+    ],
+    [
+     "changes"
+    ],
+    [
+     "sensitivity"
+    ]
+   ]
+  },
+  {
+   "id": "W018",
+   "what": "The science behind this protocol focuses on four specific neuro-biological mechanisms that must be addressed before psychological tools can be effective.",
+   "paragraph": 18,
+   "keys": [
+    [
+     "must"
+    ],
+    [
+     "neuro-biological"
+    ],
+    [
+     "addressed"
+    ]
+   ]
+  },
+  {
+   "id": "W019",
+   "what": "You must aggressively engineer a \"High-Density\" social environment (A Tribe), or the brain will eventually reach for the armor again just to survive the cold.",
+   "paragraph": 22,
+   "keys": [
+    [
+     "must"
+    ],
+    [
+     "aggressively"
+    ],
+    [
+     "high-density"
+    ]
+   ]
+  },
+  {
+   "id": "W020",
+   "what": "Before applying the tools, you must understand the specific \"Hardware Failures\" that occur during trauma, withdrawal, or chronic stress.",
+   "paragraph": 28,
+   "keys": [
+    [
+     "must"
+    ],
+    [
+     "understand"
+    ],
+    [
+     "applying"
+    ]
+   ]
+  },
+  {
+   "id": "W021",
+   "what": "The Lock (Zinc/Magnesium): Physically blocks the receptor channel to stop the voltage.",
+   "paragraph": 39,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "magnesium"
+    ],
+    [
+     "zinc"
+    ],
+    [
+     "channel"
+    ],
+    [
+     "blocks"
+    ]
+   ]
+  },
+  {
+   "id": "W022",
+   "what": "The Repair (Leucine/L-Serine): L-Serine acts as a precursor to D-Serine to recalibrate the GluD 'Volume Dial' to enhance therapeutic sessions that end with low fear/high mastery (although conversion to D-serine is inefficient, which is why some people use D-serine itself which has higher risk/benefit).",
+   "paragraph": 40,
+   "keys": [
+    [
+     "risk"
+    ],
+    [
+     "GluD"
+    ],
+    [
+     "d-serine"
+    ],
+    [
+     "l-serine"
+    ],
+    [
+     "leucine"
+    ],
+    [
+     "inefficient"
+    ],
+    [
+     "recalibrate"
+    ]
+   ]
+  },
+  {
+   "id": "W023",
+   "what": "Important conflict: do not use agmatine as a same-session companion to D-Serine/DCS-style exposure or EMDR work.",
+   "paragraph": 42,
+   "keys": [
+    [
+     "conflict"
+    ],
+    [
+     "do not"
+    ],
+    [
+     "DCS-style"
+    ],
+    [
+     "EMDR"
+    ],
+    [
+     "agmatine"
+    ],
+    [
+     "d-serine"
+    ],
+    [
+     "same-session"
+    ],
+    [
+     "companion"
+    ]
+   ]
+  },
+  {
+   "id": "W024",
+   "what": "Why don't these drugs work on calcified PTSD?",
+   "paragraph": 46,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "PTSD"
+    ],
+    [
+     "work"
+    ],
+    [
+     "calcified"
+    ]
+   ]
+  },
+  {
+   "id": "W025",
+   "what": "Double click to interact with video",
+   "paragraph": 48,
+   "keys": [
+    [
+     "interact"
+    ],
+    [
+     "double"
+    ],
+    [
+     "click"
+    ]
+   ]
+  },
+  {
+   "id": "W026",
+   "what": "The Goal: You must do this for 10-20 minutes immediately after a trigger to \"jam\" the memory reconsolidation.",
+   "paragraph": 60,
+   "keys": [
+    [
+     "must"
+    ],
+    [
+     "10-20 minutes"
+    ],
+    [
+     "trigger"
+    ],
+    [
+     "immediately"
+    ]
+   ]
+  },
+  {
+   "id": "W027",
+   "what": "(Don't lean on tuna daily - mercury.)",
+   "paragraph": 67,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "mercury"
+    ],
+    [
+     "tuna"
+    ],
+    [
+     "lean"
+    ],
+    [
+     "daily"
+    ]
+   ]
+  },
+  {
+   "id": "W028",
+   "what": "Don't raise the dose to push through - stop.",
+   "paragraph": 71,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "stop"
+    ],
+    [
+     "raise"
+    ],
+    [
+     "push"
+    ]
+   ]
+  },
+  {
+   "id": "W029",
+   "what": "Do not confuse these three tools:",
+   "paragraph": 74,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "confuse"
+    ],
+    [
+     "three"
+    ]
+   ]
+  },
+  {
+   "id": "W030",
+   "what": "Who this is for: This is not for everyone with depression.",
+   "paragraph": 79,
+   "keys": [
+    [
+     "not for"
+    ],
+    [
+     "everyone"
+    ],
+    [
+     "depression"
+    ]
+   ]
+  },
+  {
+   "id": "W031",
+   "what": "So the mechanism is plausible, but the DAWS use is still a cautious human extrapolation plus anecdote.",
+   "paragraph": 80,
+   "keys": [
+    [
+     "cautious"
+    ],
+    [
+     "DAWS"
+    ],
+    [
+     "extrapolation"
+    ],
+    [
+     "plausible"
+    ]
+   ]
+  },
+  {
+   "id": "W032",
+   "what": "Do not start UMP on the same day you start 5-HTP, agmatine, D-serine, keto, iboga, shrooms, LSD, ketamine, or any other major variable.",
+   "paragraph": 82,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "5-HTP"
+    ],
+    [
+     "LSD"
+    ],
+    [
+     "UMP"
+    ],
+    [
+     "agmatine"
+    ],
+    [
+     "d-serine"
+    ],
+    [
+     "iboga"
+    ],
+    [
+     "ketamine"
+    ],
+    [
+     "shrooms"
+    ],
+    [
+     "variable"
+    ],
+    [
+     "major"
+    ]
+   ]
+  },
+  {
+   "id": "W033",
+   "what": "Side effects / stop signs: The most common problem is the \"choline headache\" or spaced-out brain fog: if UMP accelerates membrane synthesis while choline availability is low, the system can feel under-supplied.",
+   "paragraph": 83,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "UMP"
+    ],
+    [
+     "choline"
+    ],
+    [
+     "under-supplied"
+    ],
+    [
+     "availability"
+    ]
+   ]
+  },
+  {
+   "id": "W034",
+   "what": "Other stop signs include insomnia, jitteriness, racing thoughts, irritability, emotional flatness, nausea, stomach cramps, or loose stools.",
+   "paragraph": 83,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "jitteriness"
+    ],
+    [
+     "include"
+    ]
+   ]
+  },
+  {
+   "id": "W035",
+   "what": "If it makes you wired, numb, or weirdly irritable, stop.",
+   "paragraph": 83,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "weirdly"
+    ],
+    [
+     "irritable"
+    ]
+   ]
+  },
+  {
+   "id": "W036",
+   "what": "Do not push through.",
+   "paragraph": 83,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "push"
+    ]
+   ]
+  },
+  {
+   "id": "W037",
+   "what": "Psychedelic caution: If UMP makes dreams vivid or suddenly lowers psychedelic tolerance, treat that as a safety signal.",
+   "paragraph": 84,
+   "keys": [
+    [
+     "caution"
+    ],
+    [
+     "UMP"
+    ],
+    [
+     "suddenly"
+    ],
+    [
+     "lowers"
+    ]
+   ]
+  },
+  {
+   "id": "W038",
+   "what": "Do not take UMP on psychedelic days.",
+   "paragraph": 84,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "UMP"
+    ],
+    [
+     "take"
+    ],
+    [
+     "days"
+    ]
+   ]
+  },
+  {
+   "id": "W039",
+   "what": "Who this is for: This is for the low-serotonin-looking pattern, not for every depressed person.",
+   "paragraph": 86,
+   "keys": [
+    [
+     "not for"
+    ],
+    [
+     "low-serotonin-looking"
+    ],
+    [
+     "depressed"
+    ]
+   ]
+  },
+  {
+   "id": "W040",
+   "what": "A broad review of 5-HTP discusses its role in serotonin biology and its use in mood, anxiety, sleep, obesity, myoclonus, and serotonin-toxicity contexts.",
+   "paragraph": 87,
+   "keys": [
+    [
+     "toxicity"
+    ],
+    [
+     "5-HTP"
+    ],
+    [
+     "serotonin"
+    ],
+    [
+     "serotonin-toxicity"
+    ],
+    [
+     "discusses"
+    ]
+   ]
+  },
+  {
+   "id": "W041",
+   "what": "Trial: Start lower if you are sensitive: 50 mg 5-HTP at night for 2-3 nights, then 100 mg only if the lower amount is clearly helpful and not activating.",
+   "paragraph": 89,
+   "keys": [
+    [
+     "only if"
+    ],
+    [
+     "5-HTP"
+    ],
+    [
+     "50 mg"
+    ],
+    [
+     "2-3 nights"
+    ],
+    [
+     "100 mg"
+    ],
+    [
+     "activating"
+    ],
+    [
+     "helpful"
+    ]
+   ]
+  },
+  {
+   "id": "W042",
+   "what": "Do not combine the trial with UMP, agmatine, D-serine, psychedelics, or medication changes.",
+   "paragraph": 89,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "UMP"
+    ],
+    [
+     "agmatine"
+    ],
+    [
+     "d-serine"
+    ],
+    [
+     "medication"
+    ],
+    [
+     "changes"
+    ]
+   ]
+  },
+  {
+   "id": "W043",
+   "what": "Side effects / stop signs: Nausea, stomach discomfort, loose stools, headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright / hypomanic feeling.",
+   "paragraph": 90,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "discomfort"
+    ],
+    [
+     "too-bright"
+    ]
+   ]
+  },
+  {
+   "id": "W044",
+   "what": "Stop immediately if you get agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure.",
+   "paragraph": 90,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "clonus"
+    ],
+    [
+     "fever"
+    ]
+   ]
+  },
+  {
+   "id": "W045",
+   "what": "That pattern can indicate serotonin toxicity, which can become dangerous.",
+   "paragraph": 90,
+   "keys": [
+    [
+     "dangerous"
+    ],
+    [
+     "toxicity"
+    ],
+    [
+     "serotonin"
+    ],
+    [
+     "indicate"
+    ],
+    [
+     "become"
+    ]
+   ]
+  },
+  {
+   "id": "W046",
+   "what": "Hard interaction rule: 5-HTP should not be mixed casually with serotonin-raising drugs or supplements.",
+   "paragraph": 91,
+   "keys": [
+    [
+     "interaction"
+    ],
+    [
+     "5-HTP"
+    ],
+    [
+     "serotonin-raising"
+    ],
+    [
+     "casually"
+    ]
+   ]
+  },
+  {
+   "id": "W047",
+   "what": "Case literature and clinical reviews warn about serotonin syndrome risk when 5-HTP is combined with antidepressants or MAOIs, and serotonin syndrome is most often a multi-drug / stack problem.",
+   "paragraph": 91,
+   "keys": [
+    [
+     "risk"
+    ],
+    [
+     "5-HTP"
+    ],
+    [
+     "MAOIs"
+    ],
+    [
+     "serotonin"
+    ],
+    [
+     "multi-drug"
+    ],
+    [
+     "combined"
+    ]
+   ]
+  },
+  {
+   "id": "W048",
+   "what": "See the dietary supplement interaction case report and the general serotonin-syndrome overview from MedlinePlus.",
+   "paragraph": 91,
+   "keys": [
+    [
+     "interaction"
+    ],
+    [
+     "MedlinePlus"
+    ],
+    [
+     "serotonin-syndrome"
+    ],
+    [
+     "overview"
+    ]
+   ]
+  },
+  {
+   "id": "W049",
+   "what": "For this readership: avoid 5-HTP on psychedelic days, and be especially strict around ayahuasca / harmala MAOI chemistry and iboga / ibogaine.",
+   "paragraph": 91,
+   "keys": [
+    [
+     "avoid"
+    ],
+    [
+     "5-HTP"
+    ],
+    [
+     "MAOI"
+    ],
+    [
+     "ayahuasca"
+    ],
+    [
+     "harmala"
+    ],
+    [
+     "iboga"
+    ],
+    [
+     "ibogaine"
+    ],
+    [
+     "readership"
+    ],
+    [
+     "chemistry"
+    ]
+   ]
+  },
+  {
+   "id": "W050",
+   "what": "KETONE DECISION: You must choose your fuel strategy.",
+   "paragraph": 94,
+   "keys": [
+    [
+     "must"
+    ],
+    [
+     "ketone"
+    ],
+    [
+     "decision"
+    ],
+    [
+     "choose"
+    ]
+   ]
+  },
+  {
+   "id": "W051",
+   "what": "Do not rely on lean protein alone (chicken breast), or your body will convert the protein to sugar (Gluconeogenesis), keeping you out of ketosis.",
+   "paragraph": 97,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "gluconeogenesis"
+    ],
+    [
+     "chicken"
+    ]
+   ]
+  },
+  {
+   "id": "W052",
+   "what": "To avoid side effects, refer to the Keto Adaptation Guide.",
+   "paragraph": 98,
+   "keys": [
+    [
+     "avoid"
+    ],
+    [
+     "refer"
+    ],
+    [
+     "adaptation"
+    ]
+   ]
+  },
+  {
+   "id": "W053",
+   "what": "DO NOT load extra salt (Risk of High Blood Pressure).",
+   "paragraph": 102,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "risk"
+    ],
+    [
+     "extra"
+    ],
+    [
+     "salt"
+    ]
+   ]
+  },
+  {
+   "id": "W054",
+   "what": "The Science: Your neurons have \"brakes\" called KCNQ channels that stop them from firing uncontrollably.",
+   "paragraph": 106,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "KCNQ"
+    ],
+    [
+     "uncontrollably"
+    ],
+    [
+     "called"
+    ]
+   ]
+  },
+  {
+   "id": "W055",
+   "what": "You can push the pedal (breathe), but the car won't stop.",
+   "paragraph": 106,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "breathe"
+    ],
+    [
+     "pedal"
+    ]
+   ]
+  },
+  {
+   "id": "W056",
+   "what": "The Mandate: You must hit 4,700 mg of Potassium daily.",
+   "paragraph": 107,
+   "keys": [
+    [
+     "must"
+    ],
+    [
+     "potassium"
+    ],
+    [
+     "4,700 mg"
+    ],
+    [
+     "mandate"
+    ],
+    [
+     "daily"
+    ]
+   ]
+  },
+  {
+   "id": "W057",
+   "what": "(Supplements are dangerous and limited to 99mg).",
+   "paragraph": 108,
+   "keys": [
+    [
+     "dangerous"
+    ],
+    [
+     "99mg"
+    ],
+    [
+     "limited"
+    ],
+    [
+     "supplements"
+    ]
+   ]
+  },
+  {
+   "id": "W058",
+   "what": "For this protocol, cap at 1 g/day unless clinician-supervised.",
+   "paragraph": 121,
+   "keys": [
+    [
+     "cap at"
+    ],
+    [
+     "unless"
+    ],
+    [
+     "1 g/day"
+    ],
+    [
+     "clinician-supervised"
+    ],
+    [
+     "protocol"
+    ]
+   ]
+  },
+  {
+   "id": "W059",
+   "what": "Poor fit: already numb, low-drive, depressed, dissociated, low blood pressure, sedated, or entering the Dynorphin Void.",
+   "paragraph": 123,
+   "keys": [
+    [
+     "poor fit"
+    ],
+    [
+     "dynorphin"
+    ],
+    [
+     "dissociated"
+    ],
+    [
+     "entering"
+    ]
+   ]
+  },
+  {
+   "id": "W060",
+   "what": "Stop if flatness, anhedonia, apathy, irritability, insomnia, dizziness, nausea, loose stools, diarrhea, or increased craving appears.",
+   "paragraph": 124,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "dizziness"
+    ],
+    [
+     "appears"
+    ]
+   ]
+  },
+  {
+   "id": "W061",
+   "what": "Timing rule: avoid agmatine on D-Serine/DCS-style reconsolidation days, or keep it at least 12-24 hours away from the session.",
+   "paragraph": 125,
+   "keys": [
+    [
+     "avoid"
+    ],
+    [
+     "DCS-style"
+    ],
+    [
+     "agmatine"
+    ],
+    [
+     "d-serine"
+    ],
+    [
+     "12-24 hours"
+    ],
+    [
+     "timing"
+    ],
+    [
+     "least"
+    ]
+   ]
+  },
+  {
+   "id": "W062",
+   "what": "Do not take it on psychedelic days.",
+   "paragraph": 128,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "take"
+    ],
+    [
+     "days"
+    ]
+   ]
+  },
+  {
+   "id": "W063",
+   "what": "Do not combine with serotonergic medications, ayahuasca/harmalas, iboga, MDMA, DXM, tramadol, or same-day psychedelics.",
+   "paragraph": 129,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "DXM"
+    ],
+    [
+     "MDMA"
+    ],
+    [
+     "ayahuasca"
+    ],
+    [
+     "harmalas"
+    ],
+    [
+     "iboga"
+    ],
+    [
+     "tramadol"
+    ],
+    [
+     "same-day"
+    ],
+    [
+     "medications"
+    ]
+   ]
+  },
+  {
+   "id": "W064",
+   "what": "Warning: Direct D-Serine carries a higher renal (kidney) load than L-Serine.",
+   "paragraph": 149,
+   "keys": [
+    [
+     "warning"
+    ],
+    [
+     "d-serine"
+    ],
+    [
+     "l-serine"
+    ],
+    [
+     "carries"
+    ],
+    [
+     "renal"
+    ]
+   ]
+  },
+  {
+   "id": "W065",
+   "what": "Do not exceed 30mg/kg and ensure high water intake.",
+   "paragraph": 149,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "exceed"
+    ],
+    [
+     "30mg/kg"
+    ],
+    [
+     "ensure"
+    ],
+    [
+     "water"
+    ]
+   ]
+  },
+  {
+   "id": "W066",
+   "what": "This risk is compounded by the higher renal load caused by a keto diet or high protein intake.",
+   "paragraph": 149,
+   "keys": [
+    [
+     "risk"
+    ],
+    [
+     "compounded"
+    ],
+    [
+     "caused"
+    ]
+   ]
+  },
+  {
+   "id": "W067",
+   "what": "Mechanism: Hypometabolism (Low Fuel) or Toxicity (Static).",
+   "paragraph": 152,
+   "keys": [
+    [
+     "toxicity"
+    ],
+    [
+     "static"
+    ],
+    [
+     "hypometabolism"
+    ]
+   ]
+  },
+  {
+   "id": "W068",
+   "what": "Do not start both together, and do not use either to force stronger psychedelic effects.",
+   "paragraph": 156,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "stronger"
+    ],
+    [
+     "together"
+    ]
+   ]
+  },
+  {
+   "id": "W069",
+   "what": "The Metabolic Red Line: If your resting heart rate is elevated or HRV reduced, do NOT use high heat yet.",
+   "paragraph": 158,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "HRV"
+    ],
+    [
+     "resting"
+    ],
+    [
+     "heat"
+    ]
+   ]
+  },
+  {
+   "id": "W070",
+   "what": "Make sure to check all the dangerous iboga drug interactions.",
+   "paragraph": 162,
+   "keys": [
+    [
+     "dangerous"
+    ],
+    [
+     "iboga"
+    ],
+    [
+     "interactions"
+    ],
+    [
+     "check"
+    ]
+   ]
+  },
+  {
+   "id": "W071",
+   "what": "No hot showers if heart rate elevated or heart-rate-variability reduced.",
+   "paragraph": 164,
+   "keys": [
+    [
+     "no hot"
+    ],
+    [
+     "heart-rate-variability"
+    ],
+    [
+     "elevated"
+    ]
+   ]
+  },
+  {
+   "id": "W072",
+   "what": "Phosphatidylserine 300-600 mg earlier in the day only if you fit the high-cortisol profile + 1 cup broccoli sprouts + Magnesium Glycinate 400 mg + NAC 1.8-2.4 g divided.",
+   "paragraph": 166,
+   "keys": [
+    [
+     "only if"
+    ],
+    [
+     "NAC"
+    ],
+    [
+     "broccoli sprouts"
+    ],
+    [
+     "glycinate"
+    ],
+    [
+     "magnesium"
+    ],
+    [
+     "phosphatidylserine"
+    ],
+    [
+     "300-600 mg"
+    ],
+    [
+     "1 cup"
+    ],
+    [
+     "400 mg"
+    ],
+    [
+     "1.8-2.4 g"
+    ],
+    [
+     "broccoli"
+    ],
+    [
+     "divided"
+    ]
+   ]
+  },
+  {
+   "id": "W073",
+   "what": "Optional add-on: Agmatine Sulfate 250-500 mg AM, increasing to 500 mg twice daily only if it clearly reduces the hot/itchy/reactive state without flattening mood.",
+   "paragraph": 167,
+   "keys": [
+    [
+     "only if"
+    ],
+    [
+     "agmatine"
+    ],
+    [
+     "sulfate"
+    ],
+    [
+     "250-500 mg"
+    ],
+    [
+     "500 mg"
+    ],
+    [
+     "increasing"
+    ],
+    [
+     "add-on"
+    ]
+   ]
+  },
+  {
+   "id": "W074",
+   "what": "Cap at 1 g/day in this protocol.",
+   "paragraph": 167,
+   "keys": [
+    [
+     "cap at"
+    ],
+    [
+     "1 g/day"
+    ],
+    [
+     "protocol"
+    ]
+   ]
+  },
+  {
+   "id": "W075",
+   "what": "Do not add agmatine on the same day you increase PS, start D-Serine, change NAC dose, begin keto, microdose, or introduce any other major variable.",
+   "paragraph": 167,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "NAC"
+    ],
+    [
+     "PS"
+    ],
+    [
+     "agmatine"
+    ],
+    [
+     "d-serine"
+    ],
+    [
+     "introduce"
+    ],
+    [
+     "begin"
+    ]
+   ]
+  },
+  {
+   "id": "W076",
+   "what": "If PS leaves you flat OR more wired, you're not a high-cortisol responder - drop it.",
+   "paragraph": 168,
+   "keys": [
+    [
+     "drop it"
+    ],
+    [
+     "PS"
+    ],
+    [
+     "responder"
+    ],
+    [
+     "leaves"
+    ]
+   ]
+  },
+  {
+   "id": "W077",
+   "what": "If agmatine leaves you flat, anhedonic, dizzy, nauseous, sleepless, irritable, or more craving-prone - drop it.",
+   "paragraph": 168,
+   "keys": [
+    [
+     "drop it"
+    ],
+    [
+     "agmatine"
+    ],
+    [
+     "craving-prone"
+    ],
+    [
+     "anhedonic"
+    ]
+   ]
+  },
+  {
+   "id": "W078",
+   "what": "Weeks 3-5: The Dynorphin Void (Depression Phase)State: The anxiety stops, but the world turns gray/boring.",
+   "paragraph": 171,
+   "keys": [
+    [
+     "stops"
+    ],
+    [
+     "dynorphin"
+    ],
+    [
+     "Weeks 3-5"
+    ],
+    [
+     "boring"
+    ],
+    [
+     "turns"
+    ]
+   ]
+  },
+  {
+   "id": "W079",
+   "what": "This phase is low-drive and gray by design - you do not want to keep blunting cortisol in an already-flattened system, or you'll deepen the numbness.",
+   "paragraph": 172,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "cortisol"
+    ],
+    [
+     "deepen"
+    ],
+    [
+     "design"
+    ]
+   ]
+  },
+  {
+   "id": "W080",
+   "what": "(If you never felt the wired/high-cortisol state in Weeks 1-2, you probably shouldn't have been on PS at all.)",
+   "paragraph": 172,
+   "keys": [
+    [
+     "never"
+    ],
+    [
+     "PS"
+    ],
+    [
+     "Weeks 1-2"
+    ],
+    [
+     "shouldn't"
+    ],
+    [
+     "felt"
+    ]
+   ]
+  },
+  {
+   "id": "W081",
+   "what": "Also stop agmatine here unless it is unmistakably helping acute glutamate storms without worsening flatness.",
+   "paragraph": 173,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "unless"
+    ],
+    [
+     "agmatine"
+    ],
+    [
+     "glutamate"
+    ],
+    [
+     "unmistakably"
+    ],
+    [
+     "worsening"
+    ]
+   ]
+  },
+  {
+   "id": "W082",
+   "what": "Do not take UMP on psychedelic days, and assume old psychedelic doses may become too strong if sensitivity returns.",
+   "paragraph": 174,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "UMP"
+    ],
+    [
+     "returns"
+    ],
+    [
+     "strong"
+    ]
+   ]
+  },
+  {
+   "id": "W083",
+   "what": "Do not use with serotonergic medications/supplements, ayahuasca/harmalas, iboga, MDMA, DXM, tramadol, or same-day psychedelics.",
+   "paragraph": 175,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "DXM"
+    ],
+    [
+     "MDMA"
+    ],
+    [
+     "ayahuasca"
+    ],
+    [
+     "harmalas"
+    ],
+    [
+     "iboga"
+    ],
+    [
+     "tramadol"
+    ],
+    [
+     "same-day"
+    ],
+    [
+     "medications"
+    ]
+   ]
+  },
+  {
+   "id": "W084",
+   "what": "No hot showers if heart rate elevated or heart-rate-variability reduced.",
+   "paragraph": 176,
+   "keys": [
+    [
+     "no hot"
+    ],
+    [
+     "heart-rate-variability"
+    ],
+    [
+     "elevated"
+    ]
+   ]
+  },
+  {
+   "id": "W085",
+   "what": "Reduce or stop phosphatidylserine here - you don't want to suppress an already-flattened system.",
+   "paragraph": 176,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "stop"
+    ],
+    [
+     "phosphatidylserine"
+    ],
+    [
+     "suppress"
+    ],
+    [
+     "already-flattened"
+    ]
+   ]
+  },
+  {
+   "id": "W086",
+   "what": "For years, you have likely been numb-living in your head to avoid the pain in your chest.",
+   "paragraph": 184,
+   "keys": [
+    [
+     "avoid"
+    ],
+    [
+     "numb-living"
+    ],
+    [
+     "chest"
+    ]
+   ]
+  },
+  {
+   "id": "W087",
+   "what": "Do not mistake this sensitivity for anxiety.",
+   "paragraph": 185,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "mistake"
+    ],
+    [
+     "sensitivity"
+    ]
+   ]
+  }
+ ],
+ "owner_wording": [
+  {
+   "his": "3 to 7 days",
+   "for": "3–7 days",
+   "by": "X-84, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)",
+   "why": "his \"It shouldn't take more than 3 to 7 days\" for the trial's \"for 3–7 days\""
+  },
+  {
+   "his": "Omega-3's",
+   "for": "omega-3s",
+   "by": "X-84, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)",
+   "why": "his \"Keep your Omega-3's up\" for \"Keep omega-3s in place\""
+  },
+  {
+   "his": "don't",
+   "for": "do not",
+   "unit": "W032",
+   "by": "X-84, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)"
+  },
+  {
+   "his": "uridine",
+   "for": "UMP",
+   "unit": "W032",
+   "by": "X-84, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)",
+   "why": "he names the compound uridine; the section names it Uridine monophosphate (UMP)"
+  },
+  {
+   "his": "without having a physician competent",
+   "for": "without clinician review",
+   "unit": "W008",
+   "by": "X-15, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)"
+  },
+  {
+   "his": "precautions/side effects",
+   "for": "agmatine",
+   "unit": "W008",
+   "by": "X-15, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)",
+   "why": "his label follows the paragraph that names it, \"Agmatine Warning (The Voltage Governor)\""
+  },
+  {
+   "his": "blood pressure lowering medications",
+   "for": "blood-pressure",
+   "unit": "W008",
+   "by": "X-15, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)"
+  },
+  {
+   "his": "\"psych\" stacks",
+   "for": "psychiatric",
+   "unit": "W008",
+   "by": "X-15, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)"
+  },
+  {
+   "his": "not recommended for use in pregnancy",
+   "for": "avoid",
+   "unit": "W009",
+   "by": "X-15, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)"
+  },
+  {
+   "his": "use with extreme caution",
+   "for": "cautious",
+   "unit": "W009",
+   "by": "X-15, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)"
+  },
+  {
+   "his": "likelihood of relapsing",
+   "for": "risk",
+   "unit": "W009",
+   "by": "X-15, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)"
+  },
+  {
+   "his": "breast-feeding",
+   "for": "breastfeeding",
+   "unit": "W009",
+   "by": "X-15, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)"
+  }
+ ]
+}

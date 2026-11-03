@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cn/HG-Capacity-before-content-377.txt",
+  "input_words": 115,
+  "input_sha256": "f47b3d1dd321e6a55bd257a2480b11cd437dec1c0a95f1639302c07480a621d3",
+  "balance_before": 44216,
+  "started_utc": "2026-10-26T12:59:00Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:59:08Z",
+  "response": {
+    "id": "f4e6c5fc-1c2d-4979-87c8-e39d75223639",
+    "tool": "humanize",
+    "text": "Talk to your Wise Subconscious Mind! Be sure to say things like, “Dear Wise Subconscious Mind, if you know something I’m not ready to know, please don’t break it open violently! Please do everything you can to help me know in a safe way! Please prepare me BEFORE you break it open! Please ground me BEFORE you show me the memory! Please support me BEFORE you make it intense! Please give me one next action!” etc.\n\nAlso, REMEMBER that not everything may be literally true, especially if it is trauma and memory related. The mind will make it as symbolic as possible. It will squash things together, distort it, dramatize it, pull in cultural influences, fears, etc. So, it’s best to just take it as an image, and to get help outside of yourself.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 115
+    },
+    "elapsed": 8
+  },
+  "balance_after": 43907
+}

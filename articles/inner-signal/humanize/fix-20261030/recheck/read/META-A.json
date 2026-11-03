@@ -1,0 +1,78 @@
+{
+ "feed_uuid": "fc1d8dae-ed2b-4050-9c0b-5c1571dc3548",
+ "link": "https://www.pangram.com/feed/fc1d8dae-ed2b-4050-9c0b-5c1571dc3548",
+ "created_at": "2026-10-30T16:13:34.620141-04:00",
+ "domain": "substack",
+ "content_type": "long_post",
+ "prediction_short": "Human",
+ "headline": "Mostly Human Written",
+ "version": "4.1",
+ "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+ "readout_policy_id": null,
+ "fraction_ai": 0.012906686402857304,
+ "fraction_human": 0.9870933294296265,
+ "fraction_breakdown": {
+  "ai": {
+   "low-confidence": 0.000139855474117212,
+   "high-confidence": 0.012766830623149872,
+   "medium-confidence": 0
+  },
+  "human": {
+   "low-confidence": 0.0005033017951063812,
+   "high-confidence": 0.9865900278091431,
+   "medium-confidence": 0
+  },
+  "ai-assisted": {
+   "lightly": 3.200111373961911e-20,
+   "moderately": 0
+  }
+ },
+ "document_confidence": {
+  "level": "High",
+  "boundary": null
+ },
+ "verdict_support": {
+  "ai": 0,
+  "human": 1,
+  "mixed": 0,
+  "source": "sentence_dp",
+  "ai_coverage": {
+   "p10": 0,
+   "p50": 0.013000129722058773,
+   "p90": 0.05,
+   "std": 0.0007339142612181604,
+   "mean": 0.012658901512622833,
+   "show_range": false
+  },
+  "ai_threshold": 0.800000011920929,
+  "human_coverage": {
+   "p10": 0.9870098829269409,
+   "p50": 0.9870098829269409,
+   "p90": 0.9880098700523376,
+   "std": 0.0007339142612181604,
+   "mean": 0.98735111951828
+  },
+  "human_threshold": 0.8999999761581421,
+  "coverage_resolution": 0.0010000099427998066
+ },
+ "ai_distribution": {
+  "title": "AI-generated content appears at the start and end",
+  "description": "AI-generated content is concentrated at the opening and closing, with human-written content in between."
+ },
+ "num_ai_segments": 8,
+ "num_human_segments": 167,
+ "word_count": 18815,
+ "task_id": "933476ea-d017-448e-acb5-df5148e525bc",
+ "text_sha256": "35d7b7985523030941ca5a95055d28c7adfb5c7e17da0abeb3a11af6128e480d",
+ "text_chars_js": 99999,
+ "compact_sha256": "4e93b5cbceadba0fdf35830087f8a050229694d67df38a5b533be70dfab9e15d",
+ "compact_chars": 10994,
+ "windows_word_sum": 18815,
+ "windows_ai": 8,
+ "windows_human": 167,
+ "labels": [
+  "Human",
+  "AI-Generated"
+ ],
+ "read_at": "2026-10-30, after his message of 20:15 UTC"
+}

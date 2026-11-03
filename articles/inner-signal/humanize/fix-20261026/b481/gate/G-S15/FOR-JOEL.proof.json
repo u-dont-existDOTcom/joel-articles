@@ -1,0 +1,64 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_ADMITTED_V1",
+  "candidate_sha256": "45e2021b0a00559dc67b603075389057dd670eb4db8debd3b9bf4d2ab2d42363",
+  "context_sha256": "35a61515e4095ad2f89ea2548706a0b2b35d228861de66a8ebaf19004bcb45c1",
+  "source_sha256": "f760666f9b72188050833bb131919cf89bad0815a0cf4e54aadd876fc11cb240",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "lint_verdict": "REVIEW",
+  "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+  "lint_stdout_sha256": "27eb432a00ffae0008f290a597de3f8d16bb2853f8e968d50b1a64a460a9ea11",
+  "lint_findings": [
+    {
+      "label": "B4/E15 list or packed sentence",
+      "examples": [
+        "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent - can people have their minds influenced without the conscious agr"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    },
+    {
+      "label": "D9 follows the source order",
+      "examples": [
+        "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    }
+  ],
+  "tell_ledger_counts": {
+    "ABSENT": 33,
+    "PRESENT_JUSTIFIED": 0,
+    "UNCERTAIN": 0,
+    "total": 33
+  },
+  "justified_tells": [],
+  "reviews": {
+    "preservation": {
+      "path": "REVIEW-preservation.json",
+      "sha256": "7b48bff0cb2fe10c6e1dc69562bf0ec30ed0746fe5c2aeba58389ad29c8ca305",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+        "context_id": "b481-gate-preservation-subagent-i",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    },
+    "cold_read_1": {
+      "path": "REVIEW-cold_read_1.json",
+      "sha256": "928e15546c979edfc47d56990ba8cc3419d209f09d2e5e0bfe8ece4933fbe24c",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+        "context_id": "b481-gate-cold_read_1-subagent-i",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    },
+    "cold_read_2": {
+      "path": "REVIEW-cold_read_2.json",
+      "sha256": "71cd38d89c65b6cfff44464f88357d5bcd2220c8e5c49826a9463f7c4402d286",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+        "context_id": "b481-gate-cold_read_2-subagent-i",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    }
+  },
+  "manifest_sha256": "68ab197d7af269d29174526674f7cc0d0a9a5769fe19fc929fe20e0057186715",
+  "verified_at_utc": "2026-10-26T13:58:22.364181+00:00"
+}

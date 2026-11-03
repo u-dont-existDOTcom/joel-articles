@@ -1,0 +1,21 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "5781c25329058e77a2b15598afe42a2c1e38c7cf4b9d1b85a04137a3fe7028ff",
+  "context_sha256": "36d10ee2f6573e60fab92d220dabc2c04b34ac53587572593432c9fcb58e23de",
+  "source_sha256": "c4915e440a47d8a487a1003416906a94dbc25bd15601951a8e8ba6569e116ec2",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "b481-gate-cold_read_1-subagent-f",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Judged the DRAFT ('Could you try this on a smaller scale?') against SOURCE ('Is there a way you could try this on a smaller scale?'; meaning to keep: his published guide's 'Start smaller:') and inside CONTEXT (the heading 'Nothing happens', this one-line paragraph, then 'Maybe ask to be shown just one body sensation, or just one word. Or even just whether today is for listening or resting.'); the draft occurs there once. DOES WHAT THE_CHANGE SAYS: it is the quoted Emulate question with the old sentence's 'this' in place of 'it'. MEANING: 'Is there a way you could try X' to 'Could you try X' is the same suggestion in the same form (a polite question inviting a smaller attempt) and agrees with 'Start smaller:'; it asserts nothing new (no fact, name, number or first-person claim; C03 and C04 absent). READS RIGHT: under 'Nothing happens' the question is the troubleshooting answer, and the next paragraph gives the smaller asks it points to; with 'Maybe ask ...' after it there are two soft suggestions in one gentle voice, not a run of compressed commands. 'this' has no noun in view in the section, but it is the practice that 'Nothing happens' in, as the heading sets up and as the old sentence had it; the following paragraph (one body sensation, one word, listening or resting) confirms that reading, and 'this' fits an activity better than 'it' would; read backward or forward ('try this' / 'try this: ask for less') it gives the same sense (C02 absent, with that note). TELL ROWS: went through T01 to T29 and C01 to C04 on the literal text; none is actually happening, so resolved_tell_ids is empty. Looked at hardest: T22 (the soft question form is coach-like, but it carries the actual advice, the next paragraph supplies concrete specifics, the guide addresses the reader as you throughout, and it is shorter and more direct than the source); T24 (the question is the suggestion itself and the next paragraph is the how, not a self-answer built for suspense); T19 (the question does the advising, it does not only announce a list); T15 (a shortening, not a swap to rarer words); T20 (the one-line paragraph opens the entry, it closes nothing). LINTER: B7 flags this sentence as a short landing; it is the whole paragraph (as the old question was) and the opener of the entry, not a closing line: accepted. D9: one sentence replaced in its own place, so agreement with the source order is trivial: accepted. E36/E41: 12.5 per 100 is one 'you' in an eight-word question; in the 33-word section it is one 'you', and the following paragraph uses none: accepted.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order",
+    "E36/E41 heavy second person"
+  ]
+}

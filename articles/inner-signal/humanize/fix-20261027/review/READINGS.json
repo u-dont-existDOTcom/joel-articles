@@ -1,0 +1,646 @@
+{
+ "HG-S7": {
+  "title": "One person, three jobs",
+  "type": "held",
+  "batch": "b480",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.998,
+   "window": 16,
+   "words": 1746
+  },
+  "before": null
+ },
+ "HG-S2": {
+  "title": "Borrowed adulthood, the bridge",
+  "type": "held",
+  "batch": "b479",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.998,
+   "window": 17,
+   "words": 663
+  },
+  "before": null
+ },
+ "HG-S3a": {
+  "title": "Pointer to \"Already open?\"",
+  "type": "held",
+  "batch": "b480",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.997,
+   "window": 61,
+   "words": 326
+  },
+  "before": null
+ },
+ "HG-S3b": {
+  "title": "The three stop words",
+  "type": "notyet",
+  "batch": "b479",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.997,
+   "window": 67,
+   "words": 215
+  },
+  "before": null
+ },
+ "HG-S8": {
+  "title": "Ask the guard what it wants first",
+  "type": "held",
+  "batch": "b480",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.998,
+   "window": 33,
+   "words": 108
+  },
+  "before": null
+ },
+ "HG-S9": {
+  "title": "What the parent script is",
+  "type": "held",
+  "batch": "b480",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.998,
+   "window": 39,
+   "words": 613
+  },
+  "before": null
+ },
+ "HG-S4": {
+  "title": "Big or hard-to-undo things wait",
+  "type": "held",
+  "batch": "b479",
+  "now": {
+   "part": "B",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.999,
+   "window": 2,
+   "words": 1724
+  },
+  "before": null
+ },
+ "HG-S5": {
+  "title": "No warmth today",
+  "type": "held",
+  "batch": "b480",
+  "now": {
+   "part": "B",
+   "label": "Human",
+   "confidence": "Medium",
+   "calibrated": 0.933,
+   "window": 26,
+   "words": 24
+  },
+  "before": null
+ },
+ "HG-S6": {
+  "title": "The test for a response",
+  "type": "held",
+  "batch": "b479",
+  "now": {
+   "part": "B",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.999,
+   "window": 35,
+   "words": 1772
+  },
+  "before": null
+ },
+ "HG-S10": {
+  "title": "Borrowing Nurturer and Protector",
+  "type": "held",
+  "batch": "b480",
+  "now": {
+   "part": "B",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.999,
+   "window": 33,
+   "words": 348
+  },
+  "before": null
+ },
+ "HG-S11": {
+  "title": "The daily and weekly sections",
+  "type": "confidence",
+  "batch": "b481",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.999,
+   "window": 0,
+   "words": 399
+  },
+  "before": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Medium",
+   "calibrated": 0.989,
+   "window": 2,
+   "words": 16
+  }
+ },
+ "HG-S12": {
+  "title": "The hidden menu",
+  "type": "confidence-his",
+  "batch": "b481",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.999,
+   "window": 0,
+   "words": 399
+  },
+  "before": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.649,
+   "window": 4,
+   "words": 12
+  }
+ },
+ "HG-S14": {
+  "title": "Influence without the conscious mind",
+  "type": "confidence",
+  "batch": "b481",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Medium",
+   "calibrated": 0.976,
+   "window": 7,
+   "words": 24
+  },
+  "before": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Medium",
+   "calibrated": 0.982,
+   "window": 13,
+   "words": 77
+  }
+ },
+ "HG-S15": {
+  "title": "Four kinds of agreement",
+  "type": "confidence",
+  "batch": "b481",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.998,
+   "window": 8,
+   "words": 147
+  },
+  "before": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.848,
+   "window": 15,
+   "words": 10
+  }
+ },
+ "HG-S16": {
+  "title": "Each can correct the other",
+  "type": "confidence",
+  "batch": "b481",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.998,
+   "window": 16,
+   "words": 1746
+  },
+  "before": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Medium",
+   "calibrated": 0.989,
+   "window": 25,
+   "words": 14
+  }
+ },
+ "HG-S17": {
+  "title": "It has to lead somewhere",
+  "type": "confidence",
+  "batch": "b481",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.998,
+   "window": 16,
+   "words": 1746
+  },
+  "before": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Medium",
+   "calibrated": 0.989,
+   "window": 25,
+   "words": 14
+  }
+ },
+ "HG-S18": {
+  "title": "Sober, and not suggestible",
+  "type": "confidence",
+  "batch": "b481",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.998,
+   "window": 16,
+   "words": 1746
+  },
+  "before": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.531,
+   "window": 28,
+   "words": 7
+  }
+ },
+ "HG-S19": {
+  "title": "The body's no",
+  "type": "confidence",
+  "batch": "b481",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.998,
+   "window": 16,
+   "words": 1746
+  },
+  "before": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.829,
+   "window": 30,
+   "words": 17
+  }
+ },
+ "HG-S20": {
+  "title": "Quiet little preferences",
+  "type": "confidence",
+  "batch": "b481",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.999,
+   "window": 55,
+   "words": 1624
+  },
+  "before": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.722,
+   "window": 77,
+   "words": 64
+  }
+ },
+ "HG-S21": {
+  "title": "Come back the other way",
+  "type": "confidence",
+  "batch": "b481",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.997,
+   "window": 61,
+   "words": 326
+  },
+  "before": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Medium",
+   "calibrated": 0.987,
+   "window": 87,
+   "words": 21
+  }
+ },
+ "HG-S22": {
+  "title": "Read it out loud",
+  "type": "confidence",
+  "batch": "b481",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.997,
+   "window": 61,
+   "words": 326
+  },
+  "before": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Medium",
+   "calibrated": 0.974,
+   "window": 89,
+   "words": 26
+  }
+ },
+ "HG-S23": {
+  "title": "What you want to do today",
+  "type": "confidence",
+  "batch": "b481",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.997,
+   "window": 61,
+   "words": 326
+  },
+  "before": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Medium",
+   "calibrated": 0.982,
+   "window": 91,
+   "words": 58
+  }
+ },
+ "HG-S24": {
+  "title": "A safe place",
+  "type": "confidence",
+  "batch": "b481",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.997,
+   "window": 61,
+   "words": 326
+  },
+  "before": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Medium",
+   "calibrated": 0.986,
+   "window": 93,
+   "words": 11
+  }
+ },
+ "HG-S25": {
+  "title": "Deciding to do it",
+  "type": "confidence",
+  "batch": "b481",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Medium",
+   "calibrated": 0.987,
+   "window": 62,
+   "words": 4
+  },
+  "before": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.879,
+   "window": 96,
+   "words": 2
+  }
+ },
+ "HG-S26": {
+  "title": "One next action",
+  "type": "confidence",
+  "batch": "b481",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.999,
+   "window": 109,
+   "words": 842
+  },
+  "before": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.727,
+   "window": 138,
+   "words": 6
+  }
+ },
+ "HG-S27": {
+  "title": "Treat it as an image",
+  "type": "confidence",
+  "batch": "b481",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.999,
+   "window": 109,
+   "words": 842
+  },
+  "before": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Medium",
+   "calibrated": 0.989,
+   "window": 139,
+   "words": 16
+  }
+ },
+ "HG-S28": {
+  "title": "Try it smaller",
+  "type": "confidence",
+  "batch": "b481",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Medium",
+   "calibrated": 0.961,
+   "window": 110,
+   "words": 8
+  },
+  "before": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.618,
+   "window": 142,
+   "words": 12
+  }
+ },
+ "HG-S29": {
+  "title": "The smaller asks",
+  "type": "confidence-his",
+  "batch": "b481",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.813,
+   "window": 111,
+   "words": 23
+  },
+  "before": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.575,
+   "window": 143,
+   "words": 31
+  }
+ },
+ "HG-S30": {
+  "title": "What feels fake",
+  "type": "confidence",
+  "batch": "b481",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.998,
+   "window": 112,
+   "words": 149
+  },
+  "before": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.575,
+   "window": 143,
+   "words": 31
+  }
+ },
+ "HG-S31": {
+  "title": "The part that remembers",
+  "type": "confidence-his",
+  "batch": "b481",
+  "now": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Medium",
+   "calibrated": 0.989,
+   "window": 113,
+   "words": 12
+  },
+  "before": {
+   "part": "A",
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.531,
+   "window": 146,
+   "words": 10
+  }
+ },
+ "HG-S32": {
+  "title": "The ethical double bind",
+  "type": "confidence-his",
+  "batch": "b481",
+  "now": {
+   "part": "B",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.999,
+   "window": 4,
+   "words": 329
+  },
+  "before": {
+   "part": "B",
+   "label": "Human",
+   "confidence": "Low",
+   "calibrated": 0.64,
+   "window": 5,
+   "words": 8
+  }
+ },
+ "HG-S33": {
+  "title": "A little script",
+  "type": "confidence",
+  "batch": "b481",
+  "now": {
+   "part": "B",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.999,
+   "window": 27,
+   "words": 619
+  },
+  "before": {
+   "part": "B",
+   "label": "Human",
+   "confidence": "Medium",
+   "calibrated": 0.984,
+   "window": 33,
+   "words": 18
+  }
+ },
+ "HG-S34": {
+  "title": "Finding my body parts",
+  "type": "confidence",
+  "batch": "b481",
+  "now": {
+   "part": "B",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.999,
+   "window": 27,
+   "words": 619
+  },
+  "before": {
+   "part": "B",
+   "label": "Human",
+   "confidence": "Medium",
+   "calibrated": 0.984,
+   "window": 33,
+   "words": 18
+  }
+ },
+ "HG-S36": {
+  "title": "What is theirs, what is mine",
+  "type": "confidence",
+  "batch": "b481",
+  "now": {
+   "part": "B",
+   "label": "Human",
+   "confidence": "High",
+   "calibrated": 0.997,
+   "window": 31,
+   "words": 66
+  },
+  "before": {
+   "part": "B",
+   "label": "Human",
+   "confidence": "Medium",
+   "calibrated": 0.963,
+   "window": 41,
+   "words": 10
+  }
+ }
+}

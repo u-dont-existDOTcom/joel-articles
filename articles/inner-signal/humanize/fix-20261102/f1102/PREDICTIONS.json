@@ -1,0 +1,196 @@
+[
+ {
+  "key": "f1102-61",
+  "lineage": "HG-f1102-61",
+  "scope": "stretch",
+  "blocks": [
+   58,
+   59,
+   60,
+   61,
+   62,
+   63
+  ],
+  "edits": [
+   "F-61",
+   "F-62"
+  ],
+  "words": 262,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": "the pairs of minds in a row that open the paragraph; the four-way pairing, said twice now",
+  "human_tells": "his \"Nobody needs to win!\"; \"The same goes for\"",
+  "sha256": "62b3574d48c5fc0acd8a60d30389a0b629e763e899fb839c7a290988b95dfbf0"
+ },
+ {
+  "key": "f1102-119",
+  "lineage": "HG-f1102-119",
+  "scope": "stretch",
+  "blocks": [
+   115,
+   116,
+   117,
+   118,
+   119
+  ],
+  "edits": [
+   "F-119"
+  ],
+  "words": 240,
+  "call": "Human",
+  "chance": 0.7,
+  "tells": "the instructions in a row (\"just meet it with love\")",
+  "human_tells": "his loop of love going around, \"they don't owe it to you\"",
+  "sha256": "c4e0d7797348e0b42dd97ab771e5caa056bccd2400fd64edc17e162e38fad7aa"
+ },
+ {
+  "key": "f1102-216",
+  "lineage": "HG-f1102-216",
+  "scope": "stretch",
+  "blocks": [
+   210,
+   211,
+   212,
+   213,
+   214,
+   215,
+   216
+  ],
+  "edits": [
+   "F-216"
+  ],
+  "words": 254,
+  "call": "Human",
+  "chance": 0.55,
+  "tells": "the run of questions (the checklist itself), and the list of manipulative sentences",
+  "human_tells": "\"Will they punish me, shame me, laugh at me\"; the plain boundary line",
+  "sha256": "7684766b41c762c75d4e5ecbbdee68315c75c6d9b210d4e7612c8e32ac9521be"
+ },
+ {
+  "key": "f1102-361",
+  "lineage": "HG-f1102-361",
+  "scope": "stretch",
+  "blocks": [
+   360,
+   361,
+   362,
+   363,
+   364
+  ],
+  "edits": [
+   "F-361"
+  ],
+  "words": 400,
+  "call": "Human",
+  "chance": 0.55,
+  "tells": "the five steps in brackets; the 3-2-1 senses list",
+  "human_tells": "\"a handy appointment with yourself\"",
+  "sha256": "f48eb0b914a01d4f2b154e8f1ce41ed72cafee00d670e7bfe83cbbaf515cf09b"
+ },
+ {
+  "key": "f1102-527",
+  "lineage": "HG-f1102-527",
+  "scope": "stretch",
+  "blocks": [
+   523,
+   524,
+   525,
+   526,
+   527,
+   528,
+   529
+  ],
+  "edits": [
+   "F-527",
+   "F-528"
+  ],
+  "words": 173,
+  "call": "AI",
+  "chance": 0.45,
+  "tells": "the run of short questions; the nominalization list",
+  "human_tells": "his \"A bit more safety can come to me\"",
+  "sha256": "5fedbbc894fc5d73f47ed29df0ce2ae6d7b7636b1c0abfa875185430f46a98fc"
+ },
+ {
+  "key": "f1102-762",
+  "lineage": "HG-f1102-762",
+  "scope": "stretch",
+  "blocks": [
+   758,
+   759,
+   760,
+   761,
+   762
+  ],
+  "edits": [
+   "F-762"
+  ],
+  "words": 299,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": "a citation list",
+  "human_tells": "his Cochrane medal joke; \"don't blame them\"",
+  "sha256": "9926d10d7f4f9eb1d3219f13ca2518552192c42be1497828fb4b8ad37d8a29eb"
+ },
+ {
+  "key": "c1102-92a",
+  "lineage": "HG-c1102-92a",
+  "scope": "stretch",
+  "blocks": [
+   90,
+   91,
+   92,
+   93
+  ],
+  "edits": [
+   "C-92"
+  ],
+  "words": 242,
+  "call": "Human",
+  "chance": 0.5,
+  "tells": "his \"That's X, not Y\" line now ends on its \"not Y\" (O9)",
+  "human_tells": "his rent and party jokes, 🙈",
+  "sha256": "0e249fb678a6894578458569db7bd21555df52579ad7a7805a1dc52c40bec843"
+ },
+ {
+  "key": "c1102-92b",
+  "lineage": "HG-c1102-92b",
+  "scope": "stretch",
+  "blocks": [
+   90,
+   91,
+   92,
+   93
+  ],
+  "edits": [
+   "C-92b"
+  ],
+  "words": 250,
+  "call": "Human",
+  "chance": 0.55,
+  "tells": "a bracket inside his line",
+  "human_tells": "his rent and party jokes, 🙈",
+  "sha256": "438ba4c23b1d51e224c0f8cb70773fd6b05ee3e0e8924d49b76a5c304b2c0ea7"
+ },
+ {
+  "key": "c1102-480",
+  "lineage": "HG-c1102-480",
+  "scope": "stretch",
+  "blocks": [
+   476,
+   477,
+   478,
+   479,
+   480
+  ],
+  "edits": [
+   "C-480"
+  ],
+  "words": 318,
+  "call": "Human",
+  "chance": 0.6,
+  "tells": "three prompts in a row",
+  "human_tells": "his \"I'd only do it if it's loving and leaves you free\"",
+  "sha256": "e6a62be10a07f29a013ee532ca965f379404a1396c4e822fc2a10500d774b616"
+ }
+]

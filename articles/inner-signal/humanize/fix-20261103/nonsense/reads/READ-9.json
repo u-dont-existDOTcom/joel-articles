@@ -1,0 +1,20 @@
+{"part": "9", "findings": [
+  {"block": 731,
+   "text": "When you feel you have gathered enough of your attention",
+   "kind": "meaningless",
+   "what": "You gather information or impressions, not 'enough of your attention'; the phrase does not say what has been gathered.",
+   "fix": "When you feel you have taken in enough",
+   "confidence": "likely"},
+  {"block": 715,
+   "text": "They all lead to the same thing, which is how to maintain a presence of love",
+   "kind": "meaningless",
+   "what": "Things do not 'lead to' a 'how to'; the intended sense is that they all come down to the same question.",
+   "fix": "They all come down to the same thing, which is how to maintain a presence of love",
+   "confidence": "likely"},
+  {"block": 729,
+   "text": "some yarn, some bubbles, or some knots that you place beside you",
+   "kind": "wrong-word",
+   "what": "Bubbles cannot unwind or be placed as strands, unlike yarn and knots; a word like ribbon or thread seems meant.",
+   "fix": "some yarn, some ribbon, or some knots that you place beside you",
+   "confidence": "likely"}
+], "notes": "Part is mostly clean; the three findings are judgment calls and none is certain. Jokes (Larry, Cochrane medal) and the citations I could check (Phillips/Frederick 1995, Levine 2010/2012/2015, Levine/Kline, Nedergaard/Lupyan 2024) look right."}

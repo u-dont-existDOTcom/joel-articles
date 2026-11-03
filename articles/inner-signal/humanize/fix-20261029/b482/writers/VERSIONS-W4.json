@@ -1,0 +1,22 @@
+{
+ "J1": {
+  "v1": "Maybe you've fooled yourself before, and that part of you remembers it.",
+  "v2": "Maybe you have fooled yourself before and that part remembers when you did.",
+  "keeps": "Two points, in order: you may have fooled yourself before (v1 'Maybe you've fooled yourself before'; v2 'Maybe you have fooled yourself before'), and that part remembers it, which sets up 'Tell me what you remember' (v1 'that part of you remembers it'; v2 'that part remembers when you did'); v1 is the smallest change, both give 'remembers' an object so the sentence stops ending on a punchline."
+ },
+ "J2": {
+  "v1": "It should make sense too, and even then, if it's big or hard to undo, it can wait until you're calm and you've checked it against what you actually know.",
+  "v2": "It would have to make sense too. And even with all that, I wouldn't do anything big or hard to undo until I'm calm and I've checked it against what I actually know.",
+  "keeps": "Five points: it should also make sense, a third condition after loving and leaving you free (v1 'It should make sense too'; v2 'It would have to make sense too'); even when all three hold (v1 'even then'; v2 'even with all that'); anything big or hard to undo waits (v1 'if it's big or hard to undo, it can wait'; v2 'I wouldn't do anything big or hard to undo', in the first person of his 'I'd only do it if'); until you're calm (v1 'until you're calm'; v2 'until I'm calm'); and until you've checked it against what you actually know (v1 'you've checked it against what you actually know'; v2 'I've checked it against what I actually know')."
+ },
+ "J3": {
+  "v1": "If there’s no warmth today then rest your hands there and notice what you find, without having to fake anything.",
+  "v2": "If you don’t feel any warmth today, there’s no need to fake it. Just rest your hands there and notice what you find.",
+  "keeps": "Four points: if there's no warmth today (v1 'If there's no warmth today'; v2 'If you don't feel any warmth today'); rest your hands there (v1 'then rest your hands there'; v2 'Just rest your hands there'); notice what you find (same words in both); no faking required (v1 'without having to fake anything'; v2 'there's no need to fake it', moved up beside the warmth clause); both drop the question opener and the closing quip, and avoid echoing 'You don't have to fix it' from the quote."
+ },
+ "J4": {
+  "v1": "It’s more useful to ask whether the way you’re responding to it is helping you become clearer and steadier, and less hooked.",
+  "v2": "Just keep an eye on whether the way you’re responding to it helps you get clearer and steadier and less hooked.",
+  "keeps": "Three points: this is the useful thing to ask while it's unsettled whether it's a guard (v1 'It's more useful to ask'; v2 'Just keep an eye on'); about the way you're responding to it, with 'it' pointing to the possible guard of the first sentence (both 'whether the way you're responding to it'); and whether that helps you become clearer, steadier and less hooked, all three kept (v1 'is helping you become clearer and steadier, and less hooked'; v2 'helps you get clearer and steadier and less hooked'); both drop the 'The useful question is' signpost and the comma list of three."
+ }
+}

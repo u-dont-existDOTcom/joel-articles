@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cn/HG-Forgiveness-without-bypass-665.txt",
+  "input_words": 46,
+  "input_sha256": "b60960468f8d5ef57b7bba5f8262fd14066df71a0309a0c9eb99f8d04eef3f2a",
+  "balance_before": 41572,
+  "started_utc": "2026-10-26T13:00:09Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T13:00:15Z",
+  "response": {
+    "id": "47792b34-f748-4a9b-bb8d-6d2b16039396",
+    "tool": "humanize",
+    "text": "Ok, so this isn't totally linear or in order, but let's keep working at it. Here's some questions that are helpful for me to ask: What actually happened? What was the impact? What boundaries need to be set? What has happened in the life of the other person(s) that created them as they are? What is theirs? What is mine? What does it take for them to be accountable? How can I let this go?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 46
+    },
+    "elapsed": 5
+  },
+  "balance_after": 41526
+}

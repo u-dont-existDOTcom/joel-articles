@@ -1,0 +1,136 @@
+{
+ "part": 6,
+ "candidates": [
+  {
+   "block": 662,
+   "cut": ": the bigger the consequences, the slower you go",
+   "join": "",
+   "kind": "says-again",
+   "already_said": "[662] \"Especially if it's a big thing, or something that can't be easily undone, slow down\" (the first half of the same sentence)",
+   "adds": "Only the graded form (the bigger the consequences, the slower). The trigger ('a big thing, or something that can't be easily undone') is in the first half, and [664] gives the same bigger-means-more rule for reaching outside.",
+   "loses": "Nothing important: only the graded wording of a point the first half already makes.",
+   "strength": "borderline"
+  },
+  {
+   "block": 664,
+   "cut": " The bigger and more un-undoable something is, the more you want to reach outside.",
+   "join": "",
+   "kind": "says-again",
+   "already_said": "[664] \"But if it's bigger than all of those, ask outside of yourself, too.\"; [662] \"Especially if it's a big thing, or something that can't be easily undone, slow down\"",
+   "adds": "Only the scale form (the bigger, the more). The action (ask outside) is the sentence before it, and the 'bigger' and 'can't be undone' criteria are in [662].",
+   "loses": "Nothing important: only the scale wording.",
+   "strength": "clear"
+  },
+  {
+   "block": 666,
+   "cut": " Another person doesn’t get automatic trust, or automatic dismissal.",
+   "join": "",
+   "kind": "sums-up",
+   "already_said": "[666] \"it is possible to give your power away. Seeking counsel can slide into abdicating to an authority figure without you noticing.\"; [665] \"Sometimes it is right to go it alone, but I would suggest making it the last step, after you've tried to get counsel.\"",
+   "adds": "A one-line balance. The 'automatic trust' half restates the two sentences before it; the 'automatic dismissal' half is only implied by [664] and [665].",
+   "loses": "The one-line statement of the balance (neither automatic trust nor automatic dismissal).",
+   "strength": "borderline"
+  },
+  {
+   "block": 667,
+   "cut": ", but they don’t interpret what you experience",
+   "join": "",
+   "kind": "caveat-again",
+   "already_said": "[667] \"attention without interpretation, advice, or fixing\" and \"but you don’t act as each other’s Guide\"",
+   "adds": "nothing",
+   "loses": "The explicit limit on the careful-question sentence; the same limit is stated twice earlier in the paragraph.",
+   "strength": "borderline"
+  },
+  {
+   "block": 677,
+   "cut": " Love starts with hearing out the resistance to it first.",
+   "join": "",
+   "kind": "sums-up",
+   "already_said": "[677] \"try to deal with why you can't, instead of trying to ramp up the experience. Often there's a child guard part that’s seen love come with strings or get revoked before in a painful way.\"",
+   "adds": "Only the general form of the point and the words 'hearing out' (listen to the guard part rather than fix it).",
+   "loses": "The one-line principle; the instruction and the guard-part explanation before it carry the same point.",
+   "strength": "borderline"
+  },
+  {
+   "block": 681,
+   "cut": "In other words, if using self-hypnosis while you're in an altered state of consciousness isn't helping you become more loving, more grounded, more honest with yourself, sleep better, become more communicative and more able to do your everyday responsibilities, etc, then stop trying to go deeper into your altered state of consciousness, and start working on integrating what you've already gotten from it.",
+   "join": "",
+   "kind": "says-again",
+   "already_said": "[680] \"Don’t use self-hypnosis to try to keep the altered state of consciousness going indefinitely, to force memories to come back, to make yourself more afraid, to get by without sleep, to put off taking care of medical problems, to become less communicative, etc.\"; [679] \"Help me to become more grounded. Help me to only take what I can integrate. Help me to remember love. Help me to come back when it's time.\"",
+   "adds": "Only the instruction to stop going deeper and work on integrating, which [680] ('keep the altered state of consciousness going indefinitely') and the [679] script lines ('only take what I can integrate', 'come back when it's time') already imply. The rest is [680]'s list turned into its positive test (loving, grounded, honest, sleep, communicative, able to do responsibilities); the same test is The General Rule at [718].",
+   "loses": "Nothing: the stop-going-deeper-and-integrate instruction is carried by [679], [680] and [718].",
+   "strength": "clear"
+  },
+  {
+   "block": 697,
+   "cut": "So what do you do when you encounter a demon, or a jinn, or something else that’s bad and intrusive?",
+   "join": "",
+   "kind": "preview-recap",
+   "already_said": "[694] \"something that you perceive to be a demon, a jinn, a parasitic energy, or whatever other dark entity or terrifying archetype you may encounter\"; [695] \"What matters is finding the best way to deal with them, so you end up safer, clearer, more loving, more grounded and less hooked.\"",
+   "adds": "nothing",
+   "loses": "Nothing in content; only a spoken bridge into the section, and [698] answers directly under the heading.",
+   "strength": "borderline"
+  },
+  {
+   "block": 703,
+   "cut": "Remember that you don’t have to know what it is. ",
+   "join": "",
+   "kind": "caveat-again",
+   "already_said": "[695] \"it doesn’t matter if they’re demons or not.\"; [698] \"don’t try to figure out what it is.\"; heading [701] \"A response check, not a verdict about what it is\"",
+   "adds": "nothing",
+   "loses": "Nothing; the heading, [695] and [698] carry it, and the word 'Remember' marks it as a reminder.",
+   "strength": "borderline"
+  },
+  {
+   "block": 705,
+   "cut": "You don’t have to find out if it’s a guard immediately, and you may not be able to comfort it quickly. Just keep an eye on whether the way you’re responding to it helps you get clearer and steadier and less hooked.",
+   "join": "",
+   "kind": "preview-recap",
+   "already_said": "[703] \"Remember that you don’t have to know what it is. Find out if it helps to be warm towards it or to keep it at arm’s length, and keep your boundary either way.\"; [695] \"so you end up safer, clearer, more loving, more grounded and less hooked.\"; heading [701] \"A response check, not a verdict about what it is\"",
+   "adds": "Only 'you may not be able to comfort it quickly', a small reassurance. The rest is the two points of [703] (you don't have to know what it is; check whether your response helps), with the measure from [695].",
+   "loses": "That one reassurance; [704] already ends the section with what to do if it doesn't help.",
+   "strength": "borderline"
+  },
+  {
+   "block": 708,
+   "cut": " (If you’re proud, you give it an opponent, and if you panic, you give it your nervous system.)",
+   "join": "",
+   "kind": "every-case",
+   "already_said": "[708] \"It becomes a center of attention if you fear it, and if you hate it, you give it a hook in you.\"; [707] \"Your first instinct may be to fight it, banish it, hate it, show it that you’re more powerful than it is, argue with it, panic, turn completely into the frightened part of you, etc.\"",
+   "adds": "Two more reaction-and-cost pairs (pride gives it an opponent, panic gives it your nervous system). They match 'show it that you’re more powerful' and 'panic' in [707], but the point (reacting out of fear feeds it) is already made by the first two.",
+   "loses": "Two vivid pairings.",
+   "strength": "borderline"
+  },
+  {
+   "block": 712,
+   "cut": ", but it can be useful to approach it with love while also making it clear that it needs to respect your boundaries",
+   "join": "",
+   "kind": "says-again",
+   "already_said": "[711] \"You can also tell the presence that while you have compassion for it, the door is closed.\" (and heading [710] \"compassion present, door closed\")",
+   "adds": "nothing",
+   "loses": "The positive half of the 'not X, but Y' contrast, which [711] and the script in [713] carry.",
+   "strength": "borderline"
+  },
+  {
+   "block": 721,
+   "cut": "Guidance worth keeping should make ordinary life more beautiful, honest, relational, humble, reliable, and useful to other people.",
+   "join": "",
+   "kind": "sums-up",
+   "already_said": "[720] \"Unless the info you’re trying to download to me can help me do the dishes, clean my room, be more honest, be more helpful, be more loving, keep my promises, take care of my body by resting and eating etc, I don’t need it.\"; [718] \"making you more loving, more grounded, more relational, more honest, more functional\"",
+   "adds": "Only the abstract wording (beautiful, humble, reliable, useful to other people) for the goods the script lists (the dishes, the room, honest, helpful, loving, promises, the body); the same test is The General Rule at [718].",
+   "loses": "Nothing; the [720] script and The General Rule at [718] carry the test.",
+   "strength": "clear"
+  },
+  {
+   "block": 723,
+   "cut": "I just don’t want you to do that. ",
+   "join": "",
+   "kind": "says-again",
+   "already_said": "heading [722] \"Don’t become an entity hobbyist\"; [723] \"some of you may be tempted to make this an area of hobbyism\"",
+   "adds": "nothing",
+   "loses": "The direct ask in the author's voice; the heading carries the sense and the next sentence gives the reason.",
+   "strength": "borderline"
+  }
+ ],
+ "notes": "Not reported, since each sits in its own section with its own job: the get-help conditions in [700] and [716], the altered-state trigger list in [683] and [694], and the scripts and exercises ([670], [699], [709], [713], [720], [731]-[754]). The same test (more loving, grounded, honest, functional) is said in [681], [695], [705], [718] and [721]; [718] has its own heading, so [681], [705] and [721] are the repeats reported. Checked and kept because they add something: the second sentences of [640] and [661], and the last sentence of [684]."
+}

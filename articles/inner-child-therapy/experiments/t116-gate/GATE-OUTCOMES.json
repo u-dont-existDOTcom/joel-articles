@@ -1,0 +1,59 @@
+{
+ "gated": {
+  "G1": {
+   "reviews": {
+    "preservation": "PASS",
+    "cold_read_1": "PASS",
+    "cold_read_2": "PASS"
+   },
+   "admitted": true,
+   "gate": "DELIVERED G1/FOR-JOEL.txt proof=G1/FOR-JOEL.proof.json sha256=ff612e099ca19a096dbacced45813331710a70234ab871fb552e0ba3f061c769"
+  },
+  "G2": {
+   "reviews": {
+    "preservation": "PASS",
+    "cold_read_1": "PASS",
+    "cold_read_2": "PASS"
+   },
+   "admitted": true,
+   "gate": "DELIVERED G2/FOR-JOEL.txt proof=G2/FOR-JOEL.proof.json sha256=e1d993f980b1b2fd8ce9043ecb6f0b8ec8af32edd8f92fad8cbcccb9b336b3c5"
+  },
+  "G3": {
+   "reviews": {
+    "preservation": "PASS",
+    "cold_read_1": "PASS",
+    "cold_read_2": "PASS"
+   },
+   "admitted": true,
+   "gate": "DELIVERED G3/FOR-JOEL.txt proof=G3/FOR-JOEL.proof.json sha256=3ab50be68d54782048a4bd7b9113d662201d79cf604ee709dc7c2c2db6f05940"
+  },
+  "G4": {
+   "reviews": {
+    "preservation": "PASS",
+    "cold_read_1": "PASS",
+    "cold_read_2": "PASS"
+   },
+   "admitted": true,
+   "gate": "DELIVERED G4/FOR-JOEL.txt proof=G4/FOR-JOEL.proof.json sha256=3c170688ef5bfbe618b08b4cd6ffd0353919a77a1f967a3d702e38063b241ca9"
+  },
+  "G5": {
+   "reviews": {
+    "preservation": "PASS",
+    "cold_read_1": "PASS",
+    "cold_read_2": "PASS"
+   },
+   "admitted": true,
+   "gate": "DELIVERED G5/FOR-JOEL.txt proof=G5/FOR-JOEL.proof.json sha256=61ddb048d2c0bea1fec9b882332728a0a9c8029c54ec5ecc57c912da424f8db1"
+  },
+  "G6": {
+   "reviews": {
+    "preservation": "PASS",
+    "cold_read_1": "PASS",
+    "cold_read_2": "PASS"
+   },
+   "admitted": true,
+   "gate": "DELIVERED G6/FOR-JOEL.txt proof=G6/FOR-JOEL.proof.json sha256=be3883db3f2770d9804b178cf7e5933c3d5894eefa13cea69a546def14da8210"
+  }
+ },
+ "cuts": {}
+}

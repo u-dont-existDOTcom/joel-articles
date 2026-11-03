@@ -1,0 +1,64 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_ADMITTED_V1",
+  "candidate_sha256": "18b597d5cd273f1bd12e38606cf7ecf8772a09b5957ce33582fafc3374e925e3",
+  "context_sha256": "da715839396d1c7dcb4ac9aee599e601744af07a38dc9c0953b9e70d53ffddbd",
+  "source_sha256": "9507e40dc72e751d1e0c7a4e2d953b25512ce2afd9d1be7c910b4d186e037ec1",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "lint_verdict": "REVIEW",
+  "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+  "lint_stdout_sha256": "dff4c7de7a7eb8df1af06734a2c109c299d70e14384bb7d0b7aaa8d4853a3f52",
+  "lint_findings": [
+    {
+      "label": "B7 short landing at paragraph end",
+      "examples": [
+        "Let’s see if I can find my body parts."
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    },
+    {
+      "label": "D9 follows the source order",
+      "examples": [
+        "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    }
+  ],
+  "tell_ledger_counts": {
+    "ABSENT": 33,
+    "PRESENT_JUSTIFIED": 0,
+    "UNCERTAIN": 0,
+    "total": 33
+  },
+  "justified_tells": [],
+  "reviews": {
+    "preservation": {
+      "path": "REVIEW-preservation.json",
+      "sha256": "8914b9bc01f72edd423978e7a4e3e5afe2f621d70dfb41b006f9b3d9af10fac5",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+        "context_id": "b481-gate-preservation-subagent-k",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    },
+    "cold_read_1": {
+      "path": "REVIEW-cold_read_1.json",
+      "sha256": "ddc0c631b2b2e6527df59d4f0e3e2c7230711c71aa38e7301186e6ae80719e16",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+        "context_id": "b481-gate-cold_read_1-subagent-k",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    },
+    "cold_read_2": {
+      "path": "REVIEW-cold_read_2.json",
+      "sha256": "7c8274671d87d4c1a93045409bfc0af253e65fa3f7a3d5effe077e86d039bb14",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+        "context_id": "b481-gate-cold_read_2-subagent-k",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    }
+  },
+  "manifest_sha256": "ff2fb5532d8f297d34ca809e55cc71bce9f53f7d24261dd7a131c26dd03e0dd9",
+  "verified_at_utc": "2026-10-26T14:03:43.184394+00:00"
+}

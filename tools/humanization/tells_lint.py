@@ -882,6 +882,42 @@ EVAL_OPINION = re.compile(r"\bI\s+(?:really\s+|kind of\s+|sort of\s+|actually\s+
 EVAL_IN_SOURCE = re.compile(r"\bI\s+(?:\w+\s+){0,2}(?:like|love|admire|appreciate|enjoy|adore|prefer|hate|dislike|respect|glad|happy)\b", re.I)
 
 
+# O48: a form of "be" or "get" and a past participle (regular "-ed", or a common irregular one), with an adverb allowed between
+# ("is being used", "are disclosed", "was quietly told"); adjectives that end in -ed ("is interested") are counted too, which is
+# why the check is a REVIEW for a run of three or more in a paragraph, not a FAIL.
+# O52: three or more things in a row, each with its own small word ("a task, a boundary, a meal"), the run ending the question
+NOUN_RUN = re.compile(r"(?:\b(?:a|an|the|some|your|any)\s+[a-z]+(?:\s+[a-z]+)?\s*,\s*){2,}(?:(?:or|and)\s+)?"
+                      r"\b(?:a|an|the|some|your|any)\s+[a-z]+(?:\s+[a-z]+)?\s*\?", re.I)
+# O53 to O58: phrases Joel cut in his Pangram history (fix-20261102/joel-pangram/history/HISTORY-LEARNING.md): the rule, the
+# pattern (straight quotes), what it is, and what he did instead.
+HISTORY_CUTS = [
+    ('O53', r"\bwon't mind\b", '"won\'t mind" ("A good therapist or helpline won\'t mind.")',
+     'say the plain thing, the way he did ("That\'s a normal and expected question."), or take it out'),
+    ('O54', r"\bone more thing\b", '"One more thing about…"', 'start with the thing itself, the way he did ("Let\'s say…")'),
+    ('O55', r"\bthat's not good because\b", '"And that\'s not good because…"',
+     'fold it into its sentence, the way he did ("…it, which is humiliating.")'),
+    ('O56', r"\ba last resort\b", '"a last resort" ("A full break from your little one is a last resort, unless…")',
+     'say when it applies, or take it out (he cut it)'),
+    ('O57', r"\bthough it's often\b", '"though it\'s often"', 'say it the way he did ("and of course that\'s")'),
+    ('O58', r"\bcan feel a lot like\b", '"can feel a lot like" ("which can feel a lot like doing it")',
+     'say what actually happened, the way he did ("the strategy was not actually implemented, just read")'),
+    # O59 and O60: his second account, read 2026-11-02 at his invitation (21:59 UTC: "i logged into the other pangram account if
+    # you want to read that history"; fix-20261102/joel-pangram/history2/HISTORY-LEARNING-2.md). "The same goes for" is in his
+    # inner child guide, so O59 names the signpost nouns and verbs he cut, not "the same" alone.
+    ('O59', r"\bthe same (?:principle|limit|logic|rule|idea|pattern) (?:extends|applies|appears|holds)\b",
+     '"The same principle extends to…" ("The same limit appears…")', 'start with the case itself, the way he did ("In…")'),
+    ('O60', r"\bnot a recipe\b", '"not a recipe" ("…not a recipe you have to follow.")', 'take it out, the way he did'),
+]
+# O61: a label of up to four words at the start of a sentence, a colon, and a dose within the next two words ("Trial: UMP
+# 150–300 mg", "Magnesium Glycinate: 400mg (Night)", "NAC: 1.8g – 2.4g")
+DOSE_SPEC = re.compile(r"^\W*[A-Z][\w'&/-]*(?:\s+[\w'&/()-]+){0,3}\s*:\s*(?:[^\s\d]\S*\s+){0,2}~?\d+(?:[.,]\d+)?\s*"
+                       r"(?:[-–]\s*\d+(?:[.,]\d+)?\s*)?(?:mg|g|mcg|µg|ml|mL|IU)\b")
+PASSIVE = re.compile(r"\b(?:am|is|are|was|were|be|been|being|get|gets|got|gotten|getting)\s+(?:\w+ly\s+)?(?:being\s+)?"
+                     r"(?:\w+ed|told|given|taken|made|done|seen|known|shown|held|kept|left|lost|found|brought|bought|caught|"
+                     r"taught|thought|sold|built|sent|spent|put|set|led|said|paid|meant|felt|heard|written|driven|hidden|"
+                     r"chosen|broken|spoken|forgotten|forgiven|drawn|grown|thrown|worn|torn|born|borne)\b", re.I)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('draft'); ap.add_argument('--source')
@@ -966,6 +1002,7 @@ def main():
         openers.append(' '.join(words(nss[0])[:1]).lower() if ss else '')
         para_mine.append(any(mine_s))
         imps = 0
+        passives = 0   # O48: passive verbs in my sentences
         plists = []   # (mine, excerpt) for each list of three outside a quote (E125)
         checked = any(m and RESEARCH_NOTE.search(without_quotes(x)) for x, m in zip(nss, mine_s))   # O23: the paragraph narrates a check
         for i, s in enumerate(ss):
@@ -1055,6 +1092,79 @@ def main():
                      'prove""): say what it does show, or cut it', s)
             elif re.search(r"\b(?:isn't|aren't|is not|are not)\s+proof\b", n, re.I):
                 flag('REVIEW', 'O43 "isn\'t proof" (Joel 2026-10-18 named "not proof that" a high-frequency AI tell): say what it is instead', s)
+            # Joel, 2026-10-30 14:35 UTC, on the hypnosis guide's no-trance steps ("without interpreting it as proof"): ""proof"..
+            # "it's not proof" "that doesn't prove" ... high freq AI". "it's not proof" fails with "doesn't prove"; any other "proof"
+            # or "prove" in my sentence is a REVIEW: say what it shows, or what to do with it.
+            if re.search(r"\b(?:it's|that's|this is|it is|that is|this isn't|it isn't|that isn't)\s+(?:not\s+)?(?:\w+\s+)?proof\b(?!\s+(?:that|of))", n, re.I) \
+                    and re.search(r"\bnot\b|n't\b", n[:n.lower().find('proof')], re.I):
+                flag('FAIL', 'O43 "it\'s not proof" (Joel 2026-10-30: ""proof".. "it\'s not proof" "that doesn\'t prove" ... high freq AI"): say what '
+                     'it is, or what to do with it', s)
+            elif re.search(r"\b(?:as|secret|any|no|real)\s+proof\b|\bproof\s+(?:that|of)\b|\bproves?\b|\bproving\b", n, re.I) \
+                    and not re.search(r"\bnot proof (?:that|of)\b|\b(?:doesn't|does not|don't|do not|didn't|did not)\s+(?:\w+\s+)?prove\b", n, re.I):
+                flag('REVIEW', 'O43 "proof"/"prove" (Joel 2026-10-30: ""proof".. "it\'s not proof" "that doesn\'t prove" ... high freq AI"): say what '
+                     'it shows instead, unless proving is the subject', s)
+            # O46 (Joel, 2026-10-30 14:35 UTC, on the same steps' "do one small thing based on it" and "ask one clear question": "AI
+            # overuses "one" where humans often say "an" or "a". add that to the list of high freq tells. especially "one small
+            # thing""). "one small thing/step" fails; "one" before a describing word and a noun, where "a" or "an" would do, is a
+            # REVIEW: it stays when the count is the point ("one metaphor, not six").
+            if re.search(r"\bone (?:small|little|tiny|simple) (?:thing|step|action|act|move|change|task)s?\b", n, re.I):
+                flag('FAIL', 'O46 "one small thing" (Joel 2026-10-30: "AI overuses "one" where humans often say "an" or "a" ... especially "one '
+                     'small thing""): "a small thing", or say the thing', s)
+            elif re.search(r"(?<!\bat )(?<!\bno )(?<!\bonly )(?<!\bjust )\bone (?:small|little|tiny|simple|clear|single|quick|short|concrete|"
+                           r"specific|fitting|real|honest|gentle|good|true|steady|careful|brief|plain|direct) (?!of\b|or\b|at a time\b)[a-z]+",
+                           n, re.I):
+                flag('REVIEW', 'O46 "one" where "a" or "an" would do (Joel 2026-10-30: "AI overuses "one" where humans often say "an" or "a""): '
+                     'keep "one" only when the count is the point', s)
+            # O47 (Joel, 2026-10-30 14:35 UTC, on "so no answer can secretly mean "deeper"": ""secretly/silently" is an AI tell btw,
+            # AI always using those words"). Like "quietly" (O42), they fail in my text, unless "silently" says how something is
+            # said or read ("read it silently").
+            for mq in re.finditer(r"\b(?:secretly|silently)\b", n, re.I):
+                before = words(n[:mq.start()])[-3:]
+                if mq.group(0).lower() == 'silently' and any(re.fullmatch(r"(?:read|reads|reading|say|says|saying|count|counting|"
+                                                                          r"repeat|repeating|speak|speaking|mouth|recite)", x, re.I)
+                                                              for x in before):
+                    continue
+                flag('FAIL', 'O47 "%s" (Joel 2026-10-30: ""secretly/silently" is an AI tell btw, AI always using those words"): say what '
+                     'actually happens, or take it out' % mq.group(0).lower(), s)
+                break
+            # O48 (Joel, 2026-10-30 14:35 UTC: "passive voice overuse also high freq AI"): counted per paragraph, below.
+            passives += len(PASSIVE.findall(n))
+            # O49 (Joel, 2026-11-02, on E-406: ""what's the next small thing" have you noticed that Ai says this like 1 trazillion
+            # times, any chance it gets, it wants the next small thing? ... you literally said "one next step" right before "the
+            # next small thing""; his fix took both out). A step that is named ("the next step is to eat") isn't matched.
+            if re.search(r"\bnext (?:small|little|tiny) (?:thing|step)s?\b|\bsmall next steps?\b|\bone next step\b", n, re.I):
+                flag('FAIL', 'O49 "the next small thing" or "one next step" (Joel 2026-11-02: "Ai says this like 1 trazillion times, '
+                     'any chance it gets"): say the step itself', s)
+            # O50 (Joel, 2026-11-02, on W-685: ""still matters" is another ai tell").
+            if re.search(r"\bstill (?:matters|matter)\b", n, re.I):
+                flag('FAIL', 'O50 "still matters" (Joel 2026-11-02: ""still matters" is another ai tell"): say what it changes, or '
+                     'take it out', s)
+            # O51 (Joel, 2026-11-02, on E-368: ""do the normal thing" "normal" ordinary, "the thing" "do the thing"...  Ai is always
+            # saying this portable stuff that could go anywhere"; his tries on W-164: "do whatever helps you come back to yourself a
+            # bit" became "do whatever makes you feel adult", and the paragraph went from AI Detected to Human Written).
+            if re.search(r"\bdo (?:the|that|this) (?:normal |ordinary |next |real )?thing\b|\bthe (?:normal|ordinary) thing\b|"
+                         r"\bcome back to yourself\b", n, re.I):
+                flag('FAIL', 'O51 a portable phrase ("do the normal thing", "do the thing", "come back to yourself"; Joel 2026-11-02: '
+                     '"Ai is always saying this portable stuff that could go anywhere"): name what to do', s)
+            # O52 (Joel, 2026-11-02, on E-406: "and then a listicle. how could you not see all this?"; his fix asked each item as
+            # its own question and read Human (High)): a question made of a run of things ("A task, a boundary, a meal, some
+            # rest, a repair, a conversation?").
+            if n.rstrip().endswith('?') and NOUN_RUN.search(n):
+                flag('FAIL', 'O52 a list of things asked as one question (Joel 2026-11-02: "and then a listicle"): ask each as its '
+                     'own question, the way he fixed it ("Is there a task I\'m ignoring? Or a boundary I need to set?")', s)
+            # O53 to O60 (Joel's Pangram history, read 2026-11-02 at his invitation, 18:16 UTC: "i signed back into one of my
+            # pangrams if you want to learn from that history"): phrases he cut from texts that read AI, after which they read Human
+            # Written (articles/inner-signal/humanize/fix-20261102/joel-pangram/history/HISTORY-LEARNING.md). None of them is in
+            # his original guide or his inner child guide; "can feel like" without "a lot" is, so O58 needs "a lot".
+            for rid, rx, what, fix in HISTORY_CUTS:
+                if re.search(rx, n, re.I):
+                    flag('FAIL', '%s %s (Joel cut it in his Pangram history, and the text read Human Written): %s' % (rid, what, fix), s)
+            # O61 (gate E335, his three examples of 2026-11-03): a dose as a label and its spec ("Trial: UMP 150–300 mg in the
+            # morning with food for 3–7 days."), which read AI in his post and in my round 1 however it was worded; he said it
+            # as an instruction with a verb ("Do a trial with 150-300mg Uridine, in the morning with food") and it passed.
+            if DOSE_SPEC.search(n):
+                flag('FAIL', 'O61 a dose as a label and its spec ("Trial: UMP 150–300 mg …"; E335): say it as an instruction with '
+                     'a verb, the way he did ("Do a trial with 150-300mg Uridine, in the morning with food")', s)
             # O44 (Joel, 2026-10-21 17:56, on the hypnosis guide's return steps, where "one honest action" among what you go back to
             # had read AI in every wording of his: "especially "ONE HONEST ACTION" sounds super ai. i never heard a real person say
             # that in my life.").
@@ -1218,6 +1328,9 @@ def main():
         if ss and len(words(nss[-1])) <= 9 and mine_s[-1]:
             para_final_short += 1; flag('REVIEW', 'B7 short landing at paragraph end', ss[-1])
         if imps >= 2: imper_heavy += 1; flag('REVIEW', 'E23 paragraph of instructions', p[:90] + '...')
+        if passives >= 3:
+            flag('REVIEW', 'O48 passive voice in %d places (Joel 2026-10-30: "passive voice overuse also high freq AI"): say who does it, as he '
+                 'does ("Is the hypnotist using ..." for "Are roles ... being used")' % passives, p[:90] + '...')
         # O27: rough edges in my text, never in his lines or installed ones (JOEL-FIXES-CATALOGUE: "Rough edges he leaves:
         # typos, double spaces, missing periods. These come from typing. They aren't something for me to imitate.")
         spans, seen = sentence_spans(p, ss), set()

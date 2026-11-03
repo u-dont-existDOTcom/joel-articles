@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cm/HG-Anxiety-script-632.txt",
+  "input_words": 64,
+  "input_sha256": "cd7588a5accde3483146a7cff1e4a074a91511373600ca920aab6c5ea1362ba3",
+  "balance_before": 42518,
+  "started_utc": "2026-10-26T12:59:48Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:59:52Z",
+  "response": {
+    "id": "5182b1e0-10d7-40d7-87b2-53b0bc4685bd",
+    "tool": "humanize",
+    "text": "Here is a little script you could use:\n\nWhere are your body parts? Where are your feet? How is your body sitting in the chair? How is your body breathing? How is your body sitting in the room?\n\nIf you are there little one I am there too. Thanks for letting me know you are there guard. Thanks but you did not have to scream I got your message.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 64
+    },
+    "elapsed": 4
+  },
+  "balance_after": 42390
+}

@@ -1,0 +1,2886 @@
+{
+ "RESULT-A.json": {
+  "link": "https://www.pangram.com/feed/d1e283a5-efcf-4fc4-ad6f-d535e12951b2",
+  "headline": "Mostly Human Written",
+  "counts": [
+   "Human High 69",
+   "Human Medium 70",
+   "Human Low 20",
+   "AI Low 8",
+   "AI Medium 1",
+   "AI High 2"
+  ],
+  "rows": [
+   {
+    "window": 1,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.5753,
+    "words": 35,
+    "uncertainty_highlighted": true,
+    "where": "Quick start: do this first, P3",
+    "text": "Then put the screen aside; the practice is something you learn to conduct, not a checklist to keep reading.\nYou’ll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - as you’re invited.",
+    "sentences": [
+     {
+      "text": "Then put the screen aside; the practice is something you learn to conduct, not a checklist to keep reading.",
+      "whose": "his published version"
+     },
+     {
+      "text": "You’ll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - as you’re invited.",
+      "whose": "his"
+     }
+    ]
+   },
+   {
+    "window": 3,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9763,
+    "words": 23,
+    "uncertainty_highlighted": false,
+    "where": "Protecting Yourself from Hypnotists, P2",
+    "text": "Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers know this perfectly well.",
+    "sentences": [
+     {
+      "text": "Even when not actively engaging the conscious mind, there are many ways to influence people.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Marketers and interface designers know this perfectly well.",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 5,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.5753,
+    "words": 18,
+    "uncertainty_highlighted": true,
+    "where": "Protecting Yourself from Hypnotists, P3",
+    "text": "All of these are separate factors to consider: conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent.",
+    "sentences": [
+     {
+      "text": "All of these are separate factors to consider: conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent.",
+      "whose": "his"
+     }
+    ]
+   },
+   {
+    "window": 6,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9857,
+    "words": 13,
+    "uncertainty_highlighted": false,
+    "where": "Protecting Yourself from Hypnotists, P3",
+    "text": "People have their minds influenced without the conscious agreement of their adult self.",
+    "sentences": [
+     {
+      "text": "People have their minds influenced without the conscious agreement of their adult self.",
+      "whose": "his"
+     }
+    ]
+   },
+   {
+    "window": 8,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9827,
+    "words": 1,
+    "uncertainty_highlighted": false,
+    "where": "The Most Extreme Example, P2",
+    "text": "V.",
+    "sentences": [
+     {
+      "text": "V.",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 10,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9801,
+    "words": 1,
+    "uncertainty_highlighted": false,
+    "where": "The Most Extreme Example, P2",
+    "text": "V.",
+    "sentences": [
+     {
+      "text": "V.",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 12,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9738,
+    "words": 14,
+    "uncertainty_highlighted": false,
+    "where": "Keep the Adult Part of Yourself in Charge, P1",
+    "text": "All legitimate forms of influence can stand up to questions, sleep, boundaries and time.",
+    "sentences": [
+     {
+      "text": "All legitimate forms of influence can stand up to questions, sleep, boundaries and time.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 14,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9886,
+    "words": 1,
+    "uncertainty_highlighted": false,
+    "where": "Hypnosis Evidence, P1",
+    "text": "Yes.",
+    "sentences": [
+     {
+      "text": "Yes.",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 16,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9886,
+    "words": 1,
+    "uncertainty_highlighted": false,
+    "where": "Hypnosis Evidence, P1",
+    "text": "Yes.",
+    "sentences": [
+     {
+      "text": "Yes.",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 18,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.8948,
+    "words": 13,
+    "uncertainty_highlighted": true,
+    "where": "Forget the left-brain/right-brain cartoon, P3",
+    "text": "The body can have a voice - saying yes or no or not yet.",
+    "sentences": [
+     {
+      "text": "The body can have a voice - saying yes or no or not yet.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 19,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9675,
+    "words": 41,
+    "uncertainty_highlighted": false,
+    "where": "Forget the left-brain/right-brain cartoon, P3",
+    "text": "The imagination can have opened up the field and then the adult can choose what to do next in the real world…. It can be peaceful but also precise.\nWithout the mind of love the mind of analysis can be sterile.",
+    "sentences": [
+     {
+      "text": "The imagination can have opened up the field and then the adult can choose what to do next in the real world….",
+      "whose": "approved wording"
+     },
+     {
+      "text": "It can be peaceful but also precise.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Without the mind of love the mind of analysis can be sterile.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 21,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9444,
+    "words": 8,
+    "uncertainty_highlighted": false,
+    "where": "Forget the left-brain/right-brain cartoon, P4",
+    "text": "Without testing intuitive signals they can become delusions.",
+    "sentences": [
+     {
+      "text": "Without testing intuitive signals they can become delusions.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 22,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.6703,
+    "words": 8,
+    "uncertainty_highlighted": true,
+    "where": "Forget the left-brain/right-brain cartoon, P4",
+    "text": "Without intuitive signals the testing can be dead.",
+    "sentences": [
+     {
+      "text": "Without intuitive signals the testing can be dead.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 23,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.531,
+    "words": 7,
+    "uncertainty_highlighted": true,
+    "where": "Forget the left-brain/right-brain cartoon, P4",
+    "text": "So these modes can correct each other.",
+    "sentences": [
+     {
+      "text": "So these modes can correct each other.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 24,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.7836,
+    "words": 21,
+    "uncertainty_highlighted": true,
+    "where": "Forget the left-brain/right-brain cartoon, P5",
+    "text": "And it’s got to lead somewhere: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life.",
+    "sentences": [
+     {
+      "text": "And it’s got to lead somewhere: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 26,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.5028,
+    "words": 7,
+    "uncertainty_highlighted": true,
+    "where": "Why doing it myself worked better for me, P1",
+    "text": "The bigger issue was trust and precision.",
+    "sentences": [
+     {
+      "text": "The bigger issue was trust and precision.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 28,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9444,
+    "words": 17,
+    "uncertainty_highlighted": false,
+    "where": "Why doing it myself worked better for me, P2",
+    "text": "And I can notice my body saying no before my conscious mind talks me into a yes.",
+    "sentences": [
+     {
+      "text": "And I can notice my body saying no before my conscious mind talks me into a yes.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 30,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.793,
+    "words": 16,
+    "uncertainty_highlighted": true,
+    "where": "Why doing it myself worked better for me, P4",
+    "text": "Self-hypnosis simply has one advantage nobody outside can duplicate: immediate dialogue with the system itself.",
+    "sentences": [
+     {
+      "text": "Self-hypnosis simply has one advantage nobody outside can duplicate: immediate dialogue with the system itself.",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 31,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9228,
+    "words": 7,
+    "uncertainty_highlighted": false,
+    "where": "Why doing it myself worked better for me, P4",
+    "text": "I found that especially amplified with loveyhuasca.",
+    "sentences": [
+     {
+      "text": "I found that especially amplified with loveyhuasca.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 33,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9891,
+    "words": 6,
+    "uncertainty_highlighted": false,
+    "where": "Sometimes start with the whole, P5",
+    "text": "Is this fear? Is this intuition?",
+    "sentences": [
+     {
+      "text": "Is this fear?",
+      "whose": "his published version"
+     },
+     {
+      "text": "Is this intuition?",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 35,
+    "label": "AI",
+    "confidence": "Medium",
+    "calibrated": 0.9141,
+    "words": 16,
+    "uncertainty_highlighted": false,
+    "where": "The inner child, the guards, and the inner adult’s three jobs, P2",
+    "text": "That’s one grown-up doing three jobs, and each job keeps the others in balance.",
+    "sentences": [
+     {
+      "text": "That’s one grown-up doing three jobs, and each job keeps the others in balance.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 36,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9496,
+    "words": 9,
+    "uncertainty_highlighted": false,
+    "where": "The inner child, the guards, and the inner adult’s three jobs, P2",
+    "text": "It’s you that needs to develop these qualities.",
+    "sentences": [
+     {
+      "text": "It’s you that needs to develop these qualities.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 38,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.5028,
+    "words": 12,
+    "uncertainty_highlighted": true,
+    "where": "The inner child, the guards, and the inner adult’s three jobs, P3",
+    "text": "Those belong in your relationship with it too, not just the wounds.",
+    "sentences": [
+     {
+      "text": "Those belong in your relationship with it too, not just the wounds.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 40,
+    "label": "AI",
+    "confidence": "High",
+    "calibrated": 0.9991,
+    "words": 46,
+    "uncertainty_highlighted": false,
+    "where": "When the adult role is not available yet, P2",
+    "text": "For that starting point, I have developed a kind of provisional bridge that I call “borrowed adulthood.” It’s built from familiar practices like modeling and supported action, but I’m not suggesting that the whole sequence has been formally tested and proven as one treatment.",
+    "sentences": [
+     {
+      "text": "For that starting point, I have developed a kind of provisional bridge that I call “borrowed adulthood.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "It’s built from familiar practices like modeling and supported action, but I’m not suggesting that the whole sequence has been formally tested and proven as one treatment.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 41,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9893,
+    "words": 21,
+    "uncertainty_highlighted": false,
+    "where": "When the adult role is not available yet, P3",
+    "text": "Access your witnessing position if necessary, just noticing what’s there, without needing it to be warm or wise or certain.",
+    "sentences": [
+     {
+      "text": "Access your witnessing position if necessary, just noticing what’s there, without needing it to be warm or wise or certain.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 43,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9893,
+    "words": 4,
+    "uncertainty_highlighted": false,
+    "where": "When the adult role is not available yet, P9",
+    "text": "Borrow that one response.",
+    "sentences": [
+     {
+      "text": "Borrow that one response.",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 45,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9868,
+    "words": 26,
+    "uncertainty_highlighted": false,
+    "where": "Love doesn’t have to wait for trust, P2",
+    "text": "You could say something like, “Okay. I believe that you don’t believe me. I still love you. You don’t have to love me back.",
+    "sentences": [
+     {
+      "text": "You could say something like, “Okay.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "I believe that you don’t believe me.",
+      "whose": "his published version"
+     },
+     {
+      "text": "I still love you.",
+      "whose": "his published version"
+     },
+     {
+      "text": "You don’t have to love me back.",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 47,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9867,
+    "words": 8,
+    "uncertainty_highlighted": false,
+    "where": "Love doesn’t have to wait for trust, P3",
+    "text": "If it’s something serious, answer it seriously.",
+    "sentences": [
+     {
+      "text": "If it’s something serious, answer it seriously.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 49,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9841,
+    "words": 12,
+    "uncertainty_highlighted": false,
+    "where": "Instead of blame, P2",
+    "text": "What did it understand back then? What options could it actually see?",
+    "sentences": [
+     {
+      "text": "What did it understand back then?",
+      "whose": "approved wording"
+     },
+     {
+      "text": "What options could it actually see?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 51,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9866,
+    "words": 3,
+    "uncertainty_highlighted": false,
+    "where": "Instead of blame, P2",
+    "text": "What was missing?",
+    "sentences": [
+     {
+      "text": "What was missing?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 53,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9763,
+    "words": 3,
+    "uncertainty_highlighted": false,
+    "where": "The two-hand practice, P2",
+    "text": "No warmth today?",
+    "sentences": [
+     {
+      "text": "No warmth today?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 55,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9893,
+    "words": 1,
+    "uncertainty_highlighted": false,
+    "where": "The Protector, P3",
+    "text": "Tired?",
+    "sentences": [
+     {
+      "text": "Tired?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 57,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9821,
+    "words": 1,
+    "uncertainty_highlighted": false,
+    "where": "Quick start: do this first, P1",
+    "text": "etc.",
+    "sentences": [
+     {
+      "text": "etc.",
+      "whose": "his"
+     }
+    ]
+   },
+   {
+    "window": 59,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9757,
+    "words": 1,
+    "uncertainty_highlighted": false,
+    "where": "Quick start: do this first, P1",
+    "text": "etc.",
+    "sentences": [
+     {
+      "text": "etc.",
+      "whose": "his"
+     }
+    ]
+   },
+   {
+    "window": 61,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.981,
+    "words": 14,
+    "uncertainty_highlighted": false,
+    "where": "Working with your guards, P3",
+    "text": "Those are not failures. Often what you’re experiencing is a very charming guard.",
+    "sentences": [
+     {
+      "text": "Those are not failures.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Often what you’re experiencing is a very charming guard.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 63,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9799,
+    "words": 69,
+    "uncertainty_highlighted": false,
+    "where": "Working with your guards, P3",
+    "text": "But before you decide where it’s coming from, ask it what it’s trying to stop, or what it wants. It could also be your inner child, mad that you took so long to come back, or your inherited parent script, or something from earlier today, or a bit of each.\n(To the guard, in the same Nurturer voice you meant for your inner child: “I see you.",
+    "sentences": [
+     {
+      "text": "But before you decide where it’s coming from, ask it what it’s trying to stop, or what it wants.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "It could also be your inner child, mad that you took so long to come back, or your inherited parent script, or something from earlier today, or a bit of each.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "(To the guard, in the same Nurturer voice you meant for your inner child: “I see you.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 64,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.8121,
+    "words": 10,
+    "uncertainty_highlighted": true,
+    "where": "Working with your guards, P4",
+    "text": "I’m not going to force my way past you.",
+    "sentences": [
+     {
+      "text": "I’m not going to force my way past you.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 65,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9752,
+    "words": 17,
+    "uncertainty_highlighted": false,
+    "where": "Working with your guards, P4",
+    "text": "What’s going on?” Then wait and listen patiently. If nothing comes, that’s fine for now.",
+    "sentences": [
+     {
+      "text": "What’s going on?",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Then wait and listen patiently.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "If nothing comes, that’s fine for now.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 67,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9864,
+    "words": 5,
+    "uncertainty_highlighted": false,
+    "where": "Don’t rush the repair, P1",
+    "text": "Just be with the child.",
+    "sentences": [
+     {
+      "text": "Just be with the child.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 69,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.967,
+    "words": 1,
+    "uncertainty_highlighted": false,
+    "where": "Quick start: do this first, P1",
+    "text": "etc.",
+    "sentences": [
+     {
+      "text": "etc.",
+      "whose": "his"
+     }
+    ]
+   },
+   {
+    "window": 71,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9444,
+    "words": 1,
+    "uncertainty_highlighted": false,
+    "where": "Don’t rush the repair, P6",
+    "text": "B.",
+    "sentences": [
+     {
+      "text": "B.",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 73,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9512,
+    "words": 1,
+    "uncertainty_highlighted": false,
+    "where": "Quick start: do this first, P1",
+    "text": "C.",
+    "sentences": [
+     {
+      "text": "C.",
+      "whose": "his"
+     }
+    ]
+   },
+   {
+    "window": 75,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9853,
+    "words": 1,
+    "uncertainty_highlighted": false,
+    "where": "Introduction, P4",
+    "text": "D.",
+    "sentences": [
+     {
+      "text": "D.",
+      "whose": "his"
+     }
+    ]
+   },
+   {
+    "window": 77,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9855,
+    "words": 1,
+    "uncertainty_highlighted": false,
+    "where": "How to use this very large guide, P1",
+    "text": "E.",
+    "sentences": [
+     {
+      "text": "E.",
+      "whose": "his"
+     }
+    ]
+   },
+   {
+    "window": 79,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9859,
+    "words": 1,
+    "uncertainty_highlighted": false,
+    "where": "What I mean by hypnosis, P2",
+    "text": "F.",
+    "sentences": [
+     {
+      "text": "F.",
+      "whose": "his"
+     }
+    ]
+   },
+   {
+    "window": 81,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9855,
+    "words": 1,
+    "uncertainty_highlighted": false,
+    "where": "Quick start: do this first, P2",
+    "text": "G.",
+    "sentences": [
+     {
+      "text": "G.",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 83,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.944,
+    "words": 2,
+    "uncertainty_highlighted": false,
+    "where": "When “your voice” is everybody else’s voice, P11",
+    "text": "Temporary Separation.",
+    "sentences": [
+     {
+      "text": "Temporary Separation.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 85,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9817,
+    "words": 8,
+    "uncertainty_highlighted": false,
+    "where": "If you sense you are being influenced, P6",
+    "text": "A good guide leaves your adult more present.",
+    "sentences": [
+     {
+      "text": "A good guide leaves your adult more present.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 87,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9827,
+    "words": 8,
+    "uncertainty_highlighted": false,
+    "where": "Induction: gathering attention without disappearing, P1",
+    "text": "Contain before you deepen” rather than going deeper.",
+    "sentences": [
+     {
+      "text": "Contain before you deepen” rather than going deeper.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 89,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9874,
+    "words": 14,
+    "uncertainty_highlighted": false,
+    "where": "What an induction is actually doing, P1",
+    "text": "Part of that is gathering your attention up. Part of that might be deepening.",
+    "sentences": [
+     {
+      "text": "Part of that is gathering your attention up.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Part of that might be deepening.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 91,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9512,
+    "words": 8,
+    "uncertainty_highlighted": false,
+    "where": "What an induction is actually doing, P2",
+    "text": "If so, you might not need to deepen.",
+    "sentences": [
+     {
+      "text": "If so, you might not need to deepen.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 92,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.5663,
+    "words": 3,
+    "uncertainty_highlighted": true,
+    "where": "Please don’t put six metaphors in one trance, P1",
+    "text": "Keep it simple.",
+    "sentences": [
+     {
+      "text": "Keep it simple.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 93,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.6493,
+    "words": 34,
+    "uncertainty_highlighted": true,
+    "where": "Please don’t put six metaphors in one trance, P1",
+    "text": "One thing you’re doing, one anchor/image you’re going with at first, one way of coming back, and feel free to set a tone (warm, bounded, directed, neutral witnessing, whatever) for yourself.",
+    "sentences": [
+     {
+      "text": "One thing you’re doing, one anchor/image you’re going with at first, one way of coming back, and feel free to set a tone (warm, bounded, directed, neutral witnessing, whatever) for yourself.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 94,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9587,
+    "words": 85,
+    "uncertainty_highlighted": false,
+    "where": "Please don’t put six metaphors in one trance, P2",
+    "text": "If you’re going to use metaphors just do one, and if you switch metaphors, do it in a way that’s conscious.\nUsing metaphors and imagery is entirely optional. You can use whatever form of signal shows up (feelings, rhythms, movements, words, spatial sense, simple knowing, lack of signal, whatever) but if you’re using words, try to keep them related to whatever world you’re creating. If you’re going to count, do it in a way that makes sense in your world.",
+    "sentences": [
+     {
+      "text": "If you’re going to use metaphors just do one, and if you switch metaphors, do it in a way that’s conscious.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Using metaphors and imagery is entirely optional.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "You can use whatever form of signal shows up (feelings, rhythms, movements, words, spatial sense, simple knowing, lack of signal, whatever) but if you’re using words, try to keep them related to whatever world you’re creating.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "If you’re going to count, do it in a way that makes sense in your world.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 95,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.7536,
+    "words": 10,
+    "uncertainty_highlighted": true,
+    "where": "Please don’t put six metaphors in one trance, P2",
+    "text": "And when you’re done, come back the other way.",
+    "sentences": [
+     {
+      "text": "And when you’re done, come back the other way.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 96,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.7836,
+    "words": 16,
+    "uncertainty_highlighted": true,
+    "where": "Please don’t put six metaphors in one trance, P2",
+    "text": "(You can borrow qualities such as warmth or steadiness, but don’t change who you are.)",
+    "sentences": [
+     {
+      "text": "(You can borrow qualities such as warmth or steadiness, but don’t change who you are.)",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 97,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.7188,
+    "words": 42,
+    "uncertainty_highlighted": true,
+    "where": "Please don’t put six metaphors in one trance, P3",
+    "text": "When you’re writing the script, decide what the verb you’re using is, what the sensory quality is, what the short refrain is, and how you’re going to transition between ideas. Read it out loud as you’re writing it.",
+    "sentences": [
+     {
+      "text": "When you’re writing the script, decide what the verb you’re using is, what the sensory quality is, what the short refrain is, and how you’re going to transition between ideas.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Read it out loud as you’re writing it.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 98,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9759,
+    "words": 72,
+    "uncertainty_highlighted": false,
+    "where": "Before you begin, P1",
+    "text": "Long, elegant sentences don’t read well when you’re being induced. It’s all just soup.\nRead this page, and the Come all the way back page, when you’re awake.\nGet clear on what it is you want to do during the induction. What do you want not to do today? How long do you want to spend on this? (You don’t have to do this on a problem.",
+    "sentences": [
+     {
+      "text": "Long, elegant sentences don’t read well when you’re being induced.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "It’s all just soup.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Read this page, and the Come all the way back page, when you’re awake.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Get clear on what it is you want to do during the induction.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "What do you want not to do today?",
+      "whose": "approved wording"
+     },
+     {
+      "text": "How long do you want to spend on this?",
+      "whose": "approved wording"
+     },
+     {
+      "text": "(You don’t have to do this on a problem.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 100,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9697,
+    "words": 6,
+    "uncertainty_highlighted": false,
+    "where": "Before you begin, P3",
+    "text": "(The part below called “Already open?",
+    "sentences": [
+     {
+      "text": "(The part below called “Already open?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 102,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9867,
+    "words": 12,
+    "uncertainty_highlighted": false,
+    "where": "Before you begin, P4",
+    "text": "Deciding to do it: how will you coax yourself to do this?",
+    "sentences": [
+     {
+      "text": "Deciding to do it: how will you coax yourself to do this?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 103,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.8876,
+    "words": 8,
+    "uncertainty_highlighted": true,
+    "where": "Before you begin, P4",
+    "text": "Make it spacious? Make it warm and held?",
+    "sentences": [
+     {
+      "text": "Make it spacious?",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Make it warm and held?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 104,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9088,
+    "words": 9,
+    "uncertainty_highlighted": false,
+    "where": "Before you begin, P4",
+    "text": "Make it firmer, so you stay with a feeling?",
+    "sentences": [
+     {
+      "text": "Make it firmer, so you stay with a feeling?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 105,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.8786,
+    "words": 2,
+    "uncertainty_highlighted": true,
+    "where": "Before you begin, P4",
+    "text": "Something else?",
+    "sentences": [
+     {
+      "text": "Something else?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 106,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9626,
+    "words": 12,
+    "uncertainty_highlighted": false,
+    "where": "Before you begin, P4",
+    "text": "Preview what you are going to do: will you close your eyes?",
+    "sentences": [
+     {
+      "text": "Preview what you are going to do: will you close your eyes?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 107,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.8624,
+    "words": 16,
+    "uncertainty_highlighted": true,
+    "where": "Before you begin, P4",
+    "text": "Will you come out and go back in again? What will you do at the end?",
+    "sentences": [
+     {
+      "text": "Will you come out and go back in again?",
+      "whose": "approved wording"
+     },
+     {
+      "text": "What will you do at the end?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 108,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9886,
+    "words": 15,
+    "uncertainty_highlighted": false,
+    "where": "Before you begin, P4",
+    "text": "If you are going to use a recording, read the script beforehand if you can.",
+    "sentences": [
+     {
+      "text": "If you are going to use a recording, read the script beforehand if you can.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 109,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.8487,
+    "words": 58,
+    "uncertainty_highlighted": true,
+    "where": "Before you begin, P4",
+    "text": "Know that you can say “stop” at any time and the induction will end. If you want to change something, say “less” if you want it to be asking for less from you, or say “quiet” and the talking will stop. You can also just open your eyes and stop, and then come all the way back anyway.",
+    "sentences": [
+     {
+      "text": "Know that you can say “stop” at any time and the induction will end.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "If you want to change something, say “less” if you want it to be asking for less from you, or say “quiet” and the talking will stop.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "You can also just open your eyes and stop, and then come all the way back anyway.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 110,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9857,
+    "words": 21,
+    "uncertainty_highlighted": false,
+    "where": "Before you begin, P4",
+    "text": "You don’t need to ask any parts for permission to stop, even if a part tells you that you do.",
+    "sentences": [
+     {
+      "text": "You don’t need to ask any parts for permission to stop, even if a part tells you that you do.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 112,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9893,
+    "words": 22,
+    "uncertainty_highlighted": false,
+    "where": "Before you begin, P5",
+    "text": "You don’t have to watch yourself all the time, but for the first few times, make sure you can change state.",
+    "sentences": [
+     {
+      "text": "You don’t have to watch yourself all the time, but for the first few times, make sure you can change state.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 114,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9575,
+    "words": 19,
+    "uncertainty_highlighted": false,
+    "where": "Before you begin, P5",
+    "text": "A no will stay a no. The narrator can’t add stuff just because you don’t say anything.",
+    "sentences": [
+     {
+      "text": "A no will stay a no.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "The narrator can’t add stuff just because you don’t say anything.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 116,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9626,
+    "words": 7,
+    "uncertainty_highlighted": false,
+    "where": "Before you begin, P6",
+    "text": "Learn how to notice what is there.",
+    "sentences": [
+     {
+      "text": "Learn how to notice what is there.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 118,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9524,
+    "words": 16,
+    "uncertainty_highlighted": false,
+    "where": "Before you begin, P6",
+    "text": "Either way, keep the instructions about how to stay safe and how to get out plain.",
+    "sentences": [
+     {
+      "text": "Either way, keep the instructions about how to stay safe and how to get out plain.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 120,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9888,
+    "words": 7,
+    "uncertainty_highlighted": false,
+    "where": "Sober induction: 3–5 minutes, P5",
+    "text": "Allow yourself some time to do this.",
+    "sentences": [
+     {
+      "text": "Allow yourself some time to do this.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 122,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9141,
+    "words": 1,
+    "uncertainty_highlighted": false,
+    "where": "Sober induction: 3–5 minutes, P12",
+    "text": "4.",
+    "sentences": [
+     {
+      "text": "4.",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 124,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9674,
+    "words": 6,
+    "uncertainty_highlighted": false,
+    "where": "Sober induction: 3–5 minutes, P12",
+    "text": "3. Leave a little space. 2.",
+    "sentences": [
+     {
+      "text": "3.",
+      "whose": "his published version"
+     },
+     {
+      "text": "Leave a little space.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "2.",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 126,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.899,
+    "words": 1,
+    "uncertainty_highlighted": true,
+    "where": "Sober induction: 3–5 minutes, P12",
+    "text": "1.",
+    "sentences": [
+     {
+      "text": "1.",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 127,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9524,
+    "words": 3,
+    "uncertainty_highlighted": false,
+    "where": "Sober induction: 3–5 minutes, P12",
+    "text": "Take your time.",
+    "sentences": [
+     {
+      "text": "Take your time.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 129,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9826,
+    "words": 22,
+    "uncertainty_highlighted": false,
+    "where": "Sober induction: 3–5 minutes, P13",
+    "text": "Just let it be there for now. You don’t need to tell the whole story yet.\nWhat do you notice now?",
+    "sentences": [
+     {
+      "text": "Just let it be there for now.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "You don’t need to tell the whole story yet.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "What do you notice now?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 131,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9871,
+    "words": 23,
+    "uncertainty_highlighted": false,
+    "where": "Already open? Contain before you deepen, P3",
+    "text": "Orient yourself by looking around. Where are you? What’s the date or day? How does your body feel? Where are you grounded?",
+    "sentences": [
+     {
+      "text": "Orient yourself by looking around.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Where are you?",
+      "whose": "approved wording"
+     },
+     {
+      "text": "What’s the date or day?",
+      "whose": "approved wording"
+     },
+     {
+      "text": "How does your body feel?",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Where are you grounded?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 133,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9856,
+    "words": 3,
+    "uncertainty_highlighted": false,
+    "where": "Already open? Contain before you deepen, P3",
+    "text": "Focus on that.",
+    "sentences": [
+     {
+      "text": "Focus on that.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 135,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9141,
+    "words": 8,
+    "uncertainty_highlighted": false,
+    "where": "Already open? Contain before you deepen, P4",
+    "text": "If there’s too much it can wait.",
+    "sentences": [
+     {
+      "text": "If there’s too much it can wait.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 136,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.7635,
+    "words": 5,
+    "uncertainty_highlighted": true,
+    "where": "Already open? Contain before you deepen, P4",
+    "text": "My body may stay safe.",
+    "sentences": [
+     {
+      "text": "My body may stay safe.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 138,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.98,
+    "words": 9,
+    "uncertainty_highlighted": false,
+    "where": "Stay awake when your mind likes to escape, P2",
+    "text": "Feel your spine. Ask yourself why you’re daydreaming.",
+    "sentences": [
+     {
+      "text": "Feel your spine.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Ask yourself why you’re daydreaming.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 140,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.594,
+    "words": 25,
+    "uncertainty_highlighted": true,
+    "where": "Make the hypnosis more active, P1",
+    "text": "Keep your eyes open. Pair a small repeated hand movement with increasing clarity; stop the movement and notice what remains. Don’t escape inside yourself.",
+    "sentences": [
+     {
+      "text": "Keep your eyes open.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Pair a small repeated hand movement with increasing clarity; stop the movement and notice what remains.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Don’t escape inside yourself.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 141,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9857,
+    "words": 14,
+    "uncertainty_highlighted": false,
+    "where": "Make the hypnosis more active, P2",
+    "text": "Say something like,\n“Starting with your eyes open press your thumb to your forefinger.",
+    "sentences": [
+     {
+      "text": "Say something like,",
+      "whose": "approved wording"
+     },
+     {
+      "text": "“Starting with your eyes open press your thumb to your forefinger.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 143,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9886,
+    "words": 15,
+    "uncertainty_highlighted": false,
+    "where": "The two-hand induction, P5",
+    "text": "If something comes back up, I let it, and send my love on down again.",
+    "sentences": [
+     {
+      "text": "If something comes back up, I let it, and send my love on down again.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 145,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.7536,
+    "words": 27,
+    "uncertainty_highlighted": true,
+    "where": "Optional fractionation: practice coming back, P1",
+    "text": "Check out Nimja’s sleep playlist to go to sleep listening to hypnosis\nFractionation means returning toward ordinary awareness and then deciding whether to enter absorption again.",
+    "sentences": [
+     {
+      "text": "Check out Nimja’s sleep playlist to go to sleep listening to hypnosis",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Fractionation means returning toward ordinary awareness and then deciding whether to enter absorption again.",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 146,
+    "label": "AI",
+    "confidence": "High",
+    "calibrated": 0.997,
+    "words": 12,
+    "uncertainty_highlighted": false,
+    "where": "Optional fractionation: practice coming back, P1",
+    "text": "Used openly, it teaches that trance has a door in both directions.",
+    "sentences": [
+     {
+      "text": "Used openly, it teaches that trance has a door in both directions.",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 148,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9787,
+    "words": 1,
+    "uncertainty_highlighted": false,
+    "where": "Come all the way back, P1",
+    "text": "Etcetera.",
+    "sentences": [
+     {
+      "text": "Etcetera.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 150,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9866,
+    "words": 4,
+    "uncertainty_highlighted": false,
+    "where": "Come all the way back, P4",
+    "text": "Move around a bit.",
+    "sentences": [
+     {
+      "text": "Move around a bit.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 152,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9886,
+    "words": 3,
+    "uncertainty_highlighted": false,
+    "where": "Let the response change the invitation, P1",
+    "text": "Just change it.",
+    "sentences": [
+     {
+      "text": "Just change it.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 154,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.8681,
+    "words": 12,
+    "uncertainty_highlighted": true,
+    "where": "Finish without forcing a revelation, P1",
+    "text": "Whatever it is, tell your little one, “That’s enough for today.",
+    "sentences": [
+     {
+      "text": "Whatever it is, tell your little one, “That’s enough for today.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 156,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9893,
+    "words": 7,
+    "uncertainty_highlighted": false,
+    "where": "Capacity before content, P4",
+    "text": "What are you hiding? Tell me NOW!",
+    "sentences": [
+     {
+      "text": "What are you hiding?",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Tell me NOW!",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 158,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9824,
+    "words": 22,
+    "uncertainty_highlighted": false,
+    "where": "Capacity before content, P8",
+    "text": "Prepare me BEFORE you break it open! Ground me BEFORE you show me the memory! Support me BEFORE you make it intense!",
+    "sentences": [
+     {
+      "text": "Prepare me BEFORE you break it open!",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Ground me BEFORE you show me the memory!",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Support me BEFORE you make it intense!",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 159,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.7272,
+    "words": 6,
+    "uncertainty_highlighted": true,
+    "where": "Capacity before content, P8",
+    "text": "Give me one next action!” etc.",
+    "sentences": [
+     {
+      "text": "Give me one next action!” etc.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 160,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9817,
+    "words": 16,
+    "uncertainty_highlighted": false,
+    "where": "Capacity before content, P9",
+    "text": "REMEMBER: Not everything in hypnotic imagery is literal, especially if it relates to trauma and memory.",
+    "sentences": [
+     {
+      "text": "REMEMBER: Not everything in hypnotic imagery is literal, especially if it relates to trauma and memory.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 162,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9893,
+    "words": 13,
+    "uncertainty_highlighted": false,
+    "where": "Capacity before content, P9",
+    "text": "So, treat it like an image and get some help outside of yourself!",
+    "sentences": [
+     {
+      "text": "So, treat it like an image and get some help outside of yourself!",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 163,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.8948,
+    "words": 12,
+    "uncertainty_highlighted": true,
+    "where": "Nothing happens, P1",
+    "text": "Is there a way you could try this on a smaller scale?",
+    "sentences": [
+     {
+      "text": "Is there a way you could try this on a smaller scale?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 164,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9512,
+    "words": 31,
+    "uncertainty_highlighted": false,
+    "where": "Nothing happens, P2",
+    "text": "Ask: “Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.”\nDo you have a sense of what it is that feels fake?",
+    "sentences": [
+     {
+      "text": "Ask: “Show me one body sensation.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "“Show me one word.",
+      "whose": "his published version"
+     },
+     {
+      "text": "“Show me whether today is for listening or resting.",
+      "whose": "his published version"
+     },
+     {
+      "text": "Do you have a sense of what it is that feels fake?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 166,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.5028,
+    "words": 10,
+    "uncertainty_highlighted": true,
+    "where": "It feels fake, P2",
+    "text": "Maybe you’ve fooled yourself before, and that part remembers.",
+    "sentences": [
+     {
+      "text": "Maybe you’ve fooled yourself before, and that part remembers.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 167,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.531,
+    "words": 11,
+    "uncertainty_highlighted": true,
+    "where": "It feels fake, P2",
+    "text": "“Tell me what you remember, I’m listening.” works well here.",
+    "sentences": [
+     {
+      "text": "“Tell me what you remember, I’m listening.” works well here.",
+      "whose": "approved wording"
+     }
+    ]
+   }
+  ]
+ },
+ "RESULT-B.json": {
+  "link": "https://www.pangram.com/feed/f9b45a7b-402c-412c-af68-a5f9ca44f6e6",
+  "headline": "Mostly Human Written",
+  "counts": [
+   "Human High 33",
+   "Human Medium 26",
+   "Human Low 12",
+   "AI Low 11",
+   "AI Medium 2",
+   "AI High 7"
+  ],
+  "rows": [
+   {
+    "window": 1,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9886,
+    "words": 2,
+    "uncertainty_highlighted": false,
+    "where": "Try it in the Inner Signal app, P1",
+    "text": "Have fun.",
+    "sentences": [
+     {
+      "text": "Have fun.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 3,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.64,
+    "words": 5,
+    "uncertainty_highlighted": true,
+    "where": "Core prompts, P8",
+    "text": "It should make sense, too.",
+    "sentences": [
+     {
+      "text": "It should make sense, too.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 4,
+    "label": "AI",
+    "confidence": "High",
+    "calibrated": 0.997,
+    "words": 24,
+    "uncertainty_highlighted": false,
+    "where": "Core prompts, P8",
+    "text": "Even then, anything big or hard to undo can wait until you’re calm and you’ve checked it against what you actually know.",
+    "sentences": [
+     {
+      "text": "Even then, anything big or hard to undo can wait until you’re calm and you’ve checked it against what you actually know.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 5,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.6381,
+    "words": 32,
+    "uncertainty_highlighted": true,
+    "where": "Core prompts, P9",
+    "text": "The prompt will tell your subconscious what you want. The NLP in Appendix B can help you get it in a safer way, but that doesn’t make the answer automatically true.",
+    "sentences": [
+     {
+      "text": "The prompt will tell your subconscious what you want.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "The NLP in Appendix B can help you get it in a safer way, but that doesn’t make the answer automatically true.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 7,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9817,
+    "words": 4,
+    "uncertainty_highlighted": false,
+    "where": "The four NLP layers, P3",
+    "text": "easier to get to.",
+    "sentences": [
+     {
+      "text": "easier to get to.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 9,
+    "label": "AI",
+    "confidence": "High",
+    "calibrated": 0.9942,
+    "words": 22,
+    "uncertainty_highlighted": false,
+    "where": "Pattern 5: Embedded invitations, P1",
+    "text": "An embedded invitation places a small direction inside a larger sentence. It should invite a modest inner movement, not hide a demand.",
+    "sentences": [
+     {
+      "text": "An embedded invitation places a small direction inside a larger sentence.",
+      "whose": "his published version"
+     },
+     {
+      "text": "It should invite a modest inner movement, not hide a demand.",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 10,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.531,
+    "words": 1,
+    "uncertainty_highlighted": true,
+    "where": "Pattern 5: Embedded invitations, P1",
+    "text": "ie.",
+    "sentences": [
+     {
+      "text": "ie.",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 12,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.8786,
+    "words": 20,
+    "uncertainty_highlighted": true,
+    "where": "Pattern 6: Ethical double binds, P1",
+    "text": "Manipulative Double Bind Questions are set up so that whatever you answer, you end up doing what the speaker wants.",
+    "sentences": [
+     {
+      "text": "Manipulative Double Bind Questions are set up so that whatever you answer, you end up doing what the speaker wants.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 13,
+    "label": "AI",
+    "confidence": "Medium",
+    "calibrated": 0.9512,
+    "words": 8,
+    "uncertainty_highlighted": false,
+    "where": "Pattern 6: Ethical double binds, P2",
+    "text": "An ethical one offers two genuinely safe routes.",
+    "sentences": [
+     {
+      "text": "An ethical one offers two genuinely safe routes.",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 15,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9867,
+    "words": 2,
+    "uncertainty_highlighted": false,
+    "where": "Pattern 10: Meta Model questions — the de-hypnosis tool, P2",
+    "text": "Always? Never?",
+    "sentences": [
+     {
+      "text": "Always?",
+      "whose": "his published version"
+     },
+     {
+      "text": "Never?",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 17,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9855,
+    "words": 1,
+    "uncertainty_highlighted": false,
+    "where": "Installing the synchronicity cue, P10",
+    "text": "plan).",
+    "sentences": [
+     {
+      "text": "plan).",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 19,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.793,
+    "words": 15,
+    "uncertainty_highlighted": true,
+    "where": "Reframing — changing the meaning without lying, P1",
+    "text": "Reframes are dishonest when they make the problem into something that was good all along.",
+    "sentences": [
+     {
+      "text": "Reframes are dishonest when they make the problem into something that was good all along.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 20,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.5705,
+    "words": 18,
+    "uncertainty_highlighted": true,
+    "where": "Reframing — changing the meaning without lying, P1",
+    "text": "Instead ask yourself: What else might be true? or What is this part trying to do for me?",
+    "sentences": [
+     {
+      "text": "Instead ask yourself: What else might be true? or What is this part trying to do for me?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 21,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.5028,
+    "words": 7,
+    "uncertainty_highlighted": true,
+    "where": "Reframing — changing the meaning without lying, P1",
+    "text": "or How might my Nurturer reframe this?",
+    "sentences": [
+     {
+      "text": "or How might my Nurturer reframe this?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 22,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.531,
+    "words": 7,
+    "uncertainty_highlighted": true,
+    "where": "Reframing — changing the meaning without lying, P1",
+    "text": "or How might my Protector reframe this?",
+    "sentences": [
+     {
+      "text": "or How might my Protector reframe this?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 23,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.7536,
+    "words": 7,
+    "uncertainty_highlighted": true,
+    "where": "Reframing — changing the meaning without lying, P1",
+    "text": "or How might my Guide reframe this?",
+    "sentences": [
+     {
+      "text": "or How might my Guide reframe this?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 24,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9088,
+    "words": 2,
+    "uncertainty_highlighted": false,
+    "where": "Reframing — changing the meaning without lying, P1",
+    "text": "etc., etc.",
+    "sentences": [
+     {
+      "text": "etc., etc.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 26,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9886,
+    "words": 10,
+    "uncertainty_highlighted": false,
+    "where": "Perceptual positions — self, other, witness, universal heart, P2",
+    "text": "I do this to see the situation with more accuracy.",
+    "sentences": [
+     {
+      "text": "I do this to see the situation with more accuracy.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 28,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.5028,
+    "words": 15,
+    "uncertainty_highlighted": true,
+    "where": "What I will not use NLP for, P3",
+    "text": "I do not tell people to override their fear before asking what it’s protecting.",
+    "sentences": [
+     {
+      "text": "I do not tell people to override their fear before asking what it’s protecting.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 29,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.5028,
+    "words": 8,
+    "uncertainty_highlighted": true,
+    "where": "What I will not use NLP for, P4",
+    "text": "I do not use NLP for memory retrieval.",
+    "sentences": [
+     {
+      "text": "I do not use NLP for memory retrieval.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 30,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.531,
+    "words": 16,
+    "uncertainty_highlighted": true,
+    "where": "What I will not use NLP for, P5",
+    "text": "I do not use NLP to manipulate other people or convince myself an intuition is true.",
+    "sentences": [
+     {
+      "text": "I do not use NLP to manipulate other people or convince myself an intuition is true.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 31,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.7272,
+    "words": 11,
+    "uncertainty_highlighted": true,
+    "where": "What I will not use NLP for, P6",
+    "text": "I do not remove pain, hunger, grief, anger, or medical symptoms.",
+    "sentences": [
+     {
+      "text": "I do not remove pain, hunger, grief, anger, or medical symptoms.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 33,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9893,
+    "words": 9,
+    "uncertainty_highlighted": false,
+    "where": "What I will not use NLP for, P9",
+    "text": "I do not use covert commands in my language.",
+    "sentences": [
+     {
+      "text": "I do not use covert commands in my language.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 35,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9496,
+    "words": 1,
+    "uncertainty_highlighted": false,
+    "where": "Running the whole NLP sequence, P9",
+    "text": "statement).",
+    "sentences": [
+     {
+      "text": "statement).",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 37,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9715,
+    "words": 15,
+    "uncertainty_highlighted": false,
+    "where": "Appendix C: The extended de-hypnosis checklist, P1",
+    "text": "I don’t have to obey it. I don’t even have to attack it.",
+    "sentences": [
+     {
+      "text": "I don’t have to obey it.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "I don’t even have to attack it.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 39,
+    "label": "AI",
+    "confidence": "High",
+    "calibrated": 0.9986,
+    "words": 120,
+    "uncertainty_highlighted": false,
+    "where": "Hypnosis-specific audit, P8",
+    "text": "Before accepting a recording or live suggestion, ask:\nWas I plainly told that induction mechanics are being used?\nCan at least one answer lead to pause, modification, full alertness, or stopping?\nDoes the speaker treat not noticing as secret proof that the process worked?\nAre roles, ownership, obedience, age, identity, or belonging being used to lower adult judgment?\nAre fractionation, cues, later behavior, or memory effects disclosed before they are used?\nAre ordinary body sensations being turned into evidence for a hidden claim?\nDoes the exit restore ordinary identity, movement, orientation, and critical judgment—and plainly say that the session has ended?\nWhen an answer is unclear, stay fully alert. Ask for the exact script, change the method, or leave.",
+    "sentences": [
+     {
+      "text": "Before accepting a recording or live suggestion, ask:",
+      "whose": "his published version"
+     },
+     {
+      "text": "Was I plainly told that induction mechanics are being used?",
+      "whose": "his published version"
+     },
+     {
+      "text": "Can at least one answer lead to pause, modification, full alertness, or stopping?",
+      "whose": "his published version"
+     },
+     {
+      "text": "Does the speaker treat not noticing as secret proof that the process worked?",
+      "whose": "his published version"
+     },
+     {
+      "text": "Are roles, ownership, obedience, age, identity, or belonging being used to lower adult judgment?",
+      "whose": "his published version"
+     },
+     {
+      "text": "Are fractionation, cues, later behavior, or memory effects disclosed before they are used?",
+      "whose": "his published version"
+     },
+     {
+      "text": "Are ordinary body sensations being turned into evidence for a hidden claim?",
+      "whose": "his published version"
+     },
+     {
+      "text": "Does the exit restore ordinary identity, movement, orientation, and critical judgment—and plainly say that the session has ended?",
+      "whose": "his published version"
+     },
+     {
+      "text": "When an answer is unclear, stay fully alert.",
+      "whose": "his published version"
+     },
+     {
+      "text": "Ask for the exact script, change the method, or leave.",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 40,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9857,
+    "words": 13,
+    "uncertainty_highlighted": false,
+    "where": "Appendix D: Anxiety — body first, P2",
+    "text": "Remember that often the anxiety comes from a childhood guard part of you.",
+    "sentences": [
+     {
+      "text": "Remember that often the anxiety comes from a childhood guard part of you.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 42,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9827,
+    "words": 4,
+    "uncertainty_highlighted": false,
+    "where": "Appendix D: Anxiety — body first, P2",
+    "text": "It can be right!",
+    "sentences": [
+     {
+      "text": "It can be right!",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 44,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9888,
+    "words": 6,
+    "uncertainty_highlighted": false,
+    "where": "Reduced breathing / Buteyko-style breathing, P1",
+    "text": "Only pause if that’s comfortable.",
+    "sentences": [
+     {
+      "text": "Only pause if that’s comfortable.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 46,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.944,
+    "words": 4,
+    "uncertainty_highlighted": false,
+    "where": "Somatic Experiencing, P1",
+    "text": "You learn to track.",
+    "sentences": [
+     {
+      "text": "You learn to track.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 48,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.98,
+    "words": 4,
+    "uncertainty_highlighted": false,
+    "where": "Body supports, P1",
+    "text": "Work with the body.",
+    "sentences": [
+     {
+      "text": "Work with the body.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 50,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9855,
+    "words": 24,
+    "uncertainty_highlighted": false,
+    "where": "Body supports, P1",
+    "text": "Also stop if the massage makes the anxiety symptoms worse, or makes you feel bad in any way, such as painful, dizzy, tingly, etc.)",
+    "sentences": [
+     {
+      "text": "Also stop if the massage makes the anxiety symptoms worse, or makes you feel bad in any way, such as painful, dizzy, tingly, etc.)",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 51,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.793,
+    "words": 28,
+    "uncertainty_highlighted": true,
+    "where": "Body supports, P1",
+    "text": "There are many other somatic approaches you can try, like heat, pressure, a weighted blanket, darkness, your favorite calming music, a careful use of a massage gun, etc.",
+    "sentences": [
+     {
+      "text": "There are many other somatic approaches you can try, like heat, pressure, a weighted blanket, darkness, your favorite calming music, a careful use of a massage gun, etc.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 52,
+    "label": "AI",
+    "confidence": "High",
+    "calibrated": 0.9971,
+    "words": 17,
+    "uncertainty_highlighted": false,
+    "where": "Body supports, P1",
+    "text": "Use the support that actually helps, rather than assembling a tiny wellness trade show around the anxiety.",
+    "sentences": [
+     {
+      "text": "Use the support that actually helps, rather than assembling a tiny wellness trade show around the anxiety.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 54,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9404,
+    "words": 36,
+    "uncertainty_highlighted": false,
+    "where": "Body supports, P2",
+    "text": "But neither one of those products is necessary. All you really need is to stabilize yourself, and then listen to the messages from your inner realm, reality test those messages, and then take one grounded action.",
+    "sentences": [
+     {
+      "text": "But neither one of those products is necessary.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "All you really need is to stabilize yourself, and then listen to the messages from your inner realm, reality test those messages, and then take one grounded action.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 55,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.6974,
+    "words": 34,
+    "uncertainty_highlighted": true,
+    "where": "Inner child love, P1",
+    "text": "Here is some inner child love. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone.",
+    "sentences": [
+     {
+      "text": "Here is some inner child love.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 56,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.7272,
+    "words": 7,
+    "uncertainty_highlighted": true,
+    "where": "Inner child love, P1",
+    "text": "You don’t have to fix it.",
+    "sentences": [
+     {
+      "text": "You don’t have to fix it.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 57,
+    "label": "AI",
+    "confidence": "High",
+    "calibrated": 0.9962,
+    "words": 29,
+    "uncertainty_highlighted": false,
+    "where": "Inner child love, P1",
+    "text": "I’m here now, and the adult is here now to listen to you.” Make sure you are actually talking to your inner child, who is scared to death.",
+    "sentences": [
+     {
+      "text": "I’m here now, and the adult is here now to listen to you.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Make sure you are actually talking to your inner child, who is scared to death.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 58,
+    "label": "AI",
+    "confidence": "Medium",
+    "calibrated": 0.9867,
+    "words": 3,
+    "uncertainty_highlighted": false,
+    "where": "The two-hand practice, P2",
+    "text": "No warmth today?",
+    "sentences": [
+     {
+      "text": "No warmth today?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 59,
+    "label": "AI",
+    "confidence": "High",
+    "calibrated": 0.9936,
+    "words": 13,
+    "uncertainty_highlighted": false,
+    "where": "The two-hand practice, P2",
+    "text": "Then rest your hands there and notice what you find, no faking required.",
+    "sentences": [
+     {
+      "text": "Then rest your hands there and notice what you find, no faking required.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 61,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9612,
+    "words": 26,
+    "uncertainty_highlighted": false,
+    "where": "Appendix F: Self-trust, outside guidance, and oracle-like states, P3",
+    "text": "If you’re dealing with particularly complicated trauma, blind spots, dissociation, destabilization, or relational wounds that need another nervous system, skilled outside support may be best.",
+    "sentences": [
+     {
+      "text": "If you’re dealing with particularly complicated trauma, blind spots, dissociation, destabilization, or relational wounds that need another nervous system, skilled outside support may be best.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 63,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.64,
+    "words": 19,
+    "uncertainty_highlighted": true,
+    "where": "Forgiveness without bypass, P3",
+    "text": "“You don’t have to forgive before you’re ready. I won’t use spirituality to silence your pain.",
+    "sentences": [
+     {
+      "text": "“You don’t have to forgive before you’re ready.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "I won’t use spirituality to silence your pain.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 65,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9716,
+    "words": 61,
+    "uncertainty_highlighted": false,
+    "where": "Forgiving yourself, P1",
+    "text": "What was the impact? What boundaries need to be set? What shaped the other person(s) into someone capable of that harm? What is theirs? What is mine? What does accountability require? How can I let this go, without denying any of the above?\nFor self-forgiveness, name what you did, but don’t take responsibility for what wasn’t yours.",
+    "sentences": [
+     {
+      "text": "What was the impact?",
+      "whose": "his published version"
+     },
+     {
+      "text": "What boundaries need to be set?",
+      "whose": "approved wording"
+     },
+     {
+      "text": "What shaped the other person(s) into someone capable of that harm?",
+      "whose": "approved wording"
+     },
+     {
+      "text": "What is theirs?",
+      "whose": "approved wording"
+     },
+     {
+      "text": "What is mine?",
+      "whose": "approved wording"
+     },
+     {
+      "text": "What does accountability require?",
+      "whose": "his published version"
+     },
+     {
+      "text": "How can I let this go, without denying any of the above?",
+      "whose": "approved wording"
+     },
+     {
+      "text": "For self-forgiveness, name what you did, but don’t take responsibility for what wasn’t yours.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 67,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9818,
+    "words": 13,
+    "uncertainty_highlighted": false,
+    "where": "Forgiving yourself, P2",
+    "text": "Then you’re allowed to stop holding yourself hostage, and the responsibility stays.",
+    "sentences": [
+     {
+      "text": "Then you’re allowed to stop holding yourself hostage, and the responsibility stays.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 69,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.8291,
+    "words": 22,
+    "uncertainty_highlighted": true,
+    "where": "Appendix G: Altered states, P1",
+    "text": "Borrowing them is fine, as long as it’s from someone steady who won’t try to run your trip for you.",
+    "sentences": [
+     {
+      "text": "Borrowing them is fine, as long as it’s from someone steady who won’t try to run your trip for you.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 71,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.64,
+    "words": 20,
+    "uncertainty_highlighted": true,
+    "where": "Appendix G: Altered states, P3",
+    "text": "Let that experience show you what’s possible, while you build a way to get to it in everyday life.",
+    "sentences": [
+     {
+      "text": "Let that experience show you what’s possible, while you build a way to get to it in everyday life.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 72,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9444,
+    "words": 40,
+    "uncertainty_highlighted": false,
+    "where": "Appendix G: Altered states, P3",
+    "text": "(If you can’t give that love to the child, try to deal with why you can’t, instead of trying to ramp up the experience. Often it’s a protective part that’s seen love come with strings before.",
+    "sentences": [
+     {
+      "text": "(If you can’t give that love to the child, try to deal with why you can’t, instead of trying to ramp up the experience.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Often it’s a protective part that’s seen love come with strings before.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 73,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.8553,
+    "words": 4,
+    "uncertainty_highlighted": true,
+    "where": "Appendix G: Altered states, P3",
+    "text": "Hear it out first.)",
+    "sentences": [
+     {
+      "text": "Hear it out first.)",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 75,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9867,
+    "words": 23,
+    "uncertainty_highlighted": false,
+    "where": "A response check, not a verdict about what it is, P4",
+    "text": "You don’t have to find out if it’s a guard immediately, and you may not be able to comfort it quickly.",
+    "sentences": [
+     {
+      "text": "You don’t have to find out if it’s a guard immediately, and you may not be able to comfort it quickly.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 76,
+    "label": "AI",
+    "confidence": "High",
+    "calibrated": 0.9961,
+    "words": 17,
+    "uncertainty_highlighted": false,
+    "where": "A response check, not a verdict about what it is, P4",
+    "text": "The useful question is whether this way of responding helps you become clearer, steadier, and less hooked.",
+    "sentences": [
+     {
+      "text": "The useful question is whether this way of responding helps you become clearer, steadier, and less hooked.",
+      "whose": "his published version"
+     }
+    ]
+   },
+   {
+    "window": 78,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9631,
+    "words": 14,
+    "uncertainty_highlighted": false,
+    "where": "7. Care workshop, P1",
+    "text": "Invite the signal/feeling/young part to come only as close as is welcome.",
+    "sentences": [
+     {
+      "text": "Invite the signal/feeling/young part to come only as close as is welcome.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 80,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.987,
+    "words": 9,
+    "uncertainty_highlighted": false,
+    "where": "Finish without forcing a revelation, P1",
+    "text": "Tell your little one, “That’s enough for today.",
+    "sentences": [
+     {
+      "text": "Tell your little one, “That’s enough for today.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 82,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9738,
+    "words": 13,
+    "uncertainty_highlighted": false,
+    "where": "8. Resource embodiment, P1",
+    "text": "Resource: pick a resource quality you understand (warmth, boundary, steadiness, curiosity, or dignity).",
+    "sentences": [
+     {
+      "text": "Resource: pick a resource quality you understand (warmth, boundary, steadiness, curiosity, or dignity).",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 84,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.973,
+    "words": 3,
+    "uncertainty_highlighted": false,
+    "where": "8. Resource embodiment, P1",
+    "text": "What is different?",
+    "sentences": [
+     {
+      "text": "What is different?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 86,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.531,
+    "words": 18,
+    "uncertainty_highlighted": true,
+    "where": "9. No-trance inner contact, P1",
+    "text": "Autonomous signal: write whatever you get (a word, sensation, impulse, objection, or silence) without interpreting it as proof.",
+    "sentences": [
+     {
+      "text": "Autonomous signal: write whatever you get (a word, sensation, impulse, objection, or silence) without interpreting it as proof.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 87,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.7214,
+    "words": 41,
+    "uncertainty_highlighted": true,
+    "where": "9. No-trance inner contact, P1",
+    "text": "Deepener: none (full alertness isn’t a lesser version). Handoff: have your adult self answer the question in whatever way is appropriate, preferably by writing or doing. Integration/exit: reality test the signal and do one small thing based on it.",
+    "sentences": [
+     {
+      "text": "Deepener: none (full alertness isn’t a lesser version).",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Handoff: have your adult self answer the question in whatever way is appropriate, preferably by writing or doing.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Integration/exit: reality test the signal and do one small thing based on it.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 88,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.5028,
+    "words": 17,
+    "uncertainty_highlighted": true,
+    "where": "9. No-trance inner contact, P1",
+    "text": "Since you didn’t go into trance, just close the exercise and carry on with your day.",
+    "sentences": [
+     {
+      "text": "Since you didn’t go into trance, just close the exercise and carry on with your day.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 89,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9865,
+    "words": 44,
+    "uncertainty_highlighted": false,
+    "where": "Appendix K: Sources and further reading, P1",
+    "text": "The personal accounts and the way I arrange this practice are my own, especially adaptations like the one I’m doing here where I am combining body-oriented work and hypnotic work. This combination is not a validated form of treatment at this time.",
+    "sentences": [
+     {
+      "text": "The personal accounts and the way I arrange this practice are my own, especially adaptations like the one I’m doing here where I am combining body-oriented work and hypnotic work.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "This combination is not a validated form of treatment at this time.",
+      "whose": "approved wording"
+     }
+    ]
+   }
+  ]
+ }
+}

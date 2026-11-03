@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-co/HG-Forgiveness-without-bypass-665.txt",
+  "input_words": 46,
+  "input_sha256": "b60960468f8d5ef57b7bba5f8262fd14066df71a0309a0c9eb99f8d04eef3f2a",
+  "balance_before": 41664,
+  "started_utc": "2026-10-26T13:00:08Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T13:00:12Z",
+  "response": {
+    "id": "6553965e-0131-416c-b0ba-bd73001dd141",
+    "tool": "humanize",
+    "text": "What actually happened? How was I impacted by this? What boundaries do I need to set as a result? What contributed to other person(s) being capable of this type of harm? What is theirs? What is mine? What does it mean to hold myself & others accountable for this? How can I release this?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 46
+    },
+    "elapsed": 4
+  },
+  "balance_after": 41526
+}

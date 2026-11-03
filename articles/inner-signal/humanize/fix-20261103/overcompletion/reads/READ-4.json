@@ -1,0 +1,86 @@
+{
+ "part": 4,
+ "candidates": [
+  {
+   "block": 360,
+   "cut": "Choose one way to induce yourself.",
+   "join": "",
+   "kind": "says-again",
+   "already_said": "[360] the next sentence: “You don't need to try all of them (in fact, stacking them might be counter-productive).”",
+   "adds": "Nothing but a firmer wording of \"one\": the next sentence already says you needn't try them all, and adds that stacking may backfire.",
+   "loses": "Nothing. \"Choose one\" is still plain from \"You don't need to try all of them (in fact, stacking them might be counter-productive)\". If the lead would rather keep the imperative, cut the second sentence instead, but that one holds the stacking warning.",
+   "strength": "borderline"
+  },
+  {
+   "block": 367,
+   "cut": "Ask for capacity before content.",
+   "join": "",
+   "kind": "sums-up",
+   "already_said": "[366] the heading \"Capacity before content\"; [367] “focus on stabilizing first, with help if you need it” ... “and only then look for what your subconscious needs you to know.” and “If knowing what your subconscious knows would destabilize you, it is not meant for you to know directly at this time.”",
+   "adds": "The heading's words as a one-line instruction, with the verb \"ask\". Stabilizing first and only then looking is already the paragraph's point, and how to ask is taught by the scripts in 371 to 374 and 405.",
+   "loses": "Nothing the section doesn't carry: the heading, the two sentences before it and the scripts after it all say capacity before content.",
+   "strength": "borderline"
+  },
+  {
+   "block": 368,
+   "cut": ", vocation, a relationship, illness fears, spirituality, addiction, identity, moral issues",
+   "join": "",
+   "kind": "list",
+   "already_said": "[368] the same sentence's first items, “sexuality, grief, trauma, family issues, betrayal, shame”, already show it can be any heavy area of life; the sentence also ends \"etc.\"",
+   "adds": "Seven more example topics of the same kind. No new claim, condition or instruction.",
+   "loses": "Seven example topics (vocation, a relationship, illness fears, spirituality, addiction, identity, moral issues); \"etc.\" still leaves the list open. The cut is one way to shorten it: the lead could keep a different few.",
+   "strength": "borderline"
+  },
+  {
+   "block": 375,
+   "cut": "So, treat it like an image, and get",
+   "join": "Remember: not everything in hypnotic imagery is literal, especially if it relates to trauma and memory. The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc. Get some help outside of yourself when you need it.",
+   "kind": "sums-up",
+   "already_said": "[375] “not everything in hypnotic imagery is literal, especially if it relates to trauma and memory.” and “The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc.” (and, in another section, [357] “Remember that the images you see can be meaningful without being memories of things that actually happened.”)",
+   "adds": "Nothing in \"So, treat it like an image\": it is the conclusion of the two sentences before it. The join keeps the instruction to get help that follows it, which repeats the \"with help if you need it\" of 367 and the \"get some support first\" of 372; the lead may cut that clause too.",
+   "loses": "Nothing.",
+   "strength": "borderline"
+  },
+  {
+   "block": 414,
+   "cut": "You don’t have to have a meeting with every thought that pops into your head before you start your life.",
+   "join": "",
+   "kind": "says-again",
+   "already_said": "[414] the first sentence: “The best thing to do, though, if you notice you’re in a checking loop, is allow the thought to be there without engaging with it and get on with what you have chosen to do.”",
+   "adds": "Nothing new. It is the first sentence's \"allow the thought to be there without engaging with it and get on with what you have chosen to do\" said again as a picture (a meeting with every thought) and as a permission.",
+   "loses": "A vivid picture only; the instruction stays in the first sentence.",
+   "strength": "borderline"
+  },
+  {
+   "block": 414,
+   "cut": "You don’t have to complete a ritual before you start your life.",
+   "join": "",
+   "kind": "says-again",
+   "already_said": "[414] the first sentence: “The best thing to do, though, if you notice you’re in a checking loop, is allow the thought to be there without engaging with it and get on with what you have chosen to do.” and the sentence before it: “You don’t have to have a meeting with every thought that pops into your head before you start your life.”",
+   "adds": "Nothing. The same frame (\"You don't have to ... before you start your life\") with \"complete a ritual\" swapped in for \"have a meeting with every thought\". The checking loop is already named in 413 (\"a checking loop\", \"a form of checking\") and the instruction not to engage is in the first sentence.",
+   "loses": "Nothing.",
+   "strength": "clear"
+  },
+  {
+   "block": 441,
+   "cut": "don't try to go deeper. Go",
+   "join": "If you find yourself more loving, more honest, more functional, more relational, more grounded, more precise, etc. than when you started this process, keep on keeping on gently. If you notice that your ordinary life is becoming less stable, go for more sleep, more eating, more grounding, more healthy boundaries with other people, more support from other people, etc.",
+   "kind": "caveat-again",
+   "already_said": "[435] “If you notice that your functioning is getting worse, or that you're getting more certain about unconfirmable memories, then reassess instead of pushing harder.”",
+   "adds": "Nothing in \"don't try to go deeper\": it is 435's \"reassess instead of pushing harder\" for the same case (functioning getting worse). What follows, the list of what to go for instead, stays in the join.",
+   "loses": "Nothing the section doesn't already say, but 441 is the subsection whose heading (440) is this principle, so the lead may prefer to keep the sentence here. Do not cut it from 435 instead: that sentence also holds the unconfirmable-memories trigger, which 441 lacks.",
+   "strength": "borderline"
+  },
+  {
+   "block": 445,
+   "cut": "work on thinking in a way that your love for yourself doesn't become fantasy;",
+   "join": "Listen to your little one for as long as it takes until they're comfortable enough to move closer to you. This is easiest to do if you're making and keeping lots of small promises to your little one, so the various guards feel they can occasionally relax. Work on loving yourself in a way that your thinking doesn't object to, and take all of this back into regular life, where your adult self keeps its promises.",
+   "kind": "other-side",
+   "already_said": "[445] the clause before it: “Work on loving yourself in a way that your thinking doesn't object to” (love answering to thinking); the same balance is in [425] “You are capable of analysis, as well as tenderness.” and, before this part, in [60] (“all the modes of your mind ... Nobody needs to win!”, as the brief quotes it)",
+   "adds": "The reverse direction of the same balance (thinking kept loving), not a new instruction: love that your thinking doesn't object to is already love that hasn't become fantasy. A balanced pair of the kind he cut in 61 and 62.",
+   "loses": "The thinking-to-love half of the balance, which 425 and the early guide already state. The join also turns the semicolon into \", and\".",
+   "strength": "borderline"
+  }
+ ],
+ "notes": "Part 4 is mostly scripts, safety lists and troubleshooting steps, so little of it is said twice. Left alone because each adds a case, a reason or a safety limit: 361 \"On the other hand\" (keep the recordings), 365 \"That's how you show...\" (the reason to act), 371 \"regulate first\" (flooding mid-practice), 417 \"a small thing you keep doing\" (the warning about dropped gestures), 425 \"capable of analysis, as well as tenderness\", 439 \"a bigger container\" (safety limit). The safety lists in 367, 393 and 433 repeat on purpose, and 375 repeats 357's caution across a section break."
+}

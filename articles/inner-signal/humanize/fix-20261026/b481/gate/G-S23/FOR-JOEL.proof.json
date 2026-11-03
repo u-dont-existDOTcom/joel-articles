@@ -1,0 +1,71 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_ADMITTED_V1",
+  "candidate_sha256": "2ae2f2670619cf0297e9d04be33c6c5ca1aa9d2af28554730dc4189369e2baad",
+  "context_sha256": "516e0043805c7208532d3bcf960948e518ffd944c0bd5ff7f4011c448405d5f9",
+  "source_sha256": "949160c075696d03a8851dbaa1b9b1551e7c1ed57fc308ee595bc083d898c718",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "lint_verdict": "REVIEW",
+  "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+  "lint_stdout_sha256": "b6e12973da0b6b2880243ef2997343688c9e8b2255d5d78ef6fb3d04e913a36c",
+  "lint_findings": [
+    {
+      "label": "B7 short landing at paragraph end",
+      "examples": [
+        "Are there things you don’t want to do today?"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    },
+    {
+      "label": "D9 follows the source order",
+      "examples": [
+        "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    },
+    {
+      "label": "E36/E41 heavy second person",
+      "examples": [
+        "12.5 \"you\" per 100 of my words"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    }
+  ],
+  "tell_ledger_counts": {
+    "ABSENT": 33,
+    "PRESENT_JUSTIFIED": 0,
+    "UNCERTAIN": 0,
+    "total": 33
+  },
+  "justified_tells": [],
+  "reviews": {
+    "preservation": {
+      "path": "REVIEW-preservation.json",
+      "sha256": "8c94c7fb0bd0bb7c1939348352f8193f7e2b38bff7d6d6ee0f774155151015d1",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+        "context_id": "b481-gate-preservation-subagent-d",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    },
+    "cold_read_1": {
+      "path": "REVIEW-cold_read_1.json",
+      "sha256": "4cc4541227e1bbc077455b182f530d084057629beff4ddc3a873a60b29daee6a",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+        "context_id": "b481-gate-cold_read_1-subagent-d",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    },
+    "cold_read_2": {
+      "path": "REVIEW-cold_read_2.json",
+      "sha256": "20d70030913ba512702f66924fbd5f757a5563f1fbd50f680b492e4a8c0d05b1",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+        "context_id": "b481-gate-cold_read_2-subagent-d",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    }
+  },
+  "manifest_sha256": "386c2fbe0f9e18b3b5710d862526bd3a41348fff677584cc8d948f181844f17c",
+  "verified_at_utc": "2026-10-26T13:58:52.997142+00:00"
+}

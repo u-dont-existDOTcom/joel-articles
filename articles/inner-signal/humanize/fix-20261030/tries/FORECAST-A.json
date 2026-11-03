@@ -1,0 +1,270 @@
+{
+ "parts": [
+  {
+   "name": "T-35 (take back)",
+   "text": "With self-hypnosis you can train your own mind from the inside, by befriending and listening to the deeper part of your mind. This opens up a whole new area of choice for you as an adult in the world.",
+   "chance_red": 0.15,
+   "chance_high": 0.3,
+   "why": "my fix of 30 October (F1.10); read AI (Low), part A window 14 last time",
+   "kind": "changed"
+  },
+  {
+   "name": "T-337 (take back)",
+   "text": "Your shoulders tightening, or ‘hmm, that feels kind of wrong’, is a signal to investigate further, but ‘No! That is Not Right!’ is a signal to stop what you’re doing and change it. If you don’t feel like it fits, don’t keep doing it, and don’t try saying it again more persuasively. Just change it. You don’t need any other reason.",
+   "chance_red": 0.15,
+   "chance_high": 0.3,
+   "why": "my fix of 30 October (F10.1); read AI (Low), part A window 150 last time",
+   "kind": "changed"
+  },
+  {
+   "name": "T-339 (new try)",
+   "text": "Sometimes the invitation just isn’t right, and other times it’s brought up something you hadn’t thought of, with a feeling that’s worth meeting, so give it a little room and find out which. Either way, your doubt isn’t automatically a guard, and silence doesn’t mean a hidden process is working.",
+   "chance_red": 0.4,
+   "chance_high": 0.2,
+   "why": "my fix of 30 October (F10.2); read AI (High), part A windows 155 and 156 last time",
+   "kind": "changed"
+  },
+  {
+   "name": "T-374 (take back)",
+   "text": "This can lead to flooding, panic, false certainty, confabulation, dissociation etc. and can make your day SUCK! When you are flooded, it is much harder to access your adult capacities, so focus on being able to regulate and getting support! Just ask for what you need to know in a way that you CAN tolerate:",
+   "chance_red": 0.15,
+   "chance_high": 0.3,
+   "why": "my fix of 30 October (F11.5); read AI (Low), part A window 162 last time",
+   "kind": "changed"
+  },
+  {
+   "name": "T-495 (new try)",
+   "text": "Let your response guide you as to what to do next regardless of what the script is expecting. Utilize: use what you have (a thought, sound, movement, or objection) to go to the next place, whatever it is. Learn how to notice what is there. If nothing changes, notice that too, and don’t talk yourself into believing it worked in some way you can’t see. For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain.",
+   "chance_red": 0.2,
+   "chance_high": 0.2,
+   "why": "my fix of 30 October (F7.7); read Human (Low), part A window 108 last time",
+   "kind": "changed"
+  },
+  {
+   "name": "T-249 (new try)",
+   "text": "You can read this slowly into your recorder, or you can read it out loud or say it to yourself if you are good at that. Choose a sound, or a contact, or the two-hand practice (above) or something to anchor yourself, and choose the thing you will say to open it up. Use the same anchor wherever the script mentions it. Don’t read the directions out loud, just pause between paragraphs.",
+   "chance_red": 0.2,
+   "chance_high": 0.2,
+   "why": "my fix of 30 October (F8.1); read Human (Low), part A window 112 last time",
+   "kind": "changed"
+  },
+  {
+   "name": "S-162 (suggestion)",
+   "text": "A. Prepare yourself to tend to them (get yourself into a place where you can spend time with them, have privacy, feel you can access support if you need it, and be as adult as you can be). How much of the grown-up you is actually here right now? To find out, try looking around the room, pausing before you act, making a choice and following through on it, since those are all things your adult self can do. If you can’t do that because you’re basically the frightened kid, leave the deeper conversation until later.",
+   "chance_red": 0.35,
+   "chance_high": 0.2,
+   "why": "your inner child guide's words; read AI (Low, 0.53), part A window 63; High on 29 October with the same words last time",
+   "kind": "changed"
+  },
+  {
+   "name": "S-382 (suggestion)",
+   "text": "Ask for something small, like “Show me one body sensation,” or “Show me one word.” If even that gets you nothing, try “Show me whether today is for listening or resting.”",
+   "chance_red": 0.35,
+   "chance_high": 0.2,
+   "why": "your published version; read AI (High), part A window 168; Human (Medium) on 29 October with the same words last time",
+   "kind": "changed"
+  },
+  {
+   "name": "kept red: A line associated with the Silva Mind Contro...",
+   "text": "A line associated with the Silva Mind Control tradition says it plainly:\n“If you don’t learn to control your mind, someo",
+   "chance_red": 0.4,
+   "chance_high": 0.1,
+   "why": "unchanged; read AI-Generated (Low) last time, High or Medium on 29 October",
+   "kind": "changed"
+  },
+  {
+   "name": "kept red: Is there a way you could try this on a small...",
+   "text": "Is there a way you could try this on a smaller scale?",
+   "chance_red": 0.4,
+   "chance_high": 0.1,
+   "why": "unchanged; read AI-Generated (Low) last time, High or Medium on 29 October",
+   "kind": "changed"
+  },
+  {
+   "name": "neighbour of T-35 (take back): the paragraph after it",
+   "text": "I can tell you one shocking personal story that will make you never trust hypnotists again who maintain that you can’t be manipulated through hypnotism:",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T-337 (take back): the paragraph before it",
+   "text": "Is this a notice or meaning? “My stomach went tight” is a notice, “He’s a complete bastard” is a meaning, even if you didn’t think it in words. You can then go on to find out what he did, notice what it was that gave you the idea, and consider if there might be other explanations. It’s also ok to put a meaning into words now, to look at it, even if it came to you without words. Nonverbal thoughts and early thoughts aren’t necessarily any deeper, truer, or more reliable than other thoughts. Feelings are good to pay attention to, but it’s still good to consider what they mean.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T-337 (take back): the paragraph after it",
+   "text": "“I notice the tightness, and I can just leave it like that. I wonder if that fits, or if I’d rather do something different?”",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T-339 (new try): the paragraph after it",
+   "text": "If there is another person involved in the situation, it may be a good idea to look at what they are doing as well. Can they hear you disagree, take responsibility, and make room for what you’re going through? Try and be specific in your description, and be willing to alter it if you find out that it was incorrect. Just because someone is disagreeing with you or trying to set boundaries around you does not mean they are in their emotionally immature parts. You don’t need to subject yourself to something that may be dangerous before protecting yourself.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T-374 (take back): the paragraph before it",
+   "text": "“What is it you won’t tell me? What are you hiding? Tell me NOW! I am telling you to tell me!”",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T-374 (take back): the paragraph after it",
+   "text": "“What can you tell me, that will make my conscious self 5% better at knowing the thing you want to tell me?” “Can you tell me in symbolic form so I am not completely overwhelmed by the revelation?” “Can you tell me what I need to do to be safe, without actually telling me what it is?” “Do I need to know WHAT it is, or do I need to know that I need to get some support to have the capacity to know what it is, and who would be a good person to help me?” etc.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T-495 (new try): the paragraph before it",
+   "text": "If you are new to this or haven’t done it for a while, work on the coming in and coming out part first. Don’t bring in the hard stuff till later. You don’t have to watch yourself all the time, but for the first few times, make sure you can change state. Let yourself make it easier and easier to do this and notice that it takes less and less of you to do it. A no will stay a no. The narrator can’t add stuff just because you don’t say anything.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S-162 (suggestion): the paragraph before it",
+   "text": "Find a younger you/guard/feeling/signal that comes up in your body, and",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S-162 (suggestion): the paragraph after it",
+   "text": "B. Look at what’s there before judging or deciding what it is.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S-382 (suggestion): the paragraph after it",
+   "text": "Do you have a sense of what it is that feels fake? The words, an image, what you are expecting to get from this, a role you feel you have to play etc. It doesn’t matter that you don’t have an inner voice/image to do this. It isn’t necessarily about not having a ‘grown up’ or resisting doing the work. If it feels like you are being asked to do something you don’t want to do, then correct the invitation. It could be that there is a part that is protecting you, so talk to it.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of kept red: A line associated with the Silva Mind Contro...: the rest of its paragraph, after it",
+   "text": "ne else will!”",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of kept red: A line associated with the Silva Mind Contro...: the paragraph before it",
+   "text": "You maybe semi-consciously clicked “Agree” on the TikTok signup, and now you’re suddenly into Death Note animé and worshipping Satan on the down-low while at church. That literally has happened to people I know.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of kept red: Is there a way you could try this on a small...: the paragraph before it",
+   "text": "REMEMBER: Not everything in hypnotic imagery is literal, especially if it relates to trauma and memory. The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc. So, treat it like an image, and get some help outside of yourself when you need it!",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "last check's window 11 (Human, Low, 26 words)",
+   "text": "Marketers and interface designers know this perfectly well. In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 49 (Human, Low, 10 words)",
+   "text": "I’m not going to force my way past you.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 82 (Human, Low, 20 words)",
+   "text": "A good guide leaves your adult more present. The more powerful the state, the stronger the boundaries you will need.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 86 (Human, Low, 22 words)",
+   "text": "So start off with setting one anchor/image. Decide on a hypnotic tone (warm, indirect, direct, neutral witnessing, etc.) for the session.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 89 (Human, Low, 35 words)",
+   "text": "When you’re done, come back the opposite way from how you went in. You can borrow qualities such as warmth or steadiness from someone who models them, but don’t change who you are.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 127 (Human, Low, 10 words)",
+   "text": "You don’t need to tell the whole story yet.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 132 (Human, Low, 50 words)",
+   "text": "Focus on that.\nSay something like, “Only what I can integrate, please. If there’s too much, it can wait. My body may stay safe. I’ll be here as an adult, so my inner child doesn’t have to carry this alone.”\nWhen you feel oriented, make an intention.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 140 (Human, Low, 2 words)",
+   "text": "Breathe gently.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 144 (Human, Low, 15 words)",
+   "text": "Fractionation means returning toward ordinary awareness and then deciding whether to enter hypnotic absorption again.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 158 (Human, Low, 12 words)",
+   "text": "Whatever it is, tell your little one, “That’s enough for today.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 165 (Human, Low, 6 words)",
+   "text": "Give me one next action!” etc.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 170 (Human, Low, 13 words)",
+   "text": "Maybe you’ve fooled yourself before, and that part of you remembers it.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 171 (Human, Low, 11 words)",
+   "text": "“Tell me what you remember, I’m listening.” works well here.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  }
+ ],
+ "rest": {
+  "chance_red": 0.3,
+  "why": "any red outside the parts above"
+ }
+}

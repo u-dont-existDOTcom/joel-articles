@@ -1,0 +1,32 @@
+{
+ "G-92": {
+  "folder": "articles/inner-signal/humanize/fix-20261102/f1102/gate/G-92",
+  "the_change": "In his inner child guide's line in The inner child, the guards, and the inner adult's three jobs, \"That’s one grown-up doing three jobs, not three more people moving in to help with the rent, and each job keeps the others in balance.\" becomes \"It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.\" His \"That's X, not Y\" line read AI (Low) in the first free check of the whole guide and Human (Low) in the second; with the joke in brackets, its stretch read Human Written, one window, High (c1102-92b, https://www.pangram.com/history/a1aff5ea-da51-415b-a4eb-cc3aef09e8e3).",
+  "candidate_sha256": "e419394552f904d98a6f5eec1b656920d9873f0bc66fc35e4fd90299b8846283",
+  "context_sha256": "997eba18ef7566afdc7d7132b5c014e58da4ef6a9ae6681dd5dd7ea07d009c8d",
+  "source_sha256": "a328dd7b7c66f07edb86b30870910e01fbe63acc86603337df78dcff1e2bc6a4",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ },
+ "G-480": {
+  "folder": "articles/inner-signal/humanize/fix-20261102/f1102/gate/G-480",
+  "the_change": "In Core prompts, his two sentences \"Used together properly, the subconscious can feel safer in giving its response. That doesn't make the answers any more true, though.\" become one: \"Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.\" His short last line read Human (Low) by itself in both free checks of the whole guide; joined, its stretch read Human Written, the joined sentence in a High window (c1102-480, https://www.pangram.com/history/99c37345-2641-4db2-be55-e4324087321d).",
+  "candidate_sha256": "28d72153167e2dfb7df1c0417c2445f7d829175649cbb97b8b5fd52fea84c3e4",
+  "context_sha256": "302c4d14ef832406408d72f1f9babf759336a3c65ad22ecddee7aa2d5801c677",
+  "source_sha256": "3d97d0ff374400c0acca9d0e44176dab2d27ef3a2f6a6ffc295b54fa42164a85",
+  "lint_findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cm/HG-Nothing-happens-378.txt",
+  "input_words": 79,
+  "input_sha256": "55d4fe9ba5920e23bfd3d44282d307b6b3fa93f09b3032998e8a0c622c541c5b",
+  "balance_before": 43907,
+  "started_utc": "2026-10-26T12:59:09Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:59:16Z",
+  "response": {
+    "id": "1d236b45-3f3c-4db2-ad72-03f8d85d904b",
+    "tool": "humanize",
+    "text": "A word of caution: If you are using this to understand traumatic or other memories, please remember that not all of what you are seeing or experiencing in the imagery is going to be literally true. It may be symbolic, combined with other experiences, distorted, exaggerated, influenced by cultural ideas, fears etc. Please consider it as an image to be understood and seek some assistance in doing that.\n\nTroubleshooting:\n\nNothing seems to be happening. Is there a way to shrink down the size of the ask and try again? For example, asking to see one body sensation, or hear one word, or to know if you need to listen to something today or rest today.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 79
+    },
+    "elapsed": 6
+  },
+  "balance_after": 43749
+}

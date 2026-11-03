@@ -1,0 +1,673 @@
+# Overcompletion candidates from the six readers (guide 090588f7)
+
+94 candidates, 22 clear; not found exactly in their block: none
+
+## P1-01 [11] Introduction, P3 (says-again, borderline; ours)
+
+- cut: , the protective reactions learned as a child
+- already said: [11] "childhood protector parts"
+- adds: nothing: 'the protective reactions learned as a child' is a second gloss on the guard mind, saying again what 'childhood protector parts' just said.
+- loses: nothing.
+- join: Yet no one taught those layers to talk to each other. Instead you were taught (or you figured out) that the way to grow up and be an adult is to push through, repress, suppress, pretend you’re confident, follow authority, go against authority, etc etc etc. And mind you, the deeper mind is still running all of the programs it’s running: the inner child mind wanting to feel safe, the guard mind bracing for danger (childhood protector parts), the body mind remembering what your intellect explained away, the intuitive mind speaking up before you have the words, and the fantasy mind trying to become guidance mind, etc etc.
+
+## P1-02 [25] Do you usually think in words?, P3 (sums-up, borderline; ours)
+
+- cut: Just do whatever you can, and try different ways as needed.
+- already said: [25] "you may want to say things aloud, in writing, on a recording, etc." | [25] "Or, just do what it invites, without preparing what you're going to say."
+- adds: nothing new: a general 'any way is fine' that the options just given already carry.
+- loses: nothing; the paragraph still ends on what 'ask' and 'listen' do not mean.
+
+## P1-03 [27] What I mean by hypnosis, P1 (says-again, borderline; his, as published)
+
+- cut: there’s a lot more than meets the eye. In fact,
+- already said: [27] "hypnosis is such a broad and common type of altered state that it’s hard to confine it to one use."
+- adds: nothing: a vague claim that there is more than the definition; the next sentence says what the 'more' is.
+- loses: nothing; 'That's basically true, but hypnosis is such a broad and common type of altered state...' keeps the concession and the claim.
+
+## P1-04 [31] Protecting Yourself from Hypnotists, P2 (says-again, borderline; ours)
+
+- cut: The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.
+- already said: [31] "In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers."
+- adds: a second authority for the same claim, with a few more verbs (steer, deceive, coerce) and 'against their interests'; no new claim.
+- loses: the OECD citation. The OECD is named nowhere else in the guide (all six part files searched), so cutting the sentence removes the only mention of that source; keep it if Joel wants both sources named.
+
+## P1-05 [35] Protecting Yourself from Hypnotists, P6 (sums-up, borderline; ours)
+
+- cut: This opens up a whole new area of choice for you as an adult in the world.
+- already said: [35] "With self-hypnosis you can train your own mind from the inside, by befriending and listening to the deeper part of your mind." | [34] "If you don’t learn to control your mind, someone else will!"
+- adds: only the name of the benefit (a new area of choice); the sentence before it already answers the quote by saying you can train your own mind from the inside.
+- loses: nothing the section needs; the paragraph still answers the quote.
+
+## P1-06 [48] Reversing Accidental Affirmations, P1 (other-side, clear; his, as published (near-verbatim: a small fix of ours))
+
+- cut: With the intentional correction, you don’t have to be unconsciously led astray by your random wrong thoughts.
+- already said: [48] "without redirecting the thought stream with your conscious, higher intention, you can end up just going directly where it leads you"
+- adds: nothing: the same point from the 'with the correction' side.
+- loses: nothing.
+
+## P1-07 [66] Why doing it myself worked better for me, P4 (other-side, borderline; ours)
+
+- cut: When I hypnotize myself, though, my dialogue with my subconscious is immediate, and that's an advantage nobody outside my own head can duplicate.
+- already said: [65] "A hypnotist working on me can't interact with my subconscious mind quickly enough to get the detailed feedback needed to know what's going on in my mind, since they aren't inside my mind." | [64] "talk to my subconscious to find out what it thinks is wrong with the wording"
+- adds: nothing beyond the words 'immediate' and 'nobody outside my own head can duplicate': block 65 already says the hypnotist cannot get quick feedback because they are not inside my mind, and block 64 already shows the dialogue.
+- loses: the explicit claim that the dialogue is immediate and cannot be duplicated, which 64 and 65 imply. The join changes 'I found that especially amplified' to 'I found my dialogue with my subconscious especially amplified' so the next sentence still has something to point to.
+- join: I found my dialogue with my subconscious especially amplified with loveyhuasca. My experiences included a much deeper understanding of my motivations, peaceful loving awareness operating alongside analytical clarity, the disappearance of unhelpful daydreaming, different priorities around relationships, stronger intuition, and repeated correction between intuition, subconscious response, and conscious analysis.
+
+## P1-08 [71] Why doing it myself worked better for me, P9 (sums-up, borderline; ours)
+
+- cut: It's better to integrate it into your life than to try to live inside it.
+- already said: [71] "I'm not recommending that anyone prolong an altered state forever, though."
+- adds: the positive form of the same advice (integrate it into your life); it is the only place in this block that says what to do instead.
+- loses: the positive alternative; the caveat before it still limits the advice.
+
+## P1-09 [85] Sometimes start with the whole, P3 (caveat-again, borderline; ours)
+
+- cut: It’s no good adopting somebody else’s map.
+- already said: [85] "if it doesn’t work for you, don’t use it!" | [74] "They’re both maps. Don’t form a priesthood around either one!"
+- adds: nothing: the reason for the sentence before it, and the 'maps' idea block 74 already gave.
+- loses: nothing. A join is given only so the cut inside the brackets leaves no stray space before the closing bracket.
+- join: It can be that you can’t even access your Higher Self, or the universal heart, or whatever you call it. (By the way, if it doesn’t work for you, don’t use it!) In that case, start by just witnessing whatever is coming up. Notice the room, your body, the fact that you’re in a younger state etc. Being able to notice is enough adult presence for the first step.
+
+## P1-10 [86] Sometimes start with the whole, P4 (says-again, clear; ours)
+
+- cut: You usually need to work on developing them.
+- already said: [86] "Just work on whatever it is you need to work on (often being warm to yourself, protecting yourself and knowing what to do etc)." | [86] "it doesn’t mean you already have all the good inner parenting functions etc that you need."
+- adds: nothing: the two sentences before it already say you need to work on those functions and that talking about the Higher Self does not mean you have them.
+- loses: nothing.
+
+## P1-11 [86] Sometimes start with the whole, P4 (sums-up, borderline; ours)
+
+- cut: So invoking your Higher Self just means going up there for the view, and then coming back down to make your own decisions.
+- already said: [86] "It’s a vantage point, where more wisdom and compassion can come up, but problems can also look like they were never problems at all from up there, and that can ironically lead instead to more foolish indifference." | [42] "Don’t let a strong state, a charismatic person, a sexual charge, a spiritual claim or any other authority take the place of the adult part of yourself."
+- adds: only the instruction to come back down and make your own decisions, which the 'vantage point' picture and the foolish-indifference warning before it imply, and block 42 ('Keep the Adult Part of Yourself in Charge') states.
+- loses: the explicit 'make your own decisions'; the picture and the warning stay. This cut and the one before it in block 86 do not overlap.
+
+## P1-12 [90] The inner child, the guards, and the inner adult’s three jobs, P2 (sums-up, clear; ours)
+
+- cut: It’s you that needs to develop these qualities.
+- already said: [90] "Here I’m going to talk about what you develop in yourself as you reparent your inner child." | [90] "It’s still one grown-up doing three jobs" | [89] "What’s going to help your inner child to trust you is you, the person you are right now, becoming reliable."
+- adds: nothing.
+- loses: nothing. After the cut, block 91 ('Also, your inner child's worth is not dependent on these qualities...') takes 'these qualities' from the loving, safe and wise jobs named earlier in 90.
+
+## P1-13 [106] Love doesn’t have to wait for trust, P1 (says-again, clear; ours)
+
+- cut: , and you can keep loving them while it does
+- already said: [106] "It is possible to love them even if they don't believe you love them."
+- adds: nothing.
+- loses: nothing; the claim stays in the sentence before it and in the heading 'Love doesn't have to wait for trust'.
+
+## P1-14 [107] Love doesn’t have to wait for trust, P2 (says-again, borderline; his, from his inner child guide)
+
+- cut: , and what it's really saying is "so stop being angry."
+- already said: [107] "because then it can brush the anger off"
+- adds: the unstated message 'so stop being angry', which only translates the picture 'brush the anger off'.
+- loses: the spelled-out message; 'brush the anger off' stays as the picture. The join puts the full stop back after 'off'.
+- join: You could say something like, "Okay. I believe that you don't believe me. I still love you. You don't have to love me back. Tell me what feels unsafe." Try not to turn "I still love you" into a line you say on cue, though, because then it can brush the anger off.
+
+## P1-15 [108] Love doesn’t have to wait for trust, P3 (says-again, borderline; ours)
+
+- cut: Learning to listen to them when they are angry without hitting back.
+- already said: [108] "do listen for the concrete complaint without fighting the yelling and swearing around it"
+- adds: only frames the same listening as one way of showing love.
+- loses: one item of the list; the later 'Just not hitting back is enough to start being the adult' still points back to 'without fighting the yelling and swearing around it'.
+
+## P1-16 [110] Instead of blame, P1 (every-case, borderline; ours)
+
+- cut: Or are you blending them?
+- already said: [110] "Is it two separate positions, one making the vow to love your little one no matter what, and the other blaming your little one for not taking in your love? Or is it one position doing both of these things?"
+- adds: at most the idea of the two voices merging, which 'one position doing both of these things' already covers.
+- loses: nothing.
+
+## P2a-01 [116] The two-hand practice, P3 (says-again, borderline; his own words (a paragraph he wrote or rewrote))
+
+- cut:  Let it go back and forth between your heart and your inner child, like a real conversation.
+- already said: [116] 'If some comes back up, let it, and send it on down again, so it goes around like a loop.'
+- adds: A second image for the same exchange ('like a real conversation'); the loop itself is already told.
+- loses: The conversation image only.
+
+## P2a-02 [119] The Nurturer, P1 (says-again, clear; ours)
+
+- cut:  Be happy that they are there.
+- already said: [119] 'Some of the work you can do as the Nurturer is to enjoy your inner child.' and 'Just sit back and enjoy their company.'
+- adds: nothing
+- loses: nothing
+
+## P2a-03 [119] The Nurturer, P1 (sums-up, borderline; ours)
+
+- cut:  Your inner child needs to be enjoyed as well as comforted when it hurts.
+- already said: [119] 'is to enjoy your inner child' and 'enjoy their company'
+- adds: The reason (it needs enjoying) and a nod to comforting when it hurts; otherwise the first sentence again.
+- loses: The stated reason and the pairing with comfort.
+
+## P2a-04 [128] The Protector, P2 (sums-up, clear; ours)
+
+- cut:  Your inner child starts to trust you when you start taking care of those things.
+- already said: [127] 'set boundaries, so your inner child can believe the warm stuff'; and the first sentence of [128] (the work fails when the protecting is skipped)
+- adds: nothing (trusting you is believing the warm stuff)
+- loses: nothing
+
+## P2a-05 [142] Working with your guards, P7 (list, borderline; ours)
+
+- cut: eat, not text someone, keep a promise, go to sleep, 
+- already said: [127] 'I'm going to stop texting the person who destabilizes me', 'I'm going to eat', 'I'm going to get some sleep', 'I'm going to keep the promise to myself'; [128] 'text the person who is destabilizing them, or they don't eat'
+- adds: Nothing beyond the Protector examples. The sentence's own claim (the guard wants these actions) and its new items (talk to the therapist, admit that you owe someone money, write something down) stay.
+- loses: The tie-back to the Protector examples the reader has just read.
+
+## P2a-06 [153] Protection that knows when to stop scanning, P7 (sums-up, clear; ours)
+
+- cut:  I am learning to use discernment when I need to, and to stop scanning the room when it isn’t needed anymore.
+- already said: [152] 'stop scanning once staying on alert isn't helping anymore'; the heading [145] 'Protection that knows when to stop scanning'; [148]-[149] assess and differentiate
+- adds: Only the author's first-person note that he is still learning.
+- loses: That first-person note.
+
+## P2a-07 [153] Protection that knows when to stop scanning, P7 (preview-recap, borderline; ours)
+
+- cut: This seems to me like a mature Protector: it’s not afraid to say it doesn’t know, and it can ask another human being, delay interpreting a situation or use a no-trance method.
+- already said: [148] 'know what you know, what you don't know'; [150] 'delay, ask, leave, get support'
+- adds: The label 'mature Protector' and one passing item, 'no-trance method', which is not in the steps.
+- loses: The label and the mention of a no-trance method. If this and the other [153] candidate are both taken, the whole block goes.
+- join: I am learning to use discernment when I need to, and to stop scanning the room when it isn’t needed anymore.
+
+## P2a-08 [155] Inner child reparenting, P1 (says-again, borderline; ours)
+
+- cut: They fit well together, though 
+- already said: [155] 'I see a lot of connection between reparenting therapy and self hypnosis.'
+- adds: 'Fit well together' is barely more than 'a lot of connection'; the 'though' only sets up the sober-first advice, which stays.
+- loses: The 'though' contrast; nothing else.
+
+## P2a-09 [155] Inner child reparenting, P1 (says-again, borderline; ours)
+
+- cut:  It doesn’t even have to be a child.
+- already said: [155] 'It can be any vulnerable part of you.' (and 'It can be any age.')
+- adds: States outright that no child may appear, which the next sentence ('If there is no child there') then relies on.
+- loses: The setup for the next sentence, which still reads without it.
+
+## P2a-10 [164] Don’t rush the repair, P8 (other-side, clear; ours)
+
+- cut:  Don't feel like you have to fix it all.
+- already said: [164] 'Give them what you can: pick a need and do the smallest thing that would help.' (also [168] 'the goal isn't to make yourself good as new')
+- adds: nothing
+- loses: nothing
+
+## P2a-11 [165] Don’t rush the repair, P9 (says-again, borderline; ours)
+
+- cut: it may take some time, 
+- already said: [165] 'Give yourself some time'
+- adds: nothing ('it may take sleep' stays)
+- loses: nothing
+
+## P2a-12 [166] Don’t rush the repair, P10 (says-again, borderline; ours)
+
+- cut:  Just reconnect with them if they're willing.
+- already said: [166] 'Reconnect with them'
+- adds: Only the condition 'if they're willing', which the join moves into the first sentence.
+- loses: nothing if the join is used
+- join: F. Reconnect with them if they're willing- don't expect them to merge, go away, forgive you, become happy, etc.
+
+## P2b-01 [216] Soft language can still take away choice, P1 (preview-recap, clear; ours)
+
+- cut (the whole paragraph): Be aware that even permissive language can still take away the subject’s choice.
+- already said: [215] heading 'Soft language can still take away choice'; [217] 'Indirect suggestions can bypass the subject’s skeptical guard.'
+- adds: nothing
+- loses: nothing; the heading says it and [217] opens the explanation
+
+## P2b-02 [177] When “your voice” is everybody else’s voice, P3 (says-again, borderline; ours)
+
+- cut (the whole paragraph): You don’t know what you want until you have heard what someone else wants.
+- already said: [175] 'The result is that you don’t know what you feel, what you want, what you believe, what you like and dislike until you have heard someone else’s opinion about it.'
+- adds: nothing in content; it is the same sign restated as the list's first test
+- loses: nothing in content; the other six signs stay and [175] still states this one. Alternative is to cut that sentence in [175] instead, but [175]'s 'You don’t even know who ‘yourself’ is!' leans on it
+
+## P2b-03 [184] When “your voice” is everybody else’s voice, P10 (says-again, borderline; ours)
+
+- cut (the whole paragraph): One way of explaining this is that your childhood didn’t leave you much room for finding out what you like, what you want to try out and who you are when nobody is grading you. You were too busy avoiding pain, reading what was dangerous and what you had to do to stay in a good bond, etc.
+- already said: [175] 'if your inner child didn’t have the opportunity to develop', 'you don’t have a private self', 'takes over very early in your life', 'pushed to achieve very early in life'
+- adds: only the mechanism in the second sentence: a child too busy avoiding pain, reading danger and staying bonded to explore; the first sentence adds nothing
+- loses: that hypervigilance mechanism; otherwise nothing
+
+## P2b-04 [196] Belonging without betraying yourself, P1 (sums-up, borderline; ours)
+
+- cut: That is why belonging gets a section in a self hypnosis guide!
+- already said: [196] 'A large part of your subconscious mind is made out of other people.'; [195] heading 'Belonging without betraying yourself'
+- adds: only the explicit tie from the subconscious point to the guide's topic; the reader of a self-hypnosis guide already gets it from the sentence before
+- loses: nothing in content; a meta aside about why the section exists
+
+## P2b-05 [217] Soft language can still take away choice, P2 (says-again, borderline; ours)
+
+- cut: This does not mean that indirect suggestions are not specific. It simply means that they are worded in a vague, conversational, suggestive manner.
+- already said: [217] 'They do this by not directly telling the subject what to do.'
+- adds: a caveat that indirect is not unspecific, and a description of the wording (vague, conversational, suggestive); both restate what 'not directly telling' already means
+- loses: the caveat and the wording description; the point (indirect suggestions bypass the guard by not telling directly) stays
+
+## P2b-06 [220] Soft language can still take away choice, P5 (every-case, borderline; ours)
+
+- cut: noticing something, not noticing something, 
+- already said: [221] 'Including phrases such as “whether or not you notice” etc etc, so either way counts as success'
+- adds: nothing; the noticing pair is item 3 on its own, and 'whatever the subject says' already covers every response
+- loses: nothing; yes, no, trying not to do something and not answering stay in the parenthesis
+
+## P3a-01 [232] Induction: gathering and softening attention, P3 (says-again, clear; his own words (a paragraph he wrote or rewrote))
+
+- cut: , but you could do all sorts of things
+- already said: [232] 'There are lots of different ways to do the induction.' The next sentence then lists the other ways ('If you want to just talk, or tell a story, or move, or make sounds...').
+- adds: nothing
+- loses: nothing
+
+## P3a-02 [235] Overly Confusing Isn't Automatically Good, P1 (preview-recap, borderline; his own words (a paragraph he wrote or rewrote))
+
+- cut (the whole paragraph): "Keep it simple, stupid!" (KISS principle) actually can apply to hypnosis!
+- already said: The heading 'Overly Confusing Isn't Automatically Good' already makes the point, and [236] explains it ('make something so complicated that you "hypnotize" yourself to the point where you don't even know if it worked or not').
+- adds: only the KISS slogan as a name for the heading's point; no new claim, case or instruction
+- loses: the KISS reference and a light opening line; [236] reads fine straight after the heading
+
+## P3a-03 [242] Overly Confusing Isn't Automatically Good, P8 (sums-up, borderline; his own words (a paragraph he wrote or rewrote))
+
+- cut:  You want your script to be soft, but to the point, easy to remember, easy to say, easy to grok.
+- already said: [242] 'Long, elegant sentences don't read well when you're being induced.' and 'It's much easier if you read it out loud as you're writing it, since the writing brain is sort of different from the vocal brain.'
+- adds: mostly the two earlier points as a one-line goal; only 'soft' and 'easy to remember' are not said elsewhere in the paragraph
+- loses: the explicit goal list, including 'easy to remember'
+
+## P3a-04 [247] Before you begin, P4 (says-again, borderline; ours)
+
+- cut:  If you are going to use a recording, read the script beforehand if you can.
+- already said: [244] 'Read through the induction, and the Come all the way back section, when you're awake.'
+- adds: the recording case, and 'if you can' (a recording made by someone else may not come with its script)
+- loses: the explicit mention of recordings; the read-ahead instruction stays in [244]
+
+## P3a-05 [248] Before you begin, P5 (caveat-again, borderline; ours)
+
+- cut:  A no will stay a no. The narrator can't add stuff just because you don't say anything.
+- already said: [227] 'if you say no, you are entitled to mean no, even if someone with a nice voice is asking you to do something. And just because you don't say anything, or don't know what to say, doesn't mean yes.' Also [247] 'Know that you can say "stop" at any time and the induction will end.'
+- adds: nothing new in substance; the same two points (a no stands, silence is not yes) said with 'the narrator'
+- loses: a second consent reminder at the point where the reader is about to start, which Joel may want on purpose; [227] and [247] still carry it
+
+## P3a-06 [289] Deepening, if useful, P2 (says-again, borderline; ours)
+
+- cut:  Just pick a place.
+- already said: [289] 'Pick a place to go to when you go inside.' and 'whatever you want.'
+- adds: only a nudge to commit rather than deliberate
+- loses: that small nudge
+
+## P3a-07 [298] A shortcut back into hypnosis, P2 (sums-up, borderline; ours)
+
+- cut:  The idea is for you to be able to pick a good state to go into, and you can decide what that is.
+- already said: [298] 'Be sure to do this when you are in hypnosis and in a good place.' and 'Don't do this when you are in a very emotional state, child state, or thinking about something that could be considered trauma.'
+- adds: that the reader decides what counts as a good state
+- loses: that one clause of reader autonomy; the do and don't limits stay
+
+## P3a-08 [299] A shortcut back into hypnosis, P3 (caveat-again, borderline; ours)
+
+- cut:  Not that I recommend driving in a trance, don't do that!
+- already said: [303] 'There is something you should never do with this shortcut: use it, practice it or test it while you're driving or doing something where you need to be actively paying attention.' (fuller, four blocks later). Also [246] 'driving a big machine'.
+- adds: nothing that the full warning in [303] does not say
+- loses: the on-the-spot caution right after 'He even did it when he was driving'; [303] still has the full warning. This is the earlier of the two statements, so cut it only if [303] stays.
+
+## P3a-09 [305] Turning the shortcut off, or keeping it, P1 (says-again, borderline; ours)
+
+- cut: : once you come back, today's session is over
+- already said: [305] 'Keeping it doesn't keep today's trance going, though'
+- adds: nothing; the clause after the colon restates it as 'the session ends when you come back'
+- loses: nothing important; the first half stands alone
+
+## P3b-01 [323] Let the next response guide you, P1 (preview-recap, borderline; his, as published (near-verbatim: a small fix of ours))
+
+- cut: The induction and the inner meeting get you to where you can listen. After that, it's about answering what happens, instead of reading out a script that has already decided what every part of you is going to say. 
+- already said: [322] heading 'Let the next response guide you'; [324] 'Respond to each thing that comes up with an accurate notice and a small reasonable invitation'
+- adds: A recap of the earlier sections and the contrast with a pre-scripted meeting ('instead of reading out a script that has already decided what every part of you is going to say'). The instruction that ends the block ('Read through these sections...') is kept.
+- loses: The hand-over from the induction and the script contrast; the section would open straight on 'Read through these sections, and then try doing the inner meeting without looking at the screen.'
+
+## P3b-02 [330] Notice, meaning, and your thoughts on the meaning, P1 (says-again, borderline; ours)
+
+- cut: When you can, it can be helpful to separate it out like that though - 
+- already said: [330] 'It's worth trying to separate the notice, the meaning, and your thoughts on the meaning'
+- adds: nothing in the lead-in; the template that follows it is kept (the join only adds 'For example,' so it still reads)
+- loses: nothing
+- join: It's worth trying to separate the notice, the meaning, and your thoughts on the meaning, but in practice it will often be pretty fuzzy. For example, "I noticed... this seemed to mean... here's why that might be true / false" or something like that.
+
+## P3b-03 [331] Notice, meaning, and your thoughts on the meaning, P2 (sums-up, borderline; ours)
+
+- cut:  Feelings are good to pay attention to, but it's still good to consider what they mean.
+- already said: [331] 'You can then go on to find out what he did, notice what it was that gave you the idea, and consider if there might be other explanations.' and 'Nonverbal thoughts and early thoughts aren't necessarily any deeper, truer, or more reliable than other thoughts.'; [330] the whole notice / meaning split
+- adds: Only the balancing clause that feelings are worth attending to, which the notice step and the whole exercise already assume
+- loses: That balancing clause (the block would end on the claim about nonverbal and early thoughts)
+
+## P3b-04 [333] Let the response change the invitation, P1 (says-again, borderline; ours)
+
+- cut: Just change it. 
+- already said: [333] "'No! That is Not Right!' is a signal to stop what you're doing and change it" and "don't keep doing it"
+- adds: nothing; 'You don't need any other reason.' stays and still reads
+- loses: nothing
+
+## P3b-05 [341] Change the amount of contact, P1 (sums-up, borderline; ours)
+
+- cut:  Do as much or as little as you feel you can.
+- already said: [341] 'if it feels too much, immediately start to widen your awareness' and 'approaching in smaller amounts is titration'
+- adds: A general permission about pace, including doing more
+- loses: That general permission, though [342] 'when you've had enough' and [343] 'Feel free to go back and explore more' give it in context
+
+## P3b-06 [345] If you feel an urge to move, P1 (other-side, borderline; ours)
+
+- cut: You do not need to act out the urge, shake, release, etc. 
+- already said: [345] 'or just imagine doing what you feel you need to do'
+- adds: Only that shaking or releasing is not required
+- loses: That mention of shaking and releasing
+
+## P3b-07 [347] Offer the care that is actually wanted, P1 (other-side, clear; ours)
+
+- cut: All of them are welcome to the meeting. 
+- already said: [347] 'You don’t have to get rid of any of them.' (the next sentence says the same stance from the other side), and the offers above it: 'offer them the opportunity to spend time with you', 'talk to them in the same Nurturer voice', 'find out what they are concerned about'
+- adds: nothing; a welcome the paragraph's instructions already enact. 'You don’t have to get rid of any of them.' carries the practical point and is kept.
+- loses: nothing
+
+## P3b-08 [348] Offer the care that is actually wanted, P2 (other-side, borderline; ours)
+
+- cut:  If you are already able to do a certain step, you don’t have to do it again.
+- already said: [348] 'You only need to use the Witness if you need help getting started with a step.'
+- adds: Possibly that a step you can already do needn't be repeated, if 'do it again' means something other than using the Witness; the earlier sections would show which
+- loses: That possible extra meaning
+
+## P3b-09 [350] Offer the care that is actually wanted, P4 (caveat-again, borderline; ours)
+
+- cut:  Don’t think that you can’t take the love.
+- already said: [350] 'That doesn’t mean your love isn’t working.' and 'then change it to something that is less'
+- adds: A reassurance that needing less is not a failure to receive love
+- loses: That reassurance
+
+## P3b-10 [357] Throughout the exercise, P1 (caveat-again, clear; ours)
+
+- cut: Remember that the images you see can be meaningful without being memories of things that actually happened. 
+- already said: [351] 'Remember that whatever you find out is likely to be metaphorical. It may be a good hypothesis for what you need to do, but it isn’t a record of what actually happened.'
+- adds: nothing; 'meaningful' is covered by [351] 'a good hypothesis'
+- loses: nothing
+
+## P3b-11 [357] Throughout the exercise, P1 (caveat-again, borderline; ours)
+
+- cut:  And just because you see an image, or feel a body release, doesn’t mean you are right about what is going on.
+- already said: [321] 'Listen to everything and believe nothing automatically.'; [331] 'Nonverbal thoughts and early thoughts aren't necessarily any deeper, truer, or more reliable than other thoughts.'; [351] 'it isn’t a record of what actually happened'
+- adds: A body release named as an example
+- loses: That example and the block's last standing reminder
+
+## P4-01 [360] The 15-minute daily practice, P2 (says-again, borderline; ours)
+
+- cut: Choose one way to induce yourself.
+- already said: [360] the next sentence: “You don't need to try all of them (in fact, stacking them might be counter-productive).”
+- adds: Nothing but a firmer wording of "one": the next sentence already says you needn't try them all, and adds that stacking may backfire.
+- loses: Nothing. "Choose one" is still plain from "You don't need to try all of them (in fact, stacking them might be counter-productive)". If the lead would rather keep the imperative, cut the second sentence instead, but that one holds the stacking warning.
+
+## P4-02 [367] Capacity before content, P1 (sums-up, borderline; his, as published (near-verbatim: a small fix of ours))
+
+- cut: Ask for capacity before content.
+- already said: [366] the heading "Capacity before content"; [367] “focus on stabilizing first, with help if you need it” ... “and only then look for what your subconscious needs you to know.” and “If knowing what your subconscious knows would destabilize you, it is not meant for you to know directly at this time.”
+- adds: The heading's words as a one-line instruction, with the verb "ask". Stabilizing first and only then looking is already the paragraph's point, and how to ask is taught by the scripts in 371 to 374 and 405.
+- loses: Nothing the section doesn't carry: the heading, the two sentences before it and the scripts after it all say capacity before content.
+
+## P4-03 [368] Capacity before content, P2 (list, borderline; ours)
+
+- cut: , vocation, a relationship, illness fears, spirituality, addiction, identity, moral issues
+- already said: [368] the same sentence's first items, “sexuality, grief, trauma, family issues, betrayal, shame”, already show it can be any heavy area of life; the sentence also ends "etc."
+- adds: Seven more example topics of the same kind. No new claim, condition or instruction.
+- loses: Seven example topics (vocation, a relationship, illness fears, spirituality, addiction, identity, moral issues); "etc." still leaves the list open. The cut is one way to shorten it: the lead could keep a different few.
+
+## P4-04 [375] Capacity before content, P9 (sums-up, borderline; ours)
+
+- cut: So, treat it like an image, and get
+- already said: [375] “not everything in hypnotic imagery is literal, especially if it relates to trauma and memory.” and “The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc.” (and, in another section, [357] “Remember that the images you see can be meaningful without being memories of things that actually happened.”)
+- adds: Nothing in "So, treat it like an image": it is the conclusion of the two sentences before it. The join keeps the instruction to get help that follows it, which repeats the "with help if you need it" of 367 and the "get some support first" of 372; the lead may cut that clause too.
+- loses: Nothing.
+- join: Remember: not everything in hypnotic imagery is literal, especially if it relates to trauma and memory. The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc. Get some help outside of yourself when you need it.
+
+## P4-05 [414] You get stuck in endless processing, P2 (says-again, borderline; ours)
+
+- cut: You don’t have to have a meeting with every thought that pops into your head before you start your life.
+- already said: [414] the first sentence: “The best thing to do, though, if you notice you’re in a checking loop, is allow the thought to be there without engaging with it and get on with what you have chosen to do.”
+- adds: Nothing new. It is the first sentence's "allow the thought to be there without engaging with it and get on with what you have chosen to do" said again as a picture (a meeting with every thought) and as a permission.
+- loses: A vivid picture only; the instruction stays in the first sentence.
+
+## P4-06 [414] You get stuck in endless processing, P2 (says-again, clear; ours)
+
+- cut: You don’t have to complete a ritual before you start your life.
+- already said: [414] the first sentence: “The best thing to do, though, if you notice you’re in a checking loop, is allow the thought to be there without engaging with it and get on with what you have chosen to do.” and the sentence before it: “You don’t have to have a meeting with every thought that pops into your head before you start your life.”
+- adds: Nothing. The same frame ("You don't have to ... before you start your life") with "complete a ritual" swapped in for "have a meeting with every thought". The checking loop is already named in 413 ("a checking loop", "a form of checking") and the instruction not to engage is in the first sentence.
+- loses: Nothing.
+
+## P4-07 [441] Your functioning in ordinary life is the feedback, P1 (caveat-again, borderline; ours)
+
+- cut: don't try to go deeper. Go
+- already said: [435] “If you notice that your functioning is getting worse, or that you're getting more certain about unconfirmable memories, then reassess instead of pushing harder.”
+- adds: Nothing in "don't try to go deeper": it is 435's "reassess instead of pushing harder" for the same case (functioning getting worse). What follows, the list of what to go for instead, stays in the join.
+- loses: Nothing the section doesn't already say, but 441 is the subsection whose heading (440) is this principle, so the lead may prefer to keep the sentence here. Do not cut it from 435 instead: that sentence also holds the unconfirmable-memories trigger, which 441 lacks.
+- join: If you find yourself more loving, more honest, more functional, more relational, more grounded, more precise, etc. than when you started this process, keep on keeping on gently. If you notice that your ordinary life is becoming less stable, go for more sleep, more eating, more grounding, more healthy boundaries with other people, more support from other people, etc.
+
+## P4-08 [445] Closing, P3 (other-side, borderline; ours)
+
+- cut: work on thinking in a way that your love for yourself doesn't become fantasy;
+- already said: [445] the clause before it: “Work on loving yourself in a way that your thinking doesn't object to” (love answering to thinking); the same balance is in [425] “You are capable of analysis, as well as tenderness.” and, before this part, in [60] (“all the modes of your mind ... Nobody needs to win!”, as the brief quotes it)
+- adds: The reverse direction of the same balance (thinking kept loving), not a new instruction: love that your thinking doesn't object to is already love that hasn't become fantasy. A balanced pair of the kind he cut in 61 and 62.
+- loses: The thinking-to-love half of the balance, which 425 and the early guide already state. The join also turns the semicolon into ", and".
+- join: Listen to your little one for as long as it takes until they're comfortable enough to move closer to you. This is easiest to do if you're making and keeping lots of small promises to your little one, so the various guards feel they can occasionally relax. Work on loving yourself in a way that your thinking doesn't object to, and take all of this back into regular life, where your adult self keeps its promises.
+
+## P5a-01 [493] The Milton Model, minus the covert sales seminar, P5 (aftercare, borderline; ours)
+
+- cut: We paced it; we opened up awareness; we validated the reason for the reaction; we presumed we could do it; we used a bridge word to make it easier and we invited one thing. 
+- already said: [491] 'So let’s start with something we know to be true, let’s take the pressure off, presume that we can only do a tiny bit and let’s invite one thing:' (the same moves, listed just before the example sentence).
+- adds: Names three moves [491] does not list (awareness verb, validating the reaction, bridge word), but each gets its own Pattern section below and the sentence does not point at where they sit in the example.
+- loses: A short label of what the example sentence does. The next sentence ('We can then test this out with the body…') stands on its own.
+
+## P5a-02 [512] Pattern 6: Ethical double binds, P1 (aftercare, clear; his own words (a paragraph he wrote or rewrote))
+
+- cut:  Clearly, that sends you deeper regardless what you "choose."
+- already said: [512] 'Children love choices, even when they're both designed for the same pre-decided outcome.' and 'A manipulative double bind is the name for that'; [513] 'even if both choices serve the same end'.
+- adds: nothing: the Nimja quote shows both options lead deeper, and the paragraph has already said the choices share one outcome.
+- loses: nothing
+
+## P5a-03 [516] Pattern 7: Conversational postulates, P1 (aftercare, clear; his own words (a paragraph he wrote or rewrote))
+
+- cut: We already know they're not really asking if you have that ability. 
+- already said: [516] 'a sneaky little yes or no question that's actually a way to ask for something indirectly'
+- adds: nothing: it translates the salt example back into the definition given two sentences earlier.
+- loses: nothing; 'Can you pass the salt?' reads as a request on its own, and the next sentence ('In its most egregious form…') still follows.
+
+## P5a-04 [522] Pattern 9: Nominalizations, P1 (list, borderline; his, as published (near-verbatim: a small fix of ours))
+
+- cut: Others are 'safety', 'trust', 'integration', 'communion', 'clarity' and 'rest'. 
+- already said: [522] the definition and the 'healing' example; [523] 'A bit more safety can come to me…' is a second worked example.
+- adds: Five more instances of the same point (a vocabulary the guide's scripts use); no new claim.
+- loses: A ready vocabulary of nominalizations the reader can reuse. The definition, 'healing' and [523]'s 'safety' script still make the point.
+- join: A nominalization turns something you do into a noun: you heal, and it becomes 'healing'. Nominalizations are a bit vague, and sometimes that's useful, because it lets the listener's subconscious fill in something very specific for them.
+
+## P5a-05 [536] Anchoring — giving the body a doorway back, P1 (caveat-again, borderline; ours)
+
+- cut: Do make sure you do it when you clearly feel that state. 
+- already said: [536] 'Feel a state you have really been in, one you want to be able to get back to easily when you need it. Do your anchor thing…' (feel the state, then anchor, already gives the order).
+- adds: Emphasis that the state should be clearly felt at the moment of anchoring; the order of the two sentences before already implies it, and the next sentence says what kind of state to aim for.
+- loses: A reminder about timing; little else.
+
+## P5a-06 [540] Using synchronicity as your own wake-up bell, P3 (preview-recap, borderline; ours)
+
+- cut (the whole paragraph): It is my cue to: Stop, orient, go wider, reality check, listen, do at least one thing from a loving place.
+- already said: [541] 'Whenever I notice it, I use it as a cue for waking up inside whatever state I am in, feeling my body, feeling the room I'm in…' and the rest of that paragraph, which steps through the same moves (widening, looking for the truth, listening for the message, choosing at least one loving thing).
+- adds: nothing beyond a compact list of the steps that [541] then spells out ('stop' and 'listen' are only implicit there).
+- loses: The at-a-glance version of the cue. If Joel wants a short mnemonic, keep this and trim [541] instead.
+
+## P5a-07 [541] Using synchronicity as your own wake-up bell, P4 (says-again, borderline; ours)
+
+- cut: , from the highest perspective I can get to
+- already said: [541] 'I go into the highest state I can get into, where I can see what is going on in that situation as objectively and clearly as I can' (same sentence).
+- adds: nothing: 'highest perspective' is 'highest state' again.
+- loses: nothing
+
+## P5a-08 [541] Using synchronicity as your own wake-up bell, P4 (says-again, borderline; ours)
+
+- cut: From that place I choose what to do. 
+- already said: [541] 'I choose at least one thing to do that is from a loving place.' (the next sentence).
+- adds: nothing: the next sentence says the same thing and adds 'at least one… from a loving place'.
+- loses: The 'From that place' link back to the checks, which the next sentence does not need.
+
+## P5a-09 [542] Using synchronicity as your own wake-up bell, P5 (sums-up, clear; ours)
+
+- cut (the whole paragraph): This way I don't identify with the state, but I still hear its message if it's negative.
+- already said: [541] 'waking up inside whatever state I am in… widening my state so that I can see beyond what my current state is showing me' (not identifying) and 'If the state I started in is negative, I check if it is a message from my inner child…' (still hearing the message).
+- adds: nothing: it names the result of the paragraph above.
+- loses: nothing
+
+## P5a-10 [554] False positives, and turning the cue off, P1 (caveat-again, borderline; ours)
+
+- cut:  In fact, it's not a pathology.
+- already said: [554] 'That isn't saying that noticing patterns is bad.' (the sentence before).
+- adds: The word 'pathology', which names the clinical reading the research sentence might invite; 'isn't bad' already carries the reassurance.
+- loses: A slightly stronger reassurance, in clinical terms.
+
+## P5a-11 [560] Perceptual positions — self, other, witness, universal heart, P1 (says-again, borderline; ours)
+
+- cut:  I do this to see the situation with more accuracy.
+- already said: [561] 'I will not use this to rationalize bad behavior, but only to break out of a prison of perception.' (the aim again, with the limit added).
+- adds: nothing beyond 'accuracy' as the plain word for the aim; [561] says what the exercise is for and what it is not for.
+- loses: The plain statement of the aim before [561]'s image.
+
+## P5a-12 [564] Future pacing — let the future test the insight, P2 (says-again, borderline; ours)
+
+- cut:  (If...then... statement)
+- already said: [552] 'implementation intention (an if...then... plan)'
+- adds: nothing: the term was glossed twelve blocks earlier.
+- loses: The gloss for a reader who jumped here and skipped [552].
+
+## P5b-01 [575] What I will not use NLP for, P6 (says-again, borderline; his own words (a paragraph he wrote or rewrote))
+
+- cut: , which is another way of saying they are spiritually inferior to me if they disagree with me
+- already said: 575, earlier in the same sentence: 'not manipulating anyone to feel like their no is the ego's resistance we need to overcome'
+- adds: Only the blunt gloss that this framing amounts to calling the other person spiritually inferior. It is introduced by 'another way of saying', so it is a restatement of the same manipulation in stronger words.
+- loses: The pointed naming of the superiority claim. The manipulation itself is still named and ruled out.
+
+## P5b-02 [598] Appendix C: The extended de-hypnosis checklist, P9 (other-side, clear; his own words (a paragraph he wrote or rewrote))
+
+- cut: A good guide can take no. A bad guide can’t take no. A bad guide wants to take your adult self’s job. 
+- already said: 594: 'If you can say no to them and they're fine with it, that's a good sign'. 591: 'If it's love, it can accommodate your boundaries' and 'it won't want you to give up all the wisdom and sovereignty you've worked so hard to develop'. 596: 'does it try to stop your adult self from saying no?'. The block's own last sentence then says what a bad guide does with your no.
+- adds: nothing. The three sentences are the good-guide / bad-guide flip of checks already made in 591, 594 and 596, and the sentence that stays in the block spells out the bad guide's reaction to no.
+- loses: nothing. The block still opens with the good-guide claim and ends with the list of labels a bad guide puts on your no.
+
+## P5b-03 [610] Appendix D: Anxiety — body first, P2 (says-again, clear; ours)
+
+- cut:  Help your body first.
+- already said: 608, heading: 'Appendix D: Anxiety — body first'. 611, next paragraph: 'Work in this order – first your body, then your inner child, then some inquiry, then some action'.
+- adds: nothing. 'Help your body first' is the heading and the next paragraph's first step, said a third time.
+- loses: nothing. The block still ends on 'don't start by interrogating that part' and 611 says what to do instead.
+
+## P5b-04 [615] EFT tapping, P1 (sums-up, borderline; ours)
+
+- cut: So treat the evidence with caution, and know that
+- already said: 615: 'There isn't a ton of evidence for EFT, but there are some studies on anxiety.'
+- adds: Only the moral 'treat the evidence with caution', which draws the conclusion of the two sentences before it. 'There are first-line therapies for anxiety' is new and is kept in the join.
+- loses: The explicit caution placed after the review's positive finding. The first-line-therapies point is kept.
+- join: One of the easiest ways to do EFT (Emotional Freedom Techniques, or tapping) is to say something like, “Even though I have this anxiety, I am willing to be kind to the part of me that is afraid,” while you tap gently on your body and stay with what you feel. There isn’t a ton of evidence for EFT, but there are some studies on anxiety. A 2025 systematic review found 7 randomized controlled trials for anxiety disorders, and noted that EFT was more effective than no intervention in several of them. There are first-line therapies for anxiety.
+
+## P5b-05 [619] Gendlin Focusing, P1 (sums-up, borderline; ours)
+
+- cut:  Use the words and the body to mutually correct one another.
+- already said: 619: 'The word may feel ok, but say something that doesn’t fit the situation, or vice versa.' This is the two-way check, after 'see how well it fits the felt sense' and 'see if what the word or phrase says is true of the situation'.
+- adds: nothing beyond calling the two-way check 'mutually correct'. The example sentence before it already shows it.
+- loses: nothing
+
+## P5b-06 [621] Body supports, P1 (says-again, clear; ours)
+
+- cut: Work with the body. 
+- already said: 620, heading: 'Body supports'. 621, next sentence: 'you may need to work directly with the body to calm it down'.
+- adds: nothing. The next sentence gives the same instruction with its reason.
+- loses: nothing
+
+## P5b-07 [622] Body supports, P2 (sums-up, borderline; ours)
+
+- cut:  All you really need is to stabilize yourself, and then listen to the messages from your inner realm, reality test those messages, and then do something grounded about them.
+- already said: 611: 'first your body, then your inner child, then some inquiry, then some action'. The anxiety script says it again in 629: 'I will listen to what you have to say and reality test it and then take some action.'
+- adds: Only the framing that these steps are all you need instead of the products. The steps themselves are the appendix's sequence restated in other words.
+- loses: The positive 'all you really need' reassurance after 'neither one of those products is necessary'.
+
+## P6-01 [662] When the subconscious speaks like an oracle, P2 (says-again, borderline; ours)
+
+- cut: : the bigger the consequences, the slower you go
+- already said: [662] "Especially if it's a big thing, or something that can't be easily undone, slow down" (the first half of the same sentence)
+- adds: Only the graded form (the bigger the consequences, the slower). The trigger ('a big thing, or something that can't be easily undone') is in the first half, and [664] gives the same bigger-means-more rule for reaching outside.
+- loses: Nothing important: only the graded wording of a point the first half already makes.
+
+## P6-02 [664] The council — internal first, then outward, P1 (says-again, clear; ours)
+
+- cut:  The bigger and more un-undoable something is, the more you want to reach outside.
+- already said: [664] "But if it's bigger than all of those, ask outside of yourself, too."; [662] "Especially if it's a big thing, or something that can't be easily undone, slow down"
+- adds: Only the scale form (the bigger, the more). The action (ask outside) is the sentence before it, and the 'bigger' and 'can't be undone' criteria are in [662].
+- loses: Nothing important: only the scale wording.
+
+## P6-03 [666] The council — internal first, then outward, P3 (sums-up, borderline; ours)
+
+- cut:  Another person doesn’t get automatic trust, or automatic dismissal.
+- already said: [666] "it is possible to give your power away. Seeking counsel can slide into abdicating to an authority figure without you noticing."; [665] "Sometimes it is right to go it alone, but I would suggest making it the last step, after you've tried to get counsel."
+- adds: A one-line balance. The 'automatic trust' half restates the two sentences before it; the 'automatic dismissal' half is only implied by [664] and [665].
+- loses: The one-line statement of the balance (neither automatic trust nor automatic dismissal).
+
+## P6-04 [667] The council — internal first, then outward, P4 (caveat-again, borderline; ours)
+
+- cut: , but they don’t interpret what you experience
+- already said: [667] "attention without interpretation, advice, or fixing" and "but you don’t act as each other’s Guide"
+- adds: nothing
+- loses: The explicit limit on the careful-question sentence; the same limit is stated twice earlier in the paragraph.
+
+## P6-05 [677] Appendix G: Altered states, P3 (sums-up, borderline; his own words (a paragraph he wrote or rewrote))
+
+- cut:  Love starts with hearing out the resistance to it first.
+- already said: [677] "try to deal with why you can't, instead of trying to ramp up the experience. Often there's a child guard part that’s seen love come with strings or get revoked before in a painful way."
+- adds: Only the general form of the point and the words 'hearing out' (listen to the guard part rather than fix it).
+- loses: The one-line principle; the instruction and the guard-part explanation before it carry the same point.
+
+## P6-06 [681] Appendix G: Altered states, P7 (says-again, clear; ours)
+
+- cut (the whole paragraph): In other words, if using self-hypnosis while you're in an altered state of consciousness isn't helping you become more loving, more grounded, more honest with yourself, sleep better, become more communicative and more able to do your everyday responsibilities, etc, then stop trying to go deeper into your altered state of consciousness, and start working on integrating what you've already gotten from it.
+- already said: [680] "Don’t use self-hypnosis to try to keep the altered state of consciousness going indefinitely, to force memories to come back, to make yourself more afraid, to get by without sleep, to put off taking care of medical problems, to become less communicative, etc."; [679] "Help me to become more grounded. Help me to only take what I can integrate. Help me to remember love. Help me to come back when it's time."
+- adds: Only the instruction to stop going deeper and work on integrating, which [680] ('keep the altered state of consciousness going indefinitely') and the [679] script lines ('only take what I can integrate', 'come back when it's time') already imply. The rest is [680]'s list turned into its positive test (loving, grounded, honest, sleep, communicative, able to do responsibilities); the same test is The General Rule at [718].
+- loses: Nothing: the stop-going-deeper-and-integrate instruction is carried by [679], [680] and [718].
+
+## P6-07 [697] Start with the room, the body, and basic safety, P1 (preview-recap, borderline; ours)
+
+- cut (the whole paragraph): So what do you do when you encounter a demon, or a jinn, or something else that’s bad and intrusive?
+- already said: [694] "something that you perceive to be a demon, a jinn, a parasitic energy, or whatever other dark entity or terrifying archetype you may encounter"; [695] "What matters is finding the best way to deal with them, so you end up safer, clearer, more loving, more grounded and less hooked."
+- adds: nothing
+- loses: Nothing in content; only a spoken bridge into the section, and [698] answers directly under the heading.
+
+## P6-08 [703] A response check, not a verdict about what it is, P2 (caveat-again, borderline; ours)
+
+- cut: Remember that you don’t have to know what it is. 
+- already said: [695] "it doesn’t matter if they’re demons or not."; [698] "don’t try to figure out what it is."; heading [701] "A response check, not a verdict about what it is"
+- adds: nothing
+- loses: Nothing; the heading, [695] and [698] carry it, and the word 'Remember' marks it as a reminder.
+
+## P6-09 [705] A response check, not a verdict about what it is, P4 (preview-recap, borderline; ours)
+
+- cut (the whole paragraph): You don’t have to find out if it’s a guard immediately, and you may not be able to comfort it quickly. Just keep an eye on whether the way you’re responding to it helps you get clearer and steadier and less hooked.
+- already said: [703] "Remember that you don’t have to know what it is. Find out if it helps to be warm towards it or to keep it at arm’s length, and keep your boundary either way."; [695] "so you end up safer, clearer, more loving, more grounded and less hooked."; heading [701] "A response check, not a verdict about what it is"
+- adds: Only 'you may not be able to comfort it quickly', a small reassurance. The rest is the two points of [703] (you don't have to know what it is; check whether your response helps), with the measure from [695].
+- loses: That one reassurance; [704] already ends the section with what to do if it doesn't help.
+
+## P6-10 [708] Do not fight from fear, P2 (every-case, borderline; ours)
+
+- cut:  (If you’re proud, you give it an opponent, and if you panic, you give it your nervous system.)
+- already said: [708] "It becomes a center of attention if you fear it, and if you hate it, you give it a hook in you."; [707] "Your first instinct may be to fight it, banish it, hate it, show it that you’re more powerful than it is, argue with it, panic, turn completely into the frightened part of you, etc."
+- adds: Two more reaction-and-cost pairs (pride gives it an opponent, panic gives it your nervous system). They match 'show it that you’re more powerful' and 'panic' in [707], but the point (reacting out of fear feeds it) is already made by the first two.
+- loses: Two vivid pairings.
+
+## P6-11 [712] A bodily boundary: compassion present, door closed, P2 (says-again, borderline; ours)
+
+- cut: , but it can be useful to approach it with love while also making it clear that it needs to respect your boundaries
+- already said: [711] "You can also tell the presence that while you have compassion for it, the door is closed." (and heading [710] "compassion present, door closed")
+- adds: nothing
+- loses: The positive half of the 'not X, but Y' contrast, which [711] and the script in [713] carry.
+
+## P6-12 [721] The cosmic-download humility test, P2 (sums-up, clear; his, as published)
+
+- cut (the whole paragraph): Guidance worth keeping should make ordinary life more beautiful, honest, relational, humble, reliable, and useful to other people.
+- already said: [720] "Unless the info you’re trying to download to me can help me do the dishes, clean my room, be more honest, be more helpful, be more loving, keep my promises, take care of my body by resting and eating etc, I don’t need it."; [718] "making you more loving, more grounded, more relational, more honest, more functional"
+- adds: Only the abstract wording (beautiful, humble, reliable, useful to other people) for the goods the script lists (the dishes, the room, honest, helpful, loving, promises, the body); the same test is The General Rule at [718].
+- loses: Nothing; the [720] script and The General Rule at [718] carry the test.
+
+## P6-13 [723] Don’t become an entity hobbyist, P1 (says-again, borderline; ours)
+
+- cut: I just don’t want you to do that. 
+- already said: heading [722] "Don’t become an entity hobbyist"; [723] "some of you may be tempted to make this an area of hobbyism"
+- adds: nothing
+- loses: The direct ask in the author's voice; the heading carries the sense and the next sentence gives the reason.

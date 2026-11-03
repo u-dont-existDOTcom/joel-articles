@@ -1,0 +1,356 @@
+{
+ "groups": {
+  "W1": [
+   "J5",
+   "T2",
+   "T4",
+   "T7"
+  ],
+  "W2": [
+   "T5",
+   "T6",
+   "T9"
+  ],
+  "W3": [
+   "T12",
+   "T15",
+   "J3",
+   "T17"
+  ]
+ },
+ "items": [
+  {
+   "id": "T2",
+   "block": 63,
+   "where": "Forget the left-brain/right-brain cartoon, P5",
+   "whose": "ours",
+   "readings_before": [
+    "AI (Low), window 24 of part A"
+   ],
+   "paragraph": "And it’s got to lead somewhere: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life.",
+   "flagged_stretch": "And it’s got to lead somewhere: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life.",
+   "before": "Without the mind of love the mind of analysis can be sterile. Without the mind of analysis the mind of love can lead to fantasy. Without testing intuitive signals they can become delusions. Without intuitive signals the testing can be dead. So these modes can correct each other.",
+   "after": "Why doing it myself worked better for me",
+   "published": [
+    "A powerful state matters only if something survives it: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life.",
+    "Wait: let the response settle. Some changes need quiet, sleep, or ordinary time."
+   ],
+   "last_try": {
+    "version": "And the practice has to go somewhere. You should come out of it kinder to people, or humbler, or making better decisions, or doing real service, or with an everyday life that works better than before.",
+    "read_in_place": "AI (High)",
+    "windows": [
+     "AI Medium 9 words",
+     "AI High 29 words"
+    ],
+    "other_version_not_checked": "And all this inner work has to lead somewhere. Maybe you treat people more kindly, or you’re humbler, or you make better calls. Or you end up really serving others, or with an everyday life that works better than it did."
+   },
+   "turned_red_nearby": [
+    "I was sober at the session and didn’t feel especially suggestible, but I suspect that’s not even the main reason the pro didn’t work very well for me. (AI (Low), 31 words)",
+    "The bigger issue was trust and precision. (AI (Medium), 7 words)"
+   ],
+   "writer": "W1"
+  },
+  {
+   "id": "T4",
+   "block": 96,
+   "where": "When the adult role is not available yet, P2",
+   "whose": "ours",
+   "readings_before": [
+    "AI (High), window 40 of part A",
+    "AI (High), window 40 of part A"
+   ],
+   "paragraph": "For that starting point, I have developed a kind of provisional bridge that I call “borrowed adulthood.” It’s built from familiar practices like modeling and supported action, but I’m not suggesting that the whole sequence has been formally tested and proven as one treatment.",
+   "flagged_stretch": "For that starting point, I have developed a kind of provisional bridge that I call “borrowed adulthood.” It’s built from familiar practices like modeling and supported action, but I’m not suggesting that the whole sequence has been formally tested and proven as one treatment.",
+   "before": "The problem is that some people do not have access to their adult functions at will. Instead, they may go blank, access an inherited inner critic, or feel like a child part who may be playing at being an adult (what I call forced adulthood). Telling them to just access their adult is like telling a baby bird to just fly.",
+   "after": "Access your witnessing position if necessary, just noticing what’s there, without needing it to be warm or wise or certain. If you already know how to access different internal positions, move immediately to accessing the adult position you want to borrow.",
+   "published": [
+    "For that starting point, I use a provisional, author-developed bridge I call borrowed adulthood. It combines familiar practices—witnessing, modeling, supported action, and gradual transfer of responsibility—without claiming that the complete sequence has been validated as one treatment.",
+    "To retire it, stop rehearsing it and say while fully awake: “Synchronicity is no longer a cue. I release this association and return coincidence to ordinary uncertainty.” Remove it from the written cue list and stop rehearsing it. The statement expresses your decision; it does not prove the association has vanished immediately."
+   ],
+   "last_try": {
+    "version": "For people starting from there, I came up with something I call “borrowed adulthood.” I think of it as a provisional bridge, and I pieced it together from familiar practices like modeling and supported action. I’m not saying the whole sequence has been formally tested and proven as one treatment, though.",
+    "read_in_place": "AI (High)",
+    "windows": [
+     "AI High 52 words"
+    ],
+    "other_version_not_checked": "For people at that starting point, I’ve worked out a temporary bridge of my own and named it “borrowed adulthood.” The parts are familiar practices, like modeling and supported action. Still, I’m not claiming anyone has formally tested and proven the whole sequence as one treatment."
+   },
+   "turned_red_nearby": [],
+   "writer": "W1"
+  },
+  {
+   "id": "T5",
+   "block": 237,
+   "where": "Please don’t put six metaphors in one trance, P1",
+   "whose": "ours",
+   "readings_before": [
+    "AI (Low), window 93 of part A"
+   ],
+   "paragraph": "Keep it simple. One thing you're doing, one anchor/image you're going with at first, one way of coming back, and feel free to set a tone (warm, bounded, directed, neutral witnessing, whatever) for yourself. If you're going to use metaphors just do one, and if you switch metaphors, do it in a way that's conscious.",
+   "flagged_stretch": "One thing you're doing, one anchor/image you're going with at first, one way of coming back, and feel free to set a tone (warm, bounded, directed, neutral witnessing, whatever) for yourself.",
+   "before": "Please don’t put six metaphors in one trance",
+   "after": "Using metaphors and imagery is entirely optional. You can use whatever form of signal shows up (feelings, rhythms, movements, words, spatial sense, simple knowing, lack of signal, whatever) but if you're using words, try to keep them related to whatever world you're creating. If you're going to count, do it in a way that makes sense in your world. And when you're done, come back the other way. (You can borrow qualities such as warmth or steadiness, but don't change who you are.)",
+   "published": [
+    "Choose one purpose, one starting anchor or image, and a way back. Decide whether warmth, a firm boundary, direction, or neutral witnessing would help. Floating, stairs, gardens, inner rooms, colored light, and child dialogue do not all need to report for duty at once. Switch consciously when the metaphor stops helping.",
+    "After familiar runs, shorten a recording to the cues you still need, then try practicing without playback. Keep recordings when you enjoy them; independence means being able to guide yourself, not having to refuse help. The optional re-entry cue can shorten an already familiar induction."
+   ],
+   "last_try": {
+    "version": "Stick to the one thing you're doing, with one anchor or image to get started and one way to come back. You can also set yourself a tone if you want one, maybe warm or bounded or directed or neutral witnessing, or whatever else.",
+    "read_in_place": "AI (High)",
+    "windows": [
+     "AI High 68 words"
+    ],
+    "other_version_not_checked": "Pick the one thing you're doing. Start out with a single anchor/image, and have one way of coming back. Setting a tone for yourself is fine too (warm, bounded, directed, neutral witnessing, whatever)."
+   },
+   "turned_red_nearby": [
+    "If so, you might not need to deepen. (AI (Low), 8 words)",
+    "Keep it simple. (AI (Low), 3 words)",
+    "Using metaphors and imagery is entirely optional. (AI (Medium), 7 words)",
+    "You can use whatever form of signal shows up (feelings, rhythms, movements, words, spatial sense, simple knowing, lack of signal, whatever) but if you’re using words, try to keep them related to whatever world you’re creating. (AI (High), 38 words)",
+    "If you’re going to count, do it in a way that makes sense in your world. And when you’re done, come back the other way. (AI (Medium), 27 words)",
+    "When you’re writing the script, decide what the verb you’re using is, what the sensory quality is, what the short refrain is, and how you’re going to transition between ideas. (AI (High), 33 words)",
+    "Read it out loud as you’re writing it. (AI (Medium), 9 words)",
+    "Long, elegant sentences don’t read well when you’re being induced. (AI (Low), 12 words)"
+   ],
+   "writer": "W2"
+  },
+  {
+   "id": "T6",
+   "block": 238,
+   "where": "Please don’t put six metaphors in one trance, P2",
+   "whose": "ours",
+   "readings_before": [
+    "AI (Low), window 96 of part A"
+   ],
+   "paragraph": "Using metaphors and imagery is entirely optional. You can use whatever form of signal shows up (feelings, rhythms, movements, words, spatial sense, simple knowing, lack of signal, whatever) but if you're using words, try to keep them related to whatever world you're creating. If you're going to count, do it in a way that makes sense in your world. And when you're done, come back the other way. (You can borrow qualities such as warmth or steadiness, but don't change who you are.)",
+   "flagged_stretch": "(You can borrow qualities such as warmth or steadiness, but don't change who you are.)",
+   "before": "Keep it simple. One thing you're doing, one anchor/image you're going with at first, one way of coming back, and feel free to set a tone (warm, bounded, directed, neutral witnessing, whatever) for yourself. If you're going to use metaphors just do one, and if you switch metaphors, do it in a way that's conscious.",
+   "after": "When you're writing the script, decide what the verb you're using is, what the sensory quality is, what the short refrain is, and how you're going to transition between ideas. Read it out loud as you're writing it. Long, elegant sentences don't read well when you're being induced. It's all just soup.",
+   "published": [
+    "Imagery is optional. A signal may arrive through sensation, rhythm, movement, words, spatial sense, simple knowing, or no response at all. Keep the language in the world you chose: let a count mark something meaningful there, and reverse the journey when you finish. Borrow qualities such as warmth or steadiness without replacing your identity.",
+    "Use Come all the way back, even when you ended early. Afterwards, write a few lines: what was there before; what I tried; what happened; what remains uncertain. Include a phrase, bodily signal, child’s need, protector’s concern, boundary, repair, or what not to force only when it actually appeared. You don’t owe the notebook a complete cast of characters."
+   ],
+   "last_try": {
+    "version": "(It's fine to borrow qualities like warmth or steadiness. Just don't change who you are.)",
+    "read_in_place": "AI (High)",
+    "windows": [
+     "AI High 10 words",
+     "AI Medium 7 words"
+    ],
+    "other_version_not_checked": "(If you want to borrow warmth or steadiness or some other quality, go ahead, but don't change who you are.)"
+   },
+   "turned_red_nearby": [
+    "Keep it simple. (AI (Low), 3 words)",
+    "Using metaphors and imagery is entirely optional. (AI (Medium), 7 words)",
+    "You can use whatever form of signal shows up (feelings, rhythms, movements, words, spatial sense, simple knowing, lack of signal, whatever) but if you’re using words, try to keep them related to whatever world you’re creating. (AI (High), 38 words)",
+    "If you’re going to count, do it in a way that makes sense in your world. And when you’re done, come back the other way. (AI (Medium), 27 words)",
+    "When you’re writing the script, decide what the verb you’re using is, what the sensory quality is, what the short refrain is, and how you’re going to transition between ideas. (AI (High), 33 words)",
+    "Read it out loud as you’re writing it. (AI (Medium), 9 words)",
+    "Long, elegant sentences don’t read well when you’re being induced. (AI (Low), 12 words)"
+   ],
+   "writer": "W2"
+  },
+  {
+   "id": "T7",
+   "block": 289,
+   "where": "Optional fractionation: practice coming back, P1",
+   "whose": "ours",
+   "readings_before": [
+    "AI (Low), window 145 of part A",
+    "AI (High), window 146 of part A"
+   ],
+   "paragraph": "Fractionation means returning toward ordinary awareness and then deciding whether to enter absorption again. Used openly, it teaches that trance has a door in both directions. At some point in time you can add this, but you must say you are doing it before doing it, so no answer can secretly mean “deeper.”",
+   "flagged_stretch": "Fractionation means returning toward ordinary awareness and then deciding whether to enter absorption again. Used openly, it teaches that trance has a door in both directions.",
+   "before": "Optional fractionation: practice coming back",
+   "after": "“Ok, open your eyes and come back up, feel the room around you, you can decide if you want to stop the work at this point or if you want to continue, if you want to continue soften your eyes or close them and notice the change that comes over you when you do, if you want to stop, that is ok too, either way is ok and you can stop at either place.”",
+   "published": [
+    "Fractionation means returning toward ordinary awareness and then deciding whether to enter absorption again. Used openly, it teaches that trance has a door in both directions. Name the technique before using it; every answer cannot secretly mean “deeper.”",
+    "Deactivate the cue if it increases compulsive scanning, sleeplessness, anxiety, certainty that random events are personally directed messages, or difficulty distinguishing observation from interpretation."
+   ],
+   "last_try": {
+    "version": "In fractionation, you come back up toward ordinary awareness. Then you decide whether to go into absorption again. If you use fractionation openly, it teaches you that you can come out of trance as well as go in.",
+    "read_in_place": "AI (Low)",
+    "windows": [
+     "Human Medium 22 words",
+     "AI Low 29 words"
+    ],
+    "other_version_not_checked": "Fractionation has you come back up toward normal waking awareness, and then you choose whether to go back into absorption. When it’s done openly, you learn that you can get out of a trance as well as into one."
+   },
+   "turned_red_nearby": [],
+   "writer": "W1"
+  },
+  {
+   "id": "T9",
+   "block": 509,
+   "where": "Pattern 5: Embedded invitations, P1",
+   "whose": "ours",
+   "readings_before": [
+    "AI (High), window 9 of part B",
+    "AI (High), window 9 of part B"
+   ],
+   "paragraph": "An embedded invitation places a small direction inside a larger sentence. It should invite a modest inner movement, not hide a demand. ie. \"And I can allow myself to experience...\"",
+   "flagged_stretch": "An embedded invitation places a small direction inside a larger sentence. It should invite a modest inner movement, not hide a demand.",
+   "before": "Pattern 5: Embedded invitations",
+   "after": "or, \"As I sit here, I may begin to allow myself to become aware...\"",
+   "published": [
+    "Sleep induction has a different job. In inner work, the adult returns, writes, and acts. At bedtime, analysis can remain off duty. Revelation can wait; the task is rest.",
+    "An embedded invitation places a small direction inside a larger sentence. It should invite a modest inner movement, not hide a demand."
+   ],
+   "last_try": {
+    "version": "With an embedded invitation, you tuck a small direction into a longer sentence, and you shouldn't be hiding a demand in it. The direction should invite a modest shift inside you.",
+    "read_in_place": "AI (High)",
+    "windows": [
+     "AI High 23 words",
+     "AI Medium 9 words"
+    ],
+    "other_version_not_checked": "An embedded invitation is when you put a little direction inside a bigger sentence. Don't sneak a demand in with it. The movement it invites in you should be modest."
+   },
+   "turned_red_nearby": [],
+   "writer": "W2"
+  },
+  {
+   "id": "T12",
+   "block": 561,
+   "where": "Reframing — changing the meaning without lying, P1",
+   "whose": "ours",
+   "readings_before": [
+    "AI (Low), window 20 of part B"
+   ],
+   "paragraph": "Reframes are dishonest when they make the problem into something that was good all along. Instead ask yourself: What else might be true? or What is this part trying to do for me? or How might my Nurturer reframe this? or How might my Protector reframe this? or How might my Guide reframe this? etc., etc.",
+   "flagged_stretch": "Instead ask yourself: What else might be true? or What is this part trying to do for me?",
+   "before": "Reframing — changing the meaning without lying",
+   "after": "Perceptual positions — self, other, witness, universal heart",
+   "published": [
+    "“What else might be true?” “What is this part trying to do for me?” “What would the Nurturer, the Protector, and the Leader each say about this?”",
+    "If vulnerability appears—a knot in the throat, sadness, fear, or a sense of trying to protect something—you can bring in the Nurturer. If the experience remains hostile or becomes more frightening, stop engaging with it and return to the body and room."
+   ],
+   "last_try": {
+    "version": "Instead, ask yourself questions like What else might be true? or What is this part trying to do for me?",
+    "read_in_place": "AI (Medium)",
+    "windows": [
+     "AI Medium 35 words"
+    ],
+    "other_version_not_checked": "So instead, ask yourself, What else might be true? or What is this part trying to do for me?"
+   },
+   "turned_red_nearby": [],
+   "writer": "W3"
+  },
+  {
+   "id": "T15",
+   "block": 630,
+   "where": "Inner child love, P1",
+   "whose": "ours",
+   "readings_before": [
+    "AI (Low), window 56 of part B",
+    "AI (High), window 57 of part B",
+    "AI (High), window 57 of part B"
+   ],
+   "paragraph": "Here is some inner child love. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix it. I’m here now, and the adult is here now to listen to you.” Make sure you are actually talking to your inner child, who is scared to death. No warmth today? Then rest your hands there and notice what you find, no faking required.",
+   "flagged_stretch": "You don’t have to fix it. I’m here now, and the adult is here now to listen to you.” Make sure you are actually talking to your inner child, who is scared to death.",
+   "before": "Inner child love",
+   "after": "Anxiety script",
+   "published": [
+    "“Eyes open. Press thumb and forefinger together gently. Release. Again — clearer, not sleepier. One more time. Now stop the deliberate movement. Notice the first second after the rhythm ends. Is there an echo in the fingers, the breath, the attention, or nowhere at all? Stay upright and work from exactly that level of alertness.”",
+    "“Little one, you are not alone. You do not have to solve this. I am here now. The adult is listening.”"
+   ],
+   "last_try": {
+    "version": "You don’t need to fix it. I’m here now. The adult is here right now to listen to you.” When you say this, really talk to your inner child, who’s scared to death.",
+    "read_in_place": "AI (High)",
+    "windows": [
+     "AI Low 35 words",
+     "AI Medium 4 words",
+     "AI High 40 words"
+    ],
+    "other_version_not_checked": "You don’t have to fix it. I’m here now, and so is the adult, here to listen to you.” As you say it, be sure you’re actually talking to your inner child. Your little one is scared to death."
+   },
+   "turned_red_nearby": [],
+   "writer": "W3"
+  },
+  {
+   "id": "J3",
+   "block": 630,
+   "where": "Inner child love, P1",
+   "whose": "his",
+   "readings_before": [
+    "AI (Medium), window 58 of part B",
+    "AI (High), window 59 of part B"
+   ],
+   "paragraph": "Here is some inner child love. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix it. I’m here now, and the adult is here now to listen to you.” Make sure you are actually talking to your inner child, who is scared to death. No warmth today? Then rest your hands there and notice what you find, no faking required.",
+   "flagged_stretch": "No warmth today? Then rest your hands there and notice what you find, no faking required.",
+   "before": "Inner child love",
+   "after": "Anxiety script",
+   "published": [
+    "“Eyes open. Press thumb and forefinger together gently. Release. Again — clearer, not sleepier. One more time. Now stop the deliberate movement. Notice the first second after the rhythm ends. Is there an echo in the fingers, the breath, the attention, or nowhere at all? Stay upright and work from exactly that level of alertness.”",
+    "“Little one, you are not alone. You do not have to solve this. I am here now. The adult is listening.”"
+   ],
+   "last_try": {
+    "version": "If you don’t feel any warmth today, there’s no need to fake it. Just rest your hands there and notice what you find.",
+    "read_in_place": "AI (High)",
+    "windows": [
+     "AI High 40 words",
+     "AI Medium 10 words"
+    ],
+    "other_version_not_checked": "If there’s no warmth today then rest your hands there and notice what you find, without having to fake anything."
+   },
+   "turned_red_nearby": [],
+   "writer": "W3"
+  },
+  {
+   "id": "T17",
+   "block": 755,
+   "where": "9. No-trance inner contact, P1",
+   "whose": "ours",
+   "readings_before": [
+    "AI (Low), window 86 of part B",
+    "AI (Low), window 87 of part B",
+    "AI (Low), window 87 of part B",
+    "AI (Low), window 87 of part B",
+    "AI (Low), window 88 of part B"
+   ],
+   "paragraph": "For the no trance inner contact, I would do: Pacing: notice you can see, it's (day of the week), you have feet, you can read, you can write, etc. Suggestion: in your mind, ask one clear question and wait, but don't focus too hard. Choice: you can answer the question, write an answer, write that you don't know, take a break, rephrase the question, ask someone else, stop doing this, etc. Autonomous signal: write whatever you get (a word, sensation, impulse, objection, or silence) without interpreting it as proof. Deepener: none (full alertness isn't a lesser version). Handoff: have your adult self answer the question in whatever way is appropriate, preferably by writing or doing. Integration/exit: reality test the signal and do one small thing based on it. Since you didn't go into trance, just close the exercise and carry on with your day.",
+   "flagged_stretch": "Autonomous signal: write whatever you get (a word, sensation, impulse, objection, or silence) without interpreting it as proof. Deepener: none (full alertness isn't a lesser version). Handoff: have your adult self answer the question in whatever way is appropriate, preferably by writing or doing. Integration/exit: reality test the signal and do one small thing based on it. Since you didn't go into trance, just close the exercise and carry on with your day.",
+   "before": "9. No-trance inner contact",
+   "after": "Appendix K: Sources and further reading",
+   "published": [
+    "The induction and inner meeting bring you to a place where you can listen. From here, learn to answer what happens instead of reciting a speech that has already decided what every part will say. Read these examples before practicing, then put the screen aside.",
+    "Observable pacing: Keep the eyes open, name the room and day, feel the feet, and read or write in ordinary awareness. Invitation: Ask one clear question and wait without narrowing attention further. Genuine choice: Answer, write “unsure,” rest, change the question, seek another person’s view, or stop. Autonomous signal: Record a word, sensation, impulse, objection, or silence without interpreting it as proof. Deepener: None. Full alertness is not an inferior version of the practice. Handoff: Let the internal adult respond in writing or through one practical choice. Integration and exit: Reality-test the signal and do one small action. Because no altered state was cultivated, simply close the exercise and continue the day."
+   ],
+   "last_try": {
+    "version": "Autonomous signal: write down what you get, whether that's a word, a sensation, an impulse, an objection, or silence, and don't take it as proof. Deepener: none. Doing the inner contact fully alert doesn't make it a lesser version. Handoff: have your adult self answer the question however makes sense, ideally by writing something or doing something. Integration/exit: reality test the signal, then act on it in one small way. You didn't go into trance, so just close the exercise and get on with your day.",
+    "read_in_place": "AI (High)",
+    "windows": [
+     "AI High 27 words",
+     "AI Low 2 words",
+     "AI High 62 words"
+    ],
+    "other_version_not_checked": "Autonomous signal: whatever comes (a word, sensation, impulse, objection, or silence), write it down, but don't read it as proof. Deepener: none. Being fully alert for this one doesn't make it a lesser version. Handoff: have your adult self answer the question in whatever way fits, and writing or doing something is best. Integration/exit: reality test the signal and then do one small thing about it. There was no trance, so you just close the exercise and carry on with your day."
+   },
+   "turned_red_nearby": [
+    "Choice: you can answer the question, write an answer, write that you don’t know, take a break, rephrase the question, ask someone else, stop doing this, etc. (AI (Low), 28 words)",
+    "The personal accounts and the way I arrange this practice are my own, especially adaptations like the one I’m doing here where I am combining body-oriented work and hypnotic work. (AI (Low), 32 words)"
+   ],
+   "writer": "W3"
+  },
+  {
+   "id": "J5",
+   "block": 32,
+   "where": "Protecting Yourself from Hypnotists, P3",
+   "whose": "his",
+   "readings_before": [
+    "AI (Low), window 5 of part A (2026-10-29 18:18 check)",
+    "AI (Low), window 5 of part A (2026-10-29 19:22 check)"
+   ],
+   "paragraph": "All of these are separate factors to consider: conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent. People have their minds influenced without the conscious agreement of their adult self.",
+   "flagged_stretch": "All of these are separate factors to consider: conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent.",
+   "before": "Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers know this perfectly well. In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers. The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.",
+   "after": "A line associated with the Silva Mind Control tradition says it plainly:",
+   "published": [
+    "Conscious agreement is one thing. Unconscious receptivity is another. Emotional compliance is another. Legal and ethical consent is another. A mind can be influenced without the adult self having clearly chosen the influence.",
+    "Does the exit restore ordinary identity, movement, orientation, and critical judgment—and plainly say that the session has ended?"
+   ],
+   "last_try": null,
+   "turned_red_nearby": [],
+   "writer": "W1"
+  }
+ ]
+}

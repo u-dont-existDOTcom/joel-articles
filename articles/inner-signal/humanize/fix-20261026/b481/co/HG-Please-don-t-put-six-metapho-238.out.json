@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-co/HG-Please-don-t-put-six-metapho-238.txt",
+  "input_words": 131,
+  "input_sha256": "e7e7572e91c94e04168c6f9e41d40f7e236f3bd872c2b65e5fafb42a3630ba56",
+  "balance_before": 46497,
+  "started_utc": "2026-10-26T12:58:11Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:58:19Z",
+  "response": {
+    "id": "0618a57c-405a-444c-baa5-c1369639e7d8",
+    "tool": "humanize",
+    "text": "You don't have to use metaphors and imagery. The form of signal you send to yourself can be anything. Feel, rhythm, movement, words, spatial, simple knowing, lack of signal, etc. If using words, make sure to use words related to the world you are creating. If counting, do so in a way that makes sense within your world. Then return back the other way, etc. Make sure to borrow the qualities, but not change who you are.\n\nThink about what your verb will be, what sensory quality it will be, what your short refrain will be, etc., as you are writing. Read it out loud as you are writing. Be aware that writing long elegant sentences doesn't read well when you are inducing it. It's all just soup.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 131
+    },
+    "elapsed": 7
+  },
+  "balance_after": 46104
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "8d7a08cc7d2c47e3cde1353eabd2501166fdb60bbc5a6c92ad82834dbac4ee8b",
+  "context_sha256": "a0eac06deaf34b4a1257c2b5d0649edee534cded23f1903609d7e86d66d2d292",
+  "source_sha256": "50171245d16b3c7635035277465123a9e1e011fc46573c30a084a8b438f99d00",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "b481-gate-cold_read_1-subagent-e",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Draft (one sentence): \"What is one next thing I can do?\" It is the string the_change names (Emulate, sample co, no AI fix) and appears once in CONTEXT.txt, as the last sentence of the quoted script under \"Instead, say to yourself something like this:\", directly before the closing quote and \"etc.\". SOURCE: it replaces \"Give me one next action!\", the fourth of the approved requests (\"Prepare me BEFORE you break it open! Ground me BEFORE you show me the memory! Support me BEFORE you make it intense! Give me one next action!\"), which sit beside his published guide's \"Show me the capacity before the content.\" The ask is the same: the speaker wants one next step. The form changes from an imperative to a question, and the grammatical subject moves from the subconscious giving to the speaker doing (\"what can I do\"). I read that as a small shift in form and not in meaning, because in the script it is still the reader asking the Wise Subconscious Mind for one next step, and \"I can do\" fits the section's capacity-before-content point without claiming anything new. In context the quoted script opens \"Dear Wise Subconscious Mind\", so the question is plainly put to it, \"I\" is the reader speaking, and it follows from the three \"X me BEFORE you Y!\" requests (after asking it to do things for me, I ask what I can do). It matches the section's own question-form asks (\"What can you tell me, that will make my conscious self 5% better...?\", \"Can you tell me what I need to do to be safe...?\") and it is gentler than the imperative, which suits the section's warning against bullying the subconscious (\"Tell me NOW! I am telling you to tell me!\"). No pronoun is left unanchored, and no claim, fact or Joel-life statement is added (the \"I\" is the quoted self-talk, so C03 does not apply). Tells: I went through T01 to T29 and C01 to C04 on the draft in context and none is actually happening. T20, T28 and T29: it is a short last line, but it is the script's final request, not a summing-up, moral, uplift or quote-card closer, and the quotation closes onto \"etc.\"; the neighbouring paragraphs do not end on a run of polished lines. T24: the question is not answered by the text. T22: it is a line the reader says to the subconscious, not reassurance from a coach voice. T02 and T12: the prepare, ground, support triad belongs to the approved request, and the draft ends the run on a question instead of a fourth parallel command, so it adds no step. T15: the swap is a change of form (imperative to question) with plainer words (\"thing\" for \"action\"), not rarer words put in. T26: nothing distinctive is repeated. C02: no stray pronoun. Linter findings: \"B7 short landing at paragraph end\" is accurate about position, since the draft is the last sentence of its paragraph, but it is not the engineered landing the tell describes; it is the closing request of a spoken script, as the replaced line was, with the quote closing onto \"etc.\" and the REMEMBER paragraph continuing after; accepted. \"D9 follows the source order\" is trivial for a one-sentence swap in the same slot doing the same job; nothing is reordered and T13 and T09 are not engaged by one line; accepted.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order"
+  ]
+}

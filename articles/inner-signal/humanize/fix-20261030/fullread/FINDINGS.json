@@ -1,0 +1,3777 @@
+{
+ "summary": {
+  "readers_missing": [],
+  "totals": {
+   "1": {
+    "parsed": 10,
+    "total_line": 10
+   },
+   "2": {
+    "parsed": 7,
+    "total_line": 7
+   },
+   "3": {
+    "parsed": 10,
+    "total_line": 10
+   },
+   "4": {
+    "parsed": 3,
+    "total_line": 3
+   },
+   "5": {
+    "parsed": 9,
+    "total_line": 9
+   },
+   "6": {
+    "parsed": 7,
+    "total_line": 7
+   },
+   "7": {
+    "parsed": 8,
+    "total_line": 8
+   },
+   "8": {
+    "parsed": 7,
+    "total_line": 7
+   },
+   "9": {
+    "parsed": 3,
+    "total_line": 3
+   },
+   "10": {
+    "parsed": 7,
+    "total_line": 7
+   },
+   "11": {
+    "parsed": 8,
+    "total_line": 8
+   },
+   "12": {
+    "parsed": 4,
+    "total_line": 4
+   },
+   "13": {
+    "parsed": 4,
+    "total_line": 4
+   },
+   "14": {
+    "parsed": 6,
+    "total_line": 6
+   },
+   "15": {
+    "parsed": 5,
+    "total_line": 5
+   },
+   "16": {
+    "parsed": 4,
+    "total_line": 4
+   },
+   "17": {
+    "parsed": 7,
+    "total_line": 7
+   },
+   "18": {
+    "parsed": 3,
+    "total_line": 3
+   },
+   "19": {
+    "parsed": 2,
+    "total_line": 2
+   },
+   "20": {
+    "parsed": 5,
+    "total_line": 5
+   },
+   "21": {
+    "parsed": 3,
+    "total_line": 3
+   }
+  },
+  "findings": 122,
+  "by_severity": {
+   "2": 12,
+   "1": 110
+  },
+  "by_kind": {
+   "vaguer": 14,
+   "lost": 28,
+   "garbled": 61,
+   "unclear": 19
+  },
+  "same_as_original": [],
+  "owner_words": [
+   "F1.1",
+   "F1.2",
+   "F1.3",
+   "F1.4",
+   "F1.5",
+   "F1.6",
+   "F1.7",
+   "F1.9",
+   "F2.4",
+   "F3.10",
+   "F8.6",
+   "F10.5",
+   "F10.6",
+   "F13.2",
+   "F16.3",
+   "F17.5",
+   "F17.7",
+   "F18.1",
+   "F18.3",
+   "F20.1",
+   "F20.2",
+   "F21.2"
+  ],
+  "not_found": [],
+  "paragraphs": 613,
+  "paragraphs_hit": {
+   "1": 117,
+   "2": 12,
+   "3": 0
+  }
+ },
+ "findings": [
+  {
+   "id": "F1.1",
+   "part": 1,
+   "now": "Yet no one taught those layers to talk to each other, instead you were taught (or you figured out) that the way to grow up and be an adult is to push through, repress, suppress, pretend you’re confident, follow authority, go against authority, etc etc etc, and mind you, the deeper mind is still running all of the programs it’s running: child mind, guard mind (childhood protector parts, the protective reactions learned as a child), body mind, intuitive mind, fantasy mind (trying to become guidance mind), etc etc",
+   "published": "Meanwhile, the deeper mind kept running its own programs: the child wanting safety, the guard expecting danger, the body remembering what the intellect had explained away, the intuition speaking before language, and the fantasy trying to become guidance.",
+   "kind": "vaguer",
+   "severity": 2,
+   "why": "The minds are only named (\"body mind, intuitive mind\"), so what each is doing (the child wanting safety, the guard expecting danger, the body remembering what the intellect explained away, the intuition speaking before language) is gone; it is one 70-word sentence with a comma splice and no full stop at the end.",
+   "now_found": 1.0,
+   "now_blocks": [
+    11
+   ],
+   "where": [
+    "Introduction, P3"
+   ],
+   "block_hashes": [
+    "c29227919918d0e6"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    11
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "dd522993",
+    "date": "2026-10-25",
+    "subject": "Hypnosis guide: Joel's answers in; the strict Emulate check of the guide and the community article"
+   }
+  },
+  {
+   "id": "F1.2",
+   "part": 1,
+   "now": "While a lot of the teachings on hypnosis talk about the subconscious mind like it’s one giant machine you just have to put the right commands into in order to get it to do what you want, for me, the most useful thing to do is sit and listen to the different parts of myself until they can all be heard.",
+   "published": "I get more from sitting down and listening until the scared kid, the guard, the body, the intuition, and the part trying to run Tuesday can all be heard without one of them seizing the microphone.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "\"without one of them seizing the microphone\", the point that no one part takes over, is gone.",
+   "now_found": 1.0,
+   "now_blocks": [
+    12
+   ],
+   "where": [
+    "Introduction, P4"
+   ],
+   "block_hashes": [
+    "1d275d30b5f30e76"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    12
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F1.3",
+   "part": 1,
+   "now": "Many people skip the listening or shorten it since it's not \"achieving something\" but this is by far the most important step.",
+   "published": "none",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "A comma is missing before \"but\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    14
+   ],
+   "where": [
+    "Introduction, P6"
+   ],
+   "block_hashes": [
+    "0a1e30855f9bb16b"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "989b9d8c",
+    "date": "2026-10-28",
+    "subject": "Hypnosis guide: Joel's six answers in; the comparative read of the whole guide beside his published version (41 real problems, 118 snags); 1"
+   }
+  },
+  {
+   "id": "F1.4",
+   "part": 1,
+   "now": "When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic trance experience to demonstrate the results of all parts of your mind talking to each other and trusting each other more.",
+   "published": "A dramatic trance is optional. The goal is a more trustworthy relationship with the whole mind, proven in ordinary life.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "Where the results show (\"proven in ordinary life\") is gone; NOW only says a dramatic trance isn't needed to demonstrate them.",
+   "now_found": 1.0,
+   "now_blocks": [
+    14
+   ],
+   "where": [
+    "Introduction, P6"
+   ],
+   "block_hashes": [
+    "0a1e30855f9bb16b"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    15
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F1.5",
+   "part": 1,
+   "now": "You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - as you're invited.",
+   "published": "As you listen, a sensation, image, phrase, feeling, objection, or silence may become noticeable. Let the next invitation follow that response.",
+   "kind": "unclear",
+   "severity": 2,
+   "why": "\"as you're invited\" leaves the reader guessing who invites; the published point runs the other way: you let your next invitation follow what you noticed.",
+   "now_found": 1.0,
+   "now_blocks": [
+    20
+   ],
+   "where": [
+    "Quick start: do this first, P3"
+   ],
+   "block_hashes": [
+    "6cb86636062c5223"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    21
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F1.6",
+   "part": 1,
+   "now": "After, note what happened & any real-world actions.",
+   "published": "Finish with the complete return, then note what happened and any real-world action it calls for.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "\"any real-world actions\" drops \"it calls for\": the action is the one the session pointed to.",
+   "now_found": 1.0,
+   "now_blocks": [
+    20
+   ],
+   "where": [
+    "Quick start: do this first, P3"
+   ],
+   "block_hashes": [
+    "6cb86636062c5223"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    21
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F1.7",
+   "part": 1,
+   "now": "Keep in mind that it's normal, even for people who do think in words, to sometimes notice feelings before words.",
+   "published": "“Not sure” is a useful answer; this is a way to choose workable instructions, not a diagnosis.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "The reassurance that \"not sure\" is a fine answer and that the questions only choose workable instructions, not a diagnosis, is gone from the guide.",
+   "now_found": 1.0,
+   "now_blocks": [
+    24
+   ],
+   "where": [
+    "Do you usually think in words?, P2"
+   ],
+   "block_hashes": [
+    "c026393136138994"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    25
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "989b9d8c",
+    "date": "2026-10-28",
+    "subject": "Hypnosis guide: Joel's six answers in; the comparative read of the whole guide beside his published version (41 real problems, 118 snags); 1"
+   }
+  },
+  {
+   "id": "F1.8",
+   "part": 1,
+   "now": "Even when not actively engaging the conscious mind, there are many ways to influence people.",
+   "published": "Influence doesn’t wait for the conscious mind to sign a form.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "A dangling opener: nothing in the sentence is the one \"not actively engaging the conscious mind\" (it means: there are many ways to influence people without engaging their conscious mind).",
+   "now_found": 1.0,
+   "now_blocks": [
+    31
+   ],
+   "where": [
+    "Protecting Yourself from Hypnotists, P2"
+   ],
+   "block_hashes": [
+    "f6d12879f0dceb0f"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    32
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F1.9",
+   "part": 1,
+   "now": "You maybe semi-consciously clicked \"Agree\" on the TikTok signup, and now you're suddenly into Death Note animé and worshipping Satan on the down-low while at church. That literally has happened to people I know.",
+   "published": "Conscious agreement is one thing. Unconscious receptivity is another. Emotional compliance is another. Legal and ethical consent is another. A mind can be influenced without the adult self having clearly chosen the influence.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "His new version replaces the paragraph, so the four kinds of consent and \"a mind can be influenced without the adult self having clearly chosen the influence\" are gone (his call; told him).",
+   "now_found": 1.0,
+   "now_blocks": [
+    32
+   ],
+   "where": [
+    "Protecting Yourself from Hypnotists, P3"
+   ],
+   "block_hashes": [
+    "0296d13f24ee1dca"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    33
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d24bd21a",
+    "date": "2026-10-30",
+    "subject": "Hypnosis guide: Joel's answers to the cards page in (9 approved, 19 in his own versions; typos fixed and listed; N-243's second paragraph ke"
+   }
+  },
+  {
+   "id": "F1.10",
+   "part": 1,
+   "now": "With self-hypnosis you can train your own mind from the inside, by befriending and listening to the deeper part of your mind.",
+   "published": "Advertising, fear, craving, screens, tribe, resentment, authority, loneliness, and repetition are already training the mind. Self-hypnosis lets you practice from inside it: befriending the deeper layers, listening closely, and making adult choice more available.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The contrast is gone: advertising, fear, craving, screens and the rest are already training the mind, which is why training it yourself matters.",
+   "now_found": 1.0,
+   "now_blocks": [
+    35
+   ],
+   "where": [
+    "Protecting Yourself from Hypnotists, P6"
+   ],
+   "block_hashes": [
+    "b6aaef2fc026b9ee"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    36
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "2fa3b7b5",
+    "date": "2026-10-29",
+    "subject": "Hypnosis guide: Joel's answers of 29 October in (all 114 comprehension fixes approved; my advised wording on the four cards in his own words"
+   }
+  },
+  {
+   "id": "F2.1",
+   "part": 2,
+   "now": "In 2024 there has been an overview of 49 meta-analyses containing a total of 261 distinct primary studies.",
+   "published": "A 2024 overview of 49 meta-analyses, covering 261 distinct primary studies, found the strongest support in pain, medical procedures, and work with children and adolescents.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"In 2024 there has been\" mixes a past date with the present perfect (\"In 2024, there was\").",
+   "now_found": 1.0,
+   "now_blocks": [
+    51
+   ],
+   "where": [
+    "Hypnosis Evidence, P1"
+   ],
+   "block_hashes": [
+    "e94e6e95e1892d8e"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    51
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F2.2",
+   "part": 2,
+   "now": "There has been a systematic review of Randomized Controlled Trials of self-hypnosis, finding benefit in studies of pain, childbirth, pediatric, stress, anxiety etc.",
+   "published": "A systematic review of randomized controlled trials reported benefits in studies involving pain, childbirth, pediatric applications, stress, and anxiety.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"pediatric\" stands as a noun in the list (\"studies of ... pediatric\"); it needs its noun (children, or pediatric uses).",
+   "now_found": 1.0,
+   "now_blocks": [
+    52
+   ],
+   "where": [
+    "Hypnosis Evidence, P2"
+   ],
+   "block_hashes": [
+    "4b16ac215fe9b2dd"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    52
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "dd522993",
+    "date": "2026-10-25",
+    "subject": "Hypnosis guide: Joel's answers in; the strict Emulate check of the guide and the community article"
+   }
+  },
+  {
+   "id": "F2.3",
+   "part": 2,
+   "now": "The Mayo Clinic warns that using hypnosis to deal with earlier life stressful events may invoke strong emotions and that there are other types of treatments that may be more helpful with historical trauma.",
+   "published": "Mayo Clinic warns that hypnosis used around stressful earlier-life events can trigger strong emotional reactions, and that other treatments may fit historical trauma work better.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"invoke strong emotions\" is the wrong word (emotions are evoked or brought up, as the published \"trigger\" says).",
+   "now_found": 1.0,
+   "now_blocks": [
+    55
+   ],
+   "where": [
+    "What to Use Self-Hypnosis For, and What Not To, P1"
+   ],
+   "block_hashes": [
+    "327084e7fca372b7"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    54
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F2.4",
+   "part": 2,
+   "now": "Without the mind of love the mind of analysis can be sterile. Without the mind of analysis the mind of love can lead to fantasy. Without testing intuitive signals they can become delusions. Without intuitive signals the testing can be dead.",
+   "published": "Love can drift into fantasy without analysis. Analysis can become sterile without love. Intuition can become delusion when nothing tests it; testing can become dead when nothing intuitive is allowed to speak.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "Each opening \"Without ...\" phrase needs a comma after it, and \"Without testing intuitive signals they\" reads first as if \"they\" were doing the testing.",
+   "now_found": 1.0,
+   "now_blocks": [
+    62
+   ],
+   "where": [
+    "Forget the left-brain/right-brain cartoon, P4"
+   ],
+   "block_hashes": [
+    "1aa3cf36e441c1f5"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    61
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F2.5",
+   "part": 2,
+   "now": "The imagination can have opened up the field and then the adult can choose what to do next in the real world….",
+   "published": "The imagination opens the field. The adult self chooses the next real action.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"can have opened up\" is a tense slip (\"The imagination can open up the field, and then the adult can choose\").",
+   "now_found": 1.0,
+   "now_blocks": [
+    61
+   ],
+   "where": [
+    "Forget the left-brain/right-brain cartoon, P3"
+   ],
+   "block_hashes": [
+    "7af155b260648811"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    60
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F2.6",
+   "part": 2,
+   "now": "In the same vein, self-hypnosis seemed to extend a short chrunga trip for what felt like a long time, and it feels like if I needed to I could have continued for an arbitrary amount of time.",
+   "published": "Subjectively, it felt as though the state might have continued indefinitely if ordinary life hadn’t required communication and interruption.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "Commas are missing around \"if I needed to\", and \"it feels like\" switches tense against \"could have continued\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    73
+   ],
+   "where": [
+    "Why doing it myself worked better for me, P9"
+   ],
+   "block_hashes": [
+    "75a4a91fdd85732b"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    72
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F2.7",
+   "part": 2,
+   "now": "I'm not recommending that anyone prolong an altered state forever, because it's better to integrate, etc.",
+   "published": "I’m not recommending that anyone prolong an altered state forever; integration is healthier than trying to live inside the extension.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "\"it's better to integrate, etc.\" drops what it's better than (trying to live inside the extension), and the \"etc.\" points at nothing.",
+   "now_found": 1.0,
+   "now_blocks": [
+    73
+   ],
+   "where": [
+    "Why doing it myself worked better for me, P9"
+   ],
+   "block_hashes": [
+    "75a4a91fdd85732b"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    72
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F3.1",
+   "part": 3,
+   "now": "Working with parts: Precision. Working with Higher Self: Coherence. Doing both: Communion.",
+   "published": "Parts give precision. Higher Self gives coherence. Communion is the movement between them.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "Communion is the movement between the two, not doing both at once; the label-and-colon fragments lose that.",
+   "now_found": 1.0,
+   "now_blocks": [
+    77
+   ],
+   "where": [
+    "A useful map of the mind, P2"
+   ],
+   "block_hashes": [
+    "134c3377c3d64471"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    76
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F3.2",
+   "part": 3,
+   "now": "If you need to work with the ecology in the subconscious (child parts, guards, critic, fantasy making parts, body memories, social part, spiritual part (God/source/best benefit of all beings part) wiser part etc etc) then:",
+   "published": "When you need precision, notice the different tendencies inside it: the child wanting love, the protector wanting safety, the critic wanting standards, the fantasy-maker wanting possibility, the body memory wanting recognition, the social self wanting belonging, the spiritual self wanting God or source or the benefit of all beings, and the wiser part wanting what is true.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "The map named what each part wants (love, safety, standards, possibility, recognition, belonging, God or the benefit of all beings, what is true); NOW only names the parts, and a comma is missing before \"wiser part\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    80
+   ],
+   "where": [
+    "A useful map of the mind, P5"
+   ],
+   "block_hashes": [
+    "cda730ca1e43ccb0"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    79
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "88497147",
+    "date": "2026-10-25",
+    "subject": "Joel's answers to 20 and 66 in; the guard sweep; the whole guide's recheck payloads"
+   }
+  },
+  {
+   "id": "F3.3",
+   "part": 3,
+   "now": "Which part wants to avoid it?",
+   "published": "“Which part is avoiding?”",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"it\" points at nothing in the question.",
+   "now_found": 1.0,
+   "now_blocks": [
+    82
+   ],
+   "where": [
+    "A useful map of the mind, P7"
+   ],
+   "block_hashes": [
+    "f1b000f159e7bb64"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    83
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F3.4",
+   "part": 3,
+   "now": "If you have a safe adult in your life you can borrow from them, if not borrow from a mentor, older brother/sister, imagine your future self, your god/goddess or higher power, a value you have, a plan you have written, etc.",
+   "published": "Borrow one function. Choose a safe adult, mentor, older sibling, future self, spiritual figure, value, or written plan.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "Two sentences run together with a comma (\"..., if not borrow from ...\"), and the commas after \"life\" and \"if not\" are missing.",
+   "now_found": 1.0,
+   "now_blocks": [
+    98
+   ],
+   "where": [
+    "When the adult role is not available yet, P4"
+   ],
+   "block_hashes": [
+    "863e01fe30d2e51f"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    102
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F3.5",
+   "part": 3,
+   "now": "- Return the adult hat, noticing what you borrowed and what you were able to do on your own (even if it’s only 5%).",
+   "published": "Hand it back. Name what the borrowed figure modeled and what five percent you can now do without them.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "The last step of the sequence is a bullet while the steps before it are paragraphs (\"First, ...\", \"Next, ...\"), so it looks like a stray list item instead of the last step (\"Last, return the adult hat\").",
+   "now_found": 1.0,
+   "now_blocks": [
+    100
+   ],
+   "where": [
+    "When the adult role is not available yet, P6"
+   ],
+   "block_hashes": [
+    "41ad4c5d035bd0f9"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    104
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F3.6",
+   "part": 3,
+   "now": "Next, put on your adult hat as if you are an apprentice adult and do or say what you think you should do or say. You should do at least part of what you think you should do or say.",
+   "published": "Become the adult apprentice. Choose the exact words or action yourself and carry at least one small part.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"what you think you should do or say\" twice in a row; the published point is that you choose the exact words or action yourself.",
+   "now_found": 1.0,
+   "now_blocks": [
+    99
+   ],
+   "where": [
+    "When the adult role is not available yet, P5"
+   ],
+   "block_hashes": [
+    "698fa0699cdccb0a"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    103
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F3.7",
+   "part": 3,
+   "now": "It can be helpful to use borrowing when you’re in the adult position and not knowing what a decent adult would do, especially when the child doesn’t trust you and every response you can think of is retaliating, defending your goodness, collapsing or leaving.",
+   "published": "Borrowing can also help the position trying to be the adult: how would a decent adult hear distrust without retaliating, defending their goodness, collapsing, or leaving?",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"you're in the adult position and not knowing\" doesn't parse (\"and don't know\").",
+   "now_found": 1.0,
+   "now_blocks": [
+    103
+   ],
+   "where": [
+    "When the adult role is not available yet, P9"
+   ],
+   "block_hashes": [
+    "831034f775271aea"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    107
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F3.8",
+   "part": 3,
+   "now": "You may still feel young when you do it, it’s okay, feeling like an adult can come after you act like one.",
+   "published": "You may still feel young while doing it; adult identity can develop after the behavior.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "Three sentences joined by commas.",
+   "now_found": 1.0,
+   "now_blocks": [
+    103
+   ],
+   "where": [
+    "When the adult role is not available yet, P9"
+   ],
+   "block_hashes": [
+    "831034f775271aea"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    107
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F3.9",
+   "part": 3,
+   "now": "You can choose to let the parts of you that feel younger express themselves without handing over the adult part of you to the caretaker in another person or without actually going back in age.",
+   "published": "Letting a younger feeling-state speak doesn’t mean handing adult judgment to an outside caretaker or trying to become literally younger.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"without ... or without\" doubles the negative, and \"the caretaker in another person\" is hard to read (handing your adult judgment to someone outside who takes care of you).",
+   "now_found": 1.0,
+   "now_blocks": [
+    105
+   ],
+   "where": [
+    "Let the child speak without handing over the steering wheel, P1"
+   ],
+   "block_hashes": [
+    "796da186980e8f68"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    109
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "dd522993",
+    "date": "2026-10-25",
+    "subject": "Hypnosis guide: Joel's answers in; the strict Emulate check of the guide and the community article"
+   }
+  },
+  {
+   "id": "F3.10",
+   "part": 3,
+   "now": "For that baby bird, I use a kind of provisional bridge (also found in Schema Therapy) that I call “borrowed adulthood,” which I'll detail here.",
+   "published": "It combines familiar practices—witnessing, modeling, supported action, and gradual transfer of responsibility—without claiming that the complete sequence has been validated as one treatment.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "His new version leaves out what the bridge is built from and that the whole sequence isn't validated as one treatment (his call; Appendix K keeps a disclaimer).",
+   "now_found": 1.0,
+   "now_blocks": [
+    96
+   ],
+   "where": [
+    "When the adult role is not available yet, P2"
+   ],
+   "block_hashes": [
+    "a74a470e13e7b88f"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    100
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "d24bd21a",
+    "date": "2026-10-30",
+    "subject": "Hypnosis guide: Joel's answers to the cards page in (9 approved, 19 in his own versions; typos fixed and listed; N-243's second paragraph ke"
+   }
+  },
+  {
+   "id": "F4.1",
+   "part": 4,
+   "now": "Just place one hand in the center of your chest which is physically connecting you to your love and then place your other hand just below that, on your solar plexus, where your child can be.",
+   "published": "Place one hand at the center of the chest as a physical connection to love. Put the other at the solar plexus, just beneath the chest, where you can relate to the vulnerable child.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "Commas are missing around \"which is physically connecting you to your love\", so the clause runs into \"and then place\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    117
+   ],
+   "where": [
+    "The two-hand practice, P1"
+   ],
+   "block_hashes": [
+    "028522ee6999ca58"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    119
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "2fa3b7b5",
+    "date": "2026-10-29",
+    "subject": "Hypnosis guide: Joel's answers of 29 October in (all 114 comprehension fixes approved; my advised wording on the four cards in his own words"
+   }
+  },
+  {
+   "id": "F4.2",
+   "part": 4,
+   "now": "You don't have to move their feelings, just sit back and enjoy their company.",
+   "published": "The Nurturer brings warmth without trying to rush the feeling away, and takes pleasure in the child’s company: “I’m glad you’re here.”",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"move their feelings\" is hard to read; the point is not trying to rush the feeling away.",
+   "now_found": 1.0,
+   "now_blocks": [
+    120
+   ],
+   "where": [
+    "The Nurturer, P1"
+   ],
+   "block_hashes": [
+    "bf95125c4911d812"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    123
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "2fa3b7b5",
+    "date": "2026-10-29",
+    "subject": "Hypnosis guide: Joel's answers of 29 October in (all 114 comprehension fixes approved; my advised wording on the four cards in his own words"
+   }
+  },
+  {
+   "id": "F4.3",
+   "part": 4,
+   "now": "A lot of times, inner child work doesn't work because people are doing all the fluffy stuff but then they go and text the person who is destabilizing them, or they don't eat, or they don't do whatever it is they're supposed to be doing.",
+   "published": "The voice says loving things while the adult sends the destabilizing message, skips the meal, avoids the task, and breaks the promise. Trust begins when you handle the consequence.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "\"Trust begins when you handle the consequence\", the point of the paragraph, is gone; and a comma is missing before \"but then\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    129
+   ],
+   "where": [
+    "The Protector, P2"
+   ],
+   "block_hashes": [
+    "4c9cf8a7a420e7ad"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    128
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F5.1",
+   "part": 5,
+   "now": "4. set boundaries (start with one and make it relative to the danger; move, stop, delay, ask, leave, get support, etc.)",
+   "published": "Set one proportionate boundary: move, stop, delay, ask, leave, or get support.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"make it relative to the danger\" is the wrong phrase for \"in proportion to the danger\" (a \"relative\" boundary says nothing about its size).",
+   "now_found": 1.0,
+   "now_blocks": [
+    151
+   ],
+   "where": [
+    "Protection that knows when to stop scanning, P4"
+   ],
+   "block_hashes": [
+    "c383994d397c9d8d"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    149
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F5.2",
+   "part": 5,
+   "now": "5. verify if it is safe enough",
+   "published": "Verify enough safety: not perfect certainty, just enough reality-based evidence for the next step.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "What \"safe enough\" means is gone: not perfect certainty, just enough reality-based evidence for the next step.",
+   "now_found": 1.0,
+   "now_blocks": [
+    152
+   ],
+   "where": [
+    "Protection that knows when to stop scanning, P5"
+   ],
+   "block_hashes": [
+    "98b5b438b85e34ce"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    150
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F5.3",
+   "part": 5,
+   "now": "It doesn’t even have to be a child, if there is no child there, just work with a guard or whatever you find.",
+   "published": "Sometimes no child appears. Stay with a recognizable protector, or with the sensation, feeling, or preference that is actually present.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "Two sentences joined by a comma.",
+   "now_found": 1.0,
+   "now_blocks": [
+    156
+   ],
+   "where": [
+    "Inner child reparenting, P1"
+   ],
+   "block_hashes": [
+    "d4e0b49075307d35"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    154
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "88497147",
+    "date": "2026-10-25",
+    "subject": "Joel's answers to 20 and 66 in; the guard sweep; the whole guide's recheck payloads"
+   }
+  },
+  {
+   "id": "F5.4",
+   "part": 5,
+   "now": "It can be anything. What does the child need? warmth, to play, to be protected, to mourn, to be angry, food, rest, boundaries, better relationships, to stop fantasizing, to stop working their butt off, that you keep a promise to them today, etc. etc.",
+   "published": "The need may be warmth, play, protection, grief, anger, food, rest, a boundary, a safer relationship, less fantasy, less overwork, or one adult promise kept today.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"It can be anything\" comes before the reader knows \"it\" is the child's need, and the list after the question starts in lower case as if it were a sentence.",
+   "now_found": 1.0,
+   "now_blocks": [
+    160
+   ],
+   "where": [
+    "Don’t rush the repair, P3"
+   ],
+   "block_hashes": [
+    "6334dd28257ffd5e"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    157
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "2fa3b7b5",
+    "date": "2026-10-29",
+    "subject": "Hypnosis guide: Joel's answers of 29 October in (all 114 comprehension fixes approved; my advised wording on the four cards in his own words"
+   }
+  },
+  {
+   "id": "F5.5",
+   "part": 5,
+   "now": "If you feel like you already know what they need, ask if they'd prefer warmth, space, verbal reassurance, silence, distance, whatever.",
+   "published": "Ask permission: “May I come closer, or would you prefer warmth, space, words, silence, or no contact?”",
+   "kind": "unclear",
+   "severity": 2,
+   "why": "It reads as if you ask only when you already know what they need; the point is to ask even if you think you know.",
+   "now_found": 1.0,
+   "now_blocks": [
+    164
+   ],
+   "where": [
+    "Don’t rush the repair, P7"
+   ],
+   "block_hashes": [
+    "9e6a35a0e18f45aa"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    162
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F5.6",
+   "part": 5,
+   "now": "D. Give them what you can- don't feel like you have to fix it all.",
+   "published": "Respond to one need: do the smallest useful thing rather than attempting a total repair.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "The step was one need and the smallest useful thing; \"what you can\" loses it.",
+   "now_found": 1.0,
+   "now_blocks": [
+    165
+   ],
+   "where": [
+    "Don’t rush the repair, P8"
+   ],
+   "block_hashes": [
+    "908886876b46923b"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    163
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F5.7",
+   "part": 5,
+   "now": "G. Rest, and reconnect with them later to see what was helpful.",
+   "published": "Rest: stop before care becomes another performance.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "When to rest is gone: stop before the care becomes another performance.",
+   "now_found": 1.0,
+   "now_blocks": [
+    168
+   ],
+   "where": [
+    "Don’t rush the repair, P11"
+   ],
+   "block_hashes": [
+    "8044d83589f5df52"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    166
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F5.8",
+   "part": 5,
+   "now": "If you don't like the idea of part work or it makes you feel more divided, you can substitute whatever part you're working with for a signal or a feeling, or an imaginary younger you that you feel embodies the issue you're having.",
+   "published": "If parts language makes you feel more divided, use signals, feelings, younger states, or another metaphor that helps.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"substitute the part for a signal\" says the reverse of what's meant (use a signal or a feeling in place of the part).",
+   "now_found": 1.0,
+   "now_blocks": [
+    169
+   ],
+   "where": [
+    "Don’t rush the repair, P12"
+   ],
+   "block_hashes": [
+    "d07439823dbd7de8"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    168
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F5.9",
+   "part": 5,
+   "now": "Now, before you get to resting, it’s okay to limit the amount of decisions you are going to be making for a certain amount of time, it’s okay to put the things you might not get to on a list and it’s okay to let your inner adult keep watch for a while.",
+   "published": "Rest also doesn’t require helplessness. Reduce decisions for a defined period, put unfinished tasks somewhere visible, and let the internal adult keep watch. You remain able to move, stop, and return.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "The point is about rest itself (resting doesn't mean becoming helpless: you can reduce decisions and you stay able to move, stop and return); \"before you get to resting\" makes it a step before rest, and the two framing sentences are gone (\"the amount of decisions\" is also \"the number\").",
+   "now_found": 1.0,
+   "now_blocks": [
+    172
+   ],
+   "where": [
+    "Play and rest still need an adult present, P2"
+   ],
+   "block_hashes": [
+    "384ff655a98dd30e"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    171
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F6.1",
+   "part": 6,
+   "now": "For others, it is very easy to work with the inner child, they can feel it easily.",
+   "published": "For some people the child-self is already easy to feel.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "Two sentences joined by a comma.",
+   "now_found": 1.0,
+   "now_blocks": [
+    176
+   ],
+   "where": [
+    "When “your voice” is everybody else’s voice, P1"
+   ],
+   "block_hashes": [
+    "7d530ca132d8f033"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    179
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F6.2",
+   "part": 6,
+   "now": "One way of explaining this is that in your childhood you didn’t spend enough attention in finding out what you like and what you want to try out and who you are when nobody is grading you.",
+   "published": "A useful developmental explanation is that when childhood is organized around avoiding pain and preserving attachment, attention goes into reading danger, meeting expectations, and keeping the bond. That can leave less room for the ordinary experiments that answer, “What do I like? What do I want to try? Who am I when nobody is grading me?”",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"spend enough attention in finding out\" doesn't fit (\"didn't have much room for finding out\"), and it puts the lack on the child where the published text puts it on how the childhood was organized.",
+   "now_found": 1.0,
+   "now_blocks": [
+    185
+   ],
+   "where": [
+    "When “your voice” is everybody else’s voice, P10"
+   ],
+   "block_hashes": [
+    "22fe9d50d94ebe7d"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    188
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F6.3",
+   "part": 6,
+   "now": "Some people come back later on different terms, and sometimes the break has to be long-term because the pattern of losing yourself with them is deeply entrenched.",
+   "published": "Use that distance only long enough to tell your own signal from the social echo; prolonged isolation would undermine the purpose.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published caution (use the distance only long enough to tell your own signal from the echo; prolonged isolation defeats the purpose) is gone, and NOW allows a long-term break instead.",
+   "now_found": 1.0,
+   "now_blocks": [
+    186
+   ],
+   "where": [
+    "When “your voice” is everybody else’s voice, P11"
+   ],
+   "block_hashes": [
+    "110895d74cc5c0db"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    189
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "dd522993",
+    "date": "2026-10-25",
+    "subject": "Hypnosis guide: Joel's answers in; the strict Emulate check of the guide and the community article"
+   }
+  },
+  {
+   "id": "F6.4",
+   "part": 6,
+   "now": "A large part of your subconscious mind is made out of other people. That is why you are reading a self hypnosis guide!",
+   "published": "The subconscious contains a crowd of borrowed voices, which is why this belongs in a self-hypnosis guide.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published point is why belonging is in a self-hypnosis guide; NOW says it is why the reader is reading one, which doesn't follow.",
+   "now_found": 1.0,
+   "now_blocks": [
+    198
+   ],
+   "where": [
+    "Belonging without betraying yourself, P1"
+   ],
+   "block_hashes": [
+    "c30a76b880284516"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    194
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F6.5",
+   "part": 6,
+   "now": "And then look what your body tells you.",
+   "published": "Then wait for the body.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"look what your body tells you\" is missing \"at\" (or \"notice what\").",
+   "now_found": 1.0,
+   "now_blocks": [
+    206
+   ],
+   "where": [
+    "Belonging without betraying yourself, P9"
+   ],
+   "block_hashes": [
+    "dd3c528cf8f27365"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    198
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F6.6",
+   "part": 6,
+   "now": "Manipulation often comes with any of the following: urgency, you are special, FOMO (fear of missing out), not being included, sexual charge, shame, confused, someone will rescue you, destiny, you should obey, secret knowledge, an excessive sense of certainty about something way too quickly, and a sense that one good question will break the spell.",
+   "published": "Manipulation often arrives with urgency, specialness, fear of missing out, threatened exclusion, sexual charge, shame, confusion, rescue fantasy, destiny, obedience, secret knowledge, or far too much certainty arriving far too quickly. You may also feel that one honest question would break the spell.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "The items don't fit the lead-in (\"comes with ... you are special ... confused ... you should obey\"): nouns, an adjective and whole clauses mixed in one list.",
+   "now_found": 1.0,
+   "now_blocks": [
+    209
+   ],
+   "where": [
+    "De-hypnosis: wake up inside the influence, P2"
+   ],
+   "block_hashes": [
+    "a08451a0c0dde63d"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    201
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "dd522993",
+    "date": "2026-10-25",
+    "subject": "Hypnosis guide: Joel's answers in; the strict Emulate check of the guide and the community article"
+   }
+  },
+  {
+   "id": "F6.7",
+   "part": 6,
+   "now": "Secondly, some of the ways that hypnotic language is used to manipulate are where you have consented to something without realizing it, where you are given only one choice, or where something not yet agreed upon is embedded in a sentence. For example;",
+   "published": "Hypnotic language turns manipulative when it smuggles in your consent, makes one choice seem inevitable, or hides a disputed claim inside the sentence.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"For example;\" and, later, \"the following questions;\" need colons; \"The more powerful the state the stronger the boundaries\" needs a comma after \"state\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    212
+   ],
+   "where": [
+    "If you sense you are being influenced, P2"
+   ],
+   "block_hashes": [
+    "062a19b862e52015"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    203
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "dd522993",
+    "date": "2026-10-25",
+    "subject": "Hypnosis guide: Joel's answers in; the strict Emulate check of the guide and the community article"
+   }
+  },
+  {
+   "id": "F7.1",
+   "part": 7,
+   "now": "Be aware that even when using permissive language, you can still take away the subject’s choice. Be aware of;",
+   "published": "Permissive words can still conceal coercion. I watch for the following:",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"Be aware of;\" needs a colon, and the first thing to be aware of (the indirect-suggestion paragraph) has no number while the rest are numbered 1) to 8); \"by-pass\" is \"bypass\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    218
+   ],
+   "where": [
+    "Soft language can still take away choice, P1"
+   ],
+   "block_hashes": [
+    "a0b2c8ac1bb7eda8"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    209
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "2fa3b7b5",
+    "date": "2026-10-29",
+    "subject": "Hypnosis guide: Joel's answers of 29 October in (all 114 comprehension fixes approved; my advised wording on the four cards in his own words"
+   }
+  },
+  {
+   "id": "F7.2",
+   "part": 7,
+   "now": "7) Including suggestions for amnesia, or making a subject think that something (dream, amnesia, imagery, body experiences etc) has happened when this may not necessarily be the case.",
+   "published": "Amnesia or truth inflation: dreamlike material, missing memory, imagery, or body sensations are treated as proof of what happened.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "In the published point the dreamlike material, missing memory, imagery and body sensations are the \"evidence\" a hypnotist uses to claim something happened; NOW puts them in brackets as if they were the thing that happened.",
+   "now_found": 1.0,
+   "now_blocks": [
+    226
+   ],
+   "where": [
+    "Soft language can still take away choice, P9"
+   ],
+   "block_hashes": [
+    "5091b7b8fba7f357"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    217
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F7.3",
+   "part": 7,
+   "now": "In order for a subject to be making a REAL choice whilst in a hypnosis, there MUST be at least one way for a subject NOT to carry on with the hypnosis if they wish.",
+   "published": "A real choice includes at least one branch that doesn’t continue the induction: make it lighter, change the method, remain fully alert, pause, or stop.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"whilst in a hypnosis\" (twice in the paragraph) has a stray \"a\" (\"in hypnosis\").",
+   "now_found": 1.0,
+   "now_blocks": [
+    228
+   ],
+   "where": [
+    "Soft language can still take away choice, P11"
+   ],
+   "block_hashes": [
+    "268f2e0512f40869"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    219
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F7.4",
+   "part": 7,
+   "now": "(see appendix C for a longer version of the de hypno)",
+   "published": "Appendix C has the longer de-hypnosis checklist.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"the de hypno\" is an abbreviation the reader hasn't met; it is the de-hypnosis checklist.",
+   "now_found": 1.0,
+   "now_blocks": [
+    229
+   ],
+   "where": [
+    "Soft language can still take away choice, P12"
+   ],
+   "block_hashes": [
+    "cbeec872f1c4f760"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    220
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F7.5",
+   "part": 7,
+   "now": "If on the other hand, you're already pretty trancey for whatever reason, skip straight to \"Already open? Contain before you deepen\" rather than going deeper.",
+   "published": "When meditation, loveyhuasca, lucid dreaming, grief, music, prayer, fatigue, or another intense opening has already made you trancey, begin with orientation and containment instead of adding depth.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "The comma after \"If\" is missing (\"If, on the other hand, you're\").",
+   "now_found": 1.0,
+   "now_blocks": [
+    231
+   ],
+   "where": [
+    "Induction: gathering attention without disappearing, P1"
+   ],
+   "block_hashes": [
+    "9a4ddb1d71bd352e"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    222
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "dd522993",
+    "date": "2026-10-25",
+    "subject": "Hypnosis guide: Joel's answers in; the strict Emulate check of the guide and the community article"
+   }
+  },
+  {
+   "id": "F7.6",
+   "part": 7,
+   "now": "1. Read this page, and the Come all the way back page, when you're awake.",
+   "published": "Read the induction and Come all the way back while fully awake.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"this page\" (the guide is one page) is the induction; \"Come all the way back page\" is a section.",
+   "now_found": 1.0,
+   "now_blocks": [
+    241
+   ],
+   "where": [
+    "Before you begin, P1"
+   ],
+   "block_hashes": [
+    "4dc6f9a82b12d349"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    232
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F7.7",
+   "part": 7,
+   "now": "Learn how to notice if there is no change, and that no change is not a secret success.",
+   "published": "Notice what actually happens; no change doesn’t mean secret success.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"Learn how to notice ... and that no change is not\" doesn't parse (\"Notice when nothing changes, too: no change isn't a secret success\").",
+   "now_found": 1.0,
+   "now_blocks": [
+    246
+   ],
+   "where": [
+    "Before you begin, P6"
+   ],
+   "block_hashes": [
+    "ab0bccd61036a3e7"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    236
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "2fa3b7b5",
+    "date": "2026-10-29",
+    "subject": "Hypnosis guide: Joel's answers of 29 October in (all 114 comprehension fixes approved; my advised wording on the four cards in his own words"
+   }
+  },
+  {
+   "id": "F7.8",
+   "part": 7,
+   "now": "5. If you are new to this or haven't done it for a while, work on the coming in and coming out part first, don't bring in the hard stuff till later.",
+   "published": "When entry and return are unfamiliar, first rehearse them without a difficult subject.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "Two sentences joined by a comma.",
+   "now_found": 1.0,
+   "now_blocks": [
+    245
+   ],
+   "where": [
+    "Before you begin, P5"
+   ],
+   "block_hashes": [
+    "628d24a5c00fd8ba"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    235
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F8.1",
+   "part": 8,
+   "now": "Use the same anchor for everywhere that anchor is mentioned. Don't read the directions, just pause between paragraphs.",
+   "published": "Keep using the same anchor where the words refer to it. Pause between paragraphs; don’t read the delivery directions aloud.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"for everywhere that anchor is mentioned\" doesn't fit (\"wherever the script mentions it\"), and \"Don't read the directions\" can be taken as \"don't read them at all\" (it means don't read them aloud).",
+   "now_found": 1.0,
+   "now_blocks": [
+    248
+   ],
+   "where": [
+    "Sober induction: 3–5 minutes, P1"
+   ],
+   "block_hashes": [
+    "e9709839abfbb09c"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    238
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "b2da76ce",
+    "date": "2026-10-22",
+    "subject": "Hypnosis guide: the induction section from sample bf installed (31 meaning fixes inside its own sentences, the published headings, three lin"
+   }
+  },
+  {
+   "id": "F8.2",
+   "part": 8,
+   "now": "You can allow your eyes to rest on something in the room for a bit, and let what's already there come into view.",
+   "published": "Let your eyes settle somewhere in the room, somewhere they can rest for a little while, and notice the difference between looking for something and letting what is already there come into view.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The contrast the line is for (looking for something versus letting what is there come into view) is gone.",
+   "now_found": 1.0,
+   "now_blocks": [
+    250
+   ],
+   "where": [
+    "Sober induction: 3–5 minutes, P3"
+   ],
+   "block_hashes": [
+    "b8b49de30de23c47"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    239
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "b2da76ce",
+    "date": "2026-10-22",
+    "subject": "Hypnosis guide: the induction section from sample bf installed (31 meaning fixes inside its own sentences, the published headings, three lin"
+   }
+  },
+  {
+   "id": "F8.3",
+   "part": 8,
+   "now": "Say something like, \"Only what I can integrate, please. If there's too much it can wait. My body may stay safe. I'll be here as an adult, this won't just be my inner child.\"",
+   "published": "“Only what can be integrated is welcome now. Anything too much can wait. The body may stay safe. The adult self remains present. The inner child does not have to carry this alone.”",
+   "kind": "unclear",
+   "severity": 2,
+   "why": "\"this won't just be my inner child\" makes the reader guess; the published line is that the inner child doesn't have to carry this alone.",
+   "now_found": 1.0,
+   "now_blocks": [
+    268
+   ],
+   "where": [
+    "Already open? Contain before you deepen, P4"
+   ],
+   "block_hashes": [
+    "e1aa058a43cf76cf"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    257
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "b2da76ce",
+    "date": "2026-10-22",
+    "subject": "Hypnosis guide: the induction section from sample bf installed (31 meaning fixes inside its own sentences, the published headings, three lin"
+   }
+  },
+  {
+   "id": "F8.4",
+   "part": 8,
+   "now": "One hand on your heart, one hand on your solar plexus",
+   "published": "Place one hand on the heart. Place the other hand on the solar plexus.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "The first two lines of the two-hand induction have no full stops, and \"Start to breathe gently….\" has four dots.",
+   "now_found": 1.0,
+   "now_blocks": [
+    279
+   ],
+   "where": [
+    "The two-hand induction, P1"
+   ],
+   "block_hashes": [
+    "55d35c707652f0d8"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    269
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "9a99e73e",
+    "date": "2026-10-23",
+    "subject": "Guide batch 476 (Emulate's misspellings and British spellings back to the published guide's spelling in 25 paragraphs) and recheck A4 rebuil"
+   }
+  },
+  {
+   "id": "F8.5",
+   "part": 8,
+   "now": "It might be useful for your wise subconscious to twitch a finger in one of your hands, or make a finger pulse, or come up by itself, or to heat up a finger and make it noticeable to you, or tingle in a noticeable way to let you know that your inner meeting space is ready for you to go into.",
+   "published": "If it is useful, the wise subconscious may let one finger twitch, pulse, lift, warm, tingle, or become subtly noticeable when the inner meeting space is ready.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"or come up by itself\" has lost its subject (a finger lifting by itself), and the list switches between \"make a finger ...\" and \"to heat up ...\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    297
+   ],
+   "where": [
+    "Optional trance depth check, P2"
+   ],
+   "block_hashes": [
+    "fd75f14720f965f1"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    286
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "dd522993",
+    "date": "2026-10-25",
+    "subject": "Hypnosis guide: Joel's answers in; the strict Emulate check of the guide and the community article"
+   }
+  },
+  {
+   "id": "F8.6",
+   "part": 8,
+   "now": "Even if something happens, it doesn’t mean it is true, it just might mean that something is listening.",
+   "published": "None proves truth; at most, something may be listening.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"it doesn't mean it is true\" leaves the reader asking what \"it\" is; the point is that a signal like that proves nothing, and at most something may be listening.",
+   "now_found": 1.0,
+   "now_blocks": [
+    299
+   ],
+   "where": [
+    "Optional trance depth check, P4"
+   ],
+   "block_hashes": [
+    "106d0b8811cf4331"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    288
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "b2da76ce",
+    "date": "2026-10-22",
+    "subject": "Hypnosis guide: the induction section from sample bf installed (31 meaning fixes inside its own sentences, the published headings, three lin"
+   }
+  },
+  {
+   "id": "F8.7",
+   "part": 8,
+   "now": "Check out Nimja’s sleep playlist to go to sleep listening to hypnosis",
+   "published": "For sleep hypnosis, see Nimja’s sleep playlist.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "No full stop at the end of the paragraph.",
+   "now_found": 1.0,
+   "now_blocks": [
+    287
+   ],
+   "where": [
+    "Sleep induction, P3"
+   ],
+   "block_hashes": [
+    "c5ed3840e08a9266"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    276
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "b2da76ce",
+    "date": "2026-10-22",
+    "subject": "Hypnosis guide: the induction section from sample bf installed (31 meaning fixes inside its own sentences, the published headings, three lin"
+   }
+  },
+  {
+   "id": "F9.1",
+   "part": 9,
+   "now": "Once you have learned a useful induction and how to come back down at the end, you can do the following….",
+   "published": "Learn a useful induction and the full return below before developing a shortcut.",
+   "kind": "garbled",
+   "severity": 2,
+   "why": "The return is coming back up (the guide's count up, \"come all the way back up\"); \"come back down\" points the wrong way at a safety step, and the four dots end it.",
+   "now_found": 1.0,
+   "now_blocks": [
+    301
+   ],
+   "where": [
+    "A shortcut back into hypnosis, P1"
+   ],
+   "block_hashes": [
+    "39e7fe7af141a689"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    290
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "2fa3b7b5",
+    "date": "2026-10-29",
+    "subject": "Hypnosis guide: Joel's answers of 29 October in (all 114 comprehension fixes approved; my advised wording on the four cards in his own words"
+   }
+  },
+  {
+   "id": "F9.2",
+   "part": 9,
+   "now": "However, if you are coming out of a recording then you should not leave yourself in an altered state.",
+   "published": "A waking recording shouldn’t end by preserving a role, reduced judgment, impaired movement, blankness, an undefined reset word, or an invitation to remain altered indefinitely.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"coming out of a recording\" means a recording that isn't for sleep (one meant to bring you back awake); and both sentences of the note need a comma before \"then\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    316
+   ],
+   "where": [
+    "Come all the way back, P6"
+   ],
+   "block_hashes": [
+    "24948bad71cfa969"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    303
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "77954545",
+    "date": "2026-10-23",
+    "subject": "Guide batch 475 in (recheck A3's red return stretch through Emulate, samples bo and bp spliced, reviewed and triaged) and recheck A4 built w"
+   }
+  },
+  {
+   "id": "F9.3",
+   "part": 9,
+   "now": "Ask your conscious mind to listen.",
+   "published": "You’re asking the conscious mind to listen without forcing an answer.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "\"without forcing an answer\", the point of the line, is gone.",
+   "now_found": 1.0,
+   "now_blocks": [
+    321
+   ],
+   "where": [
+    "The actual inner meeting, P4"
+   ],
+   "block_hashes": [
+    "01c0700ee846bae6"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    309
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F10.1",
+   "part": 10,
+   "now": "Your shoulders tightening, or 'hmm, that feels kind of wrong', is a signal to investigate further, but 'No! That is Not Right!' is a signal to stop what you're doing and change it.",
+   "published": "“My shoulders tightened” and “that wording feels wrong” are different observations. Tightening alone doesn’t explain itself. Ask what happened and whether the invitation fits. An explicit no needs no further justification; change the words, the pace, or the approach. Don’t repeat an unwelcome suggestion more persuasively.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published point that a tightening and \"that wording feels wrong\" are different observations (tightening doesn't explain itself) is merged away, and \"Don't repeat an unwelcome suggestion more persuasively\" is gone.",
+   "now_found": 1.0,
+   "now_blocks": [
+    337
+   ],
+   "where": [
+    "Let the response change the invitation, P1"
+   ],
+   "block_hashes": [
+    "a94f17fe3e8e2439"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    325
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F10.2",
+   "part": 10,
+   "now": "Sometimes the invitation just isn't right - sometimes it's something you hadn't thought of. Either way, it isn't automatically a guard, and silence doesn't mean a hidden process is working.",
+   "published": "Sometimes the sentence was simply wrong. Sometimes an unfamiliar possibility brings a feeling worth meeting. You don’t have to decide which before making space to find out. Skepticism is not automatically a protector, and silence is not proof that a hidden process is working.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "The reader has to guess what \"it's something you hadn't thought of\" and \"it isn't automatically a guard\" refer to (a new possibility bringing a feeling worth meeting; the doubt or tightness isn't automatically a guard).",
+   "now_found": 1.0,
+   "now_blocks": [
+    339
+   ],
+   "where": [
+    "Let the response change the invitation, P3"
+   ],
+   "block_hashes": [
+    "e01a28e1fdd5bccc"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    327
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "2fa3b7b5",
+    "date": "2026-10-29",
+    "subject": "Hypnosis guide: Joel's answers of 29 October in (all 114 comprehension fixes approved; my advised wording on the four cards in his own words"
+   }
+  },
+  {
+   "id": "F10.3",
+   "part": 10,
+   "now": "Are they able to communicate in a mature fashion?",
+   "published": "Can they hear disagreement, take responsibility, and make room for your experience?",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "The three concrete things to look for became a general \"in a mature fashion\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    341
+   ],
+   "where": [
+    "Look at the situation too, P1"
+   ],
+   "block_hashes": [
+    "18f929df30688e74"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    329
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F10.4",
+   "part": 10,
+   "now": "\"Ok, I think that is enough for now.\"",
+   "published": "I can let this much be here and notice the support beside it.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "The line was for holding a manageable amount of the difficulty with the support beside it; NOW it stops instead.",
+   "now_found": 1.0,
+   "now_blocks": [
+    345
+   ],
+   "where": [
+    "Change the amount of contact, P2"
+   ],
+   "block_hashes": [
+    "a06d225894b64dc5"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    333
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F10.5",
+   "part": 10,
+   "now": "It may be a good hypothesis for what you need to do but it is not a proven fact.",
+   "published": "The result is symbolic information or a hypothesis, never proof of history.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published caution is about history (a metaphor is never proof of what happened); NOW moves it to \"what you need to do\", and a comma is missing before \"but\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    354
+   ],
+   "where": [
+    "Offer the care that is actually wanted, P5"
+   ],
+   "block_hashes": [
+    "101c3371c2eb4a15"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    342
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F10.6",
+   "part": 10,
+   "now": "If this happens, allow yourself to respond for as long as you want to do so, and for as long as you can stay there (ie remain in the process).",
+   "published": "Care can bring grief for what was missing. That needn’t mean the love failed. Stay with the response when you want to and can remain present; more tears don’t prove more healing.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "\"That needn't mean the love failed\" and \"more tears don't prove more healing\" are gone.",
+   "now_found": 1.0,
+   "now_blocks": [
+    353
+   ],
+   "where": [
+    "Offer the care that is actually wanted, P4"
+   ],
+   "block_hashes": [
+    "ee2aecd69f8bc8c6"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    341
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F10.7",
+   "part": 10,
+   "now": "If you notice a feeling developing, it might be best not to say anything while it's developing (if you can help it) but some days you need to talk to understand, so just do that.",
+   "published": "When a feeling is developing, pause the words if that gives it room; keep using them when they help you understand.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "A comma is missing before \"but\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    331
+   ],
+   "where": [
+    "Finding your own words, P2"
+   ],
+   "block_hashes": [
+    "44d2b355968f1d62"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    320
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "9a99e73e",
+    "date": "2026-10-23",
+    "subject": "Guide batch 476 (Emulate's misspellings and British spellings back to the published guide's spelling in 25 paragraphs) and recheck A4 rebuil"
+   }
+  },
+  {
+   "id": "F11.1",
+   "part": 11,
+   "now": "And most importantly, what can you carry with you as you move forward from this?",
+   "published": "What can you carry yourself now?",
+   "kind": "lost",
+   "severity": 2,
+   "why": "The published question is which part of the job you can now carry yourself (without borrowing it); NOW asks what you take away from the session, which is a different question.",
+   "now_found": 1.0,
+   "now_blocks": [
+    365
+   ],
+   "where": [
+    "The 15-minute daily practice, P4"
+   ],
+   "block_hashes": [
+    "c584372a64d2f75d"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    352
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F11.2",
+   "part": 11,
+   "now": "You are simply practicing for fifteen minutes or so.",
+   "published": "Fifteen minutes is a convenient appointment with yourself, not a therapeutic dose or a timetable your feelings must follow.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "That the fifteen minutes is only a convenient appointment, not a dose or a timetable your feelings must follow, is gone.",
+   "now_found": 1.0,
+   "now_blocks": [
+    362
+   ],
+   "where": [
+    "The 15-minute daily practice, P1"
+   ],
+   "block_hashes": [
+    "8f3bbbdcb14df71e"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    349
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F11.3",
+   "part": 11,
+   "now": "Otherwise, the dishes won’t get done.",
+   "published": "That teaches the subconscious that the adult heard and acted, instead of staging another beautiful internal meeting and then leaving the dishes exactly where they were.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "The dishes come out of nowhere; the point was the beautiful inner meeting that leaves the dishes exactly where they were.",
+   "now_found": 1.0,
+   "now_blocks": [
+    368
+   ],
+   "where": [
+    "The weekly deeper practice, P2"
+   ],
+   "block_hashes": [
+    "aedb64b2cbc0f45f"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    355
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F11.4",
+   "part": 11,
+   "now": "If it takes you destabilizing to know what your subconscious knows, it is not meant for you to know directly at this time!",
+   "published": "Truth that requires destabilization is not ready to be known directly.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"If it takes you destabilizing\" doesn't parse (\"If knowing it would take destabilizing you\").",
+   "now_found": 1.0,
+   "now_blocks": [
+    370
+   ],
+   "where": [
+    "Capacity before content, P1"
+   ],
+   "block_hashes": [
+    "a6f886d3389fafbb"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    357
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F11.5",
+   "part": 11,
+   "now": "When you are flooded, it is much harder to access your adult capacities so focus on being able to regulate and getting support!",
+   "published": "Silence may be protection when the adult lacks enough regulation, support, humility, or practical capacity to receive the material.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The reframe that the subconscious's silence may be protection, while the adult can't yet receive the material, is gone; a comma is missing before \"so\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    374
+   ],
+   "where": [
+    "Capacity before content, P5"
+   ],
+   "block_hashes": [
+    "383b3c6fd7ecdac3"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    361
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F11.6",
+   "part": 11,
+   "now": "Instead, say to yourself something like this:",
+   "published": "A safer script:",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"Instead\" comes after the tolerable questions, so it reads as instead of them; the script is the alternative to the bullying lines above.",
+   "now_found": 1.0,
+   "now_blocks": [
+    376
+   ],
+   "where": [
+    "Capacity before content, P7"
+   ],
+   "block_hashes": [
+    "a32f324252a79471"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    368
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F11.7",
+   "part": 11,
+   "now": "So, treat it like an image and get some help outside of yourself!",
+   "published": "Around trauma and memory especially, treat an image as an image and involve outside support when needed.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "\"when needed\" is gone, so it reads as: always get outside help for an image.",
+   "now_found": 1.0,
+   "now_blocks": [
+    378
+   ],
+   "where": [
+    "Capacity before content, P9"
+   ],
+   "block_hashes": [
+    "51795f7f6a3bd74c"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    370
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F11.8",
+   "part": 11,
+   "now": "Choose one way to induce yourself, you don't need to try all of them!",
+   "published": "Use the entry that suits you, rather than stacking inductions.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "Two sentences joined by a comma (and in the weekly practice, \"It doesn’t have to be very intense but it is good\" needs a comma before \"but\").",
+   "now_found": 1.0,
+   "now_blocks": [
+    363
+   ],
+   "where": [
+    "The 15-minute daily practice, P2"
+   ],
+   "block_hashes": [
+    "112e07b4eaebbfab"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    350
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F12.1",
+   "part": 12,
+   "now": "It doesn't matter that you don't have an inner voice/image to do this, it isn't necessarily about not having a 'grown up' or resisting doing the work.",
+   "published": "Not experiencing an inner voice or image isn’t, by itself, resistance or a missing adult capacity.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "Two sentences joined by a comma; and \"...you don't want to do then correct the invitation\" needs a comma before \"then\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    384
+   ],
+   "where": [
+    "It feels fake, P1"
+   ],
+   "block_hashes": [
+    "5660785ab8b3601c"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    376
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F12.2",
+   "part": 12,
+   "now": "Some examples of answers might be “I need to know you will set boundaries” “I need to know you will do what you said you will do” “I need to know you won’t keep leaving” “I need to know you won’t think that knowing something means that you don’t need to do anything about it” etc.",
+   "published": "The reply may be extremely un-mystical: “Will you set the boundary?” “Will you keep the promise?” “Will you stop abandoning us?” “Will you stop substituting insight for action?”",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "The four answers run together with no commas or full stops between them.",
+   "now_found": 1.0,
+   "now_blocks": [
+    389
+   ],
+   "where": [
+    "The subconscious will not answer, P1"
+   ],
+   "block_hashes": [
+    "c0c82f99f0681666"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    383
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F12.3",
+   "part": 12,
+   "now": "“What’s the smallest, most specific thing you can do to demonstrate the love you’re feeling?”",
+   "published": "“What task, boundary, meal, rest, repair, or conversation does love require next?”",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "\"demonstrate the love you're feeling\" makes it a show of love; the published question asks what love requires next, with examples (a task, a boundary, a meal, rest, a repair, a conversation).",
+   "now_found": 1.0,
+   "now_blocks": [
+    405
+   ],
+   "where": [
+    "You become too blissful or diffuse, P1"
+   ],
+   "block_hashes": [
+    "2fb4edb95dc04c80"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    405
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F12.4",
+   "part": 12,
+   "now": "You may have a real wound that needs to be dealt with, but it’s possible you’re caught in a checking loop.",
+   "published": "A real wound and a checking loop can coexist.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "The published point is that both can be true at once; \"but it's possible\" makes it one or the other.",
+   "now_found": 1.0,
+   "now_blocks": [
+    416
+   ],
+   "where": [
+    "You get stuck in endless processing, P1"
+   ],
+   "block_hashes": [
+    "07b03834da225fe1"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    417
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F13.1",
+   "part": 13,
+   "now": "DO NOT: Engage in seeking “downloads” of information or make a hobby of demons/jinn/Unattached Burdens or the like, until you have stabilized your life.",
+   "published": "Do not chase grand downloads or turn demons, jinn, and “Unattached Burdens” into a hobby. Stabilize first, and seek help when reality-testing or function weakens.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published \"don't\" has no end date; \"until you have stabilized your life\" reads as permission to chase downloads and demons once life is stable.",
+   "now_found": 1.0,
+   "now_blocks": [
+    423
+   ],
+   "where": [
+    "What not to do, P2"
+   ],
+   "block_hashes": [
+    "daed79ea2b913c1a"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    425
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F13.2",
+   "part": 13,
+   "now": "Don’t put hidden commands in yourself, nor allow anyone to do so.",
+   "published": "End every waking session with ordinary identity, movement, orientation, judgment, and a direct statement that the session has ended.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The list's last rule (end every waking session back in your ordinary self, with a plain statement that the session has ended) is gone from \"What not to do\"; the count up in Come all the way back still ends \"the session is now over\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    434
+   ],
+   "where": [
+    "What not to do, P13"
+   ],
+   "block_hashes": [
+    "1e42bd2a0a6eb440"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    437
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F13.3",
+   "part": 13,
+   "now": "Start from the basis that the subconscious, the body, the sharp mind, and the guard who's tensed up and ready for the other shoe to drop for a long time are all not your enemies.",
+   "published": "The subconscious isn’t the enemy. Neither are the body, the sharp analytical mind, or the protector that has been braced for years.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"who's tensed up ... for a long time\" needs \"who's been\", and \"are all not your enemies\" reads as \"not all of them are your enemies\" (\"none of them is your enemy\").",
+   "now_found": 1.0,
+   "now_blocks": [
+    446
+   ],
+   "where": [
+    "Closing, P1"
+   ],
+   "block_hashes": [
+    "5a2d2e7bdbf9da20"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    449
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "2fa3b7b5",
+    "date": "2026-10-29",
+    "subject": "Hypnosis guide: Joel's answers of 29 October in (all 114 comprehension fixes approved; my advised wording on the four cards in his own words"
+   }
+  },
+  {
+   "id": "F13.4",
+   "part": 13,
+   "now": "You can download Inner Signal App for voice hypnosis, information, help developing your own language, and feedback on what you report.",
+   "published": "Use the Inner Signal app to get voice hypnosis sessions, learn the method, develop your own language, reflect on what you report, and ask questions about a hypnotist’s approach.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "The app is entered through the page (the next paragraph says not to bookmark it), so \"download\" is the wrong verb, and \"Inner Signal App\" needs \"the\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    450
+   ],
+   "where": [
+    "Try it in the Inner Signal app, P1"
+   ],
+   "block_hashes": [
+    "6d440f4f84435333"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    453
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "2fa3b7b5",
+    "date": "2026-10-29",
+    "subject": "Hypnosis guide: Joel's answers of 29 October in (all 114 comprehension fixes approved; my advised wording on the four cards in his own words"
+   }
+  },
+  {
+   "id": "F14.1",
+   "part": 14,
+   "now": "Constraint: What do you need to do to make sure your asking is safe, true, kind etc.",
+   "published": "Constraint: safety, truth, kindness, no forcing, no false certainty, and capacity before content.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "\"no forcing, no false certainty, and capacity before content\" are gone, and the question ends with a full stop.",
+   "now_found": 1.0,
+   "now_blocks": [
+    465
+   ],
+   "where": [
+    "Appendix A: How to ask the subconscious a useful question, P6"
+   ],
+   "block_hashes": [
+    "dffb7f2107b9985c"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    467
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F14.2",
+   "part": 14,
+   "now": "Appendix B - NLP (Neuro-Linguistic Programming)",
+   "published": "none",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "A second title line right under the appendix's heading.",
+   "now_found": 1.0,
+   "now_blocks": [
+    483
+   ],
+   "where": [
+    "Appendix B: NLP without turning yourself into a sales seminar, P1"
+   ],
+   "block_hashes": [
+    "f2b958e02042bccc"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F14.3",
+   "part": 14,
+   "now": "Language Level of NLP: pacing what is true; opening up people’s awareness; presuming you can do something safe; linking cause and effect; embedding invitations; asking de-hypnotic questions to break the effects of vague, absolute, manipulative or grandiose language.",
+   "published": "Language NLP shapes the sentence: pace what is already true, open awareness, presume only safe capacity, link cause and effect carefully, embed invitations, and use de-hypnotic questions when language becomes vague, absolute, manipulative, or grandiose.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "The two limits are gone: presume only a safe capacity, and link cause and effect carefully.",
+   "now_found": 1.0,
+   "now_blocks": [
+    490
+   ],
+   "where": [
+    "The four NLP layers, P5"
+   ],
+   "block_hashes": [
+    "ddd940e95890b463"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    504
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "dd522993",
+    "date": "2026-10-25",
+    "subject": "Hypnosis guide: Joel's answers in; the strict Emulate check of the guide and the community article"
+   }
+  },
+  {
+   "id": "F14.4",
+   "part": 14,
+   "now": "Presumption is a powerful thing, so please don’t use it except to presume that we will have the choice of when it will happen, that we will be able to do it, that we are safe, that we are loved and that our adult can lead us.",
+   "published": "A presupposition hides an assumption inside a sentence. Use that power only to presume choice, timing, capacity, safety, love, and adult leadership. Don’t smuggle in obedience. “Before any part has to change, it can first become more understood.”",
+   "kind": "unclear",
+   "severity": 2,
+   "why": "The pattern never says what a presupposition is (an assumption hidden inside a sentence) and, unlike the other patterns, has no example; \"Don't smuggle in obedience\" is gone too.",
+   "now_found": 1.0,
+   "now_blocks": [
+    505
+   ],
+   "where": [
+    "Pattern 3: Presuppositions, P1"
+   ],
+   "block_hashes": [
+    "d2597335458972da"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    520,
+    521
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F14.5",
+   "part": 14,
+   "now": "It’s not very likely that just by breathing in and out that your trauma is going to go away!",
+   "published": "Use them carefully. A gentle voice doesn’t make a false causal claim true. Too strong: “Because I breathe, the trauma leaves.” Better: “As I breathe, the adult self may become present enough to hear one small piece of what the wound needs.”",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The pattern only says what not to claim; the published better version (a bridge that claims only a small possible effect) is gone, and \"that ... that\" is doubled.",
+   "now_found": 1.0,
+   "now_blocks": [
+    507
+   ],
+   "where": [
+    "Pattern 4: Gentle cause-effect bridges, P1"
+   ],
+   "block_hashes": [
+    "11cfd9550414ad60"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    523,
+    524
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F14.6",
+   "part": 14,
+   "now": "Example: ‘Notice how you find out the answer.’",
+   "published": "“Notice whether the answer comes as an image, a word, a pressure, a warmth, a silence, or a next action.”",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "The example lost what to notice (whether the answer comes as an image, a word, a pressure, warmth, silence or a next action).",
+   "now_found": 1.0,
+   "now_blocks": [
+    503
+   ],
+   "where": [
+    "Pattern 2: Awareness verbs, P2"
+   ],
+   "block_hashes": [
+    "d72542ea7b60821a"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    518
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F15.1",
+   "part": 15,
+   "now": "If someone's fear, craving, fantasy, belief, memory, whatever, has sensory properties in your experience (it has a place in your visual field, or sounds a certain way, or is heavy, or moving, or inside / outside your body, or something like that), you can work with those properties.",
+   "published": "Fear, craving, fantasy, belief, and memory may have sensory qualities: near or far, bright or dim, loud or quiet, moving or still, heavy or light, inside or outside the body. Work with qualities you actually notice.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"someone's fear\" should be your own (it is \"in your experience\").",
+   "now_found": 1.0,
+   "now_blocks": [
+    532
+   ],
+   "where": [
+    "Submodalities — editing the form, not denying the truth, P1"
+   ],
+   "block_hashes": [
+    "875ad0febcc99bef"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    549
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F15.2",
+   "part": 15,
+   "now": "Reiterate to yourself that whenever you notice a synchronicity, it is just a bell that rings to wake you up, it is not proof for what you are interpreting from it.",
+   "published": "Repeat: “The noticing is my wake-up bell, not proof of a message.”",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"proof for\" is \"proof of\" (here and in \"not proof for what I'm interpreting from the coincidences\" above), and the last clause is joined by a comma.",
+   "now_found": 1.0,
+   "now_blocks": [
+    550
+   ],
+   "where": [
+    "Installing the synchronicity cue, P5"
+   ],
+   "block_hashes": [
+    "1800250cd4e9fc17"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    567
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F15.3",
+   "part": 15,
+   "now": "These cues do not authorize you to make a decision. They do not stop you from hearing the message of your intuition if it is warning you about something.",
+   "published": "The cue remains self-authored, visible, reversible, and limited to orientation. It can’t authorize a decision, prove an intuition, suppress a warning, or let another person control the response.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "Two of the cue's limits are gone: it stays your own, visible and reversible, and it never lets another person control your response.",
+   "now_found": 1.0,
+   "now_blocks": [
+    554
+   ],
+   "where": [
+    "Installing the synchronicity cue, P9"
+   ],
+   "block_hashes": [
+    "19cff7cc822e64ef"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    571
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "dd522993",
+    "date": "2026-10-25",
+    "subject": "Hypnosis guide: Joel's answers in; the strict Emulate check of the guide and the community article"
+   }
+  },
+  {
+   "id": "F15.4",
+   "part": 15,
+   "now": "Research has shown that people that score high on apophenia tests also score high for detecting patterns that were not really there, as well as scoring high on psychosis spectrum traits (see Blain and colleagues, and Grant and colleagues) (this is not saying that noticing patterns is bad; in fact, it's not a pathology).",
+   "published": "Research links stronger apophenic pattern detection with false-positive judgments and psychosis-spectrum traits, although ordinary pattern noticing is not itself pathological.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "Apophenia is seeing patterns that aren't there, so \"score high on apophenia tests also score high for detecting patterns that were not really there\" says the same thing twice; and two brackets follow each other.",
+   "now_found": 1.0,
+   "now_blocks": [
+    557
+   ],
+   "where": [
+    "False positives, and turning the cue off, P1"
+   ],
+   "block_hashes": [
+    "053f94475da7bd66"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    573
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F15.5",
+   "part": 15,
+   "now": "Here is a rough outline of the NLP tools and techniques I use:",
+   "published": "none",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "The line introduces a list that now has its own headings, and the list's old numbers are left in \"Future Pacing: 1)\" and \"Swish Variation: 2)\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    563
+   ],
+   "where": [
+    "Perceptual positions — self, other, witness, universal heart, P1"
+   ],
+   "block_hashes": [
+    "ec2ab4e1319294e1"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F16.1",
+   "part": 16,
+   "now": "I do not remove pain, hunger, grief, anger, or medical symptoms.",
+   "published": "To erase pain, hunger, grief, anger, or a medical symptom.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"with NLP\" fell out, so the line says he never removes pain or symptoms at all.",
+   "now_found": 1.0,
+   "now_blocks": [
+    579
+   ],
+   "where": [
+    "What I will not use NLP for, P6"
+   ],
+   "block_hashes": [
+    "48fefbd3467b2a06"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    595
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F16.2",
+   "part": 16,
+   "now": "Induce/Contain the person (get their attention, or stabilize them first if they are already wide open).",
+   "published": "Induce or contain. Gather attention, or stabilize first if you are already wide open.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "The whole sequence now speaks of \"the person\" and \"them\" (a client), in a guide where the reader does it with themselves, so the reader has to work out who \"the person\" is.",
+   "now_found": 1.0,
+   "now_blocks": [
+    588
+   ],
+   "where": [
+    "Running the whole NLP sequence, P2"
+   ],
+   "block_hashes": [
+    "13aced4262821d28"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    604
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F16.3",
+   "part": 16,
+   "now": "What is my body telling me to do about this (how does my body feel)?",
+   "published": "I can notice what my body is signaling without assuming what it proves.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published caution (notice the body's signal without assuming what it proves) became a question asking the body what to do.",
+   "now_found": 1.0,
+   "now_blocks": [
+    599
+   ],
+   "where": [
+    "Appendix C: The extended de-hypnosis checklist, P1"
+   ],
+   "block_hashes": [
+    "7d7a2257b55896dd"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    616
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "29dd5244",
+    "date": "2026-10-23",
+    "subject": "Hypnosis guide: recheck A read (Mostly Human Written, 1.4% AI, three short stretches); Joel's own Appendix C in (question 13); batch 472g's "
+   }
+  },
+  {
+   "id": "F16.4",
+   "part": 16,
+   "now": "Therefore, instead of interrogating that part, start with yourself:",
+   "published": "Don’t begin by cross-examining it. Help the body first.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "The colon leads straight into another lead-in (\"Always work with yourself in a series ...:\"), and \"start with yourself\" is vaguer than \"help the body first\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    618
+   ],
+   "where": [
+    "Appendix D: Anxiety — body first, P2"
+   ],
+   "block_hashes": [
+    "f77fe9beafad780e"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    647
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F17.1",
+   "part": 17,
+   "now": "Somatic experiencing: If you would like more information about somatic experiencing, or even a free intro session, please see my somatic guide.",
+   "published": "More info, and a free intro session on my Somatic Guide.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "The paragraph repeats its own heading as a label (\"Somatic experiencing:\"), as \"Gendlin Focusing: Focusing is\" and \"EFT tapping: One of the easiest ways\" do under theirs.",
+   "now_found": 1.0,
+   "now_blocks": [
+    625
+   ],
+   "where": [
+    "Somatic Experiencing, P1"
+   ],
+   "block_hashes": [
+    "a684340791eb8e19"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    660
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F17.2",
+   "part": 17,
+   "now": "But neither one of those products is necessary.",
+   "published": "These remain optional supports. They don’t prove that any inner signal is true.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The caution that a relaxation product says nothing about whether an inner signal is true is gone.",
+   "now_found": 1.0,
+   "now_blocks": [
+    630
+   ],
+   "where": [
+    "Body supports, P2"
+   ],
+   "block_hashes": [
+    "23c8d7751f31253d"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    670
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "dd522993",
+    "date": "2026-10-25",
+    "subject": "Hypnosis guide: Joel's answers in; the strict Emulate check of the guide and the community article"
+   }
+  },
+  {
+   "id": "F17.3",
+   "part": 17,
+   "now": "If you’re there little one, I’m here. Thank you guard for letting me know you’re here, you didn’t have to scream, I got your message.",
+   "published": "Little one, I am here. Protector, thank you for warning me. You do not have to scream for me to listen.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "The names spoken to need commas (\"If you're there, little one\", \"Thank you, guard,\"), and the script's sentences run together with commas (\"..., you didn't have to scream, I got your message\"; \"..., if there is nothing to do, help my body stand down\"; \"I'm not going to abandon you but I'm not going to worship you, I will listen\").",
+   "now_found": 1.0,
+   "now_blocks": [
+    636
+   ],
+   "where": [
+    "Anxiety script, P3"
+   ],
+   "block_hashes": [
+    "e959a083a393be49"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    391,
+    673
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "dd522993",
+    "date": "2026-10-25",
+    "subject": "Hypnosis guide: Joel's answers in; the strict Emulate check of the guide and the community article"
+   }
+  },
+  {
+   "id": "F17.4",
+   "part": 17,
+   "now": "It is simulating an idea or event to help you digest grief or teach you something.",
+   "published": "Daydreaming can be intuition, simulation, grief digestion, creative rehearsal, symbolic teaching, or the subconscious showing a possible future, fear, or desire.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"digest grief\" is the digestive metaphor Joel has asked to avoid (work through grief); and two sentences on, \"rather than the real life\" has a stray \"the\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    639
+   ],
+   "where": [
+    "Appendix E: Is the daydream helping or replacing your life?, P1"
+   ],
+   "block_hashes": [
+    "61a53147613c223b"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    677
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F17.5",
+   "part": 17,
+   "now": "- What they will do if things don't fit (if they are treating trauma, did they have specific training on trauma and dissociation? Having hypnosis certifications matters, but doesn't mean they are trained in trauma care)",
+   "published": "Ask what they are trained to treat, how they use hypnosis, and how they respond when a suggestion doesn’t fit. For trauma work, ask about actual trauma and dissociation training, not only a hypnosis certificate.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "The trauma-training question is a separate thing to ask, but it sits in brackets inside \"what they will do if things don't fit\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    654
+   ],
+   "where": [
+    "Finding a hypnotist who can work with you, P3"
+   ],
+   "block_hashes": [
+    "f30d9b86f7180357"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    691
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F17.6",
+   "part": 17,
+   "now": "- What they will do if things go unexpected during or after the session",
+   "published": "Ask about unexpected reactions, uncertain memories, and the full return.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"if things go unexpected\" doesn't fit (\"if something unexpected happens\").",
+   "now_found": 1.0,
+   "now_blocks": [
+    662
+   ],
+   "where": [
+    "Finding a hypnotist who can work with you, list item"
+   ],
+   "block_hashes": [
+    "b0e332d44104ca81"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    692
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F17.7",
+   "part": 17,
+   "now": "They probably won't be able to tell you if the person was certified in them or not, though.",
+   "published": "Ask the app or another informed person for explanation, without expecting a practitioner to be certified from a brief account.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"certified in them\" leaves the reader working out what \"them\" is (the methods the person used).",
+   "now_found": 1.0,
+   "now_blocks": [
+    666
+   ],
+   "where": [
+    "Finding a hypnotist who can work with you, P13"
+   ],
+   "block_hashes": [
+    "393d8a145b01378d"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    693
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F18.1",
+   "part": 18,
+   "now": "We can not force forgiveness on ourselves, it has to come from a place of understanding otherwise it can be bypassing.",
+   "published": "Forgiveness can’t be forced. It grows from understanding, and pushing it too early creates bypass.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "Two sentences joined by a comma, a comma missing before \"otherwise\", and \"can not\" for \"cannot\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    676
+   ],
+   "where": [
+    "Forgiveness without bypass, P1"
+   ],
+   "block_hashes": [
+    "35bcd31298a7e7f0"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    703
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F18.2",
+   "part": 18,
+   "now": "Self-hypnosis can be POWERFUL when you are in an altered state of consciousness (i.e. when you're on loveyhuasca, meditating, have a lucid dream, are dealing with grief, are dealing with sexual energy, are praying, haven't slept, are around plant medicine, etc, etc, etc).",
+   "published": "Self-hypnosis can become very powerful during loveyhuasca, meditation, lucid dreaming, grief, sexual energy, prayer, sleep loss, or other plant-medicine-adjacent states.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"i.e.\" introduces examples, which is \"e.g.\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    693
+   ],
+   "where": [
+    "Stabilize before you interpret, P1"
+   ],
+   "block_hashes": [
+    "894827b28c2d0b7d"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    718
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "dd522993",
+    "date": "2026-10-25",
+    "subject": "Hypnosis guide: Joel's answers in; the strict Emulate check of the guide and the community article"
+   }
+  },
+  {
+   "id": "F18.3",
+   "part": 18,
+   "now": "Regardless of how scary an image is, regardless of the lighting that came with the \"download\", regardless of how bad you feel, it doesn't necessarily mean what you think it does!",
+   "published": "A frightening image isn’t automatically truth, a bad feeling isn’t automatically a lesson, and a “download” doesn’t deserve belief merely because it came with excellent lighting.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"the lighting that came with the download\" loses the joke's point (impressive lighting doesn't make a download true), so the reader wonders what lighting is meant.",
+   "now_found": 1.0,
+   "now_blocks": [
+    694
+   ],
+   "where": [
+    "Stabilize before you interpret, P2"
+   ],
+   "block_hashes": [
+    "b60aa53f5aa3539d"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    719
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F19.1",
+   "part": 19,
+   "now": "But if you’re fighting it out of fear…",
+   "published": "But fighting from fear can fasten attention more tightly to the thing you want gone.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The sentence trails off, so its point (fighting from fear fastens your attention to the very thing you want gone) is left for the reader to guess from the next paragraph.",
+   "now_found": 1.0,
+   "now_blocks": [
+    717
+   ],
+   "where": [
+    "Do not fight from fear, P1"
+   ],
+   "block_hashes": [
+    "b76ddd9250deb278"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    742
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F19.2",
+   "part": 19,
+   "now": "Finally, presences, shadow forces, or grandiose parts don’t always attack through fear.",
+   "published": "Hostile presences, shadow forces, grandiose parts, and altered-state imagery don’t always attack through fear.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "The next section also starts \"Finally,\", and \"Second, feel free to tell the presence\" (the boundary section) has no first.",
+   "now_found": 1.0,
+   "now_blocks": [
+    730
+   ],
+   "where": [
+    "The cosmic-download humility test, P1"
+   ],
+   "block_hashes": [
+    "d1612455ba02f187"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    755
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "2fa3b7b5",
+    "date": "2026-10-29",
+    "subject": "Hypnosis guide: Joel's answers of 29 October in (all 114 comprehension fixes approved; my advised wording on the four cards in his own words"
+   }
+  },
+  {
+   "id": "F20.1",
+   "part": 20,
+   "now": "Stretch and Release: Work out what will be supporting you, focus on the feeling of support.",
+   "published": "Feel the support beneath you and the position of one hand or foot.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "Each induction's paragraph repeats its heading as a label (\"Stretch and Release:\", \"Supported Floating:\", \"Rhythmic:\", \"Unwinding Object:\", \"Sensory Journey:\", \"Gradual wave:\", \"Care workshop:\", \"Resource:\"), and this first sentence joins two with a comma.",
+   "now_found": 1.0,
+   "now_blocks": [
+    741
+   ],
+   "where": [
+    "1. Stretch and release, P1"
+   ],
+   "block_hashes": [
+    "1b117e9b09c36bbb"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    766
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F20.2",
+   "part": 20,
+   "now": "See if there is any difference, even if there isn’t.",
+   "published": "Notice ease, tension, warmth, breath, or no change.",
+   "kind": "garbled",
+   "severity": 2,
+   "why": "The sentence contradicts itself; the point is to notice any difference, or that there is none.",
+   "now_found": 1.0,
+   "now_blocks": [
+    741
+   ],
+   "where": [
+    "1. Stretch and release, P1"
+   ],
+   "block_hashes": [
+    "1b117e9b09c36bbb"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    766
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F20.3",
+   "part": 20,
+   "now": "Rhythmic: Use your breathing or slightly hum in your throat to make a natural rhythm, or tap your finger or listen to sounds outside to make an artificial one.",
+   "published": "Accompany a natural rhythm: breath, a comfortable hum, a finger tap, outside sound, or silent counting.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "Sounds outside aren't an artificial rhythm you make; and the next sentence, \"Tell yourself you are going to say “here, and here again” over and over\", has you announcing the phrase instead of saying it.",
+   "now_found": 1.0,
+   "now_blocks": [
+    745
+   ],
+   "where": [
+    "3. Rhythmic breath or pulse, P1"
+   ],
+   "block_hashes": [
+    "a4ae84524a7d9889"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    770
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F20.4",
+   "part": 20,
+   "now": "See what happens, you can fractionate this if you want, perhaps noticing your normal awareness when you breathe in and the support when you breathe out.",
+   "published": "Notice the response. You may deliberately alternate attention toward ordinary awareness on the inhale and support on the exhale; name this fractionation beforehand.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "Sentences joined by commas (also \"Work out what is supporting you and where your weight is, imagine that ...\").",
+   "now_found": 1.0,
+   "now_blocks": [
+    743
+   ],
+   "where": [
+    "2. Supported floating, P1"
+   ],
+   "block_hashes": [
+    "42ec24f19196b833"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    768
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F20.5",
+   "part": 20,
+   "now": "- For sleep, try using this playlist by Nimja",
+   "published": "For sleep hypnosis, use Nimja’s sleep playlist.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "A one-line bullet with no full stop where the appendix needs a sentence.",
+   "now_found": 1.0,
+   "now_blocks": [
+    735
+   ],
+   "where": [
+    "Appendix I: Sleep hypnosis, P1"
+   ],
+   "block_hashes": [
+    "b791b2c1c4f5e3aa"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    761
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F21.1",
+   "part": 21,
+   "now": "For information about borrowed adulthood, love that doesn't require trust, practical and relational repair, spiritual struggle, differentiation and mutual peer support, see Inner Child Self-Love Reparenting Guide.",
+   "published": "The companion Inner Child Self-Love Reparenting Guide gives the fuller treatment of borrowed adulthood, love without compulsory trust, practical and relational repair, spiritual struggle, differentiation, and mutual peer support.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "\"see Inner Child Self-Love Reparenting Guide\" is missing \"my\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    774
+   ],
+   "where": [
+    "Inner-child care and adult capacities, P1"
+   ],
+   "block_hashes": [
+    "c2367063f74eaf53"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    792
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "2fa3b7b5",
+    "date": "2026-10-29",
+    "subject": "Hypnosis guide: Joel's answers of 29 October in (all 114 comprehension fixes approved; my advised wording on the four cards in his own words"
+   }
+  },
+  {
+   "id": "F21.2",
+   "part": 21,
+   "now": "Not everybody has an inner voice (Nedergaard and Lupyan 2024) is not about self hypnosis adaptations, but about people with different amounts of inner speech.",
+   "published": "Nedergaard and Lupyan’s Not Everybody Has an Inner Voice (2024) studied people reporting different amounts of inner speech, not self-hypnosis adaptations.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "The paper's title isn't marked as a title, so the sentence first reads as the claim \"Not everybody has an inner voice ... is not about\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    777
+   ],
+   "where": [
+    "Inner speech and putting experience into words, P1"
+   ],
+   "block_hashes": [
+    "5a0fa7677d227bfa"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    795
+   ],
+   "same_as_original": false,
+   "owner_words": true,
+   "origin": {
+    "sha": "cd96e957",
+    "date": "2026-10-21",
+    "subject": "Hypnosis guide: the induction section (HG17) installed, pending its reading: sample ba with every lost point back, three rounds of reviews ("
+   }
+  },
+  {
+   "id": "F21.3",
+   "part": 21,
+   "now": "This US Veterans Administration website contains useful general information about hypnosis, such as the fact that it can be very strong and should be carefully used, and that it may result in false memories.",
+   "published": "The VA’s hypnosis overview includes cautions about strong reactions and false memories.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "The VA has been the Department of Veterans Affairs since 1989; \"Veterans Administration\" is the old name.",
+   "now_found": 1.0,
+   "now_blocks": [
+    779
+   ],
+   "where": [
+    "Memory, support, and choosing a practitioner, P1"
+   ],
+   "block_hashes": [
+    "d98b0441a14993ab"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    797
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "9a99e73e",
+    "date": "2026-10-23",
+    "subject": "Guide batch 476 (Emulate's misspellings and British spellings back to the published guide's spelling in 25 paragraphs) and recheck A4 rebuil"
+   }
+  }
+ ]
+}

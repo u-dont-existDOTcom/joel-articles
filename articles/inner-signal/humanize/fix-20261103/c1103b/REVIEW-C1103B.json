@@ -1,0 +1,63 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "inner-signal-hypnosis-guide-cards-20261103-c1103b",
+ "title": "Hypnosis Guide Cards, 3 November (2)",
+ "intro": [
+  "Your hypnosis guide as it is in Git, after the fourth free check of the whole guide: both parts read Human Written, with no AI window. Your new line in Don’t rush the repair is in. This <b>one card</b> is the only stretch of mine still below High after two tries. It links both checks.",
+  "Your answer saves as you click. When you're done, click <b>Copy my answers</b> (or <b>Save them as a file</b>) and send them to me."
+ ],
+ "git_file": "articles/inner-signal/humanize/fix-20261103/c1103b/REVIEW-C1103B.html",
+ "article": {
+  "file": "articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "94ffd381f8a15b8a2116c220403c114211553db31379790532c0971658f3e1ec"
+ },
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/c1103b/REVIEW-C1103B.md"
+ },
+ "built": "2026-11-03 12:24 UTC",
+ "types": {
+  "yours": {
+   "label": "Your own words",
+   "about": "A paragraph you wrote or rewrote. Approve uses the suggestion; Reject keeps your words; Revise lets you write your own."
+  },
+  "icguide": {
+   "label": "From your inner child guide",
+   "about": "Your inner child guide's words in this guide. Approve uses the suggestion; Reject keeps them; Revise lets you write your own."
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "A passage that says what another part of the guide already says (your note on W-685). Approve cuts it; Reject keeps it; Revise lets you write your own."
+  },
+  "stuck": {
+   "label": "Our words, still below High",
+   "about": "Words of ours that read Human (Low) in the whole guide after two tries. Keep it as it is (the clear version stays in), or Edit it: your own versions have read Human."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "E-523",
+   "type": "stuck",
+   "title": "“You need both to be ethical with people, so when something sounds true but vague, ask …”",
+   "where": "Pattern 10: Meta Model questions — the de-hypnosis tool, P2",
+   "advice": "edit",
+   "why": "Pattern 10’s six questions read Human (Low) in both of today’s checks. In the third, with this lead-in (as it is now). In the fourth, with my second try: the ethics point moved up to lead the two models, and the questions on their own after a plain “When something sounds true but vague, ask:”. That read lower (21 words), so this version stays. Nothing else in Pattern 10 or around it was flagged.",
+   "reading": "Human (Low), 37 words: [the third check, part B](https://www.pangram.com/feed/75baa67a-da78-4f74-b814-819444865b9c); with my second try, Human (Low), 21 words: [the fourth check, part B](https://www.pangram.com/feed/93dac4dd-cdea-49f2-8103-83211c1ebb4d)",
+   "advice_note": "Keep it as it is: they’re the Meta Model’s own questions, and with both lead-ins I tried, the run of six questions read Low in the whole guide. Or edit it, if you’d put the questions another way; the next check reads it in place.",
+   "keep_label": "keep it as it is",
+   "found_by": "The third and fourth free checks of the whole guide (3 November), your result pages of 11:19 and 12:18 UTC",
+   "spans": [
+    {
+     "block": 522,
+     "start": 0,
+     "end": 95
+    },
+    {
+     "block": 523,
+     "start": 0,
+     "end": 276
+    }
+   ]
+  }
+ ]
+}

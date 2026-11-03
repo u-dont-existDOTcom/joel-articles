@@ -1,0 +1,101 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "inner-signal-hypnosis-guide-cards-20261101",
+ "title": "Hypnosis Guide Cards, 1 November",
+ "git_file": "articles/inner-signal/humanize/fix-20261101/fullread2/review/REVIEW-FR2.html",
+ "article": {
+  "file": "articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "c44cffb21f9fe338b1ec8213c9a981110758777e74e016895d6897412fa7ca27"
+ },
+ "built": "2026-11-01 20:25 UTC",
+ "generator": "suggestion_review.py 1.4 (2026-10-30)",
+ "exported_at": "2026-11-01T20:29:22.623Z",
+ "counts": {
+  "approved": 4,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "K9",
+   "type": "contradiction",
+   "title": "“If you are intoxicated and/or …”",
+   "where": "Before you begin, P3",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Put yourself in a place where you can safely do this, which is not: driving a big machine, swimming with the fishies, or otherwise needing to be alert and functionally responsible for yourself or others. If you are intoxicated and more confused than usual, or for whatever reason not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. (The part below called \"Already Trancey? Stabilize before dipping deeper.\" can be used to help orient you if you're already open, but don't use it to make yourself deeper if you're not stable.)",
+   "before": "Put yourself in a place where you can safely do this, which is not: driving a big machine, swimming with the fishies, or otherwise needing to be alert and functionally responsible for yourself or others. If you are intoxicated and/or more confused than usual, or for whatever reason not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. (The part below called \"Already Trancey? Stabilize before dipping deeper.\" can be used to help orient you if you're already open, but don't use it to make yourself deeper if you're not stable.)",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T20:28:37.102Z"
+    }
+   ],
+   "updated": "2026-11-01T20:28:37.102Z"
+  },
+  {
+   "id": "F1.6",
+   "type": "repeat",
+   "title": "“As my dad always said …”",
+   "where": "Before you begin, P6",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Let your response guide you as to what to do next regardless of what the script is expecting. Utilize: use what you have (a thought, sound, movement, or objection) to go to the next place, whatever it is. Learn how to notice what is there. If nothing changes, notice that too. As my dad always said, \"Be prepared to take what you get. The best might come afterwards!\" For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain.",
+   "before": "Let your response guide you as to what to do next regardless of what the script is expecting. Utilize: use what you have (a thought, sound, movement, or objection) to go to the next place, whatever it is. Learn how to notice what is there. If nothing changes, notice that too. As my dad always said, \"Always and in everything, expect the very best. But be prepared to take what you get. The best might come afterwards!\" For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T20:28:54.270Z"
+    }
+   ],
+   "updated": "2026-11-01T20:28:54.270Z"
+  },
+  {
+   "id": "F7.5",
+   "type": "yours",
+   "title": "“… into a clear state of awareness”",
+   "where": "Make the hypnosis more active, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "“Starting with your eyes open, press your thumb to your forefinger. And as you press your fingers together gently and release, you begin to bring yourself into a place of clearer awareness… again you press your fingers together and release, bringing yourself into an even clearer state of awareness. And again as you press your fingers together and release, you bring yourself into the clearest state of awareness yet. And now you stop pressing your fingers together, and in the first second after you stop pressing your fingers together deliberately, you can notice if there is any sensory echo of the pressing in your fingers, in your breathing, in your attention, or nowhere at all. Just notice, sit up straight and work from this level.”",
+   "before": "“Starting with your eyes open, press your thumb to your forefinger. And as you press your fingers together gently and release, you begin to bring yourself into a place of clearer awareness… again you press your fingers together and release, bringing yourself into an even clearer state of awareness. And again as you press your fingers together and release, you bring yourself into a clear state of awareness. And now you stop pressing your fingers together, and in the first second after you stop pressing your fingers together deliberately, you can notice if there is any sensory echo of the pressing in your fingers, in your breathing, in your attention, or nowhere at all. Just notice, sit up straight and work from this level.”",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T20:29:10.423Z"
+    }
+   ],
+   "updated": "2026-11-01T20:29:10.423Z"
+  },
+  {
+   "id": "F18.1",
+   "type": "repeat",
+   "title": "“That's enough for today …”",
+   "where": "7. Care workshop, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Prepare the workshop (time, place, tools, boundaries, etc). Invite the signal/feeling/young part to come only as close as is welcome. Try to avoid any language that makes you feel you're not one person. Care for it as best you can, by asking what it wants and giving that if you can, or sensing into it and responding, or just being with it. Take breaks, get back in contact if that's ok, take more breaks, etc. Keep bringing in adult functions (or borrow someone else's function). Have the adult part of you run the show. The goal is to make it \"good as you\" rather than \"good as new\", not to erase history. Close the workspace, reassure yourself that you are one whole person, that you're an adult now, and come back.",
+   "before": "Prepare the workshop (time, place, tools, boundaries, etc). Invite the signal/feeling/young part to come only as close as is welcome. Try to avoid any language that makes you feel you're not one person. Care for it as best you can, by asking what it wants and giving that if you can, or sensing into it and responding, or just being with it. Take breaks, get back in contact if that's ok, take more breaks, etc. Keep bringing in adult functions (or borrow someone else's function). Have the adult part of you run the show. The goal is to make it \"good as you\" rather than \"good as new\", not to erase history. Tell your little one, \"That's enough for today. We're going back to the life we're building.\" Close the workspace, reassure yourself that you are one whole person, that you're an adult now, and come back.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-01T20:29:18.711Z"
+    }
+   ],
+   "updated": "2026-11-01T20:29:18.711Z"
+  }
+ ]
+}

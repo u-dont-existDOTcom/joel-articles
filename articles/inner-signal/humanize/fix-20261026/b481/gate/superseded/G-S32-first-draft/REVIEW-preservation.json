@@ -1,0 +1,19 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "6ead02ca71d748e7303fbcf480a22af0c50b48da016a188d39171a7aac978419",
+  "context_sha256": "cba390aaf6828977671eb963f2290263fb25e90111172898123707258b09740c",
+  "source_sha256": "8ba64224096312939aa6e87f81ee90c48eb8aa15316d5e518109f6aaed00720d",
+  "verdict": "FAIL",
+  "unresolved": [
+    "“genuinely” is dropped: his “two genuinely safe routes” becomes “two safe things to do”, so the real-safety point that separates an ethical double bind from the manipulative one is weaker (a change in strength) and not put back (T14, T15)"
+  ],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+    "context_id": "b481-gate-preservation-subagent-g",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Judged DRAFT.txt (“An Ethical Double Bind Question gives someone a choice between two safe things to do.”) against SOURCE.txt, which is his own words from his published guide (“An ethical one offers two genuinely safe routes.”, the second sentence of “A manipulative double bind traps every answer inside the speaker’s agenda. An ethical one offers two genuinely safe routes.”), and CONTEXT.txt, which holds the draft once, as the opening of the second paragraph of “Pattern 6: Ethical double binds”, after the manipulative definition and before “Ethical Double Bind Questions might be:” and the warmth-or-space example. It does what the_change says (Emulate's sentence in place of his own); the_change claims no put-back and the draft has none. Word by word: “An ethical one” becomes “An Ethical Double Bind Question” (his pronoun spelled out as the section's own capitalised term, which the paragraphs around it use; fine); “offers” becomes “gives someone a choice between” (“someone” is the person asked and the choice is already in “offers two”, so no new person or claim); “two” and “safe” are kept; “genuinely” is gone; “routes” becomes “things to do” (plainer and narrower, since routes are ways through the question and these are actions, but his example, allowing warmth or space, is close enough that I did not rest the verdict on it). “Genuinely” is the problem: it is his marker that the safety is real, which is what separates an ethical double bind from the manipulative one that only looks like a choice, and the section is built on that contrast. “Safe” alone is a lower bar, so this is a change in strength and a point gone missing, and nothing puts it back. The writer's T14 and T15 lines say the sentence puts back the author's own point and words; it puts back nothing of his. Tells, walked T01 to T29 and C01 to C04 on the draft in context: T15 (humanizer rewording) PRESENT and not justified, since the swaps carry the dropped “genuinely”; T14 PRESENT for the same word (a point gone missing); T12 considered and ABSENT (the manipulative/ethical contrast is his own and the section's subject); T26 considered and ABSENT (the full term repeats in adjacent sentences, but it is the section's defined term, so the repetition does a job; it is a little stiff just before “Ethical Double Bind Questions might be:” but not a tell); T02 ABSENT; all other rows ABSENT; C02 holds (the only pronoun is “someone”); C04 holds (a definition from his guide, no outside claim). Lint: D9 accepted (one sentence replaced inside an existing paragraph, so the order is the article's, and the example after it is untouched). FAIL on the lost “genuinely”: the draft does not say what his line says, no more and no less.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": ["D9 follows the source order"]
+}

@@ -70,10 +70,16 @@ class RegistryShape(unittest.TestCase):
         # J66 and J67 (turn 105: his notes on 97.8's d4, E256); J62 to J65 (turn 104: the tells Joel's three readers found in 97.8, which the tell panel now checks, E253);
         # message of 2026-10-21 17:56; W95 (O45, a blanket or repeated safety line) and J61 (a tidy metaphor counted as a human
         # tell) from his inner child messages of 2026-10-23 17:53 and 21:52; W96 (O43, "isn't proof of / doesn't prove") from
-        # his community answers of 2026-10-24 19:52
-        self.assertEqual(len(ids), 163)
+        # his community answers of 2026-10-24 19:52; W97 to W100 (O46 "one" for "a", O43 "proof", O47 "secretly/silently", O48
+        # passive voice) and J68 (one long flow in one sound) from his hypnosis guide cards of 2026-10-30 14:35; W101 to W104
+        # (O49 "the next small thing", O50 "still matters", O51 portable phrases, O52 a list asked as one question) from his
+        # hypnosis guide cards of 2026-11-02; W105 to W110 (O53 to O58, phrases he cut in his Pangram history) from his history,
+        # read at his invitation on 2026-11-02 18:16 UTC; W111 and W112 (O59 "the same principle extends to", O60 "not a
+        # recipe") from his second account's history, read at his invitation on 2026-11-02 21:59 UTC; W113 (O61, a dose as a
+        # label and its spec) from his three neuro de-armoring examples of 2026-11-03 17:48 UTC (E335)
+        self.assertEqual(len(ids), 181)
         self.assertEqual(len(set(ids)), len(ids))
-        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 96)
+        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 113)
         for t in TELLS:
             with self.subTest(id=t['id']):
                 self.assertIn(t['kind'], ('mechanical', 'judgment'))

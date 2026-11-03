@@ -1,0 +1,21 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "5768b77c01d021ad346df91aad2c5bb2f8adc5786d1bedead681513908db1193",
+  "context_sha256": "da715839396d1c7dcb4ac9aee599e601744af07a38dc9c0953b9e70d53ffddbd",
+  "source_sha256": "529d7a8c78f0609dec4b068990688cc1d4468573c0f96a1a4b44a0e90a2b356f",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+    "context_id": "b481-gate-cold_read_2-subagent-k",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Read CONTEXT.txt whole: the heading 'Anxiety script', then the draft 'Here is a little script you could use:' as a one-line lead-in, then the first-person script (the next card's change, Emulate's 'Let’s see if I can find my body parts.', sits in the same context and reads naturally after it). Compared with SOURCE.txt ('A script you could use for anxiety is:', the working-copy line he approved). MEANING: the offer ('a script you could use') is kept; 'for anxiety' is carried by the heading directly above the line, as the_change says, so a reader of the section as shown loses nothing. The only new words are 'Here is' and 'little'. 'little' is a size word, not a claim (the script that follows is three short paragraphs, about 125 words), and it is in his register elsewhere in the article (GATE-INPUTS.json quotes his own 'that little hidden menu'). No new fact, no first person, no number, no source, no named entity. SEAM: none felt. It reads as the label for the block under it. 'Here is' uncontracted beside the script's contractions is the one slight formality, but a lead-in can carry it, and I would not call it a different writer. 'you could use' is the hedge in the line he approved, so it is not new. TELL ROWS: T19 (announcing setup) is PRESENT, because the sentence's only job is to say that a script follows. I judge it justified: the first-person lines after it need a frame to be read as something to say to oneself, the replaced line did the same job in the same place, and the colon introduces a real block, not a reveal (T25 ABSENT). The writer's ledger marks T19 ABSENT; I disagree on the label, not on the outcome. T11 considered and left ABSENT: the line labels a block, it does not bridge two parts of an argument. T22: it offers a real tool rather than reassurance alone, and the 'could use' hedge was already in the source. T26: 'script' echoes the heading and 'little' echoes 'little one' two paragraphs on, but both are common words and the first is a lead-in naming its own block, so it is not an unearned repeat. T07: 'little' is colloquial but not a staged hesitation. T15: the structure changed ('X is:' to 'Here is X:') in plain words, not rarer synonyms swapped in. T03: the writer's evidence says 'the sentence before it' sets it up, but the section has only the heading before the line; the heading does that job, so ABSENT still holds. Every other row (T01, T02, T04-T06, T08-T10, T12-T14, T16-T18, T20, T21, T23, T24, T27-T29, C01-C04) is ABSENT: a single lead-in line with no first person, list, contrast, image, closer, tic word, inner-child name, pronoun problem or invented fact. LINTER: 'B7 short landing at paragraph end' flags this very line, but it is a whole-paragraph lead-in ending on a colon, not a closing zinger, so the context answers it. 'D9 follows the source order' (1/1 paragraphs, agreement 1.00) is trivial for a one-line lead-in with one point; there is nothing in it for T13 or T09 to find and nothing missing. 'E36/E41 heavy second person' (12.5 'you' per 100) is one 'you' in an eight-word line, a length artifact; the guide addresses the reader as 'you' throughout and the source line had the same 'you'. All three accepted.",
+  "resolved_tell_ids": ["T19"],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order",
+    "E36/E41 heavy second person"
+  ]
+}

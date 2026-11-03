@@ -30,6 +30,15 @@ It prints only those summaries; with --windows each line also lists the result's
 start and end, and the window's text), which is what a reader needs to see what was flagged. The key is read from the
 file each run and is never printed, copied or logged.
 
+What may go through the API at all (Joel, 2026-10-23, E218): "you can check paras or sections with API, not more than like
+5-6 paras at a time in general (not half an  article)". Anything bigger, a half, a whole article, or many paragraphs
+at once, goes through a temporary Substack draft and its secret preview link, which costs no credits
+(docs/PANGRAM-PRODUCTION-BUDGET-20261020.md). On 2026-11-02 four halves of the hypnosis guide and the whole neuro
+de-armoring article went through the API anyway, about 69,000 words, and Joel asked: "how are you cehcking the whole
+guide? that should be done the free way to not waste my pangram credits. which you said requires my help. why did you
+forget this?" (gate E325). So `check` refuses, before any POST, a text with more than six paragraphs of eight words or
+more, or more than 1,200 words, unless --paid-ok gives his words allowing it; a refusal names the free route.
+
 The protocol is pangram-humanization-lab's (`src/pangram_lab/pangram4.py`, proven 2026-08-12): x-api-key, an
 explicit model, a version check, no automatic POST retry, the task id checkpointed before polling, and a cache
 keyed on the text's bytes.
@@ -94,8 +103,28 @@ def poll(task_id, timeout=300):
             raise RuntimeError('task %s not done after %ss; rerun to resume it (no new POST)' % (task_id, timeout))
 
 
-def check(texts_path, outdir, names=None, expect=None, show_windows=False, public=False):
+MAX_PARAGRAPHS, MAX_WORDS = 6, 1200
+
+
+def too_big(text):
+    """Why TEXT may not go through the API (E218, E325), or None: more than six paragraphs of eight words or more (a
+    heading or a list number isn't one), or more than 1,200 words."""
+    paras = [p for p in text.split('\n\n') if len(p.split()) >= 8]
+    words = len(text.split())
+    if len(paras) > MAX_PARAGRAPHS or words > MAX_WORDS:
+        return ('%d paragraphs, %d words: more than the API takes (at most %d paragraphs and %d words; Joel, E218: "not '
+                'more than like 5-6 paras at a time in general (not half an  article)"). Check it free in a temporary '
+                'Substack draft and its secret preview link (docs/PANGRAM-PRODUCTION-BUDGET-20261020.md; E325), or give '
+                '--paid-ok with his words allowing this one' % (len(paras), words, MAX_PARAGRAPHS, MAX_WORDS))
+    return None
+
+
+def check(texts_path, outdir, names=None, expect=None, show_windows=False, public=False, paid_ok=None):
     texts = json.loads(pathlib.Path(texts_path).read_text(encoding='utf-8'))
+    big = {n: too_big(texts[n]) for n in (names or list(texts))}
+    big = {n: why for n, why in big.items() if why}
+    if big and not (paid_ok or '').strip():
+        sys.exit('REFUSED, nothing sent:\n' + '\n'.join('  %s: %s' % (n, why) for n, why in big.items()))
     out = pathlib.Path(outdir); cache = out / 'cache'; cache.mkdir(parents=True, exist_ok=True)
     for name in (names or list(texts)):
         text = texts[name]
@@ -154,10 +183,12 @@ def main():
     c.add_argument('--expect', help='stop after a result of another version (it is saved first)')
     c.add_argument('--windows', action='store_true', help="add each result's windows to its printed line")
     c.add_argument('--public', action='store_true', help="ask for a public Pangram page of each new result (its link is printed)")
+    c.add_argument('--paid-ok', help="Joel's words allowing a text bigger than six paragraphs or 1,200 words through the API "
+                   "(E218, E325); without them such a text is refused before anything is sent")
     a = ap.parse_args()
     if a.cmd == 'probe':
         sys.exit(0 if probe() else 1)
-    check(a.texts, a.outdir, a.names.split(',') if a.names else None, a.expect, a.windows, a.public)
+    check(a.texts, a.outdir, a.names.split(',') if a.names else None, a.expect, a.windows, a.public, a.paid_ok)
 
 
 if __name__ == '__main__':

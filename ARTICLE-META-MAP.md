@@ -8,6 +8,7 @@ This is the repository-wide visual index of registered articles, explicit interl
 <!-- article-id: inner-signal -->
 <!-- article-id: nibbana -->
 <!-- article-id: intentional-communities -->
+<!-- article-id: neuro-de-armoring -->
 
 ```mermaid
 flowchart LR
@@ -17,6 +18,7 @@ flowchart LR
     hypnosis["Inner Signal — working hypnosis guide"]
     nibbana["Nibbāna — working canonical authority"]
     communities["Intentional Communities — working source master, humanization candidate"]
+    neuro["Neuro De-Armoring — working source master, humanization started"]
 ```
 
 Romance and Somatic Therapies are registered working articles. No direct cross-article edge between them is currently established. Add relationship edges only when a real and useful editorial relationship is confirmed; do not infer one from generic topic overlap.
@@ -30,3 +32,5 @@ Inner Signal r03 synchronized its companion-method content against Joel's 2026-0
 Nibbāna is registered from Joel's exact 2026-09-28 current Substack editor body at `articles/nibbana/master.html`. Its pre-registration AI/hybrid and humanization lineage remains under `archive/nibbana-pre-registration-2026-08/` as historical provenance only. The current master has mixed authorship provenance by Joel's direct statement; Pangram-passing status is detector evidence, not an authorship classification. No cross-article Mermaid edge is drawn merely because the article links to Inner Child, Community, or other Joel work.
 
 Intentional Communities is registered from the published Substack text at `articles/intentional-communities/original.md`, the way Inner Child Therapy registers its raw source: the humanized candidate (`candidate/HUMANIZED-SO-FAR.md`) is a working artifact until Joel accepts it, and the article runs the same shared humanization rules as the Inner Child lane. Its published text links to the Romance Guide, the Inner Child guide and the somatic article as companion guides; no Mermaid edge is drawn merely because of those links.
+
+Neuro De-Armoring is registered from his post as it stands on 2026-11-02 (`articles/neuro-de-armoring/master.md`, the editor copy of 28 September, which the post matches word for word). It runs the same shared humanization rules, with one rule of its own from his queue: every compound, dose, unit, timing and warning comes out exactly as it went in (`humanize/FIDELITY-KEYS.json`). Its published text links to his inner child, somatic, psychedelic, detox, DMSO, iboga and keto guides; no Mermaid edge is drawn merely because of those links.

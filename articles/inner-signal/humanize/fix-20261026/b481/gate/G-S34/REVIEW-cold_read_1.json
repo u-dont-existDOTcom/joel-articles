@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "18b597d5cd273f1bd12e38606cf7ecf8772a09b5957ce33582fafc3374e925e3",
+  "context_sha256": "da715839396d1c7dcb4ac9aee599e601744af07a38dc9c0953b9e70d53ffddbd",
+  "source_sha256": "9507e40dc72e751d1e0c7a4e2d953b25512ce2afd9d1be7c910b4d186e037ec1",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "b481-gate-cold_read_1-subagent-k",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Read in CONTEXT.txt as a first-time reader: under the heading \"Anxiety script\" and the lead-in \"Here is a little script you could use:\", the paragraph opens \"Let’s see if I can find my body parts.\" and goes on with the four questions (\"What are my feet doing? ... How is my body situated in the room?\"). It reads naturally as the first line of a script the reader says to themself, it follows from a lead-in that promised a script, and it sets up the questions after it, which are how the finding is done. Pronouns: \"Let’s\" is the ordinary self-talk idiom (like \"let's see\"), and \"I\" and \"my\" are the person reciting the script, exactly as in the question it replaces (\"Where are my body parts?\"); the later \"we\" in the third paragraph (me and the part) does not clash, so C02 is absent. The apostrophe is the curly ’, matching \"you’re\", \"didn’t\" and \"I’m\" in the same section (the straight one that failed earlier is gone), and there is no space before the full stop and no \"Lets\" typo. Against SOURCE.txt (\"Where are my body parts?\", the first question of the approved working-copy script): what is asked is the same, finding my own body parts as the first grounding step, and the questions after it are untouched. The form changes from a direct question to a tentative invitation (\"see if I can find\"), which adds a small note of trying but no claim or fact, and the change is exactly what the_change says. No first-person fact about Joel is added (the I is the script's speaker), and no study, person or product (C03 and C04 absent). Tell rows: I went through T01 to T29 and C01 to C04 on the literal sentence and none is actually happening. Rows I looked at closely: T07 (\"Let’s see\" is self-talk, but here self-talk is the content of the script and its first step, not a stage direction between beats); T19 (it is the script's own first step in the speaker's voice, not the author announcing what comes next); T22 (a gentle self-instruction inside a script, with no reassurance for its own sake); T02 (the paragraph is a run of prompts, but that is the approved script's own genre and its questions are unchanged; the draft turns the first of the five into a statement, so it lengthens nothing); T15 (a restructure into a different idiom, not rarer words swapped in); T26 (\"my body\" repeats in the questions as \"my body parts\" did in the source, a repeat that is the script's own and unchanged). Linter findings: (1) B7 short landing at paragraph end: accepted. The linter saw the draft alone; in the article it opens its paragraph and four questions follow, so it lands nothing. (2) D9 follows the source order: accepted. One sentence replacing one question keeps the order trivially. I checked T13 and T09 as the flag asks: there is no argument inside a script's opening line in which to notice things or to equalize weight, and the rest of the paragraph is unchanged.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order"
+  ]
+}

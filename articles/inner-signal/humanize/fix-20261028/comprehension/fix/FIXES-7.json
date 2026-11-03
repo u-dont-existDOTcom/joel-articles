@@ -1,0 +1,17 @@
+{"part": 7,
+ "fixes": [
+  {"p": 398, "findings": ["F7.5"], "replace": "end your work for the day", "with": "end the deeper practice for the day", "how": "published", "note": "makes clear it's the deeper practice that ends, not your job"},
+  {"p": 401, "findings": ["F7.6"], "replace": "some time, etc, and some subsequent humility, feedback, etc, etc.", "with": "some time, and some subsequent humility, feedback, etc.", "how": "rewrite", "note": "clears the stray and doubled 'etc' so the list reads straight; 'it' kept, since per the check the heading makes it the insight"},
+  {"p": 403, "findings": ["F7.7"], "replace": "“What if you didn’t try to improve it?”", "with": "Stop trying to improve the practice.", "how": "rewrite", "note": "restores the firm instruction and names the practice as what to stop improving"},
+  {"p": 413, "findings": ["F7.10"], "replace": "do more of the same.", "with": "do more of the same practice.", "how": "published", "note": "says more of what: the same practice"},
+  {"p": 417, "findings": ["F7.11"], "replace": "do any certain thing", "with": "complete a ritual", "how": "published", "note": "restores 'complete a ritual' in place of the vague 'any certain thing'"},
+  {"p": 422, "findings": ["F7.13"], "replace": "as anything but internal happenings", "with": "as commands or proof. They’re internal happenings", "how": "rewrite", "note": "removes the double negative and restores not taking them as commands or proof"},
+  {"p": 440, "findings": ["F7.20"], "replace": "any potential person", "with": "any potential clinician", "how": "rewrite", "note": "says who you ask: a clinician you might work with"},
+  {"p": 446, "findings": ["F7.21"], "replace": "and the guy", "with": "and the guard", "how": "rewrite", "note": "uses the guide's term for the protective part"},
+  {"p": 446, "findings": ["F7.22"], "replace": "Most of them are actually trying to help you.", "with": "Most of them are actually trying to help you without ever being properly introduced.", "how": "published", "note": "restores that they help without ever being properly introduced"},
+  {"p": 450, "findings": ["F7.23"], "replace": "to learn the language", "with": "developing your own language", "how": "rewrite", "note": "makes the list parallel and restores 'develop your own language' in place of the unclear 'the language'"},
+  {"p": 450, "findings": ["F7.24"], "replace": "it is not required to graduate", "with": "it is not a graduation requirement", "how": "published", "note": "Joel's phrase; makes clear finding someone is optional, not needed to graduate"}
+ ],
+ "not_fixed": [
+  {"finding": "F7.19", "why": "minor: bringing back the resourcing point takes a new sentence of seven or more words"}
+ ]}

@@ -1,0 +1,23 @@
+{
+ "commit": "0fc62a4409bd51d664074b85baa9b5f1621a5b68",
+ "how": "cleared in the editor with a click in its first paragraph, ctrl+a and Delete (0 characters left), then fix-20261022/screen/paste_payload_lane.js (the payload fetched from raw.githubusercontent.com at the commit, its SHA-256 checked); the draft API's saved body holds the new words; the secret link from tools/humanization/substack_secret_link.js's rules; the rendered check is tools/humanization/substack_rendered_check.js's walk in the built-in browser",
+ "draft": 222109105,
+ "title": "TEMP recheck A (hypnosis guide) - do not publish",
+ "link": "https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-29c&audience=only_paid&free_preview=false&freemail=",
+ "payload_sha256": "319a6b7b91ba68786d160a1f30d9972f40d256426e003585e183a81288780ed7",
+ "editor_words": 30152,
+ "payload_words": 30118,
+ "editor_words_note": "+34, as every paste of part A (the editor adds its button and caption lines)",
+ "draft_updated_at": "2026-10-29T20:12:49.957Z",
+ "saved_body_checked": [
+  "T4",
+  "T7",
+  "J5 in; T2's batch 482 words gone"
+ ],
+ "rendered": {
+  "lines": 594,
+  "code_points": 160916,
+  "first_99999_sha256": "4bdca832bbeda42eb266e63d5b13b7b2cc86ad296176cc15db37b29afcca6a83",
+  "equals_TEXT_A": true
+ }
+}

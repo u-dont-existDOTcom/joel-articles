@@ -1,0 +1,74 @@
+{
+ "answers": "ANSWERS-20261102-0029.json",
+ "answers_sha256": "d9ecad915e11c2131d83d2145ba08e163dfe56cfd2a28a22df8974daad24cee8",
+ "master_before_sha256": "f970d7823c14d9808849479e3ceb61e5e45852845e1c5fdaae329fcbc0ff02c0",
+ "working_sha256": "a6d95a913a26553ce080e677ae2faa12d1678379fc34cfb29468e54beb2a6dab",
+ "fates": {
+  "W-1": "approved; in his W-2 version, which has the same change",
+  "W-2": "his version",
+  "W-3": "approved: the card's version went in",
+  "W-4": "approved: the card's version went in",
+  "W-5": "his version",
+  "W-6": "approved; in his W-5 version, which has the same change"
+ },
+ "typography": [
+  {
+   "card": "W-2",
+   "was": "we're doing even less",
+   "now": "we’re doing even less",
+   "why": "the post's curly apostrophe"
+  },
+  {
+   "card": "W-5",
+   "was": "be trusted--even your",
+   "now": "be trusted—even your",
+   "why": "an em dash for \"--\", as the post writes \"Seba—my favorite\""
+  }
+ ],
+ "edits": [
+  {
+   "cards": [
+    "W-1",
+    "W-2"
+   ],
+   "find": "brought outsiders into their communities for a while to learn autonomy by living it",
+   "replace": "had outsiders stay with Zapatista families for a while and learn self-government by taking part in everyday life"
+  },
+  {
+   "cards": [
+    "W-2"
+   ],
+   "find": "Otherwise, we’ve built a lovely refuge for whoever got there first.",
+   "replace": "Otherwise, we might have a lovely refuge for a few lucky souls, but we’re doing even less than a retreat center to heal the planet."
+  },
+  {
+   "cards": [
+    "W-3"
+   ],
+   "find": "I was usually just a visitor’s kid, close enough to see how people lived but never quite part of the tribe.",
+   "replace": "I was usually just a visitor’s kid. I could see how people lived, but I was never really part of the tribe."
+  },
+  {
+   "cards": [
+    "W-4"
+   ],
+   "find": "At the time, that meant a lot of boredom, with some adventures mixed in, but those years gave me a great sample to compare against.",
+   "replace": "At the time it was mostly boring, with some adventures mixed in, but it means I’ve seen a lot of communities to compare against."
+  },
+  {
+   "cards": [
+    "W-5"
+   ],
+   "find": "We evolved to live in small groups where everybody knows everybody.",
+   "replace": "We evolved to live in small groups where everybody knows, loves, and trusts everybody."
+  },
+  {
+   "cards": [
+    "W-5",
+    "W-6"
+   ],
+   "find": "and nobody knows anybody well enough to see what they’re really like.",
+   "replace": "and nobody knows anybody well enough or for long enough to tell who can be trusted—even your next-door neighbor is often a total stranger."
+  }
+ ]
+}

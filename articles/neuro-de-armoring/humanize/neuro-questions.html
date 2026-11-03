@@ -1,0 +1,167 @@
+<title>Neuro De-Armoring Questions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,650&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column; four status colours carry the meaning, everything else stays quiet. */
+:root {
+  --bg: #f5f7fa; --surface: #ffffff; --fg: #1b2130; --muted: #586174; --rule: #dbe0e8; --link: #2a5db0;
+  --q: #6d43c9; --q-soft: #f1ebff; --todo: #b65a06; --todo-soft: #fff1e3; --next: #23649e; --next-soft: #e7f1fb;
+  --done: #2b7a52; --done-soft: #e6f5ec;
+  --display: "Literata", Georgia, "Times New Roman", serif;
+  --body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #12151b; --surface: #191d25; --fg: #e5e8ee; --muted: #9ba4b4; --rule: #2b313c; --link: #8db7f5;
+  --q: #b8a1ff; --q-soft: #251d3d; --todo: #f3a95e; --todo-soft: #33230f; --next: #85b9ef; --next-soft: #15263a;
+  --done: #79d3a0; --done-soft: #142b20; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #12151b; --surface: #191d25; --fg: #e5e8ee; --muted: #9ba4b4; --rule: #2b313c; --link: #8db7f5;
+  --q: #b8a1ff; --q-soft: #251d3d; --todo: #f3a95e; --todo-soft: #33230f; --next: #85b9ef; --next-soft: #15263a;
+  --done: #79d3a0; --done-soft: #142b20; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 1rem; line-height: 1.6;
+  padding-inline: 16px; padding-block: 28px 56px; }
+main { max-width: 46rem; margin-inline: auto; display: grid; gap: 1.75rem; min-width: 0; }
+h1 { font-family: var(--display); font-weight: 650; font-size: clamp(1.6rem, 4vw, 2.1rem); line-height: 1.2;
+  margin: 0; text-wrap: balance; }
+h2 { font-family: var(--display); font-weight: 500; font-size: 1.3rem; margin: 0 0 .5rem; text-wrap: balance;
+  display: flex; align-items: center; gap: .6rem; }
+section { display: grid; gap: .75rem; min-width: 0; }
+.head { display: grid; gap: .6rem; }
+.head p { margin: 0; }
+.meta { color: var(--muted); }
+.legend { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0; padding: 0; list-style: none; }
+.chip { display: inline-flex; align-items: center; gap: .4rem; font-size: .85rem; padding: .15rem .6rem;
+  border-radius: 999px; border: 1px solid var(--rule); background: var(--surface); }
+.dot { inline-size: .7rem; block-size: .7rem; border-radius: 50%; flex: none; display: inline-block;
+  vertical-align: baseline; }
+.dot.q { background: var(--q); } .dot.todo { background: var(--todo); } .dot.next { background: var(--next); }
+.dot.done { background: var(--done); }
+.callout { margin: 0; padding: .55rem .8rem; border-radius: 6px; font-weight: 700; font-size: .95rem; }
+.callout.q { background: var(--q-soft); color: var(--q); } .callout.todo { background: var(--todo-soft); color: var(--todo); }
+.callout.next { background: var(--next-soft); color: var(--next); } .callout.done { background: var(--done-soft); color: var(--done); }
+section.open > p { margin: 0; }
+section.open > p > strong:first-child { font-family: var(--display); font-weight: 650; font-size: 1.1rem; }
+section.open ul { margin: 0; padding-inline-start: 1.3rem; }
+section.open .q-block { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px;
+  padding: .9rem 1rem; display: grid; gap: .55rem; }
+section.open .q-block p { margin: 0; }
+ul.items { list-style: none; margin: 0; padding: 0; display: grid; gap: .55rem; }
+ul.items > li { display: grid; grid-template-columns: .7rem 1fr; gap: .65rem; align-items: start; min-width: 0; }
+ul.items > li > .dot { margin-top: .45rem; }
+ul.items > li > div { min-width: 0; overflow-wrap: anywhere; }
+ul.items > li > div > p { margin: 0 0 .45rem; } ul.items > li > div > p:last-child { margin-bottom: 0; }
+ul.items > li > div ul { margin: .3rem 0 .45rem; padding-inline-start: 1.2rem; display: block; }
+ul.items > li > div li { display: list-item; margin: .2rem 0; }
+.gap { block-size: .4rem; }
+a { color: var(--link); text-underline-offset: 2px; }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; border-radius: 2px; }
+code { font-family: var(--mono); font-size: .86em; background: var(--surface); border: 1px solid var(--rule);
+  border-radius: 4px; padding: .05rem .3rem; overflow-wrap: anywhere; user-select: all; }
+.small { font-size: .85rem; color: var(--muted); }
+.q-block strong .dot { margin-right: .45rem; }
+</style>
+<main>
+<header class="head"><h1>Neuro de-armoring: what I need from Joel</h1><p>Last updated 2026-11-03, after your answers of 17:48 UTC (your three versions).
+<strong>Open questions: 1.</strong> <strong>For you to do</strong>: answer question 2 (below), and merge pull request 281. Colours: 🟣 a question for
+you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.</p>
+<p class="small">The master copy of this page is <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md">this file in Git</a>, so a session in either of your accounts
+can read and update it. Every file it points to is a link.</p>
+</header>
+<section class="open"><h2><span class="dot q"></span>Open questions</h2>
+<div class="q-block"><p><strong><span class="dot q" role="img" aria-label="Question for you"></span>2. How should the warnings and dose paragraphs be done?</strong> Your three versions taught me how you build each kind, and
+it works for the science: the Role-Self part of Psychology is the Software went from 100% AI to
+<a href="https://www.pangram.com/history/45aa2902-d6af-4da9-b689-b9f110895fd7">19.8% AI</a> in two tries. But the warnings and the
+uridine section read 100% AI every way I tried, four ways, even one paragraph at a time
+(<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/r2his/RESULTS-ROUND2.md">every result, with its link</a>).
+There, only your own wording read Human: your agmatine paragraph by itself read
+<a href="https://www.pangram.com/history/0bc718b1-278a-40ce-a7dd-6af7d45268d5">Human Written, 0.3% AI</a>.</p>
+<ul>
+<li>
+<p>a) <strong>You rewrite them, a section at a time</strong> (my recommendation): I put one section's warnings and dose paragraphs on a
+  cards page as stretches to edit, starting with the disclaimers at the top, and meanwhile I do the science your way,
+  checked before it reaches you.</p>
+</li>
+<li>
+<p>b) <strong>Leave the warnings and doses as they are</strong>, and I humanize only the science and the parts around them.</p>
+</li>
+<li>c) <strong>Something else</strong> you'd rather try.</li>
+</ul>
+</div></section>
+<section class="todo"><h2><span class="dot todo"></span>For you to do</h2>
+<ul class="items">
+<li><span class="dot todo" role="img" aria-label="For you to do"></span><div>Answer question 2 above.</div></li>
+<li><span class="dot todo" role="img" aria-label="For you to do"></span><div>Merge <a href="https://github.com/u-dont-existDOTcom/joel-articles/pull/281">pull request 281</a> when you've looked.</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your answers of 2026-11-03 17:48 UTC (your three versions), and what I did</h2>
+<p>Word for word: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/examples/ANSWERS-20261103-1748.json">your answers file</a> (it came with no other text).</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your three versions are in the article</strong>, as you wrote them, with two typos fixed ("inhibiton", "guafacine";
+  <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/examples/APPLIED-X1103.json">what changed</a>). Every dose, compound and warning is still there in your
+  words, and the check now reads your wording as the post's ("3 to 7 days", "Don't", "a physician competent to consider
+  ...").</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your agmatine paragraph, checked by itself</strong>: <a href="https://www.pangram.com/history/0bc718b1-278a-40ce-a7dd-6af7d45268d5">Human Written, 0.3% AI</a>.
+  Its first sentence reads Human (High); "Not recommended for use in pregnancy or breast-feeding." and the sentence after it
+  read Human (Low). The other two you'd already passed, so I didn't check them again.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>What your versions do</strong>, sentence by sentence: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md">this page</a>
+  (lesson E335). You kept the metaphors and even added a label, so neither was the problem. You made each dose an
+  instruction with a verb, gave the number of days a sentence saying what it's for, put lists after their category in
+  brackets, joined the science into one long sentence, and wrote the warnings like a supplement label with your own
+  clauses in it.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Round 2, your way</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/r2his/RESULTS-ROUND2.md">every result</a>): the science got close (19.8% AI,
+  most of it Human); the warnings and doses didn't, which is question 2 (lesson E336).</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your answers of 2026-11-03 (after your message of 15:22 UTC), and what I did</h2>
+<p>Word for word: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/joel-20261103-1522-message.txt">your message</a> and <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/joel-20261103-1522-answers.txt">your two answers</a>.</p>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Question 1: "Freely, in your voice."</strong> I rewrote all ten sections that way (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/r1/CANDIDATE.md">the rewrite</a>):
+  the "The Problem:" and "The Fix:" labels gone, closers folded in, your sentences that read Human in the baseline kept,
+  and every compound, dose, unit, timing and warning held by the check.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>It didn't read Human</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/r1/b/RESULTS.md">every result, with its link</a>). Of 26 stretches checked through
+  the API, 19 read 100% AI. The best was Psychology is the Software, <a href="https://www.pangram.com/history/79d6317d-a6b1-4126-b778-3e4eb7c4889b">12.7% AI</a>, with your own
+  sentences reading Human in it. Stretches that are nearly all your own protocol lines read 100% AI too, so it's the
+  shape (a label, a dose, an instruction, again) more than the wording.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Emulate is retired</strong>, as you said: no new text goes to it, in any article (lesson E333).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><strong>Your three rewrites</strong> came back on 3 November at 17:48 UTC (above).</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-11-02 18:16 UTC, and what I did</h2>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Started, from your post as it stands.</strong> Your post today matches the copy from your queue of 28 September word for
+  word, so the work starts from it (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/IMPORT-RECEIPT-20261102.md">what was compared</a>).</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Every dose, compound, timing and warning is held by a check.</strong> Your queue's rule for this article is that they
+  all come out exactly as they went in. A check now lists them from your post (96 numbers with their units, 133
+  compounds and terms, 87 warning sentences), and no draft goes to Pangram or to you unless it passes.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Where it stands in Pangram</strong> (<a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261102/baseline/RESULTS.md">every result, with its link</a>): the whole
+  article reads <a href="https://www.pangram.com/history/72952f09-0e99-46d6-b89f-5fa574422584">AI Detected, 83.3% AI</a>, and each of
+  the ten sections reads AI by itself. Your introduction reads Human (High), and so does the D-serine paragraph in
+  Part 4; those stay exactly as they are.</p>
+</div></li>
+<li><span class="dot next" role="img" aria-label="Next or in progress"></span><div><p><strong>Next</strong>: your answer to question 1 decides how the sections are rewritten; then each section is checked in
+  Pangram before it reaches you as a card.</p>
+</div></li>
+</ul>
+</section>
+<section class="next"><h2><span class="dot next"></span>Your message of 2026-11-02 19:11 UTC, and what I did</h2>
+<ul class="items">
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>The lightest fix, tried on one section first</strong> (Part 1, C to E): the template labels off, every claim and number
+  kept, the check passing. It went from <a href="https://www.pangram.com/history/9bcacab5-ab61-4786-95d4-c2cff002314e">100% AI</a>
+  to <a href="https://www.pangram.com/history/8a5c6453-c6f1-4ab3-b713-51e54e3550f2">90.6% AI</a>, so the labels aren't the main
+  problem: question 1.</p>
+</div></li>
+<li><span class="dot done" role="img" aria-label="Done or decided"></span><div><p><strong>Your rule about dates</strong>: when your post is updated, its title's "v5.1 (Sept 10, 2026)" gets the new date too.</p>
+</div></li>
+</ul></section>
+</main>

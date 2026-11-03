@@ -1,0 +1,83 @@
+{
+ "feed_uuid": "82470746-1d28-4ddc-ac19-276ca31c19f2",
+ "link": "https://www.pangram.com/feed/82470746-1d28-4ddc-ac19-276ca31c19f2",
+ "created_at": "2026-10-29T15:21:04.725787-04:00",
+ "domain": "substack",
+ "content_type": "long_post",
+ "prediction_short": "Human",
+ "headline": "Mostly Human Written",
+ "version": "4.1",
+ "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+ "readout_policy_id": null,
+ "fraction_ai": 0.039240762591362,
+ "fraction_human": 0.9607592225074768,
+ "fraction_breakdown": {
+  "ai": {
+   "low-confidence": 0.0001539828663226217,
+   "high-confidence": 0.039086781442165375,
+   "medium-confidence": 0
+  },
+  "human": {
+   "low-confidence": 2.1546483708334563e-07,
+   "high-confidence": 0.9607590436935425,
+   "medium-confidence": 0
+  },
+  "ai-assisted": {
+   "lightly": 1.1368164493753603e-20,
+   "moderately": 0
+  }
+ },
+ "document_confidence": {
+  "level": "High",
+  "boundary": null
+ },
+ "verdict_support": {
+  "ai": 0,
+  "human": 1,
+  "mixed": 0,
+  "source": "sentence_dp",
+  "ai_coverage": {
+   "p10": 0,
+   "p50": 0.040289171040058136,
+   "p90": 0.05,
+   "std": 0.00016204990970436484,
+   "mean": 0.04031507670879364,
+   "show_range": false
+  },
+  "ai_threshold": 0.800000011920929,
+  "human_coverage": {
+   "p10": 0.9598895311355591,
+   "p50": 0.9598895311355591,
+   "p90": 0.9598895311355591,
+   "std": 0.00016204990970436484,
+   "mean": 0.9598636031150818
+  },
+  "human_threshold": 0.8999999761581421,
+  "coverage_resolution": 0.0010072293225675821
+ },
+ "ai_distribution": {
+  "title": "AI-generated content appears at the start and end",
+  "description": "AI-generated content is concentrated at the opening and closing, with human-written content in between."
+ },
+ "num_ai_segments": 13,
+ "num_human_segments": 73,
+ "word_count": 11441,
+ "task_id": "8730e4cc-7973-4af0-8a1c-efc8e934b7a8",
+ "text_sha256": "4d80a91c775eb57e48d8882385f03ba60f895ad1a5afc40a389ab21899a2bf30",
+ "text_chars_js": 61555,
+ "compact_sha256": "c252fb33932ede172d78fd5a0e12f4a24b0f7add3ce80857a2c1c1a702e12396",
+ "compact_chars": 5249,
+ "windows_word_sum": 11353,
+ "windows_ai": 13,
+ "windows_human": 74,
+ "labels": [
+  "Human",
+  "AI-Generated"
+ ],
+ "embeds": {
+  "https://ibogaqueen.substack.com/p/shadow-work-and-tripsitting-yourself": [
+   "Quick Triage Web-App Version HERE"
+  ]
+ },
+ "read_at": "2026-10-29T19:26Z"
+}

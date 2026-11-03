@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cm/HG-Forgiveness-without-bypass-665.txt",
+  "input_words": 46,
+  "input_sha256": "b60960468f8d5ef57b7bba5f8262fd14066df71a0309a0c9eb99f8d04eef3f2a",
+  "balance_before": 41664,
+  "started_utc": "2026-10-26T13:00:08Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T13:00:14Z",
+  "response": {
+    "id": "5b88ce7d-cddd-4b1e-92ac-7f41ec64f014",
+    "tool": "humanize",
+    "text": "So what happened? How did it affect me? How do I set boundaries? What made the other person(s) do what they did? What’s theirs and what’s mine? How do I hold them accountable? How do I let it go?\n\nThese are some of the questions that often come up for people when they’ve experienced something painful, something that maybe they feel they need to “get over.” They’re trying to figure out what happened, how it affected them, what to do about it (or with the other person), and how to move forward.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 46
+    },
+    "elapsed": 6
+  },
+  "balance_after": 41526
+}

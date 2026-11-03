@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cm/HG-Why-doing-it-myself-worked-b-65.txt",
+  "input_words": 154,
+  "input_sha256": "68f0d9748da1dc0a9cf98085599130aca97eb2dcb97176fd3ede6cb86b6fad10",
+  "balance_before": 47985,
+  "started_utc": "2026-10-26T12:57:33Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:57:43Z",
+  "response": {
+    "id": "4ed436b8-e0b4-4d8d-9c33-218523578ede",
+    "tool": "humanize",
+    "text": "Self hypnosis is something that I find I can do usefully on my own that I couldn't do, or at least didn't do, very much with a 'pro' hypnotist. One reason was that I was sober when I did that, and wasn't that susceptible to hypnosis. But I think a bigger reason is that\n\nwhen I do it on my own I know when I'm not saying something to my subconscious mind in just quite the right way. And I can talk to my subconscious mind and ask it what it thinks is not quite right about what I just said. Similarly, when I'm working with an image, I can tell the difference between an image that's telling me something useful, and one that's either telling me what I'm afraid of, what I want to avoid, what I want to be true, or something that I just don't know how to understand yet. Similarly, I can tell when my body is telling me no before my conscious mind convinces my body to say yes.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 154
+    },
+    "elapsed": 9
+  },
+  "balance_after": 47523
+}

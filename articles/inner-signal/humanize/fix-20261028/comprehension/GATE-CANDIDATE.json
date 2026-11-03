@@ -1,0 +1,14 @@
+{
+ "about": "The comparison gate on the guide with every fix of the 2026-10-28 page approved (CANDIDATE.md): run it with compare_read.py gate --config this file. lane_push.py runs only COMPARE-GATE.json files, so this one is checked by hand.",
+ "article": "articles/inner-signal/humanize/fix-20261028/comprehension/CANDIDATE.md",
+ "original": "articles/inner-signal/humanize/source/published-20260928.md",
+ "records": [
+  "articles/inner-signal/humanize/fix-2026*/comprehension/READ-RECORD.json",
+  "articles/inner-signal/humanize/fix-2026*/comprehension/verify/READ-RECORD.json"
+ ],
+ "owner": [
+  "articles/inner-signal/humanize/fix-2026*/joel-*-message.txt",
+  "articles/inner-signal/humanize/fix-2026*/**/ANSWERS-*.json",
+  "articles/inner-signal/humanize/fix-2026*/EDITS-joel-*.json"
+ ]
+}

@@ -18,6 +18,146 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-11-03, after Joel's answers of 17:48 UTC (his three neuro de-armoring examples)**: nothing changed in this lane. Two lessons from them apply here too: E335 (his rewrites changed how each sentence is built, not the labels or the metaphors; tells_lint.py O61 fails a dose said as a label and its spec) and E336 (where my rewording of dense warnings kept reading AI, only his own wording read Human, so such stretches go to him as stretches to edit). The fidelity check now reads his recorded wording as the post's ("owner_wording") and "Don't" as "Do not".
+- **2026-11-03, after Joel's message of 15:22 UTC ("no need to recheck i'm sure it's fine, move onto the next article")**: no fifth free check; the guide is done and in his post (d67ef820). The work moved to the neuro de-armoring lane. Emulate is retired in every lane (gate E333).
+- **2026-11-03, after Joel's message of 14:52 UTC (his answers to question 34, and "make sure this closer reading is
+  also part of the general joel-articles skill"): his answers in the guide and his post; the closer reading is in
+  SKILL.md with its tool.** The guide is HUMANIZED-SO-FAR.md d67ef820 (762 blocks), live in post 202810155
+  (`fix-20261103/live-q34/LIVE-CHECK-20261103b.json` PASS). The read: `tools/humanization/sense_read.py` and SKILL.md's
+  "Word-for-sense read before publication". Nothing waits on him but the merge. See the Next step.
+- **2026-11-03, after Joel's message of 13:46 UTC ("33a", his E-523, and "oily" for "old"): the guide is in his post;
+  the guide read word by word for sense; question 34.** The guide is HUMANIZED-SO-FAR.md 010b9fc3 (762 blocks), and his
+  post 202810155 has it (`fix-20261103/live/LIVE-CHECK-20261103.json` PASS; subtitle "Last update: Nov 3, 2026,
+  v. 7.0"). The read's findings are in `fix-20261103/nonsense/FINDINGS.md`; lessons E331 and E332. See the Next step.
+- **2026-11-03, after Joel's message of 12:18 UTC (the fourth free check's result pages and his E-157): both halves
+  Human Written with no AI window; three of our four fixes in, his E-157 in; question 33 asks whether the guide goes into
+  his post now.** The guide is HUMANIZED-SO-FAR.md 94ffd381 (762 blocks); Pattern 10 is the one card on
+  [Hypnosis Guide Cards, 3 November (2)](https://claude.ai/artifact/WVc1QzNAzwSN7feajnaiNP). See the Next step.
+- **2026-11-03, after Joel's message of 11:19 UTC ("31a 32a" and the third free check's result pages): the guide reads
+  Human Written in both halves with no AI window; 31a and 32a in; our fixes of the four Human (Low) windows in the fourth
+  free check; one card.** The guide is HUMANIZED-SO-FAR.md e4c620ed (762 blocks); batch l1103 is in
+  `fix-20261103/free-whole-2/CANDIDATE-MASTER.md` only; his card is on
+  [Hypnosis Guide Cards, 3 November](https://claude.ai/artifact/C6K7XyKLdYGBD2nx3MBe9S). See the Next step.
+- **2026-11-03, after Joel's answers of 00:39 UTC (Hypnosis Guide Cards, 2 November (3)): his answers in, the whole
+  guide read for overcompletion and 70 repeats cut, the third free check pasted.** His E-61: "cut all this. you didn't
+  notice the massive overcompletion here? prob this whole guide is full of it then." The guide is HUMANIZED-SO-FAR.md
+  7e77327d (762 blocks; `fix-20261103/answers-f1102/`, `fix-20261103/overcompletion/` with CUTS.md). Lessons E328 to E330.
+  The free check's links are in `fix-20261103/free-whole/RECHECK-POST-A.json` and `-B.json`; questions 31 and 32 wait on
+  him. See the Next step.
+- **2026-11-02, after Joel's message of 23:07 UTC (the second free check's result pages): read; part B has no AI window,
+  part A three (Low); the cards page for what's left is published.** `fix-20261102/free-whole-2/read/WINDOWS.md`;
+  [Hypnosis Guide Cards, 2 November (3)](https://claude.ai/artifact/TAgS2uaHjmyZTHx4ZuW4Bx) (`fix-20261102/f1102/REVIEW-F1102.*`; its gate in `fix-20261102/f1102/gate/`).
+  See the Next step.
+- **2026-11-02, after Joel's messages of 21:57 UTC (his free check's two result pages, "30a") and 21:59 UTC ("i logged
+  into the other pangram account if you want to read that history"): the check read, 30a in, batch f1102's fixes in,
+  the second free check pasted, his second account read.** Part A 0.73% AI and part B 0.26% AI
+  (`fix-20261102/free-whole/read/WINDOWS.md`). The guide is HUMANIZED-SO-FAR.md 66eb95e7 (six fixes of ours, each Human in
+  its stretch; `fix-20261102/f1102/`). The second free check's links are in `fix-20261102/free-whole-2/RECHECK-POST-A.json`
+  and `-B.json`. Lessons E326 and E327 (`fix-20261102/joel-pangram/history2/`). See the Next step.
+- **2026-11-02, after Joel's message of 20:38 UTC ("how are you cehcking the whole guide? that should be done the free
+  way to not waste my pangram credits. which you said requires my help. why did you forget this?"): the whole guide's free
+  check is pasted, and the API refuses halves.** On 2 November the lanes had sent 63 checks through the API (about 91,000
+  words; five halves or whole articles, 29 sections over his six paragraphs); E325 and the guards in `pangram_api.py` and
+  `pangram_ledger.py` stop that now, and the laptop's copy is guarded. His answers are in (guide 28c84e9e); question 30 is
+  his "50%". The whole guide is in the lane's two temporary drafts with their secret links, which he opens with his Pangram
+  extension (`fix-20261102/free-whole/`). See the Next step.
+- **2026-11-02, after Joel's message of 19:11 UTC ("29a yes you can always update that date when updating a post of
+  course, but you're saying we still ahve to fix some stretches", and "28a"): the dates updated; the windows round, part
+  one.** His subtitle says "Last update: Nov 2, 2026, v. 7.0" and the community post's title "Updated: Nov 2 2026" (E323:
+  the date changes with every update). 28a: a section takes one more check after a fix (`pangram_ledger.py --after-fix`).
+  The w1102 windows (`fix-20261102/whole/WINDOWS.md`) fixed and checked (`fix-20261102/w1102fix/`, batch w1102f): five
+  fixes of ours in (guide 45830360), seven reverted because their sections read worse (E324), two cards on
+  [Hypnosis Guide Cards, 2 November (2)](https://claude.ai/artifact/DsWJ3E4voqJPNZscZXGMHG). See the Next step.
+- **2026-11-02, after Joel's message of 18:16 UTC ("so are we done now can you update the hypnosis article?
+  hypnosis.u-dont-exist.com then we can start on the next one we had queued"): the guide is live in his post.** His
+  three cards in (`fix-20261102/apply_answers_r1102.py`; guide a789009c, 772 blocks); the whole guide checked in two
+  halves (`fix-20261102/whole/`: 1.4% and 0.4% AI, 12 AI and 20 Human (Low) windows in context); the guide put into his
+  post through its editor and read back from the public post word for word (`fix-20261102/live/`, LIVE-CHECK-20261102.json;
+  how, and the paste slip not to repeat, in STATUS.md). His Pangram history read (`fix-20261102/joel-pangram/history/`):
+  lessons E321 and E322, tells_lint.py's O53 to O58. Questions 28 and 29 (the subtitle) wait on him. The next article in
+  his queue, neuro de-armoring, has its own lane and handoff (`articles/neuro-de-armoring/`). See the Next step.
+- **2026-11-02, after Joel's answers of 16:43 UTC (both cards pages, no text; `fix-20261102/`): his answers are in, every
+  changed section checked by itself, and three tested cards are on [Hypnosis Guide Cards, 2 November](https://claude.ai/artifact/AzBJ2kkPievVk18n4x6Tmv).**
+  His 16 versions and 8 approved cards in (`apply_answers_s1101.py`, APPLIED-S1101.json, every fate and the ten typos;
+  his Pangram texts where his note pointed to them: `joel-pangram/texts-raw.json`, `EDITS-joel-20261102-pangram.json`);
+  22 checks through the API with public links (`recheck/`, batch r1102: 19 Human Written); the fixes tried in rounds
+  2 to 5 (`recheck/round2/`, batch r1102b); our one fix in (`fixes/`); his 53 tries read in order
+  (`joel-pangram/SEQUENCES.md`); the repeats read (`redundancy/REPEATS.md`). New rules: every card links what Pangram
+  read and its own check of the suggestion (`suggestion_review.py` 1.5 refuses one without), lessons E315 to E320, and
+  tells_lint.py's O49 to O52. See the Next step.
+- **2026-11-01, after Joel's message of 22:27 UTC ("Continue my hypnosis guide work ... carry on from its next step"):
+  batch s1101's windows are all fixed or carded.** Our words fixed (rounds 2 and 3, `fix-20261101/sections/fixes_round2.py`,
+  `fixes_round3.py`); his words on [Hypnosis Guide Cards, 1 November (2)](https://claude.ai/artifact/V3ZgooEhJAr2ApQdsjF3Hu)
+  (`fix-20261101/sections/review/`, REVIEW-S1101.md the cards as text): 14 cards on his paragraphs, 7 on his inner child
+  guide's lines (round 1's fix of two of them undone, card G-23; lesson E314), and 4 stretches of ours that read AI in
+  three tries (E-107, E-315, E-368, E-406, "edit" cards). The eleven sections with nothing on his page had their second
+  and last section check (`recheck/`: six Human Written) and round 3's paragraphs their first paragraph check
+  (`recheck/para/`: four more Human). See the Next step.
+- **The mailbox, every turn** (AGENTS.md, "Suggested fixes from other projects"; gate E313): before other work, the lane
+  in universal-dev-architecture (`suggested-fixes/joel-articles/`), new issues, pull requests, comments and reviews here
+  (`gh api` REST; GraphQL is blocked), edits others made to this note or `OWNER-QUESTIONS.md`, and the runtime's queued
+  messages; record it with `python3 tools/humanization/lane_mailbox.py record --turn "<first clock reading>" ...`
+  (`state/MAILBOX.json`). `lane_push.py` refuses to push without `--mailbox "<first clock reading>"`.
+- **2026-11-01, batch s1101: every section checked by itself (E307): 83 of 103 Human, 20 not;** CONFIDENCE.md lists
+  the 91 windows to fix (E306), ten fixed so far (the Next step).
+- **2026-11-01 20:29 UTC: the second full read and the contradiction read are in, and his four cards are approved.**
+  The lead model read the whole guide again beside his published version (`fix-20261101/fullread2/`: 216 findings, 205
+  fixed in our words, his own words to his page or fixed as listed punctuation and slips), listed the guide's claims and
+  read them against each other (CONTRADICTIONS.md: eight fixed, one his), and taught the two-hand practice once (S-636).
+  His answers to [Hypnosis Guide Cards, 1 November](https://claude.ai/artifact/C66yqEFThWQcAFtdAdLEpH) approved all four
+  (`fix-20261101/fr2-answers/`). Whose words a fix touches goes by paragraph: run `compare_read.py collect` against the
+  guide as read, and every finding it marks "owner_words" is a card or a listed slip (E312; E311 fixed the gate's corpus).
+- **2026-11-01 18:57 UTC: his answers are in, and his question 28 is "ii" with a sharper rule (E306).** Fix every window
+  that reads AI or Human (Low), without checking it again first; list the small Human (Medium) ones; read below-High
+  windows' meaning again ("often smoothed over and vague"), without confabulating to reach High. Check each section by
+  itself, not only the whole guide (E307: a whole-guide check hid sections that read Mixed alone). Read the whole guide
+  again for Emulate's shouting beside the AI guide (E309) and for contradictions (E310).
+- **2026-10-30 21:40 UTC: a window's reading moves between checks with nothing changed (E304).** In the second recheck
+  of the day every take-back and four of six new tries read Human, yet the AI windows went from 8 to 15 (part A) and 6
+  to 11 (part B): words nobody changed read differently (6 of 87 unchanged High windows came back AI; both unchanged AI
+  windows came back High). Judge a try by its own window; act on a stretch that reads AI in two checks in a row. His
+  question 28 decides how the guide is called done.
+- **2026-10-30 20:15 UTC: restored points read AI; tries follow his versions' shape.** The recheck after the full read
+  went from 23 AI windows to 8 (part A) and 12 to 6 (part B), and 36 of the 37 paragraphs of his own versions read Human
+  in place. Most of the red was on points the full read brought back, and it spread to words nobody changed (E302): one
+  of them he had cut himself on 25 October (RP-1.4), two an earlier read had found said already, so before restoring a
+  point, read every change to its paragraph and the earlier verdicts (E301; `compare_read.py collect` now lists the
+  changes). New tries change what a paragraph does, the way his do (E303: cut the hedge, say what an abstract word means,
+  give an example, say what a step is for), never just move its words around.
+- **2026-10-30: the read beside his text is the lead model's own (E294), and it caught 122 problems.** After his
+  answers of 14:35 UTC ("is it because you are using dumb readers? not reading it yourself?", "looks like you need to
+  read everything again yourself (not sonnet)", "we should be ADDING clarity, not losing it"), the lead model read the
+  whole guide beside his published version (`fix-20261030/fullread/`), fixed 109 problems in our words, and put 5 on his
+  page. Before fixing a finding, check how its words came in (E298: a point he approved taking out stays out) and whose
+  they are (E299: words he only passed through, as in his quote-mark card EM-Q1, are ours to fix). A restored point
+  comes back without his named tells (E300). Never hand this read to a cheaper model.
+- **2026-10-29 22:23 UTC: Joel rewrites the residue himself, and we learn from his versions.** After batch 483 (the
+  writers with the shape rules from Emulate's fixes: 2 of 11 Human), he wrote: "ok give me the cards i'll fix everything
+  and then you can learn". His cards page is
+  [Hypnosis Guide Cards](https://claude.ai/artifact/SxZ3CYESSGw1KWJp46mRAG) (`fix-20261029/b483/review/`). When his answers
+  come, each of his versions is read beside his published version, rechecked in place, and then set beside both writers'
+  tries, so the next lessons say what his versions do that theirs didn't.
+- **2026-10-29 19:22 UTC: learn before asking to buy (E293).** Joel had asked at 18:55 whether Emulate ($15 a month for
+  50k words) was worth re-upping and whether we had learned its lessons; I put the purchase to him as question 26, and he
+  answered: "not sure why you are asking before even checking if you can learn the lessons". 26 is withdrawn. The
+  lessons were never mined (`docs/EMULATE-FALLBACK.md` section 5's cases folder doesn't exist); the study of the lane's own
+  Emulate batches is `fix-20261029/emulate-lessons/` (PAIRS.json, LESSONS.md). Batch 482's recheck was the test of the
+  writers without Emulate: 11 of 21 read Human, 10 still AI, 5 of them worse, and red spread onto 14 windows next to the
+  rewrites (`fix-20261029/b482/recheck/read/SPOTS.md`). The next round's writers get the study's shape rules first.
+- **2026-10-29: clarity is never traded for a Pangram reading.** Joel, 17:21 UTC, on question 25: "we never publish
+  nonsense because it passes pangram. we come back and we try again if clarity loses on pangram." A clear version that
+  reads AI or below High stays in, and the next try has to be both clear and Human, read beside his text first; the
+  unclear version is never the fallback or the alternative offered to him (E291). New words of mine that he accepts
+  wholesale ("take the advice given") are still read beside his text before they stay (E292).
+- **2026-10-28: comprehension comes first, and the comparison gate enforces it.** Joel, 15:20 UTC: "the guide itself is
+  now too incomprehensible, we went wrong somewhere"; 16:05 UTC: "let's repair the process durably so that can't happen
+  again also". Every paragraph of `HUMANIZED-SO-FAR.md` must be his as published, his own words, or read beside his text
+  by a comparative read at its present words (`tools/humanization/compare_read.py`), and every finding a reader rated 2
+  or 3 needs a fate with a reason: `COMPARE-GATE.json` in this folder, which `lane_push.py` runs before every push and
+  which stops it (`--unread-ok "why"` only with the reason in the commit). New words of any kind (an Emulate re-run, a
+  reader's edit, a writer's fix) are read beside his text before they become a card (E288), and a garbled or unclear
+  sentence is fixed or goes to him, never let stand for a Pangram reading (E285; `tools/triage_apply.py` refuses it).
+  The audit that started it: `fix-20261028/comprehension/AUDIT.md`. Lessons E284 to E290.
 - **2026-10-22: the Inner Child lane's note (`NOTE-FROM-INNER-CHILD-LANE-20261022.md`) is handled.** Part 1: the
   drafts are renamed without "Pangram" ("TEMP recheck A (hypnosis guide) - do not publish", "TEMP recheck B (hypnosis
   guide appendices) - do not publish"; the screening post is "TEMP screen (hypnosis guide samples) - do not publish"),
@@ -111,20 +251,14 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide, two things, side by side:
-- **Question 21, the marking page** (https://claude.ai/artifact/TpZbfBZcwuj8PL7KFLhmjP; its file in Git is
-  `fix-20261026/review/REVIEW-480.json` and `.html`): ten cards, Emulate's versions of stretches that read AI, each through
-  the owner-delivery gate. Six read Human in place in batch 479's recheck; four are batch 480's, Human alone.
-- **The recheck with batch 480's candidates in**, two secret draft links for his Brave (the Pangram extension; he copies
-  each result's link with "Copy shareable link to result"):
-  - part A, the main guide to its first 99,999 characters: https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-26b&audience=only_paid&free_preview=false&freemail=
-  - part B, from Closing to the end of the appendices: https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-26b&audience=only_paid&free_preview=false&freemail=
+The guide: nothing (no open questions); pull request 277 to merge. Earlier: his answers to question 34 (2026-11-03
+14:52 UTC) are in the guide and his post.
 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
 
-Pull request 253 was merged at 2026-10-26 00:54 UTC; this turn's work is pull request 254
-(https://github.com/u-dont-existDOTcom/joel-articles/pull/254). The community lane's own state is in its handoff.
+Pull requests 254 and 256 were merged on 2026-10-26; the work since is in the pull request the newest "Next step" names.
+The community lane's own state is in its handoff.
 
 ## Where it stands
 
@@ -205,7 +339,591 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-10-26, after Joel's message of 00:54 UTC: batch 479's recheck read; question 21 and batch 480's recheck wait on him)
+## Next step (2026-11-03, after Joel's message of 14:52 UTC: his answers in the guide and his post; nothing waits on him)
+
+Done (STATUS.md's entry for 2026-11-03 14:52 has every file and number). The guide: HUMANIZED-SO-FAR.md d67ef820 (762
+blocks), live in his post 202810155 with the subtitle "Last update: Nov 3, 2026, v. 7.0".
+
+Next:
+1. **Nothing open on the guide.** If he sends more changes: put them in with a script that records each, then his post
+   as `fix-20261103/live-q34/` did (`../live/make_update.py --old` the archival HTML last put in, that is
+   `fix-20261103/live-q34/ARCHIVAL-20261103b.html`; push the plan; update.js and dispatch.js; the subtitle's date when the
+   day has changed; Update and "Update now"; the read-back until it has the new text, E332). The changes since the fourth
+   free check (his E-157, E-523 and question 34 answers, "old", our six slip fixes) haven't been through Pangram in the
+   whole guide; he said no fifth check is needed (2026-11-03 15:22 UTC: "no need to recheck i'm sure it's fine").
+2. **The next article in his queue**: neuro de-armoring, whose question 1 waits on him (its own lane). Before it goes
+   into his post: SKILL.md's "Word-for-sense read before publication" with `tools/humanization/sense_read.py`.
+
+## Earlier next step (2026-11-03, after Joel's message of 13:46 UTC: the guide in his post; question 34 waits on him)
+
+Done (STATUS.md's entry for 2026-11-03 13:46 has every file and number). The guide: HUMANIZED-SO-FAR.md 010b9fc3 (762
+blocks), live in his post (post 202810155, behind hypnosis.u-dont-exist.com).
+
+Next:
+1. **Question 34** (OWNER-QUESTIONS.md). With a): 34.3 and 34.5 as the question shows them, with a script that records
+   his answer (as `fix-20261103/c1103b/apply_answers_c1103b.py` does), then read in place and the comparison gate. With
+   c): his words as he wrote them, obvious typos only. With b): nothing to change.
+2. **Then his post again**, if anything changed: as `fix-20261103/live/` did it (record_live.py has every step).
+   make_update.py with OLD set to the archival HTML last put in (`fix-20261103/live/ARCHIVAL-20261103.html`) and
+   TOP_IMAGE as before; push the plan, fetch it in the editor's tab by its SHA-256, update.js (it must report ok, no
+   node different from the last blocks), dispatch.js, the subtitle's date, Update and "Update now"; then read the public
+   post back from the laptop until it has the new subtitle (it lags a few minutes, E332) and run a record_live.py for
+   the day. Before any guide or article goes into a post: the word-for-sense read with planted errors (E331).
+3. **Then the next article in his queue**: neuro de-armoring, whose question 1 waits on him (its own lane).
+
+## Earlier next step (2026-11-03, after Joel's message of 12:18 UTC: question 33 and one card wait on him)
+
+Done (STATUS.md's entry for 2026-11-03 12:18 has every file and number). The guide: HUMANIZED-SO-FAR.md 94ffd381 (762
+blocks); his post still has a789009c's words.
+
+Next:
+0. **His card E-523** (`fix-20261103/c1103b/REVIEW-C1103B.json`): his answer in with a script that records it, as
+   `fix-20261103/c1103/apply_answers_c1103.py` did (his version as he wrote it, obvious typos only).
+1. **Question 33.** With a): put the guide into his post (post 202810155, the post behind hypnosis.u-dont-exist.com)
+   exactly as on 2 November (`fix-20261102/live/`, STATUS.md's entry for 2026-11-02 18:16): substack_merge.py into the
+   post's editor copy, the editor's own schema and one transaction (never paste into a live post's editor), Update, then
+   "Update now"; the subtitle's "Last update" to the day (E323); read the public post back word for word
+   (`record_live.py`). With b): a fifth free check first, as `fix-20261103/free-whole-2/` did (new DATE and cache keys).
+2. **Then the next article in his queue**: neuro de-armoring, whose question 1 waits on him (its own lane).
+
+## Earlier next step (2026-11-03, after Joel's message of 11:19 UTC: the fourth free check pasted; his card waits)
+
+Done (STATUS.md's entry for 2026-11-03 11:19 has every file and number). The guide: HUMANIZED-SO-FAR.md e4c620ed (762
+blocks); his post still has a789009c's words.
+
+Next:
+0. **His two result pages** for the links in `fix-20261103/free-whole-2/RECHECK-POST-A.json` and `-B.json`: read each
+   with `tools/humanization/pangram_feed_read.js` in compact mode, as `fix-20261103/free-whole/read/` did (copy its
+   make_results.py and read_free1103.py; read_free1103.py takes the candidate as CANDIDATE-MASTER.md), and record them
+   against HG-whole#275 and HG-rest-B#276 (part B's text is RENDERED-B.txt; give the result the prediction's sha, TEXT-B's).
+1. **Batch l1103 into the guide**: each fix whose window reads High or Medium now, with a script that records it and a read
+   record (as `fix-20261103/answers-q31-32/apply_q31_q32.py`); a fix that reads worse stays out (E324) and its stretch gets
+   a second try, overcompletion first (E328).
+2. **His card E-157** on Hypnosis Guide Cards, 3 November (`fix-20261103/c1103/REVIEW-C1103.json`): his answer in, as he
+   wrote it.
+3. **Then his post**, the same way as on 2 November (`fix-20261102/live/`), with the date in the subtitle (E323): the
+   guide has had his answers, the 70 overcompletion cuts and the fixes since a789009c. C-672 (his forgiveness quote) read
+   High in the third free check (no window below High in Forgiveness without bypass), so it waits on nothing.
+
+## Earlier next step (2026-11-03, after Joel's answers of 00:39 UTC: his answers in, the overcompletion cut, the third free check pasted)
+
+Done (STATUS.md's entry for 2026-11-03 00:39 has every file and number). The guide: HUMANIZED-SO-FAR.md 7e77327d (762
+blocks); his post still has a789009c's words.
+
+Next:
+0. **His two result pages** for the links in `fix-20261103/free-whole/RECHECK-POST-A.json` and `-B.json`: read each with
+   `tools/humanization/pangram_feed_read.js` in the app's browser (compact mode), record them against HG-whole#273 and
+   HG-rest-B#274 (part B's text is RENDERED-B.txt), and list every AI and below-High window by whose words (copy
+   `fix-20261102/free-whole-2/read/` and point it at the new folder; the block numbers moved with the cuts).
+1. **Each window to fix: overcompletion first (E328).** Read the flagged stretch against the paragraphs before it, and cut
+   what is explained again before any rewording; then E321's order. Ours: fix and check its stretch (at most six
+   paragraphs through the API, E325). His: a card.
+2. **Questions 31 and 32** (`OWNER-QUESTIONS.md`): put his answers in with a script that records them (31: E-119's "and
+   you breathe out"; 32: the four lines of his own in `fix-20261103/overcompletion/DECISIONS.json`, decision "ask").
+3. **C-672's next try** (his forgiveness quote), as the earlier next steps say.
+4. **Then his post**, the same way as on 2 November (`fix-20261102/live/`), with the date in the subtitle (E323).
+
+## Earlier next step (2026-11-02, after Joel's message of 23:07 UTC: the second free check read; his cards page waits on him)
+
+Done (STATUS.md's entry for 23:07). The guide: HUMANIZED-SO-FAR.md 66eb95e7; his post still has a789009c's words.
+
+Next:
+0. **His answers to [Hypnosis Guide Cards, 2 November (3)](https://claude.ai/artifact/TAgS2uaHjmyZTHx4ZuW4Bx)** (`fix-20261102/f1102/REVIEW-F1102.json`): put them
+   in with a script that records each card's fate (`fix-20261102/answers-w1102/apply_answers_w1102.py` is the model), then
+   the comparison gate. His own versions of an edit card go in as he wrote them (typos only fixed).
+1. **The third free check** of the whole guide with his answers in: `fix-20261102/free-whole-2/make_recheck.py` with a new
+   DATE, the two drafts cleared through the editor's API, pasted, read back, new cache keys; predictions first.
+2. **C-672's next try** (his forgiveness quote), as the earlier next steps say; and the Human (Low) windows left in our
+   words (Pattern 9 into Pattern 10, `fix-20261102/free-whole-2/read/WINDOWS.md`) once his answers are in.
+3. **Then his post**, the same way as on 2 November (`fix-20261102/live/`), with the date in the subtitle (E323).
+
+## Earlier next step (2026-11-02, after Joel's messages of 21:57 and 21:59 UTC: the second free check pasted; its results wait on him)
+
+Done (STATUS.md's entry for 21:57 has every file and number). The guide: HUMANIZED-SO-FAR.md 66eb95e7 (772 blocks); his
+post still has a789009c's words.
+
+How checks run: as the earlier next step says (E325): the API only within six paragraphs and 1,200 words; halves and
+whole articles through the two temporary drafts and his extension.
+
+Next:
+0. **His two result pages** for the links in `fix-20261102/free-whole-2/RECHECK-POST-A.json` and `-B.json`: read them as
+   `fix-20261102/free-whole/read/` did (pangram_feed_read.js compact in the app's browser; WINDOWS-A/B.txt and META-A/B.json,
+   each checked against the page's SHA-256; a make_results.py with part B's text RENDERED-B.txt; a read_free1102.py for the
+   windows and whose words), and score HG-whole#271 and HG-rest-B#272.
+1. **His cards page**, with both whole checks' readings on each card: C-92 (his rent line, the c1102-92b wording: "It’s
+   still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in
+   balance.") and C-480 (his Core prompts line joined) through the owner-delivery gate first (three fresh reviewers, as in
+   `fix-20261102/w1102fix/gate/`); his Troubleshooting seam (blocks 380 to 382) and the two stretches of ours that didn't
+   clear (the end of The two-hand practice, blocks 118 and 119; the sources line, block 762) as stretches to edit. Any
+   new window below High in the second check joins them, fixed first where it is ours.
+2. **C-672's next try** (his forgiveness quote): keep his "I'm", "our whole life", "forever" and "But", break only the
+   matched "not going to ... not going to" frame; its stretch through the API, then the gate, then a card.
+3. **Then his post**, the same way as on 2 November (`fix-20261102/live/`), with the date in the subtitle (E323).
+
+## Earlier next step (2026-11-02, after Joel's message of 20:38 UTC: the whole guide's free check pasted; its results wait on him)
+
+Done (STATUS.md's entry for 20:38 has every file and number). The guide: HUMANIZED-SO-FAR.md 28c84e9e (772 blocks), his
+answers to the cards of 2 November (2) in; his post still has a789009c's words.
+
+**How checks run now (E325, his rule since 2026-10-23, E218):** the API (`pangram_api.py check` on the laptop, with
+`--public`) only for a paragraph or a section of at most six paragraphs and 1,200 words; the tool refuses more before
+sending anything, unless `--paid-ok` carries his words for that one. A half, a whole article, or many paragraphs at once
+(E200) go free: the lane's temporary Substack drafts (A 222109105, B 221412532; never published; cleared through the
+editor's API, `editor.commands.clearContent`, never ctrl+a and Delete), pasted with `fix-20261022/screen/paste_payload_lane.js`,
+their secret links made with `tools/humanization/substack_secret_link.js` and checked with `substack_rendered_check.js`; he
+opens the links in his browser with the Pangram extension and sends the result pages.
+
+Next:
+0. **His two result pages** for the links in `fix-20261102/free-whole/RECHECK-POST-A.json` and `-B.json` (on
+   `OWNER-QUESTIONS.md` under For you to do). Read each with `tools/humanization/pangram_feed_read.js` in the app's
+   browser (the `https://www.pangram.com/feed/<uuid>` pages), record the results against HG-whole#258 and HG-rest-B#259
+   (part B's text is RENDERED-B.txt), and list every AI and below-High window with `window_confidence.py`, by whose words.
+1. **Question 30** (his "only like 50% of people are very suggestible"): with a), change "50%" to "15%" in block 380, the
+   rest as he wrote it.
+2. **Then the stretches still flagged** in that check, one fix at a time, as the earlier next step's item 1 says (E324:
+   revert at once what makes its section worse); section checks through the API within six paragraphs, each with its
+   prediction first.
+3. **C-672's next try** (his forgiveness quote): keep his "I'm", "our whole life", "forever" and "But", break only the
+   matched "not going to ... not going to" frame; its section through the API, then the owner-delivery gate, then a card.
+4. **Then his post**, the same way as on 2 November (`fix-20261102/live/`), with the date in the subtitle (E323).
+
+## Earlier next step (2026-11-02, after Joel's message of 19:11 UTC: the dates updated; the windows round, part one)
+
+Done (STATUS.md's entry for 19:11 has every file and number). The guide: HUMANIZED-SO-FAR.md 45830360 (772 blocks); his
+post still has a789009c's words (the guide's changes since then are ours and wait for the next update of his post).
+
+Next:
+0. **His answers to [Hypnosis Guide Cards, 2 November (2)](https://claude.ai/artifact/DsWJ3E4voqJPNZscZXGMHG)** (C-141, C-384): put them in with a script
+   that records each card's fate (`fix-20261102/apply_answers_r1102.py` is the model; the edits are in
+   `fix-20261102/w1102fix/REVIEW-W1102.json`), then the comparison gate. C-672 (his forgiveness quote) failed the
+   owner-delivery gate's preservation review (`w1102fix/gate/GATE.md`): its next try keeps his "I'm", "our whole life",
+   "forever" and "But", breaks only the matched "not going to ... not going to" frame, and goes through Pangram (its
+   section and the whole) and the gate again.
+1. **The stretches still flagged** (APPLIED-W1102F.json's fates; E304: act on what reads AI in two whole checks): the
+   introduction's list of minds (block 11) and prompt engineering sentence (16), the line after his teleprompter sentence
+   (20), the end of If you sense you are being influenced (216; F-216 read Human in its section and its seatbelt line
+   AI (High) in the whole), the last line of Before you begin (251), the sober induction's directions (253), Pattern 10's
+   opening (527, 528) and the end of Inner child love (626). Each one fix at a time, its lineage's next try, and E324:
+   revert at once what makes its section worse; a run of short sentences of one shape is a list; a joke-shaped closer is
+   a closer. The section lineages HG1101-NN take more checks after a fix (28a, `--after-fix`).
+2. **The whole guide again** when those are done: the halves' lineages HG1102-whole-A and -B have used both tries, so cut
+   it differently (thirds, a new lineage each) or check it on a Substack draft (E277).
+3. **Then his post**, the same way as on 2 November (`fix-20261102/live/`), with the date in the subtitle (E323).
+
+## Earlier next step (2026-11-02, after Joel's message of 18:16 UTC: his cards in, the whole guide checked, the guide live in his post)
+
+Done (STATUS.md's entry for 2026-11-02 18:16 has every file and number). The guide: HUMANIZED-SO-FAR.md a789009c (772
+blocks), and the same words in his post (post 202810155, https://ibogaqueen.substack.com/p/guide-to-self-hypnosis-and-app-including).
+
+Next:
+0. **The w1102 windows** (`fix-20261102/whole/RESULTS.md`; E306: fix every AI and Human (Low) window): sort each by
+   whose words it is (his published version, his inner child guide, his answers and Pangram texts, or ours; as in
+   `compare_read.py collect`). Ours: fix in place with E321's order first (a specific example, cut the closer, cut the
+   summing up, fold the explanation in, join the short sentences), lint, and check each fix with its neighbours (E319)
+   before it counts. His: a card each, every suggestion checked first, with the reading and the check linked
+   (`suggestion_review.py` 1.5). His W-685 forgiveness quote read Human (High) for him by itself: a card says so and
+   offers his own choice.
+1. **Then his post again**, the same way as today (`fix-20261102/live/`): substack_merge.py into the latest editor copy
+   (take it from the post's editor first, and compare its native blocks), one transaction with the editor's own schema
+   (never the paste), Update, "Update now", and the read-back from the public post (`record_live.py`).
+2. **Questions 28 and 29**: if 29 is a), change the subtitle in the post's settings and read it back.
+3. **His other Pangram account**: if he signs into it in the app's browser, read its history the same way
+   (`fix-20261102/joel-pangram/history/`: pairs from AI to Human Written within four checks) and add what it teaches.
+4. **How checks run now**: through the API on the laptop with `--public`, as below; his history pages are read in the app's
+   browser only when he has signed in there himself. (Superseded by E325, 2026-11-02 20:38 UTC: the API only for at most six
+   paragraphs and 1,200 words; halves and whole articles go through the Substack drafts and his extension.)
+
+## Earlier next step (2026-11-02, after Joel's answers of 16:43 UTC: his answers in, the changed sections checked, three tested cards)
+
+Done (STATUS.md's entry for 2026-11-02 has every file and number). The guide: HUMANIZED-SO-FAR.md 80b2e475 (773 blocks).
+
+Next:
+0. **His answers to [Hypnosis Guide Cards, 2 November](https://claude.ai/artifact/AzBJ2kkPievVk18n4x6Tmv)**: put them in
+   with a script that records each card's fate (as `fix-20261102/apply_answers_s1101.py` did; the edits are in
+   `fix-20261102/review/REVIEW-R1102.json`), then the comparison gate. His notes on a card's tries come with links: read
+   them in order (E318) and save the texts he points to (`joel-pangram/`).
+1. **Question 28**: if he says a), check each section a card changed a third time (sections 15 and 40 for W-92b and
+   W-283b, Appendix E for R-638), each with its prediction first; if b), the whole-guide check reads them in place.
+2. **Still at Human (Low)** (E306; none is a card): his opening of Don't rush the repair and two lines of its quote
+   (section 27; Human (High) for him by themselves), "Those belong in your relationship with it too, not just the wounds."
+   (section 15; his approved wording), and our Pattern 10 opening (section 69; both fixes read AI in their stretch,
+   r1102b-D2 and D1, so the lineage HG1102-69-P10 has four tries left, each only with a new diagnosis).
+3. **Then the whole guide**, on the Substack drafts with his extension (the secret preview links, E277).
+4. **How checks run now** (superseded by E325 for anything over six paragraphs or 1,200 words, which goes through the
+   Substack drafts and his extension): through the API on the laptop with `--public` (inbox/pangram-r1102*/: TEXTS.json, the
+   repository's pangram_api.py, SHA256SUMS; `pangram_api.py check TEXTS.json out --expect 4.1 --windows --public`); the
+   app's browser is signed out of Pangram's web app (its history API answers 401), and history pages he links are read
+   from their public API (`https://web.pangram.com/api/history/<uuid>/`). One try per lineage per round: the ledger takes
+   a lineage's next try only after its last one has a result.
+
+## Earlier next step (2026-11-01, after Joel's message of 22:27 UTC: s1101's windows fixed or on his cards page)
+
+Done (STATUS.md's entry after 22:27 UTC has every file and number): the windows in our words fixed (rounds 2 and 3), his
+words on his cards page (25 cards), the eleven ready sections checked again by themselves (r1101: six Human Written),
+round 3's paragraphs checked alone (p1101: four Human, four stretches still AI after three tries, now "edit" cards).
+The guide: HUMANIZED-SO-FAR.md 170052f8...
+
+Next:
+0. **His answers to [Hypnosis Guide Cards, 1 November (2)](https://claude.ai/artifact/V3ZgooEhJAr2ApQdsjF3Hu)**: put
+   them in with a script that records each card's fate (as `fix-20261101/fr2-answers/apply_answers_fr2.py` did; the
+   cards' edits are in REVIEW-S1101.json), read what he wrote beside his text, then the comparison gate.
+1. **The sections with a card, checked again by themselves**, each its second and last section try (lineages
+   HG1101-NN; `fix-20261101/sections/recheck/make_recheck.py` takes the ready ones): 15, 18, 20, 23, 27, 37 (only
+   if W-270 renames the heading it names), 39, 40, 41, 51, 69, 71, 72, 73, 74, 84, 85, 99. The four stretches of ours that read AI three times (E-107, E-315, E-368, E-406) take
+   his version if he gives one; if he keeps them, the whole-guide check reads them in place (their paragraph lineages
+   have tries 2 to 6 left, each only with a new diagnosis).
+2. **Then the whole guide**, on the Substack drafts with his extension (the secret preview links, E277).
+
+## Earlier next step (2026-11-01, after Joel's answers of 20:29 UTC: the second full read and its cards in; the section checks next)
+
+Done (STATUS.md's entry for the second full read has every file): the whole guide read again by the lead model
+(`fix-20261101/fullread2/`), the contradiction read (CONTRADICTIONS.md), the two-hand merge, his four cards approved and
+in (`fix-20261101/fr2-answers/`), lessons E311 and E312. The guide so far: HUMANIZED-SO-FAR.md a32e6afe...
+
+Next (2026-11-01, after batch s1101; STATUS.md's entry for it has the numbers):
+0. **Batch s1101 is read** (`fix-20261101/sections/`): 91 windows that read AI or Human (Low), in 29 sections, are listed
+   in CONFIDENCE.md with whose words they are; ten are fixed (FIXES-S1101.json). Go on down CONFIDENCE.md: our words fixed
+   in FIXES-S1101.json (said plainly from the published passage, read beside it, linted), his words (his versions, his
+   published lines, his inner child guide's lines) on a new cards page; a one-word "Share" is a button's label, not
+   prose. Once every window of a section is fixed or decided, check that section again by itself (its second and last
+   try, lineage HG1101-NN); the AI Generated two (s1101-40, s1101-74) and the AI Detected ones first.
+1. (Done 2026-11-01, batch s1101.) **Each section checked by itself in Pangram** (E307): a section is a heading and its paragraphs, down to the next
+   heading of the same or a higher level; a long section split at its subheadings. In his account in the app's browser
+   (https://www.pangram.com/dashboard; about 1 credit per 100 words, about 310 for the whole guide; look at the credits
+   left first) or on the laptop with his API key (`tools/humanization/pangram_api.py`). Record every window's
+   confidence (E278), with each result's link.
+2. **Every window that reads AI or Human (Low) gets fixed** (E306), without a recheck first: its meaning read again
+   beside the published version (below High is often smoothed over and vague), then a fix that says it plainly, never
+   confabulated; our words fixed in place and read beside his text, his own words to his cards page (293 and 601 if
+   they still read Low). Small Human (Medium) windows: listed. Each fixed section checked again by itself.
+3. **Then the whole guide**, on the Substack drafts with his extension (the secret preview links, E277).
+
+## Earlier next step (2026-11-01, after Joel's message of 18:57 UTC: his answers in; 28 ii; the whole guide to read again)
+
+His message, word for word: `fix-20261101/joel-20261101-1857-message.txt`. Done (STATUS.md's entry after 18:57 has every
+file): his answers in the guide (`fix-20261101/apply_answers_30b.py`, APPLIED-30b.json), the gate's read of the six
+paragraphs it couldn't match (`fix-20261101/applied/read/`), lessons E306 to E310, his questions page.
+
+Next:
+1. **The whole guide, read again by the lead model** (E294, E309, E310), beside his published version
+   (`source/published-20260928.md`, "the AI guide"): every place Emulate made it shout (commands, exclamations,
+   absolutes, the "overly commanding" voice where his published version invited); every compressed or vague sentence
+   said plainly from the published meaning, never with what Emulate added; disjoint lists given the relationships that
+   explain them (his N-580 comment); "one", "proof", over-careful wording, passive voice; commas that are clearly needed,
+   put in (E308); and the two-hand practice's four versions cut or merged (his S-636 comment: "can we cut or merge some
+   of the 4 dups?"). Our words are fixed in place, each read again beside his text; his own words go on his page.
+2. **The contradiction read** (E310): the guide's claims and instructions listed section by section, and the list read
+   as a whole for anything that contradicts something else.
+3. **Every window that read AI or Human (Low) in the check of 30 October 21:40 UTC** (`fix-20261030/tries/read/`,
+   CONFIDENCE.md) and isn't in his new versions: its meaning read again, then fixed (E306). Human (Medium) windows that
+   aren't large: listed.
+4. **Each section checked by itself** in Pangram (E307): in his account in the app's browser (tab "seed",
+   https://www.pangram.com/dashboard; about 1 credit per 100 words) or on the laptop with his API key; every section that
+   reads AI or Human (Low) gets fixed and checked again by itself; then the whole guide, on the Substack drafts with his
+   extension.
+
+## Earlier next step (2026-10-30, after Joel's message of 21:40 UTC: the second recheck read; lesson E304; his cards page and question 28 wait on him)
+
+His message, word for word: `fix-20261030/joel-20261030-2140-message.txt`. Done (STATUS.md's entry after 21:40 has every
+file): the second recheck read (`fix-20261030/tries/read/`; HG-whole#83 and HG-rest-B#84 right); lesson E304 and
+question 28 (how the guide is called done, given that unchanged words read differently between checks: STABILITY.md);
+his cards page, [Hypnosis Guide Cards, 30 October](https://claude.ai/artifact/RQ6cqZAF2JevtxgWgSPS9o)
+(`fix-20261030/tries/review/build_page_30b.py`; REVIEW-30b.md is its cards as text).
+
+Next:
+1. **His answers**: the page's `decisions` collection (`ArtifactData list` on
+   https://claude.ai/artifact/RQ6cqZAF2JevtxgWgSPS9o) or the JSON he sends; save it word for word in
+   `fix-20261030/tries/review/` (ANSWERS-<time>.json) with his message beside it. Apply them with a script on the pattern
+   of `fix-20261029/b483/review/apply_answers_483.py`: an approved card's edit goes in as written (with
+   `fix-20261025/review/apply_answers.py`'s `set_block_text`, which keeps links); a rejected one keeps the words; a revised
+   or edited one goes in as his text, exactly, with obvious typos only fixed and listed. Then read his new versions beside
+   his published version (lead model, E294), add `fix-20261030/tries/read/READ-RECORD.json` and the new read's record to
+   `COMPARE-GATE.json`'s records, and run the gate.
+2. **His answer to 28** decides what comes after: with my default, the next recheck (try 16 and 14) has his answers in,
+   and a stretch that reads AI in it and in this one gets a try in his shape (E303) or goes to him; one-off red goes on the
+   page as "reads AI this time only".
+3. **The community article's full read** (his "after this"): done on 30 October; his answers came on 1 November
+   (`articles/intentional-communities/candidate/HANDOFF-community-article.md`).
+4. When the guide goes into his post: Substack's editor curls a straight quote after "(" as a closing quote (his R-561
+   example); the payload for his post wants the curly opening quote.
+
+## Earlier next step (2026-10-30, after Joel's message of 20:15 UTC: the recheck read; lessons E301 to E303; the next round's tries pasted; their Pangram results wait on him)
+
+His message, word for word: `fix-20261030/joel-20261030-2015-message.txt`. Done (pull request
+[264](https://github.com/u-dont-existDOTcom/joel-articles/pull/264); STATUS.md's entry after 20:15 has every file):
+- **The recheck read** (`fix-20261030/recheck/read/`): part A 1.3% AI, 8 AI windows; part B 2.3% AI, 6; HG-whole#81 and
+  HG-rest-B#82 right. His versions: 36 of 37 paragraphs Human in place, 19 at High (SPOTS.md; HIS-STUDY.md has each
+  beside the words it replaced and the writers' tries).
+- **Lessons E301 to E303** (`docs/HUMANIZATION-GATE.md`); the writers' first rules in `docs/EMULATE-FALLBACK.md` section
+  1; `compare_read.py collect` gives each finding its paragraph's `changes`.
+- **The tries** (`fix-20261030/tries/`, TRIES.json; my read of each, `tries/read/READ.md`): three restored sentences
+  taken back (T-35, T-337, T-374), six new tries in our words (T-339, T-495, T-249, T-503, T-505, T-508), two suggestions
+  for his words (S-162, S-382); the last recheck's four suggestions (S-14, S-20, S-24, S-782) still in. The working copy
+  is unchanged: all of these go on his cards page with their readings.
+- **The recheck** built, forecast (FORECAST-A/B.json), predicted (HG-whole#83, try 15; HG-rest-B#84, try 13), pasted from
+  commit a17f58b8 and checked as rendered (`tries/RECHECK-POST-A.json`, `-B.json`: cache keys recheck-a-30b and
+  recheck-b-30b; part B's rendered text is `tries/RENDERED-B.txt`, the card line and R-561's quote as before).
+
+Next:
+1. **Read the results** when his two links come, into `fix-20261030/tries/read/`, as `fix-20261030/recheck/read/` was read
+   (`pangram_feed_read.js` compact into META and WINDOWS; a copy of `recheck/read/make_results.py`, its R561 exception
+   and part B's embeds; `window_confidence.py`; `part_forecast.py score`; `pangram_ledger.py result` for #83 and #84 with
+   `--sha` of the predicted TEXT-B; a copy of `recheck/read/spots_30.py` that reads TRIES.json for each try's reading).
+2. **His cards page** (suggestion_review.py 1.4), published from this account with its Markdown copy in Git: the 11 tries
+   and the 4 standing suggestions, each with how it read in place (a card says "reads Human" only at High, E295); the
+   take-backs as cards that say why; Appendix C's rewritten list with its reading (informational); S-636 (the exercise
+   named instead of taught again). A try that reads AI or below High gets one more try in his shape (E303) first, or goes
+   to him as a stretch to edit with what was tried.
+3. **Then the community article's full read** (Joel: "i guess we need to go back and re-read the community article as
+   well after this then"): `articles/intentional-communities/candidate/fullread-20261030/PLAN.md` (ten parts made; the
+   lead model reads, never Sonnet; the post is live, so fixes go on his marking page as exact Substack edits).
+4. When the guide goes into his post: Substack's editor curls a straight quote after "(" as a closing quote (his R-561
+   example); the payload for his post wants the curly opening quote.
+
+## Earlier next step (2026-10-30, after Joel's answers of 14:35 UTC: his answers in, my full read and its fixes in, the recheck pasted; its Pangram results wait on him)
+
+His message and comments, word for word: `fix-20261030/joel-20261030-1435-message.txt` and
+`fix-20261030/joel-20261030-1435-comments.txt`. Done (STATUS.md's entry after 14:35 has every file): his answers in
+(`fix-20261029/b483/review/apply_answers_483.py`), the Previous button fixed (`fix-20261030/previous-button/`), lessons
+E294 to E300, my full read and its 109 fixes (`fix-20261030/fullread/`), and the recheck built, predicted (HG-whole#81,
+HG-rest-B#82) and pasted from commit 3c86a07e (`fix-20261030/recheck/RECHECK-POST-A.json` and `-B.json` have the two
+secret links, which are also on his questions page).
+
+Next:
+1. **Read the results** when his two links come, into `fix-20261030/recheck/read/`, as
+   `fix-20261029/b483/recheck/read/` was read (`pangram_feed_read.js` compact into META and WINDOWS,
+   `substack_check_text.py result` (part B's rendered text is RENDERED-B.txt: TEXT-B.txt plus the embedded card's line,
+   and one quote mark Substack curled the wrong way), `window_confidence.py`, `part_forecast.py score`,
+   `pangram_ledger.py result` for #81 and #82, and a copy of `b483/recheck/read/spots_483.py` for this round's spots).
+2. **Learn from his versions** (his 19 of 30 October, now read in place): set each beside both writers' tries and
+   Emulate's lessons (`fix-20261029/emulate-lessons/LESSONS.md`), and write down what his does that theirs didn't; into
+   the writers' brief and `docs/EMULATE-FALLBACK.md` section 1, the lesson into `docs/HUMANIZATION-GATE.md` (E301 on).
+3. **One cards page** (suggestion_review.py 1.4, its Previous button fixed): the 5 suggestions for his words
+   (`fix-20261030/recheck/SUGGESTIONS.json`, with how each read in place), Appendix C's rewritten list with its reading,
+   and every spot that reads AI or below High (E278), each with a new try that is both clear and Human (E291), read by
+   the lead model beside his published version first (E294). A card says "reads Human" only at High (E295). Published
+   from this account, its Markdown copy in Git.
+4. When the guide goes into his post: Substack's editor curls a straight quote after "(" as a closing quote (his R-561
+   example); the payload for his post wants the curly opening quote.
+
+## Earlier next step (2026-10-29, after Joel's message of 22:23 UTC: batch 483's recheck read; his cards page is on him)
+
+His message, word for word: `fix-20261029/joel-20261029-2223-message.txt`. Done (STATUS.md's entry after 22:23 has every
+file): batch 483's recheck read (`fix-20261029/b483/recheck/read/`; HG-whole#79 and HG-rest-B#80 right); his cards page
+(`fix-20261029/b483/review/build_page_483.py`, published as Hypnosis Guide Cards).
+
+Next:
+1. **His answers**: read the page's `decisions` collection (`ArtifactData list` on
+   https://claude.ai/artifact/SxZ3CYESSGw1KWJp46mRAG) or the JSON he sends; save it word for word in
+   `fix-20261029/b483/review/` (ANSWERS-<time>.json) and his message beside it.
+2. **Apply them** with a script like `fix-20261028/comprehension/apply_answers_28.py` (each card's fate recorded: an
+   approved card's edit goes in as written; a rejected one keeps the words; a revised or edited one goes in as his text,
+   exactly, with obvious typos only fixed and listed), onto `HUMANIZED-SO-FAR.md`, with the comparison gate's records.
+3. **Read his versions** beside his published version (`tools/humanization/compare_read.py`; E288), then the recheck of
+   the whole guide (try 14 and try 12), forecast and predicted first.
+4. **Learn from his fixes**: for each place he rewrote, set his version beside both writers' tries and Emulate's lessons
+   (`fix-20261029/emulate-lessons/LESSONS.md`), and write down what his does that theirs didn't (shape, sentence count,
+   what he dropped or kept, how it reads in place). That goes into the writers' brief and `docs/EMULATE-FALLBACK.md`
+   section 1 (the cases in `tools/humanization/emulate-cases/`), and the lesson into `docs/HUMANIZATION-GATE.md`.
+
+## Earlier next step (2026-10-29 20:15 UTC: the Emulate lessons in; batch 483 pasted; its Pangram results wait on him)
+
+Done (STATUS.md's entry of 20:15 UTC has every file): the study (`fix-20261029/emulate-lessons/LESSONS.md`), its shape rules
+in `docs/EMULATE-FALLBACK.md` section 1 and in batch 483's brief; batch 483 (`fix-20261029/b483/`) written, picked, read
+(10 of 10), built with batch 482's 11 Human versions, forecast, predicted (HG-whole#79, HG-rest-B#80) and pasted from commit
+0fc62a44 (RECHECK-POST-A/B.json).
+
+Next:
+1. **Read the results** when his two links come, into `fix-20261029/b483/recheck/read/`, as `fix-20261029/b482/recheck/read/`
+   was read (pangram_feed_read.js compact into META and WINDOWS, `substack_check_text.py result` with part B's embeds from
+   the last META-B.json, `window_confidence.py`, `part_forecast.py score`, `pangram_ledger.py result`, and a copy of
+   `b482/recheck/read/spots_482.py` for batch 483's spots). Score the writers with the lessons against batch 482 (11 of 21)
+   and say whether question 26 comes back (E293: only with that evidence).
+2. **His marking page (REVIEW-483)**: every version that reads Human and clear, from batch 482 and 483, ours as cards to
+   approve (the clear current version stays the default, E291), his own lines (J1, J2, J4, J3, J5) as cards in his words with
+   the suggestion beside them; published from this account, with its Markdown copy in Git.
+3. A spot that still reads AI after two lesson-fed tries is one of the shapes nobody has solved (LESSONS.md: definitions,
+   outcome lists, label-and-colon steps): it goes to him as a stretch to edit, with what was tried.
+
+## Earlier next step (2026-10-29, after Joel's message of 19:22 UTC: batch 482's recheck read; 26 withdrawn; the Emulate lessons study, then batch 483)
+
+His message, word for word: `fix-20261029/joel-20261029-1922-message.txt`. Done (STATUS.md's entry after 19:22 has every
+file): batch 482's recheck read (`fix-20261029/b482/recheck/read/`: RESULT, CONFIDENCE.md, SCORE, SPOTS.md from
+`spots_482.py`; HG-whole#77 and HG-rest-B#78 right); lesson E293; question 26 withdrawn.
+
+Next:
+1. **The Emulate lessons** (`fix-20261029/emulate-lessons/`, a study running in this session; if LESSONS.md isn't
+   there, run it again from `fix-20261029/EMULATE-LESSONS-BRIEF.md`): check its pairs against their files, keep the shape rules two
+   or more cases back, put them into the writers' brief (`fix-20261029/b482/make_targets.py`'s BRIEF, copied into batch
+   483's) and into `docs/EMULATE-FALLBACK.md` section 1, and start `tools/humanization/emulate-cases/` (section 5).
+2. **Batch 483** (`fix-20261029/b483/`): the 10 spots that still read AI (T2, T4, T5, T6, T7, T9, T12, T15, T17 and his J3),
+   each from the working copy's clear version, the writers shown batch 482's version that read AI and the 14 windows that
+   turned red beside them; two versions each, my pick, the comparative read; then the recheck with batch 482's 11 Human
+   versions in as they are (`b482/CANDIDATES.json`), forecast and predicted (HG-whole try 13, HG-rest-B try 11).
+3. **His marking page (REVIEW-483)** after that recheck: every version that reads Human and clear, ours as cards to
+   approve, his own lines (J1, J2, J4 and whatever of J3 passes, the three-jobs line) as cards in his words.
+
+## Earlier next step (2026-10-29, after Joel's messages of 18:18 UTC, the recheck's result links, and 18:55 UTC, Emulate: batch 482's recheck is pasted; its Pangram results and question 26 wait on him)
+
+His messages, word for word: `fix-20261029/joel-20261029-1818-message.txt` and `fix-20261029/joel-20261029-1855-message.txt`.
+Done (pull request [261](https://github.com/u-dont-existDOTcom/joel-articles/pull/261); STATUS.md's entry of 2026-10-29 after 18:18 and 18:55 has every file):
+- **The recheck read** (`fix-20261029/recheck/read/`: RESULT, CONFIDENCE.md, SPOTS.md, SCORE): part A 1.6% AI, 11 AI
+  windows; part B 4.5% AI, 20 AI windows, the audit one of them; HG-whole#75 and HG-rest-B#76 right.
+- **Batch 482** (`fix-20261029/b482/`): SORTED.json, TARGETS.json (T1 to T17 ours, J1 to J4 suggestions for his own
+  lines), the writers' versions (writers/), my picks (CHOICES.json), CANDIDATES.json and CANDIDATE-MASTER.md, the
+  comparative read (read/: 20 of 20 pass, READ-RECORD.json in the gate's records).
+- **The candidate recheck** (`fix-20261029/b482/recheck/`): built, forecast (FORECAST-A/B.json), predicted (HG-whole#77,
+  try 12; HG-rest-B#78, try 10), pasted from commit e859ce30 and checked as rendered (RECHECK-POST-A/B.json, cache keys
+  recheck-a-29b and recheck-b-29b); the links are on his questions page.
+- **Question 26** (Emulate) on his page, and the Emulate lessons study (`fix-20261029/emulate-lessons/`) started.
+
+Next:
+1. **Read the results** when his two links come: `tools/humanization/pangram_feed_read.js` (compact) into
+   `fix-20261029/b482/recheck/read/` (RESULT-A.json, RESULT-B.json, META, WINDOWS), `substack_check_text.py result`,
+   `window_confidence.py` (CONFIDENCE.md, with --his for his words), `part_forecast.py score` (SCORE-A/B.md) and
+   `pangram_ledger.py result` for #77 and #78 (`explain` for a miss). Then read each of the 21 candidates in place (the
+   worst window over its new words, as `fix-20261029/recheck/read/windows_map.py` does) and score the writers without
+   Emulate: that is the evidence for question 26.
+2. **His marking page (REVIEW-482)**: a card for each T candidate with how it read in place (the clear current version
+   is the default: E291); the J suggestions and the three-jobs line as cards in his own words, my suggestion beside his
+   line. A candidate that still reads AI or below High gets another try first (the writers again with the lessons
+   from step 3, or Emulate if he re-ups), read beside his published text before it becomes a card.
+3. **The Emulate lessons**: when `fix-20261029/emulate-lessons/LESSONS.md` is in, check its pairs against their files,
+   put the shape rules that two or more cases back into the writers' brief (`fix-20261029/b482/make_targets.py`'s BRIEF
+   and `docs/EMULATE-FALLBACK.md` section 1), and start `tools/humanization/emulate-cases/` as section 5 says.
+
+## Earlier next step (2026-10-29, after Joel's messages of 17:21 UTC, his answers to 24 and 25, and 17:53 UTC, "i signed in": the recheck's drafts are pasted; their Pangram results wait on him)
+
+His message, word for word: `fix-20261029/joel-20261029-1721-message.txt`. Done (pull request
+[259](https://github.com/u-dont-existDOTcom/joel-articles/pull/259); STATUS.md's entry of 2026-10-29 has every file): all 114 fixes in, my advised wording on
+the four cards in his own words (read beside his text, 5 of 5 pass), the findings' fates from his answers, the gate PASS;
+his rule for 25 (E291, E292) in the shared rules; the recheck built and forecast (`fix-20261029/recheck/`, ledger
+HG-whole#75 and HG-rest-B#76).
+
+After his 17:53 message ("i signed in"), step 1 below is done: both drafts pasted from commit 2fa3b7b5 and checked as
+rendered (`fix-20261029/recheck/RECHECK-POST-A.json`, `RECHECK-POST-B.json`, with the two secret links); the links are
+on his questions page, and his two Pangram result links are what comes next.
+
+Next:
+1. **(done 2026-10-29 17:56 UTC)** When Substack is signed in again in the app's browser (or Claude in Chrome is connected in his Chrome): paste
+   PAYLOAD-A.html into draft 222109105 ("TEMP recheck A (hypnosis guide) - do not publish") and PAYLOAD-B.html into
+   draft 221412532 ("TEMP recheck B (hypnosis guide appendices) - do not publish"), as batch 481's RECHECK-POST-A.json
+   and RECHECK-POST-B.json say: clear the body with a click in a plain paragraph, ctrl+a and Delete, then
+   `fix-20261022/screen/paste_payload_lane.js` with window.__paste = {url: the payload's raw.githubusercontent.com address
+   at the commit that has it, sha256: RECHECK-BUILD.json's payload_sha256, title, words_sha256: WORDS-A.json's or
+   WORDS-B.json's}; the secret links (`tools/humanization/substack_secret_link.js`, new cache keys such as recheck-a-29);
+   the rendered check (`tools/humanization/substack_rendered_check.js` against TEXT-A.txt's and TEXT-B.txt's SHA-256);
+   RECHECK-POST-A.json and -B.json. Give him the two links (or, in his Chrome through Claude in Chrome, click the Pangram
+   label twice, then View Full Analysis, yourself).
+2. **Read the results** (`tools/humanization/pangram_feed_read.js` into read/RESULT-A.json and RESULT-B.json;
+   `window_confidence.py`; `part_forecast.py score`; `pangram_ledger.py results`, and `explain` for a miss). Every fix that
+   reads AI or below High gets a new try that is both clear and Human (E291): Emulate's re-run or a new fix, read beside
+   his published text first (the comparative read), then his marking page. The clear version stays in meanwhile.
+3. **The 83 held cards of the 27 October editor page**: retired by the recheck; the windows that still read below High
+   in the guide as it is now get new tries as in 2.
+
+## Earlier next step (2026-10-28, after Joel's messages of 15:20 UTC, "too incomprehensible", and 16:05 UTC, "repair the process durably")
+
+His messages, word for word: `fix-20261028/joel-20261028-1520-message.txt` (with his answers file,
+`fix-20261028/ANSWERS-20261028-1519.json`) and `fix-20261028/joel-20261028-1605-message.txt`. Done (pull request [258](https://github.com/u-dont-existDOTcom/joel-articles/pull/258);
+STATUS.md's entry of 2026-10-28 has every file):
+- **His six answers are in** `HUMANIZED-SO-FAR.md` (`fix-20261028/comprehension/make_candidate.py --answers-only`).
+- **The comparative read** of the whole guide (`fix-20261028/comprehension/`, AUDIT.md): 41 real problems in 38
+  paragraphs, 118 small snags, 6 in his own words, 116 not problems, each checked by me (CHECKED.json).
+- **The fixes** (fix/: the writers' FIXES-k.json, my MY-REVIEW.json, KEPT.json; CANDIDATE.md and CHANGES.json; the fresh
+  readers' check, verify/) and **the fix page**, question 24 ([Hypnosis Guide Fixes](https://claude.ai/artifact/BC6AzFGSwc6MSgoWR2upLd), published from this account; `build_page.py`: REVIEW-28.json, .html,
+  .artifact.html, .md).
+- **The durable repair**: `tools/humanization/compare_read.py` and its gate, run by `lane_push.py` (this lane's
+  `COMPARE-GATE.json`; the records are `fix-20261028/comprehension/READ-RECORD.json` and `verify/READ-RECORD.json`, written
+  by `write_records.py` and `collect_verify.py`); `clarity_read.py collect --prior`; `tools/triage_apply.py`'s refusal;
+  lessons E284 to E290 and the shared rules.
+
+Next:
+1. **When his answers to 24 come** (the page's JSON pasted, or its file): save them word for word in `fix-20261028/`,
+   then a script (on the pattern of `fix-20261025/review/apply_answers.py`) puts them into `HUMANIZED-SO-FAR.md` from
+   CHANGES.json: an approved card's paragraph as the card shows it; his Revise text word for word (obvious typos only);
+   for a card in his own words, Keep changes nothing and his version replaces the paragraph; a card he leaves unmarked
+   follows my advice only if he says so. Every paragraph whose words change gets a read beside his published version
+   (`make_verify.py`'s pattern) unless the words are his, and `write_records.py` / `collect_verify.py` update the records
+   so the gate passes; the fates of the audit's findings change from "his" (on his page) to "fixed" or "his" (his answer).
+2. **Then the whole-guide recheck**, both parts through the Substack drafts (`fix-20261026/b481/recheck/make_recheck.py`'s
+   pattern, secret links, rendered check), predicted part by part. A fix that reads AI or below High goes by his answer
+   to 25 (my default: clarity wins, then a version that is both, or his choice).
+3. **The 83 held cards of the editor page** (questions 21 to 23): their Emulate words get the comparative read beside his
+   published text (`compare_read.py make --words 1300` on the paragraphs, then collect, then my check) before any of them
+   comes back to him (E288).
+
+## Earlier next step (2026-10-27, after Joel's message of 15:37 UTC: batch 481's recheck read; questions 21 to 23 on one editor page)
+
+His message, word for word: `fix-20261027/joel-20261027-1537-message.txt` (the two result links; "21. your list of cards
+was a json file? i can't read that"; "22. give me the editor interface so i can see and edit what needs editing"; "23. i
+need that editor interface we developed remember that?"). Done (pull request 257,
+https://github.com/u-dont-existDOTcom/joel-articles/pull/257; STATUS.md's entry of 2026-10-27 has every file):
+- **Batch 481's recheck, read** (`fix-20261026/b481/recheck/read/`): part A Human Written, 0 of 116 windows AI (58 High,
+  55 Medium, 3 Low); part B Mostly Human Written, 1.3% AI, the audit the one AI window. HG-whole#73 a miss (explained),
+  HG-rest-B#74 right; part forecasts 53 of 53 and 17 of 17; batch 481's fixes in place 19 High, 4 Medium, 1 Low
+  (`spots_in_place.py`, SPOTS.md).
+- **The Hypnosis Guide Editor** (https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG): `fix-20261027/review/build_editor_27.py` (it imports
+  `fix-20261026/review/build_review_481.py` for question 21's cards and `readings.py`'s READINGS.json for their readings),
+  writing EDITOR-27.json, EDITOR-27.html, EDITOR-27.artifact.html (what was published, with capabilities db and downloads)
+  and EDITOR-27.md (the cards as text). Republish from this account with the same file path after any rebuild.
+- **The page maker** (`tools/humanization/suggestion_review.py` 1.3): the "edit" card, colours for every card kind, the
+  browser test's new checks, `tests/test_suggestion_review.py`. Lessons E280 to E283.
+
+Next:
+1. **When his answers come** (the page's "Copy my answers" JSON pasted in chat, or its file): save them word for word in
+   `fix-20261027/`, then a script puts them into `HUMANIZED-SO-FAR.md`, recording each card's fate as
+   `fix-20261025/review/apply_answers.py` did (APPLIED.json): an approved card's change; his Revise text word for word
+   (obvious typos only); for a stretch to edit, "rejected" is Keep (nothing changes) and "revise" is his version of the
+   paragraphs the card shows, which replaces those blocks, links put back on the same words where his text keeps them; a
+   card he leaves unmarked follows my advice only if he says so. Then the strict Emulate check (`emulate_artifacts.py`)
+   on the changed paragraphs, and the next recheck (`fix-20261026/b481/recheck/make_recheck.py`'s pattern, both drafts,
+   secret links, rendered check), predicted part by part with chances of High (E283's priors).
+2. **Batch 482**: Emulate's re-runs (E235) of the longer stretches under High that he keeps or leaves to me (the "medium"
+   cards), and of the four fixes still under High that he approves (S25, S28, S31, S5), each through the gate onto the next
+   page; his audit answer (23) goes in as he writes it.
+
+## Earlier next step (2026-10-26, after Joel's message of 12:43 UTC: batch 480's recheck read; batch 481 for the windows at less than High; questions 21 to 23 and batch 481's recheck wait on him)
+
+His message, word for word: `fix-20261026/joel-20261026-1243-message.txt` (the two result links; "the questions page has
+no open questions, so you must have forgotten to do that"; the preview link for every lane; "fix any segments that are not
+high confidence human if you can, and always we should be marking down the confidence if we have it"). Done (pull request
+256, https://github.com/u-dont-existDOTcom/joel-articles/pull/256):
+- **Batch 480's recheck, read** (`fix-20261026/b480/recheck/read/`: WINDOWS, META, RESULT, SCORE, and CONFIDENCE.md from
+  the new `tools/humanization/window_confidence.py`): part A Human Written, 0 of 153 windows AI (71 High, 68 Medium, 14
+  Low); part B Mostly Human Written, 1.3% AI, the audit (2c) the one AI window. HG-whole#71 a miss (pessimism, explained),
+  HG-rest-B#72 right; the part forecasts 27 of 27 and 14 of 14.
+- **The guide's own questions page** ("Hypnosis Guide Questions", https://claude.ai/artifact/8o79MFm9vSpyMGrAeArZYx), a
+  view of `OWNER-QUESTIONS.md` made by `articles/intentional-communities/candidate/tools/render_questions.py` into
+  `guide-questions.html` with the title as its third argument (`"Hypnosis Guide Questions"`; without it the page is
+  titled "Community Article Questions", as happened once on 2026-11-01): republish it (same file path) whenever the file
+  changes.
+- **Two standing rules** (AGENTS.md, gates E277 and E278, docs, memory): every lane gives Joel each temporary draft's
+  secret preview link (`tools/humanization/substack_secret_link.js`), and every Pangram result is recorded with each
+  window's confidence, a window at less than High being work to do where a fix keeps his meaning and form.
+- **Batch 481** (`fix-20261026/b481/README.md` has every step): Emulate's samples (cm, cn, co) of the 22 groups of
+  paragraphs with a Low window or a Medium one of 10 words or more, and of the audit; 24 splices (S11 to S36), the strict
+  Emulate check, the linter's fixes, and the owner-delivery gate (`fix-20261026/b481/gate/GATE.md`: 24 of 24 delivered after two rounds, lesson E279); the windows left are listed with why.
+- **Question 21's page** republished with 34 cards (`fix-20261026/review/build_review_481.py`, REVIEW-481.json, .html,
+  browser test): the ten of batches 479 and 480 with how they read, and batch 481's delivered drafts.
+- **Questions 22 and 23**: the 60 short Medium lines (default leave), and the audit (default keep his list).
+- **The recheck with batch 481 in** (`fix-20261026/b481/recheck/`): built, predicted (HG-whole#73, HG-rest-B#74),
+  forecast part by part with a chance of High for each spot, pasted into the same two drafts, checked rendered, and each
+  draft's secret preview link made with the new tool (cache keys recheck-a-27, recheck-b-27).
+
+Next:
+1. When he sends the two result links: read them as in `fix-20261026/b480/recheck/read/` (compact mode, WINDOWS checked
+   against the page's SHA-256, META with part B's card line in "embeds", RESULT rebuilt from
+   `fix-20261026/b481/recheck/PAYLOAD-A.html` and `PAYLOAD-B.html`, then `window_confidence.py` for CONFIDENCE.md with
+   `--article fix-20261026/b481/CANDIDATE-MASTER.md`), the ledger results, `part_forecast.py score`, and each spot's
+   confidence against its chance of High (CHANCES.json).
+2. A batch 481 card whose change reads less than High in place: Emulate's re-run of that sample or another sample (E235),
+   or the card stays with its confidence said; one that reads red goes off the page until it's redone.
+3. When his answers to question 21 come back (the page's JSON): a script puts them into `HUMANIZED-SO-FAR.md` (as
+   `fix-20261025/emulate-check/apply_answers_20.py` did), each card's fate recorded; then the copy helper
+   (`docs/SUBSTACK-HELPER-DELIVERY-GATE.md`) and his paste; he deletes both TEMP drafts when done (E204; name them by title).
+
+## Earlier next step (2026-10-26, after Joel's message of 00:54 UTC: batch 479's recheck read; question 21 and batch 480's recheck wait on him)
 
 His message, word for word: `fix-20261026/joel-20261026-0054-message.txt` (the two result links, and "i made the changes on
 the community article that's done", which is the community lane's; its handoff has it). Done (pull request 254):
@@ -1073,4 +1791,4 @@ published). Nothing is left to run until he answers.
 5. **To reinstall a section**: `tools/install_fixed.py install` replaces published blocks, so a section that is already in
    the article is reinstalled by rebuilding the article from `source/published-20260928.md` with every `fixed` file in
    `fix-20261018/installed.json` (462g: HG36; the rebuild with the old list reproduced the article exactly).
-6. Keep `STATUS.md`, this note, the laptop copy and the scorecard page current after every batch.
+6. Keep [STATUS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/STATUS.md), this note, the laptop copy and the scorecard page current after every batch.

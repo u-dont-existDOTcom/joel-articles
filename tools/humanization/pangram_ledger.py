@@ -132,6 +132,12 @@ def refusals(recs, rec):
     if not rec.get('tells') and not rec.get('human_tells'):
         out.append('no evidence: name the AI tells and the human tells in the actual words (the rule asks for both)')
     scope = rec['scope']
+    # E218, E325 (Joel, 2026-11-02 20:38 UTC: "that should be done the free way to not waste my pangram credits"): a half,
+    # a whole article or anything over 1,200 words is checked free in a temporary Substack draft, never through the API
+    if 'api' in (rec.get('detector') or '').lower() and (scope in ('article', 'stretch') and (rec.get('words') or 0) > 1200
+                                                       or (rec.get('words') or 0) > 1200) and not (rec.get('paid_ok') or '').strip():
+        out.append('%d words through the API: a half, a whole article or anything over 1,200 words goes through a temporary '
+                   'Substack draft and its secret preview link, free (E218, E325); --paid-ok only with his words' % (rec.get('words') or 0))
     if scope not in CAPS:
         out.append('scope must be one of %s' % ', '.join(sorted(CAPS)))
         return out
@@ -139,7 +145,7 @@ def refusals(recs, rec):
     if any(p['sha256'] == rec['sha256'] for p in line):
         out.append('this exact text (same SHA-256) was already submitted in lineage %s: read its result from the ledger or '
                    "Pangram's History instead of paying again" % rec['lineage'])
-    out += blocks(recs, rec['lineage'], scope, rec.get('detector'))
+    out += blocks(recs, rec['lineage'], scope, rec.get('detector'), after_fix=rec.get('after_fix'))
     if cap_for(scope, rec.get('detector')) is None and not (rec.get('decides') or '').strip():
         out.append('a Substack check past the usual two tries must say what its result decides (--decides; Joel, '
                    '2026-10-21, question 7 b: "run only when its result decides something")')
@@ -150,9 +156,14 @@ def refusals(recs, rec):
     return out
 
 
-def blocks(recs, lineage, scope, detector=None):
+def blocks(recs, lineage, scope, detector=None, after_fix=None):
     """What stops any further submission in the lineage, whatever the text: the cap, a submission with no result, two
-    unexplained misses in a row. DETECTOR is the new prediction's (a Substack check of an article has no cap)."""
+    unexplained misses in a row. DETECTOR is the new prediction's (a Substack check of an article has no cap).
+
+    AFTER_FIX (what the fix changed) lets a section past its two tries take one more check of the whole section after a
+    fix: Joel's answer to question 28 of the hypnosis guide, 2026-11-02 19:11 UTC, "28a" ("Yes, my default: one more check
+    of the whole section after each fix, each with my prediction written first"). The new text is the fix in place, so it
+    can't be a try already made (the SHA-256 check), and every other block still applies."""
     out = []
     line = lineage_view(state(recs), lineage)
     pending = [p for p in line if not p['result']]
@@ -160,9 +171,9 @@ def blocks(recs, lineage, scope, detector=None):
         out.append('try %d of lineage %s (%s) has no result: recover it from the History, or void it if it was never sent'
                    % (pending[0]['try'], lineage, pending[0].get('key') or pending[0]['sha256'][:12]))
     cap = cap_for(scope, detector if detector is not None else (line[-1].get('detector') if line else None))
-    if cap is not None and len(line) >= cap:
-        out.append('lineage %s has used its %d tries for a %s: stop and ask Joel (a new owner decision is needed)'
-                   % (lineage, cap, scope))
+    if cap is not None and len(line) >= cap and not (scope == 'section' and (after_fix or '').strip()):
+        out.append('lineage %s has used its %d tries for a %s: stop and ask Joel (a new owner decision is needed), or, '
+                   'for a section with a fix in it, give --after-fix (his answer 28a)' % (lineage, cap, scope))
     done = [p for p in line if p['result']]
     if len(done) >= 2 and all(is_miss(p) and not p['explain'] for p in done[-2:]):
         out.append('the last two predictions of lineage %s missed and neither is explained: stop and ask Joel ("I can\'t find '
@@ -459,7 +470,7 @@ def cmd_predict(a):
            'scope': a.scope, 'sha256': sha, 'words': words, 'call': a.call, 'chance': a.chance, 'tells': a.tells or [],
            'human_tells': a.human_tells or [], 'diagnosis': a.diagnosis, 'decides': a.decides, 'key': a.key, 'batch': a.batch,
            'detector': a.detector, 'shading_expected': a.shading_expected, 'emulate_share': a.emulate_share,
-           'try': len(line) + 1}
+           'after_fix': a.after_fix, 'paid_ok': a.paid_ok, 'try': len(line) + 1}
     why = refusals(recs, rec)
     if why:
         print('REFUSED: ' + '\n  '.join(why), file=sys.stderr)
@@ -504,8 +515,14 @@ def cmd_results(a):
     for key, r in res.items():
         if isinstance(r, list):  # compact form [headline, ai, words, windows, utc, link tail, flagged]
             r = {'headline': r[0], 'likelihood': r[1], 'words': r[2], 'windows': r[3], 'utc': r[4], 'link': r[5]}
-        p = find(recs, key=key, open_only=True)
+        if isinstance(r.get('windows'), str):
+            # the compact form's windows are one string, "label, confidence, words; ..." (2026-11-01: read as a string,
+            # its characters were taken for windows, and every result came out Mixed)
+            r['windows'] = [w for w in r['windows'].split('; ') if w]
+        p = find(recs, key=key, open_only=not a.correct)
         if not p:
+            continue
+        if a.correct and p.get('result') is None:
             continue
         verdict = verdict_of(r.get('headline'), r.get('windows'), r.get('fraction_ai'))
         link = r.get('link') or ''
@@ -515,6 +532,8 @@ def cmd_results(a):
                                             'likelihood': r.get('avg_ai_likelihood', r.get('likelihood')),
                                             'words_read': r.get('words'), 'windows': r.get('windows'),
                                             'detector': a.detector or p.get('detector'), 'at': r.get('utc')})
+        if a.correct:
+            rec['note'] = 'corrects the result line before it for this prediction: ' + a.correct
         append(a.ledger, rec)
         recs.append(rec)
         n += 1
@@ -625,6 +644,9 @@ def main(argv=None):
     p.add_argument('--detector', default='Pangram 4.1 (web app)')
     p.add_argument('--shading-expected')
     p.add_argument('--emulate-share', type=float)
+    p.add_argument('--paid-ok', help="Joel's words allowing a text over 1,200 words through the paid API (E218, E325)")
+    p.add_argument('--after-fix', help='a section past its two tries: what the fix changed (his answer 28a, one more check '
+                   'of the whole section after each fix)')
     p.set_defaults(fn=cmd_predict)
     p = sub.add_parser('result')
     p.add_argument('ledger')
@@ -644,6 +666,8 @@ def main(argv=None):
     p.add_argument('ledger')
     p.add_argument('results')
     p.add_argument('--detector')
+    p.add_argument('--correct', help='record these results again for predictions that already have one, with this reason '
+                                     '(a later result line replaces the earlier one)')
     p.set_defaults(fn=cmd_results)
     for name, fn in (('explain', cmd_explain), ('void', cmd_void)):
         p = sub.add_parser(name)

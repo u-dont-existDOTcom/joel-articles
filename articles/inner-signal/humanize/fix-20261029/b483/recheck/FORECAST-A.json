@@ -1,0 +1,600 @@
+{
+ "parts": [
+  {
+   "name": "J5 (Protecting Yourself from Hypnotists, P3)",
+   "text": "All of these (conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent) are separate factors to consider.",
+   "chance_red": 0.4,
+   "chance_high": 0.2,
+   "why": "a suggestion for his own words; last try none (his sentence read AI Low twice)",
+   "kind": "changed"
+  },
+  {
+   "name": "T2 (Forget the left-brain/right-brain cartoon, P5)",
+   "text": "And all of this has got to lead somewhere, to a point where you notice you’re behaving more kindly, you’ve got more humility and better judgment than you had, you’re doing real service, or your ordinary life has gotten more workable.",
+   "chance_red": 0.5,
+   "chance_high": 0.2,
+   "why": "a writer's version; last try AI (High)",
+   "kind": "changed"
+  },
+  {
+   "name": "T4 (When the adult role is not available yet, P2)",
+   "text": "For that starting point, I’ve taken familiar practices like modeling and supported action and built them into a kind of provisional bridge I call “borrowed adulthood,” but I’m not suggesting anyone has formally tested and proven the whole sequence as one treatment.",
+   "chance_red": 0.5,
+   "chance_high": 0.2,
+   "why": "a writer's version; last try AI (High)",
+   "kind": "changed"
+  },
+  {
+   "name": "T5 (Please don’t put six metaphors in one trance, P1)",
+   "text": "Go into the trance to do one thing, starting from a single anchor or image and having one way of coming back, and set yourself a tone too if you want one (warm, bounded, directed, neutral witnessing, whatever).",
+   "chance_red": 0.5,
+   "chance_high": 0.2,
+   "why": "a writer's version; last try AI (High)",
+   "kind": "changed"
+  },
+  {
+   "name": "T6 (Please don’t put six metaphors in one trance, P2)",
+   "text": "(You can borrow qualities like warmth or steadiness as long as you don’t change who you are.)",
+   "chance_red": 0.5,
+   "chance_high": 0.2,
+   "why": "a writer's version; last try AI (High)",
+   "kind": "changed"
+  },
+  {
+   "name": "T7 (Optional fractionation: practice coming back, P1)",
+   "text": "If you’re using fractionation, you come back up toward ordinary awareness and then decide whether to go into absorption again, and if you do it openly it teaches you that a trance has a way out as well as a way in.",
+   "chance_red": 0.4,
+   "chance_high": 0.2,
+   "why": "a writer's version; last try AI (Low)",
+   "kind": "changed"
+  },
+  {
+   "name": "kept: I was sober at the session and didn’t feel espec...",
+   "text": "I was sober at the session and didn’t feel especially suggestible, but I suspect that’s not even the main reason the pro didn’t work very well for me.",
+   "chance_red": 0.4,
+   "chance_high": 0.1,
+   "why": "unchanged; read AI (Low) last time, next to a rewrite that changes again (the red came with the rewrite)",
+   "kind": "changed"
+  },
+  {
+   "name": "kept: The bigger issue was trust and precision....",
+   "text": "The bigger issue was trust and precision.",
+   "chance_red": 0.4,
+   "chance_high": 0.1,
+   "why": "unchanged; read AI (Medium) last time, next to a rewrite that changes again (the red came with the rewrite)",
+   "kind": "changed"
+  },
+  {
+   "name": "kept: If so, you might not need to deepen....",
+   "text": "If so, you might not need to deepen.",
+   "chance_red": 0.4,
+   "chance_high": 0.1,
+   "why": "unchanged; read AI (Low) last time, next to a rewrite that changes again (the red came with the rewrite)",
+   "kind": "changed"
+  },
+  {
+   "name": "kept: Keep it simple....",
+   "text": "Keep it simple.",
+   "chance_red": 0.4,
+   "chance_high": 0.1,
+   "why": "unchanged; read AI (Low) last time, next to a rewrite that changes again (the red came with the rewrite)",
+   "kind": "changed"
+  },
+  {
+   "name": "kept: Using metaphors and imagery is entirely optional...",
+   "text": "Using metaphors and imagery is entirely optional.",
+   "chance_red": 0.4,
+   "chance_high": 0.1,
+   "why": "unchanged; read AI (Medium) last time, next to a rewrite that changes again (the red came with the rewrite)",
+   "kind": "changed"
+  },
+  {
+   "name": "kept: You can use whatever form of signal shows up (fe...",
+   "text": "You can use whatever form of signal shows up (feelings, rhythms, movements, words, spatial sense, simple knowing, lack of signal, whatever) but if you’re using words, try to keep them related to whatever world you’re creating.",
+   "chance_red": 0.4,
+   "chance_high": 0.1,
+   "why": "unchanged; read AI (High) last time, next to a rewrite that changes again (the red came with the rewrite)",
+   "kind": "changed"
+  },
+  {
+   "name": "kept: If you’re going to count, do it in a way that ma...",
+   "text": "If you’re going to count, do it in a way that makes sense in your world. And when you’re done, come back the other way.",
+   "chance_red": 0.4,
+   "chance_high": 0.1,
+   "why": "unchanged; read AI (Medium) last time, next to a rewrite that changes again (the red came with the rewrite)",
+   "kind": "changed"
+  },
+  {
+   "name": "kept: When you’re writing the script, decide what the...",
+   "text": "When you’re writing the script, decide what the verb you’re using is, what the sensory quality is, what the short refrain is, and how you’re going to transition between ideas.",
+   "chance_red": 0.4,
+   "chance_high": 0.1,
+   "why": "unchanged; read AI (High) last time, next to a rewrite that changes again (the red came with the rewrite)",
+   "kind": "changed"
+  },
+  {
+   "name": "kept: Read it out loud as you’re writing it....",
+   "text": "Read it out loud as you’re writing it.",
+   "chance_red": 0.4,
+   "chance_high": 0.1,
+   "why": "unchanged; read AI (Medium) last time, next to a rewrite that changes again (the red came with the rewrite)",
+   "kind": "changed"
+  },
+  {
+   "name": "kept: Long, elegant sentences don’t read well when you...",
+   "text": "Long, elegant sentences don’t read well when you’re being induced.",
+   "chance_red": 0.4,
+   "chance_high": 0.1,
+   "why": "unchanged; read AI (Low) last time, next to a rewrite that changes again (the red came with the rewrite)",
+   "kind": "changed"
+  },
+  {
+   "name": "kept: Pair a small repeated hand movement with increas...",
+   "text": "Pair a small repeated hand movement with increasing clarity; stop the movement and notice what remains.",
+   "chance_red": 0.55,
+   "chance_high": 0.1,
+   "why": "unchanged; read AI (Low) last time, with nothing near it changing (a window that moved)",
+   "kind": "changed"
+  },
+  {
+   "name": "kept: Don’t escape inside yourself....",
+   "text": "Don’t escape inside yourself.",
+   "chance_red": 0.55,
+   "chance_high": 0.1,
+   "why": "unchanged; read AI (Low) last time, with nothing near it changing (a window that moved)",
+   "kind": "changed"
+  },
+  {
+   "name": "neighbour of J5 (Protecting Yourself from Hypnotists, P3): the rest of its paragraph, after it",
+   "text": "People have their minds influenced without the conscious agreement of their adult self.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of J5 (Protecting Yourself from Hypnotists, P3): the paragraph before it",
+   "text": "Even when not actively engaging the conscious mind, there are many ways to influence people. Marketers and interface designers know this perfectly well. In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers. The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of J5 (Protecting Yourself from Hypnotists, P3): the paragraph after it",
+   "text": "A line associated with the Silva Mind Control tradition says it plainly:",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T2 (Forget the left-brain/right-brain cartoon, P5): the paragraph before it",
+   "text": "Without the mind of love the mind of analysis can be sterile. Without the mind of analysis the mind of love can lead to fantasy. Without testing intuitive signals they can become delusions. Without intuitive signals the testing can be dead. So these modes can correct each other.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T4 (When the adult role is not available yet, P2): the paragraph before it",
+   "text": "The problem is that some people do not have access to their adult functions at will. Instead, they may go blank, access an inherited inner critic, or feel like a child part who may be playing at being an adult (what I call forced adulthood). Telling them to just access their adult is like telling a baby bird to just fly.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T4 (When the adult role is not available yet, P2): the paragraph after it",
+   "text": "Access your witnessing position if necessary, just noticing what’s there, without needing it to be warm or wise or certain. If you already know how to access different internal positions, move immediately to accessing the adult position you want to borrow.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T5 (Please don’t put six metaphors in one trance, P1): the rest of its paragraph, after it",
+   "text": "If you’re going to use metaphors just do one, and if you switch metaphors, do it in a way that’s conscious.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T7 (Optional fractionation: practice coming back, P1): the rest of its paragraph, after it",
+   "text": "At some point in time you can add this, but you must say you are doing it before doing it, so no answer can secretly mean “deeper.”",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T7 (Optional fractionation: practice coming back, P1): the paragraph before it",
+   "text": "Check out Nimja’s sleep playlist to go to sleep listening to hypnosis",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of T7 (Optional fractionation: practice coming back, P1): the paragraph after it",
+   "text": "“Ok, open your eyes and come back up, feel the room around you, you can decide if you want to stop the work at this point or if you want to continue, if you want to continue soften your eyes or close them and notice the change that comes over you when you do, if you want to stop, that is ok too, either way is ok and you can stop at either place.”",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of kept: I was sober at the session and didn’t feel espec...: the rest of its paragraph, before it",
+   "text": "Doing self-hypnosis on my own seems far more useful than the very little I managed to do with a professional hypnotist.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of kept: I was sober at the session and didn’t feel espec...: the paragraph after it",
+   "text": "When I do it on my own, I can detect when the wording I’m using for a suggestion to my subconscious is slightly off, and talk to my subconscious to find out what it thinks is wrong with the wording. When I use an image, I can tell whether it’s giving me useful information, or just telling me what I’m afraid of, or what I want to avoid, or what I want to be true, or something I don’t understand yet. And I can notice my body saying no before my conscious mind talks me into a yes.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of kept: If so, you might not need to deepen....: the rest of its paragraph, before it",
+   "text": "Test: For a simple, chosen target, are you getting the response you want out of the suggestion already?",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of kept: If so, you might not need to deepen....: the paragraph before it",
+   "text": "Getting yourself ready to do something. Part of that is gathering your attention up. Part of that might be deepening. Part of that is letting what you notice inform the words you’re hearing and what you do next. There are lots of different ways to do this. For this method, I’m going to be counting, but you could do all sorts of things. If you want to just talk, or tell a story, or move, or make sounds, or be curious, or whatever, by all means, just do that. The only thing is, say that you’re doing it. Don’t pretend you’re doing something else, in the name of elegance or whatever.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of kept: When you’re writing the script, decide what the...: the paragraph after it",
+   "text": "Read this page, and the Come all the way back page, when you’re awake.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of kept: Long, elegant sentences don’t read well when you...: the rest of its paragraph, after it",
+   "text": "It’s all just soup.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of kept: Pair a small repeated hand movement with increas...: the rest of its paragraph, before it",
+   "text": "If being still tends to make you sleepy, or diffuse your attention, or make you want to mentally escape, you can make the hypnosis more active. Instead of getting more relaxed with the hypnosis, try getting more alert. Keep your eyes open.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of kept: Pair a small repeated hand movement with increas...: the paragraph before it",
+   "text": "Say something like, “If I’m meant to be getting guidance, please show me the action I need to take. If I’m avoiding something, please bring me back to now and show me what I’m avoiding.”",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of kept: Pair a small repeated hand movement with increas...: the paragraph after it",
+   "text": "“Starting with your eyes open press your thumb to your forefinger. And as you press your fingers together gently and release, you begin to bring yourself into a place of clearer awareness… again you press your fingers together and release, bringing yourself into an even clearer state of awareness. And again as you press your fingers together and release you bring yourself into a clear state of awareness, and now you stop pressing your fingers together and in the first second after you stop pressing your fingers together deliberately, you can notice if there is any echo of the pressing in your fingers, in your breathing, in your attention or nowhere at all. Just notice, keep yourself up straight and work at this level.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "last check's window 1 (Human, Medium, 40 words)",
+   "text": "Then put the screen away. You’re learning to run the practice yourself, so don’t keep reading along like it’s a checklist.\nYou’ll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - as you’re invited.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 15 (Human, Medium, 35 words)",
+   "text": "The body can have a voice - saying yes or no or not yet. The imagination can have opened up the field and then the adult can choose what to do next in the real world….",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 16 (Human, Low, 7 words)",
+   "text": "It can be peaceful but also precise.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 28 (Human, Low, 16 words)",
+   "text": "That’s one grown-up doing three jobs, and each job keeps the others in balance.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 30 (Human, Low, 12 words)",
+   "text": "Those belong in your relationship with it too, not just the wounds.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 34 (Human, Medium, 26 words)",
+   "text": "You could say something like, “Okay. I believe that you don’t believe me. I still love you. You don’t have to love me back.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 36 (Human, Medium, 12 words)",
+   "text": "What did it understand back then? What options could it actually see?",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 38 (Human, Medium, 3 words)",
+   "text": "What was missing?",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 40 (Human, Medium, 3 words)",
+   "text": "No warmth today?",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 46 (Human, Medium, 4 words)",
+   "text": "Those are not failures.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 48 (Human, Medium, 21 words)",
+   "text": "But before you decide where it’s coming from, ask it what it’s trying to stop, or what it wants.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 50 (Human, Medium, 17 words)",
+   "text": "(To the guard, in the same Nurturer voice you meant for your inner child: “I see you.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 51 (Human, Low, 19 words)",
+   "text": "I’m not going to force my way past you. What’s going on?” Then wait and listen patiently.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 52 (Human, Medium, 8 words)",
+   "text": "If nothing comes, that’s fine for now.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 54 (Human, Low, 18 words)",
+   "text": "This is not the same as your inner adult (Nurturer, Protector, Guide) that you build up on purpose.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 55 (Human, Low, 57 words)",
+   "text": "Often this script acts as a critic or warden, telling your inner child not to cry, not to be “needy”, not to embarrass them, not to be too independent, etc. So when you begin talking to your child in a new, loving way, the script may jump in to say that what you’re doing is “fake”.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 56 (Human, Medium, 7 words)",
+   "text": "Do you want to embody your Protector?",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 58 (Human, Medium, 13 words)",
+   "text": "It can be any age. It can be any vulnerable part of you.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 62 (Human, Medium, 20 words)",
+   "text": "If you can’t do that because you’re basically the frightened kid, leave the deeper conversation until later.\nB.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 74 (Human, Low, 53 words)",
+   "text": "Temporary Separation. Sometimes it may be wise to remove yourself, for a time, from the people or group that you normally would get answers from. Some people come back later on different terms, and sometimes the break has to be long-term because the pattern of losing yourself with them is deeply entrenched.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 75 (Human, Medium, 15 words)",
+   "text": "As you become more your own person, you learn to tell which of those apply.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 77 (Human, Medium, 5 words)",
+   "text": "Who benefits if I comply?",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 79 (Human, Medium, 8 words)",
+   "text": "A good guide leaves your adult more present.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 97 (Human, Medium, 19 words)",
+   "text": "How long do you want to spend on this? (You don’t have to do this on a problem.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 99 (Human, Medium, 6 words)",
+   "text": "(The part below called “Already open?",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 101 (Human, Medium, 12 words)",
+   "text": "Deciding to do it: how will you coax yourself to do this?",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 102 (Human, Low, 19 words)",
+   "text": "Make it spacious? Make it warm and held? Make it firmer, so you stay with a feeling? Something else?",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 103 (Human, Medium, 28 words)",
+   "text": "Preview what you are going to do: will you close your eyes? Will you come out and go back in again? What will you do at the end?",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 105 (Human, Medium, 14 words)",
+   "text": "Know that you can say “stop” at any time and the induction will end.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 107 (Human, Medium, 19 words)",
+   "text": "A no will stay a no. The narrator can’t add stuff just because you don’t say anything.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 109 (Human, Medium, 7 words)",
+   "text": "Learn how to notice what is there.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 119 (Human, Medium, 3 words)",
+   "text": "Where are you?",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 121 (Human, Medium, 3 words)",
+   "text": "Focus on that.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 123 (Human, Medium, 5 words)",
+   "text": "My body may stay safe.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 125 (Human, Medium, 3 words)",
+   "text": "Feel your spine.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 135 (Human, Medium, 13 words)",
+   "text": "“Love above, Child below, Adult present”\n“Sending my love down to my Child.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 136 (Human, Low, 15 words)",
+   "text": "If something comes back up, I let it, and send my love on down again.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 137 (Human, Medium, 32 words)",
+   "text": "If nothing comes back, I just keep sending mine, and listening.”\nSleep induction is different than inner work, where you need to come back up to write things down and do actions.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 144 (Human, Medium, 4 words)",
+   "text": "Move around a bit.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 147 (Human, Medium, 12 words)",
+   "text": "Whatever it is, tell your little one, “That’s enough for today.",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 149 (Human, Medium, 22 words)",
+   "text": "Prepare me BEFORE you break it open! Ground me BEFORE you show me the memory! Support me BEFORE you make it intense!",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 150 (Human, Low, 6 words)",
+   "text": "Give me one next action!” etc.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 152 (Human, Medium, 31 words)",
+   "text": "Ask: “Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.”\nDo you have a sense of what it is that feels fake?",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 154 (Human, Low, 46 words)",
+   "text": "You could say something like ‘What are you protecting me from?’ or ‘Are you afraid I will lie to myself again?’ or ‘Are you afraid this will just be a performance?’ If it says yes, that one can sting, because there could be something to it.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  },
+  {
+   "name": "last check's window 157 (Human, Medium, 30 words)",
+   "text": "Start from the basis that the subconscious, the body, the sharp mind, and the guard who’s tensed up and ready for the other shoe to drop for a lo",
+   "chance_red": 0.01,
+   "why": "read Human, Medium, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  }
+ ],
+ "rest": {
+  "chance_red": 0.25,
+  "why": "any red outside the parts above"
+ }
+}

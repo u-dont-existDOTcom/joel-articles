@@ -1,0 +1,20 @@
+{"part": "2", "findings": [
+  {"block": 138,
+   "text": "Often what you're experiencing is a very charming guard.",
+   "kind": "wrong-word",
+   "what": "A guard that shows up as numbness, cynicism or sleepiness is not charming; the sentence says it is a common thing, so 'charming' looks like a slip for 'common'.",
+   "fix": "Often what you're experiencing is a very common guard.",
+   "confidence": "likely"},
+  {"block": 106,
+   "text": "Their trust can question your promises, remember when you failed to protect them, and take its time.",
+   "kind": "meaningless",
+   "what": "Trust does not question or remember; the subject should be the little one (they), so 'Their trust' and 'its' do not make sense.",
+   "fix": "They can question your promises, remember when you failed to protect them, and take their time.",
+   "confidence": "likely"},
+  {"block": 156,
+   "text": "before taking off the kid gloves, so to speak, and jumping into the healing work",
+   "kind": "wrong-word",
+   "what": "'Taking off the kid gloves' means becoming harsh, which is the opposite of the gentle quality time the sentence recommends.",
+   "fix": "before jumping into the healing work",
+   "confidence": "likely"}
+], "notes": "Block 100 'try it out instead of repeating the exercise' reads slightly odd but is understandable, so I left it. The rest of blocks 88 to 167 reads sensibly."}

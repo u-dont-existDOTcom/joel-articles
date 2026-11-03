@@ -40,6 +40,22 @@ class Ledger(unittest.TestCase):
         return L.main(['result', self.ledger, '--sha', L.sha256(body), '--verdict', verdict,
                        '--link', 'https://www.pangram.com/history/x%d' % self.n])
 
+    def test_compact_results_keep_their_windows(self):
+        """The web app reader's compact form gives the windows as one string; read character by character, every result
+        was Mixed (2026-11-01, batch s1101). A correction run records the right verdict after the wrong one."""
+        self.assertEqual(self.predict('all human', key='k1'), 0)
+        res = self.dir / 'res.json'
+        res.write_text(json.dumps({'k1': ['Human Written', 0, 2, 'Human, High, 2', '20:00:00', '/u1', []]}), encoding='utf-8')
+        self.assertEqual(L.main(['results', self.ledger, str(res)]), 0)
+        p = L.find(L.read(self.ledger), key='k1')
+        self.assertEqual(p['result']['verdict'], 'Human')
+        res.write_text(json.dumps({'k1': ['Mostly Human Written', 0.05, 2, 'Human, High, 1; AI-Generated, Low, 1', '20:00:00',
+                                          '/u1', []]}), encoding='utf-8')
+        self.assertEqual(L.main(['results', self.ledger, str(res), '--correct', 'test']), 0)
+        p = L.find(L.read(self.ledger), key='k1')
+        self.assertEqual(p['result']['verdict'], 'Mixed')
+        self.assertIn('corrects', p['result']['note'])
+
     def test_a_prediction_needs_evidence(self):
         self.assertEqual(self.predict('one', tells=()), 2)
         self.assertEqual(L.read(self.ledger), [])
@@ -65,6 +81,34 @@ class Ledger(unittest.TestCase):
         self.assertEqual(self.predict('s2', lineage='S13', scope='section', diagnosis='the seam of P3 and P4 rewritten'), 0)
         self.result('s2', 'AI')
         self.assertEqual(self.predict('s3', lineage='S13', scope='section', diagnosis='another'), 2)
+
+    def test_a_half_does_not_go_through_the_paid_api(self):
+        """Joel, 2026-11-02 20:38 UTC: "that should be done the free way to not waste my pangram credits" (E218, E325)."""
+        half = ' '.join(['word'] * 1500)
+        argv = ['predict', self.ledger, '--lineage', 'W2', '--scope', 'stretch', '--text', self.text(half), '--call', 'AI',
+                '--chance', '0.4', '--tells', 'x', '--detector', "pangram 4.1, the API (Joel's key, run on his laptop; E218)"]
+        self.assertEqual(L.main(argv), 2)
+        sub = list(argv); sub[-1] = "pangram 4.1, Pangram's check of the Substack draft (free)"
+        self.assertEqual(L.main(sub + ['--decides', 'what the whole reads now']), 0)
+
+    def test_a_fixed_section_gets_one_more_check_after_each_fix(self):
+        """Joel, 2026-11-02 19:11 UTC, his answer 28a: one more check of the whole section after each fix, each with my
+        prediction written first. Past its two tries a section takes a check only with --after-fix, and never of a text it
+        has already sent."""
+        def fixed(body, after_fix=None):
+            argv = ['predict', self.ledger, '--lineage', 'S9', '--scope', 'section', '--text', self.text(body), '--call', 'Human',
+                    '--chance', '0.6', '--tells', 'a closer', '--diagnosis', 'the closer cut']
+            return L.main(argv + (['--after-fix', after_fix] if after_fix else []))
+        self.assertEqual(self.predict('a1', lineage='S9', scope='section', call='AI'), 0)
+        self.result('a1', 'Mixed')
+        self.assertEqual(self.predict('a2', lineage='S9', scope='section', call='AI', diagnosis='the seam rewritten'), 0)
+        self.result('a2', 'Mixed')
+        self.assertEqual(fixed('a3'), 2)
+        self.assertEqual(fixed('a3', 'the closer of P2 cut'), 0)
+        self.result('a3', 'Human')
+        self.assertEqual(fixed('a3', 'the same text again'), 2)
+        self.assertEqual(L.main(['predict', self.ledger, '--lineage', 'P9', '--scope', 'paragraph', '--text', self.text('p'),
+                                 '--call', 'Human', '--chance', '0.6', '--tells', 'x', '--after-fix', 'not a section']), 0)
 
     def test_a_substack_article_check_goes_past_two_when_it_decides_something(self):
         """Joel, 2026-10-21 17:56 UTC, question 7 b: Substack checks of a whole article may go past two, each predicted

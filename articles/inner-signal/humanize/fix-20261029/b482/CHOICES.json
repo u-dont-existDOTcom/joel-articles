@@ -1,0 +1,23 @@
+{
+ "T1": {"pick": "v1", "why": "clear on a first read and keeps all three points (put the screen away; you're learning to run it yourself; don't read along like a checklist); v2 runs the three into one long sentence"},
+ "T2": {"pick": "v2", "why": "keeps the requirement ('should') where v1's 'Maybe' softens it, and says each outcome about people; v1's opening names what has to lead somewhere better than v2's 'the practice' does after the modes paragraph, so that sentence comes from v1", "fix": [["And the practice has to go somewhere.", "And all this inner work has to lead somewhere.", "'the practice' has nothing to point to after the paragraph on the modes of mind, and 'go somewhere' is weaker than the published 'lead somewhere' (v1's first sentence)"]]},
+ "T3": {"pick": "v2", "why": "its 'though' answers the paragraph before (a hypnotist can't get the feedback, though a guide has advantages), and 'outside my own head' answers its 'they aren't IN my mind'; v1 is fine but loses that link"},
+ "T4": {"pick": "v1", "why": "every point kept (his term in quotes, a provisional bridge, built from modeling and supported action, not formally tested as one treatment) in his first-person voice; v2 trades 'provisional' for 'temporary'"},
+ "T5": {"pick": "v2", "why": "follows 'Keep it simple.' cleanly with one sentence for the three ones and one for the tone; v1's 'Pick the one thing you're doing' reads oddly (pick what you're doing?)"},
+ "T6": {"pick": "v1", "why": "the plainest: borrowing is fine, the limit is its own short sentence, still an aside in brackets"},
+ "T7": {"pick": "v1", "why": "says what fractionation is in two plain steps and the door line as what you actually learn; it keeps fractionation as the topic for the next sentence's 'add this'"},
+ "T8": {"pick": "v1", "why": "each of the three points its own plain sentence, and 'that' clearly means using the NLP; v2's 'The prompt is you letting your subconscious know' is clumsy"},
+ "T9": {"pick": "v1", "why": "the definition and the no-hidden-demand rule in one sentence, then the modest shift right before the example it introduces; v2's last sentence is awkward"},
+ "T10": {"pick": "v1", "why": "one plain sentence in the order a reader needs (what it is, what it does to any answer); v2 puts the reason last as an afterthought"},
+ "T11": {"pick": "v1", "why": "names the ethical double bind (no 'one' to resolve) and says both ways are safe, before his list of examples"},
+ "T12": {"pick": "v1", "why": "the smallest change: the colon goes and 'questions like' fits the 'etc., etc.' that ends the list"},
+ "T13": {"pick": "v1", "why": "plain and keeps every word that matters; it also breaks the run of 'I do not' sentences in the list; v2's 'not until' is awkward"},
+ "T14": {"pick": "v2", "why": "'options for the body' follows the paragraph's 'Work with the body' where v1's 'somatic things' is odd, and its last sentence says the point of the quip plainly (use what helps, don't pile on wellness stuff)"},
+ "T15": {"pick": "v2", "why": "the script keeps his published shape ('I am here now. The adult is listening.'), where v1's 'and so is the adult' makes the adult sound like a second person; the instruction after it is plain"},
+ "T16": {"pick": "v2", "why": "keeps 'while' (both at once), where v1's 'In the meantime' changes the timing; it names love, so the next sentence's 'that love' has something to point to"},
+ "T17": {"pick": "v1", "why": "keeps each step's label and point, and 'Doing the inner contact fully alert doesn't make it a lesser version' says what the bracket meant; v2's 'Being fully alert for this one' is vaguer"},
+ "J1": {"pick": "v1", "why": "the smallest change to his sentence ('that part of you remembers it'), and it still sets up 'Tell me what you remember'"},
+ "J2": {"pick": "v2", "why": "continues his 'I'd only do it if' in the first person, a plain personal rule rather than a closing line; every condition kept (makes sense, big or hard to undo waits, calm, checked against what you know)"},
+ "J3": {"pick": "v2", "why": "plain and in the order a reader does it: no warmth means no need to fake it, then rest your hands and notice; v1 is one run-on sentence"},
+ "J4": {"pick": "v2", "why": "a plain instruction that answers the sentence before it; v1 keeps the signpost shape ('It's more useful to ask whether') that read AI High"}
+}

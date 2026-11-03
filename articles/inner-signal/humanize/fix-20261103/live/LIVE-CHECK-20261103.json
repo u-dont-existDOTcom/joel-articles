@@ -1,0 +1,75 @@
+{
+ "about": "LIVE-CHECK-20261103.json: the hypnosis guide (HUMANIZED-SO-FAR.md 010b9fc3) in Joel's post behind hypnosis.u-dont-exist.com, after his \"33a\" of 2026-11-03 13:46 UTC.",
+ "url": "https://ibogaqueen.substack.com/p/guide-to-self-hypnosis-and-app-including",
+ "post_id": 202810155,
+ "title": "Inner Signal Guide to Self-Hypnosis (& APP), including Reparenting, Conscious-Subconscious Spiritual Communion",
+ "subtitle": "You won't find a hypnosis guide like this anywhere. Last update: Nov 3, 2026, v. 7.0",
+ "audience": "everyone",
+ "post_date": "2026-06-24T14:39:28.546Z",
+ "before": {
+  "body_html_sha256": "f014f7b80735120c97cc2065808afcdc7ae13d7dff71bbc2d65116bc8d842ac5",
+  "subtitle": "You won't find a hypnosis guide like this anywhere. Last update: Nov 2, 2026, v. 7.0",
+  "words": 31452
+ },
+ "after": {
+  "body_html_sha256": "f64d9a59a65d18f4369d40d818e46f8dac8d6e7b2e93459b230743ecbf7dce46",
+  "words": 30386
+ },
+ "guide": {
+  "file": "articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "010b9fc3c6e6bb1273736c47b00c89a7f50f0de20b5a0e161ced5b33cb65c5d1",
+  "words": 30437
+ },
+ "checks": {
+  "title unchanged": true,
+  "subtitle": true,
+  "audience unchanged": true,
+  "post date unchanged": true,
+  "words: only the native blocks differ": true
+ },
+ "differences": [
+  {
+   "op": "delete",
+   "guide": "image 1",
+   "live": "",
+   "native": true
+  },
+  {
+   "op": "delete",
+   "guide": "Double click to interact with video",
+   "live": "",
+   "native": true
+  },
+  {
+   "op": "delete",
+   "guide": "image 2",
+   "live": "",
+   "native": true
+  },
+  {
+   "op": "delete",
+   "guide": "image 3 Try this 10-Second Sky Hypnosis Body Mind Hack Copy link",
+   "live": "",
+   "native": true
+  },
+  {
+   "op": "replace",
+   "guide": "suggestions",
+   "live": "suggestion s",
+   "native": true
+  },
+  {
+   "op": "delete",
+   "guide": "image 4",
+   "live": "",
+   "native": true
+  },
+  {
+   "op": "delete",
+   "guide": "Psychedelics Trip-Sitting Medical Triage Shadow Work Therapy v 5 3 updated July 19 2026 u-dont-exist com 25 août 2025image 5 Quick Triage Web-App Version HERE Read full story",
+   "live": "",
+   "native": true
+  }
+ ],
+ "verdict": "PASS"
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cm/HG-Pattern-6-Ethical-double-bin-514.txt",
+  "input_words": 56,
+  "input_sha256": "523ab82d7dd7ef852efcaa9fa06415959d553056cd3e84ae73a3ca1e7e8a9a64",
+  "balance_before": 43269,
+  "started_utc": "2026-10-26T12:59:26Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:59:31Z",
+  "response": {
+    "id": "7aa11c69-c5af-451e-9de6-0f259402fd65",
+    "tool": "humanize",
+    "text": "Manipulative Double Bind Questions are those that always lead the subject to perform the outcome that the speaker wishes for, regardless of the answer chosen.\n\nIf, however, both outcomes are safe, the Double Bind Question can be an ethical approach. Some ethical examples of Double Bind Questions might be:\n\nWhich would you prefer, feeling a warmth, or feeling a space?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 56
+    },
+    "elapsed": 4
+  },
+  "balance_after": 43101
+}

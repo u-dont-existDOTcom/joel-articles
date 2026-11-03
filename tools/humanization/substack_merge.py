@@ -393,12 +393,19 @@ def main():
             lead.append(seg.pop(0))
         while seg and deco(seg[-1]):
             trail.insert(0, seg.pop())
-        if any(deco(b) for b in seg):
-            rep['notes'].append('segment %d: a rule or empty paragraph inside the text, dropped with it: %r' % (s, [b[:40] for b in seg if deco(b)]))
-        units = []
+        # a rule or empty paragraph inside the segment stays before the master block that aligns with the editor block
+        # after it (2026-11-02: the hypnosis guide's chapter rule before "Induction: ...", whose heading his rewrite
+        # renamed, sat inside a segment and was read as an empty paragraph of text)
+        units, mid_deco, pending = [], {}, []
         for bi, b in enumerate(seg):
-            for u in editor_units(b):
+            if deco(b):
+                pending.append(b)
+                continue
+            for k, u in enumerate(editor_units(b)):
                 u['lid'] = bi
+                if pending and k == 0:
+                    mid_deco[len(units)] = pending
+                    pending = []
                 units.append(u)
         ptext = [b for b in pub[p0:p1] if b['kind'] in ('para', 'heading')]
         if [u['text'] for u in units] != [plain_md(b['md'].lstrip('#') if b['kind'] == 'heading' else b['md']) for b in ptext]:
@@ -417,6 +424,15 @@ def main():
         html_blocks, open_list, open_bq, open_ml = [], None, None, None
         for j, b in enumerate(mtext):
             u = units[pairs[j][0]] if j in pairs else None
+            if j in pairs and pairs[j][0] in mid_deco:
+                if open_list:
+                    html_blocks.append(close_list(open_list)); open_list = None
+                if open_bq:
+                    html_blocks.append(close_bq(open_bq)); open_bq = None
+                if open_ml:
+                    html_blocks.append(close_ml(open_ml)); open_ml = None
+                html_blocks.extend(mid_deco.pop(pairs[j][0]))
+                rep['notes'].append('segment %d: a rule or empty paragraph inside the text kept before %r' % (s, b['md'][:60]))
             if b['kind'] == 'heading':
                 if open_list:
                     html_blocks.append(close_list(open_list)); open_list = None
@@ -520,6 +536,9 @@ def main():
         if unaligned or cut:
             rep['notes'].append('segment %d: master paragraphs with no published counterpart %r; published ones with none in the master %r'
                                 % (s, unaligned, cut))
+        if mid_deco:
+            rep['notes'].append('segment %d: a rule or empty paragraph inside the text, dropped with the block after it: %r'
+                                % (s, [b[:40] for v in mid_deco.values() for b in v]))
         out += lead + html_blocks + trail
         merged_words_master += [w for b in mtext for w in words(plain_md(body_md(b)))]
         if s < len(anchors):

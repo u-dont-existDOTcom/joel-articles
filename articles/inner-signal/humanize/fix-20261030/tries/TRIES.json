@@ -1,0 +1,166 @@
+{
+ "guide_sha256": "975fdb3c2ac7d4a92856683866cf14d758cbf907e6ec408d605ceec3a1faed2b",
+ "master_sha256": "abdb95eb310c1387cf32b9e3aaacd38ee8c4d90c0feed24e4aab3d2c5120f2f7",
+ "kept_from_last_recheck": [
+  "S-14",
+  "S-20",
+  "S-24",
+  "S-782"
+ ],
+ "tries": [
+  {
+   "id": "T-35",
+   "kind": "take back",
+   "findings": [
+    "F1.10"
+   ],
+   "block": 35,
+   "where": "Protecting Yourself from Hypnotists, P6",
+   "whose": "my fix of 30 October (F1.10)",
+   "read": "AI (Low), part A window 14",
+   "before": "Ads, screens, fear and cravings are already training your mind, and so are your tribe, the people in authority, loneliness and plain old repetition. With self-hypnosis you can train your own mind from the inside, by befriending and listening to the deeper part of your mind. This opens up a whole new area of choice for you as an adult in the world.",
+   "after": "With self-hypnosis you can train your own mind from the inside, by befriending and listening to the deeper part of your mind. This opens up a whole new area of choice for you as an adult in the world.",
+   "why": "You cut this point as a repeat on 25 October (card RP-1.4: \"says again that other forces are already shaping your mind, after the marketers paragraph and the Silva line have said it\"). My full read brought it back as a list, and it read AI. It comes out again."
+  },
+  {
+   "id": "T-337",
+   "kind": "take back",
+   "findings": [
+    "F10.1"
+   ],
+   "block": 337,
+   "where": "Let the response change the invitation, P1",
+   "whose": "my fix of 30 October (F10.1)",
+   "read": "AI (Low), part A window 150",
+   "before": "Your shoulders tightening, or 'hmm, that feels kind of wrong', is a signal to investigate further. A tightening won't tell you what it's about by itself, so ask what happened and whether the invitation fits. But 'No! That is Not Right!' is a signal to stop what you're doing and change it. If you don't feel like it fits, don't keep doing it, and don't try saying it again more persuasively. Just change it. You don't need any other reason.",
+   "after": "Your shoulders tightening, or 'hmm, that feels kind of wrong', is a signal to investigate further, but 'No! That is Not Right!' is a signal to stop what you're doing and change it. If you don't feel like it fits, don't keep doing it, and don't try saying it again more persuasively. Just change it. You don't need any other reason.",
+   "why": "On 28 October I found this point said already (AUDIT.md, F6a.1): the response check just above calls a tightness a notice, not a meaning, and says to find out what happened, and the script just below asks whether the invitation fits. My restored sentence said it again and read AI. The sentence goes back to one, as it read High on 29 October; \"don't try saying it again more persuasively\" stays."
+  },
+  {
+   "id": "T-339",
+   "kind": "new try",
+   "findings": [
+    "F10.2"
+   ],
+   "block": 339,
+   "where": "Let the response change the invitation, P3",
+   "whose": "my fix of 30 October (F10.2)",
+   "read": "AI (High), part A windows 155 and 156",
+   "before": "Sometimes the invitation just isn't right. Sometimes it brings up a possibility you hadn't thought of, and the feeling that comes with it is worth meeting. You don't have to know which it is before you make room to find out. Either way, your doubt isn't automatically a guard, and silence doesn't mean a hidden process is working.",
+   "after": "Sometimes the invitation just isn't right, and other times it's brought up something you hadn't thought of, with a feeling that's worth meeting, so give it a little room and find out which. Either way, your doubt isn't automatically a guard, and silence doesn't mean a hidden process is working.",
+   "why": "My clear version read AI (High): two \"Sometimes\" sentences in a row, a \"you don't have to\" line and a tidy pair. This keeps every point in two sentences, the shape of the unclear version that read High on 29 October."
+  },
+  {
+   "id": "T-374",
+   "kind": "take back",
+   "findings": [
+    "F11.5"
+   ],
+   "block": 374,
+   "where": "Capacity before content, P5",
+   "whose": "my fix of 30 October (F11.5)",
+   "read": "AI (Low), part A window 162",
+   "before": "This can lead to flooding, panic, false certainty, confabulation, dissociation etc. and can make your day SUCK! When you are flooded, it is much harder to access your adult capacities, so focus on being able to regulate and getting support! If your subconscious won’t answer, it may be protecting you until your adult is steady enough to take in what it has. Just ask for what you need to know in a way that you CAN tolerate:",
+   "after": "This can lead to flooding, panic, false certainty, confabulation, dissociation etc. and can make your day SUCK! When you are flooded, it is much harder to access your adult capacities, so focus on being able to regulate and getting support! Just ask for what you need to know in a way that you CAN tolerate:",
+   "why": "On 28 October I found this point said already (AUDIT.md, F6b.12): the section's first paragraph says \"If knowing what your subconscious knows would destabilize you, it is not meant for you to know directly at this time!\" My full read brought it back anyway, and it read AI. It comes out again; the comma before \"so\" stays."
+  },
+  {
+   "id": "T-495",
+   "kind": "new try",
+   "findings": [
+    "F7.7"
+   ],
+   "block": 247,
+   "where": "Before you begin, P6",
+   "whose": "my fix of 30 October (F7.7)",
+   "read": "Human (Low), part A window 108",
+   "before": "Let your response guide you as to what to do next regardless of what the script is expecting. Utilize: use what you have (a thought, sound, movement, or objection) to go to the next place, whatever it is. Learn how to notice what is there. If nothing changes, notice that too: no change doesn't mean it worked in some way you can't see. For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain.",
+   "after": "Let your response guide you as to what to do next regardless of what the script is expecting. Utilize: use what you have (a thought, sound, movement, or objection) to go to the next place, whatever it is. Learn how to notice what is there. If nothing changes, notice that too, and don't talk yourself into believing it worked in some way you can't see. For more on language you can use, see Appendix B, or keep reading below for information on using the tools after induction in Let the next response guide you. Either way, keep the instructions about how to stay safe and how to get out plain.",
+   "why": "Read Human (Low): a colon, then a \"doesn't mean\" line. This says the same thing as one plain instruction."
+  },
+  {
+   "id": "T-249",
+   "kind": "new try",
+   "findings": [
+    "F8.1"
+   ],
+   "block": 249,
+   "where": "Sober induction: 3–5 minutes, P1",
+   "whose": "my fix of 30 October (F8.1)",
+   "read": "Human (Low), part A window 112",
+   "before": "You can read this slowly into your recorder, or you can read it out loud or say it to yourself if you are good at that. Choose a sound, or a contact, or the two-hand practice (above) or something to anchor yourself, and choose the thing you will say to open it up. Use the same anchor wherever the script mentions it. Don't read the directions out loud. Just pause between paragraphs.",
+   "after": "You can read this slowly into your recorder, or you can read it out loud or say it to yourself if you are good at that. Choose a sound, or a contact, or the two-hand practice (above) or something to anchor yourself, and choose the thing you will say to open it up. Use the same anchor wherever the script mentions it. Don't read the directions out loud, just pause between paragraphs.",
+   "why": "Read Human (Low): three short commands in a row. The sentence before my fix was \"Don't read the directions, just pause between paragraphs\"; this keeps its shape, with \"out loud\" so it can't be read as \"don't read them at all\"."
+  },
+  {
+   "id": "T-503",
+   "kind": "new try",
+   "findings": [
+    "F14.6"
+   ],
+   "block": 503,
+   "where": "Pattern 2: Awareness verbs, P2",
+   "whose": "my fix of 30 October (F14.6)",
+   "read": "AI (Medium), part B window 9",
+   "before": "Example: ‘Notice how the answer comes to you: as an image, a word, a pressure, some warmth, silence, or something to do next.’",
+   "after": "Example: ‘Notice how the answer comes to you… maybe as an image, or a word… maybe as a pressure, or some warmth… or a silence, or a sense of what to do next.’",
+   "why": "Read AI: a colon, then six things in one breath. Said the way a script is spoken, with its pauses, every one of them is still there."
+  },
+  {
+   "id": "T-505",
+   "kind": "new try",
+   "findings": [
+    "F14.4"
+   ],
+   "block": 505,
+   "where": "Pattern 3: Presuppositions, P1",
+   "whose": "my fix of 30 October (F14.4)",
+   "read": "AI (Medium and Low), part B windows 9 and 11",
+   "before": "A presupposition is an assumption hidden inside a sentence. Presumption is a powerful thing, so please don’t use it except to presume that we will have the choice of when it will happen, that we will be able to do it, that we are safe, that we are loved and that our adult can lead us. Never use it to sneak in obedience.",
+   "after": "Presumption is a powerful thing (a presupposition hides an assumption inside a sentence, and the person hearing it usually takes that assumption on board), so please don’t use it except to presume that we will have the choice of when it will happen, that we will be able to do it, that we are safe, that we are loved and that our adult can lead us. Don’t ever presume obedience, the way a hypnotist does when they say something like, ‘As you go deeper, it gets easier and easier to just do what I say.’",
+   "why": "Read AI: a textbook definition on its own and a short command. This puts the definition inside the sentence you approved, as an aside that says why presumption is powerful, and shows what presuming obedience sounds like, the way your reframing paragraph shows the dishonest reframe before the honest one."
+  },
+  {
+   "id": "T-508",
+   "kind": "new try",
+   "findings": [
+    "F14.5"
+   ],
+   "block": 508,
+   "where": "Pattern 4: Gentle cause-effect bridges, P1",
+   "whose": "my fix of 30 October (F14.5)",
+   "read": "AI (High), part B window 15 (it ran on into your embedded-invitations paragraph)",
+   "before": "Bridge words are words like ‘as, whilst, because, when, after, before, which means’ etc. These are words that link events. However, even if you say them in a lovely gentle voice it doesn’t mean that it’s true if it isn’t! It’s not very likely that just by breathing in and out your trauma is going to go away! A better bridge claims a lot less: ‘As I breathe, my adult self may become present enough to hear a small piece of what the wound needs.’",
+   "after": "Bridge words are words like ‘as, whilst, because, when, after, before, which means’ etc. These are words that link events. However, even if you say them in a lovely gentle voice it doesn’t mean that it’s true if it isn’t! It’s not very likely that just by breathing in and out your trauma is going to go away! So an honest bridge might sound more like, ‘As I breathe, my adult self may become present enough to hear a little of what the wound needs.’",
+   "why": "\"A better bridge claims a lot less:\" was a colon reveal, and the red ran on into your paragraph after it. This leads into the better version the way your reframing paragraph does (\"So we might arrive at, ...\")."
+  },
+  {
+   "id": "S-162",
+   "kind": "suggestion",
+   "findings": [
+    "A#63"
+   ],
+   "block": 162,
+   "where": "Don’t rush the repair, P5",
+   "whose": "your inner child guide's words",
+   "read": "AI (Low, 0.53), part A window 63; High on 29 October with the same words",
+   "before": "A. Prepare yourself to tend to them (get yourself into a place where you can spend time with them, have privacy, feel you can access support if you need it, and be as adult as you can be). How much of the grown-up you is actually here right now? Try looking around the room, pausing before you act, making a choice and following through on it. If you can't do that because you're basically the frightened kid, leave the deeper conversation until later.",
+   "after": "A. Prepare yourself to tend to them (get yourself into a place where you can spend time with them, have privacy, feel you can access support if you need it, and be as adult as you can be). How much of the grown-up you is actually here right now? To find out, try looking around the room, pausing before you act, making a choice and following through on it, since those are all things your adult self can do. If you can't do that because you're basically the frightened kid, leave the deeper conversation until later.",
+   "why": "Nothing in it changed, but the windows around it got smaller and it read AI at a coin toss. Your fix strategy, say why: the test works because those are things the adult in you can do, and the frightened kid can't."
+  },
+  {
+   "id": "S-382",
+   "kind": "suggestion",
+   "findings": [
+    "A#168"
+   ],
+   "block": 382,
+   "where": "Nothing happens, P2",
+   "whose": "your published version",
+   "read": "AI (High), part A window 168; Human (Medium) on 29 October with the same words",
+   "before": "Ask: “Show me one body sensation.” “Show me one word.” “Show me whether today is for listening or resting.”",
+   "after": "Ask for something small, like “Show me one body sensation,” or “Show me one word.” If even that gets you nothing, try “Show me whether today is for listening or resting.”",
+   "why": "Three \"Show me\" lines in a row read AI (High). This keeps your three asks, and the last one becomes what you ask when the small ones get nothing."
+  }
+ ]
+}

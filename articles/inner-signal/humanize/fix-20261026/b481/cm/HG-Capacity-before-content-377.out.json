@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cm/HG-Capacity-before-content-377.txt",
+  "input_words": 115,
+  "input_sha256": "f47b3d1dd321e6a55bd257a2480b11cd437dec1c0a95f1639302c07480a621d3",
+  "balance_before": 44216,
+  "started_utc": "2026-10-26T12:58:59Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:59:08Z",
+  "response": {
+    "id": "12ea1d4b-fec1-437c-864e-1155b691fad2",
+    "tool": "humanize",
+    "text": "Tip: To avoid being overwhelmed, ask your subconscious mind to proceed in a safe manner You can say: “Dear Wise Subconscious Mind, if there is something you know that my conscious self is not ready to know, please don’t break it open violently! Do what you can to make me able to know it in a way that is safe! Prepare me BEFORE you break it open! Ground me BEFORE you show me the memory! Support me BEFORE you make it intense! Give me one next action!” etc.\n\nNOTE: Not everything is literal, especially if it relates to trauma and memory. The mind often makes things symbolic, squashes things together, distorts things, makes it more dramatic, pulls in things from cultural influences, your fears etc. So, treat it like an image and get some help outside of yourself!",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 115
+    },
+    "elapsed": 8
+  },
+  "balance_after": 43907
+}

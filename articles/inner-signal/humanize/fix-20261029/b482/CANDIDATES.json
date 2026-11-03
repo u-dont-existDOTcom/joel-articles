@@ -1,0 +1,362 @@
+{
+ "master_sha256": "6e5256d4db49572df7d241f8bc6a7cbe1a4785b4adb2595bea2704959da9a737",
+ "candidate_sha256": "44fb354ecdc6572c0c906297c830c2b5f0547ddc2b4f6167afd9a2b3498d4961",
+ "links_dropped": [],
+ "spots": [
+  {
+   "id": "J1",
+   "where": "It feels fake, P2",
+   "block": 385,
+   "whose": "his",
+   "pick": "v1",
+   "why": "the smallest change to his sentence ('that part of you remembers it'), and it still sets up 'Tell me what you remember'",
+   "fixes": [],
+   "old": "Maybe you've fooled yourself before, and that part remembers.",
+   "new": "Maybe you've fooled yourself before, and that part of you remembers it.",
+   "readings": [
+    "AI (Low), window 166 of part A"
+   ],
+   "paragraph_before": "You could say something like 'What are you protecting me from?' or 'Are you afraid I will lie to myself again?' or 'Are you afraid this will just be a performance?' If it says yes, that one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part remembers. \"Tell me what you remember, I'm listening.\" works well here.",
+   "paragraph_after": "You could say something like 'What are you protecting me from?' or 'Are you afraid I will lie to myself again?' or 'Are you afraid this will just be a performance?' If it says yes, that one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part of you remembers it. \"Tell me what you remember, I'm listening.\" works well here."
+  },
+  {
+   "id": "J2",
+   "where": "Core prompts, P8",
+   "block": 480,
+   "whose": "his",
+   "pick": "v2",
+   "why": "continues his 'I'd only do it if' in the first person, a plain personal rule rather than a closing line; every condition kept (makes sense, big or hard to undo waits, calm, checked against what you know)",
+   "fixes": [],
+   "old": "It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and you've checked it against what you actually know.",
+   "new": "It would have to make sense too. And even with all that, I wouldn't do anything big or hard to undo until I'm calm and I've checked it against what I actually know.",
+   "readings": [
+    "AI (Low), window 3 of part B",
+    "AI (High), window 4 of part B"
+   ],
+   "paragraph_before": "Once you get an answer, you can ask: “What can I do in my ordinary life to prove that I heard correctly?” If it tells you to do something, I'd only do it if it's loving and leaves you free. It should make sense, too. Even then, anything big or hard to undo can wait until you're calm and you've checked it against what you actually know.",
+   "paragraph_after": "Once you get an answer, you can ask: “What can I do in my ordinary life to prove that I heard correctly?” If it tells you to do something, I'd only do it if it's loving and leaves you free. It would have to make sense too. And even with all that, I wouldn't do anything big or hard to undo until I'm calm and I've checked it against what I actually know."
+  },
+  {
+   "id": "J3",
+   "where": "Inner child love, P1",
+   "block": 630,
+   "whose": "his",
+   "pick": "v2",
+   "why": "plain and in the order a reader does it: no warmth means no need to fake it, then rest your hands and notice; v1 is one run-on sentence",
+   "fixes": [],
+   "old": "No warmth today? Then rest your hands there and notice what you find, no faking required.",
+   "new": "If you don’t feel any warmth today, there’s no need to fake it. Just rest your hands there and notice what you find.",
+   "readings": [
+    "AI (Medium), window 58 of part B",
+    "AI (High), window 59 of part B"
+   ],
+   "paragraph_before": "Here is some inner child love. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix it. I’m here now, and the adult is here now to listen to you.” Make sure you are actually talking to your inner child, who is scared to death. No warmth today? Then rest your hands there and notice what you find, no faking required.",
+   "paragraph_after": "Here is some inner child love. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix it. I’m here now, and the adult is here now to listen to you.” Make sure you are actually talking to your inner child, who is scared to death. If you don’t feel any warmth today, there’s no need to fake it. Just rest your hands there and notice what you find."
+  },
+  {
+   "id": "J4",
+   "where": "A response check, not a verdict about what it is, P4",
+   "block": 713,
+   "whose": "his",
+   "pick": "v2",
+   "why": "a plain instruction that answers the sentence before it; v1 keeps the signpost shape ('It's more useful to ask whether') that read AI High",
+   "fixes": [],
+   "old": "The useful question is whether this way of responding helps you become clearer, steadier, and less hooked.",
+   "new": "Just keep an eye on whether the way you’re responding to it helps you get clearer and steadier and less hooked.",
+   "readings": [
+    "AI (High), window 76 of part B"
+   ],
+   "paragraph_before": "You don’t have to find out if it’s a guard immediately, and you may not be able to comfort it quickly. The useful question is whether this way of responding helps you become clearer, steadier, and less hooked.",
+   "paragraph_after": "You don’t have to find out if it’s a guard immediately, and you may not be able to comfort it quickly. Just keep an eye on whether the way you’re responding to it helps you get clearer and steadier and less hooked."
+  },
+  {
+   "id": "T1",
+   "where": "Quick start: do this first, P2",
+   "block": 19,
+   "whose": "ours",
+   "pick": "v1",
+   "why": "clear on a first read and keeps all three points (put the screen away; you're learning to run it yourself; don't read along like a checklist); v2 runs the three into one long sentence",
+   "fixes": [],
+   "old": "Then put the screen aside; the practice is something you learn to conduct, not a checklist to keep reading.",
+   "new": "Then put the screen away. You’re learning to run the practice yourself, so don’t keep reading along like it’s a checklist.",
+   "readings": [
+    "AI (Low), window 1 of part A"
+   ],
+   "paragraph_before": "Prior to your first session, read through the induction and the full return in waking life, so you’re more familiar with them. Give yourself a chunk of time when you can be physically secure for the time it takes. Then put the screen aside; the practice is something you learn to conduct, not a checklist to keep reading.",
+   "paragraph_after": "Prior to your first session, read through the induction and the full return in waking life, so you’re more familiar with them. Give yourself a chunk of time when you can be physically secure for the time it takes. Then put the screen away. You’re learning to run the practice yourself, so don’t keep reading along like it’s a checklist."
+  },
+  {
+   "id": "T2",
+   "where": "Forget the left-brain/right-brain cartoon, P5",
+   "block": 63,
+   "whose": "ours",
+   "pick": "v2",
+   "why": "keeps the requirement ('should') where v1's 'Maybe' softens it, and says each outcome about people; v1's opening names what has to lead somewhere better than v2's 'the practice' does after the modes paragraph, so that sentence comes from v1",
+   "fixes": [
+    [
+     "And the practice has to go somewhere.",
+     "And all this inner work has to lead somewhere.",
+     "'the practice' has nothing to point to after the paragraph on the modes of mind, and 'go somewhere' is weaker than the published 'lead somewhere' (v1's first sentence)"
+    ]
+   ],
+   "old": "And it’s got to lead somewhere: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life.",
+   "new": "And all this inner work has to lead somewhere. You should come out of it kinder to people, or humbler, or making better decisions, or doing real service, or with an everyday life that works better than before.",
+   "readings": [
+    "AI (Low), window 24 of part A"
+   ],
+   "paragraph_before": "And it’s got to lead somewhere: kinder behavior, more humility, better judgment, real service, or a more workable ordinary life.",
+   "paragraph_after": "And all this inner work has to lead somewhere. You should come out of it kinder to people, or humbler, or making better decisions, or doing real service, or with an everyday life that works better than before."
+  },
+  {
+   "id": "T3",
+   "where": "Why doing it myself worked better for me, P4",
+   "block": 68,
+   "whose": "ours",
+   "pick": "v2",
+   "why": "its 'though' answers the paragraph before (a hypnotist can't get the feedback, though a guide has advantages), and 'outside my own head' answers its 'they aren't IN my mind'; v1 is fine but loses that link",
+   "fixes": [],
+   "old": "Self-hypnosis simply has one advantage nobody outside can duplicate: immediate dialogue with the system itself.",
+   "new": "When I hypnotize myself, though, my dialogue with the system itself is immediate, and that's an advantage nobody outside my own head can duplicate.",
+   "readings": [
+    "AI (Low), window 30 of part A"
+   ],
+   "paragraph_before": "Self-hypnosis simply has one advantage nobody outside can duplicate: immediate dialogue with the system itself. I found that especially amplified with loveyhuasca. My experiences included a much deeper understanding of my motivations, peaceful loving awareness operating alongside analytical clarity, the disappearance of unhelpful daydreaming, different priorities around relationships, stronger intuition, and repeated correction between intuition, subconscious response, and conscious analysis.",
+   "paragraph_after": "When I hypnotize myself, though, my dialogue with the system itself is immediate, and that's an advantage nobody outside my own head can duplicate. I found that especially amplified with loveyhuasca. My experiences included a much deeper understanding of my motivations, peaceful loving awareness operating alongside analytical clarity, the disappearance of unhelpful daydreaming, different priorities around relationships, stronger intuition, and repeated correction between intuition, subconscious response, and conscious analysis."
+  },
+  {
+   "id": "T4",
+   "where": "When the adult role is not available yet, P2",
+   "block": 96,
+   "whose": "ours",
+   "pick": "v1",
+   "why": "every point kept (his term in quotes, a provisional bridge, built from modeling and supported action, not formally tested as one treatment) in his first-person voice; v2 trades 'provisional' for 'temporary'",
+   "fixes": [],
+   "old": "For that starting point, I have developed a kind of provisional bridge that I call “borrowed adulthood.” It’s built from familiar practices like modeling and supported action, but I’m not suggesting that the whole sequence has been formally tested and proven as one treatment.",
+   "new": "For people starting from there, I came up with something I call “borrowed adulthood.” I think of it as a provisional bridge, and I pieced it together from familiar practices like modeling and supported action. I’m not saying the whole sequence has been formally tested and proven as one treatment, though.",
+   "readings": [
+    "AI (High), window 40 of part A",
+    "AI (High), window 40 of part A"
+   ],
+   "paragraph_before": "For that starting point, I have developed a kind of provisional bridge that I call “borrowed adulthood.” It’s built from familiar practices like modeling and supported action, but I’m not suggesting that the whole sequence has been formally tested and proven as one treatment.",
+   "paragraph_after": "For people starting from there, I came up with something I call “borrowed adulthood.” I think of it as a provisional bridge, and I pieced it together from familiar practices like modeling and supported action. I’m not saying the whole sequence has been formally tested and proven as one treatment, though."
+  },
+  {
+   "id": "T5",
+   "where": "Please don’t put six metaphors in one trance, P1",
+   "block": 237,
+   "whose": "ours",
+   "pick": "v2",
+   "why": "follows 'Keep it simple.' cleanly with one sentence for the three ones and one for the tone; v1's 'Pick the one thing you're doing' reads oddly (pick what you're doing?)",
+   "fixes": [],
+   "old": "One thing you're doing, one anchor/image you're going with at first, one way of coming back, and feel free to set a tone (warm, bounded, directed, neutral witnessing, whatever) for yourself.",
+   "new": "Stick to the one thing you're doing, with one anchor or image to get started and one way to come back. You can also set yourself a tone if you want one, maybe warm or bounded or directed or neutral witnessing, or whatever else.",
+   "readings": [
+    "AI (Low), window 93 of part A"
+   ],
+   "paragraph_before": "Keep it simple. One thing you're doing, one anchor/image you're going with at first, one way of coming back, and feel free to set a tone (warm, bounded, directed, neutral witnessing, whatever) for yourself. If you're going to use metaphors just do one, and if you switch metaphors, do it in a way that's conscious.",
+   "paragraph_after": "Keep it simple. Stick to the one thing you're doing, with one anchor or image to get started and one way to come back. You can also set yourself a tone if you want one, maybe warm or bounded or directed or neutral witnessing, or whatever else. If you're going to use metaphors just do one, and if you switch metaphors, do it in a way that's conscious."
+  },
+  {
+   "id": "T6",
+   "where": "Please don’t put six metaphors in one trance, P2",
+   "block": 238,
+   "whose": "ours",
+   "pick": "v1",
+   "why": "the plainest: borrowing is fine, the limit is its own short sentence, still an aside in brackets",
+   "fixes": [],
+   "old": "(You can borrow qualities such as warmth or steadiness, but don't change who you are.)",
+   "new": "(It's fine to borrow qualities like warmth or steadiness. Just don't change who you are.)",
+   "readings": [
+    "AI (Low), window 96 of part A"
+   ],
+   "paragraph_before": "Using metaphors and imagery is entirely optional. You can use whatever form of signal shows up (feelings, rhythms, movements, words, spatial sense, simple knowing, lack of signal, whatever) but if you're using words, try to keep them related to whatever world you're creating. If you're going to count, do it in a way that makes sense in your world. And when you're done, come back the other way. (You can borrow qualities such as warmth or steadiness, but don't change who you are.)",
+   "paragraph_after": "Using metaphors and imagery is entirely optional. You can use whatever form of signal shows up (feelings, rhythms, movements, words, spatial sense, simple knowing, lack of signal, whatever) but if you're using words, try to keep them related to whatever world you're creating. If you're going to count, do it in a way that makes sense in your world. And when you're done, come back the other way. (It's fine to borrow qualities like warmth or steadiness. Just don't change who you are.)"
+  },
+  {
+   "id": "T7",
+   "where": "Optional fractionation: practice coming back, P1",
+   "block": 289,
+   "whose": "ours",
+   "pick": "v1",
+   "why": "says what fractionation is in two plain steps and the door line as what you actually learn; it keeps fractionation as the topic for the next sentence's 'add this'",
+   "fixes": [],
+   "old": "Fractionation means returning toward ordinary awareness and then deciding whether to enter absorption again. Used openly, it teaches that trance has a door in both directions.",
+   "new": "In fractionation, you come back up toward ordinary awareness. Then you decide whether to go into absorption again. If you use fractionation openly, it teaches you that you can come out of trance as well as go in.",
+   "readings": [
+    "AI (Low), window 145 of part A",
+    "AI (High), window 146 of part A"
+   ],
+   "paragraph_before": "Fractionation means returning toward ordinary awareness and then deciding whether to enter absorption again. Used openly, it teaches that trance has a door in both directions. At some point in time you can add this, but you must say you are doing it before doing it, so no answer can secretly mean “deeper.”",
+   "paragraph_after": "In fractionation, you come back up toward ordinary awareness. Then you decide whether to go into absorption again. If you use fractionation openly, it teaches you that you can come out of trance as well as go in. At some point in time you can add this, but you must say you are doing it before doing it, so no answer can secretly mean “deeper.”"
+  },
+  {
+   "id": "T8",
+   "where": "Core prompts, P9",
+   "block": 481,
+   "whose": "ours",
+   "pick": "v1",
+   "why": "each of the three points its own plain sentence, and 'that' clearly means using the NLP; v2's 'The prompt is you letting your subconscious know' is clumsy",
+   "fixes": [],
+   "old": "The prompt will tell your subconscious what you want. The NLP in Appendix B can help you get it in a safer way, but that doesn’t make the answer automatically true.",
+   "new": "You use the prompt to tell your subconscious what you want. The NLP in Appendix B can make getting it safer. Even so, that doesn’t mean whatever answer you get is automatically true.",
+   "readings": [
+    "AI (Low), window 5 of part B",
+    "AI (Low), window 5 of part B"
+   ],
+   "paragraph_before": "The prompt will tell your subconscious what you want. The NLP in Appendix B can help you get it in a safer way, but that doesn’t make the answer automatically true.",
+   "paragraph_after": "You use the prompt to tell your subconscious what you want. The NLP in Appendix B can make getting it safer. Even so, that doesn’t mean whatever answer you get is automatically true."
+  },
+  {
+   "id": "T9",
+   "where": "Pattern 5: Embedded invitations, P1",
+   "block": 509,
+   "whose": "ours",
+   "pick": "v1",
+   "why": "the definition and the no-hidden-demand rule in one sentence, then the modest shift right before the example it introduces; v2's last sentence is awkward",
+   "fixes": [],
+   "old": "An embedded invitation places a small direction inside a larger sentence. It should invite a modest inner movement, not hide a demand.",
+   "new": "With an embedded invitation, you tuck a small direction into a longer sentence, and you shouldn't be hiding a demand in it. The direction should invite a modest shift inside you.",
+   "readings": [
+    "AI (High), window 9 of part B",
+    "AI (High), window 9 of part B"
+   ],
+   "paragraph_before": "An embedded invitation places a small direction inside a larger sentence. It should invite a modest inner movement, not hide a demand. ie. \"And I can allow myself to experience...\"",
+   "paragraph_after": "With an embedded invitation, you tuck a small direction into a longer sentence, and you shouldn't be hiding a demand in it. The direction should invite a modest shift inside you. ie. \"And I can allow myself to experience...\""
+  },
+  {
+   "id": "T10",
+   "where": "Pattern 6: Ethical double binds, P1",
+   "block": 514,
+   "whose": "ours",
+   "pick": "v1",
+   "why": "one plain sentence in the order a reader needs (what it is, what it does to any answer); v2 puts the reason last as an afterthought",
+   "fixes": [],
+   "old": "Manipulative Double Bind Questions are set up so that whatever you answer, you end up doing what the speaker wants.",
+   "new": "A Manipulative Double Bind Question is rigged so that you wind up doing what the speaker wants, whatever answer you give.",
+   "readings": [
+    "AI (Low), window 12 of part B"
+   ],
+   "paragraph_before": "Manipulative Double Bind Questions are set up so that whatever you answer, you end up doing what the speaker wants.",
+   "paragraph_after": "A Manipulative Double Bind Question is rigged so that you wind up doing what the speaker wants, whatever answer you give."
+  },
+  {
+   "id": "T11",
+   "where": "Pattern 6: Ethical double binds, P2",
+   "block": 515,
+   "whose": "ours",
+   "pick": "v1",
+   "why": "names the ethical double bind (no 'one' to resolve) and says both ways are safe, before his list of examples",
+   "fixes": [],
+   "old": "An ethical one offers two genuinely safe routes.",
+   "new": "An ethical double bind gives you two ways to go, and both of them are actually safe.",
+   "readings": [
+    "AI (Medium), window 13 of part B"
+   ],
+   "paragraph_before": "An ethical one offers two genuinely safe routes. Ethical Double Bind Questions might be:",
+   "paragraph_after": "An ethical double bind gives you two ways to go, and both of them are actually safe. Ethical Double Bind Questions might be:"
+  },
+  {
+   "id": "T12",
+   "where": "Reframing — changing the meaning without lying, P1",
+   "block": 561,
+   "whose": "ours",
+   "pick": "v1",
+   "why": "the smallest change: the colon goes and 'questions like' fits the 'etc., etc.' that ends the list",
+   "fixes": [],
+   "old": "Instead ask yourself: What else might be true? or What is this part trying to do for me?",
+   "new": "Instead, ask yourself questions like What else might be true? or What is this part trying to do for me?",
+   "readings": [
+    "AI (Low), window 20 of part B"
+   ],
+   "paragraph_before": "Reframes are dishonest when they make the problem into something that was good all along. Instead ask yourself: What else might be true? or What is this part trying to do for me? or How might my Nurturer reframe this? or How might my Protector reframe this? or How might my Guide reframe this? etc., etc.",
+   "paragraph_after": "Reframes are dishonest when they make the problem into something that was good all along. Instead, ask yourself questions like What else might be true? or What is this part trying to do for me? or How might my Nurturer reframe this? or How might my Protector reframe this? or How might my Guide reframe this? etc., etc."
+  },
+  {
+   "id": "T13",
+   "where": "What I will not use NLP for, P3",
+   "block": 576,
+   "whose": "ours",
+   "pick": "v1",
+   "why": "plain and keeps every word that matters; it also breaks the run of 'I do not' sentences in the list; v2's 'not until' is awkward",
+   "fixes": [],
+   "old": "I do not tell people to override their fear before asking what it’s protecting.",
+   "new": "I won’t tell anyone to override their fear without first asking what it’s protecting.",
+   "readings": [
+    "AI (Low), window 28 of part B"
+   ],
+   "paragraph_before": "I do not tell people to override their fear before asking what it’s protecting.",
+   "paragraph_after": "I won’t tell anyone to override their fear without first asking what it’s protecting."
+  },
+  {
+   "id": "T14",
+   "where": "Body supports, P1",
+   "block": 627,
+   "whose": "ours",
+   "pick": "v2",
+   "why": "'options for the body' follows the paragraph's 'Work with the body' where v1's 'somatic things' is odd, and its last sentence says the point of the quip plainly (use what helps, don't pile on wellness stuff)",
+   "fixes": [],
+   "old": "There are many other somatic approaches you can try, like heat, pressure, a weighted blanket, darkness, your favorite calming music, a careful use of a massage gun, etc. Use the support that actually helps, rather than assembling a tiny wellness trade show around the anxiety.",
+   "new": "You’ve got lots of other options for the body too, like heat, pressure, a weighted blanket, darkness, your favorite calming music, or a massage gun if you’re careful with it, etc. Use whatever actually helps you, and don’t go surrounding the anxiety with a heap of wellness stuff.",
+   "readings": [
+    "AI (Low), window 51 of part B",
+    "AI (High), window 52 of part B"
+   ],
+   "paragraph_before": "Work with the body. Sometimes the mind is too activated for meditation to help, so you may need to work directly with the body to calm it down. Maybe get a massage, or massage a foot, your scalp, a temple, or the back of the neck, the top of a shoulder, etc. (Avoid massaging the front of the neck. Also avoid massaging injured or numb body parts, or bruised, inflamed, or recently surgically operated on areas, or varicose veins. Also stop if the massage makes the anxiety symptoms worse, or makes you feel bad in any way, such as painful, dizzy, tingly, etc.) There are many other somatic approaches you can try, like heat, pressure, a weighted blanket, darkness, your favorite calming music, a careful use of a massage gun, etc. Use the support that actually helps, rather than assembling a tiny wellness trade show around the anxiety.",
+   "paragraph_after": "Work with the body. Sometimes the mind is too activated for meditation to help, so you may need to work directly with the body to calm it down. Maybe get a massage, or massage a foot, your scalp, a temple, or the back of the neck, the top of a shoulder, etc. (Avoid massaging the front of the neck. Also avoid massaging injured or numb body parts, or bruised, inflamed, or recently surgically operated on areas, or varicose veins. Also stop if the massage makes the anxiety symptoms worse, or makes you feel bad in any way, such as painful, dizzy, tingly, etc.) You’ve got lots of other options for the body too, like heat, pressure, a weighted blanket, darkness, your favorite calming music, or a massage gun if you’re careful with it, etc. Use whatever actually helps you, and don’t go surrounding the anxiety with a heap of wellness stuff."
+  },
+  {
+   "id": "T15",
+   "where": "Inner child love, P1",
+   "block": 630,
+   "whose": "ours",
+   "pick": "v2",
+   "why": "the script keeps his published shape ('I am here now. The adult is listening.'), where v1's 'and so is the adult' makes the adult sound like a second person; the instruction after it is plain",
+   "fixes": [],
+   "old": "You don’t have to fix it. I’m here now, and the adult is here now to listen to you.” Make sure you are actually talking to your inner child, who is scared to death.",
+   "new": "You don’t need to fix it. I’m here now. The adult is here right now to listen to you.” When you say this, really talk to your inner child, who’s scared to death.",
+   "readings": [
+    "AI (Low), window 56 of part B",
+    "AI (High), window 57 of part B",
+    "AI (High), window 57 of part B"
+   ],
+   "paragraph_before": "Here is some inner child love. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone. You don’t have to fix it. I’m here now, and the adult is here now to listen to you.” Make sure you are actually talking to your inner child, who is scared to death. No warmth today? Then rest your hands there and notice what you find, no faking required.",
+   "paragraph_after": "Here is some inner child love. Put your hand over your heart and your other hand on your solar plexus, and say to yourself in a loving way, “Little one, you are not alone. You don’t need to fix it. I’m here now. The adult is here right now to listen to you.” When you say this, really talk to your inner child, who’s scared to death. If you don’t feel any warmth today, there’s no need to fake it. Just rest your hands there and notice what you find."
+  },
+  {
+   "id": "T16",
+   "where": "Appendix G: Altered states, P3",
+   "block": 685,
+   "whose": "ours",
+   "pick": "v2",
+   "why": "keeps 'while' (both at once), where v1's 'In the meantime' changes the timing; it names love, so the next sentence's 'that love' has something to point to",
+   "fixes": [],
+   "old": "Let that experience show you what's possible, while you build a way to get to it in everyday life.",
+   "new": "While you're building a way to reach love on a normal day, let that experience show you what can happen.",
+   "readings": [
+    "AI (Low), window 71 of part B"
+   ],
+   "paragraph_before": "A lot of people have OPENED themselves up to love at one point in their life. If you've had a similar experience, know that there is a difference between having experienced it at one point, or only being able to access it in a certain state, and being able to get to it at any point in your life. Let that experience show you what's possible, while you build a way to get to it in everyday life. (If you can't give that love to the child, try to deal with why you can't, instead of trying to ramp up the experience. Often it’s a protective part that’s seen love come with strings before. Hear it out first.)",
+   "paragraph_after": "A lot of people have OPENED themselves up to love at one point in their life. If you've had a similar experience, know that there is a difference between having experienced it at one point, or only being able to access it in a certain state, and being able to get to it at any point in your life. While you're building a way to reach love on a normal day, let that experience show you what can happen. (If you can't give that love to the child, try to deal with why you can't, instead of trying to ramp up the experience. Often it’s a protective part that’s seen love come with strings before. Hear it out first.)"
+  },
+  {
+   "id": "T17",
+   "where": "9. No-trance inner contact, P1",
+   "block": 755,
+   "whose": "ours",
+   "pick": "v1",
+   "why": "keeps each step's label and point, and 'Doing the inner contact fully alert doesn't make it a lesser version' says what the bracket meant; v2's 'Being fully alert for this one' is vaguer",
+   "fixes": [],
+   "old": "Autonomous signal: write whatever you get (a word, sensation, impulse, objection, or silence) without interpreting it as proof. Deepener: none (full alertness isn't a lesser version). Handoff: have your adult self answer the question in whatever way is appropriate, preferably by writing or doing. Integration/exit: reality test the signal and do one small thing based on it. Since you didn't go into trance, just close the exercise and carry on with your day.",
+   "new": "Autonomous signal: write down what you get, whether that's a word, a sensation, an impulse, an objection, or silence, and don't take it as proof. Deepener: none. Doing the inner contact fully alert doesn't make it a lesser version. Handoff: have your adult self answer the question however makes sense, ideally by writing something or doing something. Integration/exit: reality test the signal, then act on it in one small way. You didn't go into trance, so just close the exercise and get on with your day.",
+   "readings": [
+    "AI (Low), window 86 of part B",
+    "AI (Low), window 87 of part B",
+    "AI (Low), window 87 of part B",
+    "AI (Low), window 87 of part B",
+    "AI (Low), window 88 of part B"
+   ],
+   "paragraph_before": "For the no trance inner contact, I would do: Pacing: notice you can see, it's (day of the week), you have feet, you can read, you can write, etc. Suggestion: in your mind, ask one clear question and wait, but don't focus too hard. Choice: you can answer the question, write an answer, write that you don't know, take a break, rephrase the question, ask someone else, stop doing this, etc. Autonomous signal: write whatever you get (a word, sensation, impulse, objection, or silence) without interpreting it as proof. Deepener: none (full alertness isn't a lesser version). Handoff: have your adult self answer the question in whatever way is appropriate, preferably by writing or doing. Integration/exit: reality test the signal and do one small thing based on it. Since you didn't go into trance, just close the exercise and carry on with your day.",
+   "paragraph_after": "For the no trance inner contact, I would do: Pacing: notice you can see, it's (day of the week), you have feet, you can read, you can write, etc. Suggestion: in your mind, ask one clear question and wait, but don't focus too hard. Choice: you can answer the question, write an answer, write that you don't know, take a break, rephrase the question, ask someone else, stop doing this, etc. Autonomous signal: write down what you get, whether that's a word, a sensation, an impulse, an objection, or silence, and don't take it as proof. Deepener: none. Doing the inner contact fully alert doesn't make it a lesser version. Handoff: have your adult self answer the question however makes sense, ideally by writing something or doing something. Integration/exit: reality test the signal, then act on it in one small way. You didn't go into trance, so just close the exercise and get on with your day."
+  }
+ ]
+}

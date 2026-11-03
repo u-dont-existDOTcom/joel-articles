@@ -2,8 +2,8 @@
 """Push the lane in one step (turn 76; Joel, 2026-10-19 00:55 UTC: "it took you 14m to put one line in... def need
 to fix that right?").
 
-  python3 tools/humanization/lane_push.py "Commit subject" [--article inner-child-therapy] [--add PATH ...]
-                                           [--pr "Pull request title" --pr-body FILE]
+  python3 tools/humanization/lane_push.py "Commit subject" --mailbox "2026-11-01 22:27" [--article inner-child-therapy]
+                                           [--add PATH ...] [--pr "Pull request title" --pr-body FILE] [--unread-ok "why"]
 
 1. registers the article's artifacts (scripts/register_article_artifacts.py --write), stages the article folder,
    articles/INDEX.json and any --add paths, and commits with the subject, adding the trailer lines in
@@ -16,6 +16,21 @@ to fix that right?").
 5. with --pr, opens a pull request into main when none is open for the branch, or names the open one;
 6. says whether the branch's open pull request can merge, and when main has moved past it with a conflict, says so
    (Joel, 2026-10-22 21:41 UTC: "the pr has conflicts"; main had taken another lane's pull request after the merge).
+
+Before any of that, the mailbox (AGENTS.md, "Suggested fixes from other projects"; Joel, 2026-10-31: "can we make sure
+you always check what is addressed to you in each turn? like checking ur mailbox? every lane should have its mailbox
+checked right"): --mailbox names the turn by its first clock reading, and tools/humanization/lane_mailbox.py must have a
+complete check of that turn on record (every place read, or unreachable with what failed and when it will be retried, and
+every new item with an outcome or a next step). Without it nothing is committed or pushed. A place that can't be read
+never stops a push once it is recorded that way.
+
+Then the comparison gate (gate E284): for every COMPARE-GATE.json in the article's folder, every paragraph
+of the article must be his as published, his own words, or read beside his text by a comparative read at its present
+words, and every finding of severity 2 or 3 still in it needs a fate (tools/humanization/compare_read.py gate). On a
+failure nothing is committed or pushed, unless --unread-ok "reason" is given; the reason goes into the commit message.
+Joel, 2026-10-28 16:05 UTC, after the hypnosis guide had become "too incomprehensible" through rewrites nobody read
+beside his text: "let's repair the process durably so that can't happen again also". An article with a lane folder of
+rewritten text (a HUMANIZED-*.md) and no COMPARE-GATE.json gets a warning.
 
 It prints the pushed commit, which the browser's raw.githubusercontent.com fetches use.
 """
@@ -71,11 +86,35 @@ def prune(article):
     return gone
 
 
-def commit(subject, paths):
+def compare_gate(article, unread_ok=None):
+    """Run every COMPARE-GATE.json of ARTICLE's folder (compare_read.py gate); stop on a failure unless UNREAD_OK gives a
+    reason. Returns the note for the commit message, or ''."""
+    folder = REPO / 'articles' / article
+    configs = sorted(folder.rglob('COMPARE-GATE.json'))
+    if not configs:
+        if any(folder.rglob('HUMANIZED-*.md')):
+            print('warning: articles/%s has rewritten text (HUMANIZED-*.md) and no COMPARE-GATE.json, so nothing checks '
+                  'that every rewritten paragraph was read beside his text (docs/FIXING-AN-ARTICLE.md section 5)' % article)
+        return ''
+    failed = []
+    for c in configs:
+        r = run([sys.executable, 'tools/humanization/compare_read.py', 'gate', '--config', str(c.relative_to(REPO))],
+                check=False, timeout=300)
+        print(r.stdout.strip()[-3000:])
+        if r.returncode:
+            failed.append(str(c.relative_to(REPO)))
+    if failed and not unread_ok:
+        sys.exit('not committed or pushed: the comparison gate failed for %s. Read the unread paragraphs beside his text '
+                 '(compare_read.py) and give every open finding a fate, or push anyway with --unread-ok "why"'
+                 % ', '.join(failed))
+    return ('Unread-ok (the comparison gate failed for %s): %s' % (', '.join(failed), unread_ok)) if failed else ''
+
+
+def commit(subject, paths, note=''):
     run(['git', 'add', '-A'] + paths)
     if run(['git', 'diff', '--cached', '--quiet'], check=False).returncode == 0:
         return False
-    msg = subject
+    msg = subject + ('\n\n' + note if note else '')
     trailers = os.environ.get('LANE_COMMIT_TRAILERS', '').strip()
     if trailers:
         msg += '\n\n' + trailers
@@ -155,7 +194,28 @@ def parser():
     ap.add_argument('--add', nargs='*', action='extend', default=[], help='more paths to stage (tools, tests, docs)')
     ap.add_argument('--pr', help='open a pull request with this title when none is open for the branch')
     ap.add_argument('--pr-body', help='the pull request body (a file)')
+    ap.add_argument('--unread-ok', help='push although the comparison gate fails, and say why in the commit message')
+    ap.add_argument('--mailbox', metavar='TURN',
+                    help='the turn\'s first clock reading ("2026-11-01 22:27", UTC): its mailbox check must be on record '
+                         '(tools/humanization/lane_mailbox.py record); required')
     return ap
+
+
+def mailbox_gate(turn):
+    """Stop unless this turn's mailbox check is recorded and complete (tools/humanization/lane_mailbox.py)."""
+    sys.path.insert(0, str(REPO / 'tools' / 'humanization'))
+    import lane_mailbox as mb
+    if not turn:
+        sys.exit('refused: --mailbox "<the turn\'s first clock reading, UTC>" is required. Check the mailbox first '
+                 '(AGENTS.md, "Suggested fixes from other projects": the lane in universal-dev-architecture, issues, pull '
+                 'requests, comments and reviews here, edits others made to the handoff notes and questions pages, and the '
+                 'runtime\'s queued messages), record it with tools/humanization/lane_mailbox.py record, then push again.')
+    try:
+        probs = mb.check(turn)
+    except ValueError as e:
+        sys.exit('refused: %s' % e)
+    if probs:
+        sys.exit('refused: the mailbox check of this turn is not complete:\n  ' + '\n  '.join(probs))
 
 
 def main(argv=None):
@@ -163,9 +223,11 @@ def main(argv=None):
     a = ap.parse_args(argv)
     if a.pr and not a.pr_body:
         ap.error('--pr needs --pr-body')
-    paths = ['articles/%s' % a.article, 'articles/INDEX.json'] + a.add
+    paths = ['articles/%s' % a.article, 'articles/INDEX.json', 'state/MAILBOX.json'] + a.add
+    mailbox_gate(a.mailbox)
+    note = compare_gate(a.article, a.unread_ok)
     register(a.article)
-    made = commit(a.subject, paths)
+    made = commit(a.subject, paths, note)
     gone = prune(a.article)
     fixed = commit('INDEX hash', paths)
     preflight()

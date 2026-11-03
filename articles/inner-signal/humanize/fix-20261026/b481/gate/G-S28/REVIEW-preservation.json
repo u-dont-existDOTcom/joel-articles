@@ -1,0 +1,21 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "5781c25329058e77a2b15598afe42a2c1e38c7cf4b9d1b85a04137a3fe7028ff",
+  "context_sha256": "36d10ee2f6573e60fab92d220dabc2c04b34ac53587572593432c9fcb58e23de",
+  "source_sha256": "c4915e440a47d8a487a1003416906a94dbc25bd15601951a8e8ba6569e116ec2",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+    "context_id": "b481-gate-preservation-subagent-f",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "PRESERVATION. Compared DRAFT.txt with SOURCE.txt word by word: 'Is there a way you could try this on a smaller scale?' became 'Could you try this on a smaller scale?' Only 'Is there a way' is dropped and 'you could try' is inverted to 'Could you try'. Same actor (the reader), same act (try this on a smaller scale), and it is a question both times, so the strength does not move; the draft is a little more direct, not stronger in claim. 'this' is kept, as the_change says (Emulate's 'it' is not used). Nothing is added (no claim, condition, person or number) and nothing of his is dropped. The meaning to keep is his published 'Start smaller:'; the draft gives the same advice. His line is an imperative and the draft a question, but the question form is the source's own, so this change does not soften it. CONTEXT. The draft occurs once, as the first line under 'Nothing happens'. 'this' is the practice in which nothing happens (the heading is directly above), as in the old sentence, and the next paragraph says what smaller means ('just one body sensation, or just one word'), so the reader is not left guessing. It reads as a gentle troubleshooting lead-in in the guide's voice. TELLS. Went through T01-T29 and C01-C04 on the section as it would read: none PRESENT. Rows I weighed and ruled out: T24 (the question is itself the suggestion, and the next paragraph gives the smaller asks; nothing is set up for suspense and then answered); T19 (it carries the advice, try smaller, rather than only announcing a list; his own 'Start smaller:' was the announcing form, and this is not); T22 (gentle, but it gives a concrete step and has one 'you', with no reassurance or anticipated feeling); T20 (a one-line lead-in that the next paragraph continues, not a clever closer); T11 and T06 ('smaller scale' is general, but the next paragraph spells it out at once); T13 and T09 (a three-line troubleshooting item; the sentence carries no filler, and the neighbouring paragraph turns up something real, 'whether today is for listening or resting'); T15 (the change drops a hedge rather than swapping in less likely words); C02 ('this' anchored by the heading, same as the source). LINT. B7 short landing at paragraph end: accepted. The flagged line is a one-sentence lead-in, as the old question was, and the next paragraph continues it, so it is not a landing line. D9 follows the source order: accepted. A one-sentence swap keeps the source's order by design; T13 and T09 checked above. E36/E41 heavy second person: accepted. The figure (12.5 per 100) comes from one 'you' in an 8-word sentence; the section has one 'you' in all, and the paragraph after it has none.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order",
+    "E36/E41 heavy second person"
+  ]
+}

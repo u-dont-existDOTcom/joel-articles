@@ -1,0 +1,34 @@
+You are checking part of Joel's self-hypnosis guide (The Inner Signal) for comprehension. You get the same part in two versions:
+- PUBLISHED: the text as Joel published it (clear);
+- NOW: a rewrite of it, which was meant to keep every point and stay clear.
+
+Your job: find EVERY place where NOW is harder for a reader to understand than PUBLISHED, or doesn't make sense on its
+own. Go through NOW paragraph by paragraph and sentence by sentence; don't skim. Content may have moved between sections
+or been added; judge NOW as a reader would read it, and use PUBLISHED as the reference for what it should say.
+
+Flag a sentence (or a few together) when it is one of these:
+- garbled: ungrammatical, a fragment standing as a sentence, a word that doesn't fit, a sentence that doesn't parse, a
+  list with no verb that doesn't say what it's for (for example "Apples, pears, plums. Can fruit be bought?" where the
+  published text said "Apples are one thing. Pears are another." and the point was that they differ);
+- unclear: a reader would have to reread it, or guess what it means or what "it", "this" or "that" refers to;
+- lost: NOW drops or changes a point, a step, a condition or a contrast that PUBLISHED made, so the passage no longer says
+  it (for example "one thing ... another" becoming a plain list loses the point that the things differ);
+- vaguer: NOW says the same thing less exactly, in a way a reader would notice (a concrete step becomes general, a
+  strong rule becomes a hint, or the reverse).
+
+Don't flag: a plainer, more casual or more personal wording that is just as clear; a heading change; a change of order; a
+typo that doesn't hide the meaning; new material in NOW that is clear. Don't rewrite anything.
+
+Write your findings with a single Write call to `articles/inner-signal/humanize/fix-20261030/fullread/READER-17.md`, in exactly this form, one block per finding, in NOW's order:
+
+## F17.1
+NOW: <the exact sentence(s) from NOW, copied character for character>
+PUBLISHED: <the matching sentence(s) from PUBLISHED, copied exactly, or "none">
+KIND: garbled | unclear | lost | vaguer
+SEVERITY: 3 (a reader won't get it, or it now says something else) | 2 (most readers would stumble) | 1 (a small snag)
+WHY: <one sentence>
+
+(number them F17.1, F17.2, ...). After the last block add a line "TOTAL: n". Read only the file below, don't run
+commands, don't use the web. Reply with only the TOTAL line.
+
+The part to check is in `articles/inner-signal/humanize/fix-20261030/fullread/PART-17.txt`.

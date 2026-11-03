@@ -1,0 +1,74 @@
+{
+ "G1": {
+  "the_change": {
+   "old": "(as described in Noticing Counts)",
+   "new": "(more on that in Noticing Counts, further on)",
+   "why": "His reorganization put Noticing Counts after this section (it is in Building Your Inner Adult now), so \"as described in\" points forward. \"Further on\" is his own way of pointing ahead (his \"in « Untangling the Belonging Bargains » further on\" and \"« Altered States Can Deepen Therapy or Escapism » section further on\")."
+  },
+  "candidate_sha256": "ff612e099ca19a096dbacced45813331710a70234ab871fb552e0ba3f061c769",
+  "context_sha256": "a3ef592be89cc3557051a5dacb8b328fe5b2d4c5a5115cbec6fa8e6b639bf142",
+  "source_sha256": "d6b3f9b0796e9711657ff89565afa6b15b267aa40de7f9d75df405cb65907c4b",
+  "lint_findings": [],
+  "lint_verdict": "CLEAR"
+ },
+ "G2": {
+  "the_change": {
+   "old": "some avoidance of differentiation.",
+   "new": "some avoidance of differentiation (we get deeper into that further on).",
+   "why": "He brought the word \"differentiation\" in here (it said \"the pattern\" before). Its own section, Differentiation: Keeping Your Own Ground, comes much later, in Bringing Reparenting Into Real Life, so this is the first time a reader meets the word. A pointer in his own form: \"We get deeper into finding and building that self in « Untangling the Belonging Bargains » further on.\""
+  },
+  "candidate_sha256": "e1d993f980b1b2fd8ce9043ecb6f0b8ec8af32edd8f92fad8cbcccb9b336b3c5",
+  "context_sha256": "cdedaa023e321673e9ad75d0a9dd74ff749032821886a33ab4c033ac7cee0b9f",
+  "source_sha256": "adf3b5e1378b4e70ebcf4cbf0fb7dbdc52ec8dce54965e68d86450a7a50919c0",
+  "lint_findings": [],
+  "lint_verdict": "CLEAR"
+ },
+ "G3": {
+  "the_change": {
+   "old": "that guard’s trust",
+   "new": "your little one’s trust",
+   "why": "In the guide I gave him this paragraph sat under Hear the Guard First, where \"that guard\" was the protective part just met. He moved it to the end of Protecting and Building Trust With Your Little One and named it \"Earning their trust, day to day\", and cut Hear the Guard First; no guard has come up by this point (the security-guard image is later, in If the Love Isn't Coming Yet). His heading says whose trust: their, your little one's."
+  },
+  "candidate_sha256": "3ab50be68d54782048a4bd7b9113d662201d79cf604ee709dc7c2c2db6f05940",
+  "context_sha256": "e2056fb304291e2de1c84b3eaa927bd7d6bec2e538c75b4696e0ad8b1b1b09c7",
+  "source_sha256": "9ddeabf2ee05dc89d9816521d32e54612353e360f4f1fb8c6cecc2a377f1f109",
+  "lint_findings": [],
+  "lint_verdict": "CLEAR"
+ },
+ "G4": {
+  "the_change": {
+   "old": "That future you",
+   "new": "Your future self",
+   "why": "He cut the sentence that introduced the future self (\"It's a question borrowed from your future self, ...\") from the paragraph before, so \"That future you\" has nothing to point at. \"Your future self\" is the phrase he uses in The Chicken-and-Egg Problem (\"Your future self might work\")."
+  },
+  "candidate_sha256": "3c170688ef5bfbe618b08b4cd6ffd0353919a77a1f967a3d702e38063b241ca9",
+  "context_sha256": "5f00eca7a0d8855fb735c5f71bf714eb683f399b7a853f8ecb1de1e659995f59",
+  "source_sha256": "c2128a374bf734c9e861d82a2dd95e5c65116736d4b6990916e8e73454136f69",
+  "lint_findings": [],
+  "lint_verdict": "CLEAR"
+ },
+ "G5": {
+  "the_change": {
+   "old": "this cast of perfected future characters in your mind",
+   "new": "this cast of perfected future characters (from Borrow Hindsight) in your mind",
+   "why": "The cast is the wiser future versions of you and the other people in Borrow Hindsight (The Inner Guide), about 190 lines earlier; right before this section comes Forgiving Yourself, so \"this cast\" reads as if it had just been built."
+  },
+  "candidate_sha256": "61ddb048d2c0bea1fec9b882332728a0a9c8029c54ec5ecc57c912da424f8db1",
+  "context_sha256": "a236359501cadca48080bfad11a7a1b9f15e64d9f19f3e45f4b76a8b3a63b4ea",
+  "source_sha256": "1c8e59648697924744dccd3a0db84d7d08a683fc77f0d4d486e459d103c28a87",
+  "lint_findings": [],
+  "lint_verdict": "CLEAR"
+ },
+ "G6": {
+  "the_change": {
+   "old": "stay curious about its motivations",
+   "new": "stay curious about the critical voice’s motivations",
+   "why": "\"Its\" is the critical voice from the paragraph before the heading; between them comes the Mr. Rogers story about Lloyd, so the first \"its\" has no noun near it. The later \"its\" and \"that voice\" then follow from it."
+  },
+  "candidate_sha256": "be3883db3f2770d9804b178cf7e5933c3d5894eefa13cea69a546def14da8210",
+  "context_sha256": "04738d38f004f4fb0bfa39f659cb9172523fd4392024a905235ca98bf6b11a6d",
+  "source_sha256": "2d90fd82846d5ea3ff125f40538161e1010b1ddefefb12f2c10369279ffbea84",
+  "lint_findings": [],
+  "lint_verdict": "CLEAR"
+ }
+}

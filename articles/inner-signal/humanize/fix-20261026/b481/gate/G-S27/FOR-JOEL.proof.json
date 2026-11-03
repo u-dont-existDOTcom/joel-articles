@@ -1,0 +1,71 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_ADMITTED_V1",
+  "candidate_sha256": "02da3191c3cddfaa552f3d04eafc79dd5c6a36e1328a83743624518d2e6e1ddb",
+  "context_sha256": "a0eac06deaf34b4a1257c2b5d0649edee534cded23f1903609d7e86d66d2d292",
+  "source_sha256": "b16627001aa94244458e096262d7deae3d5972b2fd68c12ee9d6bf5ef8cd7cf1",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "lint_verdict": "REVIEW",
+  "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+  "lint_stdout_sha256": "476fc0c0a128170dea5b73a4883655dbd3682de5900b2b05b519a7ed0d07bcc9",
+  "lint_findings": [
+    {
+      "label": "B4/E15 list or packed sentence",
+      "examples": [
+        "The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc."
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    },
+    {
+      "label": "D9 follows the source order",
+      "examples": [
+        "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    },
+    {
+      "label": "O45 a safety line (Joel 2026-10-23: \"all the extra extra ridiculous safety language which gets repeated everywhere\"; \"let's never make those mistakes again pls\"; E250 (Inner Child)): it stays only if it changes what the reader does right here, isn't a sometimes-true point said as a rule, and the article doesn't already say it",
+      "examples": [
+        "So take it as an image and get some outside help!"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    }
+  ],
+  "tell_ledger_counts": {
+    "ABSENT": 33,
+    "PRESENT_JUSTIFIED": 0,
+    "UNCERTAIN": 0,
+    "total": 33
+  },
+  "justified_tells": [],
+  "reviews": {
+    "preservation": {
+      "path": "REVIEW-preservation.json",
+      "sha256": "bb3403a299d02a7dab751f8bb63e8f67aced6431f4afd7bdbbd82655482e2494",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+        "context_id": "b481-gate-preservation-subagent-f",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    },
+    "cold_read_1": {
+      "path": "REVIEW-cold_read_1.json",
+      "sha256": "5ecc94ccd6e808fc8395fa16a56a35f71ac1f96e46cce9e7b2bd1b14f57713ec",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+        "context_id": "b481-gate-cold_read_1-subagent-f",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    },
+    "cold_read_2": {
+      "path": "REVIEW-cold_read_2.json",
+      "sha256": "640d6da85b0a425083cf90d514fd12913aa58a98e205d8babd5026154f4f56d6",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+        "context_id": "b481-gate-cold_read_2-subagent-f",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    }
+  },
+  "manifest_sha256": "3e37fcb3726a48d000b7c8f6aa59451c0466ba8cef916b82df2fddaf337cd819",
+  "verified_at_utc": "2026-10-26T13:59:09.162244+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cn/HG-Pattern-6-Ethical-double-bin-514.txt",
+  "input_words": 56,
+  "input_sha256": "523ab82d7dd7ef852efcaa9fa06415959d553056cd3e84ae73a3ca1e7e8a9a64",
+  "balance_before": 43157,
+  "started_utc": "2026-10-26T12:59:29Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:59:33Z",
+  "response": {
+    "id": "c3f41c14-635d-47b0-b508-ca34d03cde93",
+    "tool": "humanize",
+    "text": "Manipulative Double Bind Questions are designed so that no matter what you answer, you will end up doing what the speaker wants you to do.\n\nAn Ethical Double Bind Question gives someone a choice between two safe things to do. Ethical Double Bind Questions might be:\n\nWhich would you prefer, a feeling of warmth or a feeling of space?",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 56
+    },
+    "elapsed": 4
+  },
+  "balance_after": 42989
+}

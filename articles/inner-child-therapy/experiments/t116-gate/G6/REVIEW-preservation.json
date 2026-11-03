@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "be3883db3f2770d9804b178cf7e5933c3d5894eefa13cea69a546def14da8210",
+  "context_sha256": "04738d38f004f4fb0bfa39f659cb9172523fd4392024a905235ca98bf6b11a6d",
+  "source_sha256": "2d90fd82846d5ea3ff125f40538161e1010b1ddefefb12f2c10369279ffbea84",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (the preservation reviewer)",
+    "context_id": "t116-gate-preservation-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 116, 2026-11-03"
+  },
+  "evidence": "Programmatic check: replacing \"its\" with \"the critical voice’s\" in \"stay curious about its motivations\" gives the CONTEXT paragraph exactly; \"the Mr. Rogers reframing trick\", \"kernels of truth\", \"without accepting its insults and cruelty\", and \"we send it on its way with compassion, since that voice surely needs some\" are all untouched. In the guide, the only earlier noun for the thing is line 243, the last paragraph before the heading: \"a critical voice might be that inherited parent script, or any outside influence ... it could also be trying to protect you ... It may be pointing to a real problem, but in a cruel way\", i.e. a voice with motivations, kernels of truth and cruelty, which is exactly what \"its motivations / insults / that voice\" need. The Mr. Rogers story in between has Lloyd (a person) as the only candidate noun, so the old \"its\" had no neuter referent there; \"the critical voice’s\" is therefore the right referent and adds no claim or tone. \"the critical voice\" uses Joel’s own words from line 243 (with the definite article, since it was introduced there).",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

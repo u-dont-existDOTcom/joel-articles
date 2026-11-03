@@ -1,0 +1,13 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "be3883db3f2770d9804b178cf7e5933c3d5894eefa13cea69a546def14da8210",
+  "context_sha256": "04738d38f004f4fb0bfa39f659cb9172523fd4392024a905235ca98bf6b11a6d",
+  "source_sha256": "2d90fd82846d5ea3ff125f40538161e1010b1ddefefb12f2c10369279ffbea84",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {"name": "Claude Sonnet, fresh subagent (the second cold reader)", "context_id": "t116-gate-cold-read-2-subagent", "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 116, 2026-11-03"},
+  "evidence": "Old wording \"stay curious about its motivations\": the nearest nouns before \"its\" are the Mr. Rogers story (Lloyd, his sons, Mr. Rogers himself), so a reader of the heading section would take \"its\" as Lloyd's remark or the trick, and only recover on \"insults and cruelty\" and \"that voice\". The critical voice is in the paragraph before the heading (\"a critical voice might be that inherited parent script ... it could also be trying to protect you\"). New wording \"stay curious about the critical voice's motivations\" names it with a definite article that points back to that voice, so the later \"it points out\", \"its insults\", \"send it on its way\" and \"that voice\" all follow. \"Critical voice\" is Joel's own phrase from the previous paragraph, so it is the same register, and it is the smallest fix (two words for one pronoun). Repeating the noun then using pronouns is normal prose, not T26. No claim, tone or promise added; the Mr. Rogers trick, kernels of truth, refusing insults and sending it off with compassion are all kept. No inventory row applies (C02 resolved, not introduced).",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

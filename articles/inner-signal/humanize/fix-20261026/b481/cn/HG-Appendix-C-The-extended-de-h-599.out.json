@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cn/HG-Appendix-C-The-extended-de-h-599.txt",
+  "input_words": 117,
+  "input_sha256": "0efe7df140380c5f77eb3f6db44cd94ddf84f0b9517894be43f122c88ebfdf70",
+  "balance_before": 42699,
+  "started_utc": "2026-10-26T12:59:40Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:59:47Z",
+  "response": {
+    "id": "bd38feaa-0cd1-4827-91be-371bef29000d",
+    "tool": "humanize",
+    "text": "Whenever you feel like something is trying to push you too hard (this something could be a person, an ad, an ideology, a spiritual teaching, a person you’re attracted to, a voice inside you, etc.) say to yourself: “Okay, something is trying to influence me. I don’t have to obey it. I also don’t have to attack it. I can slow myself down and ask some questions: What would this thing try to influence me to believe that isn’t true in order to get what it wants from me? What is my body telling me to do about this (how does my body feel about this)? What would love do here? What would truth do here? How would I do this in a humble way? What would life do here?”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 117
+    },
+    "elapsed": 7
+  },
+  "balance_after": 42518
+}

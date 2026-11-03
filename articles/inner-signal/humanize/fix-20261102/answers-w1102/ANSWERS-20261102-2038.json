@@ -1,0 +1,61 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "inner-signal-hypnosis-guide-cards-20261102-w1102",
+ "title": "Hypnosis Guide Cards, 2 November (2)",
+ "git_file": "articles/inner-signal/humanize/fix-20261102/w1102fix/REVIEW-W1102.html",
+ "article": {
+  "file": "articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "4583036068ad844b6a4f2517fab40f9bb9c033a8ae8fc09281e8a359a8b05d77"
+ },
+ "built": "2026-11-02 19:47 UTC",
+ "generator": "suggestion_review.py 1.5 (2026-11-02)",
+ "exported_at": "2026-11-02T20:37:59.431Z",
+ "counts": {
+  "approved": 1,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "C-141",
+   "type": "icguide",
+   "title": "“I see you. I'm not going to force my way past you.”",
+   "where": "Working with your guards, P4",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "You can tell that part something like, “I see you. I'm not going to force my way past you. What's going on?” Or however you'd actually say that. Then wait and listen patiently. If nothing comes, that's fine for now. No need to answer for that part just because you'd set this up as a healing session. Later on, you can ask it, “What are you afraid would happen if you stopped protecting me by…?”",
+   "before": "Talk to the guard the way your Nurturer talks to your inner child: “I see you. I'm not going to force my way past you. What's going on?” Then wait and listen patiently. If nothing comes back, that's okay, you don't need to push for an answer. Later on, you can ask it, “What are you afraid would happen if you stopped protecting me by…?”",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-02T19:59:00.927Z"
+    }
+   ],
+   "updated": "2026-11-02T19:59:00.927Z"
+  },
+  {
+   "id": "C-384",
+   "type": "icguide",
+   "title": "“… that one can sting …”",
+   "where": "It feels fake, P2",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "Troubleshooting\nNothing happens\nDon't fret, even for the greatest masters, nothing happens many times. After all, only like 50% of people are very suggestible. But sometimes it's just confusing when you throw everything at yourself at once. Check if there's a way you could try this on a smaller scale, maybe starting with, “Show me whether today is for listening or resting.”\n\nIt feels fake\nWell, what do you mean \"it\"... do you have a sense of what it is that feels fake? The words, an image, what you are expecting to get from this, a role you feel you have to play etc. Not having an inner voice or images doesn't mean you're resisting the work, or that you're missing a 'grown-up'. If it feels like you are being asked to do something you don't want to do, then correct the invitation. It could be that there is a part that is protecting you, so talk to it.\n\nYou could say something like 'What are you protecting me from, helicopter mom?' or 'Are you sus because you think this will just be a silly performance?' If it says yes, that one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part remembers. But as ex-US-President George W. Bush wisely explained, \"Fool me once, shame on — shame on you.  Fool me — you can't get fooled again.\" !!! \n\nBut seriously... you can then say, \"Tell me what you remember, I'm listening.\" It puts you into the role of the Nurturer, which alleviates the instinct to argue back.",
+   "comment": "this section so far with that has it as human low https://www.pangram.com/history/fe024a3a-3338-43a2-a8cc-f5d4579e6fe4?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nhere's the fully human high conf section til now (text pasted as my version): https://www.pangram.com/history/b7fc49b6-e142-4456-a1a5-9d0bc6c646e1?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "You could say something like 'What are you protecting me from?' or 'Are you afraid I will lie to myself again?' or 'Are you afraid this will just be a performance?' If it says yes, that one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part remembers. \"Tell me what you remember, I'm listening.\" works well here. It puts you into the role of the Nurturer, which alleviates the instinct to argue back.",
+   "before": "You could say something like 'What are you protecting me from?' or 'Are you afraid I will lie to myself again?' or 'Are you afraid this will just be a performance?' If it says yes, that can sting, because there could be something to it. Maybe you've fooled yourself before, and that part of you remembers it. \"Tell me what you remember, I'm listening.\" works well here.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-02T19:59:48.471Z"
+    }
+   ],
+   "updated": "2026-11-02T20:37:55.538Z"
+  }
+ ]
+}

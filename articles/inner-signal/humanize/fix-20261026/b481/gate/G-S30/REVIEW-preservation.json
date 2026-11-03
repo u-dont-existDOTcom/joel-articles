@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "dbb3a237e0028eeee1e815e890a412986dd909079183ec7e0eb4262cfa1673c0",
+  "context_sha256": "b49c510fb0a5d1bace0891b4b252026f9d6b5c75bbf176981847c9216a5b941b",
+  "source_sha256": "4269234f9056a62510bdc236a2bbe0777fb0a8e334d8488db9d0e4c71fc6c97c",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+    "context_id": "b481-gate-preservation-subagent-j",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Draft judged: 'Have you got any sense of what it is that's making it feel fake?' against SOURCE (words replaced: 'Do you have a sense of what it is that feels fake?'; meaning kept, from his published guide: 'First ask what feels fake: the wording, the image, the expectation, or the role you’re trying to perform.') and against the section in CONTEXT (heading 'It feels fake', then the unchanged list 'The words, an image, what you are expecting to get from this, a role you feel you have to play etc.'). The change claims only to swap in Emulate's sentence and puts nothing back, so I checked for anything added or lost. Word by word: 'Do you have' -> 'Have you got' is the same yes/no ask in a British colloquial form that fits the section ('see how you get on', 'etc'); 'a sense' -> 'any sense' asks for the same hunch at a slightly lower bar and adds no claim; 'what it is that feels fake' -> 'what it is that's making it feel fake' is the one real delta: the sought thing moves from 'what feels fake' to 'what is making it feel fake', and a second 'it' (the practice) becomes the thing that feels fake. I judged that not substantive: the question still asks which of the words, image, expectation or role is off, the unchanged next sentence answers either wording, the second 'it' is anchored by the heading directly above ('It feels fake'), and no condition, person, number, change of strength or change of agent is added (the reader is still the one who has the sense). His 'First' is not in the draft, but it is not in the words replaced either, and this is the first sentence under the heading. Tells in context: none PRESENT. Considered and rejected: T15 (the swaps are colloquial, not thesaurus swaps, and the sentence holds no other tell for them to hide); T07 (the 'any sense' hedge suits a reader who has only a vague feeling that it is fake); T02 (the question, list, permission, condition, hypothesis cadence belongs to the paragraph as it already was; this is a one-for-one question swap that leaves it unchanged); T24 (the list that follows offers candidate answers, it does not answer the question to build suspense); T26 ('fake' echoes the heading, as the old sentence's 'feels fake' did, and that anchors the question); C02 (the heading anchors the second 'it'; the writer's note that the old sentence had the same 'it' is loose, since the old 'it' was only the cleft pronoun, but the anchor holds either way); C03 and C04 (no new fact). Lint D9 follows the source order: accepted. It is a one-sentence swap for the sentence it paraphrases, so it follows the source's order trivially, and the paragraph around it keeps its own noticing (the counter-reading that it isn't necessarily about lacking a grown up or resisting the work, and the hypothesis of a protecting part), so T13 and T09 do not apply. Lint E36/E41 heavy second person: accepted. It is one 'you' in 14 words (7.1 per 100), against one in 12 (8.3) in the sentence it replaces; a question put to the reader needs it, and the whole guide addresses the reader as 'you'. The apostrophe in 'that's' is straight, matching the section's other contractions (eight straight, one curly in 'aren’t'). It reads right in its context and flows into the unchanged list of candidate answers.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order",
+    "E36/E41 heavy second person"
+  ]
+}

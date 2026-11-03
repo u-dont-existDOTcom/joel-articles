@@ -1,0 +1,23 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "5768b77c01d021ad346df91aad2c5bb2f8adc5786d1bedead681513908db1193",
+  "context_sha256": "da715839396d1c7dcb4ac9aee599e601744af07a38dc9c0953b9e70d53ffddbd",
+  "source_sha256": "529d7a8c78f0609dec4b068990688cc1d4468573c0f96a1a4b44a0e90a2b356f",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "b481-gate-cold_read_1-subagent-k",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-10-26 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "Read in CONTEXT.txt as a first-time reader: the heading \"Anxiety script\" is followed at once by \"Here is a little script you could use:\", then the script (\"Let’s see if I can find my body parts. ...\"). The line reads naturally there. It is the first line under its heading, so there is no earlier sentence for it to follow from, and it does what the heading promises by handing the reader a script. The only pronoun is the reader's \"you\", and \"Here\" points at the script that follows, so nothing dangles (C02 absent). Against SOURCE.txt (\"A script you could use for anxiety is:\", his approved working-copy line; his published guide has \"For anxiety:\"): the offer (\"a script you could use\"), the colon lead-in and the script it introduces are all kept. \"for anxiety\" is no longer in the sentence, but the heading directly above it says \"Anxiety script\", which is what the_change states, so a reader still learns what the script is for. \"little\" is a size word for what follows (three short paragraphs), not a new claim, and nothing about Joel's life, a study or a fact is added (C03 and C04 absent). Minor observations, not defects: \"Here is\" is uncontracted where the script below uses contractions (\"Let’s\", \"you’re\", \"I’m\"), which is a touch formal but fine in a lead-in; and \"little\" returns in the script as \"little one\", which is a different sense of a very common word, so T26 is absent. Tell rows: I went through T01 to T29 and C01 to C04 on the literal line. One is actually happening: T19 (announcing setup). The line's job is to announce the script that comes next, so the writer's ABSENT for T19 does not hold, but it is justified here. The paragraphs after it are a script to be said, and something has to set them off; the source line did the same with the same colon, the change swaps the wording of that one lead-in without adding an announcement, and \"you could use\" also carries the offer to the reader. T11 and T25 considered and absent: it is a label for a quoted block, not a bridge between document functions, and the colon introduces a real quotation, not a drama reveal. T22: \"you could use\" is a plain offer, identical to the source, with no reassurance or anticipated feeling. T15: the words are plain, not rarer substitutes. T07: \"little\" is a size word, not a staged hesitation. All other rows absent: no first-person stake, list, scene, contrast, aphorism, closer or tic word. Linter findings: (1) B7 short landing at paragraph end: accepted. The line is a whole one-sentence paragraph that ends on a colon, so it opens onto the script and lands nothing; the source line had the same shape. (2) D9 follows the source order: accepted. One line replacing one line trivially keeps the order. I checked T13 and T09 as the flag asks: an eight-word label has no argument inside it in which to notice things or to equalize weight, and the script paragraphs around it are unchanged. (3) E36/E41 heavy second person: accepted. The 12.5 per 100 is one \"you\" in an eight-word draft, a small-sample figure; the source line also had one \"you\" in eight words, and the rest of the section is first person (\"I\", \"my\") inside the script.",
+  "resolved_tell_ids": [
+    "T19"
+  ],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order",
+    "E36/E41 heavy second person"
+  ]
+}

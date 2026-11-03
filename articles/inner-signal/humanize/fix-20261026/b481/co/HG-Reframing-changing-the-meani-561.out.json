@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-co/HG-Reframing-changing-the-meani-561.txt",
+  "input_words": 56,
+  "input_sha256": "44e8772b580ee27e01793ebfb734c6f7986534a53fc7e36479b933b22e2fcef1",
+  "balance_before": 43101,
+  "started_utc": "2026-10-26T12:59:32Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:59:37Z",
+  "response": {
+    "id": "736b28db-3865-406b-ab35-22ae60d66e74",
+    "tool": "humanize",
+    "text": "Doesn’t reframing basically constitute a lie to yourself because it’s basically saying that the problem is a good thing when it’s not? You need to either ask “What else might be true?” or “What might this part be trying to do?” or “How might this be reframed by Nurturer, Protector, Guide, etc., etc.?”",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 56
+    },
+    "elapsed": 4
+  },
+  "balance_after": 42933
+}

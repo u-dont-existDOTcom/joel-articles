@@ -1,0 +1,48 @@
+{
+ "answers": "ANSWERS-20261103-0039.json",
+ "answers_sha256": "fa59c60c7fe67d2ec3d21579a4f21fc13afc72315f83d152059a962a02d46d1d",
+ "review": "articles/inner-signal/humanize/fix-20261102/f1102/REVIEW-F1102.json",
+ "before_sha256": "66eb95e7beac2ceac9ac01347f93c8de2960bcb7fad4b769fe8fa2ec07347b25",
+ "after_sha256": "090588f72475fbddf5528b9db50193bf50572fc5f99542a52fab02e36db15de0",
+ "fates": {
+  "E-61": "revise, no version: \"cut all this. you didn't notice the massive overcompletion here? prob this whole guide is full of it then.\" Both paragraphs cut (blocks 61 and 62); lesson E328, and the whole guide read for overcompletion (fix-20261103/overcompletion/)",
+  "C-92": "approved: the card's version went in",
+  "C-480": "approved: the card's version went in",
+  "E-119": "revise: his version went in (the breathing in the first line; \"Keep breathing gently through the whole practice.\" gone). \"and you breathe out\" as he wrote it; question 31 asks if he meant \"as\"",
+  "E-380": "revise: his version went in, the heading as he wrote it (\"It feels fake\" in quotes) and his word \"imposterous\"; his checks: the two paragraphs as they were read AI Generated (https://www.pangram.com/history/db67603a-b644-4667-b07a-140220544dd3), his version Human Written (https://www.pangram.com/history/580be4c0-6fde-4f65-ba3b-559352c4d4ef); read 2026-11-03 after 00:39 UTC",
+  "E-762": "revise: his version of the section went in; it changes Appendix K's opening paragraph (the Cochrane line) and the first paragraph of Indirect language and re-entry cues (\"That's where I \\\"formally\\\" learned these techniques from...\"); the headings and the Healing the Divided Self paragraph are as they were"
+ },
+ "changed_blocks_before": [
+  61,
+  62,
+  92,
+  118,
+  119,
+  380,
+  381,
+  382,
+  480,
+  758,
+  762
+ ],
+ "blocks": [
+  772,
+  770
+ ],
+ "his_checks": {
+  "E-380, the two paragraphs as they were (his test)": {
+   "link": "https://www.pangram.com/history/db67603a-b644-4667-b07a-140220544dd3",
+   "result": "AI Generated (fraction AI 1.0); windows AI (High, 12 words), AI (Medium, 24), AI (High, 32), AI (Medium, 33), AI (High, 44), AI (Medium, 16)"
+  },
+  "E-380, his version": {
+   "link": "https://www.pangram.com/history/580be4c0-6fde-4f65-ba3b-559352c4d4ef",
+   "result": "Human Written (fraction AI 1.4e-17); windows Human (High, 106 words), Human (Medium, 4: \" am I getting warm?\"), Human (High, 60)"
+  }
+ },
+ "typos_fixed": [],
+ "his_words_kept_as_written": [
+  "\"imposterous\" (his coinage)",
+  "\"and you breathe out\" (question 31)",
+  "the heading \"It feels fake\" in quotes"
+ ]
+}

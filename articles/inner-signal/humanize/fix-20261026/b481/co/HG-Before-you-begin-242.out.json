@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-co/HG-Before-you-begin-242.txt",
+  "input_words": 299,
+  "input_sha256": "49f5a9db02c681298662f533d116d0f597f46a5a950ae619cc98d41040bd5271",
+  "balance_before": 46104,
+  "started_utc": "2026-10-26T12:58:20Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:58:35Z",
+  "response": {
+    "id": "0dff022c-6839-462e-8060-46c20fd8c64c",
+    "tool": "humanize",
+    "text": "Induction: What do you want to do? Don't you want to avoid doing something? How long do you want to spend doing this? (NB: you don't have to use this on a problem, you can use it for anything you want to experience, love, play, confidence, creativity, communion, etc.) Make sure you leave enough time to come back and reflect on what you've experienced.\n\nMake sure you're in a safe place to do this. Don't do this if you're driving, in the water, operating machinery, or need to take care of yourself or others. If you're intoxicated, acutely confused, or unable to take care of yourself, get immediate support. Don't do exploratory hypnosis. If you're already partially or fully opened, go to the section on \"Already open? How to contain before you deepen\" further down this page.\n\nMake a decision to do this. How are you going to coax yourself to do it? Spaciousness? Warmth? Being held? Something else? Remind yourself of what you're going to do. Are you going to close your eyes? Are you going to come out and then go back in again? What are you going to do at the end? If you're using a recording, read through the script if possible. Remind yourself that if you say \"stop\" you're going to stop the induction. If you say you don't want to do as much, you will be asked to do less. If you say \"quiet\" you won't be spoken to any more. Or you can simply open your eyes and come all the way back. You don't have to ask any parts if it's ok to stop, even if they say you do.",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 299
+    },
+    "elapsed": 14
+  },
+  "balance_after": 45207
+}

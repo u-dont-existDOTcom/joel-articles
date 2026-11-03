@@ -1,0 +1,98 @@
+[
+ {
+  "name": "J1 (It feels fake, P2)",
+  "text": "Maybe you’ve fooled yourself before, and that part of you remembers it.",
+  "chance_red": 0.2,
+  "chance_high": 0.35,
+  "why": "a suggestion for his own words of a stretch that read AI on 2026-10-29 (AI (Low), window 166 of part A)",
+  "kind": "changed"
+ },
+ {
+  "name": "T1 (Quick start: do this first, P2)",
+  "text": "Then put the screen away. You’re learning to run the practice yourself, so don’t keep reading along like it’s a checklist.",
+  "chance_red": 0.2,
+  "chance_high": 0.35,
+  "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 1 of part A)",
+  "kind": "changed"
+ },
+ {
+  "name": "T2 (Forget the left-brain/right-brain cartoon, P5)",
+  "text": "And all this inner work has to lead somewhere. You should come out of it kinder to people, or humbler, or making better decisions, or doing real service, or with an everyday life that works better than before.",
+  "chance_red": 0.2,
+  "chance_high": 0.35,
+  "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 24 of part A)",
+  "kind": "changed"
+ },
+ {
+  "name": "T3 (Why doing it myself worked better for me, P4)",
+  "text": "When I hypnotize myself, though, my dialogue with the system itself is immediate, and that’s an advantage nobody outside my own head can duplicate.",
+  "chance_red": 0.2,
+  "chance_high": 0.35,
+  "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 30 of part A)",
+  "kind": "changed"
+ },
+ {
+  "name": "T4 (When the adult role is not available yet, P2)",
+  "text": "For people starting from there, I came up with something I call “borrowed adulthood.” I think of it as a provisional bridge, and I pieced it together from familiar practices like modeling and supported action. I’m not saying the whole sequence has been formally tested and proven as one treatment, though.",
+  "chance_red": 0.35,
+  "chance_high": 0.25,
+  "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (High), window 40 of part A; AI (High), window 40 of part A); red stays likelier where it read Medium or High",
+  "kind": "changed"
+ },
+ {
+  "name": "T5 (Please don’t put six metaphors in one trance, P1)",
+  "text": "Stick to the one thing you’re doing, with one anchor or image to get started and one way to come back. You can also set yourself a tone if you want one, maybe warm or bounded or directed or neutral witnessing, or whatever else.",
+  "chance_red": 0.2,
+  "chance_high": 0.35,
+  "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 93 of part A)",
+  "kind": "changed"
+ },
+ {
+  "name": "T6 (Please don’t put six metaphors in one trance, P2)",
+  "text": "(It’s fine to borrow qualities like warmth or steadiness. Just don’t change who you are.)",
+  "chance_red": 0.2,
+  "chance_high": 0.35,
+  "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 96 of part A)",
+  "kind": "changed"
+ },
+ {
+  "name": "T7 (Optional fractionation: practice coming back, P1)",
+  "text": "In fractionation, you come back up toward ordinary awareness. Then you decide whether to go into absorption again. If you use fractionation openly, it teaches you that you can come out of trance as well as go in.",
+  "chance_red": 0.35,
+  "chance_high": 0.25,
+  "why": "a writer's version of a stretch that read AI on 2026-10-29 (AI (Low), window 145 of part A; AI (High), window 146 of part A); red stays likelier where it read Medium or High",
+  "kind": "changed"
+ },
+ {
+  "name": "kept: You’ll follow whatever you notice - sensation, i...",
+  "text": "You’ll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - as you’re invited.",
+  "chance_red": 0.3,
+  "chance_high": 0.1,
+  "why": "unchanged, in a window that read AI (Low) last time whose other words changed",
+  "kind": "changed"
+ },
+ {
+  "name": "kept: All of these are separate factors to consider: c...",
+  "text": "All of these are separate factors to consider: conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent.",
+  "chance_red": 0.55,
+  "chance_high": 0.1,
+  "why": "unchanged; read AI (Low, 18 words) last time",
+  "kind": "changed"
+ },
+ {
+  "name": "kept: That’s one grown-up doing three jobs, and each j...",
+  "text": "That’s one grown-up doing three jobs, and each job keeps the others in balance.",
+  "chance_red": 0.65,
+  "chance_high": 0.1,
+  "why": "unchanged; read AI (Medium, 16 words) last time",
+  "kind": "changed"
+ },
+ {
+  "name": "kept: Check out Nimja’s sleep playlist to go to sleep...",
+  "text": "Check out Nimja’s sleep playlist to go to sleep listening to hypnosis",
+  "chance_red": 0.3,
+  "chance_high": 0.1,
+  "why": "unchanged, in a window that read AI (Low) last time whose other words changed",
+  "kind": "changed"
+ }
+]

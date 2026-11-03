@@ -1,0 +1,57 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_ADMITTED_V1",
+  "candidate_sha256": "28d72153167e2dfb7df1c0417c2445f7d829175649cbb97b8b5fd52fea84c3e4",
+  "context_sha256": "302c4d14ef832406408d72f1f9babf759336a3c65ad22ecddee7aa2d5801c677",
+  "source_sha256": "3d97d0ff374400c0acca9d0e44176dab2d27ef3a2f6a6ffc295b54fa42164a85",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "lint_verdict": "REVIEW",
+  "linter_sha256": "4ce090c41fe4e2c0e7bc28b7cb59ebd6269e58be33611525c39c9fb4bc2a6e3e",
+  "lint_stdout_sha256": "8147130658fd4d2f3c51ccb9222fc66877cc4cd02b8b66c32db3690ed6c6f24b",
+  "lint_findings": [
+    {
+      "label": "D9 follows the source order",
+      "examples": [
+        "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    }
+  ],
+  "tell_ledger_counts": {
+    "ABSENT": 33,
+    "PRESENT_JUSTIFIED": 0,
+    "UNCERTAIN": 0,
+    "total": 33
+  },
+  "justified_tells": [],
+  "reviews": {
+    "preservation": {
+      "path": "REVIEW-preservation.json",
+      "sha256": "05e67ea2657c89e0fb1e2ac5115ea6124187e4f3bd2f5892c52a647a9c30d302",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (preservation reviewer)",
+        "context_id": "f1102-gate-preservation-subagent-a",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-11-02 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    },
+    "cold_read_1": {
+      "path": "REVIEW-cold_read_1.json",
+      "sha256": "7d27cc45c12c0b64539f96dfc3a9919fbac1f488f049531928ac2e799be545d3",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+        "context_id": "f1102-gate-cold_read_1-subagent-a",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-11-02 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    },
+    "cold_read_2": {
+      "path": "REVIEW-cold_read_2.json",
+      "sha256": "eecd7c3449b114ea72307193cb408fdf39b3656516bce724309b2075e1e87b7f",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (cold reader 2)",
+        "context_id": "f1102-gate-cold_read_2-subagent-a",
+        "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-11-02 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+      }
+    }
+  },
+  "manifest_sha256": "2190ccb4760cc581b6cfd61072ef0c980252e8525a5ff5aabd8b2800b199422a",
+  "verified_at_utc": "2026-11-02T23:19:04.520076+00:00"
+}

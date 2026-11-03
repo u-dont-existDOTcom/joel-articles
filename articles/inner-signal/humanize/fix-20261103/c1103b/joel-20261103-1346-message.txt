@@ -1,0 +1,42 @@
+33a 
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "inner-signal-hypnosis-guide-cards-20261103-c1103b",
+ "title": "Hypnosis Guide Cards, 3 November (2)",
+ "git_file": "articles/inner-signal/humanize/fix-20261103/c1103b/REVIEW-C1103B.html",
+ "article": {
+  "file": "articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "94ffd381f8a15b8a2116c220403c114211553db31379790532c0971658f3e1ec"
+ },
+ "built": "2026-11-03 12:24 UTC",
+ "generator": "suggestion_review.py 1.5 (2026-11-02)",
+ "exported_at": "2026-11-03T13:46:03.979Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "E-523",
+   "type": "stuck",
+   "title": "“You need both to be ethical with people, so when something sounds true but vague, ask …”",
+   "where": "Pattern 10: Meta Model questions — the de-hypnosis tool, P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Milton Model language opens things up, and Meta Model questions ask what exactly someone means.\n\nYou need both to be ethical with people, so when something sounds true but vague (like the new-age slogans: e.g. \"everyone is your mirror\"), ask: \"What do you mean, specifically, my mirror to what extent? According to whom, Madame Blavatsky, AI, or...? ? How do you know that, and what evidence would change your mind?\"",
+   "comment": "i also noticed the tag questions part above says \"oily\" instead of old. do we have more nonsense in here (from emulate i guess)? how are you not catching this? ",
+   "my_version": "Milton Model language opens things up, and Meta Model questions ask what exactly someone means.\n\nYou need both to be ethical with people, so when something sounds true but vague, ask: \"What do you mean, specifically? According to who? Compared to what? Always, or never? What exactly would happen if you did? How do you know that, and what evidence would change your mind?\"",
+   "before": "Milton Model language opens things up, and Meta Model questions ask what exactly someone means.\n\nYou need both to be ethical with people, so when something sounds true but vague, ask: \"What do you mean, specifically? According to who? Compared to what? Always, or never? What exactly would happen if you did? How do you know that, and what evidence would change your mind?\"",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-03T13:08:37.847Z"
+    }
+   ],
+   "updated": "2026-11-03T13:45:54.774Z"
+  }
+ ]
+}

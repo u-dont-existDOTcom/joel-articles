@@ -1,0 +1,19 @@
+{
+ "answers": "ANSWERS-20261103-1346.json",
+ "answers_sha256": "9ec0a4e8a7c9c59f36716cb7dfb0ecb91ae296756839ccdaa9e3319fc9973fab",
+ "before_sha256": "94ffd381f8a15b8a2116c220403c114211553db31379790532c0971658f3e1ec",
+ "after_sha256": "bb5fc57de174b36c9e1bed333354a0f79e2c74811564f505a505950c5b5e7300",
+ "blocks": {
+  "E-523": 523,
+  "oily": 516
+ },
+ "fates": {
+  "E-523": "revise: his version of the second paragraph went in (the first is unchanged in it)",
+  "33a": "the guide goes into his post after this and the nonsense read (fix-20261103/live/)",
+  "oily": "his comment: Pattern 8's \"they get oily very quickly\" now \"they get old very quickly\""
+ },
+ "typos_fixed": [
+  "the second question mark in \"or...? ? How\""
+ ],
+ "in_the_guide": "You need both to be ethical with people, so when something sounds true but vague (like the new-age slogans: e.g. \"everyone is your mirror\"), ask: \"What do you mean, specifically, my mirror to what extent? According to whom, Madame Blavatsky, AI, or...? How do you know that, and what evidence would change your mind?\""
+}

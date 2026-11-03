@@ -103,7 +103,8 @@ main.article p,main.article blockquote,.blk.li{margin:.85em 0}
 main.article blockquote{border-left:3px solid var(--line);padding-left:1rem;color:var(--muted)}
 .blk.li{display:flex;gap:.55em;padding-left:.4em}
 .blk.li .mk{flex:0 0 auto;font-weight:700}
-.pn{font:600 .66em system-ui,sans-serif;color:var(--muted);margin-right:.45em;vertical-align:.12em}
+/* 2026-11-02: never copied with the text (Joel's checks of paragraphs copied from these pages read "P1Here is a list"; taking the labels out alone turned AI Detected into Human Written, gate E326) */
+.pn{font:600 .66em system-ui,sans-serif;color:var(--muted);margin-right:.45em;vertical-align:.12em;-webkit-user-select:none;user-select:none}
 .blk.li .pn{order:-1}
 .native-blk{font:600 .85rem system-ui,sans-serif;color:var(--muted);background:var(--soft);border:1px dashed var(--line);border-radius:8px;padding:8px 12px;margin:1em 0}
 mark.hl{background:var(--cb);color:inherit;border-bottom:2px solid var(--c);border-radius:2px;padding:0 .04em;cursor:pointer;-webkit-box-decoration-break:clone;box-decoration-break:clone}
@@ -195,7 +196,7 @@ body.reading .card{display:none}
   <div class="bar gut">
     <span class="name">__TITLE__</span>
     <span class="prog" id="prog" aria-live="polite"></span>
-    <button type="button" class="btn" id="prevBtn" title="The undecided suggestion before this point">↑ Previous</button>
+    <button type="button" class="btn" id="prevBtn" title="The card before this one">↑ Previous</button>
     <button type="button" class="btn main" id="nextBtn" title="The next suggestion you haven't decided">Next undecided ↓</button>
     <button type="button" class="btn" id="toolsBtn" aria-expanded="false" aria-controls="tools">Filters</button>
     <button type="button" class="btn" id="saveBtn" aria-expanded="false" aria-controls="savePanel">Save / send</button>
@@ -360,6 +361,8 @@ __MAIN__
 
   // ---------------------------------------------------------------- rendering
   const PILL = { pending: 'Not approved yet', approved: 'Approved', rejected: 'Rejected: keep as is', revise: 'Revise' };
+  // a stretch for him to see and rewrite if he wants (advice "edit", 2026-10-27): its own words for the same states
+  const EDIT_PILL = { pending: 'Not decided yet', approved: 'Approved', rejected: 'Keep as it is', revise: 'Your version' };
   function savedLine(id, msg) { const c = cards[id]; if (c) { const el = $('.saved-line', c); if (el) el.textContent = msg; } }
   function isAsk(id) { return SUG[id] && SUG[id].advice === 'ask'; }
   function askPill(id) {
@@ -380,7 +383,8 @@ __MAIN__
       return;
     }
     c.dataset.status = st.status;
-    $('.pill', c).textContent = (c.dataset.advice === 'leave' && st.status === 'pending') ? 'I\'d leave it' : PILL[st.status];
+    $('.pill', c).textContent = (c.dataset.advice === 'leave' && st.status === 'pending') ? 'I\'d leave it'
+      : (c.dataset.advice === 'edit' ? EDIT_PILL : PILL)[st.status];
     $$('.dec', c).forEach(b => b.setAttribute('aria-pressed', String(b.dataset.dec === st.status)));
     const yw = $('.yours-wrap', c), yt = $('.yours', c), nt = $('.note', c);
     yw.hidden = !(st.status === 'revise' || st.text);
@@ -395,18 +399,24 @@ __MAIN__
   }
   function renderAll() { ORDER.forEach(id => renderCard(id)); progress(); }
   function progress() {
-    let n = 0, dec = 0, ap = 0, rj = 0, rv = 0, quiet = 0, quietSeen = 0, asks = 0, answered = 0;
+    let n = 0, dec = 0, ap = 0, rj = 0, rv = 0, quiet = 0, quietSeen = 0, asks = 0, answered = 0, eds = 0, edDone = 0, kept = 0, edited = 0;
     ORDER.forEach(id => {
       const st = get(id);
       if (isAsk(id)) { asks++; if ((st.comment || '').trim()) answered++; return; }
       if (SUG[id].advice === 'leave') { quiet++; if (st.status !== 'pending' || st.comment) quietSeen++; return; }
+      if (SUG[id].advice === 'edit') {   // a stretch to edit: kept or his version, counted apart from the suggestions
+        eds++; if (st.status !== 'pending') edDone++;
+        if (st.status === 'rejected') kept++; else if (st.status === 'revise') edited++;
+        return;
+      }
       n++;
       if (st.status !== 'pending') dec++;
       if (st.status === 'approved') ap++; else if (st.status === 'rejected') rj++; else if (st.status === 'revise') rv++;
     });
-    $('#prog').innerHTML = '<b>' + dec + '</b> of ' + n + ' decided · ' + ap + ' approved · ' + rj + ' rejected · ' + rv + ' to revise'
+    $('#prog').innerHTML = (n ? '<b>' + dec + '</b> of ' + n + ' decided · ' + ap + ' approved · ' + rj + ' rejected · ' + rv + ' to revise' : '')
+      + (eds ? (n ? ' · ' : '') + '<b>' + edDone + '</b> of ' + eds + ' stretches looked at · ' + kept + ' kept · ' + edited + ' edited' : '')
       + (asks ? ' · ' + answered + ' of ' + asks + ' questions answered' : '');
-    $('#meter').style.width = ((n + asks) ? Math.round(100 * (dec + answered) / (n + asks)) : 0) + '%';
+    $('#meter').style.width = ((n + eds + asks) ? Math.round(100 * (dec + edDone + answered) / (n + eds + asks)) : 0) + '%';
     $('#leaveCount').textContent = quiet + (quietSeen ? ', ' + quietSeen + ' looked at' : '');
     const counts = {};
     ORDER.forEach(id => { const s = SUG[id]; if (s.advice === 'leave') return; counts[s.type] = (counts[s.type] || 0) + 1; });
@@ -456,16 +466,25 @@ __MAIN__
   function undecided(c) { const id = c.dataset.id; return isAsk(id) ? !(get(id).comment || '').trim() : get(id).status === 'pending'; }
   function step(dir) {
     if (document.body.classList.contains('reading')) { document.body.classList.remove('reading'); $('#readingMode').checked = false; }
-    const list = visibleCards().filter(undecided);
-    if (!list.length) { $('#prog').insertAdjacentText('beforeend', ' · nothing undecided in view'); return; }
-    const topLine = 130;
+    const topLine = 130;   // just under the sticky bar: a card scrolled to with goTo() stands at scroll-padding-top (120px)
     if (dir > 0) {
+      const list = visibleCards().filter(undecided);
+      if (!list.length) { $('#prog').insertAdjacentText('beforeend', ' · nothing undecided in view'); return; }
       const next = list.find(c => c.getBoundingClientRect().top > topLine + 4) || list[0];
       goTo(next);
-    } else {
-      const prev = list.slice().reverse().find(c => c.getBoundingClientRect().top < topLine - 4) || list[list.length - 1];
-      goTo(prev);
+      return;
     }
+    // Previous: the card before the one you're on, decided or not, and never a jump to the bottom. (Joel, 2026-10-30, after
+    // going through the cards in order: "your "pevious" button brouught me to the bottom of the page": it went to the last
+    // undecided card above, and with every card above decided it wrapped round to the last one on the page.)
+    const all = visibleCards();
+    const above = all.filter(c => c.getBoundingClientRect().top < topLine + 4);
+    if (!above.length) { $('#prog').insertAdjacentText('beforeend', ' · this is the first card'); return; }
+    const cur = above[above.length - 1];
+    // inside a long card (its top well above the bar): back to its start first; at its start: the card before it
+    const target = cur.getBoundingClientRect().top < topLine - 60 ? cur : above[above.length - 2];
+    if (!target) { $('#prog').insertAdjacentText('beforeend', ' · this is the first card'); return; }
+    goTo(target);
   }
   $('#nextBtn').addEventListener('click', () => step(1));
   $('#prevBtn').addEventListener('click', () => step(-1));

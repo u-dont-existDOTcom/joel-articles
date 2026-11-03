@@ -1,0 +1,15 @@
+{
+ "before_sha256": "d2e5ce23591daad569243e08160a01ca0e7f449fb3a3a43802400200ad19f647",
+ "after_sha256": "80b2e475c67480e9e0356e8a31902f779967197e0607caaed8169e5d16015487",
+ "fixes": [
+  {
+   "id": "r1102b-C1",
+   "section": "Working with your guards",
+   "block_start": "Instead, you might feel numb",
+   "old": "So before you decide where it's coming from, ask it what it's trying to stop, or what it wants.",
+   "new": "So before you decide where it's coming from, ask it. What is it trying to stop? What does it want from you?",
+   "window": "Human (Low), 21 words, in section 23's check: https://www.pangram.com/history/ea5ab290-9965-40a1-83c3-bae3634cf0d3",
+   "tested": "Human Written, the sentence Human (Medium), with the paragraph after it: https://www.pangram.com/history/65ac97c1-88c9-483a-bc30-2b8a427e3209"
+  }
+ ]
+}

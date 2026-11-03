@@ -1,0 +1,21 @@
+{
+  "input_file": "/home/joel/ai-work/claude-dangerous-lane/inbox/emu-hg-cm/HG-Forget-the-left-brain-right-62.txt",
+  "input_words": 54,
+  "input_sha256": "677cd2b4c9323e95e1f015505142625f15ec379cd79b5683744041436e143595",
+  "balance_before": 48093,
+  "started_utc": "2026-10-26T12:57:28Z",
+  "errors": [],
+  "finished_utc": "2026-10-26T12:57:32Z",
+  "response": {
+    "id": "f530de80-ab33-4059-9b80-e03aece5d09e",
+    "tool": "humanize",
+    "text": "It strikes that the mind of love is sterile without the mind of analysis, and the mind of love leads to fantasy if uncorrected by the mind of analysis. Likewise, intuitive signals without testing lead to delusions, and testing becomes dead without intuitive signals to test. So each can correct the other.\n\nIt’s got to lead somewhere!",
+    "reads_human": null,
+    "style": {},
+    "words": {
+      "charged": 54
+    },
+    "elapsed": 4
+  },
+  "balance_after": 47985
+}

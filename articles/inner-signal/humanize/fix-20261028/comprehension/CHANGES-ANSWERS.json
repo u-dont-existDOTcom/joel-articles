@@ -1,0 +1,67 @@
+{
+ "from": {
+  "sha256": "c38ca36f298d91edc9d38b8d216ef024b0bdf7634fdfccc093d63927d7bbfcfd",
+  "blocks": 758
+ },
+ "to": {
+  "sha256": "218c203592d1f219efcf63af116d0f88e4ed025a44685742009fc6fa8dfec90e",
+  "blocks": 758
+ },
+ "links_lost": [],
+ "changes": [
+  {
+   "id": "HG-S11",
+   "block": 4,
+   "where": "How to use this very large guide, P1",
+   "how": "approved (his answer of 2026-10-28 15:19 UTC)",
+   "before": "To make it easier, you can begin with the Quick start section, then learn one of the inductions and the whole return sequence. Then, you can read the Let the next response guide you section, for the part of the practice no recording can decide in advance. You can also look at the daily and weekly sections to make the practice your own. There are lots of appendices with extra tools, covering lots of topics, including asking questions, NLP patterns of language, working with anxiety, working with daydreams, altered states in general, what to do if you experience the sensation of a hostile presence, working with sleep, influence, and more inductions. All sources used are in Appendix K.",
+   "after": "To make it easier, you can begin with the Quick start section, then learn one of the inductions and the whole return sequence. Then, you can read the Let the next response guide you section, for the part of the practice no recording can decide in advance. Also read some of the stuff in the daily and weekly sections, to make the practice your own. There are lots of appendices with extra tools, covering lots of topics, including asking questions, NLP patterns of language, working with anxiety, working with daydreams, altered states in general, what to do if you experience the sensation of a hostile presence, working with sleep, influence, and more inductions. All sources used are in Appendix K.",
+   "findings": []
+  },
+  {
+   "id": "HG-S12",
+   "block": 7,
+   "where": "The table of contents is hiding on the left, P1",
+   "how": "approved (his answer of 2026-10-28 15:19 UTC)",
+   "before": "Substack kinda hides the table of contents until you move the mouse toward the left side of the page. On a guide this long, that little hidden menu is your friend.",
+   "after": "Substack kinda hides the table of contents until you move the mouse toward the left side of the page. It'll be really helpful for this guide as it's a long one.",
+   "findings": []
+  },
+  {
+   "id": "ED-A1",
+   "block": 14,
+   "where": "Introduction, P6",
+   "how": "his version (revised, 2026-10-28 15:19 UTC)",
+   "before": "“How do I do this?” you ask. Just listen. When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic trance experience to demonstrate the results of all parts of your mind talking to each other and trusting each other more.",
+   "after": "“How do I do this?” you ask. Just listen silently. Many people skip the listening or shorten it since it's not \"achieving something\" but this is by far the most important step. When you warm up to what’s there, protect it, clarify what it is, reality test it, and then act on it, you’ll find that you don’t even need to have a dramatic trance experience to demonstrate the results of all parts of your mind talking to each other and trusting each other more.",
+   "findings": []
+  },
+  {
+   "id": "ED-A3",
+   "block": 20,
+   "where": "Quick start: do this first, P3",
+   "how": "his version (revised, 2026-10-28 15:19 UTC)",
+   "before": "You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - as you're invited. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return. After, note what happened & any real-world actions.",
+   "after": "You'll follow whatever you notice - sensation, image, phrase, feeling, objection, silence - as you're invited. Vary the invites as needed to be responsive & warm, to create a boundary, to give direction or more time, etc. Complete the return to normal waking consciousness. After, note what happened & any real-world actions.",
+   "findings": []
+  },
+  {
+   "id": "ED-A5",
+   "block": 24,
+   "where": "Do you usually think in words?, P2",
+   "how": "his version (revised, 2026-10-28 15:19 UTC)",
+   "before": "This doesn't mean that in any given moment you won't notice feelings before words. You don’t have to decide that feelings always come first. This isn't a diagnosis, just a way of finding what's useful. \"Not sure\" is an answer.",
+   "after": "Keep in mind that it's normal, even for people who do think in words, to sometimes notice feelings before words.",
+   "findings": []
+  },
+  {
+   "id": "HG-S15",
+   "block": 32,
+   "where": "Protecting Yourself from Hypnotists, P3",
+   "how": "his version (revised, 2026-10-28 15:19 UTC), one typo fixed",
+   "before": "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent. Can people have their minds influenced without conscious agreement of their adult self?",
+   "after": "All of these are separate factors to consider: conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent. People have their minds influenced without the conscious agreement of their adult self.",
+   "findings": []
+  }
+ ]
+}

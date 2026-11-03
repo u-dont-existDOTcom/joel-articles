@@ -96,6 +96,8 @@ These came from community sections 1 and 2 and apply to every rewrite of his wor
 - **A standing delivery is a check, not a memory (E271 (Inner Child); Joel, 2026-10-25 21:40 UTC: "idk why you stopped giving me the full humanized article on each turn, i was trying to see what is the shape that got put in").** The whole article, rendered with `tools/humanization/render_article_so_far.py`, goes to him every turn: `OWNER-FACING-TURN-CONTRACT.md` has said so since 2026-09-17, and the lane's handoff note and the renderer's own docstring said it too. Still it dropped out of the last few turns: after a context summary, the routine I carried listed the stamp, the links and the chat check, but not the page, and nothing refused a final message without it. Now the renderer writes the Markdown it was made from and that file's SHA-256 into the page, and `pangram_links_check.py --chat` fails a lane turn's final message (one that ends with a handoff's resume line) unless a page from the current article is passed with `--sent PAGE`; a turn with nothing for him to review, which the contract lets go without it, says why with `--nothing-to-review "REASON"` (`tests/test_pangram_links_check.py`, `WholeArticle`).
 - **A case heading sits below the subsections its section already has, and the reader of one section gets the outline around it (E275 (Inner Child), turn 113).** Joel asked for a little heading over each paragraph that is its own case (2026-10-25 21:40 UTC). The first proposal put each section's case headings one level below the section's own heading. A fresh cold reader of Start With Whatever Showed Up asked for the outline to be checked: at ###, its case headings would stand level with the section's own subsections (Hear the Guard First and three more), which would then read as more cases, and four other sections had the same shape. Every case heading is now a ####, the size the guide uses for its small headings, the way his "Non-altered states can feel like this too" already sits inside its section. So a brief for reading one section gives the headings around it, and the gate's context for a heading is its section with its real levels. When two of my wordings for one heading fail the gate ("If a part says no" in round 1, "When to stop" in round 3), the paragraph's own words make the fallback before a third wording, even as a long heading: the stop rule's heading is now its whole condition ([GATE.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t113-gate/GATE.md)).
 - **A window below Human, high is a spot to work on, not a pass (E276 (Inner Child); Joel, 2026-10-26 12:24 UTC: "i hope you haven't been treating anything that passes the same? it's important data to see in a large pangram test what's not high conf human, for learning, and esp because pangram 5 will likely take the lower conf sections and turn some into AI sections as it did when 4.1 came out").** Round 8's four AI windows (all Low) were on words round 6 had read Human below High, one Medium and three Low, and none of those words had changed between the rounds; of the 79 windows round 8 read below High whose words were in round 6 too, 64 were below High there as well ([ROUND8.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t115-results/ROUND8.md)). Until then, rounds 3 to 5 wrote down only their AI windows, and every round's scoring and fix pass counted a Human window as passing whatever its confidence, so round 6's 111 below-High windows, listed in turn 109 at his request, waited. Now every whole-article read keeps every window and lists each one below High by section, beside the round before's reading of the same words ([windows_list.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t115-results/windows_list.py)); an item's result gives its words below High beside its words in AI windows; a pass works on them in this order, AI, then Low, then Medium; and a fix's own check counts its windows below High too, not only its AI fraction ([record.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t115-api/record.py)). In his words they go to him marked, with the tell named where there is one. The hypnosis guide lane's E276, written at the same time, found the same thing in its own recheck: of the check before's Low windows still in the text, 2 of 17 turned red.
+- **A file he edits must carry the article's links and pictures, checked before it goes (E337 (Inner Child); Joel, 2026-11-03 21:45 UTC: "yes the links were gone when you sent me the file").** In turn 115 I sent him the whole guide as a Word file with every weak spot highlighted, built from plain text: no links, no pictures. He did his whole reorganization in it, so his guide came back with 6 real links of the 67 the guide had (55 more as bare words, the rest typed as [words](address)), and none of the live post's seven pictures and videos. Nothing had compared the file with the article. Now every file that goes to him to edit passes [file_links_check.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/tools/humanization/file_links_check.py) first: every link of the article, by address, and at least as many pictures, or it fails; the turn-115 file fails it ([tests/test_file_links_and_section_refs.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/tests/test_file_links_and_section_refs.py)). The lost links went back from the guide where his sentence was still the one the link was in ([relink.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t116-review/relink.py)).
+- **What his own reorganization does, I can propose (E338 (Inner Child); Joel, 2026-11-03 21:00 UTC: "i'd like you to learn as much as possible from my edits and reorgs to see all the things you could have done yourself").** Sentence by sentence against the guide I gave him ([EDITS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t116-joel/EDITS.md)): he organized Building Your Inner Adult by the framework's three roles in the order the framework implies (Protector, Nurturer, Guide, with the reason in one line) where I had them spread over method sections; put each technique under the goal it serves; named a move once and reused the name ("the Mr. Rogers reframing trick"); cut my summary, reaction and reassurance lines; wrote out the mechanism where I had a figure ("Without trust, the love seems fake. And without love, the trust is shallow."); made my stock examples specific ("the 13th friend today who asked you to Google something"); added the why, the opposite case and the exact word. The whole list, with each rule, is [LESSONS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t116-joel/LESSONS.md); the close read in [FIXING-AN-ARTICLE.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/docs/FIXING-AN-ARTICLE.md) now applies them. He fixed most of the pointers his moves broke and missed a few ("as described in Noticing Counts" in a section now before it); after any reorganization, [section_refs.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/tools/humanization/section_refs.py) lists every mention of a section by name, with which way it is and whether it is still there, and the "that X" whose X moved still get a read.
 - **A stuck paragraph is checked a part at a time (E190; Joel, 2026-10-17 22:59 UTC: "I made changes to the end, then the beginning, and then the middle. Each part required changes as each part was being shown by itself as AI").** When a paragraph keeps reading AI whole, screen its end, its beginning and its middle alone; fix the part that reads AI, then check the paragraph again. The march is "a concise next step in the instruction manual" in every sentence, and "just a little loosening" fixed his P5 ("Is that therapy? Well, not the mainstream kind, but yes, for sure."). A "not Y" tail ("that's X, not Y") is a linter FAIL (O9): say both sides, as his "even if it was also a learning experience". A question a draft asks the reader gets his answer or the guide's, never one made up about his framework.
 - **A coverage gap is traced before it goes back in (E191; turn 71, 2026-10-18).** A coverage check compares the guide with the article; it doesn't know his decisions. Turn 71 put the guide's no to the inner-child frame back in (When the Adult Voice Feels Fake's opening, round t71zzz) before its trace, and the trace found he had cut it on 2026-10-08 02:23 (depth draft 1: "who is gonna be "sneaking reparenting in " thru some gentler version?") and left it to the AI guide; it came out again. So a gap goes back in only after its trace shows a cut with no OK of his and nothing else in the article carries it, and after a repeats check (all three of turn 71's restores turned out to be at least partly said elsewhere already). A gap he decided stays as he left it, and one that's partly carried goes to him as a question.
 - **A guide sentence that tells the reader nothing they'd doubt isn't important meaning (E192; Joel, 2026-10-18 19:06 UTC, on "Those don't even agree with each other on everything!": "remove this nonsense, how did this get in? ... of course they don't, nobody would suspect that diverse practices agree on everything, and then the exclamation mark makes it sound ultra more stupid lol. debug how that got in there pls").** It was my rendering of the guide's hedge "These approaches do not all make the same claims.", turned into an exclamation to sound casual and then moved to the end of its paragraph to break a Pangram window, where it read as a punchline (experiments/t72-guide/REVIEWS.md). So: a guide sentence that only says what no reader would doubt goes, rather than getting humanized; a flat sentence doesn't get an exclamation to sound casual; and a sentence moved for Pangram gets its paragraph read again for sense where it lands. The cold-read prompt now asks the reader to flag a sentence like it (reviewer/sense_section.txt), and a sweep of the whole article for more (experiments/t72-guide/JUNK-SWEEP.md) went to him with my recommendations.
@@ -1339,7 +1341,7 @@ buttons".
   browser (74 checks, with a negative fixture for the 2026-10-23 white-on-white boxes). A check with more than a handful of
   suggestions for him ends with this page, not with lists.
 
-(The next lesson in either lane was E266 here. The Inner Child lane's turn-110 lessons took E266 and E267, written while this section stood as it is: cite them as "E266 (Inner Child)" and "E267 (Inner Child)". The Inner Child lane's turn-111 lessons are E268 to E270 (Inner Child), near the top too, and its turn-112 lesson is E271 (Inner Child), after them; the hypnosis guide lane's E268 to E270, in the next section, were written at the same time as the turn-111 ones, and both sets keep their numbers. The hypnosis guide lane's E272 to E274 follow them there, its E275 after those, and its E276 after that. This lane's turn-115 lesson was written at the same time as that E276 and keeps the number too: cite it as "E276 (Inner Child)"; it is near the top. The next lesson in either lane is E277.)
+(The next lesson in either lane was E266 here. The Inner Child lane's turn-110 lessons took E266 and E267, written while this section stood as it is: cite them as "E266 (Inner Child)" and "E267 (Inner Child)". The Inner Child lane's turn-111 lessons are E268 to E270 (Inner Child), near the top too, and its turn-112 lesson is E271 (Inner Child), after them; the hypnosis guide lane's E268 to E270, in the next section, were written at the same time as the turn-111 ones, and both sets keep their numbers. The hypnosis guide lane's E272 to E274 follow them there, its E275 after those, its E276 after that, its E277 to E279 after it, its E280 to E283 after those, its E284 to E290 after those, its E291 and E292 after those, its E293 after those, its E294 to E297 after those, its E298 to E300 after those, its E301 to E303 after those, its E304 after those, its E305 after those, its E306 to E310 after those, its E311 and E312 after those, its E313 and E314 after those, and its E315 to E320 after those, and its E321 and E322 after those, and its E323 and E324 after those, and its E325 after those, and its E326 and E327 after those, and its E328 to E330 after those, and its E331 and E332 after those, and its E333 and E334 after those, and its E335 and E336 after those. The Inner Child lane's turn-116 lessons, written after them, are E337 and E338 (Inner Child), near the top. The next lesson in either lane is E339.)
 
 ## What his answers on the marking page showed (2026-10-25 19:42 UTC)
 
@@ -1454,11 +1456,689 @@ SCORE-B.md) and batch 480 (`articles/inner-signal/humanize/fix-20261026/b480/REA
   checked alone proves nothing either way: the parent script paragraph's last two sentences, Human in place, read AI alone
   once Emulate's sentences were in (480g, ledger #70).
 
-(The next lesson in either lane is E277: the Inner Child lane's turn-115 lesson, written at the same time, is "E276 (Inner Child)", near the top.)
+(The next lesson in either lane was E277 here; it is in the next section, and the next one after those was E280.)
+
+## What Joel asked for after batch 480's recheck (his message of 2026-10-26 12:43 UTC)
+
+His message: `articles/inner-signal/humanize/fix-20261026/joel-20261026-1243-message.txt`. Part A of the hypnosis guide read
+100% Human; part B one AI segment, the audit he kept as a list.
+
+- **E277. The worker makes the preview link, every lane.** "why is it that you know how to make the preview, while inner
+  child lane only makews a draft without making a preview of it? make sure that's a durable instruction to save me some
+  steps". The budget rule had the step (Preview, the paid subscriber view, Share, the secret link), but as clicks in a
+  list, and one lane's helper stopped at the paste, so he got a draft and did the rest himself. Now
+  `tools/humanization/substack_secret_link.js` makes the link from the draft's number with no clicks (it refuses a published
+  draft or a title that isn't a temporary one), the worker opens it and checks the rendered text, and what goes to Joel is
+  that link and nothing else (`AGENTS.md`, the budget rule's step 2, `docs/FIXING-AN-ARTICLE.md` 6.2).
+- **E278. Less than High is not done.** "i also want you to fix any segments that are not high confidence human if you
+  can, and always we should be marking down the confidence if we have it, because less than high confidence means it's
+  likely next pangram version will mark it ai (that happened in pangram 4.1 update)". Records had said "Human" for a
+  window whatever its confidence, and only red counted as work. Part A's 100% Human had 14 Low and 68 Medium windows behind
+  it. Now every reading records each window's confidence (High, Medium, Low, and the calibrated value), reports say "Human
+  (Low)", and `tools/humanization/window_confidence.py` lists every window that isn't High-confidence Human with its place
+  and whose words, as the next work. Most Medium windows are lines of a few words (a list letter, "Yes.", a short script
+  line), which no rewording makes long enough to be sure of; whether to change that form is his call, on the questions
+  page (`docs/FIXING-AN-ARTICLE.md` 6.14).
+- **E279. A word of his that a sample drops goes back before the gate.** Batch 481 (the guide's Emulate versions of 24
+  stretches at less than High) lost five of its drafts in the gate's first round, each on one word or mark: Emulate
+  dropped his "genuinely" ("two genuinely safe routes"), his "still" ("What boundaries are still needed?"), his
+  "remembers" (which his next line picks up) and "works well here", and turned his "trick or manipulate" into "trick and
+  manipulate" with "their" in front; and my own fix of Emulate's "Lets" used a straight apostrophe in a section of curly
+  ones. I had seen three of those words go and judged them small. A word that carries his strength, certainty or order is
+  not small: compare each splice with his line word by word before the gate, and put back every word of his it drops or
+  changes (the smallest fix, named with its reason), and match the paragraph's own quote marks in any fix. Another lesson
+  from the same round: a gate folder moves (for a fix) only once every reviewer of it has finished, because reviewers check
+  their files at the end and write them again where they find them gone (group h's three did, into the new folders;
+  `articles/inner-signal/humanize/fix-20261026/b481/gate/GATE.md`).
+
+(The next lesson in either lane was E280 here; it is in the next section.)
+
+## What Joel's message of 2026-10-27 15:37 UTC taught (the hypnosis guide: batch 481's recheck, questions 21 to 23)
+
+His message: `articles/inner-signal/humanize/fix-20261027/joel-20261027-1537-message.txt`. The two recheck links, and "21.
+your list of cards was a json file? i can't read that", "22. give me the editor interface so i can see and edit what needs
+editing", "23. i need that editor interface we developed remember that?".
+
+- **E280. What he gets is a page he can open where he is, never a data file.** Question 21's marking page had been
+  published from his other account, and the questions page's fallback "from your other account" was the cards' JSON file
+  in Git, which he can't read. AGENTS.md already said an artifact is only a view of a file in Git; the file it pointed to
+  was the wrong kind. Now a marking page is published from the account the session runs in (the session can't republish
+  or even open the other account's), and its cards are written beside it as a Markdown page GitHub renders
+  (`EDITOR-27.md`, by the page's builder), which is what the page and the questions page link to; the JSON stays, for the
+  scripts. Two checks would have caught it: listing this account's artifacts before linking one (the page wasn't there),
+  and asking of every link on the questions page "can he read this where he is?".
+- **E281. Every kind of card has its colours, or its highlights don't show.** Batch 481's page gave its cards four kinds
+  the page template didn't know (held, notyet, confidence, confidence-his), and the template colours highlights only by
+  kind, so none of its 34 highlights showed in the guide: he saw the cards and no marks on the words. The browser test had
+  checked buttons, boxes, filters and export, never that a highlight shows. `suggestion_review.py` now gives every kind
+  the template doesn't know its own colours, light and dark, and the browser test fails when any open highlight has none
+  (the old page fails it: 31 without one).
+- **E282. Text he may want to edit goes on the marking page as a stretch to edit, not as options in a list.** Questions
+  22 (60 short lines at Medium) and 23 (the audit) went to him as a), b), c) on the questions page; he wanted to see the
+  text and edit it, in "the editor interface we developed" (E265, E269). The marking page now has a third kind of card,
+  advice "edit": the stretch highlighted, what Pangram read, why it's there, my advice, and Keep it as it is / Edit it,
+  where Edit opens the paragraph for his own version; his answers come back with the rest of the page's. So a question
+  about whether to change some text, or how, is a set of such cards on the page, with the options as the card's advice.
+- **E283. Emulate's re-runs of Medium and Low windows reach High more often than I said.** Of batch 481's 24 fixes, 19
+  read High in place; my chances of High (0.35 to 0.5) scored a Brier of 0.288 against a coin's 0.25
+  (`articles/inner-signal/humanize/fix-20261026/b481/recheck/read/SPOTS.md`). The five that didn't each sat in a short
+  window or a list of lines. And my whole-text call for part A missed the same way twice running (AI at 0.30 and 0.08;
+  both read 100% Human, with every part forecast right): the next forecast starts from about 0.75 for a re-run of a window
+  of ten words or more, lower for a line of a few words, and the whole-text call from its parts.
+
+(The next lesson in either lane was E284 here; it is in the next section.)
+
+## What Joel's message of 2026-10-28 15:20 UTC taught (the hypnosis guide: "too incomprehensible")
+
+His message and his answers file: `articles/inner-signal/humanize/fix-20261028/joel-20261028-1520-message.txt`. "i
+started on it, but the guide itself is now too incomprehensible, we went wrong somewhere"; on the agreement list (HG-S15):
+"is there more weird stuff in here that makes no sense like this? didn't you already do a comprehension check? the AI
+guide was making more sense by far ... is this whole guide messed up now?". And at 16:05 UTC, after the diagnosis: "ok
+good let's repair the process durably so that can't happen again also". The comparative read of that afternoon
+(`articles/inner-signal/humanize/fix-20261028/comprehension/AUDIT.md`): 281 findings from fresh readers; by my check 41
+real problems in 38 of the guide's 591 paragraphs, 118 small snags in 95 more, 6 in his own words, 116 not problems.
+
+- **E284. After any rewrite of his text, read it beside his text, sentence by sentence.** On 18 October Emulate rewrote
+  most of the guide in one night; the checks were meaning (second readers, against his text) and Pangram. On 25 October
+  the strict Emulate check looked for what was added, lost or slipped, and the clarity read read the guide on its own,
+  readers flagging what stood out. None of them asked of every sentence whether a reader could follow it as well as his,
+  and "As associated with the Silva Mind Control method:" (his "A line associated with the Silva Mind Control tradition
+  says it plainly:") passed all of them. The read now is `tools/humanization/compare_read.py`: each part of the rewrite
+  beside the same part as he wrote it, a fresh reader per part going through it sentence by sentence for every place it
+  is garbled, unclear, lost or vaguer; then every finding checked against the whole article and his own decisions (116 of
+  281 weren't problems: his terms, his cuts of 25 October, lines his newer inner child guide put in). Parts of about 1,300
+  words of the rewrite: six of the eleven first readers, given about 2,500 each, ran out of room before writing anything.
+  The shared rules: `docs/FIXING-AN-ARTICLE.md` section 5, `docs/CLARITY-READ.md`, `docs/EMULATE-FALLBACK.md` section 4,
+  `AGENTS.md`.
+- **E285. A sentence a reader can't follow is never "small", and never stays for the sake of a Pangram reading.** Three
+  checks saw these spots and I left them each time. 18 October: the triage fixed 260 findings and let 554 stand as
+  "wording, emphasis or tone", 21 of them marked unclear, because each fix risked the section reading AI. 25 October: the
+  strict check's readers rated 743 of their 808 findings "small" ("Drops his point that these four are separate things."
+  for the agreement list), and only the 65 that "matter" were triaged; 29 of the 41 real problems of 28 October were
+  among those small ones. AGENTS.md already said "Detector results are evidence, not editorial authority". What now
+  enforces it: `compare_read.py gate` (every paragraph his as published, his own words, or read beside his text at its
+  present words; every finding a reader rated 2 or 3 with a fate and a reason; a garbled or unclear one can't be "kept"
+  unless my check put it at 1, on record), run by `tools/humanization/lane_push.py` before every push of an article with
+  a COMPARE-GATE.json (the hypnosis guide's is `articles/inner-signal/humanize/COMPARE-GATE.json`), which stops unless
+  `--unread-ok "why"` puts the reason in the commit; and the lane's `tools/triage_apply.py`, which refuses a triage that
+  lets an unclear or garbled finding stand (its brief, `fix-20261018/rf-a/TRIAGE-BRIEF.md`, is marked superseded).
+- **E286. A clarity brief never calls a rewrite's casual grammar his voice.** The 25 October clarity brief said "What
+  doesn't count: his jokes, emoji, slang, exclamations and casual grammar (that's his voice)", when about two-thirds of the
+  guide's words were no longer his, most of them Emulate imitating a casual voice; so its garbles were excused as his. The
+  shared brief (`tools/humanization/clarity_read.py`) now says casual grammar is his voice in his own words only, and a
+  sentence that doesn't parse counts whoever wrote it.
+- **E287. A read that is run again keeps the first run's findings.** The clarity read's first run flagged the agreement
+  list (item 7.9, score 2); I reran it on a fixed brief and built his page from the second run alone, which didn't flag
+  it, so the flag never reached him. `clarity_read.py collect DIR --prior EARLIER` now carries every finding the rerun
+  lacks, marked "check", and warns when a sibling folder looks like an earlier run that wasn't passed.
+- **E288. A card that offers new words is read for sense beside his line before I advise it.** HG-S15 offered Emulate's
+  re-run of the agreement list because it read High, and my advice was "Approve"; the list itself made no sense, and he
+  had to find it. The Medium-and-Low-to-High work (batches 475 to 481) added Emulate's words the same way. So every
+  Emulate re-run, reader's edit or writer's version gets the comparative read of its paragraph before it becomes a card,
+  and the card says so; and the 83 cards of the 27 October editor page he hadn't marked are held until theirs is done.
+- **E289. A capture of a tool's output keeps its line breaks.** The hypnosis guide's two "Finding a hypnotist" lists ran
+  their items together ("What they are trained in (what they can treat) How they use hypnosis What they will do ...")
+  from the night of 18 October: Emulate's output was captured without its line breaks (it is already run together in
+  `fix-20261018/march-j/march-prompt.txt`), and no check compared its structure with his. A capture is compared with the
+  page it came from for its paragraphs and line breaks before it is used, and the comparative read flags a list run
+  together (two of its 41 real problems).
+- **E290. A reader's text shows a list's numbers.** The comparative read gave its readers each paragraph's plain text,
+  which drops a numbered item's number: the guide's countdown, "5. Let your attention come back to your chosen anchor. 4.
+  Let more of your attention come to what you've found. ..." on the page, reached its reader without the "5.", the reader
+  reported the count starting at 4, I counted it a real problem, and the fix writer added a "5." that would have made it
+  "5. 5." on the page; I caught it only when I looked at the Markdown. `compare_read.py` now gives a numbered item its
+  number, a bullet its dash and a quote its >, as the page shows them (test in `tests/test_compare_read.py`), and a
+  finding about a list, a heading or a link is checked against the line in the Markdown before it counts.
+
+(The next lesson in either lane was E291 here; it is in the next section.)
+
+## What Joel's message of 2026-10-29 17:21 UTC taught (the hypnosis guide: his answers to 24 and 25)
+
+His message: `articles/inner-signal/humanize/fix-20261029/joel-20261029-1721-message.txt`. On question 25 (which wins when
+a clear fix reads AI, or Human below High, in the recheck): "we never publish nonsense because it passes pangram. we come
+back and we try again if clarity loses on pangram." On the fix page: "approve all the cards and where there's no
+"approve" option just take the advice given".
+
+- **E291. Clarity is never traded for a Pangram reading.** My default for 25 said the clear version stays and, where no
+  version is both clear and High, both go to him. His answer is stricter: the unclear version is never a candidate, not
+  even as an alternative to choose. So a fix that reads AI or below High stays in the article, and the next try (an
+  Emulate re-run, a new fix, another shape) has to be both: read beside his text first (E284, E288), then Pangram. When
+  the tries run out on a clear version, it stays and the try is still owed. `AGENTS.md`, `docs/FIXING-AN-ARTICLE.md`
+  section 5, `docs/EMULATE-FALLBACK.md` (its "his ruling will settle the rule" now has his ruling) and
+  `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md` carry it.
+- **E292. "Take the advice given" puts my words in, and they get the read like any new words.** The four cards in his
+  own words had no Approve button; their advice offered a wording, so his answer put my wording into five paragraphs
+  (one card's note said its answer went for a second paragraph). They were read beside his published text before the push
+  (`fix-20261029/comprehension/read_advice.py`), and the answers built from his message are named DECISIONS, not
+  ANSWERS, because the comparison gate counts an ANSWERS file as his own words. Where a card in his own words and a fix
+  card share a paragraph, the fix goes in on top of his answer (`apply_answers_28.py` handles the cards in his words
+  first); before that change the fix card overwrote it.
+
+(The next lesson in either lane was E293 here; it is in the next section.)
+
+## What Joel's message of 2026-10-29 19:22 UTC taught (the hypnosis guide: question 26, Emulate)
+
+His message: `articles/inner-signal/humanize/fix-20261029/joel-20261029-1922-message.txt`, with batch 482's recheck links:
+"26 not sure why you are asking before even checking if you can learn the lessons". At 18:55 UTC he had asked whether
+Emulate (50k words for $15 a month) was worth re-upping, and whether we had learned all the lessons from its fixes. I
+answered the second part (no: `docs/EMULATE-FALLBACK.md` section 5's cases were never saved), started the study, and in
+the same message put the purchase to him as question 26, with a default that waited only on the recheck.
+
+- **E293. A question that spends his money waits until the free work that could answer it is done.** The study of the
+  cases we already have (`fix-20261029/emulate-lessons/`) and a round of writers fed with its lessons could make the
+  purchase unnecessary, and both cost him nothing; asking first put the decision on him before the evidence existed, and
+  `AGENTS.md` already says to finish the independent preparation before a question. So: before any question about
+  buying, renewing or upgrading a tool, do the free, available work that bears on it (mine what the tool already
+  produced, try the cheaper route on the failures), then ask only if a decision is still his, with what that work showed.
+  Question 26 is withdrawn until then. `docs/EMULATE-FALLBACK.md` section 6 says it for Emulate.
+
+(The next lesson in either lane was E294 here; it is in the next section.)
+
+## What Joel's answers of 2026-10-30 14:35 UTC taught (the hypnosis guide's cards page)
+
+His answers: `articles/inner-signal/humanize/fix-20261029/b483/review/ANSWERS-20261030-1435.json` (9 cards approved, 19
+in his own versions, nine of them reported as passing Pangram on his own checks); his comments word for word:
+`articles/inner-signal/humanize/fix-20261030/joel-20261030-1435-comments.txt`. Several of his versions put back what the
+published guide meant and our wording had lost: "one CENTRAL verb is not "the verb"", "make into is not same as
+declare... meaning lost", ""getting it" was unclear. gentler is not safer", "the using of words was not supposed to be
+related to the words as signal", and "in waking life" for "to waking life". Every one of those paragraphs had passed the
+comparative read (E284).
+
+- **E294. The read beside his text is done by the lead model itself, not a cheaper reader.** Joel: "i'm surprised your
+  reader didn't notice that didn't follow... is it because you are using dumb readers? not reading it yourself?" and
+  "looks like you need to read everything again yourself (not sonnet)". It was: `tools/humanization/compare_read.py`'s
+  brief said "Sonnet is enough", and the reads of batches 482 and 483 (29 October) ran on Sonnet, under the rule that sends easy work to
+  cheaper models (UDA `patterns/delegate-easy-work-to-cheaper-models.md`). Judging whether a rewrite still says what his
+  text said is judgment, the hardest part of the work, not residue. So the comparative read, the clarity read, a fix's
+  check and any read for lost or changed meaning are done by the lead session's model (Opus here), reading every
+  sentence beside the published one; a cheaper model may only gather and lay out the pairs. The brief and
+  `docs/FIXING-AN-ARTICLE.md` section 5 say so now. Also caught by nobody: Emulate's "who is scared to death" (the text it
+  was sent said "who is frightened"; `fix-20261018/emu-ab/HG33-fxw1.txt` and `.out.txt`), an intensified claim of the
+  kind the strict Emulate check is for.
+- **E295. A card says "reads Human" only at High.** T1's version read Human (Medium) in place in two rechecks; on its
+  own, its last sentence read AI ("i guess you didn't check this in pangram, the last sentence was still AI"). A version
+  below High in place goes on his page labelled with its confidence and what that means ("reads Human at Medium in place;
+  may still read AI on its own"), never with the passing label; E278 already says below High is work to do.
+- **E296. His fixes and his new tells.** What made his versions read Human, in his words: "uncompress all the lists and add
+  explanation", "add that bridge to break up the list" (in the audit both were needed: "just "Continuing with the job
+  interview:" didn't work. not did just the line before that. both required."), "breaks apart and reverses the X not Y ai
+  pattern and overly efficient unclear phrasing", "break up one long flow with something that sounds different (check if
+  your name didn't change to Larry), otherwise people start glossing over when reading and it reads more AI", and an
+  example from life where a list of abstract factors stood (his TikTok sign-up for the four kinds of consent). The tells
+  he named: "AI overuses "one" where humans often say "an" or "a" ... especially "one small thing"" (O46);
+  ""proof".. "it's not proof" "that doesn't prove" ... high freq AI" (O43); ""secretly/silently" is an AI tell btw, AI
+  always using those words" (O47); "passive voice overuse also high freq AI" (O48); and "formal disclaimer has to be a bit
+  less formal". `tools/humanization/tells_lint.py` checks the four mechanical ones (`tells_registry.json` W97 to W100; the
+  long flow is J68). The writers' brief takes his fixes as shape rules (`docs/EMULATE-FALLBACK.md` section 1).
+- **E297. An exercise is given once.** "we have 4 of these in different versions in there ... Let's make sure we aren't
+  giving people exercises over and over." A dedup pass covers exercises and practices as well as points: the same
+  exercise in several places is one exercise, given where it fits best, with the others pointing to it, proposed to him
+  on his page (the dedup rules in `AGENTS.md`: cut only when nothing important is lost).
+
+### What my own read of the whole guide found (2026-10-30, after his answers)
+
+The lead model read the whole guide (21 parts, 612 paragraphs) beside his published version, as E294 says
+(`articles/inner-signal/humanize/fix-20261030/fullread/`: READER-1..21.md, FINDINGS.json, DISPOSITIONS.json). It found
+122 places the Sonnet reads had passed: 61 garbled sentences (missing commas, comma splices, wrong words such as "come
+back down" for the return up, "invoke" for evoke, "i.e." for e.g., the old name of Veterans Affairs), 28 lost points,
+19 unclear sentences and 14 vaguer than his. 109 are fixed in our words (`apply_fullread.py`, every paragraph read beside
+his text again: `read/VERIFY.md`), 9 are his (5 on his cards page), and 4 aren't problems, each with its reason. What the
+dispositions taught:
+
+- **E298. Before you bring back a lost point, find out how it left.** `compare_read.py collect` gives each finding the
+  commit its words came in with; read the card or answer behind that commit. The guide's "sometimes the break has to be
+  long-term" (temporary separation) looked like a lost caution ("prolonged isolation would undermine the purpose"), but
+  Joel had approved it on 25 October, card IC-A21, which lined the guide up with his own inner child guide. Putting the
+  published caution back would have undone his decision. A point he took out, or approved taking out, stays out.
+- **E299. Words he only passed through aren't his phrasing.** The comparison gate counts every sentence of his answers'
+  versions as his own words, and one of them, EM-Q1 of 25 October, is 18,000 characters of the guide in which he only
+  fixed Emulate's quote marks (and one capital, one sentence, and "protectors" for guard parts). 13 of the read's 22
+  "own words" findings were Emulate's sentences inside it. So diff his version against the card's "before": the words he
+  changed or wrote are his, and go to him as suggestions; the words that were there before and he left are Emulate's or
+  ours, fixed like ours and listed for him. Only paragraphs he rewrote himself (ED-A1, ED-A3, ED-A5, CV-8.9, his cards of
+  30 October) get a card.
+- **E300. A restored point comes back without his named tells.** The published guide's wording of a lost point often
+  carries the tells he has named since: "never proof of history", "more tears don't prove more healing", "not a
+  therapeutic dose", a safety line the guide already says elsewhere. Bring back the point in the voice around it ("it
+  isn't a record of what actually happened", "crying more doesn't mean you're healing more"), and leave out a caution
+  the guide already carries where it belongs: that is the repeated safety language he cut (O45; the read's F13.2 and
+  F17.2 stay out). The new sentences go through `tells_lint.py --installed` (the guide before the fixes), so only they
+  are flagged.
+
+(The next lesson in either lane was E301 here; it is in the next section.)
+
+## What the recheck of 2026-10-30 showed (the hypnosis guide, read after his message of 20:15 UTC)
+
+His two results: part A ([fc1d8dae](https://www.pangram.com/feed/fc1d8dae-ed2b-4050-9c0b-5c1571dc3548)), Mostly Human
+Written, 1.3% AI, 8 AI windows where the last check had 23; part B
+([48eed31c](https://www.pangram.com/feed/48eed31c-7ff5-4392-887c-92663cd6aea8)), 2.3% AI, 6 where it had 12
+(`articles/inner-signal/humanize/fix-20261030/recheck/read/`: RESULT, CONFIDENCE.md, SPOTS.md). His versions of 30 October:
+36 of their 37 paragraphs read Human in place, 19 at High; the one AI (R-509) sits in a window that starts with a sentence
+I'd restored. My fixes from the full read, read in place by the kind of problem they fixed: garbled sentences 1 AI in 80
+readings (64 High), unclear ones 3 in 27, vaguer ones 1 in 13, lost points brought back 4 in 19.
+
+- **E301. Before you restore a point, read every change to its paragraph and every earlier verdict on it.** E298's check
+  reads the commit the words came in with, and that isn't always where the point left. F1.10 brought back "forces ...
+  already training your mind" as a list, which Joel had cut as a repeat on 25 October (card RP-1.4: "after the marketers
+  paragraph and the Silva line have said it"); the commit `compare_read.py collect` showed was the 29 October install.
+  F10.1 and F11.5 brought back points my own check of 28 October had found said already
+  (`fix-20261028/comprehension/AUDIT.md`: F6a.1, "clear guidance in its own words"; F6b.12, "the section's first
+  paragraph says it"). All three read AI, and all three come out again (`fix-20261030/tries/`). A point he cut stays out
+  (E298), and so does one an earlier read found said already, unless the words that said it have changed since.
+  `compare_read.py collect` now gives each finding every commit that changed its paragraph, newest first, with the
+  sentences each one dropped and added (`changes`; on F1.10 it shows the 25 October commit dropping "As you're certainly
+  aware there are many, many forces at work in the world that are already training your mind"). Read them, and the
+  earlier reads' verdicts on the same point, before restoring it.
+- **E302. A restored point brings AI back, and the red spreads to words nobody changed.** Of every kind of fix,
+  restorations read AI most (4 in 19, against 1 in 80 for commas and wrong words), and 8 of the recheck's 14 AI windows sit
+  on restored points. Words beside them that read High or Medium on 29 October read AI this time with nothing in them
+  changed: the double-bind definitions and the weekend-course line after Patterns 2 to 4 (where a definition, an example
+  list and a colon reveal had come back), and the three "Show me" asks after the restored silence line. A window that
+  read High broke into small ones around each restored sentence (part A's 1,791-word window over the response section
+  became nine). So a lost point comes back only where nothing nearby says it, and in the shape of his versions (E303),
+  never in the published wording: the why or an example instead of a definition on its own, a colon list said the way it
+  would be spoken, the better version led into the way his reframing paragraph does ("So we might arrive at, ...").
+- **E303. What his versions do that the writers' tries didn't.** Each of his 19 versions of 30 October beside the words
+  it replaced, 8 of them beside both writers' tries for the same words (`fix-20261030/recheck/read/HIS-STUDY.md`): the
+  writers rearranged the same content (a sentence split or joined, a clause moved, "It's fine to" for "You can"), and
+  those tries read AI. He changed what the paragraph does, and 36 of 37 of his paragraphs read Human in place:
+  - he cut the hedge or the filler instead of rewording it (T1's "Give yourself a chunk of time"; R-96's "not ... formally
+    tested and proven as one treatment"; R-289's "so no answer can secretly mean deeper");
+  - he said what an abstract word means in experience (N-65's "trust and precision" became "how much I trusted him (I
+    noticed my analytical mind was checking everything he suggested), and whether he knew the right buttons to press for
+    me as a unique human being");
+  - he gave each abstract term an example, often a funny one (N-239's "like "letting go"" and "fluffy"; R-238's
+    raindrops; R-561's "It's good nobody loves me" with the honest reframe it could become; J5's TikTok sign-up; N-243's
+    "swimming with the fishies");
+  - he said what a step is for (N-276's "That hand movement is the mental escape into the body's flow"; R-289's "a
+    revolving door ... rather than "flying blind"");
+  - he turned a slogan or a run of labels into instructions and short paragraphs that start differently (N-282's "Love
+    above, Child below, Adult present" became "Imagine a divine Love from above ..."; R-755's label-and-colon run became
+    seven paragraphs);
+  - he named a real source, or undercut a formal line with a joke (R-96's Schema Therapy; N-757's Cochrane medal).
+  Ours to copy: the cut, the uncompressing, the why, an example that only illustrates a point the guide makes, and the
+  broken run. Not ours: his life ("That literally has happened to people I know"), a joke about himself, a source he
+  hasn't named; a try that needs one goes to him as a card. The writers' brief (`docs/EMULATE-FALLBACK.md` section 1)
+  carries the list.
+
+### What the second recheck of 2026-10-30 showed (read after his message of 21:40 UTC)
+
+His results: part A ([a123b9a4](https://www.pangram.com/feed/a123b9a4-de86-462a-aa45-4f46b122ab4e)), Mostly Human
+Written, 1.7% AI, 15 AI windows; part B ([a485abe9](https://www.pangram.com/feed/a485abe9-057b-4209-a9be-11ad81a90b90)),
+2.9% AI, 11 (`articles/inner-signal/humanize/fix-20261030/tries/read/`). Every take-back worked (the three restored
+sentences out: High, Medium and High), and so did four of the six new tries (three at High); two read AI still, and my
+suggestion for his room test read worse than his words.
+
+- **E304. One whole-guide check doesn't tell you a window's state: words nobody changed read differently in the next.**
+  (Superseded on 2026-11-01 by E306, his answer to question 28: a window that reads AI or Human (Low) is fixed at once, not
+  watched for a second reading. What still holds: a try is judged by its own window.)
+  Between the two rechecks only eleven paragraphs changed. Of the windows of unchanged words away from them
+  (`tries/read/STABILITY.md`, from `stability.py`), 6 of 87 that read Human (High) read AI the second time, 3 of them at
+  High (the parent-script paragraph's "not to cry, not to be needy ..." run, and two of the "I do not use NLP ..." lines);
+  4 of 59 Medium and 3 of 14 Low did too. The other way, 14 Medium and 1 Low went to High, and both AI windows on
+  unchanged words of the first check (the double binds, the weekend line) read High. So the count of AI windows (8 to 15 in
+  part A) isn't the measure of a round: a try is judged by its own window. And a reading below High, or one AI reading on
+  words nobody changed, is not yet a finding. A stretch is a finding when it reads AI in two checks in a row (here: the
+  honest-bridge line with his embedded-invitation definition, the smaller-scale line, the room test), or reads AI when
+  something next to it changed. How the guide is called done, given this, is his question 28.
+
+### What the community article's full read showed (30 October 2026, after his message of 20:15 UTC)
+
+I read the live post beside his published version myself, ten parts, sentence by sentence
+(`articles/intentional-communities/candidate/fullread-20261030/READ.md`): 66 findings. Traced through every version
+first (E298, E301), 27 were points he had cut himself (most in his edits of 20 October, his and GPT's) and 19 were snags in
+words he chose; 19 went on his page, four of them sentences that a cut of 24 October had left hanging.
+
+- **E305. When a cut goes in, read the sentence after it again.** A cut takes out the words the next sentence leaned on,
+  and the next sentence stays: his answers to 64 (24 October), each a cut I advised, left "But it means that ..." answering
+  a question that was gone (64.4), "If several are present" counting nothing (64.23), "some practices" reading as the
+  community's own once "people can have their own private practices" went (64.24), and "their wounded ego" with no one
+  for "their" (64.25). Only 64.15 got its follow-on fix ("But they are an example" to "They are an example"). So whenever
+  a sentence is cut (a card, a take-back, a dedup), the sentence after it is read in its new place before the cut goes
+  to him or into the text, and a "But", "So", "it", "this", "these", "their", "several" or "some" that leaned on the cut
+  words is fixed in the same change, as the record's follow_on, without bringing the cut words back. The four are cards
+  C-11, C-16, C-18 and C-19 on the community article's page of 30 October.
+
+### What his answers of 2026-11-01 taught (his message of 18:57 UTC, with both cards pages answered)
+
+His message, word for word: `articles/inner-signal/humanize/fix-20261101/joel-20261101-1857-message.txt`; his answers:
+`fix-20261030/tries/review/ANSWERS-20261101-1850.json` (the guide) and
+`articles/intentional-communities/candidate/fullread-20261030/review/ANSWERS-20261101-1857.json` (the community article).
+
+- **E306. A window that reads AI or Human (Low) gets fixed now; it isn't checked again first** (his question 28: "28ii",
+  and "if a section reads ai or human low, we don't need to check it again to verify that, we need to fix it because the
+  idea is we don't want any sections that are on the border and can flip ai for any particular reader on substack").
+  This replaces E304's "a stretch is a finding when it reads AI in two checks in a row": one reading AI or Human (Low)
+  is enough. Human (Medium): "as long as they are not too large we can ignore them but record them as such"; and a window
+  below High is a reason to read its meaning again: "the less high confidence regions are often smoothed over and
+  vague". The fix makes the meaning plain; it doesn't make things up: "emulate might make some regions high conf with
+  confabulation to remove that smooth vagueness" (E309). The guide is done when every window reads Human, the Medium
+  ones small and listed (his option ii).
+- **E307. Check each section by itself, not only the whole guide.** A whole-guide check reads a section's window in the
+  light of the sections around it, so a section that reads Mixed alone can pass inside the whole. On N-238: "i was shocked
+  to test a larger part, have you not been checking larger parts also? ... we're just getting lucky thanks to some other
+  sections that make this look more human ... i guess this was a flaw in the original design of the humanization
+  process?" ([his check](https://www.pangram.com/history/c92d8c29-48a9-4e0e-a355-97a4aabb4f7c)); on N-587: "this
+  section reads mixed by itself, so again you didn't need to test the whole article to understand this". So a round's
+  checks are sections (a heading and its paragraphs) as well as paragraphs, and the whole-guide check comes last.
+- **E308. A comma that is clearly needed goes in without a card.** The community article's C-3: "you didn't need to ask
+  me for commas if they are clearly needed". In his live post the comma still goes to him as an edit to make, but in a
+  list of edits, not as a card to decide; in a working copy it goes straight in, listed.
+- **E309. Emulate made much of the guide shout; read the whole guide again for it, beside the AI guide.** On R-508:
+  "Emulate really made a lot of my guide sound like a madman screaming for some reaosn can we fix that ? the ai guide was
+  way better. I went back to the ai guide and fixed it. we gotta read this whole guide again because it seems you still
+  didn't see all the places where emualte messed it up. Although the AI guide was also too vague as you can see in this
+  example. Which is prob why emulate took those liberties because the compression & vagueness had to be fixed somehow."
+  The read looks for Emulate's shouting (commands, exclamations, absolutes, the hypnotist's "overly commanding" voice
+  where the published version invited), and fixes a vague or compressed published sentence by saying its meaning plainly
+  (uncompress, explain, bridge), never with what Emulate added. On N-580: "regardless of pangram, this whole section
+  needed a much better organization and explanation. i amn thinking much of this you should have been able to do
+  yourself. it looked way too disjoint and mechanical, the relationships between things that explain them were not
+  there": a list of rules with no relationships between them is a finding on its own, whatever Pangram says. On R-381:
+  "\"one\" is super ai, and that compression"; on S-24 (rejected): "this is that ai slop creeping back in with the over
+  careful wording".
+- **E310. Read the whole guide for things that contradict each other.** "we should also go thru the guide to make sure
+  stuff isn't contradicting other stuff". A guide this long, rewritten by many hands, says a rule in one place and its
+  opposite in another; a sentence-by-sentence read beside the published version doesn't see that. So the guide's claims
+  and instructions are listed section by section, and the list is read for contradictions as a whole.
+- **E311. In his version of a card, only the lines he changed are his words.** His versions start from mine: Revise on
+  a marking page opens the card's text for him to change, and his version of EM-Q1 (25 October) was the card's own list
+  of 85 places with only quote marks and four lines changed. The gate's owner corpus (`compare_read.py`) took every line
+  of every version as his, so the card's own lines counted as his words: the gate would pass them unread as his, and a
+  read's findings on them were marked as his. Now only the lines of a version that aren't the card's own text word for
+  word are his (`compare_read.py` `his_lines`; `tests/test_compare_read.py`
+  `test_a_card_copied_back_into_his_version_is_not_his`). A paragraph he rewrote is still his whole, whatever words it
+  kept.
+- **E312. Which fixes touch his words is decided by paragraph, and checked with collect's flags.** In the second full
+  read (1 November), my own check of which fixes changed his words went sentence by sentence, and a sentence of his
+  version that was also in the card's text didn't count as his. Two fixes changed paragraphs he rewrote on 30 October,
+  a sentence of his fingers script (N-276, F7.5) and the questions in his Reframing paragraph (R-561, F13.19), and only
+  `compare_read.py collect`, which goes by paragraph (E311), flagged them. Before a read's fixes go in, every finding
+  collect marks "owner_words" is a card, or a typo or punctuation fix listed for him (E308). F7.5 went to him as a card;
+  F13.19 kept his words, with quotation marks (straight, like the others in his paragraph) and a comma.
+- **E313. The mailbox is checked every turn, and the push refuses a turn that wasn't.** Joel, 2026-10-31, to the session
+  that maintains universal-dev-architecture: "can we make sure you always check what is addressed to you in each turn?
+  like checking ur mailbox? every lane should have its mailbox checked right". Its item for this repository
+  (`suggested-fixes/joel-articles/2026-10-31-mailbox-every-turn.md`, adopted 2026-11-01) replaced `AGENTS.md`'s
+  "Suggested fixes from other projects": at the start of every turn, before other work, the lane in
+  universal-dev-architecture, new issues and pull requests here and new comments and reviews on any of them (replies on
+  our own included), edits others made to the handoff notes and questions pages, and the runtime's queued messages; each
+  new item gets an outcome or a next step that turn. The check is recorded with `tools/humanization/lane_mailbox.py
+  record` (`state/MAILBOX.json`), and `lane_push.py --mailbox "<the turn's first clock reading>"` refuses to push without
+  a complete check of that turn. A place that can't be read never stops a push once what failed and when it will be tried
+  again are recorded.
+- **E314. A line from his inner child guide is his even when it came into the guide shortened or reworded.** Batch
+  s1101's whose-words check matched each sentence of four words or more exactly against his inner child guide, so a
+  line shortened when it came in ("That's one grown-up doing three jobs, and each job keeps the others in balance.", from
+  his "... doing three jobs, not three more people moving in to help with the rent, and ...") and a line under four words
+  ("No warmth today?", "What's going on?") counted as ours. Round 1 of the fixes then changed two of his inner child
+  guide's lines in Working with your guards without a card ("What's going on?" to "What's up?", "If nothing comes,
+  that's fine for now." to "If you get nothing back, leave it there for today."). Round 2 checked every sentence of every
+  window against his inner child guide with a near-match too (a difflib ratio of 0.7 or more), undid that fix (his words
+  are back, and the fix is his card G-23), and sent the near-matches to his cards page. Before fixing words that may have
+  come from one of his texts, check by near-match as well as exact match, and short lines by hand.
+- **E315. Every Pangram reading on a card has its link, and every suggestion is checked in Pangram before it reaches him,
+  with its own link.** His notes on the cards of 1 November (2): "why are you not giving me the pangram link so i can
+  see? always give me the links"; "you didn't check if your changes passed.. they didn't. don't waste my time"; "ok i
+  see you didn't actually test to see if this or the next fix would fix anything?". Untested cards he approved read AI in
+  place: the rent line he got back on W-92 read AI (High) in its section, and the script of W-283 AI (High) twice
+  (batch r1102). `suggestion_review.py` 1.5 refuses a card whose reading has no pangram.com link, and a suggestion for a
+  stretch Pangram flagged with no Pangram check of its own ("tested"); both now show on every card (1.4 showed an approve
+  card's reading nowhere). A suggestion is checked with the paragraph beside it, and the card links that check.
+- **E316. The advice gives its reason.** "\"I'd approve\" is not a reason for suggesting to approve lol". The advice
+  says what he gets: what reads Human after it (with the link) and what the reader gains.
+- **E317. Fix the words Pangram flagged, not the ones near them.** On W-274: "the real problem was below, you didn't
+  see"; on W-589: "that wasn't the part marked ai"; on W-762: "it looks like you chose the wrong parts to fix". A card
+  quotes the flagged window's own words, with its link, and its suggestion changes those words.
+- **E318. Learn from his tries in order, not only his last one.** His note on E-315: "these are my attempts in order. i'm
+  thinking you could maybe learn more this way than just looking at the perfect final one?" His 53 tries
+  (`articles/inner-signal/humanize/fix-20261102/joel-pangram/SEQUENCES.md`, each linked) showed: a list is the trigger
+  most often, and a list of things asked as one question most of all (E-406: said as four questions it read Human
+  (High), and his minimal pair showed it was the only thing Pangram needed); three items in a row read AI, and so does a
+  new list of three put in place of an old one (my script fixes B3 and B4), while a sequence with a different verb for
+  each step reads Human (his W-589: "The Nurturer brings love in. Next, the Protector puts your helmet on, and then the
+  Guide points the way out of the mess."); a portable phrase reads AI ("come back to yourself a bit" to "feel adult"
+  took W-164 from AI Detected to Human Written; "do the normal thing", "the thing" on E-368); a packed question after a
+  colon reads AI and the same questions said one by one read Human (W-164's minimal pair); an abstract summary reads AI
+  where the concrete thing reads Human ("evidence for something they'd already decided" to "using your body signals to
+  prove their theories", W-605); an unusual joke of his own turns a whole text Human (McHappyness, Captain Planet,
+  "little boo", "mumbo jumbo"), and a tidy quip at the end doesn't ("the ai quip at the end", E-368). His minimal pairs
+  change one thing and check again, which is how to find what a window needs. The mechanical ones are tells_lint.py's
+  O49 ("the next small thing", "one next step"), O50 ("still matters"), O51 (portable phrases) and O52 (a list asked as
+  one question).
+- **E319. A verdict belongs to the text it was given; check a suggestion with its neighbours.** His W-164 text read
+  Human (High) by itself and Human (Low) in its section; the W-283 script read Human for him by itself and AI (High) in
+  its section, and his passage around it read AI Detected (26%) with it and Human Written without it; the rent line read
+  Human (Low) shortened and AI (High) whole without the example that follows it in his inner child guide. A paragraph
+  checked alone says little about the paragraph in place, so a suggestion is checked with at least the paragraph beside
+  it, and a section that has used both its checks can't show a fix in place without a third (question 28).
+- **E320. Repeats get cut.** His note on W-685: "there was a whole lot there that was redundant, cut that. let's see
+  what other redundancy remains in this article and cut that also." `fix-20261102/redundancy/find_repeats.py` lists
+  candidates (paragraphs whose words overlap most, and runs of six words said twice), and the lead session reads each
+  in place (`fix-20261102/redundancy/REPEATS.md`). A repeat in his words is a card whose cut was checked in Pangram
+  (W-283b, R-638); a cross-reference, a safety line said again where it's needed, and a list said in parallel on purpose
+  stay.
+- **E321. Learn from his history: what turned his texts Human.** He signed back into one of his Pangram accounts on
+  2026-11-02 (18:16 UTC): "i signed back into one of my pangrams if you want to learn from that history, then i can sign
+  into the other one to learn from that one." Of its 2,681 checks, 22 are his edits of 16 texts from a read of AI
+  Detected or AI Generated to Human Written, most within minutes (`fix-20261102/joel-pangram/history/HISTORY-LEARNING.md`,
+  every pair linked, and `FLIPS.json`). What did it, most often first: a specific, silly example for a general one
+  ("A fake name" became "Mr. Boopaloopa … on WhatsApp", "your one" became "their boo", "Imagine opening your inbox"
+  became "imagine Chantress Seba the next morning opening her inbox", J17, J58); a tidy closer cut or said plainly ("A
+  good therapist or helpline won't mind." became "That's a normal and expected question.", J11, J28); a sentence that
+  sums up, cut ("My father spent most of two decades doing it.", J39); an explanation folded into its sentence and short
+  sentences joined ("And that's not good because…" became ", which is humiliating."); a stock frame said the way people
+  talk ("One more thing about…" became "Let's say"). When a text of mine reads AI, try these first, in that order. The
+  six phrases he cut that never appear in his original guide or his inner child guide are linter FAILs (O53 to O58,
+  W105 to W110); "I'm not saying", which he cut once but which still stands in both articles, is left to a reader.
+  His other account's history gets the same read when he signs into it.
+- **E322. His history's links are private to his account.** A check in his history opens for him signed in to that
+  account and reads 403 for anyone else, so a link to it is one he can open and nobody he shares it with can. Say so
+  with the links, and give a check of mine a public link (the API's `--public`) as before.
+- **E323. Update a post's date with the post.** His answer to question 29, 2026-11-02 19:11 UTC: "29a yes you can always
+  update that date when updating a post of course". Whenever his post changes, its "Last update" or "Updated" date (in
+  the subtitle or the title) changes with it, in the same editor session, and the read-back from the public post checks
+  it (`fix-20261102/live/record_dates.py`: the hypnosis guide's subtitle and the community post's title, both today). A
+  version number goes up only as he says (29a took v. 7.0 for the finished guide). The neuro de-armoring post keeps its
+  date and version in its title ("v5.1 (Sept 10, 2026)").
+- **E324. A fix is judged where it failed, and a fix that makes its section worse comes out.** The w1102 windows read AI
+  or Human (Low) only in the whole guide; their sections had read Human by themselves. Of twelve sections checked again
+  with my fixes in (batch w1102f, his answer 28a), six read fully Human and six read worse than before, two of them AI
+  Detected. Each fix that made its section worse was reverted at once. What read AI: a list split into a run of short
+  sentences of one shape ("Your inner child still wants… The guards are bracing… Meanwhile your body remembers…"), which
+  is the same list; a closer turned into a joke ("as plain as a fire exit sign") or into an explaining clause ("which is
+  how you keep the first one honest"), which is still a closer; and his own inner child guide line in a new place (C-626,
+  AI (High) after a coach line), so putting his words back is a card checked like any other. What read Human in its
+  section and in the whole: cutting a sentence of mine that sums up and asks what his next lines ask (F-140); his inner
+  child guide's lines put back as he wrote them (C-141); a matched pair in his quote broken with a picture (C-672); a maxim
+  said as things you do (F-42). Windows move between whole checks of the same words (E304), so a stretch is acted on
+  when it reads AI in two of them.
+- **E325. A half or a whole article is checked free, through a temporary Substack draft, never through the API.** His
+  rule since 2026-10-23 (E218): "you can check paras or sections with API, not more than like 5-6 paras at a time in
+  general (not half an  article)", and the budget rule's Substack route for every whole-article or very large check
+  (`docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`; the worker makes the drafts and their secret preview links, E277, and he
+  opens them with his Pangram extension). On 2 November the lanes sent 63 checks through the API, about 91,000 words: four
+  halves of the hypnosis guide and the whole neuro de-armoring article (five checks, about 68,800 words), 29 sections
+  longer than six paragraphs or 1,200 words (about 15,700 words), and 29 checks within his rule (about 6,500 words);
+  counted from the three lanes' ledgers, each text's paragraphs counted from its TEXTS.json. His message of 20:38 UTC: "how are you cehcking the whole guide? that should be done the free way to not
+  waste my pangram credits. which you said requires my help. why did you forget this?" The rule was in the repository and
+  in the handoff's own next step ("Then the whole guide, on the Substack drafts with his extension"), but the lane's checks
+  had moved to the API on 1 November, when the app's browser was signed out of Pangram, and the turn summaries carried "the
+  API" as the way checks run without its limit, while nothing in the tools stopped a 16,000-word text. Now the tools stop
+  it: `pangram_api.py check` refuses, before any POST, a text of more than six paragraphs or 1,200 words, and
+  `pangram_ledger.py predict` refuses such a prediction through the API, each unless --paid-ok carries his words for that
+  one (tests in `tests/test_pangram_api_size.py` and `tests/test_pangram_ledger.py`). The laptop's copy of the tool is the
+  guarded one. The whole guide's check is two temporary drafts and their secret links, which he opens in his browser with
+  the Pangram extension (`fix-20261102/free-whole/`).
+- **E326. A check's text is the text alone: no labels, no Markdown marks.** His second Pangram account, read at his
+  invitation (2026-11-02 21:59 UTC: "i logged into the other pangram account if you want to read that history";
+  `fix-20261102/joel-pangram/history2/HISTORY-LEARNING-2.md`, every pair linked, `FLIPS-2.json`): text he copied from my
+  cards pages carried the paragraph labels glued on ("Your inherited parent script P1One important…", "P1Here is a list…
+  P2I…"), and taking the heading and label out alone turned AI Detected 41% into Human Written; in two more the labels went
+  with a small change, and a pasted "###" went the same way. So the pages that number paragraphs (suggestion_review.py's
+  template, render_article_so_far.py, render_in_context.py) keep the labels out of a copy (`user-select: none`; test in
+  `tests/test_suggestion_review.py`), and a reading of his own checks asks first whether the text carried a label or a mark.
+- **E327. A heading is checked like a sentence: the plain phrase, not a coined slogan.** In the same history, over the
+  same paragraphs, "Make the Protector Visible" (AI 70%) and "The Protector Can Go First" (AI 100%) read AI and "Keep
+  Your Word" read Human Written; "Make the Vow Visible" (AI 100%) read AI and "How to Remind Yourself" Human Written; and
+  taking "Give the Vow a Physical Reminder" out did the same. A section check reads its heading (a Substack check leaves
+  headings out), so a heading I write is the phrase people say for the thing, and a section that reads AI at its top gets
+  its heading looked at with its first paragraph. The same history confirmed E321 and E324 (13 of its 70 small flips were a
+  closer or a summing-up sentence cut, one of them a joke: "But there you'll see fewer robes and longer meetings
+  instead.") and added O59 ("The same principle extends to…") and O60 ("not a recipe") to the linter, both absent from his
+  original guide and his inner child guide ("The same goes for" is his, so O59 leaves it alone).
+
+## What Joel's answers of 2026-11-03 00:39 UTC taught (the hypnosis guide: Hypnosis Guide Cards, 2 November (3))
+
+His answers file and his comments, word for word: `articles/inner-signal/humanize/fix-20261103/answers-f1102/`.
+
+- **E328. Overcompletion is read for before any window is reworded, and parallel structure is no reason to keep a second
+  explanation.** The pairs of minds in Forget the left-brain/right-brain cartoon (two paragraphs of ours) read AI (Low)
+  in both free checks of the whole guide; I reworded them window by window three times and put them on his page to edit.
+  His answer (card E-61): "cut all this. you didn't notice the massive overcompletion here? prob this whole guide is full
+  of it then." The paragraph before them had already said it ("all the modes of your mind. It's not an electoral process.
+  Nobody needs to win!"); the first explained it again pair by pair, and the second explained it again from the other side
+  (each pair without its partner). The repeats read of 2 November (`fix-20261102/redundancy/REPEATS.md`) had found the
+  pair and kept it as "parallel on purpose": `find_repeats.py` looks for shared words and runs of six words, and a second
+  explanation in other words has neither. So: before a window that reads AI or Human (Low) is reworded, its paragraph is
+  read against the ones before it, and what's explained again is cut first (E321's order: cut what's explained again,
+  cut the closer, cut the summing up, then the rest); a second explanation goes even when it's balanced, parallel or more
+  vivid (his definition, line "Overcompletion is explaining again what's already been explained" above); and a word-overlap
+  search is a candidate list, not the read. The whole guide was read for it the same day by six fresh readers, one part
+  each, blind to whose words and to REPEATS.md's "kept" list (`fix-20261103/overcompletion/`, its BRIEF.md), and the writer's
+  brief (`tools/humanization/reviewer/writer_draft.txt`) says it.
+- **E329. A window over a heading isn't explained by the heading: test the stretch the way Pangram reads it.** His
+  Troubleshooting seam (the end of Nothing happens and the start of It feels fake, his own version) read AI (Low) in both
+  free checks. My card (E-380) said to keep it if the seam didn't bother him, because "the check leaves headings out, so
+  your two sections run together there". He tested the two paragraphs by themselves: [AI Generated](https://www.pangram.com/history/db67603a-b644-4667-b07a-140220544dd3),
+  every window AI and three of them High ("yes it directly tests as ai just these 2 paragraphs"). His rewrite read
+  [Human Written](https://www.pangram.com/history/580be4c0-6fde-4f65-ba3b-559352c4d4ef) on his first try. A reason taken
+  from how the check works (a heading left out, a seam, a list number) is a guess until the stretch has been checked as
+  Pangram reads it, within E325's limit; a card doesn't advise keeping a flagged stretch on the guess.
+- **E330. A made-up word is fine in an informal piece if it sounds right.** In that rewrite: "do you have a sense of what
+  exactly feels feigned, imposterous, or preposterous?" and "yes i know i invented a word, that's cool you can invent words
+  for informal pieces like this if they sound right". His coinage stays as he wrote it, and a flag on an invented word,
+  his or in a suggestion, isn't a reason by itself to change it. What his two rewrites did: he talked to the reader ("Let's
+  drill into that "it"... am I getting warm?"), and he turned two flat disclaimers into small stories about himself ("The
+  Cochrane Collaboration was going to certify it, but then someone there forgot to award me their highest medal of
+  honor."; "That's where I "formally" learned these techniques from (most recently), but don't blame them for every NLP
+  claim here").
+
+(The next lesson in either lane was E331 here; it is in the next section.)
+
+## What Joel's message of 2026-11-03 13:46 UTC taught (the hypnosis guide: "oily", and the guide into his post)
+
+His message and answers, word for word: `articles/inner-signal/humanize/fix-20261103/c1103b/`. The read and the update:
+`fix-20261103/nonsense/` and `fix-20261103/live/`.
+
+- **E331. Words that count as his can still be wrong words: before a guide goes into his post, every word is read for
+  sense, and the read is tested with planted errors.** He found "Tag questions ... can soften a sentence, but they get
+  oily very quickly" and asked: "do we have more nonsense in here (from emulate i guess)? how are you not catching
+  this?" "Oily" for "old" came from his published guide of 28 September, which AI tools drafted before he published it
+  ("They become oily very quickly, don't they?"), and our rewrite kept the word. It passed everything: compare_read and
+  emulate_artifacts.py ask whose words a sentence is, and words in his published guide count as his; Pangram reads how
+  text is written, not whether a word is the one meant; a spell check passes a real word in a grammatical sentence. No
+  check read each word for sense. So, before a guide goes into his post (and after a large batch of rewrites): fresh
+  readers, a part each, read every sentence and ask of each content word whether it is the word a careful writer meant
+  (`fix-20261103/nonsense/BRIEF.md`, make_parts.py); then the read itself is tested, with errors of the same kind planted
+  in each part ("deceptive" for "receptive", "ointment" for "appointment"), the planted list kept where the readers
+  can't see it, and a required list of every block each reader read (`pass2/BRIEF.md`, make_pass2.py). The first pass
+  here read fast (about 30 seconds and one to three findings a part); the tested pass found all nine planted errors, so
+  its silence elsewhere means something. A mechanical net goes under it for non-words (`nonwords.py`). Every finding is
+  read in place and traced to whose words it is (`make_findings.py`, FINDINGS.md): a slip in ours is fixed with the
+  fewest words; one in his own words, his published guide's included, goes to him with the smallest fix and a default
+  (E272 says the same of what a line of his says). Here: 21 real findings, 6 slips of ours fixed, 5 of his on his
+  questions page (question 34), 10 kept with reasons. His answers (14:52 UTC) changed three of the five, one with his own
+  sentence, and he asked: "make sure this closer reading is also part of the general joel-articles skill". It is:
+  `SKILL.md`, "Word-for-sense read before publication", with the general tool `tools/humanization/sense_read.py` (make,
+  score, nonwords) and its brief, wired in AGENTS.md and pinned by `tests/test_sense_read.py`. Disposition for
+  universal-dev-architecture (its durable-learning closeout after a bug repair, #464): provisional. The transferable
+  part is that a check comparing text with an attributed source passes that source's errors, and that a reader's
+  silence counts only after its recall on planted errors of the same kind is measured. It has been run on one
+  article (9 of 9), so it is to be proposed there as a pattern after its second run, on the neuro de-armoring article,
+  with both runs' recall and their limits (it measures only the kind of error planted).
+- **E332. The second update of a live post: check the editor against what was last put in, replace only what changed,
+  and wait out the public API.** On 2 November the editor took the whole document in one transaction. The second time,
+  he could have changed the draft since, and a whole-document replace would have overwritten it. So make_update.py
+  compared the new archival HTML with the one put in last time, block by block, and update.js first checked every one of
+  the editor's 729 nodes against the last blocks (the text of each, without whitespace, as a short SHA-256; the native
+  blocks by type), then parsed only the 76 changed ranges with the editor's own parser into one transaction, and checked
+  the result node by node (720 nodes), the native blocks kept as the same nodes and the links in order, before anything
+  was dispatched. The plan went into the tab from the pushed commit on raw.githubusercontent.com, checked by its SHA-256,
+  never typed out or pasted. After "Update now", Substack's public API and post page went on answering with the old
+  post for a few minutes while the editor's own draft API already had the new one; the read-back waits for the new
+  subtitle before it compares, and an old answer in those minutes is not a failed update. The subtitle's date changes
+  with the update (E323); the version number only when he says.
+
+(The next lesson in either lane was E333 here; it is in the next section.)
+
+## What the neuro de-armoring article's round 1 taught (2026-11-03, after Joel's message of 15:22 UTC)
+
+His answers, word for word: `articles/neuro-de-armoring/humanize/fix-20261103/joel-20261103-1522-answers.txt`. The round:
+`articles/neuro-de-armoring/humanize/fix-20261103/r1/` (RESULTS.md in `a/` and `b/`).
+
+- **E333. Emulate is retired for new text.** When the free rewrite had read AI and Emulate had 0 words left, his answer was:
+  "yout old me emulate doens't even pass pangram 4.1 very well anymore so that's pointless and emulate has done so much
+  damage to my guides that took too long to fix as you saw with hypnosis guide." So nothing new goes to Emulate, in any
+  article, whatever the order in the older rules said (`docs/EMULATE-FALLBACK.md` now opens with this; AGENTS.md's order
+  line says it). What replaces it, in his words: "give me a couple examples i will see how to rewrite it to train you":
+  a few examples, one of each kind of text the article has, on the marking page as stretches to edit, and the rest of the
+  article done the way his versions show.
+- **E334. A dense protocol doesn't read Human by rewording, and the labeled dose list reads AI in anyone's words.** His
+  answer to question 1 was "Freely, in your voice". Every section was rewritten in his register (plain sentences, the
+  "The Problem:" and "The Fix:" labels gone, closers folded, the stretches that read Human in the baseline kept, every
+  compound, dose, unit, timing and warning held by fidelity_keys.py), and checked in 26 stretches through the API (E325's
+  limit). 19 read 100% AI; the best was Psychology is the Software at 12.7% AI, with his own sentences reading Human in it.
+  Stretches that are nearly all his protocol lines (the ketone decision, the first weeks of the timeline) read 100% AI too.
+  So rewording within the same shape spends checks without moving the result, and the shape (a label, a dose, an
+  instruction, again) is what reads AI. Before another round on an article like this: his examples first (E333), and a
+  stretch made of his own unchanged lines that reads AI is his to rewrite, not mine to reword. The API counts a heading of
+  eight words or more as a paragraph (it refused a stretch the cut had counted as six), so a stretch's count includes them.
+
+(The next lesson in either lane was E335 here; it is in the next section.)
+
+## What his three examples taught (2026-11-03, after Joel's answers of 17:48 UTC)
+
+His answers file, word for word: `articles/neuro-de-armoring/humanize/fix-20261103/examples/ANSWERS-20261103-1748.json`.
+Sentence by sentence: `articles/neuro-de-armoring/humanize/fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md`.
+
+- **E335. His rewrites of a dense protocol changed how each sentence is built, not the labels or the metaphors.** One
+  example of each kind, all three paragraphs that had read AI in his post and in my round 1: the science, a dose with its
+  instructions, and warnings. He kept the house, solvent and concrete metaphors and added a label of his own
+  ("Precautions/Side Effects:"), so E334 was wrong to blame the label; what read AI was the spec after it. He made a spec
+  an instruction with a verb ("Do a trial with 150-300mg Uridine, in the morning with food"), gave the number of days a
+  sentence saying what it is for ("It shouldn't take more than 3 to 7 days to get an idea of whether or not it's
+  beneficial"), put a list after its category, in brackets, as examples ("some other major variable (like 5-HTP, ...,
+  etc)"), carried a science claim's mechanism, means and purpose in one loosely joined sentence ("It's a protocol that
+  serves as a metabolic solvent, via HDAC inhibition, that softens ... by using ... to allow us to dig under the house, and
+  pour a new foundation, so we can eventually ..."), and wrote the warnings in a supplement label's register with a long,
+  particular clause of his own ("without having a physician competent to consider the likelihoods of problematic
+  interactions"). He tested two himself ("passes"); the third, by itself, read Human Written, 0.3% AI, its own clause at
+  High and its two stock label sentences at Low. So: where my rewording keeps reading AI, a few of his examples are the
+  method, and the rest of the article is rewritten the way they are built, kind by kind, then checked. What is copied is
+  the build, never his tics (his capitals on compound names, "Omega-3's", "etc" with no full stop; SKILL.md, J47), and
+  nothing is added that the article doesn't say. `fidelity_keys.py` reads his wording as the master's once it is recorded
+  with the card he wrote it on (FIDELITY-KEYS.json, "owner_wording"); his alternative for a warning's key counts for that
+  warning only. tells_lint.py's O61 fails a dose said as a label and its spec (registry W113).
+- **E336. His build carries my science, but not my warnings: there, only his wording read Human.** Round 2 tried E335 on
+  one stretch of each kind, every try predicted first (`articles/neuro-de-armoring/humanize/fix-20261103/r2his/`, batches
+  r1103c to r1103f). The science stretch (Psychology is the Software, the Role-Self part) went from 100% AI in round 1 to
+  40.9% and then 19.8% AI, most windows Human, once the post's sentences were joined his way and the two windows still
+  reading AI were re-said. The warnings and the uridine section read 100% AI, one High window each, every way I tried: his
+  build with the post's phrases kept; every phrase re-said in a plain, chatty voice; his X-15's terse label register, one
+  paragraph at a time (three paragraphs, all 100% AI); and the 5-HTP warning with its warning phrases re-said too. His X-15
+  by itself read Human Written. So neither the build nor the register made his warnings Human; his own wording did ("a
+  physician competent to consider the likelihoods of problematic interactions", "lower end blood pressure", "It shouldn't
+  take more than 3 to 7 days to get an idea"). Warnings and dose paragraphs that keep reading AI go to him as stretches to
+  edit, a section at a time, and the science goes on his way. tells_lint.py's E125 (lists of three) and E186 ("without
+  ...ing") fail his X-15, whose first sentence read Human (High), so on a protocol's required lists of drugs or symptoms
+  those flags don't say what to fix.
+
+(The Inner Child lane's turn-116 lessons, written after them, are E337 and E338 (Inner Child), near the top. The next lesson in either lane is E339.)
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 
-(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". E247 and E248, after them, are this lane's turn-102 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E247 to E249 above (their message of 2026-10-23 18:13 UTC); both sets keep their numbers, so cite these two as "E247 (Inner Child)" and "E248 (Inner Child)". E250 to E252, the last ones here, are this lane's turn-103 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E250 and E251 above (their message of 2026-10-23 20:35 UTC); both sets keep their numbers, so cite these three as "E250 (Inner Child)" to "E252 (Inner Child)". The hypnosis guide, Nibbāna and community lanes' own E252 to E255 above came after them (their messages of 2026-10-23 22:29 and 23:28 UTC). This lane's turn-104 lesson, written at the same time, is E253 (Inner Child), with the help-request rules near the top, and its turn-105 lesson, E256 (Inner Child), is beside it, with the turn-106 lessons E257 and E258 (Inner Child) after it and the turn-107 lesson E261 (Inner Child) after those. The Nibbāna and community lanes' E256 to E259 above came at the same time as E257 and E258 (their message of 2026-10-24 19:52 UTC), the community lane's E260 after them (23:40 UTC), and its E261 at the same time as this lane's (its message of 2026-10-25 00:27 UTC); both sets keep their numbers, so cite this lane's as "E261 (Inner Child)". The hypnosis guide lane's E262 and E263 above came after them (its message of 2026-10-25 01:01 UTC), and its E264 and E265 after those (14:40 UTC). This lane's turn-109 lesson, written at the same time as those two, keeps its number too: cite it as "E264 (Inner Child)"; it is with the others near the top, and so are its turn-110 to turn-112 lessons, E266 to E271 (Inner Child). The hypnosis guide lane's E268 to E270 came at the same time as the turn-111 ones (its message of 2026-10-25 19:42 UTC); both sets keep their numbers, so cite this lane's as "E268 (Inner Child)" to "E271 (Inner Child)". The hypnosis guide lane's E272 to E274 came after them (its message of 23:05 UTC), its E275 after those (the recheck read after its message of 23:50 UTC), and its E276 after that (batch 479's recheck, read after its message of 2026-10-26 00:54 UTC). This lane's turn-115 lesson, written at the same time as that E276, keeps the number too: cite it as "E276 (Inner Child)"; it is near the top. The next lesson in either lane is E277.)
+(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". E247 and E248, after them, are this lane's turn-102 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E247 to E249 above (their message of 2026-10-23 18:13 UTC); both sets keep their numbers, so cite these two as "E247 (Inner Child)" and "E248 (Inner Child)". E250 to E252, the last ones here, are this lane's turn-103 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E250 and E251 above (their message of 2026-10-23 20:35 UTC); both sets keep their numbers, so cite these three as "E250 (Inner Child)" to "E252 (Inner Child)". The hypnosis guide, Nibbāna and community lanes' own E252 to E255 above came after them (their messages of 2026-10-23 22:29 and 23:28 UTC). This lane's turn-104 lesson, written at the same time, is E253 (Inner Child), with the help-request rules near the top, and its turn-105 lesson, E256 (Inner Child), is beside it, with the turn-106 lessons E257 and E258 (Inner Child) after it and the turn-107 lesson E261 (Inner Child) after those. The Nibbāna and community lanes' E256 to E259 above came at the same time as E257 and E258 (their message of 2026-10-24 19:52 UTC), the community lane's E260 after them (23:40 UTC), and its E261 at the same time as this lane's (its message of 2026-10-25 00:27 UTC); both sets keep their numbers, so cite this lane's as "E261 (Inner Child)". The hypnosis guide lane's E262 and E263 above came after them (its message of 2026-10-25 01:01 UTC), and its E264 and E265 after those (14:40 UTC). This lane's turn-109 lesson, written at the same time as those two, keeps its number too: cite it as "E264 (Inner Child)"; it is with the others near the top, and so are its turn-110 to turn-112 lessons, E266 to E271 (Inner Child). The hypnosis guide lane's E268 to E270 came at the same time as the turn-111 ones (its message of 2026-10-25 19:42 UTC); both sets keep their numbers, so cite this lane's as "E268 (Inner Child)" to "E271 (Inner Child)". The hypnosis guide lane's E272 to E274 came after them (its message of 23:05 UTC), its E275 after those (the recheck read after its message of 23:50 UTC), its E276 after that (batch 479's recheck, read after its message of 2026-10-26 00:54 UTC), its E277 to E279 after it (its message of 12:43 UTC), its E280 to E283 after those (its message of 2026-10-27 15:37 UTC), its E284 to E290 after those (its message of 2026-10-28 15:20 UTC), its E291 and E292 after those (its message of 2026-10-29 17:21 UTC), its E293 after those (its message of 19:22 UTC), its E294 to E297 after those (its answers of 2026-10-30 14:35 UTC), its E298 to E300 after those (the full read of the same day), its E301 to E303 after those (the recheck read after its message of 20:15 UTC), its E304 after those (the recheck read after its message of 21:40 UTC), its E305 after those (the community article's full read of the same day), its E306 to E310 after those (his answers of 2026-11-01), its E311 and E312 after those (the second full read of the same day), and its E313 and E314 after those (the turn after his message of 22:27 UTC), and its E315 to E320 after those (his answers of 2026-11-02), and its E321 and E322 after those (his Pangram history, read the same day), and its E323 and E324 after those (his answers to 28 and 29 at 19:11 UTC, and the round they began), and its E325 after those (his message of 20:38 UTC), and its E326 and E327 after those (his second Pangram account's history, read after his message of 21:59 UTC), and its E328 to E330 after those (his answers of 2026-11-03 00:39 UTC), and its E331 and E332 after those (his message of 13:46 UTC), and its E333 and E334 after those (the neuro de-armoring article's round 1), and its E335 and E336 after those (his three examples, his answers of 2026-11-03 17:48 UTC, and round 2 after them). The Inner Child lane's turn-116 lessons, written after them, are E337 and E338 (Inner Child), near the top. The next lesson in either lane is E339.)
 
 The checks: `articles/inner-child-therapy/experiments/t99-api/API-RESULTS-1.jsonl` (turn 99's nine) and `articles/inner-child-therapy/experiments/t100-api/API-CHECKS.md` (this turn's eight, each with its public Pangram page). Four rewrites read 100% Human alone and in their stretch; five of my eight calls were right, and two of the misses were pessimism about a rewrite.
 

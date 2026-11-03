@@ -1,0 +1,399 @@
+{
+ "parts": [
+  {
+   "name": "S11 (How to use this very large guide, P1)",
+   "text": "Also read some of the stuff in the daily and weekly sections, to make the practice your own.",
+   "chance_red": 0.05,
+   "chance_high": 0.5,
+   "why": "Emulate's co for a Medium (0.989) 16-word sentence, its own ending kept; a small change in a long paragraph that read High around it",
+   "kind": "changed"
+  },
+  {
+   "name": "S12 (The table of contents is hiding on the left, P1)",
+   "text": "It’ll be really helpful for this guide as it’s a long one.",
+   "chance_red": 0.1,
+   "chance_high": 0.4,
+   "why": "Emulate's cm for his own Low (0.649) sentence: a plainer line after his Substack sentence, which stays",
+   "kind": "changed"
+  },
+  {
+   "name": "S14 (Protecting Yourself from Hypnotists, P2)",
+   "text": "There are a lot of ways to influence people without engaging their conscious mind. Marketers and interface designers know this perfectly well. The Federal Trade Commission has a report on “dark patterns” - designs that trick or manipulate consumers.",
+   "chance_red": 0.08,
+   "chance_high": 0.5,
+   "why": "Emulate's co for the first and third sentences of a Medium (0.982) 77-word window, his second sentence between them",
+   "kind": "changed"
+  },
+  {
+   "name": "S15 (Protecting Yourself from Hypnotists, P3)",
+   "text": "Conscious agreement, unconscious receptivity, emotional compliance, legal and ethical consent - can people have their minds influenced without the conscious agreement of their adult self?",
+   "chance_red": 0.08,
+   "chance_high": 0.4,
+   "why": "Emulate's co: the Low (0.848) list of four joined to its question with a dash",
+   "kind": "changed"
+  },
+  {
+   "name": "S16 (Forget the left-brain/right-brain cartoon, P4)",
+   "text": "So each can correct the other.",
+   "chance_red": 0.05,
+   "chance_high": 0.5,
+   "why": "Emulate's cm for the paragraph's last sentence (Medium 0.989 with the next line)",
+   "kind": "changed"
+  },
+  {
+   "name": "S17 (Forget the left-brain/right-brain cartoon, P5)",
+   "text": "It’s got to lead somewhere!",
+   "chance_red": 0.05,
+   "chance_high": 0.5,
+   "why": "the one-line paragraph without its 'And', as all three samples gave it (the same Medium window as S16)",
+   "kind": "changed"
+  },
+  {
+   "name": "S18 (Why doing it myself worked better for me, P1)",
+   "text": "One reason might have been that I was sober when I did that, and didn’t feel that susceptible to hypnosis. But I think a bigger reason is trust and precision.",
+   "chance_red": 0.1,
+   "chance_high": 0.4,
+   "why": "Emulate's cm for a Medium (0.944) and a Low (0.531) sentence, ending on his 'trust and precision'",
+   "kind": "changed"
+  },
+  {
+   "name": "S19 (Why doing it myself worked better for me, P2)",
+   "text": "I can tell when my body is saying no, before my conscious mind can twist it around to a yes.",
+   "chance_red": 0.08,
+   "chance_high": 0.45,
+   "why": "Emulate's co for a Low (0.829) sentence",
+   "kind": "changed"
+  },
+  {
+   "name": "S20 (When “your voice” is everybody else’s voice, P11)",
+   "text": "You want to be able to let the quiet little preferences that you have bubble up to the surface and know for sure that you’re not going by what your social group would want you to do.",
+   "chance_red": 0.1,
+   "chance_high": 0.35,
+   "why": "Emulate's cm for the last sentence of a Low (0.722) 64-word window; the two before it, his inner child guide's, stay",
+   "kind": "changed"
+  },
+  {
+   "name": "S21 (Please don’t put six metaphors in one trance, P2)",
+   "text": "When you’re done, make sure to come back the other way.",
+   "chance_red": 0.05,
+   "chance_high": 0.5,
+   "why": "Emulate's cm for one sentence of a Medium (0.987) window; the bracket after it stays",
+   "kind": "changed"
+  },
+  {
+   "name": "S22 (Please don’t put six metaphors in one trance, P3)",
+   "text": "And then read it out loud as you write it. Long, elegant sentences are NOT going to help you when you’re trying to induce. It’s all soup to you at that point.",
+   "chance_red": 0.08,
+   "chance_high": 0.45,
+   "why": "Emulate's cn for three sentences (Medium 0.974)",
+   "kind": "changed"
+  },
+  {
+   "name": "S23 (Before you begin, P2)",
+   "text": "Think about what you want to do. Are there things you don’t want to do today?",
+   "chance_red": 0.05,
+   "chance_high": 0.5,
+   "why": "Emulate's cn for the first two sentences of a Medium (0.982) 58-word window; the rest stays",
+   "kind": "changed"
+  },
+  {
+   "name": "S24 (Before you begin, P3)",
+   "text": "Make sure you’re in a safe place to do this.",
+   "chance_red": 0.05,
+   "chance_high": 0.5,
+   "why": "the sentence two of Emulate's three samples gave, for a Medium (0.986) one",
+   "kind": "changed"
+  },
+  {
+   "name": "S25 (Before you begin, P4)",
+   "text": "Decide to do it. How will you coax yourself to do this? Make it spacious? Make it warm and held? etc. Preview what you are going to do. Will you close your eyes? Will you come out and go back in again? What will you do at the end?",
+   "chance_red": 0.1,
+   "chance_high": 0.25,
+   "why": "Emulate's cn for eight short sentences and questions (Medium 0.949, Low 0.879, Medium 0.957); still short questions, so short windows",
+   "kind": "changed"
+  },
+  {
+   "name": "S26 (Capacity before content, P8)",
+   "text": "What is one next thing I can do?",
+   "chance_red": 0.08,
+   "chance_high": 0.3,
+   "why": "Emulate's co question for a Low (0.727) six-word request; the three Medium BEFORE requests before it stay",
+   "kind": "changed"
+  },
+  {
+   "name": "S27 (Capacity before content, P9)",
+   "text": "especially if it has to do with trauma or memories. The mind makes it symbolic, squashes things together, distorts, dramatizes, pulls from cultural influences, fears etc. So take it as an image and get some outside help!",
+   "chance_red": 0.05,
+   "chance_high": 0.5,
+   "why": "Emulate's co for the end of the first sentence and the last (Medium 0.989, 0.982)",
+   "kind": "changed"
+  },
+  {
+   "name": "S28 (Nothing happens, P1)",
+   "text": "Could you try this on a smaller scale?",
+   "chance_red": 0.1,
+   "chance_high": 0.3,
+   "why": "Emulate's co, shorter, for a Low (0.618) question: a seven-word paragraph",
+   "kind": "changed"
+  },
+  {
+   "name": "S29 (Nothing happens, P2)",
+   "text": "Maybe ask to be shown just one body sensation, or just one word. Or even just whether today is for listening or resting.",
+   "chance_red": 0.12,
+   "chance_high": 0.35,
+   "why": "Emulate's co for his three requests (Low 0.575 with the next section's first sentence), ending on his own words",
+   "kind": "changed"
+  },
+  {
+   "name": "S30 (It feels fake, P1)",
+   "text": "Have you got any sense of what it is that’s making it feel fake?",
+   "chance_red": 0.12,
+   "chance_high": 0.35,
+   "why": "Emulate's co for the next section's first sentence, in the same Low (0.575) window as S29",
+   "kind": "changed"
+  },
+  {
+   "name": "S31 (It feels fake, P2)",
+   "text": "You may have fooled yourself in the past, and that part remembers.",
+   "chance_red": 0.12,
+   "chance_high": 0.35,
+   "why": "Emulate's co for his inner child guide's two sentences (Low 0.531, 0.851)",
+   "kind": "changed"
+  },
+  {
+   "name": "neighbour of S11 (How to use this very large guide, P1): the rest of its paragraph, before it",
+   "text": "To make it easier, you can begin with the Quick start section, then learn one of the inductions and the whole return sequence. Then, you can read the Let the next response guide you section, for the part of the practice no recording can decide in advance.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S11 (How to use this very large guide, P1): the rest of its paragraph, after it",
+   "text": "There are lots of appendices with extra tools, covering lots of topics, including asking questions, NLP patterns of language, working with anxiety, working with daydreams, altered states in general, what to do if you experience the sensation of a hostile presence, working with sleep, influence, and more inductions. All sources used are in Appendix K.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S11 (How to use this very large guide, P1): the paragraph before it",
+   "text": "This guide has an app coming soon! Working hard!",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S12 (The table of contents is hiding on the left, P1): the rest of its paragraph, before it",
+   "text": "Substack kinda hides the table of contents until you move the mouse toward the left side of the page.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S12 (The table of contents is hiding on the left, P1): the paragraph after it",
+   "text": "Hello Lovey Bunny!",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S14 (Protecting Yourself from Hypnotists, P2): the rest of its paragraph, after it",
+   "text": "The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S14 (Protecting Yourself from Hypnotists, P2): the paragraph before it",
+   "text": "Hypnotism can happen in a therapist’s office, but it can also happen through music, marketing, religious rituals, sexual chemistry, charismatic authority, social media, grief, fear, political messaging, sense of belonging, fatigue, love, trauma, beauty, etc.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S15 (Protecting Yourself from Hypnotists, P3): the paragraph after it",
+   "text": "As associated with the Silva Mind Control method:",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S16 (Forget the left-brain/right-brain cartoon, P4): the rest of its paragraph, before it",
+   "text": "Without the mind of love the mind of analysis can be sterile. Without the mind of analysis the mind of love can lead to fantasy. Without testing intuitive signals they can become delusions. Without intuitive signals the testing can be dead.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S16 (Forget the left-brain/right-brain cartoon, P4): the paragraph before it",
+   "text": "The mind of love and the mind of analysis can BOTH be there - warmth and brightness. The mind of intuition and the mind of rationality can BOTH be there - intuitive signals and testing of those signals without dogma or killing them. The body can have a voice - saying yes or no or not yet. The imagination can have opened up the field and then the adult can choose what to do next in the real world…. It can be peaceful but also precise.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S18 (Why doing it myself worked better for me, P1): the rest of its paragraph, before it",
+   "text": "Doing self-hypnosis on my own seems far more useful than the very little I managed to do with a professional hypnotist.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S19 (Why doing it myself worked better for me, P2): the rest of its paragraph, before it",
+   "text": "When I do it on my own, I can detect when the wording I’m using for a suggestion to my subconscious is slightly off, and talk to my subconscious to find out what it thinks is wrong with the wording. When I use an image, I can tell whether it’s giving me useful information, or just telling me what I’m afraid of, or what I want to avoid, or what I want to be true, or something I don’t understand yet.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S19 (Why doing it myself worked better for me, P2): the paragraph after it",
+   "text": "A hypnotist working on me can’t interact with my subconscious mind quickly enough to get the detailed feedback needed to know what’s going on in my mind, since they aren’t IN my mind. (Of course, there are advantages to having a skilled guide, since they may be able to see things I’m blind to, and can help me keep the process regulated and safe.)",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S20 (When “your voice” is everybody else’s voice, P11): the rest of its paragraph, before it",
+   "text": "Temporary Separation. Sometimes it may be wise to remove yourself, for a time, from the people or group that you normally would get answers from. Some people come back later on different terms, and sometimes the break has to be long-term because the pattern of losing yourself with them is deeply entrenched. As you differentiate, you learn to tell which of those apply.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S20 (When “your voice” is everybody else’s voice, P11): the paragraph before it",
+   "text": "One way of explaining this is that in your childhood you didn’t spend enough attention in finding out what you like and what you want to try out and who you are when nobody is grading you. You were too busy avoiding pain, reading what was dangerous and what you had to do to stay in a good bond, etc.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S20 (When “your voice” is everybody else’s voice, P11): the paragraph after it",
+   "text": "What is the difference between a human being and a human doing? If you don’t feel good enough as a human being, you will try to become good enough as a “human doing” by, for example, being beautiful, doing something well, being smart, having a certain status, being spiritual, etc. Those can all be real gifts, although they still become a kind of bargain for belonging when failing in these areas feels like losing what it means to have your own inherent value.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S21 (Please don’t put six metaphors in one trance, P2): the rest of its paragraph, before it",
+   "text": "Using metaphors and imagery is entirely optional. You can use whatever form of signal makes sense to you (feelings, rhythms, movements, words, spatial, simple knowing, lack of signal, whatever) but if you’re using words, try to keep them related to whatever world you’re creating. If you’re going to count, do it in a way that makes sense in your world.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S21 (Please don’t put six metaphors in one trance, P2): the rest of its paragraph, after it",
+   "text": "(You can borrow qualities, but don’t change who you are.)",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S21 (Please don’t put six metaphors in one trance, P2): the paragraph before it",
+   "text": "Keep it simple. One thing you’re doing, one anchor/image you’re going with at first, one way of coming back, and feel free to set a tone (warm, bounded, directed, neutral witnessing, whatever) for yourself. If you’re going to use metaphors just do one, and if you switch metaphors, do it in a way that’s conscious.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S22 (Please don’t put six metaphors in one trance, P3): the rest of its paragraph, before it",
+   "text": "When you’re writing this, think about what the verb you’re using is, what the sensory quality is, what the short refrain is, and how you’re going to transition between ideas.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S22 (Please don’t put six metaphors in one trance, P3): the paragraph after it",
+   "text": "Read this page, and the Come all the way back page, when you’re awake.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S23 (Before you begin, P2): the rest of its paragraph, after it",
+   "text": "How long do you want to spend on this? (You don’t have to do this on a problem. You can do it on something you want to experience more of: love, play, confidence, creativity, communion, whatever.) Make sure you’re leaving some time at the end to come back, and reflect on what you experienced.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S24 (Before you begin, P3): the rest of its paragraph, after it",
+   "text": "Don’t do this if you’re driving, in the water, operating machinery, or otherwise need to be attending to yourself or other people. If you are intoxicated, acutely confused, or not able to keep yourself safe, then get some immediate support instead of doing exploratory hypnosis. If you are already partially or fully opened, use the later ‘Already open? Contain before you deepen’ section to help orient yourself, but do not attempt to deepen yourself if you are not stable.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S25 (Before you begin, P4): the rest of its paragraph, after it",
+   "text": "If you are going to use a recording, read the script if you can. Remind yourself that if you say ‘stop’ at any time, the induction will end. If you say ‘less’, you will be asked to do less. If you say ‘quiet’, the talking will stop. You can also just open your eyes and stop, and then come all the way back anyway. You don’t need to ask any parts for permission to stop, even if a part tells you that you do.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S25 (Before you begin, P4): the paragraph after it",
+   "text": "If you are new to this or haven’t done it for a while, work on the coming in and coming out part first, don’t bring in the hard stuff till later. You don’t have to watch yourself all the time, but for the first time, make sure you can change state. Let yourself make it easier and easier to do this and notice that it takes less and less of you to do it. A no will stay a no. The narrator can’t add stuff just because you don’t say anything.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S26 (Capacity before content, P8): the rest of its paragraph, before it",
+   "text": "“Dear Wise Subconscious Mind, if there is something you know that my conscious self is not ready to know, please don’t break it open violently! Do what you can to make me able to know it in a way that is safe! Prepare me BEFORE you break it open! Ground me BEFORE you show me the memory! Support me BEFORE you make it intense!",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S26 (Capacity before content, P8): the paragraph before it",
+   "text": "Instead, say to yourself something like this:",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S27 (Capacity before content, P9): the rest of its paragraph, before it",
+   "text": "REMEMBER: Not everything in hypnotic imagery is literal,",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S30 (It feels fake, P1): the rest of its paragraph, after it",
+   "text": "The words, an image, what you are expecting to get from this, a role you feel you have to play etc. It doesn’t matter that you don’t have an inner voice/image to do this, it isn’t necessarily about not having a ‘grown up’ or resisting doing the work. If it feels like you are being asked to do something you don’t want to do then correct this. It could be that there is a part that is protecting you, so talk to it.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S31 (It feels fake, P2): the rest of its paragraph, before it",
+   "text": "You could say something like ‘What are you protecting me from?’ or ‘Are you afraid I will lie to myself again?’ or ‘Are you afraid this will just be a performance?’ If it says yes, that one can sting, because there could be something to it.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S31 (It feels fake, P2): the rest of its paragraph, after it",
+   "text": "“Tell me what you remember, I’m listening.” works well here.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "neighbour of S31 (It feels fake, P2): the paragraph after it",
+   "text": "It could also be your inherited parent script that you are picking up, and it is trying to enforce a rule about how you should be to belong to them. Find out what rule it is enforcing. Comfort your little one before you answer any of it. Your answers can be firm or funny, as long as they aren’t mean. Then work on finding some ordinary evidence to build a more believable ‘grown up’ voice of your own.",
+   "chance_red": 0.05,
+   "why": "next to changed text; red spreads to neighbours (gate E244, E249)",
+   "kind": "neighbour"
+  },
+  {
+   "name": "last check's window 135 (Human, Low, 12 words)",
+   "text": "Whatever it is, tell your little one, “That’s enough for today.",
+   "chance_red": 0.05,
+   "why": "read Human, Low, last time; red turns up where the last check was light green",
+   "kind": "risk"
+  }
+ ],
+ "rest": {
+  "chance_red": 0.3,
+  "why": "any red outside the parts above"
+ }
+}

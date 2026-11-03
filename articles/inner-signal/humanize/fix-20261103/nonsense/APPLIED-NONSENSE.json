@@ -1,0 +1,42 @@
+{
+ "before_sha256": "bb5fc57de174b36c9e1bed333354a0f79e2c74811564f505a505950c5b5e7300",
+ "after_sha256": "010b9fc3c6e6bb1273736c47b00c89a7f50f0de20b5a0e161ced5b33cb65c5d1",
+ "fixes": {
+  "trust": {
+   "block": 106,
+   "where": "Love doesn’t have to wait for trust, P1",
+   "before": "Their trust can question your promises, remember when you failed to protect them, and take its time.",
+   "after": "They can question your promises, remember when you failed to protect them, and take their time."
+  },
+  "charming": {
+   "block": 138,
+   "where": "Working with your guards, P3",
+   "before": "Often what you're experiencing is a very charming guard.",
+   "after": "Often it's a guard, making an appearance in its usual charming way."
+  },
+  "the variants": {
+   "block": 436,
+   "where": "Methods to explore with a trained person present, P3",
+   "before": "recommend one or more of trauma-specific variants",
+   "after": "recommend one or more of the trauma-specific variants"
+  },
+  "full stop": {
+   "block": 559,
+   "where": "Future pacing — let the future test the insight, P2",
+   "before": "I will choose new small behaviors using an Implementation Intention",
+   "after": "I will choose new small behaviors using an Implementation Intention."
+  },
+  "yarn": {
+   "block": 729,
+   "where": "4. Unwinding object, P1",
+   "before": "Imagine an object unwinding – maybe some yarn, some bubbles, or some knots that you place beside you.",
+   "after": "Imagine some yarn unwinding, some bubbles settling, or some knots that you place beside you."
+  },
+  "this app": {
+   "block": 654,
+   "where": "Finding a hypnotist who can work with you, P14",
+   "before": "You might even be able to use this app or ask around",
+   "after": "You might even be able to ask around"
+  }
+ }
+}

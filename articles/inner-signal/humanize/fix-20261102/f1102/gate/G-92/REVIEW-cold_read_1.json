@@ -1,0 +1,19 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "e419394552f904d98a6f5eec1b656920d9873f0bc66fc35e4fd90299b8846283",
+  "context_sha256": "997eba18ef7566afdc7d7132b5c014e58da4ef6a9ae6681dd5dd7ea07d009c8d",
+  "source_sha256": "a328dd7b7c66f07edb86b30870910e01fbe63acc86603337df78dcff1e2bc6a4",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (cold reader 1)",
+    "context_id": "f1102-gate-cold_read_1-subagent-a",
+    "origin": "Claude Agent tool subagent, model sonnet, a fresh context with only this brief and its files, launched 2026-11-02 by session_01Mxpoi6tFT3FgKmBvtGjRtS (the writer's session)"
+  },
+  "evidence": "I read the CONTEXT section cold, then the draft inside it: \"It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance.\" It follows directly from \"I’m going to talk about it in terms of three jobs: your loving Nurturer, your safe Adult Protector (hereafter just the Protector) and your wise Guide\". Three capitalised roles can read like three characters, and the draft answers that at once: still one person. The word \"still\" carries the contrast his old \"not three more people\" carried, and it adds no fact, because the section already says it is one person (\"you, the person you are right now\" in the first paragraph, \"It’s you that needs to develop these qualities\" as the paragraph's last line). Pronouns: \"It’s\" is the ordinary subject for the arrangement just described (his \"That’s\" did the same job); it cannot be taken for the inner child, because \"one grown-up\" follows immediately and the inner child is not named in the sentence; \"the others\" are the other two jobs; \"nobody new\" means no extra people. Against SOURCE.txt, all three parts are kept: one grown-up doing three jobs; his rent joke, now in brackets, with \"nobody new\" for \"not three more people\"; and \"each job keeps the others in balance\" word for word. The party example that follows still shows the three jobs at work. It matches the_change exactly: DRAFT.txt equals the quoted new line and CONTEXT.txt holds it once. The brackets fit his voice, since he writes \"(hereafter just the Protector)\" two sentences earlier in the same paragraph. Tells: I judged every row T01 to T29 and C01 to C04 against the literal sentence in its paragraph and found none actually PRESENT. Near misses I checked: T16 and T12 (his \"X, not Y\" form is gone; the denial that is left is his joke, it comes after the claim, and it answers a misreading a reader really could make, so it is not a reflex reveal); T21 (one claim, one aside and one second clause, the same load as his own line); T26 (\"three jobs\" repeats the sentence before it on purpose, as his line did; the repeated \"It’s\" openers are not a distinctive phrase); T15 (plain words and a changed shape, not a synonym swap); T13, T09 and T07 (the rent joke is where the sentence notices something, and the bracket is his joke, not filler); T02, T11 and T29 (a mid-paragraph sentence, not a bridge, not the last line); C02 (no wrong or forward referent). Linter: \"D9 follows the source order\" is accepted. This is a one-sentence in-place replacement, so keeping the line's own order is the point, and the one part that could be a slot-filler (the joke) notices something, which is the condition the linter's own message gives (check T13 and T09). I took the Pangram results in the_change as stated; I could not verify them (no web). I judged from the three files first and opened ADMISSION.json afterwards; my rows agree with the writer's. Outside this change and untouched by it: the section heading names \"the guards\", which the three paragraphs shown do not discuss.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order"
+  ]
+}
