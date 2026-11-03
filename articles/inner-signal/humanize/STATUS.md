@@ -1,5 +1,12 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-11-03, after Joel's message of 15:22 UTC: no fifth check
+
+His message (`../../neuro-de-armoring/humanize/fix-20261103/joel-20261103-1522-message.txt`): "no need to recheck i'm sure it's
+fine, move onto the next article". So no fifth free check of the whole guide; the guide stays as it is in his post
+(d67ef820). The work moved to the neuro de-armoring lane. His answer there also retires Emulate in every lane (gate E333).
+Predictions: none. Delegations (model, piece, check, outcome): none.
+
 ## 2026-11-03, after Joel's message of 14:52 UTC: his question 34 answers in the guide and his post; the closer reading in the joel-articles skill
 
 His message (`fix-20261103/q34/joel-20261103-1452-message.txt`): his answers to question 34 and "make sure this closer

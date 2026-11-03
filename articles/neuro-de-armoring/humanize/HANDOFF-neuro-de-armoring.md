@@ -18,6 +18,7 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-03, after Joel's message of 15:22 UTC ("move onto the next article") and his two answers: question 1 answered ("Freely, in your voice"), round 1 rewritten and checked, Emulate retired, three examples waiting for his rewrites.** Round 1 (`fix-20261103/r1/`) read AI in 19 of 26 stretches at 100%, the best 12.7% AI (gate E334). Emulate had 0 words left and he retired it (gate E333). His three examples are on [Neuro De-Armoring Cards, 3 November](https://claude.ai/artifact/GKEbRH8VvXKzbEnZGCZUgz) (`fix-20261103/examples/`). See the Next step.
 - **2026-11-03, after Joel's message of 14:52 UTC (his answers to the hypnosis guide's question 34, and "make sure this closer reading is also part of the general joel-articles skill")**: nothing changed in this lane; question 1 still waits on him, and this lane is next. Before this article goes into his post, run SKILL.md's "Word-for-sense read before publication" with `tools/humanization/sense_read.py` (it replaces the hand-made scripts the hypnosis guide used). After that read, propose the planted-error recall check to universal-dev-architecture as a pattern, with both articles' recall and its limits (gate E331's disposition: provisional until this second run).
 - **2026-11-03, after Joel's message of 13:46 UTC (the hypnosis guide into his post, and "oily" for "old")**: the hypnosis guide is in his post, so this lane is next; question 1 still waits on him. Two lessons apply here: E331, before this article goes into his post, every word is read for sense by fresh readers, a part each, and the read is tested with planted errors of the same kind (the scripts are in `articles/inner-signal/humanize/fix-20261103/nonsense/`; `docs/FIXING-AN-ARTICLE.md` section 5 item 7); and E332, for updating a live post (`articles/inner-signal/humanize/fix-20261103/live/`).
 - **2026-11-03, after Joel's message of 12:18 UTC (the hypnosis guide's fourth free check)**: nothing changed in this lane; question 1 still waits on him, and this lane is next once the hypnosis guide is in his post.
@@ -55,7 +56,25 @@ All of the article is his published post. His queue's rule: "Paragraphs that alr
 stay exactly as they are." Everything else is rewritten in his register and reaches him as cards, each tested first. The
 Scott passages, the introduction and the D-serine paragraph in Part 4 sound most like him.
 
-## Next step (2026-11-02, after Joel's message of 19:11 UTC: question 1)
+## Next step (2026-11-03, after Joel's message of 15:22 UTC: his three examples)
+
+Done (STATUS.md's entry for 2026-11-03 15:22 has every file and number). The article is still his post as it stands
+(HUMANIZED-SO-FAR.md = master.md, a4b4e05a); round 1's rewrite is only in `fix-20261103/r1/CANDIDATE.md`.
+
+Next:
+1. **His answers to the three examples** (REVIEW-X1103.json's ids X-26, X-84 and X-15): save them word for word, put his
+   versions into the article with a script that records each (obvious typos only), run fidelity_keys.py check (a lost
+   dose or warning goes back to him as a question, never silently restored over his words), and check each of his
+   paragraphs in Pangram by itself (predictions first).
+2. **Then learn from them**: write down, sentence by sentence, what his versions do that mine didn't (E321's way; the
+   lessons in `docs/HUMANIZATION-GATE.md` after E334), and rewrite the rest of each kind that way: the science sections
+   from his X-26, the dose-and-instruction paragraphs from his X-84, the warnings from his X-15. A stretch of his own
+   unchanged lines that reads AI goes to him, not to another rewording of mine (E334). No Emulate (E333).
+3. **Checks**: stretches through the API within six paragraphs and 1,200 words (count a heading of eight words or more,
+   E334), each with its prediction; the whole article free through a temporary Substack draft when the sections read
+   Human. Then cards, the owner-delivery gate, the word-for-sense read (SKILL.md), and his post (E332).
+
+## Earlier next step (2026-11-02, after Joel's message of 19:11 UTC: question 1)
 
 0. **How a section is checked** (E325): through the API only within six paragraphs and 1,200 words; anything
    bigger through this lane's own temporary Substack draft and its secret link, for his extension (START HERE).

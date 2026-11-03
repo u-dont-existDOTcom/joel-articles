@@ -22,7 +22,7 @@ Every paragraph and every section reads Human in Pangram, with the meaning kept 
 
 ## Current checkpoint
 
-The baseline (batch n1102). `humanize/HUMANIZED-SO-FAR.md` is still the master, unchanged.
+Round 1 (2026-11-03, batches r1103a and r1103b): every section rewritten freely in his voice (his answer to question 1), fidelity PASS, read AI in 19 of 26 stretches at 100% (`humanize/fix-20261103/r1/`); Emulate retired by him (gate E333); his three examples on the marking page. `humanize/HUMANIZED-SO-FAR.md` is still the master, unchanged.
 
 ## Remaining
 
@@ -34,8 +34,8 @@ None.
 
 ## Evidence / artifacts
 
-`humanize/fix-20261102/baseline/RESULTS.md` (every result with its public link), `humanize/pangram-ledger.jsonl`, `humanize/STATUS.md`.
+`humanize/fix-20261102/baseline/RESULTS.md` and `humanize/fix-20261103/r1/b/RESULTS.md` (every result with its public link), `humanize/pangram-ledger.jsonl`, `humanize/STATUS.md`.
 
 ## Next safe action
 
-`humanize/HANDOFF-neuro-de-armoring.md`, Next step: the sections that read 100% AI first.
+`humanize/HANDOFF-neuro-de-armoring.md`, Next step: his rewrites of the three examples on Neuro De-Armoring Cards, 3 November (`humanize/fix-20261103/examples/`), then the rest of the article done the way they show (gates E333 and E334). The master is unchanged (his post as it stands).

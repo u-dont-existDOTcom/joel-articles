@@ -1,7 +1,7 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-02, after your message of 19:11 UTC.
-**Open questions: 1** (1). **For you to do**: answer question 1. Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next
+Last updated 2026-11-03, after your message of 15:22 UTC and your two answers in that turn.
+**Open questions: 0.** **For you to do**: rewrite the three examples on [Neuro De-Armoring Cards, 3 November](https://claude.ai/artifact/GKEbRH8VvXKzbEnZGCZUgz), and merge pull request 278 (below). Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next
 or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
@@ -9,20 +9,29 @@ can read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 1. How freely may I rewrite the science sections?** Every section of your post reads AI by itself. I tried the
-lightest fix first on Part 1, C to E, which read [100% AI](https://www.pangram.com/history/9bcacab5-ab61-4786-95d4-c2cff002314e):
-the "The Problem:" and "The Fix:" labels taken off, the question that answers itself made a statement, the short closers
-folded in, and every claim, number and warning kept. It still reads [AI Detected, 90.6% AI](https://www.pangram.com/history/8a5c6453-c6f1-4ab3-b713-51e54e3550f2).
-Only the paragraph about SSRIs started reading Human ([the rewrite]({G}humanize/fix-20261102/s04/rewrite_s04.py)). What
-reads Human in this article is you: your introduction, Scott, and the D-serine paragraph in Part 4.
+None right now.
 
-- a) My default: I rewrite each science paragraph more freely in your voice, saying each claim the way you'd explain it
-  to a friend. Every compound, dose, unit, timing and warning stays exactly as it is (the check holds them), and I add
-  no experience or fact you haven't given me. Each section reaches you as one card, checked in Pangram first.
-- b) You add a line or two of your own to each section (what you saw, who it helped, what went wrong), and I fit the
-  rest around it.
-- c) Leave the science sections as they are, and humanize only the practical parts (Parts 2 to 5).
-- d) Something else.
+## For you to do
+
+- 🟠 Rewrite the three examples on [Neuro De-Armoring Cards, 3 November](https://claude.ai/artifact/GKEbRH8VvXKzbEnZGCZUgz) ([the cards as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/examples/REVIEW-X1103.md)),
+  one of each kind the article has: the underpinning paragraph (the science), the UMP trial (a dose with its
+  instructions) and agmatine's interactions (a list of warnings). Or keep any of them as it is.
+- 🟠 Merge [pull request 278](https://github.com/u-dont-existDOTcom/joel-articles/pull/278) when you've looked.
+
+## Your answers of 2026-11-03 (after your message of 15:22 UTC), and what I did
+
+Word for word: [your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/joel-20261103-1522-message.txt) and [your two answers](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/joel-20261103-1522-answers.txt).
+
+- 🟢 **Question 1: "Freely, in your voice."** I rewrote all ten sections that way ([the rewrite](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/r1/CANDIDATE.md)):
+  the "The Problem:" and "The Fix:" labels gone, closers folded in, your sentences that read Human in the baseline kept,
+  and every compound, dose, unit, timing and warning held by the check.
+- 🟢 **It didn't read Human** ([every result, with its link](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/r1/b/RESULTS.md)). Of 26 stretches checked through
+  the API, 19 read 100% AI. The best was Psychology is the Software, [12.7% AI](https://www.pangram.com/history/79d6317d-a6b1-4126-b778-3e4eb7c4889b), with your own
+  sentences reading Human in it. Stretches that are nearly all your own protocol lines read 100% AI too, so it's the
+  shape (a label, a dose, an instruction, again) more than the wording.
+- 🟢 **Emulate is retired**, as you said: no new text goes to it, in any article (lesson E333).
+- 🔵 **Next**: your three rewrites show me how you'd say each kind, and I do the rest of the article the same way,
+  checked in Pangram before anything reaches you as a card (lesson E334).
 
 ## Your message of 2026-11-02 18:16 UTC, and what I did
 
