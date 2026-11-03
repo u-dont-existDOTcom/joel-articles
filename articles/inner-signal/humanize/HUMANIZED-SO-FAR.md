@@ -130,7 +130,7 @@ When I do it on my own, I can detect when the wording I'm using for a suggestion
 
 A hypnotist working on me can't interact with my subconscious mind quickly enough to get the detailed feedback needed to know what's going on in my mind, since they aren't inside my mind. (Of course, there are advantages to having a skilled guide, since they may be able to see things I'm blind to, and can help me keep the process regulated and safe.)
 
-I found my dialogue with my subconscious especially amplified with [loveyhuasca](http://loveyhuasca.info/). My experiences included a much deeper understanding of [my motivations](http://motivations.u-dont-exist.com/), peaceful loving awareness operating alongside analytical clarity, the disappearance of unhelpful daydreaming, different priorities around relationships, stronger intuition, and repeated correction between intuition, subconscious response, and conscious analysis.
+I found my dialogue with my subconscious especially amplified with [loveyhuasca](http://loveyhuasca.info/). My experiences included a much deeper understanding of [my motivations](http://motivations.u-dont-exist.com/), peaceful loving awareness operating alongside analytical clarity, the disappearance of unhelpful daydreaming, different priorities around relationships, stronger intuition, and repeated coordination between intuition, subconscious response, and conscious analysis.
 
 I also got stronger results when I practiced immediately after sky hypnosis:
 
@@ -550,7 +550,7 @@ Ask for any diffuse benefits to become more practically focused: "If this is gui
 
 ### Make the hypnosis more alert
 
-Aside from focusing on things in your direct experience, you can also [suggest yourself into greater alertness](https://www.tandfonline.com/doi/full/10.1080/00029157.2018.1496318) (it's still relaxed-alert, not paranoid-alert). Keep your eyes open. Use a small hand movement each time you make the auto-suggestion that you're gaining increasing clarity. Then stop the hand movement and see where your mind is at. That hand movement is the mental escape into the body's flow.
+Aside from focusing on things in your direct experience, you can also [suggest yourself into greater alertness](https://www.tandfonline.com/doi/full/10.1080/00029157.2018.1496318) (it's still relaxed-alert, not paranoid-alert). Keep your eyes open. Use a small hand movement each time you make the auto-suggestion that you're gaining increasing clarity. Then stop the hand movement and see where your mind is at. That hand movement grounds and aligns the distractible mind.
 
 ## Sleep induction
 
@@ -1130,7 +1130,7 @@ I use parts integration to ask my conflicting parts what they want, what they ar
 
 Here is a list of things I don't do with NLP, whether I'm hypnotizing myself or someone else:
 
-I don't use NLP to convince anyone an intuition is true. For example, I don't use NLP or hypnosis in general, to do more than initial memory retrieval work. Memories retrieved still need external validation, especially when they were led to (which NLP tends to).
+I don't use NLP to convince anyone an intuition is true. For example, I don't use NLP or hypnosis in general, to do more than initial memory retrieval work. Memories retrieved still need external validation, especially when the questions led to them (which NLP tends to do).
 
 On the other hand, I also don't use NLP to talk anyone out of a real signal. That doesn't mean we can't try to calm unbearable pain, but we must keep access to the awareness of the signal so that we can do the real root cause healing.
 
