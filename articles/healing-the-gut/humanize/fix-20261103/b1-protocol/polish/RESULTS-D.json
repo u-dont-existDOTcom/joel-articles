@@ -1,0 +1,89 @@
+{
+ "b1-P2-D": {
+  "sha256": "ed4aef531b044b91fc12c8e4fee52511f2fe3c0106419c5e9eaf745159cdd627",
+  "words": 91,
+  "prediction_short": "Human",
+  "fraction_human": 1.0,
+  "fraction_ai": 2.237151978425056e-13,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/b2a9c420-708e-4e74-bea4-95e47848a7a4",
+  "windows": [
+   {
+    "label": "Human Written",
+    "confidence": "High",
+    "words": 51,
+    "text": "Phase 2: The Reset\nThis one's from Dr. Michael Ruscio (Healthy Gut, Healthy You) and Dr. Mark Pimentel (The Microbiome Connection). You calm the inflammation down and starve the overgrowths, without any harsh chemicals.\nFor diet you can do Ruscio's Paleo-Low FODMAP or Pimentel's Low Fermentation Eating."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "Medium",
+    "words": 12,
+    "text": " Both stop feeding the bacteria in your small intestine.\nAnd no snacking!"
+   },
+   {
+    "label": "Human Written",
+    "confidence": "High",
+    "words": 33,
+    "text": " Pimentel says to keep meals 4-5 hours apart, strictly, so your Migrating Motor Complex (MMC) can sweep your gut clean in between.\nMy notes: see Poor diet now and Plant foods, above."
+   }
+  ]
+ },
+ "b1-P5-N": {
+  "sha256": "27412a08244c425edc01575492c1cb940f5746d3ae235b4fad007a2a38b11a33",
+  "words": 147,
+  "prediction_short": "Human",
+  "fraction_human": 1.0,
+  "fraction_ai": 8.365977554540115e-15,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/1d743b0a-3e3d-48d6-97bf-5ae917388f57",
+  "windows": [
+   {
+    "label": "Human Written",
+    "confidence": "High",
+    "words": 20,
+    "text": "Phase 5: Restoration & Maintenance\nOnce you're clear of infection, you have to rebuild a diverse ecosystem to prevent relapse."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "Medium",
+    "words": 1,
+    "text": " Dr."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "High",
+    "words": 28,
+    "text": " William Davis is back for that, along with Dr. Will Bulsiewicz (Fiber Fueled).\nStart by re-seeding with Davis's high-dose \"SIBO Yogurt\", fermented for 36 hours."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "Medium",
+    "words": 3,
+    "text": " It contains L."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "High",
+    "words": 100,
+    "text": " reuteri, to heal the lining and boost oxytocin, and L. gasseri, to produce bacteriocins that kill SIBO.\nThen feed the new healthy bacteria. Bulsiewicz says to slowly titrate plant diversity back into your diet, aiming for 30+ different plants per week.\nContinue Pimentel's strict meal spacing from Phase 2 (4+ hours), forever, to keep the MMC cleaning wave active.\nAnd fuel the mitochondria: see the fuels under Leaky gut, above (glutamine, butyrate and TCA intermediates).\nMy notes: see Leaky gut above for colostrum, zinc carnosine, BPC-157, ozonated zeolite and the fuels, and Sitting above for movement and yoga."
+   }
+  ]
+ },
+ "b2-NX-0": {
+  "sha256": "1e9530edf7eeb171bea3858380cc8677437ffa51837f5f371a93f48c84037750",
+  "words": 142,
+  "prediction_short": "Human",
+  "fraction_human": 1.0,
+  "fraction_ai": 1.7493301068928232e-22,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/e9d3ffc0-21c4-47ae-a282-b2c251bf8d38",
+  "windows": [
+   {
+    "label": "Human Written",
+    "confidence": "High",
+    "words": 145,
+    "text": "I have consolidated the top 9 most effective gut healing books into a customized smart Gemini Pro Gut Health Gem. You can ask any questions in that Gem to consult the following 9 experts at once and get far better advice than you'd get from any one of them! If you have any other books you think would be better, lmk in comments!\nNOTE: this gut gem does not include some of my research in this article, which is newer, especially from folks like Matt from EndSickness.org who doesn't have a comprehensive text for Gemini to read. So the phases below are only what the Gem will tell you, from the nine books. Where my notes in the causes above change or add to a phase, I point back to them under \"My notes\" in that phase.\nText Summary of the Protocol"
+   }
+  ]
+ }
+}
