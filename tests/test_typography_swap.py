@@ -7,7 +7,7 @@ from typography_swap import swap_html, swap_text  # noqa: E402
 
 
 class TypographySwap(unittest.TestCase):
-    """Gate E337 (Joel, 2026-11-03 22:02 UTC: "yes make that swapping standard")."""
+    """Gate E337 (gut) (Joel, 2026-11-03 22:02 UTC: "yes make that swapping standard")."""
 
     def test_curly_marks_become_straight(self):
         self.assertEqual(swap_text('It’s “fine”, she said ‘ok’.')[0], 'It\'s "fine", she said \'ok\'.')

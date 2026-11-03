@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """r02: r01 with Joel's batch-1 answers (2026-11-03 22:02 UTC, experiments/t04-answers/) applied to the protocol section,
-then the standard typographic swap (gate E337) on the whole post.
+then the standard typographic swap (gate E337 (gut)) on the whole post.
 
 - PI, P2, P3, P4, P6: the versions he approved on the batch-1 page; P1 and P5: his own versions (APPROVED-b1.json says
   what, if anything, differs from his words).

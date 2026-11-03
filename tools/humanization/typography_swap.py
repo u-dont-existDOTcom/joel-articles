@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""typography_swap.py - the standard typographic swap (gate E337): curly quote marks become straight ones, and each em
+"""typography_swap.py - the standard typographic swap (gate E337 (gut)): curly quote marks become straight ones, and each em
 dash becomes the spaced en dash Joel types (" – "). Nothing else changes.
 
 Joel, 2026-11-03 22:02 UTC: "yes make that swapping standard". The evidence: pangram-humanization-lab PR #195

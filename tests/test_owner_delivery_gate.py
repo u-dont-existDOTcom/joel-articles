@@ -22,7 +22,7 @@ REJECTED = (
     "to end it. Try to force it, and even that wish can turn desperate—or leave "
     "you afraid you'll fail."
 )
-# his spaced en dash, not an em dash: the em dash is swapped for it as a standard step since gate E337 (Joel, 2026-11-03
+# his spaced en dash, not an em dash: the em dash is swapped for it as a standard step since gate E337 (gut) (Joel, 2026-11-03
 # 22:02 UTC: "yes make that swapping standard"), and tells_lint.py's O63 fails an em dash left in a draft
 POSITIVE = "The ferry arrived late – by then, her friends had left the pier."
 
@@ -143,7 +143,7 @@ class OwnerDeliveryGateTests(unittest.TestCase):
         self.assertFalse(self.proof.exists())
 
     def test_properly_reviewed_natural_dash_passes_without_blanket_ban(self):
-        # a dash used naturally, in his form (" – "), passes; the em dash form is O63's (E337)
+        # a dash used naturally, in his form (" – "), passes; the em dash form is O63's (E337 (gut))
         self.ready()
         result = self.call("deliver")
         self.assertEqual(result.returncode, 0, result.stderr)

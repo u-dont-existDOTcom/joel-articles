@@ -1165,12 +1165,12 @@ def main():
             if DOSE_SPEC.search(n):
                 flag('FAIL', 'O61 a dose as a label and its spec ("Trial: UMP 150–300 mg …"; E335): say it as an instruction with '
                      'a verb, the way he did ("Do a trial with 150-300mg Uridine, in the morning with food")', s)
-            # O62 and O63 (gate E337; Joel, 2026-11-03 22:02 UTC: "yes make that swapping standard"): read in the sentence as
+            # O62 and O63 (gate E337 (gut); Joel, 2026-11-03 22:02 UTC: "yes make that swapping standard"): read in the sentence as
             # written (s), since every other rule reads the straightened copy (n). typography_swap.py makes both swaps.
             if re.search('[\u2018\u2019\u201c\u201d]', s):
-                flag('FAIL', 'O62 a curly quote mark (E337): straighten it, with tools/humanization/typography_swap.py', s)
+                flag('FAIL', 'O62 a curly quote mark (E337 (gut)): straighten it, with tools/humanization/typography_swap.py', s)
             if '\u2014' in s:
-                flag('FAIL', 'O63 an em dash (E337): his spaced en dash, " \u2013 ", with tools/humanization/typography_swap.py', s)
+                flag('FAIL', 'O63 an em dash (E337 (gut)): his spaced en dash, " \u2013 ", with tools/humanization/typography_swap.py', s)
             # O44 (Joel, 2026-10-21 17:56, on the hypnosis guide's return steps, where "one honest action" among what you go back to
             # had read AI in every wording of his: "especially "ONE HONEST ACTION" sounds super ai. i never heard a real person say
             # that in my life.").
