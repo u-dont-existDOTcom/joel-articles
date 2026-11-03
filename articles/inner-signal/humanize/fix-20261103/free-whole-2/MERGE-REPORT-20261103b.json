@@ -1,0 +1,1004 @@
+{
+ "format": "substack-merge-v1",
+ "editor": {
+  "path": "/home/claude/ja-community/articles/inner-signal/humanize/source/substack-editor-20260928.html",
+  "sha256": "b3f8aa4ec20120342488ac66eafa2ef93892f65f5b57b118a38322a338e2d23d"
+ },
+ "master": {
+  "path": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261103/free-whole-2/CANDIDATE-MASTER.md",
+  "sha256": "7dc2265cdf51d856afe5dc72f65933d2082f2fcf7663aea123bd78c56b04102d"
+ },
+ "published": {
+  "path": "/home/claude/ja-community/articles/inner-signal/humanize/source/published-20260928.md",
+  "sha256": "3b5cb6cce976fa9e0419fd1d32c62df12894d083385607e7faab6cb1295ee218"
+ },
+ "failures": [],
+ "notes": [
+  "headings not shared (insert): published [], master ['# Keep the Adult Part of Yourself in Charge']",
+  "headings not shared (insert): published [], master ['# What to Use Self-Hypnosis For, and What Not To']",
+  "heading renamed: '# The inner child, the guards, and the three inner adults' -> '# The inner child, the guards, and the inner adult’s three jobs'",
+  "heading renamed: '## Let the child speak without handing over the steering wheel' -> '## Let the child speak while you define the goal'",
+  "headings not shared (insert): published [], master ['## Instead of blame', '# Working with your inner child']",
+  "headings not shared (replace): published ['## The Leader, Guide, or Guru', '## Working with protectors'], master ['## The Guide', '## Working with your guards', '## Your inherited parent script']",
+  "headings not shared (insert): published [], master ['## Belonging without betraying yourself']",
+  "headings not shared (insert): published [], master ['## If you sense you are being influenced']",
+  "headings not shared (replace): published ['# Induction: gathering attention without disappearing', '## What an induction is actually doing', '## Please don’t put six metaphors in one trance'], master ['# Induction: gathering and softening attention', \"## Overly Confusing Isn't Automatically Good\"]",
+  "heading renamed: '## Already open? Contain before you deepen' -> '## When you’re already trancey'",
+  "heading renamed: '## The two-hand induction' -> '### Make the hypnosis more alert'",
+  "headings not shared (insert): published [], master ['### Turning the shortcut off, or keeping it']",
+  "headings not shared (insert): published [], master ['### Notice, meaning, and your thoughts on the meaning']",
+  "headings not shared (insert): published [], master ['### If you feel an urge to move']",
+  "headings not shared (insert): published [], master ['### Throughout the exercise']",
+  "heading renamed: '## It feels fake' -> '## \"It feels fake\"'",
+  "headings not shared (insert): published [], master ['## Your functioning in ordinary life is the feedback']",
+  "headings not shared (insert): published [], master ['## Survey and consultation']",
+  "headings not shared (insert): published [], master ['#### False positives, and turning the cue off']",
+  "headings not shared (delete): published ['## Inner child love'], master []",
+  "headings not shared (insert): published [], master ['## Inner child love']",
+  "headings not shared (insert): published [], master ['## Forgiving yourself']",
+  "headings not shared (insert): published [], master ['### The General Rule']",
+  "segment 6: master paragraphs with no published counterpart ['“How do I do this?” you ask. Just listen silently. Many people skip the listenin']; published ones with none in the master ['The method is simple: listen, warm, protect, clarify, reality-test, and act.', 'A dramatic trance is optional. The goal is a more trustworthy relationship with ']",
+  "segment 7: master paragraphs with no published counterpart ['To work on difficulties or cultivate positive qualities (love, curiosity, play, ']; published ones with none in the master ['Gather attention, notice what is here, offer one fitting response, wait, then co']",
+  "segment 8: master paragraphs with no published counterpart [\"Keep in mind that it's normal, even for people who do think in words, to sometim\", \"If you don't normally think in words, you may want to say things aloud, in writi\"]; published ones with none in the master ['That is different from feeling something before words come in a particular momen', 'Read “say,” “ask,” and “listen” in this guide as invitations, not a requirement ']",
+  "segment 10: master paragraphs with no published counterpart ['You maybe semi-consciously clicked \"Agree\" on the TikTok signup, and now you\\'re ', 'With self-hypnosis you can train your own mind from the inside, by befriending a']; published ones with none in the master ['Conscious agreement is one thing. Unconscious receptivity is another. Emotional ', 'Advertising, fear, craving, screens, tribe, resentment, authority, loneliness, a']",
+  "segment 13: master paragraphs with no published counterpart ['# Keep the Adult Part of Yourself in Charge']; published ones with none in the master []",
+  "segment 16: master paragraphs with no published counterpart ['# What to Use Self-Hypnosis For, and What Not To', 'Use self-hypnosis to help you: regulate yourself, talk to yourself, reparent you']; published ones with none in the master ['Use self-hypnosis for regulation, dialogue, reparenting, clarity, habit change, ']",
+  "segment 17: master paragraphs with no published counterpart ['I use the expression ‘syncing the hemispheres’ but don’t want to overinterpret w', 'And all of this has got to lead somewhere, to a point where you notice you’re be']; published ones with none in the master ['“Syncing the hemispheres” can be a useful description of how the state feels, bu', 'The loving mind stays warm while the analytical mind stays bright. The intuitive', 'Love can drift into fantasy without analysis. Analysis can become sterile withou', 'A powerful state matters only if something survives it: kinder behavior, more hu']",
+  "segment 18: master paragraphs with no published counterpart [\"A hypnotist working on me can't interact with my subconscious mind quickly enoug\"]; published ones with none in the master ['An outside hypnotist can’t easily conduct that rapid back-and-forth because they']",
+  "segment 20: line breaks not carried into a rewritten paragraph: 'Working with parts gives you precision, and working with the Higher Self gives y'",
+  "segment 20: line breaks not carried into a rewritten paragraph: 'b) Move into differentiation. “Which part is afraid? Which part wants to protect'",
+  "segment 20: master paragraphs with no published counterpart ['Note: whenever I refer to the subconscious, I’m referring to all of the processe', 'a) It’s usually a good idea to start with unity. So invoke your Higher Self: “He']; published ones with none in the master ['In this guide, subconscious means the deeper processes shaping perception, emoti', 'Begin with unity when the system feels scattered:', '“Higher Self, universal heart-mind, wise subconscious, please guide me.”', 'Differentiate only when the question needs it:', 'Then bring the parts back into one life:']",
+  "segment 21: line breaks not carried into a rewritten paragraph: 'Start like this: ‘I’m approaching this from the universal heart. I’m approaching'",
+  "segment 21: line breaks not carried into a rewritten paragraph: 'When something specific comes up, that’s the time to sort out what it is. “Is th'",
+  "segment 21: master paragraphs with no published counterpart ['Some people make themselves too fragmented by starting to work with parts. ‘Here', 'Once you have the ability to notice, and to differentiate, you don’t need to kee']; published ones with none in the master ['Some people feel more fragmented when they begin by naming twelve parts and assi', 'If you can already notice and distinguish what is happening inside, you don’t ne', 'Differentiate only when something specific appears:', 'Start from the heart. Differentiate only as needed. Return to the heart.']",
+  "segment 22: master paragraphs with no published counterpart ['Here I’m going to talk about what you develop in yourself as you reparent your i', 'Also, your inner child’s worth is not dependent on these qualities… It has its o']; published ones with none in the master ['I organize that adult capacity into three functions: Nurturer, Protector, and Le', 'The child’s worth doesn’t depend on developing those capacities. Worth was never']",
+  "segment 23: master paragraphs with no published counterpart ['If you have a safe adult in your life, you can borrow from them. If not, borrow ']; published ones with none in the master ['Borrow one function. Choose a safe adult, mentor, older sibling, future self, sp']",
+  "segment 24: line breaks not carried into a rewritten paragraph: '\"It is okay for a younger part of me to talk. I understand that the adult in me '",
+  "segment 24: master paragraphs with no published counterpart [\"Your inner child wants to be heard, but they don't want to feel like they have t\"]; published ones with none in the master ['Letting a younger feeling-state speak doesn’t mean handing adult judgment to an ', 'That distinction lets you recover curiosity, spontaneity, play, sensory freshnes']",
+  "segment 25: master paragraphs with no published counterpart [\"Then respond to the complaints that are sure to come. You don't have to accept e\", '## Instead of blame', 'Be aware of what you are teaching your other positions. For example, are you tea', \"When you're placing your younger self on trial, instead of asking which age of y\", '# Working with your inner child']; published ones with none in the master ['That isn’t a way to end the complaint. Listen for what is true in it and answer ', 'Notice what each position teaches the others. A vow followed by blame when it is', 'When a younger version of you becomes the defendant, ask what they understood th']",
+  "segment 26: master paragraphs with no published counterpart ['Imagine a divine Love from above, with the inner child below, in the solar plexu', 'Gently breathe in lots of love and begin to send that love from your heart down ', 'This practice works as an induction too: the Sober induction below has it as one']; published ones with none in the master ['Send warmth from the heart toward the child. Notice whatever comes back—a sensat', 'Love above. Child below. Adult present.']",
+  "segment 27: master paragraphs with no published counterpart ['Some of the work you can do as the Nurturer is to enjoy your inner child. You do', \"It's okay to feel the way you're feeling.\", \"I want you to know that I'm here for you.\", \"You don't need to do anything right now.\", \"It's okay. You're not too much. You can be small here.\", 'You can be angry here.', 'You can be sad here.']; published ones with none in the master ['The Nurturer brings warmth without trying to rush the feeling away, and takes pl', '“It’s okay to feel this.” “I’m here.” “You don’t have to do anything right now.”']",
+  "segment 28: line breaks not carried into a rewritten paragraph: 'Affirmations might be helpful here, too: “We’re not just here to feel good. We’r'",
+  "segment 28: master paragraphs with no published counterpart ['As the Protector, set boundaries, so your inner child can believe the warm stuff', \"A lot of times, inner child work doesn't work because people are doing all the f\", \"If it's hard to bring up the warm stuff, you can always do something to protect \", 'Ask them for help with directing your life. The Guide holds standards, the way a', 'Start with whatever adult function you can connect to, but most of us need enoug', 'Use parts language here too, if it helps. Often, we see a sensation or a distrac', \"If you're not careful, you might find yourself expecting that when you go within\", 'Instead, you might feel numb, cynical, angry, suddenly hungry, like you need to ', \"You can tell that part something like, “I see you. I'm not going to force my way\", 'If necessary, take time and listen. (Perhaps they are afraid that you will lie t', 'Now talk to the guard. Tell them that it makes sense that they want to protect y', 'Most of the time, the guard wants you to do certain things: set boundaries, do w', '## Your inherited parent script', 'One important thing to become aware of when approaching your inner child is your']; published ones with none in the master ['The Protector turns warmth into something the child can believe.', '“I will set the boundary.” “I will leave the unsafe conversation.” “I will stop ', 'This is where inner-child practice often turns decorative. The voice says loving', 'If warmth is unavailable, a protective act can begin the relationship. Make it s', 'Direction can ask for something difficult without turning life into perfect disc', 'Begin with the adult function you can actually reach. Protection may come before', 'Use this parts language when you actually recognize a protective pattern or find', 'People assume inner-child work begins with the child. Very often, you meet the g', 'You sit down to connect and get numbness, cynicism, anger, sudden hunger, a phon', 'One important voice is the inherited parent: the internalized caregiver voice fo', '“I notice you. You are trying to protect something. I want to understand. What a', 'Then wait. The answer may be: “You’ll lie to yourself again.” “This will become ', '“That makes sense. You do not have to move yet. What would help you trust me 1% ', 'Usually the protector needs evidence more than another spiritual insight. Hold t']",
+  "segment 29: master paragraphs with no published counterpart ['Do you want to embody your Protector? Then you could practice this:', '3. differentiate between actual/real danger, unknown, past or imagined dangers', \"6. stand down and rest (stop scanning once staying on alert isn't helping anymor\"]; published ones with none in the master ['The Protector is more than an inner voice saying no. You can practice it as a bo', 'Distinguish: separate present danger from uncertainty, old alarm, or imagined da', 'Stand down and rest: protection includes ending the scan when continued vigilanc', 'A mature Protector can say, “I don’t know.” It can ask another human, delay inte']",
+  "segment 30: master paragraphs with no published counterpart ['I see a lot of connection between [reparenting therapy](http://innerchild.u-dont']; published ones with none in the master ['I connect my reparenting therapy to self-hypnosis because I find they are a perf', 'When the child does appear, resist the urge to begin a healing project immediate', '“Little one, I am here. You do not have to explain everything. You do not have t', 'The need may be warmth, play, protection, grief, anger, food, rest, a boundary, ']",
+  "segment 31: master paragraphs with no published counterpart ['When your inner child does show up, spend some quality time with them before tak', 'They might like to hear something like, “Little one, I’m here with you now. You ', 'What does your inner child need? It can be anything: warmth, to play, to be prot', 'A. Prepare yourself to tend to them with some privacy, but still able to access ', 'E. Give yourself some time to let what you did sink in- it may take sleep, etc.', \"F. Reconnect with them if they're willing- don't expect them to merge, go away, \", 'G. Stop and rest before the caring turns into another performance, and reconnect']; published ones with none in the master ['Prepare: create enough time, privacy, support, and adult capacity.', 'Wait: let the response settle. Some changes need quiet, sleep, or ordinary time.', 'Reconnect: invite contact only where it is welcome. No part has to merge, disapp', 'Rest: stop before care becomes another performance.', 'Reassess: return later and ask what actually helped.']",
+  "segment 32: master paragraphs with no published counterpart [\"When you're reparenting, it's okay to play with things that interest your younge\", 'Resting doesn’t mean you have to become helpless. It’s okay to limit the number ']; published ones with none in the master ['Reparenting doesn’t have to become solemn. A younger state may respond to textur', 'Rest also doesn’t require helplessness. Reduce decisions for a defined period, p']",
+  "segment 33: master paragraphs with no published counterpart ['If talking out loud or visualizing conversations feels fake, try writing it out.']; published ones with none in the master ['When speech or visualization feels fake, write. Let the non-dominant hand speak ', 'Non-dominant hand: “I don’t trust you.”', 'Dominant hand: “I hear that you don’t trust me. I still love you. Tell me where ', 'Non-dominant hand: “Which promise?”', 'Dominant hand: “I will eat, clean the desk, and not text the person who makes us']",
+  "segment 34: master paragraphs with no published counterpart ['It can be difficult to connect with your inner child if your inner child didn’t ', 'You are in the first camp if:', 'Your opinion is very different when you are with different people', 'When you try to love yourself, it feels more like a show', 'When you try to find out how your inner child feels, you feel that you are guess', 'One way of explaining this is that your childhood didn’t leave you much room for', 'Taking a break. Sometimes it may be wise to remove yourself, for a time, from th', 'So in order to find yourself, you can ask yourself:', 'What do I like when nobody is looking?', 'What do I believe when I don’t check with other people?', 'What do I want that is neither in rebellion nor in compliance with others?', 'What can I try on that I don’t need to be good at?', 'With whom can I be myself?', 'What do I feel in my body and what do I make out of it?', '## Belonging without betraying yourself', 'What does it feel like to belong without betraying myself?', 'Where do I think I am following my own guidance, but I am in fact following my b', 'Where do I think I am doing things out of love, but I am actually doing it out o', 'Where do I think I am listening to my conscience, but I am actually listening to', 'Where do I think I am doing something out of devotion, but I am actually doing i', 'Where do I think I am free, but I am actually rebelling?', 'And then notice what your body tells you. It is not always correct, but it is a ']; published ones with none in the master ['Sometimes the inner-child question lands nowhere because a private self had very', 'This may apply when:', 'You do not know what you want unless someone else says what they want first.', 'Your opinions shift dramatically depending on who is in the room.', 'Self-love feels performative.', 'The question “What does my inner child feel?” produces guesses, not felt answers', 'A useful developmental explanation is that when childhood is organized around av', 'Sometimes a temporary, intentional period of distance from the people or group s', 'Useful questions:', '“What do I like when no one is watching?” “What do I believe before I check whet', '“What would belonging look like if I did not have to disappear?”', '“Is this guidance, or is this a belonging program?” “Is this love, or is this fe', 'Then wait for the body. It isn’t infallible, but it deserves a seat at the heari']",
+  "segment 35: line breaks not carried into a rewritten paragraph: '“You will soon realize that I am right…” Or “You may, in time, decide to admit t'",
+  "segment 35: master paragraphs with no published counterpart ['One of the best side-effects of learning self-hypnosis is that sudden \"waking up', '## If you sense you are being influenced', 'First of all, if you sense you are being hypnotically influenced, stop. Don’t ob', 'Secondly, here are some of the ways people use hypnotic language to manipulate: ', 'If you are unsure, you may like to ask yourself the following questions:', 'What are they asking me to agree to? What choice are they giving me? What are th', 'And afterwards: do I come away from them more present and grown up, or less? Be ']; published ones with none in the master ['Self-hypnosis also teaches influence literacy: noticing when somebody else is al', 'Pause there. Don’t obey immediately, and don’t perform automatic rebellion eithe', 'Hypnotic language turns manipulative when it smuggles in your consent, makes one', 'The grammar assumes the conclusion, turns resistance into proof, and makes obedi', '“What exactly is being claimed?” “What choice is being framed as inevitable?” “W', 'A useful guide leaves the adult self more present. Powerful states need stronger']",
+  "segment 36: a rule or empty paragraph inside the text kept before '# Induction: gathering and softening attention'",
+  "segment 36: master paragraphs with no published counterpart ['[Indirect suggestion](https://nimja.com/stories/random/the_contradiction_of_subj', 'Here are some of the ways that happens:', '1) Utilizing induction techniques while seemingly explaining something (even som', '2) In any way making it so that whatever the subject says shows that a suggestio', '3) Including phrases such as “whether or not you notice” etc etc, so either way ', '5) Fractionating a subject without telling them that you are going to take them ', '6) Giving a subject cues (words, gestures, blinks, sounds, listening a certain n', '7) Including suggestions for amnesia, or using dreams, gaps in memory, imagery, ', '8) Not taking a subject out at the end of a recording, or leaving them with a ro', 'In order for a subject to be making a real choice while in hypnosis, there must ', 'Inductions serve to gather your awareness up into a gentler, trancier, more rece', \"Sometimes it's nice to do an actual induction if you're sober but distracted or \", \"There are lots of different ways to do the induction. For this method, I'm going\", \"You can test to see if you're at a deep enough level of hypnosis by choosing a s\", \"## Overly Confusing Isn't Automatically Good\", '\"Keep it simple, stupid!\" (KISS principle) actually can apply to hypnosis!', \"It's really easy to take a whole bunch of techniques from all of this and make s\", \"So start off with setting one anchor/image to rest your mind's eye on. Decide on\", \"In fact, you don't even need to use metaphors nor imagery. You can use whatever \", \"Keep the language tied to the subconscious world you've chosen, so if you're cou\", \"It's fine to borrow qualities such as warmth or steadiness from someone who mode\", \"When you're writing the script, decide what the central verb you're using is to \", 'You may have a short refrain that you come back to a few times in there as anoth']; published ones with none in the master ['Permissive words can still conceal coercion. I watch for the following:', 'Indirect suggestion can slip past the skeptical guard because the conscious mind', 'Induction hidden inside explanation: attention is being narrowed while the speak', 'Every answer means compliance: “yes,” “no,” noticing, not noticing, resistance, ', '“Whether you notice it or not” binds: uncertainty is converted into invisible su', 'Unannounced fractionation: moving in and out of absorption without telling you t', 'Hidden post-session cues: words, gestures, blinks, sounds, or repeated listening', 'Amnesia or truth inflation: dreamlike material, missing memory, imagery, or body', 'An exit that does not exit: the recording ends while preserving a role, reduced ', 'A real choice includes at least one branch that doesn’t continue the induction: ', 'An induction gathers scattered attention until quieter material becomes easier t', 'Aim for the amount of trance that suits the practice: focused, warm, receptive, ', 'What an induction is actually doing', 'Prepare the session, gather attention, deepen only when that helps, then let wha', 'For a simple, chosen target, you can test the suggestion before deepening. If th', 'Please don’t put six metaphors in one trance', 'Choose one purpose, one starting anchor or image, and a way back. Decide whether', 'Imagery is optional. A signal may arrive through sensation, rhythm, movement, wo', 'Pick one central verb, one sensory quality, one short refrain, and one transitio']",
+  "segment 37: master paragraphs with no published counterpart ['2. Get clear on what it is you want to do during the induction. What are you lea', '3. Put yourself in a place where you can safely do this, which is not: driving a', '4. Deciding to do it: how will you coax yourself to do this? Make it spacious? M', \"5. If you are new to this or haven't done it for a while, work on the coming in \", '6. Let your response guide you as to what to do next regardless of what the scri']; published ones with none in the master ['Choose a physically secure place without driving, water, machinery, or anyone ne', 'Decide what kind of encouragement is welcome: spacious listening, warm company, ', 'When entry and return are unfamiliar, first rehearse them without a difficult su', 'Let the next invitation grow from the response you got—not the response the scri']",
+  "segment 38: line breaks not carried into a rewritten paragraph: '5. Let your attention come back to your chosen anchor. 4. Let more of your atten'",
+  "segment 38: master paragraphs with no published counterpart ['Script:', 'You can allow yourself to notice something you can feel, like the sensation of s', 'Allow yourself some time to do this.', 'You might notice yourself thinking, and whenever you notice yourself thinking, y', \"You can close your eyes now if you want to. If not, it's fine to keep them open,\", 'Count 5 to 1, taking your time if you like.', 'Let yourself notice what comes to you, if anything. It may not be clear yet what']; published ones with none in the master ['There is a surface beneath you. Notice where you meet it … the contact, the pres', 'You can give this a little time.', 'A thought about the day may still be here. A thought about whether you’re doing ', 'As you continue, your eyes can close, soften, or stay open. Let that be a choice', 'Count slowly from five to one. Give each number its own moment.', 'Give the response time to take its own form. It might be a sensation, a few word']",
+  "segment 39: line breaks not carried into a rewritten paragraph: \"Know that you're already open, you just need to aim and stabilize it, and keep i\"",
+  "segment 39: master paragraphs with no published counterpart [\"Orient yourself by looking around. Where are you? What's the date or day? How do\", 'Say something like, \"I ask to experience only the therapy that I can integrate. ', 'Once you’ve got your bearings, make your first wish.']; published ones with none in the master ['Look around the room. Name where you are. Name the date, or at least the day. Fe', '“Only what can be integrated is welcome now. Anything too much can wait. The bod', 'Once you’re oriented, choose one intention:']",
+  "segment 40: master paragraphs with no published counterpart ['If your mind keeps drifting off, sit up and open your eyes. Then feel your feet ', 'Pick something in the room to look at, and feel your spine at the same time (foc']; published ones with none in the master ['Sit upright. Open the eyes. Feel the feet. Let the breath be natural.', 'Say: “I am not going away. I am coming more fully here.”', 'Look at one object. Feel the spine.', '“Is this daydream guidance, emotional digestion, or avoidance?”', 'If stillness makes you sleepy, diffuse, or escape-prone, hypnosis can become mor', '“Eyes open. Press thumb and forefinger together gently. Release. Again — clearer']",
+  "heading level: master '### Make the hypnosis more alert', editor h2 (the editor's kept)",
+  "segment 41: master paragraphs with no published counterpart ['Aside from focusing on things in your direct experience, you can also [suggest y']; published ones with none in the master ['Place one hand on the heart. Place the other hand on the solar plexus.', 'Let the heart hand represent the Nurturer. Let the solar plexus hand represent t', 'Breathe gently.', '“Love above. Child below. Adult present.”', '“I send love to the child. I receive the child’s signal. I send love again. I li']",
+  "segment 42: master paragraphs with no published counterpart ['Sleep induction is different than inner work, where you need to come back up to ', 'You can tell your analytical mind to stand down, any revelations can wait.', 'Check out [Nimja’s sleep playlist](https://www.youtube.com/watch?v=IqyqE8V2CJg&l']; published ones with none in the master ['Sleep induction has a different job. In inner work, the adult returns, writes, a', 'For sleep hypnosis, see Nimja’s sleep playlist.']",
+  "segment 43: line breaks not carried into a rewritten paragraph: '“Okay, open your eyes and come back up. Feel the room around you. You can decide'",
+  "segment 43: master paragraphs with no published counterpart ['Fractionation means coming partway back toward normal awareness, then deciding w']; published ones with none in the master ['Fractionation means returning toward ordinary awareness and then deciding whethe']",
+  "segment 45: master paragraphs with no published counterpart ['It might be useful for your wise subconscious to let you know that your inner me', 'You don’t have to make it happen, or pretend that it is happening, just wait wit', 'Sometimes a finger will move, sometimes an entire hand will heat up, sometimes y']; published ones with none in the master ['If it is useful, the wise subconscious may let one finger twitch, pulse, lift, w', 'I will not force it. I will not fake it. I will simply wait with love and notice', 'A finger may move, a hand may warm, the breath may change, or nothing may happen']",
+  "segment 46: master paragraphs with no published counterpart ['Once you have learned a useful induction and how to come all the way back up at ', 'Have an unusual word, phrase, and/or motion (optional) that you will use to go i', 'For example, my dad used to use a mudra (like putting two fingers together like ', 'Now come all the way back up again, and at a later time, when it is appropriate,', 'Also, be sure that this is working for you: you can turn it on and off at will, ', 'There is something you should never do with this shortcut: use it, practice it o', '### Turning the shortcut off, or keeping it', \"If you want to turn the shortcut off, simply don't practice it anymore. Take it \"]; published ones with none in the master ['Learn a useful induction and the full return below before developing a shortcut.', 'Choose a distinctive word, phrase, or optional gesture. During a familiar, welco', 'Return fully. On a later suitable occasion, deliberately begin practice and try ', 'Check usefulness and selectivity: does it help when chosen, remain absent when u', 'Never train, test, or use hypnotic re-entry while driving or doing anything requ', 'To retire the cue, stop rehearsing it, remove it from recordings or active app i']",
+  "segment 47: master paragraphs with no published counterpart ['Here is a generic bring-back that you can use: \"When I come out of this session,', \"Then do a count up: On 1 start to feel your body again and what it's resting on \", 'When you come out, make sure you can name what day (or date) it is, look to your', 'If your recording happens to cut out partway through, woops... you could end up ', \"Sleep recordings are another story, since you're assuming you'll drift off midwa\"]; published ones with none in the master ['“I bring back only what is useful now. The rest can remain safely held until the', 'One — feel the body’s contact and chosen weight. Two — let the breath return to ', 'Name the day or date. Look left, right, near, and far. Move before standing, and', 'If a recording stops unexpectedly: say, “The recording stopped and the session i', 'Sleep is separate. A sleep recording may end in sleep or quiet rest. A waking re']",
+  "segment 48: master paragraphs with no published counterpart ['Note: If you have a tendency to daydream, dissociate or fall asleep, it is bette', 'This does not mean you have to stop thinking to listen. Just notice your thought']; published ones with none in the master ['Sit rather than lie down when you tend to daydream, dissociate, or fall asleep. ', 'Begin by invoking the larger field:', 'Thoughts do not have to stop before deeper listening begins. Let thoughts, sensa']",
+  "segment 49: master paragraphs with no published counterpart ['Respond to each thing that comes up with an accurate notice and a small reasonab']; published ones with none in the master ['Notice one thing accurately. Offer a small, believable invitation, an act of car']",
+  "segment 50: master paragraphs with no published counterpart ['An example notice might be, \"I notice my chest tightening when I imagine asking ', \"Then just listen. You don't need fancy language - often it will be better to jus\", '### Notice, meaning, and your thoughts on the meaning', \"It's worth trying to separate the notice, the meaning, and your thoughts on the \", 'Is this a notice or meaning? \"My stomach went tight\" is a notice, \"He\\'s a comple']; published ones with none in the master ['Suppose you notice, “My chest tightened when I imagined asking for help.” Start ', 'And as I notice that tightening, I can give myself a little time before deciding', 'Then listen. That is enough language for one invitation. A plain “What happens n', 'Keep apart what you noticed, what it seemed to mean, and what you think about th', '“My stomach tightened” reports a sensation. “That person is evil” is a conclusio']",
+  "segment 51: master paragraphs with no published counterpart [\"Your shoulders tightening, or 'hmm, that feels kind of wrong', is a signal to in\", \"Sometimes the invitation just isn't right or helpful, even if it sounds like som\", 'Doubting is sometimes a guard to listen to, and sometimes simply part of normal ']; published ones with none in the master ['“My shoulders tightened” and “that wording feels wrong” are different observatio', 'Sometimes the sentence was simply wrong. Sometimes an unfamiliar possibility bri']",
+  "segment 52: master paragraphs with no published counterpart ['Look at your own side too. You may find that you feel guilty. Having feelings of']; published ones with none in the master ['Notice your side too. Guilt doesn’t prove wrongdoing or manipulation. Did you ca']",
+  "segment 53: master paragraphs with no published counterpart ['### If you feel an urge to move', 'If you feel an urge to move, turn, reach, push, or change your body’s position, ']; published ones with none in the master ['An impulse to turn, reach, push away, or change posture can also be explored thr']",
+  "segment 54: master paragraphs with no published counterpart ['If any younger parts come up, offer them the opportunity to spend time with you,', 'If you feel that it would be useful to bring in your Nurturer, Protector or Guid', 'Try some different ideas as to what might be helpful for this inner part to feel', 'It is possible that when you try and give the part what it wants, you might feel', 'Allow yourself to see where a metaphor takes you. Ask questions like ‘if the pro', 'Alternatively, you may want to use the session to build up something you want mo']; published ones with none in the master ['When a younger feeling appears, offer company without making it become literally', 'I’m here. Would company help, or would you prefer some space?', '“Don’t come closer” is information you can act on. Stay at the chosen distance a', 'You can also deliberately try support: a welcome hand placement, an imagined pre', 'Care can bring grief for what was missing. That needn’t mean the love failed. St', 'A metaphor can develop before you decide what it means. “If this problem had its', 'Or spend the session developing love, play, courage, or curiosity. Let a pleasan']",
+  "segment 55: master paragraphs with no published counterpart ['Don’t feel that you have to end the session with a great revelation (those are o', 'When you have finished, even if you stopped part way through, use the ‘Come all ', '### Throughout the exercise', 'Allow your analytical part to make comments and/or tell you that it doesn’t like']; published ones with none in the master ['When you’ve received enough, stop opening new questions. Ask what would help you', 'Keep the analytical mind available throughout: you can question, disagree, and s', 'Use Come all the way back, even when you ended early. Afterwards, write a few li']",
+  "segment 56: master paragraphs with no published counterpart [\"You don't need to learn a second script for this. Just do the same practice, fro\", 'You can also try other ways of inducing yourself, such as becoming aware of 3 th', 'Once you have practiced listening a few times with the recordings, you may want ']; published ones with none in the master ['Use the same practice rather than learning a second script: gather attention, li', 'Another simple entry is to notice three things you see, three you hear, and thre', 'After familiar runs, shorten a recording to the cues you still need, then try pr']",
+  "segment 57: master paragraphs with no published counterpart ['Once or twice a week, when it’s useful, give this practice more space and time s', \"Then, if there's something from the session that asked you to do something in re\"]; published ones with none in the master ['Once or twice a week, give the same practice more time when that is useful. More', 'Do the ordinary action immediately when possible. That teaches the subconscious ']",
+  "segment 58: master paragraphs with no published counterpart ['Note: if it is medically unsafe, or you are in a place of panic, sleep deprivati', 'What you don’t want to do is bully your subconscious into telling you what it kn', '“What is it you won’t tell me? What are you hiding? Tell me NOW! I am telling yo', 'This can lead to flooding, panic, false certainty, confabulation, dissociation e', '“What can you tell me, that will make my conscious self 5% better at knowing the', 'Or, instead of demanding answers, say to yourself something like this:', 'Remember: not everything in hypnotic imagery is literal, especially if it relate']; published ones with none in the master ['Altered-state rule: do not ask for hidden truth while medically unsafe, panickin', 'Interrogation is the dangerous response:', '“Tell me now.” “Reveal everything.” “Stop hiding.” “I demand the truth.”', 'That pressure can produce flooding, panic, false certainty, confabulation, disso', 'Ask for the next tolerable piece:', '“Do I need to know the content now, or do I need to build capacity first?”', '“What would make the conscious mind 5% more able to receive this?”', '“Can you show me the truth as a symbol, not a full revelation?”', '“Can you give me the next protective action without revealing the whole story?”', '“Who, if anyone, should help me hold this?”', 'A safer script:', 'Hypnotic imagery can be meaningful without being literal. The mind symbolizes, c']",
+  "segment 60: master paragraphs with no published counterpart [\"Don't fret, even for the greatest masters, many times nothing happens. After all\"]; published ones with none in the master ['Start smaller:', '“Show me one body sensation.” “Show me one word.” “Show me whether today is for ']",
+  "segment 61: master paragraphs with no published counterpart ['Let\\'s drill into that \"it\"... do you have a sense of what exactly feels feigned,', \"You could say something like 'What are you protecting me from, helicopter mom?' \", 'But seriously... you can then say, \"Tell me what you remember, I\\'m listening.\" I', 'It could also be your inherited parent script that you are picking up, and it is', \"If the fake feeling is telling you that you don't have the grown up ability to d\"]; published ones with none in the master ['First ask what feels fake: the wording, the image, the expectation, or the role ', '“What are you protecting me from?” “Are you afraid I will lie to myself again?” ', 'The voice may be the inherited parent enforcing an old belonging rule. Don’t arg', 'The fake feeling can also mean that a needed adult capacity isn’t available yet.']",
+  "segment 62: master paragraphs with no published counterpart ['There may not be an answer. There may not be an answer that will help you. You m']; published ones with none in the master ['There may be no answer, or the question may not help. You can change it, rest, o', '“What do you need to know before you trust me?”', 'The reply may be extremely un-mystical: “Will you set the boundary?” “Will you k']",
+  "segment 63: master paragraphs with no published counterpart ['If you can tell there is a guard in the way, talk to it. You can say to the guar']; published ones with none in the master ['If a guard is recognizable, speak to it; otherwise stay with the feeling or pref', '“You do not have to let me in. Just tell me what would make the doorway safer.”', 'If no clear child-state appears, use the session to notice one preference, curio']",
+  "segment 64: master paragraphs with no published counterpart ['-Where are your feet? Where are you sitting? Focus on your body, your breathing,', '-Tell your little one and your guards (childhood protector parts) that you’re th']; published ones with none in the master ['Feet. Chair. Breath. Room.', '“Little one, I am here. Protector, thank you for warning me. You do not have to ']",
+  "segment 67: master paragraphs with no published counterpart []; published ones with none in the master ['When the practice turns into a technical performance, stop improving it. Put one', '“What would make this feel more like communion and less like performance?”', 'Silence may be the answer. Rest may be the answer. One honest action may be the ']",
+  "segment 68: master paragraphs with no published counterpart ['If the bliss spreads out into a big warm haze, it can’t do much for you or anyon']; published ones with none in the master ['Ask the bliss to become specific.', '“What task, boundary, meal, rest, repair, or conversation does love require next']",
+  "segment 70: master paragraphs with no published counterpart []; published ones with none in the master ['“What real action is this fantasy replacing?”']",
+  "segment 71: master paragraphs with no published counterpart ['Maybe you had a profound opening that showed you how much more love and freedom ']; published ones with none in the master ['A genuine opening can show you a depth of love or freedom you hadn’t known was p']",
+  "segment 72: master paragraphs with no published counterpart ['The best thing to do, though, if you notice you’re in a checking loop, is allow ']; published ones with none in the master ['When it is a checking loop, let the thought remain without arguing with it or ch']",
+  "segment 73: master paragraphs with no published counterpart ['Ask yourself, “What can I do to show my little one I’m for real?” Pick one thing']; published ones with none in the master ['“What would prove to the inner child that the adult is real?”', 'Then do the thing.']",
+  "segment 74: master paragraphs with no published counterpart ['Don’t go seeking “downloads” of information, or make a hobby of demons/jinn/Unat', 'Don’t try to “force” memories, to use trance to “prove” something happened to yo', 'Don’t force yourself to ignore your body’s needs, such as eating when hungry, re', 'Don’t “extend” the duration of altered states indefinitely.', 'Don’t believe that anything is “healed” in your body (neurologically, cellularly', 'Don’t put hidden commands in yourself, nor allow anyone to do so. Even if you ar']; published ones with none in the master ['Do not chase grand downloads or turn demons, jinn, and “Unattached Burdens” into', 'Do not force memory recovery, use trance to prove what happened, or suppress med', 'Do not override hunger, fatigue, pain, grief, anger, or fear before understandin', 'Do not prolong altered states indefinitely or treat intuition as fact without te', 'Imagined repair does not establish physical recovery, neurological repair, cellu', 'Do not install hidden instructions, undisclosed third-party activation, compulso', 'End every waking session with ordinary identity, movement, orientation, judgment']",
+  "segment 75: master paragraphs with no published counterpart [\"You probably don't need any more support than this if you keep the practice shor\"]; published ones with none in the master ['Use self-hypnosis as a relationship with yourself. When the situation needs actu', 'For ordinary learning, start with shorter sessions, warmth, a manageable subject']",
+  "segment 76: master paragraphs with no published counterpart ['If you want to deliberately do trauma-focused regression (going backwards in you', 'Note that having experienced trauma, crying, and even wanting to feel difficult ', '## Your functioning in ordinary life is the feedback', 'If you find yourself more loving, more honest, more functional, more relational,']; published ones with none in the master ['Use a trauma-informed clinician trained in the method, present with you, for del', 'Trauma history, tears, or wanted difficult feelings don’t automatically exclude ', 'If the practice makes ordinary life more loving, honest, functional, relational,']",
+  "segment 78: master paragraphs with no published counterpart ['Always enter this app via this page, not by bookmarking the app itself, to make ', '## Survey and consultation']; published ones with none in the master ['Enter through this page rather than bookmarking the app itself, so you reach the']",
+  "segment 79: master paragraphs with no published counterpart ['Note: You can skip this section and just use the main path. This is additional i']; published ones with none in the master ['The main path is enough for daily practice. Everything below is optional: extra ']",
+  "segment 80: master paragraphs with no published counterpart ['Your subconscious mind is not an AI large language model. However, there is a bi', 'To get as much precision as possible, you need to include the following in your ', 'Context: Give some context so it knows what you’re talking about.', 'Iteration: Iterate by changing your prompt depending on what you get from realit', 'Most importantly, always let silence count as an answer, otherwise the analytica', 'Once you do that, here are the core prompts you can use:']; published ones with none in the master ['The subconscious isn’t an AI model, but prompt engineering offers one useful les', 'I use seven elements when I want a prompt to be precise:', 'Context: what situation you are bringing.', 'Iteration: revise after life gives feedback.', 'Always include a safe fallback so the analytical mind doesn’t treat silence as f', 'Sometimes nothing answers because nothing is happening. Sometimes the answer is ']",
+  "segment 81: master paragraphs with no published counterpart ['When you want to bring in your Protector: “What would a minimally competent adul', 'Once you get an answer, you can ask: “What can I do in my ordinary life to show ', 'You use the prompt to tell your subconscious what you want in a language it can ']; published ones with none in the master ['For clarity:', 'For resistance:', 'For the inner child:', 'For the Protector:', '“What real-world action would make this system safer?”', 'For the Leader/Guru:', 'For intuition:', 'For separating intuition from conditioning:', 'For daydreaming:', '“If this daydream is useful, reveal the guidance inside it. If it is avoidance, ', 'For anxiety:', '“What is anxiety trying to protect, and what would help it trust the adult self?', 'For hidden truth:', '“If the full truth would overwhelm me, please do not reveal it all. Show me the ', 'For integration:', '“What ordinary-life action would prove that I heard correctly?”', 'The prompt defines the search. NLP language affects how gently the question ente']",
+  "segment 82: master paragraphs with no published counterpart ['NLP stands for Neuro-Linguistic Programming.', 'You do not need to know this stuff to use the main path, but if you want to fres']; published ones with none in the master ['You can practice the core method without learning one term of Neuro-Linguistic P']",
+  "segment 83: master paragraphs with no published counterpart ['The four levels of NLP are:', 'Sensory Level of NLP: working with the form of an inner experience (where do you']; published ones with none in the master ['Sensory NLP changes the form of an inner experience: image, sound, distance, siz']",
+  "segment 84: master paragraphs with no published counterpart ['We are going to use a model that’s called the Milton model. It’s all to do with ', 'What we need to do is use [indirect language](https://learn.nimja.com/techniques', 'We can then test this out with the body to see if it was possible.']; published ones with none in the master ['The Milton Model concerns the architecture of the sentence. Commands such as “Re', 'Part of the point of indirect language is to get past that reflexive skeptical a', 'Pace reality. Open awareness. Validate function. Presuppose capacity. Bridge gen']",
+  "segment 85: master paragraphs with no published counterpart ['So how might we pace and lead in a way that works with anxiety?', 'Truth, Invite, Truth, Invite etc. is all you need to do.']; published ones with none in the master ['Pacing and leading means stating what is already true before inviting anything n', '“Anxiety is here. The body is activated. A protector is trying to help. And one ', 'The simplest form is a Truth + Invite loop:']",
+  "segment 87: master paragraphs with no published counterpart ['A presupposition hides an assumption inside a sentence, and whoever hears it usu', \"I'd switch that up to the safe version: ‘As you go deeper, it gets easier to com\"]; published ones with none in the master ['A presupposition hides an assumption inside a sentence. Use that power only to p', '“Before any part has to change, it can first become more understood.”']",
+  "segment 88: line breaks not carried into a rewritten paragraph: 'We can use this technique to support communion and agency: “As I breathe, my adu'",
+  "segment 88: master paragraphs with no published counterpart ['Bridge words, like ‘as’, ‘whilst’, ‘because’, ‘when’, ‘after’, ‘before’ and ‘whi']; published ones with none in the master ['Words such as as, while, because, when, after, before, and which means connect o']",
+  "segment 89: master paragraphs with no published counterpart ['An embedded invitation tucks a small direction inside a bigger sentence, like wh', \"Invitational language can also feel super fake though, especially when it's over\"]; published ones with none in the master ['An embedded invitation places a small direction inside a larger sentence. It sho', '“And somewhere inside this breath, I can let the adult self listen.”', '“As I sit here, I may allow one small truth to become clear.”', 'Use one when it helps. Ten embedded invitations in a row feel like somebody took']",
+  "segment 90: master paragraphs with no published counterpart ['This is also an actual parenting technique. Children love choices, even when the', 'An ethical double bind also gives you two choices, but both of them are designed', '\"Welcome to McHappyness. Would you like some warmth first, or some space?\" And w']; published ones with none in the master ['A manipulative double bind traps every answer inside the speaker’s agenda. An et', '“Would this part prefer warmth first, or space first?”']",
+  "segment 91: master paragraphs with no published counterpart [\"A conversational postulate is a sneaky little yes or no question that's actually\", 'I dare you now to practice this ethical postulate! \"Can my subconscious show me ']; published ones with none in the master ['These are questions whose ordinary conversational form also acts as an invitatio', '“Can the system show me the next step without showing me the whole wound?”']",
+  "segment 92: master paragraphs with no published counterpart ['\"Your body knows how to relax, doesn\\'t it?\"']; published ones with none in the master ['“The body already knows something about resting, doesn’t it?”']",
+  "segment 93: master paragraphs with no published counterpart [\"A nominalization turns something you do into a noun: you heal, and it becomes 'h\"]; published ones with none in the master ['Nominalizations turn processes into nouns: healing, safety, trust, integration, ']",
+  "segment 94: line breaks not carried into a rewritten paragraph: 'When something sounds true but vague, ask: \"What do you mean, specifically? Acco'",
+  "segment 94: master paragraphs with no published counterpart ['So when someone is starting to tense up in their body, use the Milton Model to h']; published ones with none in the master ['Use Milton Model to soften into the body. Use Meta Model to return to truth.']",
+  "segment 96: master paragraphs with no published counterpart ['If your fear, craving, fantasy, belief, memory, whatever, has sensory properties', 'How is this represented for you? Can you allow yourself to move that image back ']; published ones with none in the master ['Fear, craving, fantasy, belief, and memory may have sensory qualities: near or f', 'Ask how the experience is represented. What changes when the image moves two fee']",
+  "segment 98: master paragraphs with no published counterpart ['I call this the synchronicity wake up cue.', 'People often ask what the synchronicity means. Sometimes they get a great insigh', 'Whenever I notice it, I use it as a cue for waking up inside whatever state I am']; published ones with none in the master ['People notice a synchronicity and immediately ask what it means. Sometimes that ', 'The cue I give myself is:', '“Whenever I notice something that feels like a synchronicity, I wake up inside t', 'I make room for whatever is genuinely available: objectivity, clarity, ease, pea', 'Synchronicity noticed → pause → orient → widen → reality-test → listen → choose ', 'The cue interrupts identification without erasing the state’s message. A negativ']",
+  "segment 99: master paragraphs with no published counterpart ['Mentally rehearse the following: Imagine that you have noticed a synchronicity t', 'Feel the \"whoa\" of stimulation that you just got from noticing it.', 'Reiterate to yourself that whenever you notice a synchronicity, it is just a bel', 'Ask yourself: \"What does my Nurturer think about this?\", \"What does my Protector', 'Rehearse yourself taking at least one action. Rehearse yourself waking up comple', 'These cues do not authorize you to make a decision. They do not stop you from he', 'This is very similar to [implementation intention](https://www.prospectivepsych.', '#### False positives, and turning the cue off', 'A downside of synchronicity cues is that they can lead to false positives. We cr', 'If you feel that synchronicity cues are making these things worse (e.g. you feel', 'You can do that by not rehearsing them anymore and by saying to yourself (when y']; published ones with none in the master ['Imagine noticing an ordinary, harmless synchronicity.', 'Feel the moment when attention says, “Whoa.”', 'Repeat: “The noticing is my wake-up bell, not proof of a message.”', 'Ask the Nurturer, Protector, and Leader what each sees.', 'End with one small action and the complete waking exit.', 'The cue remains self-authored, visible, reversible, and limited to orientation. ', 'Psychologically, this resembles an implementation intention: an advance “if X, t', 'The same mechanism creates the risk: rehearsing synchronicity as a cue may make ', 'Deactivate the cue if it increases compulsive scanning, sleeplessness, anxiety, ', 'To retire it, stop rehearsing it and say while fully awake: “Synchronicity is no']",
+  "segment 100: master paragraphs with no published counterpart ['Reframes are dishonest when they declare the problem was something that was good']; published ones with none in the master ['Dishonest reframing declares that the problem was secretly good all along. I pre', '“What else might be true?” “What is this part trying to do for me?” “What would ']",
+  "segment 101: line breaks not carried into a rewritten paragraph: 'I go through four positions: 1) seeing from Self (what do I feel from inside mys'",
+  "segment 102: master paragraphs with no published counterpart ['Once I have seen the situation more clearly, I will imagine future scenarios whe', 'If these scenarios come up, I will choose new small behaviors using an Implement']; published ones with none in the master ['Don’t end with “I understand.” Ask where life will test the understanding, pictu', '“If [cue], then I [small action].”']",
+  "segment 103: master paragraphs with no published counterpart ['I use an NLP technique called a \"Swish Pattern\" (it swaps a picture of an old re']; published ones with none in the master ['Classic NLP uses the Swish to replace an old self-image with a new one. Done mec']",
+  "segment 104: master paragraphs with no published counterpart ['I use parts integration to ask my conflicting parts what they want, what they ar']; published ones with none in the master ['“What does one side want?” “What does the other side fear?” “What need sits unde']",
+  "segment 105: master paragraphs with no published counterpart [\"Here is a list of things I don't do with NLP, whether I'm hypnotizing myself or \", \"I don't use NLP to convince anyone an intuition is true. For example, I don't us\", \"On the other hand, I also don't use NLP to talk anyone out of a real signal. Tha\", 'For example, I won’t tell anyone to push past their fear before asking what it’s', \"I don't use NLP on people without their consent nor to bypass consent via covert\", 'That includes not manipulating anyone to feel like their \"no\" is the ego\\'s resis', \"If someone is in an unstable state in which they can't reasonably give consent, \"]; published ones with none in the master ['To talk myself out of a real signal.', 'To override fear before asking what the fear protects.', 'To recover memories.', 'To manipulate anyone else.', 'To convince myself an intuition is true.', 'To erase pain, hunger, grief, anger, or a medical symptom.', 'While panicking, destabilized, manic, psychosis-like, chemically overwhelmed, or', 'To make another person’s no feel like resistance.', 'To make someone feel spiritually inferior for disagreeing.', 'To hide a command inside soft language.', 'To create urgency where time is needed.', 'To bypass consent by calling something “subconscious agreement.”', 'To use trance, fatigue, attraction, shame, grief, or altered states to get compl']",
+  "segment 106: master paragraphs with no published counterpart ['Here is a rough outline of the entire NLP process:', 'Get a representation of your pattern. Do you see it as an image, with size, colo', 'Find out if that part/pattern is protecting something for you.', \"Gently change an aspect of your pattern's representation from the prior step.\", 'Bring in your three good adults. The Nurturer brings love in. Next, the Protecto', \"Then anchor the good state you're in with a hand on your heart, two fingers touc\", 'Imagine running into a scenario where your old pattern would have triggered, and', 'Check in with your body for signals during the re-imagining process, and what el', 'Then come all the way back out of the altered state (see “Come all the way back”']; published ones with none in the master ['Represent the pattern. How does this show up — image, voice, sensation, posture,', 'Ask what it protects. What is this trying to do for me?', 'Adjust the form, gently. Move it back, lower the volume, add space, change postu', 'Bring in the three adults. Nurturer warms, Protector makes it safe, Leader point', 'Anchor the useful state. Heart, fingers, breath, posture.', 'Future pace. If the old cue shows up, what is the smallest new action?', 'Check the fit and the evidence. What changes in the body? Is the response kind a', 'Exit and act. Come back to the room. Do one ordinary thing.']",
+  "segment 107: line breaks not carried into a rewritten paragraph: 'If what you’re investigating is true, it can take your questioning (as the polic'",
+  "segment 107: master paragraphs with no published counterpart ['What to do when you feel like you’re being pushed too hard by something (person,', 'Before you do what it wants you to do, check how it’s trying to get you there. I', 'Then look at what it wants from you. Is it money, or sex, or your loyalty? Is it', 'Keep in mind though, people who mean well can ask for some of these too. A teach', 'Back to the interrogation:', 'Is it trying to narrow down your choices? Does questioning it feel like you’re d', 'If it does a bunch of these things, slow yourself down, don’t let it push you de']; published ones with none in the master ['Use this checklist when a person, advertisement, ideology, spiritual teaching, r', '“I notice influence is happening. I do not need to obey it or attack it. I can s', 'Before acting, ask:', 'Is there urgency?', 'Is there secrecy?', 'Is there shame?', 'Is there a threat of exclusion?', 'Is there a promise of specialness?', 'Is there sexual charge?', 'Is there spiritual superiority?', 'Is there a demand for money, sex, loyalty, silence, or obedience?', 'Is there a narrowing of choices?', 'Is questioning treated as betrayal?', 'Is resistance pathologized?', 'Is ordinary life being downgraded?', 'Is the child part being seduced, scared, or rescued?', 'Is the adult self still allowed to say no?', 'Several yes answers mean slow down. Don’t deepen trance or make an irreversible ']",
+  "segment 108: master paragraphs with no published counterpart ['First, what are they going to do to bring you under? And if you react negatively', 'And how are they deciding it\\'s working? Just because you seem \"out of it\" should', 'Keep in mind though, you can only answer those last questions by reading the scr', 'Will they tell you before they use techniques that affect your memory or behavio', 'Are they low-key using your body signals to prove their theories? Like oh your h', \"And when it's time to come out, will they tell you clearly that the session is o\", 'If any answer they give you is wishy washy, beware. Ask for the exact script (or']; published ones with none in the master ['Was I plainly told that induction mechanics are being used?', 'Can at least one answer lead to pause, modification, full alertness, or stopping', 'Does the speaker treat not noticing as secret proof that the process worked?', 'Are roles, ownership, obedience, age, identity, or belonging being used to lower', 'Are fractionation, cues, later behavior, or memory effects disclosed before they', 'Are ordinary body sensations being turned into evidence for a hidden claim?', 'Does the exit restore ordinary identity, movement, orientation, and critical jud', 'When an answer is unclear, stay fully alert. Ask for the exact script, change th']",
+  "segment 110: master paragraphs with no published counterpart ['Remember that often the anxiety comes from a childhood guard part of you. It’s w', 'Work in this order – first your body, then your inner child, then some inquiry, ']; published ones with none in the master ['Anxiety is often a Protector trying to prevent danger, shame, abandonment, failu', 'Body first. Inner child second. Inquiry third. Action fourth.', 'Inner child love', 'Start with the hand-on-heart, hand-on-solar-plexus practice.', '“Little one, you are not alone. You do not have to solve this. I am here now. Th', 'Don’t recite the words like an incantation you’re hoping the subconscious will g']",
+  "segment 111: master paragraphs with no published counterpart ['Try breathing less. (There are some good things to be said for slowing your brea']; published ones with none in the master ['Use this gently. Buteyko-style reduced breathing can help some people who overbr', 'Breathe through the nose. Let the inhale be small. Let the exhale be quiet. Paus']",
+  "segment 112: master paragraphs with no published counterpart []; published ones with none in the master ['“Even though this anxiety is here, I am willing to be kind to the part of me tha']",
+  "segment 113: master paragraphs with no published counterpart ['If you would like more information about somatic experiencing, or even a free in']; published ones with none in the master ['More info, and a free intro session on my Somatic Guide. With SE, we track gentl', '“Where is the activation?” “Where is the neutral place?” “Can attention move slo']",
+  "segment 114: master paragraphs with no published counterpart ['Focusing is another approach where you work with your body. You might say to you']; published ones with none in the master ['“What is the felt sense of this whole anxiety?”', 'Don’t answer from the head immediately. Give the body time to form one vague sen', '“What would this felt sense like me to know?”', 'Try a word or phrase and check how well it fits the felt sense. Then examine wha']",
+  "segment 115: master paragraphs with no published counterpart ['Sometimes the mind is too activated for meditation to help, so you may need to w', 'I have a page on my [ZHoly3O](http://zholy3o.u-dont-exist.com/) product, an ozon', '## Inner child love', 'Put your hand over your heart and your other hand on your solar plexus (the two-']; published ones with none in the master ['Sometimes the mind is too activated to meditate usefully. Then help through the ', 'Other people settle with warmth, darkness, music, massage, weighted blankets, br', 'Personal relaxation-tech note: On my ZHoly3O page, I discuss ozonated charcoal “']",
+  "segment 116: line breaks not carried into a rewritten paragraph: 'If you’re there, little one, I’m here. Thank you, guard, for letting me know you'",
+  "segment 116: master paragraphs with no published counterpart ['A script you could use for anxiety is:', 'Where are my body parts? What are my feet doing? How is my body positioned in th', 'If there is something we need to do, let me know what the first thing is that we']; published ones with none in the master ['First, body. Feet, chair, breath, room.', 'If there is real action needed, show me one step. If there is no action needed, ', 'I will not abandon the signal. I will not worship the signal. I will listen, tes']",
+  "segment 117: master paragraphs with no published counterpart ['Sometimes daydreaming is something that your subconscious mind is doing to help ', 'Other times daydreaming may be taking you away from your life in a detrimental w', 'If it is helping you, then simply ask yourself what the guidance is and how you ', 'If it is taking you away from life, then change your body position by sitting up', 'Then ask yourself what it is that you need to do in real life that you are avoid']; published ones with none in the master ['Daydreaming can be intuition, simulation, grief digestion, creative rehearsal, s', 'When it seems useful, ask:', '“What is the guidance inside this?”', 'When it seems to be pulling you away, change the body before debating the story.', '“Subconscious, thank you for showing me images. If this daydream is useful, plea', 'Then get embarrassingly practical:', '“What real-life action is this daydream replacing?”']",
+  "segment 118: line breaks not carried into a rewritten paragraph: 'That said, self hypnosis may be the best way of talking to your subconscious on '",
+  "segment 118: master paragraphs with no published counterpart ['One of the issues here is that people vary dramatically in how suggestible they ']; published ones with none in the master ['Suggestibility varies wildly. Some people open more with an external hypnotist, ']",
+  "segment 119: master paragraphs with no published counterpart ['Ask them:', '- What they are trained in (what they can treat)', '- How they use hypnosis', \"- What they will do if a suggestion doesn't fit you\", '- If they are treating trauma, whether they have specific training in trauma and', 'Tell them:', \"- What has/hasn't worked for you in the past\", '- How direct you want them to be', '- What kind of touch (if any) you are ok with', '- What kind of imagery (if any) you are ok with', '- What you want them to do if you want them to stop', 'Ask them:', '- What they will do if something unexpected happens during or after the session', \"- What they do if you aren't sure if something is a memory or not\", '- How they will do the full return (coming out of hypnosis) at the end of the se', 'You should be able to be firmly encouraged, but not forced to continue if you do', 'Then afterwards, check in about what was actually done, regardless of what you m']; published ones with none in the master ['Ask what they are trained to treat, how they use hypnosis, and how they respond ', 'Describe what has helped, what hasn’t, your preferred directness, acceptable tou', 'Evaluate what actually happened, not the method’s name. Was its purpose explaine']",
+  "segment 120: master paragraphs with no published counterpart [\"Your subconscious is amazing at picking up on things your conscious mind isn't g\", \"Especially if it's a big thing, or something that can't be easily undone, slow d\"]; published ones with none in the master ['The subconscious can notice things the conscious mind misses: anticipations, pat', 'When the message has large or irreversible consequences, slow the action to the ']",
+  "segment 121: master paragraphs with no published counterpart ['Ask your inner child, your adult, your conscious mind, your subconscious mind, y', 'On the other hand, it is possible to give your power away. Seeking counsel can s']; published ones with none in the master ['The first council is internal: child and adult, conscious and subconscious, intu', 'The opposite danger is giving away your power. “Seek counsel” can quietly become']",
+  "segment 122: master paragraphs with no published counterpart ['We cannot force forgiveness on ourselves. It has to come from a place of underst', '## Forgiving yourself', 'Do what you can to put it right. Every so often, come back to how you got to be ']; published ones with none in the master ['Forgiveness can’t be forced. It grows from understanding, and pushing it too ear', 'The understanding that helps me is seeing how conditioning, history, pain, and c', 'Questions for forgiveness without erasing anything:', '“What happened?” “What was the impact?” “What boundaries are still needed?” “Wha']",
+  "segment 123: line breaks not carried into a rewritten paragraph: 'Help me to become more grounded. Help me to only take what I can integrate. Help'",
+  "segment 123: master paragraphs with no published counterpart ['I’m not saying you should use substances, but many people have used them when th', 'A lot of people have had dramatic openings to love at some point in their life. ', \"Use your altered state of consciousness, either while you're in it or after, to \"]; published ones with none in the master ['This guide doesn’t tell anyone to use substances. It does acknowledge that many ', 'A past opening can be a resource without becoming a state you must reproduce. Ha', 'During or after an altered state, these prompts are usually more useful than dem', 'If the state makes you less loving, less grounded, less honest, less able to sle']",
+  "segment 124: master paragraphs with no published counterpart ['Self-hypnosis can be powerful when you are in an altered state of consciousness ', 'So what feels like a meaningful altered state of consciousness may or may not ac', 'Before you even think about interpreting what your altered state of consciousnes']; published ones with none in the master ['Self-hypnosis can become very powerful during loveyhuasca, meditation, lucid dre', 'Intensity then gets mistaken for meaning. Sometimes the inner child is finally s', 'Before trying to interpret the state, ask a simpler question:']",
+  "segment 126: master paragraphs with no published counterpart ['I speak here from experience.', 'First of all, it doesn’t matter if they’re demons or not. They may be literal de']; published ones with none in the master ['I’m speaking from experience in this appendix.', 'I don’t need this guide to settle the metaphysics. Perhaps these are literal bei', '“What response makes me safer, clearer, more loving, more grounded, and less hoo']",
+  "segment 127: master paragraphs with no published counterpart ['So what do you do when you encounter a demon, or a jinn, or something else that’', 'First of all, do the usual things – make sure you’re not in danger from a medica', 'If you feel like you’re in any danger of doing anything harmful to yourself or o']; published ones with none in the master ['When a demonic, jinn-like, hostile, or intrusive presence appears, don’t reward ', 'Danger to self or others, psychosis-like fear, inability to sleep, extreme paran']",
+  "segment 128: master paragraphs with no published counterpart ['Find out if it helps to be warm towards it or to keep it at arm’s length, and ke']; published ones with none in the master ['I don’t have to decide what this is right now. I can notice whether warmth or di', 'Neither response establishes its origin. A protective part needn’t reveal its fe']",
+  "segment 129: master paragraphs with no published counterpart ['Your first instinct may be to fight it, banish it, hate it, show it that you’re ', 'It becomes a center of attention if you fear it, and if you hate it, you give it']; published ones with none in the master ['The first impulse may be to fight, banish, hate, prove power, argue, panic, or i', 'Fear gives it center stage. Hatred gives it a hook. Pride gives it an opponent. ']",
+  "segment 130: master paragraphs with no published counterpart ['You can also tell the presence that while you have compassion for it, the door i', 'Sit up, make sure your feet are grounded on the floor, straighten your spine, pu']; published ones with none in the master ['Sit upright. Press your feet into the floor. Let the spine rise. Gently draw the', '“I recognize that suffering may be here, and I wish all suffering to return to t', '“Compassion is present. The door is closed.”']",
+  "segment 131: master paragraphs with no published counterpart ['Everything above assumes that the “hostile presence” is symbolic, the kind that ', '### The General Rule']; published ones with none in the master ['A symbolic hostile-presence experience that settles with grounding and love is v']",
+  "segment 132: master paragraphs with no published counterpart ['Sometimes a hostile presence, a shadow force or a grandiose part comes at you wi']; published ones with none in the master ['Hostile presences, shadow forces, grandiose parts, and altered-state imagery don', '“Thank you for the imagery. I do not require a grand performance. If this inform', 'Guidance worth keeping should make ordinary life more beautiful, honest, relatio']",
+  "segment 133: master paragraphs with no published counterpart ['Finally, some of you may be tempted to make this an area of hobbyism – to become']; published ones with none in the master ['Demons, jinn, hostile presences, and “Unattached Burdens” all lead to the same p']",
+  "segment 134: master paragraphs with no published counterpart ['For sleep, try using [this playlist by Nimja](https://www.youtube.com/watch?v=Iq']; published ones with none in the master ['For sleep hypnosis, use Nimja’s sleep playlist.']",
+  "segment 135: master paragraphs with no published counterpart ['Preview the sequence. Work out in advance which one you want to do and what you ', 'Once you start an induction, you will want to notice what’s going on (even if no', 'NB: if you can’t ‘see’ the images you’re trying to visualize, that’s fine, chang']; published ones with none in the master ['Preview the sequence, choose one purpose, and decide whether you want to begin. ', 'If vivid images don’t come, translate the metaphor into words, rhythm, spatial s']",
+  "segment 136: master paragraphs with no published counterpart ['Work out what will be supporting you, and focus on the feeling of support. You c']; published ones with none in the master ['Feel the support beneath you and the position of one hand or foot. Press gently,']",
+  "segment 137: master paragraphs with no published counterpart ['Work out what is supporting you and where your weight is. Imagine that the suppo']; published ones with none in the master ['Notice where your weight is carried. Let support carry 1% more effort, as if flo']",
+  "segment 138: master paragraphs with no published counterpart ['Use your breathing or a slight hum in your throat for a natural rhythm. You coul']; published ones with none in the master ['Accompany a natural rhythm: breath, a comfortable hum, a finger tap, outside sou']",
+  "segment 139: master paragraphs with no published counterpart ['Unwinding an object is good for when you have a few different strands to one thi']; published ones with none in the master ['Notice a concern with several strands. Imagine yarn unwinding, bubbles settling,']",
+  "segment 140: master paragraphs with no published counterpart ['Pay attention to the sounds in the room you’re in and how your body feels, then ']; published ones with none in the master ['Hear the actual room and feel the body before imagining a step toward a chosen d']",
+  "segment 142: master paragraphs with no published counterpart ['Prepare the workshop (time, place, tools, boundaries, etc). Invite the signal/fe']; published ones with none in the master ['Prepare time, a place, tools, and boundaries for patient care. Let a signal, fee']",
+  "segment 143: master paragraphs with no published counterpart ['Pick a quality you understand and want more of, like warmth, being able to hold ']; published ones with none in the master ['Choose qualities you understand: warmth, boundary, steadiness, curiosity, or dig']",
+  "segment 144: master paragraphs with no published counterpart [\"We don't need to go into trance to get a lot of the benefits of the communion te\", 'For pacing (warm-up), notice reality as it is now. What do you see around you? I', 'For the suggestion: in your mind, ask a clear question and then listen gently.', 'Now keep your sense of agency during the answer phase. You might notice an answe', 'Keep aware of the subtle inner signal: write whatever you get. It might be a wor', 'Hand off the role: have your adult self answer that same question in whatever wa', 'Integration/exit: reality test the signal you noticed. As part of testing, if it', \"There's no elaborate exit protocol here since you didn't go into trance. Just cl\"]; published ones with none in the master ['Observable pacing: Keep the eyes open, name the room and day, feel the feet, and']",
+  "segment 146: master paragraphs with no published counterpart ['*Healing the Divided Self*, Maggie Phillips and Claire Frederick (1995), pp 24-2']; published ones with none in the master ['Maggie Phillips and Claire Frederick, Healing the Divided Self (1995), especiall']",
+  "segment 147: master paragraphs with no published counterpart ['For information about using indirect hypnotic language patterns, such as pacing,']; published ones with none in the master ['Phillips and Frederick, pp.53–57 and 96–100, explain pacing, utilization, metaph']",
+  "segment 149: master paragraphs with no published counterpart ['Some of the information in this post comes from *Healing the Divided Self*, Phil']; published ones with none in the master ['Healing the Divided Self, pp.148–153 and 171–174, discusses renurturing, somatic']"
+ ],
+ "islands_verify": "PASS: 8 islands byte-for-byte and in order",
+ "prose_check": "PASS: 30362 words, the same as the master's text blocks, in order",
+ "links": {
+  "master_links": 43,
+  "missing": []
+ },
+ "carried_formatting": [
+  {
+   "segment": 0,
+   "how": "unchanged: the editor's markup",
+   "master": "This guide has an [app coming soon](http://innerself.love/)! Working hard!"
+  },
+  {
+   "segment": 6,
+   "how": "unchanged: the editor's markup",
+   "master": "Hello Lovey Bunny!"
+  },
+  {
+   "segment": 6,
+   "how": "blockquote",
+   "master": "I teach a self-hypnosis method that allows you to gather all of your attention, "
+  },
+  {
+   "segment": 9,
+   "how": "unchanged: the editor's markup",
+   "master": "APA Division 30 commonly defines hypnosis as focused attention, reduced peripher"
+  },
+  {
+   "segment": 9,
+   "how": "unchanged: the editor's markup",
+   "master": "And hypnosis as a therapy is as old as time itself. While the modern technique o"
+  },
+  {
+   "segment": 10,
+   "how": "unchanged: the editor's markup",
+   "master": "A line associated with the Silva Mind Control tradition says it plainly:"
+  },
+  {
+   "segment": 10,
+   "how": "unchanged: the editor's markup",
+   "master": "“If you don’t learn to control your mind, someone else will!”"
+  },
+  {
+   "segment": 10,
+   "how": "blockquote",
+   "master": "“If you don’t learn to control your mind, someone else will!”"
+  },
+  {
+   "segment": 12,
+   "how": "unchanged: the editor's markup",
+   "master": "I can tell you one shocking personal story that will make you never trust hypnot"
+  },
+  {
+   "segment": 12,
+   "how": "unchanged: the editor's markup",
+   "master": "My friend P. has a friend named V. V. is a 33rd-degree Free Mason. V. has the ab"
+  },
+  {
+   "segment": 14,
+   "how": "unchanged: the editor's markup",
+   "master": "[My dad](http://utopia.u-dont-exist.com/) always said: “Always, and in everythin"
+  },
+  {
+   "segment": 14,
+   "how": "unchanged: the editor's markup",
+   "master": "Another quote I use all the time from my dad… when someone asks me “How’s it goi"
+  },
+  {
+   "segment": 14,
+   "how": "unchanged: the editor's markup",
+   "master": "Try it out right now and see how it feels!"
+  },
+  {
+   "segment": 15,
+   "how": "unchanged: the editor's markup",
+   "master": "The Buddha also taught that the important thing is always to come back to mindfu"
+  },
+  {
+   "segment": 16,
+   "how": "blockquote",
+   "master": "Don’t use self-hypnosis to: force yourself to remember trauma, force yourself to"
+  },
+  {
+   "segment": 18,
+   "how": "unchanged: the editor's markup",
+   "master": "I also got stronger results when I practiced immediately after sky hypnosis:"
+  },
+  {
+   "segment": 20,
+   "how": "blockquote",
+   "master": "Working with parts gives you precision, and working with the Higher Self gives y"
+  },
+  {
+   "segment": 20,
+   "how": "blockquote",
+   "master": "a) Invoke the subconscious in some way. Something simple like ‘Hello, wise subco"
+  },
+  {
+   "segment": 20,
+   "how": "blockquote",
+   "master": "b) Move into differentiation. “Which part is afraid? Which part wants to protect"
+  },
+  {
+   "segment": 20,
+   "how": "blockquote",
+   "master": "c) Move back into unity again. “And all of these parts belong to the one life, a"
+  },
+  {
+   "segment": 21,
+   "how": "blockquote",
+   "master": "Start like this: ‘I’m approaching this from the universal heart. I’m approaching"
+  },
+  {
+   "segment": 21,
+   "how": "blockquote",
+   "master": "When something specific comes up, that’s the time to sort out what it is. “Is th"
+  },
+  {
+   "segment": 23,
+   "how": "list item (ol)",
+   "master": "First, access your witnessing position if necessary, just noticing what’s there,"
+  },
+  {
+   "segment": 23,
+   "how": "new paragraph kept in the list",
+   "master": "If you have a safe adult in your life, you can borrow from them. If not, borrow "
+  },
+  {
+   "segment": 23,
+   "how": "list item (ol)",
+   "master": "Next, put on your adult hat as if you are an apprentice adult, and pick the word"
+  },
+  {
+   "segment": 23,
+   "how": "list item (ol)",
+   "master": "Last, return the adult hat, noticing what you borrowed and what you were able to"
+  },
+  {
+   "segment": 24,
+   "how": "blockquote",
+   "master": "\"It is okay for a younger part of me to talk. I understand that the adult in me "
+  },
+  {
+   "segment": 25,
+   "how": "blockquote",
+   "master": "You could say something like, \"Okay. I believe that you don't believe me. I stil"
+  },
+  {
+   "segment": 28,
+   "how": "blockquote",
+   "master": "Affirmations might be helpful here, too: “We’re not just here to feel good. We’r"
+  },
+  {
+   "segment": 29,
+   "how": "the master's own list (ol)",
+   "master": "1. orient yourself (look around, feel the support around you, etc.)"
+  },
+  {
+   "segment": 29,
+   "how": "the master's own list (ol)",
+   "master": "2. assess the situation (know what you know, what you don’t know and check out w"
+  },
+  {
+   "segment": 29,
+   "how": "the master's own list (ol)",
+   "master": "3. differentiate between actual/real danger, unknown, past or imagined dangers"
+  },
+  {
+   "segment": 29,
+   "how": "the master's own list (ol)",
+   "master": "4. set boundaries (start with one and keep it in proportion to the danger; move,"
+  },
+  {
+   "segment": 29,
+   "how": "the master's own list (ol)",
+   "master": "5. verify if it is safe enough (you don't need perfect certainty, just enough re"
+  },
+  {
+   "segment": 29,
+   "how": "the master's own list (ol)",
+   "master": "6. stand down and rest (stop scanning once staying on alert isn't helping anymor"
+  },
+  {
+   "segment": 31,
+   "how": "list item (ol)",
+   "master": "B. Look at what's there before judging or deciding what it is."
+  },
+  {
+   "segment": 31,
+   "how": "list item (ol)",
+   "master": "C. Ask them what you can do or if you can move closer to them. Even if you feel "
+  },
+  {
+   "segment": 31,
+   "how": "list item (ol)",
+   "master": "D. Give them what you can: pick a need and do the smallest thing that would help"
+  },
+  {
+   "segment": 34,
+   "how": "list item (ul)",
+   "master": "You agree with people in the moment but when you are by yourself you realize tha"
+  },
+  {
+   "segment": 34,
+   "how": "list item (ul)",
+   "master": "You take responsibility for the emotions of others, at the expense of yourself"
+  },
+  {
+   "segment": 34,
+   "how": "new paragraph kept in the list",
+   "master": "When you try to love yourself, it feels more like a show"
+  },
+  {
+   "segment": 34,
+   "how": "new paragraph kept in the list",
+   "master": "When you try to find out how your inner child feels, you feel that you are guess"
+  },
+  {
+   "segment": 34,
+   "how": "list item (ul)",
+   "master": "You can rebel, but you can’t choose yet"
+  },
+  {
+   "segment": 34,
+   "how": "blockquote",
+   "master": "Where am I betraying myself in order to belong?"
+  },
+  {
+   "segment": 35,
+   "how": "blockquote",
+   "master": "“You will soon realize that I am right…” Or “You may, in time, decide to admit t"
+  },
+  {
+   "segment": 36,
+   "how": "list item (ul)",
+   "master": "4) Including any concepts that may make a subject think they must obey, or take "
+  },
+  {
+   "segment": 37,
+   "how": "the master's own list (ol)",
+   "master": "1. Read through the induction, and the Come all the way back section, when you'r"
+  },
+  {
+   "segment": 37,
+   "how": "the master's own list (ol)",
+   "master": "2. Get clear on what it is you want to do during the induction. What are you lea"
+  },
+  {
+   "segment": 37,
+   "how": "the master's own list (ol)",
+   "master": "3. Put yourself in a place where you can safely do this, which is not: driving a"
+  },
+  {
+   "segment": 37,
+   "how": "the master's own list (ol)",
+   "master": "4. Deciding to do it: how will you coax yourself to do this? Make it spacious? M"
+  },
+  {
+   "segment": 37,
+   "how": "the master's own list (ol)",
+   "master": "5. If you are new to this or haven't done it for a while, work on the coming in "
+  },
+  {
+   "segment": 37,
+   "how": "the master's own list (ol)",
+   "master": "6. Let your response guide you as to what to do next regardless of what the scri"
+  },
+  {
+   "segment": 38,
+   "how": "blockquote",
+   "master": "Let your eyes rest on something in the room for a bit, maybe a doorknob or a spo"
+  },
+  {
+   "segment": 38,
+   "how": "new paragraph kept in the blockquote",
+   "master": "You can allow yourself to notice something you can feel, like the sensation of s"
+  },
+  {
+   "segment": 38,
+   "how": "new paragraph kept in the blockquote",
+   "master": "Allow yourself some time to do this."
+  },
+  {
+   "segment": 38,
+   "how": "new paragraph kept in the blockquote",
+   "master": "You might notice yourself thinking, and whenever you notice yourself thinking, y"
+  },
+  {
+   "segment": 38,
+   "how": "blockquote",
+   "master": "You might notice something that holds your interest, something about the sound, "
+  },
+  {
+   "segment": 38,
+   "how": "blockquote",
+   "master": "Allow yourself some time to do this, as much time as you would for someone you c"
+  },
+  {
+   "segment": 38,
+   "how": "blockquote",
+   "master": "Repeat the phrase that you chose, if you want to. Say it as an invitation and no"
+  },
+  {
+   "segment": 38,
+   "how": "new paragraph kept in the blockquote",
+   "master": "You can close your eyes now if you want to. If not, it's fine to keep them open,"
+  },
+  {
+   "segment": 38,
+   "how": "new paragraph kept in the blockquote",
+   "master": "Count 5 to 1, taking your time if you like."
+  },
+  {
+   "segment": 38,
+   "how": "the master's own list (ol)",
+   "master": "5. Let your attention come back to your chosen anchor. 4. Let more of your atten"
+  },
+  {
+   "segment": 38,
+   "how": "blockquote",
+   "master": "Bring to mind, if you want, the thing that you want to talk about, or just the w"
+  },
+  {
+   "segment": 38,
+   "how": "blockquote",
+   "master": "What do you notice now?"
+  },
+  {
+   "segment": 38,
+   "how": "new paragraph kept in the blockquote",
+   "master": "Let yourself notice what comes to you, if anything. It may not be clear yet what"
+  },
+  {
+   "segment": 38,
+   "how": "blockquote",
+   "master": "Let yourself take your time to notice, with or without words."
+  },
+  {
+   "segment": 39,
+   "how": "blockquote",
+   "master": "Know that you're already open, you just need to aim and stabilize it, and keep i"
+  },
+  {
+   "segment": 39,
+   "how": "blockquote",
+   "master": "\"Please show me the next truth. The next symbol or feeling. The question or acti"
+  },
+  {
+   "segment": 40,
+   "how": "blockquote",
+   "master": "Ask for any diffuse benefits to become more practically focused: \"If this is gui"
+  },
+  {
+   "segment": 43,
+   "how": "blockquote",
+   "master": "“Okay, open your eyes and come back up. Feel the room around you. You can decide"
+  },
+  {
+   "segment": 44,
+   "how": "blockquote",
+   "master": "Allow your attention to gather, if it will be of use to you. If it won’t be of u"
+  },
+  {
+   "segment": 44,
+   "how": "blockquote",
+   "master": "Who or what needs to talk first?"
+  },
+  {
+   "segment": 45,
+   "how": "blockquote",
+   "master": "“As you wait, you release the responsibility of making anything happen."
+  },
+  {
+   "segment": 46,
+   "how": "blockquote",
+   "master": "Give your cue the meaning you choose: “When I pick the time and place (an approp"
+  },
+  {
+   "segment": 48,
+   "how": "blockquote",
+   "master": "“I am not leaving life; I am listening more deeply to life."
+  },
+  {
+   "segment": 48,
+   "how": "blockquote",
+   "master": "I invoke my Higher Self, universal heart-mind, wise subconscious mind, intellige"
+  },
+  {
+   "segment": 48,
+   "how": "blockquote",
+   "master": "Internally say, “Tell me what I need to know or ask me what you need to know and"
+  },
+  {
+   "segment": 51,
+   "how": "blockquote",
+   "master": "\"I notice the tightness, and I can just leave it like that. Then again, is that "
+  },
+  {
+   "segment": 53,
+   "how": "blockquote",
+   "master": "You can say, \"I can let this much be here, and notice what's supporting me right"
+  },
+  {
+   "segment": 58,
+   "how": "blockquote",
+   "master": "“Dear Wise Subconscious Mind, if there is something you know that my conscious s"
+  },
+  {
+   "segment": 66,
+   "how": "blockquote",
+   "master": "What do you say to yourself in that moment? “If it’s real, it’ll still be here a"
+  },
+  {
+   "segment": 67,
+   "how": "blockquote",
+   "master": "“What if you didn’t try to improve the practice?” Put one hand on your heart and"
+  },
+  {
+   "segment": 69,
+   "how": "unchanged: the editor's markup",
+   "master": "Don’t pry."
+  },
+  {
+   "segment": 69,
+   "how": "unchanged: the editor's markup",
+   "master": "“Show me the capacity before the content.”"
+  },
+  {
+   "segment": 69,
+   "how": "blockquote",
+   "master": "“Show me the capacity before the content.”"
+  },
+  {
+   "segment": 71,
+   "how": "unchanged: the editor's markup",
+   "master": "“Where has divine love not yet descended into the wound?”"
+  },
+  {
+   "segment": 71,
+   "how": "blockquote",
+   "master": "“Where has divine love not yet descended into the wound?”"
+  },
+  {
+   "segment": 72,
+   "how": "blockquote",
+   "master": "What would the Guide choose to do now?"
+  },
+  {
+   "segment": 74,
+   "how": "list item (ul)",
+   "master": "Don’t view your inner experiences as commands or proof. They’re internal happeni"
+  },
+  {
+   "segment": 74,
+   "how": "new paragraph kept in the list",
+   "master": "Don’t go seeking “downloads” of information, or make a hobby of demons/jinn/Unat"
+  },
+  {
+   "segment": 74,
+   "how": "list item (ul)",
+   "master": "Don’t do self-hypnosis while driving, bathing, swimming, operating any equipment"
+  },
+  {
+   "segment": 74,
+   "how": "new paragraph kept in the list",
+   "master": "Don’t try to “force” memories, to use trance to “prove” something happened to yo"
+  },
+  {
+   "segment": 74,
+   "how": "new paragraph kept in the list",
+   "master": "Don’t force yourself to ignore your body’s needs, such as eating when hungry, re"
+  },
+  {
+   "segment": 74,
+   "how": "new paragraph kept in the list",
+   "master": "Don’t “extend” the duration of altered states indefinitely."
+  },
+  {
+   "segment": 74,
+   "how": "list item (ul)",
+   "master": "Don’t allow your inner roles to get out of proportion (e.g., letting your inner "
+  },
+  {
+   "segment": 74,
+   "how": "list item (ul)",
+   "master": "Don’t use NLP techniques to force down guard parts, to give yourself certainty y"
+  },
+  {
+   "segment": 74,
+   "how": "list item (ul)",
+   "master": "Don’t consider negative indicators (doubt, distraction, resistance, lack of resp"
+  },
+  {
+   "segment": 74,
+   "how": "list item (ul)",
+   "master": "Don’t rely upon the safety of your unconscious mind as the only safety factor in"
+  },
+  {
+   "segment": 74,
+   "how": "list item (ul)",
+   "master": "Don’t believe that normal physical sensations are indications of hidden trauma, "
+  },
+  {
+   "segment": 80,
+   "how": "bold lead-in",
+   "master": "Role: Who or what are you talking to?"
+  },
+  {
+   "segment": 80,
+   "how": "list item (ol)",
+   "master": "Role: Who or what are you talking to?"
+  },
+  {
+   "segment": 80,
+   "how": "new paragraph kept in the list",
+   "master": "Context: Give some context so it knows what you’re talking about."
+  },
+  {
+   "segment": 80,
+   "how": "bold lead-in",
+   "master": "Intention: What do you want to change or accomplish?"
+  },
+  {
+   "segment": 80,
+   "how": "list item (ol)",
+   "master": "Intention: What do you want to change or accomplish?"
+  },
+  {
+   "segment": 80,
+   "how": "bold lead-in",
+   "master": "Constraint: What do you need to do to make sure your question is safe, true, kin"
+  },
+  {
+   "segment": 80,
+   "how": "list item (ol)",
+   "master": "Constraint: What do you need to do to make sure your question is safe, true, kin"
+  },
+  {
+   "segment": 80,
+   "how": "bold lead-in",
+   "master": "Output: How do you want to receive the answer? As an image, phrase, sensation in"
+  },
+  {
+   "segment": 80,
+   "how": "list item (ol)",
+   "master": "Output: How do you want to receive the answer? As an image, phrase, sensation in"
+  },
+  {
+   "segment": 80,
+   "how": "bold lead-in",
+   "master": "Evaluation: How are you going to evaluate the answer? How will you know if it’s "
+  },
+  {
+   "segment": 80,
+   "how": "list item (ol)",
+   "master": "Evaluation: How are you going to evaluate the answer? How will you know if it’s "
+  },
+  {
+   "segment": 80,
+   "how": "blockquote",
+   "master": "“If you need more time or the best and safest answer is silence, then I ask you "
+  },
+  {
+   "segment": 81,
+   "how": "blockquote",
+   "master": "For getting clarity: “I ask you, my wise subconscious mind, to show me what is t"
+  },
+  {
+   "segment": 81,
+   "how": "blockquote",
+   "master": "When you experience resistance: “What are you protecting me from? What would hel"
+  },
+  {
+   "segment": 81,
+   "how": "blockquote",
+   "master": "When you want to ask your inner child something: “What do you want me to know? W"
+  },
+  {
+   "segment": 81,
+   "how": "blockquote",
+   "master": "When you want to ask your Guide: “What direction is the most in alignment with t"
+  },
+  {
+   "segment": 81,
+   "how": "blockquote",
+   "master": "When you want to listen to your intuition: “I ask my intuition to give me a sign"
+  },
+  {
+   "segment": 81,
+   "how": "blockquote",
+   "master": "When you want to know if a particular intuition you have is coming from your uni"
+  },
+  {
+   "segment": 84,
+   "how": "blockquote",
+   "master": "‘As my body begins to notice the sensation of the bed underneath it, it may be p"
+  },
+  {
+   "segment": 85,
+   "how": "blockquote",
+   "master": "It might go something like this: ‘It is completely true that the sensation of __"
+  },
+  {
+   "segment": 86,
+   "how": "blockquote",
+   "master": "Example: ‘Notice how the answer comes to you… maybe as an image, or a word… mayb"
+  },
+  {
+   "segment": 88,
+   "how": "blockquote",
+   "master": "We can use this technique to support communion and agency: “As I breathe, my adu"
+  },
+  {
+   "segment": 89,
+   "how": "blockquote",
+   "master": "With your inner child, it could be: \"My little one doesn't have to trust me all "
+  },
+  {
+   "segment": 93,
+   "how": "blockquote",
+   "master": "\"A bit more safety can come to me in whatever way my body understands.\""
+  },
+  {
+   "segment": 94,
+   "how": "blockquote",
+   "master": "When something sounds true but vague, ask: \"What do you mean, specifically? Acco"
+  },
+  {
+   "segment": 96,
+   "how": "blockquote",
+   "master": "\"And I can allow myself to know that I am not deleting the message, just turning"
+  },
+  {
+   "segment": 96,
+   "how": "blockquote",
+   "master": "\"Is it ok to move that image back a couple of feet and turn the volume down a bi"
+  },
+  {
+   "segment": 99,
+   "how": "list item (ol)",
+   "master": "Use that stimulation to feel your feet, your body, your breathing, your room."
+  },
+  {
+   "segment": 99,
+   "how": "new paragraph kept in the list",
+   "master": "Reiterate to yourself that whenever you notice a synchronicity, it is just a bel"
+  },
+  {
+   "segment": 99,
+   "how": "new paragraph kept in the list",
+   "master": "Ask yourself: \"What does my Nurturer think about this?\", \"What does my Protector"
+  },
+  {
+   "segment": 99,
+   "how": "list item (ol)",
+   "master": "Rehearse going back to a more grounded state and to a wider view of the situatio"
+  },
+  {
+   "segment": 101,
+   "how": "blockquote",
+   "master": "I go through four positions: 1) seeing from Self (what do I feel from inside mys"
+  },
+  {
+   "segment": 106,
+   "how": "list item (ol)",
+   "master": "Induce yourself (meaning gather your attention into a soft focus) or contain you"
+  },
+  {
+   "segment": 106,
+   "how": "bold first sentence (the list's style)",
+   "master": "Ask yourself for permission: is it useful to work with this pattern today?"
+  },
+  {
+   "segment": 106,
+   "how": "list item (ol)",
+   "master": "Ask yourself for permission: is it useful to work with this pattern today?"
+  },
+  {
+   "segment": 107,
+   "how": "blockquote",
+   "master": "If what you’re investigating is true, it can take your questioning (as the polic"
+  },
+  {
+   "segment": 107,
+   "how": "blockquote",
+   "master": "A good guide will make your adult self stronger. A bad guide will try to make yo"
+  },
+  {
+   "segment": 116,
+   "how": "blockquote",
+   "master": "If you’re there, little one, I’m here. Thank you, guard, for letting me know you"
+  },
+  {
+   "segment": 117,
+   "how": "blockquote",
+   "master": "How do you know which it is? Simply ask yourself if the daydreaming is taking yo"
+  },
+  {
+   "segment": 118,
+   "how": "blockquote",
+   "master": "That said, self hypnosis may be the best way of talking to your subconscious on "
+  },
+  {
+   "segment": 119,
+   "how": "the master's own list (ul)",
+   "master": "- What they are trained in (what they can treat)"
+  },
+  {
+   "segment": 119,
+   "how": "the master's own list (ul)",
+   "master": "- How they use hypnosis"
+  },
+  {
+   "segment": 119,
+   "how": "the master's own list (ul)",
+   "master": "- What they will do if a suggestion doesn't fit you"
+  },
+  {
+   "segment": 119,
+   "how": "the master's own list (ul)",
+   "master": "- If they are treating trauma, whether they have specific training in trauma and"
+  },
+  {
+   "segment": 119,
+   "how": "the master's own list (ul)",
+   "master": "- What has/hasn't worked for you in the past"
+  },
+  {
+   "segment": 119,
+   "how": "the master's own list (ul)",
+   "master": "- How direct you want them to be"
+  },
+  {
+   "segment": 119,
+   "how": "the master's own list (ul)",
+   "master": "- What kind of touch (if any) you are ok with"
+  },
+  {
+   "segment": 119,
+   "how": "the master's own list (ul)",
+   "master": "- What kind of imagery (if any) you are ok with"
+  },
+  {
+   "segment": 119,
+   "how": "the master's own list (ul)",
+   "master": "- What you want them to do if you want them to stop"
+  },
+  {
+   "segment": 119,
+   "how": "the master's own list (ul)",
+   "master": "- What they will do if something unexpected happens during or after the session"
+  },
+  {
+   "segment": 119,
+   "how": "the master's own list (ul)",
+   "master": "- What they do if you aren't sure if something is a memory or not"
+  },
+  {
+   "segment": 119,
+   "how": "the master's own list (ul)",
+   "master": "- How they will do the full return (coming out of hypnosis) at the end of the se"
+  },
+  {
+   "segment": 122,
+   "how": "blockquote",
+   "master": "You might say to the part of you that got hurt, “I’m not going to use spiritual "
+  },
+  {
+   "segment": 123,
+   "how": "blockquote",
+   "master": "Do not use altered states to try to force yourself to get to a certain revelatio"
+  },
+  {
+   "segment": 123,
+   "how": "blockquote",
+   "master": "Help me to become more grounded. Help me to only take what I can integrate. Help"
+  },
+  {
+   "segment": 124,
+   "how": "unchanged: the editor's markup",
+   "master": "“What kind of problem is happening?”"
+  },
+  {
+   "segment": 124,
+   "how": "blockquote",
+   "master": "“What kind of problem is happening?”"
+  },
+  {
+   "segment": 127,
+   "how": "blockquote",
+   "master": "Tell yourself, “If this can be integrated in this moment, it’s welcome. If not, "
+  },
+  {
+   "segment": 129,
+   "how": "blockquote",
+   "master": "So the next time it comes up, you can just say, “I see that there is no reason t"
+  },
+  {
+   "segment": 131,
+   "how": "blockquote",
+   "master": "The General Rule is: if you find that what you're doing is making you more lovin"
+  }
+ ],
+ "objects": {
+  "count": 8,
+  "types": [
+   "image",
+   "subscribe",
+   "share",
+   "youtube",
+   "image",
+   "substack_video_post_embed",
+   "image",
+   "substack_video_post_embed"
+  ]
+ },
+ "out": {
+  "path": "/home/claude/ja-community/articles/inner-signal/humanize/fix-20261103/free-whole-2/ARCHIVAL-SUBSTACK-20261103b.html",
+  "sha256": "4caff48c441e2bdee4708323b6aa5cfbfa91dad075dbbc806e07bc5335bd065b"
+ },
+ "verdict": "PASS"
+}

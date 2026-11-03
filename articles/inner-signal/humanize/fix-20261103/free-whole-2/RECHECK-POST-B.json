@@ -1,0 +1,29 @@
+{
+ "commit": "1029816ad22a3c6795fe54dd16746331aba8f051",
+ "how": "cleared through the editor's own API (editor.commands.clearContent, after checking the title), then fix-20261022/screen/paste_payload_lane.js (the payload fetched from raw.githubusercontent.com at the commit, its SHA-256 checked); the draft API's saved body holds the new words; the secret link by the draft's uuid (the substack_secret_link.js steps), opened and read with the substack_rendered_check.js walk",
+ "draft": 221412532,
+ "title": "TEMP recheck B (hypnosis guide appendices) - do not publish",
+ "link": "https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-1103b&audience=only_paid&free_preview=false&freemail=",
+ "payload_sha256": "d1d5de958f635f6dc0301c905bacab9b6d94fff9865116b01a0cf64e1918d63d",
+ "editor_words": 11942,
+ "payload_words": 11917,
+ "editor_words_note": "+25, as every paste of part B",
+ "first_save": "the first paste's save failed (PUT 520, the editor's \"Network Error\"; the saved body stayed the cleared one, 74 characters); cleared again through the editor's API, pasted again, saved (200)",
+ "draft_updated_at": "2026-11-03T11:41:28.369Z",
+ "is_published": false,
+ "saved_body_checked": [
+  "32a and batch l1103 in (\"you need both kinds of language\", \"When something sounds true but vague, ask:\", \"you tap gently on your body while you say something like\", \"one of the first-line therapies for anxiety\")",
+  "the old words gone (\"You need both to be ethical with people, so when\", \"One of the easiest ways to do EFT\", \"Clearly, that sends you deeper\", \"A good guide can take no.\")"
+ ],
+ "rendered": {
+  "lines": 244,
+  "code_points": 63638,
+  "sha256": "7d0ef60a3682128e8059b2e99c630346a19a5c2d2c5cfbbe2607f3c952f82241",
+  "equals_TEXT_B": false,
+  "equals_RENDERED_B": true,
+  "differences_from_TEXT_B": [
+   "the embedded card's line \"Quick Triage Web-App Version HERE\"",
+   "two opening quotes after \"(\" curled as closing ones by the editor, as every time"
+  ]
+ }
+}

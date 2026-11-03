@@ -1,5 +1,43 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-11-03, after Joel's message of 11:19 UTC: the third free check read (no AI window); 31a and 32a in; batch l1103 in the fourth free check; one card
+
+His message (`fix-20261103/free-whole/joel-20261103-1119-message.txt`): "31a 32a" and the third free check's two result
+pages. **The mailbox first** (`state/MAILBOX.json`, "2026-11-03 11:19"): pull request 273 merged by him at 11:17 UTC;
+nothing else new; the live AGENTS.md is unchanged (5160080, with its "Say each thing once" rule, which the local checkout
+lacks).
+
+**The third free check, read** (`fix-20261103/free-whole/read/`: WINDOWS-A/B.txt and META-A/B.json from the pages in
+compact mode, each SHA-256 the page's; make_results.py, RESULT-A/B.json; read_free1103.py, WINDOWS.md, which now leaves
+headings out when it finds a window in the guide, as the check does): part A Human Written, fraction AI 6.4e-8, 100
+windows, none AI (50 High, 47 Medium, 3 Low); part B Human Written, 7.6e-9, 30 windows, none AI (15 High, 13 Medium,
+2 Low). HG-whole#273 and HG-rest-B#274 missed (both called AI at 0.3 and 0.35; explained: pessimism about cuts). Low:
+his "You don't have to work to explain anything." (Don't rush the repair); ours in Let the next response guide you, the
+15-minute practice, Pattern 10 and EFT tapping.
+
+**31a and 32a** (`fix-20261103/answers-q31-32/apply_q31_q32.py`, APPLIED-Q31-Q32.json, read record; comparison gate PASS;
+7e77327d to e4c620ed): "as you breathe out"; P6-05, P5a-02, P5a-03 and P5b-02 cut.
+
+**Batch l1103** (`fix-20261103/l1103/fixes_l1103.py`, lint/): F-320, F-356, F-522/F-523, F-610 (with F-610b, which joins
+EFT's stranded last sentence, left by cut P5b-04, back to the review sentence). Linted: REVIEW only, but for an E125 FAIL
+on the 15-minute practice's unchanged last sentence, a misread (no list of three). Not checked through the API: for
+these windows the stretch check didn't predict the whole (F-361 and F-528), so the fourth free check decides. They are
+in `fix-20261103/free-whole-2/CANDIDATE-MASTER.md` (7dc2265c), not in the working copy.
+
+**The fourth free check** (`fix-20261103/free-whole-2/`: make_recheck.py with DATE 20261103b, merge PASS, payloads at
+1029816a): both drafts cleared through the editor's API, pasted, read back (RECHECK-POST-A/B.json). Draft B's first save
+failed (PUT 520, the editor's "Network Error", the saved body left empty); cleared and pasted again, saved. Part A's first
+99,999 characters equal TEXT-A.txt; part B equals RENDERED-B.txt (7d0ef60a). Predictions first: HG-whole#275 and
+HG-rest-B#276 (batch free1103b). The links wait on him.
+
+**Hypnosis Guide Cards, 3 November** (`fix-20261103/c1103/build_page_c1103.py`, REVIEW-C1103.*; published at
+https://claude.ai/artifact/C6K7XyKLdYGBD2nx3MBe9S, capabilities db and downloads): one stretch of his to edit, E-157. The
+browser test (`tools/humanization/suggestion_review_browser_test.py`) now runs on a page with only stretches to edit:
+60 of 60 here; REVIEW-F1102.html still 82 of 82.
+
+Delegations (model, piece, check, outcome): none (every piece needed the app's browser or my reading of a flagged
+stretch).
+
 ## 2026-11-03, after Joel's answers of 00:39 UTC: his answers in; the whole guide read for overcompletion and cut; the free check pasted
 
 His message was his answers file for Hypnosis Guide Cards, 2 November (3) (`fix-20261103/answers-f1102/`:
