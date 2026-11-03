@@ -461,6 +461,36 @@
     }
    ],
    "recorded_utc": "2026-11-03T17:57Z"
+  },
+  {
+   "turn": "2026-11-03T21:00Z",
+   "lines_of_work": [
+    "inner child guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "2 items in suggested-fixes/joel-articles/ (2026-09-30-claim-checks-for-reviews.md, 2026-10-31-mailbox-every-turn.md), both already in docs/suggested-fixes-ledger.md; no new item"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since turn 115 (2026-10-26): pull requests 256 to 281 from the other lanes, 278 (the Inner Child real-life chapter's structure, the other chat's; its result is in his ODT, read this turn) and 280 (Bad Trips) open; no new issues, comments or reviews; pull request 255 (this lane) open, no comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the handoff note's newest entry is turn 115, and no one else changed OWNER-QUESTIONS.md or HANDOFF-UPDATE.json since then"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-03T22:04Z"
   }
  ]
 }
