@@ -1,0 +1,35 @@
+[
+ {
+  "key": "p016",
+  "name": "B016 by itself, in his X-15 register",
+  "lineage": "ND1103-P016",
+  "scope": "paragraph",
+  "words": 45,
+  "call": "AI",
+  "chance": 0.35,
+  "why": "his terse label register (\"Stop use immediately if\", \"Do not attempt to\"), the reason in brackets; the symptom list is the post's, long",
+  "sha256": "6bfde8e279b27c822a944f415de7c47019264d3027f530240df14a3f87eef49f"
+ },
+ {
+  "key": "p017",
+  "name": "B017 by itself, in his X-15 register",
+  "lineage": "ND1103-P017",
+  "scope": "paragraph",
+  "words": 92,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "his register (\"Not to be used as\", \"do not combine with\", \"Use extra conservatively around\", \"and/or\"), reasons in brackets, but a long sentence of drug names and two technical reasons",
+  "sha256": "6af9693b0b09c113a10a33e4dd5c0163d86402fd8d16b6e77f20d8e18c18d6d7"
+ },
+ {
+  "key": "p085",
+  "name": "B085 by itself, in his X-15 register",
+  "lineage": "ND1103-P085",
+  "scope": "paragraph",
+  "words": 62,
+  "call": "AI",
+  "chance": 0.35,
+  "why": "his register (\"Most common is\", the mechanism in brackets, \"Stop if\"), the post's list of stop signs",
+  "sha256": "ba49692c9c50f1d4f69cdb1bb5fe24936297952e41194e0da092b6f3fd614969"
+ }
+]

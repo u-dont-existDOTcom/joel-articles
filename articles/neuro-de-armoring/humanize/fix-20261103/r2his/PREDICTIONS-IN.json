@@ -1,0 +1,23 @@
+{
+ "r2-V1": {
+  "name": "the agmatine and 5-HTP warnings around his X-15, second try: each phrase re-said",
+  "chance": 0.3,
+  "why": "the post's phrases re-said plainly (\"Don't think of these as\", \"how sensitive your brain is pretty quickly\", \"I'd be extra conservative\", \"more craving than usual\"), but the long drug and symptom lists stay, and the 5-HTP sentence is still a list after a rule",
+  "diagnosis": "try 1 kept the post's own phrases inside his sentence build and read 100% AI in one High window; his three versions re-said nearly every phrase in plain words of his own, so try 2 re-says each phrase, keeping every compound and warning word",
+  "decides": "whether re-saying each phrase, not only rebuilding the sentence, is what turns the warnings Human"
+ },
+ "r2-V2": {
+  "name": "the uridine section around his X-84, second try: each phrase re-said",
+  "chance": 0.25,
+  "why": "who it is for said as what it feels like (\"everything feels gray\"), Scott told as a story, \"I'm not saying everyone needs dopamine\", but the evidence paragraph is still three linked findings in a row and the section is long and dense",
+  "diagnosis": "try 1 kept the post's own phrases inside his sentence build and read 100% AI in one High window; try 2 re-says each phrase plainly, keeping every compound, link and warning word",
+  "decides": "whether re-saying each phrase carries a dense section with study findings"
+ },
+ "r2-V3": {
+  "name": "Psychology is the Software, the Role-Self part around his X-26, second try: the two AI windows re-said",
+  "chance": 0.45,
+  "why": "the Gibson sentence and the micro-dosing paragraphs, the two windows that read AI, are re-said (\"In [her book], psychologist Lindsay Gibson explains\", \"give up on the hour-long breakthrough for a while\", \"just gets flooded\"); the windows that read Human are unchanged; the heading is his and still a slogan",
+  "diagnosis": "try 1 read 40.9% AI: Human (High) where the post's sentences were joined his way, AI (Low) on the Gibson definition and the micro-dosing paragraphs, where the post's own phrases stayed",
+  "decides": "whether re-saying the two AI windows turns the whole stretch Human"
+ }
+}

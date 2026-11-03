@@ -18,6 +18,15 @@ judgment. This check is not:
 
 Dashes are made one kind and spaces are collapsed before matching, so "300–600 mg" and "300-600 mg" are the same number;
 "300 to 600 mg" is not, and a draft that writes it so fails until the master is read again. Exit 1 when anything is lost.
+
+The owner's own wording. When Joel rewrites a paragraph himself, his words are the protocol: "3 to 7 days" for "3–7 days",
+"Don't" for "Do not", "a physician competent to consider ..." for "clinician review". KEYS.json's "owner_wording" records
+each one, with where he wrote it, and the check reads his words as the master's: {"his": his words, "for": the master's
+words, "by": his answers file and card, "unit": a warning's id}. With "unit", his words are one more way to meet that
+warning's key "for" (and only that warning's); without it, they stand for a number or term anywhere in the draft ("Omega-3's"
+for "omega-3s"). An entry with no "by", or whose "for" is no key of its unit, is an error, so a slip in the file can't
+quietly pass a draft. `extract` keeps an existing file's owner_wording. "Don't" is read as "Do not" in any draft: they are
+the same words.
 """
 import argparse
 import collections
@@ -127,15 +136,46 @@ def extract(master):
             'terms': sorted(terms(text)), 'units': units}
 
 
+def owner_wording(keys):
+    """(substitutions, units): his words for a number or term, each (his, the master's) to put in the draft's text before
+    counting, and the warning units with his words added to the keys they meet. Raises ValueError on an entry that
+    names no source or no key of its unit."""
+    subs, units = [], [dict(u, keys=[list(k) for k in u['keys']]) for u in keys['units']]
+    by_id = {u['id']: u for u in units}
+    for w in keys.get('owner_wording', []):
+        if not str(w.get('by', '')).strip() or not w.get('his') or not w.get('for'):
+            raise ValueError('owner_wording entry without his words, the master\'s or where he wrote them: %r' % (w,))
+        if not w.get('unit'):
+            subs.append((norm(w['his']), norm(w['for'])))
+            continue
+        u = by_id.get(w['unit'])
+        hit = [k for k in (u['keys'] if u else []) if pk.normalize(w['for']) in {pk.normalize(x) for x in k}]
+        if not hit:
+            raise ValueError('owner_wording: %r is no key of %s' % (w['for'], w['unit']))
+        hit[0].append(w['his'])
+    return subs, units
+
+
 def check(keys, draft):
-    text = plain(draft)
+    subs, units = owner_wording(keys)
+    # "don't" is "do not", for the warning words and everything else (the same words, contracted)
+    subs.append(("don't", 'do not'))
+    subs.append(("Don't", 'Do not'))
+    for u in units:
+        u['keys'] = [[('do not' if pk.normalize(x) == "don't" else x) for x in k] for k in u['keys']]
+
+    def his(t):
+        for a, b in subs:
+            t = t.replace(a, b)
+        return t
+    text = his(plain(draft))
     have = collections.Counter(numbers(text))
     want = collections.Counter(keys['numbers'])
     lost_numbers = sorted((want - have).elements())
     new_numbers = sorted((have - want).elements())
     lost_terms = sorted(set(keys['terms']) - terms(text))
-    draft_paras = '\n\n'.join(plain(b) for b in re.split(r'\n\s*\n', draft))
-    lost_warnings = pk.check({'units': keys['units']}, draft_paras)
+    draft_paras = '\n\n'.join(his(plain(b)) for b in re.split(r'\n\s*\n', draft))
+    lost_warnings = pk.check({'units': units}, draft_paras)
     return {'numbers_lost': lost_numbers, 'numbers_new': new_numbers, 'terms_lost': lost_terms,
             'warnings_lost': lost_warnings,
             'pass': not (lost_numbers or new_numbers or lost_terms or lost_warnings)}
@@ -149,6 +189,9 @@ def main(argv=None):
     a = ap.parse_args(argv)
     if a.cmd == 'extract':
         k = extract(pathlib.Path(a.master).read_text(encoding='utf-8'))
+        old = pathlib.Path(a.out)
+        if old.exists() and json.loads(old.read_text(encoding='utf-8')).get('owner_wording'):
+            k['owner_wording'] = json.loads(old.read_text(encoding='utf-8'))['owner_wording']
         pathlib.Path(a.out).write_text(json.dumps(k, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
         print('numbers %d (%d distinct), terms %d, warning sentences %d' % (
             sum(k['numbers'].values()), len(k['numbers']), len(k['terms']), len(k['units'])))
