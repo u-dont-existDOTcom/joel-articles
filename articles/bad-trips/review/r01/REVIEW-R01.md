@@ -260,6 +260,18 @@ The page's cards as text, in the order of the guide. Built 2026-11-03 from [the 
 
 *Found by: reader C.*
 
+## Q-7: Charcoal: only after a recent oral ingestion? (Your call)
+
+*Actual Activated Charcoal, P2*
+
+**Question:** Checklist step 12 (stopping a trip) says "Charcoal belongs only in the separate recent-oral-ingestion branch." The gut tools use it outside that branch: "Activated charcoal can help gut toxicity, but it adsorbs drugs. Sometimes that is exactly the point.", "When the goal is to reduce drug absorption or stop a toxic gut situation, charcoal may be relevant.", and after a ferment, "which then requires activated charcoal to reduce gut histamine". (a) Limit the sentence to stopping a trip: "To stop a trip, charcoal belongs only in the separate recent-oral-ingestion branch."; (b) take that sentence out of step 12; (c) your words.
+
+**Why:** A reader who follows step 12 would never use charcoal for the gut problems the long part uses it for. Readers A and B each found this.
+
+**Until you answer:** Everything stays as it is until you answer.
+
+**My pick:** (b): step 12's next paragraph and step 10 already say when charcoal fits and when it is dangerous, so nothing is lost and the contradiction goes.
+
 ## RP-2: Beach morning glory repeats the brain-damage order (Said twice)
 
 *Beach Morning Glory — Ipomoea pes-caprae, P7*
@@ -412,6 +424,34 @@ The page's cards as text, in the order of the guide. Built 2026-11-03 from [the 
 
 **My pick:** (a): the checklist is the order the reader is told to follow; only the word order changes in the other three.
 
+## RP-23: The helper's Do and Don't lists: two lines said just above (Said twice)
+
+*Don’t, P3*
+
+**What changes:** "Speak slowly and use fewer words." goes from the Do list, and "Don’t crowd them with five worried friends." from the Don't list.
+
+**Now** (the words it changes in bold):
+
+> **Speak slowly and use fewer words.**
+
+**How it would read:** this paragraph goes.
+
+**Now** (the words it changes in bold):
+
+> **Don’t crowd them with five worried friends.**
+
+**How it would read:** this paragraph goes.
+
+**Why:** The First Five Minutes says the first word for word ("Ask before touching. Speak slowly and use fewer words. Please don’t explain the universe at somebody who is already frightened by it."), and Get One Human Anchor says the second with its reason ("A committee of frantic people rarely improves anyone’s nervous system."). Both repeat readers found both.
+
+**What stays:** The rest of both lists.
+
+**For you to weigh:** Whether you want the Do and Don't lists complete on their own, for a helper who reads only that section; then both lines stay.
+
+**My advice:** Approve.
+
+*Found by: readers A and B.*
+
 ## RP-11: "Nondual demonology", the same line twice (Said twice)
 
 *Don’t, P5*
@@ -505,6 +545,30 @@ The page's cards as text, in the order of the guide. Built 2026-11-03 from [the 
 **My advice:** Approve.
 
 *Found by: reader A.*
+
+## RP-22: The calm pet, twice in the Grounding Menu (Said twice)
+
+*Grounding Menu: Choose One or Two Things, P6*
+
+**What changes:** In the Body list, "or sit near a calm pet when that feels safe" goes; the item reads "Hold something with weight or texture."
+
+**Now** (the words it changes in bold):
+
+> Hold something with weight or texture**, or sit near a calm pet when that feels safe**.
+
+**How it would read:**
+
+> Hold something with weight or texture.
+
+**Why:** The next entry, A familiar object, says it with more care: "A calm pet can offer the same quiet company when the animal is comfortable and the situation is safe." Both repeat readers took that line as the home.
+
+**What stays:** The familiar-object entry, its pet line included.
+
+**For you to weigh:** Whether the pet belongs with the body practices rather than with the familiar object; then the other line goes instead.
+
+**My advice:** Approve.
+
+*Found by: readers A and B.*
 
 ## RP-8: The lead anchor's backup, in the menu again (Said twice)
 

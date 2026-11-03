@@ -9,7 +9,7 @@ INTRO = [
     'The first card is the one big question: how the quick version and the long version split the work. Most of the '
     'repetition is between the checklist, the Longer Triage and the long sections, so those cuts wait for your answer. '
     'The other cards are repeats and safety lines inside the long part, which come out whichever way you answer, and '
-    'six questions only you can answer (in five of them the guide says two things that don\'t fit together). Three '
+    'seven questions only you can answer (in six of them the guide says two things that don\'t fit together). Three '
     'fresh readers are reading the whole guide for this, two for repeats and one for safety lines: the cards come from '
     'my read, both repeat readers\' reports and the first half of the safety reader\'s, and every quote on them was '
     'checked against your text.',
@@ -356,6 +356,30 @@ card(id='RP-21', type='repeat', advice='approve', title='The planned-session lis
      deciding='Whether the one-line chain helps as a summary to remember.', advice_note='Approve.', found_by='reader A',
      edits=[cut_block(P('B369'))], spans=[whole(P('B369'))])
 
+card(id='RP-22', type='repeat', advice='approve', title='The calm pet, twice in the Grounding Menu',
+     what='In the Body list, "or sit near a calm pet when that feels safe" goes; the item reads "Hold something with weight or texture."',
+     why=('The next entry, A familiar object, says it with more care: "A calm pet can offer the same quiet company when the '
+          'animal is comfortable and the situation is safe." Both repeat readers took that line as the home.'),
+     stays='The familiar-object entry, its pet line included.',
+     deciding='Whether the pet belongs with the body practices rather than with the familiar object; then the other line goes instead.',
+     advice_note='Approve.', found_by='readers A and B',
+     edits=[replace_words(P('B298', 2), 'Hold something with weight or texture, or sit near a calm pet when that feels safe.',
+                          'Hold something with weight or texture.')],
+     spans=[span_of(P('B298', 2), ', or sit near a calm pet when that feels safe')])
+
+card(id='RP-23', type='repeat', advice='approve', title='The helper\'s Do and Don\'t lists: two lines said just above',
+     what='"Speak slowly and use fewer words." goes from the Do list, and "Don’t crowd them with five worried friends." from the Don\'t list.',
+     why=('The First Five Minutes says the first word for word ("Ask before touching. Speak slowly and use fewer words. Please '
+          'don’t explain the universe at somebody who is already frightened by it."), and Get One Human Anchor says the second '
+          'with its reason ("A committee of frantic people rarely improves anyone’s nervous system."). Both repeat readers '
+          'found both.'),
+     stays='The rest of both lists.',
+     deciding=('Whether you want the Do and Don\'t lists complete on their own, for a helper who reads only that section; then '
+               'both lines stay.'),
+     advice_note='Approve.', found_by='readers A and B',
+     edits=[cut_block(P('B282', 0)), cut_block(P('B284', 2))],
+     spans=[whole(P('B282', 0)), whole(P('B284', 2))], card_after=P('B284', 2))
+
 # ---------------------------------------------------------------- questions only you can answer
 
 card(id='Q-1', type='question', advice='ask', title='Humic acid: lick it first, or smell it first?',
@@ -432,3 +456,21 @@ card(id='Q-6', type='question', advice='ask', title='Ocean water and charcoal wa
      advice_note='(a): it takes one item out of that list and keeps both sections as you wrote them.',
      spans=[span_of(P('B188'), 'aged ozonated-charcoal water'), span_of(P('B190'), 'These work similarly to ocean water.')],
      card_after=P('B190'))
+
+card(id='Q-7', type='question', advice='ask', title='Charcoal: only after a recent oral ingestion?',
+     question=('Checklist step 12 (stopping a trip) says "Charcoal belongs only in the separate recent-oral-ingestion branch." '
+               'The gut tools use it outside that branch: "Activated charcoal can help gut toxicity, but it adsorbs drugs. '
+               'Sometimes that is exactly the point.", "When the goal is to reduce drug absorption or stop a toxic gut '
+               'situation, charcoal may be relevant.", and after a ferment, "which then requires activated charcoal to reduce '
+               'gut histamine". (a) Limit the sentence to stopping a trip: "To stop a trip, charcoal belongs only in the '
+               'separate recent-oral-ingestion branch."; (b) take that sentence out of step 12; (c) your words.'),
+     why=('A reader who follows step 12 would never use charcoal for the gut problems the long part uses it for. Readers A '
+          'and B each found this.'),
+     stays='Everything stays as it is until you answer.',
+     advice_note=('(b): step 12\'s next paragraph and step 10 already say when charcoal fits and when it is dangerous, so '
+                  'nothing is lost and the contradiction goes.'),
+     spans=[span_of(P('B54'), 'Charcoal belongs only in the separate recent-oral-ingestion branch.'),
+            span_of(P('B154'), 'which then requires activated charcoal to reduce gut histamine'),
+            span_of(P('B160'), 'Activated charcoal can help gut toxicity'),
+            span_of(P('B161'), 'or stop a toxic gut situation, charcoal may be relevant')],
+     card_after=P('B161'))

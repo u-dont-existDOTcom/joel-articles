@@ -4,7 +4,7 @@
  "title": "Bad Trips Guide, Round 1",
  "intro": [
   "This is your whole Bad Trips guide as it is published today (it matches the editor HTML you pasted, block for block), with my suggestions marked where they apply. Nothing changes until you approve it.",
-  "The first card is the one big question: how the quick version and the long version split the work. Most of the repetition is between the checklist, the Longer Triage and the long sections, so those cuts wait for your answer. The other cards are repeats and safety lines inside the long part, which come out whichever way you answer, and six questions only you can answer (in five of them the guide says two things that don't fit together). Three fresh readers are reading the whole guide for this, two for repeats and one for safety lines: the cards come from my read, both repeat readers' reports and the first half of the safety reader's, and every quote on them was checked against your text.",
+  "The first card is the one big question: how the quick version and the long version split the work. Most of the repetition is between the checklist, the Longer Triage and the long sections, so those cuts wait for your answer. The other cards are repeats and safety lines inside the long part, which come out whichever way you answer, and seven questions only you can answer (in six of them the guide says two things that don't fit together). Three fresh readers are reading the whole guide for this, two for repeats and one for safety lines: the cards come from my read, both repeat readers' reports and the first half of the safety reader's, and every quote on them was checked against your text.",
   "Pangram (your extension, on the published post) reads the guide as AI overall. The full analysis didn't open from here, so there are no window readings on this page yet. Humanizing starts once the structure is settled, so no work goes into paragraphs that are about to be cut."
  ],
  "git_file": "articles/bad-trips/review/r01/REVIEW-R01.html",
@@ -862,6 +862,69 @@
    ]
   },
   {
+   "id": "RP-22",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "The calm pet, twice in the Grounding Menu",
+   "what": "In the Body list, \"or sit near a calm pet when that feels safe\" goes; the item reads \"Hold something with weight or texture.\"",
+   "why": "The next entry, A familiar object, says it with more care: \"A calm pet can offer the same quiet company when the animal is comfortable and the situation is safe.\" Both repeat readers took that line as the home.",
+   "stays": "The familiar-object entry, its pet line included.",
+   "deciding": "Whether the pet belongs with the body practices rather than with the familiar object; then the other line goes instead.",
+   "advice_note": "Approve.",
+   "found_by": "readers A and B",
+   "edits": [
+    {
+     "block": 373,
+     "before": "Hold something with weight or texture, or sit near a calm pet when that feels safe.",
+     "after": "Hold something with weight or texture."
+    }
+   ],
+   "spans": [
+    {
+     "block": 373,
+     "start": 37,
+     "end": 82
+    }
+   ]
+  },
+  {
+   "id": "RP-23",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "The helper's Do and Don't lists: two lines said just above",
+   "what": "\"Speak slowly and use fewer words.\" goes from the Do list, and \"Don’t crowd them with five worried friends.\" from the Don't list.",
+   "why": "The First Five Minutes says the first word for word (\"Ask before touching. Speak slowly and use fewer words. Please don’t explain the universe at somebody who is already frightened by it.\"), and Get One Human Anchor says the second with its reason (\"A committee of frantic people rarely improves anyone’s nervous system.\"). Both repeat readers found both.",
+   "stays": "The rest of both lists.",
+   "deciding": "Whether you want the Do and Don't lists complete on their own, for a helper who reads only that section; then both lines stay.",
+   "advice_note": "Approve.",
+   "found_by": "readers A and B",
+   "edits": [
+    {
+     "block": 344,
+     "before": "Speak slowly and use fewer words.",
+     "after": ""
+    },
+    {
+     "block": 355,
+     "before": "Don’t crowd them with five worried friends.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 344,
+     "start": 0,
+     "end": 33
+    },
+    {
+     "block": 355,
+     "start": 0,
+     "end": 43
+    }
+   ],
+   "card_after": 355
+  },
+  {
    "id": "Q-1",
    "type": "question",
    "advice": "ask",
@@ -1017,6 +1080,39 @@
     }
    ],
    "card_after": 236
+  },
+  {
+   "id": "Q-7",
+   "type": "question",
+   "advice": "ask",
+   "title": "Charcoal: only after a recent oral ingestion?",
+   "question": "Checklist step 12 (stopping a trip) says \"Charcoal belongs only in the separate recent-oral-ingestion branch.\" The gut tools use it outside that branch: \"Activated charcoal can help gut toxicity, but it adsorbs drugs. Sometimes that is exactly the point.\", \"When the goal is to reduce drug absorption or stop a toxic gut situation, charcoal may be relevant.\", and after a ferment, \"which then requires activated charcoal to reduce gut histamine\". (a) Limit the sentence to stopping a trip: \"To stop a trip, charcoal belongs only in the separate recent-oral-ingestion branch.\"; (b) take that sentence out of step 12; (c) your words.",
+   "why": "A reader who follows step 12 would never use charcoal for the gut problems the long part uses it for. Readers A and B each found this.",
+   "stays": "Everything stays as it is until you answer.",
+   "advice_note": "(b): step 12's next paragraph and step 10 already say when charcoal fits and when it is dangerous, so nothing is lost and the contradiction goes.",
+   "spans": [
+    {
+     "block": 62,
+     "start": 256,
+     "end": 323
+    },
+    {
+     "block": 200,
+     "start": 301,
+     "end": 363
+    },
+    {
+     "block": 206,
+     "start": 0,
+     "end": 40
+    },
+    {
+     "block": 207,
+     "start": 43,
+     "end": 98
+    }
+   ],
+   "card_after": 207
   }
  ]
 }

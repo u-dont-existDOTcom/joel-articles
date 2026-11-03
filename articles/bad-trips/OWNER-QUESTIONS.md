@@ -1,7 +1,7 @@
 # Bad Trips guide: questions for Joel
 
-Updated 2026-11-03 (turn 1, 17:15 UTC: questions 4 to 7 added from the readers' reports). Status: **open** = waiting on you, **next** = I do it once you answer, **done** = answered.
-Answer on the marking page (its cards ST-1 and Q-1 to Q-6 have answer boxes), or under a number here in a message.
+Updated 2026-11-03 (turn 1, 17:15 UTC: questions 4 to 8 added from the readers' reports). Status: **open** = waiting on you, **next** = I do it once you answer, **done** = answered.
+Answer on the marking page (its cards ST-1 and Q-1 to Q-7 have answer boxes), or under a number here in a message.
 
 ## Open
 
@@ -33,6 +33,9 @@ Answer on the marking page (its cards ST-1 and Q-1 to Q-6 have answer boxes), or
 7. **open — Ocean water and charcoal water: different, or alike?** (card Q-6) Ocean water's section says its effect is
    "different from ... aged ozonated-charcoal water"; the next section opens "These work similarly to ocean water." My
    pick: (a) take "aged ozonated-charcoal water" out of the first list.
+8. **open — Charcoal: only after a recent oral ingestion?** (card Q-7) Checklist step 12 says "Charcoal belongs only in
+   the separate recent-oral-ingestion branch."; the gut tools use it for gut toxicity and after a ferment. My pick: (b)
+   take that sentence out of step 12 (its next paragraph and step 10 say when charcoal fits and when it is dangerous).
 
 ## Your tasks
 
