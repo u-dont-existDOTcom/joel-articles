@@ -1,0 +1,8 @@
+{"part": "4", "findings": [
+  {"block": 276,
+   "text": "That hand movement is the mental escape into the body's flow.",
+   "kind": "meaningless",
+   "what": "An 'escape' into the body's flow contradicts the paragraph, which is about staying alert and using the hand movement as a cue to come back to clarity, not to escape.",
+   "fix": "That hand movement is the mental anchor into the body's flow.",
+   "confidence": "likely"}
+], "notes": "Rest of blocks 247-328 read sentence by sentence; everything else is either Joel's informal voice, script rhythm, or makes sense."}

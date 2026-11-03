@@ -1,0 +1,20 @@
+{"part": "7", "findings": [
+  {"block": 546,
+   "text": "These cues do not authorize you to make a decision.",
+   "kind": "wrong-word",
+   "what": "A cue does not 'authorize' a decision; the point (next sentence, and the section) is that the cue should not make or force a decision for you, so 'authorize' reads as the wrong verb.",
+   "fix": "These cues do not make a decision for you.",
+   "confidence": "likely"},
+  {"block": 559,
+   "text": "I will choose new small behaviors using an Implementation Intention",
+   "kind": "slip",
+   "what": "The sentence ends with no full stop, unlike its neighbours.",
+   "fix": "I will choose new small behaviors using an Implementation Intention.",
+   "confidence": "likely"},
+  {"block": 566,
+   "text": "especially when they were led to (which NLP tends to)",
+   "kind": "broken",
+   "what": "'led to' has no object; it should be 'were led' (by leading questions), and '(which NLP tends to)' dangles without its verb.",
+   "fix": "especially when they were led (which NLP tends to do)",
+   "confidence": "likely"}
+], "notes": "Block 586 'as the police like to say' looks like an intended joke given the interrogation theme, so left alone. Block 499 '(even if it's only available beyond the conditions)' is vague but reads as his voice, not reported."}

@@ -210,7 +210,7 @@ Your inner child wants to be heard, but they don't want to feel like they have t
 
 ## Love doesn’t have to wait for trust
 
-What if your little one doesn't believe you love them? It is possible to love them even if they don't believe you love them. Their trust can question your promises, remember when you failed to protect them, and take its time.
+What if your little one doesn't believe you love them? It is possible to love them even if they don't believe you love them. They can question your promises, remember when you failed to protect them, and take their time.
 
 You could say something like, "Okay. I believe that you don't believe me. I still love you. You don't have to love me back. Tell me what feels unsafe." Try not to turn "I still love you" into a line you say on cue, though, because then it can brush the anger off, and what it's really saying is "so stop being angry."
 
@@ -274,7 +274,7 @@ Use parts language here too, if it helps. Often, we see a sensation or a distrac
 
 If you're not careful, you might find yourself expecting that when you go within to meet your inner child, you'll find your inner child.
 
-Instead, you might feel numb, cynical, angry, suddenly hungry, like you need to look at your phone, sexually aroused, like you need to make plans, sleepy, dissociated, or you might even think that what you're doing is stupid. Those are not failures. Often what you're experiencing is a very charming guard. It's what protects you when your consciously installed parental Protector isn't functioning, the same as when you were a child. It might not be a guard at all, though. Maybe it's your inner child, mad that you took so long to come back. Maybe it's your inherited parent script, or something from earlier today, or a bit of each.
+Instead, you might feel numb, cynical, angry, suddenly hungry, like you need to look at your phone, sexually aroused, like you need to make plans, sleepy, dissociated, or you might even think that what you're doing is stupid. Those are not failures. Often it's a guard, making an appearance in its usual charming way. It's what protects you when your consciously installed parental Protector isn't functioning, the same as when you were a child. It might not be a guard at all, though. Maybe it's your inner child, mad that you took so long to come back. Maybe it's your inherited parent script, or something from earlier today, or a bit of each.
 
 You can tell that part something like, “I see you. I'm not going to force my way past you. What's going on?” Or however you'd actually say that. Then wait and listen patiently. If nothing comes, that's fine for now. No need to answer for that part just because you'd set this up as a healing session. Later on, you can ask it, “What are you afraid would happen if you stopped protecting me by…?”
 
@@ -870,7 +870,7 @@ If you want to deliberately do trauma-focused regression (going backwards in you
 
 Note that having experienced trauma, crying, and even wanting to feel difficult feelings are not necessarily signs that you need more support than working on your own. You get to pick how wide or narrow a range you want to work in, but be aware that different people need different ranges. Pay attention to how you respond and what support you have. Feeling like you are handling it isn't a substitute for having support.
 
-The main clinical practice guidelines for the treatment of major trauma recommend one or more of trauma-specific variants of cognitive behavioral therapy (often referred to by specific names, such as cognitive processing therapy, prolonged exposure, etc.) or eye movement desensitization and reprocessing, depending on the person and the guideline. These approaches in turn can be further supported by techniques such as self-hypnosis and inner child work. But high-risk trauma work needs a bigger container than that.
+The main clinical practice guidelines for the treatment of major trauma recommend one or more of the trauma-specific variants of cognitive behavioral therapy (often referred to by specific names, such as cognitive processing therapy, prolonged exposure, etc.) or eye movement desensitization and reprocessing, depending on the person and the guideline. These approaches in turn can be further supported by techniques such as self-hypnosis and inner child work. But high-risk trauma work needs a bigger container than that.
 
 ## Your functioning in ordinary life is the feedback
 
@@ -1030,7 +1030,7 @@ I dare you now to practice this ethical postulate! "Can my subconscious show me 
 
 ### Pattern 8: Tag questions
 
-Tag questions, like "isn't it?" or "doesn't it?", can soften a sentence, but they get oily very quickly, so go easy on them.
+Tag questions, like "isn't it?" or "doesn't it?", can soften a sentence, but they get old very quickly, so go easy on them.
 
 "Your body knows how to relax, doesn't it?"
 
@@ -1044,7 +1044,7 @@ A nominalization turns something you do into a noun: you heal, and it becomes 'h
 
 Milton Model language opens things up, and Meta Model questions ask what exactly someone means.
 
-You need both to be ethical with people, so when something sounds true but vague, ask: "What do you mean, specifically? According to who? Compared to what? Always, or never? What exactly would happen if you did? How do you know that, and what evidence would change your mind?"
+You need both to be ethical with people, so when something sounds true but vague (like the new-age slogans: e.g. "everyone is your mirror"), ask: "What do you mean, specifically, my mirror to what extent? According to whom, Madame Blavatsky, AI, or...? How do you know that, and what evidence would change your mind?"
 
 So when someone is starting to tense up in their body, use the Milton Model to help them soften. And when you feel you're losing track of what's really going on, that's the time for the Meta Model.
 
@@ -1116,7 +1116,7 @@ I will not use this to rationalize bad behavior, but only to break out of a pris
 
 Once I have seen the situation more clearly, I will imagine future scenarios where my old behavior would have been triggered, to test out if my new insight is working.
 
-If these scenarios come up, I will choose new small behaviors using an Implementation Intention
+If these scenarios come up, I will choose new small behaviors using an Implementation Intention.
 
 ### The Swish, softened
 
@@ -1306,7 +1306,7 @@ Ask them:
 
 You should be able to be firmly encouraged, but not forced to continue if you don't want to.
 
-Then afterwards, check in about what was actually done, regardless of what you might call the method. Ask the person why they did what they did, and whether they told you in advance. Did you agree to it? How did the person respond to you? Keep in mind that just because something made you uncomfortable, it doesn't mean it was bad, but if they saw your discomfort as meaning that you needed more of it, that might be something to look into. You might even be able to use this app or ask around to see if someone can tell you what the things the person did meant. They probably won't be able to tell you whether the person was certified in those methods, though. Then you can decide if you want to try learning to do self-hypnosis, use both, or find someone else.
+Then afterwards, check in about what was actually done, regardless of what you might call the method. Ask the person why they did what they did, and whether they told you in advance. Did you agree to it? How did the person respond to you? Keep in mind that just because something made you uncomfortable, it doesn't mean it was bad, but if they saw your discomfort as meaning that you needed more of it, that might be something to look into. You might even be able to ask around to see if someone can tell you what the things the person did meant. They probably won't be able to tell you whether the person was certified in those methods, though. Then you can decide if you want to try learning to do self-hypnosis, use both, or find someone else.
 
 ## When the subconscious speaks like an oracle
 
@@ -1456,7 +1456,7 @@ Use your breathing or a slight hum in your throat for a natural rhythm. You coul
 
 ## 4. Unwinding object
 
-Unwinding an object is good for when you have a few different strands to one thing you want to work on. Imagine an object unwinding – maybe some yarn, some bubbles, or some knots that you place beside you. Once you’ve placed them all, give yourself a minute to look at them all. You don’t have to change anything, but you can label them if you need to (just a word or two). How many did you put down? Which one do you need to work on, and what does it need – warmth, protection, action? Keep one strand in your attention and put the others somewhere you can see them and return.
+Unwinding an object is good for when you have a few different strands to one thing you want to work on. Imagine some yarn unwinding, some bubbles settling, or some knots that you place beside you. Once you’ve placed them all, give yourself a minute to look at them all. You don’t have to change anything, but you can label them if you need to (just a word or two). How many did you put down? Which one do you need to work on, and what does it need – warmth, protection, action? Keep one strand in your attention and put the others somewhere you can see them and return.
 
 ## 5. Sensory journey
 

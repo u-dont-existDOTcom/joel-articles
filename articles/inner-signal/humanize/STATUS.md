@@ -1,5 +1,54 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-11-03, after Joel's message of 13:46 UTC: 33a, the guide in his post; his E-523 and "old" in; the guide read word by word for sense; question 34
+
+His message (`fix-20261103/c1103b/joel-20261103-1346-message.txt`): "33a", his answers to Hypnosis Guide Cards,
+3 November (2) (`fix-20261103/c1103b/ANSWERS-20261103-1346.json`: E-523, his version), and "i also noticed the tag
+questions part above says "oily" instead of old. do we have more nonsense in here (from emulate i guess)? how are you
+not catching this?". **The mailbox first** (`state/MAILBOX.json`, "2026-11-03 13:46"): pull request 275 merged by him
+at 13:46 UTC; nothing else new.
+
+**His E-523 and "old"** (`fix-20261103/c1103b/apply_answers_c1103b.py`, APPLIED-C1103B-ANSWERS.json, read record):
+Pattern 10's second paragraph as he wrote it (the doubled "?" in "or...? ? How" taken out, an obvious typo); "they get
+oily very quickly" to "old". 94ffd381 to bb5fc57d. "Oily" came from his published guide of 28 September
+(`source/published-20260928.md`, line 1077: "They become oily very quickly, don't they?"), not from Emulate; it passed
+every check because words in that guide count as his (E331).
+
+**The guide, read word by word for sense** (`fix-20261103/nonsense/`; every finding, whose words and its fate in
+FINDINGS.md, from make_findings.py): pass 1, nine fresh readers with a part each (make_parts.py, BRIEF.md, reads/), 20
+findings, but read fast (about 30 seconds and one to three findings a part); so pass 2, three fresh readers on three
+parts with nine planted errors of the "oily" kind ("deceptive" for "receptive", "ointment" for "appointment"; make_pass2.py,
+CANARIES.json kept outside the parts) and a required list of every block read (pass2/BRIEF.md, pass2/reads/): all nine
+found, every block of each part listed, one new real finding. Under them, nonwords.py (pyspellchecker 0.9.1): 25
+non-words, each a name, a term or his coinage. 21 real findings: 6 slips in our words fixed (apply_nonsense.py,
+APPLIED-NONSENSE.json, read record; bb5fc57d to 010b9fc3; comparison gate PASS), 5 in his own words for him (question
+34), 10 kept, each with its reason.
+
+**33a: the guide in his post** (`fix-20261103/live/`, record_live.py has every step): the public post, read first without
+signing in (POST-BEFORE.json), was the post of 2 November exactly (body f014f7b8). substack_merge.py put 010b9fc3 into
+the editor copy of 28 September (ARCHIVAL-20261103.html; MERGE-REPORT.json PASS: 30,354 words, 43 links, 8 islands).
+make_update.py compared that with 2 November's archival HTML block by block (UPDATE-PLAN.json: 76 changed ranges, 96
+nodes out and 87 in), pushed at bb25cc0d and fetched in the tab from raw.githubusercontent.com, checked by its SHA-256.
+update.js checked all 729 of the editor's nodes against 2 November's blocks (none differed, so no draft change of his was
+there to lose), built one transaction of 76 steps with the editor's own parser, and checked its 720 nodes against today's
+blocks, the six native blocks the same nodes as before and the same 38 links in order; dispatch.js applied it. The
+subtitle's "Last update: Nov 2, 2026, v. 7.0" became "Nov 3, 2026, v. 7.0" (the date only: question 33 named the date).
+The draft saved (the draft API: 720 nodes, the new subtitle); Update, then "Update now", settings untouched; the publish
+call answered 200. The public API went on answering with the old post for a few minutes (two copies on the laptop,
+`inbox/live-20261103/POST-AFTER-cached*.json`), then the new one: POST-AFTER.json, read without signing in from the
+laptop. LIVE-CHECK-20261103.json PASS: the guide's 30,437 words and the post's 30,386 the same but for the native blocks'
+own text, the same seven differences as on 2 November; title, audience and date unchanged.
+
+**Lessons** E331 (read every word for sense before a guide goes into his post, and test the read with planted errors)
+and E332 (the second update of a live post: check the editor against the last published blocks and replace only the
+changed ranges; the public API lags after "Update now"). `docs/FIXING-AN-ARTICLE.md` section 5 has the step.
+**Question 34**: the five spots in his own words, keep or change.
+
+Predictions: none (no Pangram check this turn). Delegations (model, piece, check, outcome): Sonnet, nine readers, pass 1
+(a part each, for wrong words; each finding read in place by the lead session and traced; 20 findings, read too fast to
+trust alone); Sonnet, three readers, pass 2 (a part each with three planted errors; recall of the planted errors and the
+lists of blocks read; 9 of 9, every block, 7 real findings of which 1 new).
+
 ## 2026-11-03, after Joel's message of 12:18 UTC: the fourth free check read; three fixes in; his E-157 in; question 33 (his post); one card
 
 His message (`fix-20261103/free-whole-2/joel-20261103-1218-message.txt`): the fourth free check's two result pages and his

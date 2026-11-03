@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-11-03, after your message of 12:18 UTC.
-**Open questions: 1** (33). **For you to do**: answer question 33 and mark the one card on [Hypnosis Guide Cards, 3 November (2)](https://claude.ai/artifact/WVc1QzNAzwSN7feajnaiNP) (below). The questions are at the top, with their
+Last updated 2026-11-03, after your message of 13:46 UTC.
+**Open questions: 1** (34). **For you to do**: answer question 34 and merge pull request 276 (below). The questions are at the top, with their
 options and my default; under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠
 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -10,26 +10,68 @@ read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 33. Put the guide as it is now into your post?** In the fourth free check both halves read Human Written, with no
-AI window ([part A](https://www.pangram.com/feed/c2f7a242-d7f1-40a5-8453-df9047c5947b), [part B](https://www.pangram.com/feed/93dac4dd-cdea-49f2-8103-83211c1ebb4d)). Your post still has the guide of 2 November; since then the guide has had your
-answers, the 70 overcompletion cuts, your 31a and 32a and my fixes. Your new line in Don't rush the repair is in too (your
-own words; not checked in the whole yet), and Pattern 10's questions are the one card on your cards page.
+**🟣 34. Five spots in your own words that the word-by-word read questioned: keep or change?** They're yours, so I
+haven't touched them ([all the findings](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/nonsense/FINDINGS.md)). My reading of each, and the smallest change:
 
-- a) Yes, my recommendation: with the Pattern 10 card's answer in, I put the guide into your post the way I did on
-  2 November (in its editor, one change, no pasting), change "Last update" in the subtitle to today, and read the public
-  post back word for word.
-- b) Not yet: one more free check of the whole guide first.
-- c) Something else.
+- 34.1 (Induction: gathering and softening attention) "Call me a heretic, but I don't think inductions should be about
+  surrendering to the hypnotist while playing asleep." "Playing asleep" isn't an idiom, but it reads as your play on
+  "playing dead". I'd keep it.
+- 34.2 (Make the hypnosis more alert) "That hand movement is the mental escape into the body's flow." In a paragraph
+  about staying alert, a reader can take "escape" as switching off. I'd keep it; if you want it plainer: "That hand
+  movement lets your mind escape into the body's flow."
+- 34.3 (What I will not use NLP for) "Memories retrieved still need external validation, especially when they were led
+  to (which NLP tends to)." "Led to" has nothing after it, so the sentence doesn't parse. I'd change it to "especially
+  when the questions led to them (which NLP tends to do)".
+- 34.4 (Don't rush the repair) "spend some quality time with them before taking off the kid gloves, so to speak, and
+  jumping into the healing work." Taking off the kid gloves means you stop being gentle; with "so to speak" it reads as
+  your wink. I'd keep it.
+- 34.5 (Why doing it myself worked better for me) "...stronger intuition, and repeated correction between intuition,
+  subconscious response, and conscious analysis." This is from the guide you published on 28 September, where "oily"
+  came from too. "Correction between" three things doesn't quite say anything, so I think it's a slip like "oily". I'd
+  change it to "repeated cross-checking between intuition, subconscious response, and conscious analysis".
+
+- a) My recommendation: change 34.3 and 34.5 as shown, keep the other three. Then I put them into your post the same
+  way as today, with the date.
+- b) Keep all five as they are.
+- c) Your own words for any of them (like "34.3: ...").
 
 **🔵 On hold: the 83 cards of [the 27 October editor page](https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) you hadn't marked** (questions 21 to 23). The guide has
 changed under them, so the rechecks decide; you don't need to mark them.
 
 ## For you to do
 
-- 🟠 Question 33, above.
-- 🟠 Mark the one card on [Hypnosis Guide Cards, 3 November (2)](https://claude.ai/artifact/WVc1QzNAzwSN7feajnaiNP) ([the card as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/c1103b/REVIEW-C1103B.md)):
-  Pattern 10's questions, to keep or edit.
-- 🟠 Merge [pull request 275](https://github.com/u-dont-existDOTcom/joel-articles/pull/275) when you've looked.
+- 🟠 Question 34, above.
+- 🟠 Merge [pull request 276](https://github.com/u-dont-existDOTcom/joel-articles/pull/276) when you've looked.
+
+## Your message of 2026-11-03 13:46 UTC, and what I did
+
+Word for word: [your message and your answers](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/c1103b/joel-20261103-1346-message.txt).
+
+- 🟢 **33a: the guide is in your post** ([the public post, read back](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/live/LIVE-CHECK-20261103.json)).
+  The way it went in on 2 November: in the post's editor, one change, no pasting. This time only the 76 places that
+  changed since then were replaced, after a check that the editor still held exactly the guide of 2 November, so
+  nothing you'd changed in the draft could be lost. The subtitle now says "Last update: Nov 3, 2026, v. 7.0" (only
+  the date; tell me if you want v. 7.1). Read back from the public post without signing in, it matches the guide word
+  for word, apart from the images', video's and embeds' own text, as on 2 November.
+- 🟢 **Your Pattern 10 (E-523), in** as you wrote it ([what changed](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/c1103b/APPLIED-C1103B-ANSWERS.json)); I only took out
+  the second "?" in "or...? ? How".
+- 🟢 **"Oily" is now "old".** It came from the guide you published on 28 September ("They become oily very quickly,
+  don't they?"), not from Emulate, and our rewrite kept it.
+- 🟢 **How it got past me.** Every check I ran asks whose words a sentence is (yours or ours) and whether Pangram reads
+  it as human. Words from your published guide count as yours, so "oily" passed them all, and a real word in a
+  grammatical sentence passes a spell check too. Nothing read each word for whether it was the word meant. That's
+  lesson E331 now, with the method for every article.
+- 🟢 **The whole guide, read word by word for sense** ([every finding, whose words, and what I did](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/nonsense/FINDINGS.md)).
+  Nine fresh readers had a part each. Then, to test the read itself, three more had nine planted errors of the same
+  kind hidden in their parts ("deceptive" for "receptive", "ointment" for "appointment"), and they found all nine. 21
+  real findings:
+  - 6 slips in our words, fixed ([the fixes](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/nonsense/APPLIED-NONSENSE.json)): "Their trust can question your promises"
+    (now "They can question your promises"); "a very charming guard" (your published irony back: "making an appearance in
+    its usual charming way"); "one or more of the trauma-specific variants" (a missing "the"); a missing full stop in
+    Future pacing; "some yarn unwinding, some bubbles settling" (bubbles don't unwind; your published picture back); and
+    "use this app or" cut (Emulate's sentence; it pointed at no app).
+  - 5 in your own words: question 34.
+  - 10 kept, each with its reason (most are yours and read fine; one is the date on your post embed, which isn't prose).
 
 ## Your message of 2026-11-03 12:18 UTC, and what I did
 
