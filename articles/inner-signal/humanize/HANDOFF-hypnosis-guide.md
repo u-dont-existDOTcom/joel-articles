@@ -18,6 +18,10 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-11-03, after Joel's message of 13:46 UTC ("33a", his E-523, and "oily" for "old"): the guide is in his post;
+  the guide read word by word for sense; question 34.** The guide is HUMANIZED-SO-FAR.md 010b9fc3 (762 blocks), and his
+  post 202810155 has it (`fix-20261103/live/LIVE-CHECK-20261103.json` PASS; subtitle "Last update: Nov 3, 2026,
+  v. 7.0"). The read's findings are in `fix-20261103/nonsense/FINDINGS.md`; lessons E331 and E332. See the Next step.
 - **2026-11-03, after Joel's message of 12:18 UTC (the fourth free check's result pages and his E-157): both halves
   Human Written with no AI window; three of our four fixes in, his E-157 in; question 33 asks whether the guide goes into
   his post now.** The guide is HUMANIZED-SO-FAR.md 94ffd381 (762 blocks); Pattern 10 is the one card on
@@ -240,9 +244,9 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: **question 33** (put the guide into his post now: a, or one more check first: b) and **the one card** on
-[Hypnosis Guide Cards, 3 November (2)](https://claude.ai/artifact/WVc1QzNAzwSN7feajnaiNP) (E-523, Pattern 10, keep or
-edit). Earlier: his message of 2026-11-03 12:18 UTC (the fourth check, his E-157) is in.
+The guide: **question 34** (five spots in his own words that the word-by-word read questioned; a: change 34.3 and 34.5,
+keep the rest; b: keep all; c: his words). Earlier: his message of 2026-11-03 13:46 UTC ("33a", E-523, "old") is in, and
+the guide is in his post.
 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
@@ -329,7 +333,24 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-11-03, after Joel's message of 12:18 UTC: question 33 and one card wait on him)
+## Next step (2026-11-03, after Joel's message of 13:46 UTC: the guide in his post; question 34 waits on him)
+
+Done (STATUS.md's entry for 2026-11-03 13:46 has every file and number). The guide: HUMANIZED-SO-FAR.md 010b9fc3 (762
+blocks), live in his post (post 202810155, behind hypnosis.u-dont-exist.com).
+
+Next:
+1. **Question 34** (OWNER-QUESTIONS.md). With a): 34.3 and 34.5 as the question shows them, with a script that records
+   his answer (as `fix-20261103/c1103b/apply_answers_c1103b.py` does), then read in place and the comparison gate. With
+   c): his words as he wrote them, obvious typos only. With b): nothing to change.
+2. **Then his post again**, if anything changed: as `fix-20261103/live/` did it (record_live.py has every step).
+   make_update.py with OLD set to the archival HTML last put in (`fix-20261103/live/ARCHIVAL-20261103.html`) and
+   TOP_IMAGE as before; push the plan, fetch it in the editor's tab by its SHA-256, update.js (it must report ok, no
+   node different from the last blocks), dispatch.js, the subtitle's date, Update and "Update now"; then read the public
+   post back from the laptop until it has the new subtitle (it lags a few minutes, E332) and run a record_live.py for
+   the day. Before any guide or article goes into a post: the word-for-sense read with planted errors (E331).
+3. **Then the next article in his queue**: neuro de-armoring, whose question 1 waits on him (its own lane).
+
+## Earlier next step (2026-11-03, after Joel's message of 12:18 UTC: question 33 and one card wait on him)
 
 Done (STATUS.md's entry for 2026-11-03 12:18 has every file and number). The guide: HUMANIZED-SO-FAR.md 94ffd381 (762
 blocks); his post still has a789009c's words.

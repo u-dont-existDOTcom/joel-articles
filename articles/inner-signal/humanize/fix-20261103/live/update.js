@@ -8,8 +8,10 @@ await (async () => {
     .map((x) => x.toString(16).padStart(2, '0')).join('');
   if (got !== src.sha256) return {ok: false, why: 'UPDATE-PLAN.json SHA-256 ' + got};
   const plan = JSON.parse(txt);
-  const WS = /[ \t\n\r\f\v   -     　﻿\x85\x1c-\x1f]+/g;
-  const hex = async (s) => [...new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s.replace(WS, ''))))]
+  const WS = new Set([0x20, 0x09, 0x0a, 0x0d, 0x0c, 0x0b, 0x85, 0xa0, 0x1680, 0x2028, 0x2029, 0x202f, 0x205f, 0x3000, 0xfeff,
+    0x1c, 0x1d, 0x1e, 0x1f, 0x2000, 0x2001, 0x2002, 0x2003, 0x2004, 0x2005, 0x2006, 0x2007, 0x2008, 0x2009, 0x200a]);
+  const strip = (s) => [...s].filter((c) => !WS.has(c.codePointAt(0))).join('');
+  const hex = async (s) => [...new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(strip(s))))]
     .map((x) => x.toString(16).padStart(2, '0')).join('').slice(0, 6);
   const sig = async (node, exp) => (exp.startsWith('t:') ? 't:' + node.type.name : await hex(node.textContent));
   const els = document.querySelectorAll('.ProseMirror');

@@ -1,0 +1,389 @@
+[
+ {
+  "block": 66,
+  "readers": [
+   "pass 1 1",
+   "pass 2 A"
+  ],
+  "text": "and repeated correction between intuition, subconscious response, and conscious analysis",
+  "what": "'Correction between' three sources makes little sense in a list of benefits; the context (dialogue among parts) suggests agreement or coordination, not correction.",
+  "fix": "and repeated correspondence between intuition, subconscious response, and conscious analysis",
+  "fate": "Q34",
+  "why": "\"correction between\" three things: likely a slip like \"oily\" in his published guide",
+  "whose": "his phrase (published guide)",
+  "sentence": "My experiences included a much deeper understanding of my motivations, peaceful loving awareness operating alongside analytical clarity, the disappearance of unhelpful daydreaming, different priorities around relationships, stronger intuition, and repeated correction between intuition, subconscious response, and conscious analysis."
+ },
+ {
+  "block": 106,
+  "readers": [
+   "pass 1 2",
+   "pass 2 A"
+  ],
+  "text": "Their trust can question your promises, remember when you failed to protect them, and take its time.",
+  "what": "Trust does not question or remember; the subject should be the little one (they), so 'Their trust' and 'its' do not make sense.",
+  "fix": "They can question your promises, remember when you failed to protect them, and take their time.",
+  "fate": "fixed",
+  "why": "trust doing the questioning and remembering; now \"They can question your promises ... and take their time.\"",
+  "whose": "ours (our edits or Emulate)",
+  "sentence": "Their trust can question your promises, remember when you failed to protect them, and take its time."
+ },
+ {
+  "block": 138,
+  "readers": [
+   "pass 1 2",
+   "pass 2 A"
+  ],
+  "text": "Often what you're experiencing is a very charming guard.",
+  "what": "A guard that shows up as numbness, cynicism or sleepiness is not charming; the sentence says it is a common thing, so 'charming' looks like a slip for 'common'.",
+  "fix": "Often what you're experiencing is a very common guard.",
+  "fate": "fixed",
+  "why": "his published irony (\"making an appearance in its usual charming way\") had been flattened into a plain claim; his phrase is back",
+  "whose": "ours (our edits or Emulate)",
+  "sentence": "Often what you're experiencing is a very charming guard."
+ },
+ {
+  "block": 156,
+  "readers": [
+   "pass 1 2"
+  ],
+  "text": "before taking off the kid gloves, so to speak, and jumping into the healing work",
+  "what": "'Taking off the kid gloves' means becoming harsh, which is the opposite of the gentle quality time the sentence recommends.",
+  "fix": "before jumping into the healing work",
+  "fate": "Q34",
+  "why": "the idiom means stopping being gentle; with \"so to speak\" it can read as his wink",
+  "whose": "his message or answers",
+  "sentence": "When your inner child does show up, spend some quality time with them before taking off the kid gloves, so to speak, and jumping into the healing work."
+ },
+ {
+  "block": 192,
+  "readers": [
+   "pass 1 3"
+  ],
+  "text": "The more consciously sculpted adult in you",
+  "what": "\"Sculpted\" does not fit an adult who answers the parent script; a word like \"developed\" or \"conscious\" is meant.",
+  "fix": "The more consciously developed adult in you",
+  "fate": "kept",
+  "why": "his phrase; the adult you have consciously shaped",
+  "whose": "his phrase (messages or answers)",
+  "sentence": "The more consciously sculpted adult in you can answer, \"We're finding out whether we enjoy this, not proving our worth.\" So try things out long enough until the humiliation is gone."
+ },
+ {
+  "block": 204,
+  "readers": [
+   "pass 1 3"
+  ],
+  "text": "is that sudden \"waking up\" to all the ways",
+  "what": "\"is that sudden waking up\" does not parse; the side-effect is the sudden waking up, so \"that\" should be \"the\".",
+  "fix": "is the sudden \"waking up\" to all the ways",
+  "fate": "kept",
+  "why": "his sentence; \"that\" points at the waking up, so it parses",
+  "whose": "his message or answers",
+  "sentence": "One of the best side-effects of learning self-hypnosis is that sudden \"waking up\" to all the ways your attention is being shaped in your day-to-day life."
+ },
+ {
+  "block": 227,
+  "readers": [
+   "pass 1 3",
+   "pass 2 A"
+  ],
+  "text": "surrendering to the hypnotist while playing asleep",
+  "what": "\"Playing asleep\" is not an idiom and means nothing; likely \"falling asleep\" or \"playing dead\" was meant.",
+  "fix": "surrendering to the hypnotist while falling asleep",
+  "fate": "Q34",
+  "why": "not an idiom; reads as his play on \"playing dead\"",
+  "whose": "his message or answers",
+  "sentence": "Call me a heretic, but I don't think inductions should be about surrendering to the hypnotist while playing asleep."
+ },
+ {
+  "block": 276,
+  "readers": [
+   "pass 1 4",
+   "pass 2 B"
+  ],
+  "text": "That hand movement is the mental escape into the body's flow.",
+  "what": "An 'escape' into the body's flow contradicts the paragraph, which is about staying alert and using the hand movement as a cue to come back to clarity, not to escape.",
+  "fix": "That hand movement is the mental anchor into the body's flow.",
+  "fate": "Q34",
+  "why": "an \"escape\" in a paragraph about staying alert; it can mean the mind escaping into the body's flow",
+  "whose": "his message or answers",
+  "sentence": "That hand movement is the mental escape into the body's flow."
+ },
+ {
+  "block": 344,
+  "readers": [
+   "pass 1 5"
+  ],
+  "text": "the same Nurturer voice you meant for your little one",
+  "what": "'meant for' is an odd fit; the sense is the voice you use or keep for your little one.",
+  "fix": "the same Nurturer voice you use for your little one",
+  "fate": "kept",
+  "why": "his inner child guide's words",
+  "whose": "his phrase (inner child guide)",
+  "sentence": "If you can identify any guards (childhood protector parts), talk to them in the same Nurturer voice you meant for your little one, and find out what they are concerned about."
+ },
+ {
+  "block": 345,
+  "readers": [
+   "pass 2 B"
+  ],
+  "text": "You only need to use the Witness if you need help getting started with a step.",
+  "what": "'the Witness' is not one of the roles named (Nurturer, Protector, Guide) and nothing introduces it; probably another role (Guide) was meant.",
+  "fix": "You only need to use the Guide if you need help getting started with a step.",
+  "fate": "kept",
+  "why": "the guide's witnessing position, in his published guide and at block 555",
+  "whose": "his phrase (published guide)",
+  "sentence": "You only need to use the Witness if you need help getting started with a step."
+ },
+ {
+  "block": 379,
+  "readers": [
+   "pass 1 5"
+  ],
+  "text": "which alleviates the instinct to argue back",
+  "what": "'Alleviates' is for relieving pain or a problem; an instinct to argue is lessened or calmed, not alleviated.",
+  "fix": "which eases the instinct to argue back",
+  "fate": "kept",
+  "why": "his words",
+  "whose": "his message or answers",
+  "sentence": "you can then say, \"Tell me what you remember, I'm listening.\" It puts you into the role of the Nurturer, which alleviates the instinct to argue back."
+ },
+ {
+  "block": 436,
+  "readers": [
+   "pass 1 6"
+  ],
+  "text": "recommend one or more of trauma-specific variants of cognitive behavioral therapy",
+  "what": "\"one or more of\" needs a determiner before the plural noun; as written the phrase is ungrammatical.",
+  "fix": "recommend one or more of the trauma-specific variants of cognitive behavioral therapy",
+  "fate": "fixed",
+  "why": "a missing \"the\"",
+  "whose": "ours (our edits or Emulate)",
+  "sentence": "The main clinical practice guidelines for the treatment of major trauma recommend one or more of trauma-specific variants of cognitive behavioral therapy (often referred to by specific names, such as cognitive processing therapy, prolonged exposure, etc.) or eye movement desensitization and reprocessing, depending on the person and the guideline."
+ },
+ {
+  "block": 546,
+  "readers": [
+   "pass 1 7"
+  ],
+  "text": "These cues do not authorize you to make a decision.",
+  "what": "A cue does not 'authorize' a decision; the point (next sentence, and the section) is that the cue should not make or force a decision for you, so 'authorize' reads as the wrong verb.",
+  "fix": "These cues do not make a decision for you.",
+  "fate": "kept",
+  "why": "a cue is no warrant to decide, which is what the next sentence says",
+  "whose": "ours (our edits or Emulate)",
+  "sentence": "These cues do not authorize you to make a decision."
+ },
+ {
+  "block": 559,
+  "readers": [
+   "pass 1 7"
+  ],
+  "text": "I will choose new small behaviors using an Implementation Intention",
+  "what": "The sentence ends with no full stop, unlike its neighbours.",
+  "fix": "I will choose new small behaviors using an Implementation Intention.",
+  "fate": "fixed",
+  "why": "the missing full stop",
+  "whose": "ours (our edits or Emulate)",
+  "sentence": "If these scenarios come up, I will choose new small behaviors using an Implementation Intention"
+ },
+ {
+  "block": 566,
+  "readers": [
+   "pass 1 7"
+  ],
+  "text": "especially when they were led to (which NLP tends to)",
+  "what": "'led to' has no object; it should be 'were led' (by leading questions), and '(which NLP tends to)' dangles without its verb.",
+  "fix": "especially when they were led (which NLP tends to do)",
+  "fate": "Q34",
+  "why": "\"led to\" has no object",
+  "whose": "his message or answers",
+  "sentence": "Memories retrieved still need external validation, especially when they were led to (which NLP tends to)."
+ },
+ {
+  "block": 614,
+  "readers": [
+   "pass 1 8"
+  ],
+  "text": "What would this felt sense like me to know?",
+  "what": "The verb is missing or wrong: Gendlin's question is what the felt sense wants (or would like) me to know, and 'like' alone does not parse.",
+  "fix": "What would this felt sense want me to know?",
+  "fate": "kept",
+  "why": "\"What would this felt sense like me to know?\" is grammatical (would like me to know)",
+  "whose": "his phrase (published guide)",
+  "sentence": "Then ask, \"What would this felt sense like me to know?\" Try a word or a phrase and see how well it fits the felt sense."
+ },
+ {
+  "block": 654,
+  "readers": [
+   "pass 1 8"
+  ],
+  "text": "You might even be able to use this app or ask around",
+  "what": "'this app' points at nothing in the guide or the surrounding section, so a reader cannot tell what app is meant.",
+  "fix": "You might even be able to use the InnerSignal app or ask around",
+  "fate": "fixed",
+  "why": "\"this app\" pointed at nothing (Emulate's sentence); cut",
+  "whose": "ours (our edits or Emulate)",
+  "sentence": "You might even be able to use this app or ask around to see if someone can tell you what the things the person did meant."
+ },
+ {
+  "block": 683,
+  "readers": [
+   "pass 1 8",
+   "pass 2 C"
+  ],
+  "text": "u-dont-exist.com·25 août 2025image 5",
+  "what": "A French month name ('août') sits in an English guide, and 'image 5' is run onto the date with no space (scraped link-card text).",
+  "fix": "u-dont-exist.com · 25 August 2025",
+  "fate": "kept",
+  "why": "the text of his post-embed card (a native block), not the guide's prose",
+  "whose": "his post-embed card (native block)",
+  "sentence": "u-dont-exist.com·25 août 2025image 5"
+ },
+ {
+  "block": 715,
+  "readers": [
+   "pass 1 9"
+  ],
+  "text": "They all lead to the same thing, which is how to maintain a presence of love",
+  "what": "Things do not 'lead to' a 'how to'; the intended sense is that they all come down to the same question.",
+  "fix": "They all come down to the same thing, which is how to maintain a presence of love",
+  "fate": "kept",
+  "why": "informal but clear",
+  "whose": "ours (our edits or Emulate)",
+  "sentence": "They all lead to the same thing, which is how to maintain a presence of love without giving up your boundaries, while also making your mind harder to hook."
+ },
+ {
+  "block": 729,
+  "readers": [
+   "pass 1 9"
+  ],
+  "text": "some yarn, some bubbles, or some knots that you place beside you",
+  "what": "Bubbles cannot unwind or be placed as strands, unlike yarn and knots; a word like ribbon or thread seems meant.",
+  "fix": "some yarn, some ribbon, or some knots that you place beside you",
+  "fate": "fixed",
+  "why": "bubbles don't unwind; his published picture is back (\"some yarn unwinding, some bubbles settling, or some knots\")",
+  "whose": "ours (our edits or Emulate)",
+  "sentence": "Imagine an object unwinding - maybe some yarn, some bubbles, or some knots that you place beside you."
+ },
+ {
+  "block": 731,
+  "readers": [
+   "pass 1 9"
+  ],
+  "text": "When you feel you have gathered enough of your attention",
+  "what": "You gather information or impressions, not 'enough of your attention'; the phrase does not say what has been gathered.",
+  "fix": "When you feel you have taken in enough",
+  "fate": "kept",
+  "why": "\"gather your attention\" is the guide's own name for the step",
+  "whose": "ours (our edits or Emulate)",
+  "sentence": "When you feel you have gathered enough of your attention, imagine the scenery changing until you are in a place where you can talk to whoever you need to (or you can just cut to the chase, if you prefer)."
+ },
+ {
+  "block": 116,
+  "readers": [
+   "pass 2 A"
+  ],
+  "text": "If you can't find any wealth today",
+  "what": "\"wealth\" makes no sense in a passage about feeling love for the inner child; \"warmth\" is meant.",
+  "fix": "If you can't find any warmth today",
+  "fate": "planted",
+  "why": "one of the nine planted errors (CANARIES.json)",
+  "whose": "planted"
+ },
+ {
+  "block": 183,
+  "readers": [
+   "pass 2 A"
+  ],
+  "text": "it may be wise to remodel yourself, for a time, from the people or group",
+  "what": "\"remodel yourself ... from\" the group is garbled; the point is to remove or distance yourself from them.",
+  "fix": "it may be wise to remove yourself, for a time, from the people or group",
+  "fate": "planted",
+  "why": "one of the nine planted errors (CANARIES.json)",
+  "whose": "planted"
+ },
+ {
+  "block": 227,
+  "readers": [
+   "pass 2 A"
+  ],
+  "text": "gentler, trancier, more deceptive form",
+  "what": "\"deceptive\" is the wrong word for a state meant to let you hear inner knowing; \"receptive\" is meant.",
+  "fix": "gentler, trancier, more receptive form",
+  "fate": "planted",
+  "why": "one of the nine planted errors (CANARIES.json)",
+  "whose": "planted"
+ },
+ {
+  "block": 320,
+  "readers": [
+   "pass 2 B"
+  ],
+  "text": "get you to where you can glisten.",
+  "what": "'glisten' (to shine) stands where 'listen' is meant; the whole part is about listening.",
+  "fix": "get you to where you can listen.",
+  "fate": "planted",
+  "why": "one of the nine planted errors (CANARIES.json)",
+  "whose": "planted"
+ },
+ {
+  "block": 356,
+  "readers": [
+   "pass 2 B"
+  ],
+  "text": "Fifteen minutes is just a handy ointment with yourself",
+  "what": "'ointment' stands for 'appointment'.",
+  "fix": "Fifteen minutes is just a handy appointment with yourself",
+  "fate": "planted",
+  "why": "one of the nine planted errors (CANARIES.json)",
+  "whose": "planted"
+ },
+ {
+  "block": 438,
+  "readers": [
+   "pass 2 B"
+  ],
+  "text": "more eating, more grinding, more healthy boundaries",
+  "what": "'grinding' makes no sense in a list of stabilising things; 'grounding' is meant.",
+  "fix": "more eating, more grounding, more healthy boundaries",
+  "fate": "planted",
+  "why": "one of the nine planted errors (CANARIES.json)",
+  "whose": "planted"
+ },
+ {
+  "block": 519,
+  "readers": [
+   "pass 2 C"
+  ],
+  "text": "fill in something very pacific for them",
+  "what": "'pacific' (peaceful, or the ocean) stands where 'specific' is meant, since the sentence is about vagueness letting the listener fill in their own detail.",
+  "fix": "fill in something very specific for them",
+  "fate": "planted",
+  "why": "one of the nine planted errors (CANARIES.json)",
+  "whose": "planted"
+ },
+ {
+  "block": 610,
+  "readers": [
+   "pass 2 C"
+  ],
+  "text": "and you stray with what you feel",
+  "what": "'stray' stands where 'stay' is meant; EFT has you stay with the feeling while tapping.",
+  "fix": "and you stay with what you feel",
+  "fate": "planted",
+  "why": "one of the nine planted errors (CANARIES.json)",
+  "whose": "planted"
+ },
+ {
+  "block": 704,
+  "readers": [
+   "pass 2 C"
+  ],
+  "text": "while you have compassion for it, the door is cloaked",
+  "what": "'cloaked' stands where 'closed' is meant; the section heading is 'compassion present, door closed' and the next lines are about keeping the boundary.",
+  "fix": "while you have compassion for it, the door is closed",
+  "fate": "planted",
+  "why": "one of the nine planted errors (CANARIES.json)",
+  "whose": "planted"
+ }
+]

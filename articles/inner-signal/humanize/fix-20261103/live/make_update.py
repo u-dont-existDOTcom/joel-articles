@@ -26,8 +26,9 @@ HERE = pathlib.Path(__file__).resolve().parent
 OLD = HERE.parents[1] / 'fix-20261102' / 'live' / 'ARCHIVAL-20261102.html'
 NEW = HERE / 'ARCHIVAL-20261103.html'
 VOID = {'br', 'img', 'hr', 'source', 'input', 'meta', 'link', 'wbr'}
-# The same characters as update.js's WS: every whitespace character either language's \s knows.
-WS = re.compile('[ \t\n\r\f\v   -     　﻿\x85\x1c-\x1f]+')
+# Whitespace, by code point (the same list as update.js's WS): every whitespace character either language's \s knows.
+WS = frozenset(map(chr, [0x20, 0x09, 0x0a, 0x0d, 0x0c, 0x0b, 0x85, 0xa0, 0x1680, 0x2028, 0x2029, 0x202f, 0x205f, 0x3000,
+                         0xfeff, 0x1c, 0x1d, 0x1e, 0x1f] + list(range(0x2000, 0x200b))))
 TOP_IMAGE = 1   # the image at the top, fdb94728, which he removed from the post before 2 November
 
 
@@ -116,7 +117,7 @@ def sig(block):
     t = native(block)
     if t:
         return 't:' + t
-    return hashlib.sha256(WS.sub('', text(block)).encode('utf-8')).hexdigest()[:6]
+    return hashlib.sha256(''.join(c for c in text(block) if c not in WS).encode('utf-8')).hexdigest()[:6]
 
 
 def main():
