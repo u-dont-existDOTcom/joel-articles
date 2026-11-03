@@ -106163,6 +106163,11 @@
           "path": "articles/bad-trips/humanize/baseline-20261103/LINT-MASTER.txt",
           "sha256": "539a18fd43a6ece82675c8ebb6fa21000c69914502f3d4041832fb8a03ff958c",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/experiments/t01-repeats/READER-C-SAFETY.md",
+          "sha256": "8cb45ed0113632494014445f93b72717ba7c19574a3ed30e450c3851bac65e4e",
+          "role": "humanization_working_record"
         }
       ]
     }
