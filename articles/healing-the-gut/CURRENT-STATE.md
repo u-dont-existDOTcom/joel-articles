@@ -11,20 +11,23 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
 ## Completed
 
 - 2026-11-03: imported and registered; fidelity keys extracted; his messages saved word for word.
+- 2026-11-03: paragraph-alone Pangram 4.1 baseline (27 units, `humanize/fix-20261103/baseline/RESULTS.json`): his first part Human (High) except the mitochondrial-fuels stretch in Leaky gut; Phases 1, 2, 4, 5, 6 and the stacks section AI; Phase 3 87% Human.
+- 2026-11-03 18:01 UTC: Joel answered the structure page (`experiments/t02-answers/`): S1 B (two parts, phases stay the Gem's, phases point back to his notes, explainer), S2, S5, S6 approved; S3 fuels stay in Leaky gut, Phase 5 only points back; S4 the stacks section is Gemini's; S7 he moves the Gem prompt to a doc.
+- 2026-11-03: r01 marking page (`humanize/fix-20261103/r01/`, 14 cards) and a clean Gem prompt (`GEM-PROMPT-CLEAN.md`, `.docx`) delivered.
 
 ## Current checkpoint
 
-Imported. Nothing in his post has changed.
+r01 marking page out for his decisions (store collection `decisions`); nothing in his post has changed.
 
 ## Remaining
 
-1. Check each paragraph alone through the API (one check per paragraph lineage) to map what reads AI.
-2. Structure page for Joel: block map, ways to line up his findings with the book recipe, contradictions and repeats between the parts, a recommended pick.
-3. After his pick: humanize on a marking page, paragraph by paragraph, under the production budget.
+1. Read his r01 decisions (G1-G14) and apply them to the HTML master as r01.
+2. Humanize the AI-reading blocks on a marking page, each checked in Pangram before he sees it.
+3. Put in the link to his Gem doc when he sends it.
 
 ## Blockers / unresolved
 
-- Whether the paid Gem instructions (a prompt written for Gemini) should be humanized at all: a question for Joel on the structure page.
+- G13 (stacks section: cut, label or keep) and G12 (straighten quotes) await his answers.
 
 ## Evidence / artifacts
 
@@ -32,4 +35,4 @@ Imported. Nothing in his post has changed.
 
 ## Next safe action
 
-Run the paragraph-alone API baseline.
+Read his r01 decisions from the page's store or his message.
