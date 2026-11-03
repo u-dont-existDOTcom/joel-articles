@@ -32,7 +32,36 @@ def main():
     mine = cr.owner_paragraphs(owner, ROOT)
     icg = cr.loose((H / 'fix-20261025' / 'ic-align' / 'IC-GUIDE.txt').read_text(encoding='utf-8'))
 
+    import difflib
+    orig_ss = [cr.loose(x) for b in sr.blocks((H / 'source' / 'published-20260928.md').read_text(encoding='utf-8'))
+               for x in cr.sentences(b['text']) if len(x.split()) >= 4]
+    icg_ss = [cr.loose(x) for x in cr.sentences((H / 'fix-20261025' / 'ic-align' / 'IC-GUIDE.txt').read_text(encoding='utf-8'))
+              if len(x.split()) >= 4]
+
+    def near(x, pool):
+        # a sentence of his with a typo fixed or a word changed (his published "led astray but your random wrong thoughts")
+        best = 0
+        for y in pool:
+            if abs(len(y) - len(x)) > max(12, len(x) // 4):
+                continue
+            sm = difflib.SequenceMatcher(None, x, y, autojunk=False)
+            if sm.real_quick_ratio() < 0.85 or sm.quick_ratio() < 0.85:
+                continue
+            best = max(best, sm.ratio())
+        return best >= 0.85
+
     def whose(i, text):
+        w = whose_exact(i, text)
+        if w != 'ours':
+            return w
+        ss = [cr.loose(x) for x in cr.sentences(text) if len(x.split()) >= 4]
+        if ss and any(near(x, orig_ss) for x in ss):
+            return 'his, as published (near-verbatim: a small fix of ours)'
+        if ss and any(near(x, icg_ss) for x in ss):
+            return 'his, from his inner child guide (near-verbatim)'
+        return 'ours'
+
+    def whose_exact(i, text):
         q = cr.loose(bl[i]['text'])
         if q and q in orig:
             return 'his, as published'
@@ -53,7 +82,7 @@ def main():
         for n, c in enumerate(r['candidates'], 1):
             i = c['block']
             ok = 0 <= i < len(bl) and c['cut'] in bl[i]['text']
-            c = dict(c, part=r['part'], id='P%d-%02d' % (r['part'], n), exact=ok,
+            c = dict(c, part=r['part'], id='P%s-%02d' % (r['part'], n), exact=ok,
                      whole_block=ok and c['cut'].strip() == bl[i]['text'].strip(),
                      where=sr.where(bl, i) if 0 <= i < len(bl) else '?',
                      whose=whose(i, c['cut']) if ok else '?')

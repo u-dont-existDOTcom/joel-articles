@@ -1,0 +1,33 @@
+{
+ "A": {
+  "archival": "articles/inner-signal/humanize/fix-20261103/free-whole/ARCHIVAL-SUBSTACK-20261103.html",
+  "archival_sha256": "28ba0497b791863d97b0fc3d82dbbeefac51e7a03475367dfce440180b80cae8",
+  "helper": "articles/inner-signal/humanize/fix-20261103/free-whole/COPY-TO-SUBSTACK-HYPNOSIS-RECHECK.html",
+  "helper_sha256": "2332bb7a1a7af32dbe7124d90150c5361e3efd211f0eb1a9a97480d3a1af589f",
+  "payload": "PAYLOAD-A.html",
+  "payload_sha256": "7b3f32a544a6e302f20f720da44a74192e426a623d1a7f45ffb85e1105c2e8d7",
+  "payload_chars": 193986,
+  "text": "TEXT-A.txt",
+  "text_sha256": "32cbd5b59408bafcd806e30fd4707cd6622ba664fe70f82e38b2e94942fba0c7",
+  "text_chars": 99999
+ },
+ "B": {
+  "archival": "articles/inner-signal/humanize/fix-20261103/free-whole/ARCHIVAL-SUBSTACK-20261103-B.html",
+  "archival_sha256": "b7aef33209ecacf41c5cdd5fff24597e79b307544ac35ad85f3aeca8b5230a09",
+  "helper": "articles/inner-signal/humanize/fix-20261103/free-whole/COPY-TO-SUBSTACK-HYPNOSIS-RECHECK-B.html",
+  "helper_sha256": "ff5fdcb342324bf9db17a4bad1468c1171d9a93dddd4b041dc14ce9bcf19136f",
+  "payload": "PAYLOAD-B.html",
+  "payload_sha256": "a3b46168f02bb8e3e7044112ac41010d3c48cd7abef9bc8d54fc63ab1bc8fa0f",
+  "payload_chars": 77021,
+  "text": "TEXT-B.txt",
+  "text_sha256": "7518c5a3051852d8a07bf83df9932da1d7b58872e53880213577f4304f964fc9",
+  "text_chars": 63869
+ },
+ "master": "articles/inner-signal/humanize/fix-20261103/free-whole/CANDIDATE-MASTER.md",
+ "master_sha256": "7e77327df4ead54e8d233219387ee59a3506e9fb0a0f2a45c26d0d60d2b1883f",
+ "working_copy_sha256": "7e77327df4ead54e8d233219387ee59a3506e9fb0a0f2a45c26d0d60d2b1883f",
+ "merge": {
+  "verdict": "PASS",
+  "report": "MERGE-REPORT-20261103.json"
+ }
+}

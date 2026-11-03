@@ -33,7 +33,7 @@ SHA = '090588f72475fbddf5528b9db50193bf50572fc5f99542a52fab02e36db15de0'
 
 def tidy(s):
     s = re.sub(r'\s+', ' ', s).strip()
-    s = re.sub(r'\s+([,.;:!?])', r'\1', s)
+    s = re.sub(r'\s+([,.;:!?)])', r'\1', s)
     return s
 
 
@@ -67,8 +67,9 @@ def main():
             else:
                 text = tidy(text.replace(d['cut'], ' ', 1))
             done.append(d['id'])
-        if whole:
-            assert len(ds) == 1, (i, 'a whole-paragraph cut and another cut in one block')
+        if whole or not tidy(text):
+            # one cut of the whole paragraph, or cuts that together take all of it (P2a-06 and P2a-07)
+            assert len(ds) == 1 or not tidy(text), (i, 'a whole-paragraph cut and another cut in one block')
             new_raw[i] = []
         else:
             before = len(lost)
