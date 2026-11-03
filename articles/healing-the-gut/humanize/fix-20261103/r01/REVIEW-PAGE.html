@@ -770,7 +770,11 @@ input:focus-visible,textarea:focus-visible,select:focus-visible,button:focus-vis
   });
 
   // ---------------------------------------------------------------- moving around
-  function visibleCards() { return ORDER.map(id => cards[id]).filter(c => c && !c.hidden && c.offsetParent !== null); }
+  // The cards in the order they stand on the page, not the order of REVIEW.json: Next and Previous move down and up the
+  // page. (Joel, 2026-11-03 19:12 UTC, on the gut article's r01 page: "your next button is skipping questions fix that".
+  // The list came from ORDER, the suggestions' file order, which put the three question cards last although one sat near
+  // the top of the article and the others between decision cards, so Next passed over them.)
+  function visibleCards() { return $$('.card[data-id]').filter(c => cards[c.dataset.id] === c && !c.hidden && c.offsetParent !== null); }
   function openCard(c) { const body = $('.card-body', c); if (body.hidden) { body.hidden = false; const f = $('.fold', c); f.textContent = 'Fold'; f.setAttribute('aria-expanded', 'true'); } }
   function flash(c) { c.classList.remove('flash'); void c.offsetWidth; c.classList.add('flash'); }
   function goTo(c) { openCard(c); c.scrollIntoView({ behavior: 'smooth', block: 'start' }); flash(c); }
