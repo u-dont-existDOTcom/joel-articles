@@ -24,11 +24,14 @@ def fidelity(before, after):
         return [l for l in lines if not l.startswith('numbers_new')]
 
 
-out = {}
+old = HERE / 'CHECKS.json'
+out = json.loads(old.read_text(encoding='utf-8')) if old.exists() else {}
 for wf in sys.argv[1:]:
-    w = json.loads((HERE / wf).read_text(encoding='utf-8'))
+    w = json.loads((HERE / wf).read_text(encoding='utf-8'))  # a writer's file, relative to this folder; units it lacks are skipped
     res = {}
     for k, before in units.items():
+        if k not in w:
+            continue
         after = w[k]['text']
         probs = fidelity(before, after)
         for url in LINK.findall(before):
@@ -44,6 +47,6 @@ for wf in sys.argv[1:]:
         res[k] = {'words_before': len(before.split()), 'words_after': len(after.split()), 'problems': probs}
     out[wf] = res
 (HERE / 'CHECKS.json').write_text(json.dumps(out, indent=1, ensure_ascii=False), encoding='utf-8')
-for wf, res in out.items():
-    for k, r in res.items():
+for wf in sys.argv[1:]:
+    for k, r in out[wf].items():
         print(wf, k, r['words_before'], '->', r['words_after'], '|', '; '.join(r['problems'])[:300] or 'ok')

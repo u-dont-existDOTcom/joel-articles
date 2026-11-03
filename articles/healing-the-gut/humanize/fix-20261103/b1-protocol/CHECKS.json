@@ -44,5 +44,22 @@
    "words_after": 104,
    "problems": []
   }
+ },
+ "polish/writer_D_units.json": {
+  "P2": {
+   "words_before": 101,
+   "words_after": 93,
+   "problems": [
+    "numbers_lost: 1",
+    "numbers_lost: 2"
+   ]
+  },
+  "P5": {
+   "words_before": 151,
+   "words_after": 156,
+   "problems": [
+    "warning lost: Now you must rebuild a diverse ecosystem to prevent relapse. | missing [['must']]"
+   ]
+  }
  }
 }
