@@ -39,8 +39,9 @@ found" means the searches turned up nothing either way.
    dependence in animals ([Regunathan 2006](https://doi.org/10.1208/aapsj080356);
    [Wu et al. 2007](https://doi.org/10.1007/s10571-007-9164-y)). **Keep.**
 2. **Opioids and kratom** (your version: "will reduce tolerance"). In animals agmatine made morphine's pain relief
-   stronger, reduced dependence and withdrawal, and changed how tolerance builds (the same two reviews), so the same
-   dose of an opioid could act stronger, which matters for someone who doses to their tolerance. Kratom wasn't studied with it, but it acts on
+   stronger, reduced dependence and withdrawal (the same two reviews), and kept tolerance from building
+   ([Kitto & Fairbanks 2006](https://doi.org/10.1016/j.ejphar.2006.01.053)), so the same dose of an opioid could act
+   stronger, which matters for someone who doses to their tolerance. Kratom wasn't studied with it, but it acts on
    opioid receptors too. No human report. **Keep**: "will reduce tolerance" is what the animal work found.
 3. **Clonidine, guanfacine and blood-pressure medication.** By mechanism this one stands: agmatine binds clonidine's
    receptors, so with these drugs the pressure could drop further. No study of the combination, and the human trials'
@@ -76,7 +77,8 @@ found" means the searches turned up nothing either way.
    - *Low blood pressure*: by mechanism, as in point 3. **Keep.**
    - *Kidney or liver disease*: no study found. **Your call.**
    - *Relapse risk*: the animal work points the other way: agmatine eased withdrawal from several addictive drugs
-     ([Uzbay 2012](https://doi.org/10.2174/092986712803530601); Regunathan 2006). No report of it raising relapse. **Cut.**
+     ([Uzbay 2012](https://doi.org/10.2174/092986712803530601); Regunathan 2006), and in rodents it cut opioid
+     self-administration ([Wade et al. 2009](https://doi.org/10.1124/jpet.109.155424)). No report of it raising relapse. **Cut.**
 9. **When to stop** ("flatness, anhedonia, emotional blunting, new depression, agitation, insomnia, dizziness,
    palpitations, nausea, loose stools, diarrhea, or increased craving"). Only the stomach ones showed up in the trials.
    The rest aren't in the studies I found, and in animals agmatine acted against depression (Uzbay 2011). **If flatness
