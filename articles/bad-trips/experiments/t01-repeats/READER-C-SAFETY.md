@@ -11,7 +11,7 @@ Not counted as safety lines: words to say aloud (B24–B28, B45 = B288, B243–B
 - B7 "Get urgent help while giving basic first aid" EMERGENCY, KEEP-HERE, life
 - B7 "Medical help and field rescue can happen in parallel." REASSURE, ONE-PLACE C3
 - B7 "don’t spiritually process a body" ACTION, KEEP-HERE
-- B9 "Take that seriously even if they are high." ACTION, KEEP-HERE, life
+- B9 "Take that seriously" ACTION, KEEP-HERE, life
 - B9 "The phrase is not a diagnosis" NOT-X, KEEP-HERE, life
 - B9 "whether they can stay awake, breathe normally" EMERGENCY, KEEP-HERE, life
 - B9 "These checks include several recognized" EVIDENCE, KEEP-HERE
@@ -25,19 +25,19 @@ Not counted as safety lines: words to say aloud (B24–B28, B45 = B288, B243–B
 - B20 "If movement makes you more impulsive" ACTION, REPEAT B250
 - B21 "Avoid strenuous exercise with overheating" ACTION, KEEP-HERE, life
 - B30 "Keys away." ACTION, KEEP-HERE, life
-- B30 "Use the phone for support only, rather than posting." ACTION, KEEP-HERE
+- B30 "Use the phone for support only" ACTION, KEEP-HERE
 - B31 "No big actions until morning." ACTION, KEEP-HERE, life
 - B32 "If movement escalates you" ACTION, REPEAT B250
-- B34 "only after the quick neurological screen is reassuring" ACTION, KEEP-HERE, life
+- B34 "only after the quick neurological screen" ACTION, KEEP-HERE, life
 - B36 "no long breath-holds while intoxicated" ACTION, KEEP-HERE
 - B37 "rather than become a new breathing project" NOT-X, REPEAT B302
 - B39 "can be more dangerous than fear" ACTION, REPEAT B324
 - B40 "The action-lock applies double" ACTION, KEEP-HERE, life
-- B41 "If the revelation is true, it will survive sleep and breakfast." REASSURE, REPEAT B328
+- B41 "it will survive sleep and breakfast" REASSURE, REPEAT B328
 - B43 "Don’t agree with harmful conclusions either." ACTION, KEEP-HERE, life
 - B46 "Get crisis or emergency help" EMERGENCY, KEEP-HERE, life
 - B48 "don’t let “toxins” distract from repeated vomiting" EMERGENCY, KEEP-HERE, life
-- B49 "a personal field note, rather than standard emergency medicine" EVIDENCE, KEEP-HERE
+- B49 "a personal field note" EVIDENCE, KEEP-HERE
 - B50 "it isn’t a universal “I took too much” remedy" NOT-X, REPEAT B127
 - B50 "It can be dangerous when someone is vomiting" ACTION, KEEP-HERE, life
 - B52 "stopping the trip can be narrow" ACTION, REPEAT B173
@@ -64,7 +64,7 @@ Not counted as safety lines: words to say aloud (B24–B28, B45 = B288, B243–B
 - B77 "The emergency room is not magic" NOT-X, ONE-PLACE C22
 - B77 "those drugs don’t reliably address psychosis" EVIDENCE, ONE-PLACE C22
 - B77 "Calling for help is not the same thing" NOT-X, NO-ACTION
-- B77 "the decision belongs to the actual symptom pattern" ACTION, REPEAT B126
+- B77 "the actual symptom pattern" ACTION, REPEAT B126
 - B80 "offer water without forcing it" ACTION, REPEAT B240
 - B80 "stop touching unless touch is wanted" ACTION, REPEAT B392
 - B87 "A horrible thought isn’t automatically a revelation." NOT-X, REPEAT B69
@@ -88,54 +88,54 @@ Not counted as safety lines: words to say aloud (B24–B28, B45 = B288, B243–B
 - B97 "Panic won’t settle." GENERAL, ONE-PLACE C25
 - B97 "The person can’t function afterward." GENERAL, ONE-PLACE C25
 - B97 "The trauma material is bigger than the room can hold." GENERAL, ONE-PLACE C25
-- B100 "It does not always mean that an ambulance is the first" NOT-X, ONE-PLACE C3
-- B100 "may respond faster to field rescue than to hours in an emergency room" GENERAL, ONE-PLACE C22
-- B103 "Do not dismiss that report because the person is high" ACTION, KEEP-HERE, life
+- B100 "an ambulance is the first" NOT-X, ONE-PLACE C3
+- B100 "faster to field rescue" GENERAL, ONE-PLACE C22
+- B103 "Do not dismiss that report" ACTION, KEEP-HERE, life
 - B103 "I’m still collecting data from others" EVIDENCE, KEEP-HERE
 - B104 "check wakefulness, breathing, temperature, speech" EMERGENCY, KEEP-HERE, life
 - B104 "has not passed the screen" ACTION, KEEP-HERE, life
-- B105 "That judgment is stronger than the clinical evidence" EVIDENCE, KEEP-HERE
-- B106 "I would use DMSO immediately **while someone calls medics**" EMERGENCY, KEEP-HERE, life
-- B106 "DMSO cannot identify whether the problem is a clot" NOT-X, KEEP-HERE, life
-- B106 "missing a bleed because the symptoms improved" ACTION, KEEP-HERE, life
+- B105 "stronger than the clinical evidence" EVIDENCE, KEEP-HERE
+- B106 "**while someone calls medics**" EMERGENCY, KEEP-HERE, life
+- B106 "DMSO cannot identify" NOT-X, KEEP-HERE, life
+- B106 "missing a bleed" ACTION, KEEP-HERE, life
 - B107 "evidence that pes-caprae aborts MDMA" EVIDENCE, REPEAT B178
 - B109 "Time the seizure." ACTION, KEEP-HERE, life
-- B109 "Protect the person from injury, clear dangerous objects" ACTION, KEEP-HERE, life
+- B109 "Protect the person from injury" ACTION, KEEP-HERE, life
 - B109 "Don’t restrain them and don’t put anything in their mouth" ACTION, KEEP-HERE, life
 - B110 "established first-line drug class" EVIDENCE, KEEP-HERE
 - B110 "An ordinary pill is not the same thing" NOT-X, KEEP-HERE, life
-- B110 "respiratory depressants in the mix change the risk" ACTION, KEEP-HERE, life
-- B111 "it has not been validated as rapid seizure rescue" EVIDENCE, KEEP-HERE
-- B111 "it produced the opposite effect at some doses" EVIDENCE, KEEP-HERE
-- B111 "rather than something to wait on while a seizure continues" ACTION, KEEP-HERE, life
-- B112 "Call medics for a convulsive seizure lasting about five minutes" EMERGENCY, KEEP-HERE, life
+- B110 "respiratory depressants in the mix" ACTION, KEEP-HERE, life
+- B111 "not been validated as rapid seizure rescue" EVIDENCE, KEEP-HERE
+- B111 "the opposite effect at some doses" EVIDENCE, KEEP-HERE
+- B111 "wait on while a seizure continues" ACTION, KEEP-HERE, life
+- B112 "Call medics for a convulsive seizure" EMERGENCY, KEEP-HERE, life
 - B114 "rather than a direct clinical trial" EVIDENCE, KEEP-HERE
-- B119 "Jaw tension should also mean no more MDMA" ACTION, KEEP-HERE, life
+- B119 "no more MDMA" ACTION, KEEP-HERE, life
 - B119 "Worsening headache, confusion, vomiting, weakness" EMERGENCY, KEEP-HERE, life
 - B119 "MDMA is documented to cause" EVIDENCE, KEEP-HERE
-- B120 "People with impaired kidneys do need to be more cautious" ACTION, KEEP-HERE
-- B120 "Kidney impairment is a strong reason not to take MDMA" ACTION, KEEP-HERE
+- B120 "People with impaired kidneys" ACTION, KEEP-HERE
+- B120 "a strong reason not to take MDMA" ACTION, KEEP-HERE
 - B120 "to copy my one-gram-per-minute approach blindly" ACTION, KEEP-HERE
-- B120 "treat the situation as higher-risk and get help sooner" EMERGENCY, KEEP-HERE, life
-- B122 "with the decision about medics based on severity" EMERGENCY, REPEAT B124
+- B120 "get help sooner" EMERGENCY, KEEP-HERE, life
+- B122 "the decision about medics" EMERGENCY, REPEAT B124
 - B123 "The cardiovascular science is preclinical but relevant." EVIDENCE, KEEP-HERE
 - B124 "Mild, familiar, non-progressive discomfort" EMERGENCY, KEEP-HERE, life
-- B124 "I would use DMSO while arranging medical evaluation" EMERGENCY, KEEP-HERE, life
-- B124 "pain relief alone does not prove that the underlying problem has ended" NOT-X, KEEP-HERE, life
+- B124 "while arranging medical evaluation" EMERGENCY, KEEP-HERE, life
+- B124 "pain relief alone does not prove" NOT-X, KEEP-HERE, life
 - B126 "“Overdose” is too vague to choose a remedy." ACTION, KEEP-HERE
-- B127 "It does not bind every toxin, can adsorb necessary medication" ACTION, KEEP-HERE
-- B127 "creates aspiration risk in somebody who is vomiting" ACTION, KEEP-HERE, life
-- B128 "Poison control may be useful when the substance" GENERAL, KEEP-HERE
-- B128 "I do not treat it as a mandatory ritual" GENERAL, KEEP-HERE
+- B127 "can adsorb necessary medication" ACTION, KEEP-HERE
+- B127 "creates aspiration risk" ACTION, KEEP-HERE, life
+- B128 "Poison control may be useful" GENERAL, KEEP-HERE
+- B128 "a mandatory ritual" GENERAL, KEEP-HERE
 - B128 "It is decision support, not first aid." NOT-X, KEEP-HERE
 - B130 "do not necessarily treat it" NOT-X, KEEP-HERE, life
 - B130 "some opioids can contribute, especially in combinations" ACTION, KEEP-HERE
-- B134 "rather than a command to wait for every criterion" NOT-X, KEEP-HERE, life
+- B134 "wait for every criterion" NOT-X, KEEP-HERE, life
 - B134 "rapid worsening deserves medical help" EMERGENCY, KEEP-HERE, life
 - B136 "Stop all suspected serotonergic substances." ACTION, KEEP-HERE, life
-- B136 "If the person is fully alert and able to swallow" ACTION, KEEP-HERE, life
+- B136 "fully alert and able to swallow" ACTION, KEEP-HERE, life
 - B136 "the evidence for major outcomes inconclusive" EVIDENCE, KEEP-HERE
-- B136 "I would not wait to see whether it works" ACTION, KEEP-HERE, life
+- B136 "not wait to see whether it works" ACTION, KEEP-HERE, life
 - B136 "Call emergency help and arrange transport" EMERGENCY, KEEP-HERE, life
 - B136 "Don’t drive yourself." ACTION, KEEP-HERE, life
 - B136 "but it is not the treatment" NOT-X, REPEAT B128
@@ -143,7 +143,7 @@ Not counted as safety lines: words to say aloud (B24–B28, B45 = B288, B243–B
 - B136 "Don’t put a confused, seizing, or very weak person in a bath." ACTION, KEEP-HERE, life
 - B136 "Fever reducers do not solve heat" NOT-X, KEEP-HERE, life
 - B136 "Keep stimulation low and prevent exertion." ACTION, KEEP-HERE, life
-- B136 "muscle activity can worsen heat and rhabdomyolysis risk" ACTION, KEEP-HERE, life
+- B136 "muscle activity can worsen heat" ACTION, KEEP-HERE, life
 - B136 "Hydrate only when fully alert and not vomiting." ACTION, KEEP-HERE, life
 - B136 "Don’t force fluids, food, pills, or charcoal" ACTION, KEEP-HERE, life
 - B136 "Gather the evidence for the ER." EMERGENCY, KEEP-HERE
@@ -151,104 +151,104 @@ Not counted as safety lines: words to say aloud (B24–B28, B45 = B288, B243–B
 - B136 "DMSO is also not part of this branch." ACTION, KEEP-HERE
 - B136 "it does not replace treatment of dangerous heat" NOT-X, REPEAT B136 step 4
 - B139 "Some branches call for medics in parallel." GENERAL, REPEAT B95
-- B139 "a fast field remedy may be more useful" GENERAL, REPEAT B77
+- B139 "a fast field remedy" GENERAL, REPEAT B77
 - B140 "Sometimes the person is nauseated, overheated" ACTION, REPEAT B69
-- B142 "Medical danger may need medical help while field rescue begins." GENERAL, REPEAT B95
-- B142 "A gut-driven mental hell is not automatically shadow work." NOT-X, REPEAT B69
+- B142 "while field rescue begins" GENERAL, REPEAT B95
+- B142 "not automatically shadow work" NOT-X, REPEAT B69
 - B144 "Do not manufacture reassurance from missing information." ACTION, REPEAT B104
 - B144 "safety matters more than preserving the experience" GENERAL, REPEAT B10
-- B144 "I do not yet have data that pes-caprae aborts MDMA." EVIDENCE, REPEAT B178
+- B144 "data that pes-caprae aborts MDMA" EVIDENCE, REPEAT B178
 - B144 "Bring in medical help in parallel" EMERGENCY, REPEAT B106
 - B145 "After medical danger, environment, dose" GENERAL, ONE-PLACE C1
-- B148 "they do not turn it into a population rate" EVIDENCE, ONE-PLACE C30
+- B148 "a population rate" EVIDENCE, ONE-PLACE C30
 - B149 "without pretending every useful rescue" EVIDENCE, NO-ACTION
-- B154 "it may cause itching in somebody low in histamine-processing bacteria" ACTION, KEEP-HERE
+- B154 "it may cause itching" ACTION, KEEP-HERE
 - B156 "never inhaling ozone gas" ACTION, KEEP-HERE
-- B162 "Charcoal can also adsorb medications somebody depends on." ACTION, KEEP-HERE
+- B162 "adsorb medications somebody depends on" ACTION, KEEP-HERE
 - B162 "tell the medics if charcoal was taken" EMERGENCY, KEEP-HERE
-- B167 "I wouldn’t reach for it first when somebody is already becoming manic" ACTION, KEEP-HERE
-- B173 "the difference between that amount and a trip-aborting amount is narrow" ACTION, KEEP-HERE
-- B173 "comfortable with the possibility that the trip may end" ACTION, KEEP-HERE
-- B174 "Avoiding contact with the broken portion prevents that effect." ACTION, KEEP-HERE
+- B167 "already becoming manic" ACTION, KEEP-HERE
+- B173 "a trip-aborting amount is narrow" ACTION, KEEP-HERE
+- B173 "the trip may end" ACTION, KEEP-HERE
+- B174 "Avoiding contact with the broken portion" ACTION, KEEP-HERE
 - B175 "may prevent tripping for days afterward" ACTION, KEEP-HERE
-- B178 "I do not yet have data showing that pes-caprae aborts MDMA." EVIDENCE, KEEP-HERE
+- B178 "data showing that pes-caprae aborts MDMA" EVIDENCE, KEEP-HERE
 - B188 "I don’t understand the mechanism." EVIDENCE, KEEP-HERE
 - B192 "I am never recommending ozone inhalation." ACTION, KEEP-HERE
 - B196 "No ozone gas was present" ACTION, REPEAT B192
 - B197 "I don’t recommend inhaling ozone." ACTION, REPEAT B192
 - B198 "Shungite should not be drunk unless" ACTION, KEEP-HERE
-- B201 "there is generally no harm in taking both or mixing them" REASSURE, KEEP-HERE
-- B201 "what I consider a perfect safety profile" REASSURE, NO-ACTION
-- B203 "Leaving 100% DMSO on the skin can crenate it" ACTION, KEEP-HERE
+- B201 "generally no harm in taking both" REASSURE, KEEP-HERE
+- B201 "a perfect safety profile" REASSURE, NO-ACTION
+- B203 "Leaving 100% DMSO on the skin" ACTION, KEEP-HERE
 - B203 "the mouth should be moist first" ACTION, KEEP-HERE
-- B203 "dilute it in water, juice, or milk and sip gradually" ACTION, KEEP-HERE
-- B203 "DMSO reduces how long I sleep when I take too much" ACTION, KEEP-HERE
+- B203 "dilute it in water, juice, or milk" ACTION, KEEP-HERE
+- B203 "DMSO reduces how long I sleep" ACTION, KEEP-HERE
 - B205 "Don’t put it on dirty skin" ACTION, KEEP-HERE
 - B205 "Don’t nebulize too much DMSO" ACTION, KEEP-HERE
-- B205 "Don’t take it with drugs that should not absorb rapidly" ACTION, KEEP-HERE
+- B205 "drugs that should not absorb rapidly" ACTION, KEEP-HERE
 - B205 "Don’t combine it with cholinergic drugs" ACTION, KEEP-HERE
 - B205 "Don’t combine it with blood-thinning medication" ACTION, KEEP-HERE
-- B207 "DMSO has produced both anticonvulsant and proconvulsant effects" EVIDENCE, KEEP-HERE
+- B207 "both anticonvulsant and proconvulsant effects" EVIDENCE, KEEP-HERE
 - B207 "It may worsen a cluster headache" ACTION, KEEP-HERE
 - B207 "Use caution with MCAS." ACTION, KEEP-HERE
 - B212 "A vitamin is not automatically harmless." NOT-X, KEEP-HERE
-- B214 "This is normal, although some people find it intolerable" REASSURE, KEEP-HERE
-- B214 "Higher or repeated doses can create real risk" ACTION, KEEP-HERE
+- B214 "This is normal" REASSURE, KEEP-HERE
+- B214 "Higher or repeated doses" ACTION, KEEP-HERE
 - B215 "Avoid sustained-release niacin" ACTION, KEEP-HERE
-- B218 "Useful substances can still be poor rescue tools" GENERAL, NO-ACTION
+- B218 "poor rescue tools" GENERAL, NO-ACTION
 - B219 "it could destabilize somebody prone to mania" ACTION, KEEP-HERE
-- B219 "I wouldn’t use it casually during a bad trip." ACTION, KEEP-HERE
+- B219 "I wouldn’t use it casually" ACTION, KEEP-HERE
 - B220 "it is not a casual rescue tool" NOT-X, KEEP-HERE
 - B221 "extremely careful with *Acacia confusa* eaten with *Mimosa hostilis*" ACTION, KEEP-HERE
-- B221 "The later benefit did not make the crisis recommendable." NOT-X, REPEAT B221 first line
+- B221 "did not make the crisis recommendable" NOT-X, REPEAT B221 first line
 - B222 "potentiates many drugs and can be dangerous" ACTION, KEEP-HERE
 - B222 "I include that only as a warning." GENERAL, NO-ACTION
-- B236 "Begin with whatever could hurt somebody in the next five minutes." GENERAL, ONE-PLACE C1
-- B236 "Put away the car keys. Turn off the stove." ACTION, REPEAT B14
+- B236 "in the next five minutes" GENERAL, ONE-PLACE C1
+- B236 "Put away the car keys." ACTION, REPEAT B14
 - B236 "Move away from roads, balconies, water, weapons" ACTION, REPEAT B13
-- B236 "Take the phone when somebody is preparing to publish" ACTION, REPEAT B14
-- B237 "Movement is allowed. Unsafe movement is not." ACTION, REPEAT B13
+- B236 "Take the phone" ACTION, REPEAT B14
+- B237 "Unsafe movement is not." ACTION, REPEAT B13
 - B237 "No driving, redosing, confrontations, or leaving alone." ACTION, REPEAT B40
-- B238 "Is somebody touching the person when touch is unwelcome?" ACTION, REPEAT B392
+- B238 "when touch is unwelcome" ACTION, REPEAT B392
 - B240 "Offer water without forcing it. Sip rather than chug." ACTION, KEEP-HERE
 - B240 "Ask before touching." ACTION, REPEAT B391
-- B241 "keep the person able to stop or change it immediately" ACTION, REPEAT B16
-- B246 "let meaning wait until the nervous system has somewhere to stand" GENERAL, ONE-PLACE C1
-- B247 "An open portal does not obligate you to keep pushing through it." NOT-X, REPEAT B428
-- B250 "When pacing begins to resemble escape, sit against a wall" ACTION, KEEP-HERE
-- B251 "Stop if the task increases agitation, speed, or risk." ACTION, REPEAT B250
-- B252 "A useful order is **body → room → human → time → meaning**." GENERAL, ONE-PLACE C1
+- B241 "stop or change it immediately" ACTION, REPEAT B16
+- B246 "let meaning wait" GENERAL, ONE-PLACE C1
+- B247 "An open portal does not obligate you" NOT-X, REPEAT B428
+- B250 "When pacing begins to resemble escape" ACTION, KEEP-HERE
+- B251 "Stop if the task increases agitation" ACTION, REPEAT B250
+- B252 "**body → room → human → time → meaning**" GENERAL, ONE-PLACE C1
 - B255 "exceeds what one person can hold" GENERAL, ONE-PLACE C9
-- B262 "Save the relevant links and local numbers *before* you need them." GENERAL, ONE-PLACE C19
+- B262 "Save the relevant links and local numbers" GENERAL, ONE-PLACE C19
 - B262 "not every option works in every country" GENERAL, ONE-PLACE C19
-- B262 "Psychedelic peer support does not replace emergency, medical, psychiatric" NOT-X, ONE-PLACE C19
+- B262 "Psychedelic peer support does not replace" NOT-X, ONE-PLACE C19
 - B264 "Non-clinical and non-emergency." NOT-X, REPEAT B262
 - B264 "Peer support, rather than clinical or emergency care." NOT-X, REPEAT B262
 - B270 "rather than a substitute for medical or psychiatric treatment" NOT-X, REPEAT B262
 - B270 "It is neither therapy nor immediate crisis care." NOT-X, REPEAT B262
-- B272 "use the phone only to reach a calm person or support service" ACTION, REPEAT B30
-- B273 "Find A Helpline and a local crisis service for fear, despair, self-harm" GENERAL, KEEP-HERE, life
+- B272 "use the phone only" ACTION, REPEAT B30
+- B273 "a local crisis service for fear, despair, self-harm" GENERAL, KEEP-HERE, life
 - B274 "When movement makes you more frantic" ACTION, REPEAT B250
-- B276 "Get urgent help when somebody may harm themselves or another person" EMERGENCY, ONE-PLACE C16 and C2
-- B277 "is a safety signal, rather than merely philosophical content" NOT-X, REPEAT B286
-- B278 "Use local emergency services for immediate danger or a medical emergency." EMERGENCY, ONE-PLACE C16
+- B276 "Get urgent help when somebody may harm themselves" EMERGENCY, ONE-PLACE C16 and C2
+- B277 "rather than merely philosophical content" NOT-X, REPEAT B286
+- B278 "Use local emergency services for immediate danger" EMERGENCY, ONE-PLACE C16
 - B278 "988 can provide mental-health crisis guidance" GENERAL, ONE-PLACE C19
-- B278 "Call 911 for immediate danger, a crime in progress" EMERGENCY, ONE-PLACE C16
-- B278 "identify the local emergency number and crisis line before you ever need them" GENERAL, REPEAT B262
+- B278 "Call 911 for immediate danger" EMERGENCY, ONE-PLACE C16
+- B278 "before you ever need them" GENERAL, REPEAT B262
 - B282 "Call for help early when safety is slipping." GENERAL, ONE-PLACE C16
 - B284 "Don’t validate harmful conclusions." ACTION, REPEAT B43
 - B284 "Don’t crowd them with five worried friends." GENERAL, REPEAT B255
 - B284 "Don’t force eye contact, touch, music" ACTION, REPEAT B392
-- B284 "Don’t teach nondual demonology to somebody who needs the lights down and a doctor." ACTION, REPEAT B7
-- B286 "Nodding along as though harm is spiritually neutral is also unacceptable." ACTION, KEEP-HERE, life
+- B284 "Don’t teach nondual demonology" ACTION, REPEAT B7
+- B286 "Nodding along as though harm is spiritually neutral" ACTION, KEEP-HERE, life
 - B286 "Treat the statement as a safety signal" ACTION, KEEP-HERE, life
 - B289 "If it’s true, it survives breakfast." REASSURE, REPEAT B328
 - B290 "Don’t validate violence." ACTION, KEEP-HERE, life
-- B290 "bring in crisis support as early and as non-coercively as the situation allows" EMERGENCY, REPEAT B292
+- B290 "bring in crisis support as early" EMERGENCY, REPEAT B292
 - B291 "Create distance from potential targets and keep your own exit." ACTION, KEEP-HERE, life
 - B291 "Don’t block, crowd, threaten, mock, or physically wrestle away a weapon." ACTION, KEEP-HERE, life
 - B291 "Quietly remove means only when that can be done without confrontation" ACTION, KEEP-HERE, life
-- B292 "recruit one additional calm adult or crisis professional" GENERAL, REPEAT B255
+- B292 "recruit one additional calm adult" GENERAL, REPEAT B255
 - B292 "Call crisis or emergency services for a specific target, available means" EMERGENCY, KEEP-HERE, life
 - B293 "Be brief and specific with emergency services" EMERGENCY, KEEP-HERE, life
 - B298 "Keep what helps and stop what escalates." ACTION, REPEAT B250
@@ -256,19 +256,19 @@ Not counted as safety lines: words to say aloud (B24–B28, B45 = B288, B243–B
 - B302 "Never force breath-holds while intoxicated or panicked." ACTION, KEEP-HERE
 - B302 "Stop for increased fear, dizziness, chest pain, or medical concern." ACTION, KEEP-HERE
 - B304 "Keep the stop or change control immediate." ACTION, REPEAT B16
-- B304 "Music should remain an option, rather than become another authority" NOT-X, REPEAT B16
-- B308 "let that person bring in one additional calm adult or crisis professional" GENERAL, REPEAT B255
+- B304 "rather than become another authority" NOT-X, REPEAT B16
+- B308 "let that person bring in one additional calm adult" GENERAL, REPEAT B255
 - B310 "Put every big decision into tomorrow’s notebook." ACTION, REPEAT B318
-- B312 "Go outside only away from roads, heights, crowds, and water." ACTION, REPEAT B13
-- B312 "Avoid strenuous exercise with overheating, chest pain, faintness" ACTION, REPEAT B21
-- B313 "the best-supported general advice is to create a safe, low-stimulation environment" EVIDENCE, KEEP-HERE
-- B313 "Movement is a tool to test, rather than a rule to obey." NOT-X, NO-ACTION
+- B312 "Go outside only away from roads" ACTION, REPEAT B13
+- B312 "Avoid strenuous exercise with overheating" ACTION, REPEAT B21
+- B313 "the best-supported general advice" EVIDENCE, KEEP-HERE
+- B313 "rather than a rule to obey" NOT-X, NO-ACTION
 - B314 "mainly concerns asthma and breathing retraining" EVIDENCE, KEEP-HERE
 - B314 "Use the simpler longer-exhale option first." ACTION, KEEP-HERE
 - B314 "Never strain or turn breathing into another achievement." ACTION, REPEAT B302
 - B316 "Urgency does not make action safe." NOT-X, REPEAT B318
 - B317 "Use a 24–72 hour action lock." ACTION, KEEP-HERE
-- B318 "Until you have slept and eaten, don’t drive, travel, break up" ACTION, KEEP-HERE
+- B318 "Until you have slept and eaten" ACTION, KEEP-HERE
 - B319 "Revisit it sober with one grounded person." ACTION, REPEAT B318
 - B320 "“I saw it” does not create a duty to act." NOT-X, KEEP-HERE
 - B320 "No entity, deity, demon, ancestor" NOT-X, REPEAT B321
@@ -276,40 +276,40 @@ Not counted as safety lines: words to say aloud (B24–B28, B45 = B288, B243–B
 - B324 "Bliss is not proof of safety" NOT-X, KEEP-HERE
 - B325 "The danger may be action rather than panic" ACTION, REPEAT B324
 - B327 "Sleep comes before mission." ACTION, REPEAT B318
-- B327 "A recurring pattern with lost sleep, racing thoughts, pressured speech" GENERAL, KEEP-HERE
+- B327 "A recurring pattern with lost sleep" GENERAL, KEEP-HERE
 - B328 "If it is true, it survives sleep." REASSURE, KEEP-HERE
 - B336 "call for help when needed" GENERAL, NO-ACTION
-- B350 "what we shouldn’t be doing is feeling like we need to use these substances" GENERAL, KEEP-HERE
-- B353 "that can be a recipe for long-term harm" ACTION, KEEP-HERE
+- B350 "we need to use these substances" GENERAL, KEEP-HERE
+- B353 "a recipe for long-term harm" ACTION, KEEP-HERE
 - B353 "Ketamine is super easy to abuse" ACTION, KEEP-HERE
 - B361 "Every hard experience is not a profound lesson." NOT-X, REPEAT B69
 - B368 "don’t begin already depleted" GENERAL, KEEP-HERE
 - B368 "review combinations and medical concerns" GENERAL, KEEP-HERE
 - B370 "return to the acute checklist" GENERAL, ONE-PLACE C1
-- B375 "no metaphysics, diagnosis, or life decisions while peaking" ACTION, REPEAT B318
+- B375 "life decisions while peaking" ACTION, REPEAT B318
 - B391 "Compassion does not mean grabbing, hugging, restraining" NOT-X, KEEP-HERE
 - B391 "Would touch help, or would you rather have space?" ACTION, KEEP-HERE
-- B392 "When the person says stop, freezes, pulls away, or seems unsure, stop." ACTION, KEEP-HERE
+- B392 "When the person says stop" ACTION, KEEP-HERE
 - B392 "Touch must remain nonsexual, consensual" ACTION, KEEP-HERE
-- B403 "No entity may tell you to hurt yourself or another person" ACTION, REPEAT B321
+- B403 "No entity may tell you to hurt yourself" ACTION, REPEAT B321
 - B404 "too overwhelmed to reach love, stabilize first" GENERAL, REPEAT B89
 - B404 "Don’t teach nondual demonology" ACTION, REPEAT B7
 - B406 "Don’t treat intoxicated certainty as evidence either." ACTION, KEEP-HERE
 - B408 "Don’t confront anybody while intoxicated or destabilized." ACTION, KEEP-HERE
-- B408 "Return to it after sleep with a trauma-informed therapist" GENERAL, KEEP-HERE
+- B408 "with a trauma-informed therapist" GENERAL, KEEP-HERE
 - B409 "You don’t have to decide tonight." REASSURE, REPEAT B408
-- B415 "confess it to everybody, or convert it into a permanent diagnosis" ACTION, REPEAT B318
-- B420 "Don’t make huge decisions, diagnose yourself from one intense night" ACTION, REPEAT B318
+- B415 "confess it to everybody" ACTION, REPEAT B318
+- B420 "Don’t make huge decisions" ACTION, REPEAT B318
 - B423 "and no big moves" ACTION, REPEAT B318
 - B426 "therapy when it persists" GENERAL, KEEP-HERE
-- B426 "no more substances, and professional help when severe or prolonged" GENERAL, KEEP-HERE
+- B426 "professional help when severe or prolonged" GENERAL, KEEP-HERE
 - B426 "and therapy when needed" GENERAL, KEEP-HERE
-- B426 "seek professional support when symptoms interfere with life" GENERAL, KEEP-HERE
+- B426 "when symptoms interfere with life" GENERAL, KEEP-HERE
 - B426 "no social-media crowdsourcing while raw" ACTION, KEEP-HERE
 - B426 "without immediate confrontation while destabilized" ACTION, REPEAT B408
-- B426 "professional support quickly, especially when beliefs drive unsafe action" GENERAL, KEEP-HERE
-- B426 "medical care for severe, unusual, or worrying symptoms" GENERAL, KEEP-HERE
+- B426 "professional support quickly" GENERAL, KEEP-HERE
+- B426 "medical care for severe" GENERAL, KEEP-HERE
 - B427 "No “another ceremony will fix this” reflex." ACTION, REPEAT B428
-- B428 "Don’t take more psychedelics, cannabis, ketamine, intense breathwork" ACTION, KEEP-HERE
-- B437 "If somebody is actively in trouble, use the checklist first." GENERAL, ONE-PLACE C1
+- B428 "Don’t take more psychedelics" ACTION, KEEP-HERE
+- B437 "use the checklist first" GENERAL, ONE-PLACE C1
 <!-- NEXT -->
