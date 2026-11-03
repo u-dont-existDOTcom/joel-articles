@@ -1,0 +1,167 @@
+# The guide's headings, with block numbers
+
+- [3] How to use this very large guide
+- [6] The table of contents is hiding on the left
+- [8] Introduction
+- [17] Quick start: do this first
+  - [22] Do you usually think in words?
+- [26] What I mean by hypnosis
+- [29] Protecting Yourself from Hypnotists
+- [37] The Most Extreme Example
+- [41] Keep the Adult Part of Yourself in Charge
+- [43] Affirmations Done Right
+- [47] Reversing Accidental Affirmations
+- [50] Hypnosis Evidence
+- [54] What to Use Self-Hypnosis For, and What Not To
+- [58] Forget the left-brain/right-brain cartoon
+- [62] Why doing it myself worked better for me
+- [73] A useful map of the mind
+  - [82] Sometimes start with the whole
+- [88] The inner child, the guards, and the inner adult’s three jobs
+  - [92] When the adult role is not available yet
+  - [102] Let the child speak while you define the goal
+  - [105] Love doesn’t have to wait for trust
+  - [109] Instead of blame
+- [112] Working with your inner child
+  - [113] The two-hand practice
+  - [118] The Nurturer
+  - [126] The Protector
+  - [130] The Guide
+  - [135] Working with your guards
+  - [143] Your inherited parent script
+  - [145] Protection that knows when to stop scanning
+  - [154] Inner child reparenting
+  - [156] Don’t rush the repair
+  - [169] Play and rest still need an adult present
+  - [172] Non-dominant hand dialogue
+- [174] When “your voice” is everybody else’s voice
+  - [195] Belonging without betraying yourself
+- [205] De-hypnosis: wake up inside the influence
+  - [208] If you sense you are being influenced
+  - [215] Soft language can still take away choice
+- [229] Induction: gathering and softening attention
+  - [234] Overly Confusing Isn't Automatically Good
+  - [243] Before you begin
+  - [250] Sober induction: 3–5 minutes
+  - [267] When you’re already trancey
+  - [274] Stay awake when your mind likes to escape
+    - [278] Make the hypnosis more alert
+  - [280] Sleep induction
+  - [284] Optional fractionation: practice coming back
+  - [287] Deepening, if useful
+  - [291] Optional trance depth check
+  - [296] A shortcut back into hypnosis
+    - [304] Turning the shortcut off, or keeping it
+- [306] Come all the way back
+- [313] The actual inner meeting
+- [322] Let the next response guide you
+  - [325] Finding your own words
+    - [329] Notice, meaning, and your thoughts on the meaning
+  - [332] Let the response change the invitation
+  - [337] Look at the situation too
+  - [340] Change the amount of contact
+    - [344] If you feel an urge to move
+  - [346] Offer the care that is actually wanted
+  - [353] Finish without forcing a revelation
+    - [356] Throughout the exercise
+- [358] The 15-minute daily practice
+- [363] The weekly deeper practice
+- [366] Capacity before content
+- [376] Troubleshooting
+  - [377] Nothing happens
+  - [379] "It feels fake"
+  - [385] The subconscious will not answer
+  - [387] The inner child will not appear
+  - [389] You get anxious
+  - [394] You dissociate or feel unreal
+  - [396] You become grandiose
+  - [399] You become too analytical
+  - [401] You become too blissful or diffuse
+  - [403] You want the hidden truth immediately
+  - [406] You keep daydreaming
+  - [408] You get stuck in spiritual bypass
+  - [412] You get stuck in endless processing
+  - [416] You keep using hypnosis but not changing life
+- [418] What not to do
+- [432] When this needs more support than a guide can provide
+  - [436] Methods to explore with a trained person present
+  - [440] Your functioning in ordinary life is the feedback
+- [442] Closing
+- [446] Try it in the Inner Signal app
+  - [451] Survey and consultation
+- [454] Appendices
+- [456] Appendix A: How to ask the subconscious a useful question
+  - [469] Core prompts
+- [479] Appendix B: NLP without turning yourself into a sales seminar
+  - [482] The four NLP layers
+  - [488] The Milton Model, minus the covert sales seminar
+    - [494] Pattern 1: Pacing and leading — truth before suggestion
+    - [498] Pattern 2: Awareness verbs
+    - [501] Pattern 3: Presuppositions
+    - [504] Pattern 4: Gentle cause-effect bridges
+    - [507] Pattern 5: Embedded invitations
+    - [511] Pattern 6: Ethical double binds
+    - [515] Pattern 7: Conversational postulates
+    - [518] Pattern 8: Tag questions
+    - [521] Pattern 9: Nominalizations
+    - [524] Pattern 10: Meta Model questions — the de-hypnosis tool
+  - [528] Sensory, state, and strategy tools
+    - [529] Submodalities — editing the form, not denying the truth
+    - [535] Anchoring — giving the body a doorway back
+    - [537] Using synchronicity as your own wake-up bell
+      - [543] Installing the synchronicity cue
+      - [553] False positives, and turning the cue off
+    - [557] Reframing — changing the meaning without lying
+    - [559] Perceptual positions — self, other, witness, universal heart
+    - [562] Future pacing — let the future test the insight
+    - [565] The Swish, softened
+    - [567] Parts integration, without pretending the conflict is solved
+  - [569] What I will not use NLP for
+  - [577] Running the whole NLP sequence
+- [589] Appendix C: The extended de-hypnosis checklist
+  - [599] Hypnosis-specific audit
+- [608] Appendix D: Anxiety — body first
+  - [612] Reduced breathing / Buteyko-style breathing
+  - [614] EFT tapping
+  - [616] Somatic Experiencing
+  - [618] Gendlin Focusing
+  - [620] Body supports
+  - [623] Inner child love
+  - [625] Anxiety script
+- [630] Appendix E: Is the daydream helping or replacing your life?
+- [638] Appendix F: Self-trust, outside guidance, and oracle-like states
+  - [642] Finding a hypnotist who can work with you
+  - [660] When the subconscious speaks like an oracle
+  - [663] The council — internal first, then outward
+  - [668] Forgiveness without bypass
+  - [671] Forgiving yourself
+- [674] Appendix G: Altered states
+  - [682] Stabilize before you interpret
+  - [688] Trip-Sitting: Medical Triage, Shadow Work, Therapy (v 5.3, updated July 19, 2026)
+- [692] Appendix H: Demons, jinn, hostile presences, and “Unattached Burdens”
+  - [696] Start with the room, the body, and basic safety
+  - [701] A response check, not a verdict about what it is
+  - [706] Do not fight from fear
+  - [710] A bodily boundary: compassion present, door closed
+  - [714] If it might be psychosis or destabilization
+    - [717] The General Rule
+  - [719] The cosmic-download humility test
+  - [722] Don’t become an entity hobbyist
+- [724] Appendix I: Sleep hypnosis
+- [726] Appendix J: A practical induction library
+  - [730] 1. Stretch and release
+  - [732] 2. Supported floating
+  - [734] 3. Rhythmic breath or pulse
+  - [736] 4. Unwinding object
+  - [738] 5. Sensory journey
+  - [740] 6. Gradual wave
+  - [742] 7. Care workshop
+  - [744] 8. Resource embodiment
+  - [746] 9. No-trance inner contact
+- [755] Appendix K: Sources and further reading
+  - [757] Learning, entering, and returning
+  - [759] Indirect language and re-entry cues
+  - [761] Body awareness and changing the amount of contact
+  - [763] Inner-child care and adult capacities
+  - [766] Inner speech and putting experience into words
+  - [768] Memory, support, and choosing a practitioner

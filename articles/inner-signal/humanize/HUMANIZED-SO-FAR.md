@@ -120,10 +120,6 @@ I use the expression ‘syncing the hemispheres’ but don’t want to overinter
 
 Let’s elicit a high level of co-operation between the verbal, the analytical, the imaginal, the emotional, the somatic, the intuitive, the relational, the spiritual … all the modes of your mind. It’s not an electoral process. Nobody needs to win!
 
-The mind of love and the mind of analysis can both be there, so you can be warm and clear-headed at once. The mind of intuition and the mind of rationality can both be there - intuitive signals without dogma, and testing of those signals without killing them. Your body has its own yes and no, and sometimes a not yet. Your imagination can open things up before the adult in you decides what to do in real life.
-
-Analysis with no love in it gets sterile, and love that never stops to analyze anything drifts off into fantasy. The same goes for intuition and testing: signals you never test can turn into delusions, and testing with nothing intuitive to test is dead.
-
 And all of this has got to lead somewhere, to a point where you notice you’re behaving more kindly, you’ve got more humility and better judgment than you had, you’re doing real service, or your ordinary life has gotten more workable.
 
 # Why doing it myself worked better for me
@@ -182,7 +178,7 @@ When something specific comes up, that’s the time to sort out what it is. “I
 
 Your inner child won’t trust you right away. It’s not going to be enough for you to meditate, say three nice sentences to the inner child and expect to have its trust. What’s going to help your inner child to trust you is you, the person you are right now, becoming reliable.
 
-Here I’m going to talk about what you develop in yourself as you reparent your inner child. I’m going to talk about it in terms of three jobs: your loving Nurturer, your safe Adult Protector (hereafter just the Protector) and your wise Guide. That’s one grown-up doing three jobs, not three more people moving in to help with the rent, and each job keeps the others in balance. Say a party gets to be too much for your little one. The Protector gets you both out of there, and on the way home the Nurturer tells them they did great, even though mostly they hid in the bathroom. And the Guide helps them think twice about the next weird party they might go to, avoiding another cycle of bathroom vacationing. 🙈 It’s you that needs to develop these qualities.
+Here I’m going to talk about what you develop in yourself as you reparent your inner child. I’m going to talk about it in terms of three jobs: your loving Nurturer, your safe Adult Protector (hereafter just the Protector) and your wise Guide. It’s still one grown-up doing three jobs (nobody new is moving in to help with the rent), and each job keeps the others in balance. Say a party gets to be too much for your little one. The Protector gets you both out of there, and on the way home the Nurturer tells them they did great, even though mostly they hid in the bathroom. And the Guide helps them think twice about the next weird party they might go to, avoiding another cycle of bathroom vacationing. 🙈 It’s you that needs to develop these qualities.
 
 Also, your inner child’s worth is not dependent on these qualities… It has its own worth, and its own qualities, like playing, being tender, not taking life too seriously, being creative and wondering at the world. Those belong in your relationship with it too, not just the wounds.
 
@@ -234,9 +230,9 @@ There is a simple and easy body technique to connect with your inner child. Just
 
 Imagine a divine Love from above, with the inner child below, in the solar plexus area. The inner adult is present. You can also use the hand on the solar plexus to massage that area.
 
-Begin to send love from your heart down to your inner child and just notice what comes up for you. If some comes back up, let it, and send it on down again, so it goes around like a loop. That part's a gift from them, and they don't owe it to you, so if nothing comes back, just keep sending yours. If you feel resistance, just meet it with love. If you feel or see something, just meet that with love as well. If you can't find any warmth today, just leave your hands where they are and notice what's there. Don't pretend to feel something you don't. Let it go back and forth between your heart and your inner child, like a real conversation.
+Gently breathe in lots of love and begin to send that love from your heart down to your inner child and you breathe out, noticing what comes up for you. If some comes back up, let it, and send it on down again, so it goes around like a loop. That part's a gift from them, and they don't owe it to you, so if nothing comes back, just keep sending yours. If you feel resistance, just meet it with love. If you feel or see something, just meet that with love as well. If you can't find any warmth today, just leave your hands where they are and notice what's there. Don't pretend to feel something you don't. Let it go back and forth between your heart and your inner child, like a real conversation.
 
-Keep breathing gently through the whole practice. It works as an induction too: the Sober induction below has it as one of the anchors you can pick.
+This practice works as an induction too: the Sober induction below has it as one of the anchors you can pick.
 
 ## The Nurturer
 
@@ -758,11 +754,11 @@ Remember: not everything in hypnotic imagery is literal, especially if it relate
 
 ## Nothing happens
 
-Don't fret, even for the greatest masters, nothing happens many times. After all, only like 15% of people are very suggestible. But sometimes it's just confusing when you throw everything at yourself at once. Check if there's a way you could try this on a smaller scale, maybe starting with, “Show me whether today is for listening or resting.”
+Don't fret, even for the greatest masters, many times nothing happens. After all, only like 15% of people are very suggestible. But sometimes it's just confusing when you throw everything at yourself at once. Check if there's a way you could try this on a smaller scale... like is it even the right time for this? You can directly ask that.
 
-## It feels fake
+## "It feels fake"
 
-Well, what do you mean "it"... do you have a sense of what it is that feels fake? The words, an image, what you are expecting to get from this, a role you feel you have to play etc. Not having an inner voice or images doesn't mean you're resisting the work, or that you're missing a 'grown-up'. If it feels like you are being asked to do something you don't want to do, then correct the invitation. It could be that there is a part that is protecting you, so talk to it.
+Let's drill into that "it"... do you have a sense of what exactly feels feigned, imposterous, or preposterous? The words, an image, what you are expecting to get from this, a role you feel you have to play... am I getting warm? Not having an inner voice or images doesn't mean you're resisting the work, nor that you're missing a 'grown-up'. If it feels like you are being asked to do something you don't want to do, then correct the invitation. It could be that there is a part that is protecting you, so talk to it.
 
 You could say something like 'What are you protecting me from, helicopter mom?' or 'Are you sus because you think this will just be a silly performance?' If it says yes, that one can sting, because there could be something to it. Maybe you've fooled yourself before, and that part remembers. But as ex-US-President George W. Bush wisely explained, "Fool me once, shame on — shame on you. Fool me — you can't get fooled again." !!!
 
@@ -958,7 +954,7 @@ When you want to know if a particular intuition you have is coming from your uni
 
 Once you get an answer, you can ask: “What can I do in my ordinary life to show that I heard correctly?” If it tells you to do something, I'd only do it if it's loving and leaves you free. It would have to make sense too. And even with all that, I wouldn't do anything big or hard to undo until I'm calm and I've checked it against what I actually know.
 
-You use the prompt to tell your subconscious what you want in a language it can easily understand. The NLP in Appendix B below can help smooth the prompt's entry and reduce resistance. Used together properly, the subconscious can feel safer in giving its response. That doesn't make the answers any more true, though.
+You use the prompt to tell your subconscious what you want in a language it can easily understand. The NLP in Appendix B below can help smooth the prompt's entry and reduce resistance. Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.
 
 # Appendix B: NLP without turning yourself into a sales seminar
 
@@ -1514,7 +1510,7 @@ There's no elaborate exit protocol here since you didn't go into trance. Just cl
 
 # Appendix K: Sources and further reading
 
-The personal accounts and the way I arrange this practice are my own, especially adaptations like combining body-oriented work and hypnotic work. This combination is not a scientifically validated form of treatment at this time. The Cochrane Collaboration has not yet awarded me their highest medal of honor.
+The personal accounts and the way I arrange this practice are my own, especially adaptations like combining body-oriented work and hypnotic work. This combination is not a scientifically validated form of treatment just yet. The Cochrane Collaboration was going to certify it, but then someone there forgot to award me their highest medal of honor.
 
 ## Learning, entering, and returning
 
@@ -1522,7 +1518,7 @@ The personal accounts and the way I arrange this practice are my own, especially
 
 ## Indirect language and re-entry cues
 
-For information about using indirect hypnotic language patterns, such as pacing, utilizing, metaphor, and associational cues, etc, see *Healing the Divided Self*, Phillips and Frederick, 1995, pp 53-57, 96-100, as well as [Nimja's tutorial on hypnotic language patterns](https://learn.nimja.com/techniques/hypnotic_language), and [his tutorial on triggers](https://learn.nimja.com/techniques/triggers). The information on these techniques comes from these sources, but that doesn't mean they validate every NLP claim, or that every example suits trauma work (Nimja did not write or endorse this guide). I adapted the language for my own purposes, and I deliberately used a sequence that would be easy to use for re-entry.
+For information about using indirect hypnotic language patterns, such as pacing, utilizing, metaphor, and associational cues, etc, see *Healing the Divided Self*, Phillips and Frederick, 1995, pp 53-57, 96-100, as well as [Nimja's tutorial on hypnotic language patterns](https://learn.nimja.com/techniques/hypnotic_language), and [his tutorial on triggers](https://learn.nimja.com/techniques/triggers). That's where I "formally" learned these techniques from (most recently), but don't blame them for every NLP claim here, or for an example that doesn't suit trauma work (Nimja didn't write or endorse this guide). I adapted the language for my own purposes, and I deliberately used a sequence that would be easy to use for re-entry.
 
 ## Body awareness and changing the amount of contact
 
