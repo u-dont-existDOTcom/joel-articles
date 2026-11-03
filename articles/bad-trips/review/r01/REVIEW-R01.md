@@ -18,7 +18,7 @@ The page's cards as text, in the order of the guide. Built 2026-11-03 from [the 
 
 *Bring in mental-health support when:, P6*
 
-**What changes:** "When Peer Support Isn't Enough" moves, with its three paragraphs (when to get urgent help; "I might kill someone to test this theory"; local emergency services, 988 and 911), from the tripsitting part up into "When to Bring In Outside Help", as its third part, under its own heading at the same level as the other two. The mental-health list's first item ("The person may be unsafe to themselves or others.") goes, since the moved paragraph says it with the details.
+**What changes:** "When Peer Support Isn't Enough" moves, with two of its three paragraphs (when to get urgent help; local emergency services, 988 and 911), from the tripsitting part up into "When to Bring In Outside Help", as its third part, under its own heading at the same level as the other two. Its middle paragraph ("“I might kill someone to test this theory” is a safety signal, rather than merely philosophical content.") goes: the harm section says it with its own example ("Treat the statement as a safety signal"). The mental-health list's first item ("The person may be unsafe to themselves or others.") goes, since the moved paragraph says it with the details.
 
 **Now** (the words it changes in bold):
 
@@ -28,14 +28,19 @@ The page's cards as text, in the order of the guide. Built 2026-11-03 from [the 
 
 **Now** (the words it changes in bold):
 
+> **“I might kill someone to test this theory” is a safety signal, rather than merely philosophical content.**
+
+**How it would read:** this paragraph goes.
+
+**Now** (the words it changes in bold):
+
 > **The person may be unsafe to themselves or others.**
 
 **How it would read:** this paragraph goes.
 
-**Moves** to just before "---":
+**Moves** to the end of the section, just before its divider:
 
 > Get urgent help when somebody may harm themselves or another person, cannot be kept physically safe, is moving toward roads, water, or heights, has command voices or fixed terrifying beliefs driving action, becomes violent, is severely confused and unreachable, has dangerous physical symptoms, has lost enough sleep that judgment is collapsing, or exceeds what the sitter can safely contain.
-> “I might kill someone to test this theory” is a safety signal, rather than merely philosophical content.
 > Use local emergency services for immediate danger or a medical emergency. In the United States, 988 can provide mental-health crisis guidance, de-escalation, and connection to local resources when no immediate physical emergency exists. Call 911 for immediate danger, a crime in progress, medical emergency, weapon, violence underway, or a situation you cannot safely contain. Outside the United States, identify the local emergency number and crisis line before you ever need them.
 
 **New heading** (h2, the words are yours, from the heading it replaces): When Peer Support Isn’t Enough
@@ -179,6 +184,54 @@ The page's cards as text, in the order of the guide. Built 2026-11-03 from [the 
 **My advice:** Approve.
 
 *Found by: reader A.*
+
+## SF-6: Chest pain: when to call medics, said ahead of its paragraph (Safety in one place)
+
+*Chest Pain and Injury, P1*
+
+**What changes:** In Chest Pain and Injury, ", with the decision about medics based on severity and the surrounding symptoms" goes; the sentence reads "DMSO is also my first remedy for many injuries and some chest pain."
+
+**Now** (the words it changes in bold):
+
+> DMSO is also my first remedy for many injuries and some chest pain, **with the decision about medics based on severity and the surrounding symptoms**. After I overused erythritol, I developed angina that lasted for days. I took DMSO, the pain disappeared within about a minute, and it never returned.
+
+**How it would read:**
+
+> DMSO is also my first remedy for many injuries and some chest pain. After I overused erythritol, I developed angina that lasted for days. I took DMSO, the pain disappeared within about a minute, and it never returned.
+
+**Why:** Two paragraphs on, the section draws that line itself: mild, familiar pain against "new, severe, persistent, worsening, radiating, or exertional pain", with "In the second branch, I would use DMSO while arranging medical evaluation."
+
+**What stays:** Your angina story, the rat studies, and the paragraph with the severity line and the medics.
+
+**For you to weigh:** None that I can see.
+
+**My advice:** Approve.
+
+*Found by: reader C.*
+
+## SF-7: Serotonin syndrome: magnesium "does not replace" what the steps already say (Safety in one place)
+
+*Do this immediately when serotonin toxicity is reasonably suspected:, P7*
+
+**What changes:** In the last of the serotonin steps, ", but it does not replace treatment of dangerous heat, clonus, rigidity, or instability" goes; the sentence ends "...especially with MDMA-related jaw tension or muscle activity."
+
+**Now** (the words it changes in bold):
+
+> Hospitals may use benzodiazepines, external cooling, IV fluids, monitoring, and intensive supportive care. Niacin is unsafe for serotonin syndrome. DMSO is also not part of this branch. I would consider oral magnesium chloride when the person is fully alert, especially with MDMA-related jaw tension or muscle activity, **but it does not replace treatment of dangerous heat, clonus, rigidity, or instability**.
+
+**How it would read:**
+
+> Hospitals may use benzodiazepines, external cooling, IV fluids, monitoring, and intensive supportive care. Niacin is unsafe for serotonin syndrome. DMSO is also not part of this branch. I would consider oral magnesium chloride when the person is fully alert, especially with MDMA-related jaw tension or muscle activity.
+
+**Why:** Steps 3 to 5 come first and say what to do about each: emergency help and transport for moderate or severe signs, cooling, and no exertion. Reader C marked it as a repeat of the cooling step.
+
+**What stays:** The magnesium line itself, and every step above it.
+
+**For you to weigh:** Whether a reader who reads only this line, without the steps above it, needs the reminder.
+
+**My advice:** Approve.
+
+*Found by: reader C.*
 
 ## RP-3: "Medics in parallel", said again (Said twice)
 
@@ -424,6 +477,66 @@ The page's cards as text, in the order of the guide. Built 2026-11-03 from [the 
 
 **My pick:** (a): the checklist is the order the reader is told to follow; only the word order changes in the other three.
 
+## Q-8: Who to Contact: move it into the help section too? (Your call)
+
+*Who to Contact, and When, P1*
+
+**Question:** With SF-1, When to Bring In Outside Help holds the medics list, the mental-health list and when to get urgent help. Reader C would move Who to Contact, and When (Fireside, TripSit, Find A Helpline, 988, Crisis Text Line, ICEERS, CPEP, Cheetah House) up into it as well, so every kind of help is in one section. (a) Leave the contacts in Get One Human Anchor; (b) move them up, with a one-line pointer left in Get One Human Anchor; (c) your words.
+
+**Why:** You asked for the safety language in one spot, and the contacts are the one kind of help still outside it.
+
+**Until you answer:** Everything stays where it is until you answer.
+
+**My pick:** (a): most of the lines are peer support for someone who needs a calm human, Alone at 3 a.m. sends the reader to them, and the emergency numbers are in the help section either way.
+
+## SF-5: Not emergency care, said five times in the support lines (Safety in one place)
+
+*Who to Contact, and When, P13*
+
+**What changes:** Four lines go from Who to Contact, and When: "Non-clinical and non-emergency." (Fireside), "Peer support, rather than clinical or emergency care." (TripSit), "Risk-reduction support, rather than a substitute for medical or psychiatric treatment." (ICEERS) and "It is neither therapy nor immediate crisis care." (CPEP).
+
+**Now** (the words it changes in bold):
+
+> Fireside Project: U.S.-only according to its current FAQ; phone or text psychedelic peer support at 623-473-7433, daily from 11 a.m. to 11 p.m. Pacific Time. **Non-clinical and non-emergency.**
+
+**How it would read:**
+
+> Fireside Project: U.S.-only according to its current FAQ; phone or text psychedelic peer support at 623-473-7433, daily from 11 a.m. to 11 p.m. Pacific Time.
+
+**Now** (the words it changes in bold):
+
+> TripSit live chat: browser-based harm-reduction chat for people using drugs and the people supporting them. **Peer support, rather than clinical or emergency care.**
+
+**How it would read:**
+
+> TripSit live chat: browser-based harm-reduction chat for people using drugs and the people supporting them.
+
+**Now** (the words it changes in bold):
+
+> ICEERS Support Center: up to five free online integration sessions for challenging experiences. **Risk-reduction support, rather than a substitute for medical or psychiatric treatment.**
+
+**How it would read:**
+
+> ICEERS Support Center: up to five free online integration sessions for challenging experiences.
+
+**Now** (the words it changes in bold):
+
+> CPEP online peer group: a free confidential monthly group for post-psychedelic difficulties. **It is neither therapy nor immediate crisis care.**
+
+**How it would read:**
+
+> CPEP online peer group: a free confidential monthly group for post-psychedelic difficulties.
+
+**Why:** The section's first paragraph says it for all of them: "Psychedelic peer support does not replace emergency, medical, psychiatric, or suicide-crisis care." Each entry then says it again for itself. Reader C marked all four as repeats of that line.
+
+**What stays:** The first paragraph's line, and every service's name, link, number, hours and what it offers.
+
+**For you to weigh:** Whether a reader who goes straight to one service, past the first paragraph, needs the line beside it.
+
+**My advice:** Approve.
+
+*Found by: reader C.*
+
 ## RP-23: The helper's Do and Don't lists: two lines said just above (Said twice)
 
 *Don’t, P3*
@@ -450,7 +563,7 @@ The page's cards as text, in the order of the guide. Built 2026-11-03 from [the 
 
 **My advice:** Approve.
 
-*Found by: readers A and B.*
+*Found by: readers A and B; reader C for the second line.*
 
 ## RP-11: "Nondual demonology", the same line twice (Said twice)
 
@@ -498,7 +611,7 @@ The page's cards as text, in the order of the guide. Built 2026-11-03 from [the 
 
 *Found by: my read; readers A and B.*
 
-## RP-10: "Don't debate to win", twice in one section (Said twice)
+## RP-10: Not debating, not validating violence: a third time in the helper's section (Said twice)
 
 *When the Content Turns Toward Harm, P5*
 
@@ -512,7 +625,7 @@ The page's cards as text, in the order of the guide. Built 2026-11-03 from [the 
 
 > Redirect within the person’s value-world toward peace and protection, increase containment, and bring in crisis support as early and as non-coercively as the situation allows.
 
-**Why:** The Don't list just above opens with the same two points ("Don’t try to win an argument with visions... Don’t validate harmful conclusions.").
+**Why:** The Don't list just above opens with the same two points ("Don’t try to win an argument with visions... Don’t validate harmful conclusions."), and this section's first paragraph says both with its example ("...can turn the encounter into a status fight. Nodding along as though harm is spiritually neutral is also unacceptable.").
 
 **What stays:** The rest of the paragraph: redirect toward peace and protection, more containment, crisis support early.
 
@@ -520,7 +633,7 @@ The page's cards as text, in the order of the guide. Built 2026-11-03 from [the 
 
 **My advice:** Approve.
 
-*Found by: my read; reader A.*
+*Found by: my read; reader A (reader C would keep it, as a line where the helper acts; this section's first paragraph is in the same place).*
 
 ## RP-18: Love becoming practical, twice (Said twice)
 
@@ -654,13 +767,37 @@ The page's cards as text, in the order of the guide. Built 2026-11-03 from [the 
 
 *Found by: my read; reader B.*
 
+## RP-24: Movement as a test, said again under its evidence (Said twice)
+
+*Grounding Menu: Choose One or Two Things, P48*
+
+**What changes:** "Movement is a tool to test, rather than a rule to obey." goes from the end of the movement evidence note.
+
+**Now** (the words it changes in bold):
+
+> Movement evidence note: the best-supported general advice is to create a safe, low-stimulation environment and choose responses that reduce danger. A 2024 study of strategies for resolving challenging psychedelic experiences identified physical movement, intentional breathing, sensory engagement, sleep-seeking, and social support among the ways people navigate difficulty. **Movement is a tool to test, rather than a rule to obey.**
+
+**How it would read:**
+
+> Movement evidence note: the best-supported general advice is to create a safe, low-stimulation environment and choose responses that reduce danger. A 2024 study of strategies for resolving challenging psychedelic experiences identified physical movement, intentional breathing, sensory engagement, sleep-seeking, and social support among the ways people navigate difficulty.
+
+**Why:** Stillness or Movement? opens with it: "Test them rather than turning them into rival religions. Try one for two minutes..." All three readers marked this line.
+
+**What stays:** The note's evidence: the safe, low-stimulation advice and the 2024 study's list.
+
+**For you to weigh:** None that I can see.
+
+**My advice:** Approve.
+
+*Found by: readers A, B and C.*
+
 ## Q-4: How long the action lock lasts (Your call)
 
 *No Rash Actions: Visions Are Not Commands, P3*
 
 **Question:** The 3 a.m. note in checklist step 6 says "No big actions until morning." No Rash Actions says "Use a 24–72 hour action lock." and "Until you have slept and eaten, don’t drive...". (a) Leave them: the note covers the first night and the lock is the full rule; (b) make the 3 a.m. note say the same as the lock; (c) your words. (The Alone at 3 a.m. section quotes the note as "No actions until morning", without "big"; I'd make it match whichever you pick.)
 
-**Why:** Readers A and B each found the three lengths, with nothing saying which applies when.
+**Why:** Readers A, B and C each found the different lengths (C also counts checklist step 8's "tonight"), with nothing saying which applies when.
 
 **Until you answer:** All three stay as they are until you answer.
 

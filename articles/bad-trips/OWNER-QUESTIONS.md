@@ -1,7 +1,7 @@
 # Bad Trips guide: questions for Joel
 
-Updated 2026-11-03 (turn 1, 17:15 UTC: questions 4 to 8 added from the readers' reports). Status: **open** = waiting on you, **next** = I do it once you answer, **done** = answered.
-Answer on the marking page (its cards ST-1 and Q-1 to Q-7 have answer boxes), or under a number here in a message.
+Updated 2026-11-03 (turn 1, 17:15 UTC: questions 4 to 9 added from the three readers' reports). Status: **open** = waiting on you, **next** = I do it once you answer, **done** = answered.
+Answer on the marking page (its cards ST-1 and Q-1 to Q-8 have answer boxes), or under a number here in a message.
 
 ## Open
 
@@ -36,6 +36,10 @@ Answer on the marking page (its cards ST-1 and Q-1 to Q-7 have answer boxes), or
 8. **open — Charcoal: only after a recent oral ingestion?** (card Q-7) Checklist step 12 says "Charcoal belongs only in
    the separate recent-oral-ingestion branch."; the gut tools use it for gut toxicity and after a ferment. My pick: (b)
    take that sentence out of step 12 (its next paragraph and step 10 say when charcoal fits and when it is dangerous).
+9. **open — Who to Contact: move it into the help section too?** (card Q-8) With card SF-1, When to Bring In Outside
+   Help holds the medics list, the mental-health list and when to get urgent help; the safety reader would move the
+   support lines there too. My pick: (a) leave them in Get One Human Anchor, where someone looking for a calm voice
+   finds them; the emergency numbers are in the help section either way.
 
 ## Your tasks
 

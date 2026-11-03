@@ -39,3 +39,24 @@ inside the long part stay, because each copy carries something the article needs
 - RP-1 moves the Core Order list into the brain-damage section; its items 1, 2 and 5 restate that section's prose
   briefly, as a list to follow under the reasons.
 
+Reader C's safety map (final at 17:40 UTC) adds these, which also stay:
+
+- B201 "a perfect safety profile" (NO-ACTION to reader C): his ranking of the water against DMSO, which tells the
+  reader which to reach for first.
+- B218 "Useful substances can still be poor rescue tools when somebody is already destabilized." (NO-ACTION): the
+  opening of Some Remedies Require More Caution; it says why useful things are listed there.
+- B221 "The later benefit did not make the crisis recommendable." and B222 "I include that only as a warning.": each
+  stops a reader from taking his story (a week of creativity; "A low amount combined well for me") as advice.
+- B336 "call for help when needed" (NO-ACTION): one item in a sentence about what love does in practice.
+- B278 "identify the local emergency number and crisis line before you ever need them": with card SF-1 it is the only
+  line in the help section for readers outside the United States.
+- B292 "recruit one additional calm adult": in the harm section, where the helper acts (reader C's own rule).
+- B300 "Use it as a cue, not an oracle.", B310 "Put every big decision into tomorrow’s notebook.", B314 "Never strain or
+  turn breathing into another achievement.": each is the menu's or the evidence note's own version, with something the
+  other copy lacks (the object's role, the notebook, straining in reduced breathing).
+- B316, B319, B325, B327, B375, B403, B409, B415, B426, B427: the action lock and related lines in their own sections'
+  words; the lock's length is question Q-4.
+- Reader C's own home for the ozone line is B192 (card SF-3 keeps the other three instead, as readers A and B advise),
+  and for "Don't validate violence" the harm section (card RP-10 cuts it there, since that section's first paragraph
+  says it); both cards say so.
+

@@ -1,8 +1,8 @@
 # Safety lines in the bad-trips guide (reader C)
 
-How I sorted. A reader in trouble acts from the quick checklist (B3–B63), the rescue sections (B99–B136) and the sitter's harm section (B285–B293). A line there that protects life is KEEP-HERE even when the same point is made elsewhere, and is tagged "life". The longer triage (B68–B89) and the hierarchy (B138–B145) restate those sections, so their copies are REPEAT. A remedy's own cautions stay where the remedy is described, and an evidence note stays with its claim. General guidance (order of care, outside help, contacts, parallel action, the ER's limits, the evidence key) is ONE-PLACE, with the number of its cluster in part 2, which names every block.
+Method. Readers in trouble act from the quick checklist (B3–B63), the rescue sections (B99–B136) and the harm section (B285–B293). A line there that protects life is KEEP-HERE even when repeated, tagged "life". The longer triage (B68–B89) and the hierarchy (B138–B145) restate them, so their copies are REPEAT. A remedy's cautions stay with the remedy, an evidence note with its claim. General guidance is ONE-PLACE, with its cluster number from part 2.
 
-Not counted as safety lines: words to say aloud (B24–B28, B45 = B288, B243–B245, B258–B260, B289 except its breakfast line), "it will change" reassurances, care advice (B82, B84, B284's "Don’t tell somebody…"), plain "protect sleep" steps, the Hunter criteria (B133), B230's MAPS disclaimer, lines about keeping or losing the trip (B160, B191), and "X isn’t Y" lines with no safety job (B280, B331, B333, B359, B412, B414, B430).
+Not counted: words to say aloud (B24–B28, B45, B243–B245, B258–B260, B288, most of B289), comfort lines, care advice (B82, B84, part of B284), plain sleep steps, the Hunter criteria (B133), the MAPS disclaimer (B230), trip-keeping lines (B160, B191), and "X isn’t Y" lines with no safety job (B280, B331, B333, B359, B412, B414, B430).
 
 ## 1. Every safety line, in article order
 
@@ -39,7 +39,7 @@ Not counted as safety lines: words to say aloud (B24–B28, B45 = B288, B243–B
 - B48 "don’t let “toxins” distract from repeated vomiting" EMERGENCY, KEEP-HERE, life
 - B49 "a personal field note" EVIDENCE, KEEP-HERE
 - B50 "it isn’t a universal “I took too much” remedy" NOT-X, REPEAT B127
-- B50 "It can be dangerous when someone is vomiting" ACTION, KEEP-HERE, life
+- B50 "dangerous when someone is vomiting" ACTION, KEEP-HERE, life
 - B52 "stopping the trip can be narrow" ACTION, REPEAT B173
 - B54 "Charcoal belongs only in the separate recent-oral-ingestion branch." ACTION, REPEAT B127
 - B54 "data showing that pes-caprae aborts MDMA" EVIDENCE, REPEAT B178
@@ -87,7 +87,7 @@ Not counted as safety lines: words to say aloud (B24–B28, B45 = B288, B243–B
 - B97 "Mania or suicidal thinking appears." GENERAL, ONE-PLACE C25
 - B97 "Panic won’t settle." GENERAL, ONE-PLACE C25
 - B97 "The person can’t function afterward." GENERAL, ONE-PLACE C25
-- B97 "The trauma material is bigger than the room can hold." GENERAL, ONE-PLACE C25
+- B97 "bigger than the room can hold" GENERAL, ONE-PLACE C25
 - B100 "an ambulance is the first" NOT-X, ONE-PLACE C3
 - B100 "faster to field rescue" GENERAL, ONE-PLACE C22
 - B103 "Do not dismiss that report" ACTION, KEEP-HERE, life
@@ -103,7 +103,7 @@ Not counted as safety lines: words to say aloud (B24–B28, B45 = B288, B243–B
 - B109 "Protect the person from injury" ACTION, KEEP-HERE, life
 - B109 "Don’t restrain them and don’t put anything in their mouth" ACTION, KEEP-HERE, life
 - B110 "established first-line drug class" EVIDENCE, KEEP-HERE
-- B110 "An ordinary pill is not the same thing" NOT-X, KEEP-HERE, life
+- B110 "An ordinary pill" NOT-X, KEEP-HERE, life
 - B110 "respiratory depressants in the mix" ACTION, KEEP-HERE, life
 - B111 "not been validated as rapid seizure rescue" EVIDENCE, KEEP-HERE
 - B111 "the opposite effect at some doses" EVIDENCE, KEEP-HERE
@@ -122,7 +122,7 @@ Not counted as safety lines: words to say aloud (B24–B28, B45 = B288, B243–B
 - B124 "Mild, familiar, non-progressive discomfort" EMERGENCY, KEEP-HERE, life
 - B124 "while arranging medical evaluation" EMERGENCY, KEEP-HERE, life
 - B124 "pain relief alone does not prove" NOT-X, KEEP-HERE, life
-- B126 "“Overdose” is too vague to choose a remedy." ACTION, KEEP-HERE
+- B126 "“Overdose” is too vague" ACTION, KEEP-HERE
 - B127 "can adsorb necessary medication" ACTION, KEEP-HERE
 - B127 "creates aspiration risk" ACTION, KEEP-HERE, life
 - B128 "Poison control may be useful" GENERAL, KEEP-HERE
@@ -149,7 +149,7 @@ Not counted as safety lines: words to say aloud (B24–B28, B45 = B288, B243–B
 - B136 "Gather the evidence for the ER." EMERGENCY, KEEP-HERE
 - B136 "Niacin is unsafe for serotonin syndrome." ACTION, KEEP-HERE, life
 - B136 "DMSO is also not part of this branch." ACTION, KEEP-HERE
-- B136 "it does not replace treatment of dangerous heat" NOT-X, REPEAT B136 step 4
+- B136 "does not replace treatment" NOT-X, REPEAT B136 step 4
 - B139 "Some branches call for medics in parallel." GENERAL, REPEAT B95
 - B139 "a fast field remedy" GENERAL, REPEAT B77
 - B140 "Sometimes the person is nauseated, overheated" ACTION, REPEAT B69
@@ -199,7 +199,7 @@ Not counted as safety lines: words to say aloud (B24–B28, B45 = B288, B243–B
 - B219 "it could destabilize somebody prone to mania" ACTION, KEEP-HERE
 - B219 "I wouldn’t use it casually" ACTION, KEEP-HERE
 - B220 "it is not a casual rescue tool" NOT-X, KEEP-HERE
-- B221 "extremely careful with *Acacia confusa* eaten with *Mimosa hostilis*" ACTION, KEEP-HERE
+- B221 "extremely careful with *Acacia confusa*" ACTION, KEEP-HERE
 - B221 "did not make the crisis recommendable" NOT-X, REPEAT B221 first line
 - B222 "potentiates many drugs and can be dangerous" ACTION, KEEP-HERE
 - B222 "I include that only as a warning." GENERAL, NO-ACTION
@@ -223,8 +223,8 @@ Not counted as safety lines: words to say aloud (B24–B28, B45 = B288, B243–B
 - B262 "not every option works in every country" GENERAL, ONE-PLACE C19
 - B262 "Psychedelic peer support does not replace" NOT-X, ONE-PLACE C19
 - B264 "Non-clinical and non-emergency." NOT-X, REPEAT B262
-- B264 "Peer support, rather than clinical or emergency care." NOT-X, REPEAT B262
-- B270 "rather than a substitute for medical or psychiatric treatment" NOT-X, REPEAT B262
+- B264 "rather than clinical or emergency care" NOT-X, REPEAT B262
+- B270 "a substitute for medical or psychiatric treatment" NOT-X, REPEAT B262
 - B270 "It is neither therapy nor immediate crisis care." NOT-X, REPEAT B262
 - B272 "use the phone only" ACTION, REPEAT B30
 - B273 "a local crisis service for fear, despair, self-harm" GENERAL, KEEP-HERE, life
@@ -249,7 +249,7 @@ Not counted as safety lines: words to say aloud (B24–B28, B45 = B288, B243–B
 - B291 "Don’t block, crowd, threaten, mock, or physically wrestle away a weapon." ACTION, KEEP-HERE, life
 - B291 "Quietly remove means only when that can be done without confrontation" ACTION, KEEP-HERE, life
 - B292 "recruit one additional calm adult" GENERAL, REPEAT B255
-- B292 "Call crisis or emergency services for a specific target, available means" EMERGENCY, KEEP-HERE, life
+- B292 "Call crisis or emergency services" EMERGENCY, KEEP-HERE, life
 - B293 "Be brief and specific with emergency services" EMERGENCY, KEEP-HERE, life
 - B298 "Keep what helps and stop what escalates." ACTION, REPEAT B250
 - B300 "Use it as a cue, not an oracle." NOT-X, REPEAT B320
@@ -312,4 +312,51 @@ Not counted as safety lines: words to say aloud (B24–B28, B45 = B288, B243–B
 - B427 "No “another ceremony will fix this” reflex." ACTION, REPEAT B428
 - B428 "Don’t take more psychedelics" ACTION, KEEP-HERE
 - B437 "use the checklist first" GENERAL, ONE-PLACE C1
-<!-- NEXT -->
+
+## 2. Clusters (best block first)
+
+- C1 Safety and body before meaning: best B4; B57, B59, B63, B89, B145, B236, B246, B252, B370, B404, B437
+- C2 Call medics for physical danger signs: best B94; B6–B7, B48, B72, B112, B119–B120, B124, B134, B136, B144, B276, B278
+- C3 Act while help is arranged: best B95; B7, B10, B100, B106, B124, B139, B142, B144
+- C4 Don’t spiritually process a failing body: best B7; B72, B284, B404
+- C5 "My brain feels damaged": best B103–B104; B8–B10, B34, B73–B75, B94, B106, B144, B177 (six tellings; B9–B10 and B34 stay too)
+- C6 Body trouble mistaken for spiritual crisis: best B69; B86–B87, B140–B142, B361
+- C7 Pes-caprae unproven for MDMA: best B178; B10, B54, B75, B107, B144
+- C8 Stop unsafe movement, remove means: best B13–B14; B30, B236–B237, B291, B312
+- C9 One calm anchor, one backup, no crowd: best B255; B17, B284, B292, B308
+- C10 Action lock: best B317–B318 (B320 for "visions are not commands"); B31, B40, B237, B300, B310, B316, B319, B327, B375, B403, B415, B420, B423. Lengths differ: until morning (B31), tonight (B40), 24–72 hours (B317), until slept and eaten (B318).
+- C11 Don’t argue, don’t agree with harm: best B43; B284, B286, B290
+- C12 Euphoric certainty is dangerous: best B324; B39–B40, B325, B327
+- C13 The revelation survives sleep: best B328; B41, B289
+- C14 Harm talk is a safety signal: best B321; B277, B286, B320, B403
+- C15 No confronting over memories tonight: best B408; B40, B318, B406, B409, B426
+- C16 Crisis help for harm risk: best B292; B46, B94, B97, B273, B276, B278, B282, B290, B293
+- C17 Charcoal cautions: best B127; B50, B54–B55, B136, B162
+- C18 Pes-caprae’s narrow margin: best B173; B52
+- C19 Save contacts early; peer support isn’t emergency care: best B262; B61–B62, B264, B270, B278
+- C20 No strained breathing or breath-holds: best B302; B36–B37, B314
+- C21 Keep the music stop control: best B16; B241, B304
+- C22 The ER’s limits: best B77; B100, B139
+- C23 No strenuous exercise with danger signs: best B21; B136, B312
+- C24 If movement escalates, go still: best B250; B20, B32, B251, B274, B298
+- C25 Professional help when trouble lasts: best B97; B327, B408, B426
+- C26 No more substances or practice to fix it: best B428; B247, B350, B353, B426–B427
+- C27 Touch only with consent: best B391–B392; B80, B238, B240, B284
+- C28 Nothing forced by mouth: best B240 (room) and B136 step 6 (medical); B80, B127
+- C29 Never inhale ozone: best B192; B156, B196–B197
+- C30 Evidence strength: best B148 (the key); B11, B49, B103, B105, B111, B114, B123, B149, B178, B188, B207, B313–B314; each note stays with its claim
+- C31 "Overdose" is too vague: best B126; B77, B136, B368
+- C32 Poison control is decision support: best B128; B136
+- C33 DMSO’s seizure effect cuts both ways: best B111; B207
+
+## 3. Where one safety section would sit
+
+"When to Bring In Outside Help" (B91–B97), between the triage and the rescue chemistry. It already holds the medics list (B94), acting while calling (B95) and the mental-health list (B97). It would also take the contacts and "save numbers first" (B61–B62, B261–B270, B278), the urgent-help list (B276), the ER’s limits (B77, B100, B139), parallel action (B100, B139, B142), the order of care (C1) and the evidence key (B147–B149). No general "not medical advice" line exists; B49 and B148 come nearest.
+
+These stay where the reader acts on them even then:
+- Checklist: B6–B7, B9–B10, B13–B14, B21, B30–B31, B34, B36, B40, B43, B46, B48, B50.
+- Rescue: brain screen and medics (B103–B106), seizure first aid (B109–B112), MDMA signs and kidneys (B119–B120), chest pain (B124), ingestion and charcoal (B126–B128), serotonin steps (B130–B136).
+- Each remedy’s cautions: B154, B156, B162, B167, B173–B178, B192, B198, B201–B207, B212–B222.
+- Harm section (B286, B290–B293), alone-at-3 a.m. contacts (B273), action lock (B317–B321, B324, B328), breath (B302), touch (B391–B392), memories (B406–B408), aftermath (B426, B428), planning (B368).
+
+One caution sits away from where its remedy is used: eating humic acid can destabilize (B219), but B11, B144 (the brain-damage order) and B184 tell the reader to taste or lick it.

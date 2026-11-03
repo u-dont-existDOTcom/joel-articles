@@ -119,7 +119,9 @@ def cards_md(review):
             out += (['**How it would read:**', '', '> %s' % e['after'], ''] if e['after'] else
                     ['**How it would read:** this paragraph goes.', ''])
         for mv in s.get('moves', []):
-            out += ['**Moves** to just before "%s":' % SR.first_words(T(mv['before'])), '']
+            to = T(mv['before']).strip()
+            out += [('**Moves** to the end of the section, just before its divider:' if to == '---' else
+                     '**Moves** to just before "%s":' % SR.first_words(to)), '']
             out += ['> %s' % T(i) for i in mv['blocks']] + ['']
         for ins in s.get('inserts', []):
             out += ['**New heading** (%s, the words are yours, from the heading it replaces): %s' % (ins['kind'], ins['text']), '']

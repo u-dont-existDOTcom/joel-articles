@@ -28,13 +28,15 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
   marking page (`review/r01/`). 17:15 UTC: reader A's and B's reports and the first half of C's (B4 to B207) checked
   quote by quote against the article; 13 new cards (nine repeats, two safety lines, four questions where the guide says
   two things that don't fit together) added to round 1's page; then reader B's final report (17:30 UTC): three more
-  (two repeats, the charcoal question), 35 cards (version 5 of the page). Repeats the readers found that stay, with
-  what each copy carries: `experiments/t01-repeats/NOTE.md`.
+  (two repeats, the charcoal question), 35 cards; then reader C's final safety map (17:40 UTC): five more (three
+  safety lines, a repeat, the question of moving the support lines) and two cards revised, 40 cards (version 6 of the
+  page). Repeats and safety lines the readers found that stay, with what each copy carries:
+  `experiments/t01-repeats/NOTE.md`.
 
 ## Current checkpoint
 
-- **In progress:** Turn 1: the round-1 marking page (35 cards: structure question ST-1, the repeats inside the long part, the safety lines in one section, seven questions) is with Joel; readers A and B are complete; reader C is rewriting its report.
-- **Next step (updated on every push, so another account can pick up here):** When reader C's report is complete, check its new items against the article and add any new card to round 1's page (same ids); then put his answers in (each card's fate recorded); if he picks A on ST-1, build round 2: the new checklist step by step from his own headings and first lines, the Longer Triage's paragraphs moved where they belong, and the checklist's copies cut, each with the place that says its point.
+- **In progress:** Turn 1: the round-1 marking page (40 cards: structure question ST-1, the repeats inside the long part, the safety lines in one section, eight questions) is with Joel; all three readers' reports are complete and on it.
+- **Next step (updated on every push, so another account can pick up here):** Put his answers in (each card's fate recorded); if he picks A on ST-1, build round 2: the new checklist step by step from his own headings and first lines, the Longer Triage's paragraphs moved where they belong, and the checklist's copies cut, each with the place that says its point.
 - **Waiting on Joel:** his answers on the round-1 page, and the baseline check's full-analysis link (OWNER-QUESTIONS.md, task 1).
 
 ## Remaining

@@ -9,10 +9,9 @@ INTRO = [
     'The first card is the one big question: how the quick version and the long version split the work. Most of the '
     'repetition is between the checklist, the Longer Triage and the long sections, so those cuts wait for your answer. '
     'The other cards are repeats and safety lines inside the long part, which come out whichever way you answer, and '
-    'seven questions only you can answer (in six of them the guide says two things that don\'t fit together). Three '
-    'fresh readers are reading the whole guide for this, two for repeats and one for safety lines: the cards come from '
-    'my read, both repeat readers\' reports and the first half of the safety reader\'s, and every quote on them was '
-    'checked against your text.',
+    'eight questions only you can answer (in six of them the guide says two things that don\'t fit together). Three '
+    'fresh readers read the whole guide for this, two for repeats and one for safety lines; the cards come from my '
+    'read and their reports, and every quote on them was checked against your text.',
     'Pangram (your extension, on the published post) reads the guide as AI overall. The full analysis didn\'t open from '
     'here, so there are no window readings on this page yet. Humanizing starts once the structure is settled, so no '
     'work goes into paragraphs that are about to be cut.',
@@ -83,11 +82,13 @@ card(id='RP-2', type='repeat', advice='approve', title='Beach morning glory repe
      edits=[cut_block(P('B177'))], spans=[whole(P('B177'))])
 
 card(id='SF-1', type='safety', advice='approve', title='When to call for help, in one section',
-     what=('"When Peer Support Isn\'t Enough" moves, with its three paragraphs (when to get urgent help; "I might kill '
-           'someone to test this theory"; local emergency services, 988 and 911), from the tripsitting part up into '
-           '"When to Bring In Outside Help", as its third part, under its own heading at the same level as the other '
-           'two. The mental-health list\'s first item ("The person may be unsafe to themselves or others.") goes, since '
-           'the moved paragraph says it with the details.'),
+     what=('"When Peer Support Isn\'t Enough" moves, with two of its three paragraphs (when to get urgent help; local '
+           'emergency services, 988 and 911), from the tripsitting part up into "When to Bring In Outside Help", as its '
+           'third part, under its own heading at the same level as the other two. Its middle paragraph ("“I might kill '
+           'someone to test this theory” is a safety signal, rather than merely philosophical content.") goes: the harm '
+           'section says it with its own example ("Treat the statement as a safety signal"). The mental-health list\'s '
+           'first item ("The person may be unsafe to themselves or others.") goes, since the moved paragraph says it with '
+           'the details.'),
      why=('Today the guide lists when to call for help in about seven places (checklist steps 1 and 9, the Longer Triage, '
           'the two lists here, When Peer Support Isn\'t Enough, and the harm section). You asked for the safety lines in one '
           'spot: this puts the medics list, the mental-health list and the urgent-help paragraph together where a '
@@ -98,9 +99,9 @@ card(id='SF-1', type='safety', advice='approve', title='When to call for help, i
      deciding='Whether the tripsitting part should keep a one-line pointer to this section where the heading was.',
      advice_note='Approve.', found_by='my read; reader C',
      inserts=[{'before': P('B98'), 'kind': 'h2', 'text': 'When Peer Support Isn’t Enough', 'seq': 1}],
-     moves=[{'blocks': [P('B276'), P('B277'), P('B278')], 'before': P('B98'), 'seq': 2}],
-     edits=[cut_block(P('B275')), cut_block(P('B97', 0))],
-     spans=[whole(P('B275')), whole(P('B97', 0))], card_after=P('B97', 6))
+     moves=[{'blocks': [P('B276'), P('B278')], 'before': P('B98'), 'seq': 2}],
+     edits=[cut_block(P('B275')), cut_block(P('B277')), cut_block(P('B97', 0))],
+     spans=[whole(P('B275')), whole(P('B277')), whole(P('B97', 0))], card_after=P('B97', 6))
 
 card(id='SF-2', type='safety', advice='leave', title='The seizure and chest-pain thresholds, in the list and in their sections',
      what=('A reader would cut "Call medics for a convulsive seizure lasting about five minutes..." from Active Seizure, '
@@ -196,13 +197,17 @@ card(id='RP-9', type='repeat', advice='approve', title='Practice-induced states,
      deciding='None that I can see.', advice_note='Approve.', found_by='my read',
      edits=[cut_block(P('B310', 2))], spans=[whole(P('B310', 2))])
 
-card(id='RP-10', type='repeat', advice='approve', title='"Don\'t debate to win", twice in one section',
+card(id='RP-10', type='repeat', advice='approve', title='Not debating, not validating violence: a third time in the helper\'s section',
      what='"Don’t debate to win. Don’t validate violence." goes from When the Content Turns Toward Harm; the paragraph '
           'starts at "Redirect within the person’s value-world...".',
-     why='The Don\'t list just above opens with the same two points ("Don’t try to win an argument with visions... '
-         'Don’t validate harmful conclusions.").',
+     why=('The Don\'t list just above opens with the same two points ("Don’t try to win an argument with visions... '
+          'Don’t validate harmful conclusions."), and this section\'s first paragraph says both with its example ("...can '
+          'turn the encounter into a status fight. Nodding along as though harm is spiritually neutral is also '
+          'unacceptable.").'),
      stays='The rest of the paragraph: redirect toward peace and protection, more containment, crisis support early.',
-     deciding='None that I can see.', advice_note='Approve.', found_by='my read; reader A',
+     deciding='None that I can see.', advice_note='Approve.',
+     found_by=('my read; reader A (reader C would keep it, as a line where the helper acts; this section\'s first paragraph '
+               'is in the same place)'),
      edits=[cut_words(P('B290'), 'Don’t debate to win. Don’t validate violence. ')],
      spans=[span_of(P('B290'), 'Don’t debate to win. Don’t validate violence.')])
 
@@ -376,9 +381,60 @@ card(id='RP-23', type='repeat', advice='approve', title='The helper\'s Do and Do
      stays='The rest of both lists.',
      deciding=('Whether you want the Do and Don\'t lists complete on their own, for a helper who reads only that section; then '
                'both lines stay.'),
-     advice_note='Approve.', found_by='readers A and B',
+     advice_note='Approve.', found_by='readers A and B; reader C for the second line',
      edits=[cut_block(P('B282', 0)), cut_block(P('B284', 2))],
      spans=[whole(P('B282', 0)), whole(P('B284', 2))], card_after=P('B284', 2))
+
+card(id='SF-5', type='safety', advice='approve', title='Not emergency care, said five times in the support lines',
+     what=('Four lines go from Who to Contact, and When: "Non-clinical and non-emergency." (Fireside), "Peer support, rather '
+           'than clinical or emergency care." (TripSit), "Risk-reduction support, rather than a substitute for medical or '
+           'psychiatric treatment." (ICEERS) and "It is neither therapy nor immediate crisis care." (CPEP).'),
+     why=('The section\'s first paragraph says it for all of them: "Psychedelic peer support does not replace emergency, '
+          'medical, psychiatric, or suicide-crisis care." Each entry then says it again for itself. Reader C marked all '
+          'four as repeats of that line.'),
+     stays='The first paragraph\'s line, and every service\'s name, link, number, hours and what it offers.',
+     deciding='Whether a reader who goes straight to one service, past the first paragraph, needs the line beside it.',
+     advice_note='Approve.', found_by='reader C',
+     edits=[cut_words(P('B264', 0), ' Non-clinical and non-emergency.'),
+            cut_words(P('B264', 1), ' Peer support, rather than clinical or emergency care.'),
+            cut_words(P('B270', 0), ' Risk-reduction support, rather than a substitute for medical or psychiatric treatment.'),
+            cut_words(P('B270', 1), ' It is neither therapy nor immediate crisis care.')],
+     spans=[span_of(P('B264', 0), 'Non-clinical and non-emergency.'),
+            span_of(P('B264', 1), 'Peer support, rather than clinical or emergency care.'),
+            span_of(P('B270', 0), 'Risk-reduction support, rather than a substitute for medical or psychiatric treatment.'),
+            span_of(P('B270', 1), 'It is neither therapy nor immediate crisis care.')],
+     card_after=P('B270', 2))
+
+card(id='SF-6', type='safety', advice='approve', title='Chest pain: when to call medics, said ahead of its paragraph',
+     what=('In Chest Pain and Injury, ", with the decision about medics based on severity and the surrounding symptoms" '
+           'goes; the sentence reads "DMSO is also my first remedy for many injuries and some chest pain."'),
+     why=('Two paragraphs on, the section draws that line itself: mild, familiar pain against "new, severe, persistent, '
+          'worsening, radiating, or exertional pain", with "In the second branch, I would use DMSO while arranging '
+          'medical evaluation."'),
+     stays='Your angina story, the rat studies, and the paragraph with the severity line and the medics.',
+     deciding='None that I can see.', advice_note='Approve.', found_by='reader C',
+     edits=[cut_words(P('B122'), ', with the decision about medics based on severity and the surrounding symptoms')],
+     spans=[span_of(P('B122'), 'with the decision about medics based on severity and the surrounding symptoms')])
+
+card(id='SF-7', type='safety', advice='approve', title='Serotonin syndrome: magnesium "does not replace" what the steps already say',
+     what=('In the last of the serotonin steps, ", but it does not replace treatment of dangerous heat, clonus, rigidity, '
+           'or instability" goes; the sentence ends "...especially with MDMA-related jaw tension or muscle activity."'),
+     why=('Steps 3 to 5 come first and say what to do about each: emergency help and transport for moderate or severe '
+          'signs, cooling, and no exertion. Reader C marked it as a repeat of the cooling step.'),
+     stays='The magnesium line itself, and every step above it.',
+     deciding='Whether a reader who reads only this line, without the steps above it, needs the reminder.',
+     advice_note='Approve.', found_by='reader C',
+     edits=[cut_words(P('B136', 7), ', but it does not replace treatment of dangerous heat, clonus, rigidity, or instability')],
+     spans=[span_of(P('B136', 7), 'but it does not replace treatment of dangerous heat, clonus, rigidity, or instability')])
+
+card(id='RP-24', type='repeat', advice='approve', title='Movement as a test, said again under its evidence',
+     what='"Movement is a tool to test, rather than a rule to obey." goes from the end of the movement evidence note.',
+     why=('Stillness or Movement? opens with it: "Test them rather than turning them into rival religions. Try one for two '
+          'minutes..." All three readers marked this line.'),
+     stays='The note\'s evidence: the safe, low-stimulation advice and the 2024 study\'s list.',
+     deciding='None that I can see.', advice_note='Approve.', found_by='readers A, B and C',
+     edits=[cut_words(P('B313'), ' Movement is a tool to test, rather than a rule to obey.')],
+     spans=[span_of(P('B313'), 'Movement is a tool to test, rather than a rule to obey.')])
 
 # ---------------------------------------------------------------- questions only you can answer
 
@@ -428,7 +484,7 @@ card(id='Q-4', type='question', advice='ask', title='How long the action lock la
                '"Until you have slept and eaten, don’t drive...". (a) Leave them: the note covers the first night and the lock '
                'is the full rule; (b) make the 3 a.m. note say the same as the lock; (c) your words. (The Alone at 3 a.m. '
                'section quotes the note as "No actions until morning", without "big"; I\'d make it match whichever you pick.)'),
-     why='Readers A and B each found the three lengths, with nothing saying which applies when.',
+     why='Readers A, B and C each found the different lengths (C also counts checklist step 8\'s "tonight"), with nothing saying which applies when.',
      stays='All three stay as they are until you answer.',
      advice_note='(a): each fits the person reading it, and the lock section is where the full rule lives.',
      spans=[span_of(P('B31'), 'No big actions until morning.'), span_of(P('B272'), 'No actions until morning'),
@@ -474,3 +530,15 @@ card(id='Q-7', type='question', advice='ask', title='Charcoal: only after a rece
             span_of(P('B160'), 'Activated charcoal can help gut toxicity'),
             span_of(P('B161'), 'or stop a toxic gut situation, charcoal may be relevant')],
      card_after=P('B161'))
+
+card(id='Q-8', type='question', advice='ask', title='Who to Contact: move it into the help section too?',
+     question=('With SF-1, When to Bring In Outside Help holds the medics list, the mental-health list and when to get '
+               'urgent help. Reader C would move Who to Contact, and When (Fireside, TripSit, Find A Helpline, 988, Crisis '
+               'Text Line, ICEERS, CPEP, Cheetah House) up into it as well, so every kind of help is in one section. (a) '
+               'Leave the contacts in Get One Human Anchor; (b) move them up, with a one-line pointer left in Get One Human '
+               'Anchor; (c) your words.'),
+     why='You asked for the safety language in one spot, and the contacts are the one kind of help still outside it.',
+     stays='Everything stays where it is until you answer.',
+     advice_note=('(a): most of the lines are peer support for someone who needs a calm human, Alone at 3 a.m. sends the '
+                  'reader to them, and the emergency numbers are in the help section either way.'),
+     spans=[whole(P('B261'))], card_after=P('B262'))
