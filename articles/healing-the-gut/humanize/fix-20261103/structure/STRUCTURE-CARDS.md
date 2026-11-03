@@ -162,3 +162,35 @@ Leave the instructions as they are: they're a prompt for Gemini that readers cop
 If your Pangram extension reads the paid part too, the prompt will always pull the whole-post score toward AI. Your 59% share may include it. If you want the post itself to pass, the prompt could move to a linked page (gut.u-dont-exist.com already holds a copy, per item 10 of the prompt's own bibliography).
 
 Approve: Leave the prompt, fix the three slips. Reject: Humanize it too.
+
+## Pangram 4.1, each block alone (API, 3 Nov)
+
+| block | starts | words | result | windows | link |
+|---|---|---|---|---|---|
+| GH-01-02 | This article is one core component of my detox s… | 35 | Human, 100% human | Human (High, 36w) | [result](https://www.pangram.com/history/d0386ff7-0625-4596-aa36-50bc06895975) |
+| GH-03 | Previously, I made some posts about dealing with… | 75 | Human, 100% human | Human (High, 75w) | [result](https://www.pangram.com/history/845caa19-af99-4c46-bb8a-a32f30cbeee9) |
+| GH-04 | Keep in mind that gut health is intimately linke… | 83 | Human, 100% human | Human (High, 85w) | [result](https://www.pangram.com/history/94c65137-56a9-41b9-84ef-d3ec6b32ed3c) |
+| GH-05 | Severe stress/adrenal fatigue/poor sleep : This … | 59 | Human, 100% human | Human (High, 59w) | [result](https://www.pangram.com/history/a28f0837-9783-4613-bfad-5ab0520a2e2a) |
+| GH-06 | Sitting, or lack of exercise and stretching : hu… | 68 | Human, 100% human | Human (High, 66w) | [result](https://www.pangram.com/history/b58360eb-9c55-4ae4-8e35-779d4effc49e) |
+| GH-07 | Years of accumulated shit in your guts : This pa… | 269 | Human, 100% human | Human (High, 271w) | [result](https://www.pangram.com/history/f3c4da61-ba86-48a0-bdb2-5a3ccbf1c8cf) |
+| GH-08 | Poor diet now : industrial and processed foods, … | 57 | Human, 100% human | Human (High, 56w) | [result](https://www.pangram.com/history/d4d30975-351d-4d87-b080-cd4ad9d1478f) |
+| GH-09 | Parasites, H. pylori, mold, metals: We are often… | 106 | Human, 100% human | Human (High, 106w) | [result](https://www.pangram.com/history/493a61a0-458a-4f22-b927-f7f3f1e73326) |
+| GH-10 | SIBO : Small intestinal bacterial overgrowth is … | 49 | Human, 100% human | Human (High, 47w) | [result](https://www.pangram.com/history/47703981-62b3-484d-8849-3f01b2bbc2c4) |
+| GH-11 | Plant foods : The carnivore diet is trending, as… | 125 | Human, 100% human | Human (High, 126w) | [result](https://www.pangram.com/history/6d52d03e-133e-475d-8e48-d60260789fcb) |
+| GH-12 | Leaky gut : a widespread inflammatory condition … | 539 | Mixed, 43% human | Human (High, 255w), AI (High, 51w), AI (Low, 4w), AI (High, 243w) | [result](https://www.pangram.com/history/2ff70c06-28f7-41b2-9990-3c446b5fffe4) |
+| GH-13 | IBS : While there are many causes and types of i… | 43 | Human, 100% human | Human (High, 42w) | [result](https://www.pangram.com/history/13fb05eb-8690-4760-b936-e1eb34af1966) |
+| GH-14 | Low stomach acid, enzymes, and thick bile : whic… | 74 | Human, 100% human | Human (High, 76w) | [result](https://www.pangram.com/history/b567f2c9-b1fb-4812-be75-66b8564673fb) |
+| GH-15 | I have consolidated the top 9 most effective gut… | 63 | Human, 100% human | Human (High, 64w) | [result](https://www.pangram.com/history/61a1b2f7-7a38-4f79-a139-581303ad4e99) |
+| GH-16 | NOTE: this gut gem does not include some of my r… | 34 | Human, 100% human | Human (High, 36w) | [result](https://www.pangram.com/history/2ecfb74e-bb1e-4052-a48f-bdaf766f93bd) |
+| GH-17 | This protocol is designed to be executed in phas… | 28 | Human, 100% human | Human (Low, 28w) | [result](https://www.pangram.com/history/0f893a80-ebc9-41df-910a-e6ef9ee4736d) |
+| GH-18-20 | Source: T.C. Hale ( Kick Your Fat in the Nuts ) … | 143 | AI, 0% human | AI (Medium, 3w), AI (High, 138w) | [result](https://www.pangram.com/history/3cbf02de-d190-482c-a828-231f308bfd67) |
+| GH-21-23 | Source: Dr. Michael Ruscio ( Healthy Gut, Health… | 81 | AI, 0% human | AI (Medium, 2w), AI (High, 75w) | [result](https://www.pangram.com/history/4c12ddd4-0547-4730-9e4e-ba351ba58b29) |
+| GH-24-26 | Source: Dr. William Davis ( Super Gut ) & Dr. Mi… | 171 | Mixed, 87% human | AI (Low, 25w), Human (Low, 23w), Human (High, 94w), Human (Low, 31w) | [result](https://www.pangram.com/history/76447265-75a0-4e43-9571-9f829ae88b10) |
+| GH-27-28 | Source: Dr. Michael Ruscio… | 44 | AI, 0% human | AI (Low, 2w), AI (High, 44w) | [result](https://www.pangram.com/history/fc2a0c80-4c3b-4e4d-8441-b61f1fac95f9) |
+| GH-29-31 | Source: Benjamin Brown ( Digestive Health Soluti… | 115 | AI, 0% human | AI (High, 109w) | [result](https://www.pangram.com/history/5454c304-c9cb-4215-af3e-a8af42ab0e54) |
+| GH-32-34 | Source: Dr. William Davis & Dr. Will Bulsiewicz … | 135 | AI, 0% human | AI (Low, 5w), AI (High, 133w) | [result](https://www.pangram.com/history/7d2b43f4-45c9-475e-bbd7-bc7deab779fe) |
+| GH-35 | I do not think there is a universal supplement s… | 38 | AI, 0% human | AI (High, 40w) | [result](https://www.pangram.com/history/3473c2e5-4a16-41fb-8fc0-4c0d76e4a157) |
+| GH-36-39 | That said, some people want a ready-made startin… | 72 | AI, 0% human | AI (High, 75w) | [result](https://www.pangram.com/history/8461a728-d732-413b-88a2-06b8672e983b) |
+| GH-40 | The best general commercial stack I have seen so… | 73 | AI, 0% human | AI (Medium, 43w), AI (High, 35w) | [result](https://www.pangram.com/history/0a6ea5ec-346a-429f-8feb-13445fab2e27) |
+| GH-41 | I would not recommend general “gut cleanse” stac… | 48 | AI, 0% human | AI (High, 48w) | [result](https://www.pangram.com/history/f478edc6-d8e9-4c88-92af-1651142d822e) |
+| GH-42 | Start low, especially with prebiotics, resistant… | 43 | AI, 0% human | AI (High, 45w) | [result](https://www.pangram.com/history/62eab87c-49b0-4cf3-b64b-ac7ced25175b) |

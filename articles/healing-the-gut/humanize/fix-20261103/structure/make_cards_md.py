@@ -26,3 +26,16 @@ for g in s['groups']:
         out += ['Approve: %s Reject: %s' % (it.get('approve', g['approve']), it.get('reject', g['reject'])), '']
 (HERE / 'STRUCTURE-CARDS.md').write_text('\n'.join(out), encoding='utf-8')
 print('ok')
+
+# The block-by-block Pangram map, every result with its link and window confidences
+R = json.loads((HERE.parent / 'baseline' / 'RESULTS.json').read_text(encoding='utf-8'))
+units = json.loads((HERE.parent / 'baseline' / 'UNIT-TEXTS.json').read_text(encoding='utf-8'))
+rows = ['', '## Pangram 4.1, each block alone (API, 3 Nov)', '', '| block | starts | words | result | windows | link |', '|---|---|---|---|---|---|']
+for k, v in R.items():
+    start = units[k].split('\n')[0][:48].replace('|', '/')
+    wins = ', '.join('%s (%s, %dw)' % ('Human' if w['label'].startswith('Human') else 'AI', w['confidence'], w['words']) for w in v['windows'])
+    res = '%s, %d%% human' % (v['prediction_short'], round(100 * v['fraction_human']))
+    rows.append('| %s | %s… | %d | %s | %s | [result](%s) |' % (k, start, v['words'], res, wins, v['link']))
+with open(HERE / 'STRUCTURE-CARDS.md', 'a', encoding='utf-8') as f:
+    f.write('\n'.join(rows) + '\n')
+print('map added')
