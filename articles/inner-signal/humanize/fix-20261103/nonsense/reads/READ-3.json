@@ -1,0 +1,20 @@
+{"part": "3", "findings": [
+  {"block": 192,
+   "text": "The more consciously sculpted adult in you",
+   "kind": "wrong-word",
+   "what": "\"Sculpted\" does not fit an adult who answers the parent script; a word like \"developed\" or \"conscious\" is meant.",
+   "fix": "The more consciously developed adult in you",
+   "confidence": "likely"},
+  {"block": 204,
+   "text": "is that sudden \"waking up\" to all the ways",
+   "kind": "broken",
+   "what": "\"is that sudden waking up\" does not parse; the side-effect is the sudden waking up, so \"that\" should be \"the\".",
+   "fix": "is the sudden \"waking up\" to all the ways",
+   "confidence": "likely"},
+  {"block": 227,
+   "text": "surrendering to the hypnotist while playing asleep",
+   "kind": "meaningless",
+   "what": "\"Playing asleep\" is not an idiom and means nothing; likely \"falling asleep\" or \"playing dead\" was meant.",
+   "fix": "surrendering to the hypnotist while falling asleep",
+   "confidence": "likely"}
+], "notes": "Block 243 refers to a section called \"When you're already trancey\" while block 228 names it \"Already trancey? Stabilize before dipping deeper.\"; I could not check the real heading, so it is not reported as a finding. Everything else read as Joel's voice or technique."}

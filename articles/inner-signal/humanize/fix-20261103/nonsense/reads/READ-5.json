@@ -1,0 +1,14 @@
+{"part": "5", "findings": [
+  {"block": 379,
+   "text": "which alleviates the instinct to argue back",
+   "kind": "wrong-word",
+   "what": "'Alleviates' is for relieving pain or a problem; an instinct to argue is lessened or calmed, not alleviated.",
+   "fix": "which eases the instinct to argue back",
+   "confidence": "likely"},
+  {"block": 344,
+   "text": "the same Nurturer voice you meant for your little one",
+   "kind": "wrong-word",
+   "what": "'meant for' is an odd fit; the sense is the voice you use or keep for your little one.",
+   "fix": "the same Nurturer voice you use for your little one",
+   "confidence": "likely"}
+], "notes": "Part 5 reads clean otherwise; both findings are mild word-fit doubts, no clear slips, broken sentences or contradictions found."}

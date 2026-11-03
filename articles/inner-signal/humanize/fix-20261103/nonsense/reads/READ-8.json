@@ -1,0 +1,20 @@
+{"part": "8", "findings": [
+  {"block": 614,
+   "text": "What would this felt sense like me to know?",
+   "kind": "broken",
+   "what": "The verb is missing or wrong: Gendlin's question is what the felt sense wants (or would like) me to know, and 'like' alone does not parse.",
+   "fix": "What would this felt sense want me to know?",
+   "confidence": "likely"},
+  {"block": 654,
+   "text": "You might even be able to use this app or ask around",
+   "kind": "broken",
+   "what": "'this app' points at nothing in the guide or the surrounding section, so a reader cannot tell what app is meant.",
+   "fix": "You might even be able to use the InnerSignal app or ask around",
+   "confidence": "likely"},
+  {"block": 683,
+   "text": "u-dont-exist.com·25 août 2025image 5",
+   "kind": "slip",
+   "what": "A French month name ('août') sits in an English guide, and 'image 5' is run onto the date with no space (scraped link-card text).",
+   "fix": "u-dont-exist.com · 25 August 2025",
+   "confidence": "likely"}
+], "notes": "Rest of blocks 594-685 read clean as Joel's informal voice; the card text in 681-685 looks like pasted link-preview residue, so check whether the 'image 5' and 'Read full story' lines are meant to stay."}

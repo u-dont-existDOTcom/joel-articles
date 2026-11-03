@@ -1,0 +1,8 @@
+{"part": "6", "findings": [
+  {"block": 436,
+   "text": "recommend one or more of trauma-specific variants of cognitive behavioral therapy",
+   "kind": "broken",
+   "what": "\"one or more of\" needs a determiner before the plural noun; as written the phrase is ungrammatical.",
+   "fix": "recommend one or more of the trauma-specific variants of cognitive behavioral therapy",
+   "confidence": "likely"}
+], "notes": "Read all 99 blocks (386-484) sentence by sentence; found no other wrong words, meaningless phrases or slips. Considered and left alone: 484 \"opening up people's awareness\" (Milton-model list, reads as a technique description), 394 \"accept some humility\" (odd but meaningful)."}
