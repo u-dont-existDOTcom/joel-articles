@@ -140,7 +140,7 @@
   {
    "id": "x-does-not-y",
    "status": "pending",
-   "what": "\"X does not Y\" statements changed in general (tells_lint.py O61 lists them: 65 in the guide after round 1)",
+   "what": "\"X does not Y\" statements changed in general (tells_lint.py X1 lists them: 65 in the guide after round 1)",
    "joel": "18:59: \"let's make sure \\\"X does not Y\\\" is changed in general that's super ai, humans don't use that so much\"",
    "waits_for": "the humanize pass, after round 2"
   },

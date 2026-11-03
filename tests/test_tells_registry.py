@@ -76,7 +76,7 @@ class RegistryShape(unittest.TestCase):
         # hypnosis guide cards of 2026-11-02; W105 to W110 (O53 to O58, phrases he cut in his Pangram history) from his history,
         # read at his invitation on 2026-11-02 18:16 UTC; W111 and W112 (O59 "the same principle extends to", O60 "not a
         # recipe") from his second account's history, read at his invitation on 2026-11-02 21:59 UTC; W113 (O46 "one ordinary")
-        # and W114 (O61 "X does not Y") from his bad trips guide answers of 2026-11-03 18:59 UTC
+        # and W114 (X1 "X does not Y") from his bad trips guide answers of 2026-11-03 18:59 UTC
         self.assertEqual(len(ids), 182)
         self.assertEqual(len(set(ids)), len(ids))
         self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 114)

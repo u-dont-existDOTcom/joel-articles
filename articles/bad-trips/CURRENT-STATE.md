@@ -36,12 +36,12 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
   gate E333; both lanes' mailbox records); the baseline's full analysis read (his link: AI Detected, 82% AI, 189
   windows, recorded with each window's confidence in `humanize/baseline-20261103/` and the ledger); his 40 answers
   recorded and applied (30 change cards, his RP-4 line, Q-1, Q-4, Q-5, Q-7; 14,504 to 13,808 words); his three new
-  rules in the shared files (gate, `tells_lint.py` O46 and O61, the tells registry); round 2's page built.
+  rules in the shared files (gate, `tells_lint.py` O46 and X1, the tells registry); round 2's page built.
 
 ## Current checkpoint
 
 - **In progress:** Turn 2: his round-1 answers are in (`review/r01/ANSWERS-R01-20261103-1859.json`; every card's fate recorded) and applied (`GUIDE-SO-FAR.md`, by `review/r01/apply_r01.py`); round 2's marking page (`review/r02/`, 25 cards: the checklist step by step per his answer A, the Longer Triage folded in, four lines drafted from his answers) is with Joel.
-- **Next step (updated on every push, so another account can pick up here):** Put his round-2 answers in with a `review/r02/apply_r02.py` like round 1's (its "More:" lines take their links from each insert's href; CL-14 links "love" in step 14's heading to http://love.u-dont-exist.com/); then the humanize pass on the guide as it then stands: AI quips (gate J15), "one ordinary" (O46), "X does not Y" (O61, 65 candidates after round 1), the baseline's AI windows (`humanize/baseline-20261103/`), the gate's own writers (no Emulate), then the overcompletion read (E328) and the word-for-sense read (E331).
+- **Next step (updated on every push, so another account can pick up here):** Put his round-2 answers in with a `review/r02/apply_r02.py` like round 1's (its "More:" lines take their links from each insert's href; CL-14 links "love" in step 14's heading to http://love.u-dont-exist.com/); then the humanize pass on the guide as it then stands: AI quips (gate J15), "one ordinary" (O46), "X does not Y" (X1, 65 candidates after round 1), the baseline's AI windows (`humanize/baseline-20261103/`), the gate's own writers (no Emulate), then the overcompletion read (E328) and the word-for-sense read (E331).
 - **Waiting on Joel:** his answers on round 2's page.
 
 ## Remaining

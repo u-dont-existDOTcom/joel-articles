@@ -1116,7 +1116,7 @@ def main():
                            n, re.I):
                 flag('REVIEW', 'O46 "one" where "a" or "an" would do (Joel 2026-10-30: "AI overuses "one" where humans often say "an" or "a""): '
                      'keep "one" only when the count is the point', s)
-            # O61 (Joel, 2026-11-03 18:59 UTC, on the bad trips guide's "“I saw it” does not create a duty to act. “It felt cosmic” does not
+            # X1 (Joel, 2026-11-03 18:59 UTC, on the bad trips guide's "“I saw it” does not create a duty to act. “It felt cosmic” does not
             # make obedience wise.": "let's make sure "X does not Y" is changed in general that's super ai, humans don't use that so much").
             # A statement that a thing does not, is not or cannot do something (not an instruction, not about a person) is a candidate a
             # reader judges: said as what to do, or as what is so, it usually reads human.
@@ -1124,7 +1124,7 @@ def main():
                            r"anyone|it|this|that|there)\b)([A-Z\u201c\"][^.;:!?]{0,60}?)\s+(?:does not|doesn't|do not|don't|is not|isn't|"
                            r"are not|aren't|cannot|can't|will not|won't)\s+(?!have to\b|need to\b)[a-z]+", n)
             if mx and not re.match(r"\s*(?:don't|do not|never|please)\b", n, re.I):
-                flag('REVIEW', 'O61 "X does not Y" (Joel 2026-11-03: "let\'s make sure "X does not Y" is changed in general that\'s super ai, '
+                flag('REVIEW', 'X1 "X does not Y" (Joel 2026-11-03: "let\'s make sure "X does not Y" is changed in general that\'s super ai, '
                      'humans don\'t use that so much"): say what to do, or what is so', s)
             # O47 (Joel, 2026-10-30 14:35 UTC, on "so no answer can secretly mean "deeper"": ""secretly/silently" is an AI tell btw,
             # AI always using those words"). Like "quietly" (O42), they fail in my text, unless "silently" says how something is

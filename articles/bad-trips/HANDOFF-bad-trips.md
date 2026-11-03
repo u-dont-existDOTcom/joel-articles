@@ -23,7 +23,7 @@ https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips
   lines from his answers (Q-3 twice, Q-6, Q-1). **First:** put his round-2 answers in with an `apply_r02.py` like round
   1's (the "More:" lines take their links from each insert's href; CL-14 links "love" in step 14's heading). **Next:**
   the humanize pass with his three new rules (AI quips, "one ordinary", "X does not Y": gate, `tells_lint.py` O46 and
-  O61), the baseline's AI windows (`humanize/baseline-20261103/RESULT-20261018.json`: 82% AI), the gate's own writers
+  X1), the baseline's AI windows (`humanize/baseline-20261103/RESULT-20261018.json`: 82% AI), the gate's own writers
   (no Emulate), then the overcompletion read (E328) and the word-for-sense read (E331). His curly apostrophes are an AI
   tell in his writing (his words, 2026-11-03: "yes the curly apostrophes are an AI tell i know that"); his new words in
   round 2 keep the straight ones he typed. He'd like the quick triage in his web app if the GPT-made app gives the

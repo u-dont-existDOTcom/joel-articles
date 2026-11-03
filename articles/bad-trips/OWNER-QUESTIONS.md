@@ -37,4 +37,4 @@ in `experiments/t01-answers/JOEL-MESSAGE-20261103-1859.md`):
 - **The 31 change cards**: all approved, RP-4 with his line kept in his words, SF-2 left as advised, RP-13 cut at his
   word ("remove it"). Three new rules came with them, for every article: AI quips go or get humanized; "one ordinary"
   goes everywhere; "X does not Y" gets changed (`docs/HUMANIZATION-GATE.md`; `tools/humanization/tells_lint.py` O46
-  and O61).
+  and X1).
