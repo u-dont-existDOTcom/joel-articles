@@ -1,0 +1,45 @@
+{
+ "writer_B.json": {
+  "PI": {
+   "words_before": 28,
+   "words_after": 27,
+   "problems": [
+    "warning lost: Do not skip phases. | missing [['do not']]"
+   ]
+  },
+  "P1": {
+   "words_before": 178,
+   "words_after": 196,
+   "problems": [
+    "warning lost: - The Logic: Before you add \"fuel\" (supplements) or \"fire\" (antimicrobials), you must ensure the engine is mechanically sound. | missing [['must']]"
+   ]
+  },
+  "P2": {
+   "words_before": 101,
+   "words_after": 104,
+   "problems": []
+  },
+  "P3": {
+   "words_before": 247,
+   "words_after": 253,
+   "problems": []
+  },
+  "P4": {
+   "words_before": 96,
+   "words_after": 115,
+   "problems": []
+  },
+  "P5": {
+   "words_before": 151,
+   "words_after": 159,
+   "problems": [
+    "warning lost: Now you must rebuild a diverse ecosystem to prevent relapse. | missing [['must']]"
+   ]
+  },
+  "P6": {
+   "words_before": 104,
+   "words_after": 121,
+   "problems": []
+  }
+ }
+}
