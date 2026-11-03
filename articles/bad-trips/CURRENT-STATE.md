@@ -36,7 +36,7 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
 ## Remaining
 
 Round 2 (the checklist and the Longer Triage, per his structure answer); an overcompletion read (gate E328); the
-humanizing of every section that reads AI or below High, Emulate first on flagged paragraphs; the word-for-sense read
+humanizing of every section that reads AI or below High, by the gate's own writers (Emulate is no longer used on his writing, Joel 2026-11-03); the word-for-sense read
 (gate E331); his post updated, with the title's version and date (gate E323).
 
 ## Blockers / unresolved

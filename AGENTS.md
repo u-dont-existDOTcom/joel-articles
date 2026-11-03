@@ -57,6 +57,7 @@ For humanization/detector work, `docs/HUMANIZATION-ARCHITECTURE-GATE.md` is also
 - A lesson that applies beyond one article goes into the shared files in the same turn, not into a chat's own file.
 - The order: the system first (sense, preservation, fresh writers, the linter and tell ledger, the reviewer-writer loop), then Pangram as the outside check. Emulate goes first on the flagged paragraphs of a published article being humanized, and only after the reviewer-writer loop has failed on new writing (Joel, 2026-09-30; `docs/EMULATE-FALLBACK.md`).
 - Pangram and Emulate stay fallbacks until the system is shown to be enough on its own.
+- **Emulate is no longer used on Joel's writing (Joel, 2026-11-03, his words as saved to his Claude memory: "emulate doens't even pass pangram 4.1 very well anymore so that's pointless and emulate has done so much damage to my guides that took too long to fix").** This supersedes the Emulate steps above and in `docs/EMULATE-FALLBACK.md`: no lane sends his text to Emulate, a published article's flagged paragraphs included. The checks for Emulate's sentences (the strict Emulate check, the comparative read) still apply to Emulate text already in his articles.
 
 Use `docs/EDITORIAL-SCOPE-AND-PLACEMENT.md` when deciding where protected invitation/de-escalation language belongs or when an owner-approved AI/synthetic draft carries useful thought architecture. Protected function and correct placement are separate judgments.
 

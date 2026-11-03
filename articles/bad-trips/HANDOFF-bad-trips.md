@@ -26,7 +26,7 @@ https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips
   same page (same card ids kept, so his answers stay). **Next:** put his answers in (record each card's fate), then, if he picks A, build round 2:
   the new checklist step by step from his own headings and first lines, the Longer Triage's paragraphs moved where they
   belong, and the checklist's copies cut with the place that says each point. After the structure, an overcompletion read
-  (gate E328) before any rewording, then Emulate first on the flagged paragraphs (`docs/EMULATE-FALLBACK.md`).
+  (gate E328) before any rewording, then the gate's own writers on the flagged paragraphs (no Emulate: Joel, 2026-11-03, `AGENTS.md`). His curly apostrophes are an AI tell in his writing (his words, 2026-11-03: "yes the curly apostrophes are an AI tell i know that"): settle with him how the humanized text treats them.
 
 ## Where things are
 

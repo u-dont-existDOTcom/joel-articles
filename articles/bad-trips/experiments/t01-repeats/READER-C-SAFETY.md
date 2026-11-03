@@ -53,6 +53,7 @@ Left out as not safety lines: words to say aloud (B24–B28, B45 = B288, B243–
 - B63 "safety, room, body, human, no rash actions, sleep if possible, then meaning" GENERAL, ONE-PLACE (C26)
 - B69 "how people end up trying to breathe through poisoning" ACTION, KEEP-HERE (best of C7)
 - B72 "means medical help while acting" EMERGENCY, KEEP-HERE (life, C1)
+- B72 "presence alone is not the intervention" NOT-X, REPEAT (B7)
 - B72 "Don’t make somebody “sit with it” while a body is going under." ACTION, REPEAT (B7)
 - B73 "It is also not permission to call the problem anxiety because the person is high." NOT-X, KEEP-HERE (life, C2)
 - B74 "Can the person stay awake, breathe normally, smile evenly" EMERGENCY, KEEP-HERE (life, C2)

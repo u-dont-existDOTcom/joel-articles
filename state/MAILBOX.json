@@ -422,6 +422,41 @@
    ],
    "items": [],
    "recorded_utc": "2026-11-03T16:12Z"
+  },
+  {
+   "turn": "2026-11-03T16:43Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (both items in docs/suggested-fixes-ledger.md)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "no new issues, comments or reviews since 15:45 UTC besides this lane's own pull request 280; main has no new commits; the gut lane's branch claude/gut-import-20261103 has no shared-rule change about Emulate"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "this lane's handoff note and questions page were changed only by this session"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "a background wait for the three readers' reports stopped at its time limit (superseded by a second wait still running); Joel's saved preferences now say Emulate is no longer used on his writing"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's no-Emulate preference (saved 2026-11-03)",
+     "outcome": "adopted: AGENTS.md, docs/EMULATE-FALLBACK.md and docs/FIXING-AN-ARTICLE.md now say Emulate is no longer used on his writing; this lane's plan changed to match"
+    }
+   ],
+   "recorded_utc": "2026-11-03T16:44Z"
   }
  ]
 }
