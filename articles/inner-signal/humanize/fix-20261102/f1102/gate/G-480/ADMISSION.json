@@ -1,0 +1,232 @@
+{
+ "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+ "status": "READY_FOR_CHECK",
+ "candidate_sha256": "28d72153167e2dfb7df1c0417c2445f7d829175649cbb97b8b5fd52fea84c3e4",
+ "context_sha256": "302c4d14ef832406408d72f1f9babf759336a3c65ad22ecddee7aa2d5801c677",
+ "source_sha256": "3d97d0ff374400c0acca9d0e44176dab2d27ef3a2f6a6ffc295b54fa42164a85",
+ "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+ "writer": {
+  "name": "Claude Opus 5.5, the hypnosis guide lane's writer (the suggestions on his cards C-92 and C-480)",
+  "context_id": "session_01Mxpoi6tFT3FgKmBvtGjRtS"
+ },
+ "lint": {
+  "verdict_at_init": "REVIEW",
+  "linter_sha256": "4ce090c41fe4e2c0e7bc28b7cb59ebd6269e58be33611525c39c9fb4bc2a6e3e",
+  "stdout_sha256": "8147130658fd4d2f3c51ccb9222fc66877cc4cd02b8b66c32db3690ed6c6f24b",
+  "findings": [
+   {
+    "label": "D9 follows the source order",
+    "examples": [
+     "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+    ],
+    "disposition": "JUSTIFIED_KEEP",
+    "reason": "It replaces his line in place, so it follows that line's order by design."
+   }
+  ]
+ },
+ "tell_ledger": [
+  {
+   "id": "T01",
+   "status": "ABSENT",
+   "evidence": "no first person (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T02",
+   "status": "ABSENT",
+   "evidence": "one sentence, not a run of commands (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T03",
+   "status": "ABSENT",
+   "evidence": "his caveat, nothing new (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T04",
+   "status": "ABSENT",
+   "evidence": "no scene (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T05",
+   "status": "ABSENT",
+   "evidence": "no prop (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T06",
+   "status": "ABSENT",
+   "evidence": "no therapy abstraction added (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T07",
+   "status": "ABSENT",
+   "evidence": "no filler (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T08",
+   "status": "ABSENT",
+   "evidence": "no image (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T09",
+   "status": "ABSENT",
+   "evidence": "one sentence (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T10",
+   "status": "ABSENT",
+   "evidence": "no permission formula (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T11",
+   "status": "ABSENT",
+   "evidence": "\"though\" is his own word, moved to join the clause (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T12",
+   "status": "ABSENT",
+   "evidence": "no balanced pair (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T13",
+   "status": "ABSENT",
+   "evidence": "his caveat is the thing noticed (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T14",
+   "status": "ABSENT",
+   "evidence": "nothing moved but the clause join (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T15",
+   "status": "ABSENT",
+   "evidence": "his words, re-joined; no synonyms (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T16",
+   "status": "ABSENT",
+   "evidence": "not a \"not X, it's Y\" (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T17",
+   "status": "ABSENT",
+   "evidence": "his caveat, not a new principle (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T18",
+   "status": "ABSENT",
+   "evidence": "no knock-down sentence: the short flip is what the join removes (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T19",
+   "status": "ABSENT",
+   "evidence": "announces nothing (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T20",
+   "status": "ABSENT",
+   "evidence": "no short landing left: the caveat is a clause now (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T21",
+   "status": "ABSENT",
+   "evidence": "two of his points in one sentence, the second qualifying the first (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T22",
+   "status": "ABSENT",
+   "evidence": "no coach phrase (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T23",
+   "status": "ABSENT",
+   "evidence": "no scenery (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T24",
+   "status": "ABSENT",
+   "evidence": "no question (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T25",
+   "status": "ABSENT",
+   "evidence": "no colon (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T26",
+   "status": "ABSENT",
+   "evidence": "no repetition added (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T27",
+   "status": "ABSENT",
+   "evidence": "none of his tic words (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T28",
+   "status": "ABSENT",
+   "evidence": "his section ends on a caveat, not uplift (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "T29",
+   "status": "ABSENT",
+   "evidence": "a new consideration (safety is not truth), not a restatement (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "C01",
+   "status": "ABSENT",
+   "evidence": "no naming (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "C02",
+   "status": "ABSENT",
+   "evidence": "\"that\" is the subconscious feeling safer; \"Used together properly\" is his opening, unchanged (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "C03",
+   "status": "ABSENT",
+   "evidence": "no first-person fact (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  },
+  {
+   "id": "C04",
+   "status": "ABSENT",
+   "evidence": "no named entity (judged: Used together properly, the subconscious can feel safer in giving its response, though that doesn't make the answers any more true.)",
+   "resolution": ""
+  }
+ ],
+ "review_files": {
+  "preservation": "REVIEW-preservation.json",
+  "cold_read_1": "REVIEW-cold_read_1.json",
+  "cold_read_2": "REVIEW-cold_read_2.json"
+ }
+}

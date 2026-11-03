@@ -1,3 +1,6 @@
+**Joel's message of 2026-11-02 23:07 UTC (the hypnosis guide's second free check)**: nothing changed in this lane.
+Predictions: none. Delegations (model, piece, check, outcome): none.
+
 **Joel's message of 2026-11-02 21:59 UTC (his other Pangram account, read in the hypnosis lane): its lessons apply here too.** E326 (a check's text carries no paragraph labels or Markdown marks: the pages that number paragraphs keep the labels out of a copy now) and E327 (a heading is checked like a sentence); linter rules O59 and O60. Nothing changed in his post or `master.md`.
 Predictions: none. Delegations (model, piece, check, outcome): none.
 

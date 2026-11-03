@@ -1,0 +1,20 @@
+{
+ "G-92": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "check": "ADMITTED candidate=e419394552f904d98a6f5eec1b656920d9873f0bc66fc35e4fd90299b8846283 reviews=preservation,cold_read_1,cold_read_2"
+ },
+ "G-480": {
+  "reviews": {
+   "preservation": "PASS",
+   "cold_read_1": "PASS",
+   "cold_read_2": "PASS"
+  },
+  "admitted": true,
+  "check": "ADMITTED candidate=28d72153167e2dfb7df1c0417c2445f7d829175649cbb97b8b5fd52fea84c3e4 reviews=preservation,cold_read_1,cold_read_2"
+ }
+}
