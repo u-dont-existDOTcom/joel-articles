@@ -4,7 +4,7 @@
  "title": "Bad Trips Guide, Round 1",
  "intro": [
   "This is your whole Bad Trips guide as it is published today (it matches the editor HTML you pasted, block for block), with my suggestions marked where they apply. Nothing changes until you approve it.",
-  "The first card is the one big question: how the quick version and the long version split the work. Most of the repetition is between the checklist, the Longer Triage and the long sections, so those cuts wait for your answer. The other cards are repeats and safety lines inside the long part, which come out whichever way you answer.",
+  "The first card is the one big question: how the quick version and the long version split the work. Most of the repetition is between the checklist, the Longer Triage and the long sections, so those cuts wait for your answer. The other cards are repeats and safety lines inside the long part, which come out whichever way you answer, and six questions only you can answer (in five of them the guide says two things that don't fit together). Three fresh readers are reading the whole guide for this, two for repeats and one for safety lines: the cards come from my read, both repeat readers' reports and the first half of the safety reader's, and every quote on them was checked against your text.",
   "Pangram (your extension, on the published post) reads the guide as AI overall. The full analysis didn't open from here, so there are no window readings on this page yet. Humanizing starts once the structure is settled, so no work goes into paragraphs that are about to be cut."
  ],
  "git_file": "articles/bad-trips/review/r01/REVIEW-R01.html",
@@ -161,10 +161,10 @@
    "type": "safety",
    "advice": "approve",
    "title": "When to call for help, in one section",
-   "what": "\"When Peer Support Isn't Enough\" moves, with its three paragraphs (when to get urgent help; \"I might kill someone to test this theory\"; local emergency services, 988 and 911), from the tripsitting part up into \"When to Bring In Outside Help\", as its third part, under its own heading at the same level as the other two. The mental-health list's first item (\"The person may be unsafe to themselves or others.\") goes, since the moved paragraph says it with the details. The line under the medics list (\"The remedies below can begin while help is being arranged...\") goes, since the next section opens with the same point (\"An emergency means act now...\").",
+   "what": "\"When Peer Support Isn't Enough\" moves, with its three paragraphs (when to get urgent help; \"I might kill someone to test this theory\"; local emergency services, 988 and 911), from the tripsitting part up into \"When to Bring In Outside Help\", as its third part, under its own heading at the same level as the other two. The mental-health list's first item (\"The person may be unsafe to themselves or others.\") goes, since the moved paragraph says it with the details.",
    "why": "Today the guide lists when to call for help in about seven places (checklist steps 1 and 9, the Longer Triage, the two lists here, When Peer Support Isn't Enough, and the harm section). You asked for the safety lines in one spot: this puts the medics list, the mental-health list and the urgent-help paragraph together where a reader looks for them.",
    "stays": "The danger signs in checklist step 1, and the call-for-help lines inside each emergency (the seizure's five minutes, the chest-pain line, serotonin syndrome, the harm script), stay where the reader acts on them.",
-   "deciding": "Whether the tripsitting part should keep a one-line pointer to this section where the heading was. And the medics-list line that goes ends \"using a fast field remedy does not require giving up a time-sensitive medical option\": the next section's opening says medics and remedy go together (\"Some symptom patterns call for medics while you use an immediate remedy\"), but not in those words; a reader preferred keeping this line and cutting that one.",
+   "deciding": "Whether the tripsitting part should keep a one-line pointer to this section where the heading was.",
    "advice_note": "Approve.",
    "found_by": "my read; reader C",
    "inserts": [
@@ -196,11 +196,6 @@
      "block": 119,
      "before": "The person may be unsafe to themselves or others.",
      "after": ""
-    },
-    {
-     "block": 117,
-     "before": "The remedies below can begin while help is being arranged. Calling medics does not require waiting passively, and using a fast field remedy does not require giving up a time-sensitive medical option.",
-     "after": ""
     }
    ],
    "spans": [
@@ -213,11 +208,6 @@
      "block": 119,
      "start": 0,
      "end": 49
-    },
-    {
-     "block": 117,
-     "start": 0,
-     "end": 199
     }
    ],
    "card_after": 125
@@ -331,34 +321,29 @@
    "type": "repeat",
    "advice": "approve",
    "title": "Music: the same two points in two places",
-   "what": "In the Grounding Menu's Music list, \"Silence is a real option.\" and \"Keep the stop or change control immediate. Music should remain an option, rather than become another authority in the room.\" go.",
-   "why": "\"Music is optional. Ask “music or quiet?” and keep the person able to stop or change it immediately...\" in The First Five Minutes says both.",
-   "stays": "The Music list keeps familiar music, no forced emotional arc, and drumming versus harp-like music.",
-   "deciding": "Whether you'd rather keep the menu whole and cut the First Five Minutes paragraph instead.",
+   "what": "In The First Five Minutes, \"Music is optional.\" and \"and keep the person able to stop or change it immediately\" go. The paragraph reads: \"Ask “music or quiet?” If a track starts pulling the experience somewhere unwanted, change it. This is a bad time to defend the playlist.\"",
+   "why": "The Grounding Menu's Music list says both (\"Silence is a real option.\" and \"Keep the stop or change control immediate...\"), and both repeat readers took the menu as music's home.",
+   "stays": "The Music list stays whole: silence, familiar music, no forced arc, drumming or harp-like music, the stop control.",
+   "deciding": "Whether you'd rather keep this paragraph whole and trim the menu instead.",
    "advice_note": "Approve.",
    "found_by": "my read; readers A and B",
    "edits": [
     {
-     "block": 390,
-     "before": "Silence is a real option.",
-     "after": ""
-    },
-    {
-     "block": 393,
-     "before": "Keep the stop or change control immediate. Music should remain an option, rather than become another authority in the room.",
-     "after": ""
+     "block": 299,
+     "before": "Music is optional. Ask “music or quiet?” and keep the person able to stop or change it immediately. If a track starts pulling the experience somewhere unwanted, change it. This is a bad time to defend the playlist.",
+     "after": "Ask “music or quiet?” If a track starts pulling the experience somewhere unwanted, change it. This is a bad time to defend the playlist."
     }
    ],
    "spans": [
     {
-     "block": 390,
+     "block": 299,
      "start": 0,
-     "end": 25
+     "end": 18
     },
     {
-     "block": 393,
-     "start": 0,
-     "end": 123
+     "block": 299,
+     "start": 41,
+     "end": 98
     }
    ]
   },
@@ -632,6 +617,251 @@
    "card_after": 584
   },
   {
+   "id": "RP-15",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "Calling medics while using a remedy, said twice",
+   "what": "In the first paragraph of Acute Medical and Neurological Rescue, \"Some symptom patterns call for medics while you use an immediate remedy; \" goes, so the sentence starts \"Some severe but physically stable altered states may respond faster to field rescue...\"",
+   "why": "The line under the medics list, a few lines up, says it (\"The remedies below can begin while help is being arranged...\") and adds that using a remedy doesn't mean giving up a time-sensitive medical option. All three readers took that line as the home of the point.",
+   "stays": "\"An emergency means act now\", the ambulance line, and the stable-state line.",
+   "deciding": "None that I can see.",
+   "advice_note": "Approve.",
+   "found_by": "readers A, B and C",
+   "edits": [
+    {
+     "block": 128,
+     "before": "An emergency means act now. It does not always mean that an ambulance is the first or only useful action. Some symptom patterns call for medics while you use an immediate remedy; some severe but physically stable altered states may respond faster to field rescue than to hours in an emergency room.",
+     "after": "An emergency means act now. It does not always mean that an ambulance is the first or only useful action. Some severe but physically stable altered states may respond faster to field rescue than to hours in an emergency room."
+    }
+   ],
+   "spans": [
+    {
+     "block": 128,
+     "start": 106,
+     "end": 178
+    }
+   ]
+  },
+  {
+   "id": "RP-16",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "Magnesium: \"not one exceptional episode\" says the paragraph before again",
+   "what": "\"This was not one exceptional episode. I have repeatedly needed large amounts when taking MDMA. My practical endpoint is the jaw releasing, rather than taking one conventional supplement dose and assuming the problem has been handled.\" goes.",
+   "why": "The paragraph before says each part: \"On multiple occasions\", the amounts, \"A token dose may not be enough\", and \"before my jaw fully released\".",
+   "stays": "Every dose, amount and timing in the magnesium paragraphs (they are all in the paragraph before).",
+   "deciding": "Whether \"my practical endpoint is the jaw releasing\" says it more plainly than the paragraph before does.",
+   "advice_note": "Approve.",
+   "found_by": "reader A",
+   "edits": [
+    {
+     "block": 144,
+     "before": "This was not one exceptional episode. I have repeatedly needed large amounts when taking MDMA. My practical endpoint is the jaw releasing, rather than taking one conventional supplement dose and assuming the problem has been handled.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 144,
+     "start": 0,
+     "end": 233
+    }
+   ]
+  },
+  {
+   "id": "RP-17",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "Zeolite's symptom list, a fourth time",
+   "what": "\"Zeolite is what helps me when mental distress seems driven by gut toxicity, parasite die-off, nausea, diarrhea, or the sick-stomach feeling.\" goes; the paragraph keeps \"That water doesn’t fix the gut the way zeolite does.\"",
+   "why": "The zeolite section lists the same symptoms (\"sick stomach, nausea, diarrhea, toxic heaviness, a dirty body-feeling, parasite die-off...\"), as do checklist step 10 and the start of the hierarchy.",
+   "stays": "The contrast: the water acts on the overloaded mind, zeolite on the gut (the next paragraph says the first half).",
+   "deciding": "None that I can see.",
+   "advice_note": "Approve.",
+   "found_by": "readers A and B",
+   "edits": [
+    {
+     "block": 239,
+     "before": "That water doesn’t fix the gut the way zeolite does. Zeolite is what helps me when mental distress seems driven by gut toxicity, parasite die-off, nausea, diarrhea, or the sick-stomach feeling.",
+     "after": "That water doesn’t fix the gut the way zeolite does."
+    }
+   ],
+   "spans": [
+    {
+     "block": 239,
+     "start": 53,
+     "end": 127
+    }
+   ]
+  },
+  {
+   "id": "SF-3",
+   "type": "safety",
+   "advice": "approve",
+   "title": "Not inhaling ozone, said four times",
+   "what": "\"I am never recommending ozone inhalation.\" goes from the charcoal-water paragraph; its instruction stays (\"I mean the water after active ozonation has ended and residual ozone has dissipated.\").",
+   "why": "The guide says you mean the water, not ozone gas, at its first mention (the zeolite: \"I mean ozonating water, never inhaling ozone gas\"), again here, again beside the crying baby (\"No ozone gas was present\"), and in the story of the time you smelled it (\"I don’t recommend inhaling ozone.\"). The first mention and the story are the two a reader needs.",
+   "stays": "The zeolite line, the baby line, your story, and this paragraph's next sentence (the water after ozonation has ended).",
+   "deciding": "Whether you'd rather keep this line and drop the one at the end of your story.",
+   "advice_note": "Approve.",
+   "found_by": "readers A, B and C (C would keep this line and cut the one in your story)",
+   "edits": [
+    {
+     "block": 238,
+     "before": "What I usually use is the water portion: water ozonated in contact with activated charcoal and allowed to sit after the charcoal falls to the bottom, or water ozonated with ordinary rock charcoal. I am never recommending ozone inhalation. I mean the water after active ozonation has ended and residual ozone has dissipated.",
+     "after": "What I usually use is the water portion: water ozonated in contact with activated charcoal and allowed to sit after the charcoal falls to the bottom, or water ozonated with ordinary rock charcoal. I mean the water after active ozonation has ended and residual ozone has dissipated."
+    }
+   ],
+   "spans": [
+    {
+     "block": 238,
+     "start": 197,
+     "end": 238
+    }
+   ]
+  },
+  {
+   "id": "SF-4",
+   "type": "safety",
+   "advice": "approve",
+   "title": "A caveat about the evidence labels that changes nothing",
+   "what": "\"I use the strongest applicable evidence without pretending every useful rescue has already received the trial it deserves.\" goes from How I label the evidence.",
+   "why": "The four labels above it already say how strong each kind of evidence is; this line defends them and changes nothing a reader does.",
+   "stays": "The four labels.",
+   "deciding": "None that I can see.",
+   "advice_note": "Approve.",
+   "found_by": "reader C",
+   "edits": [
+    {
+     "block": 195,
+     "before": "I use the strongest applicable evidence without pretending every useful rescue has already received the trial it deserves.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 195,
+     "start": 0,
+     "end": 122
+    }
+   ]
+  },
+  {
+   "id": "RP-18",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "Love becoming practical, twice",
+   "what": "\"Grounding is love becoming practical.\" goes from the start of the Grounding Menu; it starts \"Choose one or two options rather than all of them.\"",
+   "why": "Stillness or Movement? ends on the same line (\"When the nervous system is on fire, love becomes practical first.\"), earlier in the same part.",
+   "stays": "The menu's advice to choose one or two, and why.",
+   "deciding": "Whether it works better as the menu's first line than as that paragraph's last.",
+   "advice_note": "Approve.",
+   "found_by": "reader A",
+   "edits": [
+    {
+     "block": 368,
+     "before": "Grounding is love becoming practical. Choose one or two options rather than all of them. Twelve simultaneous techniques can become another form of panic.",
+     "after": "Choose one or two options rather than all of them. Twelve simultaneous techniques can become another form of panic."
+    }
+   ],
+   "spans": [
+    {
+     "block": 368,
+     "start": 0,
+     "end": 37
+    }
+   ]
+  },
+  {
+   "id": "RP-19",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "Shadow work defined twice, four paragraphs apart",
+   "what": "In the Eshwar sentence, \"—bringing love and awareness to trauma-formed negative states and tendencies—\" goes: \"My friend Eshwar, however, found that shadow work made up about 99% of his path to heart-chakra awakening.\"",
+   "why": "\"Shadow work to me is neither BDSM nor “feeding your demons.” It means bringing loving awareness to the parts of the mind built in fear...\" defines it in full four paragraphs later.",
+   "stays": "Eshwar and his 99%.",
+   "deciding": "Whether a reader needs the short definition the first time shadow work comes up.",
+   "advice_note": "Approve.",
+   "found_by": "readers A and B",
+   "edits": [
+    {
+     "block": 443,
+     "before": "Many people meditate or take psychedelics to feel good. I am definitely one of them, and Buddha also said meditation should generally feel good. My friend Eshwar, however, found that shadow work—bringing love and awareness to trauma-formed negative states and tendencies—made up about 99% of his path to heart-chakra awakening.",
+     "after": "Many people meditate or take psychedelics to feel good. I am definitely one of them, and Buddha also said meditation should generally feel good. My friend Eshwar, however, found that shadow work made up about 99% of his path to heart-chakra awakening."
+    }
+   ],
+   "spans": [
+    {
+     "block": 443,
+     "start": 194,
+     "end": 271
+    }
+   ]
+  },
+  {
+   "id": "RP-20",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "Life forcing the lesson, twice, three paragraphs apart",
+   "what": "\"Sometimes the real-world smackdown is unavoidable for deeper learning.\" goes, and so does \"I would love for everybody to do this in the safe room.\" from the paragraph that starts \"Skip this inner work\".",
+   "why": "The two passages tell the same three steps: skipped shadow work shows up in life, the safe room is better, and sometimes life forces it. Your marriages line and your wish for the safer rooms stay in the first; the second keeps where it leaks and \"the morning you realize the enlightened persona was mostly a nice outfit\".",
+   "stays": "\"When shadow work is bypassed...\" with your two marriages; \"Skip this inner work...\" without the safe-room sentence.",
+   "deciding": "The first sentence of each passage still says the same thing (\"When shadow work is bypassed... it may appear in ordinary life\" and \"Skip this inner work, and the trauma doesn’t vanish\"); say if you want one of them to go too.",
+   "advice_note": "Approve.",
+   "found_by": "readers A and B (they differ on which passage to keep)",
+   "edits": [
+    {
+     "block": 446,
+     "before": "Sometimes the real-world smackdown is unavoidable for deeper learning.",
+     "after": ""
+    },
+    {
+     "block": 449,
+     "before": "Skip this inner work, and the trauma doesn’t vanish. It leaks into marriages, friendships, sex, money, spiritual communities, and the way reality itself is interpreted. I would love for everybody to do this in the safe room. Sometimes the curriculum arrives through heartbreak, divorce, betrayal, illness, or the morning you realize the enlightened persona was mostly a nice outfit.",
+     "after": "Skip this inner work, and the trauma doesn’t vanish. It leaks into marriages, friendships, sex, money, spiritual communities, and the way reality itself is interpreted. Sometimes the curriculum arrives through heartbreak, divorce, betrayal, illness, or the morning you realize the enlightened persona was mostly a nice outfit."
+    }
+   ],
+   "spans": [
+    {
+     "block": 446,
+     "start": 0,
+     "end": 70
+    },
+    {
+     "block": 449,
+     "start": 169,
+     "end": 224
+    }
+   ],
+   "card_after": 449
+  },
+  {
+   "id": "RP-21",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "The planned-session list, then the same list as arrows",
+   "what": "\"Preparation → physical safety → intention → low-directivity support → closure → sleep and food → next-day integration.\" goes; \"Use this sequence for planned sessions...\" follows the list directly.",
+   "why": "It says the list just above it again, in the same order (\"Integration time\" becomes \"sleep and food → next-day integration\").",
+   "stays": "The list, and \"Use this sequence for planned sessions. Once somebody is already in trouble, return to the acute checklist...\"",
+   "deciding": "Whether the one-line chain helps as a summary to remember.",
+   "advice_note": "Approve.",
+   "found_by": "reader A",
+   "edits": [
+    {
+     "block": 483,
+     "before": "Preparation → physical safety → intention → low-directivity support → closure → sleep and food → next-day integration.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 483,
+     "start": 0,
+     "end": 118
+    }
+   ]
+  },
+  {
    "id": "Q-1",
    "type": "question",
    "advice": "ask",
@@ -670,6 +900,123 @@
      "end": 94
     }
    ]
+  },
+  {
+   "id": "Q-3",
+   "type": "question",
+   "advice": "ask",
+   "title": "DMSO first: two cautions from the DMSO section",
+   "question": "The brain-damage branch puts DMSO first, whatever the drug. The DMSO section says \"Don’t take it with drugs that should not absorb rapidly, including corticosteroids, NSAIDs, and harmalas\", and ayahuasca is a harmala brew (the serotonin section says \"harmala/ayahuasca-type MAOI exposure\"). It also says \"Don’t combine it with blood-thinning medication because DMSO also thins the blood\", while the stroke paragraph uses DMSO at once though \"DMSO cannot identify whether the problem is a clot, a hemorrhage\". What holds for (a) someone on ayahuasca and (b) a possible bleed? If DMSO still comes first in both, the DMSO section is what changes; if not, the brain-damage branch says what to do instead. Tell me which, in your words, and I'll draft the line for your OK.",
+   "why": "A reader in that situation meets both instructions and can't follow both. Readers A and B each found this.",
+   "stays": "Everything stays as it is until you answer.",
+   "advice_note": "This one is yours: only you know what you do with DMSO in these two cases.",
+   "spans": [
+    {
+     "block": 256,
+     "start": 92,
+     "end": 104
+    },
+    {
+     "block": 258,
+     "start": 48,
+     "end": 81
+    },
+    {
+     "block": 134,
+     "start": 90,
+     "end": 154
+    }
+   ],
+   "card_after": 134
+  },
+  {
+   "id": "Q-4",
+   "type": "question",
+   "advice": "ask",
+   "title": "How long the action lock lasts",
+   "question": "The 3 a.m. note in checklist step 6 says \"No big actions until morning.\" No Rash Actions says \"Use a 24–72 hour action lock.\" and \"Until you have slept and eaten, don’t drive...\". (a) Leave them: the note covers the first night and the lock is the full rule; (b) make the 3 a.m. note say the same as the lock; (c) your words. (The Alone at 3 a.m. section quotes the note as \"No actions until morning\", without \"big\"; I'd make it match whichever you pick.)",
+   "why": "Readers A and B each found the three lengths, with nothing saying which applies when.",
+   "stays": "All three stay as they are until you answer.",
+   "advice_note": "(a): each fits the person reading it, and the lock section is where the full rule lives.",
+   "spans": [
+    {
+     "block": 34,
+     "start": 18,
+     "end": 47
+    },
+    {
+     "block": 334,
+     "start": 111,
+     "end": 135
+    },
+    {
+     "block": 419,
+     "start": 0,
+     "end": 29
+    },
+    {
+     "block": 420,
+     "start": 0,
+     "end": 30
+    }
+   ],
+   "card_after": 420
+  },
+  {
+   "id": "Q-5",
+   "type": "question",
+   "advice": "ask",
+   "title": "Room first, or body first?",
+   "question": "The checklist says \"Use this in order.\" and puts the room before the body (\"fix the room, help the body, find one calm human\"). Stillness or Movement?, the fear loop and the shadow-thoughts section put the body first (\"body → room → human → time\"). (a) Room first everywhere, as the checklist says; (b) body first everywhere; (c) leave them, if the difference is on purpose.",
+   "why": "A reader who follows the checklist and then the loop breaker gets two orders, with no reason for the change.",
+   "stays": "All four places stay as they are until you answer.",
+   "advice_note": "(a): the checklist is the order the reader is told to follow; only the word order changes in the other three.",
+   "spans": [
+    {
+     "block": 4,
+     "start": 68,
+     "end": 95
+    },
+    {
+     "block": 310,
+     "start": 18,
+     "end": 54
+    },
+    {
+     "block": 491,
+     "start": 22,
+     "end": 48
+    },
+    {
+     "block": 535,
+     "start": 246,
+     "end": 279
+    }
+   ],
+   "card_after": 310
+  },
+  {
+   "id": "Q-6",
+   "type": "question",
+   "advice": "ask",
+   "title": "Ocean water and charcoal water: different, or alike?",
+   "question": "Ocean water's section says its effect is \"different from DMSO, aged ozonated-charcoal water, zeolite, or beach morning glory\". The next section opens, right under its heading, \"These work similarly to ocean water.\" (a) Take \"aged ozonated-charcoal water\" out of the first list; (b) change the second to say how they differ; (c) your words.",
+   "why": "Read together, the two lines say opposite things.",
+   "stays": "Both stay as they are until you answer.",
+   "advice_note": "(a): it takes one item out of that list and keeps both sections as you wrote them.",
+   "spans": [
+    {
+     "block": 234,
+     "start": 68,
+     "end": 96
+    },
+    {
+     "block": 236,
+     "start": 0,
+     "end": 36
+    }
+   ],
+   "card_after": 236
   }
  ]
 }

@@ -101,9 +101,11 @@ def cards_md(review):
            'The page\'s cards as text, in the order of the guide. Built %s from [the guide as published](%s) (its '
            'Markdown here: [original.md](%s)). To answer, use the page; or write your answer under a card\'s name in a '
            'message to me.' % (review['built'], review['links']['guide'], BLOB + 'articles/bad-trips/original.md'), '']
-    for s in review['suggestions']:
-        first = (s.get('spans') or [{}])[0].get('block')
-        where = SR.where(BL, first) if first is not None else ''
+    def placed(s):  # where the page shows the card: after card_after, else after its first span's block
+        at = s.get('card_after')
+        return at if at is not None else (s.get('spans') or [{'block': 0}])[0]['block']
+    for s in sorted(review['suggestions'], key=lambda s: (s['type'] != 'structure', placed(s))):
+        where = SR.where(BL, placed(s))
         out += ['## %s: %s (%s)' % (s['id'], s['title'], types[s['type']]['label']), '', '*%s*' % where, '']
         if s['advice'] == 'ask':
             out += ['**Question:** %s' % s['question'], '', '**Why:** %s' % s['why'], '']

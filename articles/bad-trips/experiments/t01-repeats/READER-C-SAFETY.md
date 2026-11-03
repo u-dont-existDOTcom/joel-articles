@@ -1,91 +1,91 @@
 # Safety lines in the bad-trips guide (reader C)
 
-Kinds and verdicts are the prompt's. "life" means the line protects life where the reader acts on it, so it is KEEP-HERE even when said elsewhere. The C number is the cluster in part 2, which lists every block that makes the point. Rules applied: a contraindication stays with each description of its remedy; other repeated cautions keep one best copy and the rest are REPEAT; general points (outside help, contacts, the order of care, evidence labels, acting while calling) are ONE-PLACE.
+How I sorted. A reader in trouble acts from the quick checklist (B3–B63), the rescue sections (B99–B136) and the sitter's harm section (B285–B293). A line there that protects life is KEEP-HERE even when the same point is made elsewhere, and is tagged "life". The longer triage (B68–B89) and the hierarchy (B138–B145) restate those sections, so their copies are REPEAT. A remedy's own cautions stay where the remedy is described, and an evidence note stays with its claim. General guidance (order of care, outside help, contacts, parallel action, the ER's limits, the evidence key) is ONE-PLACE, with the number of its cluster in part 2, which names every block.
 
-Left out as not safety lines: words to say aloud (B24–B28, B45 = B288, B243–B245, B258–B260, B289), care advice with no safety job (B82, B84, B284 "Don’t tell somebody they are crazy"), plain "protect sleep" steps, the Hunter criteria (B133, a recognition list said once), and stories.
+Not counted as safety lines: words to say aloud (B24–B28, B45 = B288, B243–B245, B258–B260, B289 except its breakfast line), "it will change" reassurances, care advice (B82, B84, B284's "Don’t tell somebody…" and "Don’t force…"), plain "protect sleep" steps, the Hunter criteria (B133), B230's MAPS disclaimer, and philosophical "X isn’t Y" lines with no safety job (B333, B359, B412, B414, B430).
 
 ## 1. Every safety line, in article order
 
-- B4 "Medical safety first." GENERAL, ONE-PLACE (home of C26)
-- B6 "Trouble breathing, a prolonged or repeated seizure" EMERGENCY, KEEP-HERE (life, C1)
-- B7 "Get urgent help while giving basic first aid" EMERGENCY, KEEP-HERE (life, C1)
-- B7 "Medical help and field rescue can happen in parallel." REASSURE, ONE-PLACE (C4)
-- B7 "Please don’t spiritually process a body that is going under." ACTION, KEEP-HERE (best of C6)
-- B9 "Take that seriously even if they are high." ACTION, KEEP-HERE (life, C2)
-- B9 "The phrase is not a diagnosis, but intoxication does not make it meaningless" NOT-X, KEEP-HERE (life, C2)
-- B9 "whether they can stay awake, breathe normally, smile evenly" EMERGENCY, KEEP-HERE (life, C2)
-- B9 "These checks include several recognized" EVIDENCE, KEEP-HERE (the screen's only source)
-- B10 "I do not yet have evidence that pes-caprae aborts MDMA" EVIDENCE, KEEP-HERE (routes MDMA in the checklist, C3)
-- B10 "Get medical help in parallel when objective danger signs appear" EMERGENCY, KEEP-HERE (life, C2)
+- B4 "Medical safety first." GENERAL, ONE-PLACE C1
+- B6 "Trouble breathing, a prolonged or repeated seizure" EMERGENCY, KEEP-HERE, life
+- B7 "Get urgent help while giving basic first aid" EMERGENCY, KEEP-HERE, life
+- B7 "Medical help and field rescue can happen in parallel." REASSURE, ONE-PLACE C3
+- B7 "don’t spiritually process a body" ACTION, KEEP-HERE
+- B9 "Take that seriously even if they are high." ACTION, KEEP-HERE, life
+- B9 "The phrase is not a diagnosis" NOT-X, KEEP-HERE, life
+- B9 "whether they can stay awake, breathe normally" EMERGENCY, KEEP-HERE, life
+- B9 "These checks include several recognized" EVIDENCE, KEEP-HERE
+- B10 "evidence that pes-caprae aborts MDMA" EVIDENCE, REPEAT B178
+- B10 "Get medical help in parallel" EMERGENCY, KEEP-HERE, life
 - B11 "have not yet tested it with others" EVIDENCE, KEEP-HERE
-- B13 "Stop the immediate momentum toward roads, balconies, water" ACTION, KEEP-HERE (life, C8)
-- B14 "Put away the car keys" ACTION, KEEP-HERE (life, C8)
-- B16 "Music can also steer the state in the wrong direction" ACTION, KEEP-HERE (best of C21)
-- B17 "add one more calm adult or a crisis professional—not a crowd" GENERAL, ONE-PLACE (C13)
-- B20 "If movement makes you more impulsive, return to sitting or lying down." ACTION, REPEAT (B250)
-- B21 "Avoid strenuous exercise with overheating, chest pain, faintness" ACTION, KEEP-HERE (life, C19)
-- B30 "Keys away." ACTION, KEEP-HERE (life, C8)
-- B30 "Use the phone for support only, rather than posting." ACTION, KEEP-HERE (best; B272 repeats)
-- B31 "No big actions until morning." ACTION, KEEP-HERE (the alone reader's note, C9)
-- B32 "If movement escalates you, sit against a wall or lie down." ACTION, REPEAT (B250)
-- B34 "Use this calming branch only after the quick neurological screen is reassuring" ACTION, KEEP-HERE (life, C2)
-- B36 "No strain, no long breath-holds while intoxicated" ACTION, KEEP-HERE (goes with this description of the technique, C20)
-- B37 "rather than become a new breathing project" NOT-X, REPEAT (B302)
-- B39 "can be more dangerous than fear" ACTION, REPEAT (B324)
-- B40 "no driving, posting, confessing, confronting, redosing" ACTION, KEEP-HERE (life, C9)
-- B41 "If the revelation is true, it will survive sleep and breakfast." REASSURE, REPEAT (B328)
-- B43 "Don’t agree with harmful conclusions either." ACTION, KEEP-HERE (life, C11)
-- B46 "Get crisis or emergency help when there is a specific target" EMERGENCY, KEEP-HERE (life, C12)
-- B48 "don’t let “toxins” distract from repeated vomiting" EMERGENCY, KEEP-HERE (life, C1)
-- B49 "That is a personal field note, rather than standard emergency medicine." EVIDENCE, KEEP-HERE (labels this claim, C31)
-- B50 "it isn’t a universal “I took too much” remedy" NOT-X, REPEAT (B127)
-- B50 "It can be dangerous when someone is vomiting, sedated, seizing" ACTION, KEEP-HERE (life; charcoal is described here, C17)
-- B52 "the difference between smoothing the nausea and stopping the trip can be narrow" ACTION, REPEAT (B173)
-- B54 "Charcoal belongs only in the separate recent-oral-ingestion branch." ACTION, REPEAT (B127)
-- B54 "I do not yet have data showing that pes-caprae aborts MDMA." EVIDENCE, REPEAT (B178)
-- B55 "it can be dangerous with vomiting or impaired consciousness" ACTION, REPEAT (B127; B50 is five blocks back)
-- B57 "Meaning still waits until the person is safe" GENERAL, ONE-PLACE (C26)
-- B59 "When you can’t, stabilize the room, body, breath" GENERAL, ONE-PLACE (C26)
-- B61 "Identify local crisis and peer-support resources before you need them." GENERAL, ONE-PLACE (C14)
-- B61 "Coverage and hours vary by country." GENERAL, ONE-PLACE (C14)
-- B62 "non-emergency psychedelic peer support" NOT-X, REPEAT (B262)
-- B62 "not emergency care" NOT-X, REPEAT (B262)
-- B63 "safety, room, body, human, no rash actions, sleep if possible, then meaning" GENERAL, ONE-PLACE (C26)
-- B69 "how people end up trying to breathe through poisoning" ACTION, KEEP-HERE (best of C7)
-- B72 "means medical help while acting" EMERGENCY, KEEP-HERE (life, C1)
-- B72 "presence alone is not the intervention" NOT-X, REPEAT (B7)
-- B72 "Don’t make somebody “sit with it” while a body is going under." ACTION, REPEAT (B7)
-- B73 "It is also not permission to call the problem anxiety because the person is high." NOT-X, KEEP-HERE (life, C2)
-- B74 "Can the person stay awake, breathe normally, smile evenly" EMERGENCY, KEEP-HERE (life, C2)
-- B74 "If the person cannot answer reliably, basic stability remains unknown" ACTION, KEEP-HERE (life, C2)
-- B75 "If objective danger signs appear, use DMSO while somebody arranges medical help." EMERGENCY, KEEP-HERE (life, C2)
-- B75 "I do not yet know whether pes-caprae works for MDMA." EVIDENCE, REPEAT (B178)
-- B76 "calming and stabilizing the trip may be enough" REASSURE, REPEAT (B34)
-- B77 "The emergency room is not magic" NOT-X, ONE-PLACE (best of C5)
-- B77 "those drugs don’t reliably address psychosis" EVIDENCE, ONE-PLACE (C5)
-- B77 "Calling for help is not the same thing as receiving good care." NOT-X, NO-ACTION
-- B77 "the decision belongs to the actual symptom pattern rather than the word “overdose.”" ACTION, REPEAT (B126)
-- B80 "offer water without forcing it" ACTION, REPEAT (B240)
-- B80 "stop touching unless touch is wanted" ACTION, REPEAT (B392)
-- B87 "A horrible thought isn’t automatically a revelation." NOT-X, REPEAT (B69)
-- B89 "Stabilize first. Then love." GENERAL, ONE-PLACE (C26)
-- B94 "Trouble breathing, blue or gray lips" EMERGENCY, ONE-PLACE (home of C1)
-- B94 "A convulsive seizure lasting about five minutes" EMERGENCY, ONE-PLACE (home of C1)
-- B94 "Collapse, inability to wake normally" EMERGENCY, ONE-PLACE (home of C1)
-- B94 "Dangerous overheating, severe rigidity, or clonus with fever" EMERGENCY, ONE-PLACE (home of C1)
-- B94 "Sudden one-sided weakness, loss of speech" EMERGENCY, ONE-PLACE (home of C1)
-- B94 "A report that the brain feels damaged when the person cannot complete a basic neurological check" EMERGENCY, ONE-PLACE (home, C2)
-- B94 "Severe, worsening, radiating, or exertional chest pain" EMERGENCY, ONE-PLACE (home of C1)
-- B94 "Serious injury, uncontrolled bleeding" EMERGENCY, ONE-PLACE (home of C1)
-- B94 "Repeated vomiting, severe dehydration, blood" EMERGENCY, ONE-PLACE (home of C1)
-- B94 "Violence, self-harm, or a situation the sitter cannot physically contain" EMERGENCY, ONE-PLACE (home, C12)
-- B94 "Concerning symptoms after an MAOI plus a serotonergic substance" EMERGENCY, ONE-PLACE (home of C1)
-- B95 "Calling medics does not require waiting passively" REASSURE, ONE-PLACE (home of C4)
-- B97 "The person may be unsafe to themselves or others." GENERAL, ONE-PLACE (home of C33)
-- B97 "Psychosis-like symptoms outlast the acute state." GENERAL, ONE-PLACE (home of C33)
-- B97 "Sleep won’t return." GENERAL, ONE-PLACE (home of C33)
-- B97 "Mania or suicidal thinking appears." GENERAL, ONE-PLACE (home of C33)
-- B97 "Panic won’t settle." GENERAL, ONE-PLACE (home of C33)
-- B97 "The person can’t function afterward." GENERAL, ONE-PLACE (home of C33)
-- B97 "The trauma material is bigger than the room can hold." GENERAL, ONE-PLACE (home of C33)
-<!-- PART2 -->
+- B13 "Stop the immediate momentum toward roads" ACTION, KEEP-HERE, life
+- B14 "Put away the car keys" ACTION, KEEP-HERE, life
+- B16 "Music can also steer the state" ACTION, KEEP-HERE
+- B17 "add one more calm adult" GENERAL, ONE-PLACE C9
+- B20 "If movement makes you more impulsive" ACTION, REPEAT B250
+- B21 "Avoid strenuous exercise with overheating" ACTION, KEEP-HERE, life
+- B30 "Keys away." ACTION, KEEP-HERE, life
+- B30 "Use the phone for support only, rather than posting." ACTION, KEEP-HERE
+- B31 "No big actions until morning." ACTION, KEEP-HERE, life
+- B32 "If movement escalates you" ACTION, REPEAT B250
+- B34 "only after the quick neurological screen is reassuring" ACTION, KEEP-HERE, life
+- B36 "no long breath-holds while intoxicated" ACTION, KEEP-HERE
+- B37 "rather than become a new breathing project" NOT-X, REPEAT B302
+- B39 "can be more dangerous than fear" ACTION, REPEAT B324
+- B40 "The action-lock applies double" ACTION, KEEP-HERE, life
+- B41 "If the revelation is true, it will survive sleep and breakfast." REASSURE, REPEAT B328
+- B43 "Don’t agree with harmful conclusions either." ACTION, KEEP-HERE, life
+- B46 "Get crisis or emergency help" EMERGENCY, KEEP-HERE, life
+- B48 "don’t let “toxins” distract from repeated vomiting" EMERGENCY, KEEP-HERE, life
+- B49 "a personal field note, rather than standard emergency medicine" EVIDENCE, KEEP-HERE
+- B50 "it isn’t a universal “I took too much” remedy" NOT-X, REPEAT B127
+- B50 "It can be dangerous when someone is vomiting" ACTION, KEEP-HERE, life
+- B52 "stopping the trip can be narrow" ACTION, REPEAT B173
+- B54 "Charcoal belongs only in the separate recent-oral-ingestion branch." ACTION, REPEAT B127
+- B54 "data showing that pes-caprae aborts MDMA" EVIDENCE, REPEAT B178
+- B55 "dangerous with vomiting or impaired consciousness" ACTION, REPEAT B127
+- B57 "Meaning still waits" GENERAL, ONE-PLACE C1
+- B59 "When you can’t, stabilize the room" GENERAL, ONE-PLACE C1
+- B61 "Identify local crisis and peer-support resources" GENERAL, ONE-PLACE C19
+- B61 "Coverage and hours vary by country." GENERAL, ONE-PLACE C19
+- B62 "non-emergency psychedelic peer support" NOT-X, REPEAT B262
+- B62 "not emergency care" NOT-X, REPEAT B262
+- B63 "safety, room, body, human, no rash actions" GENERAL, ONE-PLACE C1
+- B69 "trying to breathe through poisoning" ACTION, KEEP-HERE
+- B72 "means medical help while acting" EMERGENCY, REPEAT B94
+- B72 "presence alone is not the intervention" NOT-X, REPEAT B7
+- B72 "Don’t make somebody “sit with it”" ACTION, REPEAT B7
+- B73 "not permission to call the problem anxiety" NOT-X, REPEAT B103
+- B74 "Can the person stay awake, breathe normally" EMERGENCY, REPEAT B104
+- B74 "basic stability remains unknown rather than reassuring" ACTION, REPEAT B104
+- B75 "use DMSO while somebody arranges medical help" EMERGENCY, REPEAT B106
+- B75 "whether pes-caprae works for MDMA" EVIDENCE, REPEAT B178
+- B76 "calming and stabilizing the trip may be enough" REASSURE, REPEAT B34
+- B77 "The emergency room is not magic" NOT-X, ONE-PLACE C22
+- B77 "those drugs don’t reliably address psychosis" EVIDENCE, ONE-PLACE C22
+- B77 "Calling for help is not the same thing" NOT-X, NO-ACTION
+- B77 "the decision belongs to the actual symptom pattern" ACTION, REPEAT B126
+- B80 "offer water without forcing it" ACTION, REPEAT B240
+- B80 "stop touching unless touch is wanted" ACTION, REPEAT B392
+- B87 "A horrible thought isn’t automatically a revelation." NOT-X, REPEAT B69
+- B89 "Stabilize first. Then love." GENERAL, ONE-PLACE C1
+- B94 "Trouble breathing, blue or gray lips" EMERGENCY, ONE-PLACE C2
+- B94 "A convulsive seizure lasting about five minutes" EMERGENCY, ONE-PLACE C2
+- B94 "Collapse, inability to wake normally" EMERGENCY, ONE-PLACE C2
+- B94 "Dangerous overheating, severe rigidity" EMERGENCY, ONE-PLACE C2
+- B94 "Sudden one-sided weakness" EMERGENCY, ONE-PLACE C2
+- B94 "A report that the brain feels damaged" EMERGENCY, ONE-PLACE C5
+- B94 "Severe, worsening, radiating, or exertional chest pain" EMERGENCY, ONE-PLACE C2
+- B94 "Serious injury, uncontrolled bleeding" EMERGENCY, ONE-PLACE C2
+- B94 "Repeated vomiting, severe dehydration" EMERGENCY, ONE-PLACE C2
+- B94 "Violence, self-harm" EMERGENCY, ONE-PLACE C16
+- B94 "Concerning symptoms after an MAOI" EMERGENCY, ONE-PLACE C2
+- B95 "Calling medics does not require waiting passively" REASSURE, ONE-PLACE C3
+- B97 "The person may be unsafe to themselves or others." GENERAL, ONE-PLACE C16
+- B97 "Psychosis-like symptoms outlast the acute state." GENERAL, ONE-PLACE C25
+- B97 "Sleep won’t return." GENERAL, ONE-PLACE C25
+- B97 "Mania or suicidal thinking appears." GENERAL, ONE-PLACE C25
+- B97 "Panic won’t settle." GENERAL, ONE-PLACE C25
+- B97 "The person can’t function afterward." GENERAL, ONE-PLACE C25
+- B97 "The trauma material is bigger than the room can hold." GENERAL, ONE-PLACE C25
+<!-- NEXT -->

@@ -106021,7 +106021,7 @@
         },
         {
           "path": "articles/bad-trips/HANDOFF-bad-trips.md",
-          "sha256": "be06a8a4f15fac5d2691146529c7e0928f9ff42dbb8c4017e8404c83f656bc93",
+          "sha256": "627cfd2d6a4fb4ed352fc4e311671061e1eab075a77d02e5adffb0f8ad4fd1b3",
           "role": "humanization_working_record"
         },
         {
@@ -106031,7 +106031,7 @@
         },
         {
           "path": "articles/bad-trips/OWNER-QUESTIONS.md",
-          "sha256": "d96b46741570613a48670edffefb3b565442048c08408451ab16ffd31c3b1e9c",
+          "sha256": "9eb234404920a265fec68ac0537d47436e5993938fe591f59b9eb09262647573",
           "role": "owner_questions_page"
         },
         {
@@ -106106,32 +106106,32 @@
         },
         {
           "path": "articles/bad-trips/review/r01/REVIEW-R01.artifact.html",
-          "sha256": "44163d43d2effb83899e6124626968dd44fb9dc605ef3e1742179afc03c94898",
+          "sha256": "a2ae72dedd68dbf631ac0c38954785f68aaabd9050ea4f3b21972f6e1d2d7f82",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/bad-trips/review/r01/REVIEW-R01.html",
-          "sha256": "90a51c157f1f9ec46d6b054781d29f207f5a5752de6b9f464d7fd796aff75287",
+          "sha256": "714a88a96fffb29abe471efd2cdfea72df3ec2a09063044ad201cc9a7274ab34",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/bad-trips/review/r01/REVIEW-R01.json",
-          "sha256": "ed666bc5abf57a5c8281a41be1d9920b4f71ec1ebe2c41b37ff53d2905fe8660",
+          "sha256": "8e86d3004cd1f2fcbbed27545cc061b876ef1fe9adbd35dd4ffe9e9c87d91e07",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/bad-trips/review/r01/REVIEW-R01.md",
-          "sha256": "e41ad81408a021d5c7614eebcbaa7d0bd4bbaef451e4e9a68975cc219cff2413",
+          "sha256": "639c3f341afe38f339b807179de7e7a72e15957a2009e2239f9dead9c207e3d3",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/bad-trips/review/r01/build_r01.py",
-          "sha256": "24579867efc0fb5e3530b53f08c6b8dbf53b1eedc8a52d37720b784d7cb431bb",
+          "sha256": "76d98edaf0b20b626b514ab9def4a71de239049ea88470beb32ff4050fcefec2",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/bad-trips/review/r01/cards_r01.py",
-          "sha256": "92981de9d53985fc923447d0a42d39662a7fcb30d92fd98087a19702e59483ca",
+          "sha256": "55994401b5042d45b68c4024392474b8274ebdc35d067dbd8766010ce384d5dd",
           "role": "humanization_working_record"
         },
         {
@@ -106156,7 +106156,7 @@
         },
         {
           "path": "articles/bad-trips/experiments/t01-repeats/READER-B.md",
-          "sha256": "a06d39f077f0cd7c20383afb3075ba968a29b39972ec694afc749187be6a4fc3",
+          "sha256": "f44d1c4e4bfd28757f3704ecec12630511093459a0b952003282e49a95d7f806",
           "role": "humanization_working_record"
         },
         {
@@ -106166,7 +106166,12 @@
         },
         {
           "path": "articles/bad-trips/experiments/t01-repeats/READER-C-SAFETY.md",
-          "sha256": "34f52768fce49db9ddc67aea53b86e98b39fd1738d935868730621cef51cafd4",
+          "sha256": "dae18c452b2a16542e8be0e21df5bbdb44a578a5294c95f330c85a211e9aad89",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/experiments/t01-repeats/READER-A.md",
+          "sha256": "b42efe9436e9d4620f527d5382ffdd0bff791701b5f763f2424d8346c99b5ceb",
           "role": "humanization_working_record"
         }
       ]

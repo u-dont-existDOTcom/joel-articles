@@ -8,7 +8,11 @@ INTRO = [
     'block), with my suggestions marked where they apply. Nothing changes until you approve it.',
     'The first card is the one big question: how the quick version and the long version split the work. Most of the '
     'repetition is between the checklist, the Longer Triage and the long sections, so those cuts wait for your answer. '
-    'The other cards are repeats and safety lines inside the long part, which come out whichever way you answer.',
+    'The other cards are repeats and safety lines inside the long part, which come out whichever way you answer, and '
+    'six questions only you can answer (in five of them the guide says two things that don\'t fit together). Three '
+    'fresh readers are reading the whole guide for this, two for repeats and one for safety lines: the cards come from '
+    'my read, both repeat readers\' reports and the first half of the safety reader\'s, and every quote on them was '
+    'checked against your text.',
     'Pangram (your extension, on the published post) reads the guide as AI overall. The full analysis didn\'t open from '
     'here, so there are no window readings on this page yet. Humanizing starts once the structure is settled, so no '
     'work goes into paragraphs that are about to be cut.',
@@ -83,9 +87,7 @@ card(id='SF-1', type='safety', advice='approve', title='When to call for help, i
            'someone to test this theory"; local emergency services, 988 and 911), from the tripsitting part up into '
            '"When to Bring In Outside Help", as its third part, under its own heading at the same level as the other '
            'two. The mental-health list\'s first item ("The person may be unsafe to themselves or others.") goes, since '
-           'the moved paragraph says it with the details. The line under the medics list ("The remedies below can '
-           'begin while help is being arranged...") goes, since the next section opens with the same point ("An '
-           'emergency means act now...").'),
+           'the moved paragraph says it with the details.'),
      why=('Today the guide lists when to call for help in about seven places (checklist steps 1 and 9, the Longer Triage, '
           'the two lists here, When Peer Support Isn\'t Enough, and the harm section). You asked for the safety lines in one '
           'spot: this puts the medics list, the mental-health list and the urgent-help paragraph together where a '
@@ -93,16 +95,12 @@ card(id='SF-1', type='safety', advice='approve', title='When to call for help, i
      stays=('The danger signs in checklist step 1, and the call-for-help lines inside each emergency (the seizure\'s '
             'five minutes, the chest-pain line, serotonin syndrome, the harm script), stay where the reader acts on '
             'them.'),
-     deciding=('Whether the tripsitting part should keep a one-line pointer to this section where the heading was. And the '
-               'medics-list line that goes ends "using a fast field remedy does not require giving up a time-sensitive '
-               'medical option": the next section\'s opening says medics and remedy go together ("Some symptom patterns '
-               'call for medics while you use an immediate remedy"), but not in those words; a reader preferred keeping '
-               'this line and cutting that one.'),
+     deciding='Whether the tripsitting part should keep a one-line pointer to this section where the heading was.',
      advice_note='Approve.', found_by='my read; reader C',
      inserts=[{'before': P('B98'), 'kind': 'h2', 'text': 'When Peer Support Isn’t Enough', 'seq': 1}],
      moves=[{'blocks': [P('B276'), P('B277'), P('B278')], 'before': P('B98'), 'seq': 2}],
-     edits=[cut_block(P('B275')), cut_block(P('B97', 0)), cut_block(P('B95'))],
-     spans=[whole(P('B275')), whole(P('B97', 0)), whole(P('B95'))], card_after=P('B97', 6))
+     edits=[cut_block(P('B275')), cut_block(P('B97', 0))],
+     spans=[whole(P('B275')), whole(P('B97', 0))], card_after=P('B97', 6))
 
 card(id='SF-2', type='safety', advice='leave', title='The seizure and chest-pain thresholds, in the list and in their sections',
      what=('A reader would cut "Call medics for a convulsive seizure lasting about five minutes..." from Active Seizure, '
@@ -151,15 +149,17 @@ card(id='RP-5', type='repeat', advice='approve', title='Swallowing charcoal, exp
      edits=[cut_block(P('B191'))], spans=[whole(P('B191'))])
 
 card(id='RP-6', type='repeat', advice='approve', title='Music: the same two points in two places',
-     what='In the Grounding Menu\'s Music list, "Silence is a real option." and "Keep the stop or change control '
-          'immediate. Music should remain an option, rather than become another authority in the room." go.',
-     why='"Music is optional. Ask “music or quiet?” and keep the person able to stop or change it immediately..." in '
-         'The First Five Minutes says both.',
-     stays='The Music list keeps familiar music, no forced emotional arc, and drumming versus harp-like music.',
-     deciding='Whether you\'d rather keep the menu whole and cut the First Five Minutes paragraph instead.',
+     what=('In The First Five Minutes, "Music is optional." and "and keep the person able to stop or change it immediately" '
+           'go. The paragraph reads: "Ask “music or quiet?” If a track starts pulling the experience somewhere unwanted, '
+           'change it. This is a bad time to defend the playlist."'),
+     why=('The Grounding Menu\'s Music list says both ("Silence is a real option." and "Keep the stop or change control '
+          'immediate..."), and both repeat readers took the menu as music\'s home.'),
+     stays='The Music list stays whole: silence, familiar music, no forced arc, drumming or harp-like music, the stop control.',
+     deciding='Whether you\'d rather keep this paragraph whole and trim the menu instead.',
      advice_note='Approve.', found_by='my read; readers A and B',
-     edits=[cut_block(P('B304', 0)), cut_block(P('B304', 3))],
-     spans=[whole(P('B304', 0)), whole(P('B304', 3))])
+     edits=[replace_words(P('B241'), 'Music is optional. Ask “music or quiet?” and keep the person able to stop or change it '
+                                     'immediately.', 'Ask “music or quiet?”')],
+     spans=[span_of(P('B241'), 'Music is optional.'), span_of(P('B241'), 'and keep the person able to stop or change it immediately')])
 
 card(id='RP-7', type='repeat', advice='approve', title='Movement, in the menu again',
      what=('Two items go from the Grounding Menu\'s Body list ("Try two minutes of safe movement: ..." and "Then ask '
@@ -255,6 +255,107 @@ card(id='RP-14', type='repeat', advice='approve', title='Two "Additional Resourc
      moves=[{'blocks': [P('B437')], 'before': P('B433', 0), 'seq': 1}],
      spans=[whole(P('B436')), whole(P('B437')), whole(P('B438', 1))], card_after=P('B438', 1))
 
+card(id='RP-15', type='repeat', advice='approve', title='Calling medics while using a remedy, said twice',
+     what=('In the first paragraph of Acute Medical and Neurological Rescue, "Some symptom patterns call for medics while you '
+           'use an immediate remedy; " goes, so the sentence starts "Some severe but physically stable altered states may '
+           'respond faster to field rescue..."'),
+     why=('The line under the medics list, a few lines up, says it ("The remedies below can begin while help is '
+          'being arranged...") and adds that using a remedy doesn\'t mean giving up a time-sensitive medical option. All three readers took that '
+          'line as the home of the point.'),
+     stays='"An emergency means act now", the ambulance line, and the stable-state line.',
+     deciding='None that I can see.', advice_note='Approve.', found_by='readers A, B and C',
+     edits=[replace_words(P('B100'), 'Some symptom patterns call for medics while you use an immediate remedy; some severe',
+                          'Some severe')],
+     spans=[span_of(P('B100'), 'Some symptom patterns call for medics while you use an immediate remedy;')])
+
+card(id='RP-16', type='repeat', advice='approve', title='Magnesium: "not one exceptional episode" says the paragraph before again',
+     what='"This was not one exceptional episode. I have repeatedly needed large amounts when taking MDMA. My practical endpoint '
+          'is the jaw releasing, rather than taking one conventional supplement dose and assuming the problem has been handled." '
+          'goes.',
+     why='The paragraph before says each part: "On multiple occasions", the amounts, "A token dose may not be enough", and '
+         '"before my jaw fully released".',
+     stays='Every dose, amount and timing in the magnesium paragraphs (they are all in the paragraph before).',
+     deciding='Whether "my practical endpoint is the jaw releasing" says it more plainly than the paragraph before does.',
+     advice_note='Approve.', found_by='reader A',
+     edits=[cut_block(P('B116'))], spans=[whole(P('B116'))])
+
+card(id='RP-17', type='repeat', advice='approve', title='Zeolite\'s symptom list, a fourth time',
+     what='"Zeolite is what helps me when mental distress seems driven by gut toxicity, parasite die-off, nausea, diarrhea, '
+          'or the sick-stomach feeling." goes; the paragraph keeps "That water doesn’t fix the gut the way zeolite does."',
+     why='The zeolite section lists the same symptoms ("sick stomach, nausea, diarrhea, toxic heaviness, a dirty body-feeling, '
+         'parasite die-off..."), as do checklist step 10 and the start of the hierarchy.',
+     stays='The contrast: the water acts on the overloaded mind, zeolite on the gut (the next paragraph says the first half).',
+     deciding='None that I can see.', advice_note='Approve.', found_by='readers A and B',
+     edits=[cut_words(P('B193'), ' Zeolite is what helps me when mental distress seems driven by gut toxicity, parasite die-off, '
+                                 'nausea, diarrhea, or the sick-stomach feeling.')],
+     spans=[span_of(P('B193'), 'Zeolite is what helps me when mental distress seems driven by gut toxicity')])
+
+card(id='SF-3', type='safety', advice='approve', title='Not inhaling ozone, said four times',
+     what='"I am never recommending ozone inhalation." goes from the charcoal-water paragraph; its instruction stays ("I mean the '
+          'water after active ozonation has ended and residual ozone has dissipated.").',
+     why=('The guide says you mean the water, not ozone gas, at its first mention (the zeolite: "I mean ozonating water, '
+          'never inhaling ozone gas"), again here, again beside the crying baby ("No ozone gas was present"), and in the '
+          'story of the time you smelled it ("I don’t recommend inhaling ozone."). The first mention and the story are the '
+          'two a reader needs.'),
+     stays='The zeolite line, the baby line, your story, and this paragraph\'s next sentence (the water after ozonation has ended).',
+     deciding='Whether you\'d rather keep this line and drop the one at the end of your story.',
+     advice_note='Approve.', found_by='readers A, B and C (C would keep this line and cut the one in your story)',
+     edits=[cut_words(P('B192'), 'I am never recommending ozone inhalation. ')],
+     spans=[span_of(P('B192'), 'I am never recommending ozone inhalation.')])
+
+card(id='SF-4', type='safety', advice='approve', title='A caveat about the evidence labels that changes nothing',
+     what='"I use the strongest applicable evidence without pretending every useful rescue has already received the trial it '
+          'deserves." goes from How I label the evidence.',
+     why='The four labels above it already say how strong each kind of evidence is; this line defends them and changes nothing '
+         'a reader does.',
+     stays='The four labels.', deciding='None that I can see.', advice_note='Approve.', found_by='reader C',
+     edits=[cut_block(P('B149'))], spans=[whole(P('B149'))])
+
+card(id='RP-18', type='repeat', advice='approve', title='Love becoming practical, twice',
+     what='"Grounding is love becoming practical." goes from the start of the Grounding Menu; it starts "Choose one or two '
+          'options rather than all of them."',
+     why='Stillness or Movement? ends on the same line ("When the nervous system is on fire, love becomes practical first."), '
+         'earlier in the same part.',
+     stays='The menu\'s advice to choose one or two, and why.',
+     deciding='Whether it works better as the menu\'s first line than as that paragraph\'s last.',
+     advice_note='Approve.', found_by='reader A',
+     edits=[cut_words(P('B295'), 'Grounding is love becoming practical. ')],
+     spans=[span_of(P('B295'), 'Grounding is love becoming practical.')])
+
+card(id='RP-19', type='repeat', advice='approve', title='Shadow work defined twice, four paragraphs apart',
+     what='In the Eshwar sentence, "—bringing love and awareness to trauma-formed negative states and tendencies—" goes: "My '
+          'friend Eshwar, however, found that shadow work made up about 99% of his path to heart-chakra awakening."',
+     why='"Shadow work to me is neither BDSM nor “feeding your demons.” It means bringing loving awareness to the parts of the '
+         'mind built in fear..." defines it in full four paragraphs later.',
+     stays='Eshwar and his 99%.', deciding='Whether a reader needs the short definition the first time shadow work comes up.',
+     advice_note='Approve.', found_by='readers A and B',
+     edits=[replace_words(P('B340'), 'shadow work—bringing love and awareness to trauma-formed negative states and tendencies—made up',
+                          'shadow work made up')],
+     spans=[span_of(P('B340'), '—bringing love and awareness to trauma-formed negative states and tendencies—')])
+
+card(id='RP-20', type='repeat', advice='approve', title='Life forcing the lesson, twice, three paragraphs apart',
+     what=('"Sometimes the real-world smackdown is unavoidable for deeper learning." goes, and so does "I would love for '
+           'everybody to do this in the safe room." from the paragraph that starts "Skip this inner work".'),
+     why=('The two passages tell the same three steps: skipped shadow work shows up in life, the safe room is better, and '
+          'sometimes life forces it. Your marriages line and your wish for the safer rooms stay in the first; the second keeps '
+          'where it leaks and "the morning you realize the enlightened persona was mostly a nice outfit".'),
+     stays='"When shadow work is bypassed..." with your two marriages; "Skip this inner work..." without the safe-room sentence.',
+     deciding=('The first sentence of each passage still says the same thing ("When shadow work is bypassed... it may appear in '
+               'ordinary life" and "Skip this inner work, and the trauma doesn’t vanish"); say if you want one of them to go too.'),
+     advice_note='Approve.', found_by='readers A and B (they differ on which passage to keep)',
+     edits=[cut_block(P('B343')), cut_words(P('B346'), 'I would love for everybody to do this in the safe room. ')],
+     spans=[whole(P('B343')), span_of(P('B346'), 'I would love for everybody to do this in the safe room.')],
+     card_after=P('B346'))
+
+card(id='RP-21', type='repeat', advice='approve', title='The planned-session list, then the same list as arrows',
+     what='"Preparation → physical safety → intention → low-directivity support → closure → sleep and food → next-day '
+          'integration." goes; "Use this sequence for planned sessions..." follows the list directly.',
+     why='It says the list just above it again, in the same order ("Integration time" becomes "sleep and food → next-day integration").',
+     stays='The list, and "Use this sequence for planned sessions. Once somebody is already in trouble, return to the acute '
+           'checklist..."',
+     deciding='Whether the one-line chain helps as a summary to remember.', advice_note='Approve.', found_by='reader A',
+     edits=[cut_block(P('B369'))], spans=[whole(P('B369'))])
+
 # ---------------------------------------------------------------- questions only you can answer
 
 card(id='Q-1', type='question', advice='ask', title='Humic acid: lick it first, or smell it first?',
@@ -281,3 +382,53 @@ card(id='Q-2', type='question', advice='ask', title='Where does "Hello, Lovey Bu
      advice_note='(a): someone opening the guide in trouble needs the checklist first, and the greeting opens the half '
                  'they read once they are safe.',
      spans=[whole(P('B231'))])
+
+card(id='Q-3', type='question', advice='ask', title='DMSO first: two cautions from the DMSO section',
+     question=('The brain-damage branch puts DMSO first, whatever the drug. The DMSO section says "Don’t take it with drugs '
+               'that should not absorb rapidly, including corticosteroids, NSAIDs, and harmalas", and ayahuasca is a harmala '
+               'brew (the serotonin section says "harmala/ayahuasca-type MAOI exposure"). It also says "Don’t combine it with '
+               'blood-thinning medication because DMSO also thins the blood", while the stroke paragraph uses DMSO at once '
+               'though "DMSO cannot identify whether the problem is a clot, a hemorrhage". What holds for (a) someone on '
+               'ayahuasca and (b) a possible bleed? If DMSO still comes first in both, the DMSO section is what changes; if '
+               'not, the brain-damage branch says what to do instead. Tell me which, in your words, and I\'ll draft the line '
+               'for your OK.'),
+     why='A reader in that situation meets both instructions and can\'t follow both. Readers A and B each found this.',
+     stays='Everything stays as it is until you answer.',
+     advice_note='This one is yours: only you know what you do with DMSO in these two cases.',
+     spans=[span_of(P('B205', 2), 'and harmalas'), span_of(P('B205', 4), 'because DMSO also thins the blood'),
+            span_of(P('B106'), 'DMSO cannot identify whether the problem is a clot, a hemorrhage')],
+     card_after=P('B106'))
+
+card(id='Q-4', type='question', advice='ask', title='How long the action lock lasts',
+     question=('The 3 a.m. note in checklist step 6 says "No big actions until morning." No Rash Actions says "Use a 24–72 hour action lock." and '
+               '"Until you have slept and eaten, don’t drive...". (a) Leave them: the note covers the first night and the lock '
+               'is the full rule; (b) make the 3 a.m. note say the same as the lock; (c) your words. (The Alone at 3 a.m. '
+               'section quotes the note as "No actions until morning", without "big"; I\'d make it match whichever you pick.)'),
+     why='Readers A and B each found the three lengths, with nothing saying which applies when.',
+     stays='All three stay as they are until you answer.',
+     advice_note='(a): each fits the person reading it, and the lock section is where the full rule lives.',
+     spans=[span_of(P('B31'), 'No big actions until morning.'), span_of(P('B272'), 'No actions until morning'),
+            whole(P('B317')), span_of(P('B318'), 'Until you have slept and eaten')], card_after=P('B318'))
+
+card(id='Q-5', type='question', advice='ask', title='Room first, or body first?',
+     question=('The checklist says "Use this in order." and puts the room before the body ("fix the room, help the body, find '
+               'one calm human"). Stillness or Movement?, the fear loop and the shadow-thoughts section put the body first '
+               '("body → room → human → time"). (a) Room first everywhere, as the checklist says; (b) body first everywhere; '
+               '(c) leave them, if the difference is on purpose.'),
+     why='A reader who follows the checklist and then the loop breaker gets two orders, with no reason for the change.',
+     stays='All four places stay as they are until you answer.',
+     advice_note='(a): the checklist is the order the reader is told to follow; only the word order changes in the other three.',
+     spans=[span_of(P('B4'), 'fix the room, help the body'), span_of(P('B252'), 'body → room → human → time → meaning'),
+            span_of(P('B375', 2), 'body → room → human → time'), span_of(P('B415'), 'body, room, human, time, and love')],
+     card_after=P('B252'))
+
+card(id='Q-6', type='question', advice='ask', title='Ocean water and charcoal water: different, or alike?',
+     question=('Ocean water\'s section says its effect is "different from DMSO, aged ozonated-charcoal water, zeolite, or beach '
+               'morning glory". The next section opens, right under its heading, "These work similarly to ocean water." (a) Take '
+               '"aged ozonated-charcoal water" out of the first list; (b) change the second to say how they differ; (c) your '
+               'words.'),
+     why='Read together, the two lines say opposite things.',
+     stays='Both stay as they are until you answer.',
+     advice_note='(a): it takes one item out of that list and keeps both sections as you wrote them.',
+     spans=[span_of(P('B188'), 'aged ozonated-charcoal water'), span_of(P('B190'), 'These work similarly to ocean water.')],
+     card_after=P('B190'))
