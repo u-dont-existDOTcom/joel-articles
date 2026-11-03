@@ -18,6 +18,10 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-11-03, after Joel's message of 12:18 UTC (the fourth free check's result pages and his E-157): both halves
+  Human Written with no AI window; three of our four fixes in, his E-157 in; question 33 asks whether the guide goes into
+  his post now.** The guide is HUMANIZED-SO-FAR.md 94ffd381 (762 blocks); Pattern 10 is the one card on
+  [Hypnosis Guide Cards, 3 November (2)](https://claude.ai/artifact/WVc1QzNAzwSN7feajnaiNP). See the Next step.
 - **2026-11-03, after Joel's message of 11:19 UTC ("31a 32a" and the third free check's result pages): the guide reads
   Human Written in both halves with no AI window; 31a and 32a in; our fixes of the four Human (Low) windows in the fourth
   free check; one card.** The guide is HUMANIZED-SO-FAR.md e4c620ed (762 blocks); batch l1103 is in
@@ -236,10 +240,9 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: **his two result pages** for the fourth free check (the links on `OWNER-QUESTIONS.md` under For you to do;
-`fix-20261103/free-whole-2/RECHECK-POST-A.json` and `-B.json`), and **his answer to the one card** on
-[Hypnosis Guide Cards, 3 November](https://claude.ai/artifact/C6K7XyKLdYGBD2nx3MBe9S) (E-157). No open questions.
-Earlier: his message of 2026-11-03 11:19 UTC (31a, 32a, the third check's pages) is in.
+The guide: **question 33** (put the guide into his post now: a, or one more check first: b) and **the one card** on
+[Hypnosis Guide Cards, 3 November (2)](https://claude.ai/artifact/WVc1QzNAzwSN7feajnaiNP) (E-523, Pattern 10, keep or
+edit). Earlier: his message of 2026-11-03 12:18 UTC (the fourth check, his E-157) is in.
 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
@@ -326,7 +329,22 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-11-03, after Joel's message of 11:19 UTC: the fourth free check pasted; his card waits)
+## Next step (2026-11-03, after Joel's message of 12:18 UTC: question 33 and one card wait on him)
+
+Done (STATUS.md's entry for 2026-11-03 12:18 has every file and number). The guide: HUMANIZED-SO-FAR.md 94ffd381 (762
+blocks); his post still has a789009c's words.
+
+Next:
+0. **His card E-523** (`fix-20261103/c1103b/REVIEW-C1103B.json`): his answer in with a script that records it, as
+   `fix-20261103/c1103/apply_answers_c1103.py` did (his version as he wrote it, obvious typos only).
+1. **Question 33.** With a): put the guide into his post (post 202810155, the post behind hypnosis.u-dont-exist.com)
+   exactly as on 2 November (`fix-20261102/live/`, STATUS.md's entry for 2026-11-02 18:16): substack_merge.py into the
+   post's editor copy, the editor's own schema and one transaction (never paste into a live post's editor), Update, then
+   "Update now"; the subtitle's "Last update" to the day (E323); read the public post back word for word
+   (`record_live.py`). With b): a fifth free check first, as `fix-20261103/free-whole-2/` did (new DATE and cache keys).
+2. **Then the next article in his queue**: neuro de-armoring, whose question 1 waits on him (its own lane).
+
+## Earlier next step (2026-11-03, after Joel's message of 11:19 UTC: the fourth free check pasted; his card waits)
 
 Done (STATUS.md's entry for 2026-11-03 11:19 has every file and number). The guide: HUMANIZED-SO-FAR.md e4c620ed (762
 blocks); his post still has a789009c's words.

@@ -1,0 +1,50 @@
+recheck a https://www.pangram.com/feed/c2f7a242-d7f1-40a5-8453-df9047c5947b?utm_source=chrome_extension&utm_medium=extension&utm_campaign=extension_share
+recheck b 
+https://www.pangram.com/feed/93dac4dd-cdea-49f2-8103-83211c1ebb4d?utm_source=chrome_extension&utm_medium=extension&utm_campaign=extension_share
+
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "inner-signal-hypnosis-guide-cards-20261103-c1103",
+ "title": "Hypnosis Guide Cards, 3 November",
+ "git_file": "articles/inner-signal/humanize/fix-20261103/c1103/REVIEW-C1103.html",
+ "article": {
+  "file": "articles/inner-signal/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "e4c620ed660c6ddf7e2f141a9b9d15dc49307e57cf954f39715a8562808d1aae"
+ },
+ "built": "2026-11-03 11:32 UTC",
+ "generator": "suggestion_review.py 1.5 (2026-11-02)",
+ "exported_at": "2026-11-03T12:18:08.023Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "E-157",
+   "type": "yours",
+   "title": "“You don’t have to work to explain anything.”",
+   "where": "Don’t rush the repair, P2",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "They might like to hear something like, “Baby boopaloopa, I’m here with you now. You don’t have to work to explain anything. or impress me with how fast you can get better. Can I help you feel less alone?”",
+   "comment": "",
+   "my_version": "They might like to hear something like, “Little one, I’m here with you now. You don’t have to work to explain anything. I'm not asking you to impress me with how fast you can get better. Can I help you feel less alone?”",
+   "before": "They might like to hear something like, “Little one, I’m here with you now. You don’t have to work to explain anything. I'm not asking you to impress me with how fast you can get better. Can I help you feel less alone?”",
+   "history": [
+    {
+     "from": "pending",
+     "to": "rejected",
+     "at": "2026-11-03T12:15:38.100Z"
+    },
+    {
+     "from": "rejected",
+     "to": "revise",
+     "at": "2026-11-03T12:16:22.053Z"
+    }
+   ],
+   "updated": "2026-11-03T12:17:52.162Z"
+  }
+ ]
+}

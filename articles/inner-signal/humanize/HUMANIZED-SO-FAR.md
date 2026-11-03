@@ -312,7 +312,7 @@ I see a lot of connection between [reparenting therapy](http://innerchild.u-dont
 
 When your inner child does show up, spend some quality time with them before taking off the kid gloves, so to speak, and jumping into the healing work.
 
-They might like to hear something like, “Little one, I’m here with you now. You don’t have to work to explain anything. I'm not asking you to impress me with how fast you can get better. Can I help you feel less alone?”
+They might like to hear something like, “Baby boopaloopa, I’m here with you now. You don’t have to work to explain anything or impress me with how fast you can get better. Can I help you feel less alone?”
 
 What does your inner child need? It can be anything: warmth, to play, to be protected, to mourn, to be angry, food, rest, boundaries, better relationships, to stop fantasizing, to stop working their butt off, that you keep a promise to them today, etc. etc.
 
@@ -638,7 +638,7 @@ Listen to everything and believe nothing automatically.
 
 # Let the next response guide you
 
-The induction and the inner meeting get you to where you can listen. After that, it's about answering what happens, instead of reading out a script that has already decided what every part of you is going to say. Read through these sections, and then try doing the inner meeting without looking at the screen.
+The induction and the inner meeting get you to where you can listen. From there, you answer whatever comes up, and you can't know ahead of time what every part of you is going to say. Read through these sections first, and then put the screen away and try the inner meeting.
 
 Respond to each thing that comes up with an accurate notice and a small reasonable invitation (or action or taking more time etc). The thing might be a sensation, image, gesture, feeling, words, or anything. The notice and invitation don't need to cover all those forms, just notice and invite what happens.
 
@@ -710,7 +710,7 @@ Allow your analytical part to make comments and/or tell you that it doesn’t li
 
 # The 15-minute daily practice
 
-You don't need to learn a second script for this. It's the same process (gather your attention, notice what's here, respond, wait, and come all the way back), just for fifteen minutes or so. That is long enough to induce yourself (it only takes a few minutes), practice and let it unfold at its own pace, and come out again (that takes a few minutes too). Fifteen minutes is just a handy appointment with yourself, though, and your feelings don't have to keep to it. Five minutes is plenty to see what happens when you simply sit in silence, listening, and you can interrupt yourself at any time to change direction if that feels better.
+You don't need to learn a second script for this. Just do the same practice, from the induction to coming all the way back, for fifteen minutes or so. That is long enough to induce yourself (it only takes a few minutes), practice and let it unfold at its own pace, and come out again (that takes a few minutes too). Fifteen minutes is just a handy appointment with yourself, though, and your feelings don't have to keep to it. Five minutes is plenty to see what happens when you simply sit in silence, listening, and you can interrupt yourself at any time to change direction if that feels better.
 
 You can also try other ways of inducing yourself, such as becoming aware of 3 things you can see, 3 things you can hear, 3 things you can feel in your body; then 2 of each, 1 of each. Then count from 5 to 1 and begin to listen. You don't need to try all of them (in fact, stacking them might be counter-productive).
 
@@ -1218,7 +1218,7 @@ Try breathing less. (There are some good things to be said for slowing your brea
 
 ## EFT tapping
 
-One of the easiest ways to do EFT (Emotional Freedom Techniques, or tapping) is to say something like, “Even though I have this anxiety, I am willing to be kind to the part of me that is afraid,” while you tap gently on your body and stay with what you feel. There isn’t a ton of evidence for EFT, but there are some studies on anxiety. A [2025 systematic review](https://www.mdpi.com/2227-9032/13/17/2180) found 7 randomized controlled trials for anxiety disorders, and noted that EFT was more effective than no intervention in several of them. There are first-line therapies for anxiety.
+With EFT (Emotional Freedom Techniques, or tapping), you tap gently on your body while you say something like, “Even though I have this anxiety, I am willing to be kind to the part of me that is afraid,” and you stay with what you feel. There isn’t a ton of evidence for EFT, but there are some studies on anxiety. A [2025 systematic review](https://www.mdpi.com/2227-9032/13/17/2180) found 7 randomized controlled trials for anxiety disorders, and noted that EFT was more effective than no intervention in several of them, though it isn't one of the first-line therapies for anxiety.
 
 ## Somatic Experiencing
 

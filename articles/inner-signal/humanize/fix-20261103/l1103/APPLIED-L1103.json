@@ -1,0 +1,21 @@
+{
+ "before_sha256": "c6847a080cdf100da6dedadaa7358a2f391720cb2fc0f74b9d9068a9dd410ff4",
+ "after_sha256": "94ffd381f8a15b8a2116c220403c114211553db31379790532c0971658f3e1ec",
+ "changed_blocks": [
+  320,
+  356,
+  610
+ ],
+ "fates": {
+  "F-320": "in (block 320, Let the next response guide you, P1): its stretch read High or Medium in the fourth free check",
+  "F-356": "in (block 356, The 15-minute daily practice, P1): its stretch read High or Medium in the fourth free check",
+  "F-522": "left out: Pattern 10 read worse (Human (Low), 0.686, from 0.784)",
+  "F-523": "left out: the same window",
+  "F-610": "in (block 610, EFT tapping, P1): its stretch read High or Medium in the fourth free check",
+  "F-610b": "in (block 610, EFT tapping, P1): its stretch read High or Medium in the fourth free check"
+ },
+ "check": {
+  "part A": "https://www.pangram.com/feed/c2f7a242-d7f1-40a5-8453-df9047c5947b",
+  "part B": "https://www.pangram.com/feed/93dac4dd-cdea-49f2-8103-83211c1ebb4d"
+ }
+}

@@ -1,5 +1,31 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-11-03, after Joel's message of 12:18 UTC: the fourth free check read; three fixes in; his E-157 in; question 33 (his post); one card
+
+His message (`fix-20261103/free-whole-2/joel-20261103-1218-message.txt`): the fourth free check's two result pages and his
+answers to Hypnosis Guide Cards, 3 November (`fix-20261103/c1103/ANSWERS-20261103-1218.json`). **The mailbox first**
+(`state/MAILBOX.json`, "2026-11-03 12:18"): pull request 274 merged by him at 12:14 UTC; nothing else new.
+
+**The fourth free check, read** (`fix-20261103/free-whole-2/read/`: WINDOWS-A/B.txt and META-A/B.json in compact mode,
+each SHA-256 the page's; make_results.py, RESULT-A/B.json; read_free1103.py, WINDOWS.md): part A Human Written, fraction
+AI 8.8e-12, 92 windows, none AI (47 High, 44 Medium, 1 Low: his old E-157 line); part B Human Written, 2.5e-7, 23
+windows, none AI (12 High, 10 Medium, 1 Low: Pattern 10's questions after F-523's lead-in, calibrated 0.686 and AI
+likelihood 1.2e-4, from the third check's 0.784 and 4.6e-7). HG-whole#275 and HG-rest-B#276 right. (The page reads its
+props only after it hydrates: the first run of pangram_feed_read.js found none, the second, a few seconds later, did.)
+
+**His E-157** (`fix-20261103/c1103/apply_answers_c1103.py`, APPLIED-C1103-ANSWERS.json, read record): his version, with
+"Baby boopaloopa" (his coinage); the full stop he left before "or impress me" taken out (obvious typo). e4c620ed to c6847a08.
+
+**Batch l1103 in** (`fix-20261103/l1103/apply_l1103.py`, APPLIED-L1103.json, read record; comparison gate PASS; c6847a08
+to 94ffd381): F-320, F-356, F-610 and F-610b; F-522 and F-523 out (E324). The guide differs from the checked candidate
+only at block 157 (his E-157) and 522 and 523 (Pattern 10 as the third check read it).
+
+**Hypnosis Guide Cards, 3 November (2)** (`fix-20261103/c1103b/build_page_c1103b.py`, REVIEW-C1103B.*; published at
+https://claude.ai/artifact/WVc1QzNAzwSN7feajnaiNP, capabilities db and downloads; browser test 60 of 60): E-523, Pattern 10,
+stuck after two tries. **Question 33**: whether to put the guide into his post now (a, my recommendation) or check once more.
+
+Delegations (model, piece, check, outcome): none.
+
 ## 2026-11-03, after Joel's message of 11:19 UTC: the third free check read (no AI window); 31a and 32a in; batch l1103 in the fourth free check; one card
 
 His message (`fix-20261103/free-whole/joel-20261103-1119-message.txt`): "31a 32a" and the third free check's two result
