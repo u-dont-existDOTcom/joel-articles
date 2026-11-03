@@ -1,0 +1,539 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "healing-the-gut-b1-protocol-20261103",
+ "title": "Gut Protocol Voice",
+ "intro": [
+  "The protocol section in your voice, phase by phase. Two writers worked from your fixes catalogue, every version passed a blind step-by-step meaning check, and each phase shown here passed Pangram alone (the link is on its card, with each window's confidence). Where a window reads Human below High, the card says so; those are the next thing I'd work on.",
+  "Phase 1 is the exception: three faithful versions all read AI, so it's on the page as a stretch for you, with my best try in the card."
+ ],
+ "git_file": "articles/healing-the-gut/humanize/fix-20261103/b1-protocol/REVIEW-PAGE.html",
+ "article": {
+  "file": "articles/healing-the-gut/humanize/fix-20261103/r01/r01.md",
+  "sha256": "3de5774207024ad5d20ae76d20e1de5852cab6661da4a31e2fce554f9de456a8"
+ },
+ "built": "2026-11-03",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/gut-import-20261103/articles/healing-the-gut/humanize/fix-20261103/r01/r01.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/gut-import-20261103/articles/healing-the-gut/humanize/fix-20261103/b1-protocol/REVIEW-CARDS.md"
+ },
+ "types": {
+  "voice": {
+   "label": "In your voice",
+   "about": "A phase rewritten and checked"
+  },
+  "help": {
+   "label": "Your help",
+   "about": "Faithful rewrites still read AI"
+  },
+  "question": {
+   "label": "Question",
+   "about": "Needs your answer"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "H-PI",
+   "type": "voice",
+   "title": "The protocol's opening line",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 38,
+     "start": 0,
+     "end": 149
+    }
+   ],
+   "edits": [
+    {
+     "block": 38,
+     "before": "This protocol is designed to be executed in phases. Do not skip phases. You only move to the next phase if the current one fails to resolve symptoms.",
+     "after": "This protocol is meant to be done in phases. Don't skip any, since you only move on to the next phase if the one you're on doesn't clear up your symptoms."
+    }
+   ],
+   "reads": [
+    {
+     "text": "This protocol is meant to be done in phases. Don't skip any, since you only move on to the next phase if the one you're on doesn't clear up your symptoms.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "card_after": 38,
+   "what": "Plain whole sentences; 'since' ties don't-skip to the move-on rule so the two lines reason with each other instead of marching as three commands.",
+   "why": "The phase read AI in your post. This version keeps every step, test, compound, dose, warning and source, and your \"My notes\" line word for word; a blind reader checked it step by step against the original (PASS).",
+   "stays": "Everything the phase tells the reader to do, in the same order, with the same sources.",
+   "deciding": "Whether it sounds like you.",
+   "advice_note": "Approve, or Revise with your own wording.",
+   "tested": "Human, 100% human; windows Human High (34w). [Pangram result](https://www.pangram.com/history/dae8a068-9322-4432-9965-967fd66800c9)"
+  },
+  {
+   "id": "H-P2",
+   "type": "voice",
+   "title": "Phase 2 in your voice",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 48,
+     "start": 0,
+     "end": 46
+    }
+   ],
+   "edits": [
+    {
+     "block": 48,
+     "before": "Phase 2: The Reset (The Architect & Scientist)",
+     "after": "Phase 2: The Reset"
+    },
+    {
+     "block": 49,
+     "before": "Source: Dr. Michael Ruscio (Healthy Gut, Healthy You) & Dr. Mark Pimentel (The Microbiome Connection)",
+     "after": "This is Dr. Michael Ruscio (Healthy Gut, Healthy You) and Dr. Mark Pimentel (The Microbiome Connection): calm the inflammation down and starve the overgrowths, no harsh chemicals. Diet-wise, go Paleo-Low FODMAP (Ruscio) or Low Fermentation Eating (Pimentel). Either way you stop feeding the bacteria in your small intestine. And no snacking! Pimentel wants meals 4-5 hours apart, strictly, so the Migrating Motor Complex (MMC) gets to sweep your gut clean in between. My notes: see Poor diet now and Plant foods, above."
+    },
+    {
+     "block": 50,
+     "before": "The Logic: Reduce inflammation and starve overgrowths without harsh chemicals.",
+     "after": ""
+    },
+    {
+     "block": 51,
+     "before": "The Protocol:",
+     "after": ""
+    },
+    {
+     "block": 52,
+     "before": "Diet: Adopt a Paleo-Low FODMAP diet (Ruscio) or a Low Fermentation Eating plan (Pimentel). The goal is to stop feeding bacteria in the small intestine.",
+     "after": ""
+    },
+    {
+     "block": 53,
+     "before": "Meal Spacing (Pimentel): Strictly space meals 4-5 hours apart with no snacking. This allows the Migrating Motor Complex (MMC) to sweep the gut clean.",
+     "after": ""
+    },
+    {
+     "block": 54,
+     "before": "My notes: see Poor diet now and Plant foods, above.",
+     "after": ""
+    }
+   ],
+   "reads": [
+    {
+     "text": "Phase 2: The Reset",
+     "kind": "h4"
+    },
+    {
+     "text": "This is Dr. Michael Ruscio (Healthy Gut, Healthy You) and Dr. Mark Pimentel (The Microbiome Connection): calm the inflammation down and starve the overgrowths, no harsh chemicals.",
+     "kind": "p"
+    },
+    {
+     "text": "Diet-wise, go Paleo-Low FODMAP (Ruscio) or Low Fermentation Eating (Pimentel). Either way you stop feeding the bacteria in your small intestine.",
+     "kind": "p"
+    },
+    {
+     "text": "And no snacking! Pimentel wants meals 4-5 hours apart, strictly, so the Migrating Motor Complex (MMC) gets to sweep your gut clean in between.",
+     "kind": "p"
+    },
+    {
+     "text": "My notes: see Poor diet now and Plant foods, above.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "card_after": 54,
+   "what": "Claude, try 3: no step labels or self-answered question; diet and spacing as two plain sentences; nickname dropped.",
+   "why": "The phase read AI in your post. This version keeps every step, test, compound, dose, warning and source, and your \"My notes\" line word for word; a blind reader checked it step by step against the original (PASS).",
+   "stays": "Everything the phase tells the reader to do, in the same order, with the same sources.",
+   "deciding": "Whether it sounds like you.",
+   "advice_note": "Approve, or Revise with your own wording.",
+   "tested": "Human, 100% human; windows Human Medium (7w), Human High (8w), Human Medium (16w), Human Low (26w), Human Medium (22w), Human High (10w). [Pangram result](https://www.pangram.com/history/f79fb8c2-4f6a-4ddb-95f6-fbd71c169771)",
+   "reading": "Your post as it was, Phase 2 alone: AI, 0% human. [Pangram result](https://www.pangram.com/history/4c12ddd4-0547-4730-9e4e-ba351ba58b29)"
+  },
+  {
+   "id": "H-P3",
+   "type": "voice",
+   "title": "Phase 3 in your voice",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 55,
+     "start": 0,
+     "end": 33
+    }
+   ],
+   "edits": [
+    {
+     "block": 55,
+     "before": "Phase 3: The Purge (The Restorer)",
+     "after": "Phase 3: The Purge"
+    },
+    {
+     "block": 56,
+     "before": "Source: Dr. William Davis (Super Gut) & Dr. Michael Ruscio",
+     "after": "If diet didn't clear your symptoms, you likely have an active overgrowth (SIBO/SIFO). This one is from Dr. William Davis (Super Gut) and Dr. Michael Ruscio. AVOID most herbal antibiotics, even though Davis recommends specific herbal combinations like Candibactin AR/BR or FC Cidal/Dysbiocide for 4 weeks. H2O2 actually works better than the herbal antibiotics according to me and orthomolecular drs. My BFF Pooyan tried candibactin actually and it nearly killed him. The H2O2 worked a lot better without side effects. There is one herbal antibiotic that works really well tho for H. pylori: Berberine. If you have an acute infection with something that those don't help quickly, consider escalating to secnidazole treatment for rapid cure, and paromomycin post-treatment for relapse prevention, with medical supervision. BIND to the toxins, especially the metals and parasite die-off toxins, using Zholy3O. At the same time, take Ruscio's Triple Probiotic Support, a blend of Lacto/Bifido, S. boulardii, and Soil-Based organisms. That's to maintain diversity and prevent opportunistic infections (like C. diff) during the kill phase. And if the herbs failed, the overgrowth is too severe or the gut lining is too damaged for solids, so it's time for Ruscio's \"Nuclear\" Option, the Elemental Diet. That's a 2-3 week liquid-only diet (predigested nutrients), which starves the bacteria completely while still nourishing you. My notes: the H2O2 swap above is mine, not the books'. For berberine and H. pylori see Parasites, and for SIBO yogurt see SIBO, above."
+    },
+    {
+     "block": 57,
+     "before": "The Logic: If diet didn't clear the symptoms, active overgrowth (SIBO/SIFO) is likely present.",
+     "after": ""
+    },
+    {
+     "block": 58,
+     "before": "The Protocol:",
+     "after": ""
+    },
+    {
+     "block": 59,
+     "before": "AVOID Most Herbal Antibiotics. Davis recommends using specific herbal combinations like Candibactin AR/BR or FC Cidal/Dysbiocide for 4 weeks.",
+     "after": ""
+    },
+    {
+     "block": 60,
+     "before": "H2O2 actually works better than the herbal antibiotics according to me and orthomolecular drs. My BFF Pooyan tried candibactin actually and it nearly killed him. The H2O2 worked a lot better without side effects. There is one herbal antibiotic that works really well tho for H. pylori: Berberine. If you have an acute infection with something that those don't help quickly, consider escalating to secnidazole treatment for rapid cure, and paromomycin post-treatment for relapse prevention, with medical supervision.",
+     "after": ""
+    },
+    {
+     "block": 61,
+     "before": "BIND to the toxins, especially the metals and parasite die of toxins, using Zholy3O.",
+     "after": ""
+    },
+    {
+     "block": 62,
+     "before": "Triple Probiotic Support (Ruscio): Simultaneously take a blend of Lacto/Bifido, S. boulardii, and Soil-Based organisms to maintain diversity and prevent opportunistic infections (like C. diff) during the kill phase.",
+     "after": ""
+    },
+    {
+     "block": 63,
+     "before": "The \"Nuclear\" Option (Ruscio): If herbs failed, the overgrowth is too severe or the gut lining is too damaged for solids. The Elemental Diet: A 2-3 week liquid-only diet (predigested nutrients). This starves bacteria completely while nourishing the human host.",
+     "after": ""
+    },
+    {
+     "block": 64,
+     "before": "My notes: the H2O2 swap above is mine, not the books'. For berberine and H. pylori see Parasites, and for SIBO yogurt see SIBO, above.",
+     "after": ""
+    }
+   ],
+   "reads": [
+    {
+     "text": "Phase 3: The Purge",
+     "kind": "h4"
+    },
+    {
+     "text": "If diet didn't clear your symptoms, you likely have an active overgrowth (SIBO/SIFO). This one is from Dr. William Davis (Super Gut) and Dr. Michael Ruscio.",
+     "kind": "p"
+    },
+    {
+     "text": "AVOID most herbal antibiotics, even though Davis recommends specific herbal combinations like Candibactin AR/BR or FC Cidal/Dysbiocide for 4 weeks.",
+     "kind": "p"
+    },
+    {
+     "text": "H2O2 actually works better than the herbal antibiotics according to me and orthomolecular drs. My BFF Pooyan tried candibactin actually and it nearly killed him. The H2O2 worked a lot better without side effects. There is one herbal antibiotic that works really well tho for H. pylori: Berberine. If you have an acute infection with something that those don't help quickly, consider escalating to secnidazole treatment for rapid cure, and paromomycin post-treatment for relapse prevention, with medical supervision.",
+     "kind": "p"
+    },
+    {
+     "text": "BIND to the toxins, especially the metals and parasite die-off toxins, using Zholy3O.",
+     "kind": "p"
+    },
+    {
+     "text": "At the same time, take Ruscio's Triple Probiotic Support, a blend of Lacto/Bifido, S. boulardii, and Soil-Based organisms. That's to maintain diversity and prevent opportunistic infections (like C. diff) during the kill phase.",
+     "kind": "p"
+    },
+    {
+     "text": "And if the herbs failed, the overgrowth is too severe or the gut lining is too damaged for solids, so it's time for Ruscio's \"Nuclear\" Option, the Elemental Diet. That's a 2-3 week liquid-only diet (predigested nutrients), which starves the bacteria completely while still nourishing you.",
+     "kind": "p"
+    },
+    {
+     "text": "My notes: the H2O2 swap above is mine, not the books'. For berberine and H. pylori see Parasites, and for SIBO yogurt see SIBO, above.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "card_after": 64,
+   "what": "Dropped nickname. Trigger first. His step 2 verbatim; his AVOID leads, Davis joined by 'even though'; 'die of' to 'die-off' (typo rule); 'human host' to 'you' (everyday words).",
+   "why": "The phase read AI in your post. This version keeps every step, test, compound, dose, warning and source, and your \"My notes\" line word for word; a blind reader checked it step by step against the original (PASS).",
+   "stays": "Everything the phase tells the reader to do, in the same order, with the same sources.",
+   "deciding": "Whether it sounds like you.",
+   "advice_note": "Approve, or Revise with your own wording.",
+   "tested": "Human, 100% human; windows Human High (30w), Human Medium (2w), Human High (132w), Human Medium (21w), Human High (76w). [Pangram result](https://www.pangram.com/history/87e5d558-61a1-4596-a7d9-20ba562e2f00)",
+   "reading": "Your post as it was, Phase 3 (your H2O2 lines included) alone: Mixed, 87% human. [Pangram result](https://www.pangram.com/history/76447265-75a0-4e43-9571-9f829ae88b10)"
+  },
+  {
+   "id": "H-P4",
+   "type": "voice",
+   "title": "Phase 4 in your voice",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 65,
+     "start": 0,
+     "end": 42
+    }
+   ],
+   "edits": [
+    {
+     "block": 65,
+     "before": "Phase 4: The Investigation (The Detective)",
+     "after": "Phase 4: The Investigation"
+    },
+    {
+     "block": 66,
+     "before": "Source: Benjamin Brown (Digestive Health Solution)",
+     "after": "Benjamin Brown (Digestive Health Solution) is the only source for this phase. If even the \"Nuclear Option\" failed, you can cross the microbiome off the list. The problem is likely organ failure, or environmental toxicity or brain plasticity (those two are Phase 6, below). So check your organs (Brown). Is it Exocrine Pancreatic Insufficiency? You'd test for that with Stool Elastase, and treat it with high-dose enzymes. Or is it Bile Acid Diarrhea? That test is SeHCAT, and the treatment is bile binders. My notes: two things the books don't cover, old impaction and colon hydrotherapy (Years of accumulated shit, above) and psychedelics for IBS (IBS, above)."
+    },
+    {
+     "block": 67,
+     "before": "The Logic: If the \"Nuclear Option\" failed, the problem is not the microbiome. It is likely organ failure, environmental toxicity, or brain plasticity. (The last two are Phase 6, below.)",
+     "after": ""
+    },
+    {
+     "block": 68,
+     "before": "The Protocol:",
+     "after": ""
+    },
+    {
+     "block": 69,
+     "before": "Check Organs (Brown): Test for Exocrine Pancreatic Insufficiency (Stool Elastase) or Bile Acid Diarrhea (SeHCAT). Treat with high-dose enzymes or bile binders.",
+     "after": ""
+    },
+    {
+     "block": 70,
+     "before": "My notes: two things the books don't cover, old impaction and colon hydrotherapy (Years of accumulated shit, above) and psychedelics for IBS (IBS, above).",
+     "after": ""
+    }
+   ],
+   "reads": [
+    {
+     "text": "Phase 4: The Investigation",
+     "kind": "h4"
+    },
+    {
+     "text": "Benjamin Brown (Digestive Health Solution) is the only source for this phase. If even the \"Nuclear Option\" failed, you can cross the microbiome off the list. The problem is likely organ failure, or environmental toxicity or brain plasticity (those two are Phase 6, below).",
+     "kind": "p"
+    },
+    {
+     "text": "So check your organs (Brown). Is it Exocrine Pancreatic Insufficiency? You'd test for that with Stool Elastase, and treat it with high-dose enzymes. Or is it Bile Acid Diarrhea? That test is SeHCAT, and the treatment is bile binders.",
+     "kind": "p"
+    },
+    {
+     "text": "My notes: two things the books don't cover, old impaction and colon hydrotherapy (Years of accumulated shit, above) and psychedelics for IBS (IBS, above).",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "card_after": 70,
+   "what": "Dropped nickname. 'Not X. It is Y.' undone (sleep fix); tests as questions (apnea fix). I paired enzymes with EPI and binders with bile acid diarrhea; please confirm.",
+   "why": "The phase read AI in your post. This version keeps every step, test, compound, dose, warning and source, and your \"My notes\" line word for word; a blind reader checked it step by step against the original (PASS).",
+   "stays": "Everything the phase tells the reader to do, in the same order, with the same sources.",
+   "deciding": "Whether it sounds like you.",
+   "advice_note": "Approve, or Revise with your own wording.",
+   "tested": "Human, 100% human; windows Human High (114w). [Pangram result](https://www.pangram.com/history/55f378ac-8f68-4872-a5d0-62d49c11d5ca)",
+   "reading": "Your post as it was, the old Phase 5, which held Investigation alone: AI, 0% human. [Pangram result](https://www.pangram.com/history/5454c304-c9cb-4215-af3e-a8af42ab0e54)"
+  },
+  {
+   "id": "H-P5",
+   "type": "voice",
+   "title": "Phase 5 in your voice",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 71,
+     "start": 0,
+     "end": 49
+    }
+   ],
+   "edits": [
+    {
+     "block": 72,
+     "before": "Source: Dr. William Davis & Dr. Will Bulsiewicz (Fiber Fueled)",
+     "after": "Once you're clear of infection, you have to rebuild a diverse ecosystem to prevent relapse. Dr. William Davis is back for that, along with Dr. Will Bulsiewicz (Fiber Fueled). Start by re-seeding with Davis's high-dose \"SIBO Yogurt\", fermented for 36 hours. It contains L. reuteri, to heal the lining and boost oxytocin, and L. gasseri, to produce bacteriocins that kill SIBO. Then feed the new healthy bacteria. Bulsiewicz says to slowly titrate plant diversity back into your diet, aiming for 30+ different plants per week. Continue Pimentel's strict meal spacing from Phase 2 (4+ hours), forever, to keep the MMC cleaning wave active. And fuel the mitochondria: see the fuels under Leaky gut, above (glutamine, butyrate and TCA intermediates). My notes: see Leaky gut above for colostrum, zinc carnosine, BPC-157, ozonated zeolite and the fuels, and Sitting above for movement and yoga."
+    },
+    {
+     "block": 73,
+     "before": "The Logic: You are clear of infection. Now you must rebuild a diverse ecosystem to prevent relapse.",
+     "after": ""
+    },
+    {
+     "block": 74,
+     "before": "The Protocol:",
+     "after": ""
+    },
+    {
+     "block": 75,
+     "before": "Re-Seed (Davis): Introduce high-dose \"SIBO Yogurt\" (fermented for 36 hours) containing L. reuteri (to heal the lining and boost oxytocin) and L. gasseri (to produce bacteriocins that kill SIBO).",
+     "after": ""
+    },
+    {
+     "block": 76,
+     "before": "Feed (Bulsiewicz): Slowly titrate plant diversity back into the diet. Aim for 30+ different plants per week to feed the new healthy bacteria.",
+     "after": ""
+    },
+    {
+     "block": 77,
+     "before": "Maintain (Pimentel): Continue strict meal spacing (4+ hours) forever to keep the MMC cleaning wave active.",
+     "after": ""
+    },
+    {
+     "block": 78,
+     "before": "Fuel the Mitochondria: see the fuels under Leaky gut, above (glutamine, butyrate and TCA intermediates).",
+     "after": ""
+    },
+    {
+     "block": 79,
+     "before": "My notes: see Leaky gut above for colostrum, zinc carnosine, BPC-157, ozonated zeolite and the fuels, and Sitting above for movement and yoga.",
+     "after": ""
+    }
+   ],
+   "reads": [
+    {
+     "text": "Phase 5: Restoration & Maintenance (The Gardener)",
+     "kind": "h4"
+    },
+    {
+     "text": "Once you're clear of infection, you have to rebuild a diverse ecosystem to prevent relapse. Dr. William Davis is back for that, along with Dr. Will Bulsiewicz (Fiber Fueled).",
+     "kind": "p"
+    },
+    {
+     "text": "Start by re-seeding with Davis's high-dose \"SIBO Yogurt\", fermented for 36 hours. It contains L. reuteri, to heal the lining and boost oxytocin, and L. gasseri, to produce bacteriocins that kill SIBO.",
+     "kind": "p"
+    },
+    {
+     "text": "Then feed the new healthy bacteria. Bulsiewicz says to slowly titrate plant diversity back into your diet, aiming for 30+ different plants per week.",
+     "kind": "p"
+    },
+    {
+     "text": "Continue Pimentel's strict meal spacing from Phase 2 (4+ hours), forever, to keep the MMC cleaning wave active.",
+     "kind": "p"
+    },
+    {
+     "text": "And fuel the mitochondria: see the fuels under Leaky gut, above (glutamine, butyrate and TCA intermediates).",
+     "kind": "p"
+    },
+    {
+     "text": "My notes: see Leaky gut above for colostrum, zinc carnosine, BPC-157, ozonated zeolite and the fuels, and Sitting above for movement and yoga.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "card_after": 79,
+   "what": "Re-Seed/Feed/Maintain labels became plain 'you' sentences; callbacks ('Davis is back', 'from Phase 2 (4+ hours this time)'); 'forever' set off alone; parentheticals loosened. [Claude, before any check: \"this time\" removed after the meaning check flagged it as implying a change from Phase 2.]",
+   "why": "The phase read AI in your post. This version keeps every step, test, compound, dose, warning and source, and your \"My notes\" line word for word; a blind reader checked it step by step against the original (PASS).",
+   "stays": "Everything the phase tells the reader to do, in the same order, with the same sources.",
+   "deciding": "Whether it sounds like you.",
+   "advice_note": "Approve, or Revise with your own wording.",
+   "tested": "Human, 100% human; windows Human Low (32w), Human Medium (39w), Human Low (43w), Human High (40w). [Pangram result](https://www.pangram.com/history/dc03ae92-9024-4c7a-9ad9-056d245c2eb7)",
+   "reading": "Your post as it was, the old Phase 6, Restoration alone: AI, 0% human. [Pangram result](https://www.pangram.com/history/7d2b43f4-45c9-475e-bbd7-bc7deab779fe)"
+  },
+  {
+   "id": "H-P6",
+   "type": "voice",
+   "title": "Phase 6 in your voice",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 80,
+     "start": 0,
+     "end": 43
+    }
+   ],
+   "edits": [
+    {
+     "block": 80,
+     "before": "Phase 6: Refractory Cases (The Hazmat Team)",
+     "after": "Phase 6: Refractory Cases"
+    },
+    {
+     "block": 81,
+     "before": "Source: Neil Nathan (Toxic), Annie Hopper (Wired for Healing)",
+     "after": "The last phase is from Neil Nathan (Toxic) and Annie Hopper (Wired for Healing). It's for people who are \"sensitive to everything,\" or who relapse right away even though they've stuck to the protocol perfectly. Check your environment (Nathan). Could it be mold/mycotoxins, or Lyme? Get assessed for those, and if it comes back positive, use specific binders (Cholestyramine, Charcoal, Clay). Then check the brain. If you react to everything, Hopper says the issue is Limbic System Impairment, and you'd use \"Brain Retraining\" (DNRS) to stop the brain from firing false \"danger\" signals to the gut. My notes: Matt's note on mopping up mycotoxins with fermented colostrum is under Leaky gut, above."
+    },
+    {
+     "block": 82,
+     "before": "The Logic: For cases that are \"sensitive to everything,\" or that relapse right away despite perfect adherence.",
+     "after": ""
+    },
+    {
+     "block": 83,
+     "before": "The Protocol:",
+     "after": ""
+    },
+    {
+     "block": 84,
+     "before": "Check Environment (Nathan): Assess for Mold/Mycotoxins or Lyme. If positive, use specific binders (Cholestyramine, Charcoal, Clay).",
+     "after": ""
+    },
+    {
+     "block": 85,
+     "before": "Check Brain (Hopper): If you react to everything, the issue is Limbic System Impairment. Use \"Brain Retraining\" (DNRS) to stop the brain from firing false \"danger\" signals to the gut.",
+     "after": ""
+    },
+    {
+     "block": 86,
+     "before": "My notes: Matt's note on mopping up mycotoxins with fermented colostrum is under Leaky gut, above.",
+     "after": ""
+    }
+   ],
+   "reads": [
+    {
+     "text": "Phase 6: Refractory Cases",
+     "kind": "h4"
+    },
+    {
+     "text": "The last phase is from Neil Nathan (Toxic) and Annie Hopper (Wired for Healing). It's for people who are \"sensitive to everything,\" or who relapse right away even though they've stuck to the protocol perfectly.",
+     "kind": "p"
+    },
+    {
+     "text": "Check your environment (Nathan). Could it be mold/mycotoxins, or Lyme? Get assessed for those, and if it comes back positive, use specific binders (Cholestyramine, Charcoal, Clay).",
+     "kind": "p"
+    },
+    {
+     "text": "Then check the brain. If you react to everything, Hopper says the issue is Limbic System Impairment, and you'd use \"Brain Retraining\" (DNRS) to stop the brain from firing false \"danger\" signals to the gut.",
+     "kind": "p"
+    },
+    {
+     "text": "My notes: Matt's note on mopping up mycotoxins with fermented colostrum is under Leaky gut, above.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "card_after": 86,
+   "what": "Dropped nickname. 'Despite perfect adherence' said as what people do (community fixes); environment check as a question (apnea fix); 'Hopper says' carries her label; binders list kept whole.",
+   "why": "The phase read AI in your post. This version keeps every step, test, compound, dose, warning and source, and your \"My notes\" line word for word; a blind reader checked it step by step against the original (PASS).",
+   "stays": "Everything the phase tells the reader to do, in the same order, with the same sources.",
+   "deciding": "Whether it sounds like you.",
+   "advice_note": "Approve, or Revise with your own wording.",
+   "tested": "Human, 100% human; windows Human High (41w), Human Medium (4w), Human High (23w), Human Medium (4w), Human High (49w). [Pangram result](https://www.pangram.com/history/9b1a5e51-e2ee-44b6-81c9-5b5c9380f9d9)",
+   "reading": "Your post as it was, the old Phase 5, which held Nathan and Hopper alone: AI, 0% human. [Pangram result](https://www.pangram.com/history/5454c304-c9cb-4215-af3e-a8af42ab0e54)"
+  },
+  {
+   "id": "H-P1",
+   "type": "help",
+   "title": "Phase 1: three faithful rewrites all read AI",
+   "advice": "edit",
+   "spans": [
+    {
+     "block": 39,
+     "start": 0,
+     "end": 65
+    }
+   ],
+   "card_after": 47,
+   "why": "I can't find any more AI tells here, and I see some human tells, like these: the reader's questions run together (\"Are your pupils dilated all the time? No gag reflex?\"), \"Then bile.\", plain verbs, and no engine/fuel/fire metaphor. Can you help show me the tells I'm missing? Three different faithful versions each read about 10% human: [A](https://www.pangram.com/history/99e8aa8a-a56f-4224-92ce-b06bf972e23e), [B](https://www.pangram.com/history/f494687d-900d-4192-b877-e7cb80be1569), [C](https://www.pangram.com/history/9f293168-a6eb-40c3-93ef-cd8be1752626). The third, mine, is below; every step and source is in it.",
+   "advice_note": "Rewrite it yourself with Edit, or tell me what still reads AI to you. It's the only phase where no version passed; your \"My notes\" line reads Human in all three, and everything above it reads AI, at High confidence on the \"Then according to Hale you're stuck in fight/flight\" and \"Do your stools float\" stretches. My guess is the symptom, then state, then fix pattern, twice, but I've already rewritten around that once. If you have your own take on Hale's checks (you say in Low stomach acid he's \"a bit controversial on some points\"), a sentence of it here might be what it needs; I won't add one for you.\n\nMy try:\nPhase 1: The Pre-Flight Safety Check\nBefore you throw supplements or antimicrobials at your gut, the mechanics have to work. This part is from T.C. Hale (Kick Your Fat in the Nuts) and Stanley Rosenberg (Accessing the Healing Power of the Vagus Nerve).\nAre your pupils dilated all the time? No gag reflex? Then according to Hale you're stuck in fight/flight (\"sympathetic dominance\"), and digestion is offline. Rosenberg's fix is his Basic Exercise (eye movements) or the Salamander, which mechanically release the vagus nerve so your body can switch into rest and digest.\nThen bile. Do you burp after fatty meals? Do your stools float, or look like clay? Then your bile is stagnant, and Hale says if you take antimicrobials now you'll get a herx reaction you can't detoxify. So thin the bile first with Beet Flow or phosphatidylcholine, before any killing protocol.\nMy notes: for stress and sleep see Severe stress above, and for stomach acid and bile see Low stomach acid.",
+   "reading": "Your post as it was, Phase 1 alone: AI, 0% human. [Pangram result](https://www.pangram.com/history/3cbf02de-d190-482c-a828-231f308bfd67)"
+  },
+  {
+   "id": "Q-NICK",
+   "type": "question",
+   "title": "Drop the nicknames from the phase headings?",
+   "advice": "ask",
+   "spans": [
+    {
+     "block": 48,
+     "start": 0,
+     "end": 46
+    }
+   ],
+   "question": "The headings carry Gemini's nicknames: (The Mechanic & Electrician), (The Architect & Scientist), (The Restorer), (The Detective), (The Gardener), (The Hazmat Team). The rewrites that passed mostly dropped them, so as it stands some headings have one and some don't. Drop them all, or keep them all? (My pick: drop them. They're Gemini's persona labels, not yours. If you say drop, I'll recheck Phase 5 without its nickname, since it was tested with it.)",
+   "why": "The headings have to be consistent either way.",
+   "stays": "Each heading as tested until you answer.",
+   "advice_note": "Drop them all."
+  }
+ ]
+}
