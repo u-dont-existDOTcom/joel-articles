@@ -1,0 +1,421 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r01",
+ "title": "Bad Trips Guide, Round 1",
+ "git_file": "articles/bad-trips/review/r01/REVIEW-R01.html",
+ "article": {
+  "file": "articles/bad-trips/original-page.md",
+  "sha256": "98c77462a747b0643efae1b5e41398556340b8728554da398435520dde1d6a3f"
+ },
+ "built": "2026-11-03",
+ "answered_in": "chat, 2026-11-03 18:59 UTC (experiments/t01-answers/JOEL-MESSAGE-20261103-1859.md), not the page's export",
+ "counts": {
+  "approved": 29,
+  "rejected": 1,
+  "revise": 1,
+  "answered": 9,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "ST-1",
+   "type": "structure",
+   "title": "How should the quick and long versions split the work?",
+   "advice": "ask",
+   "status": "answered",
+   "answer": "A",
+   "comment": "st-1a  ... i would like to move the quick triage to web app but i'm not sure web app would work well enough since it was made with GPT which means safety guardrails prevent some advice",
+   "fate": "A: round 2 builds the new checklist (each step its heading and his own first lines, step 1 in full) and moves the Longer Triage's own paragraphs where they belong; his wish to move the quick triage to the web app waits on how well the GPT-made app answers (OWNER-QUESTIONS.md)"
+  },
+  {
+   "id": "RP-1",
+   "type": "repeat",
+   "title": "The brain-damage order, told twice in the long part",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-1 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "RP-2",
+   "type": "repeat",
+   "title": "Beach morning glory repeats the brain-damage order",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-2 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "SF-1",
+   "type": "safety",
+   "title": "When to call for help, in one section",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "sf-1 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "SF-2",
+   "type": "safety",
+   "title": "The seizure and chest-pain thresholds, in the list and in their sections",
+   "advice": "leave",
+   "status": "approved",
+   "answer": null,
+   "comment": "sf-2 agree with you",
+   "fate": "left as it is, as advised"
+  },
+  {
+   "id": "RP-3",
+   "type": "repeat",
+   "title": "\"Medics in parallel\", said again",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-3 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "RP-4",
+   "type": "repeat",
+   "title": "Why the hierarchy comes first, said a third time",
+   "advice": "approve",
+   "status": "revise",
+   "answer": null,
+   "comment": "rp-4 approve yes i want to keep the gut driven mental hell line altho i'd change it to sound more human: \"A gut-driven mental hell is often mistaken as shadow work\"",
+   "fate": "applied, keeping his line in his words (\"A gut-driven mental hell is often mistaken as shadow work.\"), now the last sentence of the paragraph before"
+  },
+  {
+   "id": "RP-5",
+   "type": "repeat",
+   "title": "Swallowing charcoal, explained twice",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-5 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "RP-6",
+   "type": "repeat",
+   "title": "Music: the same two points in two places",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-6 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "RP-7",
+   "type": "repeat",
+   "title": "Movement, in the menu again",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-7 approve and we gotta remove \"one ordinary\" anywhere lol so ai",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "RP-8",
+   "type": "repeat",
+   "title": "The lead anchor's backup, in the menu again",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-8 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "RP-9",
+   "type": "repeat",
+   "title": "Practice-induced states, told twice",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-9 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "RP-10",
+   "type": "repeat",
+   "title": "Not debating, not validating violence: a third time in the helper's section",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-10 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "RP-11",
+   "type": "repeat",
+   "title": "\"Nondual demonology\", the same line twice",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-11 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "RP-12",
+   "type": "repeat",
+   "title": "\"If it’s true, it survives breakfast\", twice",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-12 approve. so many ai quips, we gotta remove or humanize those",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "RP-13",
+   "type": "repeat",
+   "title": "No entity or revelation overrides safety, twice",
+   "advice": "leave",
+   "status": "rejected",
+   "answer": null,
+   "comment": "rp-13 remove it, and let's make sure \"X does not Y\" is changed in general that's super ai, humans don't use that so much",
+   "fate": "my advice (leave) rejected: the cut is applied"
+  },
+  {
+   "id": "RP-14",
+   "type": "repeat",
+   "title": "Two \"Additional Resources\" headings, and the support lines a third time",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-14 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "RP-15",
+   "type": "repeat",
+   "title": "Calling medics while using a remedy, said twice",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-15 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "RP-16",
+   "type": "repeat",
+   "title": "Magnesium: \"not one exceptional episode\" says the paragraph before again",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-16 approve and yes the jaw releasing is the important point altho you didn't show me the para before to look but sounds good",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "RP-17",
+   "type": "repeat",
+   "title": "Zeolite's symptom list, a fourth time",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-17 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "SF-3",
+   "type": "safety",
+   "title": "Not inhaling ozone, said four times",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "sf-3 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "SF-4",
+   "type": "safety",
+   "title": "A caveat about the evidence labels that changes nothing",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "sf-4 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "RP-18",
+   "type": "repeat",
+   "title": "Love becoming practical, twice",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-18 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "RP-19",
+   "type": "repeat",
+   "title": "Shadow work defined twice, four paragraphs apart",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-19 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "RP-20",
+   "type": "repeat",
+   "title": "Life forcing the lesson, twice, three paragraphs apart",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-20 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "RP-21",
+   "type": "repeat",
+   "title": "The planned-session list, then the same list as arrows",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-21 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "RP-22",
+   "type": "repeat",
+   "title": "The calm pet, twice in the Grounding Menu",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-22 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "RP-23",
+   "type": "repeat",
+   "title": "The helper's Do and Don't lists: two lines said just above",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-23 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "SF-5",
+   "type": "safety",
+   "title": "Not emergency care, said five times in the support lines",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "sf-5 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "SF-6",
+   "type": "safety",
+   "title": "Chest pain: when to call medics, said ahead of its paragraph",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "sf-6  approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "SF-7",
+   "type": "safety",
+   "title": "Serotonin syndrome: magnesium \"does not replace\" what the steps already say",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "sf-7 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "RP-24",
+   "type": "repeat",
+   "title": "Movement as a test, said again under its evidence",
+   "advice": "approve",
+   "status": "approved",
+   "answer": null,
+   "comment": "rp-24 approve",
+   "fate": "applied as the card showed it"
+  },
+  {
+   "id": "Q-1",
+   "type": "question",
+   "title": "Humic acid: lick it first, or smell it first?",
+   "advice": "ask",
+   "status": "answered",
+   "answer": "a",
+   "comment": "q-1 smell it first for sure, that's like an allergy test, some ppl are super sensitive... some ppl also super sensitive to dmso altho that's more rare. in general it's good to try all these things in very low, increasing doses before they are needed in crisis.",
+   "fate": "(a), in his words \"smell it first\": the Core Order's first step says to smell humic acid first and lick only if that doesn't help; his general advice (try these in very low, increasing doses before a crisis) goes to round 2 as a line to place"
+  },
+  {
+   "id": "Q-2",
+   "type": "question",
+   "title": "Where does \"Hello, Lovey Bunny!\" go?",
+   "advice": "ask",
+   "status": "answered",
+   "answer": "a",
+   "comment": "q-2 yeah i wanted to keep this at the part where we are talking about dealing iwth actual shadow work rather than the physical triage since that's more of a mechanical type of prose needing less softness",
+   "fate": "(a): it stays where it is"
+  },
+  {
+   "id": "Q-3",
+   "type": "question",
+   "title": "DMSO first: two cautions from the DMSO section",
+   "advice": "ask",
+   "status": "answered",
+   "answer": "his words",
+   "comment": "q-3 what i meant sorry, don't take DMSO literally with  harmalas like don't put the harmala in the dmso or take them exactly at the same time, but it's totally fine to take them a bit apart like and there is no reason to take them together anyway the point is to take dmso if you already absorbed the harmalas and the aya is too crazy. if someone is worried about a bleed, i'd prob skip dmso but it depends on how severe their issue is, it's not a powerful blood thinner like heperin or something unless maybe injected, it's a dietary blood thinner basically altho you can check how strong consuming dmso is for that maybe some research idk, i've never had any issues with bleeding too much because of consuming dmso myself. never heard of it either but if that's already a medical issue i'd wanna think about that more",
+   "fate": "his answer becomes two lines drafted from his words, on round 2's page for his OK"
+  },
+  {
+   "id": "Q-4",
+   "type": "question",
+   "title": "How long the action lock lasts",
+   "advice": "ask",
+   "status": "answered",
+   "answer": "a",
+   "comment": "q-4 a",
+   "fate": "(a): the lengths stay; the 3 a.m. section's quote of the note now matches it (\"No big actions until morning\")"
+  },
+  {
+   "id": "Q-5",
+   "type": "question",
+   "title": "Room first, or body first?",
+   "advice": "ask",
+   "status": "answered",
+   "answer": "a",
+   "comment": "q-5 a",
+   "fate": "(a): room first in all four places"
+  },
+  {
+   "id": "Q-6",
+   "type": "question",
+   "title": "Ocean water and charcoal water: different, or alike?",
+   "advice": "ask",
+   "status": "answered",
+   "answer": "b",
+   "comment": "q-6 b i honestly cannot say if they are so different because i've only used them a handful of times but i do believe they are different in certain ways. i feel like the ocean water can reduce the intesnity of the trip a bit more than the ozonated charcoal water which seems more like peaceful without necessarily reducing intensity, and i also feel like the ocean water is more reliable for some reason...",
+   "fate": "(b): the charcoal-water section's opening line, drafted from his words, on round 2's page for his OK"
+  },
+  {
+   "id": "Q-7",
+   "type": "question",
+   "title": "Charcoal: only after a recent oral ingestion?",
+   "advice": "ask",
+   "status": "answered",
+   "answer": "b",
+   "comment": "q-7 b",
+   "fate": "(b): the sentence goes from step 12"
+  },
+  {
+   "id": "Q-8",
+   "type": "question",
+   "title": "Who to Contact: move it into the help section too?",
+   "advice": "ask",
+   "status": "answered",
+   "answer": "a",
+   "comment": "q-8 a",
+   "fate": "(a): the contacts stay in Get One Human Anchor"
+  }
+ ]
+}

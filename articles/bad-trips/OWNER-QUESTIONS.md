@@ -1,52 +1,40 @@
 # Bad Trips guide: questions for Joel
 
-Updated 2026-11-03 (turn 1, 17:15 UTC: questions 4 to 9 added from the three readers' reports). Status: **open** = waiting on you, **next** = I do it once you answer, **done** = answered.
-Answer on the marking page (its cards ST-1 and Q-1 to Q-8 have answer boxes), or under a number here in a message.
+Updated 2026-11-03 (turn 2, his answers of 18:59 UTC in). Status: **open** = waiting on you, **next** = I do it once you
+answer, **done** = answered.
+Answer on the marking page (Bad Trips Guide, Round 2), or under a card's name in a message.
 
 ## Open
 
-1. **open — How should the quick and long versions split the work?** (card ST-1)
-   - A, my pick: the checklist stays at the top, each step its heading and one or two of your lines with a link to its
-     section; step 1 keeps its danger signs in full; everything else is said once in the long part; the Longer Triage
-     goes, its unique paragraphs moving to where they belong.
-   - B: today's order, with only the repeats inside it cut.
-   - C: the quick version leaves the post (the web app is one); the post opens with a short "In a crisis right now?" box.
-   - Why A: it keeps the quick read and takes out the third and fourth tellings; B keeps most of the repetition; C leans
-     on the web app.
-   - Next: with A, the next page shows the new checklist step by step, and every paragraph that goes with the place that
-     already says it.
-2. **open — Humic acid: lick it first, or smell it first?** (card Q-1) The Core Order says "take a 5mg lick"; Some
-   Remedies Require More Caution says not to eat it casually during a bad trip and to start by smelling it. My pick: (a)
-   smell it, and lick a tiny bit only if smelling doesn't help and the person isn't prone to mania.
-3. **open — Where does "Hello, Lovey Bunny!" go?** (card Q-2) It opens the shadow-work half, about 7,500 words in. My
-   pick: (a) leave it there; someone opening the guide in trouble needs the checklist first.
-4. **open — DMSO first: two cautions from the DMSO section.** (card Q-3) The brain-damage branch puts DMSO first,
-   whatever the drug; the DMSO section says not to take it with harmalas (ayahuasca is one) or with blood-thinning
-   medication "because DMSO also thins the blood", and the stroke paragraph uses it though it can't tell a clot from a
-   hemorrhage. What holds for someone on ayahuasca, and for a possible bleed? No pick from me: this is your experience.
-5. **open — How long the action lock lasts.** (card Q-4) The 3 a.m. note says "No big actions until morning."; No Rash
-   Actions says "Use a 24–72 hour action lock." and "Until you have slept and eaten". My pick: (a) leave them (the note
-   covers the first night, the lock is the full rule), and make the 3 a.m. section's quote of the note match it.
-6. **open — Room first, or body first?** (card Q-5) The checklist (its order, "Use this in order.") fixes the room
-   before the body; Stillness or Movement?, the fear loop and the shadow-thoughts section say body first. My pick: (a)
-   room first everywhere; only the word order changes in those three.
-7. **open — Ocean water and charcoal water: different, or alike?** (card Q-6) Ocean water's section says its effect is
-   "different from ... aged ozonated-charcoal water"; the next section opens "These work similarly to ocean water." My
-   pick: (a) take "aged ozonated-charcoal water" out of the first list.
-8. **open — Charcoal: only after a recent oral ingestion?** (card Q-7) Checklist step 12 says "Charcoal belongs only in
-   the separate recent-oral-ingestion branch."; the gut tools use it for gut toxicity and after a ferment. My pick: (b)
-   take that sentence out of step 12 (its next paragraph and step 10 say when charcoal fits and when it is dangerous).
-9. **open — Who to Contact: move it into the help section too?** (card Q-8) With card SF-1, When to Bring In Outside
-   Help holds the medics list, the mental-health list and when to get urgent help; the safety reader would move the
-   support lines there too. My pick: (a) leave them in Get One Human Anchor, where someone looking for a calm voice
-   finds them; the emergency numbers are in the help section either way.
+1. **open — Round 2's page.** Your structure answer (A) step by step: each checklist step as it would read (CL-1 to
+   CL-15), the Longer Triage folded into the long part (LT-1 to LT-5), and four lines drafted from your round-1 answers
+   (AN-Q3a and AN-Q3b for DMSO, AN-Q6 for ocean water, AN-Q1 for low doses first).
+2. **next — The quick triage in the web app.** You'd like to move it there, but aren't sure the GPT-made app will give
+   the advice (its safety guardrails). Once round 2 is in, I can put the checklist's situations to the app and list what
+   it refuses or changes, so you can decide with that in hand.
 
 ## Your tasks
 
-1. **The baseline check's full analysis.** Your Pangram extension labels the published guide AI. To get its windows:
-   open https://ibogaqueen.substack.com/p/shadow-work-and-tripsitting-yourself in your browser, click the AI label beside
-   the author's name twice, then "View Full Analysis", and send me that page's link. (From here the panel didn't open.)
+None now. (The baseline's full analysis came with your message: AI Detected, 82% AI, 189 windows; its windows are
+recorded with the baseline.)
 
 ## Decisions on record
 
-None yet.
+His answers of 2026-11-03 18:59 UTC to round 1 (`review/r01/ANSWERS-R01-20261103-1859.json`; his message word for word
+in `experiments/t01-answers/JOEL-MESSAGE-20261103-1859.md`):
+
+- **ST-1: A.** The checklist keeps each step's heading and one or two of his lines with a link; the Longer Triage goes.
+- **Q-1: smell first** ("smell it first for sure, that's like an allergy test"); his advice to try every remedy in low,
+  increasing doses before a crisis is round 2's AN-Q1.
+- **Q-2: (a)**, "Hello, Lovey Bunny!" stays where it is.
+- **Q-3: his answer** (harmalas: not mixed into the DMSO or taken at the same moment, fine a bit apart; a bleed: he'd
+  probably skip DMSO, depending on severity) is round 2's AN-Q3a and AN-Q3b.
+- **Q-4: (a)**, the lengths stay; the 3 a.m. section's quote of the note now matches it.
+- **Q-5: (a)**, room first in all four places.
+- **Q-6: (b)**, in his words: round 2's AN-Q6.
+- **Q-7: (b)**, step 12's charcoal sentence goes.
+- **Q-8: (a)**, the support lines stay in Get One Human Anchor.
+- **The 31 change cards**: all approved, RP-4 with his line kept in his words, SF-2 left as advised, RP-13 cut at his
+  word ("remove it"). Three new rules came with them, for every article: AI quips go or get humanized; "one ordinary"
+  goes everywhere; "X does not Y" gets changed (`docs/HUMANIZATION-GATE.md`; `tools/humanization/tells_lint.py` O46
+  and O61).

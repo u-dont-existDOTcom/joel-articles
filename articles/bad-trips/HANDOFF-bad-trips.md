@@ -15,18 +15,21 @@ https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips
 
 ## START HERE
 
-- **2026-11-03, turn 1 (his message of 15:45 UTC).** Set up: his paste is `source/owner-editor-20261103.html`, equal to
-  the published post block for block; `original.md` is its Markdown and `original-blocks.json` its block map (B0 to
-  B438). Baseline: his extension labels the published post AI; the full analysis is his task 1 on `OWNER-QUESTIONS.md`.
-  Three fresh readers mapped the repeats and the safety lines (`experiments/t01-repeats/`); their finds are on the
-  page (40 cards, 17:40 UTC). The marking page
-  (`review/r01/`, built by `build_r01.py` from `cards_r01.py`) asks the structure question (ST-1) and proposes the
-  repeats inside the long part (Bad Trips Guide, Round 1, https://claude.ai/artifact/GB83uPzEFyLVGkQD9cQC97).
-  The readers' finds that stay, with what each copy carries, are in `experiments/t01-repeats/NOTE.md`; any later
-  card goes on the same page with the same ids kept, so his answers stay. **First:** put his answers in (record each card's fate), then, if he picks A, build round 2:
-  the new checklist step by step from his own headings and first lines, the Longer Triage's paragraphs moved where they
-  belong, and the checklist's copies cut with the place that says each point. After the structure, an overcompletion read
-  (gate E328) before any rewording, then the gate's own writers on the flagged paragraphs (no Emulate: Joel, 2026-11-03, `AGENTS.md`). His curly apostrophes are an AI tell in his writing (his words, 2026-11-03: "yes the curly apostrophes are an AI tell i know that"): settle with him how the humanized text treats them.
+- **2026-11-03, turn 2 (his message of 18:59 UTC).** His 40 answers to round 1 are recorded
+  (`review/r01/ANSWERS-R01-20261103-1859.json`) and applied: `GUIDE-SO-FAR.md` is the guide after round 1 (made by
+  `review/r01/apply_r01.py`; `OWNER-EDITS.json` checks his own edits are in it). His structure answer is A. Round 2's
+  page (Bad Trips Guide, Round 2, https://claude.ai/artifact/DkeaxjjJ6QcHzs558YGhKT; cards as text in
+  `review/r02/REVIEW-R02.md`) carries A out step by step, folds the Longer Triage into the long part, and drafts four
+  lines from his answers (Q-3 twice, Q-6, Q-1). **First:** put his round-2 answers in with an `apply_r02.py` like round
+  1's (the "More:" lines take their links from each insert's href; CL-14 links "love" in step 14's heading). **Next:**
+  the humanize pass with his three new rules (AI quips, "one ordinary", "X does not Y": gate, `tells_lint.py` O46 and
+  O61), the baseline's AI windows (`humanize/baseline-20261103/RESULT-20261018.json`: 82% AI), the gate's own writers
+  (no Emulate), then the overcompletion read (E328) and the word-for-sense read (E331). His curly apostrophes are an AI
+  tell in his writing (his words, 2026-11-03: "yes the curly apostrophes are an AI tell i know that"); his new words in
+  round 2 keep the straight ones he typed. He'd like the quick triage in his web app if the GPT-made app gives the
+  advice: test it once round 2 is in (`OWNER-QUESTIONS.md`, item 2).
+- **2026-11-03, turn 1 (his message of 15:45 UTC).** Set up and round 1 (`review/r01/`); his paste is
+  `source/owner-editor-20261103.html`, equal to the published post block for block.
 
 ## Where things are
 

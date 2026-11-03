@@ -519,6 +519,41 @@
    ],
    "items": [],
    "recorded_utc": "2026-11-03T17:28Z"
+  },
+  {
+   "turn": "2026-11-03T19:00Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items: the lane still holds 2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in docs/suggested-fixes-ledger.md (read from the local clone after git fetch at 19:00 UTC)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 279 (neuro de-armoring) merged to main at 17:48 UTC and conflicted with this lane's pull request 280 in AGENTS.md, docs/EMULATE-FALLBACK.md and state/MAILBOX.json; pull request 281 opened by the same lane; no new issues, comments or reviews since 17:40 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "this lane's handoff note and questions page were changed only by this session (the branch's last commit is this session's, 17:45 UTC)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "Joel's message of 18:59 UTC answers all 40 round-1 cards and sends the baseline's Pangram link; no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "pull request 280's conflicts with main (Joel: \"pr has conflicts\")",
+     "outcome": "resolved: main merged in, main's Emulate wording kept (gate E333, which says the same as this lane's), the two lanes' mailbox records joined"
+    }
+   ],
+   "recorded_utc": "2026-11-03T19:03Z"
   }
  ]
 }

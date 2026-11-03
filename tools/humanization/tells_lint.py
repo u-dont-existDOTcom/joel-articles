@@ -1106,11 +1106,26 @@ def main():
             if re.search(r"\bone (?:small|little|tiny|simple) (?:thing|step|action|act|move|change|task)s?\b", n, re.I):
                 flag('FAIL', 'O46 "one small thing" (Joel 2026-10-30: "AI overuses "one" where humans often say "an" or "a" ... especially "one '
                      'small thing""): "a small thing", or say the thing', s)
+            # O46 also (Joel, 2026-11-03 18:59 UTC, on the bad trips guide's "Do one ordinary task you can clearly finish": "we gotta
+            # remove "one ordinary" anywhere lol so ai"): "one ordinary" fails, with a word between them too ("one boring ordinary task").
+            elif re.search(r"\bone (?:[a-z]+ )?ordinary\b", n, re.I):
+                flag('FAIL', 'O46 "one ordinary" (Joel 2026-11-03: "we gotta remove "one ordinary" anywhere lol so ai"): say the task or the '
+                     'thing itself', s)
             elif re.search(r"(?<!\bat )(?<!\bno )(?<!\bonly )(?<!\bjust )\bone (?:small|little|tiny|simple|clear|single|quick|short|concrete|"
                            r"specific|fitting|real|honest|gentle|good|true|steady|careful|brief|plain|direct) (?!of\b|or\b|at a time\b)[a-z]+",
                            n, re.I):
                 flag('REVIEW', 'O46 "one" where "a" or "an" would do (Joel 2026-10-30: "AI overuses "one" where humans often say "an" or "a""): '
                      'keep "one" only when the count is the point', s)
+            # O61 (Joel, 2026-11-03 18:59 UTC, on the bad trips guide's "“I saw it” does not create a duty to act. “It felt cosmic” does not
+            # make obedience wise.": "let's make sure "X does not Y" is changed in general that's super ai, humans don't use that so much").
+            # A statement that a thing does not, is not or cannot do something (not an instruction, not about a person) is a candidate a
+            # reader judges: said as what to do, or as what is so, it usually reads human.
+            mx = re.search(r"(?:^|[.;:!?]\s+|[\u201c\u201d\"]\s*)(?!(?:I|you|we|he|she|they|people|somebody|someone|nobody|everyone|"
+                           r"anyone|it|this|that|there)\b)([A-Z\u201c\"][^.;:!?]{0,60}?)\s+(?:does not|doesn't|do not|don't|is not|isn't|"
+                           r"are not|aren't|cannot|can't|will not|won't)\s+(?!have to\b|need to\b)[a-z]+", n)
+            if mx and not re.match(r"\s*(?:don't|do not|never|please)\b", n, re.I):
+                flag('REVIEW', 'O61 "X does not Y" (Joel 2026-11-03: "let\'s make sure "X does not Y" is changed in general that\'s super ai, '
+                     'humans don\'t use that so much"): say what to do, or what is so', s)
             # O47 (Joel, 2026-10-30 14:35 UTC, on "so no answer can secretly mean "deeper"": ""secretly/silently" is an AI tell btw,
             # AI always using those words"). Like "quietly" (O42), they fail in my text, unless "silently" says how something is
             # said or read ("read it silently").

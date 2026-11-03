@@ -1622,6 +1622,10 @@
     {
      "file": "docs/HUMANIZATION-GATE.md",
      "quote": "whether a line is a quip at all stays a reader's call"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "so many ai quips, we gotta remove or humanize those"
     }
    ],
    "reason": "\"whether a line is a quip at all stays a reader's call\" (GATE:132). O21 has only two stock forms."
@@ -2812,6 +2816,32 @@
    ],
    "rule": "O60",
    "example": "Take what helps from his retreat, not a recipe you have to follow."
+  },
+  {
+   "id": "W113",
+   "tell": "\"one ordinary\" (\"we gotta remove \"one ordinary\" anywhere lol so ai\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "we gotta remove \"one ordinary\" anywhere lol so ai"
+    }
+   ],
+   "rule": "O46",
+   "example": "When the body wants to move, do one ordinary task you can clearly finish. The kettle takes four minutes to boil."
+  },
+  {
+   "id": "W114",
+   "tell": "\"X does not Y\" (\"let's make sure \"X does not Y\" is changed in general that's super ai, humans don't use that so much\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "let's make sure \"X does not Y\" is changed in general that's super ai, humans don't use that so much"
+    }
+   ],
+   "rule": "O61",
+   "example": "The barn roof was patched in May. Urgency does not make a ladder safe, so we waited for the dry week."
   }
  ]
 }
