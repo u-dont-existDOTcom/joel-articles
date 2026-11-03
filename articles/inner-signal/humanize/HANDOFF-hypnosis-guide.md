@@ -18,6 +18,7 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-11-03, after Joel's message of 15:22 UTC ("no need to recheck i'm sure it's fine, move onto the next article")**: no fifth free check; the guide is done and in his post (d67ef820). The work moved to the neuro de-armoring lane. Emulate is retired in every lane (gate E333).
 - **2026-11-03, after Joel's message of 14:52 UTC (his answers to question 34, and "make sure this closer reading is
   also part of the general joel-articles skill"): his answers in the guide and his post; the closer reading is in
   SKILL.md with its tool.** The guide is HUMANIZED-SO-FAR.md d67ef820 (762 blocks), live in post 202810155
@@ -348,7 +349,7 @@ Next:
    `fix-20261103/live-q34/ARCHIVAL-20261103b.html`; push the plan; update.js and dispatch.js; the subtitle's date when the
    day has changed; Update and "Update now"; the read-back until it has the new text, E332). The changes since the fourth
    free check (his E-157, E-523 and question 34 answers, "old", our six slip fixes) haven't been through Pangram in the
-   whole guide; a fifth free check, as `fix-20261103/free-whole-2/` did, if he wants one.
+   whole guide; he said no fifth check is needed (2026-11-03 15:22 UTC: "no need to recheck i'm sure it's fine").
 2. **The next article in his queue**: neuro de-armoring, whose question 1 waits on him (its own lane). Before it goes
    into his post: SKILL.md's "Word-for-sense read before publication" with `tools/humanization/sense_read.py`.
 

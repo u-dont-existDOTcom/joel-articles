@@ -1,0 +1,302 @@
+[
+ {
+  "name": "r1-S01a-2",
+  "stretch": "r1-S01a",
+  "blocks": [
+   7,
+   12
+  ],
+  "words": 215,
+  "sha256": "e021d698b35d03016316ce436be4516df7f1c599aee33dee6f61ec0993c08e6a"
+ },
+ {
+  "name": "r1-S01b-0",
+  "stretch": "r1-S01b",
+  "blocks": [
+   13,
+   18
+  ],
+  "words": 374,
+  "sha256": "5efebf8ec5b192b452ea946df83dc530b35bc1c50b08294792326993e6b1b79a"
+ },
+ {
+  "name": "r1-S02a-1",
+  "stretch": "r1-S02a",
+  "blocks": [
+   20,
+   24
+  ],
+  "words": 279,
+  "sha256": "0d31bb6eae5033ee02f9e2f6c9c9f2b810ae198cdf9c8178c8cfbc744539fa4e"
+ },
+ {
+  "name": "r1-S02b-0",
+  "stretch": "r1-S02b",
+  "blocks": [
+   25,
+   28
+  ],
+  "words": 194,
+  "sha256": "ef11d0de2a6110fd98c28bb3c580af2ed06f641c621a5a3eddb94c3bca5427a0"
+ },
+ {
+  "name": "r1-S03a-3",
+  "stretch": "r1-S03a",
+  "blocks": [
+   32,
+   33
+  ],
+  "words": 105,
+  "sha256": "ae217102978b49cbd54ca9808670c8b09e1cab769439b1015db615c955e6ece9"
+ },
+ {
+  "name": "r1-S03b-0",
+  "stretch": "r1-S03b",
+  "blocks": [
+   36,
+   40
+  ],
+  "words": 322,
+  "sha256": "6cbf26efdca413186cb6a39371099642d7c728a634601b74ce93976ee2abbab2"
+ },
+ {
+  "name": "r1-S03c-0",
+  "stretch": "r1-S03c",
+  "blocks": [
+   41,
+   44
+  ],
+  "words": 177,
+  "sha256": "8a499d1efa6db41d03b95cb26f65d1827f43f29bce36a3850b8ab07a916f060c"
+ },
+ {
+  "name": "r1-S04a-1",
+  "stretch": "r1-S04a",
+  "blocks": [
+   46,
+   51
+  ],
+  "words": 185,
+  "sha256": "04a6720b6d64a17ac0a01e2d849852535d9435b7d7279496b7e2739fda9e8462"
+ },
+ {
+  "name": "r1-S04b-1",
+  "stretch": "r1-S04b",
+  "blocks": [
+   53,
+   54
+  ],
+  "words": 77,
+  "sha256": "cc6511f5e8da00cb5a382301708fee162de95930d2233c4c65a96c3556b8d92a"
+ },
+ {
+  "name": "r1-S04b-3",
+  "stretch": "r1-S04b",
+  "blocks": [
+   56,
+   57
+  ],
+  "words": 71,
+  "sha256": "fe76635b5dfe77914b01c8d1eded56c8b387b052ebef36fd2993dc358f351414"
+ },
+ {
+  "name": "r1-S04c-0",
+  "stretch": "r1-S04c",
+  "blocks": [
+   58,
+   63
+  ],
+  "words": 111,
+  "sha256": "6036a337f47b5053851675af4fbf1ef88e2fce6ba11dd0b0b2b3cb6e18385dd0"
+ },
+ {
+  "name": "r1-S05a-1",
+  "stretch": "r1-S05a",
+  "blocks": [
+   65,
+   71
+  ],
+  "words": 298,
+  "sha256": "658fb7e9d9c5ba94936b20cebecbd5180e89e787a970821090ae5d676a83f4ac"
+ },
+ {
+  "name": "r1-S05b-0",
+  "stretch": "r1-S05b",
+  "blocks": [
+   72,
+   74
+  ],
+  "words": 148,
+  "sha256": "bb32af86ba6d9d79176020b46c8411fdaeb142cffa1089145c21ac70b5b74fa5"
+ },
+ {
+  "name": "r1-S05b-2",
+  "stretch": "r1-S05b",
+  "blocks": [
+   76,
+   79
+  ],
+  "words": 96,
+  "sha256": "688b8bf2d915b97e972f3b415e2e04793461f2541b5ffd7da387d5365c96abba"
+ },
+ {
+  "name": "r1-S06a-1",
+  "stretch": "r1-S06a",
+  "blocks": [
+   81,
+   83
+  ],
+  "words": 301,
+  "sha256": "02dffd5698c53a259e528041e0c9e967687b9ca4b55a0cd4d7c76b448d885228"
+ },
+ {
+  "name": "r1-S06b-0",
+  "stretch": "r1-S06b",
+  "blocks": [
+   84,
+   86
+  ],
+  "words": 183,
+  "sha256": "a9e80a303848ad5dc6e800ead2e976ed68db155c5dfce9ddaf68f5b8003e0eb8"
+ },
+ {
+  "name": "r1-S07a-1",
+  "stretch": "r1-S07a",
+  "blocks": [
+   88,
+   93
+  ],
+  "words": 418,
+  "sha256": "77eb7e74464ab7f823936b14b04bb4ae21d3c0b67ed55770edd53d8e6fefebf2"
+ },
+ {
+  "name": "r1-S07b-1",
+  "stretch": "r1-S07b",
+  "blocks": [
+   96,
+   101
+  ],
+  "words": 99,
+  "sha256": "0d7944328fc747f2ab69a511eea6cc0870a852d6bb1dee5b32dec374b5838a34"
+ },
+ {
+  "name": "r1-S08a-3",
+  "stretch": "r1-S08a",
+  "blocks": [
+   106,
+   110
+  ],
+  "words": 120,
+  "sha256": "5c054643a80ea4ab538d0141a9897ec034a6fdd248a84f98ac91c0a8c71372d3"
+ },
+ {
+  "name": "r1-S08b-0",
+  "stretch": "r1-S08b",
+  "blocks": [
+   111,
+   116
+  ],
+  "words": 66,
+  "sha256": "30d5cf018c1373ab26225480bfc85a7884a211102af9b99e8e53d13d7277f118"
+ },
+ {
+  "name": "r1-S08b-2",
+  "stretch": "r1-S08b",
+  "blocks": [
+   118,
+   120
+  ],
+  "words": 61,
+  "sha256": "a233a211ec49857fd2f7ece32f01c8bedbf716e4150ac19da9f9fc4425dfff12"
+ },
+ {
+  "name": "r1-S08c-0",
+  "stretch": "r1-S08c",
+  "blocks": [
+   121,
+   125
+  ],
+  "words": 121,
+  "sha256": "5989006647bd5c7c8b72e2a3207d2ff9a511312b1eee7830299b6da932cd4381"
+ },
+ {
+  "name": "r1-S08d-0",
+  "stretch": "r1-S08d",
+  "blocks": [
+   126,
+   129
+  ],
+  "words": 118,
+  "sha256": "f5142d99c65fc94e31f84543ea1d29bfc5d2eb8d60f0a4b4817316171bd4c799"
+ },
+ {
+  "name": "r1-S09a-3",
+  "stretch": "r1-S09a",
+  "blocks": [
+   138,
+   142
+  ],
+  "words": 128,
+  "sha256": "5947267a4dc40b7a052d48d133f0daee98ab98a63b16b2067cb47008cf78aee6"
+ },
+ {
+  "name": "r1-S09b-0",
+  "stretch": "r1-S09b",
+  "blocks": [
+   143,
+   148
+  ],
+  "words": 109,
+  "sha256": "cbd778df5a8596bf074c7e2a2a2e8dcf028554683de5bbb0df6dcc57c44163ff"
+ },
+ {
+  "name": "r1-S09b-4",
+  "stretch": "r1-S09b",
+  "blocks": [
+   153,
+   153
+  ],
+  "words": 48,
+  "sha256": "cc8aff87ef625c126c4729d34f3fad9ca4bd06762a8724455f9d0dc82180a644"
+ },
+ {
+  "name": "r1-S09c-0",
+  "stretch": "r1-S09c",
+  "blocks": [
+   154,
+   159
+  ],
+  "words": 207,
+  "sha256": "298289a0bd53132b81a9889088c2d19cd04da72af3cdda92682fe6c37315004e"
+ },
+ {
+  "name": "r1-S10a-1",
+  "stretch": "r1-S10a",
+  "blocks": [
+   161,
+   168
+  ],
+  "words": 161,
+  "sha256": "1721a2943fcda0f049e98bbfb1ce8ad5004a8a9e5acf8f4f8b1d811c3c228c4a"
+ },
+ {
+  "name": "r1-S10b-0",
+  "stretch": "r1-S10b",
+  "blocks": [
+   169,
+   173
+  ],
+  "words": 246,
+  "sha256": "bb5a37cb477c3a408e57a4e6aa820b1d7725d9dfb39421d3a4be21b14abda6ef"
+ },
+ {
+  "name": "r1-S10c-2",
+  "stretch": "r1-S10c",
+  "blocks": [
+   181,
+   182
+  ],
+  "words": 89,
+  "sha256": "a066809a91d8113d01011c0a2ea45967ffe813da8de5c4f2fd66d6f991ad11e3"
+ }
+]
