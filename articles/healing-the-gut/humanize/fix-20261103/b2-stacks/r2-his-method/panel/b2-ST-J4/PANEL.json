@@ -1,0 +1,60 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "I wouldn't recommend the general \"gut cleanse\" stacks (the ones built around oregano oil, wormwood, black walnut, berberine or other antimicrobial herbs) as a starting point for everyone.",
+  "Those belong later on (Phase 3), once there's a stronger reason to suspect overgrowth, parasites, H.",
+  "pylori or some other specific problem.",
+  "(My own advice is different for H.",
+  "pylori, where berberine works well: see Parasites, above.)"
+ ],
+ "flagged": {
+  "1": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [],
+  "5": [
+   "haiku"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph follows a tidy recommendation → later phase → exception structure, with qualifications packed around its main point. That can suggest AI polishing, but these are weak signals and do not establish authorship."
+  ],
+  "haiku": [
+   "Machine-made in its evenness: each sentence is balanced, hedged and tied off with a summary clause, and nothing concrete about experience or a specific case appears, so it reads as a polished, smoothed summary rather than a voice working through a point."
+  ],
+  "sonnet": [
+   "The paragraph is built as two evenly balanced, well-formed sentences (a cautious \"I wouldn't recommend X\" followed by \"those belong later, once Y\"), with smooth hedging and parallel lists, which reads as a polished, risk-managed recommendation. The final parenthetical breaks that evenness, though, and keeps the whole from reading as fully machine-made."
+  ]
+ },
+ "human_clean": [
+  "I wouldn't recommend",
+  "My own advice is different for H. pylori",
+  "My own advice",
+  "the general ",
+  " stacks",
+  "gut cleanse",
+  "stacks"
+ ]
+}

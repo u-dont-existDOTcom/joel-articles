@@ -94,5 +94,28 @@
    "words_after": 221,
    "problems": []
   }
+ },
+ "writer_K.json": {
+  "LGF": {
+   "words_before": 293,
+   "words_after": 385,
+   "problems": [
+    "warning lost: - The Cancer Caveat: Because hyper-proliferative cancer cells can also hijack glutamine to fuel their rapid replication, avoid high-dose protocol titrations if  | missing [['avoid'], ['hyper-proliferative'], ['replication']]"
+   ]
+  },
+  "ST1": {
+   "words_before": 118,
+   "words_after": 119,
+   "problems": [
+    "numbers_lost: 1",
+    "numbers_lost: 2",
+    "numbers_lost: 3"
+   ]
+  },
+  "ST2": {
+   "words_before": 179,
+   "words_after": 202,
+   "problems": []
+  }
  }
 }
