@@ -28,7 +28,7 @@ The armored brain projects its own internal threat level onto neutral faces. You
 
 Agmatine Warning (The Voltage Governor): Agmatine is not a basic nutrient like magnesium or a membrane nutrient like phosphatidylcholine. It is a multi-target neuromodulator that can affect NMDA/glutamate signaling, imidazoline/alpha-2 adrenergic tone, nitric-oxide pathways, and opioid reward/tolerance.
 
-Do not combine agmatine casually with opioids, kratom, clonidine/guanfacine, blood-pressure medication, nitrates, PDE-5 inhibitors, MAOIs, or complex psychiatric medication stacks without clinician review. Avoid it during pregnancy or breastfeeding, and be especially cautious with bipolar disorder, psychosis history, unstable panic, low blood pressure, kidney/liver disease, or active substance relapse risk.
+Precautions/Side Effects: Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications, nitrates, PDE-5 inhibitors, MAOIs, or other complex “psych” stacks without having a physician competent to consider the likelihoods of problematic interactions. Not recommended for use in pregnancy or breast-feeding. Use with extreme caution in those with bipolar disorder, prior psychotic episode, unstable panic disorder, lower end blood pressure, kidney or liver issues, or those with a currently-high likelihood of relapsing in addictions.
 
 Stop immediately if it causes flatness, anhedonia, emotional blunting, new depression, agitation, insomnia, dizziness, palpitations, nausea, loose stools, diarrhea, or increased craving. Do not “push through” numbness. If agmatine makes the world more gray, it is the wrong tool for that phase.
 
@@ -50,7 +50,7 @@ We are operating on less than 1/24th of the relational density our biology requi
 
 As we grow up, our “Role-Self” becomes calcified by Dopamine and DeltaFosB. It becomes a prison. Your addiction is often just the fuel required to keep the “Role-Self” running. This protocol dissolves the chemical glue holding that false persona together, allowing your “True-Self”—the person you were before the trauma—to finally re-emerge.
 
-Neurological De-Armoring is underpinning (not redecorating). This protocol acts as a metabolic solvent—an HDAC inhibitor—that softens the neural concrete of the brainstem by modulating Glutamate and introducing Ketones (BHB). We are digging underneath the house to pour a new foundation so that, eventually, the psychological “software” updates upstairs will actually install.
+Neurological De-Armoring is about fixing the underpinnings, not redecorating. It's a protocol that serves as a metabolic solvent, via HDAC inhibition, that softens the "concrete" in the brainstem by using Glutamate modulation and supplementing Ketones (BHB) to allow us to dig under the house, and pour a new foundation, so we can eventually update the psychological software upstairs.
 
 The Anti-Breakthrough (Micro-Dosing) As Dr. Perry explains, we need to temporarily abandon the therapy ideal of the “hour-long breakthrough.” A sensitized, armored nervous system cannot metabolize sixty minutes of trauma processing; that is a flood, not a fix. Dr. Perry’s data indicates the “therapeutic window” for a dysregulated brain is often only seconds long.
 
@@ -166,7 +166,7 @@ The tool:Uridine monophosphate (UMP). The best evidence is not “UMP cures DAWS
 
 Scott’s signal: Scott already had choline from eggs and DHA/EPA from fish oil. After adding standard-dose UMP, he got a striking response within a day: vivid dreams returned, real childhood memories came back in dreams, psychedelic tolerance seemed to drop, and ketamine/LSD craving fell hard. That does not prove UMP rebuilt D3 receptors overnight. It does suggest that, in the right person, UMP can be a very clean signal that the synaptic-membrane / dopamine-receptor-recovery axis was starved.
 
-Trial: UMP 150–300 mg in the morning with food for 3–7 days. Keep omega-3s in place, especially DHA/EPA. Make sure there is enough choline from eggs, phosphatidylcholine, CDP-choline, or another tolerated choline source. Do not start UMP on the same day you start 5-HTP, agmatine, D-serine, keto, iboga, shrooms, LSD, ketamine, or any other major variable. You are trying to see whether UMP itself changes the signal.
+Do a trial with 150-300mg Uridine, in the morning with food. It shouldn't take more than 3 to 7 days to get an idea of whether or not it's beneficial. Keep your Omega-3's up, especially DHA and EPA. Make sure you have sufficient Choline - from eggs, Phosphatidylcholine, CDP-choline, etc, whichever works best for you. Don't start the uridine at the same time as starting some other major variable (like 5-HTP, Agmatine, D-serine, Keto diet, Iboga, Shrooms, LSD, Ketamine, etc), since the point is to see whether uridine itself changes the signal.
 
 Side effects / stop signs: The most common problem is the “choline headache” or spaced-out brain fog: if UMP accelerates membrane synthesis while choline availability is low, the system can feel under-supplied. Other stop signs include insomnia, jitteriness, racing thoughts, irritability, emotional flatness, nausea, stomach cramps, or loose stools. If it makes you wired, numb, or weirdly irritable, stop. Do not push through.
 

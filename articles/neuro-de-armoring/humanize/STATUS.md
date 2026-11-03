@@ -1,5 +1,36 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-03, after Joel's answers of 17:48 UTC: his three versions in; round 2 his way; question 2
+
+His answers file for Neuro De-Armoring Cards, 3 November, sent with no other text, word for word in
+`fix-20261103/examples/ANSWERS-20261103-1748.json`: all three cards "revise" with his versions, X-26 and X-84 with the
+comment "passes", X-15 with none. **The mailbox first** (`state/MAILBOX.json`, "2026-11-03 17:48"): pull request 279 merged
+by him at 17:48 UTC; 280 (Bad Trips) and 278 (Inner Child) are other lanes'; LESSON-INDEX entry 87 is now standing for him
+(every final answer ends with one "GH handoff:" line).
+
+**His versions in** (`fix-20261103/examples/apply_answers_x1103.py`, APPLIED-X1103.json, read/READ-RECORD.json): as he
+wrote them, two typos fixed ("inhibiton", "guafacine"). HUMANIZED-SO-FAR.md a4b4e05a to 6db92b7a. This lane's comparison
+gate is set up (`COMPARE-GATE.json`, like the hypnosis lane's): PASS, 0 unread. The fidelity check reads his wording as the
+post's once recorded with his card (`FIDELITY-KEYS.json` "owner_wording", 12 entries; `fidelity_keys.py`, with tests);
+"Don't" is read as "Do not" in any draft. PASS. Nothing of his was lost, so no question about it.
+
+**X-15 by itself** (`fix-20261103/x15/`, batch x1103, predicted AI at 0.40): [Human Written, 0.3% AI](https://www.pangram.com/history/0bc718b1-278a-40ce-a7dd-6af7d45268d5),
+its first sentence Human (High), the two short label sentences Human (Low). X-26 and X-84 not checked again (he said they
+pass).
+
+**What his versions do** (`fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md`; gate E335; tells_lint.py O61, registry W113:
+a dose as a label and its spec).
+
+**Round 2 his way** (`fix-20261103/r2his/`, RESULTS-ROUND2.md): one stretch of each kind, from his post, fidelity PASS on
+every draft. The science (V3) went from 100% AI to 40.9% and then 19.8% AI; the warnings (V1) and uridine (V2) stayed 100%
+AI in both tries; three warnings by themselves in his label register, 100% AI; the 5-HTP warning with its warning phrases
+re-said (an experiment), 100% AI. Gate E336: only his wording reads Human in the warnings and doses. Question 2 on
+`OWNER-QUESTIONS.md` asks how he wants those done (recommended: he rewrites them a section at a time on a cards page, and I
+do the science his way meanwhile).
+
+Predictions: 11 (x1103 1, r1103c 3, r1103d 3, r1103e 3, r1103f 1), all AI, all right. Delegations (model, piece, check,
+outcome): none; the rewrites and the reading of his versions were judgment throughout.
+
 ## 2026-11-03, after Joel's message of 15:22 UTC: question 1 answered; round 1 rewritten and checked; Emulate retired; three examples for him
 
 His message (`fix-20261103/joel-20261103-1522-message.txt`): "no need to recheck i'm sure it's fine, move onto the next

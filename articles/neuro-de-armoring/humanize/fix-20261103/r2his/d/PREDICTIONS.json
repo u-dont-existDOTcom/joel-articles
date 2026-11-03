@@ -1,0 +1,35 @@
+[
+ {
+  "key": "r2-V1",
+  "name": "the agmatine and 5-HTP warnings around his X-15, second try: each phrase re-said",
+  "lineage": "ND1103-R2V1",
+  "scope": "stretch",
+  "words": 277,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "the post's phrases re-said plainly (\"Don't think of these as\", \"how sensitive your brain is pretty quickly\", \"I'd be extra conservative\", \"more craving than usual\"), but the long drug and symptom lists stay, and the 5-HTP sentence is still a list after a rule",
+  "sha256": "493e833d9009be1dac01bdb1aa76e1872ea95d568eaedf3ef8e9b15c55214a5e"
+ },
+ {
+  "key": "r2-V2",
+  "name": "the uridine section around his X-84, second try: each phrase re-said",
+  "lineage": "ND1103-R2V2",
+  "scope": "stretch",
+  "words": 469,
+  "call": "AI",
+  "chance": 0.25,
+  "why": "who it is for said as what it feels like (\"everything feels gray\"), Scott told as a story, \"I'm not saying everyone needs dopamine\", but the evidence paragraph is still three linked findings in a row and the section is long and dense",
+  "sha256": "11328496674104a6f2426acd95bead30b95434453b312232e880b711a8a2d274"
+ },
+ {
+  "key": "r2-V3",
+  "name": "Psychology is the Software, the Role-Self part around his X-26, second try: the two AI windows re-said",
+  "lineage": "ND1103-R2V3",
+  "scope": "stretch",
+  "words": 329,
+  "call": "AI",
+  "chance": 0.45,
+  "why": "the Gibson sentence and the micro-dosing paragraphs, the two windows that read AI, are re-said (\"In [her book], psychologist Lindsay Gibson explains\", \"give up on the hour-long breakthrough for a while\", \"just gets flooded\"); the windows that read Human are unchanged; the heading is his and still a slogan",
+  "sha256": "baf95c40274d3a09dd510b622fa902e917b662c0b2d4c3c319a85b04f9116011"
+ }
+]

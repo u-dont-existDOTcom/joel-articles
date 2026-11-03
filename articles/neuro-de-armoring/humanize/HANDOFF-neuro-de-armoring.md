@@ -18,6 +18,13 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-03, after Joel's answers of 17:48 UTC (his three versions): his versions in, round 2 his way, question 2 waiting.**
+  His versions are in HUMANIZED-SO-FAR.md (6db92b7a; `fix-20261103/examples/apply_answers_x1103.py`), this lane's
+  COMPARE-GATE.json is set up, and the fidelity check reads his recorded wording as the post's ("owner_wording"). His X-15
+  by itself read [Human Written, 0.3% AI](https://www.pangram.com/history/0bc718b1-278a-40ce-a7dd-6af7d45268d5). What his
+  versions do: `fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md` (E335). Round 2 (`fix-20261103/r2his/RESULTS-ROUND2.md`,
+  E336): the science went to 19.8% AI his way; the warnings and doses read 100% AI every way I tried, so question 2 asks him
+  how those are done. See the Next step.
 - **2026-11-03, after Joel's message of 15:22 UTC ("move onto the next article") and his two answers: question 1 answered ("Freely, in your voice"), round 1 rewritten and checked, Emulate retired, three examples waiting for his rewrites.** Round 1 (`fix-20261103/r1/`) read AI in 19 of 26 stretches at 100%, the best 12.7% AI (gate E334). Emulate had 0 words left and he retired it (gate E333). His three examples are on [Neuro De-Armoring Cards, 3 November](https://claude.ai/artifact/GKEbRH8VvXKzbEnZGCZUgz) (`fix-20261103/examples/`). See the Next step.
 - **2026-11-03, after Joel's message of 14:52 UTC (his answers to the hypnosis guide's question 34, and "make sure this closer reading is also part of the general joel-articles skill")**: nothing changed in this lane; question 1 still waits on him, and this lane is next. Before this article goes into his post, run SKILL.md's "Word-for-sense read before publication" with `tools/humanization/sense_read.py` (it replaces the hand-made scripts the hypnosis guide used). After that read, propose the planted-error recall check to universal-dev-architecture as a pattern, with both articles' recall and its limits (gate E331's disposition: provisional until this second run).
 - **2026-11-03, after Joel's message of 13:46 UTC (the hypnosis guide into his post, and "oily" for "old")**: the hypnosis guide is in his post, so this lane is next; question 1 still waits on him. Two lessons apply here: E331, before this article goes into his post, every word is read for sense by fresh readers, a part each, and the read is tested with planted errors of the same kind (the scripts are in `articles/inner-signal/humanize/fix-20261103/nonsense/`; `docs/FIXING-AN-ARTICLE.md` section 5 item 7); and E332, for updating a live post (`articles/inner-signal/humanize/fix-20261103/live/`).
@@ -56,7 +63,28 @@ All of the article is his published post. His queue's rule: "Paragraphs that alr
 stay exactly as they are." Everything else is rewritten in his register and reaches him as cards, each tested first. The
 Scott passages, the introduction and the D-serine paragraph in Part 4 sound most like him.
 
-## Next step (2026-11-03, after Joel's message of 15:22 UTC: his three examples)
+## Next step (2026-11-03, after Joel's answers of 17:48 UTC: question 2)
+
+Done (STATUS.md's entry for 2026-11-03 17:48 has every file and number). The article is his post with his three versions
+in (HUMANIZED-SO-FAR.md, 6db92b7a); round 2's rewrites are only in `fix-20261103/r2his/` (blocks/ and CANDIDATE.md;
+blocks-try1/ is the first try). Stretch lineages ND1103-R2V1 to R2V3 have used both their tries; paragraph lineages
+ND1103-P016, P085 (one try) and P017 (two) have tries left.
+
+Next:
+1. **His answer to question 2** (`OWNER-QUESTIONS.md`, on Neuro De-Armoring Questions) decides the warnings and doses:
+   a) a cards page per section of its warnings and dose paragraphs as stretches to edit (advice "edit", like
+   `fix-20261103/examples/build_page_x1103.py`), starting with the disclaimers (blocks 7 to 18 less his X-15), his versions
+   put in with a recording script like `apply_answers_x1103.py` and checked by themselves only where he hasn't; b) they
+   stay as his post has them; c) what he says.
+2. **Meanwhile, the science his way** (E335, the rules in WHAT-HIS-VERSIONS-DO.md): V3's last AI windows are the micro-dosing
+   lines (blocks 27 and 28; check them as a pair, scope "pair", predicted first), then the other science sections (Part 1 A
+   to E, the shield's explanations), rewritten from his post, the fidelity check and the linter on each (E125 flags on the
+   protocol's required lists are recorded, not fixed: E336), each section checked within E325's limit before it reaches
+   him as cards. Where a stretch has only his words in it and reads AI, it goes to him (E334).
+3. **Then** the owner-delivery gate on every card of mine, the whole article free through a temporary Substack draft, the
+   word-for-sense read (SKILL.md), and his post (E332, the title's date with it, E323).
+
+## Earlier next step (2026-11-03, after Joel's message of 15:22 UTC: his three examples)
 
 Done (STATUS.md's entry for 2026-11-03 15:22 has every file and number). The article is still his post as it stands
 (HUMANIZED-SO-FAR.md = master.md, a4b4e05a); round 1's rewrite is only in `fix-20261103/r1/CANDIDATE.md`.

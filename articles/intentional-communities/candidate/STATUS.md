@@ -1,3 +1,6 @@
+**Joel's answers of 2026-11-03 17:48 UTC (his three neuro de-armoring examples)**: nothing changed in this lane's article. Gates E335 and E336 apply here too; tells_lint.py has O61 (a dose as a label and its spec).
+Predictions: none. Delegations (model, piece, check, outcome): none.
+
 **Joel's message of 2026-11-03 15:22 UTC (move on to the neuro de-armoring article)**: nothing changed in this lane's article. Emulate is retired for new text in every article (gate E333).
 Predictions: none. Delegations (model, piece, check, outcome): none.
 
