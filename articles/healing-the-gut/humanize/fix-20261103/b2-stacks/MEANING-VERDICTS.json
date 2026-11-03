@@ -1,0 +1,52 @@
+[
+  {
+    "id": "M01",
+    "verdict": "PASS",
+    "issue": "Numbered three-category list merged into one sentence; \"escalate into\" became \"go to\"."
+  },
+  {
+    "id": "M02",
+    "verdict": "FAIL",
+    "issue": "Adds a cross-reference not in the original: \"as I mentioned under diverticulosis\" (butyrate point). Also \"actively drives\" became \"is what drives\"."
+  },
+  {
+    "id": "M03",
+    "verdict": "PASS",
+    "issue": "Label \"Energy Starvation\" became \"Mitochondrial fuels\"; \"systematically suppresses\" became \"suppress ... across the board\"; gloss \"(the TCA cycle)\" added."
+  },
+  {
+    "id": "M04",
+    "verdict": "PASS",
+    "issue": "\"Best general commercial stack I have seen so far\" became \"best of the bunch\"; GI Revive now \"only one piece of a full gut protocol\"."
+  },
+  {
+    "id": "M05",
+    "verdict": "FAIL",
+    "issue": "Adds a cross-reference not in the original to item 3: \"(the first three are all under Leaky gut, above)\"."
+  },
+  {
+    "id": "M06",
+    "verdict": "PASS",
+    "issue": "\"immediate\" dropped from the barrier's energy need; \"systematically\" dropped from \"suppresses inflammatory signals\"; \"directly\" dropped from TCA feed; label \"Energy Starvation\" became \"Mitochondrial fuels\"."
+  },
+  {
+    "id": "M07",
+    "verdict": "FAIL",
+    "issue": "\"The goal is to stop feeding bacteria\" became \"Both stop feeding the bacteria\" (aim stated as effect); \"Adopt\" softened to \"you can do\". Nickname \"(The Architect & Scientist)\" dropped."
+  },
+  {
+    "id": "M08",
+    "verdict": "PASS",
+    "issue": "\"would not recommend\" became \"wouldn't use\"; \"decision tree\" dropped (\"come later\"); \"I have seen so far\" now only in the opening kits sentence."
+  },
+  {
+    "id": "M09",
+    "verdict": "PASS",
+    "issue": "\"Best general commercial stack\" stated flatly; the \"so far ... best I've seen\" hedge now follows the kit list; \"decision tree\" became \"Save those for later\"."
+  },
+  {
+    "id": "M10",
+    "verdict": "PASS",
+    "issue": "Heading \"Optional Ready-Made Gut Stacks\" became \"If you want a ready-made gut stack\"; \"similar compounds\" became \"anything similar\"."
+  }
+]
