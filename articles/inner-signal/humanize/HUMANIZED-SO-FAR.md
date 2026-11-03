@@ -230,7 +230,7 @@ There is a simple and easy body technique to connect with your inner child. Just
 
 Imagine a divine Love from above, with the inner child below, in the solar plexus area. The inner adult is present. You can also use the hand on the solar plexus to massage that area.
 
-Gently breathe in lots of love and begin to send that love from your heart down to your inner child and you breathe out, noticing what comes up for you. If some comes back up, let it, and send it on down again, so it goes around like a loop. That part's a gift from them, and they don't owe it to you, so if nothing comes back, just keep sending yours. If you feel resistance, just meet it with love. If you feel or see something, just meet that with love as well. If you can't find any warmth today, just leave your hands where they are and notice what's there. Don't pretend to feel something you don't. Let it go back and forth between your heart and your inner child, like a real conversation.
+Gently breathe in lots of love and begin to send that love from your heart down to your inner child as you breathe out, noticing what comes up for you. If some comes back up, let it, and send it on down again, so it goes around like a loop. That part's a gift from them, and they don't owe it to you, so if nothing comes back, just keep sending yours. If you feel resistance, just meet it with love. If you feel or see something, just meet that with love as well. If you can't find any warmth today, just leave your hands where they are and notice what's there. Don't pretend to feel something you don't. Let it go back and forth between your heart and your inner child, like a real conversation.
 
 This practice works as an induction too: the Sober induction below has it as one of the anchors you can pick.
 
@@ -1016,7 +1016,7 @@ Invitational language can also feel super fake though, especially when it's over
 
 ### Pattern 6: Ethical double binds
 
-This is also an actual parenting technique. Children love choices, even when they're both designed for the same pre-decided outcome. Our subconscious still works like that, too. A manipulative double bind is the name for that, although hypnotists don't call it manipulative, that's my framing. Nimja demonstrates this a lot in his hypnosis: "Do you want to go deeper now, or in a moment?" Clearly, that sends you deeper regardless what you "choose."
+This is also an actual parenting technique. Children love choices, even when they're both designed for the same pre-decided outcome. Our subconscious still works like that, too. A manipulative double bind is the name for that, although hypnotists don't call it manipulative, that's my framing. Nimja demonstrates this a lot in his hypnosis: "Do you want to go deeper now, or in a moment?"
 
 An ethical double bind also gives you two choices, but both of them are designed to be genuinely safe, and they also give a bit of actual agency, even if both choices serve the same end. Example:
 
@@ -1024,7 +1024,7 @@ An ethical double bind also gives you two choices, but both of them are designed
 
 ### Pattern 7: Conversational postulates
 
-A conversational postulate is a sneaky little yes or no question that's actually a way to ask for something indirectly. People use it all the time casually, like, "Can you pass the salt?" We already know they're not really asking if you have that ability. In its most egregious form, it could turn into a dare. Do you recall how hard it was as a child to ignore a dare?
+A conversational postulate is a sneaky little yes or no question that's actually a way to ask for something indirectly. People use it all the time casually, like, "Can you pass the salt?" In its most egregious form, it could turn into a dare. Do you recall how hard it was as a child to ignore a dare?
 
 I dare you now to practice this ethical postulate! "Can my subconscious show me the next healing stepping stone, sparing me any more painful memories than I can handle right now?"
 
@@ -1184,7 +1184,7 @@ Is it trying to narrow down your choices? Does questioning it feel like you’re
 
 If it does a bunch of these things, slow yourself down, don’t let it push you deeper into trance, don’t do anything you can’t undo, and then ground yourself for a while (take care of your body, eat, sleep, give it time, get counsel, etc).
 
-A good guide will make your adult self stronger. A good guide can take no. A bad guide can’t take no. A bad guide wants to take your adult self’s job. A bad guide will try to make your no something that’s bad or needs to be fixed (resistance, ego, fear, low vibration, trauma response, sin, need for more of its guidance, etc).
+A good guide will make your adult self stronger. A bad guide will try to make your no something that’s bad or needs to be fixed (resistance, ego, fear, low vibration, trauma response, sin, need for more of its guidance, etc).
 
 ## Hypnosis-specific audit
 
@@ -1342,7 +1342,7 @@ I’m not saying you should use substances, but many people have used them when 
 
 Do not use altered states to try to force yourself to get to a certain revelation about yourself, but rather to help yourself become more in tune with love and to better your life.
 
-A lot of people have had dramatic openings to love at some point in their life. If you've had a similar experience, you know that there is a difference between having experienced it at one point, or only being able to access it in a certain state, and being able to get to it at any point in your life. While you're building a way to reach love on a normal day, let that experience you had serve as a reference point for what can happen. (If you can't give that love to the child, try to deal with why you can't, instead of trying to ramp up the experience. Often there's a child guard part that’s seen love come with strings or get revoked before in a painful way. Love starts with hearing out the resistance to it first.)
+A lot of people have had dramatic openings to love at some point in their life. If you've had a similar experience, you know that there is a difference between having experienced it at one point, or only being able to access it in a certain state, and being able to get to it at any point in your life. While you're building a way to reach love on a normal day, let that experience you had serve as a reference point for what can happen. (If you can't give that love to the child, try to deal with why you can't, instead of trying to ramp up the experience. Often there's a child guard part that’s seen love come with strings or get revoked before in a painful way.)
 
 Use your altered state of consciousness, either while you're in it or after, to help yourself by asking things like:
 

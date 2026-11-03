@@ -80,6 +80,14 @@ def run(page_path, report_path=None):
             # Approve, Reject and Revise are tried on three cards; a page of two (2026-11-02, Hypnosis Guide Cards, 2 November
             # (2), after the gate held its third card back) tries Revise on the rejected card, so it ends as revise
             three = len(ids) >= 3
+            # a page with fewer than two cards to approve (2026-11-03, Hypnosis Guide Cards, 3 November: one stretch of his
+            # to edit and nothing else) runs the same checks on its first stretch to edit: a comment, Keep and Edit, the
+            # export, the reload and the import
+            edit_only = len(ids) < 2
+            if edit_only:
+                eds0 = [s['id'] for s in data['suggestions'] if s['advice'] == 'edit']
+                ok('%s: a page of stretches to edit (%d), no suggestions to approve' % (scheme, len(eds0)), len(eds0) >= 1, eds0)
+                ids = eds0[:1] * 2
             c1, c2 = ('#c-' + i.replace('.', '\\.') for i in ids[:2])
             c3 = '#c-' + ids[2].replace('.', '\\.') if three else c2
             id3 = ids[2] if three else ids[1]
@@ -92,52 +100,61 @@ def run(page_path, report_path=None):
             ok('%s: typed comment kept' % scheme, note.input_value() == text, note.input_value())
             con = note.evaluate(CONTRAST_JS)
             ok('%s: comment text legible (contrast %.1f)' % (scheme, con['ratio']), con['ratio'] >= 4.5, con)
-            page.click(c1 + ' .dec.approve')
-            ok('%s: Approve is one click, no dialog' % scheme, page.locator(c1).get_attribute('data-status') == 'approved')
-            ok('%s: pill says Approved' % scheme, page.locator(c1 + ' .pill').text_content() == 'Approved')
-            page.click(c2 + ' .dec.reject')
-            ok('%s: Reject' % scheme, page.locator(c2).get_attribute('data-status') == 'rejected')
-            ok('%s: rejected looks different from not approved' % scheme,
-               page.locator(c2 + ' .pill').text_content() != 'Not approved yet')
-            page.click(c3 + ' .dec.revise')
-            yours = page.locator(c3 + ' textarea.yours')
-            ok('%s: Revise opens your version' % scheme, yours.is_visible())
-            mine = next(s['proposed'] for s in data['suggestions'] if s['id'] == id3)
-            ok('%s: your version starts from mine' % scheme, yours.input_value() == mine, yours.input_value()[:80])
-            yours.type(' Mine.')
-            con2 = yours.evaluate(CONTRAST_JS)
-            ok('%s: your-version text legible (contrast %.1f)' % (scheme, con2['ratio']), con2['ratio'] >= 4.5, con2)
-            pre_ap = sum(1 for s in pre if s['advice'] == 'approve' and s['decided']['status'] == 'approved')
-            pre_n = sum(1 for s in pre if s['advice'] == 'approve')
-            prog = page.locator('#prog').text_content()
-            ok('%s: progress counts the decisions' % scheme,
-               (' %d approved' % (1 + pre_ap) in prog) and prog.startswith('%d of' % (n_dec + pre_n)), prog)
-            page.click(c1 + ' .dec.undo')
-            ok('%s: back to not approved in one click' % scheme, page.locator(c1).get_attribute('data-status') == 'pending')
-            ok('%s: approval count is explicit approvals only' % scheme, ' %d approved' % pre_ap in page.locator('#prog').text_content(),
-               page.locator('#prog').text_content())
-            page.click(c1 + ' .dec.approve')
-            # filters
-            page.click('#toolsBtn')
-            typ = data['suggestions'][[s['id'] for s in data['suggestions']].index(ids[0])]['type']
-            page.click('.tools [data-filter-type="%s"]' % typ)
-            ok('%s: type filter hides that type' % scheme, not page.locator(c1).is_visible())
-            page.click('.tools [data-filter-type="%s"]' % typ)
-            ok('%s: and shows it again' % scheme, page.locator(c1).is_visible())
-            page.select_option('#statusFilter', 'approved')
-            vis = page.evaluate("""() => Array.from(document.querySelectorAll('.card[data-id]')).filter(c => !c.hidden && c.dataset.advice==='approve').map(c => c.dataset.status)""")
-            ok('%s: status filter shows only approved' % scheme, vis and all(v == 'approved' for v in vis), vis[:5])
-            page.select_option('#statusFilter', 'all')
-            # a word some cards have and others don't, from the cards themselves
-            hay = page.evaluate("""() => Array.from(document.querySelectorAll('.card[data-id]')).map(c => { const b = document.getElementById('b' + c.dataset.block); return (c.textContent + ' ' + (b ? b.textContent : '')).toLowerCase(); })""")
-            words = sorted({w for h in hay for w in __import__('re').findall(r'[a-z]{7,}', h)})
-            word = next((w for w in words if 0 < sum(w in h for h in hay) < len(hay) // 2 + 1), words[0] if words else 'the')
-            page.fill('#search', word)
-            page.wait_for_timeout(400)
-            shown = page.evaluate("""() => Array.from(document.querySelectorAll('.card[data-id]')).filter(c => !c.hidden).length""")
-            ok('%s: search narrows the cards' % scheme, 0 < shown < total, shown)
-            page.fill('#search', '')
-            page.wait_for_timeout(400)
+            if not edit_only:
+                page.click(c1 + ' .dec.approve')
+                ok('%s: Approve is one click, no dialog' % scheme, page.locator(c1).get_attribute('data-status') == 'approved')
+                ok('%s: pill says Approved' % scheme, page.locator(c1 + ' .pill').text_content() == 'Approved')
+                page.click(c2 + ' .dec.reject')
+                ok('%s: Reject' % scheme, page.locator(c2).get_attribute('data-status') == 'rejected')
+                ok('%s: rejected looks different from not approved' % scheme,
+                   page.locator(c2 + ' .pill').text_content() != 'Not approved yet')
+                page.click(c3 + ' .dec.revise')
+                yours = page.locator(c3 + ' textarea.yours')
+                ok('%s: Revise opens your version' % scheme, yours.is_visible())
+                mine = next(s['proposed'] for s in data['suggestions'] if s['id'] == id3)
+                ok('%s: your version starts from mine' % scheme, yours.input_value() == mine, yours.input_value()[:80])
+                yours.type(' Mine.')
+                con2 = yours.evaluate(CONTRAST_JS)
+                ok('%s: your-version text legible (contrast %.1f)' % (scheme, con2['ratio']), con2['ratio'] >= 4.5, con2)
+                pre_ap = sum(1 for s in pre if s['advice'] == 'approve' and s['decided']['status'] == 'approved')
+                pre_n = sum(1 for s in pre if s['advice'] == 'approve')
+                prog = page.locator('#prog').text_content()
+                ok('%s: progress counts the decisions' % scheme,
+                   (' %d approved' % (1 + pre_ap) in prog) and prog.startswith('%d of' % (n_dec + pre_n)), prog)
+                page.click(c1 + ' .dec.undo')
+                ok('%s: back to not approved in one click' % scheme, page.locator(c1).get_attribute('data-status') == 'pending')
+                ok('%s: approval count is explicit approvals only' % scheme, ' %d approved' % pre_ap in page.locator('#prog').text_content(),
+                   page.locator('#prog').text_content())
+                page.click(c1 + ' .dec.approve')
+                # filters
+                page.click('#toolsBtn')
+                typ = data['suggestions'][[s['id'] for s in data['suggestions']].index(ids[0])]['type']
+                page.click('.tools [data-filter-type="%s"]' % typ)
+                ok('%s: type filter hides that type' % scheme, not page.locator(c1).is_visible())
+                page.click('.tools [data-filter-type="%s"]' % typ)
+                ok('%s: and shows it again' % scheme, page.locator(c1).is_visible())
+                page.select_option('#statusFilter', 'approved')
+                vis = page.evaluate("""() => Array.from(document.querySelectorAll('.card[data-id]')).filter(c => !c.hidden && c.dataset.advice==='approve').map(c => c.dataset.status)""")
+                ok('%s: status filter shows only approved' % scheme, vis and all(v == 'approved' for v in vis), vis[:5])
+                page.select_option('#statusFilter', 'all')
+                # a word some cards have and others don't, from the cards themselves
+                hay = page.evaluate("""() => Array.from(document.querySelectorAll('.card[data-id]')).map(c => { const b = document.getElementById('b' + c.dataset.block); return (c.textContent + ' ' + (b ? b.textContent : '')).toLowerCase(); })""")
+                words = sorted({w for h in hay for w in __import__('re').findall(r'[a-z]{7,}', h)})
+                word = next((w for w in words if 0 < sum(w in h for h in hay) < len(hay) // 2 + 1), words[0] if words else 'the')
+                page.fill('#search', word)
+                page.wait_for_timeout(400)
+                shown = page.evaluate("""() => Array.from(document.querySelectorAll('.card[data-id]')).filter(c => !c.hidden).length""")
+                ok('%s: search narrows the cards' % scheme, 0 < shown < total, shown)
+                page.fill('#search', '')
+                page.wait_for_timeout(400)
+            else:
+                # the type filter, on the stretch to edit (one card: nothing for the status filter or the search to narrow)
+                page.click('#toolsBtn')
+                typ = data['suggestions'][[s['id'] for s in data['suggestions']].index(ids[0])]['type']
+                page.click('.tools [data-filter-type="%s"]' % typ)
+                ok('%s: type filter hides that type' % scheme, not page.locator(c1).is_visible())
+                page.click('.tools [data-filter-type="%s"]' % typ)
+                ok('%s: and shows it again' % scheme, page.locator(c1).is_visible())
             if page.locator('.card.leave').count():
                 leave = page.locator('.card.leave').first
                 ok('%s: the ones I\'d leave are hidden at first' % scheme, not leave.is_visible())
@@ -205,6 +222,10 @@ def run(page_path, report_path=None):
             ok('%s: Next undecided brings one to the top' % scheme, top >= 1, top)
             if was != 'pending':   # the first card's decision back, for the export and reload checks after this
                 page.click('#c-' + first + ' .dec.' + {'approved': 'approve', 'rejected': 'reject', 'revise': 'revise'}[was])
+            if edit_only:   # the stretch edited, for the export, reload and import checks below
+                page.click(c1 + ' .dec.revise')
+                page.locator(c1 + ' textarea.yours').type(' Mine.')
+            first_status = 'revise' if edit_only else 'approved'
             # export
             page.click('#saveBtn')
             page.click('#copyJson')
@@ -226,7 +247,7 @@ def run(page_path, report_path=None):
                 ok('%s: export has every suggestion' % scheme, len(exp['items']) == total, len(exp['items']))
                 got = {x['id']: x for x in exp['items']}
                 ok('%s: comment exported word for word' % scheme, got[ids[0]]['comment'] == text, got[ids[0]]['comment'])
-                ok('%s: statuses exported' % scheme, got[ids[0]]['status'] == 'approved' and got[ids[1]]['status'] == st2
+                ok('%s: statuses exported' % scheme, got[ids[0]]['status'] == first_status and got[ids[1]]['status'] == st2
                    and got[id3]['status'] == 'revise' and got[id3]['your_version'].endswith(' Mine.'))
                 if asks:
                     ok('%s: the answer is exported with its question' % scheme, got[asks[0]]['comment'] == ans
@@ -239,7 +260,7 @@ def run(page_path, report_path=None):
             # reload keeps it
             page.reload()
             page.wait_for_selector('.card[data-id]')
-            ok('%s: a reload keeps the decisions' % scheme, page.locator(c1).get_attribute('data-status') == 'approved'
+            ok('%s: a reload keeps the decisions' % scheme, page.locator(c1).get_attribute('data-status') == first_status
                and page.locator(c2).get_attribute('data-status') == st2)
             ok('%s: a reload keeps the comment' % scheme, page.locator(c1 + ' textarea.note').input_value() == text)
             # import after clearing
@@ -250,7 +271,7 @@ def run(page_path, report_path=None):
             page.click('#saveBtn')
             page.set_input_files('#importFile', path)
             page.wait_for_timeout(500)
-            ok('%s: loading the saved file restores decisions' % scheme, page.locator(c1).get_attribute('data-status') == 'approved'
+            ok('%s: loading the saved file restores decisions' % scheme, page.locator(c1).get_attribute('data-status') == first_status
                and page.locator(c3).get_attribute('data-status') == 'revise', page.locator('#saveStatus').text_content())
             ok('%s: and the comment' % scheme, page.locator(c1 + ' textarea.note').input_value() == text)
             other = dict(saved, review_id='another-review')
