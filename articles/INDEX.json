@@ -106393,6 +106393,56 @@
           "path": "articles/healing-the-gut/humanize/fix-20261103/structure/make_spec.py",
           "sha256": "3ede58167fd0471b9d2e116b0eeb4d15bd72647522409710157321c5cd95ce41",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/experiments/t02-answers/joel-20261103-1801-structure-answers.txt",
+          "sha256": "57f6516ca64a8edf87153b4116fd8c8e9368ce7956dd78603ab71067f94cc01e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r01/GEM-PROMPT-CLEAN.md",
+          "sha256": "20022902c484512f0444d9cdbdbdede8de1b9518367eb4ac747674b2dc798c4d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r01/Gut-Health-Architect-Gem-Instructions.docx",
+          "sha256": "b4322caa40d542fbff4af0ff614f0cd2d44755feb7598bee3786dece39d02128",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r01/MASTER.md",
+          "sha256": "dd074c21221afb5f4076412c2e1e06ee98a19c9a6e12c13b7c8587aba5ddd967",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r01/REVIEW-CARDS.md",
+          "sha256": "17732870345c7e2dd12c0ca25d9e6c1d2d01c4a376c59a6f59fba952459a5be0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r01/REVIEW-PAGE.artifact.html",
+          "sha256": "16182cedcd3bec25589e19bf229c6090d7e8bf449088578ce72f17235440e8f9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r01/REVIEW-PAGE.html",
+          "sha256": "a6a095142654a3471387fd2976d6084128232b5f04cc309dd713b64fac5ad432",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r01/REVIEW.json",
+          "sha256": "647e873632e75e450fcdfdc1327cd601d0e9e6661423b5e31982594c917ea99e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r01/build_review.py",
+          "sha256": "0ffa11339494e705cfa237e544e87028bc6585a4734264cd427310a10b7ad788",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r01/html_to_md.py",
+          "sha256": "098e1fdd30c22352dd191f6d734305d4cf66957b547a5ba11ac9262e3a5e451d",
+          "role": "humanization_working_record"
         }
       ]
     }
