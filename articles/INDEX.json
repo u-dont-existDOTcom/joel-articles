@@ -105913,6 +105913,83 @@
           "role": "humanization_working_record"
         }
       ]
+    },
+    {
+      "id": "healing-the-gut",
+      "title": "Healing the Gut Naturally",
+      "status": "working",
+      "authority": {
+        "master": {
+          "path": "articles/healing-the-gut/master.html",
+          "sha256": "dad7b0cd540452cb44198782a69db94ace6b0f2b5ec58bb98bf8c233703cf2ea"
+        },
+        "owner_locks": {
+          "path": "articles/healing-the-gut/OWNER-LOCKS.json",
+          "sha256": "22340c81c0864c834985634d262595df668666160656f2cb428346295f432f3e"
+        },
+        "source_evidence": {
+          "path": "articles/healing-the-gut/SOURCE-EVIDENCE.json",
+          "sha256": "0396ce5e606e2d56a540766f7ff29bb035575d96cb9010f0ecc4800fde63cbac"
+        },
+        "unincorporated_ideas": {
+          "path": "articles/healing-the-gut/UNINCORPORATED-IDEAS.md",
+          "sha256": "2e38782ef36d2345ec45d2155a9e063cdd6ef01136243575bb85617f7f9c12ea"
+        },
+        "current_state": {
+          "path": "articles/healing-the-gut/CURRENT-STATE.md",
+          "sha256": "9e170e71fc5bdca975d8455c29a4736f3a3e30df56bad21526d35adc0e4519a6"
+        }
+      },
+      "review": {
+        "citations": {
+          "path": "articles/healing-the-gut/CITATIONS.json",
+          "sha256": "02ce16638deda0b50643e911f5bcfc14bb57feb47b4a33bb354b1c7da9eb2560",
+          "status": "pending"
+        },
+        "detector": {
+          "path": "articles/healing-the-gut/DETECTOR-EVIDENCE.json",
+          "sha256": "9ee808a3006560c2a68136a02b0e2327cfc20a4118b50793315b73f112304817",
+          "status": "recorded"
+        },
+        "editorial": {
+          "path": "articles/healing-the-gut/EDITORIAL-STATUS.json",
+          "sha256": "79d6b9f9f903028c97ce62324a0a52e570f9139cc05a5082e3184ceae7e23a66",
+          "status": "pending"
+        }
+      },
+      "publication_exports": [],
+      "additional_artifacts": [
+        {
+          "path": "articles/healing-the-gut/ARCHITECTURE.md",
+          "sha256": "fe8ec1d6534a76a7c9812bd10509638e189c503e4610f2fd3c8ca68d1bbcf7d5",
+          "role": "architecture_map"
+        },
+        {
+          "path": "articles/healing-the-gut/IMPORT-RECEIPT-20261103.md",
+          "sha256": "54fae4064567e66c966be8fa623e1d81140f27ab38d9149cd20c53168cdd6904",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/experiments/t01-answers/joel-20261103-1615-messages.txt",
+          "sha256": "e268198dc2b9653eb0417a5438e73691a91dc6822925e45517d00b67f45d9f69",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/FIDELITY-KEYS.json",
+          "sha256": "c42b3f97dfc57ab9edfda04948e3bf76590ace445a5d3d2541d9a00cf6824c35",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/MASTER-VISIBLE.md",
+          "sha256": "886995f2c101aa392009d9bf546195b7df6859e521ca4fd7ec98c794f097202d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/source/substack-editor-20261103.html",
+          "sha256": "dad7b0cd540452cb44198782a69db94ace6b0f2b5ec58bb98bf8c233703cf2ea",
+          "role": "humanization_working_record"
+        }
+      ]
     }
   ]
 }

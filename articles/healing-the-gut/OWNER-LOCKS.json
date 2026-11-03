@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "article_id": "healing-the-gut",
+  "owner_review": {
+    "status": "pending",
+    "evidence": "Registered 2026-11-03 at Joel's messages of 16:15 UTC (experiments/t01-answers/joel-20261103-1615-messages.txt): \"my gut article\", with the Substack editor HTML attached, to humanize and to line up its two parts. No passage is locked until he says so."
+  },
+  "locked_passages": [],
+  "protected_functions": [
+    {
+      "id": "protocol-fidelity",
+      "description": "Every compound, dose, unit, timing, product and warning comes out exactly as it went in. humanize/FIDELITY-KEYS.json lists them from humanize/MASTER-VISIBLE.md, and tools/humanization/fidelity_keys.py check must pass on every draft before it is checked in Pangram or shown to him."
+    },
+    {
+      "id": "his-and-friends-findings",
+      "description": "His own and his friends' findings (Pooyan's colon hydrotherapy and relapse, H2O2 over herbal antibiotics, Matt Nedin's colostrum, ozonated zeolite, the Barrier note) are his claims and stay his, in his words where he wrote them; nothing about his or his friends' lives is added."
+    },
+    {
+      "id": "working-master-source-identity",
+      "description": "The registered master is master.html: the Substack editor HTML Joel pasted on 2026-11-03, byte for byte (IMPORT-RECEIPT-20261103.md). source/ keeps that copy and is never edited."
+    },
+    {
+      "id": "shared-rules-only",
+      "description": "The article runs the repository's shared humanization rules (AGENTS.md, docs/HUMANIZATION-GATE.md, docs/FIXING-AN-ARTICLE.md, tools/humanization/); article files hold this article's records only."
+    }
+  ]
+}
