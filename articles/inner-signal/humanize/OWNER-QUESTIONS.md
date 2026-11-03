@@ -29,7 +29,7 @@ changed under them, so the rechecks decide; you don't need to mark them.
 - 🟠 Question 33, above.
 - 🟠 Mark the one card on [Hypnosis Guide Cards, 3 November (2)](https://claude.ai/artifact/WVc1QzNAzwSN7feajnaiNP) ([the card as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/c1103b/REVIEW-C1103B.md)):
   Pattern 10's questions, to keep or edit.
-- 🟠 Merge the newest pull request on [the branch's pull requests](https://github.com/u-dont-existDOTcom/joel-articles/pulls) when you've looked.
+- 🟠 Merge [pull request 275](https://github.com/u-dont-existDOTcom/joel-articles/pull/275) when you've looked.
 
 ## Your message of 2026-11-03 12:18 UTC, and what I did
 
