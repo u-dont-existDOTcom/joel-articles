@@ -1,5 +1,70 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-03, after Joel's answers of 17:48 UTC: his three versions in; round 2 his way; question 2
+
+His answers file for Neuro De-Armoring Cards, 3 November, sent with no other text, word for word in
+`fix-20261103/examples/ANSWERS-20261103-1748.json`: all three cards "revise" with his versions, X-26 and X-84 with the
+comment "passes", X-15 with none. **The mailbox first** (`state/MAILBOX.json`, "2026-11-03 17:48"): pull request 279 merged
+by him at 17:48 UTC; 280 (Bad Trips) and 278 (Inner Child) are other lanes'; LESSON-INDEX entry 87 is now standing for him
+(every final answer ends with one "GH handoff:" line).
+
+**His versions in** (`fix-20261103/examples/apply_answers_x1103.py`, APPLIED-X1103.json, read/READ-RECORD.json): as he
+wrote them, two typos fixed ("inhibiton", "guafacine"). HUMANIZED-SO-FAR.md a4b4e05a to 6db92b7a. This lane's comparison
+gate is set up (`COMPARE-GATE.json`, like the hypnosis lane's): PASS, 0 unread. The fidelity check reads his wording as the
+post's once recorded with his card (`FIDELITY-KEYS.json` "owner_wording", 12 entries; `fidelity_keys.py`, with tests);
+"Don't" is read as "Do not" in any draft. PASS. Nothing of his was lost, so no question about it.
+
+**X-15 by itself** (`fix-20261103/x15/`, batch x1103, predicted AI at 0.40): [Human Written, 0.3% AI](https://www.pangram.com/history/0bc718b1-278a-40ce-a7dd-6af7d45268d5),
+its first sentence Human (High), the two short label sentences Human (Low). X-26 and X-84 not checked again (he said they
+pass).
+
+**What his versions do** (`fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md`; gate E335; tells_lint.py O61, registry W113:
+a dose as a label and its spec).
+
+**Round 2 his way** (`fix-20261103/r2his/`, RESULTS-ROUND2.md): one stretch of each kind, from his post, fidelity PASS on
+every draft. The science (V3) went from 100% AI to 40.9% and then 19.8% AI; the warnings (V1) and uridine (V2) stayed 100%
+AI in both tries; three warnings by themselves in his label register, 100% AI; the 5-HTP warning with its warning phrases
+re-said (an experiment), 100% AI. Gate E336: only his wording reads Human in the warnings and doses. Question 2 on
+`OWNER-QUESTIONS.md` asks how he wants those done (recommended: he rewrites them a section at a time on a cards page, and I
+do the science his way meanwhile).
+
+Predictions: 11 (x1103 1, r1103c 3, r1103d 3, r1103e 3, r1103f 1), all AI, all right. Delegations (model, piece, check,
+outcome): none; the rewrites and the reading of his versions were judgment throughout.
+
+## 2026-11-03, after Joel's message of 15:22 UTC: question 1 answered; round 1 rewritten and checked; Emulate retired; three examples for him
+
+His message (`fix-20261103/joel-20261103-1522-message.txt`): "no need to recheck i'm sure it's fine, move onto the next
+article you said you were already working on it right". His answers to two questions in the app, word for word in
+`fix-20261103/joel-20261103-1522-answers.txt`: question 1, "Freely, in your voice (Recommended)"; then, after round 1 read
+AI and Emulate showed 0 words left, "yout old me emulate doens't even pass pangram 4.1 very well anymore so that's
+pointless and emulate has done so much damage to my guides that took too long to fix as you saw with hypnosis guide.
+give me a couple examples i will see how to rewrite it to train you". **The mailbox first** (`state/MAILBOX.json`,
+"2026-11-03 15:22"): pull request 277 merged by him at 15:22 UTC; nothing else new.
+
+**Round 1** (`fix-20261103/r1/`): every section rewritten freely in his voice (sections/S01 to S10.md; assemble_r1.py
+makes CANDIDATE.md, fidelity_keys.py PASS on the whole, and cuts each section into stretches the API takes, his Human
+(High) paragraphs left out of them); tells_lint.py on every section and its flags in my sentences fixed. Checked through
+the API on the laptop with public links, predictions first: batch r1103a (`a/`, the first try of Psychology is the
+Software: 40.4% and 100% AI) and batch r1103b (`b/`, 26 stretches: 19 at 100% AI, the best 12.7% AI, Psychology is the
+Software's first half; RESULTS.md). Every prediction was AI, and right. Three predictions were voided, never sent: the
+API counts a heading of eight words or more as a paragraph, so it refused one stretch, and the cut was made again.
+
+**Round 2 stopped before it started** (`fix-20261103/r2/emulate_r2.py`, the 30 segments it would have sent): Emulate's
+balance was 0 words, and his answer retires it (gate E333, `docs/EMULATE-FALLBACK.md`, AGENTS.md). Gate E334 says what
+round 1 showed.
+
+**His three examples** (`fix-20261103/examples/build_page_x1103.py`, REVIEW-X1103.*; published as Neuro De-Armoring Cards,
+3 November, https://claude.ai/artifact/GKEbRH8VvXKzbEnZGCZUgz, capabilities db and downloads; browser test 60 of 60):
+the underpinning paragraph (the science), the UMP trial (a dose with its instructions) and agmatine's interactions (a
+list of warnings), each a stretch to edit, each linking its baseline result and my round-1 results.
+
+Pull request 278, opened during the turn, is the Inner Child lane's (its real-life section), nothing for this lane. Predictions: 28 (2 in r1103a, 26 in r1103b), all AI, all right; 3 voided. Delegations (model, piece, check, outcome):
+none; the rewrite was judgment throughout.
+
+## 2026-11-03, after Joel's message of 14:52 UTC
+
+His message was his answers to the hypnosis guide's question 34 and "make sure this closer reading is also part of the general joel-articles skill"; nothing changed in this lane. Question 1 still waits on him; this lane is next. The word-for-sense read is now in `SKILL.md` with its tool, `tools/humanization/sense_read.py`. Predictions: none. Delegations (model, piece, check, outcome): none.
+
 ## 2026-11-03, after Joel's message of 13:46 UTC
 
 His message was the hypnosis guide's "33a" (the guide into his post, done), his Pattern 10 version and "oily" for "old"; nothing changed in this lane. The hypnosis guide is in his post, so this lane is next; question 1 still waits on him. Gates E331 and E332 apply here (the handoff's START HERE). Predictions: none. Delegations (model, piece, check, outcome): none.

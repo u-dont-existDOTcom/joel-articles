@@ -362,6 +362,70 @@
    "recorded_utc": "2026-11-03T13:47Z"
   },
   {
+   "turn": "2026-11-03T14:52Z",
+   "lines_of_work": [
+    "hypnosis guide",
+    "neuro de-armoring",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (the lane holds 2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); the live AGENTS.md is unchanged (blob 5160080); LESSON-INDEX changed from 54288d1 to 4f7cf82 (#464: debugging and bug repair start the lesson closeout, with a review of the causal pattern for warranted reuse; its new entry 88, bounded external work, isn't this lane's work)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 276 merged by Joel at 2026-11-03 14:38 UTC; no new issues, comments or reviews since 13:40 UTC (gh api REST); the branch fast-forwarded to main 1cac9dd7"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to the handoff notes or questions pages since this session's push 9071901c (only the merge commit since)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-03T14:56Z"
+  },
+  {
+   "turn": "2026-11-03T15:22Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (the lane holds 2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); the live AGENTS.md (blob 5160080) and LESSON-INDEX (4f7cf82) unchanged since 14:52"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 277 merged by Joel at 2026-11-03 15:22 UTC; no new issues, comments or reviews since 14:50 UTC (gh api REST); the branch fast-forwarded to main 31d072bd"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to the handoff notes or questions pages since this session's push f805e415 (only the merge commit since)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-03T15:23Z"
+  },
+  {
    "turn": "2026-11-03T16:15Z",
    "lines_of_work": [
     "healing-the-gut"
@@ -395,6 +459,43 @@
     }
    ],
    "recorded_utc": "2026-11-03T16:28Z"
+  },
+  {
+   "turn": "2026-11-03T17:48Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items in the lane (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); the live AGENTS.md (blob 5160080) unchanged; LESSON-INDEX changed 4f7cf82 to 7896422: entry 87 (owner-requested terminal GitHub handoff) is now standing for this owner in all work spanning more than one turn, so every final answer ends with one 'GH handoff:' line after the local resume lines"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 279 merged by Joel at 2026-11-03 17:48 UTC; new since 15:20 UTC: pull request 280 (Bad Trips guide, another lane's, not touched) and 278 (Inner Child, open, another lane's); no new comments or reviews (gh api REST); the branch fast-forwarded to main 49deb0cc"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to the handoff notes or questions pages since this session's push 6a03544f (only the merge commit since)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's answers file for Neuro De-Armoring Cards, 3 November (three versions: X-26 and X-84 marked passes, X-15 no comment)",
+     "outcome": "saved word for word and put into the article this turn; X-15 checked by itself; the rest of the article redone kind by kind from his versions"
+    }
+   ],
+   "recorded_utc": "2026-11-03T17:57Z"
   }
  ]
 }

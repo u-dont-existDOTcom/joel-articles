@@ -1,0 +1,48 @@
+{
+ "about": "His three versions on Neuro De-Armoring Cards, 3 November, put in by apply_answers_x1103.py",
+ "answers_file": "ANSWERS-20261103-1748.json",
+ "answers_sha256": "ff827a418e31ab971ec8e22c4e1fc1135111879ecb583ebcea680c16f08f3538",
+ "before_sha256": "a4b4e05ae5b6930519e79708f0d7dbedf5cb4f9c6158bf2efd60121501fdef0f",
+ "after_sha256": "6db92b7aff987195049b8af1f99883ec4a3f2e05e62af6a978679871c7957944",
+ "cards": {
+  "X-26": {
+   "block": 26,
+   "where": "Psychology is the Software; Biology is the Hardware., P7",
+   "his comment": "passes",
+   "before": "Neurological De-Armoring is underpinning (not redecorating). This protocol acts as a metabolic solvent—an HDAC inhibitor—that softens the neural concrete of the brainstem by modulating Glutamate and introducing Ketones (BHB). We are digging underneath the house to pour a new foundation so that, eventually, the psychological “software” updates upstairs will actually install.",
+   "his version": "Neurological De-Armoring is about fixing the underpinnings, not redecorating. It's a protocol that serves as a metabolic solvent, via HDAC inhibiton, that softens the \"concrete\" in the brainstem by using Glutamate modulation and supplementing Ketones (BHB) to allow us to dig under the house, and pour a new foundation, so we can eventually update the psychological software upstairs.",
+   "after": "Neurological De-Armoring is about fixing the underpinnings, not redecorating. It's a protocol that serves as a metabolic solvent, via HDAC inhibition, that softens the \"concrete\" in the brainstem by using Glutamate modulation and supplementing Ketones (BHB) to allow us to dig under the house, and pour a new foundation, so we can eventually update the psychological software upstairs.",
+   "typos fixed": [
+    {
+     "his": "HDAC inhibiton",
+     "now": "HDAC inhibition",
+     "why": "a dropped letter (\"inhibition\")"
+    }
+   ]
+  },
+  "X-84": {
+   "block": 84,
+   "where": "Dopamine Receptor Burnout / DAWS Pattern: Uridine Monophosphate, P4",
+   "his comment": "passes",
+   "before": "Trial: UMP 150–300 mg in the morning with food for 3–7 days. Keep omega-3s in place, especially DHA/EPA. Make sure there is enough choline from eggs, phosphatidylcholine, CDP-choline, or another tolerated choline source. Do not start UMP on the same day you start 5-HTP, agmatine, D-serine, keto, iboga, shrooms, LSD, ketamine, or any other major variable. You are trying to see whether UMP itself changes the signal.",
+   "his version": "Do a trial with 150-300mg Uridine, in the morning with food. It shouldn't take more than 3 to 7 days to get an idea of whether or not it's beneficial. Keep your Omega-3's up, especially DHA and EPA. Make sure you have sufficient Choline - from eggs, Phosphatidylcholine, CDP-choline, etc, whichever works best for you. Don't start the uridine at the same time as starting some other major variable (like 5-HTP, Agmatine, D-serine, Keto diet, Iboga, Shrooms, LSD, Ketamine, etc), since the point is to see whether uridine itself changes the signal.",
+   "after": "Do a trial with 150-300mg Uridine, in the morning with food. It shouldn't take more than 3 to 7 days to get an idea of whether or not it's beneficial. Keep your Omega-3's up, especially DHA and EPA. Make sure you have sufficient Choline - from eggs, Phosphatidylcholine, CDP-choline, etc, whichever works best for you. Don't start the uridine at the same time as starting some other major variable (like 5-HTP, Agmatine, D-serine, Keto diet, Iboga, Shrooms, LSD, Ketamine, etc), since the point is to see whether uridine itself changes the signal.",
+   "typos fixed": []
+  },
+  "X-15": {
+   "block": 15,
+   "where": "A Complete Guide to Bio-De-Armoring, P9",
+   "his comment": "",
+   "before": "Do not combine agmatine casually with opioids, kratom, clonidine/guanfacine, blood-pressure medication, nitrates, PDE-5 inhibitors, MAOIs, or complex psychiatric medication stacks without clinician review. Avoid it during pregnancy or breastfeeding, and be especially cautious with bipolar disorder, psychosis history, unstable panic, low blood pressure, kidney/liver disease, or active substance relapse risk.",
+   "his version": "Precautions/Side Effects: Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guafacine, blood pressure lowering medications, nitrates, PDE-5 inhibitors, MAOIs, or other complex “psych” stacks without having a physician competent to consider the likelihoods of problematic interactions. Not recommended for use in pregnancy or breast-feeding. Use with extreme caution in those with bipolar disorder, prior psychotic episode, unstable panic disorder, lower end blood pressure, kidney or liver issues, or those with a currently-high likelihood of relapsing in addictions.",
+   "after": "Precautions/Side Effects: Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications, nitrates, PDE-5 inhibitors, MAOIs, or other complex “psych” stacks without having a physician competent to consider the likelihoods of problematic interactions. Not recommended for use in pregnancy or breast-feeding. Use with extreme caution in those with bipolar disorder, prior psychotic episode, unstable panic disorder, lower end blood pressure, kidney or liver issues, or those with a currently-high likelihood of relapsing in addictions.",
+   "typos fixed": [
+    {
+     "his": "clonidine and/or guafacine",
+     "now": "clonidine and/or guanfacine",
+     "why": "a dropped letter in the drug's name (guanfacine, as his post spells it)"
+    }
+   ]
+  }
+ }
+}

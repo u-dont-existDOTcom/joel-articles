@@ -22,7 +22,7 @@ Every paragraph and every section reads Human in Pangram, with the meaning kept 
 
 ## Current checkpoint
 
-The baseline (batch n1102). `humanize/HUMANIZED-SO-FAR.md` is still the master, unchanged.
+His three versions (Neuro De-Armoring Cards, 3 November; his answers of 17:48 UTC) are in `humanize/HUMANIZED-SO-FAR.md` (6db92b7a), which is otherwise his post as it stands; his agmatine paragraph by itself reads Human Written. Round 2 his way (`humanize/fix-20261103/r2his/`): the science reached 19.8% AI; the warnings and doses read 100% AI every way tried (gate E336), so question 2 asks him how those are done. Nothing has been changed in his post yet.
 
 ## Remaining
 
@@ -30,12 +30,12 @@ The AI windows of every section, rewritten and checked; his cards; his post upda
 
 ## Blockers / unresolved
 
-None.
+Question 2 (`humanize/OWNER-QUESTIONS.md`): how the warnings and dose paragraphs are done. The science goes on meanwhile.
 
 ## Evidence / artifacts
 
-`humanize/fix-20261102/baseline/RESULTS.md` (every result with its public link), `humanize/pangram-ledger.jsonl`, `humanize/STATUS.md`.
+`humanize/fix-20261102/baseline/RESULTS.md`, `humanize/fix-20261103/r1/b/RESULTS.md` and `humanize/fix-20261103/r2his/RESULTS-ROUND2.md` (every result with its public link), `humanize/pangram-ledger.jsonl`, `humanize/STATUS.md`.
 
 ## Next safe action
 
-`humanize/HANDOFF-neuro-de-armoring.md`, Next step: the sections that read 100% AI first.
+`humanize/HANDOFF-neuro-de-armoring.md`, Next step: his answer to question 2 decides the warnings and doses; meanwhile the science sections his way (gates E335 and E336), each checked before it reaches him as cards. The master is unchanged (his post as it stands); `humanize/HUMANIZED-SO-FAR.md` has his three versions in.

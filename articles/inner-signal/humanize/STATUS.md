@@ -1,5 +1,52 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-11-03, after Joel's answers of 17:48 UTC (his three neuro de-armoring examples)
+
+Nothing changed in this lane. Gates E335 and E336 (the neuro lane's round 2) apply here too, and tells_lint.py has O61 (a
+dose as a label and its spec). Predictions: none. Delegations (model, piece, check, outcome): none.
+
+## 2026-11-03, after Joel's message of 15:22 UTC: no fifth check
+
+His message (`../../neuro-de-armoring/humanize/fix-20261103/joel-20261103-1522-message.txt`): "no need to recheck i'm sure it's
+fine, move onto the next article". So no fifth free check of the whole guide; the guide stays as it is in his post
+(d67ef820). The work moved to the neuro de-armoring lane. His answer there also retires Emulate in every lane (gate E333).
+Predictions: none. Delegations (model, piece, check, outcome): none.
+
+## 2026-11-03, after Joel's message of 14:52 UTC: his question 34 answers in the guide and his post; the closer reading in the joel-articles skill
+
+His message (`fix-20261103/q34/joel-20261103-1452-message.txt`): his answers to question 34 and "make sure this closer
+reading is also part of the general joel-articles skill". **The mailbox first** (`state/MAILBOX.json`, "2026-11-03
+14:52"): pull request 276 merged by him at 14:38 UTC; LESSON-INDEX in universal-dev-architecture changed (#464: debugging
+and bug repair start the lesson closeout, with a review of the causal pattern for warranted reuse); nothing else new.
+
+**His answers** (`fix-20261103/q34/apply_answers_q34.py`, APPLIED-Q34.json, read record; comparison gate PASS; 010b9fc3 to
+d67ef820): 34.1 kept ("ok i've heard many people say playing asleep, you can play anything..."); 34.2 his sentence, "That
+hand movement grounds and aligns the distractible mind."; 34.3 "especially when the questions led to them (which NLP
+tends to do)"; 34.4 kept; 34.5 "coordination".
+
+**In his post** (`fix-20261103/live-q34/`, record_live.py has every step): the public post first (POST-BEFORE.json, the
+same body as after 33a); substack_merge.py (ARCHIVAL-20261103b.html, PASS); `../live/make_update.py`, which now takes
+--old, --new and --out (its default run still makes the 33a plan byte for byte), with --old the archival HTML put in at
+33a (UPDATE-PLAN.json: three paragraphs), pushed at 38f32975 and fetched in the tab by its SHA-256; update.js (all 720
+nodes the same as at 33a; three steps; 720 nodes after, the six native blocks the same nodes, the same 38 links);
+dispatch.js; the draft saved with his three changes; Update, then "Update now" (the publish call answered 200). The
+subtitle already had the day. The public API had the new body at once this time. LIVE-CHECK-20261103b.json PASS (the
+same seven native-block differences as before).
+
+**The closer reading in the joel-articles skill**: `SKILL.md`, "Word-for-sense read before publication"; the general tool
+`tools/humanization/sense_read.py` (make: parts of about 10,000 words with planted errors of the "oily" kind, CANARIES.json
+beside the parts, BRIEF.md from `sense_read_brief.md` with the article's style notes, TASKS.json with each reader's task;
+score: recall on the planted errors, the blocks each reader left off its list, FINDINGS-RAW.json; nonwords); AGENTS.md
+names it, `docs/FIXING-AN-ARTICLE.md` section 5 item 7 points to it, E331 says so, and `tests/test_sense_read.py` (9
+tests) checks the tool and that the skill, the agent guide and the checklist name it and that the readers' brief never
+mentions planting.
+
+Predictions: none (no Pangram check). Delegations (model, piece, check, outcome): Sonnet, one agent, the general tool,
+its brief and its tests from a written specification (check: the lead session read the code and the brief, ran the 8
+tests and its smoke run on the guide; outcome: kept, with two confusable pairs dropped, farther/further and
+ensure/insure, because many writers use either, so a planted swap there might be no error; it ran one read-only git
+status against its brief).
+
 ## 2026-11-03, after Joel's message of 13:46 UTC: 33a, the guide in his post; his E-523 and "old" in; the guide read word by word for sense; question 34
 
 His message (`fix-20261103/c1103b/joel-20261103-1346-message.txt`): "33a", his answers to Hypnosis Guide Cards,

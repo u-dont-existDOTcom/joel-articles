@@ -166,6 +166,16 @@ Never show Draft 0 by default. After drafting, audit the literal completed prose
 
 The cold audit is not a substitute for the preservation proof. Preservation units and authorized deltas are checked mechanically/explicitly before detector eligibility; the cold audit asks whether the preserved material is still coherent, well placed, and good writing.
 
+## Word-for-sense read before publication
+
+**Owner rule (Joel, 2026-11-03).** On "they get oily very quickly" (for "old") in his hypnosis guide: "how are you not catching this?"; then "make sure this closer reading is also part of the general joel-articles skill". A real word where another belongs passes spell checks, Pangram, the claim checks and every check of whose words a sentence is. Words carried over from Joel's published text count as his even where an AI tool drafted them, and "oily" came from there. So before an article, guide or large section goes into his post, and after any large batch of rewrites, read every word for sense (gate E331 in `docs/HUMANIZATION-GATE.md`; `docs/FIXING-AN-ARTICLE.md` section 5):
+
+1. `python3 tools/humanization/sense_read.py make MASTER.md OUTDIR --style STYLE.md` cuts the article into parts of about 10,000 words and plants a few errors of the same kind in each ("deceptive" for "receptive"). The planted list goes into `CANARIES.json`, beside the parts, never in them. STYLE.md is the article's own "what is not wrong here": his voice, his coinages (he invents words on purpose), the subject's terms.
+2. Give each fresh reader, one part each, only its task line from `TASKS.json`: the brief and its part file, never the folder. The brief (`tools/humanization/sense_read_brief.md`) asks of every content word whether it is the word a careful writer meant, then whether the sentence can be said plainly. It never says that errors were planted.
+3. `sense_read.py score OUTDIR`. A part whose reader missed a planted error or left blocks off its read list isn't trusted: read it again with a new reader. Exit 0 means the read is complete and every planted error was found.
+4. `sense_read.py nonwords MASTER.md --known HIS-TEXTS` is the mechanical net under the read, for typos and run-together words.
+5. Read every finding in `FINDINGS-RAW.json` in place and trace whose words it is. Fix a slip in model-written text with the fewest words. A slip in Joel's own words, his published text included, goes to him with the smallest fix and a recommendation, and his answer goes in as he writes it. Record each finding's fate and the recall with the article (the first full record: `articles/inner-signal/humanize/fix-20261103/nonsense/FINDINGS.md`).
+
 ## Relational-thought generation for humanization
 
 For Joel humanization generation, do **not** preallocate one sentence per protected function or assign fixed sentence jobs such as `S1=function A, S2=function B...`. That representation itself can create the model-shaped instructional sequence later criticized as one-function-per-sentence marching.

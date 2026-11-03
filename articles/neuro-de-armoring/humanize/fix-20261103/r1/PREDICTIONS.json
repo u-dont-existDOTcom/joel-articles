@@ -1,0 +1,106 @@
+{
+ "r1-S01a": {
+  "chance": 0.25,
+  "why": "his disclaimers kept close (DMSO, electrolytes, ethnobotanicals); the isolation warning said in plain sentences, but warnings stacked one after another"
+ },
+ "r1-S01b": {
+  "chance": 0.15,
+  "why": "long contraindication lists (his content, kept), the agmatine and 5-HTP warnings back to back"
+ },
+ "r1-S02a": {
+  "chance": 0.35,
+  "why": "second try: the Human windows of the first try kept, the AI ones rewritten (\"I take it literally\", the motherboard line without its explanation)"
+ },
+ "r1-S02b": {
+  "chance": 0.3,
+  "why": "second try: his two short Human sentences back, the metaphors cut down to the house, the closer folded"
+ },
+ "r1-S03a": {
+  "chance": 0.25,
+  "why": "the red line in plain sentences and the repeat cut from B; the hedged paragraph is his and long"
+ },
+ "r1-S03b": {
+  "chance": 0.2,
+  "why": "mechanism prose (NMDA, GluD, D-cycloserine), dense but plainer, labels gone"
+ },
+ "r1-S03c": {
+  "chance": 0.35,
+  "why": "his Lock/Repair lines (one window read Human High) with the governor and conflict lines plainer"
+ },
+ "r1-S04a": {
+  "chance": 0.2,
+  "why": "the Problem/Fix labels gone and the self-answered question a statement; still claim by claim"
+ },
+ "r1-S04b": {
+  "chance": 0.25,
+  "why": "short fuel and save-button paragraphs, the labels gone"
+ },
+ "r1-S04c": {
+  "chance": 0.3,
+  "why": "the game's steps, his, with the Tetris line said plainly"
+ },
+ "r1-S05a": {
+  "chance": 0.2,
+  "why": "PS: labels gone, Scott kept, the evidence caveat plainer; numbers dense"
+ },
+ "r1-S05b": {
+  "chance": 0.2,
+  "why": "the over-suppression signs and the rule of thumb, then the three-tools list"
+ },
+ "r1-S06a": {
+  "chance": 0.15,
+  "why": "uridine: who it is for, with the DAWS literature, and the evidence paragraph with three study links"
+ },
+ "r1-S07a": {
+  "chance": 0.15,
+  "why": "5-HTP: the same evidence-and-stop-signs shape as uridine"
+ },
+ "r1-S07b": {
+  "chance": 0.3,
+  "why": "the ketone decision and strategies, nearly his"
+ },
+ "r1-S08a": {
+  "chance": 0.25,
+  "why": "potassium said in sentences, the menu list kept"
+ },
+ "r1-S08b": {
+  "chance": 0.2,
+  "why": "the menu items and the glutamate shield items, lists of doses"
+ },
+ "r1-S08c": {
+  "chance": 0.2,
+  "why": "agmatine trial, fit, cycle and timing rules (lists)"
+ },
+ "r1-S08d": {
+  "chance": 0.2,
+  "why": "magnesium, the dynorphin bridge items, 5-HTP item (lists)"
+ },
+ "r1-S09a": {
+  "chance": 0.25,
+  "why": "scenario A said in sentences, the Perry steps"
+ },
+ "r1-S09b": {
+  "chance": 0.35,
+  "why": "his D-serine timing line (Human High) with the warning and scenarios B and C"
+ },
+ "r1-S09c": {
+  "chance": 0.3,
+  "why": "the shower steps and the red line, his iboga lines"
+ },
+ "r1-S10a": {
+  "chance": 0.3,
+  "why": "the timeline weeks 1-2, mostly his protocol lines"
+ },
+ "r1-S10b": {
+  "chance": 0.25,
+  "why": "weeks 3-5 prose joined, the UMP and 5-HTP trial lines"
+ },
+ "r1-S10c": {
+  "chance": 0.25,
+  "why": "rescue lines, week 8, and the Aftermath said without its paired close"
+ },
+ "r1-S06b": {
+  "chance": 0.2,
+  "why": "uridine: Scott, the trial, the stop signs and the psychedelic caution"
+ }
+}

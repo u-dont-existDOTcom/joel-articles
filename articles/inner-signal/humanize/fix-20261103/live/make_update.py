@@ -13,7 +13,10 @@ SHA-256; the native blocks by type), so nothing he changed in the draft since is
 transaction and checks the result node by node against today's 720 blocks before anything is dispatched.
 
   python3 articles/inner-signal/humanize/fix-20261103/live/make_update.py
+  python3 articles/inner-signal/humanize/fix-20261103/live/make_update.py --old LAST-ARCHIVAL.html --new ARCHIVAL.html \\
+      --out DIR/UPDATE-PLAN.json      # a later update: OLD is the archival HTML put in last time
 """
+import argparse
 import difflib
 import hashlib
 import html
@@ -121,8 +124,15 @@ def sig(block):
 
 
 def main():
-    old = split(OLD.read_text(encoding='utf-8'))
-    new = split(NEW.read_text(encoding='utf-8'))
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--old', type=pathlib.Path, default=OLD, help='the archival HTML the editor took last time')
+    ap.add_argument('--new', type=pathlib.Path, default=NEW, help='the archival HTML to put in now')
+    ap.add_argument('--out', type=pathlib.Path, default=HERE / 'UPDATE-PLAN.json')
+    a = ap.parse_args()
+    root = HERE.parents[4]
+    OLDF, NEWF = a.old.resolve(), a.new.resolve()
+    old = split(OLDF.read_text(encoding='utf-8'))
+    new = split(NEWF.read_text(encoding='utf-8'))
     assert 'fdb94728' in old[TOP_IMAGE] and 'fdb94728' in new[TOP_IMAGE]
     assert old[:TOP_IMAGE + 1] == new[:TOP_IMAGE + 1]
     ed_old = old[:TOP_IMAGE] + old[TOP_IMAGE + 1:]      # the editor's nodes now
@@ -135,10 +145,10 @@ def main():
             assert not native(b), 'a native block in a changed range: %s' % b[:120]
         ops.append({'e1': i1, 'e2': i2, 'n': j2 - j1, 'html': ''.join(ed_new[j1:j2])})
     plan = {'about': __doc__.split('\n\n')[0].replace('\n', ' '),
-            'old': {'file': str(OLD.relative_to(HERE.parents[4])), 'sha256': hashlib.sha256(OLD.read_bytes()).hexdigest()},
-            'new': {'file': str(NEW.relative_to(HERE.parents[4])), 'sha256': hashlib.sha256(NEW.read_bytes()).hexdigest()},
+            'old': {'file': str(OLDF.relative_to(root)), 'sha256': hashlib.sha256(OLDF.read_bytes()).hexdigest()},
+            'new': {'file': str(NEWF.relative_to(root)), 'sha256': hashlib.sha256(NEWF.read_bytes()).hexdigest()},
             'base': [sig(b) for b in ed_old], 'after': [sig(b) for b in ed_new], 'ops': ops}
-    (HERE / 'UPDATE-PLAN.json').write_text(json.dumps(plan, ensure_ascii=False, indent=0) + '\n', encoding='utf-8')
+    a.out.write_text(json.dumps(plan, ensure_ascii=False, indent=0) + '\n', encoding='utf-8')
     print('editor nodes', len(ed_old), '->', len(ed_new), '| changed ranges', len(ops),
           '| nodes out', sum(o['e2'] - o['e1'] for o in ops), '| in', sum(o['n'] for o in ops),
           '| html', sum(len(o['html']) for o in ops), 'chars')

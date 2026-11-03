@@ -18,6 +18,13 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-11-03, after Joel's answers of 17:48 UTC (his three neuro de-armoring examples)**: nothing changed in this lane. Two lessons from them apply here too: E335 (his rewrites changed how each sentence is built, not the labels or the metaphors; tells_lint.py O61 fails a dose said as a label and its spec) and E336 (where my rewording of dense warnings kept reading AI, only his own wording read Human, so such stretches go to him as stretches to edit). The fidelity check now reads his recorded wording as the post's ("owner_wording") and "Don't" as "Do not".
+- **2026-11-03, after Joel's message of 15:22 UTC ("no need to recheck i'm sure it's fine, move onto the next article")**: no fifth free check; the guide is done and in his post (d67ef820). The work moved to the neuro de-armoring lane. Emulate is retired in every lane (gate E333).
+- **2026-11-03, after Joel's message of 14:52 UTC (his answers to question 34, and "make sure this closer reading is
+  also part of the general joel-articles skill"): his answers in the guide and his post; the closer reading is in
+  SKILL.md with its tool.** The guide is HUMANIZED-SO-FAR.md d67ef820 (762 blocks), live in post 202810155
+  (`fix-20261103/live-q34/LIVE-CHECK-20261103b.json` PASS). The read: `tools/humanization/sense_read.py` and SKILL.md's
+  "Word-for-sense read before publication". Nothing waits on him but the merge. See the Next step.
 - **2026-11-03, after Joel's message of 13:46 UTC ("33a", his E-523, and "oily" for "old"): the guide is in his post;
   the guide read word by word for sense; question 34.** The guide is HUMANIZED-SO-FAR.md 010b9fc3 (762 blocks), and his
   post 202810155 has it (`fix-20261103/live/LIVE-CHECK-20261103.json` PASS; subtitle "Last update: Nov 3, 2026,
@@ -244,9 +251,8 @@ sentence from a sample of the paragraph and keep his lines and links (Nibbāna's
 
 ## Waiting on Joel
 
-The guide: **question 34** (five spots in his own words that the word-by-word read questioned; a: change 34.3 and 34.5,
-keep the rest; b: keep all; c: his words). Earlier: his message of 2026-11-03 13:46 UTC ("33a", E-523, "old") is in, and
-the guide is in his post.
+The guide: nothing (no open questions); pull request 277 to merge. Earlier: his answers to question 34 (2026-11-03
+14:52 UTC) are in the guide and his post.
 
 Nibbāna (`articles/nibbana/humanize/OWNER-QUESTIONS.md`): no open questions; his paste with the clipboard helper (the
 23:40 turn's file, `Nibbana-COPY-TO-SUBSTACK-20261024b.html`; N5, the meme, he decides as he pastes).
@@ -333,7 +339,22 @@ The queue he set on 2026-09-28 (`articles/inner-child-therapy/experiments/emulat
 Nibbāna, added on 2026-10-22, reads Human; its helper is with him. He chose the guide's clarity read first (01:01 UTC:
 "finish the guide first"); neuro de-armoring starts after it.
 
-## Next step (2026-11-03, after Joel's message of 13:46 UTC: the guide in his post; question 34 waits on him)
+## Next step (2026-11-03, after Joel's message of 14:52 UTC: his answers in the guide and his post; nothing waits on him)
+
+Done (STATUS.md's entry for 2026-11-03 14:52 has every file and number). The guide: HUMANIZED-SO-FAR.md d67ef820 (762
+blocks), live in his post 202810155 with the subtitle "Last update: Nov 3, 2026, v. 7.0".
+
+Next:
+1. **Nothing open on the guide.** If he sends more changes: put them in with a script that records each, then his post
+   as `fix-20261103/live-q34/` did (`../live/make_update.py --old` the archival HTML last put in, that is
+   `fix-20261103/live-q34/ARCHIVAL-20261103b.html`; push the plan; update.js and dispatch.js; the subtitle's date when the
+   day has changed; Update and "Update now"; the read-back until it has the new text, E332). The changes since the fourth
+   free check (his E-157, E-523 and question 34 answers, "old", our six slip fixes) haven't been through Pangram in the
+   whole guide; he said no fifth check is needed (2026-11-03 15:22 UTC: "no need to recheck i'm sure it's fine").
+2. **The next article in his queue**: neuro de-armoring, whose question 1 waits on him (its own lane). Before it goes
+   into his post: SKILL.md's "Word-for-sense read before publication" with `tools/humanization/sense_read.py`.
+
+## Earlier next step (2026-11-03, after Joel's message of 13:46 UTC: the guide in his post; question 34 waits on him)
 
 Done (STATUS.md's entry for 2026-11-03 13:46 has every file and number). The guide: HUMANIZED-SO-FAR.md 010b9fc3 (762
 blocks), live in his post (post 202810155, behind hypnosis.u-dont-exist.com).
