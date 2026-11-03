@@ -32,7 +32,7 @@ These came from community sections 1 and 2 and apply to every rewrite of his wor
 - **Wording can flex when the meaning stays (Joel, 2026-10-01).** The preservation units are meaning, not wording.
 - **A question about a passage shows the passage (Joel, 2026-10-01).** Twice he had to go and find what a question was about: "you didn't give me the context, let me go check" and "you didn't give me the block to look at". Quote the passage in the question, or put the question on the side-by-side page beside it. This holds while a section is still in progress, and it holds for paragraph numbers: a reply that names "P9 to P13" sends the page that shows them, marked as work in progress (Joel, 2026-10-09 03:33: "i have no idea what p9 to p13 are because you didn't include the in-turn context file that you used to?"). I had held section 9's page back because step 9 says to show prose only once every gate passes; a question is the exception. Say what a proposal would do to the paragraph in plain words: "anchor each point in a section 1 community" read to him as moving the points to other sections.
 - **Don't ask what the rules already decide.** "Can the wording flex if the meaning stays?" got "that's already in the humanization guidelines, right?" Check the gate first, and ask only about the case it leaves open.
-- **Keep his exact characters (Joel, 2026-10-02).** His own paragraphs go in with the characters he typed: straight or curly apostrophes and quotes, dashes, spacing. His section 3 P9 read 100% Human with his straight apostrophes ("who've", "they're") and 100% AI with the same words curled; my normalizing them was the only difference. His P7 passed both ways, so it isn't every paragraph, but nothing is gained by changing them. The ledger checks this with `must_contain_exact` (`tools/humanization/check_owner_edits.py`), which leaves quotes and apostrophes as they are.
+- **Keep his exact characters (Joel, 2026-10-02), with one standard swap since 2026-11-03 (E337 (gut)).** His own paragraphs go in with the characters he typed: his straight apostrophes and quotes, his dashes, his spacing. The exception is E337 (gut)'s swap, now standard in every article: curly quote marks become straight and each em dash becomes his spaced en dash (`tools/humanization/typography_swap.py`). His section 3 P9 read 100% Human with his straight apostrophes ("who've", "they're") and 100% AI with the same words curled; my normalizing them was the only difference. His P7 passed both ways, so it isn't every paragraph, but nothing is gained by changing them. The ledger checks this with `must_contain_exact` (`tools/humanization/check_owner_edits.py`), which leaves quotes and apostrophes as they are.
 - **A rewrite keeps the article's stance, checked against the whole article (Joel, 2026-10-02 00:52).** "Emulate changed 'without pretending that people arrive emotionally finished' into 'where people don't come in pre-healed' which is nearly the opposite of what i want. I DO want people to come in largely pre-healed, which is why I talk about that in the article. ... Did the reviewers not look at the article?" They hadn't, in the way that mattered: the blind trace compared each paragraph only with its own published version (it marked the change as a shift, and I let it through); the cold read saw only the section; the grounding reviewer had the whole article and missed it; and the stance ledger in step 1 had been skipped. So step 1's ledger is written before drafting, and every candidate gets the whole-article stance check before any Pangram call (step 4).
 - **"I want" as an opener for his opinion (Joel, 2026-10-02).** "'I want' is generally banned as a way to introduce my opinion, as it sounds very AI. But in this article it does work because we are talking about a community that I want." That is AGENTS.md's significance-staging rule and its exception (his own wish is the subject). In his own rewrite of that paragraph he still chose "I dream of".
 - **A quip that carries a point keeps the point (Joel, 2026-10-01).** Not every quip needs saving: an empty one can just go. Joel, 18:19: "we don't need to always save quips, but this quip was really meaningful and important, not like something stupid like 'it still matters on Tuesday'". The 1972 line said that forming a village had stopped sounding like a hippie leftover and started sounding like a backup plan. Said plainly as "sounded like a backup plan", it lost the first half. The trace had marked the drop, and I called it allowed. Joel put it back: "Suddenly, forming a village sounded like a good backup plan, not just a hippie utopian whim." So before cutting a quip, say what it claims; if the article needs that claim, the plain version carries all of it, both sides of a contrast included.
@@ -2134,7 +2134,59 @@ Sentence by sentence: `articles/neuro-de-armoring/humanize/fix-20261103/examples
   ...ing") fail his X-15, whose first sentence read Human (High), so on a protocol's required lists of drugs or symptoms
   those flags don't say what to fix.
 
-(The Inner Child lane's turn-116 lessons, written after them, are E337 and E338 (Inner Child), near the top. The next lesson in either lane is E339.)
+## What the gut article taught (2026-11-03, after Joel's message of 22:02 UTC)
+
+His message and his batch-1 page's answers, word for word: `articles/healing-the-gut/experiments/t04-answers/`.
+
+- **E337 (gut). The typographic swap is standard: straight quote marks, and his spaced en dash for each em dash.** Joel, 22:02
+  UTC, on the two measurements below: "yes make that swapping standard i ams ure i told you before to do that." On Pangram
+  4.1, changing only the quote marks of census paragraphs (pangram-humanization-lab, `state/experiments/quote-style-41-20261103/`,
+  PR #195, preregistered and replicated) improved 40 of 113 borderline paragraphs (Mixed, or Human with a window below
+  High) and hurt 4. It moved 2 of 25 AI paragraphs to 100% Human, and it barely touched paragraphs already Human at High.
+  Changing each em dash to the spaced en dash his own Human-at-High paragraphs use (`state/experiments/dash-style-41-20261103/`,
+  PR #196) improved 6 of 17 borderline paragraphs and 3 of 30 AI ones, and hurt none. So in every article, before any
+  rewording and before any check, run `tools/humanization/typography_swap.py` on the text (with `--html` on a post's HTML: it changes only the text
+  between tags). Curly marks become straight, and an em dash becomes " – " (an unspaced en dash between two digits). His
+  own straight marks stay as he typed them, since curling them made 2 of 20 read worse and none better. Where a check
+  shows a swapped paragraph reading worse than it did before (4 of 113 did, 3 of them in the neuro de-armoring article),
+  that paragraph keeps its original marks, with the two results linked. tells_lint.py's O62 and O63 fail a curly mark
+  and an em dash (registry W114 and W115).
+- **E338 (gut). Gemini's protocol text is compressed; his fix uncompresses it, and that read Human where my rewordings and my
+  shortenings didn't.** Phase 1 of the gut protocol read AI in three faithful versions of mine (9 to 10% human), and in
+  two shortened proposals for the next stretches (0%). His rewrite of my third version (his card H-P1, four tries, the
+  last nearly all Human at High) expanded each compressed piece. A fragment became a full question ("No gag reflex?" to
+  "Are you missing your gag reflex?"; "Then bile." to "Now let's have a look at your bile function."). Each term got a
+  plain gloss beside it ("fight or flight mode (which in medical lingo is called "sympathetic dominance")"; "your bile is
+  stagnant (not flowing well)"). Each threshold was made concrete for a reader ("Do you burp extra (not just like one
+  little burp) after fatty meals?"; "Do your stools float (like it's hard to flush)"). An unexplained name got what it
+  is and where to see it ("the Salamander technique (which looks like some kind of yoga, see a video demo here)";
+  "Beet Flow (an extract of beet greens)"), and a clipped phrase was said in full ("the mechanics" to "the system
+  mechanics that are foundational to gut function"; "any killing protocol" to "any pathogen killing protocol"). His
+  comment: "here's my 1st try where i basically tried to clarify and uncompress... nothing flipped pangram (maybe you
+  would have given up after all this, but i know what works)", and on the third, "the changes i made also made that para
+  high confidence so they are especially important to note". So before asking him about a dense protocol stretch, I make
+  this pass myself, sentence by sentence. Fragments become full sentences, each term a reader may not know gets a plain
+  gloss in brackets, each threshold gets its everyday sign, and each clipped phrase is said in full. A gloss that only
+  defines a term is meaning-neutral. A gloss that adds a fact the article doesn't state (what a product is made of, a
+  video) is his to give: I mark it as a question on the card, never write it in as fact. Shortening a protocol is never
+  the fix: he has said never to take out something important to pass Pangram, and both shortened gut proposals read 0%
+  human.
+- **E339. Every lane works from main, and its shared changes go back to main the same turn.** Joel, 22:02 UTC: "i want
+  to make sure each lane is feeding into and reading from the same place so i don't duplicate work. like that next button
+  issue idk why you made the next button code yourself, it was already working in another lane." The gut lane branched
+  from main at 1cac9dd7 and never merged it again. It pushed with plain `git push`, not `tools/humanization/lane_push.py`,
+  and opened no pull request, and it kept no mailbox record, so main's E333 to E336 (the neuro de-armoring lessons on
+  dense protocols, which batch 2 then re-learned at a cost of checks) never reached it. Its own shared fixes (the marking page's
+  Next order, its browser test) reached no other lane. Meanwhile the bad-trips lane had changed the same browser test's
+  Next check the same day. So, in every lane, every turn: (1) the mailbox check, recorded (`lane_mailbox.py`); (2) merge
+  `origin/main` into the lane before any other work, and read what main's gate and tools gained since the lane's last
+  merge; (3) before changing a shared file (`tools/`, `docs/`, `AGENTS.md`, `SKILL.md`), look at the open lane pull
+  requests for the same file (`gh api repos/u-dont-existDOTcom/joel-articles/pulls`, then each one's files) and build on
+  their change instead of beside it; (4) push with `lane_push.py --mailbox TURN --pr`, so the lane's pull request
+  carries its shared changes to main. A lesson that applies beyond the article goes into the shared files in the same
+  turn (AGENTS.md), and the pull request is how it reaches the other lanes.
+
+(The Inner Child lane's turn-116 lessons, written at the same time, are E337 and E338 (Inner Child), near the top. This section's E337 and E338 keep their numbers too, because this lane's records cite them: cite them as "E337 (gut)" and "E338 (gut)". The next lesson in either lane is E340.)
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 

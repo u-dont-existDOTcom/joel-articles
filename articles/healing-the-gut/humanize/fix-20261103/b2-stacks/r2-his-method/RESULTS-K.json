@@ -1,0 +1,106 @@
+{
+ "b2-ST-K1": {
+  "sha256": "43fd16117f03a6bbb72652b39cd87daa4de2c38e3f01597df6249a840b0b1382",
+  "words": 51,
+  "prediction_short": "Human",
+  "fraction_human": 1.0,
+  "fraction_ai": 2.403977176243471e-20,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/47470e70-14e0-430b-b643-3c8b8e2d6e49",
+  "windows": [
+   {
+    "label": "Human Written",
+    "confidence": "High",
+    "words": 55,
+    "text": "Optional Ready-Made Gut Stacks\nI don't think there's one supplement stack that heals everyone's gut. Whatever you take, the order matters. Get your digestion working mechanically first, then reset your diet and your gut motility, and only go after bugs and parasites with antimicrobials if you still have symptoms after that."
+   }
+  ]
+ },
+ "b2-ST-K2": {
+  "sha256": "a5416252fb04997f69f733b04c507673194bd3f00512104d840185869a44704f",
+  "words": 67,
+  "prediction_short": "AI",
+  "fraction_human": 1.1440023399700294e-06,
+  "fraction_ai": 0.9999988675117493,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/75704e92-01ac-4bad-a5a0-964eeef47a71",
+  "windows": [
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "words": 73,
+    "text": "But some people want a ready-made starting point so they don't have to buy every ingredient separately. If that's you, I'd look for a \"repair and rebuild\" stack that has a probiotic you tolerate well (or a probiotic system), something prebiotic that helps your gut make short-chain fatty acids (butyrate especially), and nutrients for the gut lining like glutamine, zinc carnosine, colostrum, mucosal-support herbs and so on."
+   }
+  ]
+ },
+ "b2-ST-K3": {
+  "sha256": "1c42bf01a8ccdb65b32722c2cabdc30e5384f13cbc65aa5dcc7a32129d63b6c6",
+  "words": 88,
+  "prediction_short": "Mixed",
+  "fraction_human": 0.6178188920021057,
+  "fraction_ai": 0.3821811079978943,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/2a5a9a87-26b2-4215-b7a9-428a6b323ef9",
+  "windows": [
+   {
+    "label": "Human Written",
+    "confidence": "High",
+    "words": 49,
+    "text": "Gemini suggested these kits to me, but so far they're the best ones I've seen, tho I haven't used them myself, so check the reviews. Microbiome Labs Total Gut Restoration covers all three of those (probiotic, prebiotic and mucosal support), so that's the general one."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "Low",
+    "words": 7,
+    "text": " Is it mainly leaky gut for you?"
+   },
+   {
+    "label": "Human Written",
+    "confidence": "Low",
+    "words": 2,
+    "text": " Then Dr."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "words": 8,
+    "text": " Ruscio's Leaky Gut Support Kit makes sense."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 29,
+    "text": " And Designs for Health GI Revive is one of the more complete gut-lining formulas, but on its own it's just the repair part of a gut protocol."
+   }
+  ]
+ },
+ "b2-ST-K4": {
+  "sha256": "8597f4f68382be8bfd48557d3a42a9c7fb4ea4e578418b00ba36f7d99404b125",
+  "words": 62,
+  "prediction_short": "Human",
+  "fraction_human": 0.9999956488609314,
+  "fraction_ai": 4.332628122938331e-06,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/0abcd00f-c018-433b-ba64-d0f2a2ff4e59",
+  "windows": [
+   {
+    "label": "Human Written",
+    "confidence": "Low",
+    "words": 27,
+    "text": "I wouldn't start everyone off on the general \"gut cleanse\" stacks either, the ones built around oregano oil, wormwood, black walnut, berberine or other antimicrobial herbs."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "Medium",
+    "words": 21,
+    "text": " Those are for later (Phase 3), once you have more reason to suspect overgrowth, parasites, H. pylori or something else specific."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "High",
+    "words": 15,
+    "text": " (My own advice is different for H. pylori, where berberine works well: see Parasites, above.)"
+   }
+  ]
+ }
+}

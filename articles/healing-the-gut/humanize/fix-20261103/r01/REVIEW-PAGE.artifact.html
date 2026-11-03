@@ -1,0 +1,942 @@
+<title>Gut Article r01</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+:root{
+  --bg:#f6f4ef;--paper:#fffdfa;--ink:#1e2227;--muted:#5d646d;--line:#dcd5c8;--soft:#efebe3;--head:#fffdfaee;
+  --link:#0b5cad;--focus:#2458a6;
+  --t-reread:#1d4ed8;--t-reread-bg:#dbe7fe;
+  --t-structure:#6d28d9;--t-structure-bg:#ece6fd;
+  --t-caveat:#c2410c;--t-caveat-bg:#ffe8d5;
+  --t-repeat:#a16207;--t-repeat-bg:#fdf0c4;
+  --t-innerchild:#15803d;--t-innerchild-bg:#d9f5e2;
+  --t-typo:#be123c;--t-typo-bg:#ffe1e7;
+  --t-cut:#a21caf;--t-cut-bg:#fae8ff;
+  --t-ask:#0f766e;--t-ask-bg:#d5f5ef;
+  --ok:#15803d;--ok-bg:#dcf5e3;--no:#475569;--no-bg:#e3e8ef;--rev:#6d28d9;--rev-bg:#ece6fd;--pend:#b42318;--pend-bg:#fde4e1;
+  --del-bg:#fbd9d5;--del-ink:#7a1d12;--ins-bg:#d4f2dc;--ins-ink:#0f4d24;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141619;--paper:#1c1f23;--ink:#e7e4de;--muted:#a2a8b1;--line:#363a42;--soft:#24282d;--head:#1c1f23ee;
+  --link:#7fb2ff;--focus:#8ab4ff;
+  --t-reread:#7aa7ff;--t-reread-bg:#1e3157;
+  --t-structure:#b79cff;--t-structure-bg:#33295a;
+  --t-caveat:#ffa66b;--t-caveat-bg:#4d2c17;
+  --t-repeat:#f0c45a;--t-repeat-bg:#45391a;
+  --t-innerchild:#6fdc95;--t-innerchild-bg:#173d27;
+  --t-typo:#ff8aa3;--t-typo-bg:#4f1d2a;
+  --t-cut:#f0abfc;--t-cut-bg:#4a1d4f;
+  --t-ask:#5eead4;--t-ask-bg:#123f3b;
+  --ok:#6fdc95;--ok-bg:#173d27;--no:#b6c0cf;--no-bg:#2c333d;--rev:#b79cff;--rev-bg:#33295a;--pend:#ff8f84;--pend-bg:#4a1f1c;
+  --del-bg:#4f2421;--del-ink:#ffc9c2;--ins-bg:#173d27;--ins-ink:#c4f5d3;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#141619;--paper:#1c1f23;--ink:#e7e4de;--muted:#a2a8b1;--line:#363a42;--soft:#24282d;--head:#1c1f23ee;
+  --link:#7fb2ff;--focus:#8ab4ff;
+  --t-reread:#7aa7ff;--t-reread-bg:#1e3157;
+  --t-structure:#b79cff;--t-structure-bg:#33295a;
+  --t-caveat:#ffa66b;--t-caveat-bg:#4d2c17;
+  --t-repeat:#f0c45a;--t-repeat-bg:#45391a;
+  --t-innerchild:#6fdc95;--t-innerchild-bg:#173d27;
+  --t-typo:#ff8aa3;--t-typo-bg:#4f1d2a;
+  --t-cut:#f0abfc;--t-cut-bg:#4a1d4f;
+  --t-ask:#5eead4;--t-ask-bg:#123f3b;
+  --ok:#6fdc95;--ok-bg:#173d27;--no:#b6c0cf;--no-bg:#2c333d;--rev:#b79cff;--rev-bg:#33295a;--pend:#ff8f84;--pend-bg:#4a1f1c;
+  --del-bg:#4f2421;--del-ink:#ffc9c2;--ins-bg:#173d27;--ins-ink:#c4f5d3;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-padding-top:120px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+button{font:inherit;color:inherit;cursor:pointer}
+.t-reread{--c:var(--t-reread);--cb:var(--t-reread-bg)}
+.t-structure{--c:var(--t-structure);--cb:var(--t-structure-bg)}
+.t-caveat{--c:var(--t-caveat);--cb:var(--t-caveat-bg)}
+.t-repeat{--c:var(--t-repeat);--cb:var(--t-repeat-bg)}
+.t-innerchild{--c:var(--t-innerchild);--cb:var(--t-innerchild-bg)}
+.t-typo{--c:var(--t-typo);--cb:var(--t-typo-bg)}
+.t-cut{--c:var(--t-cut);--cb:var(--t-cut-bg)}
+.t-ask{--c:var(--t-ask);--cb:var(--t-ask-bg)}
+.gut{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--head);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{max-width:78rem;margin:0 auto;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;padding-top:8px;padding-bottom:8px}
+.bar .name{font-weight:750;font-size:.98rem;margin-right:auto}
+.prog{font-size:.84rem;color:var(--muted)}
+.prog b{color:var(--ink)}
+.meter{height:4px;background:var(--soft);border-radius:4px;overflow:hidden;flex-basis:100%}
+.meter i{display:block;height:100%;width:0;background:var(--ok);transition:width .2s}
+.btn{border:1px solid var(--line);background:var(--paper);border-radius:8px;padding:6px 11px;min-height:36px;font-size:.88rem}
+.btn:hover{border-color:var(--muted)}
+.btn.main{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.tools{max-width:78rem;margin:0 auto;padding-top:4px;padding-bottom:10px;display:grid;gap:10px}
+.tools[hidden]{display:none}
+.tools .grp{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.tools .grp>.lab{font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-right:4px}
+.chip{border:1px solid var(--c,var(--line));background:var(--cb,var(--paper));color:var(--ink);border-radius:999px;padding:3px 10px;font-size:.8rem;min-height:30px}
+.chip[aria-pressed="false"]{background:transparent;opacity:.55;text-decoration:line-through}
+.chip .n{font-weight:700}
+.tools select,.tools input[type=search]{border:1px solid var(--line);border-radius:8px;padding:6px 8px;min-height:36px;max-width:100%}
+.tools input[type=search]{width:16rem}
+.check{display:flex;gap:6px;align-items:center;font-size:.88rem}
+.panel{max-width:78rem;margin:0 auto;padding-top:10px;padding-bottom:14px;border-top:1px dashed var(--line)}
+.panel[hidden]{display:none}
+.panel .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0}
+.panel textarea{width:100%;min-height:7rem;border:1px solid var(--line);border-radius:8px;padding:8px;font:13px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace}
+.status{font-size:.86rem;color:var(--muted);min-height:1.2em}
+.intro{max-width:46rem;margin:18px auto 6px;font-size:.95rem}
+.intro .box{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:12px 16px}
+.intro p{margin:.5em 0}
+.intro .src{font-size:.82rem;color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 2px}
+.store-note{font-size:.82rem;color:var(--muted)}
+main.article{max-width:46rem;margin:0 auto 40vh;font:1.06rem/1.7 Georgia,"Iowan Old Style","Palatino Linotype",serif}
+main.article h2,main.article h3,main.article h4,main.article h5,main.article h6{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.25;margin:2.1em 0 .5em}
+main.article h2{font-size:1.45rem}main.article h3{font-size:1.2rem}main.article h4{font-size:1.06rem}main.article h5{font-size:.98rem}main.article h6{font-size:.92rem}
+main.article p,main.article blockquote,.blk.li{margin:.85em 0}
+main.article blockquote{border-left:3px solid var(--line);padding-left:1rem;color:var(--muted)}
+.blk.li{display:flex;gap:.55em;padding-left:.4em}
+.blk.li .mk{flex:0 0 auto;font-weight:700}
+/* 2026-11-02: never copied with the text (Joel's checks of paragraphs copied from these pages read "P1Here is a list"; taking the labels out alone turned AI Detected into Human Written, gate E326) */
+.pn{font:600 .66em system-ui,sans-serif;color:var(--muted);margin-right:.45em;vertical-align:.12em;-webkit-user-select:none;user-select:none}
+.blk.li .pn{order:-1}
+.native-blk{font:600 .85rem system-ui,sans-serif;color:var(--muted);background:var(--soft);border:1px dashed var(--line);border-radius:8px;padding:8px 12px;margin:1em 0}
+mark.hl{background:var(--cb);color:inherit;border-bottom:2px solid var(--c);border-radius:2px;padding:0 .04em;cursor:pointer;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+mark.hl.multi{background-image:repeating-linear-gradient(135deg,transparent 0 6px,rgba(127,127,127,.18) 6px 8px)}
+mark.hl.leave{background:transparent;border-bottom:2px dotted var(--muted)}
+mark.hl.done{background:transparent;border-bottom-style:solid;opacity:.8}
+body:not(.show-leave) mark.hl.leave{border-bottom:none;cursor:text}
+.moving{border-left:4px solid var(--c);padding-left:10px;margin:.6em 0}
+.moving.leave{border-left-color:var(--line)}
+.moving-k{font:700 .72rem system-ui,sans-serif;color:var(--c);text-transform:uppercase;letter-spacing:.05em}
+.marker{font:600 .9rem system-ui,sans-serif;border:2px dashed var(--c);background:var(--cb);border-radius:8px;padding:6px 10px;margin:1.1em 0 .4em}
+.marker.leave{border-color:var(--line);background:transparent;color:var(--muted)}
+.marker .mk-k{font-size:.74rem;text-transform:uppercase;letter-spacing:.04em;color:var(--c)}
+.marker .mk-h{font-size:1rem}
+body:not(.show-leave) .marker.leave,body:not(.show-leave) .card.leave{display:none}
+body:not(.show-leave) .moving.leave{border-left:none;padding-left:0}
+body:not(.show-leave) .moving.leave .moving-k{display:none}
+.card{font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:10px;padding:10px 12px;margin:.5em 0 1.5em}
+.card.leave{border-left-color:var(--line);background:var(--soft)}
+.card[hidden]{display:none}
+.card.flash{animation:flash 1.4s ease}
+@keyframes flash{0%,100%{box-shadow:none}25%{box-shadow:0 0 0 4px var(--c)}}
+.card-top{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center}
+.cid{font:600 .78rem ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--muted)}
+.ctitle{font-weight:700;margin-right:auto}
+.pill{font-size:.78rem;font-weight:700;border-radius:999px;padding:2px 9px;background:var(--pend-bg);color:var(--pend);border:1px solid var(--pend)}
+.card[data-status="approved"] .pill{background:var(--ok-bg);color:var(--ok);border-color:var(--ok)}
+.card[data-status="rejected"] .pill{background:var(--no-bg);color:var(--no);border-color:var(--no)}
+.card[data-status="revise"] .pill{background:var(--rev-bg);color:var(--rev);border-color:var(--rev)}
+.card.leave[data-status="pending"] .pill{background:transparent;color:var(--muted);border-color:var(--line)}
+.card[data-status="approved"]{border-color:var(--ok);border-left-color:var(--c)}
+.card[data-status="revise"]{border-color:var(--rev);border-left-color:var(--c)}
+.link-btn{border:none;background:none;color:var(--link);padding:2px 4px;font-size:.84rem;text-decoration:underline;min-height:28px}
+.changes{margin:8px 0 6px}
+.chg{margin:6px 0}
+.chg-k{font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:4px 0 2px}
+.dif,.mv-src{font:1rem/1.62 Georgia,"Iowan Old Style","Palatino Linotype",serif;background:var(--soft);border-radius:8px;padding:8px 11px;white-space:pre-wrap;overflow-wrap:anywhere}
+.ctx{font:.95rem/1.5 Georgia,serif;color:var(--muted);padding:2px 11px}
+.mv-arrow{font-weight:700;color:var(--c);padding:0 11px}
+.ins-h{font:700 1.05rem system-ui,sans-serif;margin:4px 0;padding:6px 11px;background:var(--soft);border-radius:8px}
+del{background:var(--del-bg);color:var(--del-ink);text-decoration:line-through;text-decoration-thickness:1.5px}
+ins{background:var(--ins-bg);color:var(--ins-ink);text-decoration:none;border-bottom:1px solid currentColor}
+ins.br{font:700 .78rem system-ui,sans-serif;padding:0 4px;border-radius:4px}
+ins.br::before{content:"¶ new paragraph"}
+.reads{font:1rem/1.62 Georgia,"Iowan Old Style","Palatino Linotype",serif;background:var(--soft);border-radius:8px;padding:2px 11px;overflow-wrap:anywhere}
+.reads .rd{margin:.6em 0}
+.reads .rd-h{font:700 1.02rem/1.3 system-ui,-apple-system,"Segoe UI",sans-serif;margin:1em 0 .35em}
+.reads .rd-h2{font-size:1.15rem}.reads .rd-h3{font-size:1.08rem}
+.reads .rd-hm{font-weight:400;color:var(--muted);font-size:.8em}
+.reads .rd-note{font:.8rem/1.4 system-ui,sans-serif;color:var(--muted);margin:-.35em 0 .7em}
+.card[data-status="answered"] .pill{background:var(--ok-bg);color:var(--ok);border-color:var(--ok)}
+.also .link-btn{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.8rem}
+.info .row{margin:3px 0}
+.info .lab,.yours-wrap .lab,.note-wrap .lab{font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-right:4px}
+.info .warn span:last-child{color:var(--pend)}
+.decide{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 6px}
+.dec{border:1.5px solid var(--line);background:var(--paper);border-radius:8px;padding:6px 11px;min-height:38px;font-size:.88rem;font-weight:600}
+.dec.approve{border-color:var(--ok);color:var(--ok)}
+.dec.reject{border-color:var(--no);color:var(--no)}
+.dec.revise{border-color:var(--rev);color:var(--rev)}
+.dec.undo{border-color:var(--pend);color:var(--pend)}
+.card[data-status="approved"] .dec.approve{background:var(--ok);color:var(--paper)}
+.card[data-status="rejected"] .dec.reject{background:var(--no);color:var(--paper)}
+.card[data-status="revise"] .dec.revise{background:var(--rev);color:var(--paper)}
+.card[data-status="pending"] .dec.undo{background:var(--pend-bg)}
+.yours-wrap,.note-wrap{display:block;margin:6px 0}
+.yours-wrap[hidden]{display:none}
+.card textarea{display:block;width:100%;border:1px solid var(--line);border-radius:8px;padding:7px 9px;font:15px/1.45 system-ui,sans-serif;resize:vertical;margin-top:3px}
+.card textarea.yours{font:1rem/1.55 Georgia,serif;min-height:6.5rem}
+.saved-line{font-size:.78rem;color:var(--muted);min-height:1.1em}
+body.reading .card{display:none}
+.endnote{max-width:46rem;margin:0 auto;font-size:.9rem;color:var(--muted)}
+@media (max-width:640px){
+  .bar .name{display:none}
+  .bar{gap:5px 6px;padding-top:6px;padding-bottom:6px}
+  .prog{flex-basis:100%;font-size:.8rem}
+  .bar .btn{padding:4px 9px;min-height:34px;font-size:.82rem}
+  .tools input[type=search]{width:100%}
+  main.article{font-size:1.02rem}
+  .card{padding:9px 10px}
+  .dec{flex:1 1 auto}
+}
+@media print{header.top,.card .decide,.card textarea{display:none}}
+/* review-form-controls-v1: paired colors for light review forms. */
+input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="button"]):not([type="submit"]):not([type="reset"]):not([type="hidden"]),textarea,select,option,optgroup,[contenteditable="true"]{color-scheme:only light!important;color:#1f2937!important;-webkit-text-fill-color:#1f2937!important;background-color:#ffffff!important;caret-color:#1f2937!important}
+input::placeholder,textarea::placeholder{color:#526174!important;-webkit-text-fill-color:#526174!important;opacity:1}
+select option:checked{color:#ffffff!important;-webkit-text-fill-color:#ffffff!important;background-color:#244e72!important}
+input:focus-visible,textarea:focus-visible,select:focus-visible,button:focus-visible,[contenteditable="true"]:focus-visible{outline:3px solid #2458a6;outline-offset:2px}
+@media(forced-colors:active){input,textarea,select,option,optgroup,[contenteditable="true"]{forced-color-adjust:auto;color:CanvasText!important;-webkit-text-fill-color:CanvasText!important;background-color:Canvas!important;caret-color:CanvasText!important}input::placeholder,textarea::placeholder{color:GrayText!important;-webkit-text-fill-color:GrayText!important}select option:checked{color:HighlightText!important;-webkit-text-fill-color:HighlightText!important;background-color:Highlight!important}}
+
+</style><style>
+.t-explainer{--c:#0e7490;--cb:#d3f1f8}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .t-explainer{--c:#67e8f9;--cb:#123a44}}
+:root[data-theme="dark"] .t-explainer{--c:#67e8f9;--cb:#123a44}
+.t-pointer{--c:#b45309;--cb:#fdebc8}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .t-pointer{--c:#fbbf24;--cb:#45330f}}
+:root[data-theme="dark"] .t-pointer{--c:#fbbf24;--cb:#45330f}
+.t-dedupe{--c:#4338ca;--cb:#e1e4fd}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .t-dedupe{--c:#a5b4fc;--cb:#262a56}}
+:root[data-theme="dark"] .t-dedupe{--c:#a5b4fc;--cb:#262a56}
+.t-conflict{--c:#be185d;--cb:#fce1ee}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .t-conflict{--c:#f9a8d4;--cb:#4c1d33}}
+:root[data-theme="dark"] .t-conflict{--c:#f9a8d4;--cb:#4c1d33}
+.t-question{--c:#4d7c0f;--cb:#e6f4cf}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .t-question{--c:#bef264;--cb:#2d3b12}}
+:root[data-theme="dark"] .t-question{--c:#bef264;--cb:#2d3b12}
+</style>
+<header class="top">
+  <div class="bar gut">
+    <span class="name">Gut Article r01</span>
+    <span class="prog" id="prog" aria-live="polite"></span>
+    <button type="button" class="btn" id="prevBtn" title="The card before this one">↑ Previous</button>
+    <button type="button" class="btn main" id="nextBtn" title="The next suggestion you haven't decided">Next undecided ↓</button>
+    <button type="button" class="btn" id="toolsBtn" aria-expanded="false" aria-controls="tools">Filters</button>
+    <button type="button" class="btn" id="saveBtn" aria-expanded="false" aria-controls="savePanel">Save / send</button>
+    <div class="meter" aria-hidden="true"><i id="meter"></i></div>
+  </div>
+  <div class="tools gut" id="tools" hidden>
+    <div class="grp"><span class="lab">Show</span><button type="button" class="chip t-structure" data-filter-type="structure" aria-pressed="true" title="Order and grouping you approved">Structure <span class="n" data-count-type="structure"></span></button><button type="button" class="chip t-explainer" data-filter-type="explainer" aria-pressed="true" title="What the Gem has and doesn&#x27;t">Explainer <span class="n" data-count-type="explainer"></span></button><button type="button" class="chip t-pointer" data-filter-type="pointer" aria-pressed="true" title="A phase points back to your notes">Pointer to your notes <span class="n" data-count-type="pointer"></span></button><button type="button" class="chip t-dedupe" data-filter-type="dedupe" aria-pressed="true" title="Said once, pointed to elsewhere">Repeat <span class="n" data-count-type="dedupe"></span></button><button type="button" class="chip t-conflict" data-filter-type="conflict" aria-pressed="true" title="Your advice and Gemini&#x27;s differ">Conflict <span class="n" data-count-type="conflict"></span></button><button type="button" class="chip t-question" data-filter-type="question" aria-pressed="true" title="Needs your answer">Question <span class="n" data-count-type="question"></span></button></div>
+    <div class="grp"><span class="lab">Status</span>
+      <select id="statusFilter" aria-label="Show suggestions by status">
+        <option value="all">All</option><option value="pending">Not decided yet</option><option value="approved">Approved</option>
+        <option value="rejected">Rejected</option><option value="revise">Revise</option><option value="noted">With a comment</option>
+      </select>
+      <label class="check"><input type="checkbox" id="showLeave"> The ones a reader flagged and I'd leave (<span id="leaveCount"></span>)</label>
+    </div>
+    <div class="grp"><span class="lab">Find</span><input type="search" id="search" placeholder="Words in a suggestion or its paragraph" aria-label="Search">
+      <select id="sectionJump" aria-label="Go to a section"><option value="">Go to a section…</option></select>
+      <label class="check"><input type="checkbox" id="readingMode"> Read the guide without the cards</label>
+    </div>
+  </div>
+  <div class="panel gut" id="savePanel" hidden>
+    <div class="store-note" id="storeNote">Your answers save in this browser as you click.</div>
+    <div class="row"><button type="button" class="btn main" id="copyJson">Copy my answers (JSON)</button><button type="button" class="btn" id="saveJson">Save them as a file</button></div>
+    <div class="row"><label class="btn" for="importFile">Load answers from a file</label><input type="file" id="importFile" accept=".json,application/json" hidden>
+      <button type="button" class="btn" id="pasteToggle">Paste answers instead</button></div>
+    <div id="pasteBox" hidden><textarea id="pasteArea" placeholder="Paste a JSON answers file here"></textarea><div class="row"><button type="button" class="btn" id="pasteLoad">Load the pasted answers</button></div></div>
+    <textarea id="copyArea" hidden readonly aria-label="Your answers as JSON"></textarea>
+    <div class="status" id="saveStatus" aria-live="polite"></div>
+  </div>
+</header>
+<div class="intro gut"><div class="box">
+<p>The structure you approved at 18:01, done on the article. G2, G3 and G11 carry your approvals; what's still yours to decide is every new word of mine (the explainer, the phase labels, the "My notes" lines, the pointers) and the three questions at the end.</p><p>No humanizing yet: once this is settled, the AI-reading parts (Phases 1, 2, 4 and 5 as they now stand, the fuels stretch in Leaky gut and whatever stays of the stacks section) get rewritten on the next page, each one checked in Pangram before you see it.</p>
+<div class="legend" aria-hidden="true"><button type="button" class="chip t-structure" data-filter-type="structure" aria-pressed="true" title="Order and grouping you approved">Structure <span class="n" data-count-type="structure"></span></button><button type="button" class="chip t-explainer" data-filter-type="explainer" aria-pressed="true" title="What the Gem has and doesn&#x27;t">Explainer <span class="n" data-count-type="explainer"></span></button><button type="button" class="chip t-pointer" data-filter-type="pointer" aria-pressed="true" title="A phase points back to your notes">Pointer to your notes <span class="n" data-count-type="pointer"></span></button><button type="button" class="chip t-dedupe" data-filter-type="dedupe" aria-pressed="true" title="Said once, pointed to elsewhere">Repeat <span class="n" data-count-type="dedupe"></span></button><button type="button" class="chip t-conflict" data-filter-type="conflict" aria-pressed="true" title="Your advice and Gemini&#x27;s differ">Conflict <span class="n" data-count-type="conflict"></span></button><button type="button" class="chip t-question" data-filter-type="question" aria-pressed="true" title="Needs your answer">Question <span class="n" data-count-type="question"></span></button></div>
+<p class="src">This page is a view of what's in Git: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/gut-import-20261103/articles/healing-the-gut/humanize/fix-20261103/r01/MASTER.md" target="_blank" rel="noopener noreferrer">the guide so far</a> (version dd074c21) and <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/gut-import-20261103/articles/healing-the-gut/humanize/fix-20261103/r01/REVIEW-CARDS.md" target="_blank" rel="noopener noreferrer">the list of suggestions</a>, built 2026-11-03. Your answers go into Git as well, once you tell me you're done.</p>
+</div></div>
+<main class="article gut" id="article">
+<p class="blk" id="b0" data-b="0"><span class="pn">P1</span>This article is one core component of my <a href="http://detox.u-dont-exist.com" target="_blank" rel="noopener noreferrer">detox strategy</a>. I also recommend checking out the <a href="https://endsickness.org/ultimate-guide-to-healing-leaky-gut-syndrome/" target="_blank" rel="noopener noreferrer">leaky gut fix guide from EndSickness.org.</a></p>
+<p class="blk" id="b1" data-b="1"><span class="pn">P2</span>And before we get into any of the physical treatments, <a href="http://innerchild.u-dont-exist.com" target="_blank" rel="noopener noreferrer">consider the emotional</a>:</p>
+<p class="blk" id="b2" data-b="2"><span class="pn">P3</span>Previously, I made some posts about dealing with <a href="https://ibogaqueen.substack.com/p/treating-diarrhea?r=5vdc6m" target="_blank" rel="noopener noreferrer">diarrhea </a>and <a href="https://ibogaqueen.substack.com/p/treating-constipation?r=5vdc6m" target="_blank" rel="noopener noreferrer">constipation</a>, as well as <a href="https://ibogaqueen.substack.com/p/critical-analysis-of-amd-and-their?r=5vdc6m" target="_blank" rel="noopener noreferrer">commenting </a>on the AMD article on DMSO for gut health. But in this article, I will consolidate the most important texts on this topic so that you can directly consult with Gemini (on Flash Extended mode) to extract the top knowledge in the field. On the other hand, I also have some tips which are not found in books or AI.</p>
+<p class="blk" id="b3" data-b="3"><span class="pn">P4</span>Keep in mind that gut health is intimately linked to mental health, as the gut is considered our <mark class="hl t-question" data-s="G12">“second brain.”</mark> Some people think their guts are working fine, but they notice other health problems, including mental health, and don’t realize that<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8452999/" target="_blank" rel="noopener noreferrer"> all disease begins in the gut</a>, to quote Hippocrates, the founder of Western Medicine. Of course, that’s obviously not true, because stress can come from other vectors, but the gut is central to the feedback loop and can cement other stress vectors.</p>
+<section class="card ask t-question" id="c-G12" data-id="G12" data-type="question" data-advice="ask" data-block="3">
+<div class="card-top"><button type="button" class="chip t-question" data-filter-type="question" title="Needs your answer">Question</button><span class="cid">G12</span><span class="ctitle">Straighten every curly apostrophe and quote mark?</span><span class="pill" aria-live="polite">Not answered yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="info"><div class="row"><span class="lab">My question</span> <span>The post uses curly apostrophes and quote marks throughout (don’t, “second brain”), which you type straight and which read as AI. Shall I straighten all of them in the humanized version? Every word stays; only the marks change. (My pick: yes.)</span></div><div class="row"><span class="lab">Why I ask</span> <span>You said the curly ones are an AI tell. Your fixes catalogue has one of your paragraphs reading 100% Human with straight apostrophes and 100% AI with the same words curled.</span></div><div class="row"><span class="lab">Until you answer</span> <span>The text as it is until you answer.</span></div><div class="row advice"><span class="lab">My advice</span> <span>Yes, straighten them all.</span></div></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="4"></textarea></label>
+<label class="note-wrap"><span class="lab">Your answer</span><textarea class="note" rows="3" placeholder="Your answer, in a few words"></textarea></label>
+<div class="saved-line"></div>
+</div></section>
+<h4 class="blk" id="b4" data-b="4">Some Causes of poor gut health</h4>
+<div class="blk li" id="b5" data-b="5"><span class="pn">P1</span><span class="mk">•</span><span class="lt"><mark class="hl t-structure" data-s="G2">Severe stress/adrenal fatigue/poor </mark><mark class="hl t-structure" data-s="G2"><a href="http://sleep.u-dont-exist.com" target="_blank" rel="noopener noreferrer">sleep</a></mark>: This can cause a lack of mucus to line the stomach, which in turn causes burning, difficulty absorbing nutrients, and so forth. And every other gut issue can also be partly related to this. My <a href="http://mindset.u-dont-exist.com" target="_blank" rel="noopener noreferrer">mindset page</a> and <a href="http://soma.u-dont-exist.com" target="_blank" rel="noopener noreferrer">loveyhuasca </a>protocol can help a lot with this, as well as my <a href="http://sleep.u-dont-exist.com" target="_blank" rel="noopener noreferrer">deep sleep tips</a>.</span></div>
+<section class="card t-structure" id="c-G2" data-id="G2" data-type="structure" data-advice="approve" data-block="5">
+<div class="card-top"><button type="button" class="chip t-structure" data-filter-type="structure" title="Order and grouping you approved">Structure</button><span class="cid">G2</span><span class="ctitle">Each cause points to its phase</span><span class="pill" aria-live="polite">Not approved yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="changes"><div class="chg"><div class="chg-k">Some Causes of poor gut health, P1 now</div><div class="dif side now">Severe stress/adrenal fatigue/poor sleep: This can cause a lack of mucus to line the stomach, which in turn causes burning, difficulty absorbing nutrients, and so forth. And every other gut issue can also be partly related to this. My mindset page and loveyhuasca protocol can help a lot with this, as well as my deep sleep tips.</div><div class="chg-k">How it would read</div><div class="dif side after">Severe stress/adrenal fatigue/poor sleep<ins> (Phase 1)</ins>: This can cause a lack of mucus to line the stomach, which in turn causes burning, difficulty absorbing nutrients, and so forth. And every other gut issue can also be partly related to this. My mindset page and loveyhuasca protocol can help a lot with this, as well as my deep sleep tips.</div></div><div class="chg"><div class="chg-k">Some Causes of poor gut health, P2 now</div><div class="dif side now">Sitting, or lack of exercise and stretching: humans were not designed to be sedentary. Our biology slows down and cramps up when we are. Walk, do yoga, do shaking qi-gong, do bodyweight strength training.</div><div class="chg-k">How it would read</div><div class="dif side after">Sitting, or lack of exercise and stretching<ins> (Phase 5)</ins>: humans were not designed to be sedentary. Our biology slows down and cramps up when we are. Walk, do yoga, do shaking qi-gong, do bodyweight strength training.</div></div><div class="chg"><div class="chg-k">Some Causes of poor gut health, list item now</div><div class="dif side now">Years of accumulated shit in your guts: This part isn’t in the gut healing books I read, but even if you fix all of what’s going into you now, if you’re already full and clogged with all of what went in before, that’s gonna be little help. My friend Pooyan got incredibly healthier and happier after getting enough colon hydrotherapy to flush that stuff out, combined with then also doing intense stretches like hanging from one arm, until finally, the most crusted up shit exploded in him which was very painful for a day.</div><div class="chg-k">How it would read</div><div class="dif side after">Years of accumulated shit in your guts<ins> (closest: Phase 4)</ins>: This part isn’t in the gut healing books I read, but even if you fix all of what’s going into you now, if you’re already full and clogged with all of what went in before, that’s gonna be little help. My friend Pooyan got incredibly healthier and happier after getting enough colon hydrotherapy to flush that stuff out, combined with then also doing intense stretches like hanging from one arm, until finally, the most crusted up shit exploded in him which was very painful for a day.</div></div><div class="chg"><div class="chg-k">Some Causes of poor gut health, P7 now</div><div class="dif side now">Poor diet now: industrial and processed foods, especially oils, are often empty calories full of countless toxins and oxidation byproducts. Toxins are sequestered in fat cells to prevent them from damaging organs, but this toxic fat (especially visceral fat) becomes a chronic health issue even as it protects us from immediately dying from the sequestered toxins.</div><div class="chg-k">How it would read</div><div class="dif side after">Poor diet now<ins> (Phase 2)</ins>: industrial and processed foods, especially oils, are often empty calories full of countless toxins and oxidation byproducts. Toxins are sequestered in fat cells to prevent them from damaging organs, but this toxic fat (especially visceral fat) becomes a chronic health issue even as it protects us from immediately dying from the sequestered toxins.</div></div><div class="chg"><div class="chg-k">Some Causes of poor gut health, P8 now</div><div class="dif side now">Parasites, H. pylori, mold, metals: We are often addicted to junk food due to a vicious cycle in which the junk feeds parasitic organisms and bad bacteria, yeast, etc, which then send signals to our brain to consume more junk. Thus, we have to target the problem from various angles — cleansing out pathogens, repopulating good bacteria, addressing vitamin (especially thiamine), mineral, and enzyme deficiencies, and changing what we eat. I wrote about my detox protocol (which includes the gut) here. For H. Pylori specifically: if you get heartburn when your stomach is empty only, that’s usually H. Pylori, and it’s easily treated with berberine.</div><div class="chg-k">How it would read</div><div class="dif side after">Parasites, H. pylori, mold, metals<ins> (Phases 3 and 6)</ins>: We are often addicted to junk food due to a vicious cycle in which the junk feeds parasitic organisms and bad bacteria, yeast, etc, which then send signals to our brain to consume more junk. Thus, we have to target the problem from various angles — cleansing out pathogens, repopulating good bacteria, addressing vitamin (especially thiamine), mineral, and enzyme deficiencies, and changing what we eat. I wrote about my detox protocol (which includes the gut) here. For H. Pylori specifically: if you get heartburn when your stomach is empty only, that’s usually H. Pylori, and it’s easily treated with berberine.</div></div><div class="chg"><div class="chg-k">Some Causes of poor gut health, P9 now</div><div class="dif side now">SIBO: Small intestinal bacterial overgrowth is a huge issue underlying a wide range of illnesses. One of the most effective cures for many people is SIBO Yogurt. I also sell these SIBO yogurt bacteria (along with other helpful herbal juices and minerals) in liquid form for vegans.</div><div class="chg-k">How it would read</div><div class="dif side after">SIBO<ins> (Phases 3 and 5)</ins>: Small intestinal bacterial overgrowth is a huge issue underlying a wide range of illnesses. One of the most effective cures for many people is SIBO Yogurt. I also sell these SIBO yogurt bacteria (along with other helpful herbal juices and minerals) in liquid form for vegans.</div></div><div class="chg"><div class="chg-k">Some Causes of poor gut health, P10 now</div><div class="dif side now">Plant foods: The carnivore diet is trending, as many people (especially with leaky gut or lack of oxalate-processing bacteria) are noticing they cannot handle fiber, oxalates, and phytates in plants. It’s certainly a diet worth trying, but it can lead to deficiencies over time, especially with regard vitamins C, E, fiber, magnesium, potassium, calcium, iodine and other trace minerals, and bacteria needed to process plant foods (which already are likely missing in people who need this diet), thus making the carnivore diet sort of hard to get off.</div><div class="chg-k">How it would read</div><div class="dif side after">Plant foods<ins> (Phases 2 and 5)</ins>: The carnivore diet is trending, as many people (especially with leaky gut or lack of oxalate-processing bacteria) are noticing they cannot handle fiber, oxalates, and phytates in plants. It’s certainly a diet worth trying, but it can lead to deficiencies over time, especially with regard vitamins C, E, fiber, magnesium, potassium, calcium, iodine and other trace minerals, and bacteria needed to process plant foods (which already are likely missing in people who need this diet), thus making the carnivore diet sort of hard to get off.</div></div><div class="chg"><div class="chg-k">Some Causes of poor gut health, P12 now</div><div class="dif side now">Leaky gut: a widespread inflammatory condition often intersecting with other categories of illness such as Crohn’s Disease or IBS, plant food intolerance, and what many alternative health practitioners consider as a root cause of most diseases. It’s associated with increased zonulin levels clinically. Zonulin is the molecule released to signal your intestinal tight jungtions to open. Too much opening time leads to allowing stuff to leak out into your blood stream which then burdens your immune system and detoxification systems. Game-changing treatments:</div><div class="chg-k">How it would read</div><div class="dif side after">Leaky gut<ins> (Phase 5)</ins>: a widespread inflammatory condition often intersecting with other categories of illness such as Crohn’s Disease or IBS, plant food intolerance, and what many alternative health practitioners consider as a root cause of most diseases. It’s associated with increased zonulin levels clinically. Zonulin is the molecule released to signal your intestinal tight jungtions to open. Too much opening time leads to allowing stuff to leak out into your blood stream which then burdens your immune system and detoxification systems. Game-changing treatments:</div></div><div class="chg"><div class="chg-k">Some Causes of poor gut health, P25 now</div><div class="dif side now">IBS: While there are many causes and types of irritable bowel syndrome, psychedelics are one promising new avenue of treatment. However, it’s always best to find the root cause of the problem, which requires investigation. A functional medicine gastroenterologist might help.</div><div class="chg-k">How it would read</div><div class="dif side after">IBS<ins> (Phase 4)</ins>: While there are many causes and types of irritable bowel syndrome, psychedelics are one promising new avenue of treatment. However, it’s always best to find the root cause of the problem, which requires investigation. A functional medicine gastroenterologist might help.</div></div><div class="chg"><div class="chg-k">Some Causes of poor gut health, P26 now</div><div class="dif side now">Low stomach acid, enzymes, and thick bile: which in turn are often due to poor diet, stress, infections. T.C. Hale has a lot of videos on healing digestion issues, which in his experience as a health coach, are often due to these root causes. He’s a bit controversial on some points such as his urine pH testing for anabolic/catabolic state freezes, but he does have some good suggestions he explains in his book.</div><div class="chg-k">How it would read</div><div class="dif side after">Low stomach acid, enzymes, and thick bile<ins> (Phase 1)</ins>: which in turn are often due to poor diet, stress, infections. T.C. Hale has a lot of videos on healing digestion issues, which in his experience as a health coach, are often due to these root causes. He’s a bit controversial on some points such as his urine pH testing for anabolic/catabolic state freezes, but he does have some good suggestions he explains in his book.</div></div></div>
+<div class="info"><div class="row"><span class="lab">What changes</span> <span>A phase number after each cause&#x27;s name, using the Gem&#x27;s numbering from G3.</span></div><div class="row"><span class="lab">Why</span> <span>Your S2 approval. The causes tell the reader where to look; the numbers tell them which step of the recipe deals with it.</span></div><div class="row"><span class="lab">What stays</span> <span>Every cause and every word of it; only the phase number is added after its name.</span></div><div class="row"><span class="lab">You&#x27;re deciding</span> <span>The mapping is the one you approved; the numbers follow the Gem&#x27;s phases (G3). &quot;(closest: Phase 4)&quot; is for Pooyan&#x27;s impaction, which your text already says the books don&#x27;t cover.</span></div><div class="row advice"><span class="lab">My advice</span> <span>Approve, unless a number looks wrong to you.</span></div></div>
+<div class="decide" role="group" aria-label="Decision on G2"><button type="button" class="dec approve" data-dec="approved">Approve: make this change</button><button type="button" class="dec reject" data-dec="rejected">Reject: keep it as it is</button><button type="button" class="dec revise" data-dec="revise">Revise</button><button type="button" class="dec undo" data-dec="pending">Not approved yet</button></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="4" placeholder="Your wording, or what to change"></textarea></label>
+<label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note on this suggestion (optional)"></textarea></label>
+<div class="saved-line"></div>
+</div></section>
+<div class="blk li" id="b6" data-b="6"><span class="pn">P2</span><span class="mk">•</span><span class="lt"><mark class="hl t-structure" data-s="G2">Sitting, or lack of exercise and stretching</mark>: humans were not designed to be sedentary. Our biology slows down and cramps up when we are. Walk, do yoga, do <a href="http://somatic.u-dont-exist.com" target="_blank" rel="noopener noreferrer">shaking qi-gong</a>, do bodyweight strength training.</span></div>
+<div class="blk li" id="b7" data-b="7"><span class="pn">P3</span><span class="mk">•</span><span class="lt">This woman healed her gut with 3 fun movements:</span></div>
+<div class="blk li" id="b8" data-b="8"><span class="mk">•</span><span class="lt">Actually, yoga specifically, and especially Iyengar yoga, which is the most technically anatomical scientific yoga, would be more useful than general exercise:</span></div>
+<div class="blk li" id="b9" data-b="9"><span class="mk">•</span><span class="lt"><mark class="hl t-structure" data-s="G2">Years of accumulated shit in your guts</mark>: This part isn’t in the gut healing books I read, but even if you fix all of what’s going into you now, if you’re already full and clogged with all of what went in before, that’s gonna be little help. My friend Pooyan got incredibly healthier and happier after getting enough colon hydrotherapy to flush that stuff out, combined with then also doing intense stretches like hanging from one arm, until finally, the most crusted up shit exploded in him which was very painful for a day.</span></div>
+<div class="blk li" id="b10" data-b="10"><span class="pn">P4</span><span class="mk">•</span><span class="lt">This is likely caused by diverticulosis, a disease that causes herniated pockets to form in the intestines which aren’t supported by smooth muscle. There’s no known cure for this disease, except possibly glutamine, <a href="https://www.emmausmedical.com/content/news/press-releases/emmaus-life-sciences-reports-additional-positive-preliminary-results-in-diverticulosis-pilot-trial-221?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer">based one one incompleted clinical trial</a>, which found 2 of 9 women had incredible reductions in diverticula. Glutamine an amino acid that’s the fuel for small intestinal cells, so this makes some sense. 10% of people get side effects from it (including constipation). Butyrate is the fuel for the colon cells. I would also suggest diosmin for improving blood vessel integrity.</span></div>
+<div class="blk li" id="b11" data-b="11"><span class="pn">P5</span><span class="mk">•</span><span class="lt">However, while we don’t know if Pooyan has diverticulosis, what we now do know is that his peak health disappeared 3 days later after eating some bread with A1 dairy.</span></div>
+<div class="blk li" id="b12" data-b="12"><span class="pn">P6</span><span class="mk">•</span><span class="lt">CAUTION: If you have severe diverticulosis, especially diverticulitis (once the fecal impaction causes intestinal infection &amp; inflammation), you might be at high risk for intestinal wall rupture, and even rejected by the more reputable colonic irrigation clinics. Make sure you get cleared by a gastroenterologist first.</span></div>
+<div class="blk li" id="b13" data-b="13"><span class="pn">P7</span><span class="mk">•</span><span class="lt"><mark class="hl t-structure" data-s="G2">Poor diet now</mark>: industrial and processed foods, especially oils, are often empty calories full of countless toxins and oxidation byproducts. Toxins are sequestered in fat cells to prevent them from damaging organs, but this toxic fat (especially visceral fat) becomes a chronic health issue even as it protects us from immediately dying from the sequestered toxins.</span></div>
+<div class="blk li" id="b14" data-b="14"><span class="pn">P8</span><span class="mk">•</span><span class="lt"><mark class="hl t-structure" data-s="G2">Parasites, H. pylori, mold, metals</mark>: We are often addicted to junk food due to a vicious cycle in which the junk feeds parasitic organisms and bad bacteria, yeast, etc, which then send signals to our brain to consume more junk. Thus, we have to target the problem from various angles — cleansing out pathogens, repopulating good bacteria, addressing vitamin (especially thiamine), mineral, and enzyme deficiencies, and changing what we eat. I wrote about my detox protocol (which includes the gut) <a href="http://detox.u-dont-exist.com" target="_blank" rel="noopener noreferrer">here</a>. For H. Pylori specifically: if you get heartburn when your stomach is empty only, that’s usually H. Pylori, and it’s easily treated with berberine.</span></div>
+<div class="blk li" id="b15" data-b="15"><span class="pn">P9</span><span class="mk">•</span><span class="lt"><mark class="hl t-structure" data-s="G2">SIBO</mark>: Small intestinal bacterial overgrowth is a huge issue underlying a wide range of illnesses. One of the most effective cures for many people is <a href="http://siboyogurt.u-dont-exist.com" target="_blank" rel="noopener noreferrer">SIBO Yogurt</a>. I also sell these SIBO yogurt bacteria (along with other helpful herbal juices and minerals) in liquid form for vegans.</span></div>
+<div class="blk li" id="b16" data-b="16"><span class="pn">P10</span><span class="mk">•</span><span class="lt"><mark class="hl t-structure" data-s="G2">Plant foods</mark>: The carnivore diet is trending, as many people (especially with leaky gut or lack of oxalate-processing bacteria) are noticing they cannot handle fiber, oxalates, and phytates in plants. It’s certainly a diet worth trying, but it can lead to <a href="https://www.perplexity.ai/search/carnivore-diet-leads-to-which-mEQqAAfFT.KYkfwt4kE6Ug#1" target="_blank" rel="noopener noreferrer">deficiencies </a>over time, especially with regard vitamins C, E, fiber, magnesium, potassium, calcium, iodine and other trace minerals, and bacteria needed to process plant foods (which already are likely missing in people who need this diet), thus making the carnivore diet sort of hard to get off.</span></div>
+<div class="blk li" id="b17" data-b="17"><span class="pn">P11</span><span class="mk">•</span><span class="lt">For the most research-backed recommendations you can check this <a href="https://chatgpt.com/g/g-p-6a649d7770748191b7c9063be22b3b02-askrigor-com-aug-6-2026/shared/c/6a752710-1690-83ea-b776-1562c4614ab1?owner_user_id=user-g2rbxGmNt0TNQzl5Kw5jDvko" target="_blank" rel="noopener noreferrer">HRP deep research report</a>. Glutamine seems worth checking into, but plant intolerance is a symptom of a variety of underlying diseases that all have different treatments.</span></div>
+<div class="blk li" id="b18" data-b="18"><span class="pn">P12</span><span class="mk">•</span><span class="lt"><mark class="hl t-structure" data-s="G2">Leaky gut</mark>: a widespread inflammatory condition often intersecting with other categories of illness such as Crohn’s Disease or IBS, plant food intolerance, and what many alternative health practitioners consider as a <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6996528/" target="_blank" rel="noopener noreferrer">root cause of most diseases</a>. It’s associated with increased zonulin levels clinically. Zonulin is the molecule released to signal your intestinal tight jungtions to open. Too much opening time leads to allowing stuff to leak out into your blood stream which then burdens your immune system and detoxification systems. Game-changing treatments:</span></div>
+<div class="blk li" id="b19" data-b="19"><span class="mk">•</span><span class="lt">Liposomal first-milking colostrum (esp. fermented per Matt Nedin’s protocol with bifidobacterium, or <a href="http://siboyogurt.u-dont-exist.com" target="_blank" rel="noopener noreferrer">SIBO yogurt</a> bacteria). Matt from <a href="http://endsickness.org" target="_blank" rel="noopener noreferrer">Endsickness.org</a> finds that this helps especially to mop up mycotoxins in the gut. Activated charcoal can also be helpful, altho don’t take that with things you want to actually absorb.</span></div>
+<div class="blk li" id="b20" data-b="20"><span class="pn">P13</span><span class="mk">•</span><span class="lt">Fermented veggie juices of turmeric, red cabbage, celery, beet greens (not just beet root).</span></div>
+<div class="blk li" id="b21" data-b="21"><span class="pn">P14</span><span class="mk">•</span><span class="lt">Zinc carnosine, the form of zinc which stays in your intestinal gaps.</span></div>
+<div class="blk li" id="b22" data-b="22"><span class="pn">P15</span><span class="mk">•</span><span class="lt">A <a href="http://barrier.co" target="_blank" rel="noopener noreferrer">good BPC-157 supplement,</a> like this one from Barrier, can also help. Note: I think Barrier’s product looks smart, and their product may be really ideal, but there are some red flags in their marketing since they say it’s made from plants, which is false.</span></div>
+<div class="blk li" id="b23" data-b="23"><span class="pn">P16</span><span class="mk">•</span><span class="lt">Beta-glucans, in yeast extract.</span></div>
+<div class="blk li" id="b24" data-b="24"><span class="pn">P17</span><span class="mk">•</span><span class="lt"><a href="https://substack.com/@udontexist/note/c-222821728" target="_blank" rel="noopener noreferrer">Resistant starch</a> to feed the good bacteria in your gut.</span></div>
+<div class="blk li" id="b25" data-b="25"><span class="pn">P18</span><span class="mk">•</span><span class="lt">Ozonated zeolite (or <a href="http://zeolitelabs.com/proof" target="_blank" rel="noopener noreferrer">ZeoCharge</a>): I find regular zeolite to be ineffective, because the pores on it are clogged up, so it can’t adsorb excess zonulin, metals, and other toxins.</span></div>
+<div class="blk li" id="b26" data-b="26"><span class="pn">P19</span><span class="mk">•</span><span class="lt">Mitochondrial &amp; Cellular Energy Starvation (Glutamine, Butyrate, TCA Intermediates): Your gut barrier requires massive amounts of immediate, localized energy to maintain tight junction integrity. If your enterocytes (small intestine) or colonocytes (large intestine) lack their preferred mitochondrial fuels, the barrier structurally collapses, allowing lipopolysaccharides (LPS) and endotoxins to leak into systemic circulation.</span></div>
+<div class="blk li" id="b27" data-b="27"><span class="pn">P20</span><span class="mk">•</span><span class="lt">L-Glutamine (<a href="https://m.youtube.com/watch?v=5DVUEKrekYw&amp;ra=m" target="_blank" rel="noopener noreferrer">watch Dr. Rhonda vid</a>): The absolute premier energy substrate for enterocytes and activated immune cells. It bypasses complex digestive steps, converting directly into alpha-ketoglutarate (α-KG) inside the mitochondria to power the citric acid cycle. This immediate cellular energy hit actively drives the repair of the gut mucosal barrier and prevents LPS translocation.</span></div>
+<div class="blk li" id="b28" data-b="28"><span class="pn">P21</span><span class="mk">•</span><span class="lt">Dosing: Use 5g daily as a baseline to counter the gut mucosal breakdown caused by high-intensity or high-volume training (like CrossFit or intense cardio). Titrate up to 10–30g daily during acute immune exposure, high systemic stress, or if you are dealing with active IBD (Crohn’s/Colitis).</span></div>
+<div class="blk li" id="b29" data-b="29"><span class="pn">P22</span><span class="mk">•</span><span class="lt">The Cancer Caveat: Because hyper-proliferative cancer cells can also hijack glutamine to fuel their rapid replication, avoid high-dose protocol titrations if you have an active, existing colon or liver malignancy (the liver sees it first via portal vein delivery).</span></div>
+<div class="blk li" id="b30" data-b="30"><span class="pn">P23</span><span class="mk">•</span><span class="lt">Butyrate &amp; SCFAs: While the small intestine runs on glutamine, the large intestine relies on short-chain fatty acids (SCFAs) like butyrate. Getting these via raw resistant starch fermentation or your home-brewed SIBO yogurt fuels colonocytes, locks down the lower gut barrier, and systematically suppresses inflammatory signals.</span></div>
+<div class="blk li" id="b31" data-b="31"><span class="pn">P24</span><span class="mk">•</span><span class="lt">TCA Cycle Intermediates (Malic &amp; Citric Acid): Organic acids like malate and citrate feed directly into the exact same mitochondrial energy pathways as glutamine. Consuming clean, sour profiles—such as organic malic acid, tart cherries, or green apples—provides rapid, alternative fuel to gut epithelial cells, accelerating mucosal healing from a different biochemical angle.</span></div>
+<div class="blk li" id="b32" data-b="32"><span class="pn">P25</span><span class="mk">•</span><span class="lt"><mark class="hl t-structure" data-s="G2">IBS</mark>: While there are many causes and types of irritable bowel syndrome, <a href="https://healingmaps.com/psychedelics-for-ibs-and-lyme-disease-evidence-mounts/" target="_blank" rel="noopener noreferrer">psychedelics are one promising new avenue of treatment</a>. However, it’s always best to find the root cause of the problem, which requires investigation. A <a href="http://ifm.org" target="_blank" rel="noopener noreferrer">functional medicine</a> gastroenterologist might help.</span></div>
+<div class="blk li" id="b33" data-b="33"><span class="pn">P26</span><span class="mk">•</span><span class="lt"><mark class="hl t-structure" data-s="G2">Low stomach acid, enzymes, and thick bile</mark>: which in turn are often due to poor diet, stress, infections. T.C. Hale has a lot of videos on healing digestion issues, which in his experience as a health coach, are often due to these root causes. He’s a bit controversial on some points such as his urine pH testing for anabolic/catabolic state freezes, but he does have some good suggestions he explains in his book.</span></div>
+<h3 class="blk" id="b34" data-b="34">Concise Recipe for Gut Healing:</h3>
+<p class="blk" id="b35" data-b="35"><span class="pn">P1</span>I have consolidated the top 9 most effective gut healing books into a customized smart Gemini Pro <a href="http://gutgem.u-dont-exist.com" target="_blank" rel="noopener noreferrer">Gut Health Gem</a>. You can ask any questions in that Gem to consult the following 9 experts at once and get far better advice than you’d get from any one of them! If you have any other books you think would be better, lmk in comments!</p>
+<p class="blk" id="b36" data-b="36"><span class="pn">P2</span><mark class="hl t-explainer" data-s="G1">NOTE: this gut gem does not include some of my research in this article, which is newer, especially from folks like </mark><mark class="hl t-explainer" data-s="G1"><a href="http://endsickness.org" target="_blank" rel="noopener noreferrer">Matt from EndSickness.org </a></mark><mark class="hl t-explainer" data-s="G1">who doesn’t have a comprehensive text for Gemini to read.</mark></p>
+<section class="card t-explainer" id="c-G1" data-id="G1" data-type="explainer" data-advice="approve" data-block="36">
+<div class="card-top"><button type="button" class="chip t-explainer" data-filter-type="explainer" title="What the Gem has and doesn&#x27;t">Explainer</button><span class="cid">G1</span><span class="ctitle">Say plainly that the Gem only has the books</span><span class="pill" aria-live="polite">Not approved yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="changes"><div class="chg"><div class="chg-k">Concise Recipe for Gut Healing:, P2 now</div><div class="dif side now">NOTE: this gut gem does not include some of my research in this article, which is newer, especially from folks like Matt from EndSickness.org who doesn’t have a comprehensive text for Gemini to read.</div><div class="chg-k">How it would read</div><div class="dif side after">NOTE: this gut gem does not include some of my research in this article, which is newer, especially from folks like Matt from EndSickness.org who doesn’t have a comprehensive text for Gemini to read.<ins> So the phases below are only what the Gem will tell you, from the nine books. Where my notes in the causes above change or add to a phase, I point back to them under &quot;My notes&quot; in that phase.</ins></div></div></div>
+<div class="info"><div class="row"><span class="lab">What changes</span> <span>Two sentences added to your NOTE, at the top of the recipe.</span></div><div class="row"><span class="lab">Why</span> <span>You asked for an explainer that the Gem will not have your notes. Your NOTE already says the Gem leaves out some of your research; this says what that means for the phases and tells the reader where your notes are.</span></div><div class="row"><span class="lab">What stays</span> <span>Your NOTE as it is, word for word, before the new sentences.</span></div><div class="row"><span class="lab">You&#x27;re deciding</span> <span>New wording, mine: approve it, or Revise with your own.</span></div><div class="row advice"><span class="lab">My advice</span> <span><b>Approve.</b> I&#x27;d take it. It&#x27;s short, and without it a reader can&#x27;t tell which advice is the books&#x27; and which is yours.</span></div></div>
+<div class="decide" role="group" aria-label="Decision on G1"><button type="button" class="dec approve" data-dec="approved">Approve: use this wording</button><button type="button" class="dec reject" data-dec="rejected">Reject: keep it as it is</button><button type="button" class="dec revise" data-dec="revise">Revise</button><button type="button" class="dec undo" data-dec="pending">Not approved yet</button></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="4" placeholder="Your wording, or what to change"></textarea></label>
+<label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note on this suggestion (optional)"></textarea></label>
+<div class="saved-line"></div>
+</div></section>
+<h4 class="blk" id="b37" data-b="37">Text Summary of the Protocol</h4>
+<p class="blk" id="b38" data-b="38"><span class="pn">P1</span>This protocol is designed to be executed in phases. Do not skip phases. You only move to the next phase if the current one fails to resolve symptoms.</p>
+<h5 class="blk" id="b39" data-b="39">Phase 1: The Pre-Flight Safety Check (The Mechanic &amp; Electrician)</h5>
+<div class="blk li" id="b40" data-b="40"><span class="pn">P1</span><span class="mk">•</span><span class="lt">Source: T.C. Hale (Kick Your Fat in the Nuts) &amp; Stanley Rosenberg (Accessing the Healing Power of the Vagus Nerve)</span></div>
+<div class="blk li" id="b41" data-b="41"><span class="pn">P2</span><span class="mk">•</span><span class="lt">The Logic: Before you add “fuel” (supplements) or “fire” (antimicrobials), you must ensure the engine is mechanically sound.</span></div>
+<div class="blk li" id="b42" data-b="42"><span class="pn">P3</span><span class="mk">•</span><span class="lt">The Protocol:</span></div>
+<div class="blk li" id="b43" data-b="43"><span class="mk">1.</span><span class="lt">Check Autonomic Tone (Hale): Are pupils constantly dilated? Is the gag reflex absent? If yes, you are in “Sympathetic Dominance” (Fight/Flight) and digestion is offline.</span></div>
+<div class="blk li" id="b44" data-b="44"><span class="pn">P4</span><span class="mk">2.</span><span class="lt">The Fix (Rosenberg): Perform the “Basic Exercise” (eye movements) or “The Salamander” to mechanically release the Vagus nerve and switch the body into “Rest and Digest.”</span></div>
+<div class="blk li" id="b45" data-b="45"><span class="pn">P5</span><span class="mk">3.</span><span class="lt">Check Bile Flow (Hale): Do you burp after fatty meals? Do stools float or look clay-colored? If yes, bile is stagnant. Taking antimicrobials now will cause a “herx” reaction you cannot detoxify.</span></div>
+<div class="blk li" id="b46" data-b="46"><span class="pn">P6</span><span class="mk">4.</span><span class="lt">The Fix (Hale): Use Beet Flow or Phosphatidylcholine to thin bile before starting any killing protocol.</span></div>
+<section class="card t-pointer" id="c-G5" data-id="G5" data-type="pointer" data-advice="approve" data-block="">
+<div class="card-top"><button type="button" class="chip t-pointer" data-filter-type="pointer" title="A phase points back to your notes">Pointer to your notes</button><span class="cid">G5</span><span class="ctitle">&quot;My notes&quot; line for Phase 1</span><span class="pill" aria-live="polite">Not approved yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="changes"><div class="chg"><div class="chg-k">New line, above the heading &quot;Phase 2: The Reset (The Architect &amp; Scientist)&quot;</div><div class="ins-h"><ins>My notes: for stress and sleep see Severe stress above, and for stomach acid and bile see Low stomach acid.</ins></div><div class="ctx">Phase 2: The Reset (The Architect &amp; Scientist)</div></div></div>
+<div class="info"><div class="row"><span class="lab">What changes</span> <span>One line at the end of Phase 1 pointing back to your notes.</span></div><div class="row"><span class="lab">Why</span> <span>Your stress, sleep and bile notes (your mindset, loveyhuasca and sleep pages; T.C. Hale) belong with the pre-flight check. You asked that phases which benefit from your notes refer back to them explicitly.</span></div><div class="row"><span class="lab">What stays</span> <span>The phase itself, word for word.</span></div><div class="row"><span class="lab">You&#x27;re deciding</span> <span>New wording, mine. Reject it if this phase doesn&#x27;t need the pointer.</span></div><div class="row advice"><span class="lab">My advice</span> <span>Approve.</span></div></div>
+<div class="decide" role="group" aria-label="Decision on G5"><button type="button" class="dec approve" data-dec="approved">Approve: use this wording</button><button type="button" class="dec reject" data-dec="rejected">Reject: keep it as it is</button><button type="button" class="dec revise" data-dec="revise">Revise</button><button type="button" class="dec undo" data-dec="pending">Not approved yet</button></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="4" placeholder="Your wording, or what to change"></textarea></label>
+<label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note on this suggestion (optional)"></textarea></label>
+<div class="saved-line"></div>
+</div></section>
+<div class="marker t-pointer" data-s="G5"><span class="mk-k">G5, new line:</span> <span class="mk-h">My notes: for stress and sleep see Severe stress above, and for stomach acid and bile see Low stomach acid.</span></div>
+<h5 class="blk" id="b47" data-b="47">Phase 2: The Reset (The Architect &amp; Scientist)</h5>
+<div class="blk li" id="b48" data-b="48"><span class="pn">P1</span><span class="mk">•</span><span class="lt">Source: Dr. Michael Ruscio (Healthy Gut, Healthy You) &amp; Dr. Mark Pimentel (The Microbiome Connection)</span></div>
+<div class="blk li" id="b49" data-b="49"><span class="pn">P2</span><span class="mk">•</span><span class="lt">The Logic: Reduce inflammation and starve overgrowths without harsh chemicals.</span></div>
+<div class="blk li" id="b50" data-b="50"><span class="pn">P3</span><span class="mk">•</span><span class="lt">The Protocol:</span></div>
+<div class="blk li" id="b51" data-b="51"><span class="mk">1.</span><span class="lt">Diet: Adopt a Paleo-Low FODMAP diet (Ruscio) or a Low Fermentation Eating plan (Pimentel). The goal is to stop feeding bacteria in the small intestine.</span></div>
+<div class="blk li" id="b52" data-b="52"><span class="pn">P4</span><span class="mk">2.</span><span class="lt">Meal Spacing (Pimentel): Strictly space meals 4-5 hours apart with no snacking. This allows the Migrating Motor Complex (MMC) to sweep the gut clean.</span></div>
+<section class="card t-pointer" id="c-G6" data-id="G6" data-type="pointer" data-advice="approve" data-block="">
+<div class="card-top"><button type="button" class="chip t-pointer" data-filter-type="pointer" title="A phase points back to your notes">Pointer to your notes</button><span class="cid">G6</span><span class="ctitle">&quot;My notes&quot; line for Phase 2</span><span class="pill" aria-live="polite">Not approved yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="changes"><div class="chg"><div class="chg-k">New line, above the heading &quot;Phase 3: The Purge (The Restorer)&quot;</div><div class="ins-h"><ins>My notes: see Poor diet now and Plant foods, above.</ins></div><div class="ctx">Phase 3: The Purge (The Restorer)</div></div></div>
+<div class="info"><div class="row"><span class="lab">What changes</span> <span>One line at the end of Phase 2 pointing back to your notes.</span></div><div class="row"><span class="lab">Why</span> <span>Your notes on industrial oils and on the carnivore diet and plant intolerance go with the reset diet. You asked that phases which benefit from your notes refer back to them explicitly.</span></div><div class="row"><span class="lab">What stays</span> <span>The phase itself, word for word.</span></div><div class="row"><span class="lab">You&#x27;re deciding</span> <span>New wording, mine. Reject it if this phase doesn&#x27;t need the pointer.</span></div><div class="row advice"><span class="lab">My advice</span> <span>Approve.</span></div></div>
+<div class="decide" role="group" aria-label="Decision on G6"><button type="button" class="dec approve" data-dec="approved">Approve: use this wording</button><button type="button" class="dec reject" data-dec="rejected">Reject: keep it as it is</button><button type="button" class="dec revise" data-dec="revise">Revise</button><button type="button" class="dec undo" data-dec="pending">Not approved yet</button></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="4" placeholder="Your wording, or what to change"></textarea></label>
+<label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note on this suggestion (optional)"></textarea></label>
+<div class="saved-line"></div>
+</div></section>
+<div class="marker t-pointer" data-s="G6"><span class="mk-k">G6, new line:</span> <span class="mk-h">My notes: see Poor diet now and Plant foods, above.</span></div>
+<h5 class="blk" id="b53" data-b="53">Phase 3: The Purge (The Restorer)</h5>
+<div class="blk li" id="b54" data-b="54"><span class="pn">P1</span><span class="mk">•</span><span class="lt">Source: Dr. William Davis (Super Gut) &amp; Dr. Michael Ruscio</span></div>
+<div class="blk li" id="b55" data-b="55"><span class="pn">P2</span><span class="mk">•</span><span class="lt">The Logic: If diet didn’t clear the symptoms, active overgrowth (SIBO/SIFO) is likely present.</span></div>
+<div class="blk li" id="b56" data-b="56"><span class="pn">P3</span><span class="mk">•</span><span class="lt">The Protocol:</span></div>
+<div class="blk li" id="b57" data-b="57"><span class="mk">1.</span><span class="lt">AVOID Most Herbal Antibiotics. Davis recommends using specific herbal combinations like Candibactin AR/BR or FC Cidal/Dysbiocide for 4 weeks.</span></div>
+<div class="blk li" id="b58" data-b="58"><span class="pn">P4</span><span class="mk">2.</span><span class="lt"><a href="http://h2o2.u-dont-exist.com" target="_blank" rel="noopener noreferrer">H2O2</a> actually works better than the herbal antibiotics according to me and orthomolecular drs. My BFF Pooyan tried candibactin actually and it nearly killed him. The H2O2 worked a lot better without side effects. There is one herbal antibiotic that works really well tho for H. pylori: Berberine. If you have an acute infection with something that those don’t help quickly, consider escalating to secnidazole treatment for rapid cure, and paromomycin post-treatment for relapse prevention, with medical supervision.</span></div>
+<div class="blk li" id="b59" data-b="59"><span class="pn">P5</span><span class="mk">3.</span><span class="lt">BIND to the toxins, especially the metals and parasite die of toxins, using <a href="http://zholy3o.u-dont-exist.com" target="_blank" rel="noopener noreferrer">Zholy3O</a>.</span></div>
+<div class="blk li" id="b60" data-b="60"><span class="pn">P6</span><span class="mk">4.</span><span class="lt">Triple Probiotic Support (Ruscio): Simultaneously take a blend of Lacto/Bifido, S. boulardii, and Soil-Based organisms to maintain diversity and prevent opportunistic infections (like C. diff) during the kill phase.</span></div>
+<h5 class="blk" id="b61" data-b="61"><mark class="hl t-structure" data-s="G3">Phase 4: The “Nuclear” Option (The Architect)</mark></h5>
+<div class="blk li" id="b62" data-b="62"><span class="pn">P1</span><span class="mk">•</span><span class="lt">Source: Dr. Michael Ruscio</span></div>
+<div class="blk li" id="b63" data-b="63"><span class="pn">P2</span><span class="mk">•</span><span class="lt">The Logic: If herbs failed, the overgrowth is too severe or the gut lining is too damaged for solids.</span></div>
+<div class="blk li" id="b64" data-b="64"><span class="pn">P3</span><span class="mk">•</span><span class="lt">The Protocol:</span></div>
+<div class="blk li" id="b65" data-b="65"><span class="mk">1.</span><span class="lt">The Elemental Diet: A 2-3 week liquid-only diet (predigested nutrients). This starves bacteria completely while nourishing the human host.</span></div>
+<section class="card t-pointer" id="c-G7" data-id="G7" data-type="pointer" data-advice="approve" data-block="">
+<div class="card-top"><button type="button" class="chip t-pointer" data-filter-type="pointer" title="A phase points back to your notes">Pointer to your notes</button><span class="cid">G7</span><span class="ctitle">&quot;My notes&quot; line for Phase 3</span><span class="pill" aria-live="polite">Not approved yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="changes"><div class="chg"><div class="chg-k">New line, above the heading &quot;Phase 5: The Investigation (The Detective &amp; Hazmat Team)&quot;</div><div class="ins-h"><ins>My notes: the H2O2 swap above is mine, not the books&#x27;. For berberine and H. pylori see Parasites, and for SIBO yogurt see SIBO, above.</ins></div><div class="ctx">Phase 5: The Investigation (The Detective &amp; Hazmat Team)</div></div></div>
+<div class="info"><div class="row"><span class="lab">What changes</span> <span>One line at the end of Phase 3 pointing back to your notes.</span></div><div class="row"><span class="lab">Why</span> <span>Phase 3 already has your H2O2 change inside it; this marks it as yours and points to your berberine and SIBO yogurt notes. You asked that phases which benefit from your notes refer back to them explicitly.</span></div><div class="row"><span class="lab">What stays</span> <span>The phase itself, word for word.</span></div><div class="row"><span class="lab">You&#x27;re deciding</span> <span>New wording, mine. Reject it if this phase doesn&#x27;t need the pointer.</span></div><div class="row advice"><span class="lab">My advice</span> <span>Approve.</span></div></div>
+<div class="decide" role="group" aria-label="Decision on G7"><button type="button" class="dec approve" data-dec="approved">Approve: use this wording</button><button type="button" class="dec reject" data-dec="rejected">Reject: keep it as it is</button><button type="button" class="dec revise" data-dec="revise">Revise</button><button type="button" class="dec undo" data-dec="pending">Not approved yet</button></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="4" placeholder="Your wording, or what to change"></textarea></label>
+<label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note on this suggestion (optional)"></textarea></label>
+<div class="saved-line"></div>
+</div></section>
+<div class="marker t-pointer" data-s="G7"><span class="mk-k">G7, new line:</span> <span class="mk-h">My notes: the H2O2 swap above is mine, not the books&#x27;. For berberine and H. pylori see Parasites, and for SIBO yogurt see SIBO, above.</span></div>
+<h5 class="blk" id="b66" data-b="66"><mark class="hl t-structure" data-s="G3">Phase 5: The Investigation (The Detective &amp; Hazmat Team)</mark></h5>
+<div class="blk li" id="b67" data-b="67"><span class="pn">P1</span><span class="mk">•</span><span class="lt">Source: Benjamin Brown (Digestive Health Solution), Neil Nathan (Toxic), Annie Hopper (Wired for Healing)</span></div>
+<div class="blk li" id="b68" data-b="68"><span class="pn">P2</span><span class="mk">•</span><span class="lt">The Logic: If the “Nuclear Option” failed, the problem is not the microbiome. It is likely organ failure, environmental toxicity, or brain plasticity.</span></div>
+<div class="blk li" id="b69" data-b="69"><span class="pn">P3</span><span class="mk">•</span><span class="lt">The Protocol:</span></div>
+<div class="blk li" id="b70" data-b="70"><span class="mk">1.</span><span class="lt">Check Organs (Brown): Test for Exocrine Pancreatic Insufficiency (Stool Elastase) or Bile Acid Diarrhea (SeHCAT). Treat with high-dose enzymes or bile binders.</span></div>
+<div class="moving t-structure" data-s="G3"><div class="moving-k">Moves (G3)</div><div class="blk li" id="b71" data-b="71"><span class="pn">P4</span><span class="mk">2.</span><span class="lt">Check Environment (Nathan): Assess for Mold/Mycotoxins or Lyme. If positive, use specific binders (Cholestyramine, Charcoal, Clay).</span></div></div>
+<div class="moving t-structure" data-s="G3"><div class="moving-k">Moves (G3)</div><div class="blk li" id="b72" data-b="72"><span class="pn">P5</span><span class="mk">3.</span><span class="lt">Check Brain (Hopper): If you react to everything, the issue is Limbic System Impairment. Use “Brain Retraining” (DNRS) to stop the brain from firing false “danger” signals to the gut.</span></div></div>
+<section class="card t-pointer" id="c-G8" data-id="G8" data-type="pointer" data-advice="approve" data-block="">
+<div class="card-top"><button type="button" class="chip t-pointer" data-filter-type="pointer" title="A phase points back to your notes">Pointer to your notes</button><span class="cid">G8</span><span class="ctitle">&quot;My notes&quot; line for Phase 4 (Investigation)</span><span class="pill" aria-live="polite">Not approved yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="changes"><div class="chg"><div class="chg-k">New line, above the heading &quot;Phase 6: Restoration &amp; Maintenance (The Gardener)&quot;</div><div class="ins-h"><ins>My notes: two things the books don&#x27;t cover, old impaction and colon hydrotherapy (Years of accumulated shit, above) and psychedelics for IBS (IBS, above).</ins></div><div class="ctx">Phase 6: Restoration &amp; Maintenance (The Gardener)</div></div></div>
+<div class="info"><div class="row"><span class="lab">What changes</span> <span>One line at the end of Phase 4 (Investigation) pointing back to your notes.</span></div><div class="row"><span class="lab">Why</span> <span>Your two findings that the books have no place for sit closest to investigation. You asked that phases which benefit from your notes refer back to them explicitly.</span></div><div class="row"><span class="lab">What stays</span> <span>The phase itself, word for word.</span></div><div class="row"><span class="lab">You&#x27;re deciding</span> <span>New wording, mine. Reject it if this phase doesn&#x27;t need the pointer.</span></div><div class="row advice"><span class="lab">My advice</span> <span>Approve.</span></div></div>
+<div class="decide" role="group" aria-label="Decision on G8"><button type="button" class="dec approve" data-dec="approved">Approve: use this wording</button><button type="button" class="dec reject" data-dec="rejected">Reject: keep it as it is</button><button type="button" class="dec revise" data-dec="revise">Revise</button><button type="button" class="dec undo" data-dec="pending">Not approved yet</button></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="4" placeholder="Your wording, or what to change"></textarea></label>
+<label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note on this suggestion (optional)"></textarea></label>
+<div class="saved-line"></div>
+</div></section>
+<div class="marker t-pointer" data-s="G8"><span class="mk-k">G8, new line:</span> <span class="mk-h">My notes: two things the books don&#x27;t cover, old impaction and colon hydrotherapy (Years of accumulated shit, above) and psychedelics for IBS (IBS, above).</span></div>
+<h5 class="blk" id="b73" data-b="73"><mark class="hl t-structure" data-s="G3">Phase 6: Restoration &amp; Maintenance (The Gardener)</mark></h5>
+<div class="blk li" id="b74" data-b="74"><span class="pn">P1</span><span class="mk">•</span><span class="lt">Source: Dr. William Davis &amp; Dr. Will Bulsiewicz (Fiber Fueled)</span></div>
+<div class="blk li" id="b75" data-b="75"><span class="pn">P2</span><span class="mk">•</span><span class="lt">The Logic: You are clear of infection. Now you must rebuild a diverse ecosystem to prevent relapse.</span></div>
+<div class="blk li" id="b76" data-b="76"><span class="pn">P3</span><span class="mk">•</span><span class="lt">The Protocol:</span></div>
+<div class="blk li" id="b77" data-b="77"><span class="mk">1.</span><span class="lt">Re-Seed (Davis): Introduce high-dose “SIBO Yogurt” (fermented for 36 hours) containing L. reuteri (to heal the lining and boost oxytocin) and L. gasseri (to produce bacteriocins that kill SIBO).</span></div>
+<div class="blk li" id="b78" data-b="78"><span class="pn">P4</span><span class="mk">2.</span><span class="lt">Feed (Bulsiewicz): Slowly titrate plant diversity back into the diet. Aim for 30+ different plants per week to feed the new healthy bacteria.</span></div>
+<div class="blk li" id="b79" data-b="79"><span class="pn">P5</span><span class="mk">3.</span><span class="lt">Maintain (Pimentel): Continue strict meal spacing (4+ hours) forever to keep the MMC cleaning wave active.</span></div>
+<div class="blk li" id="b80" data-b="80"><span class="pn">P6</span><span class="mk">4.</span><span class="lt"><mark class="hl t-dedupe" data-s="G4">Fuel the Mitochondria: Deploy L-Glutamine (5–30g based on inflammatory load), butyrate-producing substrates (resistant starch), and TCA cycle intermediates (malic acid/citrate) to provide immediate cellular energy to enterocytes, cementing tight junction integrity and permanently halting LPS translocation.</mark></span></div>
+<section class="card t-pointer" id="c-G10" data-id="G10" data-type="pointer" data-advice="approve" data-block="">
+<div class="card-top"><button type="button" class="chip t-pointer" data-filter-type="pointer" title="A phase points back to your notes">Pointer to your notes</button><span class="cid">G10</span><span class="ctitle">&quot;My notes&quot; line for Phase 6 (Refractory)</span><span class="pill" aria-live="polite">Not approved yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="changes"><div class="chg"><div class="chg-k">New line, above the heading &quot;Optional Ready-Made Gut Stacks&quot;</div><div class="ins-h"><ins>My notes: Matt&#x27;s note on mopping up mycotoxins with fermented colostrum is under Leaky gut, above.</ins></div><div class="ctx">Optional Ready-Made Gut Stacks</div></div></div>
+<div class="info"><div class="row"><span class="lab">What changes</span> <span>One line at the end of Phase 6 (Refractory) pointing back to your notes.</span></div><div class="row"><span class="lab">Why</span> <span>Nathan&#x27;s mold step is where a reader with mycotoxins will look; Matt&#x27;s finding is in your leaky gut list. You asked that phases which benefit from your notes refer back to them explicitly.</span></div><div class="row"><span class="lab">What stays</span> <span>The phase itself, word for word.</span></div><div class="row"><span class="lab">You&#x27;re deciding</span> <span>New wording, mine. Reject it if this phase doesn&#x27;t need the pointer.</span></div><div class="row advice"><span class="lab">My advice</span> <span>Approve.</span></div></div>
+<div class="decide" role="group" aria-label="Decision on G10"><button type="button" class="dec approve" data-dec="approved">Approve: use this wording</button><button type="button" class="dec reject" data-dec="rejected">Reject: keep it as it is</button><button type="button" class="dec revise" data-dec="revise">Revise</button><button type="button" class="dec undo" data-dec="pending">Not approved yet</button></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="4" placeholder="Your wording, or what to change"></textarea></label>
+<label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note on this suggestion (optional)"></textarea></label>
+<div class="saved-line"></div>
+</div></section>
+<section class="card t-structure" id="c-G3" data-id="G3" data-type="structure" data-advice="approve" data-block="61">
+<div class="card-top"><button type="button" class="chip t-structure" data-filter-type="structure" title="Order and grouping you approved">Structure</button><span class="cid">G3</span><span class="ctitle">The phases follow the Gem&#x27;s six</span><span class="pill" aria-live="polite">Not approved yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="changes"><div class="chg"><div class="chg-k">Phases 3 to 6 as they would read</div><div class="reads"><p class="rd rd-h rd-h4"><span class="rd-hm">#### </span>Phase 3: The Purge (The Restorer)</p><p class="rd">Source: Dr. William Davis (Super Gut) &amp; Dr. Michael Ruscio</p><p class="rd">The Logic: If diet didn’t clear the symptoms, active overgrowth (SIBO/SIFO) is likely present.</p><p class="rd">The Protocol:</p><p class="rd">AVOID Most Herbal Antibiotics. Davis recommends using specific herbal combinations like Candibactin AR/BR or FC Cidal/Dysbiocide for 4 weeks.</p><p class="rd">H2O2 actually works better than the herbal antibiotics according to me and orthomolecular drs. My BFF Pooyan tried candibactin actually and it nearly killed him. The H2O2 worked a lot better without side effects. There is one herbal antibiotic that works really well tho for H. pylori: Berberine. If you have an acute infection with something that those don’t help quickly, consider escalating to secnidazole treatment for rapid cure, and paromomycin post-treatment for relapse prevention, with medical supervision.</p><p class="rd">BIND to the toxins, especially the metals and parasite die of toxins, using Zholy3O.</p><p class="rd">Triple Probiotic Support (Ruscio): Simultaneously take a blend of Lacto/Bifido, S. boulardii, and Soil-Based organisms to maintain diversity and prevent opportunistic infections (like C. diff) during the kill phase.</p><p class="rd">5. <ins>The “Nuclear” Option (Ruscio):</ins> If herbs failed, the overgrowth is too severe or the gut lining is too damaged for solids. The Elemental Diet: A 2-3 week liquid-only diet (predigested nutrients). This starves bacteria completely while nourishing the human host.</p><p class="rd rd-h rd-h4"><span class="rd-hm">#### </span>Phase <ins>4</ins>: The Investigation (The Detective<ins>)</ins></p><p class="rd">Source: Benjamin Brown (Digestive Health Solution)</p><p class="rd">The Logic: If the “Nuclear Option” failed, the problem is not the microbiome. It is likely organ failure, environmental toxicity, or brain plasticity. <ins>(The last two are Phase 6, below.)</ins></p><p class="rd">The Protocol:</p><p class="rd">1. Check Organs (Brown): Test for Exocrine Pancreatic Insufficiency (Stool Elastase) or Bile Acid Diarrhea (SeHCAT). Treat with high-dose enzymes or bile binders.</p><p class="rd rd-h rd-h4"><span class="rd-hm">#### </span>Phase <ins>5</ins>: Restoration &amp; Maintenance (The Gardener)</p><p class="rd">Source: Dr. William Davis &amp; Dr. Will Bulsiewicz (Fiber Fueled)</p><p class="rd">The Logic: You are clear of infection. Now you must rebuild a diverse ecosystem to prevent relapse.</p><p class="rd">The Protocol:</p><p class="rd">1. Re-Seed (Davis): Introduce high-dose “SIBO Yogurt” (fermented for 36 hours) containing L. reuteri (to heal the lining and boost oxytocin) and L. gasseri (to produce bacteriocins that kill SIBO).</p><p class="rd">2. Feed (Bulsiewicz): Slowly titrate plant diversity back into the diet. Aim for 30+ different plants per week to feed the new healthy bacteria.</p><p class="rd">3. Maintain (Pimentel): Continue strict meal spacing (4+ hours) forever to keep the MMC cleaning wave active.</p><p class="rd">4. Fuel the Mitochondria: Deploy L-Glutamine (5–30g based on inflammatory load), butyrate-producing substrates (resistant starch), and TCA cycle intermediates (malic acid/citrate) to provide immediate cellular energy to enterocytes, cementing tight junction integrity and permanently halting LPS translocation.</p><p class="rd rd-h rd-h4"><span class="rd-hm">#### </span><ins>Phase 6: Refractory Cases (The Hazmat Team)</ins></p><p class="rd"><ins>Source: Neil Nathan (Toxic), Annie Hopper (Wired for Healing)</ins></p><p class="rd">The Logic: <ins>For cases that are &quot;sensitive to everything,&quot; or that relapse right away despite perfect adherence.</ins></p><p class="rd">The Protocol:</p><p class="rd">1. Check Environment (Nathan): Assess for Mold/Mycotoxins or Lyme. If positive, use specific binders (Cholestyramine, Charcoal, Clay).</p><p class="rd">2. Check Brain (Hopper): If you react to everything, the issue is Limbic System Impairment. Use “Brain Retraining” (DNRS) to stop the brain from firing false “danger” signals to the gut.</p></div></div></div>
+<div class="info"><div class="row"><span class="lab">What changes</span> <span>The elemental diet becomes the Purge&#x27;s last step, as in the Gem. Investigation becomes Phase 4 (Brown), Restoration Phase 5, and Nathan&#x27;s mold and Hopper&#x27;s brain retraining go to a new Phase 6 for refractory cases.</span></div><div class="row"><span class="lab">Why</span> <span>Your S6 approval: a reader who asks the Gem about &quot;Phase 5&quot; should get what the article calls Phase 5.</span></div><div class="row"><span class="lab">What stays</span> <span>Every sentence of every phase. The Nuclear option&#x27;s two sentences and the elemental diet keep their words; Nathan&#x27;s and Hopper&#x27;s checks move word for word.</span></div><div class="row"><span class="lab">You&#x27;re deciding</span> <span>The move is approved. What&#x27;s mine: the new Phase 6 title &quot;Refractory Cases (The Hazmat Team)&quot;, its Logic line (the Gem&#x27;s own trigger, &quot;sensitive to everything&quot; or immediate relapse despite perfect adherence), &quot;(The Detective)&quot; for Phase 4, and &quot;(The last two are Phase 6, below.)&quot; after Investigation&#x27;s Logic.</span></div><div class="row advice"><span class="lab">My advice</span> <span>Approve, or Revise with your own title or Logic line for Phase 6.</span></div></div>
+<div class="decide" role="group" aria-label="Decision on G3"><button type="button" class="dec approve" data-dec="approved">Approve: make this change</button><button type="button" class="dec reject" data-dec="rejected">Reject: keep it as it is</button><button type="button" class="dec revise" data-dec="revise">Revise</button><button type="button" class="dec undo" data-dec="pending">Not approved yet</button></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="4" placeholder="Your wording, or what to change"></textarea></label>
+<label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note on this suggestion (optional)"></textarea></label>
+<div class="saved-line"></div>
+</div></section>
+<section class="card t-dedupe" id="c-G4" data-id="G4" data-type="dedupe" data-advice="approve" data-block="80">
+<div class="card-top"><button type="button" class="chip t-dedupe" data-filter-type="dedupe" title="Said once, pointed to elsewhere">Repeat</button><span class="cid">G4</span><span class="ctitle">Phase 5 points back to the fuels instead of repeating them</span><span class="pill" aria-live="polite">Not approved yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="changes"><div class="chg"><div class="chg-k">Phase 6: Restoration &amp; Maintenance (The Gardener), P6 now</div><div class="dif side now">Fuel the Mitochondria: <del>Deploy</del> <del>L-Glutamine</del> (<del>5–30g based on inflammatory load)</del>, butyrate<del>-producing substrates (resistant starch),</del> and TCA <del>cycle </del>intermediates<del> (malic acid/citrate</del>)<del> to provide immediate cellular energy to enterocytes, cementing tight junction integrity and permanently halting LPS translocation</del>.</div><div class="chg-k">How it would read</div><div class="dif side after">Fuel the Mitochondria: <ins>see</ins> <ins>the fuels under Leaky gut, above</ins> (<ins>glutamine</ins>, butyrate and TCA intermediates).</div></div></div>
+<div class="info"><div class="row"><span class="lab">What changes</span> <span>The Fuel the Mitochondria step keeps its name and points to the fuels in Leaky gut.</span></div><div class="row"><span class="lab">Why</span> <span>Your S3 answer: the fuels stay in Leaky gut, where glutamine is a key remedy, and this step refers back without repeating.</span></div><div class="row"><span class="lab">What stays</span> <span>The fuels, their doses (5g baseline, 10–30g) and the cancer caveat, all in Leaky gut.</span></div><div class="row"><span class="lab">You&#x27;re deciding</span> <span>The wording of the pointer is mine.</span></div><div class="row advice"><span class="lab">My advice</span> <span>Approve.</span></div></div>
+<div class="decide" role="group" aria-label="Decision on G4"><button type="button" class="dec approve" data-dec="approved">Approve: make this change</button><button type="button" class="dec reject" data-dec="rejected">Reject: keep it as it is</button><button type="button" class="dec revise" data-dec="revise">Revise</button><button type="button" class="dec undo" data-dec="pending">Not approved yet</button></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="4" placeholder="Your wording, or what to change"></textarea></label>
+<label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note on this suggestion (optional)"></textarea></label>
+<div class="saved-line"></div>
+</div></section>
+<section class="card t-pointer" id="c-G9" data-id="G9" data-type="pointer" data-advice="approve" data-block="">
+<div class="card-top"><button type="button" class="chip t-pointer" data-filter-type="pointer" title="A phase points back to your notes">Pointer to your notes</button><span class="cid">G9</span><span class="ctitle">&quot;My notes&quot; line for Phase 5 (Restoration)</span><span class="pill" aria-live="polite">Not approved yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="changes"><div class="chg"><div class="chg-k">New line, above the heading &quot;Optional Ready-Made Gut Stacks&quot;</div><div class="ins-h"><ins>My notes: see Leaky gut above for colostrum, zinc carnosine, BPC-157, ozonated zeolite and the fuels, and Sitting above for movement and yoga.</ins></div><div class="ctx">Optional Ready-Made Gut Stacks</div></div></div>
+<div class="info"><div class="row"><span class="lab">What changes</span> <span>One line at the end of Phase 5 (Restoration) pointing back to your notes.</span></div><div class="row"><span class="lab">Why</span> <span>Your leaky gut list and your movement notes are the repair and maintenance side the books&#x27; Phase 5 doesn&#x27;t have. You asked that phases which benefit from your notes refer back to them explicitly.</span></div><div class="row"><span class="lab">What stays</span> <span>The phase itself, word for word.</span></div><div class="row"><span class="lab">You&#x27;re deciding</span> <span>New wording, mine. Reject it if this phase doesn&#x27;t need the pointer.</span></div><div class="row advice"><span class="lab">My advice</span> <span>Approve.</span></div></div>
+<div class="decide" role="group" aria-label="Decision on G9"><button type="button" class="dec approve" data-dec="approved">Approve: use this wording</button><button type="button" class="dec reject" data-dec="rejected">Reject: keep it as it is</button><button type="button" class="dec revise" data-dec="revise">Revise</button><button type="button" class="dec undo" data-dec="pending">Not approved yet</button></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="4" placeholder="Your wording, or what to change"></textarea></label>
+<label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note on this suggestion (optional)"></textarea></label>
+<div class="saved-line"></div>
+</div></section>
+<div class="marker t-pointer" data-s="G9"><span class="mk-k">G9, new line:</span> <span class="mk-h">My notes: see Leaky gut above for colostrum, zinc carnosine, BPC-157, ozonated zeolite and the fuels, and Sitting above for movement and yoga.</span></div>
+<div class="marker t-structure" data-s="G3"><span class="mk-k">G3, new subheading:</span> <span class="mk-h">Phase 6: Refractory Cases (The Hazmat Team)</span></div>
+<div class="marker t-structure" data-s="G3"><span class="mk-k">G3, new line:</span> <span class="mk-h">Source: Neil Nathan (Toxic), Annie Hopper (Wired for Healing)</span></div>
+<div class="marker t-structure" data-s="G3"><span class="mk-k">G3, new line:</span> <span class="mk-h">The Logic: For cases that are &quot;sensitive to everything,&quot; or that relapse right away despite perfect adherence.</span></div>
+<div class="marker t-structure" data-s="G3"><span class="mk-k">G3, new line:</span> <span class="mk-h">The Protocol:</span></div>
+<div class="marker t-structure" data-s="G3"><span class="mk-k">G3 moves here:</span> Check Environment (Nathan): Assess for Mold/Mycotoxins or Lyme. If positive, use specific … <button type="button" class="link-btn go" data-go="c-G3">See the card</button></div>
+<div class="marker t-pointer" data-s="G10"><span class="mk-k">G10, new line:</span> <span class="mk-h">My notes: Matt&#x27;s note on mopping up mycotoxins with fermented colostrum is under Leaky gut, above.</span></div>
+<h3 class="blk" id="b81" data-b="81"><mark class="hl t-question" data-s="G13">Optional Ready-Made Gut Stacks</mark></h3>
+<section class="card ask t-question" id="c-G13" data-id="G13" data-type="question" data-advice="ask" data-block="81">
+<div class="card-top"><button type="button" class="chip t-question" data-filter-type="question" title="Needs your answer">Question</button><span class="cid">G13</span><span class="ctitle">The stacks section is Gemini&#x27;s: cut, label or keep?</span><span class="pill" aria-live="polite">Not answered yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="info"><div class="row"><span class="lab">My question</span> <span>A: cut it, keeping only the start-low advice and the list of who should see a clinician, as a short note at the end of Phase 5. B: keep the three kits, labeled as Gemini&#x27;s suggestions, not yours. C: keep it as it is and humanize it. (My pick: A.)</span></div><div class="row"><span class="lab">Why I ask</span> <span>You said the AI parts are from Gemini, but this section says &quot;I&quot; throughout (&quot;The best general commercial stack I have seen so far&quot;), so it reads as your recommendation. It also repeats the phase order, and every paragraph reads 100% AI.</span></div><div class="row"><span class="lab">Until you answer</span> <span>The section as it is until you answer.</span></div><div class="row advice"><span class="lab">My advice</span> <span>A.</span></div></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="4"></textarea></label>
+<label class="note-wrap"><span class="lab">Your answer</span><textarea class="note" rows="3" placeholder="Your answer, in a few words"></textarea></label>
+<div class="saved-line"></div>
+</div></section>
+<p class="blk" id="b82" data-b="82"><span class="pn">P1</span>I do not think there is a universal supplement stack that heals everyone’s gut. The correct order still matters: fix digestion mechanics first, reset diet and motility, then only escalate into antimicrobial or anti-parasite protocols if symptoms persist.</p>
+<p class="blk" id="b83" data-b="83"><span class="pn">P2</span>That said, some people want a ready-made starting point rather than buying every ingredient separately. For a general “repair and rebuild” approach, I would look for a stack that covers three categories:</p>
+<div class="blk li" id="b84" data-b="84"><span class="mk">1.</span><span class="lt">Microbiome support: a well-tolerated probiotic or probiotic system</span></div>
+<div class="blk li" id="b85" data-b="85"><span class="pn">P3</span><span class="mk">2.</span><span class="lt">Prebiotic / butyrate support: something that helps short-chain fatty acid production, especially butyrate</span></div>
+<div class="blk li" id="b86" data-b="86"><span class="pn">P4</span><span class="mk">3.</span><span class="lt">Barrier repair: nutrients that support the gut lining, such as glutamine, zinc carnosine, colostrum, mucosal-support herbs, or similar compounds</span></div>
+<p class="blk" id="b87" data-b="87"><span class="pn">P5</span><mark class="hl t-question" data-s="G13">The best general commercial stack I have seen so far is Microbiome Labs Total Gut Restoration, because it combines probiotic, prebiotic, and mucosal-support components. For a more leaky-gut-specific stack, Dr. Ruscio’s Leaky Gut Support Kit is a reasonable option. For a single gut-lining repair formula, Designs for Health GI Revive is one of the more complete products, but it should be understood as a repair product, not a complete gut protocol by itself.</mark></p>
+<p class="blk" id="b88" data-b="88"><span class="pn">P6</span>I would not recommend general “gut cleanse” stacks built around oregano oil, wormwood, black walnut, <mark class="hl t-conflict" data-s="G11">berberine</mark>, or other antimicrobial herbs as a universal starting point. Those belong later in the decision tree, when there is a stronger reason to suspect overgrowth, parasites, H. pylori, or another specific problem.</p>
+<section class="card t-conflict" id="c-G11" data-id="G11" data-type="conflict" data-advice="approve" data-block="88">
+<div class="card-top"><button type="button" class="chip t-conflict" data-filter-type="conflict" title="Your advice and Gemini&#x27;s differ">Conflict</button><span class="cid">G11</span><span class="ctitle">Berberine for H. pylori is your exception</span><span class="pill" aria-live="polite">Not approved yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="changes"><div class="chg"><div class="chg-k">Optional Ready-Made Gut Stacks, P6 now</div><div class="dif side now">I would not recommend general “gut cleanse” stacks built around oregano oil, wormwood, black walnut, berberine, or other antimicrobial herbs as a universal starting point. Those belong later in the decision tree, when there is a stronger reason to suspect overgrowth, parasites, H. pylori, or another specific problem.</div><div class="chg-k">How it would read</div><div class="dif side after">I would not recommend general “gut cleanse” stacks built around oregano oil, wormwood, black walnut, berberine, or other antimicrobial herbs as a universal starting point. Those belong later in the decision tree, when there is a stronger reason to suspect overgrowth, parasites, H. pylori, or another specific problem.<ins> (My own advice is different for H. pylori, where berberine works well: see Parasites, above.)</ins></div></div></div>
+<div class="info"><div class="row"><span class="lab">What changes</span> <span>A note after the stacks line, saying your advice differs for H. pylori.</span></div><div class="row"><span class="lab">Why</span> <span>Your S5 approval: your advice and Gemini&#x27;s differ here, though not as a hard conflict.</span></div><div class="row"><span class="lab">What stays</span> <span>Gemini&#x27;s line as it is.</span></div><div class="row"><span class="lab">You&#x27;re deciding</span> <span>Only if the stacks section stays in some form (G13). If you cut it, this goes with it.</span></div><div class="row advice"><span class="lab">My advice</span> <span>Approve, conditional on G13.</span></div></div>
+<div class="decide" role="group" aria-label="Decision on G11"><button type="button" class="dec approve" data-dec="approved">Approve: make this change</button><button type="button" class="dec reject" data-dec="rejected">Reject: keep it as it is</button><button type="button" class="dec revise" data-dec="revise">Revise</button><button type="button" class="dec undo" data-dec="pending">Not approved yet</button></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="4" placeholder="Your wording, or what to change"></textarea></label>
+<label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note on this suggestion (optional)"></textarea></label>
+<div class="saved-line"></div>
+</div></section>
+<p class="blk" id="b89" data-b="89"><span class="pn">P7</span>Start low, especially with prebiotics, resistant starch, butyrate-support products, and probiotics. People with severe pain, GI bleeding, fever, dehydration, rapid weight loss, active IBD flares, cancer, immune suppression, pregnancy, or complex medical conditions should work with a qualified clinician instead of self-stacking supplements.</p>
+<h4 class="blk" id="b90" data-b="90"><mark class="hl t-question" data-s="G14">Paid Subscribers can see my Gem’s custom instructions below:</mark></h4>
+<section class="card ask t-question" id="c-G14" data-id="G14" data-type="question" data-advice="ask" data-block="90">
+<div class="card-top"><button type="button" class="chip t-question" data-filter-type="question" title="Needs your answer">Question</button><span class="cid">G14</span><span class="ctitle">The Gem prompt moves to a doc</span><span class="pill" aria-live="polite">Not answered yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="info"><div class="row"><span class="lab">My question</span> <span>Send me the doc&#x27;s link when it&#x27;s up, and I&#x27;ll replace the prompt in the post with a line pointing to it for paid subscribers. A clean copy to paste is ready (the duplicate &quot;Gem Name&quot; line, the two [cite_start]/[cite: …] leftovers and the run-together asterisks in Phase 3 fixed; nothing else changed).</span></div><div class="row"><span class="lab">Why I ask</span> <span>Your S7 answer: you&#x27;ll move the instructions out of the post into a Google doc.</span></div><div class="row"><span class="lab">Until you answer</span> <span>The prompt in the post until the link is in.</span></div><div class="row advice"><span class="lab">My advice</span> <span>Paste the clean copy into the doc and send me its link.</span></div></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="4"></textarea></label>
+<label class="note-wrap"><span class="lab">Your answer</span><textarea class="note" rows="3" placeholder="Your answer, in a few words"></textarea></label>
+<div class="saved-line"></div>
+</div></section>
+<p class="blk" id="b91" data-b="91"><span class="pn">P1</span>**Gem Name:** Gut Health Architect</p>
+<p class="blk" id="b92" data-b="92"><span class="pn">P2</span>**Gem Name:** Gut Health Architect</p>
+<p class="blk" id="b93" data-b="93"><span class="pn">P3</span>**Description:** A clinical synthesis engine for the Ruscio-Brown-Davis-Hale-Pimentel-Bulsiewicz-Rosenberg-Nathan-Hopper-Udontexist Library.</p>
+<p class="blk" id="b94" data-b="94"><span class="pn">P4</span>**CORE DIRECTIVE:**</p>
+<p class="blk" id="b95" data-b="95"><span class="pn">P5</span>If someone has health issues that are not just gut-related, you should also point them to the other health Gems at research.u-dont-exist.com</p>
+<p class="blk" id="b96" data-b="96"><span class="pn">P6</span>You are the **Gut Health Architect**. You are a synthesis engine for a specific library of 9 uploaded texts. **You must NEVER hallucinate authors or protocols outside of this list.** Your goal is to guide the user through a hierarchy of intervention: **Safety -&gt; Reset -&gt; Remove -&gt; Repair -&gt; Rebalance -&gt; Maintenance.**</p>
+<p class="blk" id="b97" data-b="97"><span class="pn">P7</span>**YOUR SOURCE CODE (STRICT BIBLIOGRAPHY):**</p>
+<div class="blk li" id="b98" data-b="98"><span class="pn">P8</span><span class="mk">1.</span><span class="lt">[cite_start]**Ruscio:** <em>Healthy Gut, Healthy You</em> (Master Hierarchy/Great-in-8) [cite: 7473]</span></div>
+<div class="blk li" id="b99" data-b="99"><span class="pn">P9</span><span class="mk">2.</span><span class="lt">[cite_start]**Brown:** <em>The Digestive Health Solution</em> (Pathology/Diagnostics) [cite: 8776]</span></div>
+<div class="blk li" id="b100" data-b="100"><span class="pn">P10</span><span class="mk">3.</span><span class="lt">**Davis:** <em>Super Gut</em> (SIBO Yogurt &amp; Herbal Antibiotics)</span></div>
+<div class="blk li" id="b101" data-b="101"><span class="pn">P11</span><span class="mk">4.</span><span class="lt">**Hale:** <em>Kick Your Fat in the Nuts</em> (Bile/Autonomic Mechanics)</span></div>
+<div class="blk li" id="b102" data-b="102"><span class="pn">P12</span><span class="mk">5.</span><span class="lt">**Pimentel:** <em>The Microbiome Connection</em> (Motility &amp; Low Fermentation Diet)</span></div>
+<div class="blk li" id="b103" data-b="103"><span class="pn">P13</span><span class="mk">6.</span><span class="lt">**Bulsiewicz:** <em>Fiber Fueled</em> (Plant Diversity/Phase 2)</span></div>
+<div class="blk li" id="b104" data-b="104"><span class="pn">P14</span><span class="mk">7.</span><span class="lt">**Rosenberg:** <em>Accessing the Healing Power of the Vagus Nerve</em> (Physical Exercises)</span></div>
+<div class="blk li" id="b105" data-b="105"><span class="pn">P15</span><span class="mk">8.</span><span class="lt">**Nathan:** <em>Toxic</em> (Mold/Binders/Sensitivity)</span></div>
+<div class="blk li" id="b106" data-b="106"><span class="pn">P16</span><span class="mk">9.</span><span class="lt">**Hopper:** <em>Wired for Healing</em> (Limbic Retraining)</span></div>
+<div class="blk li" id="b107" data-b="107"><span class="pn">P17</span><span class="mk">10.</span><span class="lt">Use the summary and modifications at gut.u-dont-exist.com where this gem is also stored</span></div>
+<p class="blk" id="b108" data-b="108"><span class="pn">P18</span>**THE “HRP” OPERATING PROTOCOLS:**</p>
+<div class="blk li" id="b109" data-b="109"><span class="pn">P19</span><span class="mk">•</span><span class="lt">**Risk Protocol:** Distinguish between “Herxheimer/Die-Off” (temporary worsening) and “Toxicity/Reaction” (pathological worsening). Prioritize “Restoration &gt; Suppression.”</span></div>
+<div class="blk li" id="b110" data-b="110"><span class="pn">P20</span><span class="mk">•</span><span class="lt">**Units Protocol:** Automatically convert molarity/scientific units into consumer-friendly units (e.g., convert enzyme units to capsules/dosage).</span></div>
+<div class="blk li" id="b111" data-b="111"><span class="pn">P21</span><span class="mk">•</span><span class="lt">**Metrics Protocol:** When citing studies from the books, prioritize “Hard Clinical Endpoints” (did the patient feel better?) over “Surrogate Markers” (did the lab test change?).</span></div>
+<p class="blk" id="b112" data-b="112"><span class="pn">P22</span>**THE DECISION HIERARCHY (Your Logic Tree):**</p>
+<p class="blk" id="b113" data-b="113"><span class="pn">P23</span>**PHASE 1: THE PRE-FLIGHT CHECK (Hale &amp; Rosenberg)**</p>
+<div class="blk li" id="b114" data-b="114"><span class="pn">P24</span><span class="mk">•</span><span class="lt">**Trigger:** Start of every case.</span></div>
+<div class="blk li" id="b115" data-b="115"><span class="pn">P25</span><span class="mk">•</span><span class="lt">**Check 1 (Mechanics):** Ask about floating stools, nausea, or burping fats. If positive -&gt; **Hale’s** Bile Thinning (Beet Flow/Choline).</span></div>
+<div class="blk li" id="b116" data-b="116"><span class="pn">P26</span><span class="mk">•</span><span class="lt">**Check 2 (Nerves):** Ask about Gag Reflex/Pupil Dilation/Uvula. If failed -&gt; **Rosenberg’s** Basic Exercise or Salamander.</span></div>
+<div class="blk li" id="b117" data-b="117"><span class="pn">P27</span><span class="mk">•</span><span class="lt">**Rule:** NO Antimicrobials or HCL until these pass.</span></div>
+<p class="blk" id="b118" data-b="118"><span class="pn">P28</span>**PHASE 2: THE RESET (Ruscio &amp; Pimentel)**</p>
+<div class="blk li" id="b119" data-b="119"><span class="pn">P29</span><span class="mk">•</span><span class="lt">**Trigger:** Mechanics are clear.</span></div>
+<div class="blk li" id="b120" data-b="120"><span class="pn">P30</span><span class="mk">•</span><span class="lt">**Action:** **Ruscio’s** “Great-in-8” Step 1 (Paleo/Low-FODMAP) or **Pimentel’s** “Low Fermentation Eating” (if bloating is severe/SIBO confirmed).</span></div>
+<p class="blk" id="b121" data-b="121"><span class="pn">P31</span>**PHASE 3: THE PURGE (Davis, Ruscio, Brown)*** **Trigger:** Symptoms persist.* **Action:** Assume Dysbiosis (SIBO, SIFO, or Parasites). * **Protocol:** *** **Action:** AVOID **Davis’s** Herbal Protocols (Candibactin/FC Cidal), as the herxheimer reaction can be too extreme. Instead, utilize the dilute food-grade H2O2 orthomolecular.org cure mentioned at h2o2.u-dont-exist.com and use **Ruscio’s** Triple Probiotic Therapy. Use ozonated zeolite and ozonated activated charcoal separately as a binder for toxins, with fermented beet, red cabbage, pine bark and coffee cherry add on. All this is provided in ZHoly3O.u-dont-exist.com formula</p>
+<div class="blk li" id="b122" data-b="122"><span class="pn">P32</span><span class="mk">•</span><span class="lt">**Parasite Specifics (Brown):** If <em>Blastocystis</em> or <em>Dientamoeba</em> are suspected/confirmed, and if H2O2 doesn’t help, Brown recommends Oil of Oregano and Artemisinin (Wormwood) protocols, but if those don’t help quickly, escalate to secnidazole treatment and paromomycin post-treatment with medical supervision* **Escalation:** If anti-pathogen treatment fail -&gt; **Ruscio’s** Semi-Elemental Diet (2-3 weeks).</span></div>
+<p class="blk" id="b123" data-b="123"><span class="pn">P33</span>**PHASE 4: THE INVESTIGATION (Brown)**</p>
+<div class="blk li" id="b124" data-b="124"><span class="pn">P34</span><span class="mk">•</span><span class="lt">**Trigger:** User fails the Purge/Elemental Diet.</span></div>
+<div class="blk li" id="b125" data-b="125"><span class="pn">P35</span><span class="mk">•</span><span class="lt">**Action:** Switch to Diagnostics.</span></div>
+<div class="blk li" id="b126" data-b="126"><span class="pn">P36</span><span class="mk">•</span><span class="lt">Test Pancreas (Faecal Elastase) -&gt; **Brown**.</span></div>
+<div class="blk li" id="b127" data-b="127"><span class="pn">P37</span><span class="mk">•</span><span class="lt">Test Bile Acid Diarrhea (SeHCAT/Binders) -&gt; **Brown**.</span></div>
+<div class="blk li" id="b128" data-b="128"><span class="pn">P38</span><span class="mk">•</span><span class="lt">Test Histamine (DAO) -&gt; **Brown**.</span></div>
+<p class="blk" id="b129" data-b="129"><span class="pn">P39</span>**PHASE 5: THE RESTORATION (Davis &amp; Bulsiewicz)**</p>
+<div class="blk li" id="b130" data-b="130"><span class="pn">P40</span><span class="mk">•</span><span class="lt">**Trigger:** Gut is clear/symptom-free.</span></div>
+<div class="blk li" id="b131" data-b="131"><span class="pn">P41</span><span class="mk">•</span><span class="lt">**Action:**</span></div>
+<div class="blk li" id="b132" data-b="132"><span class="pn">P42</span><span class="mk">•</span><span class="lt">Re-seed: **Davis’s** <em>L. reuteri</em> / <em>L. gasseri</em> yogurts.</span></div>
+<div class="blk li" id="b133" data-b="133"><span class="pn">P43</span><span class="mk">•</span><span class="lt">Feed: **Bulsiewicz’s** “Fiber Fueled” plant diversity strategy (titrating up to 30 plants/week).</span></div>
+<p class="blk" id="b134" data-b="134"><span class="pn">P44</span>**PHASE 6: REFRACTORY CASES (Nathan &amp; Hopper)**</p>
+<div class="blk li" id="b135" data-b="135"><span class="pn">P45</span><span class="mk">•</span><span class="lt">**Trigger:** “Sensitive to everything” or immediate relapse despite perfect adherence.</span></div>
+<div class="blk li" id="b136" data-b="136"><span class="pn">P46</span><span class="mk">•</span><span class="lt">**Action:**</span></div>
+<div class="blk li" id="b137" data-b="137"><span class="pn">P47</span><span class="mk">•</span><span class="lt">Environmental Toxicity -&gt; **Nathan** (Binders/Mold avoidance).</span></div>
+<div class="blk li" id="b138" data-b="138"><span class="pn">P48</span><span class="mk">•</span><span class="lt">Limbic System Trauma -&gt; **Hopper** (Brain Retraining/DNRS).</span></div>
+<p class="blk" id="b139" data-b="139"><span class="pn">P49</span>**RESPONSE RULES:**</p>
+<div class="blk li" id="b140" data-b="140"><span class="pn">P50</span><span class="mk">1.</span><span class="lt">**Cite Your Sources:** “According to [Author Name] in [Book Title]...”</span></div>
+<div class="blk li" id="b141" data-b="141"><span class="pn">P51</span><span class="mk">2.</span><span class="lt">**Triangulate:** “Ruscio suggests X, but Hale warns Y about Bile.”</span></div>
+<div class="blk li" id="b142" data-b="142"><span class="pn">P52</span><span class="mk">3.</span><span class="lt">**Ignore Pseudoscience:** Do NOT use Hale’s pH/Breath Rate theories. Only use his Bile/Autonomic mechanics.</span></div>
+<div class="blk li" id="b143" data-b="143"><span class="pn">P53</span><span class="mk">4.</span><span class="lt">**Disclaimer:** State clearly: “I am an AI assistant. This is information from your library, not medical advice.”</span></div>
+</main>
+<p class="endnote gut">The end of the guide. When you're done, tell me in the chat; your answers are already saved here, and "Save / send" gives you a copy to paste or keep.</p>
+<script id="review-data" type="application/json">{"format": "joel-suggestion-review-v1", "review_id": "healing-the-gut-r01-structure-20261103", "title": "Gut Article r01", "git_file": "articles/healing-the-gut/humanize/fix-20261103/r01/REVIEW-PAGE.html", "article": {"file": "articles/healing-the-gut/humanize/fix-20261103/r01/MASTER.md", "sha256": "dd074c21221afb5f4076412c2e1e06ee98a19c9a6e12c13b7c8587aba5ddd967"}, "built": "2026-11-03", "generator": "suggestion_review.py 1.5 (2026-11-02)", "types": {"structure": {"label": "Structure", "about": "Order and grouping you approved"}, "explainer": {"label": "Explainer", "about": "What the Gem has and doesn't"}, "pointer": {"label": "Pointer to your notes", "about": "A phase points back to your notes"}, "dedupe": {"label": "Repeat", "about": "Said once, pointed to elsewhere"}, "conflict": {"label": "Conflict", "about": "Your advice and Gemini's differ"}, "question": {"label": "Question", "about": "Needs your answer"}}, "suggestions": [{"id": "G1", "type": "explainer", "title": "Say plainly that the Gem only has the books", "advice": "approve", "what": "Two sentences added to your NOTE, at the top of the recipe.", "deciding": "New wording, mine: approve it, or Revise with your own.", "decided": null, "question": null, "where": "Concise Recipe for Gut Healing:, P2", "proposed": "NOTE: this gut gem does not include some of my research in this article, which is newer, especially from folks like Matt from EndSickness.org who doesn’t have a comprehensive text for Gemini to read. So the phases below are only what the Gem will tell you, from the nine books. Where my notes in the causes above change or add to a phase, I point back to them under \"My notes\" in that phase.", "before": "NOTE: this gut gem does not include some of my research in this article, which is newer, especially from folks like Matt from EndSickness.org who doesn’t have a comprehensive text for Gemini to read."}, {"id": "G2", "type": "structure", "title": "Each cause points to its phase", "advice": "approve", "what": "A phase number after each cause's name, using the Gem's numbering from G3.", "deciding": "The mapping is the one you approved; the numbers follow the Gem's phases (G3). \"(closest: Phase 4)\" is for Pooyan's impaction, which your text already says the books don't cover.", "decided": {"status": "approved", "text": "", "comment": "s2 approve (the mapping)", "by": "Joel", "at": "2026-11-03 18:01 UTC"}, "question": null, "where": "Some Causes of poor gut health, P1", "proposed": "Severe stress/adrenal fatigue/poor sleep (Phase 1): This can cause a lack of mucus to line the stomach, which in turn causes burning, difficulty absorbing nutrients, and so forth. And every other gut issue can also be partly related to this. My mindset page and loveyhuasca protocol can help a lot with this, as well as my deep sleep tips.\n\nSitting, or lack of exercise and stretching (Phase 5): humans were not designed to be sedentary. Our biology slows down and cramps up when we are. Walk, do yoga, do shaking qi-gong, do bodyweight strength training.\n\nYears of accumulated shit in your guts (closest: Phase 4): This part isn’t in the gut healing books I read, but even if you fix all of what’s going into you now, if you’re already full and clogged with all of what went in before, that’s gonna be little help. My friend Pooyan got incredibly healthier and happier after getting enough colon hydrotherapy to flush that stuff out, combined with then also doing intense stretches like hanging from one arm, until finally, the most crusted up shit exploded in him which was very painful for a day.\n\nPoor diet now (Phase 2): industrial and processed foods, especially oils, are often empty calories full of countless toxins and oxidation byproducts. Toxins are sequestered in fat cells to prevent them from damaging organs, but this toxic fat (especially visceral fat) becomes a chronic health issue even as it protects us from immediately dying from the sequestered toxins.\n\nParasites, H. pylori, mold, metals (Phases 3 and 6): We are often addicted to junk food due to a vicious cycle in which the junk feeds parasitic organisms and bad bacteria, yeast, etc, which then send signals to our brain to consume more junk. Thus, we have to target the problem from various angles — cleansing out pathogens, repopulating good bacteria, addressing vitamin (especially thiamine), mineral, and enzyme deficiencies, and changing what we eat. I wrote about my detox protocol (which includes the gut) here. For H. Pylori specifically: if you get heartburn when your stomach is empty only, that’s usually H. Pylori, and it’s easily treated with berberine.\n\nSIBO (Phases 3 and 5): Small intestinal bacterial overgrowth is a huge issue underlying a wide range of illnesses. One of the most effective cures for many people is SIBO Yogurt. I also sell these SIBO yogurt bacteria (along with other helpful herbal juices and minerals) in liquid form for vegans.\n\nPlant foods (Phases 2 and 5): The carnivore diet is trending, as many people (especially with leaky gut or lack of oxalate-processing bacteria) are noticing they cannot handle fiber, oxalates, and phytates in plants. It’s certainly a diet worth trying, but it can lead to deficiencies over time, especially with regard vitamins C, E, fiber, magnesium, potassium, calcium, iodine and other trace minerals, and bacteria needed to process plant foods (which already are likely missing in people who need this diet), thus making the carnivore diet sort of hard to get off.\n\nLeaky gut (Phase 5): a widespread inflammatory condition often intersecting with other categories of illness such as Crohn’s Disease or IBS, plant food intolerance, and what many alternative health practitioners consider as a root cause of most diseases. It’s associated with increased zonulin levels clinically. Zonulin is the molecule released to signal your intestinal tight jungtions to open. Too much opening time leads to allowing stuff to leak out into your blood stream which then burdens your immune system and detoxification systems. Game-changing treatments:\n\nIBS (Phase 4): While there are many causes and types of irritable bowel syndrome, psychedelics are one promising new avenue of treatment. However, it’s always best to find the root cause of the problem, which requires investigation. A functional medicine gastroenterologist might help.\n\nLow stomach acid, enzymes, and thick bile (Phase 1): which in turn are often due to poor diet, stress, infections. T.C. Hale has a lot of videos on healing digestion issues, which in his experience as a health coach, are often due to these root causes. He’s a bit controversial on some points such as his urine pH testing for anabolic/catabolic state freezes, but he does have some good suggestions he explains in his book.", "before": "Severe stress/adrenal fatigue/poor sleep: This can cause a lack of mucus to line the stomach, which in turn causes burning, difficulty absorbing nutrients, and so forth. And every other gut issue can also be partly related to this. My mindset page and loveyhuasca protocol can help a lot with this, as well as my deep sleep tips.\n\nSitting, or lack of exercise and stretching: humans were not designed to be sedentary. Our biology slows down and cramps up when we are. Walk, do yoga, do shaking qi-gong, do bodyweight strength training.\n\nYears of accumulated shit in your guts: This part isn’t in the gut healing books I read, but even if you fix all of what’s going into you now, if you’re already full and clogged with all of what went in before, that’s gonna be little help. My friend Pooyan got incredibly healthier and happier after getting enough colon hydrotherapy to flush that stuff out, combined with then also doing intense stretches like hanging from one arm, until finally, the most crusted up shit exploded in him which was very painful for a day.\n\nPoor diet now: industrial and processed foods, especially oils, are often empty calories full of countless toxins and oxidation byproducts. Toxins are sequestered in fat cells to prevent them from damaging organs, but this toxic fat (especially visceral fat) becomes a chronic health issue even as it protects us from immediately dying from the sequestered toxins.\n\nParasites, H. pylori, mold, metals: We are often addicted to junk food due to a vicious cycle in which the junk feeds parasitic organisms and bad bacteria, yeast, etc, which then send signals to our brain to consume more junk. Thus, we have to target the problem from various angles — cleansing out pathogens, repopulating good bacteria, addressing vitamin (especially thiamine), mineral, and enzyme deficiencies, and changing what we eat. I wrote about my detox protocol (which includes the gut) here. For H. Pylori specifically: if you get heartburn when your stomach is empty only, that’s usually H. Pylori, and it’s easily treated with berberine.\n\nSIBO: Small intestinal bacterial overgrowth is a huge issue underlying a wide range of illnesses. One of the most effective cures for many people is SIBO Yogurt. I also sell these SIBO yogurt bacteria (along with other helpful herbal juices and minerals) in liquid form for vegans.\n\nPlant foods: The carnivore diet is trending, as many people (especially with leaky gut or lack of oxalate-processing bacteria) are noticing they cannot handle fiber, oxalates, and phytates in plants. It’s certainly a diet worth trying, but it can lead to deficiencies over time, especially with regard vitamins C, E, fiber, magnesium, potassium, calcium, iodine and other trace minerals, and bacteria needed to process plant foods (which already are likely missing in people who need this diet), thus making the carnivore diet sort of hard to get off.\n\nLeaky gut: a widespread inflammatory condition often intersecting with other categories of illness such as Crohn’s Disease or IBS, plant food intolerance, and what many alternative health practitioners consider as a root cause of most diseases. It’s associated with increased zonulin levels clinically. Zonulin is the molecule released to signal your intestinal tight jungtions to open. Too much opening time leads to allowing stuff to leak out into your blood stream which then burdens your immune system and detoxification systems. Game-changing treatments:\n\nIBS: While there are many causes and types of irritable bowel syndrome, psychedelics are one promising new avenue of treatment. However, it’s always best to find the root cause of the problem, which requires investigation. A functional medicine gastroenterologist might help.\n\nLow stomach acid, enzymes, and thick bile: which in turn are often due to poor diet, stress, infections. T.C. Hale has a lot of videos on healing digestion issues, which in his experience as a health coach, are often due to these root causes. He’s a bit controversial on some points such as his urine pH testing for anabolic/catabolic state freezes, but he does have some good suggestions he explains in his book."}, {"id": "G3", "type": "structure", "title": "The phases follow the Gem's six", "advice": "approve", "what": "The elemental diet becomes the Purge's last step, as in the Gem. Investigation becomes Phase 4 (Brown), Restoration Phase 5, and Nathan's mold and Hopper's brain retraining go to a new Phase 6 for refractory cases.", "deciding": "The move is approved. What's mine: the new Phase 6 title \"Refractory Cases (The Hazmat Team)\", its Logic line (the Gem's own trigger, \"sensitive to everything\" or immediate relapse despite perfect adherence), \"(The Detective)\" for Phase 4, and \"(The last two are Phase 6, below.)\" after Investigation's Logic.", "decided": {"status": "approved", "text": "", "comment": "s6 approve (the regrouping; the new labels are still his call)", "by": "Joel", "at": "2026-11-03 18:01 UTC"}, "question": null, "where": "the heading \"Phase 4: The “Nuclear” Option (The Architect)\"", "proposed": "#### Phase 3: The Purge (The Restorer)\n\nSource: Dr. William Davis (Super Gut) & Dr. Michael Ruscio\n\nThe Logic: If diet didn’t clear the symptoms, active overgrowth (SIBO/SIFO) is likely present.\n\nThe Protocol:\n\nAVOID Most Herbal Antibiotics. Davis recommends using specific herbal combinations like Candibactin AR/BR or FC Cidal/Dysbiocide for 4 weeks.\n\nH2O2 actually works better than the herbal antibiotics according to me and orthomolecular drs. My BFF Pooyan tried candibactin actually and it nearly killed him. The H2O2 worked a lot better without side effects. There is one herbal antibiotic that works really well tho for H. pylori: Berberine. If you have an acute infection with something that those don’t help quickly, consider escalating to secnidazole treatment for rapid cure, and paromomycin post-treatment for relapse prevention, with medical supervision.\n\nBIND to the toxins, especially the metals and parasite die of toxins, using Zholy3O.\n\nTriple Probiotic Support (Ruscio): Simultaneously take a blend of Lacto/Bifido, S. boulardii, and Soil-Based organisms to maintain diversity and prevent opportunistic infections (like C. diff) during the kill phase.\n\n5. The “Nuclear” Option (Ruscio): If herbs failed, the overgrowth is too severe or the gut lining is too damaged for solids. The Elemental Diet: A 2-3 week liquid-only diet (predigested nutrients). This starves bacteria completely while nourishing the human host.\n\n#### Phase 4: The Investigation (The Detective)\n\nSource: Benjamin Brown (Digestive Health Solution)\n\nThe Logic: If the “Nuclear Option” failed, the problem is not the microbiome. It is likely organ failure, environmental toxicity, or brain plasticity. (The last two are Phase 6, below.)\n\nThe Protocol:\n\n1. Check Organs (Brown): Test for Exocrine Pancreatic Insufficiency (Stool Elastase) or Bile Acid Diarrhea (SeHCAT). Treat with high-dose enzymes or bile binders.\n\n#### Phase 5: Restoration & Maintenance (The Gardener)\n\nSource: Dr. William Davis & Dr. Will Bulsiewicz (Fiber Fueled)\n\nThe Logic: You are clear of infection. Now you must rebuild a diverse ecosystem to prevent relapse.\n\nThe Protocol:\n\n1. Re-Seed (Davis): Introduce high-dose “SIBO Yogurt” (fermented for 36 hours) containing L. reuteri (to heal the lining and boost oxytocin) and L. gasseri (to produce bacteriocins that kill SIBO).\n\n2. Feed (Bulsiewicz): Slowly titrate plant diversity back into the diet. Aim for 30+ different plants per week to feed the new healthy bacteria.\n\n3. Maintain (Pimentel): Continue strict meal spacing (4+ hours) forever to keep the MMC cleaning wave active.\n\n4. Fuel the Mitochondria: Deploy L-Glutamine (5–30g based on inflammatory load), butyrate-producing substrates (resistant starch), and TCA cycle intermediates (malic acid/citrate) to provide immediate cellular energy to enterocytes, cementing tight junction integrity and permanently halting LPS translocation.\n\n#### Phase 6: Refractory Cases (The Hazmat Team)\n\nSource: Neil Nathan (Toxic), Annie Hopper (Wired for Healing)\n\nThe Logic: For cases that are \"sensitive to everything,\" or that relapse right away despite perfect adherence.\n\nThe Protocol:\n\n1. Check Environment (Nathan): Assess for Mold/Mycotoxins or Lyme. If positive, use specific binders (Cholestyramine, Charcoal, Clay).\n\n2. Check Brain (Hopper): If you react to everything, the issue is Limbic System Impairment. Use “Brain Retraining” (DNRS) to stop the brain from firing false “danger” signals to the gut.", "before": "Phase 4: The “Nuclear” Option (The Architect)\n\nPhase 5: The Investigation (The Detective & Hazmat Team)\n\nPhase 6: Restoration & Maintenance (The Gardener)"}, {"id": "G4", "type": "dedupe", "title": "Phase 5 points back to the fuels instead of repeating them", "advice": "approve", "what": "The Fuel the Mitochondria step keeps its name and points to the fuels in Leaky gut.", "deciding": "The wording of the pointer is mine.", "decided": null, "question": null, "where": "Phase 6: Restoration & Maintenance (The Gardener), P6", "proposed": "Fuel the Mitochondria: see the fuels under Leaky gut, above (glutamine, butyrate and TCA intermediates).", "before": "Fuel the Mitochondria: Deploy L-Glutamine (5–30g based on inflammatory load), butyrate-producing substrates (resistant starch), and TCA cycle intermediates (malic acid/citrate) to provide immediate cellular energy to enterocytes, cementing tight junction integrity and permanently halting LPS translocation."}, {"id": "G5", "type": "pointer", "title": "\"My notes\" line for Phase 1", "advice": "approve", "what": "One line at the end of Phase 1 pointing back to your notes.", "deciding": "New wording, mine. Reject it if this phase doesn't need the pointer.", "decided": null, "question": null, "where": "above the heading \"Phase 2: The Reset (The Architect & Scientist)\"", "proposed": "My notes: for stress and sleep see Severe stress above, and for stomach acid and bile see Low stomach acid.", "before": ""}, {"id": "G6", "type": "pointer", "title": "\"My notes\" line for Phase 2", "advice": "approve", "what": "One line at the end of Phase 2 pointing back to your notes.", "deciding": "New wording, mine. Reject it if this phase doesn't need the pointer.", "decided": null, "question": null, "where": "above the heading \"Phase 3: The Purge (The Restorer)\"", "proposed": "My notes: see Poor diet now and Plant foods, above.", "before": ""}, {"id": "G7", "type": "pointer", "title": "\"My notes\" line for Phase 3", "advice": "approve", "what": "One line at the end of Phase 3 pointing back to your notes.", "deciding": "New wording, mine. Reject it if this phase doesn't need the pointer.", "decided": null, "question": null, "where": "above the heading \"Phase 5: The Investigation (The Detective & Hazmat Team)\"", "proposed": "My notes: the H2O2 swap above is mine, not the books'. For berberine and H. pylori see Parasites, and for SIBO yogurt see SIBO, above.", "before": ""}, {"id": "G8", "type": "pointer", "title": "\"My notes\" line for Phase 4 (Investigation)", "advice": "approve", "what": "One line at the end of Phase 4 (Investigation) pointing back to your notes.", "deciding": "New wording, mine. Reject it if this phase doesn't need the pointer.", "decided": null, "question": null, "where": "above the heading \"Phase 6: Restoration & Maintenance (The Gardener)\"", "proposed": "My notes: two things the books don't cover, old impaction and colon hydrotherapy (Years of accumulated shit, above) and psychedelics for IBS (IBS, above).", "before": ""}, {"id": "G9", "type": "pointer", "title": "\"My notes\" line for Phase 5 (Restoration)", "advice": "approve", "what": "One line at the end of Phase 5 (Restoration) pointing back to your notes.", "deciding": "New wording, mine. Reject it if this phase doesn't need the pointer.", "decided": null, "question": null, "where": "above the heading \"Optional Ready-Made Gut Stacks\"", "proposed": "My notes: see Leaky gut above for colostrum, zinc carnosine, BPC-157, ozonated zeolite and the fuels, and Sitting above for movement and yoga.", "before": ""}, {"id": "G10", "type": "pointer", "title": "\"My notes\" line for Phase 6 (Refractory)", "advice": "approve", "what": "One line at the end of Phase 6 (Refractory) pointing back to your notes.", "deciding": "New wording, mine. Reject it if this phase doesn't need the pointer.", "decided": null, "question": null, "where": "above the heading \"Optional Ready-Made Gut Stacks\"", "proposed": "My notes: Matt's note on mopping up mycotoxins with fermented colostrum is under Leaky gut, above.", "before": ""}, {"id": "G11", "type": "conflict", "title": "Berberine for H. pylori is your exception", "advice": "approve", "what": "A note after the stacks line, saying your advice differs for H. pylori.", "deciding": "Only if the stacks section stays in some form (G13). If you cut it, this goes with it.", "decided": {"status": "approved", "text": "", "comment": "s5 approve", "by": "Joel", "at": "2026-11-03 18:01 UTC"}, "question": null, "where": "Optional Ready-Made Gut Stacks, P6", "proposed": "I would not recommend general “gut cleanse” stacks built around oregano oil, wormwood, black walnut, berberine, or other antimicrobial herbs as a universal starting point. Those belong later in the decision tree, when there is a stronger reason to suspect overgrowth, parasites, H. pylori, or another specific problem. (My own advice is different for H. pylori, where berberine works well: see Parasites, above.)", "before": "I would not recommend general “gut cleanse” stacks built around oregano oil, wormwood, black walnut, berberine, or other antimicrobial herbs as a universal starting point. Those belong later in the decision tree, when there is a stronger reason to suspect overgrowth, parasites, H. pylori, or another specific problem."}, {"id": "G12", "type": "question", "title": "Straighten every curly apostrophe and quote mark?", "advice": "ask", "what": null, "deciding": null, "decided": null, "question": "The post uses curly apostrophes and quote marks throughout (don’t, “second brain”), which you type straight and which read as AI. Shall I straighten all of them in the humanized version? Every word stays; only the marks change. (My pick: yes.)", "where": "the opening, P4", "proposed": "", "before": ""}, {"id": "G13", "type": "question", "title": "The stacks section is Gemini's: cut, label or keep?", "advice": "ask", "what": null, "deciding": null, "decided": null, "question": "A: cut it, keeping only the start-low advice and the list of who should see a clinician, as a short note at the end of Phase 5. B: keep the three kits, labeled as Gemini's suggestions, not yours. C: keep it as it is and humanize it. (My pick: A.)", "where": "the heading \"Optional Ready-Made Gut Stacks\"", "proposed": "", "before": ""}, {"id": "G14", "type": "question", "title": "The Gem prompt moves to a doc", "advice": "ask", "what": null, "deciding": null, "decided": null, "question": "Send me the doc's link when it's up, and I'll replace the prompt in the post with a line pointing to it for paid subscribers. A clean copy to paste is ready (the duplicate \"Gem Name\" line, the two [cite_start]/[cite: …] leftovers and the run-together asterisks in Phase 3 fixed; nothing else changed).", "where": "the heading \"Paid Subscribers can see my Gem’s custom instructions below:\"", "proposed": "", "before": ""}], "sections": [{"b": 4, "level": 3, "text": "Some Causes of poor gut health"}, {"b": 34, "level": 2, "text": "Concise Recipe for Gut Healing:"}, {"b": 37, "level": 3, "text": "Text Summary of the Protocol"}, {"b": 81, "level": 2, "text": "Optional Ready-Made Gut Stacks"}, {"b": 90, "level": 3, "text": "Paid Subscribers can see my Gem’s custom instructions below:"}]}</script>
+<script>
+(() => {
+  'use strict';
+  const DATA = JSON.parse(document.getElementById('review-data').textContent);
+  const SUG = {};
+  DATA.suggestions.forEach(s => { SUG[s.id] = s; });
+  const ORDER = DATA.suggestions.map(s => s.id);
+  const STATUSES = ['pending', 'approved', 'rejected', 'revise'];
+  const STORE_KEY = 'joel-suggestion-review-v1:' + DATA.review_id + ':' + DATA.article.sha256.slice(0, 12);
+  const $ = (q, r) => (r || document).querySelector(q);
+  const $$ = (q, r) => Array.from((r || document).querySelectorAll(q));
+  const now = () => new Date().toISOString();
+  const cards = {};
+  $$('.card[data-id]').forEach(c => { cards[c.dataset.id] = c; });
+  const marksById = {};
+  $$('mark.hl[data-s]').forEach(m => m.dataset.s.split(' ').forEach(id => { (marksById[id] = marksById[id] || []).push(m); }));
+
+  // ---------------------------------------------------------------- state
+  let state = {};
+  function blank() { return { status: 'pending', comment: '', text: '', history: [], updated: '' }; }
+  function clean(x) {
+    const st = blank();
+    if (!x || typeof x !== 'object') return st;
+    st.status = STATUSES.includes(x.status) ? x.status : 'pending';
+    st.comment = typeof x.comment === 'string' ? x.comment : '';
+    st.text = typeof x.text === 'string' ? x.text : '';
+    st.history = Array.isArray(x.history) ? x.history.filter(h => h && typeof h === 'object').slice(-50) : [];
+    st.updated = typeof x.updated === 'string' ? x.updated : '';
+    return st;
+  }
+  function initial(id) {
+    const st = blank();
+    const d = SUG[id] && SUG[id].decided;
+    if (d) {
+      st.status = STATUSES.includes(d.status) ? d.status : 'pending';
+      st.text = d.text || '';
+      st.comment = d.comment || '';
+      st.history = [{ from: 'pending', to: st.status, at: d.at || '', by: d.by || '' }];
+    }
+    return st;
+  }
+  function get(id) { if (!state[id]) state[id] = initial(id); return state[id]; }
+  try {
+    const raw = localStorage.getItem(STORE_KEY);
+    if (raw) {
+      const o = JSON.parse(raw);
+      if (o && o.items) Object.keys(o.items).forEach(id => { if (SUG[id]) state[id] = clean(o.items[id]); });
+    }
+  } catch (e) { /* storage blocked: the page still works, answers live in memory */ }
+  let localOk = true;
+  function persistLocal() {
+    try { localStorage.setItem(STORE_KEY, JSON.stringify({ saved: now(), items: state })); localOk = true; }
+    catch (e) { localOk = false; }
+  }
+
+  // ---------------------------------------------------------------- the store (db), when this view has one
+  let db = null, storeState = 'none';
+  const dirty = {}, busy = {}, timers = {}, retried = {};
+  function setStoreNote() {
+    const el = $('#storeNote');
+    if (storeState === 'db') el.textContent = 'Your answers save as you click, to this page (on every device you open it from with this account) and in this browser. Tell me in the chat when you\'re done and I\'ll read them from here; "Copy my answers" gives you a copy to paste anywhere.';
+    else el.textContent = localOk ? 'Your answers save in this browser as you click. To move them to another browser or account, or to send them to me, use "Copy my answers" or "Save them as a file".' : 'This browser won\'t keep answers for this page, so copy or save them before you close it.';
+  }
+  function queueWrite(id, delay) {
+    if (!db) return;
+    dirty[id] = true;
+    clearTimeout(timers[id]);
+    timers[id] = setTimeout(() => flush(id), delay || 0);
+  }
+  async function flush(id) {
+    if (!db || busy[id] || !dirty[id]) return;
+    busy[id] = true;
+    try {
+      while (dirty[id] && db) {
+        dirty[id] = false;
+        const body = JSON.parse(JSON.stringify(get(id)));
+        await db.doc('decisions/' + id).set(body);
+      }
+      savedLine(id, 'Saved');
+    } catch (e) {
+      const code = e && e.code;
+      if (code === 'unavailable' && !retried[id]) {
+        retried[id] = true; dirty[id] = true;
+        setTimeout(() => { busy[id] = false; flush(id); }, 1200 + Math.random() * 1500);
+        return;
+      }
+      if (code === 'resource_exhausted') { dirty[id] = true; setTimeout(() => { busy[id] = false; flush(id); }, 4000); return; }
+      db = null; storeState = 'none'; setStoreNote();
+      savedLine(id, 'Saved in this browser only');
+    } finally { if (busy[id] === true) busy[id] = false; }
+  }
+  function mergeRemote(id, raw) {
+    const remote = clean(raw);
+    const local = get(id);
+    if ((remote.updated || '') > (local.updated || '')) {
+      state[id] = remote; persistLocal(); renderCard(id, true);
+    } else if ((local.updated || '') > (remote.updated || '')) {
+      queueWrite(id, 0);
+    }
+  }
+  async function initDb() {
+    let api = null;
+    try { if (window.claude && typeof window.claude.use === 'function') api = await window.claude.use('db'); } catch (e) { api = null; }
+    if (!api) { setStoreNote(); return; }
+    db = api; storeState = 'db'; setStoreNote();
+    let first = true;
+    try {
+      db.collection('decisions').onSnapshot(snap => {
+        const seen = new Set();
+        snap.docs.forEach(d => { seen.add(d.id); if (SUG[d.id]) mergeRemote(d.id, d.data()); });
+        if (first) {
+          first = false;
+          Object.keys(state).forEach(id => { if (!seen.has(id) && state[id].updated) queueWrite(id, 0); });
+        }
+        progress();
+      }, () => { db = null; storeState = 'none'; setStoreNote(); });
+    } catch (e) { db = null; storeState = 'none'; setStoreNote(); }
+  }
+
+  // ---------------------------------------------------------------- downloads, when this view has them
+  let dl = null;
+  (async () => { try { if (window.claude && typeof window.claude.use === 'function') dl = await window.claude.use('downloads'); } catch (e) { dl = null; } })();
+
+  // ---------------------------------------------------------------- rendering
+  const PILL = { pending: 'Not approved yet', approved: 'Approved', rejected: 'Rejected: keep as is', revise: 'Revise' };
+  // a stretch for him to see and rewrite if he wants (advice "edit", 2026-10-27): its own words for the same states
+  const EDIT_PILL = { pending: 'Not decided yet', approved: 'Approved', rejected: 'Keep as it is', revise: 'Your version' };
+  function savedLine(id, msg) { const c = cards[id]; if (c) { const el = $('.saved-line', c); if (el) el.textContent = msg; } }
+  function isAsk(id) { return SUG[id] && SUG[id].advice === 'ask'; }
+  function askPill(id) {
+    const c = cards[id]; if (!c) return;
+    const done = !!(get(id).comment || '').trim();
+    c.dataset.status = done ? 'answered' : 'pending';
+    $('.pill', c).textContent = done ? 'Answered' : 'Not answered yet';
+    c.classList.toggle('decided', done);
+    (marksById[id] || []).forEach(m => m.classList.toggle('done', done));
+  }
+  function renderCard(id, fromRemote) {
+    const c = cards[id]; if (!c) return;
+    const st = get(id);
+    if (isAsk(id)) {
+      const nt = $('.note', c);
+      if (!(fromRemote && document.activeElement === nt)) nt.value = st.comment || '';
+      askPill(id);
+      return;
+    }
+    c.dataset.status = st.status;
+    $('.pill', c).textContent = (c.dataset.advice === 'leave' && st.status === 'pending') ? 'I\'d leave it'
+      : (c.dataset.advice === 'edit' ? EDIT_PILL : PILL)[st.status];
+    $$('.dec', c).forEach(b => b.setAttribute('aria-pressed', String(b.dataset.dec === st.status)));
+    const yw = $('.yours-wrap', c), yt = $('.yours', c), nt = $('.note', c);
+    yw.hidden = !(st.status === 'revise' || st.text);
+    if (!(fromRemote && document.activeElement === yt)) yt.value = st.text || '';
+    if (!(fromRemote && document.activeElement === nt)) nt.value = st.comment || '';
+    const done = st.status !== 'pending';
+    (marksById[id] || []).forEach(m => {
+      const all = m.dataset.s.split(' ').every(x => get(x).status !== 'pending');
+      m.classList.toggle('done', all);
+    });
+    c.classList.toggle('decided', done);
+  }
+  function renderAll() { ORDER.forEach(id => renderCard(id)); progress(); }
+  function progress() {
+    let n = 0, dec = 0, ap = 0, rj = 0, rv = 0, quiet = 0, quietSeen = 0, asks = 0, answered = 0, eds = 0, edDone = 0, kept = 0, edited = 0;
+    ORDER.forEach(id => {
+      const st = get(id);
+      if (isAsk(id)) { asks++; if ((st.comment || '').trim()) answered++; return; }
+      if (SUG[id].advice === 'leave') { quiet++; if (st.status !== 'pending' || st.comment) quietSeen++; return; }
+      if (SUG[id].advice === 'edit') {   // a stretch to edit: kept or his version, counted apart from the suggestions
+        eds++; if (st.status !== 'pending') edDone++;
+        if (st.status === 'rejected') kept++; else if (st.status === 'revise') edited++;
+        return;
+      }
+      n++;
+      if (st.status !== 'pending') dec++;
+      if (st.status === 'approved') ap++; else if (st.status === 'rejected') rj++; else if (st.status === 'revise') rv++;
+    });
+    $('#prog').innerHTML = (n ? '<b>' + dec + '</b> of ' + n + ' decided · ' + ap + ' approved · ' + rj + ' rejected · ' + rv + ' to revise' : '')
+      + (eds ? (n ? ' · ' : '') + '<b>' + edDone + '</b> of ' + eds + ' stretches looked at · ' + kept + ' kept · ' + edited + ' edited' : '')
+      + (asks ? ' · ' + answered + ' of ' + asks + ' questions answered' : '');
+    $('#meter').style.width = ((n + eds + asks) ? Math.round(100 * (dec + edDone + answered) / (n + eds + asks)) : 0) + '%';
+    $('#leaveCount').textContent = quiet + (quietSeen ? ', ' + quietSeen + ' looked at' : '');
+    const counts = {};
+    ORDER.forEach(id => { const s = SUG[id]; if (s.advice === 'leave') return; counts[s.type] = (counts[s.type] || 0) + 1; });
+    $$('[data-count-type]').forEach(el => { el.textContent = counts[el.dataset.countType] || 0; });
+  }
+
+  // ---------------------------------------------------------------- decisions and notes
+  function decide(id, to) {
+    const st = get(id);
+    const from = st.status;
+    if (from === to) return;
+    st.history.push({ from: from, to: to, at: now() });
+    st.status = to; st.updated = now();
+    if (to === 'revise' && !st.text) st.text = SUG[id].proposed || '';
+    persistLocal(); renderCard(id); progress(); queueWrite(id, 0);
+    savedLine(id, db ? 'Saving…' : (localOk ? 'Saved in this browser' : 'Not saved: copy your answers before closing'));
+    if (to === 'revise') { const yt = $('.yours', cards[id]); if (yt) { yt.focus(); } }
+  }
+  ORDER.forEach(id => {
+    const c = cards[id]; if (!c) return;
+    $$('.dec', c).forEach(b => b.addEventListener('click', () => decide(id, b.dataset.dec)));
+    const typed = (field, el) => {
+      const st = get(id);
+      st[field] = el.value; st.updated = now();
+      persistLocal(); queueWrite(id, 900);
+      savedLine(id, db ? 'Saving…' : (localOk ? 'Saved in this browser' : 'Not saved: copy your answers before closing'));
+      if (isAsk(id)) askPill(id);
+      progress();
+    };
+    const yt = $('.yours', c), nt = $('.note', c);
+    yt.addEventListener('input', () => typed('text', yt));
+    nt.addEventListener('input', () => typed('comment', nt));
+    [yt, nt].forEach(el => el.addEventListener('blur', () => { if (dirty[id]) { clearTimeout(timers[id]); flush(id); } }));
+    const fold = $('.fold', c), body = $('.card-body', c);
+    fold.addEventListener('click', () => {
+      body.hidden = !body.hidden;
+      fold.textContent = body.hidden ? 'Open' : 'Fold';
+      fold.setAttribute('aria-expanded', String(!body.hidden));
+    });
+  });
+
+  // ---------------------------------------------------------------- moving around
+  // The cards in the order they stand on the page, not the order of REVIEW.json: Next and Previous move down and up the
+  // page. (Joel, 2026-11-03 19:12 UTC, on the gut article's r01 page: "your next button is skipping questions fix that".
+  // The list came from ORDER, the suggestions' file order, which put the three question cards last although one sat near
+  // the top of the article and the others between decision cards, so Next passed over them.)
+  function visibleCards() { return $$('.card[data-id]').filter(c => cards[c.dataset.id] === c && !c.hidden && c.offsetParent !== null); }
+  function openCard(c) { const body = $('.card-body', c); if (body.hidden) { body.hidden = false; const f = $('.fold', c); f.textContent = 'Fold'; f.setAttribute('aria-expanded', 'true'); } }
+  function flash(c) { c.classList.remove('flash'); void c.offsetWidth; c.classList.add('flash'); }
+  function goTo(c) { openCard(c); c.scrollIntoView({ behavior: 'smooth', block: 'start' }); flash(c); }
+  function undecided(c) { const id = c.dataset.id; return isAsk(id) ? !(get(id).comment || '').trim() : get(id).status === 'pending'; }
+  function step(dir) {
+    if (document.body.classList.contains('reading')) { document.body.classList.remove('reading'); $('#readingMode').checked = false; }
+    const topLine = 130;   // just under the sticky bar: a card scrolled to with goTo() stands at scroll-padding-top (120px)
+    if (dir > 0) {
+      const list = visibleCards().filter(undecided);
+      if (!list.length) { $('#prog').insertAdjacentText('beforeend', ' · nothing undecided in view'); return; }
+      const next = list.find(c => c.getBoundingClientRect().top > topLine + 4) || list[0];
+      goTo(next);
+      return;
+    }
+    // Previous: the card before the one you're on, decided or not, and never a jump to the bottom. (Joel, 2026-10-30, after
+    // going through the cards in order: "your "pevious" button brouught me to the bottom of the page": it went to the last
+    // undecided card above, and with every card above decided it wrapped round to the last one on the page.)
+    const all = visibleCards();
+    const above = all.filter(c => c.getBoundingClientRect().top < topLine + 4);
+    if (!above.length) { $('#prog').insertAdjacentText('beforeend', ' · this is the first card'); return; }
+    const cur = above[above.length - 1];
+    // inside a long card (its top well above the bar): back to its start first; at its start: the card before it
+    const target = cur.getBoundingClientRect().top < topLine - 60 ? cur : above[above.length - 2];
+    if (!target) { $('#prog').insertAdjacentText('beforeend', ' · this is the first card'); return; }
+    goTo(target);
+  }
+  $('#nextBtn').addEventListener('click', () => step(1));
+  $('#prevBtn').addEventListener('click', () => step(-1));
+  document.addEventListener('click', e => {
+    const m = e.target.closest('mark.hl[data-s]');
+    if (m && !e.target.closest('a')) {
+      const id = m.dataset.s.split(' ')[0];
+      const c = cards[id];
+      if (c && SUG[id].advice === 'leave' && !document.body.classList.contains('show-leave')) return;
+      if (c) {
+        if (document.body.classList.contains('reading')) { document.body.classList.remove('reading'); $('#readingMode').checked = false; }
+        if (c.hidden) { c.hidden = false; }
+        goTo(c);
+      }
+      return;
+    }
+    const g = e.target.closest('[data-go]');
+    if (g) {
+      const t = document.getElementById(g.dataset.go);
+      if (t) { if (t.classList.contains('card')) goTo(t); else { t.scrollIntoView({ behavior: 'smooth', block: 'center' }); flash(t); } }
+    }
+  });
+
+  // ---------------------------------------------------------------- filters
+  const hiddenTypes = new Set();
+  function applyFilters() {
+    const status = $('#statusFilter').value;
+    const q = $('#search').value.trim().toLowerCase();
+    ORDER.forEach(id => {
+      const c = cards[id]; if (!c) return;
+      const st = get(id);
+      let show = !hiddenTypes.has(SUG[id].type);
+      if (show && status !== 'all') show = status === 'noted' ? !!(st.comment || st.text) : st.status === status;
+      if (show && q) {
+        const b = document.getElementById('b' + c.dataset.block);
+        const hay = (c.textContent + ' ' + (b ? b.textContent : '') + ' ' + st.comment + ' ' + st.text).toLowerCase();
+        show = hay.includes(q);
+      }
+      c.hidden = !show;
+    });
+    Object.keys(DATA.types).forEach(t => document.body.classList.toggle('hide-t-' + t, hiddenTypes.has(t)));
+  }
+  $$('[data-filter-type]').forEach(b => b.addEventListener('click', e => {
+    const t = b.dataset.filterType;
+    if (b.closest('.card')) { e.stopPropagation(); }
+    if (hiddenTypes.has(t)) hiddenTypes.delete(t); else hiddenTypes.add(t);
+    $$('.tools [data-filter-type="' + t + '"]').forEach(x => x.setAttribute('aria-pressed', String(!hiddenTypes.has(t))));
+    applyFilters();
+  }));
+  $('#statusFilter').addEventListener('change', applyFilters);
+  let searchTimer = null;
+  $('#search').addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(applyFilters, 200); });
+  $('#showLeave').addEventListener('change', e => { document.body.classList.toggle('show-leave', e.target.checked); });
+  $('#readingMode').addEventListener('change', e => { document.body.classList.toggle('reading', e.target.checked); });
+  const sel = $('#sectionJump');
+  DATA.sections.forEach(s => {
+    const o = document.createElement('option');
+    o.value = 'b' + s.b; o.textContent = (s.level >= 3 ? '   ' : '') + s.text;
+    sel.appendChild(o);
+  });
+  sel.addEventListener('change', () => { const t = document.getElementById(sel.value); if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' }); sel.value = ''; });
+  function togglePanel(btn, panel) {
+    const open = panel.hidden;
+    panel.hidden = !open; btn.setAttribute('aria-expanded', String(open));
+  }
+  $('#toolsBtn').addEventListener('click', () => togglePanel($('#toolsBtn'), $('#tools')));
+  $('#saveBtn').addEventListener('click', () => togglePanel($('#saveBtn'), $('#savePanel')));
+
+  // ---------------------------------------------------------------- export and import
+  function answers() {
+    const counts = { approved: 0, rejected: 0, revise: 0, pending: 0 };
+    const items = ORDER.map(id => {
+      const s = SUG[id], st = get(id);
+      counts[st.status]++;
+      return { id: id, type: s.type, title: s.title, where: s.where, advice: s.advice, status: isAsk(id) ? ((st.comment || '').trim() ? 'answered' : 'pending') : st.status,
+        question: s.question || undefined,
+        your_version: st.text, comment: st.comment, my_version: s.proposed, before: s.before,
+        history: st.history, updated: st.updated };
+    });
+    return { format: 'joel-suggestion-review-answers-v1', review_id: DATA.review_id, title: DATA.title, git_file: DATA.git_file,
+      article: DATA.article, built: DATA.built, generator: DATA.generator, exported_at: now(), counts: counts, items: items };
+  }
+  function status(msg) { $('#saveStatus').textContent = msg; }
+  function showCopyArea(text) {
+    const ta = $('#copyArea'); ta.hidden = false; ta.value = text; ta.focus(); ta.select();
+  }
+  $('#copyJson').addEventListener('click', () => {
+    const text = JSON.stringify(answers(), null, 1);
+    let done = false;
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => { done = true; status('Copied. Paste it into the chat, or into this page on another account with "Paste answers instead".'); $('#copyArea').hidden = true; },
+          () => { showCopyArea(text); status('This view blocked copying: the answers are selected below, so copy them with your keyboard or the menu.'); });
+        return;
+      }
+    } catch (e) { /* fall through */ }
+    if (!done) { showCopyArea(text); status('The answers are selected below: copy them with your keyboard or the menu.'); }
+  });
+  $('#saveJson').addEventListener('click', async () => {
+    const text = JSON.stringify(answers(), null, 1);
+    const name = (DATA.review_id || 'review') + '-answers-' + now().slice(0, 16).replace(/[:T]/g, '-') + '.json';
+    if (dl) {
+      try { const r = await dl.save({ filename: name, data: text }); status(r && r.status === 'delivered' ? 'Sent.' : 'Saved as ' + name + '.'); return; }
+      catch (e) {
+        if (e && e.code === 'declined') { status('Not saved.'); return; }
+        if (e && e.code === 'rate_limited') { status('A save is already waiting for you to confirm.'); return; }
+      }
+    }
+    try {
+      const url = URL.createObjectURL(new Blob([text], { type: 'application/json' }));
+      const a = document.createElement('a'); a.href = url; a.download = name; a.style.display = 'none';
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 60000);
+      status('Saving ' + name + '. If nothing downloads, use "Copy my answers" instead.');
+    } catch (e) { showCopyArea(text); status('Saving files is blocked here: the answers are selected below to copy.'); }
+  });
+  function load(text) {
+    let o;
+    try { o = JSON.parse(text); } catch (e) { status('That isn\'t a JSON answers file.'); return; }
+    if (!o || o.format !== 'joel-suggestion-review-answers-v1' || !Array.isArray(o.items)) { status('That isn\'t an answers file from this page.'); return; }
+    if (o.review_id !== DATA.review_id) { status('Those answers are for a different review (' + o.review_id + '), so nothing was loaded.'); return; }
+    if (!o.article || o.article.sha256 !== DATA.article.sha256) { status('Those answers are for a different version of the guide, so nothing was loaded: send them to me and I\'ll carry them over.'); return; }
+    let n = 0; const unknown = [];
+    o.items.forEach(it => {
+      if (!it || !SUG[it.id]) { if (it && it.id) unknown.push(it.id); return; }
+      const st = get(it.id);
+      const to = STATUSES.includes(it.status) ? it.status : 'pending';
+      if (to === 'pending' && !it.comment && !it.your_version && st.status === 'pending' && !st.comment && !st.text) return;
+      if (to !== st.status) st.history.push({ from: st.status, to: to, at: now(), by: 'loaded from a file' });
+      st.status = to; st.comment = typeof it.comment === 'string' ? it.comment : '';
+      st.text = typeof it.your_version === 'string' ? it.your_version : '';
+      st.updated = now(); n++;
+      queueWrite(it.id, 0);
+    });
+    persistLocal(); renderAll(); applyFilters();
+    status('Loaded ' + n + ' answer' + (n === 1 ? '' : 's') + (unknown.length ? '; ' + unknown.length + ' not on this page (' + unknown.slice(0, 5).join(', ') + ')' : '') + '.');
+  }
+  $('#importFile').addEventListener('change', e => {
+    const f = e.target.files && e.target.files[0]; if (!f) return;
+    const r = new FileReader(); r.onload = () => { load(String(r.result)); e.target.value = ''; }; r.readAsText(f);
+  });
+  $('#pasteToggle').addEventListener('click', () => { const b = $('#pasteBox'); b.hidden = !b.hidden; if (!b.hidden) $('#pasteArea').focus(); });
+  $('#pasteLoad').addEventListener('click', () => load($('#pasteArea').value));
+
+  window.__review = { answers: answers, load: load, state: () => state };
+  renderAll(); applyFilters(); setStoreNote(); initDb();
+})();
+</script>

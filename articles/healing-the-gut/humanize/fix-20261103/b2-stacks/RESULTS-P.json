@@ -1,0 +1,96 @@
+{
+ "b2-LGF-P": {
+  "sha256": "cc0c19496a2b2f05f1a29f661e765c1c82b276fd467b44a6bf1773e6396b3c43",
+  "words": 163,
+  "prediction_short": "AI",
+  "fraction_human": 6.03003940113922e-08,
+  "fraction_ai": 0.9999999403953552,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/a2b6fca3-ae5f-42d6-8868-84a30cb61754",
+  "windows": [
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 41,
+    "text": "Fuels for the gut lining (glutamine, butyrate, TCA intermediates): the cells lining your gut need a lot of energy to keep the tight junctions closed, and without their fuels the barrier breaks down and lets LPS and endotoxins into your blood."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "words": 4,
+    "text": "\nL-Glutamine (watch Dr."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "words": 12,
+    "text": " Rhonda vid) is the main fuel for the small intestine's cells. "
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 58,
+    "text": "5g a day is a good baseline, especially if you do hard training like CrossFit or intense cardio, and you can go up to 10-30g during acute immune exposure, high stress, or active IBD (Crohn's/Colitis). But skip the high doses if you have active colon or liver cancer, since cancer cells can use glutamine too."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "words": 16,
+    "text": "\nButyrate and the other short-chain fatty acids are the fuel for your colon's cells."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "words": 13,
+    "text": " You get them from fermenting raw resistant starch, or from your SIBO yogurt."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 27,
+    "text": "\nMalic and citric acid (organic malic acid, tart cherries, green apples) feed the same energy pathways as glutamine, so they're another fuel for healing the lining."
+   }
+  ]
+ },
+ "b2-ST-P": {
+  "sha256": "7b1d63b3f0f9dff8cab16d0242a2c81627b9c5bf1969f6f105febff4ebbe8224",
+  "words": 194,
+  "prediction_short": "AI",
+  "fraction_human": 1.785218046279624e-05,
+  "fraction_ai": 0.9999821186065674,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/e9c436bd-6c72-4bed-9bc2-f548e437f344",
+  "windows": [
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 71,
+    "text": "Optional Ready-Made Gut Stacks\nI don't think one supplement stack heals everyone's gut, and the order still matters: mechanics first, then diet and motility, and antimicrobials only if you still have symptoms. But if you want a ready-made starting point, I'd look for one that has a probiotic you tolerate, something for butyrate, and something for the gut lining (glutamine, zinc carnosine, colostrum and so on)."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "words": 38,
+    "text": "\nGemini suggested these, and so far they're the best kits I've seen, tho I haven't used them myself, so check the reviews: Microbiome Labs Total Gut Restoration (probiotic, prebiotic and mucosal support in one), Dr."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 48,
+    "text": " Ruscio's Leaky Gut Support Kit for leaky gut, and Designs for Health GI Revive if you only want a gut-lining formula.\nI'd skip the \"gut cleanse\" stacks (oregano oil, wormwood, black walnut, berberine) until you have a real reason to suspect overgrowth, parasites or H."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "words": 18,
+    "text": " pylori, and for H. pylori my advice is different anyway: berberine works well (see Parasites, above).\nStart low."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 30,
+    "text": " And if you have severe pain, GI bleeding, fever, dehydration, rapid weight loss, an IBD flare, cancer, immune suppression, a pregnancy or another complex condition, see a qualified clinician instead."
+   }
+  ]
+ }
+}

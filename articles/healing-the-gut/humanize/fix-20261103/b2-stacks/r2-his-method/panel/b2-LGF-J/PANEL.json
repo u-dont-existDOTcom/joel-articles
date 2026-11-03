@@ -1,0 +1,95 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Mitochondrial and cellular energy starvation (glutamine, butyrate, TCA intermediates): your gut barrier needs a lot of energy, right there in the gut and right away, to keep its tight junctions intact, so if the cells lining your small intestine (called enterocytes) or your large intestine (colonocytes) don't get the fuels their mitochondria prefer, the barrier structurally breaks down, and lipopolysaccharides (LPS, which come from the walls of bacteria) and other endotoxins leak through into your bloodstream.",
+  "L-Glutamine (watch Dr.",
+  "Rhonda vid) is the top fuel for those small intestine cells, and for your immune cells when they're activated.",
+  "It skips the complicated digestive steps and gets turned directly into alpha-ketoglutarate (α-KG) inside the mitochondria, where it powers the citric acid cycle (the cycle mitochondria use to make energy), so the cells get that energy right away, and that's what drives the repair of the gut lining and stops LPS from getting through.",
+  "Take 5g a day as a baseline.",
+  "That's to counter the breakdown of the gut lining you get from high-intensity or high-volume training (like CrossFit or intense cardio).",
+  "Then raise it gradually to 10-30g a day when your immune system is dealing with an acute exposure, when your whole system is under a lot of stress, or if you have active IBD (Crohn's or colitis).",
+  "CAUTION: cancer cells that multiply really fast can also hijack glutamine to fuel their growth, so don't raise it to the high doses if you have an active colon or liver cancer (the liver gets the glutamine first, through the portal vein).",
+  "Butyrate and other short-chain fatty acids (SCFAs): the small intestine runs on glutamine, but the large intestine runs on SCFAs like butyrate.",
+  "You get those when your gut bacteria ferment raw resistant starch, or from your home-brewed SIBO yogurt, and they fuel the cells of your colon and lock down the lower gut barrier.",
+  "They also keep turning down inflammatory signals.",
+  "TCA cycle intermediates (malic and citric acid): organic acids like malate and citrate feed directly into the same energy pathways in the mitochondria that glutamine does, so clean sour stuff (like organic malic acid, tart cherries or green apples) gives your gut cells a quick alternative fuel, which speeds up healing of the lining from a different biochemical angle."
+ ],
+ "flagged": {
+  "1": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [],
+  "3": [],
+  "4": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [
+   "haiku"
+  ],
+  "9": [
+   "haiku",
+   "sonnet"
+  ],
+  "10": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "11": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "12": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  4,
+  9,
+  10,
+  11,
+  12
+ ],
+ "whole": {
+  "codex": [
+   "The passage repeatedly follows the same route: name a substance, explain its mechanism, then deliver a confident benefit, with long chains of “so,” “and,” and “which.” Its mixture of technical terminology and conspicuously casual phrasing can read like AI polishing an informal source, though wording alone cannot establish authorship."
+  ],
+  "haiku": [
+   "The paragraph is built as a set of evenly weighted glossed items, each with a colon label, a parenthetical definition, and a short tidy conclusion, which reads templated. Its explanatory parentheticals (\"(called enterocytes)\", \"(the cycle mitochondria use to make energy)\") appear at almost every step, giving a uniform, explain-everything voice."
+  ],
+  "sonnet": [
+   "Each item follows the same template of heading label, mechanism explanation, then a benefit or instruction, and the sentences are long, evenly built chains of \"so... and that's what...\" that keep a steady explanatory rhythm. The voice is also consistently tutorial and even, with few breaks in register apart from the casual asides."
+  ]
+ },
+ "human_clean": [
+  "L-Glutamine (watch Dr. Rhonda vid)",
+  "your home-brewed SIBO yogurt",
+  "clean sour stuff",
+  "watch Dr. Rhonda vid",
+  "your home-brewed SIBO yogurt",
+  "clean sour stuff",
+  "like CrossFit or intense cardio",
+  "(watch Dr. Rhonda vid)",
+  "your home-brewed SIBO yogurt",
+  "clean sour stuff",
+  "Take 5g a day as a baseline.",
+  "(like CrossFit or intense cardio)",
+  "really fast",
+  "(the liver gets the glutamine first, through the portal vein)"
+ ]
+}

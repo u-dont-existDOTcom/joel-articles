@@ -1,0 +1,24 @@
+{
+ "LGF": {
+  "text": "  - Fuels for the gut lining (glutamine, butyrate, TCA intermediates): the cells lining your gut need a lot of energy to keep the tight junctions closed, and without their fuels the barrier breaks down and lets LPS and endotoxins into your blood.\n\n    - L-Glutamine ([watch Dr. Rhonda vid](https://m.youtube.com/watch?v=5DVUEKrekYw&ra=m)) is the main fuel for the small intestine's cells. 5g a day is a good baseline, especially if you do hard training like CrossFit or intense cardio, and you can go up to 10-30g during acute immune exposure, high stress, or active IBD (Crohn's/Colitis). But skip the high doses if you have active colon or liver cancer, since cancer cells can use glutamine too.\n\n    - Butyrate and the other short-chain fatty acids are the fuel for your colon's cells. You get them from fermenting raw resistant starch, or from your SIBO yogurt.\n\n    - Malic and citric acid (organic malic acid, tart cherries, green apples) feed the same energy pathways as glutamine, so they're another fuel for healing the lining.",
+  "cuts": [
+   "how glutamine works (skips digestion, becomes alpha-ketoglutarate, powers the citric acid cycle) and that it fuels activated immune cells",
+   "the liver seeing glutamine first via the portal vein",
+   "butyrate locking down the lower gut barrier and suppressing inflammatory signals",
+   "the cell names enterocytes and colonocytes",
+   "\"from a different biochemical angle\""
+  ],
+  "notes": "Claude, a proposal that cuts: only the remedies, doses, warnings and sources, in the length of his other Leaky gut items."
+ },
+ "ST": {
+  "text": "## Optional Ready-Made Gut Stacks\n\nI don't think one supplement stack heals everyone's gut, and the order still matters: mechanics first, then diet and motility, and antimicrobials only if you still have symptoms. But if you want a ready-made starting point, I'd look for one that has a probiotic you tolerate, something for butyrate, and something for the gut lining (glutamine, zinc carnosine, colostrum and so on).\n\nGemini suggested these, and so far they're the best kits I've seen, tho I haven't used them myself, so check the reviews: Microbiome Labs Total Gut Restoration (probiotic, prebiotic and mucosal support in one), Dr. Ruscio's Leaky Gut Support Kit for leaky gut, and Designs for Health GI Revive if you only want a gut-lining formula.\n\nI'd skip the \"gut cleanse\" stacks (oregano oil, wormwood, black walnut, berberine) until you have a real reason to suspect overgrowth, parasites or H. pylori, and for H. pylori my advice is different anyway: berberine works well (see Parasites, above).\n\nStart low. And if you have severe pain, GI bleeding, fever, dehydration, rapid weight loss, an IBD flare, cancer, immune suppression, a pregnancy or another complex condition, see a qualified clinician instead.",
+  "cuts": [
+   "GI Revive \"is a repair product, not a complete gut protocol by itself\"",
+   "which supplements to start low with (prebiotics, resistant starch, butyrate-support products, probiotics)",
+   "\"mucosal-support herbs\" among the lining nutrients",
+   "\"other antimicrobial herbs\" after the four named",
+   "the antimicrobial step named as anti-parasite too"
+  ],
+  "notes": "Claude, a proposal that cuts: ST1 and ST2 as one shorter section, his G13 answer leading the kits."
+ }
+}

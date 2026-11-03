@@ -1,0 +1,68 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Gemini suggested these kits to me, but so far they're the best ones I've seen, tho I haven't used them myself, so check the reviews.",
+  "Microbiome Labs Total Gut Restoration covers all three of those (probiotic, prebiotic and mucosal support), so that's the general one.",
+  "Is it mainly leaky gut for you?",
+  "Then Dr.",
+  "Ruscio's Leaky Gut Support Kit makes sense.",
+  "And Designs for Health GI Revive is one of the more complete gut-lining formulas, but on its own it's just the repair part of a gut protocol."
+ ],
+ "flagged": {
+  "1": [],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "whole": {
+  "codex": [
+   "The three products fall into tidy roles: the general option, the targeted option and the partial solution. That orderly construction beneath the casual voice suggests possible AI polishing, although it cannot establish authorship."
+  ],
+  "haiku": [
+   "The paragraph is built as three evenly weighted moves (a general pick, a conditional branch, and a caveat), which gives it a symmetrical, tidy rhythm that reads like a generated comparison rather than a casual note."
+  ],
+  "sonnet": [
+   "The paragraph is built as three parallel product entries, each with a one-clause purpose and a qualifier, in a neat general / specific / partial progression that feels organised and balanced. The voice is mostly casual, but the structure is more orderly than the opening disclaimer suggests."
+  ]
+ },
+ "human_clean": [
+  "Gemini suggested these kits to me, but so far they're the best ones I've seen, tho I haven't used them myself, so check the reviews.",
+  "Gemini suggested these kits to me",
+  "so far they're the best ones I've seen",
+  "tho I haven't used them myself, so check the reviews",
+  "Gemini suggested these kits to me, but so far they're the best ones I've seen, tho I haven't used them myself, so check the reviews.",
+  "so check the reviews"
+ ]
+}

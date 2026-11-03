@@ -1,0 +1,64 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Gemini suggested these kits to me, but so far they're the best ones I've seen, tho I haven't used them myself, so check the reviews.",
+  "The best general one is Microbiome Labs Total Gut Restoration, because it has all three parts in it: probiotic, prebiotic and mucosal support.",
+  "If you're dealing with leaky gut more specifically, Dr.",
+  "Ruscio's Leaky Gut Support Kit is a reasonable option.",
+  "And if you just want one formula for repairing the gut lining, Designs for Health GI Revive is one of the more complete ones, but it's only for repair, it won't do the whole gut protocol for you."
+ ],
+ "flagged": {
+  "1": [],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph’s three product recommendations follow an orderly progression, with each assigned a use and an endorsement or qualification. That structure feels more machine-made than the loose opening, although wording alone cannot establish authorship."
+  ],
+  "haiku": [
+   "The paragraph moves in a tidy, even sequence of three recommendations, each set up with a matching frame and each closed with a balanced caveat, so it reads like a comparison built to cover every case rather than a person talking through their own choice."
+  ],
+  "sonnet": [
+   "The paragraph is built as a tidy recommendation list: a general pick, then a specific-condition pick, then a narrow-use pick, each with its own conditional lead-in and a clean caveat at the end. That even, balanced structure and the smooth, hedged tone read machine-organised, even though the opening sentence breaks it up."
+  ]
+ },
+ "human_clean": [
+  "tho I haven't used them myself, so check the reviews",
+  "but so far they're the best ones I've seen, tho I haven't used them myself",
+  "Gemini suggested these kits to me",
+  "but so far they're the best ones I've seen",
+  "tho I haven't used them myself, so check the reviews",
+  "Gemini suggested these kits to me",
+  "tho I haven't used them myself, so check the reviews",
+  "but so far they're the best ones I've seen, tho I haven't used them myself"
+ ]
+}

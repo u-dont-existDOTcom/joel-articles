@@ -1,0 +1,289 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "healing-the-gut-r01-structure-20261103",
+ "title": "Gut Article r01",
+ "git_file": "articles/healing-the-gut/humanize/fix-20261103/r01/REVIEW-PAGE.html",
+ "article": {
+  "file": "articles/healing-the-gut/humanize/fix-20261103/r01/MASTER.md",
+  "sha256": "dd074c21221afb5f4076412c2e1e06ee98a19c9a6e12c13b7c8587aba5ddd967"
+ },
+ "built": "2026-11-03",
+ "generator": "suggestion_review.py 1.5 (2026-11-02)",
+ "exported_at": "2026-11-03T19:12:55.160Z",
+ "counts": {
+  "approved": 11,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 3
+ },
+ "items": [
+  {
+   "id": "G1",
+   "type": "explainer",
+   "title": "Say plainly that the Gem only has the books",
+   "where": "Concise Recipe for Gut Healing:, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "NOTE: this gut gem does not include some of my research in this article, which is newer, especially from folks like Matt from EndSickness.org who doesn’t have a comprehensive text for Gemini to read. So the phases below are only what the Gem will tell you, from the nine books. Where my notes in the causes above change or add to a phase, I point back to them under \"My notes\" in that phase.",
+   "before": "NOTE: this gut gem does not include some of my research in this article, which is newer, especially from folks like Matt from EndSickness.org who doesn’t have a comprehensive text for Gemini to read.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-03T19:09:56.223Z"
+    }
+   ],
+   "updated": "2026-11-03T19:09:56.223Z"
+  },
+  {
+   "id": "G2",
+   "type": "structure",
+   "title": "Each cause points to its phase",
+   "where": "Some Causes of poor gut health, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "s2 approve (the mapping)",
+   "my_version": "Severe stress/adrenal fatigue/poor sleep (Phase 1): This can cause a lack of mucus to line the stomach, which in turn causes burning, difficulty absorbing nutrients, and so forth. And every other gut issue can also be partly related to this. My mindset page and loveyhuasca protocol can help a lot with this, as well as my deep sleep tips.\n\nSitting, or lack of exercise and stretching (Phase 5): humans were not designed to be sedentary. Our biology slows down and cramps up when we are. Walk, do yoga, do shaking qi-gong, do bodyweight strength training.\n\nYears of accumulated shit in your guts (closest: Phase 4): This part isn’t in the gut healing books I read, but even if you fix all of what’s going into you now, if you’re already full and clogged with all of what went in before, that’s gonna be little help. My friend Pooyan got incredibly healthier and happier after getting enough colon hydrotherapy to flush that stuff out, combined with then also doing intense stretches like hanging from one arm, until finally, the most crusted up shit exploded in him which was very painful for a day.\n\nPoor diet now (Phase 2): industrial and processed foods, especially oils, are often empty calories full of countless toxins and oxidation byproducts. Toxins are sequestered in fat cells to prevent them from damaging organs, but this toxic fat (especially visceral fat) becomes a chronic health issue even as it protects us from immediately dying from the sequestered toxins.\n\nParasites, H. pylori, mold, metals (Phases 3 and 6): We are often addicted to junk food due to a vicious cycle in which the junk feeds parasitic organisms and bad bacteria, yeast, etc, which then send signals to our brain to consume more junk. Thus, we have to target the problem from various angles — cleansing out pathogens, repopulating good bacteria, addressing vitamin (especially thiamine), mineral, and enzyme deficiencies, and changing what we eat. I wrote about my detox protocol (which includes the gut) here. For H. Pylori specifically: if you get heartburn when your stomach is empty only, that’s usually H. Pylori, and it’s easily treated with berberine.\n\nSIBO (Phases 3 and 5): Small intestinal bacterial overgrowth is a huge issue underlying a wide range of illnesses. One of the most effective cures for many people is SIBO Yogurt. I also sell these SIBO yogurt bacteria (along with other helpful herbal juices and minerals) in liquid form for vegans.\n\nPlant foods (Phases 2 and 5): The carnivore diet is trending, as many people (especially with leaky gut or lack of oxalate-processing bacteria) are noticing they cannot handle fiber, oxalates, and phytates in plants. It’s certainly a diet worth trying, but it can lead to deficiencies over time, especially with regard vitamins C, E, fiber, magnesium, potassium, calcium, iodine and other trace minerals, and bacteria needed to process plant foods (which already are likely missing in people who need this diet), thus making the carnivore diet sort of hard to get off.\n\nLeaky gut (Phase 5): a widespread inflammatory condition often intersecting with other categories of illness such as Crohn’s Disease or IBS, plant food intolerance, and what many alternative health practitioners consider as a root cause of most diseases. It’s associated with increased zonulin levels clinically. Zonulin is the molecule released to signal your intestinal tight jungtions to open. Too much opening time leads to allowing stuff to leak out into your blood stream which then burdens your immune system and detoxification systems. Game-changing treatments:\n\nIBS (Phase 4): While there are many causes and types of irritable bowel syndrome, psychedelics are one promising new avenue of treatment. However, it’s always best to find the root cause of the problem, which requires investigation. A functional medicine gastroenterologist might help.\n\nLow stomach acid, enzymes, and thick bile (Phase 1): which in turn are often due to poor diet, stress, infections. T.C. Hale has a lot of videos on healing digestion issues, which in his experience as a health coach, are often due to these root causes. He’s a bit controversial on some points such as his urine pH testing for anabolic/catabolic state freezes, but he does have some good suggestions he explains in his book.",
+   "before": "Severe stress/adrenal fatigue/poor sleep: This can cause a lack of mucus to line the stomach, which in turn causes burning, difficulty absorbing nutrients, and so forth. And every other gut issue can also be partly related to this. My mindset page and loveyhuasca protocol can help a lot with this, as well as my deep sleep tips.\n\nSitting, or lack of exercise and stretching: humans were not designed to be sedentary. Our biology slows down and cramps up when we are. Walk, do yoga, do shaking qi-gong, do bodyweight strength training.\n\nYears of accumulated shit in your guts: This part isn’t in the gut healing books I read, but even if you fix all of what’s going into you now, if you’re already full and clogged with all of what went in before, that’s gonna be little help. My friend Pooyan got incredibly healthier and happier after getting enough colon hydrotherapy to flush that stuff out, combined with then also doing intense stretches like hanging from one arm, until finally, the most crusted up shit exploded in him which was very painful for a day.\n\nPoor diet now: industrial and processed foods, especially oils, are often empty calories full of countless toxins and oxidation byproducts. Toxins are sequestered in fat cells to prevent them from damaging organs, but this toxic fat (especially visceral fat) becomes a chronic health issue even as it protects us from immediately dying from the sequestered toxins.\n\nParasites, H. pylori, mold, metals: We are often addicted to junk food due to a vicious cycle in which the junk feeds parasitic organisms and bad bacteria, yeast, etc, which then send signals to our brain to consume more junk. Thus, we have to target the problem from various angles — cleansing out pathogens, repopulating good bacteria, addressing vitamin (especially thiamine), mineral, and enzyme deficiencies, and changing what we eat. I wrote about my detox protocol (which includes the gut) here. For H. Pylori specifically: if you get heartburn when your stomach is empty only, that’s usually H. Pylori, and it’s easily treated with berberine.\n\nSIBO: Small intestinal bacterial overgrowth is a huge issue underlying a wide range of illnesses. One of the most effective cures for many people is SIBO Yogurt. I also sell these SIBO yogurt bacteria (along with other helpful herbal juices and minerals) in liquid form for vegans.\n\nPlant foods: The carnivore diet is trending, as many people (especially with leaky gut or lack of oxalate-processing bacteria) are noticing they cannot handle fiber, oxalates, and phytates in plants. It’s certainly a diet worth trying, but it can lead to deficiencies over time, especially with regard vitamins C, E, fiber, magnesium, potassium, calcium, iodine and other trace minerals, and bacteria needed to process plant foods (which already are likely missing in people who need this diet), thus making the carnivore diet sort of hard to get off.\n\nLeaky gut: a widespread inflammatory condition often intersecting with other categories of illness such as Crohn’s Disease or IBS, plant food intolerance, and what many alternative health practitioners consider as a root cause of most diseases. It’s associated with increased zonulin levels clinically. Zonulin is the molecule released to signal your intestinal tight jungtions to open. Too much opening time leads to allowing stuff to leak out into your blood stream which then burdens your immune system and detoxification systems. Game-changing treatments:\n\nIBS: While there are many causes and types of irritable bowel syndrome, psychedelics are one promising new avenue of treatment. However, it’s always best to find the root cause of the problem, which requires investigation. A functional medicine gastroenterologist might help.\n\nLow stomach acid, enzymes, and thick bile: which in turn are often due to poor diet, stress, infections. T.C. Hale has a lot of videos on healing digestion issues, which in his experience as a health coach, are often due to these root causes. He’s a bit controversial on some points such as his urine pH testing for anabolic/catabolic state freezes, but he does have some good suggestions he explains in his book.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-03 18:01 UTC",
+     "by": "Joel"
+    }
+   ],
+   "updated": ""
+  },
+  {
+   "id": "G3",
+   "type": "structure",
+   "title": "The phases follow the Gem's six",
+   "where": "the heading \"Phase 4: The “Nuclear” Option (The Architect)\"",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "s6 approve (the regrouping; the new labels are still his call)",
+   "my_version": "#### Phase 3: The Purge (The Restorer)\n\nSource: Dr. William Davis (Super Gut) & Dr. Michael Ruscio\n\nThe Logic: If diet didn’t clear the symptoms, active overgrowth (SIBO/SIFO) is likely present.\n\nThe Protocol:\n\nAVOID Most Herbal Antibiotics. Davis recommends using specific herbal combinations like Candibactin AR/BR or FC Cidal/Dysbiocide for 4 weeks.\n\nH2O2 actually works better than the herbal antibiotics according to me and orthomolecular drs. My BFF Pooyan tried candibactin actually and it nearly killed him. The H2O2 worked a lot better without side effects. There is one herbal antibiotic that works really well tho for H. pylori: Berberine. If you have an acute infection with something that those don’t help quickly, consider escalating to secnidazole treatment for rapid cure, and paromomycin post-treatment for relapse prevention, with medical supervision.\n\nBIND to the toxins, especially the metals and parasite die of toxins, using Zholy3O.\n\nTriple Probiotic Support (Ruscio): Simultaneously take a blend of Lacto/Bifido, S. boulardii, and Soil-Based organisms to maintain diversity and prevent opportunistic infections (like C. diff) during the kill phase.\n\n5. The “Nuclear” Option (Ruscio): If herbs failed, the overgrowth is too severe or the gut lining is too damaged for solids. The Elemental Diet: A 2-3 week liquid-only diet (predigested nutrients). This starves bacteria completely while nourishing the human host.\n\n#### Phase 4: The Investigation (The Detective)\n\nSource: Benjamin Brown (Digestive Health Solution)\n\nThe Logic: If the “Nuclear Option” failed, the problem is not the microbiome. It is likely organ failure, environmental toxicity, or brain plasticity. (The last two are Phase 6, below.)\n\nThe Protocol:\n\n1. Check Organs (Brown): Test for Exocrine Pancreatic Insufficiency (Stool Elastase) or Bile Acid Diarrhea (SeHCAT). Treat with high-dose enzymes or bile binders.\n\n#### Phase 5: Restoration & Maintenance (The Gardener)\n\nSource: Dr. William Davis & Dr. Will Bulsiewicz (Fiber Fueled)\n\nThe Logic: You are clear of infection. Now you must rebuild a diverse ecosystem to prevent relapse.\n\nThe Protocol:\n\n1. Re-Seed (Davis): Introduce high-dose “SIBO Yogurt” (fermented for 36 hours) containing L. reuteri (to heal the lining and boost oxytocin) and L. gasseri (to produce bacteriocins that kill SIBO).\n\n2. Feed (Bulsiewicz): Slowly titrate plant diversity back into the diet. Aim for 30+ different plants per week to feed the new healthy bacteria.\n\n3. Maintain (Pimentel): Continue strict meal spacing (4+ hours) forever to keep the MMC cleaning wave active.\n\n4. Fuel the Mitochondria: Deploy L-Glutamine (5–30g based on inflammatory load), butyrate-producing substrates (resistant starch), and TCA cycle intermediates (malic acid/citrate) to provide immediate cellular energy to enterocytes, cementing tight junction integrity and permanently halting LPS translocation.\n\n#### Phase 6: Refractory Cases (The Hazmat Team)\n\nSource: Neil Nathan (Toxic), Annie Hopper (Wired for Healing)\n\nThe Logic: For cases that are \"sensitive to everything,\" or that relapse right away despite perfect adherence.\n\nThe Protocol:\n\n1. Check Environment (Nathan): Assess for Mold/Mycotoxins or Lyme. If positive, use specific binders (Cholestyramine, Charcoal, Clay).\n\n2. Check Brain (Hopper): If you react to everything, the issue is Limbic System Impairment. Use “Brain Retraining” (DNRS) to stop the brain from firing false “danger” signals to the gut.",
+   "before": "Phase 4: The “Nuclear” Option (The Architect)\n\nPhase 5: The Investigation (The Detective & Hazmat Team)\n\nPhase 6: Restoration & Maintenance (The Gardener)",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-03 18:01 UTC",
+     "by": "Joel"
+    }
+   ],
+   "updated": ""
+  },
+  {
+   "id": "G4",
+   "type": "dedupe",
+   "title": "Phase 5 points back to the fuels instead of repeating them",
+   "where": "Phase 6: Restoration & Maintenance (The Gardener), P6",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Fuel the Mitochondria: see the fuels under Leaky gut, above (glutamine, butyrate and TCA intermediates).",
+   "before": "Fuel the Mitochondria: Deploy L-Glutamine (5–30g based on inflammatory load), butyrate-producing substrates (resistant starch), and TCA cycle intermediates (malic acid/citrate) to provide immediate cellular energy to enterocytes, cementing tight junction integrity and permanently halting LPS translocation.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-03T19:12:12.384Z"
+    }
+   ],
+   "updated": "2026-11-03T19:12:12.384Z"
+  },
+  {
+   "id": "G5",
+   "type": "pointer",
+   "title": "\"My notes\" line for Phase 1",
+   "where": "above the heading \"Phase 2: The Reset (The Architect & Scientist)\"",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "also make sure my sleep article is linked at sleep.u-dont-exist.com",
+   "my_version": "My notes: for stress and sleep see Severe stress above, and for stomach acid and bile see Low stomach acid.",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-03T19:10:08.791Z"
+    }
+   ],
+   "updated": "2026-11-03T19:10:20.641Z"
+  },
+  {
+   "id": "G6",
+   "type": "pointer",
+   "title": "\"My notes\" line for Phase 2",
+   "where": "above the heading \"Phase 3: The Purge (The Restorer)\"",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "My notes: see Poor diet now and Plant foods, above.",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-03T19:11:16.400Z"
+    }
+   ],
+   "updated": "2026-11-03T19:11:16.400Z"
+  },
+  {
+   "id": "G7",
+   "type": "pointer",
+   "title": "\"My notes\" line for Phase 3",
+   "where": "above the heading \"Phase 5: The Investigation (The Detective & Hazmat Team)\"",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "My notes: the H2O2 swap above is mine, not the books'. For berberine and H. pylori see Parasites, and for SIBO yogurt see SIBO, above.",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-03T19:11:22.967Z"
+    }
+   ],
+   "updated": "2026-11-03T19:11:22.967Z"
+  },
+  {
+   "id": "G8",
+   "type": "pointer",
+   "title": "\"My notes\" line for Phase 4 (Investigation)",
+   "where": "above the heading \"Phase 6: Restoration & Maintenance (The Gardener)\"",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "My notes: two things the books don't cover, old impaction and colon hydrotherapy (Years of accumulated shit, above) and psychedelics for IBS (IBS, above).",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-03T19:11:31.743Z"
+    }
+   ],
+   "updated": "2026-11-03T19:11:31.743Z"
+  },
+  {
+   "id": "G9",
+   "type": "pointer",
+   "title": "\"My notes\" line for Phase 5 (Restoration)",
+   "where": "above the heading \"Optional Ready-Made Gut Stacks\"",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "My notes: see Leaky gut above for colostrum, zinc carnosine, BPC-157, ozonated zeolite and the fuels, and Sitting above for movement and yoga.",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-03T19:12:16.048Z"
+    }
+   ],
+   "updated": "2026-11-03T19:12:16.048Z"
+  },
+  {
+   "id": "G10",
+   "type": "pointer",
+   "title": "\"My notes\" line for Phase 6 (Refractory)",
+   "where": "above the heading \"Optional Ready-Made Gut Stacks\"",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "My notes: Matt's note on mopping up mycotoxins with fermented colostrum is under Leaky gut, above.",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-03T19:11:42.848Z"
+    }
+   ],
+   "updated": "2026-11-03T19:11:42.848Z"
+  },
+  {
+   "id": "G11",
+   "type": "conflict",
+   "title": "Berberine for H. pylori is your exception",
+   "where": "Optional Ready-Made Gut Stacks, P6",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "s5 approve",
+   "my_version": "I would not recommend general “gut cleanse” stacks built around oregano oil, wormwood, black walnut, berberine, or other antimicrobial herbs as a universal starting point. Those belong later in the decision tree, when there is a stronger reason to suspect overgrowth, parasites, H. pylori, or another specific problem. (My own advice is different for H. pylori, where berberine works well: see Parasites, above.)",
+   "before": "I would not recommend general “gut cleanse” stacks built around oregano oil, wormwood, black walnut, berberine, or other antimicrobial herbs as a universal starting point. Those belong later in the decision tree, when there is a stronger reason to suspect overgrowth, parasites, H. pylori, or another specific problem.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-03 18:01 UTC",
+     "by": "Joel"
+    }
+   ],
+   "updated": ""
+  },
+  {
+   "id": "G12",
+   "type": "question",
+   "title": "Straighten every curly apostrophe and quote mark?",
+   "where": "the opening, P4",
+   "advice": "ask",
+   "status": "answered",
+   "question": "The post uses curly apostrophes and quote marks throughout (don’t, “second brain”), which you type straight and which read as AI. Shall I straighten all of them in the humanized version? Every word stays; only the marks change. (My pick: yes.)",
+   "your_version": "",
+   "comment": "yes",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-03T19:09:30.321Z"
+  },
+  {
+   "id": "G13",
+   "type": "question",
+   "title": "The stacks section is Gemini's: cut, label or keep?",
+   "where": "the heading \"Optional Ready-Made Gut Stacks\"",
+   "advice": "ask",
+   "status": "answered",
+   "question": "A: cut it, keeping only the start-low advice and the list of who should see a clinician, as a short note at the end of Phase 5. B: keep the three kits, labeled as Gemini's suggestions, not yours. C: keep it as it is and humanize it. (My pick: A.)",
+   "your_version": "",
+   "comment": "actually i mean gemini gave me these suggestions but so far they are the best kits i've seen... tho haven't used them myself. peoiple can check the reviews.",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-03T19:12:29.059Z"
+  },
+  {
+   "id": "G14",
+   "type": "question",
+   "title": "The Gem prompt moves to a doc",
+   "where": "the heading \"Paid Subscribers can see my Gem’s custom instructions below:\"",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Send me the doc's link when it's up, and I'll replace the prompt in the post with a line pointing to it for paid subscribers. A clean copy to paste is ready (the duplicate \"Gem Name\" line, the two [cite_start]/[cite: …] leftovers and the run-together asterisks in Phase 3 fixed; nothing else changed).",
+   "your_version": "",
+   "comment": "https://docs.google.com/document/d/18VZSIq0uCWRp_ECFg4YfdI49K-bu1BLV/edit?usp=sharing&ouid=106711125606588784425&rtpof=true&sd=true",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-03T19:12:49.611Z"
+  }
+ ]
+}

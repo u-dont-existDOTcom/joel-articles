@@ -1,0 +1,39 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Optional Ready-Made Gut Stacks\nI don't think there's one universal supplement stack that heals everyone's gut, but the order you do things in does matter.",
+  "You fix the mechanics of digestion first (Phase 1), then reset your diet and motility (Phase 2), and you only move on to antimicrobial or anti-parasite protocols if you still have symptoms after that (Phase 3)."
+ ],
+ "flagged": {
+  "1": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2
+ ],
+ "whole": {
+  "codex": [
+   "The personal disclaimer leads smoothly into a three-part instructional sequence, giving the paragraph a polished roadmap rhythm. That construction can suggest AI editing, although none of these features establishes authorship."
+  ],
+  "haiku": [
+   "The paragraph is evenly weighted and tidy, with every sentence built to the same parallel pattern and no concrete detail, anecdote or stake, so it reads as a summary of a framework rather than a writer's voice."
+  ],
+  "sonnet": [
+   "The paragraph is a compact three-beat summary, with a framing sentence followed by one evenly paced sentence that runs through first, then, and finally with a label on each, so it reads like an outline turned into prose. It has no specific detail, aside, or personal reaction, and every clause is the same level of abstraction."
+  ]
+ },
+ "human_clean": []
+}
