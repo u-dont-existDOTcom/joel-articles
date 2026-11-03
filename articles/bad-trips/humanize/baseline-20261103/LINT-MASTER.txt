@@ -1,0 +1,883 @@
+== tells_lint: articles/bad-trips/original-page.md
+note: O15 (spelling) skipped, pyspellchecker is not installed (pip install pyspellchecker)
+note: the check for an idea doing what a person does used its short word list, which misses most abstract nouns; for the parsed check: pip install spacy nltk; python -m spacy download en_core_web_sm; python -c "import nltk; nltk.download('wordnet')"
+verdict: FAIL
+  HARD: E23 listicle: 14 paragraphs are strings of instructions
+  HARD: B13 repeated paragraph openers: {'use': 10, 'get': 3, 'if': 13, 'put': 4, "don't": 17, "i'm": 4, 'i': 19, 'this': 10, 'try': 4, 'some': 3, 'the': 24, 'a': 22, 'my': 3, 'activated': 3, 'when': 22, 'then': 5, 'sometimes': 3, 'for': 4, 'with': 3, 'dmso': 3, 'many': 3, 'it': 4, 'that': 5, 'other': 3, 'send': 5, 'you': 3}
+metrics: {'words': 13855, 'my_words': 13697, 'paragraphs': 444, 'coach_per_100': 0.12, 'you_per_100': 1.1, 'landing_rate': 0.31, 'instruction_paragraphs': 14, 'para_len_cv': 0.72, 'sent_len_cv': 0.68, 'repeated_openers': {'use': 10, 'get': 3, 'if': 13, 'put': 4, "don't": 17, "i'm": 4, 'i': 19, 'this': 10, 'try': 4, 'some': 3, 'the': 24, 'a': 22, 'my': 3, 'activated': 3, 'when': 22, 'then': 5, 'sometimes': 3, 'for': 4, 'with': 3, 'dmso': 3, 'many': 3, 'it': 4, 'that': 5, 'other': 3, 'send': 5, 'you': 3}}
+-- A2 the writer's liking or approval (Joel 2026-10-17 13:11, on "I like that.": "I actually don't know that i like that"): with --source the published paragraph decides; without it, check that he said it (1)
+   * Flushing niacin has effectively aborted trips for me and friends, although I dislike it compared with beach morning glory.
+-- B1 finished principle (13)
+   * Take that seriously even if they are high.
+   * Everyone I know who has taken enough magnesium chloride to make the jaw tension fully release has avoided the other complications I have seen when people let th
+   * That experience is why I treat serious MDMA toxicity as a broader electrolyte emergency, even though magnesium is the first and most useful early intervention w
+   * People with impaired kidneys do need to be more cautious with large, rapid magnesium doses because they may not clear magnesium normally.
+   * Serotonin syndrome overlaps with several symptoms above, but the rescue measures in the other branches do not necessarily treat it.
+   * Most zeolites have clogged pores because they haven’t been cleaned.
+   * Most sober people don’t feel much from zeolite.
+   * People tell me it’s saved their life from crippling anxiety.
+   * Most people I have given it to find it relaxing even while sober, whether they smell it, touch it, or drink the water portion.
+   * - It may worsen a cluster headache, even though rubbing DMSO—especially with magnesium chloride—on the head can alleviate tension headaches.
+   * Most people begin with meaning because the experience feels cosmic.
+   * Everybody must hear this tonight.
+   * Most negative mind-states aren’t philosophical errors.
+-- B11 tic: "That's not X. It's Y." and its cousins across two sentences (owner_bans.txt, Joel's Claude tics; JOEL-FIXES-CATALOGUE "What he cuts" 2: "The point is not perfect measurement. The point is pattern recognition." became "You won't measure stuff perfectly, but this way you might start seeing some important patterns jump out."); say what it is (1)
+   * This is not passivity. It is becoming unhookable.
+-- B2 contrast (39)
+   * The phrase is not a diagnosis, but intoxication does not make it meaningless, and somebody with real neurological trouble may be unable to describe the problem 
+   * If this is a psychedelic and the concern is actual brain damage rather than a trip that is merely too intense, I am no longer trying to preserve the trip: DMSO 
+   * Use the phone for support only, rather than posting.
+   * Gentle breathing reduction is meant to soften that loop, rather than become a new breathing project.
+   * My personal first thought here is ozonated zeolite rather than charcoal because charcoal can reduce the trip and bind many substances.
+   * That is a personal field note, rather than standard emergency medicine.
+   * Ipomoea pes-caprae is not my ordinary first-line nausea remedy, because the difference between smoothing the nausea and stopping the trip can be narrow.
+   * If the person cannot answer reliably, basic stability remains unknown rather than reassuring.
+   * With a psychedelic, safety now means stopping the trip with Ipomoea pes-caprae rather than merely calming it.
+   * That is why the decision belongs to the actual symptom pattern rather than the word “overdose.”
+   * I treat it as a plausible experimental adjunct rather than something to wait on while a seizure continues.
+   * This comes from repeated field experience rather than a direct clinical trial.
+   * My practical endpoint is the jaw releasing, rather than taking one conventional supplement dose and assuming the problem has been handled.
+   * This is a recognition aid rather than a command to wait for every criterion before acting.
+   * I use powdered zeolite rather than nano-liquid zeolite.
+   * By beach morning glory I mean Ipomoea pes-caprae, rather than morning-glory plants in general.
+   * A tiny nibble can sometimes smooth psychedelic nausea and improve the trip without killing it, but the difference between that amount and a trip-aborting amount
+   * But when I’m on ayahauasca or loveyhuasca, not only is it calming and nice, but actually opens my heart chakra considerably.
+   * Smelling it does not produce that hyper intelligent state but does feel relaxing and very beneficial for brain health, so I’d start with that.
+   * Sip rather than chug.
+   * Test them rather than turning them into rival religions.
+   * Peer support, rather than clinical or emergency care.
+   * It is not psychedelic-specific, but it can put a human on the other end quickly.
+   * Risk-reduction support, rather than a substitute for medical or psychiatric treatment.
+   * “I might kill someone to test this theory” is a safety signal, rather than merely philosophical content.
+   * Zendo-style harm reduction can be summarized as creating a safe space, sitting rather than guiding, talking through rather than down, and remembering that diffi
+   * - Offer choices instead of commands.
+   * Choose one or two options rather than all of them.
+   * Music should remain an option, rather than become another authority in the room.
+   * Movement is a tool to test, rather than a rule to obey.
+   * Buteyko evidence note: published evidence for Buteyko-style breathing mainly concerns asthma and breathing retraining, rather than psychedelic or spiritual-prac
+   * Treat trip content first as experience-content, rather than fact-content.
+   * The danger may be action rather than panic: the 3 a.m. broadcast, confession, drive, grand purchase, sexual boundary-crossing, public prophecy, violent test of 
+   * The response is care rather than blame.
+   * This is one side of the difference between spiritual bypassing and spiritual practice:
+   * Once somebody is already in trouble, return to the acute checklist instead of trying to improve the ceremony plan.
+   * Practice being the space rather than the storm.
+   * Talk with one grounded person, rather than twenty chaotic people.
+   * When symptoms linger, name the pattern rather than collapsing everything into “I’m broken.
+-- B3 short knock-down (4)
+   * It antagonizes serotonin receptors.
+   * It may also extend the trip.
+   * That is backup.
+   * That usually feeds the terror.
+-- B4/E15 list or packed sentence (188)
+   * Then stop unsafe momentum, fix the room, help the body, find one calm human, protect sleep, and only then start interpreting anything.
+   * Trouble breathing, a prolonged or repeated seizure, collapse, inability to wake normally, dangerous overheating, severe or worsening chest pain, one-sided weakn
+   * Use DMSO immediately while checking whether they can stay awake, breathe normally, smile evenly, raise both arms, repeat a simple sentence, walk, control their 
+   * Note: I have found that smelling humic acid can fix an overdose experience in seconds, and tasting a few milligrams of it can produce hyperintelligence, but I’v
+   * Stop the immediate momentum toward roads, balconies, water, stoves, knives, crowds, fights, strangers, driving, posting, texting, or leaving alone.
+   * Put away the car keys, the phone if posting or texting is becoming risky, weapons, sharp objects, and anything else that could turn a temporary state into a per
+   * Check the obvious things: light, sound, temperature, privacy, bathroom access, music, crowding, and how many people are talking.
+   * - If movement helps, try slow pacing, gentle stretching, shaking out the arms and legs, wall push-ups, or one boring ordinary task you can finish.
+   * - If staring inward is making you more stuck, keep part of your attention with the feeling while another part folds five towels, sorts a few objects, draws, or 
+   * Avoid strenuous exercise with overheating, chest pain, faintness, severe confusion, stimulant use, unknown drug mixtures, or other medical instability.
+   * Please stay with me, speak slowly, remind me where I am, and help me not make any big decisions until tomorrow.
+   * If this came from meditation, breathwork, fasting, sleep loss, kundalini-style practice, or emotional overwhelm:
+   * Put a familiar note, childhood toy, stuffed animal, or other object that already means safety beside you.
+   * If your body needs to move, do something safe and boring: pace slowly, fold clothes, wash one cup, or tidy one surface.
+   * The action-lock applies double: no driving, posting, confessing, confronting, redosing, disappearing, giving away possessions, testing theories, or proving anyt
+   * Reflect the feeling, then redirect toward safety, non-harm, sleep, and ordinary reality.
+   * Get crisis or emergency help when there is a specific target, a weapon, movement toward action, escalating violence, or a situation the sitter cannot safely con
+   * Nausea, diarrhea, a dirty or toxic feeling, or a parasite-die-off feeling may need body-level support.
+   * But don’t let “toxins” distract from repeated vomiting, severe abdominal pain, dehydration, blood, fever, confusion, fainting, respiratory depression, collapse,
+   * It matters what was swallowed, how recently, whether charcoal binds it, and whether the person is fully alert and can protect the airway.
+   * It can be dangerous when someone is vomiting, sedated, seizing, or unable to swallow safely.
+   * Then use love, awareness, inner-child reparenting, somatic release, and gentle witnessing.
+   * Meaning still waits until the person is safe, hydrated, oriented, and unlikely to do anything rash.
+   * When you can’t, stabilize the room, body, breath, human contact, time orientation, and sleep.
+   * - Find A Helpline — country-specific crisis lines, including phone, text, and online options where available.
+   * Bottom line: safety, room, body, human, no rash actions, sleep if possible, then meaning.
+   * I developed the Inner Signal app from my Inner Child Reparenting and Self-Hypnosis guides, along with my sleep guide, meditation guidance, and this bad-trips gu
+   * Breathing trouble, collapse, a seizure lasting five minutes or repeating without normal recovery, dangerous overheating, severe or worsening chest pain, one-sid
+   * Can the person stay awake, breathe normally, smile evenly, raise both arms, repeat a simple sentence, walk, and control their bodily functions?
+   * Is there seizure activity, one-sided weakness, speech loss, severe headache, repeated vomiting, dangerous heat, chest pain, or a vision change?
+   * When the person is breathing normally, not dangerously hot, not seizing, has no neurological-injury concern, remains conscious enough to cooperate, and can be k
+   * Dim the light, lower the sound, stop the chatter, clear out extra people, offer water without forcing it, adjust the temperature, open bathroom access, stop tou
+   * Crying, grieving, remembering, or touching a genuine wound calls for loving awareness.
+   * Interrogation, analysis every thirty seconds, and “bro, you’re purging ancestral karma” while somebody white-knuckles the carpet are generally less helpful.
+   * Nausea, heat, exhaustion, dehydration, overstimulation, and sleep loss all become spiritual content very quickly.
+   * The body may need quiet, water, cooling, warmth, rest, or a calmer room.
+   * Someone who is too overwhelmed, frightened, sick, hot, or scrambled may be unable to reach “send love.
+   * - Sudden one-sided weakness, loss of speech, inability to walk normally, or loss of control of bodily functions
+   * - Severe, worsening, radiating, or exertional chest pain—or chest pain with breathlessness, sweating, faintness, neurological changes, or collapse
+   * While using DMSO, check wakefulness, breathing, temperature, speech, facial symmetry, both arms, balance, walking, bodily control, seizure activity, severe head
+   * DMSO cannot identify whether the problem is a clot, a hemorrhage, low oxygen, an electrolyte crisis, or something else.
+   * Protect the person from injury, clear dangerous objects, loosen tight clothing, and place them on their side when practical.
+   * An ordinary pill is not the same thing as a nasal, buccal, rectal, intramuscular, or intravenous rescue preparation, and respiratory depressants in the mix chan
+   * Call medics for a convulsive seizure lasting about five minutes, repeated seizures without normal recovery, trouble breathing, dangerous heat, serious injury, a
+   * Worsening headache, confusion, vomiting, weakness, palpitations, collapse, or seizure raises concern about sodium, potassium, temperature, hydration, kidneys, a
+   * MDMA can cause overheating, rhabdomyolysis, dangerous electrolyte shifts, and acute kidney injury.
+   * Mild, familiar, non-progressive discomfort in a fully alert person is different from new, severe, persistent, worsening, radiating, or exertional pain—or pain w
+   * Ask what was swallowed, how much, when, and what the body is actually doing: respiratory depression, stimulant toxicity, serotonin toxicity, seizure, dangerous 
+   * It does not bind every toxin, can adsorb necessary medication, and creates aspiration risk in somebody who is vomiting, sedated, seizing, or unable to protect t
+   * Poison control may be useful when the substance, combination, delayed risk, or value of charcoal is unclear.
+   * Psychedelics, MDMA, DXM, many antidepressants, tramadol, linezolid, MAOIs, and some opioids can contribute, especially in combinations.
+   * Dangerous heat, rigidity, clonus, confusion, or rapid worsening deserves medical help.
+   * No more SSRI, SNRI, MAOI, tramadol, MDMA, DXM cough syrup, 5-HTP, St John’s wort, SAM-e, linezolid, stimulant redoses, or harmala/ayahuasca-type MAOI exposure.
+   * Move to a cool room, remove excess clothing, use a fan and cool damp cloths, and place ice packs wrapped in cloth at the neck, armpits, or groin when the person
+   * No pacing to “burn it off,” exercise, crowds, or arguments.
+   * Don’t force fluids, food, pills, or charcoal when someone is confused, vomiting, sleepy, or at seizure risk.
+   * Write down exact substances, dose, timing, last dose, recent increases, supplements, recreational drugs, temperature, pulse, and blood pressure when available.
+   * Hospitals may use benzodiazepines, external cooling, IV fluids, monitoring, and intensive supportive care.
+   * I would consider oral magnesium chloride when the person is fully alert, especially with MDMA-related jaw tension or muscle activity, but it does not replace tr
+   * Sometimes the person is nauseated, overheated, sleep-deprived, poisoned, dealing with an electrolyte problem, reacting to a bad combination, or feeling mentally
+   * A trip with diarrhea, nausea, toxic heaviness, a dirty body-feeling, loss of bodily control, jaw tension, neurological disorganization, or the sense that the mi
+   * Bring in medical help in parallel for objective neurological signs, dangerous heat, prolonged or repeated seizure, breathing trouble, severe chest pain, collaps
+   * After medical danger, environment, dose, gut toxicity, electrolytes, and biochemical overload have been considered, we can return to the deeper question: is thi
+   * - Established acute treatment: standard seizure first aid, rapid rescue benzodiazepines, cooling dangerous hyperthermia, and treating documented electrolyte abn
+   * When the trip feels like sick stomach, nausea, diarrhea, toxic heaviness, a dirty body-feeling, parasite die-off, or mental hell driven by gut hell, zeolite and
+   * Many ferments help to different degrees, including kombucha, kimchi, and apple vinegar.
+   * MDMA remains a separate branch centered on magnesium, temperature, sodium, potassium, hydration, serotonin toxicity, seizure, and cardiovascular symptoms.
+   * As mentioned in my humic acid note, I’ve found if I take too much ayahuasca or loveyhuasca and I feel “out of it” and bad, simply smelling the humic acid powder
+   * It has a grounding, cooling, organizing effect different from DMSO, aged ozonated-charcoal water, zeolite, or beach morning glory.
+   * Zeolite is what helps me when mental distress seems driven by gut toxicity, parasite die-off, nausea, diarrhea, or the sick-stomach feeling.
+   * Aged ozonated-charcoal water acts more on the crazy or excessively intense mental feeling: too much psychedelic energy, the wrong environment, anxiety, high EMF
+   * Most people I have given it to find it relaxing even while sober, whether they smell it, touch it, or drink the water portion.
+   * It is also my primary emergency neuroprotectant when the problem feels like acute neurological damage, altered consciousness, loss of bodily control, or severe 
+   * - Nausea: when drinking DMSO, dilute it in water, juice, or milk and sip gradually.
+   * - Don’t take it with drugs that should not absorb rapidly, including corticosteroids, NSAIDs, and harmalas.
+   * - Higher or repeated doses can create real risk, especially with liver problems, alcohol, medications, or sensitive physiology.
+   * Once the body is stable and those tools have done what they can, fear, grief, memory, certainty, and whatever else the altered mind has opened still need somebo
+   * This post collects my own experience and thinking, but I would be remiss not to point you toward the Challenging Psychedelic Experiences Project, which helps pe
+   * Move away from roads, balconies, water, weapons, crowds, and strangers.
+   * No driving, redosing, confrontations, or leaving alone.
+   * Are they too hot, too cold, desperate for the bathroom, or trapped beside somebody they don’t trust?
+   * Ask “music or quiet?” and keep the person able to stop or change it immediately.
+   * When the state came from meditation, breathwork, fasting, kundalini-style practice, extreme stretching, ritual, or a retreat, say:
+   * The practical move remains simple: stop the practice, eat something ordinary when safe, let the body settle, keep warm, and sleep.
+   * Try one for two minutes and ask: Does this make me safer and clearer, or more activated and impulsive?
+   * Let one part of attention stay with the body, fear, grief, or memory while another part completes a simple, safe task with a visible endpoint: sort ten objects,
+   * Others get worse because too many people crowd in and start advising, arguing, spiritualizing, or panicking.
+   * When safety, fatigue, logistics, violence, or self-harm risk exceeds what one person can hold, bring in one additional calm adult or crisis professional.
+   * Please stay with me, speak slowly, remind me where I am, and help me not make any big decisions until tomorrow.
+   * Psychedelic peer support does not replace emergency, medical, psychiatric, or suicide-crisis care.
+   * - Find A Helpline: a global directory of free helplines, many offering phone, text, online chat, or WhatsApp.
+   * - Crisis Text Line: U.S. text, chat, and WhatsApp support, with partner text lines listed for Canada, the UK, and Ireland.
+   * - Cheetah House: resources, consultations, and support groups for meditation-related difficulties, including chat-based peer support.
+   * Once the lamp is on, the keys are away, and “No actions until morning” is visible, use the phone only to reach a calm person or support service.
+   * When nobody is available, use Fireside during its coverage hours, TripSit for drug-related peer support, or Find A Helpline and a local crisis service for fear,
+   * When the body still needs movement, keep it contained and boring: pace the same hallway, fold towels, wash a cup, brush your teeth, stretch gently, take a calm 
+   * Get urgent help when somebody may harm themselves or another person, cannot be kept physically safe, is moving toward roads, water, or heights, has command voic
+   * In the United States, 988 can provide mental-health crisis guidance, de-escalation, and connection to local resources when no immediate physical emergency exist
+   * Call 911 for immediate danger, a crime in progress, medical emergency, weapon, violence underway, or a situation you cannot safely contain.
+   * A good sitter is not there to win a philosophy debate, perform a rescue fantasy, impose an interpretation, or demonstrate spiritual advancement.
+   * Zendo-style harm reduction can be summarized as creating a safe space, sitting rather than guiding, talking through rather than down, and remembering that diffi
+   * - Keep the room quiet, private, warm, and physically safe.
+   * - Don’t try to win an argument with visions, entities, memories, or cosmic conclusions.
+   * Reflect the feeling and redirect toward safety, non-harm, sleep, and ordinary reality.
+   * - Don’t tell somebody they are crazy, broken, weak, punished, or failing the medicine.
+   * - Don’t force eye contact, touch, music, prayer, chanting, interpretation, or insight.
+   * When somebody says, “I am God, so I can kill,” leading with “No you’re not” or “That’s delusional” can turn the encounter into a status fight.
+   * “Tonight the commandment is no harm, no proof, no mission, sleep first.”
+   * Redirect within the person’s value-world toward peace and protection, increase containment, and bring in crisis support as early and as non-coercively as the si
+   * Don’t block, crowd, threaten, mock, or physically wrestle away a weapon.
+   * Call crisis or emergency services for a specific target, available means, movement toward action, escalating agitation, a weapon, violence underway, or a situat
+   * Be brief and specific with emergency services: “Someone is in an altered-state or mental-health crisis, has threatened to harm others, may have access to [means
+   * - Slowly unclench the jaw, hands, belly, and shoulders.
+   * - Try two minutes of safe movement: slow pacing, gentle stretching, shaking out the arms and legs, wall push-ups, or a boring household task.
+   * - Choose it while sober and regulated: a childhood toy, stuffed animal, note, photograph, blanket, stone, or another object that represents your inner Nurturer 
+   * - Pair the comfort with one adult action: contact the grounded person, move away from danger, drink some water when safe, or prepare for sleep.
+   * Stop for increased fear, dizziness, chest pain, or medical concern.
+   * - Try a steady drum rhythm for stabilization or grounding; try airy harp-like or meditative music when the person wants something gentler and spiritually uplift
+   * - Go outside only away from roads, heights, crowds, and water.
+   * - Avoid strenuous exercise with overheating, chest pain, faintness, severe confusion, stimulant use, an unknown mixture, or any medical concern.
+   * A 2024 study of strategies for resolving challenging psychedelic experiences identified physical movement, intentional breathing, sensory engagement, sleep-seek
+   * I include it because panic-related over-breathing can lower CO<sub>2</sub> and directly cause tingling, lightheadedness, confusion, and unreality feelings (Hopk
+   * Until you have slept and eaten, don’t drive, travel, break up, quit your job, confess everything, confront anybody, accuse anybody, send the message, post the r
+   * No entity, deity, demon, ancestor, angel, algorithm, mission, kundalini surge, or insight overrides basic safety.
+   * No revelation makes murder, assault, coercion, sexual boundary-crossing, reckless driving, or self-harm safe tonight.
+   * The danger may be action rather than panic: the 3 a.m. broadcast, confession, drive, grand purchase, sexual boundary-crossing, public prophecy, violent test of 
+   * A recurring pattern with lost sleep, racing thoughts, pressured speech, or everyone saying you are not yourself needs grounded support before action.
+   * A bad trip does not prove that you are broken, punished, unspiritual, impure, or permanently damaged.
+   * It means the nervous system, meaning-making system, body, environment, memories, dose, or relationships became overwhelmed.
+   * Bypassing reaches for an ultimate view—“we are all One,” “I don’t exist,” “this is all karma,” “everything is Love”—while ignoring the person shaking in the cor
+   * Practice says love is here, so we make the room safer, call for help when needed, stop pretending, and hold the experience without becoming it.
+   * I wish everybody could keep shadow work inside the safer rooms of meditation, therapy, journaling, prayer, and honest conversation.
+   * It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival.
+   * They are young parts still waiting for love, protection, permission, and an explanation nobody gave them.
+   * Begin with my Inner Child Therapy guide and app, and my Self-Hypnosis guide and app.
+   * It leaks into marriages, friendships, sex, money, spiritual communities, and the way reality itself is interpreted.
+   * Sometimes the curriculum arrives through heartbreak, divorce, betrayal, illness, or the morning you realize the enlightened persona was mostly a nice outfit.
+   * If the trip is so crazy that you can’t believe it a few days later, chances are, like me, you’ll end up taking that drug again and again to understand it.
+   * On the other hand, without MDMA or loveyhuasca, many people are unable to really do inner child therapy, because it sounds fake to them, just as ego death sound
+   * A bad trip or destabilizing state may also come from dose, drug interactions, sleep deprivation, cannabis, hunger, dehydration, an unsafe setting, sexual or soc
+   * Sometimes the lesson is to lower the dose, stop the practice, sleep, eat, choose safer people, and admit that the room is bad.
+   * - Spiritual bypassing: “Because everything is love, I don’t need boundaries, doctors, sleep, or consequences.”
+   * For planned altered-state work, think through the beginning, middle, and end before starting.
+   * A lot of prevention is boring: being rested, starting before everyone is exhausted, leaving time afterward, having food ready, and knowing how the session ends.
+   * When possible, begin earlier in the day so there is still time for the experience, food, ordinary contact, and sleep afterward.
+   * - Physical safety: know the substance and approximate dose, review combinations and medical concerns, prepare the room, and decide in advance what requires outs
+   * - Intention without a script: know what you are open to exploring without demanding a particular revelation, memory, emotional arc, or spiritual result.
+   * They do not force music, touch, interpretation, confession, prayer, or insight.
+   * - Closure: stop adding stimulation, return to the room and date, eat and hydrate when safe, write down the basic facts, and let the body understand that the ses
+   * Terror appears, and the mind answers it with metaphysics, diagnosis, conspiracy, spiritual certainty, or desperate action.
+   * Missing is contraction: hunger, ache, self-reference, and the painful fantasy that love means needing the person to return.
+   * - Send love to the ashamed, angry, lonely, terrified, and exiled parts.
+   * A hand on the heart can change the direction of a trip, especially when the problem is emotional contraction, grief, fear, or loneliness.
+   * Being thankful for every lesson, difficult experience, reprieve, heart opening, and moment of compassion can create a deep connection with the sacred.
+   * Compassion does not mean grabbing, hugging, restraining, stroking, or crowding.
+   * When the person says stop, freezes, pulls away, or seems unsure, stop.
+   * Hatred, fear, shame, pride, and rage make hooks.
+   * Panic fights panic, hatred fights hatred, pride fights pride, and suddenly a small war is running inside consciousness.
+   * Train before the emergency: send love to a frightening image, a hated person without approving what they did, your shame, your body, sickness, aging, fear, deat
+   * A demon can fight hatred, feed on fear, argue with pride, and seduce grandiosity.
+   * No entity may tell you to hurt yourself or another person, drive, jump, flee, accuse somebody, cross a sexual boundary, or make a life decision tonight.
+   * When somebody is medically, physically, or psychologically too overwhelmed to reach love, stabilize first.
+   * Psychedelics can bring up true trauma, symbolic material, distorted fragments, fears, fantasies, archetypes, past-life narratives, and mixtures of all of them.
+   * When you see or remember abuse, betrayal, murder, past lives, hidden crimes, or cosmic plots, write it down and get safe.
+   * It may be psychologically true, symbolically true, literally true, partly true, or false in the form it first appeared.
+   * Relax, unwind, unbind, and unweave the identity illusion, mind, and unified experience.
+   * During a trip, don’t identify with every shadow thought, suppress it, confess it to everybody, or convert it into a permanent diagnosis.
+   * Then return to body, room, human, time, and love.
+   * > His face is fierce, yet gentle, his eyes, they pierce you through, you cannot escape his gaze no matter where you go, no matter what you do.
+   * > His smile is warm, he draws you in, he is so calm, why are you so confused by him?
+   * > Once things were clear in black and white, you thought you knew the wrong from right, you drew the line, and cut it fine, between the day and night; but now y
+   * > The sun and moon are falling on your head, the stars are tumbling down, flowers sing like angels, in the winter town.
+   * > The dead are living, the living dead, fire turns to water, water burns instead, silence is so full of sound, time stands still, you hear the earth turn round.
+   * > Your life flashes before you, is that thunder, or the beating of your heart, you don’t know if this is the end, or something new about to start.
+   * > You show him good, and he will show you evil; you show him truth, and he will show you lies; you show him life, and he will show you how all that’s living die
+   * > You show him happiness, and he will show you sorrow, you show him yesterday, and he will show you tomorrow; you show him poverty, and he will show you wealth;
+   * > You fall as if forever, falling spinning round and round, tumbling into empty space, without up or down and thus you will go on falling until you understand h
+   * First 24 hours: sleep, food, water, warmth, ordinary contact, and no big moves.
+   * Next few days: write the facts—substance, dose when known, setting, events, triggers, what helped, and what made things worse.
+   * Then: consider what the experience may have meant emotionally, spiritually, relationally, or practically.
+   * - Anxiety and fear: grounding, routine, reduced stimulation, CBT-style reality testing, and therapy when it persists.
+   * - Sleep disturbance and nightmares: sleep hygiene, no more substances, and professional help when severe or prolonged.
+   * - Derealization and depersonalization: ordinary-world grounding, exercise, nature, outside attention, less rumination, peer or family support, and therapy when 
+   * - Social disconnection and shame: one or two safe humans, peer support, and no social-media crowdsourcing while raw.
+   * - Somatic hyperarousal: gentle movement, breathing, grounding, and medical care for severe, unusual, or worrying symptoms.
+   * Don’t take more psychedelics, cannabis, ketamine, intense breathwork, fast, push kundalini, deprive yourself of sleep, meditate or stretch to extremes, or sched
+   * Stabilize through sleep, food, routine, sober support, ordinary body, and ordinary world.
+   * What needs therapy, an apology, rest, or plain practical action?
+-- B5 announces the paragraph (20)
+   * It is [date/time].
+   * This is intense, but it will change.
+   * It is [date/time].
+   * Peace is the godly move tonight.
+   * Niacin is a backup trip killer.
+   * Niacin is unsafe for serotonin syndrome.
+   * This is proven in rats.
+   * Weakness is an early symptom.
+   * For me, that combination produced hellishly intense psychosis-like and autism-like states before transforming into a week of extraordinary creativity and joy.
+   * Movement is allowed.
+   * Music is optional.
+   * This is intense, but it will change.
+   * That is backup.
+   * This is a wave.
+   * Peace is the godly move tonight.
+   * Grounding is love becoming practical.
+   * This is a blanket.
+   * Here’s a reddit poster who talks about going through tremendous pain with MDMA as she uncovered childhood sex abuse memories.
+   * This is not passivity.
+   * It is becoming unhookable.
+-- B7 short landing at paragraph end (136)
+   * These checks include several recognized stroke warning signs.
+   * Say:
+   * If you took a substance:
+   * This is intense, but it will change.
+   * Write this where you can see it:
+   * No big actions until morning.
+   * Protect sleep as soon as possible.
+   * Try grounding before chemically or forcefully changing the state:
+   * - One hand on heart and one on belly.
+   * - Longer-exhale breathing.
+   * - Silence or one calm track on repeat.
+   * - Low light, a blanket, and simple reassurance.
+   * - Slow pacing or gentle movement when that reduces pressure.
+   * Source: Johns Hopkins on hyperventilation.
+   * A useful response sounds like this:
+   * We protect life and sleep first.
+   * Source: clinical review on activated charcoal.
+   * Source: Poison Control on activated charcoal.
+   * Then try again.
+   * Coverage and hours vary by country.
+   * Is the room making everything worse?
+   * No bathroom, privacy, or sense of safety.
+   * It’s mercy.
+   * Is this real emotional material?
+   * Love isn’t stubbornness.
+   * Is the body writing the horror story?
+   * The body is part of the spiritual field.
+   * Can love be reached yet?
+   * Then love.
+   * - The person may be unsafe to themselves or others.
+   * - Psychosis-like symptoms outlast the acute state.
+   * - Sleep won’t return.
+   * - Mania or suicidal thinking appears.
+   * - Panic won’t settle.
+   * - The person can’t function afterward.
+   * DMSO also suppresses NMDA- and AMPA-mediated excitotoxicity.
+   * Clinical review.
+   * It is decision support, not first aid.
+   * - Inducible clonus plus agitation or sweating.
+   * - Tremor plus hyperreflexia: shaking together with abnormally brisk reflexes.
+   * Smell the Metta NMT sniffer (described in loveyhuasca guide).
+   * Do not manufacture reassurance from missing information.
+   * I use glass for ozonation and storage whenever possible.
+   * As far as I know, nobody else sells it.
+   * Avoiding contact with the broken portion prevents that effect.
+   * Side effects:
+   * Sensitivity varies.
+   * I don’t smell when I put it into milk.
+   * Interactions:
+   * Weakness is an early symptom.
+   * Supplement extra choline because DMSO depletes it.
+   * Contraindications:
+   * Use caution with MCAS.
+   * Side effects:
+   * - Drowsiness, usually with terrible sleep quality.
+   * The later benefit did not make the crisis recommendable.
+   * I include that only as a warning.
+   * No driving, redosing, confrontations, or leaving alone.
+   * This is a bad time to defend the playlist.
+   * Give them ordinary reality:
+   * We don’t need to solve your life tonight.
+   * My job is ordinary safety.
+   * Stop if the task increases agitation, speed, or risk.
+   * Script for the person in the altered state:
+   * Script for the sitter or friend:
+   * Non-clinical and non-emergency.
+   * Peer support, rather than clinical or emergency care.
+   * It is neither therapy nor immediate crisis care.
+   * Then protect sleep.
+   * - Speak slowly and use fewer words.
+   * “Water?”
+   * “Let’s breathe together.”
+   * - Offer choices instead of commands.
+   * - Keep the room quiet, private, warm, and physically safe.
+   * - Call for help early when safety is slipping.
+   * Sacred power protects life tonight.”
+   * We are keeping every body safe.”
+   * - Don’t crowd them with five worried friends.
+   * Non-combative philosophical grounding:
+   * We protect life and sleep first.
+   * Please send crisis-trained responders or EMS if available.”
+   * Twelve simultaneous techniques can become another form of panic.
+   * - Feel both feet against the floor.
+   * - Slowly unclench the jaw, hands, belly, and shoulders.
+   * Keep what helps and stop what escalates.
+   * No big decisions tonight.”
+   * It does not issue commands or interpret the trip.
+   * - Exhale longer than you inhale for ten breaths.
+   * - Whisper: “This is a wave.”
+   * - Silence is a real option.
+   * - Name five ordinary objects.
+   * - Look at one stable object and describe it plainly.
+   * This is my hand.”
+   * - Let them remind you where you are.
+   * - Say the date, place, and approximate time.
+   * - Remember that substance effects usually rise, peak, and change.
+   * - Put every big decision into tomorrow’s notebook.
+   * - Pace along a clear contained path when pacing helps.
+   * Never strain or turn breathing into another achievement.
+   * Urgency does not make action safe.
+   * Use a 24–72 hour action lock.
+   * Revisit it sober with one grounded person.
+   * Two questions while glowing:
+   * Sleep comes before mission.
+   * The response is care rather than blame.
+   * So I think these approaches complement each other greatly.
+   * It cannot be the only frame.
+   * - Catastrophizing: “This will never end.”
+   * - Mind reading: “Everyone can see I am broken.”
+   * - Fortune-telling: “My life is ruined now.”
+   * - Personalization: “This cosmic horror is specifically my fault.”
+   * When you have a choice:
+   * That usually feeds the terror.
+   * Loop breaker:
+   * Name it: “This is fear trying to solve fear.”
+   * Move down the ladder: body → room → human → time.
+   * I don’t have to solve it while peaking.”
+   * Sending love feels good.
+   * Love can bless without grabbing.
+   * The difference is enormous.
+   * Give the body one simple signal: love is here.
+   * Let it bubble up gently.
+   * Sending love did.
+   * Love removes hooks.
+   * Practice being the space rather than the storm.
+   * Love gives it nothing to grab.
+   * Don’t treat intoxicated certainty as evidence either.
+   * You don’t have to decide tonight.
+   * My pamphlet on already-perfect goes further into this.
+   * Then return to body, room, human, time, and love.
+   * Let the system settle.
+   * Different patterns need different support.
+   * No “another ceremony will fix this” reflex.
+   * Deep practice can wait until the floor is back.
+   * The resources below come afterward.
+   * Here is my “answer.”
+-- E125 list of three inside a quote (someone else's words can keep theirs): an AI pattern in general (Joel 2026-10-03: "lists of 3 in general are an ai pattern"; 2026-10-07: "lists in general are overused by AI. try to avoid that unless it's really needed"). If the meaning doesn't need all three, drop the one that matters least; if it does, split them into sentences, the way he fixed P1 ("Maybe it just has something to say."), or give the items different shapes and end on a catch-all, the way he fixed Borrowed Adulthood P2 ("Other jobs can go to friends or community, outsource to the tools or pros, whatever works."). Joel, 01:06: "when there's no actual need for 3 items you can remove one of them" (1)
+   * doctors, sleep, or consequences.
+-- E125 list of three: an AI pattern in general (Joel 2026-10-03: "lists of 3 in general are an ai pattern"; 2026-10-07: "lists in general are overused by AI. try to avoid that unless it's really needed"). If the meaning doesn't need all three, drop the one that matters least; if it does, split them into sentences, the way he fixed P1 ("Maybe it just has something to say."), or give the items different shapes and end on a catch-all, the way he fixed Borrowed Adulthood P2 ("Other jobs can go to friends or community, outsource to the tools or pros, whatever works."). Joel, 01:06: "when there's no actual need for 3 items you can remove one of them" (1)
+   * memory, certainty, and whatever else the altered
+-- E125 list of three: an AI pattern in general (Joel 2026-10-03: "lists of 3 in general are an ai pattern"; 2026-10-07: "lists in general are overused by AI. try to avoid that unless it's really needed"). If the meaning doesn't need all three, drop the one that matters least; if it does, split them into sentences, the way he fixed P1 ("Maybe it just has something to say."), or give the items different shapes and end on a catch-all, the way he fixed Borrowed Adulthood P2 ("Other jobs can go to friends or community, outsource to the tools or pros, whatever works."). Joel, 01:06: "when there's no actual need for 3 items you can remove one of them". A FAIL in my sentences since 2026-10-17 (E186: "how is that not detected?") (202)
+   * find one calm human, protect sleep, and only then start interpreting
+   * Trouble breathing, a prolonged or repeated seizure
+   * dangerous overheating, severe or worsening chest pain
+   * repeated vomiting, a dangerous drug combination, or someone who cannot be
+   * walk, control their bodily functions, and report seizure
+   * dangerous heat, chest pain, or vision changes.
+   * posting, texting, or leaving alone.
+   * weapons, sharp objects, and anything else that could
+   * music, crowding, and how many people are
+   * out the arms and legs, wall push-ups, or one boring ordinary task
+   * sorts a few objects, draws, or finishes another simple safe
+   * stimulant use, unknown drug mixtures, or other medical instability.
+   * speak slowly, remind me where I am, and help me not make
+   * sleep loss, kundalini-style practice, or emotional overwhelm:
+   * childhood toy, stuffed animal, or other object that already
+   * fold clothes, wash one cup, or tidy one surface.
+   * No strain, no long breath-holds while intoxicated, and stop if it spikes
+   * - Low light, a blanket, and simple reassurance.
+   * low CO<sub>2</sub> can produce tingling, lightheadedness, and feelings of unreality that
+   * giving away possessions, testing theories, or proving anything tonight.
+   * non-harm, sleep, and ordinary reality.
+   * movement toward action, escalating violence, or a situation the sitter
+   * diarrhea, a dirty or toxic feeling
+   * seizure, dangerous overheating, or another concrete sign of
+   * how recently, whether charcoal binds it, and whether the person is
+   * sedated, seizing, or unable to swallow safely.
+   * inner-child reparenting, somatic release, and gentle witnessing.
+   * hydrated, oriented, and unlikely to do anything
+   * human contact, time orientation, and sleep.
+   * including phone, text, and online options where available.
+   * along with my sleep guide, meditation guidance, and this bad-trips guide.
+   * A body in danger, a person moving toward harm, and a frightened mind in
+   * dangerous overheating, severe or worsening chest pain
+   * serious injury, signs of real poisoning, or a credible risk of
+   * repeat a simple sentence, walk, and control their bodily functions?
+   * dangerous heat, chest pain, or a vision change?
+   * has no neurological-injury concern, remains conscious enough to cooperate, and can be kept physically
+   * No bathroom, privacy, or sense of safety.
+   * touching unless touch is wanted, speak slowly, and please don’t explain the
+   * grieving, remembering, or touching a genuine wound
+   * dehydration, overstimulation, and sleep loss all become
+   * warmth, rest, or a calmer room.
+   * sick, hot, or scrambled may be unable
+   * seizure lasting about five minutes, repeated seizures without normal recovery, or a first or substantially
+   * or a first or
+   * loss of speech, inability to walk normally, or loss of control of
+   * worsening, radiating, or exertional chest pain—or chest
+   * faintness, neurological changes, or collapse
+   * repeated vomiting, chest pain, and vision.
+   * low oxygen, an electrolyte crisis, or something else.
+   * clear dangerous objects, loosen tight clothing, and place them on their
+   * rectal, intramuscular, or intravenous rescue preparation
+   * serious injury, a first seizure, or a seizure substantially different
+   * mean no more MDMA, less exertion and heat
+   * palpitations, collapse, or seizure raises concern about
+   * hydration, kidneys, and broader toxicity.
+   * rhabdomyolysis, dangerous electrolyte shifts, and acute kidney injury.
+   * found inhibition of tissue factor, platelet activation, and arterial thrombus formation.
+   * worsening, radiating, or exertional pain—or pain with
+   * faintness, neurological changes, or collapse.
+   * vomiting, diarrhea, or something else.
+   * does not bind every toxin, can adsorb necessary medication, and creates aspiration risk in
+   * sedated, seizing, or unable to protect the
+   * combination, delayed risk, or value of charcoal is
+   * can follow serotonergic medication changes, combinations, or excessive exposure.
+   * linezolid, MAOIs, and some opioids can contribute
+   * clonus, confusion, or rapid worsening deserves medical
+   * linezolid, stimulant redoses, or harmala/ayahuasca-type MAOI exposure.
+   * whether it works before cooling, stopping serotonergic substances, and arranging help for moderate
+   * in cloth at the neck, armpits, or groin when the person
+   * Don’t put a confused, seizing, or very weak person in
+   * No pacing to “burn it off,” exercise, crowds, or arguments.
+   * food, pills, or charcoal when someone is
+   * vomiting, sleepy, or at seizure risk.
+   * temperature, pulse, and blood pressure when available.
+   * IV fluids, monitoring, and intensive supportive care.
+   * clonus, rigidity, or instability.
+   * dealing with an electrolyte problem, reacting to a bad combination, or feeling mentally destroyed because
+   * jaw tension, neurological disorganization, or the sense that the
+   * dangerous heat, prolonged or repeated seizure
+   * severe chest pain, collapse, or when basic stability cannot
+   * gut toxicity, electrolytes, and biochemical overload have been
+   * jinn, shadow thoughts, or a mind learning to
+   * rapid rescue benzodiazepines, cooling dangerous hyperthermia, and treating documented electrolyte abnormalities.
+   * a dirty body-feeling, parasite die-off, or mental hell driven by
+   * including kombucha, kimchi, and apple vinegar.
+   * serotonin toxicity, seizure, and cardiovascular symptoms.
+   * aged ozonated-charcoal water, zeolite, or beach morning glory.
+   * nausea, diarrhea, or the sick-stomach feeling.
+   * anxiety, high EMF, or a generally overloaded mind.
+   * whether they smell it, touch it, or drink the water portion.
+   * altered consciousness, loss of bodily control, or severe drug-related brain dysfunction.
+   * dilute it in water, juice, or milk and sip gradually.
+   * when I take too much, take it too late, or use it over too
+   * including corticosteroids, NSAIDs, and harmalas.
+   * alcohol, medications, or sensitive physiology.
+   * weapons, crowds, and strangers.
+   * redosing, confrontations, or leaving alone.
+   * too cold, desperate for the bathroom, or trapped beside somebody they
+   * These effects rise, peak, and change.
+   * extreme stretching, ritual, or a retreat
+   * let the body settle, keep warm, and sleep.
+   * fear, grief, or memory while another part
+   * draw, fold five towels, or wash one cup.
+   * if the task increases agitation, speed, or risk.
+   * arguing, spiritualizing, or panicking.
+   * logistics, violence, or self-harm risk exceeds what
+   * speak slowly, remind me where I am, and help me not make
+   * Let’s make your body safe, keep things simple, and stay together.
+   * medical, psychiatric, or suicide-crisis care.
+   * text, online chat, or WhatsApp.
+   * & Crisis Lifeline: U.S. call, text, and chat for suicidal or
+   * Crisis Text Line: U.S. text, chat, and WhatsApp support
+   * text lines listed for Canada, the UK, and Ireland.
+   * - Cheetah House: resources, consultations, and support groups for meditation-related
+   * Fireside during its coverage hours, TripSit for drug-related peer support, or Find A Helpline and
+   * despair, self-harm, or inability to stay safe.
+   * stretch gently, take a calm shower, or do a few slow
+   * is moving toward roads, water, or heights
+   * can provide mental-health crisis guidance, de-escalation, and connection to local resources
+   * weapon, violence underway, or a situation you cannot
+   * perform a rescue fantasy, impose an interpretation, or demonstrate spiritual advancement.
+   * sitting rather than guiding, talking through rather than down, and remembering that difficult does
+   * private, warm, and physically safe.
+   * entities, memories, or cosmic conclusions.
+   * non-harm, sleep, and ordinary reality.
+   * weak, punished, or failing the medicine.
+   * chanting, interpretation, or insight.
+   * value-world toward peace and protection, increase containment, and bring in crisis support
+   * threaten, mock, or physically wrestle away a
+   * a weapon, violence underway, or a situation you can’t
+   * hands, belly, and shoulders.
+   * out the arms and legs, wall push-ups, or a boring household task.
+   * blanket, stone, or another object that represents
+   * move away from danger, drink some water when safe, or prepare for sleep.
+   * dizziness, chest pain, or medical concern.
+   * - Say the date, place, and approximate time.
+   * that substance effects usually rise, peak, and change.
+   * heights, crowds, and water.
+   * stimulant use, an unknown mixture, or any medical concern.
+   * sensory engagement, sleep-seeking, and social support among the
+   * lightheadedness, confusion, and unreality feelings (Hopkins Medicine).
+   * can make everything feel final, cosmic, and urgent.
+   * mission, kundalini surge, or insight overrides basic safety.
+   * sexual boundary-crossing, reckless driving, or self-harm safe tonight.
+   * public prophecy, violent test of a theory, or “I never need sleep again” plan.
+   * racing thoughts, pressured speech, or everyone saying you are
+   * unspiritual, impure, or permanently damaged.
+   * memories, dose, or relationships became overwhelmed.
+   * call for help when needed, stop pretending, and hold the experience without
+   * journaling, prayer, and honest conversation.
+   * humiliation, rejection, and survival.
+   * protection, permission, and an explanation nobody gave
+   * money, spiritual communities, and the way reality itself
+   * betrayal, illness, or the morning you realize
+   * an unsafe setting, sexual or social pressure
+   * meditation overload, retreat pressure, or simply too much too
+   * eat, choose safer people, and admit that the room
+   * think through the beginning, middle, and end before starting.
+   * leaving time afterward, having food ready, and knowing how the session
+   * food, ordinary contact, and sleep afterward.
+   * substance and approximate dose, review combinations and medical concerns, prepare the room, and decide in advance what
+   * memory, emotional arc, or spiritual result.
+   * confession, prayer, or insight.
+   * the room and date, eat and hydrate when safe, write down the basic facts, and let the body understand
+   * conspiracy, spiritual certainty, or desperate action.
+   * Stop debating: no metaphysics, diagnosis, or life decisions while peaking.
+   * ache, self-reference, and the painful fantasy that
+   * lonely, terrified, and exiled parts.
+   * grief, fear, or loneliness.
+   * reprieve, heart opening, and moment of compassion can
+   * restraining, stroking, or crowding.
+   * freezes, pulls away, or seems unsure
+   * Touch must remain nonsexual, consensual, and unrelated to the helper’s
+   * shame, pride, and rage make hooks.
+   * hatred fights hatred, pride fights pride, and suddenly a small war
+   * fear, death, and the inner child.
+   * feed on fear, argue with pride, and seduce grandiosity.
+   * accuse somebody, cross a sexual boundary, or make a life decision
+   * archetypes, past-life narratives, and mixtures of all of
+   * past lives, hidden crimes, or cosmic plots
+   * sleep with a trauma-informed therapist, integration specialist, or grounded person you trust.
+   * literally true, partly true, or false in the form
+   * unwind, unbind, and unweave the identity illusion, mind, and unified experience.
+   * suppress it, confess it to everybody, or convert it into a
+   * human, time, and love.
+   * knew the wrong from right, you drew the line, and cut it fine
+   * Your life flashes before you, is that thunder, or the beating of your
+   * he will show you sorrow, you show him yesterday, and he will show you
+   * Don’t make huge decisions, diagnose yourself from one intense night, or assume every vision was
+   * warmth, ordinary contact, and no big moves.
+   * triggers, what helped, and what made things worse.
+   * spiritually, relationally, or practically.
+   * reduced stimulation, CBT-style reality testing, and therapy when it persists.
+   * disturbance and nightmares: sleep hygiene, no more substances, and professional help when severe
+   * less rumination, peer or family support
+   * one or two safe humans, peer support, and no social-media crowdsourcing while
+   * Existential shock: write it down, slow down, and return to practical love
+   * breathing, grounding, and medical care for severe, unusual, or worrying symptoms.
+   * deprive yourself of sleep, meditate or stretch to extremes
+   * sober support, ordinary body, and ordinary world.
+   * an apology, rest, or plain practical action?
+-- E125 two lists of three in one paragraph (Joel 2026-10-03, on P1 at 66% AI: "P! failed b ecause it has 2 lists of 3"); fix one first: drop the item that matters least, or if every item is needed, split it into sentences the way he did (33)
+   * Trouble breathing, a prolonged or repeated seizure / dangerous overheating, severe or worsening chest pain / repeated vomiting, a dangerous drug combination, or
+   * walk, control their bodily functions, and report seizure / dangerous heat, chest pain, or vision changes.
+   * diarrhea, a dirty or toxic feeling / seizure, dangerous overheating, or another concrete sign of
+   * how recently, whether charcoal binds it, and whether the person is / sedated, seizing, or unable to swallow safely.
+   * inner-child reparenting, somatic release, and gentle witnessing. / hydrated, oriented, and unlikely to do anything
+   * dangerous overheating, severe or worsening chest pain / serious injury, signs of real poisoning, or a credible risk of
+   * repeat a simple sentence, walk, and control their bodily functions? / dangerous heat, chest pain, or a vision change?
+   * seizure lasting about five minutes, repeated seizures without normal recovery, or a first or substantially / or a first or
+   * worsening, radiating, or exertional chest pain—or chest / faintness, neurological changes, or collapse
+   * mean no more MDMA, less exertion and heat / palpitations, collapse, or seizure raises concern about / hydration, kidneys, and broader toxicity.
+   * worsening, radiating, or exertional pain—or pain with / faintness, neurological changes, or collapse.
+   * does not bind every toxin, can adsorb necessary medication, and creates aspiration risk in / sedated, seizing, or unable to protect the
+   * can follow serotonergic medication changes, combinations, or excessive exposure. / linezolid, MAOIs, and some opioids can contribute
+   * in cloth at the neck, armpits, or groin when the person / Don’t put a confused, seizing, or very weak person in
+   * food, pills, or charcoal when someone is / vomiting, sleepy, or at seizure risk.
+   * IV fluids, monitoring, and intensive supportive care. / clonus, rigidity, or instability.
+   * dangerous heat, prolonged or repeated seizure / severe chest pain, collapse, or when basic stability cannot
+   * gut toxicity, electrolytes, and biochemical overload have been / jinn, shadow thoughts, or a mind learning to
+   * fear, grief, or memory while another part / draw, fold five towels, or wash one cup. / if the task increases agitation, speed, or risk.
+   * Crisis Text Line: U.S. text, chat, and WhatsApp support / text lines listed for Canada, the UK, and Ireland.
+   * Fireside during its coverage hours, TripSit for drug-related peer support, or Find A Helpline and / despair, self-harm, or inability to stay safe.
+   * can provide mental-health crisis guidance, de-escalation, and connection to local resources / weapon, violence underway, or a situation you cannot
+   * perform a rescue fantasy, impose an interpretation, or demonstrate spiritual advancement. / sitting rather than guiding, talking through rather than down, and r
+   * entities, memories, or cosmic conclusions. / non-harm, sleep, and ordinary reality.
+   * unspiritual, impure, or permanently damaged. / memories, dose, or relationships became overwhelmed.
+   * humiliation, rejection, and survival. / protection, permission, and an explanation nobody gave
+   * money, spiritual communities, and the way reality itself / betrayal, illness, or the morning you realize
+   * an unsafe setting, sexual or social pressure / meditation overload, retreat pressure, or simply too much too
+   * think through the beginning, middle, and end before starting. / leaving time afterward, having food ready, and knowing how the session
+   * freezes, pulls away, or seems unsure / Touch must remain nonsexual, consensual, and unrelated to the helper’s
+   * past lives, hidden crimes, or cosmic plots / sleep with a trauma-informed therapist, integration specialist, or grounded person you trust.
+   * suppress it, confess it to everybody, or convert it into a / human, time, and love.
+   * deprive yourself of sleep, meditate or stretch to extremes / sober support, ordinary body, and ordinary world.
+-- E186 "X can ... without Y" (Joel 2026-10-17 14:01: "here we got that X can without Y ai tell"; his fix asked it: "A meal can help, and so can a boundary or a kind sentence, but is that actually targeting the deeper existential question underneath?"): say the limit as its own thought, or ask it (2)
+   * A tiny nibble can sometimes smooth psychedelic nausea and improve the trip without killing it, but the difference between that amount and a trip-aborting amount
+   * Love can bless without grabbing.
+-- E186 "without ...ing" (13% of the single-paragraph screens that read AI, 3% of those that read Human, 2026-10-14 to 10-17): say what happens instead, or cut it (12)
+   * Dim the light, lower the sound, stop the chatter, clear out extra people, offer water without forcing it, adjust the temperature, open bathroom access, stop tou
+   * Cool the person without delaying transport.
+   * I use the strongest applicable evidence without pretending every useful rescue has already received the trial it deserves.
+   * This section is about carrying it out without becoming one more source of pressure.
+   * Offer water without forcing it.
+   * The goal is to let the nervous system discharge without creating a new danger.
+   * - Reflect without arguing: “That sounds terrifying.
+   * Practice says love is here, so we make the room safer, call for help when needed, stop pretending, and hold the experience without becoming it.
+   * When shadow work is bypassed in meditation and therapy, it may appear in ordinary life without explaining itself.
+   * - Intention without a script: know what you are open to exploring without demanding a particular revelation, memory, emotional arc, or spiritual result.
+   * - Send love to the person you miss without demanding their return.
+   * Train before the emergency: send love to a frightening image, a hated person without approving what they did, your shame, your body, sickness, aging, fear, deat
+-- E23 paragraph of instructions (14)
+   * Take that seriously even if they are high. The phrase is not a diagnosis, but intoxication...
+   * Don’t make this ideological. Try the safest option for two minutes and see what actually h...
+   * One lamp on. Blanket. Water nearby. Keys away. Put a familiar note, childhood toy, stuffed...
+   * Don’t try to win a metaphysical argument. Don’t agree with harmful conclusions either. Ref...
+   * Don’t drag somebody out of real grief. Don’t trap them inside a loop that is grinding them...
+   * 3. Call emergency help and arrange transport for moderate or severe signs. Don’t drive you...
+   * 2. Ask what the symptoms actually are while the DMSO is being used. Do not manufacture rea...
+   * Begin with whatever could hurt somebody in the next five minutes. Put away the car keys. T...
+   * Parallel processing can help when lying still turns into immobile introspection. Let one p...
+   * Use local emergency services for immediate danger or a medical emergency. In the United St...
+   * - Don’t try to win an argument with visions, entities, memories, or cosmic conclusions. Do...
+   * Don’t debate to win. Don’t validate violence. Redirect within the person’s value-world tow...
+   * Psychedelics can bring up true trauma, symbolic material, distorted fragments, fears, fant...
+   * Don’t rush to turn a hard experience into content. Sleep. Eat simple food. Drink water. Wa...
+-- E41 coach phrase (17)
+   * - If movement helps, try slow pacing, gentle stretching, shaking out the arms and legs, wall push-ups, or one boring ordinary task you can finish.
+   * Contact one grounded person if you can.
+   * Write this where you can see it:
+   * When you can, do that.
+   * When the goal is to reduce drug absorption or stop a toxic gut situation, charcoal may be relevant.
+   * You can get these directly from me.
+   * It’s a bunch of stuff in the formula, but one of the things in here you can buy directly on Amazon for super cheap right now and it works also very well:
+   * You can also buy Quinton Medical Seawater, which has a number of health benefits when used as a nasal spray or as a source of minerals.
+   * Smelling it does not produce that hyper intelligent state but does feel relaxing and very beneficial for brain health, so I’d start with that.
+   * The goal is to let the nervous system discharge without creating a new danger.
+   * - Remember that substance effects usually rise, peak, and change.
+   * - Eat simple healthy food, such as fruit, when you can.
+   * - Do one ordinary task you can clearly finish when the body wants movement.
+   * All your problems are magically gone, and if you take enough, you get some crazy trips that you can barely remember later.
+   * The point is not to manufacture loving thoughts.
+   * You don’t have to decide tonight.
+   * > Once things were clear in black and white, you thought you knew the wrong from right, you drew the line, and cut it fine, between the day and night; but now y
+-- H1 a negation in a heading: check it isn't an x-not-y frame (Joel 2026-10-06) (4)
+   * Mental Stabilizers That Don’t Abort the Trip
+   * When Peer Support Isn’t Enough
+   * Don’t
+   * No Rash Actions: Visions Are Not Commands
+-- H1 x-not-y heading (Joel 2026-10-06: "always trying to do an x not y statement ... humans don't do x not y as much"; 2026-10-07: "should be fully banned"); name the thing, as his "The Medicine Part - Yes, I'm Naming It" (1)
+   * For the Person Helping: Calm Anchor, Not Guru
+-- O10 the first sentence under a heading opens with a pointer: say what it points at, since nothing above it in the section does (Joel 2026-10-06, on "Key here": "that's referring to something. Key where? what?") (2)
+   * This hierarchy is for acute situations, including emergencies—not merely uncomfortable trips.
+   * These work similarly to ocean water.
+-- O12 "ordinary/regular/boring": overused by AI, not a sure tell (Joel 2026-10-07 03:24: "boring, regular etc are not for sure AI tells, almost nothing is a for sure AI tell, but they are way overused by AI"); keep one that says something, judge published wording like new wording (28)
+   * - If movement helps, try slow pacing, gentle stretching, shaking out the arms and legs, wall push-ups, or one boring ordinary task you can finish.
+   * I am stopping the practice and coming back to ordinary reality.
+   * If your body needs to move, do something safe and boring: pace slowly, fold clothes, wash one cup, or tidy one surface.
+   * Reflect the feeling, then redirect toward safety, non-harm, sleep, and ordinary reality.
+   * Ipomoea pes-caprae is not my ordinary first-line nausea remedy, because the difference between smoothing the nausea and stopping the trip can be narrow.
+   * I believe DMSO works better for stroke and most acute brain damage than anything else readily available to ordinary people.
+   * An ordinary pill is not the same thing as a nasal, buccal, rectal, intramuscular, or intravenous rescue preparation, and respiratory depressants in the mix chan
+   * Its primary role in this guide is not ordinary nausea control.
+   * It turns regular ayahuasca into loveyhuasca even.
+   * What I usually use is the water portion: water ozonated in contact with activated charcoal and allowed to sit after the charcoal falls to the bottom, or water o
+   * Give them ordinary reality:
+   * My job is ordinary safety.
+   * The practical move remains simple: stop the practice, eat something ordinary when safe, let the body settle, keep warm, and sleep.
+   * Finishing something small helps confirm that time is moving and ordinary reality is still here.
+   * When the body still needs movement, keep it contained and boring: pace the same hallway, fold towels, wash a cup, brush your teeth, stretch gently, take a calm 
+   * Reflect the feeling and redirect toward safety, non-harm, sleep, and ordinary reality.
+   * - Try two minutes of safe movement: slow pacing, gentle stretching, shaking out the arms and legs, wall push-ups, or a boring household task.
+   * - Name five ordinary objects.
+   * Food, ordinary contact, and sleep help the system come down.”
+   * - Do one ordinary task you can clearly finish when the body wants movement.
+   * When shadow work is bypassed in meditation and therapy, it may appear in ordinary life without explaining itself.
+   * If you use psychedelics (or MDMA) to achieve a goal like healing or spiritual liberation, you need to already be on the same path so that they aren’t radically 
+   * The ego deaths were so far beyond my ordinary understanding of reality that I dismissed them each time within a week.
+   * A lot of prevention is boring: being rested, starting before everyone is exhausted, leaving time afterward, having food ready, and knowing how the session ends.
+   * When possible, begin earlier in the day so there is still time for the experience, food, ordinary contact, and sleep afterward.
+   * First 24 hours: sleep, food, water, warmth, ordinary contact, and no big moves.
+   * - Derealization and depersonalization: ordinary-world grounding, exercise, nature, outside attention, less rumination, peer or family support, and therapy when 
+   * Stabilize through sleep, food, routine, sober support, ordinary body, and ordinary world.
+-- O13 a made-up number or clock time (Joel 2026-10-07, on "five percent is enough": "AI wants to put concrete numbers on stuff all the time, then people are wondering how much is 5%?"; SKILL.md: no invented clock-time details) (3)
+   * - Astringency: 100% DMSO usually irritates skin on the upper half of the body.
+   * Leaving 100% DMSO on the skin can crenate it, and the skin may take a week to look plump again.
+   * My friend Eshwar, however, found that shadow work—bringing love and awareness to trauma-formed negative states and tendencies—made up about 99% of his path to h
+-- O14 two repeated "and"s or "or"s in one stretch: fine in speech ("bread and butter and jam"), Emulate's trick in a list (Joel 2026-10-07) (3)
+   * - A convulsive seizure lasting about five minutes, repeated seizures without normal recovery, or a first or substantially different seizure
+   * As mentioned in my humic acid note, I’ve found if I take too much ayahuasca or loveyhuasca and I feel “out of it” and bad, simply smelling the humic acid powder
+   * I have faced demons and jinn during psychedelic and exorcism-type situations.
+-- O19 a list (Joel 2026-10-07: "lists of 3 especially, and lists in general are overused by AI. try to avoid that unless it's really needed"): keep it only if the meaning really needs it (41)
+   * If stillness helps, sit against a wall or lie under a blanket, with one hand on the heart and one on the belly.
+   * One hand on heart and one on belly.
+   * [Fireside Project Psychedelic Support Line](https://firesideproject.org/support-line) — U.S.-only, non-emergency psychedelic peer support.
+   * Is the body failing—or is neurological status still unknown?
+   * Is the room making everything worse?
+   * Is this real emotional material?
+   * Is the body writing the horror story?
+   * Can [love](http://love.u-dont-exist.com/) be reached yet?
+   * Trouble breathing, blue or gray lips, or respiratory depression
+   * The person may be unsafe to themselves or others.
+   * Spontaneous clonus: involuntary rhythmic muscle contractions and relaxations occurring without stimulation.
+   * Stop all suspected serotonergic substances. No more SSRI, SNRI, MAOI, tramadol, MDMA, DXM cough syrup, 5-HTP, St John’s wort, SAM-e, linezolid, stimulant redose
+   * DMSO immediately. Smell humic acid, take a 5mg lick of it. Smell the Metta NMT sniffer (described in [loveyhuasca guide](http://loveyhuasca.info)).
+   * Established acute treatment: standard seizure first aid, rapid rescue benzodiazepines, cooling dangerous hyperthermia, and treating documented electrolyte abnor
+   * Astringency: 100% DMSO usually irritates skin on the upper half of the body. When it itches, dilute it with water or real aloe juice without added chemicals. Le
+   * Don’t put it on dirty skin; it can carry chemicals inward.
+   * DMSO has produced both anticonvulsant and proconvulsant effects depending on dose and seizure model. I consider it a plausible adjunct for excitotoxic or tempor
+   * Niacin flush: itchy sunburn-like heat. This is normal, although some people find it intolerable and others enjoy it.
+   * [Fireside Project](https://firesideproject.org/support-line): U.S.-only according to its current FAQ; phone or text psychedelic peer support at 623-473-7433, da
+   * [Find A Helpline](https://findahelpline.com/): a global directory of free helplines, many offering phone, text, online chat, or WhatsApp. It is not psychedelic-
+   * [988 Suicide & Crisis Lifeline](https://988lifeline.org/): U.S. call, text, and chat for suicidal or mental-health crises.
+   * [ICEERS Support Center](https://www.iceers.org/en/support-and-integration/): up to five free online integration sessions for challenging experiences. Risk-reduc
+   * Speak slowly and use fewer words.
+   * Don’t try to win an argument with visions, entities, memories, or cosmic conclusions. Don’t validate harmful conclusions. Reflect the feeling and redirect towar
+   * Feel both feet against the floor.
+   * Choose it while sober and regulated: a childhood toy, stuffed animal, note, photograph, blanket, stone, or another object that represents your inner Nurturer or
+   * Exhale longer than you inhale for ten breaths.
+   * Silence is a real option.
+   * Name five ordinary objects.
+   * Ask one calm person to stay as the lead anchor.
+   * Say the date, place, and approximate time.
+   * Eat simple healthy food, such as fruit, when you can.
+   * Have I slept? Sleep comes before mission.
+   * Catastrophizing: “This will never end.”
+   * Rest and timing: don’t begin already depleted. When possible, begin earlier in the day so there is still time for the experience, food, ordinary contact, and sl
+   * Name it: “This is fear trying to solve fear.”
+   * Send love to the person you miss without demanding their return.
+   * First 24 hours: sleep, food, water, warmth, ordinary contact, and no big moves.
+   * Anxiety and fear: grounding, routine, reduced stimulation, CBT-style reality testing, and therapy when it persists.
+   * Other alternatives to standard mental-health care are listed at [alternativementalhealth.com](http://alternativementalhealth.com/).
+   * Have you ever wondered whether the stuff we see in visions is real or not? Here is my “[answer](https://tafkajestdr.blogspot.com/2019/07/how-does-brain-construc
+-- O20 "I want / I don't want" opening a stance (SKILL.md; Joel 2026-10-10: "i want/don't want which is in the tells list ... you can use i want sometimes when it makes real sense because i actually do want to find a commune to live in, but there's just too much of this"): keep it only where his own wish is the subject, else state the judgment (1)
+   * I wish everybody could keep shadow work inside the safer rooms of meditation, therapy, journaling, prayer, and honest conversation.
+-- O25 "even" or "actually", 25 in my text (TELLS-FROM-PANGRAM-DATA-20261007.md: they go with the failing paragraphs; "They're words I add to sound casual, and they don't help"): keep one only where it says something (21)
+   * Try the safest option for two minutes and see what actually happens.
+   * The resulting low CO<sub>2</sub> can produce tingling, lightheadedness, and feelings of unreality that make the trip seem even more threatening.
+   * It can gently guide you through reparenting in trance—or without trance when you’re already altered—choose meditations that fit what’s actually happening, and h
+   * Use DMSO immediately while asking what the symptoms actually are.
+   * DMSO is my first immediate remedy while I ask what the symptoms actually are.
+   * That judgment is stronger than the clinical evidence, but the evidence is not empty: a preliminary human ischemic-stroke trial reported possible neurological be
+   * Ask what was swallowed, how much, when, and what the body is actually doing: respiratory depression, stimulant toxicity, serotonin toxicity, seizure, dangerous 
+   * Ask what the symptoms actually are while the DMSO is being used.
+   * These are the first things I would use, even preventively on the come-up, because I want to address possible toxins before assigning the distress to something m
+   * As explained in my loveyhuasca guide, this little sniffer stick that you smell gives people 30-60 minutes (or more) of peace even when they are sober and just a
+   * But when I’m on ayahauasca or loveyhuasca, not only is it calming and nice, but actually opens my heart chakra considerably.
+   * It turns regular ayahuasca into loveyhuasca even.
+   * As mentioned in my humic acid note, I’ve found if I take too much ayahuasca or loveyhuasca and I feel “out of it” and bad, simply smelling the humic acid powder
+   * Licking a tiny bit like 5mg does even more, sending my brain into hyperfunctionality.
+   * Direct contact with the water seems to matter, even when the water has been stored in a bottle.
+   * Most people I have given it to find it relaxing even while sober, whether they smell it, touch it, or drink the water portion.
+   * I have even watched the water calm a crying baby through touch alone.
+   * Modern people carry so much trauma—and some people did even in Buddha’s time—that shadow work and inner-child reparenting may need to come first, even before au
+   * Sending love is pleasure in itself, even when the person is gone.
+   * > Once things were clear in black and white, you thought you knew the wrong from right, you drew the line, and cut it fine, between the day and night; but now y
+   * Then ask what actually happened.
+-- O27 a rough edge in my text: two spaces in a row (JOEL-FIXES-CATALOGUE: "Rough edges he leaves: typos, double spaces, missing periods. ... They aren't something for me to imitate.") (2)
+   * - Two manuals at: zendoproject.org/education/ “The ZENDO Project Training Manual” especially Appendix A: “How to Work With Difficult Psychedelic Experiences” (p
+   * Journal of Psychoactive Drugs Excerpt: “As much as possible, everything done or said in preparing clients to take this compound attempted to give this message”:
+-- O29 a run of three or more questions (gate step 7: "a few shared AI micro-patterns (question runs, triads, "isn't X, it's Y")"; its prediction review: "questions the text answers itself"): keep the ones a reader would ask (3)
+   * 5 questions: Is the light too bright? Is the music horrible? Are five concerned people talking at once? Is somebody touching the person when touch is unwelcome?
+   * 4 questions: - Ask simple questions: “Would less light help? “Music or quiet? “Closer or farther away? “Water?”
+   * 7 questions: What was medical or environmental? What was emotional? What was old trauma? What was fantasy? What was useful? What changed behavior? What needs th
+-- O30 a phrase said three or more times in one paragraph (gate, 2026-10-07: my "a commitment they make as adults" "gave P22 its fourth "as adults""; Joel: "take out second adults that's obvious"): keep it only where the repeat does a job (8)
+   * "shadow work" 3 times: Some people call shadow work a bad trip, especially when they had no intention of doing shadow work that day. / Other bad trips seem unre
+   * "and he will show" 3 times: > You show him good, and he will show you evil; you show him truth, and he will show you lies; you show him life, and he will show y
+   * "he will show you" 3 times: > You show him good, and he will show you evil; you show him truth, and he will show you lies; you show him life, and he will show y
+   * "show him" 3 times: > You show him good, and he will show you evil; you show him truth, and he will show you lies; you show him life, and he will show you how a
+   * "and he will show" 4 times: > You show him happiness, and he will show you sorrow, you show him yesterday, and he will show you tomorrow; you show him poverty, 
+   * "he will show you" 4 times: > You show him happiness, and he will show you sorrow, you show him yesterday, and he will show you tomorrow; you show him poverty, 
+   * "you show him" 3 times: > You show him happiness, and he will show you sorrow, you show him yesterday, and he will show you tomorrow; you show him poverty, and 
+   * "show him" 4 times: > You show him happiness, and he will show you sorrow, you show him yesterday, and he will show you tomorrow; you show him poverty, and he w
+-- O42 "quietly" as understatement (Joel 2026-10-17 13:11: "remove "quietly" that's an ai tell"; 2026-10-10: "using quietly all the time like that is a huge AI tell"): take it out, published wording included; it stays only for how a sound or a movement was made (1)
+   * Quietly remove means only when that can be done without confrontation or turning yourself into the target.
+-- O43 "doesn't prove" (Joel 2026-10-24: "another high freq AI pattern to be aware of: "isn't proof of/doesn't prove""): say what it does show, or cut it (2)
+   * DMSO can also block pain signals, so pain relief alone does not prove that the underlying problem has ended.
+   * A bad trip does not prove that you are broken, punished, unspiritual, impure, or permanently damaged.
+-- O43 "not proof that" (Joel 2026-10-18: "This is limited X, not over-scoped Y.... and especially "not proof that" is another high freq ai tell"; 2026-10-24: "isn't proof of/doesn't prove"): say what the thing is (1)
+   * Bliss is not proof of safety, and it often makes grounding less welcome.
+-- O43 "proof"/"prove" (Joel 2026-10-30: ""proof".. "it's not proof" "that doesn't prove" ... high freq AI"): say what it shows instead, unless proving is the subject (4)
+   * The action-lock applies double: no driving, posting, confessing, confronting, redosing, disappearing, giving away possessions, testing theories, or proving anyt
+   * No proof is needed.
+   * No proof is needed.
+   * “Tonight the commandment is no harm, no proof, no mission, sleep first.”
+-- O45 a "doesn't replace" safety line (his 95.6 example) (Joel 2026-10-23: "all the extra extra ridiculous safety language which gets repeated everywhere"; "let's never make those mistakes again pls"; E250 (Inner Child)): it stays only if it changes what the reader does right here, isn't a sometimes-true point said as a rule, and the article doesn't already say it (2)
+   * I would consider oral magnesium chloride when the person is fully alert, especially with MDMA-related jaw tension or muscle activity, but it does not replace tr
+   * Psychedelic peer support does not replace emergency, medical, psychiatric, or suicide-crisis care.
+-- O45 a safety line (Joel 2026-10-23: "all the extra extra ridiculous safety language which gets repeated everywhere"; "let's never make those mistakes again pls"; E250 (Inner Child)): it stays only if it changes what the reader does right here, isn't a sometimes-true point said as a rule, and the article doesn't already say it (4)
+   * - Physical safety: know the substance and approximate dose, review combinations and medical concerns, prepare the room, and decide in advance what requires outs
+   * - Sleep disturbance and nightmares: sleep hygiene, no more substances, and professional help when severe or prolonged.
+   * - Visual distortions or HPPD-like symptoms: reduce stress and substance use; seek professional support when symptoms interfere with life.
+   * - Paranoia or psychosis-like beliefs: professional support quickly, especially when beliefs drive unsafe action.
+-- O46 "one" where "a" or "an" would do (Joel 2026-10-30: "AI overuses "one" where humans often say "an" or "a""): keep "one" only when the count is the point (1)
+   * Give the body one simple signal: love is here.
+-- O48 passive voice in 3 places (Joel 2026-10-30: "passive voice overuse also high freq AI"): say who does it, as he does ("Is the hypnotist using ..." for "Are roles ... being used") (1)
+   * A huge amount of what gets called “deep psychedelic crisis” is a nervous system begging fo...
+-- O6 a candidate, to judge, not a finding: a feeling or idea doing what a person does. A neat, quotable line is the tell ("Grief doesn't keep a schedule"); a phrase people say all the time is not (Joel 2026-10-07 23:50: "Modern life trains us" is "so common it's almost cliche, it's not a witty AI quip"). Judge each with abstract_agents_prompt.py or by his ratings; fix only a quip, giving the action to a person with as few words changed as possible (1)
+   * - Panic won’t settle.
+-- O9 a "not Y" tail on a finished claim (Joel 2026-10-03: "it always wants to add a 'not Y' part"; 2026-10-17, E190: "that pollished ai quip pattern where it's like "that's X, not Y""): say the claim plainly, or say both sides, as his "it gets called harm, even if it was also a learning experience" (18)
+   * Use the phone for support only, rather than posting.
+   * Gentle breathing reduction is meant to soften that loop, rather than become a new breathing project.
+   * That makes every body sacred, not disposable.
+   * That is a personal field note, rather than standard emergency medicine.
+   * My practical endpoint is the jaw releasing, rather than taking one conventional supplement dose and assuming the problem has been handled.
+   * It is decision support, not first aid.
+   * By beach morning glory I mean Ipomoea pes-caprae, rather than morning-glory plants in general.
+   * I consider it a plausible adjunct for excitotoxic or temporal-lobe-type seizure activity, not a proven universal seizure rescue.
+   * Hours and services change, and not every option works in every country.
+   * “I might kill someone to test this theory” is a safety signal, rather than merely philosophical content.
+   * That makes every body sacred, not disposable.
+   * - Use it as a cue, not an oracle.
+   * Music should remain an option, rather than become another authority in the room.
+   * Movement is a tool to test, rather than a rule to obey.
+   * Buteyko evidence note: published evidence for Buteyko-style breathing mainly concerns asthma and breathing retraining, rather than psychedelic or spiritual-prac
+   * Treat trip content first as experience-content, rather than fact-content.
+   * > Once things were clear in black and white, you thought you knew the wrong from right, you drew the line, and cut it fine, between the day and night; but now y
+   * Talk with one grounded person, rather than twenty chaotic people.
+-- R1 action "it" near a paragraph start: name the thing (Joel 2026-09-30, on "If you did it": "the first it is unclear referent") (1)
+   * Has this happened before, and how did it end?
