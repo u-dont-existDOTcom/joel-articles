@@ -106351,7 +106351,47 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/pangram-ledger.jsonl",
-          "sha256": "0f2be9c6240d1161ed0a070223d28e7a5baacf8b46fecdf7af5e929922ff486b",
+          "sha256": "630919d5f2caf078e8d95b6079ddf9a54187a949be136b1fe15d051f7373d41c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/baseline/API-RESULTS.jsonl",
+          "sha256": "61947e0867872e8c83afcfda123bcafef8c848630e33d1456bea405f07dcb4b6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/baseline/RESULTS.json",
+          "sha256": "e41aaed7e9abf1f88d39647af99e65ebeab62b9b6480977fd2d0c94dddfbf8f4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/structure/STRUCTURE-CARDS.md",
+          "sha256": "e233f82ce83c28bdc0a442c69de1d68701d548b81c2c0ecd61dd400f5b5841c9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/structure/STRUCTURE-PAGE.artifact.html",
+          "sha256": "96a7a061abdcb4f23b643b7ed5f2f86821987d6af5d44b6471d70f192aa68b38",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/structure/STRUCTURE-PAGE.html",
+          "sha256": "77bb6747b81e5d4c62d406cfbcbab6b677b1f4fe8c33b7a6da3e4f8b07d0219a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/structure/STRUCTURE-SPEC.json",
+          "sha256": "3a1f51f8c1f53c0df48017b4b234ae0c437d8fa49a9d0ca40cedc6ba3ab41803",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/structure/make_cards_md.py",
+          "sha256": "c1fadff7dc67ea169996a9ba252495ebe6b90a60c8a311b8b658af6a650fc9d9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/structure/make_spec.py",
+          "sha256": "3ede58167fd0471b9d2e116b0eeb4d15bd72647522409710157321c5cd95ce41",
           "role": "humanization_working_record"
         }
       ]

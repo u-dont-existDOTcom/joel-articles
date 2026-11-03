@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+</head>
+<body>
+<title>Gut Article Structure</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+/* An editor's review sheet: article passages set like page proofs (a book face), controls in a plain sans, one blue
+   accent for actions, and the four decisions in their own colors. */
+:root {
+  --bg: #f4f6f9; --surface: #ffffff; --ink: #1d2430; --muted: #566072; --line: #d8dee7; --soft: #eef2f7;
+  --accent: #2b4c9b; --accent-ink: #ffffff; --mark: #fff0b8; --mark-ink: #1d2430; --del: #fde4e4; --del-ink: #8a2c2c;
+  --ins: #dff3e6; --ins-ink: #1f5b38; --ok: #1f7a4d; --rev: #8a5d00; --no: #a33a3a; --wait: #5d6675;
+  --ok-bg: #e3f4ea; --rev-bg: #fbf0d9; --no-bg: #fbe5e5; --wait-bg: #eceff4;
+  --serif: "Source Serif 4", "Source Serif Pro", Georgia, "Times New Roman", serif;
+  --sans: "IBM Plex Sans", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #12161d; --surface: #1a2029; --ink: #e6eaf1; --muted: #a3adbd; --line: #2e3744; --soft: #222a35;
+  --accent: #8fb0ff; --accent-ink: #0f1420; --mark: #5a4b12; --mark-ink: #fff6d6; --del: #4d2222; --del-ink: #ffd2d2;
+  --ins: #1d3d2a; --ins-ink: #c9f2d8; --ok: #6fd39d; --rev: #f0c35c; --no: #ff9a9a; --wait: #b2bccb;
+  --ok-bg: #173826; --rev-bg: #3d3112; --no-bg: #3f1d1d; --wait-bg: #262e3a; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #12161d; --surface: #1a2029; --ink: #e6eaf1; --muted: #a3adbd; --line: #2e3744; --soft: #222a35;
+  --accent: #8fb0ff; --accent-ink: #0f1420; --mark: #5a4b12; --mark-ink: #fff6d6; --del: #4d2222; --del-ink: #ffd2d2;
+  --ins: #1d3d2a; --ins-ink: #c9f2d8; --ok: #6fd39d; --rev: #f0c35c; --no: #ff9a9a; --wait: #b2bccb;
+  --ok-bg: #173826; --rev-bg: #3d3112; --no-bg: #3f1d1d; --wait-bg: #262e3a; color-scheme: dark }
+* { box-sizing: border-box }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.55 var(--sans) }
+.wrap { max-width: 1120px; margin: 0 auto; padding-block: 20px 72px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)) }
+h1 { font: 600 clamp(1.5rem, 3.2vw, 2.1rem)/1.2 var(--sans); margin: 4px 0 10px; text-wrap: balance }
+h2 { font: 600 1.15rem/1.3 var(--sans); margin: 34px 0 6px; text-wrap: balance }
+h3 { font: 600 1.02rem/1.35 var(--sans); margin: 0; text-wrap: balance }
+.eyebrow { font: 600 12px/1.4 var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--accent) }
+.intro p, .group-intro { max-width: 72ch; color: var(--ink) }
+.group-intro { color: var(--muted); margin: 0 0 12px }
+a { color: var(--accent) }
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line);
+  padding-block: 10px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg) }
+.bar input[type=search] { flex: 1 1 220px; min-width: 0; border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px }
+.bar select { border: 1px solid var(--line); border-radius: 6px; padding: 7px 8px; max-width: 100% }
+button { font: inherit; cursor: pointer; border-radius: 6px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); padding: 7px 12px }
+button:focus-visible, a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px }
+button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent) }
+.progress { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; margin: 14px 0 4px; font-variant-numeric: tabular-nums; color: var(--muted) }
+.meter { flex: 1 1 200px; height: 8px; background: var(--soft); border-radius: 6px; overflow: hidden; min-width: 120px }
+.meter span { display: block; height: 100%; width: 0; background: var(--accent) }
+#counts { display: flex; flex-wrap: wrap; gap: 4px 12px }
+.count b { color: var(--ink) }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; margin: 12px 0; padding: 14px 16px; display: grid; gap: 10px }
+.card[data-status=approved] { border-left: 5px solid var(--ok) }
+.card[data-status=needs_revision] { border-left: 5px solid var(--rev) }
+.card[data-status=rejected] { border-left: 5px solid var(--no) }
+.card-top { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: baseline }
+.cid { font: 600 12px/1 var(--mono); color: var(--muted) }
+.sec { color: var(--muted); font-size: 13px }
+.whose { font-size: 13px; color: var(--muted) }
+.pill { font: 600 12px/1 var(--sans); padding: 4px 8px; border-radius: 999px; background: var(--wait-bg); color: var(--wait) }
+.pill.approved { background: var(--ok-bg); color: var(--ok) } .pill.needs_revision { background: var(--rev-bg); color: var(--rev) }
+.pill.rejected { background: var(--no-bg); color: var(--no) }
+.blocks { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)) }
+.block { min-width: 0; border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; background: var(--soft) }
+.block-label { font: 600 12px/1.3 var(--sans); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px }
+.passage { font: 16px/1.6 var(--serif); margin: 6px 0; overflow-wrap: anywhere }
+.passage mark { background: var(--mark); color: var(--mark-ink); padding: 0 2px; border-radius: 2px }
+.passage del { background: var(--del); color: var(--del-ink) }
+.passage ins { background: var(--ins); color: var(--ins-ink); text-decoration: none }
+.field { margin: 0 }
+.field dt { font: 600 13px/1.4 var(--sans); color: var(--muted) }
+.field dd { margin: 2px 0 0 0; max-width: 80ch; overflow-wrap: anywhere }
+.field ul { margin: 2px 0 0; padding-left: 20px } .field li { margin: 3px 0 }
+.label-chip { font: 600 11px/1 var(--mono); padding: 3px 5px; border-radius: 4px; background: var(--soft); color: var(--accent); margin-right: 4px; white-space: nowrap }
+.decide { display: grid; gap: 8px; border-top: 1px solid var(--line); padding-top: 10px }
+.means { font-size: 13px; color: var(--muted); max-width: 90ch }
+.choices { display: flex; flex-wrap: wrap; gap: 6px }
+.choices button[aria-pressed=true][data-d=approved] { background: var(--ok); color: var(--surface); border-color: var(--ok) }
+.choices button[aria-pressed=true][data-d=needs_revision] { background: var(--rev); color: var(--surface); border-color: var(--rev) }
+.choices button[aria-pressed=true][data-d=rejected] { background: var(--no); color: var(--surface); border-color: var(--no) }
+.choices button[aria-pressed=true][data-d=pending] { background: var(--wait); color: var(--surface); border-color: var(--wait) }
+textarea { width: 100%; min-height: 64px; resize: vertical; border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; font: 15px/1.5 var(--sans) }
+.links { font-size: 13px; display: flex; flex-wrap: wrap; gap: 4px 14px }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; margin: 26px 0 0; display: grid; gap: 10px }
+.panel .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center }
+.status-line { font-size: 14px; color: var(--muted); min-height: 1.4em }
+.status-line.bad { color: var(--no) } .status-line.good { color: var(--ok) }
+.empty { color: var(--muted); font-style: italic }
+.foot { color: var(--muted); font-size: 13px; margin-top: 28px; overflow-wrap: anywhere }
+@media (prefers-reduced-motion: no-preference) { .meter span { transition: width .2s } }
+
+/* review-form-controls-v1: paired colors for light review forms. */
+input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="button"]):not([type="submit"]):not([type="reset"]):not([type="hidden"]),textarea,select,option,optgroup,[contenteditable="true"]{color-scheme:only light!important;color:#1f2937!important;-webkit-text-fill-color:#1f2937!important;background-color:#ffffff!important;caret-color:#1f2937!important}
+input::placeholder,textarea::placeholder{color:#526174!important;-webkit-text-fill-color:#526174!important;opacity:1}
+select option:checked{color:#ffffff!important;-webkit-text-fill-color:#ffffff!important;background-color:#244e72!important}
+input:focus-visible,textarea:focus-visible,select:focus-visible,button:focus-visible,[contenteditable="true"]:focus-visible{outline:3px solid #2458a6;outline-offset:2px}
+@media(forced-colors:active){input,textarea,select,option,optgroup,[contenteditable="true"]{forced-color-adjust:auto;color:CanvasText!important;-webkit-text-fill-color:CanvasText!important;background-color:Canvas!important;caret-color:CanvasText!important}input::placeholder,textarea::placeholder{color:GrayText!important;-webkit-text-fill-color:GrayText!important}select option:checked{color:HighlightText!important;-webkit-text-fill-color:HighlightText!important;background-color:Highlight!important}}
+</style>
+<div class="wrap">
+<header><div class="eyebrow">Review</div><h1>Gut Article Structure</h1><div class="intro"><p>You asked how to line up the first part (what you and your friends found) with the second (the recipe from the books). Nothing below changes your post until you approve it, and the humanizing waits until the structure is settled, so no paragraph gets rewritten just before it moves.</p><p>What Pangram 4.1 says about each block alone (API, 3 Nov): your whole first part reads Human at High confidence, the intro and every cause, Pooyan included, with one exception. Inside Leaky gut, the &quot;Mitochondrial &amp; Cellular Energy Starvation&quot; stretch (glutamine, butyrate, TCA intermediates) reads AI at High confidence; the 255 words before it read Human. In the second part, Phases 1, 2, 4, 5 and 6 read 100% AI. Phase 3 reads mostly Human because of your H2O2 and Pooyan lines (87%). Every paragraph of &quot;Optional Ready-Made Gut Stacks&quot; reads 100% AI too. The paid Gem instructions weren&#x27;t checked.</p><p>So the two halves differ in voice as well as in logic: the first is organized by cause (what might be wrong) and sounds like you; the second is organized by phase (what to do, in what order) and sounds like the books&#x27; summary. Items 1 and 2 are about the logic; 3 to 7 are the repeats and contradictions between the halves. Each item says what I&#x27;d pick and why. Revise with a note if you want a different option, or your own words.</p></div></header>
+<div class="progress"><div class="meter" aria-hidden="true"><span id="meter"></span></div><div id="counts" class="count"></div><span id="shown"></span></div>
+<div class="bar" role="search"><input id="search" type="search" placeholder="Search the items and your notes" aria-label="Search"><select id="fgroup" aria-label="Show a group"><option value="">All groups</option></select><select id="fstatus" aria-label="Show a status"><option value="">Any status</option><option value="pending">Pending</option><option value="approved">Approved</option><option value="needs_revision">Revise</option><option value="rejected">Rejected</option></select><label><input id="fnote" type="checkbox"> With a note</label><button id="next" type="button">Next pending</button><button id="copyJson" class="primary" type="button">Copy JSON</button></div>
+<main id="items"></main><p id="none" class="empty" hidden>Nothing matches. Clear the search or the filters.</p>
+<section class="panel" aria-labelledby="send"><h2 id="send">Send your decisions back</h2><p>Copy the JSON and paste it into the chat (from either account), or download it when you have this page open as a file. Your decisions also stay in this browser, so you can stop and come back.</p><div class="row"><button id="copyJson2" class="primary" type="button">Copy JSON</button><button id="showJson" type="button">Show JSON</button><button id="downloadJson" type="button">Download JSON</button><button id="clearAll" type="button">Clear all</button></div><textarea id="jsonBox" rows="8" readonly hidden aria-label="Your decisions as JSON"></textarea><h3>Load decisions you exported before</h3><div class="row"><input id="importFile" type="file" accept="application/json,.json" aria-label="A JSON file"></div><textarea id="importBox" rows="4" placeholder="Or paste an export here" aria-label="Paste an export"></textarea><div class="row"><button id="importText" type="button">Load the pasted JSON</button></div><div id="statusLine" class="status-line" role="status"></div></section>
+<p class="foot">Review healing-the-gut-structure-20261103 · article SHA-256 dad7b0cd540452cb… · the article: Healing the Gut Naturally (your editor HTML, 3 Nov) · <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/gut-import-20261103/articles/healing-the-gut/humanize/fix-20261103/structure/STRUCTURE-PAGE.html" target="_blank" rel="noopener">this page's file in Git</a></p>
+</div>
+<script type="application/json" id="review-data">{"review_id": "healing-the-gut-structure-20261103", "title": "Gut Article Structure", "source_sha256": "dad7b0cd540452cb44198782a69db94ace6b0f2b5ec58bb98bf8c233703cf2ea", "source_name": "Healing the Gut Naturally (your editor HTML, 3 Nov)", "repo_file": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/gut-import-20261103/articles/healing-the-gut/humanize/fix-20261103/structure/STRUCTURE-PAGE.html", "intro": ["You asked how to line up the first part (what you and your friends found) with the second (the recipe from the books). Nothing below changes your post until you approve it, and the humanizing waits until the structure is settled, so no paragraph gets rewritten just before it moves.", "What Pangram 4.1 says about each block alone (API, 3 Nov): your whole first part reads Human at High confidence, the intro and every cause, Pooyan included, with one exception. Inside Leaky gut, the \"Mitochondrial & Cellular Energy Starvation\" stretch (glutamine, butyrate, TCA intermediates) reads AI at High confidence; the 255 words before it read Human. In the second part, Phases 1, 2, 4, 5 and 6 read 100% AI. Phase 3 reads mostly Human because of your H2O2 and Pooyan lines (87%). Every paragraph of \"Optional Ready-Made Gut Stacks\" reads 100% AI too. The paid Gem instructions weren't checked.", "So the two halves differ in voice as well as in logic: the first is organized by cause (what might be wrong) and sounds like you; the second is organized by phase (what to do, in what order) and sounds like the books' summary. Items 1 and 2 are about the logic; 3 to 7 are the repeats and contradictions between the halves. Each item says what I'd pick and why. Revise with a note if you want a different option, or your own words."], "groups": [{"id": "shape", "title": "The shape", "intro": "How the two parts fit together.", "approve": "I make the change on a draft and show it to you in place before it goes anywhere.", "reject": "The order stays as it is."}, {"id": "fix", "title": "Repeats and contradictions between the halves", "intro": "Each one is small, but together they are why the article feels like two articles.", "approve": "I make the change on the same draft.", "reject": "Left as it is."}], "items": [{"id": "S1", "group": "shape", "title": "Keep two parts, but make them point at each other (my pick)", "section": "The whole article", "whose": "Proposal: Claude", "fields": [{"label": "What it means", "text": "Part 1 stays your list of causes, in your words: what might be wrong, with what you and your friends found. Part 2 stays the phases from the books: what to do, in order. Each cause gets a short pointer to the phase that deals with it, and the phases point back where your own finding changes the books' advice (Phase 3 already does this with H2O2)."}, {"label": "Why this one", "list": ["Your first part already passes alone at High confidence; this keeps it whole instead of breaking it up across phases.", "The Gem works in phases, so a phase-shaped Part 2 still matches what readers get when they ask the Gem.", "It fixes the lining-up with the smallest change, so the real work goes into Part 2's voice, which is where the AI score comes from."]}, {"label": "The other ways", "list": ["A. One spine: dissolve the causes list into the phases, each finding of yours as a note inside the phase it belongs to (stress and bile into Phase 1, H. pylori into Phase 3, leaky gut into Phase 6, Pooyan's impaction into Phase 5). One logic, but your passing paragraphs get split up and surrounded by the summary's voice.", "C. Cause first: each cause becomes its own section (what it is, how to tell, what to do), with a short order-of-operations box on top. Most reader-friendly, but the biggest rewrite, and it no longer mirrors the Gem.", "Leave it: only humanize, no structural change."]}], "approve": "Option B (this one).", "reject": "Leave the structure; humanize only."}, {"id": "S2", "group": "shape", "title": "The pointers: which cause goes with which phase", "section": "Some Causes of poor gut health -> Text Summary of the Protocol", "whose": "Proposal: Claude", "fields": [{"label": "The mapping", "list": ["Severe stress / adrenal fatigue / poor sleep -> Phase 1 (autonomic tone, the vagus exercises)", "Sitting, lack of exercise -> Phase 6 (maintenance)", "Years of accumulated shit (Pooyan) -> not in the books; closest is Phase 5, so I'd say that plainly", "Poor diet now -> Phase 2 (the reset diet)", "Parasites, H. pylori, mold, metals -> Phase 3 (the purge), and Phase 5 for mold", "SIBO -> Phase 3, and Phase 6 for SIBO yogurt", "Plant foods -> Phase 2 (low FODMAP), then Phase 6 (bringing plants back)", "Leaky gut -> Phase 6 (repair)", "IBS -> Phase 5 (investigation)", "Low stomach acid, enzymes, thick bile -> Phase 1 (bile flow)"]}, {"label": "How it would look", "text": "A few words at the end of each cause, like \"(Phase 1 below)\", plus one or two sentences at the top of Part 2 saying the phases are the order to work in and the causes above tell you where to look first. Those sentences would be new wording, so I'd draft them for you to rewrite or replace."}], "approve": "Use this mapping.", "reject": "No pointers."}, {"id": "S3", "group": "fix", "title": "Move the mitochondrial-fuels stretch out of Leaky gut into Phase 6", "section": "Leaky gut -> Phase 6", "whose": "Proposal: Claude", "blocks": [{"label": "Leaky gut now (the part that reads AI)", "paras": [[["... Ozonated zeolite (or ZeoCharge ): I find regular zeolite to be ineffective, because the pores on it are clogged up, so it can't adsorb excess zonulin, metals, and other toxins. ", ""], ["Mitochondrial & Cellular Energy Starvation (Glutamine, Butyrate, TCA Intermediates): Your gut barrier requires massive amounts of immediate, localized energy [... about 300 words: glutamine dosing 5g and 10-30g, the cancer caveat, butyrate, malic and citric acid ...] accelerating mucosal healing from a different biochemical angle.", "del"]]]}, {"label": "Phase 6 now", "paras": [[["... Maintain (Pimentel): Continue strict meal spacing (4+ hours) forever to keep the MMC cleaning wave active. ", ""], ["Fuel the Mitochondria: Deploy L-Glutamine (5–30g based on inflammatory load), butyrate-producing substrates (resistant starch), and TCA cycle intermediates (malic acid/citrate) ...", "mark"]]]}], "fields": [{"label": "Why", "text": "The same three fuels and the same glutamine range are in both places. Moving the long version into Phase 6 puts the dosing in one spot, ends your leaky gut list on your own items (colostrum, charcoal, zinc carnosine, BPC-157, zeolite), and takes the one AI-reading stretch out of your first part. Every number, the cancer caveat and the Dr. Rhonda link go with it unchanged; it gets humanized in its new place."}], "links": [{"text": "Pangram: Leaky gut alone", "url": "https://www.pangram.com/history/2ff70c06-28f7-41b2-9990-3c446b5fffe4"}, {"text": "Pangram: Phase 6 alone", "url": "https://www.pangram.com/history/7d2b43f4-45c9-475e-bbd7-bc7deab779fe"}], "approve": "Move it into Phase 6 and merge it with \"Fuel the Mitochondria\".", "reject": "Keep it in Leaky gut."}, {"id": "S4", "group": "fix", "title": "The \"Optional Ready-Made Gut Stacks\" section", "section": "Optional Ready-Made Gut Stacks", "whose": "Question for you", "fields": [{"label": "What I see", "text": "Every paragraph reads 100% AI, nearly all at High confidence. Its first paragraph repeats the phase order in different words, and its last is a stock list of who should see a clinician. Its real content is three product picks (Microbiome Labs Total Gut Restoration, Dr. Ruscio's Leaky Gut Support Kit, Designs for Health GI Revive) and the advice to start low."}, {"label": "My question", "text": "Are those three picks your own view? I can't tell from the text, and I won't write them up as yours unless you say so."}, {"label": "Options", "list": ["A. If they're yours: shrink it to a short note at the end of Phase 6 (if you'd rather buy a kit than separate ingredients, these three, and start low), keeping the product names and the start-low warning. (my pick)", "B. Keep it as its own section and humanize it as it is.", "C. Cut it."]}], "links": [{"text": "Pangram: the first paragraph alone", "url": "https://www.pangram.com/history/3473c2e5-4a16-41fb-8fc0-4c0d76e4a157"}, {"text": "Pangram: the product picks alone", "url": "https://www.pangram.com/history/0a6ea5ec-346a-429f-8feb-13445fab2e27"}], "approve": "Option A (shrink into Phase 6), and yes, the picks are mine.", "reject": "Cut it (C)."}, {"id": "S5", "group": "fix", "title": "Berberine: recommended twice, then listed as something not to start with", "section": "Parasites / Phase 3 / Gut Stacks", "whose": "Proposal: Claude", "blocks": [{"label": "The three places", "paras": [[["Parasites: \"For H. Pylori specifically: if you get heartburn when your stomach is empty only, that's usually H. Pylori, and it's easily treated with ", ""], ["berberine", "mark"], [".\"", ""]], [["Phase 3: \"There is one herbal antibiotic that works really well tho for H. pylori: ", ""], ["Berberine", "mark"], [".\"", ""]], [["Gut Stacks: \"I would not recommend general 'gut cleanse' stacks built around oregano oil, wormwood, black walnut, ", ""], ["berberine", "mark"], [", or other antimicrobial herbs as a universal starting point.\"", ""]]]}], "fields": [{"label": "Fix", "text": "They don't really disagree (H. pylori is a specific reason, the stacks line is about starting blind), but read in a row they seem to. If the stacks section stays in any form, say berberine for H. pylori is the exception. If it's cut (S4 C), there's nothing to fix."}], "approve": "Mark the H. pylori exception.", "reject": "Leave it."}, {"id": "S6", "group": "fix", "title": "The article's six phases don't match the Gem's six phases", "section": "Text Summary of the Protocol vs. the paid Gem instructions", "whose": "Proposal: Claude", "fields": [{"label": "The article", "list": ["1 Pre-flight (Hale, Rosenberg)", "2 Reset (Ruscio, Pimentel)", "3 Purge (Davis, Ruscio)", "4 Nuclear option: elemental diet (Ruscio)", "5 Investigation (Brown, Nathan, Hopper)", "6 Restoration (Davis, Bulsiewicz)"]}, {"label": "The Gem", "list": ["1 Pre-flight (Hale, Rosenberg)", "2 Reset (Ruscio, Pimentel)", "3 Purge (Davis, Ruscio, Brown), with the semi-elemental diet as its escalation", "4 Investigation (Brown only)", "5 Restoration (Davis, Bulsiewicz)", "6 Refractory cases (Nathan, Hopper)"]}, {"label": "Why it matters", "text": "A reader who reads Phase 5 here and then asks the Gem about Phase 5 gets restoration instead of investigation, and mold and limbic retraining land in different places. I'd make the article's summary follow the Gem, since the Gem is what readers will actually consult; the content stays, only the grouping and numbers change."}], "approve": "Make the article follow the Gem.", "reject": "Leave both as they are."}, {"id": "S7", "group": "fix", "title": "The paid Gem instructions: leave them as a prompt?", "section": "Paid Subscribers can see my Gem's custom instructions below", "whose": "Question for you", "fields": [{"label": "What I'd do", "text": "Leave the instructions as they are: they're a prompt for Gemini that readers copy, not prose for a reader, so humanizing them would only make them a worse prompt. I'd fix three obvious slips: \"Gem Name\" appears twice, two \"[cite_start]\" and \"[cite: ...]\" leftovers from Gemini's output are in the bibliography, and Phase 3 has run-together asterisks (\"*** **Action:**\")."}, {"label": "The catch", "text": "If your Pangram extension reads the paid part too, the prompt will always pull the whole-post score toward AI. Your 59% share may include it. If you want the post itself to pass, the prompt could move to a linked page (gut.u-dont-exist.com already holds a copy, per item 10 of the prompt's own bibliography)."}], "approve": "Leave the prompt, fix the three slips.", "reject": "Humanize it too."}], "format": "joel-review-decisions-v1"}</script>
+<script>
+'use strict';
+const src = JSON.parse(document.getElementById('review-data').textContent);
+const KEY = 'review-' + src.review_id + '-' + src.source_sha256.slice(0, 12);
+const LABEL = {pending: 'Pending', approved: 'Approved', needs_revision: 'Revise', rejected: 'Rejected'};
+const BUTTON = {approved: 'Approve', needs_revision: 'Revise', rejected: 'Reject', pending: 'Pending'};
+const groups = new Map(src.groups.map(g => [g.id, g]));
+const ids = new Set(src.items.map(x => x.id));
+let state = {decisions: {}};
+try { const old = JSON.parse(localStorage.getItem(KEY) || 'null'); if (old && old.source_sha256 === src.source_sha256 && old.decisions) state.decisions = old.decisions; } catch (e) {}
+const $ = s => document.querySelector(s);
+function el(tag, cls, text) { const n = document.createElement(tag); if (cls) n.className = cls; if (text !== undefined) n.textContent = text; return n; }
+function rec(id) { return state.decisions[id] || {status: 'pending', note: ''}; }
+function save() { try { localStorage.setItem(KEY, JSON.stringify({source_sha256: src.source_sha256, decisions: state.decisions})); } catch (e) {} refresh(); }
+function setDecision(id, status) { const r = rec(id); state.decisions[id] = {status: status, note: r.note || '', updated: new Date().toISOString()}; save(); }
+function setNote(id, note) { const r = rec(id); state.decisions[id] = {status: r.status || 'pending', note: note, updated: new Date().toISOString()}; save(); }
+function passage(pieces) {
+  const p = el('p', 'passage');
+  for (const [text, mark] of pieces) { if (!mark) p.append(document.createTextNode(text)); else p.append(el(mark, '', text)); }
+  return p;
+}
+function card(item) {
+  const g = groups.get(item.group) || {};
+  const c = el('article', 'card'); c.id = 'item-' + item.id; c.dataset.id = item.id; c.dataset.group = item.group;
+  const top = el('div', 'card-top');
+  top.append(el('span', 'cid', item.id), el('h3', '', item.title), el('span', 'pill', 'Pending'));
+  c.append(top);
+  if (item.section) c.append(el('div', 'sec', item.section));
+  if (item.whose) c.append(el('div', 'whose', 'Whose words: ' + item.whose));
+  if (item.blocks && item.blocks.length) {
+    const bs = el('div', 'blocks');
+    for (const b of item.blocks) { const d = el('div', 'block'); d.append(el('div', 'block-label', b.label)); for (const p of b.paras) d.append(passage(p)); bs.append(d); }
+    c.append(bs);
+  }
+  if (item.fields && item.fields.length) {
+    const dl = el('dl', 'field');
+    for (const f of item.fields) {
+      dl.append(el('dt', '', f.label));
+      const dd = el('dd');
+      if (f.list) { const ul = el('ul'); for (const x of f.list) { const li = el('li'); const m = x.match(/^(SOURCE-SUPPORTED|ARTICLE-HINTED|NEW OWNER CHOICE)\s*:?\s*/); if (m) { li.append(el('span', 'label-chip', m[1]), document.createTextNode(x.slice(m[0].length))); } else li.textContent = x; ul.append(li); } dd.append(ul); }
+      else dd.textContent = f.text;
+      dl.append(dd);
+    }
+    c.append(dl);
+  }
+  if (item.links && item.links.length) { const l = el('div', 'links'); for (const k of item.links) { const a = el('a', '', k.text); a.href = k.url; a.target = '_blank'; a.rel = 'noopener'; l.append(a); } c.append(l); }
+  const dec = el('div', 'decide');
+  dec.append(el('div', 'means', 'Approve: ' + (item.approve || g.approve || 'do what is proposed.') + ' Reject: ' + (item.reject || g.reject || 'leave it as it is.') + ' Revise: change it the way your note says.'));
+  const ch = el('div', 'choices'); ch.setAttribute('role', 'group'); ch.setAttribute('aria-label', 'Decision for ' + item.id);
+  for (const d of ['approved', 'needs_revision', 'rejected', 'pending']) {
+    const b = el('button', '', BUTTON[d]); b.type = 'button'; b.dataset.d = d; b.id = 'd-' + item.id + '-' + d;
+    b.addEventListener('click', () => { setDecision(item.id, d); if (d === 'needs_revision') ta.focus(); });
+    ch.append(b);
+  }
+  const ta = el('textarea'); ta.id = 'note-' + item.id; ta.setAttribute('aria-label', 'Your note on ' + item.id);
+  ta.placeholder = 'Your note (kept with any decision, Pending included)';
+  ta.value = rec(item.id).note || '';
+  ta.addEventListener('input', () => setNote(item.id, ta.value));
+  dec.append(ch, ta); c.append(dec);
+  return c;
+}
+function render() {
+  const main = $('#items'); main.textContent = '';
+  for (const g of src.groups) {
+    const items = src.items.filter(x => x.group === g.id);
+    if (!items.length) continue;
+    const sec = el('section', 'group'); sec.dataset.group = g.id;
+    sec.append(el('h2', '', g.title + ' (' + items.length + ')'));
+    if (g.intro) sec.append(el('p', 'group-intro', g.intro));
+    for (const it of items) sec.append(card(it));
+    main.append(sec);
+  }
+  const gs = $('#fgroup'); for (const g of src.groups) { const o = el('option', '', g.title); o.value = g.id; gs.append(o); }
+}
+function matches(item, q) {
+  if (!q) return true;
+  const hay = [item.id, item.title, item.section, item.whose, rec(item.id).note].concat((item.fields || []).map(f => f.text || (f.list || []).join(' ')))
+    .concat((item.blocks || []).flatMap(b => b.paras.map(p => p.map(x => x[0]).join('')))).join(' ').toLowerCase();
+  return q.toLowerCase().split(/\s+/).every(w => hay.includes(w));
+}
+function refresh() {
+  const q = $('#search').value.trim(), fg = $('#fgroup').value, fs = $('#fstatus').value, fn = $('#fnote').checked;
+  const counts = {pending: 0, approved: 0, needs_revision: 0, rejected: 0};
+  let shown = 0;
+  for (const item of src.items) {
+    const r = rec(item.id), c = document.getElementById('item-' + item.id);
+    counts[r.status] = (counts[r.status] || 0) + 1;
+    c.dataset.status = r.status;
+    const pill = c.querySelector('.pill'); pill.textContent = LABEL[r.status]; pill.className = 'pill ' + r.status;
+    for (const b of c.querySelectorAll('.choices button')) b.setAttribute('aria-pressed', String(b.dataset.d === r.status));
+    const ok = matches(item, q) && (!fg || item.group === fg) && (!fs || r.status === fs) && (!fn || (r.note || '').trim());
+    c.hidden = !ok; if (ok) shown++;
+  }
+  for (const s of document.querySelectorAll('section.group')) s.hidden = ![...s.querySelectorAll('.card')].some(c => !c.hidden);
+  const total = src.items.length, done = total - counts.pending;
+  $('#meter').style.width = (100 * done / total).toFixed(1) + '%';
+  $('#counts').innerHTML = '';
+  for (const [k, v] of [['approved', counts.approved], ['needs_revision', counts.needs_revision], ['rejected', counts.rejected], ['pending', counts.pending]]) {
+    const s = el('span', 'count'); const b = el('b', '', String(v)); s.append(b, document.createTextNode(' ' + LABEL[k])); $('#counts').append(s);
+  }
+  $('#shown').textContent = shown === total ? 'Showing all ' + total : 'Showing ' + shown + ' of ' + total;
+  $('#none').hidden = shown !== 0;
+}
+function exportData() {
+  const items = src.items.map(x => { const r = rec(x.id); return {id: x.id, group: x.group, title: x.title, status: r.status, note: r.note || '', updated: r.updated || null}; });
+  const counts = {}; for (const i of items) counts[i.status] = (counts[i.status] || 0) + 1;
+  return {format: src.format, review_id: src.review_id, title: src.title, source_name: src.source_name, source_sha256: src.source_sha256,
+          exported_utc: new Date().toISOString(), counts: counts, items: items};
+}
+function say(msg, kind) { const s = $('#statusLine'); s.textContent = msg; s.className = 'status-line' + (kind ? ' ' + kind : ''); }
+async function copyJson() {
+  const text = JSON.stringify(exportData(), null, 1); $('#jsonBox').value = text; $('#jsonBox').hidden = false;
+  try { await navigator.clipboard.writeText(text); say('Copied. Paste it into the chat.', 'good'); }
+  catch (e) { $('#jsonBox').focus(); $('#jsonBox').select(); say('Copying was refused here, so the JSON is selected in the box below: copy it from there.', 'bad'); }
+}
+function showJson() { const b = $('#jsonBox'); b.value = JSON.stringify(exportData(), null, 1); b.hidden = false; b.focus(); b.select(); say('The JSON is in the box below, selected.'); }
+function downloadJson() {
+  const text = JSON.stringify(exportData(), null, 1);
+  try { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([text], {type: 'application/json'}));
+        a.download = src.review_id + '-decisions.json'; document.body.append(a); a.click(); a.remove();
+        say('If no file appeared (some viewers block downloads), use Copy JSON instead.'); }
+  catch (e) { say('Downloading isn\'t allowed here: use Copy JSON instead.', 'bad'); }
+}
+function importText(text) {
+  let d; try { d = JSON.parse(text); } catch (e) { say('That isn\'t JSON this page can read: ' + e.message, 'bad'); return; }
+  if (!d || d.review_id !== src.review_id || d.source_sha256 !== src.source_sha256) { say('Not imported: that export is for another review or another version of the article (its review_id or source_sha256 differs).', 'bad'); return; }
+  const unknown = [], next = {};
+  for (const it of d.items || []) {
+    if (!ids.has(it.id)) { unknown.push(it.id); continue; }
+    const st = ['pending', 'approved', 'needs_revision', 'rejected'].includes(it.status) ? it.status : 'pending';
+    next[it.id] = {status: st, note: it.note || '', updated: it.updated || null};
+  }
+  state.decisions = Object.assign({}, state.decisions, next);
+  for (const item of src.items) { const t = document.getElementById('note-' + item.id); if (t) t.value = rec(item.id).note || ''; }
+  save(); say('Imported ' + Object.keys(next).length + ' decisions' + (unknown.length ? '; not on this page, so left out: ' + unknown.join(', ') : '') + '.', unknown.length ? 'bad' : 'good');
+}
+let clearArmed = false;
+function clearAll() {
+  if (!clearArmed) { clearArmed = true; $('#clearAll').textContent = 'Click again to clear every decision and note'; setTimeout(() => { clearArmed = false; $('#clearAll').textContent = 'Clear all'; }, 5000); return; }
+  clearArmed = false; $('#clearAll').textContent = 'Clear all'; state.decisions = {};
+  for (const t of document.querySelectorAll('.decide textarea')) t.value = '';
+  save(); say('Cleared.');
+}
+function nextUndecided() {
+  const n = src.items.find(x => rec(x.id).status === 'pending' && !document.getElementById('item-' + x.id).hidden) || src.items.find(x => rec(x.id).status === 'pending');
+  if (!n) { say('Nothing is pending.', 'good'); return; }
+  const c = document.getElementById('item-' + n.id); c.hidden = false; c.scrollIntoView({block: 'start'}); c.querySelector('button').focus({preventScroll: true});
+}
+render();
+for (const id of ['#search', '#fgroup', '#fstatus', '#fnote']) $(id).addEventListener('input', refresh);
+$('#copyJson').addEventListener('click', copyJson); $('#copyJson2').addEventListener('click', copyJson);
+$('#showJson').addEventListener('click', showJson); if ($('#downloadJson')) $('#downloadJson').addEventListener('click', downloadJson);
+$('#clearAll').addEventListener('click', clearAll); $('#next').addEventListener('click', nextUndecided);
+$('#importText').addEventListener('click', () => importText($('#importBox').value));
+$('#importFile').addEventListener('change', e => { const f = e.target.files && e.target.files[0]; if (!f) return; const r = new FileReader(); r.onload = () => importText(String(r.result)); r.readAsText(f); });
+refresh();
+</script>
+</body>
+</html>
