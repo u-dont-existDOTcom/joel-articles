@@ -18,6 +18,7 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-03, after Joel's message of 12:18 UTC (the hypnosis guide's fourth free check)**: nothing changed in this lane; question 1 still waits on him, and this lane is next once the hypnosis guide is in his post.
 - **2026-11-03, after Joel's message of 11:19 UTC (the hypnosis guide's third free check)**: nothing changed in this lane; question 1 still waits on him.
 - **2026-11-03, after Joel's answers of 00:39 UTC (the hypnosis guide's third cards page): three lessons that apply here too.** E328: overcompletion is read for, and cut, before a flagged window is reworded (his "cut all this. you didn't notice the massive overcompletion here? prob this whole guide is full of it then."); this article's drafts get the same read before their next check. E329: a window over a heading is tested as Pangram reads it. E330: a made-up word is fine if it sounds right. Question 1 still waits on him.
 - **2026-11-02, after Joel's message of 23:07 UTC (the hypnosis guide's second free check)**: nothing changed in this lane; question 1 still waits on him.

@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-11-03, after your message of 11:19 UTC.
-**Open questions: 0.** **For you to do**: open the whole guide's two links with your Pangram extension and send me the two result pages, and mark the one card on [Hypnosis Guide Cards, 3 November](https://claude.ai/artifact/C6K7XyKLdYGBD2nx3MBe9S) (below). The questions are at the top, with their
+Last updated 2026-11-03, after your message of 12:18 UTC.
+**Open questions: 1** (33). **For you to do**: answer question 33 and mark the one card on [Hypnosis Guide Cards, 3 November (2)](https://claude.ai/artifact/WVc1QzNAzwSN7feajnaiNP) (below). The questions are at the top, with their
 options and my default; under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠
 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -10,20 +10,41 @@ read and update it. Every file it points to is a link.
 
 ## Open questions
 
+**🟣 33. Put the guide as it is now into your post?** In the fourth free check both halves read Human Written, with no
+AI window ([part A](https://www.pangram.com/feed/c2f7a242-d7f1-40a5-8453-df9047c5947b), [part B](https://www.pangram.com/feed/93dac4dd-cdea-49f2-8103-83211c1ebb4d)). Your post still has the guide of 2 November; since then the guide has had your
+answers, the 70 overcompletion cuts, your 31a and 32a and my fixes. Your new line in Don't rush the repair is in too (your
+own words; not checked in the whole yet), and Pattern 10's questions are the one card on your cards page.
+
+- a) Yes, my recommendation: with the Pattern 10 card's answer in, I put the guide into your post the way I did on
+  2 November (in its editor, one change, no pasting), change "Last update" in the subtitle to today, and read the public
+  post back word for word.
+- b) Not yet: one more free check of the whole guide first.
+- c) Something else.
+
 **🔵 On hold: the 83 cards of [the 27 October editor page](https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) you hadn't marked** (questions 21 to 23). The guide has
 changed under them, so the rechecks decide; you don't need to mark them.
 
 ## For you to do
 
-- 🟠 **Open these two links in your browser and run the Pangram extension on each, then send me the two result pages.**
-  They hold the guide with your 31a and 32a in and my fixes for the four Human (Low) windows in my words, in my two
-  temporary drafts (never published), so the checks cost no credits. I checked that each page shows exactly the text I
-  meant to check.
-  - [Part A: from the start to Methods to explore with a trained person present](https://ibogaqueen.substack.com/p/2091483d-131e-48ce-a6c5-2308ed6d6689?postPreview=paid&updated=recheck-a-1103b&audience=only_paid&free_preview=false&freemail=)
-  - [Part B: from Methods to explore with a trained person present to the end, with the appendices](https://ibogaqueen.substack.com/p/8051254d-8771-45cb-baa3-ff3fd295587a?postPreview=paid&updated=recheck-b-1103b&audience=only_paid&free_preview=false&freemail=)
-- 🟠 Mark the one card on [Hypnosis Guide Cards, 3 November](https://claude.ai/artifact/C6K7XyKLdYGBD2nx3MBe9S) ([the card as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/c1103/REVIEW-C1103.md)):
-  your line "You don't have to work to explain anything." in Don't rush the repair, to keep or edit.
-- 🟠 Merge [pull request 274](https://github.com/u-dont-existDOTcom/joel-articles/pull/274) when you've looked.
+- 🟠 Question 33, above.
+- 🟠 Mark the one card on [Hypnosis Guide Cards, 3 November (2)](https://claude.ai/artifact/WVc1QzNAzwSN7feajnaiNP) ([the card as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/c1103b/REVIEW-C1103B.md)):
+  Pattern 10's questions, to keep or edit.
+- 🟠 Merge [pull request 275](https://github.com/u-dont-existDOTcom/joel-articles/pull/275) when you've looked.
+
+## Your message of 2026-11-03 12:18 UTC, and what I did
+
+Word for word: [your message and your answers](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/free-whole-2/joel-20261103-1218-message.txt).
+
+- 🟢 **The fourth free check, read** ([every window below High, with whose words](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/free-whole-2/read/WINDOWS.md)):
+  both parts Human Written again, with no AI window. [Part A](https://www.pangram.com/feed/c2f7a242-d7f1-40a5-8453-df9047c5947b): 92 windows, 47 High, 44 Medium, 1 Low (your old
+  "You don't have to work to explain anything."). [Part B](https://www.pangram.com/feed/93dac4dd-cdea-49f2-8103-83211c1ebb4d): 23 windows, 12 High, 10 Medium, 1 Low (Pattern 10's
+  questions). My predictions were right this time.
+- 🟢 **Three of my four fixes, in** ([what went in and why](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/l1103/APPLIED-L1103.json)): Let the next
+  response guide you, the 15-minute practice and EFT tapping aren't flagged any more. My Pattern 10 try read lower than
+  before, so the earlier version stays, and Pattern 10 is now your card.
+- 🟢 **Your E-157, in** ([what changed](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/c1103/APPLIED-C1103-ANSWERS.json)): "Baby boopaloopa, I'm here with
+  you now. You don't have to work to explain anything or impress me with how fast you can get better." I only took out
+  the full stop left before "or impress me" when you joined the two sentences.
 
 ## Your message of 2026-11-03 11:19 UTC, and what I did
 
