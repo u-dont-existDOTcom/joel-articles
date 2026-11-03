@@ -1,0 +1,64 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_ADMITTED_V1",
+  "candidate_sha256": "209268bc2c71455ca25591e90d1caa433de8cd4b4a41377b9de4b4fe5e89032a",
+  "context_sha256": "1bc222ff5f78e4601d912ea6b9a821efc21c690e950df93393a8fea3e902aa30",
+  "source_sha256": "e463edae30775d82f886121449ea3fb0045582dc6f8d681624feed8761fb2b8b",
+  "inventory_sha256": "512ba9966b464de682eba7afb959025fa516e0baad489aedd5cca6d81c31d7b5",
+  "lint_verdict": "REVIEW",
+  "linter_sha256": "7c46478a4d8541a86c3674775519a79e27f164f300dee2dad82924ef76cdf87a",
+  "lint_stdout_sha256": "ebd0420450b52c1411ed8ca1cddf4bd29362d29d1435add6358f23b831c5ae40",
+  "lint_findings": [
+    {
+      "label": "D9 follows the source order",
+      "examples": [
+        "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    },
+    {
+      "label": "E36/E41 heavy second person",
+      "examples": [
+        "16.7 \"you\" per 100 of my words"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    }
+  ],
+  "tell_ledger_counts": {
+    "ABSENT": 33,
+    "PRESENT_JUSTIFIED": 0,
+    "UNCERTAIN": 0,
+    "total": 33
+  },
+  "justified_tells": [],
+  "reviews": {
+    "preservation": {
+      "path": "preservation.json",
+      "sha256": "9828aed0199afb7ff501cdb890eec1b63d1d12bf9f1c4337683a54cc4309a9ce",
+      "reviewer": {
+        "name": "ChatGPT preservation reviewer",
+        "context_id": "/root/odt_preservation_review",
+        "origin": "Fresh source-only collaboration context"
+      }
+    },
+    "cold_read_1": {
+      "path": "cold_read_1.json",
+      "sha256": "abb4829d6f998c835efba901ec3a9bbd9c06e225168cb8a93d37b86d88820264",
+      "reviewer": {
+        "name": "ChatGPT fresh cold reader",
+        "context_id": "/root/odt_cold_one",
+        "origin": "Separate fresh collaboration context with source, candidate and natural context"
+      }
+    },
+    "cold_read_2": {
+      "path": "cold_read_2.json",
+      "sha256": "e52e8797c32504fd2cd81dc0304242f0eb15538c9c2511d04fd931dec0d59ac4",
+      "reviewer": {
+        "name": "ChatGPT fresh cold reader",
+        "context_id": "/root/odt_cold_two",
+        "origin": "Separate fresh collaboration context with source, candidate and natural context"
+      }
+    }
+  },
+  "manifest_sha256": "ba05fa7b7498ddfde0528ed408a0aed4c539e9badc6ffbdb13c1e24940fc6298",
+  "verified_at_utc": "2026-11-03T16:48:47.512060+00:00"
+}

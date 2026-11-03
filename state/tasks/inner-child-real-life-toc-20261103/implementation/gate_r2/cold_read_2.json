@@ -1,0 +1,42 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "71dcc4e680ec277d57db07b6e7c399ceaad5204d00505e5e190b432c58b5ddfd",
+  "source_sha256": "d970550b257b1aedc0f342ad7cc117b90b31585b1eb011685e4fb312b54defce",
+  "context_sha256": "1bc222ff5f78e4601d912ea6b9a821efc21c690e950df93393a8fea3e902aa30",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "ChatGPT fresh cold reader",
+    "context_id": "/root/odt_cold_two",
+    "origin": "Separate fresh collaboration context with source, candidate and natural context"
+  },
+  "evidence": "I read the literal heading and single paragraph against source.txt and the supplied natural context, and assessed each of the 33 inventory IDs. The source heading “If they've actually hurt or threatened you” becomes “If Someone Has Actually Hurt or Threatened You,” supplying an actor after relocation. The source’s “old stuff or not” becomes “whether or not it brings up old stuff,” which makes the reference to the hurt or threat explicit without changing the priority. “Even once,” “get safe first,” and “which is not a small thing at all, I know” are retained. The latter keeps the source’s acknowledgement that the instruction can be hard. The wording is conversational and intelligible in its new position under “Speaking Up and Handling Conflict,” before advice about speech and responses. T21 is present as compactly packed functions but is accepted as a readable, source-retained sentence under the explicitly narrow repair scope; all other inventory operations are absent for the literal reasons recorded in cold_two_inventory.json. All three mechanical REVIEW labels were examined individually. Source order is preserved appropriately. The safety priority also appears earlier in the context, which I explicitly considered: those passages concern disclosure danger, while this passage governs responding after actual interpersonal harm or threat. That local difference makes the retained paragraph consequential here. I have not treated the unchanged guide’s wider factual claims as reviewed. Rechecked the current frozen context against the prior exact context. The only difference is “your support person were a lover” becoming “your support came from a lover” in the immediately preceding Dating While You Heal paragraph. The threat candidate and source bytes are unchanged. The revised wording removes a possible Hearthwork-peer referent; it does not change the following conflict heading, the conditions of the threat paragraph, the earlier disclosure-related safety passages, or any evidence underlying this threat review. All prior candidate-specific inventory and lint assessments therefore remain applicable to the current bytes.",
+  "resolved_lint_labels": [
+    "B4/E15 list or packed sentence",
+    "D9 follows the source order",
+    "O45 a safety line (Joel 2026-10-23: \"all the extra extra ridiculous safety language which gets repeated everywhere\"; \"let's never make those mistakes again pls\"; E250 (Inner Child)): it stays only if it changes what the reader does right here, isn't a sometimes-true point said as a rule, and the article doesn't already say it"
+  ],
+  "resolved_tell_ids": [
+    "T21"
+  ],
+  "lint_assessment": [
+    {
+      "label": "B4/E15 list or packed sentence",
+      "disposition": "ACCEPTED",
+      "reason": "The comma-rich sentence retains the source’s frequency threshold, trigger qualification, single safety imperative, and acknowledgement of difficulty. T21 is present but resolved for this minimal repair because all four functions were already supplied by the source and remain readable as qualifications to one action, not as several compressed recommendations."
+    },
+    {
+      "label": "D9 follows the source order",
+      "disposition": "ACCEPTED",
+      "reason": "There is only one source paragraph and one candidate paragraph; preserving their order is required by the narrow repair. The source’s “which is not a small thing at all, I know” notices the difficulty of its own imperative, resolving the T13/T09 concern without rearranging anything."
+    },
+    {
+      "label": "O45 a safety line (Joel 2026-10-23: \"all the extra extra ridiculous safety language which gets repeated everywhere\"; \"let's never make those mistakes again pls\"; E250 (Inner Child)): it stays only if it changes what the reader does right here, isn't a sometimes-true point said as a rule, and the article doesn't already say it",
+      "disposition": "ACCEPTED",
+      "reason": "This is the source’s existing safety instruction, not a newly added precaution. At the opening of conflict advice it tells a reader who has actually been hurt or threatened to secure safety before using the ensuing communication advice, even after one occurrence and even if older experiences are also involved. Earlier context says to protect oneself before unsafe disclosure and to get someone safe when disclosing current danger; those are separate disclosure decisions, not this harm-versus-reaction decision. Thus the general priority recurs, but the paragraph supplies a locally consequential application rather than an extra generic warning. The repair neither adds a second safety instruction nor converts a conditional source claim into an unconditional rule."
+    }
+  ],
+  "inventory_assessment_file": "/workspace/scratch/4845c4a6c885/odt_work/gate_r2/cold_two_inventory.json",
+  "context_delta_recheck": "Rechecked the current frozen context against the prior exact context. The only difference is “your support person were a lover” becoming “your support came from a lover” in the immediately preceding Dating While You Heal paragraph. The threat candidate and source bytes are unchanged. The revised wording removes a possible Hearthwork-peer referent; it does not change the following conflict heading, the conditions of the threat paragraph, the earlier disclosure-related safety passages, or any evidence underlying this threat review. All prior candidate-specific inventory and lint assessments therefore remain applicable to the current bytes."
+}

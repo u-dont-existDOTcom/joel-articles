@@ -1,72 +1,42 @@
-# Inner Child real-life chapter: structural-plan checkpoint
+# Inner Child real-life chapter: completed ODT
 
 Date: 2026-11-03.
-Status: requested ToC and structural plan completed; proposed article structure, not promoted prose.
+Status: the accepted structural plan has been applied to the uploaded excerpt and the requested ODT is complete.
 Task branch: chat/inner-child-real-life-toc-20261103.
+Draft PR: https://github.com/u-dont-existDOTcom/joel-articles/pull/278.
 
-## Exact owner request
+## Owner request and continuation
 
-> look at this section in my inner child therapy guide, there's way too much duplication especially in the various parts talking about differentiation from fitting in to the group etc. and i feel just in general there's not good organization in this section. make a ToC that makes real sense for how someone would practice and make sure each section still flows into each other one when you move stuff around. any questions lmk
+The parent request was to remove duplicative differentiation/belonging explanations, organize this supplied section in a practical order, and preserve the flow between moved passages. The complete six-section proposal is preserved in TOC-AND-MOVE-MAP.md.
 
-## Scope and authority
+The owner then attached that plan and said: “ok give me the result as an odt file”. This continuation applies the plan to the actual excerpt and supplies the editable chapter as ODT. The original excerpt and plan remain unchanged in this task directory. Prior planning checkpoint details are retained in the parent commit.
 
-The current owner-supplied excerpt controls this bounded planning request. The exact uploaded file is preserved in OWNER-SOURCE.md; SHA-256 81c0e31546deefc2ae17b5aa0e5159143618a7d5e94770cb07c6cd36e20520b1.
-The complete plan is TOC-AND-MOVE-MAP.md; SHA-256 37398c91d712dd9318fff13f765780f68569368f112e3ab90c02c34a15cb0b1b.
+## Exact authority and deliverables
 
-Fresh default-branch UDA AGENTS/lesson routing and Joel Articles SKILL/map/governance/current state/registry were read, followed by the relevant structural, placement and task-mode guidance. The registered article raw master, owner locks, source evidence, and current-state exact bytes all matched the registry's SHA-256 values. The active humanized assembly, owner questions and owner edits were retrieved for lineage context.
+- OWNER-SOURCE.md: SHA-256 81c0e31546deefc2ae17b5aa0e5159143618a7d5e94770cb07c6cd36e20520b1.
+- TOC-AND-MOVE-MAP.md: SHA-256 37398c91d712dd9318fff13f765780f68569368f112e3ab90c02c34a15cb0b1b.
+- implementation/revised.md: SHA-256 1bc222ff5f78e4601d912ea6b9a821efc21c690e950df93393a8fea3e902aa30.
+- Bringing_Reparenting_Into_Real_Life.odt: SHA-256 c93f3b9577b55adc4f29b12b09ab61834ad072eed517cf62c9831a6ddf86ccee; 33,131 bytes; 11 rendered pages.
+- Saved delivery identity: libfile_b8ac84e7c3a881919c9ec7052a8ce747, version 0.
 
-The registered raw master and active humanization assembly are intentionally separate lineages. The upload is not silently replaced by either, and the new plan is not promoted into either. The uploaded prose has substantial differences from the retrieved humanized assembly; a bounded paragraph comparison was performed, not a whole-document source-delta inference.
+This upload controls the bounded edit. The registered article raw master, active humanized assembly, publication, and parallel work were not replaced. Fresh UDA/Joel governance and current authority hashes were checked this turn; the registry and source authority were unchanged from planning. PR #278 had no comments or new instructions.
 
-## Completed result
+## Implemented changes
 
-- Six main sections instead of the excerpt's fourteen H2s.
-- Borrowed Adulthood's two existing paragraphs become the short chapter opening.
-- One main home for differentiation, with the chameleon paragraph moved into its teaching.
-- Support is introduced at the start and later given concrete practices; self-discovery is not made a prerequisite for reaching out.
-- Every original heading and distinct practical function has a destination in the complete placement table.
-- Three exact proposed trims identify duplicative function and preserve the distinct adjacent material.
-- A full changed-join audit records dependencies, lead repairs and branch meanings.
-- The doctors paragraph gets its own advocacy subsection; specific disclosure/threat safeguards remain at their decisions.
-- The break paragraph moves to boundary decisions while retaining the no-wrongdoing possibility.
-- Endings retain their broad scope; The Love Has to Move closes the chapter.
-- The embedded author/editor note is retained as unresolved source material, not silently polished or discarded.
+The opening introduces borrowed adulthood. Six main sections proceed through play/preferences, differentiation, finding people/trust, speaking up/conflict, endings, and The Love Has to Move. Differentiation teaching and its chameleon example now share one home. Doctors' advocacy is a sibling subsection; the break passage belongs with boundary decisions.
 
-## Review and verification
+All three proposed duplication trims were applied exactly. The doctors paragraph loses its detached “The same goes” lead. The moved threat heading and past-experience phrase are made self-contained. The dating opener now says “your support came from a lover” so it does not imply that the preceding Hearthwork peer should become a lover. Five unambiguous typing/spacing errors were corrected. Every change is logged against its original block in implementation/preservation-ledger.json.
 
-A fresh-context source reader supplied an independent developmental outline before seeing the lead's plan.
-A separate fresh-context final reader received only the exact source and literal plan, with no drafting rationale.
-It accounted for all source headings/functions and identified two localized defects:
-1. The front-loaded threat branch needed its subject and old-experiences reference made self-contained.
-2. The doctors paragraph was incorrectly nested beneath inner-language/imagery practice.
+All 69 original source blocks are accounted for: 68 body/list blocks and the exact unresolved source note, now an actual ODT comment attached under Can They Change? The comment is preserved for the owner; no new meaning was invented for it.
 
-Both were repaired in the delivered plan. The final text explicitly preserves Speak Toward's inward practice and makes doctors a sibling H3.
-The lead reviewed the resulting literal changes and checked every quoted source span; the quoted-span audit passed.
-The exact source and final plan were read back through GitHub and matched local delivery bytes.
-No new empirical/clinical/legal review, Pangram check, byline-prose certification, publication, canonical-master update or owner acceptance is claimed.
+## Verification
 
-## Active lesson application
+A separate preservation reviewer independently compared the source, approved map, assembled text, and final ODT. All 99 ordered content nodes match the assembly: 31 headings and 68 body/list blocks. The only conversion whitespace difference is two doubled spaces becoming single spaces in P066. All words, punctuation, examples, qualifications, list items, hyperlink text/target, italic emphasis, and six emoji remain.
 
-- Heading hierarchy: practical questions determine the main sections; source leaf headings have explicit destinations.
-- Function-sensitive recurrence: distinguish repeated general explanations from disclosure, guilt, dating, care, loss and support applications.
-- Preservation and exact placement: no unique example or safeguard is silently discarded; paragraph moves use current source anchors.
-- Transition dependency: preserve the spark/reflection chain; repair moved leads and distinguish healthy distance from wrongdoing.
-- Authority separation: freeze the uploaded source; preserve canonical/raw/humanized/proposal lineage boundaries.
-- Independent evidence: source-only review and a separate final reader used fresh contexts; they are diagnostic, not owner acceptance.
-- Delivery: complete usable plan supplied directly as a file, with its core ToC and reasons in chat.
+The two newly composed referent repairs each passed the current exact-hash owner-delivery gate with one preservation reviewer and two independent cold readers. Complete 33-row inventories, explicit lint dispositions, reviews, manifests, admitted exact strings, and proofs are preserved in implementation/gate_r2 and implementation/dating_gate. Threat T21 packing was conservatively marked PRESENT/JUSTIFIED_KEEP and expressly accepted by all three reviewers. No new detector/Pangram certificate or full clinical/factual review is claimed.
 
-## Mailbox check
+The ODT has native outline headings, a native table of contents with 30 links and verified page destinations, real lists, a source comment, and footer page fields. The final ODT was rendered in LibreOffice; all 11 pages were visually inspected. Initially blank emoji were repaired by embedding an OFL Noto Emoji subset. A separate render after removing the temporary installed font confirmed that all six glyphs render from the document's embedded font. The font license is embedded in the ODT. No layout defect remains.
 
-The two UDA suggested-fix entries were read against the existing adoption ledger; both already adopted.
-The five most recently updated open repository items were inspected: existing parallel/historical work, no new instruction targeting this new task branch.
-The current parallel Inner Child review PR #255 had no comments/reviews in the returned thread.
-The existing comments on historical PRs #199 and #198 were read; they are earlier delivery receipts and do not supersede this owner request.
-Main's article questions/current-state records were read. The private laptop handoff file was not accessed by this session; it is not required to produce the requested upload-scoped ToC.
-No historical task or detector frontier was resumed as part of this new request.
+## Recovery and stop admission
 
-## Continuation and stop admission
-
-Parent requested outcome: a sensible practical ToC for this supplied section, with duplication and flow addressed.
-Disposition: SATISFIED by the complete ToC, source-to-destination map, explicit consolidation choices and transition audit.
-This is not a full prose-edit completion claim. Do not infer that the new order or proposed cuts have been accepted, installed, newly detector-tested or published.
-If the owner requests applying the plan, start from the preserved upload and the exact placement map, retain all unresolved author material, use the current article review/gates, and do not rediscover the structure or restore older assembly wording.
-No owner question is necessary to understand or use the requested plan.
+The requested applied ODT is complete and saved; deliver that file directly. No owner question remains. Do not restart the structure, modify frozen candidate context, merge the draft PR, publish the chapter, promote it into either article master, or imply detector certification. Further editorial changes require a new scoped continuation and appropriate exact-byte reviews.

@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "source_sha256": "e463edae30775d82f886121449ea3fb0045582dc6f8d681624feed8761fb2b8b",
+  "candidate_sha256": "209268bc2c71455ca25591e90d1caa433de8cd4b4a41377b9de4b4fe5e89032a",
+  "context_sha256": "1bc222ff5f78e4601d912ea6b9a821efc21c690e950df93393a8fea3e902aa30",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "ChatGPT preservation reviewer",
+    "context_id": "/root/odt_preservation_review",
+    "origin": "Fresh source-only collaboration context"
+  },
+  "evidence": "Compared the exact one-sentence source and candidate and then read the full Dating While You Heal paragraph after the complete Hearthwork subsection. The only text substitution is \"your support person were a lover\" to \"your support came from a lover\". \"Maybe you'd rather that\", the lover role, and \"as well\" retain the original tentative desire to combine emotional support and romance. The candidate changes no factual claim and adds no instruction to date, no obligation to turn a peer into a lover, and no new first-person experience.\n\nThe first assembly left \"your support person\" directly after Hearthwork's discussion of \"the peer\", creating the specific antecedent ambiguity named in the approved transition audit. The final candidate makes support the subject instead of the immediately preceding person. It therefore opens the broader dating case without identifying a Hearthwork peer as the intended lover. The rest of P029 is unchanged from the source, including the late-night dating-app observation, friends and steady people, the qualification about not having to be completely healed, and Joel's supplied personal experience. C02 is resolved in the literal final context.\n\nD9 is accepted because this is a one-sentence referent repair, not a newly organized section. Retaining the source's desire-to-support-to-romance order is semantically appropriate. It supplies no evidence of T09 or T13; the unchanged surrounding paragraph develops the point with source-supplied observation and personal stake rather than a newly fabricated outline.\n\nE36/E41 heavy second person is accepted because the sentence keeps the same direct address as the source. It asks no new question and adds no command or reassurance. A second-person count on this short sentence is not evidence of generic scenery (T23) or a coach register (T22). The sentence's local relation to the support discussion makes it an earned transition rather than generic connective tissue (T11). The wording change is required by the moved referent, not humanizer synonym replacement (T15).\n\nNo naming violation, invented personal fact, unsupported named-entity claim, new therapeutic abstraction, or source loss is present. Both exact admission lint labels were assessed and accepted for the stated source-bound reasons. No legitimate PRESENT source-retained tell needs a separate exception in this one-sentence unit. The candidate is present exactly once in the frozen complete context, and the original sentence no longer appears there. This gate's context is byte-identical to revised.md. No preservation or flow issue remains in this unit.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "D9 follows the source order",
+    "E36/E41 heavy second person"
+  ]
+}

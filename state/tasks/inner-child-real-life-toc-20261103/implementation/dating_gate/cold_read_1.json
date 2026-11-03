@@ -1,0 +1,33 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "209268bc2c71455ca25591e90d1caa433de8cd4b4a41377b9de4b4fe5e89032a",
+  "source_sha256": "e463edae30775d82f886121449ea3fb0045582dc6f8d681624feed8761fb2b8b",
+  "context_sha256": "1bc222ff5f78e4601d912ea6b9a821efc21c690e950df93393a8fea3e902aa30",
+  "reviewer": {
+    "name": "ChatGPT fresh cold reader",
+    "context_id": "/root/odt_cold_one",
+    "origin": "Separate fresh collaboration context with source, candidate and natural context"
+  },
+  "verdict": "PASS",
+  "unresolved": [],
+  "evidence": "I read the literal candidate sentence against its source and the full paragraph following Hearthwork. The source “Maybe you’d rather that your support person were a lover, as well” could attach “your support person” to the Hearthwork peer just described. The candidate “Maybe you’d rather that your support came from a lover, as well” makes support itself the referent and introduces “a lover” as a possible source. This preserves the source wish for romantic as well as supportive connection while removing the unintended implication about that peer. “Maybe you’d rather that your” and “a lover, as well” stay intact; the only substantive change is “support person were” to “support came from.” The combination of “rather” and “as well” remains colloquially loose, as it was in source, but it is readable here: the reader may prefer support that also comes from a lover within the larger discussion of several sources. The following dating-app sentence develops that wish naturally. It does not require another rewrite. All 33 inventory IDs were individually checked in cold_one_inventory.json; no defined tell is established in this single opening sentence. This is a narrow transition assessment, not certification of the claims elsewhere in the dating paragraph or guide.\n\nD9 follows the source order: There is one source sentence and one candidate sentence, with a single preference and no internal sequence available to reorder. Preserving that order is appropriate to a minimal referent repair. The live observation is the possibility that support is wanted from a lover as well as peers or community; the adjacent dating-app sentence develops it. T09 and T13 are not established by a one-sentence 1/1 order match.\n\nE36/E41 heavy second person: The candidate contains “you’d” and “your,” both retained from source. In one short sentence these produce a high normalized frequency, but they serve normal grammatical roles: who might prefer something and whose support is being discussed. No generic-specific scene, imperative, repeated reassurance, or extended coaching cadence is present. Replacing the second person would change the author's address without solving a literal problem.",
+  "resolved_lint_labels": [
+    "D9 follows the source order",
+    "E36/E41 heavy second person"
+  ],
+  "resolved_tell_ids": [],
+  "scope": "Literal candidate only; source/context fidelity and naturalness. No detector or factual audit of unchanged context.",
+  "lint_assessment": [
+    {
+      "label": "D9 follows the source order",
+      "disposition": "ACCEPTED",
+      "reason": "There is one source sentence and one candidate sentence, with a single preference and no internal sequence available to reorder. Preserving that order is appropriate to a minimal referent repair. The live observation is the possibility that support is wanted from a lover as well as peers or community; the adjacent dating-app sentence develops it. T09 and T13 are not established by a one-sentence 1/1 order match."
+    },
+    {
+      "label": "E36/E41 heavy second person",
+      "disposition": "ACCEPTED",
+      "reason": "The candidate contains “you’d” and “your,” both retained from source. In one short sentence these produce a high normalized frequency, but they serve normal grammatical roles: who might prefer something and whose support is being discussed. No generic-specific scene, imperative, repeated reassurance, or extended coaching cadence is present. Replacing the second person would change the author's address without solving a literal problem."
+    }
+  ]
+}
