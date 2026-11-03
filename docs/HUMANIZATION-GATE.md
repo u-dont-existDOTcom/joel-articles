@@ -2045,7 +2045,10 @@ His message and answers, word for word: `articles/inner-signal/humanize/fix-2026
   read in place and traced to whose words it is (`make_findings.py`, FINDINGS.md): a slip in ours is fixed with the
   fewest words; one in his own words, his published guide's included, goes to him with the smallest fix and a default
   (E272 says the same of what a line of his says). Here: 21 real findings, 6 slips of ours fixed, 5 of his on his
-  questions page (question 34), 10 kept with reasons.
+  questions page (question 34), 10 kept with reasons. His answers (14:52 UTC) changed three of the five, one with his own
+  sentence, and he asked: "make sure this closer reading is also part of the general joel-articles skill". It is:
+  `SKILL.md`, "Word-for-sense read before publication", with the general tool `tools/humanization/sense_read.py` (make,
+  score, nonwords) and its brief, wired in AGENTS.md and pinned by `tests/test_sense_read.py`.
 - **E332. The second update of a live post: check the editor against what was last put in, replace only what changed,
   and wait out the public API.** On 2 November the editor took the whole document in one transaction. The second time,
   he could have changed the draft since, and a whole-document replace would have overwritten it. So make_update.py

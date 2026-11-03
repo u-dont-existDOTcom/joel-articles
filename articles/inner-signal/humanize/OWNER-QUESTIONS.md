@@ -1,7 +1,7 @@
 # Hypnosis guide: what I need from Joel
 
-Last updated 2026-11-03, after your message of 13:46 UTC.
-**Open questions: 1** (34). **For you to do**: answer question 34 and merge pull request 276 (below). The questions are at the top, with their
+Last updated 2026-11-03, after your message of 14:52 UTC.
+**Open questions: 0.** **For you to do**: merge pull request 277 (below). The questions are at the top, with their
 options and my default; under them is what you decided and what I did with it. Colours: 🟣 a question for you; 🟠
 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -10,38 +10,35 @@ read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 34. Five spots in your own words that the word-by-word read questioned: keep or change?** They're yours, so I
-haven't touched them ([all the findings](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/nonsense/FINDINGS.md)). My reading of each, and the smallest change:
-
-- 34.1 (Induction: gathering and softening attention) "Call me a heretic, but I don't think inductions should be about
-  surrendering to the hypnotist while playing asleep." "Playing asleep" isn't an idiom, but it reads as your play on
-  "playing dead". I'd keep it.
-- 34.2 (Make the hypnosis more alert) "That hand movement is the mental escape into the body's flow." In a paragraph
-  about staying alert, a reader can take "escape" as switching off. I'd keep it; if you want it plainer: "That hand
-  movement lets your mind escape into the body's flow."
-- 34.3 (What I will not use NLP for) "Memories retrieved still need external validation, especially when they were led
-  to (which NLP tends to)." "Led to" has nothing after it, so the sentence doesn't parse. I'd change it to "especially
-  when the questions led to them (which NLP tends to do)".
-- 34.4 (Don't rush the repair) "spend some quality time with them before taking off the kid gloves, so to speak, and
-  jumping into the healing work." Taking off the kid gloves means you stop being gentle; with "so to speak" it reads as
-  your wink. I'd keep it.
-- 34.5 (Why doing it myself worked better for me) "...stronger intuition, and repeated correction between intuition,
-  subconscious response, and conscious analysis." This is from the guide you published on 28 September, where "oily"
-  came from too. "Correction between" three things doesn't quite say anything, so I think it's a slip like "oily". I'd
-  change it to "repeated cross-checking between intuition, subconscious response, and conscious analysis".
-
-- a) My recommendation: change 34.3 and 34.5 as shown, keep the other three. Then I put them into your post the same
-  way as today, with the date.
-- b) Keep all five as they are.
-- c) Your own words for any of them (like "34.3: ...").
+None right now.
 
 **🔵 On hold: the 83 cards of [the 27 October editor page](https://claude.ai/artifact/1ubA7VJSFNPhdtXFyrnEDG) you hadn't marked** (questions 21 to 23). The guide has
 changed under them, so the rechecks decide; you don't need to mark them.
 
 ## For you to do
 
-- 🟠 Question 34, above.
-- 🟠 Merge [pull request 276](https://github.com/u-dont-existDOTcom/joel-articles/pull/276) when you've looked.
+- 🟠 Merge [pull request 277](https://github.com/u-dont-existDOTcom/joel-articles/pull/277) when you've looked.
+
+## Your message of 2026-11-03 14:52 UTC, and what I did
+
+Word for word: [your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/q34/joel-20261103-1452-message.txt).
+
+- 🟢 **Your answers to question 34, in** ([what changed](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/q34/APPLIED-Q34.json)):
+  - 34.1 kept ("playing asleep").
+  - 34.2 your sentence: "That hand movement grounds and aligns the distractible mind."
+  - 34.3 "especially when the questions led to them (which NLP tends to do)".
+  - 34.4 kept.
+  - 34.5 "repeated coordination between intuition, subconscious response, and conscious analysis".
+- 🟢 **In your post too** ([the public post, read back](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/inner-signal/humanize/fix-20261103/live-q34/LIVE-CHECK-20261103b.json)): the same way as this
+  morning, with only those three paragraphs replaced, after a check that the editor still held this morning's guide. The
+  subtitle already had today's date. Read back from the public post without signing in, it matches the guide word for
+  word, apart from the images', video's and embeds' own text.
+- 🟢 **The closer reading is in the joel-articles skill** ([SKILL.md, "Word-for-sense read before publication"](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/SKILL.md)),
+  with a tool any lane can run before an article goes into your post ([sense_read.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/tools/humanization/sense_read.py)).
+  It cuts the article into parts, plants test errors of the "oily" kind where the readers can't see them, gives each
+  fresh reader one part, scores whether they caught every planted error and read every paragraph, and lists the rest of
+  what they found to trace to whose words it is. The repository's agent guide and the article-fixing checklist point to
+  it, and a test keeps all three naming it.
 
 ## Your message of 2026-11-03 13:46 UTC, and what I did
 

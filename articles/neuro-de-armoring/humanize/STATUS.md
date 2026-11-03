@@ -1,5 +1,9 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-03, after Joel's message of 14:52 UTC
+
+His message was his answers to the hypnosis guide's question 34 and "make sure this closer reading is also part of the general joel-articles skill"; nothing changed in this lane. Question 1 still waits on him; this lane is next. The word-for-sense read is now in `SKILL.md` with its tool, `tools/humanization/sense_read.py`. Predictions: none. Delegations (model, piece, check, outcome): none.
+
 ## 2026-11-03, after Joel's message of 13:46 UTC
 
 His message was the hypnosis guide's "33a" (the guide into his post, done), his Pattern 10 version and "oily" for "old"; nothing changed in this lane. The hypnosis guide is in his post, so this lane is next; question 1 still waits on him. Gates E331 and E332 apply here (the handoff's START HERE). Predictions: none. Delegations (model, piece, check, outcome): none.
