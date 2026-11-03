@@ -1,0 +1,13 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "61ddb048d2c0bea1fec9b882332728a0a9c8029c54ec5ecc57c912da424f8db1",
+  "context_sha256": "a236359501cadca48080bfad11a7a1b9f15e64d9f19f3e45f4b76a8b3a63b4ea",
+  "source_sha256": "1c8e59648697924744dccd3a0db84d7d08a683fc77f0d4d486e459d103c28a87",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {"name": "Claude Sonnet, fresh subagent (the second cold reader)", "context_id": "t116-gate-cold-read-2-subagent", "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 116, 2026-11-03"},
+  "evidence": "Old wording \"once you've got this cast of perfected future characters in your mind\" treats the cast as just built, but the section just before (Forgiving Yourself, line 581) has nothing about future characters; they come from Borrow Hindsight (line 397, wiser future versions of you and of whoever else is involved), about 190 lines up, so a reader stumbles on \"this cast\". New wording adds only \"(from Borrow Hindsight)\" after \"characters\": it names the real heading where they were introduced, which is accurate, and tells the reader the cast already exists and is a callback. A bare section name in parentheses is how Joel points at sections elsewhere (\"(as described in Noticing Counts)\"). It adds no claim, tone or promise and keeps his sentence and its job as the opener of the re-do section. Minor note, not a failure: the parenthetical sits between \"characters\" and \"in your mind\", slightly splitting the noun phrase, but it is short and Joel's own text uses inline parentheticals mid-phrase (\"the (expensive) phone call\"). Putting it after \"in your mind\" would be a touch smoother but is not needed. No inventory row applies (not T19, T11 or T15; C02 resolved).",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

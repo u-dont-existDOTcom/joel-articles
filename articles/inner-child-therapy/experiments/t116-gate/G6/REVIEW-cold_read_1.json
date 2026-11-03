@@ -1,0 +1,13 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "be3883db3f2770d9804b178cf7e5933c3d5894eefa13cea69a546def14da8210",
+  "context_sha256": "04738d38f004f4fb0bfa39f659cb9172523fd4392024a905235ca98bf6b11a6d",
+  "source_sha256": "2d90fd82846d5ea3ff125f40538161e1010b1ddefefb12f2c10369279ffbea84",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {"name": "Claude Sonnet, fresh subagent (the first cold reader)", "context_id": "t116-gate-cold-read-1-subagent", "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 116, 2026-11-03"},
+  "evidence": "Reads as: \"We want to use the Mr. Rogers reframing trick to stay curious about the critical voice’s motivations, and open to any kernels of truth it points out, without accepting its insults and cruelty. Then we send it on its way with compassion, since that voice surely needs some.\" Before, the first \"its\" followed the Lloyd story, where the nearest candidates were Lloyd, Mr. Rogers or his sons (a wrong-referent risk, C02). Now \"the critical voice\" names the thing; it matches the preceding paragraph of the guide (\"a critical voice might be that inherited parent script ... it could also be trying to protect you from rejection or failure\"), so \"the\" is earned. The later \"it points out\", \"its insults\", \"send it on its way\" and \"that voice\" all follow from the named noun, and \"that voice\" now reads as a deliberate echo, not a new referent. The possessive \"voice’s\" is the antecedent for \"it\", slightly less strong than a bare noun, but it reads fine and nobody would parse \"it\" as \"motivations\" given \"points out kernels of truth\". Only three words changed; no added claim, first person, bridge or announcement. T26: \"voice\" recurs twice within the paragraph but each use is the referent chain, which is the purpose. Fits the casual voice.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "7cd5dcabfe0cdff3aca21560edca303d30050a0ba8fcdea367d206546b8cb1a6",
+  "context_sha256": "ff0caf7df3a2cf2e1d5d8f33e1ca296db5894852ddb0542df6eb024e9d92b038",
+  "source_sha256": "9033c4a4f959fddb303a65d1d31db7234344c44d66b4d32089a1e5470fedad8b",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (the second cold reader)",
+    "context_id": "t115-gate-cold-read-2-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 115, 2026-10-26"
+  },
+  "evidence": "Read “Maybe you’re more worn out now, or missing whatever helped back then. (If no example comes to mind, try another doorway.)” at the end of its paragraph: the pointer to another doorway is kept for a reader with no example (“another doorway” is the approved paragraph’s own wording, unchanged), “Maybe you’re more worn out now…” is untouched and still carries that past strength doesn’t cancel today’s limits, and the question-and-knock-down is now a plain conditional that adds no claim or promise (“comes to mind” only allows that an example exists but isn’t recalled). It is a bracketed afterthought, not a clever closer, and the paragraph’s other questions (“So who or what helped you get through it?”) are left to the reader, not knocked down. Linter: B7 accepted, since the ending is a plain practical pointer with nothing polished to land and a reader with no example needs it; D9 is by design (same paragraph, one tell out). No tell row is PRESENT.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order"
+  ]
+}

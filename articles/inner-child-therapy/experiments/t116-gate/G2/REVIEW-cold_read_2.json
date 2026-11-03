@@ -1,0 +1,13 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "e1d993f980b1b2fd8ce9043ecb6f0b8ec8af32edd8f92fad8cbcccb9b336b3c5",
+  "context_sha256": "cdedaa023e321673e9ad75d0a9dd74ff749032821886a33ab4c033ac7cee0b9f",
+  "source_sha256": "adf3b5e1378b4e70ebcf4cbf0fb7dbdc52ec8dce54965e68d86450a7a50919c0",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {"name": "Claude Sonnet, fresh subagent (the second cold reader)", "context_id": "t116-gate-cold-read-2-subagent", "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 116, 2026-11-03"},
+  "evidence": "Old wording (\"...see if there's some avoidance of differentiation.\") drops a technical word with no definition on a reader's first meeting with it (first use is line 515 of the guide; the Differentiation section is line 825, in Bringing Reparenting Into Real Life). New wording \"(we get deeper into that further on)\" sits directly after the word, so \"that\" has an immediate antecedent, and it tells the reader the term is explained later without defining it here. Both claims are true in the guide. It matches Joel's own pointer at line 629 (\"We get deeper into finding and building that self in ... further on\") and his casual first-person-plural voice, and the parenthetical sits naturally beside his later parenthetical (\"which I almost prided myself on\"). It is the smallest fix: no definition added, no claim, the next sentence (\"I myself for a long time...\") still follows. Not T19 (a pointer to real later material, not a setup line), not T11 (not generic connective tissue), not T01/T22/T15. No C02 problem.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

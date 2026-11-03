@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "19e743171163fb896351e6f90749b9014a345c4a156a1ba6196e6e32e2bd1b14",
+  "context_sha256": "859e35874165541cf3942b3f4b04c0bdbb458a021c946602ad89efba1da37863",
+  "source_sha256": "4579664894140d24cce199600ae622bd24d2361baeae78cfc0d7ea781b3212e4",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (the first cold reader)",
+    "context_id": "t115-gate-cold-read-1-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 115, 2026-10-26"
+  },
+  "evidence": "Read as the last paragraph of the Borrow Love block: 'Then take a small piece of whatever you’d tell them and do it yourself. If it’s “get more sleep,” that could be brushing your teeth before midnight instead of at two.' 'Then' still follows the Solomon's-paradox 'what you’d tell them as a friend', 'it' and 'that' resolve to the advice and the small piece, and 'The technical term for this is “scaffolding.”' still has a clear 'this' (the small step; the link carries the learning idea the cut line used to say). Step, sleep example with midnight/two, and scaffolding are all kept and nothing is added; no tell row is PRESENT (the image 'hand it to yourself', the filler 'for now just try' and the reassurance are gone, and the new wording is plain). Linter: B2 contrast is the example's own pair of times that sizes the step; D9 is a one-tell edit that follows its own source by design; E36/E41 is the guide's instruction to the reader; I accept all three.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": ["B2 contrast", "D9 follows the source order", "E36/E41 heavy second person"]
+}

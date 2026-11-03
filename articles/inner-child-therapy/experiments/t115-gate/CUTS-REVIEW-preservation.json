@@ -1,0 +1,38 @@
+{
+  "schema": "JOEL_CUT_REVIEW_V1",
+  "role": "preservation",
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (the preservation reviewer)",
+    "context_id": "t115-gate-preservation-cuts-subagent"
+  },
+  "cuts": {
+    "F01": {
+      "verdict": "PASS",
+      "note": "After equals before minus “And if nothing moves at all, don’t push it.”, no word added. “now hurry up and feel better” and the aunt who goes in for the hug against the uncle who’s just sitting there already show that pushing backfires; the “goes flat” case is in P1 and has its own section (“If the Love Isn’t Coming Yet”); “Knowing that love is in you somewhere counts for a lot” still reads as the comfort."
+    },
+    "F03": {
+      "verdict": "PASS",
+      "note": "After equals before minus the two sentences, no word added. “Answer it seriously” is carried by P5 (“take whatever’s true in the anger seriously”) and by Mr. Rogers (“he does answer what’s worth answering in it”). The one thing not said elsewhere is the hedged “might only be one sentence”, which no step relies on, so “nothing the section doesn’t say twice” is slightly too strong but the loss is unimportant; the listening instruction and why the swearing stops stay."
+    },
+    "F07": {
+      "verdict": "PASS",
+      "note": "After equals before minus two sentences, no word added (the CUTS record lists only the first under drops, “And you aren’t alone.” also goes). “You aren’t alone” is said concretely by “There’s help, and lots of other people are out there learning…”; “That’s easy to lose sight of…” is a reassuring gloss on his line, not an instruction or fact, and his line, “patient with yourself, and gentle” and the help all stay."
+    },
+    "F08": {
+      "verdict": "PASS",
+      "note": "After equals before minus “The cushion was practice for it.”, no word added. That sit-down work helps and has to carry into life is already said by the paragraph before (“saying the right thing when you sit down with your little one helps, but you also have to start actually doing some of it in the rest of your life”) and by stages 3 and 4 (“practice”); the boss example and reparenting going on in ordinary life stay, and the remaining line says no cushion was needed in that moment, not ever."
+    },
+    "F09": {
+      "verdict": "PASS",
+      "note": "“That doesn’t close the door, though, it just means you start smaller.” becomes “That just means you start smaller.”, no word added; “you start” still says the way in is open and the next paragraphs show it (“go smaller still”, “borrow some”). Nothing lost, “door” is not called back later."
+    },
+    "F11": {
+      "verdict": "PASS",
+      "note": "“it deserves an honest hearing. Just listen to it” becomes “just listen to it” (capital only changed), no word added. The instruction and the part it applies to are kept, and listening without arguing back is the honest hearing, so only the stock phrase goes."
+    },
+    "F12": {
+      "verdict": "PASS",
+      "note": "After equals before minus “You don’t need to decide which.”, no word added. The hedged list (“might have been”, “Maybe”, “And maybe it was love”) never asks for a choice and “Ask that part what it hoped…” needs no decision first, so the permission is implied by what stays."
+    }
+  }
+}
