@@ -2080,5 +2080,81 @@
     ]
    ]
   }
+ ],
+ "owner_wording": [
+  {
+   "his": "3 to 7 days",
+   "for": "3–7 days",
+   "by": "X-84, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)",
+   "why": "his \"It shouldn't take more than 3 to 7 days\" for the trial's \"for 3–7 days\""
+  },
+  {
+   "his": "Omega-3's",
+   "for": "omega-3s",
+   "by": "X-84, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)",
+   "why": "his \"Keep your Omega-3's up\" for \"Keep omega-3s in place\""
+  },
+  {
+   "his": "don't",
+   "for": "do not",
+   "unit": "W032",
+   "by": "X-84, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)"
+  },
+  {
+   "his": "uridine",
+   "for": "UMP",
+   "unit": "W032",
+   "by": "X-84, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)",
+   "why": "he names the compound uridine; the section names it Uridine monophosphate (UMP)"
+  },
+  {
+   "his": "without having a physician competent",
+   "for": "without clinician review",
+   "unit": "W008",
+   "by": "X-15, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)"
+  },
+  {
+   "his": "precautions/side effects",
+   "for": "agmatine",
+   "unit": "W008",
+   "by": "X-15, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)",
+   "why": "his label follows the paragraph that names it, \"Agmatine Warning (The Voltage Governor)\""
+  },
+  {
+   "his": "blood pressure lowering medications",
+   "for": "blood-pressure",
+   "unit": "W008",
+   "by": "X-15, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)"
+  },
+  {
+   "his": "\"psych\" stacks",
+   "for": "psychiatric",
+   "unit": "W008",
+   "by": "X-15, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)"
+  },
+  {
+   "his": "not recommended for use in pregnancy",
+   "for": "avoid",
+   "unit": "W009",
+   "by": "X-15, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)"
+  },
+  {
+   "his": "use with extreme caution",
+   "for": "cautious",
+   "unit": "W009",
+   "by": "X-15, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)"
+  },
+  {
+   "his": "likelihood of relapsing",
+   "for": "risk",
+   "unit": "W009",
+   "by": "X-15, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)"
+  },
+  {
+   "his": "breast-feeding",
+   "for": "breastfeeding",
+   "unit": "W009",
+   "by": "X-15, his version on Neuro De-Armoring Cards, 3 November (fix-20261103/examples/ANSWERS-20261103-1748.json)"
+  }
  ]
 }

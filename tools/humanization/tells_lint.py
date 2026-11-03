@@ -908,6 +908,10 @@ HISTORY_CUTS = [
      '"The same principle extends to…" ("The same limit appears…")', 'start with the case itself, the way he did ("In…")'),
     ('O60', r"\bnot a recipe\b", '"not a recipe" ("…not a recipe you have to follow.")', 'take it out, the way he did'),
 ]
+# O61: a label of up to four words at the start of a sentence, a colon, and a dose within the next two words ("Trial: UMP
+# 150–300 mg", "Magnesium Glycinate: 400mg (Night)", "NAC: 1.8g – 2.4g")
+DOSE_SPEC = re.compile(r"^\W*[A-Z][\w'&/-]*(?:\s+[\w'&/()-]+){0,3}\s*:\s*(?:[^\s\d]\S*\s+){0,2}~?\d+(?:[.,]\d+)?\s*"
+                       r"(?:[-–]\s*\d+(?:[.,]\d+)?\s*)?(?:mg|g|mcg|µg|ml|mL|IU)\b")
 PASSIVE = re.compile(r"\b(?:am|is|are|was|were|be|been|being|get|gets|got|gotten|getting)\s+(?:\w+ly\s+)?(?:being\s+)?"
                      r"(?:\w+ed|told|given|taken|made|done|seen|known|shown|held|kept|left|lost|found|brought|bought|caught|"
                      r"taught|thought|sold|built|sent|spent|put|set|led|said|paid|meant|felt|heard|written|driven|hidden|"
@@ -1170,6 +1174,12 @@ def main():
             for rid, rx, what, fix in HISTORY_CUTS:
                 if re.search(rx, n, re.I):
                     flag('FAIL', '%s %s (Joel cut it in his Pangram history, and the text read Human Written): %s' % (rid, what, fix), s)
+            # O61 (gate E335, his three examples of 2026-11-03): a dose as a label and its spec ("Trial: UMP 150–300 mg in the
+            # morning with food for 3–7 days."), which read AI in his post and in my round 1 however it was worded; he said it
+            # as an instruction with a verb ("Do a trial with 150-300mg Uridine, in the morning with food") and it passed.
+            if DOSE_SPEC.search(n):
+                flag('FAIL', 'O61 a dose as a label and its spec ("Trial: UMP 150–300 mg …"; E335): say it as an instruction with '
+                     'a verb, the way he did ("Do a trial with 150-300mg Uridine, in the morning with food")', s)
             # O44 (Joel, 2026-10-21 17:56, on the hypnosis guide's return steps, where "one honest action" among what you go back to
             # had read AI in every wording of his: "especially "ONE HONEST ACTION" sounds super ai. i never heard a real person say
             # that in my life.").

@@ -1,0 +1,73 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_ADMITTED_V1",
+  "candidate_sha256": "0e568dfbc92ac6683fb5bb9bec05c975518cfe1ab71104cfa1568affc6e1d3a7",
+  "context_sha256": "e458cc09896c187099cb7a89a07188d5bdd56d85189c833ba8a2772194c280af",
+  "source_sha256": "fdc9db6e237d673a80bb5031e1a3e4bd14782d77d77225943990c6679e7ad5a1",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "lint_verdict": "REVIEW",
+  "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+  "lint_stdout_sha256": "1a8b6ee461bbbf786c1b8aeb88d0a2cf6bb4a7d67b38e4911ebcc668a715d916",
+  "lint_findings": [
+    {
+      "label": "B4/E15 list or packed sentence",
+      "examples": [
+        "Do the same if you can’t stop yourself, and also when you’re badly disoriented or intoxicated, or can’t tell whether any of this is you."
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    },
+    {
+      "label": "D9 follows the source order",
+      "examples": [
+        "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    },
+    {
+      "label": "E36/E41 heavy second person",
+      "examples": [
+        "7.0 \"you\" per 100 of my words"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    }
+  ],
+  "tell_ledger_counts": {
+    "ABSENT": 32,
+    "PRESENT_JUSTIFIED": 1,
+    "UNCERTAIN": 0,
+    "total": 33
+  },
+  "justified_tells": [
+    "T17"
+  ],
+  "reviews": {
+    "preservation": {
+      "path": "REVIEW-preservation.json",
+      "sha256": "6bb618ae9fb95eaad7c3a6329846c0efb59c1528976ae1ae88d1b816274b8ed8",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (the preservation reviewer)",
+        "context_id": "t115-gate-preservation-subagent",
+        "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 115, 2026-10-26"
+      }
+    },
+    "cold_read_1": {
+      "path": "REVIEW-cold_read_1.json",
+      "sha256": "e6a34ee62bbb7b0a9311d3c4c8f0286d30996808983a54138710bfdd674e39b5",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (the first cold reader)",
+        "context_id": "t115-gate-cold-read-1-subagent",
+        "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 115, 2026-10-26"
+      }
+    },
+    "cold_read_2": {
+      "path": "REVIEW-cold_read_2.json",
+      "sha256": "eff812d60b1575de1d843afe2dbffe28e157849fa3c83071e5c817c3e5907966",
+      "reviewer": {
+        "name": "Claude Sonnet, fresh subagent (the second cold reader)",
+        "context_id": "t115-gate-cold-read-2-subagent",
+        "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 115, 2026-10-26"
+      }
+    }
+  },
+  "manifest_sha256": "62d36022855dd6565eb482b9958823a3230fd9c852eee1d0acbbb637cf2c420c",
+  "verified_at_utc": "2026-10-26T13:13:32.063047+00:00"
+}

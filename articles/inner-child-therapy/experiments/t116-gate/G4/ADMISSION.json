@@ -1,0 +1,223 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "3c170688ef5bfbe618b08b4cd6ffd0353919a77a1f967a3d702e38063b241ca9",
+  "context_sha256": "5f00eca7a0d8855fb735c5f71bf714eb683f399b7a853f8ecb1de1e659995f59",
+  "source_sha256": "c2128a374bf734c9e861d82a2dd95e5c65116736d4b6990916e8e73454136f69",
+  "inventory_sha256": "35ad43c8fbeadc39e54b07f84d893b1db0ec556272e73b2c9a01ac00b2d5c046",
+  "writer": {
+    "name": "Claude Opus 5.5, the Inner Child lane writer",
+    "context_id": "session_01NbUfhcTaRT8sbjyYV1wEFq"
+  },
+  "lint": {
+    "verdict_at_init": "CLEAR",
+    "linter_sha256": "6766aa0a78a4dcca078e668606f2e38cea83fe40e9c060ab9953f7045c7ce023",
+    "stdout_sha256": "7a6d9f84e416cbc30d03724504c90e2fe4da6ac8536cca43971b74a1924dfa6a",
+    "findings": []
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "my words add no first person; the sentence's voice is his",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "a few words inside one of his sentences; no run of commands",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "the change adds no concern or distinction; it says what an existing word points at",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "no scene added",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "no prop added",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "no therapy abstraction added; the words name a section or a person in the guide",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "no filler or staged hesitation added",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "no image added, and nothing explained after one",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "the sentence is his, with its own rhythm; my words change no sentence's shape",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "no permission packaging",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "no bridge: \"Your future self\" in place of \"That future you\"",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "no contrast or taxonomy added",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "the sentence is his and notices what it noticed before; my words only fix where it points",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "nothing reordered or moved; the words go where the broken pointer or referent is",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "no rewording of his words: a pointer or referent that his reorganization broke is replaced, nothing else",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "no \"not X, it's Y\"",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "ABSENT",
+      "evidence": "no thesis line added",
+      "resolution": ""
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "no premise flipped",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "no announcement",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "the paragraph ends as he wrote it",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "ABSENT",
+      "evidence": "no clause with another job added",
+      "resolution": ""
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "no reassurance or coaching added",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "no scenery added",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "no question added",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "no colon added",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "ABSENT",
+      "evidence": "\"Your future self\" is his phrase from The Chicken-and-Egg Problem; once in this section",
+      "resolution": ""
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "none of the tic words",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "the section's ending is his, unchanged",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "the paragraph's last sentence is his, unchanged",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "the inner child is not named in my words, and \"the kid\" appears nowhere",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "the fix for a C02: \"That future you\" pointed back at a sentence he cut (\"It's a question borrowed from your future self\")",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "no fact about Joel's life in my words",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "no claim about a study, person or product in my words",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "REVIEW-preservation.json",
+    "cold_read_1": "REVIEW-cold_read_1.json",
+    "cold_read_2": "REVIEW-cold_read_2.json"
+  }
+}

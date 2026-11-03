@@ -1,0 +1,13 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "e1d993f980b1b2fd8ce9043ecb6f0b8ec8af32edd8f92fad8cbcccb9b336b3c5",
+  "context_sha256": "cdedaa023e321673e9ad75d0a9dd74ff749032821886a33ab4c033ac7cee0b9f",
+  "source_sha256": "adf3b5e1378b4e70ebcf4cbf0fb7dbdc52ec8dce54965e68d86450a7a50919c0",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {"name": "Claude Sonnet, fresh subagent (the first cold reader)", "context_id": "t116-gate-cold-read-1-subagent", "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 116, 2026-11-03"},
+  "evidence": "Reads as: \"...a good unbiased therapist who can help you see if there’s some avoidance of differentiation (we get deeper into that further on). I myself for a long time was accused of « having no opinions »...\". The word \"differentiation\" is unexplained at this point in the section, and the parenthetical tells a first-time reader it is a topic the guide returns to, so it fixes the name-without-introduction problem. \"That\" sits right next to \"differentiation\" and has an unambiguous referent. \"Further on\" is accurate: the guide's section Differentiation: Keeping Your Own Ground is at line 825, this section at about line 509. It mirrors the author's own pointer form (\"We get deeper into finding and building that self in « Untangling the Belonging Bargains » further on\"). The pointer names no section, but a reader can find the topic by its own heading, and the author's own parallel pointer at line 629 does name one, so naming it would be a slightly firmer option, not a requirement. It adds no claim, and \"we\" is the author's own collaborative voice used elsewhere in the guide. The parenthetical sits at the end of the clause, before the sentence break, so it does not tangle the following sentence. No tell: C02 absent, T26 none (\"differentiation\" appears once in the paragraph), no bridge or announcement beyond a short pointer (T11/T19 not triggered).",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

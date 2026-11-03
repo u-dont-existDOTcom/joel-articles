@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "3ab50be68d54782048a4bd7b9113d662201d79cf604ee709dc7c2c2db6f05940",
+  "context_sha256": "e2056fb304291e2de1c84b3eaa927bd7d6bec2e538c75b4696e0ad8b1b1b09c7",
+  "source_sha256": "9ddeabf2ee05dc89d9816521d32e54612353e360f4f1fb8c6cecc2a377f1f109",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (the preservation reviewer)",
+    "context_id": "t116-gate-preservation-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 116, 2026-11-03"
+  },
+  "evidence": "Programmatic check: replacing \"that guard’s\" with \"your little one’s\" in SOURCE gives the CONTEXT paragraph exactly; the roommate comparison, the rent, \"out there in the real world, day after day\", and both examples (the promise nobody knew about, the 13th friend and the Google aside) are untouched. The writer words add no claim: the trust earned is the little one’s, which is what the parent heading (\"Protecting and Building Trust With Your Little One\", line 213, with this paragraph ending its last subsection at line 251) and the heading \"Earning their trust, day to day\" are about; \"their\" resolves to the little one. \"Your Protector\" is already established in the same section (lines 215, 231), and no guard is mentioned anywhere in lines 213-253, so \"that guard’s\" was indeed dangling. Same curly apostrophe as the guide uses.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

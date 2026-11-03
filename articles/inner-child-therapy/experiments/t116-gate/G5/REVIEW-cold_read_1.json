@@ -1,0 +1,13 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "61ddb048d2c0bea1fec9b882332728a0a9c8029c54ec5ecc57c912da424f8db1",
+  "context_sha256": "a236359501cadca48080bfad11a7a1b9f15e64d9f19f3e45f4b76a8b3a63b4ea",
+  "source_sha256": "1c8e59648697924744dccd3a0db84d7d08a683fc77f0d4d486e459d103c28a87",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {"name": "Claude Sonnet, fresh subagent (the first cold reader)", "context_id": "t116-gate-cold-read-1-subagent", "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 116, 2026-11-03"},
+  "evidence": "Reads as: \"Now, once you’ve got this cast of perfected future characters (from Borrow Hindsight) in your mind, you can also go back to earlier traumatic memories...\". Without the pointer, \"this cast\" has no antecedent in the preceding section (Forgiving Yourself, which is about owning what you did), a C02 gap. I checked the guide: the phrase \"cast of perfected future characters\" occurs only here, but Borrow Hindsight (### at line 397, this section at 585) is where the guide builds the wiser future self and \"a wiser future version of whoever else is involved\" and \"the future versions of us\", so a reader who follows the pointer finds exactly the characters meant, and the heading of the current section (\"Using hindsight to « re-do »\") echoes that name. The heading name is accurate and findable. The parenthetical lands in the middle of \"characters ... in your mind\", a little interruptive, but the author does the same elsewhere (a parenthetical mid-clause with a pointer), and it is still readable in the casual voice; \"from\" could be read as origin rather than \"described in\", yet it is clear enough that the cast comes from that section. Adds no claim, tone or first person. No tell: C02 resolved, T26 none (the heading is named once), not a bridge or announcement (T11/T19), only a short backward pointer.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

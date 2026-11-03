@@ -1,0 +1,20 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "7cd5dcabfe0cdff3aca21560edca303d30050a0ba8fcdea367d206546b8cb1a6",
+  "context_sha256": "ff0caf7df3a2cf2e1d5d8f33e1ca296db5894852ddb0542df6eb024e9d92b038",
+  "source_sha256": "9033c4a4f959fddb303a65d1d31db7234344c44d66b4d32089a1e5470fedad8b",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (the preservation reviewer)",
+    "context_id": "t115-gate-preservation-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 115, 2026-10-26"
+  },
+  "evidence": "\"(If no example comes to mind, try another doorway.)\" keeps the pointer to other doorways for a reader with no example; the rest of the paragraph, including \"Maybe you’re more worn out now, or missing whatever helped back then.\", matches SOURCE word for word, so the grounding's point that past strength doesn't cancel today's limits stands. \"comes to mind\" is a hair gentler than \"No example?\" but adds no claim or promise. Linter B7 accepted (a plain parenthetical pointer that brings a new consideration, not a closer) and D9 accepted (a one-sentence swap); no tell row found PRESENT, the self-answered question is gone.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "B7 short landing at paragraph end",
+    "D9 follows the source order"
+  ]
+}

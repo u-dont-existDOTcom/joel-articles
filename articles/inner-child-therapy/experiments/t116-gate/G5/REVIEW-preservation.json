@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "61ddb048d2c0bea1fec9b882332728a0a9c8029c54ec5ecc57c912da424f8db1",
+  "context_sha256": "a236359501cadca48080bfad11a7a1b9f15e64d9f19f3e45f4b76a8b3a63b4ea",
+  "source_sha256": "1c8e59648697924744dccd3a0db84d7d08a683fc77f0d4d486e459d103c28a87",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (the preservation reviewer)",
+    "context_id": "t116-gate-preservation-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 116, 2026-11-03"
+  },
+  "evidence": "Programmatic check: inserting \"(from Borrow Hindsight)\" after \"characters\" in SOURCE gives the CONTEXT paragraph exactly; the whole spanking story, the dad’s phone call, the closing \"etc.\" and Joel’s first sentence are untouched, and the sentence still opens the re-do section. The writer words add no claim or promise. In the guide, \"### Borrow Hindsight\" is at line 397 (inside The Inner Guide) and builds the cast: \"How would I respond ... once I understood it more clearly\" (line 399), the future self (line 401) and \"a wiser future version of whoever else is involved\" (line 403). The re-do section is at line 585, so Borrow Hindsight is about 190 lines earlier and nothing in between (How to Forgive Without Forgetting, Forgiving Yourself, lines 569-583) builds any future characters; grep for \"perfected\", \"cast of\" and \"future version\" finds no other candidate. So the pointer lands on the right section under its exact name. Note, not a fail: Borrow Hindsight says \"wiser\" where Joel’s sentence says \"perfected\"; that is his word, unchanged, and the parenthesis names where the cast comes from, not what it is.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": []
+}

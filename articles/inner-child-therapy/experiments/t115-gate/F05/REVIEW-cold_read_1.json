@@ -1,0 +1,17 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "080c56ddf082e10c8b24468f7dadf8a99d899c64f06e2721f26cdacf2d35b594",
+  "context_sha256": "aedbf8ae2b83068456b3ac4d41c5777a3caab47b1eb3f08481e86572150533d5",
+  "source_sha256": "2739dc1e43f51f12126999fa95f29c7ecd515519392ebb481639b42ca4fc3ab0",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (the first cold reader)",
+    "context_id": "t115-gate-cold-read-1-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 115, 2026-10-26"
+  },
+  "evidence": "Read as the guide's last paragraph: 'Before sending anything, I’d read it once as if I were them, sitting there with my phone. Stuff I wrote while I was scared can sound like a threat to them.' It keeps the reason (written scared, lands as a threat), 'them' still points at the person receiving it, and 'sound' echoes the paragraph just above about how your voice sounds. The old here/over-there inversion is gone, the sentence is a plain reason rather than a restatement, and 'while I was scared' is no more of a first-person claim than the source's 'when I wrote it' in a guide already written in his first person. No tell row is PRESENT. Linter: only D9 (follows the source order), which is trivially true of a one-sentence edit that keeps its source's point; accepted.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": ["D9 follows the source order"]
+}

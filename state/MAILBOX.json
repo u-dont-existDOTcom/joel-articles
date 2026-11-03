@@ -521,6 +521,43 @@
    "recorded_utc": "2026-11-03T17:28Z"
   },
   {
+   "turn": "2026-11-03T17:48Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items in the lane (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); the live AGENTS.md (blob 5160080) unchanged; LESSON-INDEX changed 4f7cf82 to 7896422: entry 87 (owner-requested terminal GitHub handoff) is now standing for this owner in all work spanning more than one turn, so every final answer ends with one 'GH handoff:' line after the local resume lines"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 279 merged by Joel at 2026-11-03 17:48 UTC; new since 15:20 UTC: pull request 280 (Bad Trips guide, another lane's, not touched) and 278 (Inner Child, open, another lane's); no new comments or reviews (gh api REST); the branch fast-forwarded to main 49deb0cc"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to the handoff notes or questions pages since this session's push 6a03544f (only the merge commit since)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's answers file for Neuro De-Armoring Cards, 3 November (three versions: X-26 and X-84 marked passes, X-15 no comment)",
+     "outcome": "saved word for word and put into the article this turn; X-15 checked by itself; the rest of the article redone kind by kind from his versions"
+    }
+   ],
+   "recorded_utc": "2026-11-03T17:57Z"
+  },
+  {
    "turn": "2026-11-03T19:00Z",
    "lines_of_work": [
     "bad trips guide"
@@ -554,6 +591,36 @@
     }
    ],
    "recorded_utc": "2026-11-03T19:03Z"
+  },
+  {
+   "turn": "2026-11-03T21:00Z",
+   "lines_of_work": [
+    "inner child guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "2 items in suggested-fixes/joel-articles/ (2026-09-30-claim-checks-for-reviews.md, 2026-10-31-mailbox-every-turn.md), both already in docs/suggested-fixes-ledger.md; no new item"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since turn 115 (2026-10-26): pull requests 256 to 281 from the other lanes, 278 (the Inner Child real-life chapter's structure, the other chat's; its result is in his ODT, read this turn) and 280 (Bad Trips) open; no new issues, comments or reviews; pull request 255 (this lane) open, no comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the handoff note's newest entry is turn 115, and no one else changed OWNER-QUESTIONS.md or HANDOFF-UPDATE.json since then"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-03T22:04Z"
   }
  ]
 }

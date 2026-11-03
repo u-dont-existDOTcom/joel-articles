@@ -2819,6 +2819,23 @@
   },
   {
    "id": "W113",
+   "tell": "a dose as a label and its spec (\"Trial: UMP 150–300 mg in the morning with food for 3–7 days.\"), which read AI in his post and in my rewrites; he said it as an instruction with a verb",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "so E334 was wrong to blame the label; what read AI was the spec after it"
+    },
+    {
+     "file": "articles/neuro-de-armoring/humanize/fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md",
+     "quote": "no \"Label: spec\"; each dose inside an instruction with a verb"
+    }
+   ],
+   "rule": "O61",
+   "example": "Trial: UMP 150–300 mg in the morning with food for 3–7 days."
+  },
+  {
+   "id": "W114",
    "tell": "\"one ordinary\" (\"we gotta remove \"one ordinary\" anywhere lol so ai\")",
    "kind": "mechanical",
    "sources": [
@@ -2831,7 +2848,7 @@
    "example": "When the body wants to move, do one ordinary task you can clearly finish. The kettle takes four minutes to boil."
   },
   {
-   "id": "W114",
+   "id": "W115",
    "tell": "\"X does not Y\" (\"let's make sure \"X does not Y\" is changed in general that's super ai, humans don't use that so much\")",
    "kind": "mechanical",
    "sources": [

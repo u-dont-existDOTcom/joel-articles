@@ -1,0 +1,21 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "candidate_sha256": "19e743171163fb896351e6f90749b9014a345c4a156a1ba6196e6e32e2bd1b14",
+  "context_sha256": "859e35874165541cf3942b3f4b04c0bdbb458a021c946602ad89efba1da37863",
+  "source_sha256": "4579664894140d24cce199600ae622bd24d2361baeae78cfc0d7ea781b3212e4",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "Claude Sonnet, fresh subagent (the preservation reviewer)",
+    "context_id": "t115-gate-preservation-subagent",
+    "origin": "Agent tool, a fresh context with only this brief and its files, launched by the Inner Child lane session (https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq), turn 115, 2026-10-26"
+  },
+  "evidence": "\"take a small piece of whatever you’d tell them and do it yourself. If it’s “get more sleep,” that could be brushing your teeth before midnight instead of at two\" keeps all three must-keeps: the step done yourself, the example with both times, and the untouched \"The technical term for this is “scaffolding.”\" sentence (\"this\" now points at the whole move, which still reads). Dropped: \"for now just try\" (filler) and \"That’s how you learn as a kid, and it works now, too.\" (a reassurance the scaffolding term and its link carry; I could not open the link from here); nothing is added, \"could be\" promises nothing. B2 is the example's own pair of times, D9 is a one-paragraph edit that removes a tell, E36/E41 is the guide's instruction to the reader: all three accepted; no tell row found PRESENT.",
+  "resolved_tell_ids": [],
+  "resolved_lint_labels": [
+    "B2 contrast",
+    "D9 follows the source order",
+    "E36/E41 heavy second person"
+  ]
+}
