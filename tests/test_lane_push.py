@@ -74,7 +74,7 @@ class LaneIntegration(unittest.TestCase):
             with self.assertRaises(SystemExit) as e:
                 P.integration_gate(P.parser().parse_args(['subject']))
             self.assertIn('#280', str(e.exception))
-            notes = P.integration_gate(P.parser().parse_args(['subject', '--overlap-ok', 'adds a line after theirs']))
+            notes = P.integration_gate(P.parser().parse_args(['subject', '--overlap-ok', '#280: adds a line after theirs']))
         self.assertTrue(any('#280' in n for n in notes))
 
     def test_github_unreachable_warns_and_does_not_stop(self):
@@ -104,8 +104,20 @@ class LaneIntegration(unittest.TestCase):
             with self.assertRaises(SystemExit) as e:
                 P.integration_gate(P.parser().parse_args(['subject']))
             self.assertIn('#280', str(e.exception))
-            notes = P.integration_gate(P.parser().parse_args(['subject', '--overlap-ok', 'after theirs']))
+            notes = P.integration_gate(P.parser().parse_args(['subject', '--overlap-ok', '#280: after theirs']))
         self.assertTrue(any('#199' in n and 'could not be read' in n for n in notes))
+
+    def test_an_overlap_reason_names_each_pull_request_it_answers_for(self):
+        # 2026-11-04: a reason written for #280 let a push through beside #285, opened an hour later on the same file
+        pulls = {280: ('claude/other', ['docs/HUMANIZATION-GATE.md']), 285: ('handoff/ic', ['docs/HUMANIZATION-GATE.md']),
+                 286: ('claude/lane', ['articles/x/a.md'])}
+        with mock.patch.object(P, 'run', self.fake(behind=False)), mock.patch.object(P, 'open_pulls', return_value=pulls):
+            with self.assertRaises(SystemExit) as e:
+                P.integration_gate(P.parser().parse_args(['subject', '--overlap-ok', '#280: lines apart']))
+            self.assertIn('#285', str(e.exception))
+            self.assertNotIn('#280 (', str(e.exception))
+            notes = P.integration_gate(P.parser().parse_args(['subject', '--overlap-ok', '#280 and #285: lines apart']))
+        self.assertTrue(any('#285' in n for n in notes))
 
 
 if __name__ == '__main__':

@@ -310,10 +310,16 @@ def integration_gate(a, extra_paths=()):
         notes.append('warning: the files of open pull request(s) %s could not be read, so their overlap with this push\'s '
                      'shared files is checked again on the next push' % ', '.join('#%d' % n for n in unread))
     both = overlaps(changed, others)
-    if both and not a.overlap_ok:
+    # the reason names each pull request it answers for: a reason written for #280 said nothing about #285, which
+    # opened an hour later on the same file, and the push went through on it (2026-11-04)
+    named = set(int(n) for n in re.findall(r'#(\d+)', a.overlap_ok or ''))
+    missing = [n for n in both if n not in named]
+    if missing:
         sys.exit('refused: other open pull requests change the same shared files (gate E339). Read each one\'s change, build '
-                 'on it rather than beside it, then push with --overlap-ok "how this builds on theirs":\n  ' +
-                 '\n  '.join('#%d (%s): %s' % (n, others[n][0], ', '.join(f)) for n, f in both.items()))
+                 'on it rather than beside it, then push with --overlap-ok "how this builds on theirs", naming each one '
+                 '(#N) it answers for%s:\n  ' % (' (not named yet: %s)' % ', '.join('#%d' % n for n in missing)
+                                                  if a.overlap_ok else '') +
+                 '\n  '.join('#%d (%s): %s' % (n, others[n][0], ', '.join(f)) for n, f in both.items() if n in missing))
     if both:
         notes.append('shared files also changed by open pull requests %s: %s' % (
             ', '.join('#%d' % n for n in both), a.overlap_ok))

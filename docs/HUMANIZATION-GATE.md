@@ -2190,7 +2190,7 @@ His message and his batch-1 page's answers, word for word: `articles/healing-the
   - Enforced since 2026-11-04 (Joel, 00:37 UTC: "ok so make sure no other lane can make the same mistake you made next
     time"). `lane_push.py` refuses the push when `origin/main` (fetched then) isn't in the branch's history, when the
     branch has no open pull request and no `--pr`, or when another open pull request changes a shared file this branch
-    changes and `--overlap-ok` doesn't say how this builds on it. It installs the pre-push hook, which now refuses any push
+    changes and `--overlap-ok` doesn't say how this builds on it, naming each such pull request (`#N`): a reason written for #280 had let a push through beside #285, opened an hour later on the same file. It installs the pre-push hook, which now refuses any push
     without `LANE_PUSH=1` (set by `lane_push.py`) or a `LANE_PUSH_BYPASS` reason. `lane_mailbox.py record` installs the
     hook too and reports whether main is merged, at the start of the turn. A GitHub API outage prints what failed and
     doesn't stop a push, as with the mailbox. A pull request whose files can't be read is named in a warning, and the
