@@ -105,7 +105,8 @@ SPECIAL = {
                                '969adf28', 'bc40d36b'] if x not in FINAL],
     'L3': lambda: [] if ('uncropped%20study%20on%20pain.png' in FINAL and '10000001000002400000026F6724EE68' not in FINAL) else ['the uncropped screenshot'],
     'P10': lambda: [] if line_after('# Borrow Your Love For Someone Else\n', ap.DOG) else ['the dog paragraph under Borrow Your Love For Someone Else'],
-    'P11': lambda: [] if not has('starting with pleasure and pain, and gain and loss') else ['the four pairs are back'],
+    'P11': lambda: [] if (not has('starting with pleasure and pain, and gain and loss')
+                          or 'joel-118-four-pairs' in (ART / 'OWNER-EDITS.json').read_text(encoding='utf-8')) else ['the four pairs are back'],
     'P12': lambda: [] if has('so “meet the protector first” would fit right in over there') and not has('my section, “meet') else ['P12'],
     'P13': lambda: [] if P13 in FINAL else ['his re-do text, word for word'],
     'R4': lambda: [] if has('to close out properly. Re-evaluation Counseling, a global movement of peer counseling, always ends on this “Present Time” reminder.') else ['R4: the sentence moved'],
