@@ -679,10 +679,14 @@
    "items": [
     {
      "item": "pull request 284 merged",
-     "outcome": "round 9's payloads go in a new pull request (lane_push --pr)"
+     "outcome": "round 9's payloads go in pull request 285 (lane_push --pr)"
+    },
+    {
+     "item": "the InnerSignal map's queue of guide changes (innerSignalGraph authoring/PENDING-PUBLIC-GUIDE-CHANGES.md, PGQ-018 to PGQ-055), which Joel asked me to check at 00:56 UTC",
+     "outcome": "read against his reorganized guide: 15 in, 18 with their core point in his words, 2 not in (PGQ-054 drawing anger, PGQ-036 hypnosis during grief), asked about this turn; experiments/t119-queue/QUEUE-COVERAGE.md; the map's queue file can't be written from this lane"
     }
    ],
-   "recorded_utc": "2026-11-04T00:54Z"
+   "recorded_utc": "2026-11-04T01:10Z"
   }
  ]
 }
