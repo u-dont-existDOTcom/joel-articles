@@ -18,6 +18,8 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-04, after Joel's message of 14:28 UTC ("pr 290 has conflicts"): fixed; nothing in the article changed.** A lane's
+  pull request no longer changes state/MAILBOX.json (`lane_mailbox.py settle`, run by `lane_push.py`). The Next step below stands.
 - **2026-11-04, after Joel's answers of 13:53 UTC: his Scott paragraph and W-17 in, 6a (the five lines stay); no open questions.**
   HUMANIZED-SO-FAR.md is c73f5b5d. Lesson E352 and linter rule O64 (a negation and its contrast joined with ", but"). Each lane's
   mailbox is now its own file (`state/mailbox/<branch>.json`). See the Next step.

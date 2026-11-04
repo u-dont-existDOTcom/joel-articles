@@ -140,6 +140,40 @@ def record(turn, lines, read, unreachable, items, path=None):
     return problems(entry)
 
 
+def settle(legacy=None, lane=None, main_text=None):
+    """Give the shared history file main's content, and move the records it has that main's doesn't into this lane's own
+    file: then a lane's pull request never changes the shared file, and another lane's merge can't put it in conflict
+    (Joel, 2026-11-04 14:28 UTC: "pr 290 has conflicts", after the switch to lane files, because this branch still carried
+    records of its own in the shared file). A record main doesn't have came from this branch, since other lanes' records
+    reach it only through main. Returns the turns moved; [] when there was nothing to do."""
+    legacy = legacy or LEGACY
+    lane = lane or lane_record()
+    if lane == legacy or not legacy.exists():
+        return []
+    if main_text is None:
+        env = {k: v for k, v in os.environ.items() if not k.startswith('GIT_')}
+        r = subprocess.run(['git', '-C', str(REPO), 'show', 'origin/main:' + str(legacy.relative_to(REPO))],
+                           capture_output=True, text=True, timeout=60, env=env)
+        if r.returncode:
+            return []
+        main_text = r.stdout
+    here = load(legacy)
+    main = json.loads(main_text)
+    key = lambda c: json.dumps(c, sort_keys=True, ensure_ascii=False)
+    theirs = {key(c) for c in main.get('checks', [])}
+    extra = [c for c in here.get('checks', []) if key(c) not in theirs]
+    own = load(lane)
+    turns = {c.get('turn') for c in own.get('checks', [])}
+    moved = [c for c in extra if c.get('turn') not in turns]
+    if moved:
+        own['checks'] = sorted(own.get('checks', []) + moved, key=lambda c: c.get('recorded_utc') or c.get('turn'))
+        lane.parent.mkdir(parents=True, exist_ok=True)
+        lane.write_text(json.dumps(own, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+    if legacy.read_text(encoding='utf-8') != main_text:
+        legacy.write_text(main_text, encoding='utf-8')
+    return [c.get('turn') for c in moved]
+
+
 def start_of_turn():
     """What a lane does next, right after its mailbox (gate E339): the pre-push hook installed if this clone lacks it, and
     whether origin/main is merged. Nothing here stops the record; lane_push.py refuses the push if main isn't merged."""

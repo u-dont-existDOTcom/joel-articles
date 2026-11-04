@@ -92,3 +92,19 @@ class LaneRecord(unittest.TestCase):
             M.record('2026-11-01 22:27', ['guide'], READ_ALL, [], [], path=old)
             self.assertEqual(M.check('2026-11-01 22:27', path=old), [])
             self.assertTrue(M.check('2026-11-01 22:27', path=pathlib.Path(d) / 'lane.json'))   # not in the lane's own
+
+    def test_settle_gives_the_shared_file_mains_content_and_moves_this_lanes_records(self):
+        """2026-11-04 14:28 UTC, Joel: "pr 290 has conflicts" again: the branch still carried its own records in the shared
+        file, which another lane's merge had changed too."""
+        import json
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            legacy, lane = pathlib.Path(d) / 'MAILBOX.json', pathlib.Path(d) / 'mailbox' / 'lane.json'
+            M.record('2026-11-01 22:27', ['other lane'], READ_ALL, [], [], path=legacy)
+            main_text = legacy.read_text(encoding='utf-8')
+            M.record('2026-11-02 09:10', ['this lane'], READ_ALL, [], [], path=legacy)
+            self.assertEqual(M.settle(legacy=legacy, lane=lane, main_text=main_text), ['2026-11-02T09:10Z'])
+            self.assertEqual(legacy.read_text(encoding='utf-8'), main_text)
+            self.assertEqual([c['turn'] for c in json.loads(lane.read_text(encoding='utf-8'))['checks']], ['2026-11-02T09:10Z'])
+            self.assertEqual(M.settle(legacy=legacy, lane=lane, main_text=main_text), [])      # nothing left to do
+

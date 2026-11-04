@@ -392,6 +392,9 @@ def main(argv=None):
     sys.path.insert(0, str(REPO / 'tools' / 'humanization'))
     import lane_mailbox as mb
     own = mb.lane_record()          # the lane's own mailbox file (state/mailbox/<branch>.json), so lanes don't conflict
+    moved = mb.settle()             # and the shared history file exactly as main has it (Joel, 2026-11-04 14:28 UTC)
+    if moved:
+        print('mailbox: %s moved from state/MAILBOX.json to %s' % (', '.join(moved), own.relative_to(REPO)))
     paths = ['articles/%s' % a.article, 'articles/INDEX.json', 'state/MAILBOX.json'] + \
         ([str(own.relative_to(REPO))] if own != mb.LEGACY and own.exists() else []) + a.add
     mailbox_gate(a.mailbox)

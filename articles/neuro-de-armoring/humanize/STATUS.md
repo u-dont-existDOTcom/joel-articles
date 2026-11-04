@@ -1,5 +1,15 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-04, after Joel's message of 14:28 UTC ("pr 290 has conflicts")
+
+**The mailbox first** (`state/mailbox/claude-community-joel-1018.json`, "2026-11-04 14:28"). 292 (Inner Child turn 122)
+had merged at 14:27 with its own records in state/MAILBOX.json, and this branch still carried two records of its own
+there (12:06 and 13:53, written before its switch to its own file), so the shared file conflicted again on GitHub, where
+main's merge driver doesn't run. Main merged (1d12842c); the branch's two records moved to its own file and the shared
+file set to main's content. `lane_mailbox.py settle` does that, and `lane_push.py` runs it before every push, so a lane's
+pull request never changes the shared file (a test in `tests/test_lane_mailbox.py`; AGENTS.md). Nothing in the article
+changed. Delegations: none.
+
 ## 2026-11-04, after Joel's answers of 13:53 UTC (his Scott paragraph, W-17, "290 has conflicts", "6a"): his version in; the conflict fixed; O64
 
 His message, word for word: `fix-20261104/joel-20261104-1353-message.txt`; his answers: `fix-20261104/cards/ANSWERS-20261104-1352.json`.
