@@ -1,0 +1,141 @@
+{
+ "r03-fuel-glutamine": {
+  "sha256": "68ed59dbf03cb4bea8cec78c833283c40c4a129d0482cca36068dc81d58d403d",
+  "words": 78,
+  "prediction_short": "Mixed",
+  "fraction_human": 0.25205984711647034,
+  "fraction_ai": 0.581551730632782,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/ef54c42f-f5dc-43f7-a1cb-641f4df9f206",
+  "windows": [
+   {
+    "label": "Human Written",
+    "confidence": "Medium",
+    "words": 4,
+    "text": "L-Glutamine (watch Dr."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "Low",
+    "words": 18,
+    "text": " Rhonda vid) is the main fuel for your enterocytes, and for your immune cells when they're activated."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "words": 36,
+    "text": " It skips the complicated digestive steps other nutrients have to go through. Inside the mitochondria it gets turned straight into alpha-ketoglutarate (α-KG), which feeds the citric acid cycle, where the mitochondria make their energy."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "words": 25,
+    "text": " So the cells get that energy right away, and that's what drives the repair of the gut lining and keeps LPS from slipping through."
+   }
+  ]
+ },
+ "r03-fuel-dose-caution": {
+  "sha256": "081f14821faf1b407edf45f6f4227578eb5622072258c86059392c78e2e0bbcd",
+  "words": 116,
+  "prediction_short": "Human",
+  "fraction_human": 0.9999829530715942,
+  "fraction_ai": 1.6972629964584485e-05,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/ba5e7a60-4ff8-4b53-af00-beb38c1c6607",
+  "windows": [
+   {
+    "label": "Human Written",
+    "confidence": "Medium",
+    "words": 34,
+    "text": "Take 5g a day as a baseline. The point of that baseline is to counter the breakdown of the gut lining that high-intensity or high-volume training causes, like CrossFit or intense cardio."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "High",
+    "words": 38,
+    "text": " If your immune system is dealing with an acute exposure, if your whole system is under a lot of stress, or if you have active IBD (Crohn's or colitis), raise it gradually to 10-30g a day."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "Medium",
+    "words": 32,
+    "text": "\nCAUTION: cancer cells that multiply really fast can grab glutamine too, to fuel their growth. So if you have an active colon or liver cancer, don't raise the dose that high."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "Low",
+    "words": 18,
+    "text": " The liver is on that list because it's where the glutamine goes first, through the portal vein."
+   }
+  ]
+ },
+ "r03-fuel-butyrate": {
+  "sha256": "23a1db1f739de2df96d83dbec1a41e67934f2d170721c553e790ae303793b88b",
+  "words": 58,
+  "prediction_short": "AI",
+  "fraction_human": 2.648125295434678e-11,
+  "fraction_ai": 1.0,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/45b83708-3031-4def-a6f1-b9a0d63ac087",
+  "windows": [
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "words": 41,
+    "text": "Butyrate and the other short-chain fatty acids (SCFAs) are what your colon runs on, the way your small intestine runs on glutamine. You get them when your gut bacteria ferment raw resistant starch, or from your home-brewed SIBO yogurt."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 19,
+    "text": " They feed the colonocytes and tighten up the lower gut barrier, and they keep turning down inflammatory signals too."
+   }
+  ]
+ },
+ "r03-fuel-tca": {
+  "sha256": "0cc61eac5688dc23ecf0a3be4d0abe079ce58e44825ee8a9174a4ab6ae35da55",
+  "words": 63,
+  "prediction_short": "AI",
+  "fraction_human": 2.0137818685815254e-15,
+  "fraction_ai": 1.0,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/b2c3dbb8-a686-4db1-afb9-12b81ad1c4fa",
+  "windows": [
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "words": 25,
+    "text": "TCA cycle intermediates, like malic and citric acid, are organic acids that go directly into the same energy pathways in the mitochondria that glutamine does."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 38,
+    "text": " So clean sour stuff like organic malic acid, tart cherries or green apples gives the cells lining your gut another quick fuel, and it speeds up healing of the lining, just by a different biochemical route than glutamine."
+   }
+  ]
+ },
+ "r03-st2-his": {
+  "sha256": "47b3c4d9ee35e51c3f7fc771dfa103dc22644e15021f807587df6b883e537f79",
+  "words": 92,
+  "prediction_short": "Human",
+  "fraction_human": 1.0,
+  "fraction_ai": 4.42882530649058e-09,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/db2815e1-22ed-4439-811e-fc225390ab14",
+  "windows": [
+   {
+    "label": "Human Written",
+    "confidence": "Low",
+    "words": 17,
+    "text": "That said, some people want a ready-made stack rather than buying every ingredient for it separately."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "High",
+    "words": 80,
+    "text": " So, if I were to recommend a general \"repair and rebuild\" approach, it would be a stack that covers three categories:\nFirst, support the Microbiome with a well-tolerated probiotic or probiotic system.\nThen keep the probiotics well-fed with a good prebiotic, and take butyrate itself or something that helps short-chain fatty acid production, especially the main one, butyrate.\nOther nutrients will help support barrier repair, such as glutamine, zinc carnosine, colostrum, mucosal-support herbs, or similar compounds."
+   }
+  ]
+ }
+}

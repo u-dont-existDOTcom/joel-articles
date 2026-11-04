@@ -184,6 +184,11 @@ class Ledger(unittest.TestCase):
         self.assertEqual(L.verdict_of('Human Written', None, 4.2e-22), 'Human')
         self.assertEqual(L.verdict_of('Human Written', ['H,H,0,10', 'A,L,10,20']), 'Mixed')
         self.assertEqual(L.verdict_of('Human Written', ['H,H,0,10']), 'Human')
+        # window records, as RESULTS files hold them: gut r03 butyrate try 3 (2026-11-04), one AI-Assisted window,
+        # fraction_ai 5e-12 with the rest "assisted", had been recorded as Human
+        self.assertEqual(L.verdict_of(None, [{'label': 'AI-Assisted', 'confidence': 'Medium'}], 5.2e-12), 'AI')
+        self.assertEqual(L.verdict_of(None, [{'label': 'Human Written'}, {'label': 'AI-Generated'}], 0.6), 'Mixed')
+        self.assertEqual(L.verdict_of(None, [{'label': 'Human Written'}], 1e-20), 'Human')
         self.predict('h1', call='AI')
         with self.assertRaises(SystemExit):
             L.main(['result', self.ledger, '--sha', L.sha256('h1'), '--verdict', 'Human', '--link', 'x',

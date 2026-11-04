@@ -1,0 +1,75 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "healing-the-gut-b3-fuels-20261104",
+ "title": "Gut Fuels, the Rest",
+ "git_file": "articles/healing-the-gut/humanize/fix-20261103/r03/b3/REVIEW-PAGE.html",
+ "article": {
+  "file": "articles/healing-the-gut/humanize/fix-20261103/r03/r03.md",
+  "sha256": "e95e8c138841b9475a56044e6f3165f4cacd0293795a22890c2eecc27bcdce4c"
+ },
+ "built": "2026-11-04",
+ "generator": "suggestion_review.py 1.5 (2026-11-02)",
+ "exported_at": "2026-11-04T10:18:31.646Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 2,
+  "pending": 1
+ },
+ "items": [
+  {
+   "id": "F3-1",
+   "type": "help",
+   "title": "Glutamine: how it turns into energy, and what that does",
+   "where": "Some Causes of poor gut health, P20",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "L-Glutamine (watch Dr. Rhonda vid) is the main fuel for your enterocytes, and for your immune cells when they're activated. It doesn't have to go through the complicated digestive steps other nutrients do. Inside the mitochondria, it gets turned straight into alpha-ketoglutarate, or α-KG. The α-KG goes into the citric acid cycle, which is how the mitochondria make their energy. So that's why consuming pure glutamine gives energy to those cells faster than eating food. They then use their extra energy to repair the gut lining, and that keeps LPS from getting through.",
+   "comment": "such a simple fix, just explain clearly",
+   "my_version": "L-Glutamine (watch Dr. Rhonda vid) is the main fuel for your enterocytes, and for your immune cells when they're activated. It skips the complicated digestive steps other nutrients have to go through. Inside the mitochondria it gets turned straight into alpha-ketoglutarate (α-KG), which feeds the citric acid cycle, where the mitochondria make their energy. So the cells get that energy right away, and that's what drives the repair of the gut lining and keeps LPS from slipping through.",
+   "before": "L-Glutamine (watch Dr. Rhonda vid) is the main fuel for your enterocytes, and for your immune cells when they're activated. It skips the complicated digestive steps other nutrients have to go through. Inside the mitochondria it gets turned straight into alpha-ketoglutarate (α-KG), which feeds the citric acid cycle, where the mitochondria make their energy. So the cells get that energy right away, and that's what drives the repair of the gut lining and keeps LPS from slipping through.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T10:07:35.066Z"
+    }
+   ],
+   "updated": "2026-11-04T10:10:35.915Z"
+  },
+  {
+   "id": "F3-2",
+   "type": "help",
+   "title": "Butyrate: the colon's fuel",
+   "where": "Some Causes of poor gut health, P23",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "The colonocytes lining your large intestine are fueled by short-chain fatty acids (SCFAs) like butyrate, while your small intestine runs on glutamine. Your gut bacteria make SCFAs when they ferment raw resistant starch, and you get SCFAs directly from your home-brewed SIBO yogurt too. Besides feeding the colonocytes, SCFAs lock down the barrier in your lower gut, preventing the dangerous escape of substances from gut to blood, which then turns down inflammatory signals that would be needed otherwise to contain the damage.",
+   "comment": "my first try, clarifying the mechanics, flipped it human, but not high conf: https://www.pangram.com/history/8d9bfcdc-2e2e-42b4-8e57-dd891d0d4088?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nsecond try, clarified it a bit more, now it's all good: https://www.pangram.com/history/fa93c3d7-e29e-49e6-ae3b-3c143fc89c9b?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "Butyrate and the other short-chain fatty acids (SCFAs) are what your colon runs on, the way your small intestine runs on glutamine. You get them when your gut bacteria ferment raw resistant starch, or from your home-brewed SIBO yogurt. They feed the colonocytes and tighten up the lower gut barrier, and they keep turning down inflammatory signals too.",
+   "before": "Butyrate and the other short-chain fatty acids (SCFAs) are what your colon runs on, the way your small intestine runs on glutamine. You get them when your gut bacteria ferment raw resistant starch, or from your home-brewed SIBO yogurt. They feed the colonocytes and tighten up the lower gut barrier, and they keep turning down inflammatory signals too.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T10:16:28.670Z"
+    }
+   ],
+   "updated": "2026-11-04T10:17:38.827Z"
+  },
+  {
+   "id": "F3-3",
+   "type": "help",
+   "title": "The TCA cycle intermediates: sour foods as fuel",
+   "where": "Some Causes of poor gut health, P24",
+   "advice": "edit",
+   "status": "pending",
+   "your_version": "",
+   "comment": "now you try with what i taught you -- but i taught you the SAME thing as before, so idk why i keep having to teach the same thing? just explain stuff to someone who doesn't already know the hidden links in your prose's thinking",
+   "my_version": "TCA cycle intermediates, like malic and citric acid, are organic acids that go directly into the same energy pathways in the mitochondria that glutamine does. So clean sour stuff like organic malic acid, tart cherries or green apples gives the cells lining your gut another quick fuel, and it speeds up healing of the lining, just by a different biochemical route than glutamine.",
+   "before": "TCA cycle intermediates, like malic and citric acid, are organic acids that go directly into the same energy pathways in the mitochondria that glutamine does. So clean sour stuff like organic malic acid, tart cherries or green apples gives the cells lining your gut another quick fuel, and it speeds up healing of the lining, just by a different biochemical route than glutamine.",
+   "history": [],
+   "updated": "2026-11-04T10:18:25.056Z"
+  }
+ ]
+}

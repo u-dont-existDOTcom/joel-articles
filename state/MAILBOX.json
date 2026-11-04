@@ -426,6 +426,41 @@
    "recorded_utc": "2026-11-03T15:23Z"
   },
   {
+   "turn": "2026-11-03T16:15Z",
+   "lines_of_work": [
+    "healing-the-gut"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "two items, both already in docs/suggested-fixes-ledger.md; nothing new"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "open #278 Inner Child, #279 neuro de-armoring, #280 Bad Trips: other lanes' work, none touches healing-the-gut"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "new lane: no handoff note or questions page edited by others yet"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued messages for this lane"
+    }
+   ],
+   "items": [
+    {
+     "item": "healing-the-gut import",
+     "outcome": "registered on branch claude/gut-import-20261103; structure page published for Joel's picks"
+    }
+   ],
+   "recorded_utc": "2026-11-03T16:28Z"
+  },
+  {
    "turn": "2026-11-03T17:48Z",
    "lines_of_work": [
     "neuro de-armoring",
@@ -491,210 +526,6 @@
    ],
    "items": [],
    "recorded_utc": "2026-11-03T22:04Z"
-  },
-  {
-   "turn": "2026-11-03T15:45Z",
-   "lines_of_work": [
-    "bad trips guide"
-   ],
-   "places": [
-    {
-     "place": "uda-lane",
-     "status": "read",
-     "found": "no new items (the lane holds 2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in docs/suggested-fixes-ledger.md)"
-    },
-    {
-     "place": "repo",
-     "status": "read",
-     "found": "pull requests 266 to 277 (the hypnosis and community lanes) were merged by 2026-11-03 15:22 UTC; no new issues, and no comments or reviews on any issue or pull request since 2026-11-02 16:00 UTC (GitHub REST, read without a token; gh's token is refused in this session)"
-    },
-    {
-     "place": "notes",
-     "status": "read",
-     "found": "this lane is new on 2026-11-03: it has no handoff note or questions page yet, so nobody else has edited them"
-    },
-    {
-     "place": "runtime",
-     "status": "read",
-     "found": "no queued notifications"
-    }
-   ],
-   "items": [],
-   "recorded_utc": "2026-11-03T16:12Z"
-  },
-  {
-   "turn": "2026-11-03T16:15Z",
-   "lines_of_work": [
-    "healing-the-gut"
-   ],
-   "places": [
-    {
-     "place": "uda-lane",
-     "status": "read",
-     "found": "two items, both already in docs/suggested-fixes-ledger.md; nothing new"
-    },
-    {
-     "place": "repo",
-     "status": "read",
-     "found": "open #278 Inner Child, #279 neuro de-armoring, #280 Bad Trips: other lanes' work, none touches healing-the-gut"
-    },
-    {
-     "place": "notes",
-     "status": "read",
-     "found": "new lane: no handoff note or questions page edited by others yet"
-    },
-    {
-     "place": "runtime",
-     "status": "read",
-     "found": "no queued messages for this lane"
-    }
-   ],
-   "items": [
-    {
-     "item": "healing-the-gut import",
-     "outcome": "registered on branch claude/gut-import-20261103; structure page published for Joel's picks"
-    }
-   ],
-   "recorded_utc": "2026-11-03T16:28Z"
-  },
-  {
-   "turn": "2026-11-03T16:43Z",
-   "lines_of_work": [
-    "bad trips guide"
-   ],
-   "places": [
-    {
-     "place": "uda-lane",
-     "status": "read",
-     "found": "no new items (both items in docs/suggested-fixes-ledger.md)"
-    },
-    {
-     "place": "repo",
-     "status": "read",
-     "found": "no new issues, comments or reviews since 15:45 UTC besides this lane's own pull request 280; main has no new commits; the gut lane's branch claude/gut-import-20261103 has no shared-rule change about Emulate"
-    },
-    {
-     "place": "notes",
-     "status": "read",
-     "found": "this lane's handoff note and questions page were changed only by this session"
-    },
-    {
-     "place": "runtime",
-     "status": "read",
-     "found": "a background wait for the three readers' reports stopped at its time limit (superseded by a second wait still running); Joel's saved preferences now say Emulate is no longer used on his writing"
-    }
-   ],
-   "items": [
-    {
-     "item": "Joel's no-Emulate preference (saved 2026-11-03)",
-     "outcome": "adopted: AGENTS.md, docs/EMULATE-FALLBACK.md and docs/FIXING-AN-ARTICLE.md now say Emulate is no longer used on his writing; this lane's plan changed to match"
-    }
-   ],
-   "recorded_utc": "2026-11-03T16:44Z"
-  },
-  {
-   "turn": "2026-11-03T17:15Z",
-   "lines_of_work": [
-    "bad trips guide"
-   ],
-   "places": [
-    {
-     "place": "uda-lane",
-     "status": "read",
-     "found": "no new items: the lane still holds 2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in docs/suggested-fixes-ledger.md (read from the local clone after git fetch at 17:26 UTC; gh's API for that repository is refused in this session)"
-    },
-    {
-     "place": "repo",
-     "status": "read",
-     "found": "no new issues, comments or reviews since 16:40 UTC; pull request 278 (the Inner Child lane) changes only its own task folder, no shared docs or tools; main unchanged since 15:22 UTC"
-    },
-    {
-     "place": "notes",
-     "status": "read",
-     "found": "this lane's handoff note and questions page were changed only by this session (the branch's last commit is this session's, 16:44 UTC)"
-    },
-    {
-     "place": "runtime",
-     "status": "read",
-     "found": "reader A's report came in at 17:15 UTC; reader B is rewriting its report and reader C is writing its second half; no queued notifications"
-    }
-   ],
-   "items": [],
-   "recorded_utc": "2026-11-03T17:28Z"
-  },
-  {
-   "turn": "2026-11-03T19:00Z",
-   "lines_of_work": [
-    "bad trips guide"
-   ],
-   "places": [
-    {
-     "place": "uda-lane",
-     "status": "read",
-     "found": "no new items: the lane still holds 2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in docs/suggested-fixes-ledger.md (read from the local clone after git fetch at 19:00 UTC)"
-    },
-    {
-     "place": "repo",
-     "status": "read",
-     "found": "pull request 279 (neuro de-armoring) merged to main at 17:48 UTC and conflicted with this lane's pull request 280 in AGENTS.md, docs/EMULATE-FALLBACK.md and state/MAILBOX.json; pull request 281 opened by the same lane; no new issues, comments or reviews since 17:40 UTC"
-    },
-    {
-     "place": "notes",
-     "status": "read",
-     "found": "this lane's handoff note and questions page were changed only by this session (the branch's last commit is this session's, 17:45 UTC)"
-    },
-    {
-     "place": "runtime",
-     "status": "read",
-     "found": "Joel's message of 18:59 UTC answers all 40 round-1 cards and sends the baseline's Pangram link; no queued notifications"
-    }
-   ],
-   "items": [
-    {
-     "item": "pull request 280's conflicts with main (Joel: \"pr has conflicts\")",
-     "outcome": "resolved: main merged in, main's Emulate wording kept (gate E333, which says the same as this lane's), the two lanes' mailbox records joined"
-    }
-   ],
-   "recorded_utc": "2026-11-03T19:03Z"
-  },
-  {
-   "turn": "2026-11-03T22:05Z",
-   "lines_of_work": [
-    "bad trips guide"
-   ],
-   "places": [
-    {
-     "place": "uda-lane",
-     "status": "read",
-     "found": "no new items: the joel-articles lane still holds 2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in docs/suggested-fixes-ledger.md; the root is unchanged at c5c9951 (read from the local clone after git fetch at 22:12 UTC)"
-    },
-    {
-     "place": "repo",
-     "status": "read",
-     "found": "pull request 281 (neuro de-armoring) merged at 20:57 UTC and 255 (Inner Child) at 22:10 UTC; main merged into this lane's branch again (conflicts in the tells registry, its test and the mailbox, resolved: the neuro lane's W113 kept, this lane's tells renumbered W114 and W115); no new comments on pull request 280 or elsewhere since 19:00 UTC"
-    },
-    {
-     "place": "notes",
-     "status": "read",
-     "found": "this lane's handoff note and questions page were changed only by this session (the branch's last own commit is 9b40774c, 19:32 UTC)"
-    },
-    {
-     "place": "runtime",
-     "status": "read",
-     "found": "Joel's messages of 22:04 and 22:05 UTC: maybe remove DMSO's blood-thinner warning, and check the agmatine warnings, which he thinks old Gemini models wrote; no queued notifications"
-    }
-   ],
-   "items": [
-    {
-     "item": "DMSO's blood-thinner warning (Joel: \"maybe we could remove the blood thinner dmso warning\")",
-     "outcome": "a card (SF-8) on round 2's page cuts it, with the evidence"
-    },
-    {
-     "item": "the agmatine warnings (Joel: \"check the agmatine warnings\")",
-     "outcome": "they are in the neuro de-armoring protocol; each checked against PubMed and written up for him, with a question on which lane applies the cuts"
-    }
-   ],
-   "recorded_utc": "2026-11-03T22:14Z"
   },
   {
    "turn": "2026-11-03T22:02Z",
@@ -856,6 +687,257 @@
     }
    ],
    "recorded_utc": "2026-11-04T01:10Z"
+  },
+  {
+   "turn": "2026-11-03T15:45Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (the lane holds 2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in docs/suggested-fixes-ledger.md)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull requests 266 to 277 (the hypnosis and community lanes) were merged by 2026-11-03 15:22 UTC; no new issues, and no comments or reviews on any issue or pull request since 2026-11-02 16:00 UTC (GitHub REST, read without a token; gh's token is refused in this session)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "this lane is new on 2026-11-03: it has no handoff note or questions page yet, so nobody else has edited them"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-03T16:12Z"
+  },
+  {
+   "turn": "2026-11-03T16:43Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (both items in docs/suggested-fixes-ledger.md)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "no new issues, comments or reviews since 15:45 UTC besides this lane's own pull request 280; main has no new commits; the gut lane's branch claude/gut-import-20261103 has no shared-rule change about Emulate"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "this lane's handoff note and questions page were changed only by this session"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "a background wait for the three readers' reports stopped at its time limit (superseded by a second wait still running); Joel's saved preferences now say Emulate is no longer used on his writing"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's no-Emulate preference (saved 2026-11-03)",
+     "outcome": "adopted: AGENTS.md, docs/EMULATE-FALLBACK.md and docs/FIXING-AN-ARTICLE.md now say Emulate is no longer used on his writing; this lane's plan changed to match"
+    }
+   ],
+   "recorded_utc": "2026-11-03T16:44Z"
+  },
+  {
+   "turn": "2026-11-03T17:15Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items: the lane still holds 2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in docs/suggested-fixes-ledger.md (read from the local clone after git fetch at 17:26 UTC; gh's API for that repository is refused in this session)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "no new issues, comments or reviews since 16:40 UTC; pull request 278 (the Inner Child lane) changes only its own task folder, no shared docs or tools; main unchanged since 15:22 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "this lane's handoff note and questions page were changed only by this session (the branch's last commit is this session's, 16:44 UTC)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "reader A's report came in at 17:15 UTC; reader B is rewriting its report and reader C is writing its second half; no queued notifications"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-03T17:28Z"
+  },
+  {
+   "turn": "2026-11-03T19:00Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items: the lane still holds 2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in docs/suggested-fixes-ledger.md (read from the local clone after git fetch at 19:00 UTC)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 279 (neuro de-armoring) merged to main at 17:48 UTC and conflicted with this lane's pull request 280 in AGENTS.md, docs/EMULATE-FALLBACK.md and state/MAILBOX.json; pull request 281 opened by the same lane; no new issues, comments or reviews since 17:40 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "this lane's handoff note and questions page were changed only by this session (the branch's last commit is this session's, 17:45 UTC)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "Joel's message of 18:59 UTC answers all 40 round-1 cards and sends the baseline's Pangram link; no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "pull request 280's conflicts with main (Joel: \"pr has conflicts\")",
+     "outcome": "resolved: main merged in, main's Emulate wording kept (gate E333, which says the same as this lane's), the two lanes' mailbox records joined"
+    }
+   ],
+   "recorded_utc": "2026-11-03T19:03Z"
+  },
+  {
+   "turn": "2026-11-03T22:05Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items: the joel-articles lane still holds 2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in docs/suggested-fixes-ledger.md; the root is unchanged at c5c9951 (read from the local clone after git fetch at 22:12 UTC)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 281 (neuro de-armoring) merged at 20:57 UTC and 255 (Inner Child) at 22:10 UTC; main merged into this lane's branch again (conflicts in the tells registry, its test and the mailbox, resolved: the neuro lane's W113 kept, this lane's tells renumbered W114 and W115); no new comments on pull request 280 or elsewhere since 19:00 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "this lane's handoff note and questions page were changed only by this session (the branch's last own commit is 9b40774c, 19:32 UTC)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "Joel's messages of 22:04 and 22:05 UTC: maybe remove DMSO's blood-thinner warning, and check the agmatine warnings, which he thinks old Gemini models wrote; no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "DMSO's blood-thinner warning (Joel: \"maybe we could remove the blood thinner dmso warning\")",
+     "outcome": "a card (SF-8) on round 2's page cuts it, with the evidence"
+    },
+    {
+     "item": "the agmatine warnings (Joel: \"check the agmatine warnings\")",
+     "outcome": "they are in the neuro de-armoring protocol; each checked against PubMed and written up for him, with a question on which lane applies the cuts"
+    }
+   ],
+   "recorded_utc": "2026-11-03T22:14Z"
+  },
+  {
+   "turn": "2026-11-04T00:37Z",
+   "lines_of_work": [
+    "gut article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); UDA main still c5c9951, whose AGENTS.md and LESSON-INDEX entry 87 (the GH handoff line) this answer follows"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 22:17 UTC: this lane's pull request 282 merged by Joel at 23:34 UTC; the Inner Child lane's 283 (its E340 keep-as-is lists, E341 the live post's embeds) at 00:39 and 284 at 00:51 UTC, both merged here (e3dc4332); open: 280 (Bad Trips), 278, and older chat pull requests; no new issue comments or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut since 282"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 00:37 UTC: make sure no other lane can make the same mistake",
+     "outcome": "E339 is now enforced, not only written: lane_push.py refuses a push when origin/main isn't merged, when the branch has no pull request, and when another open pull request changes the same shared file (until --overlap-ok says how it builds on theirs); its pre-push hook refuses a plain git push; the mailbox record installs the hook and says whether main is merged; AGENTS.md and the gate say so; tests added"
+    },
+    {
+     "item": "his batch-2 answers (S2-1 to S2-6)",
+     "outcome": "applied as r03: S2-1, S2-3, S2-4, S2-5 as approved, S2-2 his version, his first fuels paragraph word for word and the rest built his way (gate E342), blind meaning check PASS after two fixes; each new paragraph goes to the API before it reaches him"
+    },
+    {
+     "item": "pull requests 283 and 284 (Inner Child) merged",
+     "outcome": "main merged before the commit; with E340 and E341 in main, this lane's fuels lesson is plain E342 and the next lesson is E343"
+    }
+   ],
+   "recorded_utc": "2026-11-04T00:53Z"
+  },
+  {
+   "turn": "2026-11-04T10:18Z",
+   "lines_of_work": [
+    "gut article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); UDA main still c5c9951, its root AGENTS.md fetched this turn"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 01:22 UTC: the Inner Child lane's 285 merged by Joel at 08:59 UTC (merged here, a1fcb895; state/MAILBOX.json conflicted and was resolved by keeping both lanes' records); this lane's 286 still open; open: 280, 278 and older chat pull requests; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut since 62a332fa"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's batch-3 answers (10:18 UTC)",
+     "outcome": "F3-1 and F3-2 his versions, into r04 word for word, each checked; F3-3 mine, written his way. His comment ('i taught you the SAME thing as before, so idk why i keep having to teach the same thing? just explain stuff to someone who doesn't already know the hidden links in your prose's thinking') becomes gate E343 with the step that enforces it, and the meaning check's brief stops failing an explained link"
+    },
+    {
+     "item": "pull request 285 (Inner Child): Substack payloads carry their quote marks curled the right way",
+     "outcome": "read; this lane's whole-article check through a temporary Substack draft follows it"
+    }
+   ],
+   "recorded_utc": "2026-11-04T10:20Z"
   },
   {
    "turn": "2026-11-04T10:26Z",

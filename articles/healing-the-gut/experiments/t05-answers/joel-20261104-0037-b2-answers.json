@@ -1,0 +1,141 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "healing-the-gut-b2-stacks-20261103",
+ "title": "Gut Stacks and Fuels",
+ "git_file": "articles/healing-the-gut/humanize/fix-20261103/b2-stacks/REVIEW-PAGE.html",
+ "article": {
+  "file": "articles/healing-the-gut/humanize/fix-20261103/r02/r02.md",
+  "sha256": "5e69ff92b916089e6aa6016d357571ec0cc672388078132ccd48531de5c71d00"
+ },
+ "built": "2026-11-03",
+ "generator": "suggestion_review.py 1.5 (2026-11-02)",
+ "exported_at": "2026-11-04T00:36:30.272Z",
+ "counts": {
+  "approved": 4,
+  "rejected": 0,
+  "revise": 2,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "S2-1",
+   "type": "voice",
+   "title": "The stacks section opens in your voice",
+   "where": "Optional Ready-Made Gut Stacks, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "I don't think there's one supplement stack that heals everyone's gut. Whatever you take, the order matters. Get your digestion working mechanically first, then reset your diet and your gut motility, and only go after bugs and parasites with antimicrobial or anti-parasite protocols if you still have symptoms after that.",
+   "before": "I do not think there is a universal supplement stack that heals everyone's gut. The correct order still matters: fix digestion mechanics first, reset diet and motility, then only escalate into antimicrobial or anti-parasite protocols if symptoms persist.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T00:29:02.647Z"
+    }
+   ],
+   "updated": "2026-11-04T00:29:02.647Z"
+  },
+  {
+   "id": "S2-2",
+   "type": "help",
+   "title": "The three things to look for: four versions read AI",
+   "where": "Optional Ready-Made Gut Stacks, P2",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "That said, some people want a ready-made stack rather than buying every ingredient for it separately. So, if I were to recommend a general “repair and rebuild” approach, it would be a stack that covers three categories:\nFirst,  support the Microbiome with a well-tolerated probiotic or probiotic system. \nThen keep the probiotics well-fed with a good prebiotic, and take butyrate itself or something that helps short-chain fatty acid production, especially the main one, butyrate.\nOther nutrients will help support barrier repair, such as glutamine, zinc carnosine, colostrum, mucosal-support herbs, or similar compounds",
+   "comment": "same strategy, expand IN A CLARIFYING WAY, not just expanding with filler, everything should have a purpose. it could be a joke if the joke is actually a good one, but if there's any sense a reader could get that you just threw some fluff words in to make it bigger, you fail, and clarity is paramount",
+   "my_version": "That said, some people want a ready-made starting point rather than buying every ingredient separately. For a general \"repair and rebuild\" approach, I would look for a stack that covers three categories:",
+   "before": "That said, some people want a ready-made starting point rather than buying every ingredient separately. For a general \"repair and rebuild\" approach, I would look for a stack that covers three categories:",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T00:29:09.199Z"
+    }
+   ],
+   "updated": "2026-11-04T00:36:14.382Z"
+  },
+  {
+   "id": "S2-3",
+   "type": "voice",
+   "title": "The kits, with your answer about them",
+   "where": "Optional Ready-Made Gut Stacks, P5",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Gemini suggested these kits to me, but so far they're the best ones I've seen, tho I haven't used them myself, so check the reviews. Designs for Health GI Revive is one of the more complete gut-lining repair formulas. You still need the rest of a gut protocol with it. There's also Dr. Ruscio's Leaky Gut Support Kit, which makes sense if leaky gut is your main problem. Microbiome Labs Total Gut Restoration is the best general stack of these, because you get mucosal support along with the probiotic and prebiotic.",
+   "before": "The best general commercial stack I have seen so far is Microbiome Labs Total Gut Restoration, because it combines probiotic, prebiotic, and mucosal-support components. For a more leaky-gut-specific stack, Dr. Ruscio's Leaky Gut Support Kit is a reasonable option. For a single gut-lining repair formula, Designs for Health GI Revive is one of the more complete products, but it should be understood as a repair product, not a complete gut protocol by itself.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T00:36:19.795Z"
+    }
+   ],
+   "updated": "2026-11-04T00:36:19.795Z"
+  },
+  {
+   "id": "S2-4",
+   "type": "voice",
+   "title": "The cleanse stacks, with your berberine note",
+   "where": "Optional Ready-Made Gut Stacks, P6",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "I wouldn't start everyone off on the general \"gut cleanse\" stacks either, the ones built around oregano oil, wormwood, black walnut, berberine or other antimicrobial herbs. Those are for later (Phase 3), once you have more reason to suspect overgrowth, parasites, H. pylori or something else specific. (My own advice is different for H. pylori, where berberine works well: see Parasites, above.)",
+   "before": "I would not recommend general \"gut cleanse\" stacks built around oregano oil, wormwood, black walnut, berberine, or other antimicrobial herbs as a universal starting point. Those belong later in the decision tree, when there is a stronger reason to suspect overgrowth, parasites, H. pylori, or another specific problem. (My own advice is different for H. pylori, where berberine works well: see Parasites, above.)",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T00:36:23.667Z"
+    }
+   ],
+   "updated": "2026-11-04T00:36:23.667Z"
+  },
+  {
+   "id": "S2-5",
+   "type": "voice",
+   "title": "Start low, and who should see a clinician",
+   "where": "Optional Ready-Made Gut Stacks, P7",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Start with low doses, especially of prebiotics, resistant starch, butyrate-support products and probiotics. And if you have severe pain, GI bleeding, fever, dehydration, rapid weight loss, an active IBD flare, cancer, immune suppression, a pregnancy, or another complex medical condition, don't stack supplements on your own, work with a qualified clinician instead.",
+   "before": "Start low, especially with prebiotics, resistant starch, butyrate-support products, and probiotics. People with severe pain, GI bleeding, fever, dehydration, rapid weight loss, active IBD flares, cancer, immune suppression, pregnancy, or complex medical conditions should work with a qualified clinician instead of self-stacking supplements.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T00:36:27.331Z"
+    }
+   ],
+   "updated": "2026-11-04T00:36:27.331Z"
+  },
+  {
+   "id": "S2-6",
+   "type": "help",
+   "title": "The mitochondrial fuels: five versions read AI",
+   "where": "Some Causes of poor gut health, P19",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "",
+   "comment": "i didn't do all of it, you can finish:\n\nok so there's no poitn dooing that whole stretch until we figure out how to fix one para right? \ntested it as Possibly AI here: https://www.pangram.com/history/43d8fde8-744b-44cb-ba18-d5ae8270ebf1?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nworking on first para. first thing i notice is the way the sentence is structured, so compact right from the first words, not conversational.\nhere's the conversationalized version (along with a fitting joke), human: https://www.pangram.com/history/31e0b7cc-ba0d-46b3-ba6f-6fd9c000b0db?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\n\nhere's it's Possibly AI bc I left the non-conversational compact list syntax: https://www.pangram.com/history/1d56e758-9d50-4fff-9a4d-1a8a6eef8e7d?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nif i keep the first sentence onversational/not compressed, but remove the joke, then the first sentence is human and the rest isn't: https://www.pangram.com/history/c42f3335-7dfd-47b0-86ce-68ca9d110493?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nok i took out the joke because idk if you can make good jokes, and it's still human if i uncompress it more:\n\nhttps://www.pangram.com/history/f4bcce1f-f9b4-402c-b92e-46ebb2932c28?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nbut if i leave that one parenthetical you had (colonocytes) without putting that into the flow of the sentence, it flips back to ai on that section:\nhttps://www.pangram.com/history/270a2715-2151-49e9-872b-fd7e11819ffc?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nnow if i remove some of the super extra expansion i did, it's still human, altho now the LAST sentence which i didn't touch, is lower conf human: https://www.pangram.com/history/9d0e7be8-8f4b-4d2e-81b4-9496f8ea02d9?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nand then i fixed the last sentence by clarifying it AND making a little joke at same time: https://www.pangram.com/history/3ea11eae-a6bc-492a-9e07-57dd001ce44f?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\n",
+   "my_version": "Mitochondrial & Cellular Energy Starvation (Glutamine, Butyrate, TCA Intermediates): Your gut barrier requires massive amounts of immediate, localized energy to maintain tight junction integrity. If your enterocytes (small intestine) or colonocytes (large intestine) lack their preferred mitochondrial fuels, the barrier structurally collapses, allowing lipopolysaccharides (LPS) and endotoxins to leak into systemic circulation.",
+   "before": "Mitochondrial & Cellular Energy Starvation (Glutamine, Butyrate, TCA Intermediates): Your gut barrier requires massive amounts of immediate, localized energy to maintain tight junction integrity. If your enterocytes (small intestine) or colonocytes (large intestine) lack their preferred mitochondrial fuels, the barrier structurally collapses, allowing lipopolysaccharides (LPS) and endotoxins to leak into systemic circulation.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-03T23:35:31.433Z"
+    }
+   ],
+   "updated": "2026-11-04T00:28:46.116Z"
+  }
+ ]
+}
