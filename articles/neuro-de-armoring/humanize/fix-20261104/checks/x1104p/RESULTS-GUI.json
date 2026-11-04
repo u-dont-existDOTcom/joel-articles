@@ -1,0 +1,65 @@
+{
+ "detector": "pangram 4.1, the web app (Joel's account and its credits, run by the lane in his Brave through Claude in Chrome; one paragraph per check)",
+ "results": {
+  "b092": {
+   "uuid": "b41d1fdd-9d7f-4d04-8cbd-8e10113c0fdd",
+   "at": "2026-11-04T15:40:27.409068-05:00",
+   "headline": "AI Generated",
+   "ai": 0.9999999403953552,
+   "words": 72,
+   "windows": [
+    [
+     "AI-Generated",
+     "Medium",
+     26,
+     "Side effects / stop signs: The big one to watch out for is agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure."
+    ],
+    [
+     "AI-Generated",
+     "Low",
+     19,
+     "Stop immediately if you get that, since it can be a sign of serotonin toxicity, which can become dangerous."
+    ],
+    [
+     "AI-Generated",
+     "Medium",
+     27,
+     "Other stop signs include nausea, stomach discomfort, loose stools, headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright / hypomanic feeling."
+    ]
+   ]
+  },
+  "b093": {
+   "uuid": "5e797c26-95a2-4caa-aedb-6a88b723f6f5",
+   "at": "2026-11-04T15:40:38.141880-05:00",
+   "headline": "AI Generated",
+   "ai": 0.9999983906745911,
+   "words": 87,
+   "windows": [
+    [
+     "AI-Generated",
+     "Medium",
+     27,
+     "Hard interaction rule: Don't mix 5-HTP casually with other serotonin-raising drugs or supplements, as serotonin syndrome is most often a multi-drug / stack problem."
+    ],
+    [
+     "AI-Generated",
+     "High",
+     27,
+     "There's case literature and clinical reviews warning about that risk when 5-HTP is combined with antidepressants or MAOIs (see this dietary supplement interaction case report)."
+    ],
+    [
+     "AI-Generated",
+     "Medium",
+     9,
+     "MedlinePlus also has a general overview of serotonin syndrome."
+    ],
+    [
+     "AI-Generated",
+     "Low",
+     24,
+     "If you're doing psychedelics, avoid 5-HTP on your psychedelic days, and be especially strict around ayahuasca / harmala MAOI chemistry and iboga / ibogaine."
+    ]
+   ]
+  }
+ }
+}

@@ -1,5 +1,180 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-04, after Joel's message of 20:19 UTC ("so then are we done can we publish it?"): not yet; the whole article in a temporary Substack draft (his extension at its daily limit); the 5-HTP interactions paragraph in; the stop signs to him
+
+His message, word for word: `fix-20261104/joel-20261104-2019-message.txt`. **The mailbox first** ("2026-11-04 20:19"):
+pull request 300 merged at 20:19:27; main merged (a643037f, four commits, no shared rule or tool changed); no runtime
+notifications; the UDA lane unchanged (AGENTS.md blob 5160080, LESSON-INDEX 7896422). HUMANIZED-SO-FAR.md fb1168c8 to
+301782b9.
+
+- **The answer** (sent at about 20:21 UTC, while the work went on): not yet. Before his post: every section rewritten his
+  way and checked, the sections checked as sections, the word-for-sense read, his post with its new date. It said 166
+  paragraphs; at 20:36 UTC I corrected it to 160: the six pictures had been counted as paragraphs. By exact SHA-256 of the
+  text as it stands, 7 of the 160 read Human by themselves (6 before this turn; the 5-HTP section is 4 of 5).
+- **The whole article, free** (E325, E200; `fix-20261104/substack/`): `make_payload.py` (the Inner Child lane's
+  t119-substack builder, copied: pictures out, quote marks curled the way Substack shows them), PAYLOAD-A.html (27eec584),
+  TEXT-A.txt, PAYLOADS.json; `paste_payload_lane.js`, this lane's copy of that lane's paste helper with this lane's one
+  title. In the desktop app's built-in browser (his Substack signed in): a new draft, "Neuro de-armoring, draft A (temp,
+  delete after)" (223532178), the payload fetched at 3c5fe8b8 and its SHA-256 checked, 6,051 editor words matching, the same
+  after a reload; the secret link in the paid view made the way `substack_secret_link.js` does, and its rendered text 160
+  lines, 38,287 characters, SHA-256 b411683e, the rebuild's (PASTED.json; the link itself isn't recorded). Prediction
+  ND1104-whole#97, AI at 0.01. Opened in his Brave through Claude in Chrome: the extension scanned the post, and its badge
+  read "Daily limit reached" (the other lanes' checks today). His rule (E218): "if you hit the limit on one account i can
+  switch to another"; asked him at 20:36 UTC. Never published.
+- **The 5-HTP stop signs and interactions** (his post's blocks 92 and 93), the point first (E357), each checked by the lane
+  in the web app in his Brave (batches x1104p to x1104t, `checks/x1104?/RESULTS.md`; drafts and tries in `next5/`):
+  - **Block 93**: try 1 AI Generated, 100% AI; try 2, with the linked case report said as what happened in it (read in full
+    through PubMed: Patel and Marzella 2017, PMC5580516), AI Detected, 46.5% AI (the rule Human Medium, the sources AI Low,
+    the case AI Medium, the psychedelic advice Human Low); the tell panel (`panel/b093-n2`); try 3, its agreed points fixed
+    and the label "Hard interaction rule:" dropped as his Y-90 and Y-91 dropped theirs, AI Detected, 24.3% AI; try 4, only
+    the one sentence Pangram read AI changed: [Human Written, 0.0% AI](https://www.pangram.com/history/2be95f74-b2cf-45ec-a669-1807880af623),
+    High, Medium, Low (the case, 65 words), Medium, High. In the article (`next5/apply_b093.py`, APPLIED-B093.json; my
+    comparative read beside his post in `next5/read/`, no finding). The case story is my addition from the report.
+  - **Block 92**: four tries of mine (the dangerous pattern first; "+" chains said in words; the side effects in different
+    shapes) and Codex's rewrite (`rewrite-b092/`, `tell_panel.py rewrite-prompt`, then its own panel, `panel/b092-c1`, and
+    the agreed points fixed): all five AI Generated, 100% AI. Every reader called it a two-tier checklist; both lists are
+    the protocol's (E336). It goes to him (E253).
+  - One case, not yet a lesson: in block 93 the readers flagged three sentences Pangram read Human (Low, Low, High) and
+    called the case human where Pangram read it AI (Medium); changing only the sentence Pangram read AI made it Human.
+- **Cards**: Neuro De-Armoring Cards, 4 November (4) (https://claude.ai/artifact/G7HN5K4HMTUEZPnbTaPmpk, capabilities db
+  and downloads; `cards/build_page_x1104e.py`, REVIEW-X1104E.md): Y-92 (his post's stop signs, five checks and both panels
+  linked) and Y-93 (block 93's Low window, my case story, which he may cut). Each ask in his words with a human tell named
+  and the panel linked (`pangram_links_check.py` PASS). Smoke test at 400 and 1,200 px: two cards, no sideways scroll, no
+  script errors.
+- **Predictions**: 10. ND1104-B092#98, #100, #102, #104, #106 and B093#99, #101, #103 right; B093#105 a miss in my favour
+  (Human, where I said AI at 0.45); ND1104-whole#97 waits for the check.
+- **Delegations** (model, piece, check, outcome): a Sonnet and a Haiku subagent, the tell panel's readers for b092-n2,
+  b093-n2 and b092-c1, checked by `tell_panel.py summarize`: done. Codex on the laptop (its configured model, read-only,
+  ephemeral): the third reader of the same three, and the rewrite of block 92 from `rewrite-prompt`, checked by the
+  fidelity check (PASS) and Pangram (100% AI): done.
+- **Browsers**: the built-in browser for the draft; Claude in Chrome in his Brave for the extension and the web app. The
+  tabs were closed at the end.
+
+## 2026-11-04, after Joel's answers of 18:09 UTC (his six versions) and his message of 18:10 UTC ("8a"): his versions in; the tool paragraph merged; 8a in the fidelity check; E357, E358; the dash swap
+
+His answers, word for word: `fix-20261104/cards/ANSWERS-20261104-1809.json` (all six "revise", each with his own version and
+checks); his message: `fix-20261104/joel-20261104-1810-message.txt` ("8a not sure why you had to ask that, the whole point is
+rewording stuff here"). **The mailbox first** ("2026-11-04 18:10"); pull request 296 merged at 17:14; main merged (925526ef,
+with 298's two hyphens for every dash). HUMANIZED-SO-FAR.md is now fb1168c8.
+
+- **His checks read back**: the lane read his five results from his Pangram history (Claude in Chrome, his Brave): each
+  checked text has the SHA-256 of the version he sent (Y-85 with its trailing space). Y-85 Human Written (Medium, High,
+  Medium); Y-88, Y-89 and Y-91 one or more windows, all High; Y-90 High and Medium.
+- **The lane's checks** (batch x1104n, `checks/x1104n/RESULTS.md`): his Y-86 alone (39 words) was refused by the web app's
+  50-word minimum ("Minimum 50 words required for accurate detection"; prediction ND1104-B086h#93 voided), so it was read
+  after his Y-85, as a pair: Human Written, 0.0% AI, its own window High (ND1104-P085-086h#95). His Y-91 with the full stop
+  it lacked: Human Written, every window High (ND1104-B091h#94). His versions have their own lineages ("h").
+- **The merge he suggested** ("i'd cut this whole paragraph or merge anything important from it into the last one"): one
+  sentence in his "Who this is for" after Scott's (`cards/merge-b088-b089.md`), read Human Written, one window High (batch
+  x1104o, ND1104-B088m#96, a miss in my favour). The tool paragraph is out.
+- **Into the article** (`cards/apply_cards_x1104d.py`, `cards/APPLIED-CARDS-D.json`): his six, the merge, and 8a:
+  FIDELITY-KEYS.json's "warning_words" is "meaning". What his versions changed in the protocol is in "owner_changes", each
+  naming his card: Y-85's W035 (his cut of the last line, "you were overcompleting"; the "Do not push through" words are
+  in the agmatine warning too), Y-86's W037 ("caution", the safety signal he replaced; the same-day rule stays in W017
+  and W082), the merge's W040 (the review's serotonin-toxicity words), and Y-91's second "50mg" and "if" for "only if"
+  (W041). The comparative read of the merged sentence beside his Y-89 is recorded (`cards/read-d/`), no finding.
+- **8a in `tools/humanization/fidelity_keys.py`**: with "warning_words" set to "meaning", a warning keeps its warning word,
+  compounds, terms and numbers; one naming no compound or number keeps its own words. A dose matches with or without the
+  space before its unit ("50mg"). The keys his cards took out leave their units before the paragraph match (a unit left
+  with few keys had matched the wrong paragraph). A term after his "--" is its own word ("tuna daily--mercury"). Tests in
+  `tests/test_fidelity_keys.py`.
+- **Lessons**: E357 (the point first, the gut lane's E347 in this lane's warnings and doses, with his other lessons from the
+  six: "matters", two facts with their link unsaid, a last line that repeats, a source the reader can place, a warning that
+  makes no sense, "50mg") and E358 (rewording is the point; don't ask). `tells_lint.py` O65 (a long opening condition before
+  the point), O66 ("matters"), O67 (a space before "mg"), all REVIEW; the registry's W119 to W121 (W116 and W117 are pull
+  request 280's). `fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md` has his versions six to eleven.
+- **The dash swap** (`tools/humanization/typography_swap.py`, from 298): 32 characters in 21 paragraphs of the article, none
+  in the paragraphs checked this week; the fidelity check passes.
+- **Questions page** republished: no open questions.
+- **Delegations**: none this turn.
+
+## 2026-11-04, after Joel's message of 16:12 UTC ("you don't need me to do that"): the lane's own web-app checks; 088 in; six stretches to him; E356
+
+His message, word for word: `fix-20261104/joel-20261104-1612-message.txt` ("you don't need me to do that, what are you
+talking about? you're not following the joel-articles and pangram humanization lab rules? why not? every other lane is
+doing gui checks"). **The mailbox first** ("2026-11-04 16:12"); main merged (af929000: suggestion_review.py 1.6).
+HUMANIZED-SO-FAR.md is now fb288da6 (block 88 in).
+
+- **The error, and its cause**: last turn's checks page asked him to run six checks the lane runs itself (his standing "you
+  don't need my ok each time to run the GUI pangram checks"; the gate's "The web app needs Joel's sign-in"; the budget
+  doc's web-app sections). The lane had run every check through the API since 2 November, its turn notes carried "never
+  use Joel's browser, clipboard, cookies or profile", which nothing in the repository says (the only copy is the session's
+  own summary), and the web-app rules weren't read before asking. Lesson **E356** in docs/HUMANIZATION-GATE.md (numbered
+  after the gut lane's E353 to E355 in pull request 293), and last turn's AGENTS.md paragraph, which said paragraph checks
+  "go to him", now says the lane runs them and how.
+- **The route**: the desktop app's browser pane was signed out of Pangram (the dashboard showed "Log in" and a "Verify you
+  are human" box, not ticked). Claude in Chrome was refused once by the session's safety check (acting in his browser
+  without his asking), so the lane asked him which route: "Use Claude in Chrome". The dashboard in his Brave (Pangram
+  Professional), `tools/humanization/pangram_page_helpers.js` `__run` (each SHA-256 checked before the click) and a
+  `__readFull` read from his history by SHA-256; the tab closed after.
+- **Batch x1104k** (the four second tries and the two unsent first tries; predictions of last turn): b088 read Human
+  Written, 0.0% AI (Medium, High, Medium, Low; a miss in my favour), b090 AI Detected, 27.2% AI (High, Medium, AI Low on its
+  last sentence), the other four AI Generated, 100% AI (`checks/x1104k/RESULTS.md`; `checks/record_gui.py` records each
+  window's confidence in the ledger, ND1104-B085#80 to B091#85).
+- **Batch x1104l**: one-sentence fixes of b088's Low window and b090's AI window both moved the untouched windows (b088 AI
+  Detected 13.8%; b090 100% AI with its first sentence AI), and the trial in his X-84 build read 100% AI (ND1104-B088#86,
+  B090#87, B091#88). E350: those stretches go to him.
+- **The tell panel on the second tries** (`panel/b085-n2`, `b086-n2`, `b089-n2`, `b091-n2`) and **Codex's rewrites**
+  (`rewrite-b085`, `b086`, `b089`, `b091`: `tell_panel.py rewrite-prompt` with the points to keep and the fidelity check's
+  words, his own paragraphs as voice; E256 (Inner Child)), batch x1104m: b086 AI Detected, 39.4% AI (Human Medium, Low,
+  Low, then AI Low on its last two sentences), the other three 100% AI (ND1104-B085#89 to B091#92). Codex's drafts were
+  checked without a panel read of their own; my changes to them: straight quote marks, and for 089 "actually" out (O25) and
+  its short last sentence joined (B7). The panel on b090 (`panel/b090-n1`) for its help card.
+- **Block 88 in the article** (`next2/apply_b088.py`): the second try, the fidelity check passing, my comparative read
+  beside his post recorded (`next2/read/`), no finding.
+- **Six stretches to edit** on Neuro De-Armoring Cards, 4 November (3) (https://claude.ai/artifact/TBrnTti2G9V4fBvC357cTy,
+  version 4; `cards/build_page_x1104d.py`, REVIEW-X1104D.md): Y-85, Y-86, Y-89, Y-91 (his post's paragraphs, after three
+  versions read AI), Y-88 (block 88's Low window) and Y-90 (his post's paragraph, my version's one AI sentence), each ask in
+  his words with the human tells named and its panel linked (`pangram_links_check.py` passes).
+- **Pages**: Neuro De-Armoring Checks republished with the results ("Nothing to do here"); the questions page (version 10)
+  with the 16:12 section; question 8 still open.
+- **Delegations**: a Sonnet and a Haiku subagent, the panel's readers for the four second tries, then one each for b090:
+  done, summarized by `tell_panel.py summarize`. Codex on the laptop (its configured model, read-only, ephemeral): the
+  panel's third reader for the same five, and the four rewrites from `rewrite-prompt`, checked by the fidelity check and
+  then Pangram: done (one Mixed, three AI).
+
+## 2026-11-04, after Joel's messages of 14:42 UTC ("done continue") and 14:59 UTC (the web app's credits): six drafts, four checked and 100% AI; the API out of credits; the panel and second tries; his checks in the web app
+
+His messages, word for word: `fix-20261104/joel-20261104-1442-message.txt` ("done continue"; pull request 290 merged at
+14:41:55) and `fix-20261104/joel-20261104-1459-message.txt` ("i'm not topping up the api unless you think it's really
+important because we have tons of gui credits still"). **The mailbox first** (`state/mailbox/claude-community-joel-1018.json`,
+"2026-11-04 14:42"); main merged twice this turn (1b2ef3dc, then eb7496ab, a fast-forward: pull request 294 and Inner Child
+turn 123, no shared rule or tool changed). Nothing in the article changed: HUMANIZED-SO-FAR.md is still c73f5b5d.
+
+- **Six first tries, his moves** (`fix-20261104/next1/blocks/`, blocks 85, 86, 88 to 91: the uridine stop signs and
+  psychedelic caution, then the 5-HTP "Who this is for", tool, Scott's doses and trial), each passing the fidelity check by
+  itself and together. Batch x1104j through the API (`fix-20261104/checks/x1104j/RESULTS.md`): the four that ran read 100%
+  AI, all four predicted (ND1104-B085#74, B086#75, B088#76, B089#77); the API answered HTTP 402 "Insufficient credits" at
+  the fifth, so B090#78 and B091#79 are void (never sent). `record_r1102.py` needs a log of JSON lines only, so the run's
+  log was split (`API-X1104j.log` as it came, `API-X1104j-results.log` the results).
+- **The tell panel on the four** (E346: his post's baseline read AI in both sections, so the first tries were each
+  lineage's second AI read): `fix-20261104/panel/b085-n1/`, `b086-n1/`, `b088-n1/` and `b089-n1/` (PANEL.md each). Every
+  sentence of all four was agreed by two or three readers: the label openers and "In practice"; the even symptom and use
+  lists; "take that as a safety signal", "this isn't a casual experiment"; "discusses its role in"; the balanced "mixed ...
+  but real enough"; and the build, claim, caveat, mechanism, list, instruction. Codex called "chasing the old visual
+  threshold can overshoot", "a spaced-out kind of brain fog" and "low-serotonin-looking pattern" human.
+- **Second tries of the four** (`fix-20261104/next2/blocks/`; `next2/check_next2.py` writes `CHECK-NEXT2.json`): every
+  agreed sentence changed; the fidelity check passes each by itself and all six together. The linter's FAILs are the
+  protocol's own lists (E125: the eight stop signs, the post's "wired, numb, or weirdly irritable", the four exclusions,
+  W042's list, the four first signs), recorded and not cut; the rest are REVIEW items. **A meaning slip found**: my first try
+  of the tool paragraph said the review covers 5-HTP's "use ... in serotonin-toxicity cases"; the review (Maffei 2020,
+  PMC7796270, read this turn) treats serotonin syndrome as a risk of 5-HTP (sections 8.2.1 and 9), so the second try says
+  "the serotonin-toxicity risk". The first try never went into the article.
+- **Question 7, answered by his 14:59 message**: he checks each paragraph in Pangram's web app with his account's credits;
+  the API isn't topped up (my view, which he asked for: it isn't really important, since the web app gives the same reading
+  per paragraph; the cost is a round with him per set). `fix-20261104/checks/predict_batch.py` now takes `--detector`, so
+  the ledger says who checks. Batch x1104k: the four second tries and the two unsent first tries, predicted before his
+  checks (ND1104-B085#80 to ND1104-B091#85, all AI, 25% to 35%; `checks/x1104k/PREDICTIONS.md`), on a page of copy buttons,
+  **Neuro De-Armoring Checks** (https://claude.ai/artifact/YW7suTvNrjNPvu1wApM93E, `checks/x1104k/build_check_page.py`,
+  CHECK-PAGE.html): each button copies the paragraph alone (E326), tested in Chromium by reading the clipboard back, all six
+  exact, with no sideways scroll at 400 px.
+- **Questions page** (`OWNER-QUESTIONS.md`, republished to https://claude.ai/artifact/8cWv5mbXY8y53RL1nhvzky, version 9):
+  question 7 answered; question 8 (may a warning's words change if its meaning stays) open.
+- **Delegations**: one Sonnet subagent and one Haiku subagent, each the tell panel's reader for all four drafts (four
+  prompts each, from `tell_panel.py prompt`), checked by `tell_panel.py summarize` (agreement across readers): done. Codex on
+  the laptop (`codex exec --ephemeral -s read-only`, its configured model) as the third reader of the same four: done, all
+  four exit 0.
+
 ## 2026-11-04, after Joel's message of 14:28 UTC ("pr 290 has conflicts")
 
 **The mailbox first** (`state/mailbox/claude-community-joel-1018.json`, "2026-11-04 14:28"). 292 (Inner Child turn 122)

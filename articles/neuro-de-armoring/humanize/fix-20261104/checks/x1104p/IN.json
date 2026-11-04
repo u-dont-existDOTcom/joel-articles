@@ -1,0 +1,20 @@
+{
+ "b092": {
+  "lineage": "ND1104-B092",
+  "name": "the 5-HTP stop signs, first try (the point first)",
+  "text": "Side effects / stop signs: The big one to watch out for is agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure. Stop immediately if you get that, since it can be a sign of serotonin toxicity, which can become dangerous. Other stop signs include nausea, stomach discomfort, loose stools, headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright / hypomanic feeling.",
+  "chance": 0.3,
+  "why": "the point first (E357): the dangerous pattern and why it matters to stop, then the other stop signs in his Y-85 shape (\"Other stop signs include\"); his symptom lists kept whole (E336: the protocol's required lists stay)",
+  "diagnosis": "the baseline (his post) read AI in this section (n1102-07 5-HTP, 82.1% AI, one AI window of 441 words over all of it); its first try: his order and connectors, his \"+\" list kept as he wrote it",
+  "decides": "whether the stop signs go in, or a second try after the readers' panel"
+ },
+ "b093": {
+  "lineage": "ND1104-B093",
+  "name": "the 5-HTP hard interaction rule, first try (the point first)",
+  "text": "Hard interaction rule: Don't mix 5-HTP casually with other serotonin-raising drugs or supplements, as serotonin syndrome is most often a multi-drug / stack problem. There's case literature and clinical reviews warning about that risk when 5-HTP is combined with antidepressants or MAOIs (see this dietary supplement interaction case report). MedlinePlus also has a general overview of serotonin syndrome. If you're doing psychedelics, avoid 5-HTP on your psychedelic days, and be especially strict around ayahuasca / harmala MAOI chemistry and iboga / ibogaine.",
+  "chance": 0.25,
+  "why": "the rule first with its reason (serotonin syndrome is most often a stack problem), then the sources as things the reader can place (\"see this ... case report\"; MedlinePlus's overview), then the advice for psychedelic users said to them (\"If you're doing psychedelics\") instead of \"For this readership\"",
+  "diagnosis": "the baseline (his post) read AI in this section (n1102-07 5-HTP, 82.1% AI, one AI window of 441 words over all of it); its first try",
+  "decides": "whether the hard interaction rule goes in, or a second try after the readers' panel"
+ }
+}

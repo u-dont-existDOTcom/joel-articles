@@ -1,0 +1,164 @@
+{
+ "version": "4.1",
+ "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+ "headline": "Human Written",
+ "prediction_short": "Human",
+ "fraction_human": 1,
+ "num_ai_segments": 0,
+ "document_confidence": {
+  "level": "High",
+  "boundary": null
+ },
+ "domain": "substack",
+ "content_type": "long_post",
+ "link": "https://www.pangram.com/feed/6c933a47-c73e-45e2-825b-173a3603969e",
+ "created_at": "2026-11-04T11:46:14.085388-05:00",
+ "task_id": "1682a878-b4f8-4326-8ce9-12f25d12142b",
+ "fraction_ai": 8.337899407436912e-19,
+ "fraction_breakdown": {
+  "ai": {
+   "low-confidence": 8.337899407436912e-19,
+   "high-confidence": 0,
+   "medium-confidence": 0
+  },
+  "human": {
+   "low-confidence": 0,
+   "high-confidence": 1,
+   "medium-confidence": 0
+  },
+  "ai-assisted": {
+   "lightly": 2.4183645047366034e-21,
+   "moderately": 0
+  }
+ },
+ "verdict_support": {
+  "ai": 0,
+  "human": 1,
+  "mixed": 0,
+  "source": "sentence_dp",
+  "ai_threshold": 0.800000011920929,
+  "human_threshold": 0.8999999761581421,
+  "human_coverage_mean": 1
+ },
+ "num_human_segments": 5,
+ "word_count": 11945,
+ "n_windows": 10,
+ "text_sha256": "b5b37505609860eabd2a26547a2fe32249b30639371df93b1e25fe82e7923823",
+ "compact_sha256": "d366f8d014606d34ac027d9421d85b4119828726c4ae9ffcf82df0c7c34500ab",
+ "windows_word_sum": 11485,
+ "windows_ai": 0,
+ "windows_human": 10,
+ "check_text": "experiments/t126-substack/CHECK-B.txt",
+ "windows": [
+  {
+   "label": "Human",
+   "confidence": "High",
+   "start": 0,
+   "end": 9653,
+   "words": 1749,
+   "ai_likelihood": 1.4225183119665147e-21,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9988243584376494,
+   "uncertainty_highlighting": false
+  },
+  {
+   "label": "Human",
+   "confidence": "High",
+   "start": 9653,
+   "end": 19550,
+   "words": 1742,
+   "ai_likelihood": 1.4225183119665147e-21,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9988243584376494,
+   "uncertainty_highlighting": false
+  },
+  {
+   "label": "Human",
+   "confidence": "High",
+   "start": 19550,
+   "end": 29222,
+   "words": 1710,
+   "ai_likelihood": 1.4225183119665147e-21,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9988243584376494,
+   "uncertainty_highlighting": false
+  },
+  {
+   "label": "Human",
+   "confidence": "High",
+   "start": 29222,
+   "end": 35094,
+   "words": 1006,
+   "ai_likelihood": 1.4225183119665147e-21,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9988243584376494,
+   "uncertainty_highlighting": false
+  },
+  {
+   "label": "Human",
+   "confidence": "Medium",
+   "start": 35094,
+   "end": 35100,
+   "words": 1,
+   "ai_likelihood": 9.714846526930675e-17,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9892909364252324,
+   "uncertainty_highlighting": false
+  },
+  {
+   "label": "Human",
+   "confidence": "High",
+   "start": 35100,
+   "end": 38926,
+   "words": 725,
+   "ai_likelihood": 6.020797212280637e-23,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9987582593037946,
+   "uncertainty_highlighting": false
+  },
+  {
+   "label": "Human",
+   "confidence": "Medium",
+   "start": 38926,
+   "end": 38943,
+   "words": 3,
+   "ai_likelihood": 3.125154105157869e-15,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9867167280997569,
+   "uncertainty_highlighting": false
+  },
+  {
+   "label": "Human",
+   "confidence": "High",
+   "start": 38943,
+   "end": 48372,
+   "words": 1701,
+   "ai_likelihood": 1.0497277402467378e-20,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9988861325682077,
+   "uncertainty_highlighting": false
+  },
+  {
+   "label": "Human",
+   "confidence": "High",
+   "start": 48372,
+   "end": 58071,
+   "words": 1739,
+   "ai_likelihood": 1.0497277402467378e-20,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9988861325682077,
+   "uncertainty_highlighting": false
+  },
+  {
+   "label": "Human",
+   "confidence": "High",
+   "start": 58071,
+   "end": 64708,
+   "words": 1109,
+   "ai_likelihood": 1.0497277402467378e-20,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9988861325682077,
+   "uncertainty_highlighting": false
+  }
+ ]
+}

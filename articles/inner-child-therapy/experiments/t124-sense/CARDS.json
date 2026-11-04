@@ -1,0 +1,284 @@
+[
+ {
+  "kind": "fix",
+  "cid": "SR-10",
+  "typ": "slip",
+  "title": "Unfortunate, or Unfortunately",
+  "old": "Unfortunate in the sense that",
+  "new": "Unfortunately in the sense that",
+  "why": "The sentence before starts \"Fortunately in the sense that\", so this one pairs with it as \"Unfortunately in the sense that\".",
+  "note": "I'd fix it.",
+  "readers": [
+   1
+  ]
+ },
+ {
+  "kind": "fix",
+  "cid": "SR-68",
+  "typ": "slip",
+  "title": "Free twice",
+  "old": "a free new-age get-out-of-jail-free card",
+  "new": "a new-age get-out-of-jail-free card",
+  "why": "A get-out-of-jail-free card is free already, so the first \"free\" says it twice.",
+  "note": "I'd take out the first one, unless you doubled it on purpose.",
+  "readers": [
+   1
+  ]
+ },
+ {
+  "kind": "fix",
+  "cid": "SR-69",
+  "typ": "meaning",
+  "title": "Even if every case is different",
+  "old": "Even if every case is different",
+  "new": "Even if every case is debatable",
+  "why": "An \"even if\" grants something against the cases before you say you'd still read them. Every case being different doesn't count against them, so a word like \"debatable\" seems meant.",
+  "note": "I'd use \"debatable\". If you meant another word, Revise and type it.",
+  "readers": [
+   1
+  ]
+ },
+ {
+  "kind": "fix",
+  "cid": "SR-96",
+  "typ": "slip",
+  "title": "Comes in",
+  "old": "that's where Guide-building comes.",
+  "new": "that's where Guide-building comes in.",
+  "why": "The saying is \"that's where X comes in\", and the sentence stops one word short.",
+  "note": "I'd fix it.",
+  "readers": [
+   1
+  ]
+ },
+ {
+  "kind": "fix",
+  "cid": "SR-98",
+  "typ": "slip",
+  "title": "A full stop inside the quote",
+  "old": "scared.\" might be",
+  "new": "scared\" might be",
+  "why": "The quote sits in the middle of your sentence, so its full stop makes the sentence look finished before \"might be the most adult thing\".",
+  "note": "I'd take the full stop out.",
+  "readers": [
+   1
+  ]
+ },
+ {
+  "kind": "fix",
+  "cid": "SR-156",
+  "typ": "slip",
+  "title": "Glass half full",
+  "old": "to a glass \"half full perception.\"",
+  "new": "to a \"glass half full\" perception.",
+  "why": "The quote marks hold \"half full perception.\" where \"glass half full\" belongs, the way \"glass half empty\" has them earlier in the sentence.",
+  "note": "I'd fix it.",
+  "readers": [
+   1
+  ]
+ },
+ {
+  "kind": "fix",
+  "cid": "SR-212",
+  "typ": "slip",
+  "title": "Giving in to it",
+  "old": "giving into it",
+  "new": "giving in to it",
+  "why": "You give in to a want, so \"into\" is two words here.",
+  "note": "I'd fix it.",
+  "readers": [
+   2
+  ]
+ },
+ {
+  "kind": "fix",
+  "cid": "SR-262",
+  "typ": "slip",
+  "title": "Regardless of whether",
+  "old": "regardless whether",
+  "new": "regardless of whether",
+  "why": "\"Regardless whether\" is missing its \"of\".",
+  "note": "I'd fix it.",
+  "readers": [
+   2
+  ]
+ },
+ {
+  "kind": "fix",
+  "cid": "SR-11",
+  "typ": "form",
+  "title": "Two double hyphens",
+  "old": "handling--we see",
+  "new": "handling – we see",
+  "extra": [
+   [
+    "test--\"First",
+    "test – \"First"
+   ]
+  ],
+  "why": "These two places have \"--\" where the rest of your guide has your spaced dash ( – ).",
+  "note": "I'd make both your spaced dash.",
+  "readers": [
+   1,
+   3
+  ]
+ },
+ {
+  "kind": "fix",
+  "cid": "SR-438",
+  "typ": "meaning",
+  "title": "I'd ask, then I wouldn't bother",
+  "old": "So I'd ask this person",
+  "new": "So you could ask this person",
+  "why": "You say \"So I'd ask this person\" the question, and two sentences later \"personally I wouldn't even bother with that\", so it reads as if you'd both ask and not ask.",
+  "note": "I'd make it \"So you could ask this person\", which leaves your own view for the later sentence.",
+  "readers": [
+   3,
+   4
+  ]
+ },
+ {
+  "kind": "fix",
+  "cid": "SR-439",
+  "typ": "slip",
+  "title": "The Talkspace therapy bot",
+  "old": "with TalkSpace therapy bot",
+  "new": "with the Talkspace therapy bot",
+  "why": "The sentence is missing \"the\", and the company spells its name Talkspace.",
+  "note": "I'd fix both.",
+  "readers": [
+   3,
+   4
+  ]
+ },
+ {
+  "kind": "fix",
+  "cid": "SR-514",
+  "typ": "meaning",
+  "title": "Meet the protector first",
+  "old": "\"meet the protector first\"",
+  "new": "\"meet the guard first\"",
+  "why": "Your rule is that \"protector\" never means a guard, and here the quote calls IFS's protective parts \"the protector\". Your readers know the Protector as one of the grown-up's three jobs, so \"meet the protector first\" can read as meeting that job first.",
+  "note": "I'd make it \"meet the guard first\", in your guide's words. If you'd rather keep IFS's own word because the sentence is about IFS, Reject.",
+  "readers": [
+   3
+  ]
+ },
+ {
+  "kind": "fix",
+  "cid": "SR-517",
+  "typ": "slip",
+  "title": "Whoever accesses it",
+  "old": "to whomever accesses it",
+  "new": "to whoever accesses it",
+  "why": "It's the one who accesses it, so the word is \"whoever\".",
+  "note": "I'd fix it.",
+  "readers": [
+   3
+  ]
+ },
+ {
+  "kind": "fix",
+  "cid": "SR-76",
+  "typ": "form",
+  "title": "Moulding or molding",
+  "old": "you're moulding",
+  "new": "you're molding",
+  "why": "Near the start your guide spells it \"molding\", and it uses American spelling everywhere else; here it's the British \"moulding\".",
+  "note": "I'd make it \"molding\".",
+  "readers": [
+   1
+  ]
+ },
+ {
+  "kind": "ask",
+  "cid": "SR-373",
+  "title": "The bars on the windows",
+  "quote": "I still played around with half-hanging out the windows",
+  "question": "Did the hanging out of the windows happen before your parents put the bars on?",
+  "why": "Read in order, the bars go on, and then you \"still\" half-hang out of the windows, which the bars would stop.",
+  "note": "If it came first, I'd change \"I still played around\" to \"Before that, I played around\". If the bars came first, I'd keep it.",
+  "readers": [
+   3,
+   4
+  ]
+ },
+ {
+  "kind": "leave",
+  "cid": "SR-212b",
+  "title": "A rung on the desire treadmill",
+  "quote": "a rung on the desire treadmill",
+  "reader_said": "a treadmill has no rungs, so the picture doesn't work.",
+  "why_leave": "I'd leave it. It's your image, and what it says, one more want that never gets you anywhere, comes across.",
+  "readers": [
+   2
+  ],
+  "reader_old": "a rung on the desire treadmill",
+  "reader_new": "a step on the desire treadmill"
+ },
+ {
+  "kind": "leave",
+  "cid": "SR-384",
+  "title": "Feel like yours, then become your own",
+  "quote": "something bigger than you, before that love starts to feel like yours, and then bit by bit it starts to become your own",
+  "reader_said": "the sentence says the same step twice.",
+  "why_leave": "I'd leave it. Feeling that the love is yours comes before it really is yours, and that's the order the sentence gives.",
+  "readers": [
+   3
+  ],
+  "reader_old": "something bigger than you, before that love starts to feel like yours, and then bit by bit it starts to become your own",
+  "reader_new": "something bigger than you, and then bit by bit that love starts to become your own"
+ },
+ {
+  "kind": "fix",
+  "cid": "SR-417",
+  "typ": "meaning",
+  "title": "Water dripping through your hand",
+  "old": "feels like water dripping through your hand",
+  "new": "feels like water slipping through your hand",
+  "why": "The picture is what you knew getting away from you, which water does by slipping through your hand; dripping is slower, and the water stays.",
+  "note": "I'd make it \"slipping\". If \"dripping\" is the picture you meant, Reject.",
+  "readers": [
+   4
+  ]
+ },
+ {
+  "kind": "fix",
+  "cid": "SR-462",
+  "typ": "slip",
+  "title": "Bring someone mighty down",
+  "old": "Do you want to break someone mighty down?",
+  "new": "Do you want to bring someone mighty down?",
+  "why": "The saying for toppling someone powerful is \"bring someone down\", and \"break someone mighty down\" reads like two sayings run together.",
+  "note": "I'd make it \"bring\".",
+  "readers": [
+   4
+  ]
+ },
+ {
+  "kind": "fix",
+  "cid": "SR-465",
+  "typ": "meaning",
+  "title": "Call yourself out first",
+  "old": "call yourself out for it instead.",
+  "new": "call yourself out for it first.",
+  "why": "\"Instead\" says not to call them out at all. The verse just before it takes the log out of your own eye first, and the words you and Tyler came up with call yourself out first and then name what he was doing.",
+  "note": "I'd make it \"first\".",
+  "readers": [
+   4
+  ]
+ },
+ {
+  "kind": "fix",
+  "cid": "SR-516",
+  "typ": "meaning",
+  "title": "Very powerful meditations",
+  "old": "in very powerful meditations.",
+  "new": "in very powerful altered states.",
+  "why": "The example that follows is getting super high on weed, which isn't a meditation.",
+  "note": "I'd make it \"altered states\", which covers both. If you meant meditations and the weed story as one more time it happened, Reject.",
+  "readers": [
+   4
+  ]
+ }
+]

@@ -1,0 +1,141 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "neuro-de-armoring-cards-20261104-x1104d",
+ "title": "Neuro De-Armoring Cards, 4 November (3)",
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104D.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "fb288da650e5d3df19b4970eb5616c0b4aad0a249b1aedf48959c1ac88c4c5de"
+ },
+ "built": "2026-11-04 16:56 UTC",
+ "generator": "suggestion_review.py 1.6 (2026-11-04)",
+ "exported_at": "2026-11-04T18:09:56.804Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 6,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "Y-85",
+   "type": "help",
+   "title": "\"Side effects / stop signs: In practice, the most common problem is the \"choline headache\" ...\"",
+   "where": "Dopamine Receptor Burnout / DAWS Pattern: Uridine Monophosphate, P5",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Side effects / stop signs: In practice, the most common problem is the \"choline headache\", or a spaced-out kind of brain fog. That isn't shown in the studies I've seen, but the likely reason is that UMP speeds up neuronal and synaptic membrane synthesis, which places a higher demand on choline than what people may normally get from diet alone. Other stop signs include insomnia, jitteriness, racing thoughts, irritability, emotional flatness, nausea, stomach cramps, or loose stools. ",
+   "comment": "i clarified the choline issue, but that didn't fix it yet: https://www.pangram.com/history/79414d36-6063-4ae4-991a-988e27332da0?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\n\"i've seen\" fixed a part of the AI issue, because \"the studies\" is referencing which studies? https://www.pangram.com/history/8b48eb26-8bf6-4ae6-9601-8cebafedd948?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\noh, you were overcompleting, repeating yourself on the last line, i cut that and now it's all good: https://www.pangram.com/history/ed3c43bd-63c0-4802-8bfd-8ee01afd2f1f?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "Side effects / stop signs: In practice, the most common problem is the \"choline headache\" or spaced-out brain fog. It isn't in the studies, but the likely reason is that if UMP accelerates membrane synthesis while choline availability is low, the system can feel under-supplied. Other stop signs include insomnia, jitteriness, racing thoughts, irritability, emotional flatness, nausea, stomach cramps, or loose stools. If it makes you wired, numb, or weirdly irritable, stop. Do not push through.",
+   "before": "Side effects / stop signs: In practice, the most common problem is the \"choline headache\" or spaced-out brain fog. It isn't in the studies, but the likely reason is that if UMP accelerates membrane synthesis while choline availability is low, the system can feel under-supplied. Other stop signs include insomnia, jitteriness, racing thoughts, irritability, emotional flatness, nausea, stomach cramps, or loose stools. If it makes you wired, numb, or weirdly irritable, stop. Do not push through.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T17:15:38.901Z"
+    }
+   ],
+   "updated": "2026-11-04T17:24:49.065Z"
+  },
+  {
+   "id": "Y-86",
+   "type": "help",
+   "title": "\"Psychedelic caution: If UMP makes dreams vivid or suddenly lowers psychedelic tolerance ...\"",
+   "where": "Dopamine Receptor Burnout / DAWS Pattern: Uridine Monophosphate, P6",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Vivid dreams and increased sensitivity to psychedelics are the hoped-for benefits of UMP. That means you should not take the old high doses of your psychedelic at first, as it might hit you way harder than you expected.",
+   "comment": "idk where this safety warning came from, doesn't make much sense at all. ",
+   "my_version": "Psychedelic caution: If UMP makes dreams vivid or suddenly lowers psychedelic tolerance, treat that as a safety signal. Do not take UMP on psychedelic days. If you use psychedelics later, assume your previous dose may be too strong and that chasing the old visual threshold can overshoot.",
+   "before": "Psychedelic caution: If UMP makes dreams vivid or suddenly lowers psychedelic tolerance, treat that as a safety signal. Do not take UMP on psychedelic days. If you use psychedelics later, assume your previous dose may be too strong and that chasing the old visual threshold can overshoot.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T17:25:46.432Z"
+    }
+   ],
+   "updated": "2026-11-04T17:27:16.720Z"
+  },
+  {
+   "id": "Y-88",
+   "type": "help",
+   "title": "\"It makes more sense if there's also a genetic or clinical reason ...\"",
+   "where": "Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P, P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Who this is for: 5-HTP is not for every depressed person either. It could help, though, with a low-serotonin-looking pattern, where it's hard to fall asleep and your mood is low, without much warmth to it. At night you get anxious and keep going over the same things. It makes more sense if there's also a genetic or clinical reason to suspect a bottleneck in serotonin synthesis, like with Scott, whose genetic data pointed to a TPH2 bottleneck, and 5-HTP helped his sleep and mood.  I'd avoid casually experimenting with 5-HTP if you're agitated or manic, as it could sometimes push that further. And watch out for serotonin syndrome risk if you're on serotonergic meds, or using serotonergic psychedelics/entactogens.",
+   "comment": "fully passes now: https://www.pangram.com/history/d4e2622f-359a-4b2e-85ad-e3aee9d053ab?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nas before, the fix was to give the reader payoff sooner so they understand why they should read. the way you wrote that last part in your best try, we have to read all the way to the end of the sentence before we understand why we were reading the sentence, so then it's double work also, mentally going back and forth to understand. how come i keep explaining this and you keep forgetting? i'm sure i explained it so many times, and especially recently i've explicitly explained it to various chats working on humanizing, and i'm surprised i need to explain it at all since you should notice this as a pattern that AI has with all the pairs we've got to look at.",
+   "my_version": "Who this is for: 5-HTP is not for every depressed person either. It could help, though, with a low-serotonin-looking pattern, where it's hard to fall asleep and your mood is low, without much warmth to it. At night you get anxious and keep going over the same things. It makes more sense if there's also a genetic or clinical reason to suspect a bottleneck in serotonin synthesis, like with Scott, whose genetic data pointed to a TPH2 bottleneck, and 5-HTP helped his sleep and mood. If you're already agitated, manic, on serotonergic meds, or using serotonergic psychedelics/entactogens, you shouldn't be casually experimenting with it.",
+   "before": "Who this is for: 5-HTP is not for every depressed person either. It could help, though, with a low-serotonin-looking pattern, where it's hard to fall asleep and your mood is low, without much warmth to it. At night you get anxious and keep going over the same things. It makes more sense if there's also a genetic or clinical reason to suspect a bottleneck in serotonin synthesis, like with Scott, whose genetic data pointed to a TPH2 bottleneck, and 5-HTP helped his sleep and mood. If you're already agitated, manic, on serotonergic meds, or using serotonergic psychedelics/entactogens, you shouldn't be casually experimenting with it.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T17:30:29.120Z"
+    }
+   ],
+   "updated": "2026-11-04T17:32:56.434Z"
+  },
+  {
+   "id": "Y-89",
+   "type": "help",
+   "title": "\"The tool:5-HTP bypasses the tryptophan-to-5-HTP step ...\"",
+   "where": "Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P, P2",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "The tool: 5-HTP is a serotonin precursor, meaning your body uses it to make serotonin, which has been simplified online as the \"feel happy neurotransmitter.\" People who respond to it can feel it quickly, because the mechanism is real, although it's not as strong as some hype it up to be for sleep or mood. 5-HTP has a lot of other functions in the brain and body as well, according to this broad review, including treatment of anxiety, myoclonus, obesity, but it carries a risk of serotonin-toxicity if levels go too high too fast, because it skips over the tryptophan conversion bottleneck.",
+   "comment": "i fixed it, that was a lot of work to reverse the order of how it was written, but you can see now it reads easily and flows correctly so we don't have to remember what we read to understand the points. \nfully human on pangram: https://www.pangram.com/history/a72831f6-6bba-4f3f-a0f9-c9221286437e?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nbut i did that just as another example for you to learn from bewcause \ni'd cut this whole paragraph or merge anything important from it into the last one, looks very redundant and i wouldn' tbe surprised if it still reads ai in the section bc of that",
+   "my_version": "The tool:5-HTP bypasses the tryptophan-to-5-HTP step and gives the body a more direct serotonin precursor. A broad review of 5-HTP discusses its role in serotonin biology and its use in mood, anxiety, sleep, obesity, myoclonus, and serotonin-toxicity contexts. The evidence for depression and sleep is mixed and not as strong as people online imply, but the mechanism is real enough that responders can feel it quickly.",
+   "before": "The tool:5-HTP bypasses the tryptophan-to-5-HTP step and gives the body a more direct serotonin precursor. A broad review of 5-HTP discusses its role in serotonin biology and its use in mood, anxiety, sleep, obesity, myoclonus, and serotonin-toxicity contexts. The evidence for depression and sleep is mixed and not as strong as people online imply, but the mechanism is real enough that responders can feel it quickly.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T17:34:23.563Z"
+    }
+   ],
+   "updated": "2026-11-04T17:47:48.985Z"
+  },
+  {
+   "id": "Y-90",
+   "type": "help",
+   "title": "\"Scott's version: 100 mg 5-HTP sublingually at night ...\"",
+   "where": "Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P, P3",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Scott took 100 mg 5-HTP sublingually at night, with 10–20 mg P5P sublingually in the morning. The P5P isn't there as a stimulant, but as the active form of vitamin B6, which the enzyme that turns 5-HTP into serotonin (aromatic amino-acid decarboxylase) needs. He's genetically slow-COMT, making him sensitive to too much P5P.",
+   "comment": "fixed it, fully human: https://www.pangram.com/history/9829b9d7-ca66-42ca-8226-218a0dcbc92d?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nai tells: \"the low dose matters, and more isn't better\" sounds like super generic ai phrasing which contains overcompletion, you don't see that? Ai is always saying stuff \"MATTERS\" ... that's very high freq AI word, because it is super extremely portable, can mean almost anything. not saying never to use it but don't use it if a more specific word would give more sense\n\nanother ai tell was not explaining why slow-COMT is related to being sensitive, like you had 2 statements just floating there, what were they for? nobody knows",
+   "my_version": "Scott's version: 100 mg 5-HTP sublingually at night, with 10–20 mg P5P sublingually in the morning. The P5P is there as the active B6 cofactor for aromatic amino-acid decarboxylase, not as a stimulant. Scott is slow-COMT and sensitive to too much P5P, so the low dose matters. More is not better.",
+   "before": "Scott's version: 100 mg 5-HTP sublingually at night, with 10–20 mg P5P sublingually in the morning. The P5P is there as the active B6 cofactor for aromatic amino-acid decarboxylase, not as a stimulant. Scott is slow-COMT and sensitive to too much P5P, so the low dose matters. More is not better.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T17:48:40.433Z"
+    }
+   ],
+   "updated": "2026-11-04T17:53:28.687Z"
+  },
+  {
+   "id": "Y-91",
+   "type": "help",
+   "title": "\"Trial: Start lower if you are sensitive: 50 mg 5-HTP at night ...\"",
+   "where": "Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P, P4",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "If you're sensitive, start lower and do the trial with just 50mg 5-HTP at night for 2–3 nights, then go up to 100mg if 50mg was clearly helpful and not causing side effects. You can also add 10–20mg P5P in the morning, like Scott did, especially if the 5-HTP felt like it \"almost worked,\" as that could be a sign it wasn't converting cleanly over to serotonin. Don't do the trial at the same time as the other suggested regimen changes (like UMP, agmatine, D-serine, psychedelics, or prescription medication changes), since the point is to see whether the 5-HTP itself is doing anything. If it's the right tool, the first things you'll usually notice are your mood or sleep quality improves, you have less nighttime rumination, and your dreams become more vivid or memorable",
+   "comment": "i made a bunch of clarity enhancements, but nothing flipped: https://www.pangram.com/history/9321fa5f-936f-4b48-88cb-c752764af09c?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nthe first version i got that had a human stretch was this one, where i explained better that the other things were suggested https://www.pangram.com/history/1c02c2a5-5372-4b32-8fe5-5294d9c643a6?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nthen i just removed spaces before \"mg\" and that helped a bit even tho not where i did that: https://www.pangram.com/history/f6d1804a-c35a-4c62-ae63-fe181e5f39d7?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\ndon't think i've seen humans put spaces there \n\noh i forgot one space before another mg, put that in, and it again improved the score altho not where i fixed that: https://www.pangram.com/history/04e2b015-78d6-45fb-b52f-e3c444e3a4a6?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nfixed the tense to make it clearer, and added \"just\" before 50mg which makes more sense since we're saying lower, that brought it all human: https://www.pangram.com/history/9dfedb8e-4091-4ede-b6c8-cc78d74ab3cf?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\ni removed \"just\" and it went to 87% ai!: https://www.pangram.com/history/c70bc3d1-b59a-4cf7-9446-47f43000bbd0?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nthen i put \"just\" in slightly the wrong place, and it didn't work: https://www.pangram.com/history/12fc339f-483b-4c7a-b7b9-a6ce47ade882?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\ni thought adding \"of\" to P5P would make it a bit clearer but that brought it back to 46% ai from 100% human! https://www.pangram.com/history/8f71b245-b899-407d-b7bb-712e5f76f1db?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\ni got it all high conf by addding \"like scott did\" https://www.pangram.com/history/66a972f2-4286-494d-96b7-179670418738?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "Trial: Start lower if you are sensitive: 50 mg 5-HTP at night for 2–3 nights, then 100 mg only if the lower amount is clearly helpful and not activating. Optional P5P: 10–20 mg in the morning, especially if 5-HTP feels like it \"almost works\" but is not converting cleanly. Do not combine the trial with UMP, agmatine, D-serine, psychedelics, or medication changes. If it is the right tool, the first signal is usually sleep quality, dream tone, mood warmth, or reduced nighttime rumination.",
+   "before": "Trial: Start lower if you are sensitive: 50 mg 5-HTP at night for 2–3 nights, then 100 mg only if the lower amount is clearly helpful and not activating. Optional P5P: 10–20 mg in the morning, especially if 5-HTP feels like it \"almost works\" but is not converting cleanly. Do not combine the trial with UMP, agmatine, D-serine, psychedelics, or medication changes. If it is the right tool, the first signal is usually sleep quality, dream tone, mood warmth, or reduced nighttime rumination.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T17:59:56.326Z"
+    }
+   ],
+   "updated": "2026-11-04T18:09:36.717Z"
+  }
+ ]
+}

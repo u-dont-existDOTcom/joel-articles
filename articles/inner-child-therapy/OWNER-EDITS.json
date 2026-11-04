@@ -3839,7 +3839,6 @@
     "My ex, X, taught me",
     "another ex of mine (X)",
     "like what year Pharaoh Tutankhamun",
-    "so “meet the protector first” would fit right in over there",
     "I call it pl/ork (play + work)!",
     "As Lao Tsu might have said (if I could ever have read that whole boring Art of War book)"
    ],
@@ -3854,6 +3853,15 @@
     "therapeutic holding",
     "«",
     "»"
+   ],
+   "changes": [
+    {
+     "at": "2026-11-04 16:11 UTC (experiments/t125-answers/ANSWERS-20261104-1611.json)",
+     "removed": {
+      "must_contain": "so “meet the protector first” would fit right in over there"
+     },
+     "why": "he approved card SR-514 of the sense-read marking page: \"meet the guard first\" (joel-125-sr-514)"
+    }
    ]
   },
   {
@@ -4103,6 +4111,230 @@
     "Nurterer",
     "the way they keeping",
     "it has become to carry"
+   ]
+  },
+  {
+   "id": "joel-125-sr-10",
+   "status": "applied",
+   "what": "Card SR-10 of the sense-read marking page (Unfortunate, or Unfortunately), which he approved: \"Unfortunate in the sense that\" to \"Unfortunately in the sense that\".",
+   "joel": "2026-11-04 16:11 UTC (experiments/t125-answers/ANSWERS-20261104-1611.json)",
+   "where": "The Chicken-and-Egg Problem, P1",
+   "must_contain": [
+    "Unfortunately in the sense that"
+   ],
+   "must_not_contain": [
+    "Unfortunate in the sense that"
+   ]
+  },
+  {
+   "id": "joel-125-sr-68",
+   "status": "applied",
+   "what": "Card SR-68 of the sense-read marking page (Free twice), which he approved: \"a free new-age get-out-of-jail-free card\" to \"a new-age get-out-of-jail-free card\".",
+   "joel": "2026-11-04 16:11 UTC (experiments/t125-answers/ANSWERS-20261104-1611.json)",
+   "where": "The Spiritual Side of the Question, P3",
+   "must_contain": [
+    "a new-age get-out-of-jail-free card"
+   ],
+   "must_not_contain": [
+    "a free new-age get-out-of-jail-free card"
+   ]
+  },
+  {
+   "id": "joel-125-sr-76",
+   "status": "applied",
+   "what": "Card SR-76 of the sense-read marking page (Moulding or molding), which he approved: \"you're moulding\" to \"you're molding\".",
+   "joel": "2026-11-04 16:11 UTC (experiments/t125-answers/ANSWERS-20261104-1611.json)",
+   "where": "Borrow the Adult To Become the Adult, P1",
+   "must_contain": [
+    "you're molding"
+   ],
+   "must_not_contain": [
+    "you're moulding"
+   ]
+  },
+  {
+   "id": "joel-125-sr-96",
+   "status": "applied",
+   "what": "Card SR-96 of the sense-read marking page (Comes in), which he approved: \"that's where Guide-building comes.\" to \"that's where Guide-building comes in.\".",
+   "joel": "2026-11-04 16:11 UTC (experiments/t125-answers/ANSWERS-20261104-1611.json)",
+   "where": "Borrow One Competency at a Time, P2",
+   "must_contain": [
+    "that's where Guide-building comes in."
+   ],
+   "must_not_contain": [
+    "that's where Guide-building comes."
+   ]
+  },
+  {
+   "id": "joel-125-sr-98",
+   "status": "applied",
+   "what": "Card SR-98 of the sense-read marking page (A full stop inside the quote), which he approved: \"scared.\" might be\" to \"scared\" might be\".",
+   "joel": "2026-11-04 16:11 UTC (experiments/t125-answers/ANSWERS-20261104-1611.json)",
+   "where": "Noticing Counts, P1",
+   "must_contain": [
+    "scared\" might be"
+   ],
+   "must_not_contain": [
+    "scared.\" might be"
+   ]
+  },
+  {
+   "id": "joel-125-sr-156",
+   "status": "applied",
+   "what": "Card SR-156 of the sense-read marking page (Glass half full), which he approved: \"to a glass \"half full perception.\"\" to \"to a \"glass half full\" perception.\".",
+   "joel": "2026-11-04 16:11 UTC (experiments/t125-answers/ANSWERS-20261104-1611.json)",
+   "where": "Your Loan is PRE-APPROVED!, P2",
+   "must_contain": [
+    "to a \"glass half full\" perception."
+   ],
+   "must_not_contain": [
+    "to a glass \"half full perception.\""
+   ]
+  },
+  {
+   "id": "joel-125-sr-212",
+   "status": "applied",
+   "what": "Card SR-212 of the sense-read marking page (Giving in to it), which he approved: \"giving into it\" to \"giving in to it\".",
+   "joel": "2026-11-04 16:11 UTC (experiments/t125-answers/ANSWERS-20261104-1611.json)",
+   "where": "Between Spoiling and Clamping Down, P2",
+   "must_contain": [
+    "giving in to it"
+   ],
+   "must_not_contain": [
+    "giving into it"
+   ]
+  },
+  {
+   "id": "joel-125-sr-262",
+   "status": "applied",
+   "what": "Card SR-262 of the sense-read marking page (Regardless of whether), which he approved: \"regardless whether\" to \"regardless of whether\".",
+   "joel": "2026-11-04 16:11 UTC (experiments/t125-answers/ANSWERS-20261104-1611.json)",
+   "where": "One Intention in the Morning, One Review at Night, P8",
+   "must_contain": [
+    "regardless of whether"
+   ],
+   "must_not_contain": [
+    "regardless whether"
+   ]
+  },
+  {
+   "id": "joel-125-sr-417",
+   "status": "applied",
+   "what": "Card SR-417 of the sense-read marking page (Water dripping through your hand), which he approved: \"feels like water dripping through your hand\" to \"feels like water slipping through your hand\".",
+   "joel": "2026-11-04 16:11 UTC (experiments/t125-answers/ANSWERS-20261104-1611.json)",
+   "where": "Practicing Differentiation, P5",
+   "must_contain": [
+    "feels like water slipping through your hand"
+   ],
+   "must_not_contain": [
+    "feels like water dripping through your hand"
+   ]
+  },
+  {
+   "id": "joel-125-sr-438",
+   "status": "applied",
+   "what": "Card SR-438 of the sense-read marking page (I'd ask, then I wouldn't bother), which he approved: \"So I'd ask this person\" to \"So you could ask this person\".",
+   "joel": "2026-11-04 16:11 UTC (experiments/t125-answers/ANSWERS-20261104-1611.json)",
+   "where": "Before You Tell the Hardest Stuff, P4",
+   "must_contain": [
+    "So you could ask this person"
+   ],
+   "must_not_contain": [
+    "So I'd ask this person"
+   ]
+  },
+  {
+   "id": "joel-125-sr-439",
+   "status": "applied",
+   "what": "Card SR-439 of the sense-read marking page (The Talkspace therapy bot), which he approved: \"with TalkSpace therapy bot\" to \"with the Talkspace therapy bot\".",
+   "joel": "2026-11-04 16:11 UTC (experiments/t125-answers/ANSWERS-20261104-1611.json)",
+   "where": "Before You Tell the Hardest Stuff, P5",
+   "must_contain": [
+    "with the Talkspace therapy bot"
+   ],
+   "must_not_contain": [
+    "with TalkSpace therapy bot"
+   ]
+  },
+  {
+   "id": "joel-125-sr-462",
+   "status": "applied",
+   "what": "Card SR-462 of the sense-read marking page (Bring someone mighty down), which he approved: \"Do you want to break someone mighty down?\" to \"Do you want to bring someone mighty down?\".",
+   "joel": "2026-11-04 16:11 UTC (experiments/t125-answers/ANSWERS-20261104-1611.json)",
+   "where": "Write It. Don't Send It Yet., P3",
+   "must_contain": [
+    "Do you want to bring someone mighty down?"
+   ],
+   "must_not_contain": [
+    "Do you want to break someone mighty down?"
+   ]
+  },
+  {
+   "id": "joel-125-sr-465",
+   "status": "applied",
+   "what": "Card SR-465 of the sense-read marking page (Call yourself out first), which he approved: \"call yourself out for it instead.\" to \"call yourself out for it first.\".",
+   "joel": "2026-11-04 16:11 UTC (experiments/t125-answers/ANSWERS-20261104-1611.json)",
+   "where": "Write It. Don't Send It Yet., P6",
+   "must_contain": [
+    "call yourself out for it first."
+   ],
+   "must_not_contain": [
+    "call yourself out for it instead."
+   ]
+  },
+  {
+   "id": "joel-125-sr-514",
+   "status": "applied",
+   "what": "Card SR-514 of the sense-read marking page (Meet the protector first), which he approved: \"\"meet the protector first\"\" to \"\"meet the guard first\"\".",
+   "joel": "2026-11-04 16:11 UTC (experiments/t125-answers/ANSWERS-20261104-1611.json)",
+   "where": "Internal Family Systems (IFS), P1",
+   "must_contain": [
+    "\"meet the guard first\""
+   ],
+   "must_not_contain": [
+    "\"meet the protector first\""
+   ]
+  },
+  {
+   "id": "joel-125-sr-516",
+   "status": "applied",
+   "what": "His own version on the sense-read marking page, card SR-516 (Very powerful meditations), word for word.",
+   "joel": "2026-11-04 16:11 UTC (experiments/t125-answers/ANSWERS-20261104-1611.json)",
+   "where": "Internal Family Systems (IFS), P3",
+   "must_contain": [
+    "in very powerful meditations and altered states."
+   ],
+   "must_not_contain": [
+    "in very powerful meditations."
+   ]
+  },
+  {
+   "id": "joel-125-sr-517",
+   "status": "applied",
+   "what": "Card SR-517 of the sense-read marking page (Whoever accesses it), which he approved: \"to whomever accesses it\" to \"to whoever accesses it\".",
+   "joel": "2026-11-04 16:11 UTC (experiments/t125-answers/ANSWERS-20261104-1611.json)",
+   "where": "Internal Family Systems (IFS), P4",
+   "must_contain": [
+    "to whoever accesses it"
+   ],
+   "must_not_contain": [
+    "to whomever accesses it"
+   ]
+  },
+  {
+   "id": "joel-126-dashes",
+   "status": "applied",
+   "what": "His two hyphens, \"--\", with no spaces, for each of the guide's nine dashes (seven em dashes in his ODT that the standard swap had made spaced en dashes, and two spaced en dashes he typed), by the standard swap as it is now (tools/humanization/typography_swap.py, E353 (Inner Child)).",
+   "joel": "2026-11-04 16:04 UTC, on card SR-11 of the sense-read marking page: \"no everything should be the 2 dashes not em-dash, em-dash is ai\"; 16:30 UTC, asked whether that meant all nine and the swap for every article: \"1 yes to both\" (experiments/t126-answers/JOEL-20261104-1630.md)",
+   "where": "The Chicken-and-Egg Problem, P1; Five Stages of Reparenting (stages 2 to 5); and three more paragraphs",
+   "must_contain": [
+    "On ne change pas--\"we don't change.\"",
+    "Begin to borrow adulthood--remember",
+    "bigger--perhaps much bigger--than"
+   ],
+   "must_not_contain": [
+    " – ",
+    "—"
    ]
   }
  ]

@@ -115,12 +115,33 @@ class FidelityKeys(unittest.TestCase):
         master = MASTER + '\nDo not stay numb—living in your head is the trap.\n'
         keys = fk.extract(master)
         self.assertTrue(fk.check(keys, master.replace('numb—living', 'numb – living'))['pass'])
+        self.assertTrue(fk.check(keys, master.replace('numb—living', 'numb--living'))['pass'])   # his two hyphens (E353 (Inner Child))
+        fish = fk.extract('Don\'t lean on tuna daily — mercury.\n')
+        self.assertTrue(fk.check(fish, 'Don\'t lean on tuna daily--mercury.\n')['pass'])   # a compound after his two hyphens
         self.assertTrue(fk.check(keys, master.replace('“push through”', '"push through"'))['pass'])
 
     def test_a_heading_in_capitals_is_not_a_compound(self):
         k = fk.extract('# THE SHIELD\n\nNAC: 1.8g – 2.4g (divided doses).\n')
         self.assertIn('NAC', k['terms'])
         self.assertNotIn('SHIELD', k['terms'])
+
+    def test_his_8a_lets_a_warning_be_reworded_but_holds_its_warning_word_compounds_and_numbers(self):
+        # Joel, 2026-11-04 18:10 UTC: "8a not sure why you had to ask that, the whole point is rewording stuff here"
+        reworded = MASTER.replace('Do not start UMP on the same day you start 5-HTP, agmatine or',
+                                  "Don't begin UMP the same day as 5-HTP, agmatine or")
+        self.assertFalse(fk.check(self.keys, reworded)['pass'])          # held to the sentence's own words by default
+        keys = dict(self.keys, warning_words={'rule': 'meaning', 'by': 'his answer 8a'})
+        self.assertTrue(fk.check(keys, reworded)['pass'])
+        self.assertFalse(fk.check(keys, reworded.replace("Don't begin UMP", 'Begin UMP'))['pass'])       # the warning word stays
+        self.assertFalse(fk.check(keys, reworded.replace('5-HTP, agmatine or', '5-HTP or'))['pass'])     # a compound stays
+        # a warning that names no compound and no number keeps its own words: they are what "stop" applies to
+        self.assertFalse(fk.check(keys, MASTER.replace('Stop immediately if it causes flatness or increased craving.',
+                                                       'Stop if you go flat.'))['pass'])
+
+    def test_his_50mg_is_the_posts_50_mg(self):
+        # Joel, 2026-11-04 18:09 UTC, on the 5-HTP trial: "don't think i've seen humans put spaces there"
+        self.assertTrue(fk.check(self.keys, MASTER.replace('150–300 mg', '150-300mg'))['pass'])
+        self.assertTrue(fk.check(self.keys, MASTER.replace('400mg (Night)', '400 mg (Night)'))['pass'])
 
 
 if __name__ == '__main__':

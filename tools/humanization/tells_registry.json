@@ -1622,10 +1622,6 @@
     {
      "file": "docs/HUMANIZATION-GATE.md",
      "quote": "whether a line is a quip at all stays a reader's call"
-    },
-    {
-     "file": "docs/HUMANIZATION-GATE.md",
-     "quote": "so many ai quips, we gotta remove or humanize those"
     }
    ],
    "reason": "\"whether a line is a quip at all stays a reader's call\" (GATE:132). O21 has only two stock forms."
@@ -2835,6 +2831,32 @@
    "example": "Trial: UMP 150–300 mg in the morning with food for 3–7 days."
   },
   {
+   "id": "W116",
+   "tell": "\"one ordinary\" (\"we gotta remove \"one ordinary\" anywhere lol so ai\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "we gotta remove \"one ordinary\" anywhere lol so ai"
+    }
+   ],
+   "rule": "O46",
+   "example": "When the body wants to move, do one ordinary task you can clearly finish. The kettle takes four minutes to boil."
+  },
+  {
+   "id": "W117",
+   "tell": "\"X does not Y\" (\"let's make sure \"X does not Y\" is changed in general that's super ai, humans don't use that so much\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "let's make sure \"X does not Y\" is changed in general that's super ai, humans don't use that so much"
+    }
+   ],
+   "rule": "X1",
+   "example": "The barn roof was patched in May. Urgency does not make a ladder safe, so we waited for the dry week."
+  },
+  {
    "id": "W118",
    "tell": "a negation, then its contrast as a new sentence (\"You can't tell from this whether X. It does suggest that Y.\"), where his version joins them with \", but\"",
    "kind": "mechanical",
@@ -2862,42 +2884,59 @@
   },
   {
    "id": "W115",
-   "tell": "an em dash (—), where his own paragraphs use a spaced en dash (\" – \")",
+   "tell": "an em dash (—), where he types two hyphens (\"--\"; until 2026-11-04 the swap made his spaced en dash, \" – \")",
    "kind": "mechanical",
    "sources": [
     {
      "file": "docs/HUMANIZATION-GATE.md",
      "quote": "Changing each em dash to the spaced en dash his own Human-at-High paragraphs use"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "Now `tools/humanization/typography_swap.py` makes every em dash, and every en dash with a space beside it, his two hyphens with no spaces"
     }
    ],
    "rule": "O63",
    "example": "We planted the garden late—the frost came early anyway."
   },
   {
-   "id": "W116",
-   "tell": "\"one ordinary\" (\"we gotta remove \"one ordinary\" anywhere lol so ai\")",
+   "id": "W119",
+   "tell": "the point waits for the end of the sentence: a long opening \"If ...\", \"When ...\" or \"Because ...\" clause before the advice (\"If you're already agitated, manic, on serotonergic meds, or using ..., you shouldn't ...\"), where his version says the advice first",
    "kind": "mechanical",
    "sources": [
     {
      "file": "docs/HUMANIZATION-GATE.md",
-     "quote": "we gotta remove \"one ordinary\" anywhere lol so ai"
+     "quote": "give the reader payoff sooner so"
     }
    ],
-   "rule": "O46",
-   "example": "When the body wants to move, do one ordinary task you can clearly finish. The kettle takes four minutes to boil."
+   "rule": "O65",
+   "example": "If you're already agitated, manic, on serotonergic meds, or using serotonergic psychedelics or entactogens, you shouldn't be casually experimenting with it."
   },
   {
-   "id": "W117",
-   "tell": "\"X does not Y\" (\"let's make sure \"X does not Y\" is changed in general that's super ai, humans don't use that so much\")",
+   "id": "W120",
+   "tell": "\"matters\" as a portable verb (\"the low dose matters\"), where a more specific word says what it does",
    "kind": "mechanical",
    "sources": [
     {
      "file": "docs/HUMANIZATION-GATE.md",
-     "quote": "let's make sure \"X does not Y\" is changed in general that's super ai, humans don't use that so much"
+     "quote": "that's very high freq AI word, because it is super extremely"
     }
    ],
-   "rule": "X1",
-   "example": "The barn roof was patched in May. Urgency does not make a ladder safe, so we waited for the dry week."
+   "rule": "O66",
+   "example": "He is sensitive to too much P5P, so the low dose matters."
+  },
+  {
+   "id": "W121",
+   "tell": "a space between a dose and \"mg\" (\"50 mg\"), which he writes \"50mg\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "don't think i've seen humans put spaces there"
+    }
+   ],
+   "rule": "O67",
+   "example": "Start with 50 mg at night for two nights."
   }
  ]
 }

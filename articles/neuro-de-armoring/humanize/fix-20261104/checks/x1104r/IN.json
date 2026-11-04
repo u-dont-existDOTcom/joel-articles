@@ -1,0 +1,22 @@
+{
+ "b092": {
+  "lineage": "ND1104-B092",
+  "name": "the 5-HTP stop signs, third try (after the readers' panel)",
+  "text": "Side effects / stop signs: Stop immediately if agitation, sweating, diarrhea and tremor or clonus all hit together, plus fever, confusion, a fast heart rate, or unstable blood pressure, since that pattern points to serotonin toxicity, which can get dangerous. Otherwise the side effects to stop for are nausea, stomach discomfort or loose stools, headaches, vivid or intense dreams, insomnia, sweating or tremor on their own, feeling anxious, irritable or agitated, or a too-bright, kind of hypomanic feeling.",
+  "chance": 0.25,
+  "panel": "articles/neuro-de-armoring/humanize/fix-20261104/panel/b092-n2/PANEL.md",
+  "why": "the panel's agreed points fixed: the \"+\" chains said in words (\"all hit together, plus\"), the clonus gloss and the double \"can\" gone (\"points to serotonin toxicity, which can get dangerous\"), the near-synonyms joined (\"feeling anxious, irritable or agitated\") and the repeated sweating and tremor said as what they are here (\"on their own\"); every side effect kept",
+  "diagnosis": "try 2 read AI Generated, 100% AI, one AI (High) window (https://www.pangram.com/history/4ab27097-dcd1-4ee8-82b5-5052ac1e80e2); try 1 the same at Medium and Low",
+  "decides": "whether the stop signs go in, or a rewrite by a writer of another family (Codex, tell_panel.py rewrite-prompt) and then his card"
+ },
+ "b093": {
+  "lineage": "ND1104-B093",
+  "name": "the 5-HTP hard interaction rule, third try (after the readers' panel)",
+  "text": "Don't mix 5-HTP casually with anything else that raises serotonin, like antidepressants or MAOIs. Serotonin syndrome usually comes from that kind of interaction, when several drugs or supplements get stacked, and MedlinePlus has an overview of what it looks like. Case reports and reviews keep warning about the risk with 5-HTP, like this case report, where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs and his forearm to relieve the pressure. Luckily he recovered. If you're doing psychedelics, avoid 5-HTP on your psychedelic days, and be especially strict around ayahuasca's harmala MAOI chemistry and around iboga or ibogaine.",
+  "chance": 0.35,
+  "panel": "articles/neuro-de-armoring/humanize/fix-20261104/panel/b093-n2/PANEL.md",
+  "why": "the panel's agreed points fixed: the label dropped as his Y-90 and Y-91 dropped theirs (\"interaction\" now in the sentence about how serotonin syndrome comes about), \"whether it's a drug or a supplement\" and the slash pairs gone, the vague sources joined to the case they point to; Pangram's two Human windows of try 2 kept close (the rule, the psychedelic advice), the case told more plainly",
+  "diagnosis": "try 2 read AI Detected, 46.5% AI (https://www.pangram.com/history/cb693d91-b9c2-41cc-9a8e-20bd56779126): Human Medium over the rule and stack sentence, AI Low over the sources, AI Medium over the case, Human Low over the psychedelic advice; the readers flagged everything but the case",
+  "decides": "whether the interaction paragraph goes in with the case, or a rewrite by a writer of another family and then his card"
+ }
+}

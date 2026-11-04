@@ -1,0 +1,29 @@
+{
+ "b088": {
+  "lineage": "ND1104-B088",
+  "name": "the 5-HTP \"Who this is for\", third try (its Low window only)",
+  "text": "Who this is for: 5-HTP is not for every depressed person either. It could help, though, with a low-serotonin-looking pattern, where it's hard to fall asleep and your mood is low, without much warmth to it. At night you get anxious and keep going over the same things. It makes more sense if there's also a genetic or clinical reason to suspect a bottleneck in serotonin synthesis, like with Scott, whose genetic data pointed to a TPH2 bottleneck, and 5-HTP helped his sleep and mood. If you're already agitated or manic (it can push that further), on serotonergic meds, or using serotonergic psychedelics/entactogens (serotonin syndrome risk), you shouldn't be casually experimenting with it.",
+  "chance": 0.6,
+  "why": "E350: only the Low window's stretch changed, in its last sentence: the four exclusions keep their order and words, each pair given the reason the article gives for it in brackets, his X-15 move (\"(will reduce tolerance)\"): agitation and a too-bright / hypomanic feeling are 5-HTP side effects (block 92), and serotonin syndrome is \"most often a multi-drug / stack problem\" (block 93); the first four sentences as they were",
+  "diagnosis": "the second try read Human Written, 0.0% AI (https://www.pangram.com/history/8d2d4cf1-13da-4c6c-83ae-eddb774ef930), its windows Medium, High, Medium and Low; the Low window (61 words) is the last two sentences, whose exclusion sentence read AI (Medium) in the first try: a bare list of four and a stock caution",
+  "decides": "whether the Low window goes to High with the reasons said, without moving the High and Medium windows before it (E350)"
+ },
+ "b090": {
+  "lineage": "ND1104-B090",
+  "name": "Scott's 5-HTP and P5P, second try (its AI window only)",
+  "text": "Scott took 100 mg 5-HTP sublingually at night, with 10–20 mg P5P sublingually in the morning. The P5P isn't there as a stimulant, but as the active form of B6, which the enzyme that turns 5-HTP into serotonin (aromatic amino-acid decarboxylase) needs. Since he's slow-COMT and sensitive to too much P5P, the low dose matters, and it's one of those things where more isn't better.",
+  "chance": 0.45,
+  "why": "E350: only the sentence that read AI (Low) changed: its reason first (\"Since he's slow-COMT ...\"), and the post's \"More is not better\" said as speech (\"it's one of those things where more isn't better\") instead of a closing tag on a \"so X matters\" clause; the other two sentences as they were",
+  "diagnosis": "the first try read AI Detected, 27.2% AI (https://www.pangram.com/history/6343d2c6-2a62-473a-b8c9-52fd8059a3f0): High, Medium, then AI (Low, 20 words) on \"He's slow-COMT and sensitive to too much P5P, so the low dose matters, and more isn't better\": cause, consequence and an aphorism in one tidy line",
+  "decides": "whether the dose paragraph reads Human when its closing line is spoken, not tagged"
+ },
+ "b091": {
+  "lineage": "ND1104-B091",
+  "name": "the 5-HTP trial, second try (his trial build)",
+  "text": "If you're sensitive, start lower and do the trial with 50 mg 5-HTP at night for 2–3 nights, then go up to 100 mg only if the lower amount is clearly helpful and isn't activating. You can also add 10–20 mg P5P in the morning, especially if the 5-HTP feels like it \"almost works\" but isn't converting cleanly. Don't do the trial at the same time as other changes (like UMP, agmatine, D-serine, psychedelics, or medication changes), since the point is to see whether the 5-HTP itself is doing anything. If it's the right tool, the first thing you'll usually notice is your sleep quality, the tone of your dreams, a warmer mood, or less rumination at night.",
+  "chance": 0.25,
+  "why": "his own trial build (X-84, the uridine trial, Human): \"do the trial with ...\", the things not to combine after their category in brackets with the reason joined on (\"since the point is to see whether the 5-HTP itself is doing anything\", the uridine paragraph's own reason), the first signs said as what you notice. E125: both lists are the protocol's, recorded",
+  "diagnosis": "the first try read AI Generated, 100% AI, one window AI (High, 104 words) (https://www.pangram.com/history/0c28bab4-9e88-4c8c-b995-82d72c7067d8): his moves without his trial paragraph's build",
+  "decides": "whether his trial build carries the 5-HTP trial, as his \"Who this is for\" build carried 088"
+ }
+}

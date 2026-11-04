@@ -1,0 +1,24 @@
+[
+ {
+  "key": "b092",
+  "name": "the 5-HTP stop signs, fourth try",
+  "lineage": "ND1104-B092",
+  "scope": "paragraph",
+  "words": 94,
+  "call": "AI",
+  "chance": 0.2,
+  "why": "the readers' WHOLE point (two even lists, a two-tier checklist) taken further: the emergency and its reason as two short sentences, then the other side effects in different shapes, each with its own verb (\"your stomach might get upset, with\", \"you could get\", \"you might sweat or get\"), every one kept",
+  "sha256": "a57cacd3adafbaf59798e228c819da9444525749f911653b96da8626314e31cd"
+ },
+ {
+  "key": "b093",
+  "name": "the 5-HTP interaction paragraph, fourth try (its one AI sentence)",
+  "lineage": "ND1104-B093",
+  "scope": "paragraph",
+  "words": 137,
+  "call": "AI",
+  "chance": 0.45,
+  "why": "only the sentence Pangram read AI (Low) in try 3 changed: how serotonin syndrome comes about said plainly (\"Most of the time ... comes from an interaction like that, with a few different drugs or supplements stacked on top of each other\"), MedlinePlus as \"a page on what it looks like\"; the four sentences that read Human in try 3 are as they were, though the readers flagged three of them, since Pangram read them Human (Low, Low, High)",
+  "sha256": "02800d3aeadacacb2bd946a7af6a11cc8d32ef8341eb9db917bce9ee3747ac28"
+ }
+]

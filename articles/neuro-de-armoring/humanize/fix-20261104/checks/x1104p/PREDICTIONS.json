@@ -1,0 +1,24 @@
+[
+ {
+  "key": "b092",
+  "name": "the 5-HTP stop signs, first try (the point first)",
+  "lineage": "ND1104-B092",
+  "scope": "paragraph",
+  "words": 76,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "the point first (E357): the dangerous pattern and why it matters to stop, then the other stop signs in his Y-85 shape (\"Other stop signs include\"); his symptom lists kept whole (E336: the protocol's required lists stay)",
+  "sha256": "0e93e7c86bdc5d20df1a521fc69bc665b9650f15b691f94415fdb457f7a45db1"
+ },
+ {
+  "key": "b093",
+  "name": "the 5-HTP hard interaction rule, first try (the point first)",
+  "lineage": "ND1104-B093",
+  "scope": "paragraph",
+  "words": 82,
+  "call": "AI",
+  "chance": 0.25,
+  "why": "the rule first with its reason (serotonin syndrome is most often a stack problem), then the sources as things the reader can place (\"see this ... case report\"; MedlinePlus's overview), then the advice for psychedelic users said to them (\"If you're doing psychedelics\") instead of \"For this readership\"",
+  "sha256": "ab6574cb97fceff1a0e083d80ffa3be951a6842e64f978465362196671d8dca9"
+ }
+]

@@ -1,0 +1,20 @@
+{
+ "b092": {
+  "lineage": "ND1104-B092",
+  "name": "the 5-HTP stop signs, second try",
+  "text": "Side effects / stop signs: Stop immediately if you get agitation + sweating + diarrhea + tremor/clonus (your muscles jerking on their own) + fever, confusion, fast heart rate, or unstable blood pressure, because that pattern can be serotonin toxicity, which can become dangerous. The milder stop signs are stomach stuff like nausea, discomfort or loose stools, plus headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright, kind of hypomanic feeling.",
+  "chance": 0.3,
+  "why": "the first try read AI in all three sentences, the list sentences at Medium and the reason at Low; now the stop line and its reason are one sentence, clonus is said in plain words, and the other side effects are grouped the way a person says them (\"stomach stuff like\", \"kind of hypomanic\", his Y-85 phrase), every one kept",
+  "diagnosis": "try 1 read AI Generated, 100% AI (https://www.pangram.com/history/b41d1fdd-9d7f-4d04-8cbd-8e10113c0fdd): AI Medium 26 words, AI Low 19, AI Medium 27",
+  "decides": "whether the stop signs go in, or the readers' panel and a third try"
+ },
+ "b093": {
+  "lineage": "ND1104-B093",
+  "name": "the 5-HTP hard interaction rule, second try",
+  "text": "Hard interaction rule: Don't mix 5-HTP casually with anything else that raises serotonin, whether it's a drug or a supplement. Serotonin syndrome (MedlinePlus has an overview) is most often a multi-drug / stack problem. There's case literature and clinical reviews warning about that risk with 5-HTP plus antidepressants or MAOIs. In this dietary supplement interaction case report, a young guy on sertraline took 5-HTP along with a pile of weight-loss and energy supplements before working out, and it got so bad that surgeons had to cut open both his legs and his forearm to relieve the pressure (luckily he recovered). If you're doing psychedelics, avoid 5-HTP on your psychedelic days, and be especially strict around ayahuasca / harmala MAOI chemistry and iboga / ibogaine.",
+  "chance": 0.35,
+  "why": "the first try read AI in every sentence, the generic evidence sentence at High; now the linked case report is said as what happened in it (read in full through PubMed: a man on sertraline took 5-HTP among many weight-loss and energy supplements before a workout, and serotonin syndrome led to fasciotomies of both lower legs and a forearm; he recovered), so the reader can place the source; MedlinePlus's overview in brackets where serotonin syndrome is named",
+  "diagnosis": "try 1 read AI Generated, 100% AI (https://www.pangram.com/history/5e797c26-95a2-4caa-aedb-6a88b723f6f5): AI Medium, AI High (the evidence sentence), AI Medium (MedlinePlus), AI Low (the psychedelic advice)",
+  "decides": "whether the hard interaction rule goes in with the case said as a story, or the readers' panel and a third try"
+ }
+}

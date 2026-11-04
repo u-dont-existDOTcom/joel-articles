@@ -2273,6 +2273,59 @@
      ]
     ]
    }
+  },
+  {
+   "by": "fix-20261104/cards/ANSWERS-20261104-1809.json, card Y-85 (his version, 2026-11-04); his version as he checked it; his last line cut (\"you were overcompleting, repeating yourself on the last line\")",
+   "keys_lost": {
+    "W035": [
+     [
+      "weirdly"
+     ],
+     [
+      "irritable"
+     ]
+    ]
+   }
+  },
+  {
+   "by": "fix-20261104/cards/ANSWERS-20261104-1809.json, card Y-86 (his version, 2026-11-04); his version; the same-day rule stays in W017 and W082",
+   "keys_lost": {
+    "W037": [
+     [
+      "caution"
+     ]
+    ]
+   }
+  },
+  {
+   "by": "fix-20261104/cards/ANSWERS-20261104-1809.json, card Y-89 (his version, 2026-11-04); his note: \"i'd cut this whole paragraph or merge anything important from it into the last one\"; merged into his Y-88 (batch x1104o, Human Written: https://www.pangram.com/history/f645d894-6c91-41b3-841d-26ec0d79b093)",
+   "keys_lost": {
+    "W040": [
+     [
+      "toxicity"
+     ],
+     [
+      "serotonin-toxicity"
+     ]
+    ]
+   }
+  },
+  {
+   "by": "fix-20261104/cards/ANSWERS-20261104-1809.json, card Y-91 (his version, 2026-11-04); his version, with its full stop (the lane's check: https://www.pangram.com/history/d2b0d600-d1fe-4187-94e7-4bb0851a1b54)",
+   "numbers_new": [
+    "50mg"
+   ],
+   "keys_lost": {
+    "W041": [
+     [
+      "only if"
+     ]
+    ]
+   }
   }
- ]
+ ],
+ "warning_words": {
+  "rule": "meaning",
+  "by": "fix-20261104/joel-20261104-1810-message.txt: \"8a not sure why you had to ask that, the whole point is rewording stuff here\" (his answer to question 8, 2026-11-04 18:10 UTC)"
+ }
 }

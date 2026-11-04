@@ -1,0 +1,70 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Hard interaction rule: Don't mix 5-HTP casually with anything else that raises serotonin, whether it's a drug or a supplement.",
+  "Serotonin syndrome (MedlinePlus has an overview) is most often a multi-drug / stack problem.",
+  "There's case literature and clinical reviews warning about that risk with 5-HTP plus antidepressants or MAOIs.",
+  "In this dietary supplement interaction case report, a young guy on sertraline took 5-HTP along with a pile of weight-loss and energy supplements before working out, and it got so bad that surgeons had to cut open both his legs and his forearm to relieve the pressure (luckily he recovered).",
+  "If you're doing psychedelics, avoid 5-HTP on your psychedelic days, and be especially strict around ayahuasca / harmala MAOI chemistry and iboga / ibogaine."
+ ],
+ "flagged": {
+  "1": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [],
+  "5": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  5
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph follows a conspicuously orderly progression from rule to explanation to research to dramatic example to closing precaution. Its mixture of clinical authority and casual language could reflect AI polishing, though these features cannot establish authorship."
+  ],
+  "haiku": [
+   "The paragraph follows a rule, then evidence, then application, with a labelled opener and a repeated slash-pair habit, which gives it a templated skeleton. The colloquial voice and concrete case detail keep the overall feel close to a human writer's."
+  ],
+  "sonnet": [
+   "The paragraph runs rule, then general warning, then evidence, then anecdote, then a specific application, which is a very orderly advisory structure. The anecdote sits inside otherwise even, cautious prose, so the tone shifts abruptly. The sections are stitched together with link-style references."
+  ]
+ },
+ "human_clean": [
+  "a young guy",
+  "a pile of weight-loss and energy supplements",
+  "it got so bad that surgeons had to cut open both his legs and his forearm",
+  "(luckily he recovered)",
+  "a young guy on sertraline",
+  "a pile of weight-loss and energy supplements",
+  "(luckily he recovered)",
+  "Don't mix 5-HTP casually",
+  "a young guy on sertraline took 5-HTP along with a pile of weight-loss and energy supplements before working out",
+  "young guy",
+  "a pile of",
+  "surgeons had to cut open both his legs and his forearm to relieve the pressure",
+  "(luckily he recovered)",
+  "In this dietary supplement interaction case report",
+  "this"
+ ]
+}

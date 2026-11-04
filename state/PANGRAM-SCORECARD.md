@@ -208,14 +208,14 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 100 | 72 (72%) | 42% | 58% | 60% | 0.186 (base 0.244, 100) |
-| **all lanes** | 100 | 72 (72%) | 42% | 58% | 60% | 0.186 (base 0.244, 100) |
+| inner child guide | 104 | 76 (73%) | 40% | 60% | 62% | 0.183 (base 0.241, 104) |
+| **all lanes** | 104 | 76 (73%) | 40% | 60% | 62% | 0.183 (base 0.241, 104) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 100 | 72 (72%) | 42% | 58% | 60% | 0.186 (base 0.244, 100) |
+| inner child guide | 100 | 74 (74%) | 38% | 62% | 62% | 0.183 (base 0.236, 100) |
 
 The boundary mix over all lanes:
 
@@ -223,7 +223,7 @@ The boundary mix over all lanes:
 |---|---|---|---|---|---|---|
 | paragraph | 51 | 29 (57%) | 43% | 57% | 53% | 0.242 (base 0.245, 51) |
 | section | 31 | 28 (90%) | 10% | 90% | 100% | 0.140 (base 0.087, 31) |
-| stretch | 18 | 15 (83%) | 94% | 6% | 11% | 0.105 (base 0.052, 18) |
+| stretch | 22 | 19 (86%) | 77% | 23% | 27% | 0.104 (base 0.176, 22) |
 
 ## pangram-4.1-api
 

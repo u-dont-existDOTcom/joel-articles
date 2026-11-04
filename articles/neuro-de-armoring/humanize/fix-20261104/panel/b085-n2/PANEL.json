@@ -1,0 +1,50 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Side effects / stop signs: Stop if it makes you wired, numb, or weirdly irritable, and don't try to push through it.",
+  "The most common problem people run into is the \"choline headache\", or a spaced-out kind of brain fog, which you won't find in the studies, but it's likely because UMP speeds up membrane synthesis, so if your choline availability is low, your brain can end up under-supplied.",
+  "Other stop signs include insomnia, jitteriness and racing thoughts, irritability, going emotionally flat, or an upset stomach with nausea, cramps or loose stools."
+ ],
+ "flagged": {
+  "1": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "codex": [
+   "The warning–explanation–checklist structure feels assembled, especially because the final list partly repeats the opening warning. These are weak stylistic cues, however; the paragraph alone cannot establish AI involvement."
+  ],
+  "haiku": [
+   "The paragraph is evenly paced and organised as a symptom list followed by a mechanism explanation, with every item given equal weight. It reads like a polished reference note rather than a personal account."
+  ],
+  "sonnet": [
+   "The paragraph is built as a tidy safety template: a heading label, a general rule, a \"most common\" item with a mechanism, then a catch-all list of further signs. Its sentences are long, smoothly chained with \"so\" and \"or\", and carry an even, advisory tone with no stumbles."
+  ]
+ },
+ "human_clean": [
+  "a spaced-out kind of brain fog",
+  "a spaced-out kind of brain fog",
+  "a spaced-out kind of brain fog"
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "turn": 127,
+ "plan": {
+  "file": "PUBLISH-PLAN.json",
+  "sha256": "9efdc025e880410095c33a2b40331c5239c459ad96d1ab3e1998672749323c6c",
+  "commit": "8e649301cd5232168c981414569715c19cd6de4b"
+ },
+ "scripts": {
+  "publish_build.js": "d870139b8d491328a1741c889bc93b242c20e821f7c8047da9a07e3037ae8f1b",
+  "publish_dispatch.js": "a221069fdf51efc4bf0da548a8a154c52b9e64db3b06c9fcc2cb4449b7a596ad"
+ },
+ "how": "Both scripts fetched from raw.githubusercontent.com at the commit and checked by their SHA-256, then run in his post's editor in the desktop app's browser pane; the plan likewise.",
+ "build": {
+  "ok": true,
+  "nodesBefore": 460,
+  "nodesAfter": 544,
+  "mismatches": 0,
+  "links": 79,
+  "bold_chars": 127,
+  "italic_chars": 130,
+  "heading_levels": {
+   "1": 9,
+   "2": 47,
+   "3": 83,
+   "4": 8,
+   "5": 1
+  },
+  "whole_text_round11": true,
+  "steps": 1,
+  "textBefore": 107219,
+  "textAfter": 159121,
+  "natives": [
+   "captionedImage",
+   "video",
+   "youtube2",
+   "captionedImage",
+   "digestPostEmbed",
+   "captionedImage",
+   "youtube2",
+   "youtube2",
+   "youtube2",
+   "youtube2",
+   "captionedImage",
+   "captionedImage",
+   "captionedImage",
+   "captionedImage",
+   "digestPostEmbed",
+   "captionedImage",
+   "captionedImage",
+   "captionedImage",
+   "audio"
+  ]
+ },
+ "dispatch": {
+  "ok": true,
+  "nodes": 544,
+  "textLength": 159121
+ },
+ "saved": {
+  "draft_updated_at": "2026-11-04T17:47:43.240Z",
+  "read_back_from": "the draft API (/api/v1/drafts/189761959), draft_body",
+  "nodes": 544,
+  "mismatches_against_plan": 0,
+  "whole_text_round11": true,
+  "link_text_nodes": 79,
+  "natives": [
+   "img 40c24f21",
+   "video f302980e",
+   "yt 4PxC3zZ2Mus",
+   "img 718d0e76",
+   "card somatic-modalities-strategic-sequencing",
+   "img c4ab39d5",
+   "yt qLfqA2igdUI",
+   "yt 4TYvq-d0-XM",
+   "yt JQs2watlFws",
+   "yt foHCbX0xjAU@58",
+   "img 461ac9c2",
+   "img 600e5307",
+   "img 99eb7410",
+   "img 969adf28 +caption",
+   "card treasuring-the-inner-childs-gift",
+   "img 993cf42c",
+   "img 4e6c8a51",
+   "img ab72f16c",
+   "audio bc40d36b"
+  ],
+  "pull_quote": "Jelaluddin Rumi wrote: “The most secure place to hide a treasure of gold is some desolate, unnoticed place. ...",
+  "published_body_nodes_still": 459
+ },
+ "subtitle": {
+  "typed": "real keystrokes in the subtitle field (click, ctrl+a, type)",
+  "draft_subtitle": "You were born worthy of love. Reconnect. Reparent. Rise. Updated: Nov 4, 2026 New App coming soon.",
+  "draft_updated_at": "2026-11-04T17:48:21.120Z",
+  "live_subtitle_still": "... Updated: Oct 3, 2026 ..."
+ },
+ "seen": "In the editor the pull quote shows as Substack's pull quote block and the pictures load; the editor said \"Saved\". The editor tab was closed afterwards, so it can't save over anything he does.",
+ "not_done": "Update: his."
+}

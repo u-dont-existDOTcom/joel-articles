@@ -1,0 +1,42 @@
+{
+ "b085": {
+  "lineage": "ND1104-B085",
+  "name": "the uridine stop signs, Codex's rewrite (try 3)",
+  "text": "If UMP gives you a \"choline headache\" or spaced-out brain fog, that's the most common problem in practice, though it isn't in the studies. If it makes you wired or numb, stop; same if you get weirdly irritable, and don't push through it. Other stop signs include insomnia, jitteriness, racing thoughts, irritability, emotional flatness and nausea. Stop for stomach cramps or loose stools too. The likely reason for the headache or fog is that UMP speeds up membrane synthesis, and with low choline availability your brain can feel under-supplied.",
+  "chance": 0.3,
+  "why": "a writer of another family, after two of mine read AI (tell_panel.py rewrite-prompt; E256 (Inner Child)): Codex given the paragraph, its neighbours, the points to keep (with the fidelity check's words), the three readers' notes on my second try and his own paragraphs; its build is its own (a case first, the points one a sentence, the reason last). My changes: straight quote marks (the typographic swap)",
+  "diagnosis": "my second try read AI Generated, 100% AI, one window AI (High) (https://www.pangram.com/history/2627124f-1cc3-4582-8fc1-c6815a2d7006), and the three readers agreed on its build and stock phrases (articles/neuro-de-armoring/humanize/fix-20261104/panel/b085-n2/PANEL.md)",
+  "decides": "whether another writer's build carries this kind of paragraph where my two did not; if not, it goes to Joel as a stretch to edit (E336)",
+  "panel": "articles/neuro-de-armoring/humanize/fix-20261104/panel/b085-n2/PANEL.md"
+ },
+ "b086": {
+  "lineage": "ND1104-B086",
+  "name": "the uridine psychedelic caution, Codex's rewrite (try 3)",
+  "text": "Psychedelic caution: Say your dreams get vivid again on UMP. Take that as a warning that your sensitivity may be returning. The same goes if UMP suddenly lowers your psychedelic tolerance. Don't take UMP on psychedelic days. If you use psychedelics later, assume your old dose may be too strong. You can end up taking too much trying to get the visuals you remember.",
+  "chance": 0.3,
+  "why": "a writer of another family, after two of mine read AI (tell_panel.py rewrite-prompt; E256 (Inner Child)): Codex given the paragraph, its neighbours, the points to keep (with the fidelity check's words), the three readers' notes on my second try and his own paragraphs; its build is its own (a case first, the points one a sentence, the reason last). My changes: straight quote marks (the typographic swap)",
+  "diagnosis": "my second try read AI Generated, 100% AI, one window AI (High) (https://www.pangram.com/history/71f224dd-2467-40d7-823e-d4ecba72035b), and the three readers agreed on its build and stock phrases (articles/neuro-de-armoring/humanize/fix-20261104/panel/b086-n2/PANEL.md)",
+  "decides": "whether another writer's build carries this kind of paragraph where my two did not; if not, it goes to Joel as a stretch to edit (E336)",
+  "panel": "articles/neuro-de-armoring/humanize/fix-20261104/panel/b086-n2/PANEL.md"
+ },
+ "b089": {
+  "lineage": "ND1104-B089",
+  "name": "the 5-HTP tool, Codex's rewrite (try 3)",
+  "text": "The tool: Say your body isn't turning tryptophan into 5-HTP very well. Taking 5-HTP skips that step, giving your body a more direct serotonin precursor, and people who respond can feel it quickly. The evidence for depression and sleep is mixed, though. People online make it sound stronger than it is. This broad review of 5-HTP discusses serotonin biology and uses for mood, anxiety, sleep, obesity and myoclonus, and it covers the serotonin-toxicity risk too.",
+  "chance": 0.35,
+  "why": "a writer of another family, after two of mine read AI (tell_panel.py rewrite-prompt; E256 (Inner Child)): Codex given the paragraph, its neighbours, the points to keep (with the fidelity check's words), the three readers' notes on my second try and his own paragraphs; its build is its own (a case first, the points one a sentence, the reason last). My changes: straight quote marks (the typographic swap), \"actually\" out (O25) and the short last sentence joined to the one before (B7)",
+  "diagnosis": "my second try read AI Generated, 100% AI, one window AI (High) (https://www.pangram.com/history/07a72325-fa0a-4478-91cd-cd46c866e1fa), and the three readers agreed on its build and stock phrases (articles/neuro-de-armoring/humanize/fix-20261104/panel/b089-n2/PANEL.md)",
+  "decides": "whether another writer's build carries this kind of paragraph where my two did not; if not, it goes to Joel as a stretch to edit (E336)",
+  "panel": "articles/neuro-de-armoring/humanize/fix-20261104/panel/b089-n2/PANEL.md"
+ },
+ "b091": {
+  "lineage": "ND1104-B091",
+  "name": "the 5-HTP trial, Codex's rewrite (try 3)",
+  "text": "If small doses tend to hit you hard, do the 5-HTP trial with 50 mg at night for 2–3 nights. And don't mix the trial with UMP, agmatine, D-serine, psychedelics, or medication changes. Go up to 100 mg only if the lower dose is clearly helpful and isn't activating. P5P is optional here, 10–20 mg in the morning, especially if the 5-HTP feels like it \"almost works\" but the conversion isn't quite right. If it's the right tool, you usually notice it first in how you sleep or how your dreams feel. Or your mood is warmer, or you get to nighttime and aren't going over things in your head as much.",
+  "chance": 0.3,
+  "why": "a writer of another family, after two of mine read AI (tell_panel.py rewrite-prompt; E256 (Inner Child)): Codex given the paragraph, its neighbours, the points to keep (with the fidelity check's words), the three readers' notes on my second try and his own paragraphs; its build is its own (a case first, the points one a sentence, the reason last). My changes: straight quote marks (the typographic swap)",
+  "diagnosis": "my second try read AI Generated, 100% AI, one window AI (High) (https://www.pangram.com/history/0250acd1-dd68-48f8-a284-bdd074678d54), and the three readers agreed on its build and stock phrases (articles/neuro-de-armoring/humanize/fix-20261104/panel/b091-n2/PANEL.md)",
+  "decides": "whether another writer's build carries this kind of paragraph where my two did not; if not, it goes to Joel as a stretch to edit (E336)",
+  "panel": "articles/neuro-de-armoring/humanize/fix-20261104/panel/b091-n2/PANEL.md"
+ }
+}

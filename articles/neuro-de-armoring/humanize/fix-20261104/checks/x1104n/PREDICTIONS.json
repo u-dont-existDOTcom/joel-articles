@@ -1,0 +1,24 @@
+[
+ {
+  "key": "b091",
+  "name": "the 5-HTP trial, his version with its full stop (Y-91)",
+  "lineage": "ND1104-B091h",
+  "scope": "paragraph",
+  "words": 134,
+  "call": "Human",
+  "chance": 0.75,
+  "why": "his version, which he checked without a full stop at its end (Human Written, every window High: https://www.pangram.com/history/66a972f2-4286-494d-96b7-179670418738), with the full stop the sentence needs; nothing else changed (his versions are their own lineage, \"h\": my tries' lineage and its tell-panel gate are for my drafts)",
+  "sha256": "1c343c4739ac5c50b7bfcdca76d390f4251bb62e7fd3110a46438f379a6ebbdd"
+ },
+ {
+  "key": "p085-086h",
+  "name": "his stop signs and his psychedelic caution, as a pair (Y-85 and Y-86)",
+  "lineage": "ND1104-P085-086h",
+  "scope": "pair",
+  "words": 115,
+  "call": "Human",
+  "chance": 0.65,
+  "why": "his Y-86 is 39 words, under the web app's minimum of 50, so it is read after his Y-85",
+  "sha256": "218a33dd3bc65ecee2cbed7e69924fbfee2821912248f57c5bc02e8cb8b3d378"
+ }
+]

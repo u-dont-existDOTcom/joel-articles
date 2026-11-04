@@ -1,0 +1,429 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "inner-child-t124-sense-read",
+ "title": "Inner Child Sense Read",
+ "git_file": "articles/inner-child-therapy/experiments/t124-sense/REVIEW.html",
+ "article": {
+  "file": "articles/inner-child-therapy/experiments/t124-sense/GUIDE-PAGE.md",
+  "sha256": "79f28b4b8a0e454e4f2d1889f34638e0122803435a9dfc659233423ded57154d"
+ },
+ "built": "2026-11-04 15:40 UTC",
+ "generator": "suggestion_review.py 1.6 (2026-11-04)",
+ "exported_at": "2026-11-04T16:11:06.061Z",
+ "counts": {
+  "approved": 15,
+  "rejected": 2,
+  "revise": 1,
+  "pending": 3
+ },
+ "items": [
+  {
+   "id": "SR-10",
+   "type": "slip",
+   "title": "Unfortunate, or Unfortunately",
+   "where": "The Chicken-and-Egg Problem, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Céline's song is called On ne change pas – \"we don't change.\" I think that's both fortunately, and unfortunately, true for most of us. Fortunately in the sense that the sweet, innocent, curious, vivacious little one is still inside us, even if hiding. Unfortunately in the sense that we often don't truly develop the adult qualities that we might pretend to have, so we continue burdening that little one inside us with troubles they aren't made for handling. This shows up in how we may feel abandoned, helpless, impulsive, frightened, or desperate to be chosen.",
+   "before": "Céline's song is called On ne change pas – \"we don't change.\" I think that's both fortunately, and unfortunately, true for most of us. Fortunately in the sense that the sweet, innocent, curious, vivacious little one is still inside us, even if hiding. Unfortunate in the sense that we often don't truly develop the adult qualities that we might pretend to have, so we continue burdening that little one inside us with troubles they aren't made for handling. This shows up in how we may feel abandoned, helpless, impulsive, frightened, or desperate to be chosen.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T16:03:36.058Z"
+    }
+   ],
+   "updated": "2026-11-04T16:03:36.058Z"
+  },
+  {
+   "id": "SR-11",
+   "type": "form",
+   "title": "Two double hyphens",
+   "where": "The Chicken-and-Egg Problem, P2",
+   "advice": "approve",
+   "status": "rejected",
+   "your_version": "",
+   "comment": "no everything should be the 2 dashes not em-dash, em-dash is ai",
+   "my_version": "And I realized that it doesn't make sense to ask the child to \"heal itself,\" which is really a disguised request for the child to abandon its own nature and turn into an adult. I call that \"forced adulthood,\" where the child has to deal with situations the evolved inner adult should be handling – we see this in actual children all the time when their parents are not providing care. People even wear t-shirts saying, \"I don't wanna adult today.\" The forced adulting often goes along with a misperception that there is something wrong with the inner child. Instead, we need to separately develop the qualities of a good inner parent for that rightly vulnerable child: the loving Nurturer, safe Protector, and wise Guide.\n\nThen there are people you're just getting to know. Meeting them can turn into a kind of test – \"First impressions are everything,\" as they say, but it could be even worse than that, if you need them to prove you're lovable.",
+   "before": "And I realized that it doesn't make sense to ask the child to \"heal itself,\" which is really a disguised request for the child to abandon its own nature and turn into an adult. I call that \"forced adulthood,\" where the child has to deal with situations the evolved inner adult should be handling--we see this in actual children all the time when their parents are not providing care. People even wear t-shirts saying, \"I don't wanna adult today.\" The forced adulting often goes along with a misperception that there is something wrong with the inner child. Instead, we need to separately develop the qualities of a good inner parent for that rightly vulnerable child: the loving Nurturer, safe Protector, and wise Guide.\n\nThen there are people you're just getting to know. Meeting them can turn into a kind of test--\"First impressions are everything,\" as they say, but it could be even worse than that, if you need them to prove you're lovable.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T16:04:04.636Z"
+    },
+    {
+     "from": "revise",
+     "to": "rejected",
+     "at": "2026-11-04T16:04:06.235Z"
+    }
+   ],
+   "updated": "2026-11-04T16:04:19.766Z"
+  },
+  {
+   "id": "SR-68",
+   "type": "slip",
+   "title": "Free twice",
+   "where": "The Spiritual Side of the Question, P3",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "In Buddhism, death isn't an off switch, and it isn't a new-age get-out-of-jail-free card back to the Divine Source. Repeated thought and intention shape the mind, and that keeps going through death and rebirth. Yes, that can include hell realms (and hell can be right here on Earth, also). A human birth is a rare chance to understand suffering and end its causes.",
+   "before": "In Buddhism, death isn't an off switch, and it isn't a free new-age get-out-of-jail-free card back to the Divine Source. Repeated thought and intention shape the mind, and that keeps going through death and rebirth. Yes, that can include hell realms (and hell can be right here on Earth, also). A human birth is a rare chance to understand suffering and end its causes.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T16:04:37.132Z"
+    }
+   ],
+   "updated": "2026-11-04T16:04:37.133Z"
+  },
+  {
+   "id": "SR-69",
+   "type": "meaning",
+   "title": "Even if every case is different",
+   "where": "The Spiritual Side of the Question, P4",
+   "advice": "approve",
+   "status": "rejected",
+   "your_version": "",
+   "comment": "debatable makes no sense you can' tdebate an experience... different is what i meant, and \"even if\" because you can't necessarily get one coherent lesson from a bunch of different cases except that there might be something to the afterlife idea",
+   "my_version": "You don't have to believe that, but if you're still thinking of staking your life on the opposite claim, that death is just nothing, might that be a double standard to look into? Curiosity killed the cat, you might say, so research could be dangerous. 😅 But despite the risk of curiosity, researchers at the University of Virginia have been busy little bees, collecting cases for 60 YEARS now, of young kids who talk about a past life, and there's a big pile of near-death accounts too. Even if every case is debatable, I'd read a few of those cases before betting my life on \"nothing.\"",
+   "before": "You don't have to believe that, but if you're still thinking of staking your life on the opposite claim, that death is just nothing, might that be a double standard to look into? Curiosity killed the cat, you might say, so research could be dangerous. 😅 But despite the risk of curiosity, researchers at the University of Virginia have been busy little bees, collecting cases for 60 YEARS now, of young kids who talk about a past life, and there's a big pile of near-death accounts too. Even if every case is different, I'd read a few of those cases before betting my life on \"nothing.\"",
+   "history": [
+    {
+     "from": "pending",
+     "to": "rejected",
+     "at": "2026-11-04T16:04:53.262Z"
+    }
+   ],
+   "updated": "2026-11-04T16:05:46.578Z"
+  },
+  {
+   "id": "SR-76",
+   "type": "form",
+   "title": "Moulding or molding",
+   "where": "Borrow the Adult To Become the Adult, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Now, don't tell anyone about this! I'm going to reveal my Magician's Secret. I call it the \"borrowed adulthood trick\". The new grown-up you're molding can start outside your head, as someone who likes you just the way you are, or as something you do to protect your little sweetie pie, like letting the phone ring when you know already how that call goes. You don't have to pretend to feel anything to let a phone ring. It may take many such ignored calls before your inner child can start trusting you (and all the while, the parent you inherited calls your efforts fake).",
+   "before": "Now, don't tell anyone about this! I'm going to reveal my Magician's Secret. I call it the \"borrowed adulthood trick\". The new grown-up you're moulding can start outside your head, as someone who likes you just the way you are, or as something you do to protect your little sweetie pie, like letting the phone ring when you know already how that call goes. You don't have to pretend to feel anything to let a phone ring. It may take many such ignored calls before your inner child can start trusting you (and all the while, the parent you inherited calls your efforts fake).",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T16:05:55.896Z"
+    }
+   ],
+   "updated": "2026-11-04T16:05:55.896Z"
+  },
+  {
+   "id": "SR-96",
+   "type": "slip",
+   "title": "Comes in",
+   "where": "Borrow One Competency at a Time, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "While all of these super powers should be developed alongside each other, the inner child's receptivity will naturally follow this order: first he/she wants to feel safe (Protector), then, building on that safety, feel loved (Nurturer), and then building on the safety & love, trust allows the little one to be eager to take guidance, and that's where Guide-building comes in.",
+   "before": "While all of these super powers should be developed alongside each other, the inner child's receptivity will naturally follow this order: first he/she wants to feel safe (Protector), then, building on that safety, feel loved (Nurturer), and then building on the safety & love, trust allows the little one to be eager to take guidance, and that's where Guide-building comes.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T16:06:10.633Z"
+    }
+   ],
+   "updated": "2026-11-04T16:06:10.633Z"
+  },
+  {
+   "id": "SR-98",
+   "type": "slip",
+   "title": "A full stop inside the quote",
+   "where": "Noticing Counts, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Even before you build up any of these capacities, you can start with simply being present with your little one, which does a lot more than you might think to set the stage for the proper division of identity. Just saying, \"Huh, somebody in here is really scared\" might be the most adult thing you've got right now, but notice that whoever's noticing isn't all the way inside the scared one.",
+   "before": "Even before you build up any of these capacities, you can start with simply being present with your little one, which does a lot more than you might think to set the stage for the proper division of identity. Just saying, \"Huh, somebody in here is really scared.\" might be the most adult thing you've got right now, but notice that whoever's noticing isn't all the way inside the scared one.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T16:06:32.586Z"
+    }
+   ],
+   "updated": "2026-11-04T16:06:32.586Z"
+  },
+  {
+   "id": "SR-156",
+   "type": "slip",
+   "title": "Glass half full",
+   "where": "Your Loan is PRE-APPROVED!, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "This is a bit tricky to put into words, but let me try anyway… You may be suffering now, but you could be suffering more. That's something to be grateful for (although please don't fall into the common trap of being grateful that you have what others don't have, as that's more like selfishness). I'm not talking just about changing your \"glass half empty\" perception to a \"glass half full\" perception. I'm not pushing \"toxic positivity.\" Being thankful shouldn't be pushed on people who just need to grieve for the moment. On the other hand, I've noticed that I can sometimes completely flip a bad psychedelic trip into a good one with gratitude alone.",
+   "before": "This is a bit tricky to put into words, but let me try anyway… You may be suffering now, but you could be suffering more. That's something to be grateful for (although please don't fall into the common trap of being grateful that you have what others don't have, as that's more like selfishness). I'm not talking just about changing your \"glass half empty\" perception to a glass \"half full perception.\" I'm not pushing \"toxic positivity.\" Being thankful shouldn't be pushed on people who just need to grieve for the moment. On the other hand, I've noticed that I can sometimes completely flip a bad psychedelic trip into a good one with gratitude alone.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T16:06:47.555Z"
+    }
+   ],
+   "updated": "2026-11-04T16:06:47.555Z"
+  },
+  {
+   "id": "SR-212b",
+   "type": "leave",
+   "title": "A rung on the desire treadmill",
+   "where": "Between Spoiling and Clamping Down, P2",
+   "advice": "leave",
+   "status": "pending",
+   "your_version": "",
+   "comment": "",
+   "my_version": "After all, sometimes \"I want it NOW!\" is just that: a step on the desire treadmill. No hidden guard or old trauma required, because all creatures have endless desires naturally anyway, especially when immature. You can hear that want without shame about it. Hearing it doesn't require giving into it, especially if getting your way would hurt you or somebody else.",
+   "before": "After all, sometimes \"I want it NOW!\" is just that: a rung on the desire treadmill. No hidden guard or old trauma required, because all creatures have endless desires naturally anyway, especially when immature. You can hear that want without shame about it. Hearing it doesn't require giving into it, especially if getting your way would hurt you or somebody else.",
+   "history": [],
+   "updated": ""
+  },
+  {
+   "id": "SR-212",
+   "type": "slip",
+   "title": "Giving in to it",
+   "where": "Between Spoiling and Clamping Down, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "After all, sometimes \"I want it NOW!\" is just that: a rung on the desire treadmill. No hidden guard or old trauma required, because all creatures have endless desires naturally anyway, especially when immature. You can hear that want without shame about it. Hearing it doesn't require giving in to it, especially if getting your way would hurt you or somebody else.",
+   "before": "After all, sometimes \"I want it NOW!\" is just that: a rung on the desire treadmill. No hidden guard or old trauma required, because all creatures have endless desires naturally anyway, especially when immature. You can hear that want without shame about it. Hearing it doesn't require giving into it, especially if getting your way would hurt you or somebody else.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T16:06:54.475Z"
+    }
+   ],
+   "updated": "2026-11-04T16:06:54.475Z"
+  },
+  {
+   "id": "SR-262",
+   "type": "slip",
+   "title": "Regardless of whether",
+   "where": "One Intention in the Morning, One Review at Night, P8",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Count recognition as progress, regardless of whether it came up a bit late, as the goal is to bring the awareness closer and closer to the present. All or nothing from the get go would be cool, but we normally have to learn step by step. If/when you interrupted the pattern, pat yourself on the back, or even kiss yourself on the shoulder. You can renew your intention for tomorrow, getting better & better, every day, in every way, as my Dad used to say. And enjoy your well-earned rest tonight.",
+   "before": "Count recognition as progress, regardless whether it came up a bit late, as the goal is to bring the awareness closer and closer to the present. All or nothing from the get go would be cool, but we normally have to learn step by step. If/when you interrupted the pattern, pat yourself on the back, or even kiss yourself on the shoulder. You can renew your intention for tomorrow, getting better & better, every day, in every way, as my Dad used to say. And enjoy your well-earned rest tonight.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T16:07:03.387Z"
+    }
+   ],
+   "updated": "2026-11-04T16:07:03.387Z"
+  },
+  {
+   "id": "SR-373",
+   "type": "ask",
+   "title": "The bars on the windows",
+   "where": "Altered States Can Require Reparenting, P2",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Did the hanging out of the windows happen before your parents put the bars on?",
+   "your_version": "",
+   "comment": "it came first and after, but after it was less dangerous as i wasn't hanging out as far",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-04T16:07:34.135Z"
+  },
+  {
+   "id": "SR-384",
+   "type": "leave",
+   "title": "Feel like yours, then become your own",
+   "where": "Using spiritual attack for spiritual gain, P6",
+   "advice": "leave",
+   "status": "pending",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Borrowing support like that is basically borrowed adulthood. At first you may need to feel protected or loved by something bigger than you, and then bit by bit that love starts to become your own. Send some of it down to your frightened little one, and when that's possible, toward whatever you're afraid of. Continuing to relate to benevolent spiritual powers/beings is still perfectly fine, but they would surely be happy if they rubbed off on you! If you're Christian, remember that in John 14:12, Jesus told his disciples whoever believed in him would do greater works than he did.",
+   "before": "Borrowing support like that is basically borrowed adulthood. At first you may need to feel protected or loved by something bigger than you, before that love starts to feel like yours, and then bit by bit it starts to become your own. Send some of it down to your frightened little one, and when that's possible, toward whatever you're afraid of. Continuing to relate to benevolent spiritual powers/beings is still perfectly fine, but they would surely be happy if they rubbed off on you! If you're Christian, remember that in John 14:12, Jesus told his disciples whoever believed in him would do greater works than he did.",
+   "history": [],
+   "updated": ""
+  },
+  {
+   "id": "SR-417",
+   "type": "meaning",
+   "title": "Water dripping through your hand",
+   "where": "Practicing Differentiation, P5",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Noticing when what you thought you knew suddenly feels like water slipping through your hand because of praise or pity, fear or attraction, or something that really resonates with you.",
+   "before": "Noticing when what you thought you knew suddenly feels like water dripping through your hand because of praise or pity, fear or attraction, or something that really resonates with you.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T16:07:46.997Z"
+    }
+   ],
+   "updated": "2026-11-04T16:07:46.997Z"
+  },
+  {
+   "id": "SR-438",
+   "type": "meaning",
+   "title": "I'd ask, then I wouldn't bother",
+   "where": "Before You Tell the Hardest Stuff, P4",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "So you could ask this person, before handing over any tricky specifics: \"What does the law require you to report?\" That's a normal and expected question. Although personally I wouldn't even bother with that, because whatever they tell you today, the law can change tomorrow.",
+   "before": "So I'd ask this person, before handing over any tricky specifics: \"What does the law require you to report?\" That's a normal and expected question. Although personally I wouldn't even bother with that, because whatever they tell you today, the law can change tomorrow.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T16:07:51.758Z"
+    }
+   ],
+   "updated": "2026-11-04T16:07:51.758Z"
+  },
+  {
+   "id": "SR-439",
+   "type": "slip",
+   "title": "The Talkspace therapy bot",
+   "where": "Before You Tell the Hardest Stuff, P5",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "You can always rephrase things as a dream narrative to get the emotional content across without triggering alarm bells (although I actually got in trouble with the Talkspace therapy bot even for a dream!). Just don't hold back a danger that's happening now from people who can help, and get anyone in danger safe before worrying about the rest. Sometimes telling on yourself is the thing that keeps someone safe, whatever it costs you legally.",
+   "before": "You can always rephrase things as a dream narrative to get the emotional content across without triggering alarm bells (although I actually got in trouble with TalkSpace therapy bot even for a dream!). Just don't hold back a danger that's happening now from people who can help, and get anyone in danger safe before worrying about the rest. Sometimes telling on yourself is the thing that keeps someone safe, whatever it costs you legally.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T16:07:59.167Z"
+    }
+   ],
+   "updated": "2026-11-04T16:07:59.167Z"
+  },
+  {
+   "id": "SR-462",
+   "type": "slip",
+   "title": "Bring someone mighty down",
+   "where": "Write It. Don't Send It Yet., P3",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Be honest with yourself about what your goal is for this communication. Do you want to bring someone mighty down? To show that you or your views matter? Or do you want them to listen and hear you without getting defensive? Sometimes folks are shocked at the response they get (why does everyone always reject me?), without even considering whether that response was easily predictable based on the energy they gave out to spark it.",
+   "before": "Be honest with yourself about what your goal is for this communication. Do you want to break someone mighty down? To show that you or your views matter? Or do you want them to listen and hear you without getting defensive? Sometimes folks are shocked at the response they get (why does everyone always reject me?), without even considering whether that response was easily predictable based on the energy they gave out to spark it.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T16:08:05.287Z"
+    }
+   ],
+   "updated": "2026-11-04T16:08:05.287Z"
+  },
+  {
+   "id": "SR-465",
+   "type": "meaning",
+   "title": "Call yourself out first",
+   "where": "Write It. Don't Send It Yet., P6",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "But Jesus also said to take the log out of your own eye first, and then \"you will see clearly to take the speck out of your brother's eye.\" That's exactly what made Tyler the right person to say something. If you actually have the problem they have, and you want to call them out for it, call yourself out for it first. What we came up with was something like, \"Hey man, when I was younger I smoked in front of an infant, not realizing how selfish that was, and I notice you doing the same thing. I'd ask you to please have some compassion for him. I have a young child now, so this really touches me.\" Tyler's an evangelical Christian who preaches on YouTube, so the fact that he really appreciated this take on Jesus' message is pretty salient to me.",
+   "before": "But Jesus also said to take the log out of your own eye first, and then \"you will see clearly to take the speck out of your brother's eye.\" That's exactly what made Tyler the right person to say something. If you actually have the problem they have, and you want to call them out for it, call yourself out for it instead. What we came up with was something like, \"Hey man, when I was younger I smoked in front of an infant, not realizing how selfish that was, and I notice you doing the same thing. I'd ask you to please have some compassion for him. I have a young child now, so this really touches me.\" Tyler's an evangelical Christian who preaches on YouTube, so the fact that he really appreciated this take on Jesus' message is pretty salient to me.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T16:08:13.823Z"
+    }
+   ],
+   "updated": "2026-11-04T16:08:13.823Z"
+  },
+  {
+   "id": "SR-514",
+   "type": "meaning",
+   "title": "Meet the protector first",
+   "where": "Internal Family Systems (IFS), P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Richard Schwartz, who developed IFS in the 1980s, called one of his books No Bad Parts. Honor, understand and love every part, he says, and the protective ones are no exception, so \"meet the guard first\" would fit right in over there, although I focus more on keeping the inner child safe first. The one exception is that IFS does understand some parts may be entity attachments (\"unattached burdens\") which need to be exorcised. My guide also talks about entity attachments, but I don't believe that's reason to start another war. Rather, I explain the root cause of such attachments as lack of protective love from the inner adult.",
+   "before": "Richard Schwartz, who developed IFS in the 1980s, called one of his books No Bad Parts. Honor, understand and love every part, he says, and the protective ones are no exception, so \"meet the protector first\" would fit right in over there, although I focus more on keeping the inner child safe first. The one exception is that IFS does understand some parts may be entity attachments (\"unattached burdens\") which need to be exorcised. My guide also talks about entity attachments, but I don't believe that's reason to start another war. Rather, I explain the root cause of such attachments as lack of protective love from the inner adult.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T16:08:22.183Z"
+    }
+   ],
+   "updated": "2026-11-04T16:08:22.183Z"
+  },
+  {
+   "id": "SR-516",
+   "type": "meaning",
+   "title": "Very powerful meditations",
+   "where": "Internal Family Systems (IFS), P3",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "Is a perfect Higher/True Self already waiting in there to be your guide or parent? I'd call that claim spiritual bypassing. I've experienced that Higher Self perspective myself, though, in very powerful meditations and altered states. For example, one time, while still married to my first wife Ann, who was becoming more violent and crazy as time went on, we got super high on weed and we were both in some higher realm as our higher selves. My higher self asked her higher self, \"Are you going to keep getting more and more crazy?\" Her higher self said, \"Yes.\" It was like we could see the whole timeline of life from above. Although, my friends already told me the same thing, quite sober. 😅",
+   "comment": "",
+   "my_version": "Is a perfect Higher/True Self already waiting in there to be your guide or parent? I'd call that claim spiritual bypassing. I've experienced that Higher Self perspective myself, though, in very powerful altered states. For example, one time, while still married to my first wife Ann, who was becoming more violent and crazy as time went on, we got super high on weed and we were both in some higher realm as our higher selves. My higher self asked her higher self, \"Are you going to keep getting more and more crazy?\" Her higher self said, \"Yes.\" It was like we could see the whole timeline of life from above. Although, my friends already told me the same thing, quite sober. 😅",
+   "before": "Is a perfect Higher/True Self already waiting in there to be your guide or parent? I'd call that claim spiritual bypassing. I've experienced that Higher Self perspective myself, though, in very powerful meditations. For example, one time, while still married to my first wife Ann, who was becoming more violent and crazy as time went on, we got super high on weed and we were both in some higher realm as our higher selves. My higher self asked her higher self, \"Are you going to keep getting more and more crazy?\" Her higher self said, \"Yes.\" It was like we could see the whole timeline of life from above. Although, my friends already told me the same thing, quite sober. 😅",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T16:09:08.425Z"
+    }
+   ],
+   "updated": "2026-11-04T16:09:28.068Z"
+  },
+  {
+   "id": "SR-517",
+   "type": "slip",
+   "title": "Whoever accesses it",
+   "where": "Internal Family Systems (IFS), P4",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "So, there is a less subjective way of seeing things as perfectly ordained in reality, despite the ego's illusions, which matches what others say about it. As a Buddhist, I no longer see it as \"Self\", though it can still give the same love, peace, and clarity to whoever accesses it. Where I part ways with IFS is I don't think the Higher Self has any specific wisdom that can be followed mechanically. From that higher vantage point, problems can also look like they were never problems at all, and that can ironically lead instead to more foolish indifference.",
+   "before": "So, there is a less subjective way of seeing things as perfectly ordained in reality, despite the ego's illusions, which matches what others say about it. As a Buddhist, I no longer see it as \"Self\", though it can still give the same love, peace, and clarity to whomever accesses it. Where I part ways with IFS is I don't think the Higher Self has any specific wisdom that can be followed mechanically. From that higher vantage point, problems can also look like they were never problems at all, and that can ironically lead instead to more foolish indifference.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T16:11:01.228Z"
+    }
+   ],
+   "updated": "2026-11-04T16:11:01.228Z"
+  }
+ ]
+}

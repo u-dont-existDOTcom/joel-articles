@@ -113,3 +113,30 @@ it is the most clear and natural way to phrase it." What I take from it: where a
 new sentence, what is ("X doesn't Y. It does Z."), join the two with ", but" (`tells_lint.py` O64 now fails the split
 form); the joined "not X, but Y" is used where it is the clearest way to say it, not as a habit. My two tries had kept
 the two sentences and changed their words, which is why they couldn't work.
+
+## His versions six to eleven: the uridine stop signs and caution, and the 5-HTP section (4 November, gates E357, E358)
+
+His answers on Neuro De-Armoring Cards, 4 November (3) (`../../fix-20261104/cards/ANSWERS-20261104-1809.json`, 18:09 UTC),
+after two tries of mine and Codex's rewrite read AI by themselves in each of four paragraphs, and two weak windows whose
+one-sentence fixes moved the rest. Each of his read Human Written by itself (his checks, and the lane's for Y-86 and the
+full stop of Y-91: `../../fix-20261104/cards/apply_cards_x1104d.py`).
+
+| card | what he changed | his words on it |
+|---|---|---|
+| Y-85, the uridine stop signs | "the studies" became "the studies I've seen"; the choline guess said as what it means ("places a higher demand on choline than what people may normally get from diet alone"); the last line cut | "\"i've seen\" fixed a part of the AI issue, because \"the studies\" is referencing which studies?"; "you were overcompleting, repeating yourself on the last line" |
+| Y-86, the psychedelic caution | the post's "treat that as a safety signal" replaced by what the section means: vivid dreams and sensitivity are what UMP is for, so the old high dose may hit harder | "idk where this safety warning came from, doesn't make much sense at all" |
+| Y-88, the 5-HTP "Who this is for" | the exclusions turned round: the advice first ("I'd avoid casually experimenting with 5-HTP if ..."), then who and why, in two sentences | "give the reader payoff sooner so they understand why they should read" |
+| Y-89, the 5-HTP tool | the whole paragraph in the reader's order: what 5-HTP is, what you'd feel, the hype, the review, the risk and why | "a lot of work to reverse the order of how it was written"; then "i'd cut this whole paragraph or merge anything important from it into the last one" (merged into Y-88) |
+| Y-90, Scott's doses | "matters" and "more isn't better" cut; the link between slow-COMT and P5P sensitivity said ("making him sensitive") | "Ai is always saying stuff \"MATTERS\""; "you had 2 statements just floating there, what were they for?" |
+| Y-91, the 5-HTP trial | "50mg" without the space; "just" before the lower dose; "like Scott did"; the tense made one ("felt like it \"almost worked\""); "the other suggested regimen changes" | "don't think i've seen humans put spaces there"; "i got it all high conf by addding \"like scott did\"" |
+
+**Rules from these six** (my drafts, from now on):
+- The point first. A sentence that opens on a long condition ("If you're already X, Y or Z, ...") makes the reader hold it
+  before they know why; say the advice, then who it's for and why (E357, the gut lane's E347; `tells_lint.py` O65).
+- Say what a word like "matters" stands for (O66), and say the link between two facts placed side by side ("making him
+  sensitive"), or the reader can't tell what they're for.
+- No last line that says again what the paragraph has said (the stop line after the stop signs; "more isn't better").
+- A source the reader can place ("the studies I've seen"), and a warning only where it makes sense in its section.
+- His spelling of doses ("50mg"; O67), and the case named where an option comes from it ("like Scott did").
+- A warning's words may change when its meaning stays (E358); the fidelity check holds its warning word, compounds and
+  numbers.

@@ -33,6 +33,11 @@ never put back over his words. Until he answers, KEYS.json's "owner_open" holds 
 wrote the version, "question": the question that asks him}): the check doesn't count it lost, lists it as open with him,
 and still fails on anything else lost.
 
+When a warning's words may change. With "warning_words": {"rule": "meaning", "by": ...} in KEYS.json (Joel's answer 8a,
+2026-11-04 18:10 UTC: "8a not sure why you had to ask that, the whole point is rewording stuff here"), each warning keeps
+only its warning word, its compounds and terms, and its numbers; the other words it was held to (the sentence's rarest
+words) are free to change, and the comparative read beside his post checks the meaning.
+
 What his approved cards change. When he approves a card that changes the protocol itself (a warning cut, a dose the
 studies support), KEYS.json's "owner_changes" records what that card took out and put in ({"by": his answers file and the
 card, "numbers_lost", "numbers_new", "terms_lost": [...], "keys_lost": {a warning's id: [its keys the card took out]}}):
@@ -104,6 +109,8 @@ def numbers(text, spaced=False):
 
 
 def terms(text):
+    # his two hyphens join words ("tuna daily--mercury"; E353 (Inner Child)): a term after them is still a word of its own
+    text = text.replace('--', ' -- ')
     found = {m.group(0) for m in TERM.finditer(text) if not GLUED.match(m.group(0)) and m.group(0) not in CAPS_WORDS}
     low = text.lower()
     found |= {n for n in NAMES if re.search(r'(?<![\w-])' + re.escape(n) + r'(?![\w-])', low)}
@@ -185,12 +192,38 @@ def check(keys, draft):
     lost_numbers = sorted((want - have).elements())
     new_numbers = sorted((have - want).elements())
     lost_terms = sorted(set(keys['terms']) - terms(text))
-    # a dash matched whatever its spaces: the typographic swap (E337 (gut)) makes the post's "numb—living" "numb – living"
+    # a dash matched whatever its spaces and length: the typographic swap (E337 (gut)) made the post's "numb—living" "numb –
+    # living", and since 2026-11-04 makes it his "numb--living" (E353 (Inner Child))
     def dash(t):
-        return re.sub(r'[ \t]*-[ \t]*', '-', t)
-    draft_paras = dash('\n\n'.join(his(plain(b)) for b in re.split(r'\n\s*\n', draft)))
+        return re.sub(r'[ \t]*-+[ \t]*', '-', t)
+
+    # a number and its unit matched with or without the space between them: his "50mg" for the post's "50 mg" (Joel,
+    # 2026-11-04 18:09 UTC, on the 5-HTP trial: "then i just removed spaces before "mg" and that helped a bit ... don't think
+    # i've seen humans put spaces there"); the count above already takes the spaces out
+    def glue(t):
+        return re.sub(r'(\d)[ \t]+(?=(?:mg|mcg|µg|g|kg|ml|mL)\b)', r'\1', t)
+    draft_paras = glue(dash('\n\n'.join(his(plain(b)) for b in re.split(r'\n\s*\n', draft))))
+    meaning = (keys.get('warning_words') or {}).get('rule') == 'meaning'
+    term_set = {pk.normalize(t) for t in keys['terms']}
+
+    def same(k):
+        return tuple(sorted(pk.normalize(glue(dash(norm(x)))) for x in k))
+    # the keys his approved cards took out (keys['owner_changes'] below) leave their units before the paragraph match, so a
+    # unit with few keys left can't be matched to the wrong paragraph
+    taken = collections.defaultdict(set)
+    for c in keys.get('owner_changes', []):
+        for uid, ks in (c.get('keys_lost') or {}).items():
+            taken[uid] |= {same(k) for k in ks}
     for u in units:
-        u['keys'] = [[dash(norm(x)) for x in k] for k in u['keys']]
+        u['keys'] = [[glue(dash(norm(x))) for x in k] for k in u['keys'] if same(k) not in taken[u['id']]]
+        if meaning:
+            # his answer 8a: a warning's words may change when its meaning stays. The check keeps what a reader acts on, the
+            # warning word ("do not", "stop", "avoid" ...), every compound or term and every number; the other words of the
+            # sentence are left to the comparative read beside his post (E284, E294). A warning that names no compound and no
+            # number ("Do not push through.") keeps its own words too, since they are what its warning word applies to
+            named = [k for k in u['keys'] if any(NUMBER.search(x) or TERM.search(x) or pk.normalize(x) in term_set for x in k)]
+            if named:
+                u['keys'] = [k for k in u['keys'] if k in named or any(CUES.search(x) for x in k)]
     lost_warnings = pk.check({'units': units}, draft_paras)
     # what his approved cards changed (keys['owner_changes']): his, neither lost nor new
     changes = []
@@ -207,10 +240,10 @@ def check(keys, draft):
             if t in lost_terms:
                 lost_terms.remove(t)
         for uid, ks in (c.get('keys_lost') or {}).items():
-            out = {tuple(sorted(pk.normalize(x) for x in k)) for k in ks}
+            out = {same(k) for k in ks}
             for u in lost_warnings:
                 if u['id'] == uid:
-                    u['missing'] = [k for k in u['missing'] if tuple(sorted(pk.normalize(x) for x in k)) not in out]
+                    u['missing'] = [k for k in u['missing'] if same(k) not in out]
         lost_warnings = [u for u in lost_warnings if u['missing']]
         changes.append(c.get('by'))
     # what his own version left out, held open until he answers (keys['owner_open']): not lost, not passed either

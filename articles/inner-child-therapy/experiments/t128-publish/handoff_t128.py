@@ -1,0 +1,82 @@
+#!/usr/bin/env python3
+"""Turn 128: articles/inner-child-therapy/HANDOFF-UPDATE.json, the update tools/humanization/handoff_note.py applies to
+~/claude-acceptance-transfer/handoffs/inner-child-article.md on Joel's laptop.
+  handoff_t127.py PR [--test NOTE [OUT]]   writes the update with the turn's pull request number; with --test, applies it
+                                           to a copy of NOTE (and writes the result to OUT)"""
+import json
+import pathlib
+import re
+import sys
+
+HERE = pathlib.Path(__file__).resolve().parent
+ROOT = HERE.parents[3]
+OUT = HERE.parents[1] / 'HANDOFF-UPDATE.json'
+S = 'https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq'
+BR = 'handoff/claude-dangerous-adult-20260924-1631'
+PRN = sys.argv[1]
+PRS = 'pull request #%s (https://github.com/u-dont-existDOTcom/joel-articles/pull/%s), open for him to merge' % (PRN, PRN)
+UDA = 'https://github.com/u-dont-existDOTcom/universal-dev-architecture/pull/467'
+ED = 'https://ibogaqueen.substack.com/publish/post/189761959'
+LIVE = 'https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided'
+PAGE = 'https://claude.ai/artifact/Hazz7s1uNku5jur5ytX3r8'
+e = re.escape
+
+turn128 = '\n'.join([
+    '- TURN 128 (2026-11-04, his message of 18:20 UTC; by %s), the latest; its next step wins over everything below. Branch %s, from main (pull request #299, turn 127, merged by him at 18:11 UTC); %s.' % (S, BR, PRS),
+    '  - His message (experiments/t128-answers/JOEL-20261104-1820.md): "yes i want the dividers wherever they make the most sense, and pull quotes wherever those make the most sense, and yeah it looks good you can publish it, and give me ideas for gpt to generate simple sketches so that there are no places with long walls of text ... ideally things that illustrate points in a funny way as people liek to laugh, and give placement ideas for gpt".',
+    '  - His own edit first: at 18:16 UTC he saved the draft with the subtitle "You were born worthy of love. Reconnect. Reparent. Rise. Updated: Nov 4, 2026" ("New App coming soon." out); the body was node for node the one saved at 17:47 (checked against PUBLISH-PLAN.json at 8e649301). Kept.',
+    '  - Dividers and pull quotes (experiments/t128-publish/: PLAN-2.json, publish_dividers.js): a divider before each h1 but the first (8), and four more pull quotes, the vow ("I know you\'re in there. I love you. ..."), Sister Medhanandi, the morning intention ("Today I will neither be Peter Pan nor Captain Hook. ...") and Scott; Inayat Khan\'s line stays a paragraph, right after the Rumi pull quote. One transaction in the editor, the whole text the same before and after; saved at 18:24:39 UTC.',
+    '  - Published by me with his OK ("you can publish it"): Continue, then the Publish dialog\'s "Update now", with "Send via email and the Substack app" off (no email), audience, comments, section and tags as they were; Substack\'s updated_at 18:25:36 UTC. The live post (%s) read back from the public post API (UPDATED.json): its text is round 11\'s word for word; 10 pictures in order, 5 YouTube embeds, the video, the audio, 2 post cards, 8 dividers, 5 pull quotes.' % LIVE,
+    '  - The article is again the post\'s whole source: HUMANIZED-ARTICLE-SO-FAR.md has a PULL QUOTE note before each new pull quote and a DIVIDER note before each h1 but the first (comments only; owner edits 133 pass); make_publish.py and publish_build.js know DIVIDER notes; the plan rebuilt from the article is node for node the live post (552 node signatures read from the published body).',
+    '  - The sketch ideas (experiments/t128-sketches/: SPOTS.json, ideas.py, make_page.py, SKETCHES.html, README.md): 85 spots so no stretch runs past about 300 words (a desktop screen, two phone screens) without a picture, video, card or pull quote (the longest left is 376 words), each with an idea for GPT drawn from the paragraph before it, one style and two recurring characters (the grown-up with the Nurturer\'s mug, the Protector\'s crossing-guard vest and the Guide\'s captain\'s hat; the little one), no real people, no known characters, no substances, nothing from his life beyond the paragraph, four gentle ones in hard sections (S12, S47, S58, S80). The marking page, %s (private to him, capabilities db): copy buttons, and his marks (Make it, Change with a note, Skip) in its store, collection "marks", documents S01 to S85, empty at the end of the turn.' % PAGE,
+    '  - NEXT: Next step 1.',
+])
+next1 = ('1. His sketches: read his marks on the sketch page (%s; ArtifactData list, collection "marks"). When he saves '
+         'pictures as S01.png ... in ~/ai-work/claude-dangerous-lane/inbox/t113/sketches/ on his laptop: stage them, put each in '
+         'the session\'s scratchpad (Claude in Chrome\'s file_upload takes files from there, not from the outputs folder or the '
+         'laptop), upload each through Substack\'s image endpoint from a page of his publication in his Brave (Claude in Chrome; '
+         'each file\'s SHA-256 checked in the page before the upload and from the laptop with curl after, as '
+         'experiments/t127-publish/UPLOADS.json), add an IMAGE note for each after its spot\'s paragraph in the article '
+         '(experiments/t128-sketches/SPOTS.json), rebuild the plan and insert them in his post\'s editor as one checked '
+         'transaction (the live post\'s other nodes kept as they are), then update the post (with his OK) and read it back. Changes '
+         'he asks for are made the same way, never as a paste. Then the Hearthwork article (his paste of 2026-11-04 12:02 UTC, '
+         'experiments/t121-answers/), humanized in a lane of its own (its article folder registered, a branch from main), its '
+         'reparenting passages brought in line with the reorganized guide. Pangram\'s API is out of credits (AGENTS.md, E356): '
+         'paragraph checks go through the web app, run by the lane itself. Every turn ends with the whole article sent and passed '
+         'to the chat check as --sent (E271 (Inner Child)), rendered with --images for his pictures.') % PAGE
+upd = {
+    'turn': '128',
+    'replace': [
+        [e('TURN 127 (2026-11-04, his message of 17:12 UTC; by %s), the latest; its next step wins over everything below.' % S),
+         'TURN 127 (2026-11-04, his message of 17:12 UTC; by %s), FINISHED.' % S, 1],
+        [r'this version is from turn 127 \(his round-11 links of 2026-11-04 17:12 UTC; pull request #\d+ \(https://github\.com/u-dont-existDOTcom/joel-articles/pull/\d+\), open for him to merge\)\.',
+         'this version is from turn 128 (his message of 2026-11-04 18:20 UTC; %s).' % PRS, 1],
+        [e('turns 59 to 76 and 100 to 127 by %s' % S), 'turns 59 to 76 and 100 to 128 by %s' % S, 1],
+        [e('  - experiments/t127-answers/ (his message), t127-results/ (round 11 read) and t127-publish/ (the October check, the uploads, the publish draft) (the latest turn), '),
+         '  - experiments/t128-answers/ (his message), t128-publish/ (the dividers, the pull quotes, the update and the live read-back) and t128-sketches/ (the sketch ideas and their marking page) (the latest turn), t127-answers/ (his message), t127-results/ (round 11 read), t127-publish/ (the October check, the uploads, the publish draft and its plan), ', 1],
+        [r"^1\. His look at the publish draft in his post's editor \(https://ibogaqueen\.substack\.com/publish/post/189761959; Continue at the top right.*$", next1, 1],
+    ],
+    'insert_before': [
+        ['- TURN 127 (2026-11-04', turn128],
+    ],
+    'sections': {
+        '## Waiting on Joel': '\n'.join([
+            '1. His marks on the sketch page (%s) and his sketches from GPT, saved as S01.png ... in ~/ai-work/claude-dangerous-lane/inbox/t113/sketches/ on his laptop.' % PAGE,
+            '2. His merge of pull request #%s (turn 128).' % PRN,
+            '3. The map lane\'s reset: his merge of UDA pull request #467 (%s), or the map lane\'s resume line with the request (given to him in turn 121), then his merge of that lane\'s pull request that empties the queue.' % UDA,
+            '4. The two temporary Substack drafts, "Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)": round 11 is in them; deleting them is his.',
+            '5. Never in the article: amounts (the 1g, the 7g) and any recipe for what to take instead, including his "ultimate psychedelic recipe" line and its link.',
+        ]),
+    },
+}
+OUT.write_text(json.dumps(upd, indent=1, ensure_ascii=False) + '\n', encoding='utf-8')
+print('wrote', OUT)
+if '--test' in sys.argv:
+    sys.path.insert(0, str(ROOT / 'tools' / 'humanization'))
+    from handoff_note import apply
+    note = pathlib.Path(sys.argv[sys.argv.index('--test') + 1]).read_text(encoding='utf-8')
+    new, done = apply(note, upd)
+    print('\n'.join(done))
+    print(len(note), '->', len(new), 'characters')
+    if len(sys.argv) > sys.argv.index('--test') + 2:
+        pathlib.Path(sys.argv[sys.argv.index('--test') + 2]).write_text(new, encoding='utf-8')

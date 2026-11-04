@@ -1,0 +1,45 @@
+{
+ "round": 11,
+ "turn": 127,
+ "how": "Each feed page was read in the desktop app's built-in browser with tools/humanization/pangram_feed_read.js in compact mode: the result's fields, the SHA-256 of its checked text, and its windows as compact lines (WINDOWS-A.txt, WINDOWS-B.txt, each checked here against the page's own SHA-256 of that line). The checked text is the check text made with the payload (experiments/t126-substack/CHECK-A.txt, CHECK-B.txt); B's matches the page's SHA-256 as it is, and A's once the one no-break space of his \"Breadcrumbing is\" is a plain space, as Substack shows it (the preview check of turn 126 found the same).",
+ "A": {
+  "link": "https://www.pangram.com/feed/aca1a2dd-66a8-4a00-97b8-0d4a64785fdf",
+  "created_at": "2026-11-04T11:46:14.795420-05:00",
+  "version": "4.1",
+  "headline": "Human Written",
+  "fraction_ai": 4.96208330376486e-19,
+  "num_ai_segments": 0,
+  "n_windows": 11,
+  "word_count": 16955,
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "ai_windows": [],
+  "not_high_human": 1,
+  "by_confidence": {
+   "Medium": 1,
+   "Low": 0
+  }
+ },
+ "B": {
+  "link": "https://www.pangram.com/feed/6c933a47-c73e-45e2-825b-173a3603969e",
+  "created_at": "2026-11-04T11:46:14.085388-05:00",
+  "version": "4.1",
+  "headline": "Human Written",
+  "fraction_ai": 8.337899407436912e-19,
+  "num_ai_segments": 0,
+  "n_windows": 10,
+  "word_count": 11945,
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "ai_windows": [],
+  "not_high_human": 2,
+  "by_confidence": {
+   "Medium": 2,
+   "Low": 0
+  }
+ }
+}

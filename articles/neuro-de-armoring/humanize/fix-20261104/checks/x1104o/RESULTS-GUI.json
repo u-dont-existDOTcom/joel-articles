@@ -1,0 +1,21 @@
+{
+ "about": "Batch x1104o (the merge he suggested) as Pangram's web app read it (2026-11-04, 18:22 UTC), in Joel's Brave through Claude in Chrome, the text typed with its SHA-256 checked before the click and the result read back from his history by SHA-256.",
+ "detector": "pangram 4.1, the web app (Joel's account and its credits, run by the lane in his Brave through Claude in Chrome; one paragraph per check)",
+ "results": {
+  "b088m": {
+   "uuid": "f645d894-6c91-41b3-841d-26ec0d79b093",
+   "at": "2026-11-04T18:22:55Z",
+   "headline": "Human Written",
+   "ai": 0.0,
+   "words": 179,
+   "windows": [
+    [
+     "Human",
+     "High",
+     179,
+     "Who this is for: 5-HTP is not for every depressed person either. It could help, though, with a low-se"
+    ]
+   ]
+  }
+ }
+}
