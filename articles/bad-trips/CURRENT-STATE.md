@@ -60,9 +60,9 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
 
 ## Current checkpoint
 
-- **In progress:** Turn 4: round 2 is in; the humanize pass has started (`humanize/h01/`: the swap and the fidelity keys). The web-app test he asked about (OWNER-QUESTIONS item 3) comes before humanizing the checklist, since its answer decides whether the checklist stays in the guide.
-- **Next step (updated on every push, so another account can pick up here):** Put the checklist's situations to his web app (https://ibogaqueen.com/1625-2/) and list what it refuses or changes; then humanize the long part section by section per the gate (lint screen, fresh writers, tell panel, compare_read, fidelity check against `humanize/h01/FIDELITY-KEYS-H01.json`, predictions, then Pangram: section checks of five or six paragraphs in the web app, bigger ones through Substack drafts), with each section's rewrites on a marking page.
-- **Waiting on Joel:** which agmatine warnings go (for the neuro de-armoring lane); whether DMSO's other cautions in this guide get the same check; whether the deduped guide goes into his post now or after humanizing.
+- **In progress:** Turn 4: round 2 is in; the humanize pass has started (`humanize/h01/`: the swap and the fidelity keys); the web app is checked against the checklist (`experiments/t04-webapp/WEB-APP-CHECK.md`: its routing matches, but its medical-danger answer contradicts step 1, it has no amounts, and humic acid, coffee cherry and sending an entity love are missing).
+- **Next step (updated on every push, so another account can pick up here):** With his answers on the checklist (guide or app) and on when the deduped guide goes into his post: a fresh whole-guide Pangram check of the guide as it stands, the humanize pass's starting point (on the live post if he updates it now, which needs no draft; otherwise a temporary Substack draft, built as the Inner Child lane's turn 119 did, `articles/inner-child-therapy/experiments/t119-substack/`, its secret link opened in his Brave through Claude in Chrome, which is connected); then humanize section by section per the gate, worst windows first, each section's rewrites on a marking page with their Pangram results.
+- **Waiting on Joel:** the checklist: the guide or the web app (OWNER-QUESTIONS item 2); whether the deduped guide goes into his post now (item 3); which agmatine warnings go (item 1, for the neuro de-armoring lane); whether DMSO's other cautions get the same check.
 
 ## Remaining
 

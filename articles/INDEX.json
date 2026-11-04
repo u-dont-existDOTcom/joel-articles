@@ -108116,7 +108116,7 @@
         },
         {
           "path": "articles/bad-trips/HANDOFF-bad-trips.md",
-          "sha256": "8e08681531e7c8c7dcfcd34c27d3061b1c1cdb5db802357917358be919dae7bb",
+          "sha256": "c7d19647c99a9ac265e81a6339a56f4ea78aa86f2c613ee7381a0203c2439ddf",
           "role": "humanization_working_record"
         },
         {
@@ -108126,7 +108126,7 @@
         },
         {
           "path": "articles/bad-trips/OWNER-QUESTIONS.md",
-          "sha256": "671e6ad9c918ab932077c8ce8628b849cfc36ed21b26e2f10665a8df6482a1ce",
+          "sha256": "6366807d1302cfc8c3593134d61d0e31b857bcb257fed88686fa6a7306f30cbb",
           "role": "owner_questions_page"
         },
         {
@@ -108407,6 +108407,11 @@
         {
           "path": "articles/bad-trips/review/r02/apply_r02.py",
           "sha256": "07b26a35288c60da2bd5be4aad5338506df30002b09d80ffb38d84a8440edaa9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/experiments/t04-webapp/WEB-APP-CHECK.md",
+          "sha256": "a943165a38576e8cee470bd026ebd88e40c6cb95d747141a1e8fa77356009a2c",
           "role": "humanization_working_record"
         }
       ]

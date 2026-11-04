@@ -9,9 +9,12 @@ Answer under an item's number in a message.
 1. **open — The agmatine warnings** (in the neuro de-armoring protocol). Checked one by one, with each study linked:
    [the agmatine check](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t02-warnings/AGMATINE-WARNINGS-CHECK.md).
    Which ones go is yours to say, and the neuro de-armoring lane, which owns that protocol, puts it in.
-2. **next — The quick triage in the web app.** You'd like to move it there, but aren't sure the GPT-made app will give
-   the advice (its safety guardrails). Round 2 is in, so I'm putting the checklist's situations to the app and listing
-   what it refuses or changes, so you can decide with that in hand.
+2. **open — The quick triage: the guide or the web app?** I put each of the checklist's situations to the app
+   ([what it answered, situation by situation](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t04-webapp/WEB-APP-CHECK.md)).
+   It routes the way the guide does, but its medical-danger answer says not to start a field rescue ("Do not ... try a
+   home rescue protocol"), it gives no amounts anywhere, and humic acid, coffee cherry and sending an entity love aren't in
+   it. So either the checklist stays in the guide and the app stays the interactive companion, or the app's lines are
+   rewritten to match the guide first.
 3. **open — When the deduped guide goes into your post.** Round 2 made it 12,691 words (from 14,504). It can go in now,
    with the title's version and date updated, or after the humanizing.
 
