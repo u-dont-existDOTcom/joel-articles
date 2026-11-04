@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """hidden_links.py - the newcomer read: before a compressed paragraph is rewritten, a fresh reader who doesn't know the
-subject lists every link the paragraph leaves out (gate E343), and the draft has to state each one.
+subject lists every link the paragraph leaves out (gate E345), and the draft has to state each one.
 
 Joel, 2026-11-04 10:18 UTC, on the gut article's fuels, after three tries of mine at each of three paragraphs read AI:
 "now you try with what i taught you -- but i taught you the SAME thing as before, so idk why i keep having to teach the
@@ -26,6 +26,10 @@ one link I did write. This step asks the question his rewrites answer, before dr
 
 A stated link must be true and the original's own reasoning (or plain common knowledge), never a new claim; the blind
 meaning check reads it as LINK, not as an added fact (the fuels' brief, 2026-11-04).
+
+State each link as a cause or a consequence for the reader, in the flow ("they're already part of it, so your mitochondria
+can use them for energy directly"), not as a definition line: a TCA draft that answered all eleven gaps as glosses ("is
+just another name for", "are the compounds the cycle goes through") read AI High in one window (2026-11-04).
 """
 import argparse, json, pathlib, re, sys
 

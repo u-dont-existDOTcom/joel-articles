@@ -15,7 +15,7 @@ Compare them claim by claim. A rewrite FAILS if it does any of these:
 
 It does NOT fail for different wording, reordering, splitting or merging sentences, or cutting pure repetition, filler or redundant safety language that adds no claim.
 
-A rewrite may also state a link the original leaves implied: what a term means, the step between two sentences, how something does what the sentence says, or why it matters to the reader (gate E343; Joel, 2026-11-04: "just explain stuff to someone who doesn't already know the hidden links in your prose's thinking"). That is not an added fact when it is true and is the original's own reasoning, or plain common knowledge a reader needs to follow it. Name each such link in `issue` as LINK, quoting it, and PASS it. FAIL it, quoting it, only when the link is wrong, contradicts the original, or is a claim the original's reasoning doesn't hold (a new benefit, a dose, a person, an experience, a recommendation).
+A rewrite may also state a link the original leaves implied: what a term means, the step between two sentences, how something does what the sentence says, or why it matters to the reader (gate E345; Joel, 2026-11-04: "just explain stuff to someone who doesn't already know the hidden links in your prose's thinking"). That is not an added fact when it is true and is the original's own reasoning, or plain common knowledge a reader needs to follow it. Name each such link in `issue` as LINK, quoting it, and PASS it. FAIL it, quoting it, only when the link is wrong, contradicts the original, or is a claim the original's reasoning doesn't hold (a new benefit, a dose, a person, an experience, a recommendation).
 
 For each item return:
 

@@ -1,4 +1,4 @@
-"""The newcomer read (gate E343; Joel, 2026-11-04 10:18 UTC: "just explain stuff to someone who doesn't already know the
+"""The newcomer read (gate E345; Joel, 2026-11-04 10:18 UTC: "just explain stuff to someone who doesn't already know the
 hidden links in your prose's thinking")."""
 import json, pathlib, sys, tempfile, unittest
 

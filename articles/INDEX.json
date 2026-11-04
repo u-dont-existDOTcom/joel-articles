@@ -110081,7 +110081,7 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r04/FUELS-r04.json",
-          "sha256": "935adf283ba24e735eb0ee53ec7ab3c0945d92862920512ea6bebe27b6c4cb9c",
+          "sha256": "246be79006e21f2c2fc404aa69b10e3ed7e92f2d9f346c502619947dc4788b56",
           "role": "humanization_working_record"
         },
         {
@@ -110111,7 +110111,7 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r04/make_r04.py",
-          "sha256": "8ebd4f8885d3b8510152f10aefee2ebcbce7bb702d4bce56f2f300287d776381",
+          "sha256": "8b6fe12600a2646ac987a350a35c2e98b0c323b99826d7e8b6d34025c5aa85be",
           "role": "humanization_working_record"
         },
         {
@@ -110126,7 +110126,7 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r04/tca/MEANING-CHECK-BRIEF.md",
-          "sha256": "2db01803df61560842d75b476b55457a2b5a895cb3dea61dd8883b8dee607318",
+          "sha256": "e003dae486e49bf82155af9e49117fb494f1117b56893d3d86cc4833d64d3487",
           "role": "humanization_working_record"
         },
         {
@@ -110197,6 +110197,21 @@
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r04/tca/links/LINKS-draft1.json",
           "sha256": "be7082489edc48019fa56355c007bee58d0b2de533f5b4288bdc96e8bf7dd0c0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/experiments/t06-answers/README.md",
+          "sha256": "87ebcb59cfbeb570c8cc25ca765103a7d9deaa0abf7e568c773163a8be85e3b6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r04/r04.html",
+          "sha256": "794d7cef5b571ac159d61e4b01cc1e980878c60377a7ebd3eee4c656a9cf3f03",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r04/r04.md",
+          "sha256": "7052402b5a1d0b978fff4d08e77989bb6c68993af1e3d2598d04f251e59a7d2f",
           "role": "humanization_working_record"
         }
       ]

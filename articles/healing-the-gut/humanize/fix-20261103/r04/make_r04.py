@@ -4,7 +4,7 @@
 - The glutamine item: his F3-1 word for word, with the Dr. Rhonda link put back on "watch Dr. Rhonda vid" (the marking
   page's text has no links).
 - The butyrate item: his F3-2 word for word (his second web-app try, Possibly human 100%).
-- The TCA intermediates: mine, written for a reader who doesn't know the links (gate E343): the newcomer read's gaps
+- The TCA intermediates: mine, written for a reader who doesn't know the links (gate E345): the newcomer read's gaps
   (tca/links/LINKS.json), each stated or left as a question for him, `hidden_links.py check` clean, the blind meaning check
   (tca/MEANING-VERDICTS.json).
 - The dose and the cancer caution as in r03 (Human through the API).
