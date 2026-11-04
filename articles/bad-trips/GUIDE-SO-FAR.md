@@ -4,126 +4,6 @@
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/3dde0b96-2031-4962-92b7-c5e7a143e1f7_1122x1402.png)
 
-# Quick Bad Trip Checklist
-
-**Use this in order.** Medical safety first. Then stop unsafe momentum, fix the room, help the body, find one calm human, protect sleep, and only then start interpreting anything.
-
-## 1. Is this medically or physically dangerous?
-
-Trouble breathing, a prolonged or repeated seizure, collapse, inability to wake normally, dangerous overheating, severe or worsening chest pain, one-sided weakness, inability to speak normally, loss of bodily control, serious injury, repeated vomiting, a dangerous drug combination, or someone who cannot be kept physically safe?
-
-**Get urgent help while giving basic first aid and any appropriate immediate rescue measures.** Medical help and field rescue can happen in parallel. Please don't spiritually process a body that is going under.
-
-More: [When to Bring In Outside Help](https://ibogaqueen.substack.com/i/170920118/when-to-bring-in-outside-help)
-
-## If someone says "my brain feels damaged"
-
-Take that seriously even if they are high. **Use DMSO immediately while checking** whether they can stay awake, breathe normally, smile evenly, raise both arms, repeat a simple sentence, walk, control their bodily functions, and report seizure, severe headache, repeated vomiting, dangerous heat, chest pain, or vision changes. These checks include several recognized [stroke warning signs](https://www.stroke.org/en/about-stroke/stroke-symptoms).
-
-If this is a psychedelic and the concern is actual brain damage rather than a trip that is merely too intense, I am no longer trying to preserve the trip: DMSO comes first, then *Ipomoea pes-caprae* to stop the trip cold and fast. For MDMA, move from DMSO to the magnesium-and-electrolyte branch.
-
-More: [If Someone Says "My Brain Feels Damaged": DMSO + Humic Acid First](https://ibogaqueen.substack.com/i/170920118/if-someone-says-my-brain-feels-damaged-dmso-humic-acid-first)
-
-## 2. Is anyone about to do something unsafe?
-
-Stop the immediate momentum toward roads, balconies, water, stoves, knives, crowds, fights, strangers, driving, posting, texting, or leaving alone.
-
-Put away the car keys, the phone if posting or texting is becoming risky, weapons, sharp objects, and anything else that could turn a temporary state into a permanent consequence.
-
-More: [Psychological First Aid: The First Five Minutes](https://ibogaqueen.substack.com/i/170920118/psychological-first-aid-the-first-five-minutes)
-
-## 3. Is the room wrong?
-
-Check the obvious things: light, sound, temperature, privacy, bathroom access, music, crowding, and how many people are talking. Soothing meditative music, like that of Chantress Seba and others on my [music page](http://music.u-dont-exist.com/), can be very helpful.
-
-More: [Psychological First Aid: The First Five Minutes](https://ibogaqueen.substack.com/i/170920118/psychological-first-aid-the-first-five-minutes)
-
-## 4. Does the body need stillness or movement?
-
-Don't make this ideological. Try the safest option for two minutes and see what actually happens.
-
-Avoid strenuous exercise with overheating, chest pain, faintness, severe confusion, stimulant use, unknown drug mixtures, or other medical instability.
-
-More: [Stillness or Movement?](https://ibogaqueen.substack.com/i/170920118/stillness-or-movement)
-
-## 5. Is there a human anchor?
-
-Contact one grounded person if you can.
-
-More: [Get One Human Anchor](https://ibogaqueen.substack.com/i/170920118/get-one-human-anchor)
-
-## 6. Are you alone at 3 a.m.?
-
-One lamp on. Blanket. Water nearby. Keys away. Put a familiar note, childhood toy, stuffed animal, or other object that already means safety beside you. Use the phone for support only, rather than posting. Write this where you can see it:
-
-> This will change. No big actions until morning.
-
-More: [Alone at 3 a.m.](https://ibogaqueen.substack.com/i/170920118/alone-at-3-am)
-
-## 7. Is the trip merely too intense, with no brain-damage concern?
-
-Use this calming branch only after the quick neurological screen is reassuring and the person wants to preserve the trip. If they say their brain feels damaged, return to the DMSO-first branch instead.
-
-Try grounding before chemically or forcefully changing the state.
-
-More: [Grounding Menu: Choose One or Two Things](https://ibogaqueen.substack.com/i/170920118/grounding-menu-choose-one-or-two-things)
-
-## 8. Is the person euphoric, grandiose, or cosmically certain?
-
-Some dangerous states feel wonderful. Bliss, certainty, and "I have a mission" can be more dangerous than fear because the person may resist grounding.
-
-The action-lock applies double: no driving, posting, confessing, confronting, redosing, disappearing, giving away possessions, testing theories, or proving anything tonight.
-
-More: [When the Trip Feels Amazing: Euphoric Certainty](https://ibogaqueen.substack.com/i/170920118/when-the-trip-feels-amazing-euphoric-certainty)
-
-## 9. Are visions, entities, memories, or cosmic conclusions giving commands?
-
-Don't try to win a metaphysical argument. Don't agree with harmful conclusions either. Reflect the feeling, then redirect toward safety, non-harm, sleep, and ordinary reality.
-
-Get crisis or emergency help when there is a specific target, a weapon, movement toward action, escalating violence, or a situation the sitter cannot safely contain.
-
-More: [When the Content Turns Toward Harm](https://ibogaqueen.substack.com/i/170920118/when-the-content-turns-toward-harm)
-
-## 10. Is the gut the main problem?
-
-Nausea, diarrhea, a dirty or toxic feeling, or a parasite-die-off feeling may need body-level support. But don't let "toxins" distract from repeated vomiting, severe abdominal pain, dehydration, blood, fever, confusion, fainting, respiratory depression, collapse, seizure, dangerous overheating, or another concrete sign of poisoning.
-
-My personal first thought here is ozonated zeolite rather than charcoal because charcoal can reduce the trip and bind many substances.
-
-More: [Gut-Toxin and Parasite-Die-Off Tools](https://ibogaqueen.substack.com/i/170920118/gut-toxin-and-parasite-die-off-tools)
-
-## 11. Is nausea still the main problem after basic gut support?
-
-Use nausea smoothers that are unlikely to abort the trip when the person wants to preserve it.
-
-More: [Nausea Smoothers When the Person Wants to Preserve the Trip](https://ibogaqueen.substack.com/i/170920118/nausea-smoothers-when-the-person-wants-to-preserve-the-trip)
-
-## 12. Do I want – or need – to stop a psychedelic trip?
-
-When the person wants the trip ended, or when a serious brain-damage feeling makes preserving it irrelevant, *Ipomoea pes-caprae* is my ultimate sledgehammer. Niacin is a backup trip killer.
-
-More: [When the Goal Is to Stop a Psychedelic Trip](https://ibogaqueen.substack.com/i/170920118/when-the-goal-is-to-stop-a-psychedelic-trip)
-
-## 13. Is this shadow work?
-
-Then use love, awareness,[ inner-child reparenting](http://innerchild.u-dont-exist.com), somatic release, and gentle witnessing.
-
-More: [Shadow Work and Tripsitting Yourself or Others](https://ibogaqueen.substack.com/i/170920118/shadow-work-and-tripsitting-yourself-or-others)
-
-## 14. Can I send [love](http://love.u-dont-exist.com/) to the one suffering?
-
-When you can, do that. When you can't, stabilize the room, body, breath, human contact, time orientation, and sleep. Then try again.
-
-More: [Dealing With Sorrow: Missing Versus Sending Love](https://ibogaqueen.substack.com/i/170920118/dealing-with-sorrow-missing-versus-sending-love)
-
-## 15. What support can I contact?
-
-Identify local crisis and peer-support resources before you need them.
-
-More: [Who to Contact, and When](https://ibogaqueen.substack.com/i/170920118/who-to-contact-and-when)
-
----
-
 # Inner Signal App to the Rescue!
 
 I developed the [**Inner Signal app**](http://innersignalselfhypnosis.com/integrate) from my [Inner Child Reparenting](http://innerchild.u-dont-exist.com/) and [Self-Hypnosis](http://hypnosis.u-dont-exist.com/) guides, along with my [sleep guide](http://sleep.u-dont-exist.com/), [meditation guidance](http://mindset.u-dont-exist.com/), and this bad-trips guide. It can gently guide you through reparenting in trance – or without trance when you're already altered – choose meditations that fit what's actually happening, and help you through difficult altered states. If you prefer the old-fashioned method of reading and applying things yourself, read on.
@@ -181,7 +61,7 @@ The emergency room is not magic, and for a physiologically stable psychedelic cr
 
 Do not dismiss that report because the person is high or cannot explain it in clinical language. It may be anxiety or excessive psychedelic intensity. It may also be acute neurological dysfunction, and the person experiencing it may be the least able to describe it neatly. [DMSO](http://dmso.u-dont-exist.com/) is my first immediate remedy while I ask what the symptoms actually are. I usually know within about a minute whether it is helping. Smelling [humic acid ](http://humicacid.u-dont-exist.com)or tasting a tiny bit can also help a lot, in my experience, but I'm still collecting data from others.
 
-While using DMSO, check wakefulness, breathing, temperature, speech, facial symmetry, both arms, balance, walking, bodily control, seizure activity, severe headache, repeated vomiting, chest pain, and vision. A person who cannot answer or cooperate has not passed the screen; their neurological status is still unknown. If the screen is reassuring but the brain-damage feeling remains, continue the DMSO-first route and reassess promptly.
+While using DMSO, check wakefulness, breathing, temperature, speech, facial symmetry, both arms, balance, walking, bodily control, seizure activity, severe headache, repeated vomiting, chest pain, and vision. These checks include several recognized [stroke warning signs](https://www.stroke.org/en/about-stroke/stroke-symptoms). A person who cannot answer or cooperate has not passed the screen; their neurological status is still unknown. If the screen is reassuring but the brain-damage feeling remains, continue the DMSO-first route and reassess promptly.
 
 I believe DMSO works better for stroke and most acute brain damage than anything else readily available to ordinary people. That judgment is stronger than the clinical evidence, but the evidence is not empty: a [preliminary human ischemic-stroke trial](https://pubmed.ncbi.nlm.nih.gov/11783757/) reported possible neurological benefit; a [small human series](https://pubmed.ncbi.nlm.nih.gov/6462399/) used DMSO for intracranial hypertension; and [animal stroke research](https://pubmed.ncbi.nlm.nih.gov/15744247/) found substantial infarct reduction even when treatment began after ischemia. DMSO also suppresses [NMDA- and AMPA-mediated excitotoxicity](https://pubmed.ncbi.nlm.nih.gov/11421595/).
 
@@ -199,7 +79,7 @@ Time the seizure. Protect the person from injury, clear dangerous objects, loose
 
 If an appropriate rapid seizure-rescue benzodiazepine is available, use it by its intended route. Benzodiazepines are the [established first-line drug class for status epilepticus](https://pmc.ncbi.nlm.nih.gov/articles/PMC9477921/). An ordinary pill is not the same thing as a nasal, buccal, rectal, intramuscular, or intravenous rescue preparation, and respiratory depressants in the mix change the risk.
 
-I would also use topical magnesium chloride and consider topical DMSO with a known CBD preparation as adjuncts. CBD has established antiseizure activity in several epilepsy syndromes, and [transdermal CBD reaches systemic circulation](https://pubmed.ncbi.nlm.nih.gov/35802375/), although it has not been validated as rapid seizure rescue. DMSO reduced seizure activity in a [rat temporal-lobe epilepsy model](https://pubmed.ncbi.nlm.nih.gov/23643984/) and has several neuroprotective mechanisms, but it produced the opposite effect at some doses in an [absence-epilepsy model](https://pubmed.ncbi.nlm.nih.gov/21320528/). I treat it as a plausible experimental adjunct rather than something to wait on while a seizure continues.
+I would also use topical magnesium chloride and consider topical DMSO with a known CBD preparation as adjuncts. Purified oral CBD is [approved](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/210365s024s029s030lbl.pdf) for the seizures of Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex. For focal seizures outside those syndromes, the evidence is mixed. In a [12-week trial](https://pubmed.ncbi.nlm.nih.gov/35802375/), a CBD skin gel reached the blood at levels like oral CBD's but did no better than placebo. In a [2025 study](https://pubmed.ncbi.nlm.nih.gov/40673944/) of high-dose oral CBD, around 23 mg/kg a day (about 1,400 mg for a 60 kg adult), focal seizures fell by about half to three quarters over nearly three years, but it had no placebo group to compare with. None of it tested CBD as rapid seizure rescue. DMSO reduced seizure activity in a [rat temporal-lobe epilepsy model](https://pubmed.ncbi.nlm.nih.gov/23643984/) and has several neuroprotective mechanisms, but it produced the opposite effect at some doses in an [absence-epilepsy model](https://pubmed.ncbi.nlm.nih.gov/21320528/). I treat it as a plausible experimental adjunct rather than something to wait on while a seizure continues.
 
 Call medics for a convulsive seizure lasting about five minutes, repeated seizures without normal recovery, trouble breathing, dangerous heat, serious injury, a first seizure, or a seizure substantially different from the person's known pattern.
 
@@ -457,7 +337,7 @@ This post collects my own experience and thinking, but I would be remiss not to 
 
 ## Psychological First Aid: The First Five Minutes
 
-The checklist above gives the order. This section is about carrying it out without becoming one more source of pressure.
+The [triage app](https://ibogaqueen.com/1625-2/) gives the order. This section is about carrying it out without becoming one more source of pressure.
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/944bef30-ca59-415b-a2e8-809a29ac2ba6_1122x1402.png)
 
@@ -537,7 +417,7 @@ Save the relevant links and local numbers *before* you need them. Hours and serv
 
 ### Alone at 3 a.m.
 
-The quick checklist above contains the stripped-down 3 a.m. plan. Once the lamp is on, the keys are away, and **"No big actions until morning"** is visible, use the phone only to reach a calm person or support service.
+The [triage app](https://ibogaqueen.com/1625-2/) has the stripped-down 3 a.m. plan. Once the lamp is on, the keys are away, and **"No big actions until morning"** is visible, use the phone only to reach a calm person or support service.
 
 Send the human-anchor script. When nobody is available, use Fireside during its coverage hours, TripSit for drug-related peer support, or Find A Helpline and a local crisis service for fear, despair, self-harm, or inability to stay safe.
 
@@ -621,6 +501,7 @@ Choose one or two options rather than all of them. Twelve simultaneous technique
 - Silence is a real option.
 - Use familiar music when possible. I wouldn't force a predesigned emotional arc or an unfamiliar therapeutic playlist on somebody who dislikes it.
 - Try a steady drum rhythm for stabilization or grounding; try airy harp-like or meditative music when the person wants something gentler and spiritually uplifting.
+- Soothing meditative music, like that of Chantress Seba and others on my [music page](http://music.u-dont-exist.com/), can be very helpful.
 - Keep the stop or change control immediate. Music should remain an option, rather than become another authority in the room.
 
 **Room**
@@ -770,7 +651,7 @@ When you have a choice:
 - **Closure:** stop adding stimulation, return to the room and date, eat and hydrate when safe, write down the basic facts, and let the body understand that the session has ended.
 - **Integration time:** leave the rest of the day and, when possible, the next morning free. Sleep and food come before turning the experience into a new life plan.
 
-Use this sequence for planned sessions. Once somebody is already in trouble, return to the acute checklist instead of trying to improve the ceremony plan.
+Use this sequence for planned sessions. Once somebody is already in trouble, return to the [triage app](https://ibogaqueen.com/1625-2/) instead of trying to improve the ceremony plan.
 
 ## The Fear/Panic Loop
 
@@ -785,7 +666,7 @@ A common loop is fear trying to solve fear. Terror appears, and the mind answers
 3. **Move down the ladder:** room → body → human → time.
 4. **Repeat:** "This is a wave. I don't have to solve it while peaking."
 
-## Dealing With Sorrow: Missing Versus Sending Love
+## Dealing With Sorrow: Missing Versus [Sending Love](http://love.u-dont-exist.com/)
 
 I once found a pamphlet helpful on sorrow, although it was too "ultimate" and Advaita for my taste. I now think focusing on love is more helpful than focusing on missing somebody or something.
 
@@ -1000,7 +881,7 @@ The fruit of insight isn't how cosmic the story sounds. It's whether suffering g
 
 # Appendix: Additional Resources
 
-If somebody is actively in trouble, use the checklist first. The resources below come afterward.
+If somebody is actively in trouble, use the [triage app](https://ibogaqueen.com/1625-2/) first. The resources below come afterward.
 
 - Other alternatives to standard mental-health care are listed at [alternativementalhealth.com](http://alternativementalhealth.com/).
 - U.C. Berkeley offers a [free class](https://www.edx.org/course/the-science-of-happiness-0?source=aw&awc=6798_1552495277_34b3e4407505841b179970d2ed02f5c8&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=78888_Skimlinks), based partly on experimentally validated Buddhist teachings, about learning to be happy and helping others become happy.

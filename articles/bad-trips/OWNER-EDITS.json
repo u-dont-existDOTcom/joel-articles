@@ -163,13 +163,13 @@
   },
   {
    "id": "checklist-to-app",
-   "status": "pending",
+   "status": "applied",
    "what": "the Quick Bad Trip Checklist moves out of the guide to the web app once the app's version 9 (or 8), which matches the guide, is live (the guide's first line already links to the app); the four lines that point to the checklist ('The checklist above', 'The quick checklist above', 'the acute checklist', 'use the checklist first') then point to the app",
    "joel": "11:35: \"rewrite web app to match the guide if you can, but if you're blockewd by guardrails then keep checlist int he guide yeah\"; 14:25: \"i'm updating the triage app now (with gpt who knows how to update it on my netcup vps)\"",
-   "waits_for": "version 9 live on https://ibogaqueen.com/1625-2/ (data-version 2026-11-04-v9; version 8, 2026-11-04-v8, differs from it only in the ferment-itch line round 3 changed)",
    "must_not_contain": [
     "# Quick Bad Trip Checklist"
-   ]
+   ],
+   "applied_by": "review/r04/apply_r04.py, 2026-11-04 (turn 8): the live page showed data-version 2026-11-04-v9 at 14:59 UTC, its widget byte for byte APP-V9-20261104.html; the four pointers are round 4's APP-1 to APP-4, approved"
   },
   {
    "id": "post-when-finished",

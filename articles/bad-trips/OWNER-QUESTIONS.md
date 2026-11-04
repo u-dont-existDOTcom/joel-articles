@@ -1,26 +1,25 @@
 # Bad Trips guide: questions for Joel
 
-Updated 2026-11-04 (turn 7, his round-3 answers of 14:25 UTC in). Status: **open** = waiting on you, **next** = I do it once you
+Updated 2026-11-04 (turn 8, his round-4 answers of 14:58 UTC in). Status: **open** = waiting on you, **next** = I do it once you
 answer, **done** = answered.
 Answer under an item's number in a message.
 
 ## Open
 
-1. **open — Round 4: the CBD paragraph, and the checklist's pointers.** W-CBD2 is the CBD paragraph redone from what
-   you sent with your Revise on round 3, each point checked; APP-1 to APP-4 point the guide's four mentions of the
-   checklist at the triage app, for when the checklist leaves the guide. On round 4's page (Bad Trips Guide, Round 4, in
-   your claude.ai artifacts; the cards as text:
-   [REVIEW-R04.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r04/REVIEW-R04.md)).
+1. **open — Round 5: the CBD paragraph, in your words.** You asked me to make it pass Pangram, and four versions all
+   read AI, three of mine and one by GPT. The card has the Pangram links, what the readers saw, and the points it has to
+   keep. On round 5's page (Bad Trips Guide, Round 5, in your claude.ai artifacts; the card as text:
+   [REVIEW-R05.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r05/REVIEW-R05.md)).
 
 ## Your tasks
 
-- **Put version 9 of the triage app into its page** (you're doing it now, with GPT on your VPS). The file was sent in
-  chat; it's also on your laptop in claude-acceptance-transfer, in its bad-trips-webapp folder, and
-  [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t05-webapp/APP-V9-20261104.html).
-  It's version 8 with round 3's ferment-itch line. Once the page shows version 9, the checklist comes out of the guide,
-  as you said.
+None right now.
 
 ## Decisions on record
+
+His round-4 answers of 2026-11-04 14:58 UTC, on [round 4's cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r04/REVIEW-R04.md):
+all 5 approved and in the guide; W-CBD2 with "now fix it so it passes pangram" (round 5). His message "updated the web
+app": the live page shows version 9, so the checklist is out of the guide, as he said on 2026-11-04 11:35 UTC.
 
 His round-3 answers of 2026-11-04 14:25 UTC, on [round 3's cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r03/REVIEW-R03.md):
 7 approved and in the guide (the two cuts kept out for good, KEEP-AS-IS C6 and C7); W-GLORY rejected ("not sure why

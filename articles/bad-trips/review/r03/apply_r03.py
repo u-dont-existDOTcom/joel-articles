@@ -2,7 +2,8 @@
 """apply_r03.py - round 3's answers (Joel, 2026-11-04 14:25 UTC; ANSWERS-R03-20261104-1425.json) put into the guide.
 
 Round 3 is the warnings check (gate E344; ../../experiments/t05-warnings/WARNINGS-CHECK.md). Starts from the guide as
-it stood after round 2 (../../GUIDE-SO-FAR-blocks.json, which round 3's page showed) and writes the guide after round 3
+it stood after round 2 and the standard swap (../../humanize/h01/GUIDE-AFTER-SWAP-blocks.json, which round 3's page
+showed) and writes the guide after round 3
 (GUIDE-AFTER-R03.md beside this script, and its blocks, GUIDE-AFTER-R03-blocks.json, with the block ids kept), which
 becomes ../../GUIDE-SO-FAR.md:
 
@@ -33,7 +34,7 @@ ART = HERE.parent.parent
 sys.path.insert(0, str(ART.parents[1] / 'tools' / 'humanization'))
 import suggestion_review as SR  # noqa: E402
 
-BLOCKS = json.loads((ART / 'GUIDE-SO-FAR-blocks.json').read_text(encoding='utf-8'))
+BLOCKS = json.loads((ART / 'humanize' / 'h01' / 'GUIDE-AFTER-SWAP-blocks.json').read_text(encoding='utf-8'))
 PMAP = json.loads((HERE / 'PAGE-R03-map.json').read_text(encoding='utf-8'))['map']
 REVIEW = json.loads((HERE / 'REVIEW-R03.json').read_text(encoding='utf-8'))
 ANSWERS = json.loads((HERE / 'ANSWERS-R03-20261104-1425.json').read_text(encoding='utf-8'))

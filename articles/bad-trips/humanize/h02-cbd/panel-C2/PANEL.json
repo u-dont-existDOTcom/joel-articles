@@ -1,0 +1,70 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "I would also use topical magnesium chloride and consider topical DMSO with a known CBD preparation as adjuncts.",
+  "CBD on the skin hasn't been shown to help with seizures, though.",
+  "In a 12-week trial, a CBD gel got into the blood about as well as oral CBD does and still did no better than placebo.",
+  "Swallowed CBD looks better: it's approved for the seizures that come with Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex, and in a 2025 study, people taking a lot of it, around 23 mg/kg a day (about 1,400 mg if you weigh 60 kg), had about half to three quarters fewer focal seizures over almost three years.",
+  "That study had no placebo group, and neither study tested CBD as a quick rescue during a seizure.",
+  "DMSO cut seizure activity in a rat temporal-lobe epilepsy model and protects nerve cells in several ways, but at some doses it made things worse in an absence-epilepsy model.",
+  "So I see it as an experimental extra that might help, and I wouldn't wait on it while a seizure keeps going."
+ ],
+ "flagged": {
+  "1": [
+   "sonnet"
+  ],
+  "2": [
+   "sonnet"
+  ],
+  "3": [],
+  "4": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "haiku",
+   "sonnet"
+  ],
+  "7": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  4,
+  5,
+  6,
+  7
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph moves through evidence, qualifications and a cautious takeaway with unusually orderly coverage, while alternating technical terminology with deliberately casual phrasing. That combination can suggest AI polishing, but none of these features establishes authorship."
+  ],
+  "haiku": [
+   "The paragraph is built in a very even way: nearly every sentence pairs a finding with a caveat, and the sentence lengths and hedging are consistent throughout, which reads like a polished evidence summary rather than one person's voice. The arc, from advice to data to a balanced verdict, is tidy in the way generated text often is, though a few direct phrasings keep it from reading as fully machine-made."
+  ],
+  "sonnet": [
+   "The paragraph is built as claim, then evidence for, then limits, then a second claim, then evidence for and against, then a hedged verdict. Each sentence is about the same length and carries one carefully qualified point, so the rhythm is even and the caveats are very complete. The overall effect is a balanced, evenly hedged mini-review with no digressions, which is more machine-like than most human writing. The first-person \"I\" voice sits on top of that structure and does not break it."
+  ]
+ },
+ "human_clean": [
+  "people taking a lot of it",
+  "a known CBD preparation",
+  "I would also use topical magnesium chloride",
+  "I would also use",
+  "In a 12-week trial, a CBD gel got into the blood about as well as oral CBD does and still did no better than placebo.",
+  "got into the blood",
+  "still did no better"
+ ]
+}

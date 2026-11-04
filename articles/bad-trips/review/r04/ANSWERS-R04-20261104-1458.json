@@ -1,0 +1,121 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r04",
+ "title": "Bad Trips Guide, Round 4",
+ "git_file": "articles/bad-trips/review/r04/REVIEW-R04.html",
+ "article": {
+  "file": "articles/bad-trips/review/r04/PAGE-R04.md",
+  "sha256": "070ec74732a822bc8700381a95e64495c3450e7aefc309fa8cdf2842cca8e979"
+ },
+ "built": "2026-11-04",
+ "generator": "suggestion_review.py 1.5 (2026-11-02)",
+ "exported_at": "2026-11-04T14:58:03.302Z",
+ "counts": {
+  "approved": 5,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "W-CBD2",
+   "type": "redo",
+   "title": "CBD and seizures, from what you sent",
+   "where": "Active Seizure, P3",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "now fix it so it passes pangram",
+   "my_version": "I would also use topical magnesium chloride and consider topical DMSO with a known CBD preparation as adjuncts. Purified oral CBD is approved for the seizures of Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex. For focal seizures outside those syndromes, the evidence is mixed. In a 12-week trial, a CBD skin gel reached the blood at levels like oral CBD's but did no better than placebo. In a 2025 study of high-dose oral CBD, around 23 mg/kg a day (about 1,400 mg for a 60 kg adult), focal seizures fell by about half to three quarters over nearly three years, but it had no placebo group to compare with. None of it tested CBD as rapid seizure rescue. DMSO reduced seizure activity in a rat temporal-lobe epilepsy model and has several neuroprotective mechanisms, but it produced the opposite effect at some doses in an absence-epilepsy model. I treat it as a plausible experimental adjunct rather than something to wait on while a seizure continues.",
+   "before": "I would also use topical magnesium chloride and consider topical DMSO with a known CBD preparation as adjuncts. CBD has established antiseizure activity in several epilepsy syndromes, and transdermal CBD reaches systemic circulation, although it has not been validated as rapid seizure rescue. DMSO reduced seizure activity in a rat temporal-lobe epilepsy model and has several neuroprotective mechanisms, but it produced the opposite effect at some doses in an absence-epilepsy model. I treat it as a plausible experimental adjunct rather than something to wait on while a seizure continues.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T14:57:30.166Z"
+    }
+   ],
+   "updated": "2026-11-04T14:57:40.761Z"
+  },
+  {
+   "id": "APP-1",
+   "type": "app",
+   "title": "\"The checklist above gives the order\"",
+   "where": "Psychological First Aid: The First Five Minutes, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "The triage app gives the order. This section is about carrying it out without becoming one more source of pressure.",
+   "before": "The checklist above gives the order. This section is about carrying it out without becoming one more source of pressure.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T14:57:48.622Z"
+    }
+   ],
+   "updated": "2026-11-04T14:57:48.622Z"
+  },
+  {
+   "id": "APP-2",
+   "type": "app",
+   "title": "\"The quick checklist above\" and the 3 a.m. plan",
+   "where": "Alone at 3 a.m., P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "The triage app has the stripped-down 3 a.m. plan. Once the lamp is on, the keys are away, and \"No big actions until morning\" is visible, use the phone only to reach a calm person or support service.",
+   "before": "The quick checklist above contains the stripped-down 3 a.m. plan. Once the lamp is on, the keys are away, and \"No big actions until morning\" is visible, use the phone only to reach a calm person or support service.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T14:57:53.582Z"
+    }
+   ],
+   "updated": "2026-11-04T14:57:53.582Z"
+  },
+  {
+   "id": "APP-3",
+   "type": "app",
+   "title": "\"Return to the acute checklist\"",
+   "where": "Give the Session a Beginning and an End, P9",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Use this sequence for planned sessions. Once somebody is already in trouble, return to the triage app instead of trying to improve the ceremony plan.",
+   "before": "Use this sequence for planned sessions. Once somebody is already in trouble, return to the acute checklist instead of trying to improve the ceremony plan.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T14:57:57.053Z"
+    }
+   ],
+   "updated": "2026-11-04T14:57:57.053Z"
+  },
+  {
+   "id": "APP-4",
+   "type": "app",
+   "title": "\"Use the checklist first\"",
+   "where": "Appendix: Additional Resources, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "If somebody is actively in trouble, use the triage app first. The resources below come afterward.",
+   "before": "If somebody is actively in trouble, use the checklist first. The resources below come afterward.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T14:58:00.446Z"
+    }
+   ],
+   "updated": "2026-11-04T14:58:00.446Z"
+  }
+ ]
+}

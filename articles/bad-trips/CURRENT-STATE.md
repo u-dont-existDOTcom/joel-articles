@@ -1,6 +1,6 @@
 # Bad Trips guide: current state
 
-Updated: 2026-11-04 (turn 7, his round-3 answers and messages of 14:25 and 14:26 UTC). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
+Updated: 2026-11-04 (turn 8, his round-4 answers and message of 14:58 UTC). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
 badtrips guide at badtrips.u-dont-exist.com"; `experiments/t01-answers/JOEL-MESSAGE-20261103-1545.md`).
 
 ## Goal
@@ -92,16 +92,39 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
   2026) and the paragraph redone as round 4's W-CBD2, with the four checklist pointers moved to the app (APP-1 to APP-4)
   on the same page (`review/r04/`, Bad Trips Guide, Round 4, https://claude.ai/artifact/HcLtoHF2XB2wSoxbvwmEVf; browser
   test 78 of 78). The live app still showed version 7 at 14:40 UTC.
+- 2026-11-04 (turn 8, his round-4 answers of 14:58 UTC, all 5 approved, W-CBD2 with the comment "now fix it so it
+  passes pangram", and his message "updated the web app"): main merged (pull request 294, no shared file changed); his
+  message and answers saved (`experiments/t07-answers/`, `review/r04/ANSWERS-R04-20261104-1458.json`); the live page
+  read from his laptop at 14:59 UTC shows version 9, its widget the same as `experiments/t05-webapp/APP-V9-20261104.html`
+  (`experiments/t07-answers/APP-LIVE-20261104-1459.html`). Each round's input is frozen now, so every apply script
+  reruns: `humanize/h01/swap.py` writes `humanize/h01/GUIDE-AFTER-SWAP.md` (no longer `GUIDE-SO-FAR.md`), which
+  `review/r03/apply_r03.py` reads, and `review/r04/apply_r04.py` reads `review/r03/GUIDE-AFTER-R03-blocks.json`; both
+  reproduce their outputs. `apply_r04.py` put the 5 cards in, each checked against its card, and took the Quick Bad Trip
+  Checklist out (B3 to B64, 60 blocks; OWNER-EDITS `checklist-to-app` applied). Each of its sentences was compared with
+  the long part and the app; the three it alone had went into the long part in his words: the stroke warning signs
+  line and link (B104), the Chantress Seba line with his music page (B304, after the drum-rhythm item) and his love page
+  link (on "Sending Love" in the sorrow heading, B376). 12,733 to 11,882 words; `review/r04/GUIDE-AFTER-R04.md` is
+  `GUIDE-SO-FAR.md`. Checks: no section pointer flagged (`section_refs.py`); all 14 pictures and 4 videos there
+  (`post_embeds.py`); the links gone are the checklist's own section links and one of its four Inner Child links (three
+  stay). Fidelity keys taken again (`humanize/h01/FIDELITY-KEYS-R04.json`: 119 warning sentences, 58 terms, 30
+  numbers); `ARCHITECTURE.md` redrawn without the checklist; the whole-guide page re-rendered. On his comment: Pangram's
+  web app on the Active Seizure section and on four versions of the CBD paragraph, three of mine and one by GPT (Codex
+  on his laptop): all AI (`humanize/h02-cbd/RESULTS.json`, every window with its confidence and link; not scored, as no
+  prediction was logged first). A tell panel of three fresh readers on my second version (`humanize/h02-cbd/panel-C2/
+  PANEL.md`): a balanced mini-review, every finding paired with its caveat, even sentence lengths, a tidy verdict. So
+  the paragraph went to him for his own version (FIXING-AN-ARTICLE item 7, gates E256 and E333): round 5's page, one
+  edit card, CBD-YOURS (`review/r05/`, browser test 62 of 62; Bad Trips Guide, Round 5,
+  https://claude.ai/artifact/12uJZXZ5xptJoYQjoXQJKq).
 
 ## Current checkpoint
 
-- **In progress:** Turn 7: round 4's 5 cards are on his page; he's putting version 9 of the app into its page.
-- **Next step (updated on every push, so another account can pick up here):** His round-4 answers in with an `apply_r04.py` like round 3's (the page's export, saved as `review/r04/ANSWERS-R04-*.json`). W-CBD2's links: "approved" to the FDA label (https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/210365s024s029s030lbl.pdf), "12-week trial" to https://pubmed.ncbi.nlm.nih.gov/35802375/ (the link the old sentence had), "2025 study" to https://pubmed.ncbi.nlm.nih.gov/40673944/. APP-1 to APP-4 link "triage app" to https://ibogaqueen.com/1625-2/ and go in with the checklist's removal, once the live page shows `data-version="2026-11-04-v9"` (check from his laptop: `curl -s https://ibogaqueen.com/1625-2/ | grep -o 'data-version="[^"]*"'`; the cloud shell can't reach it): the Quick Bad Trip Checklist is B3 up to the block before B65 ("Inner Signal App to the Rescue!"); B0, the app link, stays at the top; then `section_refs.py` and the link check, OWNER-EDITS `checklist-to-app` done. Then the whole-guide Pangram check of the long part on a temporary Substack draft (payloads as the Inner Child lane's turn 119, `articles/inner-child-therapy/experiments/t119-substack/`, and the gut lane's r06, `articles/healing-the-gut/humanize/fix-20261103/r06/substack/`; secret link opened in his Brave through Claude in Chrome), every window recorded with its confidence; then humanize section by section, worst first, one paragraph at a time where a section reads AI (E343), each sentence following the one before (E351), fidelity against `humanize/h01/FIDELITY-KEYS-R03.json`.
-- **Waiting on Joel:** round 4's 5 cards; version 9 into the app's page (he's doing it now, with GPT on his VPS).
+- **In progress:** Turn 8: round 5's page (one card, the CBD paragraph in his words) is with him.
+- **Next step (updated on every push, so another account can pick up here):** The humanize pass, section by section, starting now (it doesn't wait on round 5). No whole-guide check first: by pull request 293's E354 (Joel, 2026-11-04 14:41 UTC: "no the whole article doesn't decide, we need to first fix any windows we can see before we check the article"), every window already seen reading AI or Human at Low is fixed before the article is checked, and about three quarters of the guide (118 of the published post's AI or Low windows, about 9,250 words, matched by six-word runs) is still text that the baseline read so. Order: the sections with the most AI High words first; in each, the gate's writers, the tell panel (`tools/humanization/tell_panel.py`), `compare_read.py` and fidelity against `humanize/h01/FIDELITY-KEYS-R04.json`, one paragraph at a time where a section reads AI (E343), each sentence following the one before (E351), a ledger prediction before every Pangram check (`pangram_ledger.py predict`). Sections of 5 or 6 paragraphs go to Pangram's web app; many at once to a temporary Substack draft, whose secret link opens in his Brave from his laptop's shell (`brave-browser-stable '<link>'`, E353: the browser Claude in Chrome drives is not one he can see), and he sends the feed link. The Active Seizure section's other paragraphs read AI High (B109, B110, B112) and wait for his CBD paragraph, so the section is checked once. His round-5 answer goes in with an `apply_r05.py` like round 4's (the page's export as `review/r05/ANSWERS-R05-*.json`; his own version as he wrote it, with W-CBD2's three links on the words that name the same sources: the FDA label https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/210365s024s029s030lbl.pdf, the 12-week trial https://pubmed.ncbi.nlm.nih.gov/35802375/, the 2025 study https://pubmed.ncbi.nlm.nih.gov/40673944/).
+- **Waiting on Joel:** round 5's card (the CBD paragraph in his words, or Keep).
 
 ## Remaining
 
-His round-4 answers put in, and the checklist out once the app is live; the 5 generic lines the check left for the humanizing; an overcompletion read (gate E328); the
+His CBD paragraph (round 5); the whole-guide Pangram check; the 5 generic lines the check left for the humanizing; an overcompletion read (gate E328); the
 humanizing of every section that reads AI or below High, by the gate's own writers (Emulate is no longer used on his writing, Joel 2026-11-03); the word-for-sense read
 (gate E331); his post updated, with the title's version and date (gate E323).
 

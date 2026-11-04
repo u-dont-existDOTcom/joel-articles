@@ -15,6 +15,15 @@ https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips
 
 ## START HERE
 
+- **2026-11-04, turn 8 (his round-4 answers and message of 14:58 UTC).** All 5 approved and in; he put version 9 of the
+  app into its page ("updated the web app"; the live page showed it at 14:59 UTC), so the checklist is out of the guide
+  (`review/r04/apply_r04.py`, 11,882 words), its three unique things moved into the long part in his words. His comment
+  on W-CBD2, "now fix it so it passes pangram": four versions of the CBD paragraph all read AI in Pangram's web app
+  (`humanize/h02-cbd/RESULTS.json`), so round 5's page (Bad Trips Guide, Round 5,
+  https://claude.ai/artifact/12uJZXZ5xptJoYQjoXQJKq; the card as text in `review/r05/REVIEW-R05.md`) asks for his own
+  version. **Now:** the humanize pass, section by section, with no whole-guide check until the windows already seen
+  are fixed (pull request 293's E354, his rule); his round-5 answer goes in when it comes (CURRENT-STATE.md's next step
+  has the order and the links).
 - **2026-11-04, turn 7 (his round-3 answers and messages of 14:25 and 14:26 UTC).** He's putting the app into its page
   himself, with GPT on his VPS: version 9 (version 8 plus round 3's ferment-itch line, `experiments/t05-webapp/
   APP-V9-20261104.html`). His round-3 answers are in (`review/r03/apply_r03.py`; 7 approved; W-GLORY rejected; W-CBD
