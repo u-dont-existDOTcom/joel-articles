@@ -26,13 +26,11 @@ Joel approved all 22 batch-8 cards at 21:01 UTC, with no revisions and no commen
   - r11's same cut (`texts/r11c-fuels.txt`, prediction #141) was not run, because the Claude in Chrome extension disconnected.
   - This stretch read Human in the whole article (r10). As a cut of its own it is a window we can see now (E354). Next, it gets fixed or goes to him.
 
+## In his post
+
+r12 is live since 21:35 UTC, the second update, with no email (`../live/LIVE-CHECK-20261104b.json`). `update2.js` changed only the 12 top-level nodes that differ from r11. The published post equals r12 block for block.
+
 ## What's next
 
-**The second update of his post.** r12 is his approved wording, and the clearer version stays (AGENTS.md; E291). `../live/UPDATE-PLAN-2.json` and `../live/update2.js` were pushed at 01e2b53c. The steps, in his post's editor in the built-in browser:
-1. Set `window.__planGut` to `{url: raw/01e2b53c.../live/UPDATE-PLAN-2.json, sha256: 1cf3274b20d607fa4e139d2e5cb8e517724645873da37fa1e31912d2ef38a658}` and `window.__srcGut` to `raw/01e2b53c.../r12/r12.html`.
-2. Run `update2.js`. It checks the editor against r11's blocks and replaces only the top-level nodes that changed, with the natives carried as the same nodes.
-3. Run `dispatch.js`.
-4. Continue, then "Update now", with "Send via email" unchecked.
-5. Read the post back against the plan.
-
-Then he can run the free whole-article check: his extension on the live post.
+1. The free whole-article check: his extension on the live post (https://ibogaqueen.substack.com/p/healing-the-gut-naturally), with a prediction frozen first.
+2. The fuels stretch's AI windows in its own cut (the glutamine mechanism sentences and the caution's last two). First run the r11 control (`checks/texts/r11c-fuels.txt`, prediction #141), then fix the windows. If no fix works, ask his help, naming the human tells.

@@ -24,16 +24,16 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
 
 ## Current checkpoint
 
-2026-11-04 20:44 UTC: r11 is live in his post (https://ibogaqueen.substack.com/p/healing-the-gut-naturally), no email sent (`humanize/fix-20261103/live/`). 21:01 UTC: his batch-8 answers, all 22 approved, are r12 (`humanize/fix-20261103/r12/`, checks in its README): its natural sections read Human High (stacks, recipe intro, Phase 1); the fuels stretch as a cut of its own reads AI 26% on sentences batch 8 didn't change.
+2026-11-04 21:35 UTC: r12 (his 22 batch-8 approvals) is live in his post (https://ibogaqueen.substack.com/p/healing-the-gut-naturally), the second update, no email (`humanize/fix-20261103/live/LIVE-CHECK-20261104b.json`). Its natural sections read Human High (stacks, recipe intro, Phase 1); the fuels stretch as a cut of its own reads AI 26% on sentences batch 8 didn't change (`humanize/fix-20261103/r12/README.md`).
 
 ## Remaining
 
-1. The second update of his post with r12 (steps in `humanize/fix-20261103/r12/README.md`; plan and update2.js pushed at 01e2b53c), no email; then his extension on the live post for the free whole-article check.
-2. The fuels stretch's AI windows in its own cut (the glutamine mechanism sentences and the caution's last two): fix them, or ask his help with the human tells named; the r11 control (`r12/checks/texts/r11c-fuels.txt`, prediction #141) first.
+1. His extension on the live post: the free whole-article check of r12 (prediction first).
+2. The fuels stretch's AI windows in its own cut: the r11 control (prediction #141) first, then fix them or ask his help with the human tells named.
 
 ## Blockers / unresolved
 
-- His laptop dropped off the bridge at about 21:22 UTC (the built-in browser, Claude in Chrome and the shell all disconnected), so the second update waits for it.
+- None.
 
 ## Evidence / artifacts
 

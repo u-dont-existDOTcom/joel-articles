@@ -114891,7 +114891,12 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r12/README.md",
-          "sha256": "77b15a1eb7f466d246b7a446a2b81c7fca6048bf27692a14f5b096848f09e165",
+          "sha256": "5cf173369070a07dbf48d450da9e462cfe041a294e058535078573a6cdeedaae",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/live/LIVE-CHECK-20261104b.json",
+          "sha256": "a8364e7d513c4f1208184f8c004f3401e89606eaa687643fe01efb7b0c920c3d",
           "role": "humanization_working_record"
         }
       ]
