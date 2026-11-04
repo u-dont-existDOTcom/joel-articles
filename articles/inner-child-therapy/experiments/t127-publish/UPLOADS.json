@@ -1,0 +1,78 @@
+{
+ "turn": 127,
+ "how": "His six new pictures, uploaded 2026-11-04 about 17:40 UTC through Substack's own image endpoint (POST /api/v1/image with the post's id, what the editor calls), from a page of his publication in his Brave (Claude in Chrome, where he is signed in), each file's SHA-256 checked in the page before the upload, and each uploaded file's SHA-256 checked again from his laptop after (curl of the address): all six are byte for byte his. Not through his laptop's folders: the desktop app's file bridge wrote three of the copies with a content-credentials block added (C2PA, \"Claude provided this file\"), and the desktop app's browser pane refused a fetch from a server on his laptop's 127.0.0.1, so the files went from the session's own copies of his ODT's pictures, which are byte for byte the ODT's (his attachment, SHA-256 998baaa9...).",
+ "pictures": [
+  {
+   "file": "10000000000006000000040091DBA79B.png",
+   "note": "odt:Pictures/10000000000006000000040091DBA79B.png",
+   "url": "https://substack-post-media.s3.amazonaws.com/public/images/461ac9c2-d412-4a57-9fea-3ea30fd88118_1536x1024.png",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 3049204,
+   "type": "image/png",
+   "sha256": "79276b7fd37252a2d7e8abdfe25ec1c47f6a579bf25b28a24e39a46c48b726ee",
+   "source": "his ODT's picture (the LibreOffice backup of his file, 2026-11-03 20:56, holds the same bytes)",
+   "sha256_after_upload_matches": true
+  },
+  {
+   "file": "uncropped study on pain.png",
+   "note": "laptop:/home/joel/Images/uncropped study on pain.png",
+   "url": "https://substack-post-media.s3.amazonaws.com/public/images/600e5307-642e-45a6-a42f-656751ec6356_1206x1305.png",
+   "width": 1206,
+   "height": 1305,
+   "bytes": 1485689,
+   "type": "image/png",
+   "sha256": "b52f90857e78f9888144f316988e4ad71985459424a5a5f66a8c283613b8d333",
+   "source": "his file in ~/Images",
+   "sha256_after_upload_matches": true
+  },
+  {
+   "file": "10000000000003B100000467B56DB2E6.jpg",
+   "note": "odt:Pictures/10000000000003B100000467B56DB2E6.jpg",
+   "url": "https://substack-post-media.s3.amazonaws.com/public/images/99eb7410-79aa-463c-b968-017c1ce84b9a_945x1127.jpeg",
+   "width": 945,
+   "height": 1127,
+   "bytes": 111693,
+   "type": "image/jpeg",
+   "sha256": "bcbcfa4fbf75444e61fb0f1f3c43a4fc984af046279e00b61615dbb031dd59af",
+   "source": "his ODT's picture (the same bytes as ~/Images/memes/ghosts are cheaper than repairing a house.jpg)",
+   "sha256_after_upload_matches": true
+  },
+  {
+   "file": "10000000000004620000057A4F9C5370.png",
+   "note": "odt:Pictures/10000000000004620000057A4F9C5370.png",
+   "url": "https://substack-post-media.s3.amazonaws.com/public/images/993cf42c-b4c5-4d32-a236-89a2ab409090_1122x1402.png",
+   "width": 1122,
+   "height": 1402,
+   "bytes": 2841709,
+   "type": "image/png",
+   "sha256": "f246312c3d99981a31465fe848a171196a54db9a661775844a2a3f30902db009",
+   "source": "his ODT's picture",
+   "sha256_after_upload_matches": true
+  },
+  {
+   "file": "10000000000004620000057A5F00102A.png",
+   "note": "odt:Pictures/10000000000004620000057A5F00102A.png",
+   "url": "https://substack-post-media.s3.amazonaws.com/public/images/4e6c8a51-ffbe-4c86-a965-5f582559e222_1122x1402.png",
+   "width": 1122,
+   "height": 1402,
+   "bytes": 2693689,
+   "type": "image/png",
+   "sha256": "2c886c305fe618d29c99732d9ee3e63c3b4c9bcaf4988d82cc9235a124c7f520",
+   "source": "his ODT's picture",
+   "sha256_after_upload_matches": true
+  },
+  {
+   "file": "10000000000004620000057A547F4F79.png",
+   "note": "odt:Pictures/10000000000004620000057A547F4F79.png",
+   "url": "https://substack-post-media.s3.amazonaws.com/public/images/ab72f16c-7daa-492a-b59d-b614409f18d9_1122x1402.png",
+   "width": 1122,
+   "height": 1402,
+   "bytes": 2606105,
+   "type": "image/png",
+   "sha256": "7cb33f2fea939cddd87756980619764c5d0fb6751d7a75b970b4d01c2e716f67",
+   "source": "his ODT's picture",
+   "sha256_after_upload_matches": true
+  }
+ ]
+}
