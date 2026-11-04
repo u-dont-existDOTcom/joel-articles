@@ -566,6 +566,53 @@
     }
    ],
    "recorded_utc": "2026-11-03T22:17Z"
+  },
+  {
+   "turn": "2026-11-03T23:32Z",
+   "lines_of_work": [
+    "inner child guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "2 items in suggested-fixes/joel-articles/ (2026-09-30-claim-checks-for-reviews.md, 2026-10-31-mailbox-every-turn.md), both already in docs/suggested-fixes-ledger.md; no new item; UDA at c5c9951, whose AGENTS.md and LESSON-INDEX entry 87 (the GH handoff line, standing for this owner) this turn's answer follows"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since turn 116 (21:00 UTC): pull request 255 (this lane, turns 115 and 116) merged by Joel at 22:10 UTC, and 282 (the gut lane) at 23:34 UTC; open: 278 (the other chat's Inner Child real-life chapter structure) and 280 (Bad Trips); no new issues, comments or reviews (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop's handoff note is exactly what turn 116's update made of it (re-applied to the turn-116 copy and compared); no one else changed OWNER-QUESTIONS.md or HANDOFF-UPDATE.json since 15584583"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "pull request 255 merged",
+     "outcome": "the lane fast-forwarded to main (432d5c6f); turn 117 goes in a new pull request (lane_push --pr)"
+    },
+    {
+     "item": "pull request 282: main's E337 (gut) standard typographic swap and E339 (every lane works from main)",
+     "outcome": "read and applied this turn: main merged before any commit, the guide got the standard swap (straight quote marks, spaced en dashes) as its last build step, its records follow it; my lessons are E340 and E341"
+    },
+    {
+     "item": "pull request 278 (the other chat's real-life chapter structure)",
+     "outcome": "nothing to take: its six sections are already in his 21:00 guide, headings and order the same (his numbers on three of them went with F5); it is that chat's record, no merge asked"
+    },
+    {
+     "item": "pull request 280 (Bad Trips)",
+     "outcome": "its shared-file changes are already in main (no difference against main in those files); none of this turn's shared changes touches them"
+    }
+   ],
+   "recorded_utc": "2026-11-04T00:17Z"
   }
  ]
 }

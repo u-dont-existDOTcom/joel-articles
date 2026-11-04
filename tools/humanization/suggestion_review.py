@@ -37,6 +37,8 @@ REVIEW.json (the lane's build script writes it; see find_quote, block_text and c
       the same paragraphs, optional),
       "approve_label" (optional: "cut it", "use this wording", ...),
       "decided" (optional): {"status": "approved"|"rejected"|"revise", "text", "comment", "by", "at"},
+      "keep_ack" (optional): why a card may touch words on the article's keep-as-is list (KEEP-AS-IS.json: a joke, a
+                 word or a device Joel said stays, or a cut he meant), which check() otherwise refuses (keep_as_is.py),
       "reads" (optional): [{"text": a paragraph as it would read, "kind" (optional: "p", or "h2".."h4" for a new heading,
                  shown with its Markdown #s so a paste keeps it a heading), "new": [its new words: a string found once,
                  or [the words just before, the new words], found once together], "note"}]   the
@@ -76,6 +78,7 @@ import sys
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 sys.path.insert(0, str(HERE))
+import keep_as_is  # noqa: E402  (what Joel said stays as it is: lesson E340)
 import para_numbers  # noqa: E402
 from html_links import join_split_links  # noqa: E402  (a pasted post card's link, split across its heading)
 
@@ -352,6 +355,14 @@ def check(review, bl):
         d = s.get('decided')
         if d and d.get('status') not in ('approved', 'rejected', 'revise'):
             probs.append('%s: decided status must be approved, rejected or revise' % sid)
+    # what Joel said stays as it is, and the cuts he meant (the article's KEEP-AS-IS.json; lesson E340,
+    # Joel 2026-11-03 on a card that asked about his Lao Tsu joke: "that's the joke yeah you forgot")
+    art = (review.get('article') or {}).get('file')
+    if art:
+        led = keep_as_is.load(ROOT / art)
+        texts = [b['text'] for b in bl]
+        for s in review['suggestions']:
+            probs.extend(keep_as_is.card_problems(s, texts, led))
     return probs
 
 

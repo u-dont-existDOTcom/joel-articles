@@ -1,0 +1,70 @@
+#!/usr/bin/env python3
+"""Turn 117: articles/inner-child-therapy/HANDOFF-UPDATE.json, the update tools/humanization/handoff_note.py applies to
+~/claude-acceptance-transfer/handoffs/inner-child-article.md on Joel's laptop.
+  handoff_t117.py PR [--test NOTE]   writes the update with the turn's pull request number (or "none"); with --test,
+                                     applies it to a copy of NOTE"""
+import json
+import pathlib
+import re
+import sys
+
+HERE = pathlib.Path(__file__).resolve().parent
+ROOT = HERE.parents[3]
+OUT = HERE.parents[1] / 'HANDOFF-UPDATE.json'
+S = 'https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq'
+BR = 'handoff/claude-dangerous-adult-20260924-1631'
+PRN = sys.argv[1]
+PRS = ('pull request #%s (https://github.com/u-dont-existDOTcom/joel-articles/pull/%s), open for him to merge' % (PRN, PRN)
+       if PRN != 'none' else 'no push yet: the commits wait on the laptop link')
+e = re.escape
+
+turn117 = '\n'.join([
+    '- TURN 117 (2026-11-03, his answers exported from the turn-116 marking page at 23:32 UTC; by %s), the latest; its next step wins over everything below. Branch %s, now from main (pull request #255, turns 115 and 116, merged by him at 22:10 UTC); %s.' % (S, BR, PRS),
+    '  - Objective anchor (UDA): main objective, the guide humanized and published, every paragraph and section reading Human with the meaning kept and reading engagingly; this turn\'s contribution, his reorganized guide made the article with each of his answers put in and checked, its links, pictures and videos back, and what he said stays kept in Git; scope, his words changed only by the cards he approved and the typos, no life facts he didn\'t give.',
+    '  - His answers: experiments/t117-answers/ (ANSWERS-20261103-2332.json, his export; JOEL-20261103-2332.md, each card\'s answer and comment word for word). 27 approved, 3 rejected (P11 the four pairs, C2 the crisis line, F2 the move of his video), R4 left waiting (a "leave" card), and his answers to the questions: L1 "yes" (the links), L2 "yes keep all the embeds", L3 his uncropped screenshot, P12 "on purpose", P13 his re-do text, A1 "change the other Xandria to X", A2 "that\'s the joke", A3 "I" meant, A4 "keep it", A5 "fix it", A6 the cuts meant, F6 "h5", Q1 "yes".',
+    '  - The article: HUMANIZED-ARTICLE-SO-FAR.md is his guide of 21:00 UTC now (it replaces the turn-114 guide, b3a1f54c, whose paragraph notes and Pangram records stay there), built by experiments/t117-apply/apply_t117.py: the 62 typos and the two bold leftovers, the cards, his P13 words, the dog paragraph in his characters, X, "what year", the h5, the Rumi quote as the first paragraph of The Joy In Sorrow with a pull-quote note, English quote marks then the standard swap (E337 (gut), main\'s rule since 22:02 UTC: straight quote marks, spaced en dashes), 52 of the last guide\'s links back and his typed ones made real, and the live post\'s eleven pictures and videos (not the seven the card named: it missed the mantra video, the Cosmic Jackpot, the Treasuring card and Key\'s audio) and his own six pictures and two videos as IMAGE and EMBED notes. verify_t117.py checks every card\'s fate in the result and lists every stretch that differs from his file (DECISIONS.md: 44 cards, 0 failed); owner_edits_t117.py superseded the 92 OWNER-EDITS records his own guide replaced, swapped one record\'s marks, and added joel-116-117-guide (97 pass, 0 failed).',
+    '  - New rules: lesson E340, KEEP-AS-IS.json beside each article (what he said stays as it is, and the cuts he meant), tools/humanization/keep_as_is.py, checked by suggestion_review.py check (a card on kept words is refused) and render_article_so_far.py (a red box when kept words go or a meant cut comes back); lesson E341, tools/humanization/post_embeds.py (every embed of the live post, from its saved page, and the ones the article has no note for), EMBED notes in article_images.py, counted by file_links_check.py; render_article_so_far.py --images shows his pictures that aren\'t online yet. AGENTS.md, docs/FIXING-AN-ARTICLE.md and docs/HUMANIZATION-GATE.md say so. Tests: tests/test_keep_as_is_and_embeds.py.',
+    '  - Main: the lane merged main first (E339, main\'s rule since 22:02 UTC: every lane works from main and pushes with lane_push.py --pr). The other chat\'s pull request #278 (the real-life chapter\'s structure) is already in his guide.',
+    '  - One question for him: the heading Four Pairs That Commonly Hook the Child, now that the pairs are cut (I\'d make it What Commonly Hooks the Child).',
+    '  - NEXT: Next step 1.',
+])
+next1 = ('1. Round 9: the whole guide as it is now in the two temporary Substack drafts ("Inner Child, draft A (temp, delete after)" '
+         'and "Inner Child, draft B (temp, delete after)", split at an h1), each sent as its secret preview link in the paid '
+         'subscriber view for his Pangram extension (gate E277), every window recorded with its confidence (E278); the AI '
+         'windows and the ones below High go to him on a marking page, his words first, with KEEP-AS-IS.json read before any '
+         'card. Then the publish draft: his pictures uploaded where the notes say, the post\'s own pictures and videos kept, the '
+         'Rumi quote as a pull quote. Every turn ends with the whole article sent and passed to the chat check as --sent '
+         '(E271 (Inner Child)), rendered with --images for his pictures.')
+upd = {
+    'turn': '117',
+    'replace': [
+        [e('TURN 116 (2026-11-03, his message of 2026-11-03 21:00 UTC with his reorganized guide; by %s), the latest; its next step wins over everything below.' % S),
+         'TURN 116 (2026-11-03, his message of 2026-11-03 21:00 UTC with his reorganized guide; by %s), FINISHED.' % S, 1],
+        [e('this version is from turn 116 (his message of 2026-11-03 21:00 UTC; pull request #255 (https://github.com/u-dont-existDOTcom/joel-articles/pull/255), still open for him to merge, now with turns 115 and 116).'),
+         'this version is from turn 117 (his answers of 2026-11-03 23:32 UTC; %s).' % PRS, 1],
+        [e('turns 59 to 76 and 100 to 116 by %s' % S), 'turns 59 to 76 and 100 to 117 by %s' % S, 1],
+        [e('  - experiments/t116-answers/ (his messages), t116-joel/ (his guide, the comparison, the links, the lessons), t116-review/ (the marking page) and t116-gate/ (its six gated cards) (the latest turn), '),
+         '  - experiments/t117-answers/ (his answers) and t117-apply/ (the build, the checks, DECISIONS.md) (the latest turn), t116-answers/ (his messages), t116-joel/ (his guide, the comparison, the links, the lessons), t116-review/ (the marking page), t116-gate/ (its six gated cards), ', 1],
+        [r"^1\. When his answers on the turn-116 marking page come in.*$", next1, 1],
+    ],
+    'insert_before': [
+        ['- TURN 116 (2026-11-03', turn117],
+    ],
+    'sections': {
+        '## Waiting on Joel': '\n'.join([
+            '1. His answer on the heading Four Pairs That Commonly Hook the Child, now that he cut the pairs (I\'d make it What Commonly Hooks the Child).',
+            '2. %s' % ('His merge of pull request #%s (turn 117).' % PRN if PRN != 'none' else 'The push of turn 117, then his merge of its pull request.'),
+            '3. The two temporary Substack drafts, "Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)", still hold round 8; round 9 goes into them next, and his delete comes after round 9 is read.',
+            '4. Never in the article: amounts (the 1g, the 7g) and any recipe for what to take instead, including his "ultimate psychedelic recipe" line and its link.',
+        ]),
+    },
+}
+OUT.write_text(json.dumps(upd, indent=1, ensure_ascii=False) + '\n', encoding='utf-8')
+print('wrote', OUT)
+if '--test' in sys.argv:
+    sys.path.insert(0, str(ROOT / 'tools' / 'humanization'))
+    from handoff_note import apply
+    note = pathlib.Path(sys.argv[sys.argv.index('--test') + 1]).read_text(encoding='utf-8')
+    new, done = apply(note, upd)
+    print('\n'.join(done))
+    print(len(note), '->', len(new), 'characters')
