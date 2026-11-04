@@ -129,8 +129,9 @@ def open_windows(recs, text, min_words=5):
     are left to their longer neighbours. Returns (lineage, label, confidence, window text) for each."""
     body, out = _norm(text), []
     done = [p for p in state(recs).values() if p['result'] and not p['void']]
-    order = {id(r): n for n, r in enumerate(recs)}
-    done.sort(key=lambda p: order.get(id(p['result']), 0))
+    # in the order the checks were predicted (a correction line, appended later, belongs to its own prediction's place)
+    order = {r.get('id'): n for n, r in enumerate(recs) if r.get('type') == 'prediction'}
+    done.sort(key=lambda p: order.get(p.get('id'), 0))
     last = {}
     for p in done:
         last[p['lineage']] = p
@@ -596,17 +597,41 @@ def cmd_result(a):
     return 0
 
 
+def compact_windows(s, flagged):
+    """The web app reader's windows, "label, confidence, words; ...", as dicts, each AI window with its text from the
+    flagged list ("AI-Generated (17 words): text", in the same order). Until 2026-11-04 the flagged texts were dropped,
+    so E354's article rule (open_windows) couldn't see a web-app check's AI windows."""
+    texts = []
+    for f in flagged:
+        head, _, body = str(f).partition(': ')
+        texts.append(body)
+    out, k = [], 0
+    for w in [w for w in s.split('; ') if w]:
+        parts = [x.strip() for x in w.rsplit(', ', 2)]
+        if len(parts) != 3:
+            out.append(w)
+            continue
+        label, conf, words = parts
+        d = {'label': label, 'confidence': conf, 'words': int(words) if words.isdigit() else words}
+        if label.startswith('AI') and k < len(texts):
+            d['text'] = texts[k]
+            k += 1
+        out.append(d)
+    return out
+
+
 def cmd_results(a):
     recs = read(a.ledger)
     res = json.loads(pathlib.Path(a.results).read_text(encoding='utf-8'))
     n = 0
     for key, r in res.items():
         if isinstance(r, list):  # compact form [headline, ai, words, windows, utc, link tail, flagged]
-            r = {'headline': r[0], 'likelihood': r[1], 'words': r[2], 'windows': r[3], 'utc': r[4], 'link': r[5]}
+            r = {'headline': r[0], 'likelihood': r[1], 'words': r[2], 'windows': r[3], 'utc': r[4], 'link': r[5],
+                 'flagged': r[6] if len(r) > 6 else []}
         if isinstance(r.get('windows'), str):
             # the compact form's windows are one string, "label, confidence, words; ..." (2026-11-01: read as a string,
             # its characters were taken for windows, and every result came out Mixed)
-            r['windows'] = [w for w in r['windows'].split('; ') if w]
+            r['windows'] = compact_windows(r['windows'], r.get('flagged') or [])
         p = find(recs, key=key, open_only=not a.correct)
         if not p:
             continue
@@ -615,7 +640,7 @@ def cmd_results(a):
         verdict = verdict_of(r.get('headline'), r.get('windows'), r.get('fraction_ai'))
         link = r.get('link') or ''
         if link and not link.startswith('http'):
-            link = 'https://www.pangram.com/history/' + link
+            link = 'https://www.pangram.com/history/' + link.lstrip('/')   # the compact form's tail is "/uuid"
         rec = result_rec(p, verdict, link, {'headline': r.get('headline'), 'ai_fraction': r.get('fraction_ai'),
                                             'likelihood': r.get('avg_ai_likelihood', r.get('likelihood')),
                                             'words_read': r.get('words'), 'windows': r.get('windows'),

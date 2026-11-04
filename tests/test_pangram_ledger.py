@@ -216,6 +216,23 @@ class Ledger(unittest.TestCase):
         self.assertEqual(L.main(['results', self.ledger, str(res)]), 0)
         self.assertEqual(L.open_windows(L.read(self.ledger), article), [])
 
+    def test_web_app_results_keep_their_ai_windows_for_the_article_rule(self):
+        """The web app reader's flagged windows were dropped (2026-11-04), so E354 couldn't see a web-app check's AI
+        windows, and its links came out with a double slash."""
+        sec = 'Start any kit at a low dose and build up as your gut gets used to it. Everything else here is fine.'
+        self.assertEqual(self.predict(sec, lineage='S', scope='section', call='AI', key='w1'), 0)
+        res = self.dir / 'res.json'
+        res.write_text(json.dumps({'w1': ['AI Detected', 0.2, 20, 'AI-Generated, Low, 15; Human, High, 5', '16:10:41', '/abc',
+                                          ['AI-Generated (15 words): Start any kit at a low dose and build up as your gut gets used to it.']]}),
+                       encoding='utf-8')
+        self.assertEqual(L.main(['results', self.ledger, str(res)]), 0)
+        r = L.find(L.read(self.ledger), key='w1')['result']
+        self.assertEqual(r['link'], 'https://www.pangram.com/history/abc')
+        self.assertEqual(r['windows'][0]['text'], 'Start any kit at a low dose and build up as your gut gets used to it.')
+        self.assertEqual(r['verdict'], 'Mixed')
+        seen = L.open_windows(L.read(self.ledger), 'Intro.\n' + sec)
+        self.assertEqual([(l, c) for l, _, c, _ in seen], [('S', 'Low')])
+
     def test_two_unexplained_misses_stop_the_lineage(self):
         self.predict('v1')
         self.result('v1', 'AI')

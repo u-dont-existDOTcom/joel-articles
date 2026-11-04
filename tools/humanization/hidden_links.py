@@ -23,9 +23,9 @@ one link I did write. This step asks the question his rewrites answer, before dr
       Every gap in LINKS.json needs "answer" (the words in the draft that state the link, copied exactly) and "raised"
       (the draft's words where the reader first asks it), or "status": "drop" with a "note" (explained earlier in the
       article, or not a link the original's reasoning holds). Exits 1 while one is unanswered, its answer isn't in the
-      draft, or two answers come in the opposite order to their questions (gate E347). Then read the draft again the same
-      way (make DRAFT DIR2, a fresh reader, collect DIR2): what that reader still can't follow, the draft's own new terms
-      included, is fixed in the next draft, or dropped with a note.
+      draft, or two answers come in the opposite order to their questions (gate E347). It also exits 1 until the draft
+      itself has had a fresh read of its current words (make DRAFT DIR/draft, a fresh reader, collect DIR/draft) and each
+      thing that reader can't follow is fixed (a new draft, read again) or dropped with a note (gate E355).
 
 A stated link must be true and the original's own reasoning (or plain common knowledge), never a new claim; the blind
 meaning check reads it as LINK, not as an added fact (the fuels' brief, 2026-11-04).
@@ -71,6 +71,16 @@ EXAMPLES = [
      'gap': 'A study? I didn\'t know one was coming: what is it about?',
      'his': 'Those acids do help you absorb iron, even two or three times better according to one study where people ate '
             'rice with 1g pure malic acid or citric acid mixed in'},
+    {'before': 'Gemini suggested three kits to me, but so far they\'re the best ones I\'ve seen',
+     'gap': 'Why "but"? If Gemini just suggested three kits, what is the "but" answering?',
+     'his': 'Gemini suggested these kits to me, but so far they\'re the best ones I\'ve seen (the "but" answers that these '
+            'particular kits are only Gemini\'s picks; my change to "three" broke it)'},
+    {'before': 'since that\'s what your bacteria make when they ferment it (resistant starch does it too)',
+     'gap': 'What is "that", and what is "it"?',
+     'his': 'since gas is what your bacteria make when they ferment the fiber or resistant starch'},
+    {'before': 'has a probiotic and two lining products, one of them glutamine',
+     'gap': 'Which lining?',
+     'his': 'has a probiotic and two gut lining products, one of them glutamine'},
 ]
 
 BRIEF = '''You know nothing about this subject: you're a smart reader who has never studied biology or health, reading an
@@ -88,6 +98,7 @@ List every place where you can't see one of these, because the writer knows it a
 - how something does what the sentence says it does;
 - why it matters to you, the reader;
 - what a "but", "so", "though" or "because" turns on, when the claim it answers or follows from isn't said;
+- what a "this", "that", "it", "these" or "those" points to, when you can't tell;
 - why you're being told something at that point, when it comes before you'd want it (a study before the claim it backs, a
   detail before the point, a fact before the question it answers).
 
@@ -194,12 +205,38 @@ def problems(gaps, draft):
     return out
 
 
+def draft_problems(d, draft):
+    """E355 (Joel, 2026-11-04 16:00 UTC, on my kits: "your version, r08, makes no sense by the 6th word. Where is the "but"
+    coming from? You can't say that. read it. it only follows from "these" kits not "three kits""): the draft itself gets
+    a fresh read, of its current words, in DIR/draft (make DRAFT DIR/draft, a fresh reader, collect DIR/draft), and each
+    thing that reader can't follow is fixed, which means a new draft and a new read, or dropped with a note saying why the
+    words are right as they are. My change of one word, to answer the first read's question, broke the sentence's "but",
+    and nothing read the draft after it."""
+    dd = pathlib.Path(d) / 'draft'
+    want = '\n'.join('S%d %s' % (i, s) for i, s in enumerate(sentences(draft), 1)) + '\n'
+    if not (dd / 'TEXT.txt').exists():
+        return ['the draft has had no fresh read of its own: make DRAFT %s, give its BRIEF.txt to a new reader, collect %s '
+                '(E355: a word changed to answer the first read can break the sentence around it)' % (dd, dd)]
+    if (dd / 'TEXT.txt').read_text(encoding='utf-8') != want:
+        return ['the draft changed after its fresh read (%s/TEXT.txt is an older draft): read the new one again (E355)' % dd]
+    if not (dd / 'LINKS.json').exists():
+        return ['the draft read has no LINKS.json: collect %s' % dd]
+    out = []
+    for g in json.loads((dd / 'LINKS.json').read_text(encoding='utf-8')):
+        if not (g.get('status') == 'drop' and g.get('note')):
+            out.append('draft read %s: S%d "%s" (%s): fix it in a new draft and read that one, or drop it with a note saying '
+                       'why the words are right' % (g['id'], g['sentence'], g['quote'], g['gap']))
+    return out
+
+
 def check(a):
     gaps = json.loads((pathlib.Path(a.dir) / 'LINKS.json').read_text(encoding='utf-8'))
-    probs = problems(gaps, pathlib.Path(a.draft).read_text(encoding='utf-8'))
+    text = pathlib.Path(a.draft).read_text(encoding='utf-8')
+    first = problems(gaps, text)
+    probs = first + draft_problems(a.dir, text)
     for p in probs:
         print(p)
-    print('%d gaps, %d answered or dropped, %d problems' % (len(gaps), len(gaps) - len(probs), len(probs)))
+    print('%d gaps, %d answered or dropped, %d problems' % (len(gaps), len(gaps) - len(first), len(probs)))
     return 1 if probs else 0
 
 

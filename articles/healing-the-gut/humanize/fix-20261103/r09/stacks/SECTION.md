@@ -1,0 +1,19 @@
+## Optional Ready-Made Gut Stacks
+
+I don't think there's one supplement stack (a set of supplements you take together) that heals everyone's gut, and no stack can do the phases above for you. So do those first, in order, and only go after bugs and parasites if your symptoms are still there after you've changed your diet. Then a stack can help with the rebuilding in Phase 5, once you're clear of infection and it's time to feed the good bacteria again.
+
+That said, some people want a ready-made stack rather than buying every ingredient for it separately. So, if I were to recommend a general "repair and rebuild" approach, it would be a stack that covers three categories:
+
+1. First, support the Microbiome with a well-tolerated probiotic or probiotic system.
+
+2. Then keep the probiotics well-fed with a good prebiotic, and take butyrate itself or something that helps short-chain fatty acid production, especially the main one, butyrate.
+
+3. Other nutrients will help support barrier repair, such as glutamine, zinc carnosine, colostrum, mucosal-support herbs, or similar compounds.
+
+Gemini suggested these kits to me, but so far they're the best ones I've seen, tho I haven't used them myself, so check the reviews. Microbiome Labs Total Gut Restoration covers all three categories, with a probiotic, a prebiotic and a product for the gut lining in one kit, so it's the best general one. Dr. Ruscio's Leaky Gut Support Kit has a probiotic and two gut lining products, one of them glutamine, but no prebiotic, so it's more for when leaky gut is your main problem. Finally, Designs for Health GI Revive is only gut-lining nutrients and herbs, so you'd still need a probiotic and a prebiotic with it.
+
+You'll also find "gut cleanse" stacks, built around oregano oil, wormwood, black walnut, berberine or other antimicrobial herbs. They kill bugs, like the herbal antibiotics in Phase 3, so they're only for when changing your diet hasn't cleared your symptoms. And even then I'd mostly skip them, because H2O2 works better without the side effects. The exception is berberine for H. pylori, the stomach bacteria that's usually behind heartburn you only get on an empty stomach: take it on its own, not in a cleanse stack (see Parasites, above).
+
+Start any kit at a low dose and build up as your gut gets used to it. The prebiotic part especially can give you gas at first, since gas is what your bacteria make when they ferment the fiber or resistant starch, and a new probiotic can bloat you or upset your stomach for a while.
+
+Some severe symptoms warrant seeing a doctor rather than considering this DIY approach at the moment. Take it seriously if you notice blood in your stool (if it's blood from upper digestive tract, it could be smelly, black & tarry, not red like from lower GI). Other serious signs to note: If you're losing weight fast, or if you have severe pain, a fever or dehydration. And if you're pregnant, some herbs and supplements, like berberine, aren't safe. If your immune system is weak, some probiotics could be risky since they're live bacteria that need to be kept in check to prevent overgrowth. If you have an IBD flare, cancer or another serious illness, work out what to take with your doctor instead of putting a stack together yourself.

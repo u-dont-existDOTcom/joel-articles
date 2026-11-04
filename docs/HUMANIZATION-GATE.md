@@ -2342,7 +2342,27 @@ His message and his batch-1 page's answers, word for word: `articles/healing-the
   every lineage's latest check: a window that read AI, or Human at Low confidence, whose words (five or more) are still in
   the article and that no later check read Human at Medium or High, refuses the article check until it is fixed or
   `--windows-ok` says why it stays. An article check now needs `--text`.
-  (E353 and E354 follow pull request 290's E352, the neuro de-armoring lane's; the next lesson in any lane is E355.)
+  The same afternoon the rule turned out blind to web-app checks: `results` dropped the web app reader's flagged windows,
+  so their AI windows had no text to match. They're kept now (`compact_windows`), with each history link's double slash
+  gone. A web-app check's Human Low windows still come without text, so those are named by hand.
+- **E355. Read the draft itself, fresh, after every change: a word changed for a newcomer can break the sentence around it.**
+  Joel, 2026-11-04 16:00 UTC, on my kits paragraph: "your version, r08, makes no sense by the 6th word. Where is the "but"
+  coming from? You can't say that. read it. it only follows from "these" kits not "three kits" ... i literally changed
+  just "three" to "these" in this version and it went from mixed to 99% human". The newcomer read had asked "which kits,
+  since none have been named yet?", and I answered it by changing his "these" to "three": the meaning check passed it
+  (the meaning was the same) and nothing read the new sentence, whose "but" now answered nothing. On the start-low
+  paragraph he did the same kind of fix: "first i had to clarify your referents" ("since that's what your bacteria make
+  when they ferment it" became "since gas is what your bacteria make when they ferment the fiber or resistant starch"),
+  which took it from Possibly human to High; and on the kits, "gut lining" for my "lining". The tool already said to read
+  the draft again with a fresh reader; it wasn't enforced, and I skipped it. Now `hidden_links.py check` exits 1 until
+  the draft's current words have had their own fresh read (`make DRAFT DIR/draft`, a new reader, `collect DIR/draft`) and
+  each thing that reader can't follow is fixed, which means a new draft and another read, or dropped with a note saying
+  why the words are right. The brief now also asks what each "this", "that", "it", "these" or "those" points to, with his
+  three fixes as examples.
+  - The same answers: his three-category paragraph read AI only in a check with my kits after it; with the paragraph
+    before it, it read Human Written, 100% ("this isn't the problem"). When his words read AI only beside mine, mine are
+    the suspect: check his with what comes before, or alone, before suggesting he change them.
+  (E353 to E355 follow pull request 290's E352, the neuro de-armoring lane's; the next lesson in any lane is E356.)
 
 (The Inner Child lane's turn-116 lessons, written at the same time, are E337 and E338 (Inner Child), near the top. This section's E337 and E338 keep their numbers too, because this lane's records cite them: cite them as "E337 (gut)" and "E338 (gut)". The Inner Child lane's turn-117 lessons, written after them, are E340 and E341, near the top, and this section's E342, E345, E347 to E349 and E351 came after those; the neuro de-armoring lane's E343, E344 and E346, written at the same time, are in its section after this one, with its E350 in its pull request 290. The next lesson in either lane is E352.)
 
