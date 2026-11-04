@@ -1,0 +1,136 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "neuro-de-armoring-cards-20261104-x1104d",
+ "title": "Neuro De-Armoring Cards, 4 November (3)",
+ "intro": [
+  "Six stretches for you to edit. I checked all of them myself in Pangram's web app, one paragraph at a time. For four of them, my two tries and Codex's rewrite read AI. For the other two, the paragraph read better, but fixing its one weak sentence moved the others. Each card links every check and the readers' notes.",
+  "Each card shows your post's paragraph, or my version where it's already in the article (the 5-HTP \"Who this is for\"). Edit it the way you would, or keep it as it is.",
+  "Your answers save as you click. When you're done, click <b>Copy my answers</b> (or <b>Save them as a file</b>) and send them to me."
+ ],
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104D.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "fb288da650e5d3df19b4970eb5616c0b4aad0a249b1aedf48959c1ac88c4c5de"
+ },
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104D.md"
+ },
+ "built": "2026-11-04 16:56 UTC",
+ "types": {
+  "help": {
+   "label": "Help me see what I'm missing",
+   "about": "A paragraph my tries couldn't get to read Human (High). Edit it the way you would, or keep it as it is."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "Y-85",
+   "type": "help",
+   "title": "\"Side effects / stop signs: In practice, the most common problem is the \"choline headache\" ...\"",
+   "advice": "edit",
+   "keep_label": "keep it as it is",
+   "spans": [
+    {
+     "block": 85,
+     "start": 0,
+     "end": 496
+    }
+   ],
+   "reading": "your post's version, in the baseline: [its section, AI Generated, 100.0% AI](https://www.pangram.com/history/f04ffdea-2c78-4093-883f-fdc1b287dc37)",
+   "why": "Three versions read 100% AI by themselves in Pangram: my [first](https://www.pangram.com/history/f8f019d8-fd62-42bd-8a2a-129a55b7d3dc) and [second](https://www.pangram.com/history/2627124f-1cc3-4582-8fc1-c6815a2d7006), and Codex's rewrite ([third](https://www.pangram.com/history/25723773-0dc0-47cd-937b-545dd60d3b93)), which put the case first and the reason last. The three readers flagged the label opener, the even symptom list, the \"wired, numb, or weirdly irritable\" triplet and its closing instruction, and the build: claim, caveat, mechanism, list, instruction ([their notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/panel/b085-n2/PANEL.md)). The lists are the protocol's, so all eight stop signs stay.",
+   "advice_note": "I can't find any more AI tells here, and I see some human tells, like \"weirdly irritable\" and the \"choline headache\"... can you help show me the tells I'm missing? ([The readers' notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/panel/b085-n2/PANEL.md))",
+   "found_by": "Paragraph checks in Pangram's web app, 4 November (batches x1104k and x1104m), and the API before it ran out (x1104j)"
+  },
+  {
+   "id": "Y-86",
+   "type": "help",
+   "title": "\"Psychedelic caution: If UMP makes dreams vivid or suddenly lowers psychedelic tolerance ...\"",
+   "advice": "edit",
+   "keep_label": "keep it as it is",
+   "spans": [
+    {
+     "block": 86,
+     "start": 0,
+     "end": 288
+    }
+   ],
+   "reading": "your post's version, in the baseline: [its section, AI Generated, 100.0% AI](https://www.pangram.com/history/f04ffdea-2c78-4093-883f-fdc1b287dc37)",
+   "why": "My two versions read 100% AI ([first](https://www.pangram.com/history/6e54db82-deb2-4bc5-afe6-913107aa485e), [second](https://www.pangram.com/history/71f224dd-2467-40d7-823e-d4ecba72035b)). Codex's came closest, AI Detected, 39.4% AI ([third](https://www.pangram.com/history/b7361905-0595-40c0-a14f-e3c0abea6628)): \"Psychedelic caution: Say your dreams get vivid again on UMP. Take that as a warning that your sensitivity may be returning. The same goes if UMP suddenly lowers your psychedelic tolerance. Don't take UMP on psychedelic days.\" read Human (Medium, then Low, Low), and its last two sentences AI (Low): \"If you use psychedelics later, assume your old dose may be too strong. You can end up taking too much trying to get the visuals you remember.\" The readers' notes on my second: [here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/panel/b086-n2/PANEL.md).",
+   "advice_note": "I can't find any more AI tells here, and I see some human tells, like \"chasing the old visual threshold can overshoot\" and \"Do not take UMP on psychedelic days\"... can you help show me the tells I'm missing? ([The readers' notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/panel/b086-n2/PANEL.md))",
+   "found_by": "Paragraph checks in Pangram's web app, 4 November (batches x1104k and x1104m), and the API before it ran out (x1104j)"
+  },
+  {
+   "id": "Y-88",
+   "type": "help",
+   "title": "\"It makes more sense if there's also a genetic or clinical reason ...\"",
+   "advice": "edit",
+   "keep_label": "keep it as it is",
+   "spans": [
+    {
+     "block": 88,
+     "start": 268,
+     "end": 637
+    }
+   ],
+   "reading": "the paragraph by itself, Human Written, 0.0% AI: Medium, High, Medium, then Low on these two sentences ([check](https://www.pangram.com/history/8d2d4cf1-13da-4c6c-83ae-eddb774ef930))",
+   "why": "This is my second try, now in the article, built the way your uridine \"Who this is for\" is (\"It could help, though, ...\"). Changing only the last sentence, giving the article's reasons in brackets, read AI Detected, 13.8% AI, with every window moved ([check](https://www.pangram.com/history/4079bcd3-65eb-43f8-97bb-ec8436fc5f19)), so the stretch is yours (E350). The readers' notes on my first try: [here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/panel/b088-n1/PANEL.md).",
+   "advice_note": "I can't find any more AI tells here, and I see some human tells, like your \"low-serotonin-looking\" and Scott's TPH2 bottleneck... can you help show me the tells I'm missing? ([The readers' notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/panel/b088-n1/PANEL.md))",
+   "found_by": "Paragraph checks in Pangram's web app, 4 November (batches x1104k and x1104l)"
+  },
+  {
+   "id": "Y-89",
+   "type": "help",
+   "title": "\"The tool:5-HTP bypasses the tryptophan-to-5-HTP step ...\"",
+   "advice": "edit",
+   "keep_label": "keep it as it is",
+   "spans": [
+    {
+     "block": 89,
+     "start": 0,
+     "end": 419
+    }
+   ],
+   "reading": "your post's version, in the baseline: [its section, AI Detected, 82.1% AI](https://www.pangram.com/history/1239d2f8-ca44-4713-b0b7-e9791b5211e3)",
+   "why": "Three versions read 100% AI: my [first](https://www.pangram.com/history/6f01153b-25fa-4bec-900f-7ed9102c81be) and [second](https://www.pangram.com/history/07a72325-fa0a-4478-91cd-cd46c866e1fa), and Codex's ([third](https://www.pangram.com/history/de493dec-a509-4688-ab16-bf60bde8adb7)). The readers flagged \"discusses its role in\", the list of uses and the \"mixed ... but real enough\" verdict ([their notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/panel/b089-n2/PANEL.md)). One fix of meaning is in my tries: the review treats serotonin syndrome as a risk of 5-HTP (its sections 8.2.1 and 9), not one of its uses, so they say \"the serotonin-toxicity risk\".",
+   "advice_note": "I can't find any more AI tells here, and I see some human tells, like your \"people online\"... can you help show me the tells I'm missing? ([The readers' notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/panel/b089-n2/PANEL.md))",
+   "found_by": "Paragraph checks in Pangram's web app, 4 November (batches x1104k and x1104m), and the API before it ran out (x1104j)"
+  },
+  {
+   "id": "Y-90",
+   "type": "help",
+   "title": "\"Scott's version: 100 mg 5-HTP sublingually at night ...\"",
+   "advice": "edit",
+   "keep_label": "keep it as it is",
+   "spans": [
+    {
+     "block": 90,
+     "start": 0,
+     "end": 296
+    }
+   ],
+   "reading": "your post's version, in the baseline: [its section, AI Detected, 82.1% AI](https://www.pangram.com/history/1239d2f8-ca44-4713-b0b7-e9791b5211e3)",
+   "why": "My version read AI Detected, 27.2% AI ([check](https://www.pangram.com/history/6343d2c6-2a62-473a-b8c9-52fd8059a3f0)): \"Scott took 100 mg 5-HTP sublingually at night, with 10–20 mg P5P sublingually in the morning.\" Human (High); \"The P5P isn't there as a stimulant, but as the active form of B6, which the enzyme that turns 5-HTP into serotonin (aromatic amino-acid decarboxylase) needs.\" Human (Medium); \"He's slow-COMT and sensitive to too much P5P, so the low dose matters, and more isn't better.\" AI (Low). Changing only that last sentence turned the first two AI as well ([check](https://www.pangram.com/history/e0a823e1-b205-4120-971a-bd4ad47a7d16)), so the stretch is yours (E350); you can start from my version.",
+   "advice_note": "I can't find any more AI tells here, and I see some human tells, like \"Scott is slow-COMT\"... can you help show me the tells I'm missing? ([The readers' notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/panel/b090-n1/PANEL.md))",
+   "found_by": "Paragraph checks in Pangram's web app, 4 November (batches x1104k and x1104l)"
+  },
+  {
+   "id": "Y-91",
+   "type": "help",
+   "title": "\"Trial: Start lower if you are sensitive: 50 mg 5-HTP at night ...\"",
+   "advice": "edit",
+   "keep_label": "keep it as it is",
+   "spans": [
+    {
+     "block": 91,
+     "start": 0,
+     "end": 490
+    }
+   ],
+   "reading": "your post's version, in the baseline: [its section, AI Detected, 82.1% AI](https://www.pangram.com/history/1239d2f8-ca44-4713-b0b7-e9791b5211e3)",
+   "why": "Three versions read 100% AI: my [first](https://www.pangram.com/history/0c28bab4-9e88-4c8c-b995-82d72c7067d8), my [second](https://www.pangram.com/history/0250acd1-dd68-48f8-a284-bdd074678d54), built the way your uridine trial is, and Codex's ([third](https://www.pangram.com/history/ea357474-7e94-4d66-9008-1e14dc1efdfe)). The readers flagged the four-item list of first signs, the bracketed list of what not to combine and the stepwise build ([their notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/panel/b091-n2/PANEL.md)). Both lists are the protocol's, so the five things not to combine and the four first signs stay.",
+   "advice_note": "I can't find any more AI tells here, and I see some human tells, like \"almost works\" and \"not converting cleanly\"... can you help show me the tells I'm missing? ([The readers' notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/panel/b091-n2/PANEL.md))",
+   "found_by": "Paragraph checks in Pangram's web app, 4 November (batches x1104k, x1104l and x1104m)"
+  }
+ ]
+}

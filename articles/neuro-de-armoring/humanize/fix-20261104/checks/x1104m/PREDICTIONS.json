@@ -1,0 +1,46 @@
+[
+ {
+  "key": "b085",
+  "name": "the uridine stop signs, Codex's rewrite (try 3)",
+  "lineage": "ND1104-B085",
+  "scope": "paragraph",
+  "words": 89,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "a writer of another family, after two of mine read AI (tell_panel.py rewrite-prompt; E256 (Inner Child)): Codex given the paragraph, its neighbours, the points to keep (with the fidelity check's words), the three readers' notes on my second try and his own paragraphs; its build is its own (a case first, the points one a sentence, the reason last). My changes: straight quote marks (the typographic swap)",
+  "sha256": "2af8e42132edd4380ee4468b7ccad50ca545e12272e37bd176876e00ce8cd1f7"
+ },
+ {
+  "key": "b086",
+  "name": "the uridine psychedelic caution, Codex's rewrite (try 3)",
+  "lineage": "ND1104-B086",
+  "scope": "paragraph",
+  "words": 64,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "a writer of another family, after two of mine read AI (tell_panel.py rewrite-prompt; E256 (Inner Child)): Codex given the paragraph, its neighbours, the points to keep (with the fidelity check's words), the three readers' notes on my second try and his own paragraphs; its build is its own (a case first, the points one a sentence, the reason last). My changes: straight quote marks (the typographic swap)",
+  "sha256": "ca181df73730da98e4bb0c55b91f6c79c812f697c174cda9965089aa0b902b1e"
+ },
+ {
+  "key": "b089",
+  "name": "the 5-HTP tool, Codex's rewrite (try 3)",
+  "lineage": "ND1104-B089",
+  "scope": "paragraph",
+  "words": 75,
+  "call": "AI",
+  "chance": 0.35,
+  "why": "a writer of another family, after two of mine read AI (tell_panel.py rewrite-prompt; E256 (Inner Child)): Codex given the paragraph, its neighbours, the points to keep (with the fidelity check's words), the three readers' notes on my second try and his own paragraphs; its build is its own (a case first, the points one a sentence, the reason last). My changes: straight quote marks (the typographic swap), \"actually\" out (O25) and the short last sentence joined to the one before (B7)",
+  "sha256": "2c99a1f752d1341a2d837dc933503da526ab418d340d9962f2a9d211c5ff4de4"
+ },
+ {
+  "key": "b091",
+  "name": "the 5-HTP trial, Codex's rewrite (try 3)",
+  "lineage": "ND1104-B091",
+  "scope": "paragraph",
+  "words": 112,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "a writer of another family, after two of mine read AI (tell_panel.py rewrite-prompt; E256 (Inner Child)): Codex given the paragraph, its neighbours, the points to keep (with the fidelity check's words), the three readers' notes on my second try and his own paragraphs; its build is its own (a case first, the points one a sentence, the reason last). My changes: straight quote marks (the typographic swap)",
+  "sha256": "b52dcafaa1fa3829633745b8fbcb5408bc7c8ca389e7a51cf26e21b1f5ed4726"
+ }
+]

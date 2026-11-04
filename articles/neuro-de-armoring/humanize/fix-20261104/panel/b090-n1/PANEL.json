@@ -1,0 +1,45 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Scott took 100 mg 5-HTP sublingually at night, with 10–20 mg P5P sublingually in the morning.",
+  "The P5P isn't there as a stimulant, but as the active form of B6, which the enzyme that turns 5-HTP into serotonin (aromatic amino-acid decarboxylase) needs.",
+  "He's slow-COMT and sensitive to too much P5P, so the low dose matters, and more isn't better."
+ ],
+ "flagged": {
+  "1": [],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph follows a tidy regimen → mechanism → personalized caution sequence, ending with a compact lesson. That can suggest AI polishing, but these are weak stylistic clues that human writers also produce."
+  ],
+  "haiku": [
+   "The paragraph is compact and evenly built, with three sentences of similar weight that each state a fact and then its reason, ending on a conclusion. The voice is neutral and clinical with no observation or first-person texture, so it reads as a tidy summary rather than a person's note."
+  ],
+  "sonnet": [
+   "The paragraph is built as a neat dose, then reason, then caveat sequence, with every sentence tied up and justified, and it has an even, explanatory tone with no digressions, hedges or asides. That tidy claim-and-rationale structure feels more machine-made than the individual words do."
+  ]
+ },
+ "human_clean": [
+  "100 mg 5-HTP sublingually at night, with 10–20 mg P5P sublingually in the morning",
+  "10–20 mg P5P",
+  "Scott took"
+ ]
+}

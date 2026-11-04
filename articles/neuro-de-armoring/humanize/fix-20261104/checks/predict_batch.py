@@ -6,7 +6,11 @@ DIR/IN.json: {key: {"lineage", "name", "text", "chance" (my chance of a 100% Hum
 "decides", and "panel" (the PANEL.md, after two AI reads: E346)}}. Writes DIR/TEXTS.json, DIR/PREDICTIONS.json (the list record_r1102.py reads) and DIR/texts/KEY.txt; a key
 already predicted in the batch at the same text is not predicted again.
 
-  python3 articles/neuro-de-armoring/humanize/fix-20261104/checks/predict_batch.py DIR --batch BATCH
+  python3 articles/neuro-de-armoring/humanize/fix-20261104/checks/predict_batch.py DIR --batch BATCH [--detector WHO]
+
+--detector names who runs the checks when it isn't the API: from batch x1104k Joel checks each paragraph in Pangram's web
+app with his account's credits (his message of 2026-11-04 14:59 UTC: "i'm not topping up the api unless you think it's
+really important because we have tons of gui credits still").
 """
 import argparse
 import hashlib
@@ -26,6 +30,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('dir')
     ap.add_argument('--batch', required=True)
+    ap.add_argument('--detector', default=DETECTOR, help='who runs the checks, and where (the API by default)')
     a = ap.parse_args()
     D = pathlib.Path(a.dir).resolve()
     items = json.loads((D / 'IN.json').read_text(encoding='utf-8'))
@@ -52,7 +57,7 @@ def main():
             continue
         subprocess.run([sys.executable, str(ROOT / 'tools' / 'humanization' / 'pangram_ledger.py'), 'predict', str(LEDGER),
                         '--lineage', p['lineage'], '--scope', 'paragraph', '--text', str(f), '--call', call,
-                        '--chance', str(p['chance']), '--key', key, '--batch', a.batch, '--detector', DETECTOR,
+                        '--chance', str(p['chance']), '--key', key, '--batch', a.batch, '--detector', a.detector,
                         '--tells', p['why'], '--diagnosis', p['diagnosis'], '--decides', p['decides']]
                        + (['--panel', p['panel']] if p.get('panel') else []), check=True)
     (D / 'TEXTS.json').write_text(json.dumps(texts, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')

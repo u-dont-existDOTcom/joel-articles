@@ -2858,12 +2858,16 @@
   },
   {
    "id": "W115",
-   "tell": "an em dash (—), where his own paragraphs use a spaced en dash (\" – \")",
+   "tell": "an em dash (—), where he types two hyphens (\"--\"; until 2026-11-04 the swap made his spaced en dash, \" – \")",
    "kind": "mechanical",
    "sources": [
     {
      "file": "docs/HUMANIZATION-GATE.md",
      "quote": "Changing each em dash to the spaced en dash his own Human-at-High paragraphs use"
+    },
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "Now `tools/humanization/typography_swap.py` makes every em dash, and every en dash with a space beside it, his two hyphens with no spaces"
     }
    ],
    "rule": "O63",
