@@ -12,11 +12,14 @@ Where the article's notes say:
     so that line isn't a paragraph of its own as well;
   - the two new YouTube embeds are added, and his six new pictures, uploaded to Substack in turn 127 from his own files
     (UPLOADS.json: each file's SHA-256 his file's, before and after the upload);
-  - the paragraph after the PULL QUOTE note is a pull quote block (his answer on F4, 2026-11-03 23:32 UTC).
+  - the paragraph after a PULL QUOTE note is a pull quote block (his answer on F4, 2026-11-03 23:32 UTC, and his "pull
+    quotes wherever those make the most sense" of 2026-11-04 18:20 UTC, turn 128);
+  - a DIVIDER note is a divider (his "i want the dividers wherever they make the most sense", 2026-11-04 18:20 UTC: before
+    each h1 but the first, turn 128).
 The text is built from the same Markdown the round-11 payloads were (make_payloads.py: the notes out, the quote marks
 curled with curl() before the split, ptext.plain's reading of links and emphasis), and every block's text is checked
-here against round 11's, so the post says word for word what Pangram read. His document has no block quotes or
-dividers, so the post has none.
+here against round 11's, so the post says word for word what Pangram read. His document has no block quotes, so the post
+has none.
 
   python3 make_publish.py            writes PUBLISH-PLAN.json and prints its counts"""
 import hashlib
@@ -204,11 +207,13 @@ def main():
             notes.append(('native', n.group(1), n.group(2)))
         elif body.startswith('PULL QUOTE'):
             notes.append(('pull', None, None))
+        elif body.startswith('DIVIDER'):
+            notes.append(('divider', None, None))
         else:
             return ''
         return '\n\n@@NOTE%d@@\n\n' % (len(notes) - 1)
     for m in NOTE.finditer(md):   # each note stands on its own line, so the blocks around it are the payload's
-        if re.match(r'\s*(IMAGE|EMBED)\s|\s*PULL QUOTE', m.group(1)):
+        if re.match(r'\s*(IMAGE|EMBED)\s|\s*PULL QUOTE|\s*DIVIDER', m.group(1)):
             assert re.search(r'(^|\n)[ \t]*$', md[:m.start()]) and re.match(r'[ \t]*(\n|$)', md[m.end():]), \
                 'a note inside a paragraph: %s' % m.group(0)[:80]
     marked = curl(NOTE.sub(keep, md))
@@ -259,6 +264,11 @@ def main():
             kind, nk, target = notes[s[1]][0], notes[s[1]][1], notes[s[1]][2]
             if kind == 'pull':
                 pull = True
+                continue
+            if kind == 'divider':
+                flush()
+                items.append({'k': 'divider'})
+                after.append(sig(''))
                 continue
             flush()
             it = native_item(nk, target, uploads)

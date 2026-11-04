@@ -84,6 +84,8 @@ The image below maps out the details as best as I can fit:
 
 <!-- IMAGE https://substack-post-media.s3.amazonaws.com/public/images/718d0e76-1acb-4c3c-8076-b9253317f15d_1122x1402.png : The study chart, "Inner Child Reparenting: The Study Chart" (practices, processes and supports for deep healing and adult integration): practical tools that help (gentle self-hypnosis and meditation, journaling and dialogue, somatic and trauma therapies, altered states and plant medicines, professional and relational support), learning to feel love, when you can't feel like the adult yet, on forgiveness, enough adult capacity before going deep, an adult-first safety gate, no clear child yet, catch the hook before you interpret it, also look outward, and closing tenets -->
 
+<!-- DIVIDER: in Substack a divider comes right before this section (Joel, 2026-11-04 18:20 UTC: "i want the dividers wherever they make the most sense"; turn 128) -->
+
 # Safety and Readiness
 
 ## Dip Your Toes In Before You Go Deep
@@ -163,6 +165,8 @@ My father used to tell suicidal people, "Oh, you want to kill yourself? That's w
 As I mentioned in my [nibbana article](http://nibbana.u-dont-exist.com/), I've had my most profound spiritual peak experiences and realizations when I had the least interest in continued existence. And the Buddha taught in [MN 129](https://suttacentral.net/mn129/en/sujato), attaining a human birth is as rare and precious as it would be for a one-eyed turtle to pop his head up through a hoop on the surface of the vast ocean. You won the cosmic jackpot, so don't throw away the ticket before you open the envelope to find it!
 
 <!-- IMAGE https://substack-post-media.s3.amazonaws.com/public/images/c4ab39d5-554a-45ce-bc95-fa5f9846b58f_1122x1402.png : The "Cosmic Jackpot" picture: a slot machine reading HUMAN BIRTH (Dhamma available, can understand, free to practice, potential awakening; incredibly rare), with too much pleasure (distraction and complacency) above, too much suffering (fear, pain and confusion, no space to practice) below, and "just right" in the middle (a man on a bench with his phone), the Buddha pointing up the path to Nibbana: "This human birth is like finding a tiny, fertile island between two vast oceans. Don't waste the treasure." -->
+
+<!-- DIVIDER: in Substack a divider comes right before this section (Joel, 2026-11-04 18:20 UTC: "i want the dividers wherever they make the most sense"; turn 128) -->
 
 # Building Your Inner Adult
 
@@ -373,6 +377,8 @@ and the wisdom to know the difference." (Replace "God" with universe if you wish
 
 If your promises still mean something to your little one, maybe because you've kept a few small ones, a quiet vow can help too. As many real-life parents know, your heart really explodes in such an unexpected and wonderful way when you hold your newborn baby for the first time (happened to me!). And if you're not yet a parent, it can really help to imagine holding a baby in your arms to make the vow feel real. Imagine you just had a baby, how would you feel? Would you look at him/her with adoration and joy? Carry that into visualizing yourself with your own inner child:
 
+<!-- PULL QUOTE: in Substack the next paragraph is a pull quote block (Joel, 2026-11-04 18:20 UTC: "pull quotes wherever those make the most sense"; turn 128) -->
+
 "I know you're in there. I love you. You don't have to love me back or trust me yet. I can't promise that nothing painful will happen. Or that I'll always know what to do, or never react badly. But I can promise to tell you the truth and listen when you're angry. I'll make our life together safer where I can, and take the next step I can see to protect you. When I fail, I'll come back to make it right. You don't have to believe these words. Watch what I do."
 
 Notice it only promises what you can keep, so your little one can actually watch you keep it.
@@ -404,6 +410,8 @@ Jelaluddin Rumi wrote: "The most secure place to hide a treasure of gold is some
 Another Sufi teacher, Hazrat Inayat Khan, wrote, "God breaks the heart again and again and again until it stays open."
 
 Some people find that deep grieving gives way to feeling connected to something much deeper than what was taken away. Being loved can open grief, too. Someone takes care of you, and you think, "Why does this make me sad?" It can be sadness for the care that was missing.
+
+<!-- PULL QUOTE: in Substack the next paragraph is a pull quote block (Joel, 2026-11-04 18:20 UTC: "pull quotes wherever those make the most sense"; turn 128) -->
 
 [As Sister Medhanandi said](https://www.buddhanet.net/joydeath/), "When we are able to come face to face with our own direst fears and vulnerability, when we can step into the unknown with courage and openness, we touch near to the mysteries of this traverse through the human realm to an authentic self-fulfilment. We touch what we fear the most, we transform it, we see the emptiness of it. In that emptiness, all things can abide, all things come to fruition. In this very moment, we can free ourselves."
 
@@ -454,6 +462,8 @@ Maybe you've let a small child win at Go Fish and never found a good time to sta
 After all, sometimes "I want it NOW!" is just that: a rung on the desire treadmill. No hidden guard or old trauma required, because all creatures have endless desires naturally anyway, especially when immature. You can hear that want without shame about it. Hearing it doesn't require giving in to it, especially if getting your way would hurt you or somebody else.
 
 We also need to remember that many of our desires are covering over deeper desires which we may be afraid to look at. Relationship desires, for example, can be scary because we don't have unilateral ability to satisfy them. Learning to acknowledge the unmet needs without a definite solution is a deep Guide capacity which takes maturity to appreciate.
+
+<!-- DIVIDER: in Substack a divider comes right before this section (Joel, 2026-11-04 18:20 UTC: "i want the dividers wherever they make the most sense"; turn 128) -->
 
 # Practicing With Your Little One
 
@@ -543,6 +553,8 @@ The opposite extreme of our pendulum, throwing everything transient away, as som
 
 In the morning, begin the day intentionally, not just because the sun chose to come up once more, since we can't count on that. 🫣 Here's one way you might pl/orkfully start off:
 
+<!-- PULL QUOTE: in Substack the next paragraph is a pull quote block (Joel, 2026-11-04 18:20 UTC: "pull quotes wherever those make the most sense"; turn 128) -->
+
 "Today I will neither be Peter Pan nor Captain Hook. I will notice a hook or 2 which lead to unconscious behaviors."
 
 Then at night, pay yourself to be your own therapist so as not to break the bank. Equipoisedly look into how the practice went for you today:
@@ -562,6 +574,8 @@ Count recognition as progress, regardless of whether it came up a bit late, as t
 Without an ending, the processing can just start looping. So when you're done, look around and say where you are. Feel your feet on the floor, or the chair under you, and remind yourself about something silly and obvious, like what year Pharaoh Tutankhamun was crowned (1332 BCE in case you forgot!)…
 
 And what's next for you two? Maybe it's making food, or just going to bed. Whatever it is, tell your little one, "That's enough for today. We're going back to the life we're building." Nothing has to be resolved first, and whatever you're still feeling can come along.
+
+<!-- DIVIDER: in Substack a divider comes right before this section (Joel, 2026-11-04 18:20 UTC: "i want the dividers wherever they make the most sense"; turn 128) -->
 
 # Discovering and Healing Old Patterns
 
@@ -627,6 +641,8 @@ A good routine, like yoga in the morning and a proper bedtime, still feels like 
 
 The Critic's voice can often pile on, to the point where you can't even understand why or what you're really feeling anymore. You feel sad at first, then the Inner Critic calls your inner child pathetic for being sad, and now you're ashamed and want to hide. You could probably have handled the sadness with some simple nurturing instead from the beginning, but now you have to peel back this other nonsense to get to it.  
 
+<!-- DIVIDER: in Substack a divider comes right before this section (Joel, 2026-11-04 18:20 UTC: "i want the dividers wherever they make the most sense"; turn 128) -->
+
 # When the Practice Gets Difficult
 
 ## When the Adult Voice Feels Fake
@@ -634,6 +650,8 @@ The Critic's voice can often pile on, to the point where you can't even understa
 A lot of people get stuck right at square one. You call up the Nurturer and try to talk to your little one, and you get silence or a numb feeling, and all of a sudden your phone or the laundry feels urgent. Or some voice says this is silly, and it's hard to tell which part of you is saying it.
 
 My friend Scott said:
+
+<!-- PULL QUOTE: in Substack the next paragraph is a pull quote block (Joel, 2026-11-04 18:20 UTC: "pull quotes wherever those make the most sense"; turn 128) -->
 
 "Half the time when I try to connect to baby me, I feel fake and it seems crazy."
 
@@ -712,6 +730,8 @@ I'd ask for a chronic pain specialist and a written plan for the flare-ups you c
 Sometimes, a physical illness is really partly or wholly an emotional issue, as happened to various friends of mine, including a med student friend who was going to the ER every couple days with undiagnosable phantom issues like paralysis and pain. One doctor finally told him it might be "somatic symptoms", so he tried Somatic Experiencing therapy, which helped more than any medical treatment. The same was true with Lucia Capacchione, PhD., and many of her clients and friends. She wrote one of the first comprehensive inner child therapy guides, [Recovery of Your Inner Child](https://www.goodreads.com/book/show/909586.Recovery_of_Your_Inner_Child), in 1991. While I don't doubt that many people do recover from mysterious physical illness via meditation, inner child therapy, and [somatic therapy](http://somatic.u-dont-exist.com), I also don't want to claim, as some folks do, that all illness is entirely rooted in emotional issues. That is clearly not true. We don't need to be gaslit to consider all the possibilities. And there have been [some studies](https://pmc.ncbi.nlm.nih.gov/articles/PMC12311821/) on this:
 
 <!-- IMAGE laptop:/home/joel/Images/uncropped%20study%20on%20pain.png : A screenshot, "Changing a threatening belief can produce unusually large pain improvements": a randomized trial of 151 people with primary chronic back pain testing Pain Reprocessing Therapy, and a bar chart of those reporting no or almost no pain at four weeks: 33 of 50 with pain reprocessing, 10 of 51 with open-label placebo, 5 of 50 with usual care (Joel's uncropped screenshot, 2026-11-03, in place of the cropped one) -->
+
+<!-- DIVIDER: in Substack a divider comes right before this section (Joel, 2026-11-04 18:20 UTC: "i want the dividers wherever they make the most sense"; turn 128) -->
 
 # Altered States and Intensive Practice
 
@@ -814,6 +834,8 @@ Borrowing support like that is basically borrowed adulthood. At first you may ne
 Even social media algorithms will turn your life into hell if you don't have the loving, protective inner parent developed. When you do, social media actually becomes useful and feels nice to interact with now and then. I can't tell you how many people I've talked to who said they love life once they turn off their phone for a few days.
 
 Many people think reparenting sounds silly, or like the kind of ridiculous therapy people do when they have too much time or money. But you know what's even sillier? Wandering the world aimlessly and getting manipulated by all kinds of evil forces. 💀
+
+<!-- DIVIDER: in Substack a divider comes right before this section (Joel, 2026-11-04 18:20 UTC: "i want the dividers wherever they make the most sense"; turn 128) -->
 
 # Bringing Reparenting Into Real Life
 
@@ -1047,6 +1069,8 @@ Get to know the strengths and pitfalls of their approach, including any modifica
 ### AI therapy
 
 I've tried all the top AI therapy apps, and they're all pretty bad. I'm trying to make my own based on this guide, but I'm becoming more convinced that unsupervised AI therapy is just a toss up. That doesn't mean you can't get a lot of great insights sometimes when talking to AI, but just expect it to go sideways sometimes, and don't let it replace real humans who love you and want to think with you. Actually, I find one of the best uses for it is to improve my interactions with real people. For example, it can help me formulate more careful replies to people who are too sensitive to take my excessive bluntness or wry humor (although I wouldn't send them actual AI text).
+
+<!-- DIVIDER: in Substack a divider comes right before this section (Joel, 2026-11-04 18:20 UTC: "i want the dividers wherever they make the most sense"; turn 128) -->
 
 # Conclusion and Appendix
 
