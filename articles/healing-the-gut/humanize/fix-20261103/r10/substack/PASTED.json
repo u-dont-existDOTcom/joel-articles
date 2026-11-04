@@ -1,0 +1,19 @@
+{
+ "turn": "2026-11-04 16:41",
+ "how": "make_payload.py from r10.html (r07's builder with r10's source); the same temporary draft, its title checked and its body cleared with real keystrokes (click, ctrl+a, Delete), then pasted with r06/substack/paste_payload_lane.js in the desktop app's built-in browser, where his Substack is signed in",
+ "prediction": "gut-article-whole#117 in pangram-ledger.jsonl, frozen before the paste: Human at 0.55, with --windows-ok naming the two windows his own checks had cleared (E354); #116, for the text before his dash ruling, voided unsent",
+ "A": {
+  "title": "Healing the Gut, draft A (temp, delete after)",
+  "editor": "https://ibogaqueen.substack.com/publish/post/223467456",
+  "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/d2b36515278e9c52c26a4cb9868cb77f225574ce/articles/healing-the-gut/humanize/fix-20261103/r10/substack/PAYLOAD-A.html",
+  "payload_sha256": "40d1aa7599d6ab150c48c74b72b7a08e23c9d9608405f374d11d1ab4c6c0fa42",
+  "editor_words": 3522,
+  "words_match": true,
+  "draft_updated_at": "2026-11-04T16:49:38.598Z",
+  "secret_link_cache_key": "gut-r10-a-1",
+  "rendered_check": "75 lines, 20,883 characters, SHA-256 23de3dfe9d44b5bab9a95b22cd5a15c19ad9f0e29f04eb965269b8d66c2a7626: CHECKED-TEXT-A.txt exactly, in the built-in browser and in the Claude in Chrome browser"
+ },
+ "pangram": "Opened in his own Brave from his laptop's shell at 16:50 UTC ('Opening in existing browser session', gate E353 (gut)). In the Claude in Chrome browser, which is not his Brave, the Pangram extension's label next to the author's name read 'Human'; its full analysis opens in a side panel the session can't read, so the result page comes from him.",
+ "result": "pending: the label 'Human' only, until his result page is read (RESULT-A.json, WINDOWS.md)",
+ "secret_links": "not recorded: anyone with one can read the draft"
+}
