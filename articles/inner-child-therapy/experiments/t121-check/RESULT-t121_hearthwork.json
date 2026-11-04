@@ -1,0 +1,219 @@
+{
+ "name": "t121_hearthwork",
+ "task_id": "a85f531e-f3e1-479d-8d04-d565bc17b2da",
+ "result": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hearthwork: Taking Turns\nThe basic premise of Hearthwork, my peer-counseling framework, is: Equal time. Attention without interpretation, advice, or fixing. You speak. I listen. Then we switch. Presence, Warmth, Discipline, Confidentiality. It’s kind of a third type of relationship, alongside ordinary friendship and professional therapy, and one your little one might really need, because modern life rarely gives you anything like it.\nSome of what the three grown-up jobs do can come from outside you, too. When you take turns listening with a good peer, as equals, their warmth and the way they stay with you lend you the Nurturer for a while. Keeping what you say private, and stopping when the time’s up, lends you the Protector. If you say no, they don’t push. But they don’t act as your Guide, or decide what your experience means. Maybe they’re thinking, “Oh, I know what this is about,” or “Here’s what you should do.” They keep it to themselves. A question from them at the right moment can help you hear your own Guide, and what you answer is up to you. Then you trade places, and it’s your turn to keep “Here’s what you should do” to yourself.\nThe peer doesn’t become your permanent parent, though. They show you a capacity, help you get the hang of it, and give it back to you, which is borrowed adulthood in its healthiest form (a driving instructor isn’t planning to drive you around forever either). Is that therapy? Well, not the mainstream kind, but yes, for sure. Professional therapy’s still useful for what it does, and peers and community do something else, so a serious healing path can include both.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 0.9999745488166809,
+  "fraction_ai_assisted": 2.4674054502375225e-22,
+  "fraction_human": 2.546769246691838e-05,
+  "headline": "AI Generated",
+  "num_ai_segments": 11,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "Hearthwork: Taking Turns\nThe basic premise of Hearthwork, my peer-counseling framework, is: Equal time. Attention without interpretation, advice, or fixing. You speak. I listen. Then we switch. Presence, Warmth, Discipline, Confidentiality.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 240,
+    "word_count": 32,
+    "token_length": 58,
+    "is_humanized": false,
+    "humanizer_score": 0.8659208416938782,
+    "class_probabilities": [
+     3.9394890127830706e-11,
+     1.5444016384700344e-21,
+     1.0
+    ],
+    "calibrated_confidence": 0.9674215319773913
+   },
+   {
+    "text": " It’s kind of a third type of relationship, alongside ordinary friendship and professional therapy, and one your little one might really need, because modern life rarely gives you anything like it.\nSome of what the three grown-up jobs do can come from outside you, too. When you take turns listening with a good peer, as equals, their warmth and the way they stay with you lend you the Nurturer for a while.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.999898374080658,
+    "confidence": "Low",
+    "start_index": 240,
+    "end_index": 647,
+    "word_count": 74,
+    "token_length": 85,
+    "is_humanized": false,
+    "humanizer_score": 0.8659208416938782,
+    "class_probabilities": [
+     0.00010161761747440323,
+     0.0,
+     0.999898374080658
+    ],
+    "calibrated_confidence": 0.726583650748047
+   },
+   {
+    "text": " Keeping what you say private, and stopping when the time’s up, lends you the Protector.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 647,
+    "end_index": 735,
+    "word_count": 16,
+    "token_length": 21,
+    "is_humanized": false,
+    "humanizer_score": 0.8659208416938782,
+    "class_probabilities": [
+     2.27913686290389e-17,
+     0.0,
+     1.0
+    ],
+    "calibrated_confidence": 0.9918565213221382
+   },
+   {
+    "text": " If you say no, they don’t push. But they don’t act as your Guide, or decide what your experience means.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 735,
+    "end_index": 839,
+    "word_count": 22,
+    "token_length": 26,
+    "is_humanized": false,
+    "humanizer_score": 0.8659208416938782,
+    "class_probabilities": [
+     5.835487800441574e-13,
+     9.601697077553647e-42,
+     1.0
+    ],
+    "calibrated_confidence": 0.9842733285303258
+   },
+   {
+    "text": " Maybe they’re thinking, “Oh, I know what this is about,” or “Here’s what you should do.” They keep it to themselves.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 839,
+    "end_index": 956,
+    "word_count": 23,
+    "token_length": 30,
+    "is_humanized": false,
+    "humanizer_score": 0.8659208416938782,
+    "class_probabilities": [
+     3.002016452222759e-17,
+     0.0,
+     1.0
+    ],
+    "calibrated_confidence": 0.9914585936379836
+   },
+   {
+    "text": " A question from them at the right moment can help you hear your own Guide, and what you answer is up to you.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 956,
+    "end_index": 1065,
+    "word_count": 23,
+    "token_length": 25,
+    "is_humanized": false,
+    "humanizer_score": 0.8659208416938782,
+    "class_probabilities": [
+     2.7975825357738713e-16,
+     0.0,
+     1.0
+    ],
+    "calibrated_confidence": 0.9892702731203206
+   },
+   {
+    "text": " Then you trade places, and it’s your turn to keep “Here’s what you should do” to yourself.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 1065,
+    "end_index": 1156,
+    "word_count": 19,
+    "token_length": 23,
+    "is_humanized": false,
+    "humanizer_score": 0.8659208416938782,
+    "class_probabilities": [
+     2.927942133685542e-20,
+     0.0,
+     1.0
+    ],
+    "calibrated_confidence": 0.9940278343662213
+   },
+   {
+    "text": "\nThe peer doesn’t become your permanent parent, though.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 1156,
+    "end_index": 1211,
+    "word_count": 9,
+    "token_length": 11,
+    "is_humanized": false,
+    "humanizer_score": 0.8659208416938782,
+    "class_probabilities": [
+     2.274491494669642e-14,
+     1.961817850054744e-44,
+     1.0
+    ],
+    "calibrated_confidence": 0.9856644562842577
+   },
+   {
+    "text": " They show you a capacity, help you get the hang of it, and give it back to you, which is borrowed adulthood in its healthiest form (a driving instructor isn’t planning to drive you around forever either).",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 1211,
+    "end_index": 1416,
+    "word_count": 38,
+    "token_length": 44,
+    "is_humanized": false,
+    "humanizer_score": 0.8659208416938782,
+    "class_probabilities": [
+     1.540238608361087e-39,
+     0.0,
+     1.0
+    ],
+    "calibrated_confidence": 0.9974358903739854
+   },
+   {
+    "text": " Is that therapy?",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9999999403953552,
+    "confidence": "Low",
+    "start_index": 1416,
+    "end_index": 1433,
+    "word_count": 3,
+    "token_length": 4,
+    "is_humanized": false,
+    "humanizer_score": 0.8659208416938782,
+    "class_probabilities": [
+     6.768087246200594e-08,
+     1.7676633605479043e-21,
+     0.9999999403953552
+    ],
+    "calibrated_confidence": 0.8291187739463601
+   },
+   {
+    "text": " Well, not the mainstream kind, but yes, for sure. Professional therapy’s still useful for what it does, and peers and community do something else, so a serious healing path can include both.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 1433,
+    "end_index": 1624,
+    "word_count": 33,
+    "token_length": 40,
+    "is_humanized": false,
+    "humanizer_score": 0.8659208416938782,
+    "class_probabilities": [
+     1.445933542169875e-12,
+     0.0,
+     1.0
+    ],
+    "calibrated_confidence": 0.9830662436369814
+   }
+  ],
+  "dashboard_link": "https://www.pangram.com/history/f2d397ae-6c78-4c5c-a855-341ce23285ef"
+ }
+}

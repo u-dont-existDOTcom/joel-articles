@@ -25,7 +25,7 @@ text = '\n'.join([
     '- From: `u-dont-existDOTcom/joel-articles`, branch `handoff/claude-dangerous-adult-20260924-1631`: [every entry\'s fate](%s) '
     '(`articles/inner-child-therapy/experiments/t120-queue/QUEUE-CLEARED.md`, with the script that built it and checked its quotes)' % REC,
     '- Owner request: yes. The owner\'s words, 2026-11-04 10:02 UTC: "make sure you clear the humanization queue". Earlier, at 00:56 UTC, '
-    'about this queue: "i think i already put them in if they were important points".',
+    'about this queue: "i think i already put them in if they were important points". At 12:02 UTC he said yes to filing this item.',
     '- Existing pull request: none',
     '- Supersedes: none',
     '',
@@ -39,8 +39,7 @@ text = '\n'.join([
     'words (what an entry adds beyond that went with his own cuts and edits of the guide, or was left out as his call), and %d left out '
     '(%s). The record quotes, for each entry, the guide\'s words that carry it and the heading they sit under, and says what each '
     'partly covered entry adds that the guide doesn\'t. For two of them, PGQ-009 and PGQ-016, that extra went in an edit of his inside a '
-    'paragraph that he hasn\'t confirmed as meant; he has been asked, and whatever he wants back goes into the guide from that record, so '
-    'neither needs to hold the reset.'
+    'paragraph, and he confirmed on 2026-11-04 that it stays out.'
     % (REC, K['in'], K['core'], K['out'], '; '.join('%s, %s' % (r['id'], SHORT[r['id']]) for r in left)),
     '',
     '## Why',

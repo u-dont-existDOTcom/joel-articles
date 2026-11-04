@@ -10,6 +10,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/inner-child
 | Pangram 4.1 GUI (dashboard) | 28 | 27 (96%) | 4% | 96% | 100% | 0.104 (base 0.034, 28) |
 | pangram-4.1-substack | 100 | 72 (72%) | 42% | 58% | 60% | 0.186 (base 0.244, 100) |
 | pangram-4.1-api | 213 | 167 (78%) | 31% | 69% | 85% | 0.192 (base 0.214, 213) |
+| Pangram 4.1 (API) | 4 | 2 (50%) | 75% | 25% | 25% | 0.275 (base 0.188, 4) |
 
 106 of the older calls are scored here differently from the lane's own marks (98 marked right there, 8 marked wrong): this page uses one rule for every lane, where only a 100% Human result is a pass and a "Mixed" or "Human with an AI window" call counts as not Human.
 
@@ -100,7 +101,30 @@ Calibration:
 | 0.6 to 0.8 | 127 | 0.64 | 83% |
 | 0.8 to 1.0 | 4 | 0.80 | 75% |
 
-## Misses since the ledger (75)
+## Pangram 4.1 (API)
+
+| window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| the latest 50 | 4 | 2 (50%) | 75% | 25% | 25% | 0.275 (base 0.188, 4) |
+| the latest 100 | 4 | 2 (50%) | 75% | 25% | 25% | 0.275 (base 0.188, 4) |
+| all | 4 | 2 (50%) | 75% | 25% | 25% | 0.275 (base 0.188, 4) |
+
+The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| section | 1 | 0 (0%) | 100% | 0% | 100% | 0.360 (base 0.000, 1) |
+| paragraph | 3 | 2 (67%) | 67% | 33% | 0% | 0.247 (base 0.222, 3) |
+
+Calibration:
+
+| my chance of a 100% Human result | calls | mean chance | read Human |
+|---|---|---|---|
+| 0.2 to 0.4 | 2 | 0.30 | 50% |
+| 0.4 to 0.6 | 2 | 0.50 | 0% |
+| 0.6 to 0.8 | 1 | 0.60 | 0% |
+
+## Misses since the ledger (77)
 
 | cause | misses |
 |---|---|
@@ -123,13 +147,13 @@ Calibration:
 | a Human result above 0.0000 | 1 |
 | a cut took out what read human | 1 |
 | an old AI window carried over | 1 |
+| a paragraph alone is harsher than the article | 1 |
+| too pessimistic about his words | 1 |
 
 The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [t106_sec_belong](https://www.pangram.com/history/4ee5effc-70d2-473c-9d01-3b00d7b42840) | t106-sec-belong, 1 | Human | AI or mixed | **not explained yet** |
-| [t106_sec_timing](https://www.pangram.com/history/7c606adb-0eb5-4440-9de2-82634becc011) | t106-sec-timing, 1 | Human | AI or mixed | **not explained yet** |
 | [t106_timing_before](https://www.pangram.com/history/c9ded038-bbf2-4b44-b8aa-5b49a31442f4) | t106-sec-timing, 2 | Human | AI or mixed | **not explained yet** |
 | [t106_timing_d1](https://www.pangram.com/history/9ef9596e-81db-4646-a1a3-4b306e19c468) | t106-timing-p2, 1 | Human | AI or mixed | a tell I did not name |
 | [t107i_ifs](https://www.pangram.com/feed/64c71597-3987-48a7-8431-c8bdc70fddcc) | t107i-ifs, 1 | Human | AI or mixed | **not explained yet** |
@@ -143,6 +167,8 @@ The latest:
 | [t114i_solomon](https://www.pangram.com/feed/909d378e-11d2-4722-b988-a508256c78b4) | t114i-solomon, 1 | Human | AI or mixed | **not explained yet** |
 | [t115_lovewait_r2](https://www.pangram.com/history/b695880a-a675-4047-8b89-5f0b92d39fee) | ic-t115-lovewait, 2 | Human | AI or mixed | **not explained yet** |
 | [t119s_A](https://www.pangram.com/feed/a3f14949-326d-492a-b65a-8b048ca74940) | t119s-A, 1 | AI | Human | an old AI window carried over |
+| [t121_hearthwork](https://www.pangram.com/history/f2d397ae-6c78-4c5c-a855-341ce23285ef) | ic-t121-hearthwork, 1 | Human | AI or mixed | a paragraph alone is harsher than the article |
+| [t121_hw_p2](https://www.pangram.com/history/197fd1b3-519e-47b9-b6ed-54457f4e5a86) | ic-t121-hw-p2, 1 | AI | Human | too pessimistic about his words |
 
 ## Lineages still open (tries used of the cap)
 
@@ -246,4 +272,7 @@ The latest:
 | ic-t115-lovewait | section | 2 of 2 | Mixed |
 | ic-t115-lovecoming | section | 1 of 2 | pending |
 | t119s-B | stretch | 1 of unlimited (Substack) | Mixed |
+| ic-t121-hearthwork | section | 1 of 2 | AI |
+| ic-t121-hw-p1 | paragraph | 1 of 6 | Mixed |
+| ic-t121-hw-p3 | paragraph | 1 of 6 | AI |
 

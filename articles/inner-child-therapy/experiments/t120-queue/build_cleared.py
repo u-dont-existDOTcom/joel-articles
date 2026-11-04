@@ -29,14 +29,15 @@ T120 = HERE / 'QUEUE-001-017.json'
 BLOB = 'https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/'
 FATE = {'in': 'in', 'partly': 'core point in', 'not in': 'left out'}
 # The two whose extra went in an edit of his inside a paragraph: the turn-116 card (A6) asked him about whole sections he
-# cut, so these were never confirmed as meant (the subagent's reading, which I checked against EDITS.json). Asked in turn 120.
+# cut, so these were never confirmed as meant (the subagent's reading, which I checked against EDITS.json). Asked in turn 120;
+# his answer in turn 121 (12:02 UTC, "no"): both stay out.
 UNCONFIRMED = {
     'PGQ-009': ('The rest went in his own edit inside the paragraph (his sentence "Other jobs can go to friends or community, outsource to '
-                'the tools or pros, whatever works."), which no card asked him to confirm; asked in turn 120, my recommendation: leave it out, '
-                'since the core point is there in his words.'),
+                'the tools or pros, whatever works."), which no card had asked him about; asked in turn 120, he said it stays out '
+                '(2026-11-04 12:02 UTC: "no"; experiments/t121-answers/JOEL-20261104-1202.md).'),
     'PGQ-016': ('The rest went in his own edit inside the paragraph (what a memory aid can be, and that it needn\'t explain your life), '
-                'which no card asked him to confirm; asked in turn 120, my recommendation: leave it out, since the core point is there in '
-                'his words.'),
+                'which no card had asked him about; asked in turn 120, he said it stays out (2026-11-04 12:02 UTC: "no"; '
+                'experiments/t121-answers/JOEL-20261104-1202.md).'),
     'PGQ-015': ('The rest went when he removed its paragraph himself in turn 106 ("it seemed extra"); left out, his call (00:56 and 10:02 '
                 'UTC).'),
     'PGQ-017': ('The rest was never written into the guide (turn 71 counted this entry in with PGQ-014); I\'d leave it out, his call (00:56 '
@@ -110,7 +111,8 @@ def main():
           (' **Not decided yet: %s.**' % ', '.join(undecided)) if undecided else ' Every entry is consumed, so the map\'s file can go back to its EMPTY sentinel.'), '',
           'The reset is the map lane\'s own change (UDA\'s suggested-fix rule: a project\'s own agent changes its files), so its item for '
           'that lane is [UDA-ITEM.md](%sexperiments/t120-queue/UDA-ITEM.md), to go in UDA\'s `suggested-fixes/innerSignalGraph/` as his '
-          'request; filing it opens a public pull request in universal-dev-architecture, which waits for his yes.' % BLOB, '',
+          'request. He said yes to filing it (2026-11-04 12:02 UTC), and it is filed: [universal-dev-architecture pull request 467]'
+          '(https://github.com/u-dont-existDOTcom/universal-dev-architecture/pull/467).' % BLOB, '',
           '| Item | Title | Fate | Where in his guide | His words that carry it | Left out | Why |', '|---|---|---|---|---|---|---|']
     for r in rows:
         md.append('| %s | %s | %s | %s | %s | %s | %s |' % tuple(str(v).replace('|', '\\|').replace('\n', ' ') for v in (

@@ -3,7 +3,7 @@
 - For: `u-dont-existDOTcom/innerSignalGraph`
 - Filed: 2026-11-04, by the Claude session working on the humanized Inner Child guide (`u-dont-existDOTcom/joel-articles`)
 - From: `u-dont-existDOTcom/joel-articles`, branch `handoff/claude-dangerous-adult-20260924-1631`: [every entry's fate](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t120-queue/QUEUE-CLEARED.md) (`articles/inner-child-therapy/experiments/t120-queue/QUEUE-CLEARED.md`, with the script that built it and checked its quotes)
-- Owner request: yes. The owner's words, 2026-11-04 10:02 UTC: "make sure you clear the humanization queue". Earlier, at 00:56 UTC, about this queue: "i think i already put them in if they were important points".
+- Owner request: yes. The owner's words, 2026-11-04 10:02 UTC: "make sure you clear the humanization queue". Earlier, at 00:56 UTC, about this queue: "i think i already put them in if they were important points". At 12:02 UTC he said yes to filing this item.
 - Existing pull request: none
 - Supersedes: none
 
@@ -11,7 +11,7 @@
 
 Consume every entry of `authoring/PENDING-PUBLIC-GUIDE-CHANGES.md` (queue version 2026-10-31-r20, the file as of cb2008ce6: 52 entries, PGQ-001 to PGQ-055, with no PGQ-044 to PGQ-046), reset the file to its EMPTY sentinel and update `authoring/public-guide-sync.json` for the inner-child guide, in one reviewed change, as the file's consumption contract says.
 
-Each entry's fate, read against the owner's current humanized guide, is in [the record](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t120-queue/QUEUE-CLEARED.md): 26 in, 25 with the core point in his own words (what an entry adds beyond that went with his own cuts and edits of the guide, or was left out as his call), and 1 left out (PGQ-036, hypnosis during grief or an altered state: the guide never raises whether hypnosis suits someone grieving, so I recommended leaving it out, and the owner raised no objection). The record quotes, for each entry, the guide's words that carry it and the heading they sit under, and says what each partly covered entry adds that the guide doesn't. For two of them, PGQ-009 and PGQ-016, that extra went in an edit of his inside a paragraph that he hasn't confirmed as meant; he has been asked, and whatever he wants back goes into the guide from that record, so neither needs to hold the reset.
+Each entry's fate, read against the owner's current humanized guide, is in [the record](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t120-queue/QUEUE-CLEARED.md): 26 in, 25 with the core point in his own words (what an entry adds beyond that went with his own cuts and edits of the guide, or was left out as his call), and 1 left out (PGQ-036, hypnosis during grief or an altered state: the guide never raises whether hypnosis suits someone grieving, so I recommended leaving it out, and the owner raised no objection). The record quotes, for each entry, the guide's words that carry it and the heading they sit under, and says what each partly covered entry adds that the guide doesn't. For two of them, PGQ-009 and PGQ-016, that extra went in an edit of his inside a paragraph, and he confirmed on 2026-11-04 that it stays out.
 
 ## Why
 

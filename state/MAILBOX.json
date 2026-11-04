@@ -898,6 +898,53 @@
     }
    ],
    "recorded_utc": "2026-11-04T10:39Z"
+  },
+  {
+   "turn": "2026-11-04T12:02Z",
+   "lines_of_work": [
+    "inner child guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "2 items in suggested-fixes/joel-articles/, both already in docs/suggested-fixes-ledger.md; no new item; UDA still at c5c9951"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since turn 120's check (10:40 UTC): pull requests 286 (gut lane) and 287 (community lane) merged by Joel at 10:54 and 11:36 UTC (main 999d6b91), which left this lane's pull request 288 with a conflict in state/MAILBOX.json; pull request 289 opened by the gut lane at 11:46 UTC (Healing the Gut r05); no new issues, comments or reviews (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop's handoff note is byte for byte what turn 120's update made of it (cmp with inbox/t113/note-test-t120.md); no one else changed OWNER-QUESTIONS.md or HANDOFF-UPDATE.json"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "pull requests 286 and 287 merged; 288's conflict (Joel, 12:02 UTC: \"conflicts\")",
+     "outcome": "main merged into the lane first (E339): the one conflict, state/MAILBOX.json, resolved by keeping every lane's checks; read what main changed in the shared rules (AGENTS.md, docs/HUMANIZATION-GATE.md: E339 enforced in lane_push.py, lessons E342 to E346; the next lesson is E347)"
+    },
+    {
+     "item": "pull request 289 (gut lane), open",
+     "outcome": "not this lane's to review or merge; this turn changes no shared file except the records every push writes"
+    },
+    {
+     "item": "Joel's answers of 12:02 UTC to turn 120's questions",
+     "outcome": "the aside back (joel-121-aside), Hearthwork: Taking Turns checked alone and narrowed (experiments/t121-check/), the marking page for round 9's windows below High published (experiments/t121-review/), PGQ-009 and PGQ-016 left out, the map lane's item filed (UDA pull request 467)"
+    },
+    {
+     "item": "Joel: humanize the Hearthwork article after this one is published, with its reparenting passages brought in line (his Substack HTML pasted)",
+     "outcome": "saved (experiments/t121-answers/HEARTHWORK-SUBSTACK-EDITOR-20261104-1202.html); next step 4, a lane of its own once the guide is published"
+    }
+   ],
+   "recorded_utc": "2026-11-04T12:20Z"
   }
  ]
 }
