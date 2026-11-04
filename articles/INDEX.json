@@ -109801,7 +109801,7 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/pangram-ledger.jsonl",
-          "sha256": "c95dcb28160e980dd44569412bdf4d753905af6bc3141051f1ef096c64b34fe1",
+          "sha256": "596a1bc7580abe86220c6010fdc26f3cfaa280cdffefbbabc6deb8b6c61b3c3b",
           "role": "humanization_working_record"
         },
         {
@@ -112147,6 +112147,146 @@
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r07/substack/README.md",
           "sha256": "353a088778f31e6df887d1fb33b97aea64a7f0314f5614d81a6e265acb7ff89c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/checks/TEXTS-paras.json",
+          "sha256": "7a9a8640f2f04659d74c2166944e94503bef92856d407ed6f984f405643308b9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/checks/texts/r08-caution.txt",
+          "sha256": "fc15bb5308bb12472ddb8be646637e9f6da9d486e9a690a87448b2858c0ba4f9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/checks/texts/r08-kits-with-categories.txt",
+          "sha256": "006f6cce91fac5f668ab98476607c25e2087970811471037efe26656865cd4ac",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/checks/texts/r08-p1.txt",
+          "sha256": "d81c562f19f5ee15a23da0707e778449b88e56554352ce38d8bc2dca8ce191d6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/checks/texts/r08-p80.txt",
+          "sha256": "75b11e5a0e98e68a2d25964ad9b5871a964ade64a05df10ce55f2195c4c55e67",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/checks/texts/r08-p81.txt",
+          "sha256": "6bd924e9a6fe54fadcec1cfac85d2a1bdfd965c88636c00aa038378d9f8694e6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/checks/texts/r08-stacks-section.txt",
+          "sha256": "e3f09d2b5c42f01de9ebaa920ad8bd1204674cec42450d78610d6238445b1a8a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/make_r08.py",
+          "sha256": "97f76d8e9e22c0e02a57f1457aa9b20a2f48a03e10d109be9b7c73d405932090",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/r08.html",
+          "sha256": "b0bec56bea2330625e5c233eff21bf1a8a38add8d920013821165258282147db",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/r08.md",
+          "sha256": "a7b31d95cc02b3e99284d03a270f768ae90786d8e6b584ecfd54ecfcd9483f63",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/stacks/CAUTION-DRAFT.txt",
+          "sha256": "4b23f223242e8aff9a4291c14c89fac62283be08dbf462d2cc154ecdfb3db0cb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/stacks/CONTEXT.txt",
+          "sha256": "85c09098011b75ff1daff5d848c86604ca27f231a2f3373714b999d01217ce24",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/stacks/DRAFT-SECTION.md",
+          "sha256": "e37fe18f8c94f3c42b31f5423b7f08e7c9e26d180a08867f8947f6a6f29b1282",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/stacks/MEANING-CHECK-BRIEF.md",
+          "sha256": "4ee43e8cb3429654573e665d14495b8e06693fc55b7d1093a757b8cd85e892b1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/stacks/MEANING-PACKET.json",
+          "sha256": "c25899706c266be2af4457c7f6785ccb14abc68ece76bd46c540a74f5b3f701c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/stacks/MEANING-VERDICTS.json",
+          "sha256": "4000d70efccf84dda9862082a7c5a7f8ce0bd0002a59efc51a689d1e13d1fed6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/stacks/ORIGINAL-SECTION.md",
+          "sha256": "3fe9b0b9585c4c768403846133cb9f7567a2625044489d3a5b9c5c0ce120a9cf",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/stacks/links/BRIEF.txt",
+          "sha256": "15d7b077e888abc8338a146ee30c750ccdb6bbb9ddb287721277d20f3ee33372",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/stacks/links/LINKS.json",
+          "sha256": "50b183c5ff4932cbb096ff4f7502d8b1831ad76b2a4df729562a9ba624ca2dc8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/stacks/links/READER.md",
+          "sha256": "b37f6a59e31341913641f55bc1399e35f41c59cfe733cac79b110486095d5815",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/stacks/links/TEXT.txt",
+          "sha256": "e8159fe80affa6d5265c75f58e627f7764192a5fb6536562a86198b076fe5af4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/stacks/panel/PANEL.json",
+          "sha256": "ce4e6e51e48f75f7df3d7215cc59b69d3f3416647497546c92e4a8278f064aee",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/stacks/panel/PANEL.md",
+          "sha256": "4e42cd63cb81cb583b0faf08f0cf2e1161a7b861a1f1aa9ebae9d449822da7c1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/stacks/panel/PROMPT.md",
+          "sha256": "dfeeee8b78a125166e3e31864e164803cf4a2bbb5ec3fcafdbda4ddbf9a59953",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/stacks/panel/TEXT.txt",
+          "sha256": "38b0787d136bae2bb6852d26042a3319796c5f924c8fba2bd7aa963301fc6898",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/stacks/panel/codex.md",
+          "sha256": "5e85ffdd6db2d11999be7117a73455283a76954026f62ed1a18788a2ad114845",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/stacks/panel/haiku.md",
+          "sha256": "8d2a44687ac5dcbebd9a065f8b0c4af81b4ae616ca1e490fe50e9b3b03c4ab6e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r08/stacks/panel/sonnet.md",
+          "sha256": "83f9f68f30490c1c7be944f74ddaf1da4e8936077cbbd563483cb072365fbe85",
           "role": "humanization_working_record"
         }
       ]
