@@ -2362,7 +2362,22 @@ His message and his batch-1 page's answers, word for word: `articles/healing-the
   - The same answers: his three-category paragraph read AI only in a check with my kits after it; with the paragraph
     before it, it read Human Written, 100% ("this isn't the problem"). When his words read AI only beside mine, mine are
     the suspect: check his with what comes before, or alone, before suggesting he change them.
-  (E353 to E355 follow pull request 290's E352, the neuro de-armoring lane's; the next lesson in any lane is E356.)
+- **E356. A sentence that reads AI only in its section gets a minimal edit, on that sentence, in his way.** Joel, 2026-11-04
+  16:41 UTC: "i fixed the whole section with a few minimal edits". The gut stacks section read AI Detected, 18% AI, with
+  its four AI windows in two paragraphs that read Human Written, 100% by themselves. I tried a move (worse, 52%: moving a
+  paragraph re-segments the whole section) and a narrower referent (20%). His fix read Human Written, 100% (600 words), and
+  touched only those four sentences:
+  - a referent that points at everything just named: "Start any of these supplements or stacks" for "Start any kit" (my
+    "any of those repair kits" was narrower than the reader's question);
+  - a claim said as the common experience it is: "It's quite common for the prebiotic part especially to give you gas";
+  - a comma before "since";
+  - the stock line named for what it is: "the standard disclaimer applies: work out what to take with your doctor".
+  So: when a section reads AI where its paragraphs don't, edit only the sentences in its AI windows, one small change each,
+  and never move paragraphs to fix a window. His lead-in also gave way to one line ("A good stack should cover these 3
+  categories:"), once the paragraph before it said what a stack is for (`articles/healing-the-gut/experiments/t10-answers/`).
+  (E353 to E356 follow pull request 290's E352, the neuro de-armoring lane's; the Inner Child lane's E353 in pull request
+  298, written at the same time, is cited as "E353 (Inner Child)", so cite these as "E353 (gut)" to "E356 (gut)". The next
+  lesson in any lane is E357.)
 
 (The Inner Child lane's turn-116 lessons, written at the same time, are E337 and E338 (Inner Child), near the top. This section's E337 and E338 keep their numbers too, because this lane's records cite them: cite them as "E337 (gut)" and "E338 (gut)". The Inner Child lane's turn-117 lessons, written after them, are E340 and E341, near the top, and this section's E342, E345, E347 to E349 and E351 came after those; the neuro de-armoring lane's E343, E344 and E346, written at the same time, are in its section after this one, with its E350 in its pull request 290. The next lesson in either lane is E352.)
 
