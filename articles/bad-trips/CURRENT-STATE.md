@@ -1,6 +1,6 @@
 # Bad Trips guide: current state
 
-Updated: 2026-11-04 (turn 5, his message of 11:35 UTC). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
+Updated: 2026-11-04 (turn 6, 13:19 UTC: the warnings check's results; no new message from him). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
 badtrips guide at badtrips.u-dont-exist.com"; `experiments/t01-answers/JOEL-MESSAGE-20261103-1545.md`).
 
 ## Goal
@@ -65,16 +65,29 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
   ten situations the rewrite is for); the file sent to him and put on his laptop; last turn's web-app check corrected
   (it had missed the answers' collapsed field notes). The checklist leaves the guide once version 8 is live
   (OWNER-EDITS `checklist-to-app`).
+- 2026-11-04 (turn 6, 13:19 UTC, no new message: the warnings check finished): main merged (pull request 288); the
+  research helper's check of the guide's 149 warning lines (`experiments/t05-warnings/`) taken through E344: the
+  sources behind every change re-opened by me (PubMed, the diclofenac, sulindac and RIMSO-50 labels, the AHA page),
+  the rest by a second helper that hadn't done the first search (61 sources, 13 wording fixes: a wrong figure, two
+  overstated findings, populations left out; no verdict changed); my own re-reading moved three lines to Keep
+  (shungite, the mouth burn, the cluster headache "may") and found LSD on Scotton's table, the histamine review's
+  silence on bacteria, the sheep studies of nebulized DMSO and the rat choline-uptake study. Result: 93 keep, 38 his
+  experience, 5 his views, 5 generic (for the humanizing), and 9 cards on round 3's page (`review/r03/`, built from
+  `GUIDE-SO-FAR.md` by `build_r03.py`, browser test 78 of 78; Bad Trips Guide, Round 3,
+  https://claude.ai/artifact/3FcwLgzCtnfBeH2xHG6BXq): 2 cuts unless they're his experience (nebulized DMSO with tar,
+  DMSO depleting choline), 5 lines changed to what their studies show (transdermal CBD, "Psychedelics" in serotonin
+  syndrome, the ferment itch, DMSO sleep in rats, DMSO with corticosteroids and NSAIDs), a 2026 mouse study on beach
+  morning glory, and the chest-pain line where the guide parts from the AHA.
 
 ## Current checkpoint
 
-- **In progress:** Turn 5: version 8 of the web app is written and tested and waits for him to paste it into the page; the humanize pass starts with a whole-guide Pangram check of the long part (the checklist is leaving), on a temporary Substack draft, since the post waits until the end.
-- **Next step (updated on every push, so another account can pick up here):** The guide's medical warnings checked against the research (gate E344; `experiments/t05-warnings/`, a research helper's first pass, every source re-opened before he sees it), the unsupported ones to him as cuts on a marking page. Then the whole-guide Pangram check of the long part on a temporary Substack draft (payloads as the Inner Child lane's turn 119, `articles/inner-child-therapy/experiments/t119-substack/`; secret link opened in his Brave through Claude in Chrome), every window recorded with its confidence; then humanize section by section, worst first, one paragraph at a time where a section reads AI (E343). When the live page shows `data-version="2026-11-04-v8"`, take the checklist out of the guide and point its four mentions of the checklist at the app.
-- **Waiting on Joel:** version 8 into the app's page (his task). The agmatine warnings are the neuro de-armoring lane's now (its E344 check).
+- **In progress:** Turn 6: round 3's 9 cards (the warnings check) are on his page; version 8 of the web app waits for him to paste it into the app's page.
+- **Next step (updated on every push, so another account can pick up here):** His round-3 answers in with an `apply_r03.py` like round 2's (the page's export, saved as `review/r03/ANSWERS-R03-*.json`; three cards move or add a link: W-CBD's link goes from "transdermal CBD reaches systemic circulation" to "12-week trial", W-SLEEP's from "proven in rats" to the new sentence, and W-GLORY's new sentence links https://doi.org/10.3390/nu18142248 on "a 2026 study"; a cut he rejects as his experience goes to `KEEP-AS-IS.json` and the check's record as his). Then the whole-guide Pangram check of the long part on a temporary Substack draft (payloads as the Inner Child lane's turn 119, `articles/inner-child-therapy/experiments/t119-substack/`; secret link opened in his Brave through Claude in Chrome), every window recorded with its confidence; then humanize section by section, worst first, one paragraph at a time where a section reads AI (E343), each sentence following the one before (E351). When the live page shows `data-version="2026-11-04-v8"`, take the checklist out of the guide and point its four mentions of the checklist at the app.
+- **Waiting on Joel:** round 3's 9 cards; version 8 into the app's page (his task).
 
 ## Remaining
 
-His round-2 answers put in; an overcompletion read (gate E328); the
+His round-3 answers put in; the 5 generic lines the check left for the humanizing; an overcompletion read (gate E328); the
 humanizing of every section that reads AI or below High, by the gate's own writers (Emulate is no longer used on his writing, Joel 2026-11-03); the word-for-sense read
 (gate E331); his post updated, with the title's version and date (gate E323).
 

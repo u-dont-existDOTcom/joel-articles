@@ -1,0 +1,2482 @@
+[
+ {
+  "section": "When to Bring In Outside Help > Call medics while acting for",
+  "sentence": "Trouble breathing, blue or gray lips, or respiratory depression",
+  "kind": "standard",
+  "verdict": "Standard emergency sign.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "South Western Ambulance Service NHS, When to call 999",
+    "doi_or_url": "https://www.swast.nhs.uk/when-to-call-999/",
+    "finding": "999 for loss of consciousness, acute confusion, chest pain, breathing trouble, fits that don't stop, suspected stroke, severe bleeding, serious head injury."
+   },
+   {
+    "title": "American College of Emergency Physicians, Is it an emergency? (warning signs)",
+    "doi_or_url": "https://www.emergencyphysicians.org/siteassets/files/pdfs/isitanemergency.pdf",
+    "finding": "Warning signs: difficulty breathing, chest pain, confusion or difficulty waking, severe or persistent vomiting, vomiting blood, uncontrolled bleeding, suicidal or homicidal feelings."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "When to Bring In Outside Help > Call medics while acting for",
+  "sentence": "A convulsive seizure lasting about five minutes, repeated seizures without normal recovery, or a first or substantially different seizure",
+  "kind": "standard",
+  "verdict": "Matches CDC seizure first aid (over 5 minutes, repeated, first seizure).",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "CDC, First Aid for Seizures",
+    "doi_or_url": "https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html",
+    "finding": "Time it, roll onto the side, loosen anything at the neck, don't hold down, nothing in the mouth; 911 if over 5 minutes, repeated, trouble breathing or waking, injury, first seizure."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "When to Bring In Outside Help > Call medics while acting for",
+  "sentence": "Collapse, inability to wake normally, or rapidly worsening consciousness",
+  "kind": "standard",
+  "verdict": "Standard emergency sign.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "South Western Ambulance Service NHS, When to call 999",
+    "doi_or_url": "https://www.swast.nhs.uk/when-to-call-999/",
+    "finding": "999 for loss of consciousness, acute confusion, chest pain, breathing trouble, fits that don't stop, suspected stroke, severe bleeding, serious head injury."
+   },
+   {
+    "title": "American College of Emergency Physicians, Is it an emergency? (warning signs)",
+    "doi_or_url": "https://www.emergencyphysicians.org/siteassets/files/pdfs/isitanemergency.pdf",
+    "finding": "Warning signs: difficulty breathing, chest pain, confusion or difficulty waking, severe or persistent vomiting, vomiting blood, uncontrolled bleeding, suicidal or homicidal feelings."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "When to Bring In Outside Help > Call medics while acting for",
+  "sentence": "Dangerous overheating, severe rigidity, or clonus with fever",
+  "kind": "standard",
+  "verdict": "Matches the severe serotonin toxicity and heatstroke picture.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Scotton et al. 2019, Serotonin syndrome: pathophysiology, clinical features, management (Int J Tryptophan Res; full text read)",
+    "doi_or_url": "https://doi.org/10.1177/1178646919873925",
+    "finding": "Severe serotonin syndrome: temperature over 41.1 C, muscle rigidity, unstable vital signs; complications include seizures, kidney failure, muscle breakdown."
+   },
+   {
+    "title": "Malcolm & Thomas 2022, Serotonin toxicity of serotonergic psychedelics (Psychopharmacology)",
+    "doi_or_url": "https://doi.org/10.1007/s00213-021-05876-x",
+    "finding": "Signs needing immediate medical attention include myoclonus, extreme vital signs, rigidity, high fever, seizures."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "When to Bring In Outside Help > Call medics while acting for",
+  "sentence": "Sudden one-sided weakness, loss of speech, inability to walk normally, or loss of control of bodily functions",
+  "kind": "standard",
+  "verdict": "Stroke signs; the BE-FAST checks include balance and walking.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Aroor et al. 2017, BE-FAST: reducing the proportion of strokes missed using FAST (Stroke)",
+    "doi_or_url": "https://doi.org/10.1161/STROKEAHA.116.015169",
+    "finding": "FAST missed 14% of strokes; adding balance and vision checks cut that to 4.4%."
+   },
+   {
+    "title": "South Western Ambulance Service NHS, When to call 999",
+    "doi_or_url": "https://www.swast.nhs.uk/when-to-call-999/",
+    "finding": "999 for loss of consciousness, acute confusion, chest pain, breathing trouble, fits that don't stop, suspected stroke, severe bleeding, serious head injury."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "When to Bring In Outside Help > Call medics while acting for",
+  "sentence": "A report that the brain feels damaged when the person cannot complete a basic neurological check or is rapidly worsening",
+  "kind": "standard",
+  "verdict": "Confusion or a changed mental state is an emergency sign.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "American College of Emergency Physicians, Is it an emergency? (warning signs)",
+    "doi_or_url": "https://www.emergencyphysicians.org/siteassets/files/pdfs/isitanemergency.pdf",
+    "finding": "Warning signs: difficulty breathing, chest pain, confusion or difficulty waking, severe or persistent vomiting, vomiting blood, uncontrolled bleeding, suicidal or homicidal feelings."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "When to Bring In Outside Help > Call medics while acting for",
+  "sentence": "Severe, worsening, radiating, or exertional chest pain – or chest pain with breathlessness, sweating, faintness, neurological changes, or collapse",
+  "kind": "standard",
+  "verdict": "Matches the AHA heart attack warning signs.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "American Heart Association, Warning Signs of a Heart Attack",
+    "doi_or_url": "https://www.heart.org/health-topics/heart-attack/warning-signs-of-a-heart-attack",
+    "finding": "Chest discomfort, pain spreading to arms, back, neck or jaw, breathlessness, cold sweat, lightheadedness: 'Call 911 if you have any symptoms'."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "When to Bring In Outside Help > Call medics while acting for",
+  "sentence": "Serious injury, uncontrolled bleeding, or a possible head or spinal injury",
+  "kind": "standard",
+  "verdict": "Standard emergency sign.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "South Western Ambulance Service NHS, When to call 999",
+    "doi_or_url": "https://www.swast.nhs.uk/when-to-call-999/",
+    "finding": "999 for loss of consciousness, acute confusion, chest pain, breathing trouble, fits that don't stop, suspected stroke, severe bleeding, serious head injury."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "When to Bring In Outside Help > Call medics while acting for",
+  "sentence": "Repeated vomiting, severe dehydration, blood, or severe abdominal pain",
+  "kind": "standard",
+  "verdict": "Matches ACEP warning signs (dehydration isn't on its list, but follows from persistent vomiting).",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "American College of Emergency Physicians, Is it an emergency? (warning signs)",
+    "doi_or_url": "https://www.emergencyphysicians.org/siteassets/files/pdfs/isitanemergency.pdf",
+    "finding": "Warning signs: difficulty breathing, chest pain, confusion or difficulty waking, severe or persistent vomiting, vomiting blood, uncontrolled bleeding, suicidal or homicidal feelings."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "When to Bring In Outside Help > Call medics while acting for",
+  "sentence": "Violence, self-harm, or a situation the sitter cannot physically contain",
+  "kind": "standard",
+  "verdict": "Standard: suicidal or homicidal feelings and physical danger are emergencies.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "American College of Emergency Physicians, Is it an emergency? (warning signs)",
+    "doi_or_url": "https://www.emergencyphysicians.org/siteassets/files/pdfs/isitanemergency.pdf",
+    "finding": "Warning signs: difficulty breathing, chest pain, confusion or difficulty waking, severe or persistent vomiting, vomiting blood, uncontrolled bleeding, suicidal or homicidal feelings."
+   },
+   {
+    "title": "NAMI, 988 FAQs (updated 7/12/23)",
+    "doi_or_url": "https://nami.org/nami-988-faqs-updated-07-12-2023",
+    "finding": "If someone is in physical danger, 911 may be most appropriate."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "When to Bring In Outside Help > Call medics while acting for",
+  "sentence": "Concerning symptoms after an MAOI plus a serotonergic substance",
+  "kind": "claim",
+  "verdict": "Supported: MAOI combinations are the main route to serious serotonin toxicity.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Malcolm & Thomas 2022, Serotonin toxicity of serotonergic psychedelics (Psychopharmacology)",
+    "doi_or_url": "https://doi.org/10.1007/s00213-021-05876-x",
+    "finding": "True serotonin toxicity mostly comes from overdose or a serotonin-raising drug combined with an MAOI."
+   },
+   {
+    "title": "Rached et al. 2026, MAOIs in people who use psychoactive substances, review of 219 publications (CNS Drugs)",
+    "doi_or_url": "https://doi.org/10.1007/s40263-025-01256-7",
+    "finding": "Serotonin toxicity reported for MAOIs with amphetamine, DXM, MDMA, meperidine, methadone, tramadol; deaths with MAOIs plus 5-MeO-DMT, MDMA and others."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "When to Bring In Outside Help > Bring in mental-health support when",
+  "sentence": "Psychosis-like symptoms outlast the acute state.",
+  "kind": "standard",
+  "verdict": "A standard reason to bring in mental-health care.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Schlag et al. 2022, Adverse effects of psychedelics (J Psychopharmacol; full text read)",
+    "doi_or_url": "https://doi.org/10.1177/02698811211069100",
+    "finding": "Prolonged psychosis and lasting perception changes after psychedelics are rare but recognised, including in DSM hallucinogen-induced disorders."
+   },
+   {
+    "title": "NAMI, 988 FAQs (updated 7/12/23)",
+    "doi_or_url": "https://nami.org/nami-988-faqs-updated-07-12-2023",
+    "finding": "988 is for suicide, mental health and substance use crises."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "When to Bring In Outside Help > Bring in mental-health support when",
+  "sentence": "Sleep won't return.",
+  "kind": "standard",
+  "verdict": "A standard reason to bring in mental-health care.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Schlag et al. 2022, Adverse effects of psychedelics (J Psychopharmacol; full text read)",
+    "doi_or_url": "https://doi.org/10.1177/02698811211069100",
+    "finding": "Prolonged psychosis and lasting perception changes after psychedelics are rare but recognised, including in DSM hallucinogen-induced disorders."
+   },
+   {
+    "title": "NAMI, 988 FAQs (updated 7/12/23)",
+    "doi_or_url": "https://nami.org/nami-988-faqs-updated-07-12-2023",
+    "finding": "988 is for suicide, mental health and substance use crises."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "When to Bring In Outside Help > Bring in mental-health support when",
+  "sentence": "Mania or suicidal thinking appears.",
+  "kind": "standard",
+  "verdict": "A standard reason to bring in mental-health care.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Schlag et al. 2022, Adverse effects of psychedelics (J Psychopharmacol; full text read)",
+    "doi_or_url": "https://doi.org/10.1177/02698811211069100",
+    "finding": "Prolonged psychosis and lasting perception changes after psychedelics are rare but recognised, including in DSM hallucinogen-induced disorders."
+   },
+   {
+    "title": "NAMI, 988 FAQs (updated 7/12/23)",
+    "doi_or_url": "https://nami.org/nami-988-faqs-updated-07-12-2023",
+    "finding": "988 is for suicide, mental health and substance use crises."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "When to Bring In Outside Help > Bring in mental-health support when",
+  "sentence": "Panic won't settle.",
+  "kind": "standard",
+  "verdict": "A standard reason to bring in mental-health care.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Schlag et al. 2022, Adverse effects of psychedelics (J Psychopharmacol; full text read)",
+    "doi_or_url": "https://doi.org/10.1177/02698811211069100",
+    "finding": "Prolonged psychosis and lasting perception changes after psychedelics are rare but recognised, including in DSM hallucinogen-induced disorders."
+   },
+   {
+    "title": "NAMI, 988 FAQs (updated 7/12/23)",
+    "doi_or_url": "https://nami.org/nami-988-faqs-updated-07-12-2023",
+    "finding": "988 is for suicide, mental health and substance use crises."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "When to Bring In Outside Help > Bring in mental-health support when",
+  "sentence": "The person can't function afterward.",
+  "kind": "standard",
+  "verdict": "A standard reason to bring in mental-health care.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Schlag et al. 2022, Adverse effects of psychedelics (J Psychopharmacol; full text read)",
+    "doi_or_url": "https://doi.org/10.1177/02698811211069100",
+    "finding": "Prolonged psychosis and lasting perception changes after psychedelics are rare but recognised, including in DSM hallucinogen-induced disorders."
+   },
+   {
+    "title": "NAMI, 988 FAQs (updated 7/12/23)",
+    "doi_or_url": "https://nami.org/nami-988-faqs-updated-07-12-2023",
+    "finding": "988 is for suicide, mental health and substance use crises."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "When to Bring In Outside Help > Bring in mental-health support when",
+  "sentence": "The trauma material is bigger than the room can hold.",
+  "kind": "generic",
+  "verdict": "No specific medical content; a sitter's judgment.",
+  "fate": "His view",
+  "sources": [],
+  "query": null
+ },
+ {
+  "section": "When to Bring In Outside Help > When Peer Support Isn't Enough",
+  "sentence": "Get urgent help when somebody may harm themselves or another person, cannot be kept physically safe, is moving toward roads, water, or heights, has command voices or fixed terrifying beliefs driving action, becomes violent, is severely confused and unreachable, has dangerous physical symptoms, has lost enough sleep that judgment is collapsing, or exceeds what the sitter can safely contain.",
+  "kind": "standard",
+  "verdict": "Standard crisis triggers.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "American College of Emergency Physicians, Is it an emergency? (warning signs)",
+    "doi_or_url": "https://www.emergencyphysicians.org/siteassets/files/pdfs/isitanemergency.pdf",
+    "finding": "Warning signs: difficulty breathing, chest pain, confusion or difficulty waking, severe or persistent vomiting, vomiting blood, uncontrolled bleeding, suicidal or homicidal feelings."
+   },
+   {
+    "title": "NAMI, 988 FAQs (updated 7/12/23)",
+    "doi_or_url": "https://nami.org/nami-988-faqs-updated-07-12-2023",
+    "finding": "Immediate medical need or physical danger: 911."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "When to Bring In Outside Help > When Peer Support Isn't Enough",
+  "sentence": "Use local emergency services for immediate danger or a medical emergency.",
+  "kind": "standard",
+  "verdict": "Standard.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "NAMI, 988 FAQs (updated 7/12/23)",
+    "doi_or_url": "https://nami.org/nami-988-faqs-updated-07-12-2023",
+    "finding": "Anyone needing immediate medical attention should call 911."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "When to Bring In Outside Help > When Peer Support Isn't Enough",
+  "sentence": "In the United States, 988 can provide mental-health crisis guidance, de-escalation, and connection to local resources when no immediate physical emergency exists.",
+  "kind": "standard",
+  "verdict": "Matches what NAMI says 988 does.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "NAMI, 988 FAQs (updated 7/12/23)",
+    "doi_or_url": "https://nami.org/nami-988-faqs-updated-07-12-2023",
+    "finding": "988 counselors listen, assess, support, 'help de-escalate the crisis' and connect people to resources."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "When to Bring In Outside Help > When Peer Support Isn't Enough",
+  "sentence": "Call 911 for immediate danger, a crime in progress, medical emergency, weapon, violence underway, or a situation you cannot safely contain.",
+  "kind": "standard",
+  "verdict": "Standard.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "NAMI, 988 FAQs (updated 7/12/23)",
+    "doi_or_url": "https://nami.org/nami-988-faqs-updated-07-12-2023",
+    "finding": "If someone is in physical danger, 911 may be most appropriate."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "When to Bring In Outside Help > When Peer Support Isn't Enough",
+  "sentence": "Outside the United States, identify the local emergency number and crisis line before you ever need them.",
+  "kind": "generic",
+  "verdict": "Good advice with nothing to check.",
+  "fate": "His view",
+  "sources": [],
+  "query": null
+ },
+ {
+  "section": "Acute Medical and Neurological Rescue (opening)",
+  "sentence": "Some severe but physically stable altered states may respond faster to field rescue than to hours in an emergency room.",
+  "kind": "claim",
+  "verdict": "No study compares the two. Harm-reduction services use peer support for medically stable distress, alongside medical care; their evidence so far is staff opinion.",
+  "fate": "His view",
+  "sources": [
+   {
+    "title": "Veiseh et al. 2026, Evaluation framework for psychedelic harm reduction at events (Front Public Health)",
+    "doi_or_url": "https://doi.org/10.3389/fpubh.2026.1927839",
+    "finding": "A 2026 framework paper: peer support for 'medically stable but psychologically distressed' people 'alongside rather than in place of' medical care; its field data (19 pre-event and 5 post-event staff surveys at two events) are staff perceptions, not measured outcomes."
+   }
+  ],
+  "query": "psychedelic crisis on-site harm reduction service festival (KosmiCare OR Zendo OR \"psychedelic care\") hospital referral; festival psychedelic crisis intervention service psychological support outcomes"
+ },
+ {
+  "section": "Acute Medical and Neurological Rescue (opening)",
+  "sentence": "When the person is breathing normally, not dangerously hot, not seizing, has no neurological-injury concern, remains conscious enough to cooperate, and can be kept physically safe, calming and stabilizing the trip may be enough.",
+  "kind": "claim",
+  "verdict": "Consistent with the harm-reduction approach and with classic psychedelics' low medical risk.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Veiseh et al. 2026, Evaluation framework for psychedelic harm reduction at events (Front Public Health)",
+    "doi_or_url": "https://doi.org/10.3389/fpubh.2026.1927839",
+    "finding": "Peer support positioned for medically stable distress, with escalation to medical care."
+   },
+   {
+    "title": "Schlag et al. 2022, Adverse effects of psychedelics (J Psychopharmacol; full text read)",
+    "doi_or_url": "https://doi.org/10.1177/02698811211069100",
+    "finding": "Medical risks of classic psychedelics are often minimal."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Acute Medical and Neurological Rescue (opening)",
+  "sentence": "The emergency room is not magic, and for a physiologically stable psychedelic crisis it may be a poor environment.",
+  "kind": "claim",
+  "verdict": "Your view; nothing found either way.",
+  "fate": "His view",
+  "sources": [
+   {
+    "title": "Veiseh et al. 2026, Evaluation framework for psychedelic harm reduction at events (Front Public Health)",
+    "doi_or_url": "https://doi.org/10.3389/fpubh.2026.1927839",
+    "finding": "Frames field support as an intermediate pathway, not a replacement for emergency care."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Acute Medical and Neurological Rescue (opening)",
+  "sentence": "A scared, psychotic-feeling person often receives a benzodiazepine; those drugs don't reliably address psychosis and can cause paradoxical agitation or fear in some people.",
+  "kind": "claim",
+  "verdict": "Supported: benzodiazepines are the usual ED sedation; trial evidence for them alone in psychosis is weak; paradoxical reactions happen in under 1 in 100.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Bless et al. 2025, Acute recreational drug intoxication in the emergency setting, Swiss guide (Toxics; full text read)",
+    "doi_or_url": "https://doi.org/10.3390/toxics13121034",
+    "finding": "Emergency management emphasises benzodiazepine sedation for agitation."
+   },
+   {
+    "title": "Zaman et al. 2017, Benzodiazepines for psychosis-induced aggression or agitation (Cochrane)",
+    "doi_or_url": "https://doi.org/10.1002/14651858.CD003079.pub4",
+    "finding": "'evidence from RCTs for the use of benzodiazepines alone is not good'; no clear difference from haloperidol."
+   },
+   {
+    "title": "Mancuso et al. 2004, Paradoxical reactions to benzodiazepines (Pharmacotherapy)",
+    "doi_or_url": "https://doi.org/10.1592/phco.24.13.1177.38089",
+    "finding": "Paradoxical reactions (excitement, emotional release, excess movement) in under 1%."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Acute Medical and Neurological Rescue (opening)",
+  "sentence": "Antipsychotics may work better for psychosis, but they carry their own risks and interactions, often administered by someone who doesn't know what was taken.",
+  "kind": "claim",
+  "verdict": "The risks are real; 'may work better' rests on thin trials (one small study favoured olanzapine, none showed haloperidol better).",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Zaman et al. 2017, Benzodiazepines for psychosis-induced aggression or agitation (Cochrane)",
+    "doi_or_url": "https://doi.org/10.1002/14651858.CD003079.pub4",
+    "finding": "One small trial: fewer improved on benzodiazepines than olanzapine; no difference from haloperidol."
+   },
+   {
+    "title": "Scotton et al. 2019, Serotonin syndrome: pathophysiology, clinical features, management (Int J Tryptophan Res; full text read)",
+    "doi_or_url": "https://doi.org/10.1177/1178646919873925",
+    "finding": "Chlorpromazine can cause severe low blood pressure, and antipsychotics can themselves set off serotonin syndrome."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "If Someone Says \"My Brain Feels Damaged\"",
+  "sentence": "Do not dismiss that report because the person is high or cannot explain it in clinical language.",
+  "kind": "claim",
+  "verdict": "Supported: drug users have more strokes, mostly with stimulants.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Fonseca & Ferro 2013, Drug abuse and stroke (Curr Neurol Neurosci Rep)",
+    "doi_or_url": "https://doi.org/10.1007/s11910-012-0325-0",
+    "finding": "Drug users have a higher risk of both bleeding and clot strokes, mostly with stimulants, less often cannabis and other psychotomimetic drugs."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "If Someone Says \"My Brain Feels Damaged\"",
+  "sentence": "While using DMSO, check wakefulness, breathing, temperature, speech, facial symmetry, both arms, balance, walking, bodily control, seizure activity, severe headache, repeated vomiting, chest pain, and vision.",
+  "kind": "standard",
+  "verdict": "Covers the BE-FAST stroke checks and more.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Aroor et al. 2017, BE-FAST: reducing the proportion of strokes missed using FAST (Stroke)",
+    "doi_or_url": "https://doi.org/10.1161/STROKEAHA.116.015169",
+    "finding": "Adding balance and vision to FAST cut missed strokes from 14% to 4.4%."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "If Someone Says \"My Brain Feels Damaged\"",
+  "sentence": "A person who cannot answer or cooperate has not passed the screen; their neurological status is still unknown.",
+  "kind": "standard",
+  "verdict": "Standard: confusion or difficulty waking is an emergency sign.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "American College of Emergency Physicians, Is it an emergency? (warning signs)",
+    "doi_or_url": "https://www.emergencyphysicians.org/siteassets/files/pdfs/isitanemergency.pdf",
+    "finding": "Warning signs: difficulty breathing, chest pain, confusion or difficulty waking, severe or persistent vomiting, vomiting blood, uncontrolled bleeding, suicidal or homicidal feelings."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "If Someone Says \"My Brain Feels Damaged\"",
+  "sentence": "For objective stroke-like signs, I would use DMSO immediately **while someone calls medics**.",
+  "kind": "standard",
+  "verdict": "The 'calls medics' part is standard; DMSO alongside is your approach.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Powers et al. 2019, AHA/ASA guidelines for early management of acute ischemic stroke (Stroke)",
+    "doi_or_url": "https://doi.org/10.1161/STR.0000000000000211",
+    "finding": "Guideline for urgent emergency evaluation and intravenous and intra-arterial treatment of stroke."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "If Someone Says \"My Brain Feels Damaged\"",
+  "sentence": "DMSO cannot identify whether the problem is a clot, a hemorrhage, low oxygen, an electrolyte crisis, or something else.",
+  "kind": "standard",
+  "verdict": "Standard: only hospital evaluation tells the kinds of stroke apart.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Powers et al. 2019, AHA/ASA guidelines for early management of acute ischemic stroke (Stroke)",
+    "doi_or_url": "https://doi.org/10.1161/STR.0000000000000211",
+    "finding": "Covers urgent emergency evaluation before stroke treatment."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "If Someone Says \"My Brain Feels Damaged\"",
+  "sentence": "The larger adjacent risk is losing a treatment window or missing a bleed because the symptoms improved enough to feel reassuring.",
+  "kind": "standard",
+  "verdict": "Standard: stroke treatments work only within time windows.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Powers et al. 2019, AHA/ASA guidelines for early management of acute ischemic stroke (Stroke)",
+    "doi_or_url": "https://doi.org/10.1161/STR.0000000000000211",
+    "finding": "Covers urgent intravenous and intra-arterial treatment within the emergency pathway."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "If Someone Says \"My Brain Feels Damaged\"",
+  "sentence": "If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is.",
+  "kind": "his experience",
+  "verdict": "Settled: your own bleed lines stay (round 2, AN-Q3b).",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Round 2 cards SF-8 and AN-Q3b, the settled blood-thinner and bleed lines (this repository)",
+    "doi_or_url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r02/REVIEW-R02.md",
+    "finding": "Your bleed lines stay; the 'also thins the blood' interaction line was cut at your request."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "If Someone Says \"My Brain Feels Damaged\"",
+  "sentence": "It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner.",
+  "kind": "his experience",
+  "verdict": "Settled: stays. The earlier check found only a mild lab effect on platelets (Asmis 2010) and no study of bleeding in people.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Round 2 cards SF-8 and AN-Q3b, the settled blood-thinner and bleed lines (this repository)",
+    "doi_or_url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r02/REVIEW-R02.md",
+    "finding": "Asmis 2010: DMSO made platelets stick about 15% less in donated blood; no human bleeding study found."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "If Someone Says \"My Brain Feels Damaged\"",
+  "sentence": "I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more.",
+  "kind": "his experience",
+  "verdict": "Settled: stays.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Round 2 cards SF-8 and AN-Q3b, the settled blood-thinner and bleed lines (this repository)",
+    "doi_or_url": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r02/REVIEW-R02.md",
+    "finding": "Approved in round 2 as your own words."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "If Someone Says \"My Brain Feels Damaged\"",
+  "sentence": "Do not manufacture reassurance from missing information.",
+  "kind": "generic",
+  "verdict": "Sound, nothing to check.",
+  "fate": "Generic (the humanizing)",
+  "sources": [],
+  "query": null
+ },
+ {
+  "section": "If Someone Says \"My Brain Feels Damaged\"",
+  "sentence": "**Bring in medical help in parallel** for objective neurological signs, dangerous heat, prolonged or repeated seizure, breathing trouble, severe chest pain, collapse, or when basic stability cannot be established.",
+  "kind": "standard",
+  "verdict": "Standard emergency triggers.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "South Western Ambulance Service NHS, When to call 999",
+    "doi_or_url": "https://www.swast.nhs.uk/when-to-call-999/",
+    "finding": "999 for loss of consciousness, acute confusion, chest pain, breathing trouble, fits that don't stop, suspected stroke, severe bleeding, serious head injury."
+   },
+   {
+    "title": "CDC, First Aid for Seizures",
+    "doi_or_url": "https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html",
+    "finding": "Time it, roll onto the side, loosen anything at the neck, don't hold down, nothing in the mouth; 911 if over 5 minutes, repeated, trouble breathing or waking, injury, first seizure."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Active Seizure",
+  "sentence": "Time the seizure.",
+  "kind": "standard",
+  "verdict": "CDC first aid.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "CDC, First Aid for Seizures",
+    "doi_or_url": "https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html",
+    "finding": "Time it, roll onto the side, loosen anything at the neck, don't hold down, nothing in the mouth; 911 if over 5 minutes, repeated, trouble breathing or waking, injury, first seizure."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Active Seizure",
+  "sentence": "Protect the person from injury, clear dangerous objects, loosen tight clothing, and place them on their side when practical.",
+  "kind": "standard",
+  "verdict": "CDC first aid.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "CDC, First Aid for Seizures",
+    "doi_or_url": "https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html",
+    "finding": "Time it, roll onto the side, loosen anything at the neck, don't hold down, nothing in the mouth; 911 if over 5 minutes, repeated, trouble breathing or waking, injury, first seizure."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Active Seizure",
+  "sentence": "Don't restrain them and don't put anything in their mouth while they are convulsing or not fully conscious.",
+  "kind": "standard",
+  "verdict": "CDC first aid.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "CDC, First Aid for Seizures",
+    "doi_or_url": "https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html",
+    "finding": "Time it, roll onto the side, loosen anything at the neck, don't hold down, nothing in the mouth; 911 if over 5 minutes, repeated, trouble breathing or waking, injury, first seizure."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Active Seizure",
+  "sentence": "Benzodiazepines are the [established first-line drug class for status epilepticus](https://pmc.ncbi.nlm.nih.gov/articles/PMC9477921/).",
+  "kind": "standard",
+  "verdict": "The cited review says this.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Kienitz et al. 2022, Benzodiazepines in the management of seizures and status epilepticus (CNS Drugs)",
+    "doi_or_url": "https://doi.org/10.1007/s40263-022-00940-2",
+    "finding": "Benzodiazepines are the first-line treatment for status epilepticus worldwide; IV, IM, rectal and nasal forms."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Active Seizure",
+  "sentence": "An ordinary pill is not the same thing as a nasal, buccal, rectal, intramuscular, or intravenous rescue preparation, and respiratory depressants in the mix change the risk.",
+  "kind": "claim",
+  "verdict": "Supported: rescue forms are the fast routes, and benzodiazepines with opioids or alcohol can stop breathing.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Kienitz et al. 2022, Benzodiazepines in the management of seizures and status epilepticus (CNS Drugs)",
+    "doi_or_url": "https://doi.org/10.1007/s40263-022-00940-2",
+    "finding": "Rescue routes: intravenous, intramuscular, rectal, intranasal."
+   },
+   {
+    "title": "FDA Drug Safety Communication, opioids with benzodiazepines, 8-31-2016",
+    "doi_or_url": "https://www.fda.gov/Drugs/DrugSafety/ucm518473.htm",
+    "finding": "Opioids with benzodiazepines 'can result in extreme sleepiness, slowed or difficult breathing, coma, or death'."
+   },
+   {
+    "title": "Bless et al. 2025, Acute recreational drug intoxication in the emergency setting, Swiss guide (Toxics; full text read)",
+    "doi_or_url": "https://doi.org/10.3390/toxics13121034",
+    "finding": "With opioids, benzodiazepines need slow titration to avoid added breathing depression."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Active Seizure",
+  "sentence": "CBD has established antiseizure activity in several epilepsy syndromes, and [transdermal CBD reaches systemic circulation](https://pubmed.ncbi.nlm.nih.gov/35802375/), although it has not been validated as rapid seizure rescue.",
+  "kind": "claim",
+  "verdict": "The cited trial backs 'reaches systemic circulation' (levels that 'overlap those reported with oral cannabidiol'), but its gel did no better than placebo against focal seizures over 12 weeks. Changed to say so.",
+  "fate": "Change",
+  "sources": [
+   {
+    "title": "O'Brien et al. 2022, Adjunctive transdermal cannabidiol for adults with focal epilepsy, RCT (JAMA Netw Open; full text read)",
+    "doi_or_url": "https://doi.org/10.1001/jamanetworkopen.2022.20189",
+    "finding": "Gel reached 'plasma concentrations that overlap those reported with oral cannabidiol'; no seizure difference from placebo at 12 weeks (188 adults)."
+   }
+  ],
+  "query": null,
+  "card": "W-CBD"
+ },
+ {
+  "section": "Active Seizure",
+  "sentence": "DMSO reduced seizure activity in a [rat temporal-lobe epilepsy model](https://pubmed.ncbi.nlm.nih.gov/23643984/) and has several neuroprotective mechanisms, but it produced the opposite effect at some doses in an [absence-epilepsy model](https://pubmed.ncbi.nlm.nih.gov/21320528/).",
+  "kind": "claim",
+  "verdict": "Both cited studies say this; human case reports of seizures during DMSO-preserved stem-cell infusions add to the caution.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Carletti et al. 2013, Antiepileptic effect of DMSO in a rat model of temporal lobe epilepsy (Neurosci Lett)",
+    "doi_or_url": "https://doi.org/10.1016/j.neulet.2013.04.031",
+    "finding": "In rats, DMSO cut electrically induced seizure activity, more at higher doses."
+   },
+   {
+    "title": "Kovacs et al. 2011, Effect of DMSO on absence-like epileptic activity of WAG/Rij rats (J Neurosci Methods)",
+    "doi_or_url": "https://doi.org/10.1016/j.jneumeth.2011.02.005",
+    "finding": "Low doses decreased and high doses increased absence-type seizure activity in WAG/Rij rats."
+   },
+   {
+    "title": "Maral et al. 2018, DMSO-induced tonic-clonic seizure during stem cell infusion (Cell Tissue Bank)",
+    "doi_or_url": "https://doi.org/10.1007/s10561-018-9718-x",
+    "finding": "A man had a tonic-clonic seizure minutes into an infusion of DMSO-preserved stem cells."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Active Seizure",
+  "sentence": "I treat it as a plausible experimental adjunct rather than something to wait on while a seizure continues.",
+  "kind": "his experience",
+  "verdict": "Your judgment; it matches the evidence above.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Kovacs et al. 2011, Effect of DMSO on absence-like epileptic activity of WAG/Rij rats (J Neurosci Methods)",
+    "doi_or_url": "https://doi.org/10.1016/j.jneumeth.2011.02.005",
+    "finding": "Dose decides the direction in rats."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Active Seizure",
+  "sentence": "Call medics for a convulsive seizure lasting about five minutes, repeated seizures without normal recovery, trouble breathing, dangerous heat, serious injury, a first seizure, or a seizure substantially different from the person's known pattern.",
+  "kind": "standard",
+  "verdict": "Matches CDC (it also lists a seizure in water, pregnancy, and diabetes with unconsciousness).",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "CDC, First Aid for Seizures",
+    "doi_or_url": "https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html",
+    "finding": "Time it, roll onto the side, loosen anything at the neck, don't hold down, nothing in the mouth; 911 if over 5 minutes, repeated, trouble breathing or waking, injury, first seizure."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "MDMA: Jaw Tension Is the Magnesium Alarm",
+  "sentence": "With MDMA, I treat meaningful jaw tension as the earliest warning that the body needs more magnesium.",
+  "kind": "his experience",
+  "verdict": "No trial of magnesium for MDMA jaw clenching. Bearing on it: severe jaw clenching was the most common reason MDMA users were admitted to one ICU; magnesium is a common user remedy, untested.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Zuidema et al. 2025, Critically ill MDMA patients: 10 years in an Amsterdam ICU (Clin Toxicol)",
+    "doi_or_url": "https://doi.org/10.1080/15563650.2025.2453619",
+    "finding": "74 MDMA ICU patients: the commonest reason was jaw clenching threatening the airway (47%)."
+   },
+   {
+    "title": "Allott & Redman 2005, Patterns of use and harm reduction practices of ecstasy users in Australia (Drug Alcohol Depend)",
+    "doi_or_url": "https://doi.org/10.1016/j.drugalcdep.2005.09.009",
+    "finding": "Magnesium among the substances ecstasy users most often take before or after; efficacy untested."
+   },
+   {
+    "title": "Goldy et al. 2026, Prevalence and coping strategies for MDMA aftereffects (Psychopharmacology)",
+    "doi_or_url": "https://doi.org/10.1007/s00213-026-07187-5",
+    "finding": "Magnesium among the three most-used comedown supplements in 497 users; supplements as a group rated moderately helpful."
+   }
+  ],
+  "query": "(MDMA OR ecstasy OR methylenedioxymethamphetamine) AND magnesium"
+ },
+ {
+  "section": "MDMA: Jaw Tension Is the Magnesium Alarm",
+  "sentence": "Everyone I know who has taken enough magnesium chloride to make the jaw tension fully release has avoided the other complications I have seen when people let that tension continue.",
+  "kind": "his experience",
+  "verdict": "Yours; no study either way.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Allott & Redman 2005, Patterns of use and harm reduction practices of ecstasy users in Australia (Drug Alcohol Depend)",
+    "doi_or_url": "https://doi.org/10.1016/j.drugalcdep.2005.09.009",
+    "finding": "Users' magnesium practice described; no outcome data."
+   }
+  ],
+  "query": "(MDMA OR ecstasy OR methylenedioxymethamphetamine) AND magnesium"
+ },
+ {
+  "section": "MDMA: Jaw Tension Is the Magnesium Alarm",
+  "sentence": "On multiple occasions, I have dissolved **Dead Sea magnesium chloride hexahydrate flakes** in water and taken approximately **one gram per minute orally for around twenty minutes** before my jaw fully released.",
+  "kind": "his experience",
+  "verdict": "Yours. For scale: the flakes are about 12% magnesium, so 20 g is about 2.4 g of magnesium in twenty minutes; the 1997-2022 trials Costello reviewed used up to 1.2 g a day, and an older metabolic study up to 4.7 g a day split over meals. With normal kidneys and gut, dangerous levels from oral magnesium are rare.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Costello et al. 2023, Call for re-evaluation of the upper intake level for magnesium (Adv Nutr; full text read)",
+    "doi_or_url": "https://doi.org/10.1016/j.advnut.2023.06.008",
+    "finding": "Newer trials used up to 1,200 mg a day; an older study up to 4,690 mg a day for 4 days; large doses best spread out; healthy kidneys clear excess well."
+   },
+   {
+    "title": "Kontani et al. 2005, Hypermagnesemia from massive cathartic ingestion in an elderly woman (Intern Med)",
+    "doi_or_url": "https://doi.org/10.2169/internalmedicine.44.448",
+    "finding": "A 76-year-old with a blocked bowel took 34 g magnesium citrate: dangerously high magnesium without prior kidney disease."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "MDMA: Jaw Tension Is the Magnesium Alarm",
+  "sentence": "I have tolerated around twenty grams without diarrhea; for me, diarrhea has appeared only above roughly forty grams.",
+  "kind": "his experience",
+  "verdict": "Yours; fits the review's finding that diarrhea varies widely by person and salt.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Costello et al. 2023, Call for re-evaluation of the upper intake level for magnesium (Adv Nutr; full text read)",
+    "doi_or_url": "https://doi.org/10.1016/j.advnut.2023.06.008",
+    "finding": "Individual gut responses to magnesium 'vary greatly' with formulation and person."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "MDMA: Jaw Tension Is the Magnesium Alarm",
+  "sentence": "Magnesium chloride is also [generally less likely to cause diarrhea than several other replacement salts](https://pmc.ncbi.nlm.nih.gov/articles/PMC10509448/), including forms deliberately used as laxatives.",
+  "kind": "claim",
+  "verdict": "The cited review says this (full text).",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Costello et al. 2023, Call for re-evaluation of the upper intake level for magnesium (Adv Nutr; full text read)",
+    "doi_or_url": "https://doi.org/10.1016/j.advnut.2023.06.008",
+    "finding": "Magnesium gluconate and chloride 'cause diarrhea less often than other salt forms'."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "MDMA: Jaw Tension Is the Magnesium Alarm",
+  "sentence": "Interestingly, magnesium taken before the MDMA peak also makes the peak less euphoric for me.",
+  "kind": "his experience",
+  "verdict": "Yours; no study found either way.",
+  "fate": "His experience",
+  "sources": [],
+  "query": "(MDMA OR ecstasy OR methylenedioxymethamphetamine) AND magnesium"
+ },
+ {
+  "section": "MDMA: Jaw Tension Is the Magnesium Alarm",
+  "sentence": "For harm reduction, slightly less euphoria is a reasonable price for a relaxed jaw and what appears in my experience to be a much lower risk of the state escalating.",
+  "kind": "his experience",
+  "verdict": "Yours.",
+  "fate": "His experience",
+  "sources": [],
+  "query": null
+ },
+ {
+  "section": "MDMA: Jaw Tension Is the Magnesium Alarm",
+  "sentence": "At the hospital, her potassium was found to be critically low – described to me as essentially zero – and IV potassium was the only treatment they gave her.",
+  "kind": "his experience",
+  "verdict": "Yours. Bearing on it: even one dose of MDMA lowered potassium mildly in some volunteers.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Atila et al. 2023, MDMA provocation test, nested randomised trial (Lancet Diabetes Endocrinol)",
+    "doi_or_url": "https://doi.org/10.1016/S2213-8587(23)00120-1",
+    "finding": "After one 100 mg dose, 2 of 15 healthy controls and 4 of 15 patients had mild, passing low potassium."
+   }
+  ],
+  "query": "(MDMA OR ecstasy) AND (hypokalemia OR hypokalaemia OR \"low potassium\")"
+ },
+ {
+  "section": "MDMA: Jaw Tension Is the Magnesium Alarm",
+  "sentence": "That experience is why I treat serious MDMA toxicity as a broader electrolyte emergency, even though magnesium is the first and most useful early intervention when jaw tension appears.",
+  "kind": "his experience",
+  "verdict": "The electrolyte part is supported (low sodium is common); 'first and most useful' is yours.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Zuidema et al. 2025, Critically ill MDMA patients: 10 years in an Amsterdam ICU (Clin Toxicol)",
+    "doi_or_url": "https://doi.org/10.1080/15563650.2025.2453619",
+    "finding": "17 of the 74 ICU patients had low sodium (the abstract gives 39%, of a group it doesn't name)."
+   },
+   {
+    "title": "Atila et al. 2024, Oxytocin and fluid restriction in MDMA-induced hyponatremia, 4 RCTs (JAMA Netw Open)",
+    "doi_or_url": "https://doi.org/10.1001/jamanetworkopen.2024.45278",
+    "finding": "Low sodium in 31% after a single dose."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "MDMA: Jaw Tension Is the Magnesium Alarm",
+  "sentence": "Jaw tension should also mean no more MDMA, less exertion and heat, and closer monitoring.",
+  "kind": "claim",
+  "verdict": "Supported: MDMA's side effects, overheating included, rise with dose, and severe jaw clenching can threaten the airway.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Vizeli & Liechti 2017, Safety pharmacology of acute MDMA in 166 healthy subjects (J Psychopharmacol)",
+    "doi_or_url": "https://doi.org/10.1177/0269881117691569",
+    "finding": "166 volunteers: adverse effects dose-dependent; temperature over 38 C in 19%, more at 125 mg."
+   },
+   {
+    "title": "Zuidema et al. 2025, Critically ill MDMA patients: 10 years in an Amsterdam ICU (Clin Toxicol)",
+    "doi_or_url": "https://doi.org/10.1080/15563650.2025.2453619",
+    "finding": "Threatened airway from jaw clenching was the commonest ICU reason."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "MDMA: Jaw Tension Is the Magnesium Alarm",
+  "sentence": "Worsening headache, confusion, vomiting, weakness, palpitations, collapse, or seizure raises concern about sodium, potassium, temperature, hydration, kidneys, and broader toxicity.",
+  "kind": "claim",
+  "verdict": "Supported: these are the complications MDMA patients come in with.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Atila et al. 2024, Oxytocin and fluid restriction in MDMA-induced hyponatremia, 4 RCTs (JAMA Netw Open)",
+    "doi_or_url": "https://doi.org/10.1001/jamanetworkopen.2024.45278",
+    "finding": "Low sodium after a single dose, tied to fluid intake."
+   },
+   {
+    "title": "Zuidema et al. 2025, Critically ill MDMA patients: 10 years in an Amsterdam ICU (Clin Toxicol)",
+    "doi_or_url": "https://doi.org/10.1080/15563650.2025.2453619",
+    "finding": "ICU complications: low sodium, overheating with muscle breakdown, kidney and liver injury, clotting failure."
+   },
+   {
+    "title": "Bless et al. 2025, Acute recreational drug intoxication in the emergency setting, Swiss guide (Toxics; full text read)",
+    "doi_or_url": "https://doi.org/10.3390/toxics13121034",
+    "finding": "Amphetamine-type toxicity includes brain swelling, low sodium and kidney failure."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "MDMA: Jaw Tension Is the Magnesium Alarm",
+  "sentence": "MDMA is documented to cause [acute kidney injury through several pathways](https://pubmed.ncbi.nlm.nih.gov/27917269/), and controlled research confirms that [hyponatremia can occur after a single dose](https://pubmed.ncbi.nlm.nih.gov/39546312/).",
+  "kind": "claim",
+  "verdict": "Both cited studies say this.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Bora et al. 2016, Ecstasy (MDMA) and its effects on kidneys (Iran J Basic Med Sci; no DOI listed in PubMed)",
+    "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5126214/",
+    "finding": "Kidney injury from muscle breakdown, malignant hypertension and inflamed blood vessels; also overheating and low sodium."
+   },
+   {
+    "title": "Atila et al. 2024, Oxytocin and fluid restriction in MDMA-induced hyponatremia, 4 RCTs (JAMA Netw Open)",
+    "doi_or_url": "https://doi.org/10.1001/jamanetworkopen.2024.45278",
+    "finding": "31% of 96 people had low sodium after one 100-125 mg dose; none of the 15 with restricted fluids."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "MDMA: Jaw Tension Is the Magnesium Alarm",
+  "sentence": "People with impaired kidneys do need to be more cautious with large, rapid magnesium doses because they may not clear magnesium normally.",
+  "kind": "claim",
+  "verdict": "Supported. Case reports add that it has happened with normal kidneys, after a very large dose or with a blocked bowel in old age; you could add a blocked or slow gut.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Si et al. 2024, Near-fatal hypermagnesemia from Epsom salts with normal renal function (Front Med)",
+    "doi_or_url": "https://doi.org/10.3389/fmed.2024.1416956",
+    "finding": "High magnesium 'commonly occurs in patients with renal dysfunction'; near-fatal case with normal kidney function after Epsom salts taken to prepare for endoscopy of a bleeding ulcer (a stomach operation 18 years earlier)."
+   },
+   {
+    "title": "Nordt et al. 1996, Hypermagnesemia after acute Epsom salt ingestion with normal renal function (J Toxicol Clin Toxicol)",
+    "doi_or_url": "https://doi.org/10.3109/15563659609013838",
+    "finding": "Massive Epsom salt with normal kidneys: extreme weakness and altered mentation; rare."
+   },
+   {
+    "title": "Kontani et al. 2005, Hypermagnesemia from massive cathartic ingestion in an elderly woman (Intern Med)",
+    "doi_or_url": "https://doi.org/10.2169/internalmedicine.44.448",
+    "finding": "Elderly woman with ileus, 34 g magnesium citrate, no prior kidney disease."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "MDMA: Jaw Tension Is the Magnesium Alarm",
+  "sentence": "MDMA can cause overheating, rhabdomyolysis, dangerous electrolyte shifts, and acute kidney injury.",
+  "kind": "claim",
+  "verdict": "Supported.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Bora et al. 2016, Ecstasy (MDMA) and its effects on kidneys (Iran J Basic Med Sci; no DOI listed in PubMed)",
+    "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5126214/",
+    "finding": "Overheating, muscle breakdown, low sodium, kidney injury."
+   },
+   {
+    "title": "Zuidema et al. 2025, Critically ill MDMA patients: 10 years in an Amsterdam ICU (Clin Toxicol)",
+    "doi_or_url": "https://doi.org/10.1080/15563650.2025.2453619",
+    "finding": "All with overheating had complications such as muscle breakdown and kidney injury."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "MDMA: Jaw Tension Is the Magnesium Alarm",
+  "sentence": "Kidney impairment is a strong reason not to take MDMA – not a reason to sit there with worsening jaw tension after taking it.",
+  "kind": "claim",
+  "verdict": "No study of MDMA in people with kidney disease; it follows from MDMA's known kidney injury.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Bora et al. 2016, Ecstasy (MDMA) and its effects on kidneys (Iran J Basic Med Sci; no DOI listed in PubMed)",
+    "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5126214/",
+    "finding": "MDMA can injure the kidneys by several routes."
+   }
+  ],
+  "query": "(MDMA OR methylenedioxymethamphetamine) AND (renal impairment OR \"chronic kidney disease\" OR \"kidney disease\") AND (risk OR pharmacokinetics OR contraindication)"
+ },
+ {
+  "section": "MDMA: Jaw Tension Is the Magnesium Alarm",
+  "sentence": "I would not tell somebody with serious kidney impairment to copy my one-gram-per-minute approach blindly; I would tell them to treat the situation as higher-risk and get help sooner.",
+  "kind": "his experience",
+  "verdict": "Yours; consistent with the magnesium cases above.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Si et al. 2024, Near-fatal hypermagnesemia from Epsom salts with normal renal function (Front Med)",
+    "doi_or_url": "https://doi.org/10.3389/fmed.2024.1416956",
+    "finding": "Kidney problems are the usual setting for magnesium poisoning."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Chest Pain and Injury",
+  "sentence": "After I overused erythritol, I developed angina that lasted for days. I took DMSO, the pain disappeared within about a minute, and it never returned.",
+  "kind": "his experience",
+  "verdict": "Yours. Bearing on it: erythritol has been tied to heart attacks and clotting.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Witkowski et al. 2023, The artificial sweetener erythritol and cardiovascular event risk (Nat Med)",
+    "doi_or_url": "https://doi.org/10.1038/s41591-023-02223-9",
+    "finding": "In people, higher blood erythritol linked to heart attack and stroke; in lab tests on human platelets and in mice, erythritol made blood clot more readily; one drink raised levels over 2 days."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Chest Pain and Injury",
+  "sentence": "Mild, familiar, non-progressive discomfort in a fully alert person is different from new, severe, persistent, worsening, radiating, or exertional pain – or pain with breathlessness, sweating, faintness, neurological changes, or collapse.",
+  "kind": "standard",
+  "verdict": "The second branch matches the AHA signs. The AHA says 'Call 911 if you have any symptoms of heart attack', notes that some heart attacks 'start slowly with mild pain or discomfort', and adds 'Even if you're not sure it's a heart attack, get checked out'. The card offers one line for the cases a reader can't place.",
+  "fate": "His call (card)",
+  "sources": [
+   {
+    "title": "American Heart Association, Warning Signs of a Heart Attack",
+    "doi_or_url": "https://www.heart.org/health-topics/heart-attack/warning-signs-of-a-heart-attack",
+    "finding": "'Call 911 if you have any symptoms of heart attack'."
+   }
+  ],
+  "query": null,
+  "card": "W-CHEST"
+ },
+ {
+  "section": "Chest Pain and Injury",
+  "sentence": "In the second branch, I would use DMSO while arranging medical evaluation.",
+  "kind": "standard",
+  "verdict": "The medical evaluation part is standard.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "American Heart Association, Warning Signs of a Heart Attack",
+    "doi_or_url": "https://www.heart.org/health-topics/heart-attack/warning-signs-of-a-heart-attack",
+    "finding": "Call 911 for heart attack symptoms."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Chest Pain and Injury",
+  "sentence": "DMSO can also block pain signals",
+  "kind": "claim",
+  "verdict": "Supported: DMSO blocks the nerve fibres that carry pain.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Evans et al. 1993, DMSO blocks conduction in peripheral nerve C fibers (Neurosci Lett)",
+    "doi_or_url": "https://doi.org/10.1016/0304-3940(93)90522-m",
+    "finding": "DMSO on cat nerves slowed pain-fibre conduction at 5-7% and blocked it from 9%."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Recent Oral Toxic Ingestion",
+  "sentence": "Ask what was swallowed, how much, when, and what the body is actually doing: respiratory depression, stimulant toxicity, serotonin toxicity, seizure, dangerous overheating, cardiovascular symptoms, severe agitation, objective neurological dysfunction, vomiting, diarrhea, or something else.",
+  "kind": "standard",
+  "verdict": "The standard toxidrome approach.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Bless et al. 2025, Acute recreational drug intoxication in the emergency setting, Swiss guide (Toxics; full text read)",
+    "doi_or_url": "https://doi.org/10.3390/toxics13121034",
+    "finding": "Management by toxidrome (stimulant, opioid, hallucinogen) within an ABCDE approach."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Recent Oral Toxic Ingestion",
+  "sentence": "Activated charcoal may help after some recent oral ingestions when the substance binds to it and the person is fully alert enough to swallow safely.",
+  "kind": "claim",
+  "verdict": "Supported; 'recent' means within about an hour.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Zellner et al. 2019, The use of activated charcoal to treat intoxications (Dtsch Arztebl Int)",
+    "doi_or_url": "https://doi.org/10.3238/arztebl.2019.0311",
+    "finding": "Give as soon as possible, within the first hour; up to 6 hours for slow-release pills."
+   },
+   {
+    "title": "Bless et al. 2025, Acute recreational drug intoxication in the emergency setting, Swiss guide (Toxics; full text read)",
+    "doi_or_url": "https://doi.org/10.3390/toxics13121034",
+    "finding": "Charcoal is 'only effective within one hour of ingestion'."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Recent Oral Toxic Ingestion",
+  "sentence": "It does not bind every toxin, can adsorb necessary medication, and creates aspiration risk in somebody who is vomiting, sedated, seizing, or unable to protect the airway.",
+  "kind": "claim",
+  "verdict": "The cited review says this; the Swiss guide adds the aspiration risk in agitated or sedated people.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Zellner et al. 2019, The use of activated charcoal to treat intoxications (Dtsch Arztebl Int)",
+    "doi_or_url": "https://doi.org/10.3238/arztebl.2019.0311",
+    "finding": "Doesn't work for acids, alkalis, alcohols, solvents, salts or metals; contraindicated with impaired consciousness and an unprotected airway."
+   },
+   {
+    "title": "Bless et al. 2025, Acute recreational drug intoxication in the emergency setting, Swiss guide (Toxics; full text read)",
+    "doi_or_url": "https://doi.org/10.3390/toxics13121034",
+    "finding": "'significant risk of aspiration, especially in agitated or sedated patients'."
+   },
+   {
+    "title": "Knadler et al. 2011, Duloxetine: clinical pharmacokinetics and drug interactions (Clin Pharmacokinet)",
+    "doi_or_url": "https://doi.org/10.2165/11539240-000000000-00000",
+    "finding": "Activated charcoal lowers levels of duloxetine, an antidepressant."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Recent Oral Toxic Ingestion",
+  "sentence": "Poison control may be useful when the substance, combination, delayed risk, or value of charcoal is unclear.",
+  "kind": "standard",
+  "verdict": "Standard; the cited review goes further.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Zellner et al. 2019, The use of activated charcoal to treat intoxications (Dtsch Arztebl Int)",
+    "doi_or_url": "https://doi.org/10.3238/arztebl.2019.0311",
+    "finding": "For each charcoal decision, 'a poison control center should be consulted'."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Recent Oral Toxic Ingestion",
+  "sentence": "I do not treat it as a mandatory ritual; usefulness varies by country and by whoever answers. It is decision support, not first aid.",
+  "kind": "his experience",
+  "verdict": "Yours. The cited review recommends consulting a poison centre for charcoal decisions.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Zellner et al. 2019, The use of activated charcoal to treat intoxications (Dtsch Arztebl Int)",
+    "doi_or_url": "https://doi.org/10.3238/arztebl.2019.0311",
+    "finding": "'a poison control center should be consulted'."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "Serotonin syndrome overlaps with several symptoms above, but the rescue measures in the other branches do not necessarily treat it.",
+  "kind": "generic",
+  "verdict": "Sensible framing; nothing specific to check.",
+  "fate": "Generic (the humanizing)",
+  "sources": [],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "It can follow serotonergic medication changes, combinations, or excessive exposure.",
+  "kind": "standard",
+  "verdict": "Standard.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Scotton et al. 2019, Serotonin syndrome: pathophysiology, clinical features, management (Int J Tryptophan Res; full text read)",
+    "doi_or_url": "https://doi.org/10.1177/1178646919873925",
+    "finding": "Therapeutic use, intentional overdose, or interaction between serotonergic drugs."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "Psychedelics, MDMA, DXM, many antidepressants, tramadol, linezolid, MAOIs, and some opioids can contribute, especially in combinations.",
+  "kind": "claim",
+  "verdict": "Scotton 2019's table lists LSD and Syrian rue with harmine among drugs tied to serotonin syndrome, so 'Psychedelics' isn't wrong, but it's broader than the risk: true toxicity typically needs an overdose or an MAOI, and drugs without an MAOI are 'low risk in combination with psychedelics that also do not contain MAOIs' (Malcolm & Thomas 2022). Changed to 'Ayahuasca and other MAOI brews' and 'other MAOIs'.",
+  "fate": "Change",
+  "sources": [
+   {
+    "title": "Malcolm & Thomas 2022, Serotonin toxicity of serotonergic psychedelics (Psychopharmacology)",
+    "doi_or_url": "https://doi.org/10.1007/s00213-021-05876-x",
+    "finding": "Non-MAOI drugs are 'low risk in combination with psychedelics that also do not contain MAOIs'."
+   },
+   {
+    "title": "Scotton et al. 2019, Serotonin syndrome: pathophysiology, clinical features, management (Int J Tryptophan Res; full text read)",
+    "doi_or_url": "https://doi.org/10.1177/1178646919873925",
+    "finding": "Lists MAOIs (incl. linezolid, Syrian rue/harmine), tramadol, methadone, meperidine, MDMA, St John's wort, DXM; LSD also listed."
+   },
+   {
+    "title": "Rached et al. 2026, MAOIs in people who use psychoactive substances, review of 219 publications (CNS Drugs)",
+    "doi_or_url": "https://doi.org/10.1007/s40263-025-01256-7",
+    "finding": "Deaths reported with MAOIs plus 5-MeO-DMT, MDMA, tramadol and others."
+   }
+  ],
+  "query": null,
+  "card": "W-SS"
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "Clinicians often use the Hunter criteria.",
+  "kind": "standard",
+  "verdict": "The standard tool.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Dunkley et al. 2003, The Hunter Serotonin Toxicity Criteria (QJM)",
+    "doi_or_url": "https://doi.org/10.1093/qjmed/hcg109",
+    "finding": "Hunter criteria from 2,222 overdose admissions; more sensitive and specific than the older Sternbach criteria."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "**Spontaneous clonus:** involuntary rhythmic muscle contractions and relaxations occurring without stimulation.",
+  "kind": "standard",
+  "verdict": "Matches the Hunter criteria.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Dunkley et al. 2003, The Hunter Serotonin Toxicity Criteria (QJM)",
+    "doi_or_url": "https://doi.org/10.1093/qjmed/hcg109",
+    "finding": "Clonus (spontaneous, inducible, ocular), agitation, sweating, tremor, hyperreflexia, plus rigidity and temperature over 38 C."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "**Inducible clonus plus agitation or sweating.**",
+  "kind": "standard",
+  "verdict": "Matches the Hunter criteria.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Dunkley et al. 2003, The Hunter Serotonin Toxicity Criteria (QJM)",
+    "doi_or_url": "https://doi.org/10.1093/qjmed/hcg109",
+    "finding": "Clonus (spontaneous, inducible, ocular), agitation, sweating, tremor, hyperreflexia, plus rigidity and temperature over 38 C."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "**Ocular clonus plus agitation or sweating:** rapid rhythmic involuntary eye movements.",
+  "kind": "standard",
+  "verdict": "Matches; the review describes ocular clonus as fine or coarse back-and-forth eye movements, continuous or triggered.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Dunkley et al. 2003, The Hunter Serotonin Toxicity Criteria (QJM)",
+    "doi_or_url": "https://doi.org/10.1093/qjmed/hcg109",
+    "finding": "Clonus (spontaneous, inducible, ocular), agitation, sweating, tremor, hyperreflexia, plus rigidity and temperature over 38 C."
+   },
+   {
+    "title": "Scotton et al. 2019, Serotonin syndrome: pathophysiology, clinical features, management (Int J Tryptophan Res; full text read)",
+    "doi_or_url": "https://doi.org/10.1177/1178646919873925",
+    "finding": "Ocular clonus: 'fine or coarse, oscillatory eye movements'."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "**Tremor plus hyperreflexia:** shaking together with abnormally brisk reflexes.",
+  "kind": "standard",
+  "verdict": "Matches the Hunter criteria.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Dunkley et al. 2003, The Hunter Serotonin Toxicity Criteria (QJM)",
+    "doi_or_url": "https://doi.org/10.1093/qjmed/hcg109",
+    "finding": "Clonus (spontaneous, inducible, ocular), agitation, sweating, tremor, hyperreflexia, plus rigidity and temperature over 38 C."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "**Hypertonia plus fever:** rigidity with temperature above 38°C (100.4°F), together with ocular or inducible clonus.",
+  "kind": "standard",
+  "verdict": "Matches the Hunter criteria.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Dunkley et al. 2003, The Hunter Serotonin Toxicity Criteria (QJM)",
+    "doi_or_url": "https://doi.org/10.1093/qjmed/hcg109",
+    "finding": "Clonus (spontaneous, inducible, ocular), agitation, sweating, tremor, hyperreflexia, plus rigidity and temperature over 38 C."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "This is a recognition aid rather than a command to wait for every criterion before acting.",
+  "kind": "generic",
+  "verdict": "Sound framing.",
+  "fate": "Generic (the humanizing)",
+  "sources": [],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "Dangerous heat, rigidity, clonus, confusion, or rapid worsening deserves medical help.",
+  "kind": "standard",
+  "verdict": "Standard.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Malcolm & Thomas 2022, Serotonin toxicity of serotonergic psychedelics (Psychopharmacology)",
+    "doi_or_url": "https://doi.org/10.1007/s00213-021-05876-x",
+    "finding": "Immediate medical attention for myoclonus, extreme vital signs, agitation or coma, rigidity, high fever, seizures."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "**Stop all suspected serotonergic substances.** No more SSRI, SNRI, MAOI, tramadol, MDMA, DXM cough syrup, 5-HTP, St John's wort, SAM-e, linezolid, stimulant redoses, or harmala/ayahuasca-type MAOI exposure.",
+  "kind": "standard",
+  "verdict": "The standard first step.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Scotton et al. 2019, Serotonin syndrome: pathophysiology, clinical features, management (Int J Tryptophan Res; full text read)",
+    "doi_or_url": "https://doi.org/10.1177/1178646919873925",
+    "finding": "'The first step is to identify and stop the offending serotonergic medication(s)'."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "Case reports describe rapid improvement, including complete resolution within two hours in a small series, while a recent systematic review found the evidence for major outcomes inconclusive.",
+  "kind": "claim",
+  "verdict": "Both cited studies say this.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Graudins et al. 1998, Treatment of the serotonin syndrome with cyproheptadine (J Emerg Med)",
+    "doi_or_url": "https://doi.org/10.1016/s0736-4679(98)00057-2",
+    "finding": "5 cases: 3 fully resolved within 2 hours of oral cyproheptadine, 2 after a second dose."
+   },
+   {
+    "title": "King & Rotella 2025, Efficacy of cyproheptadine in serotonin toxicity, systematic review (Emerg Med Australas)",
+    "doi_or_url": "https://doi.org/10.1111/1742-6723.14554",
+    "finding": "12 reports, very low quality; 'efficacy was not established'."
+   },
+   {
+    "title": "Scotton et al. 2019, Serotonin syndrome: pathophysiology, clinical features, management (Int J Tryptophan Res; full text read)",
+    "doi_or_url": "https://doi.org/10.1177/1178646919873925",
+    "finding": "Cyproheptadine is usually the favoured serotonin antagonist."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "I would not wait to see whether it works before cooling, stopping serotonergic substances, and arranging help for moderate or severe signs.",
+  "kind": "standard",
+  "verdict": "Standard: supportive care first.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Scotton et al. 2019, Serotonin syndrome: pathophysiology, clinical features, management (Int J Tryptophan Res; full text read)",
+    "doi_or_url": "https://doi.org/10.1177/1178646919873925",
+    "finding": "Stop the drugs, benzodiazepines, active cooling (fans, water sprays, ice packs), IV fluids; severe cases need paralysis and ventilation."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "Call emergency help and arrange transport for moderate or severe signs.** Don't drive yourself.",
+  "kind": "standard",
+  "verdict": "Standard.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Malcolm & Thomas 2022, Serotonin toxicity of serotonergic psychedelics (Psychopharmacology)",
+    "doi_or_url": "https://doi.org/10.1007/s00213-021-05876-x",
+    "finding": "Severe signs warrant immediate medical attention."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "Poison control may help when the combination is unclear, but it is not the treatment.",
+  "kind": "standard",
+  "verdict": "Standard.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Zellner et al. 2019, The use of activated charcoal to treat intoxications (Dtsch Arztebl Int)",
+    "doi_or_url": "https://doi.org/10.3238/arztebl.2019.0311",
+    "finding": "Poison centres give decision support."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "Move to a cool room, remove excess clothing, use a fan and cool damp cloths, and place ice packs wrapped in cloth at the neck, armpits, or groin when the person is hot.",
+  "kind": "standard",
+  "verdict": "Matches NHS heat first aid and the review's cooling methods.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "NHS, Heat exhaustion and heatstroke",
+    "doi_or_url": "https://www.nhs.uk/conditions/heat-exhaustion-and-heatstroke/",
+    "finding": "Cool place, remove clothing, sponge with cool water and fan; cold packs wrapped in cloth under the armpits or on the neck (the groin isn't named)."
+   },
+   {
+    "title": "Scotton et al. 2019, Serotonin syndrome: pathophysiology, clinical features, management (Int J Tryptophan Res; full text read)",
+    "doi_or_url": "https://doi.org/10.1177/1178646919873925",
+    "finding": "Active cooling with fans, water sprays and ice packs."
+   },
+   {
+    "title": "CDC, Heat-related illness: treatment of heat stroke",
+    "doi_or_url": "https://www.cdc.gov/nceh/hsb/extreme/Heat_Illness/page492.html",
+    "finding": "\"Applying icebags at the neck, armpit, and groin area.\""
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "Don't put a confused, seizing, or very weak person in a bath.",
+  "kind": "standard",
+  "verdict": "Standard safety: water plus a seizure is an emergency in itself.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "CDC, First Aid for Seizures",
+    "doi_or_url": "https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html",
+    "finding": "Call 911 if 'The seizure happens in water'."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "Fever reducers do not solve heat generated by extreme muscle activity.",
+  "kind": "claim",
+  "verdict": "Supported.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Scotton et al. 2019, Serotonin syndrome: pathophysiology, clinical features, management (Int J Tryptophan Res; full text read)",
+    "doi_or_url": "https://doi.org/10.1177/1178646919873925",
+    "finding": "The heat comes from muscle activity, so antipyretics 'have little effect and are not indicated'."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "Akathisia can create a strong urge to move, but muscle activity can worsen heat and rhabdomyolysis risk.",
+  "kind": "claim",
+  "verdict": "Supported.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Scotton et al. 2019, Serotonin syndrome: pathophysiology, clinical features, management (Int J Tryptophan Res; full text read)",
+    "doi_or_url": "https://doi.org/10.1177/1178646919873925",
+    "finding": "Physical restraint risks lactic acidosis and overheating from muscle contraction; muscle breakdown is a complication."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "Don't force fluids, food, pills, or charcoal when someone is confused, vomiting, sleepy, or at seizure risk.",
+  "kind": "standard",
+  "verdict": "Standard: choking and aspiration risk.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "CDC, First Aid for Seizures",
+    "doi_or_url": "https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html",
+    "finding": "No food or water until fully alert."
+   },
+   {
+    "title": "Bless et al. 2025, Acute recreational drug intoxication in the emergency setting, Swiss guide (Toxics; full text read)",
+    "doi_or_url": "https://doi.org/10.3390/toxics13121034",
+    "finding": "Charcoal aspiration risk in agitated or sedated people."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "Hospitals may use benzodiazepines, external cooling, IV fluids, monitoring, and intensive supportive care.",
+  "kind": "standard",
+  "verdict": "Matches hospital management.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Scotton et al. 2019, Serotonin syndrome: pathophysiology, clinical features, management (Int J Tryptophan Res; full text read)",
+    "doi_or_url": "https://doi.org/10.1177/1178646919873925",
+    "finding": "Stop the drugs, benzodiazepines, active cooling (fans, water sprays, ice packs), IV fluids; severe cases need paralysis and ventilation."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "Niacin is unsafe for serotonin syndrome.",
+  "kind": "claim",
+  "verdict": "No study of niacin in serotonin syndrome. Lab and rat work found niacin's flush releases serotonin and raises temperature through serotonin receptors, so the caution has a basis.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Papaliodis et al. 2008, Niacin flush involves PGD2 from mast cells and serotonin from platelets (J Pharmacol Exp Ther)",
+    "doi_or_url": "https://doi.org/10.1124/jpet.108.141333",
+    "finding": "A niacin compound released serotonin from human platelets; in a rat model of the flush, niacin raised blood serotonin, and serotonin blockers cut its temperature rise by 85-90% (prochlorperazine 90%, ketanserin 85%); the flush's warming, not shown to be core heat."
+   }
+  ],
+  "query": "(niacin OR \"nicotinic acid\") AND (\"serotonin syndrome\" OR \"serotonin toxicity\")"
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "DMSO is also not part of this branch.",
+  "kind": "generic",
+  "verdict": "Your choice of tools; nothing to check.",
+  "fate": "His view",
+  "sources": [],
+  "query": null
+ },
+ {
+  "section": "Suspected Serotonin Syndrome (SS)",
+  "sentence": "I would consider oral magnesium chloride when the person is fully alert, especially with MDMA-related jaw tension or muscle activity.",
+  "kind": "his experience",
+  "verdict": "Yours; no study found either way.",
+  "fate": "His experience",
+  "sources": [],
+  "query": "magnesium AND (\"serotonin syndrome\" OR \"serotonin toxicity\")"
+ },
+ {
+  "section": "My Acute Rescue Hierarchy (opening)",
+  "sentence": "In general it's good to try all these things in very low, increasing doses before they are needed in crisis.",
+  "kind": "his experience",
+  "verdict": "Your advice (from your round-1 answer).",
+  "fate": "His experience",
+  "sources": [],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Zeolite and Ferment in ZHoly3O",
+  "sentence": "Drinking a spoonful can also help, although it may cause itching in somebody low in histamine-processing bacteria, which then requires activated charcoal to reduce gut histamine.",
+  "kind": "claim",
+  "verdict": "Partly: ferments are high in histamine and itching is a sign of histamine intolerance, but the review puts the intolerance down mainly to low DAO, an enzyme of the gut lining; the bacteria it discusses are the ones that make histamine, in food. Charcoal bound histamine in fish sauce, untested in the gut (his experience). Changed to 'somebody who breaks down histamine poorly'.",
+  "fate": "Change",
+  "sources": [
+   {
+    "title": "Comas-Baste et al. 2020, Histamine intolerance: the current state of the art (Biomolecules; full text read)",
+    "doi_or_url": "https://doi.org/10.3390/biom10081181",
+    "finding": "Histamine intolerance comes mainly from low DAO, an enzyme of the gut lining (low DAO in 80% of 316 people with symptoms in one study it cites); the bacteria it discusses make histamine, in food; it doesn't discuss bacteria that break it down."
+   },
+   {
+    "title": "In et al. 2024, Activated carbon adsorption to reduce biogenic amines in fish sauce (Food Chem)",
+    "doi_or_url": "https://doi.org/10.1016/j.foodchem.2024.140169",
+    "finding": "Activated carbon cut histamine in fish sauce by 61% (food processing)."
+   }
+  ],
+  "query": "(\"activated charcoal\" OR \"activated carbon\") AND histamine AND (adsorption OR binding OR intestinal OR oral)",
+  "card": "W-ITCH"
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Zeolite and Ferment in ZHoly3O",
+  "sentence": "I mean ozonating water, never inhaling ozone gas.",
+  "kind": "claim",
+  "verdict": "Supported.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "US EPA, Ozone Generators that are Sold as Air Cleaners (updated Feb 2026)",
+    "doi_or_url": "https://www.epa.gov/indoor-air-quality-iaq/ozone-generators-are-sold-air-cleaners",
+    "finding": "'When inhaled, ozone can damage the lungs'; low amounts cause chest pain, coughing, breathlessness."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Zeolite and Ferment in ZHoly3O",
+  "sentence": "Zeolite adsorbs metals, which is part of why it is used for heavy-metal removal, and I don't want it sitting against a metal vessel or utensil before ingestion.",
+  "kind": "claim",
+  "verdict": "The metal-binding part is supported; keeping it off metal is your precaution (no study).",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Velarde et al. 2023, Adsorption of heavy metals on natural zeolites, review (Chemosphere)",
+    "doi_or_url": "https://doi.org/10.1016/j.chemosphere.2023.138508",
+    "finding": "Clinoptilolite is the natural zeolite most used to remove arsenic, cadmium, chromium, lead, mercury and nickel from water."
+   },
+   {
+    "title": "Dolanc et al. 2023, Long-term clinoptilolite and metal profiles in rats (Biology)",
+    "doi_or_url": "https://doi.org/10.3390/biology12020193",
+    "finding": "Oral clinoptilolite for 12 weeks lowered metals in rat kidney, bone and gut."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Actual Activated Charcoal",
+  "sentence": "Activated charcoal can help gut toxicity, but it adsorbs drugs.",
+  "kind": "claim",
+  "verdict": "Supported.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Zellner et al. 2019, The use of activated charcoal to treat intoxications (Dtsch Arztebl Int)",
+    "doi_or_url": "https://doi.org/10.3238/arztebl.2019.0311",
+    "finding": "Charcoal binds many drugs in the gut."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Actual Activated Charcoal",
+  "sentence": "It can also flatten or reduce a trip, so I don't treat charcoal and zeolite as interchangeable.",
+  "kind": "his experience",
+  "verdict": "Yours. Bearing on it: charcoal binds only what is still in the gut, so it acts mainly in the first hour after swallowing.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Bless et al. 2025, Acute recreational drug intoxication in the emergency setting, Swiss guide (Toxics; full text read)",
+    "doi_or_url": "https://doi.org/10.3390/toxics13121034",
+    "finding": "Charcoal is 'only effective within one hour of ingestion'."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Actual Activated Charcoal",
+  "sentence": "When the goal is to reduce drug absorption or stop a toxic gut situation, charcoal may be relevant.",
+  "kind": "claim",
+  "verdict": "Supported.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Zellner et al. 2019, The use of activated charcoal to treat intoxications (Dtsch Arztebl Int)",
+    "doi_or_url": "https://doi.org/10.3238/arztebl.2019.0311",
+    "finding": "Indicated for moderately severe to life-threatening poisoning, early."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Actual Activated Charcoal",
+  "sentence": "Charcoal can also adsorb medications somebody depends on. I would use it cautiously around necessary medicines and tell the medics if charcoal was taken.",
+  "kind": "claim",
+  "verdict": "Supported.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Knadler et al. 2011, Duloxetine: clinical pharmacokinetics and drug interactions (Clin Pharmacokinet)",
+    "doi_or_url": "https://doi.org/10.2165/11539240-000000000-00000",
+    "finding": "Activated charcoal lowers duloxetine levels."
+   },
+   {
+    "title": "Zellner et al. 2019, The use of activated charcoal to treat intoxications (Dtsch Arztebl Int)",
+    "doi_or_url": "https://doi.org/10.3238/arztebl.2019.0311",
+    "finding": "Charcoal adsorbs drugs."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Coffee Cherry",
+  "sentence": "That can be useful and healthy when planned, but I wouldn't reach for it first when somebody is already becoming manic.",
+  "kind": "his experience",
+  "verdict": "Yours, and the studies back the caution: coffee cherry contains caffeine, and caffeine has preceded manic switches in case reports.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Fitriansyah et al. 2026, Phytochemicals of Arabica coffee cascara (Pak J Biol Sci)",
+    "doi_or_url": "https://doi.org/10.3923/pjbs.2026.289.299",
+    "finding": "Cascara (dried coffee-cherry pulp and skin) contains caffeine."
+   },
+   {
+    "title": "Frigerio et al. 2020, Caffeine and clinical symptoms in bipolar disorder, systematic review (Bipolar Disord)",
+    "doi_or_url": "https://doi.org/10.1111/bdi.12990",
+    "finding": "Most case reports describe people with bipolar disorder switching to mania after caffeine; not conclusive."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Beach Morning Glory (Ipomoea pes-caprae)",
+  "sentence": "A tiny nibble can sometimes smooth psychedelic nausea and improve the trip without killing it, but the difference between that amount and a trip-aborting amount is narrow.",
+  "kind": "his experience",
+  "verdict": "Yours; no human study. Bearing on the plant's safety: a leaf infusion given repeatedly to mice was toxic.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Llerenas-Aguirre et al. 2026, Dose-dependent toxicity of an Ipomoea pes-caprae infusion in mice (Nutrients)",
+    "doi_or_url": "https://doi.org/10.3390/nu18142248",
+    "finding": "Read in full: mice with human breast tumors (nude mice) drank an Ipomoea pes-caprae leaf tea daily at 500 mg dried leaves/kg/day, scaled from the traditional tea of 12-14 dried leaves in a liter a day; 4 of 10 had blistering skin sores by day 10, 7 of 10 died by day 15 and the tea was stopped; a single 2000 mg/kg dose of the dried tea did 7 healthy mice no immediate harm; the authors warn sick, immunodeficient mice may be more vulnerable."
+   }
+  ],
+  "query": "\"Ipomoea pes-caprae\" AND (toxicity OR toxic OR safety OR alkaloid OR ergoline OR \"central nervous system\" OR antinociceptive)",
+  "card": "W-GLORY"
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Beach Morning Glory (Ipomoea pes-caprae)",
+  "sentence": "Even picking a leaf can affect me when the broken juicy part touches sensitive skin, especially under the fingernails.",
+  "kind": "his experience",
+  "verdict": "Yours.",
+  "fate": "His experience",
+  "sources": [],
+  "query": null,
+  "card": "W-GLORY"
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Beach Morning Glory (Ipomoea pes-caprae)",
+  "sentence": "A whole leaf can easily end the trip and, in my experience, may prevent tripping for days afterward.",
+  "kind": "his experience",
+  "verdict": "Yours; see the mouse toxicity study above.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Llerenas-Aguirre et al. 2026, Dose-dependent toxicity of an Ipomoea pes-caprae infusion in mice (Nutrients)",
+    "doi_or_url": "https://doi.org/10.3390/nu18142248",
+    "finding": "Repeated oral dosing toxic in mice."
+   }
+  ],
+  "query": null,
+  "card": "W-GLORY"
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Beach Morning Glory (Ipomoea pes-caprae)",
+  "sentence": "I do not yet have data showing that pes-caprae aborts MDMA.",
+  "kind": "his experience",
+  "verdict": "Yours.",
+  "fate": "His experience",
+  "sources": [],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Shungite, Aged Ozonated-Charcoal Water, or Boiled Charcoal Water",
+  "sentence": "Earlier in my experiments, **I made the mistake of directly smelling ozone gas** during a psychedelic state.",
+  "kind": "his experience",
+  "verdict": "Yours; the EPA backs not doing it.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "US EPA, Ozone Generators that are Sold as Air Cleaners (updated Feb 2026)",
+    "doi_or_url": "https://www.epa.gov/indoor-air-quality-iaq/ozone-generators-are-sold-air-cleaners",
+    "finding": "Inhaled ozone can damage the lungs."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Shungite, Aged Ozonated-Charcoal Water, or Boiled Charcoal Water",
+  "sentence": "I don't recommend inhaling ozone.",
+  "kind": "claim",
+  "verdict": "Supported.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "US EPA, Ozone Generators that are Sold as Air Cleaners (updated Feb 2026)",
+    "doi_or_url": "https://www.epa.gov/indoor-air-quality-iaq/ozone-generators-are-sold-air-cleaners",
+    "finding": "'When inhaled, ozone can damage the lungs'; may worsen asthma."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Shungite, Aged Ozonated-Charcoal Water, or Boiled Charcoal Water",
+  "sentence": "Shungite should not be drunk unless it has been properly washed of heavy metals.",
+  "kind": "claim",
+  "verdict": "A precaution with a basis: shungite holds lead and arsenic in its structure. It is also used to filter metals out of water and milk. No study found measures what gets into water it sits in, or what washing does, so 'unless washed' is neither backed nor contradicted.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Gusmao et al. 2017, Synergetic metals on carbocatalyst shungite (Chemistry)",
+    "doi_or_url": "https://doi.org/10.1002/chem.201703974",
+    "finding": "Shungite holds metals in its structure, including toxic lead and arsenic."
+   },
+   {
+    "title": "Skrypnik et al. 2021, Antioxidant, cytotoxic and adsorption properties of Karelian shungite (Antioxidants)",
+    "doi_or_url": "https://doi.org/10.3390/antiox10071121",
+    "finding": "Other authors propose shungite for water purification and call it environmentally safe."
+   },
+   {
+    "title": "Bazanova et al. 2026, Multistage adsorption-filtration of cow's milk for heavy metal and radionuclide removal (Foods)",
+    "doi_or_url": "https://doi.org/10.3390/foods15193413",
+    "finding": "Shungite (taurite) then activated carbon took about 90% of the lead and cadmium out of milk."
+   }
+  ],
+  "query": "shungite AND (water OR leaching OR release OR toxicity OR metals OR drinking)",
+  "recheck_2026_11_04": "Minenkova 2026 dropped: a study of how to measure shungite's metals (soaking before analysis raised what was detected), not of what gets into drinking water."
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "In my experience there is generally no harm in taking both or mixing them.",
+  "kind": "his experience",
+  "verdict": "Yours.",
+  "fate": "His experience",
+  "sources": [],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "Ozonated-charcoal water has what I consider a perfect safety profile; DMSO is a close second in my experience.",
+  "kind": "his experience",
+  "verdict": "Yours. Bearing on DMSO: 13 people took 7-15 g a day for months without serious side effects; its US label still lists histamine release, eye-lens changes in animals and periodic blood tests.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Ravid et al. 1982, Prolonged DMSO treatment in 13 patients with systemic amyloidosis (Ann Rheum Dis)",
+    "doi_or_url": "https://doi.org/10.1136/ard.41.6.587",
+    "finding": "Oral DMSO 7-15 g/day for 7-16 months: no serious side effects; nausea and breath odour the main complaints."
+   },
+   {
+    "title": "RIMSO-50 (dimethyl sulfoxide) prescribing information, Mylan, revised 3/2021 (Drugs.com)",
+    "doi_or_url": "https://www.drugs.com/pro/rimso-50.html",
+    "finding": "Label: lens changes in monkeys, dogs and rabbits; liver, kidney and blood tests every six months; histamine release."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "100% DMSO usually irritates skin on the upper half of the body.",
+  "kind": "claim",
+  "verdict": "The irritation is supported; 'upper half of the body' is your observation.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Coverly et al. 1998, Skin stinging, non-immunologic contact urticaria and irritation (Contact Dermatitis)",
+    "doi_or_url": "https://doi.org/10.1111/j.1600-0536.1998.tb05658.x",
+    "finding": "Neat DMSO gave the strongest skin reactions of the substances tested; stinging, itching or burning in 64-76% of 86 volunteers."
+   },
+   {
+    "title": "Ozkaya-Bayazit et al. 1998, Intermittent topical DMSO in macular and papular amyloidosis (Int J Dermatol)",
+    "doi_or_url": "https://doi.org/10.1046/j.1365-4362.1998.00600.x",
+    "finding": "Topical 50-100% DMSO: hives, peeling, burning, worse at the higher strength."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "Leaving 100% DMSO on the skin can crenate it, and the skin may take a week to look plump again.",
+  "kind": "his experience",
+  "verdict": "Yours; peeling skin is a documented effect of strong DMSO.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Ozkaya-Bayazit et al. 1998, Intermittent topical DMSO in macular and papular amyloidosis (Int J Dermatol)",
+    "doi_or_url": "https://doi.org/10.1046/j.1365-4362.1998.00600.x",
+    "finding": "Desquamation (peeling) among the side effects, more at 100%."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "DMSO can also burn dry mouth tissue, so the mouth should be moist first.",
+  "kind": "claim",
+  "verdict": "No study found on the mouth; on the stomach lining of rats, DMSO damaged the surface in 10 minutes, a third of it at 5% and nearly all at 100%; its burning on skin is documented.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Coverly et al. 1998, Skin stinging, non-immunologic contact urticaria and irritation (Contact Dermatitis)",
+    "doi_or_url": "https://doi.org/10.1111/j.1600-0536.1998.tb05658.x",
+    "finding": "Burning and stinging on skin are common with neat DMSO."
+   },
+   {
+    "title": "Sørbye et al. 1993, Gastric mucosal injury caused by dimethyl sulfoxide in rats (Dig Dis Sci)",
+    "doi_or_url": "https://doi.org/10.1007/BF01296073",
+    "finding": "DMSO left in the rat stomach for 10 minutes damaged the surface of 33% of the corpus mucosa at 5%, 36% at 10% and 97% at 100%: \"a gastric irritant\"."
+   }
+  ],
+  "query": "(\"dimethyl sulfoxide\" OR DMSO) AND (oral mucosa OR mouth OR mucositis OR \"oral rinse\") AND (irritation OR burning OR burn)"
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "when drinking DMSO, dilute it in water, juice, or milk and sip gradually. Sensitivity varies.",
+  "kind": "claim",
+  "verdict": "Supported: nausea is the main complaint with oral DMSO.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Ravid et al. 1982, Prolonged DMSO treatment in 13 patients with systemic amyloidosis (Ann Rheum Dis)",
+    "doi_or_url": "https://doi.org/10.1136/ard.41.6.587",
+    "finding": "'Mild nausea and an unpleasant breath odour' were the main complaints."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "DMSO reduces how long I sleep when I take too much, take it too late, or use it over too many consecutive days.",
+  "kind": "his experience",
+  "verdict": "Yours.",
+  "fate": "His experience",
+  "sources": [],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "It builds up past a threshold that seems to differ between people.",
+  "kind": "his experience",
+  "verdict": "Yours; no study found on build-up.",
+  "fate": "His experience",
+  "sources": [],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "This is [proven in rats](https://www.sciencedirect.com/science/article/abs/pii/S0378427405000810).",
+  "kind": "claim",
+  "verdict": "The cited rat study found lighter sleep (more light, less deep sleep) for 3 hours after one injection of the two higher doses; not shorter sleep, late doses or build-up. Changed to 'In rats, higher doses made sleep lighter.'",
+  "fate": "Change",
+  "sources": [
+   {
+    "title": "Cavas et al. 2005, Behavioural effects of DMSO: changes in sleep architecture in rats (Toxicol Lett; the guide's sciencedirect link)",
+    "doi_or_url": "https://doi.org/10.1016/j.toxlet.2005.02.003",
+    "finding": "Single injections: 5% and 10% no effect; 15% and 20% more light and less deep slow-wave sleep over 3 hours."
+   }
+  ],
+  "query": null,
+  "card": "W-SLEEP"
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "above a certain dose you may smell like sulfur.",
+  "kind": "claim",
+  "verdict": "Supported (the label says garlic-like, on breath and skin, up to 72 hours).",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "RIMSO-50 (dimethyl sulfoxide) prescribing information, Mylan, revised 3/2021 (Drugs.com)",
+    "doi_or_url": "https://www.drugs.com/pro/rimso-50.html",
+    "finding": "Garlic-like taste within minutes; odor on breath and skin may remain 72 hours."
+   },
+   {
+    "title": "Ravid et al. 1982, Prolonged DMSO treatment in 13 patients with systemic amyloidosis (Ann Rheum Dis)",
+    "doi_or_url": "https://doi.org/10.1136/ard.41.6.587",
+    "finding": "Breath odour a main complaint."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "I don't smell when I put it into milk.",
+  "kind": "his experience",
+  "verdict": "Yours.",
+  "fate": "His experience",
+  "sources": [],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "Don't put it on dirty skin; it can carry chemicals inward.",
+  "kind": "claim",
+  "verdict": "Supported: carrying other substances through skin is what DMSO is used for.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Marren 2011, DMSO: an effective penetration enhancer for topical administration of NSAIDs (Phys Sportsmed)",
+    "doi_or_url": "https://doi.org/10.3810/psm.2011.09.1923",
+    "finding": "DMSO is an established penetration enhancer for both water- and fat-soluble drugs."
+   },
+   {
+    "title": "RIMSO-50 (dimethyl sulfoxide) prescribing information, Mylan, revised 3/2021 (Drugs.com)",
+    "doi_or_url": "https://www.drugs.com/pro/rimso-50.html",
+    "finding": "After topical application DMSO is absorbed and spread through tissues; it potentiates other medications."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "Don't nebulize too much DMSO when your lungs are full of smoking-related tar, because it can carry those substances into the blood too quickly. Weakness is an early symptom.",
+  "kind": "claim",
+  "verdict": "No study found of inhaled DMSO carrying tar into the blood, or of weakness from it. DMSO dissolves cigarette smoke particles (labs use it to extract them), but in sheep, nebulized DMSO after smoke inhalation protected the lungs. Cut, unless it's his experience.",
+  "fate": "Cut",
+  "sources": [
+   {
+    "title": "Huang et al. 2013, DMSO-soluble cigarette smoke particles alter the expression of endothelin B receptor in rat coronary artery (J Vasc Res)",
+    "doi_or_url": "https://doi.org/10.1159/000350866",
+    "finding": "Labs extract cigarette smoke particles with DMSO (\"DMSO-soluble smoke particles\")."
+   },
+   {
+    "title": "Brown et al. 1988, Dimethylsulfoxide with heparin in the treatment of smoke inhalation injury (J Burn Care Rehabil)",
+    "doi_or_url": "https://doi.org/10.1097/00004630-198801000-00007",
+    "finding": "Sheep after smoke inhalation: all 7 controls dead by 72 hours, all 7 given DMSO with heparin survived; 4 of 6 on DMSO alone and 2 of 6 on heparin died."
+   },
+   {
+    "title": "Kimura et al. 1988, Treatment of smoke-induced pulmonary injury with nebulized dimethylsulfoxide (Circ Shock), no DOI in PubMed",
+    "doi_or_url": "https://pubmed.ncbi.nlm.nih.gov/2458858/",
+    "finding": "Nebulized DMSO with heparin into the trachea of sheep after smoke injury: much smaller rises in lung fluid."
+   }
+  ],
+  "query": "(nebulized OR inhaled OR inhalation OR aerosol) \"dimethyl sulfoxide\" human lung; (\"dimethyl sulfoxide\"[Title] OR DMSO[Title]) AND (inhalation[Title] OR inhaled[Title] OR nebulized[Title] OR nebulised[Title] OR aerosol[Title] OR aerosolized[Title] OR lung[Title] OR pulmonary[Title])",
+  "card": "W-TAR"
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "Don't take it with drugs that should not absorb rapidly, including corticosteroids and NSAIDs.",
+  "kind": "claim",
+  "verdict": "Both classes it names are given with DMSO on purpose (an FDA-approved diclofenac solution contains DMSO; DMSO with triamcinolone is a bladder treatment tested in a randomized trial). The rule holds: DMSO's label says 'Some data indicate that dimethyl sulfoxide potentiates other concomitantly administered medications'. Sulindac's label warns against DMSO. Changed to 'Don't take it with drugs that should not absorb rapidly: DMSO can strengthen other medicines taken with it.'",
+  "fate": "Change",
+  "sources": [
+   {
+    "title": "Sulindac 200 mg tablets, Summary of Product Characteristics, Mylan UK, updated 01-Mar-2023 (medicines.org.uk)",
+    "doi_or_url": "https://www.medicines.org.uk/emc/product/8783/smpc/print",
+    "finding": "'Concurrent use of dimethyl sulfoxide and sulindac is not recommended'."
+   },
+   {
+    "title": "Sulindac US prescribing information, drug interactions page (MedLibrary.org reproduction)",
+    "doi_or_url": "https://medlibrary.org/lib/rx/meds/sulindac/page/5/",
+    "finding": "'DMSO should not be used with sulindac'; lowers its active form; peripheral neuropathy reported."
+   },
+   {
+    "title": "Diclofenac sodium topical solution 2% w/w, FDA label, Lupin, rev. Oct 2025 (FDALabel)",
+    "doi_or_url": "https://nctr-crs.fda.gov/fdalabel/services/spl/set-ids/609c5344-9c97-4fa8-ad53-d0f622ce64ec/spl-doc",
+    "finding": "DMSO is an ingredient of the FDA-approved diclofenac topical solution for knee osteoarthritis."
+   },
+   {
+    "title": "Marren 2011, DMSO: an effective penetration enhancer for topical administration of NSAIDs (Phys Sportsmed)",
+    "doi_or_url": "https://doi.org/10.3810/psm.2011.09.1923",
+    "finding": "DMSO is used as the penetration enhancer in the US-approved diclofenac solution (author worked for its maker)."
+   },
+   {
+    "title": "Moss et al. 2023, RCT of bladder DMSO with triamcinolone vs BTH in interstitial cystitis (Neurourol Urodyn)",
+    "doi_or_url": "https://doi.org/10.1002/nau.25142",
+    "finding": "Randomised trial of 6 weekly bladder instillations of DMSO with triamcinolone."
+   },
+   {
+    "title": "RIMSO-50 (dimethyl sulfoxide) prescribing information, Mylan, revised 3/2021 (Drugs.com)",
+    "doi_or_url": "https://www.drugs.com/pro/rimso-50.html",
+    "finding": "'potentiates other concomitantly administered medications'."
+   }
+  ],
+  "query": null,
+  "card": "W-NSAID"
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "With harmalas, don't put the harmala in the DMSO or take them at exactly the same time; taking them a bit apart is totally fine, and the point is to take DMSO if you've already absorbed the harmalas and the aya is too crazy.",
+  "kind": "his experience",
+  "verdict": "Your answer from round 1; no study of DMSO with harmalas; it fits DMSO's carrying effect.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Marren 2011, DMSO: an effective penetration enhancer for topical administration of NSAIDs (Phys Sportsmed)",
+    "doi_or_url": "https://doi.org/10.3810/psm.2011.09.1923",
+    "finding": "DMSO speeds other substances through skin."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "Don't combine it with cholinergic drugs because DMSO is also cholinergic, although I haven't found anecdotes of this causing a real problem.",
+  "kind": "claim",
+  "verdict": "Supported in the lab: DMSO slows the enzyme that breaks down acetylcholine. No human interaction report found. Could say 'in the lab'.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Obara et al. 2023, DMSO enhances acetylcholine contractions in rat bladder by inhibiting acetylcholinesterase (Biol Pharm Bull)",
+    "doi_or_url": "https://doi.org/10.1248/bpb.b22-00791",
+    "finding": "DMSO 0.5-5% inhibited human acetylcholinesterase in a dish and strengthened acetylcholine contractions in rat bladder."
+   },
+   {
+    "title": "Kubota et al. 1998, Enhancing effect of DMSO on nociceptive transmission in newborn rat spinal cord (Eur J Pharmacol)",
+    "doi_or_url": "https://doi.org/10.1016/s0014-2999(98)00313-6",
+    "finding": "DMSO 0.3-1% enhanced spinal transmission in newborn rats, partly by inhibiting cholinesterase."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "Supplement extra choline because DMSO depletes it.",
+  "kind": "claim",
+  "verdict": "No study found that DMSO lowers choline in people or animals; the nearest, in a dish of rat nerve endings, DMSO at 2-10% slowed choline uptake. Cut, unless it's his experience.",
+  "fate": "Cut",
+  "sources": [
+   {
+    "title": "North & Mrak 1989, Synaptosomal uptake of choline and of gamma-aminobutyric acid: effects of ethanol and of dimethylsulfoxide (Neurotoxicology), no DOI in PubMed",
+    "doi_or_url": "https://pubmed.ncbi.nlm.nih.gov/2626218/",
+    "finding": "DMSO at 2-10% v/v inhibited rat synaptosomal choline uptake in a dish."
+   }
+  ],
+  "query": "dimethyl sulfoxide choline depletion; (\"dimethyl sulfoxide\"[Title] OR DMSO[Title]) AND (choline[Title] OR \"phosphatidylcholine\"[Title] OR acetylcholine[Title])",
+  "card": "W-CHOLINE"
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "DMSO has produced both anticonvulsant and proconvulsant effects depending on dose and seizure model.",
+  "kind": "claim",
+  "verdict": "Supported.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Carletti et al. 2013, Antiepileptic effect of DMSO in a rat model of temporal lobe epilepsy (Neurosci Lett)",
+    "doi_or_url": "https://doi.org/10.1016/j.neulet.2013.04.031",
+    "finding": "Less electrically induced seizure activity in a rat temporal-lobe model."
+   },
+   {
+    "title": "Kovacs et al. 2011, Effect of DMSO on absence-like epileptic activity of WAG/Rij rats (J Neurosci Methods)",
+    "doi_or_url": "https://doi.org/10.1016/j.jneumeth.2011.02.005",
+    "finding": "More absence seizures at high doses in WAG/Rij rats."
+   },
+   {
+    "title": "Ataseven et al. 2017, Neurotoxicity associated with DMSO in stem cell transplantation (J Pediatr Hematol Oncol)",
+    "doi_or_url": "https://doi.org/10.1097/MPH.0000000000000784",
+    "finding": "Seizures after DMSO-preserved stem-cell infusions are rare but reported."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "I consider it a plausible adjunct for excitotoxic or temporal-lobe-type seizure activity, not a proven universal seizure rescue.",
+  "kind": "his experience",
+  "verdict": "Your judgment; matches the rat studies.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Carletti et al. 2013, Antiepileptic effect of DMSO in a rat model of temporal lobe epilepsy (Neurosci Lett)",
+    "doi_or_url": "https://doi.org/10.1016/j.neulet.2013.04.031",
+    "finding": "Temporal-lobe model in rats: less electrically induced seizure activity."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "It may worsen a cluster headache, even though rubbing DMSO – especially with magnesium chloride – on the head can alleviate tension headaches.",
+  "kind": "claim",
+  "verdict": "No study of DMSO and cluster headache. A thin thread: histamine injections set off cluster attacks, and DMSO's label says it 'can initiate the liberation of histamine'. The line says only 'may', which is what a thin thread supports.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Bogucki 1990, Nitroglycerin and histamine provoked cluster headache attacks (Cephalalgia)",
+    "doi_or_url": "https://doi.org/10.1046/j.1468-2982.1990.1002071.x",
+    "finding": "Histamine injections set off cluster attacks, as nitroglycerin does."
+   },
+   {
+    "title": "RIMSO-50 (dimethyl sulfoxide) prescribing information, Mylan, revised 3/2021 (Drugs.com)",
+    "doi_or_url": "https://www.drugs.com/pro/rimso-50.html",
+    "finding": "'can initiate the liberation of histamine'."
+   }
+  ],
+  "query": "(dimethyl sulfoxide OR DMSO) AND \"cluster headache\""
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "It may release histamine in some people.",
+  "kind": "claim",
+  "verdict": "Supported by the drug label and animal work, though two human studies didn't find histamine behind DMSO's skin or bladder effects.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "RIMSO-50 (dimethyl sulfoxide) prescribing information, Mylan, revised 3/2021 (Drugs.com)",
+    "doi_or_url": "https://www.drugs.com/pro/rimso-50.html",
+    "finding": "'can initiate the liberation of histamine'; occasional hypersensitivity with topical use."
+   },
+   {
+    "title": "Swanston et al. 1982, Cutaneous histamine-releasing activity of DMSO in guinea pigs (Toxicol Lett)",
+    "doi_or_url": "https://doi.org/10.1016/0378-4274(82)90272-7",
+    "finding": "Guinea-pig ear swelling from DMSO was blocked by antihistamines."
+   },
+   {
+    "title": "Lahti 1987, Terfenadine does not inhibit non-immunologic contact urticaria (Contact Dermatitis)",
+    "doi_or_url": "https://doi.org/10.1111/j.1600-0536.1987.tb01429.x",
+    "finding": "In 20 people an antihistamine didn't block DMSO's skin wheal."
+   },
+   {
+    "title": "Stout et al. 1995, DMSO does not trigger urine histamine release in interstitial cystitis (Urology)",
+    "doi_or_url": "https://doi.org/10.1016/S0090-4295(99)80295-7",
+    "finding": "Bladder DMSO didn't raise urine histamine in 12 women."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > DMSO",
+  "sentence": "Use caution with MCAS.",
+  "kind": "claim",
+  "verdict": "Follows from the histamine line.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "RIMSO-50 (dimethyl sulfoxide) prescribing information, Mylan, revised 3/2021 (Drugs.com)",
+    "doi_or_url": "https://www.drugs.com/pro/rimso-50.html",
+    "finding": "Histamine release; hypersensitivity reactions."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Niacin",
+  "sentence": "Flushing niacin has effectively aborted trips for me and friends, although I dislike it compared with beach morning glory.",
+  "kind": "his experience",
+  "verdict": "Yours. Bearing on it: Agnew and Hoffer reported nicotinic acid modifying LSD's effects in 1955 (title only in PubMed).",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Agnew & Hoffer 1955, Nicotinic acid modified lysergic acid diethylamide psychosis (J Ment Sci; title only, no abstract)",
+    "doi_or_url": "https://doi.org/10.1192/bjp.101.422.12",
+    "finding": "Title: 'Nicotinic acid modified lysergic acid diethylamide psychosis'; no abstract."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Niacin",
+  "sentence": "A vitamin is not automatically harmless.",
+  "kind": "generic",
+  "verdict": "True; nothing specific.",
+  "fate": "Generic (the humanizing)",
+  "sources": [],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Niacin",
+  "sentence": "itchy sunburn-like heat. This is normal, although some people find it intolerable and others enjoy it.",
+  "kind": "claim",
+  "verdict": "Supported.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "McKenney et al. 1994, Sustained- vs immediate-release niacin, RCT (JAMA; no DOI listed in PubMed)",
+    "doi_or_url": "https://pubmed.ncbi.nlm.nih.gov/8309029/",
+    "finding": "Flushing was a main reason people quit immediate-release niacin."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Niacin",
+  "sentence": "Heartburn in sensitive stomachs or after too much at once.",
+  "kind": "claim",
+  "verdict": "Supported: stomach symptoms are a known niacin effect (in this trial, mainly with the slow-release form).",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "McKenney et al. 1994, Sustained- vs immediate-release niacin, RCT (JAMA; no DOI listed in PubMed)",
+    "doi_or_url": "https://pubmed.ncbi.nlm.nih.gov/8309029/",
+    "finding": "Stomach symptoms were the main reason people quit sustained-release niacin."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Niacin",
+  "sentence": "Drowsiness, usually with terrible sleep quality.",
+  "kind": "claim",
+  "verdict": "Drowsiness has some support (fatigue in a human trial; more sleep in mice); 'terrible sleep quality' is yours.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "McKenney et al. 1994, Sustained- vs immediate-release niacin, RCT (JAMA; no DOI listed in PubMed)",
+    "doi_or_url": "https://pubmed.ncbi.nlm.nih.gov/8309029/",
+    "finding": "Fatigue was a common reason for quitting both forms."
+   },
+   {
+    "title": "Szentirmai & Kapas 2019, Nicotinic acid promotes sleep through prostaglandin synthesis in mice (Sci Rep)",
+    "doi_or_url": "https://doi.org/10.1038/s41598-019-53648-7",
+    "finding": "Nicotinic acid made mice sleep more and lowered body temperature."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Niacin",
+  "sentence": "Higher or repeated doses can create real risk, especially with liver problems, alcohol, medications, or sensitive physiology.",
+  "kind": "claim",
+  "verdict": "The liver risk is well documented; 'sensitive physiology' is generic.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "McKenney et al. 1994, Sustained- vs immediate-release niacin, RCT (JAMA; no DOI listed in PubMed)",
+    "doi_or_url": "https://pubmed.ncbi.nlm.nih.gov/8309029/",
+    "finding": "Liver toxicity in 52% on sustained-release niacin at up to 3 g/day; immediate-release needs monitoring too."
+   },
+   {
+    "title": "Meyers et al. 2003, Free nicotinic acid content of over-the-counter niacin (Ann Intern Med)",
+    "doi_or_url": "https://doi.org/10.7326/0003-4819-139-12-200312160-00009",
+    "finding": "Some sustained-release brands are liver-toxic."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Niacin",
+  "sentence": "Niacinamide sometimes relaxes people and sometimes creates hyperfocus, depending on their state.",
+  "kind": "his experience",
+  "verdict": "Yours.",
+  "fate": "His experience",
+  "sources": [],
+  "query": null
+ },
+ {
+  "section": "My Acute Rescue Hierarchy > Niacin",
+  "sentence": "Avoid sustained-release niacin and the useless non-flush hexanicotinate form.",
+  "kind": "claim",
+  "verdict": "Supported.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "McKenney et al. 1994, Sustained- vs immediate-release niacin, RCT (JAMA; no DOI listed in PubMed)",
+    "doi_or_url": "https://pubmed.ncbi.nlm.nih.gov/8309029/",
+    "finding": "Sustained-release niacin hepatotoxic in 12 of 23."
+   },
+   {
+    "title": "Meyers et al. 2003, Free nicotinic acid content of over-the-counter niacin (Ann Intern Med)",
+    "doi_or_url": "https://doi.org/10.7326/0003-4819-139-12-200312160-00009",
+    "finding": "No-flush products contained no free nicotinic acid."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Some Remedies Require More Caution",
+  "sentence": "Useful substances can still be poor rescue tools when somebody is already destabilized.",
+  "kind": "generic",
+  "verdict": "Sound framing.",
+  "fate": "Generic (the humanizing)",
+  "sources": [],
+  "query": null
+ },
+ {
+  "section": "Some Remedies Require More Caution",
+  "sentence": "From the outside that may look manic, and it could destabilize somebody prone to mania or without meditation training.",
+  "kind": "his experience",
+  "verdict": "Yours; no study found either way.",
+  "fate": "His experience",
+  "sources": [],
+  "query": "\"humic acid\" AND (oral OR ingestion OR supplement) AND (human OR safety OR toxicity OR psychiatric OR brain)"
+ },
+ {
+  "section": "Some Remedies Require More Caution",
+  "sentence": "That may be therapeutic in the right context, but it is not a casual rescue tool.",
+  "kind": "his experience",
+  "verdict": "Yours (cinnamon).",
+  "fate": "His experience",
+  "sources": [],
+  "query": null
+ },
+ {
+  "section": "Some Remedies Require More Caution",
+  "sentence": "I would also be extremely careful with *Acacia confusa* eaten with *Mimosa hostilis*.",
+  "kind": "his experience",
+  "verdict": "Yours.",
+  "fate": "His experience",
+  "sources": [],
+  "query": null
+ },
+ {
+  "section": "Some Remedies Require More Caution",
+  "sentence": "– especially male iboga – potentiates many drugs and can be dangerous.",
+  "kind": "claim",
+  "verdict": "Supported: ibogaine has caused deaths, alters the breakdown of other drugs, and strengthened cocaine and morphine in animals. 'Male iboga' is yours.",
+  "fate": "Keep",
+  "sources": [
+   {
+    "title": "Litjens & Brunt 2016, How toxic is ibogaine? (Clin Toxicol)",
+    "doi_or_url": "https://doi.org/10.3109/15563650.2016.1138226",
+    "finding": "27 deaths; QT prolongation and arrhythmias even without heart disease; CYP2D6 interactions."
+   },
+   {
+    "title": "Szumlinski et al. 1999, Ibogaine pretreatment increases the potency of cocaine in rats (Psychopharmacology)",
+    "doi_or_url": "https://doi.org/10.1007/s002130051053",
+    "finding": "Ibogaine pretreatment strengthened cocaine's stimulant effects in rats."
+   },
+   {
+    "title": "Sunder Sharma & Bhargava 1998, Enhancement of morphine antinociception by ibogaine and noribogaine (Pharmacology)",
+    "doi_or_url": "https://doi.org/10.1159/000028246",
+    "finding": "Ibogaine and noribogaine strengthened morphine's pain relief in tolerant mice."
+   }
+  ],
+  "query": null
+ },
+ {
+  "section": "Some Remedies Require More Caution",
+  "sentence": "A low amount combined well for me; doubling it became dangerously intense. I include that only as a warning.",
+  "kind": "his experience",
+  "verdict": "Yours.",
+  "fate": "His experience",
+  "sources": [
+   {
+    "title": "Litjens & Brunt 2016, How toxic is ibogaine? (Clin Toxicol)",
+    "doi_or_url": "https://doi.org/10.3109/15563650.2016.1138226",
+    "finding": "Toxicity rises with dose and with other medicines."
+   }
+  ],
+  "query": null
+ }
+]

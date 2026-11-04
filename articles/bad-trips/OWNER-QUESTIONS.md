@@ -1,15 +1,18 @@
 # Bad Trips guide: questions for Joel
 
-Updated 2026-11-04 (turn 5, his message of 11:35 UTC in). Status: **open** = waiting on you, **next** = I do it once you
+Updated 2026-11-04 (turn 6, 13:19 UTC: the warnings check is done). Status: **open** = waiting on you, **next** = I do it once you
 answer, **done** = answered.
 Answer under an item's number in a message.
 
 ## Open
 
-1. **next — This guide's medical warnings, checked against the research** before they're humanized (the shared rule
-   since the agmatine check, gate E344; your words of 3 November: "some of those warnings i'm not even sure about i think
-   many came from old stupid gemini models"). What has nothing behind it comes to you as a cut, with its sources; what
-   only your experience can decide comes as a question.
+1. **open — Round 3: the guide's warnings, checked against the research** (your words of 3 November: "some of those
+   warnings i'm not even sure about i think many came from old stupid gemini models"). Of 149 warning lines, 93 have
+   something behind them, 38 are your experience, 5 are your views and 5 are generic lines for the humanizing; the
+   other 9 are cards on round 3's page (Bad Trips Guide, Round 3, in your claude.ai artifacts; the cards as text:
+   [REVIEW-R03.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r03/REVIEW-R03.md)).
+   Two are cuts unless they're your experience: say so on the card and they stay. The whole check:
+   [WARNINGS-CHECK.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t05-warnings/WARNINGS-CHECK.md).
 
 ## Your tasks
 

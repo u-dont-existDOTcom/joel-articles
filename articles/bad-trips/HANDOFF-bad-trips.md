@@ -15,6 +15,13 @@ https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips
 
 ## START HERE
 
+- **2026-11-04, turn 6 (13:19 UTC, no new message: the warnings check finished).** The guide's 149 warning lines are
+  checked against the research (gate E344; `experiments/t05-warnings/WARNINGS-CHECK.md`), every source opened twice,
+  the second time by someone other than the helper who found it. 9 cards are on round 3's page (Bad Trips Guide, Round
+  3, https://claude.ai/artifact/3FcwLgzCtnfBeH2xHG6BXq; cards as text in `review/r03/REVIEW-R03.md`; built by
+  `review/r03/build_r03.py` from `GUIDE-SO-FAR.md`). **First:** his round-3 answers in with an `apply_r03.py` like round
+  2's (CURRENT-STATE.md's next step says which links move). **Then:** the whole-guide Pangram check of the long part on
+  a temporary draft, and the humanize pass. Version 8 of the app still waits for him.
 - **2026-11-04, turn 5 (his message of 11:35 UTC).** "rewrite web app to match the guide if you can, but if you're
   blockewd by guardrails then keep checlist int he guide" and "don't need to update the post until we finish". The app
   is rewritten (`experiments/t05-webapp/`: version 8, 44 replacements in the guide's words, tested against the live

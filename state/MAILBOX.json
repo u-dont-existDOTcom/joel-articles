@@ -1227,6 +1227,45 @@
     }
    ],
    "recorded_utc": "2026-11-04T12:27Z"
+  },
+  {
+   "turn": "2026-11-04T13:19Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items: suggested-fixes/joel-articles/ still holds 2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in docs/suggested-fixes-ledger.md; the root is unchanged at c5c9951 (local clone, fetched 13:22 UTC)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 288 (Inner Child turns 120 and 121, lane_push's main check) merged at 12:37 UTC and merged into this branch (1a2831dd); open: 290 (neuro de-armoring, lesson E350) and 291 (gut, lesson E351 and a merge driver for the mailbox), both changing AGENTS.md and docs/HUMANIZATION-GATE.md; no new issues, comments or reviews since 11:30 UTC (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "this lane's handoff note and questions page last changed by this session (ccd28a08, 12:24 UTC); the laptop's handoff note last written at 12:25:30 UTC, by this session's turn-5 update"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "the warnings-check agent's report (the check E344 asks for, started last turn); no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "the guide's warnings check (E344), done by an agent",
+     "outcome": "its decisive sources re-opened by me before anything goes to Joel; the changes go to him as cards on a round-3 marking page"
+    },
+    {
+     "item": "lessons E350 and E351 in open pull requests 290 and 291 (not yet in main)",
+     "outcome": "read; E351 (each sentence follows from the one before, and nothing comes before the reader wants it) applied to the cards' wordings; E350 applies once the humanize pass reaches Low windows"
+    }
+   ],
+   "recorded_utc": "2026-11-04T13:23Z"
   }
  ]
 }
