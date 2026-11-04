@@ -1,0 +1,27 @@
+{
+ "b082": {
+  "headline": "AI Detected",
+  "fraction_ai": 0.3028659522533417,
+  "words": 151,
+  "windows": [
+   "Human, High, 28",
+   "Human, Medium, 29",
+   "AI, Low, 42",
+   "AI, Low, 56"
+  ],
+  "utc": "2026-11-04T11:00:36Z",
+  "link": "https://www.pangram.com/history/e36c7366-cdce-4f67-a1bf-cd61514e9fd5"
+ },
+ "b083": {
+  "headline": "Human Written",
+  "fraction_ai": 3.332886322482409e-08,
+  "words": 95,
+  "windows": [
+   "Human, High, 31",
+   "Human, Medium, 7",
+   "Human, Low, 61"
+  ],
+  "utc": "2026-11-04T11:00:40Z",
+  "link": "https://www.pangram.com/history/bdc81685-fdd0-420e-b74f-1a196b1ec606"
+ }
+}

@@ -47,6 +47,7 @@ import argparse, datetime, hashlib, json, pathlib, re, sys
 REPO = pathlib.Path(__file__).resolve().parents[2]
 LANES = REPO / 'tools' / 'humanization' / 'pangram_lanes.json'
 CAPS = {'sentence': 6, 'heading': 6, 'paragraph': 6, 'pair': 6, 'section': 2, 'stretch': 2, 'article': 2}
+PANEL_SCOPES = ('paragraph', 'pair')   # E346: read AI twice, the tell panel before the next try
 
 
 def cap_for(scope, detector=None):
@@ -153,6 +154,29 @@ def refusals(recs, rec):
     if done and done[-1]['result'].get('verdict') != 'Human' and not (rec.get('diagnosis') or '').strip():
         out.append('the last try of lineage %s read %s: give the specific diagnosis this try tests (what changed, why it should '
                    'help, what counts as better)' % (rec['lineage'], done[-1]['result'].get('verdict')))
+    # Joel, 2026-11-04 10:01 UTC: "just work on one paragraph at a time so you can see whether your strat is working. i mean
+    # you could go for a whole section if you feel confident, but then you'd still need to narrow it down to para level if it
+    # doesn't work". The neuro de-armoring lane's round 2 tried its stretches a second time instead (E343).
+    if scope in ('section', 'stretch') and done and done[-1]['result'].get('verdict') != 'Human' \
+            and not (rec.get('narrowed') or '').strip() and not (rec.get('after_fix') or '').strip():
+        out.append('the last try of %s %s read %s: narrow it to its paragraphs before trying it again, each paragraph checked '
+                   'by itself (Joel, 2026-11-04: "you\'d still need to narrow it down to para level if it doesn\'t work"); '
+                   'then give --narrowed with the paragraph lineages checked since' % (scope, rec['lineage'],
+                                                                                    done[-1]['result'].get('verdict')))
+    # E346 (the neuro de-armoring lane, 2026-11-04): a paragraph that has read AI twice goes to the tell panel before its next
+    # try. Its evidence paragraph and Scott's paragraph each took four tries of mine before the panel ran (E253 (Inner
+    # Child) asks for it only before a help request), so the writer of another family (E256) came at the sixth and last
+    # try: with the panel's tells fixed the evidence paragraph read Human at its fifth, and Codex's rewrite carried Scott's.
+    failed = [p for p in done if p['result'].get('verdict') != 'Human']
+    if scope in PANEL_SCOPES and len(failed) >= 2:
+        panel = (rec.get('panel') or '').strip()
+        f = pathlib.Path(panel) if panel else None
+        if not panel:
+            out.append('lineage %s has read AI or Mixed %d times: its next try goes through the tell panel first (fresh '
+                       'readers with tools/humanization/tell_panel.py; E253 (Inner Child), E346): fix the sentences they agree '
+                       'on, then give --panel with the PANEL.md it wrote' % (rec['lineage'], len(failed)))
+        elif not (f.is_file() or (REPO / panel).is_file()):
+            out.append('--panel %s: no such file (the PANEL.md that tell_panel.py summarize writes)' % panel)
     return out
 
 
@@ -473,7 +497,8 @@ def cmd_predict(a):
            'scope': a.scope, 'sha256': sha, 'words': words, 'call': a.call, 'chance': a.chance, 'tells': a.tells or [],
            'human_tells': a.human_tells or [], 'diagnosis': a.diagnosis, 'decides': a.decides, 'key': a.key, 'batch': a.batch,
            'detector': a.detector, 'shading_expected': a.shading_expected, 'emulate_share': a.emulate_share,
-           'after_fix': a.after_fix, 'paid_ok': a.paid_ok, 'try': len(line) + 1}
+           'after_fix': a.after_fix, 'paid_ok': a.paid_ok, 'narrowed': a.narrowed, 'panel': a.panel,
+           'try': len(line) + 1}
     why = refusals(recs, rec)
     if why:
         print('REFUSED: ' + '\n  '.join(why), file=sys.stderr)
@@ -648,6 +673,10 @@ def main(argv=None):
     p.add_argument('--shading-expected')
     p.add_argument('--emulate-share', type=float)
     p.add_argument('--paid-ok', help="Joel's words allowing a text over 1,200 words through the paid API (E218, E325)")
+    p.add_argument('--narrowed', help='a section or stretch whose last try read AI or Mixed: the paragraph lineages checked '
+                   'since, each by itself (Joel, 2026-11-04: narrow it down to para level first; E343)')
+    p.add_argument('--panel', help='a paragraph that has read AI or Mixed twice: the tell panel\'s PANEL.md on the text, '
+                   'whose agreed tells this try fixes (tell_panel.py; E346)')
     p.add_argument('--after-fix', help='a section past its two tries: what the fix changed (his answer 28a, one more check '
                    'of the whole section after each fix)')
     p.set_defaults(fn=cmd_predict)

@@ -22,7 +22,7 @@ Every paragraph and every section reads Human in Pangram, with the meaning kept 
 
 ## Current checkpoint
 
-His three versions (Neuro De-Armoring Cards, 3 November; his answers of 17:48 UTC) are in `humanize/HUMANIZED-SO-FAR.md` (6db92b7a), which is otherwise his post as it stands; his agmatine paragraph by itself reads Human Written. Round 2 his way (`humanize/fix-20261103/r2his/`): the science reached 19.8% AI; the warnings and doses read 100% AI every way tried (gate E336), so question 2 asks him how those are done. Nothing has been changed in his post yet.
+`humanize/HUMANIZED-SO-FAR.md` (e5ead544, after his answer 3a of 2026-11-04 10:39 UTC) is his post with the standard typographic swap and four paragraphs of his in: his three versions of 3 November and his "Who this is for" of 4 November, which reads Human (High) by itself. The article's warnings are checked against the research (`humanize/fix-20261104/warnings/WARNINGS-CHECK.md`); the cuts go to him as cards after question 4. Nothing has been changed in his post yet.
 
 ## Remaining
 
@@ -30,7 +30,7 @@ The AI windows of every section, rewritten and checked; his cards; his post upda
 
 ## Blockers / unresolved
 
-Question 2 (`humanize/OWNER-QUESTIONS.md`): how the warnings and dose paragraphs are done. The science goes on meanwhile.
+Questions 3 and 4 (`humanize/OWNER-QUESTIONS.md`) and two cards on Neuro De-Armoring Cards, 4 November. The rest goes on a paragraph at a time meanwhile.
 
 ## Evidence / artifacts
 
@@ -38,4 +38,4 @@ Question 2 (`humanize/OWNER-QUESTIONS.md`): how the warnings and dose paragraphs
 
 ## Next safe action
 
-`humanize/HANDOFF-neuro-de-armoring.md`, Next step: his answer to question 2 decides the warnings and doses; meanwhile the science sections his way (gates E335 and E336), each checked before it reaches him as cards. The master is unchanged (his post as it stands); `humanize/HUMANIZED-SO-FAR.md` has his three versions in.
+`humanize/HANDOFF-neuro-de-armoring.md`, Next step: his answers to questions 3 and 4 and the two cards; then the warnings cards; then the rest of the article one paragraph at a time (gates E343, E344). The master is unchanged (his post as it stands).

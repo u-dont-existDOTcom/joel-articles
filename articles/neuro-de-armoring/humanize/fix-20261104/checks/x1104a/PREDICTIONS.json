@@ -1,0 +1,46 @@
+[
+ {
+  "key": "b081",
+  "name": "his version of \"Who this is for\" (uridine), with its heading",
+  "lineage": "ND1104-B081",
+  "scope": "paragraph",
+  "words": 150,
+  "call": "Human",
+  "chance": 0.6,
+  "why": "his uncompressed version: a plain gloss for anhedonia (\"there's no desire for anything\"), the causal links said (\"so\", \"as a result\"), \"folks\", \"present with symptoms of\", my closer cut; still a list of nine DAWS symptoms, and the heading",
+  "sha256": "f5a19a6a454b5918864cbd1d1e77358cc8457e841732c3852248ccecf37a99c9"
+ },
+ {
+  "key": "b081n",
+  "name": "his version with the two drug names he left out, in brackets",
+  "lineage": "ND1104-B081n",
+  "scope": "paragraph",
+  "words": 154,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "his version plus \"(like pramipexole or ropinirole)\" after \"dopamine agonist drugs\", the bracket move of his X-84",
+  "sha256": "85fd06a45db59c95800a66b4c999a2b45de3fc660e956121866b8c61a533498e"
+ },
+ {
+  "key": "b082",
+  "name": "the uridine evidence paragraph, uncompressed my way",
+  "lineage": "ND1104-B082",
+  "scope": "paragraph",
+  "words": 149,
+  "call": "AI",
+  "chance": 0.4,
+  "why": "the fragment made a sentence, a plain gloss in brackets for each term (precursors, phosphatide, spines, the aged-rat finding, extrapolation), \"There's no study showing\" for \"that study does not exist\"; but three linked findings in a row, and the post's \"plausible\" and \"cautious human extrapolation\" kept for the fidelity check",
+  "sha256": "f3d5f8f89ecf8638af3af173e95f3f27de6c83f9802c0c74e8431056bc57d93d"
+ },
+ {
+  "key": "b083",
+  "name": "Scott's signal, uncompressed my way",
+  "lineage": "ND1104-B083",
+  "scope": "paragraph",
+  "words": 114,
+  "call": "AI",
+  "chance": 0.45,
+  "why": "the colon list split into sentences, \"though\" for the contrast, glosses for DHA/EPA, D3 and the axis, \"We can't tell from this whether\" for \"That does not prove\"; the last sentence is long and keeps the post's \"synaptic-membrane / dopamine-receptor-recovery axis\"",
+  "sha256": "2b1dda8dd1515ee624554f294c10c25287da2ba9bc7d806b8e5fcbf7b72e1a17"
+ }
+]

@@ -63,8 +63,12 @@ def check(root, ref, sha):
         workflow = os.path.join(wt, WORKFLOW)
         if not os.path.exists(workflow):
             return True
+        # the steps run without git's GIT_* variables: inside a hook GIT_DIR names the repository being pushed, so a step's
+        # git command would act on it instead of the temporary worktree (2026-11-04: a test's `git init` in a temporary
+        # folder re-initialized the shared repository and set core.bare = true)
+        env = {k: v for k, v in os.environ.items() if not k.startswith('GIT_')}
         for cmd in steps(workflow):
-            r = subprocess.run(cmd, shell=True, cwd=wt, capture_output=True, text=True)
+            r = subprocess.run(cmd, shell=True, cwd=wt, capture_output=True, text=True, env=env)
             if r.returncode:
                 print(f'pre-push: {ref} ({sha[:8]}) fails: {cmd}', file=sys.stderr)
                 print((r.stdout + r.stderr)[-4000:], file=sys.stderr)

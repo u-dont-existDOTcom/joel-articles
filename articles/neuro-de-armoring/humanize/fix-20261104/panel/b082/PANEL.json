@@ -1,0 +1,67 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "The tool: Uridine monophosphate (UMP).",
+  "There's no study showing that \"UMP cures DAWS\", so the best evidence we have is more basic than that.",
+  "Uridine, choline, and DHA are circulating precursors (building blocks carried in the blood) for brain phosphatide / synaptic membrane synthesis, that is, for making the fatty membranes at the connections between neurons.",
+  "Wurtman's research group found that giving DHA, uridine and choline together can increase the building blocks and proteins of those synaptic membranes.",
+  "In animals, UMP also increased how many new connection points DHA makes neurons grow (DHA-induced dendritic spine formation), and old rats that got UMP in their food released more dopamine when their neurons were stimulated, and grew more nerve fibers.",
+  "So it's plausible that it works on the synapses this way, but using it for DAWS in people is still a cautious extrapolation from those studies, plus anecdotes like Scott's."
+ ],
+ "flagged": {
+  "1": [
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "sonnet"
+  ],
+  "5": [
+   "codex",
+   "haiku"
+  ],
+  "6": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3,
+  5,
+  6
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph feels systematically assembled: establish an evidence limit, explain the mechanism, summarize animal findings, then close with another qualification. Its repeated explanatory insertions give it a managed, instructional rhythm, though none of these features establishes AI authorship."
+  ],
+  "haiku": [
+   "Each sentence follows the same pattern of claim, gloss, then qualification, and the paragraph closes on a balanced caveat, which gives it an even, assembled rhythm rather than a voice that moves between points."
+  ],
+  "sonnet": [
+   "The paragraph is built as a neat evidence summary: caveat first, then mechanism, then animal findings in a sequence of \"found / also / and\", then a hedged verdict that circles back to the caveat. The even, careful register with every claim softened (\"plausible\", \"cautious\") has little of a single person's rhythm."
+  ]
+ },
+ "human_clean": [
+  "old rats that got UMP in their food",
+  "plus anecdotes like Scott's.",
+  "plus anecdotes like Scott's",
+  "old rats that got UMP in their food",
+  "DAWS",
+  "anecdotes like Scott's",
+  "old rats that got UMP in their food"
+ ]
+}

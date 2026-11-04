@@ -1,0 +1,20 @@
+{
+ "b082": {
+  "lineage": "ND1104-B082",
+  "name": "the uridine evidence paragraph, sixth try (the Medium and Low windows of try 5)",
+  "text": "The tool: Uridine monophosphate (UMP). There's no study showing that \"UMP cures DAWS\", only more basic research on what uridine, choline, and DHA do in the brain. All three get carried in the blood to the brain, which uses them to make the fatty membranes at its synapses (circulating precursors for brain phosphatide / synaptic membrane synthesis). Wurtman's research group found that giving the three together can build up the synapses' membranes and proteins, and that in animals, UMP made DHA better at getting neurons to grow new connection points, which they call DHA-induced dendritic spine formation. They also fed UMP to old rats, and the rats' neurons released more dopamine when they were stimulated with potassium, and grew more nerve fibers. So it's plausible it works on the synapses this way, but for DAWS in people, all we have is a cautious extrapolation from those studies, plus anecdotes like Scott's.",
+  "chance": 0.6,
+  "why": "the first three sentences as in try 5 (Human High); the Wurtman sentence without a bracket (\"which they call DHA-induced dendritic spine formation\"); the rat study with the researchers doing it (\"They also fed UMP to old rats, and the rats' neurons ...\"); the closer as \"all we have is a cautious extrapolation\", try 3's wording, which read Human High",
+  "diagnosis": "try 5 read Human Written, 0.0% AI, with Human Medium, Low and Medium windows on its last three sentences; the panel agreed on four of try 5's sentences, two of them in the window Pangram read Human High, which stay",
+  "decides": "whether try 5's Medium and Low windows rise with these changes (Joel: fix Low and Medium windows)"
+ },
+ "b083": {
+  "lineage": "ND1104-B083",
+  "name": "Scott's signal, sixth try (Codex's rewrite)",
+  "text": "Scott added a standard dose of UMP, and within a day his ketamine/LSD cravings fell hard. He already had choline covered with eggs, and took fish oil for DHA/EPA. His psychedelic tolerance seemed to drop too. You can't tell from this whether UMP rebuilt his D3 receptors overnight. It does suggest that in the right person, UMP can show you very clearly when the brain's system for rebuilding synaptic membranes and recovering dopamine receptors has been starved of building materials. Scott was having vivid dreams again too, with real childhood memories coming back in them.",
+  "chance": 0.3,
+  "why": "a writer of another family (Codex, given tell_panel.py rewrite-prompt): the craving result first, the choline and DHA after it, then the caveat and the takeaway, and the dreams last as a plain fact; my one change puts back his post's \"in the right person\"",
+  "diagnosis": "five tries of mine read AI, the last (try 5) AI Low on the story and AI High on the takeaway; the panel read the rewrite (panel/b083-codex/PANEL.md) and agreed only on the caveat and the takeaway",
+  "decides": "whether another family's writer carries Scott's paragraph, and so whether the help request is about the takeaway only"
+ }
+}

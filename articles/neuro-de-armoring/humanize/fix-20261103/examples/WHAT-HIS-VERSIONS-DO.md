@@ -78,3 +78,19 @@ These rules carried the science in my hand: the Role-Self part of Psychology is 
 in two tries. They didn't carry the warnings or the uridine section, which read 100% AI every way I tried, even one
 paragraph at a time in his label register ([round 2's results](../r2his/RESULTS-ROUND2.md)). What made his warnings and
 his trial paragraph Human is his own wording, not the build, so those kinds go to him as stretches to edit.
+
+## His fourth version: "Who this is for" (4 November, gate E343)
+
+His message of 2026-11-04 10:01 UTC took my round-2 version of the uridine section's first paragraph ("fixed it, just
+clarified and uncompressed"); his version by itself reads [Human Written, 0.0% AI](https://www.pangram.com/history/9225442f-06b8-4a7a-ab8e-d8a03f720290) (High).
+What he did, the gut lane's E338 in this article:
+- **The plain meaning first, the term after it in brackets**: "where everything feels gray and there's no desire for
+  anything (anhedonia)"; and the plain word before a code: "dopamine receptor D2/D3".
+- **One observation a sentence, with the causes said**: "These folks also find that dreams and psychedelic visuals are
+  weak, so they need unusually high doses to feel anything, and as a result they tend to compulsively reach for ...".
+- **A hedge for the reader instead of a rule**: "It could be helpful, though, for folks that show ...".
+- **A plain clinical verb**: "People with DAWS, after tapering off dopamine agonist drugs, present with symptoms of ...".
+- **My closer cut**: "That's a pretty specific phenotype, and I'm not saying everyone needs dopamine."
+
+In my hand the same moves took the evidence paragraph from 62.2% to 0.0% AI (AI Assisted) in four tries, but not Scott's
+story (100% AI in all four): `../../fix-20261104/checks/`, and the two cards that ask him.

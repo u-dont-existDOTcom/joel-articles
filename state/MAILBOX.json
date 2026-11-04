@@ -732,6 +732,47 @@
    "recorded_utc": "2026-11-04T01:10Z"
   },
   {
+   "turn": "2026-11-04T10:01Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items in the lane (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); the live AGENTS.md (blob 5160080) and LESSON-INDEX (7896422) unchanged since 2026-11-03 17:48"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 281 (this lane's) merged by Joel at 2026-11-03 20:57 UTC; new since: 282 (Healing the Gut, merged), 283 to 285 (Inner Child, merged), 286 (Healing the Gut r03 and E339, open), 280 (Bad Trips, open; its AGMATINE-WARNINGS-CHECK.md on its branch checks this lane's agmatine warnings); no comments or reviews on this lane's pull requests; main's new shared rules read: E337 (gut, the typographic swap), E338 (gut, uncompress), E339 (every lane works from main), E340 (keep-as-is lists), E341 (a post's embeds), and E337 and E338 (Inner Child); the branch fast-forwarded to main 9a211d85"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to this lane's handoff notes or questions pages since its push 2dbba42e (main's changes to articles/neuro-de-armoring: none)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 2026-11-04 10:01 UTC: go through the warnings Gemini put in (the bad-trips lane found most agmatine warnings wrong); work one paragraph at a time; his rewrite of the uridine 'Who this is for' paragraph",
+     "outcome": "saved word for word; his paragraph in and checked by itself; the agmatine check's findings applied as cards; the other warnings checked; the next paragraphs done one at a time"
+    },
+    {
+     "item": "the bad-trips lane's AGMATINE-WARNINGS-CHECK.md (claude/bad-trips-20261103), whose Next names this lane",
+     "outcome": "adopted: its verdicts go to Joel as cards on this lane's article, with its sources"
+    }
+   ],
+   "recorded_utc": "2026-11-04T10:06Z"
+  },
+  {
    "turn": "2026-11-04T10:18Z",
    "lines_of_work": [
     "gut article"
@@ -769,6 +810,43 @@
     }
    ],
    "recorded_utc": "2026-11-04T10:20Z"
+  },
+  {
+   "turn": "2026-11-04T10:39Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (the lane holds 2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); the live AGENTS.md (5160080) and LESSON-INDEX (7896422) unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "no new issues, pull requests, comments or reviews since 10:01 UTC: this lane's pull request 287 open; 286 (Healing the Gut) updated, open, another lane's; main unchanged since 9a211d85"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to this lane's handoff notes or questions pages since its push e6468569"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's answers 3a and 4a (2026-11-04 10:39 UTC)",
+     "outcome": "3a: the two drug names go back in brackets in his paragraph; 4a: the three experience-based warnings stay, said as experience; both put in this turn, and the warnings cards built"
+    }
+   ],
+   "recorded_utc": "2026-11-04T10:39Z"
   }
  ]
 }
