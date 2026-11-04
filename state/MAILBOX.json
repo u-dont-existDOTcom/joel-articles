@@ -613,6 +613,41 @@
     }
    ],
    "recorded_utc": "2026-11-04T00:17Z"
+  },
+  {
+   "turn": "2026-11-04T00:43Z",
+   "lines_of_work": [
+    "inner child guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "2 items in suggested-fixes/joel-articles/ (2026-09-30-claim-checks-for-reviews.md, 2026-10-31-mailbox-every-turn.md), both already in docs/suggested-fixes-ledger.md; no new item; UDA still at c5c9951"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since turn 117's check (23:32 UTC): pull request 283 (this lane, turn 117) opened at 00:22 and merged by Joel at 00:39 UTC, and the lane fast-forwarded to main 857a06f2; 278 and 280 still open and unchanged; no new issues, comments or reviews (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop's handoff note is byte for byte what turn 117's update made of it; no one else changed OWNER-QUESTIONS.md or HANDOFF-UPDATE.json"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "pull request 283 merged",
+     "outcome": "turn 118 goes in a new pull request (lane_push --pr)"
+    }
+   ],
+   "recorded_utc": "2026-11-04T00:46Z"
   }
  ]
 }

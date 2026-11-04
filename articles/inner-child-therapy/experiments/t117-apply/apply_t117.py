@@ -374,7 +374,11 @@ def main():
             'guide as of turn 114 (commit %s), whose paragraph notes and Pangram records stay in Git there. -->\n\n' % LAST_COMMIT)
     out = head + md.rstrip('\n') + '\n'
     (HERE / 'GUIDE-APPLIED.md').write_text(out, encoding='utf-8')
-    (ART / 'HUMANIZED-ARTICLE-SO-FAR.md').write_text(out, encoding='utf-8')
+    inst = ART / 'HUMANIZED-ARTICLE-SO-FAR.md'
+    if inst.exists() and "It's four pairs, starting with pleasure and pain" in inst.read_text(encoding='utf-8'):
+        print('not installed: the article has moved on since turn 117 (turn 118 put the four pairs back); GUIDE-APPLIED.md written')
+    else:
+        inst.write_text(out, encoding='utf-8')
     (HERE / 'CHANGES.json').write_text(json.dumps([{'why': w, 'old': o, 'new': n} for w, o, n in LOG], ensure_ascii=False,
                                                   indent=1) + '\n', encoding='utf-8')
     words = len(re.sub(r'<!--.*?-->', '', out, flags=re.S).split())

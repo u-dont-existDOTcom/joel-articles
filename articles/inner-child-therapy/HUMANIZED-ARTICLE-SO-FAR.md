@@ -856,7 +856,7 @@ Even with good parents, you could have learned unhealthy self-valuation when peo
 
 #### Four Pairs That Commonly Hook the Child
 
-Pema Chödrön has a quick map for finding the bargain. Your little one can panic when something hurts, and also when something good might disappear, like praise, romance, money, status, belonging or a spiritual high. You might still be enjoying one of those when your little one starts asking how long this is going to last.
+Pema Chödrön has a quick map for finding the bargain. It's four pairs, starting with pleasure and pain, and gain and loss. The other two are about what people think of you: praise and blame, and good reputation and disgrace. Your little one can panic when something hurts, and also when something good might disappear, like praise, romance, money, status, belonging or a spiritual high. You might still be enjoying one of those when your little one starts asking how long this is going to last.
 
 When that happens, you can ask yourself these, once you've caught your breath:
 
