@@ -1,22 +1,19 @@
 # Bad Trips guide: questions for Joel
 
-Updated 2026-11-03 (turn 3, his messages of 22:04 and 22:05 UTC in). Status: **open** = waiting on you, **next** = I do it once you
+Updated 2026-11-04 (turn 4, his round-2 answers of 10:26 UTC in). Status: **open** = waiting on you, **next** = I do it once you
 answer, **done** = answered.
-Answer on the marking page (Bad Trips Guide, Round 2), or under a card's name in a message.
+Answer under an item's number in a message.
 
 ## Open
 
-1. **open — Round 2's page.** Your structure answer (A) step by step: each checklist step as it would read (CL-1 to
-   CL-15), the Longer Triage folded into the long part (LT-1 to LT-5), and four lines drafted from your round-1 answers
-   (AN-Q3a and AN-Q3b for DMSO, AN-Q6 for ocean water, AN-Q1 for low doses first). Since your message of 22:04 it also has SF-8:
-   DMSO's blood-thinner line goes. What's behind that line is lab work (a mild platelet effect in donated blood, no clot
-   in an injured mouse artery), and I found no study of bleeding in people taking DMSO.
-2. **open — The agmatine warnings** (in the neuro de-armoring protocol). Checked one by one, with each study linked:
+1. **open — The agmatine warnings** (in the neuro de-armoring protocol). Checked one by one, with each study linked:
    [the agmatine check](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t02-warnings/AGMATINE-WARNINGS-CHECK.md).
    Which ones go is yours to say, and the neuro de-armoring lane, which owns that protocol, puts it in.
-3. **next — The quick triage in the web app.** You'd like to move it there, but aren't sure the GPT-made app will give
-   the advice (its safety guardrails). Once round 2 is in, I can put the checklist's situations to the app and list what
-   it refuses or changes, so you can decide with that in hand.
+2. **next — The quick triage in the web app.** You'd like to move it there, but aren't sure the GPT-made app will give
+   the advice (its safety guardrails). Round 2 is in, so I'm putting the checklist's situations to the app and listing
+   what it refuses or changes, so you can decide with that in hand.
+3. **open — When the deduped guide goes into your post.** Round 2 made it 12,691 words (from 14,504). It can go in now,
+   with the title's version and date updated, or after the humanizing.
 
 ## Your tasks
 
@@ -24,6 +21,8 @@ None now. (The baseline's full analysis came with your message: AI Detected, 82%
 recorded with the baseline.)
 
 ## Decisions on record
+
+His round-2 answers of 2026-11-04 10:26 UTC, on [round 2's cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r02/REVIEW-R02.md): all 26 approved, none with a comment or his own version, and all in the guide.
 
 His messages of 2026-11-03 22:04 and 22:05 UTC ([experiments/t01-answers/JOEL-MESSAGE-20261103-2204.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t01-answers/JOEL-MESSAGE-20261103-2204.md)): "maybe
 we could remove the blood thinner dmso warning" (round 2's SF-8) and "check the agmatine warnings" (item 2 above).

@@ -1,0 +1,134 @@
+{
+ "format": "joel-keep-as-is-v1",
+ "article": "articles/bad-trips/GUIDE-SO-FAR.md",
+ "about": "What Joel has said stays as it is in the Bad Trips guide, and the cuts he meant: no card flags, fixes or puts these back (tools/humanization/keep_as_is.py, gate E340). Started 2026-11-04 from his answers to round 1 (review/r01/ANSWERS-R01-20261103-1859.json), his messages of 2026-11-03 (experiments/t01-answers/) and round 2 (review/r02/ANSWERS-R02-20261104-1026.json). His other edits, with the strings that prove they are in, are in OWNER-EDITS.json. The quotes are in the guide's characters after the standard swap (humanize/h01/swap.py): straight quote marks, spaced en dashes.",
+ "keep": [
+  {
+   "id": "K1",
+   "kind": "placement",
+   "quote": "Hello, Lovey Bunny! I hope you are presently well, and if not, I pray that you",
+   "what": "A soft greeting in the middle of a practical guide reads like a stray tone shift a pass would move to the top or cut; he wants it where it is, where the guide turns to shadow work.",
+   "joel": "yeah i wanted to keep this at the part where we are talking about dealing iwth actual shadow work rather than the physical triage since that's more of a mechanical type of prose needing less softness",
+   "when": "2026-11-03 18:59 UTC",
+   "where": "round 1, card Q-2 (his answer: a)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K2",
+   "kind": "voice",
+   "quote": "A gut-driven mental hell is often mistaken as shadow work.",
+   "what": "His own wording of the paragraph RP-4 cut, kept as the last sentence of the one before it; a humanizing pass would reword a short summary line like this, but it is his.",
+   "joel": "rp-4 approve yes i want to keep the gut driven mental hell line altho i'd change it to sound more human: \"A gut-driven mental hell is often mistaken as shadow work\"",
+   "when": "2026-11-03 18:59 UTC",
+   "where": "round 1, card RP-4",
+   "basis": "his answer"
+  },
+  {
+   "id": "K3",
+   "kind": "voice",
+   "quote": "With harmalas, don't put the harmala in the DMSO or take them at exactly the same time; taking them a bit apart is totally fine, and the point is to take DMSO if you've already absorbed the harmalas and the aya is too crazy.",
+   "what": "His words from his answer to Q-3, with his straight apostrophes and \"the aya is too crazy\"; a pass would tidy the register to match the list around it.",
+   "joel": "don't take DMSO literally with  harmalas like don't put the harmala in the dmso or take them exactly at the same time, but it's totally fine to take them a bit apart like and there is no reason to take them together anyway the point is to take dmso if you already absorbed the harmalas and the aya is too crazy",
+   "when": "2026-11-04 10:26 UTC",
+   "where": "round 2, card AN-Q3a",
+   "basis": "his approval of a card that kept it"
+  },
+  {
+   "id": "K4",
+   "kind": "voice",
+   "quote": "If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is.",
+   "what": "The first of his bleed lines in the stroke paragraph (\"basically a dietary blood thinner\", \"I've never had any issues\"), in his words; after SF-8 they are the guide's only word on DMSO and bleeding.",
+   "joel": "if someone is worried about a bleed, i'd prob skip dmso but it depends on how severe their issue is, it's not a powerful blood thinner like heperin or something unless maybe injected, it's a dietary blood thinner basically",
+   "when": "2026-11-04 10:26 UTC",
+   "where": "round 2, card AN-Q3b",
+   "basis": "his approval of a card that kept it"
+  },
+  {
+   "id": "K5",
+   "kind": "voice",
+   "quote": "I honestly can't say how different these are from ocean water, because I've only used them a handful of times, but I do believe they're different in certain ways.",
+   "what": "His hedged first-hand comparison of ocean water and charcoal water, in his words; a pass would cut the hedge, but the uncertainty is his point.",
+   "joel": "i honestly cannot say if they are so different because i've only used them a handful of times but i do believe they are different in certain ways",
+   "when": "2026-11-04 10:26 UTC",
+   "where": "round 2, card AN-Q6",
+   "basis": "his approval of a card that kept it"
+  },
+  {
+   "id": "K6",
+   "kind": "voice",
+   "quote": "In general it's good to try all these things in very low, increasing doses before they are needed in crisis.",
+   "what": "His advice, in his words, where the remedies start; it reads like a generic caution a pass would cut, but he asked for it.",
+   "joel": "in general it's good to try all these things in very low, increasing doses before they are needed in crisis.",
+   "when": "2026-11-04 10:26 UTC",
+   "where": "round 2, card AN-Q1",
+   "basis": "his approval of a card that kept it"
+  },
+  {
+   "id": "K7",
+   "kind": "choice",
+   "quote": "room → body → human → time → meaning",
+   "what": "The order he chose (room first) in all four places the guide gives it; a pass that sees the body put before the room elsewhere might \"fix\" it back.",
+   "joel": "q-5 a",
+   "when": "2026-11-03 18:59 UTC",
+   "where": "round 1, card Q-5",
+   "basis": "his answer"
+  },
+  {
+   "id": "K8",
+   "kind": "placement",
+   "quote": "Call medics for a convulsive seizure lasting about five minutes, repeated seizures without normal recovery, trouble breathing, dangerous heat, serious injury, a first seizure, or a seizure substantially different from the person's known pattern.",
+   "what": "The seizure threshold is said in the medics list and again in Active Seizure; it stays in both, where the reader acts on it.",
+   "joel": "sf-2 agree with you",
+   "when": "2026-11-03 18:59 UTC",
+   "where": "round 1, card SF-2 (my advice: leave both)",
+   "basis": "his answer"
+  }
+ ],
+ "cuts": [
+  {
+   "id": "C1",
+   "quote": "No entity, deity, demon, ancestor, angel, algorithm, mission, kundalini surge, or insight overrides basic safety.",
+   "what": "Cut from No Rash Actions; Demons, Jinn, Entities keeps its own safety rule. My advice had been to leave it.",
+   "joel": "rp-13 remove it, and let's make sure \"X does not Y\" is changed in general that's super ai, humans don't use that so much",
+   "when": "2026-11-03 18:59 UTC",
+   "where": "round 1, card RP-13",
+   "basis": "his answer"
+  },
+  {
+   "id": "C2",
+   "quote": "Don't combine it with blood-thinning medication because DMSO also thins the blood.",
+   "what": "DMSO's blood-thinner interaction line; the evidence behind it is lab work, and his own bleed lines (K4) carry the caution.",
+   "joel": "hm so maybe we could remove the blood thinner dmso warning",
+   "when": "2026-11-03 22:04 UTC; approved 2026-11-04 10:26 UTC",
+   "where": "his message, then round 2, card SF-8",
+   "basis": "his answer"
+  },
+  {
+   "id": "C3",
+   "quote": "The Longer Triage: What Kind of Trouble Is This?",
+   "what": "The whole Longer Triage, its picture included; the four things only it said moved into the long part (LT-2 to LT-5).",
+   "joel": "st-1a",
+   "when": "2026-11-03 18:59 UTC (structure A); approved 2026-11-04 10:26 UTC",
+   "where": "round 1, card ST-1; round 2, cards LT-1 to LT-5",
+   "basis": "his approval of a card that kept it"
+  },
+  {
+   "id": "C4",
+   "quote": "Charcoal belongs only in the separate recent-oral-ingestion branch.",
+   "what": "Step 12's charcoal sentence.",
+   "joel": "q-7 b",
+   "when": "2026-11-03 18:59 UTC",
+   "where": "round 1, card Q-7",
+   "basis": "his answer"
+  },
+  {
+   "id": "C5",
+   "quote": "one boring ordinary task",
+   "what": "\"One ordinary\" goes wherever it appears (tells_lint.py O46); this was the guide's last one, cut with step 4's list.",
+   "joel": "rp-7 approve and we gotta remove \"one ordinary\" anywhere lol so ai",
+   "when": "2026-11-03 18:59 UTC; cut 2026-11-04 10:26 UTC",
+   "where": "round 1, card RP-7; round 2, card CL-4",
+   "basis": "his answer"
+  }
+ ]
+}

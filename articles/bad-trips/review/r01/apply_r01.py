@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """apply_r01.py - round 1's answers (Joel, 2026-11-03 18:59 UTC; ANSWERS-R01-20261103-1859.json) put into the guide.
 
-Starts from his post as published (../../original-blocks.json, the blocks of master.md) and writes the guide as it stands
-after round 1 (../../GUIDE-SO-FAR.md):
+Starts from his post as published (../../original-blocks.json, the blocks of master.md) and writes the guide after round
+1 (GUIDE-AFTER-R01.md, beside this script; it was ../../GUIDE-SO-FAR.md until round 2 went in, which now starts from it):
 
 - every card he approved, as REVIEW-R01.json shows it (its edits, moves and inserts), with RP-4 his way: the paragraph
   goes but his line stays, in his words, as the last sentence of the paragraph before it;
@@ -17,7 +17,7 @@ block). Here each is applied to the article's own Markdown: a cut block or list 
 text's changed middle, found once in the block's Markdown (bold marks allowed inside it) and replaced. Every edit has to
 apply exactly once, or the script stops.
 
-  python3 apply_r01.py            write ../../GUIDE-SO-FAR.md (and its blocks, ../../GUIDE-SO-FAR-blocks.json, with the
+  python3 apply_r01.py            write GUIDE-AFTER-R01.md (and its blocks, GUIDE-AFTER-R01-blocks.json, with the
                                   round-1 block ids kept) and print what changed
 """
 import hashlib
@@ -32,7 +32,7 @@ BLOCKS = json.loads((ART / 'original-blocks.json').read_text(encoding='utf-8'))
 PMAP = json.loads((ART / 'original-page-map.json').read_text(encoding='utf-8'))['map']
 REVIEW = json.loads((HERE / 'REVIEW-R01.json').read_text(encoding='utf-8'))
 ANSWERS = json.loads((HERE / 'ANSWERS-R01-20261103-1859.json').read_text(encoding='utf-8'))
-OUT = ART / 'GUIDE-SO-FAR.md'
+OUT = HERE / 'GUIDE-AFTER-R01.md'
 
 LIST_ITEM = re.compile(r'^(- |\d+\. )')
 STATUS = {x['id']: x['status'] for x in ANSWERS['items']}
@@ -252,7 +252,7 @@ def unit_md(u):
 
 parts = [x for x in (unit_md(u) for u in doc) if x is not None]
 # the guide's blocks after round 1, with their round-1 ids kept (new ones start with N-), for round 2's page
-OUT_BLOCKS = ART / 'GUIDE-SO-FAR-blocks.json'
+OUT_BLOCKS = HERE / 'GUIDE-AFTER-R01-blocks.json'
 OUT_BLOCKS.write_text(json.dumps([{'id': u['bid'], 'kind': u['kind'], 'md': unit_md(u), 'text': None}
                                   for u in doc if unit_md(u) is not None], ensure_ascii=False, indent=1) + '\n',
                       encoding='utf-8')

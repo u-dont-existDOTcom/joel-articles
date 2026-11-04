@@ -856,6 +856,45 @@
     }
    ],
    "recorded_utc": "2026-11-04T01:10Z"
+  },
+  {
+   "turn": "2026-11-04T10:26Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items: the joel-articles lane still holds 2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in docs/suggested-fixes-ledger.md; the root is unchanged at c5c9951 (read from the local clone after git fetch at 10:27 UTC)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "overnight main gained pull requests 282 (gut import), 283 to 285 (Inner Child turns 117 to 119); merged into this lane's branch (conflicts in the index, lanes, tells registry and its test, the meta map and the mailbox, resolved: both lanes' entries kept, the gut lane's W114 and W115 kept, this lane's tells renumbered W116 and W117); pull request 286 (gut lane, open) enforces working from main in lane_push and notes its overlap with 280 in docs/HUMANIZATION-GATE.md, at other lines; no comments or reviews on 280 or elsewhere since 22:00 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "this lane's handoff note and questions page were changed only by this session (the branch's last commit before the merge is 9a6cc4b9, 22:27 UTC)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "Joel's message of 10:26 UTC: round 2's answers file (all 26 cards approved, no comments); no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "round 2's answers (all 26 approved)",
+     "outcome": "recorded and applied this turn (review/r02/apply_r02.py)"
+    },
+    {
+     "item": "pull request 286's overlap with 280 (docs/HUMANIZATION-GATE.md)",
+     "outcome": "no action: different lines, as its description says; this lane's next gate change builds on main's"
+    }
+   ],
+   "recorded_utc": "2026-11-04T10:30Z"
   }
  ]
 }

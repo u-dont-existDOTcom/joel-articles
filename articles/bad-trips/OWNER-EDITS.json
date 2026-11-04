@@ -4,7 +4,7 @@
  "how": [
   "Every edit Joel gives goes in here the same turn, with his words and the strings the guide must (or must not) contain once it's done. Status pending until the guide has it; then applied.",
   "tools/humanization/check_owner_edits.py checks every entry against GUIDE-SO-FAR.md; render_article_so_far.py runs it on every render.",
-  "His words of 2026-11-03 18:59 UTC are in experiments/t01-answers/JOEL-MESSAGE-20261103-1859.md; those of 22:04 and 22:05 UTC in experiments/t01-answers/JOEL-MESSAGE-20261103-2204.md."
+  "His words of 2026-11-03 18:59 UTC are in experiments/t01-answers/JOEL-MESSAGE-20261103-1859.md; those of 22:04 and 22:05 UTC in experiments/t01-answers/JOEL-MESSAGE-20261103-2204.md; his round-2 answers of 2026-11-04 10:26 UTC in review/r02/ANSWERS-R02-20261104-1026.json."
  ],
  "entries": [
   {
@@ -78,64 +78,64 @@
   },
   {
    "id": "st1-a",
-   "status": "pending",
+   "status": "applied",
    "what": "ST-1 A: the checklist keeps each step's heading and one or two of his lines with a link; the Longer Triage goes",
    "joel": "18:59: \"st-1a\"",
-   "waits_for": "round 2's page (review/r02), cards CL-1 to CL-15 and LT-1 to LT-5",
    "must_not_contain": [
     "The Longer Triage: What Kind of Trouble Is This?"
-   ]
+   ],
+   "applied_by": "his OK on all of round 2's cards (2026-11-04 10:26 UTC), put in by review/r02/apply_r02.py"
   },
   {
    "id": "q3-harmalas",
-   "status": "pending",
+   "status": "applied",
    "what": "Q-3: DMSO with harmalas, in his words",
    "joel": "18:59: \"don't put the harmala in the dmso or take them exactly at the same time, but it's totally fine to take them a bit apart\"",
-   "waits_for": "his OK on round 2's card AN-Q3a",
    "must_contain": [
     "don't put the harmala in the DMSO or take them at exactly the same time"
-   ]
+   ],
+   "applied_by": "his OK on AN-Q3a (2026-11-04 10:26 UTC), put in by review/r02/apply_r02.py"
   },
   {
    "id": "q3-bleed",
-   "status": "pending",
+   "status": "applied",
    "what": "Q-3: a possible bleed, in his words",
    "joel": "18:59: \"if someone is worried about a bleed, i'd prob skip dmso but it depends on how severe their issue is\"",
-   "waits_for": "his OK on round 2's card AN-Q3b",
    "must_contain": [
     "If someone is worried about a bleed, I'd probably skip DMSO"
-   ]
+   ],
+   "applied_by": "his OK on AN-Q3b (2026-11-04 10:26 UTC), put in by review/r02/apply_r02.py"
   },
   {
    "id": "q6-ocean",
-   "status": "pending",
+   "status": "applied",
    "what": "Q-6 (b): how ocean water and charcoal water differ, in his words",
    "joel": "18:59: \"i feel like the ocean water can reduce the intesnity of the trip a bit more than the ozonated charcoal water\"",
-   "waits_for": "his OK on round 2's card AN-Q6",
    "must_not_contain": [
     "These work similarly to ocean water."
-   ]
+   ],
+   "applied_by": "his OK on AN-Q6 (2026-11-04 10:26 UTC), put in by review/r02/apply_r02.py"
   },
   {
    "id": "q1-doses",
-   "status": "pending",
+   "status": "applied",
    "what": "Q-1: try the remedies in low, increasing doses before a crisis, in his words",
    "joel": "18:59: \"in general it's good to try all these things in very low, increasing doses before they are needed in crisis.\"",
-   "waits_for": "his OK on round 2's card AN-Q1",
    "must_contain": [
     "try all these things in very low, increasing doses before they are needed in crisis"
-   ]
+   ],
+   "applied_by": "his OK on AN-Q1 (2026-11-04 10:26 UTC), put in by review/r02/apply_r02.py"
   },
   {
    "id": "one-ordinary",
-   "status": "pending",
+   "status": "applied",
    "what": "\"one ordinary\" goes everywhere (the last one is checklist step 4's \"one boring ordinary task\")",
    "joel": "18:59: \"we gotta remove \\\"one ordinary\\\" anywhere lol so ai\"",
-   "waits_for": "round 2's card CL-4 (or the humanize pass if he keeps the list)",
    "must_not_contain": [
     "one boring ordinary task",
     "one ordinary"
-   ]
+   ],
+   "applied_by": "CL-4 (his OK, 2026-11-04 10:26 UTC) cut checklist step 4's list, the guide's last \"one ordinary\""
   },
   {
    "id": "x-does-not-y",
@@ -153,13 +153,13 @@
   },
   {
    "id": "sf8-dmso-blood-thinner",
-   "status": "pending",
+   "status": "applied",
    "what": "DMSO's blood-thinner interaction line goes (round 2's card SF-8; the evidence behind it is lab work, and no study of bleeding in people taking DMSO turned up)",
    "joel": "22:04: \"hm so maybe we could remove the blood thinner dmso warning\"",
-   "waits_for": "his answer to round 2's card SF-8",
    "must_not_contain": [
     "Don’t combine it with blood-thinning medication because DMSO also thins the blood."
-   ]
+   ],
+   "applied_by": "his OK on SF-8 (2026-11-04 10:26 UTC), put in by review/r02/apply_r02.py"
   }
  ]
 }

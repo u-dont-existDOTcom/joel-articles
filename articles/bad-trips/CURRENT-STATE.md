@@ -1,6 +1,6 @@
 # Bad Trips guide: current state
 
-Updated: 2026-11-03 (turn 3, his messages of 22:04 and 22:05 UTC). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
+Updated: 2026-11-04 (turn 4, his round-2 answers of 10:26 UTC). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
 badtrips guide at badtrips.u-dont-exist.com"; `experiments/t01-answers/JOEL-MESSAGE-20261103-1545.md`).
 
 ## Goal
@@ -46,12 +46,23 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
   `experiments/t02-warnings/AGMATINE-WARNINGS-CHECK.md`. The whole-guide page's link check against his post lists two
   links gone, the appendix's Fireside and ICEERS root links: RP-14 (approved) cut that line as the support lines' third
   copy, and both services stay linked in Get One Human Anchor and Who to Contact.
+- 2026-11-04 (turn 4, his round-2 answers of 10:26 UTC: all 26 cards approved, no comments): main merged in (the gut
+  lane's W114 and W115 kept, this lane's tells renumbered W116 and W117; both lanes' index, lane and mailbox entries);
+  his answers recorded (`review/r02/ANSWERS-R02-20261104-1026.json`) and applied by `review/r02/apply_r02.py`, every
+  change of words checked against its card exactly (13,808 to 12,691 words; `review/r02/GUIDE-AFTER-R02.md`); round 1's
+  output frozen as `review/r01/GUIDE-AFTER-R01.md` and round 2's page input as `review/r02/PAGE-R02.md`; the standard
+  swap (gate E337 (gut)) run as the humanize pass's first step (`humanize/h01/swap.py`, 311 characters) to make
+  `GUIDE-SO-FAR.md`; its fidelity keys taken (`humanize/h01/FIDELITY-KEYS-H01.json`: 134 warning sentences, 59 terms, 32
+  numbers); `KEEP-AS-IS.json` started (gate E340: 8 kept, 5 meant cuts); every section link lands on a heading, no
+  pointer broken (`section_refs.py`), all 14 pictures and 4 videos there (`post_embeds.py`, fixed to see the editor
+  HTML's videos). Links that went with approved cuts: the Longer Triage's picture (LT-1), Poison Control's charcoal page
+  (CL-12, with step 12's charcoal paragraph) and ICEERS's older address (CL-15; the service stays in Who to Contact).
 
 ## Current checkpoint
 
-- **In progress:** Turn 3: round 2's marking page (`review/r02/`, 26 cards, version 2: the checklist step by step per his answer A, the Longer Triage folded in, four lines drafted from his round-1 answers, and SF-8, DMSO's blood-thinner line cut at his message of 22:04) waits for his answers; the agmatine check (`experiments/t02-warnings/AGMATINE-WARNINGS-CHECK.md`) is for him and the neuro de-armoring lane, which owns that protocol.
-- **Next step (updated on every push, so another account can pick up here):** Put his round-2 answers in with a `review/r02/apply_r02.py` like round 1's (its "More:" lines take their links from each insert's href; CL-14 links "love" in step 14's heading to http://love.u-dont-exist.com/); then the humanize pass on the guide as it then stands: AI quips (gate J15), "one ordinary" (O46), "X does not Y" (X1, 65 candidates after round 1), the baseline's AI windows (`humanize/baseline-20261103/`), the gate's own writers (no Emulate), then the overcompletion read (E328) and the word-for-sense read (E331).
-- **Waiting on Joel:** his answers on round 2's page; which agmatine warnings go (for the neuro de-armoring lane); whether DMSO's other cautions in this guide get the same check.
+- **In progress:** Turn 4: round 2 is in; the humanize pass has started (`humanize/h01/`: the swap and the fidelity keys). The web-app test he asked about (OWNER-QUESTIONS item 3) comes before humanizing the checklist, since its answer decides whether the checklist stays in the guide.
+- **Next step (updated on every push, so another account can pick up here):** Put the checklist's situations to his web app (https://ibogaqueen.com/1625-2/) and list what it refuses or changes; then humanize the long part section by section per the gate (lint screen, fresh writers, tell panel, compare_read, fidelity check against `humanize/h01/FIDELITY-KEYS-H01.json`, predictions, then Pangram: section checks of five or six paragraphs in the web app, bigger ones through Substack drafts), with each section's rewrites on a marking page.
+- **Waiting on Joel:** which agmatine warnings go (for the neuro de-armoring lane); whether DMSO's other cautions in this guide get the same check; whether the deduped guide goes into his post now or after humanizing.
 
 ## Remaining
 

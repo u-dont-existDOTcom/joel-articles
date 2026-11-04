@@ -1,6 +1,6 @@
 """Round 2 of the bad-trips guide: his structure answer A (ST-1) carried out, and the lines drafted from his round-1 answers, as a marking page for Joel.
 
-Every card works on the guide as it stands after round 1 (GUIDE-SO-FAR-page.md, the review-page form of GUIDE-SO-FAR.md,
+Every card works on the guide as it stood after round 1 (PAGE-R02.md, the review-page form of ../r01/GUIDE-AFTER-R01.md,
 which review/r01/apply_r01.py made from his post and his round-1 answers). Nothing here adds
 words of mine to his text except where a card says so; the cuts and moves are proposals until he approves them. Where a
 checklist line or a Longer Triage paragraph goes, its card names the place in the long part that says it (the three
@@ -19,10 +19,10 @@ ART = HERE.parents[1]
 sys.path.insert(0, str(REPO / 'tools' / 'humanization'))
 import suggestion_review as SR  # noqa: E402
 
-MD_PATH = ART / 'GUIDE-SO-FAR-page.md'
+MD_PATH = HERE / 'PAGE-R02.md'
 MD = MD_PATH.read_text(encoding='utf-8')
 BL = SR.blocks(MD)
-MAP = json.loads((ART / 'GUIDE-SO-FAR-page-map.json').read_text(encoding='utf-8'))['map']
+MAP = json.loads((HERE / 'PAGE-R02-map.json').read_text(encoding='utf-8'))['map']
 
 
 def P(bid, k=0):
@@ -100,8 +100,8 @@ def cards_md(review):
     types = review['types']
     out = ['# %s: every card' % review['title'], '',
            'The page\'s cards as text, in the order of the guide. Built %s from [the guide after round 1](%s) (its '
-           'Markdown here: [GUIDE-SO-FAR.md](%s)). To answer, use the page; or write your answer under a card\'s name in a '
-           'message to me.' % (review['built'], review['links']['guide'], BLOB + 'articles/bad-trips/GUIDE-SO-FAR.md'), '']
+           'Markdown here: [GUIDE-AFTER-R01.md](%s)). To answer, use the page; or write your answer under a card\'s name in a '
+           'message to me.' % (review['built'], review['links']['guide'], BLOB + 'articles/bad-trips/review/r01/GUIDE-AFTER-R01.md'), '']
     def placed(s):  # where the page shows the card: after card_after, else after its first span's block
         at = s.get('card_after')
         return at if at is not None else (s.get('spans') or [{'block': 0}])[0]['block']
@@ -146,10 +146,10 @@ def main():
         'title': 'Bad Trips Guide, Round 2',
         'intro': INTRO,
         'git_file': 'articles/bad-trips/review/r02/REVIEW-R02.html',
-        'article': {'file': 'articles/bad-trips/GUIDE-SO-FAR-page.md',
+        'article': {'file': 'articles/bad-trips/review/r02/PAGE-R02.md',
                     'sha256': hashlib.sha256(MD.encode('utf-8')).hexdigest()},
         'built': BUILT,
-        'links': {'guide': BLOB + 'articles/bad-trips/GUIDE-SO-FAR.md',
+        'links': {'guide': BLOB + 'articles/bad-trips/review/r01/GUIDE-AFTER-R01.md',
                   'guide_label': 'the guide after round 1',
                   'review': BLOB + 'articles/bad-trips/review/r02/REVIEW-R02.md'},
         'types': TYPES,

@@ -15,6 +15,15 @@ https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips
 
 ## START HERE
 
+- **2026-11-04, turn 4 (his round-2 answers of 10:26 UTC).** All 26 cards approved, no comments
+  (`review/r02/ANSWERS-R02-20261104-1026.json`), and in: `review/r02/apply_r02.py` makes `review/r02/GUIDE-AFTER-R02.md`
+  from round 1's guide (`review/r01/GUIDE-AFTER-R01.md`), and the humanize pass's first step, the standard swap
+  (`humanize/h01/swap.py`, gate E337 (gut)), makes `GUIDE-SO-FAR.md`, the guide as it stands (12,691 words). What he has
+  said stays is in `KEEP-AS-IS.json` (gate E340); the humanize pass's fidelity keys are
+  `humanize/h01/FIDELITY-KEYS-H01.json`. **First:** put the checklist's situations to his web app
+  (https://ibogaqueen.com/1625-2/) and list what it refuses or changes (OWNER-QUESTIONS item 3), since that decides
+  whether the checklist stays in the guide. **Then:** humanize the long part section by section per the gate, each
+  section's rewrites on a marking page with their Pangram results.
 - **2026-11-03, turn 3 (his messages of 22:04 and 22:05 UTC).** He'd remove DMSO's blood-thinner warning ("hm so maybe
   we could remove the blood thinner dmso warning") and asked for the agmatine warnings to be checked, which he thinks old
   Gemini models wrote (`experiments/t01-answers/JOEL-MESSAGE-20261103-2204.md`). The DMSO line is round 2's card SF-8
