@@ -41,7 +41,7 @@ Every article's humanization uses these (`AGENTS.md`; `docs/HUMANIZATION-GATE.md
   `python3 tools/humanization/pangram_batch_gen.py drafts.json out.json KEY1 KEY2 KEY3`
 - `emulate_humanize.py`: the Emulate API tool (`docs/EMULATE-FALLBACK.md`, section 3). It runs on Joel's laptop, where the key is.
   `python3 emulate_humanize.py balance`, or `python3 emulate_humanize.py humanize IN.txt OUT`
-- `git-hooks/pre-push`: runs CI's content-integrity steps on each pushed commit and refuses the push if one fails (E158, 2026-10-09). Install it once per clone, from the repository root:
+- `git-hooks/pre-push`: runs CI's content-integrity steps on each pushed commit and refuses the push if one fails (E158, 2026-10-09). Since 2026-11-04 it also refuses a push that didn't come through `lane_push.py` (gate E339); `lane_push.py` and `lane_mailbox.py record` install it. Install it once per clone, from the repository root:
   `ln -sf ../../tools/humanization/git-hooks/pre-push .git/hooks/pre-push`
 
 What they read:
