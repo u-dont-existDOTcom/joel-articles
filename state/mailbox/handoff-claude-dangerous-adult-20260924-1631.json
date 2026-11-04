@@ -49,6 +49,49 @@
     }
    ],
    "recorded_utc": "2026-11-04T14:29Z"
+  },
+  {
+   "turn": "2026-11-04T15:00Z",
+   "lines_of_work": [
+    "inner child guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "2 items in suggested-fixes/joel-articles/, both already in docs/suggested-fixes-ledger.md; no new item; UDA still at c5c9951"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since turn 123's check (14:27 UTC): pull request 290 (neuro de-armoring) merged at 14:41 UTC, merged into this lane in turn 123; pull request 294 (this lane, turn 123) merged by Joel at 14:58 UTC (main eb7496ab, the lane fast-forwarded to it); 293 (gut) and 280 (bad trips) updated, still open; no new issues, comments or reviews (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop's handoff note is byte for byte what turn 123's update made of it (cmp with inbox/t113/note-test-t123.md); no one else changed OWNER-QUESTIONS.md or HANDOFF-UPDATE.json"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "pull request 294 merged",
+     "outcome": "turn 124's work goes in its own pull request (lane_push --pr)"
+    },
+    {
+     "item": "pull requests 293 (gut) and 280 (bad trips), open",
+     "outcome": "not this lane's to review or merge; this turn changes no shared file except the records every push writes"
+    },
+    {
+     "item": "Joel, 15:00 UTC: his two round-10 result links (draft A, draft B)",
+     "outcome": "read and recorded this turn, each window with its confidence (E278); predictions #380 and #381 scored"
+    }
+   ],
+   "recorded_utc": "2026-11-04T15:01Z"
   }
  ]
 }

@@ -53,6 +53,19 @@ class SuggestionReviewTests(unittest.TestCase):
         self.assertEqual(self.bl[6]['native'], 'video')
         self.assertEqual(self.bl[7]['section'], 'A subheading')
 
+    def test_a_link_whose_address_holds_brackets_keeps_them(self):
+        # 2026-11-04: the guide's "[Anthony de Mello](https://en.wikipedia.org/wiki/Anthony_de_Mello_(Jesuit_priest))"
+        segs = R.segments('see [Anthony de Mello](https://en.wikipedia.org/wiki/Anthony_de_Mello_(Jesuit_priest)) is it')
+        self.assertEqual(''.join(x['t'] for x in segs), 'see Anthony de Mello is it')
+        self.assertEqual(segs[1]['href'], 'https://en.wikipedia.org/wiki/Anthony_de_Mello_(Jesuit_priest)')
+
+    def test_a_link_inside_emphasis_is_a_link(self):
+        # 2026-11-04: "*[No Bad Parts](https://ifs-institute.com/store/419).*" showed its markup on the page
+        segs = R.segments('his book *[No Bad Parts](https://ifs-institute.com/store/419).* Honor')
+        self.assertEqual(''.join(x['t'] for x in segs), 'his book No Bad Parts. Honor')
+        link = [x for x in segs if x['href']]
+        self.assertEqual([(x['t'], x['href'], x['em']) for x in link], [('No Bad Parts', 'https://ifs-institute.com/store/419', True)])
+
     def test_a_quote_is_found_with_other_quote_marks_and_spacing(self):
         i, s, e = R.find_quote(self.bl, 'and "curly quotes".')
         self.assertEqual(self.bl[i]['text'][s:e], 'and “curly quotes”.')

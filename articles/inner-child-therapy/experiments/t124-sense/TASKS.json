@@ -1,0 +1,35 @@
+[
+ {
+  "part": 1,
+  "blocks": [
+   0,
+   165
+  ],
+  "words": 9589,
+  "part_file": "articles/inner-child-therapy/experiments/t124-sense/parts/PART-1.md",
+  "read_file": "articles/inner-child-therapy/experiments/t124-sense/reads/READ-1.json",
+  "task": "Read articles/inner-child-therapy/experiments/t124-sense/BRIEF.md, then articles/inner-child-therapy/experiments/t124-sense/parts/PART-1.md, and write articles/inner-child-therapy/experiments/t124-sense/reads/READ-1.json as the brief says."
+ },
+ {
+  "part": 2,
+  "blocks": [
+   166,
+   343
+  ],
+  "words": 9405,
+  "part_file": "articles/inner-child-therapy/experiments/t124-sense/parts/PART-2.md",
+  "read_file": "articles/inner-child-therapy/experiments/t124-sense/reads/READ-2.json",
+  "task": "Read articles/inner-child-therapy/experiments/t124-sense/BRIEF.md, then articles/inner-child-therapy/experiments/t124-sense/parts/PART-2.md, and write articles/inner-child-therapy/experiments/t124-sense/reads/READ-2.json as the brief says."
+ },
+ {
+  "part": 3,
+  "blocks": [
+   344,
+   525
+  ],
+  "words": 9614,
+  "part_file": "articles/inner-child-therapy/experiments/t124-sense/parts/PART-3.md",
+  "read_file": "articles/inner-child-therapy/experiments/t124-sense/reads/READ-3.json",
+  "task": "Read articles/inner-child-therapy/experiments/t124-sense/BRIEF.md, then articles/inner-child-therapy/experiments/t124-sense/parts/PART-3.md, and write articles/inner-child-therapy/experiments/t124-sense/reads/READ-3.json as the brief says."
+ }
+]
