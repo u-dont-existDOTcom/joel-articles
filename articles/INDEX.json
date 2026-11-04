@@ -108876,7 +108876,7 @@
         },
         {
           "path": "articles/bad-trips/OWNER-QUESTIONS.md",
-          "sha256": "539b9b656f90be11a38281b0c9b8b3b433e15bd59f4b818981b67fc38272d92e",
+          "sha256": "045d137a0a003055f973b3c8334fb65c5fa3798fb90593f320cbebb7c7b3fb44",
           "role": "owner_questions_page"
         },
         {
@@ -109202,6 +109202,11 @@
         {
           "path": "articles/bad-trips/experiments/t05-webapp/test_app.py",
           "sha256": "40ac0d88443c084fc856299bf257aa71338ee9af0937bdb91980429963b05ed5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/experiments/t05-warnings/WARNING-SENTENCES.json",
+          "sha256": "badbed2aa0ecef7c5933bbd9765b4e59f2eee3795059a2c33b09e675dcf7c9b8",
           "role": "humanization_working_record"
         }
       ]

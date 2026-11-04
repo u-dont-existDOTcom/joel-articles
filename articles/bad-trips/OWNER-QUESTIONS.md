@@ -6,9 +6,10 @@ Answer under an item's number in a message.
 
 ## Open
 
-1. **open — The agmatine warnings** (in the neuro de-armoring protocol). Checked one by one, with each study linked:
-   [the agmatine check](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t02-warnings/AGMATINE-WARNINGS-CHECK.md).
-   Which ones go is yours to say, and the neuro de-armoring lane, which owns that protocol, puts it in.
+1. **next — This guide's medical warnings, checked against the research** before they're humanized (the shared rule
+   since the agmatine check, gate E344; your words of 3 November: "some of those warnings i'm not even sure about i think
+   many came from old stupid gemini models"). What has nothing behind it comes to you as a cut, with its sources; what
+   only your experience can decide comes as a question.
 
 ## Your tasks
 
@@ -19,6 +20,10 @@ Answer under an item's number in a message.
   Once the page shows version 8, the checklist comes out of the guide, as you said.
 
 ## Decisions on record
+
+The agmatine warnings: the neuro de-armoring lane took this lane's check into its own check of all that protocol's
+warnings (gate E344, [its warnings check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261104/warnings/WARNINGS-CHECK.md)),
+so the cuts are asked there, not here.
 
 His message of 2026-11-04 11:35 UTC: "rewrite web app to match the guide if you can, but if you're blockewd by
 guardrails then keep checlist int he guide yeah" (nothing blocked it: version 8 is written and tested, and the checklist
