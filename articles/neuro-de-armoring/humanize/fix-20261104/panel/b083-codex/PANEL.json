@@ -1,0 +1,61 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Scott added a standard dose of UMP, and within a day his ketamine/LSD cravings fell hard.",
+  "He already had choline covered with eggs, and took fish oil for DHA/EPA.",
+  "His psychedelic tolerance seemed to drop too.",
+  "You can't tell from this whether UMP rebuilt his D3 receptors overnight.",
+  "It does suggest that in the right person, UMP can show you very clearly when the brain's system for rebuilding synaptic membranes and recovering dopamine receptors has been starved of building materials.",
+  "Scott was having vivid dreams again too, with real childhood memories coming back in them."
+ ],
+ "flagged": {
+  "1": [],
+  "2": [],
+  "3": [
+   "haiku"
+  ],
+  "4": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "haiku"
+  ]
+ },
+ "agreed": [
+  4,
+  5
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph moves neatly from anecdote through supporting details to a caveat, an explanatory takeaway, and an emotionally evocative closing. That construction can read AI-polished, especially where the voice shifts from casual storytelling to expansive explanation, but wording alone cannot establish authorship."
+  ],
+  "haiku": [
+   "The paragraph runs anecdote, caveat, generalizing conclusion, then a neat closing image, with short plain declaratives around one long balanced sentence; that is a common polished-explainer shape and the voice stays measured and impersonal, though none of this is conclusive."
+  ],
+  "sonnet": [
+   "The paragraph moves in an orderly way, from the case details to a caveat to a general lesson, and the lesson is written in a longer, smoother and more abstract register than the plain sentences around it. The resulting pattern of \"observation, hedge, tidy takeaway\" reads polished and built."
+  ]
+ },
+ "human_clean": [
+  "He already had choline covered with eggs",
+  "fell hard",
+  "ketamine/LSD cravings",
+  "He already had choline covered with eggs",
+  "took fish oil for DHA/EPA",
+  "fell hard",
+  "He already had choline covered with eggs",
+  "ketamine/LSD cravings",
+  "DHA/EPA"
+ ]
+}

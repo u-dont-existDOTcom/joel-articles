@@ -1,0 +1,61 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "The tool: Uridine monophosphate (UMP).",
+  "There's no study showing that \"UMP cures DAWS\", only more basic research on what uridine, choline, and DHA do in the brain.",
+  "All three get carried in the blood to the brain, which uses them to make the fatty membranes at its synapses (circulating precursors for brain phosphatide / synaptic membrane synthesis).",
+  "Wurtman's research group found that giving the three together can increase synaptic membrane components and synaptic proteins, and that in animals, adding UMP to DHA made the neurons grow more new connection points (DHA-induced dendritic spine formation).",
+  "And old rats that got UMP in their food released more dopamine when their neurons were stimulated with potassium, and grew more nerve fibers.",
+  "So it's plausible that it works on the synapses this way, but using it for DAWS in people means carefully extrapolating from those studies and from anecdotes like Scott's."
+ ],
+ "flagged": {
+  "1": [],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "5": [],
+  "6": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3,
+  4,
+  6
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph follows a tidy explanatory sequence: introduce the tool, qualify the evidence, explain the mechanism, summarize findings, and close with caution. That orderly construction and repeated technical glossing could suggest AI polishing, but neither establishes authorship."
+  ],
+  "haiku": [
+   "The paragraph runs as a tidy chain (mechanism, then studies, then a balanced caveat) joined by \"so\" and \"and,\" and its glossed parentheticals make it read like a summary written for accuracy rather than a writer talking to a reader."
+  ],
+  "sonnet": [
+   "The paragraph is built like a model's evidence summary: a disclaimer first, then mechanism, then findings, then a hedged verdict, with each sentence doing one clean job and the same even, cautious register throughout. The rhythm is uniformly measured, with few tangents, and nothing in it is sloppy or unexpected."
+  ]
+ },
+ "human_clean": [
+  "And old rats that got UMP in their food",
+  "old rats that got UMP in their food",
+  "And old rats that got UMP in their food released more dopamine when their neurons were stimulated with potassium, and grew more nerve fibers.",
+  "got UMP in their food"
+ ]
+}

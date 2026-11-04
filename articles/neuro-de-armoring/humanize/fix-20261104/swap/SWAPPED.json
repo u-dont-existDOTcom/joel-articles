@@ -1,0 +1,483 @@
+{
+ "about": "the typographic swap (E337 (gut)) on the article; three paragraphs keep their marks (see the script)",
+ "before_sha256": "6db92b7aff987195049b8af1f99883ec4a3f2e05e62af6a978679871c7957944",
+ "after_sha256": "6cf2ad04dfa69221175161d37c149475680aefe66fbe0f186a05630dda58f0f3",
+ "blocks_changed": 92,
+ "marks_changed": 258,
+ "kept_curly": [
+  {
+   "block": 25,
+   "where": "Psychology is the Software; Biology is the Hardware., P6"
+  },
+  {
+   "block": 150,
+   "where": "Scenario A: The “Glutamate Storm”, P9"
+  },
+  {
+   "block": 161,
+   "where": "Scenario C: The “Void”, P2"
+  }
+ ],
+ "changed": [
+  {
+   "block": 2,
+   "where": "Introduction, P1",
+   "marks": 1
+  },
+  {
+   "block": 3,
+   "where": "Introduction, P2",
+   "marks": 1
+  },
+  {
+   "block": 5,
+   "where": "the heading \"The “Biological Resilience” Protocol\"",
+   "marks": 2
+  },
+  {
+   "block": 7,
+   "where": "A Complete Guide to Bio-De-Armoring, P1",
+   "marks": 2
+  },
+  {
+   "block": 10,
+   "where": "A Complete Guide to Bio-De-Armoring, P4",
+   "marks": 4
+  },
+  {
+   "block": 11,
+   "where": "A Complete Guide to Bio-De-Armoring, P5",
+   "marks": 4
+  },
+  {
+   "block": 12,
+   "where": "A Complete Guide to Bio-De-Armoring, P6",
+   "marks": 2
+  },
+  {
+   "block": 13,
+   "where": "A Complete Guide to Bio-De-Armoring, P7",
+   "marks": 4
+  },
+  {
+   "block": 15,
+   "where": "A Complete Guide to Bio-De-Armoring, P9",
+   "marks": 2
+  },
+  {
+   "block": 16,
+   "where": "A Complete Guide to Bio-De-Armoring, P10",
+   "marks": 2
+  },
+  {
+   "block": 17,
+   "where": "A Complete Guide to Bio-De-Armoring, P11",
+   "marks": 3
+  },
+  {
+   "block": 20,
+   "where": "Psychology is the Software; Biology is the Hardware., P1",
+   "marks": 5
+  },
+  {
+   "block": 21,
+   "where": "Psychology is the Software; Biology is the Hardware., P2",
+   "marks": 4
+  },
+  {
+   "block": 22,
+   "where": "Psychology is the Software; Biology is the Hardware., P3",
+   "marks": 4
+  },
+  {
+   "block": 23,
+   "where": "Psychology is the Software; Biology is the Hardware., P4",
+   "marks": 9
+  },
+  {
+   "block": 24,
+   "where": "Psychology is the Software; Biology is the Hardware., P5",
+   "marks": 4
+  },
+  {
+   "block": 27,
+   "where": "Psychology is the Software; Biology is the Hardware., P8",
+   "marks": 5
+  },
+  {
+   "block": 30,
+   "where": "Part 1: THE SCIENCE (Why We Do This), P1",
+   "marks": 2
+  },
+  {
+   "block": 32,
+   "where": "A. The Metabolic Red Line, P1",
+   "marks": 6
+  },
+  {
+   "block": 33,
+   "where": "A. The Metabolic Red Line, P2",
+   "marks": 2
+  },
+  {
+   "block": 34,
+   "where": "the heading \"B. The “Overheating” CPU: Glutamate Excitotoxicity\"",
+   "marks": 2
+  },
+  {
+   "block": 35,
+   "where": "B. The “Overheating” CPU: Glutamate Excitotoxicity, P1",
+   "marks": 4
+  },
+  {
+   "block": 36,
+   "where": "B. The “Overheating” CPU: Glutamate Excitotoxicity, P2",
+   "marks": 7
+  },
+  {
+   "block": 37,
+   "where": "B. The “Overheating” CPU: Glutamate Excitotoxicity, P3",
+   "marks": 7
+  },
+  {
+   "block": 38,
+   "where": "B. The “Overheating” CPU: Glutamate Excitotoxicity, P4",
+   "marks": 8
+  },
+  {
+   "block": 40,
+   "where": "B. The “Overheating” CPU: Glutamate Excitotoxicity, P6",
+   "marks": 2
+  },
+  {
+   "block": 42,
+   "where": "B. The “Overheating” CPU: Glutamate Excitotoxicity, P8",
+   "marks": 4
+  },
+  {
+   "block": 43,
+   "where": "B. The “Overheating” CPU: Glutamate Excitotoxicity, P9",
+   "marks": 3
+  },
+  {
+   "block": 45,
+   "where": "the heading \"C. The “Hardened” Circuit: Dynorphin & DeltaFosB\"",
+   "marks": 2
+  },
+  {
+   "block": 46,
+   "where": "C. The “Hardened” Circuit: Dynorphin & DeltaFosB, P1",
+   "marks": 3
+  },
+  {
+   "block": 48,
+   "where": "C. The “Hardened” Circuit: Dynorphin & DeltaFosB, P3",
+   "marks": 5
+  },
+  {
+   "block": 51,
+   "where": "C. The “Hardened” Circuit: Dynorphin & DeltaFosB, P6",
+   "marks": 4
+  },
+  {
+   "block": 52,
+   "where": "the heading \"D. The “Lagging” System: Toxicity & Hypometabolism (The Fog)\"",
+   "marks": 2
+  },
+  {
+   "block": 53,
+   "where": "D. The “Lagging” System: Toxicity & Hypometabolism (The Fog), P1",
+   "marks": 3
+  },
+  {
+   "block": 55,
+   "where": "the heading \"E. The “Save Button”: Memory Reconsolidation\"",
+   "marks": 2
+  },
+  {
+   "block": 56,
+   "where": "E. The “Save Button”: Memory Reconsolidation, P1",
+   "marks": 2
+  },
+  {
+   "block": 57,
+   "where": "E. The “Save Button”: Memory Reconsolidation, P2",
+   "marks": 6
+  },
+  {
+   "block": 58,
+   "where": "E. The “Save Button”: Memory Reconsolidation, P3",
+   "marks": 4
+  },
+  {
+   "block": 61,
+   "where": "E. The “Save Button”: Memory Reconsolidation, P6",
+   "marks": 4
+  },
+  {
+   "block": 62,
+   "where": "E. The “Save Button”: Memory Reconsolidation, P7",
+   "marks": 2
+  },
+  {
+   "block": 66,
+   "where": "Part 2: Reducing Anxiety & Depression, P2",
+   "marks": 2
+  },
+  {
+   "block": 67,
+   "where": "Part 2: Reducing Anxiety & Depression, P3",
+   "marks": 5
+  },
+  {
+   "block": 69,
+   "where": "Part 2: Reducing Anxiety & Depression, P5",
+   "marks": 3
+  },
+  {
+   "block": 70,
+   "where": "Part 2: Reducing Anxiety & Depression, P6",
+   "marks": 2
+  },
+  {
+   "block": 71,
+   "where": "Part 2: Reducing Anxiety & Depression, P7",
+   "marks": 2
+  },
+  {
+   "block": 72,
+   "where": "Part 2: Reducing Anxiety & Depression, P8",
+   "marks": 1
+  },
+  {
+   "block": 73,
+   "where": "Part 2: Reducing Anxiety & Depression, P9",
+   "marks": 4
+  },
+  {
+   "block": 74,
+   "where": "Part 2: Reducing Anxiety & Depression, P10",
+   "marks": 2
+  },
+  {
+   "block": 77,
+   "where": "Agmatine vs PS vs Phosphatidylcholine, P2",
+   "marks": 2
+  },
+  {
+   "block": 79,
+   "where": "Agmatine vs PS vs Phosphatidylcholine, P4",
+   "marks": 2
+  },
+  {
+   "block": 81,
+   "where": "Dopamine Receptor Burnout / DAWS Pattern: Uridine Monophosphate, P1",
+   "marks": 5
+  },
+  {
+   "block": 82,
+   "where": "Dopamine Receptor Burnout / DAWS Pattern: Uridine Monophosphate, P2",
+   "marks": 3
+  },
+  {
+   "block": 83,
+   "where": "Dopamine Receptor Burnout / DAWS Pattern: Uridine Monophosphate, P3",
+   "marks": 1
+  },
+  {
+   "block": 85,
+   "where": "Dopamine Receptor Burnout / DAWS Pattern: Uridine Monophosphate, P5",
+   "marks": 2
+  },
+  {
+   "block": 88,
+   "where": "Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P, P1",
+   "marks": 1
+  },
+  {
+   "block": 90,
+   "where": "Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P, P3",
+   "marks": 1
+  },
+  {
+   "block": 91,
+   "where": "Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P, P4",
+   "marks": 2
+  },
+  {
+   "block": 94,
+   "where": "the heading \"Fixing ATP Signaling if Cortisol Isn’t High\"",
+   "marks": 1
+  },
+  {
+   "block": 95,
+   "where": "Fixing ATP Signaling if Cortisol Isn’t High, P1",
+   "marks": 1
+  },
+  {
+   "block": 97,
+   "where": "Fixing ATP Signaling if Cortisol Isn’t High, P3",
+   "marks": 2
+  },
+  {
+   "block": 99,
+   "where": "Fixing ATP Signaling if Cortisol Isn’t High, P5",
+   "marks": 2
+  },
+  {
+   "block": 104,
+   "where": "Part 3: THE SHIELD (Flu-Proofing & Voltage Control), P1",
+   "marks": 2
+  },
+  {
+   "block": 108,
+   "where": "1. Electrolytes (Choose Your Path), P3",
+   "marks": 2
+  },
+  {
+   "block": 110,
+   "where": "1. Electrolytes (Choose Your Path), P5",
+   "marks": 3
+  },
+  {
+   "block": 113,
+   "where": "1. Electrolytes (Choose Your Path), P8",
+   "marks": 2
+  },
+  {
+   "block": 119,
+   "where": "1. Electrolytes (Choose Your Path), P14",
+   "marks": 2
+  },
+  {
+   "block": 123,
+   "where": "2. The Glutamate Shield (Anxiety):, P2",
+   "marks": 4
+  },
+  {
+   "block": 126,
+   "where": "2. The Glutamate Shield (Anxiety):, P5",
+   "marks": 2
+  },
+  {
+   "block": 130,
+   "where": "2. The Glutamate Shield (Anxiety):, P9",
+   "marks": 2
+  },
+  {
+   "block": 134,
+   "where": "the heading \"3. The “Nuclear Option” (Ethnobotanical)\"",
+   "marks": 2
+  },
+  {
+   "block": 136,
+   "where": "3. The “Nuclear Option” (Ethnobotanical), P2",
+   "marks": 2
+  },
+  {
+   "block": 137,
+   "where": "3. The “Nuclear Option” (Ethnobotanical), P3",
+   "marks": 2
+  },
+  {
+   "block": 141,
+   "where": "the heading \"Scenario A: The “Glutamate Storm”\"",
+   "marks": 2
+  },
+  {
+   "block": 142,
+   "where": "Scenario A: The “Glutamate Storm”, P1",
+   "marks": 2
+  },
+  {
+   "block": 145,
+   "where": "Scenario A: The “Glutamate Storm”, P4",
+   "marks": 2
+  },
+  {
+   "block": 146,
+   "where": "Scenario A: The “Glutamate Storm”, P5",
+   "marks": 3
+  },
+  {
+   "block": 147,
+   "where": "Scenario A: The “Glutamate Storm”, P6",
+   "marks": 1
+  },
+  {
+   "block": 148,
+   "where": "Scenario A: The “Glutamate Storm”, P7",
+   "marks": 2
+  },
+  {
+   "block": 151,
+   "where": "Scenario A: The “Glutamate Storm”, P10",
+   "marks": 1
+  },
+  {
+   "block": 153,
+   "where": "Scenario A: The “Glutamate Storm”, P12",
+   "marks": 2
+  },
+  {
+   "block": 155,
+   "where": "the heading \"Scenario B: The “Fog”\"",
+   "marks": 2
+  },
+  {
+   "block": 156,
+   "where": "Scenario B: The “Fog”, P1",
+   "marks": 2
+  },
+  {
+   "block": 159,
+   "where": "the heading \"Scenario C: The “Void”\"",
+   "marks": 2
+  },
+  {
+   "block": 160,
+   "where": "Scenario C: The “Void”, P1",
+   "marks": 2
+  },
+  {
+   "block": 164,
+   "where": "Scenario C: The “Void”, P5",
+   "marks": 2
+  },
+  {
+   "block": 167,
+   "where": "Scenario C: The “Void”, P8",
+   "marks": 3
+  },
+  {
+   "block": 168,
+   "where": "Scenario C: The “Void”, P9",
+   "marks": 2
+  },
+  {
+   "block": 174,
+   "where": "Part 5: THE TIMELINE (The 8-Week Path), P5",
+   "marks": 3
+  },
+  {
+   "block": 176,
+   "where": "Part 5: THE TIMELINE (The 8-Week Path), P7",
+   "marks": 2
+  },
+  {
+   "block": 178,
+   "where": "Part 5: THE TIMELINE (The 8-Week Path), P9",
+   "marks": 3
+  },
+  {
+   "block": 182,
+   "where": "Part 5: THE TIMELINE (The 8-Week Path), P13",
+   "marks": 2
+  },
+  {
+   "block": 190,
+   "where": "The Aftermath: The Relational Vacuum, P1",
+   "marks": 3
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+[
+ {
+  "key": "b082",
+  "name": "the uridine evidence paragraph, second try",
+  "lineage": "ND1104-B082",
+  "scope": "paragraph",
+  "words": 159,
+  "call": "AI",
+  "chance": 0.45,
+  "why": "each study finding in its own sentence in plain words, the plain meaning before the term (\"grew more nerve fibers (neurite outgrowth)\"), the caveat said plainly with its warning words kept, a pointer to Scott; the first part is try 1's, which read Human (Medium)",
+  "sha256": "c1e090152939ec4bcb5d9253df2ceec91b6c28f473312621c54942f399cc6cfb"
+ },
+ {
+  "key": "b083",
+  "name": "Scott's signal, second try",
+  "lineage": "ND1104-B083",
+  "scope": "paragraph",
+  "words": 109,
+  "call": "AI",
+  "chance": 0.4,
+  "why": "one account joined by \"so\", \"but\", \"and within a day\", the plain meaning before the term (\"the system that rebuilds ... (the 'synaptic-membrane / dopamine-receptor-recovery axis')\"), \"It's hard to say whether\" for \"That does not prove\"; the last sentence is still long",
+  "sha256": "23ec01eeb0f13a8fc28b6d1bdedd92109f278e718984c032bd62ce4b79141a40"
+ }
+]

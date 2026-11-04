@@ -83,6 +83,24 @@ class FidelityKeys(unittest.TestCase):
         with self.assertRaises(ValueError):
             fk.check(dict(self.keys, owner_wording=[{'his': 'x', 'for': 'not a key', 'unit': unit, 'by': 'X-84'}]), MASTER)
 
+    def test_what_his_version_left_out_is_held_open_not_passed_or_lost(self):
+        his = MASTER.replace('5-HTP, agmatine or', 'agmatine or')
+        self.assertIn('5-HTP', fk.check(self.keys, his)['terms_lost'])
+        keys = dict(self.keys, owner_open=[{'term': '5-HTP', 'by': 'his card', 'question': 'question 3'}])
+        r = fk.check(keys, his)
+        self.assertTrue(r['pass'], r)
+        self.assertEqual([o['term'] for o in r['open_with_owner']], ['5-HTP'])
+        # anything else lost still fails
+        self.assertFalse(fk.check(keys, his.replace('150–300 mg', '150–250 mg'))['pass'])
+        with self.assertRaises(ValueError):
+            fk.check(dict(self.keys, owner_open=[{'term': '5-HTP', 'by': 'his card'}]), his)
+
+    def test_the_typographic_swap_loses_nothing(self):
+        master = MASTER + '\nDo not stay numb—living in your head is the trap.\n'
+        keys = fk.extract(master)
+        self.assertTrue(fk.check(keys, master.replace('numb—living', 'numb – living'))['pass'])
+        self.assertTrue(fk.check(keys, master.replace('“push through”', '"push through"'))['pass'])
+
     def test_a_heading_in_capitals_is_not_a_compound(self):
         k = fk.extract('# THE SHIELD\n\nNAC: 1.8g – 2.4g (divided doses).\n')
         self.assertIn('NAC', k['terms'])

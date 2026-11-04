@@ -50,11 +50,15 @@ class Paths(unittest.TestCase):
 
     def test_fix_links_to_the_branch_it_runs_on(self):
         # 2026-10-25: a fix in the hypnosis guide lane linked AGENTS.md to the Inner Child lane's branch, the old default
+        import os
         import subprocess
         import tempfile
+        # a clean environment: inside the pre-push hook GIT_DIR names the repository being pushed, and `git init` would
+        # re-initialize that one instead of making a new one in d (2026-11-04)
+        env = {k: v for k, v in os.environ.items() if not k.startswith('GIT_')}
         with tempfile.TemporaryDirectory() as d:
             self.assertEqual(R.current_branch(d), R.BRANCH)          # no git: the old default
-            subprocess.run(['git', 'init', '-q', '-b', 'claude/some-lane', d], check=True)
+            subprocess.run(['git', 'init', '-q', '-b', 'claude/some-lane', d], check=True, env=env)
             self.assertEqual(R.current_branch(d), 'claude/some-lane')
 
     def test_fix_leaves_a_path_it_cant_find(self):

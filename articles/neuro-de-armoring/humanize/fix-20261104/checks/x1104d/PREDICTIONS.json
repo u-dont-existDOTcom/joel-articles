@@ -1,0 +1,24 @@
+[
+ {
+  "key": "b082",
+  "name": "the uridine evidence paragraph, fourth try",
+  "lineage": "ND1104-B082",
+  "scope": "paragraph",
+  "words": 150,
+  "call": "AI",
+  "chance": 0.45,
+  "why": "the animal findings in two sentences of different shapes (\"In animals, adding UMP to DHA made neurons grow more new connection points than DHA alone (...)\", \"Old rats that got UMP in their food also ...\"), the rest as in try 3 (Human High, Low, High)",
+  "sha256": "7fa51b5ae77e798f2a3c9039b39de70055efc17d493cceee7e3ad302a80286c0"
+ },
+ {
+  "key": "b083",
+  "name": "Scott's signal, fourth try",
+  "lineage": "ND1104-B083",
+  "scope": "paragraph",
+  "words": 114,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "the coined label \"Scott's signal:\" gone, the short line for the reader gone, the reasoning said in order (he had choline and DHA, so the uridine looks like the missing piece), the caveat folded into the last sentence (\"Whether or not ...\")",
+  "sha256": "7dc1b44a03384dc2bed0592b58099b11ff8051559561a8ed2200164782aaefd8"
+ }
+]

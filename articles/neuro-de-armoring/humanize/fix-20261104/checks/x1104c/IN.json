@@ -1,0 +1,20 @@
+{
+ "b082": {
+  "lineage": "ND1104-B082",
+  "name": "the uridine evidence paragraph, third try",
+  "text": "The tool: Uridine monophosphate (UMP). There's no study showing that \"UMP cures DAWS\", so the best evidence we have is more basic than that. Uridine, choline, and DHA are circulating precursors (building blocks carried in the blood) for brain phosphatide / synaptic membrane synthesis, that is, for making the fatty membranes at the connections between neurons. Wurtman's research group found that giving DHA, uridine and choline together can increase the building blocks and proteins of those synaptic membranes. In animals, UMP also increased how many new connection points DHA makes neurons grow (DHA-induced dendritic spine formation), and old rats that got UMP in their food released more dopamine when their neurons were stimulated, and grew more nerve fibers. So it's plausible that it works on the synapses this way, but using it for DAWS in people is still a cautious extrapolation from those studies, plus anecdotes like Scott's.",
+  "chance": 0.35,
+  "why": "the animal findings joined into one sentence with the plain meaning first and the term in brackets (\"how many new connection points DHA makes neurons grow (DHA-induced dendritic spine formation)\"); the rest as in try 2 (Human High, Low and Medium windows)",
+  "diagnosis": "try 2 read 30.9% AI: only the animal findings read AI (Medium), where each was a separate sentence with the gloss after the term (\"(the spines are the tiny bumps ...)\") and \"And when old rats ...\"",
+  "decides": "whether putting the plain meaning first in the animal findings turns the paragraph Human"
+ },
+ "b083": {
+  "lineage": "ND1104-B083",
+  "name": "Scott's signal, third try",
+  "text": "Scott's signal: Scott was already getting choline from eggs and DHA/EPA from fish oil, so a standard dose of UMP was what he added. Within a day his vivid dreams were back, with real childhood memories in them. His psychedelic tolerance seemed to drop too, and his ketamine/LSD cravings fell off hard. That's the kind of fast response to watch for. We can't tell from it whether UMP rebuilt his D3 dopamine receptors overnight, but in the right person it can be a very clear sign that the system rebuilding synaptic membranes and dopamine receptors (the synaptic-membrane / dopamine-receptor-recovery axis) was starved.",
+  "chance": 0.3,
+  "why": "the reason said (\"so a standard dose of UMP was what he added\"), a line for the reader (\"That's the kind of fast response to watch for\"), the plain meaning before the term; but it is still an anecdote, a list of effects, a hedge and an interpretation",
+  "diagnosis": "tries 1 and 2 read 100% AI in one High window: the anecdote, a list of effects, a hedge, then an interpretation, which rewording kept; this try points it at the reader, the way his X-84 says what a number is for",
+  "decides": "whether pointing the anecdote at the reader moves it, or whether its shape is his to change"
+ }
+}
