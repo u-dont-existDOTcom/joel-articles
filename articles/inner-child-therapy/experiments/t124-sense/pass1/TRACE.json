@@ -1,0 +1,462 @@
+[
+ {
+  "block": 8,
+  "text": "like another ex of mine (X), got so deep",
+  "kind": "broken",
+  "what": "\"Another ex\" points back to an earlier ex, but no ex has been mentioned before this point in the article, so it has nothing to point at.",
+  "fix": "like an ex of mine (X), got so deep",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "broken",
+    "what": "\"Another ex\" points back to an earlier ex, but no ex has been mentioned before this point in the article, so it has nothing to point at.",
+    "fix": "like an ex of mine (X), got so deep",
+    "confidence": "likely"
+   }
+  ],
+  "whose": "his guide",
+  "section": "Understanding Reparenting",
+  "block_text": "Some people, like another ex of mine (X), got so deep into crying that it became traumatizing. She actually had panic attacks from it. If you start getting scared of your own crying, turn the song off for tonight."
+ },
+ {
+  "block": 10,
+  "text": "Unfortunate in the sense that we often don't truly develop",
+  "kind": "slip",
+  "what": "Breaks the pair with \"Fortunately in the sense that...\" in the sentence before; the adverb \"Unfortunately\" is meant.",
+  "fix": "Unfortunately in the sense that we often don't truly develop",
+  "confidence": "sure",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "slip",
+    "what": "Breaks the pair with \"Fortunately in the sense that...\" in the sentence before; the adverb \"Unfortunately\" is meant.",
+    "fix": "Unfortunately in the sense that we often don't truly develop",
+    "confidence": "sure"
+   }
+  ],
+  "whose": "his guide",
+  "section": "The Chicken-and-Egg Problem",
+  "block_text": "Céline's song is called On ne change pas – \"we don't change.\" I think that's both fortunately, and unfortunately, true for most of us. Fortunately in the sense that the sweet, innocent, curious, vivacious little one is still inside us, even if hiding. Unfortunate in the sense that we often don't truly develop the adult qualities that we might pretend to have, so we continue burdening that little one inside us with troubles they aren't made for handling. This shows up in how we may feel abandoned, helpless, impulsive, frightened, or desperate to be chosen."
+ },
+ {
+  "block": 68,
+  "text": "it isn't a free new-age get-out-of-jail-free card",
+  "kind": "broken",
+  "what": "\"Free\" is said twice: a get-out-of-jail-free card is already free, so the first \"free\" doubles it.",
+  "fix": "it isn't a new-age get-out-of-jail-free card",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "broken",
+    "what": "\"Free\" is said twice: a get-out-of-jail-free card is already free, so the first \"free\" doubles it.",
+    "fix": "it isn't a new-age get-out-of-jail-free card",
+    "confidence": "likely"
+   }
+  ],
+  "whose": "his guide",
+  "section": "The Spiritual Side of the Question",
+  "block_text": "In Buddhism, death isn't an off switch, and it isn't a free new-age get-out-of-jail-free card back to the Divine Source. Repeated thought and intention shape the mind, and that keeps going through death and rebirth. Yes, that can include hell realms (and hell can be right here on Earth, also). A human birth is a rare chance to understand suffering and end its causes."
+ },
+ {
+  "block": 69,
+  "text": "Even if every case is different, I'd read a few of those cases",
+  "kind": "wrong-word",
+  "what": "The clause should concede a weakness in the cases, and \"different\" concedes nothing, so the sentence doesn't hold together; a word like \"debatable\" seems meant.",
+  "fix": "Even if every case is debatable, I'd read a few of those cases",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "wrong-word",
+    "what": "The clause should concede a weakness in the cases, and \"different\" concedes nothing, so the sentence doesn't hold together; a word like \"debatable\" seems meant.",
+    "fix": "Even if every case is debatable, I'd read a few of those cases",
+    "confidence": "likely"
+   }
+  ],
+  "whose": "his guide",
+  "section": "The Spiritual Side of the Question",
+  "block_text": "You don't have to believe that, but if you're still thinking of staking your life on the opposite claim, that death is just nothing, might that be a double standard to look into? Curiosity killed the cat, you might say, so research could be dangerous. 😅 But despite the risk of curiosity, researchers at the University of Virginia have been busy little bees, collecting cases for 60 YEARS now, of young kids who talk about a past life, and there's a big pile of near-death accounts too. Even if every case is different, I'd read a few of those cases before betting my life on \"nothing.\""
+ },
+ {
+  "block": 96,
+  "text": "eager to take guidance, and that's where Guide-building comes.",
+  "kind": "broken",
+  "what": "The idiom is \"that's where X comes in\"; without \"in\" the sentence stops short.",
+  "fix": "eager to take guidance, and that's where Guide-building comes in.",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "broken",
+    "what": "The idiom is \"that's where X comes in\"; without \"in\" the sentence stops short.",
+    "fix": "eager to take guidance, and that's where Guide-building comes in.",
+    "confidence": "likely"
+   }
+  ],
+  "whose": "his guide",
+  "section": "Borrow One Competency at a Time",
+  "block_text": "While all of these super powers should be developed alongside each other, the inner child's receptivity will naturally follow this order: first he/she wants to feel safe (Protector), then, building on that safety, feel loved (Nurturer), and then building on the safety & love, trust allows the little one to be eager to take guidance, and that's where Guide-building comes."
+ },
+ {
+  "block": 98,
+  "text": "\"Huh, somebody in here is really scared.\" might be the most adult thing",
+  "kind": "slip",
+  "what": "A full stop sits inside the quoted words although the sentence carries on after them.",
+  "fix": "\"Huh, somebody in here is really scared\" might be the most adult thing",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "slip",
+    "what": "A full stop sits inside the quoted words although the sentence carries on after them.",
+    "fix": "\"Huh, somebody in here is really scared\" might be the most adult thing",
+    "confidence": "likely"
+   }
+  ],
+  "whose": "his guide",
+  "section": "Noticing Counts",
+  "block_text": "Even before you build up any of these capacities, you can start with simply being present with your little one, which does a lot more than you might think to set the stage for the proper division of identity. Just saying, \"Huh, somebody in here is really scared.\" might be the most adult thing you've got right now, but notice that whoever's noticing isn't all the way inside the scared one."
+ },
+ {
+  "block": 105,
+  "text": "\"What's a 'boundary'?\", I might be asking.",
+  "kind": "wrong-word",
+  "what": "The question is the reader's, as with \"What's an 'internal attack'?\" in block 112, so \"you\" is meant; \"I\" has the writer asking what a boundary is, unless that is a joke on himself.",
+  "fix": "\"What's a 'boundary'?\", you might be asking.",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "wrong-word",
+    "what": "The question is the reader's, as with \"What's an 'internal attack'?\" in block 112, so \"you\" is meant; \"I\" has the writer asking what a boundary is, unless that is a joke on himself.",
+    "fix": "\"What's a 'boundary'?\", you might be asking.",
+    "confidence": "likely"
+   }
+  ],
+  "whose": "his guide",
+  "section": "Talk to the hand!✋🏿",
+  "block_text": "Setting boundaries is an obvious first protector move. \"What's a 'boundary'?\", I might be asking. That looks like saying no to something that's costing you too much (money, time, health, or whatever resource). Handle that task you've been putting off, or the tax man, or your DUIs in Maryland, even if all you do today is open the envelope."
+ },
+ {
+  "block": 156,
+  "text": "perception to a glass \"half full perception.\"",
+  "kind": "slip",
+  "what": "The quote marks are misplaced: they should hold \"glass half full\", matching \"glass half empty\" earlier in the same sentence.",
+  "fix": "perception to a \"glass half full\" perception.",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "slip",
+    "what": "The quote marks are misplaced: they should hold \"glass half full\", matching \"glass half empty\" earlier in the same sentence.",
+    "fix": "perception to a \"glass half full\" perception.",
+    "confidence": "likely"
+   }
+  ],
+  "whose": "his guide",
+  "section": "Your Loan is PRE-APPROVED!",
+  "block_text": "This is a bit tricky to put into words, but let me try anyway… You may be suffering now, but you could be suffering more. That's something to be grateful for (although please don't fall into the common trap of being grateful that you have what others don't have, as that's more like selfishness). I'm not talking just about changing your \"glass half empty\" perception to a glass \"half full perception.\" I'm not pushing \"toxic positivity.\" Being thankful shouldn't be pushed on people who just need to grieve for the moment. On the other hand, I've noticed that I can sometimes completely flip a bad psychedelic trip into a good one with gratitude alone."
+ },
+ {
+  "block": 212,
+  "text": "Hearing it doesn't require giving into it",
+  "kind": "slip",
+  "what": "You give in to a want, not into it: \"into\" should be \"in to\".",
+  "fix": "Hearing it doesn't require giving in to it",
+  "confidence": "likely",
+  "readers": [
+   2
+  ],
+  "reports": [
+   {
+    "reader": 2,
+    "kind": "slip",
+    "what": "You give in to a want, not into it: \"into\" should be \"in to\".",
+    "fix": "Hearing it doesn't require giving in to it",
+    "confidence": "likely"
+   }
+  ],
+  "whose": "his guide",
+  "section": "Between Spoiling and Clamping Down",
+  "block_text": "After all, sometimes \"I want it NOW!\" is just that: a rung on the desire treadmill. No hidden guard or old trauma required, because all creatures have endless desires naturally anyway, especially when immature. You can hear that want without shame about it. Hearing it doesn't require giving into it, especially if getting your way would hurt you or somebody else."
+ },
+ {
+  "block": 212,
+  "text": "is just that: a rung on the desire treadmill",
+  "kind": "wrong-word",
+  "what": "A treadmill has no rungs (a ladder does), so the image doesn't work; on a treadmill it's a step.",
+  "fix": "is just that: a step on the desire treadmill",
+  "confidence": "likely",
+  "readers": [
+   2
+  ],
+  "reports": [
+   {
+    "reader": 2,
+    "kind": "wrong-word",
+    "what": "A treadmill has no rungs (a ladder does), so the image doesn't work; on a treadmill it's a step.",
+    "fix": "is just that: a step on the desire treadmill",
+    "confidence": "likely"
+   }
+  ],
+  "whose": "his guide",
+  "section": "Between Spoiling and Clamping Down",
+  "block_text": "After all, sometimes \"I want it NOW!\" is just that: a rung on the desire treadmill. No hidden guard or old trauma required, because all creatures have endless desires naturally anyway, especially when immature. You can hear that want without shame about it. Hearing it doesn't require giving into it, especially if getting your way would hurt you or somebody else."
+ },
+ {
+  "block": 262,
+  "text": "Count recognition as progress, regardless whether it came up a bit late",
+  "kind": "broken",
+  "what": "\"regardless whether\" is missing \"of\".",
+  "fix": "Count recognition as progress, regardless of whether it came up a bit late",
+  "confidence": "likely",
+  "readers": [
+   2
+  ],
+  "reports": [
+   {
+    "reader": 2,
+    "kind": "broken",
+    "what": "\"regardless whether\" is missing \"of\".",
+    "fix": "Count recognition as progress, regardless of whether it came up a bit late",
+    "confidence": "likely"
+   }
+  ],
+  "whose": "his guide",
+  "section": "One Intention in the Morning, One Review at Night",
+  "block_text": "Count recognition as progress, regardless whether it came up a bit late, as the goal is to bring the awareness closer and closer to the present. All or nothing from the get go would be cool, but we normally have to learn step by step. If/when you interrupted the pattern, pat yourself on the back, or even kiss yourself on the shoulder. You can renew your intention for tomorrow, getting better & better, every day, in every way, as my Dad used to say. And enjoy your well-earned rest tonight."
+ },
+ {
+  "block": 373,
+  "text": "I still played around with half-hanging out the windows",
+  "kind": "contradiction",
+  "what": "Just after his parents \"put bars on the windows\" he says he \"still\" half-hung out of them, which the bars would have stopped; if it happened before the bars went on, the sentence should say so (the timing is Joel's to confirm).",
+  "fix": "Before the bars went on, I played around with half-hanging out the windows",
+  "confidence": "likely",
+  "readers": [
+   3
+  ],
+  "reports": [
+   {
+    "reader": 3,
+    "kind": "contradiction",
+    "what": "Just after his parents \"put bars on the windows\" he says he \"still\" half-hung out of them, which the bars would have stopped; if it happened before the bars went on, the sentence should say so (the timing is Joel's to confirm).",
+    "fix": "Before the bars went on, I played around with half-hanging out the windows",
+    "confidence": "likely"
+   }
+  ],
+  "whose": "his guide",
+  "section": "Altered States Can Require Reparenting",
+  "block_text": "Those ghosts knew my weakness: dares. So they would dare me to jump out the window. I wasn't suicidal, but I hated to seem like a \"wussy.\" Luckily, I trusted my parents with this information, and instead of taking me to a psychiatrist and pumping me full of anti-psychotic drugs, they put bars on the windows. Many kids are not so lucky in modern societies. They may get pumped full of anti-psychotic drugs for the rest of their life once diagnosed. That said, it'd make sense to get a professional to weigh in for some situations. I still played around with half-hanging out the windows, but I wasn't quite dumb enough to jump out, and I really appreciate that my parents took it seriously without catastrophizing."
+ },
+ {
+  "block": 384,
+  "text": "something bigger than you, before that love starts to feel like yours, and then bit by bit it starts to become your own",
+  "kind": "broken",
+  "what": "The sentence says the same step twice (the love \"starts to feel like yours\", and then \"starts to become your own\"), like two versions left side by side.",
+  "fix": "something bigger than you, and then bit by bit that love starts to become your own",
+  "confidence": "likely",
+  "readers": [
+   3
+  ],
+  "reports": [
+   {
+    "reader": 3,
+    "kind": "broken",
+    "what": "The sentence says the same step twice (the love \"starts to feel like yours\", and then \"starts to become your own\"), like two versions left side by side.",
+    "fix": "something bigger than you, and then bit by bit that love starts to become your own",
+    "confidence": "likely"
+   }
+  ],
+  "whose": "his guide",
+  "section": "Using spiritual attack for spiritual gain",
+  "block_text": "Borrowing support like that is basically borrowed adulthood. At first you may need to feel protected or loved by something bigger than you, before that love starts to feel like yours, and then bit by bit it starts to become your own. Send some of it down to your frightened little one, and when that's possible, toward whatever you're afraid of. Continuing to relate to benevolent spiritual powers/beings is still perfectly fine, but they would surely be happy if they rubbed off on you! If you're Christian, remember that in John 14:12, Jesus told his disciples whoever believed in him would do greater works than he did."
+ },
+ {
+  "block": 428,
+  "text": "a kind of test--\"First impressions are everything,\"",
+  "kind": "slip",
+  "what": "A double hyphen with no spaces stands where his spaced en dash belongs (as in block 472).",
+  "fix": "a kind of test – \"First impressions are everything,\"",
+  "confidence": "likely",
+  "readers": [
+   3
+  ],
+  "reports": [
+   {
+    "reader": 3,
+    "kind": "slip",
+    "what": "A double hyphen with no spaces stands where his spaced en dash belongs (as in block 472).",
+    "fix": "a kind of test – \"First impressions are everything,\"",
+    "confidence": "likely"
+   }
+  ],
+  "whose": "his guide",
+  "section": "First Social Connections, Done Right",
+  "block_text": "Then there are people you're just getting to know. Meeting them can turn into a kind of test--\"First impressions are everything,\" as they say, but it could be even worse than that, if you need them to prove you're lovable."
+ },
+ {
+  "block": 438,
+  "text": "So I'd ask this person, before handing over any tricky specifics",
+  "kind": "contradiction",
+  "what": "He says \"I'd ask this person\" the question, then two sentences later \"personally I wouldn't even bother with that\", so the advice contradicts itself.",
+  "fix": "So you could ask this person, before handing over any tricky specifics",
+  "confidence": "likely",
+  "readers": [
+   3
+  ],
+  "reports": [
+   {
+    "reader": 3,
+    "kind": "contradiction",
+    "what": "He says \"I'd ask this person\" the question, then two sentences later \"personally I wouldn't even bother with that\", so the advice contradicts itself.",
+    "fix": "So you could ask this person, before handing over any tricky specifics",
+    "confidence": "likely"
+   }
+  ],
+  "whose": "his guide",
+  "section": "Before You Tell the Hardest Stuff",
+  "block_text": "So I'd ask this person, before handing over any tricky specifics: \"What does the law require you to report?\" That's a normal and expected question. Although personally I wouldn't even bother with that, because whatever they tell you today, the law can change tomorrow."
+ },
+ {
+  "block": 439,
+  "text": "got in trouble with TalkSpace therapy bot even for a dream",
+  "kind": "broken",
+  "what": "The article before the bot is missing, and the company spells its name Talkspace.",
+  "fix": "got in trouble with the Talkspace therapy bot even for a dream",
+  "confidence": "likely",
+  "readers": [
+   3
+  ],
+  "reports": [
+   {
+    "reader": 3,
+    "kind": "broken",
+    "what": "The article before the bot is missing, and the company spells its name Talkspace.",
+    "fix": "got in trouble with the Talkspace therapy bot even for a dream",
+    "confidence": "likely"
+   }
+  ],
+  "whose": "his guide",
+  "section": "Before You Tell the Hardest Stuff",
+  "block_text": "You can always rephrase things as a dream narrative to get the emotional content across without triggering alarm bells (although I actually got in trouble with TalkSpace therapy bot even for a dream!). Just don't hold back a danger that's happening now from people who can help, and get anyone in danger safe before worrying about the rest. Sometimes telling on yourself is the thing that keeps someone safe, whatever it costs you legally."
+ },
+ {
+  "block": 506,
+  "text": "Below are the differences between Lucia's approach and my guide's approach:",
+  "kind": "broken",
+  "what": "The colon promises a list of differences from Lucia's approach, but the Schema Therapy heading comes next and no such list appears in the appendix (block 493 also points to Lucia's protocol \"in the Appendix\"), unless it's a table or picture the blocks leave out.",
+  "fix": "Below are the differences between Lucia's approach and my guide's approach: [the missing list goes here]",
+  "confidence": "likely",
+  "readers": [
+   3
+  ],
+  "reports": [
+   {
+    "reader": 3,
+    "kind": "broken",
+    "what": "The colon promises a list of differences from Lucia's approach, but the Schema Therapy heading comes next and no such list appears in the appendix (block 493 also points to Lucia's protocol \"in the Appendix\"), unless it's a table or picture the blocks leave out.",
+    "fix": "Below are the differences between Lucia's approach and my guide's approach: [the missing list goes here]",
+    "confidence": "likely"
+   }
+  ],
+  "whose": "not in his texts",
+  "section": "How This Relates to Similar Therapies",
+  "block_text": "My reparenting guide is part of the larger reparenting and inner child therapy category. As far as I can tell, it was first developed in 1976 by Dr. Lucia Capacchione. Although Lucia is no longer with us, her institute still trains therapists in her methods (including art therapy and other things). I greatly respect and appreciate what Lucia has given us to work with. While there are many inner child therapy offshoots (often less codified than Lucia's book, Recovery of Your Inner Child), it would be impossible for me to compare my guide to each individual therapist's approach. Below are the differences between Lucia's approach and my guide's approach:"
+ },
+ {
+  "block": 514,
+  "text": "so \"meet the protector first\" would fit right in over there",
+  "kind": "wrong-word",
+  "what": "In this guide the Protector is the grown-up's job and the protective parts are guards (block 512), and Joel has asked that \"protector\" never mean \"guard\", so the quoted advice names the wrong thing.",
+  "fix": "so \"meet the guard first\" would fit right in over there",
+  "confidence": "likely",
+  "readers": [
+   3
+  ],
+  "reports": [
+   {
+    "reader": 3,
+    "kind": "wrong-word",
+    "what": "In this guide the Protector is the grown-up's job and the protective parts are guards (block 512), and Joel has asked that \"protector\" never mean \"guard\", so the quoted advice names the wrong thing.",
+    "fix": "so \"meet the guard first\" would fit right in over there",
+    "confidence": "likely"
+   }
+  ],
+  "whose": "his edit (joel-116-117-guide)",
+  "section": "Internal Family Systems (IFS)",
+  "block_text": "Richard Schwartz, who developed IFS in the 1980s, called one of his books [No Bad Parts](https://ifs-institute.com/store/419). Honor, understand and love every part, he says, and the protective ones are no exception, so \"meet the protector first\" would fit right in over there, although I focus more on keeping the inner child safe first. The one exception is that IFS does understand some parts may be entity attachments (\"unattached burdens\") which need to be exorcised. My guide also talks about entity attachments, but I don't believe that's reason to start another war. Rather, I explain the root cause of such attachments as lack of protective love from the inner adult."
+ },
+ {
+  "block": 517,
+  "text": "clarity to whomever accesses it",
+  "kind": "slip",
+  "what": "The pronoun is the subject of \"accesses\", so it takes \"whoever\", not \"whomever\".",
+  "fix": "clarity to whoever accesses it",
+  "confidence": "sure",
+  "readers": [
+   3
+  ],
+  "reports": [
+   {
+    "reader": 3,
+    "kind": "slip",
+    "what": "The pronoun is the subject of \"accesses\", so it takes \"whoever\", not \"whomever\".",
+    "fix": "clarity to whoever accesses it",
+    "confidence": "sure"
+   }
+  ],
+  "whose": "his guide",
+  "section": "Internal Family Systems (IFS)",
+  "block_text": "So, there is a less subjective way of seeing things as perfectly ordained in reality, despite the ego's illusions, which matches what others say about it. As a Buddhist, I no longer see it as \"Self\", though it can still give the same love, peace, and clarity to whomever accesses it. Where I part ways with IFS is I don't think the Higher Self has any specific wisdom that can be followed mechanically. From that higher vantage point, problems can also look like they were never problems at all, and that can ironically lead instead to more foolish indifference."
+ },
+ {
+  "block": 518,
+  "text": "Anthony de Mello) is an excellent example",
+  "kind": "slip",
+  "what": "A stray closing bracket follows the name, with no opening one.",
+  "fix": "Anthony de Mello is an excellent example",
+  "confidence": "sure",
+  "readers": [
+   3
+  ],
+  "reports": [
+   {
+    "reader": 3,
+    "kind": "slip",
+    "what": "A stray closing bracket follows the name, with no opening one.",
+    "fix": "Anthony de Mello is an excellent example",
+    "confidence": "sure"
+   }
+  ],
+  "whose": "not in his texts",
+  "section": "Internal Family Systems (IFS)",
+  "block_text": "You can see both sides of this see-saw in the guru types who supposedly embody their Higher Self. Anthony de Mello) is an excellent example. He was a Jesuit priest who mixed stories from all kinds of traditions into his teaching on seeing through the ego's traps and coming back to the Perfect Present. He also had a background as a psychotherapist who understood trauma-informed healing methods. He seemed to drift between the two opposite paradigms in a way that contradicted itself. And that bizarre contradiction is itself cited as \"crazy wisdom\" by apologists."
+ }
+]
