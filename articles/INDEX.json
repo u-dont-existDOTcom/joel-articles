@@ -235,7 +235,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "89b1dbd796427df59c658a71468cee3c007cfede033a186a25055d6478f7e682"
+          "sha256": "33e5b253dd2837f704b7181cd2f75570b4d9d361862231085fb7d1aeb72dd770"
         }
       },
       "review": {
@@ -22854,7 +22854,7 @@
         },
         {
           "path": "articles/inner-child-therapy/HANDOFF-UPDATE.json",
-          "sha256": "ebda13ab95e53ea0412df3ba8981f7fc591250c506fce8c168ceaed9a5361676",
+          "sha256": "ec7d71297817da0f6f617052da3cd364f326a7d90f50947f4606fb3593afd27f",
           "role": "humanization_working_record"
         },
         {
@@ -33400,6 +33400,16 @@
         {
           "path": "articles/inner-child-therapy/experiments/t127-publish/publish_dispatch.js",
           "sha256": "a221069fdf51efc4bf0da548a8a154c52b9e64db3b06c9fcc2cb4449b7a596ad",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t127-publish/DISPATCHED.json",
+          "sha256": "2d34048a7a7ca5f263a05894c86ac33c48be00ad4996663e0bb881d17911c325",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t127-publish/handoff_t127.py",
+          "sha256": "89fd4448b7ae44a01336b27a2779698c677eec01d445eeac7e8187f5e1743b9b",
           "role": "humanization_working_record"
         }
       ]
