@@ -60,7 +60,11 @@ for a in root.find_all(True):
 curl_nodes(root)
 body = ''.join(str(c) for c in root.contents)
 text = root.get_text('\n')
-words = ' '.join(text.translate(str.maketrans({'‘': "'", '’': "'", '“': '"', '”': '"'})).split())
+# the words the paste helper compares, counted as the editor shows them: one block's text with no break at a link's edge
+# (text above splits "strategy</a>." into "strategy" and ".", 3,425 words where the editor has 3,387; 2026-11-04)
+blocks = [el.get_text('') for el in root.find_all(['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'li'])
+          if not (el.name == 'li' and el.find(['p', 'ul', 'ol']))]
+words = ' '.join(' '.join(blocks).translate(str.maketrans({'‘': "'", '’': "'", '“': '"', '”': '"'})).split())
 (HERE / 'PAYLOAD-A.html').write_text(body, encoding='utf-8')
 (HERE / 'TEXT-A.txt').write_text(text, encoding='utf-8')
 meta = {'source': 'r07.html', 'source_sha256': hashlib.sha256((HERE.parent / 'r07.html').read_bytes()).hexdigest(),
