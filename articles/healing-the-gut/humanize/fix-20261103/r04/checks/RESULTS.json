@@ -1,0 +1,65 @@
+{
+ "r04-fuel-glutamine-his": {
+  "sha256": "6a0f7626e5bcf6891dbfaa9185d673fffb1dde811c21bf258e8318311fe90fc2",
+  "words": 93,
+  "prediction_short": "Human",
+  "fraction_human": 1.0,
+  "fraction_ai": 1.6316642162782128e-17,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/8722d127-8713-4dd5-a7bc-473ebb3f84c0",
+  "windows": [
+   {
+    "label": "Human Written",
+    "confidence": "High",
+    "words": 36,
+    "text": "L-Glutamine (watch Dr. Rhonda vid) is the main fuel for your enterocytes, and for your immune cells when they're activated. It doesn't have to go through the complicated digestive steps other nutrients do."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "Medium",
+    "words": 13,
+    "text": " Inside the mitochondria, it gets turned straight into alpha-ketoglutarate, or α-KG."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "High",
+    "words": 51,
+    "text": " The α-KG goes into the citric acid cycle, which is how the mitochondria make their energy. So that's why consuming pure glutamine gives energy to those cells faster than eating food. They then use their extra energy to repair the gut lining, and that keeps LPS from getting through."
+   }
+  ]
+ },
+ "r04-fuel-butyrate-his": {
+  "sha256": "53bb85ae3d1a906727424ef5d55d9ed571216c35f0482437e55c21b6cefe3192",
+  "words": 82,
+  "prediction_short": "Human",
+  "fraction_human": 1.0,
+  "fraction_ai": 0.0,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/f2b60700-527c-4a61-84cf-ec5a7fa2d12a",
+  "windows": [
+   {
+    "label": "Human Written",
+    "confidence": "High",
+    "words": 84,
+    "text": "The colonocytes lining your large intestine are fueled by short-chain fatty acids (SCFAs) like butyrate, while your small intestine runs on glutamine. Your gut bacteria make SCFAs when they ferment raw resistant starch, and you get SCFAs directly from your home-brewed SIBO yogurt too. Besides feeding the colonocytes, SCFAs lock down the barrier in your lower gut, preventing the dangerous escape of substances from gut to blood, which then turns down inflammatory signals that would be needed otherwise to contain the damage."
+   }
+  ]
+ },
+ "r04-fuel-tca": {
+  "sha256": "faa03bd39830a473546d579dcccfdb43a66b0d8af80bfdd26b8617cd3ed25fea",
+  "words": 148,
+  "prediction_short": "AI",
+  "fraction_human": 1.1110770637921992e-18,
+  "fraction_ai": 1.0,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/d97109bf-4e9e-4827-a340-473bd2c7d9d3",
+  "windows": [
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 151,
+    "text": "TCA cycle intermediates are another quick fuel for the cells lining your gut, in both intestines. The TCA cycle is just another name for the citric acid cycle that glutamine feeds, and its intermediates are the compounds the cycle goes through as it makes energy. Malic acid and citric acid are two of them. They're also what makes some foods sour, so clean sour stuff like tart cherries, green apples or organic malic acid (you can buy it as a supplement) gives your gut cells a direct supply. Since those acids are already part of the cycle, they don't have to be turned into anything first, the way glutamine is turned into α-KG. They go directly into the same energy pathway in the mitochondria, just at a different point in it than glutamine does, so the lining gets another source of energy to heal with, and heals faster."
+   }
+  ]
+ }
+}

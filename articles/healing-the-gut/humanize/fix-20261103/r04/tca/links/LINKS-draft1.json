@@ -1,0 +1,82 @@
+[
+ {
+  "sentence": 1,
+  "quote": "TCA cycle",
+  "gap": "What does TCA stand for, and is the TCA cycle the same thing as the citric acid cycle from the glutamine paragraph?",
+  "id": "L1",
+  "answer": "The TCA cycle is just another name for the citric acid cycle that glutamine feeds"
+ },
+ {
+  "sentence": 1,
+  "quote": "intermediates",
+  "gap": "What is an \"intermediate\" of a cycle, and what makes malic and citric acid one?",
+  "id": "L2",
+  "answer": "its intermediates are the compounds the cycle goes through as it makes energy"
+ },
+ {
+  "sentence": 1,
+  "quote": "malic and citric acid",
+  "gap": "What is malic acid? I know citric acid from lemons, but I've never heard of malic acid or where it comes from.",
+  "id": "L3",
+  "answer": "They're also what makes some foods sour"
+ },
+ {
+  "sentence": 1,
+  "quote": "organic acids",
+  "gap": "What does \"organic\" mean here: the farming kind, or something chemical? And what makes these acids different from other acids?",
+  "id": "L4",
+  "status": "drop",
+  "note": "The draft drops the category word: once malic and citric acid are named, 'organic acids' adds nothing for a reader, and it would sit beside 'organic malic acid' (the farming kind) with another sense."
+ },
+ {
+  "sentence": 1,
+  "quote": "go directly into the same energy pathways in the mitochondria",
+  "gap": "How does an acid I eat or drink get into the mitochondria of my gut cells? And does \"directly\" mean it skips the step where glutamine first has to be turned into α-KG?",
+  "id": "L5",
+  "answer": "Since those acids are already part of the cycle, they don't have to be turned into anything first, the way glutamine is turned into α-KG"
+ },
+ {
+  "sentence": 2,
+  "quote": "So clean sour stuff",
+  "gap": "Why does sour food follow from the sentence before? Is the sour taste these acids, so anything sour has them in it?",
+  "id": "L6",
+  "answer": "They're also what makes some foods sour, so clean sour stuff"
+ },
+ {
+  "sentence": 2,
+  "quote": "clean",
+  "gap": "What makes sour stuff \"clean\", and what kind of sour stuff isn't clean?",
+  "id": "L7",
+  "status": "drop",
+  "note": "'Clean' is the original's word and it doesn't say what it excludes (no added sugar, I'd guess); a question for Joel on the card, not a guess in his text."
+ },
+ {
+  "sentence": 2,
+  "quote": "organic malic acid",
+  "gap": "Is this something you buy on its own, like pure glutamine? And is \"organic\" the farming kind here, or the \"organic acid\" of S1?",
+  "id": "L8",
+  "answer": "organic malic acid (you can buy it as a supplement)"
+ },
+ {
+  "sentence": 2,
+  "quote": "the cells lining your gut",
+  "gap": "Which cells: the enterocytes of the small intestine, the colonocytes of the large intestine, or both? Earlier each kind had its own preferred fuel.",
+  "id": "L9",
+  "answer": "the cells lining your gut, in both intestines"
+ },
+ {
+  "sentence": 2,
+  "quote": "another quick fuel",
+  "gap": "Why would my gut cells need another fuel if glutamine already does the job? What does it add, and should I have these along with glutamine or instead of it?",
+  "id": "L10",
+  "status": "drop",
+  "note": "The original says 'alternative fuel' and no more: whether to take them along with glutamine or instead isn't in its reasoning, so it's a question for Joel on the card. What they add is answered in the last sentence (another source of energy to heal with)."
+ },
+ {
+  "sentence": 2,
+  "quote": "just by a different biochemical route than glutamine",
+  "gap": "S1 says these go into the same energy pathway as glutamine, so what is different about their route?",
+  "id": "L11",
+  "answer": "just at a different point in it than glutamine does"
+ }
+]
