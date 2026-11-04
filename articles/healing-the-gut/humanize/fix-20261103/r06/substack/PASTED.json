@@ -1,0 +1,16 @@
+{
+ "turn": "2026-11-04 12:35",
+ "how": "make_payload.py from r06.html (the editor wrapper, pictures, video embeds and the paywall marker out; every quote mark curled the way the post shows it, PR 285's rule); pasted with paste_payload_lane.js (this lane's copy) in the desktop app's built-in browser, where his Substack is signed in, into a new draft titled for deletion; the body cleared with real keystrokes before the second paste",
+ "first_paste": "At 9a4792de the payload still had the editor's video placeholder text ('Double click to interact with video', three times); pasted, it became three lines of text in the post, so the embeds now go whole (4fa36f7d)",
+ "A": {
+  "title": "Healing the Gut, draft A (temp, delete after)",
+  "editor": "https://ibogaqueen.substack.com/publish/post/223467456",
+  "payload_sha256": "23d62347566ccac4cec8d90ec387b2cad9b45716d27f04ed5ef12f8f81e6e06e",
+  "editor_words": 3320,
+  "words_match": true,
+  "rendered_check": "74 lines, the rebuild's 74 (substack_check_text.py: CHECKED-TEXT-A.txt); every line the same but one, where Substack shows his double space in 'sort of  hard to get off' (Plant foods) as one space; no wrong-way quote marks",
+  "chars_checked": 19892
+ },
+ "pangram": "The secret link was opened in his Brave through Claude in Chrome; his Pangram extension labeled the post 'Human', and 'Click to view full analysis' was clicked. The full analysis opens in a tab outside the session's tab group, so its result page (pangram.com/feed/...) has to come from him. The label is not the result: the feed page's windows are.",
+ "secret_links": "not recorded: anyone with one can read the draft"
+}
