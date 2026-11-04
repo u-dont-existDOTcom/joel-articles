@@ -1,0 +1,7 @@
+[
+  {
+    "id": "G001",
+    "verdict": "PASS",
+    "issue": "LINK: \"for protein that means being broken down into amino acids\". LINK: \"glutamine already is an amino acid, so your enterocytes can take it in as soon as it reaches them\" (true: free glutamine crosses the human intestinal brush border by Na+-dependent transport, Said et al. 1989, Am J Physiol 256, https://experts.arizona.edu/en/publications/transport-characteristics-of-glutamine-in-human-intestinal-brush-/). LINK: \"(the part of a cell that makes its energy)\". LINK: \"a-KG is one of the acids in the citric acid cycle itself\" (true: alpha-ketoglutarate is one of the cycle's intermediates, https://cdn.rcsb.org/pdb101/learn/resources/citric_acid_cycle.pdf). Changed points: the rewrite makes exactly the two listed changes (\"straight\" is gone; both \"α-KG\" are now \"a-KG\"). Dropping \"straight\" is accurate: glutaminase makes glutamate, then a transaminase or GDH makes alpha-KG, which then enters the TCA cycle (https://www.frontiersin.org/articles/10.3389/fmed.2022.1035335/full). The speed claim and the larger argument stay intact. Sentence 1 and the last three sentences are verbatim. \"your enterocytes\"/\"Their mitochondria\" name the cells that the unchanged tight-junction sentence already makes \"those cells\", and the immune cells stay in sentence 1, so this isn't a narrowing. \"other nutrients\" to \"Most food\" and the dropped \"complicated\" are wording changes; the contrast that glutamine skips digestion still stands."
+  }
+]

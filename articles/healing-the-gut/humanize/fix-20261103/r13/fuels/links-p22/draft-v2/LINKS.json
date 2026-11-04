@@ -1,0 +1,34 @@
+[
+ {
+  "sentence": 1,
+  "quote": "if you have an active colon or liver cancer",
+  "gap": "Why these two? Is it that they're the fast-multiplying kind, or that the glutamine ends up there? The next sentence seems to explain the liver, but not why the colon is on the list, or whether going up to 10-30g is fine with other cancers.",
+  "id": "L1",
+  "status": "drop",
+  "note": "the colon has no reason in the original: to him on a card (see links-p22 L2/L4)"
+ },
+ {
+  "sentence": 2,
+  "quote": "A dose that big is more than your gut cells can use",
+  "gap": "Then why was I just told to raise it to 10-30g for stress or IBD? What is the rest for: my immune cells?",
+  "id": "L2",
+  "status": "drop",
+  "note": "fixed in DRAFT-P22-v3.txt (a new draft, read again in links-p22/draft (v2's read is in draft-v2)): \"With a dose that big, a lot of it passes through your gut cells into the portal vein\" (no longer says the gut can't use it, which clashed with P21's 10-30g, and says the cells pass it on), \"so a cancer there would get it first\" (why the liver)"
+ },
+ {
+  "sentence": 2,
+  "quote": "the rest rides the portal vein from your gut",
+  "gap": "How does the glutamine my gut cells can't use get into a vein? Do the cells pass it on, or does it go through the gaps? So far the only way into my blood I've read about is leaking through the lining.",
+  "id": "L3",
+  "status": "drop",
+  "note": "fixed in DRAFT-P22-v3.txt (a new draft, read again in links-p22/draft (v2's read is in draft-v2)): \"With a dose that big, a lot of it passes through your gut cells into the portal vein\" (no longer says the gut can't use it, which clashed with P21's 10-30g, and says the cells pass it on), \"so a cancer there would get it first\" (why the liver)"
+ },
+ {
+  "sentence": 2,
+  "quote": "so the liver gets it first, while it's still concentrated",
+  "gap": "So what? Is this why liver cancer is on the list, because a cancer there would get the most to feed on, or is a big, concentrated dose bad for the liver itself?",
+  "id": "L4",
+  "status": "drop",
+  "note": "fixed in DRAFT-P22-v3.txt (a new draft, read again in links-p22/draft (v2's read is in draft-v2)): \"With a dose that big, a lot of it passes through your gut cells into the portal vein\" (no longer says the gut can't use it, which clashed with P21's 10-30g, and says the cells pass it on), \"so a cancer there would get it first\" (why the liver)"
+ }
+]

@@ -1,0 +1,7 @@
+[
+ {
+  "id": "G003",
+  "verdict": "PASS",
+  "issue": "LINK: \"With a dose that big, a lot of it passes through your gut cells into the portal vein\" (why a big dose reaches the liver first, given the gut cells take glutamine first). True: even after gut and liver take their first-pass share (54-64% of enteral glutamine), 36-46% still reaches systemic blood, and oral loads of 0.1-0.3 g/kg raise blood glutamine dose-dependently (checked https://data.zhenzhi.com/details/1/993208888/1/2, https://scilit.com/publications/47bc17c5bb4d65011a0faec41392af30, https://scilit.com/publications/3818c7c307b06a89e57d20b459c23ead). LINK: \"while it's still concentrated\" (why reaching the liver first matters; the original's own reasoning, plain physiology). \"so a cancer there would get it first\" states the original's reason the liver is \"on that list\". \"that high\" made explicit as \"the 10-30g\": same doses ruled out, 5g baseline still allowed. Kept: \"don't\", \"active\", colon and liver only, portal vein running straight to the liver, \"can grab\"."
+ }
+]

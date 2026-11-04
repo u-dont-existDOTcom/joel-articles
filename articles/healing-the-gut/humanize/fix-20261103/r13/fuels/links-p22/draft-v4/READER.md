@@ -1,0 +1,5 @@
+S1 | "cancer cells that multiply really fast" | Is that all cancer cells, or only some kinds? Does the caution depend on whether my cancer is a fast kind?
+S1 | "an active colon or liver cancer" | Why the colon? S2 explains how a big dose reaches the liver, through the blood, but the part above has your small intestine's cells taking glutamine in as soon as it reaches them: how does it get to a tumor in your colon?
+S1 | "stay off the 10-30g" | Does that mean the 5g baseline is still fine with one of these cancers, or should I skip glutamine altogether?
+S2 | "a lot of it passes through your gut cells into your blood" | The part above had your gut cells taking glutamine in as their fuel. Why does a big dose go on through them into your blood: can they only use so much at a time?
+S2 | "a tumor in your liver gets to it first" | Why does getting it first matter, if the blood then goes on from your liver to the rest of your body? Does the liver use most of it up, so a cancer anywhere else gets little? Otherwise why only colon and liver?

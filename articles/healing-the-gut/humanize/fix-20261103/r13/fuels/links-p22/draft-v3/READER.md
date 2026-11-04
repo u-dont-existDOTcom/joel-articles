@@ -1,0 +1,5 @@
+S1 | "cancer cells that multiply really fast" | Is that every cancer, or only some kinds? If only some, does the caution still cover a colon or liver cancer that grows slowly?
+S1 | "active" | What makes a cancer "active"? If mine was treated or is in remission, does the caution still apply to me?
+S1 | "colon or liver cancer" | Why the colon? The next sentence explains the liver, but the part above made glutamine the fuel of the small intestine's cells, so how does a cancer in the colon (is that the large intestine?) get it, and why would the bigger dose matter for it more than the 5g?
+S2 | "a lot of it passes through your gut cells into the portal vein" | Why does it pass through instead of being used? The part above had the gut cells taking glutamine in as their fuel: can they only use so much, so that with the 5g baseline little of it gets past them?
+S2 | "while it's still concentrated" | Concentrated until when: does it thin out once it's past the liver? And if a cancer anywhere else only gets it later and thinner, is the 10-30g fine for someone with a cancer somewhere else?

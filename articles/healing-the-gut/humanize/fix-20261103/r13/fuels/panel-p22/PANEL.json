@@ -1,0 +1,35 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "CAUTION: cancer cells that multiply really fast can grab glutamine too, to fuel their growth, so if you have an active colon or liver cancer, don't go up to the 10-30g.",
+  "With a dose that big, a lot of it passes through your gut cells into the portal vein, which runs straight to your liver, so a cancer there would get it first, while it's still concentrated."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph runs as a tidy two-step warning: a rule, then a mechanism that closes on a clean causal payoff, with each sentence landing on a finished-sounding conclusion. That evenly managed reasoning reads machine-made, though the plain dosing figure keeps it from being wholly generic."
+  ],
+  "sonnet": [
+   "It is built as a classic caution block: warning label, then the reason, then the mechanism, then the consequence, each clause logically sequenced with no digressions. The sentences are evenly smooth and the tone is that of a careful, protective explainer, though the plain wording keeps it from sounding heavily machine-made."
+  ]
+ },
+ "human_clean": [
+  "grab glutamine too"
+ ]
+}

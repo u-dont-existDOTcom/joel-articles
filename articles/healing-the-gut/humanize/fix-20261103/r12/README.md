@@ -30,7 +30,7 @@ Joel approved all 22 batch-8 cards at 21:01 UTC, with no revisions and no commen
 
 r12 is live since 21:35 UTC, the second update, with no email (`../live/LIVE-CHECK-20261104b.json`). `update2.js` changed only the 12 top-level nodes that differ from r11. The published post equals r12 block for block.
 
-## What's next
+## What came next (2026-11-04, Joel's message of 22:35 UTC)
 
-1. The free whole-article check: his extension on the live post (https://ibogaqueen.substack.com/p/healing-the-gut-naturally), with a prediction frozen first.
-2. The fuels stretch's AI windows in its own cut (the glutamine mechanism sentences and the caution's last two). First run the r11 control (`checks/texts/r11c-fuels.txt`, prediction #141), then fix the windows. If no fix works, ask his help, naming the human tells.
+1. His extension on the live post read [Mostly Human Written, 93.0% human](https://www.pangram.com/feed/e3a65841-a626-4b34-aad7-62b9dfa48ada), 18 AI windows (`live-check/`, #142 a miss). All but the fuels stretch's are on words unchanged since r10, whose check read them Human. The live post's 116 quote marks are straight, where r10's check read them curled (E360 (gut)). The same words with the marks curled are in a temporary draft for his click (`substack/`, #143).
+2. The r11 control (#141) was voided unsent: the live check shows the fuels stretch's AI windows on P20's mechanism sentences, which batch 8 didn't change, so it couldn't change what gets fixed. P20's fix is in `../r13/fuels/`.

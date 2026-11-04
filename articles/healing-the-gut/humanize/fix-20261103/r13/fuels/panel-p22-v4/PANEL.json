@@ -1,0 +1,36 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "CAUTION: cancer cells that multiply really fast can grab glutamine too, to fuel their growth, so if you have an active colon or liver cancer, stay off the 10-30g.",
+  "With a dose that big, a lot of it passes through your gut cells into your blood, and a tumor in your liver gets to it first, because the blood from your gut goes to your liver before anywhere else (through the portal vein)."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph moves in a neat sequence of warning, then mechanism, then reason, with each sentence handing off to the next in a way that feels planned, so it reads partly machine-built. Its sentence lengths and plain wording do vary, though, so only the structure, not the voice, reads generated."
+  ],
+  "sonnet": [
+   "It is two sentences of the same shape, a warning followed by a fully worked-out mechanism, with each clause handing off to the next in a smooth, even rhythm and no digression, hesitation or stray detail. The paragraph is all instruction and explanation, with no personal angle or odd turn, which is what makes it feel assembled rather than spoken."
+  ]
+ },
+ "human_clean": [
+  "stay off the 10-30g",
+  "stay off the 10-30g"
+ ]
+}

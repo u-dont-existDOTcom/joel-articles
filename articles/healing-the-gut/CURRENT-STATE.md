@@ -24,16 +24,20 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
 
 ## Current checkpoint
 
-2026-11-04 21:35 UTC: r12 (his 22 batch-8 approvals) is live in his post (https://ibogaqueen.substack.com/p/healing-the-gut-naturally), the second update, no email (`humanize/fix-20261103/live/LIVE-CHECK-20261104b.json`). Its natural sections read Human High (stacks, recipe intro, Phase 1); the fuels stretch as a cut of its own reads AI 26% on sentences batch 8 didn't change (`humanize/fix-20261103/r12/README.md`).
+2026-11-04, Joel's message of 22:35 UTC: his extension on the live post (r12) read [Mostly Human Written, 93% human](https://www.pangram.com/feed/e3a65841-a626-4b34-aad7-62b9dfa48ada), 18 AI windows (`humanize/fix-20261103/r12/live-check/`, #142 a miss). All but the fuels stretch's are on words unchanged since r10's 100% Human check. The live post's 116 quote marks are straight, where r10's check read them curled (E360 (gut)). A temporary draft holds the live words with the marks curled ("Healing the Gut, draft A (temp, delete after)", `r12/substack/`, #143); its secret link went to him in chat.
+
+The fuels stretch (`humanize/fix-20261103/r13/fuels/`): P20's three AI sentences rewritten, and P19 with the new P20 reads Human Written 100%, High (#144). The caution (P22) read AI with its dose paragraph twice (#145, #146; its warning sentence now reads Human Medium). Its liver sentence can't be rewritten faithfully until he decides what the caution rests on: a tumor in the liver is fed mainly by the hepatic artery, not the portal vein, and swallowed glutamine mostly doesn't reach the colon (`r13/fuels/README.md`, `CARDS-DRAFT.md`).
 
 ## Remaining
 
-1. His extension on the live post: the free whole-article check of r12 (prediction first).
-2. The fuels stretch's AI windows in its own cut: the r11 control (prediction #141) first, then fix them or ask his help with the human tells named.
+1. His extension on draft A's secret link, then record #143. If it reads like r10, ask him to let the live post's marks be curled (E360 (gut)). If it reads like the live check, fix Phase 2 to 5's windows paragraph by paragraph.
+2. The batch-9 marking page: the cards in `r13/fuels/CARDS-DRAFT.md` (the caution's reasons, 5g with an active cancer, two logic gaps in P20, P21's Low sentences), with draft A's outcome. Then the caution's next try, P21's fix, and the fuels stretch's one section recheck.
+3. The next update of his post, with his OK and no email: r13's changes, with the marks as he decides.
+4. He deletes draft A once its result is recorded.
 
 ## Blockers / unresolved
 
-- None.
+- Waiting on Joel: draft A's result page; then his answers on the batch-9 page.
 
 ## Evidence / artifacts
 
@@ -41,4 +45,4 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
 
 ## Next safe action
 
-Read his batch-2 answers (the page's `decisions` store or his export), apply them as r03, then the whole-article check through a temporary Substack draft's secret link.
+Record draft A's result (#143) when his page comes, then build the batch-9 marking page from `humanize/fix-20261103/r13/fuels/CARDS-DRAFT.md` with `tools/humanization/suggestion_review.py` and publish it.
