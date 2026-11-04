@@ -980,6 +980,49 @@
     }
    ],
    "recorded_utc": "2026-11-04T12:27Z"
+  },
+  {
+   "turn": "2026-11-04T13:44Z",
+   "lines_of_work": [
+    "inner child guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "2 items in suggested-fixes/joel-articles/, both already in docs/suggested-fixes-ledger.md; no new item; UDA still at c5c9951"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since turn 121's check (12:30 UTC): pull request 288 (this lane, turns 120 and 121) merged by Joel at 12:37 UTC (main 0216cd50, the lane fast-forwarded to it); pull requests 290 (community lane, 12:28 UTC) and 291 (gut lane, 12:42 UTC) opened, both open; no new issues, comments or reviews (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop's handoff note is byte for byte what turn 121's update made of it (cmp with inbox/t113/note-test-t121.md); no one else changed OWNER-QUESTIONS.md or HANDOFF-UPDATE.json"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "pull request 288 merged",
+     "outcome": "turn 122's work goes in its own pull request (lane_push --pr)"
+    },
+    {
+     "item": "pull requests 290 (community lane) and 291 (gut lane), open",
+     "outcome": "not this lane's to review or merge; this turn changes no shared file except the records every push writes"
+    },
+    {
+     "item": "Joel's marking-page answers (13:44 UTC): 18 versions of his, 3 kept",
+     "outcome": "all in word for word (experiments/t122-apply/), the links back on their words, his Hearthwork section checked alone (Human, High; experiments/t122-check/); three typos in his new text asked about"
+    }
+   ],
+   "recorded_utc": "2026-11-04T13:52Z"
   }
  ]
 }
