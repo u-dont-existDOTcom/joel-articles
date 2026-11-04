@@ -982,6 +982,45 @@
    "recorded_utc": "2026-11-04T12:27Z"
   },
   {
+   "turn": "2026-11-04T12:35Z",
+   "lines_of_work": [
+    "gut article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); UDA main still c5c9951, its root AGENTS.md fetched this turn"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 12:04 UTC: this lane's pull request 289 merged by Joel at 12:16 UTC (this branch starts from main's tip, f8f87c75); open: 290 (neuro de-armoring, now holding E350), 288 (Inner Child: lane_push's main fetch names its destination), 280, 278; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut since 289"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's batch-5 answers (12:35 UTC)",
+     "outcome": "F5-1, F5-2 and F5-4 approved, already in r05; F5-3 his version into r06 (one non-word typo fixed, said to him); his two comments (a sentence that doesn't follow; information before the reader wants it, a study before its claim) become a lesson after #290's E350, with the check"
+    },
+    {
+     "item": "pull request 288 (Inner Child) changes lane_push.py's main fetch",
+     "outcome": "read; it is that lane's fix of the gate this lane wrote, and this turn doesn't touch lane_push.py"
+    }
+   ],
+   "recorded_utc": "2026-11-04T12:36Z"
+  },
+  {
    "turn": "2026-11-04T13:44Z",
    "lines_of_work": [
     "inner child guide"
