@@ -1,0 +1,315 @@
+{
+ "format": "joel-keep-as-is-v1",
+ "article": "articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md",
+ "about": "What Joel has said stays as it is in the Inner Child guide, and the cuts he meant: no card flags, fixes or puts these back (tools/humanization/keep_as_is.py, lesson E340; started 2026-11-03 from his answers on the turn-116 marking page, experiments/t117-answers/ANSWERS-20261103-2332.json). Earlier rulings on his edits are in OWNER-EDITS.json.",
+ "keep": [
+  {
+   "id": "K1",
+   "kind": "joke",
+   "quote": "As Lao Tsu might have said (if I could ever have read that whole boring Art of War book)",
+   "what": "The Art of War is Sun Tzu's; naming Lao Tsu is the joke (he never read the boring book). Don't correct the name.",
+   "joel": "that's the joke yeah you forgot",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card A2, turn-116 marking page",
+   "basis": "his answer"
+  },
+  {
+   "id": "K2",
+   "kind": "voice",
+   "quote": "“What’s a ‘boundary’?”, I might be asking.",
+   "what": "\"I\", not \"you\": he is learning this too.",
+   "joel": "yeah no i meant \"I\" beacuse i also am learning this",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card A3, turn-116 marking page",
+   "basis": "his answer"
+  },
+  {
+   "id": "K3",
+   "kind": "device",
+   "quote": "Try to see the end goal as attainable right at the start here so that you:",
+   "what": "The sentence runs on into the heading under it (Don’t Sell Your Inner Adult To Buy An Outer Adult).",
+   "joel": "keep it",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card A4, turn-116 marking page",
+   "basis": "his answer"
+  },
+  {
+   "id": "K4",
+   "kind": "choice",
+   "quote": "another ex of mine (X)",
+   "what": "Two exes are X on purpose, so nobody takes the unnamed one for Key. Don't ask who X is, or name either.",
+   "joel": "hm, but if i take out the name then it could be assumed it's Key. so let's chhange the other Xandria to X, i think that should work",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card A1, turn-116 marking page",
+   "basis": "his answer"
+  },
+  {
+   "id": "K5",
+   "kind": "choice",
+   "quote": "My ex, X, taught me",
+   "what": "The other X (was Xandria), for the same reason as K4.",
+   "joel": "so let's chhange the other Xandria to X",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card A1, turn-116 marking page",
+   "basis": "his answer"
+  },
+  {
+   "id": "K6",
+   "kind": "coinage",
+   "quote": "pl/ork",
+   "what": "His word, play + work, spelled out where he coins it (P8). Its forms too: pl/orkfully.",
+   "joel": "",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card P8, turn-116 marking page",
+   "basis": "his approval of a card that kept it"
+  },
+  {
+   "id": "K7",
+   "kind": "coinage",
+   "quote": "pl/orkfully",
+   "what": "His word, from pl/ork.",
+   "joel": "",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card P8, turn-116 marking page",
+   "basis": "his approval of a card that kept it"
+  },
+  {
+   "id": "K8",
+   "kind": "coinage",
+   "quote": "new-age wizdumb",
+   "what": "His spelling, on purpose.",
+   "joel": "",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "cards T1 to T9 (\"Everything else, your spelling choices included\"), turn-116 marking page",
+   "basis": "his approval of a card that kept it"
+  },
+  {
+   "id": "K9",
+   "kind": "coinage",
+   "quote": "sMothered/suppressed",
+   "what": "His spelling, on purpose (smothered by mother).",
+   "joel": "",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "cards T1 to T9, turn-116 marking page",
+   "basis": "his approval of a card that kept it"
+  },
+  {
+   "id": "K10",
+   "kind": "spelling",
+   "quote": "even tho the spiritual part of me",
+   "what": "His \"tho\".",
+   "joel": "",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "cards T1 to T9, turn-116 marking page",
+   "basis": "his approval of a card that kept it"
+  },
+  {
+   "id": "K11",
+   "kind": "spelling",
+   "quote": "as a youngin’",
+   "what": "His \"youngin’\".",
+   "joel": "",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "cards T1 to T9, turn-116 marking page",
+   "basis": "his approval of a card that kept it"
+  },
+  {
+   "id": "K12",
+   "kind": "spelling",
+   "quote": "how it’s goin for you",
+   "what": "His \"goin\".",
+   "joel": "",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "cards T1 to T9, turn-116 marking page",
+   "basis": "his approval of a card that kept it"
+  },
+  {
+   "id": "K13",
+   "kind": "coinage",
+   "quote": "Equipoisedly look into how the practice went",
+   "what": "His adverb from equipoise.",
+   "joel": "",
+   "when": "2026-11-03",
+   "where": "turn 117",
+   "basis": "my reading, not asked"
+  },
+  {
+   "id": "K14",
+   "kind": "voice",
+   "quote": "your Higher View is missing the trees for the forest",
+   "what": "The saying turned around on purpose: the Higher View sees the forest and misses the trees.",
+   "joel": "",
+   "when": "2026-11-03",
+   "where": "turn 117",
+   "basis": "my reading, not asked"
+  },
+  {
+   "id": "K15",
+   "kind": "placement",
+   "quote": "watch?v=JQs2watlFws",
+   "what": "His mantra video stays where he put it, above the paragraph under Gentle Meditation and Mantra, as a line of its own (Substack makes it a video), not a heading and not moved under the paragraph.",
+   "joel": "it's not a heading, the URL gets auto-converted in substack into a YT embed",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card F2 (rejected), turn-116 marking page",
+   "basis": "his answer"
+  },
+  {
+   "id": "K16",
+   "kind": "spacing",
+   "quote": "the adult lending library in your head :)",
+   "what": "A smiley keeps its space before it; the French spaces before ! ? : went (Q1), this isn't one.",
+   "joel": "",
+   "when": "2026-11-03",
+   "where": "card Q1, turn 117",
+   "basis": "my reading, not asked"
+  },
+  {
+   "id": "K17",
+   "kind": "spacing",
+   "quote": "You’ll sound a bit like Elmo :)",
+   "what": "As K16.",
+   "joel": "",
+   "when": "2026-11-03",
+   "where": "card Q1, turn 117",
+   "basis": "my reading, not asked"
+  },
+  {
+   "id": "K18",
+   "kind": "choice",
+   "quote": "It's four pairs, starting with pleasure and pain, and gain and loss. The other two are about what people think of you: praise and blame, and good reputation and disgrace.",
+   "what": "Pema Chödrön's four pairs, under Four Pairs That Commonly Hook the Child. He cut them as redundant (card P11), then asked for them back: they matter for that part. Don't cut them as a repeat of what follows.",
+   "joel": "i guess you should restore the four pairs i dleeted then i didn't realize they wer eimportant for that part.",
+   "when": "2026-11-04 00:43 UTC",
+   "where": "his message after turn 117 (experiments/t118-answers/JOEL-20261104-0043.md)",
+   "basis": "his answer"
+  }
+ ],
+ "cuts": [
+  {
+   "id": "X1",
+   "quote": "Hear the Guard First",
+   "what": "The section on hearing the guard out before the little one, with the skeptic guard before it: cut on purpose (its other two subsections moved to Shame and to Earning their trust).",
+   "joel": "on purpose",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card P12, turn-116 marking page",
+   "basis": "his answer"
+  },
+  {
+   "id": "X3",
+   "quote": "Do the same if you can’t stop yourself, or you’re badly disoriented or intoxicated.",
+   "what": "The crisis line's second case.",
+   "joel": "",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card C2 (rejected), turn-116 marking page",
+   "basis": "his answer"
+  },
+  {
+   "id": "X4",
+   "quote": "therapeutic holding",
+   "what": "The name for the punishment hug: contested, it would lead readers astray.",
+   "joel": "ok chatgpt said that it was therapeutic holding but i didn't really look into the controversy, and i assume it would just lead readers astray then",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card C1, turn-116 marking page",
+   "basis": "his answer"
+  },
+  {
+   "id": "X5",
+   "quote": "Instead of Blame",
+   "what": "The section with its six questions (it was in Love Can Start Before It’s Trusted).",
+   "joel": "i definitely meant to cut most of those, prob all of them",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card A6, turn-116 marking page",
+   "basis": "his answer"
+  },
+  {
+   "id": "X6",
+   "quote": "Just Like Me",
+   "what": "The section with tonglen.",
+   "joel": "i definitely meant to cut most of those, prob all of them",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card A6, turn-116 marking page",
+   "basis": "his answer"
+  },
+  {
+   "id": "X7",
+   "quote": "Ideal Parent Figure method",
+   "what": "The Ideal Parent Figure pilot study.",
+   "joel": "i definitely meant to cut most of those, prob all of them",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card A6, turn-116 marking page",
+   "basis": "his answer"
+  },
+  {
+   "id": "X8",
+   "quote": "If a part hesitates about being touched",
+   "what": "The subsection of that name.",
+   "joel": "i definitely meant to cut most of those, prob all of them",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card A6, turn-116 marking page",
+   "basis": "his answer"
+  },
+  {
+   "id": "X9",
+   "quote": "When your kind words sound empty",
+   "what": "The subsection of When to Change the Strategy.",
+   "joel": "i definitely meant to cut most of those, prob all of them",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card A6, turn-116 marking page",
+   "basis": "his answer"
+  },
+  {
+   "id": "X10",
+   "quote": "If the relief doesn't last",
+   "what": "The subsection of When to Change the Strategy.",
+   "joel": "i definitely meant to cut most of those, prob all of them",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card A6, turn-116 marking page",
+   "basis": "his answer"
+  },
+  {
+   "id": "X11",
+   "quote": "you've texted \"hello??\" before they're at the corner",
+   "what": "The \"hello??\" example in Between Spoiling and Clamping Down.",
+   "joel": "i definitely meant to cut most of those, prob all of them",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card A6, turn-116 marking page",
+   "basis": "his answer"
+  },
+  {
+   "id": "X12",
+   "quote": "somebody with a fever who's cleaning the whole kitchen anyway",
+   "what": "The fever-and-kitchen example in Between Spoiling and Clamping Down.",
+   "joel": "i definitely meant to cut most of those, prob all of them",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card A6, turn-116 marking page",
+   "basis": "his answer"
+  },
+  {
+   "id": "X13",
+   "quote": "Then somebody tells you there is no self.",
+   "what": "The \"no self\" and \"resistance\" paragraph in Don’t Sell Your Inner Adult.",
+   "joel": "i definitely meant to cut most of those, prob all of them",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card A6, turn-116 marking page",
+   "basis": "his answer"
+  },
+  {
+   "id": "X14",
+   "quote": "Can't find a calm, compassionate Self in there? Then borrow.",
+   "what": "In the IFS appendix.",
+   "joel": "i definitely meant to cut most of those, prob all of them",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card A6, turn-116 marking page",
+   "basis": "his answer"
+  },
+  {
+   "id": "X15",
+   "quote": "The inner Guide is the closest thing here to a Higher Self",
+   "what": "In the IFS appendix.",
+   "joel": "i definitely meant to cut most of those, prob all of them",
+   "when": "2026-11-03 23:32 UTC",
+   "where": "card A6, turn-116 marking page",
+   "basis": "his answer"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+numbers_lost: 5-30g
+numbers_new: 2
+numbers_new: 4
+numbers_new: 5
+numbers_new: 5
+numbers_new: 5
+numbers_new: 5
+numbers_new: 5
+numbers_new: 6
+numbers_new: 6
+warning lost: - The Logic: Before you add "fuel" (supplements) or "fire" (antimicrobials), you must ensure the engine is mechanically sound. | missing [['must'], ['engine'], ['ensure']]
+warning lost: The goal is to stop feeding bacteria in the small intestine. | missing [['goal']]
+warning lost: Now you must rebuild a diverse ecosystem to prevent relapse. | missing [['must']]
+verdict: FAIL
+
+What the FAIL lines are (2026-11-03): every one is in text Joel approved or wrote on the batch-1 page (experiments/t04-answers/).
+- numbers_lost 5-30g: Phase 5's fuel range, approved gone in r01 (G4: Phase 5 points to the fuels under Leaky gut).
+- numbers_new: the phase steps' list numbers.
+- "warning lost" for "must ensure the engine ...", "The goal is to stop feeding", "Now you must rebuild": the Logic lines
+  as the approved versions say them (Phase 1 in his own words; Phase 2 writer C's "Either way you stop feeding", passed
+  in batch 1's blind meaning check; Phase 5 his own, "you have to rebuild").

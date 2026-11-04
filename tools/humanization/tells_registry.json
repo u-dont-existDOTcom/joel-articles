@@ -2836,6 +2836,32 @@
   },
   {
    "id": "W114",
+   "tell": "a curly quote mark (’ ‘ “ ”), which straightening improved in 40 of 113 borderline paragraphs of his articles on Pangram 4.1",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "The typographic swap is standard: straight quote marks, and his spaced en dash for each em dash."
+    }
+   ],
+   "rule": "O62",
+   "example": "It’s the same garden we planted last spring, just with more weeds in it."
+  },
+  {
+   "id": "W115",
+   "tell": "an em dash (—), where his own paragraphs use a spaced en dash (\" – \")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "Changing each em dash to the spaced en dash his own Human-at-High paragraphs use"
+    }
+   ],
+   "rule": "O63",
+   "example": "We planted the garden late—the frost came early anyway."
+  },
+  {
+   "id": "W116",
    "tell": "\"one ordinary\" (\"we gotta remove \"one ordinary\" anywhere lol so ai\")",
    "kind": "mechanical",
    "sources": [
@@ -2848,7 +2874,7 @@
    "example": "When the body wants to move, do one ordinary task you can clearly finish. The kettle takes four minutes to boil."
   },
   {
-   "id": "W115",
+   "id": "W117",
    "tell": "\"X does not Y\" (\"let's make sure \"X does not Y\" is changed in general that's super ai, humans don't use that so much\")",
    "kind": "mechanical",
    "sources": [

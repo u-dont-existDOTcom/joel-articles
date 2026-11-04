@@ -22,12 +22,13 @@
   },
   {
    "id": "pema-intro",
-   "status": "applied",
-   "what": "Introduce Pema in Don't Give.",
+   "status": "superseded",
+   "what": "Introduce Pema in Don't Give. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "04:19: \"Even Pema Chodron, who inspired parts of this guide, comes from ...\"",
    "must_contain": [
     "Even Pema Chödrön, who inspired parts of this guide, comes from a tradition where devotion to a teacher is a big deal"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "danger-cut",
@@ -41,8 +42,8 @@
   },
   {
    "id": "journey-move",
-   "status": "applied",
-   "what": "My Journey's four paragraphs go right before Don't Give, without \"My own case was weird.\"",
+   "status": "superseded",
+   "what": "My Journey's four paragraphs go right before Don't Give, without \"My own case was weird.\" Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "04:19: \"the 4 paragraphs after 'borrow adulthood, do not surrender it' are supposed to be right before 'don't give the inner adult away' and remove the first 5 word serntence 'my own case was weird'\"",
    "order": [
     "The image below maps out the details",
@@ -50,7 +51,8 @@
    ],
    "must_not_contain": [
     "My own case was weird."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "scary-thoughts",
@@ -196,8 +198,8 @@
   },
   {
    "id": "three-jobs-covered",
-   "status": "claim",
-   "what": "The three-jobs paragraph covers the Nurturer and the Protector before the Guide.",
+   "status": "superseded",
+   "what": "The three-jobs paragraph covers the Nurturer and the Protector before the Guide. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "20:29: \"three jobs paragraph is not three jobs tho it just talks about the guide. Don't we still need to put the nurturer and protector functions in there before guide?\"",
    "span": {
     "from": "That's one grown-up doing three jobs",
@@ -212,7 +214,8 @@
     "That's one grown-up doing three jobs",
     "the Nurturer tells them",
     "The Guide is the one people misunderstand the most."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "guide-at-the-party",
@@ -237,8 +240,8 @@
   },
   {
    "id": "plork-paragraph",
-   "status": "applied",
-   "what": "The pl/ork paragraph with Joel's last sentence goes where pl/ork is first used: it opens Start With Whatever Showed Up (turn 18), right before P1's \"I count that as pl/ork too\".",
+   "status": "superseded",
+   "what": "The pl/ork paragraph with Joel's last sentence goes where pl/ork is first used: it opens Start With Whatever Showed Up (turn 18), right before P1's \"I count that as pl/ork too\". Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "01:59 (his sentence); 02:42: \"find where that is supposed to go\"",
    "waits_for": "Start With Whatever Showed Up",
    "must_contain": [
@@ -248,7 +251,8 @@
    "note": "2026-10-03 (turn 20): must_contain trimmed to P1's first two sentences, which are the same in Joel's P1; the rest of P1 is his and is checked in sws-p1-protective-part. 2026-10-18 (turn 71): split in two. \"Right before\" was where I put it when he said \"find where that is supposed to go\" (02:42); the restructure plan for his 2026-09-27 16:29 request (experiments/THREE-FUNCTIONS-RESTRUCTURE-20260927.md, entry dissolve-three-functions) puts the guide's TF-U8 and TF-U9, the child's gifts and his post, \"with the parked pl/ork paragraph\", so that paragraph now sits between them. The pl/ork paragraph still opens the section and comes before \"I count that as pl/ork too\".",
    "history": [
     "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his E15 A: the pl/ork paragraph now opens \"Play Is Part of the Work\", and \"Start With Whatever Showed Up\" heads the how-to after it."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "dissolve-three-functions",
@@ -263,8 +267,8 @@
   },
   {
    "id": "tf12-test-line-pending-20261018",
-   "status": "applied",
-   "what": "TF-U12's test line from his published guide is his first person; its wording counts as his only once he has seen it whole, in its section, and said so (E189). In with Don't Give the Inner Adult Away (turn 71, round t71kkk), as published, at the end of P1: \"The test is whether the relationship makes me more grounded, truthful, and free.\" (question 52).",
+   "status": "superseded",
+   "what": "TF-U12's test line from his published guide is his first person; its wording counts as his only once he has seen it whole, in its section, and said so (E189). In with Don't Give the Inner Adult Away (turn 71, round t71kkk), as published, at the end of P1: \"The test is whether the relationship makes me more grounded, truthful, and free.\" (question 52). Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "(waiting: question 52, turn 71) 2026-10-18 19:06 UTC (turn 72), question 52: \"a\" (my words: keep it).",
    "where": "Don’t Give the Inner Adult Away",
    "waits_for": "his word on question 52",
@@ -273,7 +277,8 @@
    ],
    "history": [
     "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): Q-me answered \"you\", so the strings are the current ones (entry joel-114-20261026)."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "h1-building-trust",
@@ -288,14 +293,15 @@
   },
   {
    "id": "worth-universal-vs-personal",
-   "status": "applied",
-   "what": "Make the difference between universal love and love from a person clear.",
+   "status": "superseded",
+   "what": "Make the difference between universal love and love from a person clear. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "00:09",
    "waits_for": "You Are Worthy of Love. Always.",
    "must_contain": [
     "That kind, whether you'd say it comes from God or the universe itself or whatever, was there before you could earn anything. Love from a person is more conditional than that."
    ],
-   "note": "2026-10-18 (turn 71): a new first paragraph in You Are Worthy of Love. Always. (experiments/t71-guide/drafts/wl-u3.txt, round t71mmm): the love in the title is his Divine Love from Your Loan is PRE-APPROVED!, from God or the universe itself or whatever (his 00:09 words), there before you could earn anything; love from a person is more conditional than that. Turn 65's closing had left the guide's \"Love precedes anything you could earn.\" out, so the title stood alone. It agrees with Goodwill's \"then they actually would be lovable\", which is love from a person."
+   "note": "2026-10-18 (turn 71): a new first paragraph in You Are Worthy of Love. Always. (experiments/t71-guide/drafts/wl-u3.txt, round t71mmm): the love in the title is his Divine Love from Your Loan is PRE-APPROVED!, from God or the universe itself or whatever (his 00:09 words), there before you could earn anything; love from a person is more conditional than that. Turn 65's closing had left the guide's \"Love precedes anything you could earn.\" out, so the title stood alone. It agrees with Goodwill's \"then they actually would be lovable\", which is love from a person.",
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "outward-p1-joel-final",
@@ -341,15 +347,16 @@
   },
   {
    "id": "mpv-h2-hero",
-   "status": "applied",
-   "what": "The h2 over the Make the Protector Visible section is Joel's \"Not Every Hero Wears A Cape\", replacing \"Keep Your Word\".",
+   "status": "superseded",
+   "what": "The h2 over the Make the Protector Visible section is Joel's \"Not Every Hero Wears A Cape\", replacing \"Keep Your Word\". Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-09-29 19:14 UTC: \"Keep Your Word how did you come up with that for the heading? I don't see anything about keeping your word here... This is about making the protector visible, not keeping your word. I changed the title\"",
    "must_contain": [
     "Not Every Hero Wears A Cape"
    ],
    "must_not_contain": [
     "Keep Your Word"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "mpv-p1-self-love",
@@ -367,8 +374,8 @@
   },
   {
    "id": "mpv-p3-joel",
-   "status": "applied",
-   "what": "P3 is Joel's version: the first two sentences of Claude's wA2 plus his four; the meal (nurturing, not protection) and the duplicated protection examples are gone, and the make-it-specific material is left for the next paragraph.",
+   "status": "superseded",
+   "what": "P3 is Joel's version: the first two sentences of Claude's wA2 plus his four; the meal (nurturing, not protection) and the duplicated protection examples are gone, and the make-it-specific material is left for the next paragraph. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-09-29 19:14 UTC: \"On P3 there were some changes that needed to be made also line it up better with the guide. Also you were conflating protection from nurturing (giving a meal is nurturing, throwing away moldy food is protection, and we already have that in P1). So I threw away the duplicated examples of protection, and you should have seen to do that also. P3 now passes as hum med conf\"",
    "must_contain": [
     "Plenty of people are still at the putting-up-with part.",
@@ -377,7 +384,8 @@
    "must_not_contain": [
     "The first care you give them",
     "Take one act from all this"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "mpv-p2-logic",
@@ -438,8 +446,8 @@
   },
   {
    "id": "rel-meditate-moved",
-   "status": "applied",
-   "what": "The relationship item leaves P1 of Not Every Hero Wears A Cape. Joel's meditation takes the place of \"leave it\" and the self-love reason, as its own paragraph in Also Look Outward after his Substack note (Claude's call on where; Joel wondered whether it \"might deserve its own section\"). The link on \"a relationship\" is his romance guide. Two words changed from his wording, both logic fixes Claude reported: \"feel less safe\" (was \"less safe\"), and \"And\" dropped at the paragraph's start. 2026-10-07 23:18: Joel rewrote the paragraph (entry also-look-outward-run-joel).",
+   "status": "superseded",
+   "what": "The relationship item leaves P1 of Not Every Hero Wears A Cape. Joel's meditation takes the place of \"leave it\" and the self-love reason, as its own paragraph in Also Look Outward after his Substack note (Claude's call on where; Joel wondered whether it \"might deserve its own section\"). The link on \"a relationship\" is his romance guide. Two words changed from his wording, both logic fixes Claude reported: \"feel less safe\" (was \"less safe\"), and \"And\" dropped at the paragraph's start. 2026-10-07 23:18: Joel rewrote the paragraph (entry also-look-outward-run-joel). Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-09-30 03:29 UTC: \"ok but now i'm rethinking the \\\"underlying reason your in it\\\" part because i'm remembering [a past relationship] [...] So now the advice to leave the relationship becomes more tricky with that in mind. I can't say she should have left me or not left me... it just depends on how things were going for her at the time. [...] Maybe instead of \\\"leave it\\\" and explaining why youre in it, just say, \\\"meditate on why it makes you feel unsafe, and what keeps you in it, and whether either may be due to a lack of the healed inner child/inner adult relationship.\\\" Although that might deserve its own section, idk. I also have a romance guide i could link to at romance.u-dont-exist.com (link works even if not for you).\"",
    "must_contain": [
     "Meditate on why it makes you feel unsafe, and what keeps you in it."
@@ -463,18 +471,20 @@
    "order_note": "Turn 78: order updated for Joel's question 70: A (2026-10-21 00:49 UTC): these paragraphs moved with Other Folks Also Have Hooks to Borrowed Adulthood in Relationship, after Building Trust, so Not Every Hero Wears A Cape is no longer after them.",
    "history": [
     "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-hooks approved: the paragraph starts after its heading, his \"If a relationship keeps making you feel less safe\", so the strings are the current ones (entry joel-114-20261026)."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "rel-danger-line",
-   "status": "claim",
-   "what": "The relationship paragraph keeps a danger condition (Claude's addition, built on Joel's \"which is not a small thing at all, I know\"). Danger goes by what the other person actually did, once is enough, and old stuff stirred up too doesn't cancel it (turn 6, after all three push-level reviews raised it).",
+   "status": "superseded",
+   "what": "The relationship paragraph keeps a danger condition (Claude's addition, built on Joel's \"which is not a small thing at all, I know\"). Danger goes by what the other person actually did, once is enough, and old stuff stirred up too doesn't cancel it (turn 6, after all three push-level reviews raised it). Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "must_contain": [
     "Even once, old stuff or not, get safe first, which is not a small thing at all, I know."
    ],
    "history": [
     "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-hooks approved: the danger line is its own paragraph under his \"If they've actually hurt or threatened you\", so the strings are the current ones (entry joel-114-20261026)."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "ald-substack-note",
@@ -526,15 +536,16 @@
   },
   {
    "id": "mpv-p1-sweet-things",
-   "status": "applied",
-   "what": "P1's last sentence no longer gives every reader the same history: the grown-ups who said sweet things and did nothing become a \"maybe\", and so does the reader doing it too.",
+   "status": "superseded",
+   "what": "P1's last sentence no longer gives every reader the same history: the grown-ups who said sweet things and did nothing become a \"maybe\", and so does the reader doing it too. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-09-30 04:44 UTC: \"reviewer was also right to catch the generalization about grown ups saying sweet things. so fix that\"",
    "must_contain": [
     "Clean your room! Maybe your little one had grown-ups who said sweet things and then did nothing, and maybe you've done it too, so this is how they start to believe you."
    ],
    "must_not_contain": [
     "Your little one has had enough grown-ups"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "mpv-p4-both-sides",
@@ -547,23 +558,25 @@
   },
   {
    "id": "ldw-p3-memory",
-   "status": "applied",
-   "what": "Love Doesn't Wait P3, the bedtime story, is Joel's own memory, so it stays in his first person as installed. Since 2026-10-01 02:40 it has Joel's emojis after the two lines (ldw-p3-p6-emojis).",
+   "status": "superseded",
+   "what": "Love Doesn't Wait P3, the bedtime story, is Joel's own memory, so it stays in his first person as installed. Since 2026-10-01 02:40 it has Joel's emojis after the two lines (ldw-p3-p6-emojis). Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-01 00:12 UTC: \"Yes that's my own bedtime memory with my mom.\"",
    "must_contain": [
     "I was about five when my mom told me it was time for bed (or something equally outrageous to a five-year-old). I cried and screamed \"I HATE YOU!\" 😡 She answered, \"But I love you!\" 🥰"
    ],
-   "where": "Love Doesn't Have to Wait for Trust"
+   "where": "Love Doesn't Have to Wait for Trust",
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "ldw-p1-honest-lover",
-   "status": "applied",
-   "what": "Love Doesn't Wait P1 adds what the guide missed: love doesn't need the loved one's trust, but it does need the one loving to be honest (trustworthy in fact), or it can be a dark empath's act. The dark-empath sentence came out on 2026-10-01 (ldw-p1-no-dark-empath); the honesty condition stays.",
+   "status": "superseded",
+   "what": "Love Doesn't Wait P1 adds what the guide missed: love doesn't need the loved one's trust, but it does need the one loving to be honest (trustworthy in fact), or it can be a dark empath's act. The dark-empath sentence came out on 2026-10-01 (ldw-p1-no-dark-empath); the honesty condition stays. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-01 00:12 UTC: \"for P1, i think the ai guide was missing something. love doesn't require the loved one to trust, buut it does require the lover to be honest (trustworthy objectively). otherwise can just be a dark empath pretending to love.  why didn't your reviewer catch that?\"",
    "where": "Love Doesn't Have to Wait for Trust",
    "must_contain": [
     "So your love can sound like you're asking them to trust you. It doesn't need their trust, but it does need you to be honest with them, which isn't the same as perfect."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "ldw-p4-last-line",
@@ -593,8 +606,8 @@
   },
   {
    "id": "ldw-p1-no-dark-empath",
-   "status": "applied",
-   "what": "Love Doesn't Wait P1 loses its last sentence (pretend love, the kind a dark empath puts on, with its gloss). Joel meant the dark empath as the extreme case; the likely one is that the track record isn't good enough yet, which \"which isn't the same as perfect\" and P2 already carry. And the line could make readers wonder whether they're dark empaths.",
+   "status": "superseded",
+   "what": "Love Doesn't Wait P1 loses its last sentence (pretend love, the kind a dark empath puts on, with its gloss). Joel meant the dark empath as the extreme case; the likely one is that the track record isn't good enough yet, which \"which isn't the same as perfect\" and P2 already carry. And the line could make readers wonder whether they're dark empaths. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-01 02:40 UTC: \"p1: yes that's good except i wouldn't put the dark empath thing in there, i was telling you about that as an extreme example, but the more likely example is just like you said, the track record isn't good enough yet, and i donj't want to make people think maybe they are dark empaths, bc they would surely know if they are without me needing to poke them\"",
    "where": "Love Doesn't Have to Wait for Trust",
    "must_not_contain": [
@@ -603,19 +616,21 @@
    ],
    "must_contain": [
     "it does need you to be honest with them, which isn't the same as perfect."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "ldw-p3-p6-emojis",
-   "status": "applied",
-   "what": "Emojis Joel placed himself: an angry one after \"I HATE YOU!\" and a lovey one after \"But I love you!\" in P3; a hug after \"I still love you.\" in P6, answering the little one's 🙄.",
+   "status": "superseded",
+   "what": "Emojis Joel placed himself: an angry one after \"I HATE YOU!\" and a lovey one after \"But I love you!\" in P3; a hug after \"I still love you.\" in P6, answering the little one's 🙄. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-01 02:40 UTC: \"I'd actually add a hugging emoji after \"i still love you\" since it's responding to the disbelief emoji in P6. And after \"I hate you!\" i'd add an angry emoji and after \"I love you\" respond with some lovey emoji or hug emoji\"",
    "where": "Love Doesn't Have to Wait for Trust",
    "must_contain": [
     "\"I HATE YOU!\" 😡",
     "\"But I love you!\" 🥰",
     "I still love you. 🤗"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "emoji-pass-20261001",
@@ -638,13 +653,14 @@
   },
   {
    "id": "ldw-p7-proposal",
-   "status": "applied",
-   "what": "Love Doesn't Wait P7 becomes its proposal: the swearing is there to get them heard, like the anger at bedtime.",
+   "status": "superseded",
+   "what": "Love Doesn't Wait P7 becomes its proposal: the swearing is there to get them heard, like the anger at bedtime. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-01 04:53 UTC: \"P7 proposal is good.\"",
    "where": "Love Doesn't Have to Wait for Trust",
    "must_contain": [
     "Like the anger at bedtime, the swearing is there to get them heard, so once you're listening instead of fighting, they don't need it anymore."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "ldw-p8-actual-exchange",
@@ -685,8 +701,8 @@
   },
   {
    "id": "ldw-p9-installed",
-   "status": "applied",
-   "what": "Love Doesn't Wait P9 (the guide's \"Also notice what happens between the internal positions…\") is Joel's version of 2026-10-01 13:57, word for word.",
+   "status": "superseded",
+   "what": "Love Doesn't Wait P9 (the guide's \"Also notice what happens between the internal positions…\") is Joel's version of 2026-10-01 13:57, word for word. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-01 13:57 UTC: \"P9 yes, it absolutely does make sense to finish that thought otherwise it's unclear. P9 proposal: I like the proposal, but the reviewers are right that the other side and nothing to win are unclear. I made P9 clear and now ti's human med conf\"",
    "where": "Love Doesn't Have to Wait for Trust",
    "must_contain": [
@@ -697,12 +713,13 @@
     "might only be borrowing that voice",
     "the bedtime anger from the other side",
     "nothing to win"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "emoji-1357",
-   "status": "applied",
-   "what": "Joel's own emoji list is the allowlist, dark skin tones where an emoji has one. Claude's placements not on it changed: 🙏 → 🫶🏿 after the goodwill wish (his \"agape, metta loving kindness prayer\" emoji), 💛 → ❤️ on the Love Doesn't Wait h2, 😊 → 😇 after \"Seat belt's on.\", and 😌 out after \"Breathing easier.\" (it only repeated the words). On 15:59 Joel put the 😌 back (entry emoji-1559).",
+   "status": "superseded",
+   "what": "Joel's own emoji list is the allowlist, dark skin tones where an emoji has one. Claude's placements not on it changed: 🙏 → 🫶🏿 after the goodwill wish (his \"agape, metta loving kindness prayer\" emoji), 💛 → ❤️ on the Love Doesn't Wait h2, 😊 → 😇 after \"Seat belt's on.\", and 😌 out after \"Breathing easier.\" (it only repeated the words). On 15:59 Joel put the 😌 back (entry emoji-1559). Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-01 13:57 UTC: \"Ok in my posts (and especially my chats) i do use: 🫶🏿 (agape, metta loving kindness prayer) [...] i prefer the black emojis as they are less common, and i never see ai using black people emojis. [...] it's only when it really adds something, like an emotion wants to be expressed or for a heading sometimes i tend to add them, or if there just has been a lot of text with no break sometimes and it could look nice. [...] Sometimes an emoji actually adds clarity that text can't easily, so that makes it warranted.\"",
    "where": "the whole article",
    "must_contain": [
@@ -713,34 +730,37 @@
    "must_not_contain": [
     "🙏",
     "💛"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "ldw-p10-installed",
-   "status": "applied",
-   "what": "Claim check: Love Doesn't Wait P10 (the guide's \"When life has gone badly… finding a defendant\") is c6 plus its proposal sentence, which Joel adopted at 15:59 (\"P10 proposal is good\").",
+   "status": "superseded",
+   "what": "Claim check: Love Doesn't Wait P10 (the guide's \"When life has gone badly… finding a defendant\") is c6 plus its proposal sentence, which Joel adopted at 15:59 (\"P10 proposal is good\"). Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-01 13:57 UTC: \"continue\"",
    "where": "Love Doesn't Have to Wait for Trust",
    "must_contain": [
     "Your little one might not be the only one getting accused. When life has gone badly, part of you may try to get some control back by finding someone to blame, like \"If you'd gotten it together at fifteen, you could have saved everybody.\" If it's somebody's fault, it didn't have to happen, and that feels like control. But figuring out which age of you is to blame doesn't give you what it would have taken back then. That part may start picking on a different age."
    ],
-   "must_not_contain": []
+   "must_not_contain": [],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "emoji-1559",
-   "status": "applied",
-   "what": "The 😌 goes back after \"Breathing easier.\", and 😊 joins Joel's list; 😇 stays after \"Seat belt's on.\".",
+   "status": "superseded",
+   "what": "The 😌 goes back after \"Breathing easier.\", and 😊 joins Joel's list; 😇 stays after \"Seat belt's on.\". Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-01 15:59 UTC: \"your emojis are fine. you can add 😊 to my list also that's fine. altho the angel emoji was prob better there. the breathing easier emoji was good though, otherwise, \\\"breathing easier\\\" sounds flat and it's too abrupt to jump to the next sentence for me, so put that back\"",
    "where": "Write It. Don't Send It Yet.",
    "must_contain": [
     "Breathing easier. 😌 But don't send it.",
     "Seat belt's on. 😇 Where were we?"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "ldw-p11-joel",
-   "status": "applied",
-   "what": "Love Doesn't Wait P11 is Joel's version, word for word.",
+   "status": "superseded",
+   "what": "Love Doesn't Wait P11 is Joel's version, word for word. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-01 15:59 UTC: \"for P11, this one is human and works better\"",
    "where": "Love Doesn't Have to Wait for Trust",
    "must_contain": [
@@ -749,12 +769,13 @@
    "history": [
     "2026-10-23 (turn 103): strings updated for his answers of 21:52 UTC (entry joel-103-20261023).",
     "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his E10 A cut the last sentence."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "ldw-p12-installed",
-   "status": "applied",
-   "what": "Claim check: Love Doesn't Wait P12 (the guide's six questions) is installed as a numbered list, with the adopted proposal's line after it.",
+   "status": "superseded",
+   "what": "Claim check: Love Doesn't Wait P12 (the guide's six questions) is installed as a numbered list, with the adopted proposal's line after it. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-01 17:50 UTC: \"P12 proposal accepted\"",
    "where": "Love Doesn't Have to Wait for Trust",
    "must_contain": [
@@ -762,22 +783,24 @@
     "6. What can you learn or repair now, and how would you act differently in such situations?"
    ],
    "note": "2026-10-03 (turn 21): question 6 updated to Joel's wording (ldw-p12-q5-q6).",
-   "updated": "2026-10-22 turn 87: the line after the list now follows a sentence on sorting guilt (78.1, ST-CA candidate 10), so the check no longer needs them adjacent"
+   "updated": "2026-10-22 turn 87: the line after the list now follows a sentence on sorting guilt (78.1, ST-CA candidate 10), so the check no longer needs them adjacent",
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "ldw-p13-installed",
-   "status": "applied",
-   "what": "Claim check: Love Doesn't Wait P13 (\"what are you gonna do for me?\" is a real question) is installed with the adopted proposal's sentence, and its evidence list as a callback to Not Every Hero Wears A Cape.",
+   "status": "superseded",
+   "what": "Claim check: Love Doesn't Wait P13 (\"what are you gonna do for me?\" is a real question) is installed with the adopted proposal's sentence, and its evidence list as a callback to Not Every Hero Wears A Cape. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-01 17:50 UTC: \"P13 proposal accepted\"",
    "where": "Love Doesn't Have to Wait for Trust",
    "must_contain": [
     "Your little one has their own version of that last question: \"Big fuckity whoopty doo. What are you gonna do for me?\" They actually want to know, though I think the first answer may be that you keep loving them, even while they don't believe you. What you do for them takes days to add up, but the moment they doubt you, you can show them right away that the love stays and doesn't turn into an accusation. Then their trust can grow from the stuff back in \"Not Every Hero Wears A Cape,\" like hearing out the sarcasm, or finally opening that envelope."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "ldw-p14-installed",
-   "status": "applied",
-   "what": "Claim check: Love Doesn't Wait P14 (what relaxing can and can't do) is installed, without the guide's \"assign guilt\". Since 2026-10-02 (turn 16), without \"like before\" (Joel's rule on pointers sections back).",
+   "status": "superseded",
+   "what": "Claim check: Love Doesn't Wait P14 (what relaxing can and can't do) is installed, without the guide's \"assign guilt\". Since 2026-10-02 (turn 16), without \"like before\" (Joel's rule on pointers sections back). Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-01 15:59 UTC: \"continue\"",
    "where": "Love Doesn't Have to Wait for Trust",
    "must_contain": [
@@ -785,33 +808,36 @@
    ],
    "history": [
     "2026-10-23 (turn 103): strings updated for his answers of 21:52 UTC (entry joel-103-20261023)."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "vow-section-installed",
-   "status": "applied",
-   "what": "Claim check: Make a Simple Vow is installed, with the vow as a quote.",
+   "status": "superseded",
+   "what": "Claim check: Make a Simple Vow is installed, with the vow as a quote. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-01 17:50 UTC: \"continue\"",
    "where": "Make a Simple Vow",
    "must_contain": [
     "## Make a Simple Vow",
     "> \"I know you're in there. I love you. You don't have to love me back or trust me yet. I can't promise that nothing painful will happen. Or that I'll always know what to do, or never react badly. But I can promise to tell you the truth and listen when you're angry. I'll make our life together safer where I can, and take the next step I can see to protect you. When I fail, I'll come back to make it right. You don't have to believe these words. Watch what I do.\""
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "vow-p2-proposal",
-   "status": "applied",
-   "what": "Claim check: the line after the vow (Joel's adopted proposal) is installed right after the quote.",
+   "status": "superseded",
+   "what": "Claim check: the line after the vow (Joel's adopted proposal) is installed right after the quote. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-01 20:51 UTC: \"P2 proposal is good\"",
    "where": "Make a Simple Vow",
    "must_contain": [
     "> \"I know you're in there. I love you. You don't have to love me back or trust me yet. I can't promise that nothing painful will happen. Or that I'll always know what to do, or never react badly. But I can promise to tell you the truth and listen when you're angry. I'll make our life together safer where I can, and take the next step I can see to protect you. When I fail, I'll come back to make it right. You don't have to believe these words. Watch what I do.\"\n\n"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "vow-p3-joel",
-   "status": "applied",
-   "what": "Claim check: Make a Simple Vow P3 is Joel's text, word for word, with his adopted proposal (the goodwill prayer's words in place of \"from before\", which pointed seven sections back).",
+   "status": "superseded",
+   "what": "Claim check: Make a Simple Vow P3 is Joel's text, word for word, with his adopted proposal (the goodwill prayer's words in place of \"from before\", which pointed seven sections back). Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-01 20:51 UTC: \"I'd cut P3 to:\"; 2026-10-02 03:15 UTC, on the proposal: \"agree with proposal\"",
    "where": "Make a Simple Vow",
    "must_contain": [
@@ -819,17 +845,19 @@
    ],
    "must_not_contain": [
     "(with the goodwill prayer from before)"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "vow-p4-proposal",
-   "status": "applied",
-   "what": "Claim check: the P4 proposal's sentence (Joel adopted it) is installed after \"small enough to repeat\".",
+   "status": "superseded",
+   "what": "Claim check: the P4 proposal's sentence (Joel adopted it) is installed after \"small enough to repeat\". Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-01 20:51 UTC: \"P4 proposal is good\"",
    "where": "Make a Simple Vow",
    "must_contain": [
     "Pick one thing to do that's small enough to repeat. A big gesture you later drop would only prove them right to doubt you, but a small thing you keep doing can change their mind."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "vow-p5-joel",
@@ -857,8 +885,8 @@
   },
   {
    "id": "vow-p4-examples-cut",
-   "status": "applied",
-   "what": "Make a Simple Vow P4 loses the guide's examples \"or just keeping an appointment, eating, or going to bed\" (Joel's cut).",
+   "status": "superseded",
+   "what": "Make a Simple Vow P4 loses the guide's examples \"or just keeping an appointment, eating, or going to bed\" (Joel's cut). Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-02 00:16 UTC: \"For P4 I think cut out the \\\"or just keeping an appointment, eating, or going to bed.\\\" that sounds almost ridiculous\"",
    "where": "Make a Simple Vow",
    "must_contain": [
@@ -866,7 +894,8 @@
    ],
    "must_not_contain": [
     "or just keeping an appointment, eating, or going to bed"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "vow-p1-baby",
@@ -915,8 +944,8 @@
   },
   {
    "id": "adult-voice-fake-opening",
-   "status": "applied",
-   "what": "Claim check: the guide's h1 When the Adult Voice Feels Fake is installed with its opening (P1, Scott's quote, P3). P3 is now Joel's (see adult-voice-fake-p3-joel); Claude's turn-16 P3 is gone.",
+   "status": "superseded",
+   "what": "Claim check: the guide's h1 When the Adult Voice Feels Fake is installed with its opening (P1, Scott's quote, P3). P3 is now Joel's (see adult-voice-fake-p3-joel); Claude's turn-16 P3 is gone. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-02 01:08 UTC: \"continue\"; 03:15 UTC: \"new p3, tested human\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain": [
@@ -926,7 +955,8 @@
    "must_not_contain": [
     "I used to think the answer was mainly persistence",
     "Why would being kind to your little one feel fake?"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "adult-voice-fake-p3-joel",
@@ -943,18 +973,19 @@
   },
   {
    "id": "scott-quote-confirmed",
-   "status": "applied",
-   "what": "Scott's quote stays word for word from Joel's source; Joel confirmed it.",
+   "status": "superseded",
+   "what": "Scott's quote stays word for word from Joel's source; Joel confirmed it. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-02 03:15 UTC: \"he said that, altho i'm not sure word for word but yes that's how i remembered it.\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain": [
     "> \"Half the time when I try to connect to baby me, I feel fake and it seems crazy.\""
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "parent-you-inherited-p4-p5",
-   "status": "applied",
-   "what": "Claim check: the guide's h2 The Parent You Inherited is installed with P4 (Joel's), P5 and P6 (Joel's), right after Joel's P3 (since turn 24, right after the altered-states paragraph that follows it). P5's \"both sides\" are both in its sentence; turn 16's \"doesn't even make sense\" is out. Turn 98: his rewrite of 2026-10-23 02:29 UTC (entry joel-98-20261023) replaced these words, so the strings are his current ones.",
+   "status": "superseded",
+   "what": "Claim check: the guide's h2 The Parent You Inherited is installed with P4 (Joel's), P5 and P6 (Joel's), right after Joel's P3 (since turn 24, right after the altered-states paragraph that follows it). P5's \"both sides\" are both in its sentence; turn 16's \"doesn't even make sense\" is out. Turn 98: his rewrite of 2026-10-23 02:29 UTC (entry joel-98-20261023) replaced these words, so the strings are his current ones. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-02 03:15 UTC: \"continue\"; 18:56 UTC: his P4 and P6",
    "where": "When the Adult Voice Feels Fake",
    "must_contain": [
@@ -962,7 +993,8 @@
    ],
    "must_not_contain": [
     "That second one doesn't even make sense"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "parent-you-inherited-p4-joel",
@@ -980,18 +1012,19 @@
   },
   {
    "id": "parent-you-inherited-p6-joel",
-   "status": "applied",
-   "what": "The Parent You Inherited P6 is Joel's, word for word, after P5. Turn 98: his rewrite of 2026-10-23 02:29 UTC (entry joel-98-20261023) replaced these words, so the strings are his current ones.",
+   "status": "superseded",
+   "what": "The Parent You Inherited P6 is Joel's, word for word, after P5. Turn 98: his rewrite of 2026-10-23 02:29 UTC (entry joel-98-20261023) replaced these words, so the strings are his current ones. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-02 18:56 UTC: \"as for the someone, that part did throw me at first, mainly because the prior to it was strange, \"new grown up can start outside your head\" is what i would have flagged as unclear. This is what I'ds ay and it passes:\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain": [
     "If the script is mostly critical, it means the parent you inherited is busy measuring whatever you show the world against an impossible ideal. Then you can feel attacked from both sides: not only are you not good enough, but if you do seem to be good enough, it's probably fake, so it's like nothing you do really counts. When a new grown-up voice shows up saying “Trust me,” with a background like that, well, of course your little one doesn’t answer.\n\nBut with the borrowed adulthood trick, the new grown-up can start outside your head, as someone who likes you just the way you are, or as something you do to protect your little sweetie pie, like letting the phone ring when you know already how that call goes. You don’t have to pretend to feel anything to let a phone ring. It may take many such ignored calls before your inner child can start trusting you, and all the while, the parent you inherited calls your efforts fake."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "sws-p1-protective-part",
-   "status": "applied",
-   "what": "Start With Whatever Showed Up P1 is Joel's minimal fix, word for word: \"a part of you that's trying to protect you\" is in, and neither list of three is back to back with another.",
+   "status": "superseded",
+   "what": "Start With Whatever Showed Up P1 is Joel's minimal fix, word for word: \"a part of you that's trying to protect you\" is in, and neither list of three is back to back with another. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-02 22:44 UTC: \"i agree to add that part of you trying to protect you in p1 oh and yeah you're right that could be confused for the adult protector, which is the one we are consciously building rather than the inherited protector that came from trauma responses\"; 2026-10-03 00:00 UTC: \"P! failed b ecause it has 2 lists of 3. I did a minimal fix and now it's human med conf: [P1]\"",
    "where": "Start With Whatever Showed Up",
    "must_contain": [],
@@ -1005,7 +1038,8 @@
    ],
    "history": [
     "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): 104 A, reshape_t109.py: P1 is two runs now: its first three sentences open the section's plain path, and the next three open the paragraph about who it might be. Every sentence is still required word for word."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "adultfake-p1-no-dinner",
@@ -1023,8 +1057,8 @@
   },
   {
    "id": "ldw-p12-q5-q6",
-   "status": "applied",
-   "what": "Love Doesn't Have to Wait for Trust P12: questions 5 and 6 are Joel's, word for word, each in place of a list of three.",
+   "status": "superseded",
+   "what": "Love Doesn't Have to Wait for Trust P12: questions 5 and 6 are Joel's, word for word, each in place of a list of three. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-03 01:06 UTC: \"yes i'd say when there's no actual need for 3 items you can remove one of them, the one that matters the least. when you need all 3 items to be there for meaning, then split it up like i did. in these cases i'd just remove dinner... and for 5: \"What was missing? Some ability, or help/protection from someone else?\" for 6: \"What can you learn or repair now, and how would you act differently in such situations?\"\"",
    "where": "Love Doesn't Have to Wait for Trust",
    "must_contain_exact": [
@@ -1035,7 +1069,8 @@
     "Some ability, or help, or someone protecting you?",
     "What can you learn, repair, or do differently now?"
    ],
-   "waits_for": "(done in turn 21: alone 100% Human (89), P12 try 2; Love Doesn't Wait 100% Human (1,241))"
+   "waits_for": "(done in turn 21: alone 100% Human (89), P12 try 2; Love Doesn't Wait 100% Human (1,241))",
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "sws-p2-keep-last-line",
@@ -1049,18 +1084,19 @@
   },
   {
    "id": "vow-borrow-nurturer",
-   "status": "applied",
-   "what": "Make a Simple Vow P3 ends with Joel's line from his 2026-10-03 guide update, \"Borrow the Nurturer to improve this.\"",
+   "status": "superseded",
+   "what": "Make a Simple Vow P3 ends with Joel's line from his 2026-10-03 guide update, \"Borrow the Nurturer to improve this.\" Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-03 03:50 UTC: \"i'm also uploading some changes to the original AI guide, as well as the full updated substack ai guide. we'll have to humanize those also.\" The guide's line: \"Borrow the nurturer to improve this.\"",
    "where": "Make a Simple Vow",
    "must_contain": [
     "just promise your little one you won't be cruel to them on purpose. Borrow the Nurturer to improve this."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "guide-update-20261003-covered",
-   "status": "claim",
-   "what": "Claim: the article already carries the 2026-10-03 guide update's Borrowed Nurturer lines (non-judgement is enough to begin but not to ask for trust; find a nurturer you remember fondly, or Mr. Rogers, or spiritual love) and its \"Non-cruelty is the floor\" paragraph, in Borrow One Competency at a Time P2 and P3. 2026-10-14 (Joel, 19:51 UTC, question 24): P3's fallback sentence is cut; the Chicken-and-Egg section carries Mr. Rogers and Ask God for a Loan the spiritual love. Turn 101 (Joel's 91.1 B, 2026-10-23 14:05 UTC): the section's new order; \"Most of us wouldn't open up ...\" is cut as a near-repeat of P5's last sentence, which keeps the not-enough-for-trust point, and the warmth paragraph starts \"For warmth, think of someone you remember fondly.\"",
+   "status": "superseded",
+   "what": "Claim: the article already carries the 2026-10-03 guide update's Borrowed Nurturer lines (non-judgement is enough to begin but not to ask for trust; find a nurturer you remember fondly, or Mr. Rogers, or spiritual love) and its \"Non-cruelty is the floor\" paragraph, in Borrow One Competency at a Time P2 and P3. 2026-10-14 (Joel, 19:51 UTC, question 24): P3's fallback sentence is cut; the Chicken-and-Egg section carries Mr. Rogers and Ask God for a Loan the spiritual love. Turn 101 (Joel's 91.1 B, 2026-10-23 14:05 UTC): the section's new order; \"Most of us wouldn't open up ...\" is cut as a near-repeat of P5's last sentence, which keeps the not-enough-for-trust point, and the warmth paragraph starts \"For warmth, think of someone you remember fondly.\" Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "where": "Borrow One Competency at a Time",
    "must_contain": [
     "If the love still isn't coming, you can at least stop judging your little one.",
@@ -1071,7 +1107,8 @@
    ],
    "history": [
     "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-borrow approved: the warmth paragraph starts after its heading, his \"For warmth\", so the strings are the current ones (entry joel-114-20261026)."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "guide-update-20261003-altered-states",
@@ -1085,8 +1122,8 @@
   },
   {
    "id": "sws-p3-p5-joel",
-   "status": "applied",
-   "what": "Start With Whatever Showed Up P3 loses its last line, and P4 and P5 are Joel's, word for word (one double space made single).",
+   "status": "superseded",
+   "what": "Start With Whatever Showed Up P3 loses its last line, and P4 and P5 are Joel's, word for word (one double space made single). Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-03 04:31 UTC: \"i'd remove the last line in p3, doesn't it seem redundant? and plus like you said then it's taking over p4. I fixed p3-p5 for you, it reads much better now and human high conf as a whole.\"",
    "where": "Start With Whatever Showed Up",
    "must_contain_exact": [
@@ -1103,12 +1140,13 @@
     "2026-10-23 (turn 103): strings updated for his answers of 21:52 UTC (entry joel-103-20261023).",
     "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): 104 A, reshape_t109.py: his P4 is two runs now: his line to say and \"Then wait and listen patiently.\" close the plain path, and his \"If nothing comes\" lines are their own paragraph, next to his \"Or if you do get an answer\". Every sentence is still required word for word.",
     "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-start approved: \"If nothing comes,\" became the heading \"If no answer comes\", \"Or if you do get an answer,\" and \"If it tells you to do something,\" are headings, and \"How you picture all that is up to you ...\" moved up to the end of the answer paragraph, so the strings are the current ones (entry joel-114-20261026)."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "adultfake-altered-states-joel",
-   "status": "applied",
-   "what": "The altered-states paragraph after Joel's P3 in When the Adult Voice Feels Fake is his minimal fix of Claude's try 3 with the proposed last sentence, word for word.",
+   "status": "superseded",
+   "what": "The altered-states paragraph after Joel's P3 in When the Adult Voice Feels Fake is his minimal fix of Claude's try 3 with the proposed last sentence, word for word. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-03 16:16 UTC: \"you suggested ending sentence is good\"; \"look here's the mininal fix. i'm not saying to make oh my gosh into a rule but just see how it can break up the marching order of code instructions translated to english ok? this is human med conf\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
@@ -1119,12 +1157,13 @@
    ],
    "history": [
     "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-fake approved: his first clause is the heading \"For some people it only stops feeling fake in an altered state\", so the strings are the current ones (entry joel-114-20261026)."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "two-protective-patterns-h3",
-   "status": "applied",
-   "what": "Claim check: the guide's h3 Two Common Protective Patterns is installed at the end of Start With Whatever Showed Up, in two paragraphs: P1 the kind that's always on duty; P2 the kind that shows up near pain, and what both share (don't treat either like an enemy). Turn 30: P2's yawning example reworked per Joel (2026-10-06 19:04 UTC) with the Re-evaluation Counseling angle. Turn 31: \"The skeptic and the pull both\" for \"Both kinds\" (Joel), and \"the opposite of checking out\". Turn 90: P1 and P2 reworked for 4.1 (experiments/t89-drafts/ a5, a6), his words and the claim kept; the exact strings are the current ones. Turn 93: reworked for 4.1 (Joel's answer to question 83, 2026-10-22 19:01 UTC; experiments/t93-tells/TELLS-ROUND2.md), so the exact strings are the current ones. Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones.",
+   "status": "superseded",
+   "what": "Claim check: the guide's h3 Two Common Protective Patterns is installed at the end of Start With Whatever Showed Up, in two paragraphs: P1 the kind that's always on duty; P2 the kind that shows up near pain, and what both share (don't treat either like an enemy). Turn 30: P2's yawning example reworked per Joel (2026-10-06 19:04 UTC) with the Re-evaluation Counseling angle. Turn 31: \"The skeptic and the pull both\" for \"Both kinds\" (Joel), and \"the opposite of checking out\". Turn 90: P1 and P2 reworked for 4.1 (experiments/t89-drafts/ a5, a6), his words and the claim kept; the exact strings are the current ones. Turn 93: reworked for 4.1 (Joel's answer to question 83, 2026-10-22 19:01 UTC; experiments/t93-tells/TELLS-ROUND2.md), so the exact strings are the current ones. Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-03 21:18 UTC: \"continue\"; 2026-10-06 19:04 UTC (yawning): \"it's not that yawning itself is a problem, but it can feel like you're tired of whatever you're doing when you notice yawning. actually, in re-evaluation counseling, yawning is a form of emotional discharge.\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
@@ -1132,12 +1171,13 @@
     "One of these patterns is a skeptic, on duty all the time: \"You're just making this up.\" It may have spent years keeping you from being humiliated or abandoned again, and it has probably watched you get excited about other healing things before that got unexplainedly dropped a month later. We do need some skepticism, so thank it for keeping you on track.",
     "The other one shows up when you get close to some painful memory or insight. Suddenly you'd rather check your phone, or do anything aside from directly feeling it (even a yawn can come with an \"I'm so done with this\" feeling). Maybe this guard doesn't believe there's a grown-up around who could handle what's coming? That yawn might actually be the opposite of checking out, though. Re-evaluation Counseling, a global movement of peer counseling, counts yawning as productive emotional discharge, a feeling on its way out. The skeptic and the pull both started out guarding you against something that really hurt. If you treat either one like an enemy, it'll probably just think \"See? I knew it,\" and it stays on the payroll since guards require attackers."
    ],
-   "updated": "2026-10-22 turn 87: P2's \"The skeptic and the pull both...\" sentence is said plainer after the turn-79 check's Medium window; his \"The skeptic and the pull both\" stays"
+   "updated": "2026-10-22 turn 87: P2's \"The skeptic and the pull both...\" sentence is said plainer after the turn-79 check's Medium window; his \"The skeptic and the pull both\" stays",
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "bus-p2-joel",
-   "status": "applied",
-   "what": "The guide's A Bottom-Up Sequence (heading \"Hear the Protective Part First\") has Joel's P2, word for word: his four-step fix of writer a's P2.",
+   "status": "superseded",
+   "what": "The guide's A Bottom-Up Sequence (heading \"Hear the Protective Part First\") has Joel's P2, word for word: his four-step fix of writer a's P2. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-04 01:03 UTC: \"let me fix p2 and then you see if you can fix the rest\"; \"now this one is 100% human, med conf\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
@@ -1152,23 +1192,25 @@
    ],
    "history": [
     "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): 104 A moved his sentences, word for word, into the new first paragraph (sentences 3 to 6) and the performance paragraph (1, 2, 7 and 8), so each sentence is required now rather than the paragraph."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "bus-heading",
-   "status": "applied",
-   "what": "The guide's A Bottom-Up Sequence goes in under the heading \"Hear the Protective Part First\".",
+   "status": "superseded",
+   "what": "The guide's A Bottom-Up Sequence goes in under the heading \"Hear the Protective Part First\". Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-04 01:03 UTC: \"your heading is fine.\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain": [
     "### Hear the Guard First"
    ],
-   "updated": "2026-10-22 turn 87: changed by his answers 77.1 A and 76.2 A (experiments/t87-answers/JOEL-20261022-1533.md)"
+   "updated": "2026-10-22 turn 87: changed by his answers 77.1 A and 76.2 A (experiments/t87-answers/JOEL-20261022-1533.md)",
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "bus-p3-joel",
-   "status": "applied",
-   "what": "Hear the Protective Part First P3 is Joel's version, word for word: turn 26's round-3 P3 with his one insertion \"(hopefully, right?)\".",
+   "status": "superseded",
+   "what": "Hear the Protective Part First P3 is Joel's version, word for word: turn 26's round-3 P3 with his one insertion \"(hopefully, right?)\". Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-04 01:33 UTC: his P3 fix, \"just one insertion that anyone could have thought of\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
@@ -1177,12 +1219,13 @@
    "must_not_contain": [
     "on move-in day. The rent just has to keep showing up."
    ],
-   "updated": "2026-10-22 turn 87: changed by his answers 77.1 A and 76.2 A (experiments/t87-answers/JOEL-20261022-1533.md)"
+   "updated": "2026-10-22 turn 87: changed by his answers 77.1 A and 76.2 A (experiments/t87-answers/JOEL-20261022-1533.md)",
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "bus-h3",
-   "status": "claim",
-   "what": "Claim check: the guide's h3 A Bottom-Up Sequence is installed at the end of Start With Whatever Showed Up, under \"Hear the Protective Part First\", in four paragraphs: P1 the same Nurturer voice and the question for that part; P2 (Joel's) hearing out its fear; P3 (Joel's) trust earned out in ordinary life; P4 that part can stay and watch one small step, its no counts, then follow what changes and answer the fear underneath. The guide's last two paragraphs are one, shortened.",
+   "status": "superseded",
+   "what": "Claim check: the guide's h3 A Bottom-Up Sequence is installed at the end of Start With Whatever Showed Up, under \"Hear the Protective Part First\", in four paragraphs: P1 the same Nurturer voice and the question for that part; P2 (Joel's) hearing out its fear; P3 (Joel's) trust earned out in ordinary life; P4 that part can stay and watch one small step, its no counts, then follow what changes and answer the fear underneath. The guide's last two paragraphs are one, shortened. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-04 01:33 UTC: \"yes i agree with your shortening sugggestions\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
@@ -1215,12 +1258,13 @@
     "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): reshape_t109e.py, back to the second try's arrangement after four tries, my pick on the review page: his reply and its reason together in P3, the plain path short in P1.",
     "Turn 111 (his answers of 2026-10-25 20:08 UTC, experiments/t111-answers/ANSWERS-20261025-2008.json): S1 approved: the agreed order (experiments/t110-review/AGREED.md, reshape_t110.py), seven paragraphs.",
     "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-guard approved: his \"If it's been calling all this stupid\" is the heading, so the strings are the current ones (entry joel-114-20261026)."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "bus-p4-proposal",
-   "status": "applied",
-   "what": "Hear the Protective Part First P4's third sentence has the clarity fix Joel liked, less its \"to see\" (the whole proposal put AI windows into the h3 and h1): \"I think watching is what it wants anyway, whether there's a grown-up here now who could call it off if things got to be too much\". Turn 31 (E137 sweep): \"whether\" alone can read as \"whether or not\", so it's \"to find out if\" now; \"to see whether\" drew its h1 window again.",
+   "status": "superseded",
+   "what": "Hear the Protective Part First P4's third sentence has the clarity fix Joel liked, less its \"to see\" (the whole proposal put AI windows into the h3 and h1): \"I think watching is what it wants anyway, whether there's a grown-up here now who could call it off if things got to be too much\". Turn 31 (E137 sweep): \"whether\" alone can read as \"whether or not\", so it's \"to find out if\" now; \"to see whether\" drew its h1 window again. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-04 03:58 UTC: \"i liked the proposal at the end yeah\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
@@ -1231,12 +1275,13 @@
    ],
    "history": [
     "Turn 111 (his answers of 2026-10-25 20:08 UTC, experiments/t111-answers/ANSWERS-20261025-2008.json): S1 approved: the sentence is two (\"toward your little one. I think watching\"), with \"call it all off\" (the cold read), both admitted by the owner-delivery gate."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "tp-p2-see-i-knew-it",
-   "status": "claim",
-   "what": "Claim check: Two Common Protective Patterns P2's fifth sentence voices the part's own thought (turn 29), where it said the treatment \"usually gives it one more reason to stay in charge\". Turn 93: the sentence's \"or like proof that something's wrong with you\" pair is out (4.1); the part's own thought stays. Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones.",
+   "status": "superseded",
+   "what": "Claim check: Two Common Protective Patterns P2's fifth sentence voices the part's own thought (turn 29), where it said the treatment \"usually gives it one more reason to stay in charge\". Turn 93: the sentence's \"or like proof that something's wrong with you\" pair is out (4.1); the part's own thought stays. Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-04 05:48 UTC: \"why did you stop there\"; 05:50 UTC: \"no worries on pangram checks\" (the h1's last AI window, fixed here)",
    "where": "When the Adult Voice Feels Fake",
    "must_contain_exact": [
@@ -1244,7 +1289,8 @@
    ],
    "must_not_contain": [
     "usually gives it one more reason to stay in charge"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "wcs-h3",
@@ -1324,8 +1370,8 @@
   },
   {
    "id": "tcp-yawn-rc",
-   "status": "applied",
-   "what": "Two Common Protective Patterns P2: the pull can come as the \"I'm so done with this\" feeling a yawn brings, and the yawn itself may be the opposite (Re-evaluation Counseling counts yawning as emotional discharge). Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones.",
+   "status": "superseded",
+   "what": "Two Common Protective Patterns P2: the pull can come as the \"I'm so done with this\" feeling a yawn brings, and the yawn itself may be the opposite (Re-evaluation Counseling counts yawning as emotional discharge). Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-06 19:04 UTC: \"it's not that yawning itself is a problem, but it can feel like you're tired of whatever you're doing when you notice yawning. actually, in re-evaluation counseling, yawning is a form of emotional discharge. so that's an interesting angle for that. sort of the opposite of how most people would think of it in this case.\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain": [
@@ -1334,7 +1380,8 @@
    ],
    "must_not_contain": [
     "(you might start yawning, even though you slept well)"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "pgq-005-duration",
@@ -1387,8 +1434,8 @@
   },
   {
    "id": "tcp-both-kinds",
-   "status": "applied",
-   "what": "Two Common Protective Patterns P2 names both kinds: \"The skeptic and the pull both started out…\" (after two readings of yawning, \"Both kinds\" was unclear).",
+   "status": "superseded",
+   "what": "Two Common Protective Patterns P2 names both kinds: \"The skeptic and the pull both started out…\" (after two readings of yawning, \"Both kinds\" was unclear). Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-07 01:09 UTC: \"Your \"Both kinds\" is referring to what? it's hard to understand since you've now talked about two different inerpretations of yawning. you should specify both waht.\"",
    "where": "When the Adult Voice Feels Fake",
    "must_contain": [
@@ -1397,7 +1444,8 @@
    "must_not_contain": [
     "Both kinds started out"
    ],
-   "updated": "2026-10-22 turn 87: P2's \"The skeptic and the pull both...\" sentence is said plainer after the turn-79 check's Medium window; his \"The skeptic and the pull both\" stays"
+   "updated": "2026-10-22 turn 87: P2's \"The skeptic and the pull both...\" sentence is said plainer after the turn-79 check's Medium window; his \"The skeptic and the pull both\" stays",
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "wcs-p1-getting-ready",
@@ -1433,8 +1481,8 @@
   },
   {
    "id": "no-weekdays",
-   "status": "applied",
-   "what": "No weekday or \"regular/ordinary\" day put in to sound concrete (SKILL.md \"Synthetic specificity\"; E139). Update-queue A lost \"on a regular Tuesday\" and P5 \"by Wednesday\". His own weekday stays: Use Childhood Photographs Gently ends on his \"Oh, Today is Monday, my favorite day of the week!\" (2026-10-17 14:01 UTC, his section word for word), so \"Monday\" is off this list; the linter's O11 still flags a weekday in my sentences.",
+   "status": "superseded",
+   "what": "No weekday or \"regular/ordinary\" day put in to sound concrete (SKILL.md \"Synthetic specificity\"; E139). Update-queue A lost \"on a regular Tuesday\" and P5 \"by Wednesday\". His own weekday stays: Use Childhood Photographs Gently ends on his \"Oh, Today is Monday, my favorite day of the week!\" (2026-10-17 14:01 UTC, his section word for word), so \"Monday\" is off this list; the linter's O11 still flags a weekday in my sentences. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-07 01:09 UTC: \"you are forgetting the rules abouut Tuesday and Wednesday etc. i told you, AI is always saying Tuesday, on Tuesday, or some specific day like this. on a regular Tuesday is the worst.\"",
    "where": "the whole article",
    "must_not_contain": [
@@ -1444,17 +1492,19 @@
     "Friday",
     "Saturday",
     "Sunday"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "pgq-012-leave-exercise",
-   "status": "claim",
-   "what": "Claim check: Joel's update queue item PGQ-012 (each stage has to leave the exercise; the grown-up becomes believable by showing up in the rest of life, even in small ways) is after the five stages in The Chicken-and-Egg Problem.",
+   "status": "superseded",
+   "what": "Claim check: Joel's update queue item PGQ-012 (each stage has to leave the exercise; the grown-up becomes believable by showing up in the rest of life, even in small ways) is after the five stages in The Chicken-and-Egg Problem. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-06 19:04 UTC: \"also check your lane in github, i added a bunch of suggested guide updates from the map/rules updates\"",
    "where": "The Chicken-and-Egg Problem",
    "must_contain_exact": [
     "Whichever stage you're at, saying the right thing when you sit down with your little one helps, but you also have to start actually doing some of it in the rest of your life. Your little one starts believing the grown-up you when they catch you lying down because you're wiped out, instead of pushing through one more chore."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "pgq-002-performance-test",
@@ -1470,8 +1520,8 @@
   },
   {
    "id": "boundary-paragraph-joel",
-   "status": "applied",
-   "what": "Joel's own paragraph replaces \"Here's where I want to clearly depart… Somebody may really have crossed a boundary and still have hit something old in you…\" at the end of Catch the Hook Before the Story Takes Over. One punctuation fix: a double space in \"Just  because\".",
+   "status": "superseded",
+   "what": "Joel's own paragraph replaces \"Here's where I want to clearly depart… Somebody may really have crossed a boundary and still have hit something old in you…\" at the end of Catch the Hook Before the Story Takes Over. One punctuation fix: a double space in \"Just  because\". Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-07 16:46 UTC: \"somehow i must not have read the paragarph before also look outward because it makes no sense AND it sounds ai with \\\"may have X and still Y\\\" change it to: [his paragraph]\"",
    "where": "Catch the Hook Before the Story Takes Over",
    "must_contain_exact": [
@@ -1480,7 +1530,8 @@
    "must_not_contain": [
     "still have hit something old in you",
     "that somehow elevated the boundary crossing"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "pgq-001-joel-rewrite",
@@ -1502,8 +1553,8 @@
   },
   {
    "id": "pgq-004-anxiety",
-   "status": "claim",
-   "what": "Claim check: Joel's update queue item PGQ-004 (anxiety can protect without being an oracle; testing a prediction never overrides a no) is in Start With Whatever Showed Up, after \"Or if you do get an answer…\". Turn 93: reworked for 4.1 (Joel's answer to question 83, 2026-10-22 19:01 UTC; experiments/t93-tells/TELLS-ROUND2.md), so the exact strings are the current ones. Turn 94: round 3's windows on P9's end and P10 cut again (experiments/t94-tells/), so the exact strings are the current ones.",
+   "status": "superseded",
+   "what": "Claim check: Joel's update queue item PGQ-004 (anxiety can protect without being an oracle; testing a prediction never overrides a no) is in Start With Whatever Showed Up, after \"Or if you do get an answer…\". Turn 93: reworked for 4.1 (Joel's answer to question 83, 2026-10-22 19:01 UTC; experiments/t93-tells/TELLS-ROUND2.md), so the exact strings are the current ones. Turn 94: round 3's windows on P9's end and P10 cut again (experiments/t94-tells/), so the exact strings are the current ones. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-06 19:04 UTC: \"also check your lane in github, i added a bunch of suggested guide updates from the map/rules updates\"; 2026-10-07 16:46: \"maybe you can continue with the rest from there?\"",
    "where": "Start With Whatever Showed Up",
    "must_contain_exact": [
@@ -1513,7 +1564,8 @@
    ],
    "history": [
     "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-start approved: the stop rule's condition is its heading, so the strings are the current ones (entry joel-114-20261026)."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "also-look-outward-run-joel",
@@ -1709,8 +1761,8 @@
   },
   {
    "id": "q1-safety-cautions-20261011",
-   "status": "applied",
-   "what": "His answers to the questions page's question 1. (a) After going manic or psychotic, get someone qualified to help if you can't clearly understand why yourself. (b) Every kind of predisposition toward mania or psychosis (family history, a bad environment, a bad mindset, and so on) is a warning sign. (c) Be careful what you combine, not just prescribed medicines: even basic things like cinnamon can be dangerous (and helpful) with ayahuasca; his list of things to be cautious about with ayahuasca, http://ayasafety.u-dont-exist.com/; doctors don't know about a lot of this. Not for the text, unless he says: his THH and iboga stories (they explain answer (a)); the THH one is also a recipe for combining, so it stays out. In since turn 43 (2026-10-11): (a) and (b) in the drug-history paragraphs, (c) as its own short paragraph after the help paragraph (Pangram: 100% Human, 114, 66 and 134 with its neighbor).",
+   "status": "superseded",
+   "what": "His answers to the questions page's question 1. (a) After going manic or psychotic, get someone qualified to help if you can't clearly understand why yourself. (b) Every kind of predisposition toward mania or psychosis (family history, a bad environment, a bad mindset, and so on) is a warning sign. (c) Be careful what you combine, not just prescribed medicines: even basic things like cinnamon can be dangerous (and helpful) with ayahuasca; his list of things to be cautious about with ayahuasca, http://ayasafety.u-dont-exist.com/; doctors don't know about a lot of this. Not for the text, unless he says: his THH and iboga stories (they explain answer (a)); the THH one is also a recipe for combining, so it stays out. In since turn 43 (2026-10-11): (a) and (b) in the drug-history paragraphs, (c) as its own short paragraph after the help paragraph (Pangram: 100% Human, 114, 66 and 134 with its neighbor). Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-11 03:47 UTC: \"1a yes they shoudl get someone qualified to help if they aren't able to clearly understand themself. [two stories of his own, for context] b. absolutely, every kind of predisposition towards mania or psychosis, whether familial history or bad environment bad mindset, etc etc, should be considered a warning sign. c. that pretty much goes without saying, but yes, not just prescribed medicines. even some basic things like cinnamon can be dangerous (and helpful) with ayahuasca. I have a list of things to be cautious about with aya in particular at http://ayasafety.u-dont-exist.com/ (yes it loads even if you can't see it). doctors don't know about a lot of this.\"",
    "where": "When the Urge to Escape Arrives",
    "must_contain": [
@@ -1722,17 +1774,19 @@
      "text": "list of things to be cautious about with ayahuasca",
      "url": "http://ayasafety.u-dont-exist.com/"
     }
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "q2-altered-states-voices-20261011",
-   "status": "applied",
-   "what": "For Altered States Can Deepen the Therapy, when it's humanized: his new list decides who goes through the gate (going manic, psychotic, super paranoid, worse afterward), not the guide's history of voices. Feeling attacked by a demon on a psychedelic isn't necessarily paranoia: it can be real, it isn't bad unless you're unprepared, and it can be supremely empowering when you can send love and see it fix the situation. In since turn 71 (2026-10-18), after the gate and Pangram: P2 points back to the guards and caution signs of When the Urge to Escape Arrives (his list), then his answer 2a, fitted with only \"as stated\" dropped.",
+   "status": "superseded",
+   "what": "For Altered States Can Deepen the Therapy, when it's humanized: his new list decides who goes through the gate (going manic, psychotic, super paranoid, worse afterward), not the guide's history of voices. Feeling attacked by a demon on a psychedelic isn't necessarily paranoia: it can be real, it isn't bad unless you're unprepared, and it can be supremely empowering when you can send love and see it fix the situation. In since turn 71 (2026-10-18), after the gate and Pangram: P2 points back to the guards and caution signs of When the Urge to Escape Arrives (his list), then his answer 2a, fitted with only \"as stated\" dropped. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-11 03:47 UTC: \"2. a. feeling attacked by a demon on a psychedelic is not necessarily paranoia, it can be real, and it's also not bad unless you're unprepared as stated. it can be supremely empowering when you can send love and see how it fixes the situation.\"",
    "where": "Altered States Can Deepen the Therapy",
    "must_contain": [
     "But feeling attacked by a demon on a psychedelic is not necessarily paranoia. It can be real, and it's also not bad unless you're unprepared. It can be supremely empowering when you can send love and see how it fixes the situation."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "q3-therapist-story-20261011",
@@ -1749,24 +1803,26 @@
   },
   {
    "id": "pl-ork-first-phase-said-20261011",
-   "status": "applied",
-   "what": "Joel agreed to cut \"The pl/ork begins earlier, with finding or building the self.\" from the opening of Sometimes There Isn't a Clear Child Yet because the next h2 says it. From Survival to Experimental Play P2 (turn 43) says it: the pl/ork you get to do late, and making it safe enough as the first phase when your little one isn't easy to feel yet. Turn 54 (E172): P2's \"making it safe like that is the first phase\" came out as a repeat of P5's \"So early on, the practice is finding out who's actually in there\", which now carries the \"earlier\" half.",
+   "status": "superseded",
+   "what": "Joel agreed to cut \"The pl/ork begins earlier, with finding or building the self.\" from the opening of Sometimes There Isn't a Clear Child Yet because the next h2 says it. From Survival to Experimental Play P2 (turn 43) says it: the pl/ork you get to do late, and making it safe enough as the first phase when your little one isn't easy to feel yet. Turn 54 (E172): P2's \"making it safe like that is the first phase\" came out as a repeat of P5's \"So early on, the practice is finding out who's actually in there\", which now carries the \"earlier\" half. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-10 19:37 UTC (answer 4): \"agreed\"",
    "where": "From Survival to Experimental Play",
    "must_contain": [
     "Some of this is developmental pl/ork you get to do late",
     "So early on, the practice is finding out who's actually in there"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "q4a-not-sure-ask-20261011b",
-   "status": "applied",
-   "what": "When the Urge to Escape Arrives, the drug-history paragraph: after \"get someone qualified to help\", the suggested clause for (a): if you're not sure you understand what happened, ask someone who knows you well. In since turn 44 (2026-10-11), after the gate and Pangram.",
+   "status": "superseded",
+   "what": "When the Urge to Escape Arrives, the drug-history paragraph: after \"get someone qualified to help\", the suggested clause for (a): if you're not sure you understand what happened, ask someone who knows you well. In since turn 44 (2026-10-11), after the gate and Pangram. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-11 21:10 UTC: \"4. a agree with suggestion a.\"",
    "where": "When the Urge to Escape Arrives",
    "must_contain": [
     "ask someone who knows you well"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "q4b-caution-signs-20261011b",
@@ -2005,15 +2061,16 @@
   },
   {
    "id": "survival-p4-signs-20261011c",
-   "status": "claim",
-   "what": "From Survival to Experimental Play P4 carries the guide's last three possible signs (preferences and beliefs shifting with the people around you; not knowing what you'd choose without the fear of disappointing somebody; a guessed answer about your little one, which isn't proof there's no little one in there). The other two signs are already said: the h1's opening (\"love yourself\" feeling pretty empty) and P2 (checking anyone's face). Turn 45, after the gate and Pangram. Turn 54 (E172): P4 carries the guessed answer; the shifting sign is Joel's Untangling bullet (\"water dripping through your hand because of praise or pity, fear or attraction\"), and the fear of disappointing somebody is P2's \"checked anyone's face\".",
+   "status": "superseded",
+   "what": "From Survival to Experimental Play P4 carries the guide's last three possible signs (preferences and beliefs shifting with the people around you; not knowing what you'd choose without the fear of disappointing somebody; a guessed answer about your little one, which isn't proof there's no little one in there). The other two signs are already said: the h1's opening (\"love yourself\" feeling pretty empty) and P2 (checking anyone's face). Turn 45, after the gate and Pangram. Turn 54 (E172): P4 carries the guessed answer; the shifting sign is Joel's Untangling bullet (\"water dripping through your hand because of praise or pity, fear or attraction\"), and the fear of disappointing somebody is P2's \"checked anyone's face\". Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-11 23:33 UTC: \"12. continue\"",
    "where": "From Survival to Experimental Play",
    "must_contain": [
     "isn't proof there's no little one in there",
     "before you've checked anyone's face",
     "water dripping through your hand because of praise or pity"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "q13-cops-line-stays-20261012",
@@ -2243,8 +2300,8 @@
   },
   {
    "id": "untangling-gpt-dedup-20261014",
-   "status": "applied",
-   "what": "Untangling the Belonging Bargains, Four Pairs included, is Joel's GPT-deduplicated version, word for word. His check: 100% Human. P3 has changed since, in his words: 2026-10-14 19:51 UTC (entry untangling-p3-joel-20261014) and 2026-10-15 10:43 UTC (entry untangling-joel-20261015); P2's last sentence too on 2026-10-15. On 2026-10-15 12:15 UTC his new P3 dropped \"These can all be real gifts…\" (entry untangling-joel-20261015b).",
+   "status": "superseded",
+   "what": "Untangling the Belonging Bargains, Four Pairs included, is Joel's GPT-deduplicated version, word for word. His check: 100% Human. P3 has changed since, in his words: 2026-10-14 19:51 UTC (entry untangling-p3-joel-20261014) and 2026-10-15 10:43 UTC (entry untangling-joel-20261015); P2's last sentence too on 2026-10-15. On 2026-10-15 12:15 UTC his new P3 dropped \"These can all be real gifts…\" (entry untangling-joel-20261015b). Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-14 02:55 UTC: \"my bad, i logged back into pangram, and the deduped GPT version i meant to put at the end of my last msg is this\"; 2026-10-13 20:41 UTC: \"i just told GPT to deduplicate and its output became 100% human\".",
    "where": "Untangling the Belonging Bargains and Four Pairs That Commonly Hook the Child",
    "must_contain_exact": [
@@ -2256,7 +2313,8 @@
     "This pull can come from family",
     "In the more shadowy presentation of caretakerism",
     "The aim isn't to stop enjoying pleasure or praise"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "ask-god-gratitude-20261014",
@@ -2359,8 +2417,8 @@
   },
   {
    "id": "borrow-mr-rogers-cut-20261014",
-   "status": "applied",
-   "what": "Borrow One Competency at a Time: both Mr. Rogers sentences cut (the Chicken-and-Egg section has him already), and with P3's, its spiritual love (Ask God for a Loan has it). Both hearing-it-out lines stay.",
+   "status": "superseded",
+   "what": "Borrow One Competency at a Time: both Mr. Rogers sentences cut (the Chicken-and-Egg section has him already), and with P3's, its spiritual love (Ask God for a Loan has it). Both hearing-it-out lines stay. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-14 19:51 UTC: \"24 you can cut botth mr rogers because i also have that before. can keep 2nd mention of spiritual love in Ask God... can keep both the 'listen to inner child' verses, they aren't really the same.\"",
    "where": "Borrow One Competency at a Time",
    "must_contain": [
@@ -2371,17 +2429,19 @@
    "must_not_contain": [
     "Even Mr. Rogers could help here",
     "If nobody comes to mind, you can look to examples like Mr. Rogers"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "let-child-p1-joel-20261014",
-   "status": "applied",
-   "what": "Let the Child Be Bad at Things P1 is Joel's, word for word (his answer to question 25); \"sMothered (typo?)\" is his pun, not a typo.",
+   "status": "superseded",
+   "what": "Let the Child Be Bad at Things P1 is Joel's, word for word (his answer to question 25); \"sMothered (typo?)\" is his pun, not a typo. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-14 19:51 UTC: \"25 yours was repetitive. this one is human (and typo is not a typo, it's a pun)\"",
    "where": "Let the Child Be Bad at Things",
    "must_contain_exact": [
     "Reflection can show you what got sMothered (typo?) or suppressed. For identity you also need some experiments out in real life, so go try something new just for you. Maybe a foraging group, or a painting class. Stargazing can be awe-inspiring, and you might even see a UFO! Notice what holds your attention when nobody is impressed."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "gratitude-sentence-joel-20261015",
@@ -2429,8 +2489,8 @@
   },
   {
    "id": "untangling-joel-20261015b",
-   "status": "applied",
-   "what": "Untangling the Belonging Bargains: Joel's P2 (\"as a human being\" added; \"arsonists\" as he now writes it) and his new, shorter P3, word for word, to fix P3 repeating P2 and its gifts line not following P2. Carried forward: \"But if going along means betraying yourself, that's the bargain.\" and \"Differentiation is slow, and it goes on your whole life.\" Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones.",
+   "status": "superseded",
+   "what": "Untangling the Belonging Bargains: Joel's P2 (\"as a human being\" added; \"arsonists\" as he now writes it) and his new, shorter P3, word for word, to fix P3 repeating P2 and its gifts line not following P2. Carried forward: \"But if going along means betraying yourself, that's the bargain.\" and \"Differentiation is slow, and it goes on your whole life.\" Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-15 12:15 UTC: \"P3 tho really does seem to repeat P2 in the untangling bargains section. and the first line of P3 is referencing gifts which are way before so it doesn't flow from P2 to P3. ok this passes and i think fixes those probs\" (experiments/t56-answers/JOEL-20261015-1215.md).",
    "where": "Untangling the Belonging Bargains",
    "must_contain_exact": [
@@ -2444,12 +2504,13 @@
     "Your little one can hang onto those bargains",
     "become arsons",
     "keeping other people dependent"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "inner-guide-p7-joel-20261016",
-   "status": "applied",
-   "what": "The Inner Guide Comes Later: Joel's own paragraph on why a healthy mind isn't a perfect one is closer to Buddhist practice (AN 6.63, DN 2), word for word, in place of turn 59's P8.",
+   "status": "superseded",
+   "what": "The Inner Guide Comes Later: Joel's own paragraph on why a healthy mind isn't a perfect one is closer to Buddhist practice (AN 6.63, DN 2), word for word, in place of turn 59's P8. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-16 21:37 UTC: \"ok let me give you an example of how i would do P8 simply (passes human, reads better)\" (experiments/t60-answers/JOEL-20261016-2137.md).",
    "where": "The Inner Guide Comes Later",
    "must_contain_exact": [
@@ -2457,7 +2518,8 @@
    ],
    "must_not_contain": [
     "a king who'd killed his own father"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "inner-guide-p5-joel-20261016",
@@ -2471,18 +2533,19 @@
   },
   {
    "id": "ks-p2-joel-20261017",
-   "status": "applied",
-   "what": "If You Want to Kill Yourself P2 (the adult-in-the-room step) is Joel's, word for word (question 32, A). The section went in once its Buddhist-view paragraph read Human alone (E187: the turn-65 record had wrongly said it did) and the h1 read Human (round t67e).",
+   "status": "superseded",
+   "what": "If You Want to Kill Yourself P2 (the adult-in-the-room step) is Joel's, word for word (question 32, A). The section went in once its Buddhist-view paragraph read Human alone (E187: the turn-65 record had wrongly said it did) and the h1 read Human (round t67e). Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-17 14:01 UTC: \"i removed most of the AI tells, this is now human and it makes more sense\" (experiments/t67-answers/JOEL-20261017-1401.md).",
    "where": "If You Want to Kill Yourself",
    "must_contain_exact": [
     "Then, before getting all philosophical, make sure there's a real, live grown-up in the room or on the phone, if that's possible. And as for the internal psychology of it, when the part that wants to die feels like all of you, go ahead and notice who's doing the noticing (as we discussed in Noticing Counts), or borrow an adult from the adult lending library in your head :). Any part of you that can help keep your body safe, or would rather wait on a decision you can't undo, is welcome. And if none of them shows up yet? No problem, the questions can wait."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "ba-p2-joel-20261017",
-   "status": "applied",
-   "what": "Borrowed Adulthood in Relationship P2 is Joel's, word for word (question 33, A), after P1 (ba1p1-w8-p1).",
+   "status": "superseded",
+   "what": "Borrowed Adulthood in Relationship P2 is Joel's, word for word (question 33, A), after P1 (ba1p1-w8-p1). Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-17 14:01 UTC: \"this version passes\" (experiments/t67-answers/JOEL-20261017-1401.md).",
    "where": "Borrowed Adulthood in Relationship",
    "must_contain_exact": [
@@ -2493,22 +2556,24 @@
    ],
    "history": [
     "Turn 111 (his answers of 2026-10-25 20:08 UTC, experiments/t111-answers/ANSWERS-20261025-2008.json): his cut, with C10: \"i'm surprised you didn't notice the next sentence after this is redundant. cut \"Say they're the one who always remembers your appointments.\"\""
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "lm4-p4-joel-20261017",
-   "status": "applied",
-   "what": "How Much Happiness Do You Know Is Possible? P4 is Joel's, word for word (question 34, A). The h2 went in with new P1 to P3 of mine, since with the turn-65 ones it read AI over them (rounds t67a to t67e). Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones. Turn 98: his rewrite of 2026-10-23 02:29 UTC (entry joel-98-20261023) replaced these words, so the strings are his current ones.",
+   "status": "superseded",
+   "what": "How Much Happiness Do You Know Is Possible? P4 is Joel's, word for word (question 34, A). The h2 went in with new P1 to P3 of mine, since with the turn-65 ones it read AI over them (rounds t67a to t67e). Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones. Turn 98: his rewrite of 2026-10-23 02:29 UTC (entry joel-98-20261023) replaced these words, so the strings are his current ones. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-17 14:01 UTC: \"this one is human\" (experiments/t67-answers/JOEL-20261017-1401.md).",
    "where": "How Much Happiness Do You Know Is Possible?",
    "must_contain_exact": [
     "Sometimes your little one already feels cared for in the normal ways, well fed, good boundaries at work, but will either of these actually deal with the existential issue? Maybe your life isn’t meant to be just something to put up with, something to slog through, a hamster wheel, a rat race. Maybe you could live it with a sense of zest and discovery. What would you need for that?"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "guide-p14-joel-20261017",
-   "status": "applied",
-   "what": "The Inner Guide Comes Later P14 is Joel's, word for word (question 35, A): the first paragraph under Timing Is Individual.",
+   "status": "superseded",
+   "what": "The Inner Guide Comes Later P14 is Joel's, word for word (question 35, A): the first paragraph under Timing Is Individual. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-17 14:01 UTC: \"added a marching order break that sounds a bit human, now it passes\" (experiments/t67-answers/JOEL-20261017-1401.md).",
    "where": "Timing Is Individual",
    "must_contain_exact": [
@@ -2516,12 +2581,13 @@
    ],
    "history": [
     "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his H32 A cut \"Timing is different for everyone, but\"."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "photos-h2-joel-20261017",
-   "status": "applied",
-   "what": "Use Childhood Photographs Gently is Joel's section, word for word under his heading (question 36, A), in the Simple Practices order. One obvious typo fixed under his rule (2026-10-06): \"glean\" for \"gleam\". His link on \"Look at this study, for example\" is the false-photo study (Wade, Garry, Read and Lindsay, 2002). Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones.",
+   "status": "superseded",
+   "what": "Use Childhood Photographs Gently is Joel's section, word for word under his heading (question 36, A), in the Simple Practices order. One obvious typo fixed under his rule (2026-10-06): \"glean\" for \"gleam\". His link on \"Look at this study, for example\" is the false-photo study (Wade, Garry, Read and Lindsay, 2002). Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-17 14:01 UTC: \"here learn some lessons this passes\" (experiments/t67-answers/JOEL-20261017-1401.md).",
    "where": "Use Childhood Photographs Gently",
    "must_contain": [
@@ -2548,7 +2614,8 @@
     "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his H17 A.",
     "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his H18 A.",
     "Turn 109 (his answers of 2026-10-25 14:20 UTC, experiments/t109-answers/JOEL-20261025-1420.md): 105.2: his own first sentence for P1 and his two for the start of P2 (\"this is the part that reads ai and it's actually redundant also\"), with \"Pema Chödrön's\" for his \"Pema Chodron's\"."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "gap-p3-joel-20261017",
@@ -2575,8 +2642,8 @@
   },
   {
    "id": "published-first-person-20261017",
-   "status": "applied",
-   "what": "Four of his published first-person lines went back where his article and guide have them (E188): his father's suggestion (Remember When You Already Did It), the kindergarten recess (A Heart-to-Child Loop), \"I get stricter about spirituality, not looser\" and his father's line to suicidal people (If You Want to Kill Yourself). Turn 69 (E189): two of them were paraphrases of him, his father's suggestion and \"I get stricter about spirituality\", and his own words replace them (remember-when-joel-20261017-1856, crisis-opening-joel-20261017-1856). The other two stay; he has seen them shortened, and question 43 shows them in full.",
+   "status": "superseded",
+   "what": "Four of his published first-person lines went back where his article and guide have them (E188): his father's suggestion (Remember When You Already Did It), the kindergarten recess (A Heart-to-Child Loop), \"I get stricter about spirituality, not looser\" and his father's line to suicidal people (If You Want to Kill Yourself). Turn 69 (E189): two of them were paraphrases of him, his father's suggestion and \"I get stricter about spirituality\", and his own words replace them (remember-when-joel-20261017-1856, crisis-opening-joel-20261017-1856). The other two stay; he has seen them shortened, and question 43 shows them in full. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-17 16:58 UTC: \"39 what do you mean those aren't in my words? yes they are, pretty sure\" (experiments/t68-answers/JOEL-20261017-1658.md). 2026-10-17 18:56 UTC: \"all those were my words, except now that you are showing me in context exactly, i see i got paraphrased about my father... oh and actually i was paraphrased for if you want to kill yourself as well\" (experiments/t69-answers/JOEL-20261017-1856.md).",
    "where": "Simple Practices; If You Want to Kill Yourself",
    "must_contain_exact": [
@@ -2585,7 +2652,8 @@
    ],
    "history": [
     "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his own crisis stretch, word for word, has his father's line as he wrote it now, without \"His point wasn't that dying is wonderful.\""
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "published-first-person-pending-20261017",
@@ -2643,11 +2711,11 @@
   {
    "id": "this-human-life-20261017-2259",
    "status": "applied",
-   "what": "This human life is the most precious opportunity is in as he published it, with its two links: its first sentence is his first person (question 43, 6), and the turtle and the ticket are his guide's own sentences.",
+   "what": "This human life is the most precious opportunity is in as he published it, with its two links: its first sentence is his first person (question 43, 6), and the turtle and the ticket are his guide's own sentences. Its strings swapped 2026-11-03 (turn 117) to the standard marks the article now has (E337 (gut)).",
    "joel": "2026-10-17 22:59 UTC: \"43 my words\" (experiments/t70-answers/JOEL-20261017-2259.md).",
    "where": "If You Want to Kill Yourself",
    "must_contain_exact": [
-    "As I mentioned in my [nibbana article](http://nibbana.u-dont-exist.com/), I’ve had my most profound spiritual peak experiences and realizations when I had the least interest in continued existence. And the Buddha taught in [MN 129](https://suttacentral.net/mn129/en/sujato), attaining a human birth is as rare and precious as it would be for a one-eyed turtle to pop his head up through a hoop on the surface of the vast ocean. You won the cosmic jackpot, so don’t throw away the ticket before you open the envelope to find it!"
+    "As I mentioned in my [nibbana article](http://nibbana.u-dont-exist.com/), I've had my most profound spiritual peak experiences and realizations when I had the least interest in continued existence. And the Buddha taught in [MN 129](https://suttacentral.net/mn129/en/sujato), attaining a human birth is as rare and precious as it would be for a one-eyed turtle to pop his head up through a hoop on the surface of the vast ocean. You won the cosmic jackpot, so don't throw away the ticket before you open the envelope to find it!"
    ],
    "must_link": [
     {
@@ -2742,8 +2810,8 @@
   },
   {
    "id": "appendix-first-person-pending-20261018",
-   "status": "applied",
-   "what": "The Appendix's first-person lines from his published guide are his story; their wording counts as his only once he has seen them whole, in their section, and said so (E189). In with Teachers and Practice Resources: \"Several teachers directly influenced this method. I can’t fully endorse any of them because none follows my whole approach or has expressed interest in doing so.\" In with How This Relates to IFS (turn 71, round t71ddd), as published: \"My reparenting method diverges from IFS at an important point.\", \"I emphasize the inner adult you build and practice occupying: Nurturer, Protector, and Leader, Guide, or Guru.\", \"I have no use for another neo-Advaita, spiritual-bypassing claim that a perfect Higher Self is already waiting underneath everything.\", \"IFS calls these wounded young parts “exiles.” I find that pathologizing. I prefer to speak of a child who needs parenting and integration, rather than naming them by their wounded or excluded condition.\", and Related Clinical Work's \"This framework developed through the teachers and collaborators credited below and my own practice.\" and \"I borrow particular distinctions and practices rather than presenting the whole synthesis as their consensus or claiming that their research validates it as a package.\" (questions 45 and 47). Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones. Turn 98: his 89: A (2026-10-23 02:29 UTC) put my wording of his Related Clinical Work line in, so the string is the new line.",
+   "status": "superseded",
+   "what": "The Appendix's first-person lines from his published guide are his story; their wording counts as his only once he has seen them whole, in their section, and said so (E189). In with Teachers and Practice Resources: \"Several teachers directly influenced this method. I can’t fully endorse any of them because none follows my whole approach or has expressed interest in doing so.\" In with How This Relates to IFS (turn 71, round t71ddd), as published: \"My reparenting method diverges from IFS at an important point.\", \"I emphasize the inner adult you build and practice occupying: Nurturer, Protector, and Leader, Guide, or Guru.\", \"I have no use for another neo-Advaita, spiritual-bypassing claim that a perfect Higher Self is already waiting underneath everything.\", \"IFS calls these wounded young parts “exiles.” I find that pathologizing. I prefer to speak of a child who needs parenting and integration, rather than naming them by their wounded or excluded condition.\", and Related Clinical Work's \"This framework developed through the teachers and collaborators credited below and my own practice.\" and \"I borrow particular distinctions and practices rather than presenting the whole synthesis as their consensus or claiming that their research validates it as a package.\" (questions 45 and 47). Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones. Turn 98: his 89: A (2026-10-23 02:29 UTC) put my wording of his Related Clinical Work line in, so the string is the new line. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-18 19:06 UTC (turn 72): 45: \"all that is ai paraphrasing me, but i'd qualify the \"no use\" part\" (with his notes on the Higher Self), and D (leave out \"A trustworthy adult function is built through care, boundaries, action, and direction.\"); 47: \"a. e.\"; 49, 6: \"dedup yeah, so just remove \"Several teachers directly influenced this method. I can’t fully endorse any of them because none follows my whole approach or has expressed interest in doing so.\"\"",
    "where": "Appendix",
    "must_contain": [
@@ -2761,7 +2829,8 @@
     "Those don't even agree with each other on everything!",
     "A trustworthy adult function is built through care, boundaries, action, and direction."
    ],
-   "note": "2026-10-18 (turn 72): his answers settle it. The IFS and Related Clinical Work lines he lets stand as paraphrases of him; the Higher Self line is replaced by two paragraphs built from his notes (question 57 shows them for his word on the wording); the Teachers lines are out as a repeat (49, 6)."
+   "note": "2026-10-18 (turn 72): his answers settle it. The IFS and Related Clinical Work lines he lets stand as paraphrases of him; the Higher Self line is replaced by two paragraphs built from his notes (question 57 shows them for his word on the wording); the Teachers lines are out as a repeat (49, 6).",
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "loveyhuasca-link-out-20261018",
@@ -2775,8 +2844,8 @@
   },
   {
    "id": "close-session-20261018",
-   "status": "claim",
-   "what": "Simple Practices' Close the Session and Return to Life is in, after Use Childhood Photographs Gently, starting from his \"Present Time\" reminder there: the guide's definite ending, look around and say where you are, feet or chair, jaw and hands, the next ordinary action and the sentence for your little one, nothing has to be resolved first, going back to your life is part of the healing. Turn 71, after the gate and Pangram (the h2 Human Written 0.085, high).",
+   "status": "superseded",
+   "what": "Simple Practices' Close the Session and Return to Life is in, after Use Childhood Photographs Gently, starting from his \"Present Time\" reminder there: the guide's definite ending, look around and say where you are, feet or chair, jaw and hands, the next ordinary action and the sentence for your little one, nothing has to be resolved first, going back to your life is part of the healing. Turn 71, after the gate and Pangram (the h2 Human Written 0.085, high). Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-18 01:17 UTC: \"work as much as you can ovewr next 12hrs on the whole article etc\" (experiments/t71-answers/JOEL-20261018-0116.md).",
    "where": "Simple Practices",
    "must_contain": [
@@ -2789,47 +2858,51 @@
    ],
    "history": [
     "Turn 111 (his answers of 2026-10-25 20:08 UTC, experiments/t111-answers/ANSWERS-20261025-2008.json): C7 approved: \"Going back to your life is part of the healing, too.\" is cut; the section ends on \"whatever you're still feeling can come along.\""
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "move-dangerous-20261018",
-   "status": "applied",
-   "what": "His section move, half done: When the Present-Day Adult Is Dangerous to the Child goes after When Healing Turns Into Checking, its text unchanged (Before You Try to Go Deep with it Human Written 0.090, high, https://www.pangram.com/history/83e7e712-260e-4c40-8a11-de49411e63bb, round t72f). You Don't Need an Inner Monologue stays where it was for now: moved too, every version had AI windows in Your Body Might Need Some Love First P3 to P5 (round t72e), and that entry is move-monologue-pending-20261018.",
+   "status": "superseded",
+   "what": "His section move, half done: When the Present-Day Adult Is Dangerous to the Child goes after When Healing Turns Into Checking, its text unchanged (Before You Try to Go Deep with it Human Written 0.090, high, https://www.pangram.com/history/83e7e712-260e-4c40-8a11-de49411e63bb, round t72f). You Don't Need an Inner Monologue stays where it was for now: moved too, every version had AI windows in Your Body Might Need Some Love First P3 to P5 (round t72e), and that entry is move-monologue-pending-20261018. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-18 19:06 UTC: \"i think we should move \"you don't need an inner monologue section\" to right after \"when healing turns into checking\" and we should move \"when the present-day adult is dangerous\" after that, since both of those to me are less likely to be important for most people compared to the other sections,and the didn't really fit where they were.\"",
    "order": [
     "## You Don’t Need an Inner Monologue",
     "## When the Present-Day Adult Is Dangerous to the Child",
     "# Borrow the Adult Before You Can Be the Adult"
    ],
-   "order_note": "Turn 78: order updated for Joel's question 70: A (2026-10-21 00:49 UTC): When Healing Turns Into Checking moved to the end of Building Trust (GPT's M03); his two sections keep their order after it left: You Don't Need an Inner Monologue, then When the Present-Day Adult Is Dangerous to the Child, then Borrow the Adult."
+   "order_note": "Turn 78: order updated for Joel's question 70: A (2026-10-21 00:49 UTC): When Healing Turns Into Checking moved to the end of Building Trust (GPT's M03); his two sections keep their order after it left: You Don't Need an Inner Monologue, then When the Present-Day Adult Is Dangerous to the Child, then Borrow the Adult.",
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "move-monologue-pending-20261018",
-   "status": "applied",
-   "what": "The other half of his move: You Don't Need an Inner Monologue right after When Healing Turns Into Checking, before When the Present-Day Adult Is Dangerous to the Child. In 2026-10-18 (turn 73, round t73e), with Your Body Might Need Some Love First P4's middle sentence said again and Also Look Outward's honesty paragraph given a scene: Before You Try to Go Deep Human Written 0.096, high, https://www.pangram.com/history/3e07c84d-c24d-4025-80df-0a1a62548cd2.",
+   "status": "superseded",
+   "what": "The other half of his move: You Don't Need an Inner Monologue right after When Healing Turns Into Checking, before When the Present-Day Adult Is Dangerous to the Child. In 2026-10-18 (turn 73, round t73e), with Your Body Might Need Some Love First P4's middle sentence said again and Also Look Outward's honesty paragraph given a scene: Before You Try to Go Deep Human Written 0.096, high, https://www.pangram.com/history/3e07c84d-c24d-4025-80df-0a1a62548cd2. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-18 19:06 UTC (as move-dangerous-20261018)",
    "order": [
     "## You Don’t Need an Inner Monologue",
     "## When the Present-Day Adult Is Dangerous to the Child",
     "# Borrow the Adult Before You Can Be the Adult"
    ],
-   "order_note": "Turn 78: order updated for Joel's question 70: A (2026-10-21 00:49 UTC): When Healing Turns Into Checking moved to the end of Building Trust (GPT's M03); his two sections keep their order after it left: You Don't Need an Inner Monologue, then When the Present-Day Adult Is Dangerous to the Child, then Borrow the Adult."
+   "order_note": "Turn 78: order updated for Joel's question 70: A (2026-10-21 00:49 UTC): When Healing Turns Into Checking moved to the end of Building Trust (GPT's M03); his two sections keep their order after it left: You Don't Need an Inner Monologue, then When the Present-Day Adult Is Dangerous to the Child, then Borrow the Adult.",
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "bg-joel-20261019",
-   "status": "applied",
-   "what": "His Before You Try to Go Deep as he pasted it (62, C: \"it's human now, i fixed it, pasted\"): his checking paragraph, 55, 2 in fewer words, and P5 with the guide's list of what to change (54, 11). Before You Try to Go Deep Human Written 0.093, high, https://www.pangram.com/history/99baf158-b208-4c35-b611-e9fecd1632b9 (round t74a). Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones. Turn 97: his rewrite of 2026-10-22 23:54 UTC (entry joel-97-20261022) replaced the Your Body paragraph this entry checked, so the string is his current one.",
+   "status": "superseded",
+   "what": "His Before You Try to Go Deep as he pasted it (62, C: \"it's human now, i fixed it, pasted\"): his checking paragraph, 55, 2 in fewer words, and P5 with the guide's list of what to change (54, 11). Before You Try to Go Deep Human Written 0.093, high, https://www.pangram.com/history/99baf158-b208-4c35-b611-e9fecd1632b9 (round t74a). Turn 95: Joel's answers of 2026-10-22 21:35 UTC (entry joel-95-20261022) replaced these words, so the strings are his current ones. Turn 97: his rewrite of 2026-10-22 23:54 UTC (entry joel-97-20261022) replaced the Your Body paragraph this entry checked, so the string is his current one. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-19 00:08 UTC (experiments/t74-answers/JOEL-20261019-0008.md): \"62c it's human now, i fixed it, pasted.\"",
    "must_contain_exact": [
     "Keep track of how you feel over the next few days, like how refreshing your sleep is, and how easy it feels to get through your day. Do you want to go back toward what came up, or is some part of you saying no? If you can’t quite tell yet, I’d just make the next one a bit easier, one change at a time, like a science nerd, so you learn what made the difference. You can play around with variables like shorter session length, or shallower diving, time of day, keeping eyes open, having a friend around, or holding a teddy bear as a stand-in for your little one.",
     "Going back can still matter, even when nothing new turns up. But returning to the same wound can also become a search for certainty in an inherently uncertain existence. Spending all day asking, \"Did I process it properly? Did I grieve it enough?\" is clearly not what we're after here.",
     "And the checking doesn't always stay in your head. A body scan can turn into one, or a confession. Even, going on a date, or checking your dating profile matches, can be a version of this if what you're really after is proof that you're good and lovable. It might calm things down for a while, and then the next little wobble matters even more."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "finding-a-therapist-joel-20261019",
-   "status": "applied",
-   "what": "His new h1 before the Appendix, word for word, in place of the Appendix's three therapist paragraphs (schema P3, IFS P8, Teachers P3). Fitted: http:// on his Somatic Therapies Guide link, and his two links of 2026-10-18 (Open Path Collective, the official site's search) on the same words. The h1 Human Written 0.00035, high, https://www.pangram.com/history/ea67f223-3c99-4e95-8488-5deb0edda3ef (round t74a).",
+   "status": "superseded",
+   "what": "His new h1 before the Appendix, word for word, in place of the Appendix's three therapist paragraphs (schema P3, IFS P8, Teachers P3). Fitted: http:// on his Somatic Therapies Guide link, and his two links of 2026-10-18 (Open Path Collective, the official site's search) on the same words. The h1 Human Written 0.00035, high, https://www.pangram.com/history/ea67f223-3c99-4e95-8488-5deb0edda3ef (round t74a). Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-19 00:08 UTC (experiments/t74-answers/JOEL-20261019-0008.md): \"Let's combine the 3 appendix paragraphs on finding a therapist into a new h1 before Appendix, called: \"Finding a Therapist to Borrow Adulthood\"\"",
    "must_contain": [
     "We all need some support, especially when taking our first steps. First and easiest is to start with finding a somatic therapist, if that resonates, as per my Somatic Therapies Guide.",
@@ -2852,7 +2925,8 @@
    "order_note": "Turn 78: order updated for Joel's question 70: A (2026-10-21 00:49 UTC): Finding a Therapist moved before You Are Worthy of Love. Always. (GPT's M08), and its pointer \"I'll talk more about those next\" now says \"in the appendix\".",
    "history": [
     "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-therapist approved: \"Before choosing a therapist,\" and \"Regarding AI therapy,\" became headings, so the strings are the current ones (entry joel-114-20261026)."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "ifs-unburdening-cut-20261019",
@@ -2866,20 +2940,21 @@
   },
   {
    "id": "rcw-h2-20261019",
-   "status": "applied",
-   "what": "Related Clinical Work is an h2.",
+   "status": "superseded",
+   "what": "Related Clinical Work is an h2. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-19 00:08 UTC (experiments/t74-answers/JOEL-20261019-0008.md): \"related clinical work title should be h2 not h3\"",
    "must_have_line": [
     "## Related Clinical Work"
    ],
    "must_not_have_line": [
     "### Related Clinical Work"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "joel-upload-20261019",
-   "status": "applied",
-   "what": "Joel's own changes in his 2026-10-19 upload (the version he gave GPT for its structure review), in the article word for word: his Chicken-and-Egg edits; Catch the Hook and When Healing Turns Into Checking as h2s; Also Look Outward renamed Other Folks Also Have Hooks; his new First Social Connections, Done Right and Opening up honestly to the right people at the right pace headings; the care paragraph without its last sentence (question 68) and the two sharing paragraphs, the second his own (69); his gratitude edits (65 to 67; the 'if only I had X' paragraph cut); his Urge to Escape, Altered States, psychedelic, physical-pain and lover paragraphs; Altered States moved after When the Urge to Escape Arrives with its sections, Physical Pain Makes It Harder and If You Want to Kill Yourself after them; the new desire-treadmill paragraph; the 'Keeping yourself safe counts' paragraph cut. Four obvious typos fixed (his rule, 2026-10-06): 'you're house' to 'your house', 'Capachione' to 'Capacchione', 'a already' to 'already', 'but when romance should follow' to 'but romance should follow'. Not yet checked in Pangram here. Turn 100: his 2026-10-23 13:10 UTC update of the \"Of course, that’s not to say you should not try to suffer less\" paragraph leaves out \"nor does gratitude for difficulties justify staying with an abuser\" and the endless-loop sentences (entry joel-100-20261023; questions 93.1 and 93.2), so they're no longer checked here.",
+   "status": "superseded",
+   "what": "Joel's own changes in his 2026-10-19 upload (the version he gave GPT for its structure review), in the article word for word: his Chicken-and-Egg edits; Catch the Hook and When Healing Turns Into Checking as h2s; Also Look Outward renamed Other Folks Also Have Hooks; his new First Social Connections, Done Right and Opening up honestly to the right people at the right pace headings; the care paragraph without its last sentence (question 68) and the two sharing paragraphs, the second his own (69); his gratitude edits (65 to 67; the 'if only I had X' paragraph cut); his Urge to Escape, Altered States, psychedelic, physical-pain and lover paragraphs; Altered States moved after When the Urge to Escape Arrives with its sections, Physical Pain Makes It Harder and If You Want to Kill Yourself after them; the new desire-treadmill paragraph; the 'Keeping yourself safe counts' paragraph cut. Four obvious typos fixed (his rule, 2026-10-06): 'you're house' to 'your house', 'Capachione' to 'Capacchione', 'a already' to 'already', 'but when romance should follow' to 'but romance should follow'. Not yet checked in Pangram here. Turn 100: his 2026-10-23 13:10 UTC update of the \"Of course, that’s not to say you should not try to suffer less\" paragraph leaves out \"nor does gratitude for difficulties justify staying with an abuser\" and the endless-loop sentences (entry joel-100-20261023; questions 93.1 and 93.2), so they're no longer checked here. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-20 23:37 UTC: \"also i made some changes to the article myself prior to gpt's advice...\" (experiments/t77-answers/JOEL-20261020-2337.md); his upload: ~/Inner-Child-r03-Editorial-Review/sources/Inner-Child-Humanized-Owner-20261019.html on his laptop.",
    "where": "the whole article",
    "must_contain": [
@@ -2930,7 +3005,8 @@
     "but when romance should follow",
     "you’re house is moldy"
    ],
-   "order_note": "Turn 78: order updated for Joel's question 70: A (2026-10-21 00:49 UTC): Altered States Can Deepen the Therapy is an h1 now, at the place he moved it to (entry joel-70a-structure-20261021)."
+   "order_note": "Turn 78: order updated for Joel's question 70: A (2026-10-21 00:49 UTC): Altered States Can Deepen the Therapy is an h1 now, at the place he moved it to (entry joel-70a-structure-20261021).",
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "joel-sharing-20261021",
@@ -2962,8 +3038,8 @@
   },
   {
    "id": "joel-70a-structure-20261021",
-   "status": "applied",
-   "what": "GPT's r03 structure moves as Joel picked them (question 70: A), every paragraph kept: M01 with his \"mess and all\" paragraph kept early; M02; M03; M04 only as Altered States as its own h1 right after When the Adult Voice Feels Fake, his run kept in his order (its two sub-moves and GPT's help-first order in If You Want to Kill Yourself not taken; that one is question 74); M05 (The Inner Guide, the four authority paragraphs in Don't Give the Inner Adult Away); M06 only for the end sections (Ask God for a Loan, PRE-APPROVED! and When the Spiritual Relationship Hurts stay in Borrow Love); M07 with GPT's heading Hearthwork: Taking Turns; M08's ending. When Love Still Feels Missing's three paragraphs went together to Borrow One Competency at a Time and its empty heading went. Pointer repairs: \"ask yourself again\" to \"ask yourself\", \"I'll talk more about those next\" to \"in the appendix\", \"the same test as back in Timing Is Individual\" to \"as in Timing Is Individual, further down\". His divider after If You Want to Kill Yourself is back. Not yet checked in Pangram in its new places. Turn 94: the paragraph's opening is reworded for 4.1 (experiments/t94-tells/, c02), so its order check names the new opening.",
+   "status": "superseded",
+   "what": "GPT's r03 structure moves as Joel picked them (question 70: A), every paragraph kept: M01 with his \"mess and all\" paragraph kept early; M02; M03; M04 only as Altered States as its own h1 right after When the Adult Voice Feels Fake, his run kept in his order (its two sub-moves and GPT's help-first order in If You Want to Kill Yourself not taken; that one is question 74); M05 (The Inner Guide, the four authority paragraphs in Don't Give the Inner Adult Away); M06 only for the end sections (Ask God for a Loan, PRE-APPROVED! and When the Spiritual Relationship Hurts stay in Borrow Love); M07 with GPT's heading Hearthwork: Taking Turns; M08's ending. When Love Still Feels Missing's three paragraphs went together to Borrow One Competency at a Time and its empty heading went. Pointer repairs: \"ask yourself again\" to \"ask yourself\", \"I'll talk more about those next\" to \"in the appendix\", \"the same test as back in Timing Is Individual\" to \"as in Timing Is Individual, further down\". His divider after If You Want to Kill Yourself is back. Not yet checked in Pangram in its new places. Turn 94: the paragraph's opening is reworded for 4.1 (experiments/t94-tells/, c02), so its order check names the new opening. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-21 00:49 UTC (experiments/t78-answers/JOEL-20261021-0049.md): \"70a\"",
    "where": "the whole article; GPT's files in experiments/t78-structure/gpt-r03/",
    "must_have_line": [
@@ -3033,7 +3109,8 @@
     "# You Are Worthy of Love. Always.",
     "# Appendix"
    ],
-   "order_note": "Turn 79: the \"ask yourself\" sentence this entry checked is gone, by Joel's 72b: A (entry joel-72-74-20261021). Turn 97: that paragraph is his rewrite of 2026-10-22 23:54 UTC (entry joel-97-20261022), so its order check names his new opening."
+   "order_note": "Turn 79: the \"ask yourself\" sentence this entry checked is gone, by Joel's 72b: A (entry joel-72-74-20261021). Turn 97: that paragraph is his rewrite of 2026-10-22 23:54 UTC (entry joel-97-20261022), so its order check names his new opening.",
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "dedup-cuts-20261021",
@@ -3052,8 +3129,8 @@
   },
   {
    "id": "joel-72-74-20261021",
-   "status": "applied",
-   "what": "Joel's answers to 72 to 74 (2026-10-21 16:01 UTC): 72a B, both \"toxic positivity\" lines stay (about 18,000 words apart, not close); 72b A, his practice question out of Not Every Hero Wears A Cape P5; 72c A, \"I wasn't lacking love. My parents had given me a lot of it.\" cut and \"I found more love in\"; 72d B, his words in My Journey (as he typed them, capitals aside) tying \"making it up at first\" to the fake-voice caution, the San Pedro sentence now its own paragraph; 72d B (psychedelic story), \"A crisis line counts\"; 73 A, his two 10-19 lines stay; 74 A, the get-help steps first in If You Want to Kill Yourself, then his opening.",
+   "status": "superseded",
+   "what": "Joel's answers to 72 to 74 (2026-10-21 16:01 UTC): 72a B, both \"toxic positivity\" lines stay (about 18,000 words apart, not close); 72b A, his practice question out of Not Every Hero Wears A Cape P5; 72c A, \"I wasn't lacking love. My parents had given me a lot of it.\" cut and \"I found more love in\"; 72d B, his words in My Journey (as he typed them, capitals aside) tying \"making it up at first\" to the fake-voice caution, the San Pedro sentence now its own paragraph; 72d B (psychedelic story), \"A crisis line counts\"; 73 A, his two 10-19 lines stay; 74 A, the get-help steps first in If You Want to Kill Yourself, then his opening. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-21 16:01 UTC (experiments/t79-answers/JOEL-20261021-1601.md)",
    "where": "Not Every Hero Wears A Cape P5; My Journey; If You Want to Kill Yourself",
    "must_contain": [
@@ -3080,12 +3157,13 @@
    "history": [
     "Turn 107 (his answers of 2026-10-25 00:24 UTC, experiments/t107-answers/JOEL-20261025-0024.md): his own My Journey (103.1) says his 72d clarification in an article sentence of his. I had put it in as he typed it in chat (\"you put in some of my things too verbatim\").",
     "Turn 107 (his answers of 2026-10-25 00:24 UTC, experiments/t107-answers/JOEL-20261025-0024.md): his own My Journey (103.1): \"I also found more love in the rest of the Buddhist teachings\"."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "joel-87-20261022",
-   "status": "applied",
-   "what": "Joel's answers of 2026-10-22 15:33 UTC: his new stage 1 and Chicken-and-Egg P2, word for word in his characters (\"into to\" made \"into\"), naming forced adulthood; 76.1 A with 77.1 A (\"No hidden guard\"), 76.2 A, 76.3 B (\"stuck in forced adulthood\"), 76.4 A (\"My inner Guide\"); 77.1 A (headings Two Common Guarding Patterns and Hear the Guard First, their cross-references, P3's sentence); 77.7 A in the Schema Therapy appendix. Also the new text decided in this turn (77.3, 77.6, 77.8, 78.1, 79.3), my drafts, installed not yet checked: Reparenting in a nutshell; Two Common Guarding Patterns P3 and P4; ST-CA sentences in You Don't Need an Inner Monologue P1 and P2, Love Doesn't Have to Wait for Trust P14, The Parent You Inherited P4, Hear the Guard First P4, Untangling the Belonging Bargains P1 and The Inner Guide P1, P2 and P4; When One Life Has Ended P1; the Schema Therapy appendix P1. Turn 88 (16:12 UTC): his own nutshell replaced my draft and its heading (entry joel-88-20261022); stage 1 has 80.1's words and P2 has \"wrong with\" (80.2), so the exact strings here are the current ones. Turn 90: 77.3's two paragraphs reworked for 4.1 (a7, a8), so their checked strings are the new ones. Turn 92: the Schema Therapy appendix P2 names Emotional Alchemy (checked against the book), so \"isn't part of the standard method\" is now \"isn't in her book or in the standard method\". Turn 93: he isn't theistic (19:03 UTC), so the difference is gratitude, not a loan of love from God. Turn 95: Two Common Guarding Patterns P3 and P4 are his own words now (entry joel-95-20261022), so the 77.3 strings are his. Turn 100: When One Life Has Ended P1 reworked for 4.1 (draft g03, 100% Human alone and in its h1), so 77.6's checked string is its new wording.",
+   "status": "superseded",
+   "what": "Joel's answers of 2026-10-22 15:33 UTC: his new stage 1 and Chicken-and-Egg P2, word for word in his characters (\"into to\" made \"into\"), naming forced adulthood; 76.1 A with 77.1 A (\"No hidden guard\"), 76.2 A, 76.3 B (\"stuck in forced adulthood\"), 76.4 A (\"My inner Guide\"); 77.1 A (headings Two Common Guarding Patterns and Hear the Guard First, their cross-references, P3's sentence); 77.7 A in the Schema Therapy appendix. Also the new text decided in this turn (77.3, 77.6, 77.8, 78.1, 79.3), my drafts, installed not yet checked: Reparenting in a nutshell; Two Common Guarding Patterns P3 and P4; ST-CA sentences in You Don't Need an Inner Monologue P1 and P2, Love Doesn't Have to Wait for Trust P14, The Parent You Inherited P4, Hear the Guard First P4, Untangling the Belonging Bargains P1 and The Inner Guide P1, P2 and P4; When One Life Has Ended P1; the Schema Therapy appendix P1. Turn 88 (16:12 UTC): his own nutshell replaced my draft and its heading (entry joel-88-20261022); stage 1 has 80.1's words and P2 has \"wrong with\" (80.2), so the exact strings here are the current ones. Turn 90: 77.3's two paragraphs reworked for 4.1 (a7, a8), so their checked strings are the new ones. Turn 92: the Schema Therapy appendix P2 names Emotional Alchemy (checked against the book), so \"isn't part of the standard method\" is now \"isn't in her book or in the standard method\". Turn 93: he isn't theistic (19:03 UTC), so the difference is gratitude, not a loan of love from God. Turn 95: Two Common Guarding Patterns P3 and P4 are his own words now (entry joel-95-20261022), so the 77.3 strings are his. Turn 100: When One Life Has Ended P1 reworked for 4.1 (draft g03, 100% Human alone and in its h1), so 77.6's checked string is its new wording. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-22 15:33 UTC (experiments/t87-answers/JOEL-20261022-1533.md)",
    "where": "The five stages (1 and 5); The Chicken-and-Egg Problem P2; Borrow One Competency at a Time; Two Common Guarding Patterns; Hear the Guard First P3; Altered States Can Deepen the Therapy; Altered States Can Require Reparenting P6; The Inner Guide P3; Speak Toward What You Are Building P2; How This Relates to Schema Therapy P2",
    "must_contain_exact": [
@@ -3117,12 +3195,13 @@
     "would usually offer you",
     "There was never anything wrong with the child's worth to begin with",
     "But a loan of love from God, like back in Ask God for a Loan, isn't in her book"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "joel-88-20261022",
-   "status": "applied",
-   "what": "Joel's message of 2026-10-22 16:12 UTC (sent during turn 87): his own version of the nutshell, word for word in his characters, which he checked (\"here's my human version that passes\"), as the article's first text above Listen & Watch (\"79. yes above songs\"), without the heading \"Reparenting in a nutshell\" since his second line says it; 80.1 A (\"1. agree\"): \", even if it looks like you’ve got it all together\" in stage 1, my words from the question; 80.2 A (\"2. with yes\"): \"wrong with\"; 80.3 A (\"77.5yes\"): his chat line \"don't try again until you understand what would make it safe\" in When Escape Leaves Reality Behind P2. Turn 89: 81a put his P2 adjectives into the nutshell (entry joel-89-20261022), so its exact paragraph here is the current one.",
+   "status": "superseded",
+   "what": "Joel's message of 2026-10-22 16:12 UTC (sent during turn 87): his own version of the nutshell, word for word in his characters, which he checked (\"here's my human version that passes\"), as the article's first text above Listen & Watch (\"79. yes above songs\"), without the heading \"Reparenting in a nutshell\" since his second line says it; 80.1 A (\"1. agree\"): \", even if it looks like you’ve got it all together\" in stage 1, my words from the question; 80.2 A (\"2. with yes\"): \"wrong with\"; 80.3 A (\"77.5yes\"): his chat line \"don't try again until you understand what would make it safe\" in When Escape Leaves Reality Behind P2. Turn 89: 81a put his P2 adjectives into the nutshell (entry joel-89-20261022), so its exact paragraph here is the current one. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-22 16:12 UTC (experiments/t88-answers/JOEL-20261022-1612.md)",
    "where": "The article's first text (the nutshell); the five stages (1); The Chicken-and-Egg Problem P2; When Escape Leaves Reality Behind P2",
    "must_contain_exact": [
@@ -3149,7 +3228,8 @@
    ],
    "history": [
     "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his H2 A (\"that was from GPT, i humanized it but didn't notice how jarring that last stupid sentence was\")."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "joel-89-20261022",
@@ -3181,8 +3261,8 @@
   },
   {
    "id": "joel-95-20261022",
-   "status": "applied",
-   "what": "Joel's answers of 2026-10-22 21:35 UTC. 84.3 A: \"A lot of the time you just know.\" out of Your Body P5. 84.4 A: Use Childhood Photographs Gently P1's opener. 84.6: his new last sentence for Untangling P3, word for word. 84.7 A: \"or a kind sentence\" out of How Much Happiness P4. 84.8 A: \"or claiming that their research validates it as a package\" out of Related Clinical Work. 85: his own Two Common Guarding Patterns (heading and four paragraphs, word for word; his check: \"all dark green now\"). Start With Whatever Showed Up P8 (Kahneman and Klein) cut. 78.2 A, 84.1 B, 84.2 B and 84.5 B change nothing.",
+   "status": "superseded",
+   "what": "Joel's answers of 2026-10-22 21:35 UTC. 84.3 A: \"A lot of the time you just know.\" out of Your Body P5. 84.4 A: Use Childhood Photographs Gently P1's opener. 84.6: his new last sentence for Untangling P3, word for word. 84.7 A: \"or a kind sentence\" out of How Much Happiness P4. 84.8 A: \"or claiming that their research validates it as a package\" out of Related Clinical Work. 85: his own Two Common Guarding Patterns (heading and four paragraphs, word for word; his check: \"all dark green now\"). Start With Whatever Showed Up P8 (Kahneman and Klein) cut. 78.2 A, 84.1 B, 84.2 B and 84.5 B change nothing. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-22 21:35 UTC (experiments/t95-answers/JOEL-20261022-2135.md): \"84.3a 84.4a ... 84.6 ... we could change to ... 84.7. a 84.8a\"; \"85 ok this is all dark green now, learn some lessons\"; \"as for p8 start with, it looked like fluff, i cut it.\"",
    "where": "Before You Try to Go Deep; Use Childhood Photographs Gently; Untangling the Belonging Bargains; How Much Happiness Do You Know Is Possible?; Related Clinical Work; Start With Whatever Showed Up",
    "must_contain_exact": [
@@ -3199,12 +3279,13 @@
     "Maybe you've tried picturing your little one and thought",
     "and so can a boundary or a kind sentence",
     "or claiming that their research validates it as a package"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "joel-97-20261022",
-   "status": "applied",
-   "what": "Joel's message of 2026-10-22 23:54 UTC (his answer to question 87): his rewrite of Before You Try to Go Deep (his P1 and P2 were the article's already; his P3 and P4 replace mine) and his three paragraphs for Your Body Might Need Some Love First (P3, P4 and P5, replacing the three he quoted as the AI version), all word for word except one space for the two in \"difference.  You can\". His checks: \"now it's dark green for the whole section\" and \"this is the all dark green version\". Installed by experiments/t97-installs/apply_t97.py.",
+   "status": "superseded",
+   "what": "Joel's message of 2026-10-22 23:54 UTC (his answer to question 87): his rewrite of Before You Try to Go Deep (his P1 and P2 were the article's already; his P3 and P4 replace mine) and his three paragraphs for Your Body Might Need Some Love First (P3, P4 and P5, replacing the three he quoted as the AI version), all word for word except one space for the two in \"difference.  You can\". His checks: \"now it's dark green for the whole section\" and \"this is the all dark green version\". Installed by experiments/t97-installs/apply_t97.py. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-22 23:54 UTC (experiments/t97-answers/JOEL-20261022-2354.md): \"in \"before you try to go deep\" i made some improvements and now it's dark green for the whole section\"; \"i will do one more for you tho, this is the ai section here: ... and this is the all dark green version: ...\"",
    "where": "Before You Try to Go Deep; Your Body Might Need Some Love First",
    "must_contain_exact": [
@@ -3221,12 +3302,13 @@
     "It’s a bit like the gym, where sore and injured",
     "It's a bit like the gym, where sore and injured",
     "I wouldn't rush to call it healing or harm"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "joel-98-20261023",
-   "status": "applied",
-   "what": "Joel's message of 2026-10-23 02:29 UTC (his answers to questions 88 to 90). 88.1: his How Much Happiness Do You Know Is Possible? (four paragraphs for five, in his order; \"human high conf 100%\"). 88.2: his When the Practice Feels Real but Stays Shallow (\"dark green\"). 88.3: his The Parent You Inherited, the ST-CA reference cut (\"100% dark green on pangram\"), word for word except \"hanlde\" and \"pont\". 89: A, my wording of his Related Clinical Work line. 90: A is covered by his 88.3. Installed by experiments/t98-installs/apply_t98.py.",
+   "status": "superseded",
+   "what": "Joel's message of 2026-10-23 02:29 UTC (his answers to questions 88 to 90). 88.1: his How Much Happiness Do You Know Is Possible? (four paragraphs for five, in his order; \"human high conf 100%\"). 88.2: his When the Practice Feels Real but Stays Shallow (\"dark green\"). 88.3: his The Parent You Inherited, the ST-CA reference cut (\"100% dark green on pangram\"), word for word except \"hanlde\" and \"pont\". 89: A, my wording of his Related Clinical Work line. 90: A is covered by his 88.3. Installed by experiments/t98-installs/apply_t98.py. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-23 02:29 UTC (experiments/t98-answers/JOEL-20261023-0229.md): \"88.1 that was not very well written aside from being AI, this is better and human high conf 100%\"; \"88.2 that was also a bad paragraph. i fixed it and it's also now dark green\"; \"88.3 that reference was too taxing for sucha small exercise, not necessary, i cut it. in general too much polish on this section, like a weird mix of overly efficient prose with actual lack of meaning.\"; \"89a\"; \"90a\"",
    "where": "How Much Happiness Do You Know Is Possible?; When the Practice Feels Real but Stays Shallow; The Parent You Inherited; Related Clinical Work",
    "must_contain_exact": [
@@ -3248,12 +3330,13 @@
     "Curiosity can be enough here, something like",
     "hanlde",
     "the pont where"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "joel-100-20261023",
-   "status": "applied",
-   "what": "Joel's message of 2026-10-23 13:10 UTC: his two updated paragraphs of Your Loan is PRE-APPROVED!, word for word with his link (http://love.u-dont-exist.com on \"wellspring of compassion in my heart for all of us\"). His first starts where the old paragraph's second half started, so the old first half (\"That may sound like a silly, quirky waste of time ...\") stays as its own paragraph before it, unchanged (question 93.3). His second replaces the \"Of course\" paragraph, without the abuser clause and the endless-loop sentences (questions 93.1 and 93.2). Installed by experiments/t100-installs/apply_t100b.py. Turn 101: his 93.1 words are this paragraph's first sentence now (entry joel-101-20261023).",
+   "status": "superseded",
+   "what": "Joel's message of 2026-10-23 13:10 UTC: his two updated paragraphs of Your Loan is PRE-APPROVED!, word for word with his link (http://love.u-dont-exist.com on \"wellspring of compassion in my heart for all of us\"). His first starts where the old paragraph's second half started, so the old first half (\"That may sound like a silly, quirky waste of time ...\") stays as its own paragraph before it, unchanged (question 93.3). His second replaces the \"Of course\" paragraph, without the abuser clause and the endless-loop sentences (questions 93.1 and 93.2). Installed by experiments/t100-installs/apply_t100b.py. Turn 101: his 93.1 words are this paragraph's first sentence now (entry joel-101-20261023). Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-23 13:10 UTC (experiments/t100-answers/JOEL-20261023-1310.md): \"i also updated 2 paragraphs in ask god for a loan you're pre-approved\"",
    "where": "Ask God for a Loan, Your Loan is PRE-APPROVED!",
    "must_contain_exact": [
@@ -3265,12 +3348,13 @@
     "That may sound like a silly, quirky waste of time",
     "And even (or especially) when I am suffering",
     "Of course, that’s not to say you should not try to suffer less, or get away from abusers."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "joel-101-20261023",
-   "status": "applied",
-   "what": "Joel's answers of 2026-10-23 14:05 UTC. 91.1 B: Borrow One Competency at a Time in the turn-100 test's order, with old P6's first sentence cut and its second ending old P5. 91.2 A: the heading Instead of Blame in Love Doesn't Have to Wait for Trust. 91.3 A and 91.4 A change nothing. 93.1: his words for the Of course paragraph's first sentence. 93.2: his two endless-loop sentences added onto the prosperity paragraph, as he pasted them. 93.3 A keeps the old first half as its own paragraph. Installed by experiments/t101-installs/apply_t101.py. My P9's first sentence changed after the h3 read AI with the two thank-you lines side by side (draft h01, experiments/t101-api/API-CHECKS.md).",
+   "status": "superseded",
+   "what": "Joel's answers of 2026-10-23 14:05 UTC. 91.1 B: Borrow One Competency at a Time in the turn-100 test's order, with old P6's first sentence cut and its second ending old P5. 91.2 A: the heading Instead of Blame in Love Doesn't Have to Wait for Trust. 91.3 A and 91.4 A change nothing. 93.1: his words for the Of course paragraph's first sentence. 93.2: his two endless-loop sentences added onto the prosperity paragraph, as he pasted them. 93.3 A keeps the old first half as its own paragraph. Installed by experiments/t101-installs/apply_t101.py. My P9's first sentence changed after the h3 read AI with the two thank-you lines side by side (draft h01, experiments/t101-api/API-CHECKS.md). Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-23 14:05 UTC (experiments/t101-answers/JOEL-20261023-1405.md): \"91.1b 91.2a 91.3a 91.4 a 91.5 a 92a 93.1 right, change the next sentence in next para to: ... 93.2 my bad, i was editing the version i had before that. we can add that onto the para about prosperity philosophy: ... 93.3a\"",
    "where": "Borrow One Competency at a Time; Love Doesn't Have to Wait for Trust; Ask God for a Loan (Your Loan is PRE-APPROVED!)",
    "must_contain_exact": [
@@ -3297,7 +3381,8 @@
    ],
    "history": [
     "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-borrow approved: \"For warmth,\" and \"For protecting,\" became headings, so the strings are the current ones (entry joel-114-20261026)."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "joel-102-20261023",
@@ -3366,8 +3451,8 @@
   },
   {
    "id": "joel-104-20261023",
-   "status": "applied",
-   "what": "Joel's answers of 2026-10-23 23:21 UTC. 100.1 A with his own text: The Inner Guide's naming aside as its own paragraph after P1 (GPT's move), and the last h2 his: the heading \"You Belong Everywhere and Nowhere\", then P9 and P10 word for word. 100.2 A: P2's \"Treats and pampering do better at set times ...\". Installed by experiments/t104-installs/apply_t104.py.",
+   "status": "superseded",
+   "what": "Joel's answers of 2026-10-23 23:21 UTC. 100.1 A with his own text: The Inner Guide's naming aside as its own paragraph after P1 (GPT's move), and the last h2 his: the heading \"You Belong Everywhere and Nowhere\", then P9 and P10 word for word. 100.2 A: P2's \"Treats and pampering do better at set times ...\". Installed by experiments/t104-installs/apply_t104.py. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-23 23:21 UTC (experiments/t104-answers/JOEL-20261023-2321.md): \"100.1a i fixed it, this passes: ... 100.2 a\"",
    "where": "The Inner Guide (P1 and the aside, P2, the last h2)",
    "must_contain_exact": [
@@ -3384,7 +3469,8 @@
    ],
    "history": [
     "Turn 106 (his answers of 2026-10-24 22:55 UTC, experiments/t106-answers/JOEL-20261024-2255.md): his H31 A."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "joel-105-20261024",
@@ -3405,8 +3491,8 @@
   },
   {
    "id": "joel-106-20261024-sections",
-   "status": "applied",
-   "what": "Joel's own versions of five places, word for word, each checked by him: When to Change the Strategy (all five paragraphs; 98.7's own paragraph is gone, its point his P3's texting example), You Don't Need an Inner Monologue, the crisis stretch of If You Want to Kill Yourself, First Social Connections, Done Right, and Speak Toward What You Are Building without its last paragraph. The Forbes link's markdown has no space before its address. Installed by experiments/t106-installs/apply_t106.py. E5: his Inner Monologue P2 has a paragraph break before \"Then again\" (both versions read Human through the API).",
+   "status": "superseded",
+   "what": "Joel's own versions of five places, word for word, each checked by him: When to Change the Strategy (all five paragraphs; 98.7's own paragraph is gone, its point his P3's texting example), You Don't Need an Inner Monologue, the crisis stretch of If You Want to Kill Yourself, First Social Connections, Done Right, and Speak Toward What You Are Building without its last paragraph. The Forbes link's markdown has no space before its address. Installed by experiments/t106-installs/apply_t106.py. E5: his Inner Monologue P2 has a paragraph break before \"Then again\" (both versions read Human through the API). Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-24 22:55 UTC: \"i fixed the whole section and now it's 100% high conf human, learn some lessons\"; \"now it's fully dark green\"; \"crisis stretch is now fully human\"; \"first social connections is fully green\"; \"now speak toward is all green ... yes i removed the final para on that one, it seemed extra\"",
    "where": "When to Change the Strategy; You Don't Need an Inner Monologue; If You Want to Kill Yourself; First Social Connections, Done Right; Speak Toward What You Are Building",
    "must_contain_exact": [
@@ -3439,7 +3525,8 @@
    "history": [
     "Turn 107 (his answers of 2026-10-25 00:24 UTC, experiments/t107-answers/JOEL-20261025-0024.md): 103.4 A: \"But do notice if progress is stagnating.\" for his \"if it progress\".",
     "Turn 114 (his answers of 2026-10-26 00:52 UTC, experiments/t114-answers/ANSWERS-20261026-0052.json): H-change approved: the last paragraph splits before his condition, which is its heading, so the strings are the current ones (entry joel-114-20261026)."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "joel-106-20261024-982",
@@ -3458,8 +3545,8 @@
   },
   {
    "id": "joel-106-20261024-ideas",
-   "status": "applied",
-   "what": "His picks on the ideas page (experiments/t105-readers-edit/IDEAS.md): 25 heading lines (E2 to E33 and E15's two), the cuts E10 and E13, E34's paragraph break, and the hedge cuts H2, H3, H7, H12, H14, H17, H18, H22 (with his \"These are just\"), H23 (his merged sentence), H26 (with the line before it), H31, H32, H38 (with the Jeffrey Young parenthetical) and H39.",
+   "status": "superseded",
+   "what": "His picks on the ideas page (experiments/t105-readers-edit/IDEAS.md): 25 heading lines (E2 to E33 and E15's two), the cuts E10 and E13, E34's paragraph break, and the hedge cuts H2, H3, H7, H12, H14, H17, H18, H22 (with his \"These are just\"), H23 (his merged sentence), H26 (with the line before it), H31, H32, H38 (with the Jeffrey Young parenthetical) and H39. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-24 22:55 UTC: his answers e1 to e35 and h1 to h41 (experiments/t106-answers/JOEL-20261024-2255.md)",
    "where": "the whole article",
    "must_have_line": [
@@ -3513,12 +3600,13 @@
     "did his postdoctoral work with Aaron Beck",
     "Hindsight being 20/20 doesn't change that.",
     "If you made a mistake, you can see how to repair that."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "joel-107-20261025-sections",
-   "status": "applied",
-   "what": "Joel's own My Journey (all thirteen paragraphs, his bypassing paragraph second) and his own first three paragraphs of Not Every Hero Wears A Cape, word for word, each checked by him. Each link and the two italic words are on the same words as before, since his paste is plain text, and each of his lines is its own paragraph. Make It Intentional stays as it was. Installed by experiments/t107-installs/apply_t107.py.",
+   "status": "superseded",
+   "what": "Joel's own My Journey (all thirteen paragraphs, his bypassing paragraph second) and his own first three paragraphs of Not Every Hero Wears A Cape, word for word, each checked by him. Each link and the two italic words are on the same words as before, since his paste is plain text, and each of his lines is its own paragraph. Make It Intentional stays as it was. Installed by experiments/t107-installs/apply_t107.py. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-25 00:24 UTC: \"103a oh i had not read that whole section, it looks still a little ai, and you put in some of my things too verbatim. here's the fixed, fully green section\"; \"103.2 i fixed the section, it's all dark green now\"",
    "where": "My Journey; Not Every Hero Wears A Cape",
    "must_contain_exact": [
@@ -3548,7 +3636,8 @@
     "in general and map it out completely",
     "Plenty of seekers and gurus do it too",
     "All of that shows as clearly to them as the clean room did."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "joel-107-20261025-103",
@@ -3566,8 +3655,8 @@
   },
   {
    "id": "joel-109-20261025",
-   "status": "applied",
-   "what": "105.1: his own end of How This Relates to IFS P7 (his friend Pink's account), word for word but for \"explained\" (his \"expalined\") and a doubled space. 105.2: his own start of Use Childhood Photographs Gently. 104 A: Hear the Guard First in the plain-path-first shape, every sentence kept and used once, \"That part might say\" for \"It might say\". Installed by experiments/t109-installs/apply_t109.py.",
+   "status": "superseded",
+   "what": "105.1: his own end of How This Relates to IFS P7 (his friend Pink's account), word for word but for \"explained\" (his \"expalined\") and a doubled space. 105.2: his own start of Use Childhood Photographs Gently. 104 A: Hear the Guard First in the plain-path-first shape, every sentence kept and used once, \"That part might say\" for \"It might say\". Installed by experiments/t109-installs/apply_t109.py. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-25 14:20 UTC: \"104 a yes this makes it much more of a readable guide, good.\"; \"105.1 replace with ...\"; \"105.2 ok so this is the part that reads ai and it's actually redundant also ... change it to ...\"",
    "where": "How This Relates to IFS; Use Childhood Photographs Gently; Hear the Guard First",
    "must_contain_exact": [
@@ -3586,7 +3675,8 @@
    ],
    "history": [
     "Turn 111 (his answers of 2026-10-25 20:08 UTC, experiments/t111-answers/ANSWERS-20261025-2008.json): S1 approved: \"It might say\", his word from before turn 109, is back, since the sentence follows his question again."
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "joel-110-20261025",
@@ -3600,8 +3690,8 @@
   },
   {
    "id": "joel-111-20261025",
-   "status": "applied",
-   "what": "His answers from the turn-110 review sheet: S1 approved; S3 in his version (\"this person\"); cuts C3 to C9, C11, C12 approved; C10 rejected with his added sentence and his cut of the next paragraph's first sentence; P2 and P5 approved; P6 in his version (his sentence for Just Like Me P2, the tonglen link kept) with his cut in P1; Q1 his sentence; Q2 and Q3 answered with their basis (\"people i know\"; \"People in Re-evaluation Counseling say this especially. it's also sort of common therapy advice\"), no text change. Installed by experiments/t111-installs/apply_t111.py.",
+   "status": "superseded",
+   "what": "His answers from the turn-110 review sheet: S1 approved; S3 in his version (\"this person\"); cuts C3 to C9, C11, C12 approved; C10 rejected with his added sentence and his cut of the next paragraph's first sentence; P2 and P5 approved; P6 in his version (his sentence for Just Like Me P2, the tonglen link kept) with his cut in P1; Q1 his sentence; Q2 and Q3 answered with their basis (\"people i know\"; \"People in Re-evaluation Counseling say this especially. it's also sort of common therapy advice\"), no text change. Installed by experiments/t111-installs/apply_t111.py. Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-25 20:08 UTC (the sheet's export) and 20:14 UTC (experiments/t111-answers/JOEL-20261025-2014.md)",
    "where": "Hear the Guard First; Before You Tell the Hardest Stuff; Ill Will and Loving-Kindness; Borrow Love; Love Doesn't Have to Wait; Catch the Hook; Close the Session; Untangling the Belonging Bargains; Let the Child Be Bad at Things; Borrowed Adulthood in Relationship; How to Forgive Without Forgetting; Missing Someone; Don't Give the Inner Adult Away; Remind Yourself; Just Like Me; If the Love Isn't Coming Yet",
    "must_contain": [
@@ -3627,7 +3717,8 @@
     "I'd leave out forgiving them",
     "What people most often say helped",
     "I'd keep whatever you feel around them"
-   ]
+   ],
+   "superseded_by": "joel-116-117-guide"
   },
   {
    "id": "joel-112-20261025",
@@ -3648,8 +3739,8 @@
   },
   {
    "id": "joel-114-20261026",
-   "status": "applied",
-   "what": "His answers from the turn-113 review sheet: all eleven cards approved, each section as the sheet showed it (case headings, every one a ####; the first words a heading now says dropped; the splits; the one move in Start With Whatever Showed Up; his 109 A), and Q-me answered \"you\". Installed by experiments/t114-installs/apply_t114.py, which checks that the article without its notes is experiments/t113-shape/PROPOSAL-ARTICLE.md with his \"you\".",
+   "status": "superseded",
+   "what": "His answers from the turn-113 review sheet: all eleven cards approved, each section as the sheet showed it (case headings, every one a ####; the first words a heading now says dropped; the splits; the one move in Start With Whatever Showed Up; his 109 A), and Q-me answered \"you\". Installed by experiments/t114-installs/apply_t114.py, which checks that the article without its notes is experiments/t113-shape/PROPOSAL-ARTICLE.md with his \"you\". Superseded 2026-11-03 (turn 117) by his own reorganized guide, which the article now is (entry joel-116-117-guide).",
    "joel": "2026-10-26 00:52 UTC (experiments/t114-answers/ANSWERS-20261026-0052.json; his message, experiments/t114-answers/JOEL-20261026-0053.md)",
    "where": "Hear the Guard First, Start With Whatever Showed Up, When to Change the Strategy, When Escape Leaves Reality Behind, When the Adult Voice Feels Fake, Finding a Therapist to Borrow Adulthood, Other Folks Also Have Hooks, Borrow One Competency at a Time, How Would You Know It's Helping?, How to Forgive Without Forgetting, Borrow Love—or Borrow the Perspective of Care; Don't Give the Inner Adult Away",
    "must_have_line": [
@@ -3714,6 +3805,52 @@
     "For warmth, think of someone",
     "For protecting, ask what",
     "And don't suddenly stop a medication"
+   ],
+   "superseded_by": "joel-116-117-guide"
+  },
+  {
+   "id": "joel-116-117-guide",
+   "status": "applied",
+   "what": "His own reorganized guide (his ODT of 2026-11-03 21:00 UTC, experiments/t116-joel/JOEL-GUIDE-20261103.md) is the article now, with his answers on the turn-116 marking page put in by experiments/t117-apply/apply_t117.py: the cards he approved, his words for P13, Xandria as X (A1), \"what year\" (A5), the h5 (F6), English quote marks and no space before ! ? : (Q1), the links back (L1), and the live post's eleven pictures and videos with his own as notes (L2, L3). Each card's fate is checked in experiments/t117-apply/DECISIONS.md.",
+   "joel": "2026-11-03 21:00 UTC (the ODT) and 23:32 UTC (experiments/t117-answers/ANSWERS-20261103-2332.json)",
+   "where": "the whole guide",
+   "must_contain_exact": [
+    "Whatever the situation was, we will contrast it with the corrected version. For my friend J., whose dad savagely beat him every time he smiled, I'd have the corrected version be, he smiles, and his dad smiles, happy to see him happy. Ok, that one might seem too easy, although for J, it might take years to imagine that correction.",
+    "Sometimes it's not that you can't love in general. Your dog can chew up your good shoes and be forgiven before you've found the other one. But maybe you direct that love to your little one and the attempt goes flat, or starts to feel weirdly unsafe. Just feel that love you can feel for others for a minute, in your body, before you try to redirect anything. Then as you relax into that and enjoy it more, imagine it flowing downhill, like an overflowing river of delicious chocolate. Now imagine how happy your inner child is at the bottom of the hill to play in that chocolate love that rolled down!",
+    "Jelaluddin Rumi wrote: \"The most secure place to hide a treasure of gold is some desolate, unnoticed place. Why would anyone hide treasure in plain sight? And so it is said: 'Joy is hidden in sorrow.'\""
+   ],
+   "must_contain": [
+    "My ex, X, taught me",
+    "another ex of mine (X)",
+    "like what year Pharaoh Tutankhamun",
+    "so “meet the protector first” would fit right in over there",
+    "I call it pl/ork (play + work)!",
+    "As Lao Tsu might have said (if I could ever have read that whole boring Art of War book)"
+   ],
+   "must_have_line": [
+    "##### Mo' Money, Mo' Problems",
+    "## What to Make of a Passing Feeling",
+    "## Finding People and Building Trust",
+    "## The Love Has to Move"
+   ],
+   "must_not_contain": [
+    "Xandria",
+    "therapeutic holding",
+    "«",
+    "»"
+   ]
+  },
+  {
+   "id": "joel-118-four-pairs",
+   "status": "applied",
+   "what": "The four pairs back under Four Pairs That Commonly Hook the Child, in his words from the last guide, after he had cut them (card P11): \"i didn't realize they wer eimportant for that part\".",
+   "joel": "2026-11-04 00:43 UTC (experiments/t118-answers/JOEL-20261104-0043.md)",
+   "where": "Untangling the Belonging Bargains, Four Pairs That Commonly Hook the Child",
+   "must_contain_exact": [
+    "Pema Chödrön has a quick map for finding the bargain. It's four pairs, starting with pleasure and pain, and gain and loss. The other two are about what people think of you: praise and blame, and good reputation and disgrace. Your little one can panic"
+   ],
+   "must_have_line": [
+    "#### Four Pairs That Commonly Hook the Child"
    ]
   }
  ]

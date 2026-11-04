@@ -10,6 +10,7 @@ This is the repository-wide visual index of registered articles, explicit interl
 <!-- article-id: intentional-communities -->
 <!-- article-id: neuro-de-armoring -->
 <!-- article-id: bad-trips -->
+<!-- article-id: healing-the-gut -->
 
 ```mermaid
 flowchart LR
@@ -21,6 +22,7 @@ flowchart LR
     communities["Intentional Communities — working source master, humanization candidate"]
     neuro["Neuro De-Armoring — working source master, humanization started"]
     badtrips["Bad Trips — working source master, dedup and humanization started"]
+    gut["Healing the Gut — working source master, structure and humanization requested"]
 ```
 
 Romance and Somatic Therapies are registered working articles. No direct cross-article edge between them is currently established. Add relationship edges only when a real and useful editorial relationship is confirmed; do not infer one from generic topic overlap.
@@ -38,3 +40,4 @@ Intentional Communities is registered from the published Substack text at `artic
 Neuro De-Armoring is registered from his post as it stands on 2026-11-02 (`articles/neuro-de-armoring/master.md`, the editor copy of 28 September, which the post matches word for word). It runs the same shared humanization rules, with one rule of its own from his queue: every compound, dose, unit, timing and warning comes out exactly as it went in (`humanize/FIDELITY-KEYS.json`). Its published text links to his inner child, somatic, psychedelic, detox, DMSO, iboga and keto guides; no Mermaid edge is drawn merely because of those links.
 
 Bad Trips is registered from his post as it stands on 2026-11-03 (`articles/bad-trips/master.md`, the Markdown of the editor HTML he pasted, which the post matches block for block). It runs the same shared humanization rules, with the neuro de-armoring protocol's fidelity rule applied to its remedies and doses (`humanize/FIDELITY-KEYS.json`), and starts with a dedup pass on how its quick checklist and long guide split the work. Its published text links to his DMSO, humic acid, loveyhuasca, inner child, self-hypnosis, sleep and other guides; no Mermaid edge is drawn merely because of those links.
+Healing the Gut is registered from the Substack editor HTML Joel pasted on 2026-11-03 (`articles/healing-the-gut/master.html`). He asked for humanizing and for lining up its first part (his and his friends' research) with its book-based recipe. It runs the shared humanization rules plus protocol fidelity (`humanize/FIDELITY-KEYS.json`). It links to his detox, SIBO yogurt, ZHoly3O, H2O2 and sleep guides; no Mermaid edge is drawn merely because of those links.

@@ -1,0 +1,41 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "But some people would rather have a ready-made starting point than buy every ingredient separately.",
+  "For a general \"repair and rebuild\" approach, I'd look for a stack that covers three things: something for your microbiome (a probiotic or a probiotic system that you tolerate well), something that helps your gut make short-chain fatty acids, especially butyrate (that's the prebiotic or butyrate support), and something that repairs the barrier (nutrients for the gut lining like glutamine, zinc carnosine, colostrum, mucosal-support herbs or similar compounds)."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2
+ ],
+ "whole": {
+  "codex": [
+   "A short conversational opening leads into one long sentence containing three categories, each supplied with a parenthetical explanation. That regular construction makes the paragraph feel assembled from an explanatory template, although it cannot establish authorship."
+  ],
+  "haiku": [
+   "The paragraph is built as a neat three-part recommendation with matched clause lengths and a smooth, even rhythm, so it reads as composed rather than argued."
+  ],
+  "sonnet": [
+   "The paragraph is built as one long sentence of tidy parallel clauses with a gloss in brackets after each, so the rhythm is even and the structure is a classic announce-three-things-then-list-them pattern. The voice stays generically helpful and never lands on a single specific product, dose or personal detail."
+  ]
+ },
+ "human_clean": [
+  "I'd look for",
+  "I'd look for"
+ ]
+}

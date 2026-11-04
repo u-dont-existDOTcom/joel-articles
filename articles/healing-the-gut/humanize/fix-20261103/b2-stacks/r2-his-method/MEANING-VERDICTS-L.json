@@ -1,0 +1,12 @@
+[
+ {
+  "id": "L01",
+  "verdict": "PASS",
+  "issue": "Added kits opener matches Joel's allowed note (\"check the reviews\" now an imperative). Phase 3 pointer correct, replaces \"decision tree\". \"Best general\" split across opener and \"the general one\"; \"all three of those\" needs the list above; \"either\" has no prior negative. \"Start low\" glossed accurately as \"low doses\"."
+ },
+ {
+  "id": "L02",
+  "verdict": "FAIL",
+  "issue": "Category \"Prebiotic / butyrate support\" narrowed to \"something prebiotic that helps your gut make\" SCFAs, excluding butyrate-support products. Also: \"general\" and \"three categories\" dropped; anti-parasite protocols folded into \"antimicrobials\"."
+ }
+]

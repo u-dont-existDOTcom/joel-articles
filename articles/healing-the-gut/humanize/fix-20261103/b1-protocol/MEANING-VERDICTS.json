@@ -1,0 +1,16 @@
+[
+ {"id": "M01", "verdict": "PASS", "issue": "Step 1 reordered: Davis's recommendation now first, then \"But AVOID most herbal antibiotics\" (contrast spelled out). \"die of toxins\" typo fixed to \"die-off\". \"Ruscio again\" added. \"Triple Probiotic Support\" label lowercased to \"triple probiotic\". Heading nickname kept."},
+ {"id": "M02", "verdict": "PASS", "issue": "Nickname \"(The Gardener)\" dropped. \"from Phase 2\" added to meal spacing (implied by \"Continue\"). \"titrate\" became \"work\". Quote marks dropped from SIBO Yogurt. Step labels Feed/Maintain dropped, purposes kept."},
+ {"id": "M03", "verdict": "PASS", "issue": "Imperative \"Do not skip phases\" became \"you don't skip any\" (same rule, said in a more conversational way)."},
+ {"id": "M04", "verdict": "PASS", "issue": "Numbered steps turned into prose, in the same order. \"Strictly space meals\" became \"Pimentel also wants your meals strictly spaced\". Added the question \"Why so strict?\". Heading nickname kept."},
+ {"id": "M05", "verdict": "PASS", "issue": "Nickname \"(The Architect & Scientist)\" dropped. Step labels \"Diet\" and \"Meal Spacing\" dropped."},
+ {"id": "M06", "verdict": "PASS", "issue": "Nickname \"(The Restorer)\" dropped. \"even though\" spells out the implied contrast between AVOID and Davis's herbal recommendation. \"die of toxins\" typo fixed to \"die-off\". \"the human host\" became \"you\"."},
+ {"id": "M07", "verdict": "PASS", "issue": "\"from Phase 2\" added, and \"(4+ hours this time)\" makes explicit a contrast with Phase 2's 4-5 hours that the original leaves unstated. Spacing value is unchanged. Heading nickname kept."},
+ {"id": "M08", "verdict": "PASS", "issue": "Nickname \"(The Mechanic & Electrician)\" dropped. \"you must ensure\" became \"has to be\". \"(that's the 'fire')\" added. Herx warning joined to the stagnant-bile clause, with the symptoms joined by \"or\" (implied link spelled out)."},
+ {"id": "M09", "verdict": "PASS", "issue": "Nickname \"(The Hazmat Team)\" dropped. \"Assess for\" became \"Get assessed for those\". \"Use\" became \"you'd use\". \"Hopper says\" added. \"The last phase\" added."},
+ {"id": "M10", "verdict": "PASS", "issue": "Nickname \"(The Detective)\" dropped. Implied pairings spelled out: Stool Elastase/EPI with enzymes, SeHCAT/BAD with bile binders. \"the only source\", \"even\" added. \"is not the microbiome\" became \"cross the microbiome off the list\"."},
+ {"id": "M11", "verdict": "PASS", "issue": "Step turned into prose. The step's \"(Brown)\" label dropped, covered by \"all Benjamin Brown\". Added \"Is it your pancreas?\" and \"depending on what you find\" (pairing implied, not mapped). Heading nickname kept."},
+ {"id": "M12", "verdict": "PASS", "issue": "\"since\" makes the move-only-on-failure rule the reason not to skip phases, a link implied by the original."},
+ {"id": "M13", "verdict": "PASS", "issue": "Reframed as opening questions. \"(that first question again)\" links the two \"everything\" phrases. \"her\" attributes DNRS to Hopper. \"Nathan's first check\", \"if you test positive\", \"last phase\" added. Heading nickname kept."},
+ {"id": "M14", "verdict": "PASS", "issue": "\"Taking antimicrobials now\" became \"adding the 'fire' now (antimicrobials)\". Herx warning joined to the stagnant-bile clause with \"and\". Heading nickname kept."}
+]

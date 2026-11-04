@@ -1,0 +1,121 @@
+{
+ "writer_C.json": {
+  "LGF": {
+   "words_before": 293,
+   "words_after": 312,
+   "problems": [
+    "warning lost: - The Cancer Caveat: Because hyper-proliferative cancer cells can also hijack glutamine to fuel their rapid replication, avoid high-dose protocol titrations if  | missing [['avoid'], ['hyper-proliferative'], ['replication']]"
+   ]
+  },
+  "ST1": {
+   "words_before": 118,
+   "words_after": 117,
+   "problems": [
+    "numbers_lost: 1",
+    "numbers_lost: 2",
+    "numbers_lost: 3",
+    "warning lost: I do not think there is a universal supplement stack that heals everyone's gut. | missing [['do not']]"
+   ]
+  },
+  "ST2": {
+   "words_before": 179,
+   "words_after": 204,
+   "problems": []
+  }
+ },
+ "writer_A.json": {
+  "LGF": {
+   "words_before": 293,
+   "words_after": 328,
+   "problems": [
+    "warning lost: - The Cancer Caveat: Because hyper-proliferative cancer cells can also hijack glutamine to fuel their rapid replication, avoid high-dose protocol titrations if  | missing [['avoid'], ['hyper-proliferative'], ['replication']]"
+   ]
+  },
+  "ST1": {
+   "words_before": 118,
+   "words_after": 121,
+   "problems": [
+    "warning lost: I do not think there is a universal supplement stack that heals everyone's gut. | missing [['do not']]"
+   ]
+  },
+  "ST2": {
+   "words_before": 179,
+   "words_after": 213,
+   "problems": []
+  }
+ },
+ "writer_B.json": {
+  "LGF": {
+   "words_before": 293,
+   "words_after": 343,
+   "problems": [
+    "warning lost: - The Cancer Caveat: Because hyper-proliferative cancer cells can also hijack glutamine to fuel their rapid replication, avoid high-dose protocol titrations if  | missing [['hyper-proliferative']]"
+   ]
+  },
+  "ST1": {
+   "words_before": 118,
+   "words_after": 131,
+   "problems": [
+    "warning lost: I do not think there is a universal supplement stack that heals everyone's gut. | missing [['do not']]"
+   ]
+  },
+  "ST2": {
+   "words_before": 179,
+   "words_after": 222,
+   "problems": []
+  }
+ },
+ "writer_P.json": {
+  "LGF": {
+   "words_before": 293,
+   "words_after": 167,
+   "problems": [
+    "terms_lost: KG",
+    "terms_lost: SCFAs",
+    "warning lost: - The Cancer Caveat: Because hyper-proliferative cancer cells can also hijack glutamine to fuel their rapid replication, avoid high-dose protocol titrations if  | missing [['avoid'], ['hyper-proliferative'], ['replication']]"
+   ]
+  }
+ },
+ "writer_J.json": {
+  "LGF": {
+   "words_before": 293,
+   "words_after": 381,
+   "problems": [
+    "warning lost: - The Cancer Caveat: Because hyper-proliferative cancer cells can also hijack glutamine to fuel their rapid replication, avoid high-dose protocol titrations if  | missing [['avoid'], ['hyper-proliferative'], ['replication']]"
+   ]
+  },
+  "ST1": {
+   "words_before": 118,
+   "words_after": 145,
+   "problems": []
+  },
+  "ST2": {
+   "words_before": 179,
+   "words_after": 221,
+   "problems": []
+  }
+ },
+ "writer_K.json": {
+  "LGF": {
+   "words_before": 293,
+   "words_after": 385,
+   "problems": [
+    "warning lost: - The Cancer Caveat: Because hyper-proliferative cancer cells can also hijack glutamine to fuel their rapid replication, avoid high-dose protocol titrations if  | missing [['avoid'], ['hyper-proliferative'], ['replication']]"
+   ]
+  },
+  "ST1": {
+   "words_before": 118,
+   "words_after": 119,
+   "problems": [
+    "numbers_lost: 1",
+    "numbers_lost: 2",
+    "numbers_lost: 3"
+   ]
+  },
+  "ST2": {
+   "words_before": 179,
+   "words_after": 202,
+   "problems": []
+  }
+ }
+}

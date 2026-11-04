@@ -3,12 +3,15 @@
 
 Usage (from the repo root):
   python3 tools/humanization/render_article_so_far.py [OUT.html] --article ARTICLE.md
-          [--ledger OWNER-EDITS.json] [--title TEXT]
+          [--ledger OWNER-EDITS.json] [--title TEXT] [--images DIR]
 
   --article  the humanized article so far (Markdown)
   --ledger   that article's OWNER-EDITS.json; without it, no owner-edits check and no box
   --title    the page title; default: the article's folder name, title-cased, plus
              ", humanized so far" ("inner-child-therapy" -> "Inner Child Therapy, humanized so far")
+  --images   a folder with Joel's pictures that aren't online yet (image notes "odt:..." or "laptop:..."), each
+             found by its file name and put in the page as a smaller JPEG or PNG; without it, or for one not there,
+             the page shows a box naming the picture
   OUT.html   default: /mnt/user-data/outputs/<the article's folder>-humanized-so-far.html
 For example, Inner Child:
   python3 tools/humanization/render_article_so_far.py OUT.html \\
@@ -23,6 +26,10 @@ section is never shown as accepted prose. All other comments stay invisible.
 The page names the Markdown it was made from and that file's SHA-256 (two <meta> tags), so the chat check can tell that the
 page sent with a lane turn's final message is the article as it stands (pangram_links_check.py --chat --sent PAGE; E271
 (Inner Child): Joel, 2026-10-25 21:40 UTC, "idk why you stopped giving me the full humanized article on each turn").
+
+An embed note (a video, an audio or a post card: article_images.py) shows as a box with what it is and its link, and
+the article's keep-as-is list (KEEP-AS-IS.json, keep_as_is.py: lesson E340) is checked: kept words gone
+from the article, or a cut Joel meant back in it, go in a red box at the top, and the script exits 1.
 
 Every paragraph carries its number under its heading (P1, P2, ...), from para_numbers.py, the same
 numbers the review page uses (Joel, 2026-10-11 03:47 UTC: "Why are there no numbers on many of these
@@ -39,6 +46,7 @@ import markdown
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import article_images
 import check_owner_edits
+import keep_as_is
 import para_numbers
 from html_links import autolink_markdown, linkify, join_split_links  # Joel, 2026-10-16: "your links are not clickable"
 
@@ -47,6 +55,7 @@ ap.add_argument('out', nargs='?', help='the HTML file to write')
 ap.add_argument('--article', required=True, help='the humanized article so far (Markdown)')
 ap.add_argument('--ledger', help="the article's OWNER-EDITS.json (no ledger: no owner-edits check)")
 ap.add_argument('--title', help='the page title')
+ap.add_argument('--images', help="a folder with Joel's pictures that aren't online yet, by file name")
 a = ap.parse_args()
 SRC = pathlib.Path(a.article)
 FOLDER = SRC.resolve().parent.name
@@ -81,7 +90,36 @@ md = numbered(join_split_links(md))  # the pasted post card's link, which Markdo
 # A bare address in the article's own text, like the note link Substack shows as the note itself, is a link on the page too
 # (turn 112: html_links.py found it shown as text); the notes in comments stay as they are.
 md = ''.join(p if p.startswith('<!--') else autolink_markdown(p) for p in re.split(r'(<!--.*?-->)', md, flags=re.S))
-md = article_images.figure_html(md)  # an image note shows the image where it goes (2026-10-11)
+
+
+def local_picture(url):
+    """A data: address for a picture of Joel's that isn't online yet, from --images by its file name, or None."""
+    import base64, io, urllib.parse
+    if not a.images:
+        return None
+    f = pathlib.Path(a.images) / urllib.parse.unquote(url.split('/')[-1].split(':')[-1])
+    if not f.exists():
+        return None
+    try:
+        from PIL import Image
+        im = Image.open(f)
+        im.thumbnail((1100, 1600))
+        buf = io.BytesIO()
+        if im.mode in ('RGBA', 'LA', 'P'):
+            im.save(buf, 'PNG', optimize=True)
+            kind = 'png'
+        else:
+            im.convert('RGB').save(buf, 'JPEG', quality=82, optimize=True)
+            kind = 'jpeg'
+        data = buf.getvalue()
+    except ImportError:
+        data, kind = f.read_bytes(), f.suffix.lstrip('.').lower().replace('jpg', 'jpeg')
+    return 'data:image/%s;base64,%s' % (kind, base64.b64encode(data).decode('ascii'))
+
+
+KEEP = keep_as_is.load(SRC)
+KEEP_GONE, KEEP_BACK = keep_as_is.missing(SRC.read_text(encoding='utf-8'), KEEP), keep_as_is.back(SRC.read_text(encoding='utf-8'), KEEP)
+md = article_images.figure_html(md, local_picture)  # an image note shows the image where it goes (2026-10-11), an embed a box
 md = re.sub(r'<!--\s*CANDIDATE:(.*?)-->',
             lambda m: '\n\n<div class="candidate">' + linkify(m.group(1).strip()) + '</div>\n\n',
             md, flags=re.S)
@@ -97,6 +135,12 @@ waiting = [w for w in chk['waiting'] if ledger.get(w['id'], {}).get('joel')] if 
 if waiting:
     items = ''.join('<li>%s <i>(waits for %s)</i></li>' % (html.escape(w['what']), html.escape(w['waits_for'])) for w in waiting)
     top += '<div class="waiting"><b>Your edits not in the article yet:</b><ul>%s</ul></div>' % items
+if KEEP_GONE or KEEP_BACK:
+    items = ''.join('<li><b>%s</b>: "%s" is gone from the article (%s)</li>' % (html.escape(e['id']), html.escape(e['quote']), html.escape(e['where']))
+                    for e in KEEP_GONE)
+    items += ''.join('<li><b>%s</b>: "%s" is back, though Joel cut it on purpose (%s)</li>' % (html.escape(e['id']), html.escape(e['quote']), html.escape(e['where']))
+                     for e in KEEP_BACK)
+    top = '<div class="notin"><b>What Joel said stays as it is (KEEP-AS-IS.json):</b><ul>%s</ul></div>' % items + top
 body = top + body
 page = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
@@ -112,6 +156,7 @@ blockquote {{ color: #555; border-left: 3px solid #ccc; margin-left: 0; padding-
 a {{ color: #0b5cad; }}
 .pn {{ font: 600 0.7em system-ui, sans-serif; color: #8a8a8a; margin-right: 0.35em; vertical-align: 0.1em; -webkit-user-select: none; user-select: none; }}
 .art-img {{ margin: 1.5rem 0; }} .art-img img {{ max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; }}
+.art-embed, .art-missing {{ font-family: system-ui, sans-serif; font-size: 0.85em; background: #f3f6fa; border: 1px dashed #9fb3c8; border-radius: 6px; padding: 0.6rem 0.8rem; margin: 1.5rem 0; overflow-wrap: anywhere; }}
 .notin {{ font-family: system-ui, sans-serif; font-size: 0.85em; background: #fde8e8; border: 2px solid #c0392b; border-radius: 6px; padding: 0.6rem 0.8rem; margin: 1rem 0; }}
 .waiting {{ font-family: system-ui, sans-serif; font-size: 0.85em; background: #f3f6fa; border: 1px solid #9fb3c8; border-radius: 6px; padding: 0.6rem 0.8rem; margin: 1rem 0; }}
 </style></head><body>
@@ -120,10 +165,11 @@ a {{ color: #0b5cad; }}
 """
 OUT.write_text(page, encoding='utf-8')
 print(OUT, len(page), 'bytes, from', SOURCE, SOURCE_SHA[:12])
+print('keep-as-is: %d kept, %d meant cuts; %d gone, %d back' % (len(KEEP.get('keep', [])), len(KEEP.get('cuts', [])), len(KEEP_GONE), len(KEEP_BACK)))
 if chk is None:
     print('owner edits: not checked (no --ledger)')
-    sys.exit(0)
+    sys.exit(1 if (KEEP_GONE or KEEP_BACK) else 0)
 print('owner edits: %d pass, %d failed, %d waiting' % (chk['passed'], len(chk['failed']), len(chk['waiting'])))
 for f in chk['failed']:
     print('NOT IN THE ARTICLE: %s: %s' % (f['id'], '; '.join(f['fails'])))
-sys.exit(1 if chk['failed'] else 0)
+sys.exit(1 if (chk['failed'] or KEEP_GONE or KEEP_BACK) else 0)

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "X01",
+    "verdict": "PASS",
+    "issue": "Accurate glosses: enterocytes/colonocytes, 'LPS, from bacterial cell walls', citric acid cycle 'the process mitochondria use to make energy', 'when your gut bacteria ferment'. Dropped heading list '(Glutamine, Butyrate, TCA Intermediates)'; 'Consuming... provides' became 'Use'; 'systematically suppresses' as 'keep suppressing'; 'hyper-proliferative' as 'that multiply very fast'."
+  },
+  {
+    "id": "X02",
+    "verdict": "PASS",
+    "issue": "Allowed Gemini/not-used/check-reviews addition matches. 'Best general commercial stack I have seen so far' now 'best general stack of these' (scope carried by opening sentence). 'Single' and 'commercial' dropped; GI Revive grouped under 'these kits'; 'should be understood as a repair product' as 'You still need the rest'."
+  },
+  {
+    "id": "X03",
+    "verdict": "FAIL",
+    "issue": "Adds opinion 'can be a hassle'; drops 'That said' contrast; 'stack that covers three categories' weakened, barrier repair becomes 'Check what it has for the gut lining too'."
+  }
+]

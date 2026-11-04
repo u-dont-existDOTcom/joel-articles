@@ -11,8 +11,9 @@ least as many pictures as the article.
   python3 tools/humanization/file_links_check.py --article ARTICLE FILE [--allow-missing-images]
 
 ARTICLE: the article's Markdown (links as [text](url); pictures as ![..](..), "[image N](...)" lines, or the humanized
-files' "<!-- IMAGE url" notes) or its HTML (<a href>, <img>, Substack's video, audio and post embeds). FILE: .docx, .odt,
-.html or .md. Exit 0 when nothing is lost, 1 with the list when something is, 2 on a bad call."""
+files' "<!-- IMAGE url" and "<!-- EMBED url" notes, a video, an audio or a post card counting as a picture) or its HTML
+(<a href>, <img>, Substack's video, audio and post embeds, the article page's embed boxes). FILE: .docx, .odt, .html or
+.md. Exit 0 when nothing is lost, 1 with the list when something is, 2 on a bad call."""
 import argparse
 import html as htmlmod
 import pathlib
@@ -21,10 +22,16 @@ import sys
 import zipfile
 
 MD_LINK = re.compile(r'(?<!!)\[([^\[\]]+)\]\s?\(<?([^()\s<>]+(?:\([^()\s]*\))?[^()\s<>]*)>?\)')
-MD_IMAGE = re.compile(r'!\[[^\]]*\]\(([^)\s]+)\)|^\[image \d+\]\(([^)\s]+)\)|<!--\s*IMAGE\s+(\S+)', re.M)
+MD_IMAGE = re.compile(r'!\[[^\]]*\]\(([^)\s]+)\)|^\[image \d+\]\(([^)\s]+)\)|<!--\s*(?:IMAGE|EMBED)\s+(\S+)', re.M)
 HTML_A = re.compile(r'<a\s[^>]*href="([^"]+)"[^>]*>(.*?)</a>', re.S | re.I)
 HTML_IMG = re.compile(r'<img\s[^>]*src="([^"]+)"', re.I)
 EMBED = re.compile(r'youtube2-[A-Za-z0-9_-]+|class="native-(?:video|audio)-embed"|class="digest-post-embed"')
+BOX = re.compile(r'class="art-(?:embed|img art-missing)"')   # the article page's embed boxes, and a picture it couldn't show
+
+
+def html_pics(t):
+    """Pictures, videos, audios and post cards in an HTML page: each picture once, each embed where it is."""
+    return len(set(HTML_IMG.findall(t))) + len(set(EMBED.findall(t))) + len(BOX.findall(t))
 
 
 def norm(u):
@@ -39,9 +46,8 @@ def read_article(path):
     t = pathlib.Path(path).read_text(encoding='utf-8')
     if path.lower().endswith(('.html', '.htm')):
         links = [(norm(h), re.sub(r'<[^>]+>', '', x)) for h, x in HTML_A.findall(t) if h.startswith('http')]
-        pics = len(set(HTML_IMG.findall(t))) + len(set(EMBED.findall(t)))
-        return links, pics
-    body = re.sub(r'<!--(?!\s*IMAGE).*?-->', '', t, flags=re.S)
+        return links, html_pics(t)
+    body = re.sub(r'<!--(?!\s*(?:IMAGE|EMBED)).*?-->', '', t, flags=re.S)
     links = [(norm(u), x) for x, u in MD_LINK.findall(body) if not u.startswith('Pictures/')]
     pics = len(MD_IMAGE.findall(body))
     return links, pics
@@ -66,7 +72,7 @@ def read_file(path):
         return links, pics
     t = pathlib.Path(path).read_text(encoding='utf-8')
     if p.endswith(('.html', '.htm')):
-        return [norm(h) for h, _ in HTML_A.findall(t)], len(set(HTML_IMG.findall(t))) + len(set(EMBED.findall(t)))
+        return [norm(h) for h, _ in HTML_A.findall(t)], html_pics(t)
     return [norm(u) for _, u in MD_LINK.findall(t)], len(MD_IMAGE.findall(t))
 
 

@@ -1,0 +1,45 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Optional Ready-Made Gut Stacks\nI don't think there's one supplement stack that heals everyone's gut.",
+  "Whatever you take, the order matters.",
+  "Get your digestion working mechanically first, then change what and when you eat, and only go after bugs and parasites with antimicrobials if you still have symptoms after that."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph follows a tidy caveat–principle–instructions structure that can feel model-polished, although its conversational language makes that impression weak. Nothing here reliably establishes AI authorship."
+  ],
+  "haiku": [
+   "Each sentence is short and evenly weighted, and the paragraph moves in a clean claim-then-procedure build. Its voice stays measured and general with no concrete example, which gives it a smooth, generated feel."
+  ],
+  "sonnet": [
+   "The paragraph is built as three even, self-contained statements (a disclaimer, a slogan, a stepwise rule) with no digression, example, or personal detail, so it reads like a polished summary rather than someone thinking aloud. Its rhythm moves from short to long in a smooth, predictable arc."
+  ]
+ },
+ "human_clean": []
+}
