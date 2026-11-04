@@ -109251,7 +109251,7 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/pangram-ledger.jsonl",
-          "sha256": "79d81490a075499410327f44ae2286c20e017d99b158868e4d20cee850774348",
+          "sha256": "0766a696222502679c0552f686d2def5e25125d7805bdbbdc24e1105c0731c7a",
           "role": "humanization_working_record"
         },
         {
@@ -111312,6 +111312,36 @@
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r05/checks/texts/r05-fuel-acids-3-with-glutamine.txt",
           "sha256": "832d3c02cf42e6c5be469edcfee4a035b1afac5f84f1dad1ba659d25af19ef6e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r05/b5/REVIEW-CARDS.md",
+          "sha256": "d546293de4c30eb40d192a14b1739b5183b9863ccaf4d6b4d48fa88211f5419a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r05/b5/REVIEW-PAGE.artifact.html",
+          "sha256": "4f948cf12e4fa63b77c3c0443280703f854eacb248715f26960a908c79bc8658",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r05/b5/REVIEW-PAGE.html",
+          "sha256": "deead904ba7bd977474d99d78a6eb8f8f9e07f0e25c7130d50b6e1b219388b12",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r05/b5/REVIEW.json",
+          "sha256": "3fd6dd6b64a8d53c779a8a3f90774d335e34b834a9324ab62363c0da766097ab",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r05/b5/build_review.py",
+          "sha256": "9fa6e8c60734998a05fb54a3324a9c5927f40920fe9d9ad04871310b03941071",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r05/checks/RESULTS-acids3.json",
+          "sha256": "071367795378a51b9dc8c24f1bf370eccd4debd78cb63f8b85b3f6842479c303",
           "role": "humanization_working_record"
         }
       ]

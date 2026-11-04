@@ -1,0 +1,61 @@
+{
+ "r05-fuel-acids-3-with-glutamine": {
+  "sha256": "832d3c02cf42e6c5be469edcfee4a035b1afac5f84f1dad1ba659d25af19ef6e",
+  "words": 234,
+  "prediction_short": "Mixed",
+  "fraction_human": 0.538190484046936,
+  "fraction_ai": 0.46180954575538635,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/f8182d0b-8131-492f-a01b-6e265dc55ee2",
+  "windows": [
+   {
+    "label": "Human Written",
+    "confidence": "High",
+    "words": 22,
+    "text": "L-Glutamine (watch Dr. Rhonda vid) is the main fuel for your enterocytes, and for your immune cells when they're activated."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "Low",
+    "words": 14,
+    "text": " It doesn't have to go through the complicated digestive steps other nutrients do."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "words": 30,
+    "text": " Inside the mitochondria, it gets turned straight into alpha-ketoglutarate, or α-KG. The α-KG goes into the citric acid cycle, which is how the mitochondria make their energy."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "Low",
+    "words": 16,
+    "text": " So that's why consuming pure glutamine gives energy to those cells faster than eating food."
+   },
+   {
+    "label": "Human Written",
+    "confidence": "Medium",
+    "words": 74,
+    "text": " They then use their extra energy to repair the gut lining by pulling the tight junctions together, and that keeps LPS from getting through. Glutamine also provides nitrogen to help build new cells.\nMalic and citric acid (which make green apples and tart cherries sour) are made and used partway round that same cycle, also called the TCA or Krebs cycle, so in theory they're a quick energy source for your enterocytes too."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "words": 25,
+    "text": " But nobody has shown that eating them gives those cells much extra fuel on top of the glutamine. They do help you absorb iron, though."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 50,
+    "text": " In one study, people absorbed two to three times as much of the iron in a rice meal when 1 g of pure malic or citric acid was mixed in (Gillooly et al., 1983), probably because the acids help keep the iron dissolved so the gut can take it up."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "words": 12,
+    "text": " So something sour with an iron-rich meal is worth having anyway."
+   }
+  ]
+ }
+}
