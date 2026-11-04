@@ -1,0 +1,22 @@
+{
+ "about": "his answers to Neuro De-Armoring Cards, 4 November (2): Y-83b his version, W-17 approved; 6a, nothing to change",
+ "answers": "ANSWERS-20261104-1352.json",
+ "his_check": "https://www.pangram.com/history/6716a87f-8df3-4107-ab4c-5df53a83ef6d",
+ "before_sha256": "3c68e8e22cc19e0b04cb2486f7938740b35751ddf1bcbd8ff364418d96b92fe0",
+ "after_sha256": "c73f5b5d60af29c0ee8da9f89cfd8f0409befdfcfa4a21c9a006373f352c7937",
+ "cards": [
+  {
+   "id": "Y-83b",
+   "block": 83,
+   "how": "his version",
+   "fidelity_change": {}
+  },
+  {
+   "id": "W-17",
+   "block": 17,
+   "how": "approved",
+   "fidelity_change": {}
+  }
+ ],
+ "fidelity_pass": true
+}

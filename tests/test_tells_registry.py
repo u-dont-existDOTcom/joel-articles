@@ -78,10 +78,11 @@ class RegistryShape(unittest.TestCase):
         # recipe") from his second account's history, read at his invitation on 2026-11-02 21:59 UTC; W113 (O61, a dose as a
         # label and its spec) from his three neuro de-armoring examples of 2026-11-03 17:48 UTC (E335); W114 and W115 (O62 a
         # curly quote mark, O63 an em dash) from his message of 2026-11-03 22:02 UTC (E337 (gut), the standard swap); W116 (O46 "one
-        # ordinary") and W117 (X1 "X does not Y") from his bad trips guide answers of 2026-11-03 18:59 UTC
-        self.assertEqual(len(ids), 185)
+        # ordinary") and W117 (X1 "X does not Y") from his bad trips guide answers of 2026-11-03 18:59 UTC; W118 (O64, a
+        # negation and its contrast as two sentences) from his neuro de-armoring answer of 2026-11-04 13:53 UTC (E352)
+        self.assertEqual(len(ids), 186)
         self.assertEqual(len(set(ids)), len(ids))
-        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 117)
+        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 118)
         for t in TELLS:
             with self.subTest(id=t['id']):
                 self.assertIn(t['kind'], ('mechanical', 'judgment'))

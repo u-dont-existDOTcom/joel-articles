@@ -178,6 +178,17 @@ B11_NOT_ITS = re.compile(r"(?:(?:^|[,;:]\s*|\b(?:and|but|so|because)\s+)(?:" + _
                          r"(?!\s+until\b)[^.?!,;:]{1,80}"
                          r"|^not\s+(?:a|an|the|just|only|really|about|because|for|some|my|your|our|their)\b(?:\s+[\w'-]+){1,5})"
                          r"[.?!]['\"]?\s+" + _B11_FRAME + r"\b(?!\s+not\b)", re.I)
+# O64 (Joel, 2026-11-04 13:53 UTC, on Scott's paragraph in the neuro de-armoring protocol, whose "You can't tell from this
+# whether UMP rebuilt his D3 receptors overnight. It does suggest that ..." read Human only at Low confidence: "the only
+# change i needed to flip the low conf human all to high conf was to merge the sentences with a ", but" ... again it's the
+# way it flows. Ai says stuff like "It doesn't X. [But is implied] Blah blah blah"; gate E352). A statement with a negated
+# verb ends, and the next sentence opens on the same subject with the contrast's verb, unnegated ("It does", "That can").
+# His fix joins them with ", but". The joined "Not X, but Y" is no fix to reach for every time either ("we shouldn't
+# overuse that either, but sometimes it is the most clear and natural way to phrase it").
+O64_SPLIT_BUT = re.compile(r"\b(?:can't|cannot|can not|couldn't|could not|doesn't|does not|don't|do not|didn't|did not|isn't|is not|"
+                           r"aren't|are not|wasn't|was not|won't|will not)\b[^.?!]{0,160}[.?!]['\"]?\s+"
+                           r"(?:it|that|this|they|what it)\s+(?:does|do|did|can|could|just|still)\b(?!\s+not\b|n't)",
+                           re.I)
 B11_POINT_IS = re.compile(r"^the\s+(\w+)\s+(?:is|was)(?:\s+not|n't)\b[^.?!,;:]{1,80}[.?!]['\"]?\s+the\s+\1\s+(?:is|was)\b(?!\s+not\b)", re.I)
 CONTRAST = [r"\b(isn't|is not|wasn't|aren't|not)\b[^.?!]{0,50}\b(it's|it is|they're|but)\b",
             r"\brather than\b", r"\binstead of\b", r"doesn't mean[^.?!]*\bmeans?\b", r"\bIt's tempting\b",
@@ -1186,6 +1197,16 @@ def main():
                 flag('FAIL', 'O62 a curly quote mark (E337 (gut)): straighten it, with tools/humanization/typography_swap.py', s)
             if '\u2014' in s:
                 flag('FAIL', 'O63 an em dash (E337 (gut)): his spaced en dash, " \u2013 ", with tools/humanization/typography_swap.py', s)
+            # O64: a negation and its contrast in two sentences ("You can't tell X. It does suggest Y."; gate E352)
+            # an instruction ("Don't start it on the same day. It is a separate variable.") is no negated statement, and a contrast
+            # said with "though" in the next sentence is his own move ("Uridine isn't for everyone with depression. It could be
+            # helpful, though, for folks that show ...", his "Who this is for", Human (High))
+            q64 = None if re.match(r"\W*(?:don't|do not|never|please)\b", n, re.I) or \
+                (nxt and re.search(r"^(?:\W*\w+){0,8}?[,\s]+though\b", nxt, re.I)) else spans_next(O64_SPLIT_BUT.search(pair))
+            if q64:
+                flag('FAIL', 'O64 a negation, then its contrast as a new sentence ("You can\'t tell X. It does suggest Y."; Joel '
+                     '2026-11-04: "Ai says stuff like \"It doesn\'t X. [But is implied] ...\""): join them with ", but", the way '
+                     'he did', q64)
             # O44 (Joel, 2026-10-21 17:56, on the hypnosis guide's return steps, where "one honest action" among what you go back to
             # had read AI in every wording of his: "especially "ONE HONEST ACTION" sounds super ai. i never heard a real person say
             # that in my life.").

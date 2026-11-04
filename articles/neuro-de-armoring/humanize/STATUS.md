@@ -1,5 +1,76 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-04, after Joel's message of 14:28 UTC ("pr 290 has conflicts")
+
+**The mailbox first** (`state/mailbox/claude-community-joel-1018.json`, "2026-11-04 14:28"). 292 (Inner Child turn 122)
+had merged at 14:27 with its own records in state/MAILBOX.json, and this branch still carried two records of its own
+there (12:06 and 13:53, written before its switch to its own file), so the shared file conflicted again on GitHub, where
+main's merge driver doesn't run. Main merged (1d12842c); the branch's two records moved to its own file and the shared
+file set to main's content. `lane_mailbox.py settle` does that, and `lane_push.py` runs it before every push, so a lane's
+pull request never changes the shared file (a test in `tests/test_lane_mailbox.py`; AGENTS.md). Nothing in the article
+changed. Delegations: none.
+
+## 2026-11-04, after Joel's answers of 13:53 UTC (his Scott paragraph, W-17, "290 has conflicts", "6a"): his version in; the conflict fixed; O64
+
+His message, word for word: `fix-20261104/joel-20261104-1353-message.txt`; his answers: `fix-20261104/cards/ANSWERS-20261104-1352.json`.
+**The mailbox first** ("2026-11-04 13:53"); since 12:06: 289 (gut r05) merged 12:16, 288 (Inner Child) 12:37, 291 (gut r06)
+13:54, with its merge driver for state/MAILBOX.json (`tools/humanization/mailbox_merge.py`).
+
+**290's conflicts** were state/MAILBOX.json, which every lane wrote each turn: main merged twice this turn (7d85d2dd,
+c3392a5f), the mailbox merged with main's driver, the gate's numbering notes taken from main (the gut lane's E351; next
+E353 after this lane's E352). So that another lane's merge no longer puts this lane's pull request in conflict,
+`lane_mailbox.py` now records each lane in its own file, `state/mailbox/<branch>.json` (state/MAILBOX.json stays the
+history, its checks still count; main's merge driver still merges it); `lane_push.py` stages the lane's file; tests in
+`tests/test_lane_mailbox.py`; AGENTS.md says it. The driver can't help on GitHub, where no merge driver runs.
+
+**His answers in** (`fix-20261104/cards/apply_cards_x1104c.py`, APPLIED-CARDS-C.json): Y-83b his version as he wrote it
+(he checked it: [Human Written, 0.0% AI](https://www.pangram.com/history/6716a87f-8df3-4107-ab4c-5df53a83ef6d), every
+window High; not checked again), W-17 approved; 6a: the five lines stay. 3c68e8e2 to c73f5b5d. Fidelity PASS (no key
+changed), the comparison gate PASS (his words; W-17's sentence read by me, `fix-20261104/cards/read-c/`).
+
+**What his version does** (`fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md`, "His fifth version"; lesson E352): the negation
+and its contrast in one sentence, joined with ", but". `tells_lint.py` O64 fails the split form ("You can't tell X. It
+does suggest Y."), not an instruction or a next sentence with his "though"; tells registry W118. On the article as it
+stands it flags nothing; on his post it flags the sentence he fixed.
+
+Questions page: 6 answered, none open (version 8). Predictions: none this turn (his check stands). Delegations: none.
+
+## 2026-11-04, after Joel's answers of 12:06 UTC (all 12 cards approved; "5a"): the cards in; 82's Low window fixed; 83's to him
+
+His message, word for word: `fix-20261104/joel-20261104-1206-message.txt`; his answers: `fix-20261104/cards/ANSWERS-20261104-1205.json`.
+**The mailbox first** ("2026-11-04 12:06"): pull request 287 merged by Joel at 11:36 UTC; the branch fast-forwarded to
+main 999d6b91; new since: 289 (Healing the Gut r05, open; its E347 to E349, and an AGENTS.md change in its code review rules).
+
+**The 12 cards in** (`fix-20261104/cards/apply_cards_x1104.py`, APPLIED-CARDS.json): each after-text as the card showed it;
+the fidelity check's difference before and after each card recorded in FIDELITY-KEYS.json's new "owner_changes" with the
+card's id (7 cards changed keys: Y-82's "cautious extrapolation", W-15's MAOIs and relapse line, W-125's clinician
+exception, W-68's PS numbers, W-111's "must", W-112's "dangerous", W-154's L-serine comparison and keto sentence);
+`fidelity_keys.py` reads them as his (a test in `tests/test_fidelity_keys.py`). My comparative read of the changed
+paragraphs (E284, E294; `fix-20261104/cards/read/READ-RECORD.json`): three findings at severity 1, fates recorded.
+e5ead544 to 46c8485f. Fidelity PASS, the comparison gate PASS.
+
+**5a, two more tries each** (`fix-20261104/q5/`; checks x1104h and x1104i; lineages ND1104-B082b and ND1104-B083b):
+- block 82: Codex's whole rewrite (`fix-20261104/rewrite-b082/`), [AI Detected, 62.4% AI](https://www.pangram.com/history/20dbe991-0598-4827-b42d-a55a4ef92a81);
+  my second, only the Low sentence changed, [Human Written, 0.0% AI](https://www.pangram.com/history/426bed99-5f7e-4c53-866c-6917c4c0c8cd)
+  (High, Medium, High). In (`fix-20261104/q5/apply_q5.py`): 46c8485f to 3c68e8e2.
+- block 83: my rewrite of its last three sentences, [AI Detected, 84.6% AI](https://www.pangram.com/history/e8b5de85-2203-4504-b915-cd94e9fbf63e);
+  only its "It does suggest" sentence changed, [AI Generated, 99.99% AI](https://www.pangram.com/history/7a054118-a4e0-411a-b9fa-3efb1ebf7850), the
+  untouched sentences with it. The card's version (Codex's) stays; its Low window is card Y-83b, for his help.
+- Lesson E350: a Low window in a paragraph that reads Human is fixed in that window's sentence only, and a one-sentence
+  change that moves untouched sentences goes to him. His rule on Low and Medium windows is in AGENTS.md beside E278.
+
+**The rest of the warnings**: W-17 (5-HTP and uridine "can change brain sensitivity quickly", said "in practice") is a
+card; question 6 asks about the five "your call" lines (W001, W034 to W036, W053), my advice keep. The other "keep, or
+soften" lines stay as they are, since each softening would narrow a real caution: lithium in the 5-HTP list (W014; a
+review lists it), the same-day-psychedelics clauses (W016, W049, W063, W083: the firm names are already there), the 5-HTP
+side effects (W043: nausea and stomach upset are its common ones), iboga's "most medications" (W002: a reader can't check
+which drugs share CYP2D6 or prolong QT).
+
+[Neuro De-Armoring Cards, 4 November (2)](https://claude.ai/artifact/TBrnTti2G9V4fBvC357cTy) (version 3 of that page;
+`fix-20261104/cards/build_page_x1104c.py`, REVIEW-X1104C.md; browser test 62 of 62). Questions page: 5 answered, 6 open
+(version 7). Predictions: 4 (x1104h 2, x1104i 2), all right. Delegations (model, piece, check, outcome): Codex on the laptop, the rewrite of
+block 82 (check: Pangram; not used, 62.4% AI). The rest was mine.
+
 ## 2026-11-04, after Joel's answers of 10:39 UTC ("3a 4a"): 3a in; both uridine paragraphs Human; ten warnings cards
 
 His message, word for word: `fix-20261104/joel-20261104-1039-message.txt`. **The mailbox first** (`state/MAILBOX.json`,

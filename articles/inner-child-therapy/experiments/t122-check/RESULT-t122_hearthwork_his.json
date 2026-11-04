@@ -1,0 +1,39 @@
+{
+ "name": "t122_hearthwork_his",
+ "task_id": "ef8fa0df-b85e-47c4-9c65-c3a2a6adaf7b",
+ "result": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Hearthwork: Taking Turns Lending & Borrowing Adulthood\nHearthwork is what I call my peer-counseling framework, which combines various other frameworks I’m familiar with. The basic premise is, peers take turns of equal length to privately listen to each other with respect and warm, positive regard. They don’t try to interpret what’s really going on, give advice, or fix the other person’s life in the session.\nThis is a “middle path” kind of relationship, that threads itself between ordinary friendship (so you’re not “clienting” to your friends) and professional therapy (which gets saved for the more severe issues). Modern life rarely gives us anything like this, and your little one might really need it.\nIt also helps us with the borrowed adulthood practice. When you take turns listening with a good peer, on an equal footing, their warmth and the way they hold space for you are ideal for borrowing the Nurterer role and what that feels like. The Protector role can also be borrowed from the way they keeping what you say private, and the way you both stop when the turn’s time is up.\nBut they don’t act as your Guide, or decide what your experience means. Maybe they’re thinking, “Oh, I know what this is about,” or “Here’s what you should do.” It’s hard sometimes, but they agree to keep that to themselves during the session. Instead of telling you what to do, they might ask the right question at the right moment so you can hear your own Guide. There’s also no pressure to answer. Then you trade places, and it’s your turn to keep “Here’s what you should do” to yourself.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 2.3951039026049816e-33,
+  "fraction_ai_assisted": 0.0,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "Hearthwork: Taking Turns Lending & Borrowing Adulthood\nHearthwork is what I call my peer-counseling framework, which combines various other frameworks I’m familiar with. The basic premise is, peers take turns of equal length to privately listen to each other with respect and warm, positive regard. They don’t try to interpret what’s really going on, give advice, or fix the other person’s life in the session.\nThis is a “middle path” kind of relationship, that threads itself between ordinary friendship (so you’re not “clienting” to your friends) and professional therapy (which gets saved for the more severe issues). Modern life rarely gives us anything like this, and your little one might really need it.\nIt also helps us with the borrowed adulthood practice. When you take turns listening with a good peer, on an equal footing, their warmth and the way they hold space for you are ideal for borrowing the Nurterer role and what that feels like. The Protector role can also be borrowed from the way they keeping what you say private, and the way you both stop when the turn’s time is up.\nBut they don’t act as your Guide, or decide what your experience means. Maybe they’re thinking, “Oh, I know what this is about,” or “Here’s what you should do.” It’s hard sometimes, but they agree to keep that to themselves during the session. Instead of telling you what to do, they might ask the right question at the right moment so you can hear your own Guide. There’s also no pressure to answer. Then you trade places, and it’s your turn to keep “Here’s what you should do” to yourself.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.3951039026049816e-33,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 1585,
+    "word_count": 288,
+    "token_length": 349,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     2.3951039026049816e-33
+    ],
+    "calibrated_confidence": 0.9989804839749133
+   }
+  ],
+  "dashboard_link": "https://www.pangram.com/history/271b89ee-5c56-40eb-8eed-d910a238b3d5"
+ }
+}

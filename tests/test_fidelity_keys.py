@@ -83,6 +83,22 @@ class FidelityKeys(unittest.TestCase):
         with self.assertRaises(ValueError):
             fk.check(dict(self.keys, owner_wording=[{'his': 'x', 'for': 'not a key', 'unit': unit, 'by': 'X-84'}]), MASTER)
 
+    def test_what_his_approved_card_changed_is_his_and_nothing_else(self):
+        """2026-11-04: he approved cards that cut warnings and changed a dose the studies support; the check reads those
+        changes as his once each is recorded with the card that made it, and still fails on anything else."""
+        draft = MASTER.replace('Cap at 1 g/day unless clinician-supervised.', 'Cap at 1 g/day.').replace('150–300 mg', '200 mg')
+        r = fk.check(self.keys, draft)
+        self.assertFalse(r['pass'])
+        change = {'by': 'ANSWERS.json, card W-1', 'numbers_lost': r['numbers_lost'], 'numbers_new': r['numbers_new'],
+                  'terms_lost': r['terms_lost'], 'keys_lost': {u['id']: u['missing'] for u in r['warnings_lost']}}
+        keys = dict(self.keys, owner_changes=[change])
+        r2 = fk.check(keys, draft)
+        self.assertTrue(r2['pass'], r2)
+        self.assertEqual(r2['owner_changes'], ['ANSWERS.json, card W-1'])
+        self.assertFalse(fk.check(keys, draft.replace('400mg', '300mg'))['pass'])          # another change still fails
+        with self.assertRaises(ValueError):
+            fk.check(dict(self.keys, owner_changes=[dict(change, by='')]), draft)
+
     def test_what_his_version_left_out_is_held_open_not_passed_or_lost(self):
         his = MASTER.replace('5-HTP, agmatine or', 'agmatine or')
         self.assertIn('5-HTP', fk.check(self.keys, his)['terms_lost'])
