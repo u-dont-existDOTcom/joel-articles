@@ -2448,8 +2448,27 @@ His message, word for word: `articles/neuro-de-armoring/humanize/fix-20261104/jo
   number ("Do not push through.") keeps its own words, since they are what its warning word applies to. The comparative
   read beside his post (E284, E294) checks the meaning. Every humanizing lane can set it; don't ask him again whether
   words may change.
+- **E359. When a text sorts things into groups, read every item against every group: an item in two groups says how it
+  belongs to both, or it's a contradiction.** Joel, 2026-11-04 22:26 UTC, on the neuro de-armoring 5-HTP stop signs
+  (Neuro De-Armoring Cards, 4 November (4), Y-92), which had read AI in five versions, four of mine and Codex's: "again the
+  logic problem, you listed dangerous symptoms and less dangerous symptoms which overlapped". The protocol's two lists
+  shared sweating, tremor and agitation. His version says the overlap: "Other stop signs include less dangerous symptoms
+  (some of which are part of serotonin syndrome, but not dangerous alone)". It also leads with the dangerous pattern as
+  what to watch out for and why ("The most dangerous symptoms to watch out for are diagnostic of serotonin syndrome, which
+  can be deadly if untreated"), and that conversational opening alone read Human with the overlap left in ("just the more
+  conversational intro fixed it"). Every tell-panel reader had called the paragraph "a two-tier checklist", and I kept
+  both lists as the protocol's (E336); the shape they named hid a flaw of sense in the original itself, which a rewrite
+  carries over unless someone reads for it. How I could have seen it: the logic audit compares a rewrite with its original
+  and can't see a flaw both share, so read the original's own logic too before drafting: every item of a list of
+  kinds, tiers, dos and don'ts, or safe and unsafe against the other lists in the same passage
+  (`tools/humanization/reviewer/logic_audit_brief.md` now asks for it). The same answers, Y-93: a warning made into its
+  reason ("Serotonin syndrome usually comes from mixing 5-HTP casually with anything else that raises serotonin": "made it
+  clear to start with rather than a warning for no reason", E357's point first), the repeat cut, and an exclamation mark
+  after a case story that earns one ("added an exclamation mark where it needed to be after that crazy story and now it's
+  high conf human"). Where it's written down: the lane's `fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md`, versions twelve
+  and thirteen.
 
-(E342, E345, E347 to E349 and E351 are the gut lane's, in its section above. The next lesson in either lane is E353.)
+(E342, E345, E347 to E349 and E351 are the gut lane's, in its section above. The next lesson in either lane is E360.)
 
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)

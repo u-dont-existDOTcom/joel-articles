@@ -18,6 +18,10 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-04, after Joel's answers of 22:34 UTC on Cards (4): both his versions in (one word of his Y-93 fixed, on
+  Cards (5)); lesson E359; the ATP section's first paragraph drafted and predicted, not checked.** HUMANIZED-SO-FAR.md is
+  bef55334. No Pangram check ran this turn: the fetch of his four links asked for an approval nobody answered, so the lane
+  made no other call that might need one. See the Next step.
 - **2026-11-04, after Joel's message of 20:19 UTC ("so then are we done can we publish it?"): not yet; the whole article
   is in a temporary Substack draft, but his extension read "Daily limit reached"; the 5-HTP interactions paragraph is in,
   the stop signs went to him.** HUMANIZED-SO-FAR.md is 301782b9. 7 of the article's 160 paragraphs read Human by themselves
@@ -97,7 +101,28 @@ All of the article is his published post. His queue's rule: "Paragraphs that alr
 stay exactly as they are." Everything else is rewritten in his register and reaches him as cards, each tested first. The
 Scott passages, the introduction and the D-serine paragraph in Part 4 sound most like him.
 
-## Next step (2026-11-04, after Joel's message of 20:19 UTC: the whole check once his extension is on his other account)
+## Next step (2026-11-04, after Joel's answers of 22:34 UTC on Cards (4))
+
+Done (STATUS.md's entry for 2026-11-04 22:34 has every file and number). Waiting on him: card Y-93b on Neuro De-Armoring
+Cards, 4 November (5) (`fix-20261104/cards/REVIEW-X1104F.md`; sent to him as a file, not yet published as a page; review
+id neuro-de-armoring-cards-20261104-x1104f), the extension's account switch for the whole check, and the merge of this
+turn's pull request.
+
+Next:
+1. **The checks this turn couldn't run** (Pangram's web app, Claude in Chrome in his Brave, `pangram_page_helpers.js`,
+   then `checks/record_gui.py`): batch x1104u, predicted (ND1104-B093b#107, his Y-93 with "MedlinePlus" out; ND1104-B095#108,
+   the ATP paragraph's first try), and his four links from Cards (4) read back from his history, each text's SHA-256 matched
+   with ANSWERS-20261104-2234.json (Y-92 his first link; Y-93 his second, which has "MedlinePlus" in it). If b093b reads
+   below High where his read High, put his wording back with the case report's link on "case report" and say so on the
+   card. Publish Cards (5) as a page from the account the session runs in (`build_page_x1104f.py` made the files).
+2. **Before block 95 goes in**: read both of its sources (the ScienceDaily report of Gao 2025 and Calabrese 2024,
+   PMC11182043) and change a claim that doesn't hold, with a card saying why (E348). If it reads Human (High), it goes in
+   with an apply script like `next5/apply_b093.py` (the fidelity check, the comparative read beside his post); if AI, the
+   window's sentence is the next try's target. Then the rest of the ATP section one paragraph at a time (blocks 96, 97, 99,
+   100, 101; a paragraph under 50 words is checked with its neighbour), reading each list against the others first (E359).
+3. **The whole article's free check** (unchanged from the step below) when he says the extension is on his other account.
+
+## Earlier next step (2026-11-04, after Joel's message of 20:19 UTC: the whole check once his extension is on his other account)
 
 Done (STATUS.md's entry for 2026-11-04 20:19 has every file and number). Waiting on him: the extension's account switch,
 his answers on Neuro De-Armoring Cards, 4 November (4) (https://claude.ai/artifact/G7HN5K4HMTUEZPnbTaPmpk; Y-92, Y-93), and

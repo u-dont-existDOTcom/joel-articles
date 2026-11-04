@@ -1,0 +1,20 @@
+{
+ "b093b": {
+  "lineage": "ND1104-B093b",
+  "name": "his Y-93 with one word out (\"this MedlinePlus case report\" as \"this case report\"), as in the article",
+  "text": "Serotonin syndrome usually comes from mixing 5-HTP casually with anything else that raises serotonin, like antidepressants or MAOIs. Reviews keep warning about the risk with 5-HTP, like this case report, where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs and his forearm to relieve the pressure! Luckily he recovered. If you're doing psychedelics, avoid 5-HTP on your psychedelic days, and be especially strict around ayahuasca's harmala MAOI chemistry and around iboga or ibogaine.",
+  "chance": 0.75,
+  "why": "his version read \"high conf human\" in his check (https://www.pangram.com/history/67441215-b92b-4ca5-a6ff-86941d93f7c2); one word out of the middle sentence, which a Low window could feel (E350)",
+  "diagnosis": "not a fix for a reading: a fix of sense (the case report is not MedlinePlus's, E348); the check is that it still reads Human (High)",
+  "decides": "whether card Y-93b's wording stays in the article or his wording comes back while he decides"
+ },
+ "b095": {
+  "lineage": "ND1104-B095",
+  "name": "the ATP section's first paragraph, first try, his way",
+  "text": "Recent neuroscience (Tian-Ming Gao, et al, 2025) has shown in male mice that anxiety and depression are a result of reduced hippocampal ATP signaling. Calabrese, et al (2024) also showed that ketones and cutting down on carbs are highly effective for anxiety, depression and other mental illnesses. That's one study, but it's part of much broader research. So I'd trial 20mg of PQQ in the morning to boost ATP, with ketones, which your neurons can still burn for energy when they're struggling to burn sugar.",
+  "chance": 0.3,
+  "why": "his moves: the dose said as his own advice (\"So I'd trial\", his Y-88 \"I'd avoid\"); the post's \"both issues\" said as what each does (PQQ to boost ATP; ketones as the fuel neurons can still burn, the article's own Part 1 reasoning); \"one study that's part of much broader research\" as its own sentence joined with \", but\" (E352); the PQQand typo fixed; the linter's one flag is the protocol's list, recorded (E336)",
+  "diagnosis": "first try; the post's paragraph sat inside a 441-word AI (High) window in the baseline (n1102-07)",
+  "decides": "whether the paragraph goes in, or a second try aimed at the windows that read AI"
+ }
+}

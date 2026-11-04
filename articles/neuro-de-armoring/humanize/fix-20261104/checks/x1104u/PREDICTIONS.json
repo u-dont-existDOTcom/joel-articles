@@ -1,0 +1,24 @@
+[
+ {
+  "key": "b093b",
+  "name": "his Y-93 with one word out (\"this MedlinePlus case report\" as \"this case report\"), as in the article",
+  "lineage": "ND1104-B093b",
+  "scope": "paragraph",
+  "words": 104,
+  "call": "Human",
+  "chance": 0.75,
+  "why": "his version read \"high conf human\" in his check (https://www.pangram.com/history/67441215-b92b-4ca5-a6ff-86941d93f7c2); one word out of the middle sentence, which a Low window could feel (E350)",
+  "sha256": "7c2e0687ec91bda4183255080d7b9eaf062a3cc99e659a1cf0ecb2e513823492"
+ },
+ {
+  "key": "b095",
+  "name": "the ATP section's first paragraph, first try, his way",
+  "lineage": "ND1104-B095",
+  "scope": "paragraph",
+  "words": 85,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "his moves: the dose said as his own advice (\"So I'd trial\", his Y-88 \"I'd avoid\"); the post's \"both issues\" said as what each does (PQQ to boost ATP; ketones as the fuel neurons can still burn, the article's own Part 1 reasoning); \"one study that's part of much broader research\" as its own sentence joined with \", but\" (E352); the PQQand typo fixed; the linter's one flag is the protocol's list, recorded (E336)",
+  "sha256": "6f07df2be06d7af4817bdca7221c3355b5f6a89357cc553fc28b58e696dbb3c0"
+ }
+]

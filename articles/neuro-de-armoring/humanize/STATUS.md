@@ -1,5 +1,42 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-04, after Joel's answers of 22:34 UTC on Cards (4): both his versions in, one word of Y-93 fixed (Cards (5)); E359; the ATP section's first paragraph drafted and predicted; no Pangram check this turn
+
+His answers, word for word: `fix-20261104/cards/ANSWERS-20261104-2234.txt` (with the GH handoff line he pasted above the
+JSON) and `ANSWERS-20261104-2234.json` (both "revise"). The session started at 22:37 UTC, likely from his other account.
+**The mailbox first** ("2026-11-04 22:37"): pull request 302 merged at 21:13:28; the branch fast-forwarded to main
+(75f725a2); 293 (the gut lane) still open and changing `docs/HUMANIZATION-GATE.md`; no runtime notifications; the UDA lane
+unchanged (AGENTS.md blob 5160080, LESSON-INDEX 7896422). HUMANIZED-SO-FAR.md 301782b9 to bef55334.
+
+- **Y-92, the stop signs**: his version in as he checked it ("this is the fully human one i'd use"), the double space after
+  "blood pressure." made one. The protocol's "toxicity" (W045) is his "serotonin syndrome" (owner_changes).
+- **Y-93, the interactions**: his version in, with one word out: "this MedlinePlus case report" named the case report as
+  MedlinePlus's, and it is Patel and Marzella 2017 on PubMed Central. The article reads "like this case report", the
+  MedlinePlus page linked on his first words, "Serotonin syndrome". His first sentence says the hard interaction rule as
+  its cause (W046 in owner_changes; the explicit "Do not combine it with" stays in the warning near the top, block 35); the
+  MedlinePlus sentence is folded into the link (W048). Card Y-93b on Neuro De-Armoring Cards, 4 November (5)
+  (`cards/build_page_x1104f.py`, REVIEW-X1104F.md) says why. Script: `cards/apply_cards_x1104e.py`, APPLIED-CARDS-E.json;
+  the fidelity check passes.
+- **His links weren't read back.** The link fetch for his four Pangram links asked for an approval nobody answered, so the
+  lane made no other call that might need one: no web-app checks in his Brave, no artifact publish (Cards (5) went to him
+  as a file, and as the Markdown page on GitHub). Next turn: read his four links (Claude in Chrome, his history) and match
+  each text's SHA-256 with what he sent.
+- **What his versions do**: `fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md`, versions twelve and thirteen. Lesson E359
+  (`docs/HUMANIZATION-GATE.md`): when a text sorts things into groups, read every item against every group; an item in two
+  groups says how it belongs to both. `tools/humanization/reviewer/logic_audit_brief.md` now asks the logic audit for the
+  original's own logic too (SHARED findings), since a flaw both versions share passes a comparison.
+- **The ATP section, block 95** (`fix-20261104/next6/blocks/095.md`): the first try, his way: the post's "To address both
+  issues" said as what each does (PQQ to boost ATP; ketones as the fuel neurons can still burn, the article's Part 1
+  reasoning); the dose as his advice ("So I'd trial", like his Y-88's "I'd avoid"); "one study that's part of much broader
+  research" as its own sentence with ", but" (E352). The linter's one flag is the protocol's list (E125, recorded: E336);
+  the fidelity check passes after FIDELITY-KEYS.json's "PQQand" key (the post's typo for "PQQ and") was taken out
+  ("key_fixes"). The claims stay the post's: neither source is in CITATIONS.json, and the lane couldn't open them this turn;
+  read both before this paragraph goes in (E348: whether "highly effective for anxiety, depression and other mental
+  illnesses" is what Calabrese 2024 shows, and what Gao 2025 found in mice).
+- **Predictions** (batch x1104u, `checks/x1104u/`): ND1104-B093b#107 Human at 0.75 (Y-93 with the one word out), and
+  ND1104-B095#108 AI at 0.30 (the ATP paragraph). Not yet checked.
+- **Delegations**: none. The work this turn was his answers and one draft, all judgment.
+
 ## 2026-11-04, after Joel's message of 20:19 UTC ("so then are we done can we publish it?"): not yet; the whole article in a temporary Substack draft (his extension at its daily limit); the 5-HTP interactions paragraph in; the stop signs to him
 
 His message, word for word: `fix-20261104/joel-20261104-2019-message.txt`. **The mailbox first** ("2026-11-04 20:19"):

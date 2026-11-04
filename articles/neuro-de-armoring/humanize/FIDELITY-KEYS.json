@@ -130,7 +130,6 @@
   "PC",
   "PDE-5",
   "PQQ",
-  "PQQand",
   "PS",
   "PTSD",
   "SAM-e",
@@ -2322,10 +2321,64 @@
      ]
     ]
    }
+  },
+  {
+   "by": "fix-20261104/cards/ANSWERS-20261104-2234.json, card Y-92 (his version, 2026-11-04); his version as he checked it (\"the fully human one i'd use\"); the double space after \"blood pressure.\" made one",
+   "keys_lost": {
+    "W045": [
+     [
+      "toxicity"
+     ]
+    ]
+   }
+  },
+  {
+   "by": "fix-20261104/cards/ANSWERS-20261104-2234.json, card Y-93 (his version, 2026-11-04); his version with \"MedlinePlus\" taken out of \"this MedlinePlus case report\" (the case report is Patel and Marzella 2017 on PubMed Central, not MedlinePlus); the MedlinePlus page linked on \"Serotonin syndrome\"; to him on Cards (5), card Y-93b. His first sentence says the hard interaction rule (W046) as its cause, with no warning word (\"made it clear to start with rather than a warning for no reason\"); his version folds the MedlinePlus sentence (W048) into a link (\"i took out redundancy\")",
+   "terms_lost": [
+    "MedlinePlus"
+   ],
+   "keys_lost": {
+    "W046": [
+     [
+      "interaction"
+     ],
+     [
+      "5-HTP"
+     ],
+     [
+      "serotonin-raising"
+     ],
+     [
+      "casually"
+     ]
+    ],
+    "W048": [
+     [
+      "interaction"
+     ],
+     [
+      "MedlinePlus"
+     ],
+     [
+      "serotonin-syndrome"
+     ],
+     [
+      "overview"
+     ]
+    ]
+   }
   }
  ],
  "warning_words": {
   "rule": "meaning",
   "by": "fix-20261104/joel-20261104-1810-message.txt: \"8a not sure why you had to ask that, the whole point is rewording stuff here\" (his answer to question 8, 2026-11-04 18:10 UTC)"
- }
+ },
+ "key_fixes": [
+  {
+   "removed_term": "PQQand",
+   "why": "the post's typo for \"PQQ and\" in block 95 (\"20mg of PQQand ketones\"), taken as a term when the keys were made; \"PQQ\" stays a term, and both PQQ and ketones stay in the paragraph",
+   "date": "2026-11-04",
+   "by": "the lane, fixing its own key (Joel's standing preference: fix his obvious typos)"
+  }
+ ]
 }
