@@ -2318,6 +2318,31 @@ His message and his batch-1 page's answers, word for word: `articles/healing-the
   said, and why something comes where it does when it comes before the reader would want it, with his three fixes as
   examples. Before a draft goes to Pangram or to him, read it once more yourself as he did: does each sentence follow from
   the one before, and does each come when the reader wants it? This is E347's order, sentence by sentence.
+- **E353. The browser Claude in Chrome drives is not his Brave unless he says it is.** Joel, 2026-11-04 13:59 UTC, after
+  the whole-article check of r06: "i don't see anything opened in my brave ... you opened it in your own cloud browser",
+  with the result page he had found. I had opened the secret link through Claude in Chrome because the rules said his
+  extension was in Brave and to use Claude in Chrome "when it's connected"; the one browser connected (listed as "Browser
+  1", Linux) has the Pangram extension and his Pangram sign-in, but he can't see it, and its "Click to view full analysis"
+  opens the extension's side panel, which Claude in Chrome can't read (nor a page holding the extension's frame: it then
+  refuses every action on that tab). So:
+  - never call that browser his, or say he can see what it opens; it can give the label next to the author's name, which
+    is worth recording, but the full analysis comes from him;
+  - open the secret link in his own Brave from his laptop's shell, `brave-browser-stable '<link>'`, which opens a tab in
+    his running session ("Opening in existing browser session"), and ask him for the result page
+    (`https://www.pangram.com/feed/<uuid>`), which any headless browser can then read without a sign-in;
+  - a feed page keeps the text it first checked: r06's page still held r06's text after r07 was pasted, so a recheck's
+    result is a new page, never the old link.
+- **E354. The whole article doesn't decide: every window a smaller check showed is fixed before the article is checked.**
+  Joel, 2026-11-04 14:41 UTC: "no the whole article doesn't decide, we need to first fix any windows we can see before we
+  check the article". The stacks section, with its two paragraphs redone, read AI by itself through the API (5% human; 12
+  of its 13 windows AI, his own paragraphs' included), and I went on to the whole-article check anyway, writing to him
+  that the section alone was "a harsher test than the article, and the whole-article recheck decides". A window that
+  reads AI or Low in a smaller check is what the article can't be trusted to hide: the next segmentation, or the next
+  Pangram version, can show it again. So `pangram_ledger.py predict --scope article` now compares the article's text with
+  every lineage's latest check: a window that read AI, or Human at Low confidence, whose words (five or more) are still in
+  the article and that no later check read Human at Medium or High, refuses the article check until it is fixed or
+  `--windows-ok` says why it stays. An article check now needs `--text`.
+  (E353 and E354 follow pull request 290's E352, the neuro de-armoring lane's; the next lesson in any lane is E355.)
 
 (The Inner Child lane's turn-116 lessons, written at the same time, are E337 and E338 (Inner Child), near the top. This section's E337 and E338 keep their numbers too, because this lane's records cite them: cite them as "E337 (gut)" and "E338 (gut)". The Inner Child lane's turn-117 lessons, written after them, are E340 and E341, near the top, and this section's E342, E345, E347 to E349 and E351 came after those; the neuro de-armoring lane's E343, E344 and E346, written at the same time, are in its section after this one, with its E350 in its pull request 290. The next lesson in either lane is E352.)
 

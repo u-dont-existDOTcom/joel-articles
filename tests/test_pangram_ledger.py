@@ -175,6 +175,47 @@ class Ledger(unittest.TestCase):
         self.result('h1', 'Human')
         self.assertEqual(self.predict('h2', lineage='H', scope='stretch', diagnosis='its heading changed'), 0)
 
+    def test_an_article_check_waits_for_the_windows_a_section_check_showed(self):
+        """Joel, 2026-11-04 14:41 UTC: "no the whole article doesn't decide, we need to first fix any windows we can see
+        before we check the article" (the gut lane checked the article after its stacks section read AI alone, E354)."""
+        sec = 'I don\'t think there\'s one stack for everyone. Start with low doses of prebiotics and probiotics, then build up.'
+        self.assertEqual(self.predict(sec, lineage='S', scope='section', call='AI', key='sec'), 0)
+        res = self.dir / 'res.json'
+        res.write_text(json.dumps({'sec': {'sha256': L.sha256(sec), 'words': 19, 'prediction_short': 'AI',
+                                           'fraction_human': 0.05, 'version': '4.1',
+                                           'link': 'https://www.pangram.com/history/s1', 'windows': [
+                                               {'label': 'Human Written', 'confidence': 'High', 'words': 7,
+                                                'text': "I don't think there's one stack for everyone."},
+                                               {'label': 'AI-Generated', 'confidence': 'Medium', 'words': 12,
+                                                'text': ' Start with low doses of prebiotics and probiotics, then build up.'}]}}),
+                       encoding='utf-8')
+        self.assertEqual(L.main(['results', self.ledger, str(res)]), 0)
+        article = 'Intro words here.\n' + sec.replace("'", '’') + '\nMore words.'
+        sub = "pangram 4.1, Pangram's check of the Substack draft (free)"
+        base = ['predict', self.ledger, '--lineage', 'A', '--scope', 'article', '--call', 'Human', '--chance', '0.6',
+                '--tells', 'the stacks paragraph', '--detector', sub, '--decides', 'whether the article is done']
+        # the AI window is still in the article (curly quotes and all): refused
+        self.assertEqual(L.main(base + ['--text', self.text(article)]), 2)
+        # an article check without its text can't be compared, so it is refused too
+        with self.assertRaises(SystemExit):
+            L.main(base + ['--sha', L.sha256(article)])
+        # fixed: the window's words are gone, so it may go
+        fixed = article.replace('Start with low doses of prebiotics and probiotics, then build up.',
+                                'Go slow with prebiotics at first; they make most people gassy.')
+        self.assertEqual(L.main(base + ['--text', self.text(fixed)]), 0)
+        # or named, with why it stays
+        self.assertEqual(L.main(base[:3] + ['B'] + base[4:] + ['--text', self.text(article + ' x'),
+                                                                 '--windows-ok', 'his words; sent to him as a help request']), 0)
+        # a later check that reads the same words Human (Medium or High) clears the window
+        para = 'Start with low doses of prebiotics and probiotics, then build up.'
+        self.assertEqual(self.predict(para, lineage='P', key='para'), 0)
+        res.write_text(json.dumps({'para': {'sha256': L.sha256(para), 'words': 12, 'prediction_short': 'Human',
+                                            'fraction_human': 1.0, 'version': '4.1', 'link': 'https://www.pangram.com/history/p1',
+                                            'windows': [{'label': 'Human Written', 'confidence': 'High', 'words': 12,
+                                                         'text': para}]}}), encoding='utf-8')
+        self.assertEqual(L.main(['results', self.ledger, str(res)]), 0)
+        self.assertEqual(L.open_windows(L.read(self.ledger), article), [])
+
     def test_two_unexplained_misses_stop_the_lineage(self):
         self.predict('v1')
         self.result('v1', 'AI')

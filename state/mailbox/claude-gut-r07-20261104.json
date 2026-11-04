@@ -1,0 +1,81 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-04T13:59Z",
+   "lines_of_work": [
+    "gut article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); UDA main still c5c9951, its root AGENTS.md fetched this turn"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 12:57 UTC: this lane's pull request 291 merged by Joel at 13:54 UTC (this branch starts from main's tip, 97dbfdec); open: 292 (Inner Child), 280, 278 and older chat pull requests; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut since 291"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 13:59 UTC: the full analysis's link, and nothing opened in his Brave",
+     "outcome": "the feed page read and recorded with every window's confidence; the browser that labeled it was not his Brave, which the record now says"
+    }
+   ],
+   "recorded_utc": "2026-11-04T14:00Z"
+  },
+  {
+   "turn": "2026-11-04T14:41Z",
+   "lines_of_work": [
+    "gut article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items; UDA main still c5c9951, its root AGENTS.md fetched this turn"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 14:00 UTC: pull request 290 (neuro de-armoring) merged at 14:41 UTC with E352 and each lane's mailbox in its own file, 292 (Inner Child) merged at 14:27 UTC, both merged into this branch; open: 293 (this lane), 294 (Inner Child), 280 and older chat pull requests; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 14:41 UTC: the whole article doesn't decide; fix the windows we can see before checking the article",
+     "outcome": "the stacks section's windows narrowed and fixed before any article check; the rule made durable and enforced in pangram_ledger.py"
+    }
+   ],
+   "recorded_utc": "2026-11-04T14:43Z"
+  }
+ ]
+}

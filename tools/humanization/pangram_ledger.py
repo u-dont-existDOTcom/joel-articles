@@ -117,9 +117,66 @@ def is_miss(p):
     return bool(p['result']) and p['result'].get('right') is False
 
 
-def refusals(recs, rec):
-    """Why the budget rule (docs/PANGRAM-PRODUCTION-BUDGET-20261020.md) forbids this submission; empty means it may go."""
+def _norm(s):
+    s = (s or '').translate(str.maketrans({'‘': "'", '’': "'", '“': '"', '”': '"', ' ': ' '}))
+    return ' '.join(s.split())
+
+
+def open_windows(recs, text, min_words=5):
+    """E354 (Joel, 2026-11-04 14:41 UTC: "no the whole article doesn't decide, we need to first fix any windows we can see
+    before we check the article"): the windows the latest check of each lineage showed reading AI, or Human at Low
+    confidence, whose words are still in TEXT. Windows shorter than MIN_WORDS ("Dr.", "For H.") match anywhere, so they
+    are left to their longer neighbours. Returns (lineage, label, confidence, window text) for each."""
+    body, out = _norm(text), []
+    done = [p for p in state(recs).values() if p['result'] and not p['void']]
+    order = {id(r): n for n, r in enumerate(recs)}
+    done.sort(key=lambda p: order.get(id(p['result']), 0))
+    last = {}
+    for p in done:
+        last[p['lineage']] = p
+
+    def bad(w):
+        return str(w.get('label') or '').startswith('AI') or str(w.get('confidence') or '') == 'Low'
+
+    def cleared(words, after):
+        # a later check that read these words inside windows that are all Human at Medium or High
+        for p in done[after:]:
+            ws = [w for w in p['result'].get('windows') or [] if isinstance(w, dict) and w.get('text')]
+            full, spans = '', []
+            for w in ws:
+                t = _norm(w['text'])
+                start = len(full) + (1 if full else 0)
+                full = (full + ' ' + t) if full else t
+                spans.append((start, len(full), w))
+            i = full.find(words)
+            if i >= 0 and not any(bad(w) for s, e, w in spans if s < i + len(words) and e > i):
+                return True
+        return False
+
+    for lineage, p in last.items():
+        at = done.index(p) + 1
+        for w in p['result'].get('windows') or []:
+            if not isinstance(w, dict) or not w.get('text') or not bad(w):
+                continue
+            words = _norm(w['text'])
+            if len(words.split()) >= min_words and words in body and not cleared(words, at):
+                out.append((lineage, str(w.get('label') or ''), str(w.get('confidence') or ''), words))
+    return out
+
+
+def refusals(recs, rec, text=None):
+    """Why the budget rule (docs/PANGRAM-PRODUCTION-BUDGET-20261020.md) forbids this submission; empty means it may go.
+    TEXT is the submission's text, when predict has it."""
     out = []
+    # E354: an article check comes after every window the smaller checks showed is fixed, or named with why it stays
+    if rec.get('scope') == 'article' and text is not None and not (rec.get('windows_ok') or '').strip():
+        seen = open_windows(recs, text)
+        if seen:
+            out.append('%d window(s) an earlier check showed reading AI or Low are still in this article; fix them first, '
+                       'or give --windows-ok saying for each why it stays (E354; Joel, 2026-11-04 14:41 UTC: "we need to first '
+                       'fix any windows we can see before we check the article"):\n    ' % len(seen)
+                       + '\n    '.join('%s: %s %s: "%s"' % (l, lab, c, t[:90] + ('...' if len(t) > 90 else ''))
+                                       for l, lab, c, t in seen))
     if rec['call'] not in CALLS:
         out.append('the call must be Human or AI, not %r' % rec['call'])
     if rec.get('chance') is not None and not 0 <= rec['chance'] <= 1:
@@ -485,6 +542,7 @@ def universal_page(per_lane):
 
 def cmd_predict(a):
     recs = read(a.ledger)
+    text = None
     if a.text:
         text = pathlib.Path(a.text).read_text(encoding='utf-8')
         sha, words = sha256(text), len(text.split())
@@ -498,8 +556,10 @@ def cmd_predict(a):
            'human_tells': a.human_tells or [], 'diagnosis': a.diagnosis, 'decides': a.decides, 'key': a.key, 'batch': a.batch,
            'detector': a.detector, 'shading_expected': a.shading_expected, 'emulate_share': a.emulate_share,
            'after_fix': a.after_fix, 'paid_ok': a.paid_ok, 'narrowed': a.narrowed, 'panel': a.panel,
-           'try': len(line) + 1}
-    why = refusals(recs, rec)
+           'windows_ok': a.windows_ok, 'try': len(line) + 1}
+    if a.scope == 'article' and text is None:
+        raise SystemExit('an article check needs --text: its windows are compared with what the earlier checks showed (E354)')
+    why = refusals(recs, rec, text)
     if why:
         print('REFUSED: ' + '\n  '.join(why), file=sys.stderr)
         return 2
@@ -679,6 +739,8 @@ def main(argv=None):
                    'whose agreed tells this try fixes (tell_panel.py; E346)')
     p.add_argument('--after-fix', help='a section past its two tries: what the fix changed (his answer 28a, one more check '
                    'of the whole section after each fix)')
+    p.add_argument('--windows-ok', help='an article check while windows an earlier check showed reading AI or Low are still '
+                   'in it: why each stays (E354; Joel, 2026-11-04: fix the windows we can see before checking the article)')
     p.set_defaults(fn=cmd_predict)
     p = sub.add_parser('result')
     p.add_argument('ledger')
