@@ -22939,7 +22939,7 @@
         },
         {
           "path": "articles/inner-child-therapy/tools/pangram-ledger.jsonl",
-          "sha256": "e47a81e458a8b1d98ea9f6a78059ac3d974e0f2461030adf957ed81390e2f1e8",
+          "sha256": "7faed554b78769acdf9506ec5a82216b81d5ee26a0e1ccdc0dd795dd1dfcff36",
           "role": "humanization_working_record"
         },
         {
@@ -32650,6 +32650,36 @@
         {
           "path": "articles/inner-child-therapy/experiments/t118-apply/handoff_t118.py",
           "sha256": "f368fef3d82c4832aba7c081e22aeb0625994c2296677229391d315eb313710d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t119-substack/PAYLOAD-A.html",
+          "sha256": "f353b2b55f4bc14cf3ef5a5dc4e6c53d2941ca7d111e971b7e449cd03128b6e3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t119-substack/PAYLOAD-B.html",
+          "sha256": "6647f65cff2ce19e7ad5f5a7777562c465de52d42f60a71c709dc934b83494b5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t119-substack/PAYLOADS.json",
+          "sha256": "fff1ff975e6469c8e0852a90c18872d596885f8cc4df0742f5824a1a13f101c1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t119-substack/TEXT-A.txt",
+          "sha256": "d4f61321331052cfa563821e7e6ce75722e3df4c4a1bc1d5007141bd19897b29",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t119-substack/TEXT-B.txt",
+          "sha256": "3408303ab45880493a12d67a32e0a0909347eb1ca471b998ab06eba73d1768d4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t119-substack/make_payloads.py",
+          "sha256": "186ae5bece791bf0c26226619c94ad3e9bb9250821448bd589b0c7f1586b59c9",
           "role": "humanization_working_record"
         }
       ]

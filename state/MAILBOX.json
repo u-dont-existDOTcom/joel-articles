@@ -648,6 +648,41 @@
     }
    ],
    "recorded_utc": "2026-11-04T00:46Z"
+  },
+  {
+   "turn": "2026-11-04T00:51Z",
+   "lines_of_work": [
+    "inner child guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "2 items in suggested-fixes/joel-articles/, both already in docs/suggested-fixes-ledger.md; no new item; UDA still at c5c9951"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since turn 118's check (00:43 UTC): pull request 284 (this lane, turn 118) merged by Joel at 00:51 UTC, the lane fast-forwarded to main e3dc4332; no new issues, comments or reviews (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop's handoff note is byte for byte what turn 118's update made of it; no one else changed OWNER-QUESTIONS.md or HANDOFF-UPDATE.json"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "pull request 284 merged",
+     "outcome": "round 9's payloads go in a new pull request (lane_push --pr)"
+    }
+   ],
+   "recorded_utc": "2026-11-04T00:54Z"
   }
  ]
 }

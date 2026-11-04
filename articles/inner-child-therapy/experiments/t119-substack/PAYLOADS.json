@@ -1,0 +1,39 @@
+{
+ "source_sha256": "5e0fc05e0471d91c8cd12ba8150d065c6ca0eee63720d3180f6a31cd84a100f7",
+ "limit_chars": 95000,
+ "parts": [
+  {
+   "part": "A",
+   "payload": "PAYLOAD-A.html",
+   "text": "TEXT-A.txt",
+   "chars": 92470,
+   "words": 16668,
+   "payload_sha256": "f353b2b55f4bc14cf3ef5a5dc4e6c53d2941ca7d111e971b7e449cd03128b6e3",
+   "words_sha256": "bcb82168fb81d87b7346c4e0c9293d038802a1f9298aebbaee8f23d7f5357231",
+   "first": "Understanding Reparenting",
+   "h1s": [
+    "Understanding Reparenting",
+    "Safety and Readiness",
+    "Building Your Inner Adult",
+    "Practicing With Your Little One",
+    "Discovering and Healing Old Patterns"
+   ]
+  },
+  {
+   "part": "B",
+   "payload": "PAYLOAD-B.html",
+   "text": "TEXT-B.txt",
+   "chars": 66926,
+   "words": 11799,
+   "payload_sha256": "6647f65cff2ce19e7ad5f5a7777562c465de52d42f60a71c709dc934b83494b5",
+   "words_sha256": "d2b782cb6cd2a45bba74fb54983f7134919acf99a22034a89d651620372dfcc2",
+   "first": "When the Practice Gets Difficult",
+   "h1s": [
+    "When the Practice Gets Difficult",
+    "Altered States and Intensive Practice",
+    "Bringing Reparenting Into Real Life",
+    "Conclusion and Appendix"
+   ]
+  }
+ ]
+}
