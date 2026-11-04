@@ -1,0 +1,12 @@
+[
+ {
+  "id": "R5-ACID2",
+  "verdict": "PASS",
+  "issue": "The four listed changes are made, and made accurately: citric 0.028 to 0.085 and malic 0.048 to 0.095 fit \"two to three times\". LINK: \"(which make green apples and tart cherries sour)\". LINK: \"also called the TCA or Krebs cycle\". LINK: \"made and used partway round that same cycle\". Minor: \"gut epithelial cells\" became \"your enterocytes\", which ties back to glutamine's cells with \"too\". \"were the ones with more of these acids\" is a little firmer than \"contained appreciable amounts\"."
+ },
+ {
+  "id": "R5-ACID2b",
+  "verdict": "PASS (the checker's minor point applied)",
+  "issue": "\"were the ones with more of these acids\" softened to \"had a good amount of these acids in them\", the abstract's \"contained appreciable amounts\"; not re-run."
+ }
+]
