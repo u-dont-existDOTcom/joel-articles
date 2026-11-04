@@ -1,0 +1,25 @@
+[
+ {
+  "id": "R5-ACID3b",
+  "original": "- TCA Cycle Intermediates (Malic & Citric Acid): Organic acids like malate and citrate feed directly into the exact same mitochondrial energy pathways as glutamine. Consuming clean, sour profiles—such as organic malic acid, tart cherries, or green apples—provides rapid, alternative fuel to gut epithelial cells, accelerating mucosal healing from a different biochemical angle.",
+  "rewrite": "- Malic and citric acid (which make green apples and tart cherries sour) are made and used partway round that same cycle, also called the TCA or Krebs cycle, so in theory they're a quick energy source for your enterocytes too. But nobody has shown that eating them adds much to the fuel the glutamine already gives those cells. Where they do help is with iron, because they help keep the iron in your food dissolved so your gut can absorb it. In one study, people absorbed two to three times as much of the iron in a rice meal when 1 g of pure malic or citric acid was added to it, and the vegetables whose iron was absorbed well had a good amount of these acids in them ([Gillooly et al., 1983](https://pubmed.ncbi.nlm.nih.gov/6860621/)).",
+  "changed_points": [
+   {
+    "change": "the acids are no longer presented as a fuel that speeds up healing: \"in theory they're a quick energy source ... But there's no good evidence they add much next to glutamine\"",
+    "reason": "no study found showing dietary malate or citrate fuels the gut lining (research/ACIDS-CHECK.md)"
+   },
+   {
+    "change": "added: their better use is iron absorption, with the study and its numbers",
+    "reason": "Gillooly et al. 1983: 1 g citric acid raised non-haem iron absorption from 0.028 to 0.085, 1 g malic acid from 0.048 to 0.095"
+   },
+   {
+    "change": "\"clean\" and \"organic malic acid\" left out; the \"different biochemical route\" contrast left out",
+    "reason": "Joel: \"clean\" is too vague; with the acids no longer a fuel, the route comparison with glutamine has no job"
+   },
+   {
+    "change": "added how the acids raise iron absorption (\"they help keep the iron in a meal dissolved\") and the study's finding that well-absorbed vegetables had more of these acids",
+    "reason": "a newcomer reader asked how an acid raises absorption and whether food, not only the pure acid, does it (Gillooly et al. 1983's abstract: vegetables with moderate or good iron bioavailability contained appreciable amounts of these acids)"
+   }
+  ]
+ }
+]

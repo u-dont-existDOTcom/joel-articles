@@ -1,0 +1,25 @@
+{
+ "r05-fuel-acids-2": {
+  "sha256": "c8198ce44a8ad94625c93be0471a1c4d924755706b2858d13260e8603b79e2aa",
+  "words": 133,
+  "prediction_short": "AI",
+  "fraction_human": 3.6884837428829455e-15,
+  "fraction_ai": 1.0,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/7d62d99a-c834-41ab-b8e4-c4cb1dc5d7eb",
+  "windows": [
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "words": 41,
+    "text": "Malic and citric acid (which make green apples and tart cherries sour) are made and used partway round that same cycle, also called the TCA or Krebs cycle, so in theory they're a quick energy source for your enterocytes too."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 93,
+    "text": " But nobody has shown that eating them adds much to the fuel the glutamine already gives those cells. Where they do help is with iron, because they help keep the iron in your food dissolved so your gut can absorb it. In one study, people absorbed two to three times as much of the iron in a rice meal when 1 g of pure malic or citric acid was added to it, and the vegetables whose iron was absorbed well had a good amount of these acids in them (Gillooly et al., 1983)."
+   }
+  ]
+ }
+}

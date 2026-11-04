@@ -1,0 +1,62 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Malic and citric acid (which make green apples and tart cherries sour) are made and used partway round that same cycle, also called the TCA or Krebs cycle, so in theory they're a quick energy source for your enterocytes too.",
+  "But nobody has shown that eating them adds much to the fuel the glutamine already gives those cells.",
+  "Where they do help is with iron, because they help keep the iron in your food dissolved so your gut can absorb it.",
+  "In one study, people absorbed two to three times as much of the iron in a rice meal when 1 g of pure malic or citric acid was added to it, and the vegetables whose iron was absorbed well had a good amount of these acids in them (Gillooly et al., 1983)."
+ ],
+ "flagged": {
+  "1": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph moves very smoothly through explanation, possibility, caveat, practical benefit and supporting study, which can suggest machine polishing. These are weak stylistic signals shared by human science writing, not reliable evidence of authorship."
+  ],
+  "haiku": [
+   "The paragraph is evenly paced: each sentence makes a claim, then gives a \"because\" or \"so\" reason, and the pivots (\"But...\", \"Where...\") arrive on schedule, so it reads like a well-organised explainer rather than a writer's digression."
+  ],
+  "sonnet": [
+   "The paragraph follows a very even claim, caveat, benefit, evidence order (acids as fuel, doubt about that, the real payoff, then one study), with each sentence a similar length and fully tidy and balanced. Its voice stays neutral and explanatory with no personal angle, and the closing study sentence neatly wraps up the point."
+  ]
+ },
+ "human_clean": [
+  "partway round that same cycle",
+  "partway round",
+  "Gillooly et al., 1983",
+  "1 g of pure malic or citric acid",
+  "In one study, people absorbed two to three times as much of the iron in a rice meal when 1 g of pure malic or citric acid was added to it",
+  "(Gillooly et al., 1983)",
+  "made and used partway round that same cycle",
+  "that same cycle",
+  "partway round"
+ ]
+}

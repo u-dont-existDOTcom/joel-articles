@@ -900,6 +900,41 @@
    "recorded_utc": "2026-11-04T10:39Z"
   },
   {
+   "turn": "2026-11-04T11:32Z",
+   "lines_of_work": [
+    "gut article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); UDA main still c5c9951, its root AGENTS.md fetched this turn"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 10:52 UTC: this lane's pull request 286 merged by Joel at 10:54 UTC (this branch starts from main's tip, 22c6ba9d); open: 287 (neuro de-armoring, now holding E343, E344 and E346), 288 (Inner Child, no shared file), 280, 278; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut since 286"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's batch-4 answers and his message (11:32 UTC)",
+     "outcome": "his TCA version and his comments saved; his three rules (answer a reader's questions in the order they come; a supporting point that doesn't make the most sense can be changed, explained to him, the larger argument asked; test a paragraph with the nearby explanation it relies on instead of explaining twice) become E347 to E349 with their checks; the acids' point researched before the paragraph is redone"
+    }
+   ],
+   "recorded_utc": "2026-11-04T11:34Z"
+  },
+  {
    "turn": "2026-11-04T12:02Z",
    "lines_of_work": [
     "inner child guide"
