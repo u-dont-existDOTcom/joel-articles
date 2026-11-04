@@ -1,0 +1,54 @@
+{
+ "turn": 127,
+ "checked_at": "2026-11-04, about 17:25 to 17:45 UTC",
+ "post": {
+  "id": 189761959,
+  "url": "https://ibogaqueen.substack.com/p/inner-child-self-love-tips-and-guided",
+  "editor": "https://ibogaqueen.substack.com/publish/post/189761959",
+  "title": "Inner Child Self-Love Reparenting Guide 😊😺🧸😹❤️🙏🏿",
+  "subtitle": "You were born worthy of love. Reconnect. Reparent. Rise. Updated: Oct 3, 2026 New App coming soon."
+ },
+ "how": "The draft API (/api/v1/drafts/189761959) and the editor itself, read in the desktop app's browser pane, where his Substack is signed in; nothing changed.",
+ "draft": {
+  "draft_updated_at": "2026-11-03T22:29:23.548Z",
+  "same_as_turn_124": "yes: the post's updated_at in turn 124's snapshot (../t124-live/LIVE-POST-20261104-1520.json) is the same time",
+  "editor_nodes": 460,
+  "published_nodes": 459,
+  "types": {
+   "paragraph": 340,
+   "heading": 68,
+   "horizontalRule": 18,
+   "bulletList": 11,
+   "blockquote": 7,
+   "orderedList": 5,
+   "captionedImage": 4,
+   "youtube2": 3,
+   "digestPostEmbed": 2,
+   "video": 1,
+   "audio": 1
+  },
+  "heading_levels": {
+   "1": 19,
+   "2": 27,
+   "3": 20,
+   "4": 2
+  },
+  "doc_json_sha256": "b6c15e9701791c55e7be48a0995226c1a49ef1220a79e4f3577f55923e3d9bac"
+ },
+ "draft_not_published": "The editor's draft differs from the published post in five paragraphs of \"Your Loan is PRE-APPROVED!\", his own edits saved on 2026-11-03 and never published: \"(although please don't fall into the common trap of being grateful that you have what others...\", \"And I'm certainly not preaching \\\"prosperity philosophy,\\\"...\", \"when I got tuberculosis...\", \"how much this tribulation will help me...\", \"or get away from abusers\". Every one is in his reorganized guide and the article (under \"Your Loan is PRE-APPROVED!\" and \"Mo' Money, Mo' Problems\"), in their later versions, so the publish draft keeps them.",
+ "natives": [
+  "captionedImage 40c24f21 (the top chart)",
+  "audio bc40d36b (Key's meditation)",
+  "video f302980e (Céline Dion)",
+  "youtube2 4PxC3zZ2Mus",
+  "captionedImage 718d0e76 (the study chart)",
+  "digestPostEmbed somatic-modalities-strategic-sequencing",
+  "youtube2 4TYvq-d0-XM",
+  "digestPostEmbed treasuring-the-inner-childs-gift",
+  "youtube2 foHCbX0xjAU (start 0:54)",
+  "captionedImage c4ab39d5 (Cosmic Jackpot)",
+  "captionedImage 969adf28 (the demon drawing, caption \"Yep. Exactly like that.\")"
+ ],
+ "his_document": "His ODT (2026-11-03 21:00 UTC) has no block quotes and no dividers: Scott's quote is a plain paragraph, and the post's other six quoted lines are inline in his guide or gone from it; so the publish draft has neither (the post had 7 block quotes and 18 dividers).",
+ "october": "OCTOBER-CHECK.md: every point of the post's 18 October paragraphs is in the article, or was dropped before by his guide or a ruling of his."
+}
