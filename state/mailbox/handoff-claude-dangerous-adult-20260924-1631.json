@@ -92,6 +92,49 @@
     }
    ],
    "recorded_utc": "2026-11-04T15:01Z"
+  },
+  {
+   "turn": "2026-11-04T16:11Z",
+   "lines_of_work": [
+    "inner child guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "2 items in suggested-fixes/joel-articles/, both already in docs/suggested-fixes-ledger.md; no new item; UDA still at c5c9951"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since turn 124's check (15:00 UTC): pull request 295 (this lane, turn 124) merged by Joel at 16:03 UTC (main af929000, the lane fast-forwarded to it); pull request 296 opened by the neuro de-armoring lane at 15:16 UTC, open; 293 (gut) and 280 (bad trips) updated, still open; no new issues, comments or reviews (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop's handoff note is byte for byte what turn 124's update made of it (cmp with inbox/t113/note-test-t124.md); no one else changed OWNER-QUESTIONS.md or HANDOFF-UPDATE.json"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "pull request 295 merged",
+     "outcome": "turn 125's work goes in its own pull request (lane_push --pr)"
+    },
+    {
+     "item": "pull requests 296 (neuro de-armoring), 293 (gut) and 280 (bad trips), open",
+     "outcome": "not this lane's to review or merge; this turn changes no shared file except the records every push writes, unless his dash answer changes the standard swap"
+    },
+    {
+     "item": "Joel, 16:11 UTC: his answers on the sense-read marking page (15 approved, 2 rejected, his own version of 1, his answer on the bars)",
+     "outcome": "put in this turn word for word (OWNER-EDITS.json); his two rejections go on the keep-as-is list; his dash comment asked about"
+    }
+   ],
+   "recorded_utc": "2026-11-04T16:13Z"
   }
  ]
 }
