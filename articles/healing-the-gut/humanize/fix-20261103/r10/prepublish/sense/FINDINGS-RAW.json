@@ -1,0 +1,322 @@
+[
+ {
+  "block": 10,
+  "text": "Glutamine an amino acid that's the fuel",
+  "kind": "broken",
+  "what": "The verb is missing: \"Glutamine an amino acid\".",
+  "fix": "Glutamine is an amino acid that's the fuel",
+  "confidence": "sure",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "broken",
+    "what": "The verb is missing: \"Glutamine an amino acid\".",
+    "fix": "Glutamine is an amino acid that's the fuel",
+    "confidence": "sure"
+   }
+  ]
+ },
+ {
+  "block": 10,
+  "text": "based one one",
+  "kind": "slip",
+  "what": "Typo: \"one one\" for \"on one\".",
+  "fix": "based on one",
+  "confidence": "sure",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "slip",
+    "what": "Typo: \"one one\" for \"on one\".",
+    "fix": "based on one",
+    "confidence": "sure"
+   }
+  ]
+ },
+ {
+  "block": 10,
+  "text": "incompleted clinical trial",
+  "kind": "slip",
+  "what": "\"incompleted\" is not standard English; \"incomplete\" (or \"uncompleted\") is the word.",
+  "fix": "incomplete clinical trial",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "slip",
+    "what": "\"incompleted\" is not standard English; \"incomplete\" (or \"uncompleted\") is the word.",
+    "fix": "incomplete clinical trial",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 14,
+  "text": "For H. Pylori specifically: if you get heartburn when your stomach is empty only, that's usually H. Pylori",
+  "kind": "slip",
+  "what": "The species name takes a lower-case p, as the heading and the rest of the article write it (H. pylori).",
+  "fix": "For H. pylori specifically: if you get heartburn when your stomach is empty only, that's usually H. pylori",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "slip",
+    "what": "The species name takes a lower-case p, as the heading and the rest of the article write it (H. pylori).",
+    "fix": "For H. pylori specifically: if you get heartburn when your stomach is empty only, that's usually H. pylori",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 16,
+  "text": "especially with regard vitamins C, E",
+  "kind": "broken",
+  "what": "\"to\" is missing from \"with regard to\".",
+  "fix": "especially with regard to vitamins C, E",
+  "confidence": "sure",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "broken",
+    "what": "\"to\" is missing from \"with regard to\".",
+    "fix": "especially with regard to vitamins C, E",
+    "confidence": "sure"
+   }
+  ]
+ },
+ {
+  "block": 18,
+  "text": "intestinal tight jungtions to open",
+  "kind": "slip",
+  "what": "Typo: \"jungtions\" for \"junctions\".",
+  "fix": "intestinal tight junctions to open",
+  "confidence": "sure",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "slip",
+    "what": "Typo: \"jungtions\" for \"junctions\".",
+    "fix": "intestinal tight junctions to open",
+    "confidence": "sure"
+   }
+  ]
+ },
+ {
+  "block": 19,
+  "text": "Matt from Endsickness.org finds",
+  "kind": "slip",
+  "what": "The site is written EndSickness.org everywhere else in the article.",
+  "fix": "Matt from EndSickness.org finds",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "slip",
+    "what": "The site is written EndSickness.org everywhere else in the article.",
+    "fix": "Matt from EndSickness.org finds",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 21,
+  "text": "the form of zinc which stays in your intestinal gaps",
+  "kind": "meaningless",
+  "what": "Zinc does not \"stay in\" gaps; what is meant is that this form stays on (sticks to) the intestinal lining, or seals the gaps.",
+  "fix": "the form of zinc which stays in your intestinal lining",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "meaningless",
+    "what": "Zinc does not \"stay in\" gaps; what is meant is that this form stays on (sticks to) the intestinal lining, or seals the gaps.",
+    "fix": "the form of zinc which stays in your intestinal lining",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 26,
+  "text": "or the colonocytes lining your large intestine don't do that, the barrier loosens up",
+  "kind": "broken",
+  "what": "\"do that\" has no action of the cells to point at (the sentence before is about the barrier needing energy), so it reads as a tautology; the sense is that the cells don't get that energy.",
+  "fix": "or the colonocytes lining your large intestine don't get that energy, the barrier loosens up",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "broken",
+    "what": "\"do that\" has no action of the cells to point at (the sentence before is about the barrier needing energy), so it reads as a tautology; the sense is that the cells don't get that energy.",
+    "fix": "or the colonocytes lining your large intestine don't get that energy, the barrier loosens up",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 36,
+  "text": "So the phases below are only what the Gem will tell you, from the nine books.",
+  "kind": "contradiction",
+  "what": "Phase 3 puts Joel's own view in its body (avoid most herbal antibiotics, use H2O2 instead, Pooyan's Candibactin story), not under \"My notes\", so the phases are not only what the Gem says.",
+  "fix": "So the phases below are what the Gem will tell you, from the nine books, apart from my H2O2 swap in Phase 3.",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "contradiction",
+    "what": "Phase 3 puts Joel's own view in its body (avoid most herbal antibiotics, use H2O2 instead, Pooyan's Candibactin story), not under \"My notes\", so the phases are not only what the Gem says.",
+    "fix": "So the phases below are what the Gem will tell you, from the nine books, apart from my H2O2 swap in Phase 3.",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 38,
+  "text": "Don't skip any, since you only move on to the next phase if the one you're on doesn't clear up your symptoms.",
+  "kind": "contradiction",
+  "what": "Phase 5 starts once you are clear of infection and Phase 4 only applies if Phase 3 failed, so a reader whose symptoms clear does skip a phase, against \"Don't skip any\" and the move-on-only-if-not-cleared rule.",
+  "fix": "Don't skip ahead, since you only move on to the next phase if the one you're on doesn't clear up your symptoms (once you're clear, go to Phase 5).",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "contradiction",
+    "what": "Phase 5 starts once you are clear of infection and Phase 4 only applies if Phase 3 failed, so a reader whose symptoms clear does skip a phase, against \"Don't skip any\" and the move-on-only-if-not-cleared rule.",
+    "fix": "Don't skip ahead, since you only move on to the next phase if the one you're on doesn't clear up your symptoms (once you're clear, go to Phase 5).",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 52,
+  "text": "with something that those don't help quickly",
+  "kind": "broken",
+  "what": "\"help\" has the infection as its object, so it says H2O2 and berberine don't help the infection; \"clear\" (or \"help with\") is meant.",
+  "fix": "with something that those don't clear quickly",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "broken",
+    "what": "\"help\" has the infection as its object, so it says H2O2 and berberine don't help the infection; \"clear\" (or \"help with\") is meant.",
+    "fix": "with something that those don't clear quickly",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 53,
+  "text": "BIND to the toxins, especially",
+  "kind": "wrong-word",
+  "what": "As an instruction to the reader, \"bind to the toxins\" says the reader attaches to them; the binder binds the toxins.",
+  "fix": "BIND the toxins, especially",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "wrong-word",
+    "what": "As an instruction to the reader, \"bind to the toxins\" says the reader attaches to them; the binder binds the toxins.",
+    "fix": "BIND the toxins, especially",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 55,
+  "text": "And if the herbs failed, the overgrowth is too severe",
+  "kind": "contradiction",
+  "what": "Two blocks earlier the reader was told to avoid most herbal antibiotics and use H2O2, so \"if the herbs failed\" assumes a step the reader was told to skip.",
+  "fix": "And if the antimicrobials failed, the overgrowth is too severe",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "contradiction",
+    "what": "Two blocks earlier the reader was told to avoid most herbal antibiotics and use H2O2, so \"if the herbs failed\" assumes a step the reader was told to skip.",
+    "fix": "And if the antimicrobials failed, the overgrowth is too severe",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 58,
+  "text": "The problem is likely organ failure, or environmental toxicity",
+  "kind": "wrong-word",
+  "what": "\"Organ failure\" names a life-threatening shutdown; the examples that follow (pancreatic insufficiency, bile acid diarrhea) are an organ not working well.",
+  "fix": "The problem is likely organ dysfunction, or environmental toxicity",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "wrong-word",
+    "what": "\"Organ failure\" names a life-threatening shutdown; the examples that follow (pancreatic insufficiency, bile acid diarrhea) are an organ not working well.",
+    "fix": "The problem is likely organ dysfunction, or environmental toxicity",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 58,
+  "text": "or brain plasticity (those two are Phase 6, below)",
+  "kind": "wrong-word",
+  "what": "Plasticity is the brain's ability to change, the thing DNRS uses, not the problem; Phase 6 names the problem as limbic system impairment.",
+  "fix": "or brain wiring (those two are Phase 6, below)",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "wrong-word",
+    "what": "Plasticity is the brain's ability to change, the thing DNRS uses, not the problem; Phase 6 names the problem as limbic system impairment.",
+    "fix": "or brain wiring (those two are Phase 6, below)",
+    "confidence": "likely"
+   }
+  ]
+ }
+]

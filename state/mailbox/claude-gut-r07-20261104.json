@@ -216,6 +216,41 @@
     }
    ],
    "recorded_utc": "2026-11-04T20:09Z"
+  },
+  {
+   "turn": "2026-11-04T20:27Z",
+   "lines_of_work": [
+    "gut article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items; UDA main still c5c9951, its root AGENTS.md fetched this turn"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 20:08 UTC: new open 302 (neuro de-armoring); 293 is this lane; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 20:27 UTC: 'deleted them' (the two temporary drafts) and 'publish it (don't email anyone)'",
+     "outcome": "the drafts' deletion recorded; r10 goes into his live post 176569317 after the pre-publish reads (E331 sense read, clarity read, E284 compare read), as an update with no email"
+    }
+   ],
+   "recorded_utc": "2026-11-04T20:29Z"
   }
  ]
 }
