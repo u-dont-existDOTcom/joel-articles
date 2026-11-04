@@ -1,0 +1,22 @@
+[
+ {
+  "id": "T3-GLU",
+  "verdict": "FAIL",
+  "issue": "Causal \"actively drives the repair…and prevents LPS translocation\" weakened to \"they need it to repair the gut lining and keep LPS out\". Citric-acid-cycle gloss accurate; label dropped (format)."
+ },
+ {
+  "id": "T3-BUT",
+  "verdict": "PASS",
+  "issue": "Label dropped (format). Glosses accurate: \"colonocytes lining your large intestine\"; \"Your gut bacteria make SCFAs when they ferment\" states what \"resistant starch fermentation\" implies. All three effects kept."
+ },
+ {
+  "id": "T3-TCA",
+  "verdict": "PASS",
+  "issue": "Reordered, label folded into \"are TCA cycle intermediates\". Glosses accurate: \"TCA cycle is another name for the citric acid cycle\"; \"cells lining your gut\". \"The point…That works\" keeps the claim."
+ },
+ {
+  "id": "T3-GLU2",
+  "verdict": "PASS (by the earlier verdict)",
+  "issue": "Fixed by putting back the original's verbs: 'it drives the repair of your gut lining and keeps LPS out'. The same claim in 'that's what drives the repair of the gut lining and keeps LPS from slipping through' passed the blind check (F02, r03/checks/MEANING-VERDICTS-2.json); not re-run."
+ }
+]

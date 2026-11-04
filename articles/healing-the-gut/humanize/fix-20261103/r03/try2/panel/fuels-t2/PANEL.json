@@ -1,0 +1,103 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "L-Glutamine (watch Dr.",
+  "Rhonda vid) is the main fuel for your enterocytes, and for your immune cells when they're activated.",
+  "It doesn't have to go through the complicated digestive steps other nutrients do.",
+  "Inside the mitochondria, it gets turned straight into alpha-ketoglutarate, or α-KG.",
+  "The α-KG goes into the citric acid cycle, which is how the mitochondria make their energy.",
+  "So your cells get that energy right away.",
+  "They use it to repair the gut lining, and that keeps LPS from getting through.",
+  "Your small intestine runs on glutamine, but the colonocytes lining your large intestine rely on short-chain fatty acids (SCFAs) like butyrate.",
+  "You get them when your gut bacteria ferment raw resistant starch, or from your home-brewed SIBO yogurt.",
+  "They feed the colonocytes.",
+  "They also lock down the barrier in your lower gut, and they keep inflammatory signals turned down across the board.",
+  "The TCA cycle is another name for the citric acid cycle, the one glutamine feeds.",
+  "Organic acids like malic and citric acid are part of that cycle, so they go directly into the same energy pathway in the mitochondria that glutamine does.",
+  "That means clean sour stuff, like organic malic acid, tart cherries or green apples, gives the cells lining your gut another quick fuel.",
+  "It speeds up the healing of your gut lining as well, by a different biochemical route than glutamine."
+ ],
+ "flagged": {
+  "1": [],
+  "2": [
+   "sonnet"
+  ],
+  "3": [
+   "sonnet"
+  ],
+  "4": [],
+  "5": [],
+  "6": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "7": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "8": [
+   "sonnet"
+  ],
+  "9": [],
+  "10": [
+   "sonnet"
+  ],
+  "11": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "12": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "13": [
+   "sonnet"
+  ],
+  "14": [
+   "haiku"
+  ],
+  "15": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  6,
+  7,
+  11,
+  12,
+  15
+ ],
+ "whole": {
+  "codex": [
+   "Each paragraph follows a similar progression from fuel to mechanism to gut-barrier benefit, producing a conspicuously orderly teaching rhythm beneath the casual voice. That consistency can suggest AI polishing, but wording alone cannot establish authorship."
+  ],
+  "haiku": [
+   "Nearly every sentence is a short declarative that resolves into a tidy wrap-up, and the sentences move in an even \"X. So Y. That means Z.\" chain with balanced \"X, but Y\" and \"the same ... that ... does\" frames, so the paragraph reads as assembled and explained step by step, not spoken."
+  ],
+  "sonnet": [
+   "Every sentence has the same job, which is to state one fact in a plain, even tone. Each paragraph moves in order from a mechanism to a result to a benefit, with no digressions, hedges or uneven stretches, and the three paragraphs follow the same pattern of fuel, then what it does, then why it matters. The result reads like a clean explainer, with each step handed to the next one in the same measured tone."
+  ]
+ },
+ "human_clean": [
+  "(watch Dr. Rhonda vid)",
+  "your home-brewed SIBO yogurt",
+  "clean sour stuff",
+  "(watch Dr. Rhonda vid)",
+  "home-brewed SIBO yogurt",
+  "clean sour stuff",
+  "(watch Dr. Rhonda vid)",
+  "your home-brewed SIBO yogurt",
+  "clean sour stuff",
+  "raw resistant starch"
+ ]
+}
