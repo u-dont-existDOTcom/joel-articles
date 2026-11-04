@@ -732,45 +732,6 @@
    "recorded_utc": "2026-11-04T01:10Z"
   },
   {
-   "turn": "2026-11-04T10:18Z",
-   "lines_of_work": [
-    "gut article"
-   ],
-   "places": [
-    {
-     "place": "uda-lane",
-     "status": "read",
-     "found": "no new items (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); UDA main still c5c9951, its root AGENTS.md fetched this turn"
-    },
-    {
-     "place": "repo",
-     "status": "read",
-     "found": "since 01:22 UTC: the Inner Child lane's 285 merged by Joel at 08:59 UTC (merged here, a1fcb895; state/MAILBOX.json conflicted and was resolved by keeping both lanes' records); this lane's 286 still open; open: 280, 278 and older chat pull requests; no new issue or review comments (gh api REST)"
-    },
-    {
-     "place": "notes",
-     "status": "read",
-     "found": "no edits by anyone else to articles/healing-the-gut since 62a332fa"
-    },
-    {
-     "place": "runtime",
-     "status": "read",
-     "found": "no queued notifications"
-    }
-   ],
-   "items": [
-    {
-     "item": "Joel's batch-3 answers (10:18 UTC)",
-     "outcome": "F3-1 and F3-2 his versions, into r04 word for word, each checked; F3-3 mine, written his way. His comment ('i taught you the SAME thing as before, so idk why i keep having to teach the same thing? just explain stuff to someone who doesn't already know the hidden links in your prose's thinking') becomes gate E343 with the step that enforces it, and the meaning check's brief stops failing an explained link"
-    },
-    {
-     "item": "pull request 285 (Inner Child): Substack payloads carry their quote marks curled the right way",
-     "outcome": "read; this lane's whole-article check through a temporary Substack draft follows it"
-    }
-   ],
-   "recorded_utc": "2026-11-04T10:20Z"
-  },
-  {
    "turn": "2026-11-04T10:01Z",
    "lines_of_work": [
     "neuro de-armoring",
@@ -810,6 +771,96 @@
     }
    ],
    "recorded_utc": "2026-11-04T10:06Z"
+  },
+  {
+   "turn": "2026-11-04T10:18Z",
+   "lines_of_work": [
+    "gut article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); UDA main still c5c9951, its root AGENTS.md fetched this turn"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 01:22 UTC: the Inner Child lane's 285 merged by Joel at 08:59 UTC (merged here, a1fcb895; state/MAILBOX.json conflicted and was resolved by keeping both lanes' records); this lane's 286 still open; open: 280, 278 and older chat pull requests; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut since 62a332fa"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's batch-3 answers (10:18 UTC)",
+     "outcome": "F3-1 and F3-2 his versions, into r04 word for word, each checked; F3-3 mine, written his way. His comment ('i taught you the SAME thing as before, so idk why i keep having to teach the same thing? just explain stuff to someone who doesn't already know the hidden links in your prose's thinking') becomes gate E343 with the step that enforces it, and the meaning check's brief stops failing an explained link"
+    },
+    {
+     "item": "pull request 285 (Inner Child): Substack payloads carry their quote marks curled the right way",
+     "outcome": "read; this lane's whole-article check through a temporary Substack draft follows it"
+    }
+   ],
+   "recorded_utc": "2026-11-04T10:20Z"
+  },
+  {
+   "turn": "2026-11-04T09:42Z",
+   "lines_of_work": [
+    "inner child guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "2 items in suggested-fixes/joel-articles/, both already in docs/suggested-fixes-ledger.md; no new item; UDA still at c5c9951"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since turn 119's check (01:10 UTC): pull request 285 (this lane, turn 119) merged by Joel at 08:59 UTC (main 9a211d85, the lane fast-forwarded to it); pull request 286 opened by the gut lane at 00:55 UTC (Healing the Gut r03, lane_push enforcement) and pull request 287 by the community lane at 10:33 UTC (Neuro de-armoring: his uridine paragraph), both open, both changing shared files (286: AGENTS.md, docs/HUMANIZATION-GATE.md, lane_push.py, lane_mailbox.py, the pre-push hook, tests; 287: docs/HUMANIZATION-GATE.md, docs/FIXING-AN-ARTICLE.md, fidelity_keys.py, pangram_ledger.py, tests) and state/MAILBOX.json; no new issues, comments or reviews (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop's handoff note is byte for byte what turn 119's update made of it (cmp with inbox/t113/note-test-t119.md); no one else changed OWNER-QUESTIONS.md or HANDOFF-UPDATE.json"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "pull request 285 merged",
+     "outcome": "turn 120's work goes in pull request 288 (lane_push --pr)"
+    },
+    {
+     "item": "pull requests 286 (gut lane) and 287 (community lane), open, changing shared files",
+     "outcome": "not this lane's to review or merge; this turn changes no shared file except the records every push writes (state/MAILBOX.json, articles/INDEX.json, state/PANGRAM-SCORECARD.md); whichever merges later merges main first (E339)"
+    },
+    {
+     "item": "Joel's two round-9 result links (09:42 UTC)",
+     "outcome": "recorded window by window (experiments/t120-results/): A Human Written 0.00% AI, B Human Written 0.29% AI with one AI window at Low; asked him about putting back the aside he cut there, and the 25 windows below High"
+    },
+    {
+     "item": "Joel's new last line for Journal With Each Hand's first paragraph (09:42 UTC)",
+     "outcome": "in (OWNER-EDITS.json joel-120-scribble); it carries the queue's PGQ-054"
+    },
+    {
+     "item": "Joel, 10:02 UTC: make sure you clear the humanization queue",
+     "outcome": "every one of the map queue's 52 entries has its fate (experiments/t120-queue/QUEUE-CLEARED.md); the reset is the map lane's (UDA's suggested-fix rule; this session's push request for innerSignalGraph was refused), so its item for that lane is ready (experiments/t120-queue/UDA-ITEM.md); filing it opens a public pull request in universal-dev-architecture, which the permission check refused without his yes, so it is asked"
+    }
+   ],
+   "recorded_utc": "2026-11-04T10:38Z"
   },
   {
    "turn": "2026-11-04T10:39Z",
@@ -882,57 +933,6 @@
     }
    ],
    "recorded_utc": "2026-11-04T11:34Z"
-  },
-  {
-   "turn": "2026-11-04T09:42Z",
-   "lines_of_work": [
-    "inner child guide"
-   ],
-   "places": [
-    {
-     "place": "uda-lane",
-     "status": "read",
-     "found": "2 items in suggested-fixes/joel-articles/, both already in docs/suggested-fixes-ledger.md; no new item; UDA still at c5c9951"
-    },
-    {
-     "place": "repo",
-     "status": "read",
-     "found": "since turn 119's check (01:10 UTC): pull request 285 (this lane, turn 119) merged by Joel at 08:59 UTC (main 9a211d85, the lane fast-forwarded to it); pull request 286 opened by the gut lane at 00:55 UTC (Healing the Gut r03, lane_push enforcement) and pull request 287 by the community lane at 10:33 UTC (Neuro de-armoring: his uridine paragraph), both open, both changing shared files (286: AGENTS.md, docs/HUMANIZATION-GATE.md, lane_push.py, lane_mailbox.py, the pre-push hook, tests; 287: docs/HUMANIZATION-GATE.md, docs/FIXING-AN-ARTICLE.md, fidelity_keys.py, pangram_ledger.py, tests) and state/MAILBOX.json; no new issues, comments or reviews (gh api REST)"
-    },
-    {
-     "place": "notes",
-     "status": "read",
-     "found": "the laptop's handoff note is byte for byte what turn 119's update made of it (cmp with inbox/t113/note-test-t119.md); no one else changed OWNER-QUESTIONS.md or HANDOFF-UPDATE.json"
-    },
-    {
-     "place": "runtime",
-     "status": "read",
-     "found": "no queued notifications"
-    }
-   ],
-   "items": [
-    {
-     "item": "pull request 285 merged",
-     "outcome": "turn 120's work goes in pull request 288 (lane_push --pr)"
-    },
-    {
-     "item": "pull requests 286 (gut lane) and 287 (community lane), open, changing shared files",
-     "outcome": "not this lane's to review or merge; this turn changes no shared file except the records every push writes (state/MAILBOX.json, articles/INDEX.json, state/PANGRAM-SCORECARD.md); whichever merges later merges main first (E339)"
-    },
-    {
-     "item": "Joel's two round-9 result links (09:42 UTC)",
-     "outcome": "recorded window by window (experiments/t120-results/): A Human Written 0.00% AI, B Human Written 0.29% AI with one AI window at Low; asked him about putting back the aside he cut there, and the 25 windows below High"
-    },
-    {
-     "item": "Joel's new last line for Journal With Each Hand's first paragraph (09:42 UTC)",
-     "outcome": "in (OWNER-EDITS.json joel-120-scribble); it carries the queue's PGQ-054"
-    },
-    {
-     "item": "Joel, 10:02 UTC: make sure you clear the humanization queue",
-     "outcome": "every one of the map queue's 52 entries has its fate (experiments/t120-queue/QUEUE-CLEARED.md); the reset is the map lane's (UDA's suggested-fix rule; this session's push request for innerSignalGraph was refused), so its item for that lane is ready (experiments/t120-queue/UDA-ITEM.md); filing it opens a public pull request in universal-dev-architecture, which the permission check refused without his yes, so it is asked"
-    }
-   ],
-   "recorded_utc": "2026-11-04T10:38Z"
   },
   {
    "turn": "2026-11-04T12:02Z",
@@ -1019,6 +1019,49 @@
     }
    ],
    "recorded_utc": "2026-11-04T12:36Z"
+  },
+  {
+   "turn": "2026-11-04T13:44Z",
+   "lines_of_work": [
+    "inner child guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "2 items in suggested-fixes/joel-articles/, both already in docs/suggested-fixes-ledger.md; no new item; UDA still at c5c9951"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since turn 121's check (12:30 UTC): pull request 288 (this lane, turns 120 and 121) merged by Joel at 12:37 UTC (main 0216cd50, the lane fast-forwarded to it); pull requests 290 (community lane, 12:28 UTC) and 291 (gut lane, 12:42 UTC) opened, both open; no new issues, comments or reviews (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop's handoff note is byte for byte what turn 121's update made of it (cmp with inbox/t113/note-test-t121.md); no one else changed OWNER-QUESTIONS.md or HANDOFF-UPDATE.json"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "pull request 288 merged",
+     "outcome": "turn 122's work goes in its own pull request (lane_push --pr)"
+    },
+    {
+     "item": "pull requests 290 (community lane) and 291 (gut lane), open",
+     "outcome": "not this lane's to review or merge; this turn changes no shared file except the records every push writes"
+    },
+    {
+     "item": "Joel's marking-page answers (13:44 UTC): 18 versions of his, 3 kept",
+     "outcome": "all in word for word (experiments/t122-apply/), the links back on their words, his Hearthwork section checked alone (Human, High; experiments/t122-check/); three typos in his new text asked about"
+    }
+   ],
+   "recorded_utc": "2026-11-04T13:52Z"
   }
  ]
 }

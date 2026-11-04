@@ -639,8 +639,7 @@
    "joel": "2026-10-01 02:40 UTC: \"for emojis yeah you can put them in the whole article and then i'll see if you are doing it right. on average i'm thinking prob each section should have at least 1 emoji but i wouldn't make that a rule obviously just an average because it's nice but you don't want to abuse with emojis, i mean some sentences demand them like i might put 2 in a paragraph sometimes as you've seen.\"",
    "where": "the whole article",
    "must_contain": [
-    "bathroom vacationing. 🙈",
-    "Try again. 😅"
+    "bathroom vacationing. 🙈"
    ],
    "must_not_contain": [
     "some people. 😉",
@@ -649,6 +648,15 @@
     "put a song on. 🎶",
     "tense spot. 💆",
     "the one burning. 🔥"
+   ],
+   "changes": [
+    {
+     "at": "2026-11-04 13:44 UTC (experiments/t122-answers/ANSWERS-20261104-1344.json)",
+     "removed": {
+      "must_contain": "Try again. 😅"
+     },
+     "why": "his version of If You Really Did Hurt Them, P2 (M-B36), has no \"Try again.\" (joel-122-m-b36)"
+    }
    ]
   },
   {
@@ -3255,8 +3263,16 @@
    ],
    "order": [
     "Some families run on a bargain like",
-    "That's exactly why I was crying for 14 years.",
-    "I'd still try a small good thing"
+    "That's exactly why I was crying for 14 years."
+   ],
+   "changes": [
+    {
+     "at": "2026-11-04 13:44 UTC (experiments/t122-answers/ANSWERS-20261104-1344.json)",
+     "removed": {
+      "order": "I'd still try a small good thing"
+     },
+     "why": "he asked me to delete that paragraph, P5 of When Being Happy Feels Like Abandoning Someone (M-B13: \"i want you to delete P5\"; joel-122-m-b13)"
+    }
    ]
   },
   {
@@ -3865,12 +3881,211 @@
   },
   {
    "id": "joel-121-aside",
-   "status": "applied",
+   "status": "superseded",
    "what": "His aside back in Hearthwork: Taking Turns, \"(a driving instructor isn't planning to drive you around forever either)\", which he had cut in his reorganization; without it, round 9 read the two sentences AI (Low), and in round 8, with it, the sentence read Human (High).",
    "joel": "2026-11-04 12:02 UTC, \"ok\" to my question of turn 120 (experiments/t121-answers/JOEL-20261104-1202.md)",
    "where": "Bringing Reparenting Into Real Life > Finding People and Building Trust > Hearthwork: Taking Turns",
    "must_contain_exact": [
     "which is borrowed adulthood in its healthiest form (a driving instructor isn't planning to drive you around forever either). Is that therapy?"
+   ],
+   "superseded_by": "joel-122-hw-1",
+   "superseded": "Joel rewrote the whole Hearthwork section on the round-9 marking page and deleted this paragraph with it (HW-3: \"delete\"), 2026-11-04 13:44 UTC (experiments/t122-answers/ANSWERS-20261104-1344.json)."
+  },
+  {
+   "id": "joel-122-hw-1",
+   "status": "applied",
+   "what": "His version on the round-9 marking page, card HW-1 (Hearthwork's premise, as a list), word for word.",
+   "joel": "2026-11-04 13:44 UTC (experiments/t122-answers/ANSWERS-20261104-1344.json): \"i rewrote teh whole section, so remove and replace the whole hearthwork section. it tests human and sounds better\"",
+   "where": "Hearthwork: Taking Turns, P1",
+   "must_contain": [
+    "Hearthwork is what I call my peer-counseling framework, which combines various other frameworks I'm familiar with. The basic premise is,",
+    "This is a \"middle path\" kind of relationship, that threads itself between ordinary friendship (so you're not \"clienting\" to your friends)",
+    "It also helps us with the borrowed adulthood practice. When you take turns listening with a good peer, on an equal footing, their warmth",
+    "But they don't act as your Guide, or decide what your experience means. Maybe they're thinking, \"Oh, I know what this is about,\" or \"Here's"
+   ],
+   "must_not_contain": [
+    "The basic premise of Hearthwork, my peer-counseling framework, is: Equal time.",
+    "Some of what the three grown-up jobs do can come from outside you, too.",
+    "The peer doesn't become your permanent parent, though."
+   ],
+   "must_have_line": [
+    "### Hearthwork: Taking Turns Lending & Borrowing Adulthood"
+   ],
+   "must_link": [
+    {
+     "text": "Hearthwork",
+     "url": "https://hearthwork.u-dont-exist.com"
+    }
+   ]
+  },
+  {
+   "id": "joel-122-m-b13",
+   "status": "applied",
+   "what": "His version on the round-9 marking page, card M-B13 (When Being Happy Feels Like Abandoning Someone (13 words)), word for word.",
+   "joel": "2026-11-04 13:44 UTC (experiments/t122-answers/ANSWERS-20261104-1344.json): \"this is better, and also edited the prior para, and i want you to delete P5 \"",
+   "where": "When Being Happy Feels Like Abandoning Someone, P4",
+   "must_contain": [
+    "What I found, once I started cultivating my own happiness, was that I got a lot better at helping other people toward theirs. So do your",
+    "Some friends or family really might not like it when you get happier, though. Some of them might pull away, while others might try to keep"
+   ],
+   "must_not_contain": [
+    "I'd still try a small good thing, like a nice meal, and see what actually happens."
+   ]
+  },
+  {
+   "id": "joel-122-m-b9",
+   "status": "applied",
+   "what": "His version on the round-9 marking page, card M-B9 (Four Pairs That Commonly Hook the Child (8 words)), word for word.",
+   "joel": "2026-11-04 13:44 UTC (experiments/t122-answers/ANSWERS-20261104-1344.json)",
+   "where": "Four Pairs That Commonly Hook the Child, P3",
+   "must_contain": [
+    "- Whose approval suddenly feels like I can't live without"
+   ],
+   "must_not_contain": [
+    "It isn't always who you'd guess."
+   ]
+  },
+  {
+   "id": "joel-122-m-a3",
+   "status": "applied",
+   "what": "His version on the round-9 marking page, card M-A3 (The Spiritual Side of the Question (1 word)), word for word.",
+   "joel": "2026-11-04 13:44 UTC (experiments/t122-answers/ANSWERS-20261104-1344.json)",
+   "where": "The Spiritual Side of the Question, P2",
+   "must_contain": [
+    "Then ask: what is the self you want to kill? Is that self the same thing as your body, and if yes, why do you think so? Do you have the"
+   ]
+  },
+  {
+   "id": "joel-122-m-a7",
+   "status": "applied",
+   "what": "His version on the round-9 marking page, card M-A7 (Show Up When Nothing's Wrong (5 words)), word for word.",
+   "joel": "2026-11-04 13:44 UTC (experiments/t122-answers/ANSWERS-20261104-1344.json)",
+   "where": "Show Up When Nothing's Wrong, P2",
+   "must_contain": [
+    "Watch how your love sounds to your little boo, in context. \"I care about you\" can be patient, or it can be \"I care about you, now hurry up"
+   ]
+  },
+  {
+   "id": "joel-122-m-a9",
+   "status": "applied",
+   "what": "His version on the round-9 marking page, card M-A9 (A Smaller Doorway: Goodwill (23 words)), word for word.",
+   "joel": "2026-11-04 13:44 UTC (experiments/t122-answers/ANSWERS-20261104-1344.json)",
+   "where": "A Smaller Doorway: Goodwill, P2",
+   "must_contain": [
+    "This goodwill isn't just for the target of it, though. You may find it bounces back and opens up a little warmth in your heart. And if \"I"
+   ]
+  },
+  {
+   "id": "joel-122-m-a11",
+   "status": "applied",
+   "what": "His version on the round-9 marking page, card M-A11 (Ask God for a Loan (17 words)), word for word.",
+   "joel": "2026-11-04 13:44 UTC (experiments/t122-answers/ANSWERS-20261104-1344.json): \"your para alone tested 89% ai: https://www.pangram.com/history/27a73b1c-f15e-4aa9-bf76-3c6d8743cb70?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nmy version reads better and passes\"",
+   "where": "Ask God for a Loan, P1",
+   "must_contain": [
+    "The dog kind of love is real love. Some people also know a love that's way more profound, like God's. Maybe it opened up for them in prayer"
+   ]
+  },
+  {
+   "id": "joel-122-m-a13",
+   "status": "applied",
+   "what": "His version on the round-9 marking page, card M-A13 (When the Spiritual Relationship Hurts (48 words)), word for word.",
+   "joel": "2026-11-04 13:44 UTC (experiments/t122-answers/ANSWERS-20261104-1344.json)",
+   "where": "When the Spiritual Relationship Hurts, P2",
+   "must_contain": [
+    "Being the grown-up doesn't mean controlling everything yourself, though. After a betrayal like that, part of you might want to. We can use"
+   ],
+   "must_link": [
+    {
+     "text": "Serenity Prayer",
+     "url": "https://www.archspm.org/the-serenity-prayer/"
+    }
+   ]
+  },
+  {
+   "id": "joel-122-m-b2",
+   "status": "applied",
+   "what": "His version on the round-9 marking page, card M-B2 (What to Do With a Peak (4 words)), word for word.",
+   "joel": "2026-11-04 13:44 UTC (experiments/t122-answers/ANSWERS-20261104-1344.json)",
+   "where": "What to Do With a Peak, P4",
+   "must_contain": [
+    "And if your little one still can't take the love in? Hold off on going for bigger, crazier breakthroughs, however tempting it is, or at"
+   ]
+  },
+  {
+   "id": "joel-122-m-b5",
+   "status": "applied",
+   "what": "His version on the round-9 marking page, card M-B5 (Untangling the Belonging Bargains (11 words)), word for word.",
+   "joel": "2026-11-04 13:44 UTC (experiments/t122-answers/ANSWERS-20261104-1344.json): \"orig is ai tested alone: https://www.pangram.com/history/3fd8fe60-c398-4650-9472-29ea5b175391?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nmy version passes and reads better\"",
+   "where": "Untangling the Belonging Bargains, P1",
+   "must_contain": [
+    "Part of building who you are is untangling yourself from what I call the \"belonging bargains\" which pull you away from your own"
+   ]
+  },
+  {
+   "id": "joel-122-m-b7",
+   "status": "applied",
+   "what": "His version on the round-9 marking page, card M-B7 (Untangling the Belonging Bargains (5 words)), word for word.",
+   "joel": "2026-11-04 13:44 UTC (experiments/t122-answers/ANSWERS-20261104-1344.json): \"more clear now \"",
+   "where": "Untangling the Belonging Bargains, P3",
+   "must_contain": [
+    "Even with good parents, you could have learned unhealthy self-valuation when people repeatedly praised what you did rather than your"
+   ]
+  },
+  {
+   "id": "joel-122-m-b28",
+   "status": "applied",
+   "what": "His version on the round-9 marking page, card M-B28 (Dating While You Heal (52 words)), word for word.",
+   "joel": "2026-11-04 13:44 UTC (experiments/t122-answers/ANSWERS-20261104-1344.json)",
+   "where": "Dating While You Heal, P1",
+   "must_contain": [
+    "Maybe you'd rather that your support came from a lover, as well. Lots of people open a dating app in the middle of the night, hoping",
+    "That doesn't mean you have to be completely healed before you date, but romance should follow when two people really love each other and"
+   ],
+   "must_link": [
+    {
+     "text": "romance guide",
+     "url": "http://romance.u-dont-exist.com"
+    }
+   ]
+  },
+  {
+   "id": "joel-122-m-b30",
+   "status": "applied",
+   "what": "His version on the round-9 marking page, card M-B30 (Write It. Don't Send It Yet. (1 word)), word for word.",
+   "joel": "2026-11-04 13:44 UTC (experiments/t122-answers/ANSWERS-20261104-1344.json)",
+   "where": "Write It. Don't Send It Yet., P1",
+   "must_contain": [
+    "If you've got something burning you up that you wanna say, write it out as a reply. There, that got it out. Ahh. Breathing easier. 😌 But"
+   ]
+  },
+  {
+   "id": "joel-122-m-b32",
+   "status": "applied",
+   "what": "His version on the round-9 marking page, card M-B32 (Write It. Don't Send It Yet. (18 words)), word for word.",
+   "joel": "2026-11-04 13:44 UTC (experiments/t122-answers/ANSWERS-20261104-1344.json)",
+   "where": "Write It. Don't Send It Yet., P8",
+   "must_contain": [
+    "Before sending anything hastily, I'd read it over once as if I were in their shoes. Stuff I wrote while I was scared or hurt can sound like"
+   ]
+  },
+  {
+   "id": "joel-122-m-b34",
+   "status": "applied",
+   "what": "His version on the round-9 marking page, card M-B34 (If You Really Did Hurt Them (2 words)), word for word.",
+   "joel": "2026-11-04 13:44 UTC (experiments/t122-answers/ANSWERS-20261104-1344.json)",
+   "where": "If You Really Did Hurt Them, P1",
+   "must_contain": [
+    "Repairing relationship damage is easier said than done, and must start from genuinely correct"
+   ]
+  },
+  {
+   "id": "joel-122-m-b36",
+   "status": "applied",
+   "what": "His version on the round-9 marking page, card M-B36 (If You Really Did Hurt Them (7 words)), word for word.",
+   "joel": "2026-11-04 13:44 UTC (experiments/t122-answers/ANSWERS-20261104-1344.json): \"i couldn't honestly understand this lol, glad i changed it\"",
+   "where": "If You Really Did Hurt Them, P2",
+   "must_contain": [
+    "Are you really sorry for what you did, or are you just trying to feel sorry because they're upset? If you've said what you really feel,"
    ]
   }
  ]
