@@ -5,4 +5,6 @@ r10 has his stacks section as he fixed and checked it: [Human Written, 100%](htt
 - **Prediction**, frozen before the paste: `gut-article-whole#117`, Human at 0.55. The two windows the rule still listed are his words, which his own checks read Human. They're named in `--windows-ok`.
 - **The paste:** the editor's 3,522 words are the payload's. The rendered post is `CHECKED-TEXT-A.txt` exactly (75 lines, SHA-256 23de3dfe...).
 - **The label:** Human (the Pangram extension, in the Claude in Chrome browser).
-- **Still to come:** the result page from Joel. The link is open in his Brave. After that, `RESULT-A.json` and `WINDOWS.md`, and the ledger result.
+- **The first page that came (18:26 UTC) was r07's check.** It was made at 14:18 UTC with r07's text, from draft A's older tab in his Brave, and is recorded under `r07/substack/`.
+- **Draft B:** the same r10 text in a second temporary draft with its own address (`PASTED.json`, B). It is pasted and checked the same way, and opened only in his Brave (18:34 UTC).
+- **Still to come:** draft B's result page. Then `RESULT-B.json` and `WINDOWS.md`, and the ledger result for #117.

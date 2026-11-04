@@ -11,9 +11,24 @@
   "words_match": true,
   "draft_updated_at": "2026-11-04T16:49:38.598Z",
   "secret_link_cache_key": "gut-r10-a-1",
-  "rendered_check": "75 lines, 20,883 characters, SHA-256 23de3dfe9d44b5bab9a95b22cd5a15c19ad9f0e29f04eb965269b8d66c2a7626: CHECKED-TEXT-A.txt exactly, in the built-in browser and in the Claude in Chrome browser"
+  "rendered_check": "75 lines, 20,883 characters, SHA-256 23de3dfe9d44b5bab9a95b22cd5a15c19ad9f0e29f04eb965269b8d66c2a7626: CHECKED-TEXT-A.txt exactly, in the built-in browser and in the Claude in Chrome browser",
+  "what_came": "Joel's link of 18:26 UTC from this draft (https://www.pangram.com/feed/9c94634b-1069-4b5c-8ae6-1d976354d52a) was r07's check, made at 14:18 UTC with r07's text (recorded under r07/substack); his Brave had both this draft's r07 tab (14:25) and its r10 tab (16:50)"
  },
  "pangram": "Opened in his own Brave from his laptop's shell at 16:50 UTC ('Opening in existing browser session', gate E353 (gut)). In the Claude in Chrome browser, which is not his Brave, the Pangram extension's label next to the author's name read 'Human'; its full analysis opens in a side panel the session can't read, so the result page comes from him.",
- "result": "pending: the label 'Human' only, until his result page is read (RESULT-A.json, WINDOWS.md)",
- "secret_links": "not recorded: anyone with one can read the draft"
+ "result": "pending: the result page from draft B",
+ "secret_links": "not recorded: anyone with one can read the draft",
+ "B": {
+  "title": "Healing the Gut, draft B (temp, delete after)",
+  "editor": "https://ibogaqueen.substack.com/publish/post/223514263",
+  "why": "a second temporary draft, with its own address, so the extension can only show r10's check",
+  "payload_sha256": "40d1aa7599d6ab150c48c74b72b7a08e23c9d9608405f374d11d1ab4c6c0fa42",
+  "editor_words": 3522,
+  "words_match": true,
+  "paste_helper": "r10/substack/paste_payload_lane.js (draft B in its title list)",
+  "draft_updated_at": "2026-11-04T18:34:03.876Z",
+  "secret_link_cache_key": "gut-r10-b-1",
+  "rendered_check": "75 lines, 20,883 characters, SHA-256 23de3dfe9d44b5bab9a95b22cd5a15c19ad9f0e29f04eb965269b8d66c2a7626: CHECKED-TEXT-A.txt exactly",
+  "opened": "in his own Brave from his laptop's shell at 18:34 UTC ('Opening in existing browser session'), and nowhere else",
+  "prediction": "gut-article-whole#117 (the same text, its prediction frozen before either paste)"
+ }
 }
