@@ -1,0 +1,3 @@
+ok we also have to think about the fact that if we are testing paragraphs alone, we may end up explaining things more than once, so if the explanation is close by we should be testing with that as part of the pangram test rather than explaining twice. 
+
+i have not been doing that, i've just been doing the individual paragraphs to give you the idea of whta pangram wants, which thankfully is what readers also want.

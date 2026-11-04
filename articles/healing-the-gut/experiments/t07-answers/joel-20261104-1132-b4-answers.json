@@ -1,0 +1,71 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "healing-the-gut-b4-tca-20261104",
+ "title": "Gut Fuels, the Last One",
+ "git_file": "articles/healing-the-gut/humanize/fix-20261103/r04/b4/REVIEW-PAGE.html",
+ "article": {
+  "file": "articles/healing-the-gut/humanize/fix-20261103/r04/r04.md",
+  "sha256": "7052402b5a1d0b978fff4d08e77989bb6c68993af1e3d2598d04f251e59a7d2f"
+ },
+ "built": "2026-11-04",
+ "generator": "suggestion_review.py 1.5 (2026-11-02)",
+ "exported_at": "2026-11-04T11:32:41.253Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 2
+ },
+ "items": [
+  {
+   "id": "F4-1",
+   "type": "help",
+   "title": "The TCA intermediates: six versions read AI",
+   "where": "Some Causes of poor gut health, P24",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Malic and citric acid (which make green apples and tart cherries sour) are quick energy sources for the lining cells of your small intestines. That's because they are intermediate products in the cells' mitochondrial energy production cycle, called TCA, Krebs, or citric acid cycle. Glutamine also fuels that same cycle via a different route, as it converts to a-KG, while also providing nitrogen to help build new cells. Those lining cells then use the energy they get from those fuels to heal the gut lining by pulling the tight junctions together.",
+   "comment": "you were right about \"clean\" being a pangram and reader tripping point, what's clean mean? i fixed that and it actually made the sentence BEFORE that likely human, even tho the one before that is what actually felt hard for me to read: https://www.pangram.com/history/bba39799-47c1-42cd-b5b1-20132d9d2097?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nas a reader i'm thinking \"what are intermediates and why does anyone care?\" what does glutamine \"ends up in\" mean? \n\nnotice it's not just about whether the points get addressed eventually, but do they get addressed in the order a reader would be thinking, so that reading is easy?\n\nso then i fixed the lack of clarity in the first part of the last sentence (like it sort of sounds like you're implying that the a-KG conversion takes longer, but that's not explained). now it's all human: https://www.pangram.com/history/4afd08ec-c9b7-4466-8ae7-31d819039758?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\n\nbut i like my version that i'm giving you that explains it better, i think, and is also human",
+   "my_version": "Malic and citric acid are what's called TCA cycle intermediates. TCA is another name for the citric acid cycle, the one the glutamine ends up in, and these acids are already part of it, so your mitochondria can use them for energy directly. They're the acids that make green apples and tart cherries sour, so eating clean sour stuff like that, or taking organic malic acid, gets the cells lining your gut another fuel, and quickly. Glutamine has to be turned into α-KG first, so that's a different biochemical route, but either way those cells then use the extra energy to heal the gut lining faster.",
+   "before": "Malic and citric acid are what's called TCA cycle intermediates. TCA is another name for the citric acid cycle, the one the glutamine ends up in, and these acids are already part of it, so your mitochondria can use them for energy directly. They're the acids that make green apples and tart cherries sour, so eating clean sour stuff like that, or taking organic malic acid, gets the cells lining your gut another fuel, and quickly. Glutamine has to be turned into α-KG first, so that's a different biochemical route, but either way those cells then use the extra energy to heal the gut lining faster.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T10:55:10.846Z"
+    }
+   ],
+   "updated": "2026-11-04T11:25:48.984Z"
+  },
+  {
+   "id": "F4-2",
+   "type": "ask",
+   "title": "What makes sour stuff \"clean\"?",
+   "where": "Some Causes of poor gut health, P24",
+   "advice": "ask",
+   "status": "answered",
+   "question": "What does \"clean\" leave out here: added sugar, something else, or nothing in particular? I'd put your answer in as a few words in the sentence.",
+   "your_version": "",
+   "comment": "clean is a word that is referring to healthy, but it is too vague i think",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-04T11:26:11.992Z"
+  },
+  {
+   "id": "F4-3",
+   "type": "ask",
+   "title": "Along with glutamine, or instead of it?",
+   "where": "Some Causes of poor gut health, P24",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Should a reader have these sour foods along with glutamine, or are they an option for someone who doesn't take glutamine? Or leave it unsaid?",
+   "your_version": "",
+   "comment": "that's a good question! we should explain that, so you are always totally free to change up what is being said if you can make it more helpful and clear. i just now asked gemini, it said glutamine is really what matters for the fuel source and actually even tho those acids are a quick energy for the cells, the main reason to take those in addition would be to boost stomach acid and mineral absorption. if you agree you can re-do the para so it focuses on glutamine for energy and breiefly explains the use of those acids, that might also require changing other paras. make sure the repo rules are durably changed so you aren't wedlocked to points that don't really make the most sense, especially when they are points that are trying to support a larger argument the author is trying to make. obviously you wouldn't want to change the larger argument without asking, and if you do change the smaller points youu'd explain to the author why",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-04T11:32:35.857Z"
+  }
+ ]
+}

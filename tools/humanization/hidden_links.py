@@ -20,9 +20,12 @@ one link I did write. This step asks the question his rewrites answer, before dr
       DIR/LINKS.json from READER.md: each gap's sentence, quote and what a newcomer can't see. A gap already in LINKS.json
       keeps the worker's fields.
   python3 tools/humanization/hidden_links.py check DIR DRAFT
-      Every gap in LINKS.json needs "answer" (the words in the draft that state the link, copied exactly) or "status":
-      "drop" with a "note" (explained earlier in the article, or not a link the original's reasoning holds). Exits 1 while
-      one is unanswered or its answer isn't in the draft.
+      Every gap in LINKS.json needs "answer" (the words in the draft that state the link, copied exactly) and "raised"
+      (the draft's words where the reader first asks it), or "status": "drop" with a "note" (explained earlier in the
+      article, or not a link the original's reasoning holds). Exits 1 while one is unanswered, its answer isn't in the
+      draft, or two answers come in the opposite order to their questions (gate E347). Then read the draft again the same
+      way (make DRAFT DIR2, a fresh reader, collect DIR2): what that reader still can't follow, the draft's own new terms
+      included, is fixed in the next draft, or dropped with a note.
 
 A stated link must be true and the original's own reasoning (or plain common knowledge), never a new claim; the blind
 meaning check reads it as LINK, not as an added fact (the fuels' brief, 2026-11-04).
@@ -138,16 +141,37 @@ def norm(t):
 
 
 def problems(gaps, draft):
+    """Every gap answered in the draft, and the answers in the order a reader asks the questions ("raised": the draft's
+    words where the reader first asks it). Joel, 2026-11-04 11:32 UTC: "it's not just about whether the points get
+    addressed eventually, but do they get addressed in the order a reader would be thinking, so that reading is easy?"
+    (gate E347). His glutamine answers "so what?" three sentences after the question, once the how is told: the order is
+    what counts, not the distance."""
     draft = norm(draft)
-    out = []
+    out, placed = [], []
     for g in gaps:
         if g.get('status') == 'drop':
             if not g.get('note'):
                 out.append('%s: dropped with no note' % g['id'])
-        elif not g.get('answer'):
+            continue
+        if not g.get('answer'):
             out.append('%s: no answer for S%d "%s" (%s)' % (g['id'], g['sentence'], g['quote'], g['gap']))
-        elif norm(g['answer']) not in draft:
+            continue
+        a = draft.find(norm(g['answer']))
+        if a < 0:
             out.append('%s: its answer isn\'t in the draft: "%s"' % (g['id'], g['answer']))
+            continue
+        if not g.get('raised'):
+            out.append('%s: no "raised" (the draft\'s words where the reader first asks it)' % g['id'])
+            continue
+        r = draft.find(norm(g['raised']))
+        if r < 0:
+            out.append('%s: its "raised" words aren\'t in the draft: "%s"' % (g['id'], g['raised']))
+            continue
+        placed.append((r, a, g['id']))
+    placed.sort()
+    for (r1, a1, i1), (r2, a2, i2) in zip(placed, placed[1:]):
+        if a2 < a1 and r2 > r1:
+            out.append('%s: answered before %s, though the reader asks it later (the order a reader thinks)' % (i2, i1))
     return out
 
 
