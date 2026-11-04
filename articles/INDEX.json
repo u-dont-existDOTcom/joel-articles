@@ -114888,6 +114888,11 @@
           "path": "articles/healing-the-gut/humanize/fix-20261103/r12/checks/texts/r11c-fuels.txt",
           "sha256": "53dbcbd4bda2895a7d4640c624e3701af2d3374e250103db54c6e5c5508eb13e",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r12/README.md",
+          "sha256": "77b15a1eb7f466d246b7a446a2b81c7fca6048bf27692a14f5b096848f09e165",
+          "role": "humanization_working_record"
         }
       ]
     }

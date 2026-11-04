@@ -24,15 +24,16 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
 
 ## Current checkpoint
 
-2026-11-04 20:44 UTC: r11 is live in his post (https://ibogaqueen.substack.com/p/healing-the-gut-naturally), no email sent (`humanize/fix-20261103/live/`). r10 read Human Written 100% as a whole article (https://www.pangram.com/feed/6d370e2e-7a9c-49b9-8e34-e5180d888fac); r11 is r10 with one slip of mine fixed (Phase 3, Human 100% in the web app). The pre-publish reads' other findings, in his own words and my approved wording, are on the batch-8 page: https://claude.ai/artifact/LzsSUdN6KCk8KesmNJzVUK (cards: `humanize/fix-20261103/r11/b8/REVIEW-CARDS.md`, store collection `decisions`).
+2026-11-04 20:44 UTC: r11 is live in his post (https://ibogaqueen.substack.com/p/healing-the-gut-naturally), no email sent (`humanize/fix-20261103/live/`). 21:01 UTC: his batch-8 answers, all 22 approved, are r12 (`humanize/fix-20261103/r12/`, checks in its README): its natural sections read Human High (stacks, recipe intro, Phase 1); the fuels stretch as a cut of its own reads AI 26% on sentences batch 8 didn't change.
 
 ## Remaining
 
-1. His batch-8 answers: apply them to r11 (as r12), each changed paragraph checked in the web app, then the second update of his post (`humanize/fix-20261103/live/README.md`, gate E332), again with no email.
+1. The second update of his post with r12 (steps in `humanize/fix-20261103/r12/README.md`; plan and update2.js pushed at 01e2b53c), no email; then his extension on the live post for the free whole-article check.
+2. The fuels stretch's AI windows in its own cut (the glutamine mechanism sentences and the caution's last two): fix them, or ask his help with the human tells named; the r11 control (`r12/checks/texts/r11c-fuels.txt`, prediction #141) first.
 
 ## Blockers / unresolved
 
-- None. Batch 8 waits on his answers.
+- His laptop dropped off the bridge at about 21:22 UTC (the built-in browser, Claude in Chrome and the shell all disconnected), so the second update waits for it.
 
 ## Evidence / artifacts
 
