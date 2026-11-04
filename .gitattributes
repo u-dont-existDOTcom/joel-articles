@@ -60,3 +60,4 @@ articles/inner-child-therapy/experiments/t121-review/GUIDE-PAGE.md whitespace=-b
 # Every lane appends its mailbox records here; the merge is their union (tools/humanization/mailbox_merge.py, its
 # driver set in each clone by lane_push.py and lane_mailbox.py).
 state/MAILBOX.json merge=lane-mailbox
+articles/inner-child-therapy/experiments/t124-sense/GUIDE-PAGE.md whitespace=-blank-at-eol
