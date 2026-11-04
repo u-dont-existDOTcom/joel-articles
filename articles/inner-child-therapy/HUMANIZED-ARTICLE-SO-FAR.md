@@ -486,7 +486,7 @@ Put the photo back in its drawer when you're finished. If it starts tugging at y
 
 ## Journal With Each Hand
 
-Lucia Capacchione, an art therapist, wrote a whole book on this one, [The Power of Your Other Hand](https://www.luciac.com/). As titles go, it's pretty literal. Your other hand, the clumsy one, writes like a first grader anyway, so it gets the scared or hurt feelings, as well as some extra creative juice. The usual hand answers, as the grown-up. Some people who get nothing but silence from their little one are surprised by what the other hand comes up with. A protective part might grab the pen first, and then it gets that hand until it's had its say.
+Lucia Capacchione, an art therapist, wrote a whole book on this one, [The Power of Your Other Hand](https://www.luciac.com/). As titles go, it's pretty literal. Your other hand, the clumsy one, writes like a first grader anyway, so it gets the scared or hurt feelings, as well as some extra creative juice. The usual hand answers, as the grown-up. Some people who get nothing but silence from their little one are surprised by what the other hand comes up with. A protective part might grab the pen first, and then it gets that hand until it's had its say, even if all it can do is scribble angrily.
 
 For some people, writing might make them feel more confused, especially at first, or nothing might want to be written. Then just keep track for a while, and save the patterns for later, if they turn out to matter at all.
 

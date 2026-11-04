@@ -208,14 +208,14 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 98 | 71 (72%) | 42% | 58% | 61% | 0.184 (base 0.243, 98) |
-| **all lanes** | 98 | 71 (72%) | 42% | 58% | 61% | 0.184 (base 0.243, 98) |
+| inner child guide | 100 | 72 (72%) | 42% | 58% | 60% | 0.186 (base 0.244, 100) |
+| **all lanes** | 100 | 72 (72%) | 42% | 58% | 60% | 0.186 (base 0.244, 100) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| inner child guide | 98 | 71 (72%) | 42% | 58% | 61% | 0.184 (base 0.243, 98) |
+| inner child guide | 100 | 72 (72%) | 42% | 58% | 60% | 0.186 (base 0.244, 100) |
 
 The boundary mix over all lanes:
 
@@ -223,7 +223,7 @@ The boundary mix over all lanes:
 |---|---|---|---|---|---|---|
 | paragraph | 51 | 29 (57%) | 43% | 57% | 53% | 0.242 (base 0.245, 51) |
 | section | 31 | 28 (90%) | 10% | 90% | 100% | 0.140 (base 0.087, 31) |
-| stretch | 16 | 14 (88%) | 100% | 0% | 12% | 0.080 (base 0.000, 16) |
+| stretch | 18 | 15 (83%) | 94% | 6% | 11% | 0.105 (base 0.052, 18) |
 
 ## pangram-4.1-api
 
@@ -246,11 +246,31 @@ The boundary mix over all lanes:
 | section | 80 | 62 (78%) | 29% | 71% | 89% | 0.202 (base 0.205, 80) |
 | stretch | 20 | 17 (85%) | 35% | 65% | 70% | 0.182 (base 0.227, 20) |
 
+## pangram API 4.1
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| healing the gut article | 74 | 56 (76%) | 50% | 50% | 45% | 0.171 (base 0.250, 74) |
+| **all lanes** | 74 | 56 (76%) | 50% | 50% | 45% | 0.171 (base 0.250, 74) |
+
+The latest 100 calls of each lane:
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| healing the gut article | 74 | 56 (76%) | 50% | 50% | 45% | 0.171 (base 0.250, 74) |
+
+The boundary mix over all lanes:
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| paragraph | 69 | 51 (74%) | 52% | 48% | 42% | 0.179 (base 0.250, 69) |
+| section | 5 | 5 (100%) | 20% | 80% | 80% | 0.050 (base 0.160, 5) |
+
 ## What the misses say (since the ledger)
 
 | cause | misses | lanes |
 |---|---|---|
-| not explained yet | 41 | community article, hypnosis guide, inner child guide |
+| not explained yet | 45 | community article, healing the gut article, hypnosis guide, inner child guide |
 | too pessimistic about a cut | 12 | inner child guide |
 | a tell I did not name | 11 | inner child guide |
 | a Low window came back | 8 | inner child guide |
@@ -259,6 +279,7 @@ The boundary mix over all lanes:
 | an added move read AI | 3 | inner child guide |
 | the section read differently from the paragraph alone | 3 | inner child guide |
 | too pessimistic about a rewrite | 3 | inner child guide |
+| model-over-pessimism | 3 | healing the gut article |
 | pessimism | 2 | community article, nibbana article |
 | parallel list kept | 2 | hypnosis guide |
 | context: red in the whole guide, Human in the pair | 2 | hypnosis guide |
@@ -269,6 +290,7 @@ The boundary mix over all lanes:
 | a second cut of the same kind | 2 | inner child guide |
 | a repeat made adjacent by a move | 2 | inner child guide |
 | his paragraph reads AI alone under 4.1 | 2 | inner child guide |
+| one-sentence-stuck | 2 | healing the gut article |
 | the unchanged neighbour | 1 | community article |
 | a window the test made | 1 | community article |
 | parallel list kept; light green turned red | 1 | hypnosis guide |
@@ -311,10 +333,20 @@ The boundary mix over all lanes:
 | Low windows with no AI window | 1 | inner child guide |
 | a Human result above 0.0000 | 1 | inner child guide |
 | a cut took out what read human | 1 | inner child guide |
+| an old AI window carried over | 1 | inner child guide |
 | a Low window read Human | 1 | nibbana article |
 | underrated a plain split | 1 | nibbana article |
 | a neutral signpost reads AI where his casual frame read Human | 1 | nibbana article |
 | a misread page: the caution never read Human | 1 | nibbana article |
+| summary-voice-around-owner-lines | 1 | healing the gut article |
+| owner-voice-carries-neighbours | 1 | healing the gut article |
+| opener-and-attribution-asides | 1 | healing the gut article |
+| owner-lines-human-gemini-lines-ai | 1 | healing the gut article |
+| owner-line-human-kit-run-ai | 1 | healing the gut article |
+| plain-conditional-warning-human | 1 | healing the gut article |
+| panel-overflags | 1 | healing the gut article |
+| panel-overflags-labels-were-the-tell | 1 | healing the gut article |
+| reader-question-did-not-carry | 1 | healing the gut article |
 
 A cause that repeats becomes a check that runs before Pangram (a linter rule, a gate step or a predictor feature); a miss nobody can explain goes to Joel with the passage.
 
