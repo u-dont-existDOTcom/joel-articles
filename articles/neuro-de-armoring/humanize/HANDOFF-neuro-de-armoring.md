@@ -18,6 +18,12 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-04, after Joel's message of 20:19 UTC ("so then are we done can we publish it?"): not yet; the whole article
+  is in a temporary Substack draft, but his extension read "Daily limit reached"; the 5-HTP interactions paragraph is in,
+  the stop signs went to him.** HUMANIZED-SO-FAR.md is 301782b9. 7 of the article's 160 paragraphs read Human by themselves
+  as they stand (the six pictures aren't paragraphs). The stop signs read AI in five versions, mine and Codex's, so they're
+  on Neuro De-Armoring Cards, 4 November (4), with the interactions paragraph's Low window (a case story of mine from the
+  report the post links). See the Next step.
 - **2026-11-04, after Joel's answers of 18:09 UTC and his "8a" of 18:10 UTC: his six versions in, the tool paragraph merged
   into his "Who this is for", the dash swap run; no open questions.** HUMANIZED-SO-FAR.md is fb1168c8. A warning's words may
   change when its meaning stays (E358; "warning_words": "meaning"). His lessons are E357 (the point first) and O65 to O67.
@@ -91,7 +97,28 @@ All of the article is his published post. His queue's rule: "Paragraphs that alr
 stay exactly as they are." Everything else is rewritten in his register and reaches him as cards, each tested first. The
 Scott passages, the introduction and the D-serine paragraph in Part 4 sound most like him.
 
-## Next step (2026-11-04, after Joel's answers of 18:09 UTC: the rest of the 5-HTP section, then on)
+## Next step (2026-11-04, after Joel's message of 20:19 UTC: the whole check once his extension is on his other account)
+
+Done (STATUS.md's entry for 2026-11-04 20:19 has every file and number). Waiting on him: the extension's account switch,
+his answers on Neuro De-Armoring Cards, 4 November (4) (https://claude.ai/artifact/G7HN5K4HMTUEZPnbTaPmpk; Y-92, Y-93), and
+the merge of pull request 302.
+
+Next:
+1. **The whole article's free check** (`fix-20261104/substack/`, PASTED.json; prediction ND1104-whole#97, AI at 0.01): when
+   he says the Pangram extension in his Brave is on his other account (E218; it read "Daily limit reached" at 20:35 UTC),
+   make the secret link again from draft 223532178 (`tools/humanization/substack_secret_link.js`, a new cache key), check
+   its rendered text (`substack_rendered_check.js`, expecting b411683e...), open it in his Brave through Claude in Chrome
+   and read the label. "Click to view full analysis" opens a tab outside the session's group (the other lanes found), so
+   first try reading the feed link from the badge's panel in the page; if it can't be read, ask him for the feed page.
+   Read it with `tools/humanization/pangram_feed_read.js` (compact), rebuild with `substack_check_text.py result`, and list
+   every window that isn't Human (High) by section, Low first. The draft holds the article at fb1168c8; only the 5-HTP
+   interactions paragraph has changed since. Then name the draft on the questions page for him to delete (E204).
+2. **His answers on Cards (4)** go in with a recording script, his versions as written, checked only where he hasn't.
+3. **Meanwhile the next section, his way**: "Fixing ATP Signaling if Cortisol Isn't High" (8 paragraphs), one paragraph at
+   a time (or a pair under 50 words), as in point 1 of the earlier next step below, then the sections the whole check
+   shows AI, Low windows first.
+
+## Earlier next step (2026-11-04, after Joel's answers of 18:09 UTC: the rest of the 5-HTP section, then on)
 
 Done (STATUS.md's entry for 2026-11-04 18:09 has every file and number). Nothing is waiting on him but the merge.
 

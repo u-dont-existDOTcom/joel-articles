@@ -1,0 +1,26 @@
+{
+ "about": "The 5-HTP stop signs (his post's block 92) and the hard interaction rule (block 93), drafted with the point first",
+ "each": {
+  "092": {
+   "block": 91,
+   "draft": "fix-20261104/next5/blocks/092.md",
+   "pass": true,
+   "lost": {}
+  }
+ },
+ "lint": {
+  "092": {
+   "exit": 2,
+   "out": [
+    "== tells_lint: /home/claude/ja-community/articles/neuro-de-armoring/humanize/fix-20261104/next5/blocks/092.md",
+    "note: the check for an idea doing what a person does used its short word list, which misses most abstract nouns; for the parsed check: pip install spacy nltk; python -m spacy download en_core_web_sm; python -c \"import nltk; nltk.download('wordnet')\"",
+    "verdict: FAIL",
+    "metrics: {'words': 84, 'my_words': 84, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 2.4, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.56, 'repeated_openers': {}}"
+   ]
+  }
+ },
+ "together": {
+  "pass": true,
+  "lost": {}
+ }
+}

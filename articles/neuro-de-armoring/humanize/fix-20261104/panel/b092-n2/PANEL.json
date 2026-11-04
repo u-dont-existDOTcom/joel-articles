@@ -1,0 +1,39 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Side effects / stop signs: Stop immediately if you get agitation + sweating + diarrhea + tremor/clonus (your muscles jerking on their own) + fever, confusion, fast heart rate, or unstable blood pressure, because that pattern can be serotonin toxicity, which can become dangerous.",
+  "The milder stop signs are stomach stuff like nausea, discomfort or loose stools, plus headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright, kind of hypomanic feeling."
+ ],
+ "flagged": {
+  "1": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph’s exhaustive lists and orderly progression from urgent warning to milder symptoms can suggest AI polishing, especially alongside its deliberate mixture of clinical and casual language. These are weak stylistic signals, not reliable evidence of authorship."
+  ],
+  "haiku": [
+   "The paragraph is built as a clean binary, a severe pattern followed by \"The milder stop signs are...\", with two symmetrical lists. That even architecture reads machine-polished, though the casual wording (\"stomach stuff\", \"kind of\") pulls against it."
+  ],
+  "sonnet": [
+   "The paragraph is built as a two-tier checklist, severe and then mild. Each tier is a long, evenly paced list with the same cadence, and nothing is singled out, prioritized or explained from experience. The voice is cautious, comprehensive and impersonal."
+  ]
+ },
+ "human_clean": []
+}

@@ -1,7 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-04, after your answers of 18:09 UTC and your message of 18:10 UTC ("8a").
-**Open questions: 0.** **For you to do**: merge the pull request when you've looked (below).
+Last updated 2026-11-04, after your message of 20:19 UTC ("so then are we done can we publish it?").
+**Open questions: 0.** **For you to do**: switch your Pangram extension to your other account, edit two stretches, and
+merge the pull request (below).
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
@@ -13,7 +14,25 @@ None.
 
 ## For you to do
 
+- 🟠 Switch the Pangram extension in Brave to your other account, and tell me. Its badge read "Daily limit reached" on
+  the whole article's temporary draft ("Neuro de-armoring, draft A (temp, delete after)"). I'll open the preview again and
+  read the result myself.
+- 🟠 Edit two stretches on [Neuro De-Armoring Cards, 4 November (4)](https://claude.ai/artifact/G7HN5K4HMTUEZPnbTaPmpk)
+  ([every card as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104E.md)): the 5-HTP stop signs, and the Low window in the interactions paragraph.
 - 🟠 Merge the pull request for this turn when you've looked.
+
+## Your message of 2026-11-04 20:19 UTC ("so then are we done can we publish it?"), and what I did
+
+Word for word: [your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/joel-20261104-2019-message.txt).
+
+- 🔵 **Not yet.** 7 of the article's 160 paragraphs read Human by themselves as they stand. Before your post: every
+  section rewritten your way and checked, the sections checked as sections, the word-for-sense read, then your post with
+  its new date.
+- 🔵 **The whole article's free check** is ready in a temporary draft, waiting on your extension's account.
+- 🟢 **The 5-HTP interactions paragraph is in**: my fourth try read
+  [Human Written, 0.0% AI](https://www.pangram.com/history/2be95f74-b2cf-45ec-a669-1807880af623), with your label
+  "Hard interaction rule:" gone and the case report your post links told as what happened in it.
+- 🟠 **The 5-HTP stop signs** read AI in five versions, four of mine and Codex's, so they're on the cards page for you.
 
 ## Your answers of 2026-11-04 18:09 UTC (your six versions) and your message of 18:10 UTC ("8a"), and what I did
 
