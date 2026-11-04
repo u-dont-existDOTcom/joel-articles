@@ -1062,6 +1062,49 @@
     }
    ],
    "recorded_utc": "2026-11-04T13:52Z"
+  },
+  {
+   "turn": "2026-11-04T14:27Z",
+   "lines_of_work": [
+    "inner child guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "2 items in suggested-fixes/joel-articles/, both already in docs/suggested-fixes-ledger.md; no new item; UDA still at c5c9951"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since turn 122's check (13:55 UTC): pull request 292 (this lane, turn 122) merged by Joel at 14:27 UTC (main 480b683a, the lane fast-forwarded to it); pull request 293 opened by the gut lane at 14:11 UTC (Healing the Gut r07), open; 290 and 280 still open; no new issues, comments or reviews (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop's handoff note is byte for byte what turn 122's update made of it (cmp with inbox/t113/note-test-t122.md); no one else changed OWNER-QUESTIONS.md or HANDOFF-UPDATE.json"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "pull request 292 merged",
+     "outcome": "turn 123's work goes in its own pull request (lane_push --pr)"
+    },
+    {
+     "item": "pull request 293 (gut lane), open",
+     "outcome": "not this lane's to review or merge; this turn changes no shared file except the records every push writes"
+    },
+    {
+     "item": "Joel, 14:27 UTC: \"yes fix the typos\"",
+     "outcome": "fixed (OWNER-EDITS.json joel-123-typos); round 10 next, the whole guide in the two temporary drafts"
+    }
+   ],
+   "recorded_utc": "2026-11-04T14:29Z"
   }
  ]
 }

@@ -275,4 +275,6 @@ The latest:
 | ic-t121-hearthwork | section | 1 of 2 | AI |
 | ic-t121-hw-p1 | paragraph | 1 of 6 | Mixed |
 | ic-t121-hw-p3 | paragraph | 1 of 6 | AI |
+| t123s-A | stretch | 1 of unlimited (Substack) | pending |
+| t123s-B | stretch | 1 of unlimited (Substack) | pending |
 
