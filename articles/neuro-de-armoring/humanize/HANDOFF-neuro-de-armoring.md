@@ -102,7 +102,10 @@ Next:
 2. **Checks**: always the lane's own, in Pangram's web app: the app's browser pane if it's signed in to Pangram, else
    Claude in Chrome in his Brave (open a new tab, run `tools/humanization/pangram_page_helpers.js` `__run`, read the
    results back from his history by SHA-256, close the tab). Never a page asking him to check (E356).
-3. **Then the rest**, from block 92 (the 5-HTP stop signs) on, his versions' moves first; the uridine and 5-HTP sections
+3. **His two hyphens for every dash** (E353 (Inner Child), in pull request 298, "yes to both": the swap for every
+   article): once 298 is in main, run `tools/humanization/typography_swap.py` on HUMANIZED-SO-FAR.md (every em dash, and
+   every en dash with a space beside it, becomes "--"; ranges like "10–20" stay), with the fidelity check after.
+4. **Then the rest**, from block 92 (the 5-HTP stop signs) on, his versions' moves first; the uridine and 5-HTP sections
    go to a section check once their paragraphs read Human (High).
 
 ## Earlier next step (2026-11-04, after Joel's message of 14:59 UTC: his six checks in the web app)
