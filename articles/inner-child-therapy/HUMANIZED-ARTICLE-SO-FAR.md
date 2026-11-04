@@ -486,7 +486,7 @@ Put the photo back in its drawer when you're finished. If it starts tugging at y
 
 ## Journal With Each Hand
 
-Lucia Capacchione, an art therapist, wrote a whole book on this one, [The Power of Your Other Hand](https://www.luciac.com/). As titles go, it's pretty literal. Your other hand, the clumsy one, writes like a first grader anyway, so it gets the scared or hurt feelings, as well as some extra creative juice. The usual hand answers, as the grown-up. Some people who get nothing but silence from their little one are surprised by what the other hand comes up with. A protective part might grab the pen first, and then it gets that hand until it's had its say.
+Lucia Capacchione, an art therapist, wrote a whole book on this one, [The Power of Your Other Hand](https://www.luciac.com/). As titles go, it's pretty literal. Your other hand, the clumsy one, writes like a first grader anyway, so it gets the scared or hurt feelings, as well as some extra creative juice. The usual hand answers, as the grown-up. Some people who get nothing but silence from their little one are surprised by what the other hand comes up with. A protective part might grab the pen first, and then it gets that hand until it's had its say, even if all it can do is scribble angrily.
 
 For some people, writing might make them feel more confused, especially at first, or nothing might want to be written. Then just keep track for a while, and save the patterns for later, if they turn out to matter at all.
 
@@ -937,7 +937,7 @@ The basic premise of [Hearthwork](https://hearthwork.u-dont-exist.com), my peer-
 
 Some of what the three grown-up jobs do can come from outside you, too. When you take turns listening with a good peer, as equals, their warmth and the way they stay with you lend you the Nurturer for a while. Keeping what you say private, and stopping when the time's up, lends you the Protector. If you say no, they don't push. But they don't act as your Guide, or decide what your experience means. Maybe they're thinking, "Oh, I know what this is about," or "Here's what you should do." They keep it to themselves. A question from them at the right moment can help you hear your own Guide, and what you answer is up to you. Then you trade places, and it's your turn to keep "Here's what you should do" to yourself.
 
-The peer doesn't become your permanent parent, though. They show you a capacity, help you get the hang of it, and give it back to you, which is borrowed adulthood in its healthiest form. Is that therapy? Well, not the mainstream kind, but yes, for sure. Professional therapy's still useful for what it does, and peers and community do something else, so a serious healing path can include both.
+The peer doesn't become your permanent parent, though. They show you a capacity, help you get the hang of it, and give it back to you, which is borrowed adulthood in its healthiest form (a driving instructor isn't planning to drive you around forever either). Is that therapy? Well, not the mainstream kind, but yes, for sure. Professional therapy's still useful for what it does, and peers and community do something else, so a serious healing path can include both.
 
 ### Dating While You Heal
 

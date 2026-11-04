@@ -1,0 +1,93 @@
+{
+ "name": "t121_hw_p3",
+ "task_id": "9d54b6ed-cacc-49e5-8c12-d0b00f1778f4",
+ "result": {
+  "stage": "STAGE_SUCCESS",
+  "text": "The peer doesn’t become your permanent parent, though. They show you a capacity, help you get the hang of it, and give it back to you, which is borrowed adulthood in its healthiest form (a driving instructor isn’t planning to drive you around forever either). Is that therapy? Well, not the mainstream kind, but yes, for sure. Professional therapy’s still useful for what it does, and peers and community do something else, so a serious healing path can include both.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is AI.",
+  "prediction_short": "AI",
+  "fraction_ai": 1.0,
+  "fraction_ai_assisted": 5.529287390971971e-22,
+  "fraction_human": 5.7865574554227805e-09,
+  "headline": "AI Generated",
+  "num_ai_segments": 4,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 0,
+  "windows": [
+   {
+    "text": "The peer doesn’t become your permanent parent, though.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 0,
+    "end_index": 54,
+    "word_count": 9,
+    "token_length": 11,
+    "is_humanized": false,
+    "humanizer_score": 0.776117742061615,
+    "class_probabilities": [
+     6.95142416817508e-16,
+     0.0,
+     1.0
+    ],
+    "calibrated_confidence": 0.9892636312535132
+   },
+   {
+    "text": " They show you a capacity, help you get the hang of it, and give it back to you, which is borrowed adulthood in its healthiest form (a driving instructor isn’t planning to drive you around forever either).",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "High",
+    "start_index": 54,
+    "end_index": 259,
+    "word_count": 38,
+    "token_length": 44,
+    "is_humanized": false,
+    "humanizer_score": 0.776117742061615,
+    "class_probabilities": [
+     9.15097491959355e-37,
+     0.0,
+     1.0
+    ],
+    "calibrated_confidence": 0.9973743632830961
+   },
+   {
+    "text": " Is that therapy?",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9999998211860657,
+    "confidence": "Low",
+    "start_index": 259,
+    "end_index": 276,
+    "word_count": 3,
+    "token_length": 4,
+    "is_humanized": false,
+    "humanizer_score": 0.776117742061615,
+    "class_probabilities": [
+     1.589600913121103e-07,
+     1.5189276865828297e-20,
+     0.9999998211860657
+    ],
+    "calibrated_confidence": 0.8120604781997187
+   },
+   {
+    "text": " Well, not the mainstream kind, but yes, for sure. Professional therapy’s still useful for what it does, and peers and community do something else, so a serious healing path can include both.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 1.0,
+    "confidence": "Medium",
+    "start_index": 276,
+    "end_index": 467,
+    "word_count": 33,
+    "token_length": 40,
+    "is_humanized": false,
+    "humanizer_score": 0.776117742061615,
+    "class_probabilities": [
+     3.5143746382671663e-15,
+     0.0,
+     1.0
+    ],
+    "calibrated_confidence": 0.9885081431754236
+   }
+  ],
+  "dashboard_link": "https://www.pangram.com/history/1468591d-d54f-4d7a-9d8e-5b2a87027305"
+ }
+}

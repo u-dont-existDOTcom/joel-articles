@@ -2,6 +2,7 @@
 the tool change it tests stayed out of the commit, and the checks, which run on the working tree, passed anyway)."""
 import pathlib
 import sys
+import os
 import subprocess
 import unittest
 from unittest import mock
@@ -59,6 +60,54 @@ class LaneIntegration(unittest.TestCase):
     def test_main_merged_passes(self):
         with mock.patch.object(P, 'run', self.fake(behind=False)):
             self.assertEqual(P.main_gate(), '')
+
+    def test_main_is_fetched_into_origin_main_whatever_the_clone_fetches(self):
+        """A clone whose fetch refspec names only its lane branch kept a weeks-old origin/main after "git fetch origin
+        main" (2026-11-04, the Inner Child lane's laptop clone): the fetch has to name refs/remotes/origin/main."""
+        calls = []
+        fake = self.fake(behind=False)
+
+        def run(cmd, check=True, timeout=600):
+            calls.append(cmd)
+            return fake(cmd, check, timeout)
+        with mock.patch.object(P, 'run', run):
+            P.main_gate()
+        fetches = [c for c in calls if c[:2] == ['git', 'fetch']]
+        self.assertEqual(len(fetches), 1)
+        self.assertIn('+refs/heads/main:refs/remotes/origin/main', fetches[0])
+
+    def test_a_narrow_clone_sees_the_main_on_github(self):
+        """The same with real repositories: a bare origin whose main moves on, and a clone that fetches only its lane."""
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            env = {k: v for k, v in os.environ.items() if not k.startswith('GIT_')}
+            env.update(GIT_AUTHOR_NAME='t', GIT_AUTHOR_EMAIL='t@t', GIT_COMMITTER_NAME='t', GIT_COMMITTER_EMAIL='t@t')
+            g = lambda *a, cwd=d: subprocess.run(['git', *a], cwd=cwd, env=env, check=True, capture_output=True, text=True).stdout.strip()
+            g('init', '-q', '--bare', 'origin.git')
+            g('clone', '-q', 'origin.git', 'seed')
+            seed = os.path.join(d, 'seed')
+            g('checkout', '-q', '-b', 'main', cwd=seed)
+            g('commit', '-q', '--allow-empty', '-m', 'one', cwd=seed)
+            g('push', '-q', 'origin', 'main', cwd=seed)
+            g('checkout', '-q', '-b', 'lane', cwd=seed)
+            g('push', '-q', 'origin', 'lane', cwd=seed)
+            g('clone', '-q', '--single-branch', '--branch', 'lane', 'origin.git', 'lane')
+            lane = os.path.join(d, 'lane')
+            g('fetch', '-q', 'origin', '+refs/heads/main:refs/remotes/origin/main', cwd=lane)
+            g('checkout', '-q', 'main', cwd=seed)
+            g('commit', '-q', '--allow-empty', '-m', 'two', cwd=seed)
+            g('push', '-q', 'origin', 'main', cwd=seed)
+            new_main = g('rev-parse', 'HEAD', cwd=seed)
+            g('fetch', '-q', 'origin', 'main', cwd=lane)        # what the gate did before: origin/main stays put
+            self.assertNotEqual(g('rev-parse', 'origin/main', cwd=lane), new_main)
+
+            def run(cmd, check=True, timeout=600):
+                return subprocess.run(cmd, cwd=lane, env=env, capture_output=True, text=True, timeout=timeout)
+            with mock.patch.object(P, 'run', run):
+                with self.assertRaises(SystemExit) as e:
+                    P.main_gate()                                # now: it sees main moved and refuses
+            self.assertIn('git merge origin/main', str(e.exception))
+            self.assertEqual(g('rev-parse', 'origin/main', cwd=lane), new_main)
 
     def test_no_pull_request_and_no_pr_option_refuses(self):
         a = P.parser().parse_args(['subject'])
