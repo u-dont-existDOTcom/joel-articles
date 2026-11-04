@@ -111091,7 +111091,7 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/pangram-ledger.jsonl",
-          "sha256": "a3492ff575ddd12dc2fcba30bbe6dbf963595f21ca126b8d87d136d024fe19cc",
+          "sha256": "c1661505f2308dec859fde91332c2932bb62dc347a1be0e5091de4173cd68fc2",
           "role": "humanization_working_record"
         },
         {
@@ -113896,12 +113896,12 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r10/substack/PASTED.json",
-          "sha256": "1df1915d17643dc364d936e7c7506fd3f0264b65d444ac250ad381b47650a549",
+          "sha256": "a2654697593e2f7c7ebf627b933bdbf7a4239be4c69f6c53d44da5c8b563e5b0",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r10/substack/README.md",
-          "sha256": "55bdde8fc77a2f6fd026953d1a7b5268f9d71034f17aa358abfcabd86541fe65",
+          "sha256": "e8e81c2ea54df3c0bd097ce538924ebc26a67559dc332375f70bbe43f9957ab8",
           "role": "humanization_working_record"
         },
         {
@@ -113922,6 +113922,21 @@
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r10/substack/paste_payload_lane.js",
           "sha256": "2d296ecc30dded13c1767fc62d883cfd54415906bd92515d92c33f172931aab8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/experiments/t10-answers/joel-20261104-2008-message.txt",
+          "sha256": "925c4190b87b1b02169461e5c0b477951d9c1ce6bec98fa4f8fa12d59b2d8fda",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r10/substack/RESULT-A.json",
+          "sha256": "678514068595bf46dedaba4ab6820108de4c79d685c0d55c3115ae7dd538ac6c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r10/substack/WINDOWS.md",
+          "sha256": "f94864ef7a9e9328b17c7ec8b5a597c4ec6735c0f348d1ddbc52b426d4f8ff1e",
           "role": "humanization_working_record"
         }
       ]

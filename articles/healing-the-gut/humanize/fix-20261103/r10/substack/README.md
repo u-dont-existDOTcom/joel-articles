@@ -7,4 +7,6 @@ r10 has his stacks section as he fixed and checked it: [Human Written, 100%](htt
 - **The label:** Human (the Pangram extension, in the Claude in Chrome browser).
 - **The first page that came (18:26 UTC) was r07's check.** It was made at 14:18 UTC with r07's text, from draft A's older tab in his Brave, and is recorded under `r07/substack/`.
 - **Draft B:** the same r10 text in a second temporary draft with its own address (`PASTED.json`, B). It is pasted and checked the same way, and opened only in his Brave (18:34 UTC).
-- **Still to come:** draft B's result page. Then `RESULT-B.json` and `WINDOWS.md`, and the ledger result for #117.
+- **The result:** [Human Written, 100% human](https://www.pangram.com/feed/6d370e2e-7a9c-49b9-8e34-e5180d888fac), 3,593 words. Joel sent it at 20:08 UTC ("looks good"). Its text is `CHECKED-TEXT-A.txt` exactly. The page was made at 16:50 UTC, from draft A's r10 tab, so draft B wasn't needed.
+- **Windows:** Human High 13, Human Medium 11, nothing Low and nothing AI. The Medium ones are short bits, mostly cut at an abbreviation's period ("This is Dr.", "Michael Ruscio.", "It contains L."). The longest is 14 words ("Either way you stop feeding the bacteria in your small intestine. And no snacking!", 0.955). `WINDOWS.md` lists them all, from `RESULT-A.json`.
+- **Ledger:** #117 read Human, as predicted.

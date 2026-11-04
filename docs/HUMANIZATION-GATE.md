@@ -2328,11 +2328,17 @@ His message and his batch-1 page's answers, word for word: `articles/healing-the
   refuses every action on that tab). So:
   - never call that browser his, or say he can see what it opens; it can give the label next to the author's name, which
     is worth recording, but the full analysis comes from him;
-  - open the secret link in his own Brave from his laptop's shell, `brave-browser-stable '<link>'`, which opens a tab in
-    his running session ("Opening in existing browser session"), and ask him for the result page
-    (`https://www.pangram.com/feed/<uuid>`), which any headless browser can then read without a sign-in;
-  - a feed page keeps the text it first checked: r06's page still held r06's text after r07 was pasted, so a recheck's
-    result is a new page, never the old link.
+  - give him the secret link in the message, to click himself, and ask him for the result page
+    (`https://www.pangram.com/feed/<uuid>`), which any headless browser can then read without a sign-in. Don't open tabs
+    in his browser: Joel, 2026-11-04 20:08 UTC, after I had opened two on the same draft from his laptop's shell and he
+    sent the older one's page (r07's check, when r10's was wanted): "for future just give me the links to click because
+    what happens is you open tabs then i'm not here then someone else opens tabs etc and it gets lost. only takes me a
+    second";
+  - read the page's text before recording it: its SHA-256 has to be the checked text's (`substack_check_text.py`), and its
+    time has to come after the paste. A feed page keeps the text it first checked: r06's page still held r06's text after
+    r07 was pasted, and the page he sent at 18:26 UTC held r07's text (made at 14:18 UTC), so a recheck's result is a new
+    page, never an old link. When a recheck goes in the same draft, say in the message which link is the new one; a second
+    temporary draft with its own address (draft B) makes it unmistakable.
 - **E354. The whole article doesn't decide: every window a smaller check showed is fixed before the article is checked.**
   Joel, 2026-11-04 14:41 UTC: "no the whole article doesn't decide, we need to first fix any windows we can see before we
   check the article". The stacks section, with its two paragraphs redone, read AI by itself through the API (5% human; 12
