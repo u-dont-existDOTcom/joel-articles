@@ -259,7 +259,8 @@ psychedelics rare but recognised ([Schlag et al. 2022](https://doi.org/10.1177/0
     a dose scaled from the traditional Mexican tea of 12 to 14 dried leaves in a liter a day. By day 10, 4 of 10 had
     blistering skin sores; by day 15, 7 of 10 had died, and the tea was stopped. A single large dose did 7 healthy mice no
     immediate harm, and the authors warn that sick mice may be more vulnerable than people. That's daily dosing in sick
-    mice, not a nibble, but the guide has no word on the plant's own safety: card W-GLORY offers one.
+    mice, not a nibble, but the guide has no word on the plant's own safety: card W-GLORY offered one, and he rejected
+    it ("not sure why mice with no immune system says about an herb humans use traditionally already").
 
 **Metta NMT sniffer, humic acid, ocean water:** no warnings in these subsections.
 
@@ -396,9 +397,12 @@ None of these changed what the guide would say beyond the cards. The full list, 
 verdict, fate, sources and queries:
 [WARNINGS-CHECKED.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t05-warnings/WARNINGS-CHECKED.json).
 
-## Next
+## His answers (2026-11-04 14:25 UTC)
 
-Nothing in the guide has changed yet. The 9 cards are on
-[round 3's marking page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r03/REVIEW-R03.md):
-2 cuts unless they're your experience, 5 lines changed to what their studies show, the beach morning glory study, and
-the chest pain line.
+On [round 3's cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r03/REVIEW-R03.md)
+([his answers file](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r03/ANSWERS-R03-20261104-1425.json)):
+7 approved and in the guide (W-SS, W-ITCH, W-SLEEP, W-TAR, W-NSAID, W-CHOLINE, W-CHEST; the two cuts are on the
+keep-as-is list as C6 and C7). W-GLORY rejected: "not sure why mice with no immune system says about an herb humans use
+traditionally already", so the guide says nothing on the mouse study (item 36). W-CBD sent back to revise, with what he
+found on CBD and focal seizures: each point checked, and the paragraph redone as round 4's W-CBD2
+([round 4's cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r04/REVIEW-R04.md)).

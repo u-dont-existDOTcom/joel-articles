@@ -1,6 +1,6 @@
 # Bad Trips guide: current state
 
-Updated: 2026-11-04 (turn 6, 13:19 UTC: the warnings check's results; no new message from him). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
+Updated: 2026-11-04 (turn 7, his round-3 answers and messages of 14:25 and 14:26 UTC). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
 badtrips guide at badtrips.u-dont-exist.com"; `experiments/t01-answers/JOEL-MESSAGE-20261103-1545.md`).
 
 ## Goal
@@ -78,16 +78,30 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
   DMSO depleting choline), 5 lines changed to what their studies show (transdermal CBD, "Psychedelics" in serotonin
   syndrome, the ferment itch, DMSO sleep in rats, DMSO with corticosteroids and NSAIDs), a 2026 mouse study on beach
   morning glory, and the chest-pain line where the guide parts from the AHA.
+- 2026-11-04 (turn 7, his round-3 answers of 14:25 UTC and his messages of 14:25 and 14:26 UTC: he's putting the app in
+  himself, with GPT on his VPS, and asked whether to wait for the claims check): answered at once (go ahead, with
+  version 9: version 8 plus the one round-3 line the app shares with the guide, the ferment itch; tested; sent and put on
+  his laptop); main merged (pull request 291, its mailbox merge driver used and set in this clone); his messages saved
+  (`experiments/t06-answers/`) and his answers (`review/r03/ANSWERS-R03-20261104-1425.json`) applied by
+  `review/r03/apply_r03.py`: the 7 approved cards in, each checked against its card (W-SLEEP's link moved with its words),
+  12,745 to 12,733 words; `GUIDE-SO-FAR.md` is now the guide after round 3 (no characters to swap); the two cuts on
+  `KEEP-AS-IS.json` (C6, C7); fidelity keys taken again (`humanize/h01/FIDELITY-KEYS-R03.json`: 133 warning sentences, 57
+  terms, 32 numbers); the whole-guide page re-rendered. W-GLORY rejected ("not sure why mice with no immune system says
+  about an herb humans use traditionally already"). His W-CBD Revise came with a summary of the evidence on CBD and
+  focal seizures; each point checked (PubMed: Patel et al. 2025, doi 10.1111/epi.18496; the FDA's Epidiolex label of May
+  2026) and the paragraph redone as round 4's W-CBD2, with the four checklist pointers moved to the app (APP-1 to APP-4)
+  on the same page (`review/r04/`, Bad Trips Guide, Round 4, https://claude.ai/artifact/HcLtoHF2XB2wSoxbvwmEVf; browser
+  test 78 of 78). The live app still showed version 7 at 14:40 UTC.
 
 ## Current checkpoint
 
-- **In progress:** Turn 6: round 3's 9 cards (the warnings check) are on his page; version 8 of the web app waits for him to paste it into the app's page.
-- **Next step (updated on every push, so another account can pick up here):** His round-3 answers in with an `apply_r03.py` like round 2's (the page's export, saved as `review/r03/ANSWERS-R03-*.json`; three cards move or add a link: W-CBD's link goes from "transdermal CBD reaches systemic circulation" to "12-week trial", W-SLEEP's from "proven in rats" to the new sentence, and W-GLORY's new sentence links https://doi.org/10.3390/nu18142248 on "a 2026 study"; a cut he rejects as his experience goes to `KEEP-AS-IS.json` and the check's record as his). Then the whole-guide Pangram check of the long part on a temporary Substack draft (payloads as the Inner Child lane's turn 119, `articles/inner-child-therapy/experiments/t119-substack/`; secret link opened in his Brave through Claude in Chrome), every window recorded with its confidence; then humanize section by section, worst first, one paragraph at a time where a section reads AI (E343), each sentence following the one before (E351). When the live page shows `data-version="2026-11-04-v8"`, take the checklist out of the guide and point its four mentions of the checklist at the app.
-- **Waiting on Joel:** round 3's 9 cards; version 8 into the app's page (his task).
+- **In progress:** Turn 7: round 4's 5 cards are on his page; he's putting version 9 of the app into its page.
+- **Next step (updated on every push, so another account can pick up here):** His round-4 answers in with an `apply_r04.py` like round 3's (the page's export, saved as `review/r04/ANSWERS-R04-*.json`). W-CBD2's links: "approved" to the FDA label (https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/210365s024s029s030lbl.pdf), "12-week trial" to https://pubmed.ncbi.nlm.nih.gov/35802375/ (the link the old sentence had), "2025 study" to https://pubmed.ncbi.nlm.nih.gov/40673944/. APP-1 to APP-4 link "triage app" to https://ibogaqueen.com/1625-2/ and go in with the checklist's removal, once the live page shows `data-version="2026-11-04-v9"` (check from his laptop: `curl -s https://ibogaqueen.com/1625-2/ | grep -o 'data-version="[^"]*"'`; the cloud shell can't reach it): the Quick Bad Trip Checklist is B3 up to the block before B65 ("Inner Signal App to the Rescue!"); B0, the app link, stays at the top; then `section_refs.py` and the link check, OWNER-EDITS `checklist-to-app` done. Then the whole-guide Pangram check of the long part on a temporary Substack draft (payloads as the Inner Child lane's turn 119, `articles/inner-child-therapy/experiments/t119-substack/`, and the gut lane's r06, `articles/healing-the-gut/humanize/fix-20261103/r06/substack/`; secret link opened in his Brave through Claude in Chrome), every window recorded with its confidence; then humanize section by section, worst first, one paragraph at a time where a section reads AI (E343), each sentence following the one before (E351), fidelity against `humanize/h01/FIDELITY-KEYS-R03.json`.
+- **Waiting on Joel:** round 4's 5 cards; version 9 into the app's page (he's doing it now, with GPT on his VPS).
 
 ## Remaining
 
-His round-3 answers put in; the 5 generic lines the check left for the humanizing; an overcompletion read (gate E328); the
+His round-4 answers put in, and the checklist out once the app is live; the 5 generic lines the check left for the humanizing; an overcompletion read (gate E328); the
 humanizing of every section that reads AI or below High, by the gate's own writers (Emulate is no longer used on his writing, Joel 2026-11-03); the word-for-sense read
 (gate E331); his post updated, with the title's version and date (gate E323).
 

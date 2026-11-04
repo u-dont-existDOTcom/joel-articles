@@ -223,7 +223,7 @@ DMSO is also my first remedy for many injuries and some chest pain. After I over
 
 The cardiovascular science is preclinical but relevant. In rats, DMSO pretreatment reduced myocardial infarct size by about three quarters and sharply reduced cardiac injury markers. Other work found inhibition of tissue factor, platelet activation, and arterial thrombus formation. [Myocardial-ischemia study](https://pubmed.ncbi.nlm.nih.gov/19904216/); [tissue-factor and thrombosis study](https://pubmed.ncbi.nlm.nih.gov/17000906/); [human platelet study](https://pubmed.ncbi.nlm.nih.gov/20035720/).
 
-Mild, familiar, non-progressive discomfort in a fully alert person is different from new, severe, persistent, worsening, radiating, or exertional pain – or pain with breathlessness, sweating, faintness, neurological changes, or collapse. In the second branch, I would use DMSO while arranging medical evaluation. DMSO can also block pain signals, so pain relief alone does not prove that the underlying problem has ended.
+Mild, familiar, non-progressive discomfort in a fully alert person is different from new, severe, persistent, worsening, radiating, or exertional pain – or pain with breathlessness, sweating, faintness, neurological changes, or collapse. In the second branch, I would use DMSO while arranging medical evaluation. If you're not sure which branch it is, treat it as the second. DMSO can also block pain signals, so pain relief alone does not prove that the underlying problem has ended.
 
 ## Recent Oral Toxic Ingestion
 
@@ -235,7 +235,7 @@ Poison control may be useful when the substance, combination, delayed risk, or v
 
 ## Suspected Serotonin Syndrome (SS)
 
-Serotonin syndrome overlaps with several symptoms above, but the rescue measures in the other branches do not necessarily treat it. It can follow serotonergic medication changes, combinations, or excessive exposure. Psychedelics, MDMA, DXM, many antidepressants, tramadol, linezolid, MAOIs, and some opioids can contribute, especially in combinations.
+Serotonin syndrome overlaps with several symptoms above, but the rescue measures in the other branches do not necessarily treat it. It can follow serotonergic medication changes, combinations, or excessive exposure. Ayahuasca and other MAOI brews, MDMA, DXM, many antidepressants, tramadol, linezolid, other MAOIs, and some opioids can contribute, especially in combinations.
 
 ### Recognizing serotonin toxicity
 
@@ -291,7 +291,7 @@ These are the first things I would use, even preventively on the come-up, becaus
 
 When the trip feels like sick stomach, nausea, diarrhea, toxic heaviness, a dirty body-feeling, parasite die-off, or mental hell driven by gut hell, zeolite and the ZHoly3O ferment are often my first thoughts.
 
-Many ferments help to different degrees, including kombucha, kimchi, and apple vinegar. I prefer fermented beet juice made with apple vinegar and salt. Smelling the ferment helps a lot. Drinking a spoonful can also help, although it may cause itching in somebody low in histamine-processing bacteria, which then requires activated charcoal to reduce gut histamine.
+Many ferments help to different degrees, including kombucha, kimchi, and apple vinegar. I prefer fermented beet juice made with apple vinegar and salt. Smelling the ferment helps a lot. Drinking a spoonful can also help, although it may cause itching in somebody who breaks down histamine poorly, which then requires activated charcoal to reduce gut histamine.
 
 In my experiments, zeolite has to be prepared correctly. I use powdered zeolite rather than nano-liquid zeolite. Many products did nothing for me, and quality mattered enormously. Most zeolites have clogged pores because they haven't been cleaned.
 
@@ -387,15 +387,14 @@ It overlaps with aged ozonated-charcoal water, but the two don't always work equ
 
 - **Astringency:** 100% DMSO usually irritates skin on the upper half of the body. When it itches, dilute it with water or real aloe juice without added chemicals. Leaving 100% DMSO on the skin can crenate it, and the skin may take a week to look plump again. DMSO can also burn dry mouth tissue, so the mouth should be moist first.
 - **Nausea:** when drinking DMSO, dilute it in water, juice, or milk and sip gradually. Sensitivity varies.
-- **Reduced sleep:** DMSO reduces how long I sleep when I take too much, take it too late, or use it over too many consecutive days. It builds up past a threshold that seems to differ between people. This is [proven in rats](https://www.sciencedirect.com/science/article/abs/pii/S0378427405000810). Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake.
+- **Reduced sleep:** DMSO reduces how long I sleep when I take too much, take it too late, or use it over too many consecutive days. It builds up past a threshold that seems to differ between people. [In rats, higher doses made sleep lighter](https://www.sciencedirect.com/science/article/abs/pii/S0378427405000810). Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake.
 - **Body odor:** above a certain dose you may smell like sulfur. I don't smell when I put it into milk.
 
 **Interactions:**
 
 - Don't put it on dirty skin; it can carry chemicals inward.
-- Don't nebulize too much DMSO when your lungs are full of smoking-related tar, because it can carry those substances into the blood too quickly. Weakness is an early symptom.
-- Don't take it with drugs that should not absorb rapidly, including corticosteroids and NSAIDs. With harmalas, don't put the harmala in the DMSO or take them at exactly the same time; taking them a bit apart is totally fine, and the point is to take DMSO if you've already absorbed the harmalas and the aya is too crazy.
-- Don't combine it with cholinergic drugs because DMSO is also cholinergic, although I haven't found anecdotes of this causing a real problem. Supplement extra choline because DMSO depletes it.
+- Don't take it with drugs that should not absorb rapidly: DMSO can strengthen other medicines taken with it. With harmalas, don't put the harmala in the DMSO or take them at exactly the same time; taking them a bit apart is totally fine, and the point is to take DMSO if you've already absorbed the harmalas and the aya is too crazy.
+- Don't combine it with cholinergic drugs because DMSO is also cholinergic, although I haven't found anecdotes of this causing a real problem.
 
 **Contraindications:**
 

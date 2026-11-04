@@ -1,0 +1,2352 @@
+{
+ "about": "fidelity_keys.py extract: the numbers, terms and warnings of the master, which a draft must keep",
+ "numbers": {
+  "1": 6,
+  "10": 1,
+  "100": 2,
+  "100.4": 1,
+  "11": 3,
+  "12": 1,
+  "13": 1,
+  "13-17": 1,
+  "14": 1,
+  "15": 1,
+  "2": 6,
+  "20": 1,
+  "2024": 1,
+  "24-72hour": 1,
+  "24hours": 1,
+  "3": 10,
+  "30-60minutes": 1,
+  "328": 1,
+  "38": 1,
+  "4": 5,
+  "5": 3,
+  "5mg": 2,
+  "6": 2,
+  "623-473": 1,
+  "7": 2,
+  "7433": 1,
+  "8": 2,
+  "9": 1,
+  "911": 1,
+  "988": 2,
+  "99": 1,
+  ">2": 1
+ },
+ "terms": [
+  "1aBjoARwlOY",
+  "5-HTP",
+  "5-MeO-DMT",
+  "7lIIHR5hT3c",
+  "9yp0lvYKK6Q",
+  "AMPA-mediated",
+  "BDSM",
+  "CBD",
+  "CBT",
+  "CBT-style",
+  "CO",
+  "CPEP",
+  "DMSO",
+  "DMSO-first",
+  "DXM",
+  "EMF",
+  "EMS",
+  "ER",
+  "FAQ",
+  "GordoTek",
+  "HERE",
+  "HPPD-like",
+  "ICEERS",
+  "IV",
+  "MAOI",
+  "MAOIs",
+  "MAPS",
+  "MCAS",
+  "MDMA",
+  "MDMA-related",
+  "NMDA",
+  "NMT",
+  "SAM-e",
+  "SNRI",
+  "SS",
+  "SSRI",
+  "TripSit",
+  "UK",
+  "WhatsApp",
+  "YouTube",
+  "ZENDO",
+  "ZHoly3O",
+  "ayahuasca",
+  "harmala",
+  "harmalas",
+  "iboga",
+  "ketamine",
+  "kzq6idkl1B4",
+  "linezolid",
+  "magnesium",
+  "opioids",
+  "potassium",
+  "psilocybin",
+  "sam-e",
+  "serotonin",
+  "sodium",
+  "tramadol"
+ ],
+ "units": [
+  {
+   "id": "W001",
+   "what": "Then stop unsafe momentum, fix the room, help the body, find one calm human, protect sleep, and only then start interpreting anything.",
+   "paragraph": 4,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "interpreting"
+    ],
+    [
+     "momentum"
+    ]
+   ]
+  },
+  {
+   "id": "W002",
+   "what": "Trouble breathing, a prolonged or repeated seizure, collapse, inability to wake normally, dangerous overheating, severe or worsening chest pain, one-sided weakness, inability to speak normally, loss of bodily control, serious injury, repeated vomiting, a dangerous drug combination, or someone who cannot be kept physically safe?",
+   "paragraph": 6,
+   "keys": [
+    [
+     "dangerous"
+    ],
+    [
+     "one-sided"
+    ],
+    [
+     "wake"
+    ]
+   ]
+  },
+  {
+   "id": "W003",
+   "what": "Please don't spiritually process a body that is going under.",
+   "paragraph": 7,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "process"
+    ],
+    [
+     "please"
+    ]
+   ]
+  },
+  {
+   "id": "W004",
+   "what": "Use DMSO immediately while checking whether they can stay awake, breathe normally, smile evenly, raise both arms, repeat a simple sentence, walk, control their bodily functions, and report seizure, severe headache, repeated vomiting, dangerous heat, chest pain, or vision changes.",
+   "paragraph": 10,
+   "keys": [
+    [
+     "dangerous"
+    ],
+    [
+     "DMSO"
+    ],
+    [
+     "checking"
+    ],
+    [
+     "sentence"
+    ]
+   ]
+  },
+  {
+   "id": "W005",
+   "what": "These checks include several recognized stroke warning signs.",
+   "paragraph": 10,
+   "keys": [
+    [
+     "warning"
+    ],
+    [
+     "recognized"
+    ],
+    [
+     "checks"
+    ]
+   ]
+  },
+  {
+   "id": "W006",
+   "what": "If this is a psychedelic and the concern is actual brain damage rather than a trip that is merely too intense, I am no longer trying to preserve the trip: DMSO comes first, then Ipomoea pes-caprae to stop the trip cold and fast.",
+   "paragraph": 11,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "DMSO"
+    ],
+    [
+     "actual"
+    ],
+    [
+     "longer"
+    ]
+   ]
+  },
+  {
+   "id": "W007",
+   "what": "Stop the immediate momentum toward roads, balconies, water, stoves, knives, crowds, fights, strangers, driving, posting, texting, or leaving alone.",
+   "paragraph": 14,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "knives"
+    ],
+    [
+     "stoves"
+    ]
+   ]
+  },
+  {
+   "id": "W008",
+   "what": "Don't make this ideological.",
+   "paragraph": 21,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "ideological"
+    ]
+   ]
+  },
+  {
+   "id": "W009",
+   "what": "Avoid strenuous exercise with overheating, chest pain, faintness, severe confusion, stimulant use, unknown drug mixtures, or other medical instability.",
+   "paragraph": 22,
+   "keys": [
+    [
+     "avoid"
+    ],
+    [
+     "instability"
+    ],
+    [
+     "strenuous"
+    ]
+   ]
+  },
+  {
+   "id": "W010",
+   "what": "Some dangerous states feel wonderful.",
+   "paragraph": 36,
+   "keys": [
+    [
+     "dangerous"
+    ],
+    [
+     "wonderful"
+    ],
+    [
+     "states"
+    ]
+   ]
+  },
+  {
+   "id": "W011",
+   "what": "Bliss, certainty, and \"I have a mission\" can be more dangerous than fear because the person may resist grounding.",
+   "paragraph": 36,
+   "keys": [
+    [
+     "dangerous"
+    ],
+    [
+     "resist"
+    ],
+    [
+     "bliss"
+    ]
+   ]
+  },
+  {
+   "id": "W012",
+   "what": "Don't try to win a metaphysical argument.",
+   "paragraph": 40,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "metaphysical"
+    ],
+    [
+     "argument"
+    ]
+   ]
+  },
+  {
+   "id": "W013",
+   "what": "Don't agree with harmful conclusions either.",
+   "paragraph": 40,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "agree"
+    ],
+    [
+     "harmful"
+    ]
+   ]
+  },
+  {
+   "id": "W014",
+   "what": "But don't let \"toxins\" distract from repeated vomiting, severe abdominal pain, dehydration, blood, fever, confusion, fainting, respiratory depression, collapse, seizure, dangerous overheating, or another concrete sign of poisoning.",
+   "paragraph": 44,
+   "keys": [
+    [
+     "dangerous"
+    ],
+    [
+     "don't"
+    ],
+    [
+     "poisoning"
+    ],
+    [
+     "concrete"
+    ]
+   ]
+  },
+  {
+   "id": "W015",
+   "what": "More: When the Goal Is to Stop a Psychedelic Trip",
+   "paragraph": 52,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "goal"
+    ],
+    [
+     "psychedelic"
+    ]
+   ]
+  },
+  {
+   "id": "W016",
+   "what": "- Trouble breathing, blue or gray lips, or respiratory depression - A convulsive seizure lasting about five minutes, repeated seizures without normal recovery, or a first or substantially different seizure - Collapse, inability to wake normally, or rapidly worsening consciousness - Dangerous overheating, severe rigidity, or clonus with fever - Sudden one-sided weakness, loss of speech, inability t",
+   "paragraph": 69,
+   "keys": [
+    [
+     "dangerous"
+    ],
+    [
+     "MAOI"
+    ],
+    [
+     "uncontrolled"
+    ],
+    [
+     "concerning"
+    ]
+   ]
+  },
+  {
+   "id": "W017",
+   "what": "Get urgent help when somebody may harm themselves or another person, cannot be kept physically safe, is moving toward roads, water, or heights, has command voices or fixed terrifying beliefs driving action, becomes violent, is severely confused and unreachable, has dangerous physical symptoms, has lost enough sleep that judgment is collapsing, or exceeds what the sitter can safely contain.",
+   "paragraph": 74,
+   "keys": [
+    [
+     "dangerous"
+    ],
+    [
+     "unreachable"
+    ],
+    [
+     "severely"
+    ]
+   ]
+  },
+  {
+   "id": "W018",
+   "what": "Use local emergency services for immediate danger or a medical emergency.",
+   "paragraph": 75,
+   "keys": [
+    [
+     "danger"
+    ],
+    [
+     "services"
+    ],
+    [
+     "local"
+    ]
+   ]
+  },
+  {
+   "id": "W019",
+   "what": "Call 911 for immediate danger, a crime in progress, medical emergency, weapon, violence underway, or a situation you cannot safely contain.",
+   "paragraph": 75,
+   "keys": [
+    [
+     "danger"
+    ],
+    [
+     "911"
+    ],
+    [
+     "progress"
+    ],
+    [
+     "crime"
+    ]
+   ]
+  },
+  {
+   "id": "W020",
+   "what": "A scared, psychotic-feeling person often receives a benzodiazepine; those drugs don't reliably address psychosis and can cause paradoxical agitation or fear in some people.",
+   "paragraph": 80,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "psychotic-feeling"
+    ],
+    [
+     "paradoxical"
+    ]
+   ]
+  },
+  {
+   "id": "W021",
+   "what": "Do not dismiss that report because the person is high or cannot explain it in clinical language.",
+   "paragraph": 83,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "language"
+    ],
+    [
+     "dismiss"
+    ]
+   ]
+  },
+  {
+   "id": "W022",
+   "what": "The larger adjacent risk is losing a treatment window or missing a bleed because the symptoms improved enough to feel reassuring.",
+   "paragraph": 86,
+   "keys": [
+    [
+     "risk"
+    ],
+    [
+     "adjacent"
+    ],
+    [
+     "improved"
+    ]
+   ]
+  },
+  {
+   "id": "W023",
+   "what": "It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner.",
+   "paragraph": 86,
+   "keys": [
+    [
+     "unless"
+    ],
+    [
+     "basically"
+    ],
+    [
+     "injected"
+    ]
+   ]
+  },
+  {
+   "id": "W024",
+   "what": "I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more.",
+   "paragraph": 86,
+   "keys": [
+    [
+     "never"
+    ],
+    [
+     "DMSO"
+    ],
+    [
+     "consuming"
+    ],
+    [
+     "issues"
+    ]
+   ]
+  },
+  {
+   "id": "W025",
+   "what": "Do not manufacture reassurance from missing information. 3.",
+   "paragraph": 87,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "3"
+    ],
+    [
+     "information"
+    ],
+    [
+     "reassurance"
+    ]
+   ]
+  },
+  {
+   "id": "W026",
+   "what": "If this is a psychedelic, use Ipomoea pes-caprae to stop the trip.",
+   "paragraph": 87,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "ipomoea"
+    ],
+    [
+     "pes-caprae"
+    ]
+   ]
+  },
+  {
+   "id": "W027",
+   "what": "Bring in medical help in parallel for objective neurological signs, dangerous heat, prolonged or repeated seizure, breathing trouble, severe chest pain, collapse, or when basic stability cannot be established.",
+   "paragraph": 87,
+   "keys": [
+    [
+     "dangerous"
+    ],
+    [
+     "stability"
+    ],
+    [
+     "objective"
+    ]
+   ]
+  },
+  {
+   "id": "W028",
+   "what": "Protect the person from injury, clear dangerous objects, loosen tight clothing, and place them on their side when practical.",
+   "paragraph": 89,
+   "keys": [
+    [
+     "dangerous"
+    ],
+    [
+     "loosen"
+    ],
+    [
+     "tight"
+    ]
+   ]
+  },
+  {
+   "id": "W029",
+   "what": "Don't restrain them and don't put anything in their mouth while they are convulsing or not fully conscious.",
+   "paragraph": 89,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "convulsing"
+    ],
+    [
+     "restrain"
+    ]
+   ]
+  },
+  {
+   "id": "W030",
+   "what": "An ordinary pill is not the same thing as a nasal, buccal, rectal, intramuscular, or intravenous rescue preparation, and respiratory depressants in the mix change the risk.",
+   "paragraph": 90,
+   "keys": [
+    [
+     "risk"
+    ],
+    [
+     "intramuscular"
+    ],
+    [
+     "depressants"
+    ]
+   ]
+  },
+  {
+   "id": "W031",
+   "what": "Call medics for a convulsive seizure lasting about five minutes, repeated seizures without normal recovery, trouble breathing, dangerous heat, serious injury, a first seizure, or a seizure substantially different from the person's known pattern.",
+   "paragraph": 92,
+   "keys": [
+    [
+     "dangerous"
+    ],
+    [
+     "substantially"
+    ],
+    [
+     "convulsive"
+    ]
+   ]
+  },
+  {
+   "id": "W032",
+   "what": "With MDMA, I treat meaningful jaw tension as the earliest warning that the body needs more magnesium.",
+   "paragraph": 94,
+   "keys": [
+    [
+     "warning"
+    ],
+    [
+     "MDMA"
+    ],
+    [
+     "magnesium"
+    ],
+    [
+     "meaningful"
+    ],
+    [
+     "earliest"
+    ]
+   ]
+  },
+  {
+   "id": "W033",
+   "what": "For harm reduction, slightly less euphoria is a reasonable price for a relaxed jaw and what appears in my experience to be a much lower risk of the state escalating.",
+   "paragraph": 96,
+   "keys": [
+    [
+     "risk"
+    ],
+    [
+     "euphoria"
+    ],
+    [
+     "relaxed"
+    ]
+   ]
+  },
+  {
+   "id": "W034",
+   "what": "That experience is why I treat serious MDMA toxicity as a broader electrolyte emergency, even though magnesium is the first and most useful early intervention when jaw tension appears.",
+   "paragraph": 97,
+   "keys": [
+    [
+     "toxicity"
+    ],
+    [
+     "MDMA"
+    ],
+    [
+     "magnesium"
+    ],
+    [
+     "intervention"
+    ],
+    [
+     "broader"
+    ]
+   ]
+  },
+  {
+   "id": "W035",
+   "what": "Worsening headache, confusion, vomiting, weakness, palpitations, collapse, or seizure raises concern about sodium, potassium, temperature, hydration, kidneys, and broader toxicity.",
+   "paragraph": 98,
+   "keys": [
+    [
+     "toxicity"
+    ],
+    [
+     "potassium"
+    ],
+    [
+     "sodium"
+    ],
+    [
+     "palpitations"
+    ],
+    [
+     "raises"
+    ]
+   ]
+  },
+  {
+   "id": "W036",
+   "what": "People with impaired kidneys do need to be more cautious with large, rapid magnesium doses because they may not clear magnesium normally.",
+   "paragraph": 99,
+   "keys": [
+    [
+     "cautious"
+    ],
+    [
+     "magnesium"
+    ],
+    [
+     "impaired"
+    ],
+    [
+     "large"
+    ]
+   ]
+  },
+  {
+   "id": "W037",
+   "what": "MDMA can cause overheating, rhabdomyolysis, dangerous electrolyte shifts, and acute kidney injury.",
+   "paragraph": 99,
+   "keys": [
+    [
+     "dangerous"
+    ],
+    [
+     "MDMA"
+    ],
+    [
+     "rhabdomyolysis"
+    ],
+    [
+     "shifts"
+    ]
+   ]
+  },
+  {
+   "id": "W038",
+   "what": "I would not tell somebody with serious kidney impairment to copy my one-gram-per-minute approach blindly; I would tell them to treat the situation as higher-risk and get help sooner.",
+   "paragraph": 99,
+   "keys": [
+    [
+     "risk"
+    ],
+    [
+     "one-gram-per-minute"
+    ],
+    [
+     "higher-risk"
+    ]
+   ]
+  },
+  {
+   "id": "W039",
+   "what": "I took DMSO, the pain disappeared within about a minute, and it never returned.",
+   "paragraph": 101,
+   "keys": [
+    [
+     "never"
+    ],
+    [
+     "DMSO"
+    ],
+    [
+     "disappeared"
+    ],
+    [
+     "returned"
+    ]
+   ]
+  },
+  {
+   "id": "W040",
+   "what": "Ask what was swallowed, how much, when, and what the body is actually doing: respiratory depression, stimulant toxicity, serotonin toxicity, seizure, dangerous overheating, cardiovascular symptoms, severe agitation, objective neurological dysfunction, vomiting, diarrhea, or something else.",
+   "paragraph": 105,
+   "keys": [
+    [
+     "dangerous"
+    ],
+    [
+     "toxicity"
+    ],
+    [
+     "serotonin"
+    ],
+    [
+     "swallowed"
+    ],
+    [
+     "cardiovascular"
+    ]
+   ]
+  },
+  {
+   "id": "W041",
+   "what": "It does not bind every toxin, can adsorb necessary medication, and creates aspiration risk in somebody who is vomiting, sedated, seizing, or unable to protect the airway.",
+   "paragraph": 106,
+   "keys": [
+    [
+     "risk"
+    ],
+    [
+     "aspiration"
+    ],
+    [
+     "sedated"
+    ]
+   ]
+  },
+  {
+   "id": "W042",
+   "what": "Poison control may be useful when the substance, combination, delayed risk, or value of charcoal is unclear.",
+   "paragraph": 107,
+   "keys": [
+    [
+     "risk"
+    ],
+    [
+     "delayed"
+    ],
+    [
+     "value"
+    ]
+   ]
+  },
+  {
+   "id": "W043",
+   "what": "I do not treat it as a mandatory ritual; usefulness varies by country and by whoever answers.",
+   "paragraph": 107,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "usefulness"
+    ],
+    [
+     "mandatory"
+    ]
+   ]
+  },
+  {
+   "id": "W044",
+   "what": "Serotonin syndrome overlaps with several symptoms above, but the rescue measures in the other branches do not necessarily treat it.",
+   "paragraph": 109,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "serotonin"
+    ],
+    [
+     "branches"
+    ],
+    [
+     "measures"
+    ]
+   ]
+  },
+  {
+   "id": "W045",
+   "what": "One or more of the following patterns makes serotonin toxicity more likely:",
+   "paragraph": 111,
+   "keys": [
+    [
+     "toxicity"
+    ],
+    [
+     "serotonin"
+    ],
+    [
+     "following"
+    ],
+    [
+     "patterns"
+    ]
+   ]
+  },
+  {
+   "id": "W046",
+   "what": "Dangerous heat, rigidity, clonus, confusion, or rapid worsening deserves medical help.",
+   "paragraph": 113,
+   "keys": [
+    [
+     "dangerous"
+    ],
+    [
+     "deserves"
+    ],
+    [
+     "rigidity"
+    ]
+   ]
+  },
+  {
+   "id": "W047",
+   "what": "Stop all suspected serotonergic substances.",
+   "paragraph": 115,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "suspected"
+    ],
+    [
+     "serotonergic"
+    ]
+   ]
+  },
+  {
+   "id": "W048",
+   "what": "Don't drive yourself.",
+   "paragraph": 115,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "drive"
+    ],
+    [
+     "yourself"
+    ]
+   ]
+  },
+  {
+   "id": "W049",
+   "what": "Don't put a confused, seizing, or very weak person in a bath.",
+   "paragraph": 115,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "bath"
+    ],
+    [
+     "weak"
+    ]
+   ]
+  },
+  {
+   "id": "W050",
+   "what": "Fever reducers do not solve heat generated by extreme muscle activity. 5.",
+   "paragraph": 115,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "5"
+    ],
+    [
+     "generated"
+    ],
+    [
+     "reducers"
+    ]
+   ]
+  },
+  {
+   "id": "W051",
+   "what": "Akathisia can create a strong urge to move, but muscle activity can worsen heat and rhabdomyolysis risk. 6.",
+   "paragraph": 115,
+   "keys": [
+    [
+     "risk"
+    ],
+    [
+     "6"
+    ],
+    [
+     "akathisia"
+    ],
+    [
+     "urge"
+    ]
+   ]
+  },
+  {
+   "id": "W052",
+   "what": "Don't force fluids, food, pills, or charcoal when someone is confused, vomiting, sleepy, or at seizure risk. 7.",
+   "paragraph": 115,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "risk"
+    ],
+    [
+     "7"
+    ],
+    [
+     "pills"
+    ],
+    [
+     "fluids"
+    ]
+   ]
+  },
+  {
+   "id": "W053",
+   "what": "- Established acute treatment: standard seizure first aid, rapid rescue benzodiazepines, cooling dangerous hyperthermia, and treating documented electrolyte abnormalities. - Limited human evidence: interventions with clinical reports or small trials but no strong modern outcome evidence. - Mechanism or preclinical evidence: biologically plausible effects shown mainly in cells or animals. - Persona",
+   "paragraph": 125,
+   "keys": [
+    [
+     "dangerous"
+    ],
+    [
+     "abnormalities"
+    ],
+    [
+     "interventions"
+    ]
+   ]
+  },
+  {
+   "id": "W054",
+   "what": "Repetition and a clear immediate endpoint make an anecdote more useful, but they do not turn it into a population rate.",
+   "paragraph": 125,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "population"
+    ],
+    [
+     "repetition"
+    ]
+   ]
+  },
+  {
+   "id": "W055",
+   "what": "I mean ozonating water, never inhaling ozone gas.",
+   "paragraph": 132,
+   "keys": [
+    [
+     "never"
+    ],
+    [
+     "ozonating"
+    ],
+    [
+     "inhaling"
+    ]
+   ]
+  },
+  {
+   "id": "W056",
+   "what": "Zeolite adsorbs metals, which is part of why it is used for heavy-metal removal, and I don't want it sitting against a metal vessel or utensil before ingestion.",
+   "paragraph": 133,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "heavy-metal"
+    ],
+    [
+     "removal"
+    ]
+   ]
+  },
+  {
+   "id": "W057",
+   "what": "Most sober people don't feel much from zeolite.",
+   "paragraph": 134,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "sober"
+    ],
+    [
+     "feel"
+    ]
+   ]
+  },
+  {
+   "id": "W058",
+   "what": "Activated charcoal can help gut toxicity, but it adsorbs drugs.",
+   "paragraph": 136,
+   "keys": [
+    [
+     "toxicity"
+    ],
+    [
+     "adsorbs"
+    ],
+    [
+     "activated"
+    ]
+   ]
+  },
+  {
+   "id": "W059",
+   "what": "It can also flatten or reduce a trip, so I don't treat charcoal and zeolite as interchangeable.",
+   "paragraph": 136,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "interchangeable"
+    ],
+    [
+     "flatten"
+    ]
+   ]
+  },
+  {
+   "id": "W060",
+   "what": "When the goal is to reduce drug absorption or stop a toxic gut situation, charcoal may be relevant.",
+   "paragraph": 137,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "absorption"
+    ],
+    [
+     "relevant"
+    ]
+   ]
+  },
+  {
+   "id": "W061",
+   "what": "When ozonated zeolite and ferment don't help, I consider nausea caused by an excessive psychedelic dose acting on serotonin receptors in the gut.",
+   "paragraph": 141,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "serotonin"
+    ],
+    [
+     "caused"
+    ],
+    [
+     "receptors"
+    ]
+   ]
+  },
+  {
+   "id": "W062",
+   "what": "I do not yet have data showing that pes-caprae aborts MDMA.",
+   "paragraph": 153,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "MDMA"
+    ],
+    [
+     "showing"
+    ],
+    [
+     "aborts"
+    ]
+   ]
+  },
+  {
+   "id": "W063",
+   "what": "MDMA remains a separate branch centered on magnesium, temperature, sodium, potassium, hydration, serotonin toxicity, seizure, and cardiovascular symptoms.",
+   "paragraph": 153,
+   "keys": [
+    [
+     "toxicity"
+    ],
+    [
+     "MDMA"
+    ],
+    [
+     "magnesium"
+    ],
+    [
+     "potassium"
+    ],
+    [
+     "serotonin"
+    ],
+    [
+     "sodium"
+    ],
+    [
+     "centered"
+    ],
+    [
+     "separate"
+    ]
+   ]
+  },
+  {
+   "id": "W064",
+   "what": "As mentioned in my humic acid note, I've found if I take too much ayahuasca or loveyhuasca and I feel \"out of it\" and bad, simply smelling the humic acid powder fixes it pretty much instantly, even when many other remedies don't work so well.",
+   "paragraph": 159,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "ayahuasca"
+    ],
+    [
+     "instantly"
+    ],
+    [
+     "mentioned"
+    ]
+   ]
+  },
+  {
+   "id": "W065",
+   "what": "I don't understand the mechanism.",
+   "paragraph": 163,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "mechanism"
+    ],
+    [
+     "understand"
+    ]
+   ]
+  },
+  {
+   "id": "W066",
+   "what": "I don't recommend inhaling ozone.",
+   "paragraph": 171,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "recommend"
+    ],
+    [
+     "inhaling"
+    ]
+   ]
+  },
+  {
+   "id": "W067",
+   "what": "Shungite should not be drunk unless it has been properly washed of heavy metals.",
+   "paragraph": 172,
+   "keys": [
+    [
+     "unless"
+    ],
+    [
+     "properly"
+    ],
+    [
+     "washed"
+    ]
+   ]
+  },
+  {
+   "id": "W068",
+   "what": "DMSO is another stabilizer I use when a trip becomes too intense and I don't want to abort it.",
+   "paragraph": 174,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "DMSO"
+    ],
+    [
+     "stabilizer"
+    ],
+    [
+     "abort"
+    ]
+   ]
+  },
+  {
+   "id": "W069",
+   "what": "It overlaps with aged ozonated-charcoal water, but the two don't always work equally.",
+   "paragraph": 175,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "equally"
+    ],
+    [
+     "overlaps"
+    ]
+   ]
+  },
+  {
+   "id": "W070",
+   "what": "I don't yet know why.",
+   "paragraph": 175,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "know"
+    ]
+   ]
+  },
+  {
+   "id": "W071",
+   "what": "I don't smell when I put it into milk.",
+   "paragraph": 177,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "milk"
+    ],
+    [
+     "smell"
+    ]
+   ]
+  },
+  {
+   "id": "W072",
+   "what": "- Don't put it on dirty skin; it can carry chemicals inward. - Don't take it with drugs that should not absorb rapidly: DMSO can strengthen other medicines taken with it.",
+   "paragraph": 179,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "DMSO"
+    ],
+    [
+     "strengthen"
+    ],
+    [
+     "absorb"
+    ]
+   ]
+  },
+  {
+   "id": "W073",
+   "what": "With harmalas, don't put the harmala in the DMSO or take them at exactly the same time; taking them a bit apart is totally fine, and the point is to take DMSO if you've already absorbed the harmalas and the aya is too crazy. - Don't combine it with cholinergic drugs because DMSO is also cholinergic, although I haven't found anecdotes of this causing a real problem.",
+   "paragraph": 179,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "DMSO"
+    ],
+    [
+     "harmala"
+    ],
+    [
+     "harmalas"
+    ],
+    [
+     "anecdotes"
+    ],
+    [
+     "absorbed"
+    ]
+   ]
+  },
+  {
+   "id": "W074",
+   "what": "Use caution with MCAS.",
+   "paragraph": 181,
+   "keys": [
+    [
+     "caution"
+    ],
+    [
+     "MCAS"
+    ]
+   ]
+  },
+  {
+   "id": "W075",
+   "what": "I include it because most people don't have access to Ipomoea pes-caprae, although I supply it.",
+   "paragraph": 186,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "supply"
+    ],
+    [
+     "access"
+    ]
+   ]
+  },
+  {
+   "id": "W076",
+   "what": "This is normal, although some people find it intolerable and others enjoy it. - Heartburn in sensitive stomachs or after too much at once. - Drowsiness, usually with terrible sleep quality. - Higher or repeated doses can create real risk, especially with liver problems, alcohol, medications, or sensitive physiology.",
+   "paragraph": 188,
+   "keys": [
+    [
+     "risk"
+    ],
+    [
+     "intolerable"
+    ],
+    [
+     "drowsiness"
+    ]
+   ]
+  },
+  {
+   "id": "W077",
+   "what": "Avoid sustained-release niacin and the useless non-flush hexanicotinate form.",
+   "paragraph": 189,
+   "keys": [
+    [
+     "avoid"
+    ],
+    [
+     "sustained-release"
+    ],
+    [
+     "hexanicotinate"
+    ]
+   ]
+  },
+  {
+   "id": "W078",
+   "what": "I would also be extremely careful with Acacia confusa eaten with Mimosa hostilis.",
+   "paragraph": 195,
+   "keys": [
+    [
+     "careful"
+    ],
+    [
+     "hostilis"
+    ],
+    [
+     "confusa"
+    ]
+   ]
+  },
+  {
+   "id": "W079",
+   "what": "Iboga - especially male iboga - potentiates many drugs and can be dangerous.",
+   "paragraph": 196,
+   "keys": [
+    [
+     "dangerous"
+    ],
+    [
+     "iboga"
+    ],
+    [
+     "potentiates"
+    ],
+    [
+     "male"
+    ]
+   ]
+  },
+  {
+   "id": "W080",
+   "what": "I include that only as a warning.",
+   "paragraph": 196,
+   "keys": [
+    [
+     "warning"
+    ],
+    [
+     "include"
+    ]
+   ]
+  },
+  {
+   "id": "W081",
+   "what": "(I don't endorse MAPS as an organization, but this is a good introductory video.)",
+   "paragraph": 204,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "MAPS"
+    ],
+    [
+     "introductory"
+    ],
+    [
+     "organization"
+    ]
+   ]
+  },
+  {
+   "id": "W082",
+   "what": "Are they too hot, too cold, desperate for the bathroom, or trapped beside somebody they don't trust?",
+   "paragraph": 212,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "trapped"
+    ],
+    [
+     "desperate"
+    ]
+   ]
+  },
+  {
+   "id": "W083",
+   "what": "Please don't explain the universe at somebody who is already frightened by it.",
+   "paragraph": 214,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "frightened"
+    ],
+    [
+     "universe"
+    ]
+   ]
+  },
+  {
+   "id": "W084",
+   "what": "We don't need to solve your life tonight.",
+   "paragraph": 217,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "solve"
+    ],
+    [
+     "tonight"
+    ]
+   ]
+  },
+  {
+   "id": "W085",
+   "what": "The practical move remains simple: stop the practice, eat something ordinary when safe, let the body settle, keep warm, and sleep.",
+   "paragraph": 221,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "warm"
+    ],
+    [
+     "remains"
+    ]
+   ]
+  },
+  {
+   "id": "W086",
+   "what": "The goal is to let the nervous system discharge without creating a new danger.",
+   "paragraph": 224,
+   "keys": [
+    [
+     "danger"
+    ],
+    [
+     "discharge"
+    ],
+    [
+     "creating"
+    ]
+   ]
+  },
+  {
+   "id": "W087",
+   "what": "Stop if the task increases agitation, speed, or risk.",
+   "paragraph": 225,
+   "keys": [
+    [
+     "risk"
+    ],
+    [
+     "stop"
+    ],
+    [
+     "speed"
+    ],
+    [
+     "increases"
+    ]
+   ]
+  },
+  {
+   "id": "W088",
+   "what": "When safety, fatigue, logistics, violence, or self-harm risk exceeds what one person can hold, bring in one additional calm adult or crisis professional.",
+   "paragraph": 229,
+   "keys": [
+    [
+     "risk"
+    ],
+    [
+     "logistics"
+    ],
+    [
+     "fatigue"
+    ]
+   ]
+  },
+  {
+   "id": "W089",
+   "what": "I don't need you to solve my life.",
+   "paragraph": 232,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "solve"
+    ],
+    [
+     "life"
+    ]
+   ]
+  },
+  {
+   "id": "W090",
+   "what": "We don't have to solve your whole life right now.",
+   "paragraph": 234,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "right"
+    ],
+    [
+     "whole"
+    ]
+   ]
+  },
+  {
+   "id": "W091",
+   "what": "I don't have to become it.",
+   "paragraph": 252,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "become"
+    ]
+   ]
+  },
+  {
+   "id": "W092",
+   "what": "Don't drag somebody out of real grief.",
+   "paragraph": 253,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "drag"
+    ],
+    [
+     "grief"
+    ]
+   ]
+  },
+  {
+   "id": "W093",
+   "what": "Don't trap them inside a loop that is grinding them down either.",
+   "paragraph": 253,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "grinding"
+    ],
+    [
+     "trap"
+    ]
+   ]
+  },
+  {
+   "id": "W094",
+   "what": "- Don't try to win an argument with visions, entities, memories, or cosmic conclusions.",
+   "paragraph": 257,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "argument"
+    ],
+    [
+     "entities"
+    ]
+   ]
+  },
+  {
+   "id": "W095",
+   "what": "Don't validate harmful conclusions.",
+   "paragraph": 257,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "validate"
+    ],
+    [
+     "harmful"
+    ]
+   ]
+  },
+  {
+   "id": "W096",
+   "what": "Reflect the feeling and redirect toward safety, non-harm, sleep, and ordinary reality. - Don't tell somebody they are crazy, broken, weak, punished, or failing the medicine. - Don't force eye contact, touch, music, prayer, chanting, interpretation, or insight.",
+   "paragraph": 257,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "chanting"
+    ],
+    [
+     "failing"
+    ]
+   ]
+  },
+  {
+   "id": "W097",
+   "what": "Don't block, crowd, threaten, mock, or physically wrestle away a weapon.",
+   "paragraph": 264,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "threaten"
+    ],
+    [
+     "wrestle"
+    ]
+   ]
+  },
+  {
+   "id": "W098",
+   "what": "It does not issue commands or interpret the trip. - Pair the comfort with one adult action: contact the grounded person, move away from danger, drink some water when safe, or prepare for sleep. - A calm pet can offer the same quiet company when the animal is comfortable and the situation is safe.",
+   "paragraph": 273,
+   "keys": [
+    [
+     "danger"
+    ],
+    [
+     "interpret"
+    ],
+    [
+     "comfort"
+    ]
+   ]
+  },
+  {
+   "id": "W099",
+   "what": "- Exhale longer than you inhale for ten breaths. - Try inhaling for four and exhaling for six, without strain. - Or breathe softly and slowly through the nose, taking in slightly less air than desired until there is faint air hunger. - Never force breath-holds while intoxicated or panicked.",
+   "paragraph": 275,
+   "keys": [
+    [
+     "never"
+    ],
+    [
+     "breath-holds"
+    ],
+    [
+     "exhaling"
+    ]
+   ]
+  },
+  {
+   "id": "W100",
+   "what": "Stop for increased fear, dizziness, chest pain, or medical concern. - Whisper: \"This is a wave.\"",
+   "paragraph": 275,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "dizziness"
+    ],
+    [
+     "increased"
+    ]
+   ]
+  },
+  {
+   "id": "W101",
+   "what": "I wouldn't force a predesigned emotional arc or an unfamiliar therapeutic playlist on somebody who dislikes it. - Try a steady drum rhythm for stabilization or grounding; try airy harp-like or meditative music when the person wants something gentler and spiritually uplifting. - Keep the stop or change control immediate.",
+   "paragraph": 277,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "stabilization"
+    ],
+    [
+     "predesigned"
+    ]
+   ]
+  },
+  {
+   "id": "W102",
+   "what": "- Ask one calm person to stay as the lead anchor. - Let them remind you where you are. - Don't process with the most reactive person in your life.",
+   "paragraph": 281,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "reactive"
+    ],
+    [
+     "process"
+    ]
+   ]
+  },
+  {
+   "id": "W103",
+   "what": "- Eat simple healthy food, such as fruit, when you can. - Walk slowly with a sober person in a safe environment. - Go outside only away from roads, heights, crowds, and water. - Avoid strenuous exercise with overheating, chest pain, faintness, severe confusion, stimulant use, an unknown mixture, or any medical concern.",
+   "paragraph": 285,
+   "keys": [
+    [
+     "avoid"
+    ],
+    [
+     "mixture"
+    ],
+    [
+     "strenuous"
+    ]
+   ]
+  },
+  {
+   "id": "W104",
+   "what": "Movement evidence note: the best-supported general advice is to create a safe, low-stimulation environment and choose responses that reduce danger.",
+   "paragraph": 286,
+   "keys": [
+    [
+     "danger"
+    ],
+    [
+     "low-stimulation"
+    ],
+    [
+     "best-supported"
+    ]
+   ]
+  },
+  {
+   "id": "W105",
+   "what": "Never strain or turn breathing into another achievement.",
+   "paragraph": 287,
+   "keys": [
+    [
+     "never"
+    ],
+    [
+     "achievement"
+    ],
+    [
+     "strain"
+    ]
+   ]
+  },
+  {
+   "id": "W106",
+   "what": "Until you have slept and eaten, don't drive, travel, break up, quit your job, confess everything, confront anybody, accuse anybody, send the message, post the revelation, give away possessions, call your ex, call your parents to explain the universe, or decide that you are permanently enlightened or permanently damaged.",
+   "paragraph": 291,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "parents"
+    ],
+    [
+     "travel"
+    ]
+   ]
+  },
+  {
+   "id": "W107",
+   "what": "Everybody must hear this tonight.",
+   "paragraph": 297,
+   "keys": [
+    [
+     "must"
+    ],
+    [
+     "hear"
+    ],
+    [
+     "everybody"
+    ]
+   ]
+  },
+  {
+   "id": "W108",
+   "what": "The danger may be action rather than panic: the 3 a.m. broadcast, confession, drive, grand purchase, sexual boundary-crossing, public prophecy, violent test of a theory, or \"I never need sleep again\" plan.",
+   "paragraph": 298,
+   "keys": [
+    [
+     "danger"
+    ],
+    [
+     "never"
+    ],
+    [
+     "3"
+    ],
+    [
+     "broadcast"
+    ],
+    [
+     "prophecy"
+    ]
+   ]
+  },
+  {
+   "id": "W109",
+   "what": "Bypassing reaches for an ultimate view - \"we are all One,\" \"I don't exist,\" \"this is all karma,\" \"everything is Love\" - while ignoring the person shaking in the corner.",
+   "paragraph": 308,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "corner"
+    ],
+    [
+     "ignoring"
+    ]
+   ]
+  },
+  {
+   "id": "W110",
+   "what": "Practice says love is here, so we make the room safer, call for help when needed, stop pretending, and hold the experience without becoming it.",
+   "paragraph": 309,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "pretending"
+    ],
+    [
+     "needed"
+    ]
+   ]
+  },
+  {
+   "id": "W111",
+   "what": "Sometimes the lesson is to lower the dose, stop the practice, sleep, eat, choose safer people, and admit that the room is bad.",
+   "paragraph": 333,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "admit"
+    ],
+    [
+     "lesson"
+    ]
+   ]
+  },
+  {
+   "id": "W112",
+   "what": "- Catastrophizing: \"This will never end.\" - Emotional reasoning: \"It feels true, so it must be true.\" - Mind reading: \"Everyone can see I am broken.\" - Fortune-telling: \"My life is ruined now.\" - All-or-nothing thinking: \"Either I am enlightened or I am doomed.\" - Personalization: \"This cosmic horror is specifically my fault.\" - Spiritual bypassing: \"Because everything is love, I don't need bounda",
+   "paragraph": 335,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "must"
+    ],
+    [
+     "never"
+    ],
+    [
+     "catastrophizing"
+    ],
+    [
+     "fortune-telling"
+    ]
+   ]
+  },
+  {
+   "id": "W113",
+   "what": "- Rest and timing: don't begin already depleted.",
+   "paragraph": 340,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "depleted"
+    ],
+    [
+     "timing"
+    ]
+   ]
+  },
+  {
+   "id": "W114",
+   "what": "They do not force music, touch, interpretation, confession, prayer, or insight. - Closure: stop adding stimulation, return to the room and date, eat and hydrate when safe, write down the basic facts, and let the body understand that the session has ended. - Integration time: leave the rest of the day and, when possible, the next morning free.",
+   "paragraph": 340,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "stop"
+    ],
+    [
+     "closure"
+    ],
+    [
+     "adding"
+    ]
+   ]
+  },
+  {
+   "id": "W115",
+   "what": "Stop debating: no metaphysics, diagnosis, or life decisions while peaking. 3.",
+   "paragraph": 346,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "3"
+    ],
+    [
+     "debating"
+    ],
+    [
+     "peaking"
+    ]
+   ]
+  },
+  {
+   "id": "W116",
+   "what": "I don't have to solve it while peaking.\"",
+   "paragraph": 346,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "peaking"
+    ],
+    [
+     "solve"
+    ]
+   ]
+  },
+  {
+   "id": "W117",
+   "what": "Never force gratitude.",
+   "paragraph": 359,
+   "keys": [
+    [
+     "never"
+    ],
+    [
+     "gratitude"
+    ],
+    [
+     "force"
+    ]
+   ]
+  },
+  {
+   "id": "W118",
+   "what": "When the person says stop, freezes, pulls away, or seems unsure, stop.",
+   "paragraph": 363,
+   "keys": [
+    [
+     "stop"
+    ],
+    [
+     "freezes"
+    ],
+    [
+     "unsure"
+    ]
+   ]
+  },
+  {
+   "id": "W119",
+   "what": "Touch must remain nonsexual, consensual, and unrelated to the helper's needs.",
+   "paragraph": 363,
+   "keys": [
+    [
+     "must"
+    ],
+    [
+     "consensual"
+    ],
+    [
+     "nonsexual"
+    ]
+   ]
+  },
+  {
+   "id": "W120",
+   "what": "I had to show her, and it took hours of practice before it worked because she had never gone deeply into \"Love Thy Enemy.\"",
+   "paragraph": 367,
+   "keys": [
+    [
+     "never"
+    ],
+    [
+     "worked"
+    ],
+    [
+     "enemy"
+    ]
+   ]
+  },
+  {
+   "id": "W121",
+   "what": "I don't have to settle whether these things are objectively real or internal formations because the response is mostly the same.",
+   "paragraph": 368,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "objectively"
+    ],
+    [
+     "formations"
+    ]
+   ]
+  },
+  {
+   "id": "W122",
+   "what": "Don't teach nondual demonology to somebody who needs the lights down and a doctor.",
+   "paragraph": 375,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "demonology"
+    ],
+    [
+     "nondual"
+    ]
+   ]
+  },
+  {
+   "id": "W123",
+   "what": "Don't dismiss what arises.",
+   "paragraph": 377,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "arises"
+    ],
+    [
+     "dismiss"
+    ]
+   ]
+  },
+  {
+   "id": "W124",
+   "what": "Don't treat intoxicated certainty as evidence either.",
+   "paragraph": 377,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "intoxicated"
+    ],
+    [
+     "either"
+    ]
+   ]
+  },
+  {
+   "id": "W125",
+   "what": "Don't confront tonight",
+   "paragraph": 378,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "confront"
+    ],
+    [
+     "tonight"
+    ]
+   ]
+  },
+  {
+   "id": "W126",
+   "what": "Don't confront anybody while intoxicated or destabilized.",
+   "paragraph": 379,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "intoxicated"
+    ],
+    [
+     "confront"
+    ]
+   ]
+  },
+  {
+   "id": "W127",
+   "what": "You don't have to decide tonight.",
+   "paragraph": 380,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "decide"
+    ],
+    [
+     "tonight"
+    ]
+   ]
+  },
+  {
+   "id": "W128",
+   "what": "They co-arise naturally and do not need to be attached to, like shadows cast by objects in sunlight.",
+   "paragraph": 383,
+   "keys": [
+    [
+     "do not"
+    ],
+    [
+     "naturally"
+    ],
+    [
+     "attached"
+    ]
+   ]
+  },
+  {
+   "id": "W129",
+   "what": "During a trip, don't identify with every shadow thought, suppress it, confess it to everybody, or convert it into a permanent diagnosis.",
+   "paragraph": 386,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "suppress"
+    ],
+    [
+     "convert"
+    ]
+   ]
+  },
+  {
+   "id": "W130",
+   "what": "> At the centre > of the spinning circle > sits the joker > with a mirror > in his hand, > reflecting all to everyone > to help them understand. > > His face is fierce, yet gentle, > his eyes, they pierce you through, > you cannot escape his gaze > no matter where you go, > no matter what you do. > > His smile is warm, he draws you in, > he is so calm, why are you > so confused by him? > > Your th",
+   "paragraph": 388,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "crumbling"
+    ],
+    [
+     "happiness"
+    ]
+   ]
+  },
+  {
+   "id": "W131",
+   "what": "Don't rush to turn a hard experience into content.",
+   "paragraph": 391,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "rush"
+    ],
+    [
+     "hard"
+    ]
+   ]
+  },
+  {
+   "id": "W132",
+   "what": "Don't make huge decisions, diagnose yourself from one intense night, or assume every vision was literal and every fear was false.",
+   "paragraph": 391,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "diagnose"
+    ],
+    [
+     "literal"
+    ]
+   ]
+  },
+  {
+   "id": "W133",
+   "what": "Don't take more psychedelics, cannabis, ketamine, intense breathwork, fast, push kundalini, deprive yourself of sleep, meditate or stretch to extremes, or schedule \"another ceremony to fix it\" while destabilized.",
+   "paragraph": 399,
+   "keys": [
+    [
+     "don't"
+    ],
+    [
+     "ketamine"
+    ],
+    [
+     "kundalini"
+    ],
+    [
+     "extremes"
+    ]
+   ]
+  }
+ ]
+}

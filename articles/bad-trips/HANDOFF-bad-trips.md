@@ -15,6 +15,13 @@ https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips
 
 ## START HERE
 
+- **2026-11-04, turn 7 (his round-3 answers and messages of 14:25 and 14:26 UTC).** He's putting the app into its page
+  himself, with GPT on his VPS: version 9 (version 8 plus round 3's ferment-itch line, `experiments/t05-webapp/
+  APP-V9-20261104.html`). His round-3 answers are in (`review/r03/apply_r03.py`; 7 approved; W-GLORY rejected; W-CBD
+  redone from his comment). Round 4's page (Bad Trips Guide, Round 4, https://claude.ai/artifact/HcLtoHF2XB2wSoxbvwmEVf;
+  cards as text in `review/r04/REVIEW-R04.md`) has W-CBD2 and the four checklist pointers moved to the app. **First:**
+  his round-4 answers in, and the checklist out once the live page shows version 9 (CURRENT-STATE.md's next step has the
+  links and the check). **Then:** the whole-guide Pangram check on a temporary draft, and the humanize pass.
 - **2026-11-04, turn 6 (13:19 UTC, no new message: the warnings check finished).** The guide's 149 warning lines are
   checked against the research (gate E344; `experiments/t05-warnings/WARNINGS-CHECK.md`), every source opened twice,
   the second time by someone other than the helper who found it. 9 cards are on round 3's page (Bad Trips Guide, Round

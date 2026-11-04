@@ -1,28 +1,32 @@
 # Bad Trips guide: questions for Joel
 
-Updated 2026-11-04 (turn 6, 13:19 UTC: the warnings check is done). Status: **open** = waiting on you, **next** = I do it once you
+Updated 2026-11-04 (turn 7, his round-3 answers of 14:25 UTC in). Status: **open** = waiting on you, **next** = I do it once you
 answer, **done** = answered.
 Answer under an item's number in a message.
 
 ## Open
 
-1. **open — Round 3: the guide's warnings, checked against the research** (your words of 3 November: "some of those
-   warnings i'm not even sure about i think many came from old stupid gemini models"). Of 149 warning lines, 93 have
-   something behind them, 38 are your experience, 5 are your views and 5 are generic lines for the humanizing; the
-   other 9 are cards on round 3's page (Bad Trips Guide, Round 3, in your claude.ai artifacts; the cards as text:
-   [REVIEW-R03.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r03/REVIEW-R03.md)).
-   Two are cuts unless they're your experience: say so on the card and they stay. The whole check:
-   [WARNINGS-CHECK.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t05-warnings/WARNINGS-CHECK.md).
+1. **open — Round 4: the CBD paragraph, and the checklist's pointers.** W-CBD2 is the CBD paragraph redone from what
+   you sent with your Revise on round 3, each point checked; APP-1 to APP-4 point the guide's four mentions of the
+   checklist at the triage app, for when the checklist leaves the guide. On round 4's page (Bad Trips Guide, Round 4, in
+   your claude.ai artifacts; the cards as text:
+   [REVIEW-R04.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r04/REVIEW-R04.md)).
 
 ## Your tasks
 
-- **Put version 8 of the triage app into its page.** The file was sent in chat; it's also on your laptop in
-  claude-acceptance-transfer, in its bad-trips-webapp folder, and [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t05-webapp/APP-V8-20261104.html). It's the whole content of the page's
-  Elementor HTML widget: open the page in Elementor, click the HTML widget, select all of its code, paste the file in
-  its place, and Update. [What changed](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t05-webapp/CHANGES.md).
-  Once the page shows version 8, the checklist comes out of the guide, as you said.
+- **Put version 9 of the triage app into its page** (you're doing it now, with GPT on your VPS). The file was sent in
+  chat; it's also on your laptop in claude-acceptance-transfer, in its bad-trips-webapp folder, and
+  [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t05-webapp/APP-V9-20261104.html).
+  It's version 8 with round 3's ferment-itch line. Once the page shows version 9, the checklist comes out of the guide,
+  as you said.
 
 ## Decisions on record
+
+His round-3 answers of 2026-11-04 14:25 UTC, on [round 3's cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r03/REVIEW-R03.md):
+7 approved and in the guide (the two cuts kept out for good, KEEP-AS-IS C6 and C7); W-GLORY rejected ("not sure why
+mice with no immune system says about an herb humans use traditionally already"); W-CBD to revise, with what he found
+on CBD and focal seizures (round 4's W-CBD2). His message of 14:26 UTC asked whether to wait with the app for the claims
+check: no need, with version 9.
 
 The agmatine warnings: the neuro de-armoring lane took this lane's check into its own check of all that protocol's
 warnings (gate E344, [its warnings check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261104/warnings/WARNINGS-CHECK.md)),

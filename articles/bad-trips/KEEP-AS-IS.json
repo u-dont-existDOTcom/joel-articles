@@ -129,6 +129,24 @@
    "when": "2026-11-03 18:59 UTC; cut 2026-11-04 10:26 UTC",
    "where": "round 1, card RP-7; round 2, card CL-4",
    "basis": "his answer"
+  },
+  {
+   "id": "C6",
+   "quote": "Don't nebulize too much DMSO when your lungs are full of smoking-related tar, because it can carry those substances into the blood too quickly.",
+   "what": "The warnings check found no study behind it (and nebulized DMSO protected the lungs of sheep after smoke inhalation); he approved the cut, so it doesn't come back.",
+   "joel": "approved card W-TAR",
+   "when": "2026-11-04 14:25 UTC",
+   "where": "round 3, card W-TAR",
+   "basis": "his answer"
+  },
+  {
+   "id": "C7",
+   "quote": "Supplement extra choline because DMSO depletes it.",
+   "what": "The warnings check found no study showing DMSO lowers choline; he approved the cut, so it doesn't come back.",
+   "joel": "approved card W-CHOLINE",
+   "when": "2026-11-04 14:25 UTC",
+   "where": "round 3, card W-CHOLINE",
+   "basis": "his answer"
   }
  ]
 }

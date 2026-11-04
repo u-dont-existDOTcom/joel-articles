@@ -48,3 +48,13 @@ move out of the guide once version 8 is live.
 
 In Elementor: open the page, click the HTML widget (the whole app is one widget), select all of its code, paste the
 file's contents in its place, and Update.
+
+## Version 9 (2026-11-04 14:27 UTC)
+
+Round 3 (the warnings check) changed one line the app shares with the guide: in the remedies table, the ferment's
+itching is now "in somebody who breaks down histamine poorly" (was "somebody low in histamine-processing bacteria"),
+his approved card W-ITCH. Nothing else changed; the page shows `data-version="2026-11-04-v9"`.
+[APP-V9-20261104.html](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t05-webapp/APP-V9-20261104.html)
+passes the same browser test ([TEST-REPORT-V9.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t05-webapp/TEST-REPORT-V9.json)).
+Made at his question of 14:26 UTC ("or should i not update the web app yet, since i guess you weren't done with the
+claims checks"), while he was putting the app in with GPT on his VPS.

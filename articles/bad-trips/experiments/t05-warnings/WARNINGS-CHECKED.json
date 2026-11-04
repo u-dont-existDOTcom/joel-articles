@@ -735,7 +735,8 @@
    }
   ],
   "query": null,
-  "card": "W-CBD"
+  "card": "W-CBD",
+  "his_answer": "revise: his comment (the evidence on CBD and focal seizures, oral against transdermal) taken into a redone paragraph, round 4's W-CBD2 (2026-11-04 14:25 UTC)"
  },
  {
   "section": "Active Seizure",
@@ -1104,7 +1105,8 @@
    }
   ],
   "query": null,
-  "card": "W-CHEST"
+  "card": "W-CHEST",
+  "his_answer": "approved (2026-11-04 14:25 UTC)"
  },
  {
   "section": "Chest Pain and Injury",
@@ -1274,7 +1276,8 @@
    }
   ],
   "query": null,
-  "card": "W-SS"
+  "card": "W-SS",
+  "his_answer": "approved (2026-11-04 14:25 UTC)"
  },
  {
   "section": "Suspected Serotonin Syndrome (SS)",
@@ -1646,7 +1649,8 @@
    }
   ],
   "query": "(\"activated charcoal\" OR \"activated carbon\") AND histamine AND (adsorption OR binding OR intestinal OR oral)",
-  "card": "W-ITCH"
+  "card": "W-ITCH",
+  "his_answer": "approved (2026-11-04 14:25 UTC)"
  },
  {
   "section": "My Acute Rescue Hierarchy > Zeolite and Ferment in ZHoly3O",
@@ -1782,7 +1786,8 @@
    }
   ],
   "query": "\"Ipomoea pes-caprae\" AND (toxicity OR toxic OR safety OR alkaloid OR ergoline OR \"central nervous system\" OR antinociceptive)",
-  "card": "W-GLORY"
+  "card": "W-GLORY",
+  "his_answer": "rejected: \"not sure why mice with no immune system says about an herb humans use traditionally already\" (2026-11-04 14:25 UTC)"
  },
  {
   "section": "My Acute Rescue Hierarchy > Beach Morning Glory (Ipomoea pes-caprae)",
@@ -1792,7 +1797,8 @@
   "fate": "His experience",
   "sources": [],
   "query": null,
-  "card": "W-GLORY"
+  "card": "W-GLORY",
+  "his_answer": "rejected: \"not sure why mice with no immune system says about an herb humans use traditionally already\" (2026-11-04 14:25 UTC)"
  },
  {
   "section": "My Acute Rescue Hierarchy > Beach Morning Glory (Ipomoea pes-caprae)",
@@ -1808,7 +1814,8 @@
    }
   ],
   "query": null,
-  "card": "W-GLORY"
+  "card": "W-GLORY",
+  "his_answer": "rejected: \"not sure why mice with no immune system says about an herb humans use traditionally already\" (2026-11-04 14:25 UTC)"
  },
  {
   "section": "My Acute Rescue Hierarchy > Beach Morning Glory (Ipomoea pes-caprae)",
@@ -2006,7 +2013,8 @@
    }
   ],
   "query": null,
-  "card": "W-SLEEP"
+  "card": "W-SLEEP",
+  "his_answer": "approved (2026-11-04 14:25 UTC)"
  },
  {
   "section": "My Acute Rescue Hierarchy > DMSO",
@@ -2081,7 +2089,8 @@
    }
   ],
   "query": "(nebulized OR inhaled OR inhalation OR aerosol) \"dimethyl sulfoxide\" human lung; (\"dimethyl sulfoxide\"[Title] OR DMSO[Title]) AND (inhalation[Title] OR inhaled[Title] OR nebulized[Title] OR nebulised[Title] OR aerosol[Title] OR aerosolized[Title] OR lung[Title] OR pulmonary[Title])",
-  "card": "W-TAR"
+  "card": "W-TAR",
+  "his_answer": "approved (cut; KEEP-AS-IS C6) (2026-11-04 14:25 UTC)"
  },
  {
   "section": "My Acute Rescue Hierarchy > DMSO",
@@ -2122,7 +2131,8 @@
    }
   ],
   "query": null,
-  "card": "W-NSAID"
+  "card": "W-NSAID",
+  "his_answer": "approved (2026-11-04 14:25 UTC)"
  },
  {
   "section": "My Acute Rescue Hierarchy > DMSO",
@@ -2173,7 +2183,8 @@
    }
   ],
   "query": "dimethyl sulfoxide choline depletion; (\"dimethyl sulfoxide\"[Title] OR DMSO[Title]) AND (choline[Title] OR \"phosphatidylcholine\"[Title] OR acetylcholine[Title])",
-  "card": "W-CHOLINE"
+  "card": "W-CHOLINE",
+  "his_answer": "approved (cut; KEEP-AS-IS C7) (2026-11-04 14:25 UTC)"
  },
  {
   "section": "My Acute Rescue Hierarchy > DMSO",
