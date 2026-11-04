@@ -8,7 +8,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/inner-child
 |---|---|---|---|---|---|---|
 | Pangram 4.0 (before the ledger) | 3085 | 1395 (45%) | 57% | 43% | 96% | - |
 | Pangram 4.1 GUI (dashboard) | 28 | 27 (96%) | 4% | 96% | 100% | 0.104 (base 0.034, 28) |
-| pangram-4.1-substack | 102 | 74 (73%) | 41% | 59% | 61% | 0.185 (base 0.242, 102) |
+| pangram-4.1-substack | 104 | 76 (73%) | 40% | 60% | 62% | 0.183 (base 0.241, 104) |
 | pangram-4.1-api | 213 | 167 (78%) | 31% | 69% | 85% | 0.192 (base 0.214, 213) |
 | Pangram 4.1 (API) | 5 | 3 (60%) | 60% | 40% | 40% | 0.232 (base 0.240, 5) |
 
@@ -54,15 +54,15 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 43 (86%) | 24% | 76% | 82% | 0.159 (base 0.182, 50) |
-| the latest 100 | 100 | 74 (74%) | 40% | 60% | 60% | 0.181 (base 0.240, 100) |
-| all | 102 | 74 (73%) | 41% | 59% | 61% | 0.185 (base 0.242, 102) |
+| the latest 50 | 50 | 43 (86%) | 24% | 76% | 82% | 0.160 (base 0.182, 50) |
+| the latest 100 | 100 | 74 (74%) | 38% | 62% | 62% | 0.183 (base 0.236, 100) |
+| all | 104 | 76 (73%) | 40% | 60% | 62% | 0.183 (base 0.241, 104) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| stretch | 20 | 17 (85%) | 85% | 15% | 20% | 0.107 (base 0.128, 20) |
+| stretch | 22 | 19 (86%) | 77% | 23% | 27% | 0.104 (base 0.176, 22) |
 | paragraph | 51 | 29 (57%) | 43% | 57% | 53% | 0.242 (base 0.245, 51) |
 | section | 31 | 28 (90%) | 10% | 90% | 100% | 0.140 (base 0.087, 31) |
 
@@ -73,7 +73,7 @@ Calibration:
 | 0.0 to 0.2 | 8 | 0.13 | 0% |
 | 0.2 to 0.4 | 11 | 0.28 | 9% |
 | 0.4 to 0.6 | 62 | 0.52 | 65% |
-| 0.6 to 0.8 | 38 | 0.66 | 82% |
+| 0.6 to 0.8 | 40 | 0.66 | 82% |
 | 0.8 to 1.0 | 1 | 0.80 | 100% |
 
 ## pangram-4.1-api
@@ -275,6 +275,4 @@ The latest:
 | ic-t121-hearthwork | section | 1 of 2 | AI |
 | ic-t121-hw-p1 | paragraph | 1 of 6 | Mixed |
 | ic-t121-hw-p3 | paragraph | 1 of 6 | AI |
-| t126s-A | stretch | 1 of unlimited (Substack) | pending |
-| t126s-B | stretch | 1 of unlimited (Substack) | pending |
 
