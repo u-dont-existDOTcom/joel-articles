@@ -1,0 +1,51 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Malic and citric acid are what's called TCA cycle intermediates.",
+  "TCA is another name for the citric acid cycle, the one the glutamine ends up in, and these acids are already part of it, so your mitochondria can use them for energy directly.",
+  "They're the acids that make green apples and tart cherries sour, so eating clean sour stuff like that, or taking organic malic acid, gets the cells lining your gut another fuel, and quickly.",
+  "Glutamine has to be turned into α-KG first, so that's a different biochemical route, but either way those cells then use the extra energy to heal the gut lining faster."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph moves through an orderly sequence: terminology, explanation, familiar foods, practical application, comparison and conclusion. Its consistently explanatory voice with conversational touches could suggest AI polishing, although none of these features establishes authorship."
+  ],
+  "haiku": [
+   "Nearly every sentence runs on the same chain of \"so\", \"but\" and \"either way\", each landing a neat point at a steady pace, so it reads like an explainer that has been balanced and summarised rather than argued; the voice takes no stance of its own and the last sentence ties the argument off."
+  ],
+  "sonnet": [
+   "The paragraph is built as a neat logic chain (definition, mechanism, example, contrast, payoff) in which every sentence does one tidy job and the last one sums it all up. The even rhythm and the absence of any tangent or hesitation make it feel assembled, though the voice is chatty enough that it isn't pure model prose."
+  ]
+ },
+ "human_clean": []
+}

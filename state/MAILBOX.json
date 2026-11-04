@@ -650,6 +650,49 @@
    "recorded_utc": "2026-11-04T00:46Z"
   },
   {
+   "turn": "2026-11-04T00:37Z",
+   "lines_of_work": [
+    "gut article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); UDA main still c5c9951, whose AGENTS.md and LESSON-INDEX entry 87 (the GH handoff line) this answer follows"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 22:17 UTC: this lane's pull request 282 merged by Joel at 23:34 UTC; the Inner Child lane's 283 (its E340 keep-as-is lists, E341 the live post's embeds) at 00:39 and 284 at 00:51 UTC, both merged here (e3dc4332); open: 280 (Bad Trips), 278, and older chat pull requests; no new issue comments or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut since 282"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 00:37 UTC: make sure no other lane can make the same mistake",
+     "outcome": "E339 is now enforced, not only written: lane_push.py refuses a push when origin/main isn't merged, when the branch has no pull request, and when another open pull request changes the same shared file (until --overlap-ok says how it builds on theirs); its pre-push hook refuses a plain git push; the mailbox record installs the hook and says whether main is merged; AGENTS.md and the gate say so; tests added"
+    },
+    {
+     "item": "his batch-2 answers (S2-1 to S2-6)",
+     "outcome": "applied as r03: S2-1, S2-3, S2-4, S2-5 as approved, S2-2 his version, his first fuels paragraph word for word and the rest built his way (gate E342), blind meaning check PASS after two fixes; each new paragraph goes to the API before it reaches him"
+    },
+    {
+     "item": "pull requests 283 and 284 (Inner Child) merged",
+     "outcome": "main merged before the commit; with E340 and E341 in main, this lane's fuels lesson is plain E342 and the next lesson is E343"
+    }
+   ],
+   "recorded_utc": "2026-11-04T00:53Z"
+  },
+  {
    "turn": "2026-11-04T00:51Z",
    "lines_of_work": [
     "inner child guide"
@@ -687,6 +730,45 @@
     }
    ],
    "recorded_utc": "2026-11-04T01:10Z"
+  },
+  {
+   "turn": "2026-11-04T10:18Z",
+   "lines_of_work": [
+    "gut article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); UDA main still c5c9951, its root AGENTS.md fetched this turn"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 01:22 UTC: the Inner Child lane's 285 merged by Joel at 08:59 UTC (merged here, a1fcb895; state/MAILBOX.json conflicted and was resolved by keeping both lanes' records); this lane's 286 still open; open: 280, 278 and older chat pull requests; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut since 62a332fa"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's batch-3 answers (10:18 UTC)",
+     "outcome": "F3-1 and F3-2 his versions, into r04 word for word, each checked; F3-3 mine, written his way. His comment ('i taught you the SAME thing as before, so idk why i keep having to teach the same thing? just explain stuff to someone who doesn't already know the hidden links in your prose's thinking') becomes gate E343 with the step that enforces it, and the meaning check's brief stops failing an explained link"
+    },
+    {
+     "item": "pull request 285 (Inner Child): Substack payloads carry their quote marks curled the right way",
+     "outcome": "read; this lane's whole-article check through a temporary Substack draft follows it"
+    }
+   ],
+   "recorded_utc": "2026-11-04T10:20Z"
   }
  ]
 }

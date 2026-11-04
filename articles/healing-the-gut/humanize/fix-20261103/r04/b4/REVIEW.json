@@ -1,0 +1,77 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "healing-the-gut-b4-tca-20261104",
+ "title": "Gut Fuels, the Last One",
+ "intro": [
+  "Your glutamine and butyrate are in (r04), word for word, with the Dr. Rhonda link put back. Through the API: glutamine: [Human, 100% human](https://www.pangram.com/history/8722d127-8713-4dd5-a7bc-473ebb3f84c0) (Human High, Human Medium, Human High); butyrate: [Human, 100% human](https://www.pangram.com/history/f2b60700-527c-4a61-84cf-ec5a7fa2d12a) (Human High).",
+  "The TCA intermediates are the only part of the fuels still reading AI. They've used all six tries, three of them this turn with what you taught (gate E345: explain the links a newcomer can't see). One card asks your help with it, and two ask what only you know, from the newcomer read."
+ ],
+ "git_file": "articles/healing-the-gut/humanize/fix-20261103/r04/b4/REVIEW-PAGE.html",
+ "article": {
+  "file": "articles/healing-the-gut/humanize/fix-20261103/r04/r04.md",
+  "sha256": "7052402b5a1d0b978fff4d08e77989bb6c68993af1e3d2598d04f251e59a7d2f"
+ },
+ "built": "2026-11-04",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/gut-import-20261103/articles/healing-the-gut/humanize/fix-20261103/r04/r04.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/gut-import-20261103/articles/healing-the-gut/humanize/fix-20261103/r04/b4/REVIEW-CARDS.md"
+ },
+ "types": {
+  "help": {
+   "label": "Your help",
+   "about": "Faithful rewrites still read AI"
+  },
+  "ask": {
+   "label": "A question",
+   "about": "Only you know"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "F4-1",
+   "type": "help",
+   "title": "The TCA intermediates: six versions read AI",
+   "advice": "edit",
+   "spans": [
+    {
+     "block": 31,
+     "start": 0,
+     "end": 600
+    }
+   ],
+   "why": "I can't find any more AI tells here, and I see some human tells, like these: \"the one the glutamine ends up in\", \"They're the acids that make green apples and tart cherries sour\", \"clean sour stuff like that\". Can you help show me the tells I'm missing? I did what you taught: a reader who doesn't know the subject listed eleven links the paragraph leaves out ([the list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/gut-import-20261103/articles/healing-the-gut/humanize/fix-20261103/r04/tca/links/LINKS.json)), and each version states them. Answered as definitions it read AI High; as causes, AI; Codex's, from the three readers' notes, AI, with its bracketed \"(TCA cycle intermediates)\" at High. try 1: [AI, 0% human](https://www.pangram.com/history/b2c3dbb8-a686-4db1-afb9-12b81ad1c4fa) (AI Medium, AI High); try 2: [AI, 17% human](https://www.pangram.com/history/9fb82520-05fd-435d-ba3c-c40e163f4e66) (Human Low, AI Low, AI High, AI Medium); try 3: [AI, 0% human](https://www.pangram.com/history/73cc6627-6c90-4b81-b8da-7db495d875be) (AI High); this turn, every newcomer gap answered: [AI, 0% human](https://www.pangram.com/history/d97109bf-4e9e-4827-a340-473bd2c7d9d3) (AI High); the gaps as causes: [AI, 1% human](https://www.pangram.com/history/e84378ae-d2b3-41e7-83b5-0ad32db69a49) (AI Low, AI Medium, AI High); Codex's: [AI, 0% human](https://www.pangram.com/history/526b2bf7-0a80-4e17-a78a-1ec1ee65a98f) (AI-assisted Low, AI Low, AI High, AI Medium, AI Low). One difference I see: your two rewrites kept the sentences already there, two that had read AI Low among them, and changed only the stretch where the link was missing. All six of mine rewrote the whole paragraph.",
+   "advice_note": "Rewrite it with Edit, the way you did glutamine. It has to keep: malic and citric acid are TCA cycle intermediates; they feed directly into the same energy pathway in the mitochondria as glutamine; clean sour foods (organic malic acid, tart cherries, green apples) give the gut lining's cells a quick, alternative fuel; that speeds up healing by a different biochemical route. The version on the page is the causes one (it says each link a newcomer needs; the meaning check passed it).",
+   "reading": "The version in the article now: [AI, 1% human](https://www.pangram.com/history/e84378ae-d2b3-41e7-83b5-0ad32db69a49) (AI Low, AI Medium, AI High)"
+  },
+  {
+   "id": "F4-2",
+   "type": "ask",
+   "title": "What makes sour stuff \"clean\"?",
+   "advice": "ask",
+   "spans": [
+    {
+     "block": 31,
+     "start": 316,
+     "end": 332
+    }
+   ],
+   "question": "What does \"clean\" leave out here: added sugar, something else, or nothing in particular? I'd put your answer in as a few words in the sentence.",
+   "why": "The newcomer reader asked \"What makes sour stuff 'clean', and what kind of sour stuff isn't clean?\" Gemini's original says \"clean, sour profiles\" and no more, so I didn't guess."
+  },
+  {
+   "id": "F4-3",
+   "type": "ask",
+   "title": "Along with glutamine, or instead of it?",
+   "advice": "ask",
+   "spans": [
+    {
+     "block": 31,
+     "start": 405,
+     "end": 417
+    }
+   ],
+   "question": "Should a reader have these sour foods along with glutamine, or are they an option for someone who doesn't take glutamine? Or leave it unsaid?",
+   "why": "The newcomer reader asked \"Why would my gut cells need another fuel if glutamine already does the job? ... should I have these along with glutamine or instead of it?\" The original says \"alternative fuel\" and no more."
+  }
+ ]
+}

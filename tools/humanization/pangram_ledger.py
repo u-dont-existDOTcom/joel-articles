@@ -202,7 +202,10 @@ def verdict_of(headline, windows=None, fraction_ai=None):
     that is not zero at four decimals, makes it Mixed whatever the headline says. The four decimals keep a one-window
     Human result through the API (fraction_ai about 1e-20, recorded as 0.0000) Human."""
     h = (headline or '').lower()
-    labels = [str(w).split(',')[0].strip().lower() for w in (windows or [])]
+    # a window is "Label, Confidence" text or a {'label': ...} record (export_results.py and pangram_api.py results).
+    # For a record, str(w) began "{'label': ..." and never matched, so the windows were ignored: a one-window
+    # AI-Assisted result (fraction_ai 5e-12, the rest "assisted") was recorded as Human (gut r03, 2026-11-04)
+    labels = [(w.get('label') if isinstance(w, dict) else str(w).split(',')[0]).strip().lower() for w in (windows or [])]
     if labels:
         ai = sum(l.startswith('ai') or l in ('a',) for l in labels)
         if ai == len(labels):

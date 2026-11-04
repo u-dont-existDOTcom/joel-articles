@@ -35,13 +35,14 @@ Every article's humanization uses these (`AGENTS.md`; `docs/HUMANIZATION-GATE.md
 - `pangram_links_check.py`: fails a message or page that reports an AI result from Pangram without the check's link (E175, Joel 2026-10-15: "give me the pangram check links when you tell me to check something on pangram"), or that asks his help with tells without linking the tell panel's record (E253).
   `python3 tools/humanization/pangram_links_check.py MESSAGE.md [MORE.md ...]`
   With `--chat` (a final message), it also fails a lane turn's message without the whole article as it stands: pass the page `render_article_so_far.py` made as `--sent PAGE` (E271 (Inner Child)).
+- `hidden_links.py`: the newcomer read (gate E345; Joel, 2026-11-04: "just explain stuff to someone who doesn't already know the hidden links in your prose's thinking"). Before a compressed paragraph is rewritten, a fresh reader who doesn't know the subject lists every link it leaves out; the draft states each one, and `check` fails until it does. `make TEXT DIR [--context FILE] [--about TEXT]`, `collect DIR`, `check DIR DRAFT`. `meaning_check_brief.md` is the blind meaning check's shared core, which reads a stated link as LINK, not as an added fact.
 - `tell_panel.py`: fresh readers list a paragraph's AI tells before I name a tell or ask Joel's help (turn 104, E253 (Inner Child); Joel, 2026-10-23 23:21 UTC: "so why don't you fix your process before asking for help"). Codex from his laptop, a Sonnet agent and a Haiku agent each get the same prompt (`reviewer/tell_panel.txt`: the paragraph alone and one open question, no list of tells); `summarize` marks each sentence two or more of them flag as AGREED and keeps the human tells no reader flagged.
   `python3 tools/humanization/tell_panel.py prompt TEXT.txt --out PROMPT.txt`, then `python3 tools/humanization/tell_panel.py summarize DIR`; when two of my drafts fail after it, `tell_panel.py rewrite-prompt DIR --points P --before B --after A` is the brief for a writer of another family (E256)
 - `pangram_batch_gen.py`: the older action-list batch of up to three Pangram checks (no gate check; use `pangram_gate.py`), each text's SHA-256 checked before the click.
   `python3 tools/humanization/pangram_batch_gen.py drafts.json out.json KEY1 KEY2 KEY3`
 - `emulate_humanize.py`: the Emulate API tool (`docs/EMULATE-FALLBACK.md`, section 3). It runs on Joel's laptop, where the key is.
   `python3 emulate_humanize.py balance`, or `python3 emulate_humanize.py humanize IN.txt OUT`
-- `git-hooks/pre-push`: runs CI's content-integrity steps on each pushed commit and refuses the push if one fails (E158, 2026-10-09). Install it once per clone, from the repository root:
+- `git-hooks/pre-push`: runs CI's content-integrity steps on each pushed commit and refuses the push if one fails (E158, 2026-10-09). Since 2026-11-04 it also refuses a push that didn't come through `lane_push.py` (gate E339); `lane_push.py` and `lane_mailbox.py record` install it. Install it once per clone, from the repository root:
   `ln -sf ../../tools/humanization/git-hooks/pre-push .git/hooks/pre-push`
 
 What they read:

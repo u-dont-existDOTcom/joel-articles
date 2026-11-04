@@ -1050,6 +1050,14 @@ class PrePushHookReadsCISteps(unittest.TestCase):
             self.assertIn(script, joined)
         self.assertFalse([c for c in cmds if c.startswith('python ')], cmds)  # this interpreter, not `python`
 
+    def test_a_push_that_skips_lane_push_is_refused(self):
+        # gate E339 (Joel, 2026-11-04 00:37 UTC: "make sure no other lane can make the same mistake you made next time")
+        hook = self.load_hook()
+        self.assertIn('lane_push.py', hook.route_refusal({}))
+        self.assertEqual(hook.route_refusal({'LANE_PUSH': '1'}), '')
+        self.assertEqual(hook.route_refusal({'LANE_PUSH_BYPASS': 'a maintainer fixing a branch by hand'}), '')
+        self.assertIn('lane_push.py', hook.route_refusal({'LANE_PUSH_BYPASS': '  '}))
+
     def test_a_multi_line_step_is_skipped_with_a_note(self):
         hook = self.load_hook()
         with tempfile.TemporaryDirectory() as tmp:
