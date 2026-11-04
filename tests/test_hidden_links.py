@@ -20,12 +20,22 @@ class HiddenLinks(unittest.TestCase):
             {'sentence': 4, 'quote': 'lock down the barrier', 'gap': 'How does that turn down inflammation?'}])
 
     def test_the_draft_must_state_every_link_or_say_why_not(self):
-        gaps = [{'id': 'L1', 'sentence': 2, 'quote': 'x', 'gap': 'why?', 'answer': "So that’s why it's faster"},
+        gaps = [{'id': 'L1', 'sentence': 2, 'quote': 'x', 'gap': 'why?', 'answer': "So that’s why it's faster",
+                 'raised': 'skips digestion'},
                 {'id': 'L2', 'sentence': 3, 'quote': 'y', 'gap': 'how?'},
                 {'id': 'L3', 'sentence': 4, 'quote': 'z', 'gap': 'what?', 'status': 'drop'},
                 {'id': 'L4', 'sentence': 5, 'quote': 'w', 'gap': 'who?', 'answer': 'not in it'}]
         probs = H.problems(gaps, "It skips digestion.  So that's why it's faster than food.")
         self.assertEqual([p.split(':')[0] for p in probs], ['L2', 'L3', 'L4'])
+        # his glutamine: the "so what?" is answered after the how, three sentences on; order counts, not distance
+        two = [{'id': 'L1', 'sentence': 1, 'quote': 'x', 'gap': 'how?', 'raised': 'skips digestion', 'answer': 'turned into α-KG'},
+               {'id': 'L2', 'sentence': 1, 'quote': 'x', 'gap': 'so what?', 'raised': 'skips digestion,',
+                'answer': "So that's why it's faster"}]
+        ok = "It skips digestion, and in the cell it's turned into α-KG. That feeds the cycle. So that's why it's faster."
+        self.assertEqual(H.problems(two, ok), [])
+        two[1]['raised'] = 'That feeds the cycle'
+        two[0]['raised'] = "So that's why"
+        self.assertIn('the order a reader thinks', H.problems(two, ok)[0])
 
     def test_make_collect_check_round_trip(self):
         with tempfile.TemporaryDirectory() as d:
@@ -40,6 +50,7 @@ class HiddenLinks(unittest.TestCase):
             self.assertEqual(H.main(['check', str(p / 'run'), str(p / 'draft.txt')]), 1)
             links = json.loads((p / 'run' / 'LINKS.json').read_text(encoding='utf-8'))
             links[0]['answer'] = 'so it gets to the cells faster than food'
+            links[0]['raised'] = 'skips digestion'
             (p / 'run' / 'LINKS.json').write_text(json.dumps(links), encoding='utf-8')
             H.main(['collect', str(p / 'run')])  # a second collect keeps the answer
             self.assertEqual(H.main(['check', str(p / 'run'), str(p / 'draft.txt')]), 0)

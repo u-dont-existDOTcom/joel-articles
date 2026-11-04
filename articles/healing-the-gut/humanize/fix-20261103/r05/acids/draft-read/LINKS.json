@@ -1,0 +1,58 @@
+[
+ {
+  "sentence": 1,
+  "quote": "intermediate products in that same cycle",
+  "gap": "What's an intermediate product: something the cycle makes partway round and then uses for its next step?",
+  "id": "L1",
+  "answer": "are made and used partway round that same cycle",
+  "raised": "are made and used partway round that same cycle"
+ },
+ {
+  "sentence": 1,
+  "quote": "so in theory they're a quick energy source",
+  "gap": "Why does being part of the cycle make them quick fuel: can the cells put them straight into it the way they do α-KG, and would acids I eat even get inside those cells?",
+  "id": "L2",
+  "status": "drop",
+  "note": "That is the open question itself: the next sentence says there's no good evidence they add much, so how they'd get into the cells isn't something to explain."
+ },
+ {
+  "sentence": 1,
+  "quote": "those lining cells too",
+  "gap": "Which lining cells: the small-intestine ones that run on glutamine, the colon ones that run on butyrate, or both?",
+  "id": "L3",
+  "answer": "for your enterocytes too",
+  "raised": "a quick energy source for your enterocytes"
+ },
+ {
+  "sentence": 2,
+  "quote": "they add much next to glutamine",
+  "gap": "Add much of what, energy for those cells? And does \"next to\" mean compared with glutamine, or on top of taking it?",
+  "id": "L4",
+  "answer": "gives those cells much extra fuel on top of the glutamine",
+  "raised": "gives those cells much extra fuel on top of the glutamine"
+ },
+ {
+  "sentence": 3,
+  "quote": "The better reason to eat them is iron",
+  "gap": "Why does getting more iron matter to me, and what does it have to do with the gut lining, which this part is about?",
+  "id": "L5",
+  "status": "drop",
+  "note": "Why iron matters is plain common knowledge, and the sentence says this is a different benefit from the lining's, not a link to it; saying more would add a claim (who is low in iron) the article doesn't make."
+ },
+ {
+  "sentence": 3,
+  "quote": "raised how much of its iron people absorbed",
+  "gap": "How does adding an acid make the body take in more of the iron in a meal?",
+  "id": "L6",
+  "answer": "probably because the acids help keep the iron dissolved so the gut can take it up",
+  "raised": "They do help you absorb iron"
+ },
+ {
+  "sentence": 3,
+  "quote": "adding 1 g of malic or citric acid to a rice meal",
+  "gap": "Is that a powder stirred into food, or can the fruit supply it, and how much green apple or tart cherry would 1 g take? Does it work with meals other than rice?",
+  "id": "L7",
+  "answer": "So something sour with an iron-rich meal is worth having anyway",
+  "raised": "1 g of pure malic or citric acid"
+ }
+]

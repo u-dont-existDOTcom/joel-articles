@@ -1,0 +1,43 @@
+[
+ {
+  "id": "R5-TOP",
+  "original": "Mitochondrial and cellular energy starvation is what you get when there's not enough of the fuels each type of cell in your gut prefers (glutamine, butyrate, TCA intermediates). Your gut barrier needs a lot of energy, to keep its tight junctions intact. If the cells lining your small intestine (called enterocytes) or the colonocytes lining your large intestine don't do that, the barrier loosens up. Then lipopolysaccharides (LPS, which come from the walls of bacteria) and other endotoxins leak through those (not-so-tight)-junction gaps into your bloodstream.",
+  "rewrite": "Mitochondrial and cellular energy starvation is what you get when there's not enough of the fuels each type of cell in your gut prefers (glutamine and butyrate). Your gut barrier needs a lot of energy, to keep its tight junctions intact. If the cells lining your small intestine (called enterocytes) or the colonocytes lining your large intestine don't do that, the barrier loosens up. Then lipopolysaccharides (LPS, which come from the walls of bacteria) and other endotoxins leak through those (not-so-tight)-junction gaps into your bloodstream.",
+  "changed_points": [
+   {
+    "change": "\"TCA intermediates\" taken out of the list of fuels",
+    "reason": "the acids item now says they add little as fuel next to glutamine; their better use is iron absorption (research/ACIDS-CHECK.md)"
+   }
+  ]
+ },
+ {
+  "id": "R5-GLU",
+  "original": "L-Glutamine ([watch Dr. Rhonda vid](https://m.youtube.com/watch?v=5DVUEKrekYw&ra=m)) is the main fuel for your enterocytes, and for your immune cells when they're activated. It doesn't have to go through the complicated digestive steps other nutrients do. Inside the mitochondria, it gets turned straight into alpha-ketoglutarate, or α-KG. The α-KG goes into the citric acid cycle, which is how the mitochondria make their energy. So that's why consuming pure glutamine gives energy to those cells faster than eating food. They then use their extra energy to repair the gut lining, and that keeps LPS from getting through.",
+  "rewrite": "L-Glutamine ([watch Dr. Rhonda vid](https://m.youtube.com/watch?v=5DVUEKrekYw&ra=m)) is the main fuel for your enterocytes, and for your immune cells when they're activated. It doesn't have to go through the complicated digestive steps other nutrients do. Inside the mitochondria, it gets turned straight into alpha-ketoglutarate, or α-KG. The α-KG goes into the citric acid cycle, which is how the mitochondria make their energy. So that's why consuming pure glutamine gives energy to those cells faster than eating food. They then use their extra energy to repair the gut lining by pulling the tight junctions together, and that keeps LPS from getting through. Glutamine also provides nitrogen to help build new cells.",
+  "changed_points": [
+   {
+    "change": "\"by pulling the tight junctions together\" added to how the cells repair the lining, and \"Glutamine also provides nitrogen to help build new cells\" added",
+    "reason": "both are Joel's own, from his rewrite of the TCA item (2026-11-04 11:32 UTC), moved here because that item no longer covers glutamine"
+   }
+  ]
+ },
+ {
+  "id": "R5-ACID",
+  "original": "- TCA Cycle Intermediates (Malic & Citric Acid): Organic acids like malate and citrate feed directly into the exact same mitochondrial energy pathways as glutamine. Consuming clean, sour profiles—such as organic malic acid, tart cherries, or green apples—provides rapid, alternative fuel to gut epithelial cells, accelerating mucosal healing from a different biochemical angle.",
+  "rewrite": "- Malic and citric acid (which make green apples and tart cherries sour) are intermediate products in that same cycle, also called the TCA or Krebs cycle, so in theory they're a quick energy source for those lining cells too. But there's no good evidence they add much next to glutamine. The better reason to eat them is iron: in one study, adding 1 g of malic or citric acid to a rice meal raised how much of its iron people absorbed two to three times ([Gillooly et al., 1983](https://pubmed.ncbi.nlm.nih.gov/6860621/)).",
+  "changed_points": [
+   {
+    "change": "the acids are no longer presented as a fuel that speeds up healing: \"in theory they're a quick energy source ... But there's no good evidence they add much next to glutamine\"",
+    "reason": "no study found showing dietary malate or citrate fuels the gut lining (research/ACIDS-CHECK.md)"
+   },
+   {
+    "change": "added: their better use is iron absorption, with the study and its numbers",
+    "reason": "Gillooly et al. 1983: 1 g citric acid raised non-haem iron absorption from 0.028 to 0.085, 1 g malic acid from 0.048 to 0.095"
+   },
+   {
+    "change": "\"clean\" and \"organic malic acid\" left out; the \"different biochemical route\" contrast left out",
+    "reason": "Joel: \"clean\" is too vague; with the acids no longer a fuel, the route comparison with glutamine has no job"
+   }
+  ]
+ }
+]
