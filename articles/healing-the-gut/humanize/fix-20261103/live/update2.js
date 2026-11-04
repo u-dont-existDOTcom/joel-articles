@@ -60,14 +60,18 @@ await (async () => {
   for (let i = 0; i < olds.length; i++) if (olds[i].type.name === 'youtube2' && olds[i].attrs.videoId !== spots[i][1].attrs.videoId) return Object.assign(out, {why: 'video ' + i});
   for (let i = spots.length - 1; i >= 0; i--) { const [pos, n] = spots[i]; scratch.replaceWith(pos, pos + n.nodeSize, olds[i]); }
   const nd = scratch.doc;
-  if (nd.childCount !== doc.childCount) return Object.assign(out, {why: 'top-level nodes ' + nd.childCount + ' vs ' + doc.childCount});
+  // Substack puts an empty paragraph above a picture that opens the post when the editor loads (seen 2026-11-04 after
+  // the first update): keep such leading empty paragraphs and line the rest up
+  let off = doc.childCount - nd.childCount;
+  out.leadingEmpty = off;
+  if (off < 0 || [...Array(off).keys()].some((i) => doc.child(i).type.name !== 'paragraph' || doc.child(i).content.size)) return Object.assign(out, {why: 'top-level nodes ' + nd.childCount + ' vs ' + doc.childCount});
   // only the top-level nodes whose text changed
   const changed = [];
-  for (let i = 0; i < doc.childCount; i++) if (sigOf(doc.child(i)) !== sigOf(nd.child(i))) changed.push(i);
+  for (let i = 0; i < nd.childCount; i++) if (sigOf(doc.child(i + off)) !== sigOf(nd.child(i))) changed.push(i + off);
   const pos = [0];
   for (let i = 0; i < doc.childCount; i++) pos.push(pos[i] + doc.child(i).nodeSize);
   const tr = state.tr;
-  for (let k = changed.length - 1; k >= 0; k--) { const i = changed[k]; tr.replaceWith(pos[i], pos[i + 1], nd.child(i)); }
+  for (let k = changed.length - 1; k >= 0; k--) { const i = changed[k]; tr.replaceWith(pos[i], pos[i + 1], nd.child(i - off)); }
   out.changedTop = changed;
   const unchangedSame = [];
   for (let i = 0; i < doc.childCount; i++) if (!changed.includes(i)) unchangedSame.push(tr.doc.child(i) === doc.child(i));
