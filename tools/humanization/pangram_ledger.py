@@ -153,6 +153,15 @@ def refusals(recs, rec):
     if done and done[-1]['result'].get('verdict') != 'Human' and not (rec.get('diagnosis') or '').strip():
         out.append('the last try of lineage %s read %s: give the specific diagnosis this try tests (what changed, why it should '
                    'help, what counts as better)' % (rec['lineage'], done[-1]['result'].get('verdict')))
+    # Joel, 2026-11-04 10:01 UTC: "just work on one paragraph at a time so you can see whether your strat is working. i mean
+    # you could go for a whole section if you feel confident, but then you'd still need to narrow it down to para level if it
+    # doesn't work". The neuro de-armoring lane's round 2 tried its stretches a second time instead (E343).
+    if scope in ('section', 'stretch') and done and done[-1]['result'].get('verdict') != 'Human' \
+            and not (rec.get('narrowed') or '').strip() and not (rec.get('after_fix') or '').strip():
+        out.append('the last try of %s %s read %s: narrow it to its paragraphs before trying it again, each paragraph checked '
+                   'by itself (Joel, 2026-11-04: "you\'d still need to narrow it down to para level if it doesn\'t work"); '
+                   'then give --narrowed with the paragraph lineages checked since' % (scope, rec['lineage'],
+                                                                                    done[-1]['result'].get('verdict')))
     return out
 
 
@@ -470,7 +479,7 @@ def cmd_predict(a):
            'scope': a.scope, 'sha256': sha, 'words': words, 'call': a.call, 'chance': a.chance, 'tells': a.tells or [],
            'human_tells': a.human_tells or [], 'diagnosis': a.diagnosis, 'decides': a.decides, 'key': a.key, 'batch': a.batch,
            'detector': a.detector, 'shading_expected': a.shading_expected, 'emulate_share': a.emulate_share,
-           'after_fix': a.after_fix, 'paid_ok': a.paid_ok, 'try': len(line) + 1}
+           'after_fix': a.after_fix, 'paid_ok': a.paid_ok, 'narrowed': a.narrowed, 'try': len(line) + 1}
     why = refusals(recs, rec)
     if why:
         print('REFUSED: ' + '\n  '.join(why), file=sys.stderr)
@@ -645,6 +654,8 @@ def main(argv=None):
     p.add_argument('--shading-expected')
     p.add_argument('--emulate-share', type=float)
     p.add_argument('--paid-ok', help="Joel's words allowing a text over 1,200 words through the paid API (E218, E325)")
+    p.add_argument('--narrowed', help='a section or stretch whose last try read AI or Mixed: the paragraph lineages checked '
+                   'since, each by itself (Joel, 2026-11-04: narrow it down to para level first; E343)')
     p.add_argument('--after-fix', help='a section past its two tries: what the fix changed (his answer 28a, one more check '
                    'of the whole section after each fix)')
     p.set_defaults(fn=cmd_predict)

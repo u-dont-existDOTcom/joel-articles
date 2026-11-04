@@ -1,3 +1,6 @@
+**Joel's message of 2026-11-04 10:01 UTC (in the neuro de-armoring lane)**: nothing changed in this lane's article. Gates E343 and E344 apply here.
+Predictions: none. Delegations (model, piece, check, outcome): none.
+
 **Joel's answers of 2026-11-03 17:48 UTC (his three neuro de-armoring examples)**: nothing changed in this lane's article. Gates E335 and E336 apply here too; tells_lint.py has O61 (a dose as a label and its spec).
 Predictions: none. Delegations (model, piece, check, outcome): none.
 

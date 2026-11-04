@@ -1,32 +1,69 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-03, after your answers of 17:48 UTC (your three versions).
-**Open questions: 1.** **For you to do**: answer question 2 (below), and merge pull request 281. Colours: 🟣 a question for
-you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
+Last updated 2026-11-04, after your message of 10:01 UTC.
+**Open questions: 2.** **For you to do**: answer questions 3 and 4 (below), the two cards on
+[Neuro De-Armoring Cards, 4 November](https://claude.ai/artifact/TBrnTti2G9V4fBvC357cTy), and merge pull request 287.
+Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
 can read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 2. How should the warnings and dose paragraphs be done?** Your three versions taught me how you build each kind, and
-it works for the science: the Role-Self part of Psychology is the Software went from 100% AI to
-[19.8% AI](https://www.pangram.com/history/45aa2902-d6af-4da9-b689-b9f110895fd7) in two tries. But the warnings and the
-uridine section read 100% AI every way I tried, four ways, even one paragraph at a time
-([every result, with its link](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/r2his/RESULTS-ROUND2.md)).
-There, only your own wording read Human: your agmatine paragraph by itself read
-[Human Written, 0.3% AI](https://www.pangram.com/history/0bc718b1-278a-40ce-a7dd-6af7d45268d5).
+**🟣 3. Pramipexole and ropinirole in your "Who this is for"?** Your version leaves out "especially a history of
+dopamine agonist withdrawal from drugs like pramipexole or ropinirole", the only place the article names those two
+drugs. Yours by itself reads [Human Written, 0.0% AI](https://www.pangram.com/history/9225442f-06b8-4a7a-ab8e-d8a03f720290) (High), and so does it
+with the two names put back in brackets: [Human Written, 0.0% AI](https://www.pangram.com/history/0faeb569-0041-45d3-9986-b77b3f490b83) (High).
 
-- a) **You rewrite them, a section at a time** (my recommendation): I put one section's warnings and dose paragraphs on a
-  cards page as stretches to edit, starting with the disclaimers at the top, and meanwhile I do the science your way,
-  checked before it reaches you.
-- b) **Leave the warnings and doses as they are**, and I humanize only the science and the parts around them.
-- c) **Something else** you'd rather try.
+- a) **Put them back in brackets**: "People with DAWS, after tapering off dopamine agonist drugs (like pramipexole or
+  ropinirole), present with ..." (my recommendation: a reader on one of them sees it's about them).
+- b) **Leave them out**, as you wrote it.
+- c) **Something else.**
+
+**🟣 4. Have you, or people you trust, seen these?** The two warnings checks found nothing behind them in the research
+([the checks, with their sources](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/warnings/WARNINGS-CHECK.md)), so each stays only if it's your
+experience or reports you trust. This one is your knowledge, so I have no recommendation.
+1. Agmatine making someone flat, blunted or anhedonic. In the human trials only stomach side effects showed up, and in
+   animals agmatine acted against depression. It decides eight places: the stop lists, "without flattening mood", the
+   poor-fit line and the Void phase.
+2. The uridine "choline headache".
+3. Uridine changing dream vividness and psychedelic tolerance. Scott's case in the article is one report of it.
+
+- a) **Yes, all three**: they stay, said as experience (yours, or Scott's), not as studied effects.
+- b) **None of them**: they go, and the stop lists keep what the trials saw (for agmatine, the stomach side effects).
+- c) **Some of them** (say which).
 
 ## For you to do
 
-- 🟠 Answer question 2 above.
-- 🟠 Merge [pull request 281](https://github.com/u-dont-existDOTcom/joel-articles/pull/281) when you've looked.
+- 🟠 Answer questions 3 and 4 above.
+- 🟠 The two cards on [Neuro De-Armoring Cards, 4 November](https://claude.ai/artifact/TBrnTti2G9V4fBvC357cTy)
+  ([the cards as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104.md)): the uridine evidence paragraph, which got close, and
+  Scott's, which didn't move.
+- 🟠 Merge [pull request 287](https://github.com/u-dont-existDOTcom/joel-articles/pull/287) when you've looked.
+
+## Your message of 2026-11-04 10:01 UTC, and what I did
+
+Word for word: [your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/joel-20261104-1001-message.txt).
+
+- 🟢 **Question 2 (how the warnings and doses should be done): "i don't want to do everything myself the point is to
+  teach you."** So I do them, one paragraph at a time, each checked by itself, and bring you only the ones I can't get,
+  saying what I see in them.
+- 🟢 **One paragraph at a time, enforced.** It was in the rules: a paid check is for one paragraph, and a section and each
+  of its paragraphs are separate tests. But nothing stopped a stretch from being tried again, and in round 2 I tried my
+  stretches twice. Now the prediction ledger refuses to try a section or stretch again after it reads AI until its
+  paragraphs have each been checked (lesson E343).
+- 🟢 **Your "Who this is for" is in the article**, as you wrote it: [Human Written, 0.0% AI](https://www.pangram.com/history/9225442f-06b8-4a7a-ab8e-d8a03f720290)
+  (High) by itself. The curly quote marks in it, and in the rest of the article, are straight now (the standard swap,
+  lesson E337 (gut)), except three paragraphs that read worse straightened in the lab's measurement.
+- 🟢 **The next two paragraphs, your way** ([every result](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/STATUS.md)): the evidence paragraph went from 62.2% AI to
+  [AI Assisted, 0.0% AI](https://www.pangram.com/history/97296cac-f177-4661-b7c9-b05d2cdb6e18) in four tries; Scott's stayed 100% AI in all four. Both
+  are on the cards page.
+- 🟢 **The warnings Gemini put in** ([both checks](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/warnings/WARNINGS-CHECK.md), lesson E344): most of the
+  agmatine warnings have nothing behind them, as the bad-trips lane found. Of the rest, the 5-HTP interaction block holds
+  up; the uridine effects rest on Scott's one report; the potassium lines are too strong; D-serine's kidney warning comes
+  from rats; nothing supports phosphatidylserine making you flat. The cuts and softer wordings go to you as cards after
+  question 4, with their sources.
+- 🔵 **Next**: the warnings cards; the rest of the article a paragraph at a time.
 
 ## Your answers of 2026-11-03 17:48 UTC (your three versions), and what I did
 

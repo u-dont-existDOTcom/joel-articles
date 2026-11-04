@@ -1,0 +1,20 @@
+{
+ "b082": {
+  "lineage": "ND1104-B082",
+  "name": "the uridine evidence paragraph, fourth try",
+  "text": "The tool: Uridine monophosphate (UMP). There's no study showing that \"UMP cures DAWS\", so the best evidence we have is more basic than that. Uridine, choline, and DHA are circulating precursors (building blocks carried in the blood) for brain phosphatide / synaptic membrane synthesis, that is, for making the fatty membranes at the connections between neurons. Wurtman's research group found that giving DHA, uridine and choline together can increase the building blocks and proteins of those synaptic membranes. In animals, adding UMP to DHA made neurons grow more new connection points than DHA alone (DHA-induced dendritic spine formation). Old rats that got UMP in their food also released more dopamine when their neurons were stimulated, and grew more nerve fibers. So it's plausible that it works on the synapses this way, but using it for DAWS in people is still a cautious extrapolation from those studies, plus anecdotes like Scott's.",
+  "chance": 0.45,
+  "why": "the animal findings in two sentences of different shapes (\"In animals, adding UMP to DHA made neurons grow more new connection points than DHA alone (...)\", \"Old rats that got UMP in their food also ...\"), the rest as in try 3 (Human High, Low, High)",
+  "diagnosis": "try 3 read AI Assisted, 0.0% AI: one AI-Assisted (Low) window, the animal findings joined by \", and ..., and ...\", and one Human (Low) on the Wurtman sentence",
+  "decides": "whether splitting the animal findings into two different sentences clears the last window"
+ },
+ "b083": {
+  "lineage": "ND1104-B083",
+  "name": "Scott's signal, fourth try",
+  "text": "Scott was already getting choline from eggs and DHA/EPA from fish oil when he added a standard dose of UMP, and within a day his vivid dreams were back, with real childhood memories in them. His psychedelic tolerance seemed to drop too, and his ketamine/LSD cravings fell off hard. Since he already had the choline and the DHA, the uridine looks like the piece he was missing. Whether or not his D3 dopamine receptors were rebuilt that fast, in the right person a quick response like that can be a very clear sign that the synaptic-membrane / dopamine-receptor-recovery axis (the system that keeps rebuilding the membranes and dopamine receptors where neurons connect) was starved.",
+  "chance": 0.3,
+  "why": "the coined label \"Scott's signal:\" gone, the short line for the reader gone, the reasoning said in order (he had choline and DHA, so the uridine looks like the missing piece), the caveat folded into the last sentence (\"Whether or not ...\")",
+  "diagnosis": "try 3 read 100% AI (Medium, then High on \"That's the kind of fast response to watch for.\" and the hedge-then-interpretation sentence); the label \"Scott's signal:\" is a coined one, like the slogan headings of E327",
+  "decides": "whether the label and the hedge frame are what keeps the Scott paragraph AI, or whether its shape is his to change"
+ }
+}

@@ -27,6 +27,11 @@ warning's key "for" (and only that warning's); without it, they stand for a numb
 for "omega-3s"). An entry with no "by", or whose "for" is no key of its unit, is an error, so a slip in the file can't
 quietly pass a draft. `extract` keeps an existing file's owner_wording. "Don't" is read as "Do not" in any draft: they are
 the same words.
+
+What his own version leaves out. When a version of his drops a compound or a warning, it goes back to him as a question,
+never put back over his words. Until he answers, KEYS.json's "owner_open" holds it ({"term" or "unit", "by": where he
+wrote the version, "question": the question that asks him}): the check doesn't count it lost, lists it as open with him,
+and still fails on anything else lost.
 """
 import argparse
 import collections
@@ -174,10 +179,36 @@ def check(keys, draft):
     lost_numbers = sorted((want - have).elements())
     new_numbers = sorted((have - want).elements())
     lost_terms = sorted(set(keys['terms']) - terms(text))
-    draft_paras = '\n\n'.join(his(plain(b)) for b in re.split(r'\n\s*\n', draft))
+    # a dash matched whatever its spaces: the typographic swap (E337 (gut)) makes the post's "numb—living" "numb – living"
+    def dash(t):
+        return re.sub(r'[ \t]*-[ \t]*', '-', t)
+    draft_paras = dash('\n\n'.join(his(plain(b)) for b in re.split(r'\n\s*\n', draft)))
+    for u in units:
+        u['keys'] = [[dash(norm(x)) for x in k] for k in u['keys']]
     lost_warnings = pk.check({'units': units}, draft_paras)
+    # what his own version left out, held open until he answers (keys['owner_open']): not lost, not passed either
+    open_ = []
+    for o in keys.get('owner_open', []):
+        if not str(o.get('by', '')).strip() or not str(o.get('question', '')).strip() or not (o.get('term') or o.get('unit')):
+            raise ValueError('owner_open entry without the term or unit, where he left it out, or the question: %r' % (o,))
+        hit = False
+        if o.get('term') in lost_terms:
+            lost_terms.remove(o['term'])
+            hit = True
+        if o.get('term'):
+            # a warning that misses only the open term isn't lost either
+            for u in lost_warnings:
+                u['missing'] = [k for k in u['missing'] if pk.normalize(o['term']) not in {pk.normalize(x) for x in k}]
+            kept = [u for u in lost_warnings if u['missing']]
+            hit = hit or len(kept) < len(lost_warnings)
+            lost_warnings = kept
+        if o.get('unit') and any(u['id'] == o['unit'] for u in lost_warnings):
+            lost_warnings = [u for u in lost_warnings if u['id'] != o['unit']]
+            hit = True
+        if hit:
+            open_.append(o)
     return {'numbers_lost': lost_numbers, 'numbers_new': new_numbers, 'terms_lost': lost_terms,
-            'warnings_lost': lost_warnings,
+            'warnings_lost': lost_warnings, 'open_with_owner': open_,
             'pass': not (lost_numbers or new_numbers or lost_terms or lost_warnings)}
 
 
@@ -205,7 +236,10 @@ def main(argv=None):
                 print('%s: %s' % (k, x))
         for u in r['warnings_lost']:
             print('warning lost: %s | missing %s' % (u['what'][:160], u['missing']))
-        print('verdict:', 'PASS' if r['pass'] else 'FAIL')
+        for o in r['open_with_owner']:
+            print('open with him: %s (%s)' % (o.get('term') or o.get('unit'), o['question']))
+        print('verdict:', ('PASS' if r['pass'] else 'FAIL') + (' (%d open with him)' % len(r['open_with_owner'])
+                                                              if r['open_with_owner'] else ''))
     return 0 if r['pass'] else 1
 
 

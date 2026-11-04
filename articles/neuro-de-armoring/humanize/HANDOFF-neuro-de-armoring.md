@@ -18,6 +18,10 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-04, after Joel's message of 10:01 UTC (go through Gemini's warnings; "the point is to teach you"; one
+  paragraph at a time; his "Who this is for"): his paragraph in and Human (High); the warnings checked; questions 3 and 4
+  and two cards waiting.** HUMANIZED-SO-FAR.md is 72e9e316 (the typographic swap, then his paragraph). One paragraph at a
+  time is now a ledger rule (E343). The warnings checks: `fix-20261104/warnings/WARNINGS-CHECK.md` (E344). See the Next step.
 - **2026-11-03, after Joel's answers of 17:48 UTC (his three versions): his versions in, round 2 his way, question 2 waiting.**
   His versions are in HUMANIZED-SO-FAR.md (6db92b7a; `fix-20261103/examples/apply_answers_x1103.py`), this lane's
   COMPARE-GATE.json is set up, and the fidelity check reads his recorded wording as the post's ("owner_wording"). His X-15
@@ -63,7 +67,32 @@ All of the article is his published post. His queue's rule: "Paragraphs that alr
 stay exactly as they are." Everything else is rewritten in his register and reaches him as cards, each tested first. The
 Scott passages, the introduction and the D-serine paragraph in Part 4 sound most like him.
 
-## Next step (2026-11-03, after Joel's answers of 17:48 UTC: question 2)
+## Next step (2026-11-04, after Joel's message of 10:01 UTC: questions 3 and 4, two cards)
+
+Done (STATUS.md's entry for 2026-11-04 10:01 has every file and number). Question 2 is answered: he teaches, I do the
+work a paragraph at a time and bring him only what I can't get, with the human tells I see ("I can't find any more AI
+tells here, and I see some human tells, like these... can you help show me the tells I'm missing?").
+
+Next:
+1. **His answers** (OWNER-QUESTIONS.md, questions 3 and 4; Neuro De-Armoring Cards, 4 November, cards Y-82 and Y-83): put
+   them in with a recording script like `fix-20261104/b081/apply_b081.py`, each answer's words saved first; question 3 a)
+   puts the two drug names back in brackets (FIDELITY-KEYS.json's "owner_open" entries then go); a version he writes
+   of Y-82 or Y-83 is checked by itself only where he hasn't, and what it does goes into
+   `fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md`.
+2. **The warnings cards** (`fix-20261104/warnings/WARNINGS-CHECK.md`, E344), after question 4: one card per paragraph
+   that changes, the "after" with its follow-on fixes made, each card's sources linked; the cuts the evidence supports
+   advised "approve", the generic label lines his call (his standing wish: needless safety language cut). The agmatine
+   lines are blocks 14 to 16, 43, 44, 79, 125 to 129, 173, 174 and 179.
+3. **Then the rest of the article, one paragraph at a time** (E343): the moves in WHAT-HIS-VERSIONS-DO.md (his B081: the
+   plain meaning first, the term after it in brackets; one observation a sentence with its cause; the closer cut), the
+   fidelity check and the linter on each (E125 flags on required lists recorded, not fixed), each paragraph checked by
+   itself with its prediction (`fix-20261104/checks/predict_batch.py`), its window that still reads AI the next try's
+   target; after four tries with no movement, to him with the tells named. Leave a warning paragraph until its card is
+   decided. The typographic swap is done; rewrites use straight marks and the spaced en dash.
+4. **Then** a section check (free, a temporary Substack draft, or the web app for five or six paragraphs), the owner-
+   delivery gate, the word-for-sense read (SKILL.md), and his post (E332, the title's date, E323).
+
+## Earlier next step (2026-11-03, after Joel's answers of 17:48 UTC: question 2)
 
 Done (STATUS.md's entry for 2026-11-03 17:48 has every file and number). The article is his post with his three versions
 in (HUMANIZED-SO-FAR.md, 6db92b7a); round 2's rewrites are only in `fix-20261103/r2his/` (blocks/ and CANDIDATE.md;

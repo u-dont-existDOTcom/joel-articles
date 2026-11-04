@@ -27,9 +27,11 @@ class Ledger(unittest.TestCase):
         p.write_text(body, encoding='utf-8')
         return str(p)
 
-    def predict(self, body, lineage='P1', scope='paragraph', call='Human', diagnosis=None, tells=('a list of three',), key=None):
+    def predict(self, body, lineage='P1', scope='paragraph', call='Human', diagnosis=None, tells=('a list of three',), key=None,
+                narrowed=None):
         argv = ['predict', self.ledger, '--lineage', lineage, '--scope', scope, '--text', self.text(body), '--call', call,
-                '--chance', '0.6' if call == 'Human' else '0.4'] + (['--key', key] if key else [])
+                '--chance', '0.6' if call == 'Human' else '0.4'] + (['--key', key] if key else []) + \
+            (['--narrowed', narrowed] if narrowed else [])
         for t in tells:
             argv += ['--tells', t]
         if diagnosis:
@@ -78,7 +80,10 @@ class Ledger(unittest.TestCase):
     def test_a_section_gets_one_retest(self):
         self.assertEqual(self.predict('s1', lineage='S13', scope='section'), 0)
         self.result('s1', 'Mixed')
-        self.assertEqual(self.predict('s2', lineage='S13', scope='section', diagnosis='the seam of P3 and P4 rewritten'), 0)
+        # since 2026-11-04 (E343), a section that read AI or Mixed is narrowed to its paragraphs before it is tried again
+        self.assertEqual(self.predict('s2', lineage='S13', scope='section', diagnosis='the seam of P3 and P4 rewritten'), 2)
+        self.assertEqual(self.predict('s2', lineage='S13', scope='section', diagnosis='the seam of P3 and P4 rewritten',
+                                      narrowed='P3 and P4 by themselves'), 0)
         self.result('s2', 'AI')
         self.assertEqual(self.predict('s3', lineage='S13', scope='section', diagnosis='another'), 2)
 
@@ -101,7 +106,8 @@ class Ledger(unittest.TestCase):
             return L.main(argv + (['--after-fix', after_fix] if after_fix else []))
         self.assertEqual(self.predict('a1', lineage='S9', scope='section', call='AI'), 0)
         self.result('a1', 'Mixed')
-        self.assertEqual(self.predict('a2', lineage='S9', scope='section', call='AI', diagnosis='the seam rewritten'), 0)
+        self.assertEqual(self.predict('a2', lineage='S9', scope='section', call='AI', diagnosis='the seam rewritten',
+                                      narrowed='P2 and P3 by themselves'), 0)
         self.result('a2', 'Mixed')
         self.assertEqual(fixed('a3'), 2)
         self.assertEqual(fixed('a3', 'the closer of P2 cut'), 0)
@@ -133,6 +139,20 @@ class Ledger(unittest.TestCase):
         self.result('v1', 'AI')
         self.assertEqual(self.predict('v2'), 2)
         self.assertEqual(self.predict('v2', diagnosis='the closing quip read AI; v2 ends on the fact'), 0)
+
+    def test_a_stretch_that_read_ai_is_narrowed_to_its_paragraphs_first(self):
+        """Joel, 2026-11-04 10:01 UTC: "you could go for a whole section if you feel confident, but then you'd still need
+        to narrow it down to para level if it doesn't work" (the neuro lane's round 2 tried its stretches twice, E343)."""
+        self.assertEqual(self.predict('s1', lineage='S', scope='stretch', call='AI'), 0)
+        self.result('s1', 'AI')
+        self.assertEqual(self.predict('s2', lineage='S', scope='stretch', call='AI', diagnosis='re-said'), 2)
+        self.assertEqual(L.main(['predict', self.ledger, '--lineage', 'S', '--scope', 'stretch', '--text', self.text('s2'),
+                                 '--call', 'AI', '--chance', '0.4', '--tells', 'a list', '--diagnosis', 're-said',
+                                 '--narrowed', 'P016, P017 and P085 by themselves']), 0)
+        # a paragraph's retry needs only its diagnosis, and a stretch that read Human may be tried again
+        self.assertEqual(self.predict('h1', lineage='H', scope='stretch'), 0)
+        self.result('h1', 'Human')
+        self.assertEqual(self.predict('h2', lineage='H', scope='stretch', diagnosis='its heading changed'), 0)
 
     def test_two_unexplained_misses_stop_the_lineage(self):
         self.predict('v1')

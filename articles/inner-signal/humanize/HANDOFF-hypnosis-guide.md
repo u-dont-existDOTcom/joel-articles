@@ -18,6 +18,7 @@ From an account with Desktop Commander connected to the laptop: "Continue my hyp
 
 ## START HERE
 
+- **2026-11-04, after Joel's message of 10:01 UTC (in the neuro de-armoring lane)**: nothing changed in this lane. Two lessons from it apply here: E343 (one paragraph at a time; the prediction ledger now refuses a section or stretch retry after an AI result until its paragraphs are checked, `--narrowed`) and E344 (an AI model's warnings are checked against the research before they're rewritten). Main's E337 (gut, the typographic swap) and E338 (gut, uncompress) apply here too.
 - **2026-11-03, after Joel's answers of 17:48 UTC (his three neuro de-armoring examples)**: nothing changed in this lane. Two lessons from them apply here too: E335 (his rewrites changed how each sentence is built, not the labels or the metaphors; tells_lint.py O61 fails a dose said as a label and its spec) and E336 (where my rewording of dense warnings kept reading AI, only his own wording read Human, so such stretches go to him as stretches to edit). The fidelity check now reads his recorded wording as the post's ("owner_wording") and "Don't" as "Do not".
 - **2026-11-03, after Joel's message of 15:22 UTC ("no need to recheck i'm sure it's fine, move onto the next article")**: no fifth free check; the guide is done and in his post (d67ef820). The work moved to the neuro de-armoring lane. Emulate is retired in every lane (gate E333).
 - **2026-11-03, after Joel's message of 14:52 UTC (his answers to question 34, and "make sure this closer reading is

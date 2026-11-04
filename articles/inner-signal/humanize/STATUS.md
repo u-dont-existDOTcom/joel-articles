@@ -1,5 +1,10 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-11-04, after Joel's message of 10:01 UTC (in the neuro de-armoring lane)
+
+Nothing changed in this lane. Gates E343 and E344 apply here. Predictions: none. Delegations (model, piece, check,
+outcome): none.
+
 ## 2026-11-03, after Joel's answers of 17:48 UTC (his three neuro de-armoring examples)
 
 Nothing changed in this lane. Gates E335 and E336 (the neuro lane's round 2) apply here too, and tells_lint.py has O61 (a
