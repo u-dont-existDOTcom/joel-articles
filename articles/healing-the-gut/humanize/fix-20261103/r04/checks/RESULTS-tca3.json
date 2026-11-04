@@ -1,0 +1,43 @@
+{
+ "r04-fuel-tca-3": {
+  "sha256": "85a02c7398bb0a3a882336fb5f5ec49a3847e1146762d2b720fc4344f29ce6f9",
+  "words": 115,
+  "prediction_short": "AI",
+  "fraction_human": 0.003620782634243369,
+  "fraction_ai": 0.9197329878807068,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/526b2bf7-0a80-4e17-a78a-1ec1ee65a98f",
+  "windows": [
+   {
+    "label": "AI-Assisted",
+    "confidence": "Low",
+    "words": 11,
+    "text": "Green apples get their sour taste from malic and citric acid."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "words": 48,
+    "text": " Eating clean sour foods like that gives the cells lining your gut a quick alternative fuel, and the cells use the extra energy to repair the lining faster. Malic and citric acid go straight into the citric acid cycle, or TCA cycle, where your mitochondria make their energy."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 23,
+    "text": " They're already part of that cycle (TCA cycle intermediates), so the cells don't have to turn them into something else first."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "words": 17,
+    "text": " Glutamine gets to the same cycle by a different biochemical route, after being turned into α-KG."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "words": 19,
+    "text": " Tart cherries get their sourness from these acids too, and organic malic acid is another source of that fuel."
+   }
+  ]
+ }
+}

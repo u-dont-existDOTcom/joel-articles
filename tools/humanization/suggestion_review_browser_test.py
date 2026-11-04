@@ -226,10 +226,17 @@ def run(page_path, report_path=None):
             # to undecided first: 2026-11-02, the three-card page read 0 here while the button worked on a fresh page)
             # the first decision card: a question card has no undo button, so a page that opens on a question (the
             # bad-trips guide's structure question, 2026-11-03) timed out here
-            first = next(s['id'] for s in data['suggestions'] if s['advice'] in ('approve', 'leave')).replace('.', '\\.')
-            was = page.locator('#c-' + first).get_attribute('data-status')
-            if was != 'pending':
-                page.click('#c-' + first + ' .dec.undo')
+            # a page of edit cards only has no approve card (the gut fuels' help page, 2026-11-04): take the first card
+            # that has an undo button, and leave the reset out when none has
+            first, was = None, 'pending'
+            for s in [s for s in data['suggestions'] if s['advice'] in ('approve', 'leave')] + \
+                     [s for s in data['suggestions'] if s['advice'] == 'edit']:
+                if page.locator('#c-' + s['id'].replace('.', '\\.') + ' .dec.undo').count():
+                    first = s['id'].replace('.', '\\.')
+                    was = page.locator('#c-' + first).get_attribute('data-status')
+                    if was != 'pending':
+                        page.click('#c-' + first + ' .dec.undo')
+                    break
             page.evaluate('window.scrollTo(0, 0)')
             page.click('#nextBtn')
             # wait for the smooth scroll to end, not a fixed 900 ms: on a long page the first undecided card can be

@@ -32,6 +32,20 @@ Joel, 2026-10-28 16:05 UTC, after the hypnosis guide had become "too incomprehen
 beside his text: "let's repair the process durably so that can't happen again also". An article with a lane folder of
 rewritten text (a HUMANIZED-*.md) and no COMPARE-GATE.json gets a warning.
 
+Then the lane's integration with main (gate E339; Joel, 2026-11-03 22:02 UTC: "i want to make sure each lane is feeding
+into and reading from the same place so i don't duplicate work", and 2026-11-04 00:37 UTC: "make sure no other lane can
+make the same mistake you made next time"). The gut lane had branched from main, never merged it again, pushed with
+plain `git push`, opened no pull request, and changed a shared test that the bad-trips lane's open pull request had
+changed the same day. So, before anything is committed:
+  - main must be merged: `origin/main` (fetched now) has to be in HEAD's history, or nothing is pushed;
+  - the branch needs a pull request: one open already, or --pr TITLE --pr-body FILE to open it;
+  - a shared file this branch changes (tools/, docs/, tests/, scripts/, .github/, AGENTS.md, SKILL.md) that another
+    open pull request also changes stops the push until --overlap-ok "how this builds on theirs" says how the two fit
+    (read their change first: gh api repos/OWNER/REPO/pulls/N/files);
+  - the pre-push hook is installed if it isn't (tools/humanization/git-hooks/pre-push), and the push carries
+    LANE_PUSH=1, so a plain `git push` from a lane is refused by the hook.
+A place GitHub can't be reached for prints what failed and doesn't stop the push (as the mailbox does).
+
 It prints the pushed commit, which the browser's raw.githubusercontent.com fetches use.
 """
 import argparse
@@ -185,6 +199,133 @@ def pull_request(title, body_file):
     return 'opened: ' + r.stdout.strip()
 
 
+SHARED_PREFIXES = ('tools/', 'docs/', 'tests/', 'scripts/', '.github/')
+SHARED_FILES = ('AGENTS.md', 'SKILL.md')
+NOT_SHARED = ('state/MAILBOX.json', 'articles/INDEX.json')   # every lane writes these; their merges are mechanical
+HOOK = REPO / 'tools' / 'humanization' / 'git-hooks' / 'pre-push'
+
+
+def shared(paths):
+    """The paths every lane reads from: the shared rules and tools, not an article's own folder."""
+    return sorted({p for p in paths if p not in NOT_SHARED and (p.startswith(SHARED_PREFIXES) or p in SHARED_FILES)})
+
+
+def overlaps(mine, others):
+    """{pr number: [shared files both change]} for the other open pull requests; others is {number: (branch, files)}."""
+    mine = set(shared(mine))
+    out = {}
+    for num, (_, files) in sorted(others.items()):
+        both = sorted(mine & set(shared(files)))
+        if both:
+            out[num] = both
+    return out
+
+
+def install_hook():
+    """The pre-push hook, linked into this clone's hooks folder when it isn't there (E158 asked for it once per clone,
+    and the gut lane's clone never had it, 2026-11-03). Returns what was done, or ''."""
+    gd = run(['git', 'rev-parse', '--git-common-dir'], check=False).stdout.strip()
+    if not gd:
+        return ''
+    hooks = (REPO / gd if not pathlib.Path(gd).is_absolute() else pathlib.Path(gd)) / 'hooks'
+    target = hooks / 'pre-push'
+    if target.exists() and target.resolve() == HOOK.resolve():
+        return ''
+    hooks.mkdir(parents=True, exist_ok=True)
+    if target.exists() or target.is_symlink():
+        target.rename(target.with_name('pre-push.before-lane-push'))
+    target.symlink_to(HOOK.resolve())
+    return 'installed the pre-push hook in %s' % hooks
+
+
+def main_gate():
+    """Refuse unless origin/main, fetched now, is merged into HEAD. Returns a warning when main can't be fetched."""
+    f = run(['git', 'fetch', '-q', 'origin', 'main'], check=False, timeout=180)
+    if f.returncode:
+        return 'warning: origin/main could not be fetched (%s); main is checked again on the next push' % f.stderr.strip()[-200:]
+    if run(['git', 'merge-base', '--is-ancestor', 'origin/main', 'HEAD'], check=False).returncode == 0:
+        return ''
+    behind = run(['git', 'log', '--oneline', 'HEAD..origin/main'], check=False).stdout.strip().split('\n')
+    files = shared(run(['git', 'diff', '--name-only', 'HEAD...origin/main'], check=False).stdout.split())
+    sys.exit('refused: main has %d commit(s) this branch doesn\'t (gate E339). Merge it first, before any other work:\n'
+             '  git merge origin/main\nthen read what it changed in the shared rules and tools%s' % (
+                 len(behind), (':\n  ' + '\n  '.join(files)) if files else ' (none this time)'))
+
+
+def pull_files(owner, repo, num):
+    """The files an open pull request changes, or None when they can't be read. Pages are fetched by number:
+    `gh api --paginate` follows GitHub's next-page links, which name the repository by its numeric id, and the session
+    proxy refuses those (2026-11-04: pull requests 199 and 200, over 100 files each, blinded the whole check)."""
+    files = []
+    for page in range(1, 31):  # GitHub lists at most 3000 files for a pull request
+        f = run(['gh', 'api', 'repos/%s/%s/pulls/%s/files?per_page=100&page=%d' % (owner, repo, num, page),
+                 '--jq', '.[].filename'], check=False)
+        if f.returncode:
+            return None
+        got = f.stdout.split()
+        files += got
+        if len(got) < 100:
+            break
+    return files
+
+
+def open_pulls():
+    """{number: (branch, files)} for every open pull request, or None when the list can't be read. A pull request whose
+    files can't be read has files None, and the gate names it rather than going blind to the others."""
+    owner, repo = owner_repo()
+    r = run(['gh', 'api', 'repos/%s/%s/pulls?state=open&per_page=100' % (owner, repo), '--jq',
+             '.[] | (.number|tostring) + " " + .head.ref'], check=False)
+    if r.returncode:
+        return None
+    out = {}
+    for line in r.stdout.strip().split('\n'):
+        if not line.strip():
+            continue
+        num, branch = line.split(' ', 1)
+        out[int(num)] = (branch, pull_files(owner, repo, num))
+    return out
+
+
+def integration_gate(a, extra_paths=()):
+    """Main merged, a pull request for the branch, and no shared file changed beside another lane's open change."""
+    notes = []
+    w = main_gate()
+    if w:
+        notes.append(w)
+    branch = run(['git', 'rev-parse', '--abbrev-ref', 'HEAD']).stdout.strip()
+    pulls = open_pulls()
+    if pulls is None:
+        notes.append('warning: the open pull requests could not be read; their overlap and this branch\'s own pull request '
+                     'are checked again on the next push')
+        return notes
+    mine_open = [n for n, (b, _) in pulls.items() if b == branch]
+    if not mine_open and not a.pr:
+        sys.exit('refused: %s has no open pull request (gate E339). A lane\'s pull request is how its shared changes reach '
+                 'main and the other lanes: push with --pr "TITLE" --pr-body FILE.' % branch)
+    changed = run(['git', 'diff', '--name-only', 'origin/main...HEAD'], check=False).stdout.split()
+    changed += run(['git', 'diff', '--name-only', 'HEAD'], check=False).stdout.split() + list(extra_paths)
+    others = {n: v for n, v in pulls.items() if v[0] != branch and v[1] is not None}
+    unread = sorted(n for n, v in pulls.items() if v[0] != branch and v[1] is None)
+    if unread and shared(changed):
+        notes.append('warning: the files of open pull request(s) %s could not be read, so their overlap with this push\'s '
+                     'shared files is checked again on the next push' % ', '.join('#%d' % n for n in unread))
+    both = overlaps(changed, others)
+    # the reason names each pull request it answers for: a reason written for #280 said nothing about #285, which
+    # opened an hour later on the same file, and the push went through on it (2026-11-04)
+    named = set(int(n) for n in re.findall(r'#(\d+)', a.overlap_ok or ''))
+    missing = [n for n in both if n not in named]
+    if missing:
+        sys.exit('refused: other open pull requests change the same shared files (gate E339). Read each one\'s change, build '
+                 'on it rather than beside it, then push with --overlap-ok "how this builds on theirs", naming each one '
+                 '(#N) it answers for%s:\n  ' % (' (not named yet: %s)' % ', '.join('#%d' % n for n in missing)
+                                                  if a.overlap_ok else '') +
+                 '\n  '.join('#%d (%s): %s' % (n, others[n][0], ', '.join(f)) for n, f in both.items() if n in missing))
+    if both:
+        notes.append('shared files also changed by open pull requests %s: %s' % (
+            ', '.join('#%d' % n for n in both), a.overlap_ok))
+    return notes
+
+
 def parser():
     ap = argparse.ArgumentParser(description=__doc__.split('\n')[0])
     ap.add_argument('subject')
@@ -195,6 +336,8 @@ def parser():
     ap.add_argument('--pr', help='open a pull request with this title when none is open for the branch')
     ap.add_argument('--pr-body', help='the pull request body (a file)')
     ap.add_argument('--unread-ok', help='push although the comparison gate fails, and say why in the commit message')
+    ap.add_argument('--overlap-ok', help='another open pull request changes a shared file this one does: say how this '
+                                          'builds on theirs (gate E339)')
     ap.add_argument('--mailbox', metavar='TURN',
                     help='the turn\'s first clock reading ("2026-11-01 22:27", UTC): its mailbox check must be on record '
                          '(tools/humanization/lane_mailbox.py record); required')
@@ -225,12 +368,16 @@ def main(argv=None):
         ap.error('--pr needs --pr-body')
     paths = ['articles/%s' % a.article, 'articles/INDEX.json', 'state/MAILBOX.json'] + a.add
     mailbox_gate(a.mailbox)
+    for line in [install_hook()] + integration_gate(a, a.add):
+        if line:
+            print(line)
     note = compare_gate(a.article, a.unread_ok)
     register(a.article)
     made = commit(a.subject, paths, note)
     gone = prune(a.article)
     fixed = commit('INDEX hash', paths)
     preflight()
+    os.environ['LANE_PUSH'] = '1'   # the pre-push hook refuses a lane's push that doesn't come through here (E339)
     r = run(['git', 'push', '-q', 'origin', 'HEAD'], timeout=600)
     head = run(['git', 'rev-parse', 'HEAD']).stdout.strip()
     print('pushed %s (%s%s%s)' % (head, 'committed' if made else 'nothing new to commit',
