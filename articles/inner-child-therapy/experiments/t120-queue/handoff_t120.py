@@ -1,0 +1,83 @@
+#!/usr/bin/env python3
+"""Turn 120: articles/inner-child-therapy/HANDOFF-UPDATE.json, the update tools/humanization/handoff_note.py applies to
+~/claude-acceptance-transfer/handoffs/inner-child-article.md on Joel's laptop.
+  handoff_t120.py PR UDA_PR [--test NOTE]   writes the update with the turn's pull request number (or "none") and the
+                                            number of the UDA pull request that files the queue's reset for the map's
+                                            lane; with --test, applies it to a copy of NOTE
+The queue's counts come from QUEUE-CLEARED.json (build_cleared.py), so the note says what the record says."""
+import json
+import pathlib
+import re
+import sys
+
+HERE = pathlib.Path(__file__).resolve().parent
+ROOT = HERE.parents[3]
+OUT = HERE.parents[1] / 'HANDOFF-UPDATE.json'
+S = 'https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq'
+BR = 'handoff/claude-dangerous-adult-20260924-1631'
+PRN, UDA = sys.argv[1], sys.argv[2]
+PRS = ('pull request #%s (https://github.com/u-dont-existDOTcom/joel-articles/pull/%s), open for him to merge' % (PRN, PRN)
+       if PRN != 'none' else 'no push yet: the commits wait on the laptop link')
+UDAL = 'https://github.com/u-dont-existDOTcom/universal-dev-architecture/pull/%s' % UDA
+FILED = ('filed in that lane as his request: UDA pull request #%s (%s), suggested-fixes/innerSignalGraph/2026-11-04-clear-the-inner-child-humanization-queue.md' % (UDA, UDAL)
+         if UDA != 'none' else
+         'its item for that lane is experiments/t120-queue/UDA-ITEM.md, to go in as his request by ~/ai-work/claude-dangerous-lane/inbox/t113/t120-uda-file.sh once he says yes: it opens a public pull request in universal-dev-architecture, and the permission check refused that without his yes (10:40 UTC)')
+C = json.loads((HERE / 'QUEUE-CLEARED.json').read_text(encoding='utf-8'))
+K = C['counts']
+e = re.escape
+
+turn120 = '\n'.join([
+    '- TURN 120 (2026-11-04, his messages of 09:42 and 10:02 UTC; by %s), the latest; its next step wins over everything below. Branch %s, from main (pull request #285, turn 119, merged by him at 08:59 UTC); %s.' % (S, BR, PRS),
+    '  - His messages (experiments/t120-answers/JOEL-20261104-0942.md): his two round-9 result links, his new last line for the first paragraph of Journal With Each Hand ("A protective part might grab the pen first, and then it gets that hand until it\'s had its say, even if all it can do is scribble angrily."), and at 10:02 "make sure you clear the humanization queue".',
+    '  - Round 9 read (experiments/t120-results/: record_round9.py, RESULT-A/B.json, SPOTS.md): A Human Written, 0.00%% AI, 20 windows, 6 of them Human at Medium (https://www.pangram.com/feed/a3f14949-326d-492a-b65a-8b048ca74940); B Human Written, 0.29%% AI, 39 windows: 1 AI at Low (window 24, 35 words, Finding People and Building Trust > Hearthwork: Taking Turns, "The peer doesn\'t become your permanent parent, though..."), 2 Human at Low, 17 Human at Medium (https://www.pangram.com/feed/f3b33647-484f-4203-9709-db0b04ab8f2d). Ledger: t119s-A#373 a miss (predicted AI), t119s-B#374 right (Mixed).',
+    '  - His line is in (OWNER-EDITS.json joel-120-scribble; 99 pass, 0 failed); it carries the queue\'s PGQ-054 in his words.',
+    '  - The queue: every entry of the map\'s authoring/PENDING-PUBLIC-GUIDE-CHANGES.md (queue version 2026-10-31-r20, %d entries, PGQ-001 to PGQ-055 without 044 to 046) has its fate (experiments/t120-queue/QUEUE-CLEARED.md): %d in, %d with the core point in his words, %d left out. PGQ-001 to PGQ-017 were read again against his reorganized guide this turn (QUEUE-001-017.json); QUEUE-COVERAGE.json\'s PGQ-052 now says "in", as its table did. The map\'s file is the map lane\'s to change (UDA\'s suggested-fix rule; this session\'s request for push access to innerSignalGraph was refused), so the reset is the map lane\'s: %s. GUIDE-UPDATE-QUEUE-20261006.md says cleared on this side. Asked him: PGQ-009 and PGQ-016 lost their extra in edits of his inside a paragraph (his line "Other jobs can go to friends or community, outsource to the tools or pros, whatever works."; the memory-aid lines of Journal With Each Hand); I recommended leaving both out.' % (K['entries'], K['in'], K['core'], K['out'], FILED),
+    '  - Lesson (no new rule): for a change in another project\'s file, file it in that project\'s UDA lane first; I asked for push access to innerSignalGraph before checking that rule.',
+    '  - NEXT: Next step 1.',
+])
+next1 = (('0. With his yes to the public pull request in universal-dev-architecture: run ~/ai-work/claude-dangerous-lane/inbox/t113/t120-uda-file.sh (files the queue\'s reset in the map\'s UDA lane, as his request), then give him the map lane\'s resume line with the request. ' if UDA == 'none' else '') +
+         '1. Round 9\'s one AI window (B 24, Hearthwork: Taking Turns, his words): in round 8 its second sentence still had his aside '
+         '"(a driving instructor isn\'t planning to drive you around forever either)" and read Human at High (experiments/t115-results/'
+         'RESULT-B.json); he cut the aside in his reorganization (experiments/t116-joel/EDITS.json). Asked him whether to put it back (my '
+         'recommendation: yes); with his yes, put it back, check that section through the gate, and add it to OWNER-EDITS.json. The 25 Human '
+         'windows at Medium or Low (experiments/t120-results/SPOTS.md): my recommendation, leave them, since both halves read Human Written; '
+         'if he wants them worked, a marking page, his words first (EDITS.json: kept, edited or new), KEEP-AS-IS.json read before any card. '
+         'His answer on PGQ-009 and PGQ-016. Then the publish draft: his pictures uploaded where the notes say, the post\'s own pictures and videos kept, the Rumi quote as a '
+         'pull quote, its quote marks curled the right way before pasting. Every turn ends with the whole article sent and passed to the '
+         'chat check as --sent (E271 (Inner Child)), rendered with --images for his pictures.')
+upd = {
+    'turn': '120',
+    'replace': [
+        [e('TURN 119 (2026-11-04, his messages of 00:51 and 00:56 UTC; by %s), the latest; its next step wins over everything below.' % S),
+         'TURN 119 (2026-11-04, his messages of 00:51 and 00:56 UTC; by %s), FINISHED.' % S, 1],
+        [r'this version is from turn 119 \(his messages of 2026-11-04 00:51 and 00:56 UTC; pull request #\d+ \(https://github\.com/u-dont-existDOTcom/joel-articles/pull/\d+\), open for him to merge\)\.',
+         'this version is from turn 120 (his messages of 2026-11-04 09:42 and 10:02 UTC; %s).' % PRS, 1],
+        [e('turns 59 to 76 and 100 to 119 by %s' % S), 'turns 59 to 76 and 100 to 120 by %s' % S, 1],
+        [e('  - experiments/t119-substack/ (round 9) and t119-queue/ (the map\'s queue checked) (the latest turn), '),
+         '  - experiments/t120-answers/ (his messages), t120-results/ (round 9 read) and t120-queue/ (the queue cleared) (the latest turn), t119-substack/ (round 9), t119-queue/ (the map\'s queue checked), ', 1],
+        [r"^1\. Round 9's results: his two result links.*$", next1, 1],
+    ],
+    'insert_before': [
+        ['- TURN 119 (2026-11-04', turn120],
+    ],
+    'sections': {
+        '## Waiting on Joel': '\n'.join([
+            '1. His answer on the one AI window: put his driving-instructor aside back (my recommendation), and whether to leave the 25 Medium or Low windows (my recommendation) or work them on a marking page.',
+            ('2. The queue\'s reset in the map\'s lane: his merge of UDA pull request #%s (%s), or the map lane\'s resume line with the request, then his merge of that lane\'s pull request that empties the queue.' % (UDA, UDAL)
+             if UDA != 'none' else '2. His yes to filing the queue\'s reset in the map\'s lane, a public pull request in universal-dev-architecture (my recommendation: yes); then its merge, or the map lane\'s resume line with the request, and his merge of that lane\'s pull request that empties the queue.'),
+            '3. His answer on PGQ-009 and PGQ-016 (keep their extra out, as I recommended, or put his line and the memory-aid lines back).',
+            '4. %s' % ('His merge of pull request #%s (turn 120).' % PRN if PRN != 'none' else 'The push of turn 120, then his merge of its pull request.'),
+            '5. The two temporary Substack drafts, "Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)": round 9 is read, so they can hold a later round or go; deleting them is his.',
+            '6. Never in the article: amounts (the 1g, the 7g) and any recipe for what to take instead, including his "ultimate psychedelic recipe" line and its link.',
+        ]),
+    },
+}
+OUT.write_text(json.dumps(upd, indent=1, ensure_ascii=False) + '\n', encoding='utf-8')
+print('wrote', OUT)
+if '--test' in sys.argv:
+    sys.path.insert(0, str(ROOT / 'tools' / 'humanization'))
+    from handoff_note import apply
+    note = pathlib.Path(sys.argv[sys.argv.index('--test') + 1]).read_text(encoding='utf-8')
+    new, done = apply(note, upd)
+    print('\n'.join(done))
+    print(len(note), '->', len(new), 'characters')

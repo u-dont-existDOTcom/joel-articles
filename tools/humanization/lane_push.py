@@ -239,8 +239,12 @@ def install_hook():
 
 
 def main_gate():
-    """Refuse unless origin/main, fetched now, is merged into HEAD. Returns a warning when main can't be fetched."""
-    f = run(['git', 'fetch', '-q', 'origin', 'main'], check=False, timeout=180)
+    """Refuse unless origin/main, fetched now, is merged into HEAD. Returns a warning when main can't be fetched.
+    The fetch names its destination: a clone whose fetch refspec covers only its lane branch (the Inner Child lane's
+    laptop clone, 2026-11-04) took "git fetch origin main" into FETCH_HEAD alone and kept an origin/main weeks old, so
+    this gate passed against that old main and the overlap check counted every shared file main had changed since as
+    this branch's own (pull requests #109 and #280, neither touched by the branch)."""
+    f = run(['git', 'fetch', '-q', 'origin', '+refs/heads/main:refs/remotes/origin/main'], check=False, timeout=180)
     if f.returncode:
         return 'warning: origin/main could not be fetched (%s); main is checked again on the next push' % f.stderr.strip()[-200:]
     if run(['git', 'merge-base', '--is-ancestor', 'origin/main', 'HEAD'], check=False).returncode == 0:

@@ -1,0 +1,75 @@
+{
+ "name": "t121_hw_p1",
+ "task_id": "0b3781cd-dbee-4fda-9c4f-51b472542a80",
+ "result": {
+  "stage": "STAGE_SUCCESS",
+  "text": "The basic premise of Hearthwork, my peer-counseling framework, is: Equal time. Attention without interpretation, advice, or fixing. You speak. I listen. Then we switch. Presence, Warmth, Discipline, Confidentiality. It’s kind of a third type of relationship, alongside ordinary friendship and professional therapy, and one your little one might really need, because modern life rarely gives you anything like it.",
+  "version": "4.1",
+  "prediction": "We believe that this text is a mix of AI and human-written content.",
+  "prediction_short": "AI",
+  "fraction_ai": 0.8053221106529236,
+  "fraction_ai_assisted": 1.7834569364720552e-21,
+  "fraction_human": 0.1946779191493988,
+  "headline": "AI Detected",
+  "num_ai_segments": 2,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 1,
+  "windows": [
+   {
+    "text": "The basic premise of Hearthwork, my peer-counseling framework, is: Equal time.",
+    "label": "Human Written",
+    "ai_assistance_score": 0.0015323016559705138,
+    "confidence": "Low",
+    "start_index": 0,
+    "end_index": 78,
+    "word_count": 12,
+    "token_length": 21,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     0.9984676837921143,
+     0.0,
+     0.0015323016559705138
+    ],
+    "calibrated_confidence": 0.5752700798496947
+   },
+   {
+    "text": " Attention without interpretation, advice, or fixing. You speak. I listen. Then we switch.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.9962737560272217,
+    "confidence": "Low",
+    "start_index": 78,
+    "end_index": 168,
+    "word_count": 13,
+    "token_length": 19,
+    "is_humanized": false,
+    "humanizer_score": 0.06861942261457443,
+    "class_probabilities": [
+     0.0037262244150042534,
+     8.164269414724115e-21,
+     0.9962737560272217
+    ],
+    "calibrated_confidence": 0.5752700798496947
+   },
+   {
+    "text": " Presence, Warmth, Discipline, Confidentiality. It’s kind of a third type of relationship, alongside ordinary friendship and professional therapy, and one your little one might really need, because modern life rarely gives you anything like it.",
+    "label": "AI-Generated",
+    "ai_assistance_score": 0.991838276386261,
+    "confidence": "Low",
+    "start_index": 168,
+    "end_index": 412,
+    "word_count": 36,
+    "token_length": 47,
+    "is_humanized": false,
+    "humanizer_score": 0.06861942261457443,
+    "class_probabilities": [
+     0.00816171895712614,
+     4.8751173573860386e-42,
+     0.991838276386261
+    ],
+    "calibrated_confidence": 0.5752700798496947
+   }
+  ],
+  "dashboard_link": "https://www.pangram.com/history/8668b6dc-7991-41fc-ba98-e361470ba1f5"
+ }
+}

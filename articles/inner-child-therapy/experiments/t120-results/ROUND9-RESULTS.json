@@ -1,0 +1,59 @@
+{
+ "round": 9,
+ "turn": 120,
+ "how": "Each feed page was read in the desktop app's built-in browser with tools/humanization/pangram_feed_read.js in compact mode: the result's fields, the SHA-256 of its checked text, and its windows as compact lines (WINDOWS-A.txt, WINDOWS-B.txt, each checked here against the page's own SHA-256 of that line). The checked text is rebuilt from the pasted payload (tools/humanization/substack_check_text.py); B's matches the page's SHA-256 as it is, and A's once the one no-break space of his \"Breadcrumbing is\" is a plain space, as Substack shows it (the preview check of turn 119 found the same).",
+ "A": {
+  "link": "https://www.pangram.com/feed/a3f14949-326d-492a-b65a-8b048ca74940",
+  "created_at": "2026-11-03T20:05:44.335632-05:00",
+  "version": "4.1",
+  "headline": "Human Written",
+  "fraction_ai": 1.0019838691394112e-12,
+  "num_ai_segments": 0,
+  "n_windows": 20,
+  "word_count": 16918,
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "ai_windows": [],
+  "not_high_human": 6,
+  "by_confidence": {
+   "Medium": 6,
+   "Low": 0
+  }
+ },
+ "B": {
+  "link": "https://www.pangram.com/feed/f3b33647-484f-4203-9709-db0b04ab8f2d",
+  "created_at": "2026-11-03T20:08:20.086788-05:00",
+  "version": "4.1",
+  "headline": "Human Written",
+  "fraction_ai": 0.0029144510626792908,
+  "num_ai_segments": 1,
+  "n_windows": 39,
+  "word_count": 11849,
+  "document_confidence": {
+   "level": "High",
+   "boundary": null
+  },
+  "ai_windows": [
+   {
+    "i": 24,
+    "confidence": "Low",
+    "words": 35,
+    "start": 41474,
+    "end": 41661,
+    "text": "The peer doesn’t become your permanent parent, though. They show you a capacity, help you get the hang of it, and give it back to you, which is borrowed adulthood in its healthiest form.",
+    "section": [
+     "Bringing Reparenting Into Real Life",
+     "Finding People and Building Trust",
+     "Hearthwork: Taking Turns"
+    ]
+   }
+  ],
+  "not_high_human": 20,
+  "by_confidence": {
+   "Medium": 17,
+   "Low": 2
+  }
+ }
+}
