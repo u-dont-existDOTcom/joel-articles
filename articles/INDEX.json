@@ -108501,7 +108501,7 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/pangram-ledger.jsonl",
-          "sha256": "ab30e35bb2873980ede95b2916bc4bf64b93d173a146ecf0503c3f1a97bec272",
+          "sha256": "0b19b30004fdc27969fa5abd2fd8c64f112ea110fc4d0f726e6a5843fcad441d",
           "role": "humanization_working_record"
         },
         {
@@ -110277,6 +110277,36 @@
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r04/tca/rewrite/VOICE.txt",
           "sha256": "f0d148a5e57cab97176399abbffeabb803b30e975463fe69938a4abf60ef5c88",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r04/checks/TEXTS-tca3.json",
+          "sha256": "11a0f6a9483cfe4de18f22a2651a7e014fb256d3140fbeabac9748edbe389d0c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r04/checks/texts/r04-fuel-tca-3.txt",
+          "sha256": "85a02c7398bb0a3a882336fb5f5ec49a3847e1146762d2b720fc4344f29ce6f9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r04/tca/MEANING-PACKET-3.json",
+          "sha256": "642f94c861c7712829bf45ecea8fab8b3cc1a57139fe4ed1ac02ba481cf4e3f9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r04/tca/MEANING-VERDICTS-3.json",
+          "sha256": "f4b14e3c431743e88b357f5012603b0b924389308ea86d0e5132b6ec779e43e3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r04/tca/rewrite/CODEX.md",
+          "sha256": "cd32f14cccf90e74cad51908f609862f8ab8a78d4944caee4390aeb5136aa831",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r04/tca/rewrite/DRAFT-3.txt",
+          "sha256": "85a02c7398bb0a3a882336fb5f5ec49a3847e1146762d2b720fc4344f29ce6f9",
           "role": "humanization_working_record"
         }
       ]
