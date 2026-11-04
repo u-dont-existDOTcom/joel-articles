@@ -24,16 +24,15 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
 
 ## Current checkpoint
 
-r02 (his batch-1 answers applied) is the article's current text. Batch 2's page is out for his decisions (store collection `decisions`): four paragraphs to approve, two stretches to edit.
+2026-11-04 20:44 UTC: r11 is live in his post (https://ibogaqueen.substack.com/p/healing-the-gut-naturally), no email sent (`humanize/fix-20261103/live/`). r10 read Human Written 100% as a whole article (https://www.pangram.com/feed/6d370e2e-7a9c-49b9-8e34-e5180d888fac); r11 is r10 with one slip of mine fixed (Phase 3, Human 100% in the web app). The pre-publish reads' other findings, in his own words and my approved wording, are on the batch-8 page: https://claude.ai/artifact/LzsSUdN6KCk8KesmNJzVUK (cards: `humanize/fix-20261103/r11/b8/REVIEW-CARDS.md`, store collection `decisions`).
 
 ## Remaining
 
-1. His batch-2 answers: apply them to r02 (as r03), and build the fuels' other parts the way his edit is built.
-3. Apply his approved text to `r01.html`, then one whole-article check the free way: a temporary Substack draft's secret preview link, or his GUI credits through the bridge (its daemon is running on the laptop; it opens a Brave window on his desktop; the source needs a measurement copy that starts with `# Introduction`). Then give him the final HTML.
+1. His batch-8 answers: apply them to r11 (as r12), each changed paragraph checked in the web app, then the second update of his post (`humanize/fix-20261103/live/README.md`, gate E332), again with no email.
 
 ## Blockers / unresolved
 
-- Batch 2's two stretches (the three things to look for; the mitochondrial fuels): his edits.
+- None. Batch 8 waits on his answers.
 
 ## Evidence / artifacts
 
