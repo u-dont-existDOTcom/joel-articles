@@ -10,7 +10,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/inner-child
 | Pangram 4.1 GUI (dashboard) | 28 | 27 (96%) | 4% | 96% | 100% | 0.104 (base 0.034, 28) |
 | pangram-4.1-substack | 100 | 72 (72%) | 42% | 58% | 60% | 0.186 (base 0.244, 100) |
 | pangram-4.1-api | 213 | 167 (78%) | 31% | 69% | 85% | 0.192 (base 0.214, 213) |
-| Pangram 4.1 (API) | 4 | 2 (50%) | 75% | 25% | 25% | 0.275 (base 0.188, 4) |
+| Pangram 4.1 (API) | 5 | 3 (60%) | 60% | 40% | 40% | 0.232 (base 0.240, 5) |
 
 106 of the older calls are scored here differently from the lane's own marks (98 marked right there, 8 marked wrong): this page uses one rule for every lane, where only a 100% Human result is a pass and a "Mixed" or "Human with an AI window" call counts as not Human.
 
@@ -105,15 +105,15 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 4 | 2 (50%) | 75% | 25% | 25% | 0.275 (base 0.188, 4) |
-| the latest 100 | 4 | 2 (50%) | 75% | 25% | 25% | 0.275 (base 0.188, 4) |
-| all | 4 | 2 (50%) | 75% | 25% | 25% | 0.275 (base 0.188, 4) |
+| the latest 50 | 5 | 3 (60%) | 60% | 40% | 40% | 0.232 (base 0.240, 5) |
+| the latest 100 | 5 | 3 (60%) | 60% | 40% | 40% | 0.232 (base 0.240, 5) |
+| all | 5 | 3 (60%) | 60% | 40% | 40% | 0.232 (base 0.240, 5) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| section | 1 | 0 (0%) | 100% | 0% | 100% | 0.360 (base 0.000, 1) |
+| section | 2 | 1 (50%) | 50% | 50% | 100% | 0.211 (base 0.250, 2) |
 | paragraph | 3 | 2 (67%) | 67% | 33% | 0% | 0.247 (base 0.222, 3) |
 
 Calibration:
@@ -122,7 +122,7 @@ Calibration:
 |---|---|---|---|
 | 0.2 to 0.4 | 2 | 0.30 | 50% |
 | 0.4 to 0.6 | 2 | 0.50 | 0% |
-| 0.6 to 0.8 | 1 | 0.60 | 0% |
+| 0.6 to 0.8 | 2 | 0.68 | 50% |
 
 ## Misses since the ledger (77)
 

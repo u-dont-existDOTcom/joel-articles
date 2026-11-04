@@ -148,7 +148,7 @@ As for the internal psychology of it, when the part that wants to die feels like
 
 I try not to proselytize about spirituality, because I've made that mistake before, and I now see that it's better to let folks find it when they are ready. But when someone tells me they want to kill themself, I consider the topic to be brutally opened by default, regardless of whether they meant to do that, because if they actually do kill their body (which they might mistake to be their self), that's a very powerful spiritual challenge right there, even if they didn't realize it would be.
 
-Then ask: what is the self you want to kill? Is that self the same thing as your body? Why? Do you have the same body in dreams? What exactly do you expect your body's death to accomplish? If the problem is a state of mind, like self-hatred or despair, shame or loneliness, what makes you so sure that destroying the body ends it?
+Then ask: what is the self you want to kill? Is that self the same thing as your body, and if yes, why do you think so? Do you have the same body in dreams? What exactly do you expect your body's death to accomplish? If the problem is a state of mind, like self-hatred or despair, shame or loneliness, what makes you so sure that destroying the body ends it?
 
 In Buddhism, death isn't an off switch, and it isn't a free new-age get-out-of-jail-free card back to the Divine Source. Repeated thought and intention shape the mind, and that keeps going through death and rebirth. Yes, that can include hell realms (and hell can be right here on Earth, also). A human birth is a rare chance to understand suffering and end its causes.
 
@@ -314,17 +314,17 @@ Then take a small piece of whatever you'd tell them and do it yourself. If it's 
 
 If the only time the Nurturer shows up is when something's wrong, your little one can start to feel like they're your job. Sometimes show up just to say "I'm glad you're here," and then enjoy them for a minute, the way you'd enjoy a little kid who wants to show you a rock they found.
 
-Watch how your love lands. "I care about you" can be patient, or it can be "I care about you, now hurry up and feel better." Getting close can be too much, too, the way kids squirm away from an aunt they barely know who goes in for the big hug, and then climb all over the uncle who's just sitting there. Knowing that love is in you somewhere counts for a lot, and you're borrowing something you already know how to do.
+Watch how your love sounds to your little boo, in context. "I care about you" can be patient, or it can be "I care about you, now hurry up and feel better." Getting close can be too much, too, the way kids squirm away from an aunt they barely know who goes in for the big hug, and then climb all over the uncle who's just sitting there. Knowing that love is in you somewhere counts for a lot, and you're borrowing something you already know how to do.
 
 ### A Smaller Doorway: Goodwill
 
 Sometimes "I love you" is more than you can honestly say, especially to somebody who's treated you badly. Even the usual whittled-down loving-kindness prayer, "May you be happy," can feel like rewarding them. That's why I go with the Buddha's overall wish (paraphrasing): "**May you be loving, peaceful, and free**," since if they were all of those, they wouldn't have done what they did, and then they actually would be lovable.
 
-This goodwill isn't just for the target of it, though. You may find it bounces back and opens up a little warmth in your heart. And if "I love you" goes flat when you aim it at yourself or your little one, the same wish works there, too. 🫶🏿
+This goodwill isn't just for the target of it, though. You may find it bounces back and opens up a little warmth in your heart. And if "I love you" goes flat when said to yourself or your little one, the same goodwill wish can be a stabler place to start. 🫶🏿
 
 ### Ask God for a Loan
 
-The dog kind of love is real love. Some people also know a love that's a whole different size, like God's, or whatever opened up for them in prayer or on a long retreat, and I don't want to lump that in with the dog. If you've been there, don't shrink it down to a thought experiment about a friend.
+The dog kind of love is real love. Some people also know a love that's way more profound, like God's. Maybe it opened up for them in prayer or on a long retreat, and I don't want to lump that in with the dog. If you've felt that, you don't need to shrink your love down to a thought experiment about a friend.
 
 If you haven't been there yet (and even if you have), I have good news for you!
 
@@ -364,7 +364,10 @@ Picture the love traveling from your heart down to your little one. If some come
 
 If a spiritual teacher you trusted betrayed you, even sitting down to meditate can feel like it belongs to them now. But if you let an abuser control your appreciation of life, then you've given them an unearned win.
 
-Being the grown-up doesn't mean controlling everything yourself, though. After a betrayal like that, part of you might want to. Spiritual support can help you act where it's yours to act, and let go of outcomes and other people's choices where it isn't. [The Serenity Prayer](https://www.archspm.org/the-serenity-prayer/) is exactly to remember that.
+Being the grown-up doesn't mean controlling everything yourself, though. After a betrayal like that, part of you might want to. We can use Niebuhr's [Serenity Prayer](https://www.archspm.org/the-serenity-prayer/) here to help: "God, grant me the serenity  
+to accept the things I cannot change  
+the courage to change the things I can  
+and the wisdom to know the difference." (Replace "God" with universe if you wish.)
 
 ### Make a Simple Vow
 
@@ -728,7 +731,7 @@ Jack Kornfield has a whole book on what comes next, [After the Ecstasy, the Laun
 
 One reason the peak is so momentary is because we often don't need to truly give anything up to get it. Say you're still pretty angry, and you want enlightenment, but it has to come with the money and worldly success in one package. Ketamine can get you to a peak anyway. Then, you might now have some kind of transcendental "understanding" glimpse that seems like it could fix everything, if only you could be more aware of it, which often leads into a cycle of taking more and more medicine over time. I'd prefer to ask if any of the discontent has been let go, or the anger? If not, that peak was less the love we're after here than "I'll be grateful once I've got it all," the gratitude with conditions from Ask God for a Loan.
 
-And if your little one still can't take the love in? Hold off on going for bigger, crazier breakthroughs, however tempting it is, or at least know that they are a double-edged sword. Something's in the way, and getting to know it is your next job. Often it's a protective part that's seen love come with strings before. Hear it out first.
+And if your little one still can't take the love in? Hold off on going for bigger, crazier breakthroughs, however tempting it is, or at least know that they are a double-edged sword. Something's in the way, and getting to know it is your next job. Often it's a protective part that's seen love come with strings before, so hear that part out first.
 
 ## When Escape Leaves Reality Behind
 
@@ -848,11 +851,11 @@ Give a new interest enough tries to get past the humiliation of being a beginner
 
 ### Untangling the Belonging Bargains
 
-Part of building who you are is untangling yourself from whatever pulls you away from your own knowing in return for belonging. A political tribe might expect consistent positions and predictable reactions, while a family or religion that's kind to you might have expectations that just feel like being good. Your family might want a particular kind of son or daughter, and your friends might have rules about what you can joke about or get upset about. But if going along means betraying yourself, that's the bargain. It can help to write down the rules your family ran on, including unspoken ones like "Boys don't cry." Then write down the role you got handed, like the stand-in parent, or the one who got blamed for everything (ST-CA has lists of both, in sections 15.2.3 and 15.2.4).
+Part of building who you are is untangling yourself from what I call the "belonging bargains" which pull you away from your own inner-knowing in return for belonging. Your friends probably have unwritten rules about what you can joke about or get upset about. A political tribe might expect consistent positions and predictable reactions, while a family or religion that's kind to you might have expectations that look at face value like just being a good member.  It can help to write down the unspoken rules your family ran on, like "Boys don't cry." Then write down the role you got handed, like the stand-in parent for a sibling, or the one who got blamed for everything (ST-CA has lists of both, in sections 15.2.3 and 15.2.4).
 
 Then there's another bargain, where you have to earn your worth: when you don't feel your value inside as a human being, you can become a "human doer," working for it in some arena outside yourself. That might be beauty, athleticism, sexual desirability, intelligence or grades. For some people it's money or status, and for others it's a sophisticated spiritual identity or becoming indispensable to everybody else's problems. It can feel really good to be the one everybody calls. In the more shadowy presentation, when you really need to feel needed, you might be like the firefighters who become arsonists to keep themselves employed.
 
-Even with good parents, you could have learned unhealthy self-valuation when people repeatedly praised what you did rather than your inherent worth. That wasn't your flaw.
+Even with good parents, you could have learned unhealthy self-valuation when people repeatedly praised what you did rather than your inherent worth. You weren't born with this flaw.
 
 #### Four Pairs That Commonly Hook the Child
 
@@ -861,7 +864,7 @@ Pema Chödrön has a quick map for finding the bargain. It's four pairs, startin
 When that happens, you can ask yourself these, once you've caught your breath:
 
 - What do I think I'm about to get, or lose?
-- Whose approval suddenly feels like I can't live without it? It isn't always who you'd guess.
+- Whose approval suddenly feels like I can't live without it?
 - Is this a value I'm standing up for, or a high I'm trying to keep?
 - Would this still be something I'd feel is worth doing if at the end of the day, I didn't get praise from anyone for it?
 
@@ -889,11 +892,9 @@ Some families run on a bargain like "If I'm happy while someone I love is suffer
 
 That's exactly why I was crying for 14 years. Beginning at the age of 12, when I really started to understand that life is brutal for most people, I became convinced that being happy myself, while others weren't, was selfish. I had this poster in my room that really resonated with me, by the famous socialist, Eugene V. Debs. I told this to a therapist in college and she actually agreed it was a good reason to be depressed!
 
-What I found, once I started cultivating my own happiness, was that I got a lot better at helping other people toward theirs. Do your part for people who are suffering, and skip the part where you have to be miserable too.
+What I found, once I started cultivating my own happiness, was that I got a lot better at helping other people toward theirs. So do your part for people who are suffering (which might sometimes just be modeling how to live, i.e. doing nothing different), and skip the part where you have to be miserable too.
 
-Some friends or family really might not like it when you get happier, though. Someone might pull away, or keep dragging you back into the old misery. I'd take that loss seriously, and look at what they do and what you owe them, before deciding it's envy.
-
-I'd still try a small good thing, like a nice meal, and see what actually happens.
+Some friends or family really might not like it when you get happier, though. Some of them might pull away, while others might try to keep dragging you back into the old misery, since misery loves company. On the other hand, I wouldn't automatically classify everyone as envious just because they don't feel comfortable with you anymore, as it could be something you've done while unaware.
 
 ## Finding People and Building Trust
 
@@ -931,17 +932,21 @@ You can always rephrase things as a dream narrative to get the emotional content
 
 Before giving anyone advice, your little one included, it can help to find out what kind of company they want: "Do you want me to mostly listen, help you untangle this, brainstorm, or...?" Not that you have to make a ritual of asking every time, if it's obvious what they want. But as they say, "assume" makes an "ass" out of "u" and "me."
 
-### Hearthwork: Taking Turns
+### Hearthwork: Taking Turns Lending & Borrowing Adulthood
 
-The basic premise of [Hearthwork](https://hearthwork.u-dont-exist.com), my peer-counseling framework, is: Equal time. Attention without interpretation, advice, or fixing. You speak. I listen. Then we switch. Presence, Warmth, Discipline, Confidentiality. It's kind of a third type of relationship, alongside ordinary friendship and professional therapy, and one your little one might really need, because modern life rarely gives you anything like it.
+[Hearthwork](https://hearthwork.u-dont-exist.com) is what I call my peer-counseling framework, which combines various other frameworks I'm familiar with. The basic premise is, peers take turns of equal length to privately listen to each other with respect and warm, positive regard. They don't try to interpret what's really going on, give advice, or fix the other person's life in the session.
 
-Some of what the three grown-up jobs do can come from outside you, too. When you take turns listening with a good peer, as equals, their warmth and the way they stay with you lend you the Nurturer for a while. Keeping what you say private, and stopping when the time's up, lends you the Protector. If you say no, they don't push. But they don't act as your Guide, or decide what your experience means. Maybe they're thinking, "Oh, I know what this is about," or "Here's what you should do." They keep it to themselves. A question from them at the right moment can help you hear your own Guide, and what you answer is up to you. Then you trade places, and it's your turn to keep "Here's what you should do" to yourself.
+This is a "middle path" kind of relationship, that threads itself between ordinary friendship (so you're not "clienting" to your friends) and professional therapy (which gets saved for the more severe issues). Modern life rarely gives us anything like this, and your little one might really need it.
 
-The peer doesn't become your permanent parent, though. They show you a capacity, help you get the hang of it, and give it back to you, which is borrowed adulthood in its healthiest form (a driving instructor isn't planning to drive you around forever either). Is that therapy? Well, not the mainstream kind, but yes, for sure. Professional therapy's still useful for what it does, and peers and community do something else, so a serious healing path can include both.
+It also helps us with the borrowed adulthood practice. When you take turns listening with a good peer, on an equal footing, their warmth and the way they hold space for you are ideal for borrowing the Nurterer role and what that feels like. The Protector role can also be borrowed from the way they keeping what you say private, and the way you both stop when the turn's time is up.
+
+But they don't act as your Guide, or decide what your experience means. Maybe they're thinking, "Oh, I know what this is about," or "Here's what you should do." It's hard sometimes, but they agree to keep that to themselves during the session. Instead of telling you what to do, they might ask the right question at the right moment so you can hear your own Guide. There's also no pressure to answer. Then you trade places, and it's your turn to keep "Here's what you should do" to yourself.
 
 ### Dating While You Heal
 
-Maybe you'd rather that your support came from a lover, as well. Lots of people open a dating app in the middle of the night, hoping someone will make it all stop hurting. 🙈 If that's you right now, dating can wait while your friends and the steady people around you do their part. That doesn't mean you have to be completely healed before you date, but romance should follow when two people really love each other and want to build a life together. It won't rescue you from the pain or reward you for healing, and it sucks to mess up a beautiful relationship because of unhealed trauma, believe me, I know. I wrote a whole [romance guide](http://romance.u-dont-exist.com), mostly due to this.
+Maybe you'd rather that your support came from a lover, as well. Lots of people open a dating app in the middle of the night, hoping someone will make it all stop hurting. 🙈 We call that "co-dependency" (although the term is not literally negative, it has become to carry this connotation). If that's you hitting the Swipe button right now, my suggestion is to let the dating game wait. Let your friends and the steady people around you do their part to support you as you learn to support yourself more.
+
+That doesn't mean you have to be completely healed before you date, but romance should follow when two people really love each other and want to build a life together. It won't rescue you from the pain of your life, nor reward you for healing, and it sucks to mess up a beautiful relationship because of unhealed trauma. Believe me, I've been through it. I wrote a whole [romance guide](http://romance.u-dont-exist.com), mostly due to this.
 
 ## Speaking Up and Handling Conflict
 
@@ -963,7 +968,7 @@ No need to give them a good impression if that means not being your own advocate
 
 ### Write It. Don't Send It Yet.
 
-If you've got something burning you up that you wanna say, write it out as a reply. There. That got it out. Ahh. Breathing easier. 😌 But don't send it. Take that breather you earned and then come back to it from a cooler place.
+If you've got something burning you up that you wanna say, write it out as a reply. There, that got it out. Ahh. Breathing easier. 😌 But don't send it. Take that breather you earned and then come back to it from a cooler place.
 
 It doesn't mean you need to hide your upset, or apply for a permit to protest, but choose your battles and execute them wisely, so you don't end up regretting how you communicated later. As Lao Tsu might have said (if I could ever have read that whole boring Art of War book), a war with no casualties is the best possible war. When high IQ & EQ communication hits a writer's block, sometimes the best thing is to simply say, "I need some time to think about my response." And if the conflict really requires a response right now, then obviously just do your best rather than wait for the perfect timing.
 
@@ -977,13 +982,13 @@ But Jesus also said to take the log out of your own eye first, and then "[you wi
 
 It's also how your voice sounds, though. You can say all the right words, but if the tone is accusatory, it doesn't matter.
 
-Before sending anything, I'd read it once as if I were them, sitting there with my phone. Stuff I wrote while I was scared can sound like a threat to them.
+Before sending anything hastily, I'd read it over once as if I were in their shoes. Stuff I wrote while I was scared or hurt can sound like aggression to them.
 
 ### If You Really Did Hurt Them
 
-Repair it. Easier said than done...
+Repairing relationship damage is easier said than done, and must start from genuinely correct motivations.
 
-Are you sorry for what you did, or are you starting to take back the complaint too because they're still upset? Maybe your first explanation sucked. Try again. 😅 And if it fails again, and you've said what you mean, well, you can't guarantee they'll understand it. Guilt may keep shouting at you. That doesn't tell you the whole conflict was your fault, nor does it prove they're manipulating you.
+Are you really sorry for what you did, or are you just trying to feel sorry because they're upset? If you've said what you really feel, without dressing it up or justifying it, then let that be that. There's no guarantee they'll understand it, and they might need to mull it over for a while before they're even willing to hear what you said. That's how anger works, it grips you. Meanwhile, guilt may keep shouting at you. That doesn't tell you the whole conflict was your fault, nor does it prove they're manipulating you.
 
 ### Other Folks Also Have Hooks
 

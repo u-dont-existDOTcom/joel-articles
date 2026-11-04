@@ -1,0 +1,446 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "inner-child-t121-round9-spots",
+ "title": "Inner Child Round 9 Spots",
+ "git_file": "articles/inner-child-therapy/experiments/t121-review/REVIEW.html",
+ "article": {
+  "file": "articles/inner-child-therapy/experiments/t121-review/GUIDE-PAGE.md",
+  "sha256": "eaf76b1415828b9ffb711459ee1018aa87794ec2200d02484973ee4ea0eee159"
+ },
+ "built": "2026-11-04 12:20 UTC",
+ "generator": "suggestion_review.py 1.5 (2026-11-02)",
+ "exported_at": "2026-11-04T13:43:54.483Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 3,
+  "revise": 18,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "HW-1",
+   "type": "caveat",
+   "title": "Hearthwork's premise, as a list",
+   "where": "Hearthwork: Taking Turns, P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Hearthwork: Taking Turns Lending & Borrowing Adulthood\n\nHearthwork is what I call my peer-counseling framework, which combines various other frameworks I'm familiar with. The basic premise is, peers take turns of equal length to privately listen to each other with respect and warm, positive regard. They don't try to interpret what's really going on, give advice, or fix the other person's life in the session. \n\nThis is a \"middle path\" kind of relationship, that threads itself between ordinary friendship (so you're not \"clienting\" to your friends) and professional therapy (which gets saved for the more severe issues). Modern life rarely gives us anything like this, and your little one might really need it.\n\nIt also helps us with the borrowed adulthood practice. When you take turns listening with a good peer, on an equal footing, their warmth and the way they hold space for you are ideal for borrowing the Nurterer role and what that feels like. The Protector role can also be borrowed from the way they keeping what you say private, and the way you both stop when the turn's time is up.  \n\nBut they don't act as your Guide, or decide what your experience means. Maybe they're thinking, \"Oh, I know what this is about,\" or \"Here's what you should do.\" It's hard sometimes, but they agree to keep that to themselves during the session. Instead of telling you what to do, they might ask the right question at the right moment so you can hear your own Guide. There's also no pressure to answer. Then you trade places, and it's your turn to keep \"Here's what you should do\" to yourself.",
+   "comment": "i rewrote teh whole section, so remove and replace the whole hearthwork section. it tests human and sounds better",
+   "my_version": "The basic premise of Hearthwork, my peer-counseling framework, is: Equal time. Attention without interpretation, advice, or fixing. You speak. I listen. Then we switch. Presence, Warmth, Discipline, Confidentiality. It's kind of a third type of relationship, alongside ordinary friendship and professional therapy, and one your little one might really need, because modern life rarely gives you anything like it.",
+   "before": "The basic premise of Hearthwork, my peer-counseling framework, is: Equal time. Attention without interpretation, advice, or fixing. You speak. I listen. Then we switch. Presence, Warmth, Discipline, Confidentiality. It's kind of a third type of relationship, alongside ordinary friendship and professional therapy, and one your little one might really need, because modern life rarely gives you anything like it.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T13:31:02.252Z"
+    }
+   ],
+   "updated": "2026-11-04T13:31:45.497Z"
+  },
+  {
+   "id": "HW-2",
+   "type": "caveat",
+   "title": "The three jobs a peer can lend you",
+   "where": "Hearthwork: Taking Turns, P2",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "",
+   "comment": "delete",
+   "my_version": "Some of what the three grown-up jobs do can come from outside you, too. When you take turns listening with a good peer, as equals, their warmth and the way they stay with you lend you the Nurturer for a while. Keeping what you say private, and stopping when the time's up, lends you the Protector. If you say no, they don't push. But they don't act as your Guide, or decide what your experience means. Maybe they're thinking, \"Oh, I know what this is about,\" or \"Here's what you should do.\" They keep it to themselves. A question from them at the right moment can help you hear your own Guide, and what you answer is up to you. Then you trade places, and it's your turn to keep \"Here's what you should do\" to yourself.",
+   "before": "Some of what the three grown-up jobs do can come from outside you, too. When you take turns listening with a good peer, as equals, their warmth and the way they stay with you lend you the Nurturer for a while. Keeping what you say private, and stopping when the time's up, lends you the Protector. If you say no, they don't push. But they don't act as your Guide, or decide what your experience means. Maybe they're thinking, \"Oh, I know what this is about,\" or \"Here's what you should do.\" They keep it to themselves. A question from them at the right moment can help you hear your own Guide, and what you answer is up to you. Then you trade places, and it's your turn to keep \"Here's what you should do\" to yourself.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T13:31:21.788Z"
+    }
+   ],
+   "updated": "2026-11-04T13:31:26.167Z"
+  },
+  {
+   "id": "HW-3",
+   "type": "caveat",
+   "title": "Borrowed adulthood, and whether it's therapy",
+   "where": "Hearthwork: Taking Turns, P3",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "",
+   "comment": "delete",
+   "my_version": "The peer doesn't become your permanent parent, though. They show you a capacity, help you get the hang of it, and give it back to you, which is borrowed adulthood in its healthiest form (a driving instructor isn't planning to drive you around forever either). Is that therapy? Well, not the mainstream kind, but yes, for sure. Professional therapy's still useful for what it does, and peers and community do something else, so a serious healing path can include both.",
+   "before": "The peer doesn't become your permanent parent, though. They show you a capacity, help you get the hang of it, and give it back to you, which is borrowed adulthood in its healthiest form (a driving instructor isn't planning to drive you around forever either). Is that therapy? Well, not the mainstream kind, but yes, for sure. Professional therapy's still useful for what it does, and peers and community do something else, so a serious healing path can include both.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T13:31:28.604Z"
+    }
+   ],
+   "updated": "2026-11-04T13:31:31.991Z"
+  },
+  {
+   "id": "M-A3",
+   "type": "reread",
+   "title": "The Spiritual Side of the Question (1 word)",
+   "where": "The Spiritual Side of the Question, P2",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Then ask: what is the self you want to kill? Is that self the same thing as your body, and if yes, why do you think so? Do you have the same body in dreams? What exactly do you expect your body's death to accomplish? If the problem is a state of mind, like self-hatred or despair, shame or loneliness, what makes you so sure that destroying the body ends it?",
+   "comment": "",
+   "my_version": "Then ask: what is the self you want to kill? Is that self the same thing as your body? Why? Do you have the same body in dreams? What exactly do you expect your body's death to accomplish? If the problem is a state of mind, like self-hatred or despair, shame or loneliness, what makes you so sure that destroying the body ends it?",
+   "before": "Then ask: what is the self you want to kill? Is that self the same thing as your body? Why? Do you have the same body in dreams? What exactly do you expect your body's death to accomplish? If the problem is a state of mind, like self-hatred or despair, shame or loneliness, what makes you so sure that destroying the body ends it?",
+   "history": [
+    {
+     "from": "pending",
+     "to": "rejected",
+     "at": "2026-11-04T12:38:36.751Z"
+    },
+    {
+     "from": "rejected",
+     "to": "revise",
+     "at": "2026-11-04T12:39:15.469Z"
+    }
+   ],
+   "updated": "2026-11-04T12:39:36.581Z"
+  },
+  {
+   "id": "M-A7",
+   "type": "reread",
+   "title": "Show Up When Nothing's Wrong (5 words)",
+   "where": "Show Up When Nothing's Wrong, P2",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Watch how your love sounds to your little boo, in context. \"I care about you\" can be patient, or it can be \"I care about you, now hurry up and feel better.\" Getting close can be too much, too, the way kids squirm away from an aunt they barely know who goes in for the big hug, and then climb all over the uncle who's just sitting there. Knowing that love is in you somewhere counts for a lot, and you're borrowing something you already know how to do.",
+   "comment": "",
+   "my_version": "Watch how your love lands. \"I care about you\" can be patient, or it can be \"I care about you, now hurry up and feel better.\" Getting close can be too much, too, the way kids squirm away from an aunt they barely know who goes in for the big hug, and then climb all over the uncle who's just sitting there. Knowing that love is in you somewhere counts for a lot, and you're borrowing something you already know how to do.",
+   "before": "Watch how your love lands. \"I care about you\" can be patient, or it can be \"I care about you, now hurry up and feel better.\" Getting close can be too much, too, the way kids squirm away from an aunt they barely know who goes in for the big hug, and then climb all over the uncle who's just sitting there. Knowing that love is in you somewhere counts for a lot, and you're borrowing something you already know how to do.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T12:39:58.670Z"
+    }
+   ],
+   "updated": "2026-11-04T12:41:12.706Z"
+  },
+  {
+   "id": "M-A9",
+   "type": "reread",
+   "title": "A Smaller Doorway: Goodwill (23 words)",
+   "where": "A Smaller Doorway: Goodwill, P2",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "This goodwill isn't just for the target of it, though. You may find it bounces back and opens up a little warmth in your heart. And if \"I love you\" goes flat when said to yourself or your little one, the same goodwill wish can be a stabler place to start. 🫶🏿",
+   "comment": "",
+   "my_version": "This goodwill isn't just for the target of it, though. You may find it bounces back and opens up a little warmth in your heart. And if \"I love you\" goes flat when you aim it at yourself or your little one, the same wish works there, too. 🫶🏿",
+   "before": "This goodwill isn't just for the target of it, though. You may find it bounces back and opens up a little warmth in your heart. And if \"I love you\" goes flat when you aim it at yourself or your little one, the same wish works there, too. 🫶🏿",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T12:41:18.001Z"
+    }
+   ],
+   "updated": "2026-11-04T12:44:50.170Z"
+  },
+  {
+   "id": "M-A11",
+   "type": "reread",
+   "title": "Ask God for a Loan (17 words)",
+   "where": "Ask God for a Loan, P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "The dog kind of love is real love. Some people also know a love that's way more profound, like God's. Maybe it opened up for them in prayer or on a long retreat, and I don't want to lump that in with the dog. If you've felt that, you don't need to shrink your love down to a thought experiment about a friend.",
+   "comment": "your para alone tested 89% ai: https://www.pangram.com/history/27a73b1c-f15e-4aa9-bf76-3c6d8743cb70?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nmy version reads better and passes",
+   "my_version": "The dog kind of love is real love. Some people also know a love that's a whole different size, like God's, or whatever opened up for them in prayer or on a long retreat, and I don't want to lump that in with the dog. If you've been there, don't shrink it down to a thought experiment about a friend.",
+   "before": "The dog kind of love is real love. Some people also know a love that's a whole different size, like God's, or whatever opened up for them in prayer or on a long retreat, and I don't want to lump that in with the dog. If you've been there, don't shrink it down to a thought experiment about a friend.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T12:47:18.914Z"
+    }
+   ],
+   "updated": "2026-11-04T12:52:49.224Z"
+  },
+  {
+   "id": "M-A13",
+   "type": "reread",
+   "title": "When the Spiritual Relationship Hurts (48 words)",
+   "where": "When the Spiritual Relationship Hurts, P2",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Being the grown-up doesn't mean controlling everything yourself, though. After a betrayal like that, part of you might want to. We can use Niebuhr's Serenity Prayer here to help: \"God, grant me the serenity\nto accept the things I cannot change\nthe courage to change the things I can\nand the wisdom to know the difference.\" (Replace \"God\" with universe if you wish.)",
+   "comment": "",
+   "my_version": "Being the grown-up doesn't mean controlling everything yourself, though. After a betrayal like that, part of you might want to. Spiritual support can help you act where it's yours to act, and let go of outcomes and other people's choices where it isn't. The Serenity Prayer is exactly to remember that.",
+   "before": "Being the grown-up doesn't mean controlling everything yourself, though. After a betrayal like that, part of you might want to. Spiritual support can help you act where it's yours to act, and let go of outcomes and other people's choices where it isn't. The Serenity Prayer is exactly to remember that.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T12:53:10.374Z"
+    }
+   ],
+   "updated": "2026-11-04T12:56:24.786Z"
+  },
+  {
+   "id": "M-A15",
+   "type": "reread",
+   "title": "Make a Simple Vow (3 words)",
+   "where": "Make a Simple Vow, P2",
+   "advice": "edit",
+   "status": "rejected",
+   "your_version": "",
+   "comment": "",
+   "my_version": "\"I know you're in there. I love you. You don't have to love me back or trust me yet. I can't promise that nothing painful will happen. Or that I'll always know what to do, or never react badly. But I can promise to tell you the truth and listen when you're angry. I'll make our life together safer where I can, and take the next step I can see to protect you. When I fail, I'll come back to make it right. You don't have to believe these words. Watch what I do.\"",
+   "before": "\"I know you're in there. I love you. You don't have to love me back or trust me yet. I can't promise that nothing painful will happen. Or that I'll always know what to do, or never react badly. But I can promise to tell you the truth and listen when you're angry. I'll make our life together safer where I can, and take the next step I can see to protect you. When I fail, I'll come back to make it right. You don't have to believe these words. Watch what I do.\"",
+   "history": [
+    {
+     "from": "pending",
+     "to": "rejected",
+     "at": "2026-11-04T12:56:42.181Z"
+    }
+   ],
+   "updated": "2026-11-04T12:56:42.181Z"
+  },
+  {
+   "id": "M-B2",
+   "type": "reread",
+   "title": "What to Do With a Peak (4 words)",
+   "where": "What to Do With a Peak, P4",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "And if your little one still can't take the love in? Hold off on going for bigger, crazier breakthroughs, however tempting it is, or at least know that they are a double-edged sword. Something's in the way, and getting to know it is your next job. Often it's a protective part that's seen love come with strings before, so hear that part out first.",
+   "comment": "",
+   "my_version": "And if your little one still can't take the love in? Hold off on going for bigger, crazier breakthroughs, however tempting it is, or at least know that they are a double-edged sword. Something's in the way, and getting to know it is your next job. Often it's a protective part that's seen love come with strings before. Hear it out first.",
+   "before": "And if your little one still can't take the love in? Hold off on going for bigger, crazier breakthroughs, however tempting it is, or at least know that they are a double-edged sword. Something's in the way, and getting to know it is your next job. Often it's a protective part that's seen love come with strings before. Hear it out first.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T12:57:43.422Z"
+    }
+   ],
+   "updated": "2026-11-04T12:57:54.602Z"
+  },
+  {
+   "id": "M-B5",
+   "type": "reread",
+   "title": "Untangling the Belonging Bargains (11 words)",
+   "where": "Untangling the Belonging Bargains, P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Part of building who you are is untangling yourself from what I call the \"belonging bargains\" which pull you away from your own inner-knowing in return for belonging. Your friends probably have unwritten rules about what you can joke about or get upset about. A political tribe might expect consistent positions and predictable reactions, while a family or religion that's kind to you might have expectations that look at face value like just being a good member.  It can help to write down the unspoken rules your family ran on, like \"Boys don't cry.\" Then write down the role you got handed, like the stand-in parent for a sibling, or the one who got blamed for everything (ST-CA has lists of both, in sections 15.2.3 and 15.2.4).",
+   "comment": "orig is ai tested alone: https://www.pangram.com/history/3fd8fe60-c398-4650-9472-29ea5b175391?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nmy version passes and reads better",
+   "my_version": "Part of building who you are is untangling yourself from whatever pulls you away from your own knowing in return for belonging. A political tribe might expect consistent positions and predictable reactions, while a family or religion that's kind to you might have expectations that just feel like being good. Your family might want a particular kind of son or daughter, and your friends might have rules about what you can joke about or get upset about. But if going along means betraying yourself, that's the bargain. It can help to write down the rules your family ran on, including unspoken ones like \"Boys don't cry.\" Then write down the role you got handed, like the stand-in parent, or the one who got blamed for everything (ST-CA has lists of both, in sections 15.2.3 and 15.2.4).",
+   "before": "Part of building who you are is untangling yourself from whatever pulls you away from your own knowing in return for belonging. A political tribe might expect consistent positions and predictable reactions, while a family or religion that's kind to you might have expectations that just feel like being good. Your family might want a particular kind of son or daughter, and your friends might have rules about what you can joke about or get upset about. But if going along means betraying yourself, that's the bargain. It can help to write down the rules your family ran on, including unspoken ones like \"Boys don't cry.\" Then write down the role you got handed, like the stand-in parent, or the one who got blamed for everything (ST-CA has lists of both, in sections 15.2.3 and 15.2.4).",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T12:58:24.711Z"
+    }
+   ],
+   "updated": "2026-11-04T13:08:26.578Z"
+  },
+  {
+   "id": "M-B7",
+   "type": "reread",
+   "title": "Untangling the Belonging Bargains (5 words)",
+   "where": "Untangling the Belonging Bargains, P3",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Even with good parents, you could have learned unhealthy self-valuation when people repeatedly praised what you did rather than your inherent worth. You weren't born with this flaw.",
+   "comment": "more clear now ",
+   "my_version": "Even with good parents, you could have learned unhealthy self-valuation when people repeatedly praised what you did rather than your inherent worth. That wasn't your flaw.",
+   "before": "Even with good parents, you could have learned unhealthy self-valuation when people repeatedly praised what you did rather than your inherent worth. That wasn't your flaw.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T13:08:46.583Z"
+    }
+   ],
+   "updated": "2026-11-04T13:10:56.117Z"
+  },
+  {
+   "id": "M-B9",
+   "type": "reread",
+   "title": "Four Pairs That Commonly Hook the Child (8 words)",
+   "where": "Four Pairs That Commonly Hook the Child, P3",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Whose approval suddenly feels like I can't live without it?",
+   "comment": "",
+   "my_version": "Whose approval suddenly feels like I can't live without it? It isn't always who you'd guess.",
+   "before": "Whose approval suddenly feels like I can't live without it? It isn't always who you'd guess.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T13:11:32.676Z"
+    }
+   ],
+   "updated": "2026-11-04T13:11:35.422Z"
+  },
+  {
+   "id": "M-B11",
+   "type": "reread",
+   "title": "When Being Happy Feels Like Abandoning Someone (1 word)",
+   "where": "When Being Happy Feels Like Abandoning Someone, P2",
+   "advice": "edit",
+   "status": "rejected",
+   "your_version": "",
+   "comment": "",
+   "my_version": "That's exactly why I was crying for 14 years. Beginning at the age of 12, when I really started to understand that life is brutal for most people, I became convinced that being happy myself, while others weren't, was selfish. I had this poster in my room that really resonated with me, by the famous socialist, Eugene V. Debs. I told this to a therapist in college and she actually agreed it was a good reason to be depressed!",
+   "before": "That's exactly why I was crying for 14 years. Beginning at the age of 12, when I really started to understand that life is brutal for most people, I became convinced that being happy myself, while others weren't, was selfish. I had this poster in my room that really resonated with me, by the famous socialist, Eugene V. Debs. I told this to a therapist in college and she actually agreed it was a good reason to be depressed!",
+   "history": [
+    {
+     "from": "pending",
+     "to": "rejected",
+     "at": "2026-11-04T13:12:04.244Z"
+    }
+   ],
+   "updated": "2026-11-04T13:12:04.244Z"
+  },
+  {
+   "id": "M-B13",
+   "type": "reread",
+   "title": "When Being Happy Feels Like Abandoning Someone (13 words)",
+   "where": "When Being Happy Feels Like Abandoning Someone, P4",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "What I found, once I started cultivating my own happiness, was that I got a lot better at helping other people toward theirs. So do your part for people who are suffering (which might sometimes just be modeling how to live, i.e. doing nothing different), and skip the part where you have to be miserable too.\n\nSome friends or family really might not like it when you get happier, though. Some of them might pull away, while others might try to keep dragging you back into the old misery, since misery loves company. On the other hand, I wouldn't automatically classify everyone as envious just because they don't feel comfortable with you anymore, as it could be something you've done while unaware.",
+   "comment": "this is better, and also edited the prior para, and i want you to delete P5 ",
+   "my_version": "Some friends or family really might not like it when you get happier, though. Someone might pull away, or keep dragging you back into the old misery. I'd take that loss seriously, and look at what they do and what you owe them, before deciding it's envy.",
+   "before": "Some friends or family really might not like it when you get happier, though. Someone might pull away, or keep dragging you back into the old misery. I'd take that loss seriously, and look at what they do and what you owe them, before deciding it's envy.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T13:16:44.682Z"
+    }
+   ],
+   "updated": "2026-11-04T13:17:03.189Z"
+  },
+  {
+   "id": "M-B15",
+   "type": "reread",
+   "title": "Before You Tell the Hardest Stuff (3 words)",
+   "where": "Before You Tell the Hardest Stuff, P2",
+   "advice": "edit",
+   "status": "rejected",
+   "your_version": "",
+   "comment": "",
+   "my_version": "You know that DM you deleted? It can still be sitting on their phone as a screenshot 🙈, and whatever's on a company's server can get handed over if a court asks. Just because Mr. Boopaloopa was your name on WhatsApp doesn't guarantee you're anonymous, by the way.",
+   "before": "You know that DM you deleted? It can still be sitting on their phone as a screenshot 🙈, and whatever's on a company's server can get handed over if a court asks. Just because Mr. Boopaloopa was your name on WhatsApp doesn't guarantee you're anonymous, by the way.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "rejected",
+     "at": "2026-11-04T13:17:36.513Z"
+    }
+   ],
+   "updated": "2026-11-04T13:17:36.513Z"
+  },
+  {
+   "id": "M-B28",
+   "type": "reread",
+   "title": "Dating While You Heal (52 words)",
+   "where": "Dating While You Heal, P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Maybe you'd rather that your support came from a lover, as well. Lots of people open a dating app in the middle of the night, hoping someone will make it all stop hurting. 🙈 We call that \"co-dependency\" (although the term is not literally negative, it has become to carry this connotation). If that's you hitting the Swipe button right now, my suggestion is to let the dating game wait. Let your friends and the steady people around you do their part to support you as you learn to support yourself more. \n\nThat doesn't mean you have to be completely healed before you date, but romance should follow when two people really love each other and want to build a life together. It won't rescue you from the pain of your life, nor reward you for healing, and it sucks to mess up a beautiful relationship because of unhealed trauma. Believe me, I've been through it. I wrote a whole romance guide, mostly due to this.",
+   "comment": "",
+   "my_version": "Maybe you'd rather that your support came from a lover, as well. Lots of people open a dating app in the middle of the night, hoping someone will make it all stop hurting. 🙈 If that's you right now, dating can wait while your friends and the steady people around you do their part. That doesn't mean you have to be completely healed before you date, but romance should follow when two people really love each other and want to build a life together. It won't rescue you from the pain or reward you for healing, and it sucks to mess up a beautiful relationship because of unhealed trauma, believe me, I know. I wrote a whole romance guide, mostly due to this.",
+   "before": "Maybe you'd rather that your support came from a lover, as well. Lots of people open a dating app in the middle of the night, hoping someone will make it all stop hurting. 🙈 If that's you right now, dating can wait while your friends and the steady people around you do their part. That doesn't mean you have to be completely healed before you date, but romance should follow when two people really love each other and want to build a life together. It won't rescue you from the pain or reward you for healing, and it sucks to mess up a beautiful relationship because of unhealed trauma, believe me, I know. I wrote a whole romance guide, mostly due to this.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T13:36:02.414Z"
+    }
+   ],
+   "updated": "2026-11-04T13:36:03.257Z"
+  },
+  {
+   "id": "M-B30",
+   "type": "reread",
+   "title": "Write It. Don't Send It Yet. (1 word)",
+   "where": "Write It. Don't Send It Yet., P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "If you've got something burning you up that you wanna say, write it out as a reply. There, that got it out. Ahh. Breathing easier. 😌 But don't send it. Take that breather you earned and then come back to it from a cooler place.",
+   "comment": "",
+   "my_version": "If you've got something burning you up that you wanna say, write it out as a reply. There. That got it out. Ahh. Breathing easier. 😌 But don't send it. Take that breather you earned and then come back to it from a cooler place.",
+   "before": "If you've got something burning you up that you wanna say, write it out as a reply. There. That got it out. Ahh. Breathing easier. 😌 But don't send it. Take that breather you earned and then come back to it from a cooler place.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T13:36:24.343Z"
+    }
+   ],
+   "updated": "2026-11-04T13:36:28.249Z"
+  },
+  {
+   "id": "M-B32",
+   "type": "reread",
+   "title": "Write It. Don't Send It Yet. (18 words)",
+   "where": "Write It. Don't Send It Yet., P8",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Before sending anything hastily, I'd read it over once as if I were in their shoes. Stuff I wrote while I was scared or hurt can sound like aggression to them.",
+   "comment": "",
+   "my_version": "Before sending anything, I'd read it once as if I were them, sitting there with my phone. Stuff I wrote while I was scared can sound like a threat to them.",
+   "before": "Before sending anything, I'd read it once as if I were them, sitting there with my phone. Stuff I wrote while I was scared can sound like a threat to them.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T13:36:45.446Z"
+    }
+   ],
+   "updated": "2026-11-04T13:37:59.602Z"
+  },
+  {
+   "id": "M-B34",
+   "type": "reread",
+   "title": "If You Really Did Hurt Them (2 words)",
+   "where": "If You Really Did Hurt Them, P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Repairing relationship damage is easier said than done, and must start from genuinely correct motivations.",
+   "comment": "",
+   "my_version": "Repair it. Easier said than done...",
+   "before": "Repair it. Easier said than done...",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T13:38:10.519Z"
+    }
+   ],
+   "updated": "2026-11-04T13:38:55.378Z"
+  },
+  {
+   "id": "M-B36",
+   "type": "reread",
+   "title": "If You Really Did Hurt Them (7 words)",
+   "where": "If You Really Did Hurt Them, P2",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Are you really sorry for what you did, or are you just trying to feel sorry because they're upset? If you've said what you really feel, without dressing it up or justifying it, then let that be that. There's no guarantee they'll understand it, and they might need to mull it over for a while before they're even willing to hear what you said. That's how anger works, it grips you. Meanwhile, guilt may keep shouting at you. That doesn't tell you the whole conflict was your fault, nor does it prove they're manipulating you.",
+   "comment": "i couldn't honestly understand this lol, glad i changed it",
+   "my_version": "Are you sorry for what you did, or are you starting to take back the complaint too because they're still upset? Maybe your first explanation sucked. Try again. 😅 And if it fails again, and you've said what you mean, well, you can't guarantee they'll understand it. Guilt may keep shouting at you. That doesn't tell you the whole conflict was your fault, nor does it prove they're manipulating you.",
+   "before": "Are you sorry for what you did, or are you starting to take back the complaint too because they're still upset? Maybe your first explanation sucked. Try again. 😅 And if it fails again, and you've said what you mean, well, you can't guarantee they'll understand it. Guilt may keep shouting at you. That doesn't tell you the whole conflict was your fault, nor does it prove they're manipulating you.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T13:39:25.224Z"
+    }
+   ],
+   "updated": "2026-11-04T13:43:20.117Z"
+  }
+ ]
+}
