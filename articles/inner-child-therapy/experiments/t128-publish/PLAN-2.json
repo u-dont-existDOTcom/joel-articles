@@ -1,0 +1,41 @@
+{
+ "about": "Turn 128 (his message of 2026-11-04 18:20 UTC: \"yes i want the dividers wherever they make the most sense, and pull quotes wherever those make the most sense, and yeah it looks good you can publish it\"): a divider before each of the guide's big sections (its h1 headings but the first, which opens the post under the top chart), and the four paragraphs that are a quotation from a teacher or a friend, or the vow the reader says, made pull quote blocks like the Rumi one (his F4: \"we can also add a 'pull quotes' substack block code to quotes like this\"): the vow in Make a Simple Vow, Sister Medhanandi in The Joy In Sorrow, the morning intention in One Intention in the Morning, and Scott in When the Adult Voice Feels Fake. Inayat Khan's line stays a paragraph, since it comes right after the Rumi pull quote. No text changes: the whole text before and after is the same.",
+ "base": {
+  "nodes": 544,
+  "draft_updated_at": "2026-11-04T18:16:24.085Z",
+  "note": "his own save of 18:16 UTC: the subtitle without \"New App coming soon.\" (now \"You were born worthy of love. Reconnect. Reparent. Rise. Updated: Nov 4, 2026\"); the body node for node the one saved at 17:47 UTC (every node's text, the whole text, the 79 links and the pictures checked against PUBLISH-PLAN.json in the editor)"
+ },
+ "pullquotes": [
+  {
+   "first_words": "“I know you’re in there. I love you. You don’t have to love ",
+   "sig": "4da9ea889e31"
+  },
+  {
+   "first_words": "As Sister Medhanandi said, “When we are able to come face to",
+   "sig": "c2c88d3c08c1"
+  },
+  {
+   "first_words": "“Today I will neither be Peter Pan nor Captain Hook. I will ",
+   "sig": "f499ac099fac"
+  },
+  {
+   "first_words": "“Half the time when I try to connect to baby me, I feel fake",
+   "sig": "33da35e49b51"
+  }
+ ],
+ "dividers_before_h1": [
+  "Safety and Readiness",
+  "Building Your Inner Adult",
+  "Practicing With Your Little One",
+  "Discovering and Healing Old Patterns",
+  "When the Practice Gets Difficult",
+  "Altered States and Intensive Practice",
+  "Bringing Reparenting Into Real Life",
+  "Conclusion and Appendix"
+ ],
+ "after": {
+  "nodes": 552,
+  "horizontalRule": 8,
+  "pullquote": 5
+ }
+}
