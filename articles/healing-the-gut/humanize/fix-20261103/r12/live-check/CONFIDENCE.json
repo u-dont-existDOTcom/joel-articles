@@ -1,0 +1,660 @@
+{
+ "RESULT.json": {
+  "link": "https://www.pangram.com/feed/e3a65841-a626-4b34-aad7-62b9dfa48ada",
+  "headline": "Mostly Human Written",
+  "counts": [
+   "Human High 11",
+   "Human Medium 11",
+   "Human Low 7",
+   "AI Low 14",
+   "AI Medium 2",
+   "AI High 2"
+  ],
+  "rows": [
+   {
+    "window": 1,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.783,
+    "words": 49,
+    "uncertainty_highlighted": true,
+    "where": "Some Causes of poor gut health, P19",
+    "text": "If the cells lining your small intestine (called enterocytes) or the colonocytes lining your large intestine don't get that energy, the barrier loosens up. Then lipopolysaccharides (LPS, which come from the walls of bacteria) and other endotoxins leak through those (not-so-tight)-junction gaps into your bloodstream.",
+    "sentences": [
+     {
+      "text": "If the cells lining your small intestine (called enterocytes) or the colonocytes lining your large intestine don't get that energy, the barrier loosens up.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Then lipopolysaccharides (LPS, which come from the walls of bacteria) and other endotoxins leak through those (not-so-tight)-junction gaps into your bloodstream.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 2,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9141,
+    "words": 4,
+    "uncertainty_highlighted": false,
+    "where": "Some Causes of poor gut health, P20",
+    "text": "L-Glutamine (watch Dr.",
+    "sentences": [
+     {
+      "text": "L-Glutamine (watch Dr.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 3,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.7272,
+    "words": 18,
+    "uncertainty_highlighted": true,
+    "where": "Some Causes of poor gut health, P20",
+    "text": "Rhonda vid) is the main fuel for your enterocytes, and for your immune cells when they're activated.",
+    "sentences": [
+     {
+      "text": "Rhonda vid) is the main fuel for your enterocytes, and for your immune cells when they're activated.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 4,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.5028,
+    "words": 14,
+    "uncertainty_highlighted": true,
+    "where": "Some Causes of poor gut health, P20",
+    "text": "It doesn't have to go through the complicated digestive steps other nutrients do.",
+    "sentences": [
+     {
+      "text": "It doesn't have to go through the complicated digestive steps other nutrients do.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 5,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.5028,
+    "words": 13,
+    "uncertainty_highlighted": true,
+    "where": "Some Causes of poor gut health, P20",
+    "text": "Inside the mitochondria, it gets turned straight into alpha-ketoglutarate, or α-KG.",
+    "sentences": [
+     {
+      "text": "Inside the mitochondria, it gets turned straight into alpha-ketoglutarate, or α-KG.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 6,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.5028,
+    "words": 17,
+    "uncertainty_highlighted": true,
+    "where": "Some Causes of poor gut health, P20",
+    "text": "The α-KG goes into the citric acid cycle, which is how the mitochondria make their energy.",
+    "sentences": [
+     {
+      "text": "The α-KG goes into the citric acid cycle, which is how the mitochondria make their energy.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 8,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9745,
+    "words": 61,
+    "uncertainty_highlighted": false,
+    "where": "Phase 1: The Pre-Flight Safety Check, P1",
+    "text": "This protocol is meant to be done in phases. Don't skip ahead, since you only move on to the next phase if the one you're on doesn't clear up your symptoms.\nBefore you throw supplements or antimicrobials at your gut, the system mechanics that are foundational to gut function have to work. This part is from T.C.",
+    "sentences": [
+     {
+      "text": "This protocol is meant to be done in phases.",
+      "whose": "r10"
+     },
+     {
+      "text": "Don't skip ahead, since you only move on to the next phase if the one you're on doesn't clear up your symptoms.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Before you throw supplements or antimicrobials at your gut, the system mechanics that are foundational to gut function have to work.",
+      "whose": "r10"
+     },
+     {
+      "text": "This part is from T.C.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 10,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9714,
+    "words": 62,
+    "uncertainty_highlighted": false,
+    "where": "Phase 1: The Pre-Flight Safety Check, P2",
+    "text": "Are your pupils dilated all the time? Are you missing your gag reflex? Then according to Hale, you're stuck in fight or flight mode (which in medical lingo is called \"sympathetic dominance\"), and digestion is offline. Rosenberg's fix is his Basic Exercise (eye movements) or the Salamander technique (which looks like some kind of yoga, see a video demo here).",
+    "sentences": [
+     {
+      "text": "Are your pupils dilated all the time?",
+      "whose": "r10"
+     },
+     {
+      "text": "Are you missing your gag reflex?",
+      "whose": "r10"
+     },
+     {
+      "text": "Then according to Hale, you're stuck in fight or flight mode (which in medical lingo is called \"sympathetic dominance\"), and digestion is offline.",
+      "whose": "r10"
+     },
+     {
+      "text": "Rosenberg's fix is his Basic Exercise (eye movements) or the Salamander technique (which looks like some kind of yoga, see a video demo here).",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 11,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.5753,
+    "words": 20,
+    "uncertainty_highlighted": true,
+    "where": "Phase 1: The Pre-Flight Safety Check, P2",
+    "text": "Both of those help to mechanically release the vagus nerve so your body can switch into rest and digest mode.",
+    "sentences": [
+     {
+      "text": "Both of those help to mechanically release the vagus nerve so your body can switch into rest and digest mode.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 12,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.7614,
+    "words": 23,
+    "uncertainty_highlighted": true,
+    "where": "Phase 1: The Pre-Flight Safety Check, P3",
+    "text": "Now let's have a look at your bile function. Do you burp extra (not just like one little burp) after fatty meals?",
+    "sentences": [
+     {
+      "text": "Now let's have a look at your bile function.",
+      "whose": "r10"
+     },
+     {
+      "text": "Do you burp extra (not just like one little burp) after fatty meals?",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 13,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9626,
+    "words": 14,
+    "uncertainty_highlighted": false,
+    "where": "Phase 1: The Pre-Flight Safety Check, P3",
+    "text": "Do your stools float (like it's hard to flush), or look like clay?",
+    "sentences": [
+     {
+      "text": "Do your stools float (like it's hard to flush), or look like clay?",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 14,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.6996,
+    "words": 73,
+    "uncertainty_highlighted": true,
+    "where": "Phase 1: The Pre-Flight Safety Check, P3",
+    "text": "Then your bile is stagnant (not flowing well), and Hale says if you take antimicrobials now, you'll get a herx reaction: the dying microbes release toxins you can't detoxify. So thin the bile first with Beet Flow (an extract of beet greens) or phosphatidylcholine, before starting on any pathogen killing protocol.\nMy notes: for stress and sleep see \"Severe stress\" above, and for stomach acid and bile see \"Low stomach acid\".",
+    "sentences": [
+     {
+      "text": "Then your bile is stagnant (not flowing well), and Hale says if you take antimicrobials now, you'll get a herx reaction: the dying microbes release toxins you can't detoxify.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "So thin the bile first with Beet Flow (an extract of beet greens) or phosphatidylcholine, before starting on any pathogen killing protocol.",
+      "whose": "r10"
+     },
+     {
+      "text": "My notes: for stress and sleep see \"Severe stress\" above, and for stomach acid and bile see \"Low stomach acid\".",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 15,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.5028,
+    "words": 3,
+    "uncertainty_highlighted": true,
+    "where": "Phase 2: The Reset, P1",
+    "text": "This is Dr.",
+    "sentences": [
+     {
+      "text": "This is Dr.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 16,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.6493,
+    "words": 8,
+    "uncertainty_highlighted": true,
+    "where": "Phase 2: The Reset, P1",
+    "text": "Michael Ruscio (Healthy Gut, Healthy You) and Dr.",
+    "sentences": [
+     {
+      "text": "Michael Ruscio (Healthy Gut, Healthy You) and Dr.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 17,
+    "label": "AI",
+    "confidence": "High",
+    "calibrated": 0.9924,
+    "words": 28,
+    "uncertainty_highlighted": false,
+    "where": "Phase 2: The Reset, P1",
+    "text": "Mark Pimentel (The Microbiome Connection): calm the inflammation down and starve the overgrowths, no harsh chemicals.\nDiet-wise, go Paleo-Low FODMAP (Ruscio) or Low Fermentation Eating (Pimentel).",
+    "sentences": [
+     {
+      "text": "Mark Pimentel (The Microbiome Connection): calm the inflammation down and starve the overgrowths, no harsh chemicals.",
+      "whose": "r10"
+     },
+     {
+      "text": "Diet-wise, go Paleo-Low FODMAP (Ruscio) or Low Fermentation Eating (Pimentel).",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 18,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.8553,
+    "words": 11,
+    "uncertainty_highlighted": true,
+    "where": "Phase 2: The Reset, P2",
+    "text": "Either way you stop feeding the bacteria in your small intestine.",
+    "sentences": [
+     {
+      "text": "Either way you stop feeding the bacteria in your small intestine.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 19,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.5663,
+    "words": 3,
+    "uncertainty_highlighted": true,
+    "where": "Phase 2: The Reset, P3",
+    "text": "And no snacking!",
+    "sentences": [
+     {
+      "text": "And no snacking!",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 20,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9821,
+    "words": 22,
+    "uncertainty_highlighted": false,
+    "where": "Phase 2: The Reset, P3",
+    "text": "Pimentel wants meals 4-5 hours apart, strictly, so the Migrating Motor Complex (MMC) gets to sweep your gut clean in between.",
+    "sentences": [
+     {
+      "text": "Pimentel wants meals 4-5 hours apart, strictly, so the Migrating Motor Complex (MMC) gets to sweep your gut clean in between.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 22,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9827,
+    "words": 2,
+    "uncertainty_highlighted": false,
+    "where": "Phase 3: The Purge, P1",
+    "text": "Michael Ruscio.",
+    "sentences": [
+     {
+      "text": "Michael Ruscio.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 24,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9141,
+    "words": 5,
+    "uncertainty_highlighted": false,
+    "where": "Phase 3: The Purge, P5",
+    "text": "boulardii, and Soil-Based organisms.",
+    "sentences": [
+     {
+      "text": "boulardii, and Soil-Based organisms.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 25,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.6897,
+    "words": 47,
+    "uncertainty_highlighted": true,
+    "where": "Phase 3: The Purge, P6",
+    "text": "That's to maintain diversity and prevent opportunistic infections (like C. diff) during the kill phase.\nAnd if all that failed, the overgrowth is too severe or the gut lining is too damaged for solids, so it's time for Ruscio's \"Nuclear\" Option, the Elemental Diet.",
+    "sentences": [
+     {
+      "text": "That's to maintain diversity and prevent opportunistic infections (like C. diff) during the kill phase.",
+      "whose": "r10"
+     },
+     {
+      "text": "And if all that failed, the overgrowth is too severe or the gut lining is too damaged for solids, so it's time for Ruscio's \"Nuclear\" Option, the Elemental Diet.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 26,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.5753,
+    "words": 20,
+    "uncertainty_highlighted": true,
+    "where": "Phase 3: The Purge, P6",
+    "text": "That's a 2-3 week liquid-only diet (predigested nutrients), which starves the bacteria completely while still nourishing you.",
+    "sentences": [
+     {
+      "text": "That's a 2-3 week liquid-only diet (predigested nutrients), which starves the bacteria completely while still nourishing you.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 28,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9853,
+    "words": 5,
+    "uncertainty_highlighted": false,
+    "where": "Phase 4: The Investigation, P2",
+    "text": "So check your organs (Brown).",
+    "sentences": [
+     {
+      "text": "So check your organs (Brown).",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 29,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.6798,
+    "words": 5,
+    "uncertainty_highlighted": true,
+    "where": "Phase 4: The Investigation, P2",
+    "text": "Is it Exocrine Pancreatic Insufficiency?",
+    "sentences": [
+     {
+      "text": "Is it Exocrine Pancreatic Insufficiency?",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 30,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.5753,
+    "words": 31,
+    "uncertainty_highlighted": true,
+    "where": "Phase 4: The Investigation, P2",
+    "text": "You'd test for that with Stool Elastase, and treat it with high-dose enzymes. Or is it Bile Acid Diarrhea? That test is SeHCAT, and the treatment is bile binders.",
+    "sentences": [
+     {
+      "text": "You'd test for that with Stool Elastase, and treat it with high-dose enzymes.",
+      "whose": "r10"
+     },
+     {
+      "text": "Or is it Bile Acid Diarrhea?",
+      "whose": "r10"
+     },
+     {
+      "text": "That test is SeHCAT, and the treatment is bile binders.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 32,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.5028,
+    "words": 16,
+    "uncertainty_highlighted": true,
+    "where": "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P1",
+    "text": "Once you're clear of infection, you have to rebuild a diverse ecosystem to prevent relapse.",
+    "sentences": [
+     {
+      "text": "Once you're clear of infection, you have to rebuild a diverse ecosystem to prevent relapse.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 33,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.5028,
+    "words": 1,
+    "uncertainty_highlighted": true,
+    "where": "Some Causes of poor gut health, P20",
+    "text": "Dr.",
+    "sentences": [
+     {
+      "text": "Dr.",
+      "whose": "his"
+     }
+    ]
+   },
+   {
+    "window": 34,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.5028,
+    "words": 9,
+    "uncertainty_highlighted": true,
+    "where": "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P1",
+    "text": "William Davis is back for that, along with Dr.",
+    "sentences": [
+     {
+      "text": "William Davis is back for that, along with Dr.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 35,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.531,
+    "words": 4,
+    "uncertainty_highlighted": true,
+    "where": "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P1",
+    "text": "Will Bulsiewicz (Fiber Fueled).",
+    "sentences": [
+     {
+      "text": "Will Bulsiewicz (Fiber Fueled).",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 36,
+    "label": "AI",
+    "confidence": "Low",
+    "calibrated": 0.7907,
+    "words": 18,
+    "uncertainty_highlighted": true,
+    "where": "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P2",
+    "text": "Start by re-seeding with Davis's high-dose \"SIBO Yogurt\", fermented for 36 hours. It contains L.",
+    "sentences": [
+     {
+      "text": "Start by re-seeding with Davis's high-dose \"SIBO Yogurt\", fermented for 36 hours.",
+      "whose": "r10"
+     },
+     {
+      "text": "It contains L.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 37,
+    "label": "AI",
+    "confidence": "Medium",
+    "calibrated": 0.9619,
+    "words": 23,
+    "uncertainty_highlighted": false,
+    "where": "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P2",
+    "text": "reuteri, to heal the lining and boost oxytocin, and L. gasseri, to produce bacteriocins that kill SIBO.\nThen feed the new healthy bacteria.",
+    "sentences": [
+     {
+      "text": "reuteri, to heal the lining and boost oxytocin, and L. gasseri, to produce bacteriocins that kill SIBO.",
+      "whose": "r10"
+     },
+     {
+      "text": "Then feed the new healthy bacteria.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 38,
+    "label": "AI",
+    "confidence": "High",
+    "calibrated": 0.994,
+    "words": 18,
+    "uncertainty_highlighted": false,
+    "where": "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P3",
+    "text": "Bulsiewicz says to slowly titrate plant diversity back into your diet, aiming for 30+ different plants per week.",
+    "sentences": [
+     {
+      "text": "Bulsiewicz says to slowly titrate plant diversity back into your diet, aiming for 30+ different plants per week.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 39,
+    "label": "AI",
+    "confidence": "Medium",
+    "calibrated": 0.9506,
+    "words": 24,
+    "uncertainty_highlighted": false,
+    "where": "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P4",
+    "text": "Does anyone count their plants?\nContinue Pimentel's strict meal spacing from Phase 2 (4+ hours), forever, to keep the MMC cleaning wave active.",
+    "sentences": [
+     {
+      "text": "Does anyone count their plants?",
+      "whose": "r10"
+     },
+     {
+      "text": "Continue Pimentel's strict meal spacing from Phase 2 (4+ hours), forever, to keep the MMC cleaning wave active.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 41,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9738,
+    "words": 4,
+    "uncertainty_highlighted": false,
+    "where": "Phase 6: Refractory Cases, P2",
+    "text": "Check your environment (Nathan).",
+    "sentences": [
+     {
+      "text": "Check your environment (Nathan).",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 43,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9697,
+    "words": 4,
+    "uncertainty_highlighted": false,
+    "where": "Phase 6: Refractory Cases, P3",
+    "text": "Then check the brain.",
+    "sentences": [
+     {
+      "text": "Then check the brain.",
+      "whose": "r10"
+     }
+    ]
+   },
+   {
+    "window": 45,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9333,
+    "words": 1,
+    "uncertainty_highlighted": false,
+    "where": "Some Causes of poor gut health, P20",
+    "text": "Dr.",
+    "sentences": [
+     {
+      "text": "Dr.",
+      "whose": "his"
+     }
+    ]
+   }
+  ]
+ }
+}
