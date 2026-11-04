@@ -21,18 +21,40 @@ place that can't be read never stops a turn). Each new item gets an outcome or a
   python3 tools/humanization/lane_mailbox.py record --turn T ... --unreachable repo "GitHub API 502" "first thing next turn"
   python3 tools/humanization/lane_mailbox.py check --turn "2026-11-01 22:27"     # exit 0, or 2 with what is missing
 
-The record is state/MAILBOX.json (newest check last). lane_push.py refuses to push without --mailbox TURN naming a
-complete check of this turn: the turn's first clock reading, the same one the final answer's stamp starts from.
+The record is the lane's own file, state/mailbox/<branch>.json (newest check last; the branch's name with "/" as "-").
+Until 2026-11-04 every lane wrote one shared state/MAILBOX.json, so every lane's open pull request conflicted with main
+whenever another lane's merged first (Joel, 2026-11-04 13:53 UTC: "290 has conflicts", the third time that day); that file
+stays as the history, and a check recorded there still counts. lane_push.py refuses to push without --mailbox TURN naming
+a complete check of this turn: the turn's first clock reading, the same one the final answer's stamp starts from.
 """
 import argparse
 import datetime
 import json
+import os
 import pathlib
 import re
+import subprocess
 import sys
 
 REPO = pathlib.Path(__file__).resolve().parents[2]
-RECORD = REPO / 'state' / 'MAILBOX.json'
+LEGACY = REPO / 'state' / 'MAILBOX.json'     # every lane's checks until 2026-11-04; read, never written
+LANES = REPO / 'state' / 'mailbox'
+
+
+def lane_record(where=REPO):
+    """This lane's own record, state/mailbox/<branch>.json; the shared file when no branch is checked out. Git runs without
+    the caller's GIT_* variables (inside a hook GIT_DIR would name the repository being pushed)."""
+    env = {k: v for k, v in os.environ.items() if not k.startswith('GIT_')}
+    try:
+        b = subprocess.run(['git', '-C', str(where), 'branch', '--show-current'], capture_output=True, text=True,
+                           timeout=20, env=env).stdout.strip()
+    except (OSError, subprocess.SubprocessError):
+        b = ''
+    slug = re.sub(r'[^A-Za-z0-9._-]+', '-', b).strip('-')
+    return LANES / (slug + '.json') if slug else LEGACY
+
+
+RECORD = LEGACY
 PLACES = {
     'uda-lane': 'this repository\'s lane in universal-dev-architecture (suggested-fixes/joel-articles/), against '
                 'docs/suggested-fixes-ledger.md',
@@ -52,7 +74,8 @@ def turn_key(s):
     return '%sT%s:%sZ' % m.groups()
 
 
-def load(path=RECORD):
+def load(path=None):
+    path = path or lane_record()
     if path.exists():
         return json.loads(path.read_text(encoding='utf-8'))
     return {'about': 'Each turn\'s mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, "Suggested fixes from other '
@@ -86,9 +109,12 @@ def find(record, turn):
     return hits[-1] if hits else None
 
 
-def check(turn, path=RECORD):
-    """[] when this turn's mailbox check is recorded and complete; else what is missing."""
+def check(turn, path=None):
+    """[] when this turn's mailbox check is recorded and complete; else what is missing. Without PATH: the lane's own
+    record, then the shared one of before 2026-11-04."""
     entry = find(load(path), turn)
+    if not entry and path is None and lane_record() != LEGACY:
+        entry = find(load(LEGACY), turn)
     if not entry:
         return ['no mailbox check is recorded for the turn that started %s: check the places in AGENTS.md ("Suggested '
                 'fixes from other projects") and record them with tools/humanization/lane_mailbox.py record'
@@ -96,7 +122,8 @@ def check(turn, path=RECORD):
     return problems(entry)
 
 
-def record(turn, lines, read, unreachable, items, path=RECORD):
+def record(turn, lines, read, unreachable, items, path=None):
+    path = path or lane_record()
     rec = load(path)
     k = turn_key(turn)
     places = [{'place': p, 'status': 'read', 'found': f} for p, f in read]
@@ -111,6 +138,40 @@ def record(turn, lines, read, unreachable, items, path=RECORD):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(rec, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     return problems(entry)
+
+
+def settle(legacy=None, lane=None, main_text=None):
+    """Give the shared history file main's content, and move the records it has that main's doesn't into this lane's own
+    file: then a lane's pull request never changes the shared file, and another lane's merge can't put it in conflict
+    (Joel, 2026-11-04 14:28 UTC: "pr 290 has conflicts", after the switch to lane files, because this branch still carried
+    records of its own in the shared file). A record main doesn't have came from this branch, since other lanes' records
+    reach it only through main. Returns the turns moved; [] when there was nothing to do."""
+    legacy = legacy or LEGACY
+    lane = lane or lane_record()
+    if lane == legacy or not legacy.exists():
+        return []
+    if main_text is None:
+        env = {k: v for k, v in os.environ.items() if not k.startswith('GIT_')}
+        r = subprocess.run(['git', '-C', str(REPO), 'show', 'origin/main:' + str(legacy.relative_to(REPO))],
+                           capture_output=True, text=True, timeout=60, env=env)
+        if r.returncode:
+            return []
+        main_text = r.stdout
+    here = load(legacy)
+    main = json.loads(main_text)
+    key = lambda c: json.dumps(c, sort_keys=True, ensure_ascii=False)
+    theirs = {key(c) for c in main.get('checks', [])}
+    extra = [c for c in here.get('checks', []) if key(c) not in theirs]
+    own = load(lane)
+    turns = {c.get('turn') for c in own.get('checks', [])}
+    moved = [c for c in extra if c.get('turn') not in turns]
+    if moved:
+        own['checks'] = sorted(own.get('checks', []) + moved, key=lambda c: c.get('recorded_utc') or c.get('turn'))
+        lane.parent.mkdir(parents=True, exist_ok=True)
+        lane.write_text(json.dumps(own, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+    if legacy.read_text(encoding='utf-8') != main_text:
+        legacy.write_text(main_text, encoding='utf-8')
+    return [c.get('turn') for c in moved]
 
 
 def start_of_turn():

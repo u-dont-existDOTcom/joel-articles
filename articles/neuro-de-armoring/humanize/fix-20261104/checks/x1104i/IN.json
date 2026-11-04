@@ -1,0 +1,20 @@
+{
+ "b082": {
+  "lineage": "ND1104-B082b",
+  "name": "the uridine evidence paragraph, the card's version with only its Low sentence changed (his 5a, try 2)",
+  "text": "The tool: Uridine monophosphate (UMP). There's no study showing that \"UMP cures DAWS\", only more basic research on what uridine, choline, and DHA do in the brain. All three get carried in the blood to the brain, which uses them to make the fatty membranes at its synapses (circulating precursors for brain phosphatide / synaptic membrane synthesis). Wurtman's research group found that giving the three together can increase synaptic membrane components and synaptic proteins, and that in animals, adding UMP to DHA made the neurons grow more new connection points (DHA-induced dendritic spine formation). And in old rats, UMP in their food meant their neurons put out more dopamine when stimulated with potassium, and grew more nerve fibers. So it's plausible that it works on the synapses this way, but using it for DAWS in people means carefully extrapolating from those studies and from anecdotes like Scott's.",
+  "chance": 0.5,
+  "why": "the card's version word for word (High, Medium, Low, Medium) except the rat sentence, now \"And in old rats, UMP in their food meant their neurons put out more dopamine when stimulated with potassium, and grew more nerve fibers.\"",
+  "diagnosis": "Codex's whole rewrite (try 1) read 62.4% AI, its first sentences down from High; so this try changes only the sentence Pangram read Low, the neurons as the subject of both results",
+  "decides": "whether the Low window rises when nothing else moves"
+ },
+ "b083": {
+  "lineage": "ND1104-B083b",
+  "name": "Scott's paragraph, the card's version with one sentence changed (his 5a, try 2)",
+  "text": "Scott added a standard dose of UMP, and within a day his ketamine/LSD cravings fell hard. He already had choline covered with eggs, and took fish oil for DHA/EPA. His psychedelic tolerance seemed to drop too. You can't tell from this whether UMP rebuilt his D3 receptors overnight. In the right person, though, UMP can be a clean signal that the brain was low on what it uses to rebuild synaptic membranes and dopamine receptors. Scott was having vivid dreams again too, with real childhood memories coming back in them.",
+  "chance": 0.4,
+  "why": "the card's version (Codex's) word for word except its takeaway, now \"In the right person, though, UMP can be a clean signal that the brain was low on what it uses to rebuild synaptic membranes and dopamine receptors.\" (no \"It does suggest\" pivot, no \"system for\", no \"starved of building materials\", his \"clean signal\")",
+  "diagnosis": "try 1 rewrote three sentences and read 84.6% AI, its new takeaway AI High and Codex's untouched first sentences down to AI Low; this try changes the one sentence the panel and Pangram both point at",
+  "decides": "whether the takeaway sentence is what holds the window Low"
+ }
+}

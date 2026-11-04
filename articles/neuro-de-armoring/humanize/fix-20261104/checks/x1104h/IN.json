@@ -1,0 +1,20 @@
+{
+ "b082": {
+  "lineage": "ND1104-B082b",
+  "name": "the uridine evidence paragraph, Codex's rewrite for its Low window (his 5a, try 1)",
+  "text": "The tool: Uridine monophosphate (UMP). There's no study showing that \"UMP cures DAWS\", only more basic research on what uridine does in the brain with choline and DHA. All three get carried in the blood to the brain, which uses them to make the fatty membranes at its synapses (circulating precursors for brain phosphatide / synaptic membrane synthesis). Using UMP for DAWS in people still means carefully extrapolating from that research and from anecdotes like Scott's, though it's plausible that it works on the synapses this way. Wurtman's research group found that giving the three together can increase synaptic membrane components and synaptic proteins. In animals, adding UMP to DHA made neurons grow more new connection points, what's called DHA-induced dendritic spine formation. Old rats got UMP in their food, and when their neurons were stimulated with potassium, they released more dopamine. The rats grew more nerve fibers too.",
+  "chance": 0.45,
+  "why": "Codex's rewrite: the caveat moved before the studies (\"Using UMP for DAWS in people still means carefully extrapolating ..., though it's plausible ...\"), the rat study as two plain sentences at the end (\"Old rats got UMP in their food, and when ...\", \"The rats grew more nerve fibers too.\"), \"what's called\" for the bracket",
+  "diagnosis": "the card's version (try 5 of ND1104-B082) read Human Written with the rat sentence Low and two Medium; Codex was asked to work mainly on the rat sentence (Joel, 12:06: \"low windows can easily flip to AI\", \"medium aren't a big issue usually\"); a new lineage, so no panel yet (E346 after two AI reads)",
+  "decides": "whether another family's writer raises the Low window without losing the High ones"
+ },
+ "b083": {
+  "lineage": "ND1104-B083b",
+  "name": "Scott's paragraph, its Low window rewritten (his 5a, try 1)",
+  "text": "Scott added a standard dose of UMP, and within a day his ketamine/LSD cravings fell hard. He already had choline covered with eggs, and took fish oil for DHA/EPA. His psychedelic tolerance seemed to drop too. One case can't tell you whether UMP rebuilt his D3 receptors overnight. The choline and DHA were already there, though, so it was a clean test, and in the right person a response like that suggests the brain was starved for what it needs to rebuild synaptic membranes and dopamine receptors. Within that same day his vivid dreams were back too, with real childhood memories in them.",
+  "chance": 0.45,
+  "why": "Codex's first three sentences kept (High, Medium); the Low window's pivot (\"You can't tell from this whether ... It does suggest ...\") said as \"One case can't tell you ...\" and \"The choline and DHA were already there, though, so it was a clean test, and in the right person a response like that suggests ...\"; the dreams last, \"within that same day\"",
+  "diagnosis": "the card's version (Codex's, try 6 of ND1104-B083) read Human Written with its last three sentences Low; the panel on it agreed on exactly those two (panel/b083-codex/PANEL.md); my comparative read put \"within a day\" back over the dreams and \"clean\" back",
+  "decides": "whether fixing the two sentences the panel agreed on raises the Low window"
+ }
+}

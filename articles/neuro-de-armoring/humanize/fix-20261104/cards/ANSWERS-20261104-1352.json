@@ -1,0 +1,61 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "neuro-de-armoring-cards-20261104-x1104c",
+ "title": "Neuro De-Armoring Cards, 4 November (2)",
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104C.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "3c68e8e22cc19e0b04cb2486f7938740b35751ddf1bcbd8ff364418d96b92fe0"
+ },
+ "built": "2026-11-04 12:20 UTC",
+ "generator": "suggestion_review.py 1.5 (2026-11-02)",
+ "exported_at": "2026-11-04T13:52:26.419Z",
+ "counts": {
+  "approved": 1,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "Y-83b",
+   "type": "help",
+   "title": "\"You can't tell from this whether UMP rebuilt his D3 receptors overnight ...\"",
+   "where": "Dopamine Receptor Burnout / DAWS Pattern: Uridine Monophosphate, P3",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Scott added a standard dose of UMP, and within a day his ketamine/LSD cravings fell hard. He already had choline covered with eggs, and took fish oil for DHA/EPA. His psychedelic tolerance seemed to drop too. You can't prove from this whether UMP rebuilt his D3 receptors overnight, but it does suggest that in the right person, UMP can show you very clearly when the brain's system for rebuilding synaptic membranes and recovering dopamine receptors has been starved of building materials. Scott was having vivid dreams again too, with real childhood memories surfacing.",
+   "comment": "the above is my version to use, but the only change i needed to flip the low conf human all to high conf was to merge the sentences with a \", but\" ... again it's the way it flows. Ai says stuff like \"It doesn't X. [But is implied] Blah blah blah blha blah blah... \"\nthere's also the Not X, but Y. pattern with AI, so we shouldn't overuse that either, but sometimes it is the most clear and natural way to phrase it. \n\nhttps://www.pangram.com/history/6716a87f-8df3-4107-ab4c-5df53a83ef6d?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "Scott added a standard dose of UMP, and within a day his ketamine/LSD cravings fell hard. He already had choline covered with eggs, and took fish oil for DHA/EPA. His psychedelic tolerance seemed to drop too. You can't tell from this whether UMP rebuilt his D3 receptors overnight. It does suggest that in the right person, UMP can show you very clearly when the brain's system for rebuilding synaptic membranes and recovering dopamine receptors has been starved of building materials. Scott was having vivid dreams again too, with real childhood memories coming back in them.",
+   "before": "Scott added a standard dose of UMP, and within a day his ketamine/LSD cravings fell hard. He already had choline covered with eggs, and took fish oil for DHA/EPA. His psychedelic tolerance seemed to drop too. You can't tell from this whether UMP rebuilt his D3 receptors overnight. It does suggest that in the right person, UMP can show you very clearly when the brain's system for rebuilding synaptic membranes and recovering dopamine receptors has been starved of building materials. Scott was having vivid dreams again too, with real childhood memories coming back in them.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T13:46:17.244Z"
+    }
+   ],
+   "updated": "2026-11-04T13:52:11.717Z"
+  },
+  {
+   "id": "W-17",
+   "type": "warning",
+   "title": "\"Uridine & 5-HTP Warning for Psychedelic Users: These are not \"trip enhancers.\" ...\"",
+   "where": "A Complete Guide to Bio-De-Armoring, P11",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Uridine & 5-HTP Warning for Psychedelic Users: These are not \"trip enhancers.\" They are repair-oriented levers that, in practice, can change brain sensitivity quickly. 5-HTP is serotonergic because it is a direct serotonin precursor. Do not combine it with SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John's wort, SAM-e, L-tryptophan, or other serotonin-raising stacks without clinician review. Be especially conservative around ayahuasca / harmalas because MAO-A inhibition can amplify serotonin load, and around iboga / ibogaine because ibogaine and noribogaine interact with serotonin transport biology and already carry serious cardiac and neurological risk.",
+   "before": "Uridine & 5-HTP Warning for Psychedelic Users: These are not \"trip enhancers.\" They are repair-oriented levers that can change brain sensitivity quickly. 5-HTP is serotonergic because it is a direct serotonin precursor. Do not combine it with SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John's wort, SAM-e, L-tryptophan, or other serotonin-raising stacks without clinician review. Be especially conservative around ayahuasca / harmalas because MAO-A inhibition can amplify serotonin load, and around iboga / ibogaine because ibogaine and noribogaine interact with serotonin transport biology and already carry serious cardiac and neurological risk.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T13:46:11.285Z"
+    }
+   ],
+   "updated": "2026-11-04T13:46:11.285Z"
+  }
+ ]
+}

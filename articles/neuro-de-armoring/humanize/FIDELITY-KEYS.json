@@ -2162,5 +2162,117 @@
    "unit": "W030",
    "by": "his version of the uridine \"Who this is for\" paragraph, his message of 2026-11-04 10:01 UTC (fix-20261104/joel-20261104-1001-message.txt)"
   }
+ ],
+ "owner_changes": [
+  {
+   "by": "fix-20261104/cards/ANSWERS-20261104-1205.json, card Y-82 (approved 2026-11-04)",
+   "keys_lost": {
+    "W031": [
+     [
+      "cautious"
+     ],
+     [
+      "extrapolation"
+     ]
+    ]
+   }
+  },
+  {
+   "by": "fix-20261104/cards/ANSWERS-20261104-1205.json, card W-15 (approved 2026-11-04)",
+   "keys_lost": {
+    "W008": [
+     [
+      "MAOIs"
+     ]
+    ],
+    "W009": [
+     [
+      "risk",
+      "likelihood of relapsing"
+     ]
+    ]
+   }
+  },
+  {
+   "by": "fix-20261104/cards/ANSWERS-20261104-1205.json, card W-125 (approved 2026-11-04)",
+   "keys_lost": {
+    "W058": [
+     [
+      "unless"
+     ],
+     [
+      "clinician-supervised"
+     ]
+    ]
+   }
+  },
+  {
+   "by": "fix-20261104/cards/ANSWERS-20261104-1205.json, card W-68 (approved 2026-11-04)",
+   "numbers_lost": [
+    "300-600mg",
+    "300-600mg/day",
+    "~300mg",
+    "~800mg"
+   ],
+   "numbers_new": [
+    "200mg",
+    "400mg",
+    "400mg",
+    "400mg/day",
+    "600",
+    "800mg"
+   ],
+   "keys_lost": {
+    "W072": [
+     [
+      "300-600 mg"
+     ]
+    ]
+   }
+  },
+  {
+   "by": "fix-20261104/cards/ANSWERS-20261104-1205.json, card W-111 (approved 2026-11-04)",
+   "keys_lost": {
+    "W056": [
+     [
+      "must"
+     ],
+     [
+      "mandate"
+     ]
+    ]
+   }
+  },
+  {
+   "by": "fix-20261104/cards/ANSWERS-20261104-1205.json, card W-112 (approved 2026-11-04)",
+   "keys_lost": {
+    "W057": [
+     [
+      "dangerous"
+     ]
+    ]
+   }
+  },
+  {
+   "by": "fix-20261104/cards/ANSWERS-20261104-1205.json, card W-154 (approved 2026-11-04)",
+   "keys_lost": {
+    "W064": [
+     [
+      "l-serine"
+     ],
+     [
+      "renal"
+     ]
+    ],
+    "W066": [
+     [
+      "compounded"
+     ],
+     [
+      "caused"
+     ]
+    ]
+   }
+  }
  ]
 }

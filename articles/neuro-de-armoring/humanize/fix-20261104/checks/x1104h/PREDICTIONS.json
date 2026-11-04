@@ -1,0 +1,24 @@
+[
+ {
+  "key": "b082",
+  "name": "the uridine evidence paragraph, Codex's rewrite for its Low window (his 5a, try 1)",
+  "lineage": "ND1104-B082b",
+  "scope": "paragraph",
+  "words": 149,
+  "call": "AI",
+  "chance": 0.45,
+  "why": "Codex's rewrite: the caveat moved before the studies (\"Using UMP for DAWS in people still means carefully extrapolating ..., though it's plausible ...\"), the rat study as two plain sentences at the end (\"Old rats got UMP in their food, and when ...\", \"The rats grew more nerve fibers too.\"), \"what's called\" for the bracket",
+  "sha256": "e411ef3615c4834a36088c96e6c22a3559bba79b8ba79cb2eac3f964bd2936de"
+ },
+ {
+  "key": "b083",
+  "name": "Scott's paragraph, its Low window rewritten (his 5a, try 1)",
+  "lineage": "ND1104-B083b",
+  "scope": "paragraph",
+  "words": 103,
+  "call": "AI",
+  "chance": 0.45,
+  "why": "Codex's first three sentences kept (High, Medium); the Low window's pivot (\"You can't tell from this whether ... It does suggest ...\") said as \"One case can't tell you ...\" and \"The choline and DHA were already there, though, so it was a clean test, and in the right person a response like that suggests ...\"; the dreams last, \"within that same day\"",
+  "sha256": "0dd1e70c301c7d88b0edb8e17dc39098e5b59829b51369c27327d781c1e7c154"
+ }
+]

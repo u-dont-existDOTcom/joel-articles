@@ -1,8 +1,7 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-04, after your answers of 10:39 UTC ("3a 4a").
-**Open questions: 1.** **For you to do**: answer question 5 (below), the 12 cards on
-[Neuro De-Armoring Cards, 4 November](https://claude.ai/artifact/TBrnTti2G9V4fBvC357cTy), and merge pull request 287.
+Last updated 2026-11-04, after your answers of 13:53 UTC (the second cards page, "6a").
+**Open questions: 0.** **For you to do**: merge pull request 290 when you've looked.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
@@ -10,23 +9,69 @@ can read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 5. More tries for the two uridine paragraphs' Medium and Low windows?** The evidence paragraph and Scott's both
+None right now.
+
+## For you to do
+
+- 🟠 Merge [pull request 290](https://github.com/u-dont-existDOTcom/joel-articles/pull/290) when you've looked (its
+  conflict with main is fixed).
+
+## Your answers of 2026-11-04 13:53 UTC (the second cards page, "290 has conflicts", "6a"), and what I did
+
+Word for word: [your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/joel-20261104-1353-message.txt) and
+[your answers file](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/cards/ANSWERS-20261104-1352.json).
+
+- 🟢 **Your version of Scott's paragraph is in**, as you wrote it; you checked it: [Human Written, 0.0% AI]
+  (https://www.pangram.com/history/6716a87f-8df3-4107-ab4c-5df53a83ef6d). What it does is in
+  [what your versions do](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md); the linter now fails "X doesn't Y. It
+  does Z." split in two (lesson E352), and leaves your "It could be helpful, though, ..." alone.
+- 🟢 **W-17 is in** ("in practice").
+- 🟢 **6a: the five generic lines stay** as they are.
+- 🟢 **Pull request 290's conflict is fixed.** It was the mailbox record every lane wrote into one shared file; each lane
+  now writes its own, so another lane merging first doesn't put this lane's pull request in conflict again.
+- 🔵 **Next**: the rest of the article, a paragraph at a time.
+
+Question 6 as it was asked:
+
+**🟢 6. Five generic lines: keep them?** The warnings check found nothing behind these in the research, but each is
+common sense ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/warnings/WARNINGS-CHECK.md), items 15, 28 and 29):
+1. "Electrolytes: Consult a doctor if you have kidney disease or heart conditions." (the warnings at the top)
+2. Uridine's other stop signs (insomnia, jitteriness, racing thoughts, irritability, emotional flatness, nausea, stomach
+   cramps, loose stools) and "If it makes you wired, numb, or weirdly irritable, stop. Do not push through."
+3. "DO NOT load extra salt (Risk of High Blood Pressure)." (Electrolytes, Strategy A)
+
+a) **Keep them all** (my recommendation: each points at a real risk or a sensible stop, so none is needless).
+b) **Cut them.**
+c) **Some of them** (say which).
+
+## Your answers of 2026-11-04 12:06 UTC (the 12 cards, and "5a"), and what I did
+
+Word for word: [your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/joel-20261104-1206-message.txt) and
+[your answers file](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/cards/ANSWERS-20261104-1205.json).
+
+- 🟢 **All 12 cards are in the article**, each as the card showed it. The fidelity check records what each warnings card
+  took out or put in, with the card's number, so the check still holds every other dose and warning.
+- 🟢 **5a, the evidence paragraph**: Codex's whole rewrite read [62.4% AI](https://www.pangram.com/history/20dbe991-0598-4827-b42d-a55a4ef92a81).
+  My second try changed only the sentence that read Low (the old rats) and read
+  [Human Written, 0.0% AI](https://www.pangram.com/history/426bed99-5f7e-4c53-866c-6917c4c0c8cd), with no Low window left (High, Medium, High). It's in.
+- 🟢 **5a, Scott's paragraph**: both tries read worse ([84.6% AI](https://www.pangram.com/history/e8b5de85-2203-4504-b915-cd94e9fbf63e) and
+  [99.99% AI](https://www.pangram.com/history/7a054118-a4e0-411a-b9fa-3efb1ebf7850)), so Codex's version stays, and its Low window is a card for
+  your help.
+- 🟢 **Low and Medium windows**: your rule now (Low windows flip in other segmentations; Medium usually isn't a big
+  issue) is in the lane rules next to the old one.
+- 🔵 **Next**: the rest of the article, a paragraph at a time.
+
+Question 5 as it was asked:
+
+**🟢 5. More tries for the two uridine paragraphs' Medium and Low windows?** The evidence paragraph and Scott's both
 read Human Written, 0.0% AI by themselves (cards Y-82 and Y-83), but each has Medium and Low windows, and each has used
 its six tries, so another try needs your OK. My last try on the evidence paragraph, aimed at those windows, read
 [30.3% AI](https://www.pangram.com/history/e36c7366-cdce-4f67-a1bf-cd61514e9fd5), so a new try only replaces a version that reads worse.
 
-- a) **Two more tries each** (my recommendation: a window under High is the kind a new Pangram version turns AI), the
-  first one for the evidence paragraph from Codex, whose rewrite carried Scott's.
-- b) **Leave them** as they read now.
-- c) **Something else.**
-
-## For you to do
-
-- 🟠 Answer question 5 above.
-- 🟠 The 12 cards on [Neuro De-Armoring Cards, 4 November](https://claude.ai/artifact/TBrnTti2G9V4fBvC357cTy)
-  ([the cards as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104.md)): the two uridine paragraphs, both Human Written now, and
-  ten warnings.
-- 🟠 Merge [pull request 287](https://github.com/u-dont-existDOTcom/joel-articles/pull/287) when you've looked.
+a) **Two more tries each** (my recommendation: a window under High is the kind a new Pangram version turns AI), the
+first one for the evidence paragraph from Codex, whose rewrite carried Scott's.
+b) **Leave them** as they read now.
+c) **Something else.**
 
 ## Your answers of 2026-11-04 10:39 UTC ("3a 4a"), and what I did
 

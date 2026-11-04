@@ -1,0 +1,76 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "neuro-de-armoring-cards-20261104-x1104c",
+ "title": "Neuro De-Armoring Cards, 4 November (2)",
+ "intro": [
+  "Your 12 cards are in. Of the 5a tries, the evidence paragraph's second one read better, with no Low window left, so it's in too. Scott's paragraph's Low window got worse both times, so it's here for you, as you offered.",
+  "Then the last warnings card. The rest of the 5-HTP and iboga lines stay as they are: softening them would narrow real cautions. The five generic lines are question 6 on the questions page.",
+  "Your answers save as you click. When you're done, click <b>Copy my answers</b> (or <b>Save them as a file</b>) and send them to me."
+ ],
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104C.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "3c68e8e22cc19e0b04cb2486f7938740b35751ddf1bcbd8ff364418d96b92fe0"
+ },
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104C.md"
+ },
+ "built": "2026-11-04 12:20 UTC",
+ "types": {
+  "help": {
+   "label": "Help me see what I'm missing",
+   "about": "A stretch that reads Human, but at Low confidence, and that my tries made worse. Edit it the way you would, or keep it as it is."
+  },
+  "warning": {
+   "label": "A warning the research doesn't back",
+   "about": "What the warnings check found, with the source, and the change it supports. Approve it, revise it, or keep the post's wording."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "Y-83b",
+   "type": "help",
+   "title": "\"You can't tell from this whether UMP rebuilt his D3 receptors overnight ...\"",
+   "advice": "edit",
+   "keep_label": "keep it as it is",
+   "spans": [
+    {
+     "block": 83,
+     "start": 209,
+     "end": 576
+    }
+   ],
+   "reading": "the paragraph by itself, Human Written, 0.0%: High on the first two sentences, Medium on the tolerance line, Low on these three: [check](https://www.pangram.com/history/bdc81685-fdd0-420e-b74f-1a196b1ec606)",
+   "why": "Your 5a gave it two more tries. Three fresh readers had agreed on two of these sentences ([their notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/panel/b083-codex/PANEL.md)), and I fixed those two twice. Rewriting all three read [84.6% AI](https://www.pangram.com/history/e8b5de85-2203-4504-b915-cd94e9fbf63e); changing only the \"It does suggest ...\" sentence read [99.99% AI](https://www.pangram.com/history/7a054118-a4e0-411a-b9fa-3efb1ebf7850), the sentences I hadn't touched included. So that sentence, as Codex wrote it, holds the paragraph up, and I can't see why.",
+   "advice_note": "I can't find any more AI tells here, and I see some human tells, like \"again too\" and your \"real childhood memories\"... can you help show me the tells I'm missing?",
+   "found_by": "Paragraph checks through the API, 4 November (batches x1104h and x1104i)"
+  },
+  {
+   "id": "W-17",
+   "type": "warning",
+   "title": "\"Uridine & 5-HTP Warning for Psychedelic Users: These are not \"trip enhancers.\" ...\"",
+   "advice": "approve",
+   "approve_label": "use this wording",
+   "spans": [
+    {
+     "block": 17,
+     "start": 79,
+     "end": 153
+    }
+   ],
+   "edits": [
+    {
+     "block": 17,
+     "before": "Uridine & 5-HTP Warning for Psychedelic Users: These are not \"trip enhancers.\" They are repair-oriented levers that can change brain sensitivity quickly. 5-HTP is serotonergic because it is a direct serotonin precursor. Do not combine it with SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John's wort, SAM-e, L-tryptophan, or other serotonin-raising stacks without clinician review. Be especially conservative around ayahuasca / harmalas because MAO-A inhibition can amplify serotonin load, and around iboga / ibogaine because ibogaine and noribogaine interact with serotonin transport biology and already carry serious cardiac and neurological risk.",
+     "after": "Uridine & 5-HTP Warning for Psychedelic Users: These are not \"trip enhancers.\" They are repair-oriented levers that, in practice, can change brain sensitivity quickly. 5-HTP is serotonergic because it is a direct serotonin precursor. Do not combine it with SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John's wort, SAM-e, L-tryptophan, or other serotonin-raising stacks without clinician review. Be especially conservative around ayahuasca / harmalas because MAO-A inhibition can amplify serotonin load, and around iboga / ibogaine because ibogaine and noribogaine interact with serotonin transport biology and already carry serious cardiac and neurological risk."
+    }
+   ],
+   "what": "\"in practice\": the quick change in brain sensitivity said as experience, the way your 4a has uridine's effects said.",
+   "why": "No study of 5-HTP or uridine changing brain sensitivity quickly turned up ([the warnings check](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/warnings/WARNINGS-CHECK.md), item 4). The 5-HTP section already says responders \"can feel it quickly\".",
+   "deciding": "Whether \"in practice\" goes in.",
+   "stays": "The rest of the warning, word for word: the 5-HTP interaction list, the ayahuasca and iboga lines.",
+   "found_by": "The warnings check, 4 November"
+  }
+ ]
+}
