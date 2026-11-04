@@ -14,6 +14,9 @@ import pathlib
 HERE = pathlib.Path(__file__).resolve().parent
 TEXTS = json.loads((HERE / 'TEXTS.json').read_text(encoding='utf-8'))
 PRED = {r['key']: r for r in json.loads((HERE / 'PREDICTIONS.json').read_text(encoding='utf-8'))}
+# once the lane has run the checks itself (Joel, 2026-11-04 16:12 UTC: "you don't need me to do that"; gate E356), the page
+# shows each result instead of asking him for it
+GOT = json.loads((HERE / 'RESULTS-GUI.json').read_text(encoding='utf-8'))['results'] if (HERE / 'RESULTS-GUI.json').exists() else {}
 WHAT = {
     'b085': 'The stop instruction now comes first, the way your agmatine warning starts, and the list has uneven shapes.',
     'b086': '"Take that as a safety signal" is said as what it means: your sensitivity is coming back.',
@@ -24,6 +27,14 @@ WHAT = {
 }
 
 
+INTRO_ASK = '''<p>Six paragraphs for Pangram's web checker, each checked by itself. Copy one, paste it in by itself, check it, and send me the link. The button copies the paragraph only, without this page's numbers or labels.</p>
+<p>I wrote my predictions down before you check: I expect all six to read AI. My chances of a Human result are 25%% to 35%%. Paragraphs 1 to 4 are second tries, after the three readers' notes on the first tries.</p>
+'''
+INTRO_DONE = '''<p><b>Nothing to do here.</b> I checked all six myself in Pangram's web app, each paragraph by itself, on 4 November between 16:32 and 16:33 UTC. Each result and its link is on its card.</p>
+<p>My predictions were written first: all six AI. Five were right, and the "Who this is for" read Human Written.</p>
+'''
+
+
 def card(n, key):
     t = TEXTS[key]
     p = PRED[key]
@@ -31,11 +42,21 @@ def card(n, key):
             '<div class="head"><h2 id="h-%(k)s"><span class="n">%(n)d</span>%(name)s</h2>'
             '<span class="meta">%(w)d words · my chance of Human: %(c)d%%</span></div>\n'
             '<p class="what">%(what)s</p>\n'
+            '%(res)s'
             '<div class="text" id="t-%(k)s">%(t)s</div>\n'
             '<div class="row"><button type="button" class="copy" id="c-%(k)s" data-for="t-%(k)s">Copy paragraph %(n)d</button>'
             '<span class="done" id="d-%(k)s" aria-live="polite"></span></div>\n'
             '</section>') % {'k': key, 'n': n, 'name': html.escape(p['name'][0].upper() + p['name'][1:]), 'w': len(t.split()),
-                             'c': round(p['chance'] * 100), 'what': html.escape(WHAT[key]), 't': html.escape(t)}
+                             'c': round(p['chance'] * 100), 'what': html.escape(WHAT[key]), 't': html.escape(t), 'res': result(key)}
+
+
+def result(key):
+    r = GOT.get(key)
+    if not r:
+        return ''
+    ws = ', '.join('%s (%s)' % (w[0].replace('AI-Generated', 'AI'), w[1]) for w in r['windows'])
+    return ('<p class="res"><b>%s, %.1f%% AI</b> · windows: %s · <a href="https://www.pangram.com/history/%s">the result</a></p>\n'
+            % (html.escape(r['headline']), r['ai'] * 100, html.escape(ws), r['uuid']))
 
 
 def main():
@@ -74,14 +95,14 @@ h2 { font-size: 1.05rem; margin: 0; display: flex; gap: 10px; align-items: basel
 button.copy { font: inherit; font-weight: 700; font-size: 0.95rem; background: var(--accent); color: var(--accent-ink); border: 0; border-radius: 4px; padding: 8px 14px; cursor: pointer; }
 button.copy:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
 .done { font-size: 0.9rem; color: var(--muted); }
+.res { margin: 0; font-size: 0.95rem; }
+.res a { color: var(--accent); }
 @media (prefers-reduced-motion: no-preference) { button.copy { transition: filter 0.15s; } button.copy:hover { filter: brightness(1.08); } }
 </style>
 <main>
 <div class="intro">
 <h1>Neuro De-Armoring Checks</h1>
-<p>Six paragraphs for Pangram's web checker, each checked by itself. Copy one, paste it in by itself, check it, and send me the link. The button copies the paragraph only, without this page's numbers or labels.</p>
-<p>I wrote my predictions down before you check: I expect all six to read AI. My chances of a Human result are 25%% to 35%%. Paragraphs 1 to 4 are second tries, after the three readers' notes on the first tries.</p>
-<p class="small">Batch x1104k, built %(built)s.</p>
+%(intro)s<p class="small">Batch x1104k, built %(built)s.</p>
 </div>
 %(cards)s
 </main>
@@ -102,7 +123,7 @@ document.querySelectorAll('button.copy').forEach(function (b) {
   });
 });
 </script>
-''' % {'built': built, 'cards': cards}
+''' % {'built': built, 'cards': cards, 'intro': INTRO_DONE if GOT else INTRO_ASK}
     (HERE / 'CHECK-PAGE.html').write_text(page, encoding='utf-8')
     print('ok', len(page), list(TEXTS))
 

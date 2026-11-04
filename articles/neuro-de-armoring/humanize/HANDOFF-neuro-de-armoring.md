@@ -18,6 +18,11 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-04, after Joel's message of 16:12 UTC ("you don't need me to do that ... every other lane is doing gui
+  checks"): the lane runs its own web-app checks (E356); block 88 in; six stretches to edit on Neuro De-Armoring Cards, 4
+  November (3).** HUMANIZED-SO-FAR.md is fb288da6. Checks run in Pangram's web app: the app's browser pane when it's signed
+  in, else Claude in Chrome in his Brave (his answer: "Use Claude in Chrome"), with `tools/humanization/pangram_page_helpers.js`
+  and `fix-20261104/checks/record_gui.py`. Never hand a check to him. Question 8 is open. See the Next step.
 - **2026-11-04, after Joel's messages of 14:42 UTC ("done continue") and 14:59 UTC ("we have tons of gui credits still"): six
   paragraphs drafted, four checked (100% AI), the API out of credits; second tries after the tell panel; his six checks in the
   web app waiting.** HUMANIZED-SO-FAR.md is still c73f5b5d. He checks paragraphs in Pangram's web app now (question 7), from a
@@ -82,7 +87,25 @@ All of the article is his published post. His queue's rule: "Paragraphs that alr
 stay exactly as they are." Everything else is rewritten in his register and reaches him as cards, each tested first. The
 Scott passages, the introduction and the D-serine paragraph in Part 4 sound most like him.
 
-## Next step (2026-11-04, after Joel's message of 14:59 UTC: his six checks in the web app)
+## Next step (2026-11-04, after Joel's message of 16:12 UTC: his six stretches)
+
+Done (STATUS.md's entry for 2026-11-04 16:12 has every file and number). Waiting on him: the six stretches on Neuro
+De-Armoring Cards, 4 November (3) (https://claude.ai/artifact/TBrnTti2G9V4fBvC357cTy; review id
+neuro-de-armoring-cards-20261104-x1104d; `fix-20261104/cards/REVIEW-X1104D.md`) and question 8.
+
+Next:
+1. **His answers**: his words saved first; each version of his goes in as written (an apply script like
+   `fix-20261104/cards/apply_cards_x1104c.py`, the fidelity check's difference recorded as "owner_changes" or
+   "owner_wording"), checked by itself in the web app where he hasn't checked it (predictions first,
+   `checks/predict_batch.py --detector`, then `checks/record_gui.py`), and what his versions do goes into
+   `fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md`.
+2. **Checks**: always the lane's own, in Pangram's web app: the app's browser pane if it's signed in to Pangram, else
+   Claude in Chrome in his Brave (open a new tab, run `tools/humanization/pangram_page_helpers.js` `__run`, read the
+   results back from his history by SHA-256, close the tab). Never a page asking him to check (E356).
+3. **Then the rest**, from block 92 (the 5-HTP stop signs) on, his versions' moves first; the uridine and 5-HTP sections
+   go to a section check once their paragraphs read Human (High).
+
+## Earlier next step (2026-11-04, after Joel's message of 14:59 UTC: his six checks in the web app)
 
 Done (STATUS.md's entry for 2026-11-04 14:42 and 14:59 has every file and number). Waiting on him: the six links from
 Neuro De-Armoring Checks (https://claude.ai/artifact/YW7suTvNrjNPvu1wApM93E; batch x1104k, `fix-20261104/checks/x1104k/`)

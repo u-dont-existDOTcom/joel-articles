@@ -1,0 +1,1 @@
+Psychedelic caution: Say your dreams get vivid again on UMP. Take that as a warning that your sensitivity may be returning. The same goes if UMP suddenly lowers your psychedelic tolerance. Don't take UMP on psychedelic days. If you use psychedelics later, assume your old dose may be too strong. You can end up taking too much trying to get the visuals you remember.

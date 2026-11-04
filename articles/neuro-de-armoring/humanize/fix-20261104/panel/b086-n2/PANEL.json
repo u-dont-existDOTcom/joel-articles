@@ -1,0 +1,41 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Psychedelic caution: Don't take UMP on psychedelic days.",
+  "If it makes your dreams vivid or suddenly lowers your tolerance, that's a sign your sensitivity is coming back, and the dose you're used to may be too strong now, so if you do take psychedelics later, go in assuming that, since chasing the old visual threshold can overshoot."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2
+ ],
+ "whole": {
+  "codex": [
+   "A short warning expands into one long sentence carrying observation, interpretation, consequence, instruction and justification, which can suggest AI polishing. These are weak stylistic cues; the paragraph alone cannot establish authorship."
+  ],
+  "haiku": [
+   "The paragraph is built as one long run-on sentence of linked conditions and consequences, which gives it an even, carefully engineered rhythm. Its voice is calm and instructive in a way that reads more like a summary than a personal note."
+  ],
+  "sonnet": [
+   "It follows a clean pattern of rule, trigger, interpretation, advice, with one over-long sentence doing the explaining through linked clauses. The tone is evenly cautious and tidy, with no digression or rough edge."
+  ]
+ },
+ "human_clean": [
+  "Don't take UMP on psychedelic days.",
+  "Don't take UMP on psychedelic days."
+ ]
+}

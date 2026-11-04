@@ -1,5 +1,50 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-04, after Joel's message of 16:12 UTC ("you don't need me to do that"): the lane's own web-app checks; 088 in; six stretches to him; E356
+
+His message, word for word: `fix-20261104/joel-20261104-1612-message.txt` ("you don't need me to do that, what are you
+talking about? you're not following the joel-articles and pangram humanization lab rules? why not? every other lane is
+doing gui checks"). **The mailbox first** ("2026-11-04 16:12"); main merged (af929000: suggestion_review.py 1.6).
+HUMANIZED-SO-FAR.md is now fb288da6 (block 88 in).
+
+- **The error, and its cause**: last turn's checks page asked him to run six checks the lane runs itself (his standing "you
+  don't need my ok each time to run the GUI pangram checks"; the gate's "The web app needs Joel's sign-in"; the budget
+  doc's web-app sections). The lane had run every check through the API since 2 November, its turn notes carried "never
+  use Joel's browser, clipboard, cookies or profile", which nothing in the repository says (the only copy is the session's
+  own summary), and the web-app rules weren't read before asking. Lesson **E356** in docs/HUMANIZATION-GATE.md (numbered
+  after the gut lane's E353 to E355 in pull request 293), and last turn's AGENTS.md paragraph, which said paragraph checks
+  "go to him", now says the lane runs them and how.
+- **The route**: the desktop app's browser pane was signed out of Pangram (the dashboard showed "Log in" and a "Verify you
+  are human" box, not ticked). Claude in Chrome was refused once by the session's safety check (acting in his browser
+  without his asking), so the lane asked him which route: "Use Claude in Chrome". The dashboard in his Brave (Pangram
+  Professional), `tools/humanization/pangram_page_helpers.js` `__run` (each SHA-256 checked before the click) and a
+  `__readFull` read from his history by SHA-256; the tab closed after.
+- **Batch x1104k** (the four second tries and the two unsent first tries; predictions of last turn): b088 read Human
+  Written, 0.0% AI (Medium, High, Medium, Low; a miss in my favour), b090 AI Detected, 27.2% AI (High, Medium, AI Low on its
+  last sentence), the other four AI Generated, 100% AI (`checks/x1104k/RESULTS.md`; `checks/record_gui.py` records each
+  window's confidence in the ledger, ND1104-B085#80 to B091#85).
+- **Batch x1104l**: one-sentence fixes of b088's Low window and b090's AI window both moved the untouched windows (b088 AI
+  Detected 13.8%; b090 100% AI with its first sentence AI), and the trial in his X-84 build read 100% AI (ND1104-B088#86,
+  B090#87, B091#88). E350: those stretches go to him.
+- **The tell panel on the second tries** (`panel/b085-n2`, `b086-n2`, `b089-n2`, `b091-n2`) and **Codex's rewrites**
+  (`rewrite-b085`, `b086`, `b089`, `b091`: `tell_panel.py rewrite-prompt` with the points to keep and the fidelity check's
+  words, his own paragraphs as voice; E256 (Inner Child)), batch x1104m: b086 AI Detected, 39.4% AI (Human Medium, Low,
+  Low, then AI Low on its last two sentences), the other three 100% AI (ND1104-B085#89 to B091#92). Codex's drafts were
+  checked without a panel read of their own; my changes to them: straight quote marks, and for 089 "actually" out (O25) and
+  its short last sentence joined (B7). The panel on b090 (`panel/b090-n1`) for its help card.
+- **Block 88 in the article** (`next2/apply_b088.py`): the second try, the fidelity check passing, my comparative read
+  beside his post recorded (`next2/read/`), no finding.
+- **Six stretches to edit** on Neuro De-Armoring Cards, 4 November (3) (https://claude.ai/artifact/TBrnTti2G9V4fBvC357cTy,
+  version 4; `cards/build_page_x1104d.py`, REVIEW-X1104D.md): Y-85, Y-86, Y-89, Y-91 (his post's paragraphs, after three
+  versions read AI), Y-88 (block 88's Low window) and Y-90 (his post's paragraph, my version's one AI sentence), each ask in
+  his words with the human tells named and its panel linked (`pangram_links_check.py` passes).
+- **Pages**: Neuro De-Armoring Checks republished with the results ("Nothing to do here"); the questions page (version 10)
+  with the 16:12 section; question 8 still open.
+- **Delegations**: a Sonnet and a Haiku subagent, the panel's readers for the four second tries, then one each for b090:
+  done, summarized by `tell_panel.py summarize`. Codex on the laptop (its configured model, read-only, ephemeral): the
+  panel's third reader for the same five, and the four rewrites from `rewrite-prompt`, checked by the fidelity check and
+  then Pangram: done (one Mixed, three AI).
+
 ## 2026-11-04, after Joel's messages of 14:42 UTC ("done continue") and 14:59 UTC (the web app's credits): six drafts, four checked and 100% AI; the API out of credits; the panel and second tries; his checks in the web app
 
 His messages, word for word: `fix-20261104/joel-20261104-1442-message.txt` ("done continue"; pull request 290 merged at
