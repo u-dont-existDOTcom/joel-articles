@@ -26,7 +26,8 @@ await (async () => {
     });
     return a;
   };
-  const sigOf = (n) => n.type.name + '|' + JSON.stringify(blocks({descendants: (f) => { f(n, 0); }}));
+  // a top-level node's signature: its own text if it is a paragraph or heading, else every block inside it (a list's items)
+  const sigOf = (n) => n.type.name + '|' + (n.isTextblock ? n.textContent.replace(/\s+/g, '') : JSON.stringify(blocks(n)));
   const diff = (a, b) => { const d = []; for (let i = 0; i < Math.max(a.length, b.length) && d.length < 8; i++) if (a[i] !== b[i]) d.push([i, (a[i] || '').slice(0, 80), (b[i] || '').slice(0, 80)]); return d; };
   const els = document.querySelectorAll('.ProseMirror');
   if (els.length !== 1 || !els[0].editor) return {ok: false, why: 'not one editor'};
