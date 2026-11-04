@@ -111626,7 +111626,7 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/pangram-ledger.jsonl",
-          "sha256": "6b402cae78ae4afe9e0f76f33be7f0b4dd4ecaa4710a343d76d9a0dcac342522",
+          "sha256": "34c4c2ea68ebf3f1b67adf7ec0feb4055694455d47b5311603c6b3c2d1c54d13",
           "role": "humanization_working_record"
         },
         {
@@ -114837,6 +114837,31 @@
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r12/checks/texts/r12-stacks-section.txt",
           "sha256": "253047d6e832cc124f8ce8b71402a13d1cee20d3fe69669576b5c974fb449c73",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r12/checks/ITEMS-3.json",
+          "sha256": "51508acfd05e82b04a2f9036e6f71394bb46191f7b7bfe02322a6f75ecc9639e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r12/checks/RESULTS-controls-webapp.json",
+          "sha256": "9ff05d31fb0e27376e0a44e11cbac9cb3204cadff15751502c800f36463c7e5e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r12/checks/texts/r12-fuels.txt",
+          "sha256": "3d4508d6551a3c4011b5ae9a42db780e3ae18bb809ee68188a24ff71f6400c3e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r12/checks/texts/r12-phase1.txt",
+          "sha256": "042ed0b9a78b7eb33abdcf51afe79a68e86ab9b8f2c8150fd22ae449c095939e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r12/checks/texts/r12-recipe-intro.txt",
+          "sha256": "cc5bcd700f56a1c7ee652cb9c1fdcea6cc53142569f52138bd204784137b1983",
           "role": "humanization_working_record"
         }
       ]
