@@ -7,7 +7,8 @@ Adapted from turn 114's make_payloads.py (round 8): split at h1 boundaries so ea
 characters of the 99,999 the check reads; the notes (pictures, videos, the pull-quote note) are comments and go, since
 the check reads neither images nor embeds. Two changes for his guide: it has no title block to skip, and his lists go in
 as real lists (<ul>/<ol>, an item a line) as his post will have them, where round 8 had no lists. Headings are <h1> to
-<h5>; a paragraph's line breaks are <br>; text as the lane's tools see it (ptext.plain: links and bold as plain text).
+<h5>; a paragraph's line breaks are <br>; text as the lane's tools see it (ptext.plain: links and bold as plain text), with
+the quote marks curled as the post shows them (curl(): the master keeps the standard swap's straight marks).
 Writes PAYLOAD-<X>.html, TEXT-<X>.txt (every block's text, headings included, which the paste's word check hashes) and
 PAYLOADS.json."""
 import hashlib
@@ -23,13 +24,33 @@ sys.path.insert(0, str(ROOT / 'tools' / 'humanization'))
 from paragraphs_alone import plain  # noqa: E402  (ptext.plain)
 
 LIMIT = int(sys.argv[1]) if len(sys.argv) > 1 else 95000
+OPENERS = set('([{—–-/')
+
+
+def curl(s):
+    """The quote marks curled as the post should show them. Substack's editor curls every straight mark on paste, and
+    after an opening bracket it curls a double one the wrong way: the first paste of round 9 showed "(”What would Jesus
+    do?”", "(”You hated that coat”)" and "(”Once upon a time…”", three of the typos he approved fixing in turn 117. So the
+    payload carries them curled already: an opening mark at the start, after a space or one of ( [ { — – - /, and a
+    closing mark or apostrophe elsewhere (a single opening mark only before a letter or digit)."""
+    out = []
+    for i, c in enumerate(s):
+        prev = s[i - 1] if i else ' '
+        nxt = s[i + 1] if i + 1 < len(s) else ' '
+        if c == '"':
+            out.append('“' if prev.isspace() or prev in OPENERS else '”')
+        elif c == "'":
+            out.append('‘' if (prev.isspace() or prev in OPENERS or prev in '"“') and nxt.isalnum() else '’')
+        else:
+            out.append(c)
+    return ''.join(out)
 SRC = ROOT / 'articles/inner-child-therapy/HUMANIZED-ARTICLE-SO-FAR.md'
 ITEM = re.compile(r'^(?:[-*+]|\d+\.)\s+')
 
 
 def blocks(md):
     """[(kind, level, text or items)]: ('h', 1..6, text), ('ul' or 'ol', 0, [item]), ('p', 0, text)."""
-    md = re.sub(r'<!--.*?-->', '', md, flags=re.S)
+    md = curl(re.sub(r'<!--.*?-->', '', md, flags=re.S))
     out = []
     for b in re.split(r'\n\s*\n', md):
         b = b.strip('\n')
