@@ -1,0 +1,17 @@
+[
+ {
+  "id": "R5-TOP",
+  "verdict": "PASS",
+  "issue": "Only the listed change: \"TCA intermediates\" removed from the fuel list. Everything else is word-for-word, and the energy-starvation to loose junctions to LPS-leak argument is unchanged."
+ },
+ {
+  "id": "R5-GLU",
+  "verdict": "PASS",
+  "issue": "Only the two listed additions: \"by pulling the tight junctions together\" and \"Glutamine also provides nitrogen to help build new cells.\" The rest is word-for-word. They add detail without changing the item's argument."
+ },
+ {
+  "id": "R5-ACID",
+  "verdict": "PASS",
+  "issue": "The listed changes are made accurately: \"in theory\" plus \"no good evidence they add much next to glutamine\"; the iron study (1 g, \"two to three times\" matches 0.028 to 0.085 and 0.048 to 0.095); \"clean\", \"organic malic acid\" and the route contrast are gone. LINK: \"also called the TCA or Krebs cycle\". LINK: \"(which make green apples and tart cherries sour)\". \"Organic acids like\" narrowed to the two named acids, which matches the label's own scope."
+ }
+]
