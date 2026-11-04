@@ -18,6 +18,10 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-04, after Joel's answers of 18:09 UTC and his "8a" of 18:10 UTC: his six versions in, the tool paragraph merged
+  into his "Who this is for", the dash swap run; no open questions.** HUMANIZED-SO-FAR.md is fb1168c8. A warning's words may
+  change when its meaning stays (E358; "warning_words": "meaning"). His lessons are E357 (the point first) and O65 to O67.
+  See the Next step.
 - **2026-11-04, after Joel's message of 16:12 UTC ("you don't need me to do that ... every other lane is doing gui
   checks"): the lane runs its own web-app checks (E356); block 88 in; six stretches to edit on Neuro De-Armoring Cards, 4
   November (3).** HUMANIZED-SO-FAR.md is fb288da6. Checks run in Pangram's web app: the app's browser pane when it's signed
@@ -87,7 +91,20 @@ All of the article is his published post. His queue's rule: "Paragraphs that alr
 stay exactly as they are." Everything else is rewritten in his register and reaches him as cards, each tested first. The
 Scott passages, the introduction and the D-serine paragraph in Part 4 sound most like him.
 
-## Next step (2026-11-04, after Joel's message of 16:12 UTC: his six stretches)
+## Next step (2026-11-04, after Joel's answers of 18:09 UTC: the rest of the 5-HTP section, then on)
+
+Done (STATUS.md's entry for 2026-11-04 18:09 has every file and number). Nothing is waiting on him but the merge.
+
+Next:
+1. **The 5-HTP stop signs and the hard interaction rule** (the two paragraphs after his trial), then the ATP section, one
+   paragraph at a time: his moves first (`fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md`, versions six to eleven: the point
+   first, E357; the link between two facts said; no repeating last line; "50mg"), `tells_lint.py` (O65 to O67), the
+   fidelity check (now by meaning, E358), each paragraph checked by the lane itself in the web app (the app's browser pane
+   if signed in, else Claude in Chrome in his Brave), predictions first. A paragraph under 50 words is read with its
+   neighbour (the web app's minimum). Words may change; never ask him whether they may.
+2. **Then** the uridine and 5-HTP sections checked as sections, the word-for-sense read, and his post.
+
+## Earlier next step (2026-11-04, after Joel's message of 16:12 UTC: his six stretches)
 
 Done (STATUS.md's entry for 2026-11-04 16:12 has every file and number). Waiting on him: the six stretches on Neuro
 De-Armoring Cards, 4 November (3) (https://claude.ai/artifact/TBrnTti2G9V4fBvC357cTy; review id

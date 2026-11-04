@@ -1,8 +1,7 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-04, after your message of 16:12 UTC ("you don't need me to do that").
-**Open questions: 1.** **For you to do**: look at the six stretches on [Neuro De-Armoring Cards, 4 November (3)](https://claude.ai/artifact/TBrnTti2G9V4fBvC357cTy);
-answer question 8 (below).
+Last updated 2026-11-04, after your answers of 18:09 UTC and your message of 18:10 UTC ("8a").
+**Open questions: 0.** **For you to do**: merge the pull request when you've looked (below).
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
@@ -10,23 +9,39 @@ can read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 8. In a warning, may the words change if the meaning stays?** The fidelity check holds every warning to your
-post's words, not just its meaning, so my rewrites keep words like "low-serotonin-looking", "discusses", "only if ...
-helpful" and "choline availability", which are the post's, and the four warnings and protocol paragraphs I tried read
-100% AI. Your own versions changed the words (the fidelity check records yours), and all five read Human.
-
-- a) **The meaning stays exactly, the words can change** (my recommendation): the check still holds every number,
-  compound and warning instruction ("do not", "stop", "avoid" and what they apply to), and a fresh reader reads each
-  changed warning beside your post for anything lost.
-- b) **The words stay**: I only rebuild the sentences around them.
-- c) **Something else.**
+None.
 
 ## For you to do
 
-- 🟠 Look at the six stretches on [Neuro De-Armoring Cards, 4 November (3)](https://claude.ai/artifact/TBrnTti2G9V4fBvC357cTy)
-  ([the cards as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104D.md)):
-  edit each the way you would, or keep it as it is.
-- 🟠 Answer question 8 above.
+- 🟠 Merge the pull request for this turn when you've looked.
+
+## Your answers of 2026-11-04 18:09 UTC (your six versions) and your message of 18:10 UTC ("8a"), and what I did
+
+Word for word: [your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/joel-20261104-1810-message.txt) (your answers file is saved beside [the cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104D.md)):
+"8a not sure why you had to ask that, the whole point is rewording stuff here".
+
+- 🟢 **Question 8, answered (8a)**: a warning's words may change when its meaning stays. The fidelity check now holds
+  each warning to its warning word, its compounds and its numbers only, and a warning that names neither keeps its own
+  words ("Do not push through."). Lesson E358: I shouldn't have asked.
+- 🟢 **Your six versions are in.** Each text you checked is the text you sent (I read each of your results from your
+  history). Your psychedelic caution is 39 words, under the web app's 50-word minimum, so I checked it after your stop
+  signs: [Human Written, 0.0% AI](https://www.pangram.com/history/365e4cec-67ac-4cd8-a5be-15dc24697387), your caution's
+  own window High. Your trial went in with the full stop it lacked, checked first:
+  [Human Written, 0.0% AI](https://www.pangram.com/history/d2b0d600-d1fe-4187-94e7-4bb0851a1b54), every window High.
+- 🟢 **The tool paragraph merged, as you suggested**: its points the other paragraphs don't make went into your "Who
+  this is for", in one sentence after Scott's, with the review linked. The merged paragraph read
+  [Human Written, 0.0% AI](https://www.pangram.com/history/f645d894-6c91-41b3-841d-26ec0d79b093), one window High, and
+  the tool paragraph is out. Left out with it: the review's other uses, and your "if levels go too high too fast"
+  (the risk itself stays in your serotonin syndrome sentence, the stop signs and the hard interaction rule).
+- 🟢 **What your versions teach is in the rules** (lesson E357,
+  [the gate](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md), and [what your versions do](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md)):
+  the point first; "matters" said as what it does; the link between two facts said; no last line that repeats; a
+  source the reader can place; a warning only where it makes sense; "50mg". The linter flags three of them now (a long
+  opening condition, "matters", a space before "mg").
+- 🟢 **Your two hyphens for every dash** (the Inner Child lane's rule, now in main): the article's 32 dashes and
+  quote marks swapped, none of them in the paragraphs checked this week.
+- 🔵 **Next**: the 5-HTP stop signs and the hard interaction rule, then the ATP section, each checked by itself in the
+  web app, the point first.
 
 ## Your message of 2026-11-04 16:12 UTC ("you don't need me to do that"), and what I did
 

@@ -2473,6 +2473,49 @@ His message, word for word: `articles/neuro-de-armoring/humanize/fix-20261104/jo
   (`articles/neuro-de-armoring/humanize/fix-20261104/checks/x1104k/RESULTS.md`). Before asking Joel to do a step, read
   the shared rules for it and try the routes they name; a rule that only a turn's notes carry is checked against the
   repository and his words before it stops anything (AGENTS.md's paragraph on the API's credits says the same).
+- **E357. The point comes first: a reader shouldn't have to reach a sentence's end to know why they're reading it (the
+  gut lane's E347, in this lane's warnings and doses).** Joel, 2026-11-04 18:09 UTC, on Neuro De-Armoring Cards, 4
+  November (3), where his six versions each read Human Written: "as before, the fix was to give the reader payoff sooner so
+  they understand why they should read. the way you wrote that last part in your best try, we have to read all the way to
+  the end of the sentence before we understand why we were reading the sentence, so then it's double work also, mentally
+  going back and forth to understand. how come i keep explaining this and you keep forgetting?" My "If you're already
+  agitated, manic, on serotonergic meds, or using serotonergic psychedelics/entactogens, you shouldn't be casually
+  experimenting with it" became his "I'd avoid casually experimenting with 5-HTP if you're agitated or manic, as it could
+  sometimes push that further. And watch out for serotonin syndrome risk if you're on serotonergic meds ...": the advice
+  first, then who it's for and why. On the 5-HTP tool paragraph: "that was a lot of work to reverse the order of how it
+  was written, but you can see now it reads easily and flows correctly so we don't have to remember what we read to
+  understand the points." `tells_lint.py` O65 now flags a sentence that opens on a long "If ...", "When ..." or
+  "Because ..." clause before its point (REVIEW: turn it round, the way he did). His other lessons in the same six:
+  - "matters": "Ai is always saying stuff "MATTERS" ... that's very high freq AI word, because it is super extremely
+    portable, can mean almost anything. not saying never to use it but don't use it if a more specific word would give
+    more sense" (O66, REVIEW).
+  - Two facts side by side with their link unsaid: "another ai tell was not explaining why slow-COMT is related to being
+    sensitive, like you had 2 statements just floating there, what were they for? nobody knows". His "He's genetically
+    slow-COMT, making him sensitive to too much P5P."
+  - Overcompletion on the last line: "oh, you were overcompleting, repeating yourself on the last line, i cut that and now
+    it's all good" (the uridine stop signs' "If it makes you wired, numb, or weirdly irritable, stop. Do not push
+    through.", after the stop signs themselves), and "the low dose matters, and more isn't better" (J09).
+  - A source the reader can place: ""i've seen" fixed a part of the AI issue, because "the studies" is referencing which
+    studies?"
+  - A warning that makes no sense goes: "idk where this safety warning came from, doesn't make much sense at all" (the
+    post's "If UMP makes dreams vivid or suddenly lowers psychedelic tolerance, treat that as a safety signal", in the
+    section whose point is that vivid dreams and sensitivity come back). Read each warning for sense in its section (E348),
+    not only for its words.
+  - Units without a space: "then i just removed spaces before "mg" and that helped a bit even tho not where i did that",
+    "don't think i've seen humans put spaces there" (O67, REVIEW; the fidelity check reads "50mg" as "50 mg").
+  - Single words move a paragraph's reading: his "just" before the lower dose took the trial to Human, and taking it out
+    read 87% AI; "of" before P5P read 46% AI; "like Scott did" made every window High. A paragraph he calls redundant
+    is cut or merged into the one before it ("i'd cut this whole paragraph or merge anything important from it into the
+    last one"; the merge read Human Written, one window High).
+  His versions and what each changed: `articles/neuro-de-armoring/humanize/fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md`.
+- **E358. Rewording is the point, so a warning's words may change when its meaning stays.** Joel, 2026-11-04 18:10 UTC,
+  answering the neuro de-armoring lane's question 8 (may a warning's words change if the meaning stays?): "8a not sure why
+  you had to ask that, the whole point is rewording stuff here". `fidelity_keys.py` reads "warning_words": {"rule":
+  "meaning"} in an article's FIDELITY-KEYS.json: each warning keeps its warning word ("do not", "stop", "avoid" ...),
+  its compounds and terms and its numbers, and its other words may change; a warning that names no compound and no
+  number ("Do not push through.") keeps its own words, since they are what its warning word applies to. The comparative
+  read beside his post (E284, E294) checks the meaning. Every humanizing lane can set it; don't ask him again whether
+  words may change.
 
 (E342, E345, E347 to E349 and E351 are the gut lane's, in its section above. The next lesson in either lane is E353.)
 
