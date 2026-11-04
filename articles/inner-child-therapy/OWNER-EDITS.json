@@ -4087,6 +4087,23 @@
    "must_contain": [
     "Are you really sorry for what you did, or are you just trying to feel sorry because they're upset? If you've said what you really feel,"
    ]
+  },
+  {
+   "id": "joel-123-typos",
+   "status": "applied",
+   "what": "Three typos in his marking-page versions of turn 122, fixed with his OK: \"Nurterer\" to \"Nurturer\" and \"the way they keeping\" to \"the way they keep\" (his Hearthwork section), \"it has become to carry\" to \"it has come to carry\" (Dating While You Heal).",
+   "joel": "2026-11-04 14:27 UTC: \"yes fix the typos\" (experiments/t123-answers/JOEL-20261104-1427.md)",
+   "where": "Hearthwork: Taking Turns Lending & Borrowing Adulthood, P3; Dating While You Heal, P1",
+   "must_contain": [
+    "are ideal for borrowing the Nurturer role",
+    "can also be borrowed from the way they keep what you say private",
+    "it has come to carry this connotation"
+   ],
+   "must_not_contain": [
+    "Nurterer",
+    "the way they keeping",
+    "it has become to carry"
+   ]
   }
  ]
 }
