@@ -109251,7 +109251,7 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/pangram-ledger.jsonl",
-          "sha256": "949a6df584950e1193c82dd9f74406e0662377089a9e10dd325c130ea4cfa6b8",
+          "sha256": "79d81490a075499410327f44ae2286c20e017d99b158868e4d20cee850774348",
           "role": "humanization_working_record"
         },
         {
@@ -111106,7 +111106,7 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r05/FUELS-r05.json",
-          "sha256": "d10e9e2ace17c673a6f6f5ca8a807ec547fc9bca8815155644cef903bdeae1fc",
+          "sha256": "9fbffe1fc1d6afbe2fd5c4f3fcc13458e425c02b6c0294155586601a2e2a6722",
           "role": "humanization_working_record"
         },
         {
@@ -111156,7 +111156,7 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r05/acids/draft-read/LINKS.json",
-          "sha256": "b2e991f3571af2861afbc3def32d12989819b43cb590d4b76d3500ec7da99585",
+          "sha256": "6ede46f65e9e006a236f51a59b6bc6195e45251552e740f34cdfe90dda40591f",
           "role": "humanization_working_record"
         },
         {
@@ -111196,12 +111196,12 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r05/r05.html",
-          "sha256": "2fb6758beb6e8990c67bb1b401242dcb311812dcd67b16363cf9d18242aa34ad",
+          "sha256": "0aee66c57fd721a7f1426def4426076b173567e0e27e8708d5557c73bbb0d62f",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r05/r05.md",
-          "sha256": "18196164293924838cdd0c0d12114bac0dcdf36d86effe895e9edabf8b8cdec9",
+          "sha256": "149e74dcb0bc42a0fa8fcb3899aa447d9d2367de63f6a14bc5e47903ed16b16a",
           "role": "humanization_working_record"
         },
         {
@@ -111262,6 +111262,56 @@
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r05/checks/RESULTS-acids2.json",
           "sha256": "6ca365046494ead2aad010caad44384877b487beb0392ab31ef85b4565b8ce04",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r05/MEANING-PACKET-4.json",
+          "sha256": "8a08060c5cd4d2dbb9f987eedc7f7efff3614cbc0382f08fcb579ac19434b31a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r05/MEANING-VERDICTS-4.json",
+          "sha256": "66776f78c2d394dbee7943880d1f3a5c6d3eb5ef27e6fac15b650dbb9efa3519",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r05/acids/DRAFT-4.txt",
+          "sha256": "92d3d31f06e3eebec0022603d9c0285db8e1adab3569d2f007ad0b2e190a6a81",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r05/acids/panel/PANEL.json",
+          "sha256": "c9db550644b1774cfae82519112340b3bfabeac8f91a33263e9638275a53644a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r05/acids/panel/PANEL.md",
+          "sha256": "4faa479378519213f19eee00b0651dd3b41f069f5493c83954a7ac87f8e79ef1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r05/acids/panel/codex.md",
+          "sha256": "6a6bf6d3ff77abfaf03f8662eb9085460bcd98047baabdf2c5dd0a856c44d36e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r05/acids/panel/haiku.md",
+          "sha256": "7e2a5b6b2c6eef3734497c44f91c0f1f93e919cb1d872ad25a0212ccda93f4c0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r05/acids/panel/sonnet.md",
+          "sha256": "c86f7de6b45fa4da9937869954aefa2097caf3519dfecc9aa6cd3d9c31be10ab",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r05/checks/TEXTS-acids3.json",
+          "sha256": "d609d28daff6c6e3ff7d6e92e868dc8ae9d400a03ddb3ff403ca894c8a2779a7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r05/checks/texts/r05-fuel-acids-3-with-glutamine.txt",
+          "sha256": "832d3c02cf42e6c5be469edcfee4a035b1afac5f84f1dad1ba659d25af19ef6e",
           "role": "humanization_working_record"
         }
       ]
