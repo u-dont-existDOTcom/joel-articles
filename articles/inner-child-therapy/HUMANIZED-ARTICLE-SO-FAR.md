@@ -938,13 +938,13 @@ Before giving anyone advice, your little one included, it can help to find out w
 
 This is a "middle path" kind of relationship, that threads itself between ordinary friendship (so you're not "clienting" to your friends) and professional therapy (which gets saved for the more severe issues). Modern life rarely gives us anything like this, and your little one might really need it.
 
-It also helps us with the borrowed adulthood practice. When you take turns listening with a good peer, on an equal footing, their warmth and the way they hold space for you are ideal for borrowing the Nurterer role and what that feels like. The Protector role can also be borrowed from the way they keeping what you say private, and the way you both stop when the turn's time is up.
+It also helps us with the borrowed adulthood practice. When you take turns listening with a good peer, on an equal footing, their warmth and the way they hold space for you are ideal for borrowing the Nurturer role and what that feels like. The Protector role can also be borrowed from the way they keep what you say private, and the way you both stop when the turn's time is up.
 
 But they don't act as your Guide, or decide what your experience means. Maybe they're thinking, "Oh, I know what this is about," or "Here's what you should do." It's hard sometimes, but they agree to keep that to themselves during the session. Instead of telling you what to do, they might ask the right question at the right moment so you can hear your own Guide. There's also no pressure to answer. Then you trade places, and it's your turn to keep "Here's what you should do" to yourself.
 
 ### Dating While You Heal
 
-Maybe you'd rather that your support came from a lover, as well. Lots of people open a dating app in the middle of the night, hoping someone will make it all stop hurting. 🙈 We call that "co-dependency" (although the term is not literally negative, it has become to carry this connotation). If that's you hitting the Swipe button right now, my suggestion is to let the dating game wait. Let your friends and the steady people around you do their part to support you as you learn to support yourself more.
+Maybe you'd rather that your support came from a lover, as well. Lots of people open a dating app in the middle of the night, hoping someone will make it all stop hurting. 🙈 We call that "co-dependency" (although the term is not literally negative, it has come to carry this connotation). If that's you hitting the Swipe button right now, my suggestion is to let the dating game wait. Let your friends and the steady people around you do their part to support you as you learn to support yourself more.
 
 That doesn't mean you have to be completely healed before you date, but romance should follow when two people really love each other and want to build a life together. It won't rescue you from the pain of your life, nor reward you for healing, and it sucks to mess up a beautiful relationship because of unhealed trauma. Believe me, I've been through it. I wrote a whole [romance guide](http://romance.u-dont-exist.com), mostly due to this.
 
