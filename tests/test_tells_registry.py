@@ -78,11 +78,13 @@ class RegistryShape(unittest.TestCase):
         # recipe") from his second account's history, read at his invitation on 2026-11-02 21:59 UTC; W113 (O61, a dose as a
         # label and its spec) from his three neuro de-armoring examples of 2026-11-03 17:48 UTC (E335); W114 and W115 (O62 a
         # curly quote mark, O63 an em dash) from his message of 2026-11-03 22:02 UTC (E337 (gut), the standard swap); W118 (O64, a
-        # negation and its contrast as two sentences) from his neuro de-armoring answer of 2026-11-04 13:53 UTC (E352); the bad
-        # trips lane's W116 and W117, in its open pull request 280, make these 186 and 118 when both are in
-        self.assertEqual(len(ids), 184)
+        # negation and its contrast as two sentences) from his neuro de-armoring answer of 2026-11-04 13:53 UTC (E352); W119 to
+        # W121 (O65 the point waiting for the sentence's end, O66 "matters", O67 a space before "mg") from his neuro de-armoring
+        # answers of 2026-11-04 18:09 UTC (E357); the bad trips lane's W116 and W117, in its open pull request 280, make these
+        # 189 and 121 when both are in
+        self.assertEqual(len(ids), 187)
         self.assertEqual(len(set(ids)), len(ids))
-        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 116)
+        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 119)
         for t in TELLS:
             with self.subTest(id=t['id']):
                 self.assertIn(t['kind'], ('mechanical', 'judgment'))

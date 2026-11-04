@@ -2872,6 +2872,45 @@
    ],
    "rule": "O63",
    "example": "We planted the garden late—the frost came early anyway."
+  },
+  {
+   "id": "W119",
+   "tell": "the point waits for the end of the sentence: a long opening \"If ...\", \"When ...\" or \"Because ...\" clause before the advice (\"If you're already agitated, manic, on serotonergic meds, or using ..., you shouldn't ...\"), where his version says the advice first",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "give the reader payoff sooner so"
+    }
+   ],
+   "rule": "O65",
+   "example": "If you're already agitated, manic, on serotonergic meds, or using serotonergic psychedelics or entactogens, you shouldn't be casually experimenting with it."
+  },
+  {
+   "id": "W120",
+   "tell": "\"matters\" as a portable verb (\"the low dose matters\"), where a more specific word says what it does",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "that's very high freq AI word, because it is super extremely"
+    }
+   ],
+   "rule": "O66",
+   "example": "He is sensitive to too much P5P, so the low dose matters."
+  },
+  {
+   "id": "W121",
+   "tell": "a space between a dose and \"mg\" (\"50 mg\"), which he writes \"50mg\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "don't think i've seen humans put spaces there"
+    }
+   ],
+   "rule": "O67",
+   "example": "Start with 50 mg at night for two nights."
   }
  ]
 }

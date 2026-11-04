@@ -44,11 +44,11 @@ The "Underpinning" Principle Dr. Bruce Perry compares treating trauma to buildin
 
 The Modern "Role-Self" vs. The Ancient "True-Self"
 
-Why does the brain build this armor? Psychologist Lindsay Gibson explains that [*Adult children of emotionally immature parents*](https://www.amazon.com/Adult-Children-Emotionally-Immature-Parents/dp/B01F2L1HLM/ref=sr_1_1?crid=2JLWO51H6BXO1&dib=eyJ2IjoiMSJ9.WNWQbN2kbLNCbYq_W-fodAEeQ_UlnBi9Ju6cPln8M1TPg-RV-3-nRjn0Qj-b2kgxvix3vglikzPoFdr6m1bV4ZrTYX1qWRDNS0Dbk17dV3oK-KP3CXCX7QstfIkQGtiiLMJyKwT9N66J8RW_F6c7YoH8oGEsjPnyij0gNk5i-nnTMPGQa4VFhVtocMt46Fax3GwdCYOwIduJYQPc1LjZSgr9sS7b1bTey37wCvpdEnc.YYpzi2NWlm3O9D3YaGlV-1PGakmscQwxvmqh3imaiA8&dib_tag=se&keywords=children+of+emotionally+immature+parents&qid=1766678988&s=books&sprefix=children+of+emotionally+immature+parents%2Cstripbooks%2C395&sr=1-1) survive by creating a "Role-Self" – a defensive personality designed to please others and manage the parent's emotions. But we can't just blame our immature parents for this Role Self. It really is true what they say: "It takes a village to raise a child." The modern large society with only one or two people caring for the children is vastly insufficient. As Dr. Bruce Perry explains, our brains evolved in hunter-gatherer bands with a ratio of 4 developmentally mature adults to 1 child. Today, our "enriched" environments offer 1 immature adult to 4 children.
+Why does the brain build this armor? Psychologist Lindsay Gibson explains that [*Adult children of emotionally immature parents*](https://www.amazon.com/Adult-Children-Emotionally-Immature-Parents/dp/B01F2L1HLM/ref=sr_1_1?crid=2JLWO51H6BXO1&dib=eyJ2IjoiMSJ9.WNWQbN2kbLNCbYq_W-fodAEeQ_UlnBi9Ju6cPln8M1TPg-RV-3-nRjn0Qj-b2kgxvix3vglikzPoFdr6m1bV4ZrTYX1qWRDNS0Dbk17dV3oK-KP3CXCX7QstfIkQGtiiLMJyKwT9N66J8RW_F6c7YoH8oGEsjPnyij0gNk5i-nnTMPGQa4VFhVtocMt46Fax3GwdCYOwIduJYQPc1LjZSgr9sS7b1bTey37wCvpdEnc.YYpzi2NWlm3O9D3YaGlV-1PGakmscQwxvmqh3imaiA8&dib_tag=se&keywords=children+of+emotionally+immature+parents&qid=1766678988&s=books&sprefix=children+of+emotionally+immature+parents%2Cstripbooks%2C395&sr=1-1) survive by creating a "Role-Self"--a defensive personality designed to please others and manage the parent's emotions. But we can't just blame our immature parents for this Role Self. It really is true what they say: "It takes a village to raise a child." The modern large society with only one or two people caring for the children is vastly insufficient. As Dr. Bruce Perry explains, our brains evolved in hunter-gatherer bands with a ratio of 4 developmentally mature adults to 1 child. Today, our "enriched" environments offer 1 immature adult to 4 children.
 
 We are operating on less than 1/24th of the relational density our biology requires. The "Void" you feel is real. Once you have de-armored, you cannot simply return to a lonely life. You must aggressively engineer a "High-Density" social environment (A Tribe), or the brain will eventually reach for the armor again just to survive the cold.
 
-As we grow up, our “Role-Self” becomes calcified by Dopamine and DeltaFosB. It becomes a prison. Your addiction is often just the fuel required to keep the “Role-Self” running. This protocol dissolves the chemical glue holding that false persona together, allowing your “True-Self”—the person you were before the trauma—to finally re-emerge.
+As we grow up, our "Role-Self" becomes calcified by Dopamine and DeltaFosB. It becomes a prison. Your addiction is often just the fuel required to keep the "Role-Self" running. This protocol dissolves the chemical glue holding that false persona together, allowing your "True-Self"--the person you were before the trauma--to finally re-emerge.
 
 Neurological De-Armoring is about fixing the underpinnings, not redecorating. It's a protocol that serves as a metabolic solvent, via HDAC inhibition, that softens the "concrete" in the brainstem by using Glutamate modulation and supplementing Ketones (BHB) to allow us to dig under the house, and pour a new foundation, so we can eventually update the psychological software upstairs.
 
@@ -68,11 +68,11 @@ In this state, functional IQ drops substantially. More importantly, this state f
 
 #### B. The "Overheating" CPU: Glutamate Excitotoxicity
 
-The Problem: Glutamate is the brain's primary excitatory neurotransmitter. In states of stress, the brain floods with Glutamate. This is the "voltage spike" – the engine is redlining.
+The Problem: Glutamate is the brain's primary excitatory neurotransmitter. In states of stress, the brain floods with Glutamate. This is the "voltage spike"--the engine is redlining.
 
 The Metabolic Red Line: We often assume we can 'think' our way out of trauma, but Dr. Bruce Perry's data proves that anatomy overrides intellect. When trauma survivors become highly dysregulated, prefrontal cortical functioning often decreases while survival-oriented neural systems become more dominant. In this state, learning and memory processes may favor reinforcement of existing fear networks rather than integration of traumatic material. For this reason many trauma therapies emphasize staying within a manageable "window of tolerance" rather than overwhelming activation. You can often tell when you're dysregulated by noticing if your heart is beating faster or if your heart-rate variability declines. DeltaFosB may be the master switch, but the research isn't settled.
 
-The Mechanism: Excess Glutamate over-activates NMDA receptors, acting like a key stuck in the "On" position. This causes "excitotoxicity" – literally vibrating cells to death. Subjectively, this feels like anxiety, rage, or an "itchy brain."
+The Mechanism: Excess Glutamate over-activates NMDA receptors, acting like a key stuck in the "On" position. This causes "excitotoxicity"--literally vibrating cells to death. Subjectively, this feels like anxiety, rage, or an "itchy brain."
 
 The Signal Dial (GluD Receptors): Beyond the "voltage spike" of NMDA, [Johns Hopkins researchers have recently discovered](https://scitechdaily.com/scientists-find-how-to-dial-brain-signals-up-or-down-to-treat-mental-and-neurological-disorders/) the brain uses GluD receptors as a master volume knob. While NMDA is the spark, GluD manages the baseline "hum" of the synapse. In an armored state, this dial is often jammed in the "High" position (Cerebellar Ataxia/Hyper-vigilance) or "Low" (Apathy/Schizotypy).
 
@@ -84,13 +84,13 @@ The Lock (Zinc/Magnesium): Physically blocks the receptor channel to stop the vo
 
 The Repair (Leucine/L-Serine): L-Serine acts as a precursor to D-Serine to recalibrate the GluD 'Volume Dial' to enhance therapeutic sessions that end with low fear/high mastery (although conversion to D-serine is inefficient, which is why some people use D-serine itself which has higher risk/benefit). Leucine facilitates structural repair while simultaneously tuning synaptic gain to reduce the 'itchy brain' sensation
 
-The Governor (Agmatine): Agmatine is the optional "voltage governor." It may help when the problem is not just excess glutamate in the synapse, but NMDA/GluN2B over-reactivity – the hot, itchy, reactive, pain-y, rumination-heavy version of the Glutamate Storm. It is not a daily foundation nutrient. It is a state-dependent brake.
+The Governor (Agmatine): Agmatine is the optional "voltage governor." It may help when the problem is not just excess glutamate in the synapse, but NMDA/GluN2B over-reactivity--the hot, itchy, reactive, pain-y, rumination-heavy version of the Glutamate Storm. It is not a daily foundation nutrient. It is a state-dependent brake.
 
 Important conflict: do not use agmatine as a same-session companion to D-Serine/DCS-style exposure or EMDR work. D-Serine/DCS-style tools are meant to support NMDA-dependent learning and memory updating; agmatine partially brakes NMDA activity. Use agmatine for storm control, not immediately before a session where the goal is deliberate reconsolidation.
 
 #### C. The "Hardened" Circuit: Dynorphin & DeltaFosB
 
-The Problem: To protect itself from the Glutamate storm, the brain eventually releases Dynorphin, a chemical blanket that suppresses dopamine. This creates the "Void" – a state of apathy, grayness, and an inability to feel pleasure.
+The Problem: To protect itself from the Glutamate storm, the brain eventually releases Dynorphin, a chemical blanket that suppresses dopamine. This creates the "Void"--a state of apathy, grayness, and an inability to feel pleasure.
 
 Why Standard Meds Failed You If you have tried SSRIs (antidepressants) and failed, you are not crazy. Ipser & Stein [2012 study ](https://academic.oup.com/ijnp/article/15/6/825/761323?login=false)showed that Prozac had zero effect on male combat veterans with calcified PTSD. And the side effects are well-known, including anhedonia, zombification, and sexual dysfunction.
 
@@ -104,7 +104,7 @@ The Fix (The Unlock): You cannot "wait" for this to pass. We use "System Reforma
 
 #### D. The "Lagging" System: Toxicity & Hypometabolism (The Fog)
 
-The Problem: "Brain Fog" is often a fuel crisis. Trauma causes cerebral insulin resistance – your neurons are swimming in glucose (sugar) but cannot burn it. The engine is flooded.
+The Problem: "Brain Fog" is often a fuel crisis. Trauma causes cerebral insulin resistance--your neurons are swimming in glucose (sugar) but cannot burn it. The engine is flooded.
 
 The Fix: If the brain cannot burn sugar, we switch fuels. We use PQQ to boost ATP, and Ketones, which bypass the broken glucose pathways and enter the mitochondria directly. This turns the lights back on immediately. We alternate hot and cold showers to [boost p131](https://www.rockefeller.edu/news/38266-increasing-the-level-of-the-protein-pi31-demonstrates-neuroprotective-effects-in-mice/) and heat shock proteins and reduce inflammation.
 
@@ -130,21 +130,21 @@ The Goal: You must do this for 10–20 minutes immediately after a trigger to "j
 
 Lower the Cortisol Floor (Phosphatidylserine)
 
-Before ketones, before D-Serine, address cortisol directly – because cortisol is what sensitizes the brain to Glutamate and locks the armor in place (see the Isolation Trap above). The single most useful nutrient I've found for this is Phosphatidylserine (PS), a phospholipid that blunts the HPA-axis cortisol response to stress.
+Before ketones, before D-Serine, address cortisol directly--because cortisol is what sensitizes the brain to Glutamate and locks the armor in place (see the Isolation Trap above). The single most useful nutrient I've found for this is Phosphatidylserine (PS), a phospholipid that blunts the HPA-axis cortisol response to stress.
 
-Who it's for: People running high or *reactive* cortisol – the "wired and tired," can't-downshift, waking-at-3-a.m. type. This includes many people with slow COMT (the Val158Met variant that clears catecholamines slowly, so stress hormones linger and you stay on high alert). One friend, Scott, with exactly this profile got more out of PS than anything else in this protocol. Be honest about the evidence, though: the cortisol-lowering effect is best documented in *chronically stressed* people; the slow-COMT angle is mechanism plus my own observation, not a controlled finding.
+Who it's for: People running high or *reactive* cortisol--the "wired and tired," can't-downshift, waking-at-3-a.m. type. This includes many people with slow COMT (the Val158Met variant that clears catecholamines slowly, so stress hormones linger and you stay on high alert). One friend, Scott, with exactly this profile got more out of PS than anything else in this protocol. Be honest about the evidence, though: the cortisol-lowering effect is best documented in *chronically stressed* people; the slow-COMT angle is mechanism plus my own observation, not a controlled finding.
 
 Dose: about 400 mg/day, taken earlier in the day. In the stress studies, which used a PS complex, 400 mg blunted the cortisol response, while 200 mg did nothing and 600 or 800 mg didn't either.
 
-Food instead of capsules: One of the few supplements you can actually eat your way to. Atlantic mackerel (~480 mg/100g) and herring (~360 mg) are richest; tuna is lower (~194 mg). A 200g mackerel fillet ≈ 960 mg PS – above clinical doses. (Don't lean on tuna daily – mercury.)
+Food instead of capsules: One of the few supplements you can actually eat your way to. Atlantic mackerel (~480 mg/100g) and herring (~360 mg) are richest; tuna is lower (~194 mg). A 200g mackerel fillet ≈ 960 mg PS--above clinical doses. (Don't lean on tuna daily--mercury.)
 
-⚠️ The catch, again: PS is only for genuinely high cortisol – and there are two ways to find out you guessed wrong. PS works by *blunting* cortisol. If yours isn't actually elevated, lowering it pushes you down the other side of the curve, where the symptoms look almost identical to high cortisol. Watch for either signal:
+⚠️ The catch, again: PS is only for genuinely high cortisol--and there are two ways to find out you guessed wrong. PS works by *blunting* cortisol. If yours isn't actually elevated, lowering it pushes you down the other side of the curve, where the symptoms look almost identical to high cortisol. Watch for either signal:
 
-Flat / numb / no drive – you've over-suppressed. Classic too-little-cortisol.
+Flat / numb / no drive--you've over-suppressed. Classic too-little-cortisol.
 
-More wired, not less – racing thoughts, 3 a.m. waking, irritability, vivid or stressful dreams. Counterintuitive but real: when cortisol drops too far, the body leans on adrenaline to hold up blood pressure and alertness, and you feel *more* stressed, not less.
+More wired, not less--racing thoughts, 3 a.m. waking, irritability, vivid or stressful dreams. Counterintuitive but real: when cortisol drops too far, the body leans on adrenaline to hold up blood pressure and alertness, and you feel *more* stressed, not less.
 
-Either one means PS is the wrong tool for you *right now*. Don't raise the dose to push through – stop. If you want to know before you start, a 4-point salivary cortisol test tells you whether you're actually high.
+Either one means PS is the wrong tool for you *right now*. Don't raise the dose to push through--stop. If you want to know before you start, a 4-point salivary cortisol test tells you whether you're actually high.
 
 The rule of thumb if you can't test: Wired, tired, can't switch off, 3 a.m. waking → probably high, PS is worth a trial. Numb, low-drive, flat → probably *not* high; PS will likely make it worse. Skip it or test first.
 
@@ -168,19 +168,17 @@ Scott added a standard dose of UMP, and within a day his ketamine/LSD cravings f
 
 Do a trial with 150-300mg Uridine, in the morning with food. It shouldn't take more than 3 to 7 days to get an idea of whether or not it's beneficial. Keep your Omega-3's up, especially DHA and EPA. Make sure you have sufficient Choline - from eggs, Phosphatidylcholine, CDP-choline, etc, whichever works best for you. Don't start the uridine at the same time as starting some other major variable (like 5-HTP, Agmatine, D-serine, Keto diet, Iboga, Shrooms, LSD, Ketamine, etc), since the point is to see whether uridine itself changes the signal.
 
-Side effects / stop signs: In practice, the most common problem is the "choline headache" or spaced-out brain fog. It isn't in the studies, but the likely reason is that if UMP accelerates membrane synthesis while choline availability is low, the system can feel under-supplied. Other stop signs include insomnia, jitteriness, racing thoughts, irritability, emotional flatness, nausea, stomach cramps, or loose stools. If it makes you wired, numb, or weirdly irritable, stop. Do not push through.
+Side effects / stop signs: In practice, the most common problem is the "choline headache", or a spaced-out kind of brain fog. That isn't shown in the studies I've seen, but the likely reason is that UMP speeds up neuronal and synaptic membrane synthesis, which places a higher demand on choline than what people may normally get from diet alone. Other stop signs include insomnia, jitteriness, racing thoughts, irritability, emotional flatness, nausea, stomach cramps, or loose stools.
 
-Psychedelic caution: If UMP makes dreams vivid or suddenly lowers psychedelic tolerance, treat that as a safety signal. Do not take UMP on psychedelic days. If you use psychedelics later, assume your previous dose may be too strong and that chasing the old visual threshold can overshoot.
+Vivid dreams and increased sensitivity to psychedelics are the hoped-for benefits of UMP. That means you should not take the old high doses of your psychedelic at first, as it might hit you way harder than you expected.
 
 ### Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P
 
-Who this is for: 5-HTP is not for every depressed person either. It could help, though, with a low-serotonin-looking pattern, where it's hard to fall asleep and your mood is low, without much warmth to it. At night you get anxious and keep going over the same things. It makes more sense if there's also a genetic or clinical reason to suspect a bottleneck in serotonin synthesis, like with Scott, whose genetic data pointed to a TPH2 bottleneck, and 5-HTP helped his sleep and mood. If you're already agitated, manic, on serotonergic meds, or using serotonergic psychedelics/entactogens, you shouldn't be casually experimenting with it.
+Who this is for: 5-HTP is not for every depressed person either. It could help, though, with a low-serotonin-looking pattern, where it's hard to fall asleep and your mood is low, without much warmth to it. At night you get anxious and keep going over the same things. It makes more sense if there's also a genetic or clinical reason to suspect a bottleneck in serotonin synthesis, like with Scott, whose genetic data pointed to a TPH2 bottleneck, and 5-HTP helped his sleep and mood. 5-HTP skips over that bottleneck, because your body uses it to make serotonin directly, so people who respond to it can feel it quickly, although it's not as strong for sleep or mood as some hype it up to be (see this [broad review of 5-HTP](https://pmc.ncbi.nlm.nih.gov/articles/PMC7796270/)).  I'd avoid casually experimenting with 5-HTP if you're agitated or manic, as it could sometimes push that further. And watch out for serotonin syndrome risk if you're on serotonergic meds, or using serotonergic psychedelics/entactogens.
 
-The tool:5-HTP bypasses the tryptophan-to-5-HTP step and gives the body a more direct serotonin precursor. A [broad review of 5-HTP](https://pmc.ncbi.nlm.nih.gov/articles/PMC7796270/) discusses its role in serotonin biology and its use in mood, anxiety, sleep, obesity, myoclonus, and serotonin-toxicity contexts. The evidence for depression and sleep is mixed and not as strong as people online imply, but the mechanism is real enough that responders can feel it quickly.
+Scott took 100 mg 5-HTP sublingually at night, with 10–20 mg P5P sublingually in the morning. The P5P isn't there as a stimulant, but as the active form of vitamin B6, which the enzyme that turns 5-HTP into serotonin (aromatic amino-acid decarboxylase) needs. He's genetically slow-COMT, making him sensitive to too much P5P.
 
-Scott's version: 100 mg 5-HTP sublingually at night, with 10–20 mg P5P sublingually in the morning. The P5P is there as the active B6 cofactor for aromatic amino-acid decarboxylase, not as a stimulant. Scott is slow-COMT and sensitive to too much P5P, so the low dose matters. More is not better.
-
-Trial: Start lower if you are sensitive: 50 mg 5-HTP at night for 2–3 nights, then 100 mg only if the lower amount is clearly helpful and not activating. Optional P5P: 10–20 mg in the morning, especially if 5-HTP feels like it "almost works" but is not converting cleanly. Do not combine the trial with UMP, agmatine, D-serine, psychedelics, or medication changes. If it is the right tool, the first signal is usually sleep quality, dream tone, mood warmth, or reduced nighttime rumination.
+If you're sensitive, start lower and do the trial with just 50mg 5-HTP at night for 2–3 nights, then go up to 100mg if 50mg was clearly helpful and not causing side effects. You can also add 10–20mg P5P in the morning, like Scott did, especially if the 5-HTP felt like it "almost worked," as that could be a sign it wasn't converting cleanly over to serotonin. Don't do the trial at the same time as the other suggested regimen changes (like UMP, agmatine, D-serine, psychedelics, or prescription medication changes), since the point is to see whether the 5-HTP itself is doing anything. If it's the right tool, the first things you'll usually notice are your mood or sleep quality improves, you have less nighttime rumination, and your dreams become more vivid or memorable.
 
 Side effects / stop signs: Nausea, stomach discomfort, loose stools, headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright / hypomanic feeling. Stop immediately if you get agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure. That pattern can indicate serotonin toxicity, which can become dangerous.
 
@@ -290,7 +288,7 @@ The Perry-Sequence (Rhythmic First, Visual Second)
 
 Anatomy overrides intellect. If your heart rate is elevated or heart-rate-variability (HRV) reduced significantly, your "Reasoning Brain" is offline.
 
-Step 1: Rhythmic Regulation (Brainstem): Perform 5 minutes of rhythmic, repetitive sensory input – walking, drumming on your thighs, or rhythmic "Therapeutic Sighing".
+Step 1: Rhythmic Regulation (Brainstem): Perform 5 minutes of rhythmic, repetitive sensory input--walking, drumming on your thighs, or rhythmic "Therapeutic Sighing".
 
 Step 2: Check Your Baseline: Once your heart rate is within normal range, you cerebral cortex is receptive. Phosphatidylserine (PS, see Part 2) is a daily baseline agent that lowers how often and how hard these storms hit; it's not an in-the-moment tool.
 
@@ -298,7 +296,7 @@ Step 3: Apply the Jammer: Now use Tetris or the "Color-Path Connect" game to ove
 
 [image 5](https://substackcdn.com/image/fetch/$s_!hkoq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b6016a4-5f84-4559-b2e8-24a72d1175cb_1448x1086.png)
 
-Advanced tactic: The D-Serine Memory Re-consolidator. While L-Serine provides the building blocks for myelin, taking D-Serine (700mg–1400mg) on an empty stomach 45 minutes before a de-armoring session acts as a “memory (re)consolidator” which can cement the benefits of therapies like EMDR which aim to rewire the affective tone of memories.
+Advanced tactic: The D-Serine Memory Re-consolidator. While L-Serine provides the building blocks for myelin, taking D-Serine (700mg–1400mg) on an empty stomach 45 minutes before a de-armoring session acts as a "memory (re)consolidator" which can cement the benefits of therapies like EMDR which aim to rewire the affective tone of memories.
 
 D-serine has shown efficacy in studies where it was used to augment exposure therapy for treating a variety of conditions such as social anxiety, PTSD, and fear of public speaking. The idea is that it facilitates the consolidation of the newly formed memory of how the anticipated negative consequences of the exposure to what you fear didn't actually happen. Some studies ssuggested that d-serine is more effective at this when the practice exposure to what you fear ends on a positive note as opposed to a negative one. Again, all d-serine is doing is making it easier to consolidate the memory of the experience into a long-term memory.
 
@@ -320,7 +318,7 @@ Mechanism: Hypometabolism (Low Fuel) or Toxicity (Static).
 
 Symptoms: Numbness, Boredom, "I want to Relapse."
 
-Mechanism: The Dynorphin block is active. You feel “dead.” You need to force a spark. We will utilize the science of hot and cold showers as a vascular pump, and plant medicine as needed:
+Mechanism: The Dynorphin block is active. You feel "dead." You need to force a spark. We will utilize the science of hot and cold showers as a vascular pump, and plant medicine as needed:
 
 First-Line Void Add-Ons: If the Void has a DAWS / D2-D3 burnout flavor, trial UMP before chasing more stimulation. If the Void is mainly sleep + serotonin bottleneck, trial 5-HTP at night. Do not start both together, and do not use either to force stronger psychedelic effects.
 
@@ -346,7 +344,7 @@ Phosphatidylserine about 400 mg earlier in the day only if you fit the high-cort
 
 Optional add-on: Agmatine Sulfate 250–500 mg AM, increasing to 500 mg twice daily only if it clearly reduces the hot/itchy/reactive state without flattening mood. Cap at 1 g/day in this protocol. Do not add agmatine on the same day you increase PS, start D-Serine, change NAC dose, begin keto, microdose, or introduce any other major variable.
 
-If PS leaves you flat OR more wired, you're not a high-cortisol responder – drop it. If agmatine leaves you flat, anhedonic, dizzy, nauseous, sleepless, irritable, or more craving-prone – drop it.
+If PS leaves you flat OR more wired, you're not a high-cortisol responder--drop it. If agmatine leaves you flat, anhedonic, dizzy, nauseous, sleepless, irritable, or more craving-prone--drop it.
 
 Fuel: Start with BHB Salts (Strategy A) to manage initial fog.
 
@@ -354,7 +352,7 @@ Rescue: "The Fire" + [Chantress Seba](https://www.youtube.com/channel/UCM9H6pHyg
 
 Weeks 3–5: The Dynorphin Void (Depression Phase)State: The anxiety stops, but the world turns gray/boring.
 
-Protocol:Taper off Phosphatidylserine here. This phase is low-drive and gray by design – you do *not* want to keep blunting cortisol in an already-flattened system, or you'll deepen the numbness. PS was for the anxiety phase; the Void phase needs the opposite. (If you never felt the wired/high-cortisol state in Weeks 1–2, you probably shouldn't have been on PS at all.)
+Protocol:Taper off Phosphatidylserine here. This phase is low-drive and gray by design--you do *not* want to keep blunting cortisol in an already-flattened system, or you'll deepen the numbness. PS was for the anxiety phase; the Void phase needs the opposite. (If you never felt the wired/high-cortisol state in Weeks 1–2, you probably shouldn't have been on PS at all.)
 
 Also stop agmatine here unless it is unmistakably helping acute glutamate storms without worsening flatness. The Void phase is already low-drive and gray; agmatine can over-brake the system in the same direction.
 
@@ -362,7 +360,7 @@ UMP trial if the Void looks like DAWS: 150–300 mg UMP in the morning with food
 
 5-HTP trial if the bottleneck looks serotonergic: 50–100 mg at night for 2–3 nights, with optional P5P 10–20 mg in the morning. Best fit: poor sleep, low mood warmth, nighttime rumination, or TPH2-style serotonin synthesis bottleneck. Do not use with serotonergic medications/supplements, ayahuasca/harmalas, iboga, MDMA, DXM, tramadol, or same-day psychedelics.
 
-Hot & cold showers, alternating, ending on cold). *No hot showers if heart rate elevated or heart-rate-variability reduced*. Reduce or stop phosphatidylserine here – you don't want to suppress an already-flattened system. Micro-dose Male Iboga (if heart is ok).
+Hot & cold showers, alternating, ending on cold). *No hot showers if heart rate elevated or heart-rate-variability reduced*. Reduce or stop phosphatidylserine here--you don't want to suppress an already-flattened system. Micro-dose Male Iboga (if heart is ok).
 
 Transition: Consider moving to Strategy B (Keto Diet) for long-term repair (Autophagy) now that the acute storm has passed.
 
@@ -378,6 +376,6 @@ Maintenance: Cycle off NAC. Maintain metabolic flexibility (Low Carb/Seasonally 
 
 ## The Aftermath: The Relational Vacuum
 
-As the armor decays, you will experience a frightening but beautiful side effect: Interoception. Van der Kolk describes this as the ability to "feel" your own body again. For years, you have likely been numb – living in your head to avoid the pain in your chest.
+As the armor decays, you will experience a frightening but beautiful side effect: Interoception. Van der Kolk describes this as the ability to "feel" your own body again. For years, you have likely been numb--living in your head to avoid the pain in your chest.
 
 As the dopamine armor fades, you will feel your heart beat. You will feel your gut churn. You will feel the wind on your skin. Do not mistake this sensitivity for anxiety. It is not a symptom of sickness; it is the symptom of coming back to life. Welcome it.

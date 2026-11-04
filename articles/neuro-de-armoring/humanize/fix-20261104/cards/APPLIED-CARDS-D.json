@@ -1,0 +1,84 @@
+{
+ "about": "his six versions on Neuro De-Armoring Cards, 4 November (3), and the merge of the tool paragraph he suggested",
+ "answers": "ANSWERS-20261104-1809.json",
+ "before_sha256": "fb288da650e5d3df19b4970eb5616c0b4aad0a249b1aedf48959c1ac88c4c5de",
+ "after_sha256": "1921d3163cb79be8342943a21d3e714046359e94dcb430ae8548e7f0e5c4cc86",
+ "cards": [
+  {
+   "id": "Y-85",
+   "how": "his version as he checked it; his last line cut (\"you were overcompleting, repeating yourself on the last line\")",
+   "his_check": "https://www.pangram.com/history/ed3c43bd-63c0-4802-8bfd-8ee01afd2f1f",
+   "fidelity_change": {
+    "keys_lost": {
+     "W035": [
+      [
+       "weirdly"
+      ],
+      [
+       "irritable"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "Y-86",
+   "how": "his version; the same-day rule stays in W017 and W082",
+   "his_check": "https://www.pangram.com/history/365e4cec-67ac-4cd8-a5be-15dc24697387 (the lane's, after his Y-85)",
+   "fidelity_change": {
+    "keys_lost": {
+     "W037": [
+      [
+       "caution"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "Y-89",
+   "how": "his note: \"i'd cut this whole paragraph or merge anything important from it into the last one\"; merged into his Y-88 (batch x1104o, Human Written: https://www.pangram.com/history/f645d894-6c91-41b3-841d-26ec0d79b093)",
+   "his_check": "https://www.pangram.com/history/a72831f6-6bba-4f3f-a0f9-c9221286437e",
+   "fidelity_change": {
+    "keys_lost": {
+     "W040": [
+      [
+       "toxicity"
+      ],
+      [
+       "serotonin-toxicity"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "Y-90",
+   "how": "his version; \"so the low dose matters. More is not better.\" cut as overcompletion (his comment)",
+   "his_check": "https://www.pangram.com/history/9829b9d7-ca66-42ca-8226-218a0dcbc92d",
+   "fidelity_change": {}
+  },
+  {
+   "id": "Y-91",
+   "how": "his version, with its full stop (the lane's check: https://www.pangram.com/history/d2b0d600-d1fe-4187-94e7-4bb0851a1b54)",
+   "his_check": "https://www.pangram.com/history/66a972f2-4286-494d-96b7-179670418738 (his, without the full stop); https://www.pangram.com/history/d2b0d600-d1fe-4187-94e7-4bb0851a1b54 (the lane's, with it)",
+   "fidelity_change": {
+    "numbers_new": [
+     "50mg"
+    ],
+    "keys_lost": {
+     "W041": [
+      [
+       "only if"
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "fidelity_pass": true,
+ "warning_words": {
+  "rule": "meaning",
+  "by": "fix-20261104/joel-20261104-1810-message.txt: \"8a not sure why you had to ask that, the whole point is rewording stuff here\" (his answer to question 8, 2026-11-04 18:10 UTC)"
+ }
+}

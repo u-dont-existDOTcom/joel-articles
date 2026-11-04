@@ -1,0 +1,54 @@
+{
+ "about": "Batch x1104n (his versions) as Pangram's web app read it (2026-11-04, 18:17 UTC), in Joel's Brave through Claude in Chrome, the texts typed by pangram_page_helpers.js __run with each SHA-256 checked before the click, the results read back from his history by SHA-256. His Y-86 alone (39 words) was refused by the web app's 50-word minimum, so it was read after his Y-85. Window texts are the history's previews.",
+ "detector": "pangram 4.1, the web app (Joel's account and its credits, run by the lane in his Brave through Claude in Chrome; one paragraph per check, or a pair where a paragraph is under the 50-word minimum)",
+ "results": {
+  "b091": {
+   "uuid": "d2b0d600-d1fe-4187-94e7-4bb0851a1b54",
+   "at": "2026-11-04T18:17:20Z",
+   "headline": "Human Written",
+   "ai": 0.0,
+   "words": 145,
+   "windows": [
+    [
+     "Human",
+     "High",
+     145,
+     "If you're sensitive, start lower and do the trial with just 50mg 5-HTP at night for 2–3 nights, then go"
+    ]
+   ]
+  },
+  "p085-086h": {
+   "uuid": "365e4cec-67ac-4cd8-a5be-15dc24697387",
+   "at": "2026-11-04T18:17:09Z",
+   "headline": "Human Written",
+   "ai": 0.0,
+   "words": 118,
+   "windows": [
+    [
+     "Human",
+     "Medium",
+     22,
+     "Side effects / stop signs: In practice, the most common problem is the \"choline headache\", or a spaced"
+    ],
+    [
+     "Human",
+     "High",
+     40,
+     "That isn't shown in the studies I've seen, but the likely reason is that UMP speeds up neuronal and sy"
+    ],
+    [
+     "Human",
+     "Low",
+     17,
+     "Other stop signs include insomnia, jitteriness, racing thoughts, irritability, emotional flatness, na"
+    ],
+    [
+     "Human",
+     "High",
+     39,
+     "Vivid dreams and increased sensitivity to psychedelics are the hoped-for benefits of UMP. That means"
+    ]
+   ]
+  }
+ }
+}
