@@ -108087,7 +108087,7 @@
         },
         "current_state": {
           "path": "articles/bad-trips/CURRENT-STATE.md",
-          "sha256": "3cd510656bfd1e4a4f06e72c601329a0ceb6cde56bb0a70b9b763a1382b7a9b8"
+          "sha256": "30f316eae467acce0d529e0aa141cb3aa27538db7176bd128a2c4707fb72129c"
         }
       },
       "review": {
@@ -108272,16 +108272,6 @@
         {
           "path": "articles/bad-trips/GUIDE-SO-FAR-blocks.json",
           "sha256": "64594d103b6b8ed2e7e191ae66212c22dc0b8da3d1cf838124af44fdf9bceb61",
-          "role": "humanization_working_record"
-        },
-        {
-          "path": "articles/bad-trips/GUIDE-SO-FAR-page-map.json",
-          "sha256": "6440304a717d56a52f68fd00521c75d9861d25793b56b5b1ea5f357a1150ae34",
-          "role": "humanization_working_record"
-        },
-        {
-          "path": "articles/bad-trips/GUIDE-SO-FAR-page.md",
-          "sha256": "a827e1c0256a0c10ce3b00de821ee2a6b1b8ac448e430ad8f504ff731d80dc91",
           "role": "humanization_working_record"
         },
         {
