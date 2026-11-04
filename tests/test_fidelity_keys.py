@@ -115,6 +115,7 @@ class FidelityKeys(unittest.TestCase):
         master = MASTER + '\nDo not stay numb—living in your head is the trap.\n'
         keys = fk.extract(master)
         self.assertTrue(fk.check(keys, master.replace('numb—living', 'numb – living'))['pass'])
+        self.assertTrue(fk.check(keys, master.replace('numb—living', 'numb--living'))['pass'])   # his two hyphens (E353 (Inner Child))
         self.assertTrue(fk.check(keys, master.replace('“push through”', '"push through"'))['pass'])
 
     def test_a_heading_in_capitals_is_not_a_compound(self):

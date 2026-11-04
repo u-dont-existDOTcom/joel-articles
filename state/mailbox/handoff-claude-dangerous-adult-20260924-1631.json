@@ -135,6 +135,53 @@
     }
    ],
    "recorded_utc": "2026-11-04T16:13Z"
+  },
+  {
+   "turn": "2026-11-04T16:30Z",
+   "lines_of_work": [
+    "inner child guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "2 items in suggested-fixes/joel-articles/, both already in docs/suggested-fixes-ledger.md; no new item; UDA still at c5c9951"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since turn 125's check (16:11 UTC): pull request 297 (this lane, turn 125) merged by Joel at 16:29 UTC (main eb75e1e7, the lane fast-forwarded to it); 293 (gut) updated at 16:26 UTC, open, with E353 to E355 in docs/HUMANIZATION-GATE.md; 296 (neuro de-armoring, AGENTS.md) and 280 (bad trips) open; no new issues, comments or reviews (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop's handoff note is byte for byte what turn 125's update made of it (cmp with inbox/t113/note-test-t125.md); no one else changed OWNER-QUESTIONS.md or HANDOFF-UPDATE.json"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "pull request 297 merged",
+     "outcome": "turn 126's work goes in its own pull request (lane_push --pr)"
+    },
+    {
+     "item": "pull request 293 (gut) changes docs/HUMANIZATION-GATE.md, as this turn does",
+     "outcome": "read its change first (E353 to E355 in its section); this turn changes the swap's sentence near the top and adds E353 (Inner Child) after E341, so they don't touch the same lines (lane_push --overlap-ok)"
+    },
+    {
+     "item": "pull requests 296 (neuro de-armoring) and 280 (bad trips), open",
+     "outcome": "not this lane's to review or merge; this turn doesn't change AGENTS.md"
+    },
+    {
+     "item": "Joel, 16:30 UTC: \"1 yes to both\" (all nine dashes as his two hyphens, and the standard swap with them for every article)",
+     "outcome": "done this turn: typography_swap.py makes \"--\" (E353 (Inner Child)), the guide's nine dashes are his two hyphens (joel-126-dashes); round 11 in the two drafts next"
+    }
+   ],
+   "recorded_utc": "2026-11-04T16:37Z"
   }
  ]
 }

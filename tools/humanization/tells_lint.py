@@ -1181,7 +1181,7 @@ def main():
             if re.search('[\u2018\u2019\u201c\u201d]', s):
                 flag('FAIL', 'O62 a curly quote mark (E337 (gut)): straighten it, with tools/humanization/typography_swap.py', s)
             if '\u2014' in s:
-                flag('FAIL', 'O63 an em dash (E337 (gut)): his spaced en dash, " \u2013 ", with tools/humanization/typography_swap.py', s)
+                flag('FAIL', 'O63 an em dash (E337 (gut), E353 (Inner Child)): his two hyphens, "--", with tools/humanization/typography_swap.py', s)
             # O64: a negation and its contrast in two sentences ("You can't tell X. It does suggest Y."; gate E352)
             # an instruction ("Don't start it on the same day. It is a separate variable.") is no negated statement, and a contrast
             # said with "though" in the next sentence is his own move ("Uridine isn't for everyone with depression. It could be

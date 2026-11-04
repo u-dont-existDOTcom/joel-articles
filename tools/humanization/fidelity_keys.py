@@ -185,9 +185,10 @@ def check(keys, draft):
     lost_numbers = sorted((want - have).elements())
     new_numbers = sorted((have - want).elements())
     lost_terms = sorted(set(keys['terms']) - terms(text))
-    # a dash matched whatever its spaces: the typographic swap (E337 (gut)) makes the post's "numb—living" "numb – living"
+    # a dash matched whatever its spaces and length: the typographic swap (E337 (gut)) made the post's "numb—living" "numb –
+    # living", and since 2026-11-04 makes it his "numb--living" (E353 (Inner Child))
     def dash(t):
-        return re.sub(r'[ \t]*-[ \t]*', '-', t)
+        return re.sub(r'[ \t]*-+[ \t]*', '-', t)
     draft_paras = dash('\n\n'.join(his(plain(b)) for b in re.split(r'\n\s*\n', draft)))
     for u in units:
         u['keys'] = [[dash(norm(x)) for x in k] for k in u['keys']]
