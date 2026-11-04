@@ -85,12 +85,15 @@ from html_links import join_split_links  # noqa: E402  (a pasted post card's lin
 TEMPLATE = HERE / 'suggestion_review_template.html'
 FORM_CSS = ROOT / 'project-sources' / 'review-form-controls.css'
 FORMAT = 'joel-suggestion-review-v1'
-GENERATOR = 'suggestion_review.py 1.5 (2026-11-02)'
+GENERATOR = 'suggestion_review.py 1.6 (2026-11-04)'
 ID_OK = re.compile(r'^[A-Za-z0-9][A-Za-z0-9.\-]{0,80}$')
 # a Pangram result's page (2026-11-02, Joel on the hypnosis guide's cards: "why are you not giving me the pangram link so
 # i can see? always give me the links", and "you didn't check if your changes passed.. they didn't. don't waste my time")
 PANGRAM_LINK = re.compile(r'https?://(?:www\.)?pangram\.com/(?:history|feed)/[0-9a-f][0-9a-f-]{7,}')
-LINK = re.compile(r'\[([^\]]+)\]\(([^)\s]+)\)')
+# a link's address may hold one pair of brackets, as Wikipedia's do (2026-11-04, the word-for-sense read: "[Anthony de Mello]
+# (https://en.wikipedia.org/wiki/Anthony_de_Mello_(Jesuit_priest))" came out as "Anthony de Mello) is", and both readers of
+# that part reported the stray bracket)
+LINK = re.compile(r'\[([^\]]+)\]\(((?:[^()\s]|\([^()\s]*\))+)\)')
 EMPH = re.compile(r'(?<![\w*])\*([^*\s][^*]*?)\*(?!\*)')
 HEAD = re.compile(r'^(#{1,6})\s+(.*)$')
 BULLET = re.compile(r'^([-*+])\s+(.*)$')
@@ -115,8 +118,8 @@ def segments(s):
             out.append({'t': s[pos:m.start()], 'href': None, 'em': False})
         if m.re is LINK:
             out.append({'t': m.group(1), 'href': m.group(2), 'em': False})
-        else:
-            out.append({'t': m.group(1), 'href': None, 'em': True})
+        else:   # emphasis can hold a link ("*[No Bad Parts](...).*"): its pieces keep their links, and all are emphasis
+            out += [dict(x, em=True) for x in segments(m.group(1))]
         pos = m.end()
     return [x for x in out if x['t']]
 
