@@ -111628,6 +111628,11 @@
           "path": "articles/healing-the-gut/humanize/fix-20261103/r06/substack/CHECKED-TEXT-A.txt",
           "sha256": "a5a9eeea03d01bf2e8d05347ed3567f183387e93e83d9f144070600da7049b7c",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r06/substack/PASTED.json",
+          "sha256": "1c78a543d849a74f39891c1f2700821929f511502e943995d3c851e6248ba0a0",
+          "role": "humanization_working_record"
         }
       ]
     }
