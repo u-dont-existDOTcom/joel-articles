@@ -94,3 +94,22 @@ What he did, the gut lane's E338 in this article:
 
 In my hand the same moves took the evidence paragraph from 62.2% to 0.0% AI (AI Assisted) in four tries, but not Scott's
 story (100% AI in all four): `../../fix-20261104/checks/`, and the two cards that ask him.
+
+## His fifth version: Scott's paragraph, joined with ", but" (4 November, gate E352)
+
+The card's version (Codex's rewrite) read Human Written with its last three sentences at Low confidence; both of my tries
+at those sentences read worse (84.6% and 100% AI). His answer on Neuro De-Armoring Cards, 4 November (2) (2026-11-04
+13:53 UTC; `../../fix-20261104/cards/ANSWERS-20261104-1352.json`): "the only change i needed to flip the low conf human all
+to high conf was to merge the sentences with a ", but" ... again it's the way it flows". His version by itself read
+[Human Written, 0.0% AI](https://www.pangram.com/history/6716a87f-8df3-4107-ab4c-5df53a83ef6d), every window High.
+
+| the card's version | his version | what changed |
+|---|---|---|
+| You can't tell from this whether UMP rebuilt his D3 receptors overnight. It does suggest that in the right person, ... | You can't prove from this whether UMP rebuilt his D3 receptors overnight, but it does suggest that in the right person, ... | The negation and its contrast are one sentence, joined with ", but": "Ai says stuff like "It doesn't X. [But is implied] Blah blah blah ..."". "prove" for "tell", his post's word ("That does not prove ..."). |
+| Scott was having vivid dreams again too, with real childhood memories coming back in them. | Scott was having vivid dreams again too, with real childhood memories surfacing. | "surfacing" for "coming back in them". |
+
+His caution with it: "there's also the Not X, but Y. pattern with AI, so we shouldn't overuse that either, but sometimes
+it is the most clear and natural way to phrase it." What I take from it: where a draft says what isn't so and then, in a
+new sentence, what is ("X doesn't Y. It does Z."), join the two with ", but" (`tells_lint.py` O64 now fails the split
+form); the joined "not X, but Y" is used where it is the clearest way to say it, not as a habit. My two tries had kept
+the two sentences and changed their words, which is why they couldn't work.

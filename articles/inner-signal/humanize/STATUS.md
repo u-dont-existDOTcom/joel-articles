@@ -1,5 +1,9 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-11-04, after Joel's answers of 13:53 UTC (in the neuro de-armoring lane)
+
+Nothing changed in this lane. E352 (O64) applies here.
+
 ## 2026-11-04, after Joel's answers of 12:06 UTC (in the neuro de-armoring lane)
 
 Nothing changed in this lane. His rule on Low and Medium windows (AGENTS.md, beside E278) and E350 apply here.

@@ -2374,7 +2374,20 @@ His message, word for word: `articles/neuro-de-armoring/humanize/fix-20261104/jo
   when a one-sentence change moves sentences it didn't touch, that stretch goes to him (`fix-20261104/checks/x1104h`,
   `x1104i`; the stretch is card Y-83b).
 
-(E342, E345, E347 to E349 and E351 are the gut lane's, in its section above; this lane's E350 is in its pull request 290. The next lesson in either lane is E352.)
+- **E352. A negation and its contrast go in one sentence, joined with ", but".** Joel, 2026-11-04 13:53 UTC, on Scott's
+  paragraph, which read Human only at Low confidence in its last three sentences ("You can't tell from this whether UMP
+  rebuilt his D3 receptors overnight. It does suggest that in the right person, ..."): "the only change i needed to flip
+  the low conf human all to high conf was to merge the sentences with a ", but" ... again it's the way it flows. Ai says
+  stuff like "It doesn't X. [But is implied] Blah blah blah blha blah blah..."", and "there's also the Not X, but Y.
+  pattern with AI, so we shouldn't overuse that either, but sometimes it is the most clear and natural way to phrase it".
+  His version ("You can't prove from this whether UMP rebuilt his D3 receptors overnight, but it does suggest that ...")
+  read [Human Written, 0.0% AI](https://www.pangram.com/history/6716a87f-8df3-4107-ab4c-5df53a83ef6d), every window High.
+  Both of my tries had changed the words and kept the two sentences, and read worse (E350). `tells_lint.py` O64 fails the
+  split form (a statement's negated verb, then a sentence on the same subject with the contrast's verb: "It does", "That
+  can"), but not an instruction ("Don't ...") or a next sentence with his "though" ("It could be helpful, though, ...");
+  the tells registry's W118. The joined "Not X, but Y" stays a choice, not a reflex.
+
+(E342, E345, E347 to E349 and E351 are the gut lane's, in its section above. The next lesson in either lane is E353.)
 
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)

@@ -11,6 +11,7 @@ From an account with Desktop Commander connected to the laptop, the laptop copy 
 
 ## START HERE
 
+- **2026-11-04, after Joel's answers of 13:53 UTC (in the neuro de-armoring lane)**: nothing changed in this lane. E352 applies here (a negation and its contrast go in one sentence, joined with ", but"; `tells_lint.py` O64), and this lane's mailbox check now goes in its own file, `state/mailbox/<branch>.json`.
 - **2026-11-04, after Joel's answers of 12:06 UTC (in the neuro de-armoring lane)**: nothing changed in this lane. His rule applies here: Low windows come first ("low windows can easily flip to AI in different segmentations, medium aren't a big issue usually"; AGENTS.md, beside E278), and E350: a Low window in a paragraph that reads Human is fixed in that window's sentence only.
 - **2026-11-04, after Joel's answers of 10:39 UTC (in the neuro de-armoring lane)**: nothing changed in this lane. Lesson E346 applies here: a paragraph that has read AI twice goes to the tell panel before its next try (`pangram_ledger.py predict --panel`).
 - **2026-11-04, after Joel's message of 10:01 UTC (in the neuro de-armoring lane)**: nothing changed in this lane. Two lessons from it apply here: E343 (one paragraph at a time; the prediction ledger now refuses a section or stretch retry after an AI result until its paragraphs are checked, `--narrowed`) and E344 (an AI model's warnings are checked against the research before they're rewritten). Main's E337 (gut, the typographic swap) and E338 (gut, uncompress) apply here too.

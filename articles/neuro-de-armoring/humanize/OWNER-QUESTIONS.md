@@ -1,8 +1,7 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-04, after your answers of 12:06 UTC (the 12 cards, and "5a").
-**Open questions: 1.** **For you to do**: answer question 6 (below), the two cards on
-[Neuro De-Armoring Cards, 4 November (2)](https://claude.ai/artifact/TBrnTti2G9V4fBvC357cTy).
+Last updated 2026-11-04, after your answers of 13:53 UTC (the second cards page, "6a").
+**Open questions: 0.** **For you to do**: merge pull request 290 when you've looked.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
@@ -10,23 +9,40 @@ can read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 6. Five generic lines: keep them?** The warnings check found nothing behind these in the research, but each is
+None right now.
+
+## For you to do
+
+- 🟠 Merge [pull request 290](https://github.com/u-dont-existDOTcom/joel-articles/pull/290) when you've looked (its
+  conflict with main is fixed).
+
+## Your answers of 2026-11-04 13:53 UTC (the second cards page, "290 has conflicts", "6a"), and what I did
+
+Word for word: [your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/joel-20261104-1353-message.txt) and
+[your answers file](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/cards/ANSWERS-20261104-1352.json).
+
+- 🟢 **Your version of Scott's paragraph is in**, as you wrote it; you checked it: [Human Written, 0.0% AI]
+  (https://www.pangram.com/history/6716a87f-8df3-4107-ab4c-5df53a83ef6d). What it does is in
+  [what your versions do](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md); the linter now fails "X doesn't Y. It
+  does Z." split in two (lesson E352), and leaves your "It could be helpful, though, ..." alone.
+- 🟢 **W-17 is in** ("in practice").
+- 🟢 **6a: the five generic lines stay** as they are.
+- 🟢 **Pull request 290's conflict is fixed.** It was the mailbox record every lane wrote into one shared file; each lane
+  now writes its own, so another lane merging first doesn't put this lane's pull request in conflict again.
+- 🔵 **Next**: the rest of the article, a paragraph at a time.
+
+Question 6 as it was asked:
+
+**🟢 6. Five generic lines: keep them?** The warnings check found nothing behind these in the research, but each is
 common sense ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/warnings/WARNINGS-CHECK.md), items 15, 28 and 29):
 1. "Electrolytes: Consult a doctor if you have kidney disease or heart conditions." (the warnings at the top)
 2. Uridine's other stop signs (insomnia, jitteriness, racing thoughts, irritability, emotional flatness, nausea, stomach
    cramps, loose stools) and "If it makes you wired, numb, or weirdly irritable, stop. Do not push through."
 3. "DO NOT load extra salt (Risk of High Blood Pressure)." (Electrolytes, Strategy A)
 
-- a) **Keep them all** (my recommendation: each points at a real risk or a sensible stop, so none is needless).
-- b) **Cut them.**
-- c) **Some of them** (say which).
-
-## For you to do
-
-- 🟠 Answer question 6 above.
-- 🟠 The two cards on [Neuro De-Armoring Cards, 4 November (2)](https://claude.ai/artifact/TBrnTti2G9V4fBvC357cTy)
-  ([the cards as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104C.md)): Scott's paragraph's Low window, for your help, and
-  the last warnings card.
+a) **Keep them all** (my recommendation: each points at a real risk or a sensible stop, so none is needless).
+b) **Cut them.**
+c) **Some of them** (say which).
 
 ## Your answers of 2026-11-04 12:06 UTC (the 12 cards, and "5a"), and what I did
 

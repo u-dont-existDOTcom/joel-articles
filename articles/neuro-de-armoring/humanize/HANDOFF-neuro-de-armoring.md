@@ -18,6 +18,9 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-04, after Joel's answers of 13:53 UTC: his Scott paragraph and W-17 in, 6a (the five lines stay); no open questions.**
+  HUMANIZED-SO-FAR.md is c73f5b5d. Lesson E352 and linter rule O64 (a negation and its contrast joined with ", but"). Each lane's
+  mailbox is now its own file (`state/mailbox/<branch>.json`). See the Next step.
 - **2026-11-04, after Joel's answers of 12:06 UTC (all 12 cards approved; "5a"): the cards in; block 82 has no Low window now; block 83's Low window and W-17 are on the cards page; question 6 waiting.**
   HUMANIZED-SO-FAR.md is 3c68e8e2. Lesson E350 (a Low window is fixed in its own sentence only). See the Next step.
 - **2026-11-04, after Joel's answers of 10:39 UTC ("3a 4a"): 3a in; both uridine paragraphs read Human Written; ten warnings cards; question 5 waiting.**
@@ -73,7 +76,26 @@ All of the article is his published post. His queue's rule: "Paragraphs that alr
 stay exactly as they are." Everything else is rewritten in his register and reaches him as cards, each tested first. The
 Scott passages, the introduction and the D-serine paragraph in Part 4 sound most like him.
 
-## Next step (2026-11-04, after Joel's answers of 12:06 UTC: question 6, two cards)
+## Next step (2026-11-04, after Joel's answers of 13:53 UTC: the rest of the article)
+
+Done (STATUS.md's entry for 2026-11-04 13:53 has every file and number). Nothing is waiting on him but the merge of pull
+request 290.
+
+Next:
+1. **The rest of the article, one paragraph at a time** (E343), from the uridine section's paragraph after his trial
+   (block 85, "Side effects / stop signs", now with W-85's wording) and on through the sections that read AI in the
+   baseline (`fix-20261102/baseline/`): the moves in `fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md` (his five versions:
+   the plain meaning first and the term after it; one point a sentence with its cause; a dose said as an instruction; his
+   label register in warnings; a negation and its contrast joined with ", but"); `tells_lint.py` on each draft (O61, O64);
+   the fidelity check; each paragraph checked by itself with its prediction (`fix-20261104/checks/predict_batch.py`). After
+   two AI reads the tell panel (`tell_panel.py`, E346); after a failed panel draft of mine, a draft from Codex
+   (`tell_panel.py rewrite-prompt`, E256). A paragraph that reads Human with a Low window: that sentence only (E350);
+   Medium windows usually aren't a big issue (Joel, 12:06 UTC). What I can't get goes to him on a cards page as a stretch
+   to edit, with the panel linked and the ask in his words.
+2. **Then** a section check (free, a temporary Substack draft, or the web app for five or six paragraphs), the owner-
+   delivery gate, the word-for-sense read (SKILL.md), and his post (E332, the title's date, E323).
+
+## Earlier next step (2026-11-04, after Joel's answers of 12:06 UTC: question 6, two cards)
 
 Done (STATUS.md's entry for 2026-11-04 12:06 has every file and number). Waiting on him: question 6 (five generic lines)
 and the two cards on Neuro De-Armoring Cards, 4 November (2) (`fix-20261104/cards/REVIEW-X1104C.md`; review id

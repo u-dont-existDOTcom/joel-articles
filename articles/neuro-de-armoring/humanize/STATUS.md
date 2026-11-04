@@ -1,5 +1,30 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-04, after Joel's answers of 13:53 UTC (his Scott paragraph, W-17, "290 has conflicts", "6a"): his version in; the conflict fixed; O64
+
+His message, word for word: `fix-20261104/joel-20261104-1353-message.txt`; his answers: `fix-20261104/cards/ANSWERS-20261104-1352.json`.
+**The mailbox first** ("2026-11-04 13:53"); since 12:06: 289 (gut r05) merged 12:16, 288 (Inner Child) 12:37, 291 (gut r06)
+13:54, with its merge driver for state/MAILBOX.json (`tools/humanization/mailbox_merge.py`).
+
+**290's conflicts** were state/MAILBOX.json, which every lane wrote each turn: main merged twice this turn (7d85d2dd,
+c3392a5f), the mailbox merged with main's driver, the gate's numbering notes taken from main (the gut lane's E351; next
+E353 after this lane's E352). So that another lane's merge no longer puts this lane's pull request in conflict,
+`lane_mailbox.py` now records each lane in its own file, `state/mailbox/<branch>.json` (state/MAILBOX.json stays the
+history, its checks still count; main's merge driver still merges it); `lane_push.py` stages the lane's file; tests in
+`tests/test_lane_mailbox.py`; AGENTS.md says it. The driver can't help on GitHub, where no merge driver runs.
+
+**His answers in** (`fix-20261104/cards/apply_cards_x1104c.py`, APPLIED-CARDS-C.json): Y-83b his version as he wrote it
+(he checked it: [Human Written, 0.0% AI](https://www.pangram.com/history/6716a87f-8df3-4107-ab4c-5df53a83ef6d), every
+window High; not checked again), W-17 approved; 6a: the five lines stay. 3c68e8e2 to c73f5b5d. Fidelity PASS (no key
+changed), the comparison gate PASS (his words; W-17's sentence read by me, `fix-20261104/cards/read-c/`).
+
+**What his version does** (`fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md`, "His fifth version"; lesson E352): the negation
+and its contrast in one sentence, joined with ", but". `tells_lint.py` O64 fails the split form ("You can't tell X. It
+does suggest Y."), not an instruction or a next sentence with his "though"; tells registry W118. On the article as it
+stands it flags nothing; on his post it flags the sentence he fixed.
+
+Questions page: 6 answered, none open (version 8). Predictions: none this turn (his check stands). Delegations: none.
+
 ## 2026-11-04, after Joel's answers of 12:06 UTC (all 12 cards approved; "5a"): the cards in; 82's Low window fixed; 83's to him
 
 His message, word for word: `fix-20261104/joel-20261104-1206-message.txt`; his answers: `fix-20261104/cards/ANSWERS-20261104-1205.json`.
