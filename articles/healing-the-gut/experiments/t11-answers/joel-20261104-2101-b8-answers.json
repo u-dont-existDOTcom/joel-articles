@@ -1,0 +1,471 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "healing-the-gut-b8-prepublish-20261104",
+ "title": "Gut Article, After Publishing",
+ "git_file": "articles/healing-the-gut/humanize/fix-20261103/r11/b8/REVIEW-PAGE.html",
+ "article": {
+  "file": "articles/healing-the-gut/humanize/fix-20261103/r11/r11.md",
+  "sha256": "3569e2108f62f74f390af023783926cff373afebf6933466ce3baf0a13653885"
+ },
+ "built": "2026-11-04",
+ "generator": "suggestion_review.py 1.6 (2026-11-04)",
+ "exported_at": "2026-11-04T21:01:32.832Z",
+ "counts": {
+  "approved": 22,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "F8-1",
+   "type": "typo",
+   "title": "Three slips in the diverticulosis paragraph",
+   "where": "Some Causes of poor gut health, P4",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "This is likely caused by diverticulosis, a disease that causes herniated pockets to form in the intestines which aren't supported by smooth muscle. There's no known cure for this disease, except possibly glutamine, based on one incomplete clinical trial, which found 2 of 9 women had incredible reductions in diverticula. Glutamine is an amino acid that's the fuel for small intestinal cells, so this makes some sense. 10% of people get side effects from it (including constipation). Butyrate is the fuel for the colon cells. I would also suggest diosmin for improving blood vessel integrity.",
+   "before": "This is likely caused by diverticulosis, a disease that causes herniated pockets to form in the intestines which aren't supported by smooth muscle. There's no known cure for this disease, except possibly glutamine, based one one incompleted clinical trial, which found 2 of 9 women had incredible reductions in diverticula. Glutamine an amino acid that's the fuel for small intestinal cells, so this makes some sense. 10% of people get side effects from it (including constipation). Butyrate is the fuel for the colon cells. I would also suggest diosmin for improving blood vessel integrity.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T20:56:57.642Z"
+    }
+   ],
+   "updated": "2026-11-04T20:56:57.642Z"
+  },
+  {
+   "id": "F8-2",
+   "type": "typo",
+   "title": "\"with regard to\"",
+   "where": "Some Causes of poor gut health, P10",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Plant foods (Phases 2 and 5): The carnivore diet is trending, as many people (especially with leaky gut or lack of oxalate-processing bacteria) are noticing they cannot handle fiber, oxalates, and phytates in plants. It's certainly a diet worth trying, but it can lead to deficiencies over time, especially with regard to vitamins C, E, fiber, magnesium, potassium, calcium, iodine and other trace minerals, and bacteria needed to process plant foods (which already are likely missing in people who need this diet), thus making the carnivore diet sort of hard to get off.",
+   "before": "Plant foods (Phases 2 and 5): The carnivore diet is trending, as many people (especially with leaky gut or lack of oxalate-processing bacteria) are noticing they cannot handle fiber, oxalates, and phytates in plants. It's certainly a diet worth trying, but it can lead to deficiencies over time, especially with regard vitamins C, E, fiber, magnesium, potassium, calcium, iodine and other trace minerals, and bacteria needed to process plant foods (which already are likely missing in people who need this diet), thus making the carnivore diet sort of hard to get off.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T20:57:09.113Z"
+    }
+   ],
+   "updated": "2026-11-04T20:57:09.113Z"
+  },
+  {
+   "id": "F8-3",
+   "type": "typo",
+   "title": "\"junctions\"",
+   "where": "Some Causes of poor gut health, P12",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Leaky gut (Phase 5): a widespread inflammatory condition often intersecting with other categories of illness such as Crohn's Disease or IBS, plant food intolerance, and what many alternative health practitioners consider as a root cause of most diseases. It's associated with increased zonulin levels clinically. Zonulin is the molecule released to signal your intestinal tight junctions to open. Too much opening time leads to allowing stuff to leak out into your blood stream which then burdens your immune system and detoxification systems. Game-changing treatments:",
+   "before": "Leaky gut (Phase 5): a widespread inflammatory condition often intersecting with other categories of illness such as Crohn's Disease or IBS, plant food intolerance, and what many alternative health practitioners consider as a root cause of most diseases. It's associated with increased zonulin levels clinically. Zonulin is the molecule released to signal your intestinal tight jungtions to open. Too much opening time leads to allowing stuff to leak out into your blood stream which then burdens your immune system and detoxification systems. Game-changing treatments:",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T20:57:13.401Z"
+    }
+   ],
+   "updated": "2026-11-04T20:57:13.401Z"
+  },
+  {
+   "id": "F8-4",
+   "type": "typo",
+   "title": "\"H. pylori\" with a small p",
+   "where": "Some Causes of poor gut health, P8",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Parasites, H. pylori, mold, metals (Phases 3 and 6): We are often addicted to junk food due to a vicious cycle in which the junk feeds parasitic organisms and bad bacteria, yeast, etc, which then send signals to our brain to consume more junk. Thus, we have to target the problem from various angles--cleansing out pathogens, repopulating good bacteria, addressing vitamin (especially thiamine), mineral, and enzyme deficiencies, and changing what we eat. I wrote about my detox protocol (which includes the gut) here. For H. pylori specifically: if you get heartburn when your stomach is empty only, that's usually H. pylori, and it's easily treated with berberine.",
+   "before": "Parasites, H. pylori, mold, metals (Phases 3 and 6): We are often addicted to junk food due to a vicious cycle in which the junk feeds parasitic organisms and bad bacteria, yeast, etc, which then send signals to our brain to consume more junk. Thus, we have to target the problem from various angles--cleansing out pathogens, repopulating good bacteria, addressing vitamin (especially thiamine), mineral, and enzyme deficiencies, and changing what we eat. I wrote about my detox protocol (which includes the gut) here. For H. Pylori specifically: if you get heartburn when your stomach is empty only, that's usually H. Pylori, and it's easily treated with berberine.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T20:57:03.810Z"
+    }
+   ],
+   "updated": "2026-11-04T20:57:03.810Z"
+  },
+  {
+   "id": "F8-5",
+   "type": "typo",
+   "title": "\"EndSickness.org\" as everywhere else",
+   "where": "Some Causes of poor gut health, list item",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Liposomal first-milking colostrum (esp. fermented per Matt Nedin's protocol with bifidobacterium, or SIBO yogurt bacteria). Matt from EndSickness.org finds that this helps especially to mop up mycotoxins in the gut. Activated charcoal can also be helpful, altho don't take that with things you want to actually absorb.",
+   "before": "Liposomal first-milking colostrum (esp. fermented per Matt Nedin's protocol with bifidobacterium, or SIBO yogurt bacteria). Matt from Endsickness.org finds that this helps especially to mop up mycotoxins in the gut. Activated charcoal can also be helpful, altho don't take that with things you want to actually absorb.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T20:57:15.673Z"
+    }
+   ],
+   "updated": "2026-11-04T20:57:15.673Z"
+  },
+  {
+   "id": "F8-6",
+   "type": "typo",
+   "title": "What H2O2 and berberine don't clear",
+   "where": "Phase 3: The Purge, P3",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "H2O2 actually works better than the herbal antibiotics according to me and orthomolecular drs. My BFF Pooyan tried candibactin actually and it nearly killed him. The H2O2 worked a lot better without side effects. There is one herbal antibiotic that works really well tho for H. pylori: Berberine. If you have an acute infection with something that H2O2 and berberine don't clear quickly, consider escalating to secnidazole treatment for rapid cure, and paromomycin post-treatment for relapse prevention, with medical supervision.",
+   "before": "H2O2 actually works better than the herbal antibiotics according to me and orthomolecular drs. My BFF Pooyan tried candibactin actually and it nearly killed him. The H2O2 worked a lot better without side effects. There is one herbal antibiotic that works really well tho for H. pylori: Berberine. If you have an acute infection with something that those don't help quickly, consider escalating to secnidazole treatment for rapid cure, and paromomycin post-treatment for relapse prevention, with medical supervision.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T21:00:20.460Z"
+    }
+   ],
+   "updated": "2026-11-04T21:00:20.460Z"
+  },
+  {
+   "id": "F8-7",
+   "type": "typo",
+   "title": "\"BIND the toxins\"",
+   "where": "Phase 3: The Purge, P4",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "BIND the toxins, especially the metals and parasite die-off toxins, using Zholy3O.",
+   "before": "BIND to the toxins, especially the metals and parasite die-off toxins, using Zholy3O.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T21:00:44.491Z"
+    }
+   ],
+   "updated": "2026-11-04T21:00:44.491Z"
+  },
+  {
+   "id": "F8-8",
+   "type": "reread",
+   "title": "What the gut \"cements\"",
+   "where": "the opening, P4",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Keep in mind that gut health is intimately linked to mental health, as the gut is considered our \"second brain.\" Some people think their guts are working fine, but they notice other health problems, including mental health, and don't realize that all disease begins in the gut, to quote Hippocrates, the founder of Western Medicine. Of course, that's obviously not true, because stress can come from other vectors, but the gut is central to the feedback loop and can cement the stress coming from those other vectors.",
+   "before": "Keep in mind that gut health is intimately linked to mental health, as the gut is considered our \"second brain.\" Some people think their guts are working fine, but they notice other health problems, including mental health, and don't realize that all disease begins in the gut, to quote Hippocrates, the founder of Western Medicine. Of course, that's obviously not true, because stress can come from other vectors, but the gut is central to the feedback loop and can cement other stress vectors.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T20:55:19.100Z"
+    },
+    {
+     "from": "approved",
+     "to": "rejected",
+     "at": "2026-11-04T20:55:48.865Z"
+    },
+    {
+     "from": "rejected",
+     "to": "approved",
+     "at": "2026-11-04T20:56:11.670Z"
+    }
+   ],
+   "updated": "2026-11-04T20:56:11.670Z"
+  },
+  {
+   "id": "F8-9",
+   "type": "reread",
+   "title": "Where zinc carnosine stays",
+   "where": "Some Causes of poor gut health, P14",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Zinc carnosine, the form of zinc which sticks to your intestinal lining.",
+   "before": "Zinc carnosine, the form of zinc which stays in your intestinal gaps.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T20:57:24.073Z"
+    }
+   ],
+   "updated": "2026-11-04T20:57:24.073Z"
+  },
+  {
+   "id": "F8-10",
+   "type": "reread",
+   "title": "What Hale's urine test is for",
+   "where": "Some Causes of poor gut health, P26",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Low stomach acid, enzymes, and thick bile (Phase 1): which in turn are often due to poor diet, stress, infections. T.C. Hale has a lot of videos on healing digestion issues, which in his experience as a health coach, are often due to these root causes. He's a bit controversial on some points such as his urine pH testing for whether your body is frozen in a building-up or a breaking-down state (anabolic or catabolic), but he does have some good suggestions he explains in his book.",
+   "before": "Low stomach acid, enzymes, and thick bile (Phase 1): which in turn are often due to poor diet, stress, infections. T.C. Hale has a lot of videos on healing digestion issues, which in his experience as a health coach, are often due to these root causes. He's a bit controversial on some points such as his urine pH testing for anabolic/catabolic state freezes, but he does have some good suggestions he explains in his book.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T20:58:49.432Z"
+    }
+   ],
+   "updated": "2026-11-04T20:58:49.432Z"
+  },
+  {
+   "id": "F8-11",
+   "type": "reread",
+   "title": "The cells that don't get the energy",
+   "where": "Some Causes of poor gut health, P19",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Mitochondrial and cellular energy starvation is what you get when there's not enough of the fuels each type of cell in your gut prefers (glutamine and butyrate). Your gut barrier needs a lot of energy, to keep its tight junctions intact. If the cells lining your small intestine (called enterocytes) or the colonocytes lining your large intestine don't get that energy, the barrier loosens up. Then lipopolysaccharides (LPS, which come from the walls of bacteria) and other endotoxins leak through those (not-so-tight)-junction gaps into your bloodstream.",
+   "before": "Mitochondrial and cellular energy starvation is what you get when there's not enough of the fuels each type of cell in your gut prefers (glutamine and butyrate). Your gut barrier needs a lot of energy, to keep its tight junctions intact. If the cells lining your small intestine (called enterocytes) or the colonocytes lining your large intestine don't do that, the barrier loosens up. Then lipopolysaccharides (LPS, which come from the walls of bacteria) and other endotoxins leak through those (not-so-tight)-junction gaps into your bloodstream.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T20:57:50.400Z"
+    }
+   ],
+   "updated": "2026-11-04T20:57:50.400Z"
+  },
+  {
+   "id": "F8-12",
+   "type": "reread",
+   "title": "What SCFAs do for the barrier",
+   "where": "Some Causes of poor gut health, P23",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "The colonocytes lining your large intestine are fueled by short-chain fatty acids (SCFAs) like butyrate, while your small intestine runs on glutamine. Your gut bacteria make SCFAs when they ferment raw resistant starch, and you get SCFAs directly from your home-brewed SIBO yogurt too. Besides feeding the colonocytes, SCFAs lock down the barrier in your lower gut, so dangerous substances can't escape from gut to blood, and your body can turn down the inflammatory signals it would otherwise need to contain the damage.",
+   "before": "The colonocytes lining your large intestine are fueled by short-chain fatty acids (SCFAs) like butyrate, while your small intestine runs on glutamine. Your gut bacteria make SCFAs when they ferment raw resistant starch, and you get SCFAs directly from your home-brewed SIBO yogurt too. Besides feeding the colonocytes, SCFAs lock down the barrier in your lower gut, preventing the dangerous escape of substances from gut to blood, which then turns down inflammatory signals that would be needed otherwise to contain the damage.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T20:58:27.373Z"
+    }
+   ],
+   "updated": "2026-11-04T20:58:27.373Z"
+  },
+  {
+   "id": "F8-13",
+   "type": "reread",
+   "title": "Who needs glutamine",
+   "where": "Some Causes of poor gut health, P24",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Some people will tell you to take malic and citric acid (which make green apples and tart cherries sour) as an extra quick energy source for your enterocytes. And they do supply quick energy, because they are made and used by that mitochondrial energy cycle, also called the TCA or Krebs cycle. But glutamine is still the main thing your enterocytes need, because it helps build new cells in addition to giving the needed energy. Those acids do help you absorb iron, even two or three times better according to one study where people ate rice with 1g pure malic acid or citric acid mixed in (Gillooly et al., 1983). That's probably because the acids help keep the iron dissolved so the gut can take it up. So something sour with an iron-rich meal is worth having anyway.",
+   "before": "Some people will tell you to take malic and citric acid (which make green apples and tart cherries sour) as an extra quick energy source for your enterocytes. And they do supply quick energy, because they are made and used by that mitochondrial energy cycle, also called the TCA or Krebs cycle. But glutamine is still the main thing they need, because it helps build new cells in addition to giving the needed energy. Those acids do help you absorb iron, even two or three times better according to one study where people ate rice with 1g pure malic acid or citric acid mixed in (Gillooly et al., 1983). That's probably because the acids help keep the iron dissolved so the gut can take it up. So something sour with an iron-rich meal is worth having anyway.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T20:58:38.356Z"
+    }
+   ],
+   "updated": "2026-11-04T20:58:38.356Z"
+  },
+  {
+   "id": "F8-14",
+   "type": "reread",
+   "title": "What a herx reaction is",
+   "where": "Phase 1: The Pre-Flight Safety Check, P3",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Now let's have a look at your bile function. Do you burp extra (not just like one little burp) after fatty meals? Do your stools float (like it's hard to flush), or look like clay? Then your bile is stagnant (not flowing well), and Hale says if you take antimicrobials now, you'll get a herx reaction: the dying microbes release toxins you can't detoxify. So thin the bile first with Beet Flow (an extract of beet greens) or phosphatidylcholine, before starting on any pathogen killing protocol.",
+   "before": "Now let's have a look at your bile function. Do you burp extra (not just like one little burp) after fatty meals? Do your stools float (like it's hard to flush), or look like clay? Then your bile is stagnant (not flowing well), and Hale says if you take antimicrobials now, you'll get a herx reaction you can't detoxify. So thin the bile first with Beet Flow (an extract of beet greens) or phosphatidylcholine, before starting on any pathogen killing protocol.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T20:59:42.527Z"
+    }
+   ],
+   "updated": "2026-11-04T20:59:42.527Z"
+  },
+  {
+   "id": "F8-15",
+   "type": "reread",
+   "title": "Butyrate named twice",
+   "where": "Optional Ready-Made Gut Stacks, P3",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Then keep the probiotics well-fed with a good prebiotic, and take something that helps short-chain fatty acid production, especially the main one, butyrate, or take butyrate itself.",
+   "before": "Then keep the probiotics well-fed with a good prebiotic, and take butyrate itself or something that helps short-chain fatty acid production, especially the main one, butyrate.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T21:01:10.145Z"
+    }
+   ],
+   "updated": "2026-11-04T21:01:10.145Z"
+  },
+  {
+   "id": "F8-16",
+   "type": "reread",
+   "title": "The serious signs, as a list",
+   "where": "Optional Ready-Made Gut Stacks, P8",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Some severe symptoms warrant seeing a doctor rather than considering this DIY approach at the moment. Take it seriously if you notice blood in your stool (if it's blood from upper digestive tract, it could be smelly, black & tarry, not red like from lower GI). Other serious signs to note: losing weight fast, severe pain, a fever or dehydration. And if you're pregnant, some herbs and supplements, like berberine, aren't safe. If your immune system is weak, some probiotics could be risky, since they're live bacteria that need to be kept in check to prevent overgrowth. If you have an IBD flare, cancer or another serious illness, the standard disclaimer applies: work out what to take with your doctor instead of putting a stack together yourself.",
+   "before": "Some severe symptoms warrant seeing a doctor rather than considering this DIY approach at the moment. Take it seriously if you notice blood in your stool (if it's blood from upper digestive tract, it could be smelly, black & tarry, not red like from lower GI). Other serious signs to note: If you're losing weight fast, or if you have severe pain, a fever or dehydration. And if you're pregnant, some herbs and supplements, like berberine, aren't safe. If your immune system is weak, some probiotics could be risky, since they're live bacteria that need to be kept in check to prevent overgrowth. If you have an IBD flare, cancer or another serious illness, the standard disclaimer applies: work out what to take with your doctor instead of putting a stack together yourself.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T21:01:22.329Z"
+    }
+   ],
+   "updated": "2026-11-04T21:01:22.329Z"
+  },
+  {
+   "id": "F8-17",
+   "type": "point",
+   "title": "The phases aren't only the Gem's",
+   "where": "Concise Recipe for Gut Healing:, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "NOTE: this gut gem does not include some of my research in this article, which is newer, especially from folks like Matt from EndSickness.org who doesn't have a comprehensive text for Gemini to read. So the phases below are what the Gem will tell you, from the nine books (apart from my H2O2 swap in Phase 3). Where my notes in the causes above change or add to a phase, I point back to them under \"My notes\" in that phase.",
+   "before": "NOTE: this gut gem does not include some of my research in this article, which is newer, especially from folks like Matt from EndSickness.org who doesn't have a comprehensive text for Gemini to read. So the phases below are only what the Gem will tell you, from the nine books. Where my notes in the causes above change or add to a phase, I point back to them under \"My notes\" in that phase.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T20:59:02.585Z"
+    }
+   ],
+   "updated": "2026-11-04T20:59:02.585Z"
+  },
+  {
+   "id": "F8-18",
+   "type": "point",
+   "title": "\"Don't skip ahead\"",
+   "where": "Text Summary of the Protocol, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "This protocol is meant to be done in phases. Don't skip ahead, since you only move on to the next phase if the one you're on doesn't clear up your symptoms.",
+   "before": "This protocol is meant to be done in phases. Don't skip any, since you only move on to the next phase if the one you're on doesn't clear up your symptoms.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T20:59:33.346Z"
+    }
+   ],
+   "updated": "2026-11-04T20:59:33.346Z"
+  },
+  {
+   "id": "F8-19",
+   "type": "point",
+   "title": "What \"the problem\" is in Phase 4",
+   "where": "Phase 4: The Investigation, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Benjamin Brown (Digestive Health Solution) is the only source for this phase. If even the \"Nuclear Option\" failed, you can cross the microbiome off the list. The problem is likely an organ that isn't working right, or environmental toxicity or your brain's false danger signals (those two are Phase 6, below).",
+   "before": "Benjamin Brown (Digestive Health Solution) is the only source for this phase. If even the \"Nuclear Option\" failed, you can cross the microbiome off the list. The problem is likely organ failure, or environmental toxicity or brain plasticity (those two are Phase 6, below).",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T21:00:55.250Z"
+    }
+   ],
+   "updated": "2026-11-04T21:00:55.250Z"
+  },
+  {
+   "id": "F8-20",
+   "type": "point",
+   "title": "Say what the phase tags are, the first time",
+   "where": "Some Causes of poor gut health, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Severe stress/adrenal fatigue/poor sleep (Phase 1 of the recipe below): This can cause a lack of mucus to line the stomach, which in turn causes burning, difficulty absorbing nutrients, and so forth. And every other gut issue can also be partly related to this. My mindset page and loveyhuasca protocol can help a lot with this, as well as my deep sleep tips.",
+   "before": "Severe stress/adrenal fatigue/poor sleep (Phase 1): This can cause a lack of mucus to line the stomach, which in turn causes burning, difficulty absorbing nutrients, and so forth. And every other gut issue can also be partly related to this. My mindset page and loveyhuasca protocol can help a lot with this, as well as my deep sleep tips.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T20:56:32.165Z"
+    }
+   ],
+   "updated": "2026-11-04T20:56:32.165Z"
+  },
+  {
+   "id": "F8-21",
+   "type": "point",
+   "title": "\"closest: Phase 4\"",
+   "where": "Some Causes of poor gut health, list item",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Years of accumulated shit in your guts (not in the phases, but Phase 4 comes closest): This part isn't in the gut healing books I read, but even if you fix all of what's going into you now, if you're already full and clogged with all of what went in before, that's gonna be little help. My friend Pooyan got incredibly healthier and happier after getting enough colon hydrotherapy to flush that stuff out, combined with then also doing intense stretches like hanging from one arm, until finally, the most crusted up shit exploded in him which was very painful for a day.",
+   "before": "Years of accumulated shit in your guts (closest: Phase 4): This part isn't in the gut healing books I read, but even if you fix all of what's going into you now, if you're already full and clogged with all of what went in before, that's gonna be little help. My friend Pooyan got incredibly healthier and happier after getting enough colon hydrotherapy to flush that stuff out, combined with then also doing intense stretches like hanging from one arm, until finally, the most crusted up shit exploded in him which was very painful for a day.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T20:56:43.268Z"
+    }
+   ],
+   "updated": "2026-11-04T20:56:43.268Z"
+  },
+  {
+   "id": "F8-22",
+   "type": "point",
+   "title": "Section names in \"My notes\", in quote marks",
+   "where": "Phase 1: The Pre-Flight Safety Check, P4",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "My notes: for stress and sleep see \"Severe stress\" above, and for stomach acid and bile see \"Low stomach acid\".\n\nMy notes: see \"Poor diet now\" and \"Plant foods\", above.\n\nMy notes: see \"Leaky gut\" above for colostrum, zinc carnosine, BPC-157, ozonated zeolite and the fuels, and \"Sitting\" above for movement and yoga.",
+   "before": "My notes: for stress and sleep see Severe stress above, and for stomach acid and bile see Low stomach acid.\n\nMy notes: see Poor diet now and Plant foods, above.\n\nMy notes: see Leaky gut above for colostrum, zinc carnosine, BPC-157, ozonated zeolite and the fuels, and Sitting above for movement and yoga.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T21:00:02.551Z"
+    }
+   ],
+   "updated": "2026-11-04T21:00:02.551Z"
+  }
+ ]
+}

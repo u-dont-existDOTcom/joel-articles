@@ -21,7 +21,7 @@ Before r10 went into his post (his "publish it (don't email anyone)", 20:27 UTC)
 | sense [38] likely | Don't skip any, since you only move on to the next phase if the one you're on doesn't clea | mine, approved | page F8-18 |
 | sense [52] likely | with something that those don't help quickly | his published | page F8-6 |
 | sense [53] likely | BIND to the toxins, especially | his published | page F8-7 |
-| sense [55] likely | And if the herbs failed, the overgrowth is too severe | mine, approved | FIXED in r11 ("And if all that failed") before the update; Phase 3 read Human 100% with it (ledger #119) |
+| sense [55] likely | And if the herbs failed, the overgrowth is too severe | mine, approved | FIXED in r11 ("And if all that failed") before the update; Phase 3 read Human 100% with it (ledger #118) |
 | sense [58] likely | The problem is likely organ failure, or environmental toxicity | mine, approved | page F8-19 |
 | sense [58] likely | or brain plasticity (those two are Phase 6, below) | mine, approved | page F8-19 |
 | clarity 1.1 (score 2) | Besides feeding the colonocytes, SCFAs lock down the barrier in your lower gut, preventing | his own version | page F8-12 |
