@@ -44,6 +44,11 @@ soup = BeautifulSoup((HERE.parent / 'r06.html').read_text(encoding='utf-8'), 'ht
 root = soup.find('div', class_='ProseMirror')
 for el in root.find_all(['figure', 'iframe', 'svg']):
     el.decompose()
+# the editor's own placeholder on a video embed ("Double click to interact with video") came with the editor HTML; pasted,
+# it became three paragraphs of text in the first draft (2026-11-04), so the embeds go whole
+for el in root.find_all(string=lambda s: s and s.strip() == 'Double click to interact with video'):
+    box = el.find_parent('div', class_=lambda c: c and any('youtube' in x or 'embed' in x for x in c)) or el.parent
+    box.decompose()
 for d in root.find_all('div'):
     if not d.get_text(strip=True) or 'paywall-editor' in (d.get('class') or []):
         d.decompose()
