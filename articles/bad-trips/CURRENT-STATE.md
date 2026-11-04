@@ -114,13 +114,23 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
   PANEL.md`): a balanced mini-review, every finding paired with its caveat, even sentence lengths, a tidy verdict. So
   the paragraph went to him for his own version (FIXING-AN-ARTICLE item 7, gates E256 and E333): round 5's page, one
   edit card, CBD-YOURS (`review/r05/`, browser test 62 of 62; Bad Trips Guide, Round 5,
-  https://claude.ai/artifact/12uJZXZ5xptJoYQjoXQJKq).
+  https://claude.ai/artifact/12uJZXZ5xptJoYQjoXQJKq). Then the humanize pass started, without a whole-guide check first
+  (pull request 293's E354): `humanize/section_map.py` (`humanize/SECTION-MAP.md`) maps the guide onto the published
+  post's check, 7,285 of its 11,722 words in AI High windows, 1,790 in Human High (the Healing Treadmill, most of Shadow
+  Thoughts, half of the Other Bypass, the appendix). The first section, Psychological First Aid with Stillness or
+  Movement? (`humanize/h03-pfa/`): my rewrite read AI in one window (High); narrowed to its dangers paragraph (E343), my
+  first try read AI (High), and my second, with the tell panel's four agreed sentences fixed, AI (High, then Medium on
+  the phone sentence; `humanize/h03-pfa/RESULTS.json`, links and predictions in the ledger). The readers' diagnosis on
+  both tries: a checklist turned into prose in an even rhythm, with no first person and nothing at stake for the writer
+  ("assembled rather than lived"; `panel-P3T1/PANEL.md`, `panel-P3T2/PANEL.md`), which only he can supply. So the
+  paragraph is round 5's second card, PFA-YOURS (the page republished at the same address), and the how-to sections wait
+  for his version (E333).
 
 ## Current checkpoint
 
-- **In progress:** Turn 8: round 5's page (one card, the CBD paragraph in his words) is with him.
-- **Next step (updated on every push, so another account can pick up here):** The humanize pass, section by section, starting now (it doesn't wait on round 5). No whole-guide check first: by pull request 293's E354 (Joel, 2026-11-04 14:41 UTC: "no the whole article doesn't decide, we need to first fix any windows we can see before we check the article"), every window already seen reading AI or Human at Low is fixed before the article is checked, and about three quarters of the guide (118 of the published post's AI or Low windows, about 9,250 words, matched by six-word runs) is still text that the baseline read so. Order: the sections with the most AI High words first; in each, the gate's writers, the tell panel (`tools/humanization/tell_panel.py`), `compare_read.py` and fidelity against `humanize/h01/FIDELITY-KEYS-R04.json`, one paragraph at a time where a section reads AI (E343), each sentence following the one before (E351), a ledger prediction before every Pangram check (`pangram_ledger.py predict`). Sections of 5 or 6 paragraphs go to Pangram's web app; many at once to a temporary Substack draft, whose secret link opens in his Brave from his laptop's shell (`brave-browser-stable '<link>'`, E353: the browser Claude in Chrome drives is not one he can see), and he sends the feed link. The Active Seizure section's other paragraphs read AI High (B109, B110, B112) and wait for his CBD paragraph, so the section is checked once. His round-5 answer goes in with an `apply_r05.py` like round 4's (the page's export as `review/r05/ANSWERS-R05-*.json`; his own version as he wrote it, with W-CBD2's three links on the words that name the same sources: the FDA label https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/210365s024s029s030lbl.pdf, the 12-week trial https://pubmed.ncbi.nlm.nih.gov/35802375/, the 2025 study https://pubmed.ncbi.nlm.nih.gov/40673944/).
-- **Waiting on Joel:** round 5's card (the CBD paragraph in his words, or Keep).
+- **In progress:** Turn 8: round 5's two cards (the CBD paragraph and the first five minutes' dangers paragraph, each in his words) are with him.
+- **Next step (updated on every push, so another account can pick up here):** His round-5 answers in with an `apply_r05.py` like round 4's (the page's export, saved as `review/r05/ANSWERS-R05-*.json`; his versions as he wrote them; the CBD paragraph keeps W-CBD2's three links on the words that name the same sources: the FDA label https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/210365s024s029s030lbl.pdf, the 12-week trial https://pubmed.ncbi.nlm.nih.gov/35802375/, the 2025 study https://pubmed.ncbi.nlm.nih.gov/40673944/). Each of his paragraphs checked alone in Pangram's web app, a ledger prediction first. Then the how-to sections the way his dangers paragraph shows (E333): what he does that my tries didn't (the panels' diagnosis: first person, something at stake, an uneven rhythm), tried on one paragraph first (E343), then the rest of Psychological First Aid, then the sections by `humanize/SECTION-MAP.md`'s AI High words, each paragraph through `tells_lint.py`, the tell panel after a second AI result (E346), `compare_read.py` and fidelity against `humanize/h01/FIDELITY-KEYS-R04.json`. No whole-guide check until no window already seen reads AI or Low (E354); then a temporary Substack draft, its secret link opened in his Brave from his laptop's shell (`brave-browser-stable '<link>'`, E353), and the feed link from him. If he chooses Keep on PFA-YOURS ("I'll try another way first"), the next try is a writer of another family (Codex on his laptop, `tell_panel.py rewrite-prompt`), on the same paragraph.
+- **Waiting on Joel:** round 5's two cards.
 
 ## Remaining
 

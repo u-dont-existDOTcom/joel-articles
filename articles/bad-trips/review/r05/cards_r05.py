@@ -5,14 +5,16 @@
 BUILT = '2026-11-04'
 H = 'https://www.pangram.com/history/'
 BLOB = 'https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/humanize/h02-cbd/'
+BLOB3 = 'https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/humanize/h03-pfa/'
 
 INTRO = [
     'Round 4\'s answers are in: W-CBD2 and the four APP cards are in the guide, and the checklist is out now that the '
     'app shows version 9. The three things only the checklist had (its stroke warning signs link, the Chantress Seba '
     'line with your music page, and your love page link) moved into the long part.',
-    'This page asks for your help with one paragraph. You asked me to make the CBD paragraph pass Pangram, and four '
-    'versions of it all read AI: three of mine and one by GPT, on your laptop. Your '
-    'own version is what has worked when that happens.',
+    'This page asks for your help with two paragraphs. You asked me to make the CBD paragraph pass Pangram, and four '
+    'versions of it all read AI: three of mine and one by GPT, on your laptop. Then the humanizing started on the '
+    'first five minutes, and my versions of its dangers paragraph read AI too. Your own version is what has worked '
+    'when that happens, and most of the guide\'s how-to sections read like that one.',
 ]
 
 TYPES = {
@@ -43,3 +45,24 @@ card(id='CBD-YOURS', type='yours', advice='edit', title='The CBD paragraph, in y
                   'it is, if you\'d rather leave this one AI for now.'),
      found_by='your comment on W-CBD2, "now fix it so it passes pangram"',
      spans=[whole(P('B111'))])
+
+card(id='PFA-YOURS', type='yours', advice='edit', title='The first five minutes: the dangers paragraph, in your words',
+     reading=('Pangram on the section as I rewrote it: [AI Generated, 100%%](%s38061cf5-7095-4cfb-8d3b-9f50bfa4f111), one '
+              'window (High). This paragraph alone: my first try [100%% AI](%s3c87417a-c673-4611-bb59-e08b0dc943d8) (High), '
+              'and my second, after the readers\' notes, [100%% AI](%sf2e819da-1d18-4b53-813a-58740905c8b9) (High, then '
+              'Medium on the phone sentence).') % (H, H, H),
+     why=('Fresh readers agree on why it keeps reading AI. On my first try all three (Codex, Sonnet, Haiku) saw a safety '
+          'checklist turned into prose, one hazard to a clause in an even rhythm ([their notes](%spanel-P3T1/PANEL.md)). '
+          'On my second, Sonnet and Haiku said that with no first person and nothing at stake for the writer, it reads '
+          '"assembled rather than lived" ([their notes](%spanel-P3T2/PANEL.md)). That part I can\'t supply: what you\'ve '
+          'seen or what you do yourself is yours to tell. The human things they saw in my two tries were small: "go '
+          'somewhere you\'re not", "nobody '
+          'tripping should be getting behind a wheel", "or water for that matter", "text an ex" and "take the phone". '
+          'The published post\'s check read most of the guide\'s how-to sections this way, so your version shows me '
+          'how to do the rest. What it has to keep: the next five minutes come first; the car keys put away and the '
+          'stove off; away from roads, balconies and water, weapons, crowds and strangers; and the phone taken when '
+          'they\'re about to post a revelation or message an ex.' % (BLOB3, BLOB3)),
+     advice_note=('Edit it: say it your way, keeping those points. Or Keep it as it is, and I\'ll try another way '
+                  'first.'),
+     found_by='the humanize pass, first section (the published post\'s check read it AI, High)',
+     spans=[whole(P('B236'))])

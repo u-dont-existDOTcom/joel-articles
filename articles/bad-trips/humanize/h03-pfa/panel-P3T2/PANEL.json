@@ -1,0 +1,40 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Anything that could hurt somebody in the next five minutes comes before everything else, so get the car keys out of the way and turn the stove off, and move away from roads and balconies, or water for that matter.",
+  "Put any weapons away and keep the person away from crowds and strangers.",
+  "If they want to post their big revelation about the universe, or message an ex, take the phone."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2
+ ],
+ "whole": {
+  "haiku": [
+   "The rhythm is very even, with mostly medium-length imperative sentences joined by \"and\" and a neat three-step escalation of hazards. It reads like a polished checklist with no first person and no personal stakes, so the structure feels assembled rather than lived."
+  ],
+  "sonnet": [
+   "The paragraph is a clean, compact run of imperatives: a rule, then a sequence of hazard categories (self-harm objects, environments, weapons, people, phone), each handled in one even clause. The coverage is orderly and the rhythm is uniformly smooth, with no digressions, hesitations or personal stake, which reads as composed rather than lived, though the tone is plain and not heavily AI-styled."
+  ]
+ },
+ "human_clean": [
+  "take the phone",
+  "take the phone"
+ ]
+}

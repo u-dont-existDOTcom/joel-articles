@@ -16,3 +16,17 @@ The page's cards as text, in the order of the guide. Built 2026-11-04 from [the 
 
 **My advice:** Edit it: say it your way, keeping those points (the links go back on the study names). Or Keep it as it is, if you'd rather leave this one AI for now.
 
+## PFA-YOURS: The first five minutes: the dangers paragraph, in your words (Your version)
+
+*Psychological First Aid: The First Five Minutes, P3*
+
+**The paragraph now:**
+
+> Begin with whatever could hurt somebody in the next five minutes. Put away the car keys. Turn off the stove. Move away from roads, balconies, water, weapons, crowds, and strangers. Take the phone when somebody is preparing to publish the complete revelation of the universe or message an ex.
+
+**What Pangram read:** Pangram on the section as I rewrote it: [AI Generated, 100%](https://www.pangram.com/history/38061cf5-7095-4cfb-8d3b-9f50bfa4f111), one window (High). This paragraph alone: my first try [100% AI](https://www.pangram.com/history/3c87417a-c673-4611-bb59-e08b0dc943d8) (High), and my second, after the readers' notes, [100% AI](https://www.pangram.com/history/f2e819da-1d18-4b53-813a-58740905c8b9) (High, then Medium on the phone sentence).
+
+**Why it comes to you:** Fresh readers agree on why it keeps reading AI. On my first try all three (Codex, Sonnet, Haiku) saw a safety checklist turned into prose, one hazard to a clause in an even rhythm ([their notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/humanize/h03-pfa/panel-P3T1/PANEL.md)). On my second, Sonnet and Haiku said that with no first person and nothing at stake for the writer, it reads "assembled rather than lived" ([their notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/humanize/h03-pfa/panel-P3T2/PANEL.md)). That part I can't supply: what you've seen or what you do yourself is yours to tell. The human things they saw in my two tries were small: "go somewhere you're not", "nobody tripping should be getting behind a wheel", "or water for that matter", "text an ex" and "take the phone". The published post's check read most of the guide's how-to sections this way, so your version shows me how to do the rest. What it has to keep: the next five minutes come first; the car keys put away and the stove off; away from roads, balconies and water, weapons, crowds and strangers; and the phone taken when they're about to post a revelation or message an ex.
+
+**My advice:** Edit it: say it your way, keeping those points. Or Keep it as it is, and I'll try another way first.
+

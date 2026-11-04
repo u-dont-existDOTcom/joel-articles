@@ -6,9 +6,11 @@ Answer under an item's number in a message.
 
 ## Open
 
-1. **open — Round 5: the CBD paragraph, in your words.** You asked me to make it pass Pangram, and four versions all
-   read AI, three of mine and one by GPT. The card has the Pangram links, what the readers saw, and the points it has to
-   keep. On round 5's page (Bad Trips Guide, Round 5, in your claude.ai artifacts; the card as text:
+1. **open — Round 5: two paragraphs, in your words.** The CBD paragraph: you asked me to make it pass Pangram, and four
+   versions all read AI, three of mine and one by GPT. The first five minutes' dangers paragraph: my versions read AI
+   too, and the readers say it lacks what only you can give it (first person, something at stake); most of the guide's
+   how-to sections are like it, so your version shows me how to do the rest. Each card has the Pangram links, what the
+   readers saw, and the points it has to keep. On round 5's page (Bad Trips Guide, Round 5, in your claude.ai artifacts; the cards as text:
    [REVIEW-R05.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r05/REVIEW-R05.md)).
 
 ## Your tasks
