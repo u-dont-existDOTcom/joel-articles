@@ -111626,7 +111626,7 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/pangram-ledger.jsonl",
-          "sha256": "34c4c2ea68ebf3f1b67adf7ec0feb4055694455d47b5311603c6b3c2d1c54d13",
+          "sha256": "fd19f50a94c61c0bfc7c0580faeeca505b8887ff98b4257d1d1161246ae4ef35",
           "role": "humanization_working_record"
         },
         {
@@ -114486,7 +114486,7 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/live/make_plan.py",
-          "sha256": "c8c0afd6364c6dc8ac2315fd27128fd7bab36f49e57332339a48228dc210a17a",
+          "sha256": "ae9c347f380d88e7b7ab994c5f0290c528b0eb3c961e0f967201d2128431fb42",
           "role": "humanization_working_record"
         },
         {
@@ -114862,6 +114862,31 @@
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r12/checks/texts/r12-recipe-intro.txt",
           "sha256": "cc5bcd700f56a1c7ee652cb9c1fdcea6cc53142569f52138bd204784137b1983",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/live/UPDATE-PLAN-2.json",
+          "sha256": "1cf3274b20d607fa4e139d2e5cb8e517724645873da37fa1e31912d2ef38a658",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/live/update2.js",
+          "sha256": "3a1c17c57853df0d23a2c044ed77b4357b284e8905cf00130354954c9bf76a0f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r12/checks/ITEMS-4.json",
+          "sha256": "7ff762d5bae7715e076839d14aaa07ceb725a0cc3251ed941e95b37a85b5baf5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r12/checks/RESULTS-natural-webapp.json",
+          "sha256": "db9c6fb83aa1dc01ff421fbd2aa4e8069185940d551c2fce2b328e1ca7071c77",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r12/checks/texts/r11c-fuels.txt",
+          "sha256": "53dbcbd4bda2895a7d4640c624e3701af2d3374e250103db54c6e5c5508eb13e",
           "role": "humanization_working_record"
         }
       ]
