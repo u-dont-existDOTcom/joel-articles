@@ -948,7 +948,7 @@
     {
      "place": "repo",
      "status": "read",
-     "found": "since turn 120's check (10:40 UTC): pull requests 286 (gut lane) and 287 (community lane) merged by Joel at 10:54 and 11:36 UTC (main 999d6b91), which left this lane's pull request 288 with a conflict in state/MAILBOX.json; pull request 289 opened by the gut lane at 11:46 UTC (Healing the Gut r05); no new issues, comments or reviews (gh api REST)"
+     "found": "since turn 120's check (10:40 UTC): pull requests 286 (gut lane), 287 (community lane) and 289 (gut lane, opened 11:46 UTC) merged by Joel at 10:54, 11:36 and 12:16 UTC (main f8f87c75), which left this lane's pull request 288 with a conflict in state/MAILBOX.json; no new issues, comments or reviews (gh api REST)"
     },
     {
      "place": "notes",
@@ -963,12 +963,12 @@
    ],
    "items": [
     {
-     "item": "pull requests 286 and 287 merged; 288's conflict (Joel, 12:02 UTC: \"conflicts\")",
-     "outcome": "main merged into the lane first (E339): the one conflict, state/MAILBOX.json, resolved by keeping every lane's checks; read what main changed in the shared rules (AGENTS.md, docs/HUMANIZATION-GATE.md: E339 enforced in lane_push.py, lessons E342 to E346; the next lesson is E347)"
+     "item": "pull requests 286, 287 and 289 merged; 288's conflict (Joel, 12:02 UTC: \"conflicts\")",
+     "outcome": "main merged into the lane first (E339), twice: the one conflict each time, state/MAILBOX.json, resolved by keeping every lane's checks; read what main changed in the shared rules (AGENTS.md, docs/HUMANIZATION-GATE.md: E339 enforced in lane_push.py, lessons E342 to E346; the next lesson is E347)"
     },
     {
-     "item": "pull request 289 (gut lane), open",
-     "outcome": "not this lane's to review or merge; this turn changes no shared file except the records every push writes"
+     "item": "lane_push.py refused the push over pull requests 109 and 280 (shared files this branch never touched)",
+     "outcome": "the laptop clone's origin/main was weeks old (its fetch refspec covers only the lane branch); fixed in lane_push.py's main check (it fetches into refs/remotes/origin/main), with two tests, then pushed"
     },
     {
      "item": "Joel's answers of 12:02 UTC to turn 120's questions",
@@ -979,7 +979,7 @@
      "outcome": "saved (experiments/t121-answers/HEARTHWORK-SUBSTACK-EDITOR-20261104-1202.html); next step 4, a lane of its own once the guide is published"
     }
    ],
-   "recorded_utc": "2026-11-04T12:20Z"
+   "recorded_utc": "2026-11-04T12:27Z"
   }
  ]
 }
