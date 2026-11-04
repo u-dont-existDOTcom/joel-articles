@@ -55,6 +55,22 @@ EXAMPLES = [
      'his': 'Your gut barrier needs a lot of energy, to keep its tight junctions intact. If the cells lining your small '
             'intestine (called enterocytes) or the colonocytes lining your large intestine don\'t do that, the barrier '
             'loosens up.'},
+    {'before': 'so in theory they\'re a quick energy source for your enterocytes too. But nobody has shown that eating them '
+               'gives those cells much extra fuel on top of the glutamine.',
+     'gap': 'Why "but"? Quick energy is good, so what is it up against: is glutamine already enough?',
+     'his': 'And they do supply quick energy, because they are made and used by that mitochondrial energy cycle ... But '
+            'glutamine is still the main thing they need, because it helps build new cells in addition to giving the needed '
+            'energy.'},
+    {'before': 'Malic and citric acid (which make green apples and tart cherries sour) are made and used partway round that '
+               'same cycle',
+     'gap': 'Why am I reading about these acids at all?',
+     'his': 'Some people will tell you to take malic and citric acid (which make green apples and tart cherries sour) as an '
+            'extra quick energy source for your enterocytes.'},
+    {'before': 'They do help you absorb iron, though. In one study, people absorbed two to three times as much of the iron in '
+               'a rice meal when 1 g of pure malic or citric acid was mixed in',
+     'gap': 'A study? I didn\'t know one was coming: what is it about?',
+     'his': 'Those acids do help you absorb iron, even two or three times better according to one study where people ate '
+            'rice with 1g pure malic acid or citric acid mixed in'},
 ]
 
 BRIEF = '''You know nothing about this subject: you're a smart reader who has never studied biology or health, reading an
@@ -70,7 +86,10 @@ List every place where you can't see one of these, because the writer knows it a
 - what a word means;
 - why a sentence follows from the one before it (the step in between);
 - how something does what the sentence says it does;
-- why it matters to you, the reader.
+- why it matters to you, the reader;
+- what a "but", "so", "though" or "because" turns on, when the claim it answers or follows from isn't said;
+- why you're being told something at that point, when it comes before you'd want it (a study before the claim it backs, a
+  detail before the point, a fact before the question it answers).
 
 Don't list what the part above already explained. Don't judge whether the claims are true, and don't rewrite anything.
 Here is what counts, from the writer's own fixes of other paragraphs:
