@@ -1,0 +1,35 @@
+[
+ {
+  "key": "b088",
+  "name": "the 5-HTP \"Who this is for\", third try (its Low window only)",
+  "lineage": "ND1104-B088",
+  "scope": "paragraph",
+  "words": 113,
+  "call": "Human",
+  "chance": 0.6,
+  "why": "E350: only the Low window's stretch changed, in its last sentence: the four exclusions keep their order and words, each pair given the reason the article gives for it in brackets, his X-15 move (\"(will reduce tolerance)\"): agitation and a too-bright / hypomanic feeling are 5-HTP side effects (block 92), and serotonin syndrome is \"most often a multi-drug / stack problem\" (block 93); the first four sentences as they were",
+  "sha256": "e28ddae28ae5142d3779c5611330550730d55b627af3f7ba961407827ab28558"
+ },
+ {
+  "key": "b090",
+  "name": "Scott's 5-HTP and P5P, second try (its AI window only)",
+  "lineage": "ND1104-B090",
+  "scope": "paragraph",
+  "words": 65,
+  "call": "AI",
+  "chance": 0.45,
+  "why": "E350: only the sentence that read AI (Low) changed: its reason first (\"Since he's slow-COMT ...\"), and the post's \"More is not better\" said as speech (\"it's one of those things where more isn't better\") instead of a closing tag on a \"so X matters\" clause; the other two sentences as they were",
+  "sha256": "51f8f5c7212d99603e4e396fa61feceb795d5fd31dc03142ae0797ddc8bbdda6"
+ },
+ {
+  "key": "b091",
+  "name": "the 5-HTP trial, second try (his trial build)",
+  "lineage": "ND1104-B091",
+  "scope": "paragraph",
+  "words": 118,
+  "call": "AI",
+  "chance": 0.25,
+  "why": "his own trial build (X-84, the uridine trial, Human): \"do the trial with ...\", the things not to combine after their category in brackets with the reason joined on (\"since the point is to see whether the 5-HTP itself is doing anything\", the uridine paragraph's own reason), the first signs said as what you notice. E125: both lists are the protocol's, recorded",
+  "sha256": "c14df1ce8ca6d877393571f72626e4dc64887782b81f66258f960ebc5b0f4bff"
+ }
+]

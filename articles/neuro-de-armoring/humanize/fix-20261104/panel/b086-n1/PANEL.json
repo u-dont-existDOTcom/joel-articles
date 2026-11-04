@@ -1,0 +1,42 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Psychedelic caution: Don't take UMP on psychedelic days.",
+  "If it makes your dreams vivid or suddenly lowers your psychedelic tolerance, take that as a safety signal, and if you do use psychedelics later, assume your previous dose may now be too strong, since chasing the old visual threshold can overshoot."
+ ],
+ "flagged": {
+  "1": [
+   "codex",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph moves neatly from prohibition to warning signs to future precautions, with the long second sentence accumulating safeguards in a way that can feel machine-polished. These are weak stylistic cues, not reliable evidence of authorship."
+  ],
+  "haiku": [
+   "The paragraph is built as a label, a directive, a conditional and a justified closing clause, all tightly balanced and carrying the same careful hedging in each part, which gives it a polished, even rhythm."
+  ],
+  "sonnet": [
+   "The paragraph runs as a single compact warning: a blunt rule, then an if-then, then a downstream consequence, all in a smooth, even cadence with no personal voice or detail. It reads like advice assembled from a safety template."
+  ]
+ },
+ "human_clean": [
+  "Don't take UMP on psychedelic days.",
+  "Don't take UMP on psychedelic days.",
+  "Don't take UMP on psychedelic days."
+ ]
+}

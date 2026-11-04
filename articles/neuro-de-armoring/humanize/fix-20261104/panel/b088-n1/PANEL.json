@@ -1,0 +1,45 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Who this is for: 5-HTP is not for every depressed person either, only for a low-serotonin-looking pattern, where people have trouble falling asleep, their mood is low and lacks warmth, they get anxious at night and ruminate over the same things, and there's a genetic or clinical reason to suspect a bottleneck in serotonin synthesis.",
+  "Scott's genetic data suggested a TPH2 bottleneck, and 5-HTP helped his sleep and mood.",
+  "If you're already agitated or manic, on serotonergic meds, or using serotonergic psychedelics or entactogens, this isn't a casual experiment."
+ ],
+ "flagged": {
+  "1": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  3
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph follows a tidy explanatory sequence: identify a subgroup, enumerate symptoms, supply a supporting anecdote, and finish with a warning. That construction can read AI-polished, although none of these features reliably establishes authorship."
+  ],
+  "haiku": [
+   "The paragraph is built as a conditional definition: a label, an exclusion, a parallel symptom list, a specific case and a closing warning, with balanced clauses that give it a smooth, expository rhythm."
+  ],
+  "sonnet": [
+   "The paragraph follows a very orderly arc: who it suits, a short personal example, then who should avoid it, in even sentence lengths and a balanced, informative voice. The completeness and symmetry read more assembled than spontaneous."
+  ]
+ },
+ "human_clean": [
+  "Scott's genetic data suggested a TPH2 bottleneck",
+  "Scott's genetic data suggested a TPH2 bottleneck, and 5-HTP helped his sleep and mood.",
+  "Scott's genetic data suggested a TPH2 bottleneck, and 5-HTP helped his sleep and mood."
+ ]
+}

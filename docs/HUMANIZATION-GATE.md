@@ -2387,6 +2387,24 @@ His message, word for word: `articles/neuro-de-armoring/humanize/fix-20261104/jo
   split form (a statement's negated verb, then a sentence on the same subject with the contrast's verb: "It does", "That
   can"), but not an instruction ("Don't ...") or a next sentence with his "though" ("It could be helpful, though, ...");
   the tells registry's W118. The joined "Not X, but Y" stays a choice, not a reflex.
+- **E356. A lane runs its own Pangram web-app checks, and a rule from a turn's notes that the repository doesn't
+  hold doesn't close a route** (numbered after the gut lane's E353 to E355, pull request 293). Joel, 2026-11-04 16:12 UTC,
+  after the neuro de-armoring lane put six paragraphs on a page of copy buttons for him to check: "you don't need me to do
+  that, what are you talking about? you're not following the joel-articles and pangram humanization lab rules? why not?
+  every other lane is doing gui checks". The API had run out of credits (HTTP 402) and his 14:59 message said the web
+  app's credits were there. Three things made the ask: the lane had run every check through the API since 2 November;
+  its turn notes carried "never use Joel's browser, clipboard, cookies or profile", which no file in this repository
+  says and whose source was a summary of the lane's own notes, not him; and the shared web-app rules (the budget doc's
+  Substack and web-app sections, this gate's "The web app needs Joel's sign-in", his "you don't need my ok each time to
+  run the GUI pangram checks") weren't read before asking. The routes, checked in that order: the desktop app's browser
+  pane (that afternoon signed out of Pangram, with a "Verify you are human" box, which a worker never ticks), then Claude
+  in Chrome in his Brave, where he is signed in (his answer to the lane's question: "Use Claude in Chrome"). There,
+  `tools/humanization/pangram_page_helpers.js` types each text and checks its SHA-256 before the click, and the
+  results are read back from his history by SHA-256 (the lane's `fix-20261104/checks/record_gui.py` records each
+  window's confidence). The six checks ran the same hour: one Human Written, one AI Detected, four AI Generated
+  (`articles/neuro-de-armoring/humanize/fix-20261104/checks/x1104k/RESULTS.md`). Before asking Joel to do a step, read
+  the shared rules for it and try the routes they name; a rule that only a turn's notes carry is checked against the
+  repository and his words before it stops anything (AGENTS.md's paragraph on the API's credits says the same).
 
 (E342, E345, E347 to E349 and E351 are the gut lane's, in its section above. The next lesson in either lane is E353.)
 
