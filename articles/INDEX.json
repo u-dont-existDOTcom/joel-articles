@@ -111626,7 +111626,7 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/pangram-ledger.jsonl",
-          "sha256": "fd19f50a94c61c0bfc7c0580faeeca505b8887ff98b4257d1d1161246ae4ef35",
+          "sha256": "f149fa51c9abef4fe2c21171c6e70eba87f04ddf9f0bfaed0842e2a8cbd6faa3",
           "role": "humanization_working_record"
         },
         {
@@ -114897,6 +114897,11 @@
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/live/LIVE-CHECK-20261104b.json",
           "sha256": "a8364e7d513c4f1208184f8c004f3401e89606eaa687643fe01efb7b0c920c3d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r12/checks/texts/r12-article.txt",
+          "sha256": "975a72fa0bf27d3821520ae321e9b9c54c4e0c97b0e5ee02024e7fefcd30b529",
           "role": "humanization_working_record"
         }
       ]
