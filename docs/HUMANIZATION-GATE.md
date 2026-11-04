@@ -2252,6 +2252,12 @@ His message and his batch-1 page's answers, word for word: `articles/healing-the
   4. The blind meaning check reads a stated link as LINK, and fails it only when it is wrong or goes beyond the original's
      reasoning (`tools/humanization/meaning_check_brief.md`, the shared core every lane's brief starts from).
   Every expansion still has a purpose (his S2-2 rule, E342); a link is that purpose. Jokes stay his.
+  What the TCA item's last three tries showed the same day (`articles/healing-the-gut/humanize/fix-20261103/r04/tca/`):
+  every newcomer gap answered as a definition read AI High; as causes, AI; Codex's version from the panel's notes, AI,
+  with its bare "(TCA cycle intermediates)" at High. His two rewrites differ from all six in one more way: each kept the
+  sentences already there (two of them had read AI Low) and changed only the stretch where the link was missing. So when a
+  paragraph has a version already, find the window that reads AI, say the link that sentence skips, and leave the rest
+  standing; don't rewrite the whole paragraph. The item went to him, its six tries used.
 
 (The Inner Child lane's turn-116 lessons, written at the same time, are E337 and E338 (Inner Child), near the top. This section's E337 and E338 keep their numbers too, because this lane's records cite them: cite them as "E337 (gut)" and "E338 (gut)". The Inner Child lane's turn-117 lessons, written after them, are E340 and E341, near the top, and this section's E342 and E345 came after those; the neuro de-armoring lane's E343 and E344, written at the same time as E345, are in its pull request 287. The next lesson in either lane is E346.)
 

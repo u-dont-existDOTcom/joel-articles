@@ -29,7 +29,9 @@ meaning check reads it as LINK, not as an added fact (the fuels' brief, 2026-11-
 
 State each link as a cause or a consequence for the reader, in the flow ("they're already part of it, so your mitochondria
 can use them for energy directly"), not as a definition line: a TCA draft that answered all eleven gaps as glosses ("is
-just another name for", "are the compounds the cycle goes through") read AI High in one window (2026-11-04).
+just another name for", "are the compounds the cycle goes through") read AI High in one window (2026-11-04). And when the
+paragraph already has a version, state the link where the AI window is and keep the other sentences: Joel's two Human
+rewrites changed only that stretch; all six of my TCA tries rewrote the whole paragraph and read AI.
 """
 import argparse, json, pathlib, re, sys
 
