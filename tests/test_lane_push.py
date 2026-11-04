@@ -82,6 +82,31 @@ class LaneIntegration(unittest.TestCase):
             notes = P.integration_gate(P.parser().parse_args(['subject']))
         self.assertTrue(any('could not be read' in n for n in notes))
 
+    def test_files_are_paged_by_number_not_by_paginate(self):
+        # 2026-11-04: gh api --paginate follows next-page links by numeric repository id, which the session proxy
+        # refuses, so two pull requests over 100 files made the whole overlap check blind
+        calls = []
+
+        def run(cmd, check=True, timeout=600):
+            calls.append(cmd)
+            page = int(cmd[2].rsplit('page=', 1)[1])
+            out = '\n'.join('f%d_%d' % (page, i) for i in range(100 if page < 3 else 7))
+            return subprocess.CompletedProcess(cmd, 0, out, '')
+        with mock.patch.object(P, 'run', run):
+            files = P.pull_files('o', 'r', 199)
+        self.assertEqual(len(files), 207)
+        self.assertFalse(any('--paginate' in c for c in calls))
+
+    def test_one_unreadable_pull_request_does_not_blind_the_others(self):
+        pulls = {199: ('chat/big', None), 280: ('claude/other', ['docs/HUMANIZATION-GATE.md']),
+                 282: ('claude/lane', ['articles/x/a.md'])}
+        with mock.patch.object(P, 'run', self.fake(behind=False)), mock.patch.object(P, 'open_pulls', return_value=pulls):
+            with self.assertRaises(SystemExit) as e:
+                P.integration_gate(P.parser().parse_args(['subject']))
+            self.assertIn('#280', str(e.exception))
+            notes = P.integration_gate(P.parser().parse_args(['subject', '--overlap-ok', 'after theirs']))
+        self.assertTrue(any('#199' in n and 'could not be read' in n for n in notes))
+
 
 if __name__ == '__main__':
     unittest.main()

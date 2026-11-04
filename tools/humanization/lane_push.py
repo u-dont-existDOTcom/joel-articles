@@ -252,8 +252,26 @@ def main_gate():
                  len(behind), (':\n  ' + '\n  '.join(files)) if files else ' (none this time)'))
 
 
+def pull_files(owner, repo, num):
+    """The files an open pull request changes, or None when they can't be read. Pages are fetched by number:
+    `gh api --paginate` follows GitHub's next-page links, which name the repository by its numeric id, and the session
+    proxy refuses those (2026-11-04: pull requests 199 and 200, over 100 files each, blinded the whole check)."""
+    files = []
+    for page in range(1, 31):  # GitHub lists at most 3000 files for a pull request
+        f = run(['gh', 'api', 'repos/%s/%s/pulls/%s/files?per_page=100&page=%d' % (owner, repo, num, page),
+                 '--jq', '.[].filename'], check=False)
+        if f.returncode:
+            return None
+        got = f.stdout.split()
+        files += got
+        if len(got) < 100:
+            break
+    return files
+
+
 def open_pulls():
-    """{number: (branch, files)} for every open pull request, or None when GitHub can't be read."""
+    """{number: (branch, files)} for every open pull request, or None when the list can't be read. A pull request whose
+    files can't be read has files None, and the gate names it rather than going blind to the others."""
     owner, repo = owner_repo()
     r = run(['gh', 'api', 'repos/%s/%s/pulls?state=open&per_page=100' % (owner, repo), '--jq',
              '.[] | (.number|tostring) + " " + .head.ref'], check=False)
@@ -264,11 +282,7 @@ def open_pulls():
         if not line.strip():
             continue
         num, branch = line.split(' ', 1)
-        f = run(['gh', 'api', '--paginate', 'repos/%s/%s/pulls/%s/files' % (owner, repo, num), '--jq', '.[].filename'],
-                check=False)
-        if f.returncode:
-            return None
-        out[int(num)] = (branch, f.stdout.split())
+        out[int(num)] = (branch, pull_files(owner, repo, num))
     return out
 
 
@@ -290,7 +304,11 @@ def integration_gate(a, extra_paths=()):
                  'main and the other lanes: push with --pr "TITLE" --pr-body FILE.' % branch)
     changed = run(['git', 'diff', '--name-only', 'origin/main...HEAD'], check=False).stdout.split()
     changed += run(['git', 'diff', '--name-only', 'HEAD'], check=False).stdout.split() + list(extra_paths)
-    others = {n: v for n, v in pulls.items() if v[0] != branch}
+    others = {n: v for n, v in pulls.items() if v[0] != branch and v[1] is not None}
+    unread = sorted(n for n, v in pulls.items() if v[0] != branch and v[1] is None)
+    if unread and shared(changed):
+        notes.append('warning: the files of open pull request(s) %s could not be read, so their overlap with this push\'s '
+                     'shared files is checked again on the next push' % ', '.join('#%d' % n for n in unread))
     both = overlaps(changed, others)
     if both and not a.overlap_ok:
         sys.exit('refused: other open pull requests change the same shared files (gate E339). Read each one\'s change, build '

@@ -2193,7 +2193,9 @@ His message and his batch-1 page's answers, word for word: `articles/healing-the
     changes and `--overlap-ok` doesn't say how this builds on it. It installs the pre-push hook, which now refuses any push
     without `LANE_PUSH=1` (set by `lane_push.py`) or a `LANE_PUSH_BYPASS` reason. `lane_mailbox.py record` installs the
     hook too and reports whether main is merged, at the start of the turn. A GitHub API outage prints what failed and
-    doesn't stop a push, as with the mailbox. Tests: `tests/test_lane_push.py` (LaneIntegration) and
+    doesn't stop a push, as with the mailbox. A pull request whose files can't be read is named in a warning, and the
+    others are still checked; files are read a numbered page at a time, because `gh api --paginate` follows links the
+    session proxy refuses (its first push went blind that way, on #199 and #200). Tests: `tests/test_lane_push.py` (LaneIntegration) and
     `tests/test_humanization_tools.py` (the hook's route).
 - **E342. His fix for a dense science paragraph: a plain definition first, one step a sentence, each gloss in
   the flow, and only expansions that clarify.** The mitochondrial fuels read AI in five versions (two writers', a
