@@ -18,6 +18,8 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-04, after Joel's answers of 12:06 UTC (all 12 cards approved; "5a"): the cards in; block 82 has no Low window now; block 83's Low window and W-17 are on the cards page; question 6 waiting.**
+  HUMANIZED-SO-FAR.md is 3c68e8e2. Lesson E350 (a Low window is fixed in its own sentence only). See the Next step.
 - **2026-11-04, after Joel's answers of 10:39 UTC ("3a 4a"): 3a in; both uridine paragraphs read Human Written; ten warnings cards; question 5 waiting.**
   HUMANIZED-SO-FAR.md is e5ead544 (3a). The two paragraphs are cards Y-82 (my try 5) and Y-83 (Codex's rewrite) on
   Neuro De-Armoring Cards, 4 November, with ten warnings cards. A paragraph that has read AI twice now goes to the tell
@@ -71,7 +73,27 @@ All of the article is his published post. His queue's rule: "Paragraphs that alr
 stay exactly as they are." Everything else is rewritten in his register and reaches him as cards, each tested first. The
 Scott passages, the introduction and the D-serine paragraph in Part 4 sound most like him.
 
-## Next step (2026-11-04, after Joel's answers of 10:39 UTC: question 5, twelve cards)
+## Next step (2026-11-04, after Joel's answers of 12:06 UTC: question 6, two cards)
+
+Done (STATUS.md's entry for 2026-11-04 12:06 has every file and number). Waiting on him: question 6 (five generic lines)
+and the two cards on Neuro De-Armoring Cards, 4 November (2) (`fix-20261104/cards/REVIEW-X1104C.md`; review id
+neuro-de-armoring-cards-20261104-x1104c): Y-83b, block 83's Low window for his help (a stretch to edit), and W-17.
+
+Next:
+1. **His answers**: each answer's words saved first. A version he writes of Y-83b goes in as written and is checked by
+   itself only where he hasn't (lineage ND1104-B083b has used two of its six tries), and what it does goes into
+   `fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md`. W-17 approved goes in with a script like
+   `fix-20261104/cards/apply_cards_x1104.py` (its "owner_changes" from the fidelity check's difference). Question 6 b) or
+   c): the lines he names cut, the same way.
+2. **Then the rest of the article, one paragraph at a time** (E343): the moves in `fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md`;
+   each paragraph checked by itself with its prediction (`fix-20261104/checks/predict_batch.py`); after two AI reads the
+   tell panel (`tools/humanization/tell_panel.py`, E346); after a failed panel draft of mine, a draft from Codex
+   (`tell_panel.py rewrite-prompt`, E256). A paragraph that reads Human with a Low window: that sentence only (E350);
+   Medium windows usually aren't a big issue (Joel, 12:06 UTC).
+3. **Then** a section check (free, a temporary Substack draft, or the web app for five or six paragraphs), the owner-
+   delivery gate, the word-for-sense read (SKILL.md), and his post (E332, the title's date, E323).
+
+## Earlier next step (2026-11-04, after Joel's answers of 10:39 UTC: question 5, twelve cards)
 
 Done (STATUS.md's entry for 2026-11-04 10:39 has every file and number). Waiting on him: question 5 (more tries for
 blocks 82 and 83, whose lineages ND1104-B082 and ND1104-B083 have used their six) and the 12 cards on Neuro De-Armoring

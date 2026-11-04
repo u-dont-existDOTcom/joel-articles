@@ -2302,7 +2302,20 @@ His message, word for word: `articles/neuro-de-armoring/humanize/fix-20261104/jo
   paragraph's Medium and Low windows took it from Human Written to 30.3% AI, so a passing version stays until a try reads
   better (`articles/neuro-de-armoring/humanize/fix-20261104/checks/`, batches x1104e and x1104f).
 
-(E342 and E345 are the gut lane's, merged in pull request 286. The next lesson in either lane is E347.)
+- **E350. A Low window in a paragraph that reads Human is fixed in that window's sentence only.** Joel, 2026-11-04 12:06
+  UTC: "low windows can easily flip to AI in different segmentations, medium aren't a big issue usually". The uridine
+  section's two paragraphs each read Human Written with a Low window. A rewrite of more than that window moved the others:
+  Codex's whole rewrite of the evidence paragraph read 62.4% AI, its opening down from High; my rewrite of the last three
+  sentences of Scott's read 84.6% AI, its untouched first sentences down from High to AI Low. Changing only the evidence
+  paragraph's Low sentence (the old rats) took that window to Medium and the closer to High, with nothing Low left. But in
+  Scott's, changing only the sentence the panel and the window pointed at ("It does suggest ...") turned the whole
+  paragraph to 99.99% AI, the untouched sentences included: a sentence the readers flag can be the one holding the
+  paragraph up. So the window's own sentence is changed by itself, checked, and kept only if the paragraph reads better;
+  when a one-sentence change moves sentences it didn't touch, that stretch goes to him (`fix-20261104/checks/x1104h`,
+  `x1104i`; the stretch is card Y-83b).
+
+(E342 and E345 are the gut lane's, merged in pull request 286, and E347 to E349 are the gut lane's too, in its open pull
+request 289. The next lesson in either lane is E351.)
 
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)

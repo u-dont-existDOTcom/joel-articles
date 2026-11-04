@@ -847,6 +847,47 @@
     }
    ],
    "recorded_utc": "2026-11-04T10:39Z"
+  },
+  {
+   "turn": "2026-11-04T12:06Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items in the lane (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); UDA main c5c9951; its live AGENTS.md (blob 5160080) and LESSON-INDEX (7896422) unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 287 (this lane's) merged by Joel at 11:36 UTC; new since 10:39: 289 (Healing the Gut r05, open); 280 and 288 still open; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to this lane's handoff note or questions page (main's articles/neuro-de-armoring matches the branch); the branch fast-forwarded to main 999d6b91"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 2026-11-04 12:06 UTC: the cards page's answers (all 12 approved) and '5a and if you can't figure it out i can help, low windows can easily flip to AI in different segmentations, medium aren't a big issue usually'",
+     "outcome": "saved word for word; the 12 cards into the article; 5a: two more tries each for blocks 82 and 83, aimed at their Low windows"
+    },
+    {
+     "item": "pull request 287 merged",
+     "outcome": "the lane goes on from main on the same branch; a new pull request at this turn's push"
+    }
+   ],
+   "recorded_utc": "2026-11-04T12:08Z"
   }
  ]
 }

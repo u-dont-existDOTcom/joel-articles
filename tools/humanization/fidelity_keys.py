@@ -32,6 +32,12 @@ What his own version leaves out. When a version of his drops a compound or a war
 never put back over his words. Until he answers, KEYS.json's "owner_open" holds it ({"term" or "unit", "by": where he
 wrote the version, "question": the question that asks him}): the check doesn't count it lost, lists it as open with him,
 and still fails on anything else lost.
+
+What his approved cards change. When he approves a card that changes the protocol itself (a warning cut, a dose the
+studies support), KEYS.json's "owner_changes" records what that card took out and put in ({"by": his answers file and the
+card, "numbers_lost", "numbers_new", "terms_lost": [...], "keys_lost": {a warning's id: [its keys the card took out]}}):
+the check reads those as his and still fails on anything else. The script that puts his answers in writes each entry from
+the check's own difference before and after that card, so nothing goes in that the card didn't change.
 """
 import argparse
 import collections
@@ -186,6 +192,27 @@ def check(keys, draft):
     for u in units:
         u['keys'] = [[dash(norm(x)) for x in k] for k in u['keys']]
     lost_warnings = pk.check({'units': units}, draft_paras)
+    # what his approved cards changed (keys['owner_changes']): his, neither lost nor new
+    changes = []
+    for c in keys.get('owner_changes', []):
+        if not str(c.get('by', '')).strip():
+            raise ValueError('owner_changes entry without the answers file and card that approved it: %r' % (c,))
+        for n in c.get('numbers_lost', []):
+            if n in lost_numbers:
+                lost_numbers.remove(n)
+        for n in c.get('numbers_new', []):
+            if n in new_numbers:
+                new_numbers.remove(n)
+        for t in c.get('terms_lost', []):
+            if t in lost_terms:
+                lost_terms.remove(t)
+        for uid, ks in (c.get('keys_lost') or {}).items():
+            out = {tuple(sorted(pk.normalize(x) for x in k)) for k in ks}
+            for u in lost_warnings:
+                if u['id'] == uid:
+                    u['missing'] = [k for k in u['missing'] if tuple(sorted(pk.normalize(x) for x in k)) not in out]
+        lost_warnings = [u for u in lost_warnings if u['missing']]
+        changes.append(c.get('by'))
     # what his own version left out, held open until he answers (keys['owner_open']): not lost, not passed either
     open_ = []
     for o in keys.get('owner_open', []):
@@ -208,7 +235,7 @@ def check(keys, draft):
         if hit:
             open_.append(o)
     return {'numbers_lost': lost_numbers, 'numbers_new': new_numbers, 'terms_lost': lost_terms,
-            'warnings_lost': lost_warnings, 'open_with_owner': open_,
+            'warnings_lost': lost_warnings, 'open_with_owner': open_, 'owner_changes': changes,
             'pass': not (lost_numbers or new_numbers or lost_terms or lost_warnings)}
 
 

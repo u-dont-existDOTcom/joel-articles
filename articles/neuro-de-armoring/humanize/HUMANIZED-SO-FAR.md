@@ -28,13 +28,13 @@ The armored brain projects its own internal threat level onto neutral faces. You
 
 Agmatine Warning (The Voltage Governor): Agmatine is not a basic nutrient like magnesium or a membrane nutrient like phosphatidylcholine. It is a multi-target neuromodulator that can affect NMDA/glutamate signaling, imidazoline/alpha-2 adrenergic tone, nitric-oxide pathways, and opioid reward/tolerance.
 
-Precautions/Side Effects: Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications, nitrates, PDE-5 inhibitors, MAOIs, or other complex "psych" stacks without having a physician competent to consider the likelihoods of problematic interactions. Not recommended for use in pregnancy or breast-feeding. Use with extreme caution in those with bipolar disorder, prior psychotic episode, unstable panic disorder, lower end blood pressure, kidney or liver issues, or those with a currently-high likelihood of relapsing in addictions.
+Precautions/Side Effects: Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex "psych" stacks without having a physician competent to consider the likelihoods of problematic interactions. Not recommended for use in pregnancy or breast-feeding. Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues.
 
-Stop immediately if it causes flatness, anhedonia, emotional blunting, new depression, agitation, insomnia, dizziness, palpitations, nausea, loose stools, diarrhea, or increased craving. Do not "push through" numbness. If agmatine makes the world more gray, it is the wrong tool for that phase.
+Stop immediately if it causes flatness, anhedonia, emotional blunting, new depression, agitation, insomnia, dizziness, palpitations, nausea, loose stools, diarrhea, or increased craving. Only the stomach problems showed up in the human trials, but the flatness happens in practice, so do not "push through" numbness. If agmatine makes the world more gray, it is the wrong tool for that phase.
 
 Uridine & 5-HTP Warning for Psychedelic Users: These are not "trip enhancers." They are repair-oriented levers that can change brain sensitivity quickly. 5-HTP is serotonergic because it is a direct serotonin precursor. Do not combine it with SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John's wort, SAM-e, L-tryptophan, or other serotonin-raising stacks without clinician review. Be especially conservative around ayahuasca / harmalas because MAO-A inhibition can amplify serotonin load, and around iboga / ibogaine because ibogaine and noribogaine interact with serotonin transport biology and already carry serious cardiac and neurological risk.
 
-Rule: do not take 5-HTP on the same day as psychedelics, and do not use it anywhere near ayahuasca/harmalas or iboga unless the whole medicine plan has been medically reviewed. Uridine is not serotonergic, but it may still change dream vividness, visual sensitivity, craving, and psychedelic tolerance. Do not take UMP on the same day as psychedelics; if sensitivity changes, assume your old psychedelic dose may now be too high.
+Rule: do not take 5-HTP on the same day as psychedelics, and do not use it anywhere near ayahuasca/harmalas or iboga unless the whole medicine plan has been medically reviewed. Uridine is not serotonergic, but it may still change dream vividness, visual sensitivity, craving, and psychedelic tolerance; that's from experience, like Scott's below, not from studies. Do not take UMP on the same day as psychedelics; if sensitivity changes, assume your old psychedelic dose may now be too high.
 
 ## Psychology is the Software; Biology is the Hardware.
 
@@ -134,7 +134,7 @@ Before ketones, before D-Serine, address cortisol directly – because cortisol 
 
 Who it's for: People running high or *reactive* cortisol – the "wired and tired," can't-downshift, waking-at-3-a.m. type. This includes many people with slow COMT (the Val158Met variant that clears catecholamines slowly, so stress hormones linger and you stay on high alert). One friend, Scott, with exactly this profile got more out of PS than anything else in this protocol. Be honest about the evidence, though: the cortisol-lowering effect is best documented in *chronically stressed* people; the slow-COMT angle is mechanism plus my own observation, not a controlled finding.
 
-Dose: 300–600 mg/day, taken earlier in the day. Below ~300 mg the cortisol effect is unreliable; above ~800 mg adds nothing.
+Dose: about 400 mg/day, taken earlier in the day. In the stress studies, which used a PS complex, 400 mg blunted the cortisol response, while 200 mg did nothing and 600 or 800 mg didn't either.
 
 Food instead of capsules: One of the few supplements you can actually eat your way to. Atlantic mackerel (~480 mg/100g) and herring (~360 mg) are richest; tuna is lower (~194 mg). A 200g mackerel fillet ≈ 960 mg PS – above clinical doses. (Don't lean on tuna daily – mercury.)
 
@@ -144,7 +144,7 @@ Flat / numb / no drive – you've over-suppressed. Classic too-little-cortisol.
 
 More wired, not less – racing thoughts, 3 a.m. waking, irritability, vivid or stressful dreams. Counterintuitive but real: when cortisol drops too far, the body leans on adrenaline to hold up blood pressure and alertness, and you feel *more* stressed, not less.
 
-Either one means PS is the wrong tool for you *right now*. Don't raise the dose to push through – stop. If you want to know before you start, a 4-point salivary cortisol test tells you whether you're actually high. (A minority also report low blood pressure, water-weight gain, or restless legs – all consistent with cortisol going too low.)
+Either one means PS is the wrong tool for you *right now*. Don't raise the dose to push through – stop. If you want to know before you start, a 4-point salivary cortisol test tells you whether you're actually high.
 
 The rule of thumb if you can't test: Wired, tired, can't switch off, 3 a.m. waking → probably high, PS is worth a trial. Numb, low-drive, flat → probably *not* high; PS will likely make it worse. Skip it or test first.
 
@@ -162,13 +162,13 @@ Agmatine is different from both. It is an optional glutamate/NO/imidazoline "vol
 
 Who this is for: Uridine isn't for everyone with depression. It could be helpful, though, for folks that show a "burned-out dopamine receptor" pattern, where everything feels gray and there's no desire for anything (anhedonia). These folks also find that dreams and psychedelic visuals are weak, so they need unusually high doses to feel anything, and as a result they tend to compulsively reach for ketamine/LSD/novelty just to get a hit. In the medical literature, this burnout pattern is talked about with regard to [dopamine agonist withdrawal syndrome](https://pubmed.ncbi.nlm.nih.gov/23686524/) (DAWS). People with DAWS, after tapering off dopamine agonist drugs (like pramipexole or ropinirole), present with symptoms of anxiety, panic, dysphoria, depression, agitation, fatigue, autonomic symptoms, pain, and drug cravings. Scott's case looked like DAWS with dopamine receptor D2/D3 reward-system downregulation, which then got worse from frequent LSD microdosing and from trying to force dopamine hits with ketamine.
 
-The tool:Uridine monophosphate (UMP). The best evidence is not "UMP cures DAWS"; that study does not exist. The evidence is more basic: uridine, choline, and DHA are circulating precursors for brain phosphatide / synaptic membrane synthesis. Wurtman's group has shown that [DHA + uridine + choline can increase synaptic membrane components and synaptic proteins](https://pmc.ncbi.nlm.nih.gov/articles/PMC4011061/), that [DHA-induced dendritic spine formation is enhanced by UMP](https://pmc.ncbi.nlm.nih.gov/articles/PMC2140951/) in animals, and that [dietary UMP increased potassium-evoked dopamine release and neurite outgrowth in aged rats](https://pubmed.ncbi.nlm.nih.gov/16055952/). So the mechanism is plausible, but the DAWS use is still a cautious human extrapolation plus anecdote.
+The tool: Uridine monophosphate (UMP). There's no study showing that "UMP cures DAWS", only more basic research on what uridine, choline, and DHA do in the brain. All three get carried in the blood to the brain, which uses them to make the fatty membranes at its synapses (circulating precursors for brain phosphatide / synaptic membrane synthesis). Wurtman's research group found that [giving the three together can increase synaptic membrane components and synaptic proteins](https://pmc.ncbi.nlm.nih.gov/articles/PMC4011061/), and that in animals, adding UMP to DHA made the neurons grow more new connection points ([DHA-induced dendritic spine formation](https://pmc.ncbi.nlm.nih.gov/articles/PMC2140951/)). And [in old rats, UMP in their food meant their neurons put out more dopamine when stimulated with potassium, and grew more nerve fibers](https://pubmed.ncbi.nlm.nih.gov/16055952/). So it's plausible that it works on the synapses this way, but using it for DAWS in people means carefully extrapolating from those studies and from anecdotes like Scott's.
 
-Scott's signal: Scott already had choline from eggs and DHA/EPA from fish oil. After adding standard-dose UMP, he got a striking response within a day: vivid dreams returned, real childhood memories came back in dreams, psychedelic tolerance seemed to drop, and ketamine/LSD craving fell hard. That does not prove UMP rebuilt D3 receptors overnight. It does suggest that, in the right person, UMP can be a very clean signal that the synaptic-membrane / dopamine-receptor-recovery axis was starved.
+Scott added a standard dose of UMP, and within a day his ketamine/LSD cravings fell hard. He already had choline covered with eggs, and took fish oil for DHA/EPA. His psychedelic tolerance seemed to drop too. You can't tell from this whether UMP rebuilt his D3 receptors overnight. It does suggest that in the right person, UMP can show you very clearly when the brain's system for rebuilding synaptic membranes and recovering dopamine receptors has been starved of building materials. Scott was having vivid dreams again too, with real childhood memories coming back in them.
 
 Do a trial with 150-300mg Uridine, in the morning with food. It shouldn't take more than 3 to 7 days to get an idea of whether or not it's beneficial. Keep your Omega-3's up, especially DHA and EPA. Make sure you have sufficient Choline - from eggs, Phosphatidylcholine, CDP-choline, etc, whichever works best for you. Don't start the uridine at the same time as starting some other major variable (like 5-HTP, Agmatine, D-serine, Keto diet, Iboga, Shrooms, LSD, Ketamine, etc), since the point is to see whether uridine itself changes the signal.
 
-Side effects / stop signs: The most common problem is the "choline headache" or spaced-out brain fog: if UMP accelerates membrane synthesis while choline availability is low, the system can feel under-supplied. Other stop signs include insomnia, jitteriness, racing thoughts, irritability, emotional flatness, nausea, stomach cramps, or loose stools. If it makes you wired, numb, or weirdly irritable, stop. Do not push through.
+Side effects / stop signs: In practice, the most common problem is the "choline headache" or spaced-out brain fog. It isn't in the studies, but the likely reason is that if UMP accelerates membrane synthesis while choline availability is low, the system can feel under-supplied. Other stop signs include insomnia, jitteriness, racing thoughts, irritability, emotional flatness, nausea, stomach cramps, or loose stools. If it makes you wired, numb, or weirdly irritable, stop. Do not push through.
 
 Psychedelic caution: If UMP makes dreams vivid or suddenly lowers psychedelic tolerance, treat that as a safety signal. Do not take UMP on psychedelic days. If you use psychedelics later, assume your previous dose may be too strong and that chasing the old visual threshold can overshoot.
 
@@ -220,9 +220,9 @@ Mechanism: Potassium Channels (KCNQ).
 
 The Science: Your neurons have "brakes" called KCNQ channels that stop them from firing uncontrollably. These brakes run on Potassium ions. If you are low on potassium (common in high stress), your brakes fail. You can push the pedal (breathe), but the car won't stop.
 
-The Mandate: You must hit 4,700 mg of Potassium daily.
+The Target: Aim for 4,700 mg of Potassium daily.
 
-The Source: Food Only. (Supplements are dangerous and limited to 99mg).
+The Source: Food Only. (Supplements are limited to 99mg, and bigger doses need a doctor's supervision.)
 
 The Menu (The "Shield" Foods):
 
@@ -248,7 +248,7 @@ Function: It acts as a "Guardian of the Proteasome," preventing the premature de
 
 NAC: 1.8g – 2.4g (divided doses). *Mops up glutamate.*
 
-Agmatine Sulfate (Optional Trial): Start with 250–500 mg in the morning or early afternoon for 3 days. If it clearly reduces the hot/itchy/reactive state without flattening mood, use 500 mg once or twice daily. For this protocol, cap at 1 g/day unless clinician-supervised.
+Agmatine Sulfate (Optional Trial): Start with 250–500 mg in the morning or early afternoon for 3 days. If it clearly reduces the hot/itchy/reactive state without flattening mood, use 500 mg once or twice daily. For this protocol, cap at 1 g/day.
 
 Best fit: Glutamate Storm + rumination/compulsion + inflammatory or neuropathic "pain-y" body state.
 
@@ -306,7 +306,7 @@ Use L-Serine for daily maintenance and background hardware support.
 
 Use D-Serine for acute sessions where you need to "force" memory reconsolidation. [Best price from LifeLab](https://www.lifelabsupplements.com/d-serine). You should take it 45 minutes or so after taking PQQ & Ketones so that your brain is fueled when the GluD dial is turned down.
 
-Warning: Direct D-Serine carries a higher renal (kidney) load than L-Serine. Do not exceed 30mg/kg and ensure high water intake. This risk is compounded by the higher renal load caused by a keto diet or high protein intake.
+Warning: High doses of D-Serine damaged the kidneys in rat studies, so it carries a kidney caution, though kidney problems have been rare in human studies. Do not exceed 30mg/kg and ensure high water intake.
 
 ### Scenario B: The "Fog"
 
@@ -342,7 +342,7 @@ Weeks 1–2: The Glutamate Storm (Anxiety Phase)Protocol:Self-care: Hot & cold s
 
 Supplement daily:
 
-Phosphatidylserine 300–600 mg earlier in the day only if you fit the high-cortisol profile + 1 cup broccoli sprouts + Magnesium Glycinate 400 mg + NAC 1.8–2.4 g divided.
+Phosphatidylserine about 400 mg earlier in the day only if you fit the high-cortisol profile + 1 cup broccoli sprouts + Magnesium Glycinate 400 mg + NAC 1.8–2.4 g divided.
 
 Optional add-on: Agmatine Sulfate 250–500 mg AM, increasing to 500 mg twice daily only if it clearly reduces the hot/itchy/reactive state without flattening mood. Cap at 1 g/day in this protocol. Do not add agmatine on the same day you increase PS, start D-Serine, change NAC dose, begin keto, microdose, or introduce any other major variable.
 
