@@ -270,21 +270,21 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| healing the gut article | 90 | 66 (73%) | 54% | 46% | 46% | 0.174 (base 0.248, 90) |
-| **all lanes** | 90 | 66 (73%) | 54% | 46% | 46% | 0.174 (base 0.248, 90) |
+| healing the gut article | 95 | 69 (73%) | 55% | 45% | 47% | 0.174 (base 0.248, 95) |
+| **all lanes** | 95 | 69 (73%) | 55% | 45% | 47% | 0.174 (base 0.248, 95) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| healing the gut article | 90 | 66 (73%) | 54% | 46% | 46% | 0.174 (base 0.248, 90) |
+| healing the gut article | 95 | 69 (73%) | 55% | 45% | 47% | 0.174 (base 0.248, 95) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 85 | 61 (72%) | 56% | 44% | 44% | 0.181 (base 0.246, 85) |
-| section | 5 | 5 (100%) | 20% | 80% | 80% | 0.050 (base 0.160, 5) |
+| paragraph | 88 | 63 (72%) | 56% | 44% | 45% | 0.180 (base 0.247, 88) |
+| section | 7 | 6 (86%) | 43% | 57% | 71% | 0.100 (base 0.245, 7) |
 
 ## What the misses say (since the ledger)
 
@@ -297,12 +297,12 @@ The boundary mix over all lanes:
 | a paragraph alone is harsher than the article | 8 | inner child guide, nibbana article |
 | balanced closer kept | 4 | healing the gut article, hypnosis guide |
 | model-over-pessimism | 4 | healing the gut article |
+| context: red in the whole guide, Human in the pair | 3 | healing the gut article, hypnosis guide |
 | an added move read AI | 3 | inner child guide |
 | the section read differently from the paragraph alone | 3 | inner child guide |
 | too pessimistic about a rewrite | 3 | inner child guide |
 | pessimism | 2 | community article, nibbana article |
 | parallel list kept | 2 | hypnosis guide |
-| context: red in the whole guide, Human in the pair | 2 | hypnosis guide |
 | six versions, same reading: the method is spent | 2 | hypnosis guide |
 | the fix made its stretch worse | 2 | hypnosis guide |
 | pessimism about cuts | 2 | hypnosis guide |
@@ -371,6 +371,7 @@ The boundary mix over all lanes:
 | reader-question-did-not-carry | 1 | healing the gut article |
 | links stated as a glossary | 1 | healing the gut article |
 | every sentence a so-chain | 1 | healing the gut article |
+| my new claims in an explainer's frame | 1 | healing the gut article |
 
 A cause that repeats becomes a check that runs before Pangram (a linter rule, a gate step or a predictor feature); a miss nobody can explain goes to Joel with the passage.
 
