@@ -43,6 +43,43 @@
     }
    ],
    "recorded_utc": "2026-11-04T13:56Z"
+  },
+  {
+   "turn": "2026-11-04T14:28Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items in the lane (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); UDA main c5c9951; its live AGENTS.md (blob 5160080) and LESSON-INDEX (7896422) unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's 290 in conflict with main again (mergeable_state dirty), as Joel said: 292 (Inner Child turn 122) merged at 14:27 with its own changes to state/MAILBOX.json, which this branch also changed; 293 (gut, the whole-article check) opened; 280 still open; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to this lane's handoff note or questions page"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 2026-11-04 14:28 UTC: 'pr 290 has conflicts'",
+     "outcome": "main merged; the branch's state/MAILBOX.json set to main's, its own records moved to state/mailbox/claude-community-joel-1018.json, so the pull request no longer touches the shared file; lane_push.py now does that itself before every push"
+    }
+   ],
+   "recorded_utc": "2026-11-04T14:29Z"
   }
  ]
 }
