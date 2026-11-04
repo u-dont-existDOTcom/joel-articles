@@ -1,0 +1,90 @@
+[
+ {
+  "sentence": 1,
+  "quote": "resistant starch",
+  "gap": "What is resistant starch? None of the stacks above mentioned it. Is it part of them, or something else I'd be taking?",
+  "id": "L1",
+  "status": "drop",
+  "note": "Resistant starch is on the Leaky gut list earlier (\"Resistant starch to feed the good bacteria in your gut\"); explaining it here would say it twice (E349)."
+ },
+ {
+  "sentence": 1,
+  "quote": "Start with low doses",
+  "gap": "Why start low? What goes wrong if I take a full dose straight away?",
+  "id": "L2",
+  "answer": "because at full doses they can all give you gas, bloating or an upset stomach at first",
+  "raised": "Start with low doses"
+ },
+ {
+  "sentence": 1,
+  "quote": "low doses",
+  "gap": "Low compared to what, the dose on the label? And once I've started low, when and how do I go up?",
+  "id": "L3",
+  "answer": "then build up as your gut gets used to them",
+  "raised": "at full doses"
+ },
+ {
+  "sentence": 1,
+  "quote": "especially of prebiotics, resistant starch, butyrate-support products and probiotics",
+  "gap": "Why these ones in particular and not the barrier nutrients like glutamine or zinc carnosine? What is it about these that makes a big dose a problem?",
+  "id": "L4",
+  "answer": "they can all give you gas, bloating or an upset stomach",
+  "raised": "especially of prebiotics"
+ },
+ {
+  "sentence": 2,
+  "quote": "GI bleeding",
+  "gap": "What does \"GI\" mean?",
+  "id": "L5",
+  "answer": "bleeding from your gut",
+  "raised": "bleeding from your gut"
+ },
+ {
+  "sentence": 2,
+  "quote": "an active IBD flare",
+  "gap": "What is IBD, and what is a \"flare\" of it?",
+  "id": "L6",
+  "status": "drop",
+  "note": "IBD is named earlier with its two kinds, in the glutamine dose (\"active IBD (Crohn's or colitis)\"); a flare is plain English."
+ },
+ {
+  "sentence": 2,
+  "quote": "immune suppression",
+  "gap": "What counts as immune suppression: a weak immune system in general, or taking drugs that turn it down? How would I know if I have it?",
+  "id": "L7",
+  "status": "drop",
+  "note": "A label on the generic clinician list, which E344 leaves to Joel; what counts is his call, not a guess of mine."
+ },
+ {
+  "sentence": 2,
+  "quote": "another complex medical condition",
+  "gap": "What makes a condition \"complex\"? How do I tell whether mine counts?",
+  "id": "L8",
+  "status": "drop",
+  "note": "The same: the list's catch-all, his call."
+ },
+ {
+  "sentence": 2,
+  "quote": "if you have severe pain, GI bleeding, fever, dehydration, rapid weight loss, an active IBD flare, cancer, immune suppression, a pregnancy, or another complex medical condition",
+  "gap": "Why do these make supplements unsafe to take on my own? Could the supplements themselves harm me with these conditions, or is it that these signs might mean something serious that needs checking first?",
+  "id": "L9",
+  "answer": "the first few can be signs of something that needs a doctor, and the rest can change what's safe for you to take",
+  "raised": "or another complex medical condition"
+ },
+ {
+  "sentence": 2,
+  "quote": "don't stack supplements on your own",
+  "gap": "Does this mean I shouldn't take any of these supplements, or is one fine and only combining several is the problem?",
+  "id": "L10",
+  "answer": "instead of stacking supplements on your own",
+  "raised": "instead of stacking supplements on your own"
+ },
+ {
+  "sentence": 2,
+  "quote": "a qualified clinician",
+  "gap": "Qualified in what? An ordinary doctor, a gut specialist, or someone who knows these supplements?",
+  "id": "L11",
+  "status": "drop",
+  "note": "The original says a qualified clinician and no more; which kind is a question for Joel, not a guess in his text."
+ }
+]
