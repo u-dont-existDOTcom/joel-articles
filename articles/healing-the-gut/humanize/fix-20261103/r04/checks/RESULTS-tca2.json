@@ -1,0 +1,31 @@
+{
+ "r04-fuel-tca-2": {
+  "sha256": "01e5563638bd1150ef3982220f017d4203ff90dc2102ff1b8b98fde69875794d",
+  "words": 106,
+  "prediction_short": "AI",
+  "fraction_human": 0.005538473837077618,
+  "fraction_ai": 0.9944615364074707,
+  "version": "4.1",
+  "link": "https://www.pangram.com/history/e84378ae-d2b3-41e7-83b5-0ad32db69a49",
+  "windows": [
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "words": 11,
+    "text": "Malic and citric acid are what's called TCA cycle intermediates."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "words": 33,
+    "text": " TCA is another name for the citric acid cycle, the one the glutamine ends up in, and these acids are already part of it, so your mitochondria can use them for energy directly."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 66,
+    "text": " They're the acids that make green apples and tart cherries sour, so eating clean sour stuff like that, or taking organic malic acid, gets the cells lining your gut another fuel, and quickly. Glutamine has to be turned into α-KG first, so that's a different biochemical route, but either way those cells then use the extra energy to heal the gut lining faster."
+   }
+  ]
+ }
+}
