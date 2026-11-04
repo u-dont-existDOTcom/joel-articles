@@ -1,0 +1,64 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "neuro-de-armoring-cards-20261104-x1104e",
+ "title": "Neuro De-Armoring Cards, 4 November (4)",
+ "intro": [
+  "Two stretches of the 5-HTP section for you to edit. I checked both myself in Pangram's web app, one paragraph at a time. The stop signs read AI in all five versions, mine and Codex's. The interactions paragraph reads Human now, with one Low window over a case story I added.",
+  "The first card shows your post's paragraph; the second shows my version, which is in the article. Edit it the way you would, or keep it as it is.",
+  "Your answers save as you click. When you're done, click <b>Copy my answers</b> (or <b>Save them as a file</b>) and send them to me."
+ ],
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104E.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "301782b99522d013a25560d85097e4fe1a17e82a92cb82d3e727b6096f29d07f"
+ },
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104E.md"
+ },
+ "built": "2026-11-04 21:01 UTC",
+ "types": {
+  "help": {
+   "label": "Help me see what I'm missing",
+   "about": "A paragraph my tries couldn't get to read Human (High). Edit it the way you would, or keep it as it is."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "Y-92",
+   "type": "help",
+   "title": "\"Side effects / stop signs: Nausea, stomach discomfort, loose stools ...\"",
+   "advice": "edit",
+   "keep_label": "keep it as it is",
+   "spans": [
+    {
+     "block": 91,
+     "start": 0,
+     "end": 427
+    }
+   ],
+   "reading": "your post's version, in the baseline: [its section, AI Detected, 82.1% AI](https://www.pangram.com/history/1239d2f8-ca44-4713-b0b7-e9791b5211e3)",
+   "why": "Five versions read AI Generated, 100% AI, by themselves in Pangram: my [first](https://www.pangram.com/history/b41d1fdd-9d7f-4d04-8cbd-8e10113c0fdd), with the dangerous pattern first, came closest (Medium, Low, Medium); my [second](https://www.pangram.com/history/4ab27097-dcd1-4ee8-82b5-5052ac1e80e2), [third](https://www.pangram.com/history/7c0961a8-6334-4310-b68c-8b5dfa33e032) and [fourth](https://www.pangram.com/history/df854bc0-34cd-4c30-b272-efc81dbd24ba), and Codex's rewrite ([fifth](https://www.pangram.com/history/16fdad52-4fd8-45d8-b765-0c1c3d74e202)), each one AI (High) window. The readers called it a two-tier checklist every time: the \"+\" chain, the near-synonyms (\"anxiety, irritability, emotional agitation\"), the hedged \"can be ... which can become dangerous\" ([their notes on my second](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/panel/b092-n2/PANEL.md), [on Codex's](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/panel/b092-c1/PANEL.md)). Both lists are the protocol's, so every side effect and every sign of the dangerous pattern stays.",
+   "advice_note": "I can't find any more AI tells here, and I see some human tells, like your \"a too-bright / hypomanic feeling\"... can you help show me the tells I'm missing? ([The readers' notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/panel/b092-c1/PANEL.md))",
+   "found_by": "Paragraph checks in Pangram's web app, 4 November (batches x1104p to x1104t)"
+  },
+  {
+   "id": "Y-93",
+   "type": "help",
+   "title": "\"Case reports and reviews keep warning about the risk with 5-HTP ...\"",
+   "advice": "edit",
+   "keep_label": "keep it as it is",
+   "spans": [
+    {
+     "block": 92,
+     "start": 290,
+     "end": 647
+    }
+   ],
+   "reading": "the paragraph by itself, Human Written, 0.0% AI: High, Medium, then Low on this sentence, Medium, High ([check](https://www.pangram.com/history/2be95f74-b2cf-45ec-a669-1807880af623))",
+   "why": "This is my fourth try, now in the article, with your post's label \"Hard interaction rule:\" gone, as you dropped \"Scott's version:\" and \"Trial:\". The story is my addition: what happened in the case report your post links, which I read in full (a 28-year-old man on sertraline took 5-HTP with many weight-loss and energy supplements on the day of a workout; serotonin syndrome led to emergency surgery on both lower legs and his right forearm, and he recovered completely). Cut it if you don't want it. My tries before it read AI: [first](https://www.pangram.com/history/5e797c26-95a2-4caa-aedb-6a88b723f6f5), 100% AI; [second](https://www.pangram.com/history/cb693d91-b9c2-41cc-9a8e-20bd56779126), 46.5% AI, with the story AI (Medium); [third](https://www.pangram.com/history/d2dffc85-efd5-42d0-af45-13a7c3917e05), 24.3% AI. A one-sentence fix of a Low window has moved the other windows before (E350), so the stretch is yours.",
+   "advice_note": "I can't find any more AI tells here, and I see some human tells, like your \"psychedelic days\"... can you help show me the tells I'm missing? ([The readers' notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/panel/b093-n2/PANEL.md))",
+   "found_by": "Paragraph checks in Pangram's web app, 4 November (batches x1104p to x1104s)"
+  }
+ ]
+}

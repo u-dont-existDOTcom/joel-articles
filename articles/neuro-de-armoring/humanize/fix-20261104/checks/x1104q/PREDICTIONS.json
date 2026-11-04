@@ -1,0 +1,24 @@
+[
+ {
+  "key": "b092",
+  "name": "the 5-HTP stop signs, second try",
+  "lineage": "ND1104-B092",
+  "scope": "paragraph",
+  "words": 77,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "the first try read AI in all three sentences, the list sentences at Medium and the reason at Low; now the stop line and its reason are one sentence, clonus is said in plain words, and the other side effects are grouped the way a person says them (\"stomach stuff like\", \"kind of hypomanic\", his Y-85 phrase), every one kept",
+  "sha256": "5dce42d307657edc028f6604390f54ef750e24ff22307f16b355b5c194282bb2"
+ },
+ {
+  "key": "b093",
+  "name": "the 5-HTP hard interaction rule, second try",
+  "lineage": "ND1104-B093",
+  "scope": "paragraph",
+  "words": 124,
+  "call": "AI",
+  "chance": 0.35,
+  "why": "the first try read AI in every sentence, the generic evidence sentence at High; now the linked case report is said as what happened in it (read in full through PubMed: a man on sertraline took 5-HTP among many weight-loss and energy supplements before a workout, and serotonin syndrome led to fasciotomies of both lower legs and a forearm; he recovered), so the reader can place the source; MedlinePlus's overview in brackets where serotonin syndrome is named",
+  "sha256": "1941704b122c259ae67687eb8ef9676c88846c6bddfea2bcf5b7e31038ac1b98"
+ }
+]
