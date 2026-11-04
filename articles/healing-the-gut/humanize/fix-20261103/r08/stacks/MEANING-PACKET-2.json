@@ -1,0 +1,23 @@
+[
+ {
+  "id": "R8b-P1",
+  "original": "I don't think there's one supplement stack that heals everyone's gut. Whatever you take, the order matters. Get your digestion working mechanically first, then reset your diet and your gut motility, and only go after bugs and parasites with antimicrobial or anti-parasite protocols if you still have symptoms after that.",
+  "rewrite": "I don't think there's one supplement stack (a set of supplements you take together) that heals everyone's gut, and no stack can do the phases above for you. So do those first, in order, and only go after bugs and parasites if your symptoms are still there after you've changed your diet. Then a stack can help with the rebuilding in Phase 5, once you're clear of infection and it's time to feed the good bacteria again.",
+  "changed_points": [
+   "Defines a stack in brackets and says no stack can do the protocol's phases for you (the section follows the six phases).",
+   "The phases' steps are referred to instead of recapped: 'do those first, in order' (they are just above); 'only go after bugs and parasites if your symptoms are still there after you've changed your diet' keeps Phase 3's condition; 'gut motility' and 'mechanically' go with the recap.",
+   "Adds where a stack fits: the rebuilding in Phase 5, once you're clear of infection and it's time to feed the good bacteria again (Phase 5's own words), so the feeding in the next paragraph doesn't read as contradicting Phase 2."
+  ]
+ },
+ {
+  "id": "R8b-P81",
+  "original": "Start with low doses, especially of prebiotics, resistant starch, butyrate-support products and probiotics. And if you have severe pain, GI bleeding, fever, dehydration, rapid weight loss, an active IBD flare, cancer, immune suppression, a pregnancy, or another complex medical condition, don't stack supplements on your own, work with a qualified clinician instead.",
+  "rewrite": "Start any kit at a low dose and build up as your gut gets used to it. The prebiotic part especially can give you gas at first, since that's what your bacteria make when they ferment it (resistant starch does it too), and a new probiotic can bloat you or upset your stomach for a while.\n\nBut don't start a stack at all before seeing a doctor if you're bleeding from your gut or losing weight fast, because supplements won't fix whatever's behind that, and the same goes for bad pain, a fever or getting dehydrated. Ask your doctor first, too, if you're pregnant (berberine isn't safe then), if your immune system is weak (probiotics are live bacteria, and a weak immune system can't always keep them in check), or if you're in an IBD flare or being treated for cancer or another serious illness.",
+  "changed_points": [
+   "Start low gets its reason: the prebiotic can give you gas at first, since bacteria make gas when they ferment it (resistant starch too), and a new probiotic can bloat or upset the stomach for a while; 'butyrate-support products' are covered by 'any kit'.",
+   "The conditions are split by what they call for: bleeding from the gut, fast weight loss, bad pain, a fever or getting dehydrated mean seeing a doctor before starting a stack at all, because supplements won't fix whatever is behind them; pregnancy, a weak immune system, an IBD flare, cancer or another serious illness mean asking a doctor first.",
+   "Adds the reasons for two of them, each from a source: berberine isn't safe in pregnancy (NCCAM's goldenseal page); probiotics are live bacteria that can be risky with a weak immune system (NCCIH).",
+   "'another complex medical condition' becomes 'another serious illness'; 'work with a qualified clinician instead' becomes 'ask your doctor first'."
+  ]
+ }
+]

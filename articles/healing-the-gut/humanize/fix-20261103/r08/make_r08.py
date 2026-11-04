@@ -4,7 +4,8 @@ article doesn't decide, we need to first fix any windows we can see before we ch
 API check the section read AI (5% human, 12 of 13 windows AI). Its paragraphs of mine now state what a newcomer read found
 missing, in the reader's order (stacks/links/, hidden_links.py check clean), with the tell panel's agreed tells fixed
 (stacks/panel/); his three-category paragraph is unchanged (it goes to him on a card). The glutamine caution's last
-sentence, a Low window alone, says why the portal vein matters. Writes r08.html and r08.md. No API calls."""
+sentence, a Low window alone, says why the portal vein matters. P1 and the cleanse-stacks paragraph read
+Human (High) alone; the kits, start-low and caution versions read AI or Low and go to him (stacks/README.md). Writes r08.html and r08.md. No API calls."""
 import hashlib, html as H, pathlib, re, subprocess, sys
 
 from bs4 import BeautifulSoup
@@ -35,9 +36,9 @@ one("I don't think there").replace_with(para(P1))
 one('Gemini suggested these kits').replace_with(para(KITS))
 one("You'll also find").replace_with(para(P80))
 old = one('Start with low doses, especially')
-b = para(P81B)
-old.replace_with(para(P81A))
-one('Whichever kit you get').insert_after(b)
+a, b = para(P81A), para(P81B)
+old.replace_with(a)
+a.insert_after(b)
 cau = (HERE / 'stacks' / 'CAUTION-DRAFT.txt').read_text(encoding='utf-8').strip()
 c = one('CAUTION: cancer cells')
 c.replace_with(para(cau))

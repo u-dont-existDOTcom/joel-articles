@@ -5,39 +5,39 @@
   "gap": "What is a \"stack\": several supplements taken together? And optional instead of what? Is it a replacement for the six phases, or something you take alongside them?",
   "id": "L1",
   "raised": "Optional Ready-Made Gut Stacks",
-  "answer": "A stack is a set of supplements you take together, and none of them replaces the phases above"
+  "answer": "(a set of supplements you take together)"
  },
  {
   "sentence": 1,
   "quote": "I don't think there's one supplement stack that heals everyone's gut.",
   "gap": "Why am I told that no stack works for everyone before I know what a stack is, or that you're about to suggest some?",
   "id": "L2",
-  "raised": "I don't think there's one stack that heals everyone's gut",
-  "answer": "A stack is a set of supplements you take together"
+  "raised": "I don't think there's one supplement stack",
+  "answer": "(a set of supplements you take together)"
  },
  {
   "sentence": 2,
   "quote": "Whatever you take, the order matters.",
   "gap": "The order of what: the pills inside a stack, or the phases? And how does this follow from no stack healing everyone?",
   "id": "L3",
-  "raised": "So whatever you take",
-  "answer": "keep to the order of the phases"
+  "raised": "So do those first, in order",
+  "answer": "So do those first, in order"
  },
  {
   "sentence": 3,
   "quote": "your gut motility",
   "gap": "What does \"motility\" mean? Is it the Migrating Motor Complex sweeping from Phase 2, or something else?",
   "id": "L4",
-  "raised": "then reset your diet and your meal spacing",
-  "answer": "your meal spacing (Phase 2)"
+  "status": "drop",
+  "note": "the draft no longer says 'motility': it refers to the phases above instead of recapping them (E349)"
  },
  {
   "sentence": 3,
   "quote": "only go after bugs and parasites with antimicrobial or anti-parasite protocols if you still have symptoms after that",
   "gap": "This repeats Phases 1 to 3, but where in that order does a ready-made stack go: before the bug-killing, during it, or after it?",
   "id": "L5",
-  "raised": "only go after bugs and parasites (Phase 3)",
-  "answer": "A stack is for the rebuilding in Phase 5, once you're clear of infection"
+  "raised": "only go after bugs and parasites",
+  "answer": "Then a stack can help with the rebuilding in Phase 5"
  },
  {
   "sentence": 4,
@@ -53,7 +53,7 @@
   "gap": "What gets repaired and rebuilt? Is this the Phase 5 restoration, so only for after the purge?",
   "id": "L7",
   "raised": "a general \"repair and rebuild\" approach",
-  "answer": "A stack is for the rebuilding in Phase 5, once you're clear of infection"
+  "answer": "Then a stack can help with the rebuilding in Phase 5"
  },
  {
   "sentence": 5,
@@ -61,7 +61,7 @@
   "gap": "S1 says no one stack heals everyone, so who is a \"general\" stack for, and how would I know it fits me?",
   "id": "L8",
   "raised": "if I were to recommend a general",
-  "answer": "A stack is for the rebuilding in Phase 5, once you're clear of infection"
+  "answer": "Then a stack can help with the rebuilding in Phase 5"
  },
  {
   "sentence": 6,
@@ -212,16 +212,16 @@
   "quote": "at full doses they can all give you gas, bloating or an upset stomach at first",
   "gap": "How do they cause gas? Is it the bacteria fermenting them? And what changes in the gut as it \"gets used to them\"?",
   "id": "L27",
-  "raised": "start each part at a low dose",
-  "answer": "since your gut bacteria make gas when they ferment it"
+  "raised": "Start any kit at a low dose",
+  "answer": "since that's what your bacteria make when they ferment it"
  },
  {
   "sentence": 18,
   "quote": "the first few can be signs of something that needs a doctor, and the rest can change what's safe for you to take",
   "gap": "Which items are \"the first few\" and which are \"the rest\"? Where does the list split?",
   "id": "L28",
-  "raised": "Bleeding from your gut or fast weight loss",
-  "answer": "If you're pregnant or your immune system is weak, work out what's safe with your doctor"
+  "raised": "don't start a stack at all before seeing a doctor",
+  "answer": "And if you're pregnant (berberine isn't safe then)"
  },
  {
   "sentence": 18,
@@ -229,6 +229,6 @@
   "gap": "What does immune suppression mean? And how would it, or a pregnancy, change what's safe to take?",
   "id": "L29",
   "raised": "your immune system is weak",
-  "answer": "since berberine isn't safe in pregnancy, and probiotics are live bacteria that a weak immune system can't always keep in check"
+  "answer": "(probiotics are live bacteria, and a weak immune system can't always keep them in check)"
  }
 ]
