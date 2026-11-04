@@ -221,7 +221,26 @@ def overlaps(mine, others):
     return out
 
 
+MAILBOX_DRIVER = 'python3 tools/humanization/mailbox_merge.py %O %A %B'
+
+
+def install_merge_driver():
+    """The mailbox's merge driver in this clone's config (.gitattributes names it): every lane appends to
+    state/MAILBOX.json, and every merge conflicted there until 2026-11-04. Returns what was done, or ''."""
+    have = run(['git', 'config', '--get', 'merge.lane-mailbox.driver'], check=False).stdout.strip()
+    if have == MAILBOX_DRIVER:
+        return ''
+    run(['git', 'config', 'merge.lane-mailbox.name', 'the union of the lanes\' mailbox records'], check=False)
+    run(['git', 'config', 'merge.lane-mailbox.driver', MAILBOX_DRIVER], check=False)
+    return 'set the mailbox merge driver (tools/humanization/mailbox_merge.py)'
+
+
 def install_hook():
+    """The pre-push hook and the mailbox merge driver, set in this clone when they aren't. Returns what was done, or ''."""
+    return '; '.join(x for x in (link_hook(), install_merge_driver()) if x)
+
+
+def link_hook():
     """The pre-push hook, linked into this clone's hooks folder when it isn't there (E158 asked for it once per clone,
     and the gut lane's clone never had it, 2026-11-03). Returns what was done, or ''."""
     gd = run(['git', 'rev-parse', '--git-common-dir'], check=False).stdout.strip()

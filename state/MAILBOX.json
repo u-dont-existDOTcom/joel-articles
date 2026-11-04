@@ -732,47 +732,6 @@
    "recorded_utc": "2026-11-04T01:10Z"
   },
   {
-   "turn": "2026-11-04T10:01Z",
-   "lines_of_work": [
-    "neuro de-armoring",
-    "hypnosis guide",
-    "community article"
-   ],
-   "places": [
-    {
-     "place": "uda-lane",
-     "status": "read",
-     "found": "no new items in the lane (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); the live AGENTS.md (blob 5160080) and LESSON-INDEX (7896422) unchanged since 2026-11-03 17:48"
-    },
-    {
-     "place": "repo",
-     "status": "read",
-     "found": "pull request 281 (this lane's) merged by Joel at 2026-11-03 20:57 UTC; new since: 282 (Healing the Gut, merged), 283 to 285 (Inner Child, merged), 286 (Healing the Gut r03 and E339, open), 280 (Bad Trips, open; its AGMATINE-WARNINGS-CHECK.md on its branch checks this lane's agmatine warnings); no comments or reviews on this lane's pull requests; main's new shared rules read: E337 (gut, the typographic swap), E338 (gut, uncompress), E339 (every lane works from main), E340 (keep-as-is lists), E341 (a post's embeds), and E337 and E338 (Inner Child); the branch fast-forwarded to main 9a211d85"
-    },
-    {
-     "place": "notes",
-     "status": "read",
-     "found": "no edits by anyone else to this lane's handoff notes or questions pages since its push 2dbba42e (main's changes to articles/neuro-de-armoring: none)"
-    },
-    {
-     "place": "runtime",
-     "status": "read",
-     "found": "no queued notifications"
-    }
-   ],
-   "items": [
-    {
-     "item": "Joel's message of 2026-11-04 10:01 UTC: go through the warnings Gemini put in (the bad-trips lane found most agmatine warnings wrong); work one paragraph at a time; his rewrite of the uridine 'Who this is for' paragraph",
-     "outcome": "saved word for word; his paragraph in and checked by itself; the agmatine check's findings applied as cards; the other warnings checked; the next paragraphs done one at a time"
-    },
-    {
-     "item": "the bad-trips lane's AGMATINE-WARNINGS-CHECK.md (claude/bad-trips-20261103), whose Next names this lane",
-     "outcome": "adopted: its verdicts go to Joel as cards on this lane's article, with its sources"
-    }
-   ],
-   "recorded_utc": "2026-11-04T10:06Z"
-  },
-  {
    "turn": "2026-11-04T10:18Z",
    "lines_of_work": [
     "gut article"
@@ -812,25 +771,27 @@
    "recorded_utc": "2026-11-04T10:20Z"
   },
   {
-   "turn": "2026-11-04T09:42Z",
+   "turn": "2026-11-04T10:01Z",
    "lines_of_work": [
-    "inner child guide"
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
    ],
    "places": [
     {
      "place": "uda-lane",
      "status": "read",
-     "found": "2 items in suggested-fixes/joel-articles/, both already in docs/suggested-fixes-ledger.md; no new item; UDA still at c5c9951"
+     "found": "no new items in the lane (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); the live AGENTS.md (blob 5160080) and LESSON-INDEX (7896422) unchanged since 2026-11-03 17:48"
     },
     {
      "place": "repo",
      "status": "read",
-     "found": "since turn 119's check (01:10 UTC): pull request 285 (this lane, turn 119) merged by Joel at 08:59 UTC (main 9a211d85, the lane fast-forwarded to it); pull request 286 opened by the gut lane at 00:55 UTC (Healing the Gut r03, lane_push enforcement) and pull request 287 by the community lane at 10:33 UTC (Neuro de-armoring: his uridine paragraph), both open, both changing shared files (286: AGENTS.md, docs/HUMANIZATION-GATE.md, lane_push.py, lane_mailbox.py, the pre-push hook, tests; 287: docs/HUMANIZATION-GATE.md, docs/FIXING-AN-ARTICLE.md, fidelity_keys.py, pangram_ledger.py, tests) and state/MAILBOX.json; no new issues, comments or reviews (gh api REST)"
+     "found": "pull request 281 (this lane's) merged by Joel at 2026-11-03 20:57 UTC; new since: 282 (Healing the Gut, merged), 283 to 285 (Inner Child, merged), 286 (Healing the Gut r03 and E339, open), 280 (Bad Trips, open; its AGMATINE-WARNINGS-CHECK.md on its branch checks this lane's agmatine warnings); no comments or reviews on this lane's pull requests; main's new shared rules read: E337 (gut, the typographic swap), E338 (gut, uncompress), E339 (every lane works from main), E340 (keep-as-is lists), E341 (a post's embeds), and E337 and E338 (Inner Child); the branch fast-forwarded to main 9a211d85"
     },
     {
      "place": "notes",
      "status": "read",
-     "found": "the laptop's handoff note is byte for byte what turn 119's update made of it (cmp with inbox/t113/note-test-t119.md); no one else changed OWNER-QUESTIONS.md or HANDOFF-UPDATE.json"
+     "found": "no edits by anyone else to this lane's handoff notes or questions pages since its push 2dbba42e (main's changes to articles/neuro-de-armoring: none)"
     },
     {
      "place": "runtime",
@@ -840,27 +801,15 @@
    ],
    "items": [
     {
-     "item": "pull request 285 merged",
-     "outcome": "turn 120's work goes in pull request 288 (lane_push --pr)"
+     "item": "Joel's message of 2026-11-04 10:01 UTC: go through the warnings Gemini put in (the bad-trips lane found most agmatine warnings wrong); work one paragraph at a time; his rewrite of the uridine 'Who this is for' paragraph",
+     "outcome": "saved word for word; his paragraph in and checked by itself; the agmatine check's findings applied as cards; the other warnings checked; the next paragraphs done one at a time"
     },
     {
-     "item": "pull requests 286 (gut lane) and 287 (community lane), open, changing shared files",
-     "outcome": "not this lane's to review or merge; this turn changes no shared file except the records every push writes (state/MAILBOX.json, articles/INDEX.json, state/PANGRAM-SCORECARD.md); whichever merges later merges main first (E339)"
-    },
-    {
-     "item": "Joel's two round-9 result links (09:42 UTC)",
-     "outcome": "recorded window by window (experiments/t120-results/): A Human Written 0.00% AI, B Human Written 0.29% AI with one AI window at Low; asked him about putting back the aside he cut there, and the 25 windows below High"
-    },
-    {
-     "item": "Joel's new last line for Journal With Each Hand's first paragraph (09:42 UTC)",
-     "outcome": "in (OWNER-EDITS.json joel-120-scribble); it carries the queue's PGQ-054"
-    },
-    {
-     "item": "Joel, 10:02 UTC: make sure you clear the humanization queue",
-     "outcome": "every one of the map queue's 52 entries has its fate (experiments/t120-queue/QUEUE-CLEARED.md); the reset is the map lane's (UDA's suggested-fix rule; this session's push request for innerSignalGraph was refused), so its item for that lane is ready (experiments/t120-queue/UDA-ITEM.md); filing it opens a public pull request in universal-dev-architecture, which the permission check refused without his yes, so it is asked"
+     "item": "the bad-trips lane's AGMATINE-WARNINGS-CHECK.md (claude/bad-trips-20261103), whose Next names this lane",
+     "outcome": "adopted: its verdicts go to Joel as cards on this lane's article, with its sources"
     }
    ],
-   "recorded_utc": "2026-11-04T10:38Z"
+   "recorded_utc": "2026-11-04T10:06Z"
   },
   {
    "turn": "2026-11-04T10:39Z",
@@ -935,6 +884,57 @@
    "recorded_utc": "2026-11-04T11:34Z"
   },
   {
+   "turn": "2026-11-04T09:42Z",
+   "lines_of_work": [
+    "inner child guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "2 items in suggested-fixes/joel-articles/, both already in docs/suggested-fixes-ledger.md; no new item; UDA still at c5c9951"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since turn 119's check (01:10 UTC): pull request 285 (this lane, turn 119) merged by Joel at 08:59 UTC (main 9a211d85, the lane fast-forwarded to it); pull request 286 opened by the gut lane at 00:55 UTC (Healing the Gut r03, lane_push enforcement) and pull request 287 by the community lane at 10:33 UTC (Neuro de-armoring: his uridine paragraph), both open, both changing shared files (286: AGENTS.md, docs/HUMANIZATION-GATE.md, lane_push.py, lane_mailbox.py, the pre-push hook, tests; 287: docs/HUMANIZATION-GATE.md, docs/FIXING-AN-ARTICLE.md, fidelity_keys.py, pangram_ledger.py, tests) and state/MAILBOX.json; no new issues, comments or reviews (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop's handoff note is byte for byte what turn 119's update made of it (cmp with inbox/t113/note-test-t119.md); no one else changed OWNER-QUESTIONS.md or HANDOFF-UPDATE.json"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "pull request 285 merged",
+     "outcome": "turn 120's work goes in pull request 288 (lane_push --pr)"
+    },
+    {
+     "item": "pull requests 286 (gut lane) and 287 (community lane), open, changing shared files",
+     "outcome": "not this lane's to review or merge; this turn changes no shared file except the records every push writes (state/MAILBOX.json, articles/INDEX.json, state/PANGRAM-SCORECARD.md); whichever merges later merges main first (E339)"
+    },
+    {
+     "item": "Joel's two round-9 result links (09:42 UTC)",
+     "outcome": "recorded window by window (experiments/t120-results/): A Human Written 0.00% AI, B Human Written 0.29% AI with one AI window at Low; asked him about putting back the aside he cut there, and the 25 windows below High"
+    },
+    {
+     "item": "Joel's new last line for Journal With Each Hand's first paragraph (09:42 UTC)",
+     "outcome": "in (OWNER-EDITS.json joel-120-scribble); it carries the queue's PGQ-054"
+    },
+    {
+     "item": "Joel, 10:02 UTC: make sure you clear the humanization queue",
+     "outcome": "every one of the map queue's 52 entries has its fate (experiments/t120-queue/QUEUE-CLEARED.md); the reset is the map lane's (UDA's suggested-fix rule; this session's push request for innerSignalGraph was refused), so its item for that lane is ready (experiments/t120-queue/UDA-ITEM.md); filing it opens a public pull request in universal-dev-architecture, which the permission check refused without his yes, so it is asked"
+    }
+   ],
+   "recorded_utc": "2026-11-04T10:38Z"
+  },
+  {
    "turn": "2026-11-04T12:02Z",
    "lines_of_work": [
     "inner child guide"
@@ -980,6 +980,45 @@
     }
    ],
    "recorded_utc": "2026-11-04T12:27Z"
+  },
+  {
+   "turn": "2026-11-04T12:35Z",
+   "lines_of_work": [
+    "gut article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); UDA main still c5c9951, its root AGENTS.md fetched this turn"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 12:04 UTC: this lane's pull request 289 merged by Joel at 12:16 UTC (this branch starts from main's tip, f8f87c75); open: 290 (neuro de-armoring, now holding E350), 288 (Inner Child: lane_push's main fetch names its destination), 280, 278; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut since 289"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's batch-5 answers (12:35 UTC)",
+     "outcome": "F5-1, F5-2 and F5-4 approved, already in r05; F5-3 his version into r06 (one non-word typo fixed, said to him); his two comments (a sentence that doesn't follow; information before the reader wants it, a study before its claim) become a lesson after #290's E350, with the check"
+    },
+    {
+     "item": "pull request 288 (Inner Child) changes lane_push.py's main fetch",
+     "outcome": "read; it is that lane's fix of the gate this lane wrote, and this turn doesn't touch lane_push.py"
+    }
+   ],
+   "recorded_utc": "2026-11-04T12:36Z"
   }
  ]
 }

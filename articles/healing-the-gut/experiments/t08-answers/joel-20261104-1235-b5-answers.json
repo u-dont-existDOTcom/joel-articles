@@ -1,0 +1,101 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "healing-the-gut-b5-acids-20261104",
+ "title": "Gut Fuels, the Acids",
+ "git_file": "articles/healing-the-gut/humanize/fix-20261103/r05/b5/REVIEW-PAGE.html",
+ "article": {
+  "file": "articles/healing-the-gut/humanize/fix-20261103/r04/r04.md",
+  "sha256": "7052402b5a1d0b978fff4d08e77989bb6c68993af1e3d2598d04f251e59a7d2f"
+ },
+ "built": "2026-11-04",
+ "generator": "suggestion_review.py 1.5 (2026-11-02)",
+ "exported_at": "2026-11-04T12:34:48.492Z",
+ "counts": {
+  "approved": 3,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "F5-1",
+   "type": "point",
+   "title": "Your opening paragraph: the TCA intermediates out of the fuels list",
+   "where": "Some Causes of poor gut health, P19",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Mitochondrial and cellular energy starvation is what you get when there's not enough of the fuels each type of cell in your gut prefers (glutamine and butyrate). Your gut barrier needs a lot of energy, to keep its tight junctions intact. If the cells lining your small intestine (called enterocytes) or the colonocytes lining your large intestine don't do that, the barrier loosens up. Then lipopolysaccharides (LPS, which come from the walls of bacteria) and other endotoxins leak through those (not-so-tight)-junction gaps into your bloodstream.",
+   "before": "Mitochondrial and cellular energy starvation is what you get when there's not enough of the fuels each type of cell in your gut prefers (glutamine, butyrate, TCA intermediates). Your gut barrier needs a lot of energy, to keep its tight junctions intact. If the cells lining your small intestine (called enterocytes) or the colonocytes lining your large intestine don't do that, the barrier loosens up. Then lipopolysaccharides (LPS, which come from the walls of bacteria) and other endotoxins leak through those (not-so-tight)-junction gaps into your bloodstream.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T12:16:48.549Z"
+    }
+   ],
+   "updated": "2026-11-04T12:16:48.561Z"
+  },
+  {
+   "id": "F5-2",
+   "type": "point",
+   "title": "Glutamine, with your two points from your TCA rewrite",
+   "where": "Some Causes of poor gut health, P20",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "L-Glutamine (watch Dr. Rhonda vid) is the main fuel for your enterocytes, and for your immune cells when they're activated. It doesn't have to go through the complicated digestive steps other nutrients do. Inside the mitochondria, it gets turned straight into alpha-ketoglutarate, or α-KG. The α-KG goes into the citric acid cycle, which is how the mitochondria make their energy. So that's why consuming pure glutamine gives energy to those cells faster than eating food. They then use their extra energy to repair the gut lining by pulling the tight junctions together, and that keeps LPS from getting through. Glutamine also provides nitrogen to help build new cells.",
+   "before": "L-Glutamine (watch Dr. Rhonda vid) is the main fuel for your enterocytes, and for your immune cells when they're activated. It doesn't have to go through the complicated digestive steps other nutrients do. Inside the mitochondria, it gets turned straight into alpha-ketoglutarate, or α-KG. The α-KG goes into the citric acid cycle, which is how the mitochondria make their energy. So that's why consuming pure glutamine gives energy to those cells faster than eating food. They then use their extra energy to repair the gut lining, and that keeps LPS from getting through.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T12:16:56.959Z"
+    }
+   ],
+   "updated": "2026-11-04T12:16:56.959Z"
+  },
+  {
+   "id": "F5-3",
+   "type": "help",
+   "title": "The acids: their real use, and the sentences that still read AI",
+   "where": "Some Causes of poor gut health, P24",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Some people will tell you to take malic and citric acid (which make green apples and tart cherries sour) as an extra quick energy source for your enterocytes. And they do supply quick energy, because they are made and used by that mitochondrial energy cycle, also called the TCA or Krebs cycle. But glutamine is still the main thing they need, because it helps build new cells in addition to giving the needed energy. Those acids do help you absorb iron, even two or three times better according to one study where people ate rice with 1g pure malic acid or ctiric acid mixed in (Gillooly et al., 1983). That's probably because the acids help keep the iron dissolved so the gut can take it up. So something sour with an iron-rich meal is worth having anyway.",
+   "comment": "your version 3 doesn't even make sense, read it. you're saying in theory they are a quick extra energy source, then next sentence you say nobody has shown that eaing them gives much extra fuel on top of glutamine... \n\nso what's missing was the claim that glutamine was not enough, right? you see how the 2nd sentence doesn't follow?\n\nand it also starts out giving info nobody asked for so that makes it hard to read. here's my first fixed version that makes more sense, it's human, but not all high conf: https://www.pangram.com/history/a1341444-42ec-4bd0-9d97-93a605dd33a2?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nthe 2nd half wasn't high conf because it still wasn't reading in the order of interest. It started of talking about a study nobody expected or thought would be coming. i fixed it, now it's all as high conf human as you can get on a short passage https://www.pangram.com/history/e2956302-4091-4e8d-85e0-b7b9e9c7878c?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "Malic and citric acid are what's called TCA cycle intermediates. TCA is another name for the citric acid cycle, the one the glutamine ends up in, and these acids are already part of it, so your mitochondria can use them for energy directly. They're the acids that make green apples and tart cherries sour, so eating clean sour stuff like that, or taking organic malic acid, gets the cells lining your gut another fuel, and quickly. Glutamine has to be turned into α-KG first, so that's a different biochemical route, but either way those cells then use the extra energy to heal the gut lining faster.",
+   "before": "Malic and citric acid are what's called TCA cycle intermediates. TCA is another name for the citric acid cycle, the one the glutamine ends up in, and these acids are already part of it, so your mitochondria can use them for energy directly. They're the acids that make green apples and tart cherries sour, so eating clean sour stuff like that, or taking organic malic acid, gets the cells lining your gut another fuel, and quickly. Glutamine has to be turned into α-KG first, so that's a different biochemical route, but either way those cells then use the extra energy to heal the gut lining faster.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T12:17:14.845Z"
+    }
+   ],
+   "updated": "2026-11-04T12:34:39.017Z"
+  },
+  {
+   "id": "F5-4",
+   "type": "point",
+   "title": "Phase 5: the TCA intermediates out of step 4",
+   "where": "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P5",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "And fuel the mitochondria: see the fuels under Leaky gut, above (glutamine and butyrate).",
+   "before": "And fuel the mitochondria: see the fuels under Leaky gut, above (glutamine, butyrate and TCA intermediates).",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T12:34:43.372Z"
+    }
+   ],
+   "updated": "2026-11-04T12:34:43.372Z"
+  }
+ ]
+}
