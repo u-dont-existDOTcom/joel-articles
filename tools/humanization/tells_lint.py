@@ -1192,6 +1192,25 @@ def main():
                 flag('FAIL', 'O64 a negation, then its contrast as a new sentence ("You can\'t tell X. It does suggest Y."; Joel '
                      '2026-11-04: "Ai says stuff like \"It doesn\'t X. [But is implied] ...\""): join them with ", but", the way '
                      'he did', q64)
+            # O65 (E357; Joel, 2026-11-04 18:09 UTC: "give the reader payoff sooner so they understand why they should read ...
+            # we have to read all the way to the end of the sentence before we understand why we were reading the sentence"):
+            # a long opening "If ..." clause before the point; his version says the advice first, then who it's for
+            m65 = re.match(r"\W*(?:If|When|Whenever|Since|Because|Although|Though|While|Unless|Until|Once)\b(.*?),\s+"
+                           r"(?:you|it|this|that|they|we|he|she|I|there|your)\b", n)
+            if m65 and len(m65.group(1).split()) >= 10:
+                flag('REVIEW', 'O65 the point waits for the end of the sentence (Joel 2026-11-04: "give the reader payoff sooner so '
+                     'they understand why they should read"): say the advice or the point first, then who it is for and why, '
+                     'the way he did ("I\'d avoid casually experimenting with 5-HTP if you\'re agitated or manic, as ...")', s)
+            # O66 (E357; Joel, 2026-11-04 18:09 UTC: "Ai is always saying stuff "MATTERS" ... very high freq AI word"); O22 has
+            # "matters to me" and O50 "still matters"
+            if re.search(r"\bmatters\b(?! to me| for me)", n, re.I) and not re.search(r"\b(?:still|what) matters\b", n, re.I):
+                flag('REVIEW', 'O66 "matters" (Joel 2026-11-04: "super extremely portable, can mean almost anything ... don\'t use it '
+                     'if a more specific word would give more sense"): say what it does', s)
+            # O67 (E357; Joel, 2026-11-04 18:09 UTC, on the 5-HTP trial: "removed spaces before "mg" and that helped a bit ...
+            # don't think i've seen humans put spaces there")
+            if re.search(r"(?<![\w.])\d+(?:[.,]\d+)?(?:\s*[\u2013-]\s*\d+(?:[.,]\d+)?)?\s+(?:mg|mcg)\b", s):
+                flag('REVIEW', 'O67 a space before "mg" (Joel 2026-11-04: "don\'t think i\'ve seen humans put spaces there"): '
+                     '"50mg", the way he writes it', s)
             # O44 (Joel, 2026-10-21 17:56, on the hypnosis guide's return steps, where "one honest action" among what you go back to
             # had read AI in every wording of his: "especially "ONE HONEST ACTION" sounds super ai. i never heard a real person say
             # that in my life.").

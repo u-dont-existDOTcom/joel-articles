@@ -1,5 +1,43 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-04, after Joel's answers of 18:09 UTC (his six versions) and his message of 18:10 UTC ("8a"): his versions in; the tool paragraph merged; 8a in the fidelity check; E357, E358; the dash swap
+
+His answers, word for word: `fix-20261104/cards/ANSWERS-20261104-1809.json` (all six "revise", each with his own version and
+checks); his message: `fix-20261104/joel-20261104-1810-message.txt` ("8a not sure why you had to ask that, the whole point is
+rewording stuff here"). **The mailbox first** ("2026-11-04 18:10"); pull request 296 merged at 17:14; main merged (925526ef,
+with 298's two hyphens for every dash). HUMANIZED-SO-FAR.md is now fb1168c8.
+
+- **His checks read back**: the lane read his five results from his Pangram history (Claude in Chrome, his Brave): each
+  checked text has the SHA-256 of the version he sent (Y-85 with its trailing space). Y-85 Human Written (Medium, High,
+  Medium); Y-88, Y-89 and Y-91 one or more windows, all High; Y-90 High and Medium.
+- **The lane's checks** (batch x1104n, `checks/x1104n/RESULTS.md`): his Y-86 alone (39 words) was refused by the web app's
+  50-word minimum ("Minimum 50 words required for accurate detection"; prediction ND1104-B086h#93 voided), so it was read
+  after his Y-85, as a pair: Human Written, 0.0% AI, its own window High (ND1104-P085-086h#95). His Y-91 with the full stop
+  it lacked: Human Written, every window High (ND1104-B091h#94). His versions have their own lineages ("h").
+- **The merge he suggested** ("i'd cut this whole paragraph or merge anything important from it into the last one"): one
+  sentence in his "Who this is for" after Scott's (`cards/merge-b088-b089.md`), read Human Written, one window High (batch
+  x1104o, ND1104-B088m#96, a miss in my favour). The tool paragraph is out.
+- **Into the article** (`cards/apply_cards_x1104d.py`, `cards/APPLIED-CARDS-D.json`): his six, the merge, and 8a:
+  FIDELITY-KEYS.json's "warning_words" is "meaning". What his versions changed in the protocol is in "owner_changes", each
+  naming his card: Y-85's W035 (his cut of the last line, "you were overcompleting"; the "Do not push through" words are
+  in the agmatine warning too), Y-86's W037 ("caution", the safety signal he replaced; the same-day rule stays in W017
+  and W082), the merge's W040 (the review's serotonin-toxicity words), and Y-91's second "50mg" and "if" for "only if"
+  (W041). The comparative read of the merged sentence beside his Y-89 is recorded (`cards/read-d/`), no finding.
+- **8a in `tools/humanization/fidelity_keys.py`**: with "warning_words" set to "meaning", a warning keeps its warning word,
+  compounds, terms and numbers; one naming no compound or number keeps its own words. A dose matches with or without the
+  space before its unit ("50mg"). The keys his cards took out leave their units before the paragraph match (a unit left
+  with few keys had matched the wrong paragraph). A term after his "--" is its own word ("tuna daily--mercury"). Tests in
+  `tests/test_fidelity_keys.py`.
+- **Lessons**: E357 (the point first, the gut lane's E347 in this lane's warnings and doses, with his other lessons from the
+  six: "matters", two facts with their link unsaid, a last line that repeats, a source the reader can place, a warning that
+  makes no sense, "50mg") and E358 (rewording is the point; don't ask). `tells_lint.py` O65 (a long opening condition before
+  the point), O66 ("matters"), O67 (a space before "mg"), all REVIEW; the registry's W119 to W121 (W116 and W117 are pull
+  request 280's). `fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md` has his versions six to eleven.
+- **The dash swap** (`tools/humanization/typography_swap.py`, from 298): 32 characters in 21 paragraphs of the article, none
+  in the paragraphs checked this week; the fidelity check passes.
+- **Questions page** republished: no open questions.
+- **Delegations**: none this turn.
+
 ## 2026-11-04, after Joel's message of 16:12 UTC ("you don't need me to do that"): the lane's own web-app checks; 088 in; six stretches to him; E356
 
 His message, word for word: `fix-20261104/joel-20261104-1612-message.txt` ("you don't need me to do that, what are you
