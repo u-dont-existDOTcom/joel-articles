@@ -1,0 +1,75 @@
+#!/usr/bin/env python3
+"""Turn 127: articles/inner-child-therapy/HANDOFF-UPDATE.json, the update tools/humanization/handoff_note.py applies to
+~/claude-acceptance-transfer/handoffs/inner-child-article.md on Joel's laptop.
+  handoff_t127.py PR [--test NOTE [OUT]]   writes the update with the turn's pull request number; with --test, applies it
+                                           to a copy of NOTE (and writes the result to OUT)"""
+import json
+import pathlib
+import re
+import sys
+
+HERE = pathlib.Path(__file__).resolve().parent
+ROOT = HERE.parents[3]
+OUT = HERE.parents[1] / 'HANDOFF-UPDATE.json'
+S = 'https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq'
+BR = 'handoff/claude-dangerous-adult-20260924-1631'
+PRN = sys.argv[1]
+PRS = 'pull request #%s (https://github.com/u-dont-existDOTcom/joel-articles/pull/%s), open for him to merge' % (PRN, PRN)
+UDA = 'https://github.com/u-dont-existDOTcom/universal-dev-architecture/pull/467'
+ED = 'https://ibogaqueen.substack.com/publish/post/189761959'
+e = re.escape
+
+turn127 = '\n'.join([
+    '- TURN 127 (2026-11-04, his message of 17:12 UTC; by %s), the latest; its next step wins over everything below. Branch %s, from main (pull request #298, turn 126, merged by him; main\'s six commits of the neuro de-armoring lane, pull request #296, merged in and read: AGENTS.md\'s paragraph on the API\'s credits and E356, a lane runs its own web-app checks); %s.' % (S, BR, PRS),
+    '  - His message (experiments/t127-answers/JOEL-20261104-1712.md): his two round-11 result links, A https://www.pangram.com/feed/aca1a2dd-66a8-4a00-97b8-0d4a64785fdf and B https://www.pangram.com/feed/6c933a47-c73e-45e2-825b-173a3603969e.',
+    '  - Round 11 recorded (experiments/t127-results/: record_round11.py, WINDOWS-A/B.txt, RESULT-A/B.json, ROUND11-RESULTS.json, SPOTS.json): each page\'s checked text is round 11\'s check text (A\'s with the no-break space of "Breadcrumbing is" as a plain space); both halves Human Written, 0% AI, all 21 windows Human, 18 High and the same 3 Medium as round 10 ("How do you check that?", "Debs.", "Just because Mr.", his words, where Pangram\'s sentence cut fell); predictions #382 and #383 right; the scorecards rebuilt.',
+    '  - His live post checked before anything replaced it (E332; experiments/t127-publish/OCTOBER-CHECK.md, LIVE-CHECK-20261104.json): every point of its 18 October paragraphs is in the article, or was dropped before by his guide or a ruling of his; the editor\'s draft was unchanged since 2026-11-03 22:29 UTC and held five unpublished edits of his in "Your Loan is PRE-APPROVED!", all in his guide in their later versions.',
+    '  - His six new pictures uploaded to Substack (experiments/t127-publish/UPLOADS.json): through Substack\'s own image endpoint, from a page of his publication in his Brave (Claude in Chrome, file_upload from the session\'s copies of his ODT\'s pictures), each byte for byte his file before and after (curl of the address from the laptop). Two routes that did not work: the desktop app\'s browser pane refuses a fetch from a server on the laptop\'s 127.0.0.1, and the desktop app\'s file bridge wrote three of the copies with a content-credentials block (C2PA, "Claude provided this file") added, so those copies were not used; his originals are ~/Images/memes/ghosts are cheaper than repairing a house.jpg, ~/Images/uncropped study on pain.png, and his ODT\'s pictures (the LibreOffice backup ~/.config/libreoffice/4/user/backup/inner-child-guide-reorganized-clean.odt.bak holds four of them).',
+    '  - The publish draft is in his post\'s editor (%s), saved by the editor at 17:47:43 UTC, the live post untouched (experiments/t127-publish/: make_publish.py, PUBLISH-PLAN.json, publish_build.js, publish_dispatch.js): his guide as round 11 read it, block by block the round-11 text with its links and emphasis, as one editor transaction built and checked node by node before it was dispatched (544 nodes, 79 links, every node\'s text and the whole text round 11\'s); the post\'s own eleven native blocks carried over where the notes place them (the demon picture keeps its caption "Yep. Exactly like that.", the mantra video now starts at 0:58, his F2), the two new YouTube embeds and his six pictures added, the Rumi paragraph a pull quote; no block quotes and no dividers, as his document has none (told to him). The subtitle\'s date is "Updated: Nov 4, 2026", typed in the editor. The saved draft checked again from the draft API: the same 544 nodes and text.' % ED,
+    '  - NEXT: Next step 1.',
+])
+next1 = ('1. His look at the publish draft in his post\'s editor (%s; Continue at the top right, then the update button it leads to, are his): if he asks for changes '
+         '(dividers, a picture\'s place, a caption), make them in the editor the same way (a plan from the article, built and '
+         'checked node by node before one transaction is dispatched; never a paste), and keep his draft\'s subtitle date. After he '
+         'updates: read the live post back (its text against round 11\'s, every native block in its place, the pictures loading) and '
+         'tell him what it shows; the two temporary drafts are his to delete. Then the Hearthwork article (his paste of 2026-11-04 '
+         '12:02 UTC, experiments/t121-answers/), humanized in a lane of its own (its article folder registered, a branch from main), '
+         'its reparenting passages brought in line with the reorganized guide. Pangram\'s API is out of credits (AGENTS.md, E356): '
+         'paragraph checks go through the web app, run by the lane itself. Every turn ends with the whole article sent and passed to '
+         'the chat check as --sent (E271 (Inner Child)), rendered with --images for his pictures.') % ED
+upd = {
+    'turn': '127',
+    'replace': [
+        [e('TURN 126 (2026-11-04, his message of 16:30 UTC; by %s), the latest; its next step wins over everything below.' % S),
+         'TURN 126 (2026-11-04, his message of 16:30 UTC; by %s), FINISHED.' % S, 1],
+        [r'this version is from turn 126 \(his message of 2026-11-04 16:30 UTC; pull request #\d+ \(https://github\.com/u-dont-existDOTcom/joel-articles/pull/\d+\), open for him to merge\)\.',
+         'this version is from turn 127 (his round-11 links of 2026-11-04 17:12 UTC; %s).' % PRS, 1],
+        [e('turns 59 to 76 and 100 to 126 by %s' % S), 'turns 59 to 76 and 100 to 127 by %s' % S, 1],
+        [e('  - experiments/t126-answers/ (his message), t126-dashes/ (his two hyphens) and t126-substack/ (round 11) (the latest turn), '),
+         '  - experiments/t127-answers/ (his message), t127-results/ (round 11 read) and t127-publish/ (the October check, the uploads, the publish draft) (the latest turn), t126-answers/ (his message), t126-dashes/ (his two hyphens), t126-substack/ (round 11), ', 1],
+        [r"^1\. His two round-11 result links \(pangram\.com/feed/\.\.\.\): each window recorded with its confidence.*$", next1, 1],
+    ],
+    'insert_before': [
+        ['- TURN 126 (2026-11-04', turn127],
+    ],
+    'sections': {
+        '## Waiting on Joel': '\n'.join([
+            '1. His look at the publish draft in his post\'s editor (%s), then his update (Continue at the top right, then the update button it leads to); the live post stays as it was until then.' % ED,
+            '2. His merge of pull request #%s (turn 127).' % PRN,
+            '3. The map lane\'s reset: his merge of UDA pull request #467 (%s), or the map lane\'s resume line with the request (given to him in turn 121), then his merge of that lane\'s pull request that empties the queue.' % UDA,
+            '4. The two temporary Substack drafts, "Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)": round 11 is in them; deleting them is his.',
+            '5. Never in the article: amounts (the 1g, the 7g) and any recipe for what to take instead, including his "ultimate psychedelic recipe" line and its link.',
+        ]),
+    },
+}
+OUT.write_text(json.dumps(upd, indent=1, ensure_ascii=False) + '\n', encoding='utf-8')
+print('wrote', OUT)
+if '--test' in sys.argv:
+    sys.path.insert(0, str(ROOT / 'tools' / 'humanization'))
+    from handoff_note import apply
+    note = pathlib.Path(sys.argv[sys.argv.index('--test') + 1]).read_text(encoding='utf-8')
+    new, done = apply(note, upd)
+    print('\n'.join(done))
+    print(len(note), '->', len(new), 'characters')
+    if len(sys.argv) > sys.argv.index('--test') + 2:
+        pathlib.Path(sys.argv[sys.argv.index('--test') + 2]).write_text(new, encoding='utf-8')

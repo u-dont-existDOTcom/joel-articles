@@ -1,0 +1,66 @@
+[
+ {
+  "half": "A",
+  "i": 3,
+  "label": "Human",
+  "confidence": "Medium",
+  "words": 5,
+  "calibrated_confidence": 0.9886,
+  "ai_likelihood": 1.9315963792918087e-15,
+  "highlighted": false,
+  "start": 25825,
+  "end": 25848,
+  "text": "How do you check that?",
+  "in_line": "If you still feel like a kid inside, somebody who seems grown-up can feel like salvation, and letting them do some of the grown-up jobs for you can actually help for a while. But they can know things you don’t and still be wrong for you to follow too much. The test is whether the relationship makes you more grounded, truthful, and free.",
+  "line": 66,
+  "section": [
+   "Building Your Inner Adult",
+   "Borrow the Adult To Become the Adult",
+   "Don’t Sell Your Inner Adult To Buy An Outer Adult"
+  ],
+  "his_words": true
+ },
+ {
+  "half": "B",
+  "i": 4,
+  "label": "Human",
+  "confidence": "Medium",
+  "words": 1,
+  "calibrated_confidence": 0.9893,
+  "ai_likelihood": 9.714846526930675e-17,
+  "highlighted": false,
+  "start": 35094,
+  "end": 35100,
+  "text": "Debs.",
+  "in_line": "That’s exactly why I was crying for 14 years. Beginning at the age of 12, when I really started to understand that life is brutal for most people, I became convinced that being happy myself, while others weren’t, was selfish. I had this poster in my room that really resonated with me, by the famous socialist, Eugene V. Debs. I told this to a therapist in college and she actually agreed it was a good reason to be depressed!",
+  "line": 92,
+  "section": [
+   "Bringing Reparenting Into Real Life",
+   "Differentiation: Keeping Your Own Ground",
+   "When Being Happy Feels Like Abandoning Someone"
+  ],
+  "his_words": true
+ },
+ {
+  "half": "B",
+  "i": 6,
+  "label": "Human",
+  "confidence": "Medium",
+  "words": 3,
+  "calibrated_confidence": 0.9867,
+  "ai_likelihood": 3.125154105157869e-15,
+  "highlighted": false,
+  "start": 38926,
+  "end": 38943,
+  "text": "Just because Mr.",
+  "in_line": "You know that DM you deleted? It can still be sitting on their phone as a screenshot 🙈, and whatever’s on a company’s server can get handed over if a court asks. Just because Mr. Boopaloopa was your name on WhatsApp doesn’t guarantee you’re anonymous, by the way.",
+  "line": 102,
+  "section": [
+   "Bringing Reparenting Into Real Life",
+   "Finding People and Building Trust",
+   "Opening Up Honestly to the Right People at the Right Pace",
+   "Before You Tell the Hardest Stuff"
+  ],
+  "his_words": true
+ }
+]

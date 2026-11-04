@@ -4320,6 +4320,22 @@
    "must_not_contain": [
     "to whomever accesses it"
    ]
+  },
+  {
+   "id": "joel-126-dashes",
+   "status": "applied",
+   "what": "His two hyphens, \"--\", with no spaces, for each of the guide's nine dashes (seven em dashes in his ODT that the standard swap had made spaced en dashes, and two spaced en dashes he typed), by the standard swap as it is now (tools/humanization/typography_swap.py, E353 (Inner Child)).",
+   "joel": "2026-11-04 16:04 UTC, on card SR-11 of the sense-read marking page: \"no everything should be the 2 dashes not em-dash, em-dash is ai\"; 16:30 UTC, asked whether that meant all nine and the swap for every article: \"1 yes to both\" (experiments/t126-answers/JOEL-20261104-1630.md)",
+   "where": "The Chicken-and-Egg Problem, P1; Five Stages of Reparenting (stages 2 to 5); and three more paragraphs",
+   "must_contain": [
+    "On ne change pas--\"we don't change.\"",
+    "Begin to borrow adulthood--remember",
+    "bigger--perhaps much bigger--than"
+   ],
+   "must_not_contain": [
+    " – ",
+    "—"
+   ]
   }
  ]
 }
