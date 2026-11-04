@@ -115126,7 +115126,7 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r13/fuels/README.md",
-          "sha256": "3fbef986a9ab95f54dac54865fbd32362d6eddafa66a8e01a2c7d56131ac0b9c",
+          "sha256": "4e181e1939151a095595214bc3eb4d1b69b59da658485270bf9af2aa6cbeab44",
           "role": "humanization_working_record"
         },
         {
@@ -115337,6 +115337,16 @@
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r13/fuels/panel-p22-v4/sonnet.md",
           "sha256": "b4670c5c9434d054b5eda59d9c3d3470377464426d57581d7fb946d77c02eec9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r13/fuels/MEANING-VERDICTS-P22-v5.json",
+          "sha256": "d353ba180d12daf0c37b0ec0090ac2006cb82f15e00678eee6627e70ed3b805c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r13/fuels/links-p22/draft/LINKS.json",
+          "sha256": "1a2b026ce7ce9e44a8088c6ee5e3cda928bb46419625478702acea0f04b51a4d",
           "role": "humanization_working_record"
         }
       ]
