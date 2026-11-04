@@ -1,0 +1,24 @@
+[
+ {
+  "key": "b082",
+  "name": "the uridine evidence paragraph, fifth try (after the tell panel)",
+  "lineage": "ND1104-B082",
+  "scope": "paragraph",
+  "words": 147,
+  "call": "AI",
+  "chance": 0.35,
+  "why": "the panel's agreed tells on try 3 fixed: \"so the best evidence we have is more basic than that\" said as \"only more basic research on what ... do in the brain\"; the plain meaning first and one term after it in brackets, with no \"that is,\" restatement; \"cautious extrapolation\" said as \"carefully extrapolating\"; \"potassium\" back. The panel read it again and still agrees on both brackets and the closing hedge",
+  "sha256": "80d7482ca9398adf27df5136395531609f96f53d3faa08ff929989269f641f26"
+ },
+ {
+  "key": "b083",
+  "name": "Scott's signal, fifth try (after the tell panel)",
+  "lineage": "ND1104-B083",
+  "scope": "paragraph",
+  "words": 98,
+  "call": "AI",
+  "chance": 0.2,
+  "why": "the panel's agreed tells on try 4 fixed: the \"missing piece\" inference cut, the coined axis label and its gloss said in plain words, \"real\" gone, \"Whether or not\" gone (the caveat goes at the end), his post's \"striking response\" back. The panel read it again and still agrees on all three sentences",
+  "sha256": "197399816f217e50c242205df840e9133771a160ca69e08e679894ecc4e6a692"
+ }
+]

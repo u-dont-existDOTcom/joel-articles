@@ -1,0 +1,44 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Scott was already getting choline from eggs and DHA/EPA from fish oil, and after he added a standard dose of UMP he had a striking response within a day.",
+  "His vivid dreams came back, with childhood memories in them, his psychedelic tolerance seemed to drop, and his ketamine/LSD cravings fell off hard.",
+  "In the right person, a response like that can be a clean signal that the brain was starved for what it needs to rebuild the membranes and dopamine receptors at its synapses, even if there's no way to tell whether UMP rebuilt his D3 receptors overnight."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph follows a conspicuously tidy progression from background to striking effects to explanatory takeaway to caveat, mixing casual storytelling with scientific authority. That construction can suggest AI polishing, but wording alone cannot establish authorship."
+  ],
+  "haiku": [
+   "The paragraph runs as one even chain of long, clause-stacked sentences that each balance two or three parts. It closes by restating its caveat in a hedged way, which reads like a careful summary rather than a writer's voice."
+  ],
+  "sonnet": [
+   "The paragraph follows a very orderly arc of setup, a three-part payoff, then a generalizing takeaway with a hedge. Its sentences are even and self-contained, and it closes on a polished lesson sentence."
+  ]
+ },
+ "human_clean": []
+}

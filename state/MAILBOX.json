@@ -728,6 +728,43 @@
     }
    ],
    "recorded_utc": "2026-11-04T10:06Z"
+  },
+  {
+   "turn": "2026-11-04T10:39Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (the lane holds 2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); the live AGENTS.md (5160080) and LESSON-INDEX (7896422) unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "no new issues, pull requests, comments or reviews since 10:01 UTC: this lane's pull request 287 open; 286 (Healing the Gut) updated, open, another lane's; main unchanged since 9a211d85"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to this lane's handoff notes or questions pages since its push e6468569"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's answers 3a and 4a (2026-11-04 10:39 UTC)",
+     "outcome": "3a: the two drug names go back in brackets in his paragraph; 4a: the three experience-based warnings stay, said as experience; both put in this turn, and the warnings cards built"
+    }
+   ],
+   "recorded_utc": "2026-11-04T10:39Z"
   }
  ]
 }
