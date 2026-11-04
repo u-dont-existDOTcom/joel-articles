@@ -15,6 +15,12 @@ https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips
 
 ## START HERE
 
+- **2026-11-04, turn 5 (his message of 11:35 UTC).** "rewrite web app to match the guide if you can, but if you're
+  blockewd by guardrails then keep checlist int he guide" and "don't need to update the post until we finish". The app
+  is rewritten (`experiments/t05-webapp/`: version 8, 44 replacements in the guide's words, tested against the live
+  version 7) and waits for him to paste it into the page's Elementor widget. **First:** the whole-guide Pangram check of
+  the long part on a temporary draft (see CURRENT-STATE.md's next step), then the humanize pass. When the live page shows
+  version 8, the checklist comes out of the guide (OWNER-EDITS `checklist-to-app`).
 - **2026-11-04, turn 4 (his round-2 answers of 10:26 UTC).** All 26 cards approved, no comments
   (`review/r02/ANSWERS-R02-20261104-1026.json`), and in: `review/r02/apply_r02.py` makes `review/r02/GUIDE-AFTER-R02.md`
   from round 1's guide (`review/r01/GUIDE-AFTER-R01.md`), and the humanize pass's first step, the standard swap

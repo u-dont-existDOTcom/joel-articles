@@ -1055,6 +1055,45 @@
     }
    ],
    "recorded_utc": "2026-11-04T10:39Z"
+  },
+  {
+   "turn": "2026-11-04T11:36Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items: the joel-articles lane still holds 2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in docs/suggested-fixes-ledger.md; the root is unchanged at c5c9951 (local clone, fetched 11:36 UTC)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 287 (neuro de-armoring, E343) merged at 11:36 UTC and is merged into this lane's branch (mailbox conflict resolved, both lanes' checks kept); pull request 288 (Inner Child) open; no comments or reviews since 10:30 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "this lane's handoff note and questions page were changed only by this session (last at a23c4720, 10:54 UTC)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "Joel's message of 11:35 UTC: rewrite the web app to match the guide if I can, otherwise keep the checklist in the guide; don't update the post until the work is finished; no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "the web app (Joel: \"rewrite web app to match the guide if you can\")",
+     "outcome": "rewritten this turn from its live page's source and tested in a browser; it goes to him to put in his page"
+    },
+    {
+     "item": "the post (Joel: \"don't need to update the post until we finish\")",
+     "outcome": "the whole-guide check runs on a temporary draft instead"
+    }
+   ],
+   "recorded_utc": "2026-11-04T11:37Z"
   }
  ]
 }

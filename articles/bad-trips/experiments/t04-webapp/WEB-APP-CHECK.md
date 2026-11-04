@@ -11,6 +11,13 @@ links to) against the guide after round 2
 ladder, a table of his field notes with an "evidence-weighted caution" for each, and live-support links. So each of the
 checklist's situations was put to it by setting the menus and reading the answer it writes.
 
+> **Correction, 2026-11-04 11:50 UTC.** The gut, nausea, too-intense and entity answers each end with a collapsed
+> section, "How the updated guide's personal field notes relate", which my first read missed: I read the text the page
+> showed, and a closed section's text isn't shown. Zeolite and ZHoly3O (gut, nausea), the stabilizers (too intense) and
+> Syrian rue (entities) are in those sections, labelled "Personal observation—not validated treatment". What was missing
+> outright stands: every amount, niacin in the stop-the-trip answer, humic acid, coffee cherry, Buteyko by name, and
+> sending an entity love. The rewrite ([what changed](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t05-webapp/CHANGES.md)) puts them back and opens those sections.
+
 ## The checklist's situations, one by one
 
 | Situation (the app's menus) | What the app answers | What the guide says that the app leaves out or changes |
@@ -23,11 +30,11 @@ checklist's situations was put to it by setting the menus and reading the answer
 | 3. The room | Light, sound, music or quiet, familiar music | His music page (Chantress Seba and others) |
 | 4. Stillness or movement | Two minutes, safe movement | Nothing |
 | 5 and 6. Alone, a human anchor | The 3 a.m. plan, Fireside, TripSit | Nothing |
-| 7. Too intense, no brain-damage concern | Less input, orientation, longer exhales, two minutes, Inner Signal | None of his stabilizers in the answer: ocean water, aged ozonated-charcoal water, shungite, DMSO as a stabilizer (they are only in the field-notes table) |
+| 7. Too intense, no brain-damage concern | Less input, orientation, longer exhales, two minutes, Inner Signal | His stabilizers (ocean water, aged ozonated-charcoal water, shungite, DMSO) only in the answer's collapsed field notes, as "not validated treatment" |
 | 8. Euphoric certainty | The action lock twice, sleep | Nothing |
 | 9. Entities | Don't argue, don't affirm or ridicule, "invite loving awareness only after the person is stable" | Sending the entity love ("I sent it love, and within a few seconds it left"), Love Thy Enemy |
 | 9. Psychosis-like | Safety and outside support | Nothing |
-| 10. The gut | Red flags, small sips, Poison Control, "Do not use activated charcoal at home unless Poison Control or a clinician specifically directs it." | His first thought, zeolite (and ZHoly3O), isn't in this answer (it is in the expanded checklist and the table) |
+| 10. The gut | Red flags, small sips, Poison Control, "Do not use activated charcoal at home unless Poison Control or a clinician specifically directs it." | His first thought, zeolite (and ZHoly3O), only in the answer's collapsed field notes |
 | 11. Nausea | Red flags, a bucket, "use non-aborting nausea and setting support first" | The smoother he names: coffee cherry, which may also extend the trip |
 | 12. Stop the trip | Pes-caprae, "do not invent" the amount | Niacin, the backup trip killer (only in the table) |
 | 13 and 14. Shadow work, love | Love, gentle witnessing, Inner Signal | Nothing |

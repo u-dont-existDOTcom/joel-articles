@@ -4,7 +4,7 @@
  "how": [
   "Every edit Joel gives goes in here the same turn, with his words and the strings the guide must (or must not) contain once it's done. Status pending until the guide has it; then applied.",
   "tools/humanization/check_owner_edits.py checks every entry against GUIDE-SO-FAR.md; render_article_so_far.py runs it on every render.",
-  "His words of 2026-11-03 18:59 UTC are in experiments/t01-answers/JOEL-MESSAGE-20261103-1859.md; those of 22:04 and 22:05 UTC in experiments/t01-answers/JOEL-MESSAGE-20261103-2204.md; his round-2 answers of 2026-11-04 10:26 UTC in review/r02/ANSWERS-R02-20261104-1026.json."
+  "His words of 2026-11-03 18:59 UTC are in experiments/t01-answers/JOEL-MESSAGE-20261103-1859.md; those of 22:04 and 22:05 UTC in experiments/t01-answers/JOEL-MESSAGE-20261103-2204.md; his round-2 answers of 2026-11-04 10:26 UTC in review/r02/ANSWERS-R02-20261104-1026.json; his message of 2026-11-04 11:35 UTC in experiments/t04-answers/JOEL-MESSAGE-20261104-1135.md."
  ],
  "entries": [
   {
@@ -160,6 +160,23 @@
     "Don’t combine it with blood-thinning medication because DMSO also thins the blood."
    ],
    "applied_by": "his OK on SF-8 (2026-11-04 10:26 UTC), put in by review/r02/apply_r02.py"
+  },
+  {
+   "id": "checklist-to-app",
+   "status": "pending",
+   "what": "the Quick Bad Trip Checklist moves out of the guide to the web app once the app's version 8, which matches the guide, is live (the guide's first line already links to the app); the four lines that point to the checklist ('The checklist above', 'The quick checklist above', 'the acute checklist', 'use the checklist first') then point to the app",
+   "joel": "11:35: \"rewrite web app to match the guide if you can, but if you're blockewd by guardrails then keep checlist int he guide yeah\"",
+   "waits_for": "version 8 live on https://ibogaqueen.com/1625-2/ (data-version 2026-11-04-v8)",
+   "must_not_contain": [
+    "# Quick Bad Trip Checklist"
+   ]
+  },
+  {
+   "id": "post-when-finished",
+   "status": "pending",
+   "what": "his post is updated only once the work is finished, with the title's version and date (gate E323)",
+   "joel": "11:35: \"don't need to update the post until we finish\"",
+   "waits_for": "the end of the humanize pass"
   }
  ]
 }

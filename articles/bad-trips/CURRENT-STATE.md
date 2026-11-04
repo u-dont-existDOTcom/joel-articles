@@ -1,6 +1,6 @@
 # Bad Trips guide: current state
 
-Updated: 2026-11-04 (turn 4, his round-2 answers of 10:26 UTC). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
+Updated: 2026-11-04 (turn 5, his message of 11:35 UTC). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
 badtrips guide at badtrips.u-dont-exist.com"; `experiments/t01-answers/JOEL-MESSAGE-20261103-1545.md`).
 
 ## Goal
@@ -57,12 +57,20 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
   pointer broken (`section_refs.py`), all 14 pictures and 4 videos there (`post_embeds.py`, fixed to see the editor
   HTML's videos). Links that went with approved cuts: the Longer Triage's picture (LT-1), Poison Control's charcoal page
   (CL-12, with step 12's charcoal paragraph) and ICEERS's older address (CL-15; the service stays in Who to Contact).
+- 2026-11-04 (turn 5, his message of 11:35 UTC: rewrite the web app to match the guide if it can be done, otherwise keep
+  the checklist in the guide; the post waits until the work is finished): main merged (pull request 287); his message
+  saved (`experiments/t04-answers/`); the app's widget saved from the live page on his laptop and rewritten to match
+  the guide (`experiments/t05-webapp/`: `cut_widget.py`, `rewrite_app.py`, 44 exact replacements in the guide's words;
+  version 8), tested in Chromium against the live version 7 (`test_app.py`: every check passes, the live app fails all
+  ten situations the rewrite is for); the file sent to him and put on his laptop; last turn's web-app check corrected
+  (it had missed the answers' collapsed field notes). The checklist leaves the guide once version 8 is live
+  (OWNER-EDITS `checklist-to-app`).
 
 ## Current checkpoint
 
-- **In progress:** Turn 4: round 2 is in; the humanize pass has started (`humanize/h01/`: the swap and the fidelity keys); the web app is checked against the checklist (`experiments/t04-webapp/WEB-APP-CHECK.md`: its routing matches, but its medical-danger answer contradicts step 1, it has no amounts, and humic acid, coffee cherry and sending an entity love are missing).
-- **Next step (updated on every push, so another account can pick up here):** With his answers on the checklist (guide or app) and on when the deduped guide goes into his post: a fresh whole-guide Pangram check of the guide as it stands, the humanize pass's starting point (on the live post if he updates it now, which needs no draft; otherwise a temporary Substack draft, built as the Inner Child lane's turn 119 did, `articles/inner-child-therapy/experiments/t119-substack/`, its secret link opened in his Brave through Claude in Chrome, which is connected); then humanize section by section per the gate, worst windows first, each section's rewrites on a marking page with their Pangram results.
-- **Waiting on Joel:** the checklist: the guide or the web app (OWNER-QUESTIONS item 2); whether the deduped guide goes into his post now (item 3); which agmatine warnings go (item 1, for the neuro de-armoring lane); whether DMSO's other cautions get the same check.
+- **In progress:** Turn 5: version 8 of the web app is written and tested and waits for him to paste it into the page; the humanize pass starts with a whole-guide Pangram check of the long part (the checklist is leaving), on a temporary Substack draft, since the post waits until the end.
+- **Next step (updated on every push, so another account can pick up here):** Make the temporary draft of the guide without its checklist (payloads as the Inner Child lane's turn 119, `articles/inner-child-therapy/experiments/t119-substack/`), its secret link, and the check in his Brave through Claude in Chrome; record every window with its confidence; then humanize section by section, worst first, one paragraph at a time where a section reads AI (E343). When the live page shows `data-version="2026-11-04-v8"`, take the checklist out of the guide and point its four mentions of the checklist at the app.
+- **Waiting on Joel:** version 8 into the app's page (his task); which agmatine warnings go (for the neuro de-armoring lane); whether DMSO's other cautions get the same check.
 
 ## Remaining
 

@@ -1,6 +1,6 @@
 # Bad Trips guide: questions for Joel
 
-Updated 2026-11-04 (turn 4, his round-2 answers of 10:26 UTC in). Status: **open** = waiting on you, **next** = I do it once you
+Updated 2026-11-04 (turn 5, his message of 11:35 UTC in). Status: **open** = waiting on you, **next** = I do it once you
 answer, **done** = answered.
 Answer under an item's number in a message.
 
@@ -9,21 +9,21 @@ Answer under an item's number in a message.
 1. **open — The agmatine warnings** (in the neuro de-armoring protocol). Checked one by one, with each study linked:
    [the agmatine check](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t02-warnings/AGMATINE-WARNINGS-CHECK.md).
    Which ones go is yours to say, and the neuro de-armoring lane, which owns that protocol, puts it in.
-2. **open — The quick triage: the guide or the web app?** I put each of the checklist's situations to the app
-   ([what it answered, situation by situation](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t04-webapp/WEB-APP-CHECK.md)).
-   It routes the way the guide does, but its medical-danger answer says not to start a field rescue ("Do not ... try a
-   home rescue protocol"), it gives no amounts anywhere, and humic acid, coffee cherry and sending an entity love aren't in
-   it. So either the checklist stays in the guide and the app stays the interactive companion, or the app's lines are
-   rewritten to match the guide first.
-3. **open — When the deduped guide goes into your post.** Round 2 made it 12,691 words (from 14,504). It can go in now,
-   with the title's version and date updated, or after the humanizing.
 
 ## Your tasks
 
-None now. (The baseline's full analysis came with your message: AI Detected, 82% AI, 189 windows; its windows are
-recorded with the baseline.)
+- **Put version 8 of the triage app into its page.** The file was sent in chat; it's also on your laptop in
+  claude-acceptance-transfer, in its bad-trips-webapp folder, and [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t05-webapp/APP-V8-20261104.html). It's the whole content of the page's
+  Elementor HTML widget: open the page in Elementor, click the HTML widget, select all of its code, paste the file in
+  its place, and Update. [What changed](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t05-webapp/CHANGES.md).
+  Once the page shows version 8, the checklist comes out of the guide, as you said.
 
 ## Decisions on record
+
+His message of 2026-11-04 11:35 UTC: "rewrite web app to match the guide if you can, but if you're blockewd by
+guardrails then keep checlist int he guide yeah" (nothing blocked it: version 8 is written and tested, and the checklist
+leaves the guide once it is live) and "don't need to update the post until we finish" (the post is updated at the end;
+the whole-guide check runs on a temporary draft).
 
 His round-2 answers of 2026-11-04 10:26 UTC, on [round 2's cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r02/REVIEW-R02.md): all 26 approved, none with a comment or his own version, and all in the guide.
 
