@@ -691,6 +691,45 @@
     }
    ],
    "recorded_utc": "2026-11-04T00:53Z"
+  },
+  {
+   "turn": "2026-11-04T00:51Z",
+   "lines_of_work": [
+    "inner child guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "2 items in suggested-fixes/joel-articles/, both already in docs/suggested-fixes-ledger.md; no new item; UDA still at c5c9951"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since turn 118's check (00:43 UTC): pull request 284 (this lane, turn 118) merged by Joel at 00:51 UTC, the lane fast-forwarded to main e3dc4332; no new issues, comments or reviews (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop's handoff note is byte for byte what turn 118's update made of it; no one else changed OWNER-QUESTIONS.md or HANDOFF-UPDATE.json"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "pull request 284 merged",
+     "outcome": "round 9's payloads go in pull request 285 (lane_push --pr)"
+    },
+    {
+     "item": "the InnerSignal map's queue of guide changes (innerSignalGraph authoring/PENDING-PUBLIC-GUIDE-CHANGES.md, PGQ-018 to PGQ-055), which Joel asked me to check at 00:56 UTC",
+     "outcome": "read against his reorganized guide: 15 in, 18 with their core point in his words, 2 not in (PGQ-054 drawing anger, PGQ-036 hypnosis during grief), asked about this turn; experiments/t119-queue/QUEUE-COVERAGE.md; the map's queue file can't be written from this lane"
+    }
+   ],
+   "recorded_utc": "2026-11-04T01:10Z"
   }
  ]
 }
