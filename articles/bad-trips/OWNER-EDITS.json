@@ -4,7 +4,7 @@
  "how": [
   "Every edit Joel gives goes in here the same turn, with his words and the strings the guide must (or must not) contain once it's done. Status pending until the guide has it; then applied.",
   "tools/humanization/check_owner_edits.py checks every entry against GUIDE-SO-FAR.md; render_article_so_far.py runs it on every render.",
-  "His words of 2026-11-03 18:59 UTC are in experiments/t01-answers/JOEL-MESSAGE-20261103-1859.md; those of 22:04 and 22:05 UTC in experiments/t01-answers/JOEL-MESSAGE-20261103-2204.md; his round-2 answers of 2026-11-04 10:26 UTC in review/r02/ANSWERS-R02-20261104-1026.json; his message of 2026-11-04 11:35 UTC in experiments/t04-answers/JOEL-MESSAGE-20261104-1135.md."
+  "His words of 2026-11-03 18:59 UTC are in experiments/t01-answers/JOEL-MESSAGE-20261103-1859.md; those of 22:04 and 22:05 UTC in experiments/t01-answers/JOEL-MESSAGE-20261103-2204.md; his round-2 answers of 2026-11-04 10:26 UTC in review/r02/ANSWERS-R02-20261104-1026.json; his message of 2026-11-04 11:35 UTC in experiments/t04-answers/JOEL-MESSAGE-20261104-1135.md. His round-5 answers (exported 2026-11-04 22:14 UTC, sent 22:37 UTC) in review/r05/ANSWERS-R05-20261104-2214.json, his message in experiments/t08-answers/JOEL-MESSAGE-20261104-2237.md."
  ],
  "entries": [
   {
@@ -177,6 +177,34 @@
    "what": "his post is updated only once the work is finished, with the title's version and date (gate E323)",
    "joel": "11:35: \"don't need to update the post until we finish\"",
    "waits_for": "the end of the humanize pass"
+  },
+  {
+   "id": "r05-cbd-his-version",
+   "status": "applied",
+   "what": "CBD-YOURS: his three CBD paragraphs, as he wrote them (typo \"a rats\" fixed), with the study links on the words that name them",
+   "joel": "22:14: \"i broke it up, fixed the first part ...\" (his version in the answers file); \"now it's fully human high conf\"",
+   "must_contain_exact": [
+    "consider topical DMSO with a known-genuine CBD preparation as adjuncts (a lot of CBD is fake or very dilute).",
+    "Seizures come in all different types, and we have no study on whether CBD could be a rescue remedy for a seizure",
+    "And topical CBD hasn't been well-studied.",
+    "I'd treat it as a plausible experimental adjunct remedy rather than something to wait on while a seizure continues."
+   ],
+   "must_not_contain": [
+    "focal seizures fell by about half to three quarters over nearly three years",
+    "In a [2025 study]"
+   ]
+  },
+  {
+   "id": "r05-pfa-his-version",
+   "status": "applied",
+   "what": "PFA-YOURS: his dangers paragraph for the first five minutes (\"take priority\" fixed to \"takes priority\")",
+   "joel": "22:14: \"fully human, super easy\"",
+   "must_contain_exact": [
+    "Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter."
+   ],
+   "must_not_contain": [
+    "Begin with whatever could hurt somebody in the next five minutes."
+   ]
   }
  ]
 }

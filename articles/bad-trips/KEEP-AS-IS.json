@@ -82,6 +82,46 @@
    "when": "2026-11-03 18:59 UTC",
    "where": "round 1, card SF-2 (my advice: leave both)",
    "basis": "his answer"
+  },
+  {
+   "id": "K9",
+   "kind": "voice",
+   "quote": "or pools of water for that matter",
+   "what": "An aside a pass would tidy into the list (\"roads, balconies and water\"); his \"pools of water\" names the danger, and \"for that matter\" is his.",
+   "joel": "and water isn't dangerous. POOLS of water are.",
+   "when": "2026-11-04 22:14 UTC",
+   "where": "round 5, card PFA-YOURS (his version)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K10",
+   "kind": "voice",
+   "quote": "If they want to post their big revelation about the universe, or message an ex, take the phone.",
+   "what": "His sentence for the phone; a pass would turn it round or trim \"big revelation about the universe\".",
+   "joel": "fully human, super easy",
+   "when": "2026-11-04 22:14 UTC",
+   "where": "round 5, card PFA-YOURS (his version)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K11",
+   "kind": "choice",
+   "quote": "just anecdotes",
+   "what": "His link to a 35-second clip (\"Miraculous CBD Oil Stops Child's Epileptic Seizure Instantly\"): a pass checking sources would flag a news clip as weak evidence, but the words say it is an anecdote, which is his point.",
+   "joel": "then i added a link to a cbd instant seizure fix yt vid anecdote",
+   "when": "2026-11-04 22:14 UTC",
+   "where": "round 5, card CBD-YOURS (his version)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K12",
+   "kind": "choice",
+   "quote": "adjunct remedy",
+   "what": "\"remedy\" after \"adjunct\" can look redundant; it says what the adjunct is for, and it was the change that took his paragraph to Human.",
+   "joel": "then the one thing that flipped it was adding \"remedy\" to \"adjunct\" since adjunct is not really clear what it's adjuncting for",
+   "when": "2026-11-04 22:14 UTC",
+   "where": "round 5, card CBD-YOURS (his version)",
+   "basis": "his answer"
   }
  ],
  "cuts": [
@@ -146,6 +186,15 @@
    "joel": "approved card W-CHOLINE",
    "when": "2026-11-04 14:25 UTC",
    "where": "round 3, card W-CHOLINE",
+   "basis": "his answer"
+  },
+  {
+   "id": "C8",
+   "quote": "focal seizures fell by about half to three quarters over nearly three years",
+   "what": "The 2025 study of high-dose oral CBD (Patel et al. 2025) and its dose figures: three years of daily CBD tells a reader with someone seizing now nothing they can use, so it doesn't come back into the Active Seizure section (gate E360).",
+   "joel": "you should think about the usefulness of the THREE YEAR STUDY when we are talking to people having seizures RIGHT NOW, so you did the wrong research. i took that one out.",
+   "when": "2026-11-04 22:14 UTC",
+   "where": "round 5, card CBD-YOURS (his version)",
    "basis": "his answer"
   }
  ]

@@ -2450,8 +2450,78 @@ His message, word for word: `articles/neuro-de-armoring/humanize/fix-20261104/jo
   number ("Do not push through.") keeps its own words, since they are what its warning word applies to. The comparative
   read beside his post (E284, E294) checks the meaning. Every humanizing lane can set it; don't ask him again whether
   words may change.
+- **E359. When a text sorts things into groups, read every item against every group: an item in two groups says how it
+  belongs to both, or it's a contradiction.** Joel, 2026-11-04 22:26 UTC, on the neuro de-armoring 5-HTP stop signs
+  (Neuro De-Armoring Cards, 4 November (4), Y-92), which had read AI in five versions, four of mine and Codex's: "again the
+  logic problem, you listed dangerous symptoms and less dangerous symptoms which overlapped". The protocol's two lists
+  shared sweating, tremor and agitation. His version says the overlap: "Other stop signs include less dangerous symptoms
+  (some of which are part of serotonin syndrome, but not dangerous alone)". It also leads with the dangerous pattern as
+  what to watch out for and why ("The most dangerous symptoms to watch out for are diagnostic of serotonin syndrome, which
+  can be deadly if untreated"), and that conversational opening alone read Human with the overlap left in ("just the more
+  conversational intro fixed it"). Every tell-panel reader had called the paragraph "a two-tier checklist", and I kept
+  both lists as the protocol's (E336); the shape they named hid a flaw of sense in the original itself, which a rewrite
+  carries over unless someone reads for it. How I could have seen it: the logic audit compares a rewrite with its original
+  and can't see a flaw both share, so read the original's own logic too before drafting: every item of a list of
+  kinds, tiers, dos and don'ts, or safe and unsafe against the other lists in the same passage
+  (`tools/humanization/reviewer/logic_audit_brief.md` now asks for it). The same answers, Y-93: a warning made into its
+  reason ("Serotonin syndrome usually comes from mixing 5-HTP casually with anything else that raises serotonin": "made it
+  clear to start with rather than a warning for no reason", E357's point first), the repeat cut, and an exclamation mark
+  after a case story that earns one ("added an exclamation mark where it needed to be after that crazy story and now it's
+  high conf human"). Where it's written down: the lane's `fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md`, versions twelve
+  and thirteen.
 
-(E342, E345, E347 to E349 and E351 are the gut lane's, in its section above. The next lesson in either lane is E353.)
+(E342, E345, E347 to E349 and E351 are the gut lane's, in its section above. The next lesson in either lane is E360.)
+
+## What the bad trips guide's round 5 taught (2026-11-04, his answers exported 22:14 UTC)
+
+His two versions and his comments, word for word: `articles/bad-trips/review/r05/ANSWERS-R05-20261104-2214.json`; what each
+changed: `docs/MAKING-SENSE.md`.
+
+- **E360. Make it make sense, and the AI reading mostly goes with it: one making-sense read before every Pangram try.**
+  Three of my versions of the first five minutes' dangers paragraph read AI (High), and the tell panel said it read
+  "assembled rather than lived", with no first person and nothing at stake, which only he could supply. His version read
+  Human on his first check, with none of that ("fully human, super easy"): "so your readers were all wrong, you don't need any lived
+  experience, you just need it to MAKE SENSE". What he fixed: "how could anything hurt them? you mean they could HURT
+  THEMSELF, so why didn't you say that? why put car keys away, because it's messy to have them in the wrong spot? we
+  want them OUT OF REACH. and water isn't dangerous. POOLS of water are." And he asked: "do we need to devise some kind
+  of making sense protocol rather than attacking this problem case by case perhaps?" Yes: E87, E342, E345, E347, E351,
+  E355, E357, E359 (the neuro lane's, the same evening) and this one are the same lesson met case by case, so `docs/MAKING-SENSE.md` puts them in one read, his
+  before-and-after pairs as its examples, and the newcomer read (`tools/humanization/hidden_links.py`) asks its
+  questions. Its new ones, from this round:
+  - what an instruction is for, when the purpose isn't said (keys "OUT OF REACH", so nobody drives; "hurt themselves",
+    when the danger is to them);
+  - which thing exactly, when a word names a whole kind and the danger is one case of it ("POOLS of water");
+  - what a word acts on, when that isn't clear ("adjunct" became "adjunct remedy": "since adjunct is not really clear
+    what it's adjuncting for"; "known" CBD became "known-genuine", with why: "a lot of CBD is fake or very dilute");
+  - why a study is there, said before it ("don't ever say "In one study..." you need to INTRODUCE so that people
+    understand WHY they are reading this stuff"; `tells_lint.py` O68);
+  - what follows from what was just said ("the topical CBD part (which was out of order, should go AFTER the oral part
+    since we were discussing oral before that)");
+  - whether a fact helps this reader now: "think about the usefulness of the THREE YEAR STUDY when we are talking to
+    people having seizures RIGHT NOW, so you did the wrong research. i took that one out. it's almost like pangram
+    knows how stupid it sounds somehow." Research for a section is chosen for the reader's situation in it (an acute
+    section wants what helps in minutes, or says there's nothing), and a finding that doesn't serve it goes.
+  - Less compressed: "had to remove the spaces again before mg and kg, as well as add "which is" and "treatment" to make
+    it less compressed" (O67; E338 (gut)).
+  The tell panel's "lived experience", "first person" or "nothing at stake" is never the fix I reach for: his life
+  story isn't mine to supply, and using it to hide my tells is cheating (his rule). Such a note sends the paragraph
+  through the making-sense read first (`tools/humanization/tell_panel.py`, "What the panel decides").
+- **E361. When a fix doesn't take, try the next obvious fix of the same kind; don't switch strategies.** Joel, on his
+  CBD paragraph, which he took from AI to Human ("fully human high conf") in the seven checks he linked: "i hope that one thing you are learning from me is
+  i don't just try random strategies, i don't just try one thing, then if that "fails" i move to a whole diff strategy
+  completely like you. I do what i know works, and if it doesn't fix it, I just try to find the next obvious thing that
+  shoudl work, and nearly every single time, that leads to passing pangram." His sequence: he broke the paragraph up and
+  fixed the first part ("known" was unclear), then the oral CBD part, then the mg spaces and "which is" and
+  "treatment", then the topical part's order and its introduction, then the DMSO part, where "remedy" after "adjunct"
+  flipped it; put together it read half AI, "a couple minor connection fixes" made it 22% AI, and cutting the
+  three-year study made it Human, High. Each step was a making-sense fix (E360) on the part that still read AI, kept
+  when it helped. So after a check, keep what helped, find the next part that doesn't make sense, and fix that; reach for
+  a different method (another writer, a panel, a question to him) only when no next fix of that kind is left, and say
+  which fix was the last one tried. This narrows E343's "one paragraph at a time" and the method-switch rule in
+  `AGENTS.md`: switching is for a method that has failed the same way repeatedly, not for one check that didn't move.
+
+(The neuro de-armoring lane's E359 is just before this section; the bad trips lane's E360 and E361 are just above. The next
+lesson in any lane is E362.)
 
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)

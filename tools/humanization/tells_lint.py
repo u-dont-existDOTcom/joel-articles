@@ -1226,6 +1226,19 @@ def main():
             if re.search(r"(?<![\w.])\d+(?:[.,]\d+)?(?:\s*[\u2013-]\s*\d+(?:[.,]\d+)?)?\s+(?:mg|mcg)\b", s):
                 flag('REVIEW', 'O67 a space before "mg" (Joel 2026-11-04: "don\'t think i\'ve seen humans put spaces there"): '
                      '"50mg", the way he writes it', s)
+            # O68 (E360; Joel, 2026-11-04 22:14 UTC, on the bad trips guide's CBD paragraph: "don't ever say "In one study..." you
+            # need to INTRODUCE so that people understand WHY they are reading this stuff"): a sentence that opens on the study
+            # itself ("In a 12-week trial, ...", "In one study of ...", "A 2025 study found ...") before the reader knows what
+            # question it answers. His version said what was in question first ("And topical CBD hasn't been well-studied.")
+            # and then brought the trial in as the answer ("There was a short 12-week trial done, where ...").
+            if re.match(r"\W*(?:In|From)\s+(?:a|an|one|the|this|that|another|two|three|several)\s+(?:[\w,-]+\s+){0,6}?"
+                        r"(?:study|studies|trial|trials|review|meta-analysis|analysis|experiment|survey|cohort)\b", n, re.I) or \
+                    re.match(r"\W*(?:A|An|One|Another)\s+(?:[\w,-]+\s+){0,5}?(?:study|trial|review|meta-analysis)\s+"
+                             r"(?:found|showed|shows|reported|suggests|suggested)\b", n, re.I):
+                flag('REVIEW', 'O68 a study opened bare ("In one study ...": Joel 2026-11-04: "you need to INTRODUCE so that people '
+                     'understand WHY they are reading this stuff"): first say what is in question for the reader, then bring the '
+                     'study in as the answer, the way he did ("And topical CBD hasn\'t been well-studied. There was a short '
+                     '12-week trial done, where ...")', s)
             # O44 (Joel, 2026-10-21 17:56, on the hypnosis guide's return steps, where "one honest action" among what you go back to
             # had read AI in every wording of his: "especially "ONE HONEST ACTION" sounds super ai. i never heard a real person say
             # that in my life.").

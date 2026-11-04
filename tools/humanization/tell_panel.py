@@ -31,6 +31,12 @@ What the panel decides (E253 and E256 (Inner Child)):
 - when two of my drafts have failed after the panel, the next draft comes from a writer of another family (Codex, given
   `rewrite-prompt`), and the panel reads it before its check;
 - a help request comes only after that, and links its PANEL.md (pangram_links_check.py fails a help request without one);
+- a WHOLE: note that the paragraph lacks lived experience, a first person or anything at stake is read as a sense
+  problem first: the paragraph goes through the making-sense read (docs/MAKING-SENSE.md) before anything else, and it is
+  never a reason to ask Joel for his life story to cover my tells (E360). On the bad trips guide's dangers paragraph
+  (2026-11-04) two readers said "assembled rather than lived" and I sent it to him for that; his version read Human with
+  no first person at all, because it said what each step was for ("so your readers were all wrong, you don't need any
+  lived experience, you just need it to MAKE SENSE");
 - a human tell I name is Joel's words, a fact he gave, or a rough edge (E251). Words the readers called human don't make
   one: ChatGPT called "I'd count the milder stuff too" human, and Joel hears it as "that same habit of being overly
   careful".

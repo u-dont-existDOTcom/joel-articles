@@ -15,6 +15,16 @@ https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips
 
 ## START HERE
 
+- **2026-11-04, turn 9 (his round-5 answers, sent 22:37 UTC).** Both cards came back with his own versions: the CBD
+  paragraph broken into three, and the first five minutes' dangers paragraph ("fully human, super easy"). Both are in
+  (`review/r05/apply_r05.py`, three typos fixed, the study links back, the 2025 study gone with his cut). His lessons are
+  in the shared rules as one making-sense read (`docs/MAKING-SENSE.md`, gates E360 and E361, `tells_lint.py` O68), the
+  answer to his question about a protocol. Checking his new points against their sources gave round 6's two cards
+  (`review/r06/REVIEW-R06.md`): the skin-gel trial's result and the 7-OH-CBD point as the paper and a mouse study have
+  them, and the warning-stage things from his note. No Pangram check ran: a permission request went unanswered, so no
+  browser route was tried and the page wasn't published as an artifact (it went to him as a file). **First:** those
+  checks (his CBD paragraphs with the video link, the first five minutes' P4 draft, round 6's two drafts); **then** the
+  rest of Psychological First Aid his way, one paragraph at a time (CURRENT-STATE.md's next step).
 - **2026-11-04, turn 8 (his round-4 answers and message of 14:58 UTC).** All 5 approved and in; he put version 9 of the
   app into its page ("updated the web app"; the live page showed it at 14:59 UTC), so the checklist is out of the guide
   (`review/r04/apply_r04.py`, 11,882 words), its three unique things moved into the long part in his words. His comment

@@ -1,6 +1,6 @@
 # Bad Trips guide: current state
 
-Updated: 2026-11-04 (turn 8, his round-4 answers and message of 14:58 UTC). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
+Updated: 2026-11-04 (turn 9, his round-5 answers, sent 22:37 UTC). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
 badtrips guide at badtrips.u-dont-exist.com"; `experiments/t01-answers/JOEL-MESSAGE-20261103-1545.md`).
 
 ## Goal
@@ -125,16 +125,51 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
   ("assembled rather than lived"; `panel-P3T1/PANEL.md`, `panel-P3T2/PANEL.md`), which only he can supply. So the
   paragraph is round 5's second card, PFA-YOURS (the page republished at the same address), and the how-to sections wait
   for his version (E333).
+- 2026-11-04 (turn 9, his message of 22:37 UTC: the laptop resume line and his round-5 answers, exported 22:14 UTC, both
+  cards Revise with his own versions and long comments): main merged (pull requests 295 to 302; the tells registry keeps
+  both lanes' tells); his message and answers saved (`experiments/t08-answers/`, `review/r05/ANSWERS-R05-20261104-2214.json`)
+  and applied by `review/r05/apply_r05.py`: his CBD paragraph as the three he broke it into (B111, N-CBD-2, N-CBD-3), his
+  dangers paragraph (B236), three typos fixed ("take priority", "a rats", two trailing spaces), the FDA, trial and two
+  DMSO links back on the words that name them, the 2025 study gone with his cut (11,882 to 11,941 words;
+  `review/r05/GUIDE-AFTER-R05.md` is `GUIDE-SO-FAR.md`). `KEEP-AS-IS.json` K9 to K12 and cut C8; `OWNER-EDITS.json`
+  r05-cbd-his-version and r05-pfa-his-version (16 passed); fidelity: only his cut's numbers left, keys taken again
+  (`humanize/h01/FIDELITY-KEYS-R05.json`). His video link checked from his laptop ("Miraculous CBD Oil Stops Child's
+  Epileptic Seizure Instantly", High At 9 News, 35 seconds). His new points checked against their sources (E348): the
+  skin-gel trial's paper (O'Brien et al. 2022, full text), the Epidiolex label's doses, the 7-OH-CBD mouse study (Whalley
+  et al., AES 2017): round 6's CBD-TRIAL. His note on what people report for seizures checked one by one (Epilepsy
+  Action, Efron 1956, the Epilepsy Society's July 2026 sheet on Betts's work): round 6's SEIZ-WARN (`review/r06/`, 2
+  cards, built by `build_r06.py`; REVIEW-R06.md has them as text). His lessons into the shared rules: E360 (one
+  making-sense read before every Pangram try, `docs/MAKING-SENSE.md`, his question answered), E361 (the next obvious fix,
+  not a new strategy), `tells_lint.py` O68 (a study opened bare, W122), the newcomer read's new questions and his pairs
+  (`tools/humanization/hidden_links.py`, built on pull request 293's version), and the tell panel's "lived experience"
+  notes sent through the making-sense read (`tell_panel.py`). The first five minutes' P4 drafted his way
+  (`humanize/h04-pfa-his-way/P4-DRAFT.md`, D3 linter CLEAR), not yet checked.
+- **Not done this turn, and why:** no Pangram check. A permission request (a WebFetch to PubMed) went unanswered early in the turn,
+  with the note that he may be away and that no other call needing approval should be made until he writes
+  again, so the browser routes to his Pangram account (the app's browser pane, Claude in Chrome) weren't tried, and
+  round 6's page wasn't published as an artifact; the page went to him as a file, its cards as text on GitHub.
 
 ## Current checkpoint
 
-- **In progress:** Turn 8: round 5's two cards (the CBD paragraph and the first five minutes' dangers paragraph, each in his words) are with him.
-- **Next step (updated on every push, so another account can pick up here):** His round-5 answers in with an `apply_r05.py` like round 4's (the page's export, saved as `review/r05/ANSWERS-R05-*.json`; his versions as he wrote them; the CBD paragraph keeps W-CBD2's three links on the words that name the same sources: the FDA label https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/210365s024s029s030lbl.pdf, the 12-week trial https://pubmed.ncbi.nlm.nih.gov/35802375/, the 2025 study https://pubmed.ncbi.nlm.nih.gov/40673944/). Each of his paragraphs checked alone in Pangram's web app, a ledger prediction first. Then the how-to sections the way his dangers paragraph shows (E333): what he does that my tries didn't (the panels' diagnosis: first person, something at stake, an uneven rhythm), tried on one paragraph first (E343), then the rest of Psychological First Aid, then the sections by `humanize/SECTION-MAP.md`'s AI High words, each paragraph through `tells_lint.py`, the tell panel after a second AI result (E346), `compare_read.py` and fidelity against `humanize/h01/FIDELITY-KEYS-R04.json`. No whole-guide check until no window already seen reads AI or Low (E354); then a temporary Substack draft, its secret link opened in his Brave from his laptop's shell (`brave-browser-stable '<link>'`, E353), and the feed link from him. If he chooses Keep on PFA-YOURS ("I'll try another way first"), the next try is a writer of another family (Codex on his laptop, `tell_panel.py rewrite-prompt`), on the same paragraph.
-- **Waiting on Joel:** round 5's two cards.
+- **In progress:** Turn 9: his round-5 versions are in; round 6's two cards (CBD-TRIAL, SEIZ-WARN) are with him; the
+  making-sense read is in the shared rules; the first five minutes' P4 is drafted his way and waits for its check.
+- **Next step (updated on every push, so another account can pick up here):** First, the checks this turn couldn't run,
+  each alone in Pangram's web app with its prediction written first (`pangram_ledger.py predict --detector`; the route
+  per AGENTS.md's paragraph on the API's credits and E356: the app's browser pane, then Claude in Chrome in his Brave;
+  read the gut lane's E353 in pull request 293 before opening tabs in his browser): his CBD paragraphs as they are now
+  (he checked them Human, High, before adding the video link), `humanize/h04-pfa-his-way/P4-D3.txt`, and round 6's two
+  drafts (CBD-TRIAL's sentence, SEIZ-WARN) so his answers come with their readings. Publish round 6's page as an
+  artifact from this account if he hasn't answered from the file. Then the rest of Psychological First Aid one paragraph
+  at a time by `docs/MAKING-SENSE.md` (P5 "Then look at the room ..." next), fixing the next part that doesn't make sense
+  after each check (E361), each paragraph through `tells_lint.py`, `hidden_links.py` and `compare_read.py`, fidelity
+  against `humanize/h01/FIDELITY-KEYS-R05.json`; then the sections by `humanize/SECTION-MAP.md`'s AI High words. His
+  round-6 answers go in with an `apply_r06.py` like round 5's. No whole-guide check until no window already seen reads AI
+  or Low (E354).
+- **Waiting on Joel:** round 6's two cards.
 
 ## Remaining
 
-His CBD paragraph (round 5); the whole-guide Pangram check; the 5 generic lines the check left for the humanizing; an overcompletion read (gate E328); the
+Round 6's two cards; the whole-guide Pangram check; the 5 generic lines the check left for the humanizing; an overcompletion read (gate E328); the
 humanizing of every section that reads AI or below High, by the gate's own writers (Emulate is no longer used on his writing, Joel 2026-11-03); the word-for-sense read
 (gate E331); his post updated, with the title's version and date (gate E323).
 

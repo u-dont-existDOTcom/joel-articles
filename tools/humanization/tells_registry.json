@@ -2937,6 +2937,19 @@
    ],
    "rule": "O67",
    "example": "Start with 50 mg at night for two nights."
+  },
+  {
+   "id": "W122",
+   "tell": "a study opened bare (\"In a 12-week trial, ...\", \"In one study of ...\", \"A 2025 study found ...\"), before the reader knows what question it answers",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "don't ever say \"In one study...\" you need to INTRODUCE so that people understand WHY they are reading this stuff"
+    }
+   ],
+   "rule": "O68",
+   "example": "In a 12-week trial, a CBD skin gel reached the blood at levels like oral CBD's but did no better than placebo."
   }
  ]
 }

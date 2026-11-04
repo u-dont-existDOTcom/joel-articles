@@ -1,0 +1,84 @@
+# The cards of round 6, read by build_r06.py (which defines P, T, whole, span_of, replace_words and card). P('N-CBD-2')
+# is the page block of GUIDE-SO-FAR-blocks.json's N-CBD-2 (the guide after round 5): his second CBD paragraph, the one on
+# topical CBD. The sources were opened on 2026-11-04 between 22:50 and 23:30 UTC (the trial's full text through Europe
+# PMC and the FDA label as text, from his laptop; every link below answered 200 from there).
+
+BUILT = '2026-11-04'
+
+INTRO = [
+    'Your two versions are in the guide as you wrote them, with three typos fixed ("take priority" to "takes priority", '
+    '"a rats" to "rats", and two trailing spaces) and the study links back on the words that name them; the 2025 '
+    'study went with your cut. Your lessons are in the shared rules as one making-sense read, so every lane uses them '
+    '(the answer to your question about a protocol is in my message).',
+    'This page has two cards from your CBD paragraphs. The first changes two points about the skin-gel trial to what '
+    'the paper says, keeping your sentence. The second is the warning-stage things from your note, checked one by '
+    'one, as a short paragraph for you to take, change or leave out. Neither has been through Pangram yet: I '
+    'couldn\'t reach Pangram this turn, and both get checked before they go into the guide.',
+]
+
+TYPES = {
+    'more': {'label': 'Says more than the study', 'about': 'a point the paper backs only in part, changed to what it shows'},
+    'new': {'label': 'From your note', 'about': 'something you mentioned, checked against its sources, as a line for the guide'},
+}
+
+TRIAL_OLD = ('and it did show that transdermal absorption works like oral CBD\'s but the dosing was too low, and transdermal '
+             'CBD also doesn\'t get converted to the potentially more active form (7-OH-CBD) by the liver.')
+TRIAL_NEW = ('and it didn\'t do any better than placebo. The gel got CBD into the blood at about the levels of the starting '
+             'oral dose, 5 to 10mg/kg. The approved oral doses go up to 20 or 25mg/kg a day, so the dosing may have been '
+             'too low. Transdermal CBD also skips the liver\'s first pass, so less of it gets converted to 7-OH-CBD, a '
+             'form that stopped seizures in mice about as well as CBD itself.')
+
+card(id='CBD-TRIAL', type='more', advice='approve', title='The skin-gel trial: what it found, and the 7-OH-CBD point',
+     what=('The end of your second CBD paragraph becomes: "... where they used a CBD skin gel, %s"' % TRIAL_NEW),
+     why=('Three things, from the trial\'s paper ([O\'Brien et al. 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9270696/)) '
+          'and the [Epidiolex label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/210365s024s029s030lbl.pdf). '
+          'First, the sentence never says what the trial found, so a reader can\'t tell why the dose comes up: neither dose '
+          'of the gel cut seizures more than placebo did. Second, the paper doesn\'t say the dose was too low. It says the '
+          'gel reached blood levels that "overlap those reported with oral cannabidiol (5-10 mg/kg)", and that benefit had '
+          'been seen with higher gel doses (500 to 1,000mg a day) in children with other epilepsies; the label\'s oral '
+          'doses start at 5mg/kg a day and go up to 20 (Lennox-Gastaut, Dravet) or 25 (tuberous sclerosis). So "may have '
+          'been too low" holds, and "was too low" says more than anyone has shown. Third, CBD through the skin still gets '
+          'broken down by the liver once it\'s in the blood; what it skips is the first pass, where swallowed CBD gets '
+          'converted before it reaches the rest of the body. And 7-OH-CBD stopped seizures in mice about as well as CBD '
+          'did, not better ([Whalley et al., AES 2017](https://aesnet.org/abstractslisting/the-human-metabolite-of-'
+          'cannabidiol--7-hydroxy-cannabidiol--but-not-7-carboxy-cannabidiol--is-anticonvulsant-in-the-maximal-'
+          'electroshock-seizure-threshold-test-(mest)-in-mouse)), so "potentially more active" goes.'),
+     stays=('Your opening ("And topical CBD hasn\'t been well-studied. There was a short 12-week trial done, where they used '
+            'a CBD skin gel"), your point that the dose may have been too low, and your 7-OH-CBD point, which still says '
+            'why the skin route might do less.'),
+     deciding=('The new words are mine, in your sentence\'s shape, and haven\'t been through Pangram yet: if you\'d rather '
+               'say it your way, Revise with your words.'),
+     advice_note='Approve.', found_by='checking your new points against the trial\'s paper (gate E348)',
+     edits=[replace_words(P('N-CBD-2'), TRIAL_OLD, TRIAL_NEW)],
+     spans=[span_of(P('N-CBD-2'), 'it did show that transdermal absorption works like oral CBD\'s but the dosing was too low'),
+            span_of(P('N-CBD-2'), 'doesn\'t get converted to the potentially more active form (7-OH-CBD) by the liver')])
+
+WARN = ('Some people feel a seizure coming before it takes hold, and in that warning a few things people report can still '
+        'stop it for some of them, depending on what sets it off. If it\'s flashing or flickering light, cover one eye with a '
+        'hand and turn away from the light, because closing the eyes doesn\'t block enough of it. Some people stop a seizure '
+        'at the warning stage with a strong smell like jasmine, and some train themselves to link one smell with feeling '
+        'calm and then sniff it when a seizure threatens. When overstimulation is what sets it off, a cool, quiet, dark '
+        'and comfortable space can help.')
+
+card(id='SEIZ-WARN', type='new', advice='approve', title='What can help before a seizure takes hold (from your note)',
+     what='A new paragraph after your DMSO paragraph, before the call-for-help line: "%s"' % WARN,
+     inserts=[{'before': P('B112'), 'kind': 'p', 'text': WARN, 'seq': 1}],
+     why=('Your note listed what people report, the Epilepsy Foundation included, "but there\'s nothing that works for '
+          'everyone of course". Checked one by one: covering one eye is the standard advice for light-triggered seizures, '
+          'with a hand, and not closing the eyes ([Epilepsy Action](https://www.epilepsy.org.uk/info/seizure-triggers/'
+          'photosensitive-epilepsy): "cover one eye with your hand and turn away. Do not close your eyes"). A strong smell '
+          'at the warning stage stopped one patient\'s seizures in a classic case report ([Efron 1956](https://pubmed.ncbi.'
+          'nlm.nih.gov/13364083/)), and in Tim Betts\'s clinic people who learned to link an oil\'s smell (jasmine, ylang '
+          'ylang, lavender, camomile) with feeling relaxed smelled it when a seizure threatened; a third were seizure-free '
+          'a year later, in a study with no control group ([Epilepsy Society, July 2026](https://epilepsysociety.org.uk/'
+          'sites/default/files/2026-07/ComplementarytherapiesJuly2026.pdf), which also warns that some oils can make '
+          'epilepsy worse). The cool, quiet, dark and comfortable space is your experience; I found no study of it. I left out splashing '
+          'water (nothing I found, and first-aid advice for a seizure doesn\'t include it) and music (its studies are of '
+          'listening every day for weeks, not during a seizure). All of these are for the warning stage: once someone is '
+          'convulsing, the section\'s first paragraph and the call-for-help line are what applies, which is why it goes '
+          'just before that line.'),
+     stays='Everything else in the section, in its order.',
+     deciding=('Whether you want it in at all, and in whose words: it\'s my draft from your note, not yet through Pangram. '
+               'You could also add your own experience of what helps, or name the oils.'),
+     advice_note='Approve, or Revise with your words.', found_by='your note on the CBD card',
+     spans=[whole(P('N-CBD-3'))], card_after=P('N-CBD-3'))
