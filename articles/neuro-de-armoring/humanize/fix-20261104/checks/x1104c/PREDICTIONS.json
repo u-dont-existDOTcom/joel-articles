@@ -1,0 +1,24 @@
+[
+ {
+  "key": "b082",
+  "name": "the uridine evidence paragraph, third try",
+  "lineage": "ND1104-B082",
+  "scope": "paragraph",
+  "words": 148,
+  "call": "AI",
+  "chance": 0.35,
+  "why": "the animal findings joined into one sentence with the plain meaning first and the term in brackets (\"how many new connection points DHA makes neurons grow (DHA-induced dendritic spine formation)\"); the rest as in try 2 (Human High, Low and Medium windows)",
+  "sha256": "7b3792bb0ea600a7a71dfd6e4a9408950666e53bcdb7e1da72566d273c4fe2e1"
+ },
+ {
+  "key": "b083",
+  "name": "Scott's signal, third try",
+  "lineage": "ND1104-B083",
+  "scope": "paragraph",
+  "words": 102,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "the reason said (\"so a standard dose of UMP was what he added\"), a line for the reader (\"That's the kind of fast response to watch for\"), the plain meaning before the term; but it is still an anecdote, a list of effects, a hedge and an interpretation",
+  "sha256": "30ea4526c23885dbe3786e561ce83163791d2bed3f9dd3b407a1f45193b590a9"
+ }
+]

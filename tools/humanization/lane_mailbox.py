@@ -113,6 +113,31 @@ def record(turn, lines, read, unreachable, items, path=RECORD):
     return problems(entry)
 
 
+def start_of_turn():
+    """What a lane does next, right after its mailbox (gate E339): the pre-push hook installed if this clone lacks it, and
+    whether origin/main is merged. Nothing here stops the record; lane_push.py refuses the push if main isn't merged."""
+    out = []
+    try:
+        sys.path.insert(0, str(REPO / 'tools' / 'humanization'))
+        import lane_push as lp
+        done = lp.install_hook()
+        if done:
+            out.append(done)
+        f = lp.run(['git', 'fetch', '-q', 'origin', 'main'], check=False, timeout=180)
+        if f.returncode:
+            out.append('main: not fetched (%s); merge it before other work once it can be' % f.stderr.strip()[-200:])
+        elif lp.run(['git', 'merge-base', '--is-ancestor', 'origin/main', 'HEAD'], check=False).returncode:
+            n = len([x for x in lp.run(['git', 'log', '--oneline', 'HEAD..origin/main'], check=False).stdout.split('\n') if x])
+            files = lp.shared(lp.run(['git', 'diff', '--name-only', 'HEAD...origin/main'], check=False).stdout.split())
+            out.append('main: %d commit(s) not merged here. Merge origin/main now, before other work (gate E339), and read '
+                       'what it changed in the shared files: %s' % (n, ', '.join(files) or 'none'))
+        else:
+            out.append('main: merged')
+    except Exception as e:   # a lane's record never fails on this
+        out.append('main: not checked (%s)' % e)
+    return out
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.split('\n')[0])
     sub = ap.add_subparsers(dest='cmd', required=True)
@@ -126,6 +151,9 @@ def main(argv=None):
     c.add_argument('--turn', required=True)
     a = ap.parse_args(argv)
     probs = (record(a.turn, a.lines, a.read, a.unreachable, a.item) if a.cmd == 'record' else check(a.turn))
+    if a.cmd == 'record':
+        for line in start_of_turn():
+            print(line)
     for p in probs:
         print('missing:', p)
     if probs:

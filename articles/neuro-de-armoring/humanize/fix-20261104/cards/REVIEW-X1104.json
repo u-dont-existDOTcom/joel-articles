@@ -1,0 +1,360 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "neuro-de-armoring-cards-20261104-x1104b",
+ "title": "Neuro De-Armoring Cards, 4 November",
+ "intro": [
+  "Both uridine paragraphs after your \"Who this is for\" now read <b>Human Written, 0.0% AI</b> by themselves: the evidence paragraph after three fresh readers listed its tells, and Scott's in a rewrite by Codex after five of mine read AI.",
+  "Then ten warnings cards: the cuts and softer wordings the warnings checks support, and the three things your answer 4a keeps, said as experience. These change what a warning says, not how it reads; each paragraph's wording gets its own Pangram check when its turn comes. Your agmatine precautions, with the cuts, still read Human.",
+  "Your answers save as you click. When you're done, click <b>Copy my answers</b> (or <b>Save them as a file</b>) and send them to me."
+ ],
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "e5ead544546ad5ca039b23cd38c5ec798670e197a69708dacc83d57ee76b375f"
+ },
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104.md"
+ },
+ "built": "2026-11-04 11:11 UTC",
+ "types": {
+  "passes": {
+   "label": "My version reads Human",
+   "about": "A paragraph rewritten and checked by itself: it reads Human Written. Approve it, or revise it."
+  },
+  "warning": {
+   "label": "A warning the research doesn't back",
+   "about": "What the warnings checks found, with the sources, and the change it supports. Approve it, revise it, or keep the post's wording."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "Y-82",
+   "title": "\"The tool: Uridine monophosphate (UMP). There's no study showing ...\"",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 82,
+     "start": 0,
+     "end": 639
+    }
+   ],
+   "edits": [
+    {
+     "block": 82,
+     "before": "The tool:Uridine monophosphate (UMP). The best evidence is not \"UMP cures DAWS\"; that study does not exist. The evidence is more basic: uridine, choline, and DHA are circulating precursors for brain phosphatide / synaptic membrane synthesis. Wurtman's group has shown that DHA + uridine + choline can increase synaptic membrane components and synaptic proteins, that DHA-induced dendritic spine formation is enhanced by UMP in animals, and that dietary UMP increased potassium-evoked dopamine release and neurite outgrowth in aged rats. So the mechanism is plausible, but the DAWS use is still a cautious human extrapolation plus anecdote.",
+     "after": "The tool: Uridine monophosphate (UMP). There's no study showing that \"UMP cures DAWS\", only more basic research on what uridine, choline, and DHA do in the brain. All three get carried in the blood to the brain, which uses them to make the fatty membranes at its synapses (circulating precursors for brain phosphatide / synaptic membrane synthesis). Wurtman's research group found that [giving the three together can increase synaptic membrane components and synaptic proteins](https://pmc.ncbi.nlm.nih.gov/articles/PMC4011061/), and that in animals, adding UMP to DHA made the neurons grow more new connection points ([DHA-induced dendritic spine formation](https://pmc.ncbi.nlm.nih.gov/articles/PMC2140951/)). And [old rats that got UMP in their food released more dopamine when their neurons were stimulated with potassium, and grew more nerve fibers](https://pubmed.ncbi.nlm.nih.gov/16055952/). So it's plausible that it works on the synapses this way, but using it for DAWS in people means carefully extrapolating from those studies and from anecdotes like Scott's."
+    }
+   ],
+   "type": "passes",
+   "approve_label": "use this wording",
+   "what": "Your post's evidence paragraph, uncompressed the way your \"Who this is for\" is: each term after its plain meaning, the study findings said plainly with their links kept.",
+   "why": "One paragraph at a time it read 62.2%, 30.9%, 0.0% (AI Assisted) and 2.6% AI in my first four tries. Then three fresh readers (Codex, Sonnet and Haiku) listed its tells ([their notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/panel/b082/PANEL.md)), and my fifth try, with the tells they agreed on fixed, read Human Written.",
+   "deciding": "Whether my wording of the evidence paragraph goes in.",
+   "stays": "Every compound, the three study links and the caveat (\"plausible\", \"carefully extrapolating\", \"DAWS\", \"anecdotes like Scott's\"); \"potassium\" is back in the rat study.",
+   "reading": "your post's uridine section, AI Generated, 100%: [round 2](https://www.pangram.com/history/3652a572-48a6-471a-9b10-180a37fabb34)",
+   "tested": "this version by itself, Human Written, 0.0% AI: [try 5](https://www.pangram.com/history/036d5dff-88a6-4533-8023-989adbd74a3b). Its windows: High on the first three sentences, Medium on the Wurtman sentence, Low on the rat study, Medium on the last sentence. When I tried to raise those three it read 30.3% AI ([try 6](https://www.pangram.com/history/e36c7366-cdce-4f67-a1bf-cd61514e9fd5)), and the paragraph has used its six tries, so another try needs your OK (question 5). The first four: [1](https://www.pangram.com/history/cccbd201-be29-4717-b177-f6e88225fa3d), [2](https://www.pangram.com/history/7cf017d1-316d-4488-a25e-d1d30b2e0baa), [3](https://www.pangram.com/history/97296cac-f177-4661-b7c9-b05d2cdb6e18), [4](https://www.pangram.com/history/3e7be4a8-0cbc-4ca0-8e2c-04289e790009)",
+   "found_by": "Paragraph checks through the API, 4 November (batches x1104a to x1104f)"
+  },
+  {
+   "id": "Y-83",
+   "title": "\"Scott's signal: Scott already had choline from eggs ...\"",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 83,
+     "start": 0,
+     "end": 497
+    }
+   ],
+   "edits": [
+    {
+     "block": 83,
+     "before": "Scott's signal: Scott already had choline from eggs and DHA/EPA from fish oil. After adding standard-dose UMP, he got a striking response within a day: vivid dreams returned, real childhood memories came back in dreams, psychedelic tolerance seemed to drop, and ketamine/LSD craving fell hard. That does not prove UMP rebuilt D3 receptors overnight. It does suggest that, in the right person, UMP can be a very clean signal that the synaptic-membrane / dopamine-receptor-recovery axis was starved.",
+     "after": "Scott added a standard dose of UMP, and within a day his ketamine/LSD cravings fell hard. He already had choline covered with eggs, and took fish oil for DHA/EPA. His psychedelic tolerance seemed to drop too. You can't tell from this whether UMP rebuilt his D3 receptors overnight. It does suggest that in the right person, UMP can show you very clearly when the brain's system for rebuilding synaptic membranes and recovering dopamine receptors has been starved of building materials. Scott was having vivid dreams again too, with real childhood memories coming back in them."
+    }
+   ],
+   "type": "passes",
+   "approve_label": "use this wording",
+   "what": "Scott's paragraph as Codex rewrote it after five of mine read AI: the craving result first, the eggs and the fish oil after it, the dreams last. My one change put back your post's \"in the right person\". The label \"Scott's signal:\" and \"striking\" are gone, and the \"synaptic-membrane / dopamine-receptor-recovery axis\" is said in plain words.",
+   "why": "My five tries read 100%, 100%, 100%, 100% and 99.9% AI ([1](https://www.pangram.com/history/7a3942ef-bf69-4614-a5a6-4c227e661ef4), [2](https://www.pangram.com/history/3d8a3585-50e0-4b8a-85aa-f5db6e46ca29), [3](https://www.pangram.com/history/44586ae5-999d-408a-b211-051da1e2348f), [4](https://www.pangram.com/history/2d363d6b-c10b-4ee8-9a0b-a484a2db8c98), [5](https://www.pangram.com/history/e17c623b-66d3-4f9b-8e23-d8f2444df0d5)). The readers' notes on my fifth ([their notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/panel/b083-try5/PANEL.md)) went to Codex with the points the paragraph has to keep, and its first draft read Human Written.",
+   "deciding": "Whether Codex's wording of Scott's paragraph goes in.",
+   "stays": "Every point of your post's paragraph: choline from eggs, DHA/EPA from fish oil, a standard dose of UMP, within a day, the vivid dreams with real childhood memories in them, the tolerance, the ketamine/LSD cravings falling hard, that it can't show his D3 receptors were rebuilt overnight, and what it suggests in the right person.",
+   "reading": "your post's uridine section, AI Generated, 100%: [round 2](https://www.pangram.com/history/3652a572-48a6-471a-9b10-180a37fabb34)",
+   "tested": "this version by itself, Human Written, 0.0% AI: [try 6](https://www.pangram.com/history/bdc81685-fdd0-420e-b74f-1a196b1ec606). Its windows: High on the first two sentences, Medium on \"His psychedelic tolerance seemed to drop too.\", Low on the last three. It has used its six tries too (question 5).",
+   "found_by": "Paragraph checks through the API, 4 November (batches x1104a to x1104f)"
+  },
+  {
+   "id": "W-15",
+   "title": "\"Precautions/Side Effects: Do not use concurrently with opioids and/or kratom ...\"",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 15,
+     "start": 0,
+     "end": 611
+    }
+   ],
+   "edits": [
+    {
+     "block": 15,
+     "before": "Precautions/Side Effects: Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications, nitrates, PDE-5 inhibitors, MAOIs, or other complex \"psych\" stacks without having a physician competent to consider the likelihoods of problematic interactions. Not recommended for use in pregnancy or breast-feeding. Use with extreme caution in those with bipolar disorder, prior psychotic episode, unstable panic disorder, lower end blood pressure, kidney or liver issues, or those with a currently-high likelihood of relapsing in addictions.",
+     "after": "Precautions/Side Effects: Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex \"psych\" stacks without having a physician competent to consider the likelihoods of problematic interactions. Not recommended for use in pregnancy or breast-feeding. Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues."
+    }
+   ],
+   "type": "warning",
+   "approve_label": "make these cuts",
+   "what": "Your agmatine precautions with the cuts the agmatine check supports: MAOIs, bipolar disorder, unstable panic disorder and the relapse line go, and nitrates and PDE-5 inhibitors go inside \"blood pressure lowering medications\", which already covers them.",
+   "why": "The bad-trips lane's agmatine check ([its sources](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t02-warnings/AGMATINE-WARNINGS-CHECK.md)): MAO doesn't break agmatine down, and in rodents agmatine reduced harmaline's tremor; in animals it eased withdrawal and cut opioid self-administration, the opposite of a relapse risk; nothing supports bipolar disorder or unstable panic. Opioids and kratom, clonidine, guanfacine, blood-pressure medication and lower-end blood pressure stay.",
+   "deciding": "Whether those cuts go in. Pregnancy and breast-feeding, kidney or liver issues and the \"psych\" stacks have nothing behind them either, but they're the general caution a label carries, so they stay unless you'd cut them too.",
+   "stays": "Your wording: \"(will reduce tolerance)\", \"a physician competent to consider the likelihoods of problematic interactions\", \"prior psychotic episode\", \"lower end blood pressure\".",
+   "reading": "your version by itself, Human Written, 0.3%: [your X-15](https://www.pangram.com/history/0bc718b1-278a-40ce-a7dd-6af7d45268d5)",
+   "tested": "this version by itself, Human Written, 0.0% AI, one window, High: [check](https://www.pangram.com/history/2c74da86-1945-434c-a365-6d849c787b62)",
+   "found_by": "The warnings checks, 4 November (the bad-trips lane's agmatine check, and the rest in WARNINGS-CHECK.md)"
+  },
+  {
+   "id": "W-16",
+   "title": "\"Stop immediately if it causes flatness, anhedonia, emotional blunting ...\"",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 16,
+     "start": 0,
+     "end": 294
+    }
+   ],
+   "edits": [
+    {
+     "block": 16,
+     "before": "Stop immediately if it causes flatness, anhedonia, emotional blunting, new depression, agitation, insomnia, dizziness, palpitations, nausea, loose stools, diarrhea, or increased craving. Do not \"push through\" numbness. If agmatine makes the world more gray, it is the wrong tool for that phase.",
+     "after": "Stop immediately if it causes flatness, anhedonia, emotional blunting, new depression, agitation, insomnia, dizziness, palpitations, nausea, loose stools, diarrhea, or increased craving. Only the stomach problems showed up in the human trials, but the flatness happens in practice, so do not \"push through\" numbness. If agmatine makes the world more gray, it is the wrong tool for that phase."
+    }
+   ],
+   "type": "warning",
+   "approve_label": "use this wording",
+   "what": "One sentence says where the flatness comes from (your answer 4a): only the stomach problems showed up in the human trials, and the flatness is from experience. The other places agmatine's flatness comes up (the poor-fit line, \"without flattening mood\", the Void phase) stay as they are, since this says it once.",
+   "why": "The agmatine check found only stomach side effects in the human trials, and in animals agmatine acted against depression ([its sources](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t02-warnings/AGMATINE-WARNINGS-CHECK.md)). Your answer 4a: it stays, said as experience, not as a studied effect.",
+   "deciding": "Whether this is how the experience gets said.",
+   "stays": "The whole stop list, and \"If agmatine makes the world more gray, it is the wrong tool for that phase.\"",
+   "found_by": "The warnings checks, 4 November (the bad-trips lane's agmatine check, and the rest in WARNINGS-CHECK.md)"
+  },
+  {
+   "id": "W-125",
+   "title": "\"Agmatine Sulfate (Optional Trial): Start with 250–500 mg ...\"",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 125,
+     "start": 0,
+     "end": 273
+    }
+   ],
+   "edits": [
+    {
+     "block": 125,
+     "before": "Agmatine Sulfate (Optional Trial): Start with 250–500 mg in the morning or early afternoon for 3 days. If it clearly reduces the hot/itchy/reactive state without flattening mood, use 500 mg once or twice daily. For this protocol, cap at 1 g/day unless clinician-supervised.",
+     "after": "Agmatine Sulfate (Optional Trial): Start with 250–500 mg in the morning or early afternoon for 3 days. If it clearly reduces the hot/itchy/reactive state without flattening mood, use 500 mg once or twice daily. For this protocol, cap at 1 g/day."
+    }
+   ],
+   "type": "warning",
+   "approve_label": "cut it",
+   "what": "\"unless clinician-supervised\" cut from the 1 g/day cap.",
+   "why": "The studied doses were higher, 1.3 to 3.6 g a day for up to three weeks ([the agmatine check](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/experiments/t02-warnings/AGMATINE-WARNINGS-CHECK.md)), so the cap is the protocol's own choice, and the exception for a clinician is safety language a reader doesn't need (your standing wish: cut it). The Timeline's cap already reads this way (\"Cap at 1 g/day in this protocol.\").",
+   "deciding": "Whether \"unless clinician-supervised\" goes.",
+   "stays": "The doses, the 3-day start, \"without flattening mood\" and the 1 g/day cap.",
+   "found_by": "The warnings checks, 4 November (the bad-trips lane's agmatine check, and the rest in WARNINGS-CHECK.md)"
+  },
+  {
+   "id": "W-18",
+   "title": "\"Rule: do not take 5-HTP on the same day as psychedelics ...\"",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 18,
+     "start": 0,
+     "end": 429
+    }
+   ],
+   "edits": [
+    {
+     "block": 18,
+     "before": "Rule: do not take 5-HTP on the same day as psychedelics, and do not use it anywhere near ayahuasca/harmalas or iboga unless the whole medicine plan has been medically reviewed. Uridine is not serotonergic, but it may still change dream vividness, visual sensitivity, craving, and psychedelic tolerance. Do not take UMP on the same day as psychedelics; if sensitivity changes, assume your old psychedelic dose may now be too high.",
+     "after": "Rule: do not take 5-HTP on the same day as psychedelics, and do not use it anywhere near ayahuasca/harmalas or iboga unless the whole medicine plan has been medically reviewed. Uridine is not serotonergic, but it may still change dream vividness, visual sensitivity, craving, and psychedelic tolerance; that's from experience, like Scott's below, not from studies. Do not take UMP on the same day as psychedelics; if sensitivity changes, assume your old psychedelic dose may now be too high."
+    }
+   ],
+   "type": "warning",
+   "approve_label": "use this wording",
+   "what": "Says that uridine changing dreams, visual sensitivity, craving and psychedelic tolerance is from experience (your answer 4a), and points to Scott's case.",
+   "why": "No study of uridine and dreams, psychedelics or tolerance turned up ([the warnings check](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/warnings/WARNINGS-CHECK.md), item 13); your answer 4a keeps it, said as experience.",
+   "deciding": "Whether this is how the experience gets said.",
+   "stays": "The 5-HTP rule and the UMP same-day rule, word for word.",
+   "found_by": "The warnings checks, 4 November (the bad-trips lane's agmatine check, and the rest in WARNINGS-CHECK.md)"
+  },
+  {
+   "id": "W-85",
+   "title": "\"Side effects / stop signs: The most common problem is the \"choline headache\" ...\"",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 85,
+     "start": 0,
+     "end": 428
+    }
+   ],
+   "edits": [
+    {
+     "block": 85,
+     "before": "Side effects / stop signs: The most common problem is the \"choline headache\" or spaced-out brain fog: if UMP accelerates membrane synthesis while choline availability is low, the system can feel under-supplied. Other stop signs include insomnia, jitteriness, racing thoughts, irritability, emotional flatness, nausea, stomach cramps, or loose stools. If it makes you wired, numb, or weirdly irritable, stop. Do not push through.",
+     "after": "Side effects / stop signs: In practice, the most common problem is the \"choline headache\" or spaced-out brain fog. It isn't in the studies, but the likely reason is that if UMP accelerates membrane synthesis while choline availability is low, the system can feel under-supplied. Other stop signs include insomnia, jitteriness, racing thoughts, irritability, emotional flatness, nausea, stomach cramps, or loose stools. If it makes you wired, numb, or weirdly irritable, stop. Do not push through."
+    }
+   ],
+   "type": "warning",
+   "approve_label": "use this wording",
+   "what": "The choline headache said as experience (your answer 4a), and its reason as the likely one, since it's the protocol's guess.",
+   "why": "No study of a choline headache on uridine turned up, and the reason (UMP speeding up membrane building while choline is short) is the protocol's guess ([the warnings check](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/warnings/WARNINGS-CHECK.md), item 14).",
+   "deciding": "Whether this is how the experience gets said.",
+   "stays": "The rest of the stop signs, and \"If it makes you wired, numb, or weirdly irritable, stop. Do not push through.\"",
+   "found_by": "The warnings checks, 4 November (the bad-trips lane's agmatine check, and the rest in WARNINGS-CHECK.md)"
+  },
+  {
+   "id": "W-68",
+   "type": "warning",
+   "title": "\"Dose: 300–600 mg/day, taken earlier in the day ...\"",
+   "advice": "approve",
+   "approve_label": "use this dose",
+   "spans": [
+    {
+     "block": 68,
+     "start": 0,
+     "end": 124
+    },
+    {
+     "block": 172,
+     "start": 0,
+     "end": 169
+    }
+   ],
+   "edits": [
+    {
+     "block": 68,
+     "before": "Dose: 300–600 mg/day, taken earlier in the day. Below ~300 mg the cortisol effect is unreliable; above ~800 mg adds nothing.",
+     "after": "Dose: about 400 mg/day, taken earlier in the day. In the stress studies, which used a PS complex, 400 mg blunted the cortisol response, while 200 mg did nothing and 600 or 800 mg didn't either."
+    },
+    {
+     "block": 172,
+     "before": "Phosphatidylserine 300–600 mg earlier in the day only if you fit the high-cortisol profile + 1 cup broccoli sprouts + Magnesium Glycinate 400 mg + NAC 1.8–2.4 g divided.",
+     "after": "Phosphatidylserine about 400 mg earlier in the day only if you fit the high-cortisol profile + 1 cup broccoli sprouts + Magnesium Glycinate 400 mg + NAC 1.8–2.4 g divided."
+    }
+   ],
+   "what": "The PS dose as about 400 mg, the dose that worked in the stress studies, here and in the Timeline.",
+   "why": "In [Hellhammer 2004](https://doi.org/10.1080/10253890410001728379), 400 mg of a PS complex blunted the cortisol response to stress and 600 and 800 mg didn't; in [Hellhammer 2014](https://doi.org/10.1186/1476-511X-13-121), 400 mg worked only in chronically stressed men with an over-reactive stress response, and 200 mg did nothing. Small studies. The post's \"above ~800 mg adds nothing\" doesn't fit them: 600 mg already didn't work.",
+   "deciding": "Whether the dose becomes about 400 mg, in both places.",
+   "stays": "Earlier in the day, and \"only if you fit the high-cortisol profile\".",
+   "found_by": "The warnings checks, 4 November (the bad-trips lane's agmatine check, and the rest in WARNINGS-CHECK.md)"
+  },
+  {
+   "id": "W-73",
+   "title": "\"Either one means PS is the wrong tool for you right now ...\"",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 73,
+     "start": 0,
+     "end": 339
+    }
+   ],
+   "edits": [
+    {
+     "block": 73,
+     "before": "Either one means PS is the wrong tool for you right now. Don't raise the dose to push through – stop. If you want to know before you start, a 4-point salivary cortisol test tells you whether you're actually high. (A minority also report low blood pressure, water-weight gain, or restless legs – all consistent with cortisol going too low.)",
+     "after": "Either one means PS is the wrong tool for you right now. Don't raise the dose to push through – stop. If you want to know before you start, a 4-point salivary cortisol test tells you whether you're actually high."
+    }
+   ],
+   "type": "warning",
+   "approve_label": "cut it",
+   "what": "The last sentence cut: \"(A minority also report low blood pressure, water-weight gain, or restless legs – all consistent with cortisol going too low.)\"",
+   "why": "Nothing behind it turned up ([the warnings check](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/warnings/WARNINGS-CHECK.md), item 20). If it's something you've seen, it stays, said as experience.",
+   "deciding": "Whether the sentence goes.",
+   "stays": "The stop rule and the salivary cortisol test.",
+   "found_by": "The warnings checks, 4 November (the bad-trips lane's agmatine check, and the rest in WARNINGS-CHECK.md)"
+  },
+  {
+   "id": "W-111",
+   "title": "\"The Mandate: You must hit 4,700 mg of Potassium daily.\"",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 111,
+     "start": 0,
+     "end": 54
+    }
+   ],
+   "edits": [
+    {
+     "block": 111,
+     "before": "The Mandate: You must hit 4,700 mg of Potassium daily.",
+     "after": "The Target: Aim for 4,700 mg of Potassium daily."
+    }
+   ],
+   "type": "warning",
+   "approve_label": "use this wording",
+   "what": "\"must hit\" as \"aim for\", and \"The Mandate\" as \"The Target\".",
+   "why": "4,700 mg is a target for healthy people, and falling short of it doesn't mean you're deficient ([Kumssa 2021](https://doi.org/10.3390/nu13041369)). It's also the older US figure: since 2019 the adequate intake is 3,400 mg a day for men and 2,600 mg for women ([Tufts Health & Nutrition Letter](https://www.nutritionletter.tufts.edu/?p=2056)).",
+   "deciding": "Whether \"must\" becomes \"aim for\". The 4,700 mg stays unless you'd rather use the 2019 figures.",
+   "stays": "The number, and \"The Source: Food Only.\"",
+   "found_by": "The warnings checks, 4 November (the bad-trips lane's agmatine check, and the rest in WARNINGS-CHECK.md)"
+  },
+  {
+   "id": "W-112",
+   "title": "\"The Source: Food Only. (Supplements are dangerous and limited to 99mg).\"",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 112,
+     "start": 0,
+     "end": 71
+    }
+   ],
+   "edits": [
+    {
+     "block": 112,
+     "before": "The Source: Food Only. (Supplements are dangerous and limited to 99mg).",
+     "after": "The Source: Food Only. (Supplements are limited to 99mg, and bigger doses need a doctor's supervision.)"
+    }
+   ],
+   "type": "warning",
+   "approve_label": "use this wording",
+   "what": "\"dangerous\" said as what the evidence shows: bigger doses need supervision.",
+   "why": "In a trial of 1,200 people with implanted defibrillators, supervised potassium supplements held their potassium high-normal and cut the main risk outcome, about 23% against 29% ([Danielsen 2026](https://doi.org/10.1093/europace/euag272)). So supplements aren't dangerous as such; that trial's were supervised.",
+   "deciding": "Whether \"dangerous\" goes.",
+   "stays": "Food only, and the 99mg.",
+   "found_by": "The warnings checks, 4 November (the bad-trips lane's agmatine check, and the rest in WARNINGS-CHECK.md)"
+  },
+  {
+   "id": "W-154",
+   "title": "\"Warning: Direct D-Serine carries a higher renal (kidney) load than L-Serine ...\"",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 154,
+     "start": 0,
+     "end": 223
+    }
+   ],
+   "edits": [
+    {
+     "block": 154,
+     "before": "Warning: Direct D-Serine carries a higher renal (kidney) load than L-Serine. Do not exceed 30mg/kg and ensure high water intake. This risk is compounded by the higher renal load caused by a keto diet or high protein intake.",
+     "after": "Warning: High doses of D-Serine damaged the kidneys in rat studies, so it carries a kidney caution, though kidney problems have been rare in human studies. Do not exceed 30mg/kg and ensure high water intake."
+    }
+   ],
+   "type": "warning",
+   "approve_label": "use this wording",
+   "what": "The kidney warning said as what the studies found, and the keto and high-protein sentence cut.",
+   "why": "In rats, D-serine damages the kidneys at high doses; across the human studies one person had abnormal kidney values, which cleared in days, and nobody has compared it with L-serine in people ([Meftah 2021](https://doi.org/10.3389/fpsyt.2021.726365)). Nothing supports keto or protein adding to it ([the warnings check](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/warnings/WARNINGS-CHECK.md), item 24).",
+   "deciding": "Whether the warning reads this way and the keto sentence goes. The 30 mg/kg stays (the highest dose tested in people was 120 mg/kg, so it's a cautious choice), and so does the water; both are your call.",
+   "stays": "The 30mg/kg cap and the water.",
+   "found_by": "The warnings checks, 4 November (the bad-trips lane's agmatine check, and the rest in WARNINGS-CHECK.md)"
+  }
+ ]
+}

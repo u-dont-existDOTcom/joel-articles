@@ -1,5 +1,83 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-04, after Joel's answers of 10:39 UTC ("3a 4a"): 3a in; both uridine paragraphs Human; ten warnings cards
+
+His message, word for word: `fix-20261104/joel-20261104-1039-message.txt`. **The mailbox first** (`state/MAILBOX.json`,
+"2026-11-04 10:39"); then main merged (4da46a1b): the gut lane's pull request 286 (E342, E345, `hidden_links.py`, a new
+`lane_push.py`); `state/MAILBOX.json` conflicted and both lanes' records were kept (24 checks, none lost).
+
+**3a** (`fix-20261104/q3/apply_q3.py`, APPLIED-Q3.json): the two drug names back in brackets in his "Who this is for";
+the "owner_open" entries gone from FIDELITY-KEYS.json. 72e9e316 to e5ead544. Fidelity PASS, the comparison gate PASS. That
+version by itself: [Human Written, 0.0% AI](https://www.pangram.com/history/0faeb569-0041-45d3-9986-b77b3f490b83) (High).
+
+**The tell panel, then the two paragraphs** (E253 (Inner Child): the turn before had asked his help without it). Codex on
+the laptop, a Sonnet agent and a Haiku agent, each given PROMPT.txt only (`fix-20261104/panel/`, each folder's PANEL.md):
+- the evidence paragraph (block 82): the panel agreed on four sentences of try 3. Try 5, with those fixed,
+  [Human Written, 0.0% AI](https://www.pangram.com/history/036d5dff-88a6-4533-8023-989adbd74a3b) (windows High, Medium, Low, Medium). Try 6, aimed at
+  the Medium and Low windows, [AI Detected, 30.3% AI](https://www.pangram.com/history/e36c7366-cdce-4f67-a1bf-cd61514e9fd5); try 5 stays
+  (`fix-20261104/r3/blocks/082.md`; blocks-try5 and blocks-try6).
+- Scott's paragraph (block 83): try 5, with the panel's tells on try 4 fixed, [AI Generated, 99.9% AI](https://www.pangram.com/history/e17c623b-66d3-4f9b-8e23-d8f2444df0d5).
+  Try 6 came from Codex (`tell_panel.py rewrite-prompt`, `fix-20261104/rewrite-b083/`; my one change put back his post's
+  "in the right person"): [Human Written, 0.0% AI](https://www.pangram.com/history/bdc81685-fdd0-420e-b74f-1a196b1ec606) (windows High, Medium, Low).
+- Both lineages have used their six tries: question 5 asks him about more tries for the Medium and Low windows.
+- The misses explained in the ledger (try 5 of 82, try 6 of 82, try 6 of 83). Lesson E346: a paragraph that has read AI
+  twice goes to the tell panel before its next try; `pangram_ledger.py predict` refuses it without `--panel` (tests in
+  `tests/test_pangram_ledger.py`; `docs/FIXING-AN-ARTICLE.md` section 6 item 4; `predict_batch.py` passes it).
+
+**4a and the warnings cards** ([Neuro De-Armoring Cards, 4 November](https://claude.ai/artifact/TBrnTti2G9V4fBvC357cTy),
+version 2; `fix-20261104/cards/build_page_x1104.py`, REVIEW-X1104.md; browser test 78 of 78): Y-82 and Y-83 (the two
+paragraphs, to approve), then ten warnings cards from `fix-20261104/warnings/WARNINGS-CHECK.md` and the bad-trips lane's
+agmatine check: his precautions with the agmatine cuts (W-15; by itself [Human Written, 0.0% AI](https://www.pangram.com/history/2c74da86-1945-434c-a365-6d849c787b62),
+one window, High), the agmatine stop list's flatness said as experience (W-16, his 4a), the cap without "unless
+clinician-supervised" (W-125), uridine's effects as experience (W-18, 4a), the choline headache as experience (W-85, 4a),
+PS about 400 mg in two places (W-68), the PS "minority also report" sentence cut (W-73), potassium "aim for" (W-111, with
+the 2019 figures), "dangerous" as supervised (W-112), D-serine's kidney warning from rats and the keto sentence cut
+(W-154). Not yet carded: the 5-HTP and iboga softenings and the generic label lines (W001, W034 to W036, W053). Every
+study link on the cards re-checked through PubMed this turn (Hellhammer 2004 and 2014, Kumssa 2021, the POTCAST analysis,
+Meftah 2021); the Tufts page for the 2019 potassium figures opened.
+
+Questions page: 3 and 4 answered, question 5 open (version 6). Predictions: 5 (x1104e 2, x1104f 2, x1104g 1); 3 missed,
+each explained. Delegations (model, piece, check, outcome): Codex on the laptop, the panel's third reader four times and
+the rewrite of Scott's paragraph (check: the panel read it, then Pangram; used, Human Written); a Sonnet and a Haiku agent,
+the panel's other two readers on four texts each (check: their replies summarized by `tell_panel.py`; used). The fixes,
+the cards and the warnings wording were mine.
+
+## 2026-11-04, after Joel's message of 10:01 UTC: his "Who this is for" in; one paragraph at a time; the warnings checked
+
+His message, word for word: `fix-20261104/joel-20261104-1001-message.txt` (go through the warnings Gemini put in; "i don't
+want to do everything myself the point is to teach you"; one paragraph at a time; his version of the uridine "Who this is
+for"). **The mailbox first** (`state/MAILBOX.json`, "2026-11-04 10:01"): pull request 281 merged at 2026-11-03 20:57 UTC;
+main's new rules read and the branch fast-forwarded to main 9a211d85 (E337 to E341 from the gut and Inner Child lanes); the
+bad-trips lane's agmatine check adopted.
+
+**The typographic swap** (E337 (gut); `fix-20261104/swap/swap_x1104.py`, SWAPPED.json): 258 marks in 92 paragraphs;
+three paragraphs keep their curly marks, the three this article's measurement found worse straightened. The fidelity
+check now matches a dash whatever its spaces ("numb—living", "numb – living"). HUMANIZED-SO-FAR.md 6db92b7a to 6cf2ad04.
+
+**His paragraph in** (`fix-20261104/b081/apply_b081.py`, APPLIED-B081.json): as he wrote it, the swap only. It leaves out
+pramipexole and ropinirole, held open in FIDELITY-KEYS.json ("owner_open", new in `fidelity_keys.py`, with a test) as
+question 3; his "isn't for" recorded for "not for". 6cf2ad04 to 72e9e316. Fidelity PASS (2 open with him), the comparison
+gate PASS. By itself, with its heading: [Human Written, 0.0% AI](https://www.pangram.com/history/9225442f-06b8-4a7a-ab8e-d8a03f720290)
+(High); with the two names in brackets, [Human Written, 0.0% AI](https://www.pangram.com/history/0faeb569-0041-45d3-9986-b77b3f490b83) (High).
+
+**The next two paragraphs his way, one at a time** (`fix-20261104/r3/`, blocks-try1 to blocks-try3 and blocks; checks in
+`fix-20261104/checks/x1104a` to `x1104d`, each with RESULTS.md): the evidence paragraph 62.2%, 30.9%, 0.0% (AI Assisted) and
+2.6% AI; Scott's signal 100% AI in all four. Both on [Neuro De-Armoring Cards, 4 November](https://claude.ai/artifact/TBrnTti2G9V4fBvC357cTy)
+(`fix-20261104/cards/`, browser test 62 of 62), the way he asks to be asked.
+
+**The warnings** (`fix-20261104/warnings/WARNINGS-CHECK.md`, E344): the bad-trips lane's agmatine check mapped onto every
+agmatine line here, and the other 48 warnings checked against PubMed. Question 4 asks what only his experience decides;
+the cuts and softer wordings go to him as cards after it.
+
+**One paragraph at a time, enforced** (E343): `pangram_ledger.py predict` refuses a section or stretch retry after an AI or
+Mixed result until `--narrowed` names its paragraph checks (tests in `tests/test_pangram_ledger.py`); `docs/FIXING-AN-ARTICLE.md`
+section 6 item 4.
+
+Predictions: 10 (x1104a 4, x1104b to x1104d 2 each), all right. Delegations (model, piece, check, outcome): a Sonnet
+helper, the research for the 48 non-agmatine warnings; check: six of its 29 sources re-opened through PubMed, each says what
+the check says, one link (the trial's main paper) couldn't be opened and was replaced by the trial's own analysis; used, as
+WARNINGS-CHECK.md's second part. The rewrites and the reading of his version were mine.
+
 ## 2026-11-03, after Joel's answers of 17:48 UTC: his three versions in; round 2 his way; question 2
 
 His answers file for Neuro De-Armoring Cards, 3 November, sent with no other text, word for word in

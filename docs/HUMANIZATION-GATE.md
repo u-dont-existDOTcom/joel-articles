@@ -1343,7 +1343,7 @@ buttons".
   browser (74 checks, with a negative fixture for the 2026-10-23 white-on-white boxes). A check with more than a handful of
   suggestions for him ends with this page, not with lists.
 
-(The next lesson in either lane was E266 here. The Inner Child lane's turn-110 lessons took E266 and E267, written while this section stood as it is: cite them as "E266 (Inner Child)" and "E267 (Inner Child)". The Inner Child lane's turn-111 lessons are E268 to E270 (Inner Child), near the top too, and its turn-112 lesson is E271 (Inner Child), after them; the hypnosis guide lane's E268 to E270, in the next section, were written at the same time as the turn-111 ones, and both sets keep their numbers. The hypnosis guide lane's E272 to E274 follow them there, its E275 after those, its E276 after that, its E277 to E279 after it, its E280 to E283 after those, its E284 to E290 after those, its E291 and E292 after those, its E293 after those, its E294 to E297 after those, its E298 to E300 after those, its E301 to E303 after those, its E304 after those, its E305 after those, its E306 to E310 after those, its E311 and E312 after those, its E313 and E314 after those, and its E315 to E320 after those, and its E321 and E322 after those, and its E323 and E324 after those, and its E325 after those, and its E326 and E327 after those, and its E328 to E330 after those, and its E331 and E332 after those, and its E333 and E334 after those, and its E335 and E336 after those. The Inner Child lane's turn-116 lessons, written after them, are E337 and E338 (Inner Child), near the top; the gut lane's E337 to E339 came at the same time (their section below), and the Inner Child lane's turn-117 lessons, E340 and E341, after those, near the top. The next lesson in either lane is E342.)
+(The next lesson in either lane was E266 here. The Inner Child lane's turn-110 lessons took E266 and E267, written while this section stood as it is: cite them as "E266 (Inner Child)" and "E267 (Inner Child)". The Inner Child lane's turn-111 lessons are E268 to E270 (Inner Child), near the top too, and its turn-112 lesson is E271 (Inner Child), after them; the hypnosis guide lane's E268 to E270, in the next section, were written at the same time as the turn-111 ones, and both sets keep their numbers. The hypnosis guide lane's E272 to E274 follow them there, its E275 after those, its E276 after that, its E277 to E279 after it, its E280 to E283 after those, its E284 to E290 after those, its E291 and E292 after those, its E293 after those, its E294 to E297 after those, its E298 to E300 after those, its E301 to E303 after those, its E304 after those, its E305 after those, its E306 to E310 after those, its E311 and E312 after those, its E313 and E314 after those, and its E315 to E320 after those, and its E321 and E322 after those, and its E323 and E324 after those, and its E325 after those, and its E326 and E327 after those, and its E328 to E330 after those, and its E331 and E332 after those, and its E333 and E334 after those, and its E335 and E336 after those. The Inner Child lane's turn-116 lessons, written after them, are E337 and E338 (Inner Child), near the top; the gut lane's E337 to E339 came at the same time (their section below), and the Inner Child lane's turn-117 lessons, E340 and E341, after those, near the top; the gut lane's E342 and E345 came after them (its section below), and the neuro de-armoring lane's E343 and E344, written at the same time as E345, are in its pull request 287, and so is its E346. The next lesson in either lane is E347.)
 
 ## What his answers on the marking page showed (2026-10-25 19:42 UTC)
 
@@ -2187,12 +2187,127 @@ His message and his batch-1 page's answers, word for word: `articles/healing-the
   their change instead of beside it; (4) push with `lane_push.py --mailbox TURN --pr`, so the lane's pull request
   carries its shared changes to main. A lesson that applies beyond the article goes into the shared files in the same
   turn (AGENTS.md), and the pull request is how it reaches the other lanes.
+  - Enforced since 2026-11-04 (Joel, 00:37 UTC: "ok so make sure no other lane can make the same mistake you made next
+    time"). `lane_push.py` refuses the push when `origin/main` (fetched then) isn't in the branch's history, when the
+    branch has no open pull request and no `--pr`, or when another open pull request changes a shared file this branch
+    changes and `--overlap-ok` doesn't say how this builds on it, naming each such pull request (`#N`): a reason written for #280 had let a push through beside #285, opened an hour later on the same file. It installs the pre-push hook, which now refuses any push
+    without `LANE_PUSH=1` (set by `lane_push.py`) or a `LANE_PUSH_BYPASS` reason. `lane_mailbox.py record` installs the
+    hook too and reports whether main is merged, at the start of the turn. A GitHub API outage prints what failed and
+    doesn't stop a push, as with the mailbox. A pull request whose files can't be read is named in a warning, and the
+    others are still checked; files are read a numbered page at a time, because `gh api --paginate` follows links the
+    session proxy refuses (its first push went blind that way, on #199 and #200). Tests: `tests/test_lane_push.py` (LaneIntegration) and
+    `tests/test_humanization_tools.py` (the hook's route).
+- **E342. His fix for a dense science paragraph: a plain definition first, one step a sentence, each gloss in
+  the flow, and only expansions that clarify.** The mitochondrial fuels read AI in five versions (two writers', a
+  shortened one, mine in his Phase 1 method, and Codex's). He rewrote the first paragraph in eight checks on 2026-11-04
+  (`articles/healing-the-gut/experiments/t05-answers/`, each try's text read from his shared page). What moved it:
+  - the label became a plain definition ("Mitochondrial and cellular energy starvation is what you get when there's not
+    enough of the fuels each type of cell in your gut prefers (glutamine, butyrate, TCA intermediates)"). The "Label
+    (list): claim" opening read Possibly AI with every other change in;
+  - the one long "so if ..., the barrier ..., and LPS ..." sentence became a sentence for each step: the need, what the
+    cells fail to do, what the barrier does ("the barrier loosens up"), then what leaks;
+  - a bare bracketed gloss was the tell. "your large intestine (colonocytes)" read AI where "the colonocytes lining your
+    large intestine" read Human, with nothing else changed (his tries 6 and 7). A term goes into the sentence, not into
+    brackets after it;
+  - plain verbs ("loosens up" for "structurally breaks down"), and a clarifying turn at the end where it helps ("those
+    (not-so-tight)-junction gaps");
+  - his rule for the stacks paragraph the same day (card S2-2): "expand IN A CLARIFYING WAY, not just expanding with
+    filler, everything should have a purpose. it could be a joke if the joke is actually a good one, but if there's any
+    sense a reader could get that you just threw some fluff words in to make it bigger, you fail, and clarity is
+    paramount." His jokes are his to add. He took out his own tug-of-war joke "because idk if you can make good jokes", and
+    his version still read Human. So I write none, and I mark every expansion of mine with the point it clarifies;
+  - his own words for the categories (S2-2) put each category's job in the sentence ("keep the probiotics well-fed with a
+    good prebiotic", "especially the main one, butyrate"), where the list had only labels.
+  So E338 (gut)'s uncompress pass now means: open with a plain definition, give each step its own sentence, move every
+  bracketed gloss into the sentence, use plain verbs, and keep only expansions that make a point clearer.
+- **E345. Explain the links a newcomer can't see: the purpose behind E338 (gut) and E342, and the step that enforces it.**
+  Joel, 2026-11-04 10:18 UTC, after three tries of mine at each of three fuels paragraphs had read AI: "now you try with
+  what i taught you -- but i taught you the SAME thing as before, so idk why i keep having to teach the same thing? just
+  explain stuff to someone who doesn't already know the hidden links in your prose's thinking". His two rewrites
+  (`articles/healing-the-gut/experiments/t06-answers/`) each add the link the compressed text skipped, and both read Human:
+  - glutamine: "It doesn't have to go through the complicated digestive steps other nutrients do" left the reader asking
+    "so what?"; he added "So that's why consuming pure glutamine gives energy to those cells faster than eating food", and
+    "They then use their extra energy to repair the gut lining" for the step from energy to repair ("such a simple fix,
+    just explain clearly");
+  - butyrate: "lock down the barrier in your lower gut and keep turning down inflammatory signals" listed two effects with
+    no link between them; he wrote "preventing the dangerous escape of substances from gut to blood, which then turns down
+    inflammatory signals that would be needed otherwise to contain the damage" (Possibly human 100% in the web app, on his
+    second try).
+  Why I kept missing it: E338 (gut) and E342 recorded his method as moves (a definition first, one step a sentence, glosses
+  in the flow, plain verbs), and I applied the moves and left the links out; the tell panel asks what reads AI, not what a
+  newcomer can't follow; and my meaning-check brief failed the one link I did write (butyrate try 2, "well-fed colonocytes
+  keep the barrier ... locked down": "Adds causal claim"), so I took it out. So, for any compressed paragraph (Gemini's, a
+  protocol, a science list), before drafting:
+  1. A fresh reader who doesn't know the subject, given what the article has already explained, lists every gap: a word,
+     the step between two sentences, how something does what it says, why it matters
+     (`tools/humanization/hidden_links.py make`, his three fixes as the examples; `collect` writes LINKS.json).
+  2. The draft states each one, in the sentence where the reader needs it, and only what is true and is the original's own
+     reasoning or plain common knowledge. State a link as a cause or a consequence for the reader ("they're already part of
+     it, so your mitochondria can use them for energy directly"), not as a definition line: the first TCA draft that
+     answered every gap read AI High in one 151-word window, every answer a gloss ("is just another name for", "are the
+     compounds the cycle goes through", "are two of them", "(you can buy it as a supplement)"), where his two Human
+     rewrites each state one or two links, and as causes. A gap the original's reasoning doesn't answer (whether to take a fuel with
+     glutamine or instead of it) is a question for Joel on the card, never a guess in his text.
+  3. `hidden_links.py check DIR DRAFT` fails while a gap has no answer in the draft, quoted exactly, or a drop with a note.
+  4. The blind meaning check reads a stated link as LINK, and fails it only when it is wrong or goes beyond the original's
+     reasoning (`tools/humanization/meaning_check_brief.md`, the shared core every lane's brief starts from).
+  Every expansion still has a purpose (his S2-2 rule, E342); a link is that purpose. Jokes stay his.
+  What the TCA item's last three tries showed the same day (`articles/healing-the-gut/humanize/fix-20261103/r04/tca/`):
+  every newcomer gap answered as a definition read AI High; as causes, AI; Codex's version from the panel's notes, AI,
+  with its bare "(TCA cycle intermediates)" at High. His two rewrites differ from all six in one more way: each kept the
+  sentences already there (two of them had read AI Low) and changed only the stretch where the link was missing. So when a
+  paragraph has a version already, find the window that reads AI, say the link that sentence skips, and leave the rest
+  standing; don't rewrite the whole paragraph. The item went to him, its six tries used.
 
-(The Inner Child lane's turn-116 lessons, written at the same time, are E337 and E338 (Inner Child), near the top. This section's E337 and E338 keep their numbers too, because this lane's records cite them: cite them as "E337 (gut)" and "E338 (gut)". The Inner Child lane's turn-117 lessons, written after them, are E340 and E341, near the top. The next lesson in either lane is E342.)
+(The Inner Child lane's turn-116 lessons, written at the same time, are E337 and E338 (Inner Child), near the top. This section's E337 and E338 keep their numbers too, because this lane's records cite them: cite them as "E337 (gut)" and "E338 (gut)". The Inner Child lane's turn-117 lessons, written after them, are E340 and E341, near the top, and this section's E342 and E345 came after those; the neuro de-armoring lane's E343 and E344, written at the same time as E345, are in its pull request 287, and so is its E346. The next lesson in either lane is E347.)
+
+## What the neuro de-armoring article taught next (2026-11-04, after Joel's message of 10:01 UTC)
+
+His message, word for word: `articles/neuro-de-armoring/humanize/fix-20261104/joel-20261104-1001-message.txt`.
+
+- **E343. One paragraph at a time, and a section that reads AI is narrowed to its paragraphs before it is tried again.**
+  Joel: "make sure you are not trying to work on a huge section all at once, just work on one paragraph at a time so you
+  can see whether your strat is working. i mean you could go for a whole section if you feel confident, but then you'd
+  still need to narrow it down to para level if it doesn't work, isn't that already in the repo rules?" It was: a paid
+  check is for one paragraph (`docs/FIXING-AN-ARTICLE.md` section 6), and the section and each paragraph are the test
+  (AGENTS.md). But E325's limit for the API (six paragraphs and 1,200 words) read as permission, and nothing stopped a
+  stretch from being tried again: round 2 sent stretches of four to six paragraphs and tried each a second time. One
+  paragraph at a time showed what the stretches had hidden. His rewrite of one paragraph read Human (High) by itself; of
+  my two after it, the evidence paragraph went 62.2%, 30.9%, 0.0% (AI Assisted) and 2.6% AI in four tries, each try
+  aimed at the window that still read AI, while Scott's stayed 100% AI in all four, so it went to him with the human tells
+  I could see. Now `pangram_ledger.py predict` refuses a section or stretch whose last try read AI or Mixed until
+  `--narrowed` names the paragraph checks made since (a fix after them, `--after-fix`, counts), and a new way of
+  rewriting is tried on one paragraph first.
+- **E344. A model's warnings are checked against the research before they are rewritten.** Joel: "also make sure you go
+  thru the warnings gemini put in because we just found it was wrong about most of the agmatine warnings". The bad-trips
+  lane's check of the agmatine lines (PubMed, 3 November) found something behind the opioid, clonidine and blood-pressure
+  lines and nothing behind MAOIs, bipolar disorder, unstable panic, relapse risk or most of the stop list. The same check of
+  the rest (`articles/neuro-de-armoring/humanize/fix-20261104/warnings/WARNINGS-CHECK.md`) found the 5-HTP interaction
+  block sound, the uridine effects resting on one person's report, the potassium lines too strong, D-serine's kidney
+  warning from rats, and nothing behind phosphatidylserine making anyone flat. So before an article's warnings are
+  humanized, each is checked, with a source opened for every verdict: what has nothing behind it goes to him as a cut, so
+  no check is spent rewording it; what only his experience can decide is asked as a question; generic label lines are his
+  call. A research helper may do the searching, but its sources are re-opened before he sees them (one link of 29 couldn't
+  be, and was replaced).
+
+- **E346. A paragraph that has read AI twice goes to the tell panel before its third try.** The uridine section's
+  evidence paragraph and Scott's paragraph each took four tries of mine, checked one at a time, before the tell panel ran:
+  E253 (Inner Child) asks for the panel before a help request, and my help request went out without it. With the tells the
+  three readers agreed on fixed, the evidence paragraph read Human Written at its fifth try; Scott's read 99.9% AI again,
+  and Codex's rewrite of it (E256), at its sixth and last try, read Human Written. Waiting for the help request had left
+  the second writer one try. `pangram_ledger.py predict` refuses a paragraph's next try after two AI or Mixed reads without
+  `--panel`, the PANEL.md whose agreed tells that try fixes. Two notes from the same tries: the readers flag more than
+  Pangram does (they agreed on sentences in a window Pangram read Human (High), and the fifth try kept the plain-first
+  brackets they flagged), so a flag in a High window is weighed against the reading; and a last try aimed at a passing
+  paragraph's Medium and Low windows took it from Human Written to 30.3% AI, so a passing version stays until a try reads
+  better (`articles/neuro-de-armoring/humanize/fix-20261104/checks/`, batches x1104e and x1104f).
+
+(E342 and E345 are the gut lane's, merged in pull request 286. The next lesson in either lane is E347.)
+
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 
-(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". E247 and E248, after them, are this lane's turn-102 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E247 to E249 above (their message of 2026-10-23 18:13 UTC); both sets keep their numbers, so cite these two as "E247 (Inner Child)" and "E248 (Inner Child)". E250 to E252, the last ones here, are this lane's turn-103 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E250 and E251 above (their message of 2026-10-23 20:35 UTC); both sets keep their numbers, so cite these three as "E250 (Inner Child)" to "E252 (Inner Child)". The hypnosis guide, Nibbāna and community lanes' own E252 to E255 above came after them (their messages of 2026-10-23 22:29 and 23:28 UTC). This lane's turn-104 lesson, written at the same time, is E253 (Inner Child), with the help-request rules near the top, and its turn-105 lesson, E256 (Inner Child), is beside it, with the turn-106 lessons E257 and E258 (Inner Child) after it and the turn-107 lesson E261 (Inner Child) after those. The Nibbāna and community lanes' E256 to E259 above came at the same time as E257 and E258 (their message of 2026-10-24 19:52 UTC), the community lane's E260 after them (23:40 UTC), and its E261 at the same time as this lane's (its message of 2026-10-25 00:27 UTC); both sets keep their numbers, so cite this lane's as "E261 (Inner Child)". The hypnosis guide lane's E262 and E263 above came after them (its message of 2026-10-25 01:01 UTC), and its E264 and E265 after those (14:40 UTC). This lane's turn-109 lesson, written at the same time as those two, keeps its number too: cite it as "E264 (Inner Child)"; it is with the others near the top, and so are its turn-110 to turn-112 lessons, E266 to E271 (Inner Child). The hypnosis guide lane's E268 to E270 came at the same time as the turn-111 ones (its message of 2026-10-25 19:42 UTC); both sets keep their numbers, so cite this lane's as "E268 (Inner Child)" to "E271 (Inner Child)". The hypnosis guide lane's E272 to E274 came after them (its message of 23:05 UTC), its E275 after those (the recheck read after its message of 23:50 UTC), its E276 after that (batch 479's recheck, read after its message of 2026-10-26 00:54 UTC), its E277 to E279 after it (its message of 12:43 UTC), its E280 to E283 after those (its message of 2026-10-27 15:37 UTC), its E284 to E290 after those (its message of 2026-10-28 15:20 UTC), its E291 and E292 after those (its message of 2026-10-29 17:21 UTC), its E293 after those (its message of 19:22 UTC), its E294 to E297 after those (its answers of 2026-10-30 14:35 UTC), its E298 to E300 after those (the full read of the same day), its E301 to E303 after those (the recheck read after its message of 20:15 UTC), its E304 after those (the recheck read after its message of 21:40 UTC), its E305 after those (the community article's full read of the same day), its E306 to E310 after those (his answers of 2026-11-01), its E311 and E312 after those (the second full read of the same day), and its E313 and E314 after those (the turn after his message of 22:27 UTC), and its E315 to E320 after those (his answers of 2026-11-02), and its E321 and E322 after those (his Pangram history, read the same day), and its E323 and E324 after those (his answers to 28 and 29 at 19:11 UTC, and the round they began), and its E325 after those (his message of 20:38 UTC), and its E326 and E327 after those (his second Pangram account's history, read after his message of 21:59 UTC), and its E328 to E330 after those (his answers of 2026-11-03 00:39 UTC), and its E331 and E332 after those (his message of 13:46 UTC), and its E333 and E334 after those (the neuro de-armoring article's round 1), and its E335 and E336 after those (his three examples, his answers of 2026-11-03 17:48 UTC, and round 2 after them). The Inner Child lane's turn-116 lessons, written after them, are E337 and E338 (Inner Child), near the top; the gut lane's E337 to E339 came at the same time (their section below), and the Inner Child lane's turn-117 lessons, E340 and E341, after those, near the top. The next lesson in either lane is E342.)
+(Numbering: this section's E228 to E231 continue the Inner Child lane's E223 to E227 above, written at the same time as the hypnosis guide lane's own E228 to E237 above, on 2026-10-23. Each set keeps its numbers, because each lane's records cite them; cite these as "E228 (Inner Child)" and so on. E241 and E242, the last ones here, are the Inner Child lane's next lessons (turn 101), written at the same time as the hypnosis guide and Nibbāna lanes' E241 to E246 above (their message of 2026-10-23 16:55 UTC); both sets keep their numbers, so cite these two as "E241 (Inner Child)" and "E242 (Inner Child)". E247 and E248, after them, are this lane's turn-102 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E247 to E249 above (their message of 2026-10-23 18:13 UTC); both sets keep their numbers, so cite these two as "E247 (Inner Child)" and "E248 (Inner Child)". E250 to E252, the last ones here, are this lane's turn-103 lessons, written at the same time as the hypnosis guide and Nibbāna lanes' E250 and E251 above (their message of 2026-10-23 20:35 UTC); both sets keep their numbers, so cite these three as "E250 (Inner Child)" to "E252 (Inner Child)". The hypnosis guide, Nibbāna and community lanes' own E252 to E255 above came after them (their messages of 2026-10-23 22:29 and 23:28 UTC). This lane's turn-104 lesson, written at the same time, is E253 (Inner Child), with the help-request rules near the top, and its turn-105 lesson, E256 (Inner Child), is beside it, with the turn-106 lessons E257 and E258 (Inner Child) after it and the turn-107 lesson E261 (Inner Child) after those. The Nibbāna and community lanes' E256 to E259 above came at the same time as E257 and E258 (their message of 2026-10-24 19:52 UTC), the community lane's E260 after them (23:40 UTC), and its E261 at the same time as this lane's (its message of 2026-10-25 00:27 UTC); both sets keep their numbers, so cite this lane's as "E261 (Inner Child)". The hypnosis guide lane's E262 and E263 above came after them (its message of 2026-10-25 01:01 UTC), and its E264 and E265 after those (14:40 UTC). This lane's turn-109 lesson, written at the same time as those two, keeps its number too: cite it as "E264 (Inner Child)"; it is with the others near the top, and so are its turn-110 to turn-112 lessons, E266 to E271 (Inner Child). The hypnosis guide lane's E268 to E270 came at the same time as the turn-111 ones (its message of 2026-10-25 19:42 UTC); both sets keep their numbers, so cite this lane's as "E268 (Inner Child)" to "E271 (Inner Child)". The hypnosis guide lane's E272 to E274 came after them (its message of 23:05 UTC), its E275 after those (the recheck read after its message of 23:50 UTC), its E276 after that (batch 479's recheck, read after its message of 2026-10-26 00:54 UTC), its E277 to E279 after it (its message of 12:43 UTC), its E280 to E283 after those (its message of 2026-10-27 15:37 UTC), its E284 to E290 after those (its message of 2026-10-28 15:20 UTC), its E291 and E292 after those (its message of 2026-10-29 17:21 UTC), its E293 after those (its message of 19:22 UTC), its E294 to E297 after those (its answers of 2026-10-30 14:35 UTC), its E298 to E300 after those (the full read of the same day), its E301 to E303 after those (the recheck read after its message of 20:15 UTC), its E304 after those (the recheck read after its message of 21:40 UTC), its E305 after those (the community article's full read of the same day), its E306 to E310 after those (his answers of 2026-11-01), its E311 and E312 after those (the second full read of the same day), and its E313 and E314 after those (the turn after his message of 22:27 UTC), and its E315 to E320 after those (his answers of 2026-11-02), and its E321 and E322 after those (his Pangram history, read the same day), and its E323 and E324 after those (his answers to 28 and 29 at 19:11 UTC, and the round they began), and its E325 after those (his message of 20:38 UTC), and its E326 and E327 after those (his second Pangram account's history, read after his message of 21:59 UTC), and its E328 to E330 after those (his answers of 2026-11-03 00:39 UTC), and its E331 and E332 after those (his message of 13:46 UTC), and its E333 and E334 after those (the neuro de-armoring article's round 1), and its E335 and E336 after those (his three examples, his answers of 2026-11-03 17:48 UTC, and round 2 after them). The Inner Child lane's turn-116 lessons, written after them, are E337 and E338 (Inner Child), near the top; the gut lane's E337 to E339 came at the same time (their section below), and the Inner Child lane's turn-117 lessons, E340 and E341, after those, near the top; the gut lane's E342 and E345 came after them (its section below), and the neuro de-armoring lane's E343 and E344, written at the same time as E345, are in its pull request 287, and so is its E346. The next lesson in either lane is E347.)
 
 The checks: `articles/inner-child-therapy/experiments/t99-api/API-RESULTS-1.jsonl` (turn 99's nine) and `articles/inner-child-therapy/experiments/t100-api/API-CHECKS.md` (this turn's eight, each with its public Pangram page). Four rewrites read 100% Human alone and in their stretch; five of my eight calls were right, and two of the misses were pessimism about a rewrite.
 

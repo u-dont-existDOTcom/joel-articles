@@ -1,0 +1,10 @@
+# Joel's batch-3 answers (2026-11-04 10:18 UTC)
+
+`joel-20261104-1018-b3-answers.json` is the export of the batch-3 page (the rest of the fuels).
+
+- **F3-1, glutamine:** he wrote his own version, with the comment "such a simple fix, just explain clearly". He kept my try 2's first four sentences and replaced its closer with the links it skipped: "So that's why consuming pure glutamine gives energy to those cells faster than eating food. They then use their extra energy to repair the gut lining, and that keeps LPS from getting through." Through the API it read [Human, 100%](https://www.pangram.com/history/8722d127-8713-4dd5-a7bc-473ebb3f84c0), with windows High, Medium and High.
+- **F3-2, butyrate:** also his own version. His first try in the web app read [Possibly human, 100%](https://www.pangram.com/history/8d9bfcdc-2e2e-42b4-8e57-dd891d0d4088?ucc=4rq5Ko7gBiW) ("flipped it human, but not high conf"). His second added "that would be needed otherwise to contain the damage" and read [Possibly human, 100%](https://www.pangram.com/history/fa93c3d7-e29e-49e6-ae3b-3c143fc89c9b?ucc=4rq5Ko7gBiW) ("now it's all good"). Both texts were read from his shared pages (`../t05-answers/read_share.py`). Through the API, the second read [Human, 100%](https://www.pangram.com/history/f2b60700-527c-4a61-84cf-ec5a7fa2d12a), one High window.
+- **F3-3, the TCA intermediates:** left to me: "now you try with what i taught you -- but i taught you the SAME thing as before, so idk why i keep having to teach the same thing? just explain stuff to someone who doesn't already know the hidden links in your prose's thinking". That became gate E345 and `tools/humanization/hidden_links.py`. The work is in `../../humanize/fix-20261103/r04/tca/`:
+  - The newcomer read found 11 gaps.
+  - Draft 1 answered all 11 as definitions and read [AI High](https://www.pangram.com/history/d97109bf-4e9e-4827-a340-473bd2c7d9d3) in one window.
+  - Draft 2 states the same gaps as causes and consequences. It passed the blind meaning check and is in r04; its Pangram check is still to run.

@@ -1,0 +1,24 @@
+[
+ {
+  "key": "b082",
+  "name": "the uridine evidence paragraph, sixth try (the Medium and Low windows of try 5)",
+  "lineage": "ND1104-B082",
+  "scope": "paragraph",
+  "words": 151,
+  "call": "Human",
+  "chance": 0.6,
+  "why": "the first three sentences as in try 5 (Human High); the Wurtman sentence without a bracket (\"which they call DHA-induced dendritic spine formation\"); the rat study with the researchers doing it (\"They also fed UMP to old rats, and the rats' neurons ...\"); the closer as \"all we have is a cautious extrapolation\", try 3's wording, which read Human High",
+  "sha256": "08203d4068fb73ab5318aee4868fe01b404eb9c5bf483a8592629598b3734e8a"
+ },
+ {
+  "key": "b083",
+  "name": "Scott's signal, sixth try (Codex's rewrite)",
+  "lineage": "ND1104-B083",
+  "scope": "paragraph",
+  "words": 95,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "a writer of another family (Codex, given tell_panel.py rewrite-prompt): the craving result first, the choline and DHA after it, then the caveat and the takeaway, and the dreams last as a plain fact; my one change puts back his post's \"in the right person\"",
+  "sha256": "dc30af0cb98d0ebdb1226ed2b070e87b2a3dada1a13d9a0dc537e47d207561b9"
+ }
+]

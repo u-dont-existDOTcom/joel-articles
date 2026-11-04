@@ -19,6 +19,7 @@ checkout), resolved against the document's folder, then the repository root, the
 (articles/<id>/); a path it can't find stays, and check still reports it. The default was BRANCH, the Inner Child lane's,
 until 2026-10-25, when a fix in the hypnosis guide lane linked AGENTS.md to that lane's branch instead of its own.
 """
+import os
 import pathlib
 import re
 import subprocess
@@ -93,8 +94,12 @@ def fix(text, doc, branch=BRANCH):
 
 def current_branch(where=ROOT):
     """The branch checked out at `where`, or BRANCH when there is none (a detached checkout, or no git)."""
+    # without the caller's GIT_* variables: inside a git hook GIT_DIR names the repository being pushed, and `git -C` would
+    # answer for it instead of for `where` (the pre-push hook's test run failed this way on 2026-11-04)
+    env = {k: v for k, v in os.environ.items() if not k.startswith('GIT_')}
     try:
-        out = subprocess.run(['git', '-C', str(where), 'branch', '--show-current'], capture_output=True, text=True, timeout=20)
+        out = subprocess.run(['git', '-C', str(where), 'branch', '--show-current'], capture_output=True, text=True, timeout=20,
+                             env=env)
     except (OSError, subprocess.SubprocessError):
         return BRANCH
     return out.stdout.strip() or BRANCH

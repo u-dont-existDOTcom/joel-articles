@@ -1,0 +1,20 @@
+{
+ "b082": {
+  "lineage": "ND1104-B082",
+  "name": "the uridine evidence paragraph, second try",
+  "text": "The tool: Uridine monophosphate (UMP). There's no study showing that \"UMP cures DAWS\", so the best evidence we have is more basic than that. Uridine, choline, and DHA are circulating precursors (building blocks carried in the blood) for brain phosphatide / synaptic membrane synthesis, that is, for making the fatty membranes at the connections between neurons. Wurtman's research group found that giving DHA, uridine and choline together can increase the building blocks and proteins of those synaptic membranes. In animals, UMP made the DHA-induced growth of new dendritic spines stronger (the spines are the tiny bumps on neurons where they connect to each other). And when old rats got UMP in their food, they released more dopamine when their neurons were stimulated, and grew more nerve fibers (neurite outgrowth). So it's plausible that it works on the synapses this way, but using it for DAWS in people is still a cautious extrapolation from those studies, plus anecdotes like Scott's.",
+  "chance": 0.45,
+  "why": "each study finding in its own sentence in plain words, the plain meaning before the term (\"grew more nerve fibers (neurite outgrowth)\"), the caveat said plainly with its warning words kept, a pointer to Scott; the first part is try 1's, which read Human (Medium)",
+  "diagnosis": "try 1 read 62.2% AI: Human (Medium) where the fragment became a sentence and the precursors were glossed; AI where the three findings stayed the post's compressed link texts in one sentence, and on the post's closing caveat (AI, High)",
+  "decides": "whether a finding per sentence, plain first, turns the rest of the evidence paragraph Human"
+ },
+ "b083": {
+  "lineage": "ND1104-B083",
+  "name": "Scott's signal, second try",
+  "text": "Scott's signal: Scott was already getting choline from eggs and DHA/EPA from fish oil, so he wasn't short on those. But when he added a standard dose of UMP, the response was striking, and within a day his vivid dreams came back, with real childhood memories showing up in them. His psychedelic tolerance seemed to drop too, and his ketamine/LSD cravings fell off hard. It's hard to say whether UMP rebuilt his D3 dopamine receptors overnight, but in the right person, a response like that can be a very clear sign that the system that rebuilds the synaptic membranes and dopamine receptors (the \"synaptic-membrane / dopamine-receptor-recovery axis\") was starved.",
+  "chance": 0.4,
+  "why": "one account joined by \"so\", \"but\", \"and within a day\", the plain meaning before the term (\"the system that rebuilds ... (the 'synaptic-membrane / dopamine-receptor-recovery axis')\"), \"It's hard to say whether\" for \"That does not prove\"; the last sentence is still long",
+  "diagnosis": "try 1 read 100% AI: a hook sentence (\"he noticed a striking difference\"), \"His X. His Y.\" sentences in parallel, and glosses after the terms like a dictionary",
+  "decides": "whether telling Scott's story as one joined account, plain first, reads Human"
+ }
+}

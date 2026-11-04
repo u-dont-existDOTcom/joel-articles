@@ -1,0 +1,63 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "The tool: Uridine monophosphate (UMP).",
+  "There's no study showing that \"UMP cures DAWS\", only more basic research on what uridine, choline, and DHA do in the brain.",
+  "All three get carried in the blood to the brain, which uses them to make the fatty membranes at its synapses (circulating precursors for brain phosphatide / synaptic membrane synthesis).",
+  "Wurtman's research group found that giving the three together can build up the synapses' membranes and proteins, and that in animals, UMP made DHA better at getting neurons to grow new connection points, which they call DHA-induced dendritic spine formation.",
+  "They also fed UMP to old rats, and the rats' neurons released more dopamine when they were stimulated with potassium, and grew more nerve fibers.",
+  "So it's plausible it works on the synapses this way, but for DAWS in people, all we have is a cautious extrapolation from those studies, plus anecdotes like Scott's."
+ ],
+ "flagged": {
+  "1": [
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "5": [],
+  "6": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3,
+  4,
+  6
+ ],
+ "whole": {
+  "codex": [
+   "The progression from disclaimer to mechanism to animal findings and back to disclaimer feels unusually orderly, while the repeated switching between conversational and technical language suggests an AI-polished explainer. These are stylistic impressions, not reliable evidence of authorship."
+  ],
+  "haiku": [
+   "The sentences are evenly weighted, each adding one fact and one hedge, so the paragraph reads like a sanded-down explainer, though the contractions and the casual named anecdote keep some of a human voice."
+  ],
+  "sonnet": [
+   "The paragraph is built like a summary: a claim of limits, then mechanism, then evidence, then a balanced hedged conclusion, with every sentence of similar length and even, careful tone. Its voice is that of a cautious explainer with no stray asides, so the rhythm is uniform and the structure is neatly resolved."
+  ]
+ },
+ "human_clean": [
+  "the rats' neurons released more dopamine when they were stimulated with potassium",
+  "fed UMP to old rats",
+  "the rats' neurons released more dopamine when they were stimulated with potassium",
+  "grew more nerve fibers"
+ ]
+}

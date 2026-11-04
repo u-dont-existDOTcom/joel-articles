@@ -1,0 +1,17 @@
+[
+  {
+    "id": "T2-GLU",
+    "verdict": "PASS",
+    "issue": "Gloss \"which is how the mitochondria make their energy\" for the citric acid cycle: accurate. Makes explicit that repair \"keeps LPS from getting through\"; original implies it."
+  },
+  {
+    "id": "T2-BUT",
+    "verdict": "FAIL",
+    "issue": "Drops \"the small intestine runs on glutamine\"; \"instead of glutamine\" loses which gut part runs on it. Glosses accurate: \"colonocytes lining your large intestine\", \"gut bacteria ferment\"."
+  },
+  {
+    "id": "T2-TCA",
+    "verdict": "PASS",
+    "issue": "Gloss \"The TCA cycle is another name for the citric acid cycle, the one glutamine feeds\": accurate. \"gut epithelial cells\" as \"cells lining your gut\": accurate."
+  }
+]
