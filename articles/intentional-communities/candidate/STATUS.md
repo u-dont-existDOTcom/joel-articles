@@ -1,3 +1,7 @@
+**Joel's answers of 2026-11-04 13:53 UTC (in the neuro de-armoring lane)**: nothing changed in this lane's article. Gate E352 applies here.
+
+**Joel's answers of 2026-11-04 12:06 UTC (in the neuro de-armoring lane)**: nothing changed in this lane's article. His rule on Low and Medium windows and gate E350 apply here.
+
 **Joel's answers of 2026-11-04 10:39 UTC (in the neuro de-armoring lane)**: nothing changed in this lane's article. Gate E346 applies here.
 
 **Joel's message of 2026-11-04 10:01 UTC (in the neuro de-armoring lane)**: nothing changed in this lane's article. Gates E343 and E344 apply here.

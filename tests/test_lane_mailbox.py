@@ -69,3 +69,42 @@ class PushGate(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class LaneRecord(unittest.TestCase):
+    """2026-11-04 13:53 UTC, Joel: "290 has conflicts". Every lane wrote state/MAILBOX.json each turn, so a lane's open pull
+    request conflicted with main whenever another lane's merged first. Each lane now writes its own file."""
+
+    def test_each_branch_has_its_own_record(self):
+        import os
+        import subprocess
+        import tempfile
+        env = {k: v for k, v in os.environ.items() if not k.startswith('GIT_')}
+        with tempfile.TemporaryDirectory() as d:
+            self.assertEqual(M.lane_record(d), M.LEGACY)                       # no git: the shared file
+            subprocess.run(['git', 'init', '-q', '-b', 'claude/some-lane', d], check=True, env=env)
+            self.assertEqual(M.lane_record(d), M.LANES / 'claude-some-lane.json')
+
+    def test_a_check_in_the_old_shared_file_still_counts(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            old = pathlib.Path(d) / 'MAILBOX.json'
+            M.record('2026-11-01 22:27', ['guide'], READ_ALL, [], [], path=old)
+            self.assertEqual(M.check('2026-11-01 22:27', path=old), [])
+            self.assertTrue(M.check('2026-11-01 22:27', path=pathlib.Path(d) / 'lane.json'))   # not in the lane's own
+
+    def test_settle_gives_the_shared_file_mains_content_and_moves_this_lanes_records(self):
+        """2026-11-04 14:28 UTC, Joel: "pr 290 has conflicts" again: the branch still carried its own records in the shared
+        file, which another lane's merge had changed too."""
+        import json
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            legacy, lane = pathlib.Path(d) / 'MAILBOX.json', pathlib.Path(d) / 'mailbox' / 'lane.json'
+            M.record('2026-11-01 22:27', ['other lane'], READ_ALL, [], [], path=legacy)
+            main_text = legacy.read_text(encoding='utf-8')
+            M.record('2026-11-02 09:10', ['this lane'], READ_ALL, [], [], path=legacy)
+            self.assertEqual(M.settle(legacy=legacy, lane=lane, main_text=main_text), ['2026-11-02T09:10Z'])
+            self.assertEqual(legacy.read_text(encoding='utf-8'), main_text)
+            self.assertEqual([c['turn'] for c in json.loads(lane.read_text(encoding='utf-8'))['checks']], ['2026-11-02T09:10Z'])
+            self.assertEqual(M.settle(legacy=legacy, lane=lane, main_text=main_text), [])      # nothing left to do
+

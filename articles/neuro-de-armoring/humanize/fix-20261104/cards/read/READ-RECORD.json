@@ -1,0 +1,65 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "HUMANIZED-SO-FAR.md at 46c8485f: the 12 approved cards, each changed paragraph read beside his post's by the lead session (E284, E294)",
+ "coverage": [
+  "04e91987c4b5a1bb",
+  "29d683702b293f54",
+  "322bffffd8819e1a",
+  "3855e200cb7897e4",
+  "570a1c641cb27262",
+  "62e4a8d2772ff7db",
+  "7a6925e537d034ad",
+  "9f18a594c0600853",
+  "a77506035d385c03",
+  "a84d96b8cccd1f82",
+  "e5a99019f740e019",
+  "f053144309fdda54",
+  "fd1e0adb2394802e"
+ ],
+ "findings": [
+  {
+   "id": "Y-83.1",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "29d683702b293f54"
+   ],
+   "now": "Scott added a standard dose of UMP, and within a day his ketamine/LSD cravings fell hard.",
+   "same_as_original": false
+  },
+  {
+   "id": "Y-83.2",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "29d683702b293f54"
+   ],
+   "now": "UMP can show you very clearly when the brain's system for rebuilding synaptic membranes and recovering dopamine receptors has been starved of building materials",
+   "same_as_original": false
+  },
+  {
+   "id": "Y-82.1",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "322bffffd8819e1a"
+   ],
+   "now": "which uses them to make the fatty membranes at its synapses",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {
+  "Y-83.1": [
+   "his",
+   "shown on card Y-83, which he approved; the next try of the paragraph (his answer 5a) aims at the Low window these sentences are in, and puts \"within a day\" back over the dreams"
+  ],
+  "Y-83.2": [
+   "his",
+   "card Y-83, approved; the next try (5a) says \"clean\" again"
+  ],
+  "Y-82.1": [
+   "kept",
+   "severity 1: the bracket keeps his term, and the paragraph is about the synapses"
+  ]
+ }
+}

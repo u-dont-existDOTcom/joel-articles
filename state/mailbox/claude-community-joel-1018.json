@@ -1,0 +1,126 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-04T12:06Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items in the lane (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); UDA main c5c9951; its live AGENTS.md (blob 5160080) and LESSON-INDEX (7896422) unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 287 (this lane's) merged by Joel at 11:36 UTC; new since 10:39: 289 (Healing the Gut r05, open); 280 and 288 still open; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to this lane's handoff note or questions page (main's articles/neuro-de-armoring matches the branch); the branch fast-forwarded to main 999d6b91"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 2026-11-04 12:06 UTC: the cards page's answers (all 12 approved) and '5a and if you can't figure it out i can help, low windows can easily flip to AI in different segmentations, medium aren't a big issue usually'",
+     "outcome": "saved word for word; the 12 cards into the article; 5a: two more tries each for blocks 82 and 83, aimed at their Low windows"
+    },
+    {
+     "item": "pull request 287 merged",
+     "outcome": "the lane goes on from main on the same branch; a new pull request at this turn's push"
+    }
+   ],
+   "recorded_utc": "2026-11-04T12:08Z"
+  },
+  {
+   "turn": "2026-11-04T13:53Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items in the lane (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); UDA main c5c9951; its live AGENTS.md (blob 5160080) and LESSON-INDEX (7896422) unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's 290 open and in conflict with main (mergeable_state dirty), as Joel said: state/MAILBOX.json, which every lane writes; since 12:06: 289 (gut r05) merged 12:16, 288 (Inner Child) merged 12:37, a lane_push.py fix on main (9e639bf1), 291 (gut r06) opened; 280 still open; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to this lane's handoff note or questions page (main's history of articles/neuro-de-armoring since 999d6b91 has none)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 2026-11-04 13:53 UTC: the second cards page's answers (Y-83b revised with his version and comment, W-17 approved), '290 has conflicts', '6a'",
+     "outcome": "saved word for word; main merged and the conflict (state/MAILBOX.json) resolved, and each lane now records its mailbox in its own file so lanes stop conflicting; his Y-83b version and W-17 in; 6a recorded (the five lines stay); his ', but' fix made a linter rule"
+    }
+   ],
+   "recorded_utc": "2026-11-04T13:56Z"
+  },
+  {
+   "turn": "2026-11-04T14:28Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items in the lane (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); UDA main c5c9951; its live AGENTS.md (blob 5160080) and LESSON-INDEX (7896422) unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's 290 in conflict with main again (mergeable_state dirty), as Joel said: 292 (Inner Child turn 122) merged at 14:27 with its own changes to state/MAILBOX.json, which this branch also changed; 293 (gut, the whole-article check) opened; 280 still open; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to this lane's handoff note or questions page"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 2026-11-04 14:28 UTC: 'pr 290 has conflicts'",
+     "outcome": "main merged; the branch's state/MAILBOX.json set to main's, its own records moved to state/mailbox/claude-community-joel-1018.json, so the pull request no longer touches the shared file; lane_push.py now does that itself before every push"
+    }
+   ],
+   "recorded_utc": "2026-11-04T14:29Z"
+  }
+ ]
+}
