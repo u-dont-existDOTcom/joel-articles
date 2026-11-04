@@ -1,0 +1,214 @@
+{
+ "about": "his answers to Neuro De-Armoring Cards, 4 November: all 12 approved",
+ "answers": "ANSWERS-20261104-1205.json",
+ "before_sha256": "e5ead544546ad5ca039b23cd38c5ec798670e197a69708dacc83d57ee76b375f",
+ "after_sha256": "46c8485f3c1f843ea2a3086cb98477e30e77e3e34a657ea4200fac9373d844aa",
+ "cards": [
+  {
+   "id": "Y-82",
+   "blocks": [
+    82
+   ],
+   "where": "Dopamine Receptor Burnout / DAWS Pattern: Uridine Monophosphate, P2",
+   "fidelity_change": {
+    "keys_lost": {
+     "W031": [
+      [
+       "cautious"
+      ],
+      [
+       "extrapolation"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "Y-83",
+   "blocks": [
+    83
+   ],
+   "where": "Dopamine Receptor Burnout / DAWS Pattern: Uridine Monophosphate, P3",
+   "fidelity_change": {}
+  },
+  {
+   "id": "W-15",
+   "blocks": [
+    15
+   ],
+   "where": "A Complete Guide to Bio-De-Armoring, P9",
+   "fidelity_change": {
+    "keys_lost": {
+     "W008": [
+      [
+       "MAOIs"
+      ]
+     ],
+     "W009": [
+      [
+       "risk",
+       "likelihood of relapsing"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "W-16",
+   "blocks": [
+    16
+   ],
+   "where": "A Complete Guide to Bio-De-Armoring, P10",
+   "fidelity_change": {}
+  },
+  {
+   "id": "W-125",
+   "blocks": [
+    125
+   ],
+   "where": "2. The Glutamate Shield (Anxiety):, P4",
+   "fidelity_change": {
+    "keys_lost": {
+     "W058": [
+      [
+       "unless"
+      ],
+      [
+       "clinician-supervised"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "W-18",
+   "blocks": [
+    18
+   ],
+   "where": "A Complete Guide to Bio-De-Armoring, P12",
+   "fidelity_change": {}
+  },
+  {
+   "id": "W-85",
+   "blocks": [
+    85
+   ],
+   "where": "Dopamine Receptor Burnout / DAWS Pattern: Uridine Monophosphate, P5",
+   "fidelity_change": {}
+  },
+  {
+   "id": "W-68",
+   "blocks": [
+    68,
+    172
+   ],
+   "where": "Part 2: Reducing Anxiety & Depression, P4",
+   "fidelity_change": {
+    "numbers_lost": [
+     "300-600mg",
+     "300-600mg/day",
+     "~300mg",
+     "~800mg"
+    ],
+    "numbers_new": [
+     "200mg",
+     "400mg",
+     "400mg",
+     "400mg/day",
+     "600",
+     "800mg"
+    ],
+    "keys_lost": {
+     "W072": [
+      [
+       "300-600 mg"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "W-73",
+   "blocks": [
+    73
+   ],
+   "where": "Part 2: Reducing Anxiety & Depression, P9",
+   "fidelity_change": {}
+  },
+  {
+   "id": "W-111",
+   "blocks": [
+    111
+   ],
+   "where": "1. Electrolytes (Choose Your Path), P6",
+   "fidelity_change": {
+    "keys_lost": {
+     "W056": [
+      [
+       "must"
+      ],
+      [
+       "mandate"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "W-112",
+   "blocks": [
+    112
+   ],
+   "where": "1. Electrolytes (Choose Your Path), P7",
+   "fidelity_change": {
+    "keys_lost": {
+     "W057": [
+      [
+       "dangerous"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "W-154",
+   "blocks": [
+    154
+   ],
+   "where": "Scenario A: The \"Glutamate Storm\", P13",
+   "fidelity_change": {
+    "keys_lost": {
+     "W064": [
+      [
+       "l-serine"
+      ],
+      [
+       "renal"
+      ]
+     ],
+     "W066": [
+      [
+       "compounded"
+      ],
+      [
+       "caused"
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "emphasis_lost": [],
+ "fidelity": {
+  "pass": true,
+  "owner_changes": [
+   "fix-20261104/cards/ANSWERS-20261104-1205.json, card Y-82 (approved 2026-11-04)",
+   "fix-20261104/cards/ANSWERS-20261104-1205.json, card W-15 (approved 2026-11-04)",
+   "fix-20261104/cards/ANSWERS-20261104-1205.json, card W-125 (approved 2026-11-04)",
+   "fix-20261104/cards/ANSWERS-20261104-1205.json, card W-68 (approved 2026-11-04)",
+   "fix-20261104/cards/ANSWERS-20261104-1205.json, card W-111 (approved 2026-11-04)",
+   "fix-20261104/cards/ANSWERS-20261104-1205.json, card W-112 (approved 2026-11-04)",
+   "fix-20261104/cards/ANSWERS-20261104-1205.json, card W-154 (approved 2026-11-04)"
+  ]
+ }
+}

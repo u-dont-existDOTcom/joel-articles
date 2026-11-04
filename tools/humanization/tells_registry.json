@@ -2831,6 +2831,19 @@
    "example": "Trial: UMP 150–300 mg in the morning with food for 3–7 days."
   },
   {
+   "id": "W118",
+   "tell": "a negation, then its contrast as a new sentence (\"You can't tell from this whether X. It does suggest that Y.\"), where his version joins them with \", but\"",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "the only change i needed to flip the low conf human all to high conf was to merge the sentences with a"
+    }
+   ],
+   "rule": "O64",
+   "example": "That does not prove the diet worked. It does suggest that sleep matters."
+  },
+  {
    "id": "W114",
    "tell": "a curly quote mark (’ ‘ “ ”), which straightening improved in 40 of 113 borderline paragraphs of his articles on Pangram 4.1",
    "kind": "mechanical",
