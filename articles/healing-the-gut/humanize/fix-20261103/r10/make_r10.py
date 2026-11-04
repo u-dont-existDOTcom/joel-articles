@@ -3,7 +3,7 @@
 
 F7-1: his whole stacks section as he checked it (Human Written, 100%, 600 words): his minimal edits to the start-low and
 doctor paragraphs, word for word. F7-2: his three-category lead-in becomes "A good stack should cover these 3 categories:".
-Writes r10.html and r10.md. No API calls."""
+His one dash is his two hyphens (his ruling of 16:30 UTC). Writes r10.html and r10.md. No API calls."""
 import hashlib, html as H, json, pathlib, subprocess, sys
 
 from bs4 import BeautifulSoup
@@ -41,6 +41,11 @@ for line in his[1:]:
         continue
     assert ' '.join(line.split()) in ' '.join(md.split()), line[:60]
 out, swapped = swap_html(str(soup))
+# Joel, 2026-11-04 16:30 UTC (the Inner Child lane's E353, pull request 298): every em dash, and every en dash with a space
+# beside it, is his two hyphens with no spaces, in every article ("yes to both"). Until typography_swap.py does it (298),
+# the one in this article, his em dash in the Parasites cause ("angles — cleansing"), which the swap made " – ":
+assert out.count(' \u2013 ') == 1 and '\u2014' not in out, (out.count(' \u2013 '), out.count('\u2014'))
+out = out.replace(' \u2013 ', '--')
 (HERE / 'r10.html').write_text(out, encoding='utf-8')
 subprocess.run([sys.executable, str(HERE.parent / 'r01' / 'html_to_md.py'), str(HERE / 'r10.html'), str(HERE / 'r10.md')], check=True)
 print('r10.html', hashlib.sha256(out.encode('utf-8')).hexdigest(), '| swapped', swapped)
