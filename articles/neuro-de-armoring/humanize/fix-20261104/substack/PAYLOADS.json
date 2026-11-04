@@ -1,0 +1,18 @@
+{
+ "source": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+ "source_sha256": "fb1168c80fbff7d509dbb6d68debf8af1e21cc8de579811954cf00e68fdbb7fe",
+ "parts": [
+  {
+   "part": "A",
+   "title": "Neuro de-armoring, draft A (temp, delete after)",
+   "payload": "PAYLOAD-A.html",
+   "text": "TEXT-A.txt",
+   "chars": 39481,
+   "words": 6051,
+   "blocks": 185,
+   "headings": 25,
+   "payload_sha256": "27eec584bf64b9f05d42a2f343e11cf6b45ee61287edbb408ff52158fa1f64e4",
+   "words_sha256": "8218ff477b9bae2ba78b15c9f8c287524a1dd611aff514f730f08c1fef05a9be"
+  }
+ ]
+}

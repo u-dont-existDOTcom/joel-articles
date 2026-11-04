@@ -1,0 +1,23 @@
+{
+ "about": "his post's block 93, the 5-HTP interaction paragraph, fourth try: Human Written, 0.0% AI by itself in the web app",
+ "before_sha256": "fb1168c80fbff7d509dbb6d68debf8af1e21cc8de579811954cf00e68fdbb7fe",
+ "after_sha256": "301782b99522d013a25560d85097e4fe1a17e82a92cb82d3e727b6096f29d07f",
+ "block": 92,
+ "before": "Hard interaction rule: 5-HTP should not be mixed casually with serotonin-raising drugs or supplements. Case literature and clinical reviews warn about serotonin syndrome risk when 5-HTP is combined with antidepressants or MAOIs, and serotonin syndrome is most often a multi-drug / stack problem. See the [dietary supplement interaction case report](https://pmc.ncbi.nlm.nih.gov/articles/PMC5580516/) and the general serotonin-syndrome overview from [MedlinePlus](https://medlineplus.gov/ency/article/007272.htm). For this readership: avoid 5-HTP on psychedelic days, and be especially strict around [ayahuasca / harmala MAOI chemistry](https://pmc.ncbi.nlm.nih.gov/articles/PMC7678905/) and iboga / ibogaine.",
+ "after": "Don't mix 5-HTP casually with anything else that raises serotonin, like antidepressants or MAOIs. Most of the time serotonin syndrome comes from an interaction like that, with a few different drugs or supplements stacked on top of each other ([MedlinePlus](https://medlineplus.gov/ency/article/007272.htm) has a page on what it looks like). Case reports and reviews keep warning about the risk with 5-HTP, like [this case report](https://pmc.ncbi.nlm.nih.gov/articles/PMC5580516/), where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs and his forearm to relieve the pressure. Luckily he recovered. If you're doing psychedelics, avoid 5-HTP on your psychedelic days, and be especially strict around ayahuasca's [harmala MAOI chemistry](https://pmc.ncbi.nlm.nih.gov/articles/PMC7678905/) and around iboga or ibogaine.",
+ "tested": "https://www.pangram.com/history/2be95f74-b2cf-45ec-a669-1807880af623",
+ "windows": [
+  "Human, High, 16",
+  "Human, Medium, 34",
+  "Human, Low, 65",
+  "Human, Medium, 3",
+  "Human, High, 27"
+ ],
+ "tries": [
+  "https://www.pangram.com/history/5e797c26-95a2-4caa-aedb-6a88b723f6f5 (try 1, AI Generated, 100% AI)",
+  "https://www.pangram.com/history/cb693d91-b9c2-41cc-9a8e-20bd56779126 (try 2, AI Detected, 46.5% AI)",
+  "https://www.pangram.com/history/d2dffc85-efd5-42d0-af45-13a7c3917e05 (try 3, after the readers' panel, AI Detected, 24.3% AI)"
+ ],
+ "addition": "the linked case report said as what happened in it (PMC5580516, read in full through PubMed)",
+ "fidelity_pass": true
+}

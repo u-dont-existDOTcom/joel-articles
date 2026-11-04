@@ -1,0 +1,12 @@
+{
+ "b092": {
+  "lineage": "ND1104-B092",
+  "name": "the 5-HTP stop signs, fifth try: Codex's rewrite with its panel's agreed points fixed",
+  "text": "If the 5-HTP gives you nausea or stomach discomfort, stop the trial. Same with loose stools or a headache. Stop immediately if you get agitation together with sweating, diarrhea, tremor or clonus, and fever, confusion, a fast heart rate or unstable blood pressure, since that pattern can be serotonin toxicity, which can become dangerous. Feeling anxious, irritable or agitated, sweating, tremor, or a too-bright, kind of hypomanic feeling are milder stop signs, and so are insomnia and dreams that get vivid or intense.",
+  "chance": 0.25,
+  "panel": "articles/neuro-de-armoring/humanize/fix-20261104/panel/b092-c1/PANEL.md",
+  "why": "a writer of another family after four of mine read AI (E253: Codex, tell_panel.py rewrite-prompt, rewrite-b092/), then the panel on its draft: the repeated \"reasons to stop\" frames varied and joined, the near-synonyms joined (\"Feeling anxious, irritable or agitated\"), the hedge sentence joined to the stop line; the label gone, as his Y-90 and Y-91 dropped theirs",
+  "diagnosis": "tries 1 to 4 (mine) read AI Generated, 100% AI, try 4 one AI (High) window (https://www.pangram.com/history/df854bc0-34cd-4c30-b272-efc81dbd24ba); the readers flag every sentence of Codex's draft as part of a checklist",
+  "decides": "whether the stop signs go in, or to Joel as a stretch to edit with the panel linked (E253, E336)"
+ }
+}

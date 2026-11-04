@@ -1,0 +1,78 @@
+Here is a paragraph from a self-help article by Joel, with the paragraphs around it. Fresh readers found that it reads as
+written by an AI model; their notes are below. Rewrite this one paragraph so it reads like Joel talking to a reader, and
+keeps every point listed.
+
+The paragraph before it (for context only):
+If you're sensitive, start lower and do the trial with just 50mg 5-HTP at night for 2–3 nights, then go up to 100mg if 50mg was clearly helpful and not causing side effects. You can also add 10–20mg P5P in the morning, like Scott did, especially if the 5-HTP felt like it "almost worked," as that could be a sign it wasn't converting cleanly over to serotonin. Don't do the trial at the same time as the other suggested regimen changes (like UMP, agmatine, D-serine, psychedelics, or prescription medication changes), since the point is to see whether the 5-HTP itself is doing anything. If it's the right tool, the first things you'll usually notice are your mood or sleep quality improves, you have less nighttime rumination, and your dreams become more vivid or memorable.
+
+THE PARAGRAPH:
+Side effects / stop signs: Stop immediately if you get agitation + sweating + diarrhea + tremor/clonus (your muscles jerking on their own) + fever, confusion, fast heart rate, or unstable blood pressure, because that pattern can be serotonin toxicity, which can become dangerous. The milder stop signs are stomach stuff like nausea, discomfort or loose stools, plus headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright, kind of hypomanic feeling.
+
+The paragraph after it (for context only):
+Don't mix 5-HTP casually with anything else that raises serotonin, like antidepressants or MAOIs. Most of the time serotonin syndrome comes from an interaction like that, with a few different drugs or supplements stacked on top of each other (MedlinePlus has a page on what it looks like). Case reports and reviews keep warning about the risk with 5-HTP, like this case report, where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs and his forearm to relieve the pressure. Luckily he recovered. If you're doing psychedelics, avoid 5-HTP on your psychedelic days, and be especially strict around ayahuasca's harmala MAOI chemistry and around iboga or ibogaine.
+
+What it has to say (keep every point, at the strength it has, and add none):
+- The paragraph is the 5-HTP side effects and stop signs (what makes the reader stop the trial).
+- Stop immediately if you get agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure (every one of them stays, and the meaning stays: that combination).
+- That pattern can indicate serotonin toxicity, which can become dangerous.
+- The other side effects are stop signs too: nausea, stomach discomfort, loose stools, headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright / hypomanic feeling (all twelve stay).
+- Keep these words, wherever they go: "stop", "clonus", "fever", "serotonin toxicity", "dangerous", "discomfort", "too-bright".
+- Add no new claim, number or advice that isn't in these points.
+
+What the readers flagged:
+codex:
+AI:
+
+- "anxiety, irritability, emotional agitation" — These overlapping terms give the list a completeness-seeking, slightly padded quality associated with AI drafting.
+- "tremor/clonus (your muscles jerking on their own)" — The immediate switch from technical terminology to a conversational explanation resembles AI’s patterned approach to making specialist language accessible.
+- "agitation + sweating + diarrhea + tremor/clonus" — The plus signs package the symptoms into a formula, giving the prose a mechanically organized feel.
+- "Side effects / stop signs:" — The paired heading sounds like a model combining two possible labels instead of settling on one.
+
+WHOLE:
+
+The paragraph’s exhaustive lists and orderly progression from urgent warning to milder symptoms can suggest AI polishing, especially alongside its deliberate mixture of clinical and casual language. These are weak stylistic signals, not reliable evidence of authorship.
+
+haiku:
+AI:
+1. "agitation + sweating + diarrhea + tremor/clonus" uses plus signs as conjunctions inside running prose. It reads like a shorthand checklist that a generator tends to produce, not how an author usually writes a paragraph.
+2. "(your muscles jerking on their own)" glosses a term for a lay reader in a neat parenthetical, the kind of definitional aside explainer prose often carries.
+3. "headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation" is an exhaustive list that repeats items already named in the severe list ("sweating", "tremor") and stacks near-synonyms ("irritability, emotional agitation"), which reads as enumeration for completeness.
+4. "Side effects / stop signs:" opens with a slash-joined label, a tidy heading form typical of structured AI output.
+5. "which can become dangerous" follows "can be serotonin toxicity" in the same sentence, a hedged double "can" that smooths the claim without adding information.
+
+WHOLE: The paragraph is built as a clean binary, a severe pattern followed by "The milder stop signs are...", with two symmetrical lists. That even architecture reads machine-polished, though the casual wording ("stomach stuff", "kind of") pulls against it.
+
+sonnet:
+AI:
+- "agitation + sweating + diarrhea + tremor/clonus (your muscles jerking on their own) + fever, confusion, fast heart rate, or unstable blood pressure": Plus signs chain symptoms like a checklist, and the parenthetical gloss is a stock explanatory aside. The result is exhaustive, evenly weighted coverage.
+- "because that pattern can be serotonin toxicity, which can become dangerous": The hedged "can be... can become" and the vague "dangerous" are generic safety boilerplate. They add no specific detail.
+- "The milder stop signs are stomach stuff like nausea, discomfort or loose stools, plus headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright, kind of hypomanic feeling": This is a long, comprehensive run of near-synonyms ("vivid or intense", "anxiety, irritability, emotional agitation"). It reads as completeness-padding, not selection.
+- "Side effects / stop signs:": A bolded-label opener with a slash pairing is a template-style heading. It reads as list-summary formatting.
+- "Stop immediately if you get": The blunt imperative followed by a tiered severe/mild structure is a typical generated safety-advice layout.
+
+WHOLE: The paragraph is built as a two-tier checklist, severe and then mild. Each tier is a long, evenly paced list with the same cadence, and nothing is singled out, prioritized or explained from experience. The voice is cautious, comprehensive and impersonal.
+
+Lines of Joel's own from the same article, for how he sounds:
+Side effects / stop signs: In practice, the most common problem is the "choline headache", or a spaced-out kind of brain fog. That isn't shown in the studies I've seen, but the likely reason is that UMP speeds up neuronal and synaptic membrane synthesis, which places a higher demand on choline than what people may normally get from diet alone. Other stop signs include insomnia, jitteriness, racing thoughts, irritability, emotional flatness, nausea, stomach cramps, or loose stools.
+
+Vivid dreams and increased sensitivity to psychedelics are the hoped-for benefits of UMP. That means you should not take the old high doses of your psychedelic at first, as it might hit you way harder than you expected.
+
+Who this is for: 5-HTP is not for every depressed person either. It could help, though, with a low-serotonin-looking pattern, where it's hard to fall asleep and your mood is low, without much warmth to it. At night you get anxious and keep going over the same things. It makes more sense if there's also a genetic or clinical reason to suspect a bottleneck in serotonin synthesis, like with Scott, whose genetic data pointed to a TPH2 bottleneck, and 5-HTP helped his sleep and mood. 5-HTP skips over that bottleneck, because your body uses it to make serotonin directly, so people who respond to it can feel it quickly, although it's not as strong for sleep or mood as some hype it up to be (see this broad review of 5-HTP). I'd avoid casually experimenting with 5-HTP if you're agitated or manic, as it could sometimes push that further. And watch out for serotonin syndrome risk if you're on serotonergic meds, or using serotonergic psychedelics/entactogens.
+
+If you're sensitive, start lower and do the trial with just 50mg 5-HTP at night for 2–3 nights, then go up to 100mg if 50mg was clearly helpful and not causing side effects. You can also add 10–20mg P5P in the morning, like Scott did, especially if the 5-HTP felt like it "almost worked," as that could be a sign it wasn't converting cleanly over to serotonin. Don't do the trial at the same time as the other suggested regimen changes (like UMP, agmatine, D-serine, psychedelics, or prescription medication changes), since the point is to see whether the 5-HTP itself is doing anything. If it's the right tool, the first things you'll usually notice are your mood or sleep quality improves, you have less nighttime rumination, and your dreams become more vivid or memorable.
+
+Rules:
+- Add no new claims: no facts about Joel or anyone in his life, no stories, no statistics, no new warnings or reassurances.
+  An everyday example of a point that is already there is fine.
+- Say an instruction plainly, as an instruction, and a fact as a fact. No cautious first-person asides around them ("I'd
+  count ...", "I wouldn't wait to ..."), no hedge in front of a directive, no "that doesn't mean ..." reassurance.
+- If a judgment of his is in the points, say it the way a person would, with whatever doubt it really has.
+- If the readers say the whole paragraph is built like a template (a scene, a common mistake, a reassurance, the advice,
+  a closing moral), change how it's built, not only its words: start from one concrete case the way a person tells it,
+  say a minor point in passing, and end on an example or a plain fact. A point marked "(can go)" can be left out.
+- Let the sentences run unevenly, the way a person talks. Don't line the cases up in parallel, and don't end on a quotable
+  line or a fragment that sums up.
+- No list of three unless its last item is a casual catch-all, and no "X, not Y" or "not X but Y" contrast.
+- About the same length as the paragraph, or shorter.
+
+Reply with the rewritten paragraph only.

@@ -1,0 +1,64 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "If the 5-HTP gives you nausea or stomach discomfort, stop the trial.",
+  "Loose stools or a headache are reasons to stop too.",
+  "Stop immediately if you get agitation together with sweating, diarrhea, tremor or clonus, and fever, confusion, a fast heart rate or unstable blood pressure.",
+  "That pattern can be serotonin toxicity, which can become dangerous.",
+  "Other milder stop signs include anxiety, irritability, emotional agitation, sweating, tremor, or a too-bright, kind of hypomanic feeling.",
+  "Insomnia and dreams that get vivid or intense are also reasons to stop."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "whole": {
+  "codex": [
+   "The repeated stop instructions and accumulating symptom lists create a checklist rhythm, with the sleep-related sentence feeling appended to ensure coverage. That can suggest AI polishing, but none of these features establishes authorship."
+  ],
+  "haiku": [
+   "The paragraph runs on short, evenly weighted declarative sentences, each built around a stop condition, and it moves mild, then severe, then mild again in a neatly sorted order, which reads like a structured checklist more than a person talking. The voice is impersonal apart from one \"if you,\" with no anecdote or aside."
+  ],
+  "sonnet": [
+   "Every sentence is a short, flat declarative that ends in some version of \"stop\", so the paragraph is built as a severity-tiered checklist (mild, then severe, then \"other milder\", then \"also\") with little variation in rhythm and no personal voice or concrete detail. It reads like a safety-protocol list converted into prose, with the same sentence frame repeated and no point of view."
+  ]
+ },
+ "human_clean": []
+}
