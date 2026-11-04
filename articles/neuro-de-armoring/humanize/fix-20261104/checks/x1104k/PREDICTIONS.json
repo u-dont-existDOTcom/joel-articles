@@ -1,0 +1,68 @@
+[
+ {
+  "key": "b085",
+  "name": "the uridine stop signs, second try",
+  "lineage": "ND1104-B085",
+  "scope": "paragraph",
+  "words": 92,
+  "call": "AI",
+  "chance": 0.25,
+  "why": "the stop instruction first, his warnings' order (X-15: \"Do not use concurrently with ...\"), so the triplet no longer closes the paragraph; \"In practice\" and the label-then-claim opening gone, the choline headache said as what people run into, \"you won't find in the studies\" joined to its likely reason with \", but\" (E352); \"the system\" said as \"your brain\"; the stop-sign list given uneven shapes. E125: both lists are the protocol's (all eight stop signs; the post's \"wired, numb, or weirdly irritable\"), recorded, not cut",
+  "sha256": "29c9eaf9fd2edd1f2e4534e95d58cca074ef353985e0794b7a064f232eec3589"
+ },
+ {
+  "key": "b086",
+  "name": "the uridine psychedelic caution, second try",
+  "lineage": "ND1104-B086",
+  "scope": "paragraph",
+  "words": 57,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "\"take that as a safety signal\" said as what it means, in the article's own terms (\"if sensitivity returns\", W082): \"that's a sign your sensitivity is coming back\"; the dose line said as the person's (\"the dose you're used to may be too strong now ... go in assuming that\"); the label and \"Don't take UMP on psychedelic days\" kept (Codex called that line human)",
+  "sha256": "2f2d00707be66173e3f4bb7188e86ccd22afed0ce8a210ae7e5fe1c85be72a74"
+ },
+ {
+  "key": "b088",
+  "name": "the 5-HTP \"Who this is for\", second try",
+  "lineage": "ND1104-B088",
+  "scope": "paragraph",
+  "words": 104,
+  "call": "AI",
+  "chance": 0.35,
+  "why": "his own \"Who this is for\" build (B081, Human High): the negation, then a hedge for the reader with \"though\" (\"It could help, though, with ...\"), instead of \"not for ..., only for ...\"; the symptom list split into two sentences (E126); the genetic reason tied to Scott's case; \"this isn't a casual experiment\" said plainly (\"you shouldn't be casually experimenting with it\"); the post's four-item exclusion list kept as it was (E125 recorded)",
+  "sha256": "d9de5c7860761e2ec472426e474dd445708c9db9dd73f6e63f5f0880c21add0f"
+ },
+ {
+  "key": "b089",
+  "name": "the 5-HTP tool, second try",
+  "lineage": "ND1104-B089",
+  "scope": "paragraph",
+  "words": 83,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "the uses after their category, in brackets (\"what it's been used for (mood, ...)\"), his list move; \"discusses its role in\" said as \"discusses where it fits in\"; the review's serotonin-toxicity side said as the risk it is (the first try's \"its use ... in serotonin-toxicity cases\" misread it: the review treats serotonin syndrome as a risk of 5-HTP, sections 8.2.1 and 9); the verdict turned round, the responders first and the evidence caveat last, without the \"not as strong\" tail (O9)",
+  "sha256": "65e0a03e49716fe14ec2079af9b060b7369c7163a2b2ccd882fbffe7b4b07da2"
+ },
+ {
+  "key": "b090",
+  "name": "Scott's 5-HTP and P5P, first try",
+  "lineage": "ND1104-B090",
+  "scope": "paragraph",
+  "words": 59,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "never checked (the API's credits ran out before it); \"Scott's version:\" said as what he took; the P5P's negation and its role joined with \", but\" (E352); the enzyme said in plain words first, its name after in brackets (his B081 move)",
+  "sha256": "fc5da3c7cf0d821c4bb55ce65a7fe2eba0717ca94d469c5c986b32d736f29015"
+ },
+ {
+  "key": "b091",
+  "name": "the 5-HTP trial, first try",
+  "lineage": "ND1104-B091",
+  "scope": "paragraph",
+  "words": 93,
+  "call": "AI",
+  "chance": 0.25,
+  "why": "never checked (the API's credits ran out before it); each dose inside an instruction with a verb (X-84), the things not to combine after their category in brackets (\"other changes (like ...)\"), \"Trial:\" and \"Optional P5P:\" labels gone. E125: both lists are the protocol's (W042's list; the four first signs), recorded",
+  "sha256": "d3ba694adcb11391b9e9b11417fdf27d333117b4ed4ba65fa2fbff5df94d39bf"
+ }
+]

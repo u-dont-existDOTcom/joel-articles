@@ -1,0 +1,56 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "If you're sensitive, start lower and do the trial with 50 mg 5-HTP at night for 2–3 nights, then go up to 100 mg only if the lower amount is clearly helpful and isn't activating.",
+  "You can also add 10–20 mg P5P in the morning, especially if the 5-HTP feels like it \"almost works\" but isn't converting cleanly.",
+  "Don't do the trial at the same time as other changes (like UMP, agmatine, D-serine, psychedelics, or medication changes), since the point is to see whether the 5-HTP itself is doing anything.",
+  "If it's the right tool, the first thing you'll usually notice is your sleep quality, the tone of your dreams, a warmer mood, or less rumination at night."
+ ],
+ "flagged": {
+  "1": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph follows a tidy sequence: initial trial, conditional increase, optional addition, experimental controls, then expected benefits. Its consistently reassuring voice and orderly construction could reflect AI polishing, although these features cannot establish authorship."
+  ],
+  "haiku": [
+   "The paragraph is a clean, instructional sequence of conditions, doses and expectations, each sentence built to a balanced length. The steady, even structure reads more like a generated protocol than a personal account."
+  ],
+  "sonnet": [
+   "The paragraph is a clean four-beat protocol: start low, optional add-on, what not to combine, what to expect. Each sentence is long, even in length, and ends with a tidy list or rationale, so the rhythm is orderly and uniform."
+  ]
+ },
+ "human_clean": [
+  "almost works",
+  "almost works",
+  "almost works"
+ ]
+}

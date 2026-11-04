@@ -1,0 +1,56 @@
+{
+ "b085": {
+  "lineage": "ND1104-B085",
+  "name": "the uridine stop signs (W-85's wording), first try",
+  "text": "Side effects / stop signs: In practice the most common problem is the \"choline headache\", or a spaced-out kind of brain fog. That isn't in the studies, but the likely reason is that UMP speeds up membrane synthesis while choline availability is low, so the system feels under-supplied. Other stop signs include insomnia, jitteriness, racing thoughts, irritability, emotional flatness, nausea, stomach cramps, or loose stools. If it makes you wired, numb, or weirdly irritable, stop, and don't push through.",
+  "chance": 0.35,
+  "why": "his label register kept (\"Side effects / stop signs:\"), the choline headache said as experience and its reason joined with \", but\" (E352), the last instruction joined (\"stop, and don't push through\"); the stop-sign list is the protocol's (E125 recorded)",
+  "diagnosis": "the baseline (his post) read AI in this section (n1102-06 uridine 100%, n1102-07 5-HTP 82.1%); first try, his moves (WHAT-HIS-VERSIONS-DO.md)",
+  "decides": "whether his moves carry this kind of paragraph in my hand on the first try"
+ },
+ "b086": {
+  "lineage": "ND1104-B086",
+  "name": "the uridine psychedelic caution, first try",
+  "text": "Psychedelic caution: Don't take UMP on psychedelic days. If it makes your dreams vivid or suddenly lowers your psychedelic tolerance, take that as a safety signal, and if you do use psychedelics later, assume your previous dose may now be too strong, since chasing the old visual threshold can overshoot.",
+  "chance": 0.35,
+  "why": "the rule first (\"Don't take UMP on psychedelic days.\"), then the signal and the later dose in one joined sentence with its reason (\"since chasing the old visual threshold can overshoot\")",
+  "diagnosis": "the baseline (his post) read AI in this section (n1102-06 uridine 100%, n1102-07 5-HTP 82.1%); first try, his moves (WHAT-HIS-VERSIONS-DO.md)",
+  "decides": "whether his moves carry this kind of paragraph in my hand on the first try"
+ },
+ "b088": {
+  "lineage": "ND1104-B088",
+  "name": "the 5-HTP \"Who this is for\", first try",
+  "text": "Who this is for: 5-HTP is not for every depressed person either, only for a low-serotonin-looking pattern, where people have trouble falling asleep, their mood is low and lacks warmth, they get anxious at night and ruminate over the same things, and there's a genetic or clinical reason to suspect a bottleneck in serotonin synthesis. Scott's genetic data suggested a TPH2 bottleneck, and 5-HTP helped his sleep and mood. If you're already agitated or manic, on serotonergic meds, or using serotonergic psychedelics or entactogens, this isn't a casual experiment.",
+  "chance": 0.4,
+  "why": "his B081 build: who it isn't for, then the pattern said plainly in one joined clause list (\"where people have trouble falling asleep, ...\"), Scott's data, the caution",
+  "diagnosis": "the baseline (his post) read AI in this section (n1102-06 uridine 100%, n1102-07 5-HTP 82.1%); first try, his moves (WHAT-HIS-VERSIONS-DO.md)",
+  "decides": "whether his moves carry this kind of paragraph in my hand on the first try"
+ },
+ "b089": {
+  "lineage": "ND1104-B089",
+  "name": "the 5-HTP tool, first try",
+  "text": "The tool: 5-HTP skips the step where the body turns tryptophan into 5-HTP, so it's a more direct serotonin precursor. A broad review of 5-HTP discusses its role in serotonin biology and its use for mood, anxiety, sleep, obesity, myoclonus, and in serotonin-toxicity cases. The evidence for depression and sleep is mixed, and not as strong as people online make it sound, but the mechanism is real enough that people who respond to it can feel it quickly.",
+  "chance": 0.35,
+  "why": "the plain meaning first (\"skips the step where the body turns tryptophan into 5-HTP, so it's a more direct serotonin precursor\"), the review's scope, the evidence hedge with its contrast in one sentence",
+  "diagnosis": "the baseline (his post) read AI in this section (n1102-06 uridine 100%, n1102-07 5-HTP 82.1%); first try, his moves (WHAT-HIS-VERSIONS-DO.md)",
+  "decides": "whether his moves carry this kind of paragraph in my hand on the first try"
+ },
+ "b090": {
+  "lineage": "ND1104-B090",
+  "name": "Scott's 5-HTP and P5P, first try",
+  "text": "Scott took 100 mg 5-HTP sublingually at night, with 10–20 mg P5P sublingually in the morning. The P5P isn't there as a stimulant, but as the active form of B6, which the enzyme that turns 5-HTP into serotonin (aromatic amino-acid decarboxylase) needs. He's slow-COMT and sensitive to too much P5P, so the low dose matters, and more isn't better.",
+  "chance": 0.35,
+  "why": "the label and spec (\"Scott's version: 100 mg ...\") said as what he did (\"Scott took ...\"), the cofactor said plainly with the enzyme's name in brackets, the last two sentences joined (\"so the low dose matters, and more isn't better\")",
+  "diagnosis": "the baseline (his post) read AI in this section (n1102-06 uridine 100%, n1102-07 5-HTP 82.1%); first try, his moves (WHAT-HIS-VERSIONS-DO.md)",
+  "decides": "whether his moves carry this kind of paragraph in my hand on the first try"
+ },
+ "b091": {
+  "lineage": "ND1104-B091",
+  "name": "the 5-HTP trial, first try",
+  "text": "If you're sensitive, start lower, with 50 mg 5-HTP at night for 2–3 nights, and go up to 100 mg only if the lower amount is clearly helpful and isn't activating. You can add 10–20 mg P5P in the morning, especially if the 5-HTP feels like it \"almost works\" but isn't converting cleanly. Don't combine the trial with other changes (like UMP, agmatine, D-serine, psychedelics, or medication changes). If it's the right tool, the first thing you'll usually notice is better sleep, a different dream tone, warmer mood, or less rumination at night.",
+  "chance": 0.4,
+  "why": "his X-84 build: the dose inside an instruction (\"start lower, with 50 mg ...\"), the other variables after their category in brackets (\"like UMP, ...\"), the signs said as what you notice; the label \"Trial:\" gone",
+  "diagnosis": "the baseline (his post) read AI in this section (n1102-06 uridine 100%, n1102-07 5-HTP 82.1%); first try, his moves (WHAT-HIS-VERSIONS-DO.md)",
+  "decides": "whether his moves carry this kind of paragraph in my hand on the first try"
+ }
+}

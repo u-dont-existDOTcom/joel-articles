@@ -174,7 +174,7 @@ Psychedelic caution: If UMP makes dreams vivid or suddenly lowers psychedelic to
 
 ### Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P
 
-Who this is for: This is for the low-serotonin-looking pattern, not for every depressed person. Think poor sleep initiation, low mood, low warmth, night anxiety, repetitive rumination, and a genetic or clinical reason to suspect a bottleneck in serotonin synthesis. Scott's genetic data suggested a TPH2 bottleneck, and 5-HTP helped his sleep and mood. If you are already agitated, manic, on serotonergic meds, or using serotonergic psychedelics/entactogens, this is not a casual experiment.
+Who this is for: 5-HTP is not for every depressed person either. It could help, though, with a low-serotonin-looking pattern, where it's hard to fall asleep and your mood is low, without much warmth to it. At night you get anxious and keep going over the same things. It makes more sense if there's also a genetic or clinical reason to suspect a bottleneck in serotonin synthesis, like with Scott, whose genetic data pointed to a TPH2 bottleneck, and 5-HTP helped his sleep and mood. If you're already agitated, manic, on serotonergic meds, or using serotonergic psychedelics/entactogens, you shouldn't be casually experimenting with it.
 
 The tool:5-HTP bypasses the tryptophan-to-5-HTP step and gives the body a more direct serotonin precursor. A [broad review of 5-HTP](https://pmc.ncbi.nlm.nih.gov/articles/PMC7796270/) discusses its role in serotonin biology and its use in mood, anxiety, sleep, obesity, myoclonus, and serotonin-toxicity contexts. The evidence for depression and sleep is mixed and not as strong as people online imply, but the mechanism is real enough that responders can feel it quickly.
 

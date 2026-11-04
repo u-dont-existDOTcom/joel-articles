@@ -1,0 +1,60 @@
+{
+ "b085": {
+  "lineage": "ND1104-B085",
+  "name": "the uridine stop signs, second try",
+  "text": "Side effects / stop signs: Stop if it makes you wired, numb, or weirdly irritable, and don't try to push through it. The most common problem people run into is the \"choline headache\", or a spaced-out kind of brain fog, which you won't find in the studies, but it's likely because UMP speeds up membrane synthesis, so if your choline availability is low, your brain can end up under-supplied. Other stop signs include insomnia, jitteriness and racing thoughts, irritability, going emotionally flat, or an upset stomach with nausea, cramps or loose stools.",
+  "chance": 0.25,
+  "why": "the stop instruction first, his warnings' order (X-15: \"Do not use concurrently with ...\"), so the triplet no longer closes the paragraph; \"In practice\" and the label-then-claim opening gone, the choline headache said as what people run into, \"you won't find in the studies\" joined to its likely reason with \", but\" (E352); \"the system\" said as \"your brain\"; the stop-sign list given uneven shapes. E125: both lists are the protocol's (all eight stop signs; the post's \"wired, numb, or weirdly irritable\"), recorded, not cut",
+  "diagnosis": "the first try read 100% AI ([its result](https://www.pangram.com/history/f8f019d8-fd62-42bd-8a2a-129a55b7d3dc)), and all three readers flagged every sentence (articles/neuro-de-armoring/humanize/fix-20261104/panel/b085-n1/PANEL.md): the label opener and \"In practice\", the caveat-to-reason pivot and \"the system feels under-supplied\", the even eight-item list, the triplet with its stock close; whole: claim, caveat, mechanism, list, directive",
+  "decides": "whether fixing the panel's agreed tells carries a warnings paragraph in my hand, or it goes to Joel as a stretch to edit (E336)",
+  "panel": "articles/neuro-de-armoring/humanize/fix-20261104/panel/b085-n1/PANEL.md"
+ },
+ "b086": {
+  "lineage": "ND1104-B086",
+  "name": "the uridine psychedelic caution, second try",
+  "text": "Psychedelic caution: Don't take UMP on psychedelic days. If it makes your dreams vivid or suddenly lowers your tolerance, that's a sign your sensitivity is coming back, and the dose you're used to may be too strong now, so if you do take psychedelics later, go in assuming that, since chasing the old visual threshold can overshoot.",
+  "chance": 0.3,
+  "why": "\"take that as a safety signal\" said as what it means, in the article's own terms (\"if sensitivity returns\", W082): \"that's a sign your sensitivity is coming back\"; the dose line said as the person's (\"the dose you're used to may be too strong now ... go in assuming that\"); the label and \"Don't take UMP on psychedelic days\" kept (Codex called that line human)",
+  "diagnosis": "the first try read 100% AI ([its result](https://www.pangram.com/history/6e54db82-deb2-4bc5-afe6-913107aa485e)), and all three readers flagged every sentence (articles/neuro-de-armoring/humanize/fix-20261104/panel/b086-n1/PANEL.md): \"safety signal\" (all three), the label, the neat \"assume your previous dose may now be too strong, since ...\" clause; Pangram: the first sentence AI Low, the rest AI High",
+  "decides": "whether a caution reads Human when its stock phrase is said as what it means",
+  "panel": "articles/neuro-de-armoring/humanize/fix-20261104/panel/b086-n1/PANEL.md"
+ },
+ "b088": {
+  "lineage": "ND1104-B088",
+  "name": "the 5-HTP \"Who this is for\", second try",
+  "text": "Who this is for: 5-HTP is not for every depressed person either. It could help, though, with a low-serotonin-looking pattern, where it's hard to fall asleep and your mood is low, without much warmth to it. At night you get anxious and keep going over the same things. It makes more sense if there's also a genetic or clinical reason to suspect a bottleneck in serotonin synthesis, like with Scott, whose genetic data pointed to a TPH2 bottleneck, and 5-HTP helped his sleep and mood. If you're already agitated, manic, on serotonergic meds, or using serotonergic psychedelics/entactogens, you shouldn't be casually experimenting with it.",
+  "chance": 0.35,
+  "why": "his own \"Who this is for\" build (B081, Human High): the negation, then a hedge for the reader with \"though\" (\"It could help, though, with ...\"), instead of \"not for ..., only for ...\"; the symptom list split into two sentences (E126); the genetic reason tied to Scott's case; \"this isn't a casual experiment\" said plainly (\"you shouldn't be casually experimenting with it\"); the post's four-item exclusion list kept as it was (E125 recorded)",
+  "diagnosis": "the first try read 100% AI ([its result](https://www.pangram.com/history/36096712-e49e-4f04-9d20-77878aa90c87)), and all three readers flagged every sentence (articles/neuro-de-armoring/humanize/fix-20261104/panel/b088-n1/PANEL.md): the long parallel symptom catalogue, \"not for ... only for\", \"this isn't a casual experiment\" (all three); Pangram: AI High, Low, Medium",
+  "decides": "whether his \"though\" build carries the 5-HTP paragraph in my hand",
+  "panel": "articles/neuro-de-armoring/humanize/fix-20261104/panel/b088-n1/PANEL.md"
+ },
+ "b089": {
+  "lineage": "ND1104-B089",
+  "name": "the 5-HTP tool, second try",
+  "text": "The tool: 5-HTP skips the step where your body turns tryptophan into 5-HTP, which makes it a more direct serotonin precursor. There's a broad review of 5-HTP that discusses where it fits in serotonin biology and what it's been used for (mood, anxiety, sleep, obesity, myoclonus), along with the serotonin-toxicity risk. People who respond to it can feel it quickly, because the mechanism is real, even though the evidence for depression and sleep is mixed, and weaker than people online make it sound.",
+  "chance": 0.3,
+  "why": "the uses after their category, in brackets (\"what it's been used for (mood, ...)\"), his list move; \"discusses its role in\" said as \"discusses where it fits in\"; the review's serotonin-toxicity side said as the risk it is (the first try's \"its use ... in serotonin-toxicity cases\" misread it: the review treats serotonin syndrome as a risk of 5-HTP, sections 8.2.1 and 9); the verdict turned round, the responders first and the evidence caveat last, without the \"not as strong\" tail (O9)",
+  "diagnosis": "the first try read 100% AI ([its result](https://www.pangram.com/history/6f01153b-25fa-4bec-900f-7ed9102c81be)), and all three readers flagged every sentence (articles/neuro-de-armoring/humanize/fix-20261104/panel/b089-n1/PANEL.md): \"discusses its role in\", the packed list of uses, the balanced \"mixed ... but real enough\" verdict (all three); whole: explain, cite, hedge, reassure",
+  "decides": "whether a cited-review paragraph reads Human with the uses bracketed and the verdict turned round",
+  "panel": "articles/neuro-de-armoring/humanize/fix-20261104/panel/b089-n1/PANEL.md"
+ },
+ "b090": {
+  "lineage": "ND1104-B090",
+  "name": "Scott's 5-HTP and P5P, first try",
+  "text": "Scott took 100 mg 5-HTP sublingually at night, with 10–20 mg P5P sublingually in the morning. The P5P isn't there as a stimulant, but as the active form of B6, which the enzyme that turns 5-HTP into serotonin (aromatic amino-acid decarboxylase) needs. He's slow-COMT and sensitive to too much P5P, so the low dose matters, and more isn't better.",
+  "chance": 0.3,
+  "why": "never checked (the API's credits ran out before it); \"Scott's version:\" said as what he took; the P5P's negation and its role joined with \", but\" (E352); the enzyme said in plain words first, its name after in brackets (his B081 move)",
+  "diagnosis": "the baseline (his post) read AI in this section (n1102-07 5-HTP, 82.1%); its first try, never sent (x1104j void)",
+  "decides": "whether a dose paragraph about Scott reads Human with his moves"
+ },
+ "b091": {
+  "lineage": "ND1104-B091",
+  "name": "the 5-HTP trial, first try",
+  "text": "If you're sensitive, start lower, with 50 mg 5-HTP at night for 2–3 nights, and go up to 100 mg only if the lower amount is clearly helpful and isn't activating. You can add 10–20 mg P5P in the morning, especially if the 5-HTP feels like it \"almost works\" but isn't converting cleanly. Don't combine the trial with other changes (like UMP, agmatine, D-serine, psychedelics, or medication changes). If it's the right tool, the first thing you'll usually notice is better sleep, a different dream tone, warmer mood, or less rumination at night.",
+  "chance": 0.25,
+  "why": "never checked (the API's credits ran out before it); each dose inside an instruction with a verb (X-84), the things not to combine after their category in brackets (\"other changes (like ...)\"), \"Trial:\" and \"Optional P5P:\" labels gone. E125: both lists are the protocol's (W042's list; the four first signs), recorded",
+  "diagnosis": "the baseline (his post) read AI in this section (n1102-07 5-HTP, 82.1%); its first try, never sent (x1104j void)",
+  "decides": "whether his dose-and-instruction moves carry the 5-HTP trial in my hand"
+ }
+}

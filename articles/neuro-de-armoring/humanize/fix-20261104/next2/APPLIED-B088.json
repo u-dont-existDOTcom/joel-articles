@@ -1,0 +1,17 @@
+{
+ "about": "block 88, the 5-HTP \"Who this is for\", second try: Human Written, 0.0% AI by itself in the web app",
+ "before_sha256": "c73f5b5d60af29c0ee8da9f89cfd8f0409befdfcfa4a21c9a006373f352c7937",
+ "after_sha256": "fb288da650e5d3df19b4970eb5616c0b4aad0a249b1aedf48959c1ac88c4c5de",
+ "block": 88,
+ "before": "Who this is for: This is for the low-serotonin-looking pattern, not for every depressed person. Think poor sleep initiation, low mood, low warmth, night anxiety, repetitive rumination, and a genetic or clinical reason to suspect a bottleneck in serotonin synthesis. Scott's genetic data suggested a TPH2 bottleneck, and 5-HTP helped his sleep and mood. If you are already agitated, manic, on serotonergic meds, or using serotonergic psychedelics/entactogens, this is not a casual experiment.",
+ "after": "Who this is for: 5-HTP is not for every depressed person either. It could help, though, with a low-serotonin-looking pattern, where it's hard to fall asleep and your mood is low, without much warmth to it. At night you get anxious and keep going over the same things. It makes more sense if there's also a genetic or clinical reason to suspect a bottleneck in serotonin synthesis, like with Scott, whose genetic data pointed to a TPH2 bottleneck, and 5-HTP helped his sleep and mood. If you're already agitated, manic, on serotonergic meds, or using serotonergic psychedelics/entactogens, you shouldn't be casually experimenting with it.",
+ "tested": "https://www.pangram.com/history/8d2d4cf1-13da-4c6c-83ae-eddb774ef930",
+ "windows": [
+  "Human, Medium, 13",
+  "Human, High, 27",
+  "Human, Medium, 12",
+  "Human, Low, 61"
+ ],
+ "low_window_fix": "https://www.pangram.com/history/4079bcd3-65eb-43f8-97bb-ec8436fc5f19 (AI Detected, 13.8% AI: not taken; the Low window goes to Joel, E350)",
+ "fidelity_pass": true
+}

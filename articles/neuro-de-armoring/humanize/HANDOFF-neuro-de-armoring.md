@@ -18,6 +18,15 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-04, after Joel's message of 16:12 UTC ("you don't need me to do that ... every other lane is doing gui
+  checks"): the lane runs its own web-app checks (E356); block 88 in; six stretches to edit on Neuro De-Armoring Cards, 4
+  November (3).** HUMANIZED-SO-FAR.md is fb288da6. Checks run in Pangram's web app: the app's browser pane when it's signed
+  in, else Claude in Chrome in his Brave (his answer: "Use Claude in Chrome"), with `tools/humanization/pangram_page_helpers.js`
+  and `fix-20261104/checks/record_gui.py`. Never hand a check to him. Question 8 is open. See the Next step.
+- **2026-11-04, after Joel's messages of 14:42 UTC ("done continue") and 14:59 UTC ("we have tons of gui credits still"): six
+  paragraphs drafted, four checked (100% AI), the API out of credits; second tries after the tell panel; his six checks in the
+  web app waiting.** HUMANIZED-SO-FAR.md is still c73f5b5d. He checks paragraphs in Pangram's web app now (question 7), from a
+  page of copy buttons, Neuro De-Armoring Checks. Question 8 is open. See the Next step.
 - **2026-11-04, after Joel's message of 14:28 UTC ("pr 290 has conflicts"): fixed; nothing in the article changed.** A lane's
   pull request no longer changes state/MAILBOX.json (`lane_mailbox.py settle`, run by `lane_push.py`). The Next step below stands.
 - **2026-11-04, after Joel's answers of 13:53 UTC: his Scott paragraph and W-17 in, 6a (the five lines stay); no open questions.**
@@ -78,7 +87,52 @@ All of the article is his published post. His queue's rule: "Paragraphs that alr
 stay exactly as they are." Everything else is rewritten in his register and reaches him as cards, each tested first. The
 Scott passages, the introduction and the D-serine paragraph in Part 4 sound most like him.
 
-## Next step (2026-11-04, after Joel's answers of 13:53 UTC: the rest of the article)
+## Next step (2026-11-04, after Joel's message of 16:12 UTC: his six stretches)
+
+Done (STATUS.md's entry for 2026-11-04 16:12 has every file and number). Waiting on him: the six stretches on Neuro
+De-Armoring Cards, 4 November (3) (https://claude.ai/artifact/TBrnTti2G9V4fBvC357cTy; review id
+neuro-de-armoring-cards-20261104-x1104d; `fix-20261104/cards/REVIEW-X1104D.md`) and question 8.
+
+Next:
+1. **His answers**: his words saved first; each version of his goes in as written (an apply script like
+   `fix-20261104/cards/apply_cards_x1104c.py`, the fidelity check's difference recorded as "owner_changes" or
+   "owner_wording"), checked by itself in the web app where he hasn't checked it (predictions first,
+   `checks/predict_batch.py --detector`, then `checks/record_gui.py`), and what his versions do goes into
+   `fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md`.
+2. **Checks**: always the lane's own, in Pangram's web app: the app's browser pane if it's signed in to Pangram, else
+   Claude in Chrome in his Brave (open a new tab, run `tools/humanization/pangram_page_helpers.js` `__run`, read the
+   results back from his history by SHA-256, close the tab). Never a page asking him to check (E356).
+3. **His two hyphens for every dash** (E353 (Inner Child), in pull request 298, "yes to both": the swap for every
+   article): once 298 is in main, run `tools/humanization/typography_swap.py` on HUMANIZED-SO-FAR.md (every em dash, and
+   every en dash with a space beside it, becomes "--"; ranges like "10–20" stay), with the fidelity check after.
+4. **Then the rest**, from block 92 (the 5-HTP stop signs) on, his versions' moves first; the uridine and 5-HTP sections
+   go to a section check once their paragraphs read Human (High).
+
+## Earlier next step (2026-11-04, after Joel's message of 14:59 UTC: his six checks in the web app)
+
+Done (STATUS.md's entry for 2026-11-04 14:42 and 14:59 has every file and number). Waiting on him: the six links from
+Neuro De-Armoring Checks (https://claude.ai/artifact/YW7suTvNrjNPvu1wApM93E; batch x1104k, `fix-20261104/checks/x1104k/`)
+and question 8 on the questions page.
+
+Next:
+1. **His links**: save his message word for word, open each link (WebFetch) and record it against its prediction with each
+   window's confidence (`tools/humanization/pangram_ledger.py result articles/neuro-de-armoring/humanize/pangram-ledger.jsonl
+   --key bNNN --sha <the text's sha256> --verdict ... --link ... --detector "pangram, the web app: Joel's account ..."`),
+   then a RESULTS.md for x1104k like x1104j's. Check that the text he pasted is the batch's (the link's text against
+   TEXTS.json); a different text is recorded as his, not as the prediction's.
+2. **What reads Human (High)** goes into HUMANIZED-SO-FAR.md with an apply script like `fix-20261104/q5/apply_q5.py`: the
+   fidelity check before and after, and my own comparative read beside his post (E284, E294) recorded with
+   `compare_read.py`. A Low window: that sentence only (E350).
+3. **What reads AI again**: the warnings and dose paragraphs (085, 086, 090, 091) go to him on a cards page as stretches
+   to edit (E336, E253: the panel linked, the ask in his words); 088 and 089 get the tell panel on the second try and one
+   more try each, if a named diagnosis says what to change (the production budget: six tries a paragraph).
+4. **Question 8** decides whether a warning's key words may change (`FIDELITY-KEYS.json`, the units' keys). Until he
+   answers, every draft keeps them.
+5. **Then the rest**, from block 92 (the 5-HTP stop signs) on, a set of paragraphs per round on a checks page, his web app
+   doing the checks (his 14:59 message), and the later steps of the next step below (section check, the word-for-sense
+   read, his post).
+
+## Earlier next step (2026-11-04, after Joel's answers of 13:53 UTC: the rest of the article)
 
 Done (STATUS.md's entry for 2026-11-04 13:53 has every file and number). Nothing is waiting on him but the merge of pull
 request 290.

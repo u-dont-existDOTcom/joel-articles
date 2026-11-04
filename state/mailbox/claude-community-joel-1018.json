@@ -121,6 +121,80 @@
     }
    ],
    "recorded_utc": "2026-11-04T14:29Z"
+  },
+  {
+   "turn": "2026-11-04T14:42Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items in the lane (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); UDA main c5c9951; its live AGENTS.md (blob 5160080) and LESSON-INDEX (7896422) unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 290 (this lane's) merged by Joel at 14:41 UTC; new since 14:28: 294 (Inner Child turn 123, open); 293 and 280 still open; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to this lane's handoff note or questions page; the branch fast-forwarded to main 1b2ef3dc"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 2026-11-04 14:42 UTC: 'done continue'",
+     "outcome": "the rest of the article, one paragraph at a time, from block 85 on"
+    }
+   ],
+   "recorded_utc": "2026-11-04T14:43Z"
+  },
+  {
+   "turn": "2026-11-04T16:12Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items in the lane (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); UDA main c5c9951; its live AGENTS.md (blob 5160080) and LESSON-INDEX (7896422) unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 14:42: 294 and 295 (Inner Child turns 123 and 124) merged; 296 (this lane's) open, no comments or reviews; 293 and 280 still open; no new issue comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to this lane's handoff note or questions page; main merged (af929000: suggestion_review.py 1.6, links with brackets, emphasis holding links)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 2026-11-04 16:12 UTC: 'you don't need me to do that ... every other lane is doing gui checks'",
+     "outcome": "the six checks run by this lane in Pangram's web app, the way the shared rules and the other lanes do them; the ask to him withdrawn"
+    }
+   ],
+   "recorded_utc": "2026-11-04T16:13Z"
   }
  ]
 }
