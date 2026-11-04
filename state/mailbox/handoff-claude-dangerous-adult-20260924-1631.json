@@ -225,6 +225,45 @@
     }
    ],
    "recorded_utc": "2026-11-04T17:12Z"
+  },
+  {
+   "turn": "2026-11-04T18:20Z",
+   "lines_of_work": [
+    "inner child guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "2 items in suggested-fixes/joel-articles/ (2026-09-30-claim-checks-for-reviews.md, 2026-10-31-mailbox-every-turn.md), as before; no new item; UDA still at c5c9951"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since turn 127's check (17:12 UTC): pull request 299 (this lane, turn 127) merged by Joel at 18:11 UTC (main 925526ef, the lane fast-forwarded to it); 296 (neuro de-armoring) merged at 17:14 UTC; 293 (gut) still open; no new issues, comments or reviews (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop's handoff note is byte for byte what turn 127's update made of it (cmp with inbox/t113/note-expected-t127.md); no one else changed OWNER-QUESTIONS.md or HANDOFF-UPDATE.json"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 18:20 UTC: dividers and pull quotes where they make the most sense, his OK to publish, sketch ideas for GPT with placements",
+     "outcome": "dividers and pull quotes put in his post's editor the same way as the body (one checked transaction), then the update clicked by me with his OK, the live post read back; the sketch ideas on a marking page"
+    },
+    {
+     "item": "pull request 299 merged",
+     "outcome": "turn 128's work goes in its own pull request (lane_push --pr)"
+    }
+   ],
+   "recorded_utc": "2026-11-04T18:22Z"
   }
  ]
 }

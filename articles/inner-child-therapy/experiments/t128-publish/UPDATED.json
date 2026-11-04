@@ -1,0 +1,68 @@
+{
+ "turn": 128,
+ "his_message": "experiments/t128-answers/JOEL-20261104-1820.md: \"yes i want the dividers wherever they make the most sense, and pull quotes wherever those make the most sense, and yeah it looks good you can publish it\"",
+ "base": "his post's draft as he left it at 18:16:24 UTC: the body node for node the one saved at 17:47 UTC (checked against PUBLISH-PLAN.json at 8e649301 in the editor: every node's text, the whole text, the 79 links, the pictures), and his own subtitle edit, \"You were born worthy of love. Reconnect. Reparent. Rise. Updated: Nov 4, 2026\" (he took out \"New App coming soon.\"), kept",
+ "transaction": {
+  "script": "publish_dividers.js with PLAN-2.json, run in the editor in the desktop app's browser pane",
+  "ok": true,
+  "nodesBefore": 544,
+  "nodesAfter": 552,
+  "horizontalRule": 8,
+  "pullquote": 5,
+  "sameText": true,
+  "dividers_before": [
+   "Safety and Readiness",
+   "Building Your Inner Adult",
+   "Practicing With Your Little One",
+   "Discovering and Healing Old Patterns",
+   "When the Practice Gets Difficult",
+   "Altered States and Intensive Practice",
+   "Bringing Reparenting Into Real Life",
+   "Conclusion and Appendix"
+  ],
+  "pull_quotes": [
+   "the vow (\"I know you're in there. I love you. ...\")",
+   "Jelaluddin Rumi (since turn 127)",
+   "Sister Medhanandi",
+   "the morning intention (\"Today I will neither be Peter Pan nor Captain Hook. ...\")",
+   "Scott (\"Half the time when I try to connect to baby me, ...\")"
+  ],
+  "saved": "2026-11-04T18:24:39.327Z, the draft API reading back 552 nodes, 8 horizontal_rule, 5 pullquote"
+ },
+ "update": {
+  "by": "me, with his OK of 18:20 UTC (\"you can publish it\")",
+  "how": "Continue, then the Publish dialog's \"Update now\"; the dialog's \"Send via email and the Substack app\" was off and stayed off (no email to subscribers), audience Everyone, comments Everyone, section Spirit and Mind Health, tags inner child, self-love, how to love, all as they were",
+  "at": "about 18:25 UTC; Substack's updated_at 2026-11-04T18:25:36.136Z"
+ },
+ "live_read_back": {
+  "from": "the public post API (/api/v1/posts/inner-child-self-love-tips-and-guided) at 18:26 UTC",
+  "text": "the body's text, without the native blocks' own text and with the one caption, is round 11's text exactly (whitespace-free SHA-256 = PUBLISH-PLAN.json's text_sha256_no_whitespace)",
+  "counts": {
+   "pictures": 10,
+   "youtube": 5,
+   "video": 1,
+   "audio": 1,
+   "post_cards": 2,
+   "dividers": 8,
+   "pull_quotes": 5,
+   "links_in_html": 89
+  },
+  "pictures_in_order": [
+   "40c24f21",
+   "718d0e76",
+   "c4ab39d5",
+   "461ac9c2",
+   "600e5307",
+   "99eb7410",
+   "969adf28",
+   "993cf42c",
+   "4e6c8a51",
+   "ab72f16c"
+  ],
+  "subtitle": "You were born worthy of love. Reconnect. Reparent. Rise. Updated: Nov 4, 2026",
+  "wordcount_substack": 28741,
+  "audience": "everyone",
+  "published_equals_draft": true
+ },
+ "article_notes": "HUMANIZED-ARTICLE-SO-FAR.md now carries a PULL QUOTE note before each of the four new pull quotes and a DIVIDER note before each h1 but the first, and make_publish.py and publish_build.js know DIVIDER notes; the plan rebuilt from the article (PUBLISH-PLAN.json, 552 nodes) is node for node the live post (its 552 node signatures read from the published body), so the article is again the post's whole source."
+}

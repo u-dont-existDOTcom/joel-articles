@@ -51,6 +51,8 @@ await (async () => {
         const f = parse(it.html);
         if (f.childCount !== 1 || f.firstChild.type.name !== 'paragraph') throw new Error('the pull quote is not one paragraph');
         nodes.push(S.nodes.pullquote.create(null, f));
+      } else if (it.k === 'divider') {
+        nodes.push(S.nodes.horizontalRule.create());
       } else if (it.k === 'new_youtube') {
         nodes.push(S.nodes.youtube2.create({videoId: it.videoId, startTime: it.startTime, endTime: null}));
       } else if (it.k === 'new_image') {
