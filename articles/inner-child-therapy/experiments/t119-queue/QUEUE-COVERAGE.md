@@ -2,7 +2,7 @@
 
 Joel, 2026-11-04 00:56 UTC: "make sure you check the lane bc you were sent some things to put into the guide, but i think i already put them in if they were important points." The things sent are the InnerSignal map's queue of guide changes, `authoring/PENDING-PUBLIC-GUIDE-CHANGES.md` in u-dont-existDOTcom/innerSignalGraph (at cb2008ce6, queue version 2026-10-31-r20 and later). Items PGQ-001 to PGQ-017 went in by turn 71 ([GUIDE-UPDATE-QUEUE-20261006.md](../../GUIDE-UPDATE-QUEUE-20261006.md)). This page is PGQ-018 to PGQ-055 (there is no PGQ-044 to PGQ-046), each read against the whole of [HUMANIZED-ARTICLE-SO-FAR.md](../../HUMANIZED-ARTICLE-SO-FAR.md) as it is after turn 118, by a fresh reader (a Sonnet subagent: its findings in [QUEUE-COVERAGE.json](QUEUE-COVERAGE.json), every quote checked as an exact substring), then by me for the ones not in and a sample of the rest. "partly" means his guide makes the core point and leaves out some of the queue's detail, most of it the AI guide's added caveats.
 
-Counts: in 15, partly 18, not in 2.
+Counts: in 15, partly 18, not in 2. After turn 120: PGQ-054 is in, in his own words (his line of 2026-11-04 09:42 UTC under Journal With Each Hand, "...even if all it can do is scribble angrily."), and PGQ-036 stays out, as I recommended, so every item has a fate.
 
 | Item | Title | In his guide | Where | His words that carry it | What the queue has that the guide doesn't | What I'd do |
 |---|---|---|---|---|---|---|

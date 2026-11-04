@@ -1,0 +1,75 @@
+#!/usr/bin/env python3
+"""Turn 121: articles/inner-child-therapy/HANDOFF-UPDATE.json, the update tools/humanization/handoff_note.py applies to
+~/claude-acceptance-transfer/handoffs/inner-child-article.md on Joel's laptop.
+  handoff_t121.py PR [--test NOTE]   writes the update with the lane's open pull request number; with --test, applies it to
+                                     a copy of NOTE"""
+import json
+import pathlib
+import re
+import sys
+
+HERE = pathlib.Path(__file__).resolve().parent
+ROOT = HERE.parents[3]
+OUT = HERE.parents[1] / 'HANDOFF-UPDATE.json'
+S = 'https://claude.ai/code/session_01NbUfhcTaRT8sbjyYV1wEFq'
+BR = 'handoff/claude-dangerous-adult-20260924-1631'
+PRN = sys.argv[1]
+PRS = 'pull request #%s (https://github.com/u-dont-existDOTcom/joel-articles/pull/%s), open for him to merge (turns 120 and 121)' % (PRN, PRN)
+PAGE = 'https://claude.ai/artifact/MuvzCwPHsRtrwNVCfQQBfM'
+UDA = 'https://github.com/u-dont-existDOTcom/universal-dev-architecture/pull/467'
+H = 'https://www.pangram.com/history/'
+e = re.escape
+
+turn121 = '\n'.join([
+    '- TURN 121 (2026-11-04, his message of 12:02 UTC; by %s), the latest; its next step wins over everything below. Branch %s, with main merged in (pull requests #286 and #287, merged by him at 10:54 and 11:36 UTC; the one conflict, state/MAILBOX.json, resolved by keeping every lane\'s checks); %s.' % (S, BR, PRS),
+    '  - His message (experiments/t121-answers/JOEL-20261104-1202.md), answering turn 120: 1 "ok" (the aside back) "and yes i do want to work on the low windows especially, medium ones i can look at altho i might not bother changing"; 2 "no" (PGQ-009 and PGQ-016 stay out); 3 "yes" (file the map lane\'s item); 4 "conflicts" (pull request #288); 5 "after we publish this then let\'s humanize the hearthwork article (hearthwork.u-dont-exist.com). we also need to update the reparenting stuff in htere probably since the reparenting guide has changed", with its Substack editor HTML pasted (experiments/t121-answers/HEARTHWORK-SUBSTACK-EDITOR-20261104-1202.html, about 6,400 words, 23 headings).',
+    '  - His aside is back in Hearthwork: Taking Turns (OWNER-EDITS.json joel-121-aside; 100 pass, 0 failed).',
+    '  - Hearthwork: Taking Turns checked alone through the API, predictions first (experiments/t121-check/): the section AI Generated, every window AI (%sf2d397ae-6c78-4c5c-a855-341ce23285ef); narrowed to its paragraphs (E343): P1, the premise list word for word from his Hearthwork article, AI Detected 81%% (%s8668b6dc-7991-41fc-ba98-e361470ba1f5); P2, the three jobs a peer lends, Human 0%% with one Low window (%s197fd1b3-519e-47b9-b6ed-54457f4e5a86); P3, borrowed adulthood with the aside, AI Generated 100%% (%s1468591d-d54f-4d7a-9d8e-5b2a87027305). In the whole guide (rounds 8 and 9) the same paragraphs read Human but for round 9\'s one AI window. Ledger: #375 a miss, #377 a miss (both explained), #376 and #378 right.' % (H, H, H, H),
+    '  - The marking page (experiments/t121-review/: make_page_copy.py, build_review.py, REVIEW.json, REVIEW-CARDS.md; browser test 62 passed), published at %s (capabilities db and downloads; only this account can republish it): 21 cards, every one a stretch for him to edit, no words of mine: HW-1 to HW-3, the section\'s three paragraphs (P1 and P3 the ones to work on), then the 18 windows that read Human at Medium (my advice: leave them).' % PAGE,
+    '  - The queue\'s item is filed: UDA pull request #467 (%s), labeled uda-lane, after his yes; QUEUE-CLEARED.md and GUIDE-UPDATE-QUEUE-20261006.md say so. The map lane\'s resume line with the request went to him in the final message.' % UDA,
+    '  - lane_push.py refused the first push over pull requests #109 and #280, files this branch never touched: the laptop clone fetches only its lane branch, so "git fetch origin main" had left origin/main weeks old (3c23418f, #253). Its main check now fetches into refs/remotes/origin/main (tools/humanization/lane_push.py main_gate; tests/test_lane_push.py, two new tests, one with real repositories; 523 tests pass).',
+    '  - NEXT: Next step 1.',
+])
+next1 = ('1. His answers on the marking page (%s; its db\'s decisions collection, or his exported JSON in the chat): put his versions in '
+         'word for word (OWNER-EDITS.json), check each changed paragraph alone through the API (prediction first; a paragraph that has '
+         'read AI twice goes to the tell panel, E346), then the section. 2. Round 10, the free way: the whole guide in the two temporary '
+         'drafts for his extension, so the aside and his new versions are read in the whole guide. 3. Then the publish draft: his '
+         'pictures uploaded where the notes say, the post\'s own pictures and videos kept, the Rumi quote as a pull quote, its quote '
+         'marks curled the right way before pasting. 4. After he publishes: the Hearthwork article (his paste of 2026-11-04 12:02 UTC, '
+         'experiments/t121-answers/), humanized in a lane of its own (its article folder registered, a branch from main), its '
+         'reparenting passages brought in line with the reorganized guide. Every turn ends with the whole article sent and passed to '
+         'the chat check as --sent (E271 (Inner Child)), rendered with --images for his pictures.' % PAGE)
+upd = {
+    'turn': '121',
+    'replace': [
+        [e('TURN 120 (2026-11-04, his messages of 09:42 and 10:02 UTC; by %s), the latest; its next step wins over everything below.' % S),
+         'TURN 120 (2026-11-04, his messages of 09:42 and 10:02 UTC; by %s), FINISHED.' % S, 1],
+        [r'this version is from turn 120 \(his messages of 2026-11-04 09:42 and 10:02 UTC; pull request #\d+ \(https://github\.com/u-dont-existDOTcom/joel-articles/pull/\d+\), open for him to merge\)\.',
+         'this version is from turn 121 (his message of 2026-11-04 12:02 UTC; %s).' % PRS, 1],
+        [e('turns 59 to 76 and 100 to 120 by %s' % S), 'turns 59 to 76 and 100 to 121 by %s' % S, 1],
+        [e('  - experiments/t120-answers/ (his messages), t120-results/ (round 9 read) and t120-queue/ (the queue cleared) (the latest turn), '),
+         '  - experiments/t121-answers/ (his message and the Hearthwork article\'s HTML), t121-check/ (Hearthwork: Taking Turns checked alone) and t121-review/ (the marking page) (the latest turn), t120-answers/ (his messages), t120-results/ (round 9 read), t120-queue/ (the queue cleared), ', 1],
+        [r"^0\. With his yes to the public pull request in universal-dev-architecture: .*$", next1, 1],
+    ],
+    'insert_before': [
+        ['- TURN 120 (2026-11-04', turn121],
+    ],
+    'sections': {
+        '## Waiting on Joel': '\n'.join([
+            '1. His work on the marking page (%s): the two Hearthwork paragraphs that read AI alone first, then the Medium windows to look at.' % PAGE,
+            '2. The map lane\'s reset: his merge of UDA pull request #467 (%s), or the map lane\'s resume line with the request (given to him in turn 121), then his merge of that lane\'s pull request that empties the queue.' % UDA,
+            '3. His merge of pull request #%s (turns 120 and 121, main merged in).' % PRN,
+            '4. The two temporary Substack drafts, "Inner Child, draft A (temp, delete after)" and "Inner Child, draft B (temp, delete after)": round 10 can reuse them; deleting them is his.',
+            '5. Never in the article: amounts (the 1g, the 7g) and any recipe for what to take instead, including his "ultimate psychedelic recipe" line and its link.',
+        ]),
+    },
+}
+OUT.write_text(json.dumps(upd, indent=1, ensure_ascii=False) + '\n', encoding='utf-8')
+print('wrote', OUT)
+if '--test' in sys.argv:
+    sys.path.insert(0, str(ROOT / 'tools' / 'humanization'))
+    from handoff_note import apply
+    note = pathlib.Path(sys.argv[sys.argv.index('--test') + 1]).read_text(encoding='utf-8')
+    new, done = apply(note, upd)
+    print('\n'.join(done))
+    print(len(note), '->', len(new), 'characters')

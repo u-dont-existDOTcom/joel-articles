@@ -1,0 +1,129 @@
+{
+ "name": "t121_hw_p2",
+ "task_id": "169039db-5e0c-4e47-ace8-0934bd01b622",
+ "result": {
+  "stage": "STAGE_SUCCESS",
+  "text": "Some of what the three grown-up jobs do can come from outside you, too. When you take turns listening with a good peer, as equals, their warmth and the way they stay with you lend you the Nurturer for a while. Keeping what you say private, and stopping when the time’s up, lends you the Protector. If you say no, they don’t push. But they don’t act as your Guide, or decide what your experience means. Maybe they’re thinking, “Oh, I know what this is about,” or “Here’s what you should do.” They keep it to themselves. A question from them at the right moment can help you hear your own Guide, and what you answer is up to you. Then you trade places, and it’s your turn to keep “Here’s what you should do” to yourself.",
+  "version": "4.1",
+  "prediction": "We believe that this entire text is human-written.",
+  "prediction_short": "Human",
+  "fraction_ai": 4.692590760413395e-10,
+  "fraction_ai_assisted": 1.5507662360953953e-24,
+  "fraction_human": 1.0,
+  "headline": "Human Written",
+  "num_ai_segments": 0,
+  "num_ai_assisted_segments": 0,
+  "num_human_segments": 6,
+  "windows": [
+   {
+    "text": "Some of what the three grown-up jobs do can come from outside you, too.",
+    "label": "Human Written",
+    "ai_assistance_score": 5.9048771927756224e-18,
+    "confidence": "High",
+    "start_index": 0,
+    "end_index": 71,
+    "word_count": 15,
+    "token_length": 17,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.61075140700878e-38,
+     5.9048771927756224e-18
+    ],
+    "calibrated_confidence": 0.9922964774490901
+   },
+   {
+    "text": " When you take turns listening with a good peer, as equals, their warmth and the way they stay with you lend you the Nurturer for a while.",
+    "label": "Human Written",
+    "ai_assistance_score": 2.1659851394643118e-16,
+    "confidence": "Medium",
+    "start_index": 71,
+    "end_index": 209,
+    "word_count": 27,
+    "token_length": 32,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     2.1659851394643118e-16
+    ],
+    "calibrated_confidence": 0.9892702731203207
+   },
+   {
+    "text": " Keeping what you say private, and stopping when the time’s up, lends you the Protector.",
+    "label": "Human Written",
+    "ai_assistance_score": 3.808970916452381e-09,
+    "confidence": "Low",
+    "start_index": 209,
+    "end_index": 297,
+    "word_count": 16,
+    "token_length": 21,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     5.0941149718837725e-37,
+     3.808970916452381e-09
+    ],
+    "calibrated_confidence": 0.8990167419612013
+   },
+   {
+    "text": " If you say no, they don’t push. But they don’t act as your Guide, or decide what your experience means.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.6711078701381332e-11,
+    "confidence": "Medium",
+    "start_index": 297,
+    "end_index": 401,
+    "word_count": 22,
+    "token_length": 26,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     1.0706251389425855e-23,
+     1.6711078701381332e-11
+    ],
+    "calibrated_confidence": 0.9696533804036439
+   },
+   {
+    "text": " Maybe they’re thinking, “Oh, I know what this is about,” or “Here’s what you should do.” They keep it to themselves. A question from them at the right moment can help you hear your own Guide, and what you answer is up to you.",
+    "label": "Human Written",
+    "ai_assistance_score": 1.5018354867715418e-25,
+    "confidence": "High",
+    "start_index": 401,
+    "end_index": 627,
+    "word_count": 46,
+    "token_length": 55,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     0.0,
+     1.5018354867715418e-25
+    ],
+    "calibrated_confidence": 0.9962419835987603
+   },
+   {
+    "text": " Then you trade places, and it’s your turn to keep “Here’s what you should do” to yourself.",
+    "label": "Human Written",
+    "ai_assistance_score": 6.402811833787665e-15,
+    "confidence": "Medium",
+    "start_index": 627,
+    "end_index": 718,
+    "word_count": 19,
+    "token_length": 23,
+    "is_humanized": false,
+    "humanizer_score": 0.0,
+    "class_probabilities": [
+     1.0,
+     2.5929626783866415e-41,
+     6.402811833787665e-15
+    ],
+    "calibrated_confidence": 0.9867167280997569
+   }
+  ],
+  "dashboard_link": "https://www.pangram.com/history/197fd1b3-519e-47b9-b6ed-54457f4e5a86"
+ }
+}

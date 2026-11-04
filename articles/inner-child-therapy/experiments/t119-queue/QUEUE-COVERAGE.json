@@ -168,7 +168,9 @@
   "status": "not in",
   "where": "",
   "quote": "",
-  "missing": "Nothing on hypnosis during fresh grief or an altered state; the guide only says gentle meditation or self-hypnosis calms the nervous system and is not for all-day coping. Missing: fit depends on kind, grief level and purpose; hypnosis to reach numb feelings can help, to escape is less useful; deep inner-child work waits until grief is less raw."
+  "missing": "Nothing on hypnosis during fresh grief or an altered state; the guide only says gentle meditation or self-hypnosis calms the nervous system and is not for all-day coping. Missing: fit depends on kind, grief level and purpose; hypnosis to reach numb feelings can help, to escape is less useful; deep inner-child work waits until grief is less raw.",
+  "status_after": "left out (turn 120)",
+  "note_after": "Left out as I recommended in turn 119 (the guide never raises whether hypnosis suits someone grieving); his reply of 09:42 answered the other point and raised no objection."
  },
  {
   "id": "PGQ-037",
@@ -282,10 +284,11 @@
   "id": "PGQ-052",
   "title": "A critical voice is not automatically a protector, and you can reject the insult without first settling what it is",
   "point": "A harsh inner voice may be a learned script, a protector, a cruel real point or a mix; meet it with compassion and firm limits and refuse the contempt without first deciding which.",
-  "status": "partly",
+  "status": "in",
   "where": "Building Your Inner Adult > Protecting and Building Trust With Your Little One > Protecting from the Parent You Inherited",
   "quote": "critical voice might be that inherited parent script, or any outside influence with no concern for your welfare, it could also be trying to protect you from rejection or failure. It may be pointing to a real problem, but in a cruel way.",
-  "missing": "Has the several possible readings, curiosity about motives, kernels of truth and refusing insults (Mr. Rogers reframing). Missing: stating that you needn't settle which it is before protecting yourself, that it can be several at once, protective aims beyond rejection or failure (belonging, status, control, safety), and asking whether it would make its point without contempt."
+  "missing": "Has the several possible readings, curiosity about motives, kernels of truth and refusing insults (Mr. Rogers reframing). Missing: stating that you needn't settle which it is before protecting yourself, that it can be several at once, protective aims beyond rejection or failure (belonging, status, control, safety), and asking whether it would make its point without contempt. His \"Protecting from the Parent You Inherited\" says the critical voice may be the inherited script, an outside influence or a protector, and the curiosity paragraph refuses \"its insults and cruelty\" while staying open to its kernels of truth: the point is there in his words.",
+  "note_after": "Turn 120: status set to \"in\" to match the table in QUEUE-COVERAGE.md, which turn 119 changed after the JSON was written (the counts there, in 15 and partly 18, are the table's)."
  },
  {
   "id": "PGQ-053",
@@ -303,7 +306,9 @@
   "status": "not in",
   "where": "",
   "quote": "",
-  "missing": "Not in the guide: no mention of drawing or scribbling anger (the practices section offers writing with the other hand only)."
+  "missing": "Not in the guide: no mention of drawing or scribbling anger (the practices section offers writing with the other hand only).",
+  "status_after": "in (turn 120)",
+  "note_after": "His own line, 2026-11-04 09:42 UTC: \"A protective part might grab the pen first, and then it gets that hand until it's had its say, even if all it can do is scribble angrily.\" (Journal With Each Hand)"
  },
  {
   "id": "PGQ-055",
