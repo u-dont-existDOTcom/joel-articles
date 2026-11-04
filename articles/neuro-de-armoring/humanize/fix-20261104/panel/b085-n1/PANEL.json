@@ -1,0 +1,58 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Side effects / stop signs: In practice the most common problem is the \"choline headache\", or a spaced-out kind of brain fog.",
+  "That isn't in the studies, but the likely reason is that UMP speeds up membrane synthesis while choline availability is low, so the system feels under-supplied.",
+  "Other stop signs include insomnia, jitteriness, racing thoughts, irritability, emotional flatness, nausea, stomach cramps, or loose stools.",
+  "If it makes you wired, numb, or weirdly irritable, stop, and don't push through."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph follows a tidy sequence: main problem, explanation, expanded checklist, memorable closing warning, while consistently mixing technical vocabulary with casual language. That construction could suggest AI polishing, but none of these features establishes authorship."
+  ],
+  "haiku": [
+   "The paragraph is built with tidy symmetry: a label, a named problem, a disclaimer, a mechanism, a symptom list and a closing directive, each in one clean sentence, with none of the uneven rhythm of a person's own note."
+  ],
+  "sonnet": [
+   "The paragraph is built as a clean sequence of claim, caveat, mechanism, symptom list, and a closing instruction, with evenly paced sentences and no tangents. That tidy, complete structure reads more assembled than spoken."
+  ]
+ },
+ "human_clean": [
+  "a spaced-out kind of brain fog",
+  "choline headache",
+  "spaced-out kind of brain fog",
+  "choline headache",
+  "a spaced-out kind of brain fog"
+ ]
+}

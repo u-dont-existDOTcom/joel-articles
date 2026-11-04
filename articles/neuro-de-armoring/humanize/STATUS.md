@@ -1,5 +1,47 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-04, after Joel's messages of 14:42 UTC ("done continue") and 14:59 UTC (the web app's credits): six drafts, four checked and 100% AI; the API out of credits; the panel and second tries; his checks in the web app
+
+His messages, word for word: `fix-20261104/joel-20261104-1442-message.txt` ("done continue"; pull request 290 merged at
+14:41:55) and `fix-20261104/joel-20261104-1459-message.txt` ("i'm not topping up the api unless you think it's really
+important because we have tons of gui credits still"). **The mailbox first** (`state/mailbox/claude-community-joel-1018.json`,
+"2026-11-04 14:42"); main merged twice this turn (1b2ef3dc, then eb7496ab, a fast-forward: pull request 294 and Inner Child
+turn 123, no shared rule or tool changed). Nothing in the article changed: HUMANIZED-SO-FAR.md is still c73f5b5d.
+
+- **Six first tries, his moves** (`fix-20261104/next1/blocks/`, blocks 85, 86, 88 to 91: the uridine stop signs and
+  psychedelic caution, then the 5-HTP "Who this is for", tool, Scott's doses and trial), each passing the fidelity check by
+  itself and together. Batch x1104j through the API (`fix-20261104/checks/x1104j/RESULTS.md`): the four that ran read 100%
+  AI, all four predicted (ND1104-B085#74, B086#75, B088#76, B089#77); the API answered HTTP 402 "Insufficient credits" at
+  the fifth, so B090#78 and B091#79 are void (never sent). `record_r1102.py` needs a log of JSON lines only, so the run's
+  log was split (`API-X1104j.log` as it came, `API-X1104j-results.log` the results).
+- **The tell panel on the four** (E346: his post's baseline read AI in both sections, so the first tries were each
+  lineage's second AI read): `fix-20261104/panel/b085-n1/`, `b086-n1/`, `b088-n1/` and `b089-n1/` (PANEL.md each). Every
+  sentence of all four was agreed by two or three readers: the label openers and "In practice"; the even symptom and use
+  lists; "take that as a safety signal", "this isn't a casual experiment"; "discusses its role in"; the balanced "mixed ...
+  but real enough"; and the build, claim, caveat, mechanism, list, instruction. Codex called "chasing the old visual
+  threshold can overshoot", "a spaced-out kind of brain fog" and "low-serotonin-looking pattern" human.
+- **Second tries of the four** (`fix-20261104/next2/blocks/`; `next2/check_next2.py` writes `CHECK-NEXT2.json`): every
+  agreed sentence changed; the fidelity check passes each by itself and all six together. The linter's FAILs are the
+  protocol's own lists (E125: the eight stop signs, the post's "wired, numb, or weirdly irritable", the four exclusions,
+  W042's list, the four first signs), recorded and not cut; the rest are REVIEW items. **A meaning slip found**: my first try
+  of the tool paragraph said the review covers 5-HTP's "use ... in serotonin-toxicity cases"; the review (Maffei 2020,
+  PMC7796270, read this turn) treats serotonin syndrome as a risk of 5-HTP (sections 8.2.1 and 9), so the second try says
+  "the serotonin-toxicity risk". The first try never went into the article.
+- **Question 7, answered by his 14:59 message**: he checks each paragraph in Pangram's web app with his account's credits;
+  the API isn't topped up (my view, which he asked for: it isn't really important, since the web app gives the same reading
+  per paragraph; the cost is a round with him per set). `fix-20261104/checks/predict_batch.py` now takes `--detector`, so
+  the ledger says who checks. Batch x1104k: the four second tries and the two unsent first tries, predicted before his
+  checks (ND1104-B085#80 to ND1104-B091#85, all AI, 25% to 35%; `checks/x1104k/PREDICTIONS.md`), on a page of copy buttons,
+  **Neuro De-Armoring Checks** (https://claude.ai/artifact/YW7suTvNrjNPvu1wApM93E, `checks/x1104k/build_check_page.py`,
+  CHECK-PAGE.html): each button copies the paragraph alone (E326), tested in Chromium by reading the clipboard back, all six
+  exact, with no sideways scroll at 400 px.
+- **Questions page** (`OWNER-QUESTIONS.md`, republished to https://claude.ai/artifact/8cWv5mbXY8y53RL1nhvzky, version 9):
+  question 7 answered; question 8 (may a warning's words change if its meaning stays) open.
+- **Delegations**: one Sonnet subagent and one Haiku subagent, each the tell panel's reader for all four drafts (four
+  prompts each, from `tell_panel.py prompt`), checked by `tell_panel.py summarize` (agreement across readers): done. Codex on
+  the laptop (`codex exec --ephemeral -s read-only`, its configured model) as the third reader of the same four: done, all
+  four exit 0.
+
 ## 2026-11-04, after Joel's message of 14:28 UTC ("pr 290 has conflicts")
 
 **The mailbox first** (`state/mailbox/claude-community-joel-1018.json`, "2026-11-04 14:28"). 292 (Inner Child turn 122)

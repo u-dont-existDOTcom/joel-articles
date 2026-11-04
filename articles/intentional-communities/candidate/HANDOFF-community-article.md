@@ -11,6 +11,7 @@ From an account with Desktop Commander connected to the laptop, the laptop copy 
 
 ## START HERE
 
+- **2026-11-04, after Joel's messages of 14:42 and 14:59 UTC (in the neuro de-armoring lane)**: nothing changed in this lane. Pangram's API is out of credits (HTTP 402) and he isn't topping it up unless a lane shows it's really important: "i'm not topping up the api unless you think it's really important because we have tons of gui credits still". Paragraph checks go to him for the web app, as a page with a copy button per paragraph (AGENTS.md).
 - **2026-11-04, after Joel's answers of 13:53 UTC (in the neuro de-armoring lane)**: nothing changed in this lane. E352 applies here (a negation and its contrast go in one sentence, joined with ", but"; `tells_lint.py` O64), and this lane's mailbox check now goes in its own file, `state/mailbox/<branch>.json`.
 - **2026-11-04, after Joel's answers of 12:06 UTC (in the neuro de-armoring lane)**: nothing changed in this lane. His rule applies here: Low windows come first ("low windows can easily flip to AI in different segmentations, medium aren't a big issue usually"; AGENTS.md, beside E278), and E350: a Low window in a paragraph that reads Human is fixed in that window's sentence only.
 - **2026-11-04, after Joel's answers of 10:39 UTC (in the neuro de-armoring lane)**: nothing changed in this lane. Lesson E346 applies here: a paragraph that has read AI twice goes to the tell panel before its next try (`pangram_ledger.py predict --panel`).

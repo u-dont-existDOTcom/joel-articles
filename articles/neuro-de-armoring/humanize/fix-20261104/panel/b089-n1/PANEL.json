@@ -1,0 +1,45 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "The tool: 5-HTP skips the step where the body turns tryptophan into 5-HTP, so it's a more direct serotonin precursor.",
+  "A broad review of 5-HTP discusses its role in serotonin biology and its use for mood, anxiety, sleep, obesity, myoclonus, and in serotonin-toxicity cases.",
+  "The evidence for depression and sleep is mixed, and not as strong as people online make it sound, but the mechanism is real enough that people who respond to it can feel it quickly."
+ ],
+ "flagged": {
+  "1": [
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3
+ ],
+ "whole": {
+  "codex": [
+   "The progression from mechanism to research overview to qualified reassurance feels formulaic, with technical language softened by conversational phrases. These stylistic cues cannot reliably establish authorship."
+  ],
+  "haiku": [
+   "The paragraph is a neat explainer: a label, a mechanism, a summary of a review and a balanced verdict, with the nuance and the verdict arriving in tidy, evenly weighted sentences."
+  ],
+  "sonnet": [
+   "The paragraph moves in a clean explain, cite, hedge, reassure order with evenly paced sentences and no tangents or rough edges. That balanced, tidy structure reads as assembled."
+  ]
+ },
+ "human_clean": [
+  "skips the step where the body turns tryptophan into 5-HTP"
+ ]
+}

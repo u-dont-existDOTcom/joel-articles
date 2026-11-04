@@ -18,6 +18,10 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-04, after Joel's messages of 14:42 UTC ("done continue") and 14:59 UTC ("we have tons of gui credits still"): six
+  paragraphs drafted, four checked (100% AI), the API out of credits; second tries after the tell panel; his six checks in the
+  web app waiting.** HUMANIZED-SO-FAR.md is still c73f5b5d. He checks paragraphs in Pangram's web app now (question 7), from a
+  page of copy buttons, Neuro De-Armoring Checks. Question 8 is open. See the Next step.
 - **2026-11-04, after Joel's message of 14:28 UTC ("pr 290 has conflicts"): fixed; nothing in the article changed.** A lane's
   pull request no longer changes state/MAILBOX.json (`lane_mailbox.py settle`, run by `lane_push.py`). The Next step below stands.
 - **2026-11-04, after Joel's answers of 13:53 UTC: his Scott paragraph and W-17 in, 6a (the five lines stay); no open questions.**
@@ -78,7 +82,31 @@ All of the article is his published post. His queue's rule: "Paragraphs that alr
 stay exactly as they are." Everything else is rewritten in his register and reaches him as cards, each tested first. The
 Scott passages, the introduction and the D-serine paragraph in Part 4 sound most like him.
 
-## Next step (2026-11-04, after Joel's answers of 13:53 UTC: the rest of the article)
+## Next step (2026-11-04, after Joel's message of 14:59 UTC: his six checks in the web app)
+
+Done (STATUS.md's entry for 2026-11-04 14:42 and 14:59 has every file and number). Waiting on him: the six links from
+Neuro De-Armoring Checks (https://claude.ai/artifact/YW7suTvNrjNPvu1wApM93E; batch x1104k, `fix-20261104/checks/x1104k/`)
+and question 8 on the questions page.
+
+Next:
+1. **His links**: save his message word for word, open each link (WebFetch) and record it against its prediction with each
+   window's confidence (`tools/humanization/pangram_ledger.py result articles/neuro-de-armoring/humanize/pangram-ledger.jsonl
+   --key bNNN --sha <the text's sha256> --verdict ... --link ... --detector "pangram, the web app: Joel's account ..."`),
+   then a RESULTS.md for x1104k like x1104j's. Check that the text he pasted is the batch's (the link's text against
+   TEXTS.json); a different text is recorded as his, not as the prediction's.
+2. **What reads Human (High)** goes into HUMANIZED-SO-FAR.md with an apply script like `fix-20261104/q5/apply_q5.py`: the
+   fidelity check before and after, and my own comparative read beside his post (E284, E294) recorded with
+   `compare_read.py`. A Low window: that sentence only (E350).
+3. **What reads AI again**: the warnings and dose paragraphs (085, 086, 090, 091) go to him on a cards page as stretches
+   to edit (E336, E253: the panel linked, the ask in his words); 088 and 089 get the tell panel on the second try and one
+   more try each, if a named diagnosis says what to change (the production budget: six tries a paragraph).
+4. **Question 8** decides whether a warning's key words may change (`FIDELITY-KEYS.json`, the units' keys). Until he
+   answers, every draft keeps them.
+5. **Then the rest**, from block 92 (the 5-HTP stop signs) on, a set of paragraphs per round on a checks page, his web app
+   doing the checks (his 14:59 message), and the later steps of the next step below (section check, the word-for-sense
+   read, his post).
+
+## Earlier next step (2026-11-04, after Joel's answers of 13:53 UTC: the rest of the article)
 
 Done (STATUS.md's entry for 2026-11-04 13:53 has every file and number). Nothing is waiting on him but the merge of pull
 request 290.

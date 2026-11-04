@@ -1,0 +1,101 @@
+{
+ "about": "The next paragraphs' drafts held to the fidelity check, each by itself and all together, in the article as it stands.",
+ "each": {
+  "085": {
+   "block": 85,
+   "draft": "fix-20261104/next2/blocks/085.md",
+   "pass": true,
+   "lost": {}
+  },
+  "086": {
+   "block": 86,
+   "draft": "fix-20261104/next2/blocks/086.md",
+   "pass": true,
+   "lost": {}
+  },
+  "088": {
+   "block": 88,
+   "draft": "fix-20261104/next2/blocks/088.md",
+   "pass": true,
+   "lost": {}
+  },
+  "089": {
+   "block": 89,
+   "draft": "fix-20261104/next2/blocks/089.md",
+   "pass": true,
+   "lost": {}
+  },
+  "090": {
+   "block": 90,
+   "draft": "fix-20261104/next1/blocks/090.md",
+   "pass": true,
+   "lost": {}
+  },
+  "091": {
+   "block": 91,
+   "draft": "fix-20261104/next1/blocks/091.md",
+   "pass": true,
+   "lost": {}
+  }
+ },
+ "lint": {
+  "085": {
+   "exit": 2,
+   "out": [
+    "== tells_lint: /home/claude/ja-community/articles/neuro-de-armoring/humanize/fix-20261104/next2/blocks/085.md",
+    "note: the check for an idea doing what a person does used its short word list, which misses most abstract nouns; for the parsed check: pip install spacy nltk; python -m spacy download en_core_web_sm; python -c \"import nltk; nltk.download('wordnet')\"",
+    "verdict: FAIL",
+    "metrics: {'words': 93, 'my_words': 93, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 4.3, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.41, 'repeated_openers': {}}"
+   ]
+  },
+  "086": {
+   "exit": 1,
+   "out": [
+    "== tells_lint: /home/claude/ja-community/articles/neuro-de-armoring/humanize/fix-20261104/next2/blocks/086.md",
+    "note: the check for an idea doing what a person does used its short word list, which misses most abstract nouns; for the parsed check: pip install spacy nltk; python -m spacy download en_core_web_sm; python -c \"import nltk; nltk.download('wordnet')\"",
+    "verdict: REVIEW",
+    "metrics: {'words': 57, 'my_words': 57, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 8.8, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.72, 'repeated_openers': {}}"
+   ]
+  },
+  "088": {
+   "exit": 2,
+   "out": [
+    "== tells_lint: /home/claude/ja-community/articles/neuro-de-armoring/humanize/fix-20261104/next2/blocks/088.md",
+    "note: the check for an idea doing what a person does used its short word list, which misses most abstract nouns; for the parsed check: pip install spacy nltk; python -m spacy download en_core_web_sm; python -c \"import nltk; nltk.download('wordnet')\"",
+    "verdict: FAIL",
+    "metrics: {'words': 107, 'my_words': 107, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 3.7, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.44, 'repeated_openers': {}}"
+   ]
+  },
+  "089": {
+   "exit": 1,
+   "out": [
+    "== tells_lint: /home/claude/ja-community/articles/neuro-de-armoring/humanize/fix-20261104/next2/blocks/089.md",
+    "note: the check for an idea doing what a person does used its short word list, which misses most abstract nouns; for the parsed check: pip install spacy nltk; python -m spacy download en_core_web_sm; python -c \"import nltk; nltk.download('wordnet')\"",
+    "verdict: REVIEW",
+    "metrics: {'words': 84, 'my_words': 84, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 1.2, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.18, 'repeated_openers': {}}"
+   ]
+  },
+  "090": {
+   "exit": 1,
+   "out": [
+    "== tells_lint: /home/claude/ja-community/articles/neuro-de-armoring/humanize/fix-20261104/next1/blocks/090.md",
+    "note: the check for an idea doing what a person does used its short word list, which misses most abstract nouns; for the parsed check: pip install spacy nltk; python -m spacy download en_core_web_sm; python -c \"import nltk; nltk.download('wordnet')\"",
+    "verdict: REVIEW",
+    "metrics: {'words': 62, 'my_words': 62, 'paragraphs': 1, 'coach_per_100': 0.0, 'you_per_100': 0.0, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.26, 'repeated_openers': {}}"
+   ]
+  },
+  "091": {
+   "exit": 2,
+   "out": [
+    "== tells_lint: /home/claude/ja-community/articles/neuro-de-armoring/humanize/fix-20261104/next1/blocks/091.md",
+    "note: the check for an idea doing what a person does used its short word list, which misses most abstract nouns; for the parsed check: pip install spacy nltk; python -m spacy download en_core_web_sm; python -c \"import nltk; nltk.download('wordnet')\"",
+    "verdict: FAIL",
+    "metrics: {'words': 91, 'my_words': 91, 'paragraphs': 1, 'coach_per_100': 1.1, 'you_per_100': 3.3, 'landing_rate': 0.0, 'instruction_paragraphs': 0, 'para_len_cv': 1, 'sent_len_cv': 0.2, 'repeated_openers': {}}"
+   ]
+  }
+ },
+ "together": {
+  "pass": true,
+  "lost": {}
+ }
+}
