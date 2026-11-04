@@ -1,7 +1,7 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-04, after your message of 10:01 UTC.
-**Open questions: 2.** **For you to do**: answer questions 3 and 4 (below), the two cards on
+Last updated 2026-11-04, after your answers of 10:39 UTC ("3a 4a").
+**Open questions: 1.** **For you to do**: answer question 5 (below), the 12 cards on
 [Neuro De-Armoring Cards, 4 November](https://claude.ai/artifact/TBrnTti2G9V4fBvC357cTy), and merge pull request 287.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -10,17 +10,59 @@ can read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 3. Pramipexole and ropinirole in your "Who this is for"?** Your version leaves out "especially a history of
+**🟣 5. More tries for the two uridine paragraphs' Medium and Low windows?** The evidence paragraph and Scott's both
+read Human Written, 0.0% AI by themselves (cards Y-82 and Y-83), but each has Medium and Low windows, and each has used
+its six tries, so another try needs your OK. My last try on the evidence paragraph, aimed at those windows, read
+[30.3% AI](https://www.pangram.com/history/e36c7366-cdce-4f67-a1bf-cd61514e9fd5), so a new try only replaces a version that reads worse.
+
+- a) **Two more tries each** (my recommendation: a window under High is the kind a new Pangram version turns AI), the
+  first one for the evidence paragraph from Codex, whose rewrite carried Scott's.
+- b) **Leave them** as they read now.
+- c) **Something else.**
+
+## For you to do
+
+- 🟠 Answer question 5 above.
+- 🟠 The 12 cards on [Neuro De-Armoring Cards, 4 November](https://claude.ai/artifact/TBrnTti2G9V4fBvC357cTy)
+  ([the cards as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104.md)): the two uridine paragraphs, both Human Written now, and
+  ten warnings.
+- 🟠 Merge [pull request 287](https://github.com/u-dont-existDOTcom/joel-articles/pull/287) when you've looked.
+
+## Your answers of 2026-11-04 10:39 UTC ("3a 4a"), and what I did
+
+Word for word: [your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/joel-20261104-1039-message.txt).
+
+- 🟢 **3a: the two drug names are back**, in brackets, in your "Who this is for": "People with DAWS, after tapering off
+  dopamine agonist drugs (like pramipexole or ropinirole), present with ...". That version by itself reads
+  [Human Written, 0.0% AI](https://www.pangram.com/history/0faeb569-0041-45d3-9986-b77b3f490b83) (High).
+- 🟢 **4a: all three stay, said as experience**, on the cards page: the agmatine stop list says only the stomach
+  problems showed up in the trials and the flatness happens in practice (W-16); uridine changing dreams, visuals, craving
+  and tolerance is from experience, like Scott's (W-18); the choline headache is from experience, and its reason the
+  likely one (W-85). Nothing says whose experience beyond Scott's.
+- 🟢 **The two uridine paragraphs after yours read Human Written now.** Three fresh readers (Codex, Sonnet and Haiku)
+  listed the tells in my best tries, which the rules ask for before I ask you ([their notes on the evidence paragraph]
+  (https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/panel/b082/PANEL.md)). With the tells they agreed on fixed, the evidence paragraph read
+  [Human Written, 0.0% AI](https://www.pangram.com/history/036d5dff-88a6-4533-8023-989adbd74a3b). Scott's read 99.9% AI again, and Codex's
+  rewrite of it read [Human Written, 0.0% AI](https://www.pangram.com/history/bdc81685-fdd0-420e-b74f-1a196b1ec606). Both are cards, and question
+  5 is about their Medium and Low windows.
+- 🟢 **Ten warnings cards**, each with its sources. Your agmatine precautions, with the cuts the agmatine check
+  supports, still read [Human Written, 0.0% AI](https://www.pangram.com/history/2c74da86-1945-434c-a365-6d849c787b62) (High).
+- 🔵 **Next**: the rest of the warnings (the 5-HTP and iboga softenings and the generic label lines), then the rest of the
+  article a paragraph at a time.
+
+Questions 3 and 4 as they were asked:
+
+**🟢 3. Pramipexole and ropinirole in your "Who this is for"?** Your version leaves out "especially a history of
 dopamine agonist withdrawal from drugs like pramipexole or ropinirole", the only place the article names those two
 drugs. Yours by itself reads [Human Written, 0.0% AI](https://www.pangram.com/history/9225442f-06b8-4a7a-ab8e-d8a03f720290) (High), and so does it
 with the two names put back in brackets: [Human Written, 0.0% AI](https://www.pangram.com/history/0faeb569-0041-45d3-9986-b77b3f490b83) (High).
 
-- a) **Put them back in brackets**: "People with DAWS, after tapering off dopamine agonist drugs (like pramipexole or
-  ropinirole), present with ..." (my recommendation: a reader on one of them sees it's about them).
-- b) **Leave them out**, as you wrote it.
-- c) **Something else.**
+a) **Put them back in brackets**: "People with DAWS, after tapering off dopamine agonist drugs (like pramipexole or
+ropinirole), present with ..." (my recommendation: a reader on one of them sees it's about them).
+b) **Leave them out**, as you wrote it.
+c) **Something else.**
 
-**🟣 4. Have you, or people you trust, seen these?** The two warnings checks found nothing behind them in the research
+**🟢 4. Have you, or people you trust, seen these?** The two warnings checks found nothing behind them in the research
 ([the checks, with their sources](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/warnings/WARNINGS-CHECK.md)), so each stays only if it's your
 experience or reports you trust. This one is your knowledge, so I have no recommendation.
 1. Agmatine making someone flat, blunted or anhedonic. In the human trials only stomach side effects showed up, and in
@@ -29,17 +71,9 @@ experience or reports you trust. This one is your knowledge, so I have no recomm
 2. The uridine "choline headache".
 3. Uridine changing dream vividness and psychedelic tolerance. Scott's case in the article is one report of it.
 
-- a) **Yes, all three**: they stay, said as experience (yours, or Scott's), not as studied effects.
-- b) **None of them**: they go, and the stop lists keep what the trials saw (for agmatine, the stomach side effects).
-- c) **Some of them** (say which).
-
-## For you to do
-
-- 🟠 Answer questions 3 and 4 above.
-- 🟠 The two cards on [Neuro De-Armoring Cards, 4 November](https://claude.ai/artifact/TBrnTti2G9V4fBvC357cTy)
-  ([the cards as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104.md)): the uridine evidence paragraph, which got close, and
-  Scott's, which didn't move.
-- 🟠 Merge [pull request 287](https://github.com/u-dont-existDOTcom/joel-articles/pull/287) when you've looked.
+a) **Yes, all three**: they stay, said as experience (yours, or Scott's), not as studied effects.
+b) **None of them**: they go, and the stop lists keep what the trials saw (for agmatine, the stomach side effects).
+c) **Some of them** (say which).
 
 ## Your message of 2026-11-04 10:01 UTC, and what I did
 
@@ -63,7 +97,7 @@ Word for word: [your message](https://github.com/u-dont-existDOTcom/joel-article
   up; the uridine effects rest on Scott's one report; the potassium lines are too strong; D-serine's kidney warning comes
   from rats; nothing supports phosphatidylserine making you flat. The cuts and softer wordings go to you as cards after
   question 4, with their sources.
-- 🔵 **Next**: the warnings cards; the rest of the article a paragraph at a time.
+- 🟢 **Next** (done after your answers of 10:39 UTC): the warnings cards.
 
 ## Your answers of 2026-11-03 17:48 UTC (your three versions), and what I did
 

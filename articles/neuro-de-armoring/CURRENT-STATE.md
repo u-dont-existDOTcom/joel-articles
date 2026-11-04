@@ -22,7 +22,7 @@ Every paragraph and every section reads Human in Pangram, with the meaning kept 
 
 ## Current checkpoint
 
-`humanize/HUMANIZED-SO-FAR.md` (72e9e316) is his post with the standard typographic swap and four paragraphs of his in: his three versions of 3 November and his "Who this is for" of 4 November, which reads Human (High) by itself. The article's warnings are checked against the research (`humanize/fix-20261104/warnings/WARNINGS-CHECK.md`); the cuts go to him as cards after question 4. Nothing has been changed in his post yet.
+`humanize/HUMANIZED-SO-FAR.md` (e5ead544, after his answer 3a of 2026-11-04 10:39 UTC) is his post with the standard typographic swap and four paragraphs of his in: his three versions of 3 November and his "Who this is for" of 4 November, which reads Human (High) by itself. The article's warnings are checked against the research (`humanize/fix-20261104/warnings/WARNINGS-CHECK.md`); the cuts go to him as cards after question 4. Nothing has been changed in his post yet.
 
 ## Remaining
 

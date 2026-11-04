@@ -1,5 +1,9 @@
 # Status: hypnosis guide humanization (newest on top)
 
+## 2026-11-04, after Joel's answers of 10:39 UTC (in the neuro de-armoring lane)
+
+Nothing changed in this lane. Lesson E346 applies here (the tell panel after two AI reads, `--panel`).
+
 ## 2026-11-04, after Joel's message of 10:01 UTC (in the neuro de-armoring lane)
 
 Nothing changed in this lane. Gates E343 and E344 apply here. Predictions: none. Delegations (model, piece, check,

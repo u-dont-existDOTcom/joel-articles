@@ -28,10 +28,10 @@ class Ledger(unittest.TestCase):
         return str(p)
 
     def predict(self, body, lineage='P1', scope='paragraph', call='Human', diagnosis=None, tells=('a list of three',), key=None,
-                narrowed=None):
+                narrowed=None, panel=None):
         argv = ['predict', self.ledger, '--lineage', lineage, '--scope', scope, '--text', self.text(body), '--call', call,
                 '--chance', '0.6' if call == 'Human' else '0.4'] + (['--key', key] if key else []) + \
-            (['--narrowed', narrowed] if narrowed else [])
+            (['--narrowed', narrowed] if narrowed else []) + (['--panel', panel] if panel else [])
         for t in tells:
             argv += ['--tells', t]
         if diagnosis:
@@ -70,12 +70,33 @@ class Ledger(unittest.TestCase):
         self.assertEqual(L.read(self.ledger), [])
         self.assertEqual(L.main(argv('0.1')), 0)
 
+    def panel(self):
+        p = self.dir / 'PANEL.md'
+        p.write_text('# Tell panel\n', encoding='utf-8')
+        return str(p)
+
     def test_a_paragraph_lineage_stops_at_six_tries(self):
         for i in range(6):
-            self.assertEqual(self.predict('v%d' % i, diagnosis='try %d fixes the list' % i), 0)
+            self.assertEqual(self.predict('v%d' % i, diagnosis='try %d fixes the list' % i,
+                                          panel=self.panel() if i >= 2 else None), 0)
             self.result('v%d' % i, 'AI')
             L.main(['explain', self.ledger, '--sha', L.sha256('v%d' % i), '--cause', 'list', '--note', 'the list read AI'])
         self.assertEqual(self.predict('v6', diagnosis='a seventh idea'), 2)
+
+    def test_a_paragraph_that_read_ai_twice_goes_to_the_tell_panel_first(self):
+        """E346 (2026-11-04): the neuro de-armoring lane's two uridine paragraphs took four tries each before the tell panel
+        ran; with it, one read Human at its fifth try, and the other at its sixth, in another family's rewrite."""
+        for i in range(2):
+            self.assertEqual(self.predict('w%d' % i, lineage='Q', call='AI', diagnosis='try %d' % i), 0)
+            self.result('w%d' % i, 'AI' if i == 0 else 'Mixed')
+        self.assertEqual(self.predict('w2', lineage='Q', call='AI', diagnosis='a third wording'), 2)
+        self.assertEqual(self.predict('w2', lineage='Q', call='AI', diagnosis='a third wording',
+                                      panel=str(self.dir / 'NONE.md')), 2)
+        self.assertEqual(self.predict('w2', lineage='Q', call='AI', diagnosis='the agreed tells fixed', panel=self.panel()), 0)
+        # one AI read needs no panel
+        self.assertEqual(self.predict('x0', lineage='R', call='AI', diagnosis='first'), 0)
+        self.result('x0', 'AI')
+        self.assertEqual(self.predict('x1', lineage='R', call='AI', diagnosis='second'), 0)
 
     def test_a_section_gets_one_retest(self):
         self.assertEqual(self.predict('s1', lineage='S13', scope='section'), 0)
@@ -161,7 +182,7 @@ class Ledger(unittest.TestCase):
         self.result('v2', 'AI')
         self.assertEqual(self.predict('v3', diagnosis='d3'), 2)
         L.main(['explain', self.ledger, '--sha', L.sha256('v2'), '--cause', 'context', '--note', 'the window spans P3'])
-        self.assertEqual(self.predict('v3', diagnosis='d3'), 0)
+        self.assertEqual(self.predict('v3', diagnosis='d3', panel=self.panel()), 0)
 
     def test_the_same_text_is_not_paid_for_twice(self):
         self.predict('same')

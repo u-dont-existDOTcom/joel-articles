@@ -3,7 +3,7 @@ written into the lane's ledger first (gate E307), one paragraph per text (Joel, 
 paragraph at a time so you can see whether your strat is working").
 
 DIR/IN.json: {key: {"lineage", "name", "text", "chance" (my chance of a 100% Human result), "why", "diagnosis",
-"decides"}}. Writes DIR/TEXTS.json, DIR/PREDICTIONS.json (the list record_r1102.py reads) and DIR/texts/KEY.txt; a key
+"decides", and "panel" (the PANEL.md, after two AI reads: E346)}}. Writes DIR/TEXTS.json, DIR/PREDICTIONS.json (the list record_r1102.py reads) and DIR/texts/KEY.txt; a key
 already predicted in the batch at the same text is not predicted again.
 
   python3 articles/neuro-de-armoring/humanize/fix-20261104/checks/predict_batch.py DIR --batch BATCH
@@ -53,7 +53,8 @@ def main():
         subprocess.run([sys.executable, str(ROOT / 'tools' / 'humanization' / 'pangram_ledger.py'), 'predict', str(LEDGER),
                         '--lineage', p['lineage'], '--scope', 'paragraph', '--text', str(f), '--call', call,
                         '--chance', str(p['chance']), '--key', key, '--batch', a.batch, '--detector', DETECTOR,
-                        '--tells', p['why'], '--diagnosis', p['diagnosis'], '--decides', p['decides']], check=True)
+                        '--tells', p['why'], '--diagnosis', p['diagnosis'], '--decides', p['decides']]
+                       + (['--panel', p['panel']] if p.get('panel') else []), check=True)
     (D / 'TEXTS.json').write_text(json.dumps(texts, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     (D / 'PREDICTIONS.json').write_text(json.dumps(rows, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
 
