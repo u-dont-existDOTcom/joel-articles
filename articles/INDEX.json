@@ -107839,7 +107839,7 @@
         },
         {
           "path": "articles/neuro-de-armoring/humanize/pangram-ledger.jsonl",
-          "sha256": "54da0c6c024d12d4c7107b86aeabbf779fad5ee1172c3662af013b5e874af4d7",
+          "sha256": "4acd029740ad2b1898ba98c5066fb225b345772c7964d001f58cb9ca9bb030e1",
           "role": "humanization_working_record"
         },
         {
@@ -110750,6 +110750,36 @@
         {
           "path": "articles/neuro-de-armoring/humanize/fix-20261104/joel-20261104-1810-message.txt",
           "sha256": "5d9e1afdfebc96c673e6ce61c492386f69c84820bc5b00bb120553a44e9b1cc0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/joel-20261104-2019-message.txt",
+          "sha256": "23fc2b30fd75bc1b71397482f176b0061612dfb1b88eba771e65812b5c80ca32",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/substack/PAYLOAD-A.html",
+          "sha256": "27eec584bf64b9f05d42a2f343e11cf6b45ee61287edbb408ff52158fa1f64e4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/substack/PAYLOADS.json",
+          "sha256": "b2b380186ddfa0468cfae99cce5d7ae3faccf0f1d751c2f2428b0050c90d7a88",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/substack/TEXT-A.txt",
+          "sha256": "a361115a7672e45aa548c2d4f9ecc2b11e8e64b6870d022cb5d0cc62b8454e64",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/substack/make_payload.py",
+          "sha256": "1b722957e9825c7f6070fd83cefeb0d00d490e6804553cee8cd7cfd15852100c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/substack/paste_payload_lane.js",
+          "sha256": "d52e971987f9499db3f874259a8f7ceac90760788725f2d921b048550ef166e0",
           "role": "humanization_working_record"
         }
       ]

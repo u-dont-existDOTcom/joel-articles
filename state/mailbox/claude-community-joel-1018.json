@@ -232,6 +232,43 @@
     }
    ],
    "recorded_utc": "2026-11-04T18:12Z"
+  },
+  {
+   "turn": "2026-11-04T20:19Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items in the lane (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); UDA main c5c9951; its live AGENTS.md (blob 5160080) and LESSON-INDEX (7896422) unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 18:10: 300 (this lane's) merged by Joel at 20:19 UTC; 301 (Inner Child, published) merged; 293 and 280 open; no new comments or reviews (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to this lane's handoff note or questions page; main merged (no shared rule or tool changed)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 2026-11-04 20:19 UTC: 'so then are we done can we publish it?'",
+     "outcome": "not yet: the status by section, what's left before his post, and the next paragraphs now"
+    }
+   ],
+   "recorded_utc": "2026-11-04T20:20Z"
   }
  ]
 }
