@@ -108451,7 +108451,7 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/pangram-ledger.jsonl",
-          "sha256": "1d2103ca9b278f97ec35b66521faae21a9f3b153cf1e71063164cd27cc88a227",
+          "sha256": "107adffb84da32094bf8475b0b2a8642f1cc54a3af882ba997ec2897c6a9eed7",
           "role": "humanization_working_record"
         },
         {
@@ -109992,6 +109992,36 @@
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r03/try3/texts/r03-fuel-tca-t3.txt",
           "sha256": "495e9a7f22e893b66f3ae593d300dcaa958740012cd5da52b99843e58fcb9b52",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r03/b3/REVIEW-CARDS.md",
+          "sha256": "e0cae613f84f210f939c12071f90e9873d4290fa34addff248c750ff2b90a1ed",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r03/b3/REVIEW-PAGE.artifact.html",
+          "sha256": "52bb54dc6506617e2d76fbc8495f892bde0c6c2a3cf33c64f4031cc0a04f3803",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r03/b3/REVIEW-PAGE.html",
+          "sha256": "d0f81450fffe3f6ea281bdd5298f641ff9f5aa5ba2aa3cc5f91ee564d554dd5c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r03/b3/REVIEW.json",
+          "sha256": "5807b63c7238355a89d09ac0542783da15384b6c72f18a3a67372fe4e87cb59e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r03/b3/build_review.py",
+          "sha256": "c5f5f7df455f9377b8b606414d84820d3b85faf6ffde1b1a80657396c25fde54",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r03/try3/RESULTS.json",
+          "sha256": "d8b3e65a61b97560f149ed33486e24c3a87715eadbb165946985acad28931cda",
           "role": "humanization_working_record"
         }
       ]
