@@ -186,7 +186,16 @@ def check(keys, draft):
         for a, b in subs:
             t = t.replace(a, b)
         return t
-    text = his(plain(draft))
+    # a limit said in words matched the post's sign: "under 20g/day" for its "<20g/day" (the neuro de-armoring lane,
+    # 2026-11-05, Strategy B: the same limit, which a sentence can't say with "<")
+    signed = {n for n in keys['numbers'] if n.startswith('<')}
+
+    def limit(t):
+        def one(m):
+            n = '<' + re.sub(r'\s+', '', m.group(1))
+            return n if n in signed else m.group(0)
+        return re.sub(r'\b(?:under|less than|below) (\d[^\s,;)]*[^\s,;).])', one, t)
+    text = limit(his(plain(draft)))
     have = collections.Counter(numbers(text))
     want = collections.Counter(keys['numbers'])
     lost_numbers = sorted((want - have).elements())
@@ -202,7 +211,7 @@ def check(keys, draft):
     # i've seen humans put spaces there"); the count above already takes the spaces out
     def glue(t):
         return re.sub(r'(\d)[ \t]+(?=(?:mg|mcg|µg|g|kg|ml|mL)\b)', r'\1', t)
-    draft_paras = glue(dash('\n\n'.join(his(plain(b)) for b in re.split(r'\n\s*\n', draft))))
+    draft_paras = glue(dash('\n\n'.join(limit(his(plain(b))) for b in re.split(r'\n\s*\n', draft))))
     meaning = (keys.get('warning_words') or {}).get('rule') == 'meaning'
     term_set = {pk.normalize(t) for t in keys['terms']}
 

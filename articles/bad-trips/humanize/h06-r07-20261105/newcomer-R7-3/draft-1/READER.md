@@ -1,0 +1,9 @@
+S1 | "During the seizure, I would also use topical magnesium chloride" | "Also" adds to what? And is this an instruction to me, when the section just said to put nothing into the mouth of someone convulsing? I can't tell whether applying things to the skin during a seizure is meant.
+S1 | "adjunct remedies" | Adjunct to what? The benzodiazepine, the aura methods, or something else?
+S1 | "topical magnesium chloride and consider topical DMSO" | What are magnesium chloride and DMSO, and what would either do for the person having a seizure?
+S1 | "a known-genuine CBD preparation" | How would I know it's genuine while a seizure is going on? And is this the same CBD that the next sentence calls "Purified oral CBD"?
+S1 | "(a lot of CBD is fake or very dilute)" | Why does this bear on the choice? The parenthesis gives a reason for "known-genuine", but I can't see what fake or dilute CBD would change for me in the moment.
+S2 | "Seizures come in all different types" | Which types matter to me here, and why does their variety come up before the point about the study?
+S2 | "we have no study on whether CBD could be a rescue remedy for a seizure" | What does "rescue remedy" mean here: a remedy used to stop a seizure that is already happening?
+S2 | "even though we do have studies showing long-term effectiveness to prevent them" | Why is long-term prevention here, when the person I'm helping is seizing now? It doesn't help me in that moment, and "even though" doesn't say what it is up against.
+S2 | "Purified oral CBD is approved for the seizures of Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex" | Why do I need these approvals at this point? Approved by whom, and does an approval for oral use say anything about the topical use in S1? "Tuberous sclerosis complex" is also not explained.

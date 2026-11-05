@@ -1,0 +1,82 @@
+[
+ {
+  "sentence": 1,
+  "quote": "topical CBD",
+  "gap": "What does \"topical\" mean here: applied to the skin, or to the whole body?",
+  "id": "L1",
+  "status": "drop",
+  "note": "his words, not part of this change; \"skin gel\" in the next sentence says it"
+ },
+ {
+  "sentence": 1,
+  "quote": "it hasn't been well-studied",
+  "gap": "Well-studied for what? Which use is meant?",
+  "id": "L2",
+  "status": "drop",
+  "note": "his words, not part of this change; the trial sentence says for preventing seizures"
+ },
+ {
+  "sentence": 2,
+  "quote": "although absorption was good",
+  "gap": "What is \"absorption\" here, and why would good absorption make it look like it should work?",
+  "id": "L3",
+  "status": "drop",
+  "note": "his words, not part of this change"
+ },
+ {
+  "sentence": 2,
+  "quote": "placebo",
+  "gap": "What is a placebo?",
+  "id": "L4",
+  "status": "drop",
+  "note": "his words, not part of this change; a common word"
+ },
+ {
+  "sentence": 2,
+  "quote": "to prevent seizures",
+  "gap": "Why is a result about preventing seizures here, when the friend is already seizing?",
+  "id": "L5",
+  "status": "drop",
+  "note": "his words, not part of this change; P3 offers CBD on the skin during a seizure, so the reader needs to know it is unproven"
+ },
+ {
+  "sentence": 3,
+  "quote": "focal epilepsy",
+  "gap": "What is focal epilepsy, and how is it different from the other kinds?",
+  "id": "L6",
+  "status": "drop",
+  "note": "the name is enough here: what matters is that it is a different kind from the reader's, and the next two sentences say which kind theirs is"
+ },
+ {
+  "sentence": 3,
+  "quote": "the syndromes it's approved for",
+  "gap": "Which syndromes, and what is \"it\" here: the gel or a drug? The names only come in the next sentence.",
+  "id": "L7",
+  "answer": "the syndromes oral CBD is approved for",
+  "raised": "the syndromes oral CBD is approved for"
+ },
+ {
+  "sentence": 4,
+  "quote": "Dravet and Lennox-Gastaut syndrome",
+  "gap": "What are these, and why name them here?",
+  "id": "L8",
+  "status": "drop",
+  "note": "named in P3 as the approved syndromes; here as the two whose seizures are like the reader's"
+ },
+ {
+  "sentence": 4,
+  "quote": "The seizures in Dravet and Lennox-Gastaut syndrome are mostly generalized.",
+  "gap": "What does \"generalized\" mean for a seizure, and why does the type matter to me?",
+  "id": "L9",
+  "answer": "Generalized are the type people usually have with MDMA & psychedelic overdoses, so topical CBD might do better for those",
+  "raised": "are mostly generalized"
+ },
+ {
+  "sentence": 5,
+  "quote": "Generalized are the type people usually have with MDMA & psychedelic overdoses.",
+  "gap": "What does this mean for topical CBD? Does the trial's result apply to my friend, and what am I supposed to conclude or do?",
+  "id": "L10",
+  "status": "drop",
+  "note": "what follows is said: the failed trial was in a different kind of patient, and the evidence that CBD works includes the reader's kind; what to do is in P3 and the DMSO paragraph"
+ }
+]

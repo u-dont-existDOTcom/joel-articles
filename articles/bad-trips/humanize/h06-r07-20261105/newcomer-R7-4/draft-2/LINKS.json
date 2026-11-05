@@ -1,0 +1,114 @@
+[
+ {
+  "sentence": 1,
+  "quote": "I also read on forums",
+  "gap": "\"Also\" adds to what? Which earlier claim is this extra to, and why is reading forums offered as evidence at all?",
+  "id": "L1",
+  "status": "drop",
+  "note": "his words, not part of this change: adds to the reports in the paragraph before"
+ },
+ {
+  "sentence": 1,
+  "quote": "some swear it stops the seizure from going any further",
+  "gap": "What is \"it\"? Cannabis, THC, CBD, or smoking? The paragraph above covers several forms, and I can't tell which one these people mean.",
+  "id": "L2",
+  "status": "drop",
+  "note": "his words, not part of this change: cannabis, from the paragraph before"
+ },
+ {
+  "sentence": 1,
+  "quote": "whose EEG showed",
+  "gap": "What is an EEG?",
+  "id": "L3",
+  "status": "drop",
+  "note": "his words, not part of this change"
+ },
+ {
+  "sentence": 1,
+  "quote": "there was one woman whose EEG showed fewer seizure discharges on the days she smoked",
+  "gap": "What do \"seizure discharges\" measure, and why does one woman's brain reading belong here? Does one case show anything about whether it works?",
+  "id": "L4",
+  "status": "drop",
+  "note": "his words, not part of this change: one case, reported as one"
+ },
+ {
+  "sentence": 1,
+  "quote": "on the days she smoked",
+  "gap": "Smoked what: THC, CBD, or both? The paragraph above treats them as separate things.",
+  "id": "L5",
+  "status": "drop",
+  "note": "his words, not part of this change: cannabis, from the paragraph before"
+ },
+ {
+  "sentence": 2,
+  "quote": "But other people say",
+  "gap": "What is \"But\" answering: the forum posters, the woman's EEG, or the claim that it stops seizures? Are these \"other people\" from the same forums?",
+  "id": "L6",
+  "status": "drop",
+  "note": "\"But\" answers \"some swear it stops the seizure\"; the same forums, as \"I also read on forums\" says"
+ },
+ {
+  "sentence": 2,
+  "quote": "THC vapes and concentrates",
+  "gap": "What are concentrates, and how do they differ from vapes?",
+  "id": "L7",
+  "status": "drop",
+  "note": "a common term"
+ },
+ {
+  "sentence": 2,
+  "quote": "brought their seizures on",
+  "gap": "How would THC bring a seizure on? Is this a reported timing, or a cause anyone has checked? The sentence doesn't say.",
+  "id": "L8",
+  "status": "drop",
+  "note": "reported, as \"people say\" says; the rats are the check"
+ },
+ {
+  "sentence": 3,
+  "quote": "That matches",
+  "gap": "What is \"That\": the vape claim in S2, or everything before it? And does \"matches\" mean the rat results agree with the reports, or only resemble them?",
+  "id": "L9",
+  "status": "drop",
+  "note": "\"That\" is the reports of seizures brought on; the rats agree with them"
+ },
+ {
+  "sentence": 3,
+  "quote": "rats that get the brief staring seizures called absence seizures",
+  "gap": "Why do rats with absence seizures matter to someone helping a person who is convulsing? Are absence seizures the kind this section is about? Do the rats have them naturally or were they induced?",
+  "id": "L10",
+  "status": "drop",
+  "note": "they are a generalized kind, and the point is which part of cannabis raised or cut them"
+ },
+ {
+  "sentence": 3,
+  "quote": "injected CBD cut the number about in half",
+  "gap": "The number of what? And why \"injected\", when the paragraph is about smoking, sprays and sublingual use? Nothing ties this CBD result to the advice above.",
+  "id": "L11",
+  "status": "drop",
+  "note": "the number of those seizures; injected because that is what the study did"
+ },
+ {
+  "sentence": 4,
+  "quote": "So the THC may be what makes cannabis help some people",
+  "gap": "What connects the rat and anecdote results to one substance doing both? The step from \"THC brings seizures on\" to \"THC is what helps\" isn't shown.",
+  "id": "L12",
+  "status": "drop",
+  "note": "fixed in the next draft: back to \"what makes cannabis go either way\", which both sides support"
+ },
+ {
+  "sentence": 4,
+  "quote": "makes cannabis help",
+  "gap": "Help with which seizures, and which effect: stopping one that is happening, or reducing them over time? The paragraph above mentions both.",
+  "id": "L13",
+  "status": "drop",
+  "note": "fixed in the next draft, as L12"
+ },
+ {
+  "sentence": 4,
+  "quote": "bring seizures on in others",
+  "gap": "What is the reader supposed to do with this during a seizure? None of the four sentences says whether to use or avoid cannabis at that moment, so why is it being told here?",
+  "id": "L14",
+  "status": "drop",
+  "note": "as draft-1 L10: the card asks Joel whether to add a line on using it at an aura"
+ }
+]

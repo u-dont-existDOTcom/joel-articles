@@ -339,6 +339,76 @@
     }
    ],
    "recorded_utc": "2026-11-05T15:40Z"
+  },
+  {
+   "turn": "2026-11-05T15:55Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (the same two, both in the ledger); UDA AGENTS.md 5160080 and LESSON-INDEX 7896422 unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "303 merged 15:50:58 UTC and 304 merged 15:51:13 UTC; 293 open; no new issue or review comments since 15:20"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff or questions page; branch fast-forwarded to main 4124558a"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "the GitHub notices on 303 and 304 (checks green, both merged), read"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's answers of 2026-11-05 15:55 UTC on Neuro De-Armoring Cards, 5 November, and his note that the bad trips guide is another lane's",
+     "outcome": "ATP-2 in; Y-93b and ATP-1 rejected (the fix stays; his version keeps the Calabrese change); the ketone paragraphs to him; E363, E364"
+    }
+   ],
+   "recorded_utc": "2026-11-05T16:08Z"
+  },
+  {
+   "turn": "2026-11-05T17:59Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (the same two, both in the ledger); UDA AGENTS.md 5160080 and LESSON-INDEX 7896422 unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "305 open with a conflict in docs/HUMANIZATION-GATE.md (main took the bad trips lane's E365 to E367 in pull request 306, merged 16:31 UTC); resolved by merging main, both sides kept; 293 open"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff or questions page"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "the GitHub notices on 305 (check passed), read"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 2026-11-05 17:59 UTC: 'pr has conflicts', a dedup pass on the whole article before going further, and more fact checking (protein to sugar via gluconeogenesis)",
+     "outcome": "conflict resolved and pushed; the dedup readers and the fact check under way this turn"
+    }
+   ],
+   "recorded_utc": "2026-11-05T18:00Z"
   }
  ]
 }

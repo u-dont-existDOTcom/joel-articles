@@ -1,0 +1,65 @@
+{
+ "detector": "pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356)",
+ "results": {
+  "b098-100": {
+   "uuid": "a6cec41f-20a3-4a13-86ff-6e09a28ca63d",
+   "at": "2026-11-05T16:03:47Z",
+   "headline": "AI Detected",
+   "ai": 0.695,
+   "words": 93,
+   "windows": [
+    [
+     "Human",
+     "Medium",
+     30,
+     "Strategy B, the \"Resilience Mode\", is the slow one. It's for the long run: a keto diet, with carbs under 20g/day so your liver makes the ketones itself."
+    ],
+    [
+     "AI-Generated",
+     "Low",
+     15,
+     "That only works if fat becomes your fuel, so eat fat until you're full."
+    ],
+    [
+     "AI-Generated",
+     "High",
+     28,
+     "Don't rely on lean protein like chicken breast alone, because your body turns the extra protein into sugar through gluconeogenesis, and that keeps you out of ketosis."
+    ],
+    [
+     "AI-Generated",
+     "Medium",
+     20,
+     "Switching over can bring on side effects for a while, and to avoid them, refer to my Keto Adaptation Guide."
+    ]
+   ]
+  },
+  "p095-100": {
+   "uuid": "d4a60ac2-e97c-4522-a960-b206aaf8eb73",
+   "at": "2026-11-05T16:03:58Z",
+   "headline": "AI Generated",
+   "ai": 1.0,
+   "words": 145,
+   "windows": [
+    [
+     "AI-Generated",
+     "Low",
+     34,
+     "You must pick one of two ketone strategies, ... Strategy A, the \"Crisis Mode\", is the fast one."
+    ],
+    [
+     "AI-Generated",
+     "Medium",
+     27,
+     "You keep eating a standard low-sugar diet and drink BHB (beta-hydroxybutyrate) salts to clear the fog. Strategy B, the \"Resilience Mode\", is the slow one."
+    ],
+    [
+     "AI-Generated",
+     "High",
+     84,
+     "It's for the long run: ... refer to my Keto Adaptation Guide."
+    ]
+   ]
+  }
+ }
+}

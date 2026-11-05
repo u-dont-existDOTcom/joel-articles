@@ -1,0 +1,67 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "neuro-de-armoring-cards-20261105-x1105b",
+ "title": "Neuro De-Armoring Cards, 5 November (2)",
+ "intro": [
+  "Your ATP-2 version is in the article (Human, High). The next two paragraphs, the two ketone strategies, still read AI after three tries each; these two cards ask for your versions.",
+  "Your answers save as you click. When you're done, click <b>Copy my answers</b> (or <b>Save them as a file</b>) and send them to me."
+ ],
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1105B.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "ae8acc3a744e936f3ebc4379212dd902ce7473e54f9e7c788f98b5c2ec942403"
+ },
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1105B.md"
+ },
+ "built": "2026-11-05 16:07 UTC",
+ "types": {
+  "help": {
+   "label": "Help me see what I'm missing",
+   "about": "A paragraph my tries couldn't get to read Human. Edit it the way you would, or keep it as it is."
+  },
+  "fix": {
+   "label": "A fix to your version",
+   "about": "Something in your version that doesn't hold, changed in the article, with the reason. Keep the fix, or edit the paragraph your way."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "K-1",
+   "type": "help",
+   "title": "\"You must pick one of two ketone strategies ...\"",
+   "advice": "edit",
+   "keep_label": "keep it as it is",
+   "spans": [
+    {
+     "block": 95,
+     "start": 0,
+     "end": 305
+    }
+   ],
+   "reading": "three tries, checked with the next paragraph (it is 40 words, under Pangram's 50): [100% AI](https://www.pangram.com/history/24187764-991e-4d12-8072-963e7219314e), [100%](https://www.pangram.com/history/d4a60ac2-e97c-4522-a960-b206aaf8eb73), and this one, [100%](https://www.pangram.com/history/2d2d6dc2-2232-4460-8b86-751f044f80a3) (AI High on the first sentence, Low on the last).",
+   "why": "Your post had \"KETONE DECISION: You must choose your fuel strategy. This determines your electrolyte protocol.\" and \"Strategy A: The \"Crisis Mode\" ... Method: You eat a standard low-sugar diet but drink Ketones (BHB Salts) to clear the fog.\" What I changed for sense: why the choice touches the electrolytes (BHB salts bring their own sodium, and a keto diet drains it, which is why your Part 3 says not to load extra salt on Strategy A), and Strategy A said by the case it is for. The names Strategy A and \"Crisis Mode\" stay, because Part 3 and the timeline refer back to them. I can't find any more AI tells here, and I see some human tells, like \"need the fog gone fast\"... can you help show me the tells I'm missing? ([The readers' notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/panel/x1105-ketone/PANEL.md))",
+   "advice_note": "Edit it your way; it stays as it is in the article meanwhile.",
+   "found_by": "This turn's checks in your account, 5 November"
+  },
+  {
+   "id": "K-2",
+   "type": "help",
+   "title": "\"For the long run there's Strategy B, the \"Resilience Mode\" ...\"",
+   "advice": "edit",
+   "keep_label": "keep it as it is",
+   "spans": [
+    {
+     "block": 97,
+     "start": 0,
+     "end": 477
+    }
+   ],
+   "reading": "three tries: [100% AI](https://www.pangram.com/history/94d586d1-bab4-40c9-9ff8-fc5240043f75), [70%](https://www.pangram.com/history/a6cec41f-20a3-4a13-86ff-6e09a28ca63d) and this one, [71%](https://www.pangram.com/history/2c76e3b4-deac-493c-9aab-a5affbedfb1e): the first sentence Human (Medium), then \"That only works if fat becomes your fuel ...\" AI Low, the protein warning AI High and the guide line AI Medium.",
+   "why": "Your post had \"Strategy B: The \"Resilience Mode\" (Keto Diet) Method: You restrict carbs (<20g/day) to force your liver to produce Ketones.\", \"Fat: EAT FAT TO SATIETY. This is your new energy source. Do not rely on lean protein alone (chicken breast), or your body will convert the protein to sugar (Gluconeogenesis), keeping you out of ketosis.\" and the Keto Adaptation Guide line. What I changed for sense: Strategy B said as the long-run one (your timeline moves people to it \"for long-term repair\"), the protein warning said as what it is instead of (\"Don't fill up on lean protein ... instead\"), and the side effects named as the keto flu. The protein warning is the part that won't move. I can't find any more AI tells here, and I see some human tells, like \"eat fat until you're full\"... can you help show me the tells I'm missing? ([The readers' notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/panel/x1105-ketone/PANEL.md))",
+   "advice_note": "Edit it your way, the protein warning especially; it stays as it is in the article meanwhile.",
+   "found_by": "This turn's checks in your account, 5 November"
+  }
+ ]
+}

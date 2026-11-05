@@ -1,0 +1,58 @@
+[
+ {
+  "sentence": 1,
+  "quote": "I would use topical magnesium chloride",
+  "gap": "What is topical magnesium chloride supposed to do during a seizure, and how does putting it on the skin do that?",
+  "id": "L1",
+  "status": "drop",
+  "note": "explained in the guide's MDMA section, the magnesium alarm"
+ },
+ {
+  "sentence": 1,
+  "quote": "topical DMSO",
+  "gap": "What is DMSO, and what does it do on the skin?",
+  "id": "L2",
+  "status": "drop",
+  "note": "the DMSO paragraph after the cannabis paragraphs, and the guide's earlier sections"
+ },
+ {
+  "sentence": 1,
+  "quote": "a known-genuine CBD preparation",
+  "gap": "How would a helper know a CBD preparation is genuine, and what does \"preparation\" mean here?",
+  "id": "L3",
+  "status": "drop",
+  "note": "his words, not part of this change; his parenthetical says why it matters"
+ },
+ {
+  "sentence": 2,
+  "quote": "Seizures come in all different types",
+  "gap": "Why does the variety of seizure types matter to whether CBD could work as a rescue? The sentence doesn't connect the two.",
+  "id": "L4",
+  "status": "drop",
+  "note": "his words, not part of this change; the types clause sets up the list of syndromes the drug is approved for"
+ },
+ {
+  "sentence": 2,
+  "quote": "a rescue remedy for a seizure",
+  "gap": "What is a rescue remedy, and how is it different from a treatment that prevents seizures?",
+  "id": "L5",
+  "status": "drop",
+  "note": "his words, not part of this change; \"rescue\" is set against \"to prevent them\" in the same sentence"
+ },
+ {
+  "sentence": 2,
+  "quote": "even though we do have studies showing long-term effectiveness to prevent them",
+  "gap": "Why are prevention studies mentioned in a discussion of stopping a seizure now? The \"even though\" sets them against the rescue question, but the reader can't see what they have to do with it.",
+  "id": "L6",
+  "status": "drop",
+  "note": "his words, not part of this change; the contrast is between no rescue study and the prevention studies"
+ },
+ {
+  "sentence": 2,
+  "quote": "Purified oral CBD is approved for the seizures of Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex.",
+  "gap": "Approved by whom, and does the approval cover only these three conditions? What is a syndrome, and what does this list do for a person helping someone through a seizure now?",
+  "id": "L7",
+  "status": "drop",
+  "note": "his words, not part of this change; the guide links the FDA label, and why it matters to this reader is in the topical CBD paragraph"
+ }
+]

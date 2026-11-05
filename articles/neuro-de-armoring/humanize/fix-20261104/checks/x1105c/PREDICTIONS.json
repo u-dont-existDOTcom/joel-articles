@@ -1,0 +1,24 @@
+[
+ {
+  "key": "p095-100",
+  "name": "the ketone decision and Strategy A (with Strategy B), try 3",
+  "lineage": "ND1105-B095-096",
+  "scope": "paragraph",
+  "words": 138,
+  "call": "AI",
+  "chance": 0.4,
+  "why": "both panel readers agreed on the signpost (\"the next part covers both\"), the matched \"Strategy A ... is the fast one\" / \"Strategy B ... is the slow one\" frames, \"It's for the long run\", the unnamed \"side effects\" and \"to clear the fog\". Each read as a sense gap first (E360): the choice now says why it touches the electrolytes (BHB salts bring sodium, the keto diet drains it), each strategy is said by the case it is for in its own shape, and the side effects are named (the keto flu, which the guide's address names)",
+  "sha256": "aaf46e2722c0aa828b278c6c0fdc20ed14a216c9e0957ce7bcbbdc16d96f09da"
+ },
+ {
+  "key": "b098-100",
+  "name": "Strategy B, eating fat, and the keto guide, try 3",
+  "lineage": "ND1105-B098-100",
+  "scope": "paragraph",
+  "words": 84,
+  "call": "AI",
+  "chance": 0.45,
+  "why": "try 2 read 70% AI with its first two sentences Human (Medium); the AI windows were the protein warning (High) and the guide line (Medium). The protein warning now says what it is the alternative to (\"Don't fill up on lean protein like chicken breast instead\", after \"eat fat until you're full\"), and the guide line names the keto flu",
+  "sha256": "2d4e07ef22436168a4a271664c1dbe25655c889dd1843672cd1983571d3869c2"
+ }
+]

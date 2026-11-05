@@ -1,0 +1,82 @@
+[
+ {
+  "sentence": 1,
+  "quote": "one woman whose EEG showed fewer seizure discharges",
+  "gap": "What is an EEG, and what are seizure discharges? I can't tell what was measured or what counts as fewer of them.",
+  "id": "L1",
+  "status": "drop",
+  "note": "his words, not part of this change"
+ },
+ {
+  "sentence": 1,
+  "quote": "on the days she smoked",
+  "gap": "Smoked what: CBD, THC, or cannabis in general? The previous part doesn't say which one she used.",
+  "id": "L2",
+  "status": "drop",
+  "note": "his words, not part of this change: cannabis, from the paragraph before"
+ },
+ {
+  "sentence": 1,
+  "quote": "one woman whose EEG showed",
+  "gap": "Why is one person's brain reading here, and what is it supposed to show about whether smoking stops a seizure?",
+  "id": "L3",
+  "status": "drop",
+  "note": "his words, not part of this change: one case, reported as one"
+ },
+ {
+  "sentence": 2,
+  "quote": "brought their seizures on",
+  "gap": "How does THC bring a seizure on? The sentence gives the result but not the way it happens.",
+  "id": "L4",
+  "status": "drop",
+  "note": "mechanism isn't needed for the reader's choice"
+ },
+ {
+  "sentence": 3,
+  "quote": "That matches what happened in rats",
+  "gap": "What does the rat result match: seizures being brought on, or seizures being made worse? The sentence before says \"brought on\", and the rats' seizures were made worse, not started.",
+  "id": "L5",
+  "status": "drop",
+  "note": "fixed in the next draft: \"gave them more of those seizures\" matches \"brought their seizures on\""
+ },
+ {
+  "sentence": 3,
+  "quote": "high-THC smoke",
+  "gap": "What does \"high-THC\" mean: a stronger strain, a bigger dose, or something else?",
+  "id": "L6",
+  "status": "drop",
+  "note": "a common term (high-THC cannabis)"
+ },
+ {
+  "sentence": 3,
+  "quote": "in rats that get the brief staring seizures called absence seizures",
+  "gap": "Why is a rat study here, and what do a rat's absence seizures have to do with the seizure someone is having now?",
+  "id": "L7",
+  "status": "drop",
+  "note": "\"That matches what happened in rats\" says why they are there: they back the reports"
+ },
+ {
+  "sentence": 3,
+  "quote": "while injected CBD cut them about in half",
+  "gap": "What is the \"while\" setting against, and half of what? Seizures counted, or time? The CBD was injected, which none of the people reports involved.",
+  "id": "L8",
+  "status": "drop",
+  "note": "fixed in the next draft: \"cut the number about in half\"; injected because that is what the study did"
+ },
+ {
+  "sentence": 4,
+  "quote": "So the THC may be why it helps some people",
+  "gap": "What is \"it\": the smoking or the THC? And what step makes one cause explain both the help and the harm, when the CBD result is about a different drug?",
+  "id": "L9",
+  "status": "drop",
+  "note": "fixed in the next draft: \"cannabis\" for \"it\", and the conclusion back to what both sides support"
+ },
+ {
+  "sentence": 4,
+  "quote": "brings seizures on in others",
+  "gap": "What should the reader do with this during a seizure: use THC, avoid it, or neither?",
+  "id": "L10",
+  "status": "drop",
+  "note": "the paragraph says it can go either way and THC is the likely reason; whether to use it at an aura is the reader's call, and the card asks Joel whether to add a line"
+ }
+]
